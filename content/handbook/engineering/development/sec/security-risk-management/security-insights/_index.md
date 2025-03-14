@@ -168,7 +168,8 @@ These boards show current status of issues.
 #### Prerequisites
 
 Ensure the following before running tests:
-*`gdk` is up and running
+
+* `gdk` is up and running
 * Runner is up and running
 * Set `GITLAB_SIMULATE_SAAS` to 0 inside your `env.runit` in the `gitlab-development-kit` directory: `export GITLAB_SIMULATE_SAAS=0`
 * Ensure EE License is set as an environment variable.
@@ -178,6 +179,7 @@ Ensure the following before running tests:
 Use the following command to run tests locally against your GDK instance:
 
 #### Running against your `gdk`
+
 * With a feature flag enabled:
    ```
     WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --enable-feature <feature_flag_name>
@@ -216,31 +218,31 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
 
 * Error: QA::Resource::Sandbox Fabrication Failed
   * Error Message:
-    ```
-    Fabrication of QA::Resource::Sandbox using the API failed (400) with `{ "message": "Failed to save group {:visibility_level=>["public has been restricted by your GitLab administrator"]}" }`
-    ```
+  ```
+  Fabrication of QA::Resource::Sandbox using the API failed (400) with `{ "message": "Failed to save group {:visibility_level=>["public has been restricted by your GitLab administrator"]}" }`
+  ```
   * Solution:
     * Navigate to GDK Admin Area → General
     * Under Restricted Visibility Levels, ensure none of the checkboxes are selected.
 
 * Error: API Client Validation Failed
-   * Error message:
-       ```
-      An error occurred in a `before(:suite)` hook.
-      Failure/Error: raise InvalidTokenError, "API client validation failed! Code: #{resp.code}, Err: '#{resp.body}'"
-      ```
-   * Solution:
-     - Ensure your user verification is complete before running a pipeline.
-     - Check if your API token is valid.
+  * Error message:
+    ```
+    An error occurred in a `before(:suite)` hook.
+    Failure/Error: raise InvalidTokenError, "API client validation failed! Code: #{resp.code}, Err: '#{resp.body}'"
+    ```
+  * Solution:
+    * Ensure your user verification is complete before running a pipeline.
+    * Check if your API token is valid.
 
 * Error: Namespace is Not Valid
    * Error message:
-       ```
-      QA::Resource::Errors::ResourceFabricationFailedError:
-      Fabrication of QA::Resource::Project using the API failed (400) with `{"message":{"namespace":["is not valid"]}}`.
-      ```
+    ```
+    QA::Resource::Errors::ResourceFabricationFailedError:
+    Fabrication of QA::Resource::Project using the API failed (400) with `{"message":{"namespace":["is not valid"]}}`.
+    ```
    * Solution:
-     - Reset your gdk, by running `gdk data-reset`
+     * Reset your gdk, by running `gdk data-reset`
 
 ### Running E2E specs in the MR pipeline
 
