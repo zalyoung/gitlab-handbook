@@ -43,7 +43,7 @@ This section lists relevant experience areas for individual contributors interes
 **Communicating company decisions**
 
 * Annual review, calibration sessions, compensation discussions
-* Motivating team members on opportunities that come with negatives (borrow requests, engineering allocations, feature change locks)
+* Motivating team members on opportunities that come with negatives (engineering allocations, feature change locks)
 
 </details>
 
@@ -57,7 +57,6 @@ This section lists relevant experience areas for individual contributors interes
 * Collaborative planning
 * Proactively identifying issues or recommending engineering allocations
 * Leading an incident in your area
-* Proposing and driving a borrow request (reactive)
 * Shared OKRs and delivery
 
 </details>

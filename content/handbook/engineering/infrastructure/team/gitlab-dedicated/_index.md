@@ -253,7 +253,7 @@ The groups cover the following use-cases:
     - All permanent team-members of individual teams gain access to their respective GitLab group as part of onboarding
     - Group mention should be used when the information shared is pertinent to the respective team
 1. Individual team GitLab Dedicated groups have two additional subgroups `maintainers` and `reviewers`, for example: `@gitlab-dedicated/switchboard/maintainers`
-    - `reviewers` GitLab group access is granted to permanent team-members, external contractors, team-members on borrow, and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, for example `/assign_reviewer @gitlab-dedicated/switchboard/reviewers`
+    - `reviewers` GitLab group access is granted to permanent team-members, external contractors, and similar. This GitLab group type is used to distinguish users without merge rights. Initial reviews should be requested from this group, using the quick action, for example `/assign_reviewer @gitlab-dedicated/switchboard/reviewers`
     - `maintainers` GitLab group is granted to permanent team-members only. This group has merge rights, and the group is granted access through [CODEOWNERS approval rules](https://docs.gitlab.com/ee/user/project/codeowners/#code-owners). Team members onboard into the `maintainer` subgroup after meeting the requirements defined in the [Dedicated Maintainer Training](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/maintainer_training.md)(internal only)
 
 ### Project Management

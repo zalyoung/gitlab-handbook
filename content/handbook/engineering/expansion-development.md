@@ -353,7 +353,6 @@ quality, product management, and development.
 Execution of a Global prioritization can take many forms.  This is worked with both Product and Engineering Leadership engaged.  Either party can activate a proposal in this area.  The options available and when to use them are the following:
 
 - [Rapid action](/handbook/product/product-processes/#rapid-action) - use when reassignment isn't necessary, the epic can have several issues assigned to multiple teams
-- [Borrow](/handbook/product/product-processes/#borrow) - use when a temporary assignment to a team is required to help resolve an issue/epic
 - [Realignment](/handbook/people-group/promotions-transfers/#realignment-of-team-members-impacting-multiple-teams) - use when a permanent assignment to a team is required to resolve ongoing challenges
 
 ### Email alias and roll-up
