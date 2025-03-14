@@ -90,7 +90,7 @@ The Duo Workflow Team communicates based on the following guidelines:
 
 ## Sentry Error Triage
 
-New sentry errors for the Duo Workflow Service and Executor are coming into the [#g_duo_workflow_alerts_channel]. We set up a triage process in order to stay on top of these errors.
+New sentry errors for the Duo Workflow Service and Executor are coming into the [#g_duo_workflow_alerts channel](https://app.slack.com/client/E03N1RJJX7C/C07V276CFQX). We set up a triage process in order to stay on top of these errors.
 Every week a different backend engineer of the team is responsible for triaging new messages in this channel.
 The schedule for triage shifts can be found in the [iteration issues](https://gitlab.com/groups/gitlab-org/-/epics/16048).
 While on shift the engineer should:
