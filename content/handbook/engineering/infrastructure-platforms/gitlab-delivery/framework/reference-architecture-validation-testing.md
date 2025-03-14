@@ -3,7 +3,7 @@ title: "Reference Architectures - Validation and Testing"
 description: "The GitLab Delivery: Framework team maintains and validates the GitLab Reference Architectures - Validated, production-ready environment designs for deploying GitLab at scale."
 ---
 
-The GitLab Delivery: Framework team maintains and validates the [GitLab Reference Architectures](https://docs.gitlab.com/administration/reference_architectures) - production-ready environment designs for deploying GitLab at scale. This documentation details the  testing process that ensures these architectures meet performance standards.
+The [GitLab Delivery: Framework team](_index.md) maintains and validates the [GitLab Reference Architectures](https://docs.gitlab.com/administration/reference_architectures) - production-ready environment designs for deploying GitLab at scale. This documentation details the testing process that ensures these architectures meet performance standards.
 
 ## Overview
 
