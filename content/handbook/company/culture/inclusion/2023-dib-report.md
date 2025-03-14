@@ -33,7 +33,6 @@ help our users change the world.
 
 > To be updated
 
-
 ## GitLab's DIB vision
 
 **Diversity, Inclusion and Belonging has
