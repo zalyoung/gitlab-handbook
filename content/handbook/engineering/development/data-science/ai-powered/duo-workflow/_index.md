@@ -131,7 +131,6 @@ Demo, Progress and sharing designs is ok, but internal feedback issues and unstr
 ## 🔗 Useful Links
 
 * [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/duo-workflow)
-* [Duo Workflow troubleshooting](troubleshooting.md)
 * [LangGraph Workshop](https://gitlab.com/gitlab-org/duo-workflow/langgraph-workshop)
 
 ### 📝 Dashboards (internal only)
