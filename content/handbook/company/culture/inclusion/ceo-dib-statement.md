@@ -5,5 +5,4 @@ description: "GitLab's CEO Statement - TBD."
 
 To be updated 
 
-
 To be updated
