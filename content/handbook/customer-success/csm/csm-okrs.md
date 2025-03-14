@@ -111,7 +111,7 @@ This will have significant impacts on both GitLab and its customers:
 
 ### GLQL Tracking Table
 
-Whereas previous iterations used issue boards for tracking work, the team is currently using a GLQL tracker within [this wiki](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/wikis/home).
+Whereas previous iterations used issue boards for tracking work, the team is currently using a GLQL tracker within [the CSMERM wiki](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/wikis/home).
 
 ### Proposing OKRs
 
@@ -119,7 +119,7 @@ Whereas previous iterations used issue boards for tracking work, the team is cur
 
 - Team members choose the appropriate subgroup and project for their issue. These are organized by region and role, with one subgroup for cross collaboration between these. If you are unsure which project to open your issue in, default to your team's region and role (e.g. a CSM located in AMER would choose subgroup `AMER CS` and project `CSM`), or ask your manager for guidance.
 
-- Team members create new issues with the "CS-Status::Proposed" scoped label.
+- Team members create new issues with the `CS-Status::Proposed` scoped label.
 
 - Use the issue template below for consistent information capture. The template should capture:
 
@@ -143,7 +143,7 @@ Whereas previous iterations used issue boards for tracking work, the team is cur
 
 ## Review and Prioritization
 
-- Regular management team meetings to review "CS-Status::Proposed" issues
+- Regular management team meetings to review `CS-Status::Proposed` issues
 
 - Categorize and prioritize issues using the labeling system (this should link to the labeling system section below) 
 
@@ -151,13 +151,13 @@ Whereas previous iterations used issue boards for tracking work, the team is cur
 
 - Identify 2x CSx, at least one Staff/Senior to manage the issue
 
-- Remove the CS-Status::Proposed label after review
+- Remove the `CS-Status::Proposed` label after review
 
 ## Workload Management
 
-- Use CS-Priority::Top-5 label for immediate action items determined by Mgr CS (This would include when tied back to a Big Rock or OKR)
+- Use `CS-Priority::Top-5` label for immediate action items determined by Mgr CS (This would include when tied back to a Big Rock or OKR)
 
-- Assign CS-Priority::High issues to the current sprint/work cycle determined Mgr CS
+- Assign `CS-Priority::High` issues to the current sprint/work cycle determined Mgr CS
 
 - Utilize GitLab boards for workflow visualization
 
@@ -175,11 +175,11 @@ Whereas previous iterations used issue boards for tracking work, the team is cur
 
 - Implement time tracking on issues
 
-- Use the CS-Status::Concern scoped label for issues facing obstacles and require leadership assistance
+- Use the `CS-Status::Concern` scoped label for issues facing obstacles and require leadership assistance
 
-- Use the CS-Status::On Track scoped label for issues progressing as expected
+- Use the `CS-Status::On Track` scoped label for issues progressing as expected
 
-- Use the CS-Status::On Hold scoped label for issues that are temporaryily paused
+- Use the `CS-Status::On Hold` scoped label for issues that are temporaryily paused
 
 ## Triage Bot Policies
 
@@ -201,9 +201,9 @@ Each policy contains rules for the resource set. These rules are contained withi
 
 ## Completion and Review
 
-When the work is complete, label the issue with "CS-Status::Ready for Review" to indicate that it is done and needs final review by CS Managers and potentially external stakeholders.
+When the work is complete, label the issue with `CS-Status::Ready for Review` to indicate that it is done and needs final review by CS Managers and potentially external stakeholders.
 
-- Prior to tagging "CS-Status::Ready for Review", conduct retrospectives and provide summary lessons learned on the issue. Ensuring we have Lessons Learnt or Objectives Achieved allows us to share & celebrate the work done and completed.
+- Prior to tagging `CS-Status::Ready for Review`, conduct retrospectives and provide summary lessons learned on the issue. Ensuring we have Lessons Learnt or Objectives Achieved allows us to share & celebrate the work done and completed.
 
 - Post Review, if no other action is required, move completed issues to "Done" on the board.
 
