@@ -96,7 +96,7 @@ flowchart TD
 
 #### Ticket Handover Process
 
-When taking over a ticket that has the out_of_office tag:
+When taking over a ticket that has the `out_of_office` tag:
 
 1. Review unassigned tickets for your region from the Global Suppport Ticket View.
 1. Remove the `out_of_office` tag from the ticket.
