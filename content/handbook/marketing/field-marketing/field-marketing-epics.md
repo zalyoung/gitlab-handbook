@@ -3,6 +3,8 @@ title: "Field Marketing Epics"
 description: "A comprehensive list of all of Field Marketing's epic codes."
 ---
 
+`PLEASE NOTE:` This page is deprecated as the Field Marketing team now utilizes [Asana](https://handbook.gitlab.com/handbook/marketing/marketing-operations/asana/).
+
 ## Conference (In-Person)
 
 ```markdown
