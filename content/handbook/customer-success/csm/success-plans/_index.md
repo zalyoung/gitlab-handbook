@@ -36,7 +36,11 @@ Once an objective has been fully defined, one or more initiatives are created as
 
 ### Verifiable Outcomes
 
-Verifiable Outcomes (VOs) are a framework designed enhance the objectivity and visibility of customer achievements through adoption of GitLab.
+Verifiable Outcomes (VOs) are a framework designed enhance the objectivity and visibility of customer achievements through adoption of GitLab. For a full video-based introduction to the concept, feel free to review the embedded youtube below (must be signed into GitLab Unfiltered account):
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/i3n4cMMIJz8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 #### *Why* Verifiable Outcomes?
 
