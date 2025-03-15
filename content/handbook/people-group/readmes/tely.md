@@ -1,17 +1,16 @@
 ---
 title: "Tre Ely's README"
-description: "This page is Tre Ely's README and is intended to be helpful when interacting with him."
+description: "This README serves as my personal user guide, designed to help you understand how I work, communicate, and collaborate. It provides insights into my values, leadership style, and preferences that will make our interactions more effective and enjoyable. Think of it as a roadmap for how we can best work together while having fun along the way. I've created this to be transparent about who I am and how I operate."
 ---
 
-<!-- This template will help you build out your very own GitLab README, a great tool for transparently letting others know what it's like to work with you, and how you prefer to be communicated with. Each section is optional. You can remove those you aren't comfortable filling out, and add sections that are germane to you. -->
+## “What about ME!?!” (About Me)
 
-## “What about ME!?!” (Tre's README)
-
-Well HELLO! I’m Tre, short for “Trenholm” (ask me about it later), and I am intrinsically enthusiastic about almost everything. My pronouns are HE/HIM/HIS, and my name is pronounced just like “TRAY” as in ice tray or serving tray; because I serve all day every day, haha. I like to have fun and actively choose JOY whenever I can. I don’t take things too seriously, unless it’s about proper brunch hours.
+:wave: Hello there! I'm Tre (short for my [Government First Name], but ask me about that later). I bring genuine enthusiasm to everything I do, both professionally and personally. My pronouns are HE/HIM/HIS, and my name is pronounced like "TRAY." :sparkles: I believe in approaching work with both purpose and JOY, finding a decent balance between getting things done and enjoying the journey along the way. :performing_arts: As someone passionate about the ART and SCIENCE of real life experiences, I love creating meaningful growth moments with real world results (informed with data, and aimed for impact). :mag: I value authentic connections and strive to create positive experiences in all my interactions. While I maintain a lighthearted approach to most things, I'm serious about investing in people and aligning human-first PEOPLE STRATEGY to BUSINESS STRATEGY and helping people AND organization THIVE. :seedling:
+<i class="fa-brands fa-gitlab fa-2xl -text-primary"></i>
 
 ## “You Betta Work!” (My Job)
 
-At GitLab, I lead our Talent Development function and I’ve been working as a learning professional for decades.
+At GitLab, I lead our Talent Management & Development function within the People Group Division. Thi
 
 (Additional unnecessary context) My work spans a lot of different disciplines, but when it comes to organization development I have deep experience in learning & development (“L&D”), talent management, organizational development, knowledge management, library sciences, experience design, curriculum development, content development, and learning technologies.
 
@@ -48,33 +47,3 @@ Collaboration: I thrive in collaborative environments where ideas can flow freel
 Honesty
 Feedback
 Innovation
-
-## “Stronger, Better, Faster, Sleepy” (My Leadership Strengths and Areas of Improvement)
-
-### Building High Performing Teams
-
-### My approach
-
-### What I’ve learned
-
-### Baseline Expectations for My Team Members
-
-### What I think I’m giving, And I what I expect to get back
-
-## Cross Functional Collaboration (Real Talk)
-
-## Scaled Solutions and Real Business Impact
-
-### “Beyond Programs”
-
-### “ROI FYI"
-
-## Open, Direct, Feedback
-
-## Creative Outlets
-
-## Growth Mindset
-
-## Challenges I’m tackling
-
-## My Soundtrack
