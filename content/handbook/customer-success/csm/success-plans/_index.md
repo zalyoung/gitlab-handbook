@@ -77,21 +77,21 @@ To be *SMART*, outcomes must include:
 
 Verifiable outcomes progress through a four-stage process, represented by scoped labels applied to objective epics in the success plan:
 
-1. *~Verifiable Outcome::***Proposed**
+1. ~Verifiable Outcome::**Proposed**
    - Gather baseline metrics
    - Craft a plan with summary and child initiatives
    - Strategize with peers, account team, and manager
    - Present to customer (preferably in a cadence call)
    - Adjust based on customer feedback
 
-2. *~Verifiable Outcome::***Accepted**
+2. ~Verifiable Outcome::**Accepted**
    - The customer is aligned on baseline measures, success criteria, and timeline
 
-3. *~Verifiable Outcome::***Delivered** 
+3. ~Verifiable Outcome::**Delivered** 
    - Execute on the planned initiatives
    - Track progress against established metrics
 
-4. *~Verifiable Outcome::***Verified**
+4. ~Verifiable Outcome::**Verified**
    - The customer has validated that the desired objective was achieved
    - Document business impact, in the customer's words
 
