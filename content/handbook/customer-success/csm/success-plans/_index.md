@@ -38,7 +38,7 @@ Once an objective has been fully defined, one or more initiatives are created as
 
 Verifiable Outcomes (VOs) are a framework designed enhance the objectivity and visibility of customer achievements through adoption of GitLab.
 
-#### /Why/ Verifiable Outcomes?
+#### *Why* Verifiable Outcomes?
 
 Much like buying a treadmill, the purchase of enterprise software only creates meaningful return on investment through careful planning, and dedicated effort over a sustained period of time. To avoid the trap of the metaphorical "treadmill" becoming a disused ornament where laundry is hung— it's crucial that Gitlab's account teams partner with customers to:
 
@@ -73,21 +73,21 @@ To be *SMART*, outcomes must include:
 
 Verifiable outcomes progress through a four-stage process, represented by scoped labels applied to objective epics in the success plan:
 
-1. /~Verifiable Outcome::/**Proposed**
+1. *~Verifiable Outcome::***Proposed**
    - Gather baseline metrics
    - Craft a plan with summary and child initiatives
    - Strategize with peers, account team, and manager
    - Present to customer (preferably in a cadence call)
    - Adjust based on customer feedback
 
-2. /~Verifiable Outcome::/**Accepted**
+2. *~Verifiable Outcome::***Accepted**
    - The customer is aligned on baseline measures, success criteria, and timeline
 
-3. /~Verifiable Outcome::/**Delivered** 
+3. *~Verifiable Outcome::***Delivered** 
    - Execute on the planned initiatives
    - Track progress against established metrics
 
-4. /~Verifiable Outcome::/**Verified**
+4. *~Verifiable Outcome::***Verified**
    - The customer has validated that the desired objective was achieved
    - Document business impact, in the customer's words
 
@@ -96,8 +96,8 @@ Verifiable outcomes progress through a four-stage process, represented by scoped
 When developing verifiable outcomes:
 
 - **Talk to your stakeholders. Ask open-ended "TED" questions.**
-  - "*T*ell me about the most important priorities for your team. How do they relate to broader company objectives?"
-  - "*E*xplain...," "*D*escribe how...," etc.
+  - "**T**ell me about the most important priorities for your team. How do they relate to broader company objectives?"
+  - "**E**xplain...," "**D**escribe how...," etc.
 
 - **Leverage the resources and examples available to you, including:**
   - Publicly available annual/quarterly investor reports
