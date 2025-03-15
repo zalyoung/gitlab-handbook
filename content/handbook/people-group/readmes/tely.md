@@ -55,7 +55,7 @@ Some of the most impactful work happens in these blended spaces:
 | **Performance & Development Planning** | Using performance insights to create targeted growth opportunities that help team members advance |
 | **Leadership Assessment & Development** | Identifying leadership potential and creating customized development paths for future leaders |
 | **Career Experience Design** | Creating meaningful work experiences that simultaneously deliver business results and provide growth opportunities |
-| **Talent Mobility** | Enabling internal movement that addresses organizational needs while supporting individual career aspirations |
+| **Mobility** | Enabling internal growth that addresses organizational needs while supporting individual career aspirations |
 | **Skills-Based Workforce Planning** | Aligning our future capability needs with strategic development investments |
 
 This integrated approach helps us avoid the common pitfall of treating performance management and development as separate activities. Instead, we create a holistic talent ecosystem where assessment informs development, and development drives performance—creating a virtuous cycle of growth.
