@@ -106,7 +106,6 @@ committed to that investment, and will continue to improve year over year.
 
 At GitLab we are building an inclusive workplace by:
 
-- Beating our aspirational representation goal of 30% senior women in leadership by 7%
 - Increasing our underrepresented group representation across all job grades, exceeding our CTO and CEO aspirational quarterly goals focused on URG management and senior leadership
 - Establishing 3 new [Team Member Resource Groups (TMRGs)](/handbook/company/culture/inclusion/#tmrgs---team-member-resource-groups) focused on inclusion and belonging: GitLab [Caregivers](/handbook/company/culture/inclusion/tmrg-caregivers/), [Global Voices](/handbook/company/culture/inclusion/tmrg-global-voices/), and [Black@GitLab](/handbook/company/culture/inclusion/tmrg-gitlab-black/)
 
