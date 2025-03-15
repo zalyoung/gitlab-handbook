@@ -5,8 +5,9 @@ description: "This README serves as my personal user guide, designed to help you
 
 ## “What about ME!?!” (About Me)
 
-:wave: Hello there! I'm Tre (short for my [Government First Name], but ask me about that later). I bring genuine enthusiasm to everything I do, both professionally and personally. My pronouns are HE/HIM/HIS, and my name is pronounced like "TRAY." :sparkles: I believe in approaching work with both purpose and JOY, finding a decent balance between getting things done and enjoying the journey along the way. :performing_arts: As someone passionate about the ART and SCIENCE of real life experiences, I love creating meaningful growth moments with real world results (informed with data, and aimed for impact). :mag: I value authentic connections and strive to create positive experiences in all my interactions. While I maintain a lighthearted approach to most things, I'm serious about investing in people and aligning human-first PEOPLE STRATEGY to BUSINESS STRATEGY and helping people AND organization THIVE. :seedling:
 <i class="fa-brands fa-gitlab fa-2xl -text-primary"></i>
+
+:wave: Hello there! I'm Tre (short for my [Government First Name], but ask me about that later). I bring genuine enthusiasm to everything I do, both professionally and personally. My pronouns are HE/HIM/HIS, and my name is pronounced like "TRAY." :sparkles: I believe in approaching work with both purpose and JOY, finding a decent balance between getting things done and enjoying the journey along the way. :performing_arts: As someone passionate about the ART and SCIENCE of real life experiences, I love creating meaningful growth moments with real world results (informed with data, and aimed for impact). :mag: I value authentic connections and strive to create positive experiences in all my interactions. While I maintain a lighthearted approach to most things, I'm serious about investing in people and aligning human-first PEOPLE STRATEGY to BUSINESS STRATEGY and helping people AND organization THIVE. :seedling:
 
 ## “You Betta Work!” (My Job)
 
