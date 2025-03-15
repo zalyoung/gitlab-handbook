@@ -6,7 +6,7 @@ title: "Tre Ely's README"
 
 ## Introduction
 
-Hello! I'm Tre Ely (pronounced "tray"), Senior Director of Talent Management & Development. I bring energy and strategic thinking to talent development initiatives while maintaining a balance of professionalism and approachability. My pronouns are he/him/his.
+Hello! I'm Tre Ely (pronounced "tray"), Senior Director of Talent Management & Development. I bring energy and strategic thinking to talent development initiatives while maintaining a balance of professionalism and approachability.
 
 ## Professional Role
 
@@ -26,7 +26,7 @@ At GitLab, I lead our Talent Development function, overseeing strategic initiati
 | **Slack** | Quick discussions, time-sensitive matters | Same day (typically) | If a message gets missed, please feel free to send a friendly nudge |
 | **Email** | External communications, formal documentation | Within 24 hours | Checked regularly throughout the day |
 | **GitLab** | Project-specific work, documentation | Within 24 hours | Preferred for work directly related to projects or programs |
-| **Coffee Chats** | Relationship building, brainstorming | Scheduled via calendar | I value these connections—both personal and professional topics welcome |
+| **Coffee Chats** | Relationship building, brainstorming | Scheduled through Google calendar | I value these connections—both personal and professional topics welcome |
 
 ### For Longer Communications
 
@@ -34,7 +34,7 @@ When sending detailed information:
 
 - Include a brief TL;DR at the beginning
 - Highlight any required actions
-- Use subheaders, bullet points, or tables for organization
+- Use sub-headers, bullet points, or tables for organization
 - Link to relevant GitLab work items when applicable
 
 ## Meeting Philosophy
