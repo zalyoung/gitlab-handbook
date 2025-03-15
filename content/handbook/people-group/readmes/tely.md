@@ -3,10 +3,11 @@ title: "Tre Ely's README"
 description: "This README serves as my personal user guide, designed to help you understand how I work, communicate, and collaborate. It provides insights into my values, leadership style, and preferences that will make our interactions more effective and enjoyable. Think of it as a roadmap for how we can best work together while having fun along the way. I've created this to be transparent about who I am and how I operate."
 ---
 
-## “What about ME!?!” (About Me)
+## About Me
 
-:wave: Hello there! I'm Tre (short for my [Government First Name], but ask me about that later). I bring genuine enthusiasm to everything I do, both professionally and personally. My pronouns are HE/HIM/HIS, and my name is pronounced like "TRAY." :sparkles: I believe in approaching work with both purpose and JOY, finding a decent balance between getting things done and enjoying the journey along the way. :performing_arts: As someone passionate about the ART and SCIENCE of real life experiences, I love creating meaningful growth moments with real world results (informed with data, and aimed for impact). :mag: I value authentic connections and strive to create positive experiences in all my interactions. While I maintain a lighthearted approach to most things, I'm serious about investing in people and aligning human-first PEOPLE STRATEGY to BUSINESS STRATEGY and helping people AND organization THIVE. :seedling:
 <i class="fa-brands fa-gitlab fa-2xl -text-primary"></i>
+
+:wave: Hello there! I'm Tre (short for my [Government First Name], but ask me about that later). I bring genuine enthusiasm to everything I do (apologies in advance), both professionally and personally. My pronouns are HE/HIM/HIS, and my name is pronounced like "TRAY." :sparkles: I believe in approaching work with both purpose and JOY, finding a decent balance between getting things done and enjoying the journey along the way. :performing_arts: As someone passionate about the ART and SCIENCE of real life experiences, I love creating meaningful growth moments with real world results (informed with data, and aimed for impact). :mag: I value authentic connections and strive to create positive experiences in all my interactions. While I maintain a lighthearted approach to most things, I'm serious about investing in people and aligning human-first PEOPLE STRATEGY to BUSINESS STRATEGY and helping people AND organization THIVE. :seedling:
 
 ## “You Betta Work!” (My Job)
 
