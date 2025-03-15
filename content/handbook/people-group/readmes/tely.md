@@ -36,7 +36,7 @@ Talent Management encompasses the strategic practices that help us identify, ass
 
 Talent Development ("L&D - Learning & Development) focuses on creating growth opportunities and learning experiences for our team members:
 
-| Focus Area | Description |
+| Talent Development Examples | Description |
 |------------|-------------|
 | **Learning Experiences** | Designing and delivering effective learning experiences that build critical skills |
 | **Leadership Development** | Nurturing leadership capabilities at all levels of the organization |
@@ -50,7 +50,7 @@ The true power of my role emerges at the intersection of **Talent Management and
 
 Some of the most impactful work happens in these blended spaces:
 
-| Integrated Practice | How It Works |
+| Integrated Approach Examples | How It Works |
 |---------------------|--------------|
 | **Performance & Development Planning** | Using performance insights to create targeted growth opportunities that help team members advance |
 | **Leadership Assessment & Development** | Identifying leadership potential and creating customized development paths for future leaders |
