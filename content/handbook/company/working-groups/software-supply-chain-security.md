@@ -26,7 +26,7 @@ At a high level, this working group plans on making it possible for signing to h
 
 Some of these links may provide useful background for the working group:
 
-- [SLSA framework requirements](https://slsa.dev/spec/v0.1/requirements)
+- [SLSA framework requirements](https://slsa.dev/spec/v1.0/requirements)
 - [OpenSSF's SLSA verifier](https://github.com/slsa-framework/slsa-verifier)
 - [Sigstore Cosign project](https://github.com/sigstore/cosign)
 - [Sigstore Fulcio project](https://github.com/sigstore/fulcio)
