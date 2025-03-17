@@ -74,31 +74,31 @@ run in multiple runtimes:
 
 The following are important constraints of the architecture:
 
-1. All state management for workflows will be inside GitLab.
-1. Duo Workflow Service is expected to periodically checkpoint its state in GitLab.
-1. Duo Workflow Service in-memory state can be dropped/lost at any time so
+1. All state management will be inside GitLab.
+1. Periodically, the Workflow service should checkpoint its state in GitLab.
+1. The Workflow service in-memory state can be dropped/lost at any time so
    checkpointing will be the only guaranteed point that can be returned to.
-1. If a local Duo Workflow Executor drops the connection, the Duo Workflow
-   Service will checkpoint and shutdown the state as soon as it runs into
+1. If a local Workflow executor drops the connection, the Workflow
+   service will checkpoint and shutdown the state as soon as it runs into
    something where it is waiting on the executor.
-1. In order to avoid multiple Duo Workflow Service instances running on the
-   same workflow, the Duo Workflow Service will always acquire a lock with
+1. To avoid multiple Workflow service instances running on the
+   same workflow, the Workflow service must always acquire a lock with
    GitLab before it starts running. When it suspends, it will release the lock and
    similarly there will be a timeout state if it has not checkpointed in the
    last 60 seconds. GitLab will not accept checkpoints from a timed out run of
-   the Duo Workflow Service.
-1. Each time a Duo Workflow Service resumes a workflow it gets a new ID and
-   this is sent when checkpointing so that GitLab can drop/ignore zombie
+   the Workflow service.
+1. Each time a Workflow service resumes a workflow, it gets a new ID.
+   This ID is sent when checkpointing so that GitLab can drop/ignore zombie
    services running the workflow and inform the zombie service to shutdown.
 1. Code is checkpointed by the executor pushing hidden Git refs to the GitLab
    instance. This will be happening on the same frequency as other checkpoints.
-1. For local execution Duo Workflows are initiated using the Duo Workflow
-   Executor directly calling Duo Workflow Service.
-1. For workflows triggered via the UI that don't require a Duo Workflow
-   Executor, GitLab can call the Duo Workflow Service directly.
-1. All API calls from Duo Workflow Service to GitLab that access private data
+1. For local execution, the Workflow executor initiates a workflow directly by
+   calling the Workflow service.
+1. When a workflow is triggered from the UI, it doesn't require a Workflow
+   executor. GitLab can call the Duo Workflow Service directly.
+1. All API calls from the Workflow service to GitLab that access private data
    or update data will be authenticated on behalf of the user that created the
-   worklow. Duo Workflow Service should not need privileged access to GitLab.
+   workflow. The Workflow service should not need privileged access to GitLab.
 
 CI pipelines have been chosen as the hosted runtime option for Duo Workflow
 Executor because it is the only infrastructure we have available today to run
