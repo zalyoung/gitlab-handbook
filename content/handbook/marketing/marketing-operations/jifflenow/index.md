@@ -63,10 +63,10 @@ This has not yet been configured - will update this page when ready
 
 ## Meeting types
 
-* Executive Meeting: This is a meeting with a GitLab executive (VP or C-Level). These meetings are requested through sales / internal GitLab team members, or partners. We do not have a public form to sign-up for these meetings. Anyone interested in one of these meetings should talk with thier GitLab representative.
-* Booth demos/meetings: This is a meeting or demo at a booth demo station. We do not schedule a specific GitLab team member to attend this meeting, we only schedule time slots. This type of request can be promoted publicly and can be requested through our website.
-* Meet with an expert: Similar to a booth demo, but typically occurs when we have designated meeting space at an event (that is not being used for Executive Meetings). We may or may not assign a specific GitLab team member to attend these meetings. This type of request can be promoted publicly and can be requested through our website.
-* Off-site meeting: These meetings take place outside of our designated meeting space. This allows us to schedule executives so they show as unavailable, but we do not use our meeting space. The most common example is at large events, a partner would like to meet with an executive in their meeting space. This meeting type allows for requesting that executive (to block their time), but in their location.
+- Executive Meeting: This is a meeting with a GitLab executive (VP or C-Level). These meetings are requested through sales / internal GitLab team members, or partners. We do not have a public form to sign-up for these meetings. Anyone interested in one of these meetings should talk with thier GitLab representative.
+- Booth demos/meetings: This is a meeting or demo at a booth demo station. We do not schedule a specific GitLab team member to attend this meeting, we only schedule time slots. This type of request can be promoted publicly and can be requested through our website.
+- Meet with an expert: Similar to a booth demo, but typically occurs when we have designated meeting space at an event (that is not being used for Executive Meetings). We may or may not assign a specific GitLab team member to attend these meetings. This type of request can be promoted publicly and can be requested through our website.
+- Off-site meeting: These meetings take place outside of our designated meeting space. This allows us to schedule executives so they show as unavailable, but we do not use our meeting space. The most common example is at large events, a partner would like to meet with an executive in their meeting space. This meeting type allows for requesting that executive (to block their time), but in their location.
 
 ## How To Request Meetings
 
