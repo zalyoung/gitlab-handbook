@@ -1,5 +1,5 @@
 ---
-title: "Workspaces ADR 013: Default container image and configuration for Workspaces"
+title: "Workspaces ADR 014: Default container image and configuration for Workspaces"
 ---
 
 ## Context

@@ -4,8 +4,8 @@ title: "Workspaces Architecture for Kubernetes setup"
 
 ## Overview
 
-Workspaces is delivered as a module(`remote_developemnt`) in the
-[GitLab agentk for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agentk/index.html) project.
+Workspaces is delivered as a module(`remote_development`) in the
+[GitLab agentk for Kubernetes](https://docs.gitlab.com/user/clusters/agent/index.html) project.
 The overall goal of this architecture is to ensure that the **actual state** of all
 workspaces running in the Kubernetes clusters is reconciled with the **desired state** of the
 workspaces as set by the user.
@@ -19,18 +19,68 @@ This is accomplished as follows:
 
 ## System design
 
+### User actions to create/update/delete a workspace
+
+```plantuml
+@startuml
+
+rectangle "GitLab" {
+  rectangle "Nginx/HAProxy" as ReverseProxy
+  rectangle "Rails"
+  rectangle "Postgres"
+}
+
+actor "User"
+rectangle "Browser"
+
+User --> Browser : "1. Browse GitLab"
+Browser --> ReverseProxy : "2: Resolve traffic"
+ReverseProxy --> Rails : "3: Forward\ndecrypted\ntraffic"
+Rails --> Postgres : "4: Persist data for workspace"
+@enduml
+```
+
+### GitLab Agent for Kubernetes' reconciliation with Rails
+
 ```plantuml
 @startuml
 rectangle "Kubernetes" {
-  rectangle "Kubernetes API Server" as KubernetesAPIServer
-  rectangle "Ingress Controller" as IngressController
-  rectangle "GitLab Workspaces Proxy" as GitLabWorkspacesProxy
   rectangle "GitLab Agent for Kubernetes" as AgentK
   rectangle "Workspace 1" as Workspace1
   rectangle "Workspace 2" as Workspace2
   rectangle "Workspace n" as WorkspaceN
+}
 
-  note left of IngressController
+rectangle "GitLab" {
+  rectangle "Rails"
+  rectangle "Postgres"
+  rectangle "GitLab Agent Server(KAS)" as KAS
+}
+
+AgentK --> KAS : "1: Initiate reconciliation loop"
+KAS --> Rails : "2: Proxy the request\nfrom GitLab Agent\nfor Kubernetes"
+Rails --> Postgres : "3: Fetch workspaces\ndata to be sent to\nGitLab Agent for Kubernetes"
+Rails --> KAS : "4: Respond with\nworkspaces Kubernetes\nconfig"
+KAS --> AgentK : "5: Proxy the response\nfrom Rails"
+AgentK ..> Workspace1 : "6.1: Applies kubernetes resources\nfor workspace 1"
+AgentK ..> Workspace2 : "6.2: Applies kubernetes resources\nfor workspace 2"
+AgentK ..> WorkspaceN : "6.3: Applies kubernetes resources\nfor workspace N"
+
+@enduml
+```
+
+### User accessing the workspace
+
+```plantuml
+@startuml
+rectangle "Kubernetes" {
+  rectangle "Ingress Controller" as IngressController
+  rectangle "GitLab Workspaces Proxy" as GitLabWorkspacesProxy
+  rectangle "Workspace 1" as Workspace1
+  rectangle "Workspace 2" as Workspace2
+  rectangle "Workspace n" as WorkspaceN
+
+  note right of IngressController
     Customers can choose
     an ingress controller
     of their choice
@@ -38,46 +88,35 @@ rectangle "Kubernetes" {
 }
 
 rectangle "GitLab" {
-  rectangle "Nginx/HAProxy" as ReverseProxy
   rectangle "Rails"
-  rectangle "Postgres"
-  rectangle "GitLab Agent Server(KAS)" as KAS
 }
 
+actor "User"
 rectangle "Browser"
 rectangle "Terminal"
 rectangle "L7 Load Balancer" as L7LoadBalancer
 rectangle "L4 Load Balancer" as L4LoadBalancer
 
-Browser -[#blue]-> ReverseProxy : "1. Browse GitLab"
-ReverseProxy -[#blue]-> Rails : "2. Forward\ndecrypted\ntraffic"
-Rails -[#blue]-> Postgres : "3. Store data"
+User -> Browser: "1.1: Browser workspace URL"
+User -> Terminal: "1.1: SSH into workspace"
 
-AgentK -up[#green]-> KAS : "4. Initiate reconciliation loop"
-KAS -up[#green]-> Rails : "5. Proxy the request\nfrom GitLab Agent\nfor Kubernetes"
-Rails -[#green]-> Postgres : "6. Retrieve data"
-Rails -[#green]-> KAS : "7. Respond with\nworkspaces Kubernetes\nconfig"
-KAS -[#green]-> AgentK : "8. Proxy the response\nfrom Rails"
-AgentK -[#green]-> KubernetesAPIServer : "9. Interact and get/apply\nKubernetes resources"
-AgentK .up[#green].> Workspace1 : "9.1. Applies kubernetes resources\nfor workspace 1"
-AgentK .up[#green].> Workspace2 : "9.2. Applies kubernetes resources\nfor workspace 2"
-AgentK .up[#green].> WorkspaceN : "9.3. Applies kubernetes resources\nfor workspace N"
+Browser --> L7LoadBalancer : "2.1: Resolve traffic"
+Terminal --> L4LoadBalancer : "2.2: Resolve traffic"
 
-Browser -right[#orange]-> L7LoadBalancer : "10.1. Browse workspace URL"
-Terminal -left[#orange]-> L4LoadBalancer : "10.2. Connect to workspace SSH URL"
-L7LoadBalancer -[#orange]-> IngressController: "11.1. Forward\nencrypted\ntraffic"
-L4LoadBalancer -[#orange]-> GitLabWorkspacesProxy : "11.2. Forward\nTCP traffic"
-IngressController -[#orange]-> GitLabWorkspacesProxy : "12. Decrypt\ntraffic"
-GitLabWorkspacesProxy -[#orange]-> Rails : "13. Authenticate and authorize\nthe user accessing the workspace"
-GitLabWorkspacesProxy -[#orange]-> Workspace1 : "14.1. Forward traffic\nfor workspace 1"
-GitLabWorkspacesProxy .[#orange].> Workspace2 : "14.2. Forward traffic\nfor workspace 2"
-GitLabWorkspacesProxy .[#orange].> WorkspaceN : "14.3. Forward traffic\nfor workspace N"
+L7LoadBalancer --> IngressController: "3.1.1: Forward\nencrypted\ntraffic"
+IngressController --> GitLabWorkspacesProxy : "3.1.2: Decrypt\ntraffic"
+L4LoadBalancer --> GitLabWorkspacesProxy : "3.2: Forward\nTCP traffic"
 
-L7LoadBalancer -right[hidden]-> L4LoadBalancer
+GitLabWorkspacesProxy -> Rails : "4: Authenticate and authorize\nthe user accessing the workspace"
+
+GitLabWorkspacesProxy --> Workspace1 : "5.1. Forward traffic\nfor workspace 1"
+GitLabWorkspacesProxy ..> Workspace2 : "5.2. Forward traffic\nfor workspace 2"
+GitLabWorkspacesProxy ..> WorkspaceN : "5.3. Forward traffic\nfor workspace N"
+
 @enduml
 ```
 
-## Workspaces with the GitLab agentk for Kubernetes topology
+## GitLab Agent for Kubernetes topology
 
 - The Kubernetes API is not shown in this diagram, but it is assumed that it is managing the workspaces through the agentk.
 - The numbers of components in each Kubernetes cluster are arbitrary.
@@ -101,52 +140,52 @@ rectangle "GitLab" as gitlab {
 }
 
 rectangle "Kubernetes cluster 1" as kubernetes1 {
-  rectangle "agentk A workspaces" as agent_a_workspaces {
+  rectangle "agentk A workspaces" as agentk_a_workspaces {
     collections workspace2..workspace8
     rectangle workspace1
   }
 
-  rectangle "agentk B workspaces" as agent_b..agent_b_8_workspaces {
+  rectangle "agentk B workspaces" as agentk_b..agentk_b_8_workspaces {
     collections workspace10..workspace16
     rectangle workspace9
   }
 
-  rectangle "agentk A deployment" as agent_a_deployment {
-    rectangle agent_a_1
+  rectangle "agentk A deployment" as agentk_a_deployment {
+    rectangle agentk_a_1
   }
 
-  rectangle "agentk B deployment" as agent_b_deployment {
-    collections agent_b_1..agent_b_8
+  rectangle "agentk B deployment" as agentk_b_deployment {
+    collections agentk_b_1..agentk_b_8
   }
 
-  agent_a_1 - agent_a_workspaces
-  agent_b_1..agent_b_8 - agent_b..agent_b_8_workspaces
+  agentk_a_1 - agentk_a_workspaces
+  agentk_b_1..agentk_b_8 - agentk_b..agentk_b_8_workspaces
 }
 
 rectangle "Kubernetes cluster 2" as kubernetes2 {
-  rectangle "agentk C workspaces" as agent_c_workspaces {
+  rectangle "agentk C workspaces" as agentk_c_workspaces {
     collections workspace18..workspace24
     rectangle workspace17
   }
 
-  rectangle "agentk C deployment" as agent_c_deployment {
-    rectangle agent_c_1
+  rectangle "agentk C deployment" as agentk_c_deployment {
+    rectangle agentk_c_1
   }
 
-  agent_c_1 -down- agent_c_workspaces
+  agentk_c_1 -down- agentk_c_workspaces
 }
 
 
 cloud cloud
 
 cloud - kas1..kas8
-cloud - agent_a_1
-cloud - agent_b_1..agent_b_8
-cloud - agent_c_1
+cloud - agentk_a_1
+cloud - agentk_b_1..agentk_b_8
+cloud - agentk_c_1
 
 
 'the following hidden line is a hack to get the diagram to render correctly
-agent_a_1 -[hidden]- agent_b_1..agent_b_8
+agentk_a_1 -[hidden]- agentk_b_1..agentk_b_8
 gitlab -[hidden]d- kubernetes2
 
 @enduml

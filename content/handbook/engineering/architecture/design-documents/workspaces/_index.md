@@ -8,6 +8,7 @@ approvers: [ "@michelle-chen", "@adebayo_a" ]
 owning-stage: "~devops::create"
 participating-stages: []
 toc_hide: true
+no_list: true
 ---
 
 {{< design-document-header >}}
@@ -37,6 +38,7 @@ This IDE runs a server and an optional client which is used to connect remotely.
 
 Each workspace is run as a group of user provided containers in a Pod in Kubernetes through an integration with GitLab Agent for Kubernetes.
 We inject an IDE(e.g. GitLab VS Code fork for Workspaces) in each Pod. We aim to be IDE agnostic.
+The workspace can be accessed through GitLab Workspaces Proxy deployed in the user's Kubernetes cluster.
 
 ## Architecture
 

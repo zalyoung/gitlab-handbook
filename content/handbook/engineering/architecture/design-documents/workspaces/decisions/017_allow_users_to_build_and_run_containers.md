@@ -1,5 +1,5 @@
 ---
-title: "Workspaces ADR 016: Allow users to build and run containers inside a workspace"
+title: "Workspaces ADR 017: Allow users to build and run containers inside a workspace"
 ---
 
 ## Context
