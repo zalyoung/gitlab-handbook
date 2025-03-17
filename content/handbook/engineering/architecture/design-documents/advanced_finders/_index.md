@@ -11,20 +11,20 @@ participating-stages: []
 
 ## Summary
 
-This document describes a new advanced architecture for GitLab finders that can leverage both PostgreSQL and Advanced Search (Elasticsearch/OpenSearch) as data sources. Current finders return ActiveRecord relations, which limits their ability to use Advanced Search efficiently. Even though Elasticsearch queries could return ActiveRecord relations they cannot be composed with subsequent ActiveRecord queries (or at least not in the same way if they are already paginated). The new architecture aims to create a unified interface that can seamlessly switch between data sources while providing consistent pagination and result formatting.
+This document describes a new advanced architecture for GitLab finders that can leverage both PostgreSQL and advanced search (Elasticsearch/OpenSearch) as data sources. Current finders return ActiveRecord relations, which limits their ability to use advanced search efficiently. Even though Elasticsearch queries could return ActiveRecord relations they cannot be composed with subsequent ActiveRecord queries (or at least not in the same way if they are already paginated). The new architecture aims to create a unified interface that can seamlessly switch between data sources while providing consistent pagination and result formatting.
 
 ## Business Objectives
 
-Currently, searches performed through the dashboard or through the group and project interfaces rely exclusively on database operations rather than leveraging Advanced search when available. This results in:
+Currently, searches performed through the dashboard or through the group and project interfaces rely exclusively on database operations rather than leveraging advanced search when available. This results in:
 
-1. Slower search performance when data is already available in Advanced Search
+1. Slower search performance when data is already available in advanced search
 2. Limited search capabilities - features like "find all issues with term X in comments" are too performance-intensive to implement with the current database-only approach
 3. We can provide better user experience by utilizing multiple backends.
-4. PostgreSQL is a finite (and costly) resource. This will help to offload expensive workload to Advanced Search.
+4. PostgreSQL is a finite (and costly) resource. This will help to offload expensive workload to advanced search.
 
 By implementing Advanced Finders, we will:
 
-- Improve search performance for users with Advanced Search enabled
+- Improve search performance for users with advanced search enabled
 - Enable more sophisticated search capabilities
 - Create a future-proof architecture that can adapt to different data sources
 
@@ -34,7 +34,7 @@ This work should address this long standing feature request https://gitlab.com/g
 
 The Advanced Finders will:
 
-1. Provide a consistent interface for accessing data from either PostgreSQL or Advanced Search
+1. Provide a consistent interface for accessing data from either PostgreSQL or advanced search
 2. Return paginated collections of model instances rather than ActiveRecord relations
 3. Support standard search filtering capabilities across both backends
 4. Allow for backend-specific optimizations without affecting the consumer API
@@ -55,7 +55,7 @@ relation = IssuesFinder.new(current_user, project_id: project.id).execute
 issues = relation.with_label('bug').order_created_desc.limit(10)
 ```
 
-This approach has the disadvantage that it cannot leverage Advanced Search, even when it's available and might provide better performance or additional search capabilities.
+This approach has the disadvantage that it cannot leverage advanced search, even when it's available and might provide better performance or additional search capabilities.
 
 ### Target State
 
@@ -65,11 +65,11 @@ The new Advanced Finders will:
 - Expose an `execute` method that returns a result object containing:
   - A collection of model instances (not an ActiveRecord relation)
   - Pagination metadata (total count, page info)
-- Internally select the appropriate backend (PostgreSQL or Advanced Search) based on:
-  - Advanced Search availability
+- Internally select the appropriate backend (PostgreSQL or advanced search) based on:
+  - Advanced search availability
   - Query complexity
   - Configuration preferences
-  - Parameter support in Advanced Search (using allowlists)
+  - Parameter support in advanced search (using allowlists)
 
 Example usage:
 
@@ -90,7 +90,7 @@ pagination = result.pagination
 
 ### Goals
 
-1. Enable filtered searches to leverage Advanced Search when available
+1. Enable filtered searches to leverage advanced search when available
 2. Improve search performance for complex queries
 3. Provide a clear migration path from current finders to dual-backend finders
 4. Maintain feature parity with existing finders
@@ -98,8 +98,8 @@ pagination = result.pagination
 ### Key Results
 
 1. At least three high-traffic finders (Issues, MergeRequests, Projects) refactored to use the new architecture
-2. Measurable performance improvements (>30%) for complex searches when Advanced Search is enabled
-3. Comprehensive test coverage ensuring identical results between PostgreSQL and Advanced Search backends
+2. Measurable performance improvements (>30%) for complex searches when advanced search is enabled
+3. Comprehensive test coverage ensuring identical results between PostgreSQL and advanced search backends
 4. Documentation for both finder usage and creating new dual-backend finders
 
 ## Fundamental Design Areas
@@ -112,7 +112,7 @@ Rather than returning ActiveRecord relations, the new finders will return a resu
 
 The finder should be able to determine which backend to use based on:
 
-- Advanced Search availability
+- Advanced search availability
 - Query complexity
 - Feature flags
 - User preferences (if applicable)
@@ -143,7 +143,7 @@ A critical safety mechanism that ensures no unauthorized data is returned to use
 - Automatically adjusts pagination data to account for redacted items
 - Provides transparency through a `redacted?` flag on the result object
 
-This redaction mechanism is especially important when using Advanced Search, as it ensures consistent application of GitLab's permission model across all data sources, even if the search backend returns results that should be invisible to the current user.
+This redaction mechanism is especially important when using advanced search, as it ensures consistent application of GitLab's permission model across all data sources, even if the search backend returns results that should be invisible to the current user.
 
 ## Key Design Decisions
 
@@ -491,9 +491,9 @@ The BaseAdvancedFinder class serves as the foundation for all advanced finders, 
 
 The finder intelligently selects the appropriate backend based on:
 
-- **Advanced Search availability**: Only uses Elasticsearch/OpenSearch if available
-- **Parameter compatibility**: Checks if all requested parameters are supported by the Advanced Search backend
-- **Query complexity**: Evaluates if the query is complex enough to benefit from Advanced Search
+- **Advanced search availability**: Only uses Elasticsearch/OpenSearch if available
+- **Parameter compatibility**: Checks if all requested parameters are supported by the advanced search backend
+- **Query complexity**: Evaluates if the query is complex enough to benefit from advanced search
 - **Feature flags**: Allows gradual rollout and testing
 
 #### Query Execution Flow
@@ -529,9 +529,9 @@ The PostgreSQL backend takes finder parameters and converts them to ActiveRecord
 
 Keyset pagination will be implemented to handle complex sorting requirements with conditions that respect the complete set of sort fields (e.g., properly handling `created_at DESC, id ASC` with appropriate WHERE clauses).
 
-#### Advanced Search Backend
+#### Advanced search Backend
 
-The Advanced Search backend leverages Elasticsearch/OpenSearch for improved search performance. Key responsibilities include:
+The advanced search backend leverages Elasticsearch/OpenSearch for improved search performance. Key responsibilities include:
 
 - **Query Translation**: Converting finder parameters to Elasticsearch queries
 - **Pagination**: Implementing search_after for cursor-based pagination and scroll API for deep pagination
@@ -592,7 +592,7 @@ This pattern will be repeated for other entity types like MergeRequests, Project
 ### Phase 3: First Implementation with Limited Parameter Support
 
 - Refactor IssuesFinder to use the new architecture
-- Implement both PostgreSQL and Advanced Search backends
+- Implement both PostgreSQL and advanced search backends
 - Start with a small allowlist of supported parameters
 - Deploy with feature flags disabled
 - Perform extensive testing
@@ -618,11 +618,11 @@ This pattern will be repeated for other entity types like MergeRequests, Project
 
 ## Conclusion
 
-The Advanced Finders architecture provides a flexible, future-proof approach to retrieving data in GitLab. By supporting both PostgreSQL and Advanced Search backends with a consistent interface and parameter support allowlisting, we can improve search performance and capabilities while ensuring a smooth migration path.
+The Advanced Finders architecture provides a flexible, future-proof approach to retrieving data in GitLab. By supporting both PostgreSQL and advanced search backends with a consistent interface and parameter support allowlisting, we can improve search performance and capabilities while ensuring a smooth migration path.
 
 ## References
 
-- [Epic: Use Advanced Search for Filtered Searches of Issues and Merge Requests](https://gitlab.com/groups/gitlab-org/-/epics/14293)
+- [Epic: Use advanced search for Filtered Searches of Issues and Merge Requests](https://gitlab.com/groups/gitlab-org/-/epics/14293)
 - [Issue: Finders should return ActiveRecord collections](https://gitlab.com/gitlab-org/gitlab/-/issues/298771)
 - [Guidelines for reusing abstractions](https://docs.gitlab.com/development/reusing_abstractions/#finders)
 - [Work Items API Performance Working Group](/handbook/engineering/development/dev/plan/working-groups/work-items-api-performance/)
