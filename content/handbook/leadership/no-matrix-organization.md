@@ -30,9 +30,3 @@ experience.
 1. Leaders should know the details of their organization three levels down for efficient and effective cross-functional decision-making.
 1. Having functional managers means that they are rarely spending 100% of their time managing. They always get their hands dirty. Apart from giving them relevant experience, it also focuses them on the output function more than the process. Hopefully both the focus and not having a lot of time for process reduces the amount of politics.
 1. Functional managers spend their time between owning, learning, delegating or teaching styles. Managers will decide what activities demand their full attention and fall within their core area of expertise which they will *own* and what activities require them to *learn* new areas of expertise. Some activities require less attention from the leader and can be pushed down to others by either *delegating* or *teaching* someone on the team.
-
-## E-Group Conversation on No-Matrix Organization
-
-Who better to learn how GitLab enables a functional organization structure than our leadership. As part of the [CEO Handbook Learning Sessions](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions), the L&D team facilitated a discussion with executives during a [E-Group offsite](/handbook/company/offsite/), to discuss no-matrix organization and GitLab organization design.
-
-{{< youtube "E_wegGRv4mA" >}}
