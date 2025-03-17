@@ -123,7 +123,7 @@ The Technical Writing team develops and maintains toolkits to test GitLab's docu
 
 - Text content and writing style: markdownlint, Vale
 - Text formatting: markdownlint, yamllint
-- Link validity: Nanoc
+- Link validity: Lychee
 - File permissions and naming: `lint-doc.sh`
 
 Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer.
