@@ -53,7 +53,7 @@ Here are some steps to go through when writing a CFP:
 2. **Familiarize yourself with the suggested topics**: If an event suggests themes or topics, your best bet will be to align your talk proposal with that.
 3. **Learn about the conference committee**: The people are just as essential as the online materials. Look up the committee and see if you can find out their own passion-topics. You should also research folks who may be past speakers or are otherwise involved with the conference to help understand what topics or speakers they are really looking for.
 4. **Write out a placeholder title, thesis, and outline**: Starting with a placeholder title will help overcome the blank page syndrome. From there, brainstorm on your thesis. What are you trying to teach? If you had one line to explain the SCQA (Situation, Complication, Question, Answer) of the story, what would it be. Then fill out an SCQA outline.
-5. **Ask for help**: Have a friend or colleague review your proposal for gotchas. Rework, rinse, repeat and submit!
+5. **Ask for help**: Have a friend or colleague who is familiar with the subject matter review your proposal. Rework, rinse, repeat and submit!
 
 ### Helpful links
 
