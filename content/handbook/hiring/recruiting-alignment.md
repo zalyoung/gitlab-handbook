@@ -10,30 +10,30 @@ description: "This page is an overview of the search team alignment and the tale
 | C Level | Jess Dallmar, Robert Allen | Michelle Jubrey |
 | VP and Above | Jake Foster, Jack Connors   | Michelle Jubrey  |
 | Director, Senior Director  | Matt Angell, Steph Sarff, Jake Foster, Jack Connors  | Michelle Jubrey  |
-| Enterprise Sales, AMER  | Kelsey Hart  |Sruthy Menon |
+| Enterprise Sales, AMER  | Kelsey Hart  | Josie Staub |
 | Enterprise Sales, EMEA | Joanna Tourne | Lerato Thipe |
-| Commercial Sales, AMER | Jordan Miller| Lerato Thipe |
-| Commercial Sales, EMEA | Ben Cowdry | Lerato Thipe |
-| Customer Success & Solutions Architects, AMER | Barbara Dinoff, Leah Mastrototoro | Sruthy Menon |
+| Commercial Sales, AMER | Jordan Miller| Josie Staub |
+| Commercial Sales, EMEA | Ben Cowdry | Sean Mitchell |
+| Customer Success & Solutions Architects, AMER | Barbara Dinoff, Leah Mastrototoro | Lerato Thipe |
 | Customer Success & Solutions Architects, EMEA | Ornella Miles | Lerato Thipe |
 | Global Marketing | Caitlin Eldridge  | Jazmin Armstrong |
 | Global Sales Development & EBA | Caroline Rebello | Jazmin Armstrong | 
-| Professional Services & Sales Strategy| Jess Lacey | Jazmin Armstrong | 
+| Professional Services & Sales Strategy| Jess Lacey | Sruthy Menon | 
 | Sales, Ecosystem + Digital & Renewals | Lynn Ferreira | TBD | 
-| Sales, APAC | Yas Priatna  | Jazmin Armstrong |
-| Sales, APAC | Nikki Hughes | Jazmin Armstrong |
-| Sales, APAC | Sean Adair | Jazmin Armstrong |
-| G&A (Accounting) | Jennifer Glynn | Jazmin Armstrong |
+| Sales, APAC | Yas Priatna  | Sruthy Menon |
+| Sales, APAC | Nikki Hughes | Sruthy Menon |
+| Sales, APAC | Sean Adair | Sruthy Menon |
+| G&A (Accounting) | Jennifer Glynn | Sean Mitchell |
 | G&A (Business Technology) | Aistè Juozaponytė  | Jazmin Armstrong |
-| G&A (Business Technology) | Mairead O’Conner | Jazmin Armstrong |
-| G&A (Finance, People) | Jenna VanZutphen  | Jazmin Armstrong |
-| G&A (Legal) | Patricia Quartini | Jazmin Armstrong |
+| G&A (Business Technology) | Mairead O’Conner | Sean Mitchell |
+| G&A (Finance, People) | Jenna VanZutphen  | Josie Staub |
+| G&A (Legal) | Patricia Quartini | TBD |
 | R&D, Leadership | Matt Angell | Alice Crosbie |
-| Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Sruthy Menon / Sruthy Menon / Alice Crosbie |
+| Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Josie Staub / Jazmin Armstrong / Jazmin Armstrong |
 | Engineering, Infrastructure   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
-| Engineering, Customer Support | Sara Currie  | Alice Crosbie |
+| Engineering, Customer Support | Sara Currie  | Jazmin Armstrong |
 | Product Management | Holly Nesselroad | Lerato Thipe |
-| Security | Holly Nesselroad / Joanna Micheniewicz / Michelle A. Kemp | Lerato Thipe / Alice Crosbie / Alice Crosbie |
+| Security | Holly Nesselroad / Michelle A. Kemp | Lerato Thipe / Alice Crosbie |
 | Design/UX  | Riley Smith | Lerato Thipe  |
 
 For urgent requests of the Candidate Experience Specialist team, we encourage you to contact them by also tagging @CES in Slack messages and CC'ing CES@gitlab.com on emails.
