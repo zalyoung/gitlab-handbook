@@ -170,7 +170,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 ## Content Creation
 
-### Guidelines for Creating Public-Facing Product Tours with Navattic  
+### Guidelines for creating public-facing product tours with Navattic  
 
 1. **Keep it concise** – Product tours should ideally have **5 to 12 steps**, each focused on delivering clear value. Unlike documentation demos, which tend to be instructional, product tours should be quick and engaging.  
 2. **Provide context** – Add links to relevant blog posts or documentation within pop-ups to offer additional resources. Keep descriptions brief and to the point.  
