@@ -154,14 +154,14 @@ These boards show current status of issues.
 
 Our teams use the [Health Status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) feature within issues to indicate the likelihood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
 
-Raising risk early is important. The more time we have, the more options we have. For example, issues that have not gone into review by the 10th of the month may not have enough time to get merged. These should be considered Needs Attention or At Risk depending on their complexity and other factors.
+Raising risk early is important. The more time we have, the more options we have. For example, issues that have not gone into review by the first Monday of the month may not have enough time to get merged. These should be considered Needs Attention or At Risk depending on their complexity and other factors.
 
 Follow these steps when raising or downgrading risk:
 
 1. Update the Health Status in the issue:
-    1. `On Track` - high confidence - there is no indication the work won't get merged by the 15th.
+    1. `On Track` - high confidence - there is no indication the work won't get merged by the second Tuesday of the month.
     1. `Needs Attention` - medium confidence - the issue is blocked or has other factors that need to be discussed.
-    1. `At Risk` - low confidence - the issue is in jeopardy of missing the merge cutoff of the 15th.
+    1. `At Risk` - low confidence - the issue is in jeopardy of missing the merge cutoff on the second Tuesday of the month.
 1. Add a comment about why the risk has increased or decreased. Copy the Engineering Manager and Project Manager for awareness.
 
 Note that an issue probably shouldn't go directly from On Track to At Risk. That pattern indicates we have missed an opportunity to discuss earlier. Consider the progression: `On Track -> Needs Attention -> At Risk`.
