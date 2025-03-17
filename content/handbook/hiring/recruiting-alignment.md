@@ -30,11 +30,11 @@ description: "This page is an overview of the search team alignment and the tale
 | G&A (Legal) | Patricia Quartini | TBD |
 | R&D, Leadership | Matt Angell | Alice Crosbie |
 | Engineering, Sec & Monetization | Heather Tarver, Vasilisa Riabova | Josie Staub | 
-| Engineering, Core Development | Seema Anand, Jordan Warren, Nadine Oppermann | Jazmin Armstrong / Alice Crosbie | 
+| Engineering, Core Development | Seema Anand, Jordan Warren, Nadine Oppermann | Jazmin Armstrong / Alice Crosbie / Alice Crosbie | 
 | Engineering, Infrastructure Platforms  | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
-| Engineering, Customer Support | Sara Currie, Joe Guiler, Amanda Halbirt  | Jazmin Armstrong | 
-| Product Management | Holly Nesselroad, Joe Brown | Lerato Thipe |
-| Security | Holly Nesselroad, Joe Brown | Lerato Thipe |
+| Engineering, Customer Support | Sara Currie, Joe Guiler, Amanda Halbirt  | Jazmin Armstrong / Jazmin Armstrong / TBD | 
+| Product Management | Holly Nesselroad, Joe Brown | Lerato Thipe / Alice Crosbie|
+| Security | Holly Nesselroad, Joe Brown | Lerato Thipe / Alice Crosbie |
 | Design/UX  | Riley Smith, Thomas Cirri | Lerato Thipe |
 
 For urgent requests of the Candidate Experience Specialist team, we encourage you to contact them by also tagging @CES in Slack messages and CC'ing CES@gitlab.com on emails.
