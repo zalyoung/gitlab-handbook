@@ -27,7 +27,7 @@ separate components:
 1. The Workflow service, which is a Python service we run in our
    infrastructure. The Workflow service is built on top of
    [LangGraph](https://github.com/langchain-ai/langgraph).
-1. The Workflow executor, which is a Go binary that communicates via long
+1. The Workflow executor, which is a Go binary that communicates via a long
    running gRPC connection to the Workflow service and executes the arbitrary
    commands. It will be possible for users to run this locally or in CI pipelines.
 
@@ -49,7 +49,7 @@ Gateway.
 We plan on building this feature set with 3 independent components that can be
 run in multiple runtimes:
 
-1. The Workflow Web UI. This will be web UI built into GitLab that manages the
+1. The Workflow Web UI. This will be the web UI built into GitLab that manages the
    creation and interaction of all workflows. There may be many interaction
    points in the GitLab application but there should be a central workflow UI
    with reusable components (e.g. Vue components) that could be embedded into
@@ -408,7 +408,7 @@ authentication mechanism is discussed.
 
 #### Local Workflow executor -> Workflow service
 
-When a Workflow starts, the Workflow executor must connect to the
+When a workflow starts, the Workflow executor must connect to the
 Workflow service.
 
 To authenticate this connection:
@@ -453,9 +453,9 @@ the GitLab Rails API:
    to sync workflow state. This means that the Workflow service must be able
    to authenticate these requests.
 1. Workflow may need to make other GitLab Rails API queries to gather
-   context. For example, a Workflow for "solve issue with code" would
+   context. For example, a workflow for "solve issue with code" would
    require an API request to retrieve the issue content.
-1. The end state of a Workflow may take the form of a generated artifact
+1. The end state of a workflow may take the form of a generated artifact
    (for example, Git commit or pull request) on the GitLab platform. To
    generate this artifact, the Workflow service must be able to make API
    requests to GitLab Rails.
@@ -779,7 +779,7 @@ The first UI state is when the user needs to submit a goal. This is only a clien
 
 #### Not started / created
 
-After starting a workflow with a user-defined goal, a Workflow is created which translates to LangGraph creating an empty checkpoint. On the API side, the workflow will be created with the `NOT_STARTED` state, which means that a goal has been sent, but no plan has been returned from LangGraph yet. This is the point where the client needs to start subscribing to `DuoWorkflowEvent`.
+After starting a workflow with a user-defined goal, a workflow is created which translates to LangGraph creating an empty checkpoint. On the API side, the workflow will be created with the `NOT_STARTED` state, which means that a goal has been sent, but no plan has been returned from LangGraph yet. This is the point where the client needs to start subscribing to `DuoWorkflowEvent`.
 
 #### Planning
 
