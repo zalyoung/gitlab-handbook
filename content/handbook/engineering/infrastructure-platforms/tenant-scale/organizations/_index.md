@@ -308,18 +308,7 @@ to allow the group to focus on long-term scalability work.
 
 You can find our group metrics in the [Tenant Scale Group Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/enablement/data-stores/tenant-scale).
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="tenant scale" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
-{{< /tableau >}}
+- [Top engineering metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2251271/views)
+- [Merge request metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2104461/views)
+- [Flaky test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)
+- [Slow RSpec test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2354045/views)
