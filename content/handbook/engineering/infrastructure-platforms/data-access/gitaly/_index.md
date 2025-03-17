@@ -78,6 +78,9 @@ The rotation is staffed during working hours of team members (no weekends). This
 
 ##### Expectations during on-call shift
 
+- Refer to the [Responder Quick Start Guide](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/incident-io-onboard/oncall.md?ref_type=heads#responder-quick-start-guide) for a streamlined onboarding process.
+**Note : All escalations to the Gitaly team will be made via incident.io**
+
 - Provide technical assistance for ONLY the cases described [above](#on-call-rotation)
 - 15 minutes response time to a incident.io page while
   on-call. This does not apply to pings to the `@gitaly-oncall` Slack handle,
