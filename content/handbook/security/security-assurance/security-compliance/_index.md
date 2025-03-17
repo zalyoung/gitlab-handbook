@@ -26,6 +26,7 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
    - [User Access Reviews](./access-reviews.md)
    - [Risk-based control testing](./risk-based-control-testing.md)
    - [PCI Internal Control Review](./pci-internal-control-review.md)
+   - [FedRAMP Continuous Monitoring](/fedramp-compliance.md)
 1. [Observation and Remediation Management](../observation-management-procedure.md)
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
