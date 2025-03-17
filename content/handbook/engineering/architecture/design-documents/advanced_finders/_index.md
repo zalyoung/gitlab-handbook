@@ -74,7 +74,7 @@ The new Advanced Finders will:
 Example usage:
 
 ```ruby
-result = AdvancedIssuesFinder.new(
+result = AdvancedFinder::Issues.new(
   current_user,
   project_id: project.id,
   with_labels: ['bug'],
@@ -181,24 +181,29 @@ This redaction mechanism is especially important when using Advanced Search, as 
 
 - Additional complexity compared to hardcoded backend selection
 - Requires maintenance of parameter support allowlists
-- Possibly leads to user and GitLab operator confusion as the query might seem to flip randomly between Elasticsearch and Postgres but we hope to mitigate this by generally making Elasticsearch more reliable and up to date and make it easier to debug for operators if their Elasticsearch index is out of date. We also plan to implement a mechanism in advanced finders to automatically switch back to Postgres if Elasticsearch is not up to date
+- Possibly leads to user and GitLab operator confusion as the query might seem to flip between Elasticsearch and Postgres based on various factors, but we hope to mitigate this by generally making Elasticsearch more reliable and up to date and make it easier to debug for operators if their Elasticsearch index is out of date. We also plan to implement a mechanism in advanced finders to automatically switch back to Postgres if Elasticsearch is not up to date
 
 ### Pagination Implementation
 
-**Decision**: Implement cursor-based pagination rather than offset-based pagination.
+**Decision**: Implement a unified pagination approach using opaque page tokens that can transparently support offset-based, keyset, and scroll-based pagination across different backends.
 
-**Context**: Elasticsearch performs better with cursor-based pagination, while PostgreSQL traditionally uses offset-based pagination.
+**Context**: Different backends have different optimal pagination methods, and different queries have different sorting requirements:
+
+- PostgreSQL traditionally uses offset-based pagination but can benefit from keyset pagination for better performance with large datasets
+- Elasticsearch/OpenSearch performs better with cursor-based pagination (search_after) or scroll API for deep pagination
+- The API needs to support various sorting criteria that impact how pagination works
 
 **Benefits**:
 
-- More consistent performance with large datasets
-- Better performance with Elasticsearch
-- Avoids "skipped items" problem when data changes between pages
+- **Performance optimization**: Each backend can use its most efficient pagination method
+- **Consistency**: Results remain stable even when data changes between requests
+- **Flexibility**: Support for complex sorting while maintaining efficient pagination
+- **API simplicity**: Clients use a single opaque token mechanism regardless of the underlying pagination method
 
 **Tradeoffs**:
 
-- More complex implementation
-- Less familiar to developers compared to offset-based pagination
+- More complex internal implementation compared to simple offset-based pagination
+- Requires serialization/deserialization of pagination state
 
 ## Implementation Details
 
@@ -273,363 +278,281 @@ The implementation involves creating adapter classes that:
 - Delegate to the appropriate finder implementation
 - Convert results if necessary
 
-```ruby
-module Finders
-  class IssuesFinderAdapter
-    attr_reader :current_user, :params
+### Naming and Architecture
 
+The new advanced finders will follow a namespaced approach and be implemented as classes within the `AdvancedFinder` module, such as `AdvancedFinder::Issues`, `AdvancedFinder::MergeRequests`, etc. These classes will:
+
+1. Extend a shared base class with common functionality
+2. Handle the selection between different backends (legacy finder, PostgreSQL, or ES/OS)
+3. Implement entity-specific query building and result formatting
+4. Return `FinderResult` objects regardless of which backend is used
+
+#### Class Structure
+
+```ruby
+module AdvancedFinder
+  class Issues
     def initialize(current_user, params = {})
       @current_user = current_user
       @params = params
     end
 
     def execute
-      if use_advanced_finder?
-        result = Finders::AdvancedIssuesFinder.new(current_user, params).execute
-        # Controllers expecting ActiveRecord relations can use .items
-        # We could add .to_relation for partial backward compatibility if needed
-        result
-      else
-        # Use legacy finder
-        legacy_result = ::IssuesFinder.new(current_user, params).execute
-        # Optionally wrap in FinderResult for consistency
-        FinderResult.new(
-          legacy_result.to_a,
-          {
-            total_count: legacy_result.count,
-            total_pages: (legacy_result.count.to_f / (params[:per_page] || 20).to_f).ceil,
-            current_page: params[:page] || 1
-          }
-        )
-      end
+      result = select_and_execute_backend
+      # Process and format results consistently
+      FinderResult.new(result.items, pagination: result.pagination)
     end
 
     private
 
-    def use_advanced_finder?
-      return false unless Feature.enabled?(:advanced_finders)
-      return false if params[:force_legacy_finder]
+    def select_and_execute_backend
+      # Decision logic for selecting the appropriate backend:
+      # 1. Check feature flags
+      # 2. Verify ES/OS availability
+      # 3. Check parameter support
+      # 4. Evaluate query complexity
 
-      # Check if Advanced Search is available
-      return false unless advanced_search_available?
-
-      # Check if all provided parameters are supported by the advanced finder
-      ParameterSupport.backend_supports_params?('IssuesFinder', :advanced_search, params)
+      if should_use_legacy_finder?
+        execute_legacy_finder
+      elsif should_use_elasticsearch?
+        execute_elasticsearch_backend
+      else
+        execute_postgresql_backend
+      end
     end
 
-    def advanced_search_available?
-      Gitlab::CurrentSettings.elasticsearch_search?
-    end
+    # Backend execution methods
+    # ...
   end
-end
+ end
 ```
 
-### `FinderResult` Class
+#### Using Advanced Finders in Controllers and API Endpoints
 
 ```ruby
-class FinderResult
-  attr_reader :items, :pagination, :backend_used
+def index
+  finder = AdvancedFinder::Issues.new(current_user, finder_params)
+  result = finder.execute
 
-  def initialize(items, pagination, backend_used = nil)
-    @items = items
-    @pagination = pagination
-    @backend_used = backend_used
-  end
+  # result is always a FinderResult object with consistent interface
+  # regardless of which backend was used internally
 
-  def total_count
-    pagination[:total_count]
-  end
-
-  def total_pages
-    pagination[:total_pages]
-  end
-
-  def current_page
-    pagination[:current_page]
-  end
-
-  def next_page?
-    current_page < total_pages
-  end
-
-  def prev_page?
-    current_page > 1
-  end
-
-  def empty?
-    items.empty?
-  end
-
-  # Indicates whether any results were redacted due to permissions
-  def redacted?
-    pagination[:redacted] == true
-  end
-
-  # For diagnostic/logging purposes
-  def used_advanced_search?
-    backend_used == :advanced_search
-  end
-
-  def used_postgresql?
-    backend_used == :postgresql
-  end
+  render json: {
+    data: result.items,
+    pagination: {
+      total_count: result.total_count,
+      next_page_token: result.next_page_token
+    }
+  }
 end
 ```
+
+This architecture offers several advantages:
+
+1. **Clean API**: Consumers work with a single, consistent interface
+2. **Backend Transparency**: The decision of which backend to use is encapsulated
+3. **Gradual Migration**: Feature flags control the use of new backends
+4. **Consistent Results**: All backends return the same data structure
+
+### Unified Pagination with Page Tokens
+
+Rather than relying solely on traditional offset-based pagination (page numbers), the Advanced Finders will implement a unified pagination approach using opaque page tokens. This approach allows each backend to use its optimal pagination method internally while presenting a consistent interface to API consumers.
+
+Key components of this approach include:
+
+#### Page Token Structure
+
+Each page token encapsulates:
+
+1. **Pagination type**: offset, keyset, or scroll
+2. **Pagination state**:
+   - For offset: page number
+   - For keyset: cursor values for sort fields
+   - For scroll: scroll ID
+3. **Sort information**: fields and directions used for ordering
+
+These tokens are encoded for several important reasons:
+
+- **Abstraction**: Hides internal implementation details from API consumers
+- **Flexibility**: Allows the internal structure to evolve without breaking client code
+- **Simplicity**: Clients only need to handle a single opaque token rather than multiple pagination parameters
+- **Compatibility**: Supports different pagination mechanisms through a unified interface
+
+> **Note on Security**: The page tokens will be encrypted to prevent tampering and ensure that users cannot manipulate pagination state. This encryption provides essential security while maintaining all the usability benefits mentioned above.
+
+#### Page Token Usage
+
+The page token approach is designed for backward compatibility and gradual adoption:
+
+**For API Consumers:**
+
+- **Traditional pagination** remains supported: `?page=2&per_page=20`
+- **Token-based pagination** is available as an enhancement: `?page_token=encoded_token`
+- Responses include both traditional pagination metadata and a `next_page_token` for clients that wish to use it
+
+**For Backend Implementation:**
+
+1. When a request is received, the finder creates a page token from either:
+   - The provided `page_token` parameter
+   - Traditional pagination parameters (`page` and `per_page`)
+
+2. The token is used to format the query appropriately for the selected backend:
+   - For PostgreSQL: Translates to offset or keyset conditions
+   - For Elasticsearch: Formats as `from/size`, `search_after`, or scroll parameters
+
+3. After executing the query and receiving results, a new token for the next page is generated based on:
+   - The current token type
+   - The last item in the result set
+   - The backend that was used
+
+4. The response includes both the results and pagination metadata with the next token
+
+This approach allows GitLab to internally use the most efficient pagination method for each backend while providing a consistent, backward-compatible API.
+
+The following sequence diagram illustrates how unified pagination works across different backends:
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Finder as AdvancedFinder
+    participant Backend as Selected Backend
+    participant DB as PostgreSQL/Elasticsearch
+
+    Client->>Finder: Request with page_token or page/per_page
+
+    Note over Finder: Parse pagination parameters
+
+    alt Has page_token
+        Finder->>Finder: Decode token to get pagination state
+    else Traditional pagination
+        Finder->>Finder: Create token from page/per_page
+    end
+
+    Finder->>Finder: Select backend
+    Finder->>Backend: Execute with token
+
+    alt PostgreSQL Backend
+        Backend->>Backend: Translate to offset or keyset pagination
+        Backend->>DB: Execute SQL with pagination
+    else Elasticsearch Backend
+        Backend->>Backend: Translate to from/size or search_after
+        Backend->>DB: Execute ES query with pagination
+    end
+
+    DB->>Backend: Return raw results
+    Backend->>Backend: Convert to model instances
+    Backend->>Backend: Apply redaction if needed
+
+    Backend->>Finder: Return results with pagination state
+    Finder->>Finder: Generate next_page_token
+
+    Finder->>Client: Return FinderResult with next_page_token
+```
+
+This diagram shows how pagination requests flow through the system, with the finder translating between the unified external API (page_token) and the backend-specific pagination mechanisms.
+
+#### API Parameters
+
+The finder interface will support both traditional and token-based pagination:
+
+- Traditional (backwards compatibility): `page: 1, per_page: 20`
+- Token-based (preferred): `page_token: "encoded_token", per_page: 20`
+
+#### Response Format
+
+Responses will include:
+
+```ruby
+{
+  data: [...],
+  pagination: {
+    total_count: 100,
+    total_pages: 5,     # For backward compatibility
+    current_page: 1,    # For backward compatibility
+    next_page_token: "encoded_token_for_next_page"
+  }
+}
+```
+
+#### Backend-Specific Implementation
+
+- **PostgreSQL**: Translates the token into either offset-based (`LIMIT/OFFSET`) or keyset queries based on sorting criteria. For custom ordering, keyset pagination uses a more complex condition structure that respects all sort fields (e.g., `WHERE (created_at < X) OR (created_at = X AND id > Y)` for a composite sort on `created_at DESC, id ASC`)
+- **Elasticsearch**: Uses `search_after` or scroll API depending on the pagination depth and query type
+
+#### FinderResult Class
+
+The `FinderResult` class will be enhanced to support this unified pagination approach, exposing both traditional pagination metadata (for backward compatibility) and the next page token.
 
 ### Base Dual-Backend Finder
 
-```ruby
-module Finders
-  class BaseAdvancedFinder
-    attr_reader :current_user, :params
+The BaseAdvancedFinder class serves as the foundation for all advanced finders, providing:
 
-    def initialize(current_user, params = {})
-      @current_user = current_user
-      @params = params
-    end
+#### Backend Selection
 
-    def execute
-      backend_type, backend = select_backend
-      items = backend.execute(query_params)
+The finder intelligently selects the appropriate backend based on:
 
-      # Apply redaction logic to filter out items the user doesn't have access to
-      redacted_items = apply_redaction(items)
+- **Advanced Search availability**: Only uses Elasticsearch/OpenSearch if available
+- **Parameter compatibility**: Checks if all requested parameters are supported by the Advanced Search backend
+- **Query complexity**: Evaluates if the query is complex enough to benefit from Advanced Search
+- **Feature flags**: Allows gradual rollout and testing
 
-      # Recalculate pagination after redaction
-      pagination = build_pagination_for_redacted_results(backend, redacted_items)
+#### Query Execution Flow
 
-      FinderResult.new(redacted_items, pagination, backend_type)
-    end
+The execution process follows these steps:
 
-    private
+1. **Select backend** based on the criteria above
+2. **Parse pagination parameters** into the appropriate format for the selected backend
+3. **Execute the query** using the selected backend
+4. **Apply redaction** to filter out results the user doesn't have access to
+5. **Adjust pagination metadata** to account for any redacted items
+6. **Return a FinderResult** with the filtered items and pagination information
 
-    def select_backend
-      # Return tuple of [backend_type, backend_instance]
-      if advanced_search_available? && should_use_advanced_search?
-        [:advanced_search, advanced_search_backend]
-      else
-        [:postgresql, postgresql_backend]
-      end
-    end
+#### Redaction Safety Net
 
-    def should_use_advanced_search?
-      return false if params[:force_database_backend]
+A critical safety mechanism ensures no unauthorized data is returned:
 
-      # Check if parameters are supported by Advanced Search
-      if !ParameterSupport.backend_supports_params?(self.class.name, :advanced_search, params)
-        return false
-      end
-
-      # Check if query is complex enough to benefit from Advanced Search
-      query_complexity > complexity_threshold
-    end
-
-    def advanced_search_available?
-      Gitlab::CurrentSettings.elasticsearch_search?
-    end
-
-    def query_complexity
-      # Calculate complexity of the query
-      complexity = 0
-      complexity += 3 if params[:search].present?
-      complexity += 2 if params[:in].present? && params[:in].include?('comments')
-      complexity += 1 if params[:label_name].present? && params[:label_name].is_a?(Array) && params[:label_name].size > 1
-      complexity
-    end
-
-    def complexity_threshold
-      # Threshold above which Advanced Search is preferred
-      2
-    end
-
-    def postgresql_backend
-      # Return the PostgreSQL backend implementation
-    end
-
-    def advanced_search_backend
-      # Return the Advanced Search backend implementation
-    end
-
-    def query_params
-      # Format the parameters for the selected backend
-    end
-
-    def build_pagination(backend)
-      {
-        total_count: backend.total_count,
-        total_pages: backend.total_pages,
-        current_page: params[:page] || 1
-      }
-    end
-
-    # Apply redaction logic to filter out items the user doesn't have access to
-    # This serves as a safety net, even though both backends should already apply
-    # visibility scoping, to ensure no unauthorized access occurs
-    def apply_redaction(items)
-      return [] if items.empty?
-
-      # Filter out items that the user doesn't have permission to access
-      items.select do |item|
-        # Check if the current user has access to this item
-        # For most items, this will use `read_` permissions
-        permission = permission_for_model(item.class.name)
-        Ability.allowed?(current_user, permission, item)
-      end
-    end
-
-    # Determine the appropriate permission to check based on model type
-    def permission_for_model(model_name)
-      case model_name
-      when 'Issue'
-        :read_issue
-      when 'MergeRequest'
-        :read_merge_request
-      when 'Project'
-        :read_project
-      when 'Epic'
-        :read_epic
-      when 'User'
-        :read_user
-      when 'Note'
-        :read_note
-      when 'Snippet'
-        :read_snippet
-      else
-        # Default to :read_<model> for other models
-        :"read_#{model_name.underscore}"
-      end
-    end
-
-    # Recalculate pagination data after redacting items
-    def build_pagination_for_redacted_results(backend, redacted_items)
-      original_pagination = build_pagination(backend)
-
-      # If no redaction occurred, return original pagination
-      if redacted_items.count == original_pagination[:total_count]
-        return original_pagination
-      end
-
-      # Otherwise, we need to adjust the pagination to account for redacted items
-      page_size = params[:per_page] || 20
-      current_page = params[:page] || 1
-
-      {
-        total_count: redacted_items.count,
-        total_pages: (redacted_items.count.to_f / page_size.to_f).ceil,
-        current_page: current_page,
-        redacted: true # Flag to indicate redaction occurred
-      }
-    end
-  end
-end
-```
+- Applies permission checks using `Ability.allowed?(current_user, permission, item)` on each result
+- Serves as a final verification after backend-specific visibility filtering
+- Adjusts pagination data to account for redacted items
+- Provides transparency through a `redacted?` flag on the result object
 
 ### Backend Implementations
 
 #### PostgreSQL Backend
 
-```ruby
-module Finders
-  module Backends
-    class PostgreSQL
-      attr_reader :finder, :params
+The PostgreSQL backend takes finder parameters and converts them to ActiveRecord relations. Key responsibilities include:
 
-      def initialize(finder, params)
-        @finder = finder
-        @params = params
-      end
+- **Query Building**: Constructing ActiveRecord relations based on filter parameters
+- **Visibility Scoping**: Applying appropriate visibility rules and permissions
+- **Pagination**: Supporting both traditional offset pagination and keyset pagination
+- **Optimized Sorting**: Implementing efficient ordering based on sort parameters
 
-      def execute(query_params)
-        relation = build_relation(query_params)
-        paginate(relation)
-      end
-
-      def total_count
-        @total_count ||= build_relation(query_params).count
-      end
-
-      def total_pages
-        (total_count.to_f / (params[:per_page] || 20).to_f).ceil
-      end
-
-      private
-
-      def build_relation(query_params)
-        # Build ActiveRecord relation based on query_params
-      end
-
-      def paginate(relation)
-        page = params[:page] || 1
-        per_page = params[:per_page] || 20
-
-        relation.page(page).per(per_page).to_a
-      end
-    end
-  end
-end
-```
+Keyset pagination will be implemented to handle complex sorting requirements with conditions that respect the complete set of sort fields (e.g., properly handling `created_at DESC, id ASC` with appropriate WHERE clauses).
 
 #### Advanced Search Backend
 
-```ruby
-module Finders
-  module Backends
-    class AdvancedSearch
-      attr_reader :finder, :params
+The Advanced Search backend leverages Elasticsearch/OpenSearch for improved search performance. Key responsibilities include:
 
-      def initialize(finder, params)
-        @finder = finder
-        @params = params
-      end
+- **Query Translation**: Converting finder parameters to Elasticsearch queries
+- **Pagination**: Implementing search_after for cursor-based pagination and scroll API for deep pagination
+- **Result Formatting**: Converting Elasticsearch hits to model instances
+- **Permission Filtering**: Applying visibility rules through Elasticsearch filters
 
-      def execute(query_params)
-        search_results = perform_search(query_params)
-        format_results(search_results)
-      end
+The backend will select the appropriate pagination method based on the query context:
 
-      def total_count
-        @total_count ||= perform_search(query_params, count_only: true)
-      end
+- **search_after**: For regular user-facing paginated results
+- **scroll API**: For retrieving large result sets (e.g., exports)
 
-      def total_pages
-        (total_count.to_f / (params[:per_page] || 20).to_f).ceil
-      end
+### Implementation Examples
 
-      private
+FinderResult and each backend type will have concrete implementations for specific entity types. For example, the IssuesFinder would:
 
-      def perform_search(query_params, count_only: false)
-        # Perform Elasticsearch search based on query_params
-      end
+- Define specialized PostgreSQL and Elasticsearch backends for issues
+- Implement issue-specific filtering and sorting logic
+- Handle issue-specific permissions and visibility rules
+- Apply appropriate pagination based on the query context
 
-      def format_results(search_results)
-        # Convert Elasticsearch results to model instances
-      end
-    end
-  end
-end
-```
-
-### Example Implementation: IssuesFinder
-
-```ruby
-module Finders
-  class AdvancedIssuesFinder < BaseAdvancedFinder
-    def initialize(current_user, params = {})
-      super
-    end
-
-    private
-
-    def postgresql_backend
-      Backends::PostgreSQL::IssuesBackend.new(self, params)
-    end
-
-    def advanced_search_backend
-      Backends::AdvancedSearch::IssuesBackend.new(self, params)
-    end
-  end
-end
-```
+This pattern will be repeated for other entity types like MergeRequests, Projects, etc., with each implementation focusing on the unique requirements of that entity type while leveraging the shared infrastructure.
 
 ## Rollout Strategy
 
