@@ -197,7 +197,6 @@ To ensure a high-quality and consistent format, pleaser follow these guidelines:
 
 If you need any help, don't hesitate to ask us in our team channel [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B).  
 
-
 ### Publishing Product Tours
 
 Product tours are published in the following locations:
