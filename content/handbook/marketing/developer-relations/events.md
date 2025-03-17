@@ -169,7 +169,7 @@ their README. The projects are meant to be cloned and used within your own space
 
 #### Click-through Demos
 
-Click-through demos are demos that can be run offline as well as be used as self-guided training.
+Click-through also named as product tours are demos are self-guided.
 They are linear and primarily used to showcase a particular feature, and are a great asset for those
 with less experience in delivering demos and in environments where there is limited internet connectivity.
 The available click-through demos are as follows:
