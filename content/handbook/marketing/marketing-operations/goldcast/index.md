@@ -255,7 +255,7 @@ This section also gives access to see registrants' `Magic Links`. A magic link i
 
 ## Running an Event
 
-under construction
+starting the MR
 
 ## Content Hub
 
