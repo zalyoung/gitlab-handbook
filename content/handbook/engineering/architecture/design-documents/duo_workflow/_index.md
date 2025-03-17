@@ -95,7 +95,7 @@ The following are important constraints of the architecture:
 1. For local execution Duo Workflows are initiated using the Duo Workflow
    Executor directly calling Duo Workflow Service.
 1. For workflows triggered via the UI that don't require a Duo Workflow
-   Executor GitLab can call the Duo Workflow Service directly.
+   Executor, GitLab can call the Duo Workflow Service directly.
 1. All API calls from Duo Workflow Service to GitLab that access private data
    or update data will be authenticated on behalf of the user that created the
    worklow. Duo Workflow Service should not need privileged access to GitLab.
@@ -750,10 +750,9 @@ extensions.
 
 ### How does the web UI reflect the current state live
 
-The Duo Workflow Service will persist it's state frequently to the main GitLab Rails
-application. There will be GraphQL subscriptions for streaming updates about a
-workflow. The UI will consume these GraphQL apis and update the UI as
-updates stream in.
+The Duo Workflow Service regularly saves its state to GitLab
+Rails. The UI receives real-time updates through GraphQL
+subscriptions, automatically refreshing as new data arrives.
 
 Given that the user may be running the Duo Workflow Executor locally which may
 be seeing some of the state as it happens it might be reasonable to want to
@@ -780,11 +779,11 @@ The first UI state is when the user needs to submit a goal. This is only a clien
 
 #### Not started / created
 
-After starting a workflow with a user defined goal, a Workflow is created which translates to LangGraph creating an empty checkpoint. On the API side, the workflow will be created with the `NOT_STARTED` state, which means that a goal has been sent, but not plan has been returned from LangGraph yet. This is the point where the client needs to start subscribing to `DuoWorkflowEvent`.
+After starting a workflow with a user-defined goal, a Workflow is created which translates to LangGraph creating an empty checkpoint. On the API side, the workflow will be created with the `NOT_STARTED` state, which means that a goal has been sent, but no plan has been returned from LangGraph yet. This is the point where the client needs to start subscribing to `DuoWorkflowEvent`.
 
 #### Planning
 
-Once in planning, we need to start streaming Workflow responses back to the client. We are getting the `checkpoint` field from the `DuoWorkflowEvent` subscrition which is a JsonString that represents LangGraph raw response. For the first iteration, the client will rely solely on this JSON string to get all new data and drive the UI, which mean that we needto parse the JSON and account for possible parsing errors. It also mean having a very tight coupling between the UI and LangGraph, so this parsing should be abstracted away in its own functionality so that it can be easily removed.
+Once in planning, we need to start streaming Workflow responses back to the client. We are getting the `checkpoint` field from the `DuoWorkflowEvent` subscrition which is a JsonString that represents LangGraph raw response. For the first iteration, the client will rely solely on this JSON string to get all new data and drive the UI, which means that we need to parse the JSON and account for possible parsing errors. It also mean having a very tight coupling between the UI and LangGraph, so this parsing should be abstracted away in its own functionality so that it can be easily removed.
 
 **Important:** For the first iteration, there is no way to stop or pause a Workflow and this mean that once the goal has been submitted, we will not render any button or UI interactions. The UI will "move on its own" where for example, once the `PLANNING` phase is over, we will automatically open the `EXECUTING` panel and start rendering the right information. Users do not need to confirm or interact and the Workflow should reach its final state on its own.
 
