@@ -170,32 +170,31 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 ## Content Creation
 
-### Guidelines for Creating Public-Facing Product Tours with Navattic
+### Guidelines for Creating Public-Facing Product Tours with Navattic  
 
-To balance the increasing demand for more product tours and the desire to maintain a consistent experience, we can provide a few seat licesnes to team members outside the **DA team** with access to develop tours themselves.  
+1. **Keep it concise** – Product tours should ideally have **5 to 12 steps**, each focused on delivering clear value. Unlike documentation demos, which tend to be instructional, product tours should be quick and engaging.  
+2. **Provide context** – Add links to relevant blog posts or documentation within pop-ups to offer additional resources. Keep descriptions brief and to the point.  
+3. **Apply GitLab branding** – In the theme settings, select **"GitLab Branding [Navattic Team]"** to ensure a consistent design.  
+4. **Use the appropriate capture type** – Navattic supports two types of screen captures:  
+   - **Web captures** (preferred) create an in-product experience.  
+   - **Screenshots** should be used for non-web-based applications (e.g., IDEs).  
+5. **Set the correct resolution** – When capturing in Chrome, set your browser to **1680x1050 (Full HD)**. You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to adjust the resolution.  
+6. **Include a call to action** – The final step should feature a **CTA**, typically a **Free Trial** link.  
+7. **Use Beacons to highlight elements** – Apply the **Highlight** appearance setting to emphasize key elements.  
+8. **Enable keyboard navigation** – This allows users to navigate the tour using arrow keys for a smoother experience.  
+9. **Use Presenter Mode** – This hides pop-ups when necessary, ensuring a cleaner visual presentation.  
+10. **Set pop-ups appropriately**:  
+    - Use **Modal pop-ups** with a **heavy backdrop** for the first and last steps.  
+    - Use **Tooltips** for intermediate steps, enabling the **Backdrop setting** when appropriate.  
 
-- We offer a **3-month trial license** to team members who request access with a **valid business justification**.  
-- If the user is active and utilizing the tool, we will consider **extending the period** or purchasing additional licenses.  
-- If the user is not actively using the tool, we will **reassign the seat** to someone else.  
+### Requesting Access to Navattic  
 
-To ensure a high-quality and consistent format, pleaser follow these guidelines:  
+- We can offer a **3-month trial license** to team members who request access and provide a **valid business justification** for using Navattic.  
+- If a user actively utilizes the tool, we may **extend their access** or purchase additional licenses as needed.  
+- If a user is not actively using the tool, their license may be **reassigned** to another team member.  
+- To request access, open an [issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=other-activities) 
 
-1. **Keep it concise** – Product tours should ideally have **5 to 12 steps**, each focused on delivering clear value. Unlike documentation demos, which may be more instructional, product tours should be quick and engaging.
-2. **Provide context** – Add links to relevant blog posts or documentation within popups to offer additional context or resources. Keep descriptions brief.
-3. **Apply GitLab branding** – In the theme settings, select **"GitLab Branding [Navattic Team]"** for a consistent design.
-4. **Use appropriate capture types** – Navattic supports two types of screen captures:
-   - **Web captures** (preferred) create an in-product experience.
-   - **Screenshots** should be used for non-web-based apps (e.g., IDEs).
-5. **Set the correct resolution** – When capturing using Chrome, set your browser to **1680x1050 (Full HD)**. You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to adjust the resolution.
-6. **Include a call to action** – The final step should have a CTA, typically a **Free Trial** link.
-7. **Use Beacons to highlight elements** – The **Highlight** appearance setting should be applied for emphasis.
-8. **Enable keyboard navigation** – This allows users to navigate using arrow keys.
-9. **Use Presenter Mode** – Enabling this hides popups when necessary for a cleaner experience.
-10. **Set popups appropriately**:
-    - Use **Modal popups** with a **heavy backdrop** for the first and last steps.
-    - Use **Tooltips** for other steps, enabling the **Backdrop setting** when appropriate.
-
-If you need any help, don't hesitate to ask us in our team channel [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B).  
+For questions or assistance, reach out to us in our team channel: [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B).  
 
 ### Publishing Product Tours
 
