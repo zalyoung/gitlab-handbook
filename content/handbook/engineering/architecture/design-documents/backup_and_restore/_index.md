@@ -327,9 +327,5 @@ Backup Management solution, that will be composed of:
 
 ### Cloud Backups: support 50k CNH reference architecture on GCP for Cells
 
-```sh
-gitlab-backup-cli backup all
-gitlab-backup-cli restore all
-```
-
-TBD
+In [Cells ADR 013](/handbook/engineering/architecture/design-documents/cells/decisions/013_cell_restore_from_backup/)
+it was decided that we would restore into a new Cell with the same Cell ID, but a different Tenant ID.
