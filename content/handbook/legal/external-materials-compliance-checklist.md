@@ -19,6 +19,7 @@ In addition to following the SAFE Framework and the IP Guidelines, review the fo
 - All audio and visual content (including images, video, sounds, and music) is obtained from a permissively-licensed source, or is subject to a license permitting the proposed use.
 - All content is appropriate for a professional setting and neither offensive nor misleading.
 - Where [necessary](/handbook/legal/publicity-waiver-release), signed Publicity Waiver and Release agreements are in place with named individuals, and individuals appearing in audio or visual content.
+- If the material references upcoming products, features or functionality, the appropriate disclaimer is included. 
 
 ## Examples - is Legal Review Necessary?
 
@@ -36,3 +37,4 @@ In addition to following the SAFE Framework and the IP Guidelines, review the fo
 |Materials related to quarterly earnings, including future results <p> and dates of earnings release|Yes|
 |Materials related to roll out of products material to the business|Yes|
 |Crisis communications|Yes|
+|Materials related to AI|Yes|
