@@ -176,7 +176,7 @@ Click-through demos, also known as product tours, are self-guided walkthroughs d
 - Navigate using the arrow keys (→/←)
 - Toggle dialogs with Ctrl + P
 
-### Available Short Versions
+### Available short versions
 
 - [Advanced SAST](https://gitlab.navattic.com/advanced-sast-short)
 - [Compliance Frameworks](https://gitlab.navattic.com/compliance-short)
