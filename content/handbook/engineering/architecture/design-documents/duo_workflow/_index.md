@@ -783,7 +783,7 @@ After starting a workflow with a user-defined goal, a Workflow is created which 
 
 #### Planning
 
-Once in planning, we need to start streaming Workflow responses back to the client. We are getting the `checkpoint` field from the `DuoWorkflowEvent` subscrition which is a JsonString that represents LangGraph raw response. For the first iteration, the client will rely solely on this JSON string to get all new data and drive the UI, which means that we need to parse the JSON and account for possible parsing errors. It also mean having a very tight coupling between the UI and LangGraph, so this parsing should be abstracted away in its own functionality so that it can be easily removed.
+Once in planning, we need to start streaming Workflow responses back to the client. We are getting the `checkpoint` field from the `DuoWorkflowEvent` subscrition which is a JsonString that represents LangGraph raw response. For the first iteration, the client will rely solely on this JSON string to get all new data and drive the UI, which means that we need to parse the JSON and account for possible parsing errors. It also means having a very tight coupling between the UI and LangGraph, so this parsing should be abstracted away in its own functionality so that it can be easily removed.
 
 **Important:** For the first iteration, there is no way to stop or pause a Workflow and this mean that once the goal has been submitted, we will not render any button or UI interactions. The UI will "move on its own" where for example, once the `PLANNING` phase is over, we will automatically open the `EXECUTING` panel and start rendering the right information. Users do not need to confirm or interact and the Workflow should reach its final state on its own.
 
