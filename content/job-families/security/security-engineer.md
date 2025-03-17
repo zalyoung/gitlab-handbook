@@ -416,6 +416,51 @@ Nice to have
 - Expertise in emerging technology, like AI
 - Understanding of security certifications, frameworks, and standards, like FedRAMP, ISO 27001, SOC 2, PCI-DSS, etc.
 
+## Product Security Risk & Metrics 
+
+A Product Security Risk & Metrics Engineer combines specialized focus on product security risk operations and metrics engineering. This position manages the Product Security Risk Register, designs specialized metrics and data collection systems, and drives cross-functional alignment among Security, Engineering, and Product stakeholders to ensure buy-in and commitment to risk reduction initiatives.
+
+Unlike other security engineering specialties that prioritize deep security expertise, this specialty emphasizes data collection and analysis, operational excellence, and cross-functional collaboration. Career progression in this specialty is based on demonstrated expertise in data engineering, analytics, process engineering, and cross-functional leadership rather than traditional security technical skills.
+
+Responsibilities:
+
+- Build and maintain the operational systems for the Product Security Risk Register, focusing on efficient workflows and data collection
+- Manage operational cadences including the monthly risk review process and action item tracking workflows
+- Engineer tracking systems that monitor remediation progress and provide visibility into risk reduction initiatives
+- Architect data collection methods and implement technical solutions for cross-team prioritization discussions
+- Design and implement robust metrics collection systems that accurately measure both strategic and operational effectiveness for all Product Security teams
+- Engineer data visualization pipelines and dashboard solutions that effectively communicate security posture and improvements
+- Apply data analysis techniques to identify trends and patterns in security risk data to inform proactive risk management
+- Facilitate cross-team collaboration to ensure risk reduction efforts are properly coordinated and tracked
+- Drive cross-functional alignment between Security, Engineering, Product, and other stakeholders to ensure buy-in and commitment to risk reduction initiatives
+- Work alongside the Security Risk Team to ensure product-specific tracking aligns with broader operational risk management while maintaining distinct focus areas
+- Serve as the central coordinator for the Product Security Risk Register operations, related metrics collection, and stakeholder reporting within the Security Architecture team
+
+Requirements:
+
+- 5+ years of experience in security risk management, data analytics, technical program management, or related roles within technology organizations
+- Demonstrated experience in creating and operationalizing metrics, KPIs, and reporting dashboards that drive organizational outcomes 
+- Proficiency with data visualization and analysis tools (e.g., Tableau, Power BI, or similar)
+- Proficiency in designing workflows and scalable labeling systems in development ticketing systems like GitLab, Jira, Asana, etc. 
+- Strong analytical skills with ability to collect, organize, and derive insights from complex data sets
+- Proven track record in developing and implementing project/program management processes
+- Excellent communication skills with the ability to present complex data in accessible formats
+- Strong facilitation and consensus-building skills across diverse stakeholder groups
+- Basic understanding of application security concepts and secure development practices
+
+Nice-to-Have Qualifications:
+
+- Experience working with product security or application security teams
+- Familiarity with GitLab and its CI/CD ecosystem, or DevSecOps practices generally
+- Security certifications such as CISSP, CISM, CRISC, CRM, etc.
+- Project management certifications like PMP
+- Experience with agile development methodologies
+- Experience with risk assessment methodologies and frameworks such as NIST RMF, FAIR, ISO 31000, etc.
+- Knowledge of compliance frameworks such as FedRAMP, SOC 2, ISO 27001, PCI-DSS, TISAX, etc.
+- Experience with automation and scripting for data collection and reporting
+- Prior experience specifically with security risk registers or vulnerability management programs
+- Experience working in a rapidly scaling technology company
+
 ## Security Engineer Hiring Process
 
 All interviews are conducted using Zoom video conferencing software. Candidates for Security Engineer roles can expect the hiring process to follow the order below, with modifications to the process as required, based on specific situations. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
