@@ -6,10 +6,6 @@ description: >-
 
 ## Software Engineer in Test Focus
 
-### GitLab-led Learning
-
-- [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
-
 ### Books
 
 GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining one of the upcoming book clubs or starting your own.
@@ -25,7 +21,6 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 ### GitLab-led Learning
 
 - [Elevate Leadership Training](/handbook/people-group/learning-and-development/elevate-programs/) (open to aspiring managers starting in late FY24)
-- [Crucial Conversations Training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 
 ### Books
 

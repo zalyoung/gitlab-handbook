@@ -13,7 +13,7 @@ twitter_creator: "@gitlab"
 
 Remote work burnout can manifest itself in many ways, including stress, isolation, or anxiety. Leaders need to promote a healthy, non-judgemental [culture](/handbook/company/culture/#culture-at-gitlab) where individuals are encouraged to prevent or work through burnout rather than hiding or internalizing struggles.
 
-In this [CEO handbook learning session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions), Sid and other leaders at GitLab discuss the importance recognizing the signs of remote work burnout, taking time off, and addressing imposter syndrome.
+In this CEO handbook learning session, Sid and other leaders at GitLab discuss the importance recognizing the signs of remote work burnout, taking time off, and addressing imposter syndrome.
 
 {{< youtube "od_KdZqc69k" >}}
 
@@ -66,7 +66,7 @@ As part of his session at REMOTE by GitLab, John shares how organizations can in
 
 {{< youtube "bQMoF7oSh2o" >}}
 
-GitLab's L&D team also hosted a [live speaker series](/handbook/people-group/learning-and-development/learning-initiatives/speakers/) with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
+GitLab's L&D team also hosted a live speaker series with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
 
 {{< youtube "BDvpoouM-us" >}}
 
@@ -95,7 +95,7 @@ Examples of how you might define your rest ethic:
 
 To learn more about building a rest ethic, refer to this course by John Fitch and TimeOff entitled [Design your Rest Ethic](https://timeoff.thinkific.com/courses/time-off-design-your-rest-ethic).
 
-GitLab hosted John Fitch for 2 Live [Speaker Series](/handbook/people-group/learning-and-development/learning-initiatives/speakers/) during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
+GitLab hosted John Fitch for 2 Live Speaker Series during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
 
 **Session 1**
 
