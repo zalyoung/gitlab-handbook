@@ -72,7 +72,7 @@ We have an issue template that captures these elements: https://gitlab.com/gitla
 
 ## E-Group Conversation on Making Decisions
 
-GitLab E-Group and the Learning and Development team discussed strategies on making decisions as part of the [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions).
+GitLab E-Group and the Learning and Development team discussed strategies on making decisions as part of the CEO Handbook Learning Session.
 
 Topics covered include:
 
