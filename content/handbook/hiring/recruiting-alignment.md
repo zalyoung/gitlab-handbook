@@ -46,7 +46,7 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 | Talent Acquisition | Jess Dallmar |
 | Talent Brand | Devin Rogozinski |
 | Talent Acquisition (Global Sales and G&A) | Jake Foster|
-| Talent Acquisition (AMER Sales & Global Marketing) | Steph Sarff 
+| Talent Acquisition (AMER Sales & Global Marketing) | Steph Sarff |
 | Talent Acquisition (Product and Security) | Jack Connors |
 | Talent Acquisition (Engineering) | Matt Angell |
 | Enablement | Marissa Farris |
