@@ -28,6 +28,8 @@ By implementing Advanced Finders, we will:
 - Enable more sophisticated search capabilities
 - Create a future-proof architecture that can adapt to different data sources
 
+This work should address this long standing feature request https://gitlab.com/groups/gitlab-org/-/epics/14293 as well as other similar issues and epics.
+
 ## Overview
 
 The Advanced Finders will:
