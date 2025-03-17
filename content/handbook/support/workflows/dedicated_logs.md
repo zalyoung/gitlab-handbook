@@ -281,3 +281,6 @@ You can then filter by `correlation_id` only, to select the failed occurrence. T
 1. Fine-tune the results by adding more filters such as, Filter: `message` Operator: `is one of` Value: `elasticsearch` to see any logs with the term elasticsearch
 
 Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/integration/advanced_search/elasticsearch_troubleshooting/#last-resort-to-recreate-an-index) for potential next steps.
+
+#### Debug hosted runners for GitLab Dedicated
+To debug hosted runners, first [verify that a customer is using Hosted Runners](./dedicated_runners.md#who-is-using-hosted-runners), then refer to the [Hosted Runners for GitLab Dedicated](./dedicated_runners.md#viewing-logs) documentation page to view log filters.
