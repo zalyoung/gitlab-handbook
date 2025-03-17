@@ -251,10 +251,8 @@ for team members across GitLab through issue boards.
 ### Speaker Enablement
 
 The Developer Advocacy team provides support to new and experienced speakers where necessary. These can range from presentation reviews,
-CFP ideation, or dry-run sessions. You can [learn more](/handbook/marketing/developer-relations/developer-advocacy/speaker-enablement/) about
+CFP ideation, or dry-run sessions. You can [learn more](/handbook/marketing/developer-relations/developer-advocacy/cfps/) about
 the different resources and activities you can benefit from.
-
-**Note**: People who regularly speak about GitLab may be interested in joining the [GitLab Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/).
 
 ## Code Challenges
 
@@ -268,7 +266,7 @@ the application.
 
 Please use the [Code challenge checklist template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=codechallenge-checklist) to
 create a new Code challenge issue for the event. Review the requirements and use them as a guide to ensure every component is in place.
-Add the new code challenge issue into the event epic in the [event roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).
+Add the new code challenge issue into the event epic.
 
 ## Sponsorship
 
