@@ -37,8 +37,8 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
    - Monitoring changes to government contractual language that could impact public sector security and compliance posture.
 1. Dogfooding
     - We use the GitLab product to perform our core competencies
-    - We reccomend GitLab feature solutions to remediate observations and reduce risk
-    - We provide feedback to the product by exemplifying the [compliance persona](https://handbook.gitlab.com/handbook/product/personas/#cameron-compliance-manager).
+    - We recommend GitLab feature solutions to remediate observations and reduce risk
+    - We provide feedback to the product by exemplifying the [compliance persona](/content/handbook/product/personas/_index.md#cameron-compliance-manager).
 
 ## Operating Model
 
@@ -71,7 +71,6 @@ All team members are encouraged to regularly start Slack discussions in `# sec-a
 | Compliance posture by NIST CSF function/category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)| n/a|
 | Number of compliance findings (Observations) that are fresh| This metrics captures our ability to stay engaged with remediation owners and activities that affect our certifications and security posture. | This looks at the last updated date of the open issues in the observation management repo.| 80% of issues are fresh| Real-time| [Tableau Dashabord](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)| n/a|
 
-
 ## FY26 Strategic Initiatives
 
 ### Primary Focus Areas
@@ -89,8 +88,8 @@ ISMAP
 Cert Maintenance
 GCF v4
 
-
 ## Review and Updates
+
 This charter will be reviewed and updated quarterly to ensure alignment with: [List key alignment points and criteria for updates]
 
 Next scheduled review: [2025-07-31]
