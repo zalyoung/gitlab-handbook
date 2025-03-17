@@ -108,12 +108,7 @@ While on shift the engineer should:
 
 ### Triage Schedule
 
-| Week                    | Engineer                |
-| ----------------------- | ----------------------- |
-| 2025/02/10 - 2025/02/16 | @ssuman3                |
-| 2025/02/17 - 2025/02/23 | @jfypk                  |
-| 2025/02/24 - 2025/03/02 | @halilcoban             |
-| 2025/03/02 - 2025/03/08 | @mikolaj_wawrzyniak     |
+The schedule can be found in [this Google sheet](https://docs.google.com/spreadsheets/d/1zoZ3o-2xlq5Qlg-BUxt3hO8SRqZAFVTK3QO2BVBl0qY/edit?gid=0#gid=0). Every Monday an auto generated message announces who is responsible for the alerts channel based on this schedule.
 
 ### ⏲ Time Off
 
