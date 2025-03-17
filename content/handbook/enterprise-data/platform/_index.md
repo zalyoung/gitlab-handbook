@@ -106,6 +106,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 |[Demo Architecture Portal](https://cloud.gitlabdap.com/)|Stitch|`demo_architecture_portal`|`demo_architecture_portal`|Sales and marketing|7 Days/7 Days|No|Tier 3|
 | [Elastic Search Billing](https://www.elastic.co/docs/api/doc/cloud/group/endpoint-billingcostsanalysis) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
 | End to End test metrics | Snowflake tasks | `e2e_metrics` | `e2e_metrics` | Engineering | 24h / 48h | No | Tier 2 |
+| [Ecosystems BVA](https://www.ecosystems.us/) | Airflow | `ecosystems` | `ecosystems` | Sales | 24h / 48h | No | Tier 3 |
 | [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
 | Fivetran_Logs | Fivetran | `N/A` | `N/A` | Data | 24h / 48h | No | Tier 3 |
 | [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
@@ -980,7 +981,7 @@ The process involves:
 
 ### Prerequisites
 
-- Access to `config-mgmt` repo, specifically the `aws-snowplow` environment.
+- Access to `config-mgmt` repo, specifically the `aws-gitlab-analysis` environment.
 - Snowflake account access with `ACCOUNTADMIN` role
 
 ### Detailed Steps
@@ -990,7 +991,7 @@ The process involves:
 #### 1. Create the S3 Bucket
 
 1. In the repository: [gitlab-com/gl-infra/config-mgmt](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt)
-1. Create a new S3 bucket via Terraform in the `aws-snowplow` environment:
+1. Create a new S3 bucket via Terraform in the `aws-gitlab-analysis` environment:
 
     ```terraform
     resource "aws_s3_bucket" "some_new_bucket" {
@@ -1002,7 +1003,7 @@ The process involves:
 #### 2. Update the IAM Policy
 
 1. In the same repo as the previous step, navigate to the policy file in GitLab:
-   - File path: `environments/aws-snowplow/templates/iam_policy_snowflake_s3_integration.json`
+   - File path: `environments/aws-gitlab-analysis/templates/iam_policy_snowflake_s3_integration.json`
 
 1. Add the new bucket path under `Resource` array in the same pattern as of existing bucket.
 

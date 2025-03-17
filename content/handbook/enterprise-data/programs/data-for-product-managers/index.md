@@ -84,7 +84,7 @@ If your analytics needs for your new or recently modified feature are met by the
 - [PD: Centralized Product Usage Metrics](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting)
 - [PD: Product Usage Metrics (.com & Service Ping)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2478263/views)
 - [PD: Firmographic Product Metric Usage](https://10az.online.tableau.com/#/site/gitlab/workbooks/2137023/views)
-- [PD: Subscription Feature Usage Trends](https://10az.online.tableau.com/t/gitlab/views/PDSubscriptionFeatureUsageTrends_17032798065680)
+- [PD: Subscription Feature Usage Trends](https://10az.online.tableau.com/t/gitlab/views/PDSubscriptionFeatureUsageTrends_17032798065680/ActiveSubscriptionUsageTrends)
 - [AI Gateway Reporting](https://10az.online.tableau.com/t/gitlab/views/AIGatewayReporting/Overview)
 
 ### Process for Instrumenting Feature Tracking

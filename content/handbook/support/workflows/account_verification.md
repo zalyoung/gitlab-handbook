@@ -17,7 +17,7 @@ Account actions can only be completed if the [workflow](#workflow) below is succ
 
 GitLab.com requires that users without 2FA enabled verify their email address when a login attempt meets certain high-risk criteria. For users requesting support when their email address is no longer valid and are unable to receive the email, please see the [Email account lost workflow](/handbook/support/workflows/lost_emails).
 
-If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/workflows/phone-number-verification) to follow.
+If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/handbook/support/workflows/phone-number-verification/) to follow.
 
 ### GitLab Team Members
 
@@ -49,7 +49,7 @@ The table below provides a summary of the available verification options based o
 | Requester | Target | Challenges | Support PIN | Notes |
 | --- | --- | --- | --- | --- |
 | Enterprise Owner | Own account | Owner passes challenges on own account | Support PIN must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com) for other challenges. |
-| Enterprise Owner | Member of paid group or intent to be added | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
+| Enterprise Owner | Member of paid group or intent to be added or Enterprise User | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
 | Owner | Non-enterprise user | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CC'd on ticket.  |
 | Paid User | Own account | User passes challenges on own account | N/A | If owner is needed, owner must open a new ticket. |
 | Paid User | Other member of same paid group | Target user passes challenges on own account | N/A | If owner is needed, owner must open a new ticket.|

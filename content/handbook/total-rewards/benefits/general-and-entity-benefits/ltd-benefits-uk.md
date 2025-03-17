@@ -452,13 +452,7 @@ You can view the `Certificate of Employers' Liability Insurance` [here](https://
 
 ### Adding/Removing Team Members from Help@Hand
 
-1. Pull a the UK Help@Hand Report from Workday
-1. Log on to the Employer Help@Hand Platform
-1. To add joiners, select "Add Employees" > "Import Employees" > Include new hire emails in CSV file and upload to the portal.
-1. To remove leavers select "De-register Employees" > "Import Employees", include leaver's emails in CSV file and upload to portal
-1. To remind Team Members of Help@Hand benefit, select "Export Employees", copy emails of "Unregistered" team members and send a reminder email to register
-
-Additional details can be found on the [Adding/Removing Team Members Help@hand Guide](https://docs.google.com/document/d/1jrSe8lyPuDkgQyx_HeDQTcC8lO1xZKk5/edit).
+Details can be found on the [Adding/Removing Team Members Help@hand Guide](https://docs.google.com/document/d/1jrSe8lyPuDkgQyx_HeDQTcC8lO1xZKk5/edit).
 
 ### Applying for Income Protection when Team Members go on Leave for Illness/Injury
 

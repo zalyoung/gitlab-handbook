@@ -19,7 +19,7 @@ Talking about the weather; sharing photos of pets, favorite foods or holidays; s
 
 ## What is the difference between formal and informal communication in the workplace?
 
-Since GitLab is an all-remote organization that [works asynchronously](asynchronous/), nearly all work communication is [documented](/handbook/product/ux/technical-writing/documentation/), making all work-related communications "formal" communications. This helps support our value of [transparency](/handbook/values/#transparency).
+Since GitLab is an all-remote organization that [works asynchronously](asynchronous/), nearly all work communication is [documented](/handbook/product/ux/technical-writing/#documentation), making all work-related communications "formal" communications. This helps support our value of [transparency](/handbook/values/#transparency).
 
 We are big on relationship-buiding. We highly value intentionally creating time to build relationships via informal communications.
 

@@ -5,7 +5,7 @@ toc_hide: true
 
 ## Context
 
-In https://gitlab.com/groups/gitlab-org/-/epics/13295+ we are delivering a new experience where customer can configure their own compliance requirements through compliance frameworks and then report and enforce those requirements through the adherence report and security policies.
+In https://gitlab.com/groups/gitlab-org/-/epics/13295 we are delivering a new experience where customer can configure their own compliance requirements through compliance frameworks and then report and enforce those requirements through the adherence report and security policies.
 
 To accommodate large-scale implementation of compliance frameworks (1000+ projects), we must prioritize scalability and ensure the feature remains performant even under heavy workloads.
 
