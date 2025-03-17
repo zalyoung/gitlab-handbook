@@ -73,20 +73,20 @@ and keeping work unblocked.
 There should never be more than two themes in progress at a time per team.
 
 For all tier T1 and T2 roadmap items, and initiatives spanning multiple milestones, we recommend creating
-[a design document](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/) using the
-[Architecture design workflow](https://handbook.gitlab.com/handbook/engineering/architecture/workflow/).
+[a design document](../../../architecture/design-documents/) using the
+[Architecture design workflow](../../../architecture/workflow/).
 This approach offers several benefits:
 
 1. **Single Source of Truth (SSOT)**: A design document serves as the central place for all important information related
    to the initiative, reducing time spent searching for decisions across various places.
 2. **Increased Visibility**: By creating design documents, we raise awareness of the work done in the
-   Plan stage, such as the [work items framework](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/work_items/),
-   customizable Work Item Types, custom fields, [custom status](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/work_items_custom_status/),
-   [GLQL](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/glql/), frontend-driven views, and many more.
+   Plan stage, such as the [work items framework](../../../architecture/design-documents/work_items/),
+   customizable Work Item Types, custom fields, [custom status](../../../architecture/design-documents/work_items_custom_status/),
+   [GLQL](../../../architecture/design-documents/glql/), frontend-driven views, and many more.
 3. **Discoverability**: Design documents are easily accessible
-   [through our public handbook](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/), 
+   [through our public handbook](../../../architecture/design-documents/), 
    aligning with engineering best practices.
-4. **Collaborative Decision-Making**: [Changes and discussions occur through merge requests](https://handbook.gitlab.com/handbook/engineering/architecture/workflow/#why-are-design-documents-tracked-in-merge-requests),
+4. **Collaborative Decision-Making**: [Changes and discussions occur through merge requests](../../../architecture/workflow/#why-are-design-documents-tracked-in-merge-requests),
    ensuring visibility to all involved team members.
 5. **Comprehensive Entry Point**: The design document functions as a primary entry point for the initiative, containing:
    - An executive summary
