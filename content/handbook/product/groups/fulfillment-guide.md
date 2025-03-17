@@ -92,17 +92,28 @@ This feature is currently limited a few users from LnR support team but can be r
 
 ## Temporary renewal extensions
 
-Sales Rep can generate a temporary extension via SFDC for one of the approved reasons. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/subscriptions/self_managed/#subscription-expiry)).
+Renewal Sales team members can generate multiple temporary extensions for eligibile subscriptions via Salesforce that will go through an approval process. Extensions can be generated 1-15 days before subscription end date or 1-13 days after subscription end date. Extension duration varies by subscription type:
 
-Please note for Self Managed extensions:
+- For Saas, 7 days per extension. The [14 days grace period](https://docs.gitlab.com/subscriptions/self_managed/#subscription-expiry) will be observed at the end of the extended term.
+- For Self Managed, first extension is 21 days (inclusive of the grace period), subsequent extensions are 7 days (no grace period)
 
-- The 14 day grace period does not apply and the customer will only get a 21 day extension [OPEN issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1827)
-- The temporary license generated will only be for the customer's base plan (Premium or Ultimate). If the customer has a GitLab Duo Pro or GitLab Duo Enterprise add-on, they will lose Duo access when the temporary renewal license is applied to their instance.
-- SM customers may have to manually apply their activation code or license key upon successful renewal if it does not appear automatically on their instance [Some instances may block the sync of renewed license key if the temporary extension is still active].
+**How are extensions applied for the customer?**
 
-Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/10173#timeline-of-events) of subscription events related to the temporary renewal extensions.
+- Each extension requires a separate approval within Salesforce
+- Extensions are queued and applied back-to-back (for example, if the first extension ends on March 15th, the second extension will start on March 15th).
+- All extensions requests need to be created and approved 13 days after the subscriptions end date
 
-Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
+**Additional consideration for Self Managed extensions who are on cloud license:**
+
+- The temporary license generated is a legagcy license, it will only work for the customer's base plan (Premium or Ultimate). 
+- If the customer has a GitLab Duo Pro or GitLab Duo Enterprise add-on, they will lose Duo access when the temporary renewal license is applied to their instance. Please refer internal guidance [link here] to follow additional steps if Duo access is required
+- Self Managed customers may have to manually apply their activation code or license key upon successful renewal if it does not appear automatically on their instance [Some instances may block the sync of renewed license key if the temporary extension is still active].
+
+**Internal documentation**
+
+- Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173) and [here](https://gitlab.com/groups/gitlab-org/-/epics/16570), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/16570#extension-timeline) of subscription events related to the temporary renewal extensions.
+
+Please share your feedback with Fulfillment team [here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/new)
 
 ### Creating an extension (from SFDC)
 
@@ -115,7 +126,7 @@ The process of creating the temporary renewal extension from SFDC is also descri
 1. Temporary Renewal Extension form will load, and display the related OpportunityID and ZuoraSubscriptionID.
 1. Select `Reason` from the drop down, specify number of `Users` for the license, add optional `Notes`, then click `Next`.
    1. If creating a temporary renewal extension for SaaS subscription, the number of `Users` is irrelevant - extension will be created for the same number of users as the current subscription.
-1. Once the extension is created, you will see a success message. Otherwise, you will see an [error message](add-link).
+1. Once the extension is created, you will see a success message. Otherwise, you will see an error message.
 1. Several updates happen for a successfully created temporary extension:
    1. Several fields on the SFDC Renewal Opportunity are updated:
       1. `Temporary License Extension End Date` is updated with a date (equal to subscription end date + 21 days).
@@ -149,6 +160,7 @@ Once subscription is renewed, the `Access temporarily extended until YYYY-MM-DD`
 | Subscription has an upcoming extension starting on YYYY-MM-DD | There is an existing temporary extension for the renewal, which hasn't started yet. |
 | Customer account labeled as having bad debt | Billing team has identified this account as having bad debt. You will see either of these fields populated on the Zuora Billing Account: `Support hold`, `Credit hold`. |
 | Customer account belongs to a trade restricted country | Customers with the SoldTo address in [these countries](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6431#proposal) are not eligible for a temporary extension. |
+| Salesforce exception request is not approved | The exception request status is not "Approved" |
 
 All technical problems should be shared with Fulfillment according to [these instructions](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1514#instructions-please-read-before-posting). Once the problem has been reported, please follow the existing process of submitting an [Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to Support so that your customer can receive a subscription extension. Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the appropriate internal request type, either for SaaS or Self-Managed.
 
