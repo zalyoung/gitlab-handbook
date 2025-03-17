@@ -62,6 +62,8 @@ limited to that area and they also work in other areas as needed.
 | ------ | ------ | ------ |
 | [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter |
 | [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Shubham | Leonardo da Rosa, Krasimir Angelov |
+| [Migrating project/group list pages to Vue](https://gitlab.com/gitlab-org/gitlab/-/issues/460856) | Peter | |
+| [Group archiving](https://gitlab.com/groups/gitlab-org/-/epics/15019)| Shubham | |
 
 ## Meetings
 
