@@ -46,3 +46,23 @@ The new Cornerstone TXP platform offers significant improvements over our curren
 ## Timeline
 
 Initial launch is planned for the engineering teams in late March 2025, with details on company-wide rollout to follow.
+
+## Platform Guide
+
+### Smartcards
+
+### Pathways
+
+### Journeys
+
+### Channels
+
+### Groups
+
+### Manager Dashboard
+
+### Skills
+
+### Talent Marketplace - Projects
+
+### Talent Marketplace - Other functionality coming soon
