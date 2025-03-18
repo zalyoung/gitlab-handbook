@@ -16,7 +16,7 @@ toc_hide: true
 
 Perhaps one of the most in demand features for GitLab currently is the ability to [track vulnerabilities across multiple branches](https://gitlab.com/groups/gitlab-org/-/epics/3430). While the current implementation of vulnerability management features in GitLab offers a lot of power, the implementation is very inflexible. As a result, workflows which may involve running different versions of an application, be that old releases or modified versions are unable to track vulnerabilities without forking the code to seperate projects entirely.
 
-Unfortunately, GitLab's current code is not built to facilitate this need, so we need to carefully consider the changes we can make to the system to make it possible without endagnering the stability of the system.
+Unfortunately, GitLab's current code is not built to facilitate this need, so we need to carefully consider the changes we can make to the system to make it possible without endangering the stability of the system.
 
 ## Motivation
 
