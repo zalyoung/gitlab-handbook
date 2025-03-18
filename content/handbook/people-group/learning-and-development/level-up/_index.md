@@ -29,7 +29,7 @@ If you'd like to take any courses / certifications that are currently hosted on 
 
 ## Benefits and Features
 
-The new Cornerstone TXP platform offers significant improvements over our current learning management system, specifically designed to support internal employee development and career growth at GitLab. Key features include:
+The new Cornerstone Talent Experience Platform (TXP) offers significant improvements over our current learning management system, and is specifically designed to support internal employee development and career growth at GitLab. Key features include:
 
 - Internal gigs and side projects to provide hands-on learning opportunities
 - Enhanced management tools for training assignment and recommendations
@@ -46,3 +46,91 @@ The new Cornerstone TXP platform offers significant improvements over our curren
 ## Timeline
 
 Initial launch is planned for the engineering teams in late March 2025, with details on company-wide rollout to follow.
+
+## Platform Guide
+
+Read on below to learn about the functionality in LevelUp, including terminology, and guides to specific features.
+
+### Smartcards
+
+The basic unit of content in LevelUp. A SmartCard is a single piece of learning material like a video, article, quiz, or link to helpful resources.
+
+#### How to Create a SmartCard in LevelUp
+
+Creating a SmartCard is simple and allows you to share valuable learning content with your team or the wider organization.
+
+**Basic Steps**
+
+1. From the LevelUp homepage, click the Create button in the top navigation bar
+1. Select SmartCard from the options
+1. Choose the type of content you want to share (article, video, link, etc.)
+1. Add the URL or upload your content
+1. Fill in the title and description
+1. Set the estimated time to complete
+1. Add relevant tags to make your content discoverable
+1. Choose whether the content should be public or private
+1. Click Create to publish your SmartCard
+
+**Best Practices**
+
+- Clear Titles: Use descriptive titles that clearly indicate what the content is about
+- Add Instructions: Include a brief note telling learners what to do with the content
+- Set Accurate Time Estimates: Be realistic about how long it will take to consume the content
+- Use Relevant Tags: Add specific tags to help others discover your content
+- Consider Privacy Settings: Create SmartCards independently (outside of pathways) if you want them to be reusable across the platform
+- Add to Channels: Share your SmartCard to relevant channels to increase visibility
+- Quality Over Quantity: Focus on sharing truly valuable content that addresses specific learning needs
+
+Remember, SmartCards created within a Pathway will only be discoverable in that Pathway, while SmartCards created independently can be discovered and used across the platform.
+
+### Pathways
+
+Collections of SmartCards organized in a sequence to help you achieve a specific learning goal. Think of a Pathway as a short course made up of individual learning pieces.
+
+#### How to Create a Pathway in LevelUp
+
+A Pathway is a collection of SmartCards organized as a learning sequence. Here's how to create one:
+
+**Basic Steps**
+
+1. From the LevelUp homepage, click the **Create** button in the top navigation bar
+1. Select **Pathway** from the options
+1. Fill in the basic information: Title for your Pathway, a description explaining what learners will achieve, and any relevant tags
+1. Decide if your Pathway should be public or private
+1. Add existing SmartCards by using the search function
+1. Create new SmartCards directly within the Pathway if needed
+1. Arrange SmartCards in the desired order by dragging and dropping
+1. Enable "Lock" functionality if you want learners to progress in sequence
+1. Add a badge if applicable for Pathway completion
+1. Click **Create** or **Save** to publish your Pathway
+
+**Best Practices**
+
+- Organize content in a logical sequence from basic to advanced concepts
+- Include a clear introduction at the beginning explaining what learners will gain
+- Consider using Lock functionality for content that builds on previous knowledge
+- Add quizzes or knowledge checks to reinforce learning
+- Keep Pathways focused on a specific learning objective
+- Consider ending with next steps or related Pathways
+
+> **Note:** By default, all users can create SmartCards, but if you're interested in putting a Pathway together, please open an access request to be a course author in LevelUp, and assign it to @jallen16, who can uplift your access permissions.
+
+### Journeys
+
+Larger learning experiences made up of multiple Pathways. Journeys offer comprehensive learning on a topic by combining several related Pathways into chapters or sections.
+
+### Channels
+
+Topic-based collections of content that help you discover learning materials on specific subjects. You can follow channels to stay updated when new content is added.
+
+### Groups
+
+Communities of learners organized around teams, departments, or shared interests. Groups allow content to be shared with specific audiences.
+
+### Manager Dashboard
+
+A tool for managers to view their team's learning activity, assign content to team members, and track progress on assigned learning materials.
+
+### Skills
+
+In Cornerstone, skills are the metadata that describe what you can do and know - like professional DNA that the system tracks and analyzes. They help connect you with the right learning content, projects, and opportunities to grow your capabilities, in keeping with your career and development goals.
