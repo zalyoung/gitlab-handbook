@@ -2,7 +2,7 @@
 title: "Cells Networking"
 status: proposed
 creation-date: "2025-02-21"
-authors: [ "@sxuereb" ]
+authors: [ "@sxuereb", "@tkhandelwal3" ]
 coach:
 owning-stage: "~devops::platforms"
 toc_hide: true
@@ -35,7 +35,7 @@ With the guidelines above we will end up with the following communication betwee
 flowchart LR
     %% Define main entities
     Users((Users))
-    GitLabOps(("GitLab Operator\nInternal Tooling"))
+    GitLabOps(("GitLab Operator Internal Tooling"))
 
     %% CloudFlare section with components in vertical flow
     subgraph CloudFlare["CloudFlare (GitLab.com)"]
@@ -43,7 +43,7 @@ flowchart LR
         DoS["DoS"]
         WAF["WAF"]
         RateLimiting["Rate Limiting"]
-        Workers["Workers\n(HTTP Router)"]
+        Workers["Workers (HTTP Router)"]
 
         DoS --> WAF --> RateLimiting --> Workers
     end
@@ -84,8 +84,8 @@ flowchart LR
     end
 
     %% Connect users and operators to CloudFlare
-    Users -->|"gitlab.com\n(Allowed Public)"| CloudFlare
-    GitLabOps -->|"gitlab.com\n(Allowed Public)"| CloudFlare
+    Users -->|"gitlab.com (Allowed Public)"| CloudFlare
+    GitLabOps -->|"gitlab.com (Allowed Public)"| CloudFlare
 
     %% Direct IDP connection from GitLab Operator to a cell via CloudFlare layer
     GitLabOps -.->|"CF Zero Trust IdP"| CellCloudFlare
