@@ -128,7 +128,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 * Prep Schema: The schema in the `PREP` database where [source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are materialized.
 * Audience: The primary users of the data.
 * SLO: Service Level Objective. Our SLO is the time between real-time and the data made available for consumption.
-   * Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
+  * Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
 `x` indicates undefined or not run
 
 | [Data Source](/handbook/enterprise-data/platform/pipelines) | Pipeline | Raw Schema | Prep Schema | Audience | RF / SLO | MNPI | Tier |
@@ -230,7 +230,7 @@ Sensitive data is locked down through the security paradigms listed below;
 
 * [Customer Success Dashboards](https://drive.google.com/open?id=1FsgvELNmQ0ADEC1hFEKhWNA1OnH-INOJ)
 * [Netsuite](https://www.youtube.com/watch?v=u2329sQrWDY)
-   * [Netsuite and Campaign Data](https://drive.google.com/open?id=1KUMa8zICI9_jQDqdyN7mGSWSLdw97h5-)
+  * [Netsuite and Campaign Data](https://drive.google.com/open?id=1KUMa8zICI9_jQDqdyN7mGSWSLdw97h5-)
 * [Version (pings)](https://drive.google.com/file/d/1S8lNyMdC3oXfCdWhY69Lx-tUVdL9SPFe/view)
   * Note that up until October 2019, the data team referred to the entire **version** data source as "pings". However, usage ping is only one subset of the version data source which is why we now use "version" or "version app" to refer to the version.gitlab.com *data source* and "usage data" or "usage pings" or "pings" to refer to the [specific usage data feature](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) of the version data source. In the context of Data extraction, when it comes to `Service ping` data ingestion, specific details should be found in the [Service ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) page or in the [Readme.md](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/README.md) page for Service ping
 * [Salesforce](https://youtu.be/KwG3ylzWWWo)
@@ -293,7 +293,7 @@ to the new structure:
 
 In order to be compliant with data into Snowplow, the following columns were pseudo-anonymized:
 
-- `page_url_path`
+* `page_url_path`
 
 This pseudo-anonymization is applied for `Snowplow` data, for the period `2022-10-26` - `2024-12-01` and the files have the same structure, just column values are pseudonymized.
 The Data Team updated old files and pseudo-anonymized  `page_url_path` column, and also pseudo-anonymized `page_url_path` column in Snowflake.
@@ -613,8 +613,8 @@ Currently, these are the available template-able values that will be rendered:
 
 This section is meant to provide custom templates (non-default values) that represent common-occurring values in `roles.yml` that can be copy/pasted for use.
 
-- *Default* denotes that this is the template used if not explicitly overridden.
-- *Common* denotes that while the template is not used by default, these values are still commonly used within roles.yml
+* *Default* denotes that this is the template used if not explicitly overridden.
+* *Common* denotes that while the template is not used by default, these values are still commonly used within roles.yml
 
 ##### Databases
 
@@ -815,9 +815,9 @@ Snowflake Data Shares can be seen as an extension of the `raw` layer, but sharde
 
 This is the first layer of verification and transformation in the warehouse, but is not yet ready for general business use. This database should not be used in Tableau.
 
-- [Source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are built in logical schemas corresponding to the data source (i.e. `sfdc`, `zuora`)
-- PREPARATION - this is the default schema where dbt models are built
-- SENSITIVE
+* [Source models](/handbook/enterprise-data/platform/dbt-guide/#source-models) are built in logical schemas corresponding to the data source (i.e. `sfdc`, `zuora`)
+* PREPARATION - this is the default schema where dbt models are built
+* SENSITIVE
 
 #### Prod
 
@@ -949,13 +949,13 @@ The data retention period is set via dbt This should be implemented in code via 
 
 The following set of rules and guidelines applies to backing up data/using time travel:
 
-- **It is the responsibility of the [CODEOWNER](https://gitlab.com/gitlab-data/analytics/-/blob/master/CODEOWNERS) to ensure that the backup processes has been correctly implemented for the data that their code builds or maintains.**
-- Backups (via Time Travel)  need not be applied on dbt models by [default](https://docs.getdbt.com/reference/resource-configs/snowflake-configs#transient-tables) since these are idempotent **and** this would result in a huge increase of the storage costs in Snowflake.
-- The retention period is set to 30 days.
+* **It is the responsibility of the [CODEOWNER](https://gitlab.com/gitlab-data/analytics/-/blob/master/CODEOWNERS) to ensure that the backup processes has been correctly implemented for the data that their code builds or maintains.**
+* Backups (via Time Travel)  need not be applied on dbt models by [default](https://docs.getdbt.com/reference/resource-configs/snowflake-configs#transient-tables) since these are idempotent **and** this would result in a huge increase of the storage costs in Snowflake.
+* The retention period is set to 30 days.
 
 At the moment the following snowflake objects are considered in scope for Time Travel recovery:
 
-- `RAW.SNAPSHOTS.*`
+* `RAW.SNAPSHOTS.*`
 
 Once a table is permanent with a retention period we are able to use [Time Travel (internal runbook)](https://gitlab.com/gitlab-data/runbooks/-/blob/main/data_restoration/time_travel.md) in the event we need to recover one of these tables.
 
@@ -984,17 +984,17 @@ The `GCS_INTEGRATION` is Snowflake storage integration for `gitlab-analysis` pro
 
 1. From the output, copy the value  under `property_value` where property=`STORAGE_ALLOWED_LOCATIONS`. It will look something like: `gcs://postgres_pipeline/,gcs://snowflake_backups,..`.
 1. Update the Storage Integration, instructions:
-    - take the 'current_paths' that you just copied and combine it with the 'new_path' that you want to add.
-        - Each path needs to be separated by a `,`
-        - Each path needs to have it's own pair of  `''`, These need to be added manually
-    - ALTER statement template:
+    * take the 'current_paths' that you just copied and combine it with the 'new_path' that you want to add.
+        * Each path needs to be separated by a `,`
+        * Each path needs to have it's own pair of  `''`, These need to be added manually
+    * ALTER statement template:
 
         ```sql
         ALTER STORAGE INTEGRATION GCS_INTEGRATION
         SET STORAGE_ALLOWED_LOCATIONS = ('current_path1','current_path2','new_path');
         ```
 
-    - ALTER statement example:
+    * ALTER statement example:
 
         ```sql
         ALTER STORAGE INTEGRATION GCS_INTEGRATION
@@ -1022,8 +1022,8 @@ The process involves:
 
 ### Prerequisites
 
-- Access to `config-mgmt` repo, specifically the `aws-gitlab-analysis` environment.
-- Snowflake account access with `ACCOUNTADMIN` role
+* Access to `config-mgmt` repo, specifically the `aws-gitlab-analysis` environment.
+* Snowflake account access with `ACCOUNTADMIN` role
 
 ### Detailed Steps
 
@@ -1044,7 +1044,7 @@ The process involves:
 #### 2. Update the IAM Policy
 
 1. In the same repo as the previous step, navigate to the policy file in GitLab:
-   - File path: `environments/aws-gitlab-analysis/templates/iam_policy_snowflake_s3_integration.json`
+   * File path: `environments/aws-gitlab-analysis/templates/iam_policy_snowflake_s3_integration.json`
 
 1. Add the new bucket path under `Resource` array in the same pattern as of existing bucket.
 
@@ -1399,10 +1399,10 @@ As of right now (subject to further iterations and changes), the steps are the f
 1. A Sales Analyst works on a Python Notebook (example notebook) and makes it ready for production (making sure the cell execution results are cleared, no local variables/secrets are laying around etc.)
 2. The Sales Analyst uploads the notebook and its respective query in the corresponding folder, depending on what schedule the notebook should run on. The available schedules (and therefore folders) under https://gitlab.com/gitlab-data/analytics/-/tree/master/sales_analytics_notebooks are:
 
-    - daily - daily at 6AM
-    - weekly - every Monday at 6AM
-    - monthly - every 7th day of the month, at 6AM
-    - quarterly - every 7th day of the quarter, at 6AM
+    * daily - daily at 6AM
+    * weekly - every Monday at 6AM
+    * monthly - every 7th day of the month, at 6AM
+    * quarterly - every 7th day of the quarter, at 6AM
 
 This has been implemented by creating 4 main DAGs (one per schedule) consisting of as many tasks as there are notebooks for that schedule. New tasks are dynamically added to the DAG as notebooks are committed to the repository.
 
@@ -1422,9 +1422,9 @@ In order to change the desired day of the week/time of these schedules, the Sale
 
 #### Failure notifications
 
-- Dag failure alerts are sent from Airflow to the `#sales-analytics-pipelines`, so the Sales Analysts can monitor errors with the notebooks
+* Dag failure alerts are sent from Airflow to the `#sales-analytics-pipelines`, so the Sales Analysts can monitor errors with the notebooks
 
-- If the errors seem to be platform-related, the Sales Analyst can reach out to the data platform engineers either via Slack (via the `#data-engineering` channel), or by opening an issue on the [gitlab-data/analytics](https://gitlab.com/gitlab-data/analytics) project
+* If the errors seem to be platform-related, the Sales Analyst can reach out to the data platform engineers either via Slack (via the `#data-engineering` channel), or by opening an issue on the [gitlab-data/analytics](https://gitlab.com/gitlab-data/analytics) project
 
 ### GSheets & Jupyter Notebooks
 
@@ -1464,7 +1464,7 @@ The `gCloud SERVICE ACCOUNT` requires  `Google Workspace Delegated Admin` permis
 
 #### Remaining work
 
-- Update the repository URL for the sales analytics notebooks ([link to issue](https://gitlab.com/gitlab-data/analytics/-/issues/14945))
+* Update the repository URL for the sales analytics notebooks ([link to issue](https://gitlab.com/gitlab-data/analytics/-/issues/14945))
 
 ## Sales Systems Use-Case: Using the Snowflake API
 
@@ -1486,4 +1486,4 @@ Exceptions to this standard will be tracked as per the Information Security Poli
 
 ## References
 
-The platform [infrastructure](/handbook/enterprise-data/platform/infrastructure/).
+The platform [infrastructure](/handbook/enterprise-data/platform/infrastructure/)
