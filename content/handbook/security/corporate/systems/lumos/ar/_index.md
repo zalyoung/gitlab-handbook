@@ -32,7 +32,14 @@ We are migrating tech stack applications to Lumos iteratively and not all apps a
 ## Approve an Access Request
 
 1. Open the message that was received in Slack or Email, or visit Lumos from the Okta tile
-2. Click Approve, add comments, or Deny the request
+2. If in Slack, simply click Approve, add comments, or Deny the request
+3. Or from the email, click **View Request on Lumos** and Approve, add comments, or Deny the request
+
+    <img src="/images/security/corporate/systems/lumos/ar/lumos_appstore_slack_approve.png" alt="Lumos Approval in Slack" width="600"/><br>
+
+    <img src="/images/security/corporate/systems/lumos/ar/lumos_appstore_email_approve.png" alt="Lumos Approval in Email" width="600"/><br>
+
+    <img src="/images/security/corporate/systems/lumos/ar/lumos_appstore_web_approve.png" alt="Request Approval in Lumos" width="600"/><br>
 
 ## Provision an app
 
@@ -41,6 +48,8 @@ We are migrating tech stack applications to Lumos iteratively and not all apps a
 1. Open the message that was received in Slack or Email, or visit Lumos from the Okta tile
 2. Perform the user creation within the app's admin interface
 3. Return to Lumos and confirm that the user has been created
+
+    <img src="/images/security/corporate/systems/lumos/ar/lumos_appstore_slack_provision.png" alt="Confirm user provisioned in app" width="600"/><br>
 
 ## Request an app is added to the Lumos App Store
 
