@@ -364,7 +364,7 @@ To gain access to Snowflake:
 * Snowflake is part of the [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/) and manager will be asked on a quarterly basis to review the access their team members have in Snowflake. It is expected from the manager to understand the available roles(structure) in Snowflake if approving an AR or reviewing their team member access.
   * In the access review, only the first level of Snowflake roles are reported (the ones that are directly attached to the user). I.e. If a team member does have the `analyst_marketing` role, only the `analyst_marketing` is reported and all inherited roles in the `analyst_marketing` are not.
     * Roles could be distinguished between functional roles and object roles
-      * See this list of functional roles in Snowflake [here](/handbook/enterprise-data/platform/#Functional_Role_Assignment) and object roles.
+      * See this list of functional roles in Snowflake and object roles.
       * Object roles are directly related to systems and gives Team Members access to **all** of the data we extract from those upstream source systems.
       * To know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
       * If unsure, during AR process or Access Review, please reach out to a Data Platform Team Member to understand in detail what a specific role entails.
@@ -823,7 +823,7 @@ This is the first layer of verification and transformation in the warehouse, but
 
 This database and all schemas and tables in it are queryable by Tableau. This data has been transformed and modeled for business use.
 
-With the exception of `public`, and [`boneyard`](/handbook/enterprise-data/#mind-about-sheetload), all schemas are controlled by dbt.
+With the exception of `public`, and `boneyard`, all schemas are controlled by dbt.
 See the [dbt guide](/handbook/enterprise-data/platform/dbt-guide) for more information.
 
 #### Folder Structure in Analytics Project
@@ -938,7 +938,7 @@ We've identified currently 2 types of unforeseen circumstances:
 
 This can be data manipulation action done by a GitLab Team member or by services with access to the data in Snowflake. Some examples are accidentally dropping/truncating a table or running incorrect logic in a transformation.
 
-The vast majority of data in snowflake is copied or derived from copies of our [data sources](/handbook/enterprise-data/platform/#data-sources), which is all managed [idempotently](https://next.docs.getdbt.com/terms/idempotent) with **dbt** and so the most common procedure for data restoration or recovery is through recreating or refreshing objects using [dbt Full Refresh](/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh). For data in the `RAW` database, which comes from our extraction [pipelines](/handbook/enterprise-data/platform/pipelines/) we follow the appropriate [Data refresh procedure](/handbook/enterprise-data/platform/infrastructure/#data-refresh).
+The vast majority of data in snowflake is copied or derived from copies of our [data sources](/handbook/enterprise-data/platform/#data-sources), which is all managed [idempotently](https://next.docs.getdbt.com/terms/idempotent) with **dbt** and so the most common procedure for data restoration or recovery is through recreating or refreshing objects using [dbt Full Refresh](https://internal.gitlab.com/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh). For data in the `RAW` database, which comes from our extraction [pipelines](/handbook/enterprise-data/platform/pipelines/) we follow the appropriate [Data refresh procedure](/handbook/enterprise-data/platform/infrastructure/#data-refresh).
 
 However, there are some exceptions to this. Any data in snowflake which is not a result of idempotent processes or that cannot be refreshed in a practical amount of time should be backed up. For this we use Snowflake Time travel. Which includes:
 
@@ -1102,7 +1102,7 @@ See our [dbt guide](/handbook/enterprise-data/platform/dbt-guide) for more detai
 
 ## <i class="fas fa-check-double fa-fw -text-purple"></i>Trusted Data Framework
 
-Data Customers expect Data Teams to provide data they can trust to make their important decisions. And Data Teams need to be confident in the quality of data they deliver. But this is a hard problem to solve: the [Enterprise Data Platform](/handbook/enterprise-data/direction/#a-complete-enterprise-data-platform) is complex and involves multiple stages of data processing and transformation, with tens to hundreds of developers and end-users actively changing and querying data 24 hours a day. The Trusted Data Framework (TDF) supports these quality and trust needs by defining a standard  framework for data testing and monitoring across data processing stages, accessible by technical teams *and business teams*. Implemented as a stand-alone module separate from existing data processing technology, the TDF fulfills the need for an independent data monitoring solution.
+Data Customers expect Data Teams to provide data they can trust to make their important decisions. And Data Teams need to be confident in the quality of data they deliver. But this is a hard problem to solve: the Enterprise Data Platform is complex and involves multiple stages of data processing and transformation, with tens to hundreds of developers and end-users actively changing and querying data 24 hours a day. The Trusted Data Framework (TDF) supports these quality and trust needs by defining a standard  framework for data testing and monitoring across data processing stages, accessible by technical teams *and business teams*. Implemented as a stand-alone module separate from existing data processing technology, the TDF fulfills the need for an independent data monitoring solution.
 
 * Enable everyone to contribute to trusted data, not just analysts and engineers
 * Enable data validations from top to bottom and across all stages of data processing
@@ -1248,7 +1248,7 @@ The source model for the Daily Data Science Scores pump called [mart_crm_account
 
 #### Marketing Data Mart to Marketo
 
-The [Email Data Mart](/handbook/enterprise-data/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
+The [Email Data Mart](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
 
 #### Trusted Data Model to Gainsight
 
@@ -1299,7 +1299,7 @@ The process for setting up a new Data Spigot is as follows:
 | Gainsight        |  | `prod.common_mart_product.mart_product_usage_paid_user_metrics_monthly` | No |
 | Gainsight        |  | `prod.common_mart_product.mart_product_usage_free_user_metrics_monthly` | No |
 | Gainsight        |  | `prod.restricted_safe_common_mart_sales.mart_arr` | Yes |
-| Salesforce       | [Snowflake API](/handbook/enterprise-data/platform/#Sales-Systems-Use-Case:-Using-the-Snowflake-API) | `mart_product_usage_paid_user_metrics_monthly`, `mart_product_usage_paid_user_metrics_monthly_report_view` | No |
+| Salesforce       |  | `mart_product_usage_paid_user_metrics_monthly`, `mart_product_usage_paid_user_metrics_monthly_report_view` | No |
 | Zapier           | t.b.d. | `prod.workspace_customer_success.mart_product_usage_health_score` | No |
 
 Sales Systems Use-Case: Using the Snowflake API
