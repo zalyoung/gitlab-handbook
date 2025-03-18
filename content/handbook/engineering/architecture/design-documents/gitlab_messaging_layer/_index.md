@@ -16,7 +16,7 @@ toc_hide: true
 
 This document proposes design, architecture and a rollout roadmap for adopting & using a _messaging layer_ to support data messaging & queuing needs at GitLab scale.
 
-From some of our recent initiatives such as building the [Data Insights Platform](https://docs.google.com/document/d/1V3XRXfPquBrI_-ob9Fn2Jdskq7W4-heG6zBjJ66AOx8/edit?usp=sharing) or [Project Siphon](/handbook/engineering/architecture/design-documents/siphon/), it has become evident that we need a scalable & reliable queueing system within our technology stack to be able to ingest & process large amounts of data. Having gone through multiple discussions around this, we have narrowed down our choices to [using NATS](https://docs.nats.io/nats-concepts/what-is-nats) as a solution to these needs.
+From some of our recent initiatives such as building the [Data Insights Platform](https://docs.google.com/document/d/1V3XRXfPquBrI_-ob9Fn2Jdskq7W4-heG6zBjJ66AOx8/edit?usp=sharing) or [Project Siphon](/handbook/engineering/architecture/design-documents/siphon/), it has become evident that we need a scalable & reliable queueing system within our technology stack to be able to ingest & process large amounts of data. Having gone through [multiple discussions around this](#additional-context), we have narrowed down our choices to [using NATS](https://docs.nats.io/nats-concepts/what-is-nats) as a solution to these needs.
 
 ## Motivation
 
@@ -441,6 +441,7 @@ Given our needs to queue/buffer data durably, Apache Kafka comes as an obvious f
 - [Support for Kafka across deployment-environments is non-existent](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1878#note_1068741634).
 - [Kafka can be cost-prohibitive regardless of scale](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1589#note_2060391762).
 - [Kafka can be operationally intensive](https://gitlab.com/groups/gitlab-org/-/epics/14860#note_2080961778).
+- [Non-trivial effort to replace current usage](https://gitlab.com/gitlab-org/gitlab/-/issues/338454).
 
 ### Key considerations when comparing Kafka with NATS
 
