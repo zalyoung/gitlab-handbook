@@ -3,7 +3,7 @@ title: "Well-Articulated Product Security Risks Guide"
 description: "This guide outlines the requirements for submitting high-quality risk entries to the [Product Security Risk Register](/handbook/security/product-security/security-platforms-architecture/risk-register/) so they can be used effectively to prioritize product security work."
 ---
 
-If you believe you have identified a systemic product or platform security risk in GitLab, the first step is to document the problem statement in the form of a Well-Articulated Risk. Only after a well-articulated risk is documented can we begin the process to triage, assess, prioritize, and treat it. Those downstream processes are out of scope for initial risk documentation.
+If you believe you have identified a systemic product or platform security risk in GitLab, the first step is to document the problem statement in the form of a Well-Articulated Risk. Only after a Well-Articulated Risk is documented can Product Security begin the process to triage, assess, prioritize, and treat it. Those downstream processes are out of scope for initial risk documentation.
 
 ## What Makes a Well-Articulated Risk
 
