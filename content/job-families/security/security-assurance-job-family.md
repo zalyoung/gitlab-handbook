@@ -471,14 +471,14 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The requirements of a Senior Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-- 12 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education
-- Excellent written and verbal communication skills
+- 12 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education.
+- Excellent written and verbal communication skills.
 - Expert scripting/coding skills in more than one language - Python and Ruby required. 
-- Excellent understanding of automation or software engineering technologies and cloud architectures
-- Excellent understanding of the Software as a Service (SaaS) model
-- Experience working in the DevOps model
-- Solid experience with Cloud Computing Platforms - GCP/AWS experience
-- Experience working in a GRC/Security Assurance team a plus
+- Excellent understanding of automation or software engineering technologies and cloud architectures.
+- Excellent understanding of the Software as a Service (SaaS) model.
+- Experience working in the DevOps model.
+- Solid experience with Cloud Computing Platforms - GCP/AWS experience.
+- Experience working in a GRC/Security Assurance team a plus.
 
 ##### Security Compliance
 
