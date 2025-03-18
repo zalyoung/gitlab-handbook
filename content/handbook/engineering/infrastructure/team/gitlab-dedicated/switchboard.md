@@ -47,7 +47,7 @@ To engage with the Switchboard team:
   - the specific environment ( Test / Beta / Production )
   - level of access required (Readonly, Support, Provisioner, Operator)
   - justification for the access
-- Access & Provision Details for the application can be found in the `Switchboard - GitLab Dedicated` section of the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/d3561ab939029faf4ac25f32612c57e861eb8b39/data/tech_stack.yml)
+- Access & Provision Details for the application can be found in the `Switchboard - GitLab Dedicated` section of the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 
 ## How we work
 
