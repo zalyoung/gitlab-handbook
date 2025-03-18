@@ -194,7 +194,7 @@ We encourage military veterans and spouses to [read testimonials](/handbook/comp
 
 GitLab welcomes all types of team members, including any that may choose to identify as ones that currently have or were previously diagnosed as having a disability. In our HRIS (Human Resource Information System) Workday, on the Job tab page, in the Equal Employment Opportunity section, we have a field titled `Disability Status` that we ask our team members to complete during the onboarding process. 
 
-The reason we ask is because it is a legal requirement in the United States under Section 503 of the [Rehabilitation Act of 1973](https://www.eeoc.gov/employment-protections-under-rehabilitation-act-1973-50-years-protecting-americans-disabilities), as we are a Federal contractors and are required to ask employees to **voluntarily** self-identify if they have a disability or have ever had a disability, and to provide equal employment opportunity to qualified people with disabilities.
+The reason we ask is because it is a legal requirement in the United States under Section 503 of the [Rehabilitation Act of 1973](https://www.eeoc.gov/employment-protections-under-rehabilitation-act-1973-50-years-protecting-americans-disabilities), as we are a Federal contractor and are required to ask employees to **voluntarily** self-identify if they have a disability or have ever had a disability, and to provide equal employment opportunity to qualified people with disabilities.
 
 The options of this field are:
 
