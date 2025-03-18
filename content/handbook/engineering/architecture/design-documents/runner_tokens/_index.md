@@ -4,7 +4,7 @@ status: ongoing
 creation-date: "2022-10-27"
 authors: [ "@pedropombeiro", "@tmaczukin" ]
 coach: "@ayufan"
-approvers: [ "@nicolewilliams ]
+approvers: [ "@nicolewilliams" ]
 owning-stage: "~devops::verify"
 participating-stages: []
 toc_hide: true
