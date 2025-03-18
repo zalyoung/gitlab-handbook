@@ -91,7 +91,7 @@ Everyone in the UX department and all Product Managers can get a Figma account w
 
 **Dovetail** We use [Dovetail](https://dovetailapp.com/) to manage and analyze research findings. If you need access, please submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues).
 
-**Gong** Gong is a conversation intelligence tool to record sales facing conversations and provide analytics and insights into those conversations. It can help UX team members identify customers to speak with, or search calls for topics of interest. It is available to UX team members upon request. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) if you would like to use it. 
+**Gong** Gong is a conversation intelligence tool to record sales facing conversations and provide analytics and insights into those conversations. It can help UX team members identify customers to speak with, or search calls for topics of interest. It is available to UX team members upon request. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) if you would like to use it. You can request the "Collaborator" role.
 
 ### Tutorials
 
