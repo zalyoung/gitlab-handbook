@@ -168,6 +168,7 @@ Effective November 1, 2021, eligible Canadian Team Members can enroll in GitLab'
 
 For enrolling into the RRSP, please navigate to [Canada Life's RRSP portal](https://mycanadalifeatwork.com) and follow the directions in the [enrollment express pdf](https://drive.google.com/file/d/16K333QPsXllZFolC_yiXZYb3rUYJwXvu/view?usp=sharing). For a more detailed overview of enrolling and navigating the RRSP platform, please reference the [enrollment express guide](https://www.brainshark.com/1/player/grs?pi=zGWz97lF4zPVigz0&r3f1=c5ff81d2ded38b99c999f69cca80c7ded98198f2dbc5c1cd9e&fb=0).
 
+- There are two fields to enter your desired % deducted for RRSP contribution: `Member` and `Member Voluntary`. The first 3% you wish deducted should go in the `Member` field, and the rest should go in the `Member Voluntary` field. For example, if you wish to deduct 10% of your income, enter 3% in the `Member` field and 7% in the `Member Voluntary` field.
 - Once enrolled, a plan administrator will need to approve your enrollment. This may take up to two weeks.
 - If you need any help, please contact Canada Life at 1-800-724-3402, our broker SC Insurance at info@scinsurance.ca, or [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 - Please remember to select a beneficiary when enrolling. This is separate from the beneficiary elected for your life insurance plan.
