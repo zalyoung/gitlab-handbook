@@ -16,6 +16,8 @@ A well-articulated product security risk clearly communicates:
 
 If the risk you are describing is complex, consider including a flowchart or diagram to explain it effectively.
 
+When you are initially reporting a risk, you may have ideas about possible solutions, or you may already know of challenges or blockers that need to be addressed. That's great! After you have created your Well-Articulated Risk, add those to the Issue as comments. Those will feed into the downstream risk treatment planning process.
+
 ## What a Well-Articulated Risk is NOT
 
 1. **A Solution Statement**: "We need to implement X technology" or "build Y feature" without explaining the underlying risk.
