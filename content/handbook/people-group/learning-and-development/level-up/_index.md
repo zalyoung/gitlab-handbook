@@ -94,18 +94,15 @@ A Pathway is a collection of SmartCards organized as a learning sequence. Here's
 **Basic Steps**
 
 1. From the LevelUp homepage, click the **Create** button in the top navigation bar
-2. Select **Pathway** from the options
-3. Fill in the basic information:
-  - Title for your Pathway
-  - Description explaining what learners will achieve
-  - Relevant tags
-4. Decide if your Pathway should be public or private
-5. Add existing SmartCards by using the search function
-6. Create new SmartCards directly within the Pathway if needed
-7. Arrange SmartCards in the desired order by dragging and dropping
-8. Enable "Lock" functionality if you want learners to progress in sequence
-9. Add a badge if applicable for Pathway completion
-10. Click **Create** or **Save** to publish your Pathway
+1. Select **Pathway** from the options
+1. Fill in the basic information: Title for your Pathway, a description explaining what learners will achieve, and any relevant tags
+1. Decide if your Pathway should be public or private
+1. Add existing SmartCards by using the search function
+1. Create new SmartCards directly within the Pathway if needed
+1. Arrange SmartCards in the desired order by dragging and dropping
+1. Enable "Lock" functionality if you want learners to progress in sequence
+1. Add a badge if applicable for Pathway completion
+1. Click **Create** or **Save** to publish your Pathway
 
 **Best Practices**
 
