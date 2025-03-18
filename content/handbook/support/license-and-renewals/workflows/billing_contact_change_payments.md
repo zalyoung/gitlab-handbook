@@ -189,7 +189,7 @@ When a customer wishes to modify their invoice for tax or administration purpose
 
 ## Paying invoices
 
-Settling an invoice using a payment card such as debit or credit card is [possible within CustomersDot](https://docs.gitlab.com/subscriptions/customers_portal/#pay-for-an-invoice). The customer can:
+Settling an invoice with a debit or credit card is [available in the Customers Portal](https://docs.gitlab.com/subscriptions/customers_portal/#pay-for-an-invoice). The customer can:
 
 1. Sign in to the Customers Portal.
 1. Navigate to the Invoices page from the sidebar (`/invoices`).
