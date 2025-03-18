@@ -193,7 +193,7 @@ When a feature needs to check the current license tier, it's important to make s
 To emulate this locally, follow these steps:
 
 1. Export an environment variable: `export GITLAB_SIMULATE_SAAS=1`
-   - There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
+   * There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
 1. Within the same shell session run `gdk restart`
 1. Admin > Settings > General > "Account and limit", enable "Allow use of licensed EE features"
 
@@ -229,4 +229,3 @@ We hold group discussions every other week.  We alternate between a milestone ki
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
   {{< tableau/filters "GROUP_NAME"="security insights" >}}
 {{< /tableau >}}
-
