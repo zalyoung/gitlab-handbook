@@ -189,14 +189,14 @@ When a customer wishes to modify their invoice for tax or administration purpose
 
 ## Paying invoices
 
-Settling an invoice using a payment card such as debit or credit card is [possible within customersDot](https://docs.gitlab.com/subscriptions/customers_portal/#pay-for-an-invoice).  The customer can:
+Settling an invoice using a payment card such as debit or credit card is [possible within CustomersDot](https://docs.gitlab.com/subscriptions/customers_portal/#pay-for-an-invoice). The customer can:
 
 1. Sign in to the Customers Portal.
 1. Navigate to the Invoices page from the sidebar (`/invoices`).
 1. Click the `Pay for invoice` button on the invoice.
 1. Complete and submit the payment form.
 
-Unlike adding a credit card during the purchase flow, payment methods entered here are not stored for future purchases.
+Unlike adding a credit card during the purchase flow, payment methods entered here are not stored for future purchases, as this is an [on-session](https://support.stripe.com/questions/what-is-the-difference-between-on-session-and-off-session-and-why-is-it-important)/[one-time](https://knowledgecenter.zuora.com/Zuora_Payments/Process_payments/Payment_Pages_2.0/J_Implement_Payment_Pages_2.0_to_support_one-time_payment_flows/Z_Implement_one-time_payment_flows_for_processing_payments_in_India) payment. However, this process accepts cards that [require 3DS authentication on all transactions](/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab.md#3d-secure-authentication-3ds) and [cards issued in India](https://docs.gitlab.com/subscriptions/gitlab_com/gitlab_subscription_troubleshooting/#error-transaction_not_allowed).
 Additionally, existing payment methods cannot be accessed in this flow.
 
 Alternative payment methods aren't supported at this time, so requests to do so need to be [passed over to Accounts Receivable team](#requests-to-make-a-paymentpayment-failed)
