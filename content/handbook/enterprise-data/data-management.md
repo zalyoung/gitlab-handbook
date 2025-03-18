@@ -29,7 +29,6 @@ We deploy a Role-Based Data Access Scheme in Snowflake:
 
 * User Access is managed with Okta and [Access Requests are managed with GitLab](/handbook/enterprise-data/platform/#warehouse-access)
 * Each user is assigned one more [Roles based on their job function](/handbook/enterprise-data/platform/#snowflake-permissions-paradigm) and this configuration is managed with [Permifrost](/handbook/enterprise-data/platform/permifrost/)
-* The Snowflake scheme interacts with the Sisense Data Access scheme to ensure a user does not have a "back door" into data from either system.
 
 Additional controls include:
 
@@ -100,10 +99,6 @@ Here is a sample checklist of activities:
     * The Airflow account is the only user and no downstream models depend on it.
   * A review of tables flagged for removal will be done by the analytics community before being dropped. This will allow for any tables wrongly flagged to be kept.
 
-#### Trusted Data
-
-* Review Data Siren to confirm known existence of RED data.
-* Generate a report of Business logic changes to the TD: Sales Funnel dashboard in the quarter. Business logic such as adding new dimensions, new facts, new marts, changing joins, adding new calculated fields.
 
 #### Airflow
 
