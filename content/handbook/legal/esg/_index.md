@@ -323,7 +323,7 @@ While GitLab for Nonprofits Program benefits do not include product [support](ht
 
 * Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application
 * If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP)
-* If you have a question or concern about the customer churn, please raise this in [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) and a Sustainability team member will contact you
+* If you have a question or concern about the customer churn, please raise this in #gitlab-for-nonprofits slack channel and a Sustainability team member will contact you
 
 ### Philanthropic Requests
 
