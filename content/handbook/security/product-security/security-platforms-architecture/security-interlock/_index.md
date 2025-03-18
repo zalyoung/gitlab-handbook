@@ -28,6 +28,7 @@ We're actively formalizing these workstreams now. We are intentionally starting 
 The Security Interlock Initiative will have 3 designated leaders:
 
 - The [Security Platforms & Architecture](/handbook/security/product-security/security-platforms-architecture/) team will represent on behalf of the Security Division.
-- The [Sec Section](/handbook/engineering/development/sec/) will appoint a Product DRI and Engineering DRI to represent those divisions.
+- A Product DRI from the [Sec Section](/handbook/engineering/development/sec/).
+- An Engineering DRI from the [Sec Section](/handbook/engineering/development/sec/).
 
 While all Security Teams will continue to pilot applicable features and provide feedback, this leadership structure will create clear channels for communication and accountability. The goal is to streamline our collaborative efforts, ensure that consolidated, actionable feedback reaches product teams efficiently, and facilitating coordinated development of security features that address real-world needs. By centralizing these interactions, we can better validate requirements, dogfood existing functionality, and contribute security capabilities through a cohesive, cross-functional partnership.
