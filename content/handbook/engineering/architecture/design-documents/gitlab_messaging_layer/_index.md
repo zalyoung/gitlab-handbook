@@ -16,7 +16,7 @@ toc_hide: true
 
 This document proposes design, architecture and a rollout roadmap for adopting & using a _messaging layer_ to support data messaging & queuing needs at GitLab scale.
 
-From some of our recent initiatives such as building the [Data Insights Platform](https://docs.google.com/document/d/1V3XRXfPquBrI_-ob9Fn2Jdskq7W4-heG6zBjJ66AOx8/edit?usp=sharing) or [Project Siphon](/handbook/engineering/architecture/design-documents/siphon/), it has become evident that we need a scalable & reliable queueing system within our technology stack to be able to ingest & process large amounts of data. Having gone through [multiple discussions around this](#additional-context), we have narrowed down our choices to [using NATS](https://docs.nats.io/nats-concepts/what-is-nats) as a solution to these needs.
+From some of our recent initiatives such as building the [Data Insights Platform](https://docs.google.com/document/d/1V3XRXfPquBrI_-ob9Fn2Jdskq7W4-heG6zBjJ66AOx8/edit?usp=sharing) or [Project Siphon](/handbook/engineering/architecture/design-documents/siphon/), it has become evident that we need a scalable & reliable queueing system within our technology stack to be able to ingest & process large amounts of data. Having gone through [multiple discussions around this](#additional-context), we have narrowed down our choices to [using NATS](https://docs.nats.io/nats-concepts/what-is-nats) as a solution to these needs - as explained later in this document.
 
 ## Motivation
 
@@ -37,29 +37,31 @@ As elucidated later in this document, [NATS](https://nats.io/) stands out given 
 
 ### Goals
 
-- Establish scalable & reliable data queueing infrastructure for a few initial adopters: Siphon, Data Insights Platform.
-- Provide authenticated & authorized access to all ingested data into NATS.
-- Provide necessary documentation to allow developers to interact with NATS.
-- Integrate NATS with existing GitLab infrastructure to enable the aforementioned use-cases.
+- Establish scalable & reliable data queueing infrastructure for a few first adopters: Siphon, Data Insights Platform.
+- Provide authenticated & authorized access to all ingested data into the messaging layer.
+- Provide necessary documentation to allow developers to interact with the messaging layer.
+- Integrate messaging layer implementation with existing GitLab infrastructure to enable the aforementioned use-cases.
 
 ### Non-goals
 
-- Not build a general-purpose event-bus for __all__ our queueing/eventing needs.
-- Not cover application-level implementation details using NATS SDKs to interact with NATS.
+- Not aim to build a general-purpose event-bus for all our queueing/eventing needs _just yet_. Rather, the blueprint aims to lay the foundation for a future comprehensive event-bus with design decisions that should preserve compatibility with broader applications or use-cases looking forward.
+- Not cover application-specific implementation details within the context of a messaging layer.
 
 ## Proposal
 
-The core of this proposal is to __establish NATS as a foundational messaging piece__ within our tech-stack and build out necessary NATS clusters well-integrated with GitLab installation(s).
+The core of this proposal is to __establish a foundational messaging piece__ within our tech-stack and build out necessary infrastructure well-integrated with GitLab installation(s).
 
-For this first iteration, we _do not_ expect to have all GitLab services or applications interacting with NATS directly. The only planned usage right now is the following:
+For this first iteration, we _do not_ expect to have all GitLab services or applications interacting with this messaging layer directly. The only planned usage right now is the following:
 
-- Siphon using NATS to [buffer Postgres replication events](/handbook/engineering/architecture/design-documents/siphon/#main-components) before landing them in ClickHouse.
+- For Siphon to [buffer Postgres replication events](/handbook/engineering/architecture/design-documents/siphon/#main-components) before landing them in ClickHouse.
 
 - Applications sending Snowplow-instrumented events to [Data Insights Platform](https://gitlab.com/groups/gitlab-org/architecture/gitlab-data-analytics/-/epics/12) via [event instrumentation layer](https://gitlab.com/groups/gitlab-org/architecture/gitlab-data-analytics/-/epics/13) which are [dynamically enriched](https://gitlab.com/groups/gitlab-org/architecture/gitlab-data-analytics/-/epics/33) and landed into ClickHouse and AWS S3.
 
 ### Looking forward
 
-Once NATS is available, we aim to position NATS as the data queueing backbone for a general-purpose [events-based Data Platform within the Product](https://gitlab.com/groups/gitlab-org/-/epics/14860), additional to the aforementioned Data Insights Platform. Following is a detailed set of use-cases that benefit from the existence of a centralized Data Platform:
+Once a messaging layer is generally available, we aim to position it as the data queueing backbone for a general-purpose [events-based Data Platform within the Product](https://gitlab.com/groups/gitlab-org/-/epics/14860).
+
+Following is a detailed set of use-cases that benefit from the existence of a centralized Data Platform:
 
 | Teams/areas | Use-cases | Expected scale |
 |---|---|---|
@@ -73,9 +75,9 @@ Once NATS is available, we aim to position NATS as the data queueing backbone fo
 
 ### Considered alternatives
 
-A possible solution to the aforementioned use-cases is not limited to only NATS with a few other backends also considered throughout our discussions. The following comparison matrix helps assess different potential backends for our messaging needs within GitLab.
+As a potential solution to the aforementioned use-cases, a few popular backends were considered throughout our discussions. The following comparison matrix helps assess different possible backends for messaging needs within GitLab.
 
-We consider the following four deployment targets (for GitLab) when considering potential solutions:
+Note, we considered the following four deployment targets (for GitLab) when assessing potential solutions:
 
 * **GitLab.com SaaS**: Multi-tenant instance.
 * **GitLab Dedicated**: Single-tenant, dedicated resources per instance.
