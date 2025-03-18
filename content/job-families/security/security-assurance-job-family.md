@@ -529,17 +529,15 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The responsibilities of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-The responsibilities of a Senior Field Security Engineer, plus;
-Maintain proficient knowledge of GitLab’s product, roadmap, environment, systems and architecture and help shape strategic decisions focused on meeting customer security demands
-Mentor other Field Security Engineers and improve knowledge, quality and quantity of the team’s output
-Participate in the development and continuous improvement of field security metrics
-Design and implement major iterations of Field Security programs in alignment with industry trends, predictions and customer demands
-Participate in Field Security roadmap development based on customer needs
-Build the GitLab Security brand by presenting a minimum of 6 external facing engagements per annum such as Commit, conferences, guest speaking engagements, blog posts, whitepapers
-Create dynamic open-source Field Security programs that deliver value to the GitLab community
-Design, develop, and deploy scripts to automate administrative and process tasks related to Field Security
-Design, develop, and deploy an automated metric reporting for all Field Security programs
-Successfully execute on quarterly KRs asscoiated with OKRs
+- Maintain proficient knowledge of GitLab’s product, roadmap, environment, systems and architecture and drive initiatives to shape strategic decisions focused on meeting customer security demands.
+- Mentor other Field Security Engineers and improve knowledge, quality and quantity of the team’s output.
+- Design and implement dashboards for the Field Security metrics program, and identify gaps in existing data sets.
+- Design and implement major iterations of Field Security programs in alignment with industry trends, predictions and customer demands.
+- Help lead Field Security roadmap development based on customer needs.
+- Build the GitLab Security brand by presenting a minimum of 6 external facing engagements per annum such as Commit, conferences, guest speaking engagements, blog posts, whitepapers.
+- Create dynamic open-source Field Security programs that deliver value to the GitLab community.
+- Design, develop, and deploy scripts to automate administrative and process tasks related to Field Security.
+- Lead contract reviews for security language and calls with customers to discuss contracts, concerns, and answer questions during the sales cycle.
 
 ###### Requirements
 
