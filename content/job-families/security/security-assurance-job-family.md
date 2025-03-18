@@ -186,7 +186,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The responsibilities of a Security Assurance Automation Engineer, plus;
 - Design, engineer, deploy, and maintain custom automation projects
-- Evaluate Security Assurance tools for use by the Security Automation Department
+- Evaluate Security Assurance tools for use by the Security Assurance Department
 - Design and gather metrics data for the Security Assurance Automation program
 - Represent the Security Assurance Automation team as a subject matter expert in at least one technical, product, or conceptual area
 
@@ -327,7 +327,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 - Lead the design, engineering, deployment, and maintenance efforts of custom automation products
 - Define evaluation criteria for Security Assurance tools to be used by the Security Assurance Department
 - Lead efforts to gather metrics data for the Security Assurance Automation program
-- Represent the Security Automation team as a subject matter expert in at least two technical, product, or conceptual area
+- Represent the Security Assurance Automation team as a subject matter expert in at least two technical, product, or conceptual area
 
 ###### Requirements
 
@@ -461,11 +461,16 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-- [Placeholder]
+- The responsibilities of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- Develop ideas for custom automation products to solve complex issues and lead the design, engineering, deployment, and maintenance efforts of those products.
+- Define evaluation criteria for Security Assurance tools to be used by the Security Assurance Department and propose internal built solution ideas to rival COTS.
+- Design and implement dashboards for the Security Assurance Automation metrics program, and identify gaps in existing data sets.
+- Represent the Security Assurance Automation team as a subject matter expert in at least two technical, product, or conceptual area
 
 ###### Requirements
 
-- [Placeholder]
+- The requirements of a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
 
 ##### Security Compliance
 
@@ -481,11 +486,12 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-- [Placeholder]
+- The responsibilities of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 ###### Requirements
 
-- [Placeholder]
+- The requirements of a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
 
 ##### Security Risk
 
@@ -501,11 +507,11 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Responsibilities
 
-- [Placeholder]
+- The responsibilities of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 ###### Requirements
 
-- [Placeholder]
+- The requirements of a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 ### Manager, Security Assurance
 
