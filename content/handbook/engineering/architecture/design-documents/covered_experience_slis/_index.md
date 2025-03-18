@@ -17,30 +17,14 @@ toc_hide: true
 
 [TOC]
 
-## Summary
-
-This design document proposes a solution for measuring and tracking covered experiences across GitLab services. A Covered Experience SLI represents an end-to-end flow of user interactions that may span multiple services (e.g., from receiving a git push in GitLab Shell to updating a merge request). This proposal includes a design for instrumenting Covered Experience SLIs, and establishing a framework for product teams to define and monitor critical Covered Experiences.
-
-The system will help measure the reliability and performance of key user interactions and provide valuable data for both operational excellence and product decisions.
-
-We intend to have an aligned definition of User Journeys across the organization, with Covered Experience SLIs being a scoped set of steps from a User Journey that support the broader goal a user might be trying to accomplish. Read more [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1524#are-these-related-to-covered-experiences-fka-user-journey-slis).
-
-Here's a graph that illustrates how the different parties are connected to this idea:
-
-![User Journeys Chart](/images/handbook/engineering/architecture/design-documents/covered_experience_slis/User%20Journeys%20for%20Quality.svg)
-
-[graph src](https://lucid.app/lucidchart/e911c437-dbdf-4540-bf44-23962e048661/edit)
-
-PS: The graph is still a work in progress. The image you see might be already outdated. Please refer to the src link to the up-to-date version.
-
 ## Glossary
 
-Here's a list of words to disambiguate the terms we are going to use in the context of this document:
-
-- **Application SLI**: https://docs.gitlab.com/ee/development/application_slis/ This is an SLI defined on the application side: the application decides what is “good” for apdex and error portion. The SLI is associated with a service for monitoring in the runbooks repository.
+- **SLI**: [Service Level Indicator](https://en.wikipedia.org/wiki/Service_level_indicator) is a measure of the service level provided by a service provider to a customer.
+- **Application SLI**: This is an SLI defined on the application side: the application decides what is “good” for apdex and error portion. The SLI is associated with a service for monitoring in the runbooks repository. https://docs.gitlab.com/ee/development/application_slis/
 - **Apdex (Application Performance Index)**: At GitLab in the context of covered experience SLIs, it is the completion of something within an acceptable amount of time, for example, the changes of a push are visible on the merge request within 30 seconds.
 - **User Journey**: A comprehensive visualization or map that illustrates all the steps, interactions, and emotions a customer experiences when engaging with a product, service, or brand, from initial awareness through purchase and beyond. In GitLab, it is the journey a user takes through the application. This can include multiple experiences. For example: Create a project -> Create an issue -> Create a merge request.
-- **Covered Experience**: An action that a user takes inside the application that is covered with an Indicator. A Covered Experience outlines the precise services, scenarios, and user interactions that establish clear performance expectations between a service provider and their client, some of which are covered by an SLI. Examples of experiences: “create a project”, “create an issue”, “create a merge request”.
+- **Covered Experience**: An action that a user takes inside the application that is covered with an indicator. A Covered Experience outlines the precise services, scenarios, and user interactions that establish clear performance expectations between a service provider and their client, some of which are covered by an SLI. Examples of experiences: “create a project”, “create an issue”, “create a merge request”.
+- **Covered Experience SLI**: An SLI implementation that represents an end-to-end flow of user interactions that may span multiple services.
 - **Limited Covered Experience**: Refers to a restricted subset of services, scenarios, or user interactions that have defined performance standards in an SLA, with certain conditions, exceptions, or constraints that limit the provider's obligations or the scope of guaranteed service levels.
 - **Multi-action Experience**: A user journey that consists of multiple user interactions before completion, for example creating an issue consisting of 2 steps: render new, submit form. We will not support this in the first iteration of Covered Experience SLIs.
 - **Single-action Experience**: A user journey that consists of a single user interaction, for example “view an issue” or “add a comment to an issue”.
@@ -57,7 +41,22 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 - Identify bottlenecks in multi-service flows
 - Attribute availability and impact of incidents to customers or users
 
-### Goals
+## Goal
+
+Track and measure Covered Experiences across GitLab services, establishing a framework for product teams to define and monitor critical Covered Experience SLIs.
+
+### How does Covered Experiences relate to User Journeys?
+
+Covered Experiences are a scoped subset of User Journeys that focus specifically on measurable interactions that can be tracked and monitored through SLIs. While User Journeys represent comprehensive end-to-end paths a user might take (potentially including multiple actions and goals), Covered Experiences are more targeted and focus on specific, measurable interactions that we want to monitor for reliability and performance.
+
+Key relationships between the two concepts:
+
+- **Scope**: A User Journey might encompass multiple Covered Experiences. For example, the User Journey of "contributing code to a project" might include several Covered Experiences like "git push," "merge request creation," and "CI pipeline execution".
+- **Measurability**: Covered Experiences are specifically designed to be measurable through our SLI framework, with clear success criteria and thresholds.
+- **Implementation**: User Journeys are often conceptual and used for product planning. Covered Experiences have specific technical implementations with instrumentation, metrics, and alerting.
+- **Tracking**: Each Covered Experience must have a reference to its parent User Journey (as shown in the [Covered Experience Definition](#covered-experience-definition) schema), creating a hierarchical relationship.
+
+## Dos
 
 - Create a framework for product teams to define important Covered Experience SLIs in a structured way
 - Develop an SDK that makes it easy for engineers to instrument Covered Experiences
@@ -65,35 +64,31 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 - Support both GitLab.com and dedicated deployments
 - Enable measurement of Covered Experience success/failure rates and durations through SLIs
 
-### Non-Goals
+## Don'ts
 
 - Building a general-purpose distributed tracing solution
 - Tracking client side timings, and time on the wire to clients. In the future, we want to add support for clients we build (IDE-extensions, our frontend), but we're keeping this out of scope in the first iteration.
 - Real-time covered experience visualization or debugging tools
 - Logs and metrics will be emitted from self-managed, but it won't officially support ingesting information from those instances as we don't have control over such environments
 
-### Unscoped related use-cases
+## Unscoped
 
-Other projects could benefit from Covered Experience SLIs, but are not part of the scope of this proposal. Such as:
+1. Other projects could benefit from Covered Experience SLIs, but are not part of the scope of this proposal. Such as:
+    - Ensure critical user paths are well-tested and monitored (i.e. https://gitlab.com/groups/gitlab-org/quality/-/epics/144).
+    The Covered Experience SLIs could provide data that can help identify end-to-end test coverage gaps for critical user paths.
+2. As of the moment of writing, GitLab has no implementation for tracking and measuring end-to-end User Journeys.
+The [framework porposed below](#phase-1) can be augmented in the future, to include a User Journey identification,
+tying each Covered Experience to a User Journey.
 
-- Ensure critical user paths are well-tested and monitored (i.e. https://gitlab.com/groups/gitlab-org/quality/-/epics/144). The Covered Experience SLIs could provide data that can help identify end-to-end test coverage gaps for critical user paths.
+## Scope
 
-## Proposal
-
-The core proposal consists of three main components:
+The implementation consists of three main components:
 
 1. [Covered Experience Definition Framework](#covered-experience-definition)
 2. [LabKit SDK](#sdk-requirements)
 3. [Covered Experience Tracker Service](#covered-experience-tracker)
 
-The project can be done in 2 phases:
-
-1. **Phase 1**: Details in the [section](#phase-1) below. [Epic #1539](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1539).
-2. **Phase 2**: Details in the [section](#phase-2) below. [Epic #1540](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1540).
-
-## Design and implementation details
-
-Here's a simplified flowchart to demonstrate how the communication will flow from services to tracker:
+See below in the flowchart how the components will interact together:
 
 ```mermaid
 flowchart LR
@@ -126,9 +121,143 @@ flowchart LR
     LabKitB --Event--> tracker
 ```
 
-Below there are cases covering in detail synchronous and asynchronous.
+The project can be done in 2 phases:
 
-### Synchronous workflow
+1. **Phase 1**: Details in the [section](#phase-1) below. [Epic #1539](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1539).
+2. **Phase 2**: Details in the [section](#phase-2) below. [Epic #1540](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1540).
+
+### Phase 1
+
+In this phase, the main building blocks will be implemented, such as the [Covered Experience Definition](#covered-experience-definition) and the [SDK](#sdk-requirements) to emit events (metrics and logs), skipping the [Covered Experience Tracker](#covered-experience-tracker) (that will come in [phase 2](#phase-2)). This will reduce complexity while we iterate and test our implementation against the specification.
+
+SDK only components interactions:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Web as Web Service
+    participant Worker
+    participant Event as Logs and Metrics
+
+    User->>Web: Request
+    activate Web
+
+    Web->>Event: Step 1, SDK Emit Start
+    Web->>Worker: Enqueue Job
+    Web-->>User: Response
+    deactivate Web
+
+    Note over Worker: Job wait in queue
+
+    Note over Worker: Job starts
+    activate Worker
+
+    alt Success Case
+        Worker->>Worker: End Covered Experience
+        Worker->>Event: Step 2, SDK Emit Success
+    else Failure Case
+        Worker->>Worker: End Covered Experience
+        Worker->>Event: Step 2, SDK Emit Failure
+    end
+
+    deactivate Worker
+```
+
+#### Covered Experience Definition
+
+- YAML-based covered experience definition authored by product teams
+- Support for specifying success criteria
+
+The Covered Experience definition will contain the following fields:
+
+| Field                              | Type    | Required | Description                        | Example                               |
+|------------------------------------|---------|----------|------------------------------------|---------------------------------------|
+| covered_experience                 | string  | Yes      | Covered Experience identifier      | `merge_request_creation`              |
+| user_journey                       | string  | Yes      | User Journey identifier            | `merge_request_creation_user_journey` |
+| description                        | string  | Yes      | Human readable description         | "User creates a merge request"        |
+| feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`              |
+| apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                                  |
+| timeout_in_seconds                 | integer | Yes      | Timeout in seconds.                | `300`                                 |
+
+Examples:
+
+| id                     | description                         | feature_category       | apdex_success_threshold_in_seconds | timeout_in_seconds |
+|------------------------|-------------------------------------|------------------------|------------------------------------|--------------------|
+| merge_request_creation | User creates a merge request        | source_code_management | 30                                 | 300                |
+| git_push               | User pushes commits to a repository | source_code_management | 10                                 | 60                 |
+
+Given that Application SLIs are implemented in the [Rails monolith](https://gitlab.com/gitlab-org/gitlab), it will also function as a [registry](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4099) to store the definitions for the Covered Experience SLIs.
+
+#### SDK Requirements
+
+- Implementation in [LabKit](https://gitlab.com/gitlab-org/ruby/gems/labkit-ruby)
+- DSL for sending Covered Experience events
+- Covered Experience ID generation (as [ULID](https://github.com/ulid/spec)) and propagation
+- Automatic retries with exponential backoff for sending events to the Covered Experience Tracker
+
+The SDK will emit 1 event in every step (each interaction along the entire flow):
+
+| **gitlab_covered_experience_steps_total** | LABEL            | VALUE                                                        | METRIC | LOG |
+|-------------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
+|                                           | ce_name          | security_scan                                                | yes    | yes |
+|                                           | feature_category | vulnerability_management                                     | yes    | yes |
+|                                           | step             | start \| intermediate \| end                                 | yes    | yes |
+|                                           | step_name        | e.g. authorize (impose limited cardinality)                  | yes    | yes |
+|                                           | type             | web                                                          | yes    | yes |
+|                                           | ce_id            | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
+|                                           | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+
+And 2 more events, emitted at the end of the flow, to signify error and success:
+
+| **gitlab_covered_experience_total** | LABEL            | VALUE                                                        | METRIC | LOG |
+|-------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
+|                                     | error            | true \| false                                                | yes    | yes |
+|                                     | feature_category | vulnerability_management                                     | yes    | yes |
+|                                     | type             | sidekiq                                                      | yes    | yes |
+|                                     | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                   | no     | yes |
+|                                     | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+
+| **gitlab_covered_experience_apdex_total** | LABEL            | VALUE                                                                    | METRIC | LOG |
+|-------------------------------------------|------------------|--------------------------------------------------------------------------|--------|-----|
+|                                           | feature_category | vulnerability_management                                                 | yes    | yes |
+|                                           | success          | true \| false                                                            | yes    | yes |
+|                                           | type             | sidekiq                                                                  | yes    | yes |
+|                                           | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                               | no     | yes |
+|                                           | meta             | { "relevant attribute to the event": "tailored for the specific event" } | no     | yes |
+
+### Phase 2
+
+In this phase, the focus will be in implementing the [Covered Experience Tracker](#covered-experience-tracker), which is going to be responsible for the Covered Experience time out verification -- especially relevant for tracking the asynchronous Covered Experience SLIs.
+
+With the SDK consolidated, we can move and centralize the functionality of emitting events to this service, removing the complexity from the SDK.
+
+#### Covered Experience Tracker
+
+A new service, the Covered Experience Tracker, is going to control initiated Covered Experience SLIs to guarantee they are finishing within a specified threshold. When the Covered Experience trespass this threshold, a failure metric will be created, meaning it did not met its completion expectations, reflecting its performance and the perceived user experience.
+
+- Centralized Covered Experience state tracking
+- Sensible time to live (TTL) threshold for Covered Experience duration
+- State is stored and managed by Redis. Allowing the querying of stale Covered Experiences, timing out after configured threshold.
+- [Authentication](#authentication)
+- Deployments:
+  - Runway service for GitLab.com
+  - Runway hosted service for Dedicated
+
+The Covered Experience Tracker will serve an endpoint that will respond to the client generated payload:
+
+| Field            | Type              | Required           | Description                                             | Example                                        | Observations                                                   |
+|------------------|-------------------|--------------------|---------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------|
+| ce_id            | string (ULID)     | Yes                | Unique identifier for the covered experience            | "01JP0EM7HB39WSJNR4662MYZ6V"                   | Same ID must be used across all events in a covered experience |
+| ce_name          | string            | Yes                | Name of the covered experience as defined in the config | "http_request"                                 | Must match with a covered experience definition                |
+| step             | string            | Yes                | Which step in the lifecycle                             | "start" \| "end" \| "intermediate"             | -                                                              |
+| component        | string            | Yes                | Service/component generating the event                  | "web", "database"                              | -                                                              |
+| client_timestamp | string (ISO-8601) | Yes                | Timestamp when event occurred                           | "2025-02-06T14:30:00Z"                         | -                                                              |
+| meta             | object            | Yes                | Additional metadata                                     | {"feature_category": "source_code_management"} | -                                                              |
+| server_timestamp | string (ISO-8601) | No (Response only) | Server processing timestamp                             | "2025-02-06T14:30:00.123Z"                     | Timestamp of the time of processing                            |
+
+A background process verifies all stale Covered Experiences and clears them out, emitting failure metrics.
+
+Components interactions given a synchronous Covered Experience:
 
 ```mermaid
 sequenceDiagram
@@ -175,7 +304,7 @@ sequenceDiagram
     end
 ```
 
-### Asynchronous workflow
+Components interactions given an asynchronous Covered Experience:
 
 ```mermaid
 sequenceDiagram
@@ -226,137 +355,6 @@ sequenceDiagram
         end
     end
 ```
-
-## Phase 1
-
-In this phase, the main building blocks will be implemented, such as the [Covered Experience Definition](#covered-experience-definition) and the [SDK](#sdk-requirements) to emit events (metrics and logs), skipping the [Covered Experience Tracker](#covered-experience-tracker) (that will come in [phase 2](#phase-2)). This will reduce complexity while we iterate and test our implementation against the specification.
-
-Here's a diagram covering the SDK only representation:
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant Web as Web Service
-    participant Worker
-    participant Event as Logs and Metrics
-
-    User->>Web: Request
-    activate Web
-
-    Web->>Event: Step 1, SDK Emit Start
-    Web->>Worker: Enqueue Job
-    Web-->>User: Response
-    deactivate Web
-
-    Note over Worker: Job wait in queue
-
-    Note over Worker: Job starts
-    activate Worker
-
-    alt Success Case
-        Worker->>Worker: End Covered Experience
-        Worker->>Event: Step 2, SDK Emit Success
-    else Failure Case
-        Worker->>Worker: End Covered Experience
-        Worker->>Event: Step 2, SDK Emit Failure
-    end
-
-    deactivate Worker
-```
-
-### Covered Experience Definition
-
-- YAML-based covered experience definition authored by product teams
-- Support for specifying success criteria
-
-The Covered Experience definition will contain the following fields:
-
-| Field                              | Type    | Required | Description                        | Example                               |
-|------------------------------------|---------|----------|------------------------------------|---------------------------------------|
-| covered_experience                 | string  | Yes      | Covered Experience identifier      | `merge_request_creation`              |
-| user_journey                       | string  | Yes      | User Journey identifier            | `merge_request_creation_user_journey` |
-| description                        | string  | Yes      | Human readable description         | "User creates a merge request"        |
-| feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`              |
-| apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                                  |
-| timeout_in_seconds                 | integer | Yes      | Timeout in seconds.                | `300`                                 |
-
-Examples:
-
-| id                     | description                         | feature_category       | apdex_success_threshold_in_seconds | timeout_in_seconds |
-|------------------------|-------------------------------------|------------------------|------------------------------------|--------------------|
-| merge_request_creation | User creates a merge request        | source_code_management | 30                                 | 300                |
-| git_push               | User pushes commits to a repository | source_code_management | 10                                 | 60                 |
-
-Given that Application SLIs are implemented in the [Rails monolith](https://gitlab.com/gitlab-org/gitlab), it will also function as a [registry](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4099) to store the definitions for the Covered Experience SLIs.
-
-### SDK Requirements
-
-- Implementation in [LabKit](https://gitlab.com/gitlab-org/ruby/gems/labkit-ruby)
-- DSL for sending Covered Experience events
-- Covered Experience ID generation (as [ULID](https://github.com/ulid/spec)) and propagation
-- Automatic retries with exponential backoff for sending events to the Covered Experience Tracker
-
-The SDK will emit 1 event in every step (each interaction along the entire flow):
-
-| **gitlab_covered_experience_steps_total** | LABEL            | VALUE                                                        | METRIC | LOG |
-|-------------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
-|                                           | ce_name          | security_scan                                                | yes    | yes |
-|                                           | feature_category | vulnerability_management                                     | yes    | yes |
-|                                           | step             | start \| intermediate \| end                                 | yes    | yes |
-|                                           | step_name        | e.g. authorize (impose limited cardinality)                  | yes    | yes |
-|                                           | type             | web                                                          | yes    | yes |
-|                                           | ce_id            | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
-|                                           | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
-
-And 2 more events, emitted at the end of the flow, to signify error and success:
-
-| **gitlab_covered_experience_total** | LABEL            | VALUE                                                        | METRIC | LOG |
-|-------------------------------------|------------------|--------------------------------------------------------------|--------|-----|
-|                                     | error            | true \| false                                                | yes    | yes |
-|                                     | feature_category | vulnerability_management                                     | yes    | yes |
-|                                     | type             | sidekiq                                                      | yes    | yes |
-|                                     | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                   | no     | yes |
-|                                     | meta             | { "relevant attributes": "tailored for the specific event" } | no     | yes |
-
-| **gitlab_covered_experience_apdex_total** | LABEL            | VALUE                                                                    | METRIC | LOG |
-|-------------------------------------------|------------------|--------------------------------------------------------------------------|--------|-----|
-|                                           | feature_category | vulnerability_management                                                 | yes    | yes |
-|                                           | success          | true \| false                                                            | yes    | yes |
-|                                           | type             | sidekiq                                                                  | yes    | yes |
-|                                           | ce_id            | 01JP0EM7HB39WSJNR4662MYZ6V                                               | no     | yes |
-|                                           | meta             | { "relevant attribute to the event": "tailored for the specific event" } | no     | yes |
-
-## Phase 2
-
-In this phase, the focus will be in implementing the [Covered Experience Tracker](#covered-experience-tracker), which is going to be responsible for the Covered Experience time out verification -- especially relevant for tracking the asynchronous Covered Experience SLIs.
-
-With the SDK consolidated, we can move and centralize the functionality of emitting events to this service, removing the complexity from the SDK.
-
-### Covered Experience Tracker
-
-A new service, the Covered Experience Tracker, is going to control initiated Covered Experience SLIs to guarantee they are finishing within a specified threshold. When the covered experience trepass this threshold, a failure metric will be created, meaning it did not met its completion expectations, reflecting its performance and the perceived user experience.
-
-- Centralized Covered Experience state tracking
-- Sensible time to live (TTL) threshold for Covered Experience duration
-- State is stored and managed by Redis. Allowing the querying of stale Covered Experiences, timing out after configured threshold.
-- [Authentication](#authentication)
-- Deployments:
-  - Runway service for GitLab.com
-  - Runway hosted service for Dedicated
-
-The Covered Experience Tracker will serve an endpoint that will respond to the client generated payload:
-
-| Field            | Type              | Required           | Description                                             | Example                                        | Observations                                                   |
-|------------------|-------------------|--------------------|---------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------|
-| ce_id            | string (ULID)     | Yes                | Unique identifier for the covered experience            | "01JP0EM7HB39WSJNR4662MYZ6V"                   | Same ID must be used across all events in a covered experience |
-| ce_name          | string            | Yes                | Name of the covered experience as defined in the config | "http_request"                                 | Must match with a covered experience definition                |
-| step             | string            | Yes                | Which step in the lifecycle                             | "start" \| "end" \| "intermediate"             | -                                                              |
-| component        | string            | Yes                | Service/component generating the event                  | "web", "database"                              | -                                                              |
-| client_timestamp | string (ISO-8601) | Yes                | Timestamp when event occurred                           | "2025-02-06T14:30:00Z"                         | -                                                              |
-| meta             | object            | Yes                | Additional metadata                                     | {"feature_category": "source_code_management"} | -                                                              |
-| server_timestamp | string (ISO-8601) | No (Response only) | Server processing timestamp                             | "2025-02-06T14:30:00.123Z"                     | Timestamp of the time of processing                            |
-
-A background process verifies all stale Covered Experiences and clears them out, emitting failure metrics.
 
 #### Authentication
 
