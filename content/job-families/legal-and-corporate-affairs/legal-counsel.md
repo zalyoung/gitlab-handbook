@@ -61,11 +61,11 @@ Outstanding interpersonal skills, the ability to interface effectively with all 
 - Previous experience in a remote work environment would be an added advantage
 - Ability to use GitLab
 
-##  Legal Counsel, Litigation 
+## Legal Counsel, Litigation 
 
 ### Legal Counsel, Litigation Job Grade
 
-The Legal Counsel, Litigation is a [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+The Legal Counsel, Litigation is a [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Sr. Director, of Legal Risk Management and Dispute Resolution] (/job-families/legal-and-corporate-affairs/risk-management-dispute-resolution/#senior-director-of-legal-risk-management--dispute-resolution)
 
 ### Legal Counsel, Litigation Responsibilities
 
@@ -91,7 +91,7 @@ The Legal Counsel, Litigation is a [Grade 6](/handbook/total-rewards/compensatio
 
 ## Senior Legal Counsel
 
-The Senior Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal-us).
+The Senior Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal).
 
 ### Senior Legal Counsel Job Grade
 
@@ -120,7 +120,7 @@ The Senior Legal Counsel is a [Grade 7](/handbook/total-rewards/compensation/com
 
 ## Lead Legal Counsel
 
-The Lead Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal-us).
+The Lead Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal).
 
 ### Lead Legal Counsel Job Grade
 
@@ -181,7 +181,7 @@ The Managing Legal Counsel is a [Grade 8](/handbook/total-rewards/compensation/c
 
 ## Principal Legal Counsel
 
-The Principal Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal-us).
+The Principal Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal).
 
 ### Principal Legal Counsel Job Grade
 
