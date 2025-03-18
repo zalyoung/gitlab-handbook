@@ -20,7 +20,7 @@ From some of our recent initiatives such as building the [Data Insights Platform
 
 ## Motivation
 
-A primary driver for having a _scalable data queue_ within our tech-stack is building our ability to ingest large amounts of data, especially analytical or monitoring data. While it is totally possible to persist data directly into our databases, it's riddled with scalability challenges. For example, when ingesting data into ClickHouse, the database given its architecture - performs much better when ingesting large batches of data across fewer writes than ingesting a large number of small writes. Some past context around [our experience with this](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2044).
+A primary driver for having a _scalable messaging layer_ within our tech-stack is building our ability to ingest large amounts of data, especially analytical or monitoring data. While it is totally possible to persist data directly into our databases, it's riddled with scalability challenges. For example, when ingesting data into ClickHouse, the database given its architecture - performs much better when ingesting large batches of data across fewer writes than ingesting a large number of small writes. Some past context around [our experience with this](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2044).
 
 Another key requirement is to be able to _process_ incoming data before it lands within a database. At minimum, we need the ability to perform operations such as:
 
@@ -29,9 +29,9 @@ Another key requirement is to be able to _process_ incoming data before it lands
 - batch data outside of main storage while certain (logical) conditions are met,
 - fan-out ingested/processed data to multiple destinations, etc.
 
-Having a _data buffer_ available upstream to actual storage also helps alleviate resource pressure downstream by absorbing large spikes in volumes of ingested data which tends to happen quite frequently with the nature of data at play here.
+From an architectural perspective, having a _data buffer_ available upstream to our persistent stores would help alleviate resource pressure downstream by absorbing large spikes in ingested data, which might happen quite frequently as we continue to generate and/or gather more data. We outline [other significant benefits of building such an abstraction](#benefits-of-building-an-events-based-platform-within-gitlab) later in this document.
 
-Considering [our forward-looking use-cases](#looking-forward), we'll need such a system to be __consistently available across all our deployment-models__ for GitLab instances, i.e. GitLab.com, Cells, Dedicated or Self-Managed. This would ensure we can consolidate how we deal with any data stream generated across the product. With such a large deployment surface, it's important we reduce any distribution & operational complexities of running such a system while ensuring its reliable, lightweight and capable of delivering performance at GitLab scale.
+Considering [our forward-looking use-cases](#looking-forward), we also need such a system to be __consistently available across all our deployment-models__ for GitLab instances, i.e. GitLab.com, Cells, Dedicated or Self-Managed. This would ensure we consolidate how we deal with any data stream generated across the product. With such a large deployment surface, it's important we minimise all distribution & operational complexities of running such a system while ensuring its reliable, scalable and capable of delivering performance at GitLab scale.
 
 As elucidated later in this document, [NATS](https://nats.io/) stands out given its minimal footprint, ease of distribution and its ability to both be embeddable within the Product and scale out as a cluster when needed.
 
@@ -59,9 +59,28 @@ For this first iteration, we _do not_ expect to have all GitLab services or appl
 
 ### Looking forward
 
-Once a messaging layer is generally available, we aim to position it as the data queueing backbone for a general-purpose [events-based Data Platform within the Product](https://gitlab.com/groups/gitlab-org/-/epics/14860).
+Once the aforementioned messaging layer is generally available, we aim to position it as the data queueing backbone for a more general-purpose [events-based data platform within the product](https://gitlab.com/groups/gitlab-org/-/epics/14860). Its existence helps ensure reliability and scalability for the various cross-platform data-related features at GitLab.
 
-Following is a detailed set of use-cases that benefit from the existence of a centralized Data Platform:
+### Benefits of building an events-based platform within GitLab
+
+Having a centralised events-based data platform within the product helps improve GitLab's logical architecture and its ability to scale well with time. As we build & continue to adopt such an architecture, the following key benefits come to mind:
+
+- Enables __loose-coupling__ between data producers and consumers across GitLab allowing them to scale independently of each other.
+- Encourages __asynchronous communication patterns__ between participating systems improving their scalability with increasing traffic volumes.
+- Makes our architecture __extensible__ wherein new consumers of existing data can be added with trivial time & effort.
+- Provides a __centralised, common architecture__ for sharing data useful for integrations across different parts of the product. This also leads to building over time singular sources of truth for important data across the product bringing consistency to product data.
+
+The following discussions also explain why building an events-based abstraction is important for GitLab's architecture at its current scale:
+
+- [Product Event Platform](https://gitlab.com/groups/gitlab-org/-/epics/14860)
+- [GitLab Events Platform](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/gitlab_events_platform/)
+- [GitLab Structured Events](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2046)
+
+Note, while the existence of a centralised data-sharing platform helps alleviate scalability & reliability concerns from other parts of our infrastructure, esp. databases, we will also need to iron out a few other concerns such as [authorising clients](https://gitlab.com/groups/gitlab-org/-/epics/14860#note_2078181184), [routing data efficiently](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/113700#note_1322317107) and [decoupling away from the monolith](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/gitlab_events_platform/#challenges) to ensure such a system proves valuable to our logical architecture.
+
+### Identified use-cases
+
+Following is a detailed set of use-cases that benefit from the existence of a centralized data platform within the product.
 
 | Teams/areas | Use-cases | Expected scale |
 |---|---|---|
@@ -107,9 +126,9 @@ To ensure a comparable analysis for the different systems, we made some assumpti
 
 __For example__, accounting for all Snowplow-instrumented data originating from .com SaaS, we estimate to generate 500GB data events per day. If we then intend to retain this data for a week, we’ll roughly accumulate 3.5TB data which will need to be hosted on the underlying infrastructure at any given point in time. It can be assumed that data lifecycle policies kick-in correctly and this remains our maximum storage footprint within the context of this example.
 
-- **Daily generated data**: 500GB
-- **Retention**: 7 days
-- **Maximum stored data**: 500GB \* 7 days \= 3.5TB
+- __Daily generated data__: 500GB
+- __Retention__: 7 days
+- __Maximum stored data__: 500GB \* 7 days \= 3.5TB
 
 The following is how all analysed backends fair with that amount of data.
 
@@ -144,14 +163,14 @@ Read for more details: [https://docs.gitlab.com/administration/reference\_archit
 
 Before estimating resources, we’ll need a measure of message traffic across the different reference architectures:
 
-- **Message volume**: Estimating how many messages per second.
-- **Message size**: Estimating message payload size in bytes.
-- **Number of publishers/consumers**
-- **Persistence/storage**: How much data needs to be stored and/or retained over how much time.
+- __Message volume__: Estimating how many messages per second.
+- __Message size__: Estimating message payload size in bytes.
+- __Number of publishers/consumers__
+- __Persistence/storage__: How much data needs to be stored and/or retained over how much time.
 
 | Reference Architecture / System | Kafka | RabbitMQ | PubSub | Kinesis | NATS |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| **General overview, sizing constraints.** | When compared to NATS or RabbitMQ, Kafka can be more resource intensive both in compute and storage given its replication overheads. It’ll consume more compute nodes if we use Zookeeper for cluster coordination OR more vCPUs in the case of using KRaft which works on the same JVM as the broker process. | RabbitMQ can be slightly more compute intensive as compared to NATS given its acknowledgement mechanism, wherein it’s more suitable for more transactional streaming workloads. | Estimated costs: <br><br> *Message ingestion: $40 per TB ($0.04/GB) <br><br> Message delivery: $40 per TB <br><br> Storage retention: $0.27/GB/month <br><br> Data transfer: Standard GCP egress fees.* | Estimated costs: <br><br> *Shards (compute): $0.015 per shard/hour <br><br> Ingestion (writes): $0.036 per million records <br><br> Data retention: $0.02 per GB per day <br><br> Data transfer: Standard AWS egress fees.* | A simple 3-nodes cluster should suffice, instance-sizing to be estimated with traffic estimates. |
+| __General overview, sizing constraints.__ | When compared to NATS or RabbitMQ, Kafka can be more resource intensive both in compute and storage given its replication overheads. It’ll consume more compute nodes if we use Zookeeper for cluster coordination OR more vCPUs in the case of using KRaft which works on the same JVM as the broker process. | RabbitMQ can be slightly more compute intensive as compared to NATS given its acknowledgement mechanism, wherein it’s more suitable for more transactional streaming workloads. | Estimated costs: <br><br> *Message ingestion: $40 per TB ($0.04/GB) <br><br> Message delivery: $40 per TB <br><br> Storage retention: $0.27/GB/month <br><br> Data transfer: Standard GCP egress fees.* | Estimated costs: <br><br> *Shards (compute): $0.015 per shard/hour <br><br> Ingestion (writes): $0.036 per million records <br><br> Data retention: $0.02 per GB per day <br><br> Data transfer: Standard AWS egress fees.* | A simple 3-nodes cluster should suffice, instance-sizing to be estimated with traffic estimates. |
 | **Small** (\~2000 users) |  | *Roughly similar to NATS.* | Sizing: 5000 messages per second. <br><br> Ingestion cost: $520 <br><br> Delivery cost: $520 <br><br> Storage cost: $2700 <br><br> Month estimate: $3700 at the minimum. | Sizing: 5000 messages per second, needing 3 shards. <br><br> Shard cost: $32.40 <br><br> Ingestion cost: $3.60 <br><br> Storage cost: $6000 <br><br> Monthly estimate: $6000 at the minimum | Sizing: 4vCPU, 8GB RAM, 100GB SSD <br><br> Instances: 3 |
 |  |  |  |  |  | **AWS** `t3.xlarge` @ $0.16/hr \= $120 per month. <br><br> 100 GB EBS gp3 SSD \= $10 per month. <br><br> Bandwidth @ $0.09GB \= $90 <br><br> Monthly estimate: $460 |
 |  |  |  |  |  | **GCP** `e2-standard-4` \= $108 per month. <br><br> Persistent SSD (100GB) \= \~$17 per month. <br><br> Bandwidth @ $0.08GB \= $120 <br><br> Monthly estimate: $450 at the minimum. |
