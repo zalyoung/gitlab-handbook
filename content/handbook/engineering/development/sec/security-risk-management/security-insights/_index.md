@@ -29,12 +29,6 @@ to be addressed quickly.
 
 The Security Insights group is structured into three focused swimlanes that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/): Performance and Optimization, Projects, and AI. This subdivision is to provided bounded focus to each area: enabling us to progress on multiple fronts and reduce planning overhead.
 
-### Stable Counterparts
-
-The following members of other functional teams are our stable counterparts, and work across all swimlanes:
-
-{{% stable-counterparts role="Security Insights" other-manager-roles="Engineering Manager(.*)Security Risk Management:(.*)|Director of Engineering(.*)Security Risk Management" %}}
-
 ### Team Structure
 
 {{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Security Risk Management:Security Insights" %}}
@@ -43,8 +37,7 @@ The following members of other functional teams are our stable counterparts, and
 
 * Slack channels:
   * Main channel: [`#g_srm_security_insights`](hhttps://gitlab.enterprise.slack.com/archives/C07UD442PQ9)
-  * Engineering - All SRM groups: [`#s_srm__eng`](https://gitlab.enterprise.slack.com/archives/C05N5BLDYUT)
-* [Security Insights calendar](https://calendar.google.com/calendar/u/0?cid=Y19iNGQxYmYzYzY4ZTBjODZkYTE0ZDc4N2M0MjZhMDUxYWEzYzljYWRlZjIwZTcwMmNmOWRjZmEwNzQzMmRmMDNkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (internal link)
+  * Engineering - All SRM groups: [`#s_srm_eng`](https://gitlab.enterprise.slack.com/archives/C05N5BLDYUT)
 
 ### Prioritization
 
@@ -89,6 +82,22 @@ At the end of every week, each engineer is expected to provide a quick async iss
 ```
 
 We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on. This also enables us to automatically collate updates across swimlanes, removing some manual process.
+
+#### Indicating Status and Raising Risk
+
+Our teams use the [Health Status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) feature within issues to indicate the likelihood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
+
+Raising risk early is important. The more time we have, the more options we have. For example, issues that have not gone into review by the first Monday of the month may not have enough time to get merged. These should be considered Needs Attention or At Risk depending on their complexity and other factors.
+
+Follow these steps when raising or downgrading risk:
+
+1. Update the Health Status in the issue:
+    1. `On Track` - high confidence - there is no indication the work won't get merged by the second Tuesday of the month.
+    1. `Needs Attention` - medium confidence - the issue is blocked or has other factors that need to be discussed.
+    1. `At Risk` - low confidence - the issue is in jeopardy of missing the merge cutoff on the second Tuesday of the month.
+1. Add a comment about why the risk has increased or decreased. Copy the Engineering Manager and Project Manager for awareness.
+
+Note that an issue probably shouldn't go directly from On Track to At Risk. That pattern indicates we have missed an opportunity to discuss earlier. Consider the progression: `On Track -> Needs Attention -> At Risk`.
 
 ### Support rotation
 
@@ -150,22 +159,6 @@ We follow these guidelines when submitting MRs for review when the change is wit
 
 These boards show current status of issues.
 
-### Indicating Status and Raising Risk
-
-Our teams use the [Health Status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) feature within issues to indicate the likelihood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
-
-Raising risk early is important. The more time we have, the more options we have. For example, issues that have not gone into review by the first Monday of the month may not have enough time to get merged. These should be considered Needs Attention or At Risk depending on their complexity and other factors.
-
-Follow these steps when raising or downgrading risk:
-
-1. Update the Health Status in the issue:
-    1. `On Track` - high confidence - there is no indication the work won't get merged by the second Tuesday of the month.
-    1. `Needs Attention` - medium confidence - the issue is blocked or has other factors that need to be discussed.
-    1. `At Risk` - low confidence - the issue is in jeopardy of missing the merge cutoff on the second Tuesday of the month.
-1. Add a comment about why the risk has increased or decreased. Copy the Engineering Manager and Project Manager for awareness.
-
-Note that an issue probably shouldn't go directly from On Track to At Risk. That pattern indicates we have missed an opportunity to discuss earlier. Consider the progression: `On Track -> Needs Attention -> At Risk`.
-
 ## Quality
 
 ### Running E2E specs in the MR pipeline
@@ -199,7 +192,8 @@ When a feature needs to check the current license tier, it's important to make s
 
 To emulate this locally, follow these steps:
 
-1. Export an environment variable: `export GITLAB_SIMULATE_SAAS=1`[^1]
+1. Export an environment variable: `export GITLAB_SIMULATE_SAAS=1`
+   - There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
 1. Within the same shell session run `gdk restart`
 1. Admin > Settings > General > "Account and limit", enable "Allow use of licensed EE features"
 
@@ -220,7 +214,7 @@ If a team member creates an issue or finds an issue where we would be open to a 
 
 ### Group discussion
 
-We hold weekly group discussions alternating on APAC/AMER, and EMEA/AMER time zones. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Security Insights team might be thinking about. You can find the meetings on the [Threat Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1mbXHw6EYT-IqlEFguYRyLrm35f_DGA7EzGPGBCOc9ao/edit#heading=h.pt5d0o3avmun) (internal link). We hope to see you there!
+We hold group discussions every other week.  We alternate between a milestone kickoff and general discussion format. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Security Insights team might be thinking about. You can find the meetings on the [Security Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1nnjYPNKtYzbpdEz16u0U2raDdLcIFY-0ibjxGLltyG0/edit?tab=t.0#heading=h.j80itk3qkjs3) (internal link). We hope to see you there!
 
 ### Metrics
 
@@ -236,6 +230,3 @@ We hold weekly group discussions alternating on APAC/AMER, and EMEA/AMER time zo
   {{< tableau/filters "GROUP_NAME"="security insights" >}}
 {{< /tableau >}}
 
-## Footnotes
-
-[^1]: There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
