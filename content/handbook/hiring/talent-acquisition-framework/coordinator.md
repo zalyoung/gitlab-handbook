@@ -862,6 +862,33 @@ Once this information has been received, please go onto GH and follow the steps 
 1. Then follow the normal offer creation process in GH and select your uploaded document as the offer template for this offer.
 1. Please remember to delete this template once you have completed the process and the offer has been signed by the signatory & the candidate
 
+## Creating an Israel offer
+
+1. You will receive a req to create an Israel offer.
+1. In Greenhouse, click on Job setup, then hiring team, then add Sarah Rogers & Darren Burr to the job granting them the Job Admin: FPA and Legal permissions, then save.
+1. The start dates for Israel team members can be a Sunday, given that their work week is Sunday through Thursday. Please let the people connect team know that the start date would be a Sunday.
+1. Send a Slack message to the Legal Team in ces_legal_contracts requesting assistance with the offer. When making the request in the channel, please indicate the candidate’s name and include the link to the GH profile & request them to give the compensation breakdown.
+1. One of the Legal Team members will respond with the following information:
+   - The GreenHouse Offer Template that you should use
+   - The compensation breakdown & CES to add the ID number in Exhibit A
+   - The wording that should be added to the template (including information on where the wording should be placed). This wording will be placed as provided by Legal.
+
+Once this information has been received, please go onto GH and follow the steps below:
+
+1. Click on the settings icon
+1. Select 'Offer Templates' on the left-hand side
+1. Search for the Template as advised by Legal
+1. Click on the three dots on the right-hand side of the template you will be using and select the 'download' tab
+1. Open the document in Google Docs
+1. Make all the changes as advised by the Legal Team and save the document
+1. Go back to the offer templates page on GH
+1. Click on 'Upload New' on the right-hand side
+1. Upload the amended document
+1. Then follow the normal offer creation process in GH and select your uploaded document as the offer template for this offer.
+1. Please remember to delete this template once you have completed the process and the offer has been signed by the signatory & the candidate
+
+Once after the candidate has signed the offer, please send the "New Hire Welcome Email" where there is a laptop request form. GitLab can ship laptops to Israel and there is no need for the team member to self procure laptops anymore for Israel.
+
 ## CXC (NOTE: HIRING IS CURRENTLY PAUSED HERE: Please speak with Enablement before sending offer letters)
 
 GitLab is working in partnership with [CXC Global](https://www.cxcglobal.com/) to employ GitLab team-members located in **Poland**, **Ukraine**, **Romania**, **Russia**, **Serbia**, & **Slovenia**. The actual employment contracts will be sent and issued by CXC and are in accordance with local labor law. CXC also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and CXC.
@@ -1106,7 +1133,7 @@ If there are any questions, these should be directed to help@remote.com.
 
 There are a handful of countries, listed [here](/handbook/it/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
 
-1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Israel, Brazil, Costa Rica, Chile, Armenia, or Ukraine template.
+1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile, Armenia, or Ukraine template.
 1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
     - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
     - Request advanced funds to self-procure
