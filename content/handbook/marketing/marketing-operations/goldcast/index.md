@@ -36,7 +36,8 @@ Page in progress - Purchased as of Jan 2025. Marketing Operations is in the proc
 - While users can create custom fields within their events as needed, the data syncing into Marketo is set by Marketing Ops. **Do not add any fields into the Goldcsat -> Marketo sync without consulting Marketing Ops**
 - By default, `English` is set as the primary language in the event template. Captions and subtitles are also toggled on by default, but will only work correctly if the presenters are speaking in the set primary language
 - The `Enter Event` button on the registration landing page is recommended to be disabled, if it is not already. If enabled, registrants can enter the event earlier than 1 hour prior to event start. Instructions on disabling the button [here](https://help.goldcast.io/en_US/event-settings/4583663517211-disabling-the-enter-event-button#how-to-turn-off-the-enter-event-button-1)
-- Run on the assumption that settings cannot be changed within an hour of your event start time 
+- Run on the assumption that settings cannot be changed within an hour of your event start time
+- When set to `Automatic`, the `Session Redirection Strategy` setting automatically allows registrants in at the event start time, but does not immediately force presenters on-stage. Having this set to `Manual` requires staff input to allow users in/out of the event
 
 ## Fields syncing between Marketo and Goldcast
 
@@ -127,7 +128,7 @@ When working correctly, the Marketo program's tokens will auto-populate - either
 - {{my.goldcast_eventTitle}}
 - {{my.goldcast_formId}}
 
-Additionally, there are tokens within the program that are _not_ updated by Goldcast but are still relevant for various aspects of the program, like the Marketo landing page or Marketo-sent follow up emails.
+Additionally, there are tokens within the program that are _not_ updated by Goldcast but are still relevant for various aspects of the program, like the Marketo landing page or Marketo-sent follow up emails. These tokens but are not limited to:
 
 Marketo email tokens
 
@@ -169,7 +170,7 @@ Marketo landing page tokens
 
 When starting event creation in Goldcast, start by clicking the `+` icon in the top right of the platform. If you are starting a standard webcast, select `New Webinar` from the selections.
 
-Fill in your `Title`, `Pick a Date`, `Start Time`, `End Time`, `Timezone`, and `Type`. GitLab as an org will likely stick with `Live` and `Pre-recorded` types. The `RTMP` type is a feature that allows embedding to or from external tools.
+Fill in your `Title`, `Pick a Date`, `Start Time`, `End Time`, `Timezone`, and `Type` - many of these auto-populate into the Marketo program tokens. GitLab as an org will likely stick with `Live` and `Pre-recorded` types. The `RTMP` type is a feature that allows embedding to or from external tools.
 
 Select the template for your event. This covers a range of things, including the registration landing page, automated registration/reminder emails, the event console look & feel and the registration form format. 
 
@@ -253,9 +254,28 @@ This section allows for viewing of data directly collected by Goldcast, such as 
 
 This section also gives access to see registrants' `Magic Links`. A magic link is the link emailed directly to registrants that allows them to access the event. In the event a user reaches out about not getting access to the event, this is the custom link they need 
 
-## Running an Event
+## Inside an Event
 
-starting the MR
+From the Producer view during an event, there are several key controls to take note of:
+
+- A: Slides: A Producer or Speaker have the ability to control slide from here. `Speaker Mode` -seen below slides- shows speaker notes
+- B: Videos: Play a pre-loaded video from this menu. Video takes up the full stage for the audience and displays a timer to track the video ending. Video takes sound priority over Speakers
+- C: Screen 
+- D: Polls 
+- E: Q&A 
+- F: Overlay
+- G: Ticker 
+- H: Layout: Speakers, Producers and Coordinators all have access to change the console layout
+- I: Backstage Toggle: Use this toggle to increase the size of the audience view presented on your screen and minimize the Backstage information 
+- J: Mic controls
+- K: Webcam and virtual background controls 
+- L: Personal volume toggle for Stage volume. Does not affect volume for audience or presenter. Click the speaker icon for instant muting of the stage volume
+- M: Personal volume toggle for Back Stage volume. Click the speaker icon for instant muting of the stage volume
+- N: Information banner for your event. Includes info on whether the event is live, how many attendees are present (if not toggled off in the settings) and wifi signal
+- O: Text-based chat for those Backstage and to send alerts to the Speakers 
+- P: List of staff inside your event. This list also allows Producers to manually move Speakers onto the Stage or mute Speakers
+- Q: Controls to interact with the audience 
+- R: Speakers, who have the same interface as Producers, use this button to enter and leave the Stage
 
 ## Content Hub
 
