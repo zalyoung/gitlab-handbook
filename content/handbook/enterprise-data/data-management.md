@@ -99,7 +99,6 @@ Here is a sample checklist of activities:
     * The Airflow account is the only user and no downstream models depend on it.
   * A review of tables flagged for removal will be done by the analytics community before being dropped. This will allow for any tables wrongly flagged to be kept.
 
-
 #### Airflow
 
 * Remove log files older than 90 days.
