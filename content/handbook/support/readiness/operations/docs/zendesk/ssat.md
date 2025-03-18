@@ -20,19 +20,31 @@ As per
 
 We shorthand the overall setup (survey and ticket ratings) as SSAT
 
-## Zendesk Global setup
+## Setup
 
-Zendesk Global uses an
-[automation](https://gitlab.zendesk.com/admin/objects-rules/rules/automations/46784293)
-to send out the satisfaction survey.
+We utilize Zendesk automations to facilitate this process.
 
-## Zendesk US Federal setup
+Customers receive a link to the survey (the exact link changes depending on the
+Zendesk instance they are using). This survey is created by GitLab and managed
+via
+[this project](https://gitlab.com/gitlab-support-readiness/forms/ces-survey)
+(and mirrored to [this project](https://gitlab.com/support/ces-survey)).
 
-Zendesk US Federal uses an
-[automation](https://gitlab-federal-support.zendesk.com/admin/objects-rules/rules/automations/360094875892)
-to send out the satisfaction survey.
+Upon filling out the survey, the
+[CES Processor project](https://gitlab.com/gitlab-support-readiness/processors/ces-processor)
+will review the information provided in the survey. If it is a valid submission,
+it will then:
 
-## End-user experience when the SSAT survey is sent
+- Add a satisfaction score to the ticket
+- Add a satisfaction comment to the ticket
+- Update the ticket field `CES Score` on the ticket
+- Add an entry to our backup Google sheets
+  - [Global](https://docs.google.com/spreadsheets/d/1RWun0vAsxv310rd7yylvIGuR_VuERpcHqjv62x4ycYc/edit?usp=sharing) (internal only)
+  - [US Government](https://docs.google.com/spreadsheets/d/1knq7Ae6UV06FxX2TGrt3Dzb6dbPM3QcQ4xXsrAM2T4w/edit?usp=sharing) (internal only)
+
+## Prior to 2025-05-01
+
+### End-user experience when the SSAT survey is sent
 
 Once the SSAT automation runs on the solved ticket, the user will receive an
 SSAT survey email. A sample of this would look like:
