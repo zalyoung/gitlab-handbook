@@ -61,6 +61,8 @@ Outstanding interpersonal skills, the ability to interface effectively with all 
 - Previous experience in a remote work environment would be an added advantage
 - Ability to use GitLab
 
+##  Legal Counsel, Litigation 
+
 ### Legal Counsel, Litigation Job Grade
 
 The Legal Counsel, Litigation is a [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
