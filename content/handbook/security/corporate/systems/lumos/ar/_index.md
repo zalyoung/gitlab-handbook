@@ -28,3 +28,20 @@ We are migrating tech stack applications to Lumos iteratively and not all apps a
     <img src="/images/security/corporate/systems/lumos/ar/lumos_appstore_and_app.png" alt="Lumos App Store and Access Request" width="600"/><br>
 
 4. When all approvals are completed, Lumos will notify you that access is granted
+
+## Approve an Access Request
+
+1. Open the message that was received in Slack or Email, or visit Lumos from the Okta tile
+2. Click Approve, add comments, or Deny the request
+
+## Provision an app
+
+**Note:** For apps with manual provisioning, the app admin will be requested to confirm the provisioning was performed
+
+1. Open the message that was received in Slack or Email, or visit Lumos from the Okta tile
+2. Perform the user creation within the app's admin interface
+3. Return to Lumos and confirm that the user has been created
+
+## Request an app is added to the Lumos App Store
+
+- Any app with an Okta login can be added to Lumos. The best candidates have role-based access permissions controlled by Okta groups. [Open an issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=lumos_appstore_add_app) to be scheduled for a future iteration.
