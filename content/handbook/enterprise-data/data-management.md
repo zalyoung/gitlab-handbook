@@ -49,8 +49,8 @@ In the Data Platform at GitLab we have multiple categories. Its good to highligh
 
 ### General Data Security Controls
 
-- For the purpose of defining Data Controls, the Enterprise Data Platform is a [Tier 1 system](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/).
-- `IMPORTANT`: [Customer Private RED data](/handbook/security/data-classification-standard/#red) is prohibited from permanent storage in the Enterprise Data Platform.
+* For the purpose of defining Data Controls, the Enterprise Data Platform is a [Tier 1 system](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/).
+* `IMPORTANT`: [Customer Private RED data](/handbook/security/data-classification-standard/#red) is prohibited from permanent storage in the Enterprise Data Platform.
 
 | Control | RED | ORANGE | YELLOW |
 | :-- | :-- | :-- | :-- |
