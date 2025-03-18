@@ -29,7 +29,7 @@ If you'd like to take any courses / certifications that are currently hosted on 
 
 ## Benefits and Features
 
-The new Cornerstone TXP platform offers significant improvements over our current learning management system, specifically designed to support internal employee development and career growth at GitLab. Key features include:
+The new Cornerstone Talent Experience Platform (TXP) offers significant improvements over our current learning management system, and is specifically designed to support internal employee development and career growth at GitLab. Key features include:
 
 - Internal gigs and side projects to provide hands-on learning opportunities
 - Enhanced management tools for training assignment and recommendations
@@ -87,6 +87,37 @@ Remember, SmartCards created within a Pathway will only be discoverable in that 
 
 Collections of SmartCards organized in a sequence to help you achieve a specific learning goal. Think of a Pathway as a short course made up of individual learning pieces.
 
+#### How to Create a Pathway in LevelUp
+
+A Pathway is a collection of SmartCards organized as a learning sequence. Here's how to create one:
+
+**Basic Steps**
+
+1. From the LevelUp homepage, click the **Create** button in the top navigation bar
+2. Select **Pathway** from the options
+3. Fill in the basic information:
+  - Title for your Pathway
+  - Description explaining what learners will achieve
+  - Relevant tags
+4. Decide if your Pathway should be public or private
+5. Add existing SmartCards by using the search function
+6. Create new SmartCards directly within the Pathway if needed
+7. Arrange SmartCards in the desired order by dragging and dropping
+8. Enable "Lock" functionality if you want learners to progress in sequence
+9. Add a badge if applicable for Pathway completion
+10. Click **Create** or **Save** to publish your Pathway
+
+**Best Practices**
+
+- Organize content in a logical sequence from basic to advanced concepts
+- Include a clear introduction at the beginning explaining what learners will gain
+- Consider using Lock functionality for content that builds on previous knowledge
+- Add quizzes or knowledge checks to reinforce learning
+- Keep Pathways focused on a specific learning objective
+- Consider ending with next steps or related Pathways
+
+> **Note:** By default, all users can create SmartCards, but if you're interested in putting a Pathway together, please open an access request to be a course author in LevelUp, and assign it to @jallen16, who can uplift your access permissions.
+
 ### Journeys
 
 Larger learning experiences made up of multiple Pathways. Journeys offer comprehensive learning on a topic by combining several related Pathways into chapters or sections.
@@ -105,6 +136,4 @@ A tool for managers to view their team's learning activity, assign content to te
 
 ### Skills
 
-### Talent Marketplace - Projects
-
-### Talent Marketplace - Other functionality coming soon
+Skills and skills development are a fundamental part of LevelUp. 
