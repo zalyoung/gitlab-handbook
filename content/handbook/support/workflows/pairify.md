@@ -77,6 +77,7 @@ Pairify can be used in the following Slack channels:
 - [`#support_self-managed`](https://gitlab.enterprise.slack.com/archives/C4Y5DRKLK)
 - [`#support_team-chat`](https://gitlab.enterprise.slack.com/archives/CCBJYEWAW)
 - [Support Pod](https://gitlab.com/gitlab-com/support/support-pods) channels
+- [`#spt_pod_docs`](https://gitlab.enterprise.slack.com/archives/C07UU2R5SKU)
 
 ## Troubleshooting
 
