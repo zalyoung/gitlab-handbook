@@ -78,6 +78,7 @@ You can also [reach out to Sales](/handbook/support/license-and-renewals/workflo
 > Your card does not support this type of purchase.
 
 Please direct the customer to [the troubleshooting page](https://docs.gitlab.com/subscriptions/gitlab_com/gitlab_subscription_troubleshooting/#error-transaction_not_allowed) to purchase through a reseller or [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user [payment through invoice](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.md#paying-invoices).
+
 ### Check whether the linked accounts have matching emails
 
 >
