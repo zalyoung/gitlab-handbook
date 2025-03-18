@@ -14,9 +14,9 @@ A well-articulated product security risk clearly communicates:
 1. **Supporting Evidence**: Concrete trends, data points, or proofs of concept that substantiate the risk is real and not merely theoretical that can help inform prioritization.
 1. **Scope and Scale**: Information about how widespread the risk is and what parts of the product or infrastructure are affected.
 
-If the risk you are describing is complex, consider including a flowchart or diagram to explain it effectively. 
+If the risk you are describing is complex, consider including a flowchart or diagram to explain it effectively.
 
-When you are initially reporting a risk, you may have ideas about possible solutions, or you may already know of challenges or blockers that need to be addressed. That's great! After you have created your Well-Articulated Risk, add those to the Issue as comments. Those will feed into the downstream risk treatment planning process. 
+When you are initially reporting a risk, you may have ideas about possible solutions, or you may already know of challenges or blockers that need to be addressed. That's great! After you have created your Well-Articulated Risk, add those to the Issue as comments. Those will feed into the downstream risk treatment planning process.
 
 ## What a Well-Articulated Risk is NOT
 
