@@ -21,12 +21,12 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
    - Gap Analysis Program: feasibility analysis for certification expansion
    - External Audit coordination and execution
 1. [Continuous Monitoring of GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
-   - [Policy-as-code](./policy-as-code.md)
-   - [Automated evidence collection and control testing](./automated-control-testing.md)
-   - [User Access Reviews](./access-reviews.md)
-   - [Risk-based control testing](./risk-based-control-testing.md)
-   - [PCI Internal Control Review](./pci-internal-control-review.md)
-   - [FedRAMP Continuous Monitoring](/fedramp-compliance.md)
+   - [Policy-as-code](../policy-as-code.md)
+   - [Automated evidence collection and control testing](../automated-control-testing.md)
+   - [User Access Reviews](../access-reviews.md)
+   - [Risk-based control testing](../risk-based-control-testing.md)
+   - [PCI Internal Control Review](../pci-internal-control-review.md)
+   - [FedRAMP Continuous Monitoring](../fedramp-compliance.md)
 1. [Observation and Remediation Management](../observation-management-procedure.md)
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
@@ -39,7 +39,7 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
 1. Dogfooding
     - We use the GitLab product to perform our core competencies
     - We recommend GitLab feature solutions to remediate observations and reduce risk
-    - We provide feedback to the product by exemplifying the [compliance persona](/content/handbook/product/personas/_index.md#cameron-compliance-manager).
+    - We provide feedback to the product by exemplifying the [compliance persona](/handbook/product/personas/_index.md#cameron-compliance-manager).
 
 ## Operating Model
 
@@ -48,6 +48,7 @@ We use agile program management and project management best practices to organiz
 ### Core Processes
 
 The single source of truth for all of in-progress work is the Security Compliance [team top-level epic](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics/289), which has detailed status updates, along with the [team epic board](https://gitlab.com/groups/gitlab-com/-/epic_boards/1063538?label_name[]=seccomp-roadmap) which we use to visualize workflow status and compare to our [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing). All work that is directly associated with our roadmap should take place via these and issues should be opened in the [Security Compliance Team Issue Tracker project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). This is important for two reasons: It allows us to work efficiently by centralizing and organizing our work in a single place using a robust labeling scheme and it allows us to report on various operational metrics (performance indicators).
+Please refer to [epic hierarchy](#epic-hiearchy) below for more details on how we leverage epics. 
 
 Much of our work related to the [FedRAMP Authorization Program](/handbook/security/security-assurance/security-compliance/fedramp-compliance/) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
 
@@ -58,10 +59,6 @@ Much of our work related to the [FedRAMP Authorization Program](/handbook/securi
   - The `#sec-assurance` slack channel is the best place for questions relating to our team
 - Tag us in GitLab
   - `@gitlab-com/gl-security/security-assurance/security-compliance`
-
-### Communication Channels
-
-All team members are encouraged to regularly start Slack discussions in `# sec-assurance` or tagging our team in GitLab `@gitlab-com/gl-security/security-assurance/security-compliance`.
 
 ## Success Metrics
 
@@ -94,37 +91,6 @@ GCF v4
 This charter will be reviewed and updated quarterly to ensure alignment with: [List key alignment points and criteria for updates]
 
 Next scheduled review: [2025-07-31]
-
-### Scheduled meetings
-
-We try to avoid meetings when possible and prefer to work async. However, if we don't make progress async we should not hesitate to schedule a meeting. Our only recurring, mandatory meetings are the monthly department meeting, weekly team meeting, and 1:1s. However, don't wait for our team meeting or 1:1s to start a discussion; instead start a Slack thread and/or an issue and let's use these meetings to finish the discussion and make final decisions.
-
-We have a weekly call with all of Security Compliance, which includes time for a breakout discussion specific for Dedicated Markets. In addition to that, we also have recurring calls necessary for our FedRAMP program which are necessary for contributing to the working group, and logging meeting minutes (external audit artifacts) associated with the configuration control board and compliance sync.
-
-Our weekly team meeting follows this agenda:
-
-- Personal Updates / weekend highlights / looking ahead  (5 mins)
-- Team Stand-Up (15 mins)
-  - Progress Updates: Each team member shares key updates focusing on:
-    - Major accomplishments since the last meeting / celebrations and wins
-    - Blockers or dependencies that require team support
-  - Limit updates to 1-2 minutes per person. Use the epic/issue boards for details outside this meeting.
-- Focus Topic: Priority Epic/Issue Discussion, Problem Solving, Brainstorming (20 mins)
-  - Deep Dive into Key Epics: Choose one or two epics/issues where the team’s input or collaboration is crucial for progress.
-  - Examples: Major compliance audit preparation, urgent security remediation efforts, etc.
-  - Discuss blockers, decisions, or resource needs.
-- Team Dynamics & Collaboration (10 mins)
-  - What went well / What can be improved?
-    - How the team can improve collaboration or efficiency.
-    - Feedback on communication practices (e.g., storytelling, visibility, impact)
-    - Identify any friction points or areas for support.
-  - Action: Agree on one improvement or experiment to try until the next meeting (e.g., better retrospective process, additional support, or skill-sharing).
-- Miscellaneous Topics / Open Floor (5 mins)
-  - Address any other topics that didn’t fit into the above sections.
-  - Team members can raise quick, time-sensitive issues, or suggestions for future discussion.
-- Wrap-Up & Action Items (5 mins)
-  - Summarize key takeaways, decisions, and next steps.
-  - Assign action items, if any, and set timelines.
 
 #### Epic hierarchy
 
@@ -255,7 +221,7 @@ The easiest way to ensure all labels are applied to issues is to use issue templ
 **In addition to the above, roadmap epics (direct child epics on the top-level team epic) should have:**
 
 1. `seccomp-roadmap` which is used by the team epic board
-1. Fiscal year and quarter(s) (e.g. `FY25-Q4` (and `FY26-Q1` if it spans multiple quarters))
+1. Fiscal year and quarter(s) (e.g. `FY26-Q1` (and `FY26-Q2` if it spans multiple quarters))
 
 #### Workflow Labels
 
@@ -286,14 +252,6 @@ Workflow steps can be skipped. For example, if an issue is well-defined when it 
 | seccomp-function::projects     | Work related to specific projects or initiatives. |
 | seccomp-function::miscellaneous| Tasks that do not fall under a specific function. |
 | seccomp-function::team mgmt    | Activities related to managing and supporting the team. |
-
-## Contact the Team
-
-- Slack
-  - Feel free to tag `@sec-compliance-team` to reach the entire Security Compliance team
-  - The `#sec-assurance` slack channel is the best place for questions relating to our team (please add the above tag)
-- Tag us in GitLab
-  - `@gitlab-com/gl-security/security-assurance/security-compliance`
 
 ## References
 
