@@ -38,6 +38,8 @@ This connection will allow for Sales to book meetings directly within Salesforce
 
 ### Support
 
+To request a Jifflenow instance for your meeting/booth demos, please [complete this form](https://form.asana.com/?k=ZW0w5_ppBQLh2gCyZEOFcg&d=306855239930259). This will create a task in Asana.
+
 Reach out in #proj_jifflenow-implementation for more information.
 
 For event specfic help, go to:
