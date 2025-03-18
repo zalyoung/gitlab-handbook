@@ -110,7 +110,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - A minimum of 2 years' experience working with Security Governance and technical writing programs
-- Demonstrated experience with at least two security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+- Demonstrated experience with  common industry security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
 - Working understanding of security and governance with cloud-native technology stacks
 
 ##### Security Risk
@@ -150,7 +150,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - At least 2 years of experience conducting customer assurance activities
-- Demonstrated experience with at least two security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+- Demonstrated experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
 - Working understanding of how security works with cloud-native technology stacks
 
 ### Senior Security Assurance Engineer
@@ -241,7 +241,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - A minimum of 5 years' experience defining and shaping Security Governance and technical writing programs
-- Demonstrated experience with at least four security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+- Demonstrated experience with common industry security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
 - Detailed understanding of security and governance with cloud-native technology stacks
 
 ##### Security Risk
@@ -289,8 +289,8 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - Ability to use GitLab
 - At least 5 years of experience conducting customer assurance activities
-- Demonstrated experience with at least four security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
-- Demonstrated industry security experience, particularly in DevSecOps, Application Security and/or Cloud-Native Security
+- Demonstrated experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+- Demonstrated industry security experience.
 
 ### Staff Security Assurance Engineer
 
@@ -383,7 +383,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - A minimum of 10 years' experience defining and shaping Security Governance and technical writing programs
-- Demonstrated experience with at least four security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+- Demonstrated experience with common industry security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
 - Detailed understanding of security and governance with cloud-native technology stacks
 
 ##### Security Risk
@@ -427,8 +427,8 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - At least 10 years of experience conducting customer assurance activities
-- Proficient experience with at least six security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
-- Demonstrated industry security experience, particularly in DevSecOps, Application Security and/or Cloud-Native Security
+- Proficient experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+- Demonstrated industry security experience.
 
 ### Staff Security Assurance Engineer
 
@@ -496,22 +496,22 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The responsibilities of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-The responsibilities of a Senior Security Governance Engineer, plus;
-Propose improvements to the GitLab Control Framework (GCF) to ensure controls align with security strategy, support business objectives, and are consistent with applicable laws and regulations
-Publish and maintain handbook pages, policies, standards, procedures and runbooks related to Security and support the maintenance of the Security Division’s handbook space.
-Lead Security Assurance technology administration oversight to include continuous quality reviews and training
-Maintain security program controlled documents and propose improvements to the program and standard development of future controlled documents
-Develop security collateral and provide feedback and guidance to Governance and Field Security Engineers
-Implement new Security Governance metrics and drive initiatives to automate reporting of existing metrics
-Mature security training and awareness programs and drive the improvement of their efficacy
+- Proactively identify and propose improvements to the GitLab Control Framework (GCF) to ensure controls align with security strategy, support business objectives, and are consistent with applicable laws and regulations.
+- Publish and maintain handbook pages, policies, standards, procedures and runbooks related to Security and support the maintenance of the Security Division’s handbook space.
+- Lead Security Assurance technology administration oversight to include continuous quality reviews and training
+- Maintain security program controlled documents and propose improvements to the program and standard development of future controlled documents
+- Develop security collateral and provide feedback and guidance to Governance and Field Security Engineers
+- Design and implement dashboards for the Security Governance metrics program, and identify gaps in existing data sets.
+- Operate and mature security training, awareness, and Phishing programs and drive the improvement of their efficacy.
 
 ###### Requirements
 
 - The requirements of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-A minimum of 10 years’ experience defining and shaping Security Governance and technical writing programs
-Demonstrated experience with at least four security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
-Detailed understanding of security and governance with cloud-native technology stacks
+- A minimum of 12 years’ experience defining and shaping Security Governance and technical writing programs.
+- Demonstrated experience with industry common security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+- Detailed understanding of security and governance with cloud-native technology stacks.
+- Experience leading a security awareness and phishing program.
 
 ##### Security Risk
 
@@ -545,9 +545,11 @@ Successfully execute on quarterly KRs asscoiated with OKRs
 
 - The requirements of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
-At least 10 years of experience conducting customer assurance activities
-Proficient experience with at least six security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
-Demonstrated industry security experience, particularly in DevSecOps, Application Security and/or Cloud-Native Security
+- At least 12 years of experience conducting customer assurance activities
+- Proficient experience with common industry security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+- Demonstrated industry security experience.
+- Experience conducting contract reviews for security focused language.
+- Experienced engaging with customers on calls to discuss contracts, concerns, and answer questions during the sales cycle.
 
 ### Manager, Security Assurance
 
