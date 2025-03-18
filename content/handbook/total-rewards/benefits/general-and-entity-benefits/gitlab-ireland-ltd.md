@@ -94,7 +94,6 @@ You will be able to review the investment strategy once enrolled through the Fun
 
 Please see the [Leaver Benefit Summary](https://drive.google.com/file/d/1GJpVSKGanT6xNg9wfKAd20N2trVjCGL5/view?usp=sharing) for more details on how the pension plan is treated and your options when you leave the plan.  
 
-
 ## Death in Service
 
 All full-time GitLab team members in Ireland are eligible for death in service at 4x base annual salary. Team members are automatically enrolled in this benefit. This benefit is administered through Aviva. Team members may be contacted to complete an additional questionnaire if their covered amount is over the scheme limits, with potential medical underwriting required.  More information can be found on the [Retirement and Death Benefit Scheme Rules document](https://drive.google.com/file/d/1T1HjLXj2f3FmMiX3D4HVhpYF_k8zwvyr/view?usp=sharing).
