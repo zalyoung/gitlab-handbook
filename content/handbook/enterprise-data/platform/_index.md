@@ -504,20 +504,20 @@ Here are the proper steps for provisioning a new user and user role:
   * Send username and password credentials to user with [One Time Secret](https://onetimesecret.com/) or via Slack
 * Document in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
    Add the user and user role you created
-  - Assign the user role to new user
-  - Assign any additional roles to user
-- Ensure the user is assigned the application in Okta
-- Ensure the user is assigned to the `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
+  * Assign the user role to new user
+  * Assign any additional roles to user
+* Ensure the user is assigned the application in Okta
+* Ensure the user is assigned to the `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
 
 Here are the proper steps for deprovisioning existing user:
 
-- Snowflake deprovision should be done via an offboarding issue or access request issue.
-- Make sure we have an issue in the GitLab Data Team project linking the original source request with the `Deprovisioning` label applied.
-- Login to Snowflake and switch to `securityadmin` role
-  - All roles should be under `securityadmin` ownership.
-- Copy the [`user_deprovision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_deprovision.sql) script and replace the USER_NAME. The reason for not removing and leaving the user in snowflake and setting disabled = TRUE is to have a record of when the user lost access.
-- Remove the user from `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
-- Remove the user records in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
+* Snowflake deprovision should be done via an offboarding issue or access request issue.
+* Make sure we have an issue in the GitLab Data Team project linking the original source request with the `Deprovisioning` label applied.
+* Login to Snowflake and switch to `securityadmin` role
+  * All roles should be under `securityadmin` ownership.
+* Copy the [`user_deprovision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_deprovision.sql) script and replace the USER_NAME. The reason for not removing and leaving the user in snowflake and setting disabled = TRUE is to have a record of when the user lost access.
+* Remove the user from `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
+* Remove the user records in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
 
 For more information, watch this [recorded pairing session](https://youtu.be/-vpH0aSeO9c) (must be viewed as GitLab Unfiltered).
 
@@ -601,13 +601,13 @@ ROLES_TEMPLATE: {"{{username}}": {"member_of": ["snowflake_analyst"],"warehouses
 
 Currently, these are the available template-able values that will be rendered:
 
-- `{{ username }}`
-- `{{ prod_db }}`
-- `{{ prep_db }}`
-- `{{ prod_schemas }}`
-- `{{ prep_schemas }}`
-- `{{ prod_tables }}`
-- `{{ prep_tables }}`
+* `{{ username }}`
+* `{{ prod_db }}`
+* `{{ prep_db }}`
+* `{{ prod_schemas }}`
+* `{{ prep_schemas }}`
+* `{{ prod_tables }}`
+* `{{ prep_tables }}`
 
 #### Common Custom Templates
 
@@ -618,8 +618,8 @@ This section is meant to provide custom templates (non-default values) that repr
 
 ##### Databases
 
-- Default: None, no databases are added
-- Common: CI job argument to create a personal prep/prod database for each user:
+* Default: None, no databases are added
+* Common: CI job argument to create a personal prep/prod database for each user:
 
     ```sh
     DATABASES_TEMPLATE: [{"{{ prod_database }}": {"shared": false}}, {"{{ prep_database }}": {"shared": false}}]
@@ -627,13 +627,13 @@ This section is meant to provide custom templates (non-default values) that repr
 
 ##### Roles
 
-- Default:
+* Default:
 
     ```sh
     ROLES_TEMPLATE: {"{{ username }}": {"member_of": ["snowflake_analyst"], "warehouses": ["dev_xs"]}}
     ```
 
-- Common- CI job argument to create a role for a data engineer:
+* Common- CI job argument to create a role for a data engineer:
 
     ```sh
     ROLES_TEMPLATE: {"{{ username }}": {"member_of": ["engineer","restricted_safe"],"warehouses": ["dev_xs","dev_m","loading","reporting"],"owns": {"databases": ["{{ prep_database }}","{{ prod_database }}"],"schemas": ["{{ prep_schemas }}","{{ prod_schemas }}"],"tables": ["{{ prep_tables }}","{{ prod_tables }}"]},"privileges": {"databases": {"read": ["{{ prep_database }}","{{ prod_database }}"],"write": ["{{ prep_database }}","{{ prod_database }}"]},"schemas": {"read": ["{{ prep_schemas }}","{{ prod_schema }}"],"write": ["{{ prep_schemas }}","{{ prod_schema }}"]},"tables": {"read": ["{{ prep_tables }}","{{ prod_tables }}"],"write": ["{{ prep_tables }}","{{ prod_tables }}"]}}}}
@@ -641,13 +641,13 @@ This section is meant to provide custom templates (non-default values) that repr
 
 ##### Users
 
-- Default:
+* Default:
 
     ```sh
     USERS_TEMPLATE: {"{{ username }}": {"can_login": true, "member_of": ["{{ username }}"]}}
     ```
 
-- Common: N/A. There are no other templates that we currently use for users
+* Common: N/A. There are no other templates that we currently use for users
 
 </details>
 
@@ -747,9 +747,9 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 
 If you're running into query time limits please check your query for optimisation. A bad performing query in development will result in a bad performing query in production, having impact on a daily basis. Please **always** use the right (size) warehouse. Ground rules of using/selecting a warehouse:
 
-- Warehouses are set as t-shirt sizes. Larger warehouses are more costly for GitLab
-- Consider using a running warehouse
-  - If you resume a paused warehouse, there is a initial start cost
+* Warehouses are set as t-shirt sizes. Larger warehouses are more costly for GitLab
+* Consider using a running warehouse
+  * If you resume a paused warehouse, there is a initial start cost
   * Every warehouse suspends after a set period, but when idle (time between query result and the suspend time), we still consume snowflake credits
   * In general we don't spend more money if we run concurrent queries.
 
