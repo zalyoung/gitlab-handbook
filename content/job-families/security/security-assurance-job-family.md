@@ -469,7 +469,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ###### Requirements
 
-- The requirements of a Senior Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Security Assurance Automation Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
 - 12 years previous experience on a Security Operations, Software Development, Automation team, or a combination of experience and relevant education.
 - Excellent written and verbal communication skills.
@@ -496,10 +496,22 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The responsibilities of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
+The responsibilities of a Senior Security Governance Engineer, plus;
+Propose improvements to the GitLab Control Framework (GCF) to ensure controls align with security strategy, support business objectives, and are consistent with applicable laws and regulations
+Publish and maintain handbook pages, policies, standards, procedures and runbooks related to Security and support the maintenance of the Security Division’s handbook space.
+Lead Security Assurance technology administration oversight to include continuous quality reviews and training
+Maintain security program controlled documents and propose improvements to the program and standard development of future controlled documents
+Develop security collateral and provide feedback and guidance to Governance and Field Security Engineers
+Implement new Security Governance metrics and drive initiatives to automate reporting of existing metrics
+Mature security training and awareness programs and drive the improvement of their efficacy
+
 ###### Requirements
 
-- The requirements of a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Security Governance Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
+A minimum of 10 years’ experience defining and shaping Security Governance and technical writing programs
+Demonstrated experience with at least four security control frameworks (e.g. SOC 2, ISO, NIST, COSO, COBIT, etc.)
+Detailed understanding of security and governance with cloud-native technology stacks
 
 ##### Security Risk
 
@@ -517,9 +529,25 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - The responsibilities of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
 
+The responsibilities of a Senior Field Security Engineer, plus;
+Maintain proficient knowledge of GitLab’s product, roadmap, environment, systems and architecture and help shape strategic decisions focused on meeting customer security demands
+Mentor other Field Security Engineers and improve knowledge, quality and quantity of the team’s output
+Participate in the development and continuous improvement of field security metrics
+Design and implement major iterations of Field Security programs in alignment with industry trends, predictions and customer demands
+Participate in Field Security roadmap development based on customer needs
+Build the GitLab Security brand by presenting a minimum of 6 external facing engagements per annum such as Commit, conferences, guest speaking engagements, blog posts, whitepapers
+Create dynamic open-source Field Security programs that deliver value to the GitLab community
+Design, develop, and deploy scripts to automate administrative and process tasks related to Field Security
+Design, develop, and deploy an automated metric reporting for all Field Security programs
+Successfully execute on quarterly KRs asscoiated with OKRs
+
 ###### Requirements
 
-- The requirements of a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+- The requirements of a Staff Field Security Engineer and a [Principle Security Engineer](/job-families/security/security-engineer/#principal-security-engineer), plus;
+
+At least 10 years of experience conducting customer assurance activities
+Proficient experience with at least six security control frameworks such as: SOC 2, ISO, NIST, COSO, COBIT
+Demonstrated industry security experience, particularly in DevSecOps, Application Security and/or Cloud-Native Security
 
 ### Manager, Security Assurance
 
