@@ -20,7 +20,7 @@ When you are initially reporting a risk, you may have ideas about possible solut
 
 ## What a Well-Articulated Risk is NOT
 
-1. **A Solution Statement**: "We need to implement X technology" or "build Y feature" without explaining the underlying risk. 
+1. **A Solution Statement**: "We need to implement X technology" or "build Y feature" without explaining the underlying risk.
 1. **A Feature Request**: Describing desired functionality without connecting it to an actual security exposure.
 1. **An Individual Vulnerability**: Specific CVEs or component-based vulnerabilities belonging elsewhere.
 1. **A Vague or Generalized Problem**: "Our security posture is weak" without specific details.
