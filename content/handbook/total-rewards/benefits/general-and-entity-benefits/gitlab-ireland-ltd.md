@@ -82,7 +82,6 @@ Please see the [Pension Benefits FAQ](https://drive.google.com/file/d/10VEGE29Xq
 
 1. Reach out to employeebenefits@nfpireland.ie with your updated contribution amount via your GitLab Email Address
 
-
 #### Additional Enrollment Details, Questions and Assistance
 
 Team Membes that enroll after the 7th of the month will be enrolled the following month. After each pay cycle, Payroll will send Aviva (ccing NFP Ireland and Total Rewards) a spreadsheet with all contributions for Aviva to reconcile.
