@@ -133,4 +133,4 @@ A tool for managers to view their team's learning activity, assign content to te
 
 ### Skills
 
-Skills and skills development are a fundamental part of LevelUp. 
+In Cornerstone, skills are the metadata that describe what you can do and know - like professional DNA that the system tracks and analyzes. They help connect you with the right learning content, projects, and opportunities to grow your capabilities, in keeping with your career and development goals.
