@@ -91,51 +91,6 @@ graph BT;
   id5(Better Insights)-.->id3;
 ```
 
-## Our Data Platform Vision
-
-These ambitions are set to be a guiding vision for GitLab's data platform.
-
-### Makes it Easier to Contribute
-
-Contributing to GitLab's Data Platform is easy and using the platform is intuitive
-
-* Documentation is complete and relevant for users and contributors
-* All data transformations are implemented in dbt
-* CI/CD is seamless, intuitive, automated for contributors and reviewers
-* Data state is derivative from sources and transformations
-* Data pipelines are idempotent
-
-### Is Reliable
-
-The data plaform along with the data it delivers is consitent in availability and accuracy
-
-* All breaking changes are testable in Dev and/or Staging Environments
-* Automated tests are implemented at every stage of the data delivery process
-* Every component of the platform can and should be defined in code and version controlled
-
-### Is Secure
-
-The Data Platform doesn't put people at risk
-
-* Data is only accisible to those authorized by documented approvals
-* The GitLab data team will stick with the [Principle of Least Privilege](https://internal.gitlab.com/handbook/security/access-management-standard/#principle-of-least-privilege) regarding the authorization and authentication
-
-### Is Maintainable
-
-* The Data Platform component will be created with considering the good engineering practices for the [ease of maintainability](https://en.wikipedia.org/wiki/Maintainability). It means tracking of maintainability is intended to help reduce or reverse a system's tendency toward "code entropy" or degraded integrity
-
-### Benefits a Larger Community
-
-GitLab's Data Platform is relevant to a community larger than GitLab's and depends on a larger community of engineers.
-
-* Relevant Platform code is open sourced
-* Platform enhancements are contributed back into community projects
-* We prefer generalizable specifications and standards over idiosyncratic custom development
-
-### Data Platform FY25 initiatives
-
-The following sections describe the Data Platform FY25 initiatives.
-
 ## Data Value Pyramid
 
 We want to help all GitLab teams move up (or left-to-right in the diagram below) the [Data Value Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) and turn basic metrics and counts into wisdom that helps them create better products for our customers, run our business more efficiently, and add new capabilities to our business model. Relative to the Data Value Pyramid, we are currently working primarily within the Data and Information stages.
