@@ -70,13 +70,31 @@ GitLab will match up to 5% of annual base salary of the team member's contributi
 
 ### Enrollment
 
-To enroll in the pension plan or to make changes to an existing contribution, please email `total-rewards@gitlab.com` with the desired percent contribution. Total Rewards will add NFP Ireland 'employeebenefits@nfpireland.ie` to the email thread. NFP Ireland will gather all relevant information from the team member to add to the pension plan. On the 7th of every month, NFP Ireland will send Payroll and Total Rewards a summary of any changes to the pension plan which Total Rewards will update in the appropriate payroll changes spreadsheet. Total Rewards will also file the original election email in Workday under the "Benefits and ISO" folder for an audit trail.
+#### How to Enroll
 
-After each pay cycle, Payroll will send Aviva (ccing NFP Ireland and Total Rewards) a spreadsheet with all contributions for Aviva to reconcile.
+1. *Create a copy or download* this [Aviva Pension Form](https://docs.google.com/spreadsheets/d/1hM7jZbBVFRRNsSqm02QBWYU4d4WLJ6pw/edit?gid=917049255#gid=917049255) (do not enter your details directly on this form)
+2. *Complete the Form* with your details
+3. *Email the completed form* to employeebenefits@nfpireland.ie from your GitLab email address, and they will help enroll you into the plan
 
-If you have any questions about a pension plan, how pension benefits work in Ireland, or anything else, please reach out to NFP Ireland Financial who will be able to assist you directly. Email: `employeebenefits@nfpireland.ie` Phone: `+353 1 210 0210`
+Please see the [Pension Benefits FAQ](https://drive.google.com/file/d/10VEGE29XqHfCpM-axOXrW2vpmBgL3umn/view?usp=sharing) for new joiners
+
+#### How to make changes to Existing Contributions
+
+1. Reach out to employeebenefits@nfpireland.ie with your updated contribution amount via your GitLab Email Address
+
+
+#### Additional Enrollment Details, Questions and Assistance
+
+Team Membes that enroll after the 7th of the month will be enrolled the following month. After each pay cycle, Payroll will send Aviva (ccing NFP Ireland and Total Rewards) a spreadsheet with all contributions for Aviva to reconcile.
+
+Team Members can also set up a session with NFP Ireland to walk through how pension benefit work or ask any questions about the pension plan. Please reach out to NFP Ireland Financial who will be able to assist you directly. Email: `employeebenefits@nfpireland.ie` Phone: `+353 1 210 0210`
 
 You will be able to review the investment strategy once enrolled through the Fund centre on the Aviva website.
+
+### Pension Plan Leavers (Leaving Gitlab)
+
+Please see the [Leaver Benefit Summary](https://drive.google.com/file/d/1GJpVSKGanT6xNg9wfKAd20N2trVjCGL5/view?usp=sharing) for more details on how the pension plan is treated and your options when you leave the plan.  
+
 
 ## Death in Service
 
