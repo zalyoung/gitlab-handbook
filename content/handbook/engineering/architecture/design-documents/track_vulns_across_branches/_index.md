@@ -36,7 +36,7 @@ Under this model, an application which an organisation may continue to provide b
 
 An idea that has been broached on numerous occasions is to increase the bonding between tracked vulnerabilities and the repository itself to both reduce the amount of data ingested and tracked while increasing the flexibility of the implementation.
 
-Essentially, while the proposed implementation uses the word "branches", some users have mentioned the desire to track vulnerabilities present as specific branches. To get the best of both worlds and potentially more, the ideal would be to track the actual commit SHA values that a vulnerability is present in. With this it becomes possible for us to search, filter and compare vulnerability information across the history of the respository. This would allow comparisons and tracking of branches, tags, or even commits themselves theoretically. 
+Essentially, while the proposed implementation uses the word "branches", some users have mentioned the desire to track vulnerabilities present as specific tags. To get the best of both worlds and potentially more, the ideal would be to track the actual commit SHA values that a vulnerability is present in. With this it becomes possible for us to search, filter and compare vulnerability information across the history of the respository. This would allow comparisons and tracking of branches, tags, or even commits themselves theoretically. 
 
 Benefits: 
 
