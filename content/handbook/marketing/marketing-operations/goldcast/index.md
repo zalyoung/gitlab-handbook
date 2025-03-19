@@ -289,4 +289,4 @@ under construction
 
 ## Link to the original implementation training with Goldcast
 
-All GitLab employees can find all 4 implementation training videos performed by Goldcast staff in [this folder](https://drive.google.com/drive/folders/0AHjp9Psp-iDuUk9PVA) 
+All GitLab team members can find all 4 implementation training videos performed by Goldcast staff in [this folder](https://drive.google.com/drive/folders/0AHjp9Psp-iDuUk9PVA) 
