@@ -198,7 +198,6 @@ You can tag the Data Team in GitLab using:
 | [Rstudio Guide](/handbook/enterprise-data/platform/rstudio/) | [Trusted Data](/handbook/enterprise-data/platform/#tdf) | [Data Science Team](/handbook/enterprise-data/organization/data-science) |
 | [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) | | [Data Management](/handbook/enterprise-data/data-management/) |
 | [Meltano Guide](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/) | | |
-| [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/) | | |
 | [Data Onboarding](/handbook/enterprise-data/programs/#data-onboarding) | | |
 | [Learning Library](/handbook/enterprise-data/learning-library/) | | |
 | [Tableau Guide](/handbook/enterprise-data/platform/tableau/) | | |
