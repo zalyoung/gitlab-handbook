@@ -14,13 +14,9 @@ toc_hide: true
 
 ## Summary
 
-Performance testing is a critical component of our software quality assurance process. We've established excellent foundations with tools like GitLab Performance Tool (GPT) and our Reference Architecture environments, which have successfully validated our performance capabilities across different scaling tiers.
+This blueprint proposes a Performance Results Datastore to build on our successful performance tools (GPT, Reference Architecture environments) and take them to the next level. By centralizing performance metrics, we'll enable data-driven decisions, dynamic baselines, and integrate performance awareness throughout the development lifecycle.
 
-This blueprint proposes the creation of a Performance Results Datastore that builds upon these successful elements and takes our capabilities to the next level. By creating a central repository for performance testing metrics, we can amplify the value of our existing performance testing work, unlock new analytical capabilities, and further integrate performance awareness throughout our development lifecycle.
-
-The Performance Results Datastore will complement our shift-left performance testing approach by enabling sophisticated data-driven decisions and providing comprehensive visibility into performance trends across environments, test scenarios, and GitLab versions. This evolution represents the next phase in our performance engineering maturity, turning the valuable data we already collect into actionable insights available to everyone.
-
-## Overview
+## Architecture Overview
 
 ```mermaid
 flowchart LR
@@ -64,14 +60,6 @@ flowchart LR
     GRAF --> DEV
     GRAF --> PERF
 
-    %% Add use cases at the bottom - using four separate nodes with no visible connections
-    UC["Use Cases:"]
-    UC1["MR Pipeline Performance Validation"]
-    UC2["Trend Analysis"]
-    UC3["Dynamic Baselines"]
-    UC4["Regression Detection"]
-    UC --- UC1 --- UC2 --- UC3 --- UC4
-
     %% Style the different components
     classDef sources fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,rx:10px,ry:10px
     classDef store fill:#fff8e1,stroke:#ffa000,stroke-width:2px,rx:10px,ry:10px
@@ -86,150 +74,15 @@ flowchart LR
     class STORE store
     class VISUAL visual
     class CONS consumers
-    class UC ucLabel
-    class UC1,UC2,UC3,UC4 ucItem
     class RA,MR,UX,SS,FE,CI,GRAF,DEV,PERF nodes
 ```
 
-```mermaid
-flowchart LR
-    %% Define nodes with meaningful IDs
-    subgraph SRC["Performance Data Sources"]
-        direction TB
-        RA["Reference Architecture Runs"]
-        MR["MR Pipeline Tests"]
-        UX["UX Performance (GBPT)"]
-    end
+### Key Use Cases
 
-    subgraph STORE["Performance Datastore"]
-        direction TB
-        SS["Server-side Metrics"]
-        FE["Frontend/UX Metrics"]
-    end
-
-    subgraph VISUAL["Analysis & Visualization"]
-        direction TB
-        CI["CI/CD Pipeline Feedback"]
-        GRAF["Grafana Dashboards"]
-    end
-
-    subgraph CONS["Consumers"]
-        direction TB
-        DEV["Engineering Teams"]
-        PERF["Performance Stakeholders"]
-    end
-
-    %% Define the flow connections
-    RA --> SS
-    MR --> SS
-    UX --> FE
-
-    SS --> CI
-    SS --> GRAF
-    FE --> CI
-    FE --> GRAF
-
-    CI --> DEV
-    GRAF --> DEV
-    GRAF --> PERF
-
-    %% Style the different components
-    classDef sources fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
-    classDef store fill:#fff8e1,stroke:#ffa000,stroke-width:2px
-    classDef visual fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    classDef consumers fill:#ffebee,stroke:#c62828,stroke-width:2px
-
-    class SRC sources
-    class STORE store
-    class VISUAL visual
-    class CONS consumers
-```
-
-```mermaid
-flowchart LR
-    subgraph UC["Use Cases"]
-        MR["MR Pipeline<br>Performance Validation"]
-        TA["Trend<br>Analysis"]
-        DB["Dynamic<br>Baselines"]
-        RD["Regression<br>Detection"]
-    end
-
-    %% Style the use cases
-    classDef useCases fill:#e0f7fa,stroke:#00838f,stroke-width:2px
-    class UC useCases
-
-    %% Style the individual use case nodes
-    classDef caseNode fill:white,stroke:#00838f,stroke-width:1px
-    class MR,TA,DB,RD caseNode
-```
-
-```mermaid
-flowchart LR
-    subgraph UC["Key Use Cases"]
-        direction TB
-        MR["MR Pipeline Performance Validation"]
-        TA["Trend Analysis"]
-        DB["Dynamic Baselines"]
-        RD["Regression Detection"]
-    end
-
-    classDef ucBox fill:#f8f9fa,stroke:#555,stroke-width:1px
-    class UC ucBox
-
-    classDef ucItem fill:white,stroke:#999,stroke-width:1px,stroke-dasharray: 3 3
-    class MR,TA,DB,RD ucItem
-```
-
-```mermaid
-flowchart LR
-    %% Main components
-    SRC["Performance Data Sources"]
-    STORE["Performance Datastore"]
-    VISUAL["Analysis & Visualization"]
-    CONS["Consumers"]
-
-    %% Use cases positioned at bottom
-    UC["Use Cases:"]
-    MR["MR Pipeline\nValidation"]
-    TA["Trend Analysis"]
-    DB["Dynamic Baselines"]
-    RD["Regression Detection"]
-
-    %% Connect main components
-    SRC --> STORE --> VISUAL --> CONS
-
-    %% Position use cases in a row
-    UC --- MR --- TA --- DB --- RD
-
-    %% Style main components
-    classDef main fill:#f5f5f5,stroke:#333,stroke-width:1px
-    class SRC,STORE,VISUAL,CONS main
-
-    %% Style use cases
-    classDef ucTitle font-style:italic,fill:none,stroke:none
-    class UC ucTitle
-
-    classDef ucCase fill:white,stroke:#777,stroke-width:1px,stroke-dasharray: 2 2
-    class MR,TA,DB,RD ucCase
-```
-
-## Motivation
-
-A centralized performance results datastore will enable powerful new capabilities for performance analysis and testing:
-
-1. **Dynamic Analysis in CI/CD Pipelines**: Enable automatic performance testing directly within MR pipelines, with immediate feedback on potential performance impacts. This accelerates development by providing developers with instant visibility into their changes' performance implications.
-
-2. **Self-Service Exploration and Pattern Identification**: Allow teams to independently explore performance data through intuitive interfaces, discovering patterns and trends without requiring specialized performance engineering expertise.
-
-3. **Proactive Performance Management**: Support the creation of dynamic baselines and automated regression detection to identify problematic changes before they reach production.
-
-4. **Contextual Performance Insights**: Correlate performance metrics with specific code changes, environment configurations, and user behaviors to provide richer analysis context.
-
-5. **Democratized Performance Data**: Make performance insights accessible to product managers, developers, and SREs alike, enabling data-driven decisions at all levels.
-
-6. **Comparative Analysis**: Facilitate easy comparison between environments, versions, and test scenarios to better understand the impact of architecture changes, code refactoring, and new features.
-
-This datastore will transform our approach to performance testing from periodic assessments to continuous insights, aligning with our broader shift-left initiative by making performance a more integral part of our development process.
+- MR Pipeline Performance Validation
+- Trend Analysis
+- Dynamic Baselines
+- Regression Detection
 
 ## Goals
 
@@ -269,21 +122,49 @@ The solution will be designed to:
 - Scale to accommodate growing volumes of performance data
 - Integrate seamlessly with existing CI/CD pipelines
 
-## Design and implementation details
+## Implementation Approach
 
-As we already have many of these pieces existing already, we will try to reuse what already exists before we re-create.
+We'll leverage existing infrastructure (InfluxDB and Grafana) to create a proof-of-concept that enables:
 
-There is already an existing InfluxDB instance and Grafana front end our first POC will be to create a bucket in that infrastructure, use Grafana to generate views into the data, and build a simple connector that enables a CI pipeline to query the data it needs out.
+- Storage of performance data from multiple sources
+- Visualization through Grafana dashboards
+- Programmatic access from CI/CD pipelines
 
-### Use case
+## Sample Workflows
 
-1. Performance run inside an MR
-   - The run generates it's results
-   - It queries the datastore for the latest results (and loads it's data back)
-   - It compares the results to determine if the results are within tolerances and determines Pass/Fail status
-2. User has questions about how performance has trended over time
-   - Queries the results in Grafana
-   - Compares the results to answer questions
+### As a developer, I want to know if my change affects performance
+
+```mermaid
+sequenceDiagram
+    participant DS as InfluxDB
+    participant MR as MR Pipeline
+    participant DEV as Developer
+
+    note over MR: Run performance test
+    MR->>DS: Query baseline results
+    DS->>MR: Return historical data
+    MR->>DS: Write results
+    note over MR: Determine Pass/Fail status
+    MR->>DEV: Report status
+```
+
+### As a Stakeholder, I want to be able to be able to investigate performance trends
+
+```mermaid
+sequenceDiagram
+    participant UX as UX Performance Run
+    participant RA as Reference Architecture Run
+    participant MR as MR Pipeline
+    participant DS as InfluxDB
+    participant GF as Grafana
+    participant S as Stakeholder
+
+    MR->>DS: Write results
+    RA->>DS: Write results
+    UX->>DS: Write results
+    DS->>GF: Results
+    GF->>S: Interpreted Results
+```
 
 ## Alternative Solutions
 
