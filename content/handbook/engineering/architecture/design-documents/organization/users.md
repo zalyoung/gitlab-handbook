@@ -1,7 +1,6 @@
 ---
 title: "Organization Users"
 owning-stage: "~devops::enablement"
-# TODO: The group attribute doesn't exist
 group: Tenant Scale
 toc_hide: true
 ---

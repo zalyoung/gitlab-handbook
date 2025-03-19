@@ -1,7 +1,7 @@
 ---
 stage: enablement
 group: Tenant Scale
-title: 'Organization: Settings'
+title: 'Organization Settings'
 toc_hide: true
 ---
 
