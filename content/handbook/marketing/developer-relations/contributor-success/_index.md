@@ -161,9 +161,11 @@ More details can be found at the [MRARR Developer Relations PI section](/handboo
 
 The team uses the [Contributor Success Kanban board](https://gitlab.com/groups/gitlab-org/-/boards/7745119?label_name[]=Contributor%20Success).
 Issues must:
-- Be created in the `gitlab-org`
+
+- Be created in the `gitlab-org` group
 - Have the `Contributor Success` label
-- Have at least 1 `workflow` label (see below).    
+- Have at least 1 `workflow` label (see below)    
+
 We use `priority` labels to designate focus areas per quarter.
 
 ### Workflow labels
