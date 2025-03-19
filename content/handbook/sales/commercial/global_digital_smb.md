@@ -143,7 +143,7 @@ You can now return to this report at any time to check;
 - Note: when assigned a case created by a GitLab stakeholder e.g the Support Team, it is crucial that the Advocate updates **Next Steps** as soon as the case has been actioned.
  This allows the stakeholder to view case updates, and negates the need for them to chatter the Case Owner requesting an update.  Any updates that *are* requested via chatter, should be answered by the Advocate/ Case Owner within one business day.
 - (If the Advocate is working on an Expansion Opportunity case, any Add On or Growth opp they uncover should be manually created, and linked to the case in question, via the Opportunity lookup field).
-- Once a Case is considered resolved, the Status should be set to one of the three Closed options, and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
+- Once a Case is considered closed, the Status should be set to one of the three Closed options, and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
 - Note:  Inbound customer requests must only be marked as closed once the customers needs have been addressed.
 - If applicable, the linked opportunity should also be closed.
 - At any time, an SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
@@ -166,6 +166,7 @@ The Required 10 acts a to do list which should be followed by all Advocates when
 Case: Status
 
 - Should be set to In Progress, (then Closed - Resolved/ Duplicate/ Unresponsive once worked).
+- "Waiting" statuses can be used to indicate a dependency on a business partner team.
 
 Case: Owner
 
