@@ -243,10 +243,10 @@ For each issue, team members will review the issues and provide:
 
 When refining issues, consider the following:
 
-- Keep the conversation on the original issues.
-- Update the issue description, implementation plan, and labels as more information is gathered.
-- For efficiency, engineers can also skip the refinement of some issues depending on the feedback that we already have.
-- Where the fix is clear and easy, engineers can assign the issue to themselves, give it a weight of 1 and push the fix.
+- Keep the conversation on the original issues or provide links to relevant discussions in the issue to preserve context
+- Update the issue description, implementation plan, and labels as more information is gathered
+- For efficiency, engineers can skip the refinement of already refined issues that are marked as completed
+- Where the fix is clear and easy, engineers can assign the issue to themselves, give it a weight of 1, push the fix, and close the issue
 
 #### Step 3: Finalizing Refinement
 
