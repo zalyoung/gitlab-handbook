@@ -475,7 +475,7 @@ GitLab customers were interviewed and related data was collected independently b
 
 ---
 
-<big>[Forrester: Software Composition Analysis - Challenger](/analysts/forrester-sca/)</big><br>
+<big>[Forrester: Software Composition Analysis - Challenger](https://about.gitlab.com/analysts/forrester-sca/)</big><br>
 *Software composition analysis tools evaluate applications to uncover vulnerabilities in 3rd party and open source components.*<br>
 **Use case** DevSecOps
 
@@ -483,7 +483,7 @@ GitLab customers were interviewed and related data was collected independently b
 
 #### 2018
 
-<big>[Forrester: Continuous Delivery and Release Automation - Contender](/analysts/forrester-cdra20/)</big><br>
+<big>[Forrester: Continuous Delivery and Release Automation - Contender](https://about.gitlab.com/analysts/forrester-cdra20/)</big><br>
 *Release automation tools enable faster, higher-quality, more automated software delivery through modeling applications, infrastructure, middleware, and their supporting installation processes and dependencies. "GitLab's release automation is ideal for cloud-native, Kubernetes-centric organizations."*<br>
 **Value Drivers:** Efficiency, Speed<br>
 **Use case** CD

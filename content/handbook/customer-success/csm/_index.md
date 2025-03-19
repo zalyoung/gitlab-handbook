@@ -180,7 +180,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 
 Landing Zones
 
-- [CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/CI/)
+- [CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/ci/)
 
  Customer Metrics
 
