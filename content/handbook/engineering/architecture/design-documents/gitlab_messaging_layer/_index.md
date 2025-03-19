@@ -264,6 +264,8 @@ nats-2.nats.default.svc.cluster.local
 
 ### Topology
 
+- For all deployment-types, NATS will be deployed __region-local only__ similar to Redis or Sidekiq and __not Geo-replicated__ like Postgres. While it is possible to [mesh NATS clusters together](https://docs.nats.io/running-a-nats-service/configuration/gateways) as a feature, this functionality is _out-of-scope_ for this iteration of the blueprint.
+
 - For `GitLab.com`, we intend to setup & run NATS clusters cloud-natively on Kubernetes with the assumption that the following potential overheads can be well-managed:
   - running stateful workloads within Kubernetes.
   - [performance overheads from routing traffic within Kubernetes services](https://docs.nats.io/running-a-nats-service/environment#virtualization-containerization).
@@ -435,10 +437,6 @@ NATS Pub/Sub stats: 96 msgs/sec ~ 96.81 MB/sec
  Sub stats: 48 msgs/sec ~ 48.41 MB/sec
 ```
 
-### Cost analysis
-
-- TODO: Gather data wrt. reference architectures
-
 ### Monitoring
 
 - Inbuilt monitoring exposed as Prometheus metrics, details [here](https://docs.nats.io/running-a-nats-service/nats_admin/monitoring).
@@ -450,6 +448,8 @@ NATS Pub/Sub stats: 96 msgs/sec ~ 96.81 MB/sec
 - All ingested data is persisted durably via NATS Jetstream. In the event of unrecoverable messages however, we can rely on an explicit [disaster recovery setup](https://docs.nats.io/running-a-nats-service/nats_admin/jetstream_admin/disaster_recovery) to recover data, which includes:
   - Automatic recovery in case of intact quorum nodes for replicated streams, or
   - Manual recovery from periodic stream backups.
+
+__Note__, in the specific case of Siphon, all data buffered within NATS and due to be exported to ClickHouse _also_ remains available in Postgres. In the scenario where Siphon fails to connect to NATS or there is data loss on NATS, Siphon can perform a full-resync to ensure data consistency across Postgres & ClickHouse again. For other use-cases where this is not possible, we'll have to depend on recovering lost data automatically or manually from backups as stated above.
 
 - We do not expect auth failures while we using centralized model with users/accounts setup within NATS beforehand but the introduction of an external auth callout service can add further failure domains to the system. We'll need to guarantee higher or equal SLOs on the auth-server as we intend for NATS as a service.
 
