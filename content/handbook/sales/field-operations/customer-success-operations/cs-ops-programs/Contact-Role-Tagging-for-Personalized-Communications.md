@@ -1,4 +1,6 @@
-# Customer Contact Role Tagging for Personalized Communications
+---
+title: "Customer Contact Role Tagging for Personalized Communications"
+---
 
 ## Why This Matters
 
@@ -34,9 +36,9 @@ Proper role tagging ensures our messages reach the right people at the right tim
 
 Our digital programs target specific personas. Use [this mapping](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing) to ensure contacts receive the most relevant communications.
 
-### Considerations:
+### Considerations
 
-- Other roles not managed by sales that receive digital engagement include SaaS owners, SaaS maintainers, and sold-to contacts. 
+- Other roles not managed by sales that receive digital engagement include SaaS owners, SaaS maintainers, and sold-to contacts.
 - Webinars and newsletter can vary which may impact the persona group.
 
 ## Best Practices for Role Tagging
@@ -65,7 +67,7 @@ Our digital programs target specific personas. Use [this mapping](https://docs.g
 
 ### Communication Frequency
 
-Our digital programs have different communication schedules to avoid overwhelming contacts. Please review the [FY26 - Digital Success Email Program Documentation](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing) for details on program timing and content. 
+Our digital programs have different communication schedules to avoid overwhelming contacts. Please review the [FY26 - Digital Success Email Program Documentation](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing) for details on program timing and content.
 
 ### Measuring Success
 
@@ -84,7 +86,6 @@ Check their LinkedIn profile or ask directly during your next interaction. When 
 
 #### How can I verify I've completed all necessary tagging?
 
-
 Utilize the Contact Management reporting in Gainsight to see any gaps in your assigned accounts.
 
 #### What if a contact has a role that doesn't fit the existing categories?
@@ -96,6 +97,7 @@ Use the closest match from the available roles. If truly unique, consult with yo
 Quarterly reviews are recommended, with a full data cleanup annually.
 
 ## Related Resources
+
 - [Customer Persona Definitions](/handbook/product/personas/)
 - [Digital Program Content Calendar](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing)
 - [Gainsight Training Resources](https://about.gitlab.com/handbook/customer-success/csm/gainsight/)
