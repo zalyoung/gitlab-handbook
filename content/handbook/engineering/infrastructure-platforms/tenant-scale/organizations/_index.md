@@ -237,8 +237,9 @@ selected for backlog refinement. [Current backlog refinement issues](https://git
 
 For each issue, team members will review the issues and provide:
 
-- An estimated weight.
-- A proposal of how to break down the issue into different issues or merge requests.
+- An estimated weight
+- A breakdown of issues, if needed
+- An implementation guide
 
 When refining issues, consider the following:
 
