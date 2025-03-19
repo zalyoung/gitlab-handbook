@@ -37,7 +37,7 @@ The SA Validated Tech Evaluation Start Date indicates the date the SA started en
 
 The SA Validated Tech Evaluation End Date is when the technical evaluation is deemed closed as a technical win, loss, or a stalled evaluation. This has no connection to whether or not the deal has closed with a win or loss, as there may be non-technical variables that impact the success of a deal after a technical evaluation.
 
-- **Enterprise:** Marks the date a technical evaluation concluded through a technical win, technical loss, or stalled evaluation
+- Marks the date a technical evaluation concluded through a technical win, technical loss, or stalled evaluation
 - Should NOT be used as a forecasted date
 - Should be accompanied by the **SA Validated Tech Evaluation Close Status** and **SA Validated Tech Evaluation Close Details** fields
 - Indicates the opportunity should move out of Stage 3 - Technical Evaluation
