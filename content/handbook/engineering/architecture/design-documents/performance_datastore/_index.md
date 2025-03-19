@@ -16,6 +16,45 @@ toc_hide: true
 
 This blueprint proposes a Performance Results Datastore to build on our successful performance tools (GPT, Reference Architecture environments) and take them to the next level. By centralizing performance metrics, we'll enable data-driven decisions, dynamic baselines, and integrate performance awareness throughout the development lifecycle.
 
+## Goals
+
+- Create a centralized repository for all performance test results
+- Enable programmatic access to performance data for analysis and visualization
+- Support comparative analysis between different test runs, environments, and GitLab versions
+- Provide a foundation for automated performance regression detection
+- Facilitate long-term trending and visualization of performance metrics
+- Integrate with existing CI/CD pipelines for automatic data collection
+- Support both high-level aggregated metrics and detailed raw performance data
+- Enable dynamic baseline creation based on historical data
+
+## Non-Goals
+
+- **Replacing existing performance testing tools**: We'll enhance and integrate with our successful tools like GPT rather than replacing them
+- **Duplicating our monitoring infrastructure**: We'll leverage our mature monitoring solutions rather than creating parallel systems
+- **Reinventing visualization**: We'll build on our investment in Grafana and other visualization tools instead of creating custom alternatives
+- **Competing with real-time monitoring**: We'll complement our existing real-time monitoring capabilities rather than replacing them
+- **Expanding beyond performance focus**: We'll maintain a dedicated focus on performance metrics to ensure depth and relevance of insights
+
+This initiative is about amplification and evolution of our performance capabilities, not replacement. We're building upon the solid foundation created by previous work to unlock new possibilities without discarding the valuable systems already in place.
+
+## Proposal
+
+We propose building a Performance Results Datastore to enable cross functional analysis and interpretation of the performance metrics. Key capabilities will include:
+
+- Support multiple types of performance tests
+- Store results with rich metadata (GitLab version, environment details, test parameters)
+- Provide flexible querying capabilities for various analysis needs
+- Scale to accommodate growing volumes of performance data
+- Integrate seamlessly with existing CI/CD pipelines
+
+## Implementation Approach
+
+We'll leverage existing infrastructure (InfluxDB and Grafana) to create a proof-of-concept that enables:
+
+- Storage of performance data from multiple sources
+- Visualization through Grafana dashboards
+- Programmatic access from CI/CD pipelines
+
 ## Architecture Overview
 
 ```mermaid
@@ -84,52 +123,6 @@ flowchart LR
 - Dynamic Baselines
 - Regression Detection
 
-## Goals
-
-- Create a centralized repository for all performance test results
-- Enable programmatic access to performance data for analysis and visualization
-- Support comparative analysis between different test runs, environments, and GitLab versions
-- Provide a foundation for automated performance regression detection
-- Facilitate long-term trending and visualization of performance metrics
-- Integrate with existing CI/CD pipelines for automatic data collection
-- Support both high-level aggregated metrics and detailed raw performance data
-- Enable dynamic baseline creation based on historical data
-
-## Non-Goals
-
-- **Replacing existing performance testing tools**: We'll enhance and integrate with our successful tools like GPT rather than replacing them
-- **Duplicating our monitoring infrastructure**: We'll leverage our mature monitoring solutions rather than creating parallel systems
-- **Reinventing visualization**: We'll build on our investment in Grafana and other visualization tools instead of creating custom alternatives
-- **Competing with real-time monitoring**: We'll complement our existing real-time monitoring capabilities rather than replacing them
-- **Expanding beyond performance focus**: We'll maintain a dedicated focus on performance metrics to ensure depth and relevance of insights
-
-This initiative is about amplification and evolution of our performance capabilities, not replacement. We're building upon the solid foundation created by previous work to unlock new possibilities without discarding the valuable systems already in place.
-
-## Proposal
-
-We propose building a Performance Results Datastore with the following core components:
-
-1. **Data Collection Layer**: APIs and integration points for various performance testing tools to submit results to the datastore
-2. **Storage Layer**: A time-series database optimized for performance metrics storage and retrieval
-3. **Analysis Layer**: Services for querying, analyzing, and comparing performance results
-4. **Visualization Layer**: Integration with existing visualization tools (Grafana) for creating dashboards
-
-The solution will be designed to:
-
-- Support multiple types of performance tests
-- Store results with rich metadata (GitLab version, environment details, test parameters)
-- Provide flexible querying capabilities for various analysis needs
-- Scale to accommodate growing volumes of performance data
-- Integrate seamlessly with existing CI/CD pipelines
-
-## Implementation Approach
-
-We'll leverage existing infrastructure (InfluxDB and Grafana) to create a proof-of-concept that enables:
-
-- Storage of performance data from multiple sources
-- Visualization through Grafana dashboards
-- Programmatic access from CI/CD pipelines
-
 ## Sample Workflows
 
 ### As a developer, I want to know if my change affects performance
@@ -163,7 +156,7 @@ sequenceDiagram
     RA->>DS: Write results
     UX->>DS: Write results
     DS->>GF: Results
-    GF->>S: Interpreted Results
+    GF->>S: Visualized Results
 ```
 
 ## Alternative Solutions
