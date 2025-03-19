@@ -174,7 +174,6 @@ In addition to issue boards, we also track progress on major initiatives with be
 The dashboards are part of the [Cells Progress Tracker](https://gitlab.com/gitlab-org/tenant-scale-group/cells-progress-tracker) project. 
 The team has also spun off [Epic Dashboards](https://gitlab.com/gitlab-org/tenant-scale-group/epic-dashboard) into a project that other teams can use to create their own epic-based tracking dashboards.
 
-
 ### Capacity Planning
 
 We use a simple issue weighting system for capacity planning, ensuring a
