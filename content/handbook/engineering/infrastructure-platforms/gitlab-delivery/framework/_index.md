@@ -104,7 +104,7 @@ This is a limited role targeting initial triage. It is not a replacement for any
 
 ### Responsibilities
 
-1. Monitoring and triaging the [Reference Architecture performance pipelines](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality/-/wikis/Performance-pipelines-triage)
+1. Monitoring and triaging the [Reference Architecture performance pipelines](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/get-environments/ra-test-environments/-/wikis/Performance-pipelines-triage)
 1. Monitoring and responding to requests in GET/RA Slack channels.
 
 Responses are aimed to be timely, with a general target of a few days at most. This is not a strict target and can vary depending on team availability.

@@ -120,5 +120,5 @@ Customers often ask for their GPT results to be reviewed as part of building out
 
 - Check [the GPT issues list](https://gitlab.com/gitlab-org/quality/performance/-/issues) if errors or issues .
 - Ask for help from [support team members with GPT experience](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html).
-- Alternatively reach out to the Quality Engineering - Enablement team who manage GPT over on the `#gitlab-performance-tool` channel on Slack.
-- The [Reference Architecture group](/handbook/engineering/infrastructure-platforms/developer-experience/self-managed-excellence/#reference-architectures) can also review the results as well as the environment as a whole on request. This can be done by asking the customer's CSM to raise an issue on the [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues) project with the `environment-review-request` template.
+- Alternatively reach out to either the GPT maintainers over on the `#gitlab-performance-tool` channel on Slack.
+- You can also reach out to the Reference Architecture group on their [tracker](https://gitlab.com/gitlab-org/reference-architectures/-/issues/?sort=created_date&state=opened&first_page_size=100) and raise a Request for Help via the template if you suspect performance issues are related to the environmental design or makeup.
