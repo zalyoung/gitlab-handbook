@@ -17,18 +17,11 @@ For urgent items, feel free to use the Slack channel (internal): [#g_organizatio
 
 ### Vision
 
-There are multiple proposals and ideas to increase horizontal scalability via
-solutions such as database sharding and tenant isolation. The objective of this
-group is to explore, iterate on, validate, and lead implementation of proposals
-to provide a solution to accommodate GitLab.com's daily-active user growth.
-
-As we brainstorm and iterate on horizontal scalability proposals, we will
-provide implementation details, prototypes, metrics, demos, and documentation to
-support our hypotheses and outcomes.
-
-Currently, [Cells](/handbook/engineering/architecture/design-documents/cells/) is
-our proposal of a new architecture for our platform that is horizontally scalable,
-resilient, and provides a more consistent user experience.
+The team is working on developing a more scalable, unified architecture for GitLab through the implementation of Organizations as a new top-level entity.
+Organizations serve as logical containers that enable distribution across a [cellular architecture](handbook/engineering/architecture/design-documents/cells/) while bridging functionality gaps between self-managed and SaaS GitLab instances.
+The new Organizations entity acts as an umbrella for multiple top-level groups, allowing enterprises to aggregate content across groups, implement organization-wide roles, and isolate content from other Organizations.
+Simultaneously, the team aims to improve Groups and Projects by addressing several key challenges: creating more flexible hierarchies to accommodate diverse enterprise structures, reducing confusion around project nesting within groups, enhancing discoverability across the product, standardizing deletion and recovery processes, and improving archiving functionality and visibility.
+These improvements collectively work toward creating a more intuitive, flexible system for enterprises to represent their business structure and manage permissions.
 
 ### Goals
 
