@@ -49,7 +49,9 @@ For additional information on how to select a High Value Account in Salesforce p
 
 ## Engaging with Global Digital SMB Accounts
 
-Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events/ scenarios are triggered. Once one of these defined scenarios is triggered, a case will auto be created. An SMB Advocate will then pick up the case or be assigned to it, and work it through to completion.
+Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events / scenarios are triggered. Once one of these defined scenarios is triggered, a case will automatically be created. An SMB Advocate will then be assigned to it, and work it through to completion.
+
+For additional information on how our case routing system works please reference the (SMB Traction User Guide) [https://docs.google.com/document/d/1njy6nuwr-DddF6QzZnfpk5z_9ZCpA_ftk-fPYB_b8cQ/edit?usp=sharing]
 
 ### Why?
 
@@ -61,13 +63,13 @@ Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SM
 Cases are automatically created when;
 
 - A customer requires sales assistance in order to transact.
-- There is a high likelihood a customer will churn/ contract.
+- There is a high likelihood a customer will churn / contract.
 - There is a high likelihood that a customer is considering upgrading or adding additional products.
-- If none of the above apply, and the customer is on auto renew, a case will NOT be created.
+- If none of the above apply, and the customer is on auto renew, a case will generally NOT be created.
 
 ## Case Types
 
-The cases that will be auto created, are split into 5 distinct categories;
+The cases that will be auto-created, are split into 5 distinct categories;
 
 Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.
 
@@ -105,10 +107,8 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
   - *FO Opp (Startup)* if you reside in the Community relation team, and a free customer is ready to transition to paid.
   - *AR Request* (if you are in AR/ Billing)
   - Note: if you are an SDR creating the case, the *Case Subject* must be either equal *FO Opp*, or *SDR Created* (See *Use Case Specifics* below)
-- **SDR must create a case with the Subject: *FO Opp*. *Note*: Please ensure the Account includes a complete Billing Address prior to assigning the opportunity to the AMER/EMEA/APJ Sales User.**
-- SDR changes the case owner to the SMB Advocate that the IQM is booked with. When setting the Advocate as the case owner, they must check the *Send Notification Email* checkbox.
+- **SDR must create a case with the Subject: *FO Opp*. *Note*: Please ensure the Account includes a complete Billing Address prior to setting the Record Owner to the AMER/EMEA/APJ Sales User in the Lead conversion screen.**
 - This Case will now routed and worked by an SMB Advocate.
-- Note: if an open SMB Case already exists on the account, once you have saved the case, change the *Case Owner* to whoever owns the current open case on the account, and send them a chatter message on the case.
 - If a case has not been actioned as per the stated SLA, please chatter the regions [ASM](https://gitlab.my.salesforce.com/00OPL000000rpxF2AQ) on the case to escalate.
 
 ## Tracking Cases you have created
@@ -126,7 +126,7 @@ Once you have created a case, you can easily view its progress by using the repo
 
 You can now return to this report at any time to check;
 
-- Who the current case owner is.  If *SMB Sales Team*, the case has yet to be picked up. If a person, they can be chattered on the case should you have any questions.
+- Who the current case owner is. They can be chattered on the case should you have any questions.
 - Case Status (This should be either *Open*, *In Progress*, or *Closed*)
 - Next Steps (Useful if the case is still set to *In Progress*)
 
