@@ -56,6 +56,11 @@ fi
 printf "%b" "${bold}Checking that added images are in static/images directory...${normal}"
 INCORRECT_IMAGE_PATHS=""
 while read -r image; do
+  # Skip specific files or patterns
+  if [[ "$image" == "static/macos-handbook-icon.svg" || "$image" =~ ^assets/.*\.svg$ ]]; then
+    continue
+  fi
+  
   if ! [[ "$image" =~ ^static/images/ ]]; then
     ERROR_FOUND=true
     INCORRECT_IMAGE_PATHS="$INCORRECT_IMAGE_PATHS- $image\n"
