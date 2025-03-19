@@ -7,7 +7,52 @@ description: "This Hands-On Guide demonstrates how to add CI/CD components to a 
 
 ## Objectives
 
-A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD features are provided as components. In this lab, you will learn how to add a CI/CD component to your GitLab project.
+A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD features are provided as components. In this lab, you will learn how to create and add a CI/CD component to your GitLab project.
+
+## Task A. Creating a Component
+
+Let's create a component to use in our GitLab project.
+
+1. Navigate to your **My Test Group** by clicking it in the breadcrumb at the top of the page.
+
+1. From your **My Test Group** in GitLab, click the **New project** button.
+
+1. Click the **Create blank project** tile.
+
+1. Name your project `Example Component`.
+
+1. Leave all other values as their default, and click the **Create project** button and wait for GitLab to redirect you to the new project's main page.
+
+Now, we need to set up the infrastructure for the component.
+
+1. In the repository of your Example Component project, click the **+** button, then click the **New Directory** option.
+
+1. For the directory name, type in **templates**. Make sure that it is in lower case.
+
+1. Click the **Commit changes** button.
+
+1. Click on the **templates** folder. Inside the folder, click on the **+** button, then click the **New file** button.
+
+1. Type in **sample-template.yml** as the file name.
+
+1. In the body of the file, copy the following text to create your sample component:
+
+```yaml
+spec:
+  inputs:
+    stage:
+      default: test
+---
+component-job:
+  script: echo job 1
+  stage: $[[ inputs.stage ]]
+```
+
+Here, we are creating a component with an input called *stage*. The stage input has a default value of 'test', which we will override in our other project.
+
+1. Click **Commit changes**, and then click **Commit changes** in the pop-up screen.
+
+1. 
 
 ## Task A. Finding the SAST Component
 
