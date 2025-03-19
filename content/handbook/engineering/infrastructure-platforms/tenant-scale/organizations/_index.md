@@ -227,8 +227,8 @@ candidates for the backlog refinement process (without weight,
 unclear requirements, etc.), please use the label. We will refine
 a maximum of 5 issues per week.
 
-The EM will use the [refinement script](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/blob/main/scripts/refinement)
-to generate an issue with all the issues identified for refinement.
+[Refinement issues](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/blob/main/scripts/refinement) are auto-generated at the beginning of each week.
+The scripts can be adjusted in our [stage project](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks).
 
 #### Step 2: Refining Issues
 
