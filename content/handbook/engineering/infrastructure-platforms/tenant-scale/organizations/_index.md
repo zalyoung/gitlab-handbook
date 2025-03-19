@@ -10,7 +10,7 @@ The Organizations team's main focus is to develop the Organization entity needed
 ### Contact
 
 To get in touch with us, it's best to create an issue in the relevant
-project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the
+project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&first_page_size=100)) and add the
 `~"group::organizations"` label, along with any other appropriate labels.
 
 For urgent items, feel free to use the Slack channel (internal): [#g_organizations](https://gitlab.slack.com/archives/g_organizations).
