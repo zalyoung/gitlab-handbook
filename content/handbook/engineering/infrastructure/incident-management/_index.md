@@ -29,7 +29,7 @@ resolution. To that end, incident management provides:
 1. an incident review where lessons and techniques are extracted and shared
 
 When an [incident starts](#reporting-an-incident), the incident automation sends a message
-in the [`#incidents`](https://gitlab.slack.com/archives/C02HF90ME66) channel
+in the correponding [incident announcement channel](#incident-announcement-channels)
 containing a link to a per-incident Slack channel for text based communication, the
 incident issue for permanent records, and the Situation Room Zoom link for incident team members to join for synchronous verbal
 and screen-sharing communication.
@@ -260,7 +260,7 @@ Occasionally we encounter multiple incidents at the same time. Sometimes a singl
 
 When there are multiple incidents and you decide that additional incident manager help is required, take these actions:
 
-1. Post a slack message in #im-general as well as #incidents asking for additional Incident Manager help.
+1. Post a slack message in #im-general as well as the appropriate [incident announcement channel](#incident-announcement-channels) asking for additional Incident Manager help.
 1. If your ask is not addressed via slack, escalate to  [Infrastructure Leadership](https://gitlab.pagerduty.com/service-directory/PJKOEIS) in PagerDuty.
 
 If a second incident zoom is desired, choose which incident will move to the new zoom and create a new meeting in zoom.  Be sure to edit the channel topic of the incident slack channel to indicate the correct zoom link.
@@ -277,7 +277,7 @@ If assistance is needed to determine severity, EOCs and Incident Managers are en
 A page will be escalated to the Incident Manager (IM) if it is not answered by the Engineer on Call (EOC).
 This escalation will happen for all alerts that go through PagerDuty, which includes lower severity alerts.
 It's possible that this can happen when there is a large number of pages and the EOC is unable to focus on acknowledging pages.
-When this occurs, the IM should reach out in Slack in the `#incidents` channel to see if the EOC needs assistance.
+When this occurs, the IM should reach out in Slack in the corresponding [incident announcement channel](#incident-announcement-channels) to see if the EOC needs assistance.
 
 Example:
 
@@ -415,7 +415,7 @@ _Incident Declaration Slack window_
 
 _Incident Declaration Results_
 
-As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. incident.io will post links to all of these resources in the main `#incidents` channel. Please note that unless you're an SRE, you won't be able to post in `#incidents` directly. Please join the dedicated Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer.
+As well as opening a GitLab incident issue, a dedicated incident Slack channel will be opened. incident.io will post links to all of these resources in the corresponding [incident announcement channel](#incident-announcement-channels). Please join the incident Slack channel, created and linked as a result of the incident declaration, to discuss the incident with the on-call engineer.
 
 ## Definition of Outage vs Degraded vs Disruption and when to Communicate
 
@@ -486,11 +486,19 @@ Furthermore, avoiding information overload is necessary to keep every stakeholde
 To that end, we will have:
 
 
-1. a dedicated Zoom call for all incidents. A link to the Zoom call can be found in the incident Slack channel posted in [`#incidents`](https://gitlab.slack.com/archives/incidents) channel.
+1. a dedicated Zoom call for all incidents. A link to the Zoom call can be found in the incident Slack channel posted in the coresponding [incident announcement channel](#incident-announcement-channels) channel.
 1. a Google Doc as needed for multiple user input based on the [shared template](https://docs.google.com/document/d/1NMZllwnK70-WLUn_9IiiyMWeXs-JKPEiq-lordxJAig/edit#)
-1. a dedicated [`#incidents`](https://gitlab.slack.com/archives/incidents) channel for internal updates
+1. [Incident Announcement channels](#incident-announcement-channels) for internal updates
 1. regular updates to status.gitlab.com via status.io that disseminates to various media (e.g. Twitter)
 1. a dedicated repo for issues related to [Production](https://gitlab.com/gitlab-com/production) separate from the queue that holds Infrastructure's workload: namely, issues for incidents and changes.
+
+### Incident Announcement channels
+
+We have three dedicated incident slack channels where incidents are announced 
+
+- [#incidents](https://gitlab.slack.com/archives/incidents) : All incidents are announced here 
+- [#incidents-dotcom](https://gitlab.slack.com/archives/incidents-dotcom) : All .com incidents are announced here
+- [#incidents-dedicated](https://gitlab.slack.com/archives/incidents-dedicated) : All [Dedicated](/handbook/support/workflows/dedicated/) incidents are announced here 
 
 ### Status
 
