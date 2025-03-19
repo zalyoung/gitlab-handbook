@@ -173,7 +173,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 ### Guidelines for creating public-facing product tours with Navattic  
 
 1. **Keep it concise** – Product tours should ideally have **5 to 12 steps**, each focused on delivering clear value. Unlike documentation demos, which tend to be instructional, product tours should be quick and engaging.  
-2. **Provide context** – Add links to relevant blog posts or documentation within pop-ups to offer additional resources. Keep descriptions brief and to the point.  
+2. **Provide context** – Include in the Narrative links to relevant blog posts or documentation within pop-ups to offer additional resources. Keep descriptions brief and to the point.  
 3. **Apply GitLab branding** – In the theme settings, select **"GitLab Branding [Navattic Team]"** to ensure a consistent design.  
 4. **Use the appropriate capture type** – Navattic supports two types of screen captures:  
    - **Web captures** (preferred) create an in-product experience.  
