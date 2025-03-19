@@ -180,7 +180,7 @@ The Event Store will serve as the single source of truth for all notification-tr
 
 ### REST API and GraphQL endpoints
 
-Important part of the new implementation is providing REST API and GraphQL endpoints that would allow to interact with notification records, in individaul and batch manner. Current implementation of REST API and GraphQL endpoints for to-dos can serve as example of what we are looking for. 
+Important part of the new implementation is providing REST API and GraphQL endpoints that would allow to interact with notification records, in individual and batch manner. Current implementation of REST API and GraphQL endpoints for to-dos can serve as example of what we are looking for. 
 
 ## Alternative Solutions
 
