@@ -174,7 +174,7 @@ Please use this step if there are no issues created to capture the failure. If t
     - Apply the `~"type::ignore"` label to the issue until the investigation is complete and an [issue type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) is determined.
     - Inform the counterpart SET about the failure.
     - For system failures, it may make sense to open an issue in a different project such as [Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/issues), [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa/issues), or [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner/issues).
-    - For staging environment-related failures, see [guidance on how to get assistance from the SaaS Platforms group](/handbook/engineering/infrastructure/getting-assistance/).
+    - For staging environment-related failures, see [guidance on how to get assistance from the Infrastructure Platforms group](/handbook/engineering/infrastructure/getting-assistance/).
     - Ask for help in [`#s_developer_experience`](https://gitlab.slack.com/archives/C3JJET4Q6) if you're unsure where to file the issue.
 1. In the relevant Slack channel, add the :boom: emoji and reply to the failure notification with a link to the issue.
 1. Add the issue as a related issue to the current pipeline triage report. If multiple issues are the result of 1 bug, add the bug issue to the report instead.
