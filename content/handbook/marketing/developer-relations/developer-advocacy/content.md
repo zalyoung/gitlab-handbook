@@ -186,6 +186,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 10. **Set pop-ups appropriately**:  
     - Use **Modal pop-ups** with a **heavy backdrop** for the first and last steps.  
     - Use **Tooltips** for intermediate steps, enabling the **Backdrop setting** when appropriate.  
+11. **Refer to available examples** – Review [existing product tours](#product-tours) to understand the preferred format.
 
 ### Requesting Access to Navattic  
 
