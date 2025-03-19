@@ -43,7 +43,7 @@ Analyze how a company's features address key challenges in the [MARKET SEGMENT] 
 5. ROI potential
 ```
 
-**Example Use Case:** When preparing for a sales call with a prospect in the financial services sector, the sales representative can generate a tailored analysis highlighting advantages in meeting compliance requirements and secure CI/CD capabilities.
+**Example Use Case:** When preparing for a sales call with a prospect in the financial services sector.
 
 #### Sales Email Template Generator
 
@@ -57,7 +57,7 @@ Include:
 Keep the tone professional but conversational and limit to 200 words.
 ```
 
-**Example Use Case:** Creating tailored outreach emails to development team leads at healthcare companies who are using fragmented DevOps tools and could benefit from a single application approach.
+**Example Use Case:** Creating tailored outreach emails to development team leads at healthcare companies who are using fragmented tools and could benefit from a single application approach.
 
 ### Marketing Division
 
@@ -74,7 +74,7 @@ Include:
 - Call-to-action recommendations
 ```
 
-**Example Use Case:** Planning a comprehensive blog post about "How to Implement GitOps with a company" targeted at DevOps engineers and IT leaders looking to improve deployment reliability and security.
+**Example Use Case:** Planning a comprehensive blog post.
 
 #### Social Media Campaign Planner
 
@@ -88,7 +88,7 @@ For each platform, create:
 Focus on highlighting [SPECIFIC BENEFIT] and target [TARGET AUDIENCE].
 ```
 
-**Example Use Case:** Creating a campaign to promote AI-assisted code review features targeting development teams looking to improve code quality and reduce review time.
+**Example Use Case:** Creating a campaign to promote AI-assisted features.
 
 ### General & Administrative
 
@@ -132,7 +132,7 @@ Create detailed user stories for implementing a [FEATURE]. For each user story:
 - Tag with appropriate labels (frontend, backend, UX, etc.)
 ```
 
-**Example Use Case:** Developing comprehensive user stories for a new code review automation feature, ensuring all user types (developers, reviewers, managers) are considered with appropriate acceptance criteria.
+**Example Use Case:** Developing comprehensive user stories.
 
 #### Code Visualization Assistant
 
