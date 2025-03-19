@@ -73,7 +73,6 @@ those meetings, so we record them and share written summaries ([agenda](https://
 Currently we have the following recurring meetings scheduled:
 
 - Weekly Monday - Tenant Scale Group Sync (APAC/EMEA) 8:30AM UTC (2:30AM PDT)
-- Weekly Thursday - Tenant Scale Group Sync (EMEA/AMER) 3:00PM UTC (7:00AM PDT)
 
 ## Work
 
