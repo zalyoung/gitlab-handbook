@@ -12,8 +12,8 @@ An Accessibility Engineer reports to a [Product Design Manager](/job-families/pr
 ### Base Requirements
 
 - Interest in digital accessibility.
-- Basic understanding of design and UX.
-- Strong understanding of WCAG 2.1, Section 508, and EN 301 549 guidelines and accessibility standards.
+- Understanding of design and UX.
+- Strong understanding of WCAG, Section 508, and EN 301 549 guidelines and accessibility standards.
 - Experience with assistive technologies (screen readers, voice recognition software, etc.).
 - Proficiency in HTML (including ARIA roles and attributes), CSS, and JavaScript.
 - Proficiency in automated accessibility testing tools and methodologies.
@@ -145,7 +145,7 @@ Successful candidates will receive an offer through a video call or phone call.
 
 #### Accessibility Engineer
 
-- Proven WCAG 2.1 knowledge and implementation.
+- Proven WCAG knowledge and implementation.
 - Experience with manual and automated accessibility testing tools.
 - Working knowledge of several assistive technologies (NVDA, JAWS, VoiceOver, etc.).
 - HTML, CSS, JavaScript proficiency.
@@ -155,7 +155,7 @@ Successful candidates will receive an offer through a video call or phone call.
 
 #### Senior Accessibility Engineer
 
-- Advanced WCAG 2.1 implementation experience.
+- Advanced WCAG implementation experience.
 - Deep knowledge of manual and automated accessibility testing tools.
 - Deep knowledge of assistive technologies (NVDA, JAWS, VoiceOver, etc.).
 - Experience leading accessibility initiatives.
