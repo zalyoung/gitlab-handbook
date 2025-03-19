@@ -51,7 +51,7 @@ If a request places GitLab on notice of an ongoing or prior violation of our [Co
 <table class="tg">
 <thead>
   <tr>
-    <td class="tg-0pky">GitLab, Inc.<br>Attn: Legal Department<br>268 Bush St., No 350<br>San Francisco, CA 94101</td>
+    <td class="tg-0lax">GitLab, Inc.<br>Attn: Legal Department<br>268 Bush St., No 350<br>San Francisco, CA 94101</td>
     <td class="tg-0lax">GitLab Federal, LLC<br>Attn: Legal Department<br>1775 Tysons Blvd., Floor 5<br>Tysons, VA 22102-4285</td>
   </tr>
 </thead>
@@ -72,7 +72,7 @@ Each request must meet the following facial requirements:
 - Specifically identify the legal basis for the request;
 - Specify to whom the responsive data should be produced.
 
-Please note that requests for testimony must be personally served on our register agent for service of process. We do not accept service of such requests via email.
+Please note that requests for testimony must be personally served on our registered agent for service of process. We do not accept service of such requests via email.
 
 Registered Agent: Corporation Service Company, 251 Little Falls Dr., Wilmington DE 19808
 
