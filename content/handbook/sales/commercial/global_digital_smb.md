@@ -7,6 +7,8 @@ description: "Overview of the Global Digital SMB Sales Model"
 
 - [FY26 Global Digital SMB Kick-Off deck](https://docs.google.com/presentation/d/1CWimjCJkcO7mIJJejv75JLCI1XNB6cReciRZab9U6q0/edit#slide=id.g2b17593787a_0_275)
 
+- [FY26 Global Digital SMB Segment Lines](https://docs.google.com/presentation/d/1CWimjCJkcO7mIJJejv75JLCI1XNB6cReciRZab9U6q0/edit#slide=id.g33f2d6040db_0_0)
+
 - Abbreviations
   - cARR: Contracted Annual Recurring Revenue
 
@@ -69,13 +71,11 @@ The cases that will be auto created, are split into 5 distinct categories;
 
 Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.
 
-Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption, or payments failed.
+Renewal Sales-Assist - These occur when the account in question has exhibited signs of low usage/ adoption, payments failed, or the renewal must be processed by an Advocate.
 
-Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand.
+Expansion Opportunity - These occur when the account in question has exhibited signs of growth, and that they are likely to expand.
 
-Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate.
-
-High Value - These are only created for the highest spending accounts in the segment.
+Non-Renewal Sales-Assist - These occur when customers need assistance with payment issues, requiring outreach to help them update payment methods, renew subscriptions, or access promotional pricing.
 
 Instructions and resources for working each case type are found in the consolidated SMB Case Enablement Deck:
 
@@ -107,13 +107,13 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
   - Note: if you are an SDR creating the case, the *Case Subject* must be either equal *FO Opp*, or *SDR Created* (See *Use Case Specifics* below)
 - **SDR must create a case with the Subject: *FO Opp*. *Note*: Please ensure the Account includes a complete Billing Address prior to assigning the opportunity to the AMER/EMEA/APJ Sales User.**
 - SDR changes the case owner to the SMB Advocate that the IQM is booked with. When setting the Advocate as the case owner, they must check the *Send Notification Email* checkbox.
-- This Case will now routed and worked by a SMB Advocate.
+- This Case will now routed and worked by an SMB Advocate.
 - Note: if an open SMB Case already exists on the account, once you have saved the case, change the *Case Owner* to whoever owns the current open case on the account, and send them a chatter message on the case.
 - If a case has not been actioned as per the stated SLA, please chatter the regions [ASM](https://gitlab.my.salesforce.com/00OPL000000rpxF2AQ) on the case to escalate.
 
 ## Tracking Cases you have created
 
-Once you have created a case, you easily view its progress, by using the report below as a template.
+Once you have created a case, you can easily view its progress by using the report below as a template.
 
 [FY26 - Cases created by Department X](https://gitlab.my.salesforce.com/00OPL000000toc5)
 
@@ -134,36 +134,32 @@ You can now return to this report at any time to check;
 
 ### SMB Advocate Case Workflow
 
-[FY26: SMB Advocate Enablement](https://docs.google.com/presentation/d/1IWgcHXbFN5UVNHCWXtF1fKj_9k5h5KlQGClY-2RbqUE/edit#slide=id.g12b319f6181_0_5)
+[FY26: GDS Case Enablement](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g32b866bfec2_0_0)
 
-[FY26: SMB Advocate Enablement (H2 Update)](https://docs.google.com/presentation/d/1r3vvFUXvkfXFPYgjTlhCFw4heggj225PrJ7mLMU0lcY/edit#slide=id.g12b319f6181_0_5)
-
-- If a SMB Advocate has capacity, they will click on an open case in the AMER or EMEA SMB Sales Team Queue and assign it to themselves, by changing the Case Owner.
-- As of 08/23/2024, some cases will be auto-assigned to Advocates using round-robin functionality.
-- High Priority cases should always be picked up first.
+- As of 02/01/2025, all cases will be auto-assigned to Advocates using Traction Complete's round-robin functionality.
 - Information pertaining to the case will be displayed in the Context, CTA & Description box.
-- An Advocate must then update the Status to In Progress.(This shows the case is being worked, and takes it out of the queue).
+- An Advocate must then update the Status to In Progress. (This shows the case is being worked).
 - To work the case, the SMB Advocate should contact the customer, with all activities logged on the contact/ account, via Groove. The Next Steps fields on the case should also be updated to include the case next steps/ date.
-- Note: when picking up a case created by a GitLab stakeholder e.g the Support Team, it is crucial that the Advocate updates **Next Steps** as soon as the case has been actioned.
+- Note: when assigned a case created by a GitLab stakeholder e.g the Support Team, it is crucial that the Advocate updates **Next Steps** as soon as the case has been actioned.
  This allows the stakeholder to view case updates, and negates the need for them to chatter the Case Owner requesting an update.  Any updates that *are* requested via chatter, should be answered by the Advocate/ Case Owner within one business day.
 - (If the Advocate is working on an Expansion Opportunity case, any Add On or Growth opp they uncover should be manually created, and linked to the case in question, via the Opportunity lookup field).
-- Once a Case is considered resolved, the Status should be set to one of the four Closed options, and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
+- Once a Case is considered resolved, the Status should be set to one of the three Closed options, and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
 - Note:  Inbound customer requests must only be marked as closed once the customers needs have been addressed.
 - If applicable, the linked opportunity should also be closed.
-- At any time, a SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
+- At any time, an SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
 - When working cases, the following Groove cadence should be followed.
 - - Day 1 - Email
 - - Day 3 - Call
 - - Day 5 - Email
 - - Day 7 - Email
-- An Advocate should look to resolve/ close a case within 7 days of it being opened. The max time to resolve a case is limited to 15 days (except cases with the subject: High Value Case).
+- An Advocate should look to resolve/ close a case within 7 days of it being opened. The max time to resolve a case is limited to 15 days (except cases with containing the subject: High Value Account).
 - The Advocate must also adhere to the Required 10, to ensure that the correct case fields and opportunity fields are updated when picking up, working, and closing out a case.
 
 ## Required 10
 
 The Required 10 acts a to do list which should be followed by all Advocates when picking up and working cases.
 
-[FY25: SMB Required 10](https://docs.google.com/spreadsheets/d/1yhRsbS0K9s1Un9puBFF51nE0oT040558QQfad2yL_4c/edit#gid=0)
+[FY26: SMB Required 10](https://docs.google.com/spreadsheets/d/1yhRsbS0K9s1Un9puBFF51nE0oT040558QQfad2yL_4c/edit#gid=0)
 
 ### Picking Up
 
@@ -251,23 +247,23 @@ SMB customers are able to email smallbusiness@ in order to speak to an Advocate.
 
 When they do so, an SMB Case will automatically be created and will be routed to an Advocate in AMER/EMEA/APJ.
 
-The subject of the email will displated in the **Case Subject** field, and the email body will appear in the **Case Description** field.
+The subject of the email will be displayed in the **Case Subject** field, and the email body will appear in the **Case Description** field.
 
 **FAQ**
 
-Q. As an Advocate, I can see a case in the queue, but there is no contact/ account/ lead attached to the case.  How do I know if the case falls into my region?
+Q. As an Advocate, if I am assigned a case, but there is no contact/ account/ lead attached to the case - how do I know if the case falls into my region?
 
-A. If a customer emails smallbusiness@ and they do not exist in Salesforce as a contact, the contact and account fields will not be populated on the case.  When this happens, we have no way of knowing which region the customer resides in, therefore the case will appear in both the AMER and EMEA case queues.
+A. If a customer emails smallbusiness@ and they do not exist in Salesforce as a contact, the contact and account fields will not be populated on the case.  When this happens, we have no way of knowing which region the customer resides in.
 
-Upon viewing the case, an Advocate should check the **Web Email** field to see the customer email domain. Based on the domain, they should manually search for the Account in Salesforce, and add it to the case.  This will move the case to the relevant queue.
+Upon viewing the case, an Advocate should check the **Web Email** field to see the customer email domain. Based on the domain, they should manually search for the Account in Salesforce, and add it to the case.  This will route the case to the correct GEO Sales User.
 
-Q. If I pick up a case, but the customer continues to email smallbusiness@, how will I know?
+Q. If a case is routed to me, but the customer continues to email smallbusiness@, how will I know?
 
-A.  Once you have picked up the case, any future emails from the customer in the same thread will trigger a notification to be sent to the case owner.  All emails in the thread are also attached to the case.
+A.  Once you have been assigned a case, any future emails from the customer in the same thread will trigger a notification to be sent to the case owner.  All emails in the thread are also attached to the case.
 
-Q. If a customer has a new request, but the send an email to smallbusiness@ via an old thread, will a new case be created?
+Q. If a customer has a new request, but they send an email to smallbusiness@ via an old thread, will a new case be created?
 
-A. No.  Unfortunately, the email will be attached to the prior case which is likley to have been closed.  In this scenario, the owner of the prior closed case (who will receive a notification of the customers emial), should either ask the customer to initiate a new request (by sending a new email to smallbusiness@.  This will create a new case, and start a new thread. Or, the Advocate can create a new case on the customers behalf, and work that case.
+A. No.  Unfortunately, the email will be attached to the prior case which is likley to have been closed.  In this scenario, the owner of the prior closed case (who will receive a notification of the customers email), should either ask the customer to initiate a new request (by sending a new email to smallbusiness@.  This will create a new case, and start a new thread. Or, the Advocate can create a new case on the customers behalf, and work that case.
 
 ### High Value Cases
 
@@ -327,15 +323,15 @@ If the customer is looking to upgrade to Ultimate/ add users at the time of rene
 
 ### Case SLA
 
-All High Priority cases should be picked up and responded to within 24 hours of entering the queue.
+All High Priority cases should be picked up and responded to within 24 hours of being routed and assigned.
 
-All Medium Priority cases should be picked up and responded to within 48 hours of entering the queue.
+All Medium Priority cases should be picked up and responded to within 48 hours of being routed and assigned.
 
-All Low Priority cases should be picked up and responded to within 7 days of entering the queue.
+All Low Priority cases should be picked up and responded to within 7 days of being routed and assigned.
 
 ### Open Case Guidelines
 
-All cases should be worked, and closed out, within a 15 day period (except High Value cases).
+All cases should be worked, and closed out, within a 15 day period (except High Value Account cases).
 
 The above, and other data points, will be tracked on the below dash.  Periodically, the info will be presented to the Advocate so that they can 'clean up their room'.
 
@@ -368,31 +364,34 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - No Action Required
 - Failed to Engage
 
-## Dashboards & Reports
+## Dashboards, Reports & Enablement Docs
 
-- [SMB AMER Case Queue](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000000LaDN2A0/view?queryScope=userFolders)
-- [SMB EMEA Case Queue](https://gitlab.lightning.force.com/one/one.app#/sObject/00OPL000000LaRt2AK/view)
-- [SMB AMER Team Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000UbBp2AK/view?queryScope=userFolders)
-- [SMB EMEA Team Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000WJU92AO/view?queryScope=userFolders)
-- SMB Advocate Scorecard ([AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000013pi92AA/view?queryScope=userFolders)/ [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001E2PZ2A0/view?queryScope=userFolders))
+- SMB Advocate Scorecard ([AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001wGzt2AE/view?queryScope=userFolders)/ [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001yMhp2AE/view?queryScope=userFolders))
+- [SMB Advocate - Run Your Day Dash](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000wGpB2AU/view?queryScope=userFolders)
+- [SMB Large Deal Management](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000025bVd2AI/view?queryScope=userFolders)
+- [FY26 SMB Individual nARR Crediting ROE](https://docs.google.com/document/d/1Bk0Nb96v7_TIJfdkEo7jy3NpUM2q1rq4n6KHCzMC5Fg/edit?tab=t.0#heading=h.1hfad52157mv)
+- [SMB Traction User Guide](https://docs.google.com/document/d/1njy6nuwr-DddF6QzZnfpk5z_9ZCpA_ftk-fPYB_b8cQ/edit?tab=t.0#heading=h.oto7s46nkulb)
+- [SMB Ops Changelog](https://docs.google.com/document/d/1IzbfmMfdR0Uh8Lyx24sxhp9MJyCvN30kYbknYULL6mM/edit?tab=t.0#heading=h.k7j0xsk0jh3q)
+- [FY26 SMB Dashboards](https://docs.google.com/spreadsheets/d/1WIO84I2842a0MO5R1UuoCfqDhmrHIIfAQI6kzJvfiDU/edit?gid=0#gid=0)
+- [SMB Sales Tech Stack](https://docs.google.com/spreadsheets/d/14YrGHDiMvLpeMAwi6p_G7uC7XpMsCqaJ1KhvUvUumbc/edit?gid=0#gid=0)
 
 ## FAQ
 
-- Q. Will cases be added to the queue everyday?
+- Q. Will cases be assigned to me everyday?
 - A. Yes, we expect new cases to be created daily, and to total approximately 400 per month.
 - Q. Can I pick up any Case in the queue?
-- A. No, High Priority cases must be picked up first. If there are no High Priority cases, cases must then be worked oldest first.
+- A. No, cases will now be routed via Traction and should not be picked up out of the queue. Any case considered a High Value Account will be routed to the corresponding Advocate.
 - Q. How many cases should I work at any give time?
 - A. An Advocate should only own 50 In Progress cases at a time.  Once at 50, the Advocate is deemed to be at capacity.
 - Q. Where can I provide feedback on this model/ process?
 - A. Please submit all feedback via the *global-digital-smb_feedback slack channel*.  If you want to share Feedback relating to a specific case, please enter the feedback in the Case: Feedback field.
 - Q. Is additional enablement material available?
-- A. Yes, please see the Highspot page linked at the top of this page.
-- Q. As an GitLab Team Member who is not part of the SMB Team, how do I engage with the team?
+- A. Yes, please see the *Dashboards, Reports & Enablement Docs* section of this page.
+- Q. As a GitLab Team Member who is not part of the SMB Team, how do I engage with the team?
 - A. Follow the process above entitled *Working with the Global Digital SMB Account Team*.
 - Q.  What happens if the end user speaks a different language than I do?
 - A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tag #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.
-- Q. As an Advocate, if I pick up a FO Opp case, and discover the customer is actually a MM account, what do I do?
+- Q. As an Advocate, if I am assigned a FO Opp case, and discover the customer is actually a MM account, what do I do?
 - A. Follow the below steps;
   - If the FO Opp is still in Stage 0, advise the SDR via Chatter that they should loop in the MM AE.
   - Mark the case as Closed - Duplicate
@@ -401,18 +400,16 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. There is no opportunity linked to the case, but I have identified a Growth/ Add On opportunity, what do I do?
 - A. If you discover a Growth opportunity, you should manually create a Growth/ Add On opp and link it to the case via the Opportunity field. If an opp is already attached to the case (Renewal or QSR opp), this opp should be updated to reflect the possible growth.
 - Q. If I am working a case, and the customer advises they are looking to expand but not for 6 months, should I close out the case?
-- A. No, update the Next Steps stating that the customer is open to conversation in 6 months.  Also change the Next Steps Date to 6 month from todays date, and update the stage of the case to Open.  Finaly click the Edit buton on the case, and check the *Assign using active assignment rules*. The case will subsequently drop back into the queue in 6 months time.
+- A. No, update the Next Steps stating that the customer is open to a conversation in 6 months.  Also, change the Next Steps Date to 6 months from todays date, and update the stage of the case to Open.  *Please remember to leave the open case in your name.*
 - Q. I am an AE not in the SMB Org, and a former customer has reached out to me.  This customer is now owned by an SMB Sales User.  How do I hand this customer over to the SMB Sales Team?
 - A. Follow this [process](https://docs.google.com/document/d/1Bc9N0Cvc65NjWHSVoliUp6injZNlbkjEEEZ0dYQm_Ck/edit#heading=h.wmdr1tkj670j).
 - Q. I just closed won on opp for a SMB Customer, which took them above the $30k CARR threshold.  How do I hand this over to MM?
 - A. See this [doc](https://docs.google.com/document/d/1dIJwPRo3rQnE1e4LBG-lT4ZvJ3nXzMuKwP8mF54jACo/edit). Note that accounts will be moved to MM at the start of the next quarter.
-- Q. If I pick up a case, and the customer is interested in speaking in 6 months, do I keep the case open, or close it out?
-- A. In this scenario, the case should be put back in the queue, and become available to be picked up again in 6 months time.  To do this;
+- Q. When I am working a case, and the customer is interested in speaking in 6 months, do I keep the case open, or close it out?
+- A. In this scenario, the case should remain open and left in your name.  To do this;
   - Update the Next Steps on the case, as per your conversation with the customer.
   - Set to Next Steps Date to 6 months from today.
   - Set the Case Status to Open
-  - Click *Edit* on the case, then check the *Assign using active assignment rules checkbox*.
-  - The case will now reappear in the queue in 6 months time, and any Advocate will be free to work the case.
 - Q. If a prospect/ customer emails me directly requesting assistance, what do I do?
 - A. First check the account to see if there is an In Progress SMB Sales Case owned by a different Advocate.  If there is, add the nature of the customers request to the Description field, and chatter the Advocate on the case. If no case is present, and this enquiry represents a nARR opportunity, follow the above process (*Working with the Global Digital SMB Account Team*.), and assign the case directly to yourself. Note: for general enquiries, you should direct customers to smallbusiness@gitlab.com
 - Q. As an Advocate, when I go on PTO, what happens to my cases?
