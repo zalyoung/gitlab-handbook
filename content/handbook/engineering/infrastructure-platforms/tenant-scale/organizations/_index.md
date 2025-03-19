@@ -1,6 +1,6 @@
 ---
 title: Organizations Team
-description: "The Organizations team develops the Organizations entity to support Cells. "
+description: "Information about the Organizations team"
 ---
 
 ## About
