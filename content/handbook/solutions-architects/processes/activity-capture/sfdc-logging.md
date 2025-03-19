@@ -48,6 +48,7 @@ The SA Validated Tech Evaluation End Date is when the technical evaluation is de
 The SA Validated Tech Evaluation Close Status represents the result of the technical evaluation at the end date.
 
 - Available options include:
+  - **In Progress** The technical evaluation has started and there is still active work occurring to move towards closure
   - **Win**: The technical evaluation has ended, and the prospect or customer agrees the GitLab solution meets their requirements
   - **Loss**: The technical evaluation has completed, but the prospect or customer is choosing an alternative solution or not changing their current process due to deficiencies with the evaluated GitLab solution
   - **Stalled**: The technical evaluation has not completed, but the customer or prospect is not actively evaluating any solution - typically when the SA has not been working with the prospect or customer on evaluation-related activities for at least two weeks
