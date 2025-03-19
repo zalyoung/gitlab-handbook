@@ -73,7 +73,7 @@ The Product Manager (PM) compiles the list of issues following
 the [product prioritization process](/handbook/product/product-processes/#prioritization),
 with input from the team, Engineering Manager (EM), and other stakeholders.
 The iteration cycle lasts until the 2nd Friday of a month, and starts new on the following Monday.
-and is identified by the GitLab version set to be released.
+Each milestone is identified by the GitLab version set to be released.
 
 ### Milestone Planning
 
