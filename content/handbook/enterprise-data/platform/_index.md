@@ -143,6 +143,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [SaaS Service Ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) | Airflow | `saas_usage_ping` | `saas_usage_ping` | Product | 1 week / 24h ([more context](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#slo-explanation-for-automated-service-ping)) | No | Tier 1 |
 | [Salesforce](https://www.salesforce.com/us/?ir=1) | Stitch | `salesforce_v2_stitch` | `sfdc` | Sales | 6h / 24h | Yes | Tier 1 |
 | [Salesforce Sandbox](https://gitlab--staging.sandbox.my.salesforce.com/)| Stitch | `salesforce_stitch_sandbox_v2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
+| [Salesforce Sandbox Test 2](https://gitlab--test2.sandbox.my.salesforce.com)| Stitch | `salesforce_stitch_sandbox_test2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
 | SheetLoad | SheetLoad | `sheetload` | `sheetload` | Multiple | 24h / 48h | Yes | Tier 1 |
 | SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
 | [Snowplow](https://snowplow.io/) | Snowpipe | `snowplow` | `snowplow` | Product | 15m / 24h | No | Tier 1 |
