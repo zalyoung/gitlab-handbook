@@ -252,10 +252,10 @@ When refining issues, consider the following:
 
 After engineers have had a chance to provide input, the EM or PM will:
 
-- Assign a weight.
-- Inform stable counterparts if there are any concerns.
-- Remove the `workflow::refinement` label.
-- Add the `workflow::ready for development` label.
+- Assign a weight
+- Inform stable counterparts if there are any concerns
+- Remove the `workflow::refinement` label
+- Add the `workflow::ready for development` label
 
 For any issues that were not discussed and given a weight, we will work with
 the engineers to see if we need to get more information from PM or UX.
