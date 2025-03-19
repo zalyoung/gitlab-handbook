@@ -288,7 +288,7 @@ working on deserves a retrospective:
 GitLab uses [error budgets](/handbook/engineering/error-budgets/) to measure the
 availability and performance of our features. Each engineering group has its own
 budget spend. The current 28-day spend for the Tenant Scale group can be found
-in this [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-detail-tenant_scale/stage-groups-tenant-scale-group-error-budget-detail?orgId=1).
+in this [Grafana dashboard](https://dashboards.gitlab.net/d/product-tenant_scale_error_budget/product3a-error-budgets-tenant-scale?orgId=1&from=now-28d&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-gprd&var-environment=gprd&var-stage=main).
 
 An error budget exception of 99.85% was [approved](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/121190)
 to allow the group to focus on long-term scalability work.
