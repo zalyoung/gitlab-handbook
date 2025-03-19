@@ -99,8 +99,12 @@ volunteer contributors.
 
 GitLab EE requires a license key to be used.
 
-Team members should file a submission via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) by selecting
-"Request a team member license" from the drop down options.
+Team members can obtain a license for local development by either:
+
+- Following [these steps](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/gitlab.md#adding-a-license-from-staging-customers-portal-to-your-gdk) to self-serve a license;
+- Filing a submission with the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) by selecting "Request a team member license" from the drop down options.
+
+Note: This is solely for your local development. If you are wanting a subscription put on a GitLab.com namespace, please file an [Access Request to IT Ops](/handbook/security/corporate/services/access-requests/) using the appropriate template.
 
 Wider community members should contact the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows#contributing-to-the-gitlab-enterprise-edition-ee).
 
