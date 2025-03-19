@@ -1,12 +1,9 @@
----
-title: "Customer Contact Role Tagging for Personalized Communications"
-description: "A deep dive into tagging contacts for personalzied digital communcation"
----
 # Customer Contact Role Tagging for Personalized Communications
 
 ## Why This Matters
 
 Properly tagging customer contacts is crucial for our personalized digital communication strategy. When we accurately identify contact roles, we can:
+
 - Deliver targeted content that resonates with each persona
 - Increase engagement with our digital programs
 - Improve product adoption through relevant use case information
@@ -21,21 +18,21 @@ Proper role tagging ensures our messages reach the right people at the right tim
 
 - Navigate to the contact record in Salesforce
 - Locate the "Role" field in the contact details section
-- Select the appropriate role(s) from the dropdown menu
+- Select the appropriate role(s) from the dropdown list
 - Save the contact record
-- Remember that contacts can have multiple roles assigned (e.g., a contact can be both a GitLab Admin and Technical)
+- Remember that contacts can have multiple roles assigned (for example, a contact can be both a GitLab Admin and Technical)
 
 ### In Gainsight
 
 - Access the contact record in Gainsight
-- Find the "GS Contact 1" field in the contact details
-- Select the appropriate role from the dropdown options
+- Find the "GitLab Role" field in the contact details
+- Select the appropriate role from the dropdown list
 - Save your changes
 - Multiple roles can be assigned in Gainsight as well
 
 ## Role Mapping for Digital Communications
 
-Our digital programs target specific personas. Use [this mapping](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing) to ensure contacts receive the most relevant communications:
+Our digital programs target specific personas. Use [this mapping](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing) to ensure contacts receive the most relevant communications.
 
 ### Considerations:
 
@@ -73,6 +70,7 @@ Our digital programs have different communication schedules to avoid overwhelmin
 ### Measuring Success
 
 We track the following metrics to evaluate our contact tagging effectiveness:
+
 - Percentage of contacts with defined roles (target: >85%)
 - Number of accounts with at least one GitLab Admin (target: 100%)
 - Email engagement rates by persona (open rate and click-through rate)
@@ -83,15 +81,18 @@ We track the following metrics to evaluate our contact tagging effectiveness:
 #### What do I do if I'm unsure about a contact's role?
 
 Check their LinkedIn profile or ask directly during your next interaction. When in doubt, consult with your manager or the Digital Success team.
+
 #### How can I verify I've completed all necessary tagging?
 
 
-
 Utilize the Contact Management reporting in Gainsight to see any gaps in your assigned accounts.
+
 #### What if a contact has a role that doesn't fit the existing categories?
+
 Use the closest match from the available roles. If truly unique, consult with your manager or the Digital Success team.
 
 #### How often should I review contact roles?
+
 Quarterly reviews are recommended, with a full data cleanup annually.
 
 ## Related Resources
@@ -100,4 +101,4 @@ Quarterly reviews are recommended, with a full data cleanup annually.
 - [Gainsight Training Resources](https://about.gitlab.com/handbook/customer-success/csm/gainsight/)
 - [Contact-to-Persona Mapping Project Overview](https://gitlab.com/gitlab-com/customer-success/csmerm/okrs/-/issues/692)
 
-For additional questions, reach out to the Digital Success team via slack @ digital-success).
+For additional questions, reach out to the Digital Success team through slack @ digital-success).
