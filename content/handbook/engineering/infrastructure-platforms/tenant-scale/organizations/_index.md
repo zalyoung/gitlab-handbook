@@ -295,7 +295,7 @@ to allow the group to focus on long-term scalability work.
 
 ## Dashboards
 
-You can find our group metrics in the Tableau views listed below.
+You can find our group metrics in the Tableau views listed below:
 
 - [Top engineering metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2251271/views)
 - [Merge request metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2104461/views)
