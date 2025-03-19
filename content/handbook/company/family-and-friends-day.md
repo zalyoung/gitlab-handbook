@@ -20,7 +20,7 @@ The proposed dates for FY26 Family & Friends days are:
 1. 2025-12-30
 1. 2025-12-31
 
-The time off for Family & Friends days will be automatically loaded into Workday for all team members, so there's no need to enter them manually.
+Family & Friends days will be automatically loaded into Workday by end of Q1FY26, for all team members, so there's no need for team members to enter them manually.
 
 In countries where a Family & Friends day falls on a public holiday, team members are encouraged to [utilize their public holiday on another day](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit?usp=sharing), keeping in mind that the public holiday accrual balance needs to be used within the same calendar year.
 
