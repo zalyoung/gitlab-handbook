@@ -40,17 +40,15 @@ We can deliver this work in iterations so that we deliver value to the customer 
 
 **Iteration 1: Managed Model Configuration**: In this phase we enable managed model configuration for `.com`, `self-managed` and `dedicated`. Supported models will be stored in the AI Gateway. These models will then be retrieved by gitlab.com, Self-managed instances and dedicated instances.
 
-**Iteration 2: Namespace Level Configuration**: In this phase customers will be able to select models at a namespace level, where the models available will be a subset of the ones picked at the parent level (group-subgroup). This will allow `.com` customers to decide which models they want their organization to use. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
+**Iteration 2: Namespace Level Configuration**: In this phase customers will be able to select a recommended model at a namespace level, where the models available will be a subset of the ones allowed at an instance level (group-subgroup). This will allow `.com` customers to decide which models they want their organization to use. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
 
-**Iteration 3: IDE Settings for Code Suggestions**: In this iteration users will be able to see a list of allowed models in their IDE and we will allow users to pick a preferred model in their IDE for their requests. Users will be able to pick from a list of model for Code Suggestions only. We will also need to develop the backend APIs needed to be able to fetch the list of allowed models at the instance level.
+**Future Iterations :**
 
-**Iteration 4: IDE Settings for Chat**: This is the same as above, however this time users should be able to pick the chat model from a list. The UI will continue to use the default model.
+Future iterations will cover the ability to let the user decide the model to be used for a specific feature in both the IDE and the GitLab UI. Users would be able to select from a subset selected at the namespace level.
 
-**Iteration 5: UI Changes for Chat**: After this iteration customers will be able to select chat models from the GitLab UI.
+We will build out the capabilities for model switching in Duo Code Review, Vulnerability analysis and other features. In addition to this we also want to allow self hosted customers to bring their own models.
 
-**Iteration 6: Duo Workflow**: In this iteration we will build out the model switching capability in Duo Workflow.
-
-**Post Iteration 7**: We will build out the capabilities for model switching in Duo Code Review, Vulnerability analysis and other features. In addition to this we also want to allow self hosted customers to bring their own models.
+> Note: This design does not handle the scenario where we might want to pick from different `recommended_model`s based on the user query. For example we might want to pick `Google Gemini` when the context length becomes very large or `Claude Sonnet` when its a coding related question. Dynamic model switching would have to be covered in a separate blueprint.
 
 ## New Design (End State)
 
@@ -92,7 +90,7 @@ erDiagram
 
     NAMESPACES ||--o{ NAMESPACE_AI_FEATURES : "has many"
 
-    NAMESPACE_AI_FEATURE_MODELS {
+    NAMESPACE_AI_FEATURE_MODELS["NAMESPACE_AI_FEATURE_MODELS (Future Iteration)"] {
         bigint id PK
         bigint namespace_ai_feature_id FK
         varchar model
@@ -106,7 +104,7 @@ erDiagram
         varchar email UNIQUE
     }
 
-    USER_AI_MODEL_PREFERENCES {
+    USER_AI_MODEL_PREFERENCES["USER_AI_MODEL_PREFERENCES (Future Iteration)"] {
         bigint id PK
         bigint user_id FK
         varchar feature
@@ -135,7 +133,7 @@ erDiagram
 ##### **5. NAMESPACE_AI_FEATURE_MODELS**
 
 - Stores a list of allowed models for each feature. If this list if empty then we will show all the GitLab supported models to the user
-- **New**
+- **Future**
 
 ##### **6. USERS**
 
@@ -145,7 +143,7 @@ erDiagram
 ##### **7. USER_AI_MODEL_PREFERENCES**
 
 - Allows users to select their **preferred AI model** per feature, overriding the namespace default.
-- **New**
+- **Future**
 - **Why?**
   - Empowers users with flexibility while maintaining organizational defaults.
   - Allows for personalization of AI-assisted workflows.
@@ -157,7 +155,7 @@ erDiagram
 ##### **1. Default & Override Mechanism**
 
 - **Namespace Admins** define default AI models for each feature.
-- **Users** can override these defaults for personal preferences.
+- **Users** can override these defaults for personal preferences (in the future).
 - **Fallback Logic:**
   1. Check `USER_AI_SETTINGS` for user preference.
   2. If no user preference, check `NAMESPACE DEFAULTS`.
@@ -171,71 +169,16 @@ erDiagram
 - We need to be able to hierarchically look up the list of models across
   the namespace hierarchy.
 
-##### **4. Flexibility for Deprecation**
+##### **3. Flexibility for Deprecation**
 
 - We need to be able to think about how administrators can deprecate models
   and what the process would be to cascade that down to other levels and the database performance implications of that.
-
-### IDE Changes
-
-The IDE must call GitLab to retrieve the list of allowed models for each feature and pass the selected model in the request to AI Gateway or Rails.
-
-**1. Model List Update**
-
-- The IDE periodically fetches the updated list of available models or listens for a specific GitLab: Update Model List command.
-- Changes could also be triggered when the user switches GitLab accounts or when an admin updates model availability.
-
-**2. User Preferences**
-
-- A settings screen in the IDE lets users select their default model per feature.
-- The IDE continues to pass the chosen model in chat and code suggestion requests.
-
-```mermaid
-sequenceDiagram
-    alt Model Switching
-        User->>IDE: Opens VSCode
-        IDE->>Rails: Fetch List of Models
-        Rails->>Rails: Lookup namespace of project for model list
-        loop Every namespace with parent
-            Rails->>Rails: Lookup parent namespace of project for model list
-        end
-        Rails->>Rails: Lookup instance for model list
-        Rails->>IDE: Return List of models per feature and default
-        IDE->>IDE: Set default models if not set
-        IDE->>User: Show list of settings options in IDE
-        User->>IDE: Pick model to be used for each feature
-    end
-    alt Code Suggestions
-        User->>IDE: User performs code suggestions request
-        IDE->>AIGateway: Send Model in suggestions Request
-        AIGateway->>AIGateway: Check whether model is allowed from JWT claims
-        AIGateway->>LLM: Get suggestions from model
-        LLM-->>AIGateway: Suggestions response
-        AIGateway->>AIGateway: Post processing
-        AIGateway-->>IDE: Send suggestions response
-        IDE->>User: Show suggestions
-    end
-    alt Chat
-        User->>IDE: User interacts with Chat widget
-        IDE->>Rails: Start Chat session
-        Rails-->>IDE: Chat Session ID
-        IDE->>Rails: Send user message
-        Rails->>Rails: Use model in request (check model is allowed)
-        Rails->>AIGateway: Make chat request with model
-        AIGateway->>LLM: Send chat request
-        LLM-->>AIGateway: Chat response
-        LLM-->>IDE: Send chat response
-        IDE->>User: Show response
-    end
-```
-
-> **Note:** This is a simplified diagram and does not contain all details such as Authentication/Authorization of the requests
 
 ### Changes to GitLab rails
 
 1. The list of instance level models will be fetched from AI Gateway periodically and cached in the instance.
 
-1. We need a way to sync models to all cells in `.com` and all self managed instances. This could be done using a separate sidekiq job that will sync GitLab Managed models with the self-managed instance.
+1. We need a way to sync models to all cells in `.com` and all self managed instances. This could be done using a separate sidekiq job that will sync GitLab Managed models with each cell and the self-managed instance.
 
 ```mermaid
 sequenceDiagram
@@ -250,13 +193,19 @@ sequenceDiagram
 
 1. We need to build the rails models, controllers and views as described in the `Data Model` section.
 
-1. Every feature (chat, code suggestions, code review) needs to be able to display a list of available models on the UI. When the customer selects a model that should be set as the default model.
-
-> For some features such as `Duo Code Review` where the customer is not actively interacting with the UI, we may only allow the selection of a single model.
-
 1. Every feature when making an API call to AI Gateway needs to be able to pick a model from the list of models allowed for a specific namespace, group, etc. Every feature also needs to be able to look at the default model for the feature.
 
 1. We need to be able to build the Group Settings screen to be able to select a list of models from the set offered at the instance level.
+
+1. When a model is depreciated / inactivated then we need a way to cascade the deprecations down to the namespace level. We will need to build a Sidekiq job that can do that.
+
+1. In rails when the user is picking a recommended_model / default_model at a namespace level they would be able to choose between the GitLab managed models (from the AI gateway config) and from the list of models configured in the self-hosted models screen.
+
+**Future changes when we allow users to pick a model:**
+
+1. Every feature (chat, code suggestions, code review) needs to be able to display a list of available models on the UI. When the customer selects a model that should be set as the default model.
+
+> For some features such as `Duo Code Review` where the customer is not actively interacting with the UI, we may only allow the selection of a single model.
 
 1. We will need to build a new API to fetch the list of models that user is allowed to use
 
@@ -275,8 +224,6 @@ query {
   }
 }
 ```
-
-1. When a model is depreciated / inactivated then we need a way to cascade the deprecations down to the namespace level. We will need to build a Sidekiq job that can do that.
 
 ### AI Gateway Changes
 
@@ -333,6 +280,61 @@ message StartWorkflowRequest {
 ```
 
 In addition to this we will be need to be able to update the model [factory](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-service/-/blob/main/duo_workflow_service/llm_factory.py?ref_type=heads) in Duo Workflow to support different models.
+
+### IDE Changes (Future Iteration)
+
+The IDE must call GitLab to retrieve the list of allowed models for each feature and pass the selected model in the request to AI Gateway or Rails.
+
+**1. Model List Update**
+
+- The IDE periodically fetches the updated list of available models or listens for a specific GitLab: Update Model List command.
+- Changes could also be triggered when the user switches GitLab accounts or when an admin updates model availability.
+
+**2. User Preferences**
+
+- A settings screen in the IDE lets users select their default model per feature.
+- The IDE continues to pass the chosen model in chat and code suggestion requests.
+
+```mermaid
+sequenceDiagram
+    alt Model Switching
+        User->>IDE: Opens VSCode
+        IDE->>Rails: Fetch List of Models
+        Rails->>Rails: Lookup namespace of project for model list
+        loop Every namespace with parent
+            Rails->>Rails: Lookup parent namespace of project for model list
+        end
+        Rails->>Rails: Lookup instance for model list
+        Rails->>IDE: Return List of models per feature and default
+        IDE->>IDE: Set default models if not set
+        IDE->>User: Show list of settings options in IDE
+        User->>IDE: Pick model to be used for each feature
+    end
+    alt Code Suggestions
+        User->>IDE: User performs code suggestions request
+        IDE->>AIGateway: Send Model in suggestions Request
+        AIGateway->>AIGateway: Check whether model is allowed from JWT claims
+        AIGateway->>LLM: Get suggestions from model
+        LLM-->>AIGateway: Suggestions response
+        AIGateway->>AIGateway: Post processing
+        AIGateway-->>IDE: Send suggestions response
+        IDE->>User: Show suggestions
+    end
+    alt Chat
+        User->>IDE: User interacts with Chat widget
+        IDE->>Rails: Start Chat session
+        Rails-->>IDE: Chat Session ID
+        IDE->>Rails: Send user message
+        Rails->>Rails: Use model in request (check model is allowed)
+        Rails->>AIGateway: Make chat request with model
+        AIGateway->>LLM: Send chat request
+        LLM-->>AIGateway: Chat response
+        LLM-->>IDE: Send chat response
+        IDE->>User: Show response
+    end
+```
+
+> **Note:** This is a simplified diagram and does not contain all details such as Authentication/Authorization of the requests
 
 ## Open Questions / Risks
 
