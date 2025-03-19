@@ -31,13 +31,16 @@ Page in progress - Purchased as of Jan 2025. Marketing Operations is in the proc
 
 ## Random Things to Know
 
-- Test events are no longer test events if the registrant number reaches 10 people
+- Specifications for creative assets, including video, can be found [here](https://help.goldcast.io/en_US/design/4406894301979-goldcast-design-specifications). **WARNING: Upload processing time can take up to 4x the length of the recorded video** and it's recommended for events to be 2 minutes longer than the video asset for pre-recorded events
+- Test events are no longer test events if the registrant number reaches 10 people. More information on test events [here](https://help.goldcast.io/en_US/event-settings/what-is-a-test-event-how-to-create-one)
 - When an event is set to convert to an on demand capable event, the transition occurs around the 35 minute mark after the event ends
 - While users can create custom fields within their events as needed, the data syncing into Marketo is set by Marketing Ops. **Do not add any fields into the Goldcsat -> Marketo sync without consulting Marketing Ops**
 - By default, `English` is set as the primary language in the event template. Captions and subtitles are also toggled on by default, but will only work correctly if the presenters are speaking in the set primary language
 - The `Enter Event` button on the registration landing page is recommended to be disabled, if it is not already. If enabled, registrants can enter the event earlier than 1 hour prior to event start. Instructions on disabling the button [here](https://help.goldcast.io/en_US/event-settings/4583663517211-disabling-the-enter-event-button#how-to-turn-off-the-enter-event-button-1)
 - Run on the assumption that settings cannot be changed within an hour of your event start time
 - When set to `Automatic`, the `Session Redirection Strategy` setting automatically allows registrants in at the event start time, but does not immediately force presenters on-stage. Having this set to `Manual` requires staff input to allow users in/out of the event
+- Goldcast registration landing pages are activated by default and cannot be deactivated, automatically deactivating soon after the event is over. The choice to use Marketo LPs vs Goldcast LPs is up to the event owner
+- File size maximum for video in a standard event is 5gb but we can contact support if the size is larger for a large event
 
 ## Fields syncing between Marketo and Goldcast
 
@@ -170,7 +173,7 @@ Marketo landing page tokens
 
 When starting event creation in Goldcast, start by clicking the `+` icon in the top right of the platform. If you are starting a standard webcast, select `New Webinar` from the selections.
 
-Fill in your `Title`, `Pick a Date`, `Start Time`, `End Time`, `Timezone`, and `Type` - many of these auto-populate into the Marketo program tokens. GitLab as an org will likely stick with `Live` and `Pre-recorded` types. The `RTMP` type is a feature that allows embedding to or from external tools.
+Fill in your `Title`, `Pick a Date`, `Start Time`, `End Time`, `Timezone`, and `Type` - All of these auto-populate into the Marketo program tokens, where appropriate. GitLab as an org will likely stick with `Live` and `Pre-recorded` types. The `RTMP` type is a feature that allows embedding to or from external tools.
 
 Select the template for your event. This covers a range of things, including the registration landing page, automated registration/reminder emails, the event console look & feel and the registration form format. 
 
@@ -180,9 +183,9 @@ Standard GitLab events will be within the `GitLab Inc` Team Workspace.
 
 Select a repeating event schedule, if desired. Note this functionality has not been fully tested with Marketo in mind. 
 
-If the event is for testing, toggle off the `Test Event` toggle. Test events max out at 10 registrants within the event. Test events also do not record and cannot be converted for `on-demand` viewing.
+If the event is for testing, toggle off the `Test Event` toggle. Test events max out at 10 registrants within the event. Test events also do not record and cannot be converted for `on-demand` viewing. More information on test events [here](https://help.goldcast.io/en_US/virtual-events/16616311404315-getting-started-with-goldcast-setting-up-running-an-event#test-event-12).
 
-If the Marketo program cloning feature worked correctly, Goldcast will have created a new Marketo program based on your Goldcast event within the `Templates - Goldcast Webcasts` folder or within whichever folder the program template lives in Marketo. The name given to the new Marketo program will match the Goldcsat event, plus a timestamp. Rename the Marketo program to fit the regular naming convention (`YYYYMMDD_EventName_Webcast_Goldcast_template`) and move the program to the appropriate folder for the FY/quarter within Marketo. 
+If the Marketo program cloning feature worked correctly, Goldcast will have created a new Marketo program based on your Goldcast event within the `Templates - Goldcast Webcasts` folder or within whichever folder the program template lives in Marketo. The name given to the new Marketo program will match the Goldcast event, plus a timestamp. Rename the Marketo program to fit the regular naming convention (`YYYYMMDD_EventName_Webcast_Goldcast_template`) and move the program to the appropriate folder for the FY/quarter within Marketo. Changing the name of the Marketo program does not affect the sync or the Goldcast event
 
 ### Event Creation within Marketo
 
@@ -260,11 +263,11 @@ From the Producer view during an event, there are several key controls to take n
 
 - A: Slides: A Producer or Speaker have the ability to control slide from here. `Speaker Mode` -seen below slides- shows speaker notes
 - B: Videos: Play a pre-loaded video from this menu. Video takes up the full stage for the audience and displays a timer to track the video ending. Video takes sound priority over Speakers
-- C: Screen 
-- D: Polls 
-- E: Q&A 
-- F: Overlay
-- G: Ticker 
+- C: Screen: Screen sharing options. Speakers, Producers and Coordinators can all use this feature 
+- D: Polls: Polls that have been pre-loaded prior to the event start can be activated here. Use the open/close buttons to activate/deactivate and the share button to show results
+- E: Q&A: Controls for Q&A. If Q&A moderation controls are on, Backstage must approve Qs before attendees can see. Backstage can also "ask" questions anonymously if "Hide Names" is selected 
+- F: Overlay: Controls to take over the screen with a written message
+- G: Ticker: Controls to post a message banner at the bottom of the screen. Tickers do not appear in recordings
 - H: Layout: Speakers, Producers and Coordinators all have access to change the console layout
 - I: Backstage Toggle: Use this toggle to increase the size of the audience view presented on your screen and minimize the Backstage information 
 - J: Mic controls
@@ -275,8 +278,15 @@ From the Producer view during an event, there are several key controls to take n
 - O: Text-based chat for those Backstage and to send alerts to the Speakers 
 - P: List of staff inside your event. This list also allows Producers to manually move Speakers onto the Stage or mute Speakers
 - Q: Controls to interact with the audience 
-- R: Speakers, who have the same interface as Producers, use this button to enter and leave the Stage
+- R: Speakers use this button to enter and leave the Stage. Producers also have this button visible and Coordinators cannot use the button 
+- S: Night mode for backstage 
+
+![Goldcast Stage Console](/images/marketing/marketing-operations/goldcast/goldcast_console.png)
 
 ## Content Hub
 
 under construction
+
+## Link to the original implementation training with Goldcast
+
+All GitLab employees can find all 4 implementation training videos performed by Goldcast staff in [this folder](https://drive.google.com/drive/folders/0AHjp9Psp-iDuUk9PVA) 
