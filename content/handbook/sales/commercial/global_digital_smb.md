@@ -286,8 +286,8 @@ For more information about managing HVA cases over the year, please review this 
 
 ### FO Opp (an SDR engages with a net new lead who has been qualified)
 
-Before picking up the case, the Advocate checks that they can attend the meeting (IQM) that appears as an Activity on the Contact record, and in the Next Steps fields.
-The Advocate should also advise the SDR, by chattering them on the opp, that they have picked up the case.
+Before picking up the case, the Advocate checks that they can attend the meeting (IQM) that appears as an Activity on the Contact record, and in the Next Steps fields. The SDR will be able to see that the case has routed to the Advocate assigned in the IQM.
+
 The below SDR Handover Process steps, and Handover Criteria, detailed below should also be followed by both the SDR and Advocate.
 
 *Note*: If Prospect is ready to buy (i.e no IQM is required), does not qualify for Advocate support, and is unable to purchase their license via Web (Ex: Multi-Year, Needs PO, Duo Pro, etc), please proceed with the [Blocked Purchase Workflow](https://docs.google.com/spreadsheets/d/18tGE_dpbx7nLu2S6bzD3WkLrHM3IrDv72WWJMgDDi64/edit#gid=920984489). Criteria [here](https://docs.google.com/spreadsheets/d/18tGE_dpbx7nLu2S6bzD3WkLrHM3IrDv72WWJMgDDi64/edit#gid=1849175247).
@@ -315,7 +315,7 @@ When an Advocate picks up a support case, and the case contains a link to a Zend
 Whilst working the case, the lead on the case should either be;
 
 - Converted to a contact under the linked account, if the lead confirms they work at the linked account/ company, AND there is an nARR opportunity.
-- Not converted/ disqualfied if the lead does not work at the linked account/ company, NOR there is no nARR opportunity.
+- Not converted/ disqualified if the lead does not work at the linked account/ company, OR there is no nARR opportunity.
 
 ### Expansion Opportunities
 
@@ -326,11 +326,7 @@ If the customer is looking to upgrade to Ultimate/ add users at the time of rene
 
 ### Case SLA
 
-All High Priority cases should be picked up and responded to within 24 hours of being routed and assigned.
-
-All Medium Priority cases should be picked up and responded to within 48 hours of being routed and assigned.
-
-All Low Priority cases should be picked up and responded to within 7 days of being routed and assigned.
+All cases should be picked up and reviewed within 24 hours of being routed and assigned.
 
 ### Open Case Guidelines
 
@@ -339,21 +335,6 @@ All cases should be worked, and closed out, within a 15 day period (except High 
 The above, and other data points, will be tracked on the below dash.  Periodically, the info will be presented to the Advocate so that they can 'clean up their room'.
 
 Due to the high case volume, it is imperative that the Required 10 is followed, so cases do not become stale.
-
-### Case Reason Dictionary
-
-- Account Question / Update
-- Adding Licenses / Purchasing Help
-- Billing / Payment
-- Licensing / Fulfillment
-- Off-Cycle Subscription Changes (no uplift)
-- Other
-- Renewal
-- Sales Evaluation (non-renewal)
-- Technical Question
-- Usage / Best Practices
-- New High Engagement Account - 5* PtE
-- New High Engagement Account - Tier 1 Uptier
 
 ### Case Resolution Action Dictionary
 
@@ -383,7 +364,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. Will cases be assigned to me everyday?
 - A. Yes, we expect new cases to be created daily, and to total approximately 400 per month.
 - Q. Can I pick up any Case in the queue?
-- A. No, cases will now be routed via Traction and should not be picked up out of the queue. Any case considered a High Value Account will be routed to the corresponding Advocate.
+- A. No, cases will now be routed via Traction and the queue is no longer used. Any case considered a High Value Account will be routed to the corresponding Advocate.
 - Q. How many cases should I work at any give time?
 - A. An Advocate should only own 50 In Progress cases at a time.  Once at 50, the Advocate is deemed to be at capacity.
 - Q. Where can I provide feedback on this model/ process?
