@@ -169,7 +169,7 @@ their README. The projects are meant to be cloned and used within your own space
 
 #### Click-through Demos
 
-Click-through demos, also known as product tours, are self-guided walkthroughs designed to showcase key features and workflows. The full list of available product tours can be found [here](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours). We have also created shorter versions that are ideal for booth demonstrations.
+Click-through demos, also known as product tours, are self-guided walkthroughs designed to showcase key features and workflows. The full list of available product tours can be found in the [Developer Advocacy content library](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours). We also provide shorter versions for booth demonstrations.
 
 ##### Demo Features
 
