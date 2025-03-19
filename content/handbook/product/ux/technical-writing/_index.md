@@ -583,5 +583,5 @@ For outages or website availability issues, see [Docs site infrastructure](https
 ## Related topics
 
 - [Documentation workflow](https://docs.gitlab.com/development/documentation/workflow/)
-- [Set up your local environment](https://docs.gitlab.com/development/documentation/#set-up-your-local-environment)
+- [Set up your local environment](https://docs.gitlab.com/development/documentation/authoring_environment.html)
 - [Documentation site architecture](https://docs.gitlab.com/development/documentation/site_architecture/)
