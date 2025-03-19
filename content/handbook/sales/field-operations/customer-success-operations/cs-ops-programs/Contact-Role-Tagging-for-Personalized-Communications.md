@@ -1,5 +1,6 @@
 ---
 title: "Customer Contact Role Tagging for Personalized Communications"
+description: "Learn the strategic approach to tagging customer contacts for more effective digital engagement."
 ---
 
 ## Why This Matters
