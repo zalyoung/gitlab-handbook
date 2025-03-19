@@ -256,7 +256,7 @@ Q. As an Advocate, if I am assigned a case, but there is no contact/ account/ le
 
 A. If a customer emails smallbusiness@ and they do not exist in Salesforce as a contact, the contact and account fields will not be populated on the case.  When this happens, we have no way of knowing which region the customer resides in.
 
-Upon viewing the case, an Advocate should check the **Web Email** field to see the customer email domain. Based on the domain, they should manually search for the Account in Salesforce, and add it to the case.  This will route the case to the correct GEO Sales User.
+Traction will attempt to match the person to a Contact or Lead using the Web Email field. If that fails, SMB Ops will be notified to determine where the case should be routed.
 
 Q. If a case is routed to me, but the customer continues to email smallbusiness@, how will I know?
 
@@ -268,9 +268,9 @@ A. No.  Unfortunately, the email will be attached to the prior case which is lik
 
 ### High Value Cases
 
-Whilst Accounts are always owned by the regions SMB Sales User, High Value Cases attached to accounts (Tier 1 accounts only), are owned by the SMB Advocate.
+Whilst Accounts are always owned by the regions SMB Sales User, High Value Cases attached to accounts are owned by the SMB Advocate.
 
-These cases are to remain open for the entirety of the FY26, even if the customer renews. This means that if a Tier 1 customer renews mid way during FY26, they will be assisted by the same Advocate both pre and post renewal.  This is subject to change in FY26.
+These cases are to remain open for the entirety of the FY26, even if the customer renews. This means that if a HVA customer renews mid way during FY26, they will be assisted by the same Advocate both pre and post renewal.
 
 These cases act as a reminder that these customers require continual attention and should be worked strategically during the financial year.
 
@@ -278,9 +278,11 @@ The Advocate is advised to build relationships with these customers, understand 
 
 The Advocate is advised to schedule ongoing touchpoints, update Next Steps/ Next Steps Date, and create future dated reminder Tasks, so that they plan their outreach throughout the year.
 
-Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case.  Any off created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.
+Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  Any opp created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.
 
 Note: A High Value Account can be closed out if the customer advises ahead of renewal that they definitely fully churn.  Only in this scenario should the case be closed out, and the *Resolution Action* must be set to *Request Not Possible*.  By setting the *Resolution Action* to *Request Not Possible*, future High Value Cases will not be created on the account.
+
+For more information about managing HVA cases over the year, please review this (FY26 SMB Account Planning slide) [https://docs.google.com/presentation/d/1zS6nkAUBMg_zpJjRM_dEfdc5uBTjt6RkdoQalndPZ-o/edit#slide=id.g341dcdaeb6b_1_0]
 
 ### FO Opp (an SDR engages with a net new lead who has been qualified)
 
