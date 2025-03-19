@@ -169,19 +169,18 @@ their README. The projects are meant to be cloned and used within your own space
 
 #### Click-through Demos
 
-Click-through demos are demos that can be run offline as well as be used as self-guided training.
-They are linear and primarily used to showcase a particular feature, and are a great asset for those
-with less experience in delivering demos and in environments where there is limited internet connectivity.
-The available click-through demos are as follows:
+Click-through demos, also known as product tours, are self-guided walkthroughs designed to showcase key features and workflows. The full list of available product tours can be found in the [Developer Advocacy content library](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours). We also provide shorter versions for booth demonstrations.
 
-- [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-- [Workspaces](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
-- [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
-- [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+##### Demo Features
 
-**Note**: To enhance performance and reduce reliance on the event's Wi-Fi network for events,
-it is recommended that you download the click-through demos locally onto the booth laptops.
-You can obtain the HTML files for this purpose directly from [here](https://gitlab.com/tech-marketing/static-demos/-/tree/master/public).
+- Navigate using the arrow keys (→/←)
+- Use `Ctrl + P` to toggle dialogs, which benefits the demonstration flow without popups.
+
+##### Available short versions
+
+- [Advanced SAST](https://gitlab.navattic.com/advanced-sast-short)
+- [Compliance Frameworks](https://gitlab.navattic.com/compliance-short)
+- [Vulnerability Explanation/Resolution](https://gitlab.navattic.com/ve-vr-short)
 
 ## Event Booth Training
 
