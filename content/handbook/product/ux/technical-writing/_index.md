@@ -569,20 +569,12 @@ For more information about community contributions, see:
 - [List of available issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=documentation&label_name%5B%5D=docs-only&label_name%5B%5D=Seeking%20community%20contributions)
 - [GitLab Docs repository](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com)
 
-## Documentation process
-
-See:
-
-- [Technical writing workflow](workflow/) in the handbook.
-- [Documentation workflows](https://docs.gitlab.com/development/documentation/workflow/) in the contributor documentation.
-- [Setting up a local environment](setup/) in the handbook.
-
-### Make an urgent content update on docs.gitlab.com
+## Make an urgent content update on docs.gitlab.com
 
 The documentation website is refreshed every hour. On rare occasions, we might have to publish documentation
 updates a little faster. If you need an urgent update, follow the steps to [manually deploy the docs site](https://docs.gitlab.com/development/documentation/site_architecture/deployment_process/#manually-deploy-to-production).
 
-### Report a docs website problem or infrastructure issue
+## Report a docs website problem or infrastructure issue
 
 Report website bugs or feature requests in the [issue list for the GitLab Docs project](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/issues).
 
@@ -590,4 +582,6 @@ For outages or website availability issues, see [Docs site infrastructure](https
 
 ## Related topics
 
+- [Documentation workflow](https://docs.gitlab.com/development/documentation/workflow/)
+- [Set up your local environment](https://docs.gitlab.com/development/documentation/#set-up-your-local-environment)
 - [Documentation site architecture](https://docs.gitlab.com/development/documentation/site_architecture/)
