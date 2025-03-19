@@ -141,7 +141,7 @@ sequenceDiagram
     MR->>DEV: Report status
 ```
 
-### As a Stakeholder, I want to be able to be able to investigate performance trends
+### As a Stakeholder, I want to be able to investigate performance trends
 
 ```mermaid
 sequenceDiagram
@@ -198,7 +198,7 @@ sequenceDiagram
       - Longer time to initial value
       - Requires specialized skills to build and maintain
       - Will reinvent capabilities already available in existing tools
-5. Use Object Storage (S3/GCS/Package Registry) to Store Baselines as JSON Files
+5. Use Object Storage (S3/GCS/Package Registry) for JSON Baselines
     - Pros:
       - Simple implementation with minimal infrastructure dependencies
       - Easy integration with CI/CD pipelines and existing tools
@@ -211,6 +211,8 @@ sequenceDiagram
       - Requires custom tooling for comparison and regression detection
       - Difficult to perform ad-hoc analysis or identify patterns across multiple tests
       - Doesn't scale well for storing full test result datasets, only suitable for baselines
+
+We opted for the current approach because it leverages our existing infrastructure investments while enabling the dynamic baselines critical for effective MR performance testing. This solution offers the best balance of implementation speed, analytical capabilities, and long-term scalability.
 
 ## References
 
