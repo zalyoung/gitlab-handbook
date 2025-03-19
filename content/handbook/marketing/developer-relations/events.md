@@ -174,7 +174,7 @@ Click-through demos, also known as product tours, are self-guided walkthroughs d
 ##### Demo Features
 
 - Navigate using the arrow keys (→/←)
-- Use Ctrl + P to toggle dialogs great to demonstrating the flow without popups.
+- Use `Ctrl + P` to toggle dialogs, which benefits the demonstration flow without popups.
 
 ##### Available short versions
 
