@@ -164,7 +164,7 @@ Issues must:
 
 - Be created in the `gitlab-org` group
 - Have the `Contributor Success` label
-- Have at least 1 `workflow` label (see below)    
+- Have at least 1 `workflow` label from the list below
 
 We use `priority` labels to designate focus areas per quarter.
 
