@@ -14,8 +14,6 @@ We are migrating tech stack applications to Lumos iteratively and not all apps a
 
 ## Create an Access Request
 
-> **Note:** Lumos is not yet available for all GitLab Team Members. A launch date and communication will come in the near future.
-
 1. Open Lumos from the Okta tile or in the Slack sidebar
 2. Select the app from the list
 3. Select the following options:
