@@ -183,7 +183,7 @@ We use `priority` labels to designate focus areas per quarter.
 
 Team members should select issues from `workflow::ready for development` based on `priority` label.
 While the team focuses on `priority::1` and `priority::2` issues for the current quarter, sometimes it makes sense to pick up a lower-priority task between larger projects.
-We are guided by GitLab's values on [efficiency](/handbook/values/#efficiency) and [iteration](/handbook/values/#iteration) to act as [managers of one](handbook/values/#managers-of-one) when choosing tasks.
+We are guided by GitLab's values on [efficiency](/handbook/values/#efficiency) and [iteration](/handbook/values/#iteration) to act as [managers of one](/handbook/values/#managers-of-one) when choosing tasks.
 
 ## Contributor Success Retrospective
 
