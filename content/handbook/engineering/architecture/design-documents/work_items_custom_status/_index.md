@@ -426,10 +426,10 @@ statuses, we refrain from doing so in the forseable future. Specifically we've e
 We'll use the feature flag `work_item_status_feature_flag` throughout the development of this feature.
 The actor needs to be the root group.
 
-For testing purposes, the feature flag is currently enabled in production for the Plan Stage testing 
+For testing purposes, the feature flag is currently enabled in production for the Plan Stage testing
 group called [gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage).
 
-The feature flag rollout issue can be found [here](https://gitlab.com/gitlab-org/gitlab/-/issues/521286).
+We're using [this feature flag rollout issue](https://gitlab.com/gitlab-org/gitlab/-/issues/521286).
 
 Since the feature will only be available in Premium and Ultimate tier, we consider it a licensed feature.
 The feature name is `work_item_status`.
