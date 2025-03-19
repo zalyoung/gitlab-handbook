@@ -20,8 +20,8 @@ This blueprint proposes the creation of a Performance Results Datastore that bui
 
 The Performance Results Datastore will complement our shift-left performance testing approach by enabling sophisticated data-driven decisions and providing comprehensive visibility into performance trends across environments, test scenarios, and GitLab versions. This evolution represents the next phase in our performance engineering maturity, turning the valuable data we already collect into actionable insights available to everyone.
 
-
 ## Overview
+
 ```mermaid
 flowchart LR
     %% Define nodes with meaningful IDs
@@ -162,6 +162,7 @@ flowchart LR
     classDef caseNode fill:white,stroke:#00838f,stroke-width:1px
     class MR,TA,DB,RD caseNode
 ```
+
 ```mermaid
 flowchart LR
     subgraph UC["Key Use Cases"]
@@ -211,6 +212,7 @@ flowchart LR
     classDef ucCase fill:white,stroke:#777,stroke-width:1px,stroke-dasharray: 2 2
     class MR,TA,DB,RD ucCase
 ```
+
 ## Motivation
 
 A centralized performance results datastore will enable powerful new capabilities for performance analysis and testing:
