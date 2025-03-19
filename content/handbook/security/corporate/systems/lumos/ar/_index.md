@@ -10,7 +10,7 @@ Lumos will automatically notify and get approval from your manager, system owner
 
 If provisioning automation exists, Lumos will perform the app provisioning automatically. If not, Lumos will notify the system owner to perform the manual provisioning steps and will report back when the system owner has confirmed provisioning is complete.
 
-We are migrating tech stack applications to Lumos iteratively and not all apps are avaialble yet. We are prioritizing applications based on provisioning automation capabilities and those with higher volume of access requests.
+We are migrating tech stack applications to Lumos iteratively and not all apps are available yet. We are prioritizing applications based on provisioning automation capabilities and those with higher volume of access requests.
 
 ## Create an Access Request
 
