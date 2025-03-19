@@ -283,12 +283,6 @@ working on deserves a retrospective:
 1. Include your EM and anyone else who should be involved (like the PM and counterparts).
 1. Coordinate a synchronous meeting if applicable. Add all feedback from the retrospective to the issue for future reference.
 
-## OKR
-
-Each quarter we have a series of Objectives and Key Results (OKRs) for our
-group. To find the current OKRs for this [quarter](/handbook/finance/#fiscal-year),
-check the [OKR project](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Atenant%20scale&milestone_title=Started).
-
 ## Error Budgets
 
 GitLab uses [error budgets](/handbook/engineering/error-budgets/) to measure the
