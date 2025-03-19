@@ -206,11 +206,11 @@ If you need assistance with a production issue or incident, please see the secti
 |[#g_cells_infrastructure](https://gitlab.enterprise.slack.com/archives/C07URAK4J59) | Discussions and requests specific to the Cells Infrastructure team. |
 |[#f_cells_and_organizations](https://gitlab.enterprise.slack.com/archives/C0609EXHX6F) | Channel for cross-functional discussion and coordination on Cells and Organizations. |
 
-The SaaS Platforms group is gradually directing requests for help to the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
+The SaaS Platforms group is gradually directing requests for help to the [#infrastucture-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
 This channel can be used if it is unclear which Infrastructure team the question should be directed to.
 For more information, refer to the [landing page for getting assistance](/handbook/engineering/infrastructure/getting-assistance/).
 
-The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](/handbook/engineering/infrastructure/getting-assistance/) page with any changes.
+The [#infrastucture-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](/handbook/engineering/infrastructure/getting-assistance/) page with any changes.
 
 #### Meetings
 
@@ -326,7 +326,7 @@ All team members are encouraged to schedule time for personal development. The f
 ### Other Slack Channels
 
 - [#production](https://gitlab.slack.com/archives/production)
-- [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V)
+- [#infrastucture-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V)
 - [#incident-management](https://gitlab.slack.com/archives/incident-management)
 - [#announcements](https://gitlab.slack.com/archives/announcements)
 - [#feed_alerts-general](https://gitlab.slack.com/archives/feed_alerts-general)
