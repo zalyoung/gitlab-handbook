@@ -20,6 +20,197 @@ This blueprint proposes the creation of a Performance Results Datastore that bui
 
 The Performance Results Datastore will complement our shift-left performance testing approach by enabling sophisticated data-driven decisions and providing comprehensive visibility into performance trends across environments, test scenarios, and GitLab versions. This evolution represents the next phase in our performance engineering maturity, turning the valuable data we already collect into actionable insights available to everyone.
 
+
+## Overview
+```mermaid
+flowchart LR
+    %% Define nodes with meaningful IDs
+    subgraph SRC["Performance Data Sources"]
+        direction TB
+        RA["Reference Architecture Runs"]
+        MR["MR Pipeline Tests"]
+        UX["UX Performance (GBPT)"]
+    end
+
+    subgraph STORE["Performance Datastore"]
+        direction TB
+        SS["Server-side Metrics"]
+        FE["Frontend/UX Metrics"]
+    end
+
+    subgraph VISUAL["Analysis & Visualization"]
+        direction TB
+        CI["CI/CD Pipeline Feedback"]
+        GRAF["Grafana Dashboards"]
+    end
+
+    subgraph CONS["Consumers"]
+        direction TB
+        DEV["Engineering Teams"]
+        PERF["Performance Stakeholders"]
+    end
+
+    %% Define the flow connections with better spacing
+    RA --> SS
+    MR --> SS
+    UX --> FE
+
+    SS --> CI
+    SS --> GRAF
+    FE --> CI
+    FE --> GRAF
+
+    CI --> DEV
+    GRAF --> DEV
+    GRAF --> PERF
+
+    %% Add use cases at the bottom - using four separate nodes with no visible connections
+    UC["Use Cases:"]
+    UC1["MR Pipeline Performance Validation"]
+    UC2["Trend Analysis"]
+    UC3["Dynamic Baselines"]
+    UC4["Regression Detection"]
+    UC --- UC1 --- UC2 --- UC3 --- UC4
+
+    %% Style the different components
+    classDef sources fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,rx:10px,ry:10px
+    classDef store fill:#fff8e1,stroke:#ffa000,stroke-width:2px,rx:10px,ry:10px
+    classDef visual fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,rx:10px,ry:10px
+    classDef consumers fill:#ffebee,stroke:#c62828,stroke-width:2px,rx:10px,ry:10px
+    classDef useCases fill:#e0f7fa,stroke:#00838f,stroke-width:1px
+    classDef ucItem fill:white,stroke:none
+    classDef ucLabel fill:none,stroke:none
+    classDef nodes fill:white,stroke-width:1px
+
+    class SRC sources
+    class STORE store
+    class VISUAL visual
+    class CONS consumers
+    class UC ucLabel
+    class UC1,UC2,UC3,UC4 ucItem
+    class RA,MR,UX,SS,FE,CI,GRAF,DEV,PERF nodes
+```
+
+```mermaid
+flowchart LR
+    %% Define nodes with meaningful IDs
+    subgraph SRC["Performance Data Sources"]
+        direction TB
+        RA["Reference Architecture Runs"]
+        MR["MR Pipeline Tests"]
+        UX["UX Performance (GBPT)"]
+    end
+
+    subgraph STORE["Performance Datastore"]
+        direction TB
+        SS["Server-side Metrics"]
+        FE["Frontend/UX Metrics"]
+    end
+
+    subgraph VISUAL["Analysis & Visualization"]
+        direction TB
+        CI["CI/CD Pipeline Feedback"]
+        GRAF["Grafana Dashboards"]
+    end
+
+    subgraph CONS["Consumers"]
+        direction TB
+        DEV["Engineering Teams"]
+        PERF["Performance Stakeholders"]
+    end
+
+    %% Define the flow connections
+    RA --> SS
+    MR --> SS
+    UX --> FE
+
+    SS --> CI
+    SS --> GRAF
+    FE --> CI
+    FE --> GRAF
+
+    CI --> DEV
+    GRAF --> DEV
+    GRAF --> PERF
+
+    %% Style the different components
+    classDef sources fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    classDef store fill:#fff8e1,stroke:#ffa000,stroke-width:2px
+    classDef visual fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef consumers fill:#ffebee,stroke:#c62828,stroke-width:2px
+
+    class SRC sources
+    class STORE store
+    class VISUAL visual
+    class CONS consumers
+```
+
+```mermaid
+flowchart LR
+    subgraph UC["Use Cases"]
+        MR["MR Pipeline<br>Performance Validation"]
+        TA["Trend<br>Analysis"]
+        DB["Dynamic<br>Baselines"]
+        RD["Regression<br>Detection"]
+    end
+
+    %% Style the use cases
+    classDef useCases fill:#e0f7fa,stroke:#00838f,stroke-width:2px
+    class UC useCases
+
+    %% Style the individual use case nodes
+    classDef caseNode fill:white,stroke:#00838f,stroke-width:1px
+    class MR,TA,DB,RD caseNode
+```
+```mermaid
+flowchart LR
+    subgraph UC["Key Use Cases"]
+        direction TB
+        MR["MR Pipeline Performance Validation"]
+        TA["Trend Analysis"]
+        DB["Dynamic Baselines"]
+        RD["Regression Detection"]
+    end
+
+    classDef ucBox fill:#f8f9fa,stroke:#555,stroke-width:1px
+    class UC ucBox
+
+    classDef ucItem fill:white,stroke:#999,stroke-width:1px,stroke-dasharray: 3 3
+    class MR,TA,DB,RD ucItem
+```
+
+```mermaid
+flowchart LR
+    %% Main components
+    SRC["Performance Data Sources"]
+    STORE["Performance Datastore"]
+    VISUAL["Analysis & Visualization"]
+    CONS["Consumers"]
+
+    %% Use cases positioned at bottom
+    UC["Use Cases:"]
+    MR["MR Pipeline\nValidation"]
+    TA["Trend Analysis"]
+    DB["Dynamic Baselines"]
+    RD["Regression Detection"]
+
+    %% Connect main components
+    SRC --> STORE --> VISUAL --> CONS
+
+    %% Position use cases in a row
+    UC --- MR --- TA --- DB --- RD
+
+    %% Style main components
+    classDef main fill:#f5f5f5,stroke:#333,stroke-width:1px
+    class SRC,STORE,VISUAL,CONS main
+
+    %% Style use cases
+    classDef ucTitle font-style:italic,fill:none,stroke:none
+    class UC ucTitle
+
+    classDef ucCase fill:white,stroke:#777,stroke-width:1px,stroke-dasharray: 2 2
+    class MR,TA,DB,RD ucCase
+```
 ## Motivation
 
 A centralized performance results datastore will enable powerful new capabilities for performance analysis and testing:
