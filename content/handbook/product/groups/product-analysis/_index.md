@@ -434,4 +434,3 @@ Recordings from office hours, analysis/read-outs, etc
 1. [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
 1. [Data Catalog/Data Guide Series](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (internal handbook)
 1. [Data Team Handbook](/handbook/enterprise-data/)
-1. [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
