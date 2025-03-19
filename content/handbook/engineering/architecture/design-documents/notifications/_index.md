@@ -130,7 +130,7 @@ erDiagram
 
 ### Notification settings 
 
-Currently notification settings allow users to define highly customizable rules for when to receive email notifications. To create parity between the current to-dos and email system, we should add the ability for users to establish if they want to receive email only, email and in-app notification, or just an in-app notification.
+Currently notification settings allow users to define highly customizable rules for when to receive email notifications. To create parity between the current to-dos and email system, we should add the ability for users to establish if they want to receive email only, email and web-based notification, or just an web-based notification.
 
 NOTE: Changes to the notification settings system apart from adding notification/email differentiation are out of scope for this project.
 
@@ -139,10 +139,11 @@ New columns in the `notification_settings`table:
 ```mermaid
 erDiagram
   NOTIFICATION_SETTINGS {
-        boolean email_enabled
-        boolean notification_centre_enabled
+        smallint channel
     }
 ```
+
+This will allow to not change anything for current records (we will add the `channel` column with `email` value) and for web-based notifications - we will be adding separate row, allowing maximal flexibility. 
 
 ### Events 
 
