@@ -52,47 +52,9 @@ Please refer to [epic hierarchy](/handbook/security/security-assurance/security-
 
 Much of our work related to the [FedRAMP Authorization Program](/handbook/security/security-assurance/security-compliance/fedramp-compliance/) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
 
-### Engagement Model
+### <details><summary> How We Work</summary>
 
-- Slack
-  - Feel free to tag `@sec-compliance-team` to reach the entire Security Compliance team
-  - The `#sec-assurance` slack channel is the best place for questions relating to our team
-- Tag us in GitLab
-  - `@gitlab-com/gl-security/security-assurance/security-compliance`
-
-## Success Metrics
-
-| **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Median Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| Good = 12 months, Better = 6 months, Best = 3 months| Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationsKPI/SecCompLeadershipMetrics?:iid=3)| n/a|
-| TCV/ARR of new business opportunities by certification | This metric tracks demand ($) for certifications to prioritize efforts with Product and Engineering | We are working on adding a drop-down field to Salesforce to capture customer certification requests.| TBD | TBD| TBD | This is not complete. We are working with the sales team to make this possible.|
-| Compliance posture by NIST CSF function/category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)| n/a|
-| Number of compliance findings (Observations) that are fresh| This metrics captures our ability to stay engaged with remediation owners and activities that affect our certifications and security posture. | This looks at the last updated date of the open issues in the observation management repo.| 80% of issues are fresh| Real-time| [Tableau Dashabord](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)| n/a|
-
-## FY26 Strategic Initiatives
-
-### Primary Focus Areas
-
-[List 3-4 key initiatives your team will focus on this fiscal year. For each, include:
-
-Objective
-Key deliverables
-Timeline
-Success criteria]
-
-Fedramp ATO / stackarmor transition
-ISO42001
-ISMAP
-Cert Maintenance
-GCF v4
-
-## Review and Updates
-
-This charter will be reviewed and updated quarterly to ensure alignment with: [List key alignment points and criteria for updates]
-
-Next scheduled review: [2025-07-31]
-
-### Epic hierarchy
+#### Epic hierarchy
 
 The our team top-level epic is simply a SSOT for status updates for epic assignees / directly responsible individuals (DRIs). The immediate child epics get a `seccomp-roadmap` label to appear in our epic board and effectively constitute our roadmap.
 
@@ -191,7 +153,7 @@ DRIs should provide weekly updates for the DRI's epics according to following pr
        - **Progress since last update** - Changes deployed to production, unblocked blockers, any other progress achieved.
        - **Risk and Confidence** - Any new blockers identified or existing blockers that persist? Any other challenges now or in the near future? How do these blockers and/or challenges affect our confidence of completing by scheduled due date per the roadmap?
        - **Mitigations** -  What is required to overcome challenges or blockers identified?  Should this be escalated to other team members, teams, executives, or domain experts?
-   - **Update Workflow and Health label** - After each status update, the workflow label and health status should be updated. See [Labels](#labels).
+   - **Update Workflow and Health label** - After each status update, the workflow label and health status should be updated. See the [SecComp Team Issue Tracker Readme](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/blob/main/README.md?ref_type=heads) for details on label structure.
 1. **Top-Level Epic Status Update** [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries) periodically synthesizes updates from the DRI's status update reply comment to automatically populate their epic with the status and the top-level team epic.
 1. In order to ensure efficiency we will use these same status updates across any other department, division, or OKR status updates, to include broadcasts in Slack.
 
@@ -204,54 +166,47 @@ Prior to the start of a new quarter, the team will spend time refining the epic 
 - Exit criteria (break down the work into smaller, logical chunks and highlight dependencies and predecessors)
 
 When the above information is being added, the Epic will move from Triage to Ready status. The goal is to start each quarter with our planned roadmap items for that quarter in the Ready list.
+</details>
 
-### Labels
+### Engagement Model
 
-At GitLab, we like to label everything. It provides critical metadata on epics and issues because GitLab does not yet [support custom fields](https://gitlab.com/groups/gitlab-org/-/epics/235). We will work on automation that automatically applies labeling logic to issues or reminds assignees, however this is a work in progress. The SSOT for our labeling schemes will soon become our [team's issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team) (new as of Oct 2024).
+- Slack
+  - Feel free to tag `@sec-compliance-team` to reach the entire Security Compliance team
+  - The `#sec-assurance` slack channel is the best place for questions relating to our team
+- Tag us in GitLab
+  - `@gitlab-com/gl-security/security-assurance/security-compliance`
 
-The easiest way to ensure all labels are applied to issues is to use issue templates for everything which can have [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html) with pre-populated labels that can be modified as needed. A [feature that includes epic templates](https://gitlab.com/gitlab-org/gitlab/-/issues/428690) will hopefully be coming soon but for now refer back to the.
+## Success Metrics
 
-**All epics and issues should have the following labels:**
+| **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Median Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| Good = 12 months, Better = 6 months, Best = 3 months| Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationsKPI/SecCompLeadershipMetrics?:iid=3)| n/a|
+| TCV/ARR of new business opportunities by certification | This metric tracks demand ($) for certifications to prioritize efforts with Product and Engineering | We are working on adding a drop-down field to Salesforce to capture customer certification requests.| TBD | TBD| TBD | This is not complete. We are working with the sales team to make this possible.|
+| Compliance posture by NIST CSF function/category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)| n/a|
+| Number of compliance findings (Observations) that are fresh| This metrics captures our ability to stay engaged with remediation owners and activities that affect our certifications and security posture. | This looks at the last updated date of the open issues in the observation management repo.| 80% of issues are fresh| Real-time| [Tableau Dashabord](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)| n/a|
 
-1. **All epics and issues should have our team label: `team::security compliance`.**
-1. Scoped `seccomp workflow::` labels.
-1. Scoped `seccomp-function::` labels
-1. Issues will likely need other labels that may be specific to a function's workflow or critical for capturing metrics.
+## FY26 Strategic Initiatives
 
-**In addition to the above, roadmap epics (direct child epics on the top-level team epic) should have:**
+### Primary Focus Areas
 
-1. `seccomp-roadmap` which is used by the team epic board
-1. Fiscal year and quarter(s) (e.g. `FY26-Q1` (and `FY26-Q2` if it spans multiple quarters))
+[List 3-4 key initiatives your team will focus on this fiscal year. For each, include:
 
-#### Workflow Labels
+Objective
+Key deliverables
+Timeline
+Success criteria]
 
-Workflow steps can be skipped. For example, if an issue is well-defined when it is created, feel free to add the ready or in progress label. The proposal step may not be used frequently and that is ok.
+Fedramp ATO
+ISO42001
+ISMAP
+Cert Maintenance
+GCF v4
 
-| Label                      | Description                                  |
-|----------------------------|----------------------------------------------|
-| seccomp workflow::triage   | Initial review to determine priority and next steps. |
-| seccomp workflow::proposal | An idea that is in planning and being refined  |
-| seccomp workflow::ready    | Task is well-defined and ready to be worked on.  |
-| seccomp workflow::in progress | Actively being worked on by the assignee.  |
-| seccomp workflow::blocked  | Task is halted due to dependencies. |
-| seccomp workflow::stalled  | Work has paused but can be resumed later.    |
-| seccomp workflow::complete | Task has been successfully finished and the issue closed.  |
-| seccomp workflow::canceled| Task is no longer relevant and has been stopped and the issue closed. |
+## Review and Updates
 
-#### Function Labels
+This charter will be reviewed and updated quarterly to ensure alignment with: [List key alignment points and criteria for updates]
 
-| Label                          | Description                                    |
-|--------------------------------|------------------------------------------------|
-| seccomp-function::audit-attestation | Preparation and support for external audits.  |
-| seccomp-function::certification maintenance | Ongoing work to maintain existing certifications. |
-| seccomp-function::observation mgmt | Tracking and managing audit observations.    |
-| seccomp-function::gap assessments | Identifying gaps in controls or compliance.  |
-| seccomp-function::automation   | Developing and implementing automated solutions. |
-| seccomp-function::continuous monitoring | Ongoing checks to ensure control effectiveness. |
-| seccomp-function::user access reviews | Reviewing user permissions for compliance.  |
-| seccomp-function::projects     | Work related to specific projects or initiatives. |
-| seccomp-function::miscellaneous| Tasks that do not fall under a specific function. |
-| seccomp-function::team mgmt    | Activities related to managing and supporting the team. |
+Next scheduled review: [2025-07-31]
 
 ## References
 
