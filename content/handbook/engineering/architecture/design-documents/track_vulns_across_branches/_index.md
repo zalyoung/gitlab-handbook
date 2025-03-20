@@ -14,13 +14,13 @@ toc_hide: true
 
 ## Summary
 
-Perhaps one of the most in demand features for GitLab currently is the ability to [track vulnerabilities across multiple branches](https://gitlab.com/groups/gitlab-org/-/epics/3430). While the current implementation of vulnerability management features in GitLab offers a lot of power, the implementation is very inflexible. As a result, workflows which may involve running different versions of an application, be that old releases or modified versions are unable to track vulnerabilities without forking the code to seperate projects entirely.
+Perhaps one of the most in demand Sec features for GitLab currently is the ability to [track vulnerabilities across multiple branches](https://gitlab.com/groups/gitlab-org/-/epics/3430). While the current implementation of vulnerability management features in GitLab offers a lot of power, the implementation is very inflexible. As a result, workflows which may involve running different versions of an application, be that old releases or modified versions are unable to track vulnerabilities without forking the code to seperate projects entirely.
 
-Unfortunately, GitLab's current code is not built to facilitate this need, so we need to carefully consider the changes we can make to the system to make it possible without endangering the stability of the system.
+Unfortunately, GitLab's current code is not built to facilitate this need, so we need to consider changes to make it possible without endangering the stability of the system.
 
 ## Motivation
 
-One of the primary examples provided by users seeking to facilitate the tracking of vulnerabilities across multiple branches is when they run multiple versions or deployments of a project concurrently. 
+One of the primary examples provided by users seeking tracking of vulnerabilities across multiple branches is needing to run multiple versions or deployments of a project concurrently. 
 
 Under this model, an application which an organisation may continue to provide bug and security fixes for older versions is unable to easily manage vulnerabilities in multiple supported versions of code using GitLab's integrations. This can lead to users either being forced to use GitLab in unintended ways to facilitate their security scans, or opt to use other scanning tools to avoid this inconvenience.
 
@@ -49,7 +49,7 @@ Risks:
 
 #### Growth Estimation
 
-The GitLab project reports 622566 commits at time of writing. 3153 of which in the last hour. And 50481 branches.
+The GitLab project reports 622566 commits in March of 2025. 3153 of which in the last hour. And 50481 branches.
 Lets assume a data structure of vulnerability has_many vulnerability_commits, we can track every commit that contains a respective vulnerability. However, as you might guess, this in itself would be a vastly multiplicative proposition. If we propose a worst case that the project contains 10000 vulnerabilities since it existed, then we would create 6_225_660_000 vulnerability_commit records to track this. This is entirely infeasible without improvements.
 
 However, we know that a vulnerability present in a codebase is not functionally different from commit to commit. So what we're actually more interested in, is when a vulnerability started being in a codebase, and when it ceased to be.
@@ -57,7 +57,7 @@ Using `git rev-list --ancestry-path 7b4a07a..ecf5891` one can trace back the com
 
 ##### Mitigation - Protected Branches Only
 
-Proposed by Alana Bellucci originally as a potential mitigation to our scaling concerns. The idea is to only track vulnerabilities for protected branches to avoid overingestion and uncontrollable data growth. Ideally we would want to be able to track information for longer, but we need to architect according to our architectural capabilities. The gitlab project currently only has 12 protected branches. Using the proposed vulnerability_commits model with ancestry_path tracking, this means we would would track 120_000 vulnerability_commit records for the gitlab project, which is well within the realm of feasible, though would mean potentially many user cases would go unserved.
+Proposed by Alana Bellucci originally as a potential mitigation to our scaling concerns. The idea is to only track vulnerabilities for protected branches to avoid over-ingestion and uncontrollable data growth. Ideally we would want to be able to track more information, but we need to architect with scalable limits in mind. The GitLab project currently only has 12 protected branches. Using the proposed `vulnerability_commits` model with `ancestry_path` tracking, this means we would would track 120_000 `vulnerability_commit` records for the GitLab project, which is well within the realm of feasible, though would mean many user cases would go unserved.
 
 ##### Mitigation - Branch Assumption
 
@@ -77,13 +77,13 @@ If we consider the Branch Merging mitigation to be a sufficient case where we ma
 
 A very important subject in GitLab currently is the correct application of retention policies to data to avoid eternal storage of unused information. We are already in the process of implementing a [retention policy for vulnerability](https://gitlab.com/groups/gitlab-org/-/epics/12229) information based on the age of the vulnerability.
 
-Beginning to track vulnerability infomration across multiple branches may increase the amount of vulnerability information we ingest and hold. Some questions we need to consider is depending on how much more information this causes us to start tracking, how will this affect our desired retention policies?
+Beginning to track vulnerability information across multiple branches will increase the amount of vulnerability information we ingest and hold. Some questions we need to consider is how will this affect our desired retention policies?
 
-Theoretically, it should be okay to continue to apply our existing retention policy of 12 months to vulnerability data tracked across all branches, but the danger here is that this could signifcantly expand the amount of data we store in the database at a given time. As this can have a variety of knock-on performance impacts, it's something for us to design around and test carefully.
+Theoretically, it should be okay to continue to apply our existing retention policy of 12 months to vulnerability data tracked across all branches, but the danger here is that this could significantly expand the amount of data we store in the database at a given time. As this can have a variety of knock-on performance impacts, it's something for us to design around and test carefully.
 
 ### Ingestion and Processes
 
-The majority of GitLab has been written in such a way that most services and processes operate under the expectation that a vulnerability is a singular entity (even despite the 1 to many relationship with vulnerability_occurrences). As a result, we may encounter a significant amount of potential issues in application logic depending on how we approach the implementation.
+The vulnerability management system has been written in such a way that most services and processes operate under the expectation that a vulnerability is a singular entity (despite the 1 to many relationship with vulnerability_occurrences). As a result, we may encounter a significant amount of potential issues in application logic depending on how we approach the implementation.
 
 ## Other Considerations
 
@@ -91,6 +91,6 @@ The majority of GitLab has been written in such a way that most services and pro
 
 Search and filter mechanisms for vulnerabilities in GitLab are already struggling to work in GitLab at the scale of very large users, and has required significant optimisation to make possible.
 
-Without significant modification, it is unlikely that we will be able to use our existing implementations to facilitate search and filtering once we begin tracking vulnerabilities across multiple. 
+Without modification, it is unlikely that we will be able to use our existing Postgres implementations to facilitate search and filtering once we begin tracking vulnerabilities across multiple. 
 
-However, we are in progress implementing the ingestion of vulnerabililties into ElasticSearch to enable more powerful search and filtering functionalities for GitLab.com at our very large data scales. This implementation will likely be very useful to facilitate search and comparison across branches as we begin to track data for non-default branches. 
+However, we are in progress implementing ElasticSearch to enable more powerful search and filtering functionalities at our very large data scale. This implementation will likely be very useful to facilitate search and comparison across branches as we begin to track data for non-default branches. 
