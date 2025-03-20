@@ -3,32 +3,9 @@ title: "Verify:Runner"
 description: "The GitLab Runner team page."
 ---
 
-## Vision
+## Mission and Vision
 
-By 2025, our vision for GitLab Runner is that the runner's setup and day-to-day operations at scale be an almost zero-friction experience.
-
-## Mission
-
-Our mission is to enable organizations to efficiently run GitLab CI/CD jobs on any computing platform and do so in an operationally efficient and highly secure way at any scale.
-
-This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps stage.
-
-## Product Strategy and Roadmap
-
-The product strategy and roadmap for the runner product categories are covered on the following direction pages.
-
-- [Runner Core](https://about.gitlab.com/direction/verify/runner_core/)
-- [Hosted Runners](https://about.gitlab.com/direction/verify/hosted_runners/)
-- [Fleet Visibility](https://about.gitlab.com/direction/verify/fleet_visibility/)
-
-## UX strategy
-
-Our UX vision, more information around how UX and Development collaborate, and other UX-related information will be documented in the [UX Strategy page](/handbook/product/ux/product-design/ux-roadmaps/).
-Our [Jobs to be Done](/handbook/product/ux/jobs-to-be-done) are documented in [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/) and provide a high-level view of the main objectives. Our User Stories are documented in [Runner Group - User Stories](/handbook/engineering/development/ops/verify/runner/user-stories/) which guide our solutions as we create design deliverables, and ultimately map back to JTBDs.
-
-## Performance Indicator
-
-In the [OPS section](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/), we continuously define, measure, analyze, and iterate or Performance Indicators (PIs). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
+Our mission is to enable organizations to efficiently run GitLab CI/CD jobs on any computing platform and do so in an operationally efficient and highly secure way at any scale. By 2025, our vision for GitLab Runner is that the runner's setup and day-to-day operations at scale be an almost zero-friction experience.
 
 ## Team Members
 
@@ -41,24 +18,6 @@ The following people are permanent members of the Verify:Runner group:
 {{< stable-counterparts role="Verify:Runner" manager-role="Engineering Manager(.*)Verify:Runner" >}}
 
 For a more comprehensive list of counterparts, look at the [runner product categtory](/handbook/product/categories/#runner-group)
-
-## Dashboards
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="runner" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="runner" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="runner" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="runner" >}}
-{{< /tableau >}}
 
 ## Projects we maintain
 
@@ -529,22 +488,30 @@ where you choose a reviewer (usually not a maintainer) and then send it over to 
 Current maintainers are members of the [`runner-maintainers`](https://gitlab.com/groups/gitlab-com/runner-maintainers/-/group_members?with_inherited_permissions=exclude) group.
 Current reviewers are members of the [`runner-group`](https://gitlab.com/groups/gitlab-com/runner-group/-/group_members?with_inherited_permissions=exclude) group.
 
-## Runner PM and engineering pre and post-sales process for runner scaling and configuration deep dives
-
-As part of the pre-sales and post-sales engagement, your customer may have in-depth questions regarding topics such as GitLab Runner configuration, autoscaling options, how concurrency works, distributing the CI jobs workload, monitoring runners, and so on. The goal of the process below is to enable the runner team to be as efficient as possible in providing the level of support that our sales team and customers require.
-
-### Step 1
-
-- Start with the current [documentation page](https://docs.gitlab.com/runner/fleet_scaling/) on scaling a fleet of runners.
-
-### Step 2
-
-- Open an issue in the customer collaboration project and capture the specific configuration questions that the customer has. The purpose of the issue is to address some questions async if possible and finalize the agenda for any follow up synch calls . It also allows us to identify if we need to invite a specific engineer to the customer  call. Example [issue](https://gitlab.com/gitlab-com/account-management/eastern-north-america/walmart-poc-planning/-/issues/5).
-
-### Step 3
-
-- As needed, schedule the sync call with the customer and the Runner PM. The Runner PM will determine if other runner engineers will be included on the call.
-
 ## Team Resources
 
 See [dedicated page](/handbook/engineering/development/ops/verify/runner/team-resources/#overview).
+
+## Measuring Results
+
+### Key Performance Indicators
+
+In the [Ops section](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/), we continuously define, measure, analyze, and iterate or Performance Indicators (PIs). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
+
+### Dashboards
+
+- [Error Budget: Runner](https://dashboards.gitlab.net/d/stage-groups-detail-runner/)
+- [Development Dashboard: Tableau](https://10az.online.tableau.com/t/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/DevelopmentEmbeddedDashboard/f2eba4fc-66a3-487e-906f-2c60c6245132/67a2c48d-f059-44d5-bd99-ee533d914266)
+
+## Product Strategy and Roadmap
+
+The product strategy and roadmap for the runner product categories are covered on the following direction pages.
+
+- [Runner Core](https://about.gitlab.com/direction/verify/runner_core/)
+- [Hosted Runners](https://about.gitlab.com/direction/verify/hosted_runners/)
+- [Fleet Visibility](https://about.gitlab.com/direction/verify/fleet_visibility/)
+
+## UX strategy
+
+Our UX vision, more information around how UX and Development collaborate, and other UX-related information will be documented in the [UX Strategy page](/handbook/product/ux/stage-group-ux-strategy/ci-cd/).
+Our [Jobs to be Done](/handbook/product/ux/jobs-to-be-done) are documented in [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/) and provide a high-level view of the main objectives. Our User Stories are documented in [Runner Group - User Stories](/handbook/engineering/development/ops/verify/runner/user-stories/) which guide our solutions as we create design deliverables, and ultimately map back to JTBDs.
