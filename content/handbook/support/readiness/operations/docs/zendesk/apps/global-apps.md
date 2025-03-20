@@ -462,7 +462,6 @@ App information:
 - This application was developed in-house and can be found
   [Zendesk Super App project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/zendesk-super-app).
 
-
 ## ZenDuo
 
 <sup>*Introduced via [support-team-meta#6689](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6689)*</sup>
