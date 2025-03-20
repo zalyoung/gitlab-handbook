@@ -26,7 +26,7 @@ The [Data Insights Platform](https://docs.google.com/document/d/1V3XRXfPquBrI_-o
 
 A part of this work, that needs further definition, is being able to query the analytical data once the data is processed and persisted in the DIP. The querying API must:
 
-- Be easy for customers to use that moves the complexity of interacting with different data tables away from the API, and into the backend service.
+- Be easy for customers to use and moves the complexity of interacting with different data tables away from the API, and into the backend service.
 - Be consistent for customers to easily identify what data is available, what properties that data has, and how they can interact with it.
 
 This is important because of the current confusion with GitLab APIs in general. The problem we face is that many of the GitLab GraphQL and REST APIs are inconsistent, contributing to the confusion our customers face when interacting with GitLab, and we must avoid compounding that further.
