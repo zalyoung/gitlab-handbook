@@ -43,7 +43,7 @@ Role overviews, responsibilities, requirements, and performance indicators can b
 
 - [People Operations Program Manager](/job-families/people-group/people-operations-program-manager/)
   - Key Ongoing Programs: Quarterly intake and program management of HR systems, tools, and technologies (i.e. Workday)
-- [Global Workforce Strategy Program Manager](/job-families/people-group/global-workforce-strategy/#senior-global-workforce-strategy-program-manager)
+- [Global Workforce Strategy Program Manager](/job-families/people-group/global-workforce-strategy/)
   - Key Ongoing Programs: Own employment solution model across every country and PEO relationships
 - [People Compliance Program Manager](/job-families/people-group/people-compliance/)
   - Key Ongoing Programs: Cross-functional programs that mitigate risk and drive success, People policy and labor-law related program iterations and implementations (US and EMEA)
