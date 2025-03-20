@@ -32,13 +32,16 @@ This IDE runs purely in the browser.
 This IDE runs a server and an optional client which is used to connect remotely. 
 1. **GitLab Workflow extension**: An extension which adds GitLab features to VS Code.
 1. **GitLab Agent for Kubernetes(agentk)**: A component for solving any GitLab<->Kubernetes integration tasks.
-1. **GitLab Agent Server(kas)**: A server running alongside GitLab Rails application to feliciate connections between the GitLab Agent for Kubernetes(agentk) and GitLab and vice versa.
+1. **GitLab Agent for Workspaces(agentw)**: A component for solving any GitLab<->Workspace integration tasks.
+1. **GitLab Agent Server(KAS)**: A server running alongside GitLab Rails application to feliciate connections between different GitLab Agents(agentk, agentw) and GitLab and vice versa.
 
 ## Overview
 
-Each workspace is run as a group of user provided containers in a Pod in Kubernetes through an integration with GitLab Agent for Kubernetes.
+Each workspace is run as a group of user provided containers in a Pod in Kubernetes through an integration with GitLab Agent for Kubernetes(agentk).
 We inject an IDE(e.g. GitLab VS Code fork for Workspaces) in each Pod. We aim to be IDE agnostic.
-The workspace can be accessed through GitLab Workspaces Proxy deployed in the user's Kubernetes cluster.
+The workspace can either be accessed through GitLab Workspaces Proxy deployed in the user's Kubernetes cluster
+or through the bi-directional gRPC tunnel established by the GitLab Agent for Workspaces(agentw)
+injected in the workspace.
 
 ## Architecture
 
@@ -63,6 +66,7 @@ See [Architecture for Kubernetes setup](./architecture_kubernetes_setup.md) for 
 1. [015: Allow mapping of GitLab Agent for Kubernetes(agentk) to GitLab Cluster](./decisions/015_allow_mapping_of_agentk_to_gitlab_cluster.md)
 1. [016: Allow users to run sudo commands inside a workspace](./decisions/016_allow_users_to_run_sudo_commands.md)
 1. [017: Allow users to build and run containers inside a workspace](./decisions/017_allow_users_to_build_and_run_containers.md)
+1. [018: Remove GitLab Workspaces Proxy to simplify setup](./decisions/018_remove_gitlab_workspaces_setup.md)
 
 ## Helpful Links
 
