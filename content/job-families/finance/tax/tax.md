@@ -154,7 +154,7 @@ The Senior Manager, Global tax Accounting and Domestic Tax is a grade 9.
 
 The Senior Manager, Multinational Tax (Non US) reports to the Director, Multinational Tax.
 
-### Job Grade
+### Senior Manager, Multinational Tax Job Grade
 
 The Senior Manager, Multinational Tax (Non US) is a job [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -234,7 +234,7 @@ The Director, Global Tax Accounting and Domestic Tax is a [grade 10](/handbook/t
 
 #### Director of Multinational Tax
 
-### Job Grade
+### Director of Multinational Tax Job Grade
 
 The Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -275,7 +275,7 @@ The Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/co
 
 #### Senior Director of Multinational Tax
 
-### Job Grade
+### Senior Director of Multinational Tax Job Grade
 
 The Senior Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
