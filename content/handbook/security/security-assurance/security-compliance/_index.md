@@ -5,7 +5,7 @@ description: "Security Compliance Team"
 
 ### Security Compliance Team Charter
 
-Last Updated: 2025-03-11
+Last Updated: 2025-03-20
 
 ## Mission Statement
 
@@ -17,7 +17,7 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
 
 ## Core Competencies
 
-1. [Security certifications and attestations](./security-compliance/certifications/)
+1. [Security certifications and attestations](../security-compliance/certifications/)
    - Gap Analysis Program: feasibility analysis for certification expansion
    - External Audit coordination and execution
 1. [Continuous Monitoring of GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
@@ -27,7 +27,7 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps of
    - [Risk-based control testing](./risk-based-control-testing.md)
    - [PCI Internal Control Review](./pci-internal-control-review.md)
    - [FedRAMP Continuous Monitoring](./fedramp-compliance.md)
-1. [Observation and Remediation Management](./observation-management-procedure.md)
+1. [Observation and Remediation Management](../observation-management-procedure.md)
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
    - Provide remediation recommendations and guidance
@@ -48,7 +48,6 @@ We use agile program management and project management best practices to organiz
 ### Core Processes
 
 The single source of truth for all of in-progress work is the Security Compliance [team top-level epic](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics/289), which has detailed status updates, along with the [team epic board](https://gitlab.com/groups/gitlab-com/-/epic_boards/1063538?label_name[]=seccomp-roadmap) which we use to visualize workflow status and compare to our [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing). All work that is directly associated with our roadmap should take place via these and issues should be opened in the [Security Compliance Team Issue Tracker project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). This is important for two reasons: It allows us to work efficiently by centralizing and organizing our work in a single place using a robust labeling scheme and it allows us to report on various operational metrics (performance indicators).
-Please refer to [epic hierarchy](/handbook/security/security-assurance/security-compliance/#epic-hierarchy) below for more details on how we leverage epics.
 
 Much of our work related to the [FedRAMP Authorization Program](/handbook/security/security-assurance/security-compliance/fedramp-compliance/) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
 
@@ -66,7 +65,7 @@ The diagram below shows an example of traversing the complete hierarchy:
 
 ```mermaid
 graph TD
-A(Security Compliance top-level epci) --> B(SOC 2 Type 2 attestation)
+A(Security Compliance top-level epic) --> B(SOC 2 Type 2 attestation)
 B --> C([Epic])
 B --> D([SOC 2 Type 2 Gap Assessment for GitLab.com])
 B --> E([Expand SOC 2 TSC scope to include Availability criteria])
@@ -124,7 +123,7 @@ The bottom status note comments at the bottom are important as this is what is u
     1. The date that a project actually ended is taken from the date that the epic was closed
 1. **Health status** should be kept updated (on track, needs attention, at risk)
 
-Labels are described in the [Labels section](#labels).
+Labels are described in the [Labels section](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team#labels).
 
 #### Roadmap
 
@@ -180,31 +179,31 @@ When the above information is being added, the Epic will move from Triage to Rea
 
 | **Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Median Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| Good = 12 months, Better = 6 months, Best = 3 months| Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationsKPI/SecCompLeadershipMetrics?:iid=3)| n/a|
-| TCV/ARR of new business opportunities by certification | This metric tracks demand ($) for certifications to prioritize efforts with Product and Engineering | We are working on adding a drop-down field to Salesforce to capture customer certification requests.| TBD | TBD| TBD | This is not complete. We are working with the sales team to make this possible.|
-| Compliance posture by NIST CSF function/category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)| n/a|
+| Median Time to Remediate| This metric tracks our ability to remediate compliance observations compared to our SLAs.| A calculation of the time between and issues being created and closed within the [observation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management) broken out by quarter and each risk level.| High = 6 months, Medium = 1 year | Quarterly | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)| n/a|
+| TCV / ARR of new business opportunities by certification | This metric tracks demand ($) for certifications to prioritize efforts with Product and Engineering | We are working on adding a drop-down field to Salesforce to capture customer certification requests.| TBD | TBD| TBD | This is not complete. We are working with the sales team to make this possible.|
+| Compliance posture by NIST CSF function and category (% of controls passing) | Demonstrates the level of control effectiveness in each function/category, helping management understand which areas are strong or need improvement.| We leverage the testing consculsions for the assessments completed in the fiscal year for each NIST CSF category and function area.| 90% or greater passing in each function and category | Annual | [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/FY24SecCompControlMonitoringResults/FY24CMResults?%3Aiid=1)| n/a|
 | Number of compliance findings (Observations) that are fresh| This metrics captures our ability to stay engaged with remediation owners and activities that affect our certifications and security posture. | This looks at the last updated date of the open issues in the observation management repo.| 80% of issues are fresh| Real-time| [Tableau Dashabord](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1)| n/a|
 
 ## FY26 Strategic Initiatives
 
 ### Primary Focus Areas
 
-[List 3-4 key initiatives your team will focus on this fiscal year. For each, include:
+| # | Objective | Key Deliverables | Timeline |
+|:-:| :-------- | :--------------- | :------: |
+| 1| FedRamp ATO| - Achieve Agency ATO Achieve <br> - FedRAMP Authorized on FedRAMP Marketplace <br>| Ongoing in FY26|
+| 2| Certification Expansion| - Perform Gap Assessments for ISO 42001 and ISMAP <br> - Prepare and share audit report on our posture and readiness for the certifications <br> - Support remediatation of identified gaps <br>| Assessment and report - End of Q1FY26 <br> Remediation - Ongoing in FY26|
+| 3| Control Framework Refinement| - Streamline GitLab's control framework implementation by expanding compliance coverage, automating control management, and enhancing documentation to support future scalability.| Ongoing in FY26|
 
-Objective
-Key deliverables
-Timeline
-Success criteria]
 
-Fedramp ATO
-ISO42001
-ISMAP
-Cert Maintenance
-GCF v4
+### Review and Updates
 
-## Review and Updates
+This charter will be reviewed and updated quarterly to ensure alignment with:
 
-This charter will be reviewed and updated quarterly to ensure alignment with: [List key alignment points and criteria for updates]
+1. [GitLab Strategy](/handbook/company/strategy/)
+1. [Security Division Mission and Vision](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
+1. [Security's Multi-year Strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal only)
+1. [Security Assurance Mission and Vision](/handbook/security/security-assurance/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-assurance-mission-and-vision)
+1. Security Assruance Multi-year Strategy - In Development
 
 Next scheduled review: [2025-07-31]
 
