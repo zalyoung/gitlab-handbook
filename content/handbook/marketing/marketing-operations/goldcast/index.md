@@ -7,7 +7,7 @@ description: "Goldcast is a digital events platform that helps B2B marketers cre
 
 ## About Goldcast
 
-Page in progress - Purchased as of Jan 2025. Marketing Operations is in the process of integrating and implementing. Follow along in the [Asana project](https://app.asana.com/0/1209155237570970/1209154995205852).
+[Goldcast](https://www.goldcast.io/) is one of the official hosts of GitLab's ongoing webcast series. See upcoming and on-demand webcasts [here](https://webcasts.gitlab.com/). 
 
 ## Official Goldcast Resources
 
@@ -28,6 +28,7 @@ Page in progress - Purchased as of Jan 2025. Marketing Operations is in the proc
 - [Webinars Powered by Smart Technology](https://help.goldcast.io/en_US/webinars-powered-by-smart-event-technology)
 - [Running an Event](https://help.goldcast.io/en_US/running-an-event)
 - [Enchanced Stage Controls](https://help.goldcast.io/en_US/enhanced-stage-controls)
+- [Content Lab](https://help.goldcast.io/en_US/content-lab-home)
 
 ## Random Things to Know
 
@@ -283,10 +284,34 @@ From the Producer view during an event, there are several key controls to take n
 
 ![Goldcast Stage Console](/images/marketing/marketing-operations/goldcast/goldcast_console.png)
 
+## On-Demand Settings
+
+An on-demand Stage template is pre-made and included on all webcast events. Check over the settings on all events before the event airs and know the standard URL for on-demand access normally reads: `webcasts.gitlab.com/on-demand{event-id}`. The primary toggle to check is related to `Downloadable Resources`, which is off by default
+
+## Webcasts Subdomain
+
+Goldcast hosts a list of its hosted webcasts under the subdomain https://webcasts.gitlab.com/. Future iterations will add to this functionality 
+
 ## Content Hub
 
-under construction
+Content Hub is an AI-powered feature that allows users to generate creative assets based on the content from either our webcasts broadcast within Goldcast or videos loaded into the platform. Goldcast can generate several types of content, including:
+
+- Video Clips
+- Social Media Posts 
+- Blog Entries 
+- Email Sends
+- Bullet-pointed "Takeaways"
+
+All generated content uses what is called a "brand kit", which directs all generated assets to fit GitLab's branding. The following are brand guidelines that can be set within Brand Kit:
+
+- Voice Profile: An AI narrator, which can be set to have a specific style of speech
+- Color: The GitLab shades of purple (#7759c2) and orange (#fc6d26) have been pre-selected
+- Font: GitLab's branded font has been pre-loaded
+- Template background: Clips will feature one of the images loaded here. To start, 3 have been pre-loaded and if more are desired please open an issue with the Branding team 
+- Intro/Outro Video: Videos used on generated video clips. To be added at a later time 
+
+All generated content made within Content Lab can be exported for use outside of the platform 
 
 ## Link to the original implementation training with Goldcast
 
-All GitLab employees can find all 4 implementation training videos performed by Goldcast staff in [this folder](https://drive.google.com/drive/folders/0AHjp9Psp-iDuUk9PVA) 
+All GitLab team members can find all 4 implementation training videos performed by Goldcast staff in [this folder](https://drive.google.com/drive/folders/0AHjp9Psp-iDuUk9PVA) 
