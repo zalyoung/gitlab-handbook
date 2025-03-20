@@ -1,4 +1,4 @@
-    ---
+---
 title: "Claude.ai Tips"
 ---
 
@@ -26,14 +26,17 @@ Claude.ai can answer many different questions and topics. Be creative, curious, 
    - Learn about the [Anthropic SDK](https://docs.anthropic.com/en/docs/initial-setup#install-the-sdk) and community projects for CLIs: [anthropic-cli](https://github.com/dvcrn/anthropic-cli)
 1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 
-### Rate Limits
+### Token Limits
+
+> [!note]
+> This section covers tips for token limits in [context windows](https://docs.anthropic.com/en/docs/build-with-claude/context-windows), for API rate limits please review [Anthropics rate limit documentation](https://docs.anthropic.com/en/api/rate-limits#rate-limits).
 
 To help prevent hitting rate limits while using Claude, we recommend following the tips below:
 
 - Set the appropriate thinking mode, Extended seems to support more context that you upload and generated content.
 - Set the response mode to Concise to shorten Claudes response length.
 - Before re-prompting, try editing your previous prompt to include your new ask.
-- Be specific in your prompt, 3.7 likes to try and build out more than you ask, clarify to only make the changes requested in a more iterative approach. 
+- Be specific in your prompt, 3.7 likes to try and build out more than you ask, clarify to only make the changes requested in a more iterative approach.
 
 > [!note]
 > At the time of this writing, _Claude 3.5 Sonnet_, has higher rate limits, so if this does the job and you need long conversations, this may be a viable choice until rate limits on _Claude 3.7 Sonnet_ are increased, although will be missing out on improvements made in the 3.7 version of the model.
@@ -193,4 +196,3 @@ Original code:
 ```
 
 **Example Use Case:** Modernizing legacy automation scripts to current best practices, improving maintainability while preserving essential functionality that teams depend on.
-
