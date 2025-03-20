@@ -120,7 +120,22 @@ Note that you cannot send public replies to customers with a Light Agent account
 
 ### GitLab plan or license for team members
 
-For GitLab team members, a GitLab license or plan request is done through [Access requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests). Please follow the appropriate handbook instructions, such as the [Incentive instructions](/handbook/total-rewards/incentives/#gitlab-ultimate), or open an issue with the most appropriate template, such as [the License request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request) for self-managed instances.  Note that a **staging license** requires your GitLab installation be configured to use the [Customers Portal Staging](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) environment.
+For local or sandbox testing purposes, GitLab team members can provision their own enterprise edition licenses. Steps to do this:
+
+   1. Sign in to the [staging Customers Portal](https://customers.staging.gitlab.com) by selecting the **Continue with GitLab.com account** button.
+      If you do not have an existing account, you are prompted to create one.
+   1. If you do not have an existing cloud activation code, visit the **Ultimate Self-Managed Subscription** page using the [buy subscription flow link](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/8aa922840091ad5c5d96ada43d0065a1b6198841/doc/flows/buy_subscription.md).
+   1. Purchase the subscription using [a test credit card](https://gitlab.com/gitlab-org/customers-gitlab-com/#testing-credit-card-information).
+
+  Note that both this is a **staging license**, so you must configure your GitLab instance to use the staging Customers Portal. For an Omnibus install, [here](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) is how you point to staging Customers Portal. For GDK, set `export CUSTOMER_PORTAL_URL=https://customers.staging.gitlab.com` in [`env.runit`](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/runit.md).
+
+If for some reason self-provisioning is not working, team members should request a license via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) by selecting
+"Request a team member license" from the drop down options.
+
+If a GitLab team member would like an Ultimate license for GitLab.com, there are two options:
+
+1. Request an Ultimate group license for demo purposes through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GitlabCom_Licensed_Demo_Group_Request). 
+1. [Request an Ultimate license for your personal namespace](/handbook/total-rewards/incentives/#gitlab-ultimate).
 
 ### Contacting users about GitLab incidents or changes
 
