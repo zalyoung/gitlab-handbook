@@ -153,7 +153,7 @@ This redaction mechanism is especially important when using advanced search, as 
 
 **Decision**: Finders will return a `FinderResult` object rather than an ActiveRecord relation.
 
-**Context**: Current finders return ActiveRecord relations, which cannot represent Elasticsearch results. We need a container that can hold results from either backend.
+**Context**: Current finders return ActiveRecord relations, which cannot represent Elasticsearch results. While this change means losing the ability to compose queries (e.g., `finder.execute.where(...).order(...)`), it's necessary to support multi-backend results. We need a container that can hold results from either backend, and will need to address the query composition limitations through other patterns.
 
 **Benefits**:
 
@@ -163,7 +163,10 @@ This redaction mechanism is especially important when using advanced search, as 
 
 **Tradeoffs**:
 
-- Not able to be chained like ActiveRecord relations
+- Not able to be chained like ActiveRecord relations, which is a significant limitation for code paths that currently rely on composing queries returned from finders
+  - This limitation primarily affects lower-level code (services and other finders that build on existing finders)
+  - Higher-level components like controllers typically don't need to compose relations and can work with the final result collection
+  - Migration strategies and adapter patterns will help manage this transition
 - Requires changing the API of finders
 
 ### Backend Selection Strategy
@@ -590,6 +593,7 @@ This pattern will be repeated for other entity types like MergeRequests, Project
 - Create adapter layer that can delegate to either new or legacy finders
 - Implement parameter support detection using allowlists
 - Ensure backward compatibility with existing code
+- Develop patterns for handling code paths that currently depend on query composition
 
 ### Phase 3: First Implementation with Limited Parameter Support
 
