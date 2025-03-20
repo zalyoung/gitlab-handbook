@@ -13,7 +13,7 @@ The effectiveness of our validation system is measured primarily through **turna
 
 * **Existing vendors (standard evaluation urgency)**: 5 business days
 * **New vendors**: 15 business days (best effort to achieve this, but we are dependent on vendor response times)
-  * There is a 30 day notice to sign up a new subprocessor (i.e. a new model host). We don’t need to notify customers if we are moving off of a subprocessor or terminating the relationship, but we do need to notify if we are moving customer-facing features to a new model host.
+  * There is a 30 day notice to sign up a new sub-processor (i.e. a new model host). We don’t need to notify customers if we are moving off of a sub-processor or terminating the relationship, but we do need to notify if we are moving customer-facing features to a new model host.
 
 This turnaround time encompasses assessment across operational metrics (legal and compliance requirements), technical metrics (resource utilization and performance benchmarks), and integration metrics (deployment complexity and usability).
 
