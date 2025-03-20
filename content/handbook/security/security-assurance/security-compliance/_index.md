@@ -194,7 +194,6 @@ When the above information is being added, the Epic will move from Triage to Rea
 | 2| Certification Expansion| - Perform Gap Assessments for ISO 42001 and ISMAP <br> - Prepare and share audit report on our posture and readiness for the certifications <br> - Support remediatation of identified gaps <br>| Assessment and report - End of Q1FY26 <br> Remediation - Ongoing in FY26|
 | 3| Control Framework Refinement| - Streamline GitLab's control framework implementation by expanding compliance coverage, automating control management, and enhancing documentation to support future scalability.| Ongoing in FY26|
 
-
 ### Review and Updates
 
 This charter will be reviewed and updated quarterly to ensure alignment with:
