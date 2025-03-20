@@ -18,14 +18,16 @@ This document describes a new advanced architecture for GitLab finders that can 
 Currently, searches performed through the dashboard or through the group and project interfaces rely exclusively on database operations rather than leveraging advanced search when available. This results in:
 
 1. Slower search performance when data is already available in advanced search
-2. Limited search capabilities - features like "find all issues with term X in comments" are too performance-intensive to implement with the current database-only approach
-3. We can provide better user experience by utilizing multiple backends.
-4. PostgreSQL is a finite (and costly) resource. This will help to offload expensive workload to advanced search.
+2. Inconsistent search experience across different parts of the product, leading to user confusion and frustration (e.g., "issue search doesn't work" or "can't find projects in a dropdown")
+3. Limited search capabilities - features like "find all issues with term X in comments" are too performance-intensive to implement with the current database-only approach
+4. We can provide better user experience by utilizing multiple backends.
+5. PostgreSQL is a finite (and costly) resource. This will help to offload expensive workload to advanced search.
 
 By implementing Advanced Finders, we will:
 
 - Improve search performance for users with advanced search enabled
 - Enable more sophisticated search capabilities
+- Provide a consistent search experience across the entire product, ensuring users can reliably find items with improved relevancy regardless of where they are searching
 - Create a future-proof architecture that can adapt to different data sources
 
 This work should address this long standing feature request https://gitlab.com/groups/gitlab-org/-/epics/14293 as well as other similar issues and epics.
