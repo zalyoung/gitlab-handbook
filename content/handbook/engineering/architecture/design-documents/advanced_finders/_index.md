@@ -86,9 +86,17 @@ result = AdvancedFinder::Issues.new(
   per_page: 20
 ).execute
 
+# Access result properties directly
 issues = result.items
 pagination = result.pagination
 search_backend = result.data_source # Returns :postgresql or :advanced_search
+
+# Convert to ActiveRecord relation if needed (e.g., for GraphQL resolvers)
+# This creates a relation with: Issue.where(id: [1, 2, 3...]).order(...)
+active_record_relation = result.page_relation
+
+# Now you can use AR methods like includes to preload associations
+active_record_with_associations = active_record_relation.includes(:assignees, :labels)
 ```
 
 ## Goals and Key Results
@@ -306,7 +314,7 @@ module AdvancedFinder
       @params = params
     end
 
-    def execute
+    def result
       result = select_and_execute_backend
       # Process and format results consistently
       FinderResult.new(result.items, pagination: result.pagination)
@@ -502,6 +510,43 @@ The `FinderResult` class will be enhanced to support this unified pagination app
 - Transparency for developers consuming the API
 - Performance analysis
 
+To facilitate integration with existing code that expects ActiveRecord relations, the `FinderResult` class will provide a method to convert results to a relation:
+
+```ruby
+class AdvancedFinder::Issues
+  # Other methods...
+
+  def execute
+    # This is for backwards compatibility with legacy finders
+    # We'll print deprecation warning when this method is used to trace code
+    # paths we need to modify
+    result.page_relation
+  end
+
+  def result
+    # ...
+  end
+end
+
+class AdvancedFinder::Result
+  # Other methods...
+
+  # Returns an ActiveRecord relation containing the current page's items
+  # This is particularly useful for GraphQL resolvers and other code
+  # that needs to access associations on the model instances
+  def page_relation
+    # Get the model class from the first item or a configuration setting
+    model_class = items.first&.class || model_class_for_finder
+
+    # Create a relation that selects just the IDs of the current page
+    # with the appropriate order
+    model_class.where(id: items.map(&:id)).order(...)
+  end
+end
+```
+
+This approach allows consumers that need ActiveRecord capabilities (like loading associations) to easily convert the FinderResult to a scoped relation while still benefiting from the advanced finder's backend selection.
+
 ### Base Dual-Backend Finder
 
 The BaseAdvancedFinder class serves as the foundation for all advanced finders, providing:
@@ -602,11 +647,16 @@ This pattern will be repeated for other entity types like MergeRequests, Project
 - Implement parameter support allowlists
 - Implement feature flags for gradual rollout
 
-### Phase 2: Legacy Finder Adapter
+### Phase 2: Legacy Finder Adapter and Compatibility Layer
 
 - Create adapter layer that can delegate to either new or legacy finders
 - Implement parameter support detection using allowlists
 - Ensure backward compatibility with existing code
+- Implement compatibility strategies for the ActiveRecord relation dependency:
+  - Add `page_relation` method to `FinderResult` that returns a scoped relation with `where(id: ...).order(...)`
+  - For initial implementation, consider using `execute` as an alias to `page_relation` during transition
+  - Add deprecation warnings when direct query composition is detected
+  - Support GraphQL resolution by providing easy conversion to ActiveRecord relations
 - Develop patterns for handling code paths that currently depend on query composition
 
 ### Phase 3: First Implementation with Limited Parameter Support
