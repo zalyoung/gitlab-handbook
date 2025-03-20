@@ -143,6 +143,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [SaaS Service Ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) | Airflow | `saas_usage_ping` | `saas_usage_ping` | Product | 1 week / 24h ([more context](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#slo-explanation-for-automated-service-ping)) | No | Tier 1 |
 | [Salesforce](https://www.salesforce.com/us/?ir=1) | Stitch | `salesforce_v2_stitch` | `sfdc` | Sales | 6h / 24h | Yes | Tier 1 |
 | [Salesforce Sandbox](https://gitlab--staging.sandbox.my.salesforce.com/)| Stitch | `salesforce_stitch_sandbox_v2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
+| [Salesforce Sandbox Test 2](https://gitlab--test2.sandbox.my.salesforce.com)| Stitch | `salesforce_stitch_sandbox_test2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
 | SheetLoad | SheetLoad | `sheetload` | `sheetload` | Multiple | 24h / 48h | Yes | Tier 1 |
 | SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
 | [Snowplow](https://snowplow.io/) | Snowpipe | `snowplow` | `snowplow` | Product | 15m / 24h | No | Tier 1 |
@@ -158,6 +159,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Zuora](https://www.zuora.com/) | Stitch | `zuora_stitch` | `zuora` | Finance | 6h / 24h | Yes | Tier 1 |
 | [Zuora API Sandbox](https://www.zuora.com) | Stitch | `zuora_api_sandbox_stitch` | `Legacy` | Finance | 24h / 24h | Yes | Tier 3 |
 | [Zuora Central Sandbox](https://www.zuora.com/) | Fivetran | `zuora_central_sandbox_fivetran` | `zuora_central_sandbox` | Finance Sandbox | - | Yes | Tier 3 |
+| [Zuora Central Sandbox 2](https://www.zuora.com/) | Fivetran | `zuora_central_sandbox_2` | `zuora_central_sandbox_2` | Finance Sandbox | - | Yes | Tier 3 |
 | [Zuora Developer Sandbox](https://www.zuora.com/) | Fivetran | `zuora_dev_sandbox_fivetran` | `TBD` | Finance Sandbox | - | Yes | Tier 3 |
 | [Zuora Data Query](https://knowledgecenter.zuora.com/Zuora_Platform/Data/Data_Query/A_Overview_of_Data_Query#Using_Data_Query)| Airflow | `zuora_query_api`| `zuora_query_api`|Finance | 24h / 48h | Yes | Tier 1 |
 | [Zuora Revenue](https://knowledgecenter.zuora.com/Zuora_Revenue) | Airflow | `zuora_revenue` | `zuora_revenue` | Finance | 24h / 48h | Yes | Tier 1 |
