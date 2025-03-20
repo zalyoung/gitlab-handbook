@@ -284,4 +284,4 @@ Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/integration
 
 #### Debug Hosted Runners for GitLab Dedicated
 
-To debug hosted runners, first [verify that a customer is using Hosted Runners](./dedicated_runners.md#who-is-using-hosted-runners), then refer to the [Hosted Runners for GitLab Dedicated](./dedicated_runners.md#viewing-logs) documentation page to view log filters.
+To debug tickets about Hosted Runners for GitLab Dedicated, [verify that the customer is using Hosted Runners](./dedicated_runners.md#who-is-using-hosted-runners). Refer to the [Hosted Runners for GitLab Dedicated](./dedicated_runners.md#viewing-logs) documentation page to view OpenSearch filters you can use to filter these logs.
