@@ -15,35 +15,35 @@ title: "Tax"
 | Analyst | Level 6 |
 | Jr Analyst | Level 5 |
 
-# Junior Tax Analyst
+## Junior Tax Analyst
 
 The Junior Tax Analyst reports to the Manager, Tax. The responsibilities and requirements for a Junior Tax Analyst would be defined at the time of business need for the role.
 
-## Junior Tax Analyst Job Grade
+### Junior Tax Analyst Job Grade
 
 The Junior Tax Analyst is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 <secton>
 
-# Tax Analyst (Intermediate)
+## Tax Analyst (Intermediate)
 
 The Tax Analyst (Intermediate) reports to the Manager, Tax. The responsibilities and requirements for a Tax Analyst would be defined at the time of business need for the role.
 
-## Tax Analyst (Intermediate) Job Grade
+### Tax Analyst (Intermediate) Job Grade
 
 The Tax Analyst (Intermediate) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 <secton>
 
-# Senior Tax Analyst
+## Senior Tax Analyst
 
 The Senior Tax Analyst resorts to the Manager, Tax.
 
-## Senior Tax Analyst Job Grade
+### Senior Tax Analyst Job Grade
 
 The Senior Tax Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Senior Tax Analyst Responsibilities
+### Senior Tax Analyst Responsibilities
 
 - Manage indirect tax audits, including gathering information and responding to audit requests
 - Prepare monthly sales and use tax-related journal entries and ensure that all sales and use tax liabilities and payments are recorded properly
@@ -59,7 +59,7 @@ The Senior Tax Analyst is a [grade 7](/handbook/total-rewards/compensation/compe
 - Partner with and manage outside service providers on tax compliance based on specialty
 - Assist with miscellaneous projects as necessary
 
-## Senior Tax Analyst Requirements
+### Senior Tax Analyst Requirements
 
 - Bachelor's Degree (B.S.) in Accounting, tax or related field.
 - CPA designation desired.
@@ -75,15 +75,15 @@ The Senior Tax Analyst is a [grade 7](/handbook/total-rewards/compensation/compe
 
 <secton>
 
-# Multinational Tax Manager
+## Multinational Tax Manager
 
 The Multinational Tax Manager reports to the Sr. Director, Multinational Tax.
 
-## Multinational Tax Manager Job Grade
+### Multinational Tax Manager Job Grade
 
 The Multinational Tax Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Multinational Tax Manager Responsibilities
+### Multinational Tax Manager Responsibilities
 
 - Prepare and review E&P calculations, Subpart F, FDII, BEAT, and GILTI inclusions, foreign tax credit and similar calculations for tax compliance and annual/quarterly provision purposes.
 - Prepare and review foreign tax provisions for 15 foreign entities, including current tax provision and deferred tax.
@@ -96,7 +96,7 @@ The Multinational Tax Manager is a [grade 8](/handbook/total-rewards/compensatio
 - Engage and assist with M&A, including acquisition structuring and integration.
 - Work closely with Treasury and Accounting to manage intercompany funding requirements, including leverage planning, cash contributions, and repatriation strategies.
 
-## Multinational Tax Manager Requirements
+### Multinational Tax Manager Requirements
 
 - Bachelor’s degree in Accounting or Juris Doctorate (JD)
 - CPA, Master’s degree, and/or JD in Tax or Accounting a plus
@@ -111,42 +111,42 @@ The Multinational Tax Manager is a [grade 8](/handbook/total-rewards/compensatio
 
 <secton>
 
-# Manager, Tax
+## Manager, Tax
 
 The Manager, Tax reports to the Director, Tax.
 
-## Manager, Tax Job Grade
+### Manager, Tax Job Grade
 
 The Manager, Tax is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Manager, Tax Responsibilities
+### Manager, Tax Responsibilities
 
 - Extends that of the Staff Tax Analyst responsibilities
 - Manage a team of analysts
 - Conduct recurring 1:1's and evaluate team's performance
 
-## Manager, Tax Requirements
+### Manager, Tax Requirements
 
 - Extends that of the Staff Tax Analyst requirement
 - Demonstration of past mentorship and leadership capabilities
 
 <secton>
 
-# Senior Manager, Global Tax Accounting and Domestic Tax
+## Senior Manager, Global Tax Accounting and Domestic Tax
 
 The Senior Manager, Global Tax Accounting and Domestic Tax reports to the Director,  Global Tax Accounting and Domestic Tax.
 
-## Senior Manager, Global Tax Accounting and Domestic Tax Job Grade
+### Senior Manager, Global Tax Accounting and Domestic Tax Job Grade
 
 The Senior Manager, Global tax Accounting and Domestic Tax is a grade 9.
 
-## Senior Manager, Global Tax Accounting and Domestic Tax Responsibilities
+### Senior Manager, Global Tax Accounting and Domestic Tax Responsibilities
 
 - Tax Provision: Prepare/review quarterly and annual global tax provision calculations and disclosures, including maintenance of deferred tax balances, uncertain tax positions, tax account rollforwards, and other related schedules/memo. 
 - Tax Compliance: Collaborate with service providers on federal, state, and local tax return preparation and review, including state apportionment; tax attributes; federal and state extensions and estimated tax payments; return to provision true up analysis, and deferred and payable proof reconciliations
 - Technical support: Assist with technical research on various tax issues, R&D credit studies, responses to inquiries/audits from various federal and state tax authorities; GAAP/Non-GAAP/cash tax forecasting; and other ad hoc projects
 
-## Senior Manager, Global Tax Accounting and Domestic Tax Requirements
+### Senior Manager, Global Tax Accounting and Domestic Tax Requirements
 
 - Combination of Big 4 accounting firm experience and multinational high-tech corporate background
 - Bachelor's degree in accounting required; Master’s degree in taxation preferred
@@ -162,15 +162,15 @@ The Senior Manager, Global tax Accounting and Domestic Tax is a grade 9.
 
 <secton>
 
-# Senior Manager, Multinational Tax (Non US)
+## Senior Manager, Multinational Tax (Non US)
 
 The Senior Manager, Multinational Tax (Non US) reports to the Director, Multinational Tax.
 
-## Senior Manager, Multinational Tax Job Grade
+### Senior Manager, Multinational Tax Job Grade
 
 The Senior Manager, Multinational Tax (Non US) is a job [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Senior Manager, Multinational Tax Responsibilities
+### Senior Manager, Multinational Tax Responsibilities
 
 - Models and joins in planning for our economic ownership of IP
 - Assists international team with CFC tax basis, earnings and profits, Subpart F, BEAT, GILTI and FDII calculations
@@ -191,7 +191,7 @@ The Senior Manager, Multinational Tax (Non US) is a job [grade 9](/handbook/tota
 - Billing by local entities
 - Intercompany transfers
 
-## Senior Manager, Multinational Tax (Non US) Requirements
+### Senior Manager, Multinational Tax (Non US) Requirements
 
 The Senior Manager, Multinational Tax (Non US) will have Big-4 or comparable multinational company experience. Specifically, the candidate will have demonstrable, progressive experience in:
 
@@ -208,15 +208,15 @@ The Senior Manager, Multinational Tax (Non US) will have Big-4 or comparable mul
 
 <secton>
 
-# Director, Tax
+## Director, Tax
 
 The Directors, Tax report to the [VP, Tax](/job-families/finance/vice-president-of-tax/).
 
-## Director, Global Tax Accounting and Domestic Tax Job Grade
+### Director, Global Tax Accounting and Domestic Tax Job Grade
 
 The Director, Global Tax Accounting and Domestic Tax is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Director, Global Tax Accounting and Domestic Tax Responsibilities
+### Director, Global Tax Accounting and Domestic Tax Responsibilities
 
 - Staff mentoring and supervision
 - SOX control implementation, testing, and narrative writing
@@ -231,7 +231,7 @@ The Director, Global Tax Accounting and Domestic Tax is a [grade 10](/handbook/t
 - Tax account reconciliation
 - Working with Finance team members on intercompany settlements
 
-## Director, Global Tax Accounting and Domestic Tax Requirements
+### Director, Global Tax Accounting and Domestic Tax Requirements
 
 - Bachelor's Degree (B.S.) in Accounting. Master's Degree in Business Taxation preferred.
 - JD and/or CPA preferred.
@@ -248,13 +248,13 @@ The Director, Global Tax Accounting and Domestic Tax is a [grade 10](/handbook/t
 
 <secton>
 
-# Director of Multinational Tax
+## Director of Multinational Tax
 
-## Director of Multinational Tax Job Grade
+### Director of Multinational Tax Job Grade
 
 The Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Director of Multinational Tax Responsibilities
+### Director of Multinational Tax Responsibilities
 
 - Plans for, models, and operationalizes our economic ownership of IP
 - Maintains CFC tax basis, earnings and profits and Subpart F calculations
@@ -272,7 +272,7 @@ The Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/co
 - Works with our finance and treasury teams to fund international operations
 - Outlines and drafts intercompany agreements
 
-## Director of Multinational Tax Requirements
+### Director of Multinational Tax Requirements
 
 - The candidate will have Big-4 or comparable US-based multinational company experience. Specifically, the candidate will have demonstrable, progressive experience in:
 - Transfer pricing and functional analysis
@@ -291,13 +291,13 @@ The Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/co
 
 <secton>
 
-# Senior Director of Multinational Tax
+## Senior Director of Multinational Tax
 
-## Senior Director of Multinational Tax Job Grade
+### Senior Director of Multinational Tax Job Grade
 
 The Senior Director of Multinational Tax is a job [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Senior Director of Multinational Tax Responsibilities
+### Senior Director of Multinational Tax Responsibilities
 
 - Provides strategic leadership with respect to GitLab’s international structure, including the location of the economic ownership of GitLab IP.
 - Plans for, models, and operationalizes GitLab’s footprint in international locations.
@@ -317,7 +317,7 @@ The Senior Director of Multinational Tax is a job [grade 11](/handbook/total-rew
 - Optimizes per-country stock based compensation from a corporate income tax perspective
 - Builds and leads the Multinational tax team in alignment with GitLab leadership values and principles.
 
-## Senior Director of Multinational Tax Requirements
+### Senior Director of Multinational Tax Requirements
 
 - The candidate will have a minimum of 10 years in Big-4 accounting firm, law firm, or comparable US-based multinational company experience. Specifically, the candidate will have demonstrable, progressive experience in:
 - The ability to reduce complex technical issues into communications (both oral and written) intended for lay people
