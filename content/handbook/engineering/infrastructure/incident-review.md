@@ -16,8 +16,8 @@ While continuous learning is the primary and paramount focus of these blameless 
 
 ## Template
 
-- Open an incident review issue in the [Production Tracker using the incident_review template](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=incident_review)
-- Edit the incident review template here: https://gitlab.com/gitlab-com/gl-infra/production/-/blob/master/.gitlab/issue_templates/incident_review.md?ref_type=heads
+- Open an incident review issue in the [Production Tracker using the incident_review template](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=incident_review) via the Post-incident task assigned in the incident slack channel or incident issue dashboard.
+- Incident review template can be edited here: https://app.incident.io/gitlab/settings/post-mortem
 
 ## Responsibilities
 
