@@ -13,6 +13,8 @@ Successful product development requires and demands a unified commitment to shar
 
 We will be using 4W1H a modified version without "where" of the 5W1H is a general-purpose questioning method that helps identify and solve problems by explicitly navigating the "what", "who", "where", "when", "why", and "how" questions. To help clarify the lead roles for a specific part of this process we will apply 4W1H follows:
 
+![The who, what, why, how, when of Product Develope Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
+
 | **4W1H Element** |   |
 | ------- | ----------------- |
 | **WHO?** | Who are our target customers, users, and buyers? <br> **UX Lead**  |
