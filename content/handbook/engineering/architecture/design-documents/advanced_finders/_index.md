@@ -67,6 +67,7 @@ The new Advanced Finders will:
 - Expose an `execute` method that returns a result object containing:
   - A collection of model instances (not an ActiveRecord relation)
   - Pagination metadata (total count, page info)
+- Handle authorization and enforce permissions consistently across all backends
 - Internally select the appropriate backend (PostgreSQL or advanced search) based on:
   - Advanced search availability
   - Query complexity
