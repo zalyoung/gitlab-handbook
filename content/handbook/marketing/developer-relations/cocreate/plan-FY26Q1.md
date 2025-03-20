@@ -4,7 +4,7 @@ title: "Co-Create Action Plan - FY26Q1"
 
 ## Overview
 
-This action plan outlines our strategy to launch 7 new Co-Create projects in FY26Q1. The plan establishes processes for identifying high-potential customers, engaging effectively, and ensuring successful project delivery.
+This action plan outlines our strategy to launch 7 new Co-Create projects in FY26Q1. The plan establishes processes for identifying high-potential customers, engaging effectively, and ensuring successful project delivery. Our ultimate goal is to foster continuous contributions that fuel our dual fly-wheel approach, transforming initial projects into long-term contribution relationships.
 
 ## Customer Segmentation Process
 
@@ -57,9 +57,17 @@ A structured outreach process ensures consistent communication and sets clear ex
   - Solutions Architect
 - Document meeting outcomes and next steps
 
+## Contribution Sustainability Strategy
+
+While Co-Create focuses on enablement with a no-strings-attached approach, our aim is to foster long-term contributors. This quarter we want develop processes to support this, this may inlcude:
+
+- Track contribution patterns across Co-Create participants
+- Incorporate contribution / co-create activity into regular business reviews
+- Celebrate customer contributions through case studies and social media recognition
+
 ## Success Metrics
 
-Tracking key metrics helps us measure program effectiveness and identify areas for improvement. These metrics align with our goal of launching 7 new Co-Create projects while maintaining high-quality customer engagement.
+Tracking key metrics helps us measure program effectiveness and identify areas for improvement. These metrics align with our goal of launching 7 new Co-Create projects while maintaining high-quality customer engagement and fostering ongoing contributions.
 
 Track the following:
 
@@ -67,6 +75,9 @@ Track the following:
 - Active customer conversations
 - Projects initiated
 - Time from contact to project start
+- Post-project contribution activity (new MRs, issues, comments)
+- Percentage of customers making multiple contributions
+- Average time between contributions
 
 ## Risk Mitigation
 
@@ -96,11 +107,12 @@ Identifying and addressing potential risks ensures smooth program execution and 
 
 ## Target Timeline
 
-This action plan supports launching 7 new Co-Create projects by the end of FY26Q1 through
+This action plan supports launching 7 new Co-Create projects by the end of FY26Q1 through:
 
 - Building a pipeline of 21+ prospects
 - Converting 33% to active projects
 - Managing 8-10 week average project initiation time
+- Establishing follow-up processes to encourage continued contributions
 
 ## Resources
 
