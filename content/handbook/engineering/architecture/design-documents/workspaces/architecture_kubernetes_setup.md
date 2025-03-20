@@ -71,6 +71,8 @@ AgentK ..> WorkspaceN : "6.3: Applies kubernetes resources\nfor workspace N"
 
 ### User accessing the workspace
 
+#### With GitLab Workspaces Proxy
+
 ```plantuml
 @startuml
 rectangle "Kubernetes" {
@@ -112,6 +114,51 @@ GitLabWorkspacesProxy -> Rails : "4: Authenticate and authorize\nthe user access
 GitLabWorkspacesProxy --> Workspace1 : "5.1. Forward traffic\nfor workspace 1"
 GitLabWorkspacesProxy ..> Workspace2 : "5.2. Forward traffic\nfor workspace 2"
 GitLabWorkspacesProxy ..> WorkspaceN : "5.3. Forward traffic\nfor workspace N"
+
+@enduml
+```
+
+#### With GitLab Agent for Workspaces(agentw)
+
+NOTE: The below diagram only reflects the HTTP traffic flow. SSH traffic flow needs investigation and will depend on https://gitlab.com/groups/gitlab-org/-/epics/13984 .
+
+```plantuml
+@startuml
+
+rectangle "GitLab" {
+  rectangle "Nginx/HAProxy" as ReverseProxy
+  rectangle "Rails"
+  rectangle "Kubernetes\nAgent\nServer\n(KAS)" as KAS
+}
+
+actor "User"
+rectangle "Browser"
+rectangle "Cloudflare"
+rectangle "Workspace Agent\n(agentw)" as AgentW
+
+note as NoteForCloudflareAntiAbuse
+Cloudflare will be used
+on .com to provide
+anti-abuse features.
+Certificate used for
+re-encryption is available
+with Nginx/HAProxy for
+decryption.
+end note
+
+NoteForCloudflareAntiAbuse .right. Cloudflare
+
+AgentW --> KAS : "1: Start\ngRPC\ntunnel"
+
+User -right-> Browser : "2: Open\nworkspace\nURL"
+Browser --> Cloudflare : "3: Resolve traffic"
+Cloudflare --> Cloudflare : "4: Decrypt traffic\nand encrypt it back"
+Cloudflare --> ReverseProxy : "5: Forward\ntraffic"
+ReverseProxy --> ReverseProxy : "6: Decrypt\ntraffic"
+ReverseProxy --> KAS : "7: Forward\ntraffic"
+KAS -left-> Rails : "8: Authenticate\nand\nauthorize\ntraffic"
+Rails --> KAS : "9: Response\nfor\nauthentication\nand\nauthorization"
+KAS --> AgentW : "10: Forward\ntraffic\nusing\nreverse\ngRPC\ntunnel"
 
 @enduml
 ```
