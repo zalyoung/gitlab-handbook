@@ -134,10 +134,6 @@ Below is a high level development roadmap for Organizations.
 The project is complicated and requires coordination across many engineering teams.
 In response to this, the roadmap has been broken into the following broad phases.
 
-Data Isolation (FY26 Q1 - Q3): Prevent reads/writes from crossing Organization boundaries. Complete database table sharding.
-Organization UI Release (FY26 Q4): Basic functionality with much already built.
-Feature Alignment (FY27 and beyond): Moving all other features to the Organization level.
-
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
@@ -159,39 +155,46 @@ gantt
     Full Parity : milestone, 2027-02-01,
 ```
 
-### Default Organization
+### Milestones
+Now (During FY26 Q1)
+: Work has carried over from the Cells roadmap.
 
-Nearly every feature exists within an Organization. Therefore every
-GitLab instance has a "default organization" with an ID of 1.
+Organization Isolation (Target FY26 Q3)
+: Complete database sharding to link tables back to an Organization where
+possible.
+: Prevent reads/writes from extending beyond Organization boundaries.
 
+Organization Released (Target FY26 Q4)
+: Organization as a minimal feature is released in the application. The nature of this release is still under discussion.
 
-[Work is in progress](https://gitlab.com/groups/gitlab-org/-/epics/13678) to link as many tables as possible directly or indirectly to an Organization.
-These associations will group all entities underneath an Organization, which is a pre-requisite to scaling Organizations across Cells.
-Note that not all tables fit within an Organization.
+Full Parity (Target FY27 Q4 or beyond)
+: GitLab.com will provide the same feature set as Self Managed and Dedicated but on a shared platform.
 
-### Organization backend essentials
+### Work Streams
 
-[Organization backend essentials](https://gitlab.com/groups/gitlab-org/-/epics/14111)
+Backend Essentials ([epic](https://gitlab.com/groups/gitlab-org/-/epics/14111))
+: This is foundational work to integrate the Organization at low levels of the code base.
+: Ensure all Organizations are equal by removing references to the Default
+Organization (ID = 1). This is in part a carry over from the 2023 roadmap.
 
-This is foundational work to integrate the Organization at low levels of the code base.
+Organization Sharding
+: Tables are divided into cell local or clusterwide. Cell local tables must have an organization_id, namespace_id, or a project_id column so all tables directly or indirectly belong to an Organization. This work is currently located within this epic: https://gitlab.com/groups/gitlab-org/-/epics/13678
+: All tables with an `organization_id` foreign key are defined with not null foreign key constraints.
+: All code paths are writing the correct `organization_id` value and are not relying on a default value.
 
-- All tables with an `organization_id` foreign key are defined with not null foreign key constraints.
-- All code paths are writing the correct `organization_id` value and are not relying on a default value.
-
-This stage will be completed by Cells 1.0 and must be completed before the next phases listed below.
-
-### Organization Product Feature
-
-This phase formally introduces the Organization UI so that basic Organization features are available:
+Organization UI
+: Build a user interface for the Organization including Organization
+membership management and dashboard.
 
 - Organization [front page](https://gitlab.com/groups/gitlab-org/-/epics/11187)
 - Organization user overview
 - Organization [group](https://gitlab.com/groups/gitlab-org/-/epics/11188) and [project](https://gitlab.com/groups/gitlab-org/-/epics/11189) overview
 - [Display of the current organization](https://gitlab.com/groups/gitlab-org/-/epics/11190).
 
-This work will be required by Cells 1.5.
-We expect that these pages will allow other teams to add features more easily to Organizations.
-After this stage, there will be additional enhancements to the Organization UI.
+Organization Level Features
+: Features will move from Instance Level and Top Level Group to Organization
+Level. New features may also be built at the Organization Level. The focus
+will begin with core features such as authentication and billing.
 
 ## Links
 
