@@ -11,11 +11,9 @@ The goal of this page is to document resources needed for day-to-day work within
 
 - [Team Handbook](/handbook/engineering/development/ops/verify/runner/)
 - [Internal Engineering Handbook](https://internal.gitlab.com/handbook/engineering/)
-- [Runner SaaS HQ issue](https://gitlab.com/groups/gitlab-org/-/epics/9969)
 - [Public Runner Docs](https://docs.gitlab.com/runner/)
 - [Public Development Docs](https://docs.gitlab.com/runner/development/)
 - [Runner Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ci-runners)
-- [GitLab.com Triage](https://dashboards.gitlab.net/d/RZmbBr7mk/gitlab-triage?orgId=1) (for situational awareness)
 - [Blueprints](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints) (search for `runner`)
 
 ### Metrics and logs
