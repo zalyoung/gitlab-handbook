@@ -21,8 +21,6 @@ The first `GitLab Donation Drive` in 2020 started as an internal challenge to Gi
 
 Having identified a talent gap in both the technology and the university system which speaks predominantly to Underrepresented Groups, the [Upstream Diversity Working Group](/handbook/total-rewards/incentives/) was established.
 
-Geared toward knowledge sharing, the [recently piloted program](/handbook/engineering/volunteer-coaches-for-urgs/) sees GitLab team members extending their technical skills and time to those in Underrepresented Groups (URGs) with a view to creating `future career opportunities` for them within the technology sector.  The program mobilises GitLab team members to serve as `coaches` in partnership with [Latinitas](https://latinitasmagazine.org/); [FreeCodeCamp](https://www.freecodecamp.org/) and [re:Learn](https://relearn.ng/).
-
 ### Trusted Interns
 
 As a pioneer in the `all-remote` space, GitLab is uniquely leveraged to prepare youth around the globe for the `future of work`. Recently, GitLab Alumni Jean du Plessis, in collaboration with Trusted Interns as part of [The Knowledge Trust](https://knowledgetrust.org/) which places a focus on making jobs more accessible to South African Youth, presented a webinar around [Preparing for your First Remote Job](https://knowledgetrust.org/trusted-interns-webinar-jean-du-plessis-prepare-for-your-first-remote-job/).
