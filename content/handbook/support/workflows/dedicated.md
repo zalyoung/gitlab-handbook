@@ -125,6 +125,10 @@ In GitLab Dedicated, [feature flags](https://docs.gitlab.com/subscriptions/gitla
 
 Support team members with questions can check in the [`#spt_pod_dedicated`](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) Slack channel for additional guidance.
 
+### Feature proposals
+
+GitLab Dedicated feature proposal issues should be created in the **Public** [`gitlab-org/gitlab` issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&first_page_size=100). Mention the Product Manager when opening a feature proposal issue. Use the [feedback template](/handbook/product/product-management/#feedback-template) to register a customer's interest in the feature proposal.
+
 ### Configuration changes
 
 GitLab Dedicated uses the [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/administration/reference_architectures/10k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Instance implementation and changes are done via the [instrumentor project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor).
