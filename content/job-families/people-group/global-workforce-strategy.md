@@ -75,7 +75,7 @@ Contribute and develop documentation required to support the program needs and e
 Support PEO vendor selection process by gathering data and participating in vendor evaluations.
 - Announce changes and improvements as needed across the organization.
 
-#### Senior Global Workforce Strategy Program Manager Requirement
+#### Global Workforce Strategy Analyst Requirements
 
 - The ability to work autonomously and to drive your own performance and development.
 - Prior extensive experience in global workforce strategy, international HR, or global mobility roles, with knowledge of various employment structures (entities, PEOs, contractors).
