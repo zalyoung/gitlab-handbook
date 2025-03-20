@@ -8,9 +8,31 @@ description: How to manage assigned tickets when going on scheduled PTO
 
 These workflows discuss how support engineers can asynchronously manage and summarize on-going assigned tickets within Zendesk before they go on PTO.
 
+{{% include "includes/engineering/support/assigned-signoff.md" %}}
+
+### Warm Handover
+
+A warm handover involves active discussion and knowledge transfer between team members before planned time off (PTO).
+This practice is essential for maintaining service quality, particularly for in-flight tickets that would typically
+remain with a single assignee through resolution.
+
+Keep ownership of your tickets while actively seeking and briefing potential assignees through the
+[#spt_pto_ticket_handover](https://gitlab.enterprise.slack.com/archives/C067R7M7LBC) Slack channel. Begin preparations
+1-2 days before PTO when handling high ticket volumes, using this time to document current status, brief colleagues on
+ticket context, and ensure a smooth transition. Share relevant customer interactions, troubleshooting steps,
+expected follow-ups, and provide access to necessary resources.
+
+By prioritizing warm handovers, we maintain consistent service quality, preserve important context, enable informed
+support, and reduce the risk of delays or misunderstandings. Take the time to equip your colleagues with everything they
+need to seamlessly continue support after your PTO begins through active discussion and thorough documentation.
+
 ### Using the OOO Ticket Summary macro
 
-As part of this workflow, the Support Engineer going on leave will leave notes on currently Open, Pending and On-Hold tickets with a macro. This macro will provide a summary of the ticket, add the Support Engineer to the ticket's CC list, and adds the `ooo_summary` tag to the ticket.
+As part of this workflow, the Support Engineer going on leave will leave notes on currently Open, Pending and On-Hold tickets with a macro. This macro does the following actions:
+
+- provides a summary of the ticket
+- adds you (the Support Engineer going on leave) to the ticket's CC list
+- adds the `ooo_summary` tag to the ticket.
 
 It is recommended to follow this workflow if 3 days or more of PTO are planned.
 
@@ -28,33 +50,22 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
 
 Feel free to also ask regional peers if they can pickup tickets in [other forms of communication](/handbook/communication/#multimodal-communication), such as Slack, but Zendesk should remain as the single source of truth for tickets that need attention from other team members.
 
-#### Finding your tickets upon your return
+### Using a dedicated Slack channel (Optional)
 
-After coming back from PTO, if you want to find the tickets that others picked
-up from you, start with this search in Zendesk:
-`tags:ooo_summary cc:me updated>2021-09-01`. Replace `2021-09-01` with the date
-of the last day you worked before going on leave. This may not be 100% accurate
-as someone else may have run the `OOO Ticket Summary` macro on a ticket on which
-you happened to be CCed, but it will help you to filter out most tickets.
-
-### Using a dedicated Slack channel
-
-As part of this workflow, the Support Enginner going on leave creates a dedicated Slack channel. Within this channel, a thread is created for each ticket that
+The [#spt_pto_ticket_handover](https://gitlab.enterprise.slack.com/archives/C067R7M7LBC) Slack channel has been created specifically for this purpose. Within this channel, a thread is created for each ticket that
 contains notes on all currently Open, Pending and On-Hold tickets. The Support Engineer is then responsible for pinging other Engineers that
 would be suitable candidates for reassigment.
 
-This has the advantage for faciliating collaboration that would otherwise clutter up the other main Support Slack channels. It also ensures that tickets
+This has the advantage for facilitating collaboration that would otherwise clutter up the other main Support Slack channels. It also ensures that tickets
 are not left in limbo as other Support Engineers are actively being pinged as part of the workflow.
 
 It is recommended to follow this workflow if 5 days or more of PTO are planned, and you have more than 10 tickets to handover.
 
 #### Workflow
 
-Before beginning, create a new public Slack channel eg. `anton-ooo-ticket-handovers`.
-
 Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834) view in Zendesk. For each ticket you wish to summarize because you anticipate on-going work will be required, do the following:
 
-1. In your Slack channel, create a separate thread for each ticket.
+1. In the [#spt_pto_ticket_handover](https://gitlab.enterprise.slack.com/archives/C067R7M7LBC) Slack channel, create a separate thread for each ticket.
 1. Within each thread, write up a summary that includes the following:
    1. What is the problem to be solved?
    1. What information has been collected?
@@ -73,11 +84,22 @@ Go to the [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/3600623
     - If a quick pairing or handover call is needed, ensure this is arranged.
     - Once a candidate agrees to take assignment of the ticket, mark the thread with a ✅.
     - The new assignee is then responsible for taking any comments in the thread and adding an internal note in Zendesk.
-1. Once all tickets have been handed over, enjoy your PTO!
+
+{{% include "includes/engineering/support/assigned-signoff.md" %}}
+
+Once all tickets have been handed over, enjoy your PTO!
 
 #### When you're back from PTO
 
 After coming back from PTO:
 
-1. Refer to your handover Slack channel if you wish to follow up on your previously handed off tickets.
-1. Archive the Slack channel
+1. Refer to the [#spt_pto_ticket_handover](https://gitlab.enterprise.slack.com/archives/C067R7M7LBC) Slack channel if you wish to follow up on your previously handed off tickets.
+
+#### Finding your tickets upon your return
+
+After coming back from PTO, if you want to find the tickets that others picked
+up from you, start with this search in Zendesk:
+`tags:ooo_summary cc:me updated>2021-09-01`. Replace `2021-09-01` with the date
+of the last day you worked before going on leave. This may not be 100% accurate
+as someone else may have run the `OOO Ticket Summary` macro on a ticket on which
+you happened to be CC'd, but it will help you to filter out most tickets.
