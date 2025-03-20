@@ -435,7 +435,6 @@ Responsibilities:
 - Work alongside the Security Risk Team to ensure product-specific risk tracking aligns with broader operational and enterprise risk management programs while maintaining distinct focus areas
 - Serve as the central coordinator for the Product Security Risk Register operations, related metrics collection, and stakeholder reporting within the Security Architecture team
 
-
 Requirements:
 
 - 5+ years of experience in product security, DevSecOps, security risk management, data analytics, or related technical roles
@@ -447,7 +446,6 @@ Requirements:
 - Strong analytical skills with ability to collect, organize, and derive insights from complex data sets
 - Proven ability to manage cross-functional stakeholders, drive consensus, and navigate competing priorities
 - Excellent written and verbal communication skills with the ability to present complex data in accessible formats
-
 
 Nice-to-Have Qualifications:
 
@@ -461,7 +459,6 @@ Nice-to-Have Qualifications:
 - Experience with risk assessment methodologies and frameworks such as NIST RMF, FAIR, ISO 31000, etc.
 - Knowledge of compliance frameworks such as FedRAMP, SOC 2, ISO 27001, PCI-DSS, TISAX, etc.
 - Experience working in a rapidly scaling technology company
-
 
 ## Security Engineer Hiring Process
 
