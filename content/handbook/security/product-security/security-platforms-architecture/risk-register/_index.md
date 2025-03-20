@@ -9,9 +9,9 @@ The Product Security Risk Register (PSRR) is driven by and follows the [StORM pr
 
 #### Criteria
 
-The PSRR will only record vulnerabilities (or a combination of weaknesses), inadequate design choices, or functional logic that exposes GitLab, the product, to compromises and leaks. The goal is to track risks that have important and cascading consequences for GitLab, the product, as a whole.
+The PSRR will only record weaknesses, inadequate design choices, or functional logic that exposes GitLab, the product, to compromises and leaks. The goal is to track risks that have important and cascading consequences for GitLab, the product, as a whole.
 
-Specific vulnerabilities or components based vulnerabilities should not be part of the PSRR.
+Specific vulnerabilities or components based vulnerabilities (equivalent to what would be tracked as a single CVE) should not be part of the PSRR.
 
 #### Objectives
 
@@ -26,7 +26,7 @@ To create a new issue follow this [link](https://gitlab.com/gitlab-com/gl-securi
 
 #### What risks should be in the PSRR?
 
-- Only vulnerabilities (or a combination of weaknesses), inadequate design choices, or functional logic that exposes GitLab-produced technologies to cyber risks.
+- Only weaknesses, inadequate design choices, or functional logic that exposes GitLab-produced technologies to cyber risks.
 
 #### Review
 

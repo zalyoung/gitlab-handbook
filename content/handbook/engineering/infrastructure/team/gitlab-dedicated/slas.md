@@ -69,7 +69,7 @@ The RTO and RPO outlined in the Plan do not apply in the following circumstances
 
 1. If only a primary region was specified by a customer
 2. If a secondary region is not supported by GitLab Dedicated
-3. If the secondary region selected by a customer only provides for limited support
+3. If the secondary region selected by a customer only provides for [limited support](https://docs.gitlab.com/subscriptions/gitlab_dedicated/data_residency_and_high_availability/#secondary-regions-with-limited-support)
 
 In all three circumstances above, GitLab will still make a good faith effort to recover pursuant to the Plan, but the stated RTO and RPO objectives will not apply.
 

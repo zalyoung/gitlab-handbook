@@ -94,7 +94,7 @@ We should generally begin by presenting our CI Maturity Score demonstrating to t
   - Lack of knowledge is often a blocker for CI adoption
 - `How can we support you in improving adoption?`
 
-   Customers may also be stuck on topics around the migration off of other tools, developer sentiment, lack of buy-in or other areas of challenge.  [Please reference the CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/CI/) for training and content addressing these challenges.
+   Customers may also be stuck on topics around the migration off of other tools, developer sentiment, lack of buy-in or other areas of challenge.  [Please reference the CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/ci/) for training and content addressing these challenges.
 
 ### Lack of Engagement/Loss of Champion
 
