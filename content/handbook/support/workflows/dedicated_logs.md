@@ -282,5 +282,6 @@ You can then filter by `correlation_id` only, to select the failed occurrence. T
 
 Read more on [troubleshooting Elasticsearch](https://docs.gitlab.com/integration/advanced_search/elasticsearch_troubleshooting/#last-resort-to-recreate-an-index) for potential next steps.
 
-#### Debug hosted runners for GitLab Dedicated
+#### Debug Hosted Runners for GitLab Dedicated
+
 To debug hosted runners, first [verify that a customer is using Hosted Runners](./dedicated_runners.md#who-is-using-hosted-runners), then refer to the [Hosted Runners for GitLab Dedicated](./dedicated_runners.md#viewing-logs) documentation page to view log filters.
