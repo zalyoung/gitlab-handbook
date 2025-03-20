@@ -22,7 +22,7 @@ Unfortunately, GitLab's current code is not built to facilitate this need, so we
 
 One of the primary examples provided by users seeking to facilitate the tracking of vulnerabilities across multiple branches is when they run multiple versions or deployments of a project concurrently. 
 
-Under this model, an application which an organisation may continue to provide bug and security fixes for older versions is unable to easily detect vulnerabilities in older versions of code using GitLab's integratations. This can lead to users either being forced to use GitLab in unintended ways to facilitate their security scans, or opt to use other tools to facilitate their scanning to avoid this inconvenience.
+Under this model, an application which an organisation may continue to provide bug and security fixes for older versions is unable to easily manage vulnerabilities in multiple supported versions of code using GitLab's integrations. This can lead to users either being forced to use GitLab in unintended ways to facilitate their security scans, or opt to use other scanning tools to avoid this inconvenience.
 
 ### Goals
 
