@@ -111,7 +111,7 @@ The process primarily follows this:
 
 - `workflow::ready for design` to signal an issue is ready to begin the design work
 - `workflow::design` to indicate that a designer is actively working on an issue
-- `workflow::planning breakdown` to signal that the design is complete and is ready to be broken down into sub-issues for implementation. To preserve context and decisions during the design process, where possible, we re-use the design issue by promoting it to an epic, and add the implementation issues to it. That way, the epic can be used as the SSOT for design, all discussions are in one place, and we don't end up with inconsistencies between the original design issue and the corresponding implementation issue.
+- `workflow::planning breakdown` to signal that the design is complete and is ready to be broken down into sub-issues for implementation. To preserve context and decisions during the design process, where possible, we re-use the design issue by promoting it to an epic, and add the implementation issues to it. That way, the epic can be used as the [SSOT](/teamops/shared-reality/#single-source-of-truth-ssot) for design, all discussions are in one place, and we don't end up with inconsistencies between the original design issue and the corresponding implementation issue.
 - `workflow::refinement` to signal that an issue needs to be refined by engineering. In this step, an implementation guide and a weight should be added to the issue.
 - `workflow::ready for development` to signal an item is ready to be worked on by engineering
 
