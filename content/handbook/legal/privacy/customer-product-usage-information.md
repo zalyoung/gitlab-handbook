@@ -69,23 +69,23 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ### Snowplow
 
-*Purpose*: GitLab operates a product intelligence platform in our infrastructure called Snowplow to collect user-level interactions within the GitLab.com version of the Software (e.g., viewing a specific page, clicking a button, etc).  This allows us to provide detailed usage information to customers and it allows us to understand how users navigate the product.  Unlike with Service Ping, the Metrics collected are not aggregated across an entire instance or namespace, but are attributable to a specific user, subject to a subsequent pseudonymization process.  For more information on Snowplow, please see our comprehensive [Internal Analytics documentation](https://docs.gitlab.com/ee/development/internal_analytics/).
+*Purpose*: GitLab operates a product intelligence platform in our infrastructure called Snowplow to collect user-level interactions within the GitLab.com version of the Software (e.g., viewing a specific page, clicking a button, etc). Snowplow is also integrated into Self-Managed and Dedicated deployments of the Software.  This allows us to provide detailed usage information to customers and it allows us to understand how users navigate the product.  Unlike with Service Ping, the Metrics collected are not aggregated across an entire instance, namespace, or tenant. Instead, Snowplow Metrics are attributable to a specific user, subject to a subsequent pseudonymization process. For more information on Snowplow, please see our comprehensive [Internal Analytics documentation](https://docs.gitlab.com/ee/development/internal_analytics/).
 
-*Applicable Software*: Snowplow collects Metrics from free and paid GitLab.com users.
+*Applicable Software*: Snowplow Metrics are collected from free and paid users of the Self-Managed, GitLab.com and Dedicated versions of the Software.
 
-*Configuration*: The Snowplow collector takes user events in real time from GitLab.com and sends these user Metrics through our pseudonymization process. At this stage, the Metrics are stripped of personal identifiers, subject to the exceptions below, but the Metrics are still attributable to a GitLab.com namespace and project.
+*Configuration*: The Snowplow collector takes user events in real time from GitLab.com and Dedicated and sends these user Metrics through our pseudonymization process. At this stage, the Metrics are stripped of personal identifiers, subject to the exceptions below, but the Metrics are still attributable to a GitLab.com namespace or tenant and project. For Self-Managed, this pseudonymization process occurs within the Self-Managed instance.
 
-*Personal Data Collected*:  Snowplow does collect the personal data of individual users in a raw format.  These raw Metrics, however, are sent through a pseudonymization process and subsequently purged, meaning only the pseudonymized Metrics are delivered to our data warehouse.  These pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users.   There are two pieces of Snowplow Metrics that we do not pseudonymize: Project_ID and Namespace_ID.  We also collect the country and region of the user's location, but we do not store IP addresses.
+*Personal Data Collected*: Snowplow does collect the personal data of individual users in a raw format.  These raw Metrics, however, are sent through a pseudonymization process and subsequently purged, meaning only the pseudonymized Metrics are delivered to our data warehouse. These pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users. There are two pieces of Snowplow Metrics that we do not pseudonymize: Project_ID and Namespace_ID.  We also collect the country and region of the user's location, but we do not store IP addresses.
 
-*Data Sharing*: Snowplow Metrics are not shared with independent third-parties.  All systems and software used in the collection and transfer of Snowplow Metrics are GitLab-controlled systems.
+*Data Sharing*: Snowplow Metrics are not shared with independent third-parties. All systems and software used in the collection and transfer of Snowplow Metrics are GitLab-controlled systems.
 
-*Cadence*: Snowplow Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
+*Cadence*: Snowplow Metrics collected from Self-Managed, GitLab.com and Dedicated are sent to the data warehouse contemporaneously.
 
 *Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 
 *Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/events/), as well as Project_ID, Namespace_ID, and the country and region of the user's location.
 
-*Opting-Out*: Since Snowplow Metrics pertain to individual pseudonymized user events, Snowplow Metrics can only be opted-out on an individual basis using DNT signals.  However, please note that DNT signals depend on how the event is triggered and thus may not be recognized in all situations.
+*Opting-Out*: For GitLab.com, Snowplow Metrics pertain to individual pseudonymized user events and can only be opted-out on an individual basis using DNT signals.  However, please note that DNT signals depend on how the event is triggered and thus may not be recognized in all situations. For Self-Managed and Dedicated, Snowplow Metrics can be disabled through an in-app admin setting
 
 ### License Sync
 
@@ -131,9 +131,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Purpose*: GitLab collects [Snowplow events](/handbook/legal/privacy/customer-product-usage-information/#snowplow) from GitLab Duo users in order for GitLab to gain insights into the success and value of certain Duo features, understand end-to-end user interaction with these features, and ensure the features are debugged and working properly. 
 
-*Applicable Software*: GitLab Duo Metrics are collected from GitLab.com and Dedicated users that have Duo licenses.  Further, because GitLab Duo is a cloud-connected feature add-on, Self-Managed instance administrators that have enabled Duo will result in Duo Metrics being sent from the instance to GitLab*.
-
-**GitLab Duo Metrics are not collectd from instances that only power Duo with self-hosted model*.
+*Applicable Software*: GitLab Duo Metrics are collected from GitLab.com and Dedicated users that have Duo licenses.  Further, because GitLab Duo is a cloud-connected feature add-on, Self-Managed instance administrators that have enabled Duo will result in Duo Metrics being sent from the instance to GitLab.
 
 *Configuration*:  For GitLab.com or Dedicated, first-party Duo Metrics are collected from the editor extension by our Snowplow collector and then sent to our data warehouse. For Self-Managed instances, first-party Duo Metrics are collected from the editor extension, sent to the instance, and our Snowplow collector sends the Metrics from the instance to our data warehouse.
 
@@ -147,4 +145,4 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Types of Data*: A full list of the GitLab Duo Metrics collected can be viewed [here](https://metrics.gitlab.com/events/?category=duo).  In addition, you can find a general overview of Duo telemetry [here](https://docs.gitlab.com/user/gitlab_duo/data_usage/#telemetry).
 
-*Opting-Out*: Currently, there is no mechanism within the GitLab settings to opt-out of GitLab Duo Metrics for an entire instance or namespace.  However, if you opt-out of telemetry in the extension editor, GitLab will honor that user-level opt-out across GitLab.com, Dedicated, or Self-Managed.
+*Opting-Out*: Currently, there is no mechanism within the GitLab settings to opt-out of GitLab Duo Metrics for an entire instance or namespace.  However, if you opt-out of telemetry in the extension editor, GitLab will honor that user-level opt-out across GitLab.com, Dedicated, or Self-Managed. For Self-Managed instances that only power Duo with self-hosted models, GitLab Duo Metrics may be disabled through the same in-app administrative setting used to disable all Snowplow Metrics for Self-Managed.
