@@ -87,6 +87,7 @@ result = AdvancedFinder::Issues.new(
 
 issues = result.items
 pagination = result.pagination
+search_backend = result.data_source # Returns :postgresql or :advanced_search
 ```
 
 ## Goals and Key Results
@@ -348,6 +349,9 @@ def index
     pagination: {
       total_count: result.total_count,
       next_page_token: result.next_page_token
+    },
+    meta: {
+      data_source: result.data_source # :postgresql or :advanced_search
     }
   }
 end
@@ -476,7 +480,8 @@ Responses will include:
     total_pages: 5,     # For backward compatibility
     current_page: 1,    # For backward compatibility
     next_page_token: "encoded_token_for_next_page"
-  }
+  },
+  data_source: :postgresql  # or :advanced_search
 }
 ```
 
@@ -487,7 +492,12 @@ Responses will include:
 
 #### FinderResult Class
 
-The `FinderResult` class will be enhanced to support this unified pagination approach, exposing both traditional pagination metadata (for backward compatibility) and the next page token.
+The `FinderResult` class will be enhanced to support this unified pagination approach, exposing both traditional pagination metadata (for backward compatibility) and the next page token. It will also track and expose which backend (PostgreSQL or advanced search) was used to generate the results, which is valuable for:
+
+- Debugging and troubleshooting
+- Analytics on backend usage patterns
+- Transparency for developers consuming the API
+- Performance analysis
 
 ### Base Dual-Backend Finder
 
