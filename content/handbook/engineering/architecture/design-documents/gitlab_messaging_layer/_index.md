@@ -372,7 +372,9 @@ func TestServerConfiguration(t *testing.T) {
 
 ### Encryption
 
-- We can enable on-disk encryption for NATS, [more details here](https://docs.nats.io/running-a-nats-service/nats_admin/jetstream_admin/encryption_at_rest).
+- While NATS has support for [encryption at rest](https://docs.nats.io/running-a-nats-service/nats_admin/jetstream_admin/encryption_at_rest), it recommends the use of filesystem encryption when available.
+
+- Considering our deployment-targets, we intend to use disk-encryption - available on both [GCP](https://cloud.google.com/compute/docs/disks/disk-encryption) and [AWS](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-encryption.html) with support for additional customer-managed key options.
 
 ### Auditing/Logging
 
