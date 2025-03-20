@@ -490,7 +490,7 @@ Responses will include:
 
 #### Backend-Specific Implementation
 
-- **PostgreSQL**: Translates the token into either offset-based (`LIMIT/OFFSET`) or keyset queries based on sorting criteria. For custom ordering, keyset pagination uses a more complex condition structure that respects all sort fields (e.g., `WHERE (created_at < X) OR (created_at = X AND id > Y)` for a composite sort on `created_at DESC, id ASC`)
+- **PostgreSQL**: Translates the token into either offset-based (`LIMIT/OFFSET`) or keyset queries based on sorting criteria. For custom ordering, keyset pagination uses a more complex condition structure that respects all sort fields (e.g., `WHERE (updated_at < X) OR (updated_at = X AND id > Y)` for a composite sort on `updated_at DESC, id ASC`)
 - **Elasticsearch**: Uses `search_after` or scroll API depending on the pagination depth and query type
 
 #### FinderResult Class
