@@ -59,7 +59,9 @@ By ensuring that good ESG practices are embedded into the organization, it will 
 
 ### GitLab's ESG Materiality Assessment
 
-- GitLab completed its first [double materiality assessment](/handbook/legal/esg/#esg-materiality-matrix) in January 2023. The assessment considered the perspectives of all of GitLab's stakeholders including team members, senior leadership, customers, community members, board members, investors. The assessment involved speaking with GitLab's stakeholders to understand the key topics they believe have the biggest impact on the success of the business and where GitLab has the biggest impact on the environment, society and people. We also considered ESG regulation, our peers, competitors and nonprofit organizations.The materiality assessment was the first step in developing the company's first ESG strategy.
+- GitLab completed its first double materiality assessment in January 2023. The assessment considered the perspectives of all of GitLab's stakeholders including team members, senior leadership, customers, community members, board members, investors. The assessment involved speaking with GitLab's stakeholders to understand the key topics they believe have the biggest impact on the success of the business and where GitLab has the biggest impact on the environment, society and people. We also considered ESG regulation, our peers, competitors and nonprofit organizations.The materiality assessment was the first step in developing the company's first ESG strategy.
+
+![2023 Materiality Matrix](/images/legal/esg/2022-materiality-matrix-062123.png)
 
 ### GitLab's 6 Key Topics
 

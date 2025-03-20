@@ -18,7 +18,7 @@ twitter_creator: "@gitlab"
 
 [Setting up a home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) can be difficult. Many office spaces hire design professionals to create the workspace, but that burden shifts to employees in a remote environment.
 
-While there are [benefits]({{< ref "remote-benefits" >}}) to ditching the cubicle, it can feel overwhelming to design a new workspace. It's not as hard as you think to create a space where you can be comfortable, focused, and productive.
+While there are [benefits](/handbook/company/culture/all-remote/remote-benefits/) to ditching the cubicle, it can feel overwhelming to design a new workspace. It's not as hard as you think to create a space where you can be comfortable, focused, and productive.
 
 Workspace expert Ryan Anderson from [MillerKnoll](https://www.millerknoll.com) shares how to set up a personal workspace using best practices for ergonomics, productivity, and environment.
 
@@ -246,7 +246,7 @@ Research has [found](https://www.bbc.com/worklife/article/20160617-the-never-end
 
 ### Set up work-life boundaries
 
-Plan your work time and [time off]({{< ref "paid-time-off" >}}) in advance. When you're not working, turn off Slack and close your email client. At GitLab, this only works if all team members abide by the [communication guidelines](https://about.gitlab.com/blog/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus). It also helps to enable the "working hours" feature on your calendar so that team members in other time zones know when to schedule meetings.
+Plan your work time and [time off](/handbook/people-group/paid-time-off/) in advance. When you're not working, turn off Slack and close your email client. At GitLab, this only works if all team members abide by the [communication guidelines](https://about.gitlab.com/blog/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus). It also helps to enable the "working hours" feature on your calendar so that team members in other time zones know when to schedule meetings.
 
 Have an open, honest conversation with co-dwellers about your working hours. Explain that while you are home, you should be considered unreachable unless there's a significant level of need.
 
@@ -280,8 +280,8 @@ Anyone can test their knowledge on how to set up a productive home office or rem
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

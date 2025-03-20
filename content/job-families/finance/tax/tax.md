@@ -132,31 +132,23 @@ The Senior Manager, Global tax Accounting and Domestic Tax is a grade 9.
 
 ### Senior Manager, Global Tax Accounting and Domestic Tax Responsibilities
 
-- Tax Provision: prepare/review quarterly and annual global tax provision including calculating/reviewing current calculation; maintaining deferred tax balances, uncertain tax positions, and tax account roll forward; and other related schedules/memo and disclosures; Experience with corporate income and franchise taxes, credits and incentives, sales/use/withholding taxes
-- Tax Compliance: Working with service providers to prepare/review of federal, state, and local tax returns including preparing state and local apportionment and state adjustment schedules; preparing and maintaining tax attribute schedules; preparing/reviewing of federal and state income tax estimates and extensions
-- Tax Forecast: prepare/review quarterly tax forecast
-- Tax Controversy: assist with research and supervision of responses to notices regarding federal, state, and local tax issues; provide support and/or manage IRS and state income/franchise tax audits; maintain proper audit and compliance documentation
-- Project Management: involved in day-to-day projects within the tax team and other functional groups, including finance, human resources, payroll, legal, R&D and IT, as well as external advisors; supervise information gathering for tax provisions and tax returns; assist in the establishment of and ensures adherence to budgets, schedules, work plans, and performance requirements
-- Special Projects: Provide assistance with technical research on various tax issues; and assist in ad hoc/special projects such as IP reorganization and M&A activities
-- Team Development: Assist in developing and mentoring other members of the Tax team.
+- Tax Provision: Prepare/review quarterly and annual global tax provision calculations and disclosures, including maintenance of deferred tax balances, uncertain tax positions, tax account rollforwards, and other related schedules/memo. 
+- Tax Compliance: Collaborate with service providers on federal, state, and local tax return preparation and review, including state apportionment; tax attributes; federal and state extensions and estimated tax payments; return to provision true up analysis, and deferred and payable proof reconciliations
+- Technical support: Assist with technical research on various tax issues, R&D credit studies, responses to inquiries/audits from various federal and state tax authorities; GAAP/Non-GAAP/cash tax forecasting; and other ad hoc projects
 
 ### Senior Manager, Global Tax Accounting and Domestic Tax Requirements
 
-- Ideal candidate would have Big-4 and multinational company experience
-- Highly organized with great attention to detail
-- Self-starter, with an ability to work independently and as part of a team
-- Ability to multitask and handle a variety of tax assignments in a fast-paced environment including being flexible to geographic time zones
-- Ability to prioritize tasks appropriately, meet deadlines, execute with accuracy and recognize when issues need escalation
-- Strong communication skills (written and verbal) and analytical skills
-- Proficient in Excel, including pivot table and vlookup
-- Responsibilities may require a work schedule that may include working outside of "normal" work hours, in order to meet business demands
-- Experience with ASC 740 is required
-- Preference will be given to candidates with Big 4 experience
-- Bachelor's degree in Accounting or Business, or an equivalent combination of education and practical experience
-- Strong business judgment applied to tax and finance operational activities
-- Demonstrated experience in mentoring and leading a distributed team
-- Leadership experience in a software or global technology company
-- Proven strategic and tactical vision to lead a high performing team
+- Combination of Big 4 accounting firm experience and multinational high-tech corporate background
+- Bachelor's degree in accounting required; Master’s degree in taxation preferred
+- Comprehensive knowledge of ASC 740 accounting standards and US tax technical requirements
+- Exceptional organizational skills with meticulous attention to details
+- Self-motivated professional capable of working effectively both independently and collaboratively
+- Ability to manage multiple complex tax projects simultaneously in a fast-paced environment
+- Flexibility to work across different geographic time zones in a fully remote setting; periodic work beyond standard business hours required to meet organizational needs
+- Strong prioritization skills with ability to meet tight deadlines, deliver accurate work, and identify escalation needs
+- Excellent written and verbal communication abilities
+- Superior analytical and problem-solving capabilities 
+- Advanced proficiency in Excel 
 
 #### Senior Manager, Multinational Tax (Non US)
 
@@ -360,7 +352,7 @@ The Tax job family career ladder is outlined on this page.
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 
 - Next, qualified candidates will be invited to schedule a first interview with the Hiring Manager
 - Candidates will then be invited to schedule an interview with 2 - 4 team members

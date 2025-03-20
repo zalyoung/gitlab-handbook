@@ -42,7 +42,7 @@ graph BT;
 
 GitLab is an influencer and educator in remote work and people operations. It serves the community by creating valuable content that furthers the proliferation and ubiquity of [remote-first](/handbook/company/culture/all-remote/how-to-work-remote-first/) and [all-remote](/handbook/company/culture/all-remote/terminology/) organizations, while enhancing the operations of colocated and [hybid-remote](/handbook/company/culture/all-remote/hybrid-remote/) companies by sharing implementable remote-first practices.
 
-We believe that the [people practice](/teamops/) and [operating principles]({{ ref "values#operating-principles" >}}) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
+We believe that the [people practice](/teamops/) and [operating principles](/handbook/values/#operating-principles) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
 
 ## Goals (OKR)
 

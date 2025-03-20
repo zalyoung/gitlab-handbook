@@ -131,3 +131,40 @@ Team members and community contributors can take advantage of AI-powered workflo
 1. Troubleshoot failing CI/CD pipelines.
 
 Learn more in the [GitLab Duo use cases documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html#use-gitlab-duo-to-contribute-to-gitlab).
+
+## Terminal Integration with GitLab Duo Quick Chat
+
+### Problem to solve
+
+Remembering command line arguments is hard and searching through man pages is time-consuming.
+
+### Solution
+
+Integrate GitLab Duo Quick Chat with your terminal to help with command-line operations.
+
+### How to set it up
+
+1. Configure your terminal to use VSCode as the default editor by adding this to your shell profile (`.bashrc`, `.zshrc`, etc.):
+
+   ```bash
+   export EDITOR="code --wait"
+   ```
+
+2. When you need help with a command:
+   - Begin typing the command in your terminal (e.g., `git rebase -i`)
+   - Press <kbd>Ctrl</kbd>+<kbd>x</kbd> <kbd>Ctrl</kbd>+<kbd>e</kbd> to open your current command line in VSCode
+
+3. In VSCode:
+   - The command you were typing appears in a new temporary file
+   - Open GitLab Duo Chat (using <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on macOS or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows/Linux and type "GitLab Duo Chat")
+   - Select the command text (or delete it) and ask Duo to help you achieve your goal. For example: "Help me write a git command to squash my last 3 commits into one" or "I need a command to rebase my current branch onto main and resolve conflicts interactively"
+
+4. Use Duo's response:
+   - When Duo generates the improved command, click the **Insert Snippet** button in its response
+   - Save the file (<kbd>Cmd</kbd>+<kbd>S</kbd> or <kbd>Ctrl</kbd>+<kbd>S</kbd>) and close the tab
+   - The edited command will appear in your terminal, ready to execute
+
+### Additional notes
+
+- This workflow also works with the integrated terminal in VSCode
+- Keyboard shortcut <kbd>C-x</kbd> <kbd>C-e</kbd> is a standard bash/zsh feature for editing the current command line, not specific to Duo

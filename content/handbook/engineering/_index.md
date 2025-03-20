@@ -43,8 +43,12 @@ Work in the 40% time budget should be coordinated and prioritized by the Enginee
 - Improvements to the performance, stability and scalability of a feature or dependency including underlying infrastructure. Again, the Product team should be involved in the definition of these issues but Engineering may lead here by planning, prioritizing, and coordinating the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
 - Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
-- Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites.
+- Constructing Proof-of-Concept models for thorough exploration of new technologies, enhancements and new possibilites.
 - Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
+
+### Engineering Innovation
+
+Engineering Innovation is a new process geared toward individual or small-team collaboration that encourages engineers to explore new ideas and Proof-of-Concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable experimental feature or product.  See the [Innovation at GitLab Guide](./engineering-innovation.md).
 
 ### Technical Roadmaps
 
@@ -138,24 +142,24 @@ For customers using **CI/CD**, we're expanding the available types of Runners to
 ### Taking time off
 
 {{% note %}}
-This process is expected for PTO that is five consecutive days or more. For PTO that is fewer than five consecutive days you should not need a coverage issue but you can file one if you’d like.
+This process is expected for PTO that is five consecutive days or more, inclusive of adjacent public holidays (excluding weekend days). For PTO that is fewer than five consecutive days, including the cases where there are multiple PTO blocks with fewer than 5 consecutive days and a few working days in-between, a coverage issue is not required but a coverage issue can be filed for PTO of any length, especially if it'd be helpful to balance team continuity and individual flexibility.
 {{% /note %}}
 
-In order to ensure business continuity, and deliver on commitments; the Engineering Division is adopting a PTO Coverage Issue Process. Processes like this are already formalized in GitLab (e.g. [PM Coverage Issue](/handbook/product/product-management/product-manager-role/#creating-a-pm-coverage-issue)) and some team’s within Engineering have practiced this regularly at the Management+ level. This allows us to continue to support team member well-being through time away without negatively impacting the rest of the team.
+In order to ensure business continuity, and deliver on commitments; the Engineering Division is adopting a PTO Coverage Issue Process. Processes like this are already formalized in GitLab (e.g. [PM Coverage Issue](/handbook/product/product-management/product-manager-role/#creating-a-pm-coverage-issue)) and some team's within Engineering have practiced this regularly at the Management+ level. This allows us to continue to support team member well-being through time away without negatively impacting the rest of the team.
 
 A PTO Coverage issue is required for [job grades 8 and up](/handbook/total-rewards/compensation/compensation-calculator/#job-grades). For job grades 7 and below a PTO Coverage issue is recommended as there is value in going through the process of creating the PTO Coverage issue even if there are minimal items to include (for all levels) in that it forces you to think about what you have on your plate and what impact your PTO will have on those items. So whether the result is that the work waits or there is someone designated as a replacement DRI, it makes the decision explicit and documented.
+
+Once planning for a milestone has been completed (see [**Monday, 5 days before the milestone begins**](/handbook/engineering/workflow/#product-development-timeline:~:text=Monday%2C%205%20days%20before%20the%20milestone%20begins%3A)) PTO for periods longer than 5 consecutive days, inclusive of adjacent public holidays (excluding weekend days), cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
+
+- urgent scenarios
+- a team/individual hits targets earlier in the milestone ([we measure impact, not activity](/handbook/values/#measure-impact-not-activity))
+- a strong need for a team member to take PTO of this length
 
 These issues will help inform teams as they plan their milestones to ensure the work teams are committed to can be achieved with the staff available, or if there will be a lack of staff to achieve those commitments, to work with team members to see what can be done to achieve the results for our customers.
 
 The process below helps to clarify and expand upon the [Flexible PTO Policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) by making the coordination with the team members manager explicit.
 
 #### 1. Creating an Engineering coverage issue
-
-Once planning for a milestone has been completed, PTO for periods longer than 5 consecutive days cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
-
-- urgent scenarios
-- a team/individual hits targets earlier in the milestone ([we measure impact, not activity](/handbook/values/#measure-impact-not-activity))
-- a strong need for a team member to take PTO of this length
 
 You should use [this issue template](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new) to define handshake responsibilities. For extended leave, it is important to find one or more Directly Responsible Individuals (DRIs) that will be able to make decisions while you are away. This may be your manager, another engineer, or maybe the Product Manager for your team. The coverage issue should contain all the necessary information for the DRIs to make good decisions in your absence, so please make sure to include as much detail as needed. The coverage issue should highlight work impact estimates, mitigations identified, and coverage alternatives.
 

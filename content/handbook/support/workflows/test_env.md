@@ -49,11 +49,11 @@ You will be added as `Owner` in these groups and can make changes at-will, inclu
   - *Instead* set an access expiration date when you invite a customer.
 
 - **Avoid** using access tokens for your main GitLab account: a leak in a test project may not be automatically detected and can be used to traverse sensitive company namespaces.
-  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) or [Group Access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
+  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/user/project/settings/project_access_tokens/) or [Group Access tokens](https://docs.gitlab.com/user/group/settings/group_access_tokens/). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
 
 ## Cloud Testing Environments
 
-You can create (ephemeral) testing environments. We recommend using the [Sandbox Cloud Realm](https://handbook.gitlab.com/handbook/company/infrastructure-standards/realms/sandbox/) at [gitlabsandbox.cloud](https://gitlabsandbox.cloud) for doing so.
+You can create (ephemeral) testing environments. We recommend using the [Sandbox Cloud Realm](/handbook/company/infrastructure-standards/realms/sandbox/) at [gitlabsandbox.cloud](https://gitlabsandbox.cloud) for doing so.
 
 You're free to create any testing environments that you need in order to perform your role, however be advised that:
 
@@ -67,7 +67,7 @@ GCP resources can belong to different [GCP projects](https://cloud.google.com/st
 
 #### GitLab Sandbox Cloud for GCP (preferred)
 
-If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
+If you need flexibility for creating test environments, the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) allows for creating a personally-owned GCP projects. You can create test resources using the [GCP console](https://console.cloud.google.com/home/dashboard), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud). If you need to replicate any of the [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/), it's recommended that you use the [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
 
 **Note:** Please remember to shut down resources that you are no longer using.
 We are now using [automation scripts](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/instance-ttl-automation) to shutdown resources over the weekend. To exclude your resources from being shutdown you'll need to add the `instance-ttl-bot-ignore` label to those resources.
@@ -245,6 +245,71 @@ Once these steps are completed you can visit your GitLab instance using `gitlab.
 
 </div>
 </details>
+
+### OpenShift Testing Environment using ROSA
+
+One option for creating an OpenShift cluster to run the GitLab and GitLab Runner Operators is to use the [Red Hat OpenShift Service on AWS (ROSA)](https://www.redhat.com/en/technologies/cloud-computing/openshift/aws).
+
+Installation is performed from your laptop using the `rosa` utility which collects cluster configuration details and then runs a scripted deployment of an OpenShift cluster in AWS. The installation typically takes 30-45 minutes.
+
+The key steps are as follows:
+
+Prerequisites:
+
+1. Local AWS command line access is configured on your laptop by setting the `AWS_REGION`, `AWS_ACCESS_KEY_ID` and
+   `AWS_SECRET_ACCESS_KEY` environment variables to access your AWS sandbox account.
+1. The AWS ROSA prerequisites are met - in the AWS Console, search for the `Red Hat OpenShift Service on AWS` service, click on
+   **Get started** and ensure ROSA is enabled and the Service Quotas and ELB service-linked role requirements are met.
+1. A personal Red Hat account - register a new personal account at https://www.redhat.com/wapps/ugc/register.html.
+
+Cluster Setup:
+
+1. Browse to https://console.redhat.com/openshift/create/rosa/getstarted.
+1. Log in using your Red Hat account. This will take you to the Hybrid Cloud Console.
+1. Download and install the ROSA CLI tool for your local OS (step 1).
+1. Login to the ROSA CLI with your Red Hat account token and create AWS account roles and policies as described on the setup page (step 2).
+1. From your laptop, run `rosa create cluster` to start the installation. You will be prompted for quite a few settings - accept the
+   offered defaults for all except the following:
+
+   - `Cluster name` - choose a name for your cluster
+   - `Create cluster admin user` - select Yes
+   - `Openshift version` - enter desired OpenShift version
+   - `AWS region` - enter desired AWS region
+
+1. The installation process will start, and a message will appear prompting you to run commands to create the `operator-roles` and
+   `oidc-provider` in order for the installation to continue. You need to run these now or the installation will pause indefinitely.
+   Accept the default options when prompted.
+1. Record the admin user name and password that were displayed during the setup step.
+1. You can monitor the progress of the installation and the installation log from the Hybrid Cloud Console **Cluster List** page. Note
+   that multiple connection errors will be logged while services are being provisioned - these are expected.
+1. While the cluster is installing you can download the OpenShift CLI tool (`oc`) from the link provided on the cluster status page,
+   if required.
+
+#### Logging in to the OpenShift cluster
+
+Once the cluster state is `ready` you can log into the cluster console from the Hybrid Cloud Console by selecting the cluster from
+**Cluster List** and clicking on the **Open Console** button.
+
+However you will need to wait an additional 5-10 minutes for the setup of the default identify provider and TLS certificates to complete
+and the `cluster-admin` identify provider button to appear first on the login page. If you are only presented with username and
+password fields to fill in wait a few more minutes and try browsing to the console login page again.
+
+Once you see the `cluster-admin` button click on it and you will be prompted for the admin user and password you recorded earlier. You
+are now logged into the cluster.
+
+#### Accessing the OpenShift cluster from the command line
+
+To access the cluster from the command line you first need to log into it using the `oc` command. From the cluster console, click on
+the **cluster-admin** drop down at the top right and then on **Copy login command**. You will be prompted to log in as the cluster
+admin again, and then shown a **Display token** link. Click on the link and copy the `oc login` command that is displayed.
+
+Run the `oc login` command on your laptop with the supplied token - you should then be able to run other commands such as `oc get pods -A`.
+
+#### Destroying the cluster
+
+ROSA clusters aren't cheap to run and so to reduce AWS costs the OpenShift cluster should be destroyed as soon as it is no longer
+needed (even if that means building a new one in a couple of days) - this is done from the command line by running
+`rosa delete cluster --cluster=mycluster`.
 
 ### Azure Testing Environment
 
@@ -446,6 +511,8 @@ It can be [installed using brew](https://canonical.com/multipass/docs/install-mu
 NOTE: Some Mac users may experience a [long standing bug](https://github.com/canonical/multipass/issues/2387) where the MacOS firewall prevents Multipass from functioning consistently. Use macOS 13.3.1 or above to avoid this issue.
 
 Once installed, use `multipass help` to get an idea of what it can do. The general format is `multipass <command> <name>`.
+
+For a solution that uses multipass see [GitLab-in-a-VM](https://gitlab.com/gitlab-com/support/toolbox/gitlab-in-a-vm). It automates a lot of stuff regarding setting up the VMs and making sure the instance is trusted between the GitLab runner and the GitLab instance itself.
 
 #### Examples
 
@@ -670,7 +737,7 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 #### Resources
 
-- <https://docs.gitlab.com/ee/install/docker/index.html>
+- <https://docs.gitlab.com/install/docker/>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/get-started/>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/reference/ip/>
 

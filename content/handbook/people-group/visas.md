@@ -5,7 +5,7 @@ description: "Information on travel visas, visa letters, and immigration to the 
 
 ## Visa and Sponsorship Policy
 
-GitLab does **not** offer any form of work or study sponsorship anywhere in the world, other than our specific, internal [Netherlands]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) process and support for highly skilled candidates in *certain* countries, where a candidate is already based in that country. GitLab does **not** offer any form of support to transfer an existing work permit. During the [screening process](/handbook/hiring/interviewing/#what-to-expect-during-an-interview-with-a-recruiter), recruiters will ask applicants if they require any type of sponsorship or support.
+GitLab does **not** offer any form of work or study sponsorship anywhere in the world, other than our specific, internal [Netherlands](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) process and support for highly skilled candidates in *certain* countries, where a candidate is already based in that country. GitLab does **not** offer any form of support to transfer an existing work permit. During the [screening process](/handbook/hiring/interviewing/#what-to-expect-during-an-interview-with-a-recruiter), recruiters will ask applicants if they require any type of sponsorship or support.
 
 For our purposes, visa sponsorship is defined as the requirement that a company or individual support a foreign national’s visa application. Sponsorship may be referred to by different terms depending on the country or visa, but any visa application or approval that is contingent on the company taking on certain obligations is considered synonymous with sponsorship.
 
@@ -33,6 +33,7 @@ GitLab's acceptance of a visa depends on many factors. The following visas may m
 - Netherlands EU Blue Card
 - South Korea F5 Permanent Resident Visa
 - Singapore Personalised Employment Pass
+- Transfer of current Singapore Employment Pass and/or Dependent Pass
 - Spain EU Blue Card
 - UK Global Talent Visa
 - UK India Young Professionals Scheme Visa
@@ -52,7 +53,7 @@ The following list is not exhaustive.
 - Japan Highly Skilled Professional Visa
 - South Korea H1 Working Holiday Visa
 - South Korea D7 Dispatch Visa
-- Singapore Employment Pass / S Pass / ONE Pass
+- Singapore S Pass / ONE Pass
 - UK Skilled Worker Visa
 - US H-1B
 - US H-1B1
@@ -154,7 +155,7 @@ It is possible to make an appointment within 2 weeks.
 
 If a team member wishes to immigrate and relocate to the Netherlands, they will need to first follow the [relocation process](/handbook/people-group/relocation/) and requirements and obtain approval to relocate.  Once approved, team members will also need to pass the formal visa application process to qualify. The requirements are:
 
-1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the Dutch salary requirement for [highly skilled migrants for 3 more years](https://ind.nl/en/required-amounts-income-requirements#Application_for_residence_permit_highly_skilled_migrant_and_European_Blue_Card)
+1. When using the [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/calculator/) you must meet the Dutch salary requirement for [highly skilled migrants for 3 more years](https://ind.nl/en/required-amounts-income-requirements#Application_for_residence_permit_highly_skilled_migrant_and_European_Blue_Card)
     - Note, that the Dutch government has a higher requirement for team members aged 30 and above. The age related wage requirement does not increase when reaching 30 if you already have an approved migrant visa (with the same employer).
     - The following pay elements are not included in the salary criterion and can't be used to meet the mimimum salary requirement: Vacation allowance; the value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable boni and payments from funds).
     - *Note: This calculation should be based on what GitLab **would** pay the team member in the Netherlands in accordance with the compensation calculator, **not** based on the team member's current salary.*
@@ -168,15 +169,15 @@ Tenure of less than 1 year at GitLab may be possibly waived as a requirement if:
 - You are a member of an [underrepresented](/handbook/company/culture/inclusion/#definitions) group that is unsafe or in any way mistreated in your country.
 - Violence in your country does not provide a safe environment.
 
-If you meet these requirements, kindly read our [Relocation]({{< ref "relocation" >}}) handbook page, as well as our specific [Netherlands section]({{< ref "relocation#relocating-to-the-netherlands" >}}), to ensure that your request is evaluated and approved following our protocols. **Please reach out to the People Connect team via HelpLab if you have any questions.**
+If you meet these requirements, kindly read our [Relocation](/handbook/people-group/relocation/) handbook page, as well as our specific [Netherlands section](/handbook/people-group/relocation/#relocating-to-the-netherlands), to ensure that your request is evaluated and approved following our protocols. **Please reach out to the People Connect team via HelpLab if you have any questions.**
 
 #### Transferring a partner visa to a highly skilled migrant visa
 
-Someone already in the Netherlands on a partner visa can be transferred to their own highly skilled migrant visa in order to not be dependent anymore. The process can take up to three months and is subject to above [eligibility criteria]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) and executive approval. Please reach out to the People Connect team via HelpLab to get this process started.
+Someone already in the Netherlands on a partner visa can be transferred to their own highly skilled migrant visa in order to not be dependent anymore. The process can take up to three months and is subject to above [eligibility criteria](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) and executive approval. Please reach out to the People Connect team via HelpLab to get this process started.
 
 Tasks for People Connect:
 
-1. The People Connect team member reviews if the [eligibility criteria]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) are met and asks the manager to confirm that the team member is not on a Performance Improvement Plan (PIP)
+1. The People Connect team member reviews if the [eligibility criteria](/handbook/people-group/visas/#right-to-immigrate-to-the-netherlands) are met and asks the manager to confirm that the team member is not on a Performance Improvement Plan (PIP)
 1. The People Connect team member emails HR Savvy (see contact details in 1password) to confirm the total amount of fees for this process since they are subject to change
 1. The People Connect team member emails the team member's Division's E-Group leader for their written approval and includes the total amount of fees in the email
 1. Once approved the People Connect team member emails HR Savvy with the team member in cc to request the visa transfer
@@ -240,11 +241,11 @@ There is more information [here](https://enterprise.gov.ie/en/what-we-do/workpla
 
 ### EU Blue Card
 
-GitLab may be able to offer employment agreements to selected highly skilled candidates seeking employment in an EU country where GitLab has an entity who apply for, or already hold, an EU Blue card for that country. GitLab may also be able to offer employment agreements to current team members looking to relocate to an EU country where GitLab has an entity who have been [approved for relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to such country and are planning to apply for an EU Blue Card.
+GitLab may be able to offer employment agreements to selected highly skilled candidates seeking employment in an EU country where GitLab has an entity who apply for, or already hold, an EU Blue card for that country. GitLab may also be able to offer employment agreements to current team members looking to relocate to an EU country where GitLab has an entity who have been [approved for relocation](/handbook/people-group/relocation/#how-to-apply-for-a-long-term-relocation) to such country and are planning to apply for an EU Blue Card.
 
 Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the EU Blue card. The employment agreement offered includes the condition that the candidate will hold the sufficient right to work and if a Blue Card is required that they will be able to obtain the Blue Card. If the Blue Card is denied, the employment agreement would be rescinded. GitLab will only consider candidates and team member relocation requests for prospective Blue Card holders in countries where we are currently open for hiring. GitLab will not assist with Blue Card applications beyond providing an employment agreement and any company information needed for the application.
 
-The EU Blue Card is a work and residence permit for highly skilled workers who are non-EU citizens and meet the country-specific salary threshold. Blue Cards are employer-specific but may be transferred by giving proper notice to the immigration authorities. Application requirements may vary by country. As you will need a local employment agreement to complete your Blue Card application, current team members will need to [apply for a Long-Term Relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to the country from which you are seeking a Blue Card. It is strongly recommended that you wait for approval for your long-term relocation before beginning your EU Blue Card application.
+The EU Blue Card is a work and residence permit for highly skilled workers who are non-EU citizens and meet the country-specific salary threshold. Blue Cards are employer-specific but may be transferred by giving proper notice to the immigration authorities. Application requirements may vary by country. As you will need a local employment agreement to complete your Blue Card application, current team members will need to [apply for a Long-Term Relocation](/handbook/people-group/relocation/#how-to-apply-for-a-long-term-relocation) to the country from which you are seeking a Blue Card. It is strongly recommended that you wait for approval for your long-term relocation before beginning your EU Blue Card application.
 
 If a candidate is interested in employment at GitLab in a country where they require a Blue Card for work authorization, GitLab may move forward with their candidacy under the following circumstances:
 
@@ -293,6 +294,14 @@ Long-term visa that does not require employer sponsorship. Typically valid indef
 #### Singapore Personalised Employment Pass
 
 This is a visa for high earners that does not require sponsorship. Valid for 3 years and cannot be renewed. When hiring candidates who hold a PEP, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their PEP expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their PEP expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
+
+#### Singapore Employment Pass
+
+This is an employer-sponsored temporary employment visa. GitLab can support the transfer of this visa from another employer to GitLab Singapore PTE Ltd. To be eligible for the Singapore Employment pass, The candidate must be (1) currently based in Singapore; (2) applying for a quota-carrying role; and (3) meet the relevant requirements under the Ministry of Manpower (MOM). 
+
+This visa is initially granted for up to 2 years and subsequent renewals are valid for up to 3 years. Renewal assessments are based on three factors: individual & company performance, business need at time of renewal, and compliance with MOM obligations. The visa holder may be able to apply for Permanent Residency and would be responsible for their own application and all fees associated with Permanent Residency. 
+
+Once the selected candidate has accepted the employment offer, we will initiate the Employment Pass (EP) visa application process. The candidate will supply their personal details and specified information to the immigration partner in order to complete the visa application. Each EP visa application is assessed by our immigration partners to ensure it meets the minimum requirements per MOM standards. Once the application is submitted, it will be under review with the visa authorities for a minimum of 10 business days before adjudication. Costs for obtaining the Employment Pass visa are absorbed by the department hiring the candidate.
 
 #### UK Global Talent Visa
 

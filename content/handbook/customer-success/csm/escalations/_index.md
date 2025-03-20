@@ -39,8 +39,9 @@ This process addresses escalations for CSM-assigned customers. This process can 
 
 Based on the level of the escalation, the DRI for the escalation will be:
 
-1. CSM will be the DRI for account escalations
+1. CSM will be the DRI for account escalations (except otherwise agreed with Support)
 2. The Professional Services Project Manager for any escalation during/as a part of a professional services project
+3. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
 
@@ -240,6 +241,14 @@ Occasionally, customers will require a product leader to act as a stable counter
 1. From there, if the escalation reaches a High state a Group Product Manager or Product Director will be assigned. If it reaches a critical state a PLT member will be assigned.
 1. During the escalation the GMP+ Product leader will stick with the customer and escalation and operate as a stable counterpart. They will bring in additional PMs as needed to help address the concerns, but will remain engaged in Slack, and on calls with the customer to be a consistent face and representative of the Product division.
 1. Individual PMs may roll in and out of the escalation but the assigned GMP+ product counterpart will remain attached until the escalation is resolved.
+
+## CSE's role in Escalations
+
+- Lead customer facing calls focused on discovery, de-escalation, technical guidance. Determine the customer's exit/success criteria to consider the escalation resolved.
+- Coordinate cross-functionally to determine path forward, potential workarounds and best practice recommendations.
+- Provide summaries in account escalation Slack channel on a cadence appropriate to the [defined escalation severity level](/handbook/customer-success/csm/escalations/#definitions-of-severity-levels).
+- Share updates to the customer via email.
+- Document in new GitLab issue for tracking/pattern matching for future reference. Example: https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/140
 
 ## Related Links
 

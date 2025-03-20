@@ -32,13 +32,113 @@ These core elements form the foundation for the rest of the success plan and the
 
 ### Initiatives
 
-Once an objective has been fully defined, one or more initiatives are created as action plans to achieve the objective. These focus on the "how" to meet the customer outcomes, and enable a division of responsibility for different aspects of the plan.
+Once an objective has been fully defined, one or more initiatives are created as action plans to achieve the objective. These focus on the "how" to meet the customer outcomes, and enable a division of responsibility for different aspects of the plan. 
+
+### Verifiable Outcomes
+
+Verifiable Outcomes (VOs) are a framework designed enhance the objectivity and visibility of customer achievements through adoption of GitLab. For a full video-based introduction to the concept, feel free to review the embedded youtube below (must be signed into GitLab Unfiltered account):
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/i3n4cMMIJz8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+#### *Why* Verifiable Outcomes?
+
+Much like buying a treadmill, the purchase of enterprise software only creates meaningful return on investment through careful planning, and dedicated effort over a sustained period of time. To avoid the trap of the metaphorical "treadmill" becoming a disused ornament where laundry is hung— it's crucial that Gitlab's account teams partner with customers to:
+
+- Capture the customer's desired outcomes
+- Measure and communicate the value of these outcomes in language relevant to the customer
+
+The verifiable outcomes framework has been created to:
+
+- Drive stakeholder alignment through clear customer-aligned objectives
+- Capture growth opportunities by clearly illustrating return on investment
+- Empower strong negotiation positions through evidence-backed discussion of ROI
+- Improve internal recognition of CS value delivery
+
+### What is a Verifiable Outcome?
+
+A verifiable outcome must be *SMART*:
+
+- **S**pecific
+- **M**easurable
+- **A**ttainable
+- **R**elevant
+- **T**ime-bound
+
+To be *SMART*, outcomes must include:
+
+1. **Baseline metrics**: Where we are today
+2. **Success criteria**: How we'll know when we're done
+3. **Business impact**: The benefit to the customer's business, in their language
+4. **Timeline**: When we expect to finish
+
+### The Process
+
+Verifiable outcomes progress through a four-stage process, represented by scoped labels applied to objective epics in the success plan:
+
+1. ~Verifiable Outcome::**Proposed**
+   - Gather baseline metrics
+   - Craft a plan with summary and child initiatives
+   - Strategize with peers, account team, and manager
+   - Present to customer (preferably in a cadence call)
+   - Adjust based on customer feedback
+
+2. ~Verifiable Outcome::**Accepted**
+   - The customer is aligned on baseline measures, success criteria, and timeline
+
+3. ~Verifiable Outcome::**Delivered** 
+   - Execute on the planned initiatives
+   - Track progress against established metrics
+
+4. ~Verifiable Outcome::**Verified**
+   - The customer has validated that the desired objective was achieved
+   - Document business impact, in the customer's words
+
+### Best Practices and Guidelines
+
+When developing verifiable outcomes:
+
+- **Talk to your stakeholders. Ask open-ended "TED" questions.**
+  - "**T**ell me about the most important priorities for your team. How do they relate to broader company objectives?"
+  - "**E**xplain...," "**D**escribe how...," etc.
+
+- **Leverage the resources and examples available to you, including:**
+  - Publicly available annual/quarterly investor reports
+  - News/Press releases/conference talks and other media
+  - Curate insights from GitLab case studies
+
+- **Draw upon examples from your peers**
+
+- **Strategize with your account team**
+
+- **Talk to your stakeholders** 
+
+### Examples of Effective and Ineffective Verifiable Outcomes
+
+Imagine you have a customer who wants to shorten their time-to-market, improve their developer productivity, or reduce customer-facing incidents. You agree with their platform engineering
+team that through the use of GitLab's CI/CD pipeline capabilities, there's opportunity to drive standardization and optimization of common operations and broaden the use of common testing frameworks.
+
+To bring objectivity and frame the problem in a business-relevant manner, here are four suggested sets of baseline metrics, success criteria and impact statements.
+
+| Baseline Metrics | Success Criteria | Timeframe | Business Impact |
+|-----------------|------------------|-------------|---------------------|
+| Deployment frequency: 2 per week | Increase to 10 deployments per week | Before July 2025 | Time to market improved by 5x |
+| Average deployment time: 4 hours | Reduce deployment time to 20 minutes | Throughout Q2 | 75% reduction in deployment time across X projects and Y deployments netting an estimated $$$ in time savings |
+| Manual steps required: 15 steps | Reduce manual steps to 2 | December 2025 | Reduced error rate by XX% |
+| Deployment success rate: 85% | Achieve 99.5% deployment success rate | September 2025 |  Reduced customer-facing incidents XX by XX per year |
+
+It's unlikely that all four will be relevant to your customer- considering reviewing one or two of your choosing, and align on which measure(s) they feel are most relevant to their situation.
+
+On a weekly basis, any open objectives in customer success plans will be triaged by the [continuous triage](https://gitlab.com/gitlab-com/account-management/continuous-planning-triage/) bot; provided your objective has draft success critieria, the bot will use GitLab Duo to suggest SMART success criteria with metrics & timelines for you.
+
+/Consider using AI/ as a means to brainstorm and ideate on your verifiable outcome, and evaluate if the criteria, metrics and impact are "SMART" in nature.
 
 ## Success plan lifecycle and process
 
 ### Pre-sales
 
-The success plan starts during the pre-sales phase, driven by the [Solutions Architect](/handbook/customer-success/account-team/#solutions-architect-sa). Throughout the product evaluation process the SA and the [Account Executive](/handbook/customer-success/account-team/#strategic-account-executive-sae--account-executive-ae) define customer objectives, and use these to demonstrate GitLab value aligned to these objectives. The SA documents these [objectives](#customer-objectives) in the [success plan slide deck](#success-plan-slide-deck) with all of the requisite details. This information is part of what is used for a [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov/), and ensures that we have a clear understanding of the customer's needed business outcomes.
+The success plan starts during the pre-sales phase, driven by the [Solutions Architect](/handbook/customer-success/account-team/#solutions-architect-sa). Throughout the product evaluation process the SA and the [Account Executive](/handbook/customer-success/account-team/#strategic-account-executive-sae--account-executive-ae) define customer objectives, and use these to demonstrate GitLab value aligned to these objectives. The SA documents these [objectives](#customer-objectives) in the [success plan slide deck](#success-plan-components) with all of the requisite details. This information is part of what is used for a [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov/), and ensures that we have a clear understanding of the customer's needed business outcomes.
 
 To understand the full process between Pre-sales and Post-sales, please read about the [mutual customer success plan process](/handbook/solutions-architects/sa-practices/customer-success-plan/).
 
@@ -64,39 +164,46 @@ The most frequent customer engagement point for this is the [cadence call](/hand
 
 The success plan and business review should be thought of as mirror images of each other: the information maintained in the success plan feeds the discussion for the business review, and new information attained through the business review meeting is captured in the success plan to add to the roadmap for the customer's success.
 
-## Systems and workflow
+## Success Plan Components
 
-There are two main components that make up a full success plan: the [customer-facing slide deck](#success-plan-slide-deck), and the [Gainsight success plan](#gainsight-success-plan). These two elements are used in tandem to ensure ongoing alignment across all stakeholders and the ability to measure & analyze the results of our efforts.
+A success plan consists of two integrated components: the GitLab-based continuous planning project and the Gainsight success plan. These elements work together to ensure ongoing alignment across all stakeholders and enable measurement and analysis of our efforts.
 
-### Success plan slide deck
+## GitLab Continuous Planning Project
 
-As the success plan is a mutually agreed upon living document, the primary format is a slide deck that follows a [defined template](https://docs.google.com/presentation/d/1T-Y2WJ-mRqGey7b1YQMTKE3tVbBTnyY3a9HzaOpxPQ4/edit?usp=sharing). This provides several benefits:
+The success plan is maintained as a living document within a GitLab project, following our continuous planning methodology. This approach provides several key benefits:
 
-- A standardized format for documenting and managing the success plan
-- Easy, visually appealing way of reviewing and updating success plan details with customer stakeholders and GitLab team members
-- Highly collaborative and shareable
+- Real-time collaboration and updates through GitLab's native features
+- Automated generation of presentation materials through CI/CD pipelines
+- Direct integration with daily workflow and project management
+- Standardized documentation through epic and issue templates
 
-The structure of the success plan slide deck focuses on [objectives](#customer-objectives) & [initiatives](#initiatives) as defined above, as well as specific focus on the customer enablement plan and an outline of next steps at any given time. It makes it easy to visualize progress and key details in a way that's clear and easy to follow, and identify needed updates or demonstrate measurable results.
+The structure of the success plan in GitLab organizes objectives as epics and initiatives as issues, with standardized labels and templates ensuring consistent documentation. This makes it easy to track progress, demonstrate measurable results, and maintain up-to-date information that's accessible to all stakeholders.
 
-For ease of discovery and visibility, the success plan slide deck must be located in the appropriate [Google Drive Customer Folder](https://drive.google.com/drive/u/1/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?resourcekey=0-MBirIe2vWyQXYi8cJEkH2Q) as well as [linked in the customer's Gainsight success plan](#link-to-the-slide-deck-from-gainsight) using the designated field on the plan info screen (to the right of Approval Status). The permissions for the slide deck should be set to Editor for everyone at GitLab, to maximize the ability to collaborate.
+For ease of discovery and visibility, the GitLab continuous planning project must be linked in the customer's Gainsight success plan using the designated field on the plan info screen (to the right of Approval Status).
 
-### Gainsight success plan
+## Gainsight Success Plan
 
-Gainsight's success plan capability provides us with the ability to understand, across a CSM's book of business and our organization more broadly, what is working and what we can improve to drive use case adoption.
+Gainsight's success plan capability enables us to analyze and understand patterns across a CSM's book of business and our organization more broadly, helping identify what drives successful use case adoption.
 
-While most information related to achieving objectives lives in the [slide deck](#success-plan-slide-deck), we still enter key details about objectives into Gainsight. This includes:
+While detailed information about objectives and initiatives lives in the GitLab project, we maintain key objective actions / updated in Gainsight timeline, like customer calls, meeting or similar.
 
-- Name/description of the objective
-- Baseline: current state and associated metrics
-- Expected outcome: measurable results we plan to achieve, and associated metrics
-- Expected completion date
+When an objective is identified and documented as an epic in GitLab, it is also synced to Gainsight. Once an objective is achieved, or if it is removed for any reason, it is closed in both GitLab and Gainsight accordingly.
 
-The rest of the details, including the initiatives and other action item details for the objective, are maintained in the [slide deck](#success-plan-slide-deck).
+This workflow minimizes duplication while enabling CSMs to maintain visibility into the progress and status of their initiatives across their book of business and track results over time.
 
-When an objective is identified and outlined with the customer and documented in the [slide deck](#success-plan-slide-deck), it is also added to Gainsight. Once an objective is achieved, or if it is removed for any reason, it is closed in Gainsight accordingly.
+## Linking GitLab and Gainsight
 
-This workflow allows us to minimize overlap between the two success plan components, while enabling a CSM to have visibility into the progress and status of their initiatives across their book of business and their results over time.
+GitLab.com serves as the source of truth for Success Plans, with automatic synchronization to Gainsight. This integration enables seamless visibility while reducing manual overhead.
 
-#### Link to the slide deck from Gainsight
+## How It Works
 
-For ease of discovery and visibility, there is a field on the Gainsight success plan info screen to provide a link to the [success plan slide deck](#success-plan-slide-deck). When the slide deck is created, the link is added to this field in Gainsight.
+- Success Plans created in GitLab.com (epics and tasks) automatically sync to Gainsight
+- Data is transferred via API, creating corresponding Success Plans in Gainsight
+- Updates in GitLab.com reflect automatically in Gainsight
+
+## Benefits
+
+- Single source of truth in GitLab.com
+- Reduced manual data entry and maintenance
+- Consistent Success Plan visibility across platforms
+- Eliminates need to maintain plans in multiple locations

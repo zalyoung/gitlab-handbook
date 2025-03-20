@@ -129,7 +129,7 @@ The next step in the Instructional Design job family is to move into management 
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 30 minute interview with our Learning & Development Manager.
 - Next, the candidate will be invited to interview with a member of the Learning & Development team, an Instructional Design team member from our Sales Enablement team, and a People Business Partner.
 - Next, candidates will be invited to schedule a 30 minute interview with our Director of People Operations.

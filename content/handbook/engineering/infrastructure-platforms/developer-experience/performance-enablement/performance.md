@@ -116,7 +116,12 @@ Load testing in the cloud presents a number of challenges:
 
 #### System Level Load Testing
 
-We currently conduct load testing using [GPT](/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#performance-tool) and [GBPT](/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#browser-performance-tool). This testing is predominately run against our [Reference Architectures](/handbook/engineering/infrastructure/test-platform/performance-and-scalability//#reference-architectures), but can be run against a live environment, but caution should be applied when running against [shared enviornments](/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#no-shared-environments-usage).
+Existing performance testing includes:
+
+* [Reference Architecture server performance testing](../../gitlab-delivery/framework/reference-architecture-validation-testing.md)
+* [Browser performance testing](browser-performance-testing.md)
+
+This testing is predominately run against our Reference Architectures, but can be run against a live environment, but caution should be applied when running against shared environments as this can notably impact any results.
 
 #### Component Level Load Testing
 

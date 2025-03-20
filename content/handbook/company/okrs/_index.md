@@ -91,14 +91,14 @@ The CoS to the CEO is coordinating the OKRs process detailed below. The EBA to t
 
 **In the first month of the fiscal quarter,** the Chief of Staff (CoS) to the CEO initiates the OKR process. The CoS works with the CEO will propose big themes and priorities for next quarter. Yearlies are consulted in the drafting process. The CoS to the CEO creates a Google Doc for E-Group alignment. This document is shared with E-Group in an [E-Group Weekly](/handbook/company/e-group-weekly/). E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO.
 
-**In the second month of the fiscal quarter,** E-Group will align on big themes and priorities. Before the end of the second month and before team planning is deeply underway, E-Group will lock in a single set of company-wide OKRs. After E-Group alignment, Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.  
+**In the second month of the fiscal quarter,** E-Group will align on big themes and priorities. Before the end of the second month and before team planning is deeply underway, E-Group will lock in a single set of company-wide OKRs. After E-Group alignment, Company-level OKRs will then be shared with all of GitLab in the `#okrs` channel.
 
 ### Executives propose OKRs for their functions
 
 Function objectives should cascade from one of the Company OKRs in GitLab.
 
 **3-4 weeks before** the start of the fiscal quarter, E-Group firms up KRs.
-**2-3 weeks before** the start of the fiscal quarter, during a designated block of time in an [E-Group Weekly](/company/e-group-weekly/), Executives propose OKRs for their functions. At a minimum, they should have 2-3 function KRs that cascade from each company-level objective. They may choose to have more OKRs for function management purposes and have discretion to what degree other goals are highlighted in this forum.
+**2-3 weeks before** the start of the fiscal quarter, during a designated block of time in an [E-Group Weekly](/handbook/company/e-group-weekly/), Executives propose OKRs for their functions. At a minimum, they should have 2-3 function KRs that cascade from each company-level objective. They may choose to have more OKRs for function management purposes and have discretion to what degree other goals are highlighted in this forum.
 
 After this meeting, as OKRS are finalized, functional OKRs should be posted in GitLab. This should be noted through a Slack message in the #okrs channel. The CEO and Chief of Staff to the CEO should be @ mentioned. The CEO will confirm sign-off on objectives by commenting directly on them. While the CEO is the DRI, this responsibility may be delegated to the CoS to the CEO. The CoS to the CEO will also post company OKRs in GitLab.
 
@@ -126,7 +126,7 @@ It is each team's responsibility to proactively identify dependencies in which t
 
 ### Documenting How to Achieve
 
-A dedicated session during an [E-Group Weekly](/company/e-group-weekly/) is the key the forum for introducing new function OKRs. During the draft review meeting, each function should share:
+A dedicated session during an [E-Group Weekly](/handbook/company/e-group-weekly/) is the key the forum for introducing new function OKRs. During the draft review meeting, each function should share:
 
 1. KRs that related to company-OKRs, including:
      1. CEO OKR that cascade from
@@ -172,7 +172,7 @@ In the event that a functional objective that is captured in GitLab needs to be 
 
 ## Format of OKR on the Handbook Page
 
-Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
+Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
 
 Functional leaders are responsible for updating their objectives and KRs in GitLab before review meetings.
 
