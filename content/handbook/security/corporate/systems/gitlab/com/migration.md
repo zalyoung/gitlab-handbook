@@ -68,8 +68,8 @@ subgraph "Previous Generation"
     COM_INT_SEC_RES["gitlab-com/gl-security/security-research/*<br>**Security Research**"]
     COM_INT_SEC_PRD["gitlab-com/gl-security/product-security/*<br>**Product Security**"]
     COM_CUST_ACCT["gitlab-com/account-management/*<br>**Customer Collaboration**"]
-    COM_CUST_SVC["gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/*<br>**Professional Services Customers**"]
-    COM_SVC_PART["gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration/*<br>**Professional Services Partners**"]
+    COM_CUST_SVC["gitlab-com/customer-success/professional-services-group/...\n...professional-services-delivery/gitlab-professional-services/*<br>**Professional Services Customers**"]
+    COM_SVC_PART["gitlab-com/customer-success/professional-services-group/...\n...professional-services-delivery/gitlab-partner-collaboration/*<br>**Professional Services Partners**"]
     COM_CHANNEL_PART["gitlab-com/partners/channel/*<br>**Channel Partners**"]
     COM_ALLIANCE_PART["gitlab-com/partners/alliance/*<br>**Alliance Partners**"]
 
