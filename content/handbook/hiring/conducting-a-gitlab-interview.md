@@ -59,7 +59,7 @@ It's important to allocate the right amount of time for each part of the intervi
 
 Please note, there is a possible risk event affecting fully-remote workplaces like ours:
 
-- Threat actors are using **AI deepfake avatars to disguise their identities** during online interviews for open roles. The intent is to trick the company into hiring them for reasons like:
+- Threat actors are using **AI deepfake avatars to disguise their identities** during online interviews for open roles. The intent is to trick the company into hiring them for reasons such as:
 
   - Financial exploitation
   - Intellectual property theft
