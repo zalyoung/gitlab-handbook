@@ -18,45 +18,47 @@ toc_hide: true
 
 | Term | Definition |
 |------|------------|
-| GitLab component | A software module developed by the GitLab community, part of the broader GitLab solution, designed to work with other GitLab components GitLab to provide specific functionalities. |
-| GitLab instance | A complete, operational deployment of the GitLab platform, comprising multiple _components_ configured to work together as a unified system. |
-| GitLab dependency | An external component or service essential for a GitLab instance to function, not developed by GitLab. For examples databases or caching systems. |
-| Kubernetes operator | A Kubernetes extension that uses custom resources to automate the deployment, scaling, and management of complex applications. |
-| GitLab Chart | Helm-based Kubernetes manifests that deploy GitLab in Kubernetes. |
-| Chart-based GitLab operator | Also known as Operator V1, is the current GitLab Operator that is based on a GitLab Chart. |
-| GitLab Operator | Also known as Operator V2, is the new self-contained GitLab Operator that is being developed to address the limitations of the GitLab Chart. |
-| GitLab Environment Toolkit (GET) | A set of scripts to assist with deploying scaled GitLab environments following the Reference Architectures. |
+| _[GitLab]_ component | A software module developed by the GitLab community, part of the broader GitLab solution, designed to work with other GitLab components GitLab to provide specific functionalities. |
+| _[GitLab]_ instance | A complete, operational deployment of the GitLab platform, comprising multiple _components_ configured to work together as a unified system. |
+| _[GitLab]_ dependency | An external component or service essential for a GitLab instance to function, not developed by GitLab. For examples databases or caching systems. |
+| _[Kubernetes]_ operator | A Kubernetes extension that uses custom resources to automate the deployment, scaling, and management of complex applications. |
+| _[Helm]_ chart | A Kubernetes package that contains all the necessary manifests to create an application in Kubernetes. |
+| _[GitLab]_ Chart | Helm-based Kubernetes manifests that [deploy GitLab in Kubernetes][gitlab_chart]. |
+| Chart-based _[GitLab]_ operator | Also known as [Operator V1][gitlab_operator_v1], is the current GitLab Operator that is based on a GitLab Chart. |
+| _[GitLab]_ Operator | Also known as [Operator V2][gitlab_operator_v2], is the new self-contained GitLab Operator that is being developed to address the limitations of the GitLab Chart. **This blueprint is about this operator.** |
+| GitLab Environment Toolkit (GET) | A [set of scripts][gitlab_get] to assist with deploying scaled GitLab environments following the [Reference Architectures][gitlab_ref_arch]. |
 
 ## Context
 
-The GitLab Chart has long been the established method for installing and upgrading cloud-native GitLab instances. While
-its maturity is a testament to its reliability, it also presents challenges in terms of feature saturation and
-adaptability. The Chart's architecture, constrained by Helm's limitations, struggles to accommodate the evolving needs
-of a complex service like GitLab.
+The [GitLab Chart][gitlab_chart] has long been the established method for installing and upgrading cloud-native GitLab
+instances. While its maturity is a testament to its reliability, it also presents challenges in terms of feature
+saturation and adaptability. The Chart's architecture, constrained by Helm's limitations, struggles to accommodate the
+evolving needs of a complex service like GitLab and modernization practices in cloud-native environments.
 
-Our current Chart-based GitLab Operator (V1), despite its name, inherits these limitations due to its reliance on Helm.
-A more robust, GitLab-specific Kubernetes Operator that can overcome these constraints and provide enhanced operational
-capabilities.
+Our current [Chart-based Operator][gitlab_operator_v1] (a.k.a V1), despite its name, inherits these limitations due to
+its reliance on Helm. A more robust, GitLab-specific Kubernetes Operator that can overcome these constraints and provide
+enhanced operational capabilities.
 
-Adopting a more advanced Kubernetes Operator for GitLab deployment is a strategic move towards a fully cloud-native
-architecture.
+Adopting a modern Kubernetes operator with advanced capabilities for GitLab deployment can go beyond the traditional
+install and upgrade experiences, and is a strategic move towards a fully cloud-native architecture.
 
-It promises:
+This shift promises:
 
 - Hands-off, automated lifecycle management and superior upgrade experience
 - Significantly reduced operational complexity
 - Enhanced adaptability to cloud-native environments and efficient scaling
 
-The result is a more robust, self-managing deployment solution that can keep pace with GitLab's evolving features and
-requirements.
+The result is a more robust, self-managing deployment solution that can keep pace with GitLab's evolving features,
+requirements, and environment.
 
 ## Problem
 
 The current GitLab Chart and Chart-based Operator have significant limitations that hinder our ability to deliver an
 optimal cloud-native experience:
 
-1. Lack of real-time adaptability: Any change requires full re-deployment of the GitLab instance.
-1. Limited operational intelligence: Unable to automate complex operations like migrations or failover.
+1. Lack of real-time adaptability: Any change requires manual full reconfiguration and possibly redeployment of the
+   GitLab instance.
+1. Limited operational intelligence: Unable to automate complex operations like database migrations or failover.
 1. Dependency on generic Kubernetes self-healing: Lacks application-specific healing capabilities.
 1. Insufficient stateful component management: Cannot fully support the lifecycle of stateful components.
 
@@ -68,6 +70,8 @@ stateful components and those requiring frequent scaling or minimal manual inter
 1. Suboptimal cloud-native experience for users, especially when it comes to upgrading GitLab instances.
 1. Higher operational overhead for lifecycle management.
 1. Limited ability to leverage full cloud-native architecture benefits.
+1. Slower pace of adoption of upstream changes, making it costly to add new cloud-native features and addressing future
+   changes.
 
 ## Goals
 
@@ -127,13 +131,23 @@ The GitLab Operator adopts a LEGO®-like approach to GitLab deployment and manag
 solution, it offers discrete building blocks that can be assembled according to specific requirements and desired
 Reference Architecture.
 
+The following table outlines the differences in design approach between GitLab Chart and GitLab Operator.
+
+| Aspect | GitLab Chart | GitLab Operator |
+|--------|--------------|-----------------|
+| Primary Focus | Installation | Operation |
+| Architecture | All-in-one, one-size-fits-all | Loosely coupled, strongly cohesive blocks |
+| Dependencies | Batteries included | No dependencies included, integration-focused |
+| Scope | Everything a typical GitLab needs are predefined | Modular components that can be assembled and configured in any form |
+| Orchestration | Self-contained | No built-in orchestration, relies on other tools |
+
 ### Key design elements
 
 #### Component-based architecture
 
-1. Each GitLab component is represented as a separate Kubernetes custom resource.
+1. Each GitLab component is represented as a separate [Kubernetes custom resource][kubernetes_cr].
 1. Components can be deployed, upgraded, and scaled independently.
-1. Orchestrate components in various configurations to address different deployment scenarios.
+1. Orchestrate components in various configurations to address different deployment scenarios and [reference architectures][gitlab_ref_arch].
 
 #### Integration-first approach
 
@@ -144,16 +158,15 @@ Reference Architecture.
 #### Orchestration through external tools
 
 1. Rely on established tools for orchestration:
-   - GitLab Environment Toolkit (GET)
-   - Helm
-   - Kustomize
+   - [GitLab Environment Toolkit][gitlab_get]
+   - [Helm][helm]
+   - [Kustomize][kustomize]
 
-### Comparison with GitLab Chart
-
-| Aspect | GitLab Chart | GitLab Operator |
-|--------|--------------|-----------------|
-| Primary Focus | Installation | Operation |
-| Architecture | All-in-one, one-size-fits-all | Loosely coupled, strongly cohesive blocks |
-| Dependencies | Batteries included | No dependencies included, integration-focused |
-| Scope | Everything a typical GitLab needs | Modular components that can be assembled and configured |
-| Orchestration | Self-contained | No built-in orchestration, relies on external tools |
+[gitlab_chart]: https://gitlab.com/gitlab-org/charts/gitlab
+[gitlab_operator_v1]: https://gitlab.com/gitlab-org/cloud-native/gitlab-operator
+[gitlab_operator_v2]: https://gitlab.com/gitlab-org/cloud-native/operator
+[gitlab_get]: https://gitlab.com/gitlab-org/gitlab-environment-toolkit
+[gitlab_ref_arch]: https://docs.gitlab.com/administration/reference_architectures
+[kubernetes_cr]: https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
+[helm]: https://helm.sh/
+[kustomize]: https://kustomize.io/
