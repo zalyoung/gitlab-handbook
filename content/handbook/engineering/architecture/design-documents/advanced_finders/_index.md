@@ -73,6 +73,7 @@ The new Advanced Finders will:
   - Query complexity
   - Configuration preferences
   - Parameter support in advanced search (using allowlists)
+  - Data freshness and current indexing lag
 
 Example usage:
 
@@ -175,7 +176,7 @@ This redaction mechanism is especially important when using advanced search, as 
 
 **Decision**: Use a registry of supported search backends with a prioritization mechanism and parameter support allowlisting.
 
-**Context**: We need to select the appropriate backend based on multiple factors like availability, query complexity, and parameter support.
+**Context**: We need to select the appropriate backend based on multiple factors like availability, query complexity, parameter support, and data freshness.
 
 **Benefits**:
 
@@ -183,6 +184,7 @@ This redaction mechanism is especially important when using advanced search, as 
 - Can be configured at runtime
 - Supports gradual rollout through feature flags
 - Parameter allowlisting allows for graceful degradation
+- Can factor in data lag to ensure fresh results when needed
 
 **Tradeoffs**:
 
@@ -318,10 +320,11 @@ module AdvancedFinder
       # 2. Verify ES/OS availability
       # 3. Check parameter support
       # 4. Evaluate query complexity
+      # 5. Consider data freshness and lag
 
       if should_use_legacy_finder?
         execute_legacy_finder
-      elsif should_use_elasticsearch?
+      elsif should_use_elasticsearch? && elasticsearch_data_is_sufficiently_fresh?
         execute_elasticsearch_backend
       else
         execute_postgresql_backend
