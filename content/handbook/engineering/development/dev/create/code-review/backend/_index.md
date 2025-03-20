@@ -244,8 +244,9 @@ on the issue (if they have spare time).
 
 ## Engineering Onboarding
 
-This [example onboarding issue](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/issues/160)
+- This [example onboarding issue](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/issues/160)
 will eventually be turned into an onboarding [issue template](https://docs.gitlab.com/ee/user/project/description_templates.html#create-an-issue-template).
+- [Code Review onboarding template for Backend Engineers](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/blob/main/.gitlab/issue_templates/onboarding.md).
 
 ## Other Related Pages
 
