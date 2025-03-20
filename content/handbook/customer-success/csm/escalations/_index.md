@@ -43,6 +43,17 @@ The DRI for the escalation is determined by evaluating these options in order:
 1. If the escalation is NOT related to an ongoing Professional Services project and there is a CSM assigned to the account, the CSM will be the DRI.
 1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
 
+```mermaid
+flowchart TD;
+    A[Account Escalation Identified] --> B{Is this related to a Professional Services Project?};
+    B -->|Yes| C[Professional Services Project Manager is DRI];
+    B -->|No| D{Does customer have an assigned CSM?};
+    D -->|Yes| E[CSM is DRI];
+    D -->|No| F[Customer assigned to TAM Scale];
+    F --> G[AE is DRI];
+    G --> H[CSE assigned via CSE Help Case. CSE is lead technical collaborator];
+```
+
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
 
 - Overall articulation of the approach to resolution, including ensuring the plan and approach is understood
