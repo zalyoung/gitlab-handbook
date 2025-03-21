@@ -31,19 +31,19 @@ CREATE TABLE p_ci_pipeline_blueprints (
   id BIGINT NOT NULL,           -- Primary identifier for the blueprint
   partition_id BIGINT NOT NULL, -- Enables data partitioning for scale
   project_id BIGINT NOT NULL,   -- Associates the blueprint with a specific project
-  config_file STRING NOT NULL,  -- Stores the consolidated configuration
-  config_file_store INTEGER,    -- Indicates storage location (local/object storage)
-  config_file_sha256 BYTEA,     -- Enables deduplication through checksum comparison
+  file STRING NOT NULL,  -- Stores the consolidated configuration
+  file_store INTEGER,    -- Indicates storage location (local/object storage)
+  file_sha256 BYTEA,     -- Enables deduplication through checksum comparison
 
   PRIMARY KEY (id, partition_id),
-  UNIQUE INDEX p_ci_pipeline_blueprints_project_config_sha_partition_idx (project_id, config_file_sha256, partition_id)
+  UNIQUE INDEX p_ci_pipeline_blueprints_project_file_sha_partition_idx (project_id, file_sha256, partition_id)
 )
 PARTITION BY LIST (partition_id);
 ```
 
-The unique index on `(project_id, config_file_sha256, partition_id)` ensures that we maintain exactly one blueprint for each unique configuration within a project and partition. This is crucial for our deduplication strategy as it prevents duplicate configurations from being stored and provides an efficient lookup path when linking new pipelines to existing blueprints. The order of the columns is also important because it allows us to use it for queries that lookup rows by project id.
+The unique index on `(project_id, file_sha256, partition_id)` ensures that we maintain exactly one blueprint for each unique configuration within a project and partition. This is crucial for our deduplication strategy as it prevents duplicate configurations from being stored and provides an efficient lookup path when linking new pipelines to existing blueprints. The order of the columns is also important because it allows us to use it for queries that lookup rows by project id.
 
-The configuration data stored in `config_file` consolidates information from multiple existing tables:
+The configuration data stored in `file` consolidates information from multiple existing tables:
 
 ```json
 {
@@ -259,9 +259,9 @@ erDiagram
         bigint id PK
         bigint partition_id PK
         bigint project_id FK
-        integer config_file_store
-        text config_file
-        test config_file_sha256
+        integer file_store
+        text file
+        test file_sha256
         timestamp created_at
         timestamp updated_at
     }
