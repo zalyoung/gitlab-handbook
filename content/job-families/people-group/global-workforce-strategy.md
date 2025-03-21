@@ -98,7 +98,7 @@ The Manager, Global Workforce Strategy reports to the [Director, People Operatio
 
 The Manager, Global Workforce Strategy is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Staff Global Workforce Strategy Program Manager Responsibilities
+#### Manager, Global Workforce Strategy Responsibilities
 
 - Establish performance expectations and development opportunities for direct reports.
 - Drive global workforce expansion strategy using evidence-based decision trees, coordinating with key cross-functional partners.
