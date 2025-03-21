@@ -428,7 +428,7 @@ Each campaign/theme executed on the Instagram Brand Channel should include hasht
 
 ### YouTube <a name="youtube"></a>
 
-The social media team does not manage GitLab's YouTube presence. Please reach out to the Brand video team using the #brand_video skack channel.
+The social media team does not manage GitLab's YouTube presence. Please reach out to the Brand Video Team using the #brand_video skack channel.
 
 ## Social Media Design
 
