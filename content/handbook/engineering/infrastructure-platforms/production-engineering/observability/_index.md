@@ -29,17 +29,17 @@ The team is located all over the world in [different timezones](https://timezone
 
 ## Technical principles, goals and responsibilities
 
-Please see [the Technical Blueprint](/handbook/engineering/infrastructure/team/observability/technical_blueprint) for details on our principles and goals.
+Please see [the Technical Blueprint](/handbook/engineering/infrastructure-platforms/production-engineering/observability/technical_blueprint) for details on our principles and goals.
 
 The following gives an overview of our scope and ownership.
 
 1. [Monitoring fundamentals](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/monitoring/README.md#L1)
    1. Metrics stack
    1. Logging stack
-1. [Error budgets](/handbook/engineering/infrastructure/team/observability/error_budgets/)
+1. [Error budgets](/handbook/engineering/infrastructure-platforms/production-engineering/observability/error_budgets/)
    1. Ownership of concept and implementation
    1. Delivery of monthly error budget report
-1. [Capacity planning](/handbook/engineering/infrastructure/team/observability/capacity_planning/)
+1. [Capacity planning](/handbook/engineering/infrastructure-platforms/production-engineering/observability/capacity_planning/)
    1. [Triage rotation for .com](/handbook/engineering/infrastructure/capacity-planning/#gitlabcom-capacity-planning)
    1. [Operational aspects for GitLab Dedicated capacity planning](https://docs.gitlab.com/ee/architecture/blueprints/capacity_planning/)
    1. Developing [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland), the forecasting tool
@@ -183,7 +183,7 @@ When posting updates, consider providing enough context (e.g. through links) so 
 
 ### Cost Management
 
-For details on the daily operational costs of our observability services refer to the [Cost of Observability Stack](/handbook/engineering/infrastructure/team/observability/cost) documentation. This resource includes access instructions and cost breakdowns.
+For details on the daily operational costs of our observability services refer to the [Cost of Observability Stack](/handbook/engineering/infrastructure-platforms/production-engineering/observability/cost) documentation. This resource includes access instructions and cost breakdowns.
 
 ## History and Accomplishments
 
