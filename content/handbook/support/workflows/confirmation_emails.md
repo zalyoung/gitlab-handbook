@@ -53,10 +53,10 @@ The automation will send out an email to the customer letting them know whether 
 As of 2023-08-07, unconfirmed users are [deleted after a set number of days](https://docs.gitlab.com/user/gitlab_com/#email-confirmation) on GitLab.com.
 
 #### Free Users
-Free Users are required to wait for GitLab to automatically delete the account.
+Free users are required to wait for GitLab to automatically delete the account.
 
 #### Paid Users
-Paid Users are recommended to wait for GitLab to automatically delete the account, however it is possible for Support to update the email address of paid users with manager approval.
+Paid users are recommended to wait for GitLab to automatically delete the account, however it is possible for Support to update the email address with manager approval if required.
 
 ### Manually remove a Suppression in Zendesk
 
