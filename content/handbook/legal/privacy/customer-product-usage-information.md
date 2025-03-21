@@ -73,7 +73,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Applicable Software*: Snowplow Metrics are collected from free and paid users of the Self-Managed, GitLab.com and Dedicated versions of the Software.
 
-*Configuration*: The Snowplow collector takes user events in real time from GitLab.com and Dedicated and sends these user Metrics through our pseudonymization process. At this stage, the Metrics are stripped of personal identifiers, subject to the exceptions below, but the Metrics are still attributable to a GitLab.com namespace or tenant and project. For Self-Managed, this pseudonymization process occurs within the Self-Managed instance.
+*Configuration*: The Snowplow collector takes user events in real time from GitLab.com and Dedicated and sends these user Metrics through our pseudonymization process. At this stage, the Metrics are stripped of personal identifiers, subject to the exceptions below, but the Metrics are still attributable to a GitLab.com namespace or tenant and project. For Self-Managed and Dedicated, this pseudonymization process occurs within the instance or tenant.
 
 *Personal Data Collected*: Snowplow does collect the personal data of individual users in a raw format.  These raw Metrics, however, are sent through a pseudonymization process and subsequently purged, meaning only the pseudonymized Metrics are delivered to our data warehouse. These pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users. There are two pieces of Snowplow Metrics that we do not pseudonymize: Project_ID and Namespace_ID.  We also collect the country and region of the user's location, but we do not store IP addresses.
 
@@ -131,7 +131,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Purpose*: GitLab collects [Snowplow events](/handbook/legal/privacy/customer-product-usage-information/#snowplow) from GitLab Duo users in order for GitLab to gain insights into the success and value of certain Duo features, understand end-to-end user interaction with these features, and ensure the features are debugged and working properly. 
 
-*Applicable Software*: GitLab Duo Metrics are collected from GitLab.com and Dedicated users that have Duo licenses. Further, because GitLab Duo is a cloud-connected feature add-on, Self-Managed instance administrators that have enabled Duo will result in Duo Metrics being sent from the instance to GitLab.
+*Applicable Software*: GitLab Duo Metrics are collected from GitLab.com, Dedicated and Self-Managed users that have Duo licenses since GitLab Duo is a cloud-connected feature add-on.  For instances that use only self-hosted models, please see the opt-out directions at the bottom of this section.
 
 *Configuration*:  For GitLab.com or Dedicated, first-party Duo Metrics are collected from the editor extension by our Snowplow collector and then sent to our data warehouse. For Self-Managed instances, first-party Duo Metrics are collected from the editor extension, sent to the instance, and our Snowplow collector sends the Metrics from the instance to our data warehouse.
 
