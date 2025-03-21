@@ -1,11 +1,11 @@
 ---
 title: "Organizations and Cells"
 owning-stage: "~devops::tenant scale"
-group: Tenant Scale
+group: Organizations
 toc_hide: true
 ---
 
-## Cells Integration
+# Organizations and Cells Integration
 
 Operating a GitLab instance as a SaaS also poses some important technical
 challenges:
@@ -29,7 +29,7 @@ By combining Organizations and Cells, we can achieve:
 
 This approach allows GitLab.com to grow more efficiently while providing a more stable and performant experience for all users.
 
-## Overview
+# Overview
 
 GitLab.com, our SaaS offering, is growing rapidly.
 This growth requires that the underlying infrastructure components are able to scale to accommodate additional users.
@@ -71,7 +71,7 @@ Organizations will offer the following functionality:
 1. **Integration with Cells:** Isolating Organizations makes it possible to allocate and distribute them across different Cells. The benefit of being on a cellular architecture is:
    - **Increased reliability:** A group of Organizations is fully isolated from other Organizations located on a different Cell. If an issue arises within one Organization, the impact is contained within the Cell the Organization is on, preventing a single point of failure from affecting the entire platform. This enhances the overall reliability of GitLab, reducing the risk of widespread outages and improving customer satisfaction. Having isolated Organizations is a pre-requisite to distribute customers amongst multiple Cells.
 
-### Goals
+## Goals
 
 - Improved UX: Inconsistencies between the features available at the Project and Group levels create navigation and usability issues. Moreover, there isn't a dedicated place for Organization-level features.
 - Aggregation: Data from all Groups and Projects in an Organization can be aggregated.
@@ -79,17 +79,17 @@ Organizations will offer the following functionality:
 - Cascading behavior: Organization cascades behavior to all the Projects and Groups that are owned by the same Organization. It can be decided at the Organization level whether a setting can be overridden or not on the levels beneath.
 - Minimal burden on customers: The addition of Organizations should not change existing Group and Project paths to minimize the impact of URL changes.
 
-### Non-Goals
+## Non-Goals
 
 Due to urgency of delivering Organizations as a prerequisite for Cells, it is currently not a goal to build Organization functionality on the Namespace framework.
 
-## Decision Log
+# Decision Log
 
 - 2024-07-21: [Self-managed instances will initially be restricted to one Organization](https://gitlab.com/gitlab-org/gitlab/-/issues/419543#note_2013887114)
 - 2023-05-10: [Billing is not part of the Organization MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/406614#note_1384055365)
 - 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
 
-## Proposal
+# Proposal
 
 We create Organizations as a new lightweight entity, with just the features and workflows which it requires. We already have much of the functionality present in Groups and Projects, and Groups themselves are essentially already the top-level entity. It is unlikely that we need to add significant features to Organizations outside of some key settings, as top-level Groups can continue to serve this purpose at least on GitLab.com. From an infrastructure perspective, cluster-wide shared data must be both minimal (small in volume) and infrequently written.
 
@@ -106,18 +106,18 @@ graph TD
 
 All instances would set a default Organization.
 
-### Benefits
+## Benefits
 
 - No changes to URL's for Groups moving under an Organization, which makes moving around top-level Groups very easy.
 - Low risk rollout strategy, as there is no conversion process for existing top-level Groups.
 - The Organization becomes the key for identifying what is part of an Organization, which is on its own table for performance and clarity.
 
-### Drawbacks
+## Drawbacks
 
 - By not basing Organizations on the existing namespace construct, it is not clear how we would avoid duplicating the effort of achieving parity for features like reporting between GitLab.com and self-managed, without doing the work twice. (At instance/organization level for top-level reporting, and at group-level for sub-group level reporting)
 - Long term, it may make sense to shift billing from top-level Groups to the Organization level.
 
-## Data Exploration
+# Data Exploration
 
 From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/issues/16166#note_1353332877), we retrieved the following information about Users and Organizations:
 
@@ -133,61 +133,8 @@ From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/is
 
 Based on this analysis we expect to see similar behavior when rolling out Organizations.
 
-## Design and Implementation Details
-
-Cells will be rolled out in three phases: Cells 1.0, Cells 1.5 and Cells 2.0.
-The Organization functionality available in each phase is described below.
-
-
 ### Organization MVC
 
-#### Organizations on Cells 1.0 (FY24Q2-FY25Q4)
-
-The Organization MVC for Cells 1.0 will contain the following functionality:
-
-- **Creation**
-  - Organizations can be created. Form fields include name, URL, description, avatar, and visibility (readonly in Cells 1.0).
-  - An admin setting controls the ability to create Organizations. This setting is enabled on GitLab.com and disabled by default on self-managed GitLab.
-  - In addition to the admin setting, a feature flag will control the ability to create Organizations. On GitLab.com, this feature flag will only be enabled for GitLab team members. On self-managed GitLab this feature flag will be disabled by default. We will warn against enabling it, but will not be able to prevent self-managed instances from doing so.
-- **Editing**
-  - Organizations can be edited in the **Settings > General** section. Form fields include name, ID (readonly), description, avatar, and visibility (readonly in Cells 1.0). Only accessible by Organization Owners.
-  - Organization slug can be changed in the **Settings > General** section. Only accessible by Organization Owners.
-- **Visibility**
-  - Organizations can only be `private`. Private Organizations can only be seen by the Users that are part of the Organization. They can only contain private Groups and Projects. The only exception to this is the default Organization on the Primary Cell, which is `public`, and contains all currently existing Groups and Projects on GitLab.com.
-- **Users**
-  - [Roles and permissions](#roles-and-permissions)
-  - The creation of an Organization appoints that User as the Organization Owner.
-  - Organization Owners can update the existing role of a user from User to Owner or vice versa.
-  - A User can only be part of one Organization for Cells 1.0. A new account needs to be created for each Organization a User wants to be part of. GitLab team members may be part of multiple Organizations for testing purposes.
-  - Organization Owners can delete users from an Organization. This equals an account deletion in the context of Cells 1.0.
-  - When a user becomes a member of a group or project they are also added as an Organization User. They receive an email informing them that they have been added to the Organization.
-  - Removing a user from their last group or project should not remove them from the Organization.
-  - Users can delete their own accounts. Users should not be able to delete their account when they are the last Owner of an Organization.
-  - [User Profile will be scoped to the Organization](https://docs.gitlab.com/ee/architecture/blueprints/cells/impacted_features/user-profile.html). In Cells 1.0, this is a result of a user only being part of one Organization.
-- **Groups**
-  - All existing top-level Groups on GitLab.com and self-managed GitLab are part of the default Organization.
-  - Groups can be created in an Organization.
-  - Groups can be edited by the Organization Owner.
-  - Groups can be deleted by the Organization Owner.
-  - Organization Owners and Users can view the groups they have access to in the Groups overview. The list of groups can be sorted and searched.
-- **Projects**
-  - All existing Projects on GitLab.com and self-managed GitLab are part of the default Organization.
-  - Projects cannot be created directly in an Organization, instead they are created in a group that belongs to an Organization.
-  - Projects can be edited by the Organization Owner.
-  - Projects can be deleted by the Organization Owner.
-  - Organization Owners and Users can view the projects they have access to in the Projects overview. The list of projects can be sorted and searched.
-- **Activity**
-  - Organization Owners and Users can access the Activity page for the Organization.
-- **Admin**
-  - All created Organizations are listed in the Admin Area section `Organizations`.
-  - Admins can assign the Owner or User role to new users.
-  - Admins can update the existing role of a user from Owner to User or vice versa.
-  - Admins can delete a user and receive a warning about the user's Organization association. Admins cannot delete the last Organization Owner. They need to assign a new Owner first.
-- **Navigation**
-  - Current Organization context is indicated in the navigation sidebar.
-- **Isolation**
-  - Organizations for 1.0 will contain the minimal set of features required to implement isolation. Features that are present in top-level groups for SaaS, such as billing or enterprise users, will remain here.
-  - Organizations themselves are not fully isolated, isolation is a result of being on a Secondary Cell. We aim to complete [phase 1 of Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11837), with the goal to `define sharding_key` and `desired_sharding_key` rules.
 
 ##### Dependencies on other services
 
