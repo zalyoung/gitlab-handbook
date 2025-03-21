@@ -115,4 +115,4 @@ The GitLab Application Security team plans work based around Milestones, see [th
 
 ## Application Security Automation and Monitoring
 
-Please see the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)
+Learn more about the automation initiatives that the Application Security team uses on the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)
