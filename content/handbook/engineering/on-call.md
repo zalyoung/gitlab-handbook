@@ -81,7 +81,7 @@ For more details, see the [team page](/handbook/engineering/infrastructure-platf
 
 ### DBO On-Call
 
-For more details, see the [DBO escalation process](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/database-operations/dbre-escalation-process)
+For more details, see the [DBO escalation process](/handbook/engineering/infrastructure-platforms/data-access/database-operations/dbre-escalation-process)
 
 ## Security Team On-Call Rotation
 
