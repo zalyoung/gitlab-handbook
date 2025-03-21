@@ -118,7 +118,7 @@ The Manager, Global Workforce Strategy is a [grade 8](/handbook/total-rewards/co
 - Independently manage the PEO vendor selection through RFP/RFI's, and ensure vendor QBR's are conducted.
 - Design & Implement governance frameworks for workforce programs.
 - Manage escalation pathways for complex workforce issues.
-- Constantly identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the team member and/or manager’s experience.
+- Constantly identify process inefficiencies and inconsistencies and collaborate towards an improved and more productive process that improves the team member and/or manager experience.
 - Ensure transparency and collaboration by announcing changes and improvements as needed across the organization.
 - Understand our broader People Team strategy and processes to architect, develop and implement scalable, flexible solutions that are extensible to our business needs.
 
