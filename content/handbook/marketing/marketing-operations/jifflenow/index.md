@@ -11,11 +11,11 @@ JiffleNow is an automated appointment scheduling of in-person, and virtual B2B m
 
 ## Access
 
-* Sales users: Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set and most sales profiles are already included. If you are unable to access Jifflenow through SFDC, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and make sure the Sales Systems team is tagged (Similar to SFDC access requests).
-* All non-Sales users: Access to Jifflenow is managed through Okta. If you do not have the Jifflenow tile in Okta, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). You will need access through Okta to request meetings if you are not a sales user.
+- Sales users: Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set and most sales profiles are already included. If you are unable to access Jifflenow through SFDC, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and make sure the Sales Systems team is tagged (Similar to SFDC access requests).
+- All non-Sales users: Access to Jifflenow is managed through Okta. If you do not have the Jifflenow tile in Okta, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). You will need access through Okta to request meetings if you are not a sales user.
   - If you are designated as a meeting manager for a particular event, a request to provision Okta for your access will be created as part of the set-up process in Jifflenow.
 
-MOps provisioner: For `Requestor` role, you do not need to do anything in Jifflenow. Once Okta is provisioned, the user will have access to request meetings. If a person just needs access to reports and dashboards, you can add them as a `Requestor`, then toggle the Reports & Dashboard toggle on in their profile. For all other roles, you will add the person to the specific event they need access to with the correct role and engagement type. This will be outlined in the event request task in Asana. 
+MOps provisioner: For `Requestor` role, you do not need to do anything in JiffleNow. Once Okta is provisioned, the user will have access to request meetings. If a person just needs access to reports and dashboards, you can add them as a `Requestor`, then toggle the Reports & Dashboard toggle on in their profile. For all other roles, you will add the person to the specific event they need access to with the correct role and engagement type. This will be outlined in the event request task in Asana. 
 
 ### User Roles
 
@@ -46,7 +46,7 @@ To request a Jifflenow instance for your meeting/booth demos, please [complete t
 
 Reach out in #proj_jifflenow-implementation for more information.
 
-For event specfic help, go to:
+For event specific help, go to:
 
 - #googlenext-execmtgs-2025
 - #rsa-conference-execmtgs-2025
