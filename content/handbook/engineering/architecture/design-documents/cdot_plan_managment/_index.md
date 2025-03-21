@@ -18,160 +18,132 @@ The [GitLab Customers Portal](https://customers.gitlab.com/) is an independent a
 
 GitLab uses [Zuora's platform](../../../../business-technology/enterprise-applications/guides/zuora/) as the SSoT for all product-related information. The [Zuora Product Catalog](https://knowledgecenter.zuora.com/Get_Started/Zuora_quick_start_tutorials/B_Billing/A_The_Zuora_Product_Catalog) represents the full list of revenue-making products and services that are sellable, or have been sold by GitLab, which is core knowledge for CustomersDot decision making. CustomersDot currently has a local cache of the Zuora Product Catalog via the [IronBank](https://github.com/zendesk/iron_bank) gem and [its LocalRecord extension](https://gitlab.com/gitlab-org/customers-gitlab-com/blob/45f5dedbb4fa803d19827472214ea0b5b0ce1861/lib/gem_extensions/iron_bank/local_records.rb#L1).
 
-CustomersDot uses `Plan` as a wrapper class for easy access to all the details about a Plan in the Product Catalog. Given the name, price, minimum quantity and other details of the Plan are spread around the `Zuora::ProductRatePlan`, `Zuora::ProductRatePlanCharge` and `Zuora::ProductRatePlanChargeTier` objects, traditional access of these details can be cumbersome. This class is very useful because it saves us the need to query for all these details. On the other hand this class helps with the classification of `Zuora::ProductRatePlan`s based on their tier, deployment type, and other criteria to be used across the app.
+CustomersDot uses `Plan` as a wrapper class for easy access to all the details about a Plan in the Product Catalog. Given that the name, price, minimum quantity, and other details of the Plan are spread across the `Zuora::ProductRatePlan`, `Zuora::ProductRatePlanCharge`, and `Zuora::ProductRatePlanChargeTier` objects, traditional access to these details can be cumbersome. This class is very useful because it saves us from having to query for all these details. Additionally, the class helps with the classification of `Zuora::ProductRatePlan`s based on their tier, deployment type, and other criteria used across the app.
 
-CustomersDot's cached Product Catalog is currently synced manually and requires a restart of CustomersDot to be fully refreshed due to limitations in the `Plan` class. Every time a new Product, Product Rate Plan or Product Rate Plan Charge are updated or added to the Zuora Product Catalog, an additional manual effort is required to add it to the `Plan` class and configure it.
+CustomersDot keeps a copy of the Zuora Product Catalog and refreshes is daily via a scheduled job. However, every time a new Product, Product Rate Plan, or Product Rate Plan Charge is updated or added to the Zuora Product Catalog, additional manual effort is required to add it to the `Plan` class and configure it.
 
-The main goal for this design document is to improve the architecture and maintainability of the `Plan` model within CustomersDot. When the Product Catalog is updated in Zuora, it automatically reflects in CustomersDot without requiring app restarts, code changes, or manual intervention.
+The main goal of this design document is to improve the architecture and maintainability of the `Plan` model within CustomersDot. When the Product Catalog is updated in Zuora, it should automatically reflect in CustomersDot without requiring app restarts, code changes, or manual intervention.
 
 ## Motivation
 
-Current Zuora Product Catalog updates are not automatically picked up by CustomersDot for a couple of reasons:
+Every time a new Product/SKU is added to the Zuora Product Catalog, even if the local copy is refreshed, it requires code changes in CustomersDot to make it available. This is due to the current strategy the `Plan` class uses for classification, which consists of assigning the `Zuora::ProductRatePlan` IDs to constants and then manually forming groups of IDs to represent different categories like all plans in the Ultimate tier or all the add-ons available for self-procurement for GitLab.com. These categories are then used for decision-making during execution.
 
-- CustomersDot's cached Product Catalog sync requires a manual intervention via Rails console and a full refresh requires a server restart due to `Plan` heavily relying on constants and class variables for its `Zuora::ProductRatePlan` classification.
-- Every time a new Product / SKU is added to the Zuora Product Catalog, even if the cache previously described is refreshed, it requires code changes in CustomersDot to make it available. This is due to the current strategy the `Plan` class uses for classification consisting of assigning the `Zuora::ProductRatePlan` ids to constants and then manually forming groups of ids to represent different categories like all plans in the Ultimate tier or all the add-ons available for self procurement for GitLab.com and then uses those categories for decision-making during execution.
-
-As the codebase and number of product grows this manual intervention becomes more expensive.
+As the codebase and number of products grow, this manual intervention becomes more expensive.
 
 ### Goals
 
 The main goals are:
 
-- Make sure the CustomersDot cached Product Catalog is in sync with Zuora at any point in time.
-- Automate the Plan management in CustomersDot so it will require no manual intervention for basic Product Catalog updates in Zuora. For example, if a new Product / SKU is added, if a RatePlanCharge is updated, or if a Product is discontinued. For this we need to step away from hardcoding product rate plan ids within CustomersDot and transfer the classification knowledge to the ProductCatalog (by adding CustomersDot metadata to it in the form of custom fields) to be able to resolve these sets dynamically from the `LocalRecord`s on demand.
+Automate the Plan management in CustomersDot so it will require no manual intervention for basic Product Catalog updates in Zuora. For example, when a new Product/SKU is added, a RatePlanCharge is updated, or a Product is discontinued. To achieve this, we need to move away from hardcoding product rate plan IDs within CustomersDot and transfer the classification knowledge to the Zuora Product Catalog (by adding CustomersDot metadata to it in the form of custom fields) to be able to resolve these sets dynamically.
 
 ## Proposal
 
-CustomersDot currently [has a local cache](https://gitlab.com/gitlab-org/customers-gitlab-com/-/merge_requests/1762) of the Zuora's Product Catalog via the [IronBank](https://github.com/zendesk/iron_bank) gem and [its LocalRecord extension](https://gitlab.com/gitlab-org/customers-gitlab-com/blob/45f5dedbb4fa803d19827472214ea0b5b0ce1861/lib/gem_extensions/iron_bank/local_records.rb#L1).
-
-At the moment we refresh this cache manually when we are notified that a new change exists in Zuora that is of interest for CustomersDot:
+Transfer CustomersDot's classification knowledge to the Zuora Product Catalog (by adding CustomersDot metadata to it in the form of custom fields) to be able to resolve `ProductRatePlan`s directly from our local copy of the Zuora Product Catalog in iteration until all the plan constants that refer to `ProductRatePlan` IDs are replaced and removed.
 
 ```mermaid
 sequenceDiagram
-  participant CustomersDot
-  participant Zuora
-  Note left of CustomersDot: ProductCatalog refresh is triggered<br/>via Rails console
-  CustomersDot->>Zuora: GET Product Catalog
-  Zuora->>CustomersDot: Respond with Product Catalog
-  CustomersDot->>CustomersDot: Cache copy of Product Catalog in LocalRecord database
-  Note left of CustomersDot: For future Product Catalog queries<br/>LocalRecords are used.
-  CustomersDot->>CustomersDot: GET Zuora::Product
-  CustomersDot->>CustomersDot: GET Zuora::ProductRatePlan
-  Note right of Zuora: Product information was updated
-  CustomersDot->>CustomersDot: GET Zuora::ProductRatePlanCharge
-  CustomersDot->>CustomersDot: GET Zuora::ProductRatePlanChargeTier
-  Note left of CustomersDot: CustomersDot is unaware of Zuora changes<br/>until next deployment
+    autonumber
+    participant FTE as Fulfillment Team Engineer
+    participant EntApps as EntApps Team
+    participant CDot as CustomersDot
+    participant ZuoraAPI as Zuora API
+    participant ZuoraDB as Zuora Database
+    participant LocalDB as Local DB Copy
+
+    FTE->>EntApps: Submit Change Request issue to create custom fields in Zuora
+    EntApps->>ZuoraDB: Create custom fields (e.g., web_direct__c, deployment_type__c)
+    Note over ZuoraDB: Custom fields added to ProductRatePlan table
+
+    FTE->>CDot: Create migration to add fields to local tables
+    CDot->>LocalDB: Apply migration to add columns to zuora_product_rate_plans
+
+    FTE->>CDot: Develop script to extract classification knowledge from Plan class
+    CDot->>ZuoraAPI: Update ProductRatePlans with values based on Plan constants
+    ZuoraAPI->>ZuoraDB: Save custom field values
+    Note over ZuoraDB: ProductRatePlan records populated with classification data
+
+    Note over CDot: Later - during scheduled sync
+    CDot->>ZuoraAPI: Request ProductCatalog (including new custom fields)
+    ZuoraAPI->>CDot: Return ProductCatalog with custom field values
+    CDot->>LocalDB: Refresh local copy with updated data
+    Note over LocalDB: Local records now have values for web_direct__c, deployment_type__c
+
+    CDot->>CDot: CDot logic can now use these fields from local copy
+    Note over CDot: Replace Plan constants with Zuora::Local::ProductRatePlan scopes
 ```
 
-### Iteration 1
+We are working on collecting the final set of custom fields to add to the Product Catalog:
 
-Keep Product Catalog in sync with Zuora so at any point in time:
+### Product Rate Plan Level
 
-```mermaid
-sequenceDiagram
-  participant CustomersDot
-  participant Zuora
-  Note right of Zuora: Product information was updated
-  Zuora->>CustomersDot: Notification on Product update
-  CustomersDot->>Zuora: GET Product Catalog
-  Zuora->>CustomersDot: Respond with Product Catalog
-  CustomersDot->>CustomersDot: Refresh Product Catalog cache (LocalRecord database)
-  Note left of CustomersDot: CustomersDot Product Catalog<br/>cache is up to date with Zuora
-```
+- **WebDirect__c**: Boolean for self-service eligibility
+- **PlanStatus__c**: `active`, `deprecated`, `legacy`, `not_applicable`
+- **IsTrueUp__c**: Boolean for true-up plans
+- **IsEcosystem__c**: Boolean for ecosystem plans
+- **IsUsPubSec__c**: Boolean for US government plans
+- **AddOnType__c**: `ci_minutes`, `storage`, `duo_pro`, `duo_enterprise`, `agile_planning`, `product_analytics`, `amazon_q`, `not_applicable`
+- **CommunityType__c**: `education`, `open_source`, `startup`, `not_applicable`
+- **BillingPeriod__c**: `monthly`, `annual`, `two_year`, `three_year`, `four_year`, `five_year` or duration in months:  `1`, `12`, `24`, `36`, `48`, `60`
+- **Tier__c**: `ultimate`, `premium`, `bronze`, `silver`, `gold`, `starter`, `free`, `null`
+- **DeploymentType__c**: `self_managed`, `dedicated`, `gitlab_dot_com`
+- **Category**: `Base Products`, `Add On Services`, `Miscellaneous Products`
 
-### Iteration 2
-
-Transfer CustomersDot's classification knowledge to the Zuora Product Catalog (by adding CustomersDot metadata to it in the form of custom fields) to be able to resolve `ProductRatePlan`s directly from the `LocalRecord`s on demand.
-
-We are proposing to add these custom fields to the Product Catalog:
-
-```mermaid
----
-title: Zuora Product Catalog Proposed Additions
----
-erDiagram
-  "Product" ||--|{ "ProductRatePlan" : "has many"
-  "ProductRatePlan" ||--|{ "ProductRatePlanCharge" : "has many"
-  "ProductRatePlanCharge" ||--|{ "ProductRatePlanChargeTier" : "has many"
-
-  "Product" {
-    enum Tier__c
-    enum DeploymentType__c
-  }
-
-  "ProductRatePlan" {
-    boolean WebDirect__c
-  }
-```
-
-### Iteration 3
-
-Use Zuora custom metadata (introduced in iteration 2) to resolve `ProductRatePlan`s directly from the Zuora Product Catalog, and remove the `Plan` constants that are preventing the full cache refresh.
+There is a [current effort](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/2126) to add some of these fields to Zuora, so we might be able to reuse these. If we are reusing these, we need to double-check that the values in Zuora and CustomersDot classification are aligned for each field. Note these fields are being added at the `ProductRatePlanCharge` level.
 
 ## Design and implementation details
 
-### Iteration 1
+For one custom field / set of fields at a time follow this iteration:
 
-**(Iteration 1) Product Catalog is in sync with Zuora**
+1. Add the custom field to Zuora
+1. Populate the field in Zuora using a rake task from CustomersDot to transfer the CustomersDot knowledge to the Zuora Product Catalog
+1. Update the local Zuora Product Catalog copy attributes so this new custom attribute is synced over our daily scheduled sync
+1. Replace the usage of `Plan` constants that represent a collection of records that meet a given classification with a call to a method that loads the same collection from the local copy of the Product Catalog leveraging the custom field behidn a feature flag.
+1. Validate all is looking good in staging
+1. Rollout the custom field usage to production
 
-- Cron job to refresh the Product Catalog every day as a first iteration and add immediate value.
-- Create a Finance Systems issue to request:
-  - New custom event for when custom fields are updated for records from the Zuora Product Catalog.
-
-    | Base object               | Custom event name                      |
-    | ------------------------- | -------------------------------------- |
-    | Product                   | CatalogProductUpdate                   |
-    | ProductRatePlan           | CatalogProductRatePlanUpdate           |
-    | ProductRatePlanCharge     | CatalogProductRatePlanChargeUpdate     |
-    | ProductRatePlanChargeTier | CatalogProductRatePlanChargeTierUpdate |
-
-  - New callout under the `Billing` component for when records from the Zuora Product Catalog are added, deleted or updated.
-- Create a new controller in CustomersDot based on `ActionController::Metal` to not include redundant middlewares, callbacks, additional Rails stuff and make this controller as fast as possible.
-
-  ```ruby
-  module Zuora
-    class WebHooksController < ActionController::Metal
-      feature_category :platform
-
-      def create
-        # Step 1. Validate and save an incoming webhook payload into the database
-        # Step 2. Kick of the SyncProductCatalogJob
-        head :ok
-      end
-    end
+```ruby
+#
+# lib/plan_classifier.rb
+module PlanClassifier
+  # Returns all product rate plan IDs that are available for self-service
+  # based on the WebDirect__c custom field from the local Product Catalog copy
+  def self.self_service_gitlab_com_plans
+    Zuora::Local::ProductRatePlan.where(web_direct__c: true, delivery_type__c: 'saas').map(&:id)
   end
-  ```
 
-Ensure a debouncing strategy for `SyncProductCatalogJob` in case we get too many Product Catalog update notifications in a short period of time. Initially we can delay its execution for 5 minutes and ensure no new job is enqueued if one is already in the queue.
+  def self.all_gitlab_com_plans
+    Zuora::Local::ProductRatePlan.where(delivery_type__c: 'saas').map(&:id)
+  end
+end
 
-**(Iteration 2) Transfer CustomersDot's classification knowledge to the Zuora Product Catalog**
+# In app/models/plan.rb
+class Plan
+  # before
+  def self.self_service_gitlab_com_plans
+    @@self_service_gitlab_com_plans ||= ALL_SELF_SERVICE_SAAS_PLANS
+  end
 
-_All these changes require a Finance Systems issue._
+  # after
+  def self.self_service_gitlab_com_plans
+    Zuora::Local::ProductRatePlan.web_direct.saas_delivery.map(&:id)
+  end
 
-- Review existing field `Zuora::Product#category` to make sure it is properly set for all Products. Possible values: `[null, "Base Products", "Add On Services", "Miscellaneous Products"]`.
-- Add new custom field `Zuora::ProductRatePlan#web_direct` to be a `boolean`
-  - true: the plan is available for self service
-  - false: the plan is not available for self service
-- Add new custom field `Product#tier` to be an `enum` (multiselect). Possible values: `[premium, ultimate, starter, bronze, silver, gold, free, null]`
-- Add new custom field `Product#deployment_type` to be an `enum` (multiselect). Possible values: `[self_managed, dedicated, gitlab_dot_com]`
+  # before
+  def self.all_gitlab_com_plans
+    @@all_gitlab_com_plans ||= [
+      BASIC_SAAS_1_YEAR_PLAN,
+      PREMIUM_SAAS_PLANS,
+      ULTIMATE_SAAS_PLANS,
+      GITLAB_COM_BRONZE_PLANS,
+      DEPRECATED_SILVER_SAAS_PLANS,
+      DEPRECATED_GOLD_SAAS_PLANS,
+      ALL_GITLAB_COM_EDU_OSS_PLANS,
+      TRIAL_SAAS_PLANS
+    ].flatten.compact
+  end
 
-For each added field: the value in Zuora has to be aligned with CustomersDot classification given by `Zuora::ProductRatePlan` ids current grouping in the `Plan` class.
-
-NOTE:
-There is a [current effort](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/44) to add some of these fields to Zuora so we might be able to reuse these. If we are reusing these we need to double check that the value in Zuora and CustomersDot classification are aligned
-for each.
-
-**(Iteration 3) Use this Zuora custom metadata to resolve `ProductRatePlan`s directly from the Zuora Catalog**
-
-- Create scopes to fetch `Zuora::Product`s and `Zuora::ProductRatePlan`s based on the metadata introduced in Iteration 2. Possible scopes:
-  - `self_managed`
-  - `dedicated`
-  - `gitlab_dot_com`
-  - `base_products`
-  - `add_ons`
-  - `web_direct`
-  - `sales_assisted`
-  - `ultimate`
-  - `premium`
-  - `active` (based on the effective start / end dates)
-- Replace the usage of `Plan` constants that represent a collection of records that meet a given classification by a call to a method that loads the same collection from LocalRecords using the implemented scopes e.g. `ALL_ULTIMATE_SM_PLANS` can be replaced with `Zuora::Product.self_managed.ultimate.flat_map(&:product_rate_plans).map(&:id)`. This step can be done in iteration until all constants are replaced. Depending on how complex each iteration is we can decide if a feature flag is required or not.
+  # after
+  def self.all_gitlab_com_plans
+    Zuora::Local::ProductRatePlan.saas_delivery.map(&:id)
+  end
+```
