@@ -22,6 +22,7 @@ This document is a work in progress and represents the current state of the Orga
 - Top-level Group: Top-level Group is the name given to the topmost Group of all other Groups. Groups and Projects are nested underneath the top-level Group.
 - Organization: An Organization is the container for one or multiple top-level Groups. Organizations are isolated from each other.
 - Organization Member: Organizations have many Users called Members. Only Organization Members have visibility of the Organization. Adding a User to a Group or Project within an Organization makes them an Organization Member.
+- Default Organization: An Organization with `ID = 1` seeded on every GitLab instance.
 
 # Summary
 
@@ -44,10 +45,11 @@ The isolation solution is also a pre-requisite for the [Cells project](https://d
 
 The GitLab.com platform will be split into two distinct experiences.
 
-Customers join GitLab.com today as a top level group within the default
-organization. This experience will persist indefinitely in part to allow for a shared pool of users to contribute to open source projects.
+Customers join GitLab.com today as a top level group within the default organization.
+This experience will persist indefinitely in part to allow for a shared pool of users to contribute to open source projects.
 
-GitLab.com will now expand its offering with a dedicated solution for private enterprise Organizations. These enterprise Organizations will operate in complete isolation from all other Organizations, including the default organization.
+GitLab.com will now expand its offering with a dedicated solution for private enterprise Organizations.
+These enterprise Organizations will operate in complete isolation from all other Organizations, including the default organization.
 
 Eventually it will be possible for customers to migrate out of the default
 organization and into their own private Organization.
@@ -93,6 +95,19 @@ Below is a depiction of the current and future hierarchy levels within GitLab.
 
 Only core features will be moved to Organization prior to Organization launch.
 After launch all remaining features will move to the Organization level.
+
+Here is an entity diagram of these levels:
+
+```mermaid
+graph TD
+  o[Organization] -. has many .- g
+  ns[Namespace] --> g[Group]
+  ns[Namespace] --> pns[ProjectNamespace] -. has one .- p[Project]
+  ns --> un[UserNamespace]
+  g -. has many .- p
+  un -. has many .- p
+  ns[Namespace] -. has many .- ns[Namespace]
+```
 
 # Roles and Permissions
 
@@ -249,6 +264,25 @@ will begin with core features such as authentication and billing.
 There is two phases to this work stream. The first phase is to migrate critical
 features that make Organization viable. A second phase after Organization
 release is to bring all remaining features to the Organization level.
+
+# Data Exploration
+
+From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/issues/16166#note_1353332877), we retrieved the following information about Users and Organizations:
+
+- For the users that are connected to an organization the vast majority of them (98%) are only associated with a single organization. This means we expect about 2% of Users to navigate across multiple Organizations.
+- The majority of Users (78%) are only Members of a single top-level Group.
+- 25% of current top-level Groups can be matched to an organization.
+  - Most of these top-level Groups (83%) are associated with an organization that has more than one top-level Group.
+  - Of the organizations with more than one top-level Group the (median) average number of top-level Groups is 3.
+  - Most top-level Groups that are matched to organizations with more than one top-level Group are assumed to be intended to be combined into a single organization (82%).
+  - Most top-level Groups that are matched to organizations with more than one top-level Group are using only a single pricing tier (59%).
+- Most of the current top-level Groups are set to public visibility (85%).
+- Less than 0.5% of top-level Groups share Groups with another top-level Group. However, this means we could potentially break 76,000 existing links between top-level Groups by introducing the Organization.
+
+Based on this analysis we expect to see similar behavior when rolling out Organizations.
+
+# Decision Log
+- 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
 
 # Links
 
