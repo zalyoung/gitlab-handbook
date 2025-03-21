@@ -63,7 +63,7 @@ Initial launch is planned for the engineering teams in late March 2025, with det
 - **Will all content be migrated to the new system?**
 - We are conducting a full content audit from the legacy system, and all relevant content will be migrated to the new LevelUp. If you notice something missing that should be added, please let us know in the [LevelUp feedback issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/830), or the #learninganddevelopment slack channel.
 
--**How do I login to the new system?**
+- **How do I login to the new system?**
 - Access will be granted via Okta - search the LevelUp Okta tile.
 
 - **I have a question about how something works in LevelUp, who should I ask?**
