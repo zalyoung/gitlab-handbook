@@ -613,6 +613,7 @@ In order to help with attribution, we also label each incident with a scoped lab
 Labeling incidents with a Root Cause is done for the categorization of incidents when deploy pipelines are blocked.
 For this reason, a label with the prefix `~RootCause` is required whenever an incident has the `~"release-blocker"` label.
 The person assigned to the incident is responsible for adding the appropriate Root Cause label.
+Ensure to add the Root Cause labels to an incident issue after it is closed.
 
 The current Root Cause labels are listed below. In order to support trend awareness these labels are meant to be high-level, not too numerous, and as consistent as possible over time.
 
@@ -659,7 +660,6 @@ The CMOC is responsible for ensuring this label is set for all incidents involvi
 - In the incident description, we allow multiple service labels for impact. The service label on the incident issue itself should be for the root cause, not the impact.
 - All Infrastructure changes and configuration that is maintained by the Infrastructure department (not application code) should use one of the specific labels for the component (eg: Consul, Prometheus, Grafana, etc.), or the `~Service::Infrastructure` label
 - We may not know what service caused the impact until after the incident. In that case, it is best to use the `Service::Unknown` label until more information is available.
-
 It is not always very clear which service label to apply, especially when causes span service boundaries that we define in Infrastructure.
 When unsure, it's best to choose a label that corresponds to the primary cause of the incident, even if other services are involved.
 
@@ -707,7 +707,7 @@ These labels are always required on incident issues.
 | ----- | ------- |
 | `~Service::*` | Scoped label for service attribution. Used in metrics and error budgeting. |
 | `~Severity::*` (automatically applied) | Scoped label for severity assignment. Details on severity selection can be found in the [availability severities](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) section. |
-| `~RootCause::*` | Scoped label indicating root cause of the incident, this label is only required for incidents with the `~"release-blcoker"` label. |
+| `~RootCause::*` | Scoped label indicating root cause of the incident, this label is only required for incidents with the `~"release-blcoker"` label. Ensure to add this label after the incident issue is closed| 
 
 #### Other Incident Labels
 
