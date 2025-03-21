@@ -73,7 +73,7 @@ When utiling our Zoom webcast license we can either provide manual captioning, o
 1. Only hosts and panelists can provide closed captioning if manually transcribing.
 1. The Zoom live transcription feature is only available in English at this time. This feature is relatively accurate if the presenters are speaking clearly and background noise is kept to a minimum.
 
-For more details about Zoom closed captioning, please reference [this Zoom article](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription) or submit any questions to the `#it_help` Slack channel.
+For more details about Zoom closed captioning, please reference [this Zoom article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490) or submit any questions to the `#it_help` Slack channel.
 
 ## Zoom > Marketo Integration
 
@@ -206,7 +206,7 @@ It's not recommended to have more than a few hosts because it can get a bit conf
    - Click into `Email Settings`
    - Click `Edit` next to `Select Email Language`
    - Select the language you would like to utilize from the drop down list. NOTE: You can also select `Same as the recipient's default language` and the language will be set based on the recipient's Zoom profile, if available. Otherwise, the emails will be sent in the language that the user is viewing the registration page.
-   - For more details, review the Zoom Help Center page [here](https://support.zoom.us/hc/en-us/articles/203686335-Customizing-webinar-email-settings).
+   - For more details, review the Zoom Help Center page [here](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065074).
 
 1. *Optional* **HEADER IMAGE**: If applicable, click on branding and update the header.
 1. *Optional* **POLLING**: If applicable, add polling questions to the webcast or workshop by following the instructions in the video below. You do not need to make the polling question answers anonymous. Canned questions (utilized for webcasts only) are not added to Zoom but can be added to the Day Of Agenda so all presenters/moderators have access.

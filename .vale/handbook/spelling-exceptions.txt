@@ -46,6 +46,7 @@ armhf
 ARNs
 Artifactory
 Asana
+ASCIIArt
 Asciidoctor
 asdf
 ASMs
@@ -158,6 +159,7 @@ cardpane
 Casdoor
 CDFs
 CDNs
+CDot
 CE
 CentOS
 Ceph
@@ -199,6 +201,7 @@ CMMs
 CNAs
 CNs
 Cobertura
+Codecademy
 Codeception
 Codecov
 codenames
@@ -225,6 +228,7 @@ config
 Configs
 Consul
 Contentful
+contributable
 Coronavirus
 Corosync
 corpuses
@@ -266,6 +270,7 @@ CUnit
 customappsso
 CVEs
 CWEs
+cyber
 cybersecurity
 CycloneDX
 Dangerfile
@@ -329,12 +334,17 @@ desynchronized
 Dev
 devfile
 devfiles
+Devo
 DevOps
 Dhall
 dialogs
 Diffblue
 disambiguates
 discoverability
+disempower
+disempowered
+disempowering
+disempowers
 dismissable
 Disqus
 Distroless
@@ -354,6 +364,7 @@ documentarian
 documentarians
 Docusaurus
 dogfood
+dogfooded
 dogfooding
 dogfoods
 DOMPurify
@@ -368,6 +379,7 @@ Dreamweaver
 DRIs
 DSLs
 DSN
+duplicative
 Dynatrace
 dyscalculia
 dyspraxia
@@ -506,6 +518,7 @@ GPUs
 Gradle
 Grafana
 Grafonnet
+Grammarly
 gravatar
 Grubhub
 Grype
@@ -547,7 +560,10 @@ hotspots
 HTMLHint
 http
 https
+Hugo
+Hugolint
 Hugomods
+hypercare
 hypergrowth
 hyperparameter
 hyperparameters
@@ -566,8 +582,10 @@ incentivized
 incentivizes
 incentivizing
 inclusivity
+inexhaustive
 inflector
 inflectors
+influencer
 infradev
 Ingress
 initializer
@@ -779,6 +797,7 @@ Netlify
 Netsuite
 neurodevelopment
 neurodevelopmental
+neurodivergence
 neurodivergent
 neurodiverse
 neurodiversity
@@ -858,6 +877,7 @@ Permifrost
 PgBouncer
 pgFormatter
 pgLoader
+pgLogical
 pgMustard
 pgvector
 Phabricator
@@ -873,6 +893,8 @@ Pipfiles
 Piwik
 Pizzatime
 plaintext
+podcaster
+podcasters
 podman
 Poedit
 polyfill
@@ -908,6 +930,7 @@ prepending
 prepends
 prepopulate
 prepopulated
+preseed
 presentationals
 presenteeism
 Prettifier
@@ -916,6 +939,7 @@ Pritaly
 Priyanka
 profiler
 Prometheus
+Proofpoint
 ProseMirror
 protobuf
 protobufs
@@ -946,6 +970,7 @@ rbenv
 rbspy
 rbtrace
 Rclone
+RCEs
 Rdoc
 reachability
 readme
@@ -1035,6 +1060,7 @@ roadmaps
 rock
 rollout
 rollouts
+Rolly
 routable
 RPCs
 RSpec
@@ -1071,8 +1097,10 @@ scatterplot
 scatterplots
 schedulable
 Schemastore
+screenshare
 scriptable
 scrollable
+SDGs
 SDKs
 SDRs
 sed
@@ -1080,6 +1108,7 @@ segmentations
 SEGs
 SELinux
 Semgrep
+Semver
 Sendbird
 Sendinblue
 Sendmail
@@ -1104,6 +1133,7 @@ shortcodes
 Sidekiq
 Sigstore
 Sijbrandij
+siloed
 Silverlight
 Siri
 Sisense
@@ -1147,6 +1177,9 @@ SSGs
 Stackdriver
 Stackprof
 stacktrace
+standardize
+standardized
+standardizes
 starrer
 starrers
 Stickermule
@@ -1180,6 +1213,8 @@ submodule's
 subnet
 subnets
 subnetting
+subpage
+subpages
 subpath
 subproject
 subprojects
@@ -1226,6 +1261,7 @@ Tamland
 tanuki
 taskscaler
 tcpdump
+TeamOps
 teardown
 templated
 Tesorio
@@ -1244,6 +1280,7 @@ timelogs
 timesheet
 timesheets
 Tiptap
+TMAGs
 TMRGs
 ToDo
 todos
@@ -1271,6 +1308,7 @@ transpiling
 Trello
 Trendline
 triaged
+triager
 triages
 triaging
 Trivy
@@ -1318,6 +1356,7 @@ underperform
 underperformance
 underperformed
 underperforming
+underserved
 unencode
 unencoded
 unencoder
@@ -1403,6 +1442,7 @@ unverify
 unverifying
 uploader
 uploaders
+upskilling
 upstreams
 upvote
 upvoted
@@ -1433,6 +1473,7 @@ VPs
 VSCodium
 Vue
 Vuex
+Vulnmapper
 waitlist
 walkthrough
 walkthroughs
@@ -1475,6 +1516,7 @@ ZAProxy
 Zeitwerk
 Zendesk
 ZenTao
+Zerofox
 Zoekt
 Zoominfo
 zsh

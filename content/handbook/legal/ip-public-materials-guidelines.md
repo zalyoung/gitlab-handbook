@@ -34,7 +34,7 @@ Just because something is available for free on the internet (including on Googl
 
 ### Do
 
-- When using the **logo** or **wordmark** of a customer, partner, or other third party with which GitLab has a commercial relationship, for customers, refer to the [Customer Reference Program handbook page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). Discuss with [#customer_references](https://app.slack.com/client/T02592416/CLFCPMF8E) if unsure. For use of a partner's logo, discuss with [#channel-marketing](https://app.slack.com/client/T02592416/C013DF4A7QV) to confirm that rights and approvals are in place for your proposed use under the Partner Agreement. For use of an ISV technology partner's logo, discuss with [#partner-program-ops](https://app.slack.com/client/E03N1RJJX7C/CTM4T5BPF).
+- When using the **logo** or **wordmark** of a customer, partner, or other third party with which GitLab has a commercial relationship, for customers, refer to the [Customer Advocacy at GitLab handbook page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). Discuss with [#customer-advoocacy-and-references](https://app.slack.com/client/T02592416/CLFCPMF8E) if unsure. For use of a partner's logo, discuss with [#channel-marketing](https://app.slack.com/client/T02592416/C013DF4A7QV) to confirm that rights and approvals are in place for your proposed use under the Partner Agreement. For use of an ISV technology partner's logo, discuss with [#global-ecosystem-programs-ops](https://app.slack.com/client/E03N1RJJX7C/CTM4T5BPF).
 
 - Use **wordmarks** referentially: refer to the wordmark owner, or the owner's products and services associated with the mark, when the company, product or service in question cannot be easily identified without using the mark. For example, it's much easier to refer to *GitLab* using the wordmark *GitLab* than to *the company behind the DevOps platform delivered as a single application*.
 
@@ -81,7 +81,7 @@ The legal environment surrounding AI-generated creative works, including images,
 
 ### **General Requirements**
 
-- When using AI-generated images, do not misrepresent the nature of the work, i.e., do not claim or imply that the image was human-generated.
+- Follow our [General Purpose AI Tool Usage Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/).
 - Don't use prompts that reference an artist by name. For example, don't use `in the style of [artist name]`. You can, however, use a prompt like `in the impressionist style`.
 - Use only written prompts -- don't use an existing image as a prompt.
 - Use of any text-to-image model besides those listed under `Model-Specific Requirements` below is not permitted without prior legal review of the model's license and any applicable restrictions.
@@ -111,7 +111,7 @@ The legal environment surrounding AI-generated creative works, including images,
 
 - Any use of industry analyst content from firms such as Forrester Research, Gartner, and International Data Corporation (IDC) must be submitted for review and approval to Analyst Relations by filling out this [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new?issuable_template=AR-CitationReview).
 
-If you aren't sure if the author of the content you're quoting is an industry analyst, or if you have any other questions, contact [`@Ryan Ragozzine`](gitlab.com/rragozzine) or [`@Gaby Berkman`](gitlab.com/gberkman).
+If you aren't sure if the author of the content you're quoting is an industry analyst, or if you have any other questions, contact the [#analyst-relations](https://app.slack.com/client/E03N1RJJX7C/C627CDRK8) Slack channel.
 
 ## Quotes
 
@@ -119,7 +119,7 @@ If you aren't sure if the author of the content you're quoting is an industry an
 
 - If using an unsolicited quote from a company or person not affiliated with GitLab, use the quote verbatim.
 - If desired when using an unsolicited quote, hyperlink the quote's source.
-- If using a quote that references a GitLab customer or partner by name, confirm with [#customer_references](https://app.slack.com/client/T02592416/CLFCPMF8E) (for customers) or [#channel-marketing](https://app.slack.com/client/T02592416/C013DF4A7QV) (for partners) that sufficient rights and approvals are in place for the proposed use.
+- If using a quote that references a GitLab customer or partner by name, confirm with [#customer-advocacy-and-references](https://app.slack.com/client/T02592416/CLFCPMF8E) (for customers) or [#channel-marketing](https://app.slack.com/client/T02592416/C013DF4A7QV) (for partners) that sufficient rights and approvals are in place for the proposed use.
 
 ### Don't
 

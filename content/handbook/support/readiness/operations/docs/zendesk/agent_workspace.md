@@ -171,7 +171,7 @@ to send out the reply, a warning message will indicate you are in draft mode and
 ask you to confirm the sending of the reply.
 
 For more information on draft mode, please see
-[Zendesk's documentation](https://support.zendesk.com/hc/en-us/articles/5627101293722).
+[Zendesk's documentation](https://support.zendesk.com/hc/en-us/articles/5627101293722-Writing-drafts-of-public-replies-in-tickets).
 
 **Note** You can also use the keyboard shortcut Ctrl+Alt+T or Cmd+Option+T to
 toggle draft mode on and off.

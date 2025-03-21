@@ -145,7 +145,7 @@ Tags should be used to help organize lists by topic. For example, you may want t
 
 ### Sales Dev Naming Convention
 
-Sales Dev users should name any lists with the same naming convention that is used in Outreach. The naming convention guidance can be found on the [Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/#sequences).
+Sales Dev users should name any lists with the same naming convention that is used in Outreach.
 
 ## Useful Terms
 

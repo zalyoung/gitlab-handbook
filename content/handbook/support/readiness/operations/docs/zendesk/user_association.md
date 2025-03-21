@@ -141,7 +141,7 @@ For Self-Managed or GitLab Dedicated customers, we need to locate them in
 For Partners Using GitLab.com NFR License:
 
 1. Once you identify the partner is using an NFR SaaS License, you can use the Zendesk global search to find the related "Internal Request - GitLab.com - NFR License request" ticket using the GitLab.com namespace provided.
-   - You can use the search syntax `"insert_namespace_here" tags:ir_saas_nfr` to locate the ticket request.   
+   - You can use the search syntax `"insert_namespace_here" tags:ir_saas_nfr` to locate the ticket request.
 1. In the NFR License request ticket, you can find the `SFDC Account` it was filed for in the ticket description.
 1. You can then use the `SFDC Account` ID to search for the corresponding organization in Zendesk.
 

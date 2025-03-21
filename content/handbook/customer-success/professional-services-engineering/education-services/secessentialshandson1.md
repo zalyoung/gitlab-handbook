@@ -23,10 +23,6 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Select **Provision Training Environment**.
 
-> The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
-
-### Self-Paced Training
-
 1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
 1. In the left sidebar, select your profile image.
@@ -49,23 +45,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
 
-1. Continue to Task B.
-
-### Instructor-Led Training
-
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
-
-1. Click the **Download Credentials** button to download your temporary GitLab credentials.
-
-1. Click on **GitLab Dashboard** or the GitLab URL.
-
-1. Login with your temporary GitLab Credentials.
-
-    > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
-
-1. From the **My Test Group** training subgroup, click the **New project** button.
-
-## Task B. Create a Project
+### Task B. Create a Project
 
 1. Click the **Create blank project** tile.
 
@@ -79,7 +59,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Under **Visibility Level**, click **Private**.
 
-    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the <a target="_blank" href="https://docs.gitlab.com/ee/user/public_access.html">documentation</a>.
+    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/pipeline/custom_rulesets_schema.html).
 
 1. Check **Initialize repository with a README**.
 
@@ -385,7 +365,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. On the merge request page, wait for the pipeline to complete.
 
-1. Once the pipeline completes, the security scan will display in the merge request. Click the **Full report** button.
+1. Once the pipeline completes, the security scan will display in the merge request. Click the **View all pipleline findings** link.
 
     > You may need to refresh the page for the security scan to show.
 
@@ -442,7 +422,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > Normally you would run DAST against your project's code running in either a review environment or a production environment. Since the code in this project is just a single Python file instead of a deployable web app, you'll configure DAST to scan an outside web app *that has nothing to do with the code in this project.*
     >
-    > A full list of DAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dast/browser_based.html#available-cicd-variables">documentation</a>.
+    > A full list of DAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dast/browser/index.html#available-cicd-variables">documentation</a>.
 
 1. After these changes, your `.gitlab-ci.yml` file should look like this.
 

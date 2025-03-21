@@ -471,7 +471,7 @@ Here are some reasons to use containers:
 
 1. If you use a "floating" style for every worksheet, when you publish the workbook to the Cloud/ Server, some of your items may move a few inches in any direction for your end-user, depending on the size of their monitor/display.
 
-1. If you can learn to use a parameter to "turn off" and "turn on" a few related sheets, based on what is selected (so that only one worksheet is shown at a time), then containers are essential. 
+1. If you can learn to use a parameter to "turn off" and "turn on" a few related sheets, based on what is selected (so that only one worksheet is shown at a time), then containers are essential.
 
     Let's say you want to show table that either has information on 'Sales', 'Revenue', or 'Profit', and you create a parameter that has those three options as selections. You can create one worksheet for each of those three KPI's, and put a filter onto each worksheet so only one is "turned on" (showing) at a time, based on the parameter selection.
 
@@ -481,7 +481,7 @@ Here are some reasons to use containers:
 
 ### Add GitLab Colors
 
-You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/enterprise-data/platform/tableau-style-guide/#standard-color-palette)
+You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/#standard-color-palette)
 
 ### Using Dual Axis Charts
 
@@ -500,7 +500,7 @@ For example, if you have a stacked bar chart on screen (just one measure), and y
 
 [Dashboard actions](https://help.tableau.com/current/pro/desktop/en-us/actions_dashboards.htm) can add functionality, smooth out the user experience, and make your dashboards seem "more advanced". The different options are as follows.
 
-![actions](/static/images/handbook/enterprise-data/platform/tableau/actions.png)
+![actions](/images/handbook/enterprise-data/platform/tableau/actions.png)
 
 If you ever see a dashboard do something neat and unexpected, it is likely a creative use of a dashboard action.
 

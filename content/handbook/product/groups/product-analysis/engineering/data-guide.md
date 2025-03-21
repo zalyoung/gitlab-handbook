@@ -1,5 +1,6 @@
 ---
 title: "Guide to Engineering Analytics Data"
+description: Overview of key Engineering data sources and data models
 ---
 
 ## Introduction
@@ -113,7 +114,7 @@ In this section, we share commonly used data models that fuel many of our dashbo
 - [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/#definitive-guides) managed by the Data team.
 - [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.Contact
 - [Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/) - Date handling, handbook embedding, general tips and tricks
-- [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/)
+- [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)
 
 ### Repo Shortcuts
 

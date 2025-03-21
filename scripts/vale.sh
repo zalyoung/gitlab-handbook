@@ -51,4 +51,4 @@ else
 fi
 
 vale --output=.vale/vale-json.tmpl --minAlertLevel suggestion           --no-exit ${MODIFIED_MD_FILES} >vale-codequality.json
-vale --output=.vale/vale.tmpl      --minAlertLevel "${MIN_ALERT_LEVEL}" --no-exit ${MODIFIED_MD_FILES}
+vale --output=.vale/vale.tmpl      --minAlertLevel "${MIN_ALERT_LEVEL}" ${MODIFIED_MD_FILES}

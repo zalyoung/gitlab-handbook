@@ -36,7 +36,15 @@ More information about can be found in the [Security Products test projects repo
 
 ### Testing on OpenShift
 
-We currently do not have automated tests for OpenShift. If you want to see how a change affects the analyzer behavior on OpenShift, you can test it by setting up an OpenShift environment. You can setup an OpenShift cluster following the steps below assuming that you already have access to the [GitLab Sandbox Cloud](https://gitlabsandbox.cloud/).
+We currently do not have automated tests for OpenShift. If you want to see how a change affects the analyzer behavior on OpenShift, you can test it by setting up an OpenShift environment. There are two methods to do this:
+
+#### 1. Automated Script
+
+The distribution team has shared an [automated script](https://gitlab.com/gitlab-org/distribution/infrastructure/openshift-provisioning) for setting up an OpenShift cluster. While untested by our group, this method could potentially streamline the cluster creation process.
+
+#### 2. Manual Setup
+
+You can setup an OpenShift cluster following the steps below assuming that you already have access to the [GitLab Sandbox Cloud](https://gitlabsandbox.cloud/).
 
 1. Login to https://gitlabsandbox.cloud/.
 1. Create an AWS sandbox account and login to the AWS console by following steps `1` to `3` from [Static Analysis Group EC2 development machine setup guide](/handbook/engineering/development/sec/secure/static-analysis/ec2_dev_environment_setup/#static-analysis-group-ec2-development-machine-setup-guide).

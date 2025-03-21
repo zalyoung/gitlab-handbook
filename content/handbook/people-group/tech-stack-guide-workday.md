@@ -30,7 +30,7 @@ Modules/functionality being implemented:
 
 - _BambooHR is no longer in use at GitLab as of 2024-12-15._
 
-> Details of each integration including frequency can be found in the [Workday Guide]({{< ref "workday-guide#phase-1-integrations" >}})
+> Details of each integration including frequency can be found in the [Workday Guide](/handbook/people-group/workday-guide#phase-1-integrations)
 
 #### Phase 2
 
@@ -65,7 +65,7 @@ Modules/functionality being implemented:
 
 Workday is GitLab's new People technology cloud solution that will help us scale as we grow and is designed to provide a simple team member experience. It will replace our current BambooHR system.
 
-![image-1](../workday.png)
+![image-1](/images/people-group/workday.png)
 
 ### Integrations
 

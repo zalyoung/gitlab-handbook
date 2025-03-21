@@ -42,7 +42,7 @@ graph BT;
 
 GitLab is an influencer and educator in remote work and people operations. It serves the community by creating valuable content that furthers the proliferation and ubiquity of [remote-first](/handbook/company/culture/all-remote/how-to-work-remote-first/) and [all-remote](/handbook/company/culture/all-remote/terminology/) organizations, while enhancing the operations of colocated and [hybid-remote](/handbook/company/culture/all-remote/hybrid-remote/) companies by sharing implementable remote-first practices.
 
-We believe that the [people practice](/teamops/) and [operating principles]({{ ref "values#operating-principles" >}}) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
+We believe that the [people practice](/teamops/) and [operating principles](/handbook/values/#operating-principles) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/) and [informal communication](/handbook/company/culture/all-remote/informal-communication/) can benefit all organizations.
 
 ## Goals (OKR)
 
@@ -151,16 +151,16 @@ Top questions from suddenly or newly-remote companies
 <p>Below are the most common questions asked by suddenly or newly-remote companies, linked to relevant handbook pages that you can study prior to presenting. These shed light on their challenges, and will help you proactively speak to common needs, misconceptions, and struggles.</p>
 
 <ol>
-   <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/building-culture/">maintain and build company culture</a> in a remote work environment?</li>
-   <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/informal-communication/">maintain and build new work relationships</a> without seeing each other in-person on a regular basis?</li>
-   <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/mental-health/">prevent burnout, isolation, and mental health crises</a>?</li>
-   <li>How do we <a href="https://about.gitlab.com/company/culture/all-remote/meetings/">combat Zoom fatigue</a> (e.g. exhaustion associated with nonstop video calls)?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/building-culture/">maintain and build company culture</a> in a remote work environment?</li>
+   <li>How do we <a href="/handbook/company/culture/all-remote/informal-communication/">maintain and build new work relationships</a> without seeing each other in-person on a regular basis?</li>
+   <li>How do we <a href="/handbook/company/culture/all-remote/mental-health/">prevent burnout, isolation, and mental health crises</a>?</li>
+   <li>How do we <a href="/handbook/company/culture/all-remote/meetings/">combat Zoom fatigue</a> (e.g. exhaustion associated with nonstop video calls)?</li>
    <li>How we do handle <a href="/handbook/total-rewards/compensation/">compensation changes</a> if people permanently relocate to work remotely?</li>
    <li>How do we ensure that <a href="/handbook/leadership/">employees are productive</a> when we cannot physically see them?</li>
-   <li>How does one <a href="https://about.gitlab.com/company/culture/all-remote/being-a-great-remote-manager/">become a great remote manager</a>?</li>
+   <li>How does one <a href="/handbook/company/culture/all-remote/being-a-great-remote-manager/">become a great remote manager</a>?</li>
    <li>How do you <a href="https://www.coursera.org/learn/remote-team-management">effectively lead remote teams</a>?</li>
-   <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/onboarding/">onboard</a> and <a href="https://about.gitlab.com/company/culture/all-remote/learning-and-development/">train/educate</a> remotely?</li>
-   <li>How do you <a href="https://about.gitlab.com/company/culture/all-remote/collaboration-and-whiteboarding/">collaborate and whiteboard</a> remotely?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/onboarding/">onboard</a> and <a href="/handbook/company/culture/all-remote/learning-and-development/">train/educate</a> remotely?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/collaboration-and-whiteboarding/">collaborate and whiteboard</a> remotely?</li>
    </ol>
 </details>
 
@@ -223,7 +223,7 @@ More examples of how to talk about remote work
 <li>Skills for Mars — <a href="https://youtu.be/g78mzVYjDY0">Darren Murph On Transparency, Values & Leadership when All-Remote</a></li>
 <li>Bright & Early Podcast — <a href="https://www.youtube.com/watch?v=Vg0R9r4DcXw">Darren Murph: Remote Work at GitLab</a></li>
 <li>Working Without Borders: The Get on Board Podcast — <a href="https://medium.com/getonbrd/working-without-borders-s01e02-darren-murph-head-of-remote-at-gitlab-5567d7c634fd">Darren Murph on leading a remote culture at GitLab</a></li>
-<li>Outside The Valley: <a href="https://arc.dev/blog/podcast-ep23-gitlab-darren-murph-96ggw37q6t">Darren Murph of GitLab - Why Companies Should Go All-Remote</a></li>
+<li>Outside The Valley: <a href="https://arc.dev/employer-blog/companies-should-go-remote-darren-murph/">Darren Murph of GitLab - Why Companies Should Go All-Remote</a></li>
 <li>Accelerating Support Podcast: <a href="https://soundcloud.com/acceleratingsupport/accelerating-support-export-v1/s-JylGQhxc7il">Darren Murph, Head of Remote at GitLab</a></li>
 </ul>
 </details>
@@ -319,7 +319,7 @@ GitLab is a very [transparent](/handbook/values/#transparency) company. As such,
 ### All-Remote on the GitLab blog
 
 - GitLab blog posts [in the `Culture` category](https://about.gitlab.com/blog/categories/culture/)
-- GitLab blog posts [tagged `remote-work`](https://about.gitlab.com/blog/tags.html#remote-work)
+- GitLab blog posts [tagged `remote-work`](https://about.gitlab.com/blog/tags/remote-work/)
 
 ## Our audience
 

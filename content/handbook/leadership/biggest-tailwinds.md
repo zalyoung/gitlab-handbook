@@ -11,7 +11,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Customer Experience](https://docs.gitlab.com/ee/ci/review_apps/index.html#visual-reviews)
 
-[Software is Eating the World](https://a16z.com/2011/08/20/why-software-is-eating-the-world/)
+[Software is Eating the World](https://a16z.com/why-software-is-eating-the-world/)
 
 ## 2.  DevOps
 

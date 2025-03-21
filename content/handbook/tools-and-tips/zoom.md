@@ -122,8 +122,8 @@ so unauthorized attendees cannot join your zoom room.
 
 ### Adding your title to your name
 
-Since Zoom doesn't display the job title field during meetings, it is recommended that you add your job title as part of the display name field.
-For example, if your name is Art VanDelay and your role is Engineer, you can write display name: `Art VanDelay - Engineer`.
+Since Zoom doesn't display the job title field during meetings, it is recommended that you add your job title, department, and team name (if applicable) as part of the display name field.
+For example, if your name is Art VanDelay and your role is Backend Engineer within the Source code group, you can write display name: `Art VanDelay - Backend Engineer (Create:Source Code)`.
 
 1. Navigate to the [profile page](https://gitlab.zoom.us/profile)
 1. Click on `Edit` on the far right of your avatar/name
@@ -134,7 +134,7 @@ While you're here, you can also choose to set your pronouns and the display opti
 
 ### Join meetings with muted microphone
 
-Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.us/hc/en-us/articles/203024649-Muting-your-microphone-when-joining-a-meeting):
+Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062614):
 
 1. Navigate to `Zoom > Preferences > Audio`.
 1. Scroll down and select the box `Mute my mic when joining a meeting`.
@@ -404,7 +404,7 @@ Using the Zoom app:
 
 ### Recording video transcripts
 
-[Closed captioning and live transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription)
+[Closed captioning and live transcription](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490)
 is enabled by default for all users, however the subtitles will not show for participants unless
 a host manually enables it once the meeting starts.
 
@@ -419,7 +419,7 @@ available. Processing takes about 15 minutes, so the video files appear before t
 
 ### Zoom AI Companion
 
-#### Meeting summary with AI Companion
+#### Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.
 1. Click `AI Companion` in the meeting control toolbar.
@@ -430,8 +430,13 @@ available. Processing takes about 15 minutes, so the video files appear before t
 #### Accessing AI Companion Meeting Summaries
 
 1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
-1. In the side bar expand `AI Companion` and then click on `Meeting Summary`.
+1. In the sidebar expand `AI Companion` and then click on `Meeting Summary`.
 1. To edit or share, click on a meeting topic and you will have the option to `Share`, `Edit`, or `Delete` meeting summaries.
+
+#### Accessing AI Companion Smart Recordings
+
+1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
+1. In the sidebar click on `Recordings`, your smart recordings will be under `Cloud Recordings`.
 
 ### Enabling email notifications for hosts when attendees join first
 

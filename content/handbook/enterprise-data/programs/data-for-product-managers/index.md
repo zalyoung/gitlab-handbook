@@ -20,6 +20,8 @@ Here are some useful links that we recommend for you to bookmark:
 - [Product Data Insights handbook](/handbook/product/groups/product-analysis/): Information about the Product Data Insights team
 - [Tableau documentation](/handbook/enterprise-data/platform/tableau/): Information and guides on how to use Tableau
 - [Analytics Instrumentation Quick Links](/handbook/product/product-processes/analytics-instrumentation-guide/#quick-links)
+- [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system.
+- [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%20Data%20Instrumentation): Issue template for product managers or engineering teams looking to track usage of their features.
 
 ### Getting Tableau Access
 
@@ -61,6 +63,107 @@ If you ever get stuck or have a question, please ask for help in the [#data slac
 - This document is meant to serve as a guide of best practices. Please add what you learn when you need help with this content.
 
 If needed, you may create an issue in the [Product Data Insights project](https://gitlab.com/gitlab-data/product-analytics/-/issues/new) and assign it to a [product data analyst](/handbook/product/groups/product-analysis/#team-members). You can read more about working with the PDI team [here](/handbook/product/groups/product-analysis/#working-with-us).
+
+## Guidance for Instrumenting Feature Tracking
+
+As a GitLab PM, you're responsible for defining and tracking metrics for your team's features. This guide will walk you through the process, tools, and resources available to help you succeed.
+
+### Quick links for Instrumenting Feature Tracking
+
+- [CLI generator to automatically create event and metric definition files](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#defining-event-and-metrics): An interactive CLI that gathers your requirements, automatically generates event and metric definition files, and produces ready-to-use instrumentation code for engineers to implement and test
+- [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system
+- [Getting Started Standard Context Fields](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/standard_context_fields.html): Documentation on each standard context field included in Internal Event Tracking and descriptions of their intent
+- [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%20Data%20Instrumentation): Issue template for product managers or engineering teams looking to track usage of their features
+- [Product Data Insights Performance Indicator Chart Issue Template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=PI%2520Chart%2520Help)
+- [Product Data Insights Ad Hoc Analysis Issue Template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Ad%2520Hoc%2520Request)
+
+### Self-Service Feature Tracking Dashboards
+
+If your analytics needs for your new or recently modified feature are met by these dashboards, you can skip creating a Product Data Insights (PDI) Issue:
+
+- [PD: Centralized Product Usage Metrics](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting)
+- [PD: Product Usage Metrics (.com & Service Ping)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2478263/views)
+- [PD: Firmographic Product Metric Usage](https://10az.online.tableau.com/#/site/gitlab/workbooks/2137023/views)
+- [PD: Subscription Feature Usage Trends](https://10az.online.tableau.com/t/gitlab/views/PDSubscriptionFeatureUsageTrends_17032798065680/ActiveSubscriptionUsageTrends)
+- [AI Gateway Reporting](https://10az.online.tableau.com/t/gitlab/views/AIGatewayReporting/Overview)
+
+### Process for Instrumenting Feature Tracking
+
+1. Plan Your Analytics Requirements
+
+   **Owner: Product Manager**
+   - Start by determining what you need to measure:
+     - What user behaviors indicate feature success?
+     - What metrics will help you make product decisions?
+     - What data points do you need for your team's KPIs?
+   - If existing dashboards don't meet all of your needs, create a Product Data Insights (PDI) Issue to request additional analytics. [Product Data Insights (PDI) Issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new)
+
+1. Create Instrumentation Issue
+
+   **Owner: Product Manager**
+
+   Option A: Use the CLI Generator to generate requirements for your Instrumentation Issue
+   - Use the [CLI generator tool](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#defining-event-and-metrics)
+   - Benefits:
+     - Automatically generates event and metric definition files
+     - Produces ready-to-use instrumentation code
+     - Reduces implementation time for engineers
+     - Ensures consistency with GitLab's tracking standards
+
+   Option B: Use Usage Data Instrumentation Issue Template to outline metric requirements
+   - Use the [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%2520Data%2520Instrumentation)
+  
+   Tag your [assigned product analyst](/handbook/product/groups/product-analysis/#team-members) to review metric properties
+
+1. Implement Tracking
+
+   **Owner: Engineer**
+   - Create an Internal Events Tracking Merge Request (MR)
+   - Implement new metrics according to specifications defined in Usage Data Instrumentation Issue 
+
+1. Test and Validate
+
+   **Owner: Engineer**
+   - Perform [local testing](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/local_setup_and_debugging.html)
+   - Request review from Analytics Instrumentation team member
+   - Verify test events match properties defined in the Issue
+
+1. Create Analysis
+
+   **Owner: Product Analyst**
+   - For analyses requiring user and event grain GitLab.com data (Snowplow), data collection will be sufficient for analysis 1-2 weeks after MR merge
+   - For analyses requiring aggregated SM and Dedicated data (Service Ping), data collection will be sufficient for analysis 6-8 weeks after MR merge due to minimum version adoption requirement for Service Ping metrics
+   - Complete requirements specified in PDI Issue (if applicable)
+
+### Special Considerations for AI Gateway Features
+
+When instrumenting features routed through the AI Gateway, follow these guidelines:
+
+1. Represent new features routed through the AI Gateway as unit primitives
+   - New distinct features should be represented as a [unit primitive](https://gitlab.com/gitlab-org/cloud-connector/gitlab-cloud-connector/-/tree/main/config/unit_primitives)
+   - To add a new unit primitive, reach out to ~"group::cloud connector"
+
+1. Set up tracking for the new unit primitive
+   - Contact ~"group::analytics instrumentation" with the necessary fields to be tracked
+   - For more information on AI Gateway instrumentation, see the [documentation](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html#internal-events-on-other-systems)
+   - Once instrumented, AI Gateway events using the unit primitive framework:
+     - Cannot be blocked by users
+     - Are tracked at the event grain for all deployment types
+
+1. For more granular reporting
+   - If you need more detail than a 'request' of the AI Gateway at the broad feature grain, use [Internal Events Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html)
+   - Internal events can be connected to unit primitive events using a `correlation_id` for behavior funnel or more granular reporting use cases (GitLab.com only)
+
+1. Viewing AI Gateway data
+   - [AI Gateway Reporting](https://10az.online.tableau.com/t/gitlab/views/AIGatewayReporting/Overview) automatically displays new unit primitive requests once they have been instrumented by ~"group::analytics instrumentation"
+   - Additional analytics can be requested by creating a [Product Data Insights (PDI) Issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new)
+
+### Key Contacts and Resources
+
+- For questions about the feature tracking process, reach out to #g_monitor_analytics_instrumentation.
+- The Analytics Instrumentation team owns our internal product feature tracking system.
+
+By following this process and understanding the roles involved, PMs can effectively instrument and track metrics for their features, enabling data-driven decision-making and product improvement.
 
 ## Key Data Sources for Product Managers at GitLab
 
@@ -206,7 +309,7 @@ Snowplow Analytics is an open-source enterprise event-level analytics platform t
 #### Key Concepts
 
 - Because Snowplow does not rely on Service Ping, we do not need to wait for a version of GitLab to be adopted to start receiving data. We can collect and visualize data as soon as the instrumentation is deployed.
-- Even though the pseudonymization of `user_id` of Snowplow events is a limitation, with the fast feedback, Snowplow is an effective source of data to measure feature adoption and usage. 
+- Even though the pseudonymization of `user_id` of Snowplow events is a limitation, with the fast feedback, Snowplow is an effective source of data to measure feature adoption and usage.
   - Note: We are still able to count the number of users who engage with a feature, which is sufficient for most use cases. We just do not know who those users are.
 - Snowplow events can be blocked by the user.
 
@@ -281,7 +384,7 @@ LIMIT 100
 
 ## Analytics Instrumentation
 
-[Analytics Instrumentation](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) is part of the product org and is completely separate from the Data and Product Data Insights teams. However, these teams collaborate closely as the Customer Product Adoption pod.
+[Analytics Instrumentation](https://about.gitlab.com/direction/monitor/analytics-instrumentation/) is part of the product org and is completely separate from the Data and Product Data Insights teams. However, these teams collaborate closely as the Customer Product Adoption pod.
 
 - The Analytics Instrumentation team members are the [DRI](/handbook/people-group/directly-responsible-individuals/)s for data collection across both GitLab.com and Self-Managed. They own Service Ping and Snowplow. They are the ones to go to for questions like:
   - How do I instrument a new metric for Self-Managed?

@@ -56,7 +56,7 @@ We can help with:
 
 1. Runway
 
-Our Slack channel is: [#g_runway](https://gitlab.enterprise.slack.com/archives/C07UED5CGR2)
+Our Slack channel is: [fg_runway](https://gitlab.enterprise.slack.com/archives/C05G970PHSA)
 
 #### Foundations
 
@@ -64,19 +64,13 @@ Open a request for help in the [Request For Help Tracker](https://gitlab.com/git
 
 We can help with:
 
-1. Networking
+1. Networking and traffic management (CDN / VPCs / DNS / Load Balancing / Service Discovery)
 1. Rate Limiting: create an issue with the [rate limiting request template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
-1. K8s
+1. Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
+1. Kubernetes (K8s)
 1. Config
-1. Service Discovery with Consul
 1. Secrets Management with Vault
 1. ops.gitlab.net and ops runners
-1. CDN
-1. DNS
-1. Load Balancing
-1. RBAC / IAM
-1. Teleport connections: create an issue with the [teleport-troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=teleport-troubleshooting)
-1. Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
 
 Our Slack channel is: [#g_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)
 
@@ -132,7 +126,12 @@ Our Slack channel is: [#g_durability](https://gitlab.enterprise.slack.com/archiv
 
 ## Dedicated
 
-Raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team) using the `Request for Help` template which will add the ~"Dedicated::Request for Help" label. For Switchboard requests use the `Request for Switchboard Help` template which will divert your request to the Switchboard team.
+In order to deal with RFHs as efficiently as possible we have a number of issue templates. Please use the appropriate issue template for your request.
+
+1. For a Private Link Config Request raise an issue in the Request For Help Tracker using the [Private Link Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedPrivateLinkRequest)
+1. For a SAML Config Request raise an issue in the Request For Help Tracker using the [SAML Config Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedSAMLConfigRequest)
+1. For a Switchboard Request for Help raise an issue in the Request For Help Tracker using the standard [Dedicated Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedRequest)
+1. For a standard request for help raise an issue in the Request For Help Tracker using the [Switchboard Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Switchboard)
 
 We can help with:
 

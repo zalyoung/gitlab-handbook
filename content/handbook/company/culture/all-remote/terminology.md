@@ -42,11 +42,11 @@ It *is* possible to [find remote-first companies](jobs/#remote-first-companies) 
 
 ### No company-owned offices
 
-The company [does not have an office occupied by their employees]({{< ref "remote-benefits#for-your-organization" >}}) in an all-remote setting. By extension, this ensures that [every member of leadership is remote](transition/#make-the-executive-team-remote), creating a level playing field that is not possible when even one or two executives congregate daily in the same physical space.
+The company [does not have an office occupied by their employees](/handbook/company/culture/all-remote/remote-benefits/#benefits-for-all-remote-organizations) in an all-remote setting. By extension, this ensures that [every member of leadership is remote](transition/#make-the-executive-team-remote), creating a level playing field that is not possible when even one or two executives congregate daily in the same physical space.
 
 ### A more inclusive work environment
 
-Such a structure ensures that each team member is given autonomy to create the [workspace](workspace/) that works best for them, in a place that suits them, creating an environment that is naturally more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities).
+Such a structure ensures that each team member is given autonomy to create the [workspace](workspace/) that works best for them, in a place that suits them, creating an environment that is naturally more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/).
 
 ### No location hierarchy
 
@@ -58,8 +58,6 @@ All-remote is not partial to where you work, nor how frequently you relocate. Al
 
 Because there is no central office, all-remote enables team members to live and work in underserved and rural locales. This [bolsters economies in small communities](people/#reversing-rural-depopulation) and simultaneously reduces infrastructure strain on dense cities.
 
-All-remote doesn't mandate that you ask permission before [changing locations](https://youtu.be/tTQAU78QSt8). You are free to work in a different place each day should you choose. This enables [digital nomads](people/#nomads) to coexist with those who must remain in one place due to mobility challenges or family [commitments](people/#caretakers), treating each person as equals regardless of their lifestyle.
-
 ## What "all-remote" does not mean
 
 Let's address some of the common misconceptions about all-remote work.
@@ -70,9 +68,9 @@ The terms "remote" and "distributed" are often used interchangeably, but they're
 
 For employees, being part of an all-remote company does not mean working independently or being [isolated](mental-health/#working-to-prevent-burnout-isolation-and-anxiety), because it's not a substitute for human interaction.
 
-Technology allows us to [stay closely in touch](informal-communication/) with our teams, whether asynchronously in text or in real time with high-fidelity conversations through video. Teams should collaborate closely, [communicate](informal-communication/) often, [build relationships virtually](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein), and feel like valuable members of a larger team.
+Technology allows us to [stay closely in touch](informal-communication/) with our teams, whether asynchronously in text or in real time with high-fidelity conversations through video. Teams should collaborate closely, [communicate](informal-communication/) often, [build relationships virtually](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein/), and feel like valuable members of a larger team.
 
-Working remotely also doesn't mean you're physically constrained to home. You're free to work [wherever you want](people/#travelers). That could be at home with family, a coffee shop, a co-working space, or your local library while your little one is enjoying story-time. It could mean that you're [location independent](people/#nomads), traveling around and working in a new place each week. You can have frequent video chats or virtual pairing sessions with coworkers throughout the day, and you can even meet up with other coworkers to work together in person if you're located near each other.
+Working remotely also doesn't mean you're physically constrained to home. You're free to work [wherever you want](people/#travelers). That could be at home with family, a coffee shop, a co-working space, or your local library while your little one is enjoying story-time. You can have frequent video chats or virtual pairing sessions with coworkers throughout the day, and you can even meet up with other coworkers to work together in person if you're located near each other.
 
 At the organizational level, "all-remote" does not mean simply offshoring work. Instead, it means you're able to [hire the best talent from all around the world](hiring/). It's also not a management paradigm. You still have a hierarchical organization, but with a [focus on output instead of input](management/).
 
@@ -87,9 +85,9 @@ It's important to recognize that all-remote is *not* a synonym for outsourcing o
 ![GitLab in-person interactions at Commit SF 2020](/images/all-remote/gitlab-commit-sf-2020-in-person.jpg)
 {style="max-width: 50%;"}
 
-GitLab believes that [in-person interactions](in-person/) are valuable. We are intentional about gathering the entire team every 9 to 12 months for a shared experience ([GitLab Contribute](/handbook/company/culture/summit/)), and we encourage team members to gather in-person for [reimbursed holiday gatherings](/handbook/finance/spending-company-money/#year-end-holiday-party-budget), [GitLab Commit](https://about.gitlab.com/events/commit) events, and other opportunities such as conferences and trade shows.
+GitLab believes that [in-person interactions](in-person/) are valuable. We are intentional about gathering the entire team every 9 to 12 months for a shared experience ([GitLab Contribute](/handbook/company/culture/summit/)), and we encourage team members to gather in-person for [reimbursed holiday gatherings](/handbook/finance/spending-company-money/#year-end-holiday-party-budget), [GitLab Commit](https://about.gitlab.com/events/) events, and other opportunities such as conferences and trade shows.
 
-GitLab also gathers its [e-group]({{< ref "structure#e-group" >}}) for a [quarterly four-day offsite]({{< ref "offsite" >}}). These offsites are planned and highly structured as to create exceptional efficiencies. The agenda, takeaways, and changes are all documented for the rest of the company to see, with broader company discussion in a dedicated `#e-group` Slack channel. This is intentionally designed to be [transparent](/handbook/values/#transparency).
+GitLab also gathers its [e-group](/handbook/company/structure/#e-group) for a [quarterly four-day offsite](/handbook/company/offsite/). These offsites are planned and highly structured as to create exceptional efficiencies. The agenda, takeaways, and changes are all documented for the rest of the company to see, with broader company discussion in a dedicated `#e-group` Slack channel. This is intentionally designed to be [transparent](/handbook/values/#transparency).
 
 There is a marked difference between being intentional and selective about in-person interactions, and forcing a team to endure a daily commute.
 
@@ -142,8 +140,8 @@ For added context, consider reading GitLab's guide on the [various stages of rem
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

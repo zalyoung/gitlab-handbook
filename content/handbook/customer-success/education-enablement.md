@@ -47,11 +47,11 @@ To align our education and enablement with our product, each of the topics below
 #### Intermediate Level
 
 - [Value Stream Management Feature Docs](https://about.gitlab.com/solutions/value-stream-management/)
-- [Audit Events Feature Docs](https://docs.gitlab.com/ee/administration/audit_events.html)
+- [Audit Events Feature Docs](https://docs.gitlab.com/ee/administration/audit_event_reports.html)
 - [DevOps Reports Feature Docs](https://docs.gitlab.com/ee/administration/analytics/dev_ops_reports.html)
 - [Code Analytics Feature Docs](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html)
 - [Compliance Management Feature Docs](https://docs.gitlab.com/ee/administration/compliance.html)
-- [Audit Reports Feature Docs](https://docs.gitlab.com/ee/administration/audit_reports.html)
+- [Audit Reports Feature Docs](https://docs.gitlab.com/ee/administration/audit_event_reports.html)
 
 ### Plan Stage
 
@@ -65,7 +65,7 @@ To align our education and enablement with our product, each of the topics below
 #### Intermediate Level
 
 - [Issue Tracking Feature Docs](https://docs.gitlab.com/ee/user/project/issues/)
-- [Time Tracking Feature Docs](https://about.gitlab.com/solutions/time-tracking/)
+- [Time Tracking Feature Docs](https://docs.gitlab.com/ee/user/project/time_tracking.html)
 - [Boards Feature Docs](https://docs.gitlab.com/ee/user/project/issue_board.html)
 - [Epics Feature Docs](https://docs.gitlab.com/ee/user/group/epics/)
 - [Roadmaps Feature Docs](https://docs.gitlab.com/ee/user/group/roadmap/)
@@ -84,7 +84,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Intermediate Level
 
-- [Source Code Management Feature Overview](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/)
+- [Source Code Management Feature Overview](https://about.gitlab.com/solutions/source-code-management/)
 - [Source Code Management Direction and Roadmap](https://about.gitlab.com/direction/create/source_code_management/)
 - [Code Review Feature Overview with 30+ Features](https://about.gitlab.com/stages-devops-lifecycle/create/)
   - [JIRA Integration Solution Overview](https://about.gitlab.com/solutions/jira/)
@@ -112,7 +112,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Intermediate Level
 
-- [Continuous Integration (CI) Feature Overview](https://about.gitlab.com/features/continuous-integration/)
+- [Continuous Integration (CI) Feature Overview](https://about.gitlab.com/solutions/continuous-integration/)
   - [CI/CD Feature Docs](https://docs.gitlab.com/ee/ci/)
   - [CI/CD Concepts Docs](https://docs.gitlab.com/ee/ci/quick_start/)
   - [CI/CD Pipeline Docs](https://docs.gitlab.com/ee/ci/pipelines/)
@@ -165,15 +165,15 @@ To align our education and enablement with our product, each of the topics below
 
 #### Intermeiate Level
 
-- [Continuous Delivery Feature Overview](https://about.gitlab.com/features/continuous-integration/)
+- [Continuous Delivery Feature Overview](https://about.gitlab.com/solutions/continuous-integration/)
   - [See verify stage for full list of CI/CD resources](#verify-stage)
-- [Pages Feature Overview](https://about.gitlab.com/stages-devops-lifecycle/pages/)
+- [Pages Feature Overview](https://docs.gitlab.com/ee/user/project/pages/)
   - [Pages Feature Direction and Roadmap](https://about.gitlab.com/direction/plan/knowledge/pages/)
   - [Pages Feature Docs](https://docs.gitlab.com/ee/user/project/pages/)
-- [Review Apps Feature Overview](https://about.gitlab.com/stages-devops-lifecycle/review-apps/)
+- [Review Apps Feature Overview](https://docs.gitlab.com/ee/ci/review_apps/)
   - [YouTube Webcast Feature Overview](https://www.youtube.com/watch?v=CteZol_7pxo&feature=youtu.be)
   - [Review Apps Direction and Roadmap](https://gitlab.com/groups/gitlab-org/-/epics/495)
-  - [Review Apps Feature Docs](https://docs.gitlab.com/ee/ci/review_apps)
+  - [Review Apps Feature Docs](https://docs.gitlab.com/ee/ci/review_apps/)
 - [Advanced Deployments Feature Docs](https://docs.gitlab.com/ee/topics/autodevops/index.html#incremental-rollout-to-production-premium)
 - [Feature Flags Feature Docs](https://docs.gitlab.com/ee/operations/feature_flags.html)
 - [Release Orchestration Feature Docs](https://docs.gitlab.com/ee/user/project/releases/)
@@ -189,7 +189,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Intermediate Level
 
-- [Auto DevOps Feature Overview](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/)
+- [Auto DevOps Feature Overview](https://docs.gitlab.com/ee/topics/autodevops/)
 - [Auto DevOps Feature Docs](https://docs.gitlab.com/ee/topics/autodevops/)
 - [Kubernetes Management Feature Overview](https://about.gitlab.com/solutions/kubernetes/)
 - [Secrets Management CI Variable Docs](https://docs.gitlab.com/ee/ci/variables/)
@@ -212,7 +212,7 @@ To align our education and enablement with our product, each of the topics below
 - [Incident Management Feature Docs](https://docs.gitlab.com/ee/operations/incident_management/)
 - [Error Tracking Feature Docs](https://docs.gitlab.com/ee/operations/error_tracking.html)
 - [Product Analytics Feature Docs](https://docs.gitlab.com/ee/user/product_analytics/)
-- [Service Desk Feature Docs](https://about.gitlab.com/stages-devops-lifecycle/service-desk/)
+- [Service Desk Feature Docs](https://docs.gitlab.com/ee/user/project/service_desk/)
 
 ### Secure Stage
 
@@ -221,7 +221,7 @@ To align our education and enablement with our product, each of the topics below
 #### Foundations Level
 
 - [Secure Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/secure/)
-- [Secure Stage Direction and Roadmap](https://about.gitlab.com/direction/secure/)
+- [Secure Stage Direction and Roadmap](https://about.gitlab.com/direction/application_security_testing/)
 
 #### Intermediate Level
 
@@ -274,7 +274,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Foundations Level
 
-- [Hashicorp Learn Tutorials](https://learn.hashicorp.com/terraform)
+- [Hashicorp Learn Tutorials](https://developer.hashicorp.com/terraform/tutorials)
 - [GitLab Terraform Integration Docs](https://docs.gitlab.com/ee/user/infrastructure/)
 
 #### Intermediate Level
@@ -288,7 +288,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Advanced Level
 
-- [Terraform Associate Certification](https://www.hashicorp.com/certification/terraform-associate)
+- [Terraform Associate Certification](https://developer.hashicorp.com/certifications/infrastructure-automation)
 
 ### HashiCorp Vault
 
@@ -296,7 +296,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Foundations Level
 
-- [Hashicorp Learn Tutorials](https://learn.hashicorp.com/terraform)
+- [Hashicorp Learn Tutorials](https://developer.hashicorp.com/terraform/tutorials)
 
 #### Intermediate Level
 
@@ -304,7 +304,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Advanced Level
 
-- [Vault Associate Certification](https://learn.hashicorp.com/terraform)
+- [Vault Associate Certification](https://developer.hashicorp.com/terraform/tutorials)
 
 ### HashiCorp Consul
 
@@ -320,7 +320,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Advanced Level
 
-- [Consul Associate Certification](https://www.hashicorp.com/certification/consul-associate)
+- [Consul Associate Certification](https://developer.hashicorp.com/certifications/security-automation)
 
 ## O'Reilly Content Library
 
@@ -361,5 +361,5 @@ If you want to share an answer in a direct message you'll need to create a group
 - [Field Accreditation Handbook Page](/handbook/sales/training/field-certification/)
 - [Sales Training](/handbook/sales/training/)
 - [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice/)
-- [Learn at GitLab](https://about.gitlab.com/learn/)
+- [Learn at GitLab](https://university.gitlab.com/)
 - [GitLab Releases](https://about.gitlab.com/releases/)

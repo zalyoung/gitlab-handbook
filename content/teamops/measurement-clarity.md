@@ -42,7 +42,7 @@ In Q3-FY23 at GitLab, a company OKR was [Improve user and wider-community engage
 
 These are documented in a tool that's accessible to the entire organization. Any team member can see any function's OKRs and KPIs for the quarter, reinforcing the [value of transparency](/handbook/values/#transparency).
 
-**Resource:** [Performance Management on Remote and Hybrid Teams](https://www.workplaceless.com/blog/remote-performance-management) (article)
+**Resource:** [Performance Management on Remote and Hybrid Teams](https://www.workplaceless.com/blog/performance-management-remote-hybrid-teams) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for transparent measurements" %}}
@@ -157,7 +157,7 @@ To optimize the efficacy of delivered feedback, consider how other TeamOps tenet
 
 At GitLab, our mission that [everyone can contribute](/handbook/company/mission/) even influences our feedback guidelines—suggesting that any team member, at any level, can give feedback to any other team member, at any level.
 
-**Resource:** [Guide to Giving Remote Feedback](https://www.workplaceless.com/blog/guide-to-remote-feedback) (playbook)
+**Resource:** [Guide to Giving Remote Feedback](https://www.workplaceless.com/blog/giving-remote-feedback-guide) (playbook)
 {{% /details %}}
 
 {{% details summary="Change management support for transparent feedback" %}}
@@ -177,9 +177,9 @@ In organizations built on information-based operations, team members' collective
 This is why establishing a transparent [cadence](/handbook/company/cadence/) for decision-making activities, informational updates, and feedback opportunities is important for teams practicing TeamOps. A regular cadence sets a *pace* for productivity and creates predictable, comfortable intervals for work. Establishing and documenting a cadence for everything from operational workflows and [due dates](/handbook/teamops/measurement-clarity/#prioritize-due-dates-over-scope)  to company announcements and team meetings can prevent the kinds of distraction and burnout that often result from context switching, distractive research, or individual uncertainty.
 
 {{% details summary="Examples and resources for cadence" %}}
-**Example:** [GitLab's Quarterly All-Hands Meeting](/handbook/company/gitlab-assembly/)
+**Example:** [GitLab's Quarterly All-Hands Meeting](/handbook/company/gitlab-all-company-meetings/)
 
-At the same time each quarter, executive leadership hosts [GitLab Assembly](/handbook/company/gitlab-assembly/)—a company-wide recap of the past quarter's accomplishments, summary of the new quarter's objectives, and an open-floor Q&A for any employee to resolve questions or concerns. Knowing exactly when this meeting will occur, who will be in attendance, and what will be discussed gives GitLab team members full confidence of when they can have direct access to the executive team about company growth.
+At the same time each quarter, executive leadership hosts [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)—a company-wide recap of the past quarter's accomplishments, summary of the new quarter's objectives, and an open-floor Q&A for any employee to resolve questions or concerns. Knowing exactly when this meeting will occur, who will be in attendance, and what will be discussed gives GitLab team members full confidence of when they can have direct access to the executive team about company growth.
 
 **Resource:** [How to use a business cadence to promote collaboration](https://web.archive.org/web/20231201100335/https://www.hydra.cloud/en/resources/blog/how-to-use-a-business-cadence-to-promote-collaboration) (article)
 {{% /details %}}

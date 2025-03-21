@@ -25,7 +25,7 @@ Because permissions are replicated from the production environment, if you are c
 
 ### Test the MR - either in SQL or in Tableau. Make sure it's doing what you think it is
 
-Once you have access to your tables, make sure to test them! You can test them in Tableau, or Snowflake. Getting updates merged can be time consuming- not just from the review of the changes, but also just the time it takes to see your changes reflected once you update the database. 
+Once you have access to your tables, make sure to test them! You can test them in Tableau, or Snowflake. Getting updates merged can be time consuming- not just from the review of the changes, but also just the time it takes to see your changes reflected once you update the database.
 
 Even if you are making changes in a report table where nobody else will be negatively impacted if your code changes have a mistake in them, you are still holding up the process if you merge through changes that are incorrect and need to be changed again. When you are finished reviewing the changes from your MR and you leave your sign off that the changes are working as expected, you are committing to having tested your changes.
 
@@ -50,7 +50,7 @@ This row count catches things like when you accidentally type a join wrong, and 
 
     UNION ALL
 
-    SELECT 
+    SELECT
         COUNT(*) as row_count,
         'MR' as source
     FROM "your-mr-branch-name".your_schema.your_table_name
@@ -78,11 +78,11 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
 
   3. In dbt, tests are predefined or custom checks configured in `.yml` files to validate the data in your models. These tests automatically check for specific conditions in the resulting tables, such as ensuring no null values, verifying unique rows, or maintaining referential integrity. This approach separates data validation from the model code, making it easier to ensure data quality and maintainability.
 
-     - You likely won’t need to add tests to your tables when you’re new to using dbt. The Analytics Engineer reviewing your MR can suggest tests if they think one is relevant. For more information about adding tests to your models, see the [Trusted Data Framework handbook page](https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework).
+     - You likely won’t need to add tests to your tables when you’re new to using dbt. The Analytics Engineer reviewing your MR can suggest tests if they think one is relevant. For more information about adding tests to your models, see the [Trusted Data Framework handbook page](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework).
 
   4. Our CI jobs will build the models and environment included in the scope of your MR. You can leave this section as is, as the "Changes" tab will outline the MR's scope. In rare cases where additional models need to be built outside of those included in the `build_changes` job, you can specify them here. If extra models need to be run, you can use the `custom_invocation` job or the `build_changes` job with a specified `SELECTION`.
 
-  5. Before an MR can be merged, you will need to "Build Changes", "Grant Clones" to yourself, and perform remote testing - either in Snowflake or Tableau. 
+  5. Before an MR can be merged, you will need to "Build Changes", "Grant Clones" to yourself, and perform remote testing - either in Snowflake or Tableau.
       ![MR 2](/images/handbook/enterprise-data/platform/tableau/mr-template-2.png)
   6. In the "Verify" section you will verify that the changes you make are having the impact you expect. You will include the results below.
 
@@ -102,7 +102,7 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
      ![MR 4](/images/handbook/enterprise-data/platform/tableau/mr-template-4.png)
 
   9. When you create an MR, you will likely start by assigning it to yourself. This helps you keep track of the MR's that you have open and in progress.
-  
+
   10. After completing testing and ensuring your changes are ready for review, assign the MR to an Analytics Engineer who is a code owner of the files you modified. Once they have reviewed and approved the changes, they will assign the MR to a maintainer for merging.
 
   11. Labels can help you and your team keep track of your MR. If your team uses labels for your GitLab work, you can apply those same labels to your MR.
@@ -148,6 +148,6 @@ This also helps tremendously when something happens like the company grows in si
 
 ## Other Helpful Resources for Preparing MRs
 
-Our DBT Guide: https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/ 
+Our DBT Guide: https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/
 Style Guide: https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/#style-and-usage-guide
 General helpful information about using dbt: https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/#general

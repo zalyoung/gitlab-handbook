@@ -7,7 +7,7 @@ GitLab offers global, role-based training and enablement to help you grow your s
 
 ## <span style="color: #fc6d26;">Benefits of GitLab Accreditations</span>
 
-GitLab has a commitment to enabling our partners with the skills that they need to best support current and future GitLab customers. This includes offering a combination of GitLab Partner Accreditations for Sales, Pre-Sales Technical, and Customer Success roles, as well as offering [GitLab Certifications.](https://about.gitlab.com/services/education/gitlab-technical-certification-self-paced/)
+GitLab has a commitment to enabling our partners with the skills that they need to best support current and future GitLab customers. This includes offering a combination of GitLab Partner Accreditations for Sales, Pre-Sales Technical, and Customer Success roles, as well as offering [GitLab Certifications.](https://university.gitlab.com/pages/certifications/)
 
 ## <span style="color: #fc6d26;">Learn at your own pace</span>
 
@@ -75,7 +75,7 @@ To sign up for any of the courses listed on this page, please visit the [Allianc
 
 GitLab uses Credly to award our Technical Certifications and Accreditations. Once you have successfully completed all components of an Accreditation or Certification, you will receive an email notification from Credly. You will need to accept the badge. Once you accept the badge, you will be able to share your badge, attach your badge to your email, and attach your badge to your LinkedIn profile.##Please note that it can take 7-10 business days for your completion to be reflected in the partner portal.## Please refer to the below links to assist you in managing your badge(s):
 
-- [Accepting a Credly badge](https://x8672.mjt.lu/lnk/AMEAAM_mUCcAAABrO8IAACCEDhIAAAABDiMAAQaGABe-EwBi2XgInVHA7IsURfGUyzjadeVL2QAXQZQ/4/nw0aGmV6G5Esfsk-xF_4sA/aHR0cHM6Ly9zdXBwb3J0LmNyZWRseS5jb20vaGMvZW4tdXMvc2VjdGlvbnMvMzYwMDAzMjA1MDcyLS1BY2NlcHRpbmctYS1CYWRnZQ)
+- [Accepting a Credly badge](https://support.credly.com/hc/en-us/sections/360003205072--Accepting-a-Badge)
 - [Sharing your Credly badge](https://support.credly.com/hc/en-us/articles/360020964272-How-do-I-share-my-badge)
 - [Attach your Credly badge to your email signature](https://support.credly.com/hc/en-us/articles/360021221691-Can-I-attach-my-badge-to-my-email-signature)
 - [How to add your Credly badge to your LinkedIn profile](https://support.credly.com/hc/en-us/articles/360021221491-How-can-I-add-my-badge-to-my-LinkedIn-profile-and-share-to-my-feed)

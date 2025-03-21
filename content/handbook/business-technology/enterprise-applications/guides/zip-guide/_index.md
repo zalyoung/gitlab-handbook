@@ -31,7 +31,7 @@ To request access to Zip:
 - *Zip should open in a new tab with your user logged in.*
 - *The Zip  main page should look like the one below.*
 
-![zip-image-1](/handbook/business-technology/enterprise-applications/guides/zip-guide/login-page.png)
+![zip-image-1](/images/business-technology/enterprise-applications/guides/zip-guide/login-page.png)
 
 ## Zip - Getting Started
 
@@ -45,11 +45,11 @@ To request access to Zip:
 6. In the `What are you looking to purchase?` question, is asking which commodity you are purchasing. For example: if this purchase is for the Marketing team, then please select Marketing Programs and then the appropriate subcategory that describes your purchase.
 7. Select if the payment is to be made by a Coupa virtual card.
 
-![zip-image-2](/handbook/business-technology/enterprise-applications/guides/zip-guide/new-request4.png)
+![zip-image-2](/images/business-technology/enterprise-applications/guides/zip-guide/new-request4.png)
 
-![zip-image-3](/handbook/business-technology/enterprise-applications/guides/zip-guide/zip-workflows.png)
+![zip-image-3](/images/business-technology/enterprise-applications/guides/zip-guide/zip-workflows.png)
 
-![zip-image-4](/handbook/business-technology/enterprise-applications/guides/zip-guide/new-request5.png)
+![zip-image-4](/images/business-technology/enterprise-applications/guides/zip-guide/new-request5.png)
 
 ### Purchase requests commodity categories and sub-categories
 
@@ -173,7 +173,7 @@ Virtual card requests will go through Zip as a regular purchase request.
    - *Drafted request are also accessible in this page.*
 4. Once the specific request has been selected, the approval workflow appears at the top of the page.
 
-![zip-image-6](/handbook/business-technology/enterprise-applications/guides/zip-guide/submitted-request2.png)
+![zip-image-6](/images/business-technology/enterprise-applications/guides/zip-guide/submitted-request2.png)
 
 {{% alert title="Note" color="info" %}}
 See which approvals are complete and which have yet to be completed. Automatic notifications via Slack and email will go out as the request is approved by different parties.
@@ -191,7 +191,7 @@ See which approvals are complete and which have yet to be completed. Automatic n
   - Then, click on "View in Coupa"
   - You will be redirected to Coupa, where you can check the approval flow and the current approver.
 
-![zip-image-status](/handbook/business-technology/enterprise-applications/guides/zip-guide/zip_status.png)
+![zip-image-status](/images/business-technology/enterprise-applications/guides/zip-guide/zip_status.png)
 
 ### How to check signature status of documents?
 
@@ -240,11 +240,11 @@ When the Legal team reviews and provides redlines to the vendor's contract, the 
 3. Once you have selected the purchase request, click on the `…` logo and `Cancel Request`.
 4. Provide a short cancellation reason and click `Confirm`.
 
-![zip-image-14](/handbook/business-technology/enterprise-applications/guides/zip-guide/cancel-request1.png)
+![zip-image-14](/images/business-technology/enterprise-applications/guides/zip-guide/cancel-request1.png)
 
-![zip-image-15](/handbook/business-technology/enterprise-applications/guides/zip-guide/cancel-request2.png)
+![zip-image-15](/images/business-technology/enterprise-applications/guides/zip-guide/cancel-request2.png)
 
-![zip-image-16](/handbook/business-technology/enterprise-applications/guides/zip-guide/cancel-request3.png)
+![zip-image-16](/images/business-technology/enterprise-applications/guides/zip-guide/cancel-request3.png)
 
 ### How to clone a request?
 
@@ -253,18 +253,18 @@ When the Legal team reviews and provides redlines to the vendor's contract, the 
 3. Once you have selected the purchase request, click on the `…` logo and `Clone request`.
 4. Click on `Clone`.
 
-![zip-image-17](/handbook/business-technology/enterprise-applications/guides/zip-guide/clone-request1.png)
+![zip-image-17](/images/business-technology/enterprise-applications/guides/zip-guide/clone-request1.png)
 
-![zip-image-18](/handbook/business-technology/enterprise-applications/guides/zip-guide/clone-request2.png)
+![zip-image-18](/images/business-technology/enterprise-applications/guides/zip-guide/clone-request2.png)
 
-![zip-image-19](/handbook/business-technology/enterprise-applications/guides/zip-guide/clone-request3.png)
+![zip-image-19](/images/business-technology/enterprise-applications/guides/zip-guide/clone-request3.png)
 
 ### How to comment on a request?
 
 Every request detail page includes a `Comments` tab that provides a space for communication between all users who can access the request. In addition to comments from members of the organization, this tab provides notifications when comments are left by vendors on the vendor portal.
 An user can post a question or comment, and all of the stakeholders in the chain (the requester and all approvers) will be notified to view and then respond, or `@` tag a specific person and only that person will get notified.
 
-![zip-image-7](/handbook/business-technology/enterprise-applications/guides/zip-guide/comments1.png)
+![zip-image-7](/images/business-technology/enterprise-applications/guides/zip-guide/comments1.png)
 
 ## Zip - Approval Process
 
@@ -278,16 +278,16 @@ Some users identified by Legal, HR, Procurement, Security and Privacy have the o
 4. Click on your approval node in the review chain to view due dates, completed dates, any sub-tasks and integration information built-in.
 5. Click on the section tabs to jump to the section of the page needed.
 
-![zip-image-8](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request7.png)
+![zip-image-8](/images/business-technology/enterprise-applications/guides/zip-guide/approval-request7.png)
 
 {{% alert title="Note" color="info" %}}
 You can set your approval notification preferences (Email and/or Slack) by logging into Zip, clicking:
 Settings -> Personal Settings -> Notifications.
 {{% /alert %}}
 
-![zip-image-9](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request9.png)
+![zip-image-9](/images/business-technology/enterprise-applications/guides/zip-guide/approval-request9.png)
 
-![zip-image-10](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request8.png)
+![zip-image-10](/images/business-technology/enterprise-applications/guides/zip-guide/approval-request8.png)
 
 ### How to see all the requests that need my approval?
 
@@ -295,19 +295,19 @@ If you are the default assignee for your queue, you can view all pending request
 
 If you are not the default assignee for your queue, you can view all requests awaiting your queue's approval by clicking `Dashboard` in the top right corner, selecting the `Queues` tab and selecting your queue. All requests in your queues will appear, you can update the `Status` filter if necessary to see previously approved or upcoming requests.
 
-![zip-image-11](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request4.png)
+![zip-image-11](/images/business-technology/enterprise-applications/guides/zip-guide/approval-request4.png)
 
 ### How to reassign approvals?
 
 You can reassign a pending approval from your queue to yourself or another user. Next to the request, click on the pencil icon to reassign the approval.
 
-![zip-image-12](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request5.png)
+![zip-image-12](/images/business-technology/enterprise-applications/guides/zip-guide/approval-request5.png)
 
 ### How to see all of the documents associated with a request?
 
 Click on the `Documents` tab at the top of any request, to see all the documents. You can view and manage all versions of documents associated with the purchase request.
 
-![zip-image-13](/handbook/business-technology/enterprise-applications/guides/zip-guide/approval-request6.png)
+![zip-image-13](/images/business-technology/enterprise-applications/guides/zip-guide/approval-request6.png)
 
 ## Zip Platform Support
 

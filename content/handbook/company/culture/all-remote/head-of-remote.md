@@ -10,7 +10,7 @@ twitter_creator: "@gitlab"
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg)
 {style="max-width: 50%;"}
 
-GitLab and Darren M. pioneered the "Head of Remote" role. In the wake of the COVID-19 pandemic, many organizations are transitioning to remote. Regardless of what [phase](phases-of-remote-adaptation/) they're in, or what [stage](https://app.hopin.com/events/gitlab-sales-kickoff-2021-peak-performance/stages) they intend to embrace, GitLab has triggered a global movement of appointing a dedicated lead to evolve a company's remote fluency.
+GitLab and Darren M. pioneered the "Head of Remote" role. In the wake of the COVID-19 pandemic, many organizations are transitioning to remote. Regardless of what [phase](phases-of-remote-adaptation/) they're in, or what [stage](https://app.events.ringcentral.com/events/gitlab-sales-kickoff-2021-peak-performance/stages) they intend to embrace, GitLab has triggered a global movement of appointing a dedicated lead to evolve a company's remote fluency.
 
 ## What is a Head of Remote?
 
@@ -20,13 +20,13 @@ Initially, a Head of Remote sets the tone for behavioral and cultural shifts req
 
 ## Why companies hire a Head of Remote
 
-As more organizations embrace [remote-work variations](terminology/), they are realizing that remote and remote-hybrid workforces run the risk of [creating two opposing cultures and workflow defaults](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds). For the organization to thrive, charting a harmonious path forward *must be someone's job*. Not just a part of their job, but the *whole job*.
+As more organizations embrace [remote-work variations](terminology/), they are realizing that remote and remote-hybrid workforces run the risk of [creating two opposing cultures and workflow defaults](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds/). For the organization to thrive, charting a harmonious path forward *must be someone's job*. Not just a part of their job, but the *whole job*.
 
 Distributed work unlocks talent and productivity, but not without intentional effort. The underlying infrastructure of how a team works will change without an office as a crutch, and it requires a leader to steer teams through the shift, coordinate upskilling, and enlist new tools where appropriate.
 
 ## Does your organization need a Head of Remote Work?
 
-Senior leadership roles continue to grow as work expands, collaboration occurs across borders, and software continues to [eat the world](https://a16z.com/2011/08/20/why-software-is-eating-the-world). Just as UiPath articulates the need for a [Chief Automation Officer](https://www.uipath.com/blog/does-your-organization-need-chief-automation-officer), the COVID-19 pandemic has made clear that working with remote teams is too important to leave to chance.
+Senior leadership roles continue to grow as work expands, collaboration occurs across borders, and software continues to [eat the world](https://a16z.com/why-software-is-eating-the-world/). Just as UiPath articulates the need for a [Chief Automation Officer](https://www.uipath.com/blog/automation/does-your-organization-need-chief-automation-officer), the COVID-19 pandemic has made clear that working with remote teams is too important to leave to chance.
 
 Organizations should consider hiring a Head of Remote. This may be titled Director of Remote Work, VP of Remote Work, Chief Remote Officer, or a variety of alternatives. Longer-term, this role may evolve into a Head of Workplace Experience, Head of Culture, or similar.
 
@@ -47,11 +47,11 @@ A sample of questions to be answered by a Head of Remote Work:
 1. Who will be responsible for ensuring that newly-remote workers have healthy, ergonomic [workspaces](workspace/) at home?
 1. Who will ensure that [learning and development](learning-and-development/) principles address the challenges of remote [hiring](hiring/), remote [interviewing](interviews/), remote [onboarding](onboarding/), remote [management](management/), remote promotions, and beyond?
 1. Who will conduct an end-to-end process audit and provide structured replacements for remote-last workflows, such as a reliance on [synchronous meetings](meetings/) for consensus gathering and collaboration?
-1. Who will lead the reevaluation of company [values]({{< ref "remote-values" >}}), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
+1. Who will lead the reevaluation of company [values](/handbook/company/culture/all-remote/remote-values/), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
 1. Who will put a travel strategy in place such that [in-person engagements](in-person/) become a core part of [building company culture](building-culture/)?
 1. Who will revise your company's talent acquisition strategy, creating a clear and concise answer to "What's your stance on workplace flexibility?"
-1. Who will build a visible [talent brand]({{< ref "culture#life-at-gitlab" >}}) demonstrating how remote workers are supported and included? (This will create significant sway in your Glassdoor reviews.)
-1. Who will lead existing executives in [transforming](being-a-great-remote-manager/) their expectations and ways of working, coaching them to model the [unlearning of old habits]({{< ref "candidate-faq" >}}) and embracing new ones in transparent fashion?
+1. Who will build a visible [talent brand](/handbook/company/culture/#life-at-gitlab) demonstrating how remote workers are supported and included? (This will create significant sway in your Glassdoor reviews.)
+1. Who will lead existing executives in [transforming](being-a-great-remote-manager/) their expectations and ways of working, coaching them to model the [unlearning of old habits](/handbook/hiring/candidate-faq/) and embracing new ones in transparent fashion?
 1. Who will ensure that teams have the tools, direction, and coaching they need to [become documentarians](self-service/)?
 1. Who will outline a multi-year remote transformation strategy with quarterly milestones and objectives, coaching a team through iterative change and celebrating small wins along the way?
 1. Who will champion your culture and values, not only to galvanize teams through a pandemic, but excite them by building a more disciplined, cohesive, [asynchronous](asynchronous/), inclusive, and diverse future?
@@ -65,7 +65,7 @@ In lieu of hiring a full-time remote work leader, or as a bridge until you're ab
 
 1. [Distribute Consulting](https://www.distributeconsulting.com)
 1. [Global Workplace Analytics](https://globalworkplaceanalytics.com)
-1. [Remote-how](https://remote-how.com)
+1. [Remote-how](https://www.remote-how.com/)
 
 No one remote transformation will be identical to another. Some companies need a documentarian to craft a [handbook](handbook-first/), while others need more assistance on messaging and tooling. These consultancies run end-to-end audits to meet companies where they are and move them forward.
 
@@ -154,7 +154,7 @@ Below are several recommended areas of study that will prepare you for a remote 
 
 At GitLab, we seek to open source our mastery of remote work in order to equip and empower the next generation of remote work leaders. We encourage those aspiring to fill remote work leadership roles to complete the coursework below and implement GitLab's proven practices into your current organization. In interviews, share completion of these courses and examples of implementing GitLab principles as a means to substantiate your mastery of remote work fundamentals.
 
-1. [GitLab's Remote Work Foundations Certification]({{< ref "remote-certification" >}})
+1. [GitLab's Remote Work Foundations Certification](/handbook/company/culture/all-remote/remote-certification/)
 1. [Remote Team Management](https://www.coursera.org/learn/remote-team-management) (hosted on Coursera)
 
 Prior to the COVID-19 pandemic, there was low supply and low demand for dedicated remote work leadership. In the midst of the pandemic, demand began to rise slowly, while supply remains low.
@@ -165,7 +165,7 @@ By 2022, most of the world's organizations will reckon with their new reality: a
 >
 > Below is a thread about the future of remote work after the COVID-19 pandemic is over. I predict that remote will go through a trough of sorrow due to hybrid not working out, and most companies will return to being office based. But many all remote companies will see success.
 
-As this occurs, many organizations will ignore our [warnings](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds) on the pitfalls and nuanced difficulties in creating a thriving [hybrid-remote organization](hybrid-remote/), triggering an acute spike in demand for senior leadership who understand the mind of a remote worker and the [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) to convert remote work from a challenge to a strategic advantage. **In a high demand/low supply environment, remote work mastery will become a highly marketable skill**.
+As this occurs, many organizations will ignore our [warnings](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds/) on the pitfalls and nuanced difficulties in creating a thriving [hybrid-remote organization](hybrid-remote/), triggering an acute spike in demand for senior leadership who understand the mind of a remote worker and the [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) to convert remote work from a challenge to a strategic advantage. **In a high demand/low supply environment, remote work mastery will become a highly marketable skill**.
 
 Much like someone who is multilingual, an individual who has completed GitLab's [Remote Work Foundations certification](remote-certification/) and [Remote Team Management](https://www.coursera.org/learn/remote-team-management) course on Coursera will have an advantage when vying for new roles centered on remote work leadership. You will effectively speak a new and evolving business language which is critical to acquiring/retaining talent, creating workflows which are location agnostic, and building a culture which does not rely on a physical building to function.
 
@@ -176,9 +176,9 @@ While each organization will utilize a remote leader somewhat uniquely, below ar
 Study the links below. They point to various educational sections within the GitLab handbook which will equip you with knowledge to pass the aforementioned certifications.
 
 1. The ability to communicate with [low-context and high precision](effective-communication/#understanding-low-context-communication), particularly with the written word
-1. Deep empathy and an ability to relate to challenges from team members across the globe ([Manager of One]({{< ref "leadership#managers-of-one" >}}))
+1. Deep empathy and an ability to relate to challenges from team members across the globe ([Manager of One](/handbook/leadership/#managers-of-one))
 1. A default to servant leadership, capable of triaging and defining solutions from inbound feedback
-1. Expert storytelling skills to generate understanding and organizational buy-in for significant change management campaigns ([High Output Management]({{< ref "high-output-management" >}}))
+1. Expert storytelling skills to generate understanding and organizational buy-in for significant change management campaigns ([High Output Management](/handbook/leadership/high-output-management/))
 1. Organizational savvy and the ability to garner influence to positively impact the working lives of team members
 1. A native visionary and problem solver who seeks outside perspectives, tools, and workflows to continually evolve an organization's workplace design, culture, and strategy
 1. Propensity to form and foster interdepartmental relationships
@@ -233,7 +233,7 @@ T3 Advisors [reports](https://twitter.com/darrenmurph/status/1335296679617179651
 
 ### Initialized Capital
 
-Survey data analyzed by [Kim-Mai Cutler](https://twitter.com/kimmaicutler), a partner at Initialized Capital, shows a staggering shift to remote-first in an article entitled *[Post-Pandemic Silicon Valley Isn't A Place](https://blog.initialized.com/2021/01/data-post-pandemic-silicon-valley-isnt-a-place)*.
+Survey data analyzed by [Kim-Mai Cutler](https://twitter.com/kimmaicutler), a partner at Initialized Capital, shows a staggering shift to remote-first in an article entitled *[Post-Pandemic Silicon Valley Isn't A Place](https://blog.initialized.com/2021/01/data-post-pandemic-silicon-valley-isnt-a-place/)*.
 
 ![Initialized Capital 2020 location data](/images/all-remote/Initialized_2020_location_data.jpeg)
 {style="max-width: 50%;"}
@@ -263,32 +263,32 @@ The below is an inexhaustive list of news articles covering the growing movement
 1. The Australian: [Why hybrid workplaces bring a whole new set of challenges (reproduction)](https://twitter.com/darrenmurph/status/1358117706323656707)
 1. Forbes: [The Next In-Demand Job Title: Head Of The Future Of Work](https://www.forbes.com/sites/jenamcgregor/2022/01/18/the-next-in-demand-job-title-head-of-the-future-of-work/?sh=776b6d5160b8)
 1. Protocol: [Do you need to hire a 'head of remote?'](https://web.archive.org/web/20230327033654/https://www.protocol.com/workplace/head-of-remote-darren-murph)
-1. NPR Marketplace: [Why more companies are hiring heads of remote work](https://www.marketplace.org/2021/10/26/why-more-companies-are-hiring-heads-of-remote-work)
+1. NPR Marketplace: [Why more companies are hiring heads of remote work](https://www.marketplace.org/2021/10/26/why-more-companies-are-hiring-heads-of-remote-work/)
 1. Quartz: [Five telltale signs you need a 'chief remote officer'](https://qz.com/work/2167719/five-signs-your-company-needs-a-head-of-remote)
 1. The New York Times: ['Head of Team Anywhere,' and Other Job Titles for an Uncertain Time](https://www.nytimes.com/2022/08/04/business/job-titles-remote-work.html)
 1. Fast Company: [More companies are hiring a 'director of remote work'](https://www.fastcompany.com/90573992/more-companies-are-hiring-a-director-of-remote-work)
 1. San Francisco Chronicle: [Tech's hottest job title in 2021? 'Head of remote work'](https://www.sfchronicle.com/local/article/Meet-the-people-making-your-work-from-home-16044685.php#photo-20765212)
-1. Digiday: ['Change without story is a mandate, change with story is purpose': Why marketing and comms execs are being tapped for chief-of-remote roles](https://digiday.com/marketing/change-without-story-is-a-mandate-change-with-story-is-purpose-why-marketing-and-comms-execs-are-being-tapped-for-chief-of-remote-roles)
+1. Digiday: ['Change without story is a mandate, change with story is purpose': Why marketing and comms execs are being tapped for chief-of-remote roles](https://digiday.com/marketing/change-without-story-is-a-mandate-change-with-story-is-purpose-why-marketing-and-comms-execs-are-being-tapped-for-chief-of-remote-roles/)
 1. Washington Post: [Why 'head of remote' is likely to be a job title of the future](https://www.washingtonpost.com/business/2020/09/09/head-of-remote-work-jobs)
-1. The Chartered Institute of Marketing: [Is "head of remote" a marketer's next career choice?](https://www.cim.co.uk/content-hub/editorial/is-head-of-remote-a-marketer-s-next-career-choice)
+1. The Chartered Institute of Marketing: [Is "head of remote" a marketer's next career choice?](https://www.cim.co.uk/content-hub/editorial/is-head-of-remote-a-marketer-s-next-career-choice/)
 1. Crowe Global: [Exclusive Q&A With GitLab's Head Of Remote](https://www.crowe.com/global/insights/art-of-smart/exclusive-q-a-with-gitlab-head-of-remote)
 1. Ladders: [The dawn of the age of Chief Remote Work Officers](https://www.theladders.com/career-advice/the-dawn-of-the-age-of-chief-remote-work-officers)
 1. Fortune: [Why GitLab hired a 'head of remote' before the Coronavirus pandemic](https://fortune.com/2020/05/28/coronavirus-head-of-remote-work-from-home-gitlab-github-jobs)
-1. The Economist: [The three new executive roles that define 2020](https://applied.economist.com/articles/the-three-new-executive-roles-that-define-2020-fmoma)
-1. The Globe and Mail: [Chief remote working officers are now navigating organizations into a post-pandemic world](https://www.theglobeandmail.com/business/article-chief-remote-working-officers-are-now-navigating-organizations-into-a)
-1. SHRM: [Why You Need a Remote-Work Leader](https://www.shrm.org/hr-today/news/hr-news/pages/why-you-need-remote-work-leader.aspx)
-1. VentureBeat: [After embracing remote work in 2020, companies face conflicts making it permanent](https://venturebeat.com/2021/01/01/after-embracing-remote-work-in-2020-companies-face-conflicts-making-it-permanent)
+1. The Economist: [The three new executive roles that define 2020](https://web.archive.org/web/20210305123902/https://applied.economist.com/articles/the-three-new-executive-roles-that-define-2020-fmoma)
+1. The Globe and Mail: [Chief remote working officers are now navigating organizations into a post-pandemic world](https://www.theglobeandmail.com/business/article-chief-remote-working-officers-are-now-navigating-organizations-into-a/)
+1. SHRM: [Why You Need a Remote-Work Leader](https://www.shrm.org/topics-tools/news/need-remote-work-leader)
+1. VentureBeat: [After embracing remote work in 2020, companies face conflicts making it permanent](https://venturebeat.com/business/after-embracing-remote-work-in-2020-companies-face-conflicts-making-it-permanent/)
 1. The Australian: [Why hybrid workplaces bring a whole new set of challenges](https://www.theaustralian.com.au/business/the-deal-magazine/will-the-hybrid-workplace-be-a-risky-option-for-employers-postcovid/news-story/7841d04614fe688fb366eb2eb3272d70) (subscription required)
-1. LinkedIn Talent Blog: [Why You Need to Hire a Head of Remote Work — and What That Job Entails](https://business.linkedin.com/talent-solutions/blog/work-flexibility/2020/why-you-need-to-hire-a-head-of-remote-work)
+1. LinkedIn Talent Blog: [Why You Need to Hire a Head of Remote Work — and What That Job Entails](https://www.linkedin.com/business/talent/blog/talent-engagement/why-you-need-to-hire-head-of-remote-work)
 1. Reworked: [Is Now the Time to Invest in a Head of Remote Work?](https://www.reworked.co/leadership/is-now-the-time-to-invest-in-a-head-of-remote-work)
-1. Running Remote: [Is it time for your company to hire a Head of Remote?](https://runningremote.com/is-it-time-for-your-company-to-hire-a-head-of-remote)
+1. Running Remote: [Is it time for your company to hire a Head of Remote?](https://runningremote.com/is-it-time-for-your-company-to-hire-a-head-of-remote/)
 1. Zenefits: [Why Companies Are Hiring a Head of Remote Work (and Why You Should, Too)](https://web.archive.org/web/20230602020646/https://www.zenefits.com/workest/why-companies-are-hiring-a-head-of-remote-work-and-why-you-should-too/)
 1. Fast Company: [Why your business needs a Head of Remote](https://www.fastcompany.com/90715519/why-your-business-needs-a-head-of-remote)
 
 ## Contribute your lessons
 
-Making remote work well, particularly in companies with colocated roots, is a shared challenge. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+Making remote work well, particularly in companies with colocated roots, is a shared challenge. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

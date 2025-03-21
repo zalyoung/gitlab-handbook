@@ -98,6 +98,15 @@ If you have the memory to spare on your workstation, it will help your performac
 1. `Help menu -> Change Memory Settings`
 1. Change `Maximum heap size` to `12000` Mib, or whatever you think you can allocate without otherwise impacting system performance. On a maxed-out MacBook pro with 64G of memory, allocating 12G should be fine.
 
+## Open files in RubyMine from Terminal 
+
+This can be set up at the OS level so it works for all type of files. For example, to set up open all .rb files: 
+1, Open a `*.rb` file in `Finder` 
+2. Right click and select `Get Info`
+3, Expand `Open With`
+4. Select `RubyMine.app`
+5. Select `Change All...`
+
 ## Configuration
 
 ### UPDATE 2024-04
@@ -106,7 +115,7 @@ Jetbrains has pointed us to this issue to follow their progress on allowing team
 
 ### UPDATE 2023-12
 
-Based on demo previews, it looks like the new [Toolbox Enterprise](https://www.jetbrains.com/toolbox-enterprise/) features will finally provide a viable and easy way to share configuration across a team. Jetbrains has said that the features we need should be available sometime around mid-2024. However, the additional license cost of this may be prohibitive.
+Based on demo previews, it looks like the new [Toolbox Enterprise](https://www.jetbrains.com/ide-services/ide-provisioner/) features will finally provide a viable and easy way to share configuration across a team. Jetbrains has said that the features we need should be available sometime around mid-2024. However, the additional license cost of this may be prohibitive.
 
 ### UPDATE 2023-11
 
@@ -121,7 +130,7 @@ This is the current description of that issue:
 > This feature may be implemented along with making profiles for Settings Sync.
 
 On the [`#jetbrains-ide-users` internal Slack channel for GitLab team members](https://gitlab.slack.com/archives/CR08PTQ6T), JetBrains has indicated that:
-*"one of the possible solutions should be implemented in the scope of [Toolbox Enterprise](https://www.jetbrains.com/toolbox-enterprise/), but AFAIK, there is no ETA for now"*
+*"one of the possible solutions should be implemented in the scope of [Toolbox Enterprise](https://www.jetbrains.com/ide-services/ide-provisioner/), but AFAIK, there is no ETA for now"*
 
 *However, if you are only wanting to sync your own settings to a remote git repo and not necessarily share them, that's still possible.*
 

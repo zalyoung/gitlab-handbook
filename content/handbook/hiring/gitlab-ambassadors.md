@@ -8,7 +8,7 @@ description: "Keeping with our mission that everyone can contribute, we want all
 It's an exciting time to be part of the GitLab team. As we continue to grow, our goal is to create and foster a culture where our team members are comfortable and excited about the opportunity of being a GitLab talent ambassador.
 
 Whether you're a hiring manager or an individual contributor, you play an important role in this.
-Keeping in line with [our mission]({{< ref "mission#mission" >}}) that everyone can contribute, we want all GitLab team members to feel encouraged and equipped to take part in helping us find great talent and act as ambassadors for the company and our talent brand.
+Keeping in line with [our mission](/handbook/company/mission/#mission) that everyone can contribute, we want all GitLab team members to feel encouraged and equipped to take part in helping us find great talent and act as ambassadors for the company and our talent brand.
 
 Here are a few key things you can do to become a **talent ambassador for GitLab.**
 
@@ -52,7 +52,7 @@ Here are some steps you can take to get started optimizing your profile.
 
 - Videos about your team or life at GitLab
 - Blog posts
-- Your [README file]({{< ref "leadership#your-individual-readme" >}})
+- Your [README file](/handbook/leadership/#your-individual-readme)
 
 #### More training for rocking your profile on LinkedIn
 
@@ -64,7 +64,7 @@ Candidates will do their research in places far beyond our jobs site to find out
 
 We want to be sure we're telling an authentic story about life at GitLab, and one of the best ways to do that is through our team members.
 
-Once you've reviewed the [team member social media policy](/handbook/marketing/team-member-social-media-policy/), you'll find a library of suggested posts to share using our social media advocacy platform, [Bambu by Sprout](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-bambu).
+Once you've reviewed the [team member social media policy](/handbook/marketing/team-member-social-media-policy/), you'll find a library of suggested posts to share using our social media advocacy platform, [EveryoneSocial](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-everyonesocial).
 
 #### Being an advocate for our talent brand on social media
 
@@ -155,7 +155,7 @@ We want to hire the best candidate for the role and make sure that person will b
 
 Here's a [fact sheet](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/blob/master/Hiring_fact_sheet_-_2020-03.pdf) that can be used as a reference guide as you're having conversations with potential candidates.
 
-**Ready to make your first referral?** Check out [this guide.]({{< ref "referral-process" >}})
+**Ready to make your first referral?** Check out [this guide.](/handbook/hiring/referral-process/)
 
 ### 4. Get Involved
 

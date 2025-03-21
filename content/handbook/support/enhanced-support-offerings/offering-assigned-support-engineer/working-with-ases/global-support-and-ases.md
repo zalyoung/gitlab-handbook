@@ -14,7 +14,7 @@ information presented on this page.
 
 ### New non-emergency tickets
 
-For **many** ASE accounts, all new, non-emergency tickets 
+For **many** ASE accounts, all new, non-emergency tickets
 [are automatically assigned to their ASE](../ase-workflows-and-standards/customer-onboarding.html#auto-assign-the-customers-tickets).
 Check the org note that is automatically inserted into each ticket to determine
 whether tickets for that account are automatically assigned, and how you can

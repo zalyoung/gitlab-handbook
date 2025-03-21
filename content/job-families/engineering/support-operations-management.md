@@ -106,12 +106,12 @@ workflows through our applications:
 
 - Providing top tier support to the GitLab Support Engineering team
 - Driving the Support Operations
-  [mission](/handbook/support/support-ops/#mission) and
-  [vision](/handbook/support/support-ops/#vision)
+  [mission](/handbook/support/readiness/) and
+  [vision](/handbook/support/readiness/)
 - Maintenance of
-  [Support Operations documentation](/handbook/support/support-ops/documentation/)
+  [Support Operations documentation](/handbook/support/readiness/operations/docs/)
 - Adherence and improvement of
-  [Support Operations workflows](/handbook/support/support-ops/workflows/)
+  [Support Operations workflows](/handbook/support/readiness/operations/docs/)
 
 #### Span of Control
 
@@ -155,7 +155,7 @@ Be sure to use the same email address for both.
 GitLab Inc. is a company based on the GitLab open-source project. GitLab is a
 community project to which over 2,200 people worldwide have contributed. We are
 an active participant in this community, trying to serve its needs and lead by
-example. We have one [vision](https://about.gitlab.com/strategy): everyone can
+example. We have one [vision](/handbook/company/strategy/): everyone can
 contribute to all digital content, and our mission is to change all creative
 work from read-only to read-write so that everyone can contribute.
 

@@ -447,8 +447,8 @@ These are the recommended settings. Your mileage may vary.
    1. Check "Bounce Slack's icon when receiving a notification".
 1. Use your preference for the other settings. The "Channel-specific notifications" are particularly helpful to mute noisy channels that you don't need to be interrupted for.
 
-![screenshot of slack notification settings](notifications-slack-1.png)
-![screenshot of slack notification settings](notifications-slack-2.png)
+![screenshot of slack notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-slack-1.png)
+![screenshot of slack notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-slack-2.png)
 
 #### macOS Notifications
 
@@ -459,7 +459,7 @@ These are the recommended settings. Your mileage may vary.
 1. Enable "Play sound for notifications", particularly if you chose "Banners" above.
 1. Use your preference for the other settings.
 
-![screenshot of macOS notification settings](notifications-macos.png)
+![screenshot of macOS notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-macos.png)
 
 #### iOS Notifications
 
@@ -470,4 +470,4 @@ These are the recommended settings. Your mileage may vary.
 1. Enable "Sounds".
 1. Use your preference for the other settings.
 
-![screenshot of iOS notification settings](notifications-ios.png)
+![screenshot of iOS notification settings](/images/engineering/development/processes/infra-dev-escalation/process/notifications-ios.png)

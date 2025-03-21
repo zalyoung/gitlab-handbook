@@ -180,6 +180,26 @@ The Engineering Manager is responsible for clearing the path. They need to make 
 have the access to the right information, people, tools, and other resources to get the work done. They try to foresee
 problems and clear any blockers that may arise while the work is in progress.
 
+### Opening an Issue
+
+Within the Geo Team we utilize Issue Templates to create consistency in our Backlog to help us be more Efficient and deliver more Results.
+Using Issue Templates has been found to help the team in the following ways:
+
+1. Ensures an Issue has all the required information so that any contributor can pick up and start or join a conversation without any outside context.
+2. Empowers our Refinement Process to work more efficiently which results in higher Community Contributions and less SME reliance.
+3. Helps Issues stay relevant and not unintentionally sink to the bottom of our Backlog.
+
+We use the following Issue Templates:
+
+- [Bug (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Bug.md)
+  - Used as the template for Bugs and their investigation.
+- [Feature - lean (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md)
+  - Used as the template for larger Feature requests. These will often drive a conversation and ultimately be promoted to Epics with Implementation Issues being broken off into MVC changes.
+- [Implementation (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md)
+  - Used as the template to break down large Epics, organize MVC level changes, and assist in our Refinement Process.
+
+*Note: Many sections in a template should be treated as optional if there is no relevant information to be added.*
+
 ### Addressing new issues quickly
 
 When new issues arise (through testing, customer support issues, or other means) we still want to be able to address them
@@ -204,115 +224,23 @@ If an issue is assigned a weight of 10, then the issue is too big and will need 
 
 If any issue is weighted above a 3, we should ask ourselves if it can be further broken down. We should do this even if the issue was already broken out from an even larger issue.
 
-### Bugs Process
+### Backlog Refinement Process 
 
-Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo` and `~"type::bug"` will be triaged. These issues are represented at a high-level in the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712). The current high-level state of each issue is indicated by its [`workflow` label](/handbook/product-development-flow/).
+Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](../../../../product-development-flow).
 
-#### Bug Triage
+Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined. 
+Each week 3 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
 
-Triaging bugs is a team effort. Ultimately the process of triage is necessary to avoid the following problems:
+1. Refinement issue is created and assigned to engineers. It contains instructions for what to do with each issue and is the source of truth for this part of the process. The rest of the steps below are an overview.
+2. Phase 1: Engineers will select 1-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
+   1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification 
+   2. If the issue is a go, move to `~"workflow::refinement` for Phase 2
+3. Phase 2: Engineers will add an implementation guide, the right labels and weights for the issue. Once that is ready, move it to `~"workflow::ready for development` for the PM/EM to schedule.
+   1. For bug issues, the bug first needs to be reproduced as a part of the refinement process. If the bug issue isn't reproducible, the issue can be closed off. Bug issues also need to be assigned a priority/severity in addition to the regular labels. 
+   2. For features/maintenance issues, a timebox of 1 hour or so is expected per issue and for bugs this could take 2-3 hours as we need to reproduce it before adding implementation details 
+   3. Please also label as `~"Seeking Community contributions"` if an implementation guide has been added and weights are 1-3.
 
-- Bugs that are actually quite complex to address and the "bug" might be a symptom of a bigger architectural problem rather than a simple deficiency in existing functionality.
-- Bugs that are defined inconsistently and that are not easy to immediately comprehend.
-- Bugs that don't always have clear steps to reproduce the problem or clear "expected" outcomes or behaviours.
-- Some bugs can't be easily replicated because they require setting up complex configuration scenarios
-- Some bugs are not strictly bugs but rather investigations into customer-reported problems
-- Engineers struggle to tackle these kinds of large, ill-defined, or difficult-to-reproduce bugs along with the rest of their priorities in a given iteration
-
-The following process attempts to mitigate these issues and increase the efficiency of engineers working toward a resolution.
-
-The entire process is broken down into phases, where issues classified as bugs are reviewed by different stakeholders, labeled in specific ways to be classified, and moved through a workflow through their resolution.
-
-##### Phase 1: Screening
-
-This phase involves the initial review of newly created bugs to screen them for consistent formatting, labelling and prioritization.
-
-The initial screening should ensure all the necessary information about the nature of the problem, its severity, priority, how it can be reproduced and the expected result (i.e. success criteria) is defined before an engineer starts to look at it.
-
-The description for Bug issues should include the following key pieces of content:
-
-- Context: A short sentence that describes the context (systems, users, customers, conditions) under which the problem occurs.
-- Problem: A short sentence describing the problem
-- Steps to reproduce: A bullet list of step-by-step instructions to reproduce the problem
-- Expected result: What should happen when you follow the steps
-- Actual result: What currently happens when you follow the steps
-- Optionally, additional information: i.e. video, screenshots, error logs/logs etc.
-
-The group Product Manager (PM) is the DRI to do the initial screening soliciting support from the Engineering Manager when required. The PM and EM should make sure bugs are clear and completely defined, asking follow-up questions from authors of the bug issues before they are scheduled and moved ahead in the workflow.
-
-The PM should also make a determination if certain bugs should be immediately closed as "won't fix" for any reason. The PM should also stop "Bugs" that may actually be customer support requests and should be channelled to follow that process.
-
-The PM should use the [Triage Report](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Ageo&label_name%5B%5D=triage%20report&first_page_size=20) generated and sent through email as one of the sources of untriaged bugs that need screening. Another source is any bug with the `group::geo` tag that does not have a workflow label.
-
-Once a Bug is under screening, it can be labeled with `workflow::problem validation`. If during screening the DRI needs to ask for more information, the bug can be labeled with `awaiting feedback`
-
-Once the bug has passed screening it should be relabeled to `workflow::solution validation`.
-
-Bugs that have been screened should meet the following criteria:
-
-- labeled with: `group::geo`, and `workflow::solution validation`
-- A `severity` label has been set
-- The body of the issue is fully completed with the template information cited above
-- Should no longer have an `awaiting feedback` label
-
-Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
-
-##### Phase 2: Technical Assessment
-
-Bugs that have gone through screening can then be assessed by the engineer that has the bug-triage rotation for the month (see below for the rotation schedule). The goal of the assessment is to:
-
-- Go through the steps to reproduce the bug, and confirm that it is reproducible
-- Identify any workarounds and update the severity label accordingly
-- Devise a high-level possible resolution approach and identify the type of bug it is
-- Roughly estimate the effort for resolution by assigning a weight
-
-The backlog from where the DRI engineer works are all bugs labeled with `group::geo`, and `workflow::solution validation` and `type::bug` and are listed on this [Geo Bug Awaiting Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/7636877). These are the bugs that have gone through screening.
-
-When trying to reproduce, the engineer may recruit help from the QA stable counterpart if needed (e.g. to get help setting up a test framework and/or environment that meets the conditions to reproduce the problem).
-
-When in doubt about the resolution approach, the DRI engineer can ask for help from other engineers. If during the technical assessment, the DRI needs to ask for more information, the bug can be labeled with `awaiting feedback`
-
-Once the engineer has been able to reproduce and assigned a weight, the bug should be moved to `workflow::scheduling`
-
-Bugs that have been technically assessed should meet the following criteria:
-
-- labeled with: `group::geo`, and `workflow::scheduling`
-- A `bug::<subtype>` label has been assigned
-- The severity label has been updated (if necessary) according to workaround options found
-- Weight value has been assigned
-- A conversation thread comment posted with the possible workarounds
-- A conversation thread comment posted with the possible approach to resolution
-- Should no longer have an `awaiting feedback` label
-
-If after investing some time and reasonable effort the engineer is unable to reproduce the bug, the DRI engineer can work with the PM to close the issue with a note about the inability to reproduce.
-
-If the bug was triggered by a customer, the PM can then work with the customer to open a customer support request to investigate the problem in the context of the customer's own data and infrastructure. This investigation may lead to a new bug being opened with more specific and reliable reproduction steps.
-
-Refer to the [Geo Bug Awaiting Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/7636877).
-
-##### Phase 3: Scheduling
-
-The PM is the DRI for scheduling bugs that have already been technically assessed. There are two scheduling scenarios to be considered:
-
-1. Bug issues estimated at weight = 1 or 2. These may be added to the active Geo build board for asap execution. For this purpose, the bug can be labeled with `workflow::ready for development`. Engineers are then responsible to pick these up at their own discretion "in parallel" to their regular work during any given iteration. Engineers are expected to take at least one of these "small" bugs per iteration.
-
-2. Bugs weighted > 3. These should be treated as other feature work and prioritized in relation to other roadmap items. When the PM is ready to have these move ahead they can assign the labels `workflow::ready for development`. It will then wait for an engineer to finish their long-term assignments before they can shift their focus to one of them.
-
-In both of these instances, the PM must assign a `priority` label to the issue.
-
-For a bug to be ready for execution it must meet the following criteria:
-
-- Passed screening, technical assessment and scheduling phases
-  - Description is complete with all template sections filled out
-  - Validated that it is a bug and the PM agrees that it must be resolved
-  - The bug has been reproduced in staging or local development environment
-  - The possible resolution approach is understood
-  - An effort estimate has been provided
-  - Its severity and priority are understood
-- labeled with: `group::geo`, and `workflow::ready for development`
-- Labels for `severity` and `priority` have been set
-
-Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
+The refinement script can be found [here](https://gitlab.com/gitlab-org/geo-team/bots/-/tree/main/cmd/refinement?ref_type=heads)
 
 #### Engineering Customer/Support Rotation Process
 
@@ -324,30 +252,12 @@ Process summary:
 
 - Every week, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new support shift is starting for technical assessment triage.
 - Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
-- The DRI currently assigned to the rotation should then dedicate their week to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/geo-customers/-/issues/?label_name%5B%5D=support) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
+- The DRI currently assigned to the rotation should then dedicate their week to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGeo&first_page_size=100) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
   - Be first on point to triage questions in our [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel. Now that we have a slack workflow -> this should be taught/triggered per more complex questions and quickly answer anything that's short and sweet.
   - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow. One dev continuing to take ownership of an issue they started on is preferred over handing it over.
 - If the DRI is unable to perform an upcoming triage rotation shift due to any reason (e.g. PTO, sick leave, other responsibilities taking precedence), they are expected to swap their rotation with another team member or notify the EM to facilitate. Once the swap is identified, the schedule should be updated with via a MR.
 - The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5120) for example for the 2024 rotation similiar to the bug triage process.
 - The DRI should estimate the amount of time spent on support and track this via `Time Tracking` in each issue approximating to the hour how much they have spent on tickets and triaging. This is a new part of the process which is in a trial phase.
-
-#### Engineering Bug Triage Rotation Process
-
-Every two weeks, a Geo engineer is assigned to be the DRI for doing the technical assessment of bugs (see section above on Phase 2 of the triage process) and monitor staging ref for any pipeline failures and creating issues when those occur.
-
-A different backend engineer is assigned to triage rotation each two weeks and we schedule monthly shifts 3 to 6 months in advance.
-
-Process summary:
-
-- Every two weeks, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new shift is starting for technical assessment triage.
-- Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
-- The outgoing DRI should connect with the incoming DRI and transfer the knowledge of the current bug issues being triaged. Anything still `awaiting feedback` should be highlighted and discussed.
-  - The outgoing DRI should post a summary to the current year's Geo Bug Triage - Rotation discussion issue (i.e. [this one](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5066) for 2023).
-  - The summary should list the bugs that were triaged during the month with the corresponding outcome (i.e. either moved to `workflow::scheduling` or closed)
-  - The summary should highlight any triage bugs that are in transition and awaiting feedback with a knowledge transfer note indicating the work that has been done and the next steps.
-  - The DRI should also summarize whether there were any issues raised from staging-ref failures.
-- The DRI currently assigned to the rotation should then dedicate a portion of their week (4-6 hours) to review issues from the bug backlog as defined in the "Phase 2: Technical Assessment" section of the triage process described above.
-- If the DRI is unable to perform an upcoming triage rotation shift due to PTO, they are expected to find a backup or notify the EM to find a backup.
 
 ##### Schedules
 
@@ -359,7 +269,7 @@ Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wron
 
 At GitLab there is a general guideline to conduct [group retrospectives](/handbook/engineering/management/group-retrospectives/) and a process automation to run retrospectives [asynchronously](https://gitlab.com/gitlab-org/async-retrospectives). The Geo team however is working with a new process that combines elements of fully asynchronous work with the benefits of active conversation and the increased level of engagement that these types of interactions bring.
 
-The details of this process is documented in our [Geo Team Retrospectives](../retrospectives.html) page.
+The details of this process is documented in our [Geo Team Retrospectives](./retrospectives.md) page.
 
 ## FAQ
 

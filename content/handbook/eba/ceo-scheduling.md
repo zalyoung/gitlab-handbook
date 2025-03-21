@@ -5,22 +5,22 @@ title: "CEO Scheduling & Preferences"
 ## The CEO Support Team
 
 1. **Chief of Staff to the CEO**
-    1. Cross-functional and multi-functional projects
+   1. Cross-functional and multi-functional projects
 1. **EBA to the CEO**
-    1. Board Meetings
-    1. Board Member AMAs
-    1. CEO e-mail management
-    1. Preparing agendas and content for CEO's meetings
-    1. Triage #ceo slack channel
-    1. Coordinates the quarterly E-Group offsite and other social/team bonding events for the Executive team
-    1. Schedules internal and external meetings with CEO
-    1. Triage meeting requests in #eba-team
-    1. Expense Reports for the CEO
-    1. Total travel coordination for the CEO
-    1. Live-streaming meetings on behalf of the CEO. For instance: CEO AMA
-    1. Ad-hoc requests from the CEO
+   1. Board Meetings
+   1. Board Member AMAs
+   1. CEO e-mail management
+   1. Preparing agendas and content for CEO's meetings
+   1. Triage #ceo slack channel
+   1. Coordinates the quarterly E-Group offsite and other social/team bonding events for the Executive team
+   1. Schedules internal and external meetings with CEO
+   1. Triage meeting requests in #eba-team
+   1. Expense Reports for the CEO
+   1. Total travel coordination for the CEO
+   1. Live-streaming meetings on behalf of the CEO. For instance: CEO AMA
+   1. Ad-hoc requests from the CEO
 1. **Sr. Executive Communications Manager, CEO**
-   1. Vetting, preparing content, briefing and supporting the CEO for external speaking enagements
+1. Vetting, preparing content, briefing and supporting the CEO for external speaking engagements
 
 ### How to request a meeting with CEO?
 
@@ -42,14 +42,14 @@ For all external parties meeting with CEO (both video call and in-person), the E
 GitLab is a very transparent company and materials that are normally confidential can be found online, please consider looking at the following Handbook links prior to your meeting with GitLab:
 
 Company strategy: https://about.gitlab.com/company/strategy/
-Our Objectives and Key Results per quarter: https://about.gitlab.com/company/okrs/
+Our Objectives and Key Results per quarter: https://handbook.gitlab.com/handbook/company/okrs/
 All team members and numbers per department: https://about.gitlab.com/company/team/
 Handbook with all our processes in: /handbook/
 Pricing plans: https://about.gitlab.com/pricing/
 Pricing strategy: /company/pricing/
 History: https://about.gitlab.com/company/history/
 About: https://about.gitlab.com/company/
-All Remote: https://about.gitlab.com/company/culture/all-remote/
+All Remote: https://handbook.gitlab.com/handbook/company/culture/all-remote/
 GitLab Unfiltered on YouTube https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos
 ```
 
@@ -119,11 +119,11 @@ Please note, requests for meeting about remote work, all-remote efforts, distrib
 
 ### Scheduling Pick Your Brain meetings
 
-1. Once Pick Your Brain meetings are confirmed, schedule a Zoom Webinar and send out a calendar invite to all guests and make sure to add a separate calendar invite for the CEO with preparation time. [Scheduling a Zoom webinar](https://support.zoom.us/hc/en-us/articles/115000350446-Streaming-a-Webinar-on-YouTube-Live)
+1. Once Pick Your Brain meetings are confirmed, schedule a Zoom Webinar and send out a calendar invite to all guests and make sure to add a separate calendar invite for the CEO with preparation time. [Scheduling a Zoom webinar](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060481)
 1. Link the document that the external guest has provided to the calendar invite and ensure it also includes:
-    - Who the PYB Meeting is with, Name, Title, Company and their LinkedIn Profile (if applicable)
-    - Context: Where did the request originate from (email, text, twitter), what's the source?
-    - Subject: One Sentence for the PYB Meeting
+   - Who the PYB Meeting is with, Name, Title, Company and their LinkedIn Profile (if applicable)
+   - Context: Where did the request originate from (email, text, twitter), what's the source?
+   - Subject: One Sentence for the PYB Meeting
 
 ## CEO Preferences
 

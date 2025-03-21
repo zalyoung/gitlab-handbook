@@ -49,7 +49,7 @@ Please note that even if there is not a sales related opportunity on an account,
 
 ### Lead routing
 
-GitLab does not currently have routing in place for leads related to Community Programs. If you are routed a lead that has contacted GitLab about a Community Program, please reply directly to the lead with the appropriate response whenever possible. Consider using one of [Community Programs' email templates](/handbook/marketing/developer-relations/community-programs/community-program-applications/email-and-zendesk-macros/#zendesk-macros-and-email-templates) to structure correspondence. Replying directly provides the optimal experience for the wider community member and the most efficient path for everyone.
+GitLab does not currently have routing in place for leads related to Community Programs. If you are routed a lead that has contacted GitLab about a Community Program, please reply directly to the lead with the appropriate response whenever possible. Consider using one of [Community Programs' email templates](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/) to structure correspondence. Replying directly provides the optimal experience for the wider community member and the most efficient path for everyone.
 
 Please use the [lead routing workflow](/handbook/marketing/developer-relations/community-programs/#inbound-sales-requests-routing-workflows) to determine the best course of action.
 
@@ -85,7 +85,7 @@ Important points:
 
 ### Booking
 
-After successful verification, program members receive a coupon code, which members then use in the Community Programs self-checkout portal on CustomerDOT to obtain their subscription license or renew. Additional details are in the [Booking](/handbook/marketing/developer-relations/community-programs/community-program-applications/) section of the Community Programs handbook page.
+After successful verification, program members receive a coupon code, which members then use in the Community Programs self-checkout portal on CustomerDOT to obtain their subscription license or renew. Additional details are in the [Booking](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/) section of the Community Programs handbook page.
 
 Add-ons or license-type changes cannot be made on through self-service. Program members need to [email the corresponding program](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) with the request.
 
@@ -127,6 +127,6 @@ You can engage with our team asynchronously by:
 
 - Using our Slack channel, `#community-programs`
 - Tagging us in account-related conversations on Salesforce
-- Using our Slack channel, `#gitlab-for-campuses` for questions regarding the [GitLab for Campuses](/handbook/product/packaging-and-pricing/gitlab-for-campuses/) paid offering.
+- Using our Slack channel, `#gitlab-for-campuses` for questions regarding the [GitLab for Campuses](/handbook/marketing/developer-relations/community-programs/education-program/gitlab-for-campuses/) paid offering.
 
 We are also happy to meet with you for synchronous coffee chats or join you for meetings with customers.

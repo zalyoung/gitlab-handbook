@@ -9,7 +9,7 @@ Internships are a great way for a GitLab team member to learn about being a Cust
 
 ## How to find a mentor in the CSM team
 
-The first step you will need to take in order to start an internship in Customer Success is to find a mentor from the [CSM team](/company/team/?department=csm). Feel free to reach out to any CSMs, particularly ones who are in a similar timezone to you to discuss an internship, or to reach out to a CSM Manager for guidance.
+The first step you will need to take in order to start an internship in Customer Success is to find a mentor from the [CSM team](/handbook/company/team/?department=csm). Feel free to reach out to any CSMs, particularly ones who are in a similar timezone to you to discuss an internship, or to reach out to a CSM Manager for guidance.
 
 If you're not sure who to reach out to, you can also post in the [#customer-success](https://gitlab.enterprise.slack.com/archives/C5D346V08) Slack channel and express your interest in an internship and that you are looking for a mentor.
 
@@ -56,9 +56,9 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
    1. [What is Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
-   1. [Start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
+   1. [Start using Git on the command line](https://docs.gitlab.com/ee/topics/git/commands.html)
    1. [Learn Git Branching](https://learngitbranching.js.org/)
-   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/))
+   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)/)
 
 #### Week 2
 

@@ -27,7 +27,7 @@ The GitLab Product team includes team members at various levels of [Product Mana
 
 ### Responsibilities
 
-Your job as a PM is outlined in [Product Manager Responsibilities](/handbook/product/product-manager-responsibilities/)
+Your job as a PM is outlined in [Product Manager Responsibilities](/handbook/product/product-management/product-cdf-competencies/)
 
 ### Getting started as a PM at GitLab
 
@@ -35,7 +35,7 @@ The first thing to do is to familiarize yourself with the following handbook pag
 
 * [Product Principles](/handbook/product/product-principles/)
 * [Product Processes](/handbook/product/product-processes/)
-* [Product Manager Responsibilities](/handbook/product/product-manager-responsibilities/)
+* [Product Manager Responsibilities](/handbook/product/product-management/product-cdf-competencies/)
 * [Product Manager Career Development Framework](/handbook/product/product-management/product-cdf-competencies/)
 * [Product Development Flow](/handbook/product-development-flow/)
 * [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
@@ -84,7 +84,7 @@ As product managers progress in their product career, we encourage our product m
 The progression of responsibilities allocation between tactical, operational and strategic in product roles
 is well illustrated by this chart.
 
-![GitLab PM Responsibility Allocation Chart](/handbook/product/pm-allocation.png)
+![GitLab PM Responsibility Allocation Chart](/images/product/pm-allocation.png)
 
 _[Source File](https://docs.google.com/spreadsheets/d/19gAgPJVdXfBpXiFOlT1WqZLJB_eFU7W7slmAzodEuDM/edit#gid=1012729771). Note - Thanks to [Melissa Perri](https://twitter.com/lissijean/) for the inspiration_
 

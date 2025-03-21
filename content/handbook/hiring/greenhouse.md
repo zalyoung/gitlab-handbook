@@ -73,7 +73,7 @@ In order to help remove bias, Interviewers (unlike Hiring Managers) are **not** 
 
 #### Interview notifications
 
-You can set up reminders in Greenhouse by going to your [account settings](https://app2.greenhouse.io/myinfo) and turning on `Daily interview reminder email` which will email you each morning with a list of your interviews for the day. You can also [connect your Slack account](https://support.greenhouse.io/hc/en-us/articles/207344866-I-use-Slack-How-do-I-set-up-the-integration-to-receive-notifications-directly-in-Slack-) to your Greenhouse account and receive reminders after the interview is over if your scorecard is still due, as well as other notifications depending on your settings.
+You can set up reminders in Greenhouse by going to your [account settings](https://app2.greenhouse.io/myinfo) and turning on `Daily interview reminder email` which will email you each morning with a list of your interviews for the day. You can also [connect your Slack account](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack-integration) to your Greenhouse account and receive reminders after the interview is over if your scorecard is still due, as well as other notifications depending on your settings.
 
 You can also set up notifications to be delivered to your Slack by clicking on your name > `account settings`. From there, connect your Slack account and set @mentions as well as any job-specific notifications.
 
@@ -81,11 +81,11 @@ You can also set up notifications to be delivered to your Slack by clicking on y
 
 Since we have a great pool of talent within our ATS, Greenhouse enables the Hiring Teams to search for specific attributes of candidates. To search for keywords, go to the candidates tab at the top of the Greenhouse website, use the search bar on the lefthand sidebar to input your keywords, and enable to option `Full Text Search`.
 
-A popular method of searching is [with boolean queries](https://support.greenhouse.io/hc/en-us/articles/202360199-Search-Candidates-Using-Boolean-Queries-), which allow you to combine keywords or phrases to get more relevant results. For example, `engineer AND "ruby on rails"`. All fields in a candidate resume, application, forms are searchable. You're also able to sort candidates via defined filters in the sidebar.
+A popular method of searching is [with boolean queries](https://support.greenhouse.io/hc/en-us/articles/202360199-Search-candidates-using-Boolean-queries), which allow you to combine keywords or phrases to get more relevant results. For example, `engineer AND "ruby on rails"`. All fields in a candidate resume, application, forms are searchable. You're also able to sort candidates via defined filters in the sidebar.
 
 ### Email syncing
 
-All email communication with candidates must be kept in Greenhouse. Only Job Admins (Hiring Managers, Executives, and People Success) are able to email candidates from Greenhouse. If you are **not** a Job Admin and want to email your candidate, please reach out to your Recruiter. In order to ensure that the candidate's responses are also kept in Greenhouse, you have two options (there is no automatic sync). The first option is to use a [Google Add-on "Greenhouse for Gmail"](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-for-Gmail-Google-Add-on-) which will allow you to sync any emails you receive from within your gmail inbox. The second option is to either bcc your outgoing email or forward your received email to `maildrop@ivy.greenhouse.io`.
+All email communication with candidates must be kept in Greenhouse. Only Job Admins (Hiring Managers, Executives, and People Success) are able to email candidates from Greenhouse. If you are **not** a Job Admin and want to email your candidate, please reach out to your Recruiter. In order to ensure that the candidate's responses are also kept in Greenhouse, you have two options (there is no automatic sync). The first option is to use a [Google Add-on "Greenhouse for Gmail"](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on) which will allow you to sync any emails you receive from within your gmail inbox. The second option is to either bcc your outgoing email or forward your received email to `maildrop@ivy.greenhouse.io`.
 
 ### Leaving notes
 
@@ -117,11 +117,11 @@ As a non-talent acquisition team member, you would need to be added as a `Pool A
 
 ### Configuring notifications
 
-Notifications are configured as part of the [requisition creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#requisition-creation-process) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove yourself for that section.
+Notifications are configured as part of the [requisition creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove yourself for that section.
 
 ### Reporting
 
-Hiring Managers have the ability to quickly view and pull reports for their vacancies. To do so, go to the job dashboard of the requisition you want to report on, then click `Reports`. From there, it will show you a variety of different reports you can pull depending on what you're looking for, and each one will dynamically show you the report which you are able to use some filters on. You're also able to [save reports](https://support.greenhouse.io/hc/en-us/articles/115003218066-Saved-Reports) to come back to them later, [share a report via email](https://support.greenhouse.io/hc/en-us/articles/115003338503-Email-a-Report) to [set up recurring reports](https://support.greenhouse.io/hc/en-us/articles/115003711906-Schedule-Recurring-Reports) to have reports emailed to you or someone else on a weekly basis, and to download the report as an excel file for easy sharing through Google Sheets.
+Hiring Managers have the ability to quickly view and pull reports for their vacancies. To do so, go to the job dashboard of the requisition you want to report on, then click `Reports`. From there, it will show you a variety of different reports you can pull depending on what you're looking for, and each one will dynamically show you the report which you are able to use some filters on. You're also able to [save reports](https://support.greenhouse.io/hc/en-us/articles/115003218066-Save-a-report) to come back to them later, [share a report via email](https://support.greenhouse.io/hc/en-us/articles/115003338503-Email-a-report) to [set up recurring reports](https://support.greenhouse.io/hc/en-us/articles/115003711906-Schedule-recurring-report) to have reports emailed to you or someone else on a weekly basis, and to download the report as an excel file for easy sharing through Google Sheets.
 
 ### Setting Up Interview Questions
 
@@ -159,11 +159,11 @@ There are additional "User-Specific Permissions" listed beneath the job-based pe
 
 #### Adding an Agency Recruiter to Greenhouse
 
-To add an agency recruiter to Greenhouse and their agency doesn't exist, then a [new agency](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-New-Agency) will need to be created. If the agency does exist, this is how to add a [new recruiter](https://support.greenhouse.io/hc/en-us/articles/200666389). Please contact Enablement to add the Recruiter to Greenhouse.
+To add an agency recruiter to Greenhouse and their agency doesn't exist, then a [new agency](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-new-agency) will need to be created. If the agency does exist, this is how to add a [new recruiter](https://support.greenhouse.io/hc/en-us/articles/200666389-Invite-an-agency-recruiter-to-submit-candidates). Please contact Enablement to add the Recruiter to Greenhouse.
 
 #### Linking users to their profiles
 
-All hired candidates are marked as private when they are hired. Meanwhile, all Site Admins, Job Admins: Talent Acquisition, and Job Admins: People Success have access to view private candidates. As a result, any new team members who fall into one of those permission levels needs to have their Greenhouse user account linked to their candidate profile. Please note **only** Site Admins can link a user to a candidate profile. To do so, go to [settings](https://app2.greenhouse.io/configure), click on [users](https://app2.greenhouse.io/account/users?status=active), search for the team member in the search bar, click on their name, click `Link to Candidate`, then search for the team member's name again, and click `Link` on the appropriate profile, then scroll to the bottom and click `Save`. You can also follow [the instructions](https://support.greenhouse.io/hc/en-us/articles/360020922752-Link-User-Account-to-Candidate-Profile-) which include screenshots on Greenhouse's website.
+All hired candidates are marked as private when they are hired. Meanwhile, all Site Admins, Job Admins: Talent Acquisition, and Job Admins: People Success have access to view private candidates. As a result, any new team members who fall into one of those permission levels needs to have their Greenhouse user account linked to their candidate profile. Please note **only** Site Admins can link a user to a candidate profile. To do so, go to [settings](https://app2.greenhouse.io/configure), click on [users](https://app2.greenhouse.io/account/users?status=active), search for the team member in the search bar, click on their name, click `Link to Candidate`, then search for the team member's name again, and click `Link` on the appropriate profile, then scroll to the bottom and click `Save`. You can also follow [the instructions](https://support.greenhouse.io/hc/en-us/articles/360020922752-Link-a-user-account-to-a-candidate-profile) which include screenshots on Greenhouse's website.
 
 Any internal candidate who applies to a requisition via the internal job board will automatically have their user profile and candidate profile linked.
 
@@ -190,7 +190,7 @@ To add your email to your LinkedIn profile, click `Me` > `Settings & Privacy` > 
 
 ### Configuring notifications
 
-Notifications are configured as part of the [requisition creation process]({{< ref "req-creation#requisition-creation-process" >}}) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove people for that section.
+Notifications are configured as part of the [requisition creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove people for that section.
 
 It is recommended for the Recruiter of a requisition to set up notifications for themselves regarding new internal applicants, new referrals, new agency submissions, approved to start talent acquisition, offer fully approved, stage transitions, and new scorecards. Best practice is to use the name of the person to be notified rather than `Candidate's Recruiter` or `Candidate's Coordinator`.
 
@@ -230,7 +230,7 @@ Here's how to see if it's been sent and, if applicable, how to send it:
 
 ### Scheduling interviews with Greenhouse
 
-The [Candidate Experience Specialist team]({{< ref "coordinator#framework-coord" >}}) handles all interview scheduling once a candidate has passed the "screening" stage.
+The [Candidate Experience Specialist team](/handbook/hiring/talent-acquisition-framework/coordinator/) handles all interview scheduling once a candidate has passed the "screening" stage.
 
 #### Important scheduling and interview notes
 
@@ -266,7 +266,7 @@ The candidate should always be notified if they've been rejected. The talent acq
 |Assessment|Within 5 days of Asessment Submission|Email |Standard Template by default, may provide specific feedback, but not required|
 |Team Interview|Within 5 days of Team Interview|Email or via Zoom Call |Must provide feedback that is personalized and customized.  Only offer frank feedback. This is hard, but it is part of our [company values](/handbook/values/). All feedback should be constructive and said in a positive manner. Keep it short and sweet.  Feedback should always be applicable to the skill set and job requirements of the position the candidate applied and interviewed for.|
 
-Any time a candidate is rejected, the Talent Acquisition Team will notify them, as they will not automatically be notified if we reject them. When clicking the reject button on a candidate, Greenhouse will open a pop up where you can choose the appropriate rejection reason, as well as a rejection email template. Feel free to adjust the template per the [guidelines in the handbook]({{< ref "interviewing#rejecting-candidates" >}}). You can also select a time delay to send out the rejection email. Finally, you are also able to start a new prospect process for a candidate when rejecting them, in the event you want to reach out to them again in the future.
+Any time a candidate is rejected, the Talent Acquisition Team will notify them, as they will not automatically be notified if we reject them. When clicking the reject button on a candidate, Greenhouse will open a pop up where you can choose the appropriate rejection reason, as well as a rejection email template. Feel free to adjust the template per the [guidelines in the handbook](/handbook/hiring/#interview-stages). You can also select a time delay to send out the rejection email. Finally, you are also able to start a new prospect process for a candidate when rejecting them, in the event you want to reach out to them again in the future.
 
 In Greenhouse, we have compiled a list of reasons for candidate declines or rejections that will allow us to continuously iterate on and improve our hiring process.  Please choose your reasons thoughtfully with this goal in mind, and provide as much detail as possible in the notes--particularly when candidates have reached the offer stage.
 
@@ -315,13 +315,13 @@ To ensure a best-in-class candidate experience with up-to-date branding and comm
 If you have specific roles, regions, or processes that you would like to create personalized templates for that are only visible and accessible by you, click "+ New" to the right of "My Templates" and follow the below steps:
 
 - Add a name for your template that will allow you and your team to recognize what the template is for. Try to keep the name as consistent as possible with other templates (e.g. rejection emails all begin with `Reject` and then the reason why, such as `Reject after no show`).
-- You will need to select an email type, which categorizes the emails so that they appear as options when they are relevant (e.g. so that a interview availability request does not populate when you are trying to reject a candidate). Please review the [available email types and when each appears on Greenhouse's support page](https://support.greenhouse.io/hc/en-us/articles/115002573326-Email-Template-Types).
+- You will need to select an email type, which categorizes the emails so that they appear as options when they are relevant (e.g. so that a interview availability request does not populate when you are trying to reject a candidate). Please review the [available email types and when each appears on Greenhouse's support page](https://support.greenhouse.io/hc/en-us/articles/115002573326-Email-template-types).
 - You can add an optional description, but it is typically not needed due to the descriptive template name.
 - You can choose to have the email sent from the sender's email address, the talent acquisition distribution email address, or the no-reply email address, depending on the nature of the email.
 - You can opt to cc specific GitLab team-members and/or the specific recruiter/coordinator for the role that the candidate you are communicating with is in process for.
 - Next, create a subject for the email. You can include tokens (elaborated below) in the subject line in order to customize the subject with the candidate's name, requisition, etc.
 - You can also include attachments to the email.
-- Next, you will see in a blue box the various tokens that are able to be included in your email template. These will vary based on the email type and the available tokens will show up as options when you are creating/editing a template. You can also review the [token glossary](https://support.greenhouse.io/hc/en-us/articles/360007039771-Token-Glossary) to understand what each token means.
+- Next, you will see in a blue box the various tokens that are able to be included in your email template. These will vary based on the email type and the available tokens will show up as options when you are creating/editing a template. You can also review the [token glossary](https://support.greenhouse.io/hc/en-us/articles/360007039771-Token-glossary) to understand what each token means.
 - Finally, you will type out the body of your email template, including tokens and formatting as needed.
 - Click save, and your template is ready to be used!
 
@@ -382,9 +382,9 @@ The Greenhouse CRM is the entry point for prospective candidates (a.k.a. *Prospe
 
 #### CRM Resources
 
-- [CRM Overview](https://support.greenhouse.io/hc/en-us/articles/360022793612-CRM-Overview)
-- [CRM License Functionality](https://support.greenhouse.io/hc/en-us/articles/360014882832-Greenhouse-CRM-License-Functionality-Grid)
-- [Leveraging Greenhouse CRM (Webinar)](https://support.greenhouse.io/hc/en-us/articles/360027741072)
+- [CRM Overview](https://support.greenhouse.io/hc/en-us/articles/360022793612-CRM-overview)
+- [CRM License Functionality](https://support.greenhouse.io/hc/en-us/articles/360014882832-Greenhouse-CRM-license-functionality-grid-legacy)
+- [Leveraging Greenhouse CRM (Webinar)](https://support.greenhouse.io/hc/en-us/articles/360027741072-Leveraging-Greenhouse-CRM)
 - [Greenhouse Recruiting Chrome Extension](https://chrome.google.com/webstore/detail/greenhouse-recruiting-chr/naooopefdfeangnkgmjpklgblnfmbaea)
 
 #### High-Level Workflow

@@ -152,13 +152,13 @@ Teams to follow up with manually for additional enrollments:
 
 - [Secure Ruby on Rails with Jim Manico](#secure-coding-training-with-jim-manico) (Recommended)
 - [OWASP Secure Coding in Go](https://github.com/OWASP/Go-SCP/blob/master/dist/go-webapp-scp.pdf) (Recommended)
-- [Checkmarx Secure Coding in Javascript](https://checkmarx.gitbooks.io/js-scp/) (Recommended)
+- [Checkmarx Secure Coding in Javascript](https://checkmarx.gitbooks.io/js-scp/content/) (Recommended)
 
 ### Other Guidelines and Resources
 
 - [OWASP Top 10 2017](https://owasp.org/www-project-top-ten/) (Optional)
-- [OWASP API Security Top 10](https://apisecurity.io/encyclopedia/content/owasp/owasp-api-security-top-10.htm) (Optional)
-- [OWASP Serverless Top 10](https://github.com/OWASP/Serverless-Top-10-Project/raw/master/OWASP-Top-10-Serverless-Interpretation-en.pdf) (Optional)
+- [OWASP API Security Top 10](https://apisecurity.io/owasp-api-security-top-10/) (Optional)
+- [OWASP Serverless Top 10](https://raw.githubusercontent.com/OWASP/Serverless-Top-10-Project/master/OWASP-Top-10-Serverless-Interpretation-en.pdf) (Optional)
 - [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) (Optional)
 
 ## Secure Coding Training with Jim Manico

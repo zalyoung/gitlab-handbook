@@ -118,10 +118,10 @@ The Staff Marketing Campaign Manager is a [grade 8](/handbook/total-rewards/comp
 #### Staff Marketing Campaign Manager Requirements
 
 - Extends that of the Senior Marketing Campaign Manager requirements
-- [Marketo certified expert](https://au.marketo.com/education/marketo-certification/)
+- [Marketo certified expert](https://learning.adobe.com/certification.html)
 - Certified in [LinkedIn Fundamentals](https://training.marketing.linkedin.com/page/certifications)
 - Certified in [Mastering demand & ABM by Forrester](https://www.forrester.com/certification/b2b-marketing/)
-- Certified in [Demandbase foundations](https://www.demandbase.com/resources/go-to-market-certification/)
+- Certified in [Demandbase foundations](https://www.demandbase.com/resources/abm-certification/)
 
 ### Manager, Marketing Campaigns
 

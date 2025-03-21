@@ -106,7 +106,7 @@ Gainsight Timeline also displays the following Salesforce activities. While thes
 ### Limitations
 
 - Any Salesforce activity that does **not** have any content in the description
-  - Example: a call with a subject and no body will [fail to sync](https://support.gainsight.com/Gainsight_NXT/Timeline/02Admin_Guides/Integrate_Salesforce_Activities_in_Gainsight_Timeline#Limitations)
+  - Example: a call with a subject and no body will [fail to sync](https://support.gainsight.com/gainsight_nxt/Timeline/02Admin_Guides/Integrate_Salesforce_Activities_in_Gainsight_Timeline#Limitations)
 
 ## BCCing Emails
 

@@ -37,7 +37,7 @@ Conferences are a great place to learn about the latest innovations. Attending t
 
 **Conferences for Frontend Engineers**
 
-* [Web Directions Topic](https://www.webdirections.org/)
+* [Web Directions Topic](https://webdirections.org/)
 
 **Conferences for Backend Engineers**
 
@@ -46,7 +46,7 @@ Conferences are a great place to learn about the latest innovations. Attending t
 
 **GraphQL**
 
-* [GraphQL Summit](https://summit.graphql.com/)
+* [GraphQL Summit](https://www.apollographql.com/events/series/graphql-summit-2024)
 
 ## What are some benefits to presenting at conferences?
 
@@ -56,7 +56,7 @@ On top of all benefits of attending the conference mentioned above, when speakin
 * Bolster your personal brand and spread the word about GitLab
 * Improve your public speaking and communication skills
 
-For more information on speaking at conferences, check out the [Speaking Resources](/handbook/marketing/corporate-communications/speaking-resources/) and [Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/) handbook pages.
+For more information on speaking at conferences, check out the [Developer Advocacy CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps/) handbook.
 
 ## How do I go about requesting permission to attend a conference?
 

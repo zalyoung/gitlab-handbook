@@ -8,7 +8,7 @@ title: "Self-Service Data"
 
 `This page contains forward-looking content and may not accurately reflect current-state or planned feature sets or capabilities.`
 
-[Data Democratization](https://www.alation.com/what-is-data-democratization/) is a common goal for Data Teams and can be difficult to achieve given the [variety, volume, velocity, and veracity](https://opensistemas.com/en/the-four-vs-of-big-data/) of data to manage. Ultimately, all effective data democratization solutions must focus on the Data Customer and provide solutions that make data easy to find, easy to understand, and actionable:
+[Data Democratization](https://www.alation.com/blog/what-is-data-democratization/) is a common goal for Data Teams and can be difficult to achieve given the [variety, volume, velocity, and veracity](https://opensistemas.com/en/the-four-vs-of-big-data/) of data to manage. Ultimately, all effective data democratization solutions must focus on the Data Customer and provide solutions that make data easy to find, easy to understand, and actionable:
 
 - *easy to find*: Data Customers must be able to easily find data relevant to them
 - *easy to understand*: Data must be labeled and organized in a consistent way using business-friendly terms and concepts
@@ -60,7 +60,7 @@ graph LR
 | Access Pre-Built Sisense Dashboards                                                      |                                                     Yes                                                    |                                                        Yes                                                       |                                                  Yes                                                 |
 | Build New Sisense Dashboards                                                             |                                                     No                                                     |                                                        Yes                                                       |                                                  No                                                  |
 | Write SQL to Explore Data                                                                |                                                     No                                                     |                                                        No                                                        |                                                  Yes                                                 |
-| Requires [Certification](https://about.gitlab.com/learn/certifications/public/) |                                                     No                                                     |                                                        Yes                                                       |                                                  Yes                                                 |
+| Requires [Certification](https://university.gitlab.com/certifications/public/) |                                                     No                                                     |                                                        Yes                                                       |                                                  Yes                                                 |
 
 ![Self-Service-Data](/images/enterprise-data/direction/self-service/self_service_data.png)
 
@@ -110,7 +110,7 @@ Prerequisites:
 - [ ] Ability to read [data models](https://www.lucidchart.com/pages/er-diagrams)
 - [ ] Prior experience developing reports and chart [data visualizations](https://datavizcatalogue.com/index.html)
 - [ ] [Review Tableau Handbook Page](/handbook/enterprise-data/platform/tableau/)
-- [ ] Pass a [Self-Service Dashboard Developer Knowledge Assessment](https://about.gitlab.com/learn/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
+- [ ] Pass a [Self-Service Dashboard Developer Knowledge Assessment](https://university.gitlab.com/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
 
 Access Requests:
 
@@ -125,10 +125,10 @@ Self-Service SQL Developer provides Certified GitLab team members a SQL prompt i
 Prerequisites:
 
 - [ ] [Intermediate SQL](https://softwareengineering.stackexchange.com/questions/181651/are-these-sql-concepts-for-beginners-intermediate-or-advanced-developers)
-- [ ] Ability to navigate a [data dictionary](https://docs.snowflake.com/en/sql-reference/info-schema.html)
+- [ ] Ability to navigate a [data dictionary](https://docs.snowflake.com/en/sql-reference/info-schema)
 - [ ] Ability to read [data models](https://www.lucidchart.com/pages/er-diagrams) to write SQL
 - [ ] Adhere to the [Data Team SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
-- [ ] Pass a [Self-Service SQL Developer Knowledge Assessment](https://about.gitlab.com/learn/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
+- [ ] Pass a [Self-Service SQL Developer Knowledge Assessment](https://university.gitlab.com/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
 
 Access Requests:
 

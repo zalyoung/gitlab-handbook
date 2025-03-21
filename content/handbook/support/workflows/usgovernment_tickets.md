@@ -151,3 +151,35 @@ The following will describe how to create the personal view to list cases in Glo
     - `Request date`
 1. Group by: `Priority` - Descending
 1. Order by: `SLA` - Ascending
+
+## GitLab Dedicated for Government
+
+### High-Level Notes
+
+1. Don't panic.
+1. **Application or infrastructure**? In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. Use the [logs](/handbook/support/workflows/dedicated_logs/) and [observability metrics](/handbook/support/workflows/dedicated_instance_health) to guide you.
+
+#### Getting Help
+
+| What | Useful for |
+| ------ | ------ |
+| [GitLab Dedicated Overview](/handbook/support/workflows/dedicated/) | A good place to start for basic questions |
+| [Troubleshooting Tables](/handbook/support/workflows/saas_sm_cheatsheet/) | Understanding "what's different?" about GitLab Dedicated |
+| Open an [RFH](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team) on `CompSecGov` | Requesting [configuration changes](/handbook/support/workflows/dedicated/#configuration-changes) on behalf of customers, getting help from SREs on things that are not incidents |
+| [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) on Slack | General questions for Support folks focused on GitLab Dedicated (Commercial or Government) |
+
+### Requests for Help
+
+Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management). If you need, but don't have, access contact Wade or Ian to get the process started.  
+
+In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. This is slightly tricky without access to logs. Infrastructure-issue RFHs follow the CompSecGov procedure and Application-issue RFHs will follow the [typical procedure](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team)
+
+#### Handling Emergencies
+
+Emergencies from [GitLab Dedicated for Government](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated_for_government/) customers come through the [US Government Emergency support](https://about.gitlab.com/support/us-government-support/#us-government-emergency-support) rotation.
+
+The Global workflow for [Handling GitLab Dedicated emergencies](/handbook/support/workflows/dedicated/#handling-gitlab-dedicated-emergencies) is your guide.
+
+Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
+
+The [GitLab Dedicated US PubSec On-call runbook](https://gitlab.com/gitlab-com/gl-infra/us-public-sector/documentation/-/blob/main/runbooks/on-call.md) is the SSOT and the US Government Support team should bookmark and reference it.

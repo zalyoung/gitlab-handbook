@@ -534,7 +534,7 @@ from some.deep.module.inside.a.module import (
 
 ##### Spacing
 
-Following [PEP8](https://www.python.org/dev/peps/pep-0008/#blank-lines) we recommend you put blank lines around logical sections of code.
+Following [PEP8](https://peps.python.org/pep-0008/#blank-lines) we recommend you put blank lines around logical sections of code.
 When starting a `for` loop or `if/else` block, add a new line above the section to give the code some breathing room. Newlines are cheap - [brain time is expensive](https://www.getdbt.com/blog/write-better-sql-a-defense-of-group-by-1).
 
 ```python
@@ -597,7 +597,7 @@ def bar(some_str: str) -> None:
 
 ##### Import Order
 
-Imports should follow the [PEP8](https://www.python.org/dev/peps/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
+Imports should follow the [PEP8](https://peps.python.org/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
 
 ```python
 ## Bad
@@ -1223,3 +1223,27 @@ Details of pipelines we use for python should be found on the page [CI jobs (Pyt
 
 Since this style guide is for the entire data team, it is important to remember that there is a time and place for using `Python` and it is usually outside of the data modeling phase.
 Stick to `SQL` for data manipulation tasks where possible.
+
+### SQLAlchemy Upgrade - Codebase Changes
+
+As of 2025-02-04, the `analytics/` repo has been updated to use the latest `data_image`, as detailed in [Analytics MR!11537](https://gitlab.com/gitlab-data/analytics/-/merge_requests/11537). This update includes upgrading several Python libraries, most notably `sqlalchemy`. The specific version installed is `snowflake-sqlalchemy==1.6.1`, which relies on `sqlalchemy==2.0`.
+
+#### Changes in SQLAlchemy Query Patterns
+
+The new version of SQLAlchemy enforces stricter rules on how queries can be passed. Below are examples of how Python statements should be updated to adhere to the updated SQLAlchemy library:
+
+1. **execute**:
+    - Old: `connection.execute(query)`
+    - New: `gitlabdata.execute_query_str(connection, query)`
+
+2. **read_sql**:
+    - Old: `pd.read_sql(query)`
+    - New: `pd.read_sql(text(query))`
+
+3. **has_table**:
+    - Old: `engine.has_table(table)`
+    - New: `gitlabdata.has_table(engine, table)`
+
+4. **Creating a new engine**:
+    - The `autocommit` parameter needs to be set explicitly when creating a new engine. The correct setting depends on the database being used.
+    - The `gitlabdata` library provides preset engines that can be used for convenience, i.e `snowflake_engine_factory` and `postgres_engine_factory`

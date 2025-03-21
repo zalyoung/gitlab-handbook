@@ -9,7 +9,7 @@ As part of the [Field Certification Program](/handbook/sales/training/field-cert
 
 Note: This GitLab product training and certification program is different from resources like the ones below that focus on how to *use GitLab* (though we encourage field team members to take these as well)!
 
-- [GitLab Certifications](https://about.gitlab.com/learn/certifications/public/)
+- [GitLab Certifications](https://university.gitlab.com/certifications/public/)
 - [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/)
 
 ## Architecture and Approach

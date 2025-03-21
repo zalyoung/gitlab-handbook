@@ -18,13 +18,13 @@ GitLab's six values — **[Collaboration](/handbook/values/#collaboration)**, **
 
 While all-remote [isn't a value itself](/handbook/values/#what-is-not-a-value), it's something we do in order to practice the aforementioned values.
 
-To be effective, and to impact [culture](building-culture/) in an ongoing, meaningful, sustainable way, values must be more than words written on a page. Values must be [lived]({{< ref "culture#life-at-gitlab" >}}), with each day representing a new opportunity to refamiliarize oneself with said values and strive to implement them in every professional interaction.
+To be effective, and to impact [culture](building-culture/) in an ongoing, meaningful, sustainable way, values must be more than words written on a page. Values must be [lived](/handbook/company/culture/#life-at-gitlab), with each day representing a new opportunity to refamiliarize oneself with said values and strive to implement them in every professional interaction.
 
 It also means lending a hand and speaking up when you believe certain values are not being lived out. Apathy towards company values leads to cultural degradation and [dysfunction](/handbook/values/#five-dysfunctions). Values can only shape an organization if they're respected and lived by each team member.
 
 This is particularly meaningful in an all-remote setting. With [less physical interaction](informal-communication/), there's less buffer to compensate for indifference towards company values. Team morale is closely linked to the overall respect given to values.
 
-Two, an overarching belief in a company's values contributes to less ambiguity in [decision making]({{< ref "leadership#making-decisions" >}}). Respected values serve as a universal north star, aligning team members on how to address any challenge or disagreement, even when there's [debate](/handbook) related to approach or outcome.
+Two, an overarching belief in a company's values contributes to less ambiguity in [decision making](/handbook/leadership/#making-decisions). Respected values serve as a universal north star, aligning team members on how to address any challenge or disagreement, even when there's [debate](/handbook) related to approach or outcome.
 
 ## There's as much to unlearn as there is to learn
 
@@ -35,24 +35,24 @@ As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there
 
 It requires companywide trust that team members **have permission to drop prior organizational baggage and truly operate differently**, which may feel like a [trap](/handbook/values/#five-dysfunctions) for those who have been exposed to traditional bureaucratic norms.
 
-Psychological safety is critical, and [leadership]({{< ref "leadership" >}}) should place a high degree of importance on ensuring that this does not erode. GitLab signals the importance of this by listing "[Loss of the values that bind us](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#loss-of-the-values-that-bind-us)" as one of the concerns on the [Mitigating Concerns page](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/).
+Psychological safety is critical, and [leadership](/handbook/leadership/) should place a high degree of importance on ensuring that this does not erode. GitLab signals the importance of this by listing "[Loss of the values that bind us](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#loss-of-the-values-that-bind-us)" as one of the concerns on the [Mitigating Concerns page](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/).
 
 ## Values should not be a surprise
 
 Sharing company values should be a requirement to [hire](hiring/). Prospective applicants should find a link to a company's values on each job page, enabling them to ingest that information prior to applying.
 
-Open, honest, transparent conversation about company values should be a part of the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab). This is true for all companies, all-remote organizations included. It's not fair to candidates to talk about day-to-day tasks without mentioning the values that guide culture and decision making. It's not fair to existing team members of a company to hire people who aren't aware of company values, and may not be inclined to live them on an ongoing basis.
+Open, honest, transparent conversation about company values should be a part of the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/). This is true for all companies, all-remote organizations included. It's not fair to candidates to talk about day-to-day tasks without mentioning the values that guide culture and decision making. It's not fair to existing team members of a company to hire people who aren't aware of company values, and may not be inclined to live them on an ongoing basis.
 
 All-remote contributes to fewer surprises by forcing companies to be more [transparent](values#transparency). With fewer visual cues and in-person interactions, all-remote companies rely on each team member to operate while being mindful of company values.
 
-It's critical that values be understood as early as the interview process, reiterated during [onboarding](learning-and-development#how-do-you-onboard-new-team-members), and reinforced daily through [informal communication](informal-communication/) practices, [1:1s](/handbook/leadership/1-1), [meetings](meetings/), and [execution](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life) of job responsibilities.
+It's critical that values be understood as early as the interview process, reiterated during [onboarding](learning-and-development#how-do-you-onboard-new-team-members), and reinforced daily through [informal communication](informal-communication/) practices, [1:1s](/handbook/leadership/1-1), [meetings](meetings/), and [execution](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/) of job responsibilities.
 
 ## Collaboration
 
 ![GitLab collaboration](/images/all-remote/gitlab-collaboration.jpg)
 {style="max-width: 50%;"}
 
-[Collaboration](/handbook/values/#collaboration) should not be conflated with [consensus](/handbook/values/#collaboration-is-not-consensus). By establishing collaboration as a value, and defining it clearly, this allows GitLab to function more effectively as an all-remote company. When individuals and teams are [dispersed geographically]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}), it is imperative for collaboration to be active rather than passive.
+[Collaboration](/handbook/values/#collaboration) should not be conflated with [consensus](/handbook/values/#collaboration-is-not-consensus). By establishing collaboration as a value, and defining it clearly, this allows GitLab to function more effectively as an all-remote company. When individuals and teams are [dispersed geographically](/handbook/company/culture/inclusion/#fully-distributed-and-completely-connected), it is imperative for collaboration to be active rather than passive.
 
 In a colocated company, collaboration can occur spontaneously by being in a shared space and overhearing something that leads to a broader discussion. All-remote forces our team to not leave collaboration to chance. Rather, we embrace collaboration and rely on the [feedback](/handbook/values/#give-feedback-effectively) of others to make improvements.
 
@@ -60,7 +60,7 @@ Given that it is [impossible to know everything](/handbook/values/#its-impossibl
 
 We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made out in the open, and outcomes are [documented](/handbook/people-group/employment-branding#all-remote-work).
 
-[GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) and [Merge Requests](https://about.gitlab.com/blog/2019/02/07/start-using-git) enable all team members to chime in, with an understanding that the DRI ([directly responsible individual]({{< ref "directly-responsible-individuals" >}})) will make a decision.
+[GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and [Merge Requests](https://about.gitlab.com/blog/2019/02/07/start-using-git/) enable all team members to chime in, with an understanding that the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) will make a decision.
 
 ## Results
 
@@ -72,7 +72,7 @@ Valuing [results](/handbook/values/#results) enables a healthier all-remote atmo
 
 Colocation can make this more difficult to get right. As people congregate in a shared space, humans naturally form opinions on those who they are in contact with more often. It becomes more difficult to separate actual business results with vanity metrics (e.g. being seen in the office late, or appearing in every meeting regardless of need).
 
-All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/people-group/employment-branding#all-remote-work) their [surroundings](people/#travelers), [family](people/#caretakers), [community](people/#community-advocates), [hobbies](people/#hobbyists), etc.
+All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/people-group/employment-branding#all-remote-work) their [surroundings](people/#travelers), [family](people/#caretakers), [community](people/#community-advocates), [hobbies](people/#hobbyists), etc.
 
 ## Efficiency
 
@@ -98,7 +98,7 @@ It also enables those who must relocate frequently for family and personal reaso
 
 In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder Sid Sijbrandij verbalizes how he discovered the value of iteration.
 
-Referencing [GitLab's time at Y Combinator]({{< ref "history" >}}), Sid shares that by iterating quickly, you're able to achieve more without working longer hours, thereby creating a more sustainable approach to work.
+Referencing [GitLab's time at Y Combinator](/handbook/company/history/), Sid shares that by iterating quickly, you're able to achieve more without working longer hours, thereby creating a more sustainable approach to work.
 
 > There were people in the company, even at the time, who suggested that we should slow down. The response from GitLab has always been, "No, we'll get the most we can get done. The smaller we split things up, the smaller the steps we take, the faster we can go."
 >
@@ -134,8 +134,8 @@ At GitLab, we have regular, recorded meetings to discuss progress on each depart
 
 ---
 
-Working in an all-remote environment is unique. Be sure to read over the distinct [benefits]({{< ref "remote-benefits" >}}) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
+Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](/handbook/company/culture/all-remote/remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

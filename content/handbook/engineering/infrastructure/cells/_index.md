@@ -68,125 +68,13 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 
 ### DRIs and Stakeholders
 
-<table>
-<tr>
-<td>
-
-</td>
-<td>Role</td>
-<td>Responsibility</td>
-</tr>
-<tr>
-<td>
-
-[Sabrina Farmer](https://gitlab.com/sabrinafarmer)
-
-</td>
-<td>Executive Sponsor</td>
-<td>
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Marin Jankovski](https://gitlab.com/marin)
-
-</td>
-<td>Senior Director of Engineering</td>
-<td>
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Chun Du](https://gitlab.com/cdu1)
-
-</td>
-<td>Director of Engineering</td>
-<td>
-
-1. Liaison between project team and cross-functional engineering leaders
-2. Coordinating temporary staffing arrangements within the Data Stores stage
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Nick Nguyen](https://gitlab.com/nhxnguyen)
-
-</td>
-<td>Senior Engineering Manager</td>
-<td>
-
-1. Coordinating staffing and unblocking groups in Data Stores
-2. Drive cross-functional efforts in engineering
-3. Report on Data Stores progress and mitigate risks
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Joshua Lambert](https://gitlab.com/joshlambert)
-
-</td>
-<td>Director of Product Management </td>
-<td>
-
-1. Investment and staffing of Core Platform teams
-2. Liaison between project team and cross functional product managers and product leaders
-3. Escalation of product priorities competing with Cells
-4. Decision maker for supported and un-supported features for each iteration of Cells
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Christina Lohr](https://gitlab.com/lohrc)
-
-</td>
-<td>Tenant Scale Product Manager</td>
-<td>
-
-1. Product definition, requirements, roadmap for Organization workstream within Tenant Scale
-2. Product definition, requirements, roadmap for Cells workstreams within Tenant Scale
-3. Point of contact to collaborate with product managers from other teams
-4. Investment and staffing of Tenant Scale
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Darby Frey](https://gitlab.com/darbyfrey)
-
-</td>
-<td>Staff Fullstack Engineer, Expansion</td>
-<td>
-
-DRI of Expansion Software Development
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Kerri Miller](https://gitlab.com/kerrizor)
-
-</td>
-<td>Staff Backend Engineer, Core Development</td>
-<td>
-
-DRI of Core Development
-
-</td>
-</tr>
-
-</table>
+| Stakeholder | Role | Responsibility |
+| ----------  | ---  | -------------- |
+| [Sabrina Farmer](https://gitlab.com/sabrinafarmer) | CTO | Executive Sponsor |
+| [Gerardo Lopez-Fernandez](https://gitlab.com/glopezfernandez) | Engineering Fellow | Tenant Scale Engineering DRI |
+| [Mark Wood](https://gitlab.com/mjwood) | Acting Group Product Manager | Tenant Scale Product DRI |
+| [Darby Frey](https://gitlab.com/darbyfrey) | Staff Fullstack Engineer, Expansion | Sec and Monetization DRI |
+| [Kerri Miller](https://gitlab.com/kerrizor) | Staff Backend Engineer, Create | Core Development DRI |
 
 ## Cells 1.0
 
@@ -391,6 +279,32 @@ Details:
 
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14749)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_8)
+
+### Phase 10: Production Readiness
+
+Exit Criteria:
+
+- Cell-Level Observability (Logs, Metrics, Alerts, Dashboard).
+- Integration with existing Incident Management tooling.
+- Compliance with GitLab.com security standards.
+- Regional and Zonal Disaster Recovery capabilities.
+- Operational tooling independence from GitLab.com/dev.gitlab.org availability.
+- Centralized WAF management for GitLab.com domain.
+- Cell-level Application Rate Limits with synchronization.
+- Least-privileged access implementation with SRE escalation path.
+- Progressive rollout of infrastructure changes across Cells with rollback support.
+- Progressive deployment capabilities across Legacy Cell and Cells with rollback support.
+- Support for toggling Feature Flags across Legacy Cell and Cells.
+
+Dependencies:
+
+- [Phase 1](#phase-1-preqa-cell): GCP organizations, Ring definition exists.
+
+Before/After:
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14807)
 
 ## Communication
 

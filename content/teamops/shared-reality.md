@@ -42,7 +42,7 @@ In conventional organizations, multiple departments may maintain their own versi
 
 **Resource:** [The importance of a handbook-first approach to documentation](/handbook/company/culture/all-remote/handbook-first/) (article)
 
-**Resource:** [How Strong Documentation Powers Async Work](https://www.workplaceless.com/blog/how-strong-documentation-powers-async-work) (article)
+**Resource:** [How Strong Documentation Powers Async Work](https://www.workplaceless.com/blog/documentation-strong-async-work) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for Single Source of Truth" %}}
@@ -102,7 +102,7 @@ To minimize miscommunications that can stem from cultural diversity, contextual 
 - *Team:* Build a "suggestion box" communication channel or form where all team members can make suggestions for Collaboration Guideline additions.
 - *Company:* Update your company's onboarding and continuing education programs to include training about collaboration guidelines.
 
-**Recommended TeamOps Partner:** [Code Traveller HR](https://codetravellerhr.com) (consultant)
+**Recommended TeamOps Partner:** [Code Traveller HR](https://www.codetravellerhr.com/) (consultant)
 {{% /details %}}
 
 ## Shared values
@@ -132,7 +132,7 @@ Starting communication and collaboration with an external team (be it prospectiv
 - *Team:* When beginning a new project, discuss which values should be specifically prioritized for project success, and how they will influence the project roadmap or group dynamics.
 - *Company:* Update your company's onboarding and continuing education programs to include training about your company values.
 
-**Recommended TeamOps Partner:** [Code Traveller HR](https://codetravellerhr.com) (consultant)
+**Recommended TeamOps Partner:** [Code Traveller HR](https://www.codetravellerhr.com/) (consultant)
 {{% /details %}}
 
 ## Inclusivity

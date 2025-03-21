@@ -29,7 +29,7 @@ _In order of most to least relevant to UX Researchers:_
 - [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (Internal handbook page with examples of commonly used data models)
 - [DBT](https://dbt.gitlabdata.com/#!/overview) (Explains the underlying code and column definitions of all GitLab data sets)
 
-![Simplified usage data stack](datastack_simple.png)
+![Simplified usage data stack](/images/product/ux/ux-research/product-analytics-for-ux-research/datastack_simple.png)
 The above illustration shows a simplified version of GitLab's usage data stack, based on [this document.](/handbook/enterprise-data/platform/#i-classfas-fa-cubes-fa-fw-stylecolorrgb25210938-font-size85em-aria-hiddentrueiour-data-stack)
 
 ### Getting Access

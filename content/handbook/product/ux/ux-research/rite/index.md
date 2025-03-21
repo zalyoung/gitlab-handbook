@@ -9,7 +9,7 @@ description: "Using the RITE methodology at GitLab"
 
 Conducting a RITE study is quite simple and is similar to conducting a traditional usability test.  The differences are: 1) the sample size, and 2) immediately addressing issues as they are found.  The diagram below illustrates the workflow to follow when conducting a RITE study.
 
-![Workflow to take for a RITE study](RITE_workflow.png)
+![Workflow to take for a RITE study](/images/product/ux/ux-research/rite/RITE_workflow.png)
 
 To summarize:
 

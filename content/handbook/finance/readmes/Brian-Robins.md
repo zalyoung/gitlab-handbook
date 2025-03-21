@@ -73,4 +73,4 @@ Specifically to the CFO organization, I am proud of the team we have built here 
    - Being outside and staying active is what I enjoy. I played tennis competitively in college and have run many marathons. Today I enjoy hot yoga, playing pickleball, and cycling.
    - Community service and give back. I try to volunteer or help the community on a periodic basis.  This consists of mission trips, building ramps for purple heart recipients, helping victims from Helene (recent) or mentoring.
    - Spending quality time with family and friends.
-   - Life is short, live it! I had a near death experience so never wait to do something I want. 
+   - Life is short, live it! I had a near death experience so never wait to do something I want.

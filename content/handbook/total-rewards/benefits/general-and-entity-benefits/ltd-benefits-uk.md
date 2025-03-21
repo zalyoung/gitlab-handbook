@@ -13,6 +13,8 @@ For UK-based team members, GitLab provides 100% paid membership of medical insur
 Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please reach out via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
+AXA hosted a webinar for GitLab Team Members on 2025-03-19. Team Members can watch the recording [here](https://drive.google.com/file/d/1UMZJoDxEfKQ96KYfTpn3GYxpKeWb7Luj/view?usp=sharing)
+
 ### Enrollment
 
 Please let the Total Rewards team know if you would like to join the scheme via email to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com`  Include the following details:
@@ -54,23 +56,23 @@ Please also note that this is a taxable benefit. Team members enrolled will stil
 
 ### Medical Premiums and Benefit In Kind Reporting
 
-Please see the Annual 2024 Rates effective 2024-03-01:
+Please see the Annual 2025 Rates effective 2025-03-01:
 
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
-| Team Member Only         | £904  | £904   | £0   |
-| Team Member + Spouse     | £1,808 | £1500.64 | £307.36 |
-| Team Member + Child.     | £1537  | £1321.78 | £215.22 |
-| Family                   | £2,441  | £1918.42 | £522.58 |
+| Team Member Only         | £958.00 | £958.00  | £0   |
+| Team Member + Spouse     | £1,916.00 | £1,590.28 | £325.72 |
+| Team Member + Child.     | £1,629.00 | £1,400.86 | £228.14 |
+| Family                   | £2,587.00  | £2,033.14 | £553.86 |
 
-Please see the Monthly 2024 Rates effective 2024-03-01:
+Please see the Monthly 2025 Rates effective 2025-03-01:
 
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
-| Team Member Only         | £75.34  | £75.34   | £0   |
-| Team Member + Spouse     | £150.67 | £125.05 | £25.62 |
-| Team Member + Child.     | £128.08 | £110.14 | £17.94 |
-| Family                   | £203.41  | £159.87 | £43.55 |
+| Team Member Only         | £79.83 | £79.83  | £0   |
+| Team Member + Spouse     | £159.67 | £132.52 | £27.14 |
+| Team Member + Child.     | £135.75 | £116.74 | £19.01 |
+| Family                   | £215.58 | £169.43 | £46.16 |
 
 The Team Member cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit. An audit and reconciliation of Benefit in Kind reporting and Deductions will occur annually around February.
 
@@ -137,7 +139,7 @@ Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1
 
 ### Salary Sacrifice
 
-Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by emailing total-rewards@gitlab.com and nonuspayroll@gitlab.com. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
+Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
 
 **Salary Sacrifice FAQ**
 
@@ -207,7 +209,7 @@ The certification level that has been chosen is **basic salary** only and will n
   - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
-- You may increase the contribution percentage you pay by contacting Non US Payroll team via email. Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
+- You may increase the contribution percentage you pay by contacting Non US Payroll team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352). Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
@@ -340,7 +342,7 @@ Team members are entitled to at least 28 vacation days which consist of 20 days 
 
 This section details the statutory maternity, paternity, parental, and adoption leave as offered by the UK Government. For more information, please review the government's [webpage](https://www.gov.uk/browse/childcare-parenting).
 
-**Note:** GitLab offers up to 16 weeks of paid [general parental leave benefit]({{< ref "general-and-entity-benefits#parental-leave" >}}) where, if eligible, statutory pay is supplemented up to 100% regular salary.
+**Note:** GitLab offers up to 16 weeks of paid [general parental leave benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) where, if eligible, statutory pay is supplemented up to 100% regular salary.
 
 **Statutory Maternity Leave:** Team members can take up to 52 weeks of Maternity Leave.
 
@@ -385,7 +387,7 @@ Team members can receive Statutory Maternity Pay for up to 39 weeks:
 To apply for Maternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [MATB1 Certificate](https://www.gov.uk/government/publications/maternity-certificate-mat-b1-guidance-for-health-professionals/maternity-certificate-form-mat-b1-guidance-on-completion) no later than 21 days before your leave start date.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [MATB1 Certificate](https://www.gov.uk/government/publications/maternity-certificate-mat-b1-guidance-for-health-professionals/ee03eb40-34b3-4930-8715-9cab858421ef) no later than 21 days before your leave start date.
 - The Absence Management team will then complete a [Risk Assessment Form](https://docs.google.com/document/d/1qHdbaeFSnqdwkQDTEurHD5QMbLPLuZGBQO_CBnRkpiE/edit) within 1-3 days of receiving notification of your leave. The purpose of the assessment is to make the team member aware of any hazards or "risks" to her in the workplace/home office to reduce potential injury to her or her baby.
 - The Absence Management team will notify payroll and email Vistra a copy of the MATB1, start date of leave, and outline what pay the team member is eligible for (statutory, supplemental, etc). Payroll will then automatically calculate the SMP due each pay period based on this information. The recovery of 90% will be outlined on the monthly payroll spreadsheet so that the finance team has indication of the amounts being offset each month.
 - Payroll will continue to be the same while on parental leave but Vistra will file for reimbursement of any statutory funds once the proper paperwork has been sent.
@@ -452,13 +454,7 @@ You can view the `Certificate of Employers' Liability Insurance` [here](https://
 
 ### Adding/Removing Team Members from Help@Hand
 
-1. Pull a the UK Help@Hand Report from Workday
-1. Log on to the Employer Help@Hand Platform
-1. To add joiners, select "Add Employees" > "Import Employees" > Include new hire emails in CSV file and upload to the portal.
-1. To remove leavers select "De-register Employees" > "Import Employees", include leaver's emails in CSV file and upload to portal
-1. To remind Team Members of Help@Hand benefit, select "Export Employees", copy emails of "Unregistered" team members and send a reminder email to register
-
-Additional details can be found on the [Adding/Removing Team Members Help@hand Guide](https://docs.google.com/document/d/1jrSe8lyPuDkgQyx_HeDQTcC8lO1xZKk5/edit).
+Details can be found on the [Adding/Removing Team Members Help@hand Guide](https://docs.google.com/document/d/1jrSe8lyPuDkgQyx_HeDQTcC8lO1xZKk5/edit).
 
 ### Applying for Income Protection when Team Members go on Leave for Illness/Injury
 

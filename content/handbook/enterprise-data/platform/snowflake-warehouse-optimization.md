@@ -391,5 +391,5 @@ To summarize, the priority for right-sizing warehouses should be the largest mod
 ### Sources
 
 - [1] [select.dev: warehouse sizing](https://select.dev/posts/snowflake-warehouse-sizing)
-- [2] calculating percentage improvements for run-times, [StackOverflow](https://stackoverflow.com/a/28404036)
+- [2] calculating percentage improvements for run-times, [StackOverflow](https://stackoverflow.com/questions/28403939/how-to-calculate-percentage-improvement-in-response-time-for-performance-testing/28404036#28404036)
 ``

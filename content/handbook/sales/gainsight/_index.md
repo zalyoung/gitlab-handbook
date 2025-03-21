@@ -49,7 +49,7 @@ Your timezone is dependent on your timezone in Salesforce, so even if you change
 
 ### Configure your notifications
 
-To adjust your individual notifications, click on your name in the upper right corner, select "My Settings", then "Notifications" at the top middle. The below pictures show the default, and you will have the following options to select based on your preferences. View Gainsight's [documentation](https://support.gainsight.com/Gainsight_NXT/Notifications/User_Guides/Setup_User_Notifications) for more information.
+To adjust your individual notifications, click on your name in the upper right corner, select "My Settings", then "Notifications" at the top middle. The below pictures show the default, and you will have the following options to select based on your preferences. View Gainsight's [documentation](https://support.gainsight.com/gainsight_nxt/Notifications/User_Guides/Setup_User_Notifications) for more information.
 
 ![Gainsight Channel Subscriptions](/images/handbook/customer-success/gainsight-channel-subscriptions.png "Gainsight Channel Subscriptions")
 

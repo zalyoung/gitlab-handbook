@@ -30,7 +30,7 @@ Verify teams:
 
 The purpose of this product group are described by the [Verify stage direction](https://about.gitlab.com/direction/ops/#verify). This is inclusive, though not limited to, the pipeline experience, creating or authoring .gitlab-ci.yml files, executing jobs in a pipeline, and various testing capabilties in CI/CD.
 
-![Verify Banner](verify_groups_banner.jpg)
+![Verify Banner](/images/product/groups/verify_groups_banner.jpg)
 
 #### Continuous Integration and Runner Boundaries (Ownership/DRI's)
 

@@ -19,6 +19,20 @@ When on-call, please ensure to:
 1. Plan for an additional 15-30 minutes after your shift ends to allow for cross-region handovers
 1. Start your day by checking for emergencies currently in progress from the previous shift. You will be expected to be the DRI for any emergency tickets (or find a replacement DRI) which have not yet been de-escalated/resolved. This ensures that all team members can leave as soon as possible after their shift ends.
 
+## Key Responsibilities for Customer Emergency On-Call
+
+When serving as the Customer Emergency On-Call (CEOC) engineer, follow these key principles to ensure clear ownership and accountability:
+
+1. **Take Assignment**: Immediately assign yourself to any emergency ticket you acknowledge and begin working on. This establishes you as the Directly Responsible Individual (DRI) and ensures clear ownership throughout the emergency response process.
+
+2. **Document Everything**: Keep thorough notes in both Slack threads and the ticket to maintain transparency, reproducibility, and enable asynchronous collaboration.
+
+3. **Communicate Status**: Keep stakeholders informed of progress and any handoffs required at the end of your shift.
+
+4. **Follow Through**: Remain the DRI until the emergency is resolved or properly handed off to the next CEOC.
+
+These principles help maintain efficiency while ensuring every emergency has clear ownership and accountability. Being the DRI means you are the single person accountable for driving the emergency to resolution. While you may collaborate with others or need to hand off the ticket during shift changes, there should never be ambiguity about who is currently responsible for an emergency ticket.
+
 ### How to be added to the Customer Emergencies PagerDuty rotation
 
 To be added to the Customer Emergency On Call Rotation, you should have first completed the [Customer Emergency On-Call training module](https://gitlab.com/gitlab-com/support/support-training/-/issues/new) and then after agreement with your manager, you should raise a new [Pager Duty Issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues) with the Support-Ops team requesting that you are added to the appropriate Pager Duty rotation.
@@ -163,7 +177,7 @@ If at any point you would like advice or help finding additional support, [conta
 1. When an emergency is triggered, you will receive an alert from PD. This could be a text, phone call, email, Slack message, or a combination of those (depending on your PagerDuty notification preferences).
 1. Acknowledge the alert in PagerDuty or Slack. This means that you received the emergency page, and are starting the response process.
 1. **OPTIONAL:** Create a new Issue using the [Emergency Runbook Issue Template](https://gitlab.com/gitlab-com/support/emergency-runbook/-/issues/new), to guide you through the emergency response process for Customer Emergency tickets.
-1. Open the Zendesk ticket.
+1. Open the Zendesk ticket. Assign yourself as the ticket owner to establish yourself as the Directly Responsible Individual (DRI), which prevents confusion about emergency response, ensures consistent customer communication, and creates accountability for follow-through until resolution or proper handoff.
     1. Most PagerDuty notification formats provide a direct link to the ticket.
     1. Alternatively, use Zendesk search with the term `priority: urgent` to find the ticket.
 1. Verify that the requester has an active subscription at Premium level or
@@ -182,7 +196,7 @@ If at any point you would like advice or help finding additional support, [conta
     - After another 15 minutes without response the bridge will be closed and the ticket will be assigned a `HIGH` priority.
     - Feel free to open a new emergency request if the need arises.
 
-**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
+**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 
 #### PagerDuty Status
 
@@ -199,6 +213,10 @@ In rare cases, the on-call engineer may experience concurrent emergencies trigge
 1. **You**: [Contact the on-call Support Manager](/handbook/support/on-call/#paging-the-on-call-manager) to inform them of the new incoming emergency. The Support Manager is responsible for finding an engineer to own the new emergency page.
 1. **Support Manager**: In Slack, ping the regional support group (*e.g.* `@support-team-americas`) and request assistance from anyone who is available to assist with the new incoming emergency case.
 1. **Second Support Engineer**: Acknowledge and resolve the emergency page to indicate that you are assisting the customer with the case.
+
+#### Customer emergencies are triggered by a GitLab incident
+
+If a GitLab incident is the cause for customer emergencies, check in with the CMOC and the Support Manager On-Call about whether a [Support Response](/handbook/support/workflows/cmoc_workflows.md#about-coordinating-a-support-response) is relevant. A [Support Response issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) will be created when the incident requires a non-standard workflow or communication from Support; use this issue as a guide when you work on the emergencies. You can also collaborate on the workflow and share any information you find that would help Support Engineers to handle related tickets.
 
 #### Backup engineers on weekends in APAC
 
@@ -270,6 +288,13 @@ When the call has ended:
 1. Add all relevant internal-only information as an internal note on the ticket.
 1. Tag the next on-call engineer in the emergency's Slack thread.
 1. Review the guidance in the general [On-call - Ending your on-call shift](/handbook/support/on-call/index#ending-your-on-call-shift) section and follow the relevant steps.
+
+Remember that as the DRI, you maintain ownership of the ticket until one of these conditions is met:
+
+- The emergency is resolved and the ticket is closed
+- The customer confirms they no longer need emergency assistance
+- You've properly handed off DRI responsibility to another engineer during your shift change
+- A new emergency ticket is created for follow-up (in which case, link the tickets and ensure the new ticket has a DRI assigned)
 
 #### When the customer incident is not resolved
 
@@ -355,6 +380,8 @@ To trigger a developer escalation, see [this process outline](/handbook/engineer
 
 For license emergencies during the week, reach out to [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) and ask for an expert there to handle the case. Ping the current [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) in your request so they can ensure it gets picked up. Once pinged, the Support Manager On-call is the DRI for ensuring the emergency gets handled.
 
+In the event the customer's instance is unusable due to an expired license and you are unable to reach the L&R team or the on-call manager, [generate a trial license](/handbook/support/license-and-renewals/workflows/self-managed/license_for_weekend_emergencies/#step-2-generate-the-trial-license).
+
 ### On a weekend
 
 #### Self-managed Subscription Emergencies
@@ -395,9 +422,9 @@ A customer may be blocked because of a license expiring or neglecting to apply a
 
 Some legacy-type subscriptions are called "multi-year" but are actually multiple, separate subscriptions sold up front to cover a multi-year period.  When a customer has a deal like this, each anniversary of the renewal requires that the next subscription be associated, or else the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps.
 
-1. Ask the customer to login to the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) located at https://customers.gitlab.com/customers/sign_in for subscription management.
-1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
-1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#change-the-linked-namespace).
+1. Ask the customer to login to the [Customers Portal](https://docs.gitlab.com/subscriptions/customers_portal/) located at https://customers.gitlab.com/customers/sign_in for subscription management.
+1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account).
+1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/subscriptions/gitlab_com/#change-the-linked-namespace).
 
 If a customer is an [Unlinked CustomersDot account](/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/#unlinked-customersdot-account-for-purchases-via-sales) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
 
@@ -445,15 +472,15 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 1. Initiate a call with the customer. You're specifically looking to:
    - observe broken behavior.
    - determine if there's a known issue, bug report, or other customers reporting similar behavior.
-   - ascertain whether or not a feature flag that may have been recently turned on (see: [Enabling Feature Flags on GitLab.com](https://docs.gitlab.com/ee/development/feature_flags/controls.html#enabling-a-feature-for-gitlabcom))
+   - ascertain whether or not a feature flag that may have been recently turned on (see: [Enabling Feature Flags on GitLab.com](https://docs.gitlab.com/development/feature_flags/controls/#enabling-a-feature-for-gitlabcom))
    - find/build reproduction steps devoid of customer data to build a bug report if none exists.
 
 #### Broken functionality due to a regression or feature flag
 
 1. Create a `~"type::bug"` issue and have the customer review it.
 1. Escalate the `~"type::bug"` issue
-   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
-   - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/ee/development/feature_flags/controls.html#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/) to raise a developer.
+   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
+   - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/development/feature_flags/controls/#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/) to raise a developer.
 1. If this is affecting multiple customers, [declare an incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) to engage the incident response team who will update the status page.
 1. Once the original functionality is restored, update the customer.
 
@@ -578,11 +605,11 @@ US Government customers with 12x5 support packages are permitted to use the glob
 
 ## GitLab Dedicated Emergencies
 
-Emergencies from [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) come through the Customer Emergency On Call rotation. The [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated) has information about [working with logs](/handbook/support/workflows/dedicated_logs) and viewing [observability dashboards](/handbook/support/workflows/dedicated_instance_health/).
+Emergencies from [GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/) come through the Customer Emergency On Call rotation. The [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated) has information about [working with logs](/handbook/support/workflows/dedicated_logs) and viewing [observability dashboards](/handbook/support/workflows/dedicated_instance_health/).
 
 Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
 
-As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#escalating-an-emergency-issue) to engage the Engineer on Call for GitLab Dedicated.
+As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#raise-a-dedicated-incident) to engage the Engineer on Call for GitLab Dedicated.
 
 ## Special handling notes
 

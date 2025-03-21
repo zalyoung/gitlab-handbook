@@ -14,7 +14,7 @@ Field Security's goal is to take a holistic approach to security evangelism. We 
 
 ### Written engagements
 
-- An annual [Field Security Study]({{< ref "field-security-study" >}}) that documents areas of concern or improvement identified for GitLab's products and services.
+- An annual [Field Security Study](/handbook/security/security-assurance/field-security/field-security-study/) that documents areas of concern or improvement identified for GitLab's products and services.
 - Whitepapers and collaterals
 - Blog posts
 - Surveys

@@ -72,7 +72,7 @@ As a CSM, in addition to the [SQS learning objectives](/handbook/sales/onboardin
 
 ## Milestones and Onboarding Roadmap
 
-![CSM Onboarding Journey Roadmap](/handbook/customer-success/csm/csm-onboarding/CSM-Onboarding-Journey-Roadmap.png)
+![CSM Onboarding Journey Roadmap](/images/customer-success/csm/csm-onboarding/CSM-Onboarding-Journey-Roadmap.png)
 
 ## Expectations for Manager support during onboarding
 
@@ -180,7 +180,7 @@ Your feedback on the onboarding process is important to us and we welcome your t
 
 ## Support and our Single Source of Truth
 
-Since GitLab is a [handbook first](/handbook/company/culture/all-remote/handbook-first-documentation/) organization, the answer to any question you may have particularly throughout your first thirty days should be documented and readily available as this is our [Single Source of Truth (SSoT)](/handbook/values/#single-source-of-truth).
+Since GitLab is a [handbook first](/handbook/company/culture/all-remote/handbook-first/) organization, the answer to any question you may have particularly throughout your first thirty days should be documented and readily available as this is our [Single Source of Truth (SSoT)](/handbook/values/#single-source-of-truth).
 
 If you are unable to find the information you are looking for, please be sure to reach out to your Manager; Onboarding Buddy; People Connect Team member or Enablement Program Manager for support by tagging them in the comments section of this issue. If you need to troubleshoot specific issues with tools, you can add a screenshot of the issue directly in the comment to help them diagnose the problem.
 
@@ -289,7 +289,7 @@ Collection of initial set of key product links, which will help in the first 4-6
 
 ## GitLab Webinars
 
-As a new joiner to get up to speed on your technical skills and observe how more senior team members hold webinars find the Webinars on the [CSM Scale Webinar calendar](/handbook/customer-success/csm/segment/scale/webinar-calendar/) and register/join as participant.
+As a new joiner to get up to speed on your technical skills and observe how more senior team members hold webinars find the Webinars on the [CSM Scale Webinar calendar](https://university.gitlab.com/pages/gitlab-user-webinars) and register/join as participant.
 You can also watch the recordings of some of those Webinars on [YouTube - GitLab Webinars - GitLab Unfiltered - Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq).
 
 ## GitLab.com Playground and Demo space

@@ -48,9 +48,9 @@ Tip: If two or more users use the same MacBook Pro, each user can add a fingerpr
 
 If you are new to using a MacBook or switched from another OS such as windows check out these useful shortcuts and options!
 
-![mactips2.png](mactips2.png)
+![mactips2.png](/images/it/end-user-services/onboarding101/mactips2.png)
 
-![mactips1.png](mactips1.png)
+![mactips1.png](/images/it/end-user-services/onboarding101/mactips1.png)
 
 ### Official Apple Training
 

@@ -28,7 +28,7 @@ Transactions at GitLab are defined as anything related to purchasing; issues or 
 1. **User doesn't know the steps to purchase a GitLab.com subscription.**
 
    - Create an account in [GitLab.com](https://gitlab.com/users/sign_in)
-   - [Create a group](https://docs.gitlab.com/ee/user/group/#create-a-new-group) if desired in GitLab.com and [add group members](https://docs.gitlab.com/ee/user/group/#add-users-to-a-group)
+   - [Create a group](https://docs.gitlab.com/user/group/#create-a-new-group) if desired in GitLab.com and [add group members](https://docs.gitlab.com/user/group/#add-users-to-a-group)
    - Create an account in the [CustomersDot](https://customers.gitlab.com/customers/sign_up)
    - Associate GitLab.com account with CustomersDot account. First log into GitLab.com, then in another tab in the same browser open the CustomersDot and navigate to `My Account` and select `Change Linked Account`
    - Purchase desired subscription from <https://about.gitlab.com/pricing/#compare-options>, selecting the desired group during the purchase process.
@@ -51,6 +51,6 @@ Licensing requests refers to problems or questions related to license keys for t
 
 If you want access to [CustomersDot staging](https://customers.staging.gitlab.com/customers/sign_in) as a user (and not an admin) you can browse to the link and register a new account. You need to use your @gitlab.com email address in order to get the verification. As an example, you can use <yourname+test@gitlab.com> so that you receive emails to your usual <yourname@gitlab.com> email address.
 
-Once you create a user account, you can use the [stripe test cards](https://stripe.com/docs/testing#cards) for testing.
+Once you create a user account, you can use the [stripe test cards](https://docs.stripe.com/testing#cards) for testing.
 
 Note: access to CustomersDot staging as an admin will require an Access Request.

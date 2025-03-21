@@ -4,6 +4,23 @@ description: Support Operations documentation page for Zendesk US Government app
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/apps/us-government-apps"
 ---
 
+## Advanced SAST App
+
+<sup>*Introduced via [support-team-meta#6652](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6652)*</sup>
+
+The Advanced SAST App is a ticket app that enables a quick working of User
+requests for source code of LGPL-licensed components in GitLab Advanced SAST.
+
+App information:
+
+- Located in the ticket sidebar
+- Restricted by Group:
+  - Support
+  - Support Managers
+  - Support Operations
+- This application was developed in-house and can be found
+  [GitLab Super App project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/advanced-sast-app).
+
 ## Advanced Search
 
 Advanced Search is an app that provides a simple visual interface for
@@ -79,25 +96,6 @@ App information:
 - This application was developed in-house and can be found
   [GitLab duo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-duo).
 
-## Out of Office
-
-<sup>*Introduced via [support-team-meta#4303](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4303)*</sup>
-
-This will enable an agent to mark when they are out of office in Zendesk, which
-then updates tickets and makes it visible in the views.
-
-Managers are also able to do this for their reports.
-
-App information:
-
-- Located in the navbar
-- Restricted by Group:
-  - Support
-  - Support Managers
-  - Support Operations
-- This application was developed in-house and can be found
-  [Out of Office project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/out-of-office)
-
 ## Show Related Tickets
 
 This uses the ticket subject to search for other tickets with a similar
@@ -142,3 +140,16 @@ App information:
   - Support Operations
 - This application was developed in-house and can be found
   [Zendesk Super App project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/zendesk-super-app).
+
+## ZenDuo
+
+<sup>*Introduced via [support-team-meta#6689](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6689)*</sup>
+
+Enables the use of GitLab Duo in Zendesk for various actions
+
+App information:
+
+- Located in the ticket sidebar
+- This application was developed in-house and can be found [ZenDuo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/zenduo).
+
+Please note this app uses an gitlab.com OAuth application. If one of those in needed in the future (or if the one for this one needs to be regenerated), but file an Access Request using the [Individual_Bulk_Access_Request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)

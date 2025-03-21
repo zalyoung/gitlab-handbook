@@ -586,14 +586,14 @@ There are times when presenting during a meeting is needed. This may occur when 
 
 #### Framework for meetings with presentations
 
-While most meetings should not have presentations, there are a few exceptions. Specifically, we may use synchronous touch points in meetings with large numbers of folks. These tend to be meetings used for building team cohesion and alignment. For example, [GitLab Assembly](/handbook/company/gitlab-assembly/) or the [Functional Leaders Meeting](/handbook/company/offsite/#functional-leaders-zoom-call).
+While most meetings should not have presentations, there are a few exceptions. Specifically, we may use synchronous touch points in meetings with large numbers of folks. These tend to be meetings used for building team cohesion and alignment. For example, [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/) or the [Functional Leaders Meeting](/handbook/company/offsite/#functional-leaders-zoom-call).
 
 GitLab has the following meeting framework for determining which meetings should have presentations:
 
 | Presentation Approach | Types of meetings with few participants | Types of meetings with many participants |
 | ------------- | ------------- | ------------- | ------------- |
 | No presentations (async prep) | Most meetings | [AMA](/handbook/communication/ask-me-anything/) |
-| Presentations  | These meetings should not happen | [Assembly](/handbook/company/gitlab-assembly/) and other large team meetings |
+| Presentations  | These meetings should not happen | [Assembly](/handbook/company/gitlab-all-company-meetings/) and other large team meetings |
 
 ### Meeting introduction guidelines
 
@@ -625,7 +625,7 @@ Make sure you're never screen sharing when people are introducing themselves.
 1. When scheduling a meeting we value people's time and prefer the "speedy meetings" [setting in our Google Calendar](https://calendar.google.com/calendar/r/settings). This gives us meetings of, for example, 25 or 50 minutes leaving some time to:
    - Write notes and reflect
    - Respond to urgent messages
-   - Take a [bio break](https://www.merriam-webster.com/words-at-play/bio-break-meaning-and-origin)
+   - Take a [bio break](https://www.merriam-webster.com/wordplay/bio-break-meaning-and-origin)
    - Stretch your legs
    - Grab a snack
 1. When scheduling a meeting, please try to have it start at :00 (hour) or :30 (mid-hour) to leave common start times available for other meetings on your attendees' calendars. Meetings should be for the time needed, so if you need 15 minutes just book that.
@@ -1033,7 +1033,7 @@ Simple Language is important both when we're speaking to other team members and 
 
 Be sure to use Simple Language in written communications as well.
 Our handbook, website, docs, marketing materials, and candidate or customer emails should be clear, concise, and effective.
-Corporate marketing maintains guidelines on [GitLab's tone of voice](https://design.gitlab.com/brand/overview#tone-of-voice).
+Corporate marketing maintains guidelines on [GitLab's tone of voice](https://design.gitlab.com/brand/overview/#tone-of-voice).
 
 | Instead of...                       | Try...                                        |
 | ----------------------------------- | --------------------------------------------- |
@@ -1110,7 +1110,7 @@ We have a low internal email culture, as we see greater efficiency in other form
 1. Where appropriate, consider using professional salutations including Hi or Hello and avoid colloquial expressions such as Hey, Oh, or Sup. Sometimes only the person's name is suitable. The level of formality should often mirror the formality from previous messages when communicating with internal team members as well as external persons.
 1. Try to always use a person's name when starting or responding to a message, especially if there are multiple persons cc'd, so that the addressee knows you are addressing them.
 1. Make sure all relevant letters and words that need capitalization are capitalized, such as the start of sentences or the word "I".
-1. Proofread your messages so that sentences are punctuated correctly, typos are fixed, and grammar is corrected. Consider using the really helpful [Grammarly](https://app.grammarly.com/) tool - this tool is great for both native English speakers and for those who use English as an additional language.
+1. Proofread your messages so that sentences are punctuated correctly, typos are fixed, and grammar is corrected. Consider using the really helpful [Grammarly](https://www.grammarly.com/) tool - this tool is great for both native English speakers and for those who use English as an additional language.
 1. All messages and replies are signed with a professional send-off (ex. Best regards), your name, and your signature block.
 
 ## Slack
@@ -1359,7 +1359,7 @@ Pages like this are part of the [handbook](/handbook/). The GitLab handbook is t
 
 ### GitLab repositories
 
-`repository`/`repositories` are where files are kept under [source code management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/). In most cases, requires MRs to merge. The Handbooks are in a repository, our code is in a repository, etc.
+`repository`/`repositories` are where files are kept under [source code management](https://about.gitlab.com/solutions/source-code-management/). In most cases, requires MRs to merge. The Handbooks are in a repository, our code is in a repository, etc.
 
 ### READMEs
 
@@ -1466,7 +1466,7 @@ the general number (+1-415-761-1791), but be aware that this number simply guide
 In an all-remote organization effective communication is key to exchanging knowledge, ideas, and information. Effective communication at GitLab:
 
 - Uses [asynchronous](/handbook/company/culture/all-remote/asynchronous/) communication as the starting point and stays as open and transparent as we can by [communicating via text](/handbook/communication/#writing-style-guidelines) through public issues, merge requests, and Slack channels (over DMs).
-- Places an emphasis on ensuring that conclusions of offline conversations are written down ensuring a [Single Source of Truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot).
+- Places an emphasis on ensuring that conclusions of offline conversations are written down ensuring a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot).
 - [Produces video](/handbook/marketing/marketing-operations/youtube/) when necessary.
 
 If you would like to improve your skills or expand your knowledge on topics relating to Communication at GitLab, check out our resources:

@@ -134,47 +134,94 @@ Topology Service will make sure that the given range is not overlapping with oth
 #### Logic to compute the range
 
 ```mermaid
-graph TD
+flowchart TD
   A[64 bits] --> |1 bit - MSB| B[Sign]
-  A -->|6 bits| C[Intentionally reserved]
-  A -->|16 bits| D[Cell's Leased ID]
-  A -->|41 bits| E[Sequence]
+  A -->|6 bits| C[Reserved]
+  A -->|57 bits| D[Sequence]
+  D --> E{Legacy Cell?}
+  E --> |Yes|F[min: 1, max: 10^12 - 1]
+  E --> |"No (new cells)"| G{'QA' bucket?}
+  G --> |Yes| H[min: currentMaxId + 1, max: min + 10^9 - 1]
+  G --> |No| I[min: currentMaxId + 1, max: min + 10^11 - 1]
 ```
 
-The provisioning service (it's not yet decided where/how this service will be), will assign unique auto-incrementing
-lease ID for each cell, starting with `zero` for the Legacy Cell. It will use the above bit allocation to compute
-sequence's `minval` and `maxval` for each cell and this data will be captured in TS's `config.toml`.
+- **Sign**: Always 0 for positive numbers.
+- **Reserved**: Currently always `0`, reserved for 2 purposes.
+  1. To increase the number of cells, if needed.
+  1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
+   ULID based ID allocator will have the `timestamp` value in the most significant bits,
+   reserving only one bit would have been sufficient but
+   more bits are reserved to have the sequence bits at minimum.
+- **Sequence**:
+  - Legacy cell gets the first trillion IDs. QA cells get 1 billion IDs and other new cells get 100 billion IDs each.
+  - Assuming all the new cells created are non-QA and excluding the legacy cell, this will support 1,441,141 cells (using 57 bits).
+
+Example `config.toml` of Topology Service:
 
 ```toml
 [[cells]]
-id = 0
-address = "cell-us-1.gitlab.com"
-sequence_range = [0, 4398046511103]
+id = 1
+address = "legacy.gitlab.com"
+sequence_range = [1, 999999999999] # 1 trillion
+buckets = ["paid", "free"]
+status = "active"
 
 [[cells]]
-id = 1
-address = "cell-us-2.gitlab.com"
-sequence_range = [4398046511104, 8796093022207]
+id = 2
+address = "cell-2-example.gitlab.com"
+sequence_range = [1000000000000, 1099999999999] # 100 billion
+buckets = ["paid", "free"]
+status = "active"
+
+[[cells]]
+id = 3
+address = "cells-3-test.gitlab.com"
+sequence_range = [1100000000000, 1100999999999] # 1 billion
+buckets = ["QA"]
+status = "active"
+
+[[cells]]
+id = 4
+address = "cells-4-example.gitlab.com"
+sequence_range = [1101000000000, 1200999999999] # 100 billion
+buckets = ["free"]
+status = "active"
 ```
 
-41 bits can support ~2 trillion IDs (2199,023,255,551) per cell (per sequence). At the time of writing, the largest ID is
-11,098,430,930 (primary key of _security_findings_ table), so it's 200 times the current largest ID, which should be (more than) sufficient.
+- Status:
+  - ready: Cell is not yet ready to accept traffic, but we hold a slot.
+  - online: Cell is accepting traffic and is part of cluster discovery.
+  - offline: Cell is valid but not accepting traffic and is still part of cluster discovery.
+  - removed: Cell is removed and will never be active again.
 
-6 MSBs are intentionally `reserved` for 2 purposes
+Once the cell gets `removed`, we will update `sequence_range` with the _maxval_ consumed by the cell.
+So that if a normal cell gets removed (decommissioned), new QA cells can get IDs from those unused IDs (if it's more than 1 billion).
 
-1. To increase the number of cells, if needed.
-1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
-   ULID based ID allocator will have the `timestamp` value in the MSBs, reserving only one bit would have been sufficient but
-   more bits are reserved to have the sequence bits at minimum.
+##### Sequence Saturation
 
-More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md)
-and the reasoning behind choosing the logic to generate sequence ranges can be found [here](https://gitlab.com/gitlab-org/gitlab/-/issues/465809).
+At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
+the legacy cell and new non-QA cells will have sufficient IDs to grow within their sequence_range.
+
+QA cells might need more IDs as they are given 1 billion IDs. Cells sequence data are monitored regularly,
+and TS can provide an additional 1 billion IDs (from currentMaxId) to the cell, if their consumption is over 99%.
+
+[Issues#517296](https://gitlab.com/gitlab-org/gitlab/-/issues/517296) handles this.
+
+NOTE:
+
+- The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
+  - To support Cells 2.0 (i.e: allow moving organizations from
+  Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
+  Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
+  and it is estimated to take around 12 months.
+
+More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
 ```proto
 // sequence_request.proto
 
 message GetCellSequenceInfoRequest {
-  optional string cell_name = 1; // if missing, it is deduced from the current context
+  optional string cell_id = 1; // if missing, it is deduced from the current context
 }
 
 message SequenceRange {
@@ -674,7 +721,7 @@ graph TD;
         end
         cell_us_east;
       end
-      subgraph Multi-regional Cloud Spanner Cluster 
+      subgraph Multi-regional Cloud Spanner Cluster
         spanner_us_central;
         spanner_us_east;
       end
@@ -699,7 +746,7 @@ Citations:
 
 1. Google (n.d.). Using private service connect with cloudrun services. Google Cloud. Retrieved Nov 11, 2024, from <https://cloud.google.com/vpc/docs/private-service-connect>
 1. Google (n.d.). How multi-region with cloud spanner works. Google Cloud. Retrieved Nov 11, 2024,<https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations>
-1. [ADR for private service connect](..q/decisions/004_vpc_subnet_design/)
+1. [ADR for private service connect](decisions/004_vpc_subnet_design.md)
 
 ### Performance
 

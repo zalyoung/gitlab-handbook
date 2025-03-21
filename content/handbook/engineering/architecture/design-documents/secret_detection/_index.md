@@ -5,7 +5,7 @@ creation-date: "2024-12-10"
 authors: [ "@theoretick", "@vbhat161", "@ahmed.hemdan" ]
 coach: [ "@theoretick" ]
 approvers: [ "@abellucci", "@amarpatel" ]
-owning-stage: "~devops::application security testing" 
+owning-stage: "~devops::application security testing"
 participating-stages: [ "~devops::systems" ]
 toc_hide: true
 ---
@@ -187,7 +187,7 @@ for past discussion around scaling approaches.
 
 ### Detection engine
 
-Our current secret detection offering uses [Gitleaks](https://github.com/zricethezav/gitleaks/)
+Our current secret detection offering uses [Gitleaks](https://github.com/gitleaks/gitleaks/)
 for all secret scanning in pipeline contexts. By using its `--no-git` configuration
 we can scan arbitrary text blobs outside of a repository context and continue to
 use it for non-pipeline scanning.

@@ -92,7 +92,7 @@ For additional assistance with accessing your GCP project, see the [GitLab Sandb
 
 1. In the *Connect to the cluster* pop-up modal, click the **Run in Cloud Shell** button.
 
-   If you have experience with `kubectl` and `gcloud` command-line tools, you can optionally use the command shown. If you want to use them locally, you need to install them from here ([kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-with-homebrew-on-macos), [gcloud](https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions)).
+   If you have experience with `kubectl` and `gcloud` command-line tools, you can optionally use the command shown. If you want to use them locally, you need to install them from here ([kubectl](https://kubernetes.io/docs/tasks/tools/#install-with-homebrew-on-macos), [gcloud](https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions)).
 
    ![Cloud shell access](https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-4.png)
 

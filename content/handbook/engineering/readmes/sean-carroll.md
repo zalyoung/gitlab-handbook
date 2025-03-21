@@ -53,7 +53,7 @@ Please don't hesitate to schedule one with me!
 
 - [MacBook Pro](/handbook/it/end-user-services/onboarding-access-requests/#apple-hardware)
 - Paper notebook, I like [Moleskins](https://www.amazon.com/Moleskine-Classic-Cover-Notebook-Ruled/dp/8883701127)
-- [Fully Standing Desk](https://www.fully.com/en-eu/standing-desks/jarvis/jarvis-hardwood-standing-desk.html)
+- [Fully Standing Desk](https://store.hermanmiller.com/brands-fully)
 - Office chair
 - [Bose 700](https://www.bose.com/c/headphones/noise-cancelling) Noise canceling headphones, essential for deep focus.
 

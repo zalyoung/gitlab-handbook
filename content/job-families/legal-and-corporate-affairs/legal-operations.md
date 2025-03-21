@@ -36,6 +36,37 @@ The Legal Operations Manager is a [grade 7](/handbook/total-rewards/compensation
 - Interest in, and ability to use various software technologies including GitLab and other legal and legal operations software tools
 - You share the GitLab values and work in accordance with those values
 
+### Senior Legal Operations Manager
+
+#### Summary
+
+The Senior Legal Operations Manager supports effective and efficient functioning of the GitLab Legal & Corporate Affairs team by identifying and implementing opportunities to optimize the operational and organizational aspects of the team. The Senior Legal Operations Manager reports to the Chief of Staff, Legal & Corporate Affairs.
+
+#### Senior Legal Operations Manager Job Grade
+
+The Senior Legal Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+
+#### Senior Legal Operations Manager Responsibilities
+
+- Program and project manage GitLab initiatives from inception and through implementation and beyond to future iterations, including the launch of new technologies and updated processes and procedures
+- Proactively design and execute plans for operational improvements
+- Organize and track milestones and requirements for successful initiatives across GitLab
+- Audit, organize, and maintain GitLab Legal & Corporate Affairs handbook content leveraging input from content DRIs
+- Facilitate/create Legal & Corporate Affairs training and enablement for GitLab, including administering the company-wide compliance training platform
+- End to end management of the Legal & Corporate Affairs tech stack, from strategy to user provisioning and vendor relationships
+- Assist in the management and tracking of GitLab Legal OKRs
+- Assist in fiancial and budget management for the Legal & Corporate Affairs organization, as needed
+
+#### Senior Legal Operations Manager Requirements
+
+- Minimum 7 years of relevant operations experience
+- Proactively identifies problems, creates and optimizes efficient processes and solutions
+- Strong ability to analyze, iterate, and prioritize multiple projects
+- Excellent problem solving, project management, attention to detail, interpersonal, and organizational skills
+- Adept at predicting and removing blockers and collaborating internally and externally
+- Interest in, and ability to use and teach various software technologies, including GitLab 
+- Shares the GitLab values and works in accordance with those values
+
 ### Director, Contracts and Legal Operations
 
 The Director, Contracts and Legal Operations reports to the [Chief Legal Officer](/job-families/legal-and-corporate-affairs/chief-legal-officer/).
