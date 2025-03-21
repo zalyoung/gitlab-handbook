@@ -33,7 +33,7 @@ The form has two required fields:
   - Check the current "Additional Units" value (Y)
   - Add the current units (Y) + the new units you want (X)
   - Enter this total in the "Extra amount of units of compute" field
-For example, to add 1000 units to namespace with a total of 6000 Additional Compute Units, set the "Extra amount of units of compute" field to 7000.   (***Note:** This will update the 'Additional Units' value in the group's 'Usage Quotas' page.* )
+For example, to add 1000 units to namespace with a total of 6000 Additional Compute Units, set the "Extra amount of units of compute" field to 7000.   (***Note:** This will update the 'Additional Units' value in the namespace's 'Usage Quotas' page.* )
 
 ### Enable compute minutes
 
