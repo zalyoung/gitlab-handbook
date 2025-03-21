@@ -37,11 +37,22 @@ This process addresses escalations for CSM-assigned customers. This process can 
 
 ### Escalation DRI
 
-Based on the level of the escalation, the DRI for the escalation will be:
+The DRI for the escalation is determined by evaluating these options in order:
 
-1. CSM will be the DRI for account escalations (except otherwise agreed with Support)
-2. The Professional Services Project Manager for any escalation during/as a part of a professional services project
-3. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
+1. If the escalation is related to an ongoing Professional Services project, the Professional Services Project Manager will be the DRI of the escalation.
+1. If the escalation is NOT related to an ongoing Professional Services project and there is a CSM assigned to the account, the CSM will be the DRI.
+1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
+
+```mermaid
+flowchart TD;
+    A[Account Escalation Identified] --> B{Is this related to a Professional Services Project?};
+    B -->|Yes| C[Professional Services Project Manager is DRI];
+    B -->|No| D{Does customer have an assigned CSM?};
+    D -->|Yes| E[CSM is DRI];
+    D -->|No| F[Customer assigned to TAM Scale];
+    F --> G[AE is DRI];
+    G --> H[CSE assigned via CSE Help Case. CSE is lead technical collaborator.];
+```
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
 
@@ -170,7 +181,7 @@ After the escalation case is opened in Salesforce, you will need to post in the 
 - **Severity**: High
 - **Status**: Opened
 - **Product DRI**: "[Assigned Product DRI](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002)"
-- **Support DRI**: "Optional/in case support involvement is necessary use support-manager-oncall slack handle"
+- **Support DRI**: "If support involvement is necessary use the @support-manager-oncall slack handle. Please ensure a support ticket is opened with a description of the issue. Support will engage with Engineering by following their [RFH process](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team)."
 - **Description**: "<Example <Customer> platform is impacted by performance problems since several weeks and users are affected on a daily base which is driving the customer into a critical state. The performance problems are also risking their our license expansion.>"
 - **FYI**: "<TAG_YOUR_MANAGER_HERE>"
 
