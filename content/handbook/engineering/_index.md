@@ -197,8 +197,7 @@ There are five departments within the Engineering Division:
 
 - [Core Development Department](/handbook/engineering/core-development/)
 - [Expansion Development Department](/handbook/engineering/expansion-development/)
-- [Technical Infrastructure](/handbook/engineering/infrastructure/)
-- [SaaS Platforms](/handbook/engineering/infrastructure/platforms/)
+- [Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/)
 - [Support Engineering Department](/handbook/support/)
 
 ## Other Related Pages
