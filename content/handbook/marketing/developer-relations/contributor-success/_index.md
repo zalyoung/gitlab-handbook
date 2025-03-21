@@ -172,7 +172,7 @@ We use `priority` labels to designate focus areas per quarter.
 
 - `workflow::validation backlog`: Issues start in our backlog so the team can validate for effort vs. impact against our KPIs, OKRs and team strategies.
 - `workflow::refinement`: These issues are validated and refined through planning and team discussion before they are marked as ready. Issues should have an Implementation Plan section before moving to the next workflow stage.
-- `workflow::ready for development`: These issues are ready to be picked up, have an Implementation Plan section and should have a `priority` label.
+- `workflow::ready for development`: These issues are ready to be picked up, have an Implementation Plan section and a `priority` label.
 - `workflow::in dev`: Issues actively being worked on this quarter.
 - `workflow::blocked`: Issues currently blocked. The description must note the blocker and include a link to issues that would unblock.
 - `workflow::complete`: Issues that are resolved after implementation. These should be highlighted in reports back to the team and DevRel department before being closed.
