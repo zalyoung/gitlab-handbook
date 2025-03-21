@@ -864,26 +864,27 @@ Once this information has been received, please go onto GH and follow the steps 
 
 ## Creating an Israel offer
 
-1. You will receive a req to create an Israel offer.
+When you receive a request to make an offer in Israel, please take the following steps. 
+
 1. In Greenhouse, click on Job setup, then hiring team, then add Sarah Rogers & Darren Burr to the job granting them the Job Admin: FPA and Legal permissions, then save.
-1. The start dates for Israel team members can be a Sunday, given that their work week is Sunday through Thursday. Please let the people connect team know that the start date would be a Sunday.
-1. Send a Slack message to the Legal Team in ces_legal_contracts requesting assistance with the offer. When making the request in the channel, please indicate the candidate’s name and include the link to the GH profile & request them to give the compensation breakdown.
+1. The start dates for Israel team members can be a Sunday, given that their work week is Sunday through Thursday. Please let the People Connect Team know that the start date would be a Sunday.
+1. Send a message to the Legal Team the in ces_legal_contracts slack channel requesting assistance with the offer. When making the request in the channel, please indicate the candidate’s name, include the link to the GH profile & request them to give the compensation breakdown as well as let you know what contract template to use.
 1. One of the Legal Team members will respond with the following information:
    - The GreenHouse Offer Template that you should use
    - The compensation breakdown & CES to add the ID number in Exhibit A
-   - The wording that should be added to the template (including information on where the wording should be placed). This wording will be placed as provided by Legal.
+   - The language that should be added to the template (including where on the contract the wording should be placed).
 
-Once this information has been received, please go onto GH and follow the steps below:
+Once this information has been received, please go into GH and follow the steps below:
 
 1. Click on the settings icon
 1. Select 'Offer Templates' on the left-hand side
 1. Search for the Template as advised by Legal
-1. Click on the three dots on the right-hand side of the template you will be using and select the 'download' tab
+1. Click on the three dots on the right-hand side of the template you will be using and select the 'download' option
 1. Open the document in Google Docs
 1. Make all the changes as advised by the Legal Team and save the document
 1. Go back to the offer templates page on GH
 1. Click on 'Upload New' on the right-hand side
-1. Upload the amended document
+1. Upload the amended document using a title with the candidates initials (this is so you can identify the template when you go to generate the contract)
 1. Then follow the normal offer creation process in GH and select your uploaded document as the offer template for this offer.
 1. Please remember to delete this template once you have completed the process and the offer has been signed by the signatory & the candidate
 
