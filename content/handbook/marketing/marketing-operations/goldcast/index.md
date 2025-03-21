@@ -9,6 +9,8 @@ description: "Goldcast is a digital events platform that helps B2B marketers cre
 
 [Goldcast](https://www.goldcast.io/) is one of the official hosts of GitLab's ongoing webcast series. See upcoming and on-demand webcasts [here](https://webcasts.gitlab.com/). 
 
+For questions about Goldcast, reach out to mktgops via our Slack channel or through the `goldcast-webcasts` channel until it is retired in FY26 Q3
+
 ## Official Goldcast Resources
 
 - The [Goldcast Knowledge Base](https://help.goldcast.io/) houses a plethora of step-by-step guides that walk through all aspects of the platform.
