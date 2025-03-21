@@ -13,6 +13,8 @@ For UK-based team members, GitLab provides 100% paid membership of medical insur
 Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please reach out via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
+AXA hosted a webinar for GitLab Team Members on 2025-03-19. Team Members can watch the recording [here](https://drive.google.com/file/d/1UMZJoDxEfKQ96KYfTpn3GYxpKeWb7Luj/view?usp=sharing)
+
 ### Enrollment
 
 Please let the Total Rewards team know if you would like to join the scheme via email to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com`  Include the following details:
