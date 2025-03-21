@@ -635,7 +635,7 @@ More information can be found on the [Government of Manitoba website](https://ww
 
 </details>
 
-###  Long Term Disability Leave - Continuance of Coverage 
+### Long Term Disability Leave - Continuance of Coverage 
 
 It is the policy of GitLab Canada Corp. to provide continuity of coverage under the group insurance plan for individuals who are disabled.  The period of coverage extends for 24 months  following the date of total disability.  Premium payment conditions will remain the same as are in place for active employees.  Following 24 months from the date of your total disability, your benefits under the plan will cease and terminate.  Conversion products are available.  You may contact either our existing insurer directly, or our brokers at SC Insurance (info@scinsurance.ca) to learn more about your options and discuss these conversion products.
 
