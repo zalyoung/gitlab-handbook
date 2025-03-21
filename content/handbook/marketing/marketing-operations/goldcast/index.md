@@ -212,7 +212,7 @@ When the Goldcast event and Marketo program are connected, Goldcast will automat
 
 - `02 Goldcast Form Registration and Live`: Goldcast automatically changes program statuses when events and Marketo programs are connected. This smart campaign watches for program status changes for `Attended`, `No Show`, `Canceled`, `Rejected`, `Waitlisted` and `Registered`. If the event's registration is started on a Goldcast landing page, this smart campaign needs to be turned on immediately and before invite emails are sent out to invitees. This smart campaign needs to be active before the event, regardless of registration landing page location
 - `03 Goldcast Processing - On Demand - Goldcast/Pathfactory`: This smart campaign is designed to process `on-demand` attendees based on either Goldcast post-event viewing or Pathfactory viewing. Needs to be turned on within 30 minutes of the webcast ending to work correctly for Goldcast on demand attendees
-- `04 Goldcast Processing - Engagement`: Under construction - Intention is to mark leads with the `Follow Up Requested` status. 
+- `04 Goldcast Processing - Engagement`: If an attendee clicks the CTA button, by default marked as `Talk to an Expert`, in either an Event or in a Booth, this flow marks leads with the `Follow Up Requested` status. In order for this flow to work, it must be active and needs to have the event ID place in the trigger filter. Otherwise the CTA button will not MQL the lead for follow up
 
 ## Navigating Inside a Goldcast Event, pre-live
 
