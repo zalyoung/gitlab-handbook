@@ -104,7 +104,7 @@ This card provides your group plan number and member identification number. Keep
 
 Your benefits will cease on the day of your termination. There may be options to convert elements of your benefit plan to individual coverage, without medical questions. You can contact our brokers, SC Insurance, for more information about your options. You can find contact information below. Options are limited to a period of time after your coverage terminates, typically 30 or 60 days.
 
-SC Insurance: info@scinsurance.ca or call 416.259.1166
+SC Insurance: info@scinsurance.ca or call 416.259.1166 
 
 ### Frequently asked questions
 
@@ -634,6 +634,12 @@ More information can be found on the [Government of Manitoba website](https://ww
 - Team Members should select `Out Sick` in Workday.
 
 </details>
+
+### Long Term Disability Leave - Continuance of Coverage 
+
+It is the policy of GitLab Canada Corp. to provide continuity of coverage under the group insurance plan for individuals who are disabled.  The period of coverage extends for 24 months  following the date of total disability.  Premium payment conditions will remain the same as are in place for active employees.  Following 24 months from the date of your total disability, your benefits under the plan will cease and terminate.  Conversion products are available.  You may contact either our existing insurer directly, or our brokers at SC Insurance (info@scinsurance.ca) to learn more about your options and discuss these conversion products.
+
+If at any time you are no longer deemed to be totally disabled, your benefits may terminate on that day unless you have returned to work on a full time basis.
 
 ## Administrative Details for Benefits Team
 
