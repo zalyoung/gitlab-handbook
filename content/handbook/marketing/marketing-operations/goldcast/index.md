@@ -42,6 +42,7 @@ description: "Goldcast is a digital events platform that helps B2B marketers cre
 - When set to `Automatic`, the `Session Redirection Strategy` setting automatically allows registrants in at the event start time, but does not immediately force presenters on-stage. Having this set to `Manual` requires staff input to allow users in/out of the event
 - Goldcast registration landing pages are activated by default and cannot be deactivated, automatically deactivating soon after the event is over. The choice to use Marketo LPs vs Goldcast LPs is up to the event owner
 - File size maximum for video in a standard event is 5gb but we can contact support if the size is larger for a large event
+- To cut down on complexity and strain on Marketo, the `Attended On Demand` Marketo program flows for both Goldcast and for Pathfactory are shared. Have Pathfactory keywords in mind or reserved before the webcast air date so this flow can be turned on quickly after the event ends 
 
 ## Fields syncing between Marketo and Goldcast
 
@@ -211,7 +212,7 @@ When the Goldcast event and Marketo program are connected, Goldcast will automat
 ### Additional smart campaigns
 
 - `02 Goldcast Form Registration and Live`: Goldcast automatically changes program statuses when events and Marketo programs are connected. This smart campaign watches for program status changes for `Attended`, `No Show`, `Canceled`, `Rejected`, `Waitlisted` and `Registered`. If the event's registration is started on a Goldcast landing page, this smart campaign needs to be turned on immediately and before invite emails are sent out to invitees. This smart campaign needs to be active before the event, regardless of registration landing page location
-- `03 Goldcast Processing - On Demand - Goldcast/Pathfactory`: This smart campaign is designed to process `on-demand` attendees based on either Goldcast post-event viewing or Pathfactory viewing. Needs to be turned on within 30 minutes of the webcast ending to work correctly for Goldcast on demand attendees
+- `03 Goldcast Processing - On Demand - Goldcast/Pathfactory`: This smart campaign is designed to process `on-demand` attendees based on either Goldcast post-event viewing or Pathfactory viewing. Needs to be turned on within 30 minutes of the webcast ending to work correctly for Goldcast on demand attendees. Have Pathfactory keywords in-mind or ready so those filters can be added to the trigger and the flow can be activated before the 35 minute mark post-event 
 - `04 Goldcast Processing - Engagement`: If an attendee clicks the CTA button, by default marked as `Talk to an Expert`, in either an Event or in a Booth, this flow marks leads with the `Follow Up Requested` status. In order for this flow to work, it must be active and needs to have the event ID place in the trigger filter. Otherwise the CTA button will not MQL the lead for follow up
 
 ## Navigating Inside a Goldcast Event, pre-live
