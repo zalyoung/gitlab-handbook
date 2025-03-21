@@ -139,7 +139,7 @@ Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1
 
 ### Salary Sacrifice
 
-Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
+Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). The Total Rewards team will review the request to approve, and send it to the Non-US Payroll team to process. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
 
 **Salary Sacrifice FAQ**
 
@@ -152,7 +152,7 @@ Team Members who have signed a UK Employment contract after 13 December 2022 wil
 - Is it possible to start from any month?
   - Yes it is; it would be processed on the next available payroll.
 - How do I opt in or out or make changes to my salary sacrifice amount?
-  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email total-rewards@gitlab.com and nonuspayroll@gitlab.com with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
+  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). The Total Rewards team will review the request to approve, and send it to the Non-US Payroll team to process.
 
 ### Auto-Enrollment
 
@@ -237,7 +237,7 @@ If you decide to opt out of the scheme you can do this within one month of the e
 
 <summary>Re-joining</summary>
 
-If you decide to re-join the scheme you can do so by emailing or sending a signed letter to People Operations. If you send an email, it should be from your personal email address, please ensure it contains the phrase `I confirm I personally submitted this notice to join a workplace pension scheme`. You can only re-join once in any 12 month period.
+If you decide to re-join the scheme you can do so by submitting a [HelpLab Ticket](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=a3e7bb0d474c069067429ee0026d4328). You will be asked to write a letter or send an email from your personal email address. The letter will need to include the phrase `I confirm I personally submitted this notice to join a workplace pension scheme`. You can only re-join once in any 12 month period.
 
 </details>
 
