@@ -11,7 +11,7 @@ description: "GitLab Dedicated Support overview."
 When working on GitLab Dedicated tickets, a good mental model to follow is to determine if the issue is an Application issue or an Infrastructure issue.
 
 - If you're dealing with an Application issue, that is, the issue is within the GitLab application, then you can treat it like a Self-Managed instance while being mindful of the [features that are not available for GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#unavailable-features).
-- If it's an infrastructure issue, you'll want to consider engaging with the SREs by opening a [Request for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) or opening an incident. The [runbooks](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/runbooks) used by the SREs may be useful additional context.
+- If it's an infrastructure issue, you'll want to consider engaging with the SREs by opening a [Request for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated), checking [for incidents](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?type%5B%5D=incident), or [raising one yourself](#raise-a-dedicated-incident). The [runbooks](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/runbooks) used by the SREs may be useful additional context.
 
 Use the [SaaS, Self-Managed and Dedicated Troubleshooting tables](/handbook/support/workflows/saas_sm_cheatsheet/) to learn more about the differences between `gitlab.com`, self-managed and GitLab Dedicated.
 
