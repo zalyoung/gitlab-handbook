@@ -1,6 +1,6 @@
 ---
 title: Localization
-description: Learn more about the Localization team's vision and processses.
+description: Learn more about the Localization team's vision and processes.
 ---
 
 ## Introduction
@@ -51,8 +51,8 @@ The Localization team manages general localization-related, language-specific an
 - `#spartan-software`: For communication with our technology partner, [Spartan Software](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/41).
 - `#oban-international`: For communication with our copywriting and digital marketing agency, [Oban International](https://obaninternational.com/).
 - `#crowdin_gitlab`: For communication with our technology provider for product UI text localization, [Crowdin](https://crowdin.com/).
-- `#argos_multilingual`: For communication with [Argos Multilingual], our language services, solutions and technology provider for product and technical documentation.
-- `#terminology`: For communication with our terminology consultant, vendors (Translated and Agos Multilingual) and the technology provider of the terminology management system, [Kaleidoscope](https://kaleidoscope.at/en/).
+- `#argos_multilingual`: For communication with [Argos Multilingual](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/60), our language services, solutions and technology provider for product and technical documentation.
+- `#terminology`: For communication with our terminology consultant, vendors (Translated and Argos Multilingual) and the technology provider of the terminology management system, [Kaleidoscope](https://kaleidoscope.at/en/).
 - `#japan_localization_gitlab`: For localization questions and collaboration between Japanese-speaking team mates, stakeholders, and [language specialists from Translated](https://gitlab.com/gitlab-com/localization/localization-team/-/issues/125).
 - `#french-localization`: For collaboration between GitLab and language specialists from Translated.
 - `#german-localization`: For collaboration between GitLab and language specialists.
