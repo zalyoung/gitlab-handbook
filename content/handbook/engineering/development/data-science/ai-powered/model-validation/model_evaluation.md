@@ -14,7 +14,7 @@ The effectiveness of our validation system is measured primarily through **turna
 * **Existing vendors (standard evaluation urgency)**: 5 business days
 * **New vendors**: 15 business days (best effort to achieve this, but we are dependent on vendor response times)
   * There is a 30 day notice to sign up a new sub-processor (i.e. a new model host). We don’t need to notify customers if we are moving off of a sub-processor or terminating the relationship, but we do need to notify if we are moving customer-facing features to a new model host.
-  * To submit a new sub-processor, create a new Legal issues using the `general-legal-template` issue template with the model provider details.
+  * To submit a new sub-processor, create a new Legal issue in the Legal project using the `general-legal-template` [issue template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=general-legal-template) with the model provider details.
 
 This turnaround time encompasses assessment across operational metrics (legal and compliance requirements), technical metrics (resource utilization and performance benchmarks), and integration metrics (deployment complexity and usability).
 
