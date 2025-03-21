@@ -243,4 +243,4 @@ Gitaly team is responsible for maintaining reasonable serving capacity for gitla
 
 We get alerts from Tamland if capacity runs low, see [this issue comment](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1666#note_1786916965).
 
-[Capacity planning](/handbook/engineering/infrastructure-platforms/production-enginering/observability/capacity_planning/) documentation explains how this works in general.
+[Capacity planning](../../../production-engineering/observability/capacity_planning.md) documentation explains how this works in general.
