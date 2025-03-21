@@ -29,7 +29,11 @@ Allows setting additional compute minutes to a customer namespace to the value s
 The form has two required fields:
 
 - **Namespace**: The customer namespace as it appears in the URL.
-- **Extra minutes**: The value of compute minutes to add. (***Note:** This will update the 'Additional Minutes' value.* )
+- **Extra minutes**: The value of compute units to set. If you want to add X amount of compute units to a namespace:
+  - Check the current "Additional Units" value (Y)
+  - Add the current units (Y) + the new units you want (X)
+  - Enter this total in the "Extra amount of units of compute" field
+For example, to add 1000 units to namespace with a total of 6000 Additional Compute Units, set the "Extra amount of units of compute" field to 7000.   (***Note:** This will update the 'Additional Units' value in the namespace's 'Usage Quotas' page.* )
 
 ### Enable compute minutes
 
