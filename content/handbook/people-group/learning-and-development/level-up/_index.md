@@ -1,8 +1,8 @@
 ---
-title: Level Up
+title: LevelUp
 ---
 
-## Leveling Up Level Up
+## Leveling Up LevelUp
 
 Get ready for **HUGE** changes coming to learning technology for GitLab team members! We are upgrading the technology solution that powers Level Up to better support the pace, demand, complexity, and CULTURE of GitLab. This overhaul will allow team members to engage around learning in a COMPLETELY different way. 
 
@@ -47,6 +47,28 @@ The new Cornerstone Talent Experience Platform (TXP) offers significant improvem
 
 Initial launch is planned for the engineering teams in late March 2025, with details on company-wide rollout to follow.
 
+## FAQs
+
+- **I completed a number of learning courses in the Legacy platform, what will happen to my learning data?**
+- Your learning history may not be migrated when you first login to the new LevelUp system, but all team members' learning data is preserved, and will be migrated as the system over the next weeks and months, team members don't need to take any action.
+- You do not need to retake any courses you've already completed.
+
+- **I've noticed somethiing in the new system that isn't working properly, or would like to give feedback on a platform feature, who should I tell?**
+- Please share any feedback in the [LevelUp feedback issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/830).
+
+- **When will I lose access to the legacy system?**
+- The legacy Level Up system uses the same vendor (ThoughtIndustries), as GitLab University, which serves our partnes and customers with GitLab product training and education content. Therefore the system won't be going away, but we will likely sunset it for team members at some point. We'll announce more when a full timeline is planned, but access won't be restricted, and it is expected to be after Q2.
+- For a transition period, you'll still have access to both systems.
+
+- **Will all content be migrated to the new system?**
+- We are conducting a full content audit from the legacy system, and all relevant content will be migrated to the new LevelUp. If you notice something missing that should be added, please let us know in the [LevelUp feedback issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/830), or the #learninganddevelopment slack channel.
+
+- **How do I login to the new system?**
+- Access will be granted via Okta - search the LevelUp Okta tile.
+
+- **I have a question about how something works in LevelUp, who should I ask?**
+- Please let us know in the [LevelUp feedback issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/830).
+
 ## Platform Guide
 
 Read on below to learn about the functionality in LevelUp, including terminology, and guides to specific features.
@@ -54,6 +76,8 @@ Read on below to learn about the functionality in LevelUp, including terminology
 ### Smartcards
 
 The basic unit of content in LevelUp. A SmartCard is a single piece of learning material like a video, article, quiz, or link to helpful resources.
+
+> **Note:** By default, all users can create SmartCards, but if you're interested in putting a Pathway together, please open an access request to be a course author in LevelUp, and assign it to @jallen16, who can uplift your access permissions.
 
 #### How to Create a SmartCard in LevelUp
 
@@ -82,6 +106,10 @@ Creating a SmartCard is simple and allows you to share valuable learning content
 - Quality Over Quantity: Focus on sharing truly valuable content that addresses specific learning needs
 
 Remember, SmartCards created within a Pathway will only be discoverable in that Pathway, while SmartCards created independently can be discovered and used across the platform.
+
+#### Smartcard Thumbnails
+
+We have a directory of branded Smartcard thumbnails available here for team members to use for content they're creating - you can [access it here](https://drive.google.com/drive/u/0/folders/1vhI_6VsQ9EZ9lCTMrD2lGrCM4HodQ55S).
 
 ### Pathways
 
