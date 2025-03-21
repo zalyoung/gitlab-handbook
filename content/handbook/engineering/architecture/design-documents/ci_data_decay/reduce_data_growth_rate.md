@@ -70,12 +70,14 @@ The configuration data stored in `file` consolidates information from multiple e
 
 This structure maintains the relationships between our existing data while eliminating redundancy. Each field maps directly to its source in our current schema, making the migration path clearer and maintaining data integrity.
 
+For a `tier::3` pipeline on `gitlab-org/gitlab` that contains around 750 jobs, we'll be using less than `10MB` of disk space.
+
 ### Data classification and lifecycle
 
 Our optimization strategy recognizes that CI/CD data serves different purposes throughout its lifecycle. We've identified three distinct categories of data:
 
-- *Long-term Data* represents the essential history of CI/CD operations. This includes jobs statuses, logs, and artifacts that must be preserved for compliance and historical reference. This data will continue to be stored in our primary tables and only deleted at the user's request.
-- *Processing Data* encompasses the configuration and instructions needed for job execution. This data, which includes runner instructions and job configurations, will be stored in our new blueprint system and frequently accessed and/or mutable data will be stored in a new table. When a pipeline needs to be retried or referenced, we can efficiently reconstruct its configuration from the blueprint. We must keep the option available to delete this data when a pipeline is no longer retryable.
+- *Long-term Data* represents the essential history of CI/CD operations. This includes jobs statuses, logs, and artifacts that must be preserved for compliance and historical reference. This data will continue to be stored in our primary tables. Being a canonical reference, keeping or deleting this data is a Product concern, not strictly Engineering.
+- *Processing Data* encompasses the configuration and instructions needed for job execution. This data, which includes runner instructions and job configurations, will be stored in the new blueprint system and frequently accessed and/or mutable data will be stored in a new table. When a pipeline needs to be retried or referenced, we can efficiently reconstruct its configuration from the blueprint. We must keep the option available to delete this data when a pipeline is no longer retryable.
 - *Ephemeral Data* consists of temporary information only needed during job execution, such as job tokens. We can keep this data into the `ci_running_builds` table since the entries are removed after the job completes.
 
 <details>
@@ -261,7 +263,7 @@ erDiagram
         bigint project_id FK
         integer file_store
         text file
-        test file_sha256
+        bytea file_sha256
         timestamp created_at
         timestamp updated_at
     }
@@ -413,10 +415,11 @@ Our implementation approach focuses on maintaining system stability while gradua
 
 For new pipelines, we'll enhance the `Ci::CreatePipelineService` to generate blueprint configurations. The service will calculate a checksum of the configuration and either create a new blueprint or reference an existing one if the configuration matches. This ensures deduplication without compromising the independence of individual pipelines.
 
-Migration of existing data presents unique challenges due to our historical data formats. Recent jobs store their configuration in the `p_ci_builds_metadata` table as JSON, while older jobs use YAML stored in `p_ci_builds.options` and `p_ci_builds.yaml_variables`. Our migration strategy will handle both formats:
+Once we confirm that the blueprint record is created as expected, we can change the application logic to use the blueprint if it exists or fallback to build metadata.
 
-- For recent JSON-based configurations, we'll leverage PostgreSQL's JSON aggregation functions to efficiently consolidate data at the database level. This allows for rapid migration of newer pipelines with minimal application overhead.
-- For legacy YAML configurations, we'll need more careful handling at the application level to parse and convert the data correctly. This process will be managed through background jobs to minimize impact on system performance.
+Migration of existing data presents unique challenges due to our historical data formats. Recent jobs store their configuration in the `p_ci_builds_metadata` table as JSON, while older jobs use YAML stored in `p_ci_builds.options` and `p_ci_builds.yaml_variables`. Our migration strategy will handle both formats.
+
+In parallel with the blueprint changes we can work on the changes for `p_ci_builds_runtime_configs` table.
 
 ### Success metrics and monitoring
 
