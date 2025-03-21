@@ -66,8 +66,17 @@ To engage with the GitLab Dedicated teams:
 
 In the case of a [Sev-1 or Sev-2 Incident](/handbook/engineering/infrastructure/incident-management/#severities), please *Page* the GitLab Dedicated Engineer On Call. Further guidance on when to use this can be found [here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#what-is-an-emergency).
 
+#### Dedicated for Commercial
+
+1. From any Slack channel, use `/inc escalate`:
+   1. Under `On-Call Teams` select `dedicated EOC`
+   1. Provide information on the report in the `Notification Message`
+   1. *Urgency*, *Priority* and *Assign To* should not be set
+
+#### Dedicated for Government
+
 1. From any Slack channel, use `/pd trigger`:
-   1. Impacted Service: `Dedicated Platform Service` (for commercial customers) or `Dedicated US Public Sector Platform Service`
+   1. Impacted Service: `Dedicated US Public Sector Platform Service`
    1. Title: `GitLab Dedicated`
    1. Description: Provide information on the report, and how you can be contacted
    1. *Urgency*, *Priority* and *Assign To* should not be set
