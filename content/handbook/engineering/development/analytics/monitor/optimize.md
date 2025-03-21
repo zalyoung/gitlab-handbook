@@ -386,6 +386,19 @@ Considerations for data seeding scripts:
 - Ensure scripts are parameterized allowing specification of group or project ID where relevant
 - Ensure scripts can be run repeatedly without failure
 
+#### Feature Flags
+
+We (use feature flags as needed)[https://handbook.gitlab.com/handbook/product-development-flow/feature-flag-lifecycle] to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we fully understand the rollout dependencies and timeline. We strive to minimize long-living feature flags whenever possible.
+
+The following roles and responsibilities are associated with feature flags we own:
+
+- DRI assignment
+  - The author introducing a feature flag is the DRI of the feature flag rollout.
+- Auditing and cleanup
+  - The EM is DRI for auditing feature flags owned within the stage and will schedule cleanups in collaboration with the feature flag DRI.
+- Process improvements
+  - Everyone is encouraged to contribute toward process improvements.
+
 ## Meetings
 
 Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:
