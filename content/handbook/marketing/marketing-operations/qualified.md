@@ -107,6 +107,7 @@ In the Qualified admin settings, navigate to `Experiences` and select `Automatic
 ### Qualified AI Email
 
 Beginning in FY26 Q1 we will be testing Qualified's AI email functionality. Our test includes two use cases.
+
 1. Visitors to the GitLab marketing site who are offered to book a meeting through the Qualified chat and who fail to book that meeting. AI will follow up via email to attempt to re-capture that meeting booking on behalf of the Sales Development rep whose calendar was shown. These leads and contacts will MQL as usual since they have shown enough intent to either explicitly request a meeting or trigger an AI goal to offer a meeting. Once AI reaches out via email the record will move to Accepeted status and on to either Recycle or Qualifiying depending on the outcome of the email campaign. 
 2. Leads and contacts added to specific content syndication campaigns. These will be earlier in the funnel prospects in an attempt to raise interest earlier and more quickly. The status of these recods in Salesforce will not be updated. Rather we will indicate that these leads are being reached out to by AI with a checkbox on the record. Once the AI email campaign is over, the box will uncheck and the record will continue it's normal lifecycle. The record will need to be routed to a Sales Development rep and if there is a response they will be able to respond back via email and dispostion the lead appropriately.
 
