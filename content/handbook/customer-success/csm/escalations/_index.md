@@ -51,7 +51,7 @@ flowchart TD;
     D -->|Yes| E[CSM is DRI];
     D -->|No| F[Customer assigned to TAM Scale];
     F --> G[AE is DRI];
-    G --> H[CSE assigned via CSE Help Case. CSE is lead technical collaborator];
+    G --> H[CSE assigned via CSE Help Case. CSE is lead technical collaborator.];
 ```
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
