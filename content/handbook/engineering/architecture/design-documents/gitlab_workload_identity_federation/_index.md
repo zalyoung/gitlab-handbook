@@ -68,7 +68,6 @@ sequenceDiagram
     participant Client
     participant GitLab STS as GitLab Secure Token Service
     participant GitLab Rails
-    participant GitLab APIs
 
     External Identity Provider->>External Identity Provider: Mint identity token
     External Identity Provider->>Client: Provide external identity token
@@ -86,11 +85,11 @@ sequenceDiagram
     GitLab STS->>GitLab Rails: Request identity mapping metadata
     GitLab Rails-->>GitLab STS: Return identity mapping metadata
 
-    GitLab STS->>GitLab STS: Mint new token with principal mapping
+    GitLab STS->>GitLab STS: Mint new token including mapped principal
     GitLab STS-->>Client: Return new token
 
-    Client->>GitLab APIs: Authenticate with new token
-    GitLab APIs-->>Client: Process authenticated request
+    Client->>GitLab Rails: Authenticate with new token
+    GitLab Rails-->>Client: Process authenticated request
 ```
 
 ## Decisions
