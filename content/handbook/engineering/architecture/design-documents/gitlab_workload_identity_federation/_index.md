@@ -62,8 +62,39 @@ The claims in the identity tokens will be used to map external identity onto
 GitLab principal. After a successful mapping, GitLab STS will mint another
 token which will be used by client SDKs to interact with GitLab APIs.
 
+```mermaid
+sequenceDiagram
+    participant External Identity Provider
+    participant Client
+    participant GitLab STS as GitLab Secure Token Service
+    participant GitLab Rails
+    participant GitLab APIs
+
+    External Identity Provider->>External Identity Provider: Mint identity token
+    External Identity Provider->>Client: Provide external identity token
+
+    Client->>GitLab STS: Send external token
+
+    GitLab STS->>GitLab Rails: Verify if external IdP is allowed
+    GitLab Rails-->>GitLab STS: Confirm IdP is allowed
+
+    GitLab STS->>External Identity Provider: Request JWKs
+    External Identity Provider-->>GitLab STS: Return JWKs
+
+    GitLab STS->>GitLab STS: Validate external token signature
+
+    GitLab STS->>GitLab Rails: Request identity mapping metadata
+    GitLab Rails-->>GitLab STS: Return identity mapping metadata
+
+    GitLab STS->>GitLab STS: Mint new token with principal mapping
+    GitLab STS-->>Client: Return new token
+
+    Client->>GitLab APIs: Authenticate with new token
+    GitLab APIs-->>Client: Process authenticated request
+```
+
 ## Decisions
 
 1. STS-001: Build GitLab Secure Token Service inside [glgo][].
-1. STS-002: Implement external identity to GitLab service account-internal mapping.
+1. STS-002: Implement external identity to GitLab service account mapping.
 1. STS-003: Add support for accessing GitLab APIs with JWTs minted by GitLab STS.
