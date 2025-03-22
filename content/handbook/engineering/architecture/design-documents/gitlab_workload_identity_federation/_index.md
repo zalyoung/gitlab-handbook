@@ -95,6 +95,7 @@ sequenceDiagram
 
 ## Decisions
 
-1. STS-001: Build GitLab Secure Token Service inside [glgo][].
-1. STS-002: Implement external identity to GitLab service account mapping.
-1. STS-003: Add support for accessing GitLab APIs with JWTs minted by GitLab STS.
+1. STS-001: Open source GLGO service built for GCP integration.
+1. STS-002: Build GitLab Secure Token Service inside GLGO.
+1. STS-003: Implement external identity to GitLab service account mapping.
+1. STS-004: Add support for accessing GitLab APIs with JWTs minted by GitLab STS.
