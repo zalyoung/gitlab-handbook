@@ -696,3 +696,6 @@ The Advanced Finders architecture provides a flexible, future-proof approach to 
 - [Issue: Finders should return ActiveRecord collections](https://gitlab.com/gitlab-org/gitlab/-/issues/298771)
 - [Guidelines for reusing abstractions](https://docs.gitlab.com/development/reusing_abstractions/#finders)
 - [Work Items API Performance Working Group](/handbook/engineering/development/dev/plan/working-groups/work-items-api-performance/)
+- [Remove all indexes used for filtering /search only on GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/499949)
+- [Package a search engine with GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/438178)
+- [Remove trigram indexes and use ElasticSearch for searching merge requests and issues](https://gitlab.com/gitlab-org/gitlab/-/issues/331829)
