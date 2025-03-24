@@ -1,6 +1,6 @@
 ---
-title: "Data Science Handbook"
-description: "GitLab Data Science Team Handbook"
+title: "Data Science at GitLab"
+description: "GitLab Data Science and Enterprise Analytics Team Handbook Page"
 ---
 
 {{% alert title="Purpose" color="success" %}}
@@ -10,31 +10,6 @@ This page is focused on the operations of GitLab's internal *Enterprise Data Sci
 ## The Enterprise Data Science Team at GitLab
 
 The mission of the Data Science Team is to facilitate ***making better decisions faster*** using ***predictive analytics***.
-
-## Handbook First
-
-At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
-
-## Learning About Data Science
-
-Check out this brief overview of what data science is at GitLab:
-
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/wRbNExL0hv8" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
-
-([Corresponding slides](https://docs.google.com/presentation/d/1Y-V6bZ5w8Ms5yfMiuYCYZs9ald7Q5MxydYhSh9DWwwQ/edit?usp=sharing))
-
-AMAs:
-
-- 2021-09-15 AMA [Recording](https://youtu.be/wRbNExL0hv8), [Presentation](https://docs.google.com/presentation/d/1Y-V6bZ5w8Ms5yfMiuYCYZs9ald7Q5MxydYhSh9DWwwQ/edit#slide=id.g540caf0310_0_0),
-- 2021-12-09 AMA [Recording](https://www.youtube.com/watch?v=46NEQDAz18I), [Presentation](https://docs.google.com/presentation/d/1aUIi52AW798KjmvexPIQ1AcXRKLcWlYd6yW-EW6Zqlo/edit#slide=id.g540caf0310_0_0)
-
-{{% alert title="Want to Learn More?" color="success" %}}
-[Become a Data Science Champion](/handbook/enterprise-data/direction/data-champion/), [visit Slack #bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!
-{{% /alert %}}
 
 ### Common Data Science Terms
 
