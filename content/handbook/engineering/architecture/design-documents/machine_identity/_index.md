@@ -78,11 +78,11 @@ Instance level service accounts enable global automation and system-wide
 integrations. Group and project level service accounts allows granular control
 and access over machine identities.
 
-Service account ownership is indicated by the `User#provisioned_by_group_id`
+Service account ownership is indicated by the `User#provisioned_by_group`
 attribute. To have support both at group and project level, this attribute
-will be migrated to `NamespaceSetting#service_account_namespace_id`.
-`NamespaceSetting` is available for both levels via `Group`, and
-`ProjectNamespace`.
+will be migrated to `User#bot_namespace`.
+`User#bot_namespace` can reference to both levels - `Group` and
+`Namespaces::ProjectNamespace` namespaces.
 
 ### Tiering
 
