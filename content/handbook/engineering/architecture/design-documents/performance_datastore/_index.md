@@ -14,24 +14,23 @@ toc_hide: true
 
 ## Summary
 
-This blueprint proposes a Performance Results Datastore to build on our successful performance tools (GPT, Reference Architecture environments) and take them to the next level. By centralizing performance metrics, we'll enable data-driven decisions, dynamic baselines, and integrate performance awareness throughout the development lifecycle.
+This blueprint proposes a Performance Results Data store to build off of the GitLab Performance Tool by centralizing performance metrics in order to enable data-informed decisions, dynamic baselines, and integrate performance awareness throughout the development lifecycle.
 
 ## Goals
 
 - Create a centralized repository for all performance test results
 - Enable programmatic access to performance data for analysis and visualization
-- Support comparative analysis between different test runs, environments, and GitLab versions
+- Enable trend analysis between different test runs, environments, and GitLab versions
 - Provide a foundation for automated performance regression detection
-- Facilitate long-term trending and visualization of performance metrics
 - Integrate with existing CI/CD pipelines for automatic data collection
 - Support both high-level aggregated metrics and detailed raw performance data
 - Enable dynamic baseline creation based on historical data
 
 ## Non-Goals
 
-- **Replacing existing performance testing tools**: We'll enhance and integrate with our successful tools like GPT rather than replacing them
-- **Duplicating our monitoring infrastructure**: We'll leverage our mature monitoring solutions rather than creating parallel systems
-- **Reinventing visualization**: We'll build on our investment in Grafana and other visualization tools instead of creating custom alternatives
+- **Replacing existing performance testing tools**: We'll enhance and integrate with tools like GitLab Performance Tool rather than replacing them
+- **Duplicating our monitoring infrastructure**: We'll leverage our current monitoring solutions rather than creating parallel systems
+- **Reinventing visualization**: We'll continue to make use of current visualization tools instead of creating custom alternatives
 - **Competing with real-time monitoring**: We'll complement our existing real-time monitoring capabilities rather than replacing them
 - **Expanding beyond performance focus**: We'll maintain a dedicated focus on performance metrics to ensure depth and relevance of insights
 
