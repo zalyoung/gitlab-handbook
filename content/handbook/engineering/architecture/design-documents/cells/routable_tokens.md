@@ -97,12 +97,12 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
 - Minimum number of routing parts is 1.
   - An exception should be raised if no routing part is defined.
 - Maximum number of routing parts is 10.
-  - An exception should be raised if more than 10 routing parts are defined. Note that `t` will be used for runner type.
+  - An exception should be raised if more than 10 routing parts are defined.
 - Minimum size of `<routing-payload>` is 3 bytes (i.e. `o:1`).
   - An exception should be raised if `<routing-payload>` is smaller than 3 bytes.
 - Maximum size of `<routing-payload>` is 159 bytes: `'c:3w5e11264sgsf'.size * 10 + (10 - 1)` (see [Maximum token length](#maximum-token-length)).
   - An exception should be raised if `<routing-payload>` is bigger than 159 bytes.
-- Valid routing part keys are currently `c`, `g`, `o`, `p`, `u`, `t` (where `t` represents runner type). Any other keys should raise an exception.
+- Valid routing part keys are currently `c`, `g`, `o`, `p`, `u`, `t`. Any other keys should raise an exception.
 - Minimum number of random bytes is 16.
   - This is arbitrary to ensure a high entropy.
 - Maximum number of random bytes is 65: `(maximum bytes before encoding) - (max size of <routing-payload>) - (size of <random-bytes-length>) = 225 - 159 - 1 = 65`
