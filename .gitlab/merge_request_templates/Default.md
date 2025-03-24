@@ -18,9 +18,7 @@ CHANGEME
 - [ ] Assign reviewers for this MR to the correct
   - The [when to get approval][when-to-get-approval] handbook section explains when [DRI][dri] approval is required
   - The [who can approve][who-can-approve] handbook section explains how to identify the DRI
-  - If the MR does not require DRI approval, assign your manager to approve
-  - If your manager does not have merge rights, please ask someone to merge it
-    **AFTER** it has been approved by your manager in [#mr-buddies][mr-buddies-slack]
+  - If the MR does not require DRI approval, consider asking someone on your team, such as your manager.
 - [ ] For transparency, share this MR with the audience that will be impacted.
   - [ ] Team: For changes that affect your direct team, share in your group Slack channel
   - [ ] Department: If the update affects your department, share the MR in your department Slack channel
@@ -59,7 +57,6 @@ CHANGEME
 [when-to-get-approval]: https://handbook.gitlab.com/handbook/about/handbook-usage/#when-to-get-approval
 [who-can-approve]: https://handbook.gitlab.com/handbook/about/handbook-usage/#who-can-approve
 [internal-communications]: https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/
-[mr-buddies-slack]: https://gitlab.slack.com/archives/CLM8K5LF4
 [company-fyi-slack]: https://gitlab.slack.com/archives/C010XFJFTHN
 [whats-happening-at-gitlab-slack]: https://gitlab.slack.com/archives/C0259241C
 [engagement-channels]: https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/#people-communications--engagement-channels
