@@ -185,8 +185,6 @@
 /content/handbook/engineering/development/dev/create/source-code/backend/ @andr3 @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/development/dev/create/source-code/frontend/ @andr3 @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
 
-^[Eng-Infrastructure-Quality-department]
-/content/handbook/engineering/infrastructure-quality.md @marin @sabrinafarmer @vincywilson
 
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/infrastructure-platforms/ @marin @sabrinafarmer
