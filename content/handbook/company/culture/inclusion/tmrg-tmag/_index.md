@@ -28,7 +28,7 @@ GitLab proudly supports the following TMRGs and TMAGs. Each group welcomes new m
 | [Black @ GitLab](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-gitlab-black/) | Supporting Black team members through community, professional development, and advocacy | David DeSanto | [Join](https://groups.google.com/a/gitlab.com/g/black-tmrg) |
 | [GitLab Gente](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-gitlab-gente/) | Supporting Hispanic and Latinx team members | Josh Lemos | [Join](https://groups.google.com/a/gitlab.com/g/latinxtmrg) |
 | [Global Voices](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-global-voices/) | Supporting team members from diverse geographical and cultural backgrounds | Sabrina Farmer | [Join](https://groups.google.com/a/gitlab.com/g/globalvoices/) |
-| [GitLab Caregivers](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-caregivers/) | Supporting team members with caregiving responsibilities | Wendy Barnes | [TBA](#) |
+| [GitLab Caregivers](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-caregivers/) | Supporting team members with caregiving responsibilities | Wendy Barnes | [Join](https://groups.google.com/a/gitlab.com/g/caregiver-tmrg) |
 | [GitLab Mental Health TMAG](/handbook/company/culture/inclusion/tmrg-tmag/mental-health-tmag/) | Promoting mental health awareness and support | Lisa Boughner | [Join](https://groups.google.com/a/gitlab.com/g/wellness-mental-health) |
 | [GitLab Generational Understanding](/handbook/company/culture/inclusion/tmrg-tmag/tmag-gitlab-generational-understanding/) | Bridging generational differences in the workplace | TBC | [Join](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) |
 
