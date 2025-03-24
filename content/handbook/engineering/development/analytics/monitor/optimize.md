@@ -392,7 +392,7 @@ We [use feature flags as needed](/handbook/product-development-flow/feature-flag
 
 The following roles and responsibilities are associated with feature flags we own:
 
-- DRI assignment
+- [DRI](/handbook/people-group/directly-responsible-individuals/) assignment
   - The author introducing a feature flag is the DRI of the feature flag rollout.
 - Auditing and cleanup
   - The EM is DRI for auditing feature flags owned within the stage and will schedule cleanups in collaboration with the feature flag DRI.
