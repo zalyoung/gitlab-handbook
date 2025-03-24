@@ -3,7 +3,7 @@ title: "GitLab Privacy"
 description: "This page helps GitLab Team Members understand the privacy practices at GitLab and to facilitate a culture that respects and prioritizes the privacy of our Team Members and users"
 ---
 
-The Privacy Team is part of the Legal and Corporate Affairs Team. We provide support and guidance to uphold consistent business processes around the proteciton of personal data as it relates to GitLab customers, users, Team Members, and other natural persons. We collaborate cross-functionally and serve as advocates to ensure that the data privacy practices of GitLab meet the needs of our cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
+The Privacy Team is part of the Legal and Corporate Affairs Team. We provide support and guidance to uphold consistent business processes around the protection of personal data as it relates to GitLab customers, users, Team Members, and other natural persons. We collaborate cross-functionally and serve as advocates to ensure that the data privacy practices of GitLab meet the needs of our cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
 
 ## Quick Links
 
@@ -109,7 +109,7 @@ graph TD
    E2 --> G[Is there an existing Issue?]
    G --> H1[Yes]
    G --> H2[No]
-   H1 --> I[Add `Privacy::Intake`<br> label to the Issue]
+   H1 --> I[Privacy::Intake<br> label to the Issue]
    H2 --> J[Create New Issue]
    F --> K[Privacy Review SLA<br> is 2 weeks]
    I --> K
