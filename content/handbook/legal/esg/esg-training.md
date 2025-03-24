@@ -61,7 +61,7 @@ Sustainability matters to GitLab because Sustainability matters to our stakehold
 - GiveLab
   - GiveLab is GitLab’s team member volunteer program. Volunteerism is an effective way to build trust through social connections - this leads to higher individual and team motivation, greater cross-functional collaboration.
 
-  See the Sustainability handbook page for more details on GitLab's [Sustainability Programs](handbook.gitlab.com/handbook/legal/esg/#esg--sustainability-programs)
+  See the Sustainability handbook page for more details on GitLab's [Sustainability Programs](/handbook/legal/esg/#esg--sustainability-programs)
 
 ### GitLab's ESG Materiality Assessment
 
