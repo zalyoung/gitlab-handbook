@@ -3,8 +3,6 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-03-05 | Chris Micek          | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
-| 2025-03-19 | Rayana Verissimo     | Austin Regnery         | Julia Miocene          |                        |
 | 2025-04-02 | Taurie Davis         | Gina Doyle             | Nick Leonard           | Mark Unthank           |
 | 2025-04-16 | Justin Mandell       | Camellia Yang          | Libor Vanc             | Sunjung Park           |
 | 2025-04-30 | Emily Sybrant        | Alyssa Trinh           | Sascha Eggenberger     | Jesse Hoek             |
