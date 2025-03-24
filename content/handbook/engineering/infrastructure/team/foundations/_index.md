@@ -68,9 +68,13 @@ We rotate triage duties weekly between team members as part of our [interrupt ro
 | Production Engineering::3 | Not currently a blocker but will be soon | Engage within a week |
 | Production Engineering::4 | Not likely to be a blocker, this is a nice-to-have improvement or suggestion | Engage within a month |
 
-**Note:** Due to the complexity of our systems, we cannot commit to a resolution-based SLA when you open an issue with a given priority level, because we don't know how long something will take to resolve, and there is often more information we need from the stakeholder or external customer, which takes time to obtain. Therefore, we can only commit to an SLA for how quickly we will engage with an issue and prioritize the work.
+> [!note]
+> Due to the complexity of our systems, we cannot commit to a resolution-based SLA when you open an issue with a given priority level, because we don't know how long something will take to resolve, and there is often more information we need from the stakeholder or external customer, which takes time to obtain. Therefore, we can only commit to an SLA for how quickly we will engage with an issue and prioritize the work.
 
-We endeavor to triage incoming requests twice per week. If you have an issue that is very urgent and requires immediate attention (i.e. Priority 1), please also send us a link to the request issue in our Slack channel: [#g_foundations](https://gitlab.slack.com/archives/C0313V3L5T6).
+We endeavor to triage incoming requests twice per week.
+
+> [!important]
+> If you have an issue that is very urgent and requires immediate attention (i.e. Priority 1), please also send us a link to the request issue in our Slack channel: [#g_foundations](https://gitlab.slack.com/archives/C0313V3L5T6).
 
 ## Considerations for tooling and maintaining our services
 
@@ -195,7 +199,7 @@ The team member on rotation is responsible for:
   - Minor updates should have their changelogs be reviewed before merging.
   - Major updates should be looked at closely to understand breaking changes before considering merging.
 - Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
-- Respond to any Access Requests that need Foundations provisioning.
+- Responding to any Access Requests that need Foundations provisioning.
 
 ### Project Management
 
@@ -209,7 +213,7 @@ Below builds on top of those guidelines.
 
 #### Epics / Projects
 
-In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these optional sections may be helpful
+In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these optional sections may be helpful.
 
 ```markdown
 
@@ -247,7 +251,7 @@ In addition to the format described in the [platforms project management page](/
 
 #### Issues
 
-Issues for our team are tracked in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
+Most issues for our team are tracked primarily in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
 
 - Link to a related Epic.
 - Include the following Labels (update the priority as needed):
@@ -257,6 +261,10 @@ Issues for our team are tracked in the [Production Engineering](https://gitlab.c
    ```
 
 - A Foundations label that aligns with the bucket of work it fits best in: `Foundations::KTLO`, `Foundations::Requests`, `Foundations::Project Work`, ...
+
+  > [!important]
+  > Access Requests issues must have the `Foundations::Requests` label.
+
 - If there is a service label that is applicable, also apply that.
 
 ##### Issue weighting
