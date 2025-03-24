@@ -249,7 +249,6 @@ There are five departments within the Engineering Division:
 - [Emerging Talent @ GitLab](/handbook/hiring/emerging-talent/)
 - [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
-- [Volunteer Coaching program for URGs](/handbook/engineering/volunteer-coaches-for-urgs/)
 - [Starting New Teams](/handbook/engineering/starting-new-teams/)
 
 ### Cross-Functional Prioritization
