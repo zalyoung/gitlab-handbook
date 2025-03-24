@@ -224,10 +224,6 @@ When collaborating on the announcement text, consider using a threaded discussio
 Documentation or tutorial videos should also be added to the [README.md](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/README.md)
 in our team repository.
 
-### Project Management
-
-We use epics and issues to manage our work. [Our project management process](/handbook/engineering/infrastructure/team/scalability/project-management/) describes how we work on our roadmaps, backlogs, and active projects.
-
 ### Triage rotation
 
 We have automated triage policies defined in the [triage-ops project](https://gitlab.com/gitlab-com/gl-infra/triage-ops). These
