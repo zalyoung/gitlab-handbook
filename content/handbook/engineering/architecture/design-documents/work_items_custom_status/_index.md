@@ -326,7 +326,7 @@ For lists that collect work items from various root namespaces we won't check wh
 for the availability of data on the join model.
 If `custom_status_id` is set, use the custom status. If not use the system-defined status.
 To efficiently fetch this data for work item lists, we use a
-[bulk status resolver](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/178180/diffs#da91fc9eae9334a6f46f549656e2d6d0c69501b0)
+[bulk status resolver](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/graphql/resolvers/work_items/statuses/bulk_status_resolver.rb)
 which only adds two additional queries. One to load the join model and another to load custom statuses.
 
 We use the fields `default_open_status_id`, `default_closed_status_id`, and `default_duplicate_status_id` to make
@@ -358,6 +358,17 @@ We can get a list of available statuses for a given work item type in a namespac
 by querying the widget definitions for the work item type.
 
 We'll add concrete queries once the widget API is finalized.
+
+##### Permissions
+
+We've decided not to introduce new permissions for work item statuses. Instead, authorization is handled
+by existing work item permissions like `read_work_item` or `update_work_item`.
+
+This approach avoids redundant permission checks by leveraging GraphQL's higher-level query execution
+for authorization, improving query performance by reducing the number of Permission checks.
+
+Additionally, work item status-specific resolvers like `BulkStatusResolver` and `AllowedStatusesResolver`
+ensure that the licensed feature is available and the feature flag is enabled before proceeding.
 
 #### Status widget
 
