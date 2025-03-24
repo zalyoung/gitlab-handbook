@@ -71,8 +71,8 @@ These are:
 The major constraint these POCs were trying to overcome was that there is no standard way in the GitLab application or database to even determine what Organization (or Project or namespace) a piece of data belongs to.
 This means that the first step is to implement a standard way to efficiently find the parent Organization for any model or row in the database.
 
-The proposed solution is ensuring that every single table that exists in the `gitlab_main_cell`, `gitlab_ci` and `gitlab_pm` (Cell-local) databases must include a valid sharding key that is a reference to `projects`, `namespaces` or `organizations`.
-At first we considered enforcing everything to have an `organization_id`, but we determined that this would be too expensive to update for customers that need to migrate large Groups out of the default Organization.
+The proposed solution is ensuring that every single table in the database except for those in `gitlab_main_clusterwide` schema must include a valid sharding key that is a reference to `projects`, `namespaces` or `organizations`.
+At first we considered enforcing everything to have an `organization_id`, but we determined that this would be too expensive to migrate large Organizations.
 The added benefit is that more than half of our tables already have one of these columns.
 Additionally, if we can't consistently attribute data to a top-level Group, then we won't be able to validate if a top-level Group is safe to be moved to a new Organization.
 
@@ -125,7 +125,6 @@ We can also use these sharding keys to help us decide whether:
    include loose foreign keys and possibly any relationships described in
    models.
 1. Validate that all existing sharding key columns on all Cell-local tables can reliably be assumed to be the sharding key. This requires assigning issues to teams to confirm that these columns aren't used for some other purpose that would actually not be suitable.
-1. We allow customers to create new Organizations without the option to migrate namespaces into them. All namespaces need to be newly created in their new Organization.
 
 ### Organization Isolation - Phase 3
 
@@ -157,7 +156,7 @@ We are hoping that by splitting up our databases in Cells we will be able to unl
 ### Do nothing and treat these anomalies as an acceptable edge case
 
 This idea hasn't been explored deeply but is rejected on the basis that these
-anomalies will appear as data loss while moving customer data between Cells.
+anomalies will appear as data loss while moving Organizations around.
 Data loss is a very serious kind of bug, especially when customers are not opting into being moved between servers.
 
 ### Solve these problems feature by feature
