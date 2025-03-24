@@ -54,7 +54,7 @@ flowchart LR
     I --> DE[Developer Experience]
     click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
     I --> PE[Production Engineering]
-    click PE "/handbook/engineering/infrastructure/platforms/"
+    click PE "/handbook/engineering/infrastructure-platforms/production-engineering/"
     I --> SD[Software Delivery]
     click SD "/handbook/engineering/infrastructure/team/delivery/"
     I --> TS[Tenant Scale]
