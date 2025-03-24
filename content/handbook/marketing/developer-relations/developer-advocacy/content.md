@@ -185,8 +185,9 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 9. **Use Presenter Mode** – This hides pop-ups when necessary, ensuring a cleaner visual presentation.  
 10. **Set pop-ups appropriately**:  
     - Use **Modal pop-ups** with a **heavy backdrop** for the first and last steps.  
-    - Use **Tooltips** for intermediate steps, enabling the **Backdrop setting** when appropriate.  
-11. **Refer to available examples** – Review [existing product tours](#product-tours) to understand the preferred format.
+    - Use **Tooltips** for intermediate steps, enabling the **Backdrop setting** when appropriate. 
+11. In the Dialogs, please try using action-specific labels like "Commit," "Install," or "Submit" instead of "Next" to make users feel like they are actively engaging with the product.     
+12. **Refer to available examples** – Review [existing product tours](#product-tours) to understand the preferred format.
 
 ### Requesting Access to Navattic  
 
