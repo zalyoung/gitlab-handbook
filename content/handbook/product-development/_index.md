@@ -13,7 +13,7 @@ Successful product development requires and demands a unified commitment to shar
 
 We will be using 4W1H a modified version without "where" of the 5W1H is a general-purpose questioning method that helps identify and solve problems by explicitly navigating the "what", "who", "where", "when", "why", and "how" questions. To help clarify the lead roles for a specific part of this process we will apply 4W1H follows:
 
-![The who, what, why, how, when of Product Develope Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
+![The who, what, why, how, when of Product Developement Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
 
 | **4W1H Element** |   |
 | ------- | ----------------- |
@@ -25,6 +25,8 @@ We will be using 4W1H a modified version without "where" of the 5W1H is a genera
 
 \* *Design solutions*  can come in myriad forms, including wireframes, mock-ups, prototypes, journey maps, flow diagrams, Pajamas documentation, etc.  
 *Implementation specifications*  can be clarified in issues with supporting design solutions, as redlines, as code snippets in the Pajamas design system, accessibility guidelines, etc.
+
+![Overview of Roles and Responsibilities](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-01-team_effort.svg)
 
 ### Leads and their Responsibilities
 
@@ -49,6 +51,8 @@ Within each product development team, the following responsibilities require cov
 1. **Documentation Lead**:  Ensures accurate and effective documentation. They're responsible for establishing documentation standards, planning documentation cycles, and ensuring all materials align with product releases and updates
 
 These responsibilities across Product, Technical, Delivery, Resource, UX, and Documentation all require coverage to ensure that the product development team's output is delivered on target from a quality, usability, and capability standpoint.
+
+![Roles Leads](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-02-lead_responsibilities.svg)
 
 ### Role vs. Responsibility
 
@@ -75,6 +79,8 @@ Within GitLab product development teams, we believe that "we win or lose as a te
 - Ex: Technical Lead may serve as the Product Lead and Documentation Lead for technical excellence, reliability, scalability, or sustainability efforts. 
 
 Lastly, the specific needs that a product development team has for a specific responsibility may differ based upon the type of project, maturity of project, maturity of technology area and technology stack, maturity of developers, etc. The key is ensuring that each product development team has agreement and interlock on ownership and accountability for each of these responsibilities, regardless of how they are distributed among team members and across roles.
+
+![Responsibilities of Leads](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-03-everyones_responsibility.svg)
 
 ### Key Events & Activities Mapping into Responsibilities
 
