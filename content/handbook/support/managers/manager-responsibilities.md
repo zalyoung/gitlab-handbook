@@ -112,7 +112,7 @@ Be sure to include non-technical topics such as:
 1. [Remote work](/handbook/company/culture/all-remote/)
 1. Trends and insights in the larger support world
 
-Consider participating in [Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/), and ensure your team members know about these.
+Consider participating in [Team Member Resource Groups](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-and-tmag-guide/), and ensure your team members know about these.
 
 Consider participating in, creating, or publicizing a [GitLab Book Club](/handbook/leadership/book-clubs/).
 

@@ -221,7 +221,7 @@ As DEI (Diversity, Equity and Inclusion) allies in the open source community, Gi
   - Offer GitLab swag and GitLab contributor points coupons at qualifying events.
   - Incentivize community members and potential contributors with coupon codes.
 - **GitLab contributor resource groups:**
-  - Form GitLab contributor resource groups similar to GitLab [Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/) (TMRGs).
+  - Form GitLab contributor resource groups similar to GitLab [Team Member Resource Groups](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-and-tmag-guide/) (TMRGs).
   - Include mentoring/coaching opportunities.
   - Consider groups for non-contributing developers or for Developer Relations team members.
   - Consider hosting events/days for specified underrepresented groups.

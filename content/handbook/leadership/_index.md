@@ -320,7 +320,7 @@ When you give leadership training please [screen share the handbook instead of c
 1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate-programs/), focused on developing management skills to lead all-remote teams.
 1. Leadership development coaching with the [growth & development benefit](/handbook/people-group/learning-and-development/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
-1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
+1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion//tmrg-tmag/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
 1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow), and [Security](/handbook/security/security-shadow/).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
