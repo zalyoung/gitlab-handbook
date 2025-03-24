@@ -109,7 +109,7 @@ graph TD
    E2 --> G[Is there an existing Issue?]
    G --> H1[Yes]
    G --> H2[No]
-   H1 --> I[Privacy::Intake<br> label to the Issue]
+   H1 --> I[Add Privacy::Intake<br> label to the Issue]
    H2 --> J[Create New Issue]
    F --> K[Privacy Review SLA<br> is 2 weeks]
    I --> K
