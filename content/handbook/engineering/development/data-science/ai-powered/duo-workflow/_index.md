@@ -37,7 +37,7 @@ Besides the main GitLab repository these are the key technical components we wor
 Additional projects that we mainly maintain:
 
 1. [Duo Workflow Tests](https://gitlab.com/gitlab-org/duo-workflow/testing/duo-workflow-tests)
-2. [Default Docker Image](https://gitlab.kkkcom/gitlab-org/duo-workflow/default-docker-image)
+2. [Default Docker Image](https://gitlab.com/gitlab-org/duo-workflow/default-docker-image)
 
 For an understanding of how these components work together, take a look at the [architecture](/handbook/engineering/architecture/design-documents/duo_workflow/).
 
@@ -90,7 +90,7 @@ The Duo Workflow Team communicates based on the following guidelines:
 
 ## Sentry Error Triage
 
-New sentry errors for the Duo Workflow Service and Executor are coming into the [#g_duo_workflow_alerts_channel]. We set up a triage process in order to stay on top of these errors.
+New sentry errors for the Duo Workflow Service and Executor are coming into the [#g_duo_workflow_alerts channel](https://app.slack.com/client/E03N1RJJX7C/C07V276CFQX). We set up a triage process in order to stay on top of these errors.
 Every week a different backend engineer of the team is responsible for triaging new messages in this channel.
 The schedule for triage shifts can be found in the [iteration issues](https://gitlab.com/groups/gitlab-org/-/epics/16048).
 While on shift the engineer should:
@@ -108,12 +108,7 @@ While on shift the engineer should:
 
 ### Triage Schedule
 
-| Week                    | Engineer                |
-| ----------------------- | –---------------------- |
-| 2025/02/10 - 2025/02/16 | @ssuman3                |
-| 2025/02/17 - 2025/02/23 | @jfypk                  |
-| 2025/02/24 - 2025/03/02 | @halilcoban             |
-| 2025/03/02 - 2025/03/08 | @mikolaj_wawrzyniak     |
+The schedule can be found in [this Google sheet](https://docs.google.com/spreadsheets/d/1zoZ3o-2xlq5Qlg-BUxt3hO8SRqZAFVTK3QO2BVBl0qY/edit?gid=0#gid=0). Every Monday an auto generated message announces who is responsible for the alerts channel based on this schedule.
 
 ### ⏲ Time Off
 
@@ -123,10 +118,14 @@ Team members should add any [planned time off](/handbook/people-group/paid-time-
 
 We operate using async communication by default. There are times when a sync discussion can be beneficial and we encourage team members to schedule sync calls with the required team members as needed.
 
+### Transparency with regards to Duo Workflow
+
+Due to the prominent nature of AI agents (such that they generate investment attention) and the early development phase of Duo Workflow it is very important to consider our [SAFE Framework](/handbook/legal/safe-framework/) when it comes to information around Duo Workflow.
+Demo, Progress and sharing designs is ok, but internal feedback issues and unstructured / overly negative internal feedback should remain confidential.
+
 ## 🔗 Useful Links
 
 * [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/duo-workflow)
-* [Duo Workflow troubleshooting](troubleshooting.md)
 * [LangGraph Workshop](https://gitlab.com/gitlab-org/duo-workflow/langgraph-workshop)
 
 ### 📝 Dashboards (internal only)

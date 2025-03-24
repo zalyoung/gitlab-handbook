@@ -219,9 +219,9 @@ Optional labels that are useful to communicate state or other priority:
 
 Similar to issue labeling, epic labeling helps the Data team categorize, quantify, and prioritize the projects in our backlog.
 
-At a minimum, all epics should have a **Team:** label applied. This tags the epic for the Data Team that is primarily responsible for performing the work, and enables managers to review the backlog of projects for their respective teams. This is particularly helpful during quarterly planning. 
+At a minimum, all epics should have a **Team:** label applied. This tags the epic for the Data Team that is primarily responsible for performing the work, and enables managers to review the backlog of projects for their respective teams. This is particularly helpful during quarterly planning.
 
-Because the epic list cannot easily be filtered to parent epics only (and epics may be nested under other epics as sub-epics), we use an additional label to distinguish between epics that are being considered for OKR-level commitments (these should have the `Opportunity Canvas` label applied) vs. those that are used to group related issues under a general theme (these should _not_ have the `Opportunity Canvas` label applied). 
+Because the epic list cannot easily be filtered to parent epics only (and epics may be nested under other epics as sub-epics), we use an additional label to distinguish between epics that are being considered for OKR-level commitments (these should have the `Opportunity Canvas` label applied) vs. those that are used to group related issues under a general theme (these should _not_ have the `Opportunity Canvas` label applied).
 
 ##### Merge Request Workflow
 
@@ -402,5 +402,5 @@ We encourage everyone to record videos and post to GitLab Unfiltered. The [handb
 1. Ask your People BP to provide you a Requisition # for tracking purposes. If you have multiple openings to fill, communicate with your People BP using this Req# because juggling multiple openings gets confusing fast.
 1. Develop an Interview Plan, which will cover Responsibilities, Tips, Reminders, and custom Interview questions for each Interview Job Role type. For examples, see the [Data Scientist Interview Plan](https://docs.google.com/document/d/1slPL8qy6IW01DcNBP26YVC3mHtkwApHGmA29d6Y9nlg/edit#heading=h.6mqvxi38wull) and [Analytics Engineer Interview Plan](https://docs.google.com/document/d/1wspMpA6Z-UQXZsqYJ7vqhZ5pHNErv54lyF-kOilpkDw/edit).
 1. Each Data Job Role and Job Grade has a customized [Homework Assessment](https://drive.google.com/drive/folders/1cQeCKu_Nu2kBLa4oiAVrp7hu7LdnIB3C). Review and update the Homework Assessment as needed. If a Homework Assessment is not available for the Job Role, create one and save it in the [Homework Assessment Google Drive](https://drive.google.com/drive/folders/1cQeCKu_Nu2kBLa4oiAVrp7hu7LdnIB3C)
-1. Send a Homework Assessment to the People BP for inclusion in the Hiring process. The Hiring Process is included in each Data Job Family to help set candidate and interviewer expectations. An example is the [Data Engineer Hiring Process](/job-families/finance/data-engineer/#hiring-process).
+1. Send a Homework Assessment to the People BP for inclusion in the Hiring process. The Hiring Process is included in each Data Job Family to help set candidate and interviewer expectations. An example is the [Data Engineer Hiring Process](/job-families/marketing/enterprise-data/data-engineer/#hiring-process).
 1. Create a new slack channel, e.g. `bt-data-data-science-interview` to help coordinate with your interviewers. Share the Interview Plan with your interviewers through Slack.

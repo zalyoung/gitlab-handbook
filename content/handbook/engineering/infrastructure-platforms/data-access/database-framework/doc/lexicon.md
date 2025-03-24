@@ -23,7 +23,7 @@ For our purposes, when referring to *sharding* we are referring to horizontally 
 
 #### Application Sharding
 
-Another variant of sharding is `application sharding`  This typically refers to an architecture that implements routing logic to route data requests from the application to the correct data repository.  During our discussions in the [Sharding Working Group](/company/team/structure/working-groups/sharding) we typically referred to the [Shopify Pods Architecture](https://shopify.engineering/a-pods-architecture-to-allow-shopify-to-scale) as an example of application sharding.
+Another variant of sharding is `application sharding`  This typically refers to an architecture that implements routing logic to route data requests from the application to the correct data repository.  During our discussions in the [Sharding Working Group](/handbook/company/working-groups/sharding/) we typically referred to the [Shopify Pods Architecture](https://shopify.engineering/a-pods-architecture-to-allow-shopify-to-scale) as an example of application sharding.
 
 ### Foreign Data Wrapper (FDW)
 

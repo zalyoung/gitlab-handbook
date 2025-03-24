@@ -411,6 +411,8 @@ Additional notes:
 - [license-interfacer](https://gitlab.com/gitlab-org/security-products/license-db/license-interfacer)
 - [license-processor](https://gitlab.com/gitlab-org/security-products/license-db/license-processor)
 - [schema](https://gitlab.com/gitlab-org/security-products/license-db/schema)
+- [PMDB tools](https://gitlab.com/gitlab-org/security-products/license-db/pmdb-tools)
+- [Static Reachability Modules Scraper](https://gitlab.com/gitlab-org/security-products/license-db/static-reachability-modules-scraper)
 
 ### Operational Container Scanning
 

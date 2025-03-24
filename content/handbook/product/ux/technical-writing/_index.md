@@ -27,19 +27,50 @@ The team manages general documentation-related and team-specific Slack channels:
 
 - `#docs`: Questions and general discussion about GitLab documentation, and requests by GitLab team members for doc and UI text reviews.
 - `#docs-processes`: Discussion about documentation processes.
-- `#docs-tooling`: Discussion about documentation tooling and the `gitlab-docs` project.
-- `#docs-site-changes`: Automated messages from [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) project.
+- `#docs-tooling`: Discussion about documentation tooling and the `docs-gitlab-com` project.
+- `#docs-site-changes`: Automated messages from the [`docs-gitlab-com`](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project.
 - `#tw-team`: Technical Writing team chat.
 - `#tw-social`: Technical Writing team social chat.
 
-## Public Training for GitLab Technical Writing
+## Learn GitLab tech writing fundamentals
 
-If you're interested in updating or creating GitLab product documentation, see our [Technical Writing Fundamentals course](fundamentals/), which includes:
+If you're interested in updating or creating GitLab documentation,
+see [GitLab Technical Writing Fundamentals](https://university.gitlab.com/courses/gitlab-technical-writing-fundamentals).
+This course is aimed at both GitLab team members and community contributors and includes:
 
-- Guidelines for technical writing.
-- GitLab style conventions.
-- Information about internal testing.
-- Instructions for content types.
+- Guidelines for technical writing
+- GitLab style conventions
+- Information about internal testing
+- Instructions for content types
+
+This course is **not required** to contribute to docs.gitlab.com. Everybody can contribute!
+
+For suggestions and feedback, see the [feedback issue](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/445).
+
+## Documentation
+
+GitLab documentation is crafted to help users, administrators, and decision-makers
+learn about GitLab features and to optimally implement and use GitLab to meet
+their [DevOps needs](https://about.gitlab.com/stages-devops-lifecycle/).
+
+The documentation is an essential part of the product. Its source is developed
+and stored with the product in its respective paths in the
+[GitLab repositories](https://docs.gitlab.com/development/documentation/site_architecture/#architecture).
+It's published at [docs.gitlab.com](https://docs.gitlab.com) (offering multiple
+versions of all product documentation) and at the `/help/` path on each GitLab
+instance's domain, with content for that instance's version.
+
+The documentation is the [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)
+for all product information.
+We follow a [docs-first methodology](https://docs.gitlab.com/development/documentation/styleguide/#docs-first-methodology)
+with the goal of creating documentation that is complete, accurate, and easy to use.
+The documentation should be easy to browse or search for the information you need, and
+it should be easy to contribute to the documentation itself.
+
+To get started contributing to the documentation, see
+[Contribute to the GitLab documentation](https://docs.gitlab.com/development/documentation/).
+For standards and guidelines, see [the style guide](https://docs.gitlab.com/development/documentation/styleguide/)
+and [word list](https://docs.gitlab.com/development/documentation/styleguide/word_list/).
 
 ## Responsibilities
 
@@ -92,7 +123,7 @@ The Technical Writing team develops and maintains toolkits to test GitLab's docu
 
 - Text content and writing style: markdownlint, Vale
 - Text formatting: markdownlint, yamllint
-- Link validity: Nanoc
+- Link validity: Lychee
 - File permissions and naming: `lint-doc.sh`
 
 Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer.
@@ -156,7 +187,7 @@ Some Technical Writers are assigned as [stage leads](/handbook/product/ux/techni
 
 | Stage            | Assigned stage lead |
 |:-----------------|:--------------------|
-| Verify           | {{< member-by-name "Marcel Amirault" >}} |
+| Verify           | {{< member-by-name "Lysanne Pinto" >}} |
 | AI-powered       | {{< member-by-name "Jon Glassman" >}} |
 | Create           | {{< member-by-name "Amy Qualls" >}} |
 | Plan             | {{< member-by-name "Marcin Sędłak-Jakubowski" >}} |
@@ -186,7 +217,7 @@ Technical writers do not review content in:
 
 ### Stable counterparts
 
-The Technical Writing team gets assistance with the `gitlab-docs` project from stable counterparts outside the team.
+The Technical Writing team gets assistance with the `docs-gitlab-com` project from stable counterparts outside the team.
 
 | Subject          | Person |
 |:-----------------|:-------|
@@ -320,7 +351,7 @@ Along with Technical Writers' normally assigned work, there are recurring tasks
 that need to be regularly completed:
 
 - **Release Post Structural Check:** The Technical Writing Lead [reviews the content](/handbook/marketing/blog/release-posts/#tw-lead) for the release post published at the end of each milestone. See the [Release Post Scheduling](/handbook/marketing/blog/release-posts/managers/) Handbook page for each milestone's assigned writer.
-- **Monthly doc version:** At the end of each milestone, a Technical Writer [creates the monthly version for the docs site](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md). The Technical Writer assigned to this task is the writer who completed the release post structural check for the previous milestone.
+- **Monthly doc version:** At the end of each milestone, a Technical Writer [creates the monthly version for the docs site](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/blob/main/doc/releases.md). The Technical Writer assigned to this task is the writer who completed the release post structural check for the previous milestone.
 - **Docs project maintenance tasks:** **ON HOLD from February 2025 as we complete our migration to Hugo**. Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
 these tasks at this time.**
 
@@ -412,7 +443,7 @@ can efficiently perform the necessary verification.
 
 To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the Technical Writers use this workflow:
 
-- When a Technical Writer opens a merge request, another Technical Writer must review and merge. 
+- When a Technical Writer opens a merge request, another Technical Writer must review and merge.
   - The Technical Writer should not approve or merge their own MR. Instead, they should [request a review](#selecting-a-reviewer) from a peer with Maintainer access. The reviewer merges the MR after the final approval.
     - This requirement aligns with the GitLab [Code Review Guidelines](https://docs.gitlab.com/development/code_review/) and satisfies the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/).
 - When anyone else (like a developer, community member, or Support team member) opens a merge request:
@@ -476,7 +507,7 @@ As Maintainers, Technical Writers must limit what they merge to:
   - The only code changes in a documentation MR are link fixes to match changes to documentation files or anchor names, and
   - The pipeline completed successfully.
 - Documentation-related tooling and configuration such as linters, and changes
-  to the [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) project. Engineers
+  to the [`docs-gitlab-com`](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project. Engineers
   are available for code review and merges.
 
 In addition, Technical Writers must:
@@ -536,24 +567,21 @@ documentation website, at https://docs.gitlab.com.
 For more information about community contributions, see:
 
 - [List of available issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=documentation&label_name%5B%5D=docs-only&label_name%5B%5D=Seeking%20community%20contributions)
-- [GitLab Docs repo](https://gitlab.com/gitlab-org/gitlab-docs)
-- [GitLab Docs README file](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/README.md)
+- [GitLab Docs repository](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com)
 
-## Documentation process
-
-See:
-
-- [Technical writing workflow](workflow/) in the handbook.
-- [Documentation workflows](https://docs.gitlab.com/development/documentation/workflow/) in the contributor documentation.
-- [Setting up a local environment](setup/) in the handbook.
-
-### Make an urgent content update on docs.gitlab.com
+## Make an urgent content update on docs.gitlab.com
 
 The documentation website is refreshed every hour. On rare occasions, we might have to publish documentation
 updates a little faster. If you need an urgent update, follow the steps to [manually deploy the docs site](https://docs.gitlab.com/development/documentation/site_architecture/deployment_process/#manually-deploy-to-production).
 
-### Report a docs website problem or infrastructure issue
+## Report a docs website problem or infrastructure issue
 
-Report website bugs or feature requests in the [issue queue for the Docs website](https://gitlab.com/gitlab-org/gitlab-docs/-/issues).
+Report website bugs or feature requests in the [issue list for the GitLab Docs project](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/issues).
 
-For outages or website availability issues, see [Docs site infrastructure](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/infrastructure.md?ref_type=heads).
+For outages or website availability issues, see [Docs site infrastructure](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/blob/main/doc/infrastructure.md).
+
+## Related topics
+
+- [Documentation workflow](https://docs.gitlab.com/development/documentation/workflow/)
+- [Set up your local environment](https://docs.gitlab.com/development/documentation/authoring_environment.html)
+- [Documentation site architecture](https://docs.gitlab.com/development/documentation/site_architecture/)

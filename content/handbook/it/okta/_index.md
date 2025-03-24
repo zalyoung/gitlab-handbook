@@ -145,7 +145,7 @@ If both of previous devices are not available, you could use a [YubiKey](https:/
 
 ### I would like to get a YubiKey, how can I do so?
 
-Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](/handbook/it/guides/yubikey/)), and we will coordinate shipment of one to you thru our group buy.
+Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](/handbook/security/corporate/systems/yubikey/)), and we will coordinate shipment of one to you thru our group buy.
 
 ### Lost access to your 2FA or your OKTA account has been locked out because of failed attempts?
 
@@ -191,7 +191,7 @@ Okta Device Trust ensures that team members are acccessing Okta applications fro
 
 ### After enrolling
 
-You will continue to be able to use a [YubiKey](/handbook/it/guides/yubikey/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
+You will continue to be able to use a [YubiKey](/handbook/security/corporate/systems/yubikey/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
 
 A macOS device missing the certificate (even when enrolled with Okta Verify), will quickly show:
 ![No Certificate](/images/it/okta/no-certificate.png)

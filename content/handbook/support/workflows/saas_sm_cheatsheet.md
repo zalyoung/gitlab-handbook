@@ -48,15 +48,15 @@ SaaS, or Dedicated.
 |:----:| ----- |
 |Self-managed| Self Managed Administrators will need to [configure the desired auth provider](https://docs.gitlab.com/administration/auth/) directly in their gitlab.rb. Any configuration change on this file will require that you run `gitlab-ctl reconfigure` to successfully apply changes.|
 |DotCom| Customers will [Configure SAML SSO for Groups](https://docs.gitlab.com/user/group/saml_sso/) directly, by going to **Group > Settings > SAML SSO**.|
-|Dedicated| Start the investigation by [searching the logs](/handbook/support/workflows/dedicated_logs). To escalate, [raise an issue with the GitLab Dedicated team](/handbook/support/workflows/dedicated/#filing-issues).|
+|Dedicated| SAML [is supported](https://docs.gitlab.com/administration/dedicated/configure_instance/saml/). Start the investigation by [searching the logs](/handbook/support/workflows/dedicated_logs). To escalate, [raise an issue with the GitLab Dedicated team](/handbook/support/workflows/dedicated/#filing-issues).|
 
 ### Geo
 
 |      |       |
 |:----:| ----- |
 |Self-managed| Geo is [configured in the gitlab.rb](https://docs.gitlab.com/administration/geo/setup/) file. It requires a premium or higher subscription. **The steps must be followed in the order in which they appear.**|
-|DotCom| *Geo is a Self-Managed feature only.*|
-|Dedicated|[Raise issue with Dedicated team](/handbook/support/workflows/dedicated/#filing-issues)|
+|DotCom| *Geo is not available for customers to configure on `gitlab.com`.*|
+|Dedicated| GitLab Geo is supported with [some limitations](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#operational-features). [Raise issue with Dedicated team](/handbook/support/workflows/dedicated/#filing-issues)|
 
 ### Admin Area
 

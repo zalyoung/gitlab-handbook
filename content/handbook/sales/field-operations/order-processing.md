@@ -701,6 +701,12 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $15,000
 
+#### Success Tiers Attach  
+
+In FY26, we implemented a sales policy around the attachment of Success Tiers. For policy details, please read more on the dedicated Success Tiers HighSpot page [here](https://gitlab.highspot.com/items/661452f930a6998673c6d54b?lfrm=srp.0).
+
+Have questions? Please ping the [#success-tiers](https://gitlab.enterprise.slack.com/archives/C05US54ETB3) Slack channel.
+
 #### Service Attach Quoting Process
 
 If an opportunity meets the criteria listed above, the Minimum Professional Services Amount must be attached to the opportunity. Services can be attached using one of two methods:

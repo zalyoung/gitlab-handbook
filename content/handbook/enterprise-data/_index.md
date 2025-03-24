@@ -198,11 +198,10 @@ You can tag the Data Team in GitLab using:
 | [Rstudio Guide](/handbook/enterprise-data/platform/rstudio/) | [Trusted Data](/handbook/enterprise-data/how-we-work/data-development) | [Data Science Team](/handbook/enterprise-data/organization/data-science) |
 | [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) | | [Data Management](/handbook/enterprise-data/data-governance/data-management/) |
 | [Meltano Guide](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/) | | |
-| [Experimentation Best Practices](/handbook/enterprise-data/how-we-work/experimentation-best-practices/) | | |
 | [Data Onboarding](/handbook/enterprise-data/organization/programs) | | |
 | [Learning Library](/handbook/enterprise-data/organization/learning-library/) | | |
 | [Tableau Guide](/handbook/enterprise-data/platform/tableau/) | | |
-| [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) | | |
+| [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/) | | |
 
 ## Data Team Handbook Structure
 
@@ -237,5 +236,5 @@ You can tag the Data Team in GitLab using:
   * [SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
   * [Snowplow](/handbook/enterprise-data/platform/snowplow/)
   * [Tableau](/handbook/enterprise-data/platform/tableau/)
-  * [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/)
+  * [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)
   * [Trusted Data Framework](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework)

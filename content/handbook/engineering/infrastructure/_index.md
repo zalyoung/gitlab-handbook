@@ -10,7 +10,7 @@ The Infrastructure Department enables GitLab (the company) to deliver a single D
 The Infrastructure Department does this by focusing on **availability**, **reliability**, **performance**, and **scalability** efforts.
 These responsibilities have cost efficiency as an additional driving force, reinforced by the properly prioritized [**dogfooding**](#dogfooding) efforts.
 
-Many other teams also contribute to the success of the SaaS platform because [GitLab.com is not a role](/handbook/company/structure/#gitlabcom-isnt-a-role).
+Many other teams also contribute to the success of the SaaS platform.
 However, it is the responsibility of the Infrastructure Department to drive the ongoing evolution of the SaaS platform, enabled by platform observability data.
 
 ## Getting Assistance
@@ -32,7 +32,7 @@ Integral part of this vision is to:
 
 ## Direction
 
-The direction is accomplished by using [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/).
+The direction is accomplished by using Objectives and Key Results (OKRs).
 
 Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/core_platform/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatives across both Infrastructure and Stage Groups needed to address these gaps.
 
@@ -54,7 +54,7 @@ flowchart LR
     I --> DE[Developer Experience]
     click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
     I --> PE[Production Engineering]
-    click PE "/handbook/engineering/infrastructure/platforms/"
+    click PE "/handbook/engineering/infrastructure-platforms/production-engineering/"
     I --> SD[Software Delivery]
     click SD "/handbook/engineering/infrastructure/team/delivery/"
     I --> TS[Tenant Scale]
@@ -215,7 +215,7 @@ We have a model that we use to help us support product features. [This model](/h
 
 Infrastructure SREs may be aligned with [stage groups](/handbook/product/categories/#categories-a-z) as [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/).
 
-[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
+[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-platforms).
 
 ## Interviewing
 
@@ -254,6 +254,6 @@ The Infrastructure department hires for a number of different technical speciali
 
 - [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
 - [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
-- [GitLab.com data breach notification policy](/security/#data-breach-notification-policy)
+- [GitLab.com data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy)
 - [Infrastructure careers and internships](career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)

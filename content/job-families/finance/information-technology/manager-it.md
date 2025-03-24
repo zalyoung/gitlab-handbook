@@ -6,7 +6,7 @@ title: "IT Management"
 
 ## Manager, IT
 
-The Manager, IT reports to the [Sr Director, IT Operations](/job-families/finance/director-it-operations/).
+The Manager, IT reports to the Sr Director, IT Operations.
 
 ### Manager, IT Job Grade
 
@@ -125,7 +125,7 @@ Familiarity with data management policies and regulations (GDPR, SOX, PCI)
 
 ## Career Ladder
 
-The next step in the Manager, IT End User Services is to move to the [Director, IT Operations](/job-families/finance/director-it-operations/) job family.
+The next step in the Manager, IT End User Services is to move to the Director, IT Operations job family.
 
 ## Hiring Process
 

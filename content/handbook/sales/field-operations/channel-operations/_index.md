@@ -824,7 +824,7 @@ The following departments/people will be tagged for gathering this information:
 
 The following departments/people will be tagged for FYI/Additional Input:
 
-- **Ecosystem Operations:** Nick Scala, Marcella Summers
+- **Ecosystem Operations:** Marcella Summers
 - **Partner Programs**: David Forsch
 - **Deal Desk**: Jesse Rabbits
 - **PubSec Channel**: Pilar Meija

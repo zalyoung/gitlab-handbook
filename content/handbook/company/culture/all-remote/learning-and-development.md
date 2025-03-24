@@ -58,7 +58,7 @@ One potential downside for all-remote teams is having timely and adequate access
 
 Learning involves much more than comprehending what's necessary to complete a job. In fact, we hope candidates aspire to learn about GitLab's [history](/handbook/company/history/), [all-remote culture](/handbook/company/culture/), and [values](/handbook/values/) prior to joining the company.
 
-The above would be difficult, if not impossible, to achieve without a commitment to [documentation](handbook-first/). Documentation is so important at GitLab that we have a [section of our Handbook devoted to it](/handbook/product/ux/technical-writing/documentation/).
+The above would be difficult, if not impossible, to achieve without a commitment to [documentation](handbook-first/).
 
 Particularly in all-remote companies — where everything from [interviewing](interviews/) to [onboarding](onboarding/) to [career development](/handbook/people-group/learning-and-development/career-development/) takes place outside of a central office — regimented [documentation](handbook-first/) is the only way to ensure future team members have access to the same information as past and current team members. Even if you've already started a company but have failed to document key learnings, it's never too late to start.
 

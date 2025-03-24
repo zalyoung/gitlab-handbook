@@ -6,7 +6,22 @@ title: "Enterprise Data Warehouse"
 
 ### Architectural Overview
 
-GitLab's Enterprise Data Warehouse serves as our central repository for analytics and reporting, transforming raw data into actionable insights. Through the combination of Snowflake's powerful data platform and dbt's transformation capabilities, we've implemented a robust ELT (Extract, Load, Transform) framework that adheres to the Kimball methodology.
+The EDW is viewed as a series of layers. With five consecutive layers, where data progresses through the layers, and one development layer where data is explored and developed. Each layer has a purpose in the overall operation and effectiveness of the EDW. All data within the EDW will land in `Landing`. Subsequently all following layers are optional, with the remark that Tableau should [connect](/handbook/enterprise-data/platform/#data-storage) only to `prod` database schemas. 
+
+| Layer       | Purpose                                                                                                       | Example Schema             |
+|-------------|---------------------------------------------------------------------------------------------------------------|----------------------------|
+| Landing     | Loads from Source Systems<br>Generated non-idempotent data                                                    | _raw.salesforce_v2_stitch_ |
+| Staging     | Column Name and Data Type Standardization<br>Filtering and Deduplication (Cleansing)                          | _prep.salesforce_          |
+| Preparation | Steps and Transformations in Motion<br>Application of Generic Business Logic                                  | _prod.common_prep_         |
+| Model       | Polished Product<br>Enterprise Dimensional Model<br>Function Data Models<br>Trusted, Validated, and Supported | _prod.common_              |
+| Semantic    | Logical and Physical Constructs<br>Point of Entry for Reports and Analysis                                    | _prod.common_mart_         |
+| Workspace   | In Process Development<br>Discovery<br>Rapid Iteration                                                        | _prod.workspace_sales_     |
+
+More details about the activities performed in each layer can be found the [Layers](#layers) section.
+
+### Important Schemas
+
+The Production Database in the EDW is used for reporting and analysis by Data Consumers at GitLab. It is composed of 4 major schemas which are `COMMON_`, `SPECIFIC`, `LEGACY_` and `WORKSPACE_` schemas. Below are descriptions of each Schema:
 
 Our warehouse architecture is organized into four distinct schemas:
 
@@ -18,6 +33,70 @@ Our warehouse architecture is organized into four distinct schemas:
 ## Dimensional Modeling Fundamentals
 
 Dimensional modeling is part of the Business Dimensional Lifecycle methodology developed by [Ralph Kimball](https://en.wikipedia.org/wiki/Ralph_Kimball). It presents data in a standard, intuitive framework that allows for high-performance access while maintaining business process orientation.
+
+## Layers
+
+### Landing
+
+The landing layer is where data from source systems are copied into the EDW. It can contain traditional SQL tables as well as file based data. This data is purposely left untouched from the way it is exported from the source system, this aids in monitoring and tracing the loading of data.
+
+### Staging
+
+The staging layer is where the first set of administrative transformations take place. These transformations help to create a set of data that will behave in a known and predictable manner as well as help to conform the data to the GitLab standard conventions that make the data easier to work with. These transformations are best done as close to the source of the data as possible wile still being in the data warehouse and before any other transformations take place. Typical transformations in this layer include:
+
+**Conforming Data Types:**
+As part of conforming data types, handling NULL and blank values should happen during the staging of the data. What this means in practice is that blank values should be converted to NULL. If NULL values are not acceptable, blank and NULL values should be converted to an expected default. This conversion will simplify join and filtering conditions in downstream transformations and ensure that comparison operations behave as expected.
+
+**Standardizing Column Names:**
+Conforming column names makes transformations more self-documenting and improves readability for future transformations. Care should be taken to avoid repetitive naming across data models.
+
+**Cleansing Data:**
+The removal of erroneous records of data (i.e. duplicates), which is different from filtering data for a business question, helps streamline downstream transformations by reducing the need for extra error-handling logic when data is malformed.
+
+**Flattening of Non-Tabular Data:**
+When data in the landing layer is stored in a non-tabular format it is often necessary to flatten the data so that the other staging steps can be performed.
+
+### Preparation
+
+The preparation layer is the first place where general business logic transformations are applied to the data. These transformations are intended to be intermediary and help organize the data in a way that allows for maintenance and scalability. In many cases all of these transformations can be performed in a single data model. However; separate, and preferably sequential, data models can be used when doing so increases performance, readability or maintainability of the given transformations. As a general rule transformations should be applied as early and on as simple version of the data as possible to improve performance of the transformation. Typical transformations in this layer include:
+
+**Calculating Fields:**
+Calculated fields are defined as being fields that did not originate in a source system but can be formed through the application of business logic to data within a single data set.
+
+**Deriving Fields:**
+Derived fields are defined as being fields that did not originate in a source system but can be formed through the application of business logic to data across multiple data sets.
+
+**Deriving Records:**
+Derived records, such as fanning out date interval data, are defined as being records that did not originate in a source system but are formed though joins or aggregations. These transformations are used to set the analysis grain of the data.
+
+### Modeling
+
+The modeling layer is where data is transformed into formal structures to standardize its shape, making it easier to maintain and scale. These transformations are driven by general business logic (reflecting the business process) and adopted standards and may require additional joins, filtering, and field generation depending on the type of model being produced. The general principle is to minimize the number of models and design them to serve as many reporting needs in the semantic layer as possible. Typical transformations in this layer include:
+
+**Creating Facts and Dimensions:**
+Using the principles of Kimball dimensional modeling the data is filtered, grouped, and combined to create reusable dimensions models that describe attributes of a record. And low granularly facts representing a transaction of a business process.
+
+**Creating Big Tables:**
+A big table model aims to provide as relevant attributes of the records as possible into a single wide table. These can use useful in incases when the data does not need to be used accords multiple source of data or if the data is excitingly large as the model redesign the downstream joins.
+
+**Creating Entitlement Tables:**
+Entitlement models aim to create list of person identifiers and join conditions that allow for granting explicit access to records of data in tools like Snowflake and Tableau.
+
+### Semantic
+
+The semantic layer is where the data is transformed in to meet the needs of business reporting. These transformations are where the specific business logic is applied to the data. Typical transformations in this layer include:
+
+**Creating Mart Tables:**
+A mart table provides the records and columns necessary to answer many related business questions. These tables may be build from the direct joins of the fact and dimension tables, materializing the dimensional modeling schemas, or by derivation from other tables from the modeling layer. Typically, mart tables should be build from tabes in the modeling layer and not from other tables in the semantic layer.
+
+**Creating Report Tables:**
+A report table provides the records and columns necessary to answer a single business question. Typically these tables are built from the mart tables in the semantic layer, through filtering, aggregation, and column selection. But may also be build directly from tables in the the other layers. Columns may also be renamed to match the needs of the target report even if they names to not match the standard practices of earlier layers.
+
+### Workspace
+
+The workspace is the layer in the data warehouse where development and exploration takes place. There are no specific transformation steps that take place in this layer; any transformation can be explored and evaluated. Once the intended result is identified, the transformation should be migrated to the other standard layers to improve maintenance and scalability. Workspace tables do not need to conform to any standards or patterns found in the other layers, but should not be used to regularly answer business questions.
+
+## Enterprise Dimensional Model (COMMON Schema)
 
 ### Useful links and resources
 
@@ -262,19 +341,19 @@ The `SPECIFIC` schema is to be used for tables that perform a reporting function
 
 ## No Transformaion Views
 
-A **No Transformation View** should be direct views of raw source data that are needed for reporting without further transformation.  They should not be used to build additional tables since there will be a table upstream in the `RAW` or `PREP` database that will provide better lineage documentation for further transformations.  They should always be created as a view with no additional transformation or filtering and should be prefixed with `ntv_`.
+A **No Transformation View** should be direct views of raw source data that are needed for reporting without further transformation. They should not be used to build additional tables since there will be a table upstream in the `RAW` or `PREP` database that will provide better lineage documentation for further transformations. They should always be created as a view with no additional transformation or filtering and should be prefixed with `ntv_`.
 
 ## Entitlement
 
-To facilitate the use of row level security in both Snowflake and Tableau a schema dedicated for entitlement tables, a mapping between the user or role and the records they are allowed to see, is used.  The tables in this schema follow a standard form but are not limited to an exact structure.  The purpose of these tables is to be joined to other tables in such a way that at query time the second table will be limited to the appropriate records for the runner of the query.
+To facilitate the use of row level security in both Snowflake and Tableau a schema dedicated for entitlement tables, a mapping between the user or role and the records they are allowed to see, is used. The tables in this schema follow a standard form but are not limited to an exact structure. The purpose of these tables is to be joined to other tables in such a way that at query time the second table will be limited to the appropriate records for the runner of the query.
 
 ### Naming
 
-The name of the entitlement table should direct users to the other table or tables that it should be used in combination with as well as the application it should be used with. Documentation for exactly what tables the entitlement table should be used for can be found in the data warehouse model [documentation](https://dbt.gitlabdata.com/#!/overview).  For example an entitlement table that would be used with the `mart_team_member_directory` table in Tableau would be named `ent_team_member_directory_tableau`.
+The name of the entitlement table should direct users to the other table or tables that it should be used in combination with as well as the application it should be used with. Documentation for exactly what tables the entitlement table should be used for can be found in the data warehouse model [documentation](https://dbt.gitlabdata.com/#!/overview). For example an entitlement table that would be used with the `mart_team_member_directory` table in Tableau would be named `ent_team_member_directory_tableau`.
 
 ### Form
 
-Each entitlement table must have at least two columns: a join key that will connect to an other table and represents a subset of records and a column representing a Tableau user or Snowflake role.  The column that is used to join to an other table should be named the same as it is in that table to make it easier to user the correct table.  The values in the column that is used as a join key should represent the values of that column in the corresponding table.  The column or columns that represent the Tableau users or Snowflake roles should be named to match.
+Each entitlement table must have at least two columns: a join key that will connect to an other table and represents a subset of records and a column representing a Tableau user or Snowflake role. The column that is used to join to an other table should be named the same as it is in that table to make it easier to user the correct table. The values in the column that is used as a join key should represent the values of that column in the corresponding table. The column or columns that represent the Tableau users or Snowflake roles should be named to match.
 
 Every combination of user and join key must be explicitly included in as row in the table.
 
@@ -506,7 +585,7 @@ Note: The number of fields to be shown for each of the entity can easily be modi
 
 ## Big Data
 
-Big Data is a concept that we use to understand the limits of data offerings. Generically, Big Data is anything that exceeds or strains our current technical capacity for processing and delivery.  Dealing with Big Data may be less efficient and more costly as new or creative solutions need to be developed and deployed to expand the capabilities of the data offerings.
+Big Data is a concept that we use to understand the limits of data offerings. Generically, Big Data is anything that exceeds or strains our current technical capacity for processing and delivery. Dealing with Big Data may be less efficient and more costly as new or creative solutions need to be developed and deployed to expand the capabilities of the data offerings.
 
 ### Big Data and the Enterprise Data Warehouse
 
@@ -520,15 +599,15 @@ The Enterprise Data Warehouse is limited in each of these conceptual areas and a
 
 #### Volume
 
-While there is not a real limit to the amount of data that can be stored in the Enterprise Data Warehouse there are limits to how much data can be transformed in a performant and cost effective way.  The current limits are being able to create a single table within a 3 hour timeframe using an XL snowflake warehouse.  As an example all of the collected snowplow data, over 6TB and 30 billion records, can not all be processed at once and would be considered Big Data.
+While there is not a real limit to the amount of data that can be stored in the Enterprise Data Warehouse there are limits to how much data can be transformed in a performant and cost effective way. The current limits are being able to create a single table within a 3 hour timeframe using an XL snowflake warehouse. As an example all of the collected snowplow data, over 6TB and 30 billion records, can not all be processed at once and would be considered Big Data.
 
 #### Velocity
 
-As the Enterprise Data Warehouse is designed to process and transform the data to present a curated set of tables, there are limits to how quickly those transformations can be processed in a cost effective way.  The Enterprise Data Warehouse is designed to process the data every 24 hours and data that needs to be processed more quickly than that to accommodate business needs would be considered Big Data.  As an example evaluating website behavior in near real time would be considered Big Data.
+As the Enterprise Data Warehouse is designed to process and transform the data to present a curated set of tables, there are limits to how quickly those transformations can be processed in a cost effective way. The Enterprise Data Warehouse is designed to process the data every 24 hours and data that needs to be processed more quickly than that to accommodate business needs would be considered Big Data. As an example evaluating website behavior in near real time would be considered Big Data.
 
 #### Variety
 
-The current design of the Enterprise Data Warehouse is build on the Snowflake cloud database.  This limits the formats and structures of data that can be processed to those that fit into structured tables.  While some processing of semi-structured data, such as JSON, is possible directly in the Enterprise Data Warehouse this is limited and must be first ingested as a column in a table decreasing efficiency.  Generally, any data input or output from the Enterprise Data Warehouse that is not in a structured table would be considered Big Data.  As an example the service ping payload from the Version database is JSON that requires extensive manipulation before in can be analyzed and would be considered Big Data.
+The current design of the Enterprise Data Warehouse is build on the Snowflake cloud database. This limits the formats and structures of data that can be processed to those that fit into structured tables. While some processing of semi-structured data, such as JSON, is possible directly in the Enterprise Data Warehouse this is limited and must be first ingested as a column in a table decreasing efficiency. Generally, any data input or output from the Enterprise Data Warehouse that is not in a structured table would be considered Big Data. As an example the service ping payload from the Version database is JSON that requires extensive manipulation before in can be analyzed and would be considered Big Data.
 
 ## Analytics Performance Policy Framework
 
@@ -544,11 +623,11 @@ We think about dbt model runs along 3 major dimensions: performance, efficiency,
 
 The scope of this Analytics Performance Policy at this time is specifically focused on the performance of models. In the future, we will consider adding a separate efficiency and cost policy that would roll-up to an overall Analytics Scalability Policy.
 
-*The Analytics Performance Policy is only considering the data transformations and does not consider retention of data that is extracted and loaded towards the RAW database of the EDW. For the time being, the policy assumes we will keep all data in the RAW database and we will not delete data. After a data retention policy is implemented in the future, we would reevaluate and iterate on this Analytics Performance Policy that focuses on the Transformation layer of the EDW. The alignment that is reached with the Functional Teams in this Analytics Performance Policy will be used to influence a data retention policy on the RAW database in Snowflake.*
+_The Analytics Performance Policy is only considering the data transformations and does not consider retention of data that is extracted and loaded towards the RAW database of the EDW. For the time being, the policy assumes we will keep all data in the RAW database and we will not delete data. After a data retention policy is implemented in the future, we would reevaluate and iterate on this Analytics Performance Policy that focuses on the Transformation layer of the EDW. The alignment that is reached with the Functional Teams in this Analytics Performance Policy will be used to influence a data retention policy on the RAW database in Snowflake._
 
 ### Performance Targets
 
-*These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements.*
+_These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements._
 
 1. Maintain production dbt DAG run time of less than 8 hours. Assumes we do not scale up warehouse size for existing models and keep using a XL warehouse as a maximum. Assumes we can scale out with using more concurrent threads running at the same time.
 1. An individual dbt model's run time is consistently less than 1 hour, and its design accounts for forecasted data volume increases.

@@ -260,7 +260,7 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 
 **Description:** Your 4th Trimester is a 90-day coaching program with Broad Perspective Consulting. The purpose of the program is to help parents (regardless of gender) be as prepared as possible to be a working parent through coaching and development. The cost of this program is $2,300 USD.
 
-For Your 4th Trimester applications, please notify Talent Development that you would like to participate in the program by sending an email to growth-development@gitlab.com.
+For Your 4th Trimester applications, please open up an issue using the Other G&D types template, then assign to @jallen16 and to your manager for approval. VP approval isn't required for this engagement. Once approval is confirmed you'll be put in touch with our Y4T coach via email.
 
 **Reimbursement Requirements:** Team members leaving for or returning from Parental Leave. The provider will invoice GitLab directly.
 

@@ -206,14 +206,6 @@ Below are potential team day activities:
 - [Jackbox](https://www.jackboxgames.com/) - Small fee for each pack. Only the host needs to own the game.
 - Online multiplayer jigsaw puzzles ([1](https://jigsawpuzzles.io/), [2](https://www.jigsawexplorer.com/)) - Free!
 
-## Learning Speaker Series - Building Trust with Remote Teams
-
-On 2020-11-19, the L&D team launched our first [learning speaker series](/handbook/people-group/learning-and-development/learning-initiatives/speakers/) on Building Trust with Remote Teams. We hosted [Dr. Jeb Hurley](https://medium.com/@jebhurley/building-trust-on-remote-teams-99b937cbd5d0), CEO and Co-Founder of [Xmetryx](https://www.xmetryx.com/) to discuss how strategies and tips on how to build trust in a remote setting. The discussion was a [fireside chat](https://docs.google.com/document/d/17ziw6q-nioyzYGnnIa9LM1G3I4DwYfb2UxwN9XceFxg/edit) format where Dr. Hurley shared what remote team members can do to meaure trust on their teams.
-
-{{< youtube "hHMDY77upAE" >}}
-
 ## Summary
 
 Building trust takes time and energy. These are not the only strategies teams can apply to build trust but it is a start. Use this page as a guide to building a cohesive and collaborative team. Trust among teammates is the foundation of almost everything we do at GitLab.
-
-If you have further suggestions on building trust in a remote team, make a merge request to this page and alert our [Learning & Development team](/handbook/people-group/learning-and-development/#how-to-communicate-with-us).

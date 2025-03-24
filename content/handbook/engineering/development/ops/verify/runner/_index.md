@@ -23,7 +23,7 @@ The product strategy and roadmap for the runner product categories are covered o
 
 ## UX strategy
 
-Our UX vision, more information around how UX and Development collaborate, and other UX-related information will be documented in the [UX Strategy page](/handbook/product/ux/stage-group-ux-strategy/ci-cd/).
+Our UX vision, more information around how UX and Development collaborate, and other UX-related information will be documented in the [UX Strategy page](/handbook/product/ux/product-design/ux-roadmaps/).
 Our [Jobs to be Done](/handbook/product/ux/jobs-to-be-done) are documented in [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/) and provide a high-level view of the main objectives. Our User Stories are documented in [Runner Group - User Stories](/handbook/engineering/development/ops/verify/runner/user-stories/) which guide our solutions as we create design deliverables, and ultimately map back to JTBDs.
 
 ## Performance Indicator

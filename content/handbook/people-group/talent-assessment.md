@@ -365,7 +365,7 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 - **2025-03-10:** Annual Compensation Review Kicks off for Managers
 - **2025-03-17:** Due date for all Manager evaluations. Talent Assessment in Workday is locked.
 - **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
-- **2025-04-27 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
+- **2025-04-17 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
 - **TBD:** Talent Assessments pending in Workday will be auto advanced to team members*
 - **2025-05-01:** Annual Compensation Review effective date
 
@@ -745,29 +745,27 @@ Key Talent makes up roughly ~10% of the population. Key Talent represents team m
 
 Team members identified as Key Talent typically have knowledge, skills, and experience that:
 
-- Contribute to key areas of the product
-- Substantially impact the company's ability to achieve significant milestones and results
-- Have a substantial impact to a key process which drives business performance
-- Have a significant impact to the operation of a critical functional area
-- Demonstrate consistently strong performance
+- Substantially impacts the company’s ability to achieve significant milestones and results
+- Demonstrates consistently strong performance
 - Demonstrates growth potential; the ability and desire to assume increasingly more broad or complex responsibilities and learn new skills.
-
-While not all of the criteria above need to be met for an individual to be designated Key Talent, it is required that Performance and Growth Potential are in a good place and that the team member meets at least one of the requirements above related to business impact.
+- Has an outsized, measurable impact on business performance
+- Has a significant impact to the operation of a critical functional area
+- Has demonstrated the ability to scale with the organization
 
 ### Key Talent, Performance, and Growth Potential
 
 Team members identified as key talent must be assessed at minimum Performing and Growing (Box 4) in the [Talent Assessment process](/handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix).
 
-The only exception is for newly promoted individuals that fall into "Developing" Performance and "Developing" Growth Potential due to time and experience in their new role. Although Performance and Growth Potential are a consideration in the Key Talent selection process, they are not the only criteria used to determine the designation and should not be used in isolation. It is important to look holistically at the Key Talent Criteria outlined above when determining who qualifies as Key Talent on your team.
+Although Performance and Growth Potential are a consideration in the Key Talent selection process, they are not the only criteria used to determine the designation and should not be used in isolation. It is important to look holistically at the Key Talent Criteria outlined above when determining who qualifies as Key Talent on your team.
 
-"TNTR" (Too New to Rate) team members can be considered key talent but this would be an exception. In order for a "TNTR" team member to be identified as key talent they must have specialized skills that drive a significant impact to business results. 
+"TNTR" (Too New to Rate) team members can be considered key talent but this would be an exception. In order for a "TNTR" team member to be identified as key talent they must meet the criteria above and be ramping successfully in their new role.
 
 We exclude team members rated "TNTR" when we calculate our Key Talent distribution across the company. E.g. Team members designated Key Talent during Calibration *divided by* Talent Assessment eligible team members (excluding TNTR) = Key Talent Distribution %
 
 Below are a few examples to help managers think through Key Talent designations as they relate to Performance and Growth Potential:
 
-1. A team member that has a performance assessment of "Exceeding" is not automatically indicated as Key Talent. Perhaps they are doing exceptionally well in their role, but the impact on the business would not be considered "critical" if they were to leave.
-1. A team member that is new to the role due to recent promotion and still "Developing" could be identified as Key Talent if they work in an area of the business that is highly specialized and critical to the success of key results at the company.
+1. A team member that has a performance assessment of "Exceeding" is not automatically indentified as Key Talent. Perhaps they are doing exceptionally well in their role, but the impact on business performance may not be significant enough to meet the definition above.
+1. A team member that is new to the role due to recent promotion and rated "TNTR" could be identified as Key Talent if they are ramping successfully in their role and have a high impact on the ability for the company to achieve results. 
 
 *Note: Intentionally hoarding knowledge is in direct conflict with our [transparency value](/handbook/values/#transparency) and is viewed as a performance issue as we measure performance based on alignment with our values.*
 
@@ -815,7 +813,7 @@ We want to make sure we use engagement tools to retain Key Talent. A few of our 
 - **Learning & Development:** We want to support the growth of Key Talent and their competencies, skills, and knowledge by providing them with the tools they need and the opportunities to progress their own personal and professional development goals. As a people manager it's your priority to identify [L&D opportunities](/handbook/people-group/learning-and-development) for your team.
 - **Growth Opportunities:** As a people manager, it's important to have career conversations and identify growth opportunities with your team members. For Key Talent, it's especially important to discuss their motivation and ambitions. Growth opportunities can be both horizontal and vertical. Examples of growth opportunities are: expanding the scope within a team member's current role, a lateral move to a new role, or a promotion to the next level.
 - **Compensation:** At GitLab, compensation = cash + equity + benefits. We have a [market-based approach](/handbook/total-rewards/compensation/#market-based-approach) and differentiate pay based on performance. Our Annual Compensation Review Cycle and Annual Equity Refresh program allow us to differentiate compensation based on performance and for Key Talent.
-- **Succession Planning:** As team members identified as Key Talent are critical to roles that have a high impact on the company's success, it is important that we identify successors to avoid any single points of failure within the organization.
+- **Succession Planning:** As team members identified as Key Talent are critical to roles that have a high impact on the company's success, it is important that we identify successors to mitigate risk in the organization. 
 
 **Note that being considered or designated as a key talent one year, does not mean or guarantee that a team member will be considered or designated as a key talent moving forward.**
 

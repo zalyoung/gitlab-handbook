@@ -97,8 +97,8 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
    ```yml
    stages:
-   - build
-   - test
+     - build
+     - test
 
    build1:
      stage: build
@@ -106,10 +106,10 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
        - echo "Do your build here"
 
    test1:
-       stage: test
-       script:
-           - echo "Do a test here"
-           - echo "For example run a test suite"
+     stage: test
+     script:
+       - echo "Do a test here"
+       - echo "For example run a test suite"
    ```
 
 This file defines two stages: `build` and `test`. The `build1` job executes during the `build` stage, running all of the commands in `script`. The `test1` job executes during the `test` stage, running all of the commands in `script`.

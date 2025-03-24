@@ -156,7 +156,7 @@ An internship gives you insight into a [Data Team role](/handbook/enterprise-dat
 
 #### Requirements
 
-- Familiarity with and Interest in the [Data Engineering](/job-families/finance/data-engineer/) job family
+- Familiarity with and Interest in the [Data Engineering](/job-families/marketing/enterprise-data/data-engineer/) job family
 - BS or MS in data-related fields (statistics, computer science, engineering), but self-learners are also welcome to apply
 - Positive and solution-oriented mindset
 - Comfort working in a highly agile, intensely iterative environment

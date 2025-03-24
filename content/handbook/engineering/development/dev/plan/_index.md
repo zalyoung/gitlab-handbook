@@ -16,7 +16,7 @@ working on GitLab's functionality around issues, boards, milestones, to-do list,
 
 In GitLab issues, questions should start by @ mentioning the Product Manager for the [corresponding Plan stage group](/handbook/product/categories/#plan-stage). GitLab team-members can also use [#s_plan](https://gitlab.slack.com/messages/C72HPNV97).
 
-For UX questions, @ mention the Product Designers on the Plan stage; [Nick Leonard](https://gitlab.com/nickleonard) for Plan:Project Management, [Nick Brandt](https://gitlab.com/nickbrandt) for Plan:Product Planning, and [Libor Vanc](https://gitlab.com/lvanc) for Plan:Optimize. Plan:Knowledge should follow the [process for groups without a designer](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/#what-if-your-team-doesnt-have-a-designer).
+For UX questions, @ mention the Product Designers on the Plan stage; [Nick Leonard](https://gitlab.com/nickleonard) for Plan:Project Management, [Nick Brandt](https://gitlab.com/nickbrandt) for Plan:Product Planning, and [Libor Vanc](https://gitlab.com/lvanc) for Plan:Optimize. Plan:Knowledge should follow the [process for groups without a designer](/handbook/product/product-processes/).
 
 ### How we work
 
@@ -281,13 +281,14 @@ process itself.
 To improve the retrospective data-driven experience, we are [dogfooding](/handbook/engineering/development/principles/#dogfooding) VSA to simplify the [data collection for the retrospective](https://gitlab.com/gitlab-org/plan/-/issues/753). This been done by automatically adding a link to the VSA of the current milestone filtered by group/stage to the retrospective.
 With Value stream analytics (VSA) our team is getting visibility to the [lifecycle metrics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#lifecycle-metrics) of each milestone through the breakdown of the [end-to-end workflow into stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#value-stream-stages). This allows us to identify bottlenecks and take action to [optimize actual flow of work](https://about.gitlab.com/blog/2023/06/26/three-steps-to-optimize-software-value-streams/).
 
-For example, for the review phase, we are using VSA to count the [time between "workflow::in review" and "MR merged"](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2023-03-01&created_before=2023-04-29&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=779&stage_id=17092&sort=duration&direction=desc&page=1). With this data, we can identify:
+For example, for the review phase, we are using VSA to count the [time between “Merge request reviewer first assigned" to “Merge request last approved at”.](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2025-01-01&created_before=2025-02-26&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=631&stage_id=4581&milestone_title=17.9&sort=duration&direction=desc&page=1). With this data, we can identify:
 
 - MRs that were bottlenecked due to limited reviewers/maintainers capacity.
-- Types of work that move slower than other types.
+- Slow review start times & Idle time post-approval.
+- MRs with multiple feedback loops.
 - Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
 
-Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan/-/issues/759).
+Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan-stage/product/-/issues/27).
 
 #### Concluding the Retrospective
 
@@ -622,6 +623,10 @@ Like all groups at GitLab, a working group is an arrangement of people from diff
 
 Stage Working Groups are focused on initiatives that require collaboration between multiple groups within the stage. The structure of stage working groups is similar to [company-wide working groups](/handbook/company/working-groups/), with DRI and well-defined roles. The initiatives are driven by a stage-level product direction rather than an [Executive Sponsor](/handbook/company/working-groups/#executive-sponsor),
 and can be formed of just Functional Leads and members who participate in fulfilling the exit criteria.
+
+#### Active Stage Working Groups
+
+1. [Work Items API Performance](/handbook/engineering/development/dev/plan/working-groups/work-items-api-performance/)
 
 #### Archived Stage Working Groups
 

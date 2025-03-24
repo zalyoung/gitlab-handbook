@@ -125,4 +125,4 @@ Then, in **Salesforce**:
 
 For more clarification regarding Startups sales process, please refer to this [highspot page](https://gitlab.highspot.com/items/6410e355fb9e0fe9d2823fcc?lfrm=irel.1#3)
 
-If they do not qualify, send them the [Startups:: Rejection macro](/handbook/marketing/developer-relations/community-programs/community-program-applications/email-and-zendesk-macros/#startups-startups-rejection) and offer to connect them to sales via the [Sales handoff process](/handbook/marketing/developer-relations/community-programs/community-program-applications/#handoff-process-to-sales).
+If they do not qualify, send them the [Startups:: Rejection macro](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/startups-program-workflows/) and offer to connect them to sales via the [Sales handoff process](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/).

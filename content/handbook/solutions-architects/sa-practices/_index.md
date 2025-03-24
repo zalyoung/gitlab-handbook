@@ -26,6 +26,8 @@ Solution Architects have various practices:
 
 [SA Subject Matter Expert program](/handbook/solutions-architects/sa-practices/subject-matter-experts/)
 
+[Whiteboard-based Facilitation](/handbook/solutions-architects/sa-practices/whiteboard-based-facilitation/)
+
 ## SA Practices - Pre-sales
 
 The following practice and process are lead by the Solutions Architects during pre-sales:

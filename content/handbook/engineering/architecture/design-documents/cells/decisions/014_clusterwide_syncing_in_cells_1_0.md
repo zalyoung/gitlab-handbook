@@ -1,6 +1,6 @@
 ---
 owning-stage: "~devops::tenant scale"
-title: "Cells ADR 012: Clusterwide syncing for Cells 1.0"
+title: "Cells ADR 014: Clusterwide syncing for Cells 1.0"
 toc_hide: true
 ---
 

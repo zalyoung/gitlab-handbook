@@ -380,6 +380,8 @@ To trigger a developer escalation, see [this process outline](/handbook/engineer
 
 For license emergencies during the week, reach out to [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) and ask for an expert there to handle the case. Ping the current [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) in your request so they can ensure it gets picked up. Once pinged, the Support Manager On-call is the DRI for ensuring the emergency gets handled.
 
+In the event the customer's instance is unusable due to an expired license and you are unable to reach the L&R team or the on-call manager, [generate a trial license](/handbook/support/license-and-renewals/workflows/self-managed/license_for_weekend_emergencies/#step-2-generate-the-trial-license).
+
 ### On a weekend
 
 #### Self-managed Subscription Emergencies
@@ -477,8 +479,8 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 1. Create a `~"type::bug"` issue and have the customer review it.
 1. Escalate the `~"type::bug"` issue
-   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
-   - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/development/feature_flags/controls/#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/) to raise a developer.
+   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
+   - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/development/feature_flags/controls/#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/) to raise a developer.
 1. If this is affecting multiple customers, [declare an incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) to engage the incident response team who will update the status page.
 1. Once the original functionality is restored, update the customer.
 
@@ -607,7 +609,7 @@ Emergencies from [GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab
 
 Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
 
-As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#escalating-an-emergency-issue) to engage the Engineer on Call for GitLab Dedicated.
+As appropriate, you can use the section on [escalating emergency issues](/handbook/support/workflows/dedicated#raise-a-dedicated-incident) to engage the Engineer on Call for GitLab Dedicated.
 
 ## Special handling notes
 
