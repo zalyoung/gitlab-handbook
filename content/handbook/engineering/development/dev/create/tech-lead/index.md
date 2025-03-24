@@ -28,9 +28,8 @@ This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
-| 2024-05-01 | TBD      | TBD                | [Web IDE Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Paul Slaughter](https://gitlab.com/pslaughter) |
+| 2025-03-24 | TBD      | TBD                | [Web IDE Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Enrique Alcántara](https://gitlab.com/ealcantara) |
 | 2024-05-01 | TBD      | TBD                | [Workspaces Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Chad Woolley](https://gitlab.com/cwoolley-gitlab) |
-| 2024-02-21 | TBD      | TBD                | [VS Code Upgrade process](https://gitlab.com/groups/gitlab-org/-/epics/12951)| [Enrique Alcántara](https://gitlab.com/ealcantara) |
 
 ### Editor Extension Tech Leads
 
