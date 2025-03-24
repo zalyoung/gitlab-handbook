@@ -79,4 +79,4 @@ There may be some services which do not have a team which owns it.  We are curre
 
 ## Timeline that we expect for reviews to be completed
 
- It is expected that the incidnet review will be complieted **within 10 working days of the incident**.  A reminder will be sent out after 5 days if the incident review issue is still open.
+ It is expected that the incidnet review will be complieted **within 5 working days of the incident**.  A reminder will be sent out after 5 days if the incident review issue is still open.
