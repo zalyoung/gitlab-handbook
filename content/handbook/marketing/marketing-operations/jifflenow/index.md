@@ -11,7 +11,11 @@ JiffleNow is an automated appointment scheduling of in-person, and virtual B2B m
 
 ## Access
 
-Jifflenow will be made available to Sales attending events, EBAs and event managers. If you need access, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set, so please make sure the Sales Systems team is tagged (Similar to SFDC access requests).
+- Sales users: Access for Meeting Requestors via SFDC is granted via the JiffleNow Permission set and most sales profiles are already included. If you are unable to access Jifflenow through SFDC, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and make sure the Sales Systems team is tagged (Similar to SFDC access requests).
+- All non-Sales users: Access to Jifflenow is managed through Okta. If you do not have the Jifflenow tile in Okta, please create an [AR](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). You will need access through Okta to request meetings if you are not a sales user.
+  - If you are designated as a meeting manager for a particular event, a request to provision Okta for your access will be created as part of the set-up process in Jifflenow.
+
+MOps provisioner: For `Requestor` role, you do not need to do anything in JiffleNow. Once Okta is provisioned, the user will have access to request meetings. If a person just needs access to reports and dashboards, you can add them as a `Requestor`, then toggle the Reports & Dashboard toggle on in their profile. For all other roles, you will add the person to the specific event they need access to with the correct role and engagement type. This will be outlined in the event request task in Asana.
 
 ### User Roles
 
@@ -38,9 +42,11 @@ This connection will allow for Sales to book meetings directly within Salesforce
 
 ### Support
 
+To request a Jifflenow instance for your meeting/booth demos, please [complete this form](https://form.asana.com/?k=ZW0w5_ppBQLh2gCyZEOFcg&d=306855239930259). This will create a task in Asana.
+
 Reach out in #proj_jifflenow-implementation for more information.
 
-For event specfic help, go to:
+For event specific help, go to:
 
 - #googlenext-execmtgs-2025
 - #rsa-conference-execmtgs-2025
@@ -60,6 +66,13 @@ This is WIP - will update once we have more information
 ## Mobile App
 
 This has not yet been configured - will update this page when ready
+
+## Meeting types
+
+- Executive Meeting: This is a meeting with a GitLab executive (VP or C-Level). These meetings are requested through sales / internal GitLab team members, or partners. We do not have a public form to sign-up for these meetings. Anyone interested in one of these meetings should talk with thier GitLab representative.
+- Booth demos/meetings: This is a meeting or demo at a booth demo station. We do not schedule a specific GitLab team member to attend this meeting, we only schedule time slots. This type of request can be promoted publicly and can be requested through our website.
+- Meet with an expert: Similar to a booth demo, but typically occurs when we have designated meeting space at an event (that is not being used for Executive Meetings). We may or may not assign a specific GitLab team member to attend these meetings. This type of request can be promoted publicly and can be requested through our website.
+- Off-site meeting: These meetings take place outside of our designated meeting space. This allows us to schedule executives so they show as unavailable, but we do not use our meeting space. The most common example is at large events, a partner would like to meet with an executive in their meeting space. This meeting type allows for requesting that executive (to block their time), but in their location.
 
 ## How To Request Meetings
 
