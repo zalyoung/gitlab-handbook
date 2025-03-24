@@ -237,7 +237,7 @@ The following fields are optional. Each specific tokens can include them if need
 - `g`: Group ID
 - `p`: Project ID
 - `u`: User ID
-- `t`: Runner type (e.g., `t1` for instance type, `t2` for group type, and `t3` for project type)
+- `t`: Runner type (e.g., `t:1` for instance type, `t:2` for group type, and `t:3` for project type)
 
 It's recommended that for tracing and observing purpose, we can include the
 most important information for the specific token. For example, for a user
