@@ -39,20 +39,20 @@ While GitLab has robust service-level metrics through our SLI framework, we curr
 - Understand the true user experience across service boundaries
 - Set and monitor user-centric SLOs for complex user interactions
 - Identify bottlenecks in multi-service flows
-- Attribute availability and impact of incidents to customers or users
+- Measure reliability and impact of incidents for customers and users
 
 ## Goal
 
-Track and measure Covered Experiences across GitLab services, establishing a framework for product teams to define and monitor critical Covered Experience SLIs.
+Track and measure Covered Experiences across GitLab services, establishing a framework for product teams to define and monitor Covered Experience SLIs.
 
-### How does Covered Experiences relate to User Journeys?
+### How do Covered Experiences relate to User Journeys?
 
-Covered Experiences are a scoped subset of User Journeys that focus specifically on measurable interactions that can be tracked and monitored through SLIs. While User Journeys represent comprehensive end-to-end paths a user might take (potentially including multiple actions and goals), Covered Experiences are more targeted and focus on specific, measurable interactions that we want to monitor for reliability and performance.
+Covered Experiences are small interactions that users can make within a User Journeys. Covered experiences focus specifically on single-actions users do that can be tracked and monitored through SLIs. While User Journeys represent comprehensive end-to-end paths a user might within the application, throughout their journey they will pass through many Covered experiences.
 
 Key relationships between the two concepts:
 
 - **Scope**: A User Journey might encompass multiple Covered Experiences. For example, the User Journey of "contributing code to a project" might include several Covered Experiences like "git push," "merge request creation," and "CI pipeline execution".
-- **Measurability**: Covered Experiences are specifically designed to be measurable through our SLI framework, with clear success criteria and thresholds.
+- **Measurability**: Covered Experiences are specifically designed to be measurable through our SLI framework, with clear success criteria and thresholds. They should not include ambiguity through decisions that a user makes throughout their Journey.
 - **Implementation**: User Journeys are often conceptual and used for product planning. Covered Experiences have specific technical implementations with instrumentation, metrics, and alerting.
 - **Tracking**: Each Covered Experience must have a reference to its parent User Journey (as shown in the [Covered Experience Definition](#covered-experience-definition) schema), creating a hierarchical relationship.
 
@@ -62,7 +62,8 @@ Key relationships between the two concepts:
 - Develop an SDK that makes it easy for engineers to instrument Covered Experiences
 - Build a service to track Covered Experience state and emit relevant metrics and structured logs with all the relevant context
 - Support both GitLab.com and dedicated deployments
-- Enable measurement of Covered Experience success/failure rates and durations through SLIs
+- Enable measurement of Covered Experience success/failure rates and durations through metrics and logs
+- Inform on the performance of Covered Experiences through SLIs that allow alerting on specified thresholds through our existing alerting framework.
 
 ## Don'ts
 
@@ -76,6 +77,7 @@ Key relationships between the two concepts:
 1. Other projects could benefit from Covered Experience SLIs, but are not part of the scope of this proposal. Such as:
     - Ensure critical user paths are well-tested and monitored (i.e. https://gitlab.com/groups/gitlab-org/quality/-/epics/144).
     The Covered Experience SLIs could provide data that can help identify end-to-end test coverage gaps for critical user paths.
+    - Use covered experiences to inform Service Level Agreements (https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/423)
 2. As of the moment of writing, GitLab has no implementation for tracking and measuring end-to-end User Journeys.
 The [framework porposed below](#phase-1) can be augmented in the future, to include a User Journey identification,
 tying each Covered Experience to a User Journey.
