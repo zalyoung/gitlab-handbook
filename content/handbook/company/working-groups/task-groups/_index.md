@@ -98,6 +98,7 @@ task forward.
 
 ## Active Task Groups (alphabetic order)
 
+1. [Accessibility Audit Triage](https://internal.gitlab.com/handbook/company/internal-working-groups/internal-task-groups/accessibility-audit-triage)
 1. [BootstrapVue Removal](bootstrap-vue-removal/)
 
 ## Past Task Groups (alphabetic order)
