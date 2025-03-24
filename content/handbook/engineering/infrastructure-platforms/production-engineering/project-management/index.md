@@ -1,21 +1,23 @@
 ---
-title: "Scalability Group Project Management"
+title: "Production Engineering Group - Project Management"
 ---
 
 ## Project Management
 
-The majority of our [project management process is described at the Platforms level](/handbook/engineering/infrastructure/platforms/project-management/)  and is shared between all SaaS Platform teams.
+The majority of our [project management process is described at the Infrastructure Platforms level](/handbook/engineering/infrastructure/platforms/project-management/)  and is shared between all Infrastructure Platform teams.
 Please read this first.
 
 This page describes the additions to the process described on the Platforms page.
 
-The single source of truth for all work is [Scaling GitLab SaaS Platforms epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148).
-We often refer to this as our top-level epic.
+The single source of truth for all work is [Infrastructure Platforms - Production Engineering Projects Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1443).
+We often refer to this as our group top-level epic. Each team in the group has it's own top-level epic.
 
-Epics that are added as children to the top-level epic are used to describe projects that the team undertakes.
+Epics that are added as children to a top-level epic are used to describe projects that the team undertakes.
 
 Project status is maintained in the description of the top-level epic so that it is visible at a glance. This is auto-generated using [the epic issues summary project](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries).
 You can watch a [short demo of this process](https://youtu.be/6Wb1f-c1_og) to see how to use status labels on the epics to make use of this automation.
+
+**Teams are in different stages of maturity and may not yet perform all of these project management tasks.**
 
 ## Project Ownership
 
@@ -58,9 +60,6 @@ The Product Manager and Engineering Managers regularly review the Opportunity Ba
 
 The EM and PM manage these roadmaps together. The PM ensures that the Roadmap reflects the priority of work required from this team. The EM ensures that there is a backlog of work ready for their team to pick up (See Ready For Development below).
 
-- [Roadmap for Practices](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1202)
-- [Roadmap for Observability](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1295)
-
 The roadmap epics should have the workflow label of `workflow-infra::Proposal` so that it shows in the correct section of the top-level epic for the Grand Review.
 
 Any project that is being prepared should be a child of a roadmap epic. These epics should have the workflow labels of either `workflow-infra::Triage`, `workflow-infra::Proposal` or `workflow-infra::Ready`.
@@ -71,7 +70,7 @@ A Roadmap epic has three sections: Now, Next and Later. These list, in priority 
 
 - ![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png)
 
-For the 'Now' section, the common pattern is to link to our [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148) so we have a consistent SSoT for the work in progress.
+For the 'Now' section, the common pattern is to link to the team's top-level epic so we have a consistent SSoT for the work in progress.
 
 Projects in this section are in progress.
 
@@ -109,7 +108,7 @@ The Engineering Manager asks an Engineer to review and decide whether more detai
 
 For an epic to be ready, the following information must be present on the epic:
 
-1. DRI (only required when in 'Next' section)
+1. DRI (assignee) (only required when in 'Next' section)
 2. Participants (only required when in 'Next' section)
 3. Context - why are we working on this (problem, background)
 4. Goals or Impact - what do we expect this project to accomplish
@@ -132,11 +131,7 @@ Other items that can be included are:
 This template may be used for epics:
 
 ```text
-## DRI
-
 ## Participants
-
-## OKR (optional)
 
 ## Context
 
@@ -156,7 +151,7 @@ These teams should be informed about this project:
 
 ## Status yyyy-mm-dd
 
-/labels ~"group::scalability"
+/labels ~"group::production engineering"
 ```
 
 #### Large Projects
@@ -167,26 +162,23 @@ It is at the discretion of the EM and DRI to choose between the sub-epic and the
 
 ### In Progress
 
-When the EM and PM agree, and there is space for a new project to begin, the chosen project should be removed from the Roadmap issue and associated directly with the [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148).
+When the EM and PM agree, and there is space for a new project to begin, the chosen project should be removed from the Roadmap issue and associated directly with the team's top level epic.
 
 The start and target date should be set, the DRI assigned, and the participants listed. The workflow label of `workflow-infra::In Progress` is applied, the start date and target date are set, and the project begins.
 
 ### Completed
 
-When the project is complete, follow the instructions on the [SaaS Plaforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#when-a-project-is-finished).
+When the project is complete, follow the instructions on the [Infrastructure Plaforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#when-a-project-is-finished).
 
 When the epic is closed, it can remain associated to the top-level epic. When we have too many epics associated, or when the end-of-year summary is produced, these epics are moved to the "Completed in Year xxx" epics, of which [this](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1266) is an example.
 
 ## Non-Project Work
 
-There are times when the Scalability teams are working on smaller issues that do not make up a project.
+There are times when the teams are working on smaller issues that do not make up a project.
 
 Always consider if these smaller issues should be batched to demonstrate progress on a particular part of the system. It is OK to have epics that are lower priority and longer running as a way of grouping this work together.
 
 ## Issue boards
-
-The Scalability group [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) track
-the progress of ongoing work.
 
 On the **planning board**, the goal is to get issues into a state where we have enough information to build the issue.
 However, not all issues that are `workflow-infra::Ready` to be built should be scheduled for development right away. Some
@@ -198,14 +190,3 @@ planning board will move to the build board immediately.
 | [Planning Board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697168) | [Build Board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160) |
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
 | ![Triage](/images/engineering/infrastructure/team/scalability/project-management/label-triage.png)    <br/>![Proposal](/images/engineering/infrastructure/team/scalability/project-management/label-proposal.png) <br/>![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) | ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) <br/>![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png) <br/>![Under Review](/images/engineering/infrastructure/team/scalability/project-management/label-under_review.png) <br/>![Verify](/images/engineering/infrastructure/team/scalability/project-management/label-verify.png) <br/>![Done](/images/engineering/infrastructure/team/scalability/project-management/label-done.png)|
-
-## Labels
-
-The Scalability teams routinely uses the following set of labels:
-
-1. The group label, `group::Scalability`.
-2. The team labels, `team::Scalability-Observability` and `team::Scalability-Practices`
-3. Scoped `workflow-infra` labels.
-4. Scoped `Service` labels.
-
-The `group::Scalability` label is used in order to allow for easier filtering of issues applicable to the team that have group level labels applied.
