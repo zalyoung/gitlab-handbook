@@ -126,7 +126,7 @@ The Technical Writing team develops and maintains toolkits to test GitLab's docu
 - Link validity: Lychee
 - File permissions and naming: `lint-doc.sh`
 
-Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer.
+Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer in the [DocOps group](#docops-group).
 
 #### Translation and internationalization
 
@@ -219,6 +219,20 @@ Over time, and with fewer groups assigned per stage lead, an aspirational goal i
 
 For [documentation improvements](https://docs.gitlab.com/development/documentation/workflow/#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
+
+### DocOps group
+
+[DocOps](https://www.writethedocs.org/guide/doc-ops/) is like DevOps, but  for docs. It's an
+approach to help streamline the creation, management, and deployment of documentation.
+
+Some Technical Writers are members of the [DocOps group](TODO-link-to-gl-group), which is responsible for:
+
+- Maintaining content quality through testing and linting in CI and on your local machine.
+- Automating common workflows like the [monthly maintenance tasks](#regularly-scheduled-tasks).
+
+The DocOps group is not responsible for the documentation website's code or infrastructure.
+
+Anyone in the Technical Writing team can join the DocOps group. To express interest, speak to your manager. Group membership is managed through [access requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
 
 ### Assignments to other projects and subjects
 
