@@ -287,12 +287,8 @@ Based on this analysis we expect to see similar behavior when rolling out Organi
 # Links
 
 - [Organization epic](https://gitlab.com/groups/gitlab-org/-/epics/9265)
-- [Organization MVC design](https://gitlab.com/groups/gitlab-org/-/epics/10068)
-- [Enterprise Users](https://docs.gitlab.com/ee/user/enterprise_user/index.html)
-- [Cells blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html)
-- [Cells epic](https://gitlab.com/groups/gitlab-org/-/epics/7582)
-- [Namespaces](https://docs.gitlab.com/ee/user/namespace/index.html)
 - [Organization Isolation](isolation.md)
 - [Organization: Frequently Asked Questions](organization-faq.md)
-- [Organization development
-  guidelines](https://docs.gitlab.com/development/organization/)
+- [Organization development guidelines](https://docs.gitlab.com/development/organization/)
+- [Enterprise Users](https://docs.gitlab.com/ee/user/enterprise_user/index.html)
+- [Cells blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html)
