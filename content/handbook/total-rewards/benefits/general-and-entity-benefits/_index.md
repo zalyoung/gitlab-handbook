@@ -346,7 +346,7 @@ You can learn more about parental leave and how to apply in the [Benefits sectio
 It can be helpful to connect with other team members who are parents or caregivers as you return to work. Consider:
 
 - Joining the `#intheparenthood` Slack channel to share tips, photos, and stories.
-- Attending a [Caregivers Team Member Resource Group (TMRG)](/handbook/company/culture/inclusion/tmrg-caregivers/) event or participating in the group.
+- Attending a [Caregivers Team Member Resource Group (TMRG)](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-caregivers/) event or participating in the group.
 - Making a merge request to add contributions to this page.
 
 #### Your 4th Trimester
