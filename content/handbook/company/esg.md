@@ -191,28 +191,28 @@ Our team members are critical to our success. We provide pathways for them to th
 
 - **[Career development and mobility](/handbook/people-group/learning-and-development/career-development/)** – We provide resources and direction to help team members engage in lifelong growth to meet their unique career goals.
 
-- **[Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/)** (TMRGs) – TMRGs cultivate an inclusive workplace and empower our employees by fostering a supportive environment where everyone can thrive. Our TMRGs are open to all team members, not just those who specifically identify with a particular group.
+- **[Team Member Resource Groups](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-and-tmag-guide/)** (TMRGs) – TMRGs cultivate an inclusive workplace and empower our employees by fostering a supportive environment where everyone can thrive. Our TMRGs are open to all team members, not just those who specifically identify with a particular group.
 
-  - [Asian/Pacific Islander](/handbook/company/culture/inclusion/tmrg-gitlab-api/)
-  - [Black@GitLab](/handbook/company/culture/inclusion/tmrg-gitlab-black/)
-  - [Caregivers](/handbook/company/culture/inclusion/tmrg-caregivers/)
-  - [Disabilities and Neurodivergence](/handbook/company/culture/inclusion/erg-gitlab-diversability/)
-  - [Gente](/handbook/company/culture/inclusion/tmrg-gitlab-gente/)
-  - [Generational Understanding](/handbook/company/culture/inclusion/tmrg-gitlab-generational-understanding/)
-  - [Global Voices](/handbook/company/culture/inclusion/tmrg-global-voices/)
-  - [Pride](/handbook/company/culture/inclusion/tmrg-gitlab-pride/)
-  - [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/)
+  - [Asian/Pacific Islander](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-gitlab-api/)
+  - [Black@GitLab](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-gitlab-black/)
+  - [Caregivers](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-caregivers/)
+  - [Disabilities and Neurodivergence](/handbook/company/culture/inclusion/tmrg-tmag/erg-gitlab-diversability/)
+  - [Gente](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-gitlab-gente/)
+  - [Generational Understanding](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-gitlab-generational-understanding/)
+  - [Global Voices](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-global-voices/)
+  - [Pride](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-gitlab-pride/)
+  - [GitLab Women](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-gitlab-women/)
 
-- **[Team Member Advocacy Groups](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels)** (TMAGs) – TMAGs are groups that share common interests and work together to drive change on behalf of the community through education, action, and enablement across a specific need.
+- **[Team Member Advocacy Groups](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-and-tmag-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels)** (TMAGs) – TMAGs are groups that share common interests and work together to drive change on behalf of the community through education, action, and enablement across a specific need.
 
-  - [Career Enablement](/handbook/company/culture/inclusion/tmdg-gitlab-early-career/)
+  - [Career Enablement](/handbook/company/culture/inclusion/tmrg-tmag/tmdg-gitlab-early-career/)
   - Mental Health – Coming soon
 
 **Leadership in Action**
 
 From education to mentorship, sponsorship, and advocacy, GitLab educates its leaders, provides resources for its team members, and holds its leaders accountable so that team members feel empowered to utilize the community they are surrounded by every day.
 
-- **[TMRG Executive Sponsors](/handbook/company/culture/inclusion/erg-guide/#executive-sponsorship)** – VP+ leaders who volunteer to support, advocate, and connect TMRG communities to our shared GitLab mission and vision and E-Group leaders.
+- **[TMRG Executive Sponsors](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-and-tmag-guide/#executive-sponsorship)** – VP+ leaders who volunteer to support, advocate, and connect TMRG communities to our shared GitLab mission and vision and E-Group leaders.
 - **[Leadership DIB Council](/handbook/company/culture/inclusion/leadership-dib-council/)** – A strategic group of senior leaders who assist the DIB team in implementing and aligning the strategy to each division’s strategic imperatives.
 - **[Sponsorship](/handbook/company/culture/inclusion/dib-sponsorship/)** – VP+ leaders advocate and provide visibility and guidance to our team members for growth and career advancement.
 
