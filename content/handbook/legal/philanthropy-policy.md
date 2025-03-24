@@ -48,7 +48,7 @@ Please see GitLab's [Trade Compliance Policy Handbook](/handbook/legal/trade-com
 
 #### 3. Volunteerism and team member engagement
 
-GitLab encourages team members to get involved in the causes they care about. From time to time GitLab's ESG or [Diversity, Inclusion and Belonging](/handbook/company/culture/inclusion/) (DIB) Teams may organize company-wide volunteer events and may include a volunteer component at GitLab-sponsored events, where applicable. GitLab team members and [team member resource groups](/handbook/company/culture/inclusion/erg-guide/) (TMRGs) can suggest organizations to support through volunteerism.
+GitLab encourages team members to get involved in the causes they care about. From time to time GitLab's ESG or [Diversity, Inclusion and Belonging](/handbook/company/culture/inclusion/) (DIB) Teams may organize company-wide volunteer events and may include a volunteer component at GitLab-sponsored events, where applicable. GitLab team members and [team member resource groups](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-and-tmag-guide/) (TMRGs) can suggest organizations to support through volunteerism.
 
 ### Exclusions
 
