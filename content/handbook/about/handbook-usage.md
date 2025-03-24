@@ -250,7 +250,7 @@ smaller browser window).
 
 For some pages, the `Maintainers` section is empty. This is because the page is
 maintained by a group rather than individuals. To view which groups or
-individuals maintain a page, see the [`CODEOWNERS` file](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS).
+individuals maintain a page, see the `CODEOWNERS` file of the relevant repository, such as [the handbook's `CODEOWNERS`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS).
 
 The page's code owners will also be visible when viewing the
 [approval section](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html) of the merge request.
