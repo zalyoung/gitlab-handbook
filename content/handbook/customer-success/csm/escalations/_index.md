@@ -273,7 +273,6 @@ Occasionally, customers will require a product leader to act as a stable counter
 - If exit criteria is possible to complete with a CSE engagement, work the escalation like you would a case.
 - If exit criteria is not possible to complete with a CSE engagement, help account team determine next best steps. For example, recommend a PM to get involved or Professional/Investment Services.
 
-
 ## Related Links
 
 - [Support Engineering Page](/handbook/support/) and [Support Engineering Escalation Procedures](/handbook/support/workflows/working-with-issues/)
