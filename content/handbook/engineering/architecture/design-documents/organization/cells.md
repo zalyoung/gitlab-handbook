@@ -7,8 +7,9 @@ toc_hide: true
 
 # Organizations and Cells Integration
 
-Operating a GitLab instance as a SaaS also poses some important technical
-challenges:
+Watch a [video introduction](https://www.youtube.com/watch?v=kDinjEHVVi0) that summarizes what Organization isolation is and why we need it for Cells.
+
+Operating a GitLab instance as a SaaS poses some important technical challenges:
 
 1. Scalability challenges: As the user base grows, it becomes increasingly difficult to scale the entire application uniformly.
 1. Performance bottlenecks: Heavy usage by one organization can potentially impact the performance for others.
