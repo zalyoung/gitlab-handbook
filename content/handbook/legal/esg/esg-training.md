@@ -47,7 +47,7 @@ Sustainability matters to GitLab because Sustainability matters to our stakehold
 
 - The [Sustainability Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) is part of Legal and Corporate Affairs. The Sustainability Team drives and integrates GitLab’s responsible business practices and ESG regulatory compliance by creating and maintaining GitLab’s Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab’s social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab’s values and mission.
 
-### [Sustainability Programs](https://handbook.gitlab.com/handbook/legal/esg/#esg--sustainability-programs)
+### Sustainability Programs
 
 - Compliance & Reporting
   - GitLab is subject to new regulations in the EU and US that will require us to disclose a wide range of quantitative and qualitative ESG information in 2026. To date, GitLab has published two voluntary annual ESG reports, providing a strong foundation for complying with the new ESG reporting regulations.
@@ -61,14 +61,16 @@ Sustainability matters to GitLab because Sustainability matters to our stakehold
 - GiveLab
   - GiveLab is GitLab’s team member volunteer program. Volunteerism is an effective way to build trust through social connections - this leads to higher individual and team motivation, greater cross-functional collaboration.
 
+  See the Sustainability handbook page for more details on GitLab's [Sustainability Programs](handbook.gitlab.com/handbook/legal/esg/#esg--sustainability-programs)
+
 ### GitLab's ESG Materiality Assessment
 
 - GitLab completed its first double materiality assessment in January 2023. The assessment considered the perspectives of all of GitLab's stakeholders including team members, senior leadership, customers, community members, board members, investors. The assessment involved speaking with GitLab's stakeholders to understand the key topics they believe have the biggest impact on the success of the business and where GitLab has the biggest impact on the environment, society and people. We also considered ESG regulation, our peers, competitors and nonprofit organizations.The materiality assessment was the first step in developing the company's first ESG strategy.
 - In Q1 of 2025, GitLab underwent a refresh of the double materiality assessment to uncover any changes in stakeholder perception on the key topics GitLab focuses on and to align with the requirements of new EU regulation. 
 - As part of the assessment, GitLab uncovered 9 material topics, most of which aligned with GitLab’s original assessment. The complete assessment and data will be published in GitLab’s FY25 Sustainability Report.
 
-
 ### GitLab's  Key Topics
+
 - Climate Action 
 - Social Impact 
 - Team Member Health, Safety and Well Being 
@@ -78,7 +80,6 @@ Sustainability matters to GitLab because Sustainability matters to our stakehold
 - Business Ethics
 - Public Policy
 - Information Security and Data Privacy
-
 
 ### GitLab's ESG Disclosures
 
