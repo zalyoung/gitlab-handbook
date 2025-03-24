@@ -198,7 +198,7 @@ Your `deploy review` job should be the only job that should be running.
 
 1. Click on **Build > Pipelines**.
 
-1. Click on the **Run Pipeline** button.
+1. Click on the **New Pipeline** button.
 
 1. Under **Run for branch name or tag**, make sure **main** is selected.
 
