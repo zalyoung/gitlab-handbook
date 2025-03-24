@@ -1,70 +1,17 @@
 ---
-title: "GitLab Fundamentals - Hands-On Lab: Organizing your work in GitLab"
-description: "This Hands-On Guide walks you through the basics of organizing and structuring your work in GitLab."
+title: "GitLab Fundamentals - Hands-On Lab: Repository Management and Branching"
+description: "This Hands-On Guide walks you through managing code repositories in GitLab."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-In this lab, we will explore how we can organize work in GitLab, using groups, sub-groups, and projects.
+In this lab, we will explore how we can create repositories to organize code, as well as configure the repositories to meet various use cases. 
 
-## Task A. Viewing a group structure
+## Task A. Creating a repository
 
-To start, in the left sidebar, select **Groups**.
-
-1. In the **Groups** section, select the dropdown arrow on the left of **Training Users**. 
-
-1. Below **Training users**, you should now see a group with a name like **Session <string of characters and numbers**.
-
-1. Click the dropdown arrow next to the **Session** group. You should now see a group named **My Test Group - <string of characters and numbers>**. Click this group to access it.
-
-This navigation shows an example of groups and subgroups. In the ILT GitLab instance, the **Training Users** group is a top-level group. This means that it is not part of any other groups in the instance. The **Training Users** group contains a set of subgroups, which represent classes running in the instance. Each of these subgroups is given a name like **Session <string of characters and numbers>**. Inside of these groups is a set of subgroups, one group for each student in the class. The **My Test Group** subgroup is your own group, which you can organize and modify in any way you like.
-
-## Task B. Creating a Group Structure
-
-To start, make sure you are in the **My Test Group** subgroup. For this task, imagine you are working at a company with two departments: Development, and QA. These departments have the following projects:
-
-- Development: A mobile and desktop version of an application named `Cool App`. Of note, `Cool App` contains many microservices spread over many repositories for both versions.
-- QA: Two testing frameworks, one for the mobile version of `Cool App` and one for the desktop version. Both frameworks are monolithic, stored in a single project.
-
-Take some time here to consider a structure for these two teams. After considering options, take a look at the steps below for a possible solution.
-
-1. Since we have two teams, let's create a group for each team. Select **New subgroup**. 
-
-1. In the **Subgroup name**, enter `Development`. Leave all other options as default and select **Create subgroup**.
-
-1. At the top of the page, you will see a set of breadcrumbs which shows your location in the application. Click **My Test Group** to return to your main group.
-
-1. From here, you will now see your `Development` group. Select **New subgroup** to create your group for QA.
-
-1. In the **Subgroup name**, enter `QA`. Leave all other options as default and select **Create subgroup**.
-
-1. Select **My Test Group** from the breadcrumbs again to return to your main group. You will now see two groups: `Development` and `QA`. 
-
-Next, we can structure subgroups for both team's projects. Since the development applications have many projects, it makes sense to create a subgroup for each project type.
-
-1. Select the `Development` group.
-
-1. Select **New subgroup**.
-
-1. In **Subgroup name**, enter the name `Cool App Desktop`. Select **Create subgroup**.
-
-1. In the breadcrumbs, select **Development** to return to the development group.
-
-1. Select **New subgroup**.
-
-1. In **Subgroup name**, enter the name `Cool App Mobile`. Select **Create subgroup**.
-
-1. In the breadcrumbs, select **Development** to return to the development group.
-
-Now in the `Development` group, you will see a `Cool App Desktop` and `Cool App Mobile` subgroups, ready to contain any projects related to both applications.
-
-For the QA team, they have a single project. There are two main options for structuring this team. We can create a group for `Cool App Testing` that will contain the project, or we can just create the project in the subgroup.
-
-## Task C. Creating a repository
-
-Let's create a new repository for the QA team. Select the `QA` group in your **My Test Group**. From here:
+To start, let's create a new repository for the QA team. Select the `QA` group in your **My Test Group**. From here:
 
 1. Select **New project**.
 
@@ -76,29 +23,59 @@ Let's create a new repository for the QA team. Select the `QA` group in your **M
 
 1. Select **Create project**.
 
-After creating the project, you will be navigated to the repository of the project. You will see a single file titled `README.md`, which contains a basic README template. To get started working with this project, let's create an issue.
+After creating the project, you will be navigated to the repository of the project. You will see a single file titled `README.md`, which contains a basic readme template. Throughout the course, we will explore different ways to work with this repository. To start, let's look at how we can configure this project.
 
-## Task D. Creating issues in a project
+## Task B. Configuring your project
 
-Let's learn the basics of creating issues in GitLab. 
+In the left sidebar, you will see a few new options available when you are in your project.
 
-1. Navigate to your **Cool App QA** project. 
+1. In the left sidebar, select **Settings**. From the resulting dropdown, select **General**.
 
-1. In the left sidebar, select **Plan > Issues**. 
+1. Review the different settings available in general. Here you can toggle your project visibility, features enabled, as well as advanced options like moving and deleting projects.
 
-1. Select **New issue**.
+1. In the left sidebar, under **Settings**, select **Repository**. This section contains configurations for your project code repository. 
 
-1. In the title, enter `First issue`.
+In most settings, you will want to toggle a few settings for your repository. First, you will want to ensure your project has a consistent default branch. This branch will be the branch that merge requests are made against in your project. For this main branch, you will want to ensure it is protected and not able to be pushed directly to. Let's look at how to configure these options.
 
-1. Enter any description you like.
+1. In **Repository Settings**, select **Branch defaults** to expand this section.
 
-1. Select **Create issue**.
+    > Here, you will see that `main` is your default branch.
 
-By following this process, you created an issue related to your **Cool App QA** project. Let's discuss some of the details related to your issue. In the center, you will see your issue description, as well as activity for the issue and an area to add comments and discussions. Every issue can have child items, which are smaller tasks related to the issue. Issues can also be linked to other issues to show relationships between issues. 
+1. Next, select **Branch rules**.
 
-In the right sidebar, you will see metadata related to your issue. The **Assignee** is the set of people currently working on the issue. If the issue is associated with an epic, milestone, or iteration, these details will display here. Labels can be added to an issue to help organize issues into similar categories or types. Weight defines the amount of work associated with an issue. A due date can be set on an issue for when it should be completed by. Time tracking lets you track time taken to complete an issue. Health status lets you set a status for how the issue is progressing.
+1. Beside the `main` rules, select **View details**. 
 
-Often, we use issues to represent smaller pieces of work that may be completed in a single iteration or sprint. For larger sets of work, we use the concept of an epic, which will be discussed in a later lab.
+1. Explore the settings available here. You will see that by default, `Allow force push` is disabled for the main branch. You will also see that users with a `Maintainer` role can push and merge to `main`. Ideally, we want to prevent anyone from pushing into `main` directly.
+
+1. To prevent pushes to main, select **Edit** in the **Allowed to push and merge** section.
+
+1. Check the **No one** checkbox. Select **Save changes**.
+
+With this setting changed, now no one can directly push to `main`. Let's test this out to see the result.
+
+## Task C. Testing pushes to main
+
+1. In the left sidebar, select **Code > Repository**.
+
+1. At the top of the repository section, select **+ > New file**.
+
+1. In the **Filename**, enter `test.txt`.
+
+1. Enter any text into the file contents.
+
+1. Select **Commit changes**. 
+
+1. In the **New branch** section, notice that there is a note stating "You don't have permission to commit to `main`". This is a direct result of our branch rules. To accommodate the change, this window has automatically created a new branch for us to use.
+
+1. In **New branch**, change the name to `test-commit`.
+
+1. Uncheck **Create a merge request for this change**.
+
+1. Select **Commit changes**.
+
+After committing the changes, you will now see the file available. This created a new branch in your project. To return to your main branch, select the dropdown that currently says **test-commit**. From this dropdown, select **main** to see your main branch again.
+
+Now that we have a change in a branch, we can explore the concept of merge requests to merge the changes into main in the next lab.
 
 ## Lab Guide Complete
 

@@ -1,81 +1,71 @@
 ---
-title: "GitLab Fundamentals - Hands-On Lab: Repository Management and Branching"
-description: "This Hands-On Guide walks you through managing code repositories in GitLab."
+title: "GitLab Fundamentals - Hands-On Lab: Collaboration and Code Review"
+description: "This Hands-On Guide walks you through collaborating on changes and creating code reviews."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-In this lab, we will explore how we can create repositories to organize code, as well as configure the repositories to meet various use cases. 
+In this lab, we will explore the process of creating and merging a merge request
 
-## Task A. Creating a repository
+## Task A. Creating a merge request
 
-To start, let's create a new repository for the QA team. Select the `QA` group in your **My Test Group**. From here:
+In the last lab, you created a new branch called **test-commit**. In this section, we will create a merge request to merge the changes from this branch into our main branch.
 
-1. Select **New project**.
+1. Navigate to your `Cool App QA` project.
 
-1. Select **Create blank project**.
+1. In the left sidebar, select **Code > Branches**.
 
-1. In the **Project name**, enter `Cool App QA`. 
+1. In the **test-commit** row, select **New**.
 
-1. Ensure that **Initialize repository with a README** is checked on. This will create a README file in the project as a starting point.
+1. In the **Title** field, enter the title **Merging new file to main**.
 
-1. Select **Create project**.
+1. Check the box **Mark as draft**. This will mark the Merge Request as a draft, and prevent it from being merged until the the Draft status is removed.
 
-After creating the project, you will be navigated to the repository of the project. You will see a single file titled `README.md`, which contains a basic readme template. Throughout the course, we will explore different ways to work with this repository. To start, let's look at how we can configure this project.
+1. In **Description**, enter any description you would like. 
 
-## Task B. Configuring your project
+1. In **Assignees**, select **Assign to me**.
 
-In the left sidebar, you will see a few new options available when you are in your project.
+1. Leave all other options as default and select **Create merge request**.
 
-1. In the left sidebar, select **Settings**. From the resulting dropdown, select **General**.
+After selecting **Create merge request**, you will be redirected to the merge request page. Let's explore this page in more detail.
 
-1. Review the different settings available in general. Here you can toggle your project visibility, features enabled, as well as advanced options like moving and deleting projects.
+## Task B. Exploring the merge request
 
-1. In the left sidebar, under **Settings**, select **Repository**. This section contains configurations for your project code repository. 
+On the main merge request page, you will four tabs available:
 
-In most settings, you will want to toggle a few settings for your repository. First, you will want to ensure your project has a consistent default branch. This branch will be the branch that merge requests are made against in your project. For this main branch, you will want to ensure it is protected and not able to be pushed directly to. Let's look at how to configure these options.
+* **Overview**, which shows an overview of the merge request, including approvals, merge request status, **Activity**, and a comment area to add comments to a merge request.
 
-1. In **Repository Settings**, select **Branch defaults** to expand this section.
+* **Commits**, which shows all of the commits that are part of the current merge request.
 
-    > Here, you will see that `main` is your default branch.
+* **Pipelines**, which shows any CI/CD pipelines associated with a merge request.
 
-1. Next, select **Branch rules**.
+* **Changes**, which shows a differential of the changes associated with the merge request.
 
-1. Beside the `main` rules, select **View details**. 
+Return to the **Overview** tab. In this tab, there are a few important details to note:
 
-1. Explore the settings available here. You will see that by default, `Allow force push` is disabled for the main branch. You will also see that users with a `Maintainer` role can push and merge to `main`. Ideally, we want to prevent anyone from pushing into `main` directly.
+1. In the right sidebar, you will see details about your merge request. The merge request is currently assigned to you, meaning you are the one currently working on the merge request contents.
 
-1. To prevent pushes to main, select **Edit** in the **Allowed to push and merge** section.
+* The **Reviewers** section shows any reviewers that have been assigned to a merge request. Currently this is empty, since approval is optional. 
 
-1. Check the **No one** checkbox. Select **Save changes**.
+* **Labels** allows you to add organizational labels to a merge request to keep track of it in context of other related work.
 
-With this setting changed, now no one can directly push to `main`. Let's test this out to see the result.
+* **Milestone** allows you to associate a milestone to a merge request
 
-## Task C. Testing pushes to main
+* **Time Tracking** lets you track time against a merge request.
 
-1. In the left sidebar, select **Code > Repository**.
+* **Participants** shows everyone who has commented or committed for a merge request. 
 
-1. At the top of the repository section, select **+ > New file**.
+In the center of the screen, you will see a message stating **Merge blocked**. In this section, you can see any issues preventing your code from being merged into main. Anything from failed pipelines to security scan results can block a merge request, depending on your configuration. Currently, the reason to request is blocked is stated below: "Merge request must not be a draft". Let's fix this issue.
 
-1. In the **Filename**, enter `test.txt`.
+1. Click **Mark as ready** in the **Merge blocked** block. If you do not see the **Mark as ready** option, click on the arrow to the right ot the **Merge blocked** block to expand it.
 
-1. Enter any text into the file contents.
+1. Select **Merge**.
 
-1. Select **Commit changes**. 
+1. Once the merge completes, in the left sidebar, select **Code > Repositories**. 
 
-1. In the **New branch** section, notice that there is a note stating "You don't have permission to commit to `main`". This is a direct result of our branch rules. To accommodate the change, this window has automatically created a new branch for us to use.
-
-1. In **New branch**, change the name to `test-commit`.
-
-1. Uncheck **Create a merge request for this change**.
-
-1. Select **Commit changes**.
-
-After committing the changes, you will now see the file available. This created a new branch in your project. To return to your main branch, select the dropdown that currently says **test-commit**. From this dropdown, select **main** to see your main branch again.
-
-Now that we have a change in a branch, we can explore the concept of merge requests to merge the changes into main in the next lab.
+You will now see your new file in the **main** branch of your code repository.
 
 ## Lab Guide Complete
 

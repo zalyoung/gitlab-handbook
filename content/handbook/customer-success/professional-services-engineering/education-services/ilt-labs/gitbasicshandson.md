@@ -7,7 +7,6 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 | Lab Name |  Lab Link |
 |-----------|------------|
-| Navigating to GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab1/) |
 | Organizing your work in GitLab |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab2/) |
 | Repository Management and Branching | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab3/) |
 | Collaboration and Code Review | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandsonlab4/) |

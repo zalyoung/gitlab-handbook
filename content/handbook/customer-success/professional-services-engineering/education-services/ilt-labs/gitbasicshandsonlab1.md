@@ -1,61 +1,104 @@
 ---
-title: "GitLab Fundamentals - Hands-On Lab: Navigating to GitLab"
-description: "This Hands-On Guide walks you through the basics of interacting with GitLab as a platform."
+title: "GitLab Fundamentals - Hands-On Lab: Organizing your work in GitLab"
+description: "This Hands-On Guide walks you through the basics of organizing and structuring your work in GitLab."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-In this lab, you will explore the basics of navigating GitLab. The goal of this lab is to get you familiar with accessing GitLab and navigating the different features available.
+In this lab, we will explore how we can organize work in GitLab, using groups, sub-groups, and projects.
 
-## Task A. Navigating to GitLab
+## Task A. Viewing a group structure
 
-Before starting this lab, you redeemed an invitation code for a GitLab instance. Let's navigate to this instance and log in.
+To start, in the left sidebar, select **Groups**.
 
-* Navigate to https://ilt.gitlabtraining.cloud/ .
+1. In the **Groups** section, select the dropdown arrow on the left of **Training Users**. 
 
-* Input the username and password you received when redeeming your invitation code and select **Sign in**.
+1. Below **Training users**, you should now see a group with a name like **Session <string of characters and numbers**.
 
-After signing in, you will see a welcome screen with three options: Create a project, explore public projects, and learn more about GitLab. Let's take a tour of the different UI elements and the features they correspond to.
+1. Click the dropdown arrow next to the **Session** group. You should now see a group named **My Test Group - <string of characters and numbers>**. Click this group to access it.
 
-## Task B. Navigating Areas of GitLab
+This navigation shows an example of groups and subgroups. In the ILT GitLab instance, the **Training Users** group is a top-level group. This means that it is not part of any other groups in the instance. The **Training Users** group contains a set of subgroups, which represent classes running in the instance. Each of these subgroups is given a name like **Session <string of characters and numbers>**. Inside of these groups is a set of subgroups, one group for each student in the class. The **My Test Group** subgroup is your own group, which you can organize and modify in any way you like.
 
-To start, we will look at the left sidebar of your GitLab instance. At the top, you will see the GitLab Tanuki logo. Clicking this will bring you back to your instance home. To the right of this icon, you will see a button to hide the sidebar and a button to create a new project or snippet. Beside these buttons, you will see your profile picture. Clicking your profile picture will show you your GitLab username, as well as various options to edit your user profile. 
+## Task B. Creating a Group Structure
 
-Below the top section, you will see three buttons. The leftmost button will bring you to your GitLab issues. The middle button will bring you to your merge requests. The rightmost button will bring you to your To-Do list. Below these buttons is a search bar which you can use to search for projects, groups, and issues in your instance. Below this, you will see the following sidebar items:
+To start, make sure you are in the **My Test Group** subgroup. For this task, imagine you are working at a company with two departments: Development, and QA. These departments have the following projects:
 
-* The **Projects** item will show all of the projects you are a part of. Currently, you have no projects, so the only thing that will show here is a prompt to create or explore projects.
+- Development: A mobile and desktop version of an application named `Cool App`. Of note, `Cool App` contains many microservices spread over many repositories for both versions.
+- QA: Two testing frameworks, one for the mobile version of `Cool App` and one for the desktop version. Both frameworks are monolithic, stored in a single project.
 
-* The **Groups** item will show the groups you are a part of. A group is a container with can contain other groups, known as **Subgroups**, or projects. They provide a way of organizing your GitLab repositories and data. Currently, you will see one group named **Training Users**.
+Take some time here to consider a structure for these two teams. After considering options, take a look at the steps below for a possible solution.
 
-* The **Issues** item will let you explore issues in your GitLab instance. By default, the issues section will be filtered to search for issues you are assigned to. Currently, no results are found, since you have no issues assigned to you.
+1. Since we have two teams, let's create a group for each team. Select **New subgroup**. 
 
-* The **Merge requests** item lets you explore merge requests in your GitLab instance. There are two subitems in this menu: Assigned and Review requests. Assigned will show merge requests you are assigned to and Review requests will show merge requests where your review is requested. Both are currently empty.
+1. In the **Subgroup name**, enter `Development`. Leave all other options as default and select **Create subgroup**.
 
-* The **To-Do List** item will show you a list of work to do in GitLab. A To-Do item is created when you are mentioned in a comment, or when an issue or merge request is assigned to you.
+1. At the top of the page, you will see a set of breadcrumbs which shows your location in the application. Click **My Test Group** to return to your main group.
 
-* The **Milestones** item will show you milestones for projects you are involved in. 
+1. From here, you will now see your `Development` group. Select **New subgroup** to create your group for QA.
 
-* The **Snippets** item will show you any code snippets you have saved.
+1. In the **Subgroup name**, enter `QA`. Leave all other options as default and select **Create subgroup**.
 
-* The **Activity** item will show activity occurring in your projects, starred projects, and users you follow on GitLab.
+1. Select **My Test Group** from the breadcrumbs again to return to your main group. You will now see two groups: `Development` and `QA`. 
 
-* The **Workspaces** item will show any workspaces that are configured for your project. Similarly, the **Environments** item will show environments related to your project deployments.
+Next, we can structure subgroups for both team's projects. Since the development applications have many projects, it makes sense to create a subgroup for each project type.
 
-* The **Operations** item will show a summary of project operations, including overviews of pipeline health and any active alerts.
+1. Select the `Development` group.
 
-* The **Security** item will show security report overviews for all of your projects.
+1. Select **New subgroup**.
 
-Take some time to explore these items and understand more about the information contained in each section. Try to answer the following questions by either exploring the features, or by reading the GitLab documentation:
+1. In **Subgroup name**, enter the name `Cool App Desktop`. Select **Create subgroup**.
 
-* If you create a private project, what level(s) of visibility can your Snippets have?
+1. In the breadcrumbs, select **Development** to return to the development group.
 
-* If you create a project in a private subgroup, can you make it public?
+1. Select **New subgroup**.
 
-* What tasks will you be notified about in your To-Do list?
+1. In **Subgroup name**, enter the name `Cool App Mobile`. Select **Create subgroup**.
 
-* What kind of charts does a milestone contain?
+1. In the breadcrumbs, select **Development** to return to the development group.
+
+Now in the `Development` group, you will see a `Cool App Desktop` and `Cool App Mobile` subgroups, ready to contain any projects related to both applications.
+
+For the QA team, they have a single project. There are two main options for structuring this team. We can create a group for `Cool App Testing` that will contain the project, or we can just create the project in the subgroup.
+
+## Task C. Creating a repository
+
+Let's create a new repository for the QA team. Select the `QA` group in your **My Test Group**. From here:
+
+1. Select **New project**.
+
+1. Select **Create blank project**.
+
+1. In the **Project name**, enter `Cool App QA`. 
+
+1. Ensure that **Initialize repository with a README** is checked on. This will create a README file in the project as a starting point.
+
+1. Select **Create project**.
+
+After creating the project, you will be navigated to the repository of the project. You will see a single file titled `README.md`, which contains a basic README template. To get started working with this project, let's create an issue.
+
+## Task D. Creating issues in a project
+
+Let's learn the basics of creating issues in GitLab. 
+
+1. Navigate to your **Cool App QA** project. 
+
+1. In the left sidebar, select **Plan > Issues**. 
+
+1. Select **New issue**.
+
+1. In the title, enter `First issue`.
+
+1. Enter any description you like.
+
+1. Select **Create issue**.
+
+By following this process, you created an issue related to your **Cool App QA** project. Let's discuss some of the details related to your issue. In the center, you will see your issue description, as well as activity for the issue and an area to add comments and discussions. Every issue can have child items, which are smaller tasks related to the issue. Issues can also be linked to other issues to show relationships between issues. 
+
+In the right sidebar, you will see metadata related to your issue. The **Assignee** is the set of people currently working on the issue. If the issue is associated with an epic, milestone, or iteration, these details will display here. Labels can be added to an issue to help organize issues into similar categories or types. Weight defines the amount of work associated with an issue. A due date can be set on an issue for when it should be completed by. Time tracking lets you track time taken to complete an issue. Health status lets you set a status for how the issue is progressing.
+
+Often, we use issues to represent smaller pieces of work that may be completed in a single iteration or sprint. For larger sets of work, we use the concept of an epic, which will be discussed in a later lab.
 
 ## Lab Guide Complete
 
