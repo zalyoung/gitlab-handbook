@@ -364,7 +364,7 @@ We'll add concrete queries once the widget API is finalized.
 We've decided not to introduce new permissions for work item statuses. Instead, authorization is handled
 by existing work item permissions like `read_work_item` or `update_work_item`.
 
-This approach avoids redundant permission checks by leveraging GraphQL’s higher-level query execution
+This approach avoids redundant permission checks by leveraging GraphQL's higher-level query execution
 for authorization, improving query performance by reducing the number of Permission checks.
 
 Additionally, work item status-specific resolvers like `BulkStatusResolver` and `AllowedStatusesResolver`
