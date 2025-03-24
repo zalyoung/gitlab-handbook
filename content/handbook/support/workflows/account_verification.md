@@ -48,7 +48,7 @@ The table below provides a summary of the available verification options based o
 
 | Requester | Target | Challenges | Support PIN | Notes |
 | --- | --- | --- | --- | --- |
-| Enterprise Owner | Own account | Owner passes challenges on own account | Support PIN must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com) for other challenges. |
+| Enterprise Owner | Own account | Owner passes challenges on own account | Support PIN must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com/handbook/support/#account-verification-challenge-questions) for other challenges. |
 | Enterprise Owner | Member of paid group or intent to be added or Enterprise User | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
 | Owner | Non-enterprise user | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CC'd on ticket.  |
 | Paid User | Own account | User passes challenges on own account | N/A | If owner is needed, owner must open a new ticket. |
