@@ -9,7 +9,7 @@ description: "Information and processes related to Sustainability and ESG"
 * Join the [#sustainability-esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) Slack channel to follow along for updates, ask questions and provide feedback
 * Customer asking ESG-related questions? Follow the steps outlined in the [Requesting Support with Customer ESG Questions](#requesting-support-with-customer-esg-questions) section below
 * [Sustainability Programs](#esg--sustainability-programs)
-* [GitLab Earth Month 2025](/handbook/legal/esg/earth-month/)
+* [GitLab Earth Month 2025](/handbook.gitlab.com/handbook/legal/esg/earth-month/index.html/)
 
 **Corporate Sustainability** is a business approach that enhances long term stakeholder value by implementing a strategy that considers every dimension of how a business operates when making social, environmental and economic progress.
 
