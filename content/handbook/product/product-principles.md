@@ -457,7 +457,7 @@ In GitLab EE, each project supports [multiple boards](https://docs.gitlab.com/us
 This _does not_ mean that Core has an artificial limit of one board per project, because there is additional effort
 to manage multiple boards such as supporting the navigation interface, and all the associated engineering work.
 
-This principle does not apply to our SaaS offering as limits are occasionally introduced to limit our hosting costs and protect other users from potential abuse. As an example we have [shared runner](https://docs.gitlab.com/user/gitlab_com/#shared-runners) minute quotas and implement [rate limiting](https://docs.gitlab.com/user/gitlab_com/#gitlabcom-specific-rate-limits).
+This principle does not apply to our SaaS offering as limits are occasionally introduced to limit our hosting costs and protect other users from potential abuse. As an example we have [shared runner](https://docs.gitlab.com/user/gitlab_com/#shared-runners) minute quotas and implement [rate limiting](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom).
 
 ### Avoid enforced workflows but allow enterprise flexibility
 
