@@ -2,9 +2,9 @@
 title: "Organization"
 status: ongoing
 creation-date: "2023-04-05"
-authors: [ "@lohrc", "alexpooley" ]
+authors: [ "@lohrc", "@alexpooley" ]
 coach: "@ayufan"
-approvers: [ "dorrino",  ]
+approvers: [ "@alexpooley", "@dorrino" ]
 owning-stage: "~devops::tenant scale"
 group: Organizations
 participating-stages: []

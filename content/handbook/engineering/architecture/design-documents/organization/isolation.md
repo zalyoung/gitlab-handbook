@@ -2,10 +2,10 @@
 title: Organization Isolation
 status: ongoing
 creation-date: "2023-10-11"
-authors: [ "@DylanGriffith" ]
+authors: [ "@alexpooley", "@DylanGriffith" ]
 coach:
-approvers: [ "@lohrc", "@alexpooley" ]
-owning-stage: "~devops::data stores"
+approvers: [ "@alexpooley", "@dorrino" ]
+owning-stage: "~devops::tenant scale"
 participating-stages: []
 toc_hide: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Organization: Frequently Asked Questions"
-owning-stage: "~devops::enablement"
+owning-stage: "~devops::tenant scale"
 # TODO: The group attribute doesn't exist
 group: Tenant Scale
 toc_hide: true
