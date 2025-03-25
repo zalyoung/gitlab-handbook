@@ -5,7 +5,7 @@ creation-date: "2024-02-06"
 authors: [ "@alexander-sosna" ]
 coach: [ "@andrewn" ]
 approvers: [  ]
-owning-stage: "~devops::data_stores"
+owning-stage: "~devops::data_access"
 participating-stages: []
 toc_hide: true
 ---
