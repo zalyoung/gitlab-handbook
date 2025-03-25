@@ -5,7 +5,7 @@ description: "GitLab FY26 Earth Month Campaign"
 
 ## Overview
 
-This Earth Month, GitLab is advancing our climate action program through an inaugural campaign designed to engage team members in sustainability initiatives. As a key pillar of [GitLab's climate action plan](https://handbook.gitlab.com/handbook/legal/esg/#climate-action), team member sustainability is increasingly important to our stakeholders and customers.
+This Earth Month, GitLab is advancing our climate action program through an inaugural campaign designed to engage team members in sustainability initiatives. As a key pillar of [GitLab's climate action plan](/handbook/legal/esg/#climate-action), team member sustainability is increasingly important to our stakeholders and customers.
 
 We're excited to announce our new partnership with [Mammoth Climate](https://www.mammothclimate.io/en), a climate literacy and challenges platform available to all full-time team members starting 2025-04-01. We also invite you to join our GiveLab virtual volunteer opportunity supporting Citizens of the Reef, where you can directly contribute to marine conservation efforts utilizing AI while connecting with fellow team members.
 
@@ -37,7 +37,7 @@ Starting 2025-04-01, all team members will have optional access to the Mammoth C
 
 2. Join our Earth Month kick-off calls on 2025-04-01 at 9am PST or 5pm PST.
 
-3. Complete weekly challenges to earn prizes from sustainable brands like [Everist](https://helloeverist.com/?srsltid=AfmBOoqQiOYH6I74tTp8NkRTnlA5VRJ9ukr8vxPQy4KmgbRdAnOK0J4M), [Guests on Earth](https://www.guestsonearth.com/), [Fable](https://us.fable.com/pages/were-fable) and [Lomi](https://lomi.com/). See [Official Rules](hhttps://drive.google.com/file/d/1LPbKm6MrSDmOOCEBfK95t0dPlKKwFNtP/view) for details.
+3. Complete weekly challenges to earn prizes from sustainable brands like [Everist](https://helloeverist.com/?srsltid=AfmBOoqQiOYH6I74tTp8NkRTnlA5VRJ9ukr8vxPQy4KmgbRdAnOK0J4M), [Guests on Earth](https://www.guestsonearth.com/), [Fable](https://us.fable.com/pages/were-fable) and [Lomi](https://lomi.com/). See [Official Rules](hhttps://drive.google.com/file/d/1LPbKm6MrSDmOOCEBfK95t0dPlKKwFNtP/view) for details. Note that points redeemable for gift cards and cabon credits are capped at $25 USD per team member.
 
 ### Volunteer with GiveLab
 
@@ -49,25 +49,25 @@ Celebrate Earth Month by [joining our 1-hour virtual event](https://forms.gle/A6
 
 **Local Volunteering**
 
-Connect with local team members by signing up for an environmental [volunteer event in your area](https://docs.google.com/document/d/1TrOD4zIW83Vi3fKRFIgmJHKHcB4qIl6hniAcHbxNfQ4/edit?usp=sharing), then share the opportunity in your local Slack channel to organize a group outing.
+Connect with local team members by signing up for an environmental [volunteer event in your area](https://docs.google.com/document/d/1TrOD4zIW83Vi3fKRFIgmJHKHcB4qIl6hniAcHbxNfQ4/edit?usp=sharing), and share the opportunity in your local Slack channel to organize a group outing.
 
 This is a fun opportunity to spend the day outside while making a positive impact on the planet and building relationships with team members.
 
-Team members who volunteer are eligible to expense local travel (mileage, train, taxi/rideshare), parking for the event, and meals during the event (up to $25 limit). All expenses must comply with [GitLab's Travel & Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/#1-policy).
+Team members who volunteer are eligible to expense local travel (mileage, train, taxi/rideshare), parking for the event, and meals during the event (up to $25 limit). All expenses must comply with [GitLab's Travel & Expense Policy](/handbook/finance/expenses/#1-policy).
 
 If you're volunteering locally, share your volunteer efforts with us [here](https://forms.gle/BnrFemupaUoT6uaeA) so we can celebrate the collective impact of our team members.
 
 ## Important Volunteering Notes
 
-- When volunteering with GiveLab, volunteer activities must align with the [GitLab Philanthropy Policy](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/#who-we-support), including ensuring that the organization being supported is a registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our [Values](https://handbook.gitlab.com/handbook/values/)
+- When volunteering with GiveLab, volunteer activities must align with the [GitLab Philanthropy Policy](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/#who-we-support), including ensuring that the organization being supported is a registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that aligns with our [Values](/handbook.gitlab.com/handbook/values/)
 
 - All participation is voluntary and should not interfere with work commitments
 
-- Time off for volunteering must align with GitLab's [PTO policy](https://handbook.gitlab.com/handbook/people-group/paid-time-off/)
+- Time off for volunteering must align with GitLab's [PTO policy](/handbook/people-group/paid-time-off/)
 
 - International travel is not permitted for this program
 
-- To request volunteer time off, follow the [Paid Time Off procedures](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#paid-time-off) in our handbook
+- To request volunteer time off, follow the [Paid Time Off procedures](/handbook/people-group/paid-time-off/#paid-time-off) in our handbook
 
 ## About GitLab Climate Action
 
@@ -75,7 +75,7 @@ GitLab is committed to doing our part to minimize our environmental footprint, i
 
 Many of GitLab's customers have GHG reduction targets and as a vendor, GitLab's carbon emissions contribute to our customers' emissions footprints. To remain easy to transact with, GitLab needs to meet the expectations of our customers by taking action on climate change.
 
-Read more about the four pillars which guide our Climate Action strategy [here](https://handbook.gitlab.com/handbook/legal/esg/#climate-action).
+Read more about the four pillars which guide our Climate Action strategy [here](/handbook/legal/esg/#climate-action).
 
 ## Questions or Contributions
 
