@@ -175,6 +175,7 @@ gantt
 ```
 
 ### Milestones
+
 Now (During FY26 Q1)
 : Work has carried over from the Cells roadmap.
 
@@ -192,17 +193,20 @@ Full Parity (Target FY27 Q4 or beyond)
 ### Work Streams
 
 #### Backend Essentials ([epic](https://gitlab.com/groups/gitlab-org/-/epics/14111))
+
 This is foundational work to integrate the Organization at low levels of the code base.
 Ensure all Organizations are equal by removing references to the Default Organization (ID = 1).
 This is in part a carry over from the 2023 roadmap.
 
 ### Organization Sharding
+
 Tables are divided into cell local or clusterwide. Cell local tables must have an organization_id, namespace_id, or a project_id column so all tables directly or indirectly belong to an Organization.
 This work is currently located within this epic: https://gitlab.com/groups/gitlab-org/-/epics/13678.
 All tables with an `organization_id` foreign key are defined with not null foreign key constraints.
 All code paths are writing the correct `organization_id` value and are not relying on a default value.
 
 #### Organization Product Feature
+
 Build a user interface for the Organization including Organization membership management and dashboard.
 
 We will include the following set of features in the initial Organization
@@ -257,6 +261,7 @@ target. In some cases we have intentionally restricted the problem scope and int
   - Current Organization context is indicated in the navigation sidebar.
 
 #### Organization Level Features
+
 Features will move from Instance Level and Top Level Group to Organization
 Level. New features may also be built at the Organization Level. The focus
 will begin with core features such as authentication and billing.
@@ -282,6 +287,7 @@ From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/is
 Based on this analysis we expect to see similar behavior when rolling out Organizations.
 
 ## Decision Log
+
 - 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
 
 ## Links
