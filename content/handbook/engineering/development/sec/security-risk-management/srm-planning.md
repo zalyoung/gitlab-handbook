@@ -211,6 +211,11 @@ The issue verification should be done by someone else other than the MR author[^
 
 We follow the [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
+PTO Coverage issues are recommended for 3 days or more. 
+
+1. Grade 8 team members (EMs, Staff+) should create PTO Coverage issues in the centralized [Engineering Division / PTO Coverage](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new?description_template=Default) project.
+1. Other team members should create PTO coveage issues in our [Security Risk Management](https://gitlab.com/gitlab-com/security-risk-management-stage/-/issues/new?description_template=ooo_template) project.
+
 ## Epic Engineering DRI
 
 As an Epic is ready to move to the refinement stage, the EMs assigns someone as the DRI for each required tech stack. This may happen sooner, during planning breakdown.
