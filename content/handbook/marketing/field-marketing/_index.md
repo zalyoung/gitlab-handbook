@@ -304,7 +304,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
   - FMC to make sure the correct FMM and FMC are listed in the Allocadia panel for the event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well).
 - FMC creates a new project in Asana by following the below steps:
-  - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
+  - FMC adds the `Asana-Sync-Project` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
     - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
     - The BT Bot will also comment in the GitLab issue that the Asana project has been created and will provide the project link.
 - When the Asana project is created, the project will also be automatically added to the [FY26 All Marketing SSoT Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).

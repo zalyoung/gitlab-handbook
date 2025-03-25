@@ -65,7 +65,7 @@ When these fields are loaded into the warehouse, the Data Team uses a [type 1 or
 
 ### Access to People Data in Business Intelligence Software
 
-As part of our [self-service data program](/handbook/enterprise-data/organization/direction/self-service/), all GitLab team members have access to all pre-built dashboards in Sisense. People Data is considered sensitive and it is therefore not readily available in Sisense by default. You can read more about this topic in our [Data Storage section](/handbook/enterprise-data/platform/#data-storage).
+As part of our data program,  GitLab team members can have access to pre-built dashboards in Sisense. People Data is considered sensitive and it is therefore not readily available in Tableau by default. You can read more about this topic in our [Data Storage section](/handbook/enterprise-data/platform/#data-storage).
 
 However, in the current business landscape, data is the key to unlock insights and make informed decisions. The same principle applies to people data, where people analytics plays a critical role in driving organizational success.
 
