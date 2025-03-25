@@ -2,9 +2,6 @@
 title: Your Individual Growth Plan (IGP) Journey
 description: "Your step-by-step resource for creating a meaningful Individual Growth Plan that drives your career forward"
 ---
-
-Welcome! This guide is designed to help you navigate your Individual Growth Plan process with clarity and purpose. We'll walk through each section together, providing resources, inspiration, and practical suggestions to help you create an IGP in Workday that truly supports your unique career aspirations.
-
 ## Your Role as the Driver of Your Career
 
 **You are the Directly Responsible Individual (DRI) of your career journey.** This means you have the power to make decisions that best serve your growth. This guide offers direction, not rigid rules. At its heart, your Individual Growth Plan is a personal tool to reflect, set goals, and take meaningful action.
@@ -21,10 +18,10 @@ After completing your IGP, the real magic happens when you commit to continuous 
 Self-reflection provides the compass for your career decisions. In this section, you'll explore these 5 key questions:
 
 1. What parts of your role light you up and keep you engaged?
-2. What work gives you that feeling of excitement and belonging?
-3. Which areas of your work leave you feeling drained?
-4. How do you learn best and most naturally?
-5. Looking ahead 2-3 years, what role do you envision for yourself and why?
+1. What work gives you that feeling of excitement and belonging?
+1. Which areas of your work leave you feeling drained?
+1. How do you learn best and most naturally?
+1. Looking ahead 2-3 years, what role do you envision for yourself and why?
 
 **Be flexible with yourself here.** You might choose to dive deep using tools like:
 
@@ -51,8 +48,8 @@ Or you might prefer a simpler check-in approach. Both are perfectly valid!
 Understanding your desired growth direction helps you set meaningful goals and find the right resources. In this section, you'll clarify your role trajectory by answering these 3 questions:
 
 1. Do you want to continue growing on your current team or explore something new?
-2. Are you interested in managing a team or department someday?
-3. Would you prefer developing specialized expertise as an individual contributor?
+1. Are you interested in managing a team or department someday?
+1. Would you prefer developing specialized expertise as an individual contributor?
 
 **Dream big here!** Consider various paths:
 
@@ -69,7 +66,7 @@ Remember, at GitLab, career growth isn't limited to climbing a ladder. We grow i
 Now that you've explored possibilities, it's time to get specific in Section 3. Looking toward your future, you'll articulate your medium-term goals by answering:
 
 1. What specific accomplishments would help you reach your career objectives?
-2. How will you recognize when you've been successful?
+1. How will you recognize when you've been successful?
 
 Here are some examples to spark your thinking:
 
@@ -86,12 +83,13 @@ With your intentions set, it's time to create specific development goals that wi
 Make your goals concrete by considering:
 
 1. What specific resources or support will help you succeed?
-2. How does each goal connect to your broader career aspirations?
-3. What actionable steps will you take to achieve each goal?
-4. How will you engage your network for support and feedback?
-5. What challenges might you face, and how will you address them?
+1. How does each goal connect to your broader career aspirations?
+1. What actionable steps will you take to achieve each goal?
+1. How will you engage your network for support and feedback?
+1. What challenges might you face, and how will you address them?
 
 Think creatively about your development using the [70-20-10 rule for development](/handbook/people-group/learning-and-development/career-development/#70-20-10-rule-for-development):
+
 - 70% from challenging experiences and assignments
 - 20% from relationships, networks, and feedback
 - 10% from formal training and education
