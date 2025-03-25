@@ -62,7 +62,7 @@ The data source determines the table names used in Tableau queries. We have thre
   - [Tools for viewing events](https://archives.docs.gitlab.com/16.2/ee/development/internal_analytics/snowplow/index.html) for exploration/testing
   - [Implementing Snowplow click tracking for designers](https://www.youtube.com/watch?v=95wNcGMrpMg&ab_channel=GitLabUnfiltered)
 
-[Key Data Sources for Product Managers at GitLab](/handbook/enterprise-data/programs/data-for-product-managers/#key-data-sources-for-product-managers-at-gitlab) elaborates on how each data source is used and queried.
+[Key Data Sources for Product Managers at GitLab](/handbook/enterprise-data/organization/programs/data-for-product-managers/#key-data-sources-for-product-managers-at-gitlab) elaborates on how each data source is used and queried.
 
 These visualizations will help you understand how the systems work together:
 
@@ -86,7 +86,7 @@ The issues and merge requests below are examples of how we have used data for de
 
 ## Resources
 
-- [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
+- [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
 - [Internal Analytics at GitLab](https://docs.gitlab.com/development/internal_analytics/)
 - [Experimentation Design & Analysis](/handbook/product/groups/product-analysis/experimentation/)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
