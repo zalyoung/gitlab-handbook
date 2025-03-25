@@ -22,7 +22,8 @@ Our ability to support regional teams with localized product documentation, mark
 - [Noriko Akiyama](https://gitlab.com/nakiyama-ext), Localization Specialist, Japanese*
 - [Maud Leuenberger](https://gitlab.com/maudl-ext), Content Manager, French*
 - [Hendrik Breuer](https://gitlab.com/hbreuer-ext), Senior Content Manager, German*
-- [Cecile Solkan](https://gitlab.com/csolkan-ext), Content Manager, German*
+- [Emi Kimura](https://gitlab.com/emikimura-ext), EN-JP Linguist*
+- [Emi Kimura](https://gitlab.com/emikimura-ext), EN-JP Linguist*
 
 *temporary service provider
 
