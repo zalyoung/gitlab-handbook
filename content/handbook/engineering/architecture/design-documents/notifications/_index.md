@@ -105,7 +105,9 @@ Create a unified notification center built on an event-driven architecture that:
 
 ### Database table
 
-First thing to create is the new _notifications_ database table. This table will store data about notifications - what kind of notification it is, what resource it's connected with, the state of it, information if it is saved by the user, etc.
+We need to persist notifications in a new _notifications_ database table. This table will store data about notifications - what kind of notification it is, what resource it's connected with, the state of it, information if it is saved by the user, etc.
+
+An example of the table schema could be the following, although actual schema is TBD:
 
 ```mermaid
 erDiagram
