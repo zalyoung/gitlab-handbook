@@ -438,7 +438,7 @@ You can use this template which is fairly manual or choose your own methods.
 
 ### What to do if you're asked to provide your opinion on behalf of GitLab
 
-There may be times that you are asked to comment on the state of DIB at GitLab or your TMRG. When or if that happens, please refer to the [SAFE Framework](https://handbook.gitlab.com/handbook/legal/safe-framework/)
+There may be times that you are asked to comment on the state of DIB at GitLab or your TMRG. When or if that happens, please refer to the [SAFE Framework](/handbook/legal/safe-framework/)
 
 ### TMRG Success measurement (Capturing Data)
 
@@ -537,10 +537,9 @@ As our finance processes are a use it or lose it policy we want to ensure that i
 
 **Submitting/Approval of Expenses**
 
-Purchases made on behalf of GitLab should follow the [procurement process outlined in the handbook](/handbook/finance/procurement/#--what-is-procurement).
-Prior to submitting a Coupa requisition, please adjust the Billing portion of the requisition for each line item by selecting the magnifying glass. Confirm that the expense is coded to Department: G&A: DIB and Class (tag): TMRG. If procurement or The DIB Team are submitting the requisition on your behalf, please give them instructions to make these adjustments. If these changes are not made, then the expense will default to the team member's department and the expense will not align to the TMRG budget.
+Submit to you DIB Team Member for approval in ZIP
 
-**Swag-** If the purchase is Swag, please follow the outlined process in the [handbook](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-for-tmrgs).
+**Swag-** If the purchase is Swag, please follow the outlined process in the [handbook](/handbook/marketing/developer-relations/workflows-tools/swag/).
 
 **Charitable Contributions-** Please follow the [Philanthropy Policy](/handbook/legal/philanthropy-policy/)
 
