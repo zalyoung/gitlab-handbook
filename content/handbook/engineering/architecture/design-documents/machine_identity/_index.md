@@ -43,8 +43,14 @@ A consolidated approach to machine identities through service accounts will:
 
 ### Non-Goals
 
-- Define a Token Exchange Service
-- Create a low-privilege unified token as part of token consolidation
+The following efforts are handled separately in their respective blueprints, and
+are out of scope for this proposal:
+
+- Defining a Token Exchange Service
+- Creating a low-privilege unified token as part of token consolidation
+
+Machine identity consolidation, as proposed here, is already aligned with the
+direction of these initiatives.
 
 ## Proposal
 
