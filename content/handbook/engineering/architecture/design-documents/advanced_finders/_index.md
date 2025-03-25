@@ -78,6 +78,7 @@ The new Advanced Finders will:
 Example usage:
 
 ```ruby
+# Automatic backend selection
 result = AdvancedFinder::Issues.new(
   current_user,
   project_id: project.id,
@@ -86,17 +87,34 @@ result = AdvancedFinder::Issues.new(
   per_page: 20
 ).execute
 
-# Access result properties directly
+# Explicitly specify the backend
+result = AdvancedFinder::Issues.new(
+  current_user,
+  project_id: project.id,
+  with_labels: ['bug'],
+  backend: AdvancedFinder::Backend::AdvancedSearch
+).execute
+
+# Check backend availability before using it
+finder = AdvancedFinder::Issues.new(current_user, project_id: project.id)
+
+if finder.backend_available?(AdvancedFinder::Backend::AdvancedSearch)
+  # Create a new finder with advanced search backend
+  result = AdvancedFinder::Issues.new(
+    current_user,
+    project_id: project.id,
+    backend: AdvancedFinder::Backend::AdvancedSearch
+  ).execute
+else
+  result = finder.execute  # Use automatic selection
+end
+
+# Access results
 issues = result.items
 pagination = result.pagination
-search_backend = result.data_source # Returns :postgresql or :advanced_search
 
-# Convert to ActiveRecord relation if needed (e.g., for GraphQL resolvers)
-# This creates a relation with: Issue.where(id: [1, 2, 3...]).order(...)
+# Convert to ActiveRecord relation if needed
 active_record_relation = result.page_relation
-
-# Now you can use AR methods like includes to preload associations
-active_record_with_associations = active_record_relation.includes(:assignees, :labels)
 ```
 
 ## Goals and Key Results
@@ -117,9 +135,26 @@ active_record_with_associations = active_record_relation.includes(:assignees, :l
 
 ## Fundamental Design Areas
 
+### Data Source Considerations
+
+When implementing Advanced Finders, there are important considerations regarding how data is accessed from each backend:
+
+- **PostgreSQL Backend**: Can utilize SQL joins across multiple tables to gather the necessary data before returning results
+- **Elasticsearch/OpenSearch Backend**: Works with denormalized indices where data is already pre-joined
+
+This architectural difference is managed internally by each backend implementation, but it's important to understand that:
+
+1. The framework needs consistent result structures between PostgreSQL and Elasticsearch at runtime
+2. Pagination and sorting must work consistently across both backends
+3. The final returned result will be a paginated collection, not a chainable scope
+
+Elasticsearch already uses a denormalized approach where each document contains all the searchable data. For PostgreSQL, the finder implementation will handle the necessary joins before returning the final result set.
+
+This approach represents a tradeoff between query flexibility and the ability to leverage multiple backend technologies.
+
 ### Result Container
 
-Rather than returning ActiveRecord relations, the new finders will return a result object that encapsulates both the collection items and metadata like pagination information.
+Rather than returning ActiveRecord relations, the new finders will return a result object that encapsulates both the collection items and metadata like pagination information. This represents a fundamental shift from the current pattern, as advanced finders will only return a single page of results (not a scope that can be further composed with additional queries).
 
 ### Backend Selection
 
@@ -179,26 +214,30 @@ This redaction mechanism is especially important when using advanced search, as 
   - Higher-level components like controllers typically don't need to compose relations and can work with the final result collection
   - Migration strategies and adapter patterns will help manage this transition
 - Requires changing the API of finders
+- **Different data access patterns**: The PostgreSQL backend can use joins as needed, while the Elasticsearch backend uses pre-joined denormalized documents (see [Data Source Considerations](#data-source-considerations) section)
+- **Single-page limitation**: Unlike the current finder pattern that returns a chainable scope, advanced finders will only return a fixed page of results, which fundamentally changes how they can be used in the application
 
 ### Backend Selection Strategy
 
-**Decision**: Use a registry of supported search backends with a prioritization mechanism and parameter support allowlisting.
+**Decision**: Use a registry of supported search backends with a prioritization mechanism and parameter support allowlisting, while also providing explicit backend selection for developers.
 
-**Context**: We need to select the appropriate backend based on multiple factors like availability, query complexity, parameter support, and data freshness.
+**Context**: We need a flexible system for backend selection that balances automatic optimization with developer control. The system should consider multiple factors for automatic selection, but also allow developers to explicitly specify a backend when they have specific performance requirements.
 
 **Benefits**:
 
-- Flexible prioritization logic
+- Flexible prioritization logic for automatic selection
 - Can be configured at runtime
 - Supports gradual rollout through feature flags
 - Parameter allowlisting allows for graceful degradation
 - Can factor in data lag to ensure fresh results when needed
+- **Developer Control**: Allows selecting a specific backend when performance requirements dictate it
 
 **Tradeoffs**:
 
 - Additional complexity compared to hardcoded backend selection
 - Requires maintenance of parameter support allowlists
 - Possibly leads to user and GitLab operator confusion as the query might seem to flip between Elasticsearch and Postgres based on various factors, but we hope to mitigate this by generally making Elasticsearch more reliable and up to date and make it easier to debug for operators if their Elasticsearch index is out of date. We also plan to implement a mechanism in advanced finders to automatically switch back to Postgres if Elasticsearch is not up to date
+- Developers selecting a specific backend need to ensure it's available and supports their parameters
 
 ### Pagination Implementation
 
@@ -234,47 +273,16 @@ module Finders
     # Registry of supported parameters for each finder and backend
     PARAMETER_ALLOWLIST = {
       'IssuesFinder' => {
-        advanced_search: [
-          :project_id, :group_id, :scope, :state, :search, :in, :author_id,
-          :author_username, :assignee_id, :assignee_username, :milestone_title,
-          :label_name, :created_after, :created_before, :updated_after,
-          :updated_before, :sort, :page, :per_page
-        ],
-        postgresql: [
-          :project_id, :group_id, :scope, :state, :search, :in, :author_id,
-          :author_username, :assignee_id, :assignee_username, :milestone_title,
-          :label_name, :created_after, :created_before, :updated_after,
-          :updated_before, :sort, :confidential, :my_reaction_emoji,
-          :page, :per_page
-        ]
+        advanced_search: [:project_id, :search, :label_name, ...],
+        postgresql: [:project_id, :search, :label_name, :confidential, ...]
       },
       'MergeRequestsFinder' => {
-        advanced_search: [
-          :project_id, :group_id, :scope, :state, :search, :in, :author_id,
-          :author_username, :assignee_id, :assignee_username, :page, :per_page
-        ],
-        postgresql: [
-          :project_id, :group_id, :scope, :state, :search, :in, :author_id,
-          :author_username, :assignee_id, :assignee_username, :approved_by_ids,
-          :reviewer_id, :reviewer_username, :wip, :draft, :page, :per_page
-        ]
+        # Parameter lists for MRs...
       }
-      # Add other finders here
-    }.freeze
+      # Other finders...
+    }
 
-    def self.supported_parameters(finder_name, backend)
-      PARAMETER_ALLOWLIST.dig(finder_name, backend) || []
-    end
-
-    def self.backend_supports_params?(finder_name, backend, params)
-      return true if backend == :postgresql # PostgreSQL backend always supports all parameters
-
-      # Get the list of supported parameters for this finder and backend
-      supported = supported_parameters(finder_name, backend)
-
-      # Check if all provided parameters are in the supported list
-      params.keys.all? { |param| supported.include?(param.to_sym) }
-    end
+    # Helper methods for checking parameter support
   end
 end
 ```
@@ -308,62 +316,52 @@ The new advanced finders will follow a namespaced approach and be implemented as
 
 ```ruby
 module AdvancedFinder
-  class Issues
-    def initialize(current_user, params = {})
-      @current_user = current_user
-      @params = params
+  module Backend
+    class Base
+      # Base class defining the interface for all backends
+      # with methods for identifier and availability checks
     end
 
-    def result
-      result = select_and_execute_backend
-      # Process and format results consistently
-      FinderResult.new(result.items, pagination: result.pagination)
+    class PostgreSQL < Base
+      # PostgreSQL backend implementation
     end
 
-    private
-
-    def select_and_execute_backend
-      # Decision logic for selecting the appropriate backend:
-      # 1. Check feature flags
-      # 2. Verify ES/OS availability
-      # 3. Check parameter support
-      # 4. Evaluate query complexity
-      # 5. Consider data freshness and lag
-
-      if should_use_legacy_finder?
-        execute_legacy_finder
-      elsif should_use_elasticsearch? && elasticsearch_data_is_sufficiently_fresh?
-        execute_elasticsearch_backend
-      else
-        execute_postgresql_backend
-      end
+    class AdvancedSearch < Base
+      # Advanced search (Elasticsearch/OpenSearch) backend implementation
     end
 
-    # Backend execution methods
-    # ...
+    class Legacy < Base
+      # Legacy finder adapter for backward compatibility
+    end
   end
- end
+end
 ```
 
 #### Using Advanced Finders in Controllers and API Endpoints
 
 ```ruby
 def index
+  finder_params = { project_id: project.id, search: params[:search] }
+
+  # Backend selection based on use case
+  if time_critical_operation?
+    # Force PostgreSQL for time-critical operations
+    backend = AdvancedFinder::Backend::PostgreSQL
+  elsif complex_text_search?
+    # Use advanced search for complex text search if available
+    temp_finder = AdvancedFinder::Issues.new(current_user, {})
+    backend = temp_finder.backend_available?(AdvancedFinder::Backend::AdvancedSearch) ?
+              AdvancedFinder::Backend::AdvancedSearch : nil
+  end
+
+  # Create finder with appropriate backend if specified
+  finder_params[:backend] = backend if backend
   finder = AdvancedFinder::Issues.new(current_user, finder_params)
   result = finder.execute
 
-  # result is always a FinderResult object with consistent interface
-  # regardless of which backend was used internally
-
   render json: {
     data: result.items,
-    pagination: {
-      total_count: result.total_count,
-      next_page_token: result.next_page_token
-    },
-    meta: {
-      data_source: result.data_source # :postgresql or :advanced_search
-    }
+    pagination: result.pagination
   }
 end
 ```
@@ -371,9 +369,9 @@ end
 This architecture offers several advantages:
 
 1. **Clean API**: Consumers work with a single, consistent interface
-2. **Backend Transparency**: The decision of which backend to use is encapsulated
-3. **Gradual Migration**: Feature flags control the use of new backends
-4. **Consistent Results**: All backends return the same data structure
+2. **Backend Flexibility**: Supports automatic selection or explicit backend specification
+3. **Performance Control**: Critical operations can use specific backends
+4. **Gradual Migration**: Feature flags enable controlled rollout
 
 ### Unified Pagination with Page Tokens
 
@@ -646,6 +644,9 @@ This pattern will be repeated for other entity types like MergeRequests, Project
 - Create testing framework
 - Implement parameter support allowlists
 - Implement feature flags for gradual rollout
+- Plan the data access approach for each backend type:
+  - For PostgreSQL: Define the necessary joins and relation building
+  - For Elasticsearch: Validate that indices contain all required data in denormalized form
 
 ### Phase 2: Legacy Finder Adapter and Compatibility Layer
 
@@ -689,6 +690,8 @@ This pattern will be repeated for other entity types like MergeRequests, Project
 ## Conclusion
 
 The Advanced Finders architecture provides a flexible, future-proof approach to retrieving data in GitLab. By supporting both PostgreSQL and advanced search backends with a consistent interface and parameter support allowlisting, we can improve search performance and capabilities while ensuring a smooth migration path.
+
+It's important to note that this architecture represents a significant shift from the current finder pattern. Advanced Finders will only return single pages of results (not chainable scopes), which fundamentally changes how they can be used in the application. The PostgreSQL backend can still utilize joins across multiple tables, while the Elasticsearch backend will leverage the already denormalized indices. This approach enables us to select the most appropriate backend at runtime while maintaining consistent results.
 
 ## References
 
