@@ -9,11 +9,11 @@ Last Updated: 2025-03-20
 
 ## Mission Statement
 
-The Security Compliance Team safeguards GitLab's position as the industry's most trusted DevSecOps platform through rigorous certification management and automated risk monitoring. We protect our customers by turning compliance requirements into competitive advantages, using our own product to demonstrate security excellence.
+The Security Compliance Team safeguards GitLab's position as the industry's most trusted DevSecOps platform through rigorous certification management and risks & controls monitoring. We protect our customers by turning compliance requirements into competitive advantages, using our own product to demonstrate security excellence.
 
 ## Value Proposition
 
-Security Compliance maintains GitLab's position as the most trusted DevSecOps offering on the market by providing assurance to our customers and enabling sales through certification maintenance and expansion.
+Security Compliance maintains GitLab's position as the most trusted DevSecOps platform by providing assurance to our customers and enabling sales through certification maintenance and expansion.
 
 ## Core Competencies
 
