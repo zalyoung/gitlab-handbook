@@ -37,7 +37,7 @@ Starting 2025-04-01, all team members will have optional access to the Mammoth C
 
 2. Join our Earth Month kick-off calls on 2025-04-01 at 9am PST or 5pm PST.
 
-3. Complete weekly challenges to earn prizes from sustainable brands like [Everist](https://helloeverist.com/?srsltid=AfmBOoqQiOYH6I74tTp8NkRTnlA5VRJ9ukr8vxPQy4KmgbRdAnOK0J4M), [Guests on Earth](https://www.guestsonearth.com/), [Fable](https://us.fable.com/pages/were-fable) and [Lomi](https://lomi.com/). See [Official Rules](hhttps://drive.google.com/file/d/1LPbKm6MrSDmOOCEBfK95t0dPlKKwFNtP/view) for details. Note that points redeemable for gift cards and cabon credits are capped at $25 USD per team member.
+3. Complete weekly challenges to earn prizes from sustainable brands like [Everist](https://helloeverist.com/?srsltid=AfmBOoqQiOYH6I74tTp8NkRTnlA5VRJ9ukr8vxPQy4KmgbRdAnOK0J4M), [Guests on Earth](https://www.guestsonearth.com/), [Fable](https://us.fable.com/pages/were-fable) and [Lomi](https://lomi.com/). See [Official Rules](hhttps://drive.google.com/file/d/1LPbKm6MrSDmOOCEBfK95t0dPlKKwFNtP/view) for details. Note that points redeemable for gift cards and carbon credits are capped at $25 USD per team member.
 
 ### Volunteer with GiveLab
 
@@ -59,7 +59,7 @@ If you're volunteering locally, share your volunteer efforts with us [here](http
 
 ## Important Volunteering Notes
 
-- When volunteering with GiveLab, volunteer activities must align with the [GitLab Philanthropy Policy](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/#who-we-support), including ensuring that the organization being supported is a registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that aligns with our Values.
+- When volunteering with GiveLab, volunteer activities must align with the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/#who-we-support), including ensuring that the organization being supported is a registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that aligns with our Values.
 
 - All participation is voluntary and should not interfere with work commitments
 
