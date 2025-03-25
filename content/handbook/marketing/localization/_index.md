@@ -22,10 +22,11 @@ Our ability to support regional teams with localized product documentation, mark
 - [Noriko Akiyama](https://gitlab.com/nakiyama-ext), Localization Specialist, Japanese*
 - [Maud Leuenberger](https://gitlab.com/maudl-ext), Content Manager, French*
 - [Hendrik Breuer](https://gitlab.com/hbreuer-ext), Senior Content Manager, German*
+- [Cecile Solkan](https://gitlab.com/csolkan-ext), Content Manager, German*
 
 *temporary service provider
 
-## Localizaiton technology management
+## Localization technology management
 
 The Localization team is managing the rich technology stack comprised of:
 
@@ -36,9 +37,9 @@ The Localization team is managing the rich technology stack comprised of:
 - AI-powered capabilities and solutions for machine translaiton and localiztion-adjacnt tasks
 - Solutions for  context-enhanced translation of product user interface text, using [Crowdin](/handbook/business-technology/tech-stack/#crowdincom)
 
-## Localizaiton Program Management
+## Localization Program Management
 
-## Localizaiton Engineering
+## Localization Engineering
 
 ### Contact us
 
@@ -115,7 +116,7 @@ Note: While you can contact the Translated or Argos Multilingual team directly v
 
 ### When to engage with us
 
-We recommend connecting with the Localization Team early in your project, especially for global initiatives affecting users across all regions that have a specific timeline. While we can't begin translations until content is finalized and approved, early collaboration during planning and ideation will ensure success.
+We recommend connecting with the Localization team early in your project, especially for global initiatives affecting users across all regions that have a specific timeline. While we can't begin translations until content is finalized and approved, early collaboration during planning and ideation will ensure success.
 
 ### Internal Reviews
 
@@ -138,7 +139,7 @@ At the moment, our internal reviewers are volunteers. We completely appreciate t
 
 Our website is now available in 6 languages. While we're still in the process polishing existing page translations and expanding into getting more parts of the website localized, you can verify what translated pages are live on production by viewing our Buyer Experience sitemap @ https://about.gitlab.com/buyer-experience/sitemap.xml.
 
-The translations of our website are stored between our CMS and the Buyer Experience repository:
+The translated congent of our website pages is stored across our CMS and the Buyer Experience repository:
 
 - German: [buyer-experience/-/tree/main/content/de-de](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/de-de)
 - French: [buyer-experience/-/tree/main/content/fr-fr](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/fr-fr)
@@ -147,7 +148,7 @@ The translations of our website are stored between our CMS and the Buyer Experie
 - Italian [buyer-experience/-/tree/main/content/it-it](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/it-it)
 - Brazilian-Portuguese [buyer-experience/-/tree/main/content/pt-br](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/pt-br)
 
-You can go to the [Digital Experience's Localization Best Practices team Handbook page](/handbook/marketing/digital-experience/engineering/localization/) for further technical details on localizing content on the Buyer Experience project.
+You can go to the [Digital Experience's Localization Best Practices team Handbook page](/handbook/marketing/digital-experience/engineering/localization/) for further technical details on localizing content.
 
 ### Translating content for campaigns
 
@@ -205,5 +206,5 @@ GitLab's blog is available in Japanese, French and German, with a dedicated cont
 
 ## docs.gitlab.com Localization
 
-We're working on localizing GitLab documentation.
+We're working on localizing GitLab product documentation.
 To learn more, head to our [Docs Site Localization project](https://gitlab.com/gitlab-com/localization/docs-site-localization).
