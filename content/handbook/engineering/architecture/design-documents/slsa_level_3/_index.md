@@ -173,6 +173,8 @@ component:
       TARGET_ARTIFACT: ""  # Path to the artifact
       BUNDLE_FILE: "provenance.json" # Output bundle file
       RUNNER_METADATA_FILE: "artifacts-metadata.json" # This is the default filename when artifacts aren't explicitly named
+      VERIFICATION_SUMMARY_FILE: "dist/verification_summary.json" # Output verification summary file in dist/
+      POLICY_URL: "https://gitlab.com/my-policy" # Default policy URL
 
   id_tokens:
     GITLAB_OIDC_TOKEN:
@@ -181,6 +183,8 @@ component:
   variables:
     REKOR_SERVER: "https://rekor.sigstore.dev"
     FULCIO_SERVER: "https://fulcio.sigstore.dev"
+    VERIFIER_ID: "https://gitlab.com/verifier"
+    VERIFIER_POLICY: "GitLab Verification Pipeline"
 
   image: alpine:latest
 
@@ -203,6 +207,31 @@ component:
         --identity-token "${GITLAB_OIDC_TOKEN}" \
         --bundle "${BUNDLE_FILE}" \
         "${TARGET_ARTIFACT}"
+
+    - echo "Generating verification summary for ${TARGET_ARTIFACT}..."
+    - jq -n --arg artifact "${TARGET_ARTIFACT}" --arg provenance "${BUNDLE_FILE}" \
+          --arg policy "${POLICY_URL}" --arg result "PASSED" \
+          --arg verifierId "${VERIFIER_ID}" --arg verifier "${VERIFIER_NAME}" \
+          --arg timeVerified "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" --arg resourceUri "https://gitlab.com/${CI_PROJECT_PATH}/-/jobs/${CI_JOB_ID}" \
+          --argjson verifiedLevels '["SLSA_L3"]' --arg sha256 "$ARTIFACT_DIGEST" '{
+        "predicateType": "https://slsa.dev/verification_summary/v1",
+        "subject": [{
+          "name": $artifact,
+          "digest": { "sha256": $sha256 }
+        }],
+        "predicate": {
+          "policy": $policy,
+          "result": $result,
+          "provenance": [{ "provenanceRef": $provenance }],
+          "verifier": {
+            "id": $verifierId,
+            "name": $verifier
+          },
+          "timeVerified": $timeVerified,
+          "resourceUri": $resourceUri,
+          "verifiedLevels": $verifiedLevels
+        }
+      }' > "${VERIFICATION_SUMMARY_FILE}"
 
   artifacts:
     paths:
@@ -246,6 +275,8 @@ generate_provenance:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
     BUNDLE_FILE: "dist/provenance.json"
     RUNNER_METADATA_FILE: "${RUNNER_METADATA_FILE}"
+    VERIFICATION_SUMMARY_FILE: "dist/verification_summary.json"
+    POLICY_URL: "https://gitlab.com/my-policy"
 
 verify_provenance:
   stage: verification
@@ -253,6 +284,7 @@ verify_provenance:
   variables:
     TARGET_ARTIFACT: "dist/example-artifact.txt"
     BUNDLE_FILE: "dist/provenance.json"
+    VERIFICATION_SUMMARY_FILE: "dist/verification_summary.json"
   script:
     - echo "Verifying signed provenance..."
     - cosign verify-blob-attestation --type slsaprovenance1 \
@@ -260,6 +292,8 @@ verify_provenance:
         --certificate-identity-regexp ".*" \
         --certificate-oidc-issuer ${CI_SERVER_URL} \
         ${TARGET_ARTIFACT}
+    - echo "Validating verification summary..."
+    - jq . ${VERIFICATION_SUMMARY_FILE}
 ```
 
 ### Pipeline Workflow Explanation
