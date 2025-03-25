@@ -376,14 +376,17 @@ This structure enables smooth planning, tracking, and alignment of development w
    Note that the issue description may be incomplete/unrefined and high-level at this point.
 1. Product decides the issue is a high priority, so they apply the `%"Next 1-3 Releases"` milestone to signal this.
 1. As part of the async Pre-IPM process, someone is assigned to refine the issue, by finishing filling out the issue template, then applying the `~refined` label
+1. During the refinement process, consider documentation for the feature. If needed, add the requirements and the `~documentation` and `~Technical writing` labels to the issue.
+   For question and assistance, tag your assigned Technical Writer.
 1. As part of the sync Pre-IPM meeting, product and engineering leadership move the refined issue to the `~(workspaces|webide)-workflow::prioritized` list,
    in the appropriate position based on its priority relative to other issues.
 1. In the sync IPM meeting, the wider team discusses and estimates the issue, and it is assigned to whoever will do the work.
 1. Once the priority and weight are determined, the current velocity will tell us what iteration the issue should be completed in, and a specific
    release milestone can be assigned to the issue based on that.
-1. The assignee opens an MR for the issue, ensures that the issue and MR are cross-referenced on the first lines of their descriptions, and
-   begins work on the MR.
-1. When the work is completely done - i.e., the MR is reviewed and merged, the feature is verified and tested in production, etc.,
+1. The assignee opens an MR for the issue and ensures that the issue and MR are cross-referenced on the first lines of their descriptions.
+1. While the feature implementation is in progress, the assignee creates a documentation MR that follows the appropriate [topic type](https://docs.gitlab.com/development/documentation/topic_types/) format and [style guide](https://docs.gitlab.com/development/documentation/styleguide/).
+1. The documentation MR is reviewed by the Technical Writer, and merged along with or shortly after the feature implementation MR.
+1. When the work is completely done, for example when the feature MR is reviewed and merged, the documentation is published, the feature is verified and tested in production, etc.,
    then the issue is closed, and moved to the `~(workspaces|webide)-workflow::done` list.
 
 **QUESTION: Why isn't there a `~(workspaces|webide)-workflow::refined` phase instead of using the `~refined` label?**
