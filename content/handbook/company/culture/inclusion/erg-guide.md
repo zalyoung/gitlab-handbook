@@ -201,7 +201,7 @@ All names, because they are visible externally and could compete with other proj
 
 ### Defining your TMRGs or TMAG mission statement
 
-A mission statement is the simplest and clearest way to explain the purpose of your group and how it will achieve its goals. Keep your mission statement short, and use simple terms that everyone understands. Finally, make sure the mission is flexible enough to allow for goals and activities to change over time.
+A mission statement is the simplest and clearest way to explain the purpose of your group and how it will achieve its goals. Keep your mission statement short, and use simple terms that everyone understands. Finally, make sure the mission is flexible enough to allow for goals and activities to change over time. 
 
 ### Create a project
 
@@ -537,10 +537,9 @@ As our finance processes are a use it or lose it policy we want to ensure that i
 
 **Submitting/Approval of Expenses**
 
-Purchases made on behalf of GitLab should follow the [procurement process outlined in the handbook](/handbook/finance/procurement/).
-Prior to submitting a Coupa requisition, please adjust the Billing portion of the requisition for each line item by selecting the magnifying glass. Confirm that the expense is coded to Department: G&A: DIB and Class (tag): TMRG. If procurement or The DIB Team are submitting the requisition on your behalf, please give them instructions to make these adjustments. If these changes are not made, then the expense will default to the team member's department and the expense will not align to the TMRG budget.
+Submit to you DIB Team Member for approval in ZIP
 
-**Swag-** If the purchase is Swag, please follow the outlined process in the [handbook](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/).
+**Swag-** If the purchase is Swag, please follow the outlined process in the [handbook](/handbook/marketing/developer-relations/workflows-tools/swag/).
 
 **Charitable Contributions-** Please follow the [Philanthropy Policy](/handbook/legal/philanthropy-policy/)
 
