@@ -23,7 +23,6 @@ Our ability to support regional teams with localized product documentation, mark
 - [Maud Leuenberger](https://gitlab.com/maudl-ext), Content Manager, French*
 - [Hendrik Breuer](https://gitlab.com/hbreuer-ext), Senior Content Manager, German*
 - [Emi Kimura](https://gitlab.com/emikimura-ext), EN-JP Linguist*
-- [Emi Kimura](https://gitlab.com/emikimura-ext), EN-JP Linguist*
 
 *temporary service provider
 
