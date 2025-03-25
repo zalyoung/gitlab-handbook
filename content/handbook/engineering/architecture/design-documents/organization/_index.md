@@ -288,7 +288,7 @@ Based on this analysis we expect to see similar behavior when rolling out Organi
 
 - [Organization epic](https://gitlab.com/groups/gitlab-org/-/epics/9265)
 - [Organization Isolation](isolation.md)
-- [Organization: Frequently Asked Questions](organization-faq.md)
+- [Organization: Frequently Asked Questions](faq.md)
 - [Organization development guidelines](https://docs.gitlab.com/development/organization/)
 - [Enterprise Users](https://docs.gitlab.com/ee/user/enterprise_user/index.html)
 - [Cells blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html)
