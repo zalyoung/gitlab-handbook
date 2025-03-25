@@ -107,7 +107,7 @@ Form documentation can be found [here](https://docs.google.com/spreadsheets/d/1c
 
 Localized forms require special hidden fields to properly capture `Preferred Language`. Refer to [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10025) for detailed set-up instructions.
 
-If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/#current-state) and then [request help](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259).
+If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/) and then [request help](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259).
 
 All forms should follow these guidelines:
 
