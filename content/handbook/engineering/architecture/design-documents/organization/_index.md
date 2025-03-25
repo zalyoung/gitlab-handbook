@@ -15,7 +15,7 @@ toc_hide: true
 
 This document is a work in progress and represents the current state of the Organization design.
 
-# Glossary
+## Glossary
 
 - User: A user account.
 - Member: A User that belongs to an entity with a set of privileges represented by a role. A User can be a Member of a Group, Project, and now an Organization.
@@ -24,7 +24,7 @@ This document is a work in progress and represents the current state of the Orga
 - Organization Member: Organizations have many Users called Members. Only Organization Members have visibility of the Organization. Adding a User to a Group or Project within an Organization makes them an Organization Member.
 - Default Organization: An Organization with `ID = 1` seeded on every GitLab instance.
 
-# Summary
+## Summary
 
 GitLab.com is a public shared installation of the GitLab software. This provides GitLab as a convenient SaaS but falls short of the full GitLab experience in important ways:
 
@@ -41,7 +41,7 @@ In effect, the Organization will wrap the Self Managed features into a container
 
 The isolation solution is also a pre-requisite for the [Cells project](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) which is described in relation to Organization in [Organizations and Cells](cells.md).
 
-## Splitting the GitLab.com Platform
+### Splitting the GitLab.com Platform
 
 The GitLab.com platform will be split into two distinct experiences.
 
@@ -54,7 +54,7 @@ These enterprise Organizations will operate in complete isolation from all other
 Eventually it will be possible for customers to migrate out of the default
 organization and into their own private Organization.
 
-# Fundamentals of Organizations
+## Fundamentals of Organizations
 
 Organization will wrap around nearly all GitLab features.
 It won't be possible to read or write data between Organizations.
@@ -65,7 +65,7 @@ In future we will review the ability for Users to be a Member of multiple Organi
 Organization owners will have admin style privileges within their Organization, such as the ability to delete user accounts. More details [below](#roles-and-permissions).
 These changes will occur on all GitLab platforms including GitLab.com, Self Managed, and Dedicated.
 
-# Impact of the Organization on Other Domains
+## Impact of the Organization on Other Domains
 
 Here is a growing list of pages that describe in more detail how
 Organization affects other parts of the system.
@@ -75,7 +75,7 @@ Organization affects other parts of the system.
 - [Settings](settings.md)
 - [Users](users.md)
 
-# Level Structure
+## Level Structure
 
 Organization will form a new level that combines most Instance Level functionality and all of the Top Level Group functionality.
 
@@ -109,7 +109,7 @@ graph TD
   ns[Namespace] -. has many .- ns[Namespace]
 ```
 
-# Roles and Permissions
+## Roles and Permissions
 
 Organizations will have an Owner role. Compared to other Organization Members, they can perform the following actions:
 
@@ -130,7 +130,7 @@ Organizations will have an Owner role. Compared to other Organization Members, t
 
 [Roles](https://docs.gitlab.com/ee/user/permissions.html) at the Group and Project level remain as they currently are.
 
-# Relationship between Organization Owner and Instance Admin
+## Relationship between Organization Owner and Instance Admin
 
 Users with the (Instance) Admin role can currently [administer a self-managed GitLab instance](https://docs.gitlab.com/ee/administration/index.html).
 As functionality is moved to the Organization level, Organization Owners will be able to access more features that are currently only accessible to Admins.
@@ -141,13 +141,13 @@ There are situations that might require intervention by an Instance Admin, for i
 When that is the case, actions taken by the Instance Admin overrule actions of the Organization Owner.
 For instance, the Instance Admin can ban or delete a User on behalf of the Organization Owner.
 
-# Routing
+## Routing
 
 Today only Users, Projects, Namespaces and container images are considered routable entities which require global uniqueness on `https://gitlab.com/<path>/-/`.
 Initially, Organization routes will be [unscoped](https://docs.gitlab.com/ee/development/routing.html).
 Organizations will follow the path `https://gitlab.com/-/organizations/org-name/` as one of the design goals is that the addition of Organizations should not change existing Group and Project paths.
 
-# Organization Development
+## Organization Development
 
 Below is a high level development roadmap for Organizations.
 The project is complicated and requires coordination across many engineering teams.
@@ -174,7 +174,7 @@ gantt
     Full Parity : milestone, 2027-02-01,
 ```
 
-## Milestones
+### Milestones
 Now (During FY26 Q1)
 : Work has carried over from the Cells roadmap.
 
@@ -189,9 +189,9 @@ Organization Released (Target FY26 Q4)
 Full Parity (Target FY27 Q4 or beyond)
 : GitLab.com will provide the same feature set as Self Managed and Dedicated but on a shared platform.
 
-## Work Streams
+### Work Streams
 
-### Backend Essentials ([epic](https://gitlab.com/groups/gitlab-org/-/epics/14111))
+#### Backend Essentials ([epic](https://gitlab.com/groups/gitlab-org/-/epics/14111))
 This is foundational work to integrate the Organization at low levels of the code base.
 Ensure all Organizations are equal by removing references to the Default Organization (ID = 1).
 This is in part a carry over from the 2023 roadmap.
@@ -202,7 +202,7 @@ This work is currently located within this epic: https://gitlab.com/groups/gitla
 All tables with an `organization_id` foreign key are defined with not null foreign key constraints.
 All code paths are writing the correct `organization_id` value and are not relying on a default value.
 
-### Organization Product Feature
+#### Organization Product Feature
 Build a user interface for the Organization including Organization membership management and dashboard.
 
 We will include the following set of features in the initial Organization
@@ -256,7 +256,7 @@ target. In some cases we have intentionally restricted the problem scope and int
 - **Navigation**
   - Current Organization context is indicated in the navigation sidebar.
 
-### Organization Level Features
+#### Organization Level Features
 Features will move from Instance Level and Top Level Group to Organization
 Level. New features may also be built at the Organization Level. The focus
 will begin with core features such as authentication and billing.
@@ -265,7 +265,7 @@ There is two phases to this work stream. The first phase is to migrate critical
 features that make Organization viable. A second phase after Organization
 release is to bring all remaining features to the Organization level.
 
-# Data Exploration
+## Data Exploration
 
 From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/issues/16166#note_1353332877), we retrieved the following information about Users and Organizations:
 
@@ -281,10 +281,10 @@ From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/is
 
 Based on this analysis we expect to see similar behavior when rolling out Organizations.
 
-# Decision Log
+## Decision Log
 - 2023-05-15: [Organization route setup](https://gitlab.com/gitlab-org/gitlab/-/issues/409913#note_1388679761)
 
-# Links
+## Links
 
 - [Organization epic](https://gitlab.com/groups/gitlab-org/-/epics/9265)
 - [Organization Isolation](isolation.md)
