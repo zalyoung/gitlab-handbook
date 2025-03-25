@@ -59,7 +59,7 @@ Examples:
 
 ## When you are not sure
 
-- See [guidance on how to get assistance from the SaaS Platforms group](/handbook/engineering/infrastructure/getting-assistance/)
+- See [guidance on how to get assistance from the Infrastructure Platforms group](/handbook/engineering/infrastructure/getting-assistance/)
 - Open a change management issue, err on the side of caution.
 
 ## Change Request Workflows
