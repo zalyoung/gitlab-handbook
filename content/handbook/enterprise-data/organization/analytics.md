@@ -9,7 +9,7 @@ We do this by helping all GitLab teams move up the [**Data maturity**](https://i
 
 ## Data Analytics Responsibilities
 
-Of the [Data Team's Responsibilities](/handbook/enterprise-data/#responsibilities) the **Data Analytics Team** is **directly responsible** for:
+The **Data Analytics Team** is **directly responsible** for:
 
 - Managing and governing the company's Key Performance Indicator definitions, database, and data visualizations
 - Providing customizable Data Services, including Data Visualization, Data Modeling, Data Quality, and Data Integration
