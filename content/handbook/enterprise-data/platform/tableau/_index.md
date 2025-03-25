@@ -475,8 +475,8 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 - [Actions by Users](https://10az.online.tableau.com/#/site/gitlab/analysis/ActionsbyAllUsers)
 - [eLearning Usage](https://dashboard.skilljar.com/analytics/) (Admins only)
 
-
 ## Requesting Tableau Access
+
 ### Getting Started
 
 Users can request access to Tableau through the Okta portal using the Lumos application. Follow these steps to submit your request:
