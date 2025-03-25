@@ -1,5 +1,6 @@
 ---
 title: "Production Engineering Foundations Team"
+description: "Build and evolve the networking infrastructure that powers GitLab SaaS while maintaining the stability of select core platform services"
 ---
 
 ## Mission

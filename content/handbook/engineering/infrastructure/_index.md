@@ -92,7 +92,7 @@ flowchart LR
     PE --> CC[Cloud Connector]
     click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
     PE --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
+    click Foundations "/handbook/engineering/infrastructur-platforms/foundations/"
     PE --> Observability
     click Observability "/handbook/engineering/infrastructure/team/scalability/"
     PE --> Ops
