@@ -36,7 +36,6 @@ There are two primary purposes for Organization Isolation:
 1. Organization Portability.
 2. Customer data segregation.
 
-
 ### Organization Portability
 
 By establishing clear boundaries around data and features, we can manage Organizations as self-contained structures. This allows Organizations to become portable between our various SaaS and Self Managed platforms, and also interally across our Cells.
@@ -44,9 +43,6 @@ By establishing clear boundaries around data and features, we can manage Organiz
 In the case of Cells, data association between Organizations could mean crossing Cell boundaries which won't work.
 
 ![Broken Organization Isolation](/images/engineering/architecture/design-documents/organization/diagrams/organization-isolation-broken.drawio.png)
-
-With rare exceptions, all data will directly or indirectly refer to a parent Organization.
-All instances are seeded with an initial Default Organization with an `ID = 1`.
 
 If today we allowed users to create Organizations that linked to data in other Organizations, these links would suddenly break when an Organization is moved.
 For this reason we need to ensure from the very beginning of rolling out Organizations to customers that it is impossible to create any links that cross the Organization boundary, even when Organizations are still on the same instance.
@@ -71,7 +67,7 @@ These are:
 The major constraint these POCs were trying to overcome was that there is no standard way in the GitLab application or database to even determine what Organization (or Project or namespace) a piece of data belongs to.
 This means that the first step is to implement a standard way to efficiently find the parent Organization for any model or row in the database.
 
-The proposed solution is ensuring that every single table in the database except for those in `gitlab_main_clusterwide` schema must include a valid sharding key that is a reference to `projects`, `namespaces` or `organizations`.
+The proposed solution is ensuring that every single table in the database except for those in `gitlab_main_clusterwide` schema must include a valid sharding key that is a reference to `projects`, `namespaces` or `organizations`. This will mean that all Organization specific data will be directly or indirectly associated with an Organization.
 At first we considered enforcing everything to have an `organization_id`, but we determined that this would be too expensive to migrate large Organizations.
 The added benefit is that more than half of our tables already have one of these columns.
 Additionally, if we can't consistently attribute data to a top-level Group, then we won't be able to validate if a top-level Group is safe to be moved to a new Organization.
