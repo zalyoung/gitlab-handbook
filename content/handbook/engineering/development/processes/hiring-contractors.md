@@ -34,7 +34,7 @@ The first thing to be aware of about sourcing contingent workers candidates is t
 
 You should consider your strategy. You may reach out to individuals and hire them directly by using your professional networks or tools such as [LinkedIn Recruiter](/handbook/hiring/gitlab-ambassadors/#4-request-a-linkedin-recruiter-account). You can also engage with a recruitment agency or team augmentation agency for this purpose.
 
-If you choose to hire them directly, you will have less administrative work to get the agency [vetted and approved](/handbook/finance/procurement/vendor-selection-process/) by the procurement department. However, you will have to invest more effort in the sourcing work yourself.
+If you choose to hire them directly, you will have less administrative work to get the agency [vetted and approved](/handbook/finance/procurement/) by the procurement department. However, you will have to invest more effort in the sourcing work yourself.
 
 One thing you can do is to ask GitLab recruiters to help you and be on the lookout for past candidates in Greenhouse that were not selected for similar jobs in your group or other groups, but who were still very strong candidates. They may make a great contingent workers for your needs and you can benefit from the context and the interview notes that will be available for those candidates as a starting point.
 
@@ -81,7 +81,7 @@ As a general guideline you would want them to:
 
 ### Announcements
 
-It is important that not only your team knows about the contingent workers but there should be general awareness that Temporary Service Providers are working for GitLab. 
+It is important that not only your team knows about the contingent workers but there should be general awareness that Temporary Service Providers are working for GitLab.
 
 It is encouraged to share information about new contingent workers joining in your group and stage Slack channel but you should also consider writing a short message into [#development](https://gitlab.slack.com/app_redirect?channel=development), [#engineering-fyi](https://gitlab.slack.com/app_redirect?channel=development) Slack channels or into the [Engineering Week In Review](https://docs.google.com/document/d/1JBdCl3MAOSdlgq3kzzRmtzTsFWsTIQ9iQg0RHhMht6E/edit?usp=sharing) document. For these company-wide channels it is enough to mention that some contingent workers will work for a particular group.
 

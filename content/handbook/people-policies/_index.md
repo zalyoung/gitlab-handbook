@@ -69,7 +69,7 @@ Team members also have obligations to protect the personal and sensitive informa
 
 #### Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions). 
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ### Anti-Harassment
 
@@ -237,8 +237,8 @@ There are a number of GitLab Legal Policies which are important for GitLab team 
 
 ### France
 
-- [Remote Work Charter](/handbook/people-policies/france-sas/remote-work-charter)
-- [Right to Disconnect Charter](/handbook/people-policies/france-sas/right-to-disconnect-charter)
+- [Remote Work Charter](/handbook/people-policies/france-sas/remote-work-charter/)
+- [Right to Disconnect Charter](/handbook/people-policies/france-sas/right-to-disconnect-charter/)
 {{% /details %}}
 
 {{% details summary="GitLab GmbH (Germany)" %}}

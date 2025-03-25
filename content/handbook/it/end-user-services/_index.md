@@ -52,7 +52,7 @@ Please visit the GitLab Onboarding and machine management [handbook page](/handb
 
 #### GitLab Laptop Offboarding
 
-Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](/handbook/it/end-user-services/gitlab-laptop-offboarding/)
+Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-offboarding/)
 
 #### Self-help and troubleshooting
 

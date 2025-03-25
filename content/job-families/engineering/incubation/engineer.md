@@ -79,8 +79,8 @@ The Staff Incubation Engineer is a [grade 8](/handbook/total-rewards/compensatio
 
 Incubation Engineers have the following Performance Indicators
 
-- [SEG Category Maturity](/handbook/engineering/incubation/performance-indicators/#seg-category-maturity)
-- [Community Engagement](/handbook/engineering/incubation/performance-indicators/#community-engagement)
+- SEG Category Maturity
+- Community Engagement
 
 ## Career Ladder
 

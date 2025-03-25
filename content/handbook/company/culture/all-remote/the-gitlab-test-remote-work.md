@@ -46,7 +46,7 @@ There are [valid reasons](asynchronous/#best-practices-guidelines-and-async-feat
 
 Prerequisites for this to work well are below.
 
-1. Leveraging a single tool to funnel communication about work (e.g. [GitLab](/handbook/product/gitlab-the-product), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com))
+1. Leveraging a single tool to funnel communication about work (e.g. [GitLab](/handbook/product/categories/gitlab-the-product/), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com))
 1. Documented [communication guidelines](/handbook/communication/) on how and where to communicate about work
 1. Executive commitment to [transparency](/handbook/values/#transparency)
 
@@ -58,7 +58,7 @@ It's not enough to have core values documented on a company website. Each core v
 
 ### 5. Does every functional department surface work in a single tool with company-wide visibility?
 
-Different company functions may require different tools to drive results. For example, a Design team may use MURAL, Figma, and Photoshop, while a Marketing Operations team leverages tools like Salesforce and Marketo. Great remote organizations leverage a single tool (e.g. [GitLab](/handbook/product/gitlab-the-product), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com)) to surface work that is happening in department-specific tools. By surfacing ongoing work, via links or other documentation, this central tool acts as organizational glue. It enables a distributed team to discover what other teams are working toward with clicks instead of meetings. This intentional transparency fosters alignment, purpose, and enables feedback to occur earlier.
+Different company functions may require different tools to drive results. For example, a Design team may use MURAL, Figma, and Photoshop, while a Marketing Operations team leverages tools like Salesforce and Marketo. Great remote organizations leverage a single tool (e.g. [GitLab](/handbook/product/categories/gitlab-the-product/), [Friday](https://friday.app), [Dropbox Spaces](https://blog.dropbox.com/topics/product-tips/make-remote-work-easier-with-dropbox-spaces), [Qatalog](https://qatalog.com)) to surface work that is happening in department-specific tools. By surfacing ongoing work, via links or other documentation, this central tool acts as organizational glue. It enables a distributed team to discover what other teams are working toward with clicks instead of meetings. This intentional transparency fosters alignment, purpose, and enables feedback to occur earlier.
 
 ### 6. Does your organization work handbook-first?
 

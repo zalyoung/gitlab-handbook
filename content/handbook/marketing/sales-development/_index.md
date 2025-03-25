@@ -55,8 +55,8 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | I am Field Marketer, and want to have people invited to my event | We typically work with the FM process outlined on the issue template called `FM-BDR-Collaboration-Template` that can be found [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new), but are always eager to collaborate in making your events more succesful, if your ask is not covered in the template linked above, please write to us on the #sales_dev_global slack channel and we'll jump in to assist. |
 | I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](/handbook/marketing/sales-development/how-tos/#how-to-follow-our-fo-outbound-process). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
 | I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
-| I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/sales-development/sales-development-vault/#field-marketing--bdr-collaboration-process) for creating new flows on Groove, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
-| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](/handbook/marketing/sales-development/sales-development-vault/#sdrbdr-to-ae-sao-handoff-process). |
+| I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/marketing-operations/groove/#groove-flows-creation) for creating new flows on Groove, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
+| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and next steps. |
 
 ## Our Slack Channels
 
@@ -212,7 +212,7 @@ You will find the lead views below. These views are split per use-case for your 
 
 ### How to do Lead Database Management
 
-As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](/handbook/marketing/sales-development/roe-kpis-faq/).
+As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/).
 
 1. Open the lead you want to investigate and press the `Find Duplicates` on the top of the lead's record.
 1. Check through all the records that show up, from leads to Acccounts. Make sure to search for `Domain` and `Last Name` if the data you have seems incomplete.
@@ -230,7 +230,7 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 
 #### Telco and Finserv Routing
 
-For leads that connect to companies that operate in the Financial Services (AMER only) and Telecommunications (EMEA only) industries. We have a seperate routing process that supercedes all of our current [Rules of Engagement](/handbook/marketing/sales-development/roe-kpis-faq/#rules-of-engagement-roe).
+For leads that connect to companies that operate in the Financial Services (AMER only) and Telecommunications (EMEA only) industries. We have a seperate routing process that supercedes all of our current [Rules of Engagement](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/).
 
 Only named TELCO/FinServe accounts are rolling up to the TELCO/FinServe territories. If a new account is a subsidiary of an existing carved company, it will need to be assigned to the AE owning the ultimate account. If it is a totally separate entity then it can be allocated to the regional AE. If a lead comes in that is related to a TELCO/FinServe account, it must be assigned to the BDR assigned on the account.
 
@@ -430,7 +430,7 @@ Utilizing these accounts, create an outreach strategy and plan for the upcoming 
 
 #### Account Research Phase (4-5 hours/week)
 
-During your research phase for accounts to include in your Flows, thoroughly investigate and document pertinent information, which may include the below. [You can use the Claude prompt here to help you automate part of this process.](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231#note_2316335988) 
+During your research phase for accounts to include in your Flows, thoroughly investigate and document pertinent information, which may include the below. [You can use the Claude prompt here to help you automate part of this process.](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231#note_2316335988)
 
 - Identifying new strategic hires - ZoomInfo Scoops, Company Website or LinkedIn
 - Discovering recent job openings in DevOps - Company Website or LinkedIn
@@ -642,7 +642,7 @@ To submit a trial extension ticket for a prospect you will navigate [to this int
 
 You are also able to downgrade a Trial from Ultimate to Premium through the internal request form. You just have to choose "Change existing GitLab.com Trial plan"
 
-#### Opportunity Naming Convention 
+#### Opportunity Naming Convention
 
 - New Business: [Quantity]
   - [Name of Company]- [Quantity] [Edition]
@@ -1045,7 +1045,7 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### Claude
 
-Claude is an AI assistant from Anthropic. It can help with analysis, content writing, research, spreadsheet organization and other tasks. 
+Claude is an AI assistant from Anthropic. It can help with analysis, content writing, research, spreadsheet organization and other tasks.
 
 #### Claude Sales Dev BDR/SDR User Guide
 
@@ -1054,7 +1054,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 **Limitations**
 
 - Claude's knowledge cutoff is April 2024, so any GitLab features, pricing, or competitive details may be outdated. Always verify current information through official GitLab channels.
-- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time** 
+- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time**
 - Claude can't connect to external websites, APIs, or tools. If you need Claude to review specific content, you'll need to paste it directly into the conversation.
 - Claude can't maintain context between conversations - each chat starts fresh, so previous discussions about prospects or strategies won't be remembered.
 - Understand that **Claude is not always right and will sound very confident even when it is wrong**
@@ -1062,17 +1062,17 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 **General Tips**
 
 - Treat it like you are having a conversation with a highly intelligent robot (ex. C3P0)
-- Always try to ask follow up questions to get better answers 
-- You can always have Claude write ideal prompts for you! 
+- Always try to ask follow up questions to get better answers
+- You can always have Claude write ideal prompts for you!
 - Because Claude's data cut off is from April you can upload up to date target account's 10Ks, annual reports, and investor letters for up to date research
-- You can use Claude to help you reformat your spreadsheets! It is recommended to upload your data in CSV format. 
+- You can use Claude to help you reformat your spreadsheets! It is recommended to upload your data in CSV format.
 
 **Examples of Questions to Ask**
 
 - "Can you see if this companies' annual report mentions DevOps, Software, Cyber Security, Git?
-- “Can you make this email reply more concise?” 
+- “Can you make this email reply more concise?”
 - “Let's say I was a sales rep from GitLab. How should I approach this company/title?” (Can use Panos’s prompt in the prompt library as well )
-- “Can you explain why you gave x answer?” 
+- “Can you explain why you gave x answer?”
 - “Can you rewrite that in a more casual tone?”
 - “I do not like that message you generated.Can you give me 3more options and explain the pros and cons of each?”
 
@@ -1136,10 +1136,10 @@ Specifically:
   - `BDR Prospecting Status: Actively Working`
   - `BDR Account Strategy: Showing Intent`
 
-- These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**  
+- These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**
 - While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
   - For FY26Q1 we are adding a **Dispute Reason for Low LAM Dev Count** which team members can use when they opt to not pursue a 6QA account because of a small account value potential.
-  - Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of. 
+  - Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of.
 - Accepting or Disputing accounts can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
 - Any accounts that marked as `Accepted` by the BDR team will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/678e891afc1f1f390f3b654f/completed) to automatically bring relevant decision-makers for these accounts to the [B6 view on SFDC](/handbook/marketing/sales-development/#bdr-lead-views).
 - This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.
@@ -1190,10 +1190,10 @@ This is where you can find messaging related to GitLab vs some of our competiors
 #### 2. When a company that we are tracking gets a new hire or promotion
 
 - These people are identified by the lead initial source being `UserGems - New Hires and Promotions`
-- These people will be automatically be enrolled to a fully automated AI-driven sequence as per the guidelines below. 
+- These people will be automatically be enrolled to a fully automated AI-driven sequence as per the guidelines below.
 - Similar to above, the same people will be flagged on dashboards and reporting for you to consider as intent signals to add their respective accounts to your pipeline.
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.`
-- We are actively working to remove irrelevant prospect titles from being created as part of the `UserGems - New Hires and Promotions` lead sources. If you notice any titles that you feel should not have been created because they're irrelevant to DevOps decision-making in that company, please feel free to use the #usergems-feedback Slack channel to let us know, and we'll work with our CSM to review them. 
+- We are actively working to remove irrelevant prospect titles from being created as part of the `UserGems - New Hires and Promotions` lead sources. If you notice any titles that you feel should not have been created because they're irrelevant to DevOps decision-making in that company, please feel free to use the #usergems-feedback Slack channel to let us know, and we'll work with our CSM to review them.
 - In the meantime, you can also mark these leads as Status `Disqualified` and Disqualified reason `No Authority`
 
 #### 3. When people leave or join accounts where we have open oppourtunities
@@ -1205,9 +1205,9 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 #### Gem-E FY26 Auto Enrollment
 
-For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow which will make sure of UserGem's AI functionalities. 
+For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow which will make sure of UserGem's AI functionalities.
 
-- Leads that have no activity, and match the filters on the [SMB report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1hpG2AR/view) or [MM/ENTG report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1bYY2AZ/view) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow. 
+- Leads that have no activity, and match the filters on the [SMB report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1hpG2AR/view) or [MM/ENTG report here](https://gitlab.lightning.force.com/lightning/r/Report/00OPL00000E1bYY2AZ/view) will be automatically added to either an [SMB](https://groove.clari.com/flows/1235331?) or [MM/ENTG](https://groove.clari.com/flows/1199739?) flow.
 - These flows will automatically include AI generated customisation. Please review the [slides](https://docs.google.com/presentation/d/1LlIjaRjwVaTI5XbWkU2fIEhhq7rYthuPGh-aaNqJz2o/edit#slide=id.g2d902c263b1_0_581) or the [video presentation here](https://www.loom.com/share/b3bc2eb774064800b8170c245434d17b) for a full walkthrough.
 - These leads will be flagged on the dashboards similar to the explanation above and progress can be tracked from there.
 
@@ -1215,7 +1215,7 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 
 #### Manager Tool Certification
 
-We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893). 
+We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893).
 
 #### General leadership principles
 
@@ -1550,7 +1550,7 @@ Quota and compensation will be assigned by the BDR/SDR Manager and discussed in 
 1. Is the lead connecting to accounts from the Financial Services (AMER) or Telecommunications (EMEA) industries?
 
     **No:** Please proceed to the next step.
-    **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br> 
+    **Yes:** Normal RoE rules are superceded, and the lead is worked by the respective Telco/Finserv BDRs, not the SDR team <br>
 
 2. Is the MQL from an Existing Account?
 
