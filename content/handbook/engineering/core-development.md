@@ -408,7 +408,7 @@ The shared services and components below are extracted from the GitLab [product 
 | GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | GitLab Shell |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
-| HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations/) |  |
+| HAproxy |  | Centralized with Specific Team |  | [Infrastructure](/handbook/engineering/infrastructure-platforms/production-engineering/foundations/) |  |
 | Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
 | LFS |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 | Logrotate |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
