@@ -90,9 +90,11 @@ Make your goals concrete by considering:
 
 Think creatively about your development using the [70-20-10 rule for development](/handbook/people-group/learning-and-development/career-development/#70-20-10-rule-for-development):
 
+
 - 70% from challenging experiences and assignments
 - 20% from relationships, networks, and feedback
 - 10% from formal training and education
+
 
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 75.93%; padding-top: 0; height: 0;"><iframe frameborder="0" width="300" height="250" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fd2aa9021efd0018b7c8eb" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
