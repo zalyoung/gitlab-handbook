@@ -475,6 +475,17 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 1. **Break Down and Close:**
    - Once the investigation task is complete, document the findings and break down the work into actionable refined issues.
 
+### Should bugs be estimated?
+
+There are differing opinions on this in agile philosophy ([1](https://www.reddit.com/r/scrum/comments/n4uhl5/estimating_bugsdoes_it_matter/), [2](https://medium.com/agilelab/estimating-bugs-yes-or-no-cbfe1bc25db1)). 
+
+On our team, we have decided that bugs should not be estimated. Here's why:
+
+- The point of estimating weight in a velocity-based process is to help predict the rate at which a team can expect user value be delivered.
+- From that perspective, bugs should not be estimated, because the "user value" was delivered by the original feature, which _did_ have a weight.
+- But fixing a bug isn't adding any new user value, it's just "finishing" delivery of the user value which was already accounted for by the original feature. So, they shouldn't get a weight.
+- Now, if it's a huge "bug" in the category of "we got this feature entirely wrong and need to rewrite it significantly, and it will take a lot of effort", then that should be considered new feature work, not a "bug". And it should be refined and broken down into weighted issues, just like all feature work.
+
 ### 🧹 Follow-up issues which span multiple releases
 
 Gitlab standards often require breaking down issues that need to be resolved in a specific set of steps that span multiple releases. Typically these are issues related to database migrations ([Dropping Columns](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html#dropping-columns)) or breaking changes in GraphQL such as ["Deprecation and Removal"](https://docs.gitlab.com/ee/api/graphql/index.html#deprecation-and-removal-process).
