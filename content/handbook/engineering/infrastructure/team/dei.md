@@ -133,8 +133,8 @@ Occassionally I will talk at conferences. Here are some of the talks I have give
 
 ## Engage with Andrew
 
-1. Start with an issue in the [Infrastructure tracker](https://gitlab.com/gitlab-com/gl-infra/infrastucture/issues/new).
-1. You are welcome to follow this up with a Slack message in [#infrastucture](https://gitlab.slack.com/archives/g_infrastructure).
+1. Start with an issue in the [Infrastructure tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/new).
+1. You are welcome to follow this up with a Slack message in [#infrastructure](https://gitlab.slack.com/archives/g_infrastructure).
 1. Grab some time in my calendar. I use [Clockwise](https://www.getclockwise.com/) to manage my calendar. Clockwise will book out free time as "Focus Time".
     Please feel free to book over these blocks.
 1. If you cannot find a better alternative, I'm normally okay with meetings in evenings. Early mornings are more difficult due to parental commitments.

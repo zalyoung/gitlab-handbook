@@ -57,7 +57,7 @@ Teams within Developer Relations are reachable in these Slack channels:
 
 - [**Developer Relations emergency contacts**](https://docs.google.com/document/d/16oq7sl6dpI2QbADwY41KjKEjaEj7dJ9LI5owm8lO_iU/edit?usp=sharing)
 - [**Incident management roles**](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities)
-- **Relevant Slack channels for incident/infrastructure:** [`#incidents-dotcom`](https://gitlab.enterprise.slack.com/archives/C08FMPK1DDF), [`#infrastucture-platforms-help`](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V)
+- **Relevant Slack channels for incident/infrastructure:** [`#incidents-dotcom`](https://gitlab.enterprise.slack.com/archives/C08FMPK1DDF), [`#infrastructure-platforms-help`](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V)
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How we work
 
