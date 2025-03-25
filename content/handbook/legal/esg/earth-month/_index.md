@@ -59,7 +59,7 @@ If you're volunteering locally, share your volunteer efforts with us [here](http
 
 ## Important Volunteering Notes
 
-- When volunteering with GiveLab, volunteer activities must align with the [GitLab Philanthropy Policy](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/#who-we-support), including ensuring that the organization being supported is a registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that aligns with our Values.
+- When volunteering with GiveLab, volunteer activities must align with the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/#who-we-support), including ensuring that the organization being supported is a registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that aligns with our Values.
 
 - All participation is voluntary and should not interfere with work commitments
 
