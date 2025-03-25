@@ -92,6 +92,7 @@ flowchart TD
 - Return Date]
     end
 ```
+
 #### Ticket Handover Process
 
 When taking over a ticket that has the `out_of_office` tag:
