@@ -475,7 +475,7 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 - [Actions by Users](https://10az.online.tableau.com/#/site/gitlab/analysis/ActionsbyAllUsers)
 - [eLearning Usage](https://dashboard.skilljar.com/analytics/) (Admins only)
 
-## Requesting Tableau Access
+## Access
 
 ### Getting Started
 
@@ -624,7 +624,7 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 ### Data Source Access: **Tableau Desktop or Tableau Prep Builder**
 
-*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a Yubikey in Okta. Fingerprints will not work. Please see the [Tableau Cloud Access](/handbook/enterprise-data/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
+*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a Yubikey in Okta. Fingerprints will not work. Please see the [Tableau Cloud Access](/handbook/enterprise-data/platform/tableau/#tableau-desktop-access) section above for more details on how to order a Yubikey.
 
 <details markdown=1>
 
