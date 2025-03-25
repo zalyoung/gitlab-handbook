@@ -5,7 +5,7 @@ group: Organizations
 toc_hide: true
 ---
 
-# Organizations and Cells Integration
+## Organizations and Cells Integration
 
 Watch a [video introduction](https://www.youtube.com/watch?v=kDinjEHVVi0) that summarizes what Organization isolation is and why we need it for Cells.
 
