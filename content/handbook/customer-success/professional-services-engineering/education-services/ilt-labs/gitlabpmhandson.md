@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 | Lab Name | Lab Link |
 |-----------|------------|
-| Create an organizational structure in GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab2/) |
+| Structuring your Organization | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab1/) |
 | Use GitLab planning tools | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab3/) |
 | Create issues |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab4/) |
 |  Organize and manage issues | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab5/) |
