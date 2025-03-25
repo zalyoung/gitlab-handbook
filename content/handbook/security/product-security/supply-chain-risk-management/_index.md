@@ -66,13 +66,13 @@ The Source core step includes everything that can edit and alter the source code
 | **Development Dependencies** | (Wraps all sub-types below) | `~sscs-rm-component:src:dev-dependencies` |
 |  | Development environment setup tools and dependencies (ex: [asdf](https://asdf-vm.com/)/[mise](https://mise.jdx.dev/)) | `~sscs-rm-component:src:dev-setup-tools` |
 |  | IDEs (including extensions and plugins) | `~sscs-rm-component:src:IDEs` |
-|  | Docker images | `~sscs-rm-component:src:source-docker-images` |
+|  | Docker images | `~sscs-rm-component:src:docker-images` |
 |  | Pre-commit hooks | `~sscs-rm-component:src:pre-commit-hooks` |
 |  | Local code formatters and linters | `~sscs-rm-component:src:linters` |
-| **GitLab Repositories** | (Wraps all sub-types below) | `~sscs-rm-component:src:gitlab-repo` |
-|  | Project configuration | `~sscs-rm-component:source-repo` |
-|  | [Code Owners](https://docs.gitlab.com/user/project/codeowners/) configuration | `~sscs-rm-component:src:repo` |
-|  | Repository access controls | `~sscs-rm-component:src:access-control` |
+| **GitLab Repositories** | (Wraps all sub-types below) | `~sscs-rm-component:src:repo` |
+|  | Project configuration | `~sscs-rm-component:src:repo-config` |
+|  | [Code Owners](https://docs.gitlab.com/user/project/codeowners/) configuration | `~sscs-rm-component:src:repo-code-owners` |
+|  | Repository access controls | `~sscs-rm-component:src:repo-access-control` |
 
 #### Build components
 
@@ -80,7 +80,7 @@ The Build core step includes everything that can transform the source code (comp
 
 | Component type | Sub type | Label |
 | -- | -- | -- |
-| **CI/CD** | (Wraps all sub-types below) | `~sscs-rm-component:build:dev-dependencies` |
+| **CI/CD** | (Wraps all sub-types below) | `~sscs-rm-component:build:ci-cd` |
 |  | GitLab Runners | `~sscs-rm-component:build:gitlab-runners` |
 |  | CI/CD templates | `~sscs-rm-component:build:ci-templates` |
 |  | CI/CD Components | `~sscs-rm-component:build:ci-components` |
@@ -88,28 +88,28 @@ The Build core step includes everything that can transform the source code (comp
 |  | Base Docker images | `~sscs-rm-component:build:base-docker-images` |
 |  | Intermediate images | `~sscs-rm-component:build:intermediate-images` |
 |  | Container build tools | `~sscs-rm-component:build:container-build-tools` |
-|  | Container registries | `~sscs-rm-component:build:container-registries` |
+|  | Container registry | `~sscs-rm-component:build:container-registry` |
 | **Runtime Dependencies** | (Wraps all sub-types below) | `~sscs-rm-component:build:runtime-dependencies` |
 |  | Ruby Gems | `~sscs-rm-component:build:ruby-gems` |
 |  | NPM packages | `~sscs-rm-component:build:npm-packages` |
 |  | Go modules | `~sscs-rm-component:build:go-modules` |
 |  | Python packages | `~sscs-rm-component:build:python-packages` |
-|  | Other language-specific dependencies | `~sscs-rm-component:build:other-lang-dependencies` |
+|  | Other language-specific dependencies | `~sscs-rm-component:build:other-packages` |
 | **Secrets** | (Wraps all sub-types below) | `~sscs-rm-component:build:secrets` |
 |  | Vault | `~sscs-rm-component:build:vault` |
 |  | CI/CD variables | `~sscs-rm-component:build:ci-variables` |
 |  | Key management systems | `~sscs-rm-component:build:key-management` |
 |  | Certificate authorities | `~sscs-rm-component:build:certificate-authorities` |
-|  | Signing infrastructure | `~sscs-rm-component:build:signing-infrastructure` |
+|  | Signing infrastructure | `~sscs-rm-component:build:signing-infra` |
 
 #### Package components
 
 | Component type | Sub type | Label |
 | -- | -- | -- |
 | **Registries** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:registries` |
-|  | Package registries | `~sscs-rm-component:pkg:package-registries` |
-|  | Container registries | `~sscs-rm-component:pkg:container-registries` |
-| **Distribution Infrastructure** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:distribution-infrastructure` |
+|  | Package registry | `~sscs-rm-component:pkg:package-registry` |
+|  | Container registry | `~sscs-rm-component:pkg:container-registry` |
+| **Distribution Infrastructure** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:distribution-infra` |
 |  | CDNs | `~sscs-rm-component:pkg:cdns` |
 |  | Mirror services | `~sscs-rm-component:pkg:mirror-services` |
 |  | Download servers | `~sscs-rm-component:pkg:download-servers` |
