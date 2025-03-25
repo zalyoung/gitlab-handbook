@@ -7,7 +7,6 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 | Lab Name | Lab Link |
 |-----------|------------|
-| Access the GitLab training environment | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab1/) |
 | Create an organizational structure in GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab2/) |
 | Use GitLab planning tools | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab3/) |
 | Create issues |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab4/) |
