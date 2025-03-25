@@ -2,9 +2,9 @@
 title: "Optimize Group"
 ---
 
-## Plan:Optimize
+## Monitor:Optimize
 
-**[Optimize FY25 direction and goals](https://gitlab.com/gitlab-org/gitlab/-/issues/440653)**
+**[Optimize FY26 direction and goals](https://gitlab.com/gitlab-org/gitlab/-/issues/512065)**
 
 ### How we work
 
@@ -385,6 +385,19 @@ Considerations for data seeding scripts:
 
 - Ensure scripts are parameterized allowing specification of group or project ID where relevant
 - Ensure scripts can be run repeatedly without failure
+
+#### Feature Flags
+
+We [use feature flags as needed](/handbook/product-development-flow/feature-flag-lifecycle) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
+
+The following roles and responsibilities are associated with feature flags we own:
+
+- [DRI](/handbook/people-group/directly-responsible-individuals/) assignment
+  - The author introducing a feature flag is the DRI of the feature flag rollout.
+- Auditing and cleanup
+  - The EM is DRI for auditing feature flags owned within the stage and will schedule cleanups in collaboration with the feature flag DRI.
+- Process improvements
+  - Everyone is encouraged to contribute toward process improvements.
 
 ## Meetings
 

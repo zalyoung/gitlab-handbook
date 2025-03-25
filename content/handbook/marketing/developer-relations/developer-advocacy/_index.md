@@ -150,6 +150,8 @@ Please read the [Consultancy](/handbook/marketing/developer-relations/developer-
 
 The Developer Advocate team plays a key role in supporting events. We work closely alongside [Corporate Event Marketing](/handbook/marketing/integrated-marketing/corporate-events/) to provide strategic content and assistance for both corporate and third-party sponsored events. This collaboration ensures the success and seamless execution of various gatherings. To learn more please refer to the [Events page](/handbook/marketing/developer-relations/events/).
 
+We also help team members prepare for speaking opportunities at local tech events and meetups. If you'd like help preparing for such an event, please reach out to us in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel or create an issue using the [Developer Advocate Request template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?description_template=developer-advocate-request).
+
 #### Release Advocacy
 
 Developer Advocates should always be prepared to promote our [monthly release](/handbook/marketing/developer-relations/developer-advocacy/social-media/#release-evangelism) and engage in [community response on release days](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#release-days) given the historical performance of release posts on Hacker News.

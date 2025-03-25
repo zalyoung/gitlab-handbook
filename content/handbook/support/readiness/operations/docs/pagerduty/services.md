@@ -55,7 +55,7 @@ on-call in Slack.
   - Slack V2
 - Integrated Slack Channels
   - #spt_on-call
-  - #spt_pod_dedicated
+  - #support_gitlab-dedicated
 
 #### Incident Management - GitLab Dedicated for US Gov CMOC
 
@@ -67,7 +67,7 @@ on-call in Slack.
   - Slack V2
 - Integrated Slack Channels
   - #spt_on-call
-  - #spt_pod_dedicated
+  - #support_gitlab-dedicated
   - #spt_us-government
 
 #### Support Managers

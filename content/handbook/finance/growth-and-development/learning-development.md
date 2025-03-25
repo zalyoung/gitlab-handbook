@@ -6,7 +6,7 @@ Welcome to Learning and Development for the Finance Department at GitLab! The re
 
 The content can be mostly accessed through GitLab Learn but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/expenses/#trainingtuition).
 
-GitLab is [committed to providing the time](/handbook/people-group/learning-and-development/learning-initiatives/#take-time-out-to-learn-campaign) needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
+GitLab is committed to providing the time needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
 
 ## Content by skill
 

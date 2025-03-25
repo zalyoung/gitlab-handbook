@@ -42,16 +42,6 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
-# Broken onboarding link - remove 2025-02-01
-/handbook/anti-harassment/ /handbook/people-group/anti-harassment/ 301
-/handbook/paid-time-off/ /handbook/people-group/paid-time-off/ 301
-
-# Replace aliases - remove 2025-02-01
-/handbook/esg/ /handbook/company/esg/ 301
-/handbook/gdpr/ /handbook/legal/privacy/gdpr/ 301
-/handbook/resellers/reseller-agreement/ /handbook/legal/reseller-agreement/ 301
-/teamops/everyone-contributes/ /teamops/equal-contributions/ 301
-
 # Analytics pages moved - remove 2025-03-15
 /handbook/engineering/development/ops/monitor/ /handbook/engineering/development/analytics/monitor/ 301
 /handbook/engineering/development/analytics/analytics-instrumentation/ /handbook/engineering/development/analytics/monitor/analytics-instrumentation/ 301
@@ -81,6 +71,9 @@
 /handbook/engineering/development/sec/secure/dynamic-analysis/ /handbook/engineering/development/sec/secure/dynamic-analysis/dynamic-analysis/ 301
 /handbook/engineering/development/sec/secure/api-security/ /handbook/engineering/development/sec/secure/dynamic-analysis/api-security/ 301
 
+# Secure planning - remove 2025-05-27
+/handbook/engineering/development/sec/secure/workflow/ /handbook/engineering/development/sec/secure/planning/ 301
+
 # Infrastructure realignment - remove 2025-06-01
 /handbook/engineering/infrastructure/platforms/ /handbook/engineering/infrastructure-platforms/ 301
 /handbook/engineering/infrastructure/test-platform/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
@@ -105,3 +98,6 @@
 
 # Remove Infra TPM - remove 2025-04-29
 /handbook/engineering/infrastructure/technical-program-management/ /handbook/engineering/infrastructure/ 301
+
+# Update Earth Month file - remove 2025-06-25
+/handbook/legal/esg/earth-month/index.html/ /handbook/legal/esg/earth-month/ 301 

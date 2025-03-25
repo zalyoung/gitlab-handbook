@@ -34,9 +34,9 @@ The primary objective in enabling our customers is to get a customer to value qu
 
 | Description | Metrics |
 |---|---|
-| Primary [use case enablement](/handbook/customer-success/csm/stage-enablement-and-expansion/) to ensure the customer gets value quickly and ROI for their reason for purchase. | - Stage Adoption playbooks opened & completed (QoQ) <br> - [Use case health scores](/handbook/customer-success/product-usage-data/use-case-adoption/) |
+| Primary [use case enablement](/handbook/customer-success/csm/workshops/) to ensure the customer gets value quickly and ROI for their reason for purchase. | - Stage Adoption playbooks opened & completed (QoQ) <br> - [Use case health scores](/handbook/customer-success/product-usage-data/use-case-adoption/) |
 | [EBRs](/handbook/customer-success/csm/ebr/) are strategic touchpoints to ensure that progress against desired business outcomes is being made and communicated back to the team that we work with and key influencers/decision-makers. | EBRs completed within the last twelve months in 75% of all accounts |
-| Use case maturity [workshops](/handbook/customer-success/csm/workshops/) & [enablement sessions](/handbook/customer-success/csm/stage-enablement-and-expansion/) to ensure continuous adoption and identifying areas of improvement. | - [CI and DevSecOps maturity scores](/handbook/customer-success/product-usage-data/maturity-scoring/)  <br> - [Use case health scores](/handbook/customer-success/product-usage-data/use-case-adoption/) |
+| Use case maturity [workshops](/handbook/customer-success/csm/workshops/) & [enablement sessions](/handbook/customer-success/csm/workshops/) to ensure continuous adoption and identifying areas of improvement. | - [CI and DevSecOps maturity scores](/handbook/customer-success/product-usage-data/maturity-scoring/)  <br> - [Use case health scores](/handbook/customer-success/product-usage-data/use-case-adoption/) |
 | Customer roundtables are industry specific events organised and facilitated by the Customer Success Manager. Those events are meant to give customers the opportunity to exchange ideas and solutions around industry specific topics, such as regulatory requirements. Roundtables can also span industries if they share common use cases. | One roundtable per industry per quarter. |
 
 ### Expand & Renew
@@ -55,7 +55,7 @@ Beginning FY25, all customers aligned with a CSM are considered Priority 1 and s
 
 ### Cadence Frequency
 
-CSMs should have weekly or biweekly calls with each of their customers, and should never go more than one month without a call. If a customer is unegaged, they should be marked as [non-engaged](/handbook/customer-success/csm/engagement/Non-engaged-customer-strategies/) and [triaged](/handbook/customer-success/csm/health-score-triage/) appropriately. Even if it ends up being a false positive, we want to act swiftly to ensure any risk is mitigated. CSMs should expect to have 5-7 cadence calls per week, in addition to adhoc calls such as workshops, EBRs, product discussions, etc.
+CSMs should have weekly or biweekly calls with each of their customers, and should never go more than one month without a call. If a customer is unegaged, they should be marked as [non-engaged](/handbook/customer-success/csm/engagement/non-engaged-customer-strategies/) and [triaged](/handbook/customer-success/csm/health-score-triage/) appropriately. Even if it ends up being a false positive, we want to act swiftly to ensure any risk is mitigated. CSMs should expect to have 5-7 cadence calls per week, in addition to adhoc calls such as workshops, EBRs, product discussions, etc.
 
 ### EBRs
 

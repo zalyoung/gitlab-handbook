@@ -45,14 +45,20 @@ GitLab must document and confirm PCI DSS scope at minimum every 6 months and aft
 
 ## Significant Changes
 
-PCI requirements 6.5.2, 11.3.1.3, 11.4.3, and 12.5.3 require GitLab to perform various tasks whenever significany change occur: 
+PCI requirements 6.5.2, 11.3.1.3, 11.4.2, 11.4.3, and 12.5.3 require GitLab to perform various tasks whenever significany change occur: 
 
 - 6.5.2 and 12.5.3: Upon completion of a significant change, all applicable PCI DSS requirements are confirmed to be in place on all new or changed systems and networks, and documentation is updated as applicable.
 - 11.3.1.3: Internal vulnerability scans are performed after any significant change as follows:
   - Vulnerabilities that are either high-risk or critical (according to the entity’s vulnerability risk rankings defined at Requirement 6.3.1) are resolved.
   - Rescans are conducted as needed. 
   - Scans are performed by qualified personnel and organizational independence of the tester exists (not required to be a QSA or ASV).
+- 11.3.2.1: External vulnerability scans are performed after any significant change as follows:
+  - Vulnerabilities that are scored 4.0 or higher by the CVSS are resolved.
+  - Rescans are conducted as needed. 
+  - Scans are performed by qualified personnel and organizational independence of the tester exists (not required to be a QSA or ASV).
+- 11.4.2: Internal penetration testing is performed after any significant infrastructure or application upgrade or change.
 - 11.4.3: External penetration testing is performed after any significant infrastructure or application upgrade or change.
+- 12.5.2.1: PCI DSS scope is documented and confirmed by the entity at least once every 6 months and upon significant change to the in-scope environment. 
 
 ### Significant Change Definition and Procedures
 
@@ -93,7 +99,9 @@ Significant Changes require additional procedures to ensure the continued securi
 
 **For major changes (like changing cloud providers):**
 
-- Full internal and external scansComplete penetration testing
+- Full internal and external scans
+- Complete penetration testing
 - Configuration baseline verification
 - Documentation of secure decommissioning
 - Updated network diagrams and data flow documentation
+- Review of PCI DSS Scope

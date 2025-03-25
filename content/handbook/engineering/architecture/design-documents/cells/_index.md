@@ -185,6 +185,7 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [ADR-011: Cell Specific Configuration](decisions/011_cell_specific_configuration.md)
 - [ADR-012: Cell Unique Identifier](decisions/012_cell_unique_identifier.md)
 - [ADR 013: Use the same Cell ID for restoring a Cell from backup](decisions/013_cell_restore_from_backup.md)
+- [ADR 014: Clusterwide syncing in Cells 1.0](decisions/014_clusterwide_syncing_in_cells_1_0.md)
 
 ## Links
 

@@ -47,6 +47,9 @@ When performing the security review of a JiHu contribution, the reviewer needs t
 1. If the merge request looks acceptable:
     - Make a comment that uses the `/approve` quick action
     - Approval will be confirmed with an [automated approval comment](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/84626#note_906357637)
+    - Apply the correct AppSec labels:
+     ``/label ~"AppSecWorkType::JihuMRreview" ~AppSecWeight::<update> ~"Application Security Team" ~AppSecWorkflow::complete"
+       /milestone %<update>``
 1. If the merge request does not look acceptable at this time, and/or introduces new vulnerabilities, and/or the AppSec team is waiting on answers from the engineer:
     - Apply the `sec-planning::pending followup` label
     - If possible, work with the creator to make it secure. Follow the steps above once it looks acceptable

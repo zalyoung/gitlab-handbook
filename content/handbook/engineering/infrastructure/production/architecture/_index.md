@@ -28,7 +28,7 @@ The compute and network layout that runs GitLab.com
 
 - [Application Architecture documentation](https://docs.gitlab.com/ee/development/architecture.html)
 - [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
-- [GitLab.com Rate Limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
+- [GitLab.com Rate Limits](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
 - [GitLab performance monitoring documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html)
 - [Performance of the Application](/handbook/engineering/performance/)

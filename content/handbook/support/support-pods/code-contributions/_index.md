@@ -53,7 +53,7 @@ In addition to collaborating with fellow Support Engineers, consider some of the
 
 🌊 Want to make a code contribution but you aren't sure where to start?
 
-- Search and [filter](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#filter-the-list-of-issues) issues strategically.
+- Search and [filter](https://docs.gitlab.com/user/project/issues/managing_issues/#filter-the-list-of-issues) issues strategically.
   - Have a play around with the labels to look around for issues depending on your interests. For easier issues you can search for `Seeking community contributions`, `Accepting UX contributions` and then add additional labels accordingly
   - If the issue has a weight, look for issues with a weight of `1` for smaller issues
   - `@anton`: I typically like to look for `api` labelled issues, because they tend to be backend only changes and Ruby code is what I like working on. Where possible I like to work on issues that will directly help Support in some way.

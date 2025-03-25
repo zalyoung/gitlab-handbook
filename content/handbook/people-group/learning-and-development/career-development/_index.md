@@ -198,7 +198,7 @@ Epics are a great way to [transparently](/handbook/values/#transparency) and [ef
 
 ### Having Career Conversations with your Manager
 
-The video below is a recording of the Live Learning that took place in August 2021 as part of our Career Development [Skill of the Month](/handbook/people-group/learning-and-development/learning-initiatives/#fy22-topic-outline).
+The video below is a recording of the Live Learning that took place in August 2021 as part of our Career Development Skill of the Month.
 
 {{< youtube "JA3NNTGoELU" >}}
 
@@ -229,8 +229,8 @@ Managers should support their direct reports with their professional development
 
 1. Encourage team members to create an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) or use [GitLab Epics to track their career development](/handbook/people-group/learning-and-development/career-development/#use-gitlab-epics-to-track-your-career-development).
 1. Utilize the [Growth & Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/).
-1. Recommend (and model) blocking [time to learn during the work week](/handbook/people-group/learning-and-development/learning-initiatives/#take-time-out-to-learn-campaign).
-1. Organize team specific and cross-functional learning communities to practice [social learning](/handbook/people-group/learning-and-development/learning-initiatives/#social-learning-through-live-learning).
+1. Recommend (and model) blocking time to learn during the work week.
+1. Organize team specific and cross-functional learning communities to practice social learning.
 1. Model and share your own career and professional development pursuits.
 
 **Sample questions to ask your team:**

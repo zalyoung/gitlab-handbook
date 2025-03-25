@@ -98,6 +98,15 @@ If you have the memory to spare on your workstation, it will help your performac
 1. `Help menu -> Change Memory Settings`
 1. Change `Maximum heap size` to `12000` Mib, or whatever you think you can allocate without otherwise impacting system performance. On a maxed-out MacBook pro with 64G of memory, allocating 12G should be fine.
 
+## Open files in RubyMine from Terminal 
+
+This can be set up at the OS level so it works for all type of files. For example, to set up open all .rb files: 
+1, Open a `*.rb` file in `Finder` 
+2. Right click and select `Get Info`
+3, Expand `Open With`
+4. Select `RubyMine.app`
+5. Select `Change All...`
+
 ## Configuration
 
 ### UPDATE 2024-04

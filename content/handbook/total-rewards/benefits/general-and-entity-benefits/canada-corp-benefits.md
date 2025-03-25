@@ -104,7 +104,7 @@ This card provides your group plan number and member identification number. Keep
 
 Your benefits will cease on the day of your termination. There may be options to convert elements of your benefit plan to individual coverage, without medical questions. You can contact our brokers, SC Insurance, for more information about your options. You can find contact information below. Options are limited to a period of time after your coverage terminates, typically 30 or 60 days.
 
-SC Insurance: info@scinsurance.ca or call 416.259.1166
+SC Insurance: info@scinsurance.ca or call 416.259.1166 
 
 ### Frequently asked questions
 
@@ -168,6 +168,7 @@ Effective November 1, 2021, eligible Canadian Team Members can enroll in GitLab'
 
 For enrolling into the RRSP, please navigate to [Canada Life's RRSP portal](https://mycanadalifeatwork.com) and follow the directions in the [enrollment express pdf](https://drive.google.com/file/d/16K333QPsXllZFolC_yiXZYb3rUYJwXvu/view?usp=sharing). For a more detailed overview of enrolling and navigating the RRSP platform, please reference the [enrollment express guide](https://www.brainshark.com/1/player/grs?pi=zGWz97lF4zPVigz0&r3f1=c5ff81d2ded38b99c999f69cca80c7ded98198f2dbc5c1cd9e&fb=0).
 
+- There are two fields to enter your desired % deducted for RRSP contribution: `Member` and `Member Voluntary`. The first 3% you wish deducted should go in the `Member` field, and the rest should go in the `Member Voluntary` field. For example, if you wish to deduct 10% of your income, enter 3% in the `Member` field and 7% in the `Member Voluntary` field.
 - Once enrolled, a plan administrator will need to approve your enrollment. This may take up to two weeks.
 - If you need any help, please contact Canada Life at 1-800-724-3402, our broker SC Insurance at info@scinsurance.ca, or [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 - Please remember to select a beneficiary when enrolling. This is separate from the beneficiary elected for your life insurance plan.
@@ -633,6 +634,12 @@ More information can be found on the [Government of Manitoba website](https://ww
 - Team Members should select `Out Sick` in Workday.
 
 </details>
+
+### Long Term Disability Leave - Continuance of Coverage 
+
+It is the policy of GitLab Canada Corp. to provide continuity of coverage under the group insurance plan for individuals who are disabled.  The period of coverage extends for 24 months  following the date of total disability.  Premium payment conditions will remain the same as are in place for active employees.  Following 24 months from the date of your total disability, your benefits under the plan will cease and terminate.  Conversion products are available.  You may contact either our existing insurer directly, or our brokers at SC Insurance (info@scinsurance.ca) to learn more about your options and discuss these conversion products.
+
+If at any time you are no longer deemed to be totally disabled, your benefits may terminate on that day unless you have returned to work on a full time basis.
 
 ## Administrative Details for Benefits Team
 

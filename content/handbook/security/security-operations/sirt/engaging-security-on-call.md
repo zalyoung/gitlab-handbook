@@ -28,7 +28,7 @@ The following items are out of scope for SIRT and should be escalated to the res
 
 For general Q&A, GitLab Security is available in the `#security` channel in GitLab Slack.
 
-For low severity, non-urgent issues, [SIRT](/handbook/security/security-operations/sirt/) can be reached by mentioning `@sirt-members` in Slack or by opening an issue with `/security` in Slack.
+For low severity, non-urgent issues, [SIRT](/handbook/security/security-operations/sirt/) can be reached by mentioning `@sirt-members` in Slack or by requesting the incident form link, using the `/security` slash command in Slack. (Note: this command does not work inside Slack threads)
 
 Please be advised the SLA for Slack mentions is **6 hours** on business days.
 

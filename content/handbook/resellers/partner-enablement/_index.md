@@ -18,10 +18,15 @@ Remember that some of the links below require you to login to [GitLab's Partner 
 
 - Provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members, and the GitLab Customer Portal.
 
-Building Pipelines GitLab Partner Webinar Series (Live Webinar & Episode Content Archive)
+[Building Pipelines GitLab Partner Webinar Series (Live Webinar & Episode Content Archive)](https://partners.gitlab.com/prm/English/c/Building-Pipelines)
 
 - This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
 - Click the link above to view the archive of previous episode content and be sure to **Register Today**!
+
+[GitLab User Webinars and Labs](https://university.gitlab.com/pages/gitlab-user-webinars)
+
+- Our Customer Success team produces regular enablement sessions in each Geo globally that you can attend, and promote for your colleagues and customers.
+- Check out the upcoming sessions and encourage anyone to join them!
 
 **Topical Articles on DevSecOps Concepts**
 
@@ -109,18 +114,6 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
   - Contains Joint Reference Architectures, Patterns and Working Examples for integrating GitLab with Alliance and Technology solutions.
 - [CI Samples Demo](https://gitlab.com/gitlab-learn-labs/webinars/cicd/cicd-samples)
   - CI functions samples for quick demos
-
-**Additional References for You**
-
-- [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and [Install Guides](https://docs.gitlab.com/ee/install/) (GitLab Docs)
-  - GitLab has a leading market share in self-managed deployments.  Here are our technical specs and docs for solutioning and installing GitLab instances.  
-- [High Availability Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#supported-modifications-for-lower-user-counts-ha)
-  - The 3,000 user GitLab reference architecture is the smallest we recommend that achieves High Availability (HA). However, for environments that need to serve fewer users but maintain HA, there are several supported modifications for this architecture to reduce complexity and cost. Any reference architecture above 3000 users is capable of running as a HA workload. For smaller deployments, we (GitLab) recommend to schedule regular backups which provide a recovery point objective (RPO) that the organization can tolerate.
-- [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
-  - The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. Created and maintained by the GitLab Quality Engineering Enablement team, the Toolkit supports the deployment of GitLab Self-Managed to hyperscaler and On-Prem target environments.
-  - Review the following GitLab Environment Toolkit's provided examples located [GET Toolkit Reference architecture Examples]](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/tree/main/examples?ref_type=heads).
-  - HA is only available for GitLab's enterprise paid tiers. Both Premium and Ultimate licenses of our product will permit the deployment of Highly Available instances of GitLab.
-  - Migration from one instance to another remains the same as if the target system weren't highly available. More here: https://handbook.gitlab.com/handbook/resellers/partner-enablement/partner-migration-services/#from-gitlab-self-managed-to-gitlab-self-managed
 
 ## 3.  Closing the Deal
 

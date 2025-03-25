@@ -29,13 +29,13 @@ Requester must be a Group Owner of a pre-existing paid namespace.
 
 #### Free Users
 
-Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
+Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
 
 ### What we can provide
 
 We can provide the following information:
 
-- Information found in the [Audit Events Features](https://docs.gitlab.com/ee/administration/audit_event_reports.html)
+- Information found in the [Audit Events Features](https://docs.gitlab.com/administration/audit_event_reports/)
 - Information about who has accessed the account/projects that the customers owns.  This can include:
   - number of users
   - number of times accessed

@@ -32,7 +32,107 @@ These core elements form the foundation for the rest of the success plan and the
 
 ### Initiatives
 
-Once an objective has been fully defined, one or more initiatives are created as action plans to achieve the objective. These focus on the "how" to meet the customer outcomes, and enable a division of responsibility for different aspects of the plan.
+Once an objective has been fully defined, one or more initiatives are created as action plans to achieve the objective. These focus on the "how" to meet the customer outcomes, and enable a division of responsibility for different aspects of the plan. 
+
+### Verifiable Outcomes
+
+Verifiable Outcomes (VOs) are a framework designed enhance the objectivity and visibility of customer achievements through adoption of GitLab. For a full video-based introduction to the concept, feel free to review the embedded youtube below (must be signed into GitLab Unfiltered account):
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/i3n4cMMIJz8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+#### *Why* Verifiable Outcomes?
+
+Much like buying a treadmill, the purchase of enterprise software only creates meaningful return on investment through careful planning, and dedicated effort over a sustained period of time. To avoid the trap of the metaphorical "treadmill" becoming a disused ornament where laundry is hung— it's crucial that Gitlab's account teams partner with customers to:
+
+- Capture the customer's desired outcomes
+- Measure and communicate the value of these outcomes in language relevant to the customer
+
+The verifiable outcomes framework has been created to:
+
+- Drive stakeholder alignment through clear customer-aligned objectives
+- Capture growth opportunities by clearly illustrating return on investment
+- Empower strong negotiation positions through evidence-backed discussion of ROI
+- Improve internal recognition of CS value delivery
+
+### What is a Verifiable Outcome?
+
+A verifiable outcome must be *SMART*:
+
+- **S**pecific
+- **M**easurable
+- **A**ttainable
+- **R**elevant
+- **T**ime-bound
+
+To be *SMART*, outcomes must include:
+
+1. **Baseline metrics**: Where we are today
+2. **Success criteria**: How we'll know when we're done
+3. **Business impact**: The benefit to the customer's business, in their language
+4. **Timeline**: When we expect to finish
+
+### The Process
+
+Verifiable outcomes progress through a four-stage process, represented by scoped labels applied to objective epics in the success plan:
+
+1. ~Verifiable Outcome::**Proposed**
+   - Gather baseline metrics
+   - Craft a plan with summary and child initiatives
+   - Strategize with peers, account team, and manager
+   - Present to customer (preferably in a cadence call)
+   - Adjust based on customer feedback
+
+2. ~Verifiable Outcome::**Accepted**
+   - The customer is aligned on baseline measures, success criteria, and timeline
+
+3. ~Verifiable Outcome::**Delivered** 
+   - Execute on the planned initiatives
+   - Track progress against established metrics
+
+4. ~Verifiable Outcome::**Verified**
+   - The customer has validated that the desired objective was achieved
+   - Document business impact, in the customer's words
+
+### Best Practices and Guidelines
+
+When developing verifiable outcomes:
+
+- **Talk to your stakeholders. Ask open-ended "TED" questions.**
+  - "**T**ell me about the most important priorities for your team. How do they relate to broader company objectives?"
+  - "**E**xplain...," "**D**escribe how...," etc.
+
+- **Leverage the resources and examples available to you, including:**
+  - Publicly available annual/quarterly investor reports
+  - News/Press releases/conference talks and other media
+  - Curate insights from GitLab case studies
+
+- **Draw upon examples from your peers**
+
+- **Strategize with your account team**
+
+- **Talk to your stakeholders** 
+
+### Examples of Effective and Ineffective Verifiable Outcomes
+
+Imagine you have a customer who wants to shorten their time-to-market, improve their developer productivity, or reduce customer-facing incidents. You agree with their platform engineering
+team that through the use of GitLab's CI/CD pipeline capabilities, there's opportunity to drive standardization and optimization of common operations and broaden the use of common testing frameworks.
+
+To bring objectivity and frame the problem in a business-relevant manner, here are four suggested sets of baseline metrics, success criteria and impact statements.
+
+| Baseline Metrics | Success Criteria | Timeframe | Business Impact |
+|-----------------|------------------|-------------|---------------------|
+| Deployment frequency: 2 per week | Increase to 10 deployments per week | Before July 2025 | Time to market improved by 5x |
+| Average deployment time: 4 hours | Reduce deployment time to 20 minutes | Throughout Q2 | 75% reduction in deployment time across X projects and Y deployments netting an estimated $$$ in time savings |
+| Manual steps required: 15 steps | Reduce manual steps to 2 | December 2025 | Reduced error rate by XX% |
+| Deployment success rate: 85% | Achieve 99.5% deployment success rate | September 2025 |  Reduced customer-facing incidents XX by XX per year |
+
+It's unlikely that all four will be relevant to your customer- considering reviewing one or two of your choosing, and align on which measure(s) they feel are most relevant to their situation.
+
+On a weekly basis, any open objectives in customer success plans will be triaged by the [continuous triage](https://gitlab.com/gitlab-com/account-management/continuous-planning-triage/) bot; provided your objective has draft success critieria, the bot will use GitLab Duo to suggest SMART success criteria with metrics & timelines for you.
+
+/Consider using AI/ as a means to brainstorm and ideate on your verifiable outcome, and evaluate if the criteria, metrics and impact are "SMART" in nature.
 
 ## Success plan lifecycle and process
 
@@ -93,4 +193,17 @@ This workflow minimizes duplication while enabling CSMs to maintain visibility i
 
 ## Linking GitLab and Gainsight
 
-For ease of discovery and visibility, there is a field on the Gainsight success plan info screen to provide a link to the GitLab continuous planning project. When the GitLab project is set up, the link must be added to this field in Gainsight to ensure proper integration between both systems.
+GitLab.com serves as the source of truth for Success Plans, with automatic synchronization to Gainsight. This integration enables seamless visibility while reducing manual overhead.
+
+## How It Works
+
+- Success Plans created in GitLab.com (epics and tasks) automatically sync to Gainsight
+- Data is transferred via API, creating corresponding Success Plans in Gainsight
+- Updates in GitLab.com reflect automatically in Gainsight
+
+## Benefits
+
+- Single source of truth in GitLab.com
+- Reduced manual data entry and maintenance
+- Consistent Success Plan visibility across platforms
+- Eliminates need to maintain plans in multiple locations

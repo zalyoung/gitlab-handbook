@@ -321,6 +321,14 @@ The compliance requirements would be stored in a separate table with the followi
         description: text
         ...(more columns)
     }
+
+    class project_compliance_framework_settings {
+        id: bigint
+        project_id: bigint
+        framework_id: bigint
+        ...(more columns)
+    }
+
     class compliance_management_frameworks {
         id: bigint,
         name: text,
@@ -374,29 +382,35 @@ The compliance requirements would be stored in a separate table with the followi
         audit_event_id: bigint
     }
 
-    class security_policy_requirements {
+    class audit_events {
         id: bigint
-        created_at: timestamp
-        updated_at: timestamp
-        compliance_framework_security_policy_id: bigint
-        compliance_requirement_id: bigint
-        namespace_id: bigint
+        author_id: bigint
+        entity_id: bigint
+        entity_type: string,
+        details: text,
+        author_name: text,
+        entity_path: text,
+        target_details: text,
+        target_type: text,
+        target_id: bigint
+        ...(more columns)
     }
 
-    compliance_management_frameworks --> compliance_requirements : has_many
-    compliance_management_frameworks <--> projects : many_to_many
-    compliance_requirements <--> security_policy_requirements : has_and_belongs_to_many
-    compliance_requirements --> compliance_requirements_controls : has_many
-    projects <-- namespaces : has_many
+    namespaces --> projects  : has_many
+
+    compliance_management_frameworks <--> project_compliance_framework_settings : has_many
+    project_compliance_framework_settings <--> projects : many_to_many
     namespaces --> compliance_management_frameworks : has_many
     projects --> project_control_compliance_statuses : has_many
     projects --> project_compliance_violations : has_many
+    compliance_management_frameworks --> compliance_requirements : has_many
     compliance_requirements_controls --> project_control_compliance_statuses : has_many
-    compliance_requirements <--> project_compliance_violations : has_and_belongs_to_many
+    compliance_requirements --> compliance_requirements_controls : has_many
+    project_control_compliance_statuses <--> audit_events
+    compliance_requirements_controls <--> project_compliance_violations : has_and_belongs_to_many
 ```
 
-We created a new table `project_control_compliance_statuses` for storing the results of compliance requirements and
-plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column
+We plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column
 as we don't want to associate requirements directly with a standard, allowing the users to customise
 and group requirements as per their need.
 
@@ -404,9 +418,9 @@ Unlike the current implementation we would only store results for the projects t
 configured. Instead of an enum we would store the `compliance_requirement_id` in the
 `project_control_compliance_statuses` table and would display these results at the compliance dashboard.
 
-In the next iteration we would also allow importing and exporting the compliance requirement configurations.
-
 Violations records are stored in the new table `project_compliance_violations`. These violation records are immutable and only new records inserted, unlike the `project_control_compliance_statuses` table which is updated on status changes. This creates an immutable history of violations against a requirement for a project.
+
+In the next iteration we would also allow importing and exporting the compliance requirement configurations.
 
 ### Constraints
 
@@ -422,7 +436,7 @@ and poor user experience.
 
 #### Compliance framework definition
 
-This workflow diagram shows the creation of Compliance Frameworks, Requirements and Controls, and how security policies are associated with Requirments.
+This workflow diagram shows the creation of Compliance Frameworks, Requirements and Controls, and how security policies are associated with Requirements.
 
 ```mermaid
 flowchart TD
@@ -434,7 +448,6 @@ flowchart TD
     A -- insert --> compliance_management_frameworks@{ shape: cyl }
     B -- insert --> compliance_requirements@{ shape: cyl }
     C -- update --> compliance_requirements@{ shape: cyl }
-    D -- insert --> security_policy_requirements@{ shape: cyl }
 ```
 
 #### Recurring Configuration Status Checks execution flow
@@ -444,30 +457,29 @@ This workflow diagram shows the how Compliance Frameworks trigger a configuratio
 ```mermaid
 flowchart TD
     F[User applies Framework to Project] --> G[Schedule recurring Configuration check sync job]
-    G --> H[Get all Controls in Framework applied to Project]
+    G --> H[Get distinct list of actionable Controls in Frameworks applied to Project]
     H --> I[Loop through Controls]
 
     I --> TYPE{Control Type?}
-    TYPE -- Internal --> J{Control has enforcement mechanism?}
+    TYPE -- Internal --> J{Control has enforcement mechanism? setting/policy}
     TYPE -- External & has external_url --> EXT[Post message to external service]
 
     EXT --> PEND[Set control to pending state]
     PEND --> WAIT{Wait max 30 minutes}
     WAIT -->|No reply| FAIL[Default to failed]
+    FAIL --> S
     WAIT -->|Got reply| REPLY[Use reply status]
 
     FAIL --> Q
     REPLY --> Q
+    REPLY -->|Fail| S
 
-    J -- Yes --> K{Associated Policy exists?}
-    K -- Yes --> L[Skip Check: Result is Pass]
-    K -- No --> M[Check Setting/Policy configured correctly]
+    J -- Yes --> M[Check setting/policies configured correctly]
     J -- No --> N[Evaluate Control compliance]
 
     M --> O[Result: Pass/Fail]
     N --> O
     O --> Q[Upsert result in DB: project_control_compliance_statuses]
-    L --> Q
     N -- Fail --> S[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
 
     Q --> T[Async Configuration check job repeats every 12 hours]
@@ -500,7 +512,7 @@ All GitLab defined controls will have an audit event type configured as its trig
 
 #### Audit history
 
-In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evalutated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/ee/user/compliance/audit_events.html) or [streaming audit events](https://docs.gitlab.com/ee/user/compliance/audit_event_streaming.html) to trigger other workflows.
+In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evaluated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/ee/user/compliance/audit_events.html) or [streaming audit events](https://docs.gitlab.com/ee/user/compliance/audit_event_streaming.html) to trigger other workflows.
 
 Audit events will be logged when:
 
@@ -517,3 +529,4 @@ Audit events will be logged when:
 - [005: Violations Engine](decisions/005_violations_engine.md)
 - [006: Storing Controls in a Separate Table](decisions/006_storing_controls_in_a_separate_table.md)
 - [007: External Controls](decisions/007_external_controls.md)
+- [008: Policy Relationships](decisions/008_policy_relationships.md)

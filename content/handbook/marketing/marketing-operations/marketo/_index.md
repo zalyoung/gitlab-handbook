@@ -107,7 +107,7 @@ Form documentation can be found [here](https://docs.google.com/spreadsheets/d/1c
 
 Localized forms require special hidden fields to properly capture `Preferred Language`. Refer to [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/10025) for detailed set-up instructions.
 
-If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/#current-state) and then create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request).
+If you require a new language or need a new form, please gather the [translations](/handbook/marketing/localization/) and then [request help](https://form.asana.com/?k=1i4lL5h0RLzfTqNWBTH84Q&d=306855239930259).
 
 All forms should follow these guidelines:
 
@@ -223,9 +223,9 @@ For additional information, visit the [lead lifecycle page](/handbook/marketing/
 
 A Lead/Contact will be allowed to re-MQL if they are in a `Recycle` status and reach the [MQL threshold](/handbook/marketing/marketing-operations/) again.
 
-The number of times they `MQL` will be counted with the `MQL Counter` field.  The `Initial MQL DateTime` contains the very first time a prospect reached the [MQL threshold](/handbook/marketing/marketing-operations/#lead-scoring-lead-lifecycle-and-mql-criteria).  `MQL Date` will be overwritten to be the most recent date that a lead has reached the MQL threshold.
+The number of times they `MQL` will be counted with the `MQL Counter` field.  The `Initial MQL DateTime` contains the very first time a prospect reached the [MQL threshold](/handbook/marketing/marketing-operations/#lead-scoring-lead-lifecycle-and-mql-criteria). `MQL Date` will be overwritten to be the most recent date that a lead has reached the MQL threshold.
 
-When a lead is set to `Recycle`, their `Behavior Score` is reset to 0. Their `Person Score` is reset to the value of the `Demographic Score`. Additionally, a person who has reached `MQL` in the past, is given an additional score of `+20` when they are reset to `Recycle` and take an action to increase their behaviour score. If a lead was `Accepted` before it reached the MQL threshold, and is then set to `Recycle` within 30 days, the lead's `Behavior Score` will reset to the value it was while in `Inquiry` when they take an action, the `Demographic Score` will be re-run and their overall `Person Score` will be the sum of those two values.
+When a lead is set to `Recycle`, their `Behavior Score` is reset to 0. Their `Person Score` is reset to the value of the `Demographic Score`. Additionally, a person who has reached `MQL` in the past, is given an additional score of `+20` when they are reset to `Recycle` and take an action to increase their behavior score. If a lead was `Accepted` before it reached the MQL threshold, and is then set to `Recycle` within 30 days, the lead's `Behavior Score` will reset to the value it was while in `Inquiry` when they take an action, the `Demographic Score` will be re-run and their overall `Person Score` will be the sum of those two values.
 
 When a lead `Re-MQLs` from `Recycle` to `MQL`, their `Recycle Reason` field is set to `Null`, but that `Recycle Reason` value is preserved in the field `Previous Recycle Value` on the lead or contact. That field is set by Marketo only. The `Recycle DateTime` only updates the first time. When a lead re-reaches an `MQL` status, they are not re-routed by LeanData for round-robin, they stay in their original owners name.
 

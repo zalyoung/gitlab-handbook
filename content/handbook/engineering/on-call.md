@@ -73,11 +73,15 @@ In addition to incident management responsibilities, the EOC also is responsible
 - Development engineers do 4-hour shifts.
 - Engineering managers do monthly shifts as scheduling coordinators.
 - Check out [process description and on-call workflow](/handbook/engineering/development/processes/infra-dev-escalation/process/) when escalating GitLab.com operational issue(s).
-- Check out more detail for [general information](/handbook/engineering/development/processes/Infra-Dev-Escalation/) of the escalation process.
+- Check out more detail for [general information](/handbook/engineering/development/processes/infra-dev-escalation/) of the escalation process.
 
 ### Gitaly Engineer On-Call
 
 For more details, see the [team page](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#on-call-rotation)
+
+### DBO On-Call
+
+For more details, see the [DBO escalation process](/handbook/engineering/infrastructure-platforms/data-access/database-operations/dbre-escalation-process)
 
 ## Security Team On-Call Rotation
 

@@ -106,12 +106,12 @@ workflows through our applications:
 
 - Providing top tier support to the GitLab Support Engineering team
 - Driving the Support Operations
-  [mission](/handbook/support/support-ops/#mission) and
-  [vision](/handbook/support/support-ops/#vision)
+  [mission](/handbook/support/readiness/) and
+  [vision](/handbook/support/readiness/)
 - Maintenance of
-  [Support Operations documentation](/handbook/support/support-ops/documentation/)
+  [Support Operations documentation](/handbook/support/readiness/operations/docs/)
 - Adherence and improvement of
-  [Support Operations workflows](/handbook/support/support-ops/workflows/)
+  [Support Operations workflows](/handbook/support/readiness/operations/docs/)
 
 #### Span of Control
 

@@ -411,6 +411,8 @@ Additional notes:
 - [license-interfacer](https://gitlab.com/gitlab-org/security-products/license-db/license-interfacer)
 - [license-processor](https://gitlab.com/gitlab-org/security-products/license-db/license-processor)
 - [schema](https://gitlab.com/gitlab-org/security-products/license-db/schema)
+- [PMDB tools](https://gitlab.com/gitlab-org/security-products/license-db/pmdb-tools)
+- [Static Reachability Modules Scraper](https://gitlab.com/gitlab-org/security-products/license-db/static-reachability-modules-scraper)
 
 ### Operational Container Scanning
 
@@ -520,5 +522,7 @@ The following table presents the various Gitlab projects that can generate slack
 | [Gemnasium](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium)          | `#g_ast-composition-analysis-alerts`   |                                                                                                                          |
 | [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment)         | `#g_ast-composition-analysis-alerts`  | Multiple alerts can be generated mainly from scheduled pipelines for exporting or feeding license/advisory/epss/kev data |
 | [Container Scanning](https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning) | `#f_container_scanning` | Failures on default branch                                                                                               |
-| [trivy-k8s-wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper)  | `#f_operational_container_scanning` | Failures on default branch                                                                                               |
-| [trivy-db-glad](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db-glad)      | `#g_ast-composition-analysis-alerts`  | Failures on default branch                                                                                               |
+| [trivy-k8s-wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper)  | `#f_operational_container_scanning` | Failures on default branch   |
+| [trivy-db-glad](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db-glad)      | `#g_ast-composition-analysis-alerts`  | Failures on default branch |
+| [Dependency Scanning Analyzer](https://gitlab.com/gitlab-org/security-products/analyzers/dependency-scanning)  | `#g_ast-composition-analysis-alerts`  | Failures on default branch |
+| [Dependency Scanning Component](https://gitlab.com/components/dependency-scanning/)  | `#g_ast-composition-analysis-alerts`  | Failures on default branch  |

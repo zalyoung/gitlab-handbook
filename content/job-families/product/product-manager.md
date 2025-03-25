@@ -12,7 +12,7 @@ entire DevOps lifecycle"
 
 Product Managers at GitLab have a unique opportunity to define the future of the
 entire [DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/). We
-are working on a [single application](/handbook/product/single-application) that
+are working on a [single application](/handbook/product/categories/gitlab-the-product/single-application/) that
 allows developers to invent, create, and deploy modern applications.
 
 We want to facilitate [Concurrent DevOps](https://about.gitlab.com/topics/devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.

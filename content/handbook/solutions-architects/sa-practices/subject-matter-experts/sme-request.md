@@ -50,7 +50,7 @@ To request a Subject Matter Expert (SME) for an opportunity, follow these steps:
 
  It is the goal for the SMEs to become experts in AI, Dedicated, App Security, Plan, CICD and Metrics, so that they can assist account teams and customers in adopting and using them. We need to reduce the burden on Product Managers to teach the field and customers on how to use the product.
 
-**Resist from Directly contacting PM Without a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider requesting a SME. You, the SA/ CSM can then request a SME in the appropriate SME channel. PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, request for product direction.
+**Resist from Directly contacting PM Without First completing a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider [requesting a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/). You, the SA/ CSM can then request a SME in the appropriate SME channel. PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, or request for product direction.
 
 **For these scenarios, please engage the SME community before engaging a PM.**
 
@@ -69,23 +69,11 @@ In lieu of directly engaging Product management, SMEs should be requested or eng
    2. Search existing documentation (internal or external) or past issues for a solution
    3. Ask other SMEs or Support using the [Super Support Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/) for help
    4. SMEs can also reach out to PMs for one off questions or gain more clarification.
+8. Request for [reference architecture cost estimates](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#cost-calculator-templates) or Creating a Dedicated pricing calculator for an opportunity. See [example](https://calculator.aws/#/estimate?id=a0cbf2cd318c0fc77d5e39c2165841418aef9ace)
 
 #### When to Engage a Product Manager
 
-Please see [SME Engagement with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)for a full discussion on how SAs, CSMs, and SMEs, should now engage with PMs alongside the SME Program.
-
-**In summary, you can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook/product/product-management/#requests-for-product-support) , for the following scenarios:
-
-1. Request for a Roadmap.
-2. Discussion on the Direct of the Product.
-3. Feedback and Questions on Gaps in Functionality
-4. Request to join a Customer Meeting to discuss for gaps in functionality, roadmaps, or future direction of the product.
-   1. Please follow the Product Management process to request a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)
-   2. **NOTE: At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.**  See list
-    of scenarios above where SMEs should be requested instead of a PM.
-   3. Do not just simply request a Product Manager to join a call just because the AE insists, or you have not gathered the context or done any extensive discovery beforehand on exactly what the customer needs.
-5. During a POV, and you have already triaged with a SME as discussed above. This is usually the case assistance is needed on brand new functionality, or there is a need for a bug fix or enhancement.
-6. During a customer escalation, once the appropriate [escalation process](/handbook/product/product-management/#how-do-i-escalate-a-feature-request) has been followed.
+Please see [SME Engagement with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/#sme-pm)for a full discussion on how SAs, CSMs, and SMEs, should now engage with PMs alongside the SME Program.
 
 ### **During Customer calls with a SME**
 

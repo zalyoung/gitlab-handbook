@@ -38,6 +38,10 @@ The strategy for fixing these tests has been documented in the [Testing Vue rout
 
 * [Tests](https://gitlab-org.gitlab.io/frontend/playground/jest-speed-reporter/vue3) issuing any `router` compatibility errors fixed (where applicable, see non-goals above).
 
+As of 2025-03-07 the above criteria has been met.
+
+No [tests related to router compatibility](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/645#note_2375985007) are pending correction, and [Vue router 4 testing documentation](https://docs.gitlab.com/development/testing_guide/testing_vue3/#testing-vue-router) has been created.
+
 ## Roles and Responsibilities
 
 | Task Group Role | Person | Title |

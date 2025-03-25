@@ -9,7 +9,7 @@ Hi! 👋 I'm **Cassiana Gudgenov, People Compliance Partner**
 
 ## Related Pages
 
-- [Cassiana's GitLab team page entry](/handbook/company/team/#cgudgenov) and [pets entry](/handbook/company/team-pets/#110-marbles-kitty)
+- [Cassiana's GitLab team page entry](/handbook/company/team/#cgudgenov) and [pets entry](https://about.gitlab.com/company/team-pets/#110-marbles-kitty)
 - [Cassiana's GitLab contribution graph](https://gitlab.com/cgudgenov)
 - [Cassiana's LinkedIn profile](https://www.linkedin.com/in/cassianagudgenov/)
 
