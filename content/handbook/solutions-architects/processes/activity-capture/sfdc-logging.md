@@ -18,7 +18,7 @@ Solutions Architects are responsible for maintaining several key fields in Sales
 
 ## SA Validated Tech Evaluation
 
-An **SA Validated Tech Evaluation** is a set of SA-assisted activities a prospect or a customer undertakes to make a decision on whether or not a GitLab solution will provide the value they expect. These activities include and are not limited to a guided trial, POV, value stream assessment, workshops, and strategy roadmap planning. An SA Validated Tech Evaluation does not start until a prospect or customer explicitly engages in an evaluation of value and involves meaningful engagement with a GitLab SA. As part of an SA Validated Tech Evaluation, the GitLab SA should create a [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/).
+An **SA Validated Tech Evaluation** is a set of SA-assisted activities a prospect or a customer undertakes to make a decision on whether or not a GitLab solution will provide the value they expect. These activities include and are not limited to a guided trial, POV, value stream assessment, workshops, and strategy roadmap planning. An SA Validated Tech Evaluation does not start until a prospect or customer explicitly engages in an evaluation of value and involves meaningful engagement with a GitLab SA. If SA is working towards a "technical win,"  we have a SA validated technical evaluation.
 
 **If the GitLab SA does not know the next actions to progress the evaluation towards closure, it's an indication that there is NOT an SA Validated Tech Evaluation that the SA is meaningfully engaged on.**
 
@@ -28,8 +28,7 @@ To assist with the analysis of SA guided technical evaluations by our prospects 
 
 The SA Validated Tech Evaluation Start Date indicates the date the SA started engaging with a prospect or customer on an **explicit solution evaluation**.
 
-- **Enterprise:** Marks the date the Solutions Architect was meaningfully engaged on an **explicit solution evaluation**
-- **Commercial:** Marks the date when a Solutions Architect is engaged in a trial, even when the trial started prior to the SA engaging
+- Marks the date the Solutions Architect was meaningfully engaged on an **explicit solution evaluation** where we are working towards a technical win.
 - Should reflect when a customer seriously engages in an evaluation of value, not other initial activities such as discovery, initial demos, demand generation, education, etc. that do not directly relate to the serious evaluation of Gitlab addressing an agreed upon problem and / or drive a specific outcome
 - Should typically align with **Stage 3 - Technical Evaluation** opportunities
 - Should be accompanied by the **SA Feasibility Rating**
@@ -38,8 +37,7 @@ The SA Validated Tech Evaluation Start Date indicates the date the SA started en
 
 The SA Validated Tech Evaluation End Date is when the technical evaluation is deemed closed as a technical win, loss, or a stalled evaluation. This has no connection to whether or not the deal has closed with a win or loss, as there may be non-technical variables that impact the success of a deal after a technical evaluation.
 
-- **Enterprise:** Marks the date a technical evaluation concluded through a technical win, technical loss, or stalled evaluation
-- **Commercial:** Marks the date the trial ended
+- Marks the date a technical evaluation concluded through a technical win, technical loss, or stalled evaluation
 - Should NOT be used as a forecasted date
 - Should be accompanied by the **SA Validated Tech Evaluation Close Status** and **SA Validated Tech Evaluation Close Details** fields
 - Indicates the opportunity should move out of Stage 3 - Technical Evaluation
@@ -50,6 +48,7 @@ The SA Validated Tech Evaluation End Date is when the technical evaluation is de
 The SA Validated Tech Evaluation Close Status represents the result of the technical evaluation at the end date.
 
 - Available options include:
+  - **In Progress** The technical evaluation has started and there is still active work occurring to move towards closure
   - **Win**: The technical evaluation has ended, and the prospect or customer agrees the GitLab solution meets their requirements
   - **Loss**: The technical evaluation has completed, but the prospect or customer is choosing an alternative solution or not changing their current process due to deficiencies with the evaluated GitLab solution
   - **Stalled**: The technical evaluation has not completed, but the customer or prospect is not actively evaluating any solution - typically when the SA has not been working with the prospect or customer on evaluation-related activities for at least two weeks

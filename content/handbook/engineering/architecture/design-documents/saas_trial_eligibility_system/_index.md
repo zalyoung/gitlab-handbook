@@ -51,6 +51,7 @@ reference epic: https://gitlab.com/groups/gitlab-org/-/epics/16169
 ### Out of Scope
 
 - Self-managed solution.
+- Duo Pro/Duo Enterprise add on only trials. See https://gitlab.com/gitlab-org/gitlab/-/issues/507859#note_2364566118.
 
 ## Proposal
 

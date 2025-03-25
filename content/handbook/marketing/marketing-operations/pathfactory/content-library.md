@@ -141,7 +141,7 @@ Unsure what content types align with your asset? Use the table below as a guidel
 
 | Type | Use | Example |
 | ---- | --- | ------- |
-| Analyst report | Third-party content licensed from an analyst firm | [Gartner Magic Quadrant for ARO](/analysts/gartner-aro19/) |
+| Analyst report | Third-party content licensed from an analyst firm | [Gartner Magic Quadrant for ARO](https://about.gitlab.com/analysts/gartner-aro19/) |
 | Assessment | Content with the primary purpose of providing a self-assessment, quiz, or maturity model. |  |
 | Case study | Web articles that focus on the stories and opinions of GitLab customers. | [Goldman Sachs improves from 1 build every two weeks to over a thousand per day](https://about.gitlab.com/customers/goldman-sachs/) |
 | Data sheet | A document providing the specifications of GitLab the product or feature/feature set. | [GitLab data sheet](/images/press/gitlab-data-sheet.pdf) |

@@ -11,7 +11,7 @@ At GitLab, one of our favorite books is, "[High Output Management](/handbook/lea
 
 {{< youtube "CHs8NxRSGPw" >}}
 
-Sid and the Learning and Development team discuss High Output Management during a [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions). In the video, we explore how the book shaped GitLab management processes and policies.
+Sid and the Learning and Development team discuss High Output Management during a CEO Handbook Learning Session. In the video, we explore how the book shaped GitLab management processes and policies.
 
 Topics covered include:
 

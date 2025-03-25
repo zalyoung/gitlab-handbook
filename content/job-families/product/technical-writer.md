@@ -18,6 +18,7 @@ At GitLab, our [team of technical writers](/handbook/product/ux/technical-writin
   - Experience planning, researching, writing, and editing software documentation.
   - Excellent skills in grammar, minimalist documentation design, and effective information architecture.
   - Experience using the Linux shell and command-line Git.
+  - Experience using AI tools in technical writing workflows.
   - General familiarity with one or more coding languages.
   - Experience with some of the following:
     - DevOps tools and open-source software.

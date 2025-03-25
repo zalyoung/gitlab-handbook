@@ -56,13 +56,13 @@ flowchart LR
     click Git "/handbook/engineering/infrastructure-platforms/data-access/git/"
     DA --> Gitaly
     click Gitaly "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
-    
+
     PRODENG --> Ops
     click Ops "/handbook/engineering/infrastructure/team/ops/"
     PRODENG --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
+    click Foundations "/handbook/engineering/infrastructure-platforms/production-enginering/foundations/"
     PRODENG --> Observability
-    click Observability "/handbook/engineering/infrastructure/team/observability/"
+    click Observability "/handbook/engineering/infrastructure-platforms/production-engineering/observability/"
     PRODENG --> Runway
     click Runway "/handbook/engineering/infrastructure/team/runway/"
     PRODENG --> CC[Cloud Connector]
@@ -193,6 +193,8 @@ If you need assistance with a production issue or incident, please see the secti
 | [#g_foundations_notifications](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD) | Renovate notifications for Foundations owned projects |
 | [#infra-terraform-alerts](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH) | Terraform state drift alerts for SaaS infrastructure |
 | [#g_observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)| Team channel for general work in Observability. |
+| [#g_runway](https://gitlab.enterprise.slack.com/archives/C07UED5CGR2)| Team channel for general work and discussion. |
+| [#r_runway](https://gitlab.enterprise.slack.com/archives/C05G970PHSA)| External channel used for support, requestions, and help with Runway. |
 
 **Tenant Scale**
 
@@ -308,7 +310,7 @@ All team members are encouraged to schedule time for personal development. The f
 |-------|-------|
 | SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
 | Delivery Group | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) |
-| Production Engineering Group| [Production Engineering](/handbook/engineering/infrastructure/team/production-engineering/) |
+| Production Engineering Group| [Production Engineering](/handbook/engineering/infrastructure-platforms/production-engineering/) |
 | Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
 | Tenant Scale | [Group Page](/handbook/engineering/infrastructure-platforms/tenant-scale/) |
 
@@ -336,6 +338,7 @@ All team members are encouraged to schedule time for personal development. The f
 - [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/issues/)
 - [Observability](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/)
 - [Tenant Scale](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/)
+- [Runway](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/issues)
 
 ### Resources
 

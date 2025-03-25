@@ -425,18 +425,23 @@ If this is to set up a program that involves a channel partner, you must also fo
   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
   - GitLab Platform Engineering Workshop [YYYYMMDD_Workshop_PlatformEngineering_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME22364A1)
 
+Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
+
 ##### Other Tactic Marketo Templates
 
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
 - Conference - `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conferences)
 - Conference - Meetings (FM led) `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conference-meetings)
 - Content Syndicaton: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc)
+  - Note, if you are managing a hyperscaler campaign, update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 - Direct Mail: [YYYYMMDD_DirectMail_Template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5392A1)
   - Direct Mail not needing a Marketo Program: [skip to specific setup detais here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-direct-mail-campaigns)
 - Gated Content: [YYYY_Type_Content_Template](https://app-ab13.marketo.com/#PG5111A1)
 - Integrated Campaign: [FY20IntegratedCampaign_Template](https://app-ab13.marketo.com/#PG4924A1)
 - Surveys - For templates and setup instructions for surveys, skip to specific setup details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc).
 - Owned Event - `Hybrid`: [YYYYMMDD_OwnedEvent_EventType_Template](https://app-ab13.marketo.com/#ME4722A1)
+
+Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Conference: `YYYYMMDD_HyperscalerPartner_Conference_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
 
 ##### Webcasts Marketo Templates
 
@@ -445,9 +450,15 @@ If this is to set up a program that involves a channel partner, you must also fo
 
 #### Partner Campaign Setup
 
-- Partner MDF Funded campaigns go [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
-- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
-- Partner Trials setup, go to [this page](/handbook/marketing/marketing-operations/campaigns-and-programs/#trials-from-partners)
+- Partner MDF Funded campaigns go [this page](/handbook/marketing/channel-marketing/mdf-operations-process/).
+- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
+- Hyperscaler campaigns - use the Marketo templates [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates), and insert the name of the hyperscaler partner after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
+  - Additional Examples:
+    - 20251202_AWS_AWSreinvent_Booth
+    - 0250409_GCP_GoogleCloudNext_Booth
+    - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
+    - Special Instructions for Content Syndication Teams: 
+      - Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
 ### Step 2: Sync to Salesforce
 
@@ -467,10 +478,15 @@ If this is to set up a program that involves a channel partner, you must also fo
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
 - **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing).
 
 ### Step 4: Activate Marketo smart campaign(s)
 
-- If this is a `Gated Content` campaign, follow the detailed set-up instructions on the [content in campaigns page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#marketo-automation-and-setup-for-gated-landing-page).
+- Action Stream tagging for programs: The following is relevant for all campaign types, except Content Syndication and LinkedIn Lead Gen forms. Those are handled differently. For webcasts, workshops, events, and gated content, please follow these instructions to properly route leads to Action Streams.
+  - Add the [relevant stream type](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams) to the {{my.Action Stream}} token
+  - In the `Processing` flow, select "Execute Campaign" from the right side panel and drag it into the flow. This should go near the bottom of the flow, before any "Remove from Flow" steps.
+  - Complete the `Execute Campaign` flow step: Executed Campaign: *Air Traffic Control Automation.Action Stream tagging (programs), Use Parent Campaign Token Context: True  
+- If this is a `Gated Content` campaign, follow the detailed set-up instructions on the [content in campaigns page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#steps-gated-landing-pages).
 - If this is a `Vendor Arranged Meeting`:
   - Click the `Smart Campaigns` folder
   - Select the `01 Interesting Moments` smart campaign
@@ -887,6 +903,9 @@ Interesting Moments for content syndication are global. This means that you only
 
 It is critical that any reference to asset number in Marketo automation (not tokens) uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
 
+- If your asset qualifies for an Action Stream, click on the [Check for Action Stream asset (content synd)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58170A1ZN19) campaign. If your asset does not qualify for an Action Stream, skip this step.
+  - **Smart list**: Filter 1 - Add the Asset number (follow the existing format shown in the filter)
+  - **Flow**: Add the Asset number to the relevant Choice. You will see the Action Stream listed in "New Value" 
 - `01 Processing`
   - **Smart list**: No changes. Confirm that all references to the Marketo program match your program name.
   - **Flow** (confirm that program references match the Marketo program name):
@@ -1212,7 +1231,7 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 - Step 8: `Execute campaign` - This processes Action Stream tagging. No action required on this step. This should be: Executed Campaign: Action Stream tagging: (LinkedIn) Check Asset
 - Turn on / Activate the triggered campaign in the `schedule` tab of the smart campaign
 - All LinkedIn programs with your form prefix will now flow through this campaign
-- If your new form promotes an asset that qualifies for an action stream (speak to Lifecycle Marketing to find out), click on the [Action Stream tagging: (LinkedIn) Check Asset](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58851A1ZN19) program. Otherwise, skip this step.
+- If your new form promotes an asset that [qualifies for an action stream](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams), click on the [Action Stream tagging: (LinkedIn) Check Asset](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC58851A1ZN19) program. Otherwise, skip this step.
 - Smart List: Add the name of the LinkedIn Lead Gen form in filter 1.
 - Flow: Add the name of the LinkedIn Lead Gen form in filter 1.
 

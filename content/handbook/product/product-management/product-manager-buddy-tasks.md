@@ -10,7 +10,7 @@ draft: true
     - Product Specific Pages
         - [Validation Track](/handbook/product-development-flow/#validation-track)
         - [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
-        - [Getting Access to Data as a PM](/handbook/enterprise-data/programs/data-for-product-managers/)
+        - [Getting Access to Data as a PM](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
         - [Managing your Product Direction](/handbook/product/product-processes/#managing-your-product-direction)
         - [How to work as a PM](/handbook/product/product-processes/#how-to-work-as-a-pm)
     - Pricing / tier related
@@ -54,7 +54,6 @@ draft: true
         - Each milestone there is a kickoff issue created and assigned to PMs. Link your planning issue in that and once recorded your kickoff call.
     - Kickoff call
         - Hold a call with your Designer talking about the issues the team will work on that milestone with preference to issues that are `~direction` AND `~Deliverable`.
-        - [Company wide call](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/#kickoff-meetings)
     - During the milestone
         - Keep an eye on your TODOs if you use them for pings/questions from your development team or customers/users asking about progress on issues to keep them moving.
     - [Release posts](/handbook/product/product-processes/#writing-release-blog-posts)

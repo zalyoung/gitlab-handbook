@@ -174,7 +174,7 @@ If an account was deleted by an admin, try searching with these filters:
 
 Observe the results. There should be only one result if the account that was filtered for was deleted within the specified timeframe.
 
-If you suspect an account was deleted by the cron job that deletes [unconfirmed accounts](https://docs.gitlab.com/user/gitlab_com/#email-confirmation), try searching with these filters:
+If you suspect an account was deleted by the cron job that deletes [unconfirmed accounts](https://docs.gitlab.com/user/gitlab_com/#confirmation-settings), try searching with these filters:
 
 1. Change to the `pubsub-sidekiq-inf-gprd*` index.
 1. Add a positive filter on `json.meta.user` for the username of the user. (Alternatively, you can use `json.args.keyword` and use the User ID of the user if you have that).

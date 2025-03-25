@@ -185,7 +185,7 @@ Learn more about [using handbook screenshots instead of creating a presentation]
 
 Learn more about the importance of documentation in the GitLab resources below.
 
-1. [Documentation handbook section](/handbook/product/ux/technical-writing/documentation/)
+1. [Technical Writing handbook section](/handbook/product/ux/technical-writing)
 1. [Documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
 1. [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/)
 1. [Scaling by documenting](management/#scaling-by-documenting)

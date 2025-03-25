@@ -2,15 +2,16 @@
 title: "Product Security Risk Register"
 aliases:
   - "/handbook/security/product-security/risk-register/"
+description: "The Product Security Risk Register (PSRR) is driven by and follows the StORM process from our Security Risk Team."
 ---
 
 The Product Security Risk Register (PSRR) is driven by and follows the [StORM process](/handbook/security/security-assurance/security-risk/storm-program/) from our [Security Risk Team](/handbook/security/security-assurance/security-risk/).
 
 #### Criteria
 
-The PSRR will only record vulnerabilities (or a combination of weaknesses), inadequate design choices, or functional logic that exposes GitLab, the product, to compromises and leaks. The goal is to track risks that have important and cascading consequences for GitLab, the product, as a whole.
+The PSRR will only record weaknesses, inadequate design choices, or functional logic that exposes GitLab, the product, to compromises and leaks. The goal is to track risks that have important and cascading consequences for GitLab, the product, as a whole.
 
-Specific vulnerabilities or components based vulnerabilities should not be part of the PSRR.
+Specific vulnerabilities or components based vulnerabilities (equivalent to what would be tracked as a single CVE) should not be part of the PSRR.
 
 #### Objectives
 
@@ -21,11 +22,11 @@ Product Security teams are responsible for communicating the risk and coordinati
 
 You can find this list in the [StORM repository](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Department%3A%3AProduct%20Security&first_page_size=20) (internal), or [consult the dashboard here](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/boards/7816349?label_name[]=Department%3A%3AProduct%20Security) (internal).
 
-To create a new issue follow this [link](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/new?issuable_template=ProdSec%20StORM%20Risk%20Template) (internal).
+To create a new issue follow this [link](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/new?issuable_template=ProdSec%20StORM%20Risk%20Template) (internal). Make sure to reference the [guide to defining well-articulated risks](/handbook/security/product-security/security-platforms-architecture/risk-register/well-articulated-prodsec-risks).
 
 #### What risks should be in the PSRR?
 
-- Only vulnerabilities (or a combination of weaknesses), inadequate design choices, or functional logic that exposes GitLab-produced technologies to cyber risks.
+- Only weaknesses, inadequate design choices, or functional logic that exposes GitLab-produced technologies to cyber risks.
 
 #### Review
 

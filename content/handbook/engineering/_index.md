@@ -197,8 +197,7 @@ There are five departments within the Engineering Division:
 
 - [Core Development Department](/handbook/engineering/core-development/)
 - [Expansion Development Department](/handbook/engineering/expansion-development/)
-- [Technical Infrastructure](/handbook/engineering/infrastructure/)
-- [SaaS Platforms](/handbook/engineering/infrastructure/platforms/)
+- [Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/)
 - [Support Engineering Department](/handbook/support/)
 
 ## Other Related Pages
@@ -249,7 +248,6 @@ There are five departments within the Engineering Division:
 - [Emerging Talent @ GitLab](/handbook/hiring/emerging-talent/)
 - [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
-- [Volunteer Coaching program for URGs](/handbook/engineering/volunteer-coaches-for-urgs/)
 - [Starting New Teams](/handbook/engineering/starting-new-teams/)
 
 ### Cross-Functional Prioritization

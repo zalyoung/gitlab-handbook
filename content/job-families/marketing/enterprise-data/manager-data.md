@@ -2,7 +2,7 @@
 title: "Data Management"
 ---
 
-The Manager, Data is responsible for delivering trusted data and analytics results to help GitLab make better and faster decisions by creating, developing, and leading a [high-performance](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/) Team and continually improving the Data Platform along the [Data Capability Model](/handbook/enterprise-data/direction/#data-capability-model).
+The Manager, Data is responsible for delivering trusted data and analytics results to help GitLab make better and faster decisions by creating, developing, and leading a [high-performance](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/) Team and continually improving the Data Platform along the [Data Capability Model](https://internal.gitlab.com/handbook/enterprise-data/direction/#data-capability-model).
 The Manager, Data possesses a broad range of people skills and technical skills across the Data domain, as well as business acumen required to establish trusted partnerships with people inside and outside of GitLab.
 The Manager, Data reports to the [Director/Senior Director, Data and Analytics](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-and-insights).
 

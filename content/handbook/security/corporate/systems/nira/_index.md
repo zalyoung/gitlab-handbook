@@ -20,6 +20,16 @@ We chose Nira because of the easy to navigate interface, alerting mechanisms, fl
 - DRI: `@jbisutti-gl`
 - `#security-corpsec` Slack channel
 
+### Technical Details & Remediation
+
+In Google Workspace, Nira impersonates each user every 15 minutes to fetch the latest changes for all documents they have access to. In order to see information about a file in our Google Workspace, Nira is required to use user impersonation via domain-wide delegation. All users do not sync at the same 15 minute interval, they are randomly distributed within the 15 minute window, so there is always new/updated data flowing into Nira.
+
+When more than one user has the same document, each document is merged/de-duplicated to show one version of the document in the interface.
+
+Nira use the Google Drive Changes API which tells it what has changed, including metadata+permissions since the last sync.
+
+Remediation based on GitLab's criteria (which is files with external and public links that have been unmodified for one year) runs nightly at 1 am PT. These remediations appear as if the owner of the file has made the sharing modification.
+
 #### Access Request
 
 - Team Members: No access request needed. Visit [https://app.nira.com/](https://app.nira.com/) and click the `Sign in with Google` button.

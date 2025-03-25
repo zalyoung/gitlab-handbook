@@ -98,7 +98,26 @@ We have set certain rules of engagement for the AI Rep to follow which include:
 
 The "Scorecard" and "Inbox" sections of the AI Studio is where we have control over how the GitLab AI Rep will answer specific questions. Here is where we can insert our own commonly asked questions and see how AI will respond. We can accept AI's response, tweak it, or tell it exactly what we want to certain questions. As visitors ask question they will appear in the "Inbox" we can move the most common ones to the "Scorecard" to rate.
 
-Have questions about the GitLab AI Rep on the website? Please reach out to us in the #mktgops Slack channel.
+#### AI Rep Rollback Plan
+
+If there is a need to turn off the GitLab AI Rep, we have build the experiences in a way to easily switch off AI and switch on a traditional experience.
+
+In the Qualified admin settings, navigate to `Experiences` and select `Automatic`. Beginning at experiences 48 and 49 you will start to see duplicate experience titles with one having `AI` added to the end. For example `[EN] Page - Solutions - Moble` and `[EN] Page - Solutions - Mobile - AI`. If the  GitLab AI Rep needs to be turned off you will need to go down the experience list, switch off each experience that ends in `AI` and switch on the corresponding expereince without `AI`.
+
+### Qualified AI Email
+
+Beginning in FY26 Q1 we will be testing Qualified's AI email functionality. Our test includes two use cases.
+
+1. Visitors to the GitLab marketing site who are offered to book a meeting through the Qualified chat and who fail to book that meeting. AI will follow up via email to attempt to re-capture that meeting booking on behalf of the Sales Development rep whose calendar was shown. These leads and contacts will MQL as usual since they have shown enough intent to either explicitly request a meeting or trigger an AI goal to offer a meeting. Once AI reaches out via email the record will move to Accepeted status and on to either Recycle or Qualifiying depending on the outcome of the email campaign. 
+2. Leads and contacts added to specific content syndication campaigns. These will be earlier in the funnel prospects in an attempt to raise interest earlier and more quickly. The status of these recods in Salesforce will not be updated. Rather we will indicate that these leads are being reached out to by AI with a checkbox on the record. Once the AI email campaign is over, the box will uncheck and the record will continue it's normal lifecycle. The record will need to be routed to a Sales Development rep and if there is a response they will be able to respond back via email and dispostion the lead appropriately.
+
+### Qualified AI Email Rollback Plan
+
+Just like the AI chat rollback plan, in the Settings section of Qualified an Admin will be able select Email Campaigns in the AI section of the left navigation bar. You will see the various campaigns that are running and the Admin can swith off the campaign by clicking into the campaign and in the top right corner selecting Off. 
+
+#### AI Rep Support
+
+Have questions about the GitLab AI Rep on the website? Please reach out to us in the #mktgops Slack channel. We also have an external Slack channel with our Qualified support team. If you are not already in that channel, please ask a Marketing Ops team member to be added if you need access to our Qualified team.
 
 To request a new feature or change please use [this issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new#) in the Marketing Operations project.
 

@@ -214,6 +214,38 @@ Groove Variables are formatted different than Outreach. You can find some common
 
 - SD Assist: Flow to be used for special circumstances (Action Qualifying, Move High Priority Leads, Web Directs ect.)
 
+### Auto-Enrollment in Groove Flows
+
+#### What is Auto-Enrollment?
+
+[Groove Auto-enrollment](https://clari.my.site.com/customer/s/article/Automatically-Import-People-to-Your-Flows) allows you to automatically import people into your Groove flows based on specific criteria. This feature eliminates the need to manually add prospects to flows, saving time and ensuring consistent follow-up on qualified leads.
+
+At GitLab, we primarily use auto-enrollment through Salesforce Reports, though it can also be configured via Saved Searches in Groove.
+
+#### How Auto-Enrollment Works
+
+When auto-enrollment is enabled for a flow:
+
+- Groove scans the Salesforce instance every 3 hours to identify new records that match your criteria
+- New records meeting the criteria are automatically added to the flow
+- The Lead/Contact Owner checkbox must be checked to ensure records are assigned to the correct person
+
+#### Primary Use Cases at GitLab
+
+At GitLab, auto-enrollment is mainly used by Marketing Operations to set up Gem-E (UserGems AI Generated email messaging) flows. Currently we have two flows as follows:
+
+1. One flow for the SMB segment
+
+2. One flow for the MM/Large segments
+
+#### Setting Up Auto-Enrollment Successfully
+
+To ensure auto-enrollment works as expected, follow these criteria:
+
+1. **Report Field Visibility**: The fields present in the SFDC report columns or filters need to be visible to the flow owner. The SFDC report should NOT contain any fields for which the Groove flow owner doesn't have visibility.
+2. **Flow Sharing**: Before lead records can enter the Groove flow, you must share the flow with the intended users (in our case, SDRs/BDRs). If the flow is not shared with users, no leads will enter the flow.
+3. **Owner Assignment**: Always check the Lead/Contact Owner checkbox in the auto-enrollment settings to ensure proper assignment.
+
 ### Notable Flows
 
 [SD Assist: Move High Priority Leads](https://groove.clari.com/flows/1097000)- This flow is only a single manual task and is to be used when you need to move a lead/contact out of high priority status. An example of this would be when an AE asks you not to reach out to a certain account because they are already in discussions with them.

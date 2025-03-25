@@ -102,6 +102,8 @@ Note: If you and an eligible dependent (as defined above) are both employed by G
 
 A domestic partnership is an arrangement in which two people live together and are in a committed relationship without being legally married. Domestic partnerships are composed of two people of any gender, which includes male, female, or nonbinary people. If you have recently entered in to a Domestic Partnership, or your Domestic Partner goes through a Qualifying Life Event, you may add them to the GitLab plans as outlined in the instructions below. During the documentation step, you will be asked to fill out and submit a [Domestic Partner Affidavit](https://drive.google.com/file/d/11cV-WXJXu8G626muav2aJvpYS4CMleeE/view?usp=sharing) in to PlanSource. If you are adding your Domestic Partner during New Hire Enrollment or Open Enrollment, there is no need to fill out the Domestic Partnership Affidavit.
 
+ **Please note that a portion of the premiums paid by GitLab and any portion of the premium paid by salary deduction for a Domestic Partner may be included in the employee's reported gross income for tax purposes. Additionally, premium contributions for Domestic Partner coverage may not be eligible for pre-tax salary reduction under Section 125.**
+
 </details>
 
 ### Logging into PlanSource

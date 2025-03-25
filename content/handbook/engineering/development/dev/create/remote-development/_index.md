@@ -40,7 +40,13 @@ The following people are permanent members of the Remote Development Engineering
 | Category                 | DRI                                     |
 |--------------------------|-----------------------------------------|
 | Workspaces                | {{< member-by-name "Vishal Tak" >}}     |
-| Web IDE                  | {{< member-by-name "Paul Slaughter" >}} |
+| Web IDE                  | {{< member-by-name "Enrique Alcántara" >}} |
+
+### 📚 Architecture Design Document
+
+Design documents are the primary artifact that the architecture design workflow revolves around. A design document describes a technical vision and a set of principles that will guide feature implementation, as we move forward. It acts as guardrails to keep team aligned.
+
+- [Workspaces](../../../../architecture/design-documents/workspaces/_index.md)
 
 ### 🎓 New Hires
 
@@ -221,7 +227,7 @@ graph TD;
   V -->|"Epic is prioritized into the roadmap and on the epic board by PM adding '(workspaces|webide)-workflow::prioritized' label "| R[Async Refinement]
   R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
   P -->|"Epics marked refined have all of its issues weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
-  
+
   I --> N[Milestone Planning]
   I --> D[Development]
 
@@ -235,7 +241,7 @@ graph TD;
 Ideas can come from anywhere and anyone. If you have an idea...
 
 1. Capture it in an issue under the [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/12601) or [Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/10543) User Feedbback & Insights epic.
-1. Pre-fix the issue title with "Feedback:..." or "Idea:..." 
+1. Pre-fix the issue title with "Feedback:..." or "Idea:..."
 1. Add this as a topic of discussion on the [Workspaces](https://docs.google.com/document/d/1Xfr5YHdStC7_3kVAognj0SxbXlcavj2ofgp1mH2zH4U/) or [Web IDE](https://docs.google.com/document/d/18l9wI2tRcFgvX8nJfmO3qVG9-smEQL0VwDh5aOOZj0s/) High Level Planning agenda
 
 #### 2. High Level Planning
@@ -249,7 +255,7 @@ The **High Level Planning** meeting is an open forum where new and ongoing work 
 In addition to validating features, this process can also result in Engineering identifying high-priority issue which are necessary to [address Technical Debt or "Friction"](https://www.mechanical-orchard.com/insights/friction-over-debt).
 
 - **Identify and Discuss Topics:** Team members are encouraged to propose any relevant topics in advance and discuss them during the meeting.
-  
+
 - **Prioritize Work:** The meeting serves to clarify the most important work and make decisions on what should take priority.
 
 **Post-Meeting Actions:**
@@ -275,7 +281,7 @@ The **Async Refinement** process is designed to prepare upcoming work efficientl
 
 **Refinement Process:**
 
-1. **Identify Epics in Need of Refinement:** 
+1. **Identify Epics in Need of Refinement:**
 
    - Look for epics marked in <span style="color:#1068bf">blue</span> on the epic board.
 
@@ -297,7 +303,7 @@ The **Iteration Planning Meeting** is a collaborative session where the team rev
 
 **Meeting Objectives:**
 
-- **Review and Weigh Issues:** 
+- **Review and Weigh Issues:**
 
   - For each issue, the facilitator reads the description, and the team **_briefly_** discusses the issue and clarifying any uncertainties. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned. See[What Weights to Use](#-what-weights-to-use) for more details on weights.
   - If there are other prioritized issues that have not yet been weighed, these are also reviewed and weighed during the meeting.
@@ -370,14 +376,17 @@ This structure enables smooth planning, tracking, and alignment of development w
    Note that the issue description may be incomplete/unrefined and high-level at this point.
 1. Product decides the issue is a high priority, so they apply the `%"Next 1-3 Releases"` milestone to signal this.
 1. As part of the async Pre-IPM process, someone is assigned to refine the issue, by finishing filling out the issue template, then applying the `~refined` label
+1. During the refinement process, consider documentation for the feature. If needed, add the requirements and the `~documentation` and `~Technical writing` labels to the issue.
+   For question and assistance, tag your assigned Technical Writer.
 1. As part of the sync Pre-IPM meeting, product and engineering leadership move the refined issue to the `~(workspaces|webide)-workflow::prioritized` list,
    in the appropriate position based on its priority relative to other issues.
 1. In the sync IPM meeting, the wider team discusses and estimates the issue, and it is assigned to whoever will do the work.
 1. Once the priority and weight are determined, the current velocity will tell us what iteration the issue should be completed in, and a specific
    release milestone can be assigned to the issue based on that.
-1. The assignee opens an MR for the issue, ensures that the issue and MR are cross-referenced on the first lines of their descriptions, and
-   begins work on the MR.
-1. When the work is completely done - i.e., the MR is reviewed and merged, the feature is verified and tested in production, etc.,
+1. The assignee opens an MR for the issue and ensures that the issue and MR are cross-referenced on the first lines of their descriptions.
+1. While the feature implementation is in progress, the assignee creates a documentation MR that follows the appropriate [topic type](https://docs.gitlab.com/development/documentation/topic_types/) format and [style guide](https://docs.gitlab.com/development/documentation/styleguide/).
+1. The documentation MR is reviewed by the Technical Writer, and merged along with or shortly after the feature implementation MR.
+1. When the work is completely done, for example when the feature MR is reviewed and merged, the documentation is published, the feature is verified and tested in production, etc.,
    then the issue is closed, and moved to the `~(workspaces|webide)-workflow::done` list.
 
 **QUESTION: Why isn't there a `~(workspaces|webide)-workflow::refined` phase instead of using the `~refined` label?**
@@ -468,6 +477,17 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 
 1. **Break Down and Close:**
    - Once the investigation task is complete, document the findings and break down the work into actionable refined issues.
+
+### Should bugs be estimated?
+
+There are differing opinions on this in agile philosophy ([1](https://www.reddit.com/r/scrum/comments/n4uhl5/estimating_bugsdoes_it_matter/), [2](https://medium.com/agilelab/estimating-bugs-yes-or-no-cbfe1bc25db1)). 
+
+On our team, we have decided that bugs should not be estimated. Here's why:
+
+- The point of estimating weight in a velocity-based process is to help predict the rate at which a team can expect user value be delivered.
+- From that perspective, bugs should not be estimated, because the "user value" was delivered by the original feature, which _did_ have a weight.
+- But fixing a bug isn't adding any new user value, it's just "finishing" delivery of the user value which was already accounted for by the original feature. So, they shouldn't get a weight.
+- Now, if it's a huge "bug" in the category of "we got this feature entirely wrong and need to rewrite it significantly, and it will take a lot of effort", then that should be considered new feature work, not a "bug". And it should be refined and broken down into weighted issues, just like all feature work.
 
 ### 🧹 Follow-up issues which span multiple releases
 

@@ -15,7 +15,7 @@ Additionally, the Education Program seeks to evangelize the benefits of an all-r
 
 ## How to reach us
 
-* DRI: [@Akarsten1](https://gitlab.com/Akarsten1)
+* DRI: [@janasenap](https://gitlab.com/janasenap)
 * Email: `education@gitlab.com`
 
 Additionally, see the following Slack channels.

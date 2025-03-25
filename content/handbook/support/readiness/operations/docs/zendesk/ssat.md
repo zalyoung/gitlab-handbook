@@ -34,19 +34,17 @@ to send out the satisfaction survey.
 
 ## End-user experience when the SSAT survey is sent
 
-Once the SSAT automation runs on the solved ticket, the user will receive the
-SSAT survey email where they can rate their support experience directly from the
-email message. A sample of this would look like:
+Once the SSAT automation runs on the solved ticket, the user will receive an
+SSAT survey email. A sample of this would look like:
 
-![SSAT Survey Email](/images/support/readiness/operations/ssat_survey_sample.png)
+![SSAT Survey Email](/images/support/readiness/operations/ssat_survey_email.png)
 
-Once the user clicks either of the two satisfaction links in the email message,
-the rating will be submitted and they'll be redirected to another page where
-they can add a comment about the rating if they'd like.
+When the user clicks the survey link, they will be redirected to a page where they can select a rating 
+and optionally add a comment.
 
 ![Good rated SSAT](/images/support/readiness/operations/good_rated_ssat_sample.png)
 
-In the event the user selects the `Bad, I'm unsatisfied` link, we ask them to
+In the event the user selects `Bad, I'm unsatisfied`, we ask them to
 specify a reason for the dissatisfaction.
 
 The options available are:

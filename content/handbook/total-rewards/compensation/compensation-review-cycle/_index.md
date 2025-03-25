@@ -115,7 +115,7 @@ Managers should consider both cash and equity when determining a competitive tot
 Recommendations for cash compensation increases are based on performance factors in order to reinforce our pay-for-performance philosophy. The following recommendations are guidelines, not guardrails:
 
 - Developing: 0% increase
-- Performing: 2% to 4% increase
+- Performing: 2% to 5% increase
 - Exceeding: 4% to 8% increase
 - Too New To Rate: 0% to 4%
 

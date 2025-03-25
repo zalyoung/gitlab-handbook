@@ -95,7 +95,7 @@
 /content/handbook/customer-success/professional-services-engineering/education-services/ @seanjsandoval @IanErnst 
 
 ^[eba-team]
-/content/handbook/eba/ @jrotenberry @csylva227
+/content/handbook/eba/ @jrotenberry 
 
 ^[engineering]
 /content/handbook/engineering/ @sabrinafarmer
@@ -185,8 +185,6 @@
 /content/handbook/engineering/development/dev/create/source-code/backend/ @andr3 @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/development/dev/create/source-code/frontend/ @andr3 @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
 
-^[Eng-Infrastructure-Quality-department]
-/content/handbook/engineering/infrastructure-quality.md @marin @sabrinafarmer @vincywilson
 
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/infrastructure-platforms/ @marin @sabrinafarmer
@@ -351,9 +349,9 @@
 /content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
 /content/handbook/marketing/developer-relations/ @esalvadorp @akramer
 /content/handbook/marketing/developer-relations/cocreate.md @esalvadorp @nick_vh @stingrayza
-/content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @janasenap
-/content/handbook/marketing/developer-relations/community-programs/education-program/ @esalvadorp @johncoghlan
-/content/handbook/marketing/developer-relations/community-programs/open-source-program/ @esalvadorp
+/content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @nick_vh @daniel-murphy @janasenap
+/content/handbook/marketing/developer-relations/community-programs/education-program/ @esalvadorp @nick_vh @daniel-murphy @janasenap
+/content/handbook/marketing/developer-relations/community-programs/open-source-program/ @esalvadorp @nick_vh @daniel-murphy @janasenap
 /content/handbook/marketing/developer-relations/community-programs/startups-program/ @esalvadorp
 /content/handbook/marketing/developer-relations/contributor-success/ @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 /content/handbook/marketing/developer-relations/developer-advocacy/ @dnsmichi @johncoghlan @sugaroverflow @waarias @csaavedra1 @fjdiaz @iganbaruch
@@ -513,7 +511,7 @@
 /content/handbook/sales/field-communications/gitlab-highspot/ @monicaj
 /content/handbook/sales/field-manager-development.md @ashahrazad1
 /content/handbook/sales/field-operations/ @akramer
-/content/handbook/sales/field-operations/channel-operations/ @nscala
+/content/handbook/sales/field-operations/channel-operations/ @leework
 /content/handbook/sales/field-operations/customer-success-operations/ @akramer
 /content/handbook/sales/field-operations/field-enablement/ @aileenlu @monicaj
 /content/handbook/sales/field-operations/gtm-resources/ @akramer

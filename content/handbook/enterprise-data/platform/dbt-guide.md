@@ -53,7 +53,7 @@ When needed for team members we create local development databases corresponding
 
 Any data built within these development databases should be considered ephemeral as they're only to be used for local development. To ensure the optimal use of dbt, as well as appropriate security and compliace, these databases should be cleaned by the owning user regularly. [This Runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Snowflake/snowflake_dev_clean_up.md) can be used to make that process quick and easy, and it's suggested to be run at the end or beginning of each development cycle. Additionaly, in order to ensure compliance with our data retention policies and procedures we will automatically drop all tables in development environments after **80 days** without alteration. This retention period is set within the dbt project with the `dev_db_object_expiration` variable and tables are deleted each weekend.
 
-Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/enterprise-data/data-management/#snowflake-1). There is not [backup]/handbook/enterprise-data/platform/#backups) process for development databases.
+Note: Development databases are dropped as soon as the corresponding Team Member is deprovisioned access to Snowflake (i.e. in case of offboarding or [inactive usage](/handbook/enterprise-data/data-governance/data-management/#snowflake-1). There is not [backup]/handbook/enterprise-data/platform/#backups) process for development databases.
 
 #### Configuration
 
@@ -1023,7 +1023,7 @@ For more details on how the macros used in sampling function see the following d
 
 ### Trusted Data Framework
 
-See the [Trusted Data Framework](/handbook/enterprise-data/platform/#tdf) section of our Platform page for a deeper dive into the philosophy behind the Trusted Data Framework.
+See the [Trusted Data Framework](/handbook/enterprise-data/how-we-work/data-development) section of our Platform page for a deeper dive into the philosophy behind the Trusted Data Framework.
 
 #### Schema To Golden Data Coverage
 

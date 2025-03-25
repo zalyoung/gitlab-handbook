@@ -55,7 +55,7 @@ Why should we use GitLab Enterprise Edition on-premises and not GitHub Enterpris
 1. [2019 Gartner Peer Insights **Customers' Choice - Enterprise Agile Planning Tools**](/press/releases/2019-07-26-gitLab-recognized-in-gartner-peer-insights-customers-choice-for-EAPT.html) average 4.6 rating: ["DevOps without the overhead"](https://www.gartner.com/reviews/review/view/916200) , ["Simple, Intuitive and efficient DevOps Life Cycle tool"](https://www.gartner.com/reviews/review/view/749177), and ["Secure and Scalable Solution"](https://www.gartner.com/reviews/review/view/876321)
 1. Forrester: [Q3 2017 Continuous Integration Wave-Leader](https://about.gitlab.com/blog/2017/09/27/gitlab-leader-continuous-integration-forrester-wave/)
 1. Gartner: [2021 Enterprise Agile Planning Tools - Visionary](https://about.gitlab.com/press/releases/2021-04-27-gitlab-positioned-leader-gartner-magic-quadrant-enterprise-agile-planning-tools/)
-1. Gartner: [Q2 2020 Continuous Delivery and Release Automation-Contender](/analysts/forrester-cdra20/)
+1. Gartner: [Q2 2020 Continuous Delivery and Release Automation-Contender](https://about.gitlab.com/analysts/forrester-cdra20/)
 1. Forrester: 2018 New Wave Value Stream Management- Strong Performer
 
 ## I use Bitbucket.  What can GitLab offer me?

@@ -106,7 +106,7 @@ Application
 
 - [Application Settings](https://gitlab.com/admin/application_settings/network) (admin access only)
   - See `User and IP Rate Limits` and `Protected Paths`
-- [GitLab.com Docs](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits) (published manually)
+- [GitLab.com Docs](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom) (published manually)
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Application
 
 ### Bypasses
 
-[Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits) apply to all customers and users with no exceptions.
+[Published rate limits](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom) apply to all customers and users with no exceptions.
 
 Customers or internal teams seeking a bypass should refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
@@ -279,7 +279,7 @@ GitLab utilises [RackAttack](https://docs.gitlab.com/ee/development/application_
 
 For more information about configuring rate limits for a GitLab instance, see the [User and IP rate limits](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html) doc.
 
-You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
+You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
 
 ### ApplicationRateLimiter
 
@@ -333,7 +333,7 @@ Please see [Rate Limiting Troubleshooting](/handbook/engineering/infrastructure/
 
 ## Important Links
 
-- [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
+- [docs: GitLab.com](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom)
 - [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits.html)
 - [runbook: GitLab.com rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
 - [handbook: Identifying the cause of IP Blocks on GitLab.com](/handbook/support/workflows/ip-blocks/)

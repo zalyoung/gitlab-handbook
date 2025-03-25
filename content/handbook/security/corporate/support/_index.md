@@ -57,7 +57,7 @@ If you can't find what you're looking for, please ask in `#it_help`.
         - [Repair Guide](/handbook/security/corporate/services/laptops/)
       - **Old Laptops**
         - [Wipe (Factory Reset) Guide](/handbook/security/corporate/services/laptops/wipe)
-        - [Buy Back Guide](/handbook/security/corporate/services/laptops/buy-back)
+        - [Buy Back Guide](/handbook/security/corporate/services/laptops/buyback/)
         - [Donation Guide](/handbook/security/corporate/services/laptops/donation)
         - [Recycle/Return Guide](/handbook/security/corporate/services/laptops/recycle)
       - **Laptop Policies**

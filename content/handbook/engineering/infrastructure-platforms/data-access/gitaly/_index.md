@@ -59,7 +59,7 @@ Gitaly on-call should only be paged by the following people:
 - SRE on-call or IMOC during **production incidents only**.
 - Support Engineers or Support Managers during **customer emergencies**.
 
-For these cases, use `/pd trigger` on Slack, then select the Gitaly rotation.
+Use `/incident escalate` on Slack for these cases, then select the Gitaly EOC under On-call teams.
 For all other cases please file an issue under [Customer issues](#customer-issues).
 
 Please do not page on-call outside of these cases. If you're working on a
@@ -67,7 +67,7 @@ customer emergency but not part of Support, please contact Support instead!
 
 ##### Rotation
 
-The [PagerDuty schedule](https://gitlab.pagerduty.com/schedules#P636UD2) is the
+The [incident.io schedule](https://app.incident.io/gitlab/on-call/schedules/01JJWAE08T9WDE8T6D4VZPBNXE?startTime=2025-03-03T00%3A00%3A00.000%2B00%3A00&timePeriodOption=two_weeks&calendarToggle=timeline) is the
 source of truth for who is on-call.
 
 The rotation is staffed during working hours of team members (no weekends). This still covers 24h of workdays, given the distribution of team members, but without guarantees.
@@ -78,17 +78,19 @@ The rotation is staffed during working hours of team members (no weekends). This
 
 ##### Expectations during on-call shift
 
-- 15 minutes response time to a PagerDuty page while
+- Refer to the [Responder Quick Start Guide](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/incident-io-onboard/oncall.md?ref_type=heads#responder-quick-start-guide) for a streamlined onboarding process.
+**Note : All escalations to the Gitaly team will be made via incident.io**
+- 15 minutes response time to a incident.io page while
   on-call. This does not apply to pings to the `@gitaly-oncall` Slack handle,
   which should be used to inform the Gitaly on-call of relevant happenings, but
   should not be used for emergencies.
   - The on-call is expected to be _available and reachable_ (but not necessarily actively working, as long as you can start the investigation within this SLO.)
   - If paged less than 15 minutes before the end of a shift, you still must respond and explicitly hand off the incident.
-- Serve as point of contact for questions in the `#g_gitaly` channel as well as new [Request For Help issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGitaly&first_page_size=100).
+- Serve as point of contact for questions in the `#g_gitaly` channel as well as new [Request For Help issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGitalyfirst_page_size=100).
   - Acknowledge inquiries in the `#g_gitaly` channel on a best-effort basis.
   - Triage new Request for Help issues: establish urgency and work with EM/PM to assign a milestone.
 - Ongoing production incidents and customer escalations are explicitly handed off by the outgoing on-call to the next Gitaly on-call using the incident channel on Slack.
-- Team members are responsible for finding coverage for PTO and Holidays.
+- Team members are responsible for finding coverage for PTO and Holidays. Install [`incident.io` mobile application](https://play.google.com/store/apps/details?id=com.incidentio.incidentio&hl=en_IN), navigate to `Schedules` then click on the person icon with arrows to request for cover
 
 ### Customer issues
 

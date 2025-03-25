@@ -9,7 +9,8 @@ The Import and Integrate group is a part of the [Foundations Stage](/handbook/pr
 The group supports the product
 
 - by migrating between GitLab instances and from other providers
-- with 3rd party integrations, REST APIs and GraphQL foundational code, and Webhooks.
+- with 3rd party integrations and webhooks
+- by supporting foundational REST API GraphQL code.
 
 This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
 
@@ -21,6 +22,10 @@ issue in the relevant project (typically [GitLab](https://gitlab.com/gitlab-org/
 feel free to ping the relevant Product Manager and/or Engineering Manager.
 
 For more urgent items, feel free to use the Slack Channel (internal): [#g_import_and_integrate](https://gitlab.slack.com/archives/g_import_and_integrate).
+
+Note that while we own the foundations of GitLab's APIs, the behaviour of most individual API endpoints is owned by
+other teams. Please check the [feature categorizatiob page](/handbook/product/categories/features/) to ensure your
+query is being directed to the correct group.
 
 ## Team Members
 

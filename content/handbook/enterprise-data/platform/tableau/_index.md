@@ -145,7 +145,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
     8. **Product**
     9. **Sales**
     10. **Security**
-1. **Production** (Maps to our [Trusted Data Development Process](/handbook/enterprise-data/data-development/#trusted-data-development)
+1. **Production** (Maps to our [Trusted Data Development Process](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development)
     1. **Customer Success**
         1. **General**
             1. Data Source Name
@@ -284,7 +284,7 @@ Each section below corresponds to a limited access user group and the designated
 
 - **Customer Success Access:** Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
 
-- **Ecosystem Sales and Operations:** Please work with the Ecosystem Sales and Operations team and Evan Ludaway @Evan Ludaway or Niles Jamshaid @Niles
+- **Ecosystem Sales and Operations:** Please work with the Ecosystem Sales and Operations team and/or Niles Jamshaid @Niles
 
 - **Internal Audit Restricted Access:** Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
 
@@ -485,7 +485,7 @@ The Data Team will regularly review users' Tableau activity to determine if user
 
 In addition to the guidelines above, we typically reserve Creator licenses for team members whose role is primarily Analytics-based (i.e. analysts within functional teams, and/or team members whose core responsibilities include developing reports for their team).
 
-Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-management/#tableau).
+Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-governance/data-management/#tableau).
 
 **Tracking License Usage**
 
@@ -696,7 +696,7 @@ By following these steps, you’ll ensure that your Snowflake OAuth tokens are u
 
 Certified data sources ensure trusted, high-quality, and efficient data for the organization. Approved by a Tableau Admin through an [issue submission](https://gitlab.com/gitlab-data/tableau/-/issues/new?issuable_template=Certify%2Tableau%20Data%20Source), these sources receive a Certified badge and an appended " - Certified" name for visibility and searchability. The certification signals that the data source has been rigorously reviewed for accuracy and compliance, providing users confidence to build reliable reports.
 
-Certified data sources are designed to be the most commonly used single sources of truth, aligned with the [GitLab Data Development](/handbook/enterprise-data/data-development/) lifecycle. They are broad, reusable, and versatile, capable of addressing a wide range of analytical needs. A typical department may maintain 2–12 certified data sources, serving as the primary resources for high-quality and efficient development. Departments retain ownership of these sources, with Project Leaders actively overseeing their maintenance to ensure they remain reliable, foundational tools for the organization.  To avoid overly complex, multifunctional data sources, multiple Certified, fit-for-purpose data sources are invited.
+Certified data sources are designed to be the most commonly used single sources of truth, aligned with the [GitLab Data Development](/handbook/enterprise-data/how-we-work/data-development/) lifecycle. They are broad, reusable, and versatile, capable of addressing a wide range of analytical needs. A typical department may maintain 2–12 certified data sources, serving as the primary resources for high-quality and efficient development. Departments retain ownership of these sources, with Project Leaders actively overseeing their maintenance to ensure they remain reliable, foundational tools for the organization.  To avoid overly complex, multifunctional data sources, multiple Certified, fit-for-purpose data sources are invited.
 
 As the primary resource for analysts, certified data sources streamline onboarding, training, and updates while reducing duplication and promoting consistency. By focusing on quality and reliability, they simplify decision-making and solidify their role as essential components of the organization’s data ecosystem.
 

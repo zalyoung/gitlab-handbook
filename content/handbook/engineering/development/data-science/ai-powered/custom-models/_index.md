@@ -136,6 +136,7 @@ The [issue triage report](https://gitlab.com/gitlab-org/quality/triage-reports/-
 Blog posts written by Custom Model's team members
 
 - [Developing GitLab Duo: How we validate and test AI models at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/) [@susie.bee](https://gitlab.com/susie.bee)
+- [GitLab Duo Self-Hosted: Enterprise AI built for data privacy](https://about.gitlab.com/blog/2025/02/27/gitlab-duo-self-hosted-enterprise-ai-built-for-data-privacy/) [@susie.bee](https://gitlab.com/susie.bee)
 
 ## Communication
 
