@@ -42,7 +42,7 @@ SAFE Data in Google Sheets files can be accessed using the instructions for [Acc
 
 ##### Deprovisioning SAFE Dashboard access
 
-Every 90 days the Data Team runs a [Data Health and Security Audit](/handbook/enterprise-data/data-management/). In this audit the Data Team also checks for inactive usage. In case a GitLab Team Member hasn't used the SAFE Dashboard space for more than 90 days, access will be deprovisioned. To get access again to the SAFE Dashboard space, a new AR needs to be created and all approvals need to be obtained again.
+Every 90 days the Data Team runs a [Data Health and Security Audit](/handbook/enterprise-data/data-governance/data-management/). In this audit the Data Team also checks for inactive usage. In case a GitLab Team Member hasn't used the SAFE Dashboard space for more than 90 days, access will be deprovisioned. To get access again to the SAFE Dashboard space, a new AR needs to be created and all approvals need to be obtained again.
 
 #### Accessing Various Limited Access User Groups
 

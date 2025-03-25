@@ -37,7 +37,7 @@ These categories are grouped by data source and subject area.
 
 > What is the difference between an instance and an installation?
 
-- An installation is the unique combination of instance_id and host_id. [Read more here](/handbook/enterprise-data/data-catalog/self-managed/). We do Self-Managed analysis and reporting at the installation level.
+- An installation is the unique combination of instance_id and host_id. [Read more here](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/self-managed/). We do Self-Managed analysis and reporting at the installation level.
 
 #### Documentation
 
@@ -83,7 +83,7 @@ These categories are grouped by data source and subject area.
 
 ### GitLab.com
 
-GitLab.com (SaaS) is a single installation reporting a single ping within our Service Ping framework. In order to access more granular data by product tier, plan type, namespace, or user, we utilize the [GitLab.com Postgres database](/handbook/enterprise-data/programs/data-for-product-managers/#gitlabcom-postgres-database). This data source replicates any service ping events that create a [backend table](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs).
+GitLab.com (SaaS) is a single installation reporting a single ping within our Service Ping framework. In order to access more granular data by product tier, plan type, namespace, or user, we utilize the [GitLab.com Postgres database](/handbook/enterprise-data/organization/programs/data-for-product-managers/#gitlabcom-postgres-database). This data source replicates any service ping events that create a [backend table](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs).
 
 #### FAQs
 
@@ -103,7 +103,7 @@ GitLab.com (SaaS) is a single installation reporting a single ping within our Se
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Data Guide for Product Managers documentation on GitLab.com postgres replica data](/handbook/enterprise-data/programs/data-for-product-managers/#gitlabcom-postgres-database)
+- [Data Guide for Product Managers documentation on GitLab.com postgres replica data](/handbook/enterprise-data/organization/programs/data-for-product-managers/#gitlabcom-postgres-database)
 
 - [DB docs](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs) document which service ping metrics are replicated in a database. Click in to the .yml files for each table to access table specific descriptions.
 
@@ -162,7 +162,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Guide to Snowplow for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/#snowplow)
+- [Guide to Snowplow for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/#snowplow)
 
 - [Technical Snowplow overview](/handbook/enterprise-data/platform/snowplow/)
 
