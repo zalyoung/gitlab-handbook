@@ -5,9 +5,60 @@ description: "Governance and Field Security Team Charter"
 
 ## Team Charter
 
-### Mission
+### Table of Contents
 
-The mission of the Governance and Field Security team is to: (i) drive the development of GitLab's internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
+[TOC]
+
+### Mission Statement
+
+The Governance and Field Security team drives GitLab's internal security posture through automation, awareness, and compliance oversight, while simultaneously increasing company ARR through efficient customer assurance activities and security evangelism. We enable GitLab to be the most secure software factory platform by balancing robust security with development velocity.
+
+### Value Proposition
+
+We provide comprehensive security governance, field security expertise, and automation capabilities so that GitLab teams and customers can achieve their security objectives while maintaining development velocity and meeting regulatory compliance requirements.
+
+### Core Competencies
+
+#### External Security Evangelism
+
+- External communication of security strategy via different media (audio, video, written)
+- Initiatives to support thought leadership and market positioning
+- Building collateral pieces to improve knowledge of internal security posture
+
+#### Field Security Research
+
+- Discovery and communication of internal and external security events
+- Empowering sales through internal documentation to shorten sales cycles
+- Customer feedback collection to inform Security Assurance roadmap
+
+#### Security Sales Enablement
+
+- Execution of customer assurance activities
+- Streamlining Field Security's involvement in the sales cycle
+- Security process and resource training for Sales organization
+- Collaboration with Solution Architecture as customer security advisors
+
+#### Automation
+
+- Development and enhancement of automated processes
+- Breaking complex requests into manageable components
+- Deployment of new Security Assurance technologies and integrations
+
+#### Governance
+
+- Policy and standard management
+- Security awareness and role-specific training
+- Phishing campaign management
+
+#### Compliance Monitoring and Oversight
+
+- Communication of new/updated regulatory and compliance requirements
+- Advisory on security impacts of compliance requirements for customers/prospects
+
+#### Metrics
+
+- Development and maintenance of department-level metrics
+- Technical ownership of data sources for Security Assurance team metrics
 
 ### Roles and responsibilities
 
@@ -15,49 +66,6 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 
 [Security Assurance team member roles and responsibilities](/job-families/security/security-assurance-job-family/)
 {.h4}
-
-## High Level Core Competencies
-
-### External Security Evangelism
-
-- External communication of security strategy via different media (audio, video, written, etc.)
-- Initiatives to support thought leadership and market positioning
-- Building collateral pieces to improve knowledge of internal security posture
-
-### Field Security Research
-
-- Discovery and communication of internal and external security events to support the development of Field Security's strategy
-- Empowering sales by providing internal documentation to help shorten the current sales cycle
-- Highlighting topics stemming from customer feedback to inform the Security Assurance roadmap
-
-### Security Sales Enablement
-
-- Execution of customer assurance activities
-- Identifying opportunities to streamline Field Security's involvement in the sales cycle
-- Develop and distribute training on Field Security processes and resources to the Sales organization
-- Collaborating with the Solution Architecture team as the Customer's trusted security advisors
-
-### Automation
-
-- Development of new automated processes
-- Enhancement of existing automated processes
-- Breaking complex requests into smaller manageable components
-- Deployment of new Security Assurance technologies and integration with existing technologies
-
-### Policies and Awareness
-
-- Policy and standard management
-- Security awareness and role-specific training for internal team members
-
-### Compliance Monitoring and Oversight
-
-- Awareness and communication of new or updated regulatory and compliance requirements
-- Advisory work on security impacts of new compliance requirements for our customers/prospects
-
-### Metrics
-
-- Development and maintenance of department-level metrics for Governance and Field Security and cross-functional Security Assurance teams.
-- The Governance and Field Security team serves as the technical DRI for creating data sources that feed department-level metrics for all Security Assurance teams.
 
 ## Program goals
 
