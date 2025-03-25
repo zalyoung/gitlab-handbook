@@ -225,7 +225,7 @@ On a Mac, to locate your cloned project on your machine, you may need to navigat
    git status
    ```
 
-   > The output shows the `README` file in read, with a status of `modified`. The red font color indicates that the `README` file has not been added to Git's staging area yet.
+   > The output shows the `README` file in red, with a status of `modified`. The red font color indicates that the `README` file has not been added to Git's staging area yet.
 
 ## Task G. Add the edited file to Git's staging area
 
