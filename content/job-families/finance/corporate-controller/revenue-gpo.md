@@ -155,7 +155,7 @@ The Senior Manager, Revenue GPO is a [grade 9](/handbook/total-rewards/compensat
 
 ## Career Ladder
 
-The next step in the Revenue GPO job family is to move to the [Revenue Accounting](/job-families/finance/revenue-accounting/) job family.
+The next step in the Revenue GPO job family is to move to the [Revenue Accounting](/job-families/finance/corporate-controller/revenue-accounting/) job family.
 
 ## Hiring Process
 

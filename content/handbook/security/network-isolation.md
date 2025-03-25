@@ -31,7 +31,7 @@ Note that you will likely not be able to connect to shared resources in your hom
 
 A personal VPN (Virtual Private Network) can create an isolated network for a team member's computer that could be used for isolation if the Guest Network idea does not meet your needs. This has the added advantage of being mobile, in that if you take your computer to *any* network (free Wi-Fi at a coffee shop, hotel network, technical conference with Wi-Fi access for attendees, etc) you can isolate it.
 
-For more information on a personal VPN, check out the [Personal VPN]({{< ref "personal-vpn" >}}) page.
+For more information on a personal VPN, check out the [Personal VPN](/handbook/tools-and-tips/personal-vpn/) page.
 
 Similar to the guest network scenario above, when using a personal VPN you will not be able to access shared resources in your home like a printer.
 

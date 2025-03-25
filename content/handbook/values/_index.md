@@ -167,10 +167,6 @@ In a GitLab Unfiltered [interview](https://youtu.be/n9Gfe9p1tmA), GitLab Head of
 > At GitLab, "no ego" means that we foster and support an environment where results matter, and you're given agency to approach your work in the way that makes sense to you.
 > Instead of judging people for not approaching work in an agreed-upon way, "no ego" encourages people to glean inspiration from watching others approach work in new and different ways.
 
-Being no ego is a standard we hold ourselves as people but is not one that applies to GitLab as a company or product.
-We want to celebrate and highlight GitLab's accomplishments, including being [one of the largest all-remote companies](/handbook/company/culture/all-remote/).
-This doesn't mean we don't recognize our mistakes, including how we handled [telemetry](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/).
-
 ##### See others succeed
 
 A candidate who has talked to a lot of people inside GitLab said that, compared to other companies, one thing stood out the most: everyone here mentioned wanting to see each other succeed.
@@ -475,7 +471,7 @@ For example, sales is hard because you are dependent on another organization, an
 
 ##### Self-service and self-learning
 
-Team members should first [search for their own answers](/handbook/company/culture/all-remote/self-service/) and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a [low level of shame](#low-level-of-shame). [Write down any new information discovered](#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
+Team members should first [search for their own answers](/handbook/company/culture/all-remote/self-service/) and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a [low level of shame](#low-level-of-shame-when-dogfooding). [Write down any new information discovered](#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
 
 Team members have more room to grow themselves when they are able to self-service and self-learn.
 
@@ -584,13 +580,13 @@ We demonstrate efficiency when we work on the right things, not doing more than 
 
 ## 🌐 Diversity, Inclusion & Belonging {#diversity-inclusion}
 
-Diversity, inclusion and belonging are fundamental to the success of GitLab. We aim to make a significant impact in our efforts to foster an environment where everyone can thrive. We are designing a multidimensional approach to ensure that GitLab is a place where people from every background and circumstance feel like they belong and can contribute. We actively chose to [build and institutionalize](https://www.russellreynolds.com/en/insights/reports-surveys/diversity-and-inclusion-gamechangers) a culture that is [inclusive](/handbook/company/culture/inclusion/) and supports all team members equally in the process of achieving their professional goals. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. For example, we celebrate our sponsorship of [diversity, inclusion & belonging events](https://about.gitlab.com/blog/2016/03/24/sponsorship-update/).
+Diversity, inclusion and belonging are fundamental to the success of GitLab. We aim to make a significant impact in our efforts to foster an environment where everyone can thrive. We are designing a multidimensional approach to ensure that GitLab is a place where people from every background and circumstance feel like they belong and can contribute. We actively chose to build a culture that is [inclusive](/handbook/company/culture/inclusion/) and supports all team members equally in the process of achieving their professional goals. We work to make everyone feel welcome and to increase the participation of underrepresented groups in our community and company.
 
 ##### Bias towards asynchronous communication
 
 Take initiative to operate [asynchronously](/handbook/company/culture/all-remote/asynchronous/) whenever possible. This shows care and consideration for those who may not be in the same time zone, are traveling outside of their usual time zone, or are [structuring their day](/handbook/company/culture/all-remote/people/#creating-a-more-efficient-day) around pressing commitments at home or in their community.
 
-This is demonstrated by communicating recordings of [meetings](/handbook/company/culture/all-remote/meetings/), using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. Encourage others to default to [documentation](/handbook/product/ux/technical-writing/documentation/) rather than pressuring others to be online outside of their working hours.
+This is demonstrated by communicating recordings of [meetings](/handbook/company/culture/all-remote/meetings/), using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. Encourage others to default to [documentation](/handbook/product/ux/technical-writing/#documentation) rather than pressuring others to be online outside of their working hours.
 
 ##### Embracing uncomfortable ideas and conversations
 
@@ -631,7 +627,7 @@ We want cultural diversity instead of cultural conformity. Said differently: ["c
 
 ##### Religion and politics at work
 
-We generally avoid discussing politics or religion in public forums because it is easy to alienate people that have a minority opinion. This doesn't mean we never discuss these topics. Because we value diversity, inclusion and belonging, and want all team members to feel welcome and contribute equally, we encourage free discussion of operational decisions that can move us toward being a more inclusive company. GitLab also publicly supports pro [diversity, inclusion & belonging](#diversity-inclusion) activities and events.
+We generally avoid discussing politics or religion in public forums because it is easy to alienate people that have a minority opinion. This doesn't mean we never discuss these topics. Because we value diversity, inclusion and belonging, and want all team members to feel welcome and contribute equally, we encourage free discussion of operational decisions that can move us toward being a more inclusive company.
 
 There is sometimes a grey area where advocating for diversity and political activities may intersect. Team members should use discretion in grey area communications, because a culture of belonging requires us to be respectful of the broad spectrum of views within our work environment. What does this mean in practice? Please feel empowered to share information that highlights diversity, inclusion and belonging issues and how GitLab and GitLab team members can get involved. In line with our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), avoid posting articles that reference specific political figures or parties.
 
@@ -988,8 +984,6 @@ Changing something without shipping it is a revision, not iteration. Only when t
 ##### Embracing Iteration
 
 In order to embrace iteration, we should have the attitude that we are trying to achieve as much as possible in a small amount of time; it's where we land at the end state of an iteration that counts. The benefit of iteration is to get fast feedback from users. Focus on sharing context at the **end of the first iteration** rather than a **hypothetical future state** that requires multiple iterations. By embracing iteration we can increase creativity in incremental components.
-
-{{< youtube id="nXfKtnVUhvQ" >}}
 
 ##### Make small merge requests
 

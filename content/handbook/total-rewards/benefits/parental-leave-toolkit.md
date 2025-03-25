@@ -41,7 +41,7 @@ Some situations require a team member to start their leave immediately. Hearing 
 1. For anyone coming back to work there can be high levels of uncertainty on what to expect when they return; remember their time away was not a vacation. It is important that you set aside time on your calendar to connect with them on their first day back at work.
     - Check-in with them, see how they are feeling about the transition, and what support they may need from you.
 1. Make them feel welcome on their first day back and prepare/consider a small welcome back gift (flowers, small gift, sign/card from the team, etc.)
-1. Review the [Return from Leave]({{< ref "general-and-entity-benefits#returning-from-parental-leave" >}}) section below to prepare for your team member's first day/week back at work.
+1. Review the [Return from Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#returning-from-parental-leave) section below to prepare for your team member's first day/week back at work.
 1. Reach out welcoming them back. Share what they can expect on their first day back, and that you'll plan on meeting with them first thing on their first day back.
     - We want your team member to see a friendly face on their first day back, and feel comfortable as they return to work.
 
@@ -61,15 +61,15 @@ Welcome them back! Whether your team member was gone for several months, or just
 1. Check-in routinely with your team members to ensure they are receiving the appropriate level of support as they transition back to work recognizing that there will be a period of readjustment and personal and professional reflection.
     - Check-ins should be done on a regular cadence: 1st day, 1st week, 2 weeks, 1 month, 2-3 months, etc.
     - If the transition seems to be progressing differently than anticipated, you can reach out to your People Business Partner or Team Member Relations for support.
-    - Team members have access to [Modern Health]({{< ref "modern-health" >}}) if needed.
+    - Team members have access to [Modern Health](/handbook/total-rewards/benefits/modern-health/) if needed.
 
 ## General Guidelines For Managers on Resource Allocation
 
 If you have a team member going out on parental leave, a common question might be "how should I reallocate their tasks and output while they are out?" Below are general guidelines for managers based on the length of leave taken by the team member. **Note** - local law supersedes these guidelines where applicable:
 
 - Leave less than 1 month: Use internal resources.
-- Leave less than 6 months: Use internal resources who may be eligible for an [interim bonus]({{< ref "compensation#compensation-for-interim-roles" >}}), and/or consider hiring a temporary contractor
-- Leave longer than 6 months: Use internal resources who may be eligible for an [interim bonus]({{< ref "compensation#compensation-for-interim-roles" >}}), hire a temporary contractor.
+- Leave less than 6 months: Use internal resources who may be eligible for an [interim bonus](/handbook/total-rewards/compensation/#compensation-for-acting-and-interim-roles), and/or consider hiring a temporary contractor
+- Leave longer than 6 months: Use internal resources who may be eligible for an [interim bonus](/handbook/total-rewards/compensation/#compensation-for-acting-and-interim-roles), hire a temporary contractor.
 - Leave longer than 1 year: Consider a backfill ensuring there will be a similar (level, scope, etc) role for the person when they return.
 
 ## Parental Leave Reentry Buddies
@@ -144,10 +144,10 @@ A nice way to celebrate a team member's new addition to their family is by hosti
 
 ## Team Member Tool Kit
 
-- Review our [parental leave benefits/policy]({{< ref "general-and-entity-benefits#parental-leave" >}})
+- Review our [parental leave benefits/policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
 - Slack channel to connect with other parents — `#intheparenthood` ([Join Slack channel](https://gitlab.slack.com/app_redirect?channel=intheparenthood) - *for GitLab team members only*)
-- Read the handbook section on [returning from parental leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) with tips for the transition back to work
-- Consider participating in the [**Your 4th Trimester program**]({{< ref "general-and-entity-benefits#return-to-work-resources" >}}), a 90-day coaching program to help parents transition back to work.
+- Read the handbook section on [returning from parental leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) with tips for the transition back to work
+- Consider participating in the [**Your 4th Trimester program**](/handbook/total-rewards/benefits/general-and-entity-benefits/#return-to-work-resources), a 90-day coaching program to help parents transition back to work.
 - Read [GitLab's guide to parenting as a remote worker](/handbook/company/culture/all-remote/parenting/)
 - Consider reaching out to a [Parental Leave Reentry Buddy](#parental-leave-reentry-buddies)
 - Watch the video below from [Crucial Conversations](/handbook/leadership/crucial-conversations) entitled `How Working Moms can Do it All`:
@@ -164,4 +164,4 @@ If you have any feedback about your parental leave experience for the People gro
 
 ---
 
-Return to the main [GitLab Benefits page]({{< ref "benefits" >}}).
+Return to the main [GitLab Benefits page](/handbook/total-rewards/benefits/).

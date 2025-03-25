@@ -203,6 +203,8 @@ shows more specific details about each actions and endpoints.
 To see the specific details for certain actions/endpoints, it can be filtered
 by `action` and/or `controller`.
 
+We also have a dashboard specifically for monitoring AI features: [Create: Code Review: AI Features](https://log.gprd.gitlab.net/app/dashboards#/view/f959393c-82c1-4b69-a4d3-2446aab9476c?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))) (internal only). This dashboard monitors the performance of code review AI features, specifically tracking P50 (median) duration for both Sidekiq and GraphQL operations.
+
 #### Issue identification process
 
 1. Every week we check the kibana and grafana dashboards as per the calendar invite
@@ -242,8 +244,7 @@ on the issue (if they have spare time).
 
 ## Engineering Onboarding
 
-This [example onboarding issue](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/issues/160)
-will eventually be turned into an onboarding [issue template](https://docs.gitlab.com/ee/user/project/description_templates.html#create-an-issue-template).
+Open an issue using the [Code Review onboarding template for Backend Engineers](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/issues/new?description_template=onboarding) to get started with onboarding.
 
 ## Other Related Pages
 

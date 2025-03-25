@@ -3,7 +3,7 @@
 # Script Arguments
 MSG=$1
 
-# Expected Environment Varaibles
+# Expected Environment Variables
 #         GITLAB_TOKEN | The users GitLab token.
 #        CI_PROJECT_ID | The GitLab project id.
 # CI_MERGE_REQUEST_IID | The GitLab merge request IID.

@@ -202,7 +202,7 @@ The Manager, Accounts Receivable is a [grade 8](/handbook/total-rewards/compensa
 
 ## Career Ladder
 
-The next step in the Accounts Receivable job family is to move to the [Revenue Accounting](/job-families/finance/revenue-accounting/) job family.
+The next step in the Accounts Receivable job family is to move to the [Revenue Accounting](/job-families/finance/corporate-controller/revenue-accounting/) job family.
 
 ## Hiring Process
 

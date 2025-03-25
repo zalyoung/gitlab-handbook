@@ -74,17 +74,22 @@ Other Support Engineers are a great resource to help out with tickets. To get he
 
 You can also do one or more of the following:
 
-1. See if there is a [Support Pod]({{< ref "working-with-pods" >}}) that covers the area your ticket is in and ask one of the Pod members for help.
-1. Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
-   Support page to see who might have the skills to assist, or reach out
-   to the [Support Stable Counterpart]({{< ref "support-stable-counterparts" >}})
-   for the appropriate product area. Mention those
-   people in the thread and in the ticket to let them know you think they can help.
-1. [Request help from the relevant GitLab Development Team](#how-to-formally-request-help-from-the-gitlab-development-team).
-   Gather what information you have and fill in as much detail as possible for the dev team in the issue. To get more attention, you can post in the relevant group Slack channel with a message and link to the issue.
-   If you don't get a response within the SLO, contact the listed engineering manager in the project readme.
-   See [below](#how-to-formally-request-help-from-the-gitlab-development-team) for more details.
-   If you have a reproducible issue, then go straight to a bug issue in the appropriate [GitLab product tracker](https://gitlab.com/gitlab-org).
+- See if there is a [Support Pod](/handbook/support/workflows/working-with-pods/) that covers the area your ticket is in and ask one of the Pod members for help.
+- Ask an expert within Support. You can check the [Skills by Subject](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html)
+  Support page to see who might have the skills to assist, or reach out
+  to the [Support Stable Counterpart](/handbook/support/support-stable-counterparts/)
+  for the appropriate product area. Mention those
+  people in the thread and in the ticket to let them know you think they can help.
+- Reach out to development teams directly in their Slack channels if you have a straightforward,
+  specific question that might be quickly answerable. Don't hesitate to engage development teams
+  early in the process if their expertise could help resolve an issue more efficiently. Be
+  respectful of their time - the development team may direct you to open a formal [request for help issue](#how-to-formally-request-help-from-the-gitlab-development-team)
+  if your question requires more detailed information or investigation.
+- [Request help from the relevant GitLab Development Team](#how-to-formally-request-help-from-the-gitlab-development-team).
+  Gather what information you have and fill in as much detail as possible for the dev team in the issue. To get more attention, you can post in the relevant group Slack channel with a message and link to the issue.
+  If you don't get a response within the SLO, contact the listed engineering manager in the project readme.
+  See [below](#how-to-formally-request-help-from-the-gitlab-development-team) for more details.
+- If you have a reproducible issue, then go straight to a bug issue in the appropriate [GitLab product tracker](https://gitlab.com/gitlab-org).
 
 #### Bring the ticket to managers
 
@@ -209,3 +214,45 @@ Every problem is a little bit different. Sometimes it makes sense to try a diffe
 - Julia Evans' [comics](https://wizardzines.com/comics/), especially the ones about debugging
 - [The Pocket Guide to Debugging (PDF)](https://store.wizardzines.com/products/the-pocket-guide-to-debugging)
 - [General Purpose Troubleshooting Principles](https://brie.dev/troubleshooting/)
+
+#### Request for Help Lifecycle diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> IssueOpened: Issue Created by Support
+    IssueOpened --> Active: Add Issue Opened Label
+    IssueOpened --> SupportTriage: Add Triage by Support label
+    
+    state SupportTriage {
+        SupportAuthor --> ExpertReview: Support author responds
+        ExpertReview --> SupportAuthor: Support expert responds
+    }
+    
+    SupportTriage --> Active: Needs Dev Team Input
+    
+    state Active {
+        SupportComment --> DevComment: Add Last comment from support team label
+        DevComment --> SupportComment: Add Last comment from dev team label
+        DevComment --> NeedsInfo: Add Needs more info label
+        NeedsInfo --> SupportComment: Support provides info
+    }
+    
+    Active --> PendingClosure: Inactive 14d
+    
+    state PendingClosure {
+        [*] --> Inactivity: Add Pending-Closure label
+        Inactivity --> AutoClose: After 7d
+    }
+    
+    PendingClosure --> Active: Remove Pending-Closure label
+    PendingClosure --> Closed: Add Issue-Closed label
+    Active --> Closed: Resolution found and/or Issue Closed
+    SupportTriage --> Closed: Resolution found
+    
+    state Closed {
+        SendReminders: 
+        SendReminders --> Resolved: Add Doc-Reminder label Add Resolution-Type label
+    }
+    
+    Closed --> [*]: RFH Lifecycle complete
+```

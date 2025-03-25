@@ -1,34 +1,27 @@
 ---
 title: Organizations Team
-description: "The Organizations team develops the Organizations entity to support Cells. "
+description: "Information about the Organizations team"
 ---
 
 ## About
 
-The Organizations team's main focus is to develop the Organization entity needed for data sharding and isolation in the context of [Cells](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/). The team also offers support for groups, projects, and user profiles within our product.
+The Organizations team's main focus is to develop the Organization entity needed for data sharding and isolation in the context of [Cells](/handbook/engineering/architecture/design-documents/cells/). The team also offers support for groups, projects, and user profiles within our product.
 
 ### Contact
 
 To get in touch with us, it's best to create an issue in the relevant
-project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the
+project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&first_page_size=100)) and add the
 `~"group::organizations"` label, along with any other appropriate labels.
 
 For urgent items, feel free to use the Slack channel (internal): [#g_organizations](https://gitlab.slack.com/archives/g_organizations).
 
 ### Vision
 
-There are multiple proposals and ideas to increase horizontal scalability via
-solutions such as database sharding and tenant isolation. The objective of this
-group is to explore, iterate on, validate, and lead implementation of proposals
-to provide a solution to accommodate GitLab.com's daily-active user growth.
-
-As we brainstorm and iterate on horizontal scalability proposals, we will
-provide implementation details, prototypes, metrics, demos, and documentation to
-support our hypotheses and outcomes.
-
-Currently, [Cells](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/) is
-our proposal of a new architecture for our platform that is horizontally scalable,
-resilient, and provides a more consistent user experience.
+The team is working on developing a more scalable, unified architecture for GitLab through the implementation of Organizations as a new top-level entity.
+Organizations serve as logical containers that enable distribution across a [cellular architecture](/handbook/engineering/architecture/design-documents/cells/) while bridging functionality gaps between self-managed and SaaS GitLab instances.
+The new Organizations entity acts as an umbrella for multiple top-level groups, allowing enterprises to aggregate content across groups, implement organization-wide roles, and isolate content from other Organizations.
+Simultaneously, the team aims to improve Groups and Projects by addressing several key challenges: creating more flexible hierarchies to accommodate diverse enterprise structures, reducing confusion around project nesting within groups, enhancing discoverability across the product, standardizing deletion and recovery processes, and improving archiving functionality and visibility.
+These improvements collectively work toward creating a more intuitive, flexible system for enterprises to represent their business structure and manage permissions.
 
 ### Goals
 
@@ -60,8 +53,11 @@ limited to that area and they also work in other areas as needed.
 
 | Project | DRI | Team |
 | ------ | ------ | ------ |
-| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter |
-| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Shubham | Leonardo da Rosa, Krasimir Angelov |
+| [Organization backend essentials](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Rutger |
+| [Organization isolation: sharding](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Shubham | Leonardo da Rosa, Krasimir Angelov |
+| [Migrating project/group list pages to Vue](https://gitlab.com/gitlab-org/gitlab/-/issues/460856) | Peter | |
+| [Group archiving](https://gitlab.com/groups/gitlab-org/-/epics/15019)| Shubham | Peter |
+| [Deletion flow enhancements](https://gitlab.com/groups/gitlab-org/-/epics/10087) | Remy | Abdul, Shane |
 
 ## Meetings
 
@@ -71,19 +67,14 @@ those meetings, so we record them and share written summaries ([agenda](https://
 Currently we have the following recurring meetings scheduled:
 
 - Weekly Monday - Tenant Scale Group Sync (APAC/EMEA) 8:30AM UTC (2:30AM PDT)
-- Weekly Thursday - Tenant Scale Group Sync (EMEA/AMER) 3:00PM UTC (7:00AM PDT)
 
 ## Work
 
 The Product Manager (PM) compiles the list of issues following
 the [product prioritization process](/handbook/product/product-processes/#prioritization),
 with input from the team, Engineering Manager (EM), and other stakeholders.
-The iteration cycle starts on the 2nd Monday of one month, and lasts until the 2nd Friday of the following month,
-and is identified by the GitLab version set to be released.
-
-Engineers are encouraged to work as closely as needed with their stable
-counterparts. Quality engineering is included in our workflow via the
-[quad planning process](/handbook/engineering/infrastructure/test-platform/quad-planning/).
+The iteration cycle lasts until the 2nd Friday of a month, and starts new on the following Monday.
+Each milestone is identified by the GitLab version set to be released.
 
 ### Milestone Planning
 
@@ -119,11 +110,11 @@ current milestone, check the [development workflow board](https://gitlab.com/gro
 
 The process primarily follows this:
 
-- `workflow::ready for design` to signal an issue was ready to begin the design.
-- `workflow::design` designer would use this to signal it was actively being worked on.
-- `workflow::refinement` to signal that the design is complete and the issue is ready for engineering input. Please also tag the PM to assign the appropriate milestone for implementation.
-- `workflow::planning breakdown` to signal that the design is complete and is ready to be broken down into sub-issues for implementation. To preserve context and decisions during the design process, where possible, we re-use the design issue by promoting it to an epic, and attach the implementation issues to it. That way, the epic can be used as the SSOT for design, all discussions are in one place, and we don't end up with inconsistencies between the original design issue and the corresponding implementation issue.
-- `workflow::ready for development` to signal it was ready to be worked on for engineering.
+- `workflow::ready for design` to signal an issue is ready to begin the design work
+- `workflow::design` to indicate that a designer is actively working on an issue
+- `workflow::planning breakdown` to signal that the design is complete and is ready to be broken down into sub-issues for implementation. To preserve context and decisions during the design process, where possible, we re-use the design issue by promoting it to an epic, and add the implementation issues to it. That way, the epic can be used as the [SSOT](/teamops/shared-reality/#single-source-of-truth-ssot) for design, all discussions are in one place, and we don't end up with inconsistencies between the original design issue and the corresponding implementation issue.
+- `workflow::refinement` to signal that an issue needs to be refined by engineering. In this step, an implementation guide and a weight should be added to the issue.
+- `workflow::ready for development` to signal an item is ready to be worked on by engineering
 
 ### Development Workflow
 
@@ -176,11 +167,13 @@ We track our work on the following issue boards:
 
 ### Tracking Dashboards
 
-In addition to issue boards, we also track progress on major initiatives with bespoke dashboards such as the [Cells Progress Tracker](https://gitlab.com/gitlab-org/tenant-scale-group/cells-progress-tracker).
+In addition to issue boards, we also track progress on major initiatives with bespoke dashboards such as:
 
+- [Schema migration](https://cells-progress-tracker-gitlab-org-tenant-scale-g-f4ad96bf01d25f.gitlab.io/schema_migration)
+- [Sharding key migration](https://cells-progress-tracker-gitlab-org-tenant-scale-g-f4ad96bf01d25f.gitlab.io/sharding_keys)
+
+The dashboards are part of the [Cells Progress Tracker](https://gitlab.com/gitlab-org/tenant-scale-group/cells-progress-tracker) project.
 The team has also spun off [Epic Dashboards](https://gitlab.com/gitlab-org/tenant-scale-group/epic-dashboard) into a project that other teams can use to create their own epic-based tracking dashboards.
-
-@manojmj is the creator and DRI of [Epic Dashboards](https://gitlab.com/gitlab-org/tenant-scale-group/epic-dashboard) and supports this project on a best-effort basis outside of core project responsibilities.
 
 ### Capacity Planning
 
@@ -235,8 +228,8 @@ candidates for the backlog refinement process (without weight,
 unclear requirements, etc.), please use the label. We will refine
 a maximum of 5 issues per week.
 
-The EM will use the [refinement script](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/blob/main/scripts/refinement)
-to generate an issue with all the issues identified for refinement.
+[Refinement issues](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/blob/main/scripts/refinement) are auto-generated at the beginning of each week.
+The scripts can be adjusted in our [stage project](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks).
 
 #### Step 2: Refining Issues
 
@@ -245,24 +238,25 @@ selected for backlog refinement. [Current backlog refinement issues](https://git
 
 For each issue, team members will review the issues and provide:
 
-- An estimated weight.
-- A proposal of how to break down the issue into different issues or merge requests.
+- An estimated weight
+- A breakdown of issues, if needed
+- An implementation guide
 
 When refining issues, consider the following:
 
-- Keep the conversation on the original issues.
-- Update the issue description, implementation plan, and labels as more information is gathered.
-- For efficiency, engineers can also skip the refinement of some issues depending on the feedback that we already have.
-- Where the fix is clear and easy, engineers can assign the issue to themselves, give it a weight of 1 and push the fix.
+- Keep the conversation on the original issues or provide links to relevant discussions in the issue to preserve context
+- Update the issue description, implementation plan, and labels as more information is gathered
+- For efficiency, engineers can skip the refinement of already refined issues that are marked as completed
+- Where the fix is clear and easy, engineers can assign the issue to themselves, give it a weight of 1, push the fix, and close the issue
 
 #### Step 3: Finalizing Refinement
 
 After engineers have had a chance to provide input, the EM or PM will:
 
-- Assign a weight.
-- Inform stable counterparts if there are any concerns.
-- Remove the `workflow::refinement` label.
-- Add the `workflow::ready for development` label.
+- Assign a weight
+- Inform stable counterparts if there are any concerns
+- Remove the `workflow::refinement` label
+- Add the `workflow::ready for development` label
 
 For any issues that were not discussed and given a weight, we will work with
 the engineers to see if we need to get more information from PM or UX.
@@ -290,38 +284,21 @@ working on deserves a retrospective:
 1. Include your EM and anyone else who should be involved (like the PM and counterparts).
 1. Coordinate a synchronous meeting if applicable. Add all feedback from the retrospective to the issue for future reference.
 
-## OKR
-
-Each quarter we have a series of Objectives and Key Results (OKRs) for our
-group. To find the current OKRs for this [quarter](/handbook/finance/#fiscal-year),
-check the [OKR project](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Atenant%20scale&milestone_title=Started).
-
 ## Error Budgets
 
 GitLab uses [error budgets](/handbook/engineering/error-budgets/) to measure the
 availability and performance of our features. Each engineering group has its own
 budget spend. The current 28-day spend for the Tenant Scale group can be found
-in this [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-detail-tenant_scale/stage-groups-tenant-scale-group-error-budget-detail?orgId=1).
+in this [Grafana dashboard](https://dashboards.gitlab.net/d/product-tenant_scale_error_budget/product3a-error-budgets-tenant-scale?orgId=1&from=now-28d&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-gprd&var-environment=gprd&var-stage=main).
 
 An error budget exception of 99.85% was [approved](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/121190)
 to allow the group to focus on long-term scalability work.
 
 ## Dashboards
 
-You can find our group metrics in the [Tenant Scale Group Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/enablement/data-stores/tenant-scale).
+You can find our group metrics in the Tableau views listed below:
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
-  {{< tableau/filters "GROUP_NAME"="tenant scale" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
-{{< /tableau >}}
+- [Top engineering metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2251271/views)
+- [Merge request metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2104461/views)
+- [Flaky test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)
+- [Slow RSpec test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2354045/views)

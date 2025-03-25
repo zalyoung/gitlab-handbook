@@ -41,7 +41,7 @@ description: "Public Company Headcount Metrics and Processes"
    - **Total Net New Starts**: <ins>Total Starts</ins> excluding <ins>Internal Hires</ins>.
    - **Total Gross Starts**: <ins>Total Starts</ins> including <ins>Internal Hires</ins>.
 
-   <ins>Total Net New Starts</ins> is the largest variable component of the movement in the Ending Headcount forecast. In order to accurately forecast Ending Headcount, <ins>Total Net New Starts</ins> must be accurately estimated. At the beginning of the quarter, FP&A and TA work with business partners to set realistic expectations related to the number of <ins>Total Net New Starts</ins> in a quarter. Through the [Triad Process]({{< ref "triadprocess#the-triad-process" >}}) as well as the [Interlock Process]({{< ref "../financial-planning-and-analysis#finance-business-partners--talent-acquisition-managers-forecast-interlock" >}}) between FP&A and TA, GitLab tracks the movement of estimated <ins>Total Net New Starts</ins> throughout the quarter to ensure understanding and implementation of the most up-to-date view of forecasted headcount-related expenses.
+   <ins>Total Net New Starts</ins> is the largest variable component of the movement in the Ending Headcount forecast. In order to accurately forecast Ending Headcount, <ins>Total Net New Starts</ins> must be accurately estimated. At the beginning of the quarter, FP&A and TA work with business partners to set realistic expectations related to the number of <ins>Total Net New Starts</ins> in a quarter. Through the [Triad Process](/handbook/hiring/talent-acquisition-framework/triadprocess/) as well as the [Interlock Process](/handbook/finance/financial-planning-and-analysis/#finance-business-partners--talent-acquisition-managers-forecast-interlock) between FP&A and TA, GitLab tracks the movement of estimated <ins>Total Net New Starts</ins> throughout the quarter to ensure understanding and implementation of the most up-to-date view of forecasted headcount-related expenses.
 
 1. **Actual Starts**: Team members who have begun their employment at GitLab within a specified period including Attrition Backfills. These team members are included in the Active Personnel sheet in Adaptive.
    - **Net New Actual Starts**: Starts excluding Internal Hires.
@@ -74,7 +74,7 @@ description: "Public Company Headcount Metrics and Processes"
 
 ### Appendix: Other Public Company Headcount Definitions
 
-1. [**Adaptive**]({{< ref "../financial-planning-and-analysis/adaptive-insights" >}}): FP&A's SSOT for all forecasted headcount metrics and headcount-related expenses. Adaptive is maintained by the FP&A team and roles are input into Adaptive by the FP&A team.
+1. [**Adaptive**](../financial-planning-and-analysis/adaptive-insights/): FP&A's SSOT for all forecasted headcount metrics and headcount-related expenses. Adaptive is maintained by the FP&A team and roles are input into Adaptive by the FP&A team.
 
 1. **Start Date**: Day one of a team member's employment at GitLab. Start Dates are estimated by FP&A based on the priorities of the business, target Start Dates information in Greenhouse, and collaboration with TA. Once a team member has started their employment, Workday is the SSOT for the official Start Date.
 
@@ -95,8 +95,8 @@ description: "Public Company Headcount Metrics and Processes"
 
 ### Appendix: Other Talent Acquisition Headcount Definitions
 
-1. [**Greenhouse**]({{< ref "greenhouse" >}}): SSOT for recruiting metrics and pipeline development in various stages of recruiting.
-1. [**Workday**]({{< ref "workday-guide" >}}): SSOT for Actual Starts and Start Dates.
+1. [**Greenhouse**](/handbook/hiring/greenhouse/): SSOT for recruiting metrics and pipeline development in various stages of recruiting.
+1. [**Workday**](/handbook/people-group/workday-guide/): SSOT for Actual Starts and Start Dates.
 1. **Hires**: Team members who accept an employment offer within a specified period. The start date of the team members' employment is irrelevant. Hires includes Internal Hires.
 1. **Recruiting Capacity**: The capacity of recruiters related to Hires within a specified period. Individual recruiter capacity does not relate to Starts; however, we can estimate the recruiting organization's broader capacity for Starts by looking at historical Hire to Start data.
 1. **Offer Accept**: The date on which a candidate signs the Offer and is transferred into Workday. This process ideally happens within 24 business hours of signing the Offer, but may be backdated to the date of signature as needed.

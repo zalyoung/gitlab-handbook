@@ -44,6 +44,19 @@ following steps:
 Submit the update as `On-hold` (the macro should default it to that for you) and
 the process has been initiated.
 
+### How to mark a ticket as waiting on a RFH
+
+To mark a ticket as waiting on a feature request issue or MR, take the
+following steps:
+
+1. Add the link to the feature request issue or MR in the Zendesk ticket field
+   `Waiting on issue or merge request`. Make sure to remove any extra parameters
+   from the URL (anything after the IID of the issue or MR)
+1. Apply the macro `General::Waiting on RFH`
+
+Submit the update as `On-hold` (the macro should default it to that for you) and
+the process has been initiated.
+
 ### How to re-initiate the process on a ticket
 
 If you need to restart the process, follow the above instructions for

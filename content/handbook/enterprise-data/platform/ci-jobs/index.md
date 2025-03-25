@@ -73,20 +73,6 @@ Clones the entire RAW DB, created due to timeout issues when trying to clone the
 
 Run this if you want to force refresh raw, prod, and prep. This does a full clone of raw, but a shallow clone of `prep` and `prod`.
 
-#### `🔑grant_clones`
-
-Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake role (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLE` variable. This job grants the same `select` permissions as the given role has in `prep` and `prod` for all database objects within the clones of `prep` and `prod`. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
-
-***Since grants are copied from production database permissions, these grants cannot be run on new models.*** If access is needed to new models, permission can be granted by a Data Engineer after the 🔑 `grant_clones` CI job has completed successfully. Ideally a request contains the specific (new) objects or at minimum the schema. There won't be access granted on full databases. Instructions for the Data Engineer can be found in [runbooks/CI_clones](https://gitlab.com/gitlab-data/runbooks/-/tree/main/CI_clones).
-
-**This will be fastest if the Data Engineer is provided with:**
-
-1. the merge request where the new models are being introduced
-1. the fully qualified name (`"database".schema.table`) of the table(s) to which access needs to be granted
-1. the role to which permissions should be granted
-
-The database names for `PREP` and `PROD` can be found in the completed 🔑 `grant_clones` CI job. Linking this job for the DE will also be helpful in expediting this process.
-
 ### 🚂 Extract
 
 These jobs are defined in [`extract-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/extract-ci.yml)
@@ -126,9 +112,8 @@ This pipeline needs to be executed when doing changes to any of the below manife
 This pipeline requires.
 
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
-2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_saas_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_ops`.
-3. Variable `DATABASE_TYPE`(Mandatory): The value of the database type(ops). For example if the modified table was of `ops` database, the variable passed will be `DATABASE_TYPE`=`ops`.
-4. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_saas_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
+1. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_saas_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_ops`.
+1. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_saas_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 ### ⚙️ dbt Run
 
@@ -239,6 +224,12 @@ Runs all the tests
 
 Runs only data tests
 
+#### `🔍ds_exposure_dependencies_query`
+
+This CI job runs automatically whenever SQL files in the dbt project are updated. It checks if any modified models are tied to Data Science exposures and, if so, fails the job while notifying the user. It is then the MR creator’s responsibility to inform the Data Science team, ensuring they have the opportunity to review any potential impact.
+
+By catching these updates early, the job helps maintain smooth Data Science workflows and prevents unintended disruptions from dbt model changes.
+
 #### `🔍tableau_direct_dependencies_query`
 
 This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are **directly** connected to tableau views, tableau data-extracts and/or tableau flows. If they are, the job will fail with a notification to check the relevant dependency. If it is not queried, the job will succeed.
@@ -248,6 +239,7 @@ Current caveats with the job are:
 - It will not tell you which tableau workbook to check
 - It will not tell indirectly connected downstream dependencies. This feature will be a part of upcoming iteration to this job.
 - It does not find dependencies for tables that use a dbt alias. [We discourage the use of aliases](/handbook/enterprise-data/platform/dbt-guide/#general) in models, but there are legacy tables that use aliases, so caution should be exercised when working with aliased tables. Downstream dependencies can be checked manually in MonteCarlo using the alias.
+- If there are any changes in Tableau, like adding or removing dependencies to a dashboard, it can take up to 8 days for Monte Carlo to reflect that change in lineage
 
 ##### Explanation
 
@@ -346,6 +338,12 @@ Runs specified model tests with the variable `DBT_MODELS`
 
 Runs a full seed operation. For use to confirm results when working on changes to the dbt seeds themselves.
 
+#### `run_grants`
+
+Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake roles (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLES` CI variable. You can pass in a single role, or multiple separated by a space as in `role1 role2`. This job checks the git commit for the changed models and verifies that the submitted roles have adequate access in `PREP` and `PROD` to grant access in the clone. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
+
+**Note:** The `run_grants` job can be run multiple times during the development process. If new models are created after the initial run, you can re-run the job to ensure that grants are applied to these new objects as well.
+
 ### 🐍 Python
 
 These jobs are defined in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab-ci.yml).
@@ -402,10 +400,6 @@ Triggered when there is a change to `permissions/snowflake/roles.yml`. Validates
 #### `snowflake_provisioning_snowflake_users`
 
 This job adds/removes specified users and roles directly in Snowflake based on changes to `snowflake_users.yml`.
-
-#### 📈namespace_metrics_check
-
-The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically.
 
 ##### Quick Summary
 
@@ -466,6 +460,10 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 
 Note: `USERS_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
 </details>
+
+#### 📈namespace_metrics_check
+
+The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically.
 
 ### 🛑 Snowflake Stop
 

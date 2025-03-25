@@ -177,9 +177,9 @@ In organizations built on information-based operations, team members' collective
 This is why establishing a transparent [cadence](/handbook/company/cadence/) for decision-making activities, informational updates, and feedback opportunities is important for teams practicing TeamOps. A regular cadence sets a *pace* for productivity and creates predictable, comfortable intervals for work. Establishing and documenting a cadence for everything from operational workflows and [due dates](/handbook/teamops/measurement-clarity/#prioritize-due-dates-over-scope)  to company announcements and team meetings can prevent the kinds of distraction and burnout that often result from context switching, distractive research, or individual uncertainty.
 
 {{% details summary="Examples and resources for cadence" %}}
-**Example:** [GitLab's Quarterly All-Hands Meeting](/handbook/company/gitlab-assembly/)
+**Example:** [GitLab's Quarterly All-Hands Meeting](/handbook/company/gitlab-all-company-meetings/)
 
-At the same time each quarter, executive leadership hosts [GitLab Assembly](/handbook/company/gitlab-assembly/)—a company-wide recap of the past quarter's accomplishments, summary of the new quarter's objectives, and an open-floor Q&A for any employee to resolve questions or concerns. Knowing exactly when this meeting will occur, who will be in attendance, and what will be discussed gives GitLab team members full confidence of when they can have direct access to the executive team about company growth.
+At the same time each quarter, executive leadership hosts [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)—a company-wide recap of the past quarter's accomplishments, summary of the new quarter's objectives, and an open-floor Q&A for any employee to resolve questions or concerns. Knowing exactly when this meeting will occur, who will be in attendance, and what will be discussed gives GitLab team members full confidence of when they can have direct access to the executive team about company growth.
 
 **Resource:** [How to use a business cadence to promote collaboration](https://web.archive.org/web/20231201100335/https://www.hydra.cloud/en/resources/blog/how-to-use-a-business-cadence-to-promote-collaboration) (article)
 {{% /details %}}

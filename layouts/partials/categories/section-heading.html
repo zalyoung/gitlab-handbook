@@ -18,9 +18,10 @@
 {{- $cmTeam := slice }}
 {{- $twTeam := slice }}
 {{- $csTeam := slice }}
-{{- $setTeam := slice }}
+{{- $testTeam := slice }}
 {{- $arTeam := slice }}
 {{- $sreTeam := slice }}
+{{- $setTeam := slice }}
 {{- $remTeam := slice }}
 {{- $sponserTeam := slice }}
 {{- $legalTeam := slice }}
@@ -216,6 +217,14 @@
 {{- end }}
 {{- end }}
 
+{{- with $section_data.tests }}
+{{- range (slice | append .) }}
+{{- with . }}
+{{- $testTeam =  append $testTeam ($team_data.Get . | default slice) }}
+{{- end }}
+{{- end }}
+{{- end }}
+
 {{- with $section_data.pm_team_tag }}
 {{- $pmTeam = append $pmTeam ($team_data.Get . | default slice) }}
 {{- end }}
@@ -227,6 +236,12 @@
 {{- end }}
 {{- with $section_data.fe_team_tag }}
 {{- $feTeam = append $feTeam ($team_data.Get . | default slice) }}
+{{- end }}
+{{- with $section_data.sre_team_tag }}
+{{- $sreTeam = append $sreTeam ($team_data.Get . | default slice) }}
+{{- end }}
+{{- with $section_data.set_team_tag }}
+{{- $setTeam = append $setTeam ($team_data.Get . | default slice) }}
 {{- end }}
 {{- with $section_data.support_team_tag }}
 {{- $supportTeam = append $supportTeam ($team_data.Get . | default slice) }}
@@ -245,9 +260,6 @@
 {{- end }}
 {{- with $section_data.ar_team_tag }}
 {{- $arTeam = append $arTeam ($team_data.Get . | default slice) }}
-{{- end }}
-{{- with $section_data.infra_reliability_team_tag }}
-{{- $sreTeam = append $sreTeam ($team_data.Get . | default slice) }}
 {{- end }}
 {{- with $section_data.legal_team_tag }}
 {{- $legalTeam = append $legalTeam ($team_data.Get . | default slice) }}
@@ -351,6 +363,12 @@
 </tr>
 {{- end }}
 {{- with $setTeam }}
+<tr>
+    <th>Software Engineer in Test</th>
+    <td>{{- range . -}}{{ partial "member/with-team-link" . -}}&nbsp;{{- end -}}</td>
+</tr>
+{{- end }}
+{{- with $testTeam }}
 <tr>
     <th>Test Platform</th>
     <td>{{- range . -}}{{ partial "member/with-team-link" . -}}&nbsp;{{- end -}}</td>
