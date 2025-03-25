@@ -1,7 +1,7 @@
 ---
 title: "Organization Users"
-owning-stage: "~devops::enablement"
-group: Tenant Scale
+owning-stage: "~devops::tenant scale"
+group: Organizations
 toc_hide: true
 ---
 
