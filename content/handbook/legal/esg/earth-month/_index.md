@@ -1,8 +1,7 @@
 ---
-title: "[Earth Month]"
-description: "[GitLab FY26 Earth Month Campaign]"
+title: "GitLab Earth Month 2025"
+description: "GitLab FY26 Earth Month Campaign"
 ---
-# GitLab Earth Month 2025
 
 ## Overview
 
