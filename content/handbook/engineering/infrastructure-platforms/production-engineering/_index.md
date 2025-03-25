@@ -8,3 +8,4 @@ description: "Responsible for operating our multi-tenant SaaS offering - GitLab.
 Platform Engineering consists of:
 
 1. [Observability](./observability/)
+1. [Foundations](./foundations/)

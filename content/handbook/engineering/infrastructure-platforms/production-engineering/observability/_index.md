@@ -1,5 +1,6 @@
 ---
 title: "Observability Team"
+description: "Observability encompasses the technical elements responsible for metrics, logging, and tracing, along with the tools and processes that leverage these components."
 ---
 
 Observability encompasses the technical elements responsible for metrics, logging, and tracing, along with the tools and processes that leverage these components.

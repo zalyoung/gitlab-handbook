@@ -57,4 +57,4 @@ Before you request a bypass, please ensure you have:
    1. The plan of action the customer and/or Support will be following during this bypass period.
    1. The requested duration of the bypass.
 
-The issue will be triaged by the [Production Engineering::Foundations team](../team/foundations/). A request may result in questions for more information. If a request is deemed valid, the Foundations team will seek approval from **Director+ level** of infrastructure engineering. If approval is given, the Foundations team will work to schedule the bypass.
+The issue will be triaged by the [Production Engineering::Foundations team](../../infrastructure-platforms/production-engineering/foundations/_index.md). A request may result in questions for more information. If a request is deemed valid, the Foundations team will seek approval from **Director+ level** of infrastructure engineering. If approval is given, the Foundations team will work to schedule the bypass.

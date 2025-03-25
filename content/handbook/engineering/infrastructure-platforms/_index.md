@@ -60,9 +60,9 @@ flowchart LR
     PRODENG --> Ops
     click Ops "/handbook/engineering/infrastructure/team/ops/"
     PRODENG --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
+    click Foundations "/handbook/engineering/infrastructure-platforms/production-enginering/foundations/"
     PRODENG --> Observability
-    click Observability "/handbook/engineering/infrastructure/team/observability/"
+    click Observability "/handbook/engineering/infrastructure-platforms/production-engineering/observability/"
     PRODENG --> Runway
     click Runway "/handbook/engineering/infrastructure/team/runway/"
     PRODENG --> CC[Cloud Connector]
