@@ -129,8 +129,8 @@ Here's a sample timeline to help you maintain momentum throughout the year:
 
 {{< youtube "0ih0lMoKxN0" >}}
 
-2. Listen to team members share their experiences with non-linear careers at GitLab:
+1. Listen to team members share their experiences with non-linear careers at GitLab:
 
 {{< youtube "ttQv6tCaDD0" >}}
 
-3. If you're in Engineering, check out this [Engineering-specific IGP Template](https://docs.google.com/spreadsheets/d/1hYkaQrPYhnp8V_8woCrig4cqIiL0G7eEzlwBS-7wGPk/edit) that combines the [Engineering Career Framework](/handbook/engineering/careers/matrix/), [Career Conversation Meeting Template](https://docs.google.com/document/d/1ugfwvhOcX6xPuxsn_oqZi7HV8364nQ5VnGO42IDlZkU/edit), and [Job Framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0)
+1. If you're in Engineering, check out this [Engineering-specific IGP Template](https://docs.google.com/spreadsheets/d/1hYkaQrPYhnp8V_8woCrig4cqIiL0G7eEzlwBS-7wGPk/edit) that combines the [Engineering Career Framework](/handbook/engineering/careers/matrix/), [Career Conversation Meeting Template](https://docs.google.com/document/d/1ugfwvhOcX6xPuxsn_oqZi7HV8364nQ5VnGO42IDlZkU/edit), and [Job Framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0)
