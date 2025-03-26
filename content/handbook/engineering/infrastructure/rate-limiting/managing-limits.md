@@ -49,7 +49,7 @@ dedicated -- no --> custom-rule
 ```
 
 > [!note]
-> This document is currently focused on inbound limits such as HTTP traffic,
+> This document is currently focused on inbound limits on HTTP traffic,
 > and may be expanded in the future to account for internal limits between services.
 
 ## Considerations
@@ -72,7 +72,7 @@ Rate limits should be enabled by default. If this is not the case, then this pro
    - See [Rate Limiting: Limits](/handbook/engineering/infrastructure/rate-limiting/#limits) for where these limits are configured.
 1. Compare proposed limit with existing limits
    - Will customers be negatively impacted by introducing this limit?
-   - Are there risks to out platform if we don't introduce these limits?
+   - Are there risks to our platform if we don't introduce these limits?
 1. Where possible, enable in `log` or `track` mode first
    - It should be left in this mode for at least one week to understand weekly traffic patterns.
    - This will allow you to gauge potential impact.
@@ -137,9 +137,44 @@ New rate limits may be created in the ApplicationRateLimiter by following the gu
 
 ## Identifying Potentially Impacted Customers
 
-Cloudflare - Potentially Project ID from URL and IP
-RackAttack - logs contain the user and the IP
-ApplicationRateLimiter - logs contain the Application Rate Limiter keyword
+There are several dimensions you can use when identifying impacted customers.
+
+<table>
+<tr>
+<th>
+
+**Cloudflare**
+</th>
+<td>
+
+* IP
+* Project ID (from URL)
+</td>
+</tr>
+<tr>
+<th>
+
+**RackAttack**
+</th>
+<td>
+
+* Username
+* IP
+</td>
+</tr>
+<tr>
+<th>
+
+**ApplicationRateLimiter**
+</th>
+<td>
+
+* Username
+* IP
+* Project
+</td>
+</tr>
+</table>
 
 Monitoring and metrics around rate limits on GitLab.com are most easily accessed on the [Rate Limiting Dashboard](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1&from=now-6h&to=now&timezone=browser) (internal link).
 
