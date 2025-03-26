@@ -59,7 +59,7 @@ Examples:
 
 ## When you are not sure
 
-- Ask for opinions in [#infrastructure-lounge](https://gitlab.slack.com/archives/CB3LSMEJV) or [#s_production_engineering](https://gitlab.enterprise.slack.com/archives/C07U6SAKS4D)
+- See [guidance on how to get assistance from the Infrastructure Platforms group](/handbook/engineering/infrastructure/getting-assistance/)
 - Open a change management issue, err on the side of caution.
 
 ## Change Request Workflows

@@ -229,8 +229,8 @@ The Infrastructure department hires for a number of different technical speciali
 ### Slack Channels
 
 - [#production](https://gitlab.slack.com/archives/production)
-- [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge)
-- [#incident-management](https://gitlab.slack.com/archives/incident-management)
+- [`#incidents-dotcom`](https://gitlab.enterprise.slack.com/archives/C08FMPK1DDF)
+- [`#infrastructure-platforms-help`](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V)
 - [#announcements](https://gitlab.slack.com/archives/announcements)
 - [#feed_alerts-general](https://gitlab.slack.com/archives/feed_alerts-general)
 

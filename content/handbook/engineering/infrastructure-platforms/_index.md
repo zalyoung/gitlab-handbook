@@ -1,6 +1,6 @@
 ---
 title: "Infrastructure Platforms"
-description: "The Infrastructure Platforms department is responsible for the availability, reliability, performance, and scalability of GitLab SaaS Platforms and supporting services"
+description: "The Infrastructure Platforms department is responsible for the availability, reliability, performance, and scalability of GitLab Infrastructure Platforms and supporting services"
 ---
 
 ## Mission
@@ -19,7 +19,7 @@ For all other queries, please see the [getting assistance](/handbook/engineering
 
 ## Direction
 
-Initiatives driven within the Platforms section, often spanning multiple quarters, are represented on the [SaaS Platforms section epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) (GitLab team member).
+Initiatives driven within the Platforms section, often spanning multiple quarters, are represented on the [Infrastructure Platforms section epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) (GitLab team member).
 
 {{% include "includes/we-are-also-product-development.md" %}}
 
@@ -147,11 +147,11 @@ Our main method of communication is Slack.
 
 If you need assistance with a production issue or incident, please see the section on [getting assistance](/handbook/engineering/infrastructure/getting-assistance/).
 
-**SaaS Platforms**
+**Infrastructure Platforms**
 
 | **Channel** | **Purpose** |
 |-----------|-----------|
-| [#infrastructure_-_platforms](https://gitlab.slack.com/archives/C02D1HQRTKQ) | We collaborate on department level items here. This channel is used to share important information with the wider team, but also serves to align all teams in Platfroms with the common topic. |
+| [#infrastructure_-_platforms](https://gitlab.slack.com/archives/C02D1HQRTKQ) | We collaborate on department level items here. This channel is used to share important information with the wider team, but also serves to align all teams in Platforms with the common topic. |
 | [#g_infrastructure_platforms_leads](https://gitlab.slack.com/archives/C010QV6RRB3) | Communication for managers. Everyone interested is welcome to join this channel if they find the topics interesting. |
 | [confidential managers channel](https://gitlab.enterprise.slack.com/archives/C0808MLEXL1) | Used to discuss staffing issues affecting all teams that require additional coordination. We default to using the public channel as much as possible.|
 | [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) | Our social channel. |
@@ -206,17 +206,17 @@ If you need assistance with a production issue or incident, please see the secti
 |[#g_cells_infrastructure](https://gitlab.enterprise.slack.com/archives/C07URAK4J59) | Discussions and requests specific to the Cells Infrastructure team. |
 |[#f_cells_and_organizations](https://gitlab.enterprise.slack.com/archives/C0609EXHX6F) | Channel for cross-functional discussion and coordination on Cells and Organizations. |
 
-The SaaS Platforms group is gradually directing requests for help to the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
+The Infrastructure Platforms group is gradually directing requests for help to the [#infrastructure-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
 This channel can be used if it is unclear which Infrastructure team the question should be directed to.
 For more information, refer to the [landing page for getting assistance](/handbook/engineering/infrastructure/getting-assistance/).
 
-The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](/handbook/engineering/infrastructure/getting-assistance/) page with any changes.
+The [#infrastructure-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by Infrastructure Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](/handbook/engineering/infrastructure/getting-assistance/) page with any changes.
 
 #### Meetings
 
 Once per week, we hold a `Platforms leads call` to align on action items related to career development, general direction or answer any ongoing questions that have not been addressed async. The call is cancelled when there are no topics added on the morning of the call.
 
-In addition to the `Platforms leads call`, we have some recurring events and reminders that can be viewed in the [SaaS Platforms Leadership Calendar](https://calendar.google.com/calendar/embed?src=c_8a81f7acc76d72b8e4189a61f7a259b9d722e3fe1e05693236f592e7dd52e83b%40group.calendar.google.com). Please add this to your Calendars to stay up-to-date with the various events.
+In addition to the `Platforms leads call`, we have some recurring events and reminders that can be viewed in the [Infrastructure Platforms Leadership Calendar](https://calendar.google.com/calendar/embed?src=c_8a81f7acc76d72b8e4189a61f7a259b9d722e3fe1e05693236f592e7dd52e83b%40group.calendar.google.com). Please add this to your Calendars to stay up-to-date with the various events.
 
 Sr. Director of Infrastructure Marin Jankovski, likes to meet with new team members that join the organization. Marin sets up informal 1:1 coffee chats a few times a month with newer team members to get to know one another and see how they are doing. This process is organized by his EBA who will reach out to team members once he has the availability to meet. As this is a large team, it may take a while to get through everyone.
 If someone needs to meet with Marin sooner than when the coffee chat is scheduled, you can reach out to his EBA Liki Simonot to set something up.
@@ -256,7 +256,7 @@ At the end of the call, a quick vote is held between the attendees and if all ag
 
 On the [landing page for getting assistance](/handbook/engineering/infrastructure/getting-assistance/), we ask team-members who need assistance to raise Requests for Help using standard templates.
 
-These issues are raised in the [request for help issue tracker](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/issues) and are automatically assigned to the Engineering Manager of the relevant SaaS Platforms team.
+These issues are raised in the [request for help issue tracker](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/issues) and are automatically assigned to the Engineering Manager of the relevant Infrastructure Platforms team.
 
 The Engineering Manager is expected to:
 
@@ -283,7 +283,7 @@ Agents responsible for handling these issues are defined in a JSON file, which s
 
 ### Project and Backlog Management
 
-We use epics and issues to manage our work. [Our project management process](/handbook/engineering/infrastructure/platforms/project-management/) is shared between all teams in SaaS Plaforms.
+We use epics and issues to manage our work. [Our project management process](/handbook/engineering/infrastructure/platforms/project-management/) is shared between all teams in SaaS Platforms.
 
 ### Tools
 
@@ -296,7 +296,7 @@ We use objective and key results to set goals in alignment with [OKRs at GitLab]
 
 ### Hiring and Interviewing
 
-[Our hiring process](/handbook/engineering/infrastructure/platforms/hiring/) is shared between all teams in Infrastructure Plaforms.
+[Our hiring process](/handbook/engineering/infrastructure/platforms/hiring/) is shared between all teams in Infrastructure Platforms.
 
 This [Infrastructure Platforms Interviewing Guide](/handbook/hiring/interviewing/infrastructure-interview/) offers more detail on some of our regular openings, interview process and other useful information related to applying to jobs with us. More information on our current openings can be found on the [careers page](https://about.gitlab.com/jobs/).
 
@@ -308,7 +308,7 @@ All team members are encouraged to schedule time for personal development. The f
 
 | Group | Topic |
 |-------|-------|
-| SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
+| Infrastructure Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
 | Delivery Group | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) |
 | Production Engineering Group| [Production Engineering](/handbook/engineering/infrastructure-platforms/production-engineering/) |
 | Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
@@ -326,7 +326,7 @@ All team members are encouraged to schedule time for personal development. The f
 ### Other Slack Channels
 
 - [#production](https://gitlab.slack.com/archives/production)
-- [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge)
+- [#infrastructure-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V)
 - [#incident-management](https://gitlab.slack.com/archives/incident-management)
 - [#announcements](https://gitlab.slack.com/archives/announcements)
 - [#feed_alerts-general](https://gitlab.slack.com/archives/feed_alerts-general)

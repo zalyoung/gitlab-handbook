@@ -162,7 +162,7 @@ The list may not be up to date.  If something is missing, please add it.
   * `cloud-provider-alerts`
 * Infrastructure channels:
   * `sre_standup`
-  * `infrastructure-lounge`
+  * `infrastructure-platforms-help`
   * `infra-lounge-social`
   * `infra-read-feed`
   * `g_delivery`
