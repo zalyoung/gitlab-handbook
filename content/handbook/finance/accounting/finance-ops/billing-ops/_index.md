@@ -19,7 +19,7 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 
 ## Meet the Team
 
-- [Sarah McCauley](/handbook/company/team/#s_mccauley) - Senior Director, Billing & Accounts Receivable (Global)
+- [Tim Cheeney](/handbook/company/team/#tcheeney) - Director, Billing & Collections (Global)
 - [Josephine Hararah](/handbook/company/team/#josephinehararah) - Senior Manager, Billing Operations (Global)
 - [Kinga Polgardi](/handbook/company/team/#kingapolgardi) - Manager, Billing Operations (EMEA and APAC)
 - [Cristine Sotomango Marquardt](/handbook/company/team/#csotomango) - Manager, Billing Operations (AMER)
