@@ -10,7 +10,7 @@ Technical Writing team workflows work in conjunction with the:
 
 The process for creating and maintaining GitLab product documentation depends on whether the documentation is:
 
-- [A new feature or feature enhancement](#documentation-for-a-product-change): Delivered for a specific milestone and associated with specific code changes.
+- [A new feature or feature enhancement](https://docs.gitlab.com/development/documentation/workflow/#documentation-for-a-product-change): Delivered for a specific milestone and associated with specific code changes.
   This documentation has the highest priority.
 
 - [Changes outside a specific milestone](https://docs.gitlab.com/development/documentation/workflow/): Usually not associated with a specific code change, is of lower priority, and
@@ -128,7 +128,7 @@ Stage leads:
 
 - Assume the same [responsibilities](/job-families/product/technical-writer/#responsibilities) as Technical Writers, but with a more targeted focus on proactively creating and improving
 documentation for their assigned stage.
-- Spend approximately 30% of their time on issues and merge requests reviews authored by developers for [new features and enhancements](#documentation-for-a-product-change) for their assigned groups.
+- Spend approximately 30% of their time on issues and merge requests reviews authored by developers for [new features and enhancements](https://docs.gitlab.com/development/documentation/workflow/#documentation-for-a-product-change) for their assigned groups.
 - Spend the remainder of their time:
   - Creating and refining content to address documentation needs and gaps for their assigned **stage**.
     For example, writing tutorials and use case-based content, restructuring existing content, working on the information architecture, and so on.
