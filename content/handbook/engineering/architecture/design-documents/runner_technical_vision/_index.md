@@ -74,24 +74,9 @@ consumed (such as network and disk).
 
 ### Delegation ###
 
-Steps can control the execution of sub-steps by sending a “run up”
-request which is handled by Step Runner. If the run up request asks
-for a separate environment, Step Runner will forward the request back
-to GitLab Runner who will provision a separate environment for the
-requested steps. Results from the run up request are passed back down
-and the originating step can decide what to do with them. E.g. retry,
-ignore, pass onward, etc..
-
-This mechanism allows steps to be encapsulated in a separate
-environment while maintaining control of environments in a single
-place, GitLab Runner. Permission to access additional environments,
-which steps can run in other environments, and additional privileges
-are controlled by policy stored in GitLab and delivered with the job
-payload.
-
 Steps which are capable of creating their own environment locally,
 such as a Docker step, can delegate steps into that environment with a
-regular run (down) request. Having full control of the results, they
+regular run request. Having full control of the results, they
 can decide what to do with them and then incorporate the results in
 the overall tree. In this way the final job results capture step
 execution across environments.
