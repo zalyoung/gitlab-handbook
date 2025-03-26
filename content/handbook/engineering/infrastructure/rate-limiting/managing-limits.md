@@ -147,8 +147,9 @@ There are several dimensions you can use when identifying impacted customers.
 </th>
 <td>
 
-* IP
-* Project ID (from URL)
+- IP
+- Project ID (from URL)
+
 </td>
 </tr>
 <tr>
@@ -158,8 +159,9 @@ There are several dimensions you can use when identifying impacted customers.
 </th>
 <td>
 
-* Username
-* IP
+- Username
+- IP
+
 </td>
 </tr>
 <tr>
@@ -169,9 +171,10 @@ There are several dimensions you can use when identifying impacted customers.
 </th>
 <td>
 
-* Username
-* IP
-* Project
+- Username
+- IP
+- Project
+
 </td>
 </tr>
 </table>
