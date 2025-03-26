@@ -104,7 +104,7 @@ Rate limits should be enabled by default. If this is not the case, then this pro
 
 Enforcing limits at the edge network before traffic reaches the underlying GitLab infrastructure enables us to block malicious traffic before it consumes backend resources, protecting us against large-scale volumetric attacks. This is however limited in the configuration options we can use to limit on - primarily IP address, though there are a few other options.
 
-1. Cloudflare rate limits are managed with Terraform, for GitLab.com through the [cloudflare-waf-rules module](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules). Rules added to this module will affect all other services using this module (currently GitLab Dedicated).
+1. Cloudflare rate limits are managed with Terraform, for GitLab.com through the [`cloudflare-waf-rules` module](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules). Rules added to this module will affect all other services using this module (currently GitLab Dedicated).
 2. When creating a new rule, it is advised to instantiate it with `action = "log"` to analyze impact.
 3. After ensuring the rate limit performs as expected, the rule can be set to `action = "block"` in Terraform.
 
@@ -131,7 +131,7 @@ You can read more information about rate limits specific to GitLab.com, alongsid
 
 ### Rate limits in ApplicationRateLimiter
 
-The GitLab application has simple rate limit logic that can be used to throttle certain actions which is used when we need more flexibility than what Rack Attack can provide, since it can throttle at the controller or API level. These rate limits are configured in [application_rate_limiter.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb). The scope is up to the individual limit implementation and can be any ActiveRecord object or combination of multiple. It is commonly per-user or per-project (or both), but it can be anything, for example the RawController limits by project and path. Currently there is no way to bypass limits created in the ApplicationRateLimiter.
+The GitLab application has simple rate limit logic that can be used to throttle certain actions which is used when we need more flexibility than what Rack Attack can provide, since it can throttle at the controller or API level. These rate limits are configured in [`application_rate_limiter.rb`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb). The scope is up to the individual limit implementation and can be any ActiveRecord object or combination of multiple. It is commonly per-user or per-project (or both), but it can be anything, for example the RawController limits by project and path. Currently there is no way to bypass limits created in the ApplicationRateLimiter.
 
 New rate limits may be created in the ApplicationRateLimiter by following the guide in [GitLab docs](/handbook/product/product-processes/#introducing-application-limits).
 
