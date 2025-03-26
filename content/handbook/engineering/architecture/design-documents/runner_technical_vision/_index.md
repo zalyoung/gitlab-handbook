@@ -130,10 +130,8 @@ to those environments to deliver the job payload and return results.
 
 Executor responsibilities are pull out entirely to one or more
 plugins. E.g. "kubernetes" plugin(s) are capable of customizing pods
-according to job requirements. There is no more “docker” executor,
-just a Docker step which wraps the job payload. There are no more
-built-in services, just service steps which the runner prepends to the
-job payload.
+according to job requirements. There are no more built-in services,
+just service steps which the runner prepends to the job payload.
 
 Even pre-existing "scripts" are wrapped and delivered as step payloads
 so all CI configuration gain the benefits of a unified steps-based
