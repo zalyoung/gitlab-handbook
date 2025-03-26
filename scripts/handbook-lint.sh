@@ -8,10 +8,8 @@ yellow="\033[93m"
 red="\033[31m"
 ERROR_FOUND=false
 
-# Create a code-quality report to populate if it doesn't exist
-if ! [ -f handbook-codequality.json ]; then
-  echo "[]" > handbook-codequality.json
-fi
+# Create the file if it doesn't exist and ensure it's empty
+echo "[]" > handbook-codequality.json
 
 ## MEDIA file checks ##
 # Pull image and video lists
