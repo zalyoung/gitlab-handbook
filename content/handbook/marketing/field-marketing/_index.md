@@ -272,6 +272,10 @@ The global Field Marketing team is working with the Marketing Operations team to
 
 - [Asana](/handbook/marketing/marketing-operations/asana/)
 
+### Asana Marketing Calendar
+
+Please visit the internal handbook page [here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/asana/#fy26-marketing-calendar) for links to our Asana Marketing Calendar that highlights upcoming events and details. 
+
 ### Asana tips and best practices
 
 1. If you do not need a task, please delete all subtasks and then the task itself. This will remove the task from the view of everyone involved and is less confusing. Changing the task status can be overwritten by the rules we have set in place, so it’s better to delete if you aren’t using it. Examples of tasks that should be deleted if you are not using them: Build Landing Page, Email tasks, Build Target List.
@@ -941,14 +945,6 @@ For details on how we handle events please visit the [GitLab Event Information](
 ## AMER Field Marketing Event Tracker for Sales
 
 It is the responsibility of each field marketing manager to ensure that [this tracker](https://docs.google.com/spreadsheets/d/1-McecmJ7MVgdmVrjzBdrxrx6CfJ6U0dqnMILBNl67j0/edit#gid=0) is up to date with all AMER Field Marketing initiatives. Sales should consider this spreadsheet live and current daily.
-
-## Google Calendar links
-
-If you prefer to see the events in an actual calendar view please refer to the following:
-
-- [External virtual events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [GitLab hosted Zoom webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [In person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 ## Suggesting an Event or Tactic
 
