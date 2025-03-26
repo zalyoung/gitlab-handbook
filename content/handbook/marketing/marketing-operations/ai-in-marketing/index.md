@@ -5,6 +5,6 @@ description: "Handbook page that describes how the marketing team leverages AI a
 
 ## Overview
 
-## Resources 
+## Resources
 
 - AI in Marketing Sharing Session Recordings
