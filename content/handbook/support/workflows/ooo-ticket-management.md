@@ -8,7 +8,7 @@ description: How to manage assigned tickets when going on scheduled PTO
 
 These workflows discuss how support engineers can asynchronously manage and summarize on-going assigned tickets within Zendesk before they go on PTO.
 
-### Using the Out Of Offuce Summary macro
+### Using the Out Of Office Summary macro
 
 As part of this workflow, the Support Engineer going on leave will leave notes on currently Open, Pending and On-Hold tickets with a macro. This macro will provide a summary of the ticket, add the Support Engineer to the ticket's CC list, and adds the `out_of_office` summary tag to the ticket. It is recommended to follow this workflow for all high-priority tickets or when taking three or more days of PTO.
 
