@@ -103,10 +103,10 @@ to identify complexity before the build phase, such as by assigning an engineeri
 [DRI](/handbook/people-group/directly-responsible-individuals/) during the design and validation phase.
 
 However, sometimes complexity can't be accurately estimated until development
-work starts. If you anticipate this during planning, consider creating a spike to produce a
-design document. Notify the participants in the issue, especially the PM, that
-a spike is required, create a separate issue and follow these
-steps:
+work starts. If you anticipate this during planning, consider creating a spike and
+[produce a design document](../#design-documents).
+Notify the participants in the issue, especially the PM, that a spike is required,
+create a separate issue and follow these steps:
 
 1. Title the issue with the goal of the spike;
 1. Add the ~spike, ~backend, and corresponding stage/group labels;
@@ -121,6 +121,7 @@ The deliverable is a design document that answers the questions set out in the
 issue description. This can simply be the issue itself, containing a summary
 of the discussion in the description, answers to the questions and links to
 any PoC MRs produced.
+For larger initiatives consider following the [recommendations about design documents](../#design-documents).
 
 #### Collaborating to Improve Velocity
 

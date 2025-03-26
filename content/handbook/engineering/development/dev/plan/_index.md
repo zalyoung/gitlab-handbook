@@ -64,13 +64,7 @@ Everyone is encouraged to move issues to different workflows if they feel they b
 
 If an issue is `> 3 weight`, it should be promoted to an epic (quick action) and split it up into multiple issues. It's helpful to add a task list with each task representing a vertical feature slice (MVC) on the newly promoted Epic. This enables us to practice "Just In Time Planning" by creating new issues from the task list as there is space downstream for implementation. When creating new vertical feature slices from an epic, please remember to add the appropriate labels - `devops::plan`, `group::*`, `Category:*` or `feature label`, and the appropriate `workflow stage label` - and attach all of the stories that represent the larger epic. This will help capture the larger effort on the roadmap and make it easier to schedule.
 
-#### Themes and Design Documents
-
-A small number of high-priority features will be chosen as 'themes' for a period of time.
-Themes provide an opportunity for the whole team to rally around a deliverable, even if they don't contribute directly to it.
-These items are given especially close attention by all those involved with a view to delivering small iterations
-and keeping work unblocked.
-There should never be more than two themes in progress at a time per team.
+#### Design Documents
 
 For all tier T1 and T2 roadmap items, and initiatives spanning multiple milestones, we recommend creating
 [a design document](../../../architecture/design-documents/) using the
@@ -98,7 +92,7 @@ This approach offers several benefits:
 
 This comprehensive approach allows easy onboarding for team members and provides stakeholders with all necessary information in one place.
 
-To implement a theme with a design document:
+This is the recommended workflow for all initiatives:
 
 1. Create a Slack channel with the convention #f_[feature name].
 2. Develop a design document using the Architecture evolution workflow.
