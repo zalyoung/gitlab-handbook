@@ -109,7 +109,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
     1. If the EOC believes the alert is incorrect, comment on the thread in `#production`. If the alert is flappy, create an issue and post a link in the thread. This issue might end up being a part of RCA or end up requiring a change in the alert rule.
 1. _Be inquisitive_. _Be vigilant_. If you notice that something doesn't seem right, investigate further.
 1. The EOC should not consider immediate work on an incident completed until the top description section in the Incident Issue (above the "Incident Review" section) is filled out with useful information to describe all the key aspects of the Incident.
-1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC should start on performing an [incident review](/handbook/engineering/infrastructure/incident-review/), in some cases this may be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
+1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC or whoever is the assigned incident lead should start on performing an [incident review](/handbook/engineering/infrastructure/incident-review/), in some cases this may be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
 
 ### Incident Manager (IM)
 
@@ -126,7 +126,8 @@ When paged, the Incident Managers have the following responsibilities during a S
 1. Ensure that the incident issue is appropriately restricted based on [data classification](#incident-data-classification), to mark the issue as confidential use `/incident field` and set the `Keep GitLab Issue Confidential` to `true`
 1. If present, ensure that the `Summary for CMOC notice / Exec summary` is filled , use the `/incident summary` to do so
 1. Ensure that necessary public communications are made accurately and in a timely fashion by the [Communications Manager](#communications-manager-on-call-cmoc-responsibilities). Be mindful that, due to the directive to [err on the side of declaring incidents early and often](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack), we should first confirm customer impact with the Engineer On Call prior to approving customer status updates.
-1. Ensure that all corrective actions, investigations or followups have corresponding issues created and associated to the incident issue.
+1. Ensure that all necessary Actions are created and assigned to the appropriate engineers. These actions should cover both tasks required during the incident to drive resolution, as well as any post-incident corrective steps.
+To create an action, use the command `/incident action <thing-to-do>` and complete the pop-up form with the relevant details.
 1. Ensuring that the Timeline section of the incident in the `post-incident` tab is accurate and complete with the start and end of the customer impact.
 1. Ensuring that the root cause is stated clearly and plainly in the incident description by updating the `causes` section in the `/incident summary`, or can be alternatively shared as an internal status update using the `:pushpin:` emoji or confidential follow-up if the root cause cannot be made public.
 1. If necessary, help the EOC to engage development using the [InfraDev escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/).
@@ -493,11 +494,11 @@ To that end, we will have:
 
 ### Incident Announcement channels
 
-We have three dedicated incident slack channels where incidents are announced 
+We have three dedicated incident slack channels where incidents are announced
 
-- [#incidents](https://gitlab.slack.com/archives/incidents) : All incidents are announced here 
+- [#incidents](https://gitlab.slack.com/archives/incidents) : All incidents are announced here
 - [#incidents-dotcom](https://gitlab.slack.com/archives/incidents-dotcom) : All .com incidents are announced here
-- [#incidents-dedicated](https://gitlab.slack.com/archives/incidents-dedicated) : All [Dedicated](/handbook/support/workflows/dedicated/) incidents are announced here 
+- [#incidents-dedicated](https://gitlab.slack.com/archives/incidents-dedicated) : All [Dedicated](/handbook/support/workflows/dedicated/) incidents are announced here
 
 ### Status
 
@@ -707,7 +708,7 @@ These labels are always required on incident issues.
 | ----- | ------- |
 | `~Service::*` | Scoped label for service attribution. Used in metrics and error budgeting. |
 | `~Severity::*` (automatically applied) | Scoped label for severity assignment. Details on severity selection can be found in the [availability severities](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) section. |
-| `~RootCause::*` | Scoped label indicating root cause of the incident, this label is only required for incidents with the `~"release-blocker"` label. Ensure to add this label after the incident issue is closed| 
+| `~RootCause::*` | Scoped label indicating root cause of the incident, this label is only required for incidents with the `~"release-blocker"` label. Ensure to add this label after the incident issue is closed|
 
 #### Other Incident Labels
 
