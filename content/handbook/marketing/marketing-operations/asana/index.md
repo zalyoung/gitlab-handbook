@@ -284,7 +284,6 @@ Information coming soon!
 
 Sub-region and country calendars can be syce via Google Calendar, regardless of Asana license. GitLab team members interested in subscribing to a sub-region or country calendar via Google Calendar should visit the [Asana Internal Handbook page](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/asana/#sub-region-and-country-views) for instructions.
 
-
 ### Chrome Browser
 
 Utilize the Asana plugin in your chrome browser to quickly create tasks and add to projects.
