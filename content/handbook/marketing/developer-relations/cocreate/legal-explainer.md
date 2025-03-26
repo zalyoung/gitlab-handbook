@@ -45,9 +45,6 @@ A: No. Once your Corporate CLA is signed, it covers all future contributions.
 **Q: Who owns the intellectual property in our contributions?**
 A: You retain ownership of your contributions while granting GitLab broad permission to use them.
 
-**Q: Does our legal team need to review each contribution before submission?**
-A: No. Once the CLA is signed, technical teams can contribute directly without per-contribution legal review.
-
 ## Getting Started
 
 To expedite the legal process:
