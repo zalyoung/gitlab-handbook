@@ -92,7 +92,7 @@ When estimating the effort involved in upcoming work, we use the same approach a
 
 {{% include "includes/engineering/plan/weighing-bugs.md" %}}
 
-#### Consider a Spike and/or a Design Document
+#### Consider a Spike
 
 Work that arrives in ~"workflow::ready for development" that is out of scope
 or ill-defined should be
@@ -104,7 +104,7 @@ to identify complexity before the build phase, such as by assigning an engineeri
 
 However, sometimes complexity can't be accurately estimated until development
 work starts. If you anticipate this during planning, consider creating a spike and
-[produce a design document](../#design-documents).
+produce a spike report.
 Notify the participants in the issue, especially the PM, that a spike is required,
 create a separate issue and follow these steps:
 
@@ -117,11 +117,11 @@ create a separate issue and follow these steps:
 1. Label with ~"workflow::ready for development" and assign to the current
 milestone.
 
-The deliverable is a design document that answers the questions set out in the
-issue description. This can simply be the issue itself, containing a summary
-of the discussion in the description, answers to the questions and links to
-any PoC MRs produced.
-For larger initiatives consider following the [recommendations about design documents](../#design-documents).
+The deliverable is a spike report that answers the questions set out in the issue description.
+This report is typically documented directly in the spike issue, containing
+the investigation findings, answers to the questions, and links to any PoC MRs produced.
+
+For larger initiatives consider following the [recommendations about creating design documents](../#design-documents).
 
 #### Collaborating to Improve Velocity
 
