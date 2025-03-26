@@ -49,7 +49,7 @@ A: You retain ownership of your contributions while granting GitLab broad permis
 
 To expedite the legal process:
 
-1. Share this document with your legal team
+1. Share this page and [the GitLab DCO & CLA](https://about.gitlab.com/community/contribute/dco-cla/) with your legal team
 2. Contact cla_managers@gitlab.com to initiate the Corporate CLA process
 3. While CLA approval is in progress, consider starting with DCO contributions
 4. Prepare a list of developers who will need to be authorized contributors
