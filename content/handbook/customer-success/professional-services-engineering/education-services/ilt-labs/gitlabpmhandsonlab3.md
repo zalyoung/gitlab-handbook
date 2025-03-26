@@ -163,34 +163,6 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 
 You will later assign individual tasks to iterations (sprints).
 
-## Task F. Create a wiki for project documentation
-
-> If you don't want to keep your documentation in your repository, but you want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git. GitLab wikis support Markdown, Rdoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links. You can read more about wikis [here](https://docs.gitlab.com/ee/user/project/wiki/).
-
-1. Navigate to your **Family Budget Calculator** project in the **Software > Core** subgroup.
-
-1. In the left pane, click **Plan > Wiki**.
-
-1. Click **Create your first page** button in the middle of the page.
-
-1. In the **Title** section, type in `Family Budget Calculator Documentation` as the page title.
-
-1. Paste the following text in the content field underneath the title field.
-
-    ```markdown
-    ## Summary
-
-    The Family Budget Calculator helps households stay on budget and save for the future.
-
-    ## Contact
-
-    Contact <YOUR-NAME> with questions or comments.
-    ```
-
-1. Click **Create Page**. You should see a new Wiki page with the content you created.
-
-> If you'd like, edit the **Family Budget Calculator Documentation** page to add additional content or create additional wiki pages.
-
 ## Suggestions?
 
 If you'd like to suggest changes, please submit them via merge request.
