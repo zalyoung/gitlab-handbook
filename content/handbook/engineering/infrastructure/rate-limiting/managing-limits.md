@@ -30,8 +30,8 @@ flowchart TD
             appratelimiter[ApplicationRateLimiter]
         end
         subgraph cf[Cloudflare]
-            cloudflare-waf-module
-            custom-rule
+            cloudflare-waf-module rule
+            Environment-specific rule
         end
     end
 
@@ -44,8 +44,8 @@ ip-one -- no --> appratelimiter
 ip-two -- yes --> rackattack
 ip-two -- no --> appratelimiter
 
-dedicated -- yes --> cloudflare-waf-module
-dedicated -- no --> custom-rule
+dedicated -- yes --> cloudflare-waf-module rule
+dedicated -- no --> Environment-specific rule
 ```
 
 > [!note]
@@ -73,7 +73,7 @@ Rate limits should be enabled by default. If this is not the case, then this pro
 1. Compare proposed limit with existing limits
    - Will customers be negatively impacted by introducing this limit?
    - Are there risks to our platform if we don't introduce these limits?
-1. Where possible, enable in `log` or `track` mode first
+1. Where possible, enable in [`log`](https://developers.cloudflare.com/firewall/cf-firewall-rules/actions/) or [`track`](https://docs.gitlab.com/administration/settings/user_and_ip_rate_limits/#try-out-throttling-settings-before-enforcing-them) mode first
    - It should be left in this mode for at least one week to understand weekly traffic patterns.
    - This will allow you to gauge potential impact.
    - Use observability tooling (Cloudflare dashboard, logs, metrics) to analyze impact.
@@ -110,7 +110,7 @@ Enforcing limits at the edge network before traffic reaches the underlying GitLa
 
 ### GitLab Dedicated
 
-Rate limits needed for only GitLab Dedicated Tenants (not GitLab.com) will need to be added to Terraform in [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules)
+Rate limits needed for only GitLab Dedicated Tenants (not GitLab.com) will need to be added to Terraform in [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules). For further assistance please open an issue in the [Dedicated Tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues) or [#g_dedicated_team](https://gitlab.enterprise.slack.com/archives/C025LECQY0M) on Slack (internal link).
 
 ## Application
 
