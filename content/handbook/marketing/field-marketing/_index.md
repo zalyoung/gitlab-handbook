@@ -311,8 +311,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
   - FMC adds the `Asana-Sync-Project` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
     - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
     - The BT Bot will also comment in the GitLab issue that the Asana project has been created and will provide the project link.
-- When the Asana project is created, the project will also be automatically added to the [FY26 All Marketing SSoT Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
-  - An integration with our [Google calendar](/handbook/marketing/field-marketing/#google-calendar-links) is coming soon, but for now, the FMC will still need to manually add the event to the appropriate Google calendar by completing that specific task provided in the Asana template for each event.
+- When the Asana project is created, the project will also be automatically added to the [FY26 Asana Marketing Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
 - FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
 - FMC to fill in Event Details from the GitLab issue to the project Overview
 - FMC to add the GitLab issue link to the Asana project in the Overview
