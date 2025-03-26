@@ -192,7 +192,7 @@ Full Parity (Target FY27 Q4 or beyond)
 
 ### Work Streams
 
-#### Backend Essentials ([epic](https://gitlab.com/groups/gitlab-org/-/epics/14111))
+#### Backend Essentials
 
 This is foundational work to integrate the Organization at low levels of the code base.
 Ensure all Organizations are equal by removing references to the Default Organization (ID = 1).
