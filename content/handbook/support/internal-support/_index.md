@@ -124,18 +124,19 @@ For local or sandbox testing purposes, GitLab team members can provision their o
 
    1. Sign in to the [staging Customers Portal](https://customers.staging.gitlab.com) by selecting the **Continue with GitLab.com account** button.
       If you do not have an existing account, you are prompted to create one.
-   1. If you do not have an existing cloud activation code, visit the purchase page for the subscription you'd like to select. The staging Customers Portal links will redirect to a pricing page, so you must navigate directly to the purchase URL. The full list of URLs for staging subscriptions are documented [here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/flows/self_service_flow_urls.md#new-subscription-purchase-links). If you aren't sure which subscription you'd like, **Self-Managed Ultimate** is a good default. 
+   1. If you do not have an existing cloud activation code, visit the purchase page for the subscription you'd like to select. The staging Customers Portal links will redirect to a pricing page, so you must navigate directly to the purchase URL. The full list of URLs for staging subscriptions are documented [here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/flows/self_service_flow_urls.md#new-subscription-purchase-links). If you aren't sure which subscription you'd like, **Self-Managed Ultimate** is a good default.
    1. Purchase the subscription using [a test credit card](https://gitlab.com/gitlab-org/customers-gitlab-com/#testing-credit-card-information).
 
-  Note that both this is a **staging license**, so you must configure your GitLab instance to use the staging Customers Portal. For an Omnibus install, [here](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) is how you point to staging Customers Portal. For GDK, set `export CUSTOMER_PORTAL_URL=https://customers.staging.gitlab.com` in [`env.runit`](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/runit.md).
+  Note that this is a **staging license**, so you must configure your GitLab instance to use the staging Customers Portal. For an Omnibus install, [here](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) is how you point to staging Customers Portal. For GDK, set `export CUSTOMER_PORTAL_URL=https://customers.staging.gitlab.com` in [`env.runit`](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/runit.md).
 
 If for some reason self-provisioning is not working, team members should request a license via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) by selecting
 "Request a team member license" from the drop down options.
 
-If a GitLab team member would like an Ultimate license for GitLab.com, there are two options:
+If a GitLab team member would like an Ultimate subscription for a GitLab.com group, there are two options:
 
-1. Request an Ultimate group license for demo purposes through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GitlabCom_Licensed_Demo_Group_Request). 
-1. [Request an Ultimate license for your personal namespace](/handbook/total-rewards/incentives/#gitlab-ultimate).
+1. Request an Ultimate group subscription for demo purposes through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GitlabCom_Licensed_Demo_Group_Request).
+   1. Alternatively, you can ask to be added to [https://gitlab.com/groups/issue-reproduce](https://gitlab.com/groups/issue-reproduce), an Ultimate group for engineers to verify changes in production.
+1. [Request an Ultimate subscription for your personal namespace](/handbook/total-rewards/incentives/#gitlab-ultimate).
 
 ### Contacting users about GitLab incidents or changes
 
