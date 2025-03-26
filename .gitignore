@@ -27,6 +27,7 @@
 /scripts/issue_log
 handbook-codequality.json
 markdownlint-cli2-codequality.json
+vale-codequality.json
 
 # Ignore new partials and shortcodes added to layout
 /layout/partials
