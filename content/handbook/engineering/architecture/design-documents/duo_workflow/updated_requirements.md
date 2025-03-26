@@ -3,13 +3,13 @@ title: "Duo Workflow Architecture Updated Requirements"
 toc_hide: true
 ---
 
-# Overview
+## Overview
 
 This document is intended to give an overview of the updated requirements onto the Duo Workflow architecture and the context behind them.
 It is based both on the learnings after building out the architecture and delivering it to private beta as well as updated plans towards future product offerings built ontop of it.
 The resulting requirements can if necessary be used to drive subsequent ADRs to change the architecture to support them.
 
-## Background Context
+### Background Context
 
 After building out Duo Workflow there are a few essential pieces of context that should inform future requirements:
 
@@ -22,8 +22,7 @@ After building out Duo Workflow there are a few essential pieces of context that
 1. Customers are [encountering issues](https://gitlab.com/gitlab-org/gitlab/-/issues/527057) with the need to have HTTP/2 enabled for connecting to Duo Workflow from a local machine.
 1. Custom models has been released as a feature for Duo Workflow which increases the expectation that Duo Workflow will need to support this as well.
 
-
-## Requirements for an updated architecture
+### Requirements for an updated architecture
 
 The following requirements come up for Duo Workflow:
 
