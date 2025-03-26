@@ -37,9 +37,9 @@ of the codebase and less repeated work.
 
 For a list of known problems see [GitLab Runner Technical Problems](./problems.md).
 
-# Vision #
+## Vision ##
 
-## Environments ##
+### Environments ###
 
 GitLab Runner is available for all major operating systems and
 architectures. It can run thousands of jobs concurrently in local or
@@ -55,7 +55,7 @@ without losing job state. It provides observability of the remote
 environment capacity and asserts back-pressure in response to resource
 constraints (such as insufficient capacity).
 
-## Job Composition ##
+### Job Composition ###
 
 Jobs are delivered as gRPC payloads. All jobs are composed of steps
 which are executed by an agent (Step Runner) in the job
@@ -72,7 +72,7 @@ its agent in the job environment. Policy may constrain available steps
 and their versions, insert required steps, and constrain resources
 consumed (such as network and disk).
 
-## Delegation ##
+### Delegation ###
 
 Steps can control the execution of sub-steps by sending a “run up”
 request which is handled by Step Runner. If the run up request asks
@@ -96,7 +96,7 @@ can decide what to do with them and then incorporate the results in
 the overall tree. In this way the final job results capture step
 execution across environments.
 
-## Development ##
+### Development ###
 
 Job payloads container steps and calling parameters can be downloaded
 from any environment and run locally for debugging. Or jobs can be
@@ -108,7 +108,7 @@ private catalogs, as well as within the local repository. Steps can be
 marked as deprecated or defective and consumers are automatically
 notified.
 
-## Federated Ownership ##
+### Federated Ownership ###
 
 Common aspects of jobs such as checkout, cache and artifacts are
 implemented as steps, outside GitLab Runner and its agent. Vertical
@@ -120,7 +120,7 @@ exactly what runs in that payload. Ownership of various aspects of job
 execution is federated to specialized teams. E.g. Artifact signing and
 secret management are implemented as steps owned by other teams.
 
-## Unified Execution ##
+### Unified Execution ###
 
 GitLab Runner has one way to execute jobs. All aspects of “executors”
 are implemented by means of encapsulation steps (such as Docker) or as
@@ -137,7 +137,7 @@ Even pre-existing "scripts" are wrapped and delivered as step payloads
 so all CI configuration gain the benefits of a unified steps-based
 execution model.
 
-## Management ##
+### Management ###
 
 GitLab Runner is supported by tools to setup, configure and maintain
 small, medium and large installations. Fleet management tools
@@ -151,7 +151,7 @@ available. Tools to build private images are also available and work
 out-of-the-box. Best practices for GitLab Runner efficiency and
 reliability are implemented in the shared tool set.
 
-## Observability ##
+### Observability ###
 
 Time spans for every job, step and sub-step are exported via
 OpenTelemetry and are available as observability data. Likewise
@@ -169,7 +169,7 @@ for observability purposes, so it can be proxied the the appropriate
 time-series database. Load are also returned to the Job Router for
 autoscaling and routing purposes.
 
-## Routing ##
+### Routing ###
 
 Job routing and autoscaling decisions are made centrally in a simple,
 dedicated routing service. Jobs can be routed around outages and
@@ -182,13 +182,13 @@ Jobs can also be routed according to resource requirements and
 available capacity, reported by individual runners. Jobs can also have
 a relative priority which will affect queuing behavior.
 
-# Architecture #
+## Architecture ##
 
 Arrows are the flow of data
 
 ![Architecture Diagram](tech-arch.drawio.png)
 
-# Resource #
+## Resources ##
 
 - [Vision Walkthrough](https://www.youtube.com/watch?v=CTw3edURsoE)
 - [RunUp and gRPC Steps](https://youtu.be/qkXcL1ulwtY)

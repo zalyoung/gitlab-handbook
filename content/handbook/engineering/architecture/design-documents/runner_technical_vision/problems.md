@@ -6,9 +6,9 @@ owning-stage: "~devops::verify"
 toc_hide: true
 ---
 
-# Problems #
+## Problems ##
 
-## Codebase ##
+### Codebase ###
 
 GitLab Runner's codebase hasn't aged too well and has been extended in
 multiple directions with compromises being made to add new features.
@@ -29,7 +29,7 @@ Challenges:
   dependencies, but the helper binary could be supported with an
   improved separation of concerns.
 
-## Abstract Shell ##
+### Abstract Shell ###
 
 GitLab Runner converts jobs into multiple target scripts that execute
 within the job environment. These scripts perform predefined tasks,
@@ -60,7 +60,7 @@ Challenges:
   shell is often difficult to achieve consistently across all
   supported shells at once.
 
-## Executors ##
+### Executors ###
 
 GitLab Runner's executors handle the logic required to run a job on a
 target platform.
@@ -86,7 +86,7 @@ Challenges:
   example, web terminal support is something that needs
   re-implementing for each executor, so not all executors support it.
 
-## Job micro-managing ##
+### Job micro-managing ###
 
 A job is split into multiple stages: `get_sources`, `restore_cache`,
 `download_artifacts`, `user_script`, `after_script`,
@@ -110,7 +110,7 @@ Challenges:
 - Because Runner controls the execution flow, it cannot crash/exit and
   resume jobs after a restart.
 
-## Configuration ##
+### Configuration ###
 
 Runner's configuration is complex:
 
@@ -141,7 +141,7 @@ Challenges:
   runner (or anything that triggers a config rewrite) discards the
   comments.
 
-## Job logs ##
+### Job logs ###
 
 A job log combines data from various sources, including the runner
 manager, executor, services, user scripts, and more.
