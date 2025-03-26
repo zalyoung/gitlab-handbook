@@ -195,7 +195,7 @@ During each milestone, we create a [Release Post Checklist](https://gitlab.com/g
 
 ### Workflow
 
-Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/ux-department-workflow/) workflows.
+Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/product-designer/) workflows.
 
 #### Starting New Work
 

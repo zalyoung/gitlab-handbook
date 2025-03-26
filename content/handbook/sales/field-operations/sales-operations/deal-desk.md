@@ -216,7 +216,7 @@ The Deal Desk team will be responsible for taking action on feedback received in
 
 ### Key Performance Indicators: Results
 
-To review quarterly KPI results, see: [Deal Desk & Order Management KPI - Results](/handbook/sales/field-operations/sales-operations/Deal-Desk-Order-Mgmt-KPIs/)
+To review quarterly KPI results, see: [Deal Desk & Order Management KPI - Results](/handbook/sales/field-operations/sales-operations/deal-desk-order-mgmt-kpis/)
 
 ### Proactive Opportunity Review
 

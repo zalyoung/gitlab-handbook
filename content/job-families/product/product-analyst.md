@@ -21,7 +21,7 @@ We work in a very unique way at GitLab, where flexibility and independence meet
 a high paced, pragmatic way of working. And everything we do is [in the open](/handbook/).
 
 We recommend looking at our [about page](/handbook/company/) and at the
-[Product Data Insights handbook](/handbook/product/product-analysis) to get started.
+[Product Data Insights handbook](/handbook/product/groups/product-analysis/) to get started.
 
 <a id="base-pa-requirements"></a>
 

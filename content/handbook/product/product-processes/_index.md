@@ -700,7 +700,7 @@ Maturity plans are highly encouraged - but not required - for non-marketing cate
 
 #### Planning and OKRs
 
-[GitLab users quarterly OKRs](/handbook/company/okrs/) that cascade into [Product OKRs](/handbook/product/product-okrs/) and product group OKRs.
+[GitLab users quarterly OKRs](/handbook/company/okrs/) that cascade into [Product OKRs](/handbook/product/product-processes/product-okrs/) and product group OKRs.
 You should have plans for the next three months in terms of driving specific product metrics through discovery and delivery actions.
 You should discuss the product metrics with your manager, your design and engineering counterparts and the actions to reach the results with your design and engineering counterparts.
 
