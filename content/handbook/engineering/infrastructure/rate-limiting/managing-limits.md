@@ -114,7 +114,7 @@ Rate limits needed for only GitLab Dedicated Tenants (not GitLab.com) will need 
 
 ## Application
 
-Enforcing limits in the application level within GitLab itself enable us to be more opinionated, as they are more context aware (understanding GitLab-specific resources) that provide us more granular control over specific features, and supports the ability to apply business logic and user/project-based dimensions to limiting decisions. New Application Rate Limits are configured in the GitLab application code, and should be introduced following the guide in [Product Processes](https://handbook.gitlab.com/handbook/product/product-processes/#introducing-application-limits).
+Enforcing limits in the application level within GitLab itself enable us to be more opinionated, as they are more context aware (understanding GitLab-specific resources) that provide us more granular control over specific features, and supports the ability to apply business logic and user/project-based dimensions to limiting decisions. New Application Rate Limits are configured in the GitLab application code, and should be introduced following the guide in [Product Processes](/handbook/product/product-processes/#introducing-application-limits).
 
 For information about rate limits that are currently configured within a GitLab instance, see the [Rate Limits](https://docs.gitlab.com/security/rate_limits/) docs. For information about rate limits specifically configured to the GitLab.com instance, see [Rate Limits on GitLab.com](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom).
 
@@ -133,7 +133,7 @@ You can read more information about rate limits specific to GitLab.com, alongsid
 
 The GitLab application has simple rate limit logic that can be used to throttle certain actions which is used when we need more flexibility than what Rack Attack can provide, since it can throttle at the controller or API level. These rate limits are configured in [application_rate_limiter.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/application_rate_limiter.rb). The scope is up to the individual limit implementation and can be any ActiveRecord object or combination of multiple. It is commonly per-user or per-project (or both), but it can be anything, for example the RawController limits by project and path. Currently there is no way to bypass limits created in the ApplicationRateLimiter.
 
-New rate limits may be created in the ApplicationRateLimiter by following the guide in [GitLab docs](https://handbook.gitlab.com/handbook/product/product-processes/#introducing-application-limits).
+New rate limits may be created in the ApplicationRateLimiter by following the guide in [GitLab docs](/handbook/product/product-processes/#introducing-application-limits).
 
 ## Identifying Potentially Impacted Customers
 
