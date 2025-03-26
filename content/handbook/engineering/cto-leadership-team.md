@@ -10,7 +10,7 @@ The OCTO is composed of the CTO, the Engineering EBAs, the CTO's People Business
 
 ## Engineering All-Hands
 
-The Engineering All-Hands meeting takes place every 6 weeks, typically on the same day, with time slots to accommodate both EMEA/AMER and APAC/AMER-friendly time zones. Additionally, [CTO Office Hours](/handbook/engineering/engineering-comms/) occur weekly, alternating between EMEA/AMER and APAC/AMER time zones each week.
+The Engineering All-Hands meeting takes place twice per quarter, scheduled at the middle and end of each quarter, with time slots that accommodate both EMEA/AMER and APAC/AMER-friendly time zones. Twice per year, we offer alternative EMEA/APAC and AMER-friendly time slots to better support global team participation. Additionally, [CTO Office Hours](/handbook/engineering/engineering-comms/#synchronous-meetings) occur weekly, alternating between EMEA/AMER and APAC/AMER time zones each week.
 
 The purpose is to share company updates, stay connected, and receive feedback.
 
