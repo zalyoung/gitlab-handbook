@@ -159,11 +159,11 @@ These golden talk slide decks provide storytelling for lightning talks at events
 
 These talks are maintained:
 
-| Title | Area | Focus | Last updated | DRI |
-|-------|------|-------|--------------|-----|
-| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources) | AI, GitLab Duo | Product use cases with Duo | 2024-09-24 | @dnsmichi |
-| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/gitlab-da/use-cases/ai/ai-research/talk-efficient-devsecops-workflows-with-a-little-help-from-ai) | AI, GitLab Duo | Generic use cases talk for public events (no product pitches) | 2024-09-30 | @dnsmichi |
-| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | CI/CD | Practical migration help | 2024-05-17 | @dnsmichi |
+| Title | Area | Focus | Resources | Last updated | DRI |
+|-------|------|-------|-----------|--------------|-----|
+| Efficient DevSecOps workflows with a little help from AI | AI, GitLab Duo | Product use cases with Duo | DACH Roadshow FY25 slides: [public](https://go.gitlab.com/JRFMG4), [internal](https://docs.google.com/presentation/d/1Pm8yT46jpcc3kY0PLZqZlG2slIiFyZiQPKFEgyqqstw/edit)  | 2024-11-14 | @dnsmichi |
+| Efficient DevSecOps workflows with a little help from AI | AI, GitLab Duo | Generic use cases talk for public events (no product pitches) | IT-Tage 2024 slides: [public](https://go.gitlab.com/YlLLnH), [internal](https://docs.google.com/presentation/d/17OufBjR-tOzZdgm-J9z8_6B7Gcz5Zypht1Q3ebV_Wro/edit), [GitLab project](https://gitlab.com/gitlab-da/use-cases/ai/ai-research/talk-efficient-devsecops-workflows-with-a-little-help-from-ai) | 2024-12-09 | @dnsmichi |
+| Efficient DevSecOps workflows with reusable CI/CD components | CI/CD | Practical migration help | Chemnitz Linux Days slides: [public](https://dnsmichi.click/cicdcomp-clt2025), [internal](https://docs.google.com/presentation/d/14D0bn9_OO0zO5trQCWIzghEIdnppqTst2mRVCMVpk-o/edit), and [recording](https://streaming.media.ccc.de/clt25/relive) | 2025-03-22 | @dnsmichi |
 
 ### Projects
 
