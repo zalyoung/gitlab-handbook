@@ -388,7 +388,7 @@ Considerations for data seeding scripts:
 
 #### Feature Flags
 
-We [use feature flags as needed](/handbook/product-development-flow/feature-flag-lifecycle) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
+We [use feature flags as needed](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
 
 The following roles and responsibilities are associated with feature flags we own:
 
