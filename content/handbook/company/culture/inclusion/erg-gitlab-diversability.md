@@ -21,6 +21,7 @@ Also, we act as a support group. Whether it's async in Slack or live during a me
 - James Hebden
 - James Moverly
 - Flavia Costa
+- [Jess Perry](https://gitlab.com/jess_perry) 
 
 ## Executive Sponsor
 
