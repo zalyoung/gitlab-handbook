@@ -8,7 +8,7 @@ description: How to manage assigned tickets when going on scheduled PTO
 
 These workflows discuss how support engineers can asynchronously manage and summarize on-going assigned tickets within Zendesk before they go on PTO.
 
-### Using the OOO Ticket Summary macro
+### Using the Out Of Offuce Summary macro
 
 As part of this workflow, the Support Engineer going on leave will leave notes on currently Open, Pending and On-Hold tickets with a macro. This macro will provide a summary of the ticket, add the Support Engineer to the ticket's CC list, and adds the `out_of_office` summary tag to the ticket. It is recommended to follow this workflow for all high-priority tickets or when taking three or more days of PTO.
 
@@ -30,7 +30,7 @@ When planning PTO with high-priority tickets in your queue:
 1. Conduct a warm handover with the new assignee:
    - Schedule a pairing session or have a detailed Slack discussion.
    - Walk through the ticket details, customer context, and current status.
-   - Apply the OOO Ticket Summary macro using the below Flow Chart Workflow.
+   - Apply the `Out Of Office Summary` macro using the below Flow Chart Workflow.
    - The new Assignee takes assignment of the ticket.
 
 #### For Severity 3 and Below Tickets
@@ -45,7 +45,7 @@ For lower-priority tickets:
 
 Go to the My Assigned Tickets view in Zendesk. For each ticket you wish to summarize because you anticipate on-going work will be required, do the following:
 
-1. Use the OOO Ticket Summary macro.
+1. Use the `Out Of Office Summary` macro.
 2. Fill in the sections of the internal note with details for your peers. It is important that you summarize:
    - What is the problem to be solved?
    - Action Taken?
@@ -80,16 +80,16 @@ flowchart TD
     SetPending --> ApplyMacro[Apply OOO Ticket Summary Macro]
     
     
-    subgraph MacroDetails [OOO Ticket Summary Macro Details]
+    subgraph MacroDetails [out of office summary]
         ApplyMacro --> Summary[Add Ticket Summary]
         Summary --> AddOOOTag[Add out_of_office Tag]
         AddOOOTag --> AutoUnassign[Note: Ticket will auto-unassign if customer responds]
-        AutoUnassign --> DocumentDetails[Document:
-- Problem Description
-- Action Taken
-- Next Steps Needed
-- Blockers
-- Return Date]
+        AutoUnassign --> DocumentDetails[Document: 
+        - Problem Description 
+        - Action Taken 
+        - Next Steps Needed 
+        - Blockers 
+        - Return Date]
     end
 ```
 
