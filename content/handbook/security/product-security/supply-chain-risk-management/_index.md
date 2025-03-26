@@ -1,5 +1,6 @@
 ---
 title: "Supply Chain Risk Management Strategy"
+description: "<description here>"
 ---
 
 ## Introduction
