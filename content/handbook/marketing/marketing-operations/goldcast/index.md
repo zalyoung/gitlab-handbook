@@ -221,7 +221,7 @@ When the Goldcast event and Marketo program are connected, Goldcast will automat
 
 ## Navigating Inside a Goldcast Event, pre-live
 
-From within a Goldcast event, there are a four primary tabs most will utilize: `Event`, `Registration`, `Analytics` and `Edit Event`. The `Email` and `Integrations` tabs are likely to go unused by most, as those deal with email schedules and the Marketo integrations --which are already set--. However, in the event of the Marketo token sync failing, the FORM ID and EVENT ID are located in the Integrations menu 
+From within a Goldcast event, there are a four primary tabs most will utilize: `Event`, `Registration`, `Analytics` and `Edit Event`. The `Integrations` tab is likely to go unused by most, as that deals with the Marketo integrations --which are already set--. However, in the event of the Marketo token sync failing, the FORM ID and EVENT ID are located in the Integrations menu. The `Email` tab will only really be utilized when needing to send reschedule related emails, as described further down this page, or cancellation emails. 
 
 ### Edit Event Menu
 
@@ -296,6 +296,16 @@ An on-demand Stage template is pre-made and included on all webcast events. Chec
 ## Webcasts Subdomain
 
 Goldcast hosts a list of its hosted webcasts under the subdomain https://webcasts.gitlab.com/. Future iterations will add to this functionality 
+
+## Rescheduling and Canceling Events
+
+To reschedule an event, select the `Edit Event` menu and change the date and time to the new desired time. There will be a prompt asking if there is to be an email deployed informing registrants of the time change. Exit the alert **without** sending the email because that email will be unbranded, only including a calendar invite. 
+
+To cancel an event, send out a notification email as described in the next paragraph **before** deleting the event. Once the email alert has been deployed, the `Delete Event` button can be found at the bottom of the `Edit Event` menu.
+
+To send a custom email, within the main event menu select into the `Email` menu. Within that menu, select `Send Custom Email`. Fill in the `Email Subject` with the appropriate title and for the email template select the pre-made template named `[Reschedule] Default GitLab Template` or `[Cancellation] Default GitLab Template`. Complete the email send by hitting the `Send to Registrants` button.
+
+If the event has been rescheduled, change the Marketo program name to match the new date. If the event has been canceled, ping in the mktgops slack channel to have the program deleted or delete the program if you have the permissions.
 
 ## Content Hub
 
