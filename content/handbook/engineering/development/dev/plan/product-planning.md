@@ -121,13 +121,13 @@ The deliverable is a spike report that answers the questions set out in the issu
 This report is typically documented directly in the spike issue, containing
 the investigation findings, answers to the questions, and links to any PoC MRs produced.
 
-For larger initiatives consider following the [recommendations about creating design documents](../#design-documents).
+For larger initiatives consider following the [recommendations about creating design documents](_index.md#design-documents).
 
 #### Collaborating to Improve Velocity
 
 As a team we often work on features that require close collaboration. We've identified a list of techniques and characteristics that help projects like this proceed at a pace that is sustainable, predictable, and challenging, yet rewarding. An example of such feature was [Epic Linking](https://gitlab.com/groups/gitlab-org/-/epics/7546).
 
-1. Feature is designed and broken down in advance of milestone start, including a [spike](#consider-a-spike-andor-a-design-document) if appropriate.
+1. Feature is designed and broken down in advance of milestone start, including a [spike](#consider-a-spike) if appropriate.
 1. Participants in the spike take part in delivery of the feature.
 1. Prior to closing the description is updated with Acceptance Criteria, with sign-off by each assignee + PM. This is what will be delivered.
 1. For efforts that are part of larger initiatives (like [Work Items](https://docs.gitlab.com/ee/development/work_items.html)), architectural documents are kept up to date with larger decisions; for example, around API design or functionality.
@@ -186,7 +186,7 @@ To determine whether an issue or task is suitable to be deemed `ready for develo
 7. In case of feature development, a weight has been added and confirmed with at least one other engineer (preferably a domain expert).
    - In case an item is weighed as `4` or above, domain expert can provide guidance on breaking down this issue into separate issues (or tasks).
 
-> During the process of populating an Issue or Task for engineering work, we will probably need to ask questions for extra clarity or to help prevent us from making assumptions. We may also feel we don't have enough information to be able to properly break down work into suitably sized chunks. Consider [a spike](#consider-a-spike-andor-a-design-document) where the path forward is not clear.
+> During the process of populating an Issue or Task for engineering work, we will probably need to ask questions for extra clarity or to help prevent us from making assumptions. We may also feel we don't have enough information to be able to properly break down work into suitably sized chunks. Consider [a spike](#consider-a-spike) where the path forward is not clear.
 
 #### Why?
 
@@ -209,7 +209,7 @@ Using health status allows stakeholders, such as product and engineering manager
 
 #### Documentation
 
-Documentation should accompany code for any [new or changed functionality](/handbook/product/ux/technical-writing/workflow/#for-a-product-change) as per our
+Documentation should accompany code for any [new or changed functionality](/handbook/product/ux/technical-writing/workflow/#documentation-for-a-product-change) as per our
 [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done). This can become tricky when collaborating on a feature that is
 behind a feature flag.
 
