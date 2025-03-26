@@ -6,7 +6,7 @@ The CTO Leadership Team is composed of the CTO's direct reports and the Office o
 
 ## Office of the CTO (OCTO)
 
-The OCTO is composed of the CTO, the Engineering EBAs, the CTO's People Business Partners, and the CTO's Director of Strategy and Operations. This team works to amplify the CTO's reach, vision, and mission. They work together to deliver programs and results across the entire Engineering Division.
+The OCTO is composed of the CTO, the Engineering EBAs, the CTO's People Business Partners, and the CTO's Director of Technical Program Management. This team works to amplify the CTO's reach, vision, and mission. They work together to deliver programs and results across the entire Engineering Division.
 
 ## Engineering All-Hands
 
