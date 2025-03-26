@@ -60,73 +60,59 @@ We provide comprehensive security governance, field security expertise, and auto
 - Development and maintenance of department-level metrics
 - Technical ownership of data sources for Security Assurance team metrics
 
-### Roles and responsibilities
+### Operating Model
 
-Please refer to the following roles and responsibilities for Governance and Field Security team members. All three specialties (Governance, Field Security, Sec. Assurance Automation) can be found under each job grade:
+#### Core Processes
 
-[Security Assurance team member roles and responsibilities](/job-families/security/security-assurance-job-family/)
-{.h4}
+#### Engagement Models
 
-## Program goals
+#### Communication Channels
 
-### Field Security
+### Success Metrics
 
-- Help to increase monthly ARR for the company through customer assurance activities
-- Support customer security needs and requirements to drive customer attainment, retention, and satisfaction
-- Increase awareness of GitLab's security capabilities and GitLab Inc's security controls through external evangelism activities
+#### Field Security
 
-### Governance
+- Monthly ARR increase attributed to customer assurance activities
+- Customer self-serve through the Trust Centre
+- Number and reach of external evangelism activities
 
-- Improve general internal security awareness, including Phishing awareness, for all team members
-- Develop role based security training for high risk team members
-- Maintain awareness of existing and new regulatory and compliance requirements, and feed that information to relevant teams for triage and action
-- Develop and maintain a holistic set of policies and procedures to support regulatory, compliance, and operational requirements
+#### Governance
 
-### Automation
-
-- Reduce manual efforts through automation and simplification of new and existing processes
-- Streamline and enhance Security Assurance tooling through native and custom built integrations and products
-- Improve the effectiveness and efficiency of existing and new processes through automation
-- Champion an engineering mindset for Assurance processes and programs
-- Automate compliance controls and compliance control monitoring processes
-- Reduce the amount of time consumed by manual tasks.
-
-## Program scope
-
-### Field Security
-
-The scope of the Field Security program is company-wide. Field Security collaborates with all cross-functional teams to support the execution of customer assurance, external evangelism, and security sales enablement activities.
-
-### Governance
-
-The scope of the Governance program is company-wide. Governance collaborates with all cross-functional teams to support security awareness, internal security evangelism, automation, policy and procedure management, and compliance monitoring and oversight activities.
+- Security awareness training completion rates
+- Actual phish numbers tracked by SecOps
 
 ### Automation
 
-The scope of the Automation program is primarily Assurance, with impacts company-wide as Security Assurance works across the company. Automation collaborates with cross-functional teams to develop automated solutions to increase security efficiency, accuracy, and scope for all other Assurance programs.
+- Time saved through process automation
+- Percentage of manual processes automated
+- Efficiency improvements in security assurance processes
+- Average weight closed by business day for each GAS milestone
 
-## Strengths and skills
+### FY26 Strategic Initiatives
 
-### Field Security
+#### Primary Focus Areas
 
-- Great interpersonal skills
-- Effective time management
-- Detail oriented
-- Broad understanding of security related topics
-- Effective communication skills
+Field Security: Increase company ARR through enhanced customer assurance
+Governance: Implement role-based security training for high-risk teams
+Automation: Insource assurance capabilities through custom solutions
 
-### Governance
+#### AI Integration
 
-- Process and detail oriented
-- Technical acumen
-- Analytical acumen
-- Attention to diverse audiences
-- Effective communication skills
+Field Security: Leveraging AI questionnaire automation to streamline the questionnaire writing process
 
-### Automation
+Governance: Using AI-developed security awareness content
 
-- Technical acumen
-- Analytical acumen
-- Growth and efficiency mindset approach to problems
-- Cross-program relationships identification and integration
-- Effective communication skills
+Automation:
+- Duo was heavily used to help with GitLab Assistant testing
+- AI powered workflows for Assurance are getting developed leveraging the Anthropic API
+
+### Review and Updates
+This charter will be reviewed and updated quarterly to ensure alignment with:
+
+- GitLab's overall security strategy
+- Evolving customer security requirements
+- Regulatory and compliance changes
+- Field Security and Governance program effectiveness
+- New roadmap changes to the Automation team
+
+Next scheduled review: June 25, 2025
