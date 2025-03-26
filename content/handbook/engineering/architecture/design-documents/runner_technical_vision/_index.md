@@ -186,7 +186,7 @@ a relative priority which will affect queuing behavior.
 
 Arrows are the flow of data
 
-![Architecture Diagram](tech-arch.drawio.png)
+![Architecture Diagram](/images/handbook/engineering/architecture/design-documents/runner_technical_vision/tech-arch.drawio.png)
 
 ## Resources ##
 
