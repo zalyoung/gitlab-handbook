@@ -165,6 +165,11 @@ Responsibilities of this role:
 
 The EOC Coordinator will work closely with the Ops Team on core on-call and incident management concerns, and engage other teams across the organization as needed.
 
+### Tier 2 Oncall
+
+If needed , A team can be added to an additional tier of on-call support to complement the first responder SRE’s.
+Follow the guidelines in [Tier 2 Oncall Onboarding for teams](/handbook/engineering/infrastructure/incident-management/tier2-oncall-onboarding)
+
 ### Communications Manager on Call (CMOC) Responsibilities
 
 For serious incidents that require coordinated communications across multiple channels, the Incident Manager will rely on the CMOC for the duration of the incident.
