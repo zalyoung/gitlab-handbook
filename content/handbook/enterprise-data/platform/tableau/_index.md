@@ -479,7 +479,7 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 
 ### Getting Started
 
-Users can request access to Tableau through the Okta portal using the [Lumos application](https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/ar/). Follow these steps to submit your request for Tableau:
+Users can request access to Tableau through the Okta portal using the [Lumos application](/handbook/security/corporate/systems/lumos/ar/). Follow these steps to submit your request for Tableau:
 
 - Log in to the Okta portal
 - Search for and select the "Lumos" application
