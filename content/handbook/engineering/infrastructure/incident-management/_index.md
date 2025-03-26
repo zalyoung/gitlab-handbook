@@ -167,7 +167,7 @@ The EOC Coordinator will work closely with the Ops Team on core on-call and inci
 
 ### Tier 2 Oncall
 
-If needed , A team can be added to an additional tier of on-call support to complement the first responder SRE’s.
+Tier 2 on-calls are established to provide subject matter expertise when required. Additional teams may be added when appropriate.
 Follow the guidelines in [Tier 2 Oncall Onboarding for teams](/handbook/engineering/infrastructure/incident-management/tier2-oncall-onboarding)
 
 ### Communications Manager on Call (CMOC) Responsibilities
