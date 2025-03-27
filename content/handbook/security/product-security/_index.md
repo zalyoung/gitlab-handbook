@@ -1,5 +1,6 @@
 ---
 title: "Product Security"
+description: "Product Security's mission is to set the standard for product security by fostering a culture of rapid innovation and secure product delivery. We are committed to leveraging the GitLab platform, embodying the pinnacle of internal usage ('dogfooding') practices."
 ---
 
 Aligned with GitLab's overarching information security strategy and its three-year plan, the Product Security Department (PSD) within the Security Division is responsible for crafting and directing a comprehensive vision to bolster the cybersecurity posture of the GitLab platform.
