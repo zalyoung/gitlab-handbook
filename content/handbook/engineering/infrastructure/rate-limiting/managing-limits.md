@@ -30,8 +30,8 @@ flowchart TD
             appratelimiter[ApplicationRateLimiter]
         end
         subgraph cf[Cloudflare]
-            cloudflare-waf-module rule
-            Environment-specific rule
+            cwm[cloudflare-waf-module rule]
+            env[Environment-specific rule]
         end
     end
 
@@ -44,8 +44,8 @@ ip-one -- no --> appratelimiter
 ip-two -- yes --> rackattack
 ip-two -- no --> appratelimiter
 
-dedicated -- yes --> cloudflare-waf-module rule
-dedicated -- no --> Environment-specific rule
+dedicated -- yes --> cwm
+dedicated -- no --> env
 ```
 
 > [!note]
