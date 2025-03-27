@@ -22,10 +22,9 @@ After building out Duo Workflow there are a few essential pieces of context that
 1. Customers are [encountering issues](https://gitlab.com/gitlab-org/gitlab/-/issues/527057) with the need to have HTTP/2 enabled for connecting to Duo Workflow from a local machine.
 1. Custom models has been released as a feature for Duo Workflow which increases the expectation that Duo Workflow will need to support this as well.
 
-### Requirements for an updated architecture
 
-The following requirements come up for Duo Workflow:
-
-1. Allow for easy setup for completely self-managed installations, where every infrastructure runs on-prem at customers.
-1. Support streaming responses since this is a core capability for chat-like interfaces.
-...
+### Open questions
+1. Should we continue to use gRPC with its need for HTTP/2 even though it can create networking problems for enterprise customers?
+2. Should we create a separate Executor, built into the Language-Server, to simplify development for the IDE agent and enable streaming support?
+3. Should we merge Duo Workflow Service into AI gateway to simplify self-managed setup and reduce potential double work as more and more features become agentic?
+4. How should state management for Duo Workflow look like in the future, considering the outlined context?
