@@ -31,7 +31,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Sales](/handbook/sales/) | **Carla Sylva**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
 | [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Nick Cayou (VP of WW Channels & Alliances) |
-| [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of Public Sector Sales) <br> Darren Moffett (VP of AMER Sales) |
+| [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of AMER Sales) |
 | [Sales](/handbook/sales/) | **Oana Migeon**<br>EBA | Michel Isnard (VP of EMEA Sales) |
 | [Security](/handbook/security/) | **Marisa Carlson**<br>Staff EBA  | Josh Lemos (CISO) <br> Julie Davila (VP of Product Security)  |
 
