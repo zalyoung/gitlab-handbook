@@ -226,43 +226,15 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Edit the `.gitlab-ci.yml` file.
 
-1. Copy and paste this to overwrite all of the contents of your `.gitlab-ci.yml` file. This has commented out sections of jobs and scanners that we won't be using for the rest of the class to speed up our pipeline.
+1. Copy and paste this to overwrite all of the contents of your `.gitlab-ci.yml` file. This is to ensure that we do not have any unnessescary scanners running that would slow down our pipeline. We are keeping the SAST job in order to maintain the `.gitlab-ci.yml` file's formatting.
 
     ```yml
     stages:
-    # - build
     - test
-    # - dast
 
     include:
     - template: Security/SAST.gitlab-ci.yml
-    # - template: Security/Secret-Detection.gitlab-ci.yml
-    # - template: DAST.gitlab-ci.yml
-    # - template: Security/Container-Scanning.gitlab-ci.yml
-
-    # variables:
-    #  SAST_EXCLUDED_PATHS: venv/
-    #  DAST_WEBSITE: https://example.com
-
-    #secret_detection:
-    #  variables:
-    #    SECRET_DETECTION_EXCLUDED_PATHS: tests/
-
-    #build-and-push-docker-image:
-    #  stage: build
-    #  image: docker:20.10.17
-    #  services:
-    #    - docker:20.10.17-dind
-    #  variables:
-    #    IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-    #    DOCKER_TLS_CERTDIR: ""
-    #  script:
-    #    - docker build --tag $IMAGE .
-    #    - docker login --username $CI_REGISTRY_USER --password $CI_REGISTRY_PASSWORD $CI_REGISTRY
-    #    - docker push $IMAGE
     ```
-
-    > Note that we need to keep at least one job enabled for the pipeline to succeed. In this example, the SAST job is left enabled since it is the quickest to complete.
 
 1. Set the commit message to `Lab 3 pipeline reset` and commit your changes to the `main` branch.
 

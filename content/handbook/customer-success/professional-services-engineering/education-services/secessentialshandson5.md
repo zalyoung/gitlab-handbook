@@ -92,9 +92,7 @@ flowchart TD
 
    ```yml
    stages:
-   # - build
    - test
-   # - dast
    - fuzz
    ```
 
@@ -102,10 +100,6 @@ flowchart TD
 
    ```yml
    include:
-   # - template: Security/SAST.gitlab-ci.yml
-   # - template: Security/Secret-Detection.gitlab-ci.yml
-   # - template: DAST.gitlab-ci.yml
-   # - template: Security/Container-Scanning.gitlab-ci.yml
    - template: Coverage-Fuzzing.gitlab-ci.yml
    ```
 
