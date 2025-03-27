@@ -104,7 +104,7 @@ Please take time to understand any code that you are asked to copy and paste in 
     >
     > As an example, Python projects often contain a `venv` directory that contains packages used by the project. Since this directory does not contain our own source code, we should exclude it from the SAST scan.
     >
-    > A full list of SAST variables can be found in the [https://docs.gitlab.com/ee/user/application_security/sast/#available-cicd-variables](documentation).
+    > A full list of SAST variables can be found in the [https://docs.gitlab.com/user/application_security/sast/#available-cicd-variables](documentation).
 
 1. Click the **Commit changes** button, add an appropriate commit message (ex. `Add SAST template to .gitlab-ci.yml`),  and ensure that the 'Commit to the current `main` branch option is selected.
 
@@ -253,7 +253,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > To configure Secret Detection to use non-default behavior, you can override the **secret_detection** job definition and add variables inside it.
     >
-    > A full list of Secret Detection variables can be found in the [https://docs.gitlab.com/ee/user/application_security/secret_detection/#available-cicd-variables](documentation).
+    > A full list of Secret Detection variables can be found in the [https://docs.gitlab.com/user/application_security/secret_detection/pipeline/configure/#customize-analyzer-behavior](documentation).
 
 1. Your `.gitlab-ci.yml` file will now look like this.
 
