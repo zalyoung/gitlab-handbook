@@ -47,7 +47,7 @@ Track and measure Covered Experiences across GitLab services, establishing a fra
 
 ### How do Covered Experiences relate to User Journeys?
 
-Covered Experiences are small interactions that users can make within a User Journeys. Covered experiences focus specifically on single-actions users do that can be tracked and monitored through SLIs. While User Journeys represent comprehensive end-to-end paths a user might within the application, throughout their journey they will pass through many Covered Experiences.
+Covered Experiences are small interactions that users do on the platform. Covered experiences focus specifically on single-actions users do that can be tracked and monitored through SLIs. While User Journeys represent comprehensive end-to-end paths a user might within the application. A User Journey can consist of many Covered Experiences, and a single Covered Experience can be part of many User Journeys.
 
 Key relationships between the two concepts:
 
