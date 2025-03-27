@@ -223,7 +223,7 @@ To investigate SAML login problems:
 In the `pubsub-rails-inf-gprd-*` log:
 
 1. Set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
-1. Add a positive filter as advised in [our SAML groups docs](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/#searching-rails-log-for-a-saml-response).
+1. Add a positive filter as advised in [our SAML groups docs](https://docs.gitlab.com/user/group/saml_sso/troubleshooting/#search-rails-logs-for-a-saml-sign-in).
 
 After decoding the SAML response, and observing the results corresponding to your chosen filters, you can see if there are any missing or misconfigured attributes.
 
