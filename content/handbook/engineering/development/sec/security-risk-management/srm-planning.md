@@ -209,7 +209,10 @@ The issue verification should be done by someone else other than the MR author[^
 
 ## Planning for PTO
 
-We follow the [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) and the engineering process to [create PTO Coverage](/handbook/engineering/#1-creating-an-engineering-coverage-issue) issues. PTO Coverage issues are recommended for 3 days or more. 
+
+1. Grade 8 team members (EMs, Staff+) should create PTO Coverage issues in the centralized [Engineering Division / PTO Coverage](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new?description_template=Default) project.
+1. Other team members should create PTO coverage issues in our [Security Risk Management](https://gitlab.com/gitlab-com/security-risk-management-stage/-/issues/new?description_template=ooo_template) project.
 
 ## Epic Engineering DRI
 
