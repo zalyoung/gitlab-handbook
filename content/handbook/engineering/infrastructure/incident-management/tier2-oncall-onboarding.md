@@ -25,7 +25,7 @@ The Tier-2 SME on-call program enhances incident response by establishing a seco
    - Identify team members who will participate in the rotation
    - Consider legal and employment restrictions for out-of-hours coverage
 2. **Create onboarding issue**
-   - Use the [Team incident onboarding template](<to-be-updated>)
+   - Use the [Team incident onboarding template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?description_template=team-incident-onboarding)
    - Document escalation criteria and severity levels
 3. **Set up on-call rotation**
    - Configure schedules in incident.io
