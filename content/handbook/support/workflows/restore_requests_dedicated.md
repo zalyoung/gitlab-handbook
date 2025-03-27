@@ -14,12 +14,11 @@ Use this workflow when a customer requests that we restore projects or groups th
 1. Work with the customer to explore the self-serve options for recovering this data. Specifically:
    1. Have the customer [view project pending deletion](https://docs.gitlab.com/user/project/working_with_projects/#view-projects-pending-deletion). If [delayed project deletion](https://docs.gitlab.com/user/project/working_with_projects/#delayed-project-deletion) is enabled, they may be able to **Restore** the deleted project(s).
    1. Have the customer check whether having one of their team members [`git push` a local clone](https://docs.gitlab.com/topics/git/project/) would suffice, clarifying that project issues, merge requests, settings etc. won't be recovered. 
-1. If the customer can not self-serve the recovery, open an [RFH](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?description_template=SupportRequestTemplate-GitLabDedicated) to discuss the feasibility of a restore.
-   1. Note that requests to restore a single project for a single user will be declined.
-   1. For all other requests, refrain from letting the customer know that we **will** or **won't** be able to restore until the feasibility assessment is complete in the RFH
-1. Follow up with the customer based on the result of the conversation in the RFH  
+1. If the customer can not self-serve the recovery, inform them that we will not be able to assist further with the request 
 
-If you are unsure how to communicate the result of the RFH to the customer, you can ask in [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) or reach out to the customer's CSM.
+If you are unsure how to communicate this news to the customer, ask in [#support_gitlab-dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) or reach out to the customer's CSM for guidance.
+
+The [Disaster recovery](https://docs.gitlab.com/subscriptions/gitlab_dedicated/data_residency_and_high_availability/#disaster-recovery) feature in GitLab Dedicated is intended for complete disaster recovery scenarios.
 
 ## Additional Resources
 
