@@ -126,9 +126,9 @@ Application of the `~Deliverable` label indicates the Engineering team has commi
 
 #### Kanban Self-Assignment (with Context Awareness)
 
-Each engineer self-assigns issues from the build board and works on them. In general, issues are assigned one at a time, but if issues are linked an engineer may want to self-assign more than one. The team works to collectively close all issues on the Build Board.
+Engineers self-assign issues from the Build Board, ideally one at a time, to maintain focus. If issues are linked or contextually related, engineers may assign multiple. To prevent knowledge silos and ensure team-wide context, engineers are encouraged to briefly share context in team sync, async updates, especially for complex or cross-cutting projects.
 
-All issues are tracked throughout the release with the Build Board, using workflow status.
+The goal is for the team to collectively drive all Build Board issues to completion, with visibility and context-sharing baked into our workflow. All issues are tracked throughout the release using the Build Board and its associated workflow status.
 
 ### Say / Do Ratio
 
