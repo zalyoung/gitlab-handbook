@@ -1,6 +1,6 @@
 ---
 title: "Supply Chain Risk Management Strategy"
-description: "<description here>"
+description: "This page outlines GitLab's comprehensive approach to supply chain risk management, providing a structured framework for identifying, assessing, and mitigating risks across the software development lifecycle while advancing toward higher SLSA compliance levels."
 ---
 
 ## Introduction
