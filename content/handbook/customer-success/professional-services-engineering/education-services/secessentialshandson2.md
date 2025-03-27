@@ -3,7 +3,7 @@ title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Dependen
 description: "This Hands-On Guide walks you through enabling and using a Dependency Scan in a GitLab project."
 ---
 
-> Estimated time to complete: 15 to 30 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
