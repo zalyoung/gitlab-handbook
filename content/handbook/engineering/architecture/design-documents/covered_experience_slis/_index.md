@@ -48,12 +48,19 @@ Track and measure Covered Experiences across GitLab services, establishing a fra
 
 Covered Experiences are small interactions that users do on the platform. Covered experiences focus specifically on single-actions users do that can be tracked and monitored through SLIs. While User Journeys represent comprehensive end-to-end paths a user might within the application. A User Journey can consist of many Covered Experiences, and a single Covered Experience can be part of many User Journeys.
 
+```mermaid
+erDiagram
+    covered_experience ||--o{ covered_experience_event : "has many instances of"
+    covered_experience }o--o{ user_journey : "belongs to"
+    user_journey ||--o{ user_journey_event : "has many instances of"
+    covered_experience_event ||--o{ user_journey_event : "has many instances of"
+```
+
 Key relationships between the two concepts:
 
 - **Scope**: A User Journey might encompass multiple Covered Experiences. For example, the User Journey of "contributing code to a project" might include several Covered Experiences like "git push," "merge request creation," and "CI pipeline execution".
 - **Measurability**: Covered Experiences are specifically designed to be measurable through our SLI framework, with clear success criteria and thresholds. They should not include ambiguity through decisions that a user makes throughout their Journey.
 - **Implementation**: User Journeys are often conceptual and used for product planning. Covered Experiences have specific technical implementations with instrumentation, metrics, and alerting.
-- **Tracking**: Each Covered Experience must have a reference to its parent User Journey (as shown in the [Covered Experience Definition](#covered-experience-definition) schema), creating a hierarchical relationship.
 
 ## Dos
 
