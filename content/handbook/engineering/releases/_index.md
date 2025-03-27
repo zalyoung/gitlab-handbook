@@ -134,6 +134,25 @@ GitLab team members can view the [internal Grafana dashboard "Release Informatio
 
 The metrics used to display this information are updated automatically throughout the [patch release process](#patch-release-process).
 
+## Internal release overview
+
+Internal releases represent a private GitLab strategy for delivering high-severity fixes to single tenant SaaS
+instances like GitLab Dedicated before public disclosure, without disrupting the regular release process.
+
+### Internal release process
+
+Internal releases fix high-severity issues in the GitLab version that the single tenant SaaS instances like GitLab
+Dedicated are running, normally mean the previous two GitLab versions.
+
+If you’re a GitLab engineer looking to fix a high-severity via an internal release, please follow the steps on the
+[internal release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/engineers.md?ref_type=heads).
+
+Overview of the steps involved with creating an internal release:
+
+![Internal release overview](/images/engineering/releases/internal-releases/internal-release-overview.jpg)
+
+- [Diagram source](https://docs.google.com/presentation/d/1rI47asPEzIaAGZ6t4rQASv88jnJJ17y55k3yD9IVkVI/edit?usp=sharing)
+
 ## Backports overview
 
 For information on backports, visit the [backports page](/handbook/engineering/releases/backports).
