@@ -2,9 +2,7 @@
 
 set -eu -o pipefail
 
-if [ ! -f vale-codequality.json ]; then
-  echo "[]" >vale-codequality.json
-fi
+echo "[]" >vale-codequality.json
 
 # diff differently depending on if CI environment, fork, or local
 # if CI_MERGE_REQUEST_SOURCE_PROJECT_PATH matches the current project, then it's not a fork
