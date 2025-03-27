@@ -362,6 +362,7 @@ hugolint:
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
         hugolint codequality latest --project "42817607" --artifact 'linkcheck.json' >'latest.json'
         # additional JSON file to populate MR comment in post_comment_on_failure job
+        echo '[]' > new_broken_links.json
         jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
         hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
       fi

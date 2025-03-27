@@ -1,8 +1,6 @@
 #!/bin/bash
 
-if ! [ -f markdownlint-cli2-codequality.json ]; then
-  echo "[]" > markdownlint-cli2-codequality.json
-fi
+echo "[]" > markdownlint-cli2-codequality.json
 
 # diff differently depending on if CI environment, fork, or local
 if [ -n "$CI_PROJECT_ID" ]; then
