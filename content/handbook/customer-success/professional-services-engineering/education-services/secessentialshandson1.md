@@ -59,7 +59,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Under **Visibility Level**, click **Private**.
 
-    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/pipeline/custom_rulesets_schema.html).
+    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [https://docs.gitlab.com/ee/user/application_security/secret_detection/pipeline/custom_rulesets_schema.html](documentation).
 
 1. Check **Initialize repository with a README**.
 
@@ -104,7 +104,7 @@ Please take time to understand any code that you are asked to copy and paste in 
     >
     > As an example, Python projects often contain a `venv` directory that contains packages used by the project. Since this directory does not contain our own source code, we should exclude it from the SAST scan.
     >
-    > A full list of SAST variables can be found in the [https://docs.gitlab.com/user/application_security/sast/#available-cicd-variables](documentation).
+    > A full list of SAST variables can be found in the [documentation](https://docs.gitlab.com/user/application_security/sast/#available-cicd-variables).
 
 1. Click the **Commit changes** button, add an appropriate commit message (ex. `Add SAST template to .gitlab-ci.yml`),  and ensure that the 'Commit to the current `main` branch option is selected.
 
