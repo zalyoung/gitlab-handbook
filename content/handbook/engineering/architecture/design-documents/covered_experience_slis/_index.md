@@ -146,21 +146,30 @@ sequenceDiagram
 
 The Covered Experience definition will contain the following fields:
 
-| Field                              | Type    | Required | Description                        | Example                           |
-|------------------------------------|---------|----------|------------------------------------|-----------------------------------|
-| covered_experience_name            | string  | Yes      | Covered Experience identifier      | `merge_request_creation`          |
-| user_journey_name                  | string  | Yes      | User Journey identifier            | `open_merge_request_user_journey` |
-| description                        | string  | Yes      | Human readable description         | "User creates a merge request"    |
-| feature_category                   | string  | Yes      | GitLab feature category            | `source_code_management`          |
-| apdex_success_threshold_in_seconds | integer | Yes      | Apdex success threshold in seconds | `30`                              |
-| timeout_in_seconds                 | integer | Yes      | Timeout in seconds.                | `300`                             |
+| Field                 | Type   | Required | Description                                                                                                   | Example                        |
+|-----------------------|--------|----------|---------------------------------------------------------------------------------------------------------------|--------------------------------|
+| covered_experience_id | string | Yes      | Covered Experience identifier                                                                                 | "merge_request_creation"       |
+| description           | string | Yes      | Human readable description                                                                                    | "User creates a merge request" |
+| feature_category      | string | Yes      | [GitLab feature category](https://docs.gitlab.com/development/feature_categorization/#feature-categorization) | "source_code_management"       |
+| urgency               | string | Yes      | How quickly a process needs to complete based on user expectations                                            | "sync_fast"                    |
+
+Non-exhaustive list of urgencies to be supported:
+
+| Threshold    | Description                                                                                                                                                      | Examples                                                                       | Value |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------|
+| `sync_fast`  | A user is awaiting a synchronous response which needs to be returned before they can continue with their action                                                  | A full-page render                                                             | 2s    |
+| `sync_slow`  | A user is awaiting a synchronous response which needs to be returned before they can continue with their action, but which the user may accept a slower response | Displaying a full-text search response while displaying an amusement animation | 5s    |
+| `async_fast` | An async process which may block a user from continuing with their user journey                                                                                  | MR diff update after git push                                                  | 15s   |
+| `async_slow` | An async process which will not block a user and will not be immediately noticed as being slow                                                                   | Notification following an assignment                                           | 5m    |
+
+As product teams implement more Covered Experiences, the list of urgencies will grow to accomodate different scenarios.
 
 Examples:
 
-| id                     | description                         | feature_category       | apdex_success_threshold_in_seconds | timeout_in_seconds |
-|------------------------|-------------------------------------|------------------------|------------------------------------|--------------------|
-| merge_request_creation | User creates a merge request        | source_code_management | 30                                 | 300                |
-| git_push               | User pushes commits to a repository | source_code_management | 10                                 | 60                 |
+| covered_experience_id  | description                         | feature_category       | urgency     |
+|------------------------|-------------------------------------|------------------------|-------------|
+| merge_request_creation | User creates a merge request        | source_code_management | "sync_fast" |
+| git_push               | User pushes commits to a repository | source_code_management | "sync_fast" |
 
 Given that Application SLIs are implemented in the [Rails monolith](https://gitlab.com/gitlab-org/gitlab) at the moment, it will also function as a
 [registry](https://gitlab.com/gitlab-com/gl-infra/observability/team/-/issues/4099) initially to store the definitions for the Covered Experience SLIs.
@@ -173,29 +182,31 @@ Given that Application SLIs are implemented in the [Rails monolith](https://gitl
 
 The SDK will emit 1 event in every step (each interaction along the entire flow):
 
-| **gitlab_covered_experience_steps_total** | LABEL                 | VALUE                                                        | METRIC | LOG |
-|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------|-----|
-|                                           | ce_name               | security_scan                                                | yes    | yes |
-|                                           | feature_category      | vulnerability_management                                     | yes    | yes |
-|                                           | step                  | start \| intermediate \| end                                 | yes    | yes |
-|                                           | step_name             | e.g. authorize (impose limited cardinality)                  | yes    | yes |
-|                                           | type                  | web                                                          | yes    | yes |
-|                                           | covered_experience_id | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
-|                                           | correlation_id        | f93ae47de7f848343cf85511b47923ce                             | no     | yes |
-|                                           | meta                  | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+| **gitlab_covered_experience_steps_total** | LABEL                       | EXAMPLE VALUE                                                | METRIC | LOG |
+|-------------------------------------------|-----------------------------|--------------------------------------------------------------|--------|-----|
+|                                           | covered_experience_id       | security_scan                                                | yes    | yes |
+|                                           | feature_category            | vulnerability_management                                     | yes    | yes |
+|                                           | step                        | start \| intermediate \| end                                 | yes    | yes |
+|                                           | step_name                   | e.g. authorize (impose limited cardinality)                  | yes    | yes |
+|                                           | type                        | web                                                          | yes    | yes |
+|                                           | covered_experience_event_id | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
+|                                           | user_journey_event_id       | 01JQC43B4DD290R5845T361RJ4                                   | no     | yes |
+|                                           | correlation_id              | f93ae47de7f848343cf85511b47923ce                             | no     | yes |
+|                                           | meta                        | { "relevant attributes": "tailored for the specific event" } | no     | yes |
 
 And 2 more events, emitted at the end of the flow, to signify error and success:
 
-| **gitlab_covered_experience_total** | LABEL                 | VALUE                                                        | METRIC | LOG |
+| **gitlab_covered_experience_total** | LABEL                 | EXAMPLE VALUE                                                | METRIC | LOG |
 |-------------------------------------|-----------------------|--------------------------------------------------------------|--------|-----|
 |                                     | error                 | true \| false                                                | yes    | yes |
 |                                     | feature_category      | vulnerability_management                                     | yes    | yes |
 |                                     | type                  | sidekiq                                                      | yes    | yes |
 |                                     | covered_experience_id | 01JP0EM7HB39WSJNR4662MYZ6V                                   | no     | yes |
+|                                     | user_journey_event_id | 01JQC43B4DD290R5845T361RJ4                                   | no     | yes |
 |                                     | correlation_id        | f93ae47de7f848343cf85511b47923ce                             | no     | yes |
 |                                     | meta                  | { "relevant attributes": "tailored for the specific event" } | no     | yes |
 
-| **gitlab_covered_experience_apdex_total** | LABEL                 | VALUE                                                                    | METRIC | LOG |
+| **gitlab_covered_experience_apdex_total** | LABEL                 | EXAMPLE VALUE                                                            | METRIC | LOG |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------------------|--------|-----|
 |                                           | feature_category      | vulnerability_management                                                 | yes    | yes |
 |                                           | success               | true \| false                                                            | yes    | yes |
