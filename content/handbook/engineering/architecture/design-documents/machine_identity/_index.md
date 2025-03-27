@@ -147,6 +147,19 @@ Note: these restrictions apply only to user-created service accounts.
 System-generated service accounts can be created regardless of the allowlist to
 avoid disrupting internal features and integrations.
 
+#### Downsides
+
+- Introduces 2 implicit types of service accounts (user-created vs
+  system-generated).
+  This distinction could be made explicit (see Option 2).
+- Access model issues persist: while allowlists mitigate them to an extent, they
+  don't fully resolve the problem, and increase the risk of misconfiguration.
+  If a service account is added to multiple projects, neither the project
+  owners, nor the service account owner (top-level group owner) has visibility
+  into where it's used or what access it has.
+- Allowlists and the 2 implicit types adds significant complexity to both user
+  experience and the codebase.
+
 ### Option 2 - introduce a simplified user type
 
 Service accounts have introduced significant complexity over time:
@@ -188,6 +201,14 @@ lightweight path forward for automation needs.
 Via introducing breaking changes over time, we could be simplify the existing
 service account model and eventually merge the two user types to reduce
 maintenance overhead.
+
+#### Downsides
+
+- Builds on 2 user types for machine identity, instead of consolidating under a
+  single one.
+- Despite the access model being simpler, it introduces some challenges.
+  Eg. Amazon Q integration would require adding the service account to the
+  top-level group, granting it access to all projects in the hierarchy.
 
 ### Option 3 - some combination of 1 & 2
 
