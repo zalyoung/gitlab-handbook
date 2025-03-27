@@ -378,7 +378,7 @@ The compliance requirements would be stored in a separate table with the followi
         project_id: bigint
         namespace_id: bigint
         compliance_requirement_id: bigint
-        compliance_requirement_expression: jsonb
+        compliance_requirement_control_expression: jsonb
         audit_event_id: bigint
     }
 
