@@ -192,7 +192,7 @@ The SDK will emit 1 event in every step (each interaction along the entire flow)
 |                                           | covered_experience_event_id | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
 |                                           | user_journey_event_id       | 01JQC43B4DD290R5845T361RJ4                                   | no     | yes |
 |                                           | correlation_id              | f93ae47de7f848343cf85511b47923ce                             | no     | yes |
-|                                           | meta                        | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+|                                           | meta                        | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
 
 And 2 more events, emitted at the end of the flow, to signify error and success:
 
@@ -204,7 +204,7 @@ And 2 more events, emitted at the end of the flow, to signify error and success:
 |                                     | covered_experience_id | 01JP0EM7HB39WSJNR4662MYZ6V                                   | no     | yes |
 |                                     | user_journey_event_id | 01JQC43B4DD290R5845T361RJ4                                   | no     | yes |
 |                                     | correlation_id        | f93ae47de7f848343cf85511b47923ce                             | no     | yes |
-|                                     | meta                  | { "relevant attributes": "tailored for the specific event" } | no     | yes |
+|                                     | meta                  | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests| no     | yes |
 
 | **gitlab_covered_experience_apdex_total** | LABEL                 | EXAMPLE VALUE                                                            | METRIC | LOG |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------------------|--------|-----|
@@ -213,7 +213,7 @@ And 2 more events, emitted at the end of the flow, to signify error and success:
 |                                           | type                  | sidekiq                                                                  | yes    | yes |
 |                                           | covered_experience_id | 01JP0EM7HB39WSJNR4662MYZ6V                                               | no     | yes |
 |                                           | correlation_id        | f93ae47de7f848343cf85511b47923ce                                         | no     | yes |
-|                                           | meta                  | { "relevant attribute to the event": "tailored for the specific event" } | no     | yes |
+|                                           | meta                  | { "relevant attribute to the event": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
 
 ## Alternative Solutions
 
