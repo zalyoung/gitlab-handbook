@@ -145,6 +145,10 @@ Approval rules define how many approvals a merge request must receive before it 
 
 > If you'd like, edit the **Family Budget Calculator Documentation** page to add additional content or create additional wiki pages.
 
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
+
 ## Suggestions?
 
-If you'd like to suggest changes, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.

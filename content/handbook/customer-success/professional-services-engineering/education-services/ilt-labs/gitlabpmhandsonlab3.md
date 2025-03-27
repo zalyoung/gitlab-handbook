@@ -124,6 +124,10 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 
 1. In the left pane, click **Plan > Issues** to see all 3 issues with their labels.
 
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
+
 ## Suggestions?
 
-If you'd like to suggest changes, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.

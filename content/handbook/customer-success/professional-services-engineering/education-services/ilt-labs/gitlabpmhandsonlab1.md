@@ -100,6 +100,10 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
    > Users will inherit permissions from the parent group hierarchy that this project exists in. If a user already has a higher level of access in a parent group (ex. `Maintainer`), that access level supersedes a lower level of permission assigned at the project level (ex. `Developer`).
 
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
+
 ## Suggestions?
 
-If you'd like to suggest changes, please submit them using a merge request.
+If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.

@@ -162,3 +162,11 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 1. Select **Create cadence**.
 
 You will later assign individual tasks to iterations (sprints).
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
+
+## Suggestions?
+
+If you'd like to suggest changes, please submit them using a merge request.If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.

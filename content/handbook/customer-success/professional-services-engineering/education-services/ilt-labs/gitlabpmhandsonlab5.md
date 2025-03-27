@@ -186,6 +186,10 @@ You can learn more about issues and metadata in the [documentation](https://docs
 
 1. Review the pre-populated description and metadata on the issue's details page.
 
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
+
 ## Suggestions?
 
-If you'd like to suggest changes to the merge request, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.

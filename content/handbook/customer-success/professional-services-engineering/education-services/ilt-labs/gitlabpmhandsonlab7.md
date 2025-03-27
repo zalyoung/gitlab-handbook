@@ -140,6 +140,10 @@ In this lab, you will learn how to create a simple issue board.
 
 1. Click the diagonal arrow again to leave Focus mode.
 
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
+
 ## Suggestions?
 
-If you'd like to suggest changes, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.
