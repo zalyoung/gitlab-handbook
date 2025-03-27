@@ -3,7 +3,7 @@
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
 title: Data Insights Platform Querying API
-status: proposed
+status: accepted
 creation-date: "2024-02-27"
 authors: [ "@rob.hunt" ]
 coaches: [ "@ahegyi" ]
