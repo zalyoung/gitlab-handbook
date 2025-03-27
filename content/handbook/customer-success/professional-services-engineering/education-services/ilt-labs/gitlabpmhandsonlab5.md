@@ -9,8 +9,7 @@ description: "This Hands-On Guide walks you through creating and managing dashbo
 
 GitLab provides different types of analytics insights for instances, groups, and projects. In this lab, we will explore various types of dashboard one can use in your system, as well as how to create your own dashboards.
 
-1. 
-
+1. TODO: Write steps
 
 ## Lab Guide Complete
 
