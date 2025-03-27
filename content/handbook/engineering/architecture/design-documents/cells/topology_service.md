@@ -139,10 +139,10 @@ flowchart TD
   A -->|6 bits| C[Reserved]
   A -->|57 bits| D[Sequence]
   D --> E{Legacy Cell?}
-  E --> |Yes|F[min: 1, max: 10^12 - 1]
-  E --> |"No (new cells)"| G{'QA' bucket?}
-  G --> |Yes| H[min: currentMaxId + 1, max: min + 10^9 - 1]
-  G --> |No| I[min: currentMaxId + 1, max: min + 10^11 - 1]
+  E --> |Yes|F[min = 1, max = 10^12 - 1]
+  E --> |"No (new cells)"| G{cellsprod?}
+  G --> |Yes| H[min = currentMaxId + 1, max >= min + 10^11]
+  G --> |"No (cellsdev, gdk)"| I[min = currentMaxId + 1, max >= min + 10^9]
 ```
 
 - **Sign**: Always 0 for positive numbers.
@@ -153,59 +153,58 @@ flowchart TD
    reserving only one bit would have been sufficient but
    more bits are reserved to have the sequence bits at minimum.
 - **Sequence**:
-  - Legacy cell gets the first trillion IDs. QA cells get 1 billion IDs and other new cells get 100 billion IDs each.
-  - Assuming all the new cells created are non-QA and excluding the legacy cell, this will support 1,441,141 cells (using 57 bits).
+  - Legacy cell gets the first trillion IDs and each new cellsprod instance will get 100 billion IDs each.
+  - Excluding the legacy cell, this will support 1,441,141 cells (using 57 bits) in production.
 
 Example `config.toml` of Topology Service:
 
 ```toml
+env = "production"
+
 [[cells]]
 id = 1
 address = "legacy.gitlab.com"
 sequence_range = [1, 999999999999] # 1 trillion
-buckets = ["paid", "free"]
-status = "active"
 
 [[cells]]
 id = 2
 address = "cell-2-example.gitlab.com"
+session_prefix = "cell-2"
 sequence_range = [1000000000000, 1099999999999] # 100 billion
-buckets = ["paid", "free"]
-status = "active"
 
 [[cells]]
 id = 3
 address = "cells-3-test.gitlab.com"
-sequence_range = [1100000000000, 1100999999999] # 1 billion
-buckets = ["QA"]
-status = "active"
-
-[[cells]]
-id = 4
-address = "cells-4-example.gitlab.com"
-sequence_range = [1101000000000, 1200999999999] # 100 billion
-buckets = ["free"]
-status = "active"
+session_prefix = "cell-3"
+sequence_range = [1100000000000, 1199999999999] # 100 billion
 ```
 
-- Status:
-  - ready: Cell is not yet ready to accept traffic, but we hold a slot.
-  - online: Cell is accepting traffic and is part of cluster discovery.
-  - offline: Cell is valid but not accepting traffic and is still part of cluster discovery.
-  - removed: Cell is removed and will never be active again.
+```toml
+env = "staging"
 
-Once the cell gets `removed`, we will update `sequence_range` with the _maxval_ consumed by the cell.
-So that if a normal cell gets removed (decommissioned), new QA cells can get IDs from those unused IDs (if it's more than 1 billion).
+[[cells]]
+id = 2
+address = "cell-2.gitlab-cells.dev"
+session_prefix = "cell-2"
+sequence_range = [10000000000, 10999999999] # 1 billion
+
+[[cells]]
+id = 3
+address = "cell-3.gitlab-cells.dev"
+session_prefix = "cell-3"
+sequence_range = [11000000000, 11999999999] # 1 billion
+```
 
 ##### Sequence Saturation
 
-At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table), so
-the legacy cell and new non-QA cells will have sufficient IDs to grow within their sequence_range.
+At the time of writing the largest ID in the legacy cell was ~11 billion (PK of `security_findings` table).
 
-QA cells might need more IDs as they are given 1 billion IDs. Cells sequence data are monitored regularly,
-and TS can provide an additional 1 billion IDs (from currentMaxId) to the cell, if their consumption is over 99%.
+- With trillion IDs, this should allow the legacy cell to grow ~91 times.
+- Given the aim of cells architecture is to keep new instance's database growth in control, 100 billions IDs should give them enough space as well.
 
-[Issues#517296](https://gitlab.com/gitlab-org/gitlab/-/issues/517296) handles this.
+But since this is a critical part of the working of Gitlab.com, we have introduced saturation monitoring for each sequence in [merge_requests/8630](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/8630).
+
+And [Issues#517296](https://gitlab.com/gitlab-org/gitlab/-/issues/517296) takes care of providing additional sequence ranges to the cell, if there is a need for it.
 
 NOTE:
 
