@@ -21,7 +21,7 @@ The team uses [Engineering Principals](/handbook/engineering/development/princip
 Systems and services we are primarily responsible for:
 
 - PostgreSQL Core (VM)
-- PostgreSQL Core (PGaaS for Dedicated ) (coming soon)
+- PostgreSQL Core (PGaaS) (coming soon)
 - PostgreSQL High Availability and Load Balancing (e.g. Patroni, PGBouncer, consul, PostgreSQL Replication etc.)
 - PostgreSQL Disaster Recovery (backup/restore and other techniques)
 - Database Observability (Prometheus instrumentation, workload analysis etc.)
