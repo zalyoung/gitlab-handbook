@@ -59,7 +59,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Under **Visibility Level**, click **Private**.
 
-    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [https://docs.gitlab.com/ee/user/application_security/secret_detection/pipeline/custom_rulesets_schema.html](documentation).
+    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/pipeline/custom_rulesets_schema.html).
 
 1. Check **Initialize repository with a README**.
 
@@ -253,7 +253,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > To configure Secret Detection to use non-default behavior, you can override the **secret_detection** job definition and add variables inside it.
     >
-    > A full list of Secret Detection variables can be found in the [https://docs.gitlab.com/user/application_security/secret_detection/pipeline/configure/#customize-analyzer-behavior](documentation).
+    > A full list of Secret Detection variables can be found in the [documentation](https://docs.gitlab.com/user/application_security/secret_detection/pipeline/configure/#customize-analyzer-behavior).
 
 1. Your `.gitlab-ci.yml` file will now look like this.
 
