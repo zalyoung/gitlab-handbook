@@ -1,5 +1,5 @@
 ---
-title: "GitLab Agile Portfolio Management- Hands-On Lab: Create Issues"
+title: "GitLab Agile Portfolio Management- Hands-On Lab: Task Management & Progress Tracking"
 description: "This Hands-On Guide walks you through creating issues and labels in GitLab."
 ---
 

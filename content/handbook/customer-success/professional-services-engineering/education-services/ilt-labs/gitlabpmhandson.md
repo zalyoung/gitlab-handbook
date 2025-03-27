@@ -11,9 +11,9 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 | Project Planning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab2/) |
 | Task Management & Progress Tracking |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab3/) |
 | Collaboration via MRs and Wikis | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab4/) |
-| Use a merge request to review and merge code | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab5/) |
-| Reporting & Portfolio Management |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab6/) |
-| Risk Management & Continuous Improvement | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab7/) |
+| Reporting & Portfolio Mangement | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab5/) |
+| Risk Management & Continuous Improvement |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab6/) |
+| Scaling Agile with GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandsonlab7/) |
 
 ## Quick links
 
