@@ -25,8 +25,7 @@ as:
 2. **Critical bug**: The Dedicated team reports a high-severity issue causing a performance degradation.
 
 If you’re a GitLab engineer looking to fix a high-severity via an internal release, please follow the steps on the
-[internal release runbook for GitLab
-engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/engineers.md?ref_type=heads).
+[internal release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/engineers.md?ref_type=heads).
 
 ## Internal release process
 
@@ -44,13 +43,13 @@ An internal release has the following phases:
    * Critical bug: The Dedicated team reports a high-severity issue causing a performance degradation.
 
 2. **Prepare**: The first step in the internal release process, when a release issue is created and stakeholders,
-   including the [GitLab Dedicated Group](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/) are notified.
+   including the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated) are notified.
 
 3. **GitLab.com remediation**:
    * The group relevant to the vulnerability/bug prepares the security fix on the GitLab security repositories.
    * Release managers merge the fix to the GitLab default branch.
    * The high-severity fix is deployed to GitLab multi-tenant production environment (GitLab.com).
-   * In case of a vulnerability, the [AppSec team](https://handbook.gitlab.com/handbook/security/product-security/application-security/#contacting-us)
+   * In case of a vulnerability, the [AppSec team](/handbook/security/product-security/application-security/#contacting-us)
      verifies that the vulnerability/bug has been remediated on GitLab.com.
 
 4. **Backports**: Security merge requests targeting N-1 and N-2 stable branches are prepared by the relevant group
