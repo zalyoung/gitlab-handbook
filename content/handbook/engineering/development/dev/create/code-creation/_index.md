@@ -96,7 +96,7 @@ The following members of other functional teams are our stable counterparts:
 | Category          | Counterpart                                                                          |
 |-------------------|--------------------------------------------------------------------------------------|
 | Product Manager   | {{< member-by-name "Jordan Janes" >}}                                                |
-| Technical Writing | {{< member-by-name "Leala Smith" >}}                                                 |
+| Technical Writing | {{< member-by-name "Jon Glassman" >}}                                                 |
 | UX                | TBD                                                                                  |
 | SET               | {{< member-by-name "Jay McCure" >}} (Create Stage)                                   |
 | Support           | [TBD](/handbook/support/support-stable-counterparts/)                                |
