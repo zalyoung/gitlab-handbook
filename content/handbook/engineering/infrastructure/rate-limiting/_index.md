@@ -320,12 +320,25 @@ The list of semi-standard rate limiting response headers can be found [here](htt
 
 See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25372) for improvements to returning rate limiting response headers.
 
-## Avoiding Rate Limits
+## Client-Side Best Practices
 
 To minimize the risk of hitting rate limits, you can try the following:
 
-- Stagger the execution of your automated pipelines.
-- Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.
+1. Implement Retry Logic
+    - Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.
+    - Respect the `429` response status and `Retry-After` headers.
+    - Implement circuit breakers for persistent failures.
+1. Stagger Automated Pipelines
+    - Reduce the volume of requests being made at any one time.
+1. Request Batching
+    - Combine multiple operations into single requests where possible.
+    - Implement client-side queue management.
+1. Implement Caching
+    - Cache responses where possible to reduce request frequency.
+    - Implement conditional requests, utlizing `If-Modified-Since` for example.
+1. Monitor for Rate Limited Responses
+    - Log and alert on unexpected increases in rate limited requests.
+    - Track rate limit responses and headers where applicable.
 
 ## Troubleshooting
 
