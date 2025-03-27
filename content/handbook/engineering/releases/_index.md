@@ -108,11 +108,6 @@ Patch releases are scheduled twice a month on the Wednesdays before and after th
 
 Patches fix regressions in the current self-managed release and vulnerabilities in the current and previous two GitLab versions.
 
-If you're a GitLab engineer looking:
-
-- To include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md).
-- To include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md).
-
 Overview of the steps involved with creating a patch release:
 
 ![Patch release overview](/images/engineering/releases/patch-releases/patch-release-overview.jpg)
@@ -120,6 +115,16 @@ Overview of the steps involved with creating a patch release:
 - [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
 Details of the patch release lifecycle can be found on the [patch release section](/handbook/engineering/releases/patch-releases/)
+
+If you're a GitLab engineer looking:
+
+- To include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md).
+- To include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md).
+
+If you're a GitLab release manager looking:
+
+- To include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab release manager](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/release_managers.md).
+- To include a security fix in a patch release, please follow the steps on the [security runbook for GitLab release manager](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/release_manager.md).
 
 ### Patch release information dashboard
 
@@ -136,22 +141,25 @@ The metrics used to display this information are updated automatically throughou
 
 ## Internal release overview
 
-Internal releases represent a private GitLab strategy for delivering high-severity fixes to single tenant SaaS
-instances like GitLab Dedicated before public disclosure, without disrupting the regular release process.
+Internal releases are reserved for delivering high-severity fixes to GitLab single-tenant SaaS instances like
+GitLab Dedicated before public disclosure within [remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/)
+and without disrupting the regular release process.
 
 ### Internal release process
 
-Internal releases fix high-severity issues in the GitLab version that the single tenant SaaS instances like GitLab
-Dedicated are running, normally mean the previous two GitLab versions.
-
-If you’re a GitLab engineer looking to fix a high-severity via an internal release, please follow the steps on the
-[internal release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/engineers.md?ref_type=heads).
+Internal releases address high-severity issues in the applicable versions running on single tenant SaaS instances.
 
 Overview of the steps involved with creating an internal release:
 
 ![Internal release overview](/images/engineering/releases/internal-releases/internal-release-overview.jpg)
 
 - [Diagram source](https://docs.google.com/presentation/d/1rI47asPEzIaAGZ6t4rQASv88jnJJ17y55k3yD9IVkVI/edit?usp=sharing)
+
+If you’re a GitLab engineer looking to fix a high-severity issue via an internal release, please follow the steps on the
+[runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/engineers.md?ref_type=heads).
+
+If you’re a GitLab release manager looking to fix a high-severity issue via an internal release, please follow the steps on the
+[runbook for GitLab release manager](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/release_managers.md?ref_type=heads).
 
 ## Backports overview
 
