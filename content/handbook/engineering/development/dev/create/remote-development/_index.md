@@ -466,14 +466,16 @@ To assign weights to issues effectively, it's important to remember that issue w
 If a task is too large, has too many unknowns, or requires proof of concept (POC), it should be broken down into smaller investigation tasks or POC issues. These tasks help clarify the scope, reduce risks, and identify the necessary steps to proceed with implementation and ideally should fit into a single milestone.
 
 1. **Create an Investigation Issue:**
-   - **Purpose:** Research, investigate, and document or breakdown the necessary work.
+   - **Purpose:** Research, investigate, and document or breakdown the necessary work. Please make sure to **define the core question or problem** you’re investigating.
    - **Weight:** Default to 3 for investigations, POCs, or breakdown tasks. If a different weight is needed, discuss it with PM/EM/Team stakeholders.
    - **Label:** Assign the ~spike label to the issue.
-   - **Updates:** Provide an async weekly update in the investigation issue.
-   - You're allowed to adjust the weight dynamically to reflect ongoing efforts if they differ from initial estimates as new information becomes available [see [Responding to change over following a plan](https://agilemanifesto.org)].
+   - **Updates:**  Investigations are capped at **3 working days of focused effort**.
+     - On Day 3 or sooner, investigator shares findings and proposed next steps. Consider using a sync meeting to align with key stakeholders and make a decision. If a meeting is not feasible, a short recorded video summarizing findings is acceptable.
+   - Depending on the feedback from the updates, we can decide to allocate more time to these investigations or settle for something that works based on the information we have.
 
 1. **Break Down and Close:**
    - Once the investigation task is complete, document the findings and break down the work into actionable refined issues.
+   - Close the investigation issue.
 
 ### 🧹 Follow-up issues which span multiple releases
 
