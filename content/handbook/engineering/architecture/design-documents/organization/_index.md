@@ -18,7 +18,7 @@ This document is a work in progress and represents the current state of the Orga
 ## Glossary
 
 - User: A user account.
-- Member: A User that belongs to an entity with a set of privileges represented by a role. A User can be a Member of a Group, Project, and now an Organization.
+- Member: A User that belongs to an entity with a set of privileges represented by a role. A User can be a Member of one Organization, and many Groups and Projects within said Organization.
 - Top-level Group: Top-level Group is the name given to the topmost Group of all other Groups. Groups and Projects are nested underneath the top-level Group.
 - Organization: An Organization is the container for one or multiple top-level Groups. Organizations are isolated from each other.
 - Organization Member: Organizations have many Users called Members. Only Organization Members have visibility of the Organization. Adding a User to a Group or Project within an Organization makes them an Organization Member.

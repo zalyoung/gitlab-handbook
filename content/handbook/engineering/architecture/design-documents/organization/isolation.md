@@ -121,6 +121,7 @@ We can also use these sharding keys to help us decide whether:
    include loose foreign keys and possibly any relationships described in
    models.
 1. Validate that all existing sharding key columns on all Cell-local tables can reliably be assumed to be the sharding key. This requires assigning issues to teams to confirm that these columns aren't used for some other purpose that would actually not be suitable.
+1. User will only belong to a single Organization.
 
 ### Organization Isolation - Phase 3
 

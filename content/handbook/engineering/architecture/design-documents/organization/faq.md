@@ -9,6 +9,24 @@ toc_hide: true
 
 Yes. At the moment billing will move to the Organization level. We will continue to update [Organization and Billing](billing.md).
 
+## Will Self Managed and Dedicated allow for multiple Organizations?
+
+Yes, most likely. Initially our focus will be on GitLab.com but we understand there is demand for multiple Organizations on other platforms and anticipate rolling this feature out eventually.
+
+## How will Organizations affect Self Managed?
+
+Self Managed will remain relatively unchanged. The Organization will be exposed to Self Managed just like other platforms, and features may shift up or down to the Organization level.
+
+Eventually we expect all platforms will provide the ability to operate multiple Organizations.
+
+Our goal is to minimize disruption to Self Managed and Dedicated while we try to bring GitLab.com to parity with the other platforms.
+
+In the longer term, we anticipate faster feature development by having Organizations as a common top level entity across all platforms.
+
+## Can a user belong to multiple Organizations?
+
+Currently, our model is designed for one user to belong to one Organization. This restriction was implemented because allowing users to belong to multiple Organizations created significant technical challenges and raised many product questions. We expect usage of multiple Organization membership to be relatively low, so this limitation will likely remain for the foreseeable future.
+
 ## Do we expect to be able to configure alternate GitLab domain names for Organizations (such as `customer.gitlab.com`)?
 
 There is no plan at this point to allow configuration of alternate GitLab domain names.
