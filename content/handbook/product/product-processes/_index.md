@@ -254,20 +254,7 @@ There is a guide about [developing application limits](https://docs.gitlab.com/d
 
 ##### When implementing application limits
 
-Application limits should be enabled by default. If we are considering enabling or changing a limit, we should do the following (applies to GitLab.com and self-managed):
-
-- **Evaluate if GitLab.com and self-managed should match** - Usually, the [limits on GitLab.com should be a good match for self-managed](/handbook/product/product-principles/#configuration-principles) but there may be situations in which limits on GitLab.com are not a good match for our self-managed customers. For example, the artifact expiration on GitLab.com was put in place to control costs and this did [not apply equally to self-managed customers](https://gitlab.com/groups/gitlab-org/-/epics/7097).
-- **Evaluate the impact to current users** - How many users will be affected by this change? How much of an impact will they feel? If you need help pulling data for GitLab.com, [create an issue on the Infrastructure project](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/)
-- **Communicate limits in advance of implementation** - Create an issue and facilitate community discussion about the impact the change might have. Raise awareness of the change via social media or a blog post. If the limit will result in a breaking change, do several announcements over a period of time to ensure that everyone has advance notice.
-- **Communicate the limits in advance to the Quality teams** - Quality runs tests against various environments that reuse users and as a result tend to hit limits as a false positive. As a result, Quality needs to be informed to ensure that tests can be adjusted accordingly.
-- **Proactively notify Customer Success and Support of the change** - Reach out in `#customer-success` and `#support_escalations` to announce the upcoming change, and consider discussing in the next `All CS Team Call` to solicit feedback.
-- **Ensure Customer Success and Support are equipped to help users** - Make sure that Customer Success and Support has access to the documentation that they need to help customers who contact them regarding the limit.
-- **Document the limits on docs.gitlab.com**
-  - Make sure that the limit is documented on the page for the feature and include details such as if it's configurable, what the default value is, and what impact this can have on the end user.
-  - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
-  - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/security/rate_limits/)
-- **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
-- **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
+See [Rate Limiting::Managing Limits](/handbook/engineering/infrastructure/rate-limiting/managing-limits/).
 
 #### Managing data lifecycle and growth
 
