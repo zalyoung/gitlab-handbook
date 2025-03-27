@@ -46,7 +46,7 @@ Track and measure Covered Experiences across GitLab services, establishing a fra
 
 ### How do Covered Experiences relate to User Journeys?
 
-Covered Experiences are small interactions that users do on the platform. Covered experiences focus specifically on single-actions users do that can be tracked and monitored through SLIs. While User Journeys represent comprehensive end-to-end paths a user might within the application. A User Journey can consist of many Covered Experiences, and a single Covered Experience can be part of many User Journeys.
+Covered Experiences are small interactions that users do on the platform. Covered Experiences focus specifically on single-actions users do that can be tracked and monitored through SLIs. While User Journeys represent comprehensive end-to-end paths a user might within the application. A User Journey can consist of many Covered Experiences, and a single Covered Experience can be part of many User Journeys.
 
 ```mermaid
 erDiagram
@@ -74,7 +74,7 @@ Key relationships between the two concepts:
 
 - Building a general-purpose distributed tracing solution
 - Tracking client side timings, and time on the wire to clients. In the future, we want to add support for clients we build (IDE-extensions, our frontend), but we're keeping this out of scope in the first iteration.
-- Real-time covered experience visualization or debugging tools
+- Real-time Covered Experience visualization or debugging tools
 - Logs and metrics will be emitted from self-managed, but it won't officially support ingesting information from those instances as we don't have control over such environments
 
 ## Unscoped
@@ -82,11 +82,8 @@ Key relationships between the two concepts:
 1. Other projects could benefit from Covered Experience SLIs, but are not part of the scope of this proposal. Such as:
     - Ensure critical user paths are well-tested and monitored (i.e. https://gitlab.com/groups/gitlab-org/quality/-/epics/144).
     The Covered Experience SLIs could provide data that can help identify end-to-end test coverage gaps for critical user paths.
-    - Use covered experiences to inform Service Level Agreements (https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/423)
-2. As of the moment of writing, GitLab has no implementation for tracking and measuring end-to-end User Journeys.
-The [framework porposed below](#covered-experience-definition) can be augmented in the future, to include a User Journey identification,
-tying each Covered Experience to a User Journey.
-3. Implementing a Covered Experience Tracker. There's a [proposal](next_step.md) for implementing a new service, as the likely
+    - Use Covered Experiences to inform Service Level Agreements (https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/423)
+2. Implementing a Covered Experience Tracker. There's a [proposal](next_step.md) for implementing a new service, as the likely
 next step (covered in [epic #1540](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1540)), however, it is prone to change
 as we progress on the implementation of Covered Experiences SDK, and discover its nuances and leverage points.
 
