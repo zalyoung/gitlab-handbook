@@ -30,7 +30,7 @@ When planning PTO with high-priority tickets in your queue:
 1. Conduct a warm handover with the new assignee:
    - Schedule a pairing session or have a detailed Slack discussion.
    - Walk through the ticket details, customer context, and current status.
-   - Apply the `Out Of Office Summary` macro using the below Flow Chart Workflow.
+   - Apply the `General::Out Of Office Summary` macro using the below Flow Chart Workflow.
    - The new Assignee takes assignment of the ticket.
 
 #### For Severity 3 and Below Tickets
@@ -39,13 +39,13 @@ For lower-priority tickets:
 
 1. Inform customers of your upcoming absence.
 2. Set your ticket to Pending status.
-3. Apply the OOO Ticket Summary macro to all tickets.
+3. Apply the `General::Out Of Office Summary` macro to all tickets.
 
-#### Workflow
+### Workflow
 
 Go to the My Assigned Tickets view in Zendesk. For each ticket you wish to summarize because you anticipate on-going work will be required, do the following:
 
-1. Use the `Out Of Office Summary` macro.
+1. Use the `General::Out Of Office Summary` macro.
 2. Fill in the sections of the internal note with details for your peers. It is important that you summarize:
    - What is the problem to be solved?
    - Action Taken?
