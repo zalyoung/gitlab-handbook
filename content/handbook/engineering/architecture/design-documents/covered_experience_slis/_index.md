@@ -179,37 +179,39 @@ Given that Application SLIs are implemented in the [Rails monolith](https://gitl
 
 The SDK will emit 1 event in every step (each interaction along the entire flow):
 
-| **gitlab_covered_experience_steps_total** | LABEL                       | EXAMPLE VALUE                                                | METRIC | LOG |
-|-------------------------------------------|-----------------------------|--------------------------------------------------------------|--------|-----|
-|                                           | covered_experience_id       | security_scan                                                | yes    | yes |
-|                                           | feature_category            | vulnerability_management                                     | yes    | yes |
-|                                           | step                        | start \| intermediate \| end                                 | yes    | yes |
-|                                           | step_name                   | e.g. authorize (impose limited cardinality)                  | yes    | yes |
-|                                           | type                        | web                                                          | yes    | yes |
-|                                           | covered_experience_event_id | 01JP0EM7HB39WSJNR4682MYZ6V                                   | no     | yes |
-|                                           | user_journey_event_id       | 01JQC43B4DD290R5845T361RJ4                                   | no     | yes |
-|                                           | correlation_id              | f93ae47de7f848343cf85511b47923ce                             | no     | yes |
+| **gitlab_covered_experience_steps_total** | LABEL                       | EXAMPLE VALUE                               | METRIC | LOG |
+|-------------------------------------------|-----------------------------|---------------------------------------------|--------|-----|
+|                                           | covered_experience_id       | security_scan                               | yes    | yes |
+|                                           | covered_experience_event_id | 01JP0EM7HB39WSJNR4682MYZ6V                  | no     | yes |
+|                                           | user_journey_event_id       | 01JQC43B4DD290R5845T361RJ4                  | no     | yes |
+|                                           | correlation_id              | f93ae47de7f848343cf85511b47923ce            | no     | yes |
+|                                           | feature_category            | vulnerability_management                    | yes    | yes |
+|                                           | step                        | start \| intermediate \| end                | yes    | yes |
+|                                           | step_name                   | e.g. authorize (impose limited cardinality) | yes    | yes |
+|                                           | type                        | web                                         | yes    | yes |
 |                                           | meta                        | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
 
 And 2 more events, emitted at the end of the flow, to signify error and success:
 
-| **gitlab_covered_experience_total** | LABEL                 | EXAMPLE VALUE                                                | METRIC | LOG |
-|-------------------------------------|-----------------------|--------------------------------------------------------------|--------|-----|
-|                                     | error                 | true \| false                                                | yes    | yes |
-|                                     | feature_category      | vulnerability_management                                     | yes    | yes |
-|                                     | type                  | sidekiq                                                      | yes    | yes |
-|                                     | covered_experience_id | 01JP0EM7HB39WSJNR4662MYZ6V                                   | no     | yes |
-|                                     | user_journey_event_id | 01JQC43B4DD290R5845T361RJ4                                   | no     | yes |
-|                                     | correlation_id        | f93ae47de7f848343cf85511b47923ce                             | no     | yes |
+| **gitlab_covered_experience_total** | LABEL                       | EXAMPLE VALUE                    | METRIC | LOG |
+|-------------------------------------|-----------------------------|----------------------------------|--------|-----|
+|                                     | covered_experience_id       | security_scan                    | no     | yes |
+|                                     | covered_experience_event_id | 01JP0EM7HB39WSJNR4662MYZ6V       | no     | yes |
+|                                     | user_journey_event_id       | 01JQC43B4DD290R5845T361RJ4       | no     | yes |
+|                                     | correlation_id              | f93ae47de7f848343cf85511b47923ce | no     | yes |
+|                                     | feature_category            | vulnerability_management         | yes    | yes |
+|                                     | error                       | true \| false                    | yes    | yes |
+|                                     | type                        | sidekiq                          | yes    | yes |
 |                                     | meta                  | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests| no     | yes |
 
-| **gitlab_covered_experience_apdex_total** | LABEL                 | EXAMPLE VALUE                                                            | METRIC | LOG |
-|-------------------------------------------|-----------------------|--------------------------------------------------------------------------|--------|-----|
-|                                           | feature_category      | vulnerability_management                                                 | yes    | yes |
-|                                           | success               | true \| false                                                            | yes    | yes |
-|                                           | type                  | sidekiq                                                                  | yes    | yes |
-|                                           | covered_experience_id | 01JP0EM7HB39WSJNR4662MYZ6V                                               | no     | yes |
-|                                           | correlation_id        | f93ae47de7f848343cf85511b47923ce                                         | no     | yes |
+| **gitlab_covered_experience_apdex_total** | LABEL                       | EXAMPLE VALUE                    | METRIC | LOG |
+|-------------------------------------------|-----------------------------|----------------------------------|--------|-----|
+|                                           | covered_experience_id       | security_scan                    | no     | yes |
+|                                           | covered_experience_event_id | 01JP0EM7HB39WSJNR4662MYZ6V       | no     | yes |
+|                                           | correlation_id              | f93ae47de7f848343cf85511b47923ce | no     | yes |
+|                                           | feature_category            | vulnerability_management         | yes    | yes |
+|                                           | success                     | true \| false                    | yes    | yes |
+|                                           | type                        | sidekiq                          | yes    | yes |
 |                                           | meta                  | { "relevant attribute to the event": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
 
 ## Alternative Solutions
