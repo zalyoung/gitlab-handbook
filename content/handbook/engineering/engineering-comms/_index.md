@@ -85,7 +85,7 @@ Treat questions or requests from production team for immediate urgency with high
 - [`#development`](https://gitlab.enterprise.slack.com/archives/C02PF508L)
 - [`#production`](https://gitlab.enterprise.slack.com/archives/C101F3796)
 - [`#test-platform`](https://gitlab.enterprise.slack.com/archives/C3JJET4Q6)
-- [`#incident-management`](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1)
+- [`#incidents`](https://gitlab.enterprise.slack.com/archives/C02HF90ME66)
 - [`#support_gitlab-com`](https://gitlab.enterprise.slack.com/archives/C4XFU81LG)
 - [`#support_self-managed`](https://gitlab.enterprise.slack.com/archives/C4Y5DRKLK)
 - [`#s_platforms`](https://gitlab.enterprise.slack.com/archives/C02D1HQRTKQ)
