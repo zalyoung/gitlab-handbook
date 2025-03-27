@@ -109,6 +109,9 @@ sequenceDiagram
 
     Web->>Event: Step 1, SDK Emit Start
     Web->>Worker: Enqueue Job
+    %% enqueued job will have all the Covered Experience relevant context,
+    %% such as `covered_experience_event_id`, `user_journey_event_id`, and so on
+    Note over Web,Worker: Including event metadata
     Web-->>User: Response
     deactivate Web
 
