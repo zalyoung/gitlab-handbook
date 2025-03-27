@@ -56,7 +56,7 @@ Find the Account verification matrix on the [Account Owner Verification handbook
 
 [Customers Portal](https://customers.gitlab.com) requires all customers to access through a [Linked GitLab Account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account).
 
-The user is eligible and 2FA can be reset when **one** of following conditions are met:
+The user must meet **one of** the following conditions to be eligible for a 2FA reset:
 
 1. The request is made by the primary billing contact on the latest invoice for a GitLab subscription.
 1. The GitLab account is linked to the customers portal account for the primary billing contact on the latest invoice for a subscription purchase.
