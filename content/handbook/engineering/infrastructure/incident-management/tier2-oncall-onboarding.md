@@ -4,15 +4,16 @@ The Tier-2 SME on-call program enhances incident response by establishing a seco
 
 # Expectations
 
-- Respond when paged by the Tier 1 EOC, Incident Lead (.com or Dedicated), Security, or Self-Managed Support.
-
-- Assist with complex, domain-specific incidents that Tier 1 cannot resolve alone.
-
-- Be part of a 24x7x365 rota that ensures reliable SME coverage across time zones.
-
-- Respond within 15 minutes of being paged; ensure clear escalation chain if page is not acknowledged in time.
-
-- Help define and maintain incident severity criteria and escalation rules for their domain.
+- Respond when paged by:
+  - Tier-1 SRE EOC
+  - Security
+  - Self-Managed Support
+- Assist with complex, domain-specific incidents that Tier-1 cannot resolve independently
+- Maintain a 24/7/365 rotation with reliable coverage across time zones
+- Acknowledge pages within 15 minutes and have a clear escalation path if the primary responder is unavailable
+- Help define and maintain:
+  - Escalation rules for your domain
+  - Documentation and runbooks
 
 # Onboarding Process for Teams
 
