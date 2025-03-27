@@ -3,7 +3,7 @@ title: "GitLab Agile Portfolio Management- Hands-On Lab: Use A Merge Request To 
 description: "This Hands-On Guide walks you through creating a merge request and approval rules in GitLab."
 ---
 
-> Estimated time to complete: 45-60 minutes
+> Estimated time to complete: 45 minutes
 
 ## Objectives
 
