@@ -28,14 +28,16 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 - [Event Setup](https://help.goldcast.io/en_US/event-setup)
 - [Captions and Subtitles](https://help.goldcast.io/en_US/event-settings/16696845638683-captions-and-translated-subtitles)
 - [Webinars Powered by Smart Technology](https://help.goldcast.io/en_US/webinars-powered-by-smart-event-technology)
+- [Webinars vs Events](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events)
 - [Running an Event](https://help.goldcast.io/en_US/running-an-event)
 - [Enchanced Stage Controls](https://help.goldcast.io/en_US/enhanced-stage-controls)
+- [How to Create Booths](https://help.goldcast.io/rooms-booths/16633523675419-how-to-create-booths)
 - [Content Lab](https://help.goldcast.io/en_US/content-lab-home)
 
 ## Random Things to Know
 
 - Note: As of launch registrations should not be taken via the Goldcast landing pages/forms and registrations should only occur via Marketo forms/landing pages until further notice. 
-- When selecting the event type, keep in mind that **any** event where speakers will appear live on camera **must** be set to the `Live` event type. If no speakers will appear live on camera, the event type can be set to `Pre-recorded`. When the event type is set to `Pre-recorded`, back stage staff can interact with the audience **only** via text
+- When selecting the `New Webinar` option, keep in mind that **any** event where speakers will appear live on camera **must** be set to the `Live` event type. If no speakers will appear live on camera, the event type can be set to `Pre-recorded`. When the event type is set to `Pre-recorded`, back stage staff can interact with the audience **only** via text. If your event will need to be a mix of `pre-recorded` and `live Q&A`, it is recommended to select `New Event` instead of `New Webinar` as `New Event` will give more flexibilty for presenters. `New Webinar` offers a simpler setup, less flexibilty and automative content creation via Content Lab. More reading [here](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events) 
 - Specifications for creative assets, including video, can be found [here](https://help.goldcast.io/en_US/design/4406894301979-goldcast-design-specifications). **WARNING: Upload processing time can take up to 4x the length of the recorded video** and it's recommended for events to be 2 minutes longer than the video asset for pre-recorded events
 - Test events are no longer test events if the registrant number reaches 10 people. More information on test events [here](https://help.goldcast.io/en_US/event-settings/what-is-a-test-event-how-to-create-one)
 - When an event is set to convert to an on demand capable event, the transition occurs around the 35 minute mark after the event ends
@@ -175,19 +177,29 @@ Marketo landing page tokens
 
 ## Users have the option of starting event creation within either platform
 
+### Differences with creating a New Webinar, New Event and New Series
+
+As mentioned in the Random Things to Know section, when creating a new event there are a few choices: `New Webinar`, `New Event` and `New Series`. Each of these offers slight variation on event attributes but are larger the same. 
+
+- For more simplistic webinars where the entire event is either broadcast type `pre-recorded` or entirely broadcast type `live`, `New Webinar` offers an easy set up option but with less flexibilty. If `pre-recorded` is selected, the Back Stage staff can only interact with the audience via the text-based interface. If `Live` is selected, the Staff or Speakers must manually manage all video shown on the stage
+- For more flexibility to manage pre-recorded video and live speakers within your event, select `New Event`. `New Event` lets users create a multi-session events that can be scheduled across multiple rooms, times and days. This option is best for events featuring `live Q&A` after a pre-recorded video
+- More info to come on Series as Goldcast landing pages become public facing ready
+
 ### Event Creation within Goldcast 
 
-When starting event creation in Goldcast, start by clicking the `+` icon in the top right of the platform. If you are starting a standard webcast, select `New Webinar` from the selections.
+When starting event creation in Goldcast, start by clicking the `+` icon in the top right of the platform. From the primary options, select the best fit for your event.
 
-Fill in your `Title`, `Pick a Date`, `Start Time`, `End Time`, `Timezone`, and `Type` - All of these auto-populate into the Marketo program tokens, where appropriate. GitLab as an org will likely stick with `Live` and `Pre-recorded` types. The `RTMP` type is a feature that allows embedding to or from external tools.
+Fill in your `Title`, `Pick a Date`, `Start Time`, `End Time`, `Timezone`, and for webinars `Type` - Most of these auto-populate into the Marketo program tokens, where appropriate. GitLab as an org will likely stick with `Live` and `Pre-recorded` types. The `RTMP` type is a feature that allows embedding to or from external tools and there are currently no plans to use this feature. Please ping MktgOps if there is a request to try it
 
-Select the template for your event. This covers a range of things, including the registration landing page, automated registration/reminder emails, the event console look & feel and the registration form format. 
+Select the template for your event. This covers a range of things, including the registration landing page, automated registration/reminder emails, the event stage look & feel and the registration form format. 
 
 Tag your events based on region, topic, team, etc criteria for better event reporting. 
 
 Standard GitLab events will be within the `GitLab Inc` Team Workspace.
 
 Select a repeating event schedule, if desired. Note this functionality has not been fully tested with Marketo in mind. 
+
+Note that for `New Event` selections, there will be more options to customize your event found in the `Program` menu, additions including `Agenda`, `Rooms` and `Booths`. Use the `Agenda` options to customize your sessions in the event of a multi-session event. The Agenda's session names and times appear on the external facing landing pages if that feature has not been turned off
 
 If the event is for testing, toggle off the `Test Event` toggle. Test events max out at 10 registrants within the event. Test events also do not record and cannot be converted for `on-demand` viewing. More information on test events [here](https://help.goldcast.io/en_US/virtual-events/16616311404315-getting-started-with-goldcast-setting-up-running-an-event#test-event-12).
 
@@ -219,11 +231,17 @@ When the Goldcast event and Marketo program are connected, Goldcast will automat
 - `03 Goldcast Processing - On Demand - Goldcast/Pathfactory`: This smart campaign is designed to process `on-demand` attendees based on either Goldcast post-event viewing or Pathfactory viewing. Needs to be turned on within 30 minutes of the webcast ending to work correctly for Goldcast on demand attendees. Have Pathfactory keywords in-mind or ready so those filters can be added to the trigger and the flow can be activated before the 35 minute mark post-event 
 - `04 Goldcast Processing - Engagement`: If an attendee clicks the CTA button -which by default is labeled as `Talk to an Expert`- in either an Event or in a Booth, this flow marks those leads as `Follow Up Requested`. In order for this flow to work, it must be active and needs to have the event ID place in the trigger filter. Otherwise the CTA button will not MQL the lead for follow up. Note that the CTA button simply links to the "talk to sales" page during `on demand` events and this flow does not need to be activated for `on demand`
 
-## Navigating Inside a Goldcast Event, pre-live
+## Navigating Inside a Goldcast Webinar and Event, pre-live
 
-From within a Goldcast event, there are a four primary tabs most will utilize: `Event`, `Registration`, `Analytics` and `Edit Event`. The `Integrations` tab is likely to go unused by most, as that deals with the Marketo integrations --which are already set--. However, in the event of the Marketo token sync failing, the FORM ID and EVENT ID are located in the Integrations menu. The `Email` tab will only really be utilized when needing to send reschedule related emails, as described further down this page, or cancellation emails. 
+### Webinar
 
-### Edit Event Menu
+From within a Goldcast webinar, there are a four primary tabs most will utilize: `Event`, `Registration`, `Analytics` and `Edit Event`. The `Integrations` tab is likely to go unused by most, as that deals with the Marketo integrations --which are already set--. However, in the event of the Marketo token sync failing, the FORM ID and EVENT ID are located in the Integrations menu. The `Email` tab will only really be utilized when needing to send reschedule related emails, as described further down this page, or cancellation emails. 
+
+### Event
+
+Within a Goldcast event, the menu arrangement differs in placement but carries much of the same information and options. Key differences are placement of the menu options and access to menus for `Agenda`, `Rooms` and `Booths` management differ. See below for more detail
+
+#### Edit Event Menu
 
 Multiple ways to edit your event are within this menu, including but not limited to: 
 
@@ -233,7 +251,7 @@ Multiple ways to edit your event are within this menu, including but not limited
 - Changing your events from Live to Pre-recorded broadcast types. RTMP is also available (broadcasting to or from a separate webcast service) but as an org GitLab is unlikely to use this 
 - Attendee privacy and attendee chat settings
 
-### Event Menu
+#### Webinar Primary Menu
 
 Much of the primary look and feel + external facing event information is found in this menu
 
@@ -241,13 +259,25 @@ Much of the primary look and feel + external facing event information is found i
 - Upload information about your event's speakers and staff on this menu, such as names, titles and photos
 - Renaming the speakers tab and supplying a description in this section also an option
 
-Viewing as an registrant or making changes to your emails, event stage and registration page also occur on this menu. Changes to email are likely unneeded due to the schedule and template already being set, however,
+Viewing as an registrant or making changes to your emails, event stage and registration page also appear in the dashboard. Changes to email are likely unneeded due to the schedule and template already being set, however,
 
 To make changes to the registration page or event stage, hover over either and select `Design`. Landing pages are customized via a block system, where blocks can be added, hidden or entirely removed. Note that Speaker info will be added to landing pages once Speakers are loaded into the event. The included templates for the landing page and event stage are the suggested starting place and are customizable from there. It's a good idea to explore and customize the Event Stage so producers know what features to expect during the live event. 
 
 Lastly, AI created content based on your even can be sorted and viewed here. This section only occurs after the event has concluded and the platform has had time to process the recording.
 
-### Registration Menu
+#### Program Menu for Events
+
+Within an Event, the Dashboard contains the look and feel information along with features enabled on the event, such as captions, on demand or whether the event is in test mode.
+
+Under the Program menu, the `Agenda` controls the event's session times. When adding or removing sessions, the times and dates must adhere to the original window given during event creation. If the window needs to be changed, that can be done in the `Edit Event` menu. For events that require a `pre-recorded` video to be played followed by a `live` broadcast, such as a Q&A, it's recommended to include 2 sessions for each broadcast, appropriately labeled for the broadcast type. Notice the `Settings` button on the right: Keep `Session Redirection Strategy` set to `Automatic` for the easiest transitions between sessions.
+
+It's also possible to add breaks between sessions. During the breaks between session times or when nothing is playing on the stage, the audience will see the asset loaded in as the buffer video. Note the template comes pre-made with a 3 second buffer video but this can be swapped out. 
+
+Enable `Rooms` to allow the audience to socialize across rooms during the event. Enable appropriate settings for your audience Rooms
+
+Enable `Booths` to let the audience explore themed GitLab content or sponsored content. More info [here](https://help.goldcast.io/rooms-booths/16633523675419-how-to-create-booths)
+
+#### Registration Menu
 
 This menu is where registrant management occurs
 
@@ -257,7 +287,7 @@ This menu is where registrant management occurs
 - Tracking Pixels and Tags are applied via the template and should not be tampered with without discussing with Marketing Ops/Analytics
 - `Form` allows changes to the registration form, like adding or removing fields. If there is a need to have more custom field data in Marketo, consult Marketing Ops and do not make such a change yourself
 
-### Analytics
+#### Analytics
 
 This section allows for viewing of data directly collected by Goldcast, such as email send rates, survey+polls results and engagement stats. Not all of this information is shared to Marketo at launch and plans to export some of this data will come later
 
@@ -274,7 +304,7 @@ From the Producer view during an event, there are several key controls to take n
 - E: Q&A: Controls for Q&A. If Q&A moderation controls are on, Backstage must approve Qs before attendees can see. Backstage can also "ask" questions anonymously if "Hide Names" is selected 
 - F: Overlay: Controls to take over the screen with a written message
 - G: Ticker: Controls to post a message banner at the bottom of the screen. Tickers do not appear in recordings
-- H: Layout: Speakers, Producers and Coordinators all have access to change the console layout
+- H: Layout: Speakers, Producers and Coordinators all have access to change the stage layout
 - I: Backstage Toggle: Use this toggle to increase the size of the audience view presented on your screen and minimize the Backstage information 
 - J: Mic controls
 - K: Webcam and virtual background controls 
