@@ -1,9 +1,6 @@
 ---
 title: "Tier-2 Oncall"
 ---
-
-# Tier-2 Oncall
-
 The Tier-2 SME on-call program enhances incident response by establishing a second tier of specialized support to complement the existing SRE EOC (Engineering On-Call) rotation. Subject Matter Experts (SMEs) provide domain-specific knowledge to help resolve complex incidents faster, improve MTTR (Mean Time To Recover), and increase ownership and accountability for service reliability.
 
 ## Expectations
@@ -38,4 +35,4 @@ The Tier-2 SME on-call program enhances incident response by establishing a seco
 
 ## Next Steps
 
-1.  Double check your schedule to ensure coverage during holidays and team events
+1. Double check your schedule to ensure coverage during holidays and team events
