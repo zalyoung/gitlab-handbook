@@ -20,18 +20,20 @@ The team uses [Engineering Principals](/handbook/engineering/development/princip
 
 Systems and services we are primarily responsible for:
 
-- PostgreSQL Core
+- PostgreSQL Core (VM)
+- PostgreSQL Core (PGaaS) (coming soon)
 - PostgreSQL High Availability and Load Balancing (e.g. Patroni, PGBouncer, consul, PostgreSQL Replication etc.)
 - PostgreSQL Disaster Recovery (backup/restore and other techniques)
 - Database Observability (Prometheus instrumentation, workload analysis etc.)
 - Support & troubleshooting of GitLab applications, specifically related to their use of and interaction with the PostgreSQL ecosystem.
+
+- Self-Hosted Clickhouse (coming soon)
 
 Systems or services explicitly not owned by us:
 
 | System name | Description | Owner and supported by | Extra info/Open questions |
 |-------------|-------------|------------------------|---------------------------|
 | Redis | There are several use cases such as caching, rate-limiting, sidekiq queueing. | [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) | [Redis Architecture](/handbook/engineering/infrastructure/production/architecture/#redis-architecture) |
-| Clickhouse |  |  |  |
 | Data team systems |          | Data team |                          |
 | Self Managed databases|           | Self managed Support |               |
 
@@ -39,11 +41,10 @@ Systems or services explicitly not owned by us:
 
 |   |   |
 |---|---|
-| Workflow | [Issue Labels](/handbook/engineering/infrastructure/team/reliability/issues/#labels) <br> [Weekly Issue Triage](https://gitlab.com/groups/gitlab-com/gl-infra/-/issues/?sort=created_date&state=opened&label_name%5B%5D=team%3A%3ADatabase%20Reliability&first_page_size=20) |
-| Backlog | [Current Milestone](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/3406753) <br> [Issue Backlog](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5360242) |
+| Backlog | [DBO Status](https://gitlab.com/groups/gitlab-com/gl-infra/data-access/dbo/-/epics/13) |
+| Roadmap Ideas | [Now-Next-Later](https://gitlab.com/groups/gitlab-com/gl-infra/data-access/dbo/-/epic_boards/2066770) |
 | Reaching us | [`#g_database_operations`](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) <br> `@gitlab-org/data-access/dbo` |
 | Weekly Agenda | [Weekly APAC and EMEA/AMER](https://docs.google.com/document/d/1d8YrRO4Vw_pHXohgwq-lEBM75ihMtkLpcd2_cFa6Yrs/edit#) |
-| Achievements | [FY24 - Q1](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/17443) |
 
 ## DBO Escalations
 
