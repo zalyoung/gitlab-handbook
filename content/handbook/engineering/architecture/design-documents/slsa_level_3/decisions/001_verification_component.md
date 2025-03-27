@@ -17,7 +17,7 @@ Lack of separation of concerns: The same component that generates and signs the 
 Verification is not truly independent: When the same component generates both the attestation and VSA, there's no true validation that the attestation meets SLSA L3 requirements.
 Pipeline structure doesn't reflect real-world usage: In production environments, artifact publishing and verification often occur in separate stages or even separate pipelines.
 
-##  Options Considered
+## Options Considered
 
 ### Option 1: Single Unified Component
 

@@ -449,6 +449,6 @@ verify_provenance:
 1. Provide clear documentation and examples for adoption.
 1. Extend the component in later phases to include additional metadata collection and signing enhancements.
 
-###  Decisions
+### Decisions
 
 - [001: Verification Component](decisions/001_verification_component.md)
