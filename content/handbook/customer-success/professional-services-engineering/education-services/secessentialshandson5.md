@@ -132,16 +132,11 @@ flowchart TD
 
 4. On this screen, you will see a summary of the fuzz job. On this screen, you can see the fuzz test that was run against the `is_third_byte_zero` function. Notice that the output includes a `bytearray index out of range error`.
 
-## Course Labs Completed
+## Lab Guide Complete
 
-Congratulations! You have just finished the labs for this course.
-
-Your access to this group and project are ephemeral and will expire soon.
-
-Want to keep a copy of your project to practice with later? You can [export](https://docs.gitlab.com/ee/user/project/settings/import_export.html#export-a-project-and-its-data) it to a ZIP file or [transfer](https://docs.gitlab.com/ee/user/project/settings/migrate_projects.html#transfer-a-project-to-another-namespace) it to your personal namespace.
-
-You can bookmark the [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson) to review the steps in the future.
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson).
 
 ## Suggestions?
 
 If you'd like to suggest changes to the *GitLab Security Essentials Hands-On Guide*, please submit them via merge request.
+
