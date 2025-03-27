@@ -124,7 +124,7 @@ Application of the `~Deliverable` label indicates the Engineering team has commi
 - Only the EM should apply the `~Deliverable` label.
   - Engineers can ping the EM on the Planning Issue, for any issues that should be `~Deliverable`.
 
-#### Kanban Self-Assignment
+#### Kanban Self-Assignment (with Context Awareness)
 
 Each engineer self-assigns issues from the build board and works on them. In general, issues are assigned one at a time, but if issues are linked an engineer may want to self-assign more than one. The team works to collectively close all issues on the Build Board.
 
