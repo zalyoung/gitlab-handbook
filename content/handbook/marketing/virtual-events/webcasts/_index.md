@@ -1,6 +1,6 @@
 ---
 title: Webcasts
-description: An overview of webcasts at GitLab, including processes for Zoom and On24.
+description: An overview of webcasts at GitLab, including processes for Zoom and Goldast.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
@@ -22,17 +22,17 @@ twitter_creator: "@gitlab"
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-There are four types of GitLab-hosted webcasts and workshops using the Zoom webcast license and On24, with differing DRIs depending on the webcast goal and owner.
+There are four types of GitLab-hosted webcasts and workshops using the Zoom webcast license and Goldcast, with differing DRIs depending on the webcast goal and owner.
 
-* **[Top-Funnel Campaign Webcasts](/handbook/marketing/virtual-events/webcasts/#campaign-webcasts):** goal is net new customer acquisition, managed by Campaign Managers in **On24**, aligned to use cases amd overarching campaign themes to drive MQLs in target accounts
-* **[Partner Webcasts](/handbook/marketing/virtual-events/webcasts/#partner-webcasts):** goal is net new customer acquisition, managed by Partner Marketing in **On24**, teaming with Partners to drive registration together
+* **[Top-Funnel Campaign Webcasts](/handbook/marketing/virtual-events/webcasts/#campaign-webcasts):** goal is net new customer acquisition, managed by Campaign Managers in **Goldcast**, aligned to use cases amd overarching campaign themes to drive MQLs in target accounts
+* **[Partner Webcasts](/handbook/marketing/virtual-events/webcasts/#partner-webcasts):** goal is net new customer acquisition, managed by Partner Marketing in **Goldcast**, teaming with Partners to drive registration together
 * **[Virtual Workshops](/handbook/marketing/virtual-events/webcasts/#virtual-workshops):** goal is to increase conversion/velocity of MQLs to SAO, and/or SAO to Closed Won, using hands-on labs with demo environment, capped registration, managed by Field Marketing in **Zoom**
 
 ## Campaign Webcasts {#campaign-webcasts}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-Campaign webcasts are managed, moderated, and executed by the Campaigns Team in On24, focusing on use case, competitive, and other overarching campaign messaging.
+Campaign webcasts are managed, moderated, and executed by the Campaigns Team in Goldcast, focusing on use case, competitive, and other overarching campaign messaging.
 
 ### Submitting a campaign webcast idea {#campaigns-webcast-idea}
 
@@ -104,12 +104,11 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 
 Partner webcasts are managed and moderated by Partner Marketing, working closely with partner counterparts, with techincal setup (Marketo, SFDC, ON24) by Campaign Managers.
 
-### Checking On24 webcast calendar for partner webcast dates {#bt-partner-webcasts}
+### Checking Goldcast webcast calendar for partner webcast dates {#bt-partner-webcasts}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-* Before scheduling the ON24 Webcast, please check [ON24 calendar](https://calendar.google.com/calendar/u/0?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to make sure there is no overlapping virtual event that has been pre-scheduled
-* If the date and time is feasible and does not over-saturate the calendar, please schedule directly in the ON24 calendar
+* To schedule a Webcast, please check [Goldcast calendar](https://calendar.google.com/calendar/u/0?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 * Key information to add: webcast title, webcast DRI, and the link to the issue in the description
 * If you have any additional questions, please get in touch with Marketing Campaigns on slack - #marketing-campaigns
 
