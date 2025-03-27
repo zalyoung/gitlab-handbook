@@ -284,7 +284,7 @@ This phase begins after work has been broken down, and [prioritized](/handbook/p
 
 When an issue is in `workflow::in review`, the Application Security Engineer would help validate the risk mitigations through the non-blocking [application security review process](/handbook/security/product-security/application-security/appsec-reviews/).
 
-Documentation for the work will be developed by the engineer and the Technical Writer (see [Documentation with code as workflow](/handbook/product/ux/technical-writing/workflow/#documentation-with-code-as-a-workflow)). The Technical Writer should review the documentation as part of the development process. Items discovered during a documentation review should not block issues moving into the next phase. This may drive the creation of follow-on improvement MRs for the documentation, after release.
+Documentation for the work will be developed by the engineer and the Technical Writer (see [Documentation with code as a workflow](https://docs.gitlab.com/development/documentation/workflow/#documentation-with-code-as-a-workflow)). The Technical Writer should review the documentation as part of the development process. Items discovered during a documentation review should not block issues moving into the next phase. This may drive the creation of follow-on improvement MRs for the documentation, after release.
 
 After the feature code has been merged, the issue should be moved to `workflow::verification`.
 When an issue is in `workflow::verification`, the responsible engineer will [manually test the feature](../engineering/index.html#manual-verification) in either the Staging or Production environment.
