@@ -191,7 +191,8 @@ This is an automated message relaying the output of the 🏗️🏭build_changes
 - Total Seeds: 0
 - Total Snapshots: 0
 - Command:
-```
+
+```console
 dbt --fail-fast clone --selector contiguous_list --state reference_state --vars {"DOWNSTREAM_LIST":"date_details_source+","UPSTREAM_LIST":"+date_details_source"}
 ```
 
@@ -227,7 +228,8 @@ dbt --fail-fast clone --selector contiguous_list --state reference_state --vars 
 - Total Seeds: 0
 - Total Snapshots: 0
 - Command:
-```
+
+```console
 dbt --fail-fast build --selector contiguous_list --defer --state reference_state --vars {"DOWNSTREAM_LIST":"date_details_source+","UPSTREAM_LIST":"+date_details_source"}
 ```
 
@@ -237,7 +239,8 @@ dbt --fail-fast build --selector contiguous_list --defer --state reference_state
 > Found 1 errors:
 
 #### ❌ Error in `unique_date_details_source_day_name`
-```
+
+```console
 Got 7 results, configured to fail if != 0
 ```
 
