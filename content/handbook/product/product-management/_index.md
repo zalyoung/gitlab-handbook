@@ -356,7 +356,7 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 **Internal**
 
 - [SaaS vs. Self-managed](https://about.gitlab.com/features/)
-- [Features by tier](/features/by-paid-tier/)
+- [Features by tier](https://about.gitlab.com/features/by-paid-tier/)
 
 ### Working with User Experience (UX)
 

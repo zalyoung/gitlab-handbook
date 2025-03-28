@@ -348,7 +348,7 @@ The audience we aim to reach with our all-remote and workplace initiatives is bo
 
 - GitLab is an [all-remote](/handbook/company/culture/all-remote/terminology/) company. Hiring managers are able to find candidates not limited to tech hubs like San Francisco, New York or Boston.
 - When you can hire around the world, you can pay market wages and offer people an at-market or above-market wage while still reducing costs for the company.
-- Without office rent, an organization [saves](/handbook/company/culture/all-remote/benefits/) a significant amount of money. GitLab, for example, has experienced rapid growth and would've had to move offices seven times in the last few years. We save a significant amount of money on rent, utilities, office equipment, and additional team members to manage the office.
+- Without office rent, an organization [saves](/handbook/company/culture/all-remote/remote-benefits/) a significant amount of money. GitLab, for example, has experienced rapid growth and would've had to move offices seven times in the last few years. We save a significant amount of money on rent, utilities, office equipment, and additional team members to manage the office.
 - GitLab has [grown](/handbook/company/history/) from 350 employees at the beginning of 2019, to over 1,600 employees across 65+ countries and regions currently.
 We chose the all-remote structure so we can hire people irrespective of location and we're able to find the most talented people in the world rather than within a commutable distance.
 

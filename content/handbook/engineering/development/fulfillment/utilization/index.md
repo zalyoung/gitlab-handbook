@@ -474,7 +474,7 @@ Following a similar process to Milestone Retrospectives, we employ [Iteration Re
 - Look for blockers as natural boundaries for issue/epic breakdown
 - Intentionally cut scope to ensure deliverability. Try to cut scope as early as possible.
 - Lean into using [the Refinement Template](/handbook/engineering/development/fulfillment/#estimation-template) for estimations.
-- Remember to find reviewers/maintainers with domain knowledge and compatible timezones for maximum efficiency - See also [MR review guidelines](/development/code_review.html#domain-experts)
+- Remember to find reviewers/maintainers with domain knowledge and compatible timezones for maximum efficiency - See also [MR review guidelines](/handbook/engineering/workflow/code-review/#domain-experts)
 - Share your proof of concept solutions with others to get feedback early on solutions
 - Consider acceptable partial solutions - cover the majority case; defer the edge cases for the next iteration if possible
 

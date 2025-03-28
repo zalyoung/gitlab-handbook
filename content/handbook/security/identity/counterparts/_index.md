@@ -33,7 +33,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - disla
   gitlab_saas_tag: '@gitlab-com/it/compliance'
   slack_channel: '#it_help'
-  handbook_page: 'https://handbook.gitlab.com/handbook/business-technology/it-compliance/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/it-compliance/'
   issue_tracker: 'https://gitlab.com/gitlab-com/business-technology/change-management/-/issues'
 - it_ops_leader:
   team_name: 'IT Ops Leadership'
@@ -57,7 +57,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - malkobaisy
   gitlab_saas_tag: '@gitlab-com/it/security @gitlab-com/it/engops'
   slack_channel: '#it_security_help'
-  handbook_page: 'https://handbook.gitlab.com/handbook/business-technology/it/security/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/security/corporate/'
   issue_tracker: 'https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues'
 - infra_platforms_leader:
   team_name: 'Infrastructure SaaS Platforms Leadership'
