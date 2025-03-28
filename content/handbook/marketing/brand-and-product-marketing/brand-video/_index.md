@@ -1,16 +1,16 @@
 ---
 title: "Brand Video"
-description: "GitLab Brand Creative - Brand Video Handbook"  
+description: "GitLab Brand Creative - Brand Video Handbook"
 ---
 
-### What We Do 
+### What We Do
 
 We create compelling video content that amplifies brand awareness, educates our audiences, announces releases, and supports company-wide initiatives. Brand video is within the Brand Creative team and we specialize in video production—bringing storytelling, creativity, and design to life in every project. Our goal is to embody GitLab’s brand and purpose in every frame, ensuring consistency, clarity, and impact. Whether it’s a simple webinar or a large-scale product announcement, we approach every opportunity with intention, elevating the message through thoughtful and engaging visuals. We are committed to ensuring each video reflects the same excellence, innovation, and clarity that GitLab delivers.
 
 ### Team - Who We Are
 
-Joanna Cyprys - Sr Manager, Video 
-Dale Harper - Video Producer 
+Joanna Cyprys - Sr Manager, Video
+Dale Harper - Video Producer
 
 ### How We Work 
 
@@ -66,7 +66,7 @@ Rev.com: Rev.com is a trusted industry-standard platform for captions, subtitles
 - [GitLab animated logo](https://drive.google.com/drive/u/0/folders/1y8nsDuBIL3J0uMCMfc1NXGZWwd8HPpZT)
 - [Motion Templates](https://drive.google.com/drive/u/0/folders/1GFTBYu8TN371SanjhyQ9jO-t-W3H6jzJ) including lower thirds 
  
- ### Guidelines 
+### Guidelines 
 
 - [Motion Guidelines](https://drive.google.com/drive/u/0/folders/1PjtoGsuN4fvCoyNnQtFMJknzFbKV84kg)
 - [Wardrobe best practices](https://docs.google.com/presentation/d/1nNwb-iquFw3rt3Esxoiuae3o59uMLUK7Y169c1ZB-GA/edit#slide=id.g339ec0b3cbc_0_905) for live video shoots
