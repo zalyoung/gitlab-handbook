@@ -65,13 +65,12 @@ Always be cautious of changes. Many of these can have significant downstream imp
     - Edit permissions: Admins
     - Publish permissions: Admins
   - Agents and admins
-   - Edit permissions: Admins
-   - Publish permissions: Admins
+    - Edit permissions: Admins
+    - Publish permissions: Admins
 - Community moderators
   - Unused
 - Content blocks
   - [x] Allow agents to update content blocks
-
 
 ## Settings
 

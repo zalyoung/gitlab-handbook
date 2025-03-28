@@ -14,7 +14,7 @@ This is our main (and first) Zendesk instance. Most people interacting with GitL
 - Support portal address: <https://support.gitlab.com>
 - Sandbox address: <https://gitlab1707170878.zendesk.com/agent/>
 
-### Zendesk Government
+### Zendesk US Government
 
 This is a Zendesk instance made specifically with Self-Managed public sector users in mind. It has many restrictions and is not generally usable without pre-approval.
 

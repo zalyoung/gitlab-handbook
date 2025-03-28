@@ -49,7 +49,6 @@ You can cause some serious issues doing this action. Avoid doing this unless ano
 
 For information on merging an organization, please see [Zendesk documentation](https://support.zendesk.com/hc/en-us/articles/6216929727898-Merging-organizations#topic_vt2_xzh_hzb).
 
-
 ## Deleting an organization in Zendesk
 
 {{% alert title="Note" color="danger" %}}

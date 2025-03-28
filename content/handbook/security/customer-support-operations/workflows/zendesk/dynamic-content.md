@@ -35,6 +35,7 @@ variants:
   active: true
   default: true
 ```
+
 Where:
 
 - `NAME_OF_ITEM` is the name of the dynamic content item

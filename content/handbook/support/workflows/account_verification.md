@@ -40,7 +40,7 @@ Do not allow the customer to bring up unrelated topics.
 
 Ensure that the ticket form, category, subcategory, and topic are accurate.
 
-Most SaaS Account categories have [automations](../readiness/operations/docs/zendesk/automations.md) or [triggers](../readiness/operations/docs/zendesk/triggers.md).
+Most SaaS Account categories have automations or triggers.
 
 #### Account verification matrix
 

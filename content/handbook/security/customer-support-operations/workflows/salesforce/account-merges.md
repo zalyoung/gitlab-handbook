@@ -21,7 +21,7 @@ This page is intended to provide guidance for when you must review a Salesforce 
      - Action: If either condition is true, we can proceed with the account merge. However, Customer Support Operations should inform Sales Ops in the issue that the target organization will not automatically have the same configuration. The customer will need to raise a ticket with Customer Support Operations to explicitly request that the target organization is updated after the account merge has taken place.
    - Once eligibility for the Account Merge has been confirmed:
      - Customer Support Operations should reply back to the original issue, providing their approval and sign off on the account merge.
-     - Customer Support Operations should add a note to the source organization documenting the target organization. These can be added as [Customer Support Operations organizatio notes](/handbook/security/customer-support-operations/docs/zendesk/organizations/#organization-notes-for-zendesk-global).
+     - Customer Support Operations should add a note to the source organization documenting the target organization. These can be added as [Customer Support Operations organizatio notes](/handbook/security/customer-support-operations/docs/zendesk/organizations/#organization-notes).
 1. Post-Merge Actions
    - Communication:
      - Once the account merge is complete, Sales Ops should notify Customer Support Operations about the successful merge.

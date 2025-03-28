@@ -38,7 +38,6 @@ Due to the nature of the multi-step process, this will result in a pipeline fail
 
 {{% /alert %}}
 
-
 To deactivate an view, you must perform a two-step process
 
 ### Step 1
@@ -56,6 +55,7 @@ Only proceed to step 2 once all changes in step one are merged.
 1. Move the view from the active folder to the the corresponding location in the inactive folder (if it does not exist, create it)
 1. Change the value of the `active` attribute in the YAML file to `false`
 1. Change the `conditions` section to be:
+
    ```yaml
    - field: 'brand_id'
      operator: 'is_not'
@@ -64,6 +64,7 @@ Only proceed to step 2 once all changes in step one are merged.
       operator: 'less_than'
       value: 'closed'
    ```
+
 1. Change the `restriction` value to be `null`
 
 You should also do this in a way that creates a MR. Said MR should always be peer reviewed before merging (the MR should enforce this).

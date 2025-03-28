@@ -75,10 +75,12 @@ To deactivate a macro, you must make the following changes in the corresponding 
 1. Move the macro from the active folder to the the corresponding location in the inactive folder (if it does not exist, create it)
 1. Change the value of the `active` attribute in the YAML file to `false`
 1. Change the `actions` section to be:
+
    ```yaml
    - field: 'brand_id'
      value: 'GitLab Support'
    ```
+
 1. Change the value of the `contains_managed_content` attribute to `false`
 
 You should also do this in a way that creates a MR. Said MR should always be peer reviewed before merging (the MR should enforce this).

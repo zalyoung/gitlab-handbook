@@ -16,6 +16,7 @@ To modify this, you would do the following:
   - You are wanting to make three changes here:
     1. Update the version number and date in the `upcoming_unsupported_version_message` function
     1. Ensure the following `if` block is uncommented:
+
        ```javascript
        if ($(this).val().split('.')[0] == xx) {
           $('#gitlab_version_checker_upcoming').show();
@@ -23,6 +24,7 @@ To modify this, you would do the following:
           $('#gitlab_version_checker_upcoming').hide();
         }
        ```
+
        - Where `xx` is the previously used version number
     1. Ensure the previously used version number in the `if` block (from point 2) is updated
 - Update the version in the `data/theme/manifest.json` file
@@ -35,6 +37,7 @@ As the version from the message is now unsupported, we need to remove the warnin
 
 - Update the `data/theme/script.js` file
   - Ensure the following `if` block is commented out:
+
     ```javascript
     if ($(this).val().split('.')[0] == xx) {
        $('#gitlab_version_checker_upcoming').show();
@@ -42,6 +45,7 @@ As the version from the message is now unsupported, we need to remove the warnin
        $('#gitlab_version_checker_upcoming').hide();
      }
     ```
+
     - Where `xx` is the previously used version number
 - Update the version in the `data/theme/manifest.json` file
 

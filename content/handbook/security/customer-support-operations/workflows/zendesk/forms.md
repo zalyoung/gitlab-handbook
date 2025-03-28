@@ -37,6 +37,7 @@ To deactivate an form, you must make the following changes in the corresponding 
 1. Move the form file from the active folder to the the corresponding location in the inactive folder (if it does not exist, create it)
 1. Change the value of the `active` attribute in the YAML file to `false`
 1. Change the `ticket_field_ids` seciton to be:
+
    ```yaml
    - 'Status'
    - 'Group'
@@ -45,6 +46,7 @@ To deactivate an form, you must make the following changes in the corresponding 
    - 'Subject'
    - 'Description'
    ```
+
 1. Change the `end_user_conditions` section to be `[]`
 1. Change the `agent_conditions` section to be `[]`
 
@@ -60,7 +62,7 @@ If you are looking for information about the annual review of forms, please see 
 
 {{% /alert %}}
 
-The process to delete a form is exactly as described in the [forms documentation page](../../docs/zendesk/forms#deleting-a-form).
+The process to delete a form is exactly as described in the [forms documentation page](../../docs/zendesk/forms#deleting-a-ticket-form).
 
 ## Exception deployment
 

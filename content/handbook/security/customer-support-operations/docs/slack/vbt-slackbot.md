@@ -24,9 +24,9 @@ It runs via the following scheduled pipelines:
 
 | Name | Interval |
 |------|----------|
-| Managers AMER | 0 14 * * 1-5 Etc/UTC |
-| Managers APAC | 30 21 * * 0-4 Etc/UTC |
-| Managers EMEA | 0 7 * * 1-5 Etc/UTC |
+| Managers AMER | `0 14 * * 1-5` Etc/UTC |
+| Managers APAC | `30 21 * * 0-4` Etc/UTC |
+| Managers EMEA | `0 7 * * 1-5` Etc/UTC |
 
 During each run, a Zendesk view preview is generated using the following criteria:
 

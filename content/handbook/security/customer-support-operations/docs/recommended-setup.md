@@ -102,7 +102,6 @@ This is for macOS only. There is a Linux varient, however it does not currently 
 
 {{% /alert %}}
 
-
 To install the 1Password app, you would utilize [Homebrew](#homebrew) via the following command:
 
 ```bash

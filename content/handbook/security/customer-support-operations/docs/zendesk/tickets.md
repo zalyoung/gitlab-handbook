@@ -46,6 +46,7 @@ Always be cautious of changes. Many of these can have significant downstream imp
     - CC blacklist: `noreply@google.com`
     - CC email subject: `[{{ticket.account}}] Update: {{ticket.title}}`
     - CC email text:
+
       ```plaintext
       You are registered as a CC on this support request ({{ticket.link}}). Reply to this email to add a comment to the request.
 
@@ -53,6 +54,7 @@ Always be cautious of changes. Many of these can have significant downstream imp
 
 
       ```
+
 - Assignment
   - [x] Auto-assign tickets upon solve
   - [x] Allow re-assignment back to the general group
@@ -102,11 +104,13 @@ Always be cautious of changes. Many of these can have significant downstream imp
   - [x] Enable followers
     - Follower email subject: `{{ticket.title}}`
     - Follower email template:
+
       ```plaintext
       You are a follower on this request ({{ticket.link}}). {{ticket.follower_reply_type_message}}
 
       {{ticket.comments_formatted}}
       ```
+
   - [ ] Enable CCs
   - [ ] Automatically make an agent CC a follower
 - Requester

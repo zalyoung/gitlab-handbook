@@ -65,4 +65,3 @@ To perform an exception deployment for ticket fields, navigate to the ticket fie
 
 - [Zendesk Global sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/forms-and-fields)
 - [Zendesk US Government sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/forms-and-fields)
-
