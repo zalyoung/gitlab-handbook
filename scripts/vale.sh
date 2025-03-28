@@ -37,8 +37,9 @@ fi
 MIN_ALERT_LEVEL="warning"
 
 ## lint all markdown files if .vale files are changed, otherwise only lint the changed markdown files
-if [ -n "${MODIFIED_VALE_FILES}" ]; then
-    echo "Vale files have changed. Linting all markdown file..."
+NON_TXT_VALE_FILES="$(echo "${MODIFIED_VALE_FILES}" | grep -v '\.txt$' || true)"
+if [ -n "${NON_TXT_VALE_FILES}" ]; then
+    echo "Vale configuration files have changed. Linting all markdown file..."
     MODIFIED_MD_FILES="$(find content -name '*.md')"
     MIN_ALERT_LEVEL="error"
 elif [ -n "${MODIFIED_MD_FILES}" ]; then
