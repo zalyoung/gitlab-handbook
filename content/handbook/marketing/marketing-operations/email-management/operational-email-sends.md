@@ -79,17 +79,16 @@ Sub-processor has its own list people can subscribe to, and legal will start the
 4. Send sample to legal requestor
 5. Deploy send when confirmed.
 
-### Customer Comms Email
+### Customer or User Comms Email including breaking changes
 
 Emails are sent to update a specific group of people about a change to the products or services provided (ex. product updates, support portal changes, EOA). This section should be used for all customer communications to communicate product or security issues and risk.
-
-For more significa in sequence by the head of the department that is leading the communication (e.g., Product, Engineering, Security), Vice President of Customer Success, Legal, or appropriate designates (if they are out on PTO or unavailable).
 
 Communication checklist:
 
 - Check with the [CS Ops team](h/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/) to see if they should be sending this email via gainsight
 - Loop in Customer Service and Field teams if this change will impact them or a major change/communication
-- For more significant emails regarding pricing, material changes or issues with significant risk the following must be approved in sequence by the head of the department that is leading the communication (e.g., Product, Engineering, Security), Vice President of Customer Success, Legal, or appropriate designates (if they are out on PTO or unavailable).
+- For more significant emails like incidents, breaking changes, pricing, material changes or issues with significant risk the following must be approved in sequence by the head of the department that is leading the communication (e.g., Product, Engineering, Security), Vice President of Customer Success, Legal, or appropriate designates (if they are out on PTO or unavailable).
+     - For breaking changes, please loop in `@jmalleo`, `@DianaSingh`, and `@eshutty`
 
 #### Marketing Operations Steps to Deploy
 
@@ -141,43 +140,4 @@ We're working to reduce the conditions that can cause {specific issue} and will 
 
 Kind regards,
 {Sender}
-```
-
-##### Epic code and issues
-
-The requestor (Security, CSM, etc.) will follow the process below to create the epic, which will have quick links to the appropriate issues to open.
-
-- Create epic here and input code below: [https://gitlab.com/groups/gitlab-com/-/epics/new](https://gitlab.com/groups/gitlab-com/-/epics/new)
-
-```markdown
-### :exclamation: Action items for requestor to complete
-*Note: this will automatically be a confidential epic.*
-* [ ] Once created, associate this epic to parent epic (if exists)
-* [ ] Create issues in section at bottom
-* [ ] Ensure all issues are associated to this epic
-
-### :star: Purpose
-<!-- Requestor, please describe the purpose of the email communication in this section for context by all teams involved -->
-
-### :link: Key links
-* [Copy Document]() `to be added by requestor ` ([use this template](https://docs.google.com/document/d/1hv0XF7j6SibLgHgGFxxlrbPrufxbcXHrO8ZRG04nFjU/edit#))
-* [Target List]() `to be added by requestor when final`
-* [Email Program]() `to be added by MOps` [template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/EBP15318A1)
-
-
-### :books: Issues for requestor to create (shortcuts below)
-* [ ] [Request target list issue (internal link)](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new?issuable_template=list-request)
-* [ ] [Email request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-operational-email) - requestor open, MOps DRI
-  - the email issue is blocked until requestor provides final copy
-* [ ] If landing page required: [Landing Page request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=marketo_landing_page_request) (optional, will increase scope and delay timeline) - requestor open, MOps DRI
-* [ ] If form required: [Form request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request)
-
-### :point_up: Reminders on action items & timeline
-* Requestor is responsible for providing FINAL copy, including review by all reviewers, by date indicated in timeline
-* Requestor is responsible for providing list of who must review and approve email
-* Requestor is responsible for approving test email and providing send time and date
-
-/confidential
-/label ~"Customer Success" ~"CSM" ~"email-calendar" ~"operational-email"
-/cc @amy.waller @bweatherford
 ```

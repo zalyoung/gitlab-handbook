@@ -114,6 +114,7 @@ This is the process to follow when there is an announcement that is an emergency
    * Vice President of Customer Success
    * Vice President of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure)
    * Legal (copy only)
+   * Customer Comms and PR
    * Marketing Operations Manager
    * Appropriate field teams driven by the scope of customers receiving the communication (SAE/AE, SA, CSM, Professional Services)
    * Support, if there is any call to action in the communication to contact support
