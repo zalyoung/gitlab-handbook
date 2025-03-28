@@ -22,13 +22,13 @@ toc_hide: true
 - **SLI**: [Service Level Indicator](https://en.wikipedia.org/wiki/Service_level_indicator) is a measure of the service level provided by a service provider to a customer.
 - **Application SLI**: This is an SLI defined on the application side: the application decides what is “good” for apdex and error portion. The SLI is associated with a service for monitoring in the runbooks repository. https://docs.gitlab.com/ee/development/application_slis/
 - **Apdex (Application Performance Index)**: At GitLab in the context of covered experience SLIs, it is the completion of something within an acceptable amount of time, for example, the changes of a push are visible on the merge request within 30 seconds.
-- **User Journey**: A comprehensive visualization or map that illustrates all the steps, interactions, and emotions a customer experiences when engaging with a product, service, or brand, from initial awareness through purchase and beyond. In GitLab, it is the journey a user takes through the application. This can include multiple experiences. For example: Create a project -> Create an issue -> Create a merge request.
+- **User Journey**: A comprehensive visualization or map that illustrates all the checkpoints, interactions, and emotions a customer experiences when engaging with a product, service, or brand, from initial awareness through purchase and beyond. In GitLab, it is the journey a user takes through the application. This can include multiple experiences. For example: Create a project -> Create an issue -> Create a merge request.
 - **Covered Experience**: An action that a user takes inside the application that is covered with an indicator. A Covered Experience outlines the precise services, scenarios, and user interactions that establish clear performance expectations between a service provider and their client, some of which are covered by an SLI. Examples of experiences: “create a project”, “create an issue”, “create a merge request”.
 - **Covered Experience SLI**: An SLI implementation that represents an end-to-end flow of user interactions that may span multiple services.
-- **Multi-action Experience**: A user journey that consists of multiple user interactions before completion, for example creating an issue consisting of 2 steps: render new, submit form. We will not support this in the first iteration of Covered Experience SLIs.
+- **Multi-action Experience**: A user journey that consists of multiple user interactions before completion, for example creating an issue consisting of 2 checkpoints: render new, submit form. We will not support this in the first iteration of Covered Experience SLIs.
 - **Single-action Experience**: A user journey that consists of a single user interaction, for example “view an issue” or “add a comment to an issue”.
 - **Multi-service Experience**: A journey that depends on multiple services to successfully complete, for example: a push gets received by GitLab-shell, which calls out to Rails, Gitaly and Sidekiq. A multi-service experience could be a single-action experience, only a single user-action is required for the experience, but it spans multiple services to be completed.
-- **Step**: A checkpoint in the experience for which we can emit an event, an event could be a failure or a success.
+- **Checkpoint**: A checkpoint in the experience for which we can emit an event. An event could be a failure or a success.
 - **Criteria**: Each Experience can have one or more criteria that can be used to measure success. For example: “The issue is successfully created” AND “The issue is created fast enough”.
 
 ## Motivation
@@ -111,10 +111,10 @@ sequenceDiagram
     User->>Web: Request
     activate Web
 
-    Web->>Event: Step 1, SDK Emit Start
+    Web->>Event: Checkpoint 1, SDK Emit Start
     Web->>Worker: Enqueue Job
     %% enqueued job will have all the Covered Experience relevant context,
-    %% such as `covered_experience_event_id`, `user_journey_event_id`, and so on
+    %% such as `correlation_id`, for example
     Note over Web,Worker: Including event metadata
     Web-->>User: Response
     deactivate Web
@@ -126,10 +126,10 @@ sequenceDiagram
 
     alt Success Case
         Worker->>Worker: End Covered Experience
-        Worker->>Event: Step 2, SDK Emit Success
+        Worker->>Event: Checkpoint 2, SDK Emit Success
     else Failure Case
         Worker->>Worker: End Covered Experience
-        Worker->>Event: Step 2, SDK Emit Failure
+        Worker->>Event: Checkpoint 2, SDK Emit Failure
     end
 
     deactivate Worker
@@ -177,16 +177,16 @@ Given that Application SLIs are implemented in the [Rails monolith](https://gitl
 - Covered Experience ID generation (as [ULID](https://github.com/ulid/spec)) and propagation
 - DSL for sending Covered Experience events
 
-The SDK will emit 1 event in every step (each interaction along the entire flow):
+The SDK will emit 1 event in every checkpoint (each interaction along the entire flow):
 
-| **gitlab_covered_experience_checkpoint_total** | LABEL                       | EXAMPLE VALUE                               | METRIC | LOG |
-|-------------------------------------------|-----------------------------|---------------------------------------------|--------|-----|
-|                                           | covered_experience_id       | security_scan                               | yes    | yes |
-|                                           | correlation_id              | f93ae47de7f848343cf85511b47923ce            | no     | yes |
-|                                           | feature_category            | vulnerability_management                    | yes    | yes |
-|                                           | step                        | start \| intermediate \| end                | yes    | yes |
-|                                           | step_name                   | e.g. authorize (impose limited cardinality) | no    | yes |
-|                                           | type                        | web                                         | yes    | yes |
+| **gitlab_covered_experience_checkpoint_total** | LABEL                 | EXAMPLE VALUE                               | METRIC | LOG |
+|------------------------------------------------|-----------------------|---------------------------------------------|--------|-----|
+|                                                | covered_experience_id | security_scan                               | yes    | yes |
+|                                                | correlation_id        | f93ae47de7f848343cf85511b47923ce            | no     | yes |
+|                                                | feature_category      | vulnerability_management                    | yes    | yes |
+|                                                | checkpoint            | start \| intermediate \| end                | yes    | yes |
+|                                                | checkpoint_name       | e.g. authorize (impose limited cardinality) | no     | yes |
+|                                                | type                  | web                                         | yes    | yes |
 |                                           | meta                        | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
 
 And 2 more events, emitted at the end of the flow, to signify error and success:
