@@ -20,7 +20,7 @@ GitLab uses [Zuora's platform](../../../../business-technology/enterprise-applic
 
 CustomersDot uses `Plan` as a wrapper class for easy access to all the details about a Plan in the Product Catalog. Given that the name, price, minimum quantity, and other details of the Plan are spread across the `Zuora::ProductRatePlan`, `Zuora::ProductRatePlanCharge`, and `Zuora::ProductRatePlanChargeTier` objects, traditional access to these details can be cumbersome. This class is very useful because it saves us from having to query for all these details. Additionally, the class helps with the classification of `Zuora::ProductRatePlan`s based on their tier, deployment type, and other criteria used across the app.
 
-CustomersDot keeps a copy of the Zuora Product Catalog and refreshes is daily via a scheduled job. However, every time a new Product, Product Rate Plan, or Product Rate Plan Charge is updated or added to the Zuora Product Catalog, additional manual effort is required to add it to the `Plan` class and configure it.
+CustomersDot keeps a copy of the Zuora Product Catalog and refreshes it daily via a scheduled job. However, every time a new Product, Product Rate Plan, or Product Rate Plan Charge is updated or added to the Zuora Product Catalog, additional manual effort is required to add it to the `Plan` class and configure it.
 
 The main goal of this design document is to improve the architecture and maintainability of the `Plan` model within CustomersDot. When the Product Catalog is updated in Zuora, it should automatically reflect in CustomersDot without requiring app restarts, code changes, or manual intervention.
 
@@ -97,12 +97,13 @@ For one custom field / set of fields at a time follow this iteration:
 1. Add the custom field to Zuora
 1. Populate the field in Zuora using a rake task from CustomersDot to transfer the CustomersDot knowledge to the Zuora Product Catalog
 1. Update the local Zuora Product Catalog copy attributes so this new custom attribute is synced over our daily scheduled sync
-1. Replace the usage of `Plan` constants that represent a collection of records that meet a given classification with a call to a method that loads the same collection from the local copy of the Product Catalog leveraging the custom field behidn a feature flag.
+1. Replace the usage of `Plan` constants that represent a collection of records that meet a given classification with a call to a method that loads the same collection from the local copy of the Product Catalog leveraging the custom field behind a feature flag.
 1. Validate all is looking good in staging
 1. Rollout the custom field usage to production
 
+The following code example illustrates steps 4 and 5 from the iteration process described above. It shows how we would replace hardcoded constants in the `Plan` class with dynamic methods that leverage the custom fields from our local Product Catalog copy. This example specifically demonstrates migrating from hardcoded constants for SaaS plans to dynamic queries based on the `web_direct__c` and `delivery_type__c` fields. During implementation, these changes would be behind feature flags to allow for proper validation in staging before rolling out to production.
+
 ```ruby
-#
 # lib/plan_classifier.rb
 module PlanClassifier
   # Returns all product rate plan IDs that are available for self-service
