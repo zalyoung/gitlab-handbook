@@ -55,7 +55,7 @@ It's important to allocate the right amount of time for each part of the intervi
 1. Interviewer questions for the candidate = 80-85%
 1. Candidate questions for the interviewer = 5-10%
 
-ALl interviews following a recruiter screen should take place on camera for both the candidate and interviewer. If the candidate is unable to use their camera because of technical issues, please indicate this in your interview notes. Seeing candidates on camera helps identify challenging interview situations, such as AI Deepfake avatars and multiple users interviewing as one candidate. If you have concerns about filters and odd behavior during an interview, please take a screenshot to the recruiter for reference who will compare to other sources, such as LinkedIn or their recruiter screen. Trust your instincts- if something feels off or out of place, let your Talent Acquistion partner know.
+All interviews following a recruiter screen should take place on camera for both the candidate and interviewer. If the candidate is unable to use their camera because of technical issues, please indicate this in your interview notes. Seeing candidates on camera helps identify challenging interview situations, such as AI Deepfake avatars and multiple users interviewing as one candidate. If you have concerns about filters and odd behavior during an interview, please take a screenshot to send to the recruiter for reference who will then compare to other sources, such as LinkedIn or their recruiter screen. Trust your instincts- if something feels off or out of place, let your Talent Acquistion partner know.
 
 ### Quick Tips
 
