@@ -1250,7 +1250,7 @@ The source model for the Daily Data Science Scores pump called [mart_crm_account
 
 #### Marketing Data Mart to Marketo
 
-The [Email Data Mart](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
+The [Email Data Mart](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
 
 #### Trusted Data Model to Gainsight
 

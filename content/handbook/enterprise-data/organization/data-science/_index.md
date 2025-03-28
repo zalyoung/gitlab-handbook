@@ -102,7 +102,7 @@ Examples of current Data Science initiatives include:
 - Customer Health
 - MLOps with GitLab
 
-Please refer to the [Data Science Initiatives Internal Handbook](https://internal.gitlab.com/handbook/enterprise-data/organization/direction/data-science-initiatives) for up-to-date information on all our on-going and planned projects.
+Please refer to the [Data Science Initiatives Internal Handbook](https://internal.gitlab.com/handbook/enterprise-data/organization/data-science-enterprise-analytics/data-science-initiatives) for up-to-date information on all our on-going and planned projects.
 
 ## Project Structure
 
