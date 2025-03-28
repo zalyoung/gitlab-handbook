@@ -32,7 +32,7 @@ GitLab.com is a public shared installation of the GitLab software. This provides
    are different. For example, on GitLab.com customers do not receive
    administrative privileges which accounts for a significant amount of
    functionality.
-2. Isolation: On GitLab.com a customer can not exist independant of other
+2. Isolation: On GitLab.com a customer can not exist independent of other
    customers like they do with a Self Managed installation.
 
 Organizations will solve these problems by being a common container across all platforms. Through the creation of an Organization container we can enforce isolation boundaries, and provide a common entity for all top level features.
@@ -41,6 +41,10 @@ In effect, the Organization will wrap the Self Managed features into a container
 
 The isolation solution is also a pre-requisite for the [Cells project](https://docs.gitlab.com/ee/architecture/blueprints/cells/index.html) which is described in relation to Organization in [Organizations and Cells](cells.md).
 
+## Frequently Asked Questions
+
+If you have a specific question it may be answered within our [FAQ](faq.md) or you may also try to query [GitLab Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/examples/) referencing the "Organization Blueprints".
+
 ### Splitting the GitLab.com Platform
 
 The GitLab.com platform will be split into two distinct experiences.
@@ -48,7 +52,7 @@ The GitLab.com platform will be split into two distinct experiences.
 Customers join GitLab.com today as a top level group within the default organization.
 This experience will persist indefinitely in part to allow for a shared pool of users to contribute to open source projects.
 
-GitLab.com will now expand its offering with a dedicated solution for private enterprise Organizations.
+GitLab.com will now expand its offering with a solution for private enterprise Organizations.
 These enterprise Organizations will operate in complete isolation from all other Organizations, including the default organization.
 
 Eventually it will be possible for customers to migrate out of the default
@@ -56,14 +60,21 @@ organization and into their own private Organization.
 
 ## Fundamentals of Organizations
 
-Organization will wrap around nearly all GitLab features.
-It won't be possible to read or write data between Organizations.
-Many product features will remain unchanged, but most instance level features will move down and other features up to Organization level. Level changes are elaborated [below](#level-structure).
-Users can only be a Member of a single Organization.
-They can be owners of the Organization or just standard members.
-In future we will review the ability for Users to be a Member of multiple Organizations.
-Organization owners will have admin style privileges within their Organization, such as the ability to delete user accounts. More details [below](#roles-and-permissions).
-These changes will occur on all GitLab platforms including GitLab.com, Self Managed, and Dedicated.
+* Organization will wrap around nearly all GitLab features.
+* It won't be possible to read or write data between Organizations. Read more
+  about [Organization Isolation](isolation.md).
+* Many product features will remain unchanged, but most instance level features will move down and other features up to Organization level. Level changes are elaborated [below](#level-structure).
+* Users can only be a Member of a single Organization.
+* They can be owners of the Organization or just standard members.
+* In future we will review the ability for Users to be a Member of multiple Organizations.
+* Organization owners will have admin style privileges within their Organization, such as the ability to delete user accounts. More details [below](#roles-and-permissions).
+* These changes will occur on all GitLab platforms including GitLab.com, Self Managed, and Dedicated.
+
+## Organization Isolation
+
+All Organization data and functionality in GitLab will be isolated.
+Isolation means that data and features can never cross Organization boundaries.
+This is covered in further detail at [Organization Isolation](isolation.md).
 
 ## Impact of the Organization on Other Domains
 
@@ -87,6 +98,7 @@ This has been the defacto method of GitLab.com finding parity with Self Managed,
 Below is a depiction of the current and future hierarchy levels within GitLab.
 
 | Current Hierarchy         | Future Hierarchy |
+| ------------------------- | -----------------|
 | Instance Level            | Instance Level |
 |                           | Organization Level |
 | Top Level Group           | |
@@ -200,7 +212,8 @@ This is in part a carry over from the 2023 roadmap.
 
 ### Organization Sharding
 
-Tables are divided into cell local or clusterwide. Cell local tables must have an organization_id, namespace_id, or a project_id column so all tables directly or indirectly belong to an Organization.
+Tables, with a small number of exceptions, should be related to an Organization.
+Organizational tables must have an `organization_id`, `namespace_id`, or a `project_id` column so all tables directly or indirectly belong to an Organization.
 This work is currently located within this epic: https://gitlab.com/groups/gitlab-org/-/epics/13678.
 All tables with an `organization_id` foreign key are defined with not null foreign key constraints.
 All code paths are writing the correct `organization_id` value and are not relying on a default value.

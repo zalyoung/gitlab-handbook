@@ -9,7 +9,7 @@ This document is a work in progress and represents the current state of the Orga
 
 The end goal for most existing Admin Area settings is to migrate them to Organizations, with a few exceptions in which we might want to make a setting available at both the instance and Organization level.
 
-We antitipate instance settings will be restricted to hardware and infrastructure settings which will be managed by the instance admin.
+We anticipate instance settings will be restricted to hardware and infrastructure settings which will be managed by the instance admin.
 
 Settings should be constructed such that when an Organization is moved to another instance there is no perceived change by the customer. This means interaction between the instance and Organization level settings need to be carefully considered.
 

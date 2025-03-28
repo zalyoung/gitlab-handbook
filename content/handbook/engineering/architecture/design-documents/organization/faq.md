@@ -30,7 +30,6 @@ Currently, our model is designed for one user to belong to one Organization. Thi
 ## Do we expect to be able to configure alternate GitLab domain names for Organizations (such as `customer.gitlab.com`)?
 
 There is no plan at this point to allow configuration of alternate GitLab domain names.
-We have previously heard that sub-domains bring administrative challenges.
 GitLab Dedicated will be a much better fit for that at this moment.
 
 ## Do we expect Organizations to have visibility settings (public/private) of their own?

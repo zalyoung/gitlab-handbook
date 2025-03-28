@@ -16,7 +16,7 @@ Read more about what an Organization is in [Organization](index.md).
 ## What?
 
 All Organization data and functionality in GitLab will be isolated.
-Isolation means that data or features can never cross Organization boundaries.
+Isolation means that data and features can never cross Organization boundaries.
 
 Below is a depiction of multiple Organizations within a single instance called "Cell 1".
 
