@@ -33,16 +33,16 @@ If you have a pressing need or you are unsure of what is required for the video 
 ## Resources: 
 
 ### Video Hosting 
-[YouTube](https://handbook.gitlab.com/handbook/marketing/marketing-operations/youtube/): 
+[YouTube](/handbook/marketing/marketing-operations/youtube/): 
  - Brand YouTube channel features polished, high-quality videos that showcase our products, exciting announcements, customer stories, and thought leadership—designed for broad reach, impact and brand storytelling. These often include motion graphics and feature a high production value. All videos added to this channel need to be approved by the Brand Video Team. 
  - Unfiltered  - is not managed by the Brand Video Team and  is used by GitLab Team Members to upload content intended for team and community members, including (but not limited to) team meetings, discussions, monthly release kick-offs, office hours, CEO 101 meetings, and casual demos.
 
-[Vimeo](https://handbook.gitlab.com/handbook/marketing/marketing-operations/vimeo/#about-vimeo): 
+[Vimeo](/handbook/marketing/marketing-operations/vimeo/#about-vimeo): 
 - Used for videos embedded in webpages, ebooks and emails and anywhere you are able to embed content. Vimeo can also be used to create videos using the video creation tools which allow you to record and edit. You can open an access request to request access to this tool. 
 
 ### Virtual Recordings 
  - Riverside: We use Riverside to capture high quality video recordings direct to your device for webinars, interviews, testimonials or hosted content. This platform allows the host of the recording to manipulate the camera and microphone settings for best results. Think of it as a virtual studio. 
- - Zoom: Zoom is an excellent resource to use when recording important meetings or if you need to capture webinar footage quickly. Zoom recording quality can be affected by each participant's internet speed and computer/device performance. Zoom records the footage directly to the cloud so lag or audio drift can occur. For best results with Zoom, [review the zoom record settings](https://handbook.gitlab.com/handbook/tools-and-tips/zoom/#recording-zoom-meetings-in-hd) when recording using zoom. 
+ - Zoom: Zoom is an excellent resource to use when recording important meetings or if you need to capture webinar footage quickly. Zoom recording quality can be affected by each participant's internet speed and computer/device performance. Zoom records the footage directly to the cloud so lag or audio drift can occur. For best results with Zoom, [review the zoom record settings](/handbook/tools-and-tips/zoom/#recording-zoom-meetings-in-hd) when recording using zoom. 
  - Quicktime: QuickTime is a great option for recording yourself or capturing your screen, especially for simple, high-quality recordings without the need for an internet connection. It's built into macOS, making it easily accessible and user-friendly. Whether you're recording a video message, a tutorial, or a presentation, QuickTime offers a straightforward way to record both webcam and screen content with minimal setup.
 
 ### Post-Production Tools
