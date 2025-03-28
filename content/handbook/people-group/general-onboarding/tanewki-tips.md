@@ -49,7 +49,7 @@ After you sign your offer and complete your background check and references, you
    - The entire onboarding issue is [self-paced and self-learning](/handbook/values/#self-service-and-self-learning) however, anything marked with a big red dot - 🔴 - should be completed with importance on the assigned day it is under.
 1. Take your time! There is a lot to go through, and you may feel like you have to get to everything each day. If you do great! If not, that's great too.
 1. There is a lot to complete in your onboarding issue and you may feel eager to do them all as soon as possible but remember, pace yourself, one task at a time! You have a dedicated 2 weeks to complete your onboarding tasks and have support from your manager, onboarding buddy, assigned People Connect Team member, and the entire company to help you if you need it along the way.
-    - You can reach out to the People Connect team or IT Ops team anytime via [HelpLab](/handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) for assistance and/or guidance.
+    - You can reach out to the People Connect team or IT Ops team anytime via [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/) for assistance and/or guidance.
 1. There is a lot of Handbook content in the onboarding issue, that can at times require quite a bit of reading. Consider enabling one of the helpful text to speech tools in the Helpful Tools section above and remember to take breaks. Also feel free to bookmark certain Handbook pages for a later time to refer back to (except those not marked with a big red dot - 🔴 which require immediate action).
 1. As an all remote company, it is important to remember that we all work in different time zones, [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/#introduction) is key to ensure that everyone is included. Don't feel like you need to stay up late at night or early morning to keep up with your fellow team members, this is where we pride oursleves on [our async way](/handbook/company/culture/all-remote/asynchronous/). **This means that you may not have meetings on your first day, or your first week but it's not because we're not excited to have you here. It's just our way of working!**
 1. We use Slack as our formal/informal communications tool. This allows us to communicate with our team members, teams and wider company. It is also a great way to connect with other team members in your specific location, hobbies, etc and take a break from your onboarding tasks. New to Slack? No problem! This [quick start guide](https://slack.com/intl/en-za/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide) will share all the helpful tips on getting you started.
@@ -77,7 +77,7 @@ GitLab utitilizes Navan as our team member [expense](/handbook/finance/expenses/
 
 **Q: Am I able to buy things prior to my start date then expense once started?**
 
-A: It is best to wait until your start date to start purchasing items due to the fact that you will receive a [virtual card](/handbook.gitlab.com/handbook/finance/expenses/#equipment) with funds on it to use. However, should you decide to purchase things prior to your start date, you will need to let the Expenses team know as soon as possible by emailing `expenses@gitlab.com` as this will still count against your onboarding funds if you want to be reimbursed for them.
+A: It is best to wait until your start date to start purchasing items due to the fact that you will receive a [virtual card](/handbook/finance/expenses/#equipment) with funds on it to use. However, should you decide to purchase things prior to your start date, you will need to let the Expenses team know as soon as possible by emailing `expenses@gitlab.com` as this will still count against your onboarding funds if you want to be reimbursed for them.
 
 **Q: I haven't received my GitLab issued laptop yet. Is it okay to use a personal one until it arrives?**
 
@@ -89,11 +89,11 @@ A: You will get access to Navan during your first week and you'll want to submit
 
 **Q: I would like to work in a co-working space instead of my home. Is that possible?**
 
-A: It is! You'll just want to make sure to review our co-working space details listed out [here](/handbook.gitlab.com/handbook/finance/expenses/#co-working-space) before signing any agreements.
+A: It is! You'll just want to make sure to review our co-working space details listed out [here](/handbook/finance/expenses/#co-working-space) before signing any agreements.
 
 **Q: Will GitLab provide me with money to purchase office equipment?**
 
-A: Yes! All new hires will receive $1,500 USD (or local equivalent) in a virtual card to obtain office equipment. You can review the Handbook page regarding this [here](/handbook.gitlab.com/handbook/finance/expenses/#equipment).
+A: Yes! All new hires will receive $1,500 USD (or local equivalent) in a virtual card to obtain office equipment. You can review the Handbook page regarding this [here](/handbook/finance/expenses/#equipment).
 
 ### HR Based Questions
 
