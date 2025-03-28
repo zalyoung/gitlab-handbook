@@ -201,6 +201,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
     include:
     - template: Security/SAST.gitlab-ci.yml
     - template: Security/Secret-Detection.gitlab-ci.yml
+    - template: Security/Dependency-Scanning.gitlab-ci.yml
     - template: Security/Container-Scanning.gitlab-ci.yml
     ```
 
