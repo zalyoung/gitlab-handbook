@@ -231,6 +231,8 @@ If the above conditions are not met, respond with the following before closing t
   <p>Unfortunately, the answers to our verification challenges have failed, and your account appears to have had recent activity within the last year. As a result, we are unable to process your account deletion request at this time. This issue will be closed, however you may try your request again at a later date.</p>
 
   <p>Regards,</p>
+
+`/label ~"Account Verification Failed" ~"deletion request::denied"`
 </details>
 
 ##### **Step 2.5:** Verification Passed - Unblock user
