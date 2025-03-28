@@ -137,14 +137,14 @@ SLSA [defines a set of threats](https://slsa.dev/spec/v1.0/threats) that are use
 
 | Threat area | Threat | Label |
 | -- | -- | -- |
-| Source | (A) Submit unauthorized change | `~sscs-rm-threat::a-submit-unauthorized-change` |
-|        | (B) Compromise source repo | `~sscs-rm-threat::b-compromise-source-repo` |
-|        | (C) Build from modified source | `~sscs-rm-threat::c-build-from-modified-source` |
-| Dependency | (D) Use compromised dependency | `~sscs-rm-threat::d-use-compromised-dependency` |
-| Build  | (E) Compromise build process | `~sscs-rm-threat::e-compromise-build-process` |
-|        | (F) Upload modified package | `~sscs-rm-threat::f-upload-modified-package` |
-|        | (G) Compromise package registry | `~sscs-rm-threat::g-compromise-pkg-registry` |
-|        | (H) Use compromised package | `~sscs-rm-threat::h-use-compromised-pkg` |
+| Source | [(A) Submit unauthorized change](https://slsa.dev/spec/v1.0/threats#a-submit-unauthorized-change) | `~sscs-rm-threat::a-submit-unauthorized-change` |
+|        | [(B) Compromise source repo](https://slsa.dev/spec/v1.0/threats#b-compromise-source-repo) | `~sscs-rm-threat::b-compromise-source-repo` |
+|        | [(C) Build from modified source](https://slsa.dev/spec/v1.0/threats#c-build-from-modified-source) | `~sscs-rm-threat::c-build-from-modified-source` |
+| Dependency | [(D) Use compromised dependency](https://slsa.dev/spec/v1.0/threats#d-use-compromised-dependency) | `~sscs-rm-threat::d-use-compromised-dependency` |
+| Build  | [(E) Compromise build process](https://slsa.dev/spec/v1.0/threats#e-compromise-build-process) | `~sscs-rm-threat::e-compromise-build-process` |
+|        | [(F) Upload modified package](https://slsa.dev/spec/v1.0/threats#f-upload-modified-package) | `~sscs-rm-threat::f-upload-modified-package` |
+|        | [(G) Compromise package registry](https://slsa.dev/spec/v1.0/threats#g-compromise-package-registry) | `~sscs-rm-threat::g-compromise-pkg-registry` |
+|        | [(H) Use compromised package](https://slsa.dev/spec/v1.0/threats#h-use-compromised-package) | `~sscs-rm-threat::h-use-compromised-pkg` |
 
 ### SBOM Integration
 
