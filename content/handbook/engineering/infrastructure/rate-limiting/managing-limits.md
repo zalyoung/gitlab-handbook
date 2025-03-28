@@ -48,9 +48,10 @@ dedicated -- yes --> cwm
 dedicated -- no --> env
 ```
 
-> [!note]
-> This document is currently focused on inbound limits on HTTP traffic,
-> and may be expanded in the future to account for internal limits between services.
+{{% alert title="Note" color="primary" %}}
+This document is currently focused on inbound limits on HTTP traffic,
+and may be expanded in the future to account for internal limits between services.
+{{% /alert %}}
 
 ## Considerations
 
@@ -63,8 +64,9 @@ Rate limits should be enabled by default. If this is not the case, then this pro
 
 ## Process
 
-> [!important]
-> In cases of incident remediation, see [Rate Limiting Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting).
+{{% alert title="Important" color="primary" %}}
+In cases of incident remediation, see [Rate Limiting Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting).
+{{% /alert %}}
 
 1. Determine if a rate limit already exists 
    - Is there an Application limit for this already? What about Cloudflare? 
@@ -124,8 +126,9 @@ GitLab utilises RackAttack as middleware to throttle Rack requests. Most applica
 
 New rate limits can be configured by extending `Gitlab::RackAttack` and `Gitlab::RackAttack::Request`. Instructions for this can be found in the [GitLab Development Docs](https://docs.gitlab.com/development/application_limits/#implement-rate-limits-using-rackattack).
 
-> [!important]
-> For new limits on GitLab.com, it is recommended to enable these in ["Dry Run" (log) mode first](https://docs.gitlab.com/administration/settings/user_and_ip_rate_limits/#try-out-throttling-settings-before-enforcing-them). Instructions for this can be found in [Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
+{{% alert title="Important" color="primary" %}}
+For new limits on GitLab.com, it is recommended to enable these in ["Dry Run" (log) mode first](https://docs.gitlab.com/administration/settings/user_and_ip_rate_limits/#try-out-throttling-settings-before-enforcing-them). Instructions for this can be found in [Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
+{{% /alert %}}
 
 You can read more information about rate limits specific to GitLab.com, alongside RackAttack configuration documentation in runbooks.
 
