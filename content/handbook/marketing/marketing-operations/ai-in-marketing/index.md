@@ -7,4 +7,4 @@ description: "Handbook page that describes how the marketing team leverages AI a
 
 ## Resources
 
-- AI in Marketing Sharing Session Recordings
+- [AI in Marketing Resources GitLab Unfiltered Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kqg0pGVEtERp9NzyfTM7vbd)
