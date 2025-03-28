@@ -163,9 +163,7 @@ for further information.
 
 ### What you'll be working on
 
-- Tickets in the L&R queue (see
-  [Zendesk Global Views](/handbook/support/readiness/operations/)
-  for more information on locating these) in Zendesk. The queue will contain
+- Tickets in the L&R queue in Zendesk. The queue will contain
   tickets from customers as well as from GitLab Team Members (Sales, CSMs,
   etc.). The tickets from team members are called "internal requests," and
   information about those is available on the
