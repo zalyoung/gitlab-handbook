@@ -28,8 +28,12 @@ toc_hide: true
 - **Multi-action Experience**: A user journey that consists of multiple user interactions before completion, for example creating an issue consisting of 2 checkpoints: render new, submit form. We will not support this in the first iteration of Covered Experience SLIs.
 - **Single-action Experience**: A user journey that consists of a single user interaction, for example “view an issue” or “add a comment to an issue”.
 - **Multi-service Experience**: A journey that depends on multiple services to successfully complete, for example: a push gets received by GitLab-shell, which calls out to Rails, Gitaly and Sidekiq. A multi-service experience could be a single-action experience, only a single user-action is required for the experience, but it spans multiple services to be completed.
-- **Checkpoint**: A checkpoint in the experience for which we can emit an event. An event could be a failure or a success.
 - **Criteria**: Each Experience can have one or more criteria that can be used to measure success. For example: “The issue is successfully created” AND “The issue is created fast enough”.
+- **Covered Experience Definition**: The specification of the Covered Experience, distinguished by its `covered_experience_id`. Example: covered_experience_id="create_merge_request".
+- **Covered Experience Event**: One instance of a Covered Experience. Distinguished by the properties `covered_experience_id` and `correlation_id`. Example:
+covered_experience_id="create_merge_request" & correlation_id="01G65Z755AFWAKHE12NY0CQ9FH".
+- **Covered Experience Checkpoint**: This is the moment in the experience that we emit one event: the start of a request, the start of a job, the end of a request, the end of a job, etc.
+We'll have multiple of these within a Covered Experience Event.
 
 ## Motivation
 
@@ -185,7 +189,7 @@ The SDK will emit 1 event in every checkpoint (each interaction along the entire
 |                                                | correlation_id        | f93ae47de7f848343cf85511b47923ce            | no     | yes |
 |                                                | feature_category      | vulnerability_management                    | yes    | yes |
 |                                                | checkpoint            | start \| intermediate \| end                | yes    | yes |
-|                                                | checkpoint_name       | e.g. authorize (impose limited cardinality) | no     | yes |
+|                                                | checkpoint_category   | e.g. authorize (impose limited cardinality) | no     | yes |
 |                                                | type                  | web                                         | yes    | yes |
 |                                           | meta                        | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
 
