@@ -47,8 +47,8 @@ The CSSA team is repsonsible for supporting the business via a number of differe
 
 GitLab maintains a number of valubale analytics resources for Customer Success and the broader field organization. Reports and Dashboards can be found in Tableau, Gainsight and Salesforce. Below are some of the more critical resources available:
 
-- [Gainsight](https://handbook.gitlab.com/handbook/customer-success/csm/gainsight/) 
-- [Use Case Adoption Scoring](https://handbook.gitlab.com/handbook/customer-success/product-usage-data/maturity-scoring/)
+- [Gainsight](/customer-success/csm/gainsight/) 
+- [Use Case Adoption Scoring](/customer-success/product-usage-data/maturity-scoring/)
 - Account Landscape
 - Customer 360
 - CS Leader Monthly Metrics 

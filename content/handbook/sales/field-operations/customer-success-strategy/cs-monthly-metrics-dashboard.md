@@ -1,3 +1,7 @@
+---
+title: "Customer Success Monthly Metrics Dashboard"
+description: "Understanding the Monthly Metrics Dashbaord"
+---
 # CS Monthly Metrics Dashboard
 
 ## Table of Contents
