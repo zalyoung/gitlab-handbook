@@ -33,8 +33,7 @@ Now that we have seen GitLab's dashboards, let's make our own.
 
 1. From the **Add visualizations** list on the right, select the visualizations to add to the dashboard.
 
-1. Select **Save**.
-
+1. Select **Save**. You should now see your new dashboard.
 
 ## Lab Guide Complete
 
