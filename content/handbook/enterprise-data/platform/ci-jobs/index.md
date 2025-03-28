@@ -175,6 +175,144 @@ Should the changes made fall outside the default selection of this job, it can b
 - `VARS`: Defaults to `None` but will accept a comma separated list of quoted key value pairs. e.g. `"key1":"value1","key2":"value2"`.
 - `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
 
+Running this CI job in an merge request pipeline will produce an output report that is added directly to merge request as a comment from the Analytics API user. This reprot will summarize the results of the job showing total run time, model counts, what models were executed, and the slowest running models.  This model can be supressed by addting the {{< label name="Supress Results Report" >}} lable to the merge request. An example output of the report can be seen below:
+
+{{< panel header="**Results Report**" header-bg="primary" >}}
+
+This is an automated message relaying the output of the 🏗️🏭build_changes Job
+
+### Clone Step: ✅ success
+
+<details markdown="1"><summary><b>DBT Run Summary for Clone</b></summary>
+
+- Elapsed Time: 161.21 seconds
+- Total Models: 1
+- Total Tests: 0
+- Total Seeds: 0
+- Total Snapshots: 0
+- Command:
+
+```console
+dbt --fail-fast clone --selector contiguous_list --state reference_state --vars {"DOWNSTREAM_LIST":"date_details_source+","UPSTREAM_LIST":"+date_details_source"}
+```
+
+</details>
+<details markdown="1"><summary><b>Error Messages</b></summary>
+
+> ✅ No errors found.
+
+</details>
+<details markdown="1"><summary><b>Results Table</b></summary>
+
+| Model/Test | Status | Execution Time |
+|------------|--------|----------------|
+| `date_details_source` | ✅ success | 1.29 seconds |
+
+</details>
+
+<details markdown="1"><summary><b>Top 5 Slowest Models/Tests</b></summary>
+
+| Model/Test | Status | Execution Time |
+|------------|--------|----------------|
+| `date_details_source` | ✅ success | 1.29 seconds |
+
+</details>
+
+### Build Step: ❌ error
+
+<details markdown="1"><summary><b>DBT Run Summary for Build</b></summary>
+
+- Elapsed Time: 18.87 seconds
+- Total Models: 1
+- Total Tests: 46
+- Total Seeds: 0
+- Total Snapshots: 0
+- Command:
+
+```console
+dbt --fail-fast build --selector contiguous_list --defer --state reference_state --vars {"DOWNSTREAM_LIST":"date_details_source+","UPSTREAM_LIST":"+date_details_source"}
+```
+
+</details>
+<details markdown="1"><summary><b>Error Messages</b></summary>
+
+> Found 1 errors:
+
+#### ❌ Error in `unique_date_details_source_day_name`
+
+```console
+Got 7 results, configured to fail if != 0
+```
+
+</details>
+<details markdown="1"><summary><b>Results Table</b></summary>
+
+| Model/Test | Status | Execution Time |
+|------------|--------|----------------|
+| `date_details_source` | ✅ success | 3.92 seconds |
+| `not_null_date_details_source_day_of_week` | ✅ pass | 1.07 seconds |
+| `not_null_date_details_source_date_day` | ✅ pass | 1.38 seconds |
+| `not_null_date_details_source_day_of_year` | ✅ pass | 0.40 seconds |
+| `not_null_date_details_source_day_name` | ✅ pass | 1.53 seconds |
+| `not_null_date_details_source_day_of_month` | ✅ pass | 1.53 seconds |
+| `not_null_date_details_source_date_actual` | ✅ pass | 1.55 seconds |
+| `not_null_date_details_source_days_in_month_count` | ✅ pass | 0.17 seconds |
+| `not_null_date_details_source_day_of_quarter` | ✅ pass | 1.55 seconds |
+| `not_null_date_details_source_day_of_fiscal_year` | ✅ pass | 1.58 seconds |
+| `not_null_date_details_source_day_of_fiscal_qu...` | ✅ pass | 1.59 seconds |
+| `not_null_date_details_source_first_day_of_week` | ✅ pass | 0.29 seconds |
+| `not_null_date_details_source_first_day_of_fis...` | ✅ pass | 0.35 seconds |
+| `not_null_date_details_source_first_day_of_qua...` | ✅ pass | 0.33 seconds |
+| `not_null_date_details_source_fiscal_month_nam...` | ✅ pass | 0.25 seconds |
+| `not_null_date_details_source_fiscal_month_name` | ✅ pass | 0.36 seconds |
+| `not_null_date_details_source_first_day_of_month` | ✅ pass | 0.47 seconds |
+| `not_null_date_details_source_first_day_of_fis...` | ✅ pass | 0.47 seconds |
+| `not_null_date_details_source_first_day_of_year` | ✅ pass | 0.44 seconds |
+| `not_null_date_details_source_fiscal_quarter_name` | ✅ pass | 0.21 seconds |
+| `not_null_date_details_source_fiscal_quarter_n...` | ✅ pass | 0.20 seconds |
+| `not_null_date_details_source_fiscal_year` | ✅ pass | 0.21 seconds |
+| `not_null_date_details_source_last_day_of_fisc...` | ✅ pass | 0.18 seconds |
+| `not_null_date_details_source_last_day_of_fisc...` | ✅ pass | 0.20 seconds |
+| `not_null_date_details_source_is_holiday` | ✅ pass | 0.22 seconds |
+| `not_null_date_details_source_last_day_of_month` | ✅ pass | 0.19 seconds |
+| `not_null_date_details_source_fiscal_quarter` | ✅ pass | 0.42 seconds |
+| `not_null_date_details_source_fiscal_quarter_n...` | ✅ pass | 0.42 seconds |
+| `not_null_date_details_source_last_day_of_quarter` | ✅ pass | 0.20 seconds |
+| `not_null_date_details_source_last_day_of_week` | ✅ pass | 0.17 seconds |
+| `not_null_date_details_source_last_month_of_fi...` | ✅ pass | 0.28 seconds |
+| `not_null_date_details_source_last_month_of_fi...` | ✅ pass | 0.27 seconds |
+| `not_null_date_details_source_month_actual` | ✅ pass | 0.23 seconds |
+| `not_null_date_details_source_quarter_actual` | ✅ pass | 0.25 seconds |
+| `not_null_date_details_source_month_name` | ✅ pass | 0.26 seconds |
+| `not_null_date_details_source_quarter_name` | ✅ pass | 0.19 seconds |
+| `not_null_date_details_source_month_of_fiscal_...` | ✅ pass | 0.26 seconds |
+| `not_null_date_details_source_last_day_of_year` | ✅ pass | 0.45 seconds |
+| `not_null_date_details_source_snapshot_date_fpa` | ✅ pass | 0.27 seconds |
+| `not_null_date_details_source_snapshot_date_bi...` | ✅ pass | 0.29 seconds |
+| `not_null_date_details_source_snapshot_date_fp...` | ✅ pass | 0.24 seconds |
+| `not_null_date_details_source_week_of_fiscal_year` | ✅ pass | 0.24 seconds |
+| `not_null_date_details_source_week_of_year` | ✅ pass | 0.24 seconds |
+| `not_null_date_details_source_year_actual` | ✅ pass | 0.24 seconds |
+| `unique_date_details_source_date_actual` | ✅ pass | 0.27 seconds |
+| `unique_date_details_source_day_name` | ❌ fail | 0.16 seconds |
+| `unique_date_details_source_date_day` | skipped | 0.00 seconds |
+
+</details>
+
+<details markdown="1"><summary><b>Top 5 Slowest Models/Tests</b></summary>
+
+| Model/Test | Status | Execution Time |
+|------------|--------|----------------|
+| `date_details_source` | ✅ success | 3.92 seconds |
+| `not_null_date_details_source_day_of_fiscal_qu...` | ✅ pass | 1.59 seconds |
+| `not_null_date_details_source_day_of_fiscal_year` | ✅ pass | 1.58 seconds |
+| `not_null_date_details_source_day_of_quarter` | ✅ pass | 1.55 seconds |
+| `not_null_date_details_source_date_actual` | ✅ pass | 1.55 seconds |
+
+</details>
+
+{{< /panel >}}
+
 <details markdown="1">
 <summary>Cross-Walk</summary>
 
