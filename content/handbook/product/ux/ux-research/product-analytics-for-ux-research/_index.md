@@ -26,7 +26,7 @@ _In order of most to least relevant to UX Researchers:_
 - [Tableau handbook page](/handbook/enterprise-data/platform/tableau/) (The GitLab handbook page on Tableau)
 - [Analytics relevant to each product stage](/handbook/product/groups/product-analysis/crash-course/#learn-about-analytics-relevant-product-stage-topics-grouped-by-section) (A GitLab handbook page for product stage resources)
 - [GitLab Metrics Dictionary](https://metrics.gitlab.com/) (A website listing all the metrics we collect from Service Ping and Snowplow)
-- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (Internal handbook page with examples of commonly used data models)
+- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) (Internal handbook page with examples of commonly used data models)
 - [DBT](https://dbt.gitlabdata.com/#!/overview) (Explains the underlying code and column definitions of all GitLab data sets)
 
 ![Simplified usage data stack](/images/product/ux/ux-research/product-analytics-for-ux-research/datastack_simple.png)
@@ -140,7 +140,7 @@ Some terminology used in product analytics dashboards:
 
 For more information (or if something's not listed above):
 
-- [Data catalog metrics and terms index (internal)](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/#metrics-and-terms-index)
+- [Data catalog metrics and terms index (internal)](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/#metrics-and-terms-index)
 - [Product performance indicators (internal)](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
 
 ## Useful Tableau Workbooks
