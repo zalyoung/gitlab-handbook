@@ -154,3 +154,11 @@ With security scans in place, it would be ideal to be able to block merge reques
 1. Return to your MR.
 
 1. Allow your pipeline to complete. Once complete, take note of the comment stating `Security policy violations have been resolved`.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson).
+
+## Suggestions?
+
+If you'd like to suggest changes to the *GitLab Security Essentials Hands-On Guide*, please submit them via merge request.
