@@ -20,7 +20,6 @@ When the request comes in, the we need to first obtain proof of entitlement. Thi
 - This is relating to a gitlab.com subscription and the requester is an owner on the top-level namespace, in which you can proceed to [Attempt auto-association](#attempt-auto-association).
 - The requester provides licensing information, in which case you can proceed to [Verifying license information](#verifying-license-information).
 
-
 If none of the above are true, we need to either reject the request or ask for additonal information.
 
 If this is pertaining to a gitlab.com subscription, we need to reject the request. You would do so using the macro `Support::Support-Ops::GitLab.com user is not an Owner`.

@@ -19,7 +19,7 @@ As GitLab has grown organically, several departments and functional groups have 
 
 ## CorpSec Systems Directory
 
-The Corporate Security department provides configuration management [engineering](/handbook/security/corporate/services/engineering) and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
+The Corporate Security department provides configuration management engineering and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
 
 <table>
 <thead>

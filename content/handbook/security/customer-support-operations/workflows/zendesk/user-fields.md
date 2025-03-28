@@ -61,4 +61,3 @@ To perform an exception deployment for user fields, navigate to the user fieldsa
 
 - [Zendesk Global sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-global/users/fields)
 - [Zendesk US Government sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/ousersrgs/fields)
-

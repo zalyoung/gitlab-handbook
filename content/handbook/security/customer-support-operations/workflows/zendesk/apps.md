@@ -55,6 +55,7 @@ This is done by combining all the "app code" into a zipfile. To accomplish this,
 cd ~/dev/support-readiness/zendesk-global/apps/star
 zip -r data/application.zip assets manifest.json translations
 ```
+
 This will produce the zipfile `application.zip` in the `data` folder of your local repository (which git will ignore thanks to the .gitignore file you copied earlier).
 
 ## Exception deployment

@@ -256,7 +256,7 @@ When creating an [individual/bulk access request](https://gitlab.com/gitlab-com/
 
 ### Workflows
 
-- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/index/)
+- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/)
 
 ### Useful tools
 
@@ -319,7 +319,6 @@ The queue should not be used for the following:
 
 ### Handbook pages
 
-- [CustomersDot Admin Docs](/handbook/product/fulfillment-guide)
 - [Business Ops](/handbook/business-technology/)
   - [Business Systems: Enterprise Applications, Integrations, and Flow](/handbook/business-technology/enterprise-applications/integrations/)
   - [Troubleshooting: True Ups, Licenses + EULAs](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/)

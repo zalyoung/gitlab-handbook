@@ -99,7 +99,7 @@ The date the support team member started at GitLab
 
 ### calendly
 
-The link to the support-team member's calendly. Should always be the link to their _main_ page, not an event.
+The link to the support-team member's calendly. Should always be the link to their *main* page, not an event.
 
 ### languages
 
@@ -242,7 +242,6 @@ Each item's attribures are:
   1. Learning - I'm still learning the basics and I'm not yet ready to take tickets.
   1. Ready to work tickets - I'm ready to work on tickets, or learn by working on tickets.
   1. Looking to help others - I want to help others with tickets or learning.
-
 
 ### hobbies
 

@@ -6,7 +6,6 @@ canonical_path: "/handbook/security/customer-support-operations/docs/ruby-gems/g
 
 <sup>*Introduced via [gitlab-com/support/support-ops/support-ops-project#1919](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/1919)*</sup>
 
-
 {{% pageinfo color="warning" %}}
 
 This is an information page for the gem. If you are looking for information about maintaining the gem, please see [Ruby gems workflows](../../workflows/ruby-gems)

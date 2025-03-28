@@ -10,7 +10,7 @@ canonical_path: "/handbook/security/customer-support-operations/docs/gitlab/supp
 
 This is an information page for the Support Super form.
 
-If you are looking for information about managing it, please see [workflows](../../workflows).
+If you are looking for information about managing it, please see [workflows](../../workflows/).
 
 {{% /pageinfo %}}
 
@@ -50,4 +50,4 @@ This will automatically handle the creation of Zendesk articles (for the corresp
 
 ### Check namespace availability
 
-This is for checking the availability of a namespace. In the event the namespace is in use, this request will also check into the _potential_ of the namespace being releasable. Please note this is fully automated. The request will create an issue that has the results of the check posted.
+This is for checking the availability of a namespace. In the event the namespace is in use, this request will also check into the *potential* of the namespace being releasable. Please note this is fully automated. The request will create an issue that has the results of the check posted.

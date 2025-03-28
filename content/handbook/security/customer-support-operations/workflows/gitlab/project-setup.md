@@ -28,7 +28,7 @@ Knowing which template you will be using will then let you move to creating the 
 
 1. Navigate to the correct group
    - The correct group will be somewhere under the [GitLab Support Readiness namespace](https://gitlab.com/groups/gitlab-support-readiness/).
-   -  If you are ever unsure which to use, reach out to the other Customer Support Operations team members to determine which one is thhe ideal one ot use
+   -  If you are ever unsure which to use, reach out to the other Customer Support Operations team members to determine which one is the ideal one ot use
 1. Click `New project` at the top-right of the page
    - If you do not see that button, please reach out to a Fullstack Engineer, Customer Support Operaitons for assistance.
 1. Click `Create from template`
@@ -149,6 +149,7 @@ With the project created, we need to manually verify all the settings. While the
       - None
     - Merge suggestions: blank
     - Merge commit message template
+
       ```plaintext
       Merge branch '%{source_branch}' into '%{target_branch}'
 
@@ -158,10 +159,13 @@ With the project created, we need to manually verify all the settings. While the
 
       See merge request %{reference}
       ```
+
     - Squash commit message template
+
       ```plaintext
       %{title}
       ```
+
     - Default description template for merge requests: blank`
   - Merge request approvals
     - Coverage-Check: disabled

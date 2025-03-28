@@ -110,7 +110,6 @@ This checks if an email suppression exists within Mailgun. Depending on the resu
   - The `Ticket Stage` value is set to `FRT`
   - The ticket's status is set to `Pending`
 
-
 ### Link Tagger
 
 <sup>Introduced via [gitlab-com/support/support-ops/support-ops-project#998](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/998)</sup>

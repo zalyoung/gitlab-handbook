@@ -61,4 +61,3 @@ To perform an exception deployment for organization fields, navigate to the orga
 
 - [Zendesk Global sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-global/orgs/fields)
 - [Zendesk US Government sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/orgs/fields)
-

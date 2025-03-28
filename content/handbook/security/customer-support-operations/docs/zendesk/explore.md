@@ -34,7 +34,6 @@ Whenever you start working on Explore yourself, please create a copy of dataset 
 
 For detailed Glossary, please visit: https://support.zendesk.com/hc/en-us/articles/4408824134810-Zendesk-Explore-glossary
 
-
 ## Dashboards
 
 In Explore, Dashboards allow you to view, share, create and customize reports that give you an overview of your Zendesk data.

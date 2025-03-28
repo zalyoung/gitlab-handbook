@@ -17,6 +17,7 @@ Through the use of the [gitlab_support_readiness gem](https://rubygems.org/gems/
 ### Conditions
 
 Applicable to:
+
 - Automations
 - SLA Policies (called `filters`, but same thing)
 - Triggers
@@ -28,10 +29,10 @@ Applicable to:
 | `brand_id` | value | The name of the brand |
 | `custom_fields_######` | field | `Field: xxx`, where `xxx` is the field's `title` attribute |
 | `group_id` | value | The name of the group |
-| `organization_id` | value | The organization's `salesforce_id` value
+| `organization_id` | value | The organization's `salesforce_id` value |
 | `requester_role` | value | `Agent`, `Light Agent`, `End User`, `Admin` |
 | `role` | value | `Agent` `End User`, or the user's email address |
-| `satisfaction_reason_code` | value | The name of the satisfaction reason
+| `satisfaction_reason_code` | value | The name of the satisfaction reason |
 | `schedule_id` | value | `Schedule: xxx`, where `xxx` is the schedule's `name` attribute (or `''` if using a blank) |
 | `ticket_form_id` | value | `Form: xxx`, where `xxx` is the form's `name` attribute |
 | `via_id` | value | The name of the via method (see [here](https://gitlab.com/gitlab-support-readiness/gitlab_support_readiness_gem/-/blob/master/lib/support_readiness/zendesk/via_types.rb)) |
@@ -39,6 +40,7 @@ Applicable to:
 ### Actions
 
 Applicable to:
+
 - Automations
 - Macros
 - Triggers
@@ -51,7 +53,7 @@ Applicable to:
 | `group_id` | value | The name of the group |
 | `notification_target` | value | The target's `title` attribute |
 | `notification_webhook` | value | The webhook's `name` attribute |
-| `organization_id` | value | The organization's `salesforce_id` value
+| `organization_id` | value | The organization's `salesforce_id` value |
 | `role` | value | `Agent` `End User`, or the user's email address |
 | `set_schedule` | value | `Schedule: xxx`, where `xxx` is the schedule's `name` attribute (or `''` if using a blank) |
 | `ticket_form_id` | value | `Form: xxx`, where `xxx` is the form's `name` attribute |

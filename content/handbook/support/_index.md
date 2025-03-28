@@ -18,7 +18,6 @@ Know someone who might be a great fit for our team? Please refer them to the job
 
 - [Support Engineering Job Family](/job-families/engineering/support-engineer/)
 - [Support Management Job Family](/job-families/engineering/support-management/)
-- [Support Operations Job Family](/job-families/engineering/support-readiness-specialist/)
 
 ## What does the Support Team do?
 
@@ -208,11 +207,11 @@ Citing our [dogfooding](/handbook/values/#dogfooding) operating principle, peopl
 
 Dogfooding is using a piece of GitLab *for its intended purpose*. For example, one *could* use GitLab issues as a newsletter (and we do! See: [Support Week in Review](#support-week-in-review)), but creating merge requests to help Issues serve as a newsletter more effectively wouldn't be dogfooding unless that improvement also helps its core use case.
 
-In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports [customer results](/handbook/values/#customer-results).
+In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports customer results.
 
 At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/legal/privacy/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/user/discussions/#add-an-internal-note).
 
-We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize [customer results](/handbook/values/#customer-results) over any other consideration.
+We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize customer results over any other consideration.
 
 ## OKRs
 
@@ -233,7 +232,7 @@ See [Managers/Hazards page](/handbook/support/managers/hazards-and-challenges)
 ## Communications
 
 The GitLab Support Team is part of the wider Engineering function. Be sure to check the
-[communications section in the Engineering handbook](/handbook/engineering/#communication)
+[communications section in the Engineering handbook](/handbook/engineering/)
 for tips on how to keep yourself informed about engineering announcements and initiatives.
 
 Here are our most important modes of communication:

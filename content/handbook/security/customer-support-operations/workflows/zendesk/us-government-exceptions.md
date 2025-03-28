@@ -67,14 +67,19 @@ This is informational only. This should never be done manually unless an unrecov
 {{% /alert %}}
 
 1. Create a file named `swap_support_instance_in_sfdc`
+
    ```bash
    touch swap_support_instance_in_sfdc
    ```
+
 1. Make it executable
+
    ```bash
    chhmod +x swap_support_instance_in_sfdc
    ```
+
 1. Put the following contents into the file:
+
    ```ruby
    #!/usr/bin/env ruby
 
@@ -117,7 +122,9 @@ This is informational only. This should never be done manually unless an unrecov
    )
    puts 'done'
    ```
+
 1. Run the script
+
    ```bash
    ./swap_support_instance_in_sfdc ABC123DEF456GHI789
    ```

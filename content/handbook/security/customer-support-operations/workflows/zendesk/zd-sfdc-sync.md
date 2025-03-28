@@ -26,7 +26,7 @@ Because a cache reset is required, you need to undergo a very specific (and inte
 
 1. Disable the scheduled pipeline(s) in the corresponding ZD-SFDC Sync project
 1. Clear the redis cache for the corresponding objects
-   - This is done by manually running the corresponding scheduled pipeline in the corresponding maintenance project. See our [Zendesk maintenance documentaiton](../../docs/zendesk/maintenance) for more information
+   - This is done by manually running the corresponding scheduled pipeline in the corresponding maintenance project. See our [Zendesk maintenance documentaiton](./maintenance) for more information
 1. Apply the changes (via the repo and/or gem)
 1. Run the sync tasks via CLI on your laptop (running in a screen).
    - This is going to take some time depending on the number of changes being made.

@@ -65,4 +65,3 @@ These are scoped labels, meaning only one of them can ever be present on an issu
 | Label | What it means |
 |-------|---------------|
 | `roadmap_item` | The issue is pertaining to an item on thhe Support roadmap |
-
