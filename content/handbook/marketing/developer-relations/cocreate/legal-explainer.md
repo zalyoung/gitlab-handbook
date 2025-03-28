@@ -9,41 +9,42 @@ title: "GitLab Co-Create: Legal Explainer for Customers"
 | MIT-licensed code | Individual | DCO (Developer Certificate of Origin) | Automatic - by contributing you accept the DCO |
 | MIT-licensed code | Corporation | DCO (Developer Certificate of Origin) | Automatic - by contributing you accept the DCO |
 | EE-directory code | Individual | Individual CLA | Automatic - by contributing you accept the Individual CLA |
-| EE-directory code | Corporation | Corporate CLA | Legal review + authorized contributors list |
+| EE-directory code | Corporation | Corporate CLA | Automatic acceptance OR **optional formal setup** |
 
-## What is the Co-Create Legal Process?
+## Legal Approach for Co-Create
 
-1. **Determine contribution type and location**:
-   - Is your team contributing to general GitLab code (MIT-licensed)?
-   - Or to code in the gitlab-org/gitlab/ee directory?
+**Key Points to Understand**:
 
-2. **Select the appropriate agreement**:
-   - If you want your team to contribute on EE-directory code on behalf of your organization you will require the Corporate CLA
-   - All other contributions do not require the Corporate CLA
+- Contributors automatically accept the appropriate agreement (DCO or CLA) by submitting a contribution
+- No pre-approval process is required before teams can start contributing during Co-Create engagements
+- The code location determines which agreement applies (MIT-licensed = DCO, EE-directory = CLA)
 
-3. **Fast-track approval options**:
-   - For DCO contributions: No legal review needed - by contributing you are deemed to have accepted the DCO or
-   - For Individual CLA: No legal review needed - by contributing you are deemed to have accepted the Individual CLA or
-   - For Corporate CLA: Once signed, all authorized contributors can make contributions without additional legal review
+**For Organizations With Specific Legal Requirements**:
 
-## Corporate CLA: Setup Process
+- Some organizations may need formal agreements for compliance or governance reasons
+- In these cases, GitLab offers an optional formal Corporate CLA process
+- This setup gives organizations greater control over who can contribute on their behalf
 
-When your organization wants to contribute to EE-directory code:
+## Managing Corporate Contributions
 
-1. Contact cla_managers@gitlab.com to initiate the Corporate CLA process
-2. GitLab will create a dedicated group for your organization at gitlab.com/gitlab-corporate-cla/[your-company]
-3. Your organization will designate administrators to manage the list of authorized contributors
-4. Once setup is complete, authorized contributors can make contributions to EE code on behalf of your organization
+For organizations participating in Co-Create, there are two paths:
 
-**Average timeline**: 1-2 weeks from initial contact to full approval
+1. **Standard Contribution Path**:
+   - Employees can immediately contribute to GitLab code
+   - By contributing, they automatically accept the appropriate agreement
+   - No pre-approval or formal setup required
+
+2. **Formal CLA Management (Optional)**:
+   - For organizations requiring explicit contributor management
+   - Contact cla_managers@gitlab.com to initiate the formal Corporate CLA process
+   - GitLab creates a dedicated group at gitlab.com/gitlab-corporate-cla/[your-company]
+   - Your organization designates administrators to manage authorized contributors
+
+**Average timeline**: 2-3 weeks from initial contact to full approval
 
 ## Frequently Asked Questions
 
-**Q: Do we need to sign a new agreement for each contribution?**
-A: No. Once your Corporate CLA is signed, it covers all future contributions.
-
-**Q: Who owns the intellectual property in our contributions?**
-A: You retain ownership of your contributions while granting GitLab broad permission to use them.
+For answers to common questions about contributions, ownership, and licensing, please see [Frequently Asked Questions on the DCO & CLA page](https://about.gitlab.com/community/contribute/dco-cla/#frequently-asked-questions).
 
 ## Getting Started
 
@@ -51,8 +52,7 @@ To expedite the legal process:
 
 1. Share this page and [the GitLab DCO & CLA](https://about.gitlab.com/community/contribute/dco-cla/) with your legal team
 2. Contact cla_managers@gitlab.com to initiate the Corporate CLA process
-3. While CLA approval is in progress, consider starting with DCO contributions
-4. Prepare a list of developers who will need to be authorized contributors
+3. Prepare a list of developers' GitLab usernames who will need to be authorized contributors
 
 ## Contact Information
 
