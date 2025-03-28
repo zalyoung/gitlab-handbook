@@ -23,6 +23,8 @@ Continuing the work from [Covered Experience SLIs](_index.md), this addendum foc
 by introducing a new service, the Covered Experience Tracker, that will add the capability of tracking Covered Experiences that
 never complete (due to errors mid journey), or do not complete within its expected lifetime.
 
+This is being kept separate from the main blueprint for the reason that it is subject to change. The content presented here is aspirational only.
+
 ## Scope
 
 The [Covered Experience Tracker](#covered-experience-tracker) is going to be responsible for the Covered Experience time out verification --
@@ -63,9 +65,9 @@ flowchart LR
     end
 
     User --Request--> ServiceA
-    LabKit --Event--> tracker
+    LabKit --Checkpoint--> tracker
     ServiceA --> ServiceB
-    LabKitB --Event--> tracker
+    LabKitB --Checkpoint--> tracker
 ```
 
 The project work items are scoped in the [epic #1540](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1540).
@@ -82,17 +84,20 @@ The project work items are scoped in the [epic #1540](https://gitlab.com/groups/
 
 It will serve an endpoint that will respond to the client generated payload:
 
-| Field            | Type              | Required           | Description                                             | Example                                        | Observations                                                   |
-|------------------|-------------------|--------------------|---------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------|
-| ce_id            | string (ULID)     | Yes                | Unique identifier for the covered experience            | "01JP0EM7HB39WSJNR4662MYZ6V"                   | Same ID must be used across all events in a covered experience |
-| ce_name          | string            | Yes                | Name of the covered experience as defined in the config | "http_request"                                 | Must match with a covered experience definition                |
-| step             | string            | Yes                | Which step in the lifecycle                             | "start" \| "end" \| "intermediate"             | -                                                              |
-| component        | string            | Yes                | Service/component generating the event                  | "web", "database"                              | -                                                              |
-| client_timestamp | string (ISO-8601) | Yes                | Timestamp when event occurred                           | "2025-02-06T14:30:00Z"                         | -                                                              |
-| meta             | object            | Yes                | Additional metadata                                     | {"feature_category": "source_code_management"} | -                                                              |
-| server_timestamp | string (ISO-8601) | No (Response only) | Server processing timestamp                             | "2025-02-06T14:30:00.123Z"                     | Timestamp of the time of processing                            |
+| Field                 | Type              | Required           | Description                                                                                                   | Example                            |
+|-----------------------|-------------------|--------------------|---------------------------------------------------------------------------------------------------------------|------------------------------------|
+| correlation_id        | string (ULID)     | Yes                | Unique identifier for the covered experience                                                                  | "01JP0EM7HB39WSJNR4662MYZ6V"       |
+| covered_experience_id | string            | Yes                | Identification of the Covered Experience                                                                      | "http_request"                     |
+| checkpoint            | string            | Yes                | Which step in the lifecycle                                                                                   | "start" \| "end" \| "intermediate" |
+| checkpoint_category   | string            | No                 | A domain specific category for the checkpoint. TBD: impose limited cardinality.                               | "authorize"                        |
+| type                  | string            | Yes                | Service/component generating the event                                                                        | "web", "database"                  |
+| feature_category      | string            | Yes                | [GitLab feature category](https://docs.gitlab.com/development/feature_categorization/#feature-categorization) | "source_code_management"           |
+| urgency               | string            | Yes                | How quickly a process needs to complete based on user expectations                                            | "sync_fast"                        |
+| client_timestamp      | string (ISO-8601) | Yes                | Timestamp when event occurred                                                                                 | "2025-02-06T14:30:00Z"             |
+| server_timestamp      | string (ISO-8601) | No (Response only) | Server processing timestamp                                                                                   | "2025-02-06T14:30:00.123Z"         |
+| meta                  | object            | No                 | i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests    |                                    |
 
-A background process verifies all stale Covered Experiences and clears them out, emitting failure metrics.
+A background process verifies all stale Covered Experiences and clears them out, emitting failure events.
 
 Components interactions given a synchronous Covered Experience:
 
@@ -108,7 +113,7 @@ sequenceDiagram
     User->>App: Request
     activate App
 
-    App->>Tracker: Step 1
+    App->>Tracker: Checkpoint 1
     Tracker->>Redis: Store Initial State
     Tracker->>Event: Emit Start Event
     Tracker-->>App: Response
@@ -116,7 +121,7 @@ sequenceDiagram
     App->>AppB: Forward Request
     activate AppB
 
-    AppB->>Tracker: Step 2
+    AppB->>Tracker: Checkpoint 2
     Tracker->>Redis: Update State
     Tracker->>Event: Emit Intermediate Event
     Tracker-->>AppB: Response
@@ -124,7 +129,7 @@ sequenceDiagram
     AppB-->>App: Response
     deactivate AppB
 
-    App->>Tracker: Step 3
+    App->>Tracker: Checkpoint 3
     Tracker->>Redis: Mark Complete
     Tracker->>Event: Emit Success Event
     Tracker-->>App: Response
@@ -155,7 +160,7 @@ sequenceDiagram
     User->>Web: Request
     activate Web
 
-    Web->>Tracker: Step 1
+    Web->>Tracker: Checkpoint 1
     Tracker->>Redis: Store Initial State
     Tracker->>Event: Emit Start Event
     Tracker-->>Web: Response
@@ -168,7 +173,7 @@ sequenceDiagram
 
     Note over Worker: Job starts
     activate Worker
-    Worker->>Tracker: Step 2
+    Worker->>Tracker: Checkpoint 2
     Tracker->>Redis: Update State
 
     alt Success Case
@@ -195,7 +200,8 @@ sequenceDiagram
 
 ### Authentication
 
-Authentication between the SDK and the Covered Experience Tracker is required to prevent the sending of unexpected events that could distort the reliability metrics of GitLab features. E.g. the ai-gateway [authentication and authorization](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/884ec8a1e92c1db13f12a1b0093e4e82aa50cad7/docs/auth.md).
+Authentication between the SDK and the Covered Experience Tracker is required to prevent the sending of unexpected events that could distort the reliability metrics of GitLab features.
+E.g. the ai-gateway [authentication and authorization](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/884ec8a1e92c1db13f12a1b0093e4e82aa50cad7/docs/auth.md).
 
 ## SDK Requirements
 
