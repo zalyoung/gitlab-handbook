@@ -175,6 +175,94 @@ Should the changes made fall outside the default selection of this job, it can b
 - `VARS`: Defaults to `None` but will accept a comma separated list of quoted key value pairs. e.g. `"key1":"value1","key2":"value2"`.
 - `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
 
+Running this CI job in an merge request pipeline will produce an output report that is added directly to merge request as a comment from the Analytics API user. This reprot will summarize the results of the job showing total run time, model counts, what models were executed, and the slowest running models.  This model can be supressed by addting the {{< label name="Supress Results Report" >}} lable to the merge request. An example output of the report, formatted for the handbook, can be seen below:
+
+{{< panel header="**Results Report**" header-bg="primary" >}}
+
+This is an automated message relaying the output of the 🏗️🏭build_changes Job
+
+Clone Step: ✅ success
+
+DBT Run Summary for Clone
+
+- Elapsed Time: 161.21 seconds
+- Total Models: 1
+- Total Tests: 0
+- Total Seeds: 0
+- Total Snapshots: 0
+- Command:
+
+```console
+dbt --fail-fast clone --selector contiguous_list --state reference_state --vars {"DOWNSTREAM_LIST":"date_details_source+","UPSTREAM_LIST":"+date_details_source"}
+```
+
+Error Messages
+
+> ✅ No errors found.
+
+Results Table
+
+| Model/Test | Status | Execution Time |
+|------------|--------|----------------|
+| `date_details_source` | ✅ success | 1.29 seconds |
+
+Top 5 Slowest Models/Tests
+
+| Model/Test | Status | Execution Time |
+|------------|--------|----------------|
+| `date_details_source` | ✅ success | 1.29 seconds |
+
+Build Step: ❌ error
+
+DBT Run Summary for Build
+
+- Elapsed Time: 18.87 seconds
+- Total Models: 1
+- Total Tests: 46
+- Total Seeds: 0
+- Total Snapshots: 0
+- Command:
+
+```console
+dbt --fail-fast build --selector contiguous_list --defer --state reference_state --vars {"DOWNSTREAM_LIST":"date_details_source+","UPSTREAM_LIST":"+date_details_source"}
+```
+
+Error Messages
+
+> Found 1 errors:
+
+❌ Error in `unique_date_details_source_day_name`
+
+```console
+Got 7 results, configured to fail if != 0
+```
+
+Results Table
+
+| Model/Test | Status | Execution Time |
+|------------|--------|----------------|
+| `date_details_source` | ✅ success | 3.92 seconds |
+| `not_null_date_details_source_day_of_week` | ✅ pass | 1.07 seconds |
+| `not_null_date_details_source_date_day` | ✅ pass | 1.38 seconds |
+| `not_null_date_details_source_day_of_year` | ✅ pass | 0.40 seconds |
+| `not_null_date_details_source_day_name` | ✅ pass | 1.53 seconds |
+| ... | ... | ... |
+| `unique_date_details_source_date_actual` | ✅ pass | 0.27 seconds |
+| `unique_date_details_source_day_name` | ❌ fail | 0.16 seconds |
+| `unique_date_details_source_date_day` | skipped | 0.00 seconds |
+
+Top 5 Slowest Models/Tests
+
+| Model/Test | Status | Execution Time |
+|------------|--------|----------------|
+| `date_details_source` | ✅ success | 3.92 seconds |
+| `not_null_date_details_source_day_of_fiscal_qu...` | ✅ pass | 1.59 seconds |
+| `not_null_date_details_source_day_of_fiscal_year` | ✅ pass | 1.58 seconds |
+| `not_null_date_details_source_day_of_quarter` | ✅ pass | 1.55 seconds |
+| `not_null_date_details_source_date_actual` | ✅ pass | 1.55 seconds |
+
+{{< /panel >}}
+
 <details markdown="1">
 <summary>Cross-Walk</summary>
 
