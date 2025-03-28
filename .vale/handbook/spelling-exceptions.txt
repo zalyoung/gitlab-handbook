@@ -874,6 +874,7 @@ PDFs
 PEOs
 performant
 Permifrost
+Pentest
 PgBouncer
 pgFormatter
 pgLoader
@@ -1033,6 +1034,7 @@ repurposing
 reputational
 requestee
 requesters
+Requestor
 requeue
 requeued
 requeues
@@ -1275,6 +1277,7 @@ timeboxes
 timeboxing
 timecop
 timeframe
+timeframes
 timelog
 timelogs
 timesheet

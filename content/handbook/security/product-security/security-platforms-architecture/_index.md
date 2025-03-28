@@ -11,17 +11,17 @@ The Security Platforms and Architecture (SPA) team addresses complex security ch
 
 ## Value Proposition
 
-We provide proactive risk assessments, architectural security solutions and standards, product security expertise and guidance, and direct product enhancements so that GitLab and our customers can create quality, secure software with high velocity. Our team translates security expertise into public and internal thought leadership contributions that establish GitLab as a leader and trusted enabler for secure software development. 
+We provide proactive risk assessments, architectural security solutions and standards, product security expertise and guidance, and direct product enhancements so that GitLab and our customers can create quality, secure software with high velocity. Our team translates security expertise into public and internal thought leadership contributions that establish GitLab as a leader and trusted enabler for secure software development.
 
 ## Scope and Responsibilities
 
 ### Primary Areas of Ownership
 
-- **Product Security Risk Register**: SPA is the DRI for organizing and presenting risks in the [PSRR](/handbook/security/product-security/security-platforms-architecture/risk-register/) and facilitating its operational cadences. We also lead comprehensive risk identification, assessment, and prioritization efforts and work cross-organizationally to create the strategy, roadmap, and standards required to enhance GitLab’s security posture, protect our customers, and address complex security challenges at scale.
+- **Product Security Risk Register**: SPA is the DRI for organizing and presenting risks in the [PSRR](/handbook/security/product-security/security-platforms-architecture/risk-register/) and facilitating its operational cadences. We also lead comprehensive risk identification, assessment, and prioritization efforts and work cross-organizationally to create the strategy, roadmap, and standards required to enhance GitLab's security posture, protect our customers, and address complex security challenges at scale.
 - **Security Research**: We assess the GitLab ecosystem to identify previously unknown security risks and vulnerabilities.
-- **Direct Product Contributions**: We contribute directly to the product’s evolution by:
+- **Direct Product Contributions**: We contribute directly to the product's evolution by:
   - Building product-first capabilities, paved paths, and secure guardrails to mitigate risk, facilitate secure software delivery, and meet the needs of both GitLab team members and customers.
-  - Designing secure architecture solutions and executing proofs-of-concept that accelerate engineering teams’ delivery of security improvements.
+  - Designing secure architecture solutions and executing proofs-of-concept that accelerate engineering teams' delivery of security improvements.
 - **[Security Interlock](/handbook/security/product-security/security-platforms-architecture/security-interlock/)**: SPA will take over as the DRI for coordinating cross-divisional Customer 0 efforts of new features, internal dogfooding of existing features, and product co-creation, ensuring the platform's security capabilities meet real-world security use cases.
 - **Architecture Consultations and Review**: Proactively consult on and conduct security architecture reviews for large, complex, strategic, and high-impact projects.
 - **Security Standards**: We develop and communicate security standards to proactively enable teams to make sound security decisions and establish clear expectations for secure software delivery.
@@ -31,22 +31,22 @@ We provide proactive risk assessments, architectural security solutions and stan
 
 ### Interface Points
 
-- **Product Security Risk Register:** 
+- **Product Security Risk Register:**
   - All Product Security teams contribute to the creation, updating, and treatment of risks in the PSRR.
-  - We maintain interlock with Security Risk, who owns and operates the broader Risk Register. 
-- **Security Interlock**: 
+  - We maintain interlock with Security Risk, who owns and operates the broader Risk Register.
+- **Security Interlock**:
   - All Product Security teams contribute real-world testing of GitLab features and provide feedback to improve product usability, functionality, and effectiveness.
-  - SPA consolidates and delivers structured feedback to Security Product Managers and Engineering teams to drive feature enhancements that address actual security team workflows and requirements. 
-- **Security Team Escalations:** We respond to requests for support in areas including - 
+  - SPA consolidates and delivers structured feedback to Security Product Managers and Engineering teams to drive feature enhancements that address actual security team workflows and requirements.
+- **Security Team Escalations:** We respond to requests for support in areas including -
   - Vulnerability impact analysis and POC development [Requestor: AppSec]
   - Security reviews requiring additional expertise [Requestor: AppSec or InfraSec]
   - Common themes and pain points requiring product capability development, automation work, custom tooling, or standards [Requestor: AppSec or InfraSec]
   - [Technical Security Validation](/handbook/security/security-assurance/technical-security-validation/) of high-risk systems used by GitLab [Requestor: Security Risk]
 - **Product/Engineering Collaboration:**
-  - SPA influences GitLab’s security and compliance roadmap, recognizing we are a canary for external enterprise-grade customer needs.
+  - SPA influences GitLab's security and compliance roadmap, recognizing we are a canary for external enterprise-grade customer needs.
   - SPA develops product-first capabilities with the collaboration and alignment of Product and Engineering.
   - Compliance Framework Implementation and Operations: SPA partners with Security Compliance and Engineering Teams on the roadmap to obtain and maintain certifications to customer-required security frameworks.
-  - Field Security: SPA supports and leverages Field Security to communicate security guidance and build customer trust. 
+  - Field Security: SPA supports and leverages Field Security to communicate security guidance and build customer trust.
 
 ### Out of Scope
 
@@ -63,11 +63,11 @@ We provide proactive risk assessments, architectural security solutions and stan
 
 Routine communications with the SPA team happen through the following:
 
-- Primary SPA channel for team-wide discussion: #security-spa 
+- Primary SPA channel for team-wide discussion: #security-spa
 - Team-specific channels for discussion targeting one sub-team: #security-architecture, #security-research, #sec-product-security-engineering
 - GitLab Tags for Issue/MR discussion: `@gitlab-com/gl-security/security-research`, `@gitlab-com/gl-security/product-security/product-security-engineering`
 
-In the event of an emergency, GitLab Team Members should page the Security Incident Response Team in any channel using the command `/security`. 
+In the event of an emergency, GitLab Team Members should page the Security Incident Response Team in any channel using the command `/security`.
 
 ## FY26 Primary Focus Areas
 
@@ -83,9 +83,9 @@ In the near future, we will expand upon these priorities and produce a high-leve
 
 SPA maintains metrics at many levels. The following are SPA-level strategic and operational metrics. These metrics are _in addition_ to Key Risk Indicators, project-level metrics, or sub-team specific metrics. For many of these, metrics instrumentation and reporting mechanisms are still forthcoming. The SPA team launched in FY26Q1. As the team matures, these metrics will evolve.
 
-Note: These tables require horizontal scrolling to see completely. 
+Note: These tables require horizontal scrolling to see completely.
 
-### Strategic Metrics 
+### Strategic Metrics
 
 The following are key metrics we will start tracking in FY26 to measure the SPA team's success delivering upon our charter, with e-Group as our intended audience. These reflect the reality that our ultimate success lies not in our individual activity, but requires working across teams and driving results that directly benefit our customers.
 
@@ -98,17 +98,17 @@ The following are key metrics we will start tracking in FY26 to measure the SPA 
 | **Percentage of product-applicable security processes effectively supported by GitLab features** | This metric measures our success in enabling Product Security teams to effectively secure GitLab using our own product features, demonstrating their real-world value for enterprise security teams and validating GitLab's All-in-One DevSecOps narrative | [TBD](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/142) (Internal) | Baseline Required | TBD | TBD | The designation of 'product-applicable' accounts for the possible existence of GitLab-specific security processes that lack utility for GitLab customers. We will evaluate these as they are identified. |
 | **Thought Leadership Contributions** | This metric tracks our active efforts to position GitLab as a security thought leader, influencing both internal practices and the industry | [TBD](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/145) (Internal) | Baseline Required | Quarterly | TBD | TBD |
 
-### Operational Metrics 
+### Operational Metrics
 
 | **FY26 Key Metric** | **Why It Matters** | **How it's Calculated** | **Target Thresholds** | **Measurement Frequency** | **Reporting Mechanism** | **Additional Notes** |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | **Security Research Identified Vulnerabilities** | This metric tracks our security research team's effectiveness at proactively identifying vulnerabilities before they can impact GitLab or our customers | Count of bug::vulnerability identified by Security Research over time, weighted by severity ([sample GLQL](https://gitlab.com/gitlab-com/gl-security/security-research/sec-research/-/issues/250#note_2245509822)) | Baseline Required | Monthly | TBD | |
 | **PSRR Operational Metrics: Number of new well-articulated risks documented, reviewed, assigned, prioritized, remediated, mitigated to an acceptable level, and closed** | These metrics provide comprehensive visibility into our Product Security Risk Register's effectiveness at identifying, processing, and resolving security risks throughout their lifecycle. | [TBD](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/166) | Baseline Required (See Notes) | Monthly | Monthly Product Security Risk Register Report (to be established) | Early in FY26, we expect to see the number of newly documented risks rise and exceed the number of those prioritized, addressed, and closed. After this initial influx, we should see more balance among these metrics. |
 | **On-time delivery of planned work** | This metric measures our team's ability to reliably deliver planned security work within committed timeframes, ensuring predictable security improvements for GitLab and our customers. | [TBD](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/164) (internal) | 80%+ | Monthly | TBD | ------ |
-| **Backlog Planning Horizon** | This metric tracks our team's ability to maintain a structured backlog with well-defined work items, enabling strategic prioritization and resource allocation. | [TBD](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/165) (internal) | Iterative targets, starting with 1 quarter’s worth of well-defined work in the backlog and progressing to a 12-18 month roadmap | Monthly | TBD | We should expect the team’s roadmap to remain flexible and change to adjust for business needs. However, the need to increase our time horizon aligns with the new roadmap planning processes in Product and Engineering. This applies primarily to ProdSecEng, but we will also explore how to effectively apply something similar to Architecture and Research. |
+| **Backlog Planning Horizon** | This metric tracks our team's ability to maintain a structured backlog with well-defined work items, enabling strategic prioritization and resource allocation. | [TBD](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/165) (internal) | Iterative targets, starting with 1 quarter's worth of well-defined work in the backlog and progressing to a 12-18 month roadmap | Monthly | TBD | We should expect the team's roadmap to remain flexible and change to adjust for business needs. However, the need to increase our time horizon aligns with the new roadmap planning processes in Product and Engineering. This applies primarily to ProdSecEng, but we will also explore how to effectively apply something similar to Architecture and Research. |
 
 ## Review and Updates
 
-Upon initial finalization, this charter will be migrated to the GitLab handbook. It will be updated quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and critical risks in the StORM and Product Security Risk Registers. 
+Upon initial finalization, this charter will be migrated to the GitLab handbook. It will be updated quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and critical risks in the StORM and Product Security Risk Registers.
 
 Next scheduled review: April 30, 2025
