@@ -30,7 +30,7 @@ You will play a critical role in the success of Professional Services engagement
 - Ensure that the deliverable accurately meets the defined expectations of the customer, ensuring that proper testing is implemented and performance requirements are closely monitored by working with the customer
 - Coordinate and oversee functional implementation activities for internal and partner consultants, developers, and customer points of contact (POC) on large scale enterprise projects
 - Mentor PS and partner consultants providing guidance regarding 'Best Practices,' communication, and implementation strategies
-- Provide mentorship and collaterol in the form of documentation, delivery kits, and training materials
+- Provide mentorship and collateral in the form of documentation, delivery kits, and training materials
 - Liaise with and support of other functional groups within GitLab – including (but not limited to) training, development, support, product, engineering
 - Review and provide input to PS training materials and presentations
 - Develop case studies, presentations, design documentation, best-practice methodologies and internal process development
