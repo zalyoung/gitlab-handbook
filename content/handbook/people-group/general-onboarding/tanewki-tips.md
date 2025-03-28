@@ -18,9 +18,9 @@ After you sign your offer and complete your background check and references, you
 ### Before you start
 
 1. Sign your offer, and be on the lookout for your :email: Welcome Email from the Candidate Experience Specialist team. You can read about the team on [this Handbook page](/handbook/hiring/talent-acquisition-framework/coordinator/).
-    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, Handbook page [you can review](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops).
+    - This email will contain all pertinent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, Handbook page [you can review](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops).
     - Once you receive your laptop, you are welcome to put it on prior to your first day and get familiar with using it. When prompted to create a Apple ID (for Mac users), skip this step (make sure to **not** sign into the laptop with your personal Apple ID). You will be asked to create an Apple ID on day one with your GitLab email address.
-    - You can also proceed with downloading Google Chrome extension via the Safari browser (since you will not have access to App Store without Apple ID) since most of GitLab's applications are more user friendly with Chrome.
+    - You can also proceed with downloading Google Chrome browser for Mac via the Safari browser (since you will not have access to App Store without Apple ID) since most of GitLab's applications are more user friendly with Chrome.
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix one week before your start date. This email will walk you through the process of completing the I9.
 1. If you live in Belgium or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
 1. In some entity countries, GitLab uses external companies to assist with the collection of payroll documents from you.
