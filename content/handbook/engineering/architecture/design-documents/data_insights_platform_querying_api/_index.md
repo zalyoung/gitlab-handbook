@@ -220,7 +220,7 @@ For gRPC, we must version the packages within Go. This will version the gRPC cal
 
 For flagging features within gRPC we must follow the [same standard as Gitaly](https://docs.gitlab.com/development/gitaly/#wrapping-rpcs-in-feature-flags) but prefix flags with `data_insights_*` instead.
 
-Protobuf is designed to not handle versioning automatically by following their [best practices](https://protobuf.dev/best-practices/api/). We must not re-use field numbers or field names, any fields removed in future versions must be `reserved`.
+Protobuf is designed to handle versioning automatically by following their [best practices](https://protobuf.dev/best-practices/api/). We must not re-use field numbers or field names, any fields removed in future versions must be `reserved`.
 
 #### Pagination
 
