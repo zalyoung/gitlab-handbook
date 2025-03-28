@@ -49,8 +49,8 @@ GitLab maintains a number of valubale analytics resources for Customer Success a
 
 - [Gainsight](/handbook/customer-success/csm/gainsight/_index.md) 
 - [Use Case Adoption Scoring](/handbook/customer-success/product-usage-data/maturity-scoring.md)
-- [Account Landscape](handbook/enterprise-data/data-governance/data-catalog/customer-intelligence/)
-- [Customer 360](handbook/enterprise-data/data-governance/data-catalog/customer-intelligence/)
+- [Account Landscape](https://10az.online.tableau.com/#/site/gitlab/views/AccountLandscape/Overview)
+- [Customer 360](https://10az.online.tableau.com/#/site/gitlab/views/Customer360_17097388485010/Customer360LandingPage)
 - [CS Leader Monthly Metrics](cs-monthly-metrics-dashboard/)
 
 ## Get in Touch
