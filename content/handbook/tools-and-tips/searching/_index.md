@@ -45,7 +45,7 @@ The steps below show you how to set up a keyword search for searching the GitLab
 |---|---|
 | 1. Right-click on the address bar in Chrome and select `Manage Search Engines...` | ![Manage search engine](/images/tools-and-tips/1_manage_search_engine.png) |
 | 2. In the `Site search` section, click the `Add` button | ![Add search engine](/images/tools-and-tips/2_add_search_engine.png) |
-| 3. In the new `Add search engine` dialog, enter the following then click `Add`: <br> a. `GitLab documentation` in *Search Engine* <br> b. `gd` in *Shortcut* <br> c. `https://docs.gitlab.com/search/?q=%s` in *URL* | ![Enter search engine details](/images/tools-and-tips/3_enter_search_engine_details.png) |
+| 3. In the new `Add search engine` dialog, enter the following then click `Add`: <br> a. `GitLab documentation` in *Search Engine* <br> b. `gd` in *Shortcut* <br> c. `https://docs.gitlab.com/search/?q=%s` in *URL* |  |
 
 To test this, open a new tab and in the address bar type: `gd` <kbd>Tab</kbd> `merge requests` and press enter.
 The GitLab documentation page should load with the search results for `merge requests` showing.
@@ -60,7 +60,7 @@ The steps below show you how to set up a keyword search for searching the GitLab
 | 1. Click on `Bookmarks` on the menu bar, then click `Show All Bookmarks` | ![Firefox Searching](/images/tools-and-tips/ff_1_library_menu.png) |
 | 2. Select `Bookmarks Menu` on the left | ![Firefox Searching](/images/tools-and-tips/ff_2_select_bookmarks_menu.png) |
 | 3. Click on the gear icon and select `New Bookmark...` | ![Firefox Searching](/images/tools-and-tips/ff_3_new_bookmark.png) |
-| 4. In the new popup dialog, enter the following then click `Add`: <br> a. `Search GitLab documentation` in *Name* <br> b. `https://docs.gitlab.com/search/?q=%s` in *Location* <br> c. `hb` in *Keyword* | ![Firefox Searching](/images/tools-and-tips/ff_4_bookmark_details.png) |
+| 4. In the new popup dialog, enter the following then click `Add`: <br> a. `Search GitLab documentation` in *Name* <br> b. `https://docs.gitlab.com/search/?q=%s` in *Location* <br> c. `hb` in *Keyword* |  |
 
 To test this, open a new tab and in the address bar type `gd merge requests` and press enter.
 The GitLab documentation search results page should load with the search results for `merge requests` showing.
