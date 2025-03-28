@@ -255,8 +255,8 @@ support ticket.
 As detailed in the [Support General Policies](https://about.gitlab.com/support/general-policies/#we-handle-each-incident-within-a-single-support-ticket)
 it is GitLab policy to handle each individual incident, problem or issue within
 a single support ticket. If a situation arises where you need to open a new
-ticket on behalf of a customer, you **must** use the [Create new ticket plugin](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#:~:text=current%20plugins%20are%3A-,Create%20new%20ticket,-Allows%20an%20agent)
-within the [Zendesk Super App](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#zendesk-super-app)
+ticket on behalf of a customer, you **must** use the [Create new ticket plugin](/handbook/security/customer-support-operations/docs/zendesk/apps#zendesk-super-app)
+within the Zendesk Super App
 to ensure proper routing and SLA assignment:
 
 1. Within a ticket, navigate to the Zendesk Super App and select the Create new

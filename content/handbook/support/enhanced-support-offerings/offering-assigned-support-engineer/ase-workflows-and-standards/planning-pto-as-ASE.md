@@ -31,7 +31,7 @@ will be out.
 - Inform the customers and account teams of your upcoming absence and your
   coverage plan
 - Help the SEs who will be monitoring your accounts to configure the
-  [Zendesk notifications app](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#notifications-app)
+  [Zendesk notifications app](/handbook/security/customer-support-operations/docs/zendesk/apps#notifications-app)
   to notify them upon the arrival of new tickets.
 - Use the [Delegate Tasks feature of `Time Off by Deel` in Slack](https://help.letsdeel.com/hc/en-gb/articles/11901927070737-How-To-Request-Time-Off-With-Deel-Plugin#h_01GNY1Q325CCDEMASHZCMMY4RS)
   to indicate who is covering for each of your accounts
