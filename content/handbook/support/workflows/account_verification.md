@@ -102,7 +102,9 @@ In a paid namespace: If the user elects to have an Owner vouch for their request
    - Verify that the author of the Snippet is an Owner and direct member of the top-level paid group
 1. If the Owner passes, you may count this towards the account verification challenges.
 
-Note: Due to this [bug](https://gitlab.com/gitlab-org/gitlab/-/issues/337939) some group owners are not able to create snippets. In that case, we can ask the Owner to generate and share with us a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin) instead.
+Note: Due to this [bug](https://gitlab.com/gitlab-org/gitlab/-/issues/337939) some group owners are not able to create snippets. In that case, we can ask the Owner to generate and share with us a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin) instead. 
+
+If another user is CCed on the ticket, once you've verified the PIN ask them to generate a new PIN to revoke the previous one. 
 
 ## Account Ownership Changes
 
