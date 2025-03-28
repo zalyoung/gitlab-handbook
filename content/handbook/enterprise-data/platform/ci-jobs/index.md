@@ -212,7 +212,6 @@ Top 5 Slowest Models/Tests
 |------------|--------|----------------|
 | `date_details_source` | ✅ success | 1.29 seconds |
 
-
 Build Step: ❌ error
 
 DBT Run Summary for Build
