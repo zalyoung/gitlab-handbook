@@ -60,15 +60,15 @@ organization and into their own private Organization.
 
 ## Fundamentals of Organizations
 
-* Organization will wrap around nearly all GitLab features.
-* It won't be possible to read or write data between Organizations. Read more
-  about [Organization Isolation](isolation.md).
-* Many product features will remain unchanged, but most instance level features will move down and other features up to Organization level. Level changes are elaborated [below](#level-structure).
-* Users can only be a Member of a single Organization.
-* They can be owners of the Organization or just standard members.
-* In future we will review the ability for Users to be a Member of multiple Organizations.
-* Organization owners will have admin style privileges within their Organization, such as the ability to delete user accounts. More details [below](#roles-and-permissions).
-* These changes will occur on all GitLab platforms including GitLab.com, Self Managed, and Dedicated.
+- Organization will wrap around nearly all GitLab features.
+- It won't be possible to read or write data between Organizations. Read more
+- about [Organization Isolation](isolation.md).
+- Many product features will remain unchanged, but most instance level features will move down and other features up to Organization level. Level changes are elaborated [below](#level-structure).
+- Users can only be a Member of a single Organization.
+- They can be owners of the Organization or just standard members.
+- In future we will review the ability for Users to be a Member of multiple Organizations.
+- Organization owners will have admin style privileges within their Organization, such as the ability to delete user accounts. More details [below](#roles-and-permissions).
+- These changes will occur on all GitLab platforms including GitLab.com, Self Managed, and Dedicated.
 
 ## Organization Isolation
 
