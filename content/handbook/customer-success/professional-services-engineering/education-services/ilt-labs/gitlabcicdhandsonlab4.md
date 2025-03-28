@@ -29,7 +29,7 @@ Now, we need to set up the infrastructure for the component.
 
 1. For the directory name, type in **templates**. Make sure that it is in lower case.
 
-1. Click the **Commit changes** button.
+1. Click the **Commit changes** button, and cmomit it to the main branch.
 
 1. Click on the **templates** folder. Inside the folder, click on the **+** button, then click the **New file** button.
 
@@ -52,26 +52,7 @@ Here, we are creating a component with an input called *stage*. The stage input 
 
 1. Click **Commit changes**, and then click **Commit changes** in the pop-up screen.
 
-1. 
-
-## Task A. Finding the SAST Component
-
-GitLab stores CI/CD components inside of the CI/CD catalog. To view the catalog:
-
-1. In the left sidebar, select **Search or go to**.
-
-1. In the resulting dialog, select **Explore**.
-
-1. In the left sidebar, select **CI/CD Catalog**. This will show you a list of all of the CI/CD catalog items available in your GitLab instance. For this lab, you will be adding SAST to your project. Select the SAST component.
-
-When you select a CI/CD component, you will see a `Readme`, which describes how to use the component, as well as configuration options for the component. For the SAST component, you will see that it can be included using the following code:
-
-```yaml
-include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@<VERSION>
-```
-
-Let’s add this to our CI/CD file.
+Now, we have a component that we can use in our project. You can also publish this component to the CI/CD catalogue with a Release for others to use, but we are instead just going to call it directly from our other project.
 
 ## Task B. Adding the SAST component
 
@@ -81,11 +62,11 @@ Let’s add this to our CI/CD file.
 
 1. Select **Edit > Edit in Pipeline Editor**.
 
-1. At the top of your file, below the image, add the SAST import at version main.
+1. At the top of your file, below the image, add in the custom component we created earlier:
 
 ```yaml
 include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+  - component: ilt.gitlabtraining.cloud/my-test-group/example-component/templates/sample-template.yml@main
 ```
 
 The top of the `.gitlab-ci.yml` file should look like this:
@@ -101,12 +82,21 @@ default:
   image: golang
 
 include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+  - component: ilt.gitlabtraining.cloud/my-test-group/example-component/templates/sample-template.yml@main
 ```
 
 1. Select **Commit changes**.
 
-1. After committing your changes, navigate to the pipeline created for your commit. You will now see a new job named *semgrep-sast*. This job is the security scan imported using the `include` keyword.
+1. After committing your changes, navigate to the pipeline created for your commit. You will now see a new job named *component-job*. This job is the custom job we have imported using the `include` keyword.
+
+1. Let's try overriding the stage to instead run in the deploy stage by adding the following to the `.gitlab-ci.yml` file:
+
+```yaml
+  inputs:
+    stage: deploy
+```
+
+1. Select **Commit changes**, and watch as your *component-job* now runs in the deploy stage.
 
 ## Lab Guide Complete
 
