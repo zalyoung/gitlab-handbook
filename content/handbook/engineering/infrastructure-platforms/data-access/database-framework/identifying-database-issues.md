@@ -7,11 +7,17 @@ This guide is intended for folks who need to determine the DRI team when examini
 
 ## Migrations
 
-The easiest way is using `git`, from the gitlab repository, run:
+The easiest way is using `git`, from the [GitLab repository](https://gitlab.com/gitlab-org/gitlab), run:
 
 ```sh
 git log --first-parent {path/to/migration.rb}
 ```
+
+The code `path/to/migration.rb` can be found in the backtrace when the migration fails. Migration code files
+start with a date-time stamp and are in [db/migrate/](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/post_migrate) or
+[db/post-migrate/](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/post_migrate). Or, if you can find the date-time stamp,
+for example `20240113071052`, anywhere in the log output from the customer, that will uniquely match a migration
+filename in one of these locations.
 
 That should give you an output that includes a link to the merge request where the migration was added.
 
@@ -29,7 +35,7 @@ If you don't have a source that includes a feature category, you'll need to make
 
 Each database table has a documentation file that can be used to determine a corresponding group.
 
-1. Look for the corresponding file named `{table_name}.yml` in https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs
+1. Look for the corresponding file named `{table_name}.yml` in [the database dictionary](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs)
 1. In the file, find the list of related `feature_categories`
 1. Using the feature category, [reach out to the team listed in the lookup](#getting-a-team-from-a-feature-category)
 1. If there is more than one category, pick one from the list and start with that team
