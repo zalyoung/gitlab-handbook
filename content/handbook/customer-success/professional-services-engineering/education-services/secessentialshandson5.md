@@ -19,9 +19,9 @@ Here's a high-level description of the fuzz testing workflow in GitLab:
 
 1. A CI/CD job runs `gitlab-cov-fuzz`, a GitLab command line utility, which in turn, runs a fuzzer. The fuzzer generates data and sends it to the fuzz target. The fuzz target sends that data to the code-under-test. The collection of all data sent to the fuzz target is called a "corpus."
 
-2. If the code-under-test processes the data successfully (i.e., without throwing unexpected errors or crashing), the fuzzer tracks which lines of the code-under-test were exercised by that input. The fuzzer then generates mutations of the data in the corpus to exercise different parts of the code-under-test. It sends that new, mutated input to the fuzz target, repeating the cycle.
+1. If the code-under-test processes the data successfully (i.e., without throwing unexpected errors or crashing), the fuzzer tracks which lines of the code-under-test were exercised by that input. The fuzzer then generates mutations of the data in the corpus to exercise different parts of the code-under-test. It sends that new, mutated input to the fuzz target, repeating the cycle.
 
-3. If any input data causes an unexpected error or crash in the code-under-test, that problem is sent back to the fuzzer, which reports it to the `gitlab-cov-fuzz` utility, which passes it to the CI/CD pipeline as a potential bug in the code-under-test. That problem then appears in the GitLab GUI, under the **Security** tab on the pipeline details page.
+1. If any input data causes an unexpected error or crash in the code-under-test, that problem is sent back to the fuzzer, which reports it to the `gitlab-cov-fuzz` utility, which passes it to the CI/CD pipeline as a potential bug in the code-under-test. That problem then appears in the GitLab GUI, under the **Security** tab on the pipeline details page.
 
 Here's a picture of the same workflow:
 
@@ -58,7 +58,7 @@ flowchart TD
    >
    > **There's a bug in this code-under-test:** it doesn't check to make sure you passed in at least 3 bytes. If you pass it fewer than 3 bytes, an error will occur when the code looks for, but can't find, the third byte. Different languages will do different things in this situation, but Python will throw an unexpected `IndexError`. That error could cause problems in whatever code calls this function, so this behavior is considered to be a bug. Fuzz testing is a great tool to find this bug.
 
-2. Commit the new file with an appropriate commit message.
+1. Commit the new file with an appropriate commit message.
 
 ## Task B. Write the Fuzz Target
 
@@ -84,7 +84,7 @@ flowchart TD
 
    > This fuzz target is typical for Python-based fuzz testing. See the [GitLab documentation](https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/#supported-fuzzing-engines-and-languages) for instructions on writing fuzz targets for other languages.
 
-2. Commit the new `FuzzTarget.py` with an appropriate commit message.
+1. Commit the new `FuzzTarget.py` with an appropriate commit message.
 
 ## Task C. Enable and Configure Fuzz Testing
 
@@ -96,14 +96,14 @@ flowchart TD
    - fuzz
    ```
 
-2. Enable fuzz testing by pasting this template into the existing `include:` section of `.gitlab-ci.yml`. Be sure to indent it correctly.
+1. Enable fuzz testing by pasting this template into the existing `include:` section of `.gitlab-ci.yml`. Be sure to indent it correctly.
 
    ```yml
    include:
    - template: Coverage-Fuzzing.gitlab-ci.yml
    ```
 
-3. Configure fuzz testing by defining a new job in `.gitlab-ci.yml`.
+1. Configure fuzz testing by defining a new job in `.gitlab-ci.yml`.
 
    ```yml
    fuzz-test-is-third-byte-zero:
@@ -120,17 +120,17 @@ flowchart TD
 
    > Fuzz test job definitions, like fuzz targets, look a little different depending on what language they're testing. See the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/#configuration">documentation</a> for instructions on writing fuzz test job definitions for other languages.
 
-4. Commit the edits to `.gitlab-ci.yml` with an appropriate commit message.
+1. Commit the edits to `.gitlab-ci.yml` with an appropriate commit message.
 
 ## Task D. Review the results
 
 1. Watch the pipeline run after you've committed changes to `.gitlab-ci.yml`. It might take up to 3 minutes to finish.
 
-2. When the pipeline completes, click **Build > Artifacts**.
+1. When the pipeline completes, click **Build > Artifacts**.
 
-3. Click on the `fuzz-test-is-third-byte-zero` job.
+1. Click on the `fuzz-test-is-third-byte-zero` job.
 
-4. On this screen, you will see a summary of the fuzz job. On this screen, you can see the fuzz test that was run against the `is_third_byte_zero` function. Notice that the output includes a `bytearray index out of range error`.
+1. On this screen, you will see a summary of the fuzz job. On this screen, you can see the fuzz test that was run against the `is_third_byte_zero` function. Notice that the output includes a `bytearray index out of range error`.
 
 ## Lab Guide Complete
 

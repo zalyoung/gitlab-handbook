@@ -13,25 +13,22 @@ In this lab, you will learn how to scan for vulnerabilities in your project depe
 
 ## Prerequisites
 
-Before beginning this lab and all later labs, you should disable any scanners that you enabled in previous labs to speed up pipeline runtime.
+Before beginning this lab and all later labs, you should remove any scanners that you enabled in previous labs to speed up pipeline runtime.
 
 1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
-2. To disable a scanner, add a hash before the template that enables it in `.gitlab-ci.yml`. For example, the DAST scanner takes some time to run, so, to disable the DAST scanner configured in Lab 1, make these edits to your existing `.gitlab-ci.yml`.
+2. Remove the lines that contain the DAST stage, and the DAST scanner. It should look similar to the example below.
 
     ```yml
     stages:
     - test
-    #- dast
 
     include:
     - template: Security/SAST.gitlab-ci.yml
     - template: Security/Secret-Detection.gitlab-ci.yml
-    #- template: DAST.gitlab-ci.yml
 
     variables:
       SAST_EXCLUDED_PATHS: venv/
-      #DAST_WEBSITE: https://example.com
 
     secret_detection:
       variables:
@@ -58,9 +55,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 ## Task B. Enable Dependency Scanning
 
-> The Dependency Scanner will traverse your project dependencies looking for security vulnerabilities.
->
-> You'll enable Dependency Scanning by including a GitLab-provided template in your CI/CD configuration file. You can do this manually, or you can use the GitLab GUI to make a merge request that does it for you. Since you used the manual technique to enable SAST, Secret Detection, and DAST in the last lab, use the GUI to enable Dependency Scanning in this lab.
+> The Dependency Scanner will traverse your project dependencies looking for security vulnerabilities. You'll enable Dependency Scanning by including a GitLab-provided template in your CI/CD configuration file. You can do this manually, or you can use the GitLab GUI to make a merge request that does it for you. Since you used the manual technique to enable SAST, Secret Detection, and DAST in the last lab, use the GUI to enable Dependency Scanning in this lab.
 
 1. Navigate to **Secure > Security configuration**.
 
@@ -73,9 +68,9 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 1. In the middle of the page, find the notification that a pipeline is running on the MR's branch.
 
-    1. It could take a few minutes for the pipeline to finish, even if you've disabled scans from the previous lab.
-    2. Do **not** click **Auto-merge** button since that can lead to unexpected behavior.
-    3. Wait for the pipeline to finish. You can watch it by navigating to **Build > Pipelines** or clicking on the pipeline number in the merge request.
+    * It could take a few minutes for the pipeline to finish, even if you've disabled scans from the previous lab.
+    * Do **not** click **Auto-merge** button since that can lead to unexpected behavior.
+    * Wait for the pipeline to finish. You can watch it by navigating to **Build > Pipelines** or clicking on the pipeline number in the merge request.
 
 1. After the pipeline has finished, click the **Merge** button in the MR. You might need to refresh the page to see this button.
 
@@ -95,7 +90,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
         SECURE_LOG_LEVEL: "info"
     ```
 
-    > For a full list of variables available for dependency scanning, see the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#available-cicd-variables">documentation</a>.
+    > For a full list of variables available for dependency scanning, see the [documentation](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#available-cicd-variables).
 
 1. Commit this change to the **main** branch, using `Change log level for Python dependency scanner` as a commit message. Click **Commit changes**.
 

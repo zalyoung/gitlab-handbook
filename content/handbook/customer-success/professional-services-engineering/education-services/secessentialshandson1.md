@@ -162,7 +162,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click the **Commit changes** button.
 
-1. In the resulting merge request, set the name to `Add prompt for server authentication`, and leave thes rest of the fields as default.
+1. In the resulting merge request, set the name to `Add prompt for server authentication`, and leave the rest of the fields as default.
 
 1. Click the **Create merge request** button.
 

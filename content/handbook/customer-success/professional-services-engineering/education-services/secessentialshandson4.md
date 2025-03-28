@@ -110,11 +110,11 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Navigate to **Secure > Policies**.
 
-2. Click on the policy you created. Click **Edit policy**.
+1. Click on the policy you created. Click **Edit policy**.
 
-3. Click **Delete Policy**.
+1. Click **Delete Policy**.
 
-4. Click **Merge** on the resulting merge request.
+1. Click **Merge** on the resulting merge request.
 
 ## Lab Guide Complete
 

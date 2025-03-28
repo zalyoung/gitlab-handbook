@@ -27,25 +27,23 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Above the repository file list, click **(+) > This directory > New file**.
 
-1. In the **File name** field, type `Dockerfile`.
-
-    > It is important that the first letter is capitalized for industry standards.
+1. In the **File name** field, type `Dockerfile`. It is important that the first letter is capitalized for industry standards.
 
 1. The `Dockerfile` must specify which Linux image to install your application on. For this lab you'll use an old version of Python that has security vulnerabilities for the Container Scanner to find. Paste this into `Dockerfile`:
 
-    ```dockerfile
+    ```Dockerfile
     FROM python:3.4-alpine
     ```
 
 1. The Dockerfile must add your application to the Linux image specified above. Paste this at the bottom of `Dockerfile`:
 
-    ```dockerfile
+    ```Dockerfile
     ADD main.py .
     ```
 
 1. Your completed `Dockerfile` should look like this. Make any corrections necessary.
 
-    ```dockerfile
+    ```Dockerfile
     FROM python:3.4-alpine
     ADD main.py .
     ```
