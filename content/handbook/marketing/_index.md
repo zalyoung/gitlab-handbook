@@ -101,7 +101,7 @@ Weekly Direct Reports Meetings (Each manager with their direct reports)
 | External PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities | `#external-comms` | [Corporate Communications](/handbook/marketing/corporate-communications/) |
 | Anything regarding the marketing website and website development | `#digital-experience-team` | [Digital experience](/handbook/marketing/digital-experience/) |
 | Questions about tools in the [marketing tech stack](/handbook/marketing/marketing-operations/), evaluating new marketing tools, marketing system process improvement | `#mktgops` | Marketing Operations |
-| Rules on legally compliant language for marketing communications | `#mktgops` | Marketing Ops |
+| Rules on [legally compliant language](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#marketing-rules-and-consent-language) for marketing communications (_inernal only_) | `#mktgops` | Marketing Ops |
 | Salesforce | `#sfdc-users` | Sales Operations (not marketing) |
 
 A complete list of marketing slack channels can be found [here](/handbook/marketing/#marketing-slack-channels).
