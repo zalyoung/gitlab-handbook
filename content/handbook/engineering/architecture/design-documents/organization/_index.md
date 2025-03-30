@@ -157,7 +157,7 @@ The Organization functionality available in each phase is described below.
 
 ### Organization MVC
 
-#### Organizations on Cells 1.0 (FY24Q2-FY25Q4)
+#### Organizations on Cells 1.0 (FY26Q2-FY26Q3)
 
 The Organization MVC for Cells 1.0 will contain the following functionality:
 
