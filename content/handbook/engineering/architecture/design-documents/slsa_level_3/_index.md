@@ -152,7 +152,7 @@ Note: the projects listed below are note dependent on each other and can be done
    1. Enable GitLab OIDC support by using the existing ID Token feature.
    1. Use GitLab CI/CD’s environment variables to expose tokens and necessary metadata.
 
-### Reusable GitLab CI Components
+### GitLab CI Components
 
 #### Provenance Signer Component
 
@@ -216,7 +216,7 @@ component:
 
 #### Provenance Verifier Component
 
-The provenance verifier component will verify attestations and generate VSAs. It will be implemented as a GitLab CI Component using a template YAML file.
+The provenance verifier component verifies attestations and generates VSAs. It will be implemented as a GitLab CI Component using a template YAML file.
 
 ##### Component Overview
 
@@ -236,7 +236,7 @@ component:
   inputs:
     variables:
       TARGET_ARTIFACT: ""  # Path to the artifact
-      BUNDLE_FILE: "provenance.json" # Path to the bundle file
+      BUNDLE_FILE: "cosign-bundle.json" # Path to the bundle file
       VERIFICATION_SUMMARY_FILE: "verification_summary.json" # Output verification summary file
       RESOURCE_URI: "" # Full URI to the published artifact
       POLICY_URL: "https://gitlab.com/slsa-vsa-policy/v1" # Default policy URL
@@ -419,10 +419,10 @@ verify_provenance:
    1. This stage separates build/sign from verification, ensuring a true separation of concerns.
 1. Provenance Verification Stage (verify_provenance):
    1. Uses the provenance-verifier component to:
-      1. alidate the signed provenance to ensure authenticity.
+      1. Validate the signed provenance to ensure authenticity.
       1. Check SLSA L3 requirements in the attestation.
       1. Generate a Verification Summary Attestation (VSA).
-   1. Uploads the VSA as a job artifact.
+   1. Upload the VSA as a job artifact.
 
 ### Security Considerations
 

@@ -13,9 +13,9 @@ SLSA (Supply-chain Levels for Software Artifacts) attestations provide cryptogra
 
 The current design has the following issues:
 
-Lack of separation of concerns: The same component that generates and signs the provenance attestation also creates the Verification Summary Attestation (VSA).
-Verification is not truly independent: When the same component generates both the attestation and VSA, there's no true validation that the attestation meets SLSA L3 requirements.
-Pipeline structure doesn't reflect real-world usage: In production environments, artifact publishing and verification often occur in separate stages or even separate pipelines.
+- Lack of separation of concerns: The same component that generates and signs the provenance attestation also creates the Verification Summary Attestation (VSA).
+- Verification is not truly independent: When the same component generates both the attestation and VSA, there's no true validation that the attestation meets SLSA L3 requirements.
+- Pipeline structure doesn't reflect real-world usage: In production environments, artifact publishing and verification often occur in separate stages or even separate pipelines.
 
 ## Options Considered
 
@@ -32,15 +32,15 @@ Pros:
 Cons:
 
 - No true separation of concerns
-- he VSA doesn't represent an independent verification
-- Doesn't align with enterprise CI/CD practices where build and verification are often separate processes
+- The VSA doesn't represent an independent verification.
+- It doesn't align with enterprise CI/CD practices where build, release, and verification are often separate processes.
 
 ### Option 2: Split Functionality into Separate Components
 
 Description: Create two distinct components:
 
-- A provenance-signer component that generates and signs the SLSA attestation
-- A provenance-verifier component that verifies attestations and generates VSAs
+- A provenance-signer component that generates a provenance attestation.
+- A provenance-verifier component that verifies the provenance attestation and generates a VSA.
 
 Pros:
 
@@ -49,28 +49,13 @@ Pros:
 - Aligns with enterprise CI/CD practices
 - Better security through independent verification
 - Enables using different environments or permissions for signing vs verification
-- Supports future workflows where verification might happen in different contexts (e.g., artifact repository consumption)
+- Enables verification out of the build pipeline and after publishing the artifact
 
 Cons:
 
 - More components to maintain
 - Slightly more complex pipeline configuration
 - Additional pipeline stage required
-
-### Option 3: Integrated Component with Optional Verification
-
-Description: Keep a single component but make verification an optional step.
-
-Pros:
-
-- Flexibility for different use cases
-- Simpler for basic scenarios
-
-Cons:
-
-- Still lacks true separation of concerns
-- Confusing configuration options
-- Doesn't encourage best practices
 
 ## Decision
 
@@ -89,5 +74,7 @@ We have decided to implement `Option 2: Split Functionality into Separate Compon
 
 - Should the verification component be configurable to verify against different SLSA levels?
 - What specific SLSA L3 requirements should be checked during verification?
-- Should the VSA be signed as well? If so, with what identity?
 - How will we handle verification failures in downstream processes?
+- What are the default policies? What do they assert of the provenance predicate?
+- Are policies defined in a language such as [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/#what-is-rego)?
+- Should we support user-defined policies?
