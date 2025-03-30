@@ -365,10 +365,13 @@ component:
       fi
 
   artifacts:
+    when: always
     paths:
       - ${VERIFICATION_SUMMARY_FILE}
       - ${VERIFICATION_SUMMARY_FILE}.bundle
     expire_in: 7d
+
+  allow_failure: true
 ```
 
 ### Example: Adding the Component to a Pipeline
