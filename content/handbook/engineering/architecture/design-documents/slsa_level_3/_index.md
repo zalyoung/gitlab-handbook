@@ -235,11 +235,11 @@ The provenance verifier component verifies attestations and generates VSAs. It w
 component:
   inputs:
     variables:
-      TARGET_ARTIFACT: ""  # Path to the artifact
       BUNDLE_FILE: "cosign-bundle.json" # Path to the bundle file
       VERIFICATION_SUMMARY_FILE: "verification_summary.json" # Output verification summary file
       RESOURCE_URI: "" # Full URI to the published artifact
       POLICY_URL: "https://gitlab.com/slsa-vsa-policy/v1" # Default policy URL
+      DOWNLOADED_ARTIFACT: "downloaded_artifact" # Path where downloaded artifact will be stored
 
   id_tokens:
     GITLAB_OIDC_TOKEN:
@@ -254,45 +254,63 @@ component:
   image: alpine:latest
 
   before_script:
-    - apk add --update cosign jq
+    - apk add --update cosign jq curl
 
   script:
-    - echo "Verifying signed provenance..."
-    - VERIFICATION_RESULT=$(cosign verify-blob-attestation --type slsaprovenance1 \
+    - echo "Downloading artifact from ${RESOURCE_URI}..."
+    - mkdir -p $(dirname ${DOWNLOADED_ARTIFACT})
+    - curl -L -o ${DOWNLOADED_ARTIFACT} ${RESOURCE_URI}
+    
+    - echo "Calculating artifact digest..."
+    - ARTIFACT_DIGEST=$(sha256sum ${DOWNLOADED_ARTIFACT} | cut -d ' ' -f 1)
+    
+    - echo "Downloading policy from ${POLICY_URL}..."
+    - POLICY_FILE="policy.json"
+    - |
+      if ! curl -L -f -o ${POLICY_FILE} ${POLICY_URL}; then
+        echo "ERROR: Failed to download policy file from ${POLICY_URL}"
+        exit 1
+      fi
+    
+    - echo "Calculating policy digest..."
+    - POLICY_DIGEST=$(sha256sum ${POLICY_FILE} | cut -d ' ' -f 1)
+    - echo "Policy digest: ${POLICY_DIGEST}"
+    
+    - echo "Verifying signed provenance against downloaded artifact..."
+    - |
+      set +e
+      cosign verify-blob-attestation --type slsaprovenance1 \
         --bundle ${BUNDLE_FILE} \
         --certificate-identity-regexp ".*" \
         --certificate-oidc-issuer ${CI_SERVER_URL} \
-        ${TARGET_ARTIFACT} || echo "FAILED")
-    
-    - |
-      if [ "$VERIFICATION_RESULT" == "FAILED" ]; then
-        echo "Verification failed!"
-        RESULT="FAILED"
-      else
+        ${DOWNLOADED_ARTIFACT}
+      VERIFICATION_EXIT_CODE=$?
+      set -e
+      
+      if [ ${VERIFICATION_EXIT_CODE} -eq 0 ]; then
         echo "Verification succeeded!"
         RESULT="PASSED"
         
         # Verify SLSA L3 requirements in the attestation
         echo "Checking SLSA L3 requirements..."
         # Additional checks for SLSA L3 compliance can be added here
-        # For example, checking for required fields in the attestation
+      else
+        echo "Verification failed!"
+        RESULT="FAILED"
       fi
     
-    - echo "Calculating artifact digest..."
-    - ARTIFACT_DIGEST=$(sha256sum ${TARGET_ARTIFACT} | cut -d ' ' -f 1)
-    
-    - echo "Generating verification summary for ${TARGET_ARTIFACT}..."
+    - echo "Generating verification summary for artifact..."
     - mkdir -p $(dirname ${VERIFICATION_SUMMARY_FILE})
-    - jq -n --arg artifact "${TARGET_ARTIFACT}" \
-          --arg policy_url "${POLICY_URL}" --arg result "${RESULT}" \
+    - jq -n --arg policy_url "${POLICY_URL}" --arg result "${RESULT}" \
           --arg verifierId "${VERIFIER_ID}" \
           --arg timeVerified "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" --arg resourceUri "${RESOURCE_URI}" \
           --argjson verifiedLevels '["SLSA_L3"]' --arg sha256 "${ARTIFACT_DIGEST}" \
           --arg bundleFilePath "${BUNDLE_FILE}" --arg bundleFileHash "$(sha256sum ${BUNDLE_FILE} | cut -d ' ' -f 1)" \
+          --arg policyDigest "${POLICY_DIGEST}" \
           --arg slsaVersion "1.0" '{
         "_type": "https://in-toto.io/Statement/v1",
         "subject": [{
-          "name": $artifact,
+          "name": $resourceUri,
           "digest": { "sha256": $sha256 }
         }],
         "predicateType": "https://slsa.dev/verification_summary/v1",
@@ -305,7 +323,7 @@ component:
           "policy": {
             "uri": $policy_url,
             "digest": {
-              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+              "sha256": $policyDigest
             }
           },
           "inputAttestations": [
@@ -328,6 +346,18 @@ component:
     - echo "Verification summary generated at ${VERIFICATION_SUMMARY_FILE}"
     - jq . ${VERIFICATION_SUMMARY_FILE}
     
+    - echo "Signing the verification summary attestation..."
+    - cosign attest-blob --predicate "${VERIFICATION_SUMMARY_FILE}" \
+        --type slsaverificationsummary \
+        --oidc-issuer "${CI_SERVER_HOST}" \
+        --fulcio-url "${FULCIO_SERVER}" \
+        --rekor-url "${REKOR_SERVER}" \
+        --identity-token "${GITLAB_OIDC_TOKEN}" \
+        --bundle "${VERIFICATION_SUMMARY_FILE}.bundle" \
+        "${DOWNLOADED_ARTIFACT}"
+        
+    - echo "VSA signed and stored at ${VERIFICATION_SUMMARY_FILE}.bundle"
+    
     - |
       if [ "$RESULT" == "FAILED" ]; then
         echo "Verification failed! Exiting with error."
@@ -337,6 +367,7 @@ component:
   artifacts:
     paths:
       - ${VERIFICATION_SUMMARY_FILE}
+      - ${VERIFICATION_SUMMARY_FILE}.bundle
     expire_in: 7d
 ```
 
@@ -397,11 +428,11 @@ verify_provenance:
   needs: ["publish_artifact"]
   component: .gitlab/components/provenance-verifier.yml
   variables:
-    TARGET_ARTIFACT: "dist/example-artifact.txt"
     BUNDLE_FILE: "dist/provenance.json"
     VERIFICATION_SUMMARY_FILE: "dist/verification_summary.json"
     RESOURCE_URI: "${ARTIFACT_URI}"
     POLICY_URL: "https://gitlab.com/my-policy"
+    DOWNLOADED_ARTIFACT: "dist/downloaded-artifact.txt"
 ```
 
 ### Pipeline Workflow Explanation
