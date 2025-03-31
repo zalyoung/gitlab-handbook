@@ -197,7 +197,7 @@ Instead:
 - Introduce a new user type (eg. service user) for all internal machine identity
   use cases, including token consolidation.
 
-This service user would aligns more closely with the
+This service user would align more closely with the
 [original proposal of service accounts](https://gitlab.com/gitlab-org/gitlab/-/issues/284393):
 
 - Available in the `CE`
@@ -208,6 +208,14 @@ This service user would aligns more closely with the
 This approach results in a significantly cleaner access model, avoids the
 pitfalls of the existing service account implementation, and provides a
 lightweight path forward for automation needs.
+
+Cross-group or cross-project operations would still be supported with this
+approach.
+They would simply require a separate token for each group / project the service
+user needs to access.
+If those groups belong to different organizations, cross-organization access
+using a single access token wouldn't be possible anyway, due to organization
+isolation.
 
 Via introducing breaking changes over time, we could be simplify the existing
 service account model and eventually merge the two user types to reduce
