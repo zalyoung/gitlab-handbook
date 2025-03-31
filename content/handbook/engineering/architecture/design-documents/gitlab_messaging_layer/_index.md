@@ -464,6 +464,8 @@ NATS Pub/Sub stats: 96 msgs/sec ~ 96.81 MB/sec
   - Automatic recovery in case of intact quorum nodes for replicated streams, or
   - Manual recovery from periodic stream backups.
 
+__Note__ To ensure all persisted data is recoverable, we'll need to integrate such a disaster recovery procedure for NATS into our general GitLab DR plans & tooling, taking into consideration all GitLab deployment types.
+
 __Note__, in the specific case of Siphon, all data buffered within NATS and due to be exported to ClickHouse _also_ remains available in Postgres. In the scenario where Siphon fails to connect to NATS or there is data loss on NATS, Siphon can perform a full-resync to ensure data consistency across Postgres & ClickHouse again. For other use-cases where this is not possible, we'll have to depend on recovering lost data automatically or manually from backups as stated above.
 
 - We do not expect auth failures while we using centralized model with users/accounts setup within NATS beforehand but the introduction of an external auth callout service can add further failure domains to the system. We'll need to guarantee higher or equal SLOs on the auth-server as we intend for NATS as a service.
