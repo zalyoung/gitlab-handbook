@@ -102,13 +102,6 @@ If you don't have access to any of these resources, create an
 [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) and
 assign it to your manager for approval.
 
-## Infrastructure and maintenance
-
-As part of the team responsibilities, team owns maintenance of infrastructure
-used for day to day work.
-For list of nodes and description of the maintenance tasks, see the
-[infastructure and maintenance](/handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/) page.
-
 ## Work/life harmony
 
 Working [all-remote](/handbook/company/culture/all-remote/) and [asynchronous first](/handbook/company/culture/all-remote/asynchronous/)
