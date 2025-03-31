@@ -127,11 +127,15 @@ To provide more thorough scanning and vulnerability detection, we will opt to en
         run_advanced_sast: true
     ```
 
-1. Set the branch to `main` and select **Commit changes**.
+1. Set the branch to `sast-update` and click the checkbox near **Start a new merge request with these changes**. Click **Commit changes**.
+
+1. In the MR page after this, provide an appropriate title (such as 'Enabled SAST in our pipeline'), and click **Create Merge Request**.
 
 1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select your currently running pipeline. Note that there is now a job titled `gitlab-advanced-sast`. 
+1. Select your currently running pipeline. Note that there is now a job titled `gitlab-advanced-sast`.
+
+1. When the pipeline successfully completes, return to your MR, and click on the **Merge** button.
 
 The GitLab Advanced SAST scanner will provide us more utility from our SAST scanner. We will see how the results look when we investigate our vulnerability report later in the lab.
 
@@ -150,7 +154,7 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
     ```yml
     include:
     - component: ilt.gitlabtraining.cloud/components/sast/sast@main
-        inputs:
+      inputs:
         excluded_paths: venv
         run_advanced_sast: true
     - component: ilt.gitlabtraining.cloud/components/secret-detection/secret-detection@main
