@@ -70,6 +70,7 @@ We propose implementing a unified deletion flow across all GitLab environments a
 ### Current State
 
 GitLab's deletion flow currently operates differently based on:
+
 - Pricing tier (Free vs. Premium/Ultimate)
 - Entity type (Project vs. Group)
 - Namespace type (User vs. Group)
