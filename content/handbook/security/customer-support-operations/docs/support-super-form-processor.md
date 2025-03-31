@@ -10,7 +10,7 @@ canonical_path: "/handbook/security/customer-support-operations/docs/gitlab/supp
 
 This is an information page for the Support Super form.
 
-If you are looking for information about managing it, please see [workflows](../../workflows/).
+If you are looking for information about managing it, please see [workflows](/handbook/content/handbook/security/customer-support-operations/workflows).
 
 {{% /pageinfo %}}
 

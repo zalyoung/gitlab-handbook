@@ -48,7 +48,7 @@ If you recommend [Professional Services](https://about.gitlab.com/services/) or 
 ### Our role within GitLab
 
 GitLab Support is part of the [Engineering division](/handbook/engineering/).
-While most engineering departments are part of the R&D [cost center](/handbook/finance/financial-planning-and-analysis/#cost--reporting-structure),
+While most engineering departments are part of the R&D cost center,
 Support is part of the Cost of Sales (or sometimes Cost of Goods Sold (COGS)) cost center.
 
 This unique arrangement is expressed in our [Key Performance Indicators](/handbook/support/performance-indicators/),
@@ -70,7 +70,7 @@ Success for help, freeing up more time to close sales.
 Part of Support's role is to amplify the voice of the customer. One way of doing this is inviting other GitLab team members into
 experiences that will help them understand customer challenges with the product or our own obstacles in helping customers overcome those challenges.
 
-Before you start, make sure you get [light-agent access in Zendesk](/handbook/support/internal-support/#viewing-support-tickets) so that you can view Support tickets.
+Before you start, make sure you get light-agent access in Zendesk so that you can view Support tickets.
 
 If you're looking to get more exposure to customers, there are a few ways to get involved with Support:
 
