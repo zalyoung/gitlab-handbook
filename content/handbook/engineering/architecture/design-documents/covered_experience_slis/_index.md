@@ -66,6 +66,12 @@ Key relationships between the two concepts:
 - **Measurability**: Covered Experiences are specifically designed to be measurable through our SLI framework, with clear success criteria and thresholds. They should not include ambiguity through decisions that a user makes throughout their Journey.
 - **Implementation**: User Journeys are often conceptual and used for product planning. Covered Experiences have specific technical implementations with instrumentation, metrics, and alerting.
 
+Product defines the User Journeys and works together with Engineering to specify which Covered Experiences are part of those journeys. Here's a graphical representation:
+
+![User Journeys Chart](/images/handbook/engineering/architecture/design-documents/covered_experience_slis/User%20Journeys%20for%20Quality.svg)
+
+[graph src](https://lucid.app/lucidchart/e911c437-dbdf-4540-bf44-23962e048661/edit)
+
 ## Dos
 
 - Create a framework for product teams to define important Covered Experience SLIs in a structured way
