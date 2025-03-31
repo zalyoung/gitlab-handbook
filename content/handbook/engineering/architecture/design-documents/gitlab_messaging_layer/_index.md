@@ -444,9 +444,19 @@ NATS Pub/Sub stats: 96 msgs/sec ~ 96.81 MB/sec
 
 - Inbuilt monitoring exposed as Prometheus metrics, details [here](https://docs.nats.io/running-a-nats-service/nats_admin/monitoring).
 
+### Cluster upgrades
+
+- NATS provides [well-documented paths around upgrading clusters](https://docs.nats.io/running-a-nats-service/nats_admin/upgrading_cluster), as long as we provision multi-node clusters and can perform a gradual rolling-restart.
+
+- In case of running NATS via Statefulsets on Kubernetes, this can be handled automatically by the underlying Kubernetes statefulset controller considering we use `.spec.updateStrategy` to be `RollingUpdate` which ensures an incremental rollout of the updates one pod at a time.
+
+- In case of running NATS on bare VMs, an operator will have to perform such a rolling upgrade of the cluster either manually or via tooling depending on how the cluster is setup.
+
 ### Failure Scenarios
 
-- In the case of unavailability of NATS, we might experience loss of data especially in scenarios where NATS is where we land incoming data first.
+- In the event of total service unavailability of NATS, we might experience loss of data especially in scenarios where NATS is where we land incoming data first.
+
+- In the event of loss of one or more nodes in a given NATS cluster, clients can still continue to push new events as long as other stream-replicas are configured and can assume new leadership for affected streams. For clients that cannot withstand loss of messages, stream replication is highly adviced which ensures any affected streams will recover as soon as any cluster-deterioration is remedied.
 
 - All ingested data is persisted durably via NATS Jetstream. In the event of unrecoverable messages however, we can rely on an explicit [disaster recovery setup](https://docs.nats.io/running-a-nats-service/nats_admin/jetstream_admin/disaster_recovery) to recover data, which includes:
   - Automatic recovery in case of intact quorum nodes for replicated streams, or
