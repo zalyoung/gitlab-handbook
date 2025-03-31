@@ -21,7 +21,9 @@ Successful product development requires and demands a unified commitment to shar
 
 ![Responsibilities of Leads](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-03-everyones_responsibility.svg)
 
-### Who, What, Why, When, and How
+### Who, What, Why, How, and When
+
+For Product Development, we are leveraging the general-purpose questioning method of "who", "what", "why", "how", and "when" to aid in understanding how these roles with their respective responsibilities are working together on a continuous basis:
 
 ![The who, what, why, how, when of Product Development Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
 
