@@ -1,0 +1,31 @@
+---
+title: "Duo Workflow ADR 003: Use TypeScript for Duo Workflow Executor"
+owning-stage: "~devops::ai_powered"
+toc_hide: true
+---
+
+## Context
+
+The Duo Workflow Service runs in Python, orchestrating multi-step LLM interactions via LangGraph. The executor currently exists as a separate Go binary that the Language Server spawns in order to start executing a workflow. This adds complexity: the LSP is TypeScript-based, but it spawns a Go process for execution. Communication back to the LSP for real-time feedback, streaming and error handling is more limited. Today, remote execution scenarios (running in CI or a container) use the same Go executor.
+
+A TypeScript-based executor can live within or alongside the LSP - in the same or separate repository. The LSP can use the executor as a node module and can communicate with it in a bi-directional manner. However, retaining the Go-based executor remains valuable for certain use cases (e.g., minimal footprint binaries).
+
+## Decision
+
+**We decided to adopt a TypeScript executor library** for local and future integrated workflows.  
+- The existing Go executor will remain for CI/remote execution or any environment that requires a lightweight compiled binary in the short term.
+- Longer term we move to a cross compiled typescript binary using [bun](https://bun.sh/docs/bundler/executables) or [deno](https://docs.deno.com/runtime/reference/cli/compile/). 
+
+## Consequences
+
+- **Pros**  
+  - Direct, in-process communication between the LSP and the executor (no separate binary spawn).  
+  - Shared type definitions and tooling, reducing friction for developers working on the LSP.  
+  - Easier incorporation of streaming, incremental feedback, linting, and token refresh flows.
+
+- **Cons**  
+  - Requires building and publishing an npm package for the executor logic or merging it directly into the LSP repo.  
+  - Potential performance and size differences between a compiled TS binary and a Go binary.  
+  - Maintenance of two executors (TS and Go) in the short term while remote execution flows evolve.  
+
+This decision streamlines local development and future feature work.
