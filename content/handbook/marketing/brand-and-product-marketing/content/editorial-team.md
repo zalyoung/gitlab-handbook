@@ -305,7 +305,7 @@ We have a [checklist for writers in the blog handbook](/handbook/marketing/blog/
 
 #### Ask the DIB team
 
-- If you have a DIB question about the blog post, don't just guess. Reach out to the DIB team or tag the leads of the appropriate [team member resource group (TMRG)](/handbook/company/culture/inclusion/erg-guide/) in the blog issue or merge request.
+- If you have a DIB question about the blog post, don't just guess. Reach out to the DIB team or tag the leads of the appropriate [team member resource group (TMRG)](/handbook/company/culture/inclusion/tmrg-tmag-tmrg-and-tmag-guide/) in the blog issue or merge request.
 
 ### Style and language
 

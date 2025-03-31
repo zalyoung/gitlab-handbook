@@ -107,7 +107,7 @@ I thrive in areas where I am not an expert, and someone has asked for help, prov
 
 My role as Developer Advocate enables me to take different hats: provide product feedback from different user personas' views, evaluate marketing messaging, or generally brainstorm about product feature ideas and architecture. Feel free to loop me into UX workflows, architecture proposals, product roadmaps, or website design for different target personas. Recent examples of my cross-functional engagements are the SaaS Free User Efficiency initiative, the CI Use Case Adoption WG, and Developer Relations initiatives to drive company goals with [GitLab Duo Adoption](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) and [CI/CD, Security Adoption](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/466).
 
-I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and connections with everyone. I'm active in the [Global Voices TMRG](/handbook/company/culture/inclusion/tmrg-global-voices/), and I'm an ally, for example, by supporting underrepresented groups in my [mentoring and coaching activities](/handbook/marketing/developer-relations/developer-advocacy/mentoring-coaching/).
+I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and connections with everyone. I'm active in the [Global Voices TMRG](/handbook/company/culture/inclusion//tmrg-tmag/tmrg-global-voices/), and I'm an ally, for example, by supporting underrepresented groups in my [mentoring and coaching activities](/handbook/marketing/developer-relations/developer-advocacy/mentoring-coaching/).
 
 ## Resources
 

@@ -22,7 +22,7 @@ They can be initiated by anyone who wants to schedule an AMA, but are typically 
 - [GitLab E-Group Member](/handbook/company/team/?department=executive)
 - Director + Leaders
 - [Board Member](/handbook/board-meetings/#board-of-directors)
-- [GitLab TMRG group](/handbook/company/culture/inclusion/erg-guide/)
+- [GitLab TMRG group](/handbook/company/culture/inclusion/tmrg-tmag/tmrg-and-tmag-guide/)
 
 AMAs do not need to have a host, but there should be a person or people available to answer questions related to the AMA topic.
 
