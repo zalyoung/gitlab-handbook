@@ -21,65 +21,6 @@ The following people are members of the team:
 
 [Cloud Native GitLab](https://gitlab.com/gitlab-org/build/CNG) provides cloud native containers to deploy GitLab. These containers may be deployed and managed via Helm using [GitLab Charts](https://gitlab.com/gitlab-org/charts/gitlab) or [GitLab Chart-based Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) or [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/operator) on Kubernetes, OpenShift, and Kubernetes compatible container platforms.
 
-### Omnibus GitLab project's product outputs
-
-```mermaid
-graph TD
-  subgraph Code
-  OG --> PKG
-  PKG --> DOI
-  PKG --> AMI
-  end
-
-  subgraph Deploy
-  DOI --> DOK
-  DOK --> DOC
-  AMI --> AWS
-  PKG -.-> GET
-  GET --> GCP
-  GET --> AZURE
-  GET -.-> |Future|AWS
-  GET -.-> |Future|VMW
-  end
-
-  OG[Omnibus GitLab]
-  PKG[Linux Package]
-  DOI[Container Image]
-  DOK(Docker)
-  DOC(Docker Compose)
-  AMI[Amazon Machine Image]
-  GET[GitLab Environment Toolkit]
-  AWS(AWS)
-  GCP(Google Cloud Platform)
-  VMW(VMWare)
-  AZURE(Azure)
-```
-
-### Cloud Native GitLab project's product outputs
-
-```mermaid
-graph TD
-  subgraph Code
-  CNG --> HC
-  CNG --> GOP
-  HC --> GOP
-  end
-
-  subgraph Deploy
-  GOP --> K8s
-  GOP --> OS
-  CNG --> DC
-  HC --> K8s
-  end
-
-  CNG[Cloud Native GitLab containers]
-  HC[Helm Chart]
-  K8s(Kubernetes)
-  GOP[GitLab Operator]
-  OS(OpenShift)
-  DC(Docker Compose)
-```
-
 ## All Projects
 
 | Name | Location | Description |
