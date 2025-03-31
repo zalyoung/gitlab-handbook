@@ -13,7 +13,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-# Architecture Blueprint: Group and project deletions
 
 ## Summary
 
