@@ -388,6 +388,7 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 <!-- STATUS NOTE END -->
 
 /label ~"team::Switchboard" ~"workflow-infra::Triage"
+/confidential
 
 ```
 
