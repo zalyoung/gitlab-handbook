@@ -59,6 +59,19 @@ limited to that area and they also work in other areas as needed.
 | [Group archiving](https://gitlab.com/groups/gitlab-org/-/epics/15019)| Shubham | Peter |
 | [Deletion flow enhancements](https://gitlab.com/groups/gitlab-org/-/epics/10087) | Remy | Abdul, Shane |
 
+Projects can consist of one or multiple epics.
+Each epic that is part of a project gets a DRI from engineering assigned during the implementation phase.
+We track progress in our team's [epic progress dashboard](https://gitlab.com/groups/gitlab-org/-/epic_boards/2071697?label_name%5B%5D=group%3A%3Aorganizations).
+And epic's status is updated by various team members as such:
+
+1. A team member creates a new epic for a project and defines the goals and benefits of the epic in the description.
+1. If design is needed, the product manager marks the epic as `workflow::ready for design`. Backend only items such as table migrations or partititioning do not need this step.
+1. Once designs have been completed and added to the epic, if needed, the epic is marked as `workflow::refinement` to be broken down into implementation issues.
+1. When all the initial implementation issues have been defined, the engineer adds the label `workflow::ready for development`.
+1. We assign an engineering DRI for the epic when the first issue is being worked on. At this point, the DRI changes the epic status to `workflow::in dev`. Any new issues created once the development phase has started should be added addressed via our [backlog refinement](#backlog-refinement) process. Ensure that an upcoming milestone is assigned to the issues that need refinement.
+1. Once the last open issue in an epic has been closed, consider whether the epic should be flagged for review in the weekly grand review. If so, add a comment to the epic informing the EM that the epic should be closed in the next grand review. If no, close the epic.
+
+
 ## Meetings
 
 We are a globally distributed group and we communicate mostly asynchronously,
@@ -102,7 +115,7 @@ a person has clearly the most knowledge or context to work on an issue.
 However, we encourage engineers to have a sense of ownership of specific
 projects or epics to make significantly more impact in the company.
 
-### Product Development Workflow
+### Product Solutioning Workflow
 
 We follow the GitLab [product development workflow](/handbook/product-development-flow/)
 guidelines. To get a high-level overview of the status of all issues in the
@@ -149,6 +162,12 @@ graph LR
   E --> A
 ```
 
+### Epic Boards
+
+We track our ongoing initiatives on the following epic board:
+
+- [Group::Organizations epic progress](https://gitlab.com/groups/gitlab-org/-/epic_boards/2071697?label_name%5B%5D=group%3A%3Aorganizations)
+
 ### Issue Boards
 
 We track our work on the following issue boards:
@@ -167,7 +186,7 @@ We track our work on the following issue boards:
 
 ### Tracking Dashboards
 
-In addition to issue boards, we also track progress on major initiatives with bespoke dashboards such as:
+In addition to issue and epic boards, we also track progress on major initiatives with bespoke dashboards such as:
 
 - [Schema migration](https://cells-progress-tracker-gitlab-org-tenant-scale-g-f4ad96bf01d25f.gitlab.io/schema_migration)
 - [Sharding key migration](https://cells-progress-tracker-gitlab-org-tenant-scale-g-f4ad96bf01d25f.gitlab.io/sharding_keys)
