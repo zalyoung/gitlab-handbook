@@ -71,7 +71,6 @@ And epic's status is updated by various team members as such:
 1. We assign an engineering DRI for the epic when the first issue is being worked on. At this point, the DRI changes the epic status to `workflow::in dev`. Any new issues created once the development phase has started should be added addressed via our [backlog refinement](#backlog-refinement) process. Ensure that an upcoming milestone is assigned to the issues that need refinement.
 1. Once the last open issue in an epic has been closed, consider whether the epic should be flagged for review in the weekly grand review. If so, add a comment to the epic informing the EM that the epic should be closed in the next grand review. If no, close the epic.
 
-
 ## Meetings
 
 We are a globally distributed group and we communicate mostly asynchronously,
