@@ -13,7 +13,6 @@ participating-stages: []
 toc_hide: true
 ---
 
-
 ## Summary
 
 This architecture blueprint outlines a comprehensive redesign of GitLab's deletion flow for groups and projects.
@@ -60,9 +59,11 @@ We propose implementing a unified deletion flow across all GitLab environments a
 
 3. **Iteration 3: Enhanced Deletion Interface**
    - Introduce dedicated "Bin" section in UI for managing deleted items
-   - Create clear separation between "Move to Bin" and "Permanently Delete" actions
+   - Create clear separation between "Move to Bin" and "Delete Permanently" actions
    - Implement bulk actions for trash management (restore multiple, empty trash)
    - Add filtering and sorting capabilities in the trash view
+
+Find a visual reference of this proposal in [Figma](https://www.figma.com/board/AKGxnlizU5pr8r8zRled7z/Group-and-project-deletion-flow?node-id=0-1&p=f&t=9BDJWEeUGiTugJAW-0).
 
 ## Design and Implementation Details
 
@@ -99,7 +100,7 @@ Projects in user namespaces are deleted permanently without any recovery period 
 
 4. **Permanent Deletion**
    - In iteration 1: Available to users with appropriate permissions
-   - In iteration 3: Available through separate "permanently delete" action in Bin
+   - In iteration 3: Available through separate "Delete Permanently" action in Bin
 
 5. **Bin Interface**
    - Dedicated section showing all deleted items the user has access to
@@ -155,7 +156,7 @@ Projects in user namespaces are deleted permanently without any recovery period 
 
 1. Occurs automatically after configured period (7/30 days)
 2. Admin can trigger early by using admin interface (all iterations)
-3. User can trigger early by using "permanently delete" in Bin (Iteration 1 and 3b)
+3. User can trigger early by using "Delete Permanently" in Bin (Iteration 1 and 3b)
 4. System requires confirmation for permanent deletion
 5. Notification sent after successful permanent deletion
 
