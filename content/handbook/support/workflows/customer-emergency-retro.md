@@ -37,6 +37,7 @@ During the synchronous portion of the retro:
     1. apply the `retro-actions` label 
     1. use `/due in 1 week` to set a due date for the issue
     1. assign the issue to the manager of the SE who responded to the emergency
+1. for emergencies that span across multiple regions and engineers, the very first engineer should own the retro working with the person conducting the retro, with the steps above. They should then add the other SEs involved to capture what happened during their shift.
 
 ### Possible Retrospective Findings
 
