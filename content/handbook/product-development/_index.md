@@ -51,7 +51,6 @@ Within GitLab product development teams, we believe that "we win or lose as a te
 
 Lastly, the specific needs that a product development team has for a specific responsibility may differ based upon the type of project, maturity of project, maturity of technology area and technology stack, maturity of developers, etc. The key is ensuring that each product development team has agreement and interlock on ownership and accountability for each of these responsibilities, regardless of how they are distributed among team members and across roles.
 
-
 ### Key Events & Activities Mapping into Responsibilities
 
 Hierarchy of Work
