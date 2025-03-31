@@ -59,7 +59,6 @@ flowchart LR
     Clients["Direct External Clients"] -->|gRPC| G
 ```
 
-
 ## Consequences
 
 - **Pros**  
