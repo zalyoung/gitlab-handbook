@@ -149,7 +149,7 @@ The Delivery Group owns the tools and capabilities needed for GitLab deployments
 
 Release Managers are members of the Delivery group but during their time as release managers, they're wearing a different hat. The primary customers are GitLab users.
 
-1. Auto-deploys: Release Managers operate the auto-deploy process. Largely this will make use of capabilities provided by the Deployments team, but the Orchestration tools will be making use of the Deployments team capabilities. Environment health checks are an example of a Deployments capability that will be integral to the process and tools the release managers use.
+1. Auto-deploys: Release Managers operate the auto-deploy process. Largely this will make use of capabilities provided by the Deployments team, but the Orchestration tools will be making use of the Releases team capabilities. Environment health checks are an example of a Deployments capability that will be integral to the process and tools the release managers use.
 2. Self-managed releases: Release Managers operate the release processes (patch and security) using the capabilities provided by the Releases team.
 3. Post-deploy migrations: Release Managers operate the PDM process using the capabilities provided by the Deployments team.
 4. Hot patch process: Release Managers, working with EOCs, will manage the hot patch process. Hot patch capabilities are provided by the Releases team with heavy dependence on Deployments capabilities due to the shortened process and therefore reduced pipeline jobs.
