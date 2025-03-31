@@ -11,15 +11,15 @@ Successful product development requires and demands a unified commitment to shar
 
 ### It's a Team Effort
 
-![Overview of Roles and Responsibilities](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-01-team_effort.svg)
+![Overview of Roles and Responsibilities](/images/product-development/It's-a-team-effort-2025-03-31.svg)
 
 ### Responsibilities to Delivery High Quality Product
 
-![Roles Leads](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-02-lead_responsibilities.svg)
+![Roles Leads](/images/product-development/Responsibilities-to-deliver-high-quality-product-2025-03-31.svg)
 
 ### Quality is Everyone's Responsibility
 
-![Responsibilities of Leads](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-03-everyones_responsibility.svg)
+![Responsibilities of Leads](/images/product-development/Quality-is-everyone's-responsibility-2025-03-31.svg)
 
 ### Who, What, Why, How, and When
 
