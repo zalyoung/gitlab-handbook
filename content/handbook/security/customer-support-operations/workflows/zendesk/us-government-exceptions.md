@@ -131,7 +131,7 @@ This is informational only. This should never be done manually unless an unrecov
 
 Output should look like this:
 
-```
+```bash
 jason@laptop:~$ ./swap_support_instance_in_sfdc ABC123DEF456GHI789
 Run info
 - Id:   ABC123DEF456GHI789
