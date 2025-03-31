@@ -11,9 +11,9 @@ The framework delivers practical benefits through clear processes, defined roles
 
 {{% alert title="Note" color="primary" %}}
 
-If you are seeking information to help GitLab ensure incidents are reported, investigated and handled, you might be looking for the [Incident Response Guidance](https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/incident-response-guidance/).
+If you are seeking information to help GitLab ensure incidents are reported, investigated and handled, you might be looking for the [Incident Response Guidance](/handbook/security/product-security/vulnerability-management/incident-response-guidance/).
 
-If you are looking for details about being on-call in Support, you might find what you need here: [GitLab Support On-Call Guide](handbook/support/on-call.md)
+If you are looking for details about being on-call in Support, you might find what you need here: [GitLab Support On-Call Guide](/handbook/support/on-call.md)
 
 {{% /alert %}}
 
@@ -54,29 +54,28 @@ participant Triage
 participant Response
 participant Communication
 participant Resolution
-    
 Detection->>Triage: Incident Reported
 Triage->>Response: Severity Assessment
 Response->>Communication: Initial Response
 Communication->>Resolution: Status Updates
 Resolution->>Detection: Incident Closure
 ```
-   
+
 ## Working Principles
 
 Working principles are behaviors that empower team members to carry out incident response work in alignment with the needs of our customers and our wider business Incident Response. They help illustrate what applying GitLab's core values and operating principles to your work as a Support Engineering Incident Responder will look like. These working principles are complementary to, and should be subordinate to, GitLab's core values and operating principles. In case of a conflict between the two, please create an MR to propose a change to or removal of the working principles.
 
-### Customer-First Response 
+### Customer-First Response
 
-Incident decisions prioritise customer impact above technical considerations. Customer experience metrics serve as primary success indicators. Response strategies target minimal workflow disruption and fastest path to resolution. Resource allocation focuses on customer-impacting components first.
+Incident decisions prioritize customer impact above technical considerations. Customer experience metrics serve as primary success indicators. Response strategies target minimal workflow disruption and fastest path to resolution. Resource allocation focuses on customer-impacting components first.
 
-### Clear Accountability 
+### Clear Accountability
 
 Incidents operate with defined RACI matrices and explicit role assignments. Decision authority follows documented hierarchies to prevent ambiguity. Escalation thresholds trigger specific notification protocols. Critical path tasks maintain designated owners throughout incident lifecycle.
 
-### Continuous Improvement 
+### Continuous Improvement
 
-Incidents generate standardised postmortem analysis with tracked action items. Process reviews occur at scheduled intervals with defined completion criteria. Performance metrics drive framework enhancements through data validation. Process changes undergo controlled testing before full implementation.
+Incidents generate standardized postmortem analysis with tracked action items. Process reviews occur at scheduled intervals with defined completion criteria. Performance metrics drive framework enhancements through data validation. Process changes undergo controlled testing before full implementation.
 
 ## Incident Response Guidance
 
@@ -90,7 +89,7 @@ If you notice areas of duplication or opportunities for integration, please crea
 
 ## Key Roles and Their Responsibilities
 
-The Role Structure and Responsibilities component defines who does what during customer-impacting incidents, establishing clear lines of authority, communication paths, and accountabilities. 
+The Role Structure and Responsibilities component defines who does what during customer-impacting incidents, establishing clear lines of authority, communication paths, and accountabilities.
 
 Clearly defining these roles, responsibilities, and interfaces, eliminates confusion during critical incidents and high-pressure situations, ensures comprehensive coverage of all necessary functions, and provides a foundation for continuous improvement in our incident response.
 
@@ -130,33 +129,38 @@ Clearly defining these roles, responsibilities, and interfaces, eliminates confu
 
 ## Cross-Functional Coordination
 
-These roles are described in further detail in various handbook pages. The definitions below provide summary context for Support Engineering team members. 
+These roles are described in further detail in various handbook pages. The definitions below provide summary context for Support Engineering team members.
 
 ### Incident Manager On-Call (IMOC)
+
 - Coordinates overall incident response and technical aspects
 - Manages status.io updates and public communications
 - Facilitates cross-team collaboration during resolution
 - Determines incident severity and closure timing
 
 ### Infrastructure Team
+
 - Provides technical resolution for platform issues
 - Gives technical status updates to support teams
 - Estimates resolution timeframes for customer communications
 - Collaborates on post-incident analysis
 
 ### Customer Success Team
+
 - Manages communications with strategic customers
 - Provides context on customer-specific needs
 - Joins customer calls when appropriate
 - Helps measure post-incident customer satisfaction
 
 ### Product Team
+
 - Assists with product-specific incidents and bugs
 - Provides product expertise for customer communications
 - Prioritizes fixes based on customer impact data
 - Collaborates on bug-related messaging
 
 ### Security Incident Response Team (SIRT)
+
 - Provides security expertise during security-related incidents
 - Determines appropriate information disclosure restrictions
 - Guides support messaging for security incidents
@@ -167,24 +171,28 @@ These roles are described in further detail in various handbook pages. The defin
 The framework defines clear interaction points between roles:
 
 ### CMOC <-> IMOC
+
 - IMOC provides technical status for customer communications
 - CMOC provides customer impact details to inform technical priorities
 - Joint approval of public-facing status updates
 - Regular sync points at defined intervals based on severity
 
 ### CMOC <-> SMOC
+
 - SMOC provides guidance on complex support scenarios
 - CMOC escalates resource needs and complex customer situations
 - Joint decisions on emergency qualification
 - Collaboration on support team resource allocation
 
 ### SMOC <-> IMOC
+
 - IMOC provides technical context for support escalations
 - SMOC provides support impact details to inform response
 - Collaboration on incident severity determinations
 - Joint review of customer impact assessment
 
 ### Regional Handoffs
+
 - Defined documentation requirements for cross-region transfers
 - Structured handoff calls at region boundaries
 - Common tools and templates for consistency
@@ -192,12 +200,12 @@ The framework defines clear interaction points between roles:
 
 ## Support-Role Engagement and Exit
 
-### Engagement Triggers:
+### Engagement Triggers
 
 - **CMOC:** Multiple customers affected OR bulk communications needed OR support resource coordination required
 - **SMOC:** Complex customer impact OR resource conflicts OR SLA risk OR SIRT involvement
 
-### Exit Criteria:
+### Exit Criteria
 
 - Customer communications stable
 - Support queue normalized
@@ -212,13 +220,15 @@ The framework defines clear interaction points between roles:
 
 **PROPOSED:** Each role has specific KPIs to evaluate performance | **ISSUE:** TBC
 
-### CMOC Metrics:
+### CMOC Metrics
+
 - Time to first customer communication
 - Customer satisfaction during incidents
 - Communication consistency across incidents
 - Support resource utilization efficiency
 
-### SMOC Metrics:
+### SMOC Metrics
+
 - Time to resolve escalations
 - Resource allocation effectiveness
 - SLA compliance during incidents
@@ -242,28 +252,28 @@ The framework defines clear interaction points between roles:
 **PROPOSED** | **ISSUE:** TBC
 
 - **Response Time**
-   - Description: Time from detection to initial response
-   - Target: < ____ minutes for SEV1/SEV2
+  - Description: Time from detection to initial response
+  - Target: < ____ minutes for SEV1/SEV2
 
 - **Resolution Time**
-   - Description: Time from detection to resolution
-   - Target: Varies by severity
+  - Description: Time from detection to resolution
+  - Target: Varies by severity
 
 - **Customer Satisfaction**
-   - Description: CSAT scores for incident handling
-   - Target: > 90%
+  - Description: CSAT scores for incident handling
+  - Target: > 90%
 
 </details>
 
 ## Handover Summary Templates
 
-ummary templates as code blocks for various communication scenarios where CMOC and SMOC roles need to share information with other stakeholders.
+Summary templates as code blocks for various communication scenarios where CMOC and SMOC roles need to share information with other stakeholders.
 
 ### CMOC Communication Templates
 
 #### Initial Status Update Template
 
-```
+```markdown
 ## Incident #[number] - [title]
 **Status:** In Progress
 **Severity:** [SEV1/SEV2/SEV3]
@@ -286,7 +296,7 @@ Next status update expected by [time] UTC
 
 #### Regular Status Update Template
 
-```
+```markdown
 ## Incident #[number] - [title] - UPDATE #[X]
 **Status:** In Progress
 **Severity:** [SEV1/SEV2/SEV3]
@@ -313,7 +323,7 @@ Next status update expected by [time] UTC
 
 #### Resolution Update Template
 
-```
+```markdown
 ## Incident #[number] - [title] - RESOLVED
 **Status:** Resolved
 **Severity:** [SEV1/SEV2/SEV3]
@@ -341,7 +351,7 @@ For any additional questions, please contact support referencing Incident #[numb
 
 #### Regional Handoff Template
 
-```
+```markdown
 ## Incident #[number] - [title] - HANDOFF
 **Status:** In Progress
 **Current Region:** [EMEA/AMER/APAC]
@@ -377,7 +387,7 @@ Please acknowledge receipt of this handoff in the incident channel.
 
 #### Support Resource Allocation Template
 
-```
+```markdown
 ## Incident #[number] - [title] - SUPPORT RESOURCES
 **Status:** In Progress
 **Time:** [YYYY-MM-DD HH:MM UTC]
@@ -413,7 +423,7 @@ This resource allocation is expected to remain in place for approximately [time 
 
 #### Customer Impact Report Template
 
-```
+```markdown
 ## Incident #[number] - [title] - CUSTOMER IMPACT REPORT
 **Status:** [In Progress/Resolved]
 **Time:** [YYYY-MM-DD HH:MM UTC]
@@ -447,7 +457,7 @@ This resource allocation is expected to remain in place for approximately [time 
 
 #### CMOC Activation Template
 
-```
+```markdown
 ## Incident #[number] - [title] - CMOC ACTIVATION
 **Status:** In Progress
 **Activation Time:** [YYYY-MM-DD HH:MM UTC]
@@ -484,7 +494,7 @@ This resource allocation is expected to remain in place for approximately [time 
 
 #### Post-Incident Support Summary Template
 
-```
+```markdown
 ## Incident #[number] - [title] - SUPPORT SUMMARY
 **Status:** Resolved
 **Incident Duration:** [start time] to [end time] UTC
@@ -520,7 +530,7 @@ This resource allocation is expected to remain in place for approximately [time 
 
 #### Technical-to-Support Handoff Template
 
-```
+```markdown
 ## Incident #[number] - [title] - TECHNICAL TO SUPPORT HANDOFF
 **Status:** [In Progress/On Hold/Resolved]
 **Time:** [YYYY-MM-DD HH:MM UTC]
@@ -553,7 +563,7 @@ This resource allocation is expected to remain in place for approximately [time 
 
 #### Executive Update Template
 
-```
+```markdown
 ## Incident #[number] - [title] - EXECUTIVE SUMMARY
 **Status:** [In Progress/On Hold/Resolved]
 **Time:** [YYYY-MM-DD HH:MM UTC]
