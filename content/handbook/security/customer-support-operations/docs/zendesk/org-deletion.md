@@ -10,7 +10,7 @@ This is an informational page for Zendesk organization deletion. This should nev
 
 {{% /alert %}}
 
-This process relies heavily on the [ZD-SFDC sync](./zendesk_salesforce_sync) and custom deletion scripts to work. Please review the following projects so you can better understand the automation/scripting aspect of all this:
+This process relies heavily on the [ZD-SFDC sync](./zd-sfdc-sync) and custom deletion scripts to work. Please review the following projects so you can better understand the automation/scripting aspect of all this:
 
 - [ZD-SFDC sync for Zendesk Global](https://gitlab.com/gitlab-support-readiness/zendesk-global/zendesk-salesforce-sync)
 - [ZD-SFDC sync for Zendesk US Government](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/zendesk-salesforce-sync)
