@@ -2,55 +2,26 @@
 title: Product Development
 ---
 
-This section of the handbook is for shared Product and Engineering content.
+This section of the handbook is for content that is jointly shared by Product and Engineering.
 For any content wholly owned by only one division, please use the relevant sections: [Product](/handbook/product/) or [Engineering](/handbook/engineering/).
 
 ## Product Development Roles and Responsibilities
 
 Successful product development requires and demands a unified commitment to shared outcomes across team members. The entire team must collectively embrace responsibility for the delivery of positive user impact, aligned to our GitLab value of delivering [Results for Customers](/handbook/values/#results).
 
-## Product Development 4W1H Framework
-
-We will be using 4W1H a modified version without "where" of the 5W1H is a general-purpose questioning method that helps identify and solve problems by explicitly navigating the "what", "who", "where", "when", "why", and "how" questions. To help clarify the lead roles for a specific part of this process we will apply 4W1H follows:
-
-![The who, what, why, how, when of Product Developement Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
-
-| **4W1H Element** |   |
-| ------- | ----------------- |
-| **WHO?** | Who are our target customers, users, and buyers? <br> **UX Lead**  |
-| **WHAT?** | What is the product vision, strategy, roadmap, and priority of features based on business value and user needs? <br> **Product Lead**  <br> <br> What are our users' pains and needs? What design solutions and implementation specifications <sup>*</sup> can optimize both the user experience and business value   <br> **UX Lead** |
-| **WHY?** | Why do we need to solve a given business problem? Why do users need a given capability? <br> **Product Lead** <br> <br> Why do users experience dissatisfaction or unmet expectations?<br> **UX Lead** |
-| **HOW?** | How will we architect and build the technical solution that delivers the required capabilities with the desired quality? <br> **Technical Lead** |
-| **WHEN?** |  When can the technical solution be built, tested, and made available to users per required capabilities, UX, and quality? <br> **Delivery Lead** |
-
-\* *Design solutions*  can come in myriad forms, including wireframes, mock-ups, prototypes, journey maps, flow diagrams, Pajamas documentation, etc.  
-*Implementation specifications*  can be clarified in issues with supporting design solutions, as redlines, as code snippets in the Pajamas design system, accessibility guidelines, etc.
+### It's a Team Effort
 
 ![Overview of Roles and Responsibilities](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-01-team_effort.svg)
 
-### Leads and their Responsibilities
+### Who, What, Why, When, and How
 
-With a foundation of shared responsibility for delivering results, each team member is accountable to ensure their expertise is leveraged to cover critical responsibilities within the team. These critical responsibilities are covered by ***leads***, who serve as primary orchestrators and focal points for a responsibility area. This does not mean a lead is the sole executor of their responsibility area, rather they serve as a "go-to" person with the following expectations:
+![The who, what, why, how, when of Product Development Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
 
-- Maintain the big picture view of their respective area(s)
-- Ensure nothing falls through the cracks
-- Drive consistency in approach and standards
-- Facilitate collaboration and cross-pollination of ideas
-- Take ultimate accountability for their domain while promoting shared responsibility
-- Act as escalation points when issues arise
-- Coordinate across different stakeholders and teams
-- Champion best practices and continuous improvement in their areas
+### Quality is Everyone's Responsibility
 
-Within each product development team, the following responsibilities require coverage:
+![Responsibilities of Leads](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-03-everyones_responsibility.svg)
 
-1. **Product Lead**: Represents the customer's needs, understands the business value associated with those needs, and translates the needs and value into the "Why" and "What" needs to be built. The result is a prioritized set of requirements and definition of metrics and what success looks like for the team. This individual also provides critical input about the quality bar and drives the definition of acceptance criteria that ensures positive user experience and owns the landing of the defined feature.
-1. **Technical Lead**: Guides architectural decisions, assists in breaking down requirements into technical work needed and decides on the "How". Then provides guidance and oversight on implementation. Technical lead also provides input on the definition of done and input on the quality targets, testing & validation strategies.
-1. **Delivery Lead**: Facilitates team processes, removes obstacles, defines the implementation schedule, and owns the performance against implementation schedules. They also ensure that quality of outcome is explicitly included in the discussion and regularly revisited and evaluated.
-1. **Resource Lead**: Manages individual and team performance. Also responsible for team sizing and composition (seniority) to ensure the team has the skills and support it needs to be successful.
-1. **UX Lead**: Ensures exceptional user experience of the product from planning through implementation where there is a direct product interface with the end user.
-1. **Documentation Lead**:  Ensures accurate and effective documentation. They're responsible for establishing documentation standards, planning documentation cycles, and ensuring all materials align with product releases and updates
-
-These responsibilities across Product, Technical, Delivery, Resource, UX, and Documentation all require coverage to ensure that the product development team's output is delivered on target from a quality, usability, and capability standpoint.
+### Responsibilities to Delivery High Quality Product
 
 ![Roles Leads](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-02-lead_responsibilities.svg)
 
@@ -80,7 +51,6 @@ Within GitLab product development teams, we believe that "we win or lose as a te
 
 Lastly, the specific needs that a product development team has for a specific responsibility may differ based upon the type of project, maturity of project, maturity of technology area and technology stack, maturity of developers, etc. The key is ensuring that each product development team has agreement and interlock on ownership and accountability for each of these responsibilities, regardless of how they are distributed among team members and across roles.
 
-![Responsibilities of Leads](/images/product-development/FY26-Q1-Product_Quarterly_All_Hands-03-everyones_responsibility.svg)
 
 ### Key Events & Activities Mapping into Responsibilities
 
