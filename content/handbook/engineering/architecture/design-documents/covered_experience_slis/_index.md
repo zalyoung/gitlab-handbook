@@ -33,7 +33,7 @@ toc_hide: true
 - **Covered Experience Event**: One instance of a Covered Experience. Distinguished by the properties `covered_experience_id` and `correlation_id`. Example:
 covered_experience_id="create_merge_request" & correlation_id="01G65Z755AFWAKHE12NY0CQ9FH".
 - **Covered Experience Checkpoint**: This is the moment in the experience that we emit one event: the start of a request, the start of a job, the end of a request, the end of a job, etc.
-We'll have multiple of these within a Covered Experience Event.
+We'll have at least one of these within a Covered Experience Event, but there can be multiple.
 
 ## Motivation
 
@@ -178,8 +178,7 @@ Given that Application SLIs are implemented in the [Rails monolith](https://gitl
 ### SDK Requirements
 
 - Implementation in [LabKit](https://gitlab.com/gitlab-org/ruby/gems/labkit-ruby)
-- Covered Experience ID generation (as [ULID](https://github.com/ulid/spec)) and propagation
-- DSL for sending Covered Experience events
+- DSL for sending Covered Experience events and checkpoints
 
 The SDK will emit 1 event in every checkpoint (each interaction along the entire flow):
 
