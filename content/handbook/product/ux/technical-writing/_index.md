@@ -89,8 +89,8 @@ When evaluating work to meet our stakeholders' needs, we prioritize in the follo
 
 1. Feature work (including documenting new features, and providing guidance on UI text)
 1. OKR-related work
-1. Backlog issues (including docs technical debt and implementing content topic design)
-1. All other tasks (including creating suggestion- or warning-level [Vale rules](https://docs.gitlab.com/development/documentation/testing/vale/#result-types))
+1. Docs improvements and backlog issues (including stage lead work, docs technical debt and implementing content topic design)
+1. All other tasks (including DocOps tasks)
 
 ### Processes
 
@@ -222,17 +222,19 @@ issue board to track ongoing and planned documentation enhancements and addition
 
 ### DocOps group
 
-[DocOps](https://www.writethedocs.org/guide/doc-ops/) is like DevOps, but  for docs. It's an
+[DocOps](https://www.writethedocs.org/guide/doc-ops/) is like DevOps, but for documentation. It's an
 approach to help streamline the creation, management, and deployment of documentation.
 
-Some Technical Writers are members of the [DocOps group](TODO-link-to-gl-group), which is responsible for:
+Some Technical Writers are members of the [DocOps group](https://gitlab.com/gitlab-org/technical-writing/tw-docops), which is responsible for:
 
 - Maintaining content quality through testing and linting in CI and on your local machine.
-- Automating common workflows like the [monthly maintenance tasks](#regularly-scheduled-tasks).
+- Assisting Engineers with operations tasks when asked, or when no Engineers are online. For example,
+helping with Pages configuration, deployments, scheduled pipelines, and review apps.
 
-The DocOps group is not responsible for the documentation website's code or infrastructure.
+The DocOps group is not responsible for the documentation website's code or infrastructure. 
+DocOps tasks are [prioritized](#prioritization) below feature work and OKR-related work.
 
-Anyone in the Technical Writing team can join the DocOps group. To express interest, speak to your manager. Group membership is managed through [access requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
+Participation in the DocOps group is based on team requirements. To express interest in joining, speak to your manager.
 
 ### Assignments to other projects and subjects
 
@@ -245,7 +247,7 @@ For collaboration in other projects and subjects:
 | [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
 | [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
 | [Left nav](https://docs.gitlab.com/development/documentation/site_architecture/global_nav/) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
-| [Testing/Vale/markdownlint](#testing)                                                | {{< member-by-name "Fiona Neill" >}} |
+| [Testing](#testing) (DocOps/Vale/markdownlint)                                       | {{< member-by-name "Fiona Neill" >}} |
 | [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs
