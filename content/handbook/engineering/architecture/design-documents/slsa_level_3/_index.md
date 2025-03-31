@@ -211,7 +211,6 @@ component:
   artifacts:
     paths:
       - ${BUNDLE_FILE}
-      - ${RUNNER_METADATA_FILE}
     expire_in: 7d
 ```
 
@@ -224,7 +223,7 @@ The provenance verifier component verifies attestations and generates VSAs. It w
 1. Input Variables:
    1. BUNDLE_FILE: Path to the bundle file that contains the provenance.
    1. VERIFICATION_SUMMARY_FILE: Path to generate the verification summary attestation.
-   1. RESOURCE_URI: Full URI to the published artifact.
+   1. RESOURCE_URL: Full URL to the published artifact.
    1. POLICY_URL: URL to the policy used for verification.
    1. DOWNLOADED_ARTIFACT: Path where downloaded artifact will be stored.
 1. Output:
@@ -362,7 +361,7 @@ component:
     
     - |
       if [ "$RESULT" == "FAILED" ]; then
-        echo "Verification failed! Exiting with error."
+        echo "Policy verification FAILED. Exiting with error."
         exit 1
       fi
 
@@ -376,7 +375,7 @@ component:
   allow_failure: true
 ```
 
-### Example: Adding the Component to a Pipeline
+### Example: Adding the Components to a Pipeline
 
 Here’s how a project would integrate the reusable component into their .gitlab-ci.yml pipeline.
 
@@ -448,24 +447,24 @@ verify_provenance:
 1. Provenance Generation Stage (generate_provenance):
    1. Uses the provenance-signer component to:
       1. Generate a detailed provenance predicate with build metadata.
-      1. Calculate the artifact's digest for inclusion in the provenance.
+      1. Calculate the artifact's digest for inclusion in the provenance statement.
       1. Sign the provenance using Sigstore's cosign with GitLab's OIDC token.
       1. Perform self-verification to ensure the provenance is valid.
-   1. Uploads the signed provenance as a job artifact.
+      1. Uploads the signed provenance as a job artifact.
 1. Publish Artifact Stage (publish_artifact):
    1. Publishes the artifact to a registry or repository.
    1. Captures the published artifact's URI for use in verification.
    1. This stage separates build/sign from verification, ensuring a true separation of concerns.
 1. Provenance Verification Stage (verify_provenance):
    1. Uses the provenance-verifier component to:
-      1. Download the published artifact from its URI.
+      1. Download the published artifact from its URL.
       1. Download the required verification policy.
       1. Verify the signed provenance against the downloaded artifact.
       1. Check SLSA L3 requirements in the attestation.
       1. Generate a Verification Summary Attestation (VSA).
       1. Sign the VSA using Sigstore's cosign with GitLab's OIDC token.
-   1. Upload the VSA as a job artifact.
-   1. Fails the job if verification fails, but allows the pipeline to continue.
+      1. Upload the VSA as a job artifact.
+      1. Fails the job if verification fails, but allows the pipeline to continue.
 
 ### Security Considerations
 
