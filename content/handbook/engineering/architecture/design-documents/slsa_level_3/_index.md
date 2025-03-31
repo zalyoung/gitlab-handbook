@@ -208,6 +208,14 @@ component:
         --bundle "${BUNDLE_FILE}" \
         "${TARGET_ARTIFACT}"
 
+    - echo "Performing self-verification to ensure provenance is valid..."
+    - cosign verify-blob-attestation --type slsaprovenance1 \
+        --bundle "${BUNDLE_FILE}" \
+        --certificate-identity-regexp ".*" \
+        --certificate-oidc-issuer "${CI_SERVER_URL}" \
+        "${TARGET_ARTIFACT}"
+    - echo "Self-verification successful! Provenance is valid."
+
   artifacts:
     paths:
       - ${BUNDLE_FILE}
@@ -225,7 +233,6 @@ The provenance verifier component verifies attestations and generates VSAs. It w
    1. VERIFICATION_SUMMARY_FILE: Path to generate the verification summary attestation.
    1. RESOURCE_URL: Full URL to the published artifact.
    1. POLICY_URL: URL to the policy used for verification.
-   1. DOWNLOADED_ARTIFACT: Path where downloaded artifact will be stored.
 1. Output:
    1. Verification summary attestation uploaded as a pipeline artifact.
 
@@ -240,7 +247,6 @@ component:
       VERIFICATION_SUMMARY_FILE: "verification_summary.json" # Output verification summary file
       RESOURCE_URI: "" # Full URI to the published artifact
       POLICY_URL: "https://gitlab.com/slsa-vsa-policy/v1" # Default policy URL
-      DOWNLOADED_ARTIFACT: "downloaded_artifact" # Path where downloaded artifact will be stored
 
   id_tokens:
     GITLAB_OIDC_TOKEN:
@@ -251,11 +257,13 @@ component:
     FULCIO_SERVER: "https://fulcio.sigstore.dev"
     VERIFIER_ID: "https://gitlab.com/verifier"
     VERIFIER_NAME: "GitLab Verification Pipeline"
+    DOWNLOADED_ARTIFACT: ".tmp/downloaded_artifact"
 
   image: alpine:latest
 
   before_script:
     - apk add --update cosign jq curl
+    - mkdir -p .tmp
 
   script:
     - echo "Downloading artifact from ${RESOURCE_URI}..."
@@ -266,7 +274,7 @@ component:
     - ARTIFACT_DIGEST=$(sha256sum ${DOWNLOADED_ARTIFACT} | cut -d ' ' -f 1)
     
     - echo "Downloading policy from ${POLICY_URL}..."
-    - POLICY_FILE="policy.json"
+    - POLICY_FILE=".tmp/policy.json"
     - |
       if ! curl -L -f -o ${POLICY_FILE} ${POLICY_URL}; then
         echo "ERROR: Failed to download policy file from ${POLICY_URL}"
@@ -278,31 +286,16 @@ component:
     - echo "Policy digest: ${POLICY_DIGEST}"
     
     - echo "Verifying signed provenance against downloaded artifact..."
-    - |
-      set +e
-      cosign verify-blob-attestation --type slsaprovenance1 \
+    - cosign verify-blob-attestation --type slsaprovenance1 \
         --bundle ${BUNDLE_FILE} \
         --certificate-identity-regexp ".*" \
         --certificate-oidc-issuer ${CI_SERVER_URL} \
         ${DOWNLOADED_ARTIFACT}
-      VERIFICATION_EXIT_CODE=$?
-      set -e
-      
-      if [ ${VERIFICATION_EXIT_CODE} -eq 0 ]; then
-        echo "Verification succeeded!"
-        RESULT="PASSED"
-        
-        # Verify SLSA L3 requirements in the attestation
-        echo "Checking SLSA L3 requirements..."
-        # Additional checks for SLSA L3 compliance can be added here
-      else
-        echo "Verification failed!"
-        RESULT="FAILED"
-      fi
+    - RESULT="PASSED" # TODO: verify the provenance against the policies
     
     - echo "Generating verification summary for artifact..."
     - mkdir -p $(dirname ${VERIFICATION_SUMMARY_FILE})
-    - jq -n --arg policy_url "${POLICY_URL}" --arg result "${RESULT}" \
+    - jq -n --arg policyUrl "${POLICY_URL}" --arg result "${RESULT}" \
           --arg verifierId "${VERIFIER_ID}" \
           --arg timeVerified "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" --arg resourceUri "${RESOURCE_URI}" \
           --argjson verifiedLevels '["SLSA_L3"]' --arg sha256 "${ARTIFACT_DIGEST}" \
@@ -322,7 +315,7 @@ component:
           "timeVerified": $timeVerified,
           "resourceUri": $resourceUri,
           "policy": {
-            "uri": $policy_url,
+            "uri": $policyUrl,
             "digest": {
               "sha256": $policyDigest
             }
@@ -436,7 +429,6 @@ verify_provenance:
     VERIFICATION_SUMMARY_FILE: "dist/verification_summary.json"
     RESOURCE_URI: "${ARTIFACT_URI}"
     POLICY_URL: "https://gitlab.com/my-policy"
-    DOWNLOADED_ARTIFACT: "dist/downloaded-artifact.txt"
 ```
 
 ### Pipeline Workflow Explanation
