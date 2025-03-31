@@ -216,104 +216,106 @@ A list of common scenarios and the appropriate option are detailed in the follow
 > - **NOTE**: Please ensure that you selected the correct internal request form request prior to submission.
 > - **NOTE**: To speed up resolution, please fill in all form fields including SFDC link and additional context. Providing complete and accurate information, will enable L&R support to perform the steps needed to complete the request more efficiently.
 
-##### SaaS Subscription Related
+## SaaS Subscription Related
 
-###### *Extend an (almost) expired subscription*
+### Extend an (almost) expired subscription
 
 Use this when the customer has a subscription with us and their grace period is (almost) expired. Please note we cannot extend the actual subscription. This instead makes a trial for the namespace and uses that for the extension. Check the [What is included and excluded in trials](https://about.gitlab.com/free-trial/#what-is-included-in-my-free-trial-what-is-excluded) page for more context.
 
-###### *Investigate incorrect subscription info*
+### Investigate incorrect subscription info
 
 Use this when the customer has a subscription with us and something is incorrect in their subscription information. This includes problems with: true-ups, subscription mismatches, can't apply subscription to group/namespace, and current seat usage counts.
 
-###### *Reset max seats for QSR*
+### Reset max seats for QSR
 
 Use this after [approval to waive the overage](/handbook/sales/field-operations/order-processing/#waived-true-ups-policy-and-approval-requirements) has been granted and documented via SFDC chatter. Once that is done, file the form to request that Support reset the max seats.
 
-###### *SaaS NFR license request*
+### SaaS NFR license request
 
 Ensure the group on GitLab.com has started a trial, then use this option to request a SaaS NFR subscription generation.
 
-###### *Billing Entity Change*
+### Billing Entity Change
 
 Use this as part of the process of a billing entity change, to check whether the correct subscription is associated with the customer's group.
 
-###### *Link Subscription to Namespace*
+### Link Subscription to Namespace
 
 Use this when a customer has contacted you to request that their subscription is linked to a provided namespace. Prior to submitting the request, please ensure that you have first received written confirmation from the account owner to link their subscription to the provided namespace. We require sales to upload evidence of this into SFDC and then provide a link to it. An email link or screenshot should be added to the `Google Docs, Notes, & Attachments object` section of the customer's account record in SalesForce.
 
-##### SaaS Trial Related
+## SaaS Trial Related
 
-###### *Extend a SaaS trial*
+### Extend a SaaS trial
 
 Use this when the customer's namespace is on a trial that is active/expired. Please note we cannot create the trial for the customer. If they do not have one currently, you will be directed to have them create one.
 
-###### *Change an existing SaaS trial plan*
+### Change an existing SaaS trial plan
 
 Use this when you want to make changes to the plan of a currently active trial, including adding compute minutes or activation of trial runners and overriding the requirement for credit card validation on sales assisted trial namespace. The number of users for GitLab.com trials are not restricted. Please note we cannot create the trial for the customer. If they do not have one currently, you will be directed to have them create one.
 
-##### Self-Managed License Related (for paid customers only)
+## Self-Managed License Related (for paid customers only)
 
-###### *Extend an (almost) expired subscription*
+### Extend an (almost) expired subscription
 
 Use this when the customer has a license and their grace period is (almost) expired. Please note we cannot extend the actual license. This instead makes a trial license for the customer and uses that for the extension. The following video [How to extend an extension for an almost-expired subscription (self-managed)](https://www.youtube.com/watch?v=g8k8PAUY2pM) demonstrates how to correctly submit a `Extend an (almost) expired subscription` request.
 
-###### *Resend existing license to the email on the license*
+### Resend existing license to the email on the license
 
 Use this when the customer has not received a paid license from us when they should have. Please note we can resend a license to the contact in the license only.
 Please [check for Proof of Delivery](#obtaining-proof-of-delivery-for-a-subscription) prior to filing this request
 
-###### *Forward existing license to an email not on the license*
+### Forward existing license to an email not on the license
 
 Use this to request sending a license to a different user. Please note we cannot send licenses to anyone other than the account owner. To send it to someone else, please ask the customer to file a ticket so we can go through the contact change process. An exemption can be made for a temporary license.
 
-###### *Multi-year license needs to be generated*
+### Multi-year license needs to be generated
 
 Use this to request the next year's license for a multi-year subscription to be created. **Make sure to check with the customer if they exceeded their seat usage before opening this request.** Support cannot waive true-ups or change anything in SFDC. We cannot create a license until you have checked and amended their subscription as needed.
 
-###### *Self-managed NFR license request*
+### Self-managed NFR license request
 
 Use this for Self-Managed NFR license generation
 
-###### *Cloud Licensing exemption*
+### Cloud Licensing exemption
 
 Use this for SCL exemptions. The following video [How to submit a Cloud License Exemption Internal Request form](https://www.youtube.com/watch?v=pvj59EhATIw) demonstrates how to correctly submit a `Strict Cloud licensing exemption request`.
 
-##### Self-Managed Trial Related
+## Self-Managed Trial Related
 
-###### *Problems starting a new Self-managed trial*
+### Problems starting a new Self-managed trial
 
 Use this when the customer has no recent trial or subscription, and is not able to request the trial themselves online.
 
-###### *Modify an existing Self-managed trial*
+### Modify an existing Self-managed trial
 
 Use this when you want to make changes to the number of users and/or the plan of a currently active trial
 
-###### *Extend an existing Self-managed trial*
+### Extend an existing Self-managed trial
 
 Use this when the customer is on a trial that is (almost) expired.
 
-##### Other
+## Other
 
-###### *Order Management*
+### Order Management
 
 Use this for Order Management requests. Please note if the license information you are requesting does not match the Salesforce opportunity, we will likely not be able to generate the license as Support cannot waive seats or Trueups. Ensure you include a summary of the action requested in the context field.
 
-###### *Hacker One Reporter License*
+### Hacker One Reporter License
 
 Use this to request a license be generated for a Hacker One reporter.
 
-###### *Report a Provision Failure*
+### Report a Provision Failure
 
 This form can be used by the Fulfillment Provisioning team to request help from L&R support when handling a Provisioning failure. Please ensure you provide a detailed description of the type of assistance that you require from the L&R support team.
 
-###### *Wider Community License*
+### Wider Community License
 
 Use this to request a community license be generated. Please note for any license lasting longer more than 90 days, manager approval is required. Without an approving manager's email being provided, the ticket will be closed out
 
-###### *Other License & Renewal issues*
+### Other License & Renewal issues
 
 Use this for any license & renewal issues where no other options fit. Please note if this form is used when an option **does** exist, the request will be closed and you will need to submit a new request using the correct form.
+
+---
 
 #### Extending the grace period on a subscription
 
