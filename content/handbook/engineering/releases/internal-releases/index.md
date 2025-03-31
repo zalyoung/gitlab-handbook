@@ -4,17 +4,17 @@ title: "Internal Releases"
 
 ## Internal release overview
 
-Internal Releases are private releases of GitLab for our single-tenant SaaS instances. They allow us to remediate 
+Internal Releases are private releases of GitLab for our single-tenant SaaS instances. They allow us to remediate
 high-severity issues on Dedicated instances:
 
-* As quickly and efficiently as on GitLab.com 
-  ([SLA driven](https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/sla/))
+* As quickly and efficiently as on GitLab.com
+  ([SLA driven](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels))
 * Without version skips in the public packages
 * Without disclosing vulnerabilities before a public patch release
 
 Internal releases are performed according to a specific criteria:
 
-* Addressed [critical (S1)](https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels) 
+* Addressed [critical (S1)](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels)
   fixes (bug or security vulnerability) that impact GitLab Dedicated availability: Security or bug fixes
   1. **Security vulnerability**: The SIRT team investigates a vulnerability and deems the issue to be of high
    severity.

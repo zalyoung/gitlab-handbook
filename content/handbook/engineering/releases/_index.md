@@ -155,11 +155,13 @@ Overview of the steps involved with creating an internal release:
 
 - [Diagram source](https://docs.google.com/presentation/d/1rI47asPEzIaAGZ6t4rQASv88jnJJ17y55k3yD9IVkVI/edit?usp=sharing)
 
+Details of the internal release lifecycle can be found on the [internal release section](/handbook/engineering/releases/internal-releases/)
+
 If you’re a GitLab engineer looking to fix a high-severity issue via an internal release, please follow the steps on the
-[runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/engineers.md?ref_type=heads).
+[runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/engineers.md).
 
 If you’re a GitLab release manager looking to fix a high-severity issue via an internal release, please follow the steps on the
-[runbook for GitLab release manager](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/release_managers.md?ref_type=heads).
+[runbook for GitLab release manager](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/release_managers.md).
 
 ## Backports overview
 
