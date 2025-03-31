@@ -90,12 +90,12 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 * Pinned to ps_pmo Slack channel updated by EOD Monday
 * Update the following in the Notes section:
-* 1-lined progress update
- * If there is an issue, what is the proposed action + timing of fix
- * If there is assistance needed
- * DRI & contributors
- * Internal temperature (R-Y-G) | Customer temperature (R-Y-G)
- * Link to RAID & Internal Customer Epic if Y/R (to review WE, CO, WaR)
+  1. 1-lined progress update
+  1. If there is an issue, what is the proposed action + timing of fix
+  1. If there is assistance needed
+  1. DRI & contributors
+  1. Internal temperature (R-Y-G) | Customer temperature (R-Y-G)
+  1. Link to RAID & Internal Customer Epic if Y/R (to review WE, CO, WaR)
 
 ##### Forecast call prep
 
