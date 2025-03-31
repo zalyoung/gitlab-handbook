@@ -134,7 +134,8 @@ Projects in user namespaces are deleted permanently without any recovery period 
 
 ### User Experience Flow
 
-#### User Deleting a Project/Group:
+#### User Deleting a Project/Group
+
 1. User selects "Delete" option for project/group
 2. System displays confirmation dialog explaining the process
 3. Upon confirmation, system:
@@ -143,17 +144,19 @@ Projects in user namespaces are deleted permanently without any recovery period 
    - Displays success message with link to Bin
    - Sends confirmation email with recovery information
 
-#### User Recovering a Project/Group:
+#### User Recovering a Project/Group
+
 1. User accesses Bin
 2. Locates desired item using search/filter
 3. Selects "Recover" option
 4. System handles recovery and potential namespace conflicts
 5. Displays success message with link to recovered item
 
-#### Permanent Deletion:
+#### Permanent Deletion
+
 1. Occurs automatically after configured period (7/30 days)
-2. Admin can trigger early via admin interface (all iterations)
-3. User can trigger early via "permanently delete" in Bin (Iteration 1 and 3b)
+2. Admin can trigger early by using admin interface (all iterations)
+3. User can trigger early by using "permanently delete" in Bin (Iteration 1 and 3b)
 4. System requires confirmation for permanent deletion
 5. Notification sent after successful permanent deletion
 
