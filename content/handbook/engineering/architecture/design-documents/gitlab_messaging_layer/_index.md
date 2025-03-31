@@ -458,6 +458,8 @@ NATS Pub/Sub stats: 96 msgs/sec ~ 96.81 MB/sec
 
 - In the event of loss of one or more nodes in a given NATS cluster, clients can still continue to push new events as long as other stream-replicas are configured and can assume new leadership for affected streams. For clients that cannot withstand loss of messages, stream replication is highly adviced which ensures any affected streams will recover as soon as any cluster-deterioration is remedied.
 
+- While stream replication ensures data redundancy for ingested data, asynchronous writes might still lead to loss of data. To minimise any loss of data, clients should prefer synchronous writes to ensure all ingested data is durably replicated before their writes get acknowledged, with the caveat that synchronous writes will reduce overall write-performance.
+
 - All ingested data is persisted durably via NATS Jetstream. In the event of unrecoverable messages however, we can rely on an explicit [disaster recovery setup](https://docs.nats.io/running-a-nats-service/nats_admin/jetstream_admin/disaster_recovery) to recover data, which includes:
   - Automatic recovery in case of intact quorum nodes for replicated streams, or
   - Manual recovery from periodic stream backups.
