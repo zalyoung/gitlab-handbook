@@ -453,7 +453,7 @@ verify_provenance:
       1. Uploads the signed provenance as a job artifact.
 1. Publish Artifact Stage (publish_artifact):
    1. Publishes the artifact to a registry or repository.
-   1. Captures the published artifact's URI for use in verification.
+   1. Captures the published artifact's URL for use in verification.
    1. This stage separates build/sign from verification, ensuring a true separation of concerns.
 1. Provenance Verification Stage (verify_provenance):
    1. Uses the provenance-verifier component to:
