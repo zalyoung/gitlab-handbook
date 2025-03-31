@@ -169,6 +169,17 @@ Service accounts have introduced significant complexity over time:
   access sprawl.
 - Ownership and membership are decoupled, with ownership limited to creation
   time and lacking visibility into access.
+- User experience: administrative overhead
+
+  The current model requires a project owner to go through the following steps:
+    1. contact the instance admin and request a service account
+    2. instance admin creates a service account
+    3. project owner adds the service account as a project member
+    4. contact the instance admin again, and request a PAT for the service
+       account
+    5. instance admin creates the PAT for the service account
+    6. instance admin has to securely transfer the token to the project owner as
+       this cannot be done in `gitlab-rails`
 
 Option 1 adds further complexity:
 
