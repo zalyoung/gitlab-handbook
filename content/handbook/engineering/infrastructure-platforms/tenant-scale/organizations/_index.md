@@ -65,7 +65,7 @@ We track progress in our team's [epic progress dashboard](https://gitlab.com/gro
 And epic's status is updated by various team members as such:
 
 1. A team member creates a new epic for a project and defines the goals and benefits of the epic in the description.
-1. If design is needed, the product manager marks the epic as `workflow::ready for design`. Backend only items such as table migrations or partititioning do not need this step.
+1. If design is needed, the product manager marks the epic as `workflow::ready for design`. Backend only items such as table migrations or partitioning do not need this step.
 1. Once designs have been completed and added to the epic, if needed, the epic is marked as `workflow::refinement` to be broken down into implementation issues.
 1. When all the initial implementation issues have been defined, the engineer adds the label `workflow::ready for development`.
 1. We assign an engineering DRI for the epic when the first issue is being worked on. At this point, the DRI changes the epic status to `workflow::in dev`. Any new issues created once the development phase has started should be added addressed via our [backlog refinement](#backlog-refinement) process. Ensure that an upcoming milestone is assigned to the issues that need refinement.
