@@ -98,7 +98,7 @@ In scenarios where you need a quick link to vocalize, tweet, email, or otherwise
 
 ### Why remote?
 
-GitLab's overview video on its [all-remote culture](/handbook/company/culture/all-remote/vision/) can be [viewed here](https://youtu.be/GKMUs7WXm-E).
+GitLab's overview video on its [all-remote culture](/handbook/company/culture/all-remote/remote-vision/) can be [viewed here](https://youtu.be/GKMUs7WXm-E).
 
 ### Presentations (slide deck)
 

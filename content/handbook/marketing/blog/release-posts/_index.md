@@ -27,7 +27,7 @@ At a high level, the Release post schedule is:
 - This task creates the branches, MRs, and issues necessary to run the Release Post process
 - The MRs and issues will be assigned to the Release Post Manager using the content in [release_post_managers.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml)
 - After the `Release Post Process Kickoff Tasks` pipeline completes, and the release post branch is created with associated merge request, manually trigger the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules):
-  - `Add deprecations and removals to current release post branch` 
+  - `Add deprecations and removals to current release post branch`
 
 ### Monday through Thursday, 3 weeks before release
 
@@ -70,7 +70,7 @@ MRs added after the Thursday, 1 week before release should target the `release-x
   - RPM create a [What's New](/handbook/product/categories/gitlab-the-product/#using-whats-new-to-communicate-updates-to-users) MR
 
 {{% note %}}
-The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
+The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#operate-with-a-bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
 {{% /note %}}
 
 ### Thursday, release day
