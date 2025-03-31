@@ -4,25 +4,23 @@ title: "Internal Releases"
 
 ## Internal release overview
 
-Internal releases represent a private GitLab strategy for delivering high-severity fixes to single tenant SaaS
-instances like GitLab Dedicated before public disclosure, without disrupting the regular release process.
+Internal Releases are private releases of GitLab for our single-tenant SaaS instances. They allow us to remediate 
+high-severity issues on Dedicated instances:
+
+* As quickly and efficiently as on GitLab.com 
+  ([SLA driven](https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/sla/))
+* Without version skips in the public packages
+* Without disclosing vulnerabilities before a public patch release
 
 Internal releases are performed according to a specific criteria:
 
-* Apply critical (S1) fixes that impact GitLab Dedicated availability
+* Addressed [critical (S1)](https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels) 
+  fixes (bug or security vulnerability) that impact GitLab Dedicated availability: Security or bug fixes
+  1. **Security vulnerability**: The SIRT team investigates a vulnerability and deems the issue to be of high
+   severity.
+  2. **Critical bug**: The Dedicated team reports a high-severity issue causing a performance degradation.
 * Target the current minus one (N-1) and current minus two (N-2) GitLab versions
 * Deliver fixes through a private channel before public disclosure
-
-Internal releases are prepared in a secure manner so that critical vulnerabilities can be addressed for single
-tenant SaaS instances without public exposure. This approach allows for remediation of issues in GitLab Dedicated
-environments ahead of the regular patch release schedule.
-
-Internal releases address high-severity issues that impact GitLab Dedicated availability, which can be categorized
-as:
-
-1. **Security vulnerability**: The SIRT team investigates a vulnerability and deems the issue to be of high
-   severity.
-2. **Critical bug**: The Dedicated team reports a high-severity issue causing a performance degradation.
 
 If you’re a GitLab engineer looking to fix a high-severity via an internal release, please follow the steps on the
 [internal release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/internal-releases/engineers.md?ref_type=heads).
