@@ -89,7 +89,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ### License Sync
 
-*Purpose*: GitLab collects certain Metrics for Self-Managed instances and Dedicated through License Sync to be able to determine if the amount of users provisioned under a paid license exceeds the monetary value of the subscription. If there is a disjunction between the subscription and the number of users under a license, these Metrics are used by the GitLab Fulfillment Team as part of a monthly, quarterly or annual reconciliation process. These Metrics also allows us to determine the number of open seats under a license and assists in our analysis of renewals and licensing consolidation.
+*Purpose*: GitLab collects certain Metrics for Self-Managed instances and Dedicated through License Sync to be able to determine if the number of users provisioned under a paid license exceeds the monetary value of the subscription. If there is a disjunction between the subscription and the number of users under a license, these Metrics are used by the GitLab Fulfillment Team as part of a monthly, quarterly or annual reconciliation process. These Metrics also allows us to determine the number of open seats under a license and assists in our analysis of renewals and licensing consolidation.
 
 *Applicable Software*: License Sync Metrics are collected from paid Self-Managed (EE Distribution) instances and Dedicated. License Sync does not collect Metrics from free Self-Managed (CE or EE Distribution). For GitLab.com versions of the software, the GitLab Fulfillment Team uses the Subscription Data collected by Service Ping to facilitate the reconciliation review described in the preceding paragraph. Please read our [GitLab.com subscriptions](https://docs.gitlab.com/ee/subscriptions/gitlab_com/) and [Self-managed subscriptions](https://docs.gitlab.com/ee/subscriptions/self_managed/) pages for more information.
 
@@ -111,7 +111,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/). Switchboard is used by customer teams to maintain and configure their own Dedicated tenant. Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard. In turn, these Metrics will assist in driving further development of the Switchboard application.
 
-*Applicable Software*: Switchboard Metrics are collected only from Dedicated users with access to the Swithboard application.
+*Applicable Software*: Switchboard Metrics are collected only from Dedicated users with access to the Switchboard application.
 
 *Configuration*: Switchboard Metrics are only collected from the Switchboard application itself and not from the Dedicated tenant. Therefore, user interactions in the Dedicated tenant do not result in any data collected under this section. Please view this [high-level diagram](https://docs.gitlab.com/ee/administration/dedicated/#architecture) that demonstrates the flow of Metrics collected from the Switchboard application and sent to our data warehouse for further processing.
 
