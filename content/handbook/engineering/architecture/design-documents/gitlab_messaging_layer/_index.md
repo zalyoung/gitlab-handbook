@@ -387,57 +387,115 @@ func TestServerConfiguration(t *testing.T) {
 
 NATS is extremely lightweight and can support ingesting & digesting high amounts of messages with sub-millisecond latencies. Given its architecture, it's also optimized for handling backpressure and exercise flow-control subject to traffic volumes.
 
-We ran the following preliminary tests against a single NATS server running on an `e2-medium (2 vCPUs, 4 GB Memory)` VM on GCE with an attached SSD disk-volume. Note, saturation was never reached.
+We ran the following preliminary tests against a Kubernetes-based NATS cluster with 3 servers each running running on a `c2d-standard-16` GKE node and attached to a 100GB `pd-balanced` SSD persistent volume. __Note__, the underlying GKE cluster is a regional cluster with cluster-nodes spread in 3 distinct AZs. NATS servers were carefully spread across the 3 AZs at all times.
 
-- Writing & reading 100000 * 128B messages without persistence enabled
+### Key insights
 
-```text
-ankitbhatnagar@nats-server-2:~$ ./nats bench foobar --pub 1 --sub 1 --msgs=100000 --maxbytes 20GB
-12:22:30 Starting Core NATS pub/sub benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, msgs=100,000, msgsize=128 B, pubs=1, subs=1, pubsleep=0s, subsleep=0s]
-12:22:30 Starting subscriber, expecting 100,000 messages
-12:22:30 Starting publisher, publishing 100,000 messages
+- CPU usage is directly proportional to cluster usage with large spikes in the case of asynchronous publishers producing a very large number of events in a short period of time.
+- Memory usage remained stable regardless of the amount of events ingested.
+- Cross-AZ replication does affect cluster throughput but overall performance remains well-beyond our immediate needs.
 
-NATS Pub/Sub stats: 540,996 msgs/sec ~ 66.04 MB/sec
- Pub stats: 286,886 msgs/sec ~ 35.02 MB/sec
- Sub stats: 285,111 msgs/sec ~ 34.80 MB/sec
+### Synchronous publisher with stream replication
+
+__CPU usage remained consistently low while write-throughput takes a notable hit.__
+
+```
+➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2 --syncpub
+10:55:59 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
+10:55:59 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000,000, msgsize=128 B, pubs=1, subs=5, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=true, pubbatch=100, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=2, purge=true, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
+
+NATS Pub/Sub stats: 7,957 msgs/sec ~ 994.75 KB/sec
+ Pub stats: 1,326 msgs/sec ~ 165.81 KB/sec
+ Sub stats: 6,631 msgs/sec ~ 828.96 KB/sec
+  [1] 1,326 msgs/sec ~ 165.80 KB/sec (1000000 msgs)
+  [2] 1,326 msgs/sec ~ 165.80 KB/sec (1000000 msgs)
+  [3] 1,326 msgs/sec ~ 165.80 KB/sec (1000000 msgs)
+  [4] 1,326 msgs/sec ~ 165.79 KB/sec (1000000 msgs)
+  [5] 1,326 msgs/sec ~ 165.81 KB/sec (1000000 msgs)
+  min 1,326 | avg 1,326 | max 1,326 | stddev 0 msgs
 ```
 
-- Writing 1000 * 1MB messages with persistence enabled
+### Asynchronous publisher with stream replication, publishing batches in sizes 100, 1000, 10000
 
-```text
-ankitbhatnagar@nats-server-2:~$ ./nats bench foobar --pub 1 --size 1048576 --msgs=1000 --js --maxbytes 20GB
-12:16:32 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000, msgsize=1.0 MiB, pubs=1, subs=0, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=100, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=1, purge=false, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
-12:16:32 Starting publisher, publishing 1,000 messages
+__CPU usage is proportional to batch-size with write-throughput improving with moderately sized batches.__
 
-Pub stats: 308 msgs/sec ~ 308.18 MB/sec
+```
+➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2
+11:13:02 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
+11:13:02 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000,000, msgsize=128 B, pubs=1, subs=5, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=100, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=2, purge=true, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
+
+NATS Pub/Sub stats: 274,880 msgs/sec ~ 33.55 MB/sec
+ Pub stats: 46,073 msgs/sec ~ 5.62 MB/sec
+ Sub stats: 229,066 msgs/sec ~ 27.96 MB/sec
+  [1] 46,021 msgs/sec ~ 5.62 MB/sec (1000000 msgs)
+  [2] 45,866 msgs/sec ~ 5.60 MB/sec (1000000 msgs)
+  [3] 45,901 msgs/sec ~ 5.60 MB/sec (1000000 msgs)
+  [4] 45,813 msgs/sec ~ 5.59 MB/sec (1000000 msgs)
+  [5] 45,986 msgs/sec ~ 5.61 MB/sec (1000000 msgs)
+  min 45,813 | avg 45,917 | max 46,021 | stddev 76 msgs
+
+➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2 --no-progress --pubbatch=1000
+11:17:38 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
+11:17:38 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000,000, msgsize=128 B, pubs=1, subs=5, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=1,000, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=2, purge=true, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
+
+NATS Pub/Sub stats: 524,251 msgs/sec ~ 64.00 MB/sec
+ Pub stats: 152,262 msgs/sec ~ 18.59 MB/sec
+ Sub stats: 436,876 msgs/sec ~ 53.33 MB/sec
+  [1] 100,985 msgs/sec ~ 12.33 MB/sec (1000000 msgs)
+  [2] 88,393 msgs/sec ~ 10.79 MB/sec (1000000 msgs)
+  [3] 88,367 msgs/sec ~ 10.79 MB/sec (1000000 msgs)
+  [4] 87,896 msgs/sec ~ 10.73 MB/sec (1000000 msgs)
+  [5] 87,375 msgs/sec ~ 10.67 MB/sec (1000000 msgs)
+  min 87,375 | avg 90,603 | max 100,985 | stddev 5,204 msgs
+
+➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2 --no-progress --pubbatch=10000
+11:17:57 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
+11:17:57 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000,000, msgsize=128 B, pubs=1, subs=5, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=10,000, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=2, purge=true, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
+
+NATS Pub/Sub stats: 424,064 msgs/sec ~ 51.77 MB/sec
+ Pub stats: 70,985 msgs/sec ~ 8.67 MB/sec
+ Sub stats: 353,386 msgs/sec ~ 43.14 MB/sec
+  [1] 71,156 msgs/sec ~ 8.69 MB/sec (1000000 msgs)
+  [2] 70,899 msgs/sec ~ 8.65 MB/sec (1000000 msgs)
+  [3] 70,757 msgs/sec ~ 8.64 MB/sec (1000000 msgs)
+  [4] 70,887 msgs/sec ~ 8.65 MB/sec (1000000 msgs)
+  [5] 70,812 msgs/sec ~ 8.64 MB/sec (1000000 msgs)
+  min 70,757 | avg 70,902 | max 71,156 | stddev 137 msgs
 ```
 
-- Writing 1000 * 1MB messages with 2 parallel publishers, persistence enabled
+### Asynchronous publisher, testing pull vs push consumers
 
-```text
-ankitbhatnagar@nats-server-2:~$ ./nats bench foobar --pub 2 --size 1048576 --msgs=1000 --js --maxbytes 20GB
-12:16:53 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000, msgsize=1.0 MiB, pubs=2, subs=0, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=100, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=1, purge=false, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
-12:16:53 Starting publisher, publishing 500 messages
-12:16:53 Starting publisher, publishing 500 messages
+__Nothing noteworthy about CPU usage with pull consumers performing better than push ones.__
 
-Pub stats: 270 msgs/sec ~ 270.46 MB/sec
- [1] 135 msgs/sec ~ 135.24 MB/sec (500 msgs)
- [2] 135 msgs/sec ~ 135.23 MB/sec (500 msgs)
- min 135 | avg 135 | max 135 | stddev 0 msgs
 ```
+➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2 --no-progress --pubbatch=100 --push
+11:24:53 JetStream durable push consumer mode, subscriber(s) will explicitly acknowledge the consumption of messages
+11:24:53 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
+11:24:53 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000,000, msgsize=128 B, pubs=1, subs=5, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=100, jstimeout=30s, pull=false, consumerbatch=100, push=true, consumername=natscli-bench, replicas=2, purge=true, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
 
-- Writing & reading 1000 * 1MB messages across 1 publisher, 1 subscriber with persistence enabled
+NATS Pub/Sub stats: 65,697 msgs/sec ~ 8.02 MB/sec
+ Pub stats: 32,912 msgs/sec ~ 4.02 MB/sec
+ Sub stats: 32,848 msgs/sec ~ 4.01 MB/sec
+  [1] 6,581 msgs/sec ~ 822.69 KB/sec (200000 msgs)
+  [2] 6,586 msgs/sec ~ 823.28 KB/sec (200000 msgs)
+  [3] 6,574 msgs/sec ~ 821.78 KB/sec (200000 msgs)
+  [4] 6,575 msgs/sec ~ 821.90 KB/sec (200000 msgs)
+  [5] 6,579 msgs/sec ~ 822.48 KB/sec (200000 msgs)
+  min 6,574 | avg 6,579 | max 6,586 | stddev 4 msgs
 
-```text
-ankitbhatnagar@nats-server-2:~$ ./nats bench foobar --pub 1 --sub 1 --size 1048576 --msgs=1000 --js --maxbytes 20GB
-12:18:52 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
-12:18:52 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000, msgsize=1.0 MiB, pubs=1, subs=1, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=100, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=1, purge=false, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
-12:18:52 Starting subscriber, expecting 1,000 messages
-12:18:52 Starting publisher, publishing 1,000 messages
+➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2 --no-progress --pubbatch=100 --pull
+11:25:56 JetStream durable pull consumer mode, subscriber(s) will explicitly acknowledge the consumption of messages
+11:25:56 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000,000, msgsize=128 B, pubs=1, subs=5, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=100, jstimeout=30s, pull=true, consumerbatch=100, push=false, consumername=natscli-bench, replicas=2, purge=true, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
 
-NATS Pub/Sub stats: 96 msgs/sec ~ 96.81 MB/sec
- Pub stats: 297 msgs/sec ~ 298.00 MB/sec
- Sub stats: 48 msgs/sec ~ 48.41 MB/sec
+NATS Pub/Sub stats: 95,057 msgs/sec ~ 11.60 MB/sec
+ Pub stats: 47,747 msgs/sec ~ 5.83 MB/sec
+ Sub stats: 47,528 msgs/sec ~ 5.80 MB/sec
+  [1] 15,410 msgs/sec ~ 1.88 MB/sec (200000 msgs)
+  [2] 12,056 msgs/sec ~ 1.47 MB/sec (200000 msgs)
+  [3] 11,976 msgs/sec ~ 1.46 MB/sec (200000 msgs)
+  [4] 9,556 msgs/sec ~ 1.17 MB/sec (200000 msgs)
+  [5] 9,530 msgs/sec ~ 1.16 MB/sec (200000 msgs)
+  min 9,530 | avg 11,705 | max 15,410 | stddev 2,157 msgs
 ```
 
 ### Monitoring
