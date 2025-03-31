@@ -8,7 +8,7 @@ toc_hide: true
 
 The AI Gateway is a Python-based service that handles LLM interactions over HTTP, primarily acting as a proxy (for authentication, routing, etc.). The Duo Workflow Service is another Python-based service that provides multi-step LLM orchestration (via LangGraph) over gRPC.
 
-Historically, the Duo Workflow Service was developed separately (using gRPC) to allow rapid iteration without integrating into an existing codebase. However, this separation creates overhead in deployments (managing two services), observability (duplicate logging/tracing), and maintenance (two sets of dependencies). As we plan to migrate Chat to the Duo Workflow backend, merging Duo Workflow into the AI Gateway can reduce complexity and provide a unified service.
+Historically, the Duo Workflow Service was developed separately (using gRPC) to allow rapid iteration without integrating into an existing codebase. However, this separation creates overhead in deployments (managing two services specifically for customers using self-hosted models), observability (duplicate logging/tracing), and maintenance (two sets of dependencies). As we plan to migrate Chat to the Duo Workflow backend, merging Duo Workflow into the AI Gateway can reduce complexity and provide a unified service.
 
 Three options were considered:
 
@@ -18,7 +18,47 @@ Three options were considered:
 
 ## Decision
 
-**We decided to combine Duo Workflow Service and AI Gateway into a single repository and Docker image using two listeners (Option 2).** One port will handle the existing HTTP-based AI Gateway traffic, and another port will handle the gRPC-based Duo Workflow traffic. A command-line flag or environment variable can toggle which transports (or both) are enabled at runtime.
+**We decided to combine Duo Workflow Service and AI Gateway into a single repository and Docker image using two listeners (Option 2).** One port will handle the existing HTTP-based AI Gateway traffic, and another port will handle the gRPC-based Duo Workflow traffic. A command-line flag or environment variable can toggle which transports (or both) are enabled at runtime. There will continue to be two services on runway serving the two services on `.com`. Self-hosted models customer have two options they can either run a single combined service or two services depending on their own scaling requirements.
+
+Option 3 has been moved to a separate ADR record (ADR-002) as it can be discussed and delivered independently of merging the two services.
+
+For customers using GitLab hosted models i.e. customers on Gitlab.com or Self-managed customers using GitLab hosted models:
+
+```mermaid
+flowchart LR
+  subgraph Runway
+    %% First Runway Deployment
+    subgraph deploymentHTTP["Deployment #1 - AI Gateway"]
+        direction TB
+        H["HTTP Listener / AI Gateway"]
+    end
+
+    %% Second Runway Deployment
+    subgraph deploymentGRPC["Deployment #2 - Duo Workflow"]
+        direction TB
+        G["gRPC Listener / Duo Workflow"]
+    end
+  end
+
+  Cloudflare["Cloudflare"] -->|HTTP| H
+  Clients["External Clients"] -->|HTTP| Cloudflare["Cloudflare"]
+  Clients["External Clients"] -->|gRPC| G
+```
+
+For Self-managed customers using self-hosted models:
+
+```mermaid
+flowchart LR
+    subgraph combinedService["Single Docker Image - Combined Service"]
+      direction TB
+      H["HTTP Listener \(AI Gateway\)"]
+      G["gRPC Listener \(Duo Workflow\)"]
+    end
+
+    Clients["Direct External Clients"] -->|HTTP| H
+    Clients["Direct External Clients"] -->|gRPC| G
+```
+
 
 ## Consequences
 
@@ -26,9 +66,10 @@ Three options were considered:
   - Single Docker image for self-hosted deployments simplifies installation and updates.  
   - Unified codebase for logs, metrics, secrets management, etc.  
   - Minimizes rewriting the existing gRPC components, reducing initial refactoring effort compared to a full WebSocket migration (Option 3).
+  - We can scale the two deployments in runway separately since they have different scaling characteristics. e.g. Duo Workflow is more memory intensive since we store a lot of data in workflow state.
 
 - **Cons**  
   - Still requires gRPC support from customers’ network configurations. Some firewalls may block HTTP/2 traffic.  
-  - The hosting platform (Runway) may need to manage two ports/protocols, which can add some complexity.  
+  - The hosting platform (Runway) may need to manage two ports/protocols, which can add some complexity.
 
 Despite these downsides, Option 2 strikes the best balance between maintainability, complexity, and near-term development effort. 
