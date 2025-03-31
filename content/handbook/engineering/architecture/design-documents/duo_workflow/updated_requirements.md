@@ -20,7 +20,7 @@ After building out Duo Workflow there are a few essential pieces of context that
 1. Duo Chat is supposed to use the same architecture in order to become agentic as outlined in [this epic](https://gitlab.com/groups/gitlab-org/-/epics/17182).
 1. We've encountered race conditions due to [conflicting status updates](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp/-/issues/911).
 1. Customers are [encountering issues](https://gitlab.com/gitlab-org/gitlab/-/issues/527057) with the need to have HTTP/2 enabled for connecting to Duo Workflow from a local machine.
-1. Custom models has been released as a feature for Duo Workflow which increases the expectation that Duo Workflow will need to support this as well.
+1. Custom models has been released as a feature for GitLab Duo which increases the expectation that Duo Workflow will need to support this as well.
 
 ### Open questions
 
