@@ -61,7 +61,7 @@
 /content/handbook/company/history.md @bill_staples
 /content/handbook/company/okrs/ @streas
 /content/handbook/company/only-healthy-constraints.md @bill_staples
-/content/handbook/company/quote-to-cash.md @justinfarris @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @juliemalloy @annapiaseczna @simon-mundy @msubramanian
+/content/handbook/company/quote-to-cash.md @justinfarris @tgolubeva @courtmeddaugh @alex_martin @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @juliemalloy @annapiaseczna @simon-mundy @msubramanian @marin
 /content/handbook/company/stewardship.md @bill_staples
 /content/handbook/company/strategy.md @bill_staples
 /content/handbook/company/group-conversations.md @streas
@@ -196,12 +196,12 @@
 /content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
 /content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
 /content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
-/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin @vincywilson
+/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin
 /content/handbook/engineering/infrastructure-platforms/gitlab-delivery/ @marin @mbursi @dawsmith @plu8 @denisra
 /content/handbook/engineering/careers/matrix/infrastructure @marin @sabrinafarmer @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
-/content/handbook/engineering/infrastructure/ @marin @sabrinafarmer @vincywilson
+/content/handbook/engineering/infrastructure/ @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @marin
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
@@ -209,7 +209,7 @@
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @denisra @plu8
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @vincywilson @rymai
+/content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/team/ @marin
@@ -226,8 +226,8 @@
 /content/handbook/engineering/gitlab-com/policies/ @marin @sabrinafarmer
 
 ^[Eng-Developer-Experience-department]
-/content/handbook/engineering/automation.md @vincywilson @rymai
-/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @ksvoboda @mgamea @vincywilson
+/content/handbook/engineering/automation.md @rymai @marin
+/content/handbook/engineering/infrastructure-platforms/developer-experience/onboarding.md @ghosh-abhinaba @kkolpakova @ksvoboda @mgamea @marin
 /content/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/ @ghosh-abhinaba
 /content/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/ @mgamea
 /content/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/ @kkolpakova
@@ -654,7 +654,7 @@
 /content/handbook/company/working-groups/api-vision.md @g.hickman @arturoherrero @timzallmann
 /content/handbook/company/working-groups/clickhouse-datastore.md @sgoldstein @nhxnguyen @nicolewilliams
 /content/handbook/company/working-groups/cross-functional-prioritization.md @vkarnes @sabrinafarmer @justinfarris
-/content/handbook/company/working-groups/demo-test-data.md @grantyoung @poffey21 @vincywilson @sabrinafarmer
+/content/handbook/company/working-groups/demo-test-data.md @grantyoung @poffey21 @sabrinafarmer @marin
 /content/handbook/company/working-groups/disaster-recovery.md  @mjwood @andrashorvath
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
 /content/handbook/company/working-groups/multi-large.md @marin @mbursi
@@ -715,7 +715,7 @@
 /content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/backup/ @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/database/_index.md @marin @sabrinafarmer @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/database/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
