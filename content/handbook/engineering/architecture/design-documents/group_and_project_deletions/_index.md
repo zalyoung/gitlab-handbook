@@ -158,7 +158,7 @@ Projects in user namespaces are deleted permanently without any recovery period 
 
 ## Alternative Solutions
 
-### Permanent Deletion Restriction** 
+### Permanent Deletion Restriction
 
 Only admin users would retain the ability to permanently delete content before the scheduled deletion date. This approach significantly changes how users interact with the deletion process and creates several important trade-offs.
 
