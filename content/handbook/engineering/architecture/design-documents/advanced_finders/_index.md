@@ -535,10 +535,12 @@ class AdvancedFinder::Result
   def page_relation
     # Get the model class from the first item or a configuration setting
     model_class = items.first&.class || model_class_for_finder
+    ids = items.map(&:id)
 
-    # Create a relation that selects just the IDs of the current page
-    # with the appropriate order
-    model_class.where(id: items.map(&:id)).order(...)
+    # Use a CTE to inform the planner this is a small set
+    model_class.with(page_items: model_class.where(id: ids).select(:id))
+               .joins('JOIN page_items ON page_items.id = ' + model_class.table_name + '.id')
+               .order(...)
   end
 end
 ```
