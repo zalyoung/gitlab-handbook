@@ -114,7 +114,7 @@ Use the Switchboard app. More information can be found in the [Switchboard workf
 
 #### Feature Flags are not supported
 
-In GitLab Dedicated, [feature flags](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#gitlab-application-features) are not supported, meaning we do not able enable/disable a feature flag for a Dedicated instance. When customers request feature flags to be modified in the GitLab Rails console, the GitLab Support team should:
+In GitLab Dedicated, [feature flags](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#available-features) are not supported, meaning we do not able enable/disable a feature flag for a Dedicated instance. When customers request feature flags to be modified in the GitLab Rails console, the GitLab Support team should:
 
 - create or find an issue in the appropriate issue tracker about making this feature generally available (without a feature flag).
 - notify the [appropriate Product Manager](/handbook/product/categories/) in the issue with a comment that followed the [feedback template](/handbook/product/product-management/#feedback-template).
@@ -144,7 +144,7 @@ When any changes are required besides those listed below, raise [an issue with `
 
 1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
 1. Add the IAM principal to the issue. The Environment Automation team will provide a **Service Endpoint Name**.
-1. The customer will follow the steps in [our documentation](https://docs.gitlab.com/administration/dedicated/#inbound-private-link).
+1. The customer will follow the steps in [our documentation](https://docs.gitlab.com/administration/dedicated/configure_instance/network_security/#inbound-private-link).
 
 #### Outbound (Reverse) PrivateLink Request
 
@@ -159,7 +159,7 @@ Outbound PriveLink allows any traffic from the GitLab Dedicated instance, or hos
 
    - Provide the two AZ IDs early in the ticket to avoid prolonging the ticket. The AZ IDs must be in the same region as the customer's tenant instance. The customer can then make the decision of which specific zones that can be used. AZ IDs are shared between different zones in a region but cannot be used outside of the region. For example, AZ IDs in `us-west-1*` cannot be used in `us-west-2*`. Some of the zones in each reach share AZ IDs with other zones in the same region but you must work with the customer to find the overlap.
 
-1. Ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/#outbound-private-link). In this case, it's a **Service Endpoint Name**, a list of **AZ IDs** they will be using (should match provided AZ IDs), and **Domain Name** (with one of two options).
+1. Ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/configure_instance/network_security/#outbound-private-link). In this case, it's a **Service Endpoint Name**, a list of **AZ IDs** they will be using (should match provided AZ IDs), and **Domain Name** (with one of two options).
 
    - The **Service Endpoint Name** uses a reverse domain name notation and has the following format: `com.amazonaws.vpce.<region>.<vpce-svc-identifier>`
 
@@ -169,7 +169,7 @@ Outbound PriveLink allows any traffic from the GitLab Dedicated instance, or hos
 
 In most cases, customers should use **Switchboard** to update the IP allowlist for their GitLab Dedicated instance. If this is not possible:
 
-1. Ask the customer to provided the [required information](https://docs.gitlab.com/administration/dedicated/#ip-allowlist) in the ticket. In this case, it's a comma-separated list of IP addresses.
+1. Ask the customer to provided the [required information](https://docs.gitlab.com/administration/dedicated/configure_instance/network_security/#ip-allowlist) in the ticket. In this case, it's a comma-separated list of IP addresses.
 1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) and confirm that the `support::request-for-help`) in the GitLab Dedicated issue tracker.
 
 ##### SCIM / OIDC with IP Allowlist request
@@ -180,13 +180,13 @@ Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoi
 
 #### SAML Request
 
-1. Ask the customer to provided the [required information](https://docs.gitlab.com/administration/dedicated/#saml) in the ticket. In this case, it's a SAML configuration block or can be a list of information provided by a customer.
+1. Ask the customer to provided the [required information](https://docs.gitlab.com/administration/dedicated/configure_instance/saml/#activate-saml-with-a-support-request) in the ticket. In this case, it's a SAML configuration block or can be a list of information provided by a customer.
 1. Open a new [SAML Config Request issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedSAMLConfigRequest) and confirm that the `support::request-for-help` label is added.
 1. Add the customer provided information and match it with the required formatting.
 
 #### Application Logs Request
 
-1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/#access-to-application-logs). In this case, it's an **IAM principal**.
+1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/monitor/#request-access-to-application-logs). In this case, it's an **IAM principal**.
 
    - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
 
