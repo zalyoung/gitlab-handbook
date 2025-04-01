@@ -18,7 +18,7 @@ Three options were considered:
 
 ## Decision
 
-**We decided to combine Duo Workflow Service and AI Gateway into a single repository and Docker image using two listeners (Option 2).** One port will handle the existing HTTP-based AI Gateway traffic, and another port will handle the gRPC-based Duo Workflow traffic. A command-line flag or environment variable can toggle which transports (or both) are enabled at runtime. There will continue to be two services on runway serving the two services on `.com`. Self-hosted models customer have two options they can either run a single combined service or two services depending on their own scaling requirements.
+**We decided to combine Duo Workflow Service and AI Gateway into a single repository and Docker image using two listeners (Option 2). Separately we will also be adopting web sockets (Option 3 - see ADR-002)** One port will handle the existing HTTP-based AI Gateway traffic, and another port will handle the gRPC-based Duo Workflow traffic. A command-line flag or environment variable can toggle which transports (or both) are enabled at runtime. There will continue to be two services on runway serving the two services on `.com`. Self-hosted models customer have two options they can either run a single combined service or two services depending on their own scaling requirements.
 
 Option 3 has been moved to a separate ADR record (ADR-002) as it can be discussed and delivered independently of merging the two services.
 
@@ -70,5 +70,6 @@ flowchart LR
 - **Cons**  
   - Still requires gRPC support from customers’ network configurations. Some firewalls may block HTTP/2 traffic.  
   - The hosting platform (Runway) may need to manage two ports/protocols, which can add some complexity.
+  - Maintaining both independent servers, even in a single codebase, may still mean there are duplicated efforts where we have differences between gRPC and HTTP
 
 Despite these downsides, Option 2 strikes the best balance between maintainability, complexity, and near-term development effort. 
