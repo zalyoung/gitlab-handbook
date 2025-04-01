@@ -356,7 +356,7 @@ The marketing team utilizes a [single all-marketing calendar](https://internal.g
 
 Please do not filter the entire doc. Instead, you may use pre-set filter views (click down arrow selector next to the filter icon on the bookmark bar) to see activities grouped by GTM Motion, segment, region, team, language, and more.
 
-*If there are other views you would find helpful, please feel free to duplicate an existing filter view, and include some sort of categorization (i.e. team, segment, etc.). You can do this by going to a similar filter view, and clicking on the top right gear icon, then selecting `Duplicate`.*
+_If there are other views you would find helpful, please feel free to duplicate an existing filter view, and include some sort of categorization (i.e. team, segment, etc.). You can do this by going to a similar filter view, and clicking on the top right gear icon, then selecting `Duplicate`._
 
 For more information about adding events to All-Marketing SSoT Calendar, please [click here](/handbook/marketing/marketing-team-processes/#marketing-calendar-inputs).
 
