@@ -22,7 +22,7 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 [Managing team members on your account](https://vimeo.zendesk.com/hc/en-us/articles/224818687-Managing-team-members-on-your-account)
 
 1. `Viewers` - Viewers can be invited to specific folders within the account, but they will have limited access to the contents of those folders. They can access the review page, leave notes, and share videos that are within those folders. They do not have the ability to upload, edit, publish, or access any other settings or areas of the account that are meant for working members.
-1. `Contributors` - Contributors can be invited to access a specific folder within the account. They'll have the ability to upload, edit, review, share, and publish videos within a folder, but won't have access to any of your other folders or areas of your account. A contributor also won't be able to change the title of a folder, delete a folder, or delete a video from the account. They can view settings of a video in that folder as well as the analytics tab, which has numbers from the past 30 days but won't have access to advanced analytics for the video. Once in the `Video Manager`, Contributors will only be able see the folders to which they have been invited. In addition, contributors can access settings of an archived live event within the folder to which they contribute. Contributors can start a live event to Vimeo if they are using an external encoder via RTMP (after the Owner or Admin creates an event and provides the Contributor with the RTMP URL and Stream Key). **Note:** If the Vimeo account is connected to other social accounts such as Facebook, then any live events the Contributor starts from their encoder will also simulcast to that destination.
+1. `Contributors` - Contributors can be invited to access a specific folder within the account. They'll have the ability to upload, edit, review, share, and publish videos within a folder, but won't have access to any of your other folders or areas of your account. A contributor also won't be able to change the title of a folder, delete a folder, or delete a video from the account. They can view settings of a video in that folder as well as the analytics tab, which has numbers from the past 30 days but won't have access to advanced analytics for the video. Once in the `Video Manager`, Contributors will only be able see the folders to which they have been invited. In addition, contributors can access settings of an archived live event within the folder to which they contribute. 
 1. `Admins` - Admins can help upload and manage all videos, folders, and collections. Admins will not be able to access account settings or payment information. Admins also cannot delete videos; only the account owner can do this. Admins have access to the following features:
    - Creating, managing, and deleting collections
    - Creating, managing, and deleting folders
@@ -36,7 +36,7 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 1. `Owners` - Only Owners can do the following:
    - Edit and organize the account's profile page
    - Access Simulcast settings
-   - Authenticate API-integrated encoders and applications - This means any encoder that allows you to connect to Vimeo by logging in to account directly from the software or application (e.g. Livestream Studio via login, Mevo, Vimeo mobile app, or other third-party direct integrations)
+   - Authenticate API-integrated encoders and applications - This means any encoder that allows you to connect to Vimeo by logging in to account directly from the software or application
    - Delete live events
    - Access Developer API and create and manage developer apps for their account
 
@@ -145,7 +145,7 @@ With a [showcase](https://vimeo.zendesk.com/hc/en-us/articles/228908367-Showcase
 1. In the left sidebar menu, click `Web`. Toggle on/off the various layout options for your showcase. The right window pane shows a preview of how your showcase will look as you toggle your options.
 1. In the `Domain` tab, select `Vimeo URL`. In the right window pane, you can customize the URL of your showcase and then copy the link.
 1. In the left sidebar menu, select `Embed` if you are embedding your showcase on the website. Toggle on/off the embed options for your showcase before copying the embed code.
-1. Once you've finalized your showcase options, click the `Share` button in the top right navigation. You can copy the link or send it via email with an optional message.
+1. Once you've finalized your showcase options, click the `Share` button in the top right navigation. You can copy the link or send it by email with an optional message.
 
 ### Custom Domains
 
@@ -175,7 +175,7 @@ If there is an interest to pursue the [Slack integration](https://vimeo.zendesk.
 
 ### Google Tag Manager
 
-The following event actions are sent from the player and are [being tracked via Google Tag Manager](https://help.vimeo.com/hc/en-us/articles/22098668654481-Google-Tag-Manager-Integration):
+The following event actions are sent from the player and are [being tracked with Google Tag Manager](https://help.vimeo.com/hc/en-us/articles/22098668654481-Google-Tag-Manager-Integration):
 
 1. load
 1. play
