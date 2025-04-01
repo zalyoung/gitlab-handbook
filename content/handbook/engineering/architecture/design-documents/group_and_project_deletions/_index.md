@@ -158,9 +158,10 @@ Projects in user namespaces are deleted permanently without any recovery period.
 
 1. Occurs automatically after configured period (7/30 days)
 2. Admin can trigger early by using admin interface (all iterations)
-3. User can trigger early by using "Delete Permanently" in Bin (Iteration 1 and 3b)
-4. System requires confirmation for permanent deletion
-5. Notification sent after successful permanent deletion
+3. User can trigger early by using "Delete Permanently" in Inactive tab (iteration 1)
+4. User can trigger early by using "Delete Permanently" in Bin (iteration 3)
+5. System requires confirmation for permanent deletion
+6. Notification sent after successful permanent deletion
 
 ## Alternative Solutions
 
