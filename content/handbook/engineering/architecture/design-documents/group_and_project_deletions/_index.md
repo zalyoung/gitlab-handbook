@@ -31,7 +31,7 @@ Additionally, namespace paths remain locked after deletion, preventing users fro
 
 ### Goals
 
-1. Create a consistent deletion experience across all pricing tiers and namespace types (group, personal)
+1. Create a consistent deletion experience across all pricing tiers and namespace types (group, project, personal namespace)
 2. Reduce accidental permanent deletions by implementing a "pending deletion" state for all entities
 3. Decrease support and infrastructure team burden by enabling self-service recovery options
 4. Free up namespace paths immediately upon deletion through automated renaming
