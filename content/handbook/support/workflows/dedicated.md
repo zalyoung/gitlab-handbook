@@ -137,7 +137,7 @@ When any changes are required besides those listed below, raise [an issue with `
 
 #### Inbound (Forward) PrivateLink Request
 
-1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/#inbound-private-link). In this case, it's an **IAM principal**.
+1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/administration/dedicated/configure_instance/network_security/#inbound-private-link). In this case, it's an **IAM principal**.
 
    - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
    - The IAM user principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:user/user-name`. The IAM role principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:role/role-name`. Keep the format of these two in mind to avoid prolonging the ticket if an unexpected format is provided.
