@@ -14,7 +14,7 @@ The Marketing Operations team works very closely with the Lifecyle Marketing tea
 - [General non-demand generation template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-operational-email) (product updates, sub-processor updates, customer notifications)
 - Emergency or incidents should follow [separate processes and templates](/handbook/marketing/emergency-response/#marketing-emergency-response)
 
-These issue templates are different from `marketing` emails and have their own checklists that apply. The SLA is 5 business days from final assets to send, but please put in issues as soon as you know you need to complete a send (even if you do not have final deliverables) as complexity may push out the SLA. Here are some [helpful tips](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#customer-comms-email) to consider when sending a customer email. If you require a marketing email, please work with the [lifecycle team](/handbook/marketing/lifecycle-marketing/#issue-templates).
+These issue templates are different from `marketing` emails and have their own checklists that apply. The SLA is 5 business days from final assets to send, but please put in issues as soon as you know you need to complete a send (even if you do not have final deliverables) as complexity may push out the SLA. Here are some [helpful tips](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#customer-or-user-comms-email-including-breaking-changes) to consider when sending a customer email. If you require a marketing email, please work with the [lifecycle team](/handbook/marketing/lifecycle-marketing/#issue-templates).
 
 Marketing Ops is not responsible for the list pull. You must open an [list request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-target-list) with the Marketing Strategy and Analytics team, or the appropriate data engineers.
 
@@ -85,10 +85,10 @@ Emails are sent to update a specific group of people about a change to the produ
 
 Communication checklist:
 
-- Check with the [CS Ops team](h/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/) to see if they should be sending this email via gainsight
+- Check with the [CS Ops team](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/) to see if they should be sending this email via gainsight
 - Loop in Customer Service and Field teams if this change will impact them or a major change/communication
 - For more significant emails like incidents, breaking changes, pricing, material changes or issues with significant risk the following must be approved in sequence by the head of the department that is leading the communication (e.g., Product, Engineering, Security), Vice President of Customer Success, Legal, or appropriate designates (if they are out on PTO or unavailable).
-     - For breaking changes, please loop in `@jmalleo`, `@DianaSingh`, and `@eshutty`
+  - For breaking changes, please loop in `@jmalleo`, `@DianaSingh`, and `@eshutty`
 
 #### Marketing Operations Steps to Deploy
 
