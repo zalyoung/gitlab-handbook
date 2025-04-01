@@ -499,6 +499,10 @@ If the team member wants to keep their account as a wider community member, foll
 
 1. Remove the user from the [core team](https://forum.gitlab.com/g/core-team) group.
 
+#### Offboarding automation help
+
+Follow the README in the [internal `team-member-offboarding-discourse` project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/team-member-offboarding-discourse).
+
 ## Projects
 
 ### Fighting spam on Discourse
