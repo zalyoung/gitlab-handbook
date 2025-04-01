@@ -22,7 +22,7 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 [Managing team members on your account](https://vimeo.zendesk.com/hc/en-us/articles/224818687-Managing-team-members-on-your-account)
 
 1. `Viewers` - Viewers can be invited to specific folders within the account, but they will have limited access to the contents of those folders. They can access the review page, leave notes, and share videos that are within those folders. They do not have the ability to upload, edit, publish, or access any other settings or areas of the account that are meant for working members.
-1. `Contributors` - Contributors can be invited to access a specific folder within the account. They'll have the ability to upload, edit, review, share, and publish videos within a folder, but won't have access to any of your other folders or areas of your account. A contributor also won't be able to change the title of a folder, delete a folder, or delete a video from the account. They can view settings of a video in that folder as well as the analytics tab, which has numbers from the past 30 days but won't have access to advanced analytics for the video. Once in the `Video Manager`, Contributors will only be able see the folders to which they have been invited. In addition, contributors can access settings of an archived live event within the folder to which they contribute. 
+1. `Contributors` - Contributors can be invited to access a specific folder within the account. They'll have the ability to upload, edit, review, share, and publish videos within a folder, but won't have access to any of your other folders or areas of your account. A contributor also won't be able to change the title of a folder, delete a folder, or delete a video from the account. They can view settings of a video in that folder as well as the analytics tab, which has numbers from the past 30 days but won't have access to advanced analytics for the video. Once in the `Video Manager`, Contributors will only be able see the folders to which they have been invited. In addition, contributors can access settings of an archived live event within the folder to which they contribute.
 1. `Admins` - Admins can help upload and manage all videos, folders, and collections. Admins will not be able to access account settings or payment information. Admins also cannot delete videos; only the account owner can do this. Admins have access to the following features:
    - Creating, managing, and deleting collections
    - Creating, managing, and deleting folders
@@ -100,10 +100,10 @@ From the stats panel for your video, you can check the number of times the email
 On the `Marketing` tab of `Account Settings`, you can download a CSV of all the emails captured through your embedded videos. The CSV contains the name (if provided), video ID, domain, and date captured associated with each email address. To download the CSV:
 
 1. Click the button below the `Download email addresses` heading. The first time you download the CSV, you will be prompted to accept the following terms:
-    - I will only use collected email addresses for marketing purposes.
-    - I will not share these email addresses with others.
-    - I will comply with CAN-SPAM, CASL, and any other applicable laws.
-    - I will provide an unsubscribe mechanism and comply promptly with opt-out requests.
+   - I will only use collected email addresses for marketing purposes.
+   - I will not share these email addresses with others.
+   - I will comply with CAN-SPAM, CASL, and any other applicable laws.
+   - I will provide an unsubscribe mechanism and comply promptly with opt-out requests.
 
 Once you accept, the CSV will download.
 
