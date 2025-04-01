@@ -1113,6 +1113,63 @@ def test_get_response(utils):
         _ = utils.get_response("https://fake_url/test")
 ```
 
+##### Pytest with simulating environment variables
+
+If you need to add environment variables in the pytest code, you should do it with fixtures.
+
+- Option 1: Using `environ`
+
+```python
+from os import environ
+
+@pytest.fixture(name="env_var")
+def fixture_data_classification():
+    """
+    Create env variables and initialize
+    DataClassification object
+    """
+    environ["SNOWFLAKE_PREP_DATABASE"] = "PREP"
+    environ["SNOWFLAKE_PROD_DATABASE"] = "PROD"
+    environ["SNOWFLAKE_LOAD_DATABASE"] = "RAW"
+
+# usage
+# def test_initialization(env_var)
+# ...
+```
+
+- Option 2: Using `mock.patch`
+
+```python
+from unittest.mock import patch
+
+@pytest.fixture(autouse=True, name="set_env_variables")
+def mock_settings_env_vars():
+    """
+    Simulate OS env. variables
+    """
+    with mock.patch.dict(os.environ, {"START_TIME": "2023-01-01T00:00:00Z"}):
+        yield
+
+# usage is automatically started, as autouse was set to True
+```
+
+##### Skip long running test
+
+If you have a scenario where you want to skip a specific test in the CI/CD pipeline (ie. it si too large or taking too long), but want to run it locally on demand, you can use `skipif` command.
+
+```python
+# if you type command:
+# export RUNALL=YES
+# test will run, otherwise will skip
+
+@pytest.mark.skipif(
+    "RUNALL" not in environ,
+    reason="Takes too long if run in the pipeline, want to run locally only",
+)
+def test_long_running_job():
+    ...
+```
+
 ##### Beyond pytest: Useful pytest Plugins
 
 When `pytest` is not able to answer your needs is more complicated scenarios, handy plugins should be found. By now, didn't find any usage outside of `pytest` in `/analytics` repo, and it is good to know there are some useful tools can help you do your work.
