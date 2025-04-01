@@ -61,7 +61,7 @@ We propose implementing a unified deletion flow across all GitLab environments a
    - Introduce dedicated "Bin" section in UI for managing deleted items
    - Create clear separation between "Move to Bin" and "Delete Permanently" actions
    - Implement bulk actions for trash management (restore multiple, empty trash)
-   - Add filtering and sorting capabilities in the trash view
+   - Add filtering and sorting capabilities in the Bin view
 
 Find a visual reference of this proposal in [Figma](https://www.figma.com/board/AKGxnlizU5pr8r8zRled7z/Group-and-project-deletion-flow?node-id=0-1&p=f&t=9BDJWEeUGiTugJAW-0).
 
