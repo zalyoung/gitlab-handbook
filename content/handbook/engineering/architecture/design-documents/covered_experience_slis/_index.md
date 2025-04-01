@@ -188,35 +188,41 @@ Given that Application SLIs are implemented in the [Rails monolith](https://gitl
 
 The SDK will emit 1 event in every checkpoint (each interaction along the entire flow):
 
-| **gitlab_covered_experience_checkpoint_total** | LABEL                 | EXAMPLE VALUE                               | METRIC | LOG |
-|------------------------------------------------|-----------------------|---------------------------------------------|--------|-----|
-|                                                | covered_experience_id | security_scan                               | yes    | yes |
-|                                                | correlation_id        | f93ae47de7f848343cf85511b47923ce            | no     | yes |
-|                                                | feature_category      | vulnerability_management                    | yes    | yes |
-|                                                | checkpoint            | start \| intermediate \| end                | yes    | yes |
-|                                                | checkpoint_category   | e.g. authorize (impose limited cardinality) | no     | yes |
-|                                                | type                  | web                                         | yes    | yes |
-|                                           | meta                        | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
+**gitlab_covered_experience_checkpoint_total**
+
+| LABEL                 | EXAMPLE VALUE                                                                                                                                                                | METRIC | LOG |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-----|
+| covered_experience_id | security_scan                                                                                                                                                                | yes    | yes |
+| correlation_id        | f93ae47de7f848343cf85511b47923ce                                                                                                                                             | no     | yes |
+| feature_category      | vulnerability_management                                                                                                                                                     | yes    | yes |
+| checkpoint            | start \| intermediate \| end                                                                                                                                                 | yes    | yes |
+| checkpoint_category   | e.g. authorize (impose limited cardinality)                                                                                                                                  | no     | yes |
+| type                  | web                                                                                                                                                                          | yes    | yes |
+| meta                  | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
 
 And 2 more events, emitted at the end of the flow, to signify error and success:
 
-| **gitlab_covered_experience_total** | LABEL                       | EXAMPLE VALUE                    | METRIC | LOG |
-|-------------------------------------|-----------------------------|----------------------------------|--------|-----|
-|                                     | covered_experience_id       | security_scan                    | no     | yes |
-|                                     | correlation_id              | f93ae47de7f848343cf85511b47923ce | no     | yes |
-|                                     | feature_category            | vulnerability_management         | yes    | yes |
-|                                     | error                       | true \| false                    | yes    | yes |
-|                                     | type                        | sidekiq                          | yes    | yes |
-|                                     | meta                  | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests| no     | yes |
+**gitlab_covered_experience_total**
 
-| **gitlab_covered_experience_apdex_total** | LABEL                       | EXAMPLE VALUE                    | METRIC | LOG |
-|-------------------------------------------|-----------------------------|----------------------------------|--------|-----|
-|                                           | covered_experience_id       | security_scan                    | no     | yes |
-|                                           | correlation_id              | f93ae47de7f848343cf85511b47923ce | no     | yes |
-|                                           | feature_category            | vulnerability_management         | yes    | yes |
-|                                           | success                     | true \| false                    | yes    | yes |
-|                                           | type                        | sidekiq                          | yes    | yes |
-|                                           | meta                  | { "relevant attribute to the event": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
+| LABEL                 | EXAMPLE VALUE                                                                                                                                                                | METRIC | LOG |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-----|
+| covered_experience_id | security_scan                                                                                                                                                                | yes    | yes |
+| correlation_id        | f93ae47de7f848343cf85511b47923ce                                                                                                                                             | no     | yes |
+| feature_category      | vulnerability_management                                                                                                                                                     | yes    | yes |
+| error                 | true \| false                                                                                                                                                                | yes    | yes |
+| type                  | sidekiq                                                                                                                                                                      | yes    | yes |
+| meta                  | { "relevant attributes": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
+
+**gitlab_covered_experience_apdex_total**
+
+| LABEL                 | EXAMPLE VALUE                                                                                                                                                                            | METRIC | LOG |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-----|
+| covered_experience_id | security_scan                                                                                                                                                                            | yes    | yes |
+| correlation_id        | f93ae47de7f848343cf85511b47923ce                                                                                                                                                         | no     | yes |
+| feature_category      | vulnerability_management                                                                                                                                                                 | yes    | yes |
+| success               | true \| false                                                                                                                                                                            | yes    | yes |
+| type                  | sidekiq                                                                                                                                                                                  | yes    | yes |
+| meta                  | { "relevant attribute to the event": "tailored for the specific event" } <br> i.e. https://docs.gitlab.com/development/logging/#logging-context-metadata-through-rails-or-grape-requests | no     | yes |
 
 ## Alternative Solutions
 
