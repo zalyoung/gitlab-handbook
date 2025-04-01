@@ -105,8 +105,8 @@ Note, we considered the following four deployment targets (for GitLab) when asse
 
 | Dimension / Solution |  [Apache Kafka](https://kafka.apache.org/) |  [RabbitMQ](https://www.rabbitmq.com/) |  [Google PubSub](https://cloud.google.com/pubsub?hl=en) |  [AWS Kinesis](https://aws.amazon.com/kinesis/) |  [NATS](https://nats.io/) | Our preferred solution for the given dimension(s) |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-|  __Distribution__: Assess packaging and distribution complexity of the system. | Available as a JVM-based application, [pre-packaged for most environments](https://kafka.apache.org/downloads) we intend to run it in. <br><br> __Score: 6/10__ | Available [pre-packaged for most environments](https://www.rabbitmq.com/docs/download) we intend to run it in, though having support for `Erlang` as a runtime makes distribution non-trivial compared to e.g. Go or Java. <br><br> __Score: 5/10__ | Externally managed cloud solution, available on Google Cloud Project. <br><br> __Score: 10/10__ | Externally managed cloud solution, available on Amazon Web Services. It scores slightly less than GCP considering our tight integrations on GCP for hosting .com SaaS. <br><br> __Score: 9/10__ | Available as a compiled, lightweight, single-binary developed in Golang. [NATS can be packaged and deployed in all environments we support](https://docs.nats.io/running-a-nats-service/introduction/installation) running GitLab instances in. <br><br> __Score: 8/10__ | NATS or cloud-managed services subject to self-hosting challenges. |
-| __Operational Complexity__: Consider management of this solution in: <br> __GitLab.com SaaS__ (multitenant). <br> __GitLab Dedicated__ (single tenant). <br> __Self-Managed (SM) on Cloud__. <br> __Self-Managed (SM) on-premise__. |  Kafka can be non-trivial to operate, generally speaking. <br><br> __.com SaaS__: Should be non-trivial to add & support with a very large storage footprint. 🔴 <br><br> __Dedicated__: Should be non-trivial to add & support, though storage footprint might be manageable. 🟡  <br><br>  __SM on Cloud__: Should be trivial to add & support though it’s highly cost-intensive even on smaller reference architectures. See [\[1\]](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1589#note_2060391762), [\[2\]](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/issues/44#note_2025872500) for past discussions. <br><br> __SM on-prem__: High upfront capex & opex unless already available within the environment. 🔴 <br><br> __Score: 5/10__ | RabbitMQ can be non-trivial to operate, generally speaking. <br><br> __.com SaaS__: Should be non-trivial to add & support with a reasonably large large storage footprint. 🔴 <br><br> __Dedicated__: Should be non-trivial to add & support, though storage footprint should be manageable. 🟡  <br><br> __SM on Cloud__: Trivial to add support, though highly cost-intensive even with smaller reference architectures. 🔴 <br><br> __SM on-prem__: High upfront capex & opex unless already available within the environment. 🔴 <br><br> __Score: 4/10__ | Google PubSub comes with near-zero operational complexity being an externally managed cloud solution. <br><br> __.com SaaS__: Should be trivial to add & support. 🟢 <br><br> __Dedicated__: Should be trivial to add & support should we need to build Dedicated environments in GCP. 🟡 <br><br> __SM on Cloud__: Should be trivial to add & support. 🟢  <br><br> __SM on-prem__: Discarding the possibility of use assuming the environment to be air-gapped. 🔴  <br><br> __Score: 8/10__ | Amazon Kinesis comes with near-zero operational complexity being an externally managed cloud solution. <br><br> __.com SaaS__: Should be trivial to add & support. 🟢  <br><br> __Dedicated__: Should be trivial to add & support considering Dedicated environments already exist on AWS. 🟢  <br><br> __SM on Cloud__: Should be trivial to add & support. 🟢  <br><br> __SM on-prem__: Discarding the possibility of use assuming the environment to be air-gapped. 🔴  <br><br> It might also be worth noting that Dedicated uses Kinesis for log aggregation and frequently experiences performance problems with it. See [these issues](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?sort=created_date&state=all&search=kinesis&first_page_size=100) for more context. <br><br> __Score: 7/10__ | NATS is reasonably trivial to operate, given its architecture. <br><br> __.com SaaS__: Should be trivial to add & support, storage footprint can be managed on a per use-case basis. 🟢  <br><br> __Dedicated__: Should be trivial to add & support, storage footprint can be managed on a per use-case basis. 🟢  <br><br> __SM on Cloud__: Support not available on major hyperclouds but available via [Synadia Cloud](https://www.synadia.com/cloud). 🟡  <br><br> __SM on-prem__: Should be non-trivial to add & support, storage footprint can be managed on a per use-case basis. 🟡 <br><br> __Score: 8/10__ | NATS or cloud-managed services subject to self-hosting challenges. Note, for most self-managed on-premise installations, NATS stands out as a potential solution. |
+|  __Distribution__: Assessing packaging and distribution complexity of the system. | Available as a JVM-based application, [pre-packaged for most environments](https://kafka.apache.org/downloads) we intend to run it in. <br><br> __Score: 6/10__ | Available [pre-packaged for most environments](https://www.rabbitmq.com/docs/download) we intend to run it in, though having support for `Erlang` as a runtime makes distribution non-trivial compared to e.g. Go or Java. <br><br> __Score: 5/10__ | Externally managed cloud solution, available on Google Cloud Project. <br><br> __Score: 10/10__ | Externally managed cloud solution, available on Amazon Web Services. It scores slightly less than GCP considering our tight integrations on GCP for hosting .com SaaS. <br><br> __Score: 9/10__ | Available as a compiled, lightweight, single-binary developed in Golang. [NATS can be packaged and deployed in all environments we support](https://docs.nats.io/running-a-nats-service/introduction/installation) running GitLab instances in. <br><br> __Score: 8/10__ | NATS or cloud-managed services subject to self-hosting challenges. |
+| __Operational Complexity__: Considering management of this solution in: <br> __GitLab.com SaaS__ (multitenant). <br> __GitLab Dedicated__ (single tenant). <br> __Self-Managed (SM) on Cloud__. <br> __Self-Managed (SM) on-premise__. |  Kafka can be non-trivial to operate, generally speaking. <br><br> __.com SaaS__: Should be non-trivial to add & support with a very large storage footprint. 🔴 <br><br> __Dedicated__: Should be non-trivial to add & support, though storage footprint might be manageable. 🟡  <br><br>  __SM on Cloud__: Should be trivial to add & support though it’s highly cost-intensive even on smaller reference architectures. See [\[1\]](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1589#note_2060391762), [\[2\]](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/issues/44#note_2025872500) for past discussions. <br><br> __SM on-prem__: High upfront capex & opex unless already available within the environment. 🔴 <br><br> __Score: 5/10__ | RabbitMQ can be non-trivial to operate, generally speaking. <br><br> __.com SaaS__: Should be non-trivial to add & support with a reasonably large large storage footprint. 🔴 <br><br> __Dedicated__: Should be non-trivial to add & support, though storage footprint should be manageable. 🟡  <br><br> __SM on Cloud__: Trivial to add support, though highly cost-intensive even with smaller reference architectures. 🔴 <br><br> __SM on-prem__: High upfront capex & opex unless already available within the environment. 🔴 <br><br> __Score: 4/10__ | Google PubSub comes with near-zero operational complexity being an externally managed cloud solution. <br><br> __.com SaaS__: Should be trivial to add & support. 🟢 <br><br> __Dedicated__: Should be trivial to add & support should we need to build Dedicated environments in GCP. 🟡 <br><br> __SM on Cloud__: Should be trivial to add & support. 🟢  <br><br> __SM on-prem__: Discarding the possibility of use assuming the environment to be air-gapped. 🔴  <br><br> __Score: 8/10__ | Amazon Kinesis comes with near-zero operational complexity being an externally managed cloud solution. <br><br> __.com SaaS__: Should be trivial to add & support. 🟢  <br><br> __Dedicated__: Should be trivial to add & support considering Dedicated environments already exist on AWS. 🟢  <br><br> __SM on Cloud__: Should be trivial to add & support. 🟢  <br><br> __SM on-prem__: Discarding the possibility of use assuming the environment to be air-gapped. 🔴  <br><br> It might also be worth noting that Dedicated uses Kinesis for log aggregation and frequently experiences performance problems with it. See [these issues](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?sort=created_date&state=all&search=kinesis&first_page_size=100) for more context. <br><br> __Score: 7/10__ | NATS is reasonably trivial to operate, given its architecture. <br><br> __.com SaaS__: Should be trivial to add & support, storage footprint can be managed on a per use-case basis. 🟢  <br><br> __Dedicated__: Should be trivial to add & support, storage footprint can be managed on a per use-case basis. 🟢  <br><br> __SM on Cloud__: Support not available on major hyperclouds but available via [Synadia Cloud](https://www.synadia.com/cloud). 🟡  <br><br> __SM on-prem__: Should be non-trivial to add & support, storage footprint can be managed on a per use-case basis. 🟡 <br><br> __Score: 8/10__ | NATS or cloud-managed services subject to self-hosting challenges. Note, for most self-managed on-premise installations, NATS stands out as a potential solution. |
 | __Availability as a Managed Service__: Do AWS, Google Cloud or Azure provide a managed service? | [AWS-managed Kafka (MSK)](https://aws.amazon.com/msk/) [GCP Managed service for Kafka](https://cloud.google.com/products/managed-service-for-apache-kafka?hl=en) [Azure Messaging Services](https://learn.microsoft.com/en-us/azure/messaging-services/) OR [Hosted Kafka on Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/canonical.0001-com-ubuntu-managed-kafka), supported by Canonical. <br><br> __Score: 10/10__ | [Amazon MQ](https://aws.amazon.com/amazon-mq/) [Hosted RabbitMQ on Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/84codes.cloudamqp-v4?tab=overview) supported by CloudAMQP. <br><br> __Score: 6/10__ | Managed service. <br><br> __Score: 10/10__ | Managed service. <br><br> __Score: 9/10__ | Not available on the major hyperclouds directly but it is available as a [managed cloud solution via Synadia Cloud](https://www.synadia.com/cloud). <br><br> __Score: 6/10__ | Google PubSub or AWS Kinesis subject to which environment we’re deploying our applications to. <br><br> Integration with Synadia Cloud is pending exploration. |
 | __Consistency/Maturity__: Jepson reports, other potential concerns with consistency? | Jepsen testing has been done for Kafka, no consistency concerns outside of normal distributed systems exist. <br><br> __Score: 9/10__ | Jepsen testing has been done for RMQ, no consistency concerns outside of normal distributed systems exist. <br><br> __Score: 9/10__ | No concerns. <br><br> __Score: 10/10__ | No concerns. <br><br> __Score: 10/10__ | Jepson tests have not been performed yet, though NATS has had considerable production presence across its set of adopters. <br><br> __Score: 8/10__ | No outright blockers against using any of the explored systems. |
 | __Cloud Native Support__: How complex is it to run the service in Kubernetes? | Yes, popularly deployed via Kubernetes Operators such as [Strimzi](https://github.com/strimzi/strimzi-kafka-operator). <br><br> __Score: 5/10__ | Yes, also deployable via [the Kubernetes operator](https://www.rabbitmq.com/kubernetes/operator/operator-overview) officially supported by the RMQ team. <br><br> __Score: 5/10__ | Managed service, integration only. <br><br> __Score: 10/10__ | Managed service, integration only. <br><br> __Score: 10/10__ | Yes, [deployable via Helm charts](https://docs.nats.io/running-a-nats-service/nats-kubernetes). <br><br> __Score: 9/10__ | NATS or cloud-managed services subject to self-hosting challenges. |
@@ -119,10 +119,11 @@ Note, we considered the following four deployment targets (for GitLab) when asse
 | __Community Adoption__: How widely adopted is the system? Contributions from multiple organisations, etc. | Widely adopted. <br><br> __Score: 10/10__ | Widely adopted. <br><br> __Score: 9/10__ | Widely adopted. <br><br> __Score: 10/10__ | Widely adopted. <br><br> __Score: 10/10__ | Widely adopted. <br><br> __Score: 9/10__ | No clear winners here. All considered solutions have decent footprints subject to the different dimensions applicable to different users. |
 | __Operational costs:__ How expensive is it to adopt/run the system esp. at our scale? <br><br> __Note:__ See detailed analysis of costs and its breakdown with used reference architectures and underlying sizing [later in this document](#cost-estimation--analysis). | When compared to NATS or RabbitMQ, Kafka can be more resource intensive both in compute and storage given its replication overheads. It’ll consume more compute nodes if we use Zookeeper for cluster coordination OR more vCPUs in the case of using KRaft which works on the same JVM as the broker process. <br><br> __Score: 6/10__ | RabbitMQ can be slightly more compute intensive as compared to NATS given its acknowledgement mechanism, wherein it’s more suitable for more transactional streaming workloads. Operational costs roughly similar to NATS otherwise. <br><br> __Score: 7/10__ | Managed solution with a major share of costs coming from data transfer to & from the backing system. Additionally, having to retain data for longer costs more in GCP than AWS. <br><br> __Score: 4/10__ | Managed solution, with a major share of costs coming from data transfer to & from the backing system. <br><br> __Score: 5/10__ | Least compute intensive of the systems analysed, with a minimal footprint on storage as well. Scales horizontally with our reference architectures without incurring large overheads. <br><br> __Score: 9/10__ | NATS clearly stands out given its minimal footprint and lesser overheads assuming we can discount any self-hosting challenges. Any of the analysed managed services in the Cloud cost an order of magnitude more, especially at scale. |
 | __Net Score__ | __83__ | __76__ | __111__ | __105__ | __100__ | \- |
+|  | [Apache Kafka](https://kafka.apache.org/) | [RabbitMQ](https://www.rabbitmq.com/) | [Google PubSub](https://cloud.google.com/pubsub?hl=en) | [AWS Kinesis](https://aws.amazon.com/kinesis/) | [NATS](https://nats.io/) | - |
 
 ### Cost estimation & analysis
 
-To ensure a comparable analysis for the different systems, we made some assumptions around how much data we need to host in each of the analyses systems.
+To ensure a comparable analysis for the different systems, we made some assumptions around how much data we need to host in each of the analysed systems.
 
 __For example__, accounting for all Snowplow-instrumented data originating from .com SaaS, we estimate to generate 500GB data events per day. If we then intend to retain this data for a week, we’ll roughly accumulate 3.5TB data which will need to be hosted on the underlying infrastructure at any given point in time. It can be assumed that data lifecycle policies kick-in correctly and this remains our maximum storage footprint within the context of this example.
 
@@ -130,7 +131,7 @@ __For example__, accounting for all Snowplow-instrumented data originating from 
 - __Retention__: 7 days
 - __Maximum stored data__: 500GB \* 7 days \= 3.5TB
 
-The following is how all analysed backends fair with that amount of data.
+__The following is how all analysed backends fair with that amount of data.__
 
 | System / Components | Deployment Target | Compute | Storage | Network | Support/Operational | Total Estimate |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -190,7 +191,7 @@ Before estimating resources, we’ll need a measure of message traffic across th
 - All things considered, NATS appears to be the _least expensive_ across all backends, considering it [ships as a single Go-binary](https://docs.nats.io/running-a-nats-service/introduction/installation) and can be installed in close-proximity to user services/applications with zero external dependencies. When needed, it can be scaled/sharded out across multiple servers/clusters subject to which reference architecture we run it within.
 - The only factor favouring managed cloud-solutions instead is any support costs involved but their operational costs seem to outweigh any benefits we derive from using them, especially as their usage and/or adoption grows with our scale.
 
-The rest of the document focuses on building out the proposal to use NATS as the messaging solution within a GitLab instance.
+__The rest of this document focuses on building out the proposal to use NATS as the messaging solution within a GitLab instance.__
 
 ### Components
 
@@ -204,11 +205,11 @@ With the intention to make NATS available to every GitLab installation, we aim t
 
 | Deployment type | Proposed topology |
 |---|---|
-| GDK | Run local to the installation |
-| .com | Dedicated cluster |
+| GDK | Running local to the installation |
+| .com | One or more dedicated cluster(s) |
 | Cells | One or more clusters subject to cells-topology |
-| Dedicated | Dedicated cluster per instance |
-| Self-Managed | Standalone cluster subject to distribution |
+| Dedicated | One dedicated cluster per instance |
+| Self-Managed | Standalone cluster subject to distribution/instance-sizing |
 
 ### Tenancy
 
@@ -244,7 +245,7 @@ nats-1.nats.default.svc.cluster.local
 nats-2.nats.default.svc.cluster.local
 ```
 
-![server-setup](/static/images/engineering/architecture/design-documents/nats/server-setup.png)
+![server-setup](/images/engineering/architecture/design-documents/nats/server-setup.png)
 
 ### Setup
 
@@ -254,7 +255,7 @@ nats-2.nats.default.svc.cluster.local
 
 ### Connectivity
 
-- NATS comes with support for both plaintext and TLS connections; we intend to use TLS-enabled connections to help authenticate all incoming traffic.
+- NATS comes with support for both plaintext and TLS connections. We intend to use TLS-enabled connections to help authenticate all incoming traffic.
 
 - Access to the NATS service will only be available to internal network clients. External clients will not be able to connect to the NATS service.
 
@@ -276,16 +277,16 @@ nats-2.nats.default.svc.cluster.local
 - If running it cloud-natively does incur overheads, we can resort to running NATS directly on VMs within the same VPC/network-boundaries to leverage better utilisation of the underlying hardware and reduce any operational complexity.
 
 - We have also prototyped both of these deployment models:
-  - using Helm chart for cloud native installations, [initial POC](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/nats-poc)
-  - using Terraform directly on cloud VMs - [initial POC](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/nats-terraform)
+  - using a Helm chart for cloud native installations, [initial POC](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/nats-poc)
+  - using Terraform to install NATS on cloud VMs directly - [initial POC](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/nats-terraform)
 
 ### Data persistence
 
-- NATS allows all ingested data to be stored in-memory or disk-based.
-- We intend to leverage Jetstream to persist all ingested data durably.
-- We expect to use SSDs to improve performance.
-- We intend to plan disk-sizing based on retention policies for ingested data, possibly overestimating it to begin with, especially while we tune our needs gradually. It is also prudent to ensure we can resize underlying storage trivially when needed.
-- We aim to enable compression to reduce storage footprint further.
+- NATS allows all ingested data to be stored in-memory or persisted on-disk.
+- We intend to leverage [NATS JetStream](https://docs.nats.io/nats-concepts/jetstream) to persist all ingested data durably.
+- We expect to use SSDs to improve the performance of all read/write operations.
+- We intend to enforce [retention policies for ingested data](https://docs.nats.io/nats-concepts/jetstream/streams#retentionpolicy) and provision underlying storage with sufficient headroom to begin with especially as we tune our retention needs gradually. From an operational perspective, it is necessary we have the ability to increase underlying storage trivially when needed.
+- We expect to enable data compression to reduce storage footprint further.
 
 ### Integration with GitLab
 
@@ -306,10 +307,10 @@ nats-2.nats.default.svc.cluster.local
 
 We take [Siphon](/handbook/engineering/architecture/design-documents/siphon) as an example use-case here, wherein we cover:
 
-- Creation of accounts to isolate clients
+- Creation of accounts to isolate clients.
   - Adding users to these accounts with specific permissions for available subjects. Authentication will be achieved via [nkeys](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/auth_intro/nkey_auth).
   - Producers and consumers have their own users and permissions.
-- Producer/Consumer nkeys are to be treated with the same security practices as we currently do for our database secrets.
+- Producer/Consumer `nkeys` are to be treated with the same security practices as we currently do for our database secrets.
 
 Example `authorization.conf`
 
@@ -350,7 +351,7 @@ func TestServerConfiguration(t *testing.T) {
     server, _ := RunServerWithConfig("authorization.conf")
     t.Logf(server.ClientURL())
 
-  // producer_nkey.txt holds the nkey seed
+    // producer_nkey.txt holds the nkey seed
     opt, err := nats.NkeyOptionFromSeed("producer_nkey.txt")
     if err != nil {
         t.Error(err)
@@ -379,7 +380,7 @@ func TestServerConfiguration(t *testing.T) {
 
 ### Auditing/Logging
 
-- We can ship necessary [NATS logs](https://docs.nats.io/running-a-nats-service/configuration/logging) to our centralised logging infrastructure to enable any auditing/monitoring purposes.
+- We intend to ship necessary [NATS logs](https://docs.nats.io/running-a-nats-service/configuration/logging) to our centralised logging infrastructure to enable any auditing/monitoring purposes.
 
 ## Operations
 
@@ -387,7 +388,9 @@ func TestServerConfiguration(t *testing.T) {
 
 NATS is extremely lightweight and can support ingesting & digesting high amounts of messages with sub-millisecond latencies. Given its architecture, it's also optimized for handling backpressure and exercise flow-control subject to traffic volumes.
 
-We ran the following preliminary tests against a Kubernetes-based NATS cluster with 3 servers each running running on a `c2d-standard-16` GKE node and attached to a 100GB `pd-balanced` SSD persistent volume. __Note__, the underlying GKE cluster is a regional cluster with cluster-nodes spread in 3 distinct AZs. NATS servers were carefully spread across the 3 AZs at all times.
+We ran the following preliminary tests against a Kubernetes-based NATS cluster with 3 servers, each such server (pod) running running on a `c2d-standard-16` GKE node and attached to a 100GB `pd-balanced` SSD persistent volume for data storage.
+
+__Note__, the underlying GKE cluster is a regional cluster with cluster-nodes spread in 3 distinct AZs. NATS servers (pods) were carefully spread across the 3 AZs at all times during our tests.
 
 ### Key insights
 
@@ -399,7 +402,7 @@ We ran the following preliminary tests against a Kubernetes-based NATS cluster w
 
 __CPU usage remained consistently low while write-throughput takes a notable hit.__
 
-```
+```text
 ➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2 --syncpub
 10:55:59 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
 10:55:59 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000,000, msgsize=128 B, pubs=1, subs=5, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=true, pubbatch=100, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=2, purge=true, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
@@ -419,7 +422,7 @@ NATS Pub/Sub stats: 7,957 msgs/sec ~ 994.75 KB/sec
 
 __CPU usage is proportional to batch-size with write-throughput improving with moderately sized batches.__
 
-```
+```text
 ➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2
 11:13:02 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
 11:13:02 Starting JetStream benchmark [subject=foobar, multisubject=false, multisubjectmax=100000, js=true, msgs=1,000,000, msgsize=128 B, pubs=1, subs=5, stream=benchstream, maxbytes=20 GiB, storage=file, syncpub=false, pubbatch=100, jstimeout=30s, pull=false, consumerbatch=100, push=false, consumername=natscli-bench, replicas=2, purge=true, pubsleep=0s, subsleep=0s, dedup=false, dedupwindow=2m0s]
@@ -467,7 +470,7 @@ NATS Pub/Sub stats: 424,064 msgs/sec ~ 51.77 MB/sec
 
 __Nothing noteworthy about CPU usage with pull consumers performing better than push ones.__
 
-```
+```text
 ➜  platform-pre-stg kubectl -n nats exec -it nats-box-6888bbc55c-kd6tm -- nats --server=nats://nats.nats.svc.cluster.local:4222 bench foobar --pub 1 --sub 5 --msgs=1000000 --js --maxbytes 20GB --purge --replicas=2 --no-progress --pubbatch=100 --push
 11:24:53 JetStream durable push consumer mode, subscriber(s) will explicitly acknowledge the consumption of messages
 11:24:53 JetStream ephemeral ordered push consumer mode, subscribers will not acknowledge the consumption of messages
@@ -518,6 +521,8 @@ NATS Pub/Sub stats: 95,057 msgs/sec ~ 11.60 MB/sec
 
 - While stream replication ensures data redundancy for ingested data, asynchronous writes might still lead to loss of data. To minimise any loss of data, clients should prefer synchronous writes to ensure all ingested data is durably replicated before their writes get acknowledged, with the caveat that synchronous writes will reduce overall write-performance.
 
+__Note__ Further details of how NATS publishers or consumers must be designed is out of scope for this blueprint. All user-facing documentation for building NATS applications will be developed separately.
+
 - All ingested data is persisted durably via NATS Jetstream. In the event of unrecoverable messages however, we can rely on an explicit [disaster recovery setup](https://docs.nats.io/running-a-nats-service/nats_admin/jetstream_admin/disaster_recovery) to recover data, which includes:
   - Automatic recovery in case of intact quorum nodes for replicated streams, or
   - Manual recovery from periodic stream backups.
@@ -526,7 +531,7 @@ __Note__ To ensure all persisted data is recoverable, we'll need to integrate su
 
 __Note__, in the specific case of Siphon, all data buffered within NATS and due to be exported to ClickHouse _also_ remains available in Postgres. In the scenario where Siphon fails to connect to NATS or there is data loss on NATS, Siphon can perform a full-resync to ensure data consistency across Postgres & ClickHouse again. For other use-cases where this is not possible, we'll have to depend on recovering lost data automatically or manually from backups as stated above.
 
-- We do not expect auth failures while we using centralized model with users/accounts setup within NATS beforehand but the introduction of an external auth callout service can add further failure domains to the system. We'll need to guarantee higher or equal SLOs on the auth-server as we intend for NATS as a service.
+- We do not expect auth failures while using a centralized model with users/accounts setup within NATS at deployment-time but the introduction of an external auth callout service can add further failure domains to the system. As a dependency, we'll need to guarantee reliability SLOs on our implementation of an auth-server to be equal or higher than those for the NATS service itself. The development of such an abstraction is _out-of-scope_ for this iteration of the blueprint.
 
 ## Additional Context
 
