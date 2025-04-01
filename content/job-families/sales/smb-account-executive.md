@@ -120,7 +120,9 @@ This is a high-impact role for someone who is competitive, self-starter and hung
 
 ## New Logo Sales Manager
 
-### The New Logo Sales Manager is a grade 8.
+### Job Grade 
+
+The New Logo Sales Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities 
 
