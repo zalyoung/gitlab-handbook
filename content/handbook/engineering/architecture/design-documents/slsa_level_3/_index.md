@@ -245,7 +245,7 @@ component:
     variables:
       BUNDLE_FILE: "cosign-bundle.json" # Path to the bundle file
       VERIFICATION_SUMMARY_FILE: "verification_summary.json" # Output verification summary file
-      RESOURCE_URI: "" # Full URI to the published artifact
+      RESOURCE_URL: "" # Full URL to the published artifact
       POLICY_URL: "https://gitlab.com/slsa-vsa-policy/v1" # Default policy URL
 
   id_tokens:
@@ -266,9 +266,9 @@ component:
     - mkdir -p .tmp
 
   script:
-    - echo "Downloading artifact from ${RESOURCE_URI}..."
+    - echo "Downloading artifact from ${RESOURCE_URL}..."
     - mkdir -p $(dirname ${DOWNLOADED_ARTIFACT})
-    - curl -L -o ${DOWNLOADED_ARTIFACT} ${RESOURCE_URI}
+    - curl -L -o ${DOWNLOADED_ARTIFACT} ${RESOURCE_URL}
     
     - echo "Calculating artifact digest..."
     - ARTIFACT_DIGEST=$(sha256sum ${DOWNLOADED_ARTIFACT} | cut -d ' ' -f 1)
@@ -297,7 +297,7 @@ component:
     - mkdir -p $(dirname ${VERIFICATION_SUMMARY_FILE})
     - jq -n --arg policyUrl "${POLICY_URL}" --arg result "${RESULT}" \
           --arg verifierId "${VERIFIER_ID}" \
-          --arg timeVerified "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" --arg resourceUri "${RESOURCE_URI}" \
+          --arg timeVerified "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" --arg resourceUri "${RESOURCE_URL}" \
           --argjson verifiedLevels '["SLSA_L3"]' --arg sha256 "${ARTIFACT_DIGEST}" \
           --arg bundleFilePath "${BUNDLE_FILE}" --arg bundleFileHash "$(sha256sum ${BUNDLE_FILE} | cut -d ' ' -f 1)" \
           --arg policyDigest "${POLICY_DIGEST}" \
@@ -411,11 +411,11 @@ publish_artifact:
   script:
     - echo "Publishing artifact to package registry..."
     - |
-      ARTIFACT_URI=$(curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" \
+      ARTIFACT_URL=$(curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" \
         --upload-file dist/example-artifact.txt \
         "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/artifacts/1.0.0/example-artifact.txt" \
         | jq -r '.location')
-    - echo "ARTIFACT_URI=${ARTIFACT_URI}" >> publish.env
+    - echo "ARTIFACT_URL=${ARTIFACT_URL}" >> publish.env
   artifacts:
     reports:
       dotenv: publish.env
@@ -427,7 +427,7 @@ verify_provenance:
   variables:
     BUNDLE_FILE: "dist/provenance.json"
     VERIFICATION_SUMMARY_FILE: "dist/verification_summary.json"
-    RESOURCE_URI: "${ARTIFACT_URI}"
+    RESOURCE_URL: "${ARTIFACT_URL}"
     POLICY_URL: "https://gitlab.com/my-policy"
 ```
 
