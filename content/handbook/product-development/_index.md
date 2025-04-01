@@ -69,7 +69,7 @@ Legend
 - ✅: driving
 - ✔️: involved
 
-|  **#**  | **Key Events & Activities** | **Product Lead** | **Technical Lead** | **Delivery Lead** | **Resource Lead** | **UX Lead** | **Documentation Lead** |
+|  **#**  | **Key Events & Activities** | **Product Management Lead** | **Technical Lead** | **Delivery Lead** | **Resource Allocation Lead** | **Product Design Lead** | **Technical Writing Lead** |
 | :---: | ----------------------- | :----------: | :------------: | :-----------: | :----------: | :-----------: | :-----: | :---------------: |
 |  **1** | Define a one year Direction for their area of responsibility that aligns with: (1) company's 3 year strategy, (2) their leader's (CPO/CTO) direction, (3) current company objectives, (4) customer needs. | ✅<br>Product focus | ✅<br>Technical focus |  |  | ✅<br>User focus |  |
 |  **2** | Break Direction into Big Initiatives that drive maturity of their area of responsibility | ✅<br>Product focus | ✅<br>Technical focus | ✔️ |  | ✅<br>User focus |  |
