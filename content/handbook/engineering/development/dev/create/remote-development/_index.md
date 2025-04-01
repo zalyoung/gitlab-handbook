@@ -147,7 +147,7 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
-- Treat the wider community as the primary audience ([see relevant summary for rationale](community-contributions/#wider-community-as-primary-audience)).
+- Treat the wider community as the primary audience ([see relevant summary for rationale](/handbook/engineering/development/dev/create/remote-development/community-contributions/#wider-community-as-primary-audiencee)).
 - Provide a meaningful **title** that describes a deliverable result.
   - ✅ `Add a cancel button to the edit workspace form page`
   - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
@@ -187,14 +187,16 @@ graph TD;
 #### 1. Feature Inception
 
 Ideas can come from anywhere and anyone. If you have an idea:
-  1. Capture it in an issue under the [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/12601) or [Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/10543) User Feedback & Insights epic.
-  1. Pre-fix the issue title with "Feedback:..." or "Idea:...".
-  1. Add the issue to the %"Backlog" milestone
-  1. Add this as a topic of discussion on the [Workspaces](https://docs.google.com/document/d/1Xfr5YHdStC7_3kVAognj0SxbXlcavj2ofgp1mH2zH4U/) or [Web IDE](https://docs.google.com/document/d/18l9wI2tRcFgvX8nJfmO3qVG9-smEQL0VwDh5aOOZj0s/) High Level Planning agenda.
+
+1. Capture it in an issue under the [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/12601) or [Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/10543) User Feedback & Insights epic.
+1. Pre-fix the issue title with "Feedback:..." or "Idea:...".
+1. Add the issue to the %"Backlog" milestone
+1. Add this as a topic of discussion on the [Workspaces](https://docs.google.com/document/d/1Xfr5YHdStC7_3kVAognj0SxbXlcavj2ofgp1mH2zH4U/) or [Web IDE](https://docs.google.com/document/d/18l9wI2tRcFgvX8nJfmO3qVG9-smEQL0VwDh5aOOZj0s/) High Level Planning agenda.
 
 #### 2. High Level Planning
 
 The **High Level Planning** meeting is an open forum where new and ongoing work is identified, discussed, and prioritized. Team members can propose topics by adding them to the agenda in advance. This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development-flow/#validation-goals--outcomes) before we can start refining and prioritizing issues. The meeting typically covers:
+
 - **New Feature Ideas**: Proposals for new work to be considered for the roadmap.
 - **Roadmap Adjustments**: Reordering, shifting, or reprioritizing ongoing work.
 - **Escalation of Bugs/Technical Debt**: Issues that need urgent attention or adjustments to the timeline.
@@ -216,9 +218,9 @@ The **Async Refinement** process is designed to efficiently prepare upcoming wor
 **Key Principles:**
 
 - **Epic Board:** The epic board organizes and prioritizes upcoming work, following a color scheme to reflect each epic’s status.
-    - <span style="color:#1068bf">Blue</span>: Default color for new epics that need refinement.
-    - <span style="color:#f3ad5d">Apricot</span>: Indicates that an epic is fully refined and ready for weighing in the next planning stage.
-    - <span style="color:#4dd787">Mint</span>: Used after the **Iterative Planning Meeting** once all issues within an epic have been weighed and finalized for execution.
+  - <span style="color:#1068bf">Blue</span>: Default color for new epics that need refinement.
+  - <span style="color:#f3ad5d">Apricot</span>: Indicates that an epic is fully refined and ready for weighing in the next planning stage.
+  - <span style="color:#4dd787">Mint</span>: Used after the **Iterative Planning Meeting** once all issues within an epic have been weighed and finalized for execution.
 
 - **Just-in-Time Planning:** We refine only the next 1-2 epics to avoid over-preparing, which helps ensure epics remain relevant when work begins. If these are refined, no further refinement is necessary.
 
@@ -242,14 +244,16 @@ The **Async Refinement** process is designed to efficiently prepare upcoming wor
 The **Iteration Planning Meeting** is a collaborative session where the team reviews and weighs issues within epics marked as <span style="color:#f3ad5d">apricot</span> on the epic board. This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning). This process ensures that each refined epic is fully understood, in scope, and aligned with the team’s goals.
 
 **Meeting Objectives:**
+
 - **Review and Weigh Issues:**
-    - For each issue, the facilitator reads the description, and the team **_briefly_** discusses the issue and clarifying any uncertainties. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned. See[What Weights to Use](#-what-weights-to-use) for more details on weights.
-    - If there are other prioritized issues that have not yet been weighed, these are also reviewed and weighed during the meeting.
+  - For each issue, the facilitator reads the description, and the team **_briefly_** discusses the issue and clarifying any uncertainties. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned. See[What Weights to Use](#-what-weights-to-use) for more details on weights.
+  - If there are other prioritized issues that have not yet been weighed, these are also reviewed and weighed during the meeting.
 
 **Async Process:**
 **TL;DR: Sometimes issues need to be weighted quickly before the official IPM meeting. This is how we weight those issues.**
 
 **Prerequisite:** Add the Polly app to your Slack if you have not already.
+
 1. Navigate to Polly application under that Apps section in Slack.
 1. Select Create a Polly.
 1. Select Create New.
@@ -491,7 +495,7 @@ We operate using async communication by default. There are times when a sync dis
 ### 🤗 Fostering Wider Community Contributors
 
 We want to make sure that all the fields of the Create:Remote Development team are approachable for outside contributors.
-In this case, if issues should be good for any contribution it should be treated with extra care. Therefore have a look at this excellent guide written by our own Paul Slaughter!
+In this case, if issues should be good for any contribution it should be treated with extra care. Therefore, have a look at this excellent guide written by our own Paul Slaughter!
 
 [Cultivating Contributions from the Wider Community](community-contributions/): This is a summary of why and how we cultivate contributions from the wider community.
 
@@ -532,7 +536,6 @@ Other more complex automations may be set up in the
 Ideally we should automate as much of the [Planning Process](#-planning-process) workflow as possible.
 
 We have the following automation goals for this Workflow. Unless otherwise noted, these rules are all defined in the [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/groups/gitlab-org/remote-development).
-
 
 | ID | Goal | Automation | Link(s) to implementation |
 | --- | --- | --- | --- |
