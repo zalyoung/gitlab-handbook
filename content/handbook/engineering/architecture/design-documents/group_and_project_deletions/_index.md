@@ -79,6 +79,8 @@ On premium and ultimate tiers, projects and groups enter a "pending deletion" st
 On the free tier, deleted items are immediately hidden from users and only accessible to admins.
 Projects in user namespaces are deleted permanently without any recovery period.
 
+![image](/uploads/1b7fa9adc80e51e73e62f96b639432b5/image.png)
+
 ### New Unified Deletion Flow
 
 #### Core Components
