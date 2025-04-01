@@ -23,7 +23,6 @@ Learn more about each part of the team in our handbook pages below.
   - [Trademark guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
   - [GitLab swag](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/)
   
-
 ## Contact us
 
 Have questions after browsing our handbook pages? You can find us in the #brand channel on Slack.
