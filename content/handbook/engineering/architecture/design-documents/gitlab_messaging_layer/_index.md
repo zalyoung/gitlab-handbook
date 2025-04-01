@@ -31,7 +31,7 @@ Another key requirement is to be able to _process_ incoming data before it lands
 
 From an architectural perspective, having a _data buffer_ available upstream to our persistent stores would help alleviate resource pressure downstream by absorbing large spikes in ingested data, which might happen quite frequently as we continue to generate and/or gather more data. We outline [other significant benefits of building such an abstraction](#benefits-of-building-an-events-based-platform-within-gitlab) later in this document.
 
-Considering [our forward-looking use-cases](#looking-forward), we also need such a system to be __consistently available across all our deployment-models__ for GitLab instances, i.e. GitLab.com, Cells, Dedicated or Self-Managed. This would ensure we consolidate how we deal with any data stream generated across the product. With such a large deployment surface, it's important we minimise all distribution & operational complexities of running such a system while ensuring its reliable, scalable and capable of delivering performance at GitLab scale.
+Considering [our forward-looking use-cases](#looking-forward), we also need such a system to be __consistently available across all our deployment-models__ for GitLab instances, i.e. GitLab.com, Cells, Dedicated or Self-Managed. This would ensure we consolidate how we deal with any data stream generated across the product. With such a large deployment surface, it's important we minimize all distribution & operational complexities of running such a system while ensuring its reliable, scalable and capable of delivering performance at GitLab scale.
 
 As elucidated later in this document, [NATS](https://nats.io/) stands out given its [minimal footprint](https://docs.nats.io/running-a-nats-service/introduction/installation#hardware-requirements), [ease of distribution](https://docs.nats.io/running-a-nats-service/introduction/installation#supported-operating-systems-and-architectures) and its ability to both be [embeddable](https://docs.nats.io/running-a-nats-service/clients#embedding-nats) within the product and scale out as a cluster when needed.
 
@@ -63,12 +63,12 @@ Once the aforementioned messaging layer is generally available, we aim to positi
 
 ### Benefits of building an events-based platform within GitLab
 
-Having a centralised events-based data platform within the product helps improve GitLab's logical architecture and its ability to scale well with time. As we build & continue to adopt such an architecture, the following key benefits come to mind:
+Having a centralized events-based data platform within the product helps improve GitLab's logical architecture and its ability to scale well with time. As we build & continue to adopt such an architecture, the following key benefits come to mind:
 
 - Enables __loose-coupling__ between data producers and consumers across GitLab allowing them to scale independently of each other.
 - Encourages __asynchronous communication patterns__ between participating systems improving their scalability with increasing traffic volumes.
 - Makes our architecture __extensible__ wherein new consumers of existing data can be added with trivial time & effort.
-- Provides a __centralised, common architecture__ for sharing data useful for integrations across different parts of the product. This also leads to building over time singular sources of truth for important data across the product bringing consistency to product data.
+- Provides a __centralized, common architecture__ for sharing data useful for integrations across different parts of the product. This also leads to building over time singular sources of truth for important data across the product bringing consistency to product data.
 
 The following discussions also explain why building an events-based abstraction is important for GitLab's architecture at its current scale:
 
@@ -76,7 +76,7 @@ The following discussions also explain why building an events-based abstraction 
 - [GitLab Events Platform](/handbook/engineering/architecture/design-documents/gitlab_events_platform/)
 - [GitLab Structured Events](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2046)
 
-Note, while the existence of a centralised data-sharing platform helps alleviate scalability & reliability concerns from other parts of our infrastructure, esp. databases, we will also need to iron out a few other concerns such as [authorising clients](https://gitlab.com/groups/gitlab-org/-/epics/14860#note_2078181184), [routing data efficiently](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/113700#note_1322317107) and [decoupling away from the monolith](/handbook/engineering/architecture/design-documents/gitlab_events_platform/#challenges) to ensure such a system proves valuable to our logical architecture.
+Note, while the existence of a centralized data-sharing platform helps alleviate scalability & reliability concerns from other parts of our infrastructure, esp. databases, we will also need to iron out a few other concerns such as [authorising clients](https://gitlab.com/groups/gitlab-org/-/epics/14860#note_2078181184), [routing data efficiently](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/113700#note_1322317107) and [decoupling away from the monolith](/handbook/engineering/architecture/design-documents/gitlab_events_platform/#challenges) to ensure such a system proves valuable to our logical architecture.
 
 ### Identified use-cases
 
@@ -125,7 +125,7 @@ Note, we considered the following four deployment targets (for GitLab) when asse
 
 To ensure a comparable analysis for the different systems, we made some assumptions around how much data we need to host in each of the analysed systems.
 
-__For example__, accounting for all Snowplow-instrumented data originating from .com SaaS, we estimate to generate 500GB data events per day. If we then intend to retain this data for a week, we’ll roughly accumulate 3.5TB data which will need to be hosted on the underlying infrastructure at any given point in time. It can be assumed that data lifecycle policies kick-in correctly and this remains our maximum storage footprint within the context of this example.
+__For example__, accounting for all Snowplow-instrumented data originating from .com SaaS, we estimate to generate 500GB of event data per day. If we then intend to retain this data for a week, we’ll roughly accumulate 3.5TB data which will need to be hosted on the underlying infrastructure at any given point in time. It can be assumed that data lifecycle policies kick-in correctly and this remains our maximum storage footprint within the context of this example.
 
 - __Daily generated data__: 500GB
 - __Retention__: 7 days
@@ -189,13 +189,13 @@ Before estimating resources, we’ll need a measure of message traffic across th
 
 - A significant factor worth noting from analysing these backends is their high operational, distribution & support overheads both for running them ourselves OR expecting them to be available inside non-hosted environments such as Self-Managed.
 - All things considered, NATS appears to be the _least expensive_ across all backends, considering it [ships as a single Go-binary](https://docs.nats.io/running-a-nats-service/introduction/installation) and can be installed in close-proximity to user services/applications with zero external dependencies. When needed, it can be scaled/sharded out across multiple servers/clusters subject to which reference architecture we run it within.
-- The only factor favouring managed cloud-solutions instead is any support costs involved but their operational costs seem to outweigh any benefits we derive from using them, especially as their usage and/or adoption grows with our scale.
+- The only factor favoring managed cloud-solutions instead is any support costs involved but their operational costs seem to outweigh any benefits we derive from using them, especially as their usage and/or adoption grows with our scale.
 
 __The rest of this document focuses on building out the proposal to use NATS as the messaging solution within a GitLab instance.__
 
 ### Components
 
-- One or more [Jetstream-enabled](https://docs.nats.io/nats-concepts/jetstream) NATS servers
+- One or more [JetStream-enabled](https://docs.nats.io/nats-concepts/jetstream) NATS servers
 - Persistent volumes, preferably SSDs, for each deployed NATS server.
 - Decentralized authentication callout server (long-term only) : For authentication/authorisation, we aim to start with leveraging hard-coded roles & credentials within NATS (centralized) but in the long-term, we expect to use a [decentralized server-side auth-callout implementation](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/auth_callout) for authenticating inbound traffic.
 
@@ -250,7 +250,7 @@ nats-2.nats.default.svc.cluster.local
 ### Setup
 
 - Setup an N-nodes cluster subject to data volumes & retention.
-- Enable data persistence via [NATS Jetstream](https://docs.nats.io/nats-concepts/jetstream).
+- Enable data persistence via [NATS JetStream](https://docs.nats.io/nats-concepts/jetstream).
 - Configure [stream replication](https://docs.nats.io/nats-concepts/jetstream/source_and_mirror) for subjects as needed.
 
 ### Connectivity
@@ -274,7 +274,7 @@ nats-2.nats.default.svc.cluster.local
 
 - From an operational perspective and considering we prefer new services to be built Kubernetes-based, it'll also be trivial for us to use the same configurations for GitLab.com, Dedicated, Cells and Self-Managed going forward.
 
-- If running it cloud-natively does incur overheads, we can resort to running NATS directly on VMs within the same VPC/network-boundaries to leverage better utilisation of the underlying hardware and reduce any operational complexity.
+- If running it cloud-natively does incur overheads, we can resort to running NATS directly on VMs within the same VPC/network-boundaries to leverage better utilization of the underlying hardware and reduce any operational complexity.
 
 - We have also prototyped both of these deployment models:
   - using a Helm chart for cloud native installations, [initial POC](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/nats-poc)
@@ -299,7 +299,7 @@ nats-2.nats.default.svc.cluster.local
 ### Authentication/Authorization
 
 - NATS has prebuilt support for connections encrypted over TLS.
-- It also comes with centralised auth support via JWT/NKEYS.
+- It also comes with centralized auth support via JWT/NKEYS.
 - We expect to promote the usage of separate principals (users/accounts) across distinct systems, e.g. producers/consumers of a given stream.
 - NATS offers grouping of clients and subject space with [`accounts`](https://docs.nats.io/running-a-nats-service/configuration/securing_nats/accounts).
 
@@ -380,7 +380,7 @@ func TestServerConfiguration(t *testing.T) {
 
 ### Auditing/Logging
 
-- We intend to ship necessary [NATS logs](https://docs.nats.io/running-a-nats-service/configuration/logging) to our centralised logging infrastructure to enable any auditing/monitoring purposes.
+- We intend to ship necessary [NATS logs](https://docs.nats.io/running-a-nats-service/configuration/logging) to our centralized logging infrastructure to enable any auditing/monitoring purposes.
 
 ## Operations
 
@@ -517,13 +517,13 @@ NATS Pub/Sub stats: 95,057 msgs/sec ~ 11.60 MB/sec
 
 - In the event of total service unavailability of NATS, we might experience loss of data especially in scenarios where NATS is where we land incoming data first.
 
-- In the event of loss of one or more nodes in a given NATS cluster, clients can still continue to push new events as long as other stream-replicas are configured and can assume new leadership for affected streams. For clients that cannot withstand loss of messages, stream replication is highly adviced which ensures any affected streams will recover as soon as any cluster-deterioration is remedied.
+- In the event of loss of one or more nodes in a given NATS cluster, clients can still continue to push new events as long as other stream-replicas are configured and can assume new leadership for affected streams. For clients that cannot withstand loss of messages, stream replication is highly advised which ensures any affected streams will recover as soon as any cluster-deterioration is remedied.
 
-- While stream replication ensures data redundancy for ingested data, asynchronous writes might still lead to loss of data. To minimise any loss of data, clients should prefer synchronous writes to ensure all ingested data is durably replicated before their writes get acknowledged, with the caveat that synchronous writes will reduce overall write-performance.
+- While stream replication ensures data redundancy for ingested data, asynchronous writes might still lead to loss of data. To minimize any loss of data, clients should prefer synchronous writes to ensure all ingested data is durably replicated before their writes get acknowledged, with the caveat that synchronous writes will reduce overall write-performance.
 
 __Note__ Further details of how NATS publishers or consumers must be designed is out of scope for this blueprint. All user-facing documentation for building NATS applications will be developed separately.
 
-- All ingested data is persisted durably via NATS Jetstream. In the event of unrecoverable messages however, we can rely on an explicit [disaster recovery setup](https://docs.nats.io/running-a-nats-service/nats_admin/jetstream_admin/disaster_recovery) to recover data, which includes:
+- All ingested data is persisted durably via NATS JetStream. In the event of unrecoverable messages however, we can rely on an explicit [disaster recovery setup](https://docs.nats.io/running-a-nats-service/nats_admin/jetstream_admin/disaster_recovery) to recover data, which includes:
   - Automatic recovery in case of intact quorum nodes for replicated streams, or
   - Manual recovery from periodic stream backups.
 
@@ -537,7 +537,7 @@ __Note__, in the specific case of Siphon, all data buffered within NATS and due 
 
 ### Why not Kafka?
 
-Given our needs to queue/buffer data durably, Apache Kafka comes as an obvious first choice. However, given the operational & distribution complexity around running Kafka especially as we shift focus towards running GitLab as cloud-native deployments, it becomes _less favourable_ for our purposes. Following are some of our past discussions around the challenges Kafka brings:
+Given our needs to queue/buffer data durably, Apache Kafka comes as an obvious first choice. However, given the operational & distribution complexity around running Kafka especially as we shift focus towards running GitLab as cloud-native deployments, it becomes _less favorable_ for our purposes. Following are some of our past discussions around the challenges Kafka brings:
 
 - [Support for Kafka across deployment-environments is non-existent](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1878#note_1068741634).
 - [Kafka can be cost-prohibitive regardless of scale](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1589#note_2060391762).
