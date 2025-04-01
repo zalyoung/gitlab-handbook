@@ -175,7 +175,7 @@ The Director, FP&A is a [grade 10](/handbook/total-rewards/compensation/compensa
 
 ### Senior Director, FP&A
 
-The Senior Director, FP&A reports to the [Vice President of Financial Planning and Analysis](/job-families/finance/vp-finance/).
+The Senior Director, FP&A reports to the [Vice President of Financial Planning and Analysis](/job-families/finance/finance/vp-finance/).
 
 #### Senior Director, FP&A Job Grade
 
@@ -196,7 +196,7 @@ The Senior Director, FP&A is a [grade 11](/handbook/total-rewards/compensation/c
 
 ## Career Ladder
 
-The next step in the Financial Planning and Analysis job family is to move to the [VP, FP&A](/job-families/finance/vp-finance/) job family.
+The next step in the Financial Planning and Analysis job family is to move to the [VP, FP&A](/job-families/finance/finance/vp-finance/) job family.
 
 ## Performance Indicators
 

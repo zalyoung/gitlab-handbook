@@ -229,7 +229,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 
 - The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
-  - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
+  - ["Start less, finish more"](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/#starting-new-work)
   - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
 
 ### Steps to getting help from Sales Systems

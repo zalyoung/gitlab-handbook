@@ -123,7 +123,7 @@ Teams should also follow up post-launch with input on customer perspective/feedb
 
 **Context**
 
-Launching features into our current product set is a well understood [process](/handbook/product/tiering-guidance-for-features/). To launch new product offerings, service offerings or SKUs requires a set of steps that need to be sequenced in a way to ensure product launch is done efficiently and effectively.
+Launching features into our current product set is a well understood [process](/handbook/product/product-processes/tiering-guidance-for-features/). To launch new product offerings, service offerings or SKUs requires a set of steps that need to be sequenced in a way to ensure product launch is done efficiently and effectively.
 
 **Summary of the steps.**
 

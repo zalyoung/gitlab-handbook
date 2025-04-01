@@ -246,7 +246,7 @@ roadmap, customer issues should be roughly 70/30.
 ##### Urgent and high priority issues
 
 P1/S1 issues should be treated with urgency. If such issues have not been
-scheduled, [bias for action](/handbook/values/#bias-for-action) is encouraged.
+scheduled, [bias for action](/handbook/values/#operate-with-a-bias-for-action) is encouraged.
 Go ahead and pull them into the current milestone, but do notify the EM and PM.
 
 ##### Blocked issues

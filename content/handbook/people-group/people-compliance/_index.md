@@ -61,7 +61,7 @@ Please see the [README.md](https://gitlab.com/gitlab-com/people-group/compliance
 - [Records Retention Policy](/handbook/legal/record-retention-policy/) - GitLab's policy on the implementation of procedures, best practices, and tools to promote consistent life cycle management of GitLab records.
 - [Data Classification Policy](/handbook/security/data-classification-standard/) - GitLab's Security Compliance policies related to data retention and disposal.
 - [Data Protection Impact Assessment (DPIA) Policy](/handbook/legal/privacy/dpia-policy) - GitLab's policies related to Data Protection.
-- [GitLab Audit Committee](/handbook/board-meetings/committees/audit/) - Information regarding GitLab's Audit Committee of the Board of Directors of GitLab Inc.
+- [GitLab Audit Committee](https://ir.gitlab.com/governance/committee-composition/default.aspx) - Information regarding GitLab's Audit Committee of the Board of Directors of GitLab Inc.
 - [Total Rewards Audits](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/) - Information on some of our People Group audits.
 
 ## Performance Indicators

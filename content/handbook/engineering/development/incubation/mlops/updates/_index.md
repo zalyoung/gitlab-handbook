@@ -22,7 +22,7 @@ https://youtu.be/BRsU4TGawg8
 
 | Date       | Page                                                                   | Recording                    |
 |------------|------------------------------------------------------------------------|------------------------------|
-| 2023/02/06 | [Update](/handbook/engineering/development/incubation/mlops/updates/20230206.html) | https://youtu.be/dz7soyNKGPo |
+| 2023/02/06 | [Update](/handbook/engineering/development/incubation/mlops/updates/20230206/) | https://youtu.be/dz7soyNKGPo |
 
 ### Previous Updates
 
