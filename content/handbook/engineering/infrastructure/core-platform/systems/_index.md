@@ -11,5 +11,5 @@ Develop the systems-level features that support installation, operation, and orc
 * [Distribution:Build](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-build)
 * [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
 * [Geo](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/)
-* [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
+* [Gitaly](/handbook/engineering/infrastructure-platforms/data-access/gitaly/)
 * [Git](/handbook/engineering/infrastructure/core-platform/systems/git/)

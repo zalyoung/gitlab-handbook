@@ -155,7 +155,7 @@ The Diversity, Inclusion, and Belonging Partner is a [grade 8](/handbook/total-r
 - 7+ years of experience in human resources or related business experience
 - 5+ years of experience leading diversity projects, diversity sourcing initiatives, and/or recruiting initiatives
 - 3+ years leadership experience, preferably in the DIB space
-- [Bias towards action](/handbook/values/#bias-for-action)
+- [Bias towards action](/handbook/values/#operate-with-a-bias-for-action)
 - Proven ability to achieve results
 - Excellent program / project management and analytical skills
 - Proven ability to drive a globally inclusive DIB agenda

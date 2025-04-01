@@ -151,7 +151,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. Present the deck to your mentor, with them acting as the customer
    1. After you finish roleplaying, self-reflect and get feedback from your mentor
    1. If available, shadow your mentor or another CSM as they prepare for and give a kick-off call, including follow ups
-   1. Discuss with your mentor the additional work involved beyond the kick-off calls, such as creating a collaboration project, updating Gainsight fields and CTAs, and best practices for the transition process (both from [pre-sales to CSM](/handbook/customer-success/pre-sales-post-sales-transition/) and [CSM-to-CSM](/customer-success/csm/account-handoff/))
+   1. Discuss with your mentor the additional work involved beyond the kick-off calls, such as creating a collaboration project, updating Gainsight fields and CTAs, and best practices for the transition process (both from [pre-sales to CSM](/handbook/customer-success/pre-sales-post-sales-transition/) and [CSM-to-CSM](/handbook/customer-success/csm/account-handoff/))
 
 #### Week 8
 

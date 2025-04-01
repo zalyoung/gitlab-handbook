@@ -28,7 +28,7 @@ A Product Designer reports to a [Product Design Manager](/job-families/product/p
 - Comfort working in highly agile, iterative product development process.
 - Design systems knowledge, understanding, and practice.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- Strong [bias for action](/handbook/values/#bias-for-action) and ability to develop daily priorities to achieve goals ([manager of one](/handbook/values/#managers-of-one)).
+- Strong [bias for action](/handbook/values/#operate-with-a-bias-for-action) and ability to develop daily priorities to achieve goals ([manager of one](/handbook/values/#managers-of-one)).
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment.
 - Working knowledge of HTML/CSS, and familiarity with JavaScript.
 - General knowledge of Git (for example, branching, push/pulling, committing, squashing) and DevOps (for example, pipelines, deployments, security) flows.

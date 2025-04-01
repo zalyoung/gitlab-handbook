@@ -20,7 +20,7 @@ While the DRI is the individual who is ultimately held accountable for the succe
 
 ## Empowering DRIs
 
-It is important to understand that DRIs do not owe anyone an explanation for their decisions. If you force a DRI to explain too much, you'll create incentives to ship projects under the radar. The fear of falling into a perpetual loop of explaining can [derail a DRI](/handbook/values/#five-dysfunctions), and cause people to defer rather than working with a [bias for action](/handbook/values/#bias-for-action).
+It is important to understand that DRIs do not owe anyone an explanation for their decisions. If you force a DRI to explain too much, you'll create incentives to ship projects under the radar. The fear of falling into a perpetual loop of explaining can [derail a DRI](/handbook/values/#five-dysfunctions), and cause people to defer rather than working with a [bias for action](/handbook/values/#operate-with-a-bias-for-action).
 
 We would much rather foster a culture where DRIs are willing to put their ideas in the open. This enables feedback from a broad range of diverse perspectives, which the DRI can take into account and choose how (if at all) it shapes their thinking.
 

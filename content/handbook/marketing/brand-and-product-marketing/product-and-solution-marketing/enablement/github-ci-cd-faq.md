@@ -24,7 +24,7 @@ A: Sid Sijbrandij: "Continuous integration and deployment form the backbone of m
 
 ### Q: Where can I view a copy of the press release?
 
-A: [https://about.gitlab.com/press/releases/2018-03-22-gitlab-cicd-github-integration/](/press/releases/2018-03-22-gitlab-cicd-github-integration.html)
+A: <https://about.gitlab.com/press/releases/2018-03-22-gitlab-cicd-github-integration/>
 
 ### Q: Is there a blog post providing more detail on the announcement?
 
