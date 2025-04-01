@@ -10,8 +10,6 @@ This process is for use by the UX Research Team to conduct prize draws in connec
 
 This process uses an automated workflow for the UX Research Team to generate rules. This is accomplished through a Google Form and not through a GitLab issue. Provided that the request satisfies certain pre-determined requirements, the requestor will receive a set of Abbreviated Rules almost immediately (minutes to an hour). If the request does not satisfy the pre-determined requirements use of the [Promotional Games Legal Template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=promotional_games_legal_template) will be required.
 
-As part of this program, Legal has updated the definitions and wording used in association with promotional games.  Please review [this section](/handbook/legal/marketing-collaboration/#promotional-games) of the handbook to learn about the three types of promotional games which are generally permitted at GitLab.
-
 
 ## Process
 
@@ -24,7 +22,7 @@ As part of this program, Legal has updated the definitions and wording used in a
 
 ## Eligibility Requirements for proceeding under this Process
 
-1. The only type of promotional game permitted under this process is a Prize Draw.
+1. The only type of promotional game permitted under this process is a Prize Draw. Please see [this section](/handbook/legal/marketing-collaboration/#promotional-games) of the handbook to learn about the types of promotional games permitted at GitLab.
 1. The prize value of each individual prize must be under $600 USD.
 1. The total value of all prizes must be under $2,100 USD.
 1. Eligible countries for inclusion:
