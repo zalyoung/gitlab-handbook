@@ -13,7 +13,7 @@ title: "Customer Success Monthly Metrics Dashboard"
 
 ## Overview
 
-The CS Monthly Metrics dashboard is a comprehensive business intelligence tool designed specifically for Customer Success leaders. This dashboard consolidates critical Customer Success metrics in one central location, providing monthly trends and performance data to support Monthly Metrics meetings.
+The [CS Monthly Metrics dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCSMELeadershipOverview/FinancialPerformanceOverview?:iid=1) is a comprehensive business intelligence tool designed specifically for Customer Success leaders. This dashboard consolidates critical Customer Success metrics in one central location, providing monthly trends and performance data to support Monthly Metrics meetings.
 
 The dashboard enables CS leaders to:
 
