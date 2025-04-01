@@ -18,7 +18,7 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps pl
 ## Core Competencies
 
 1. [Security certifications and attestations](../security-compliance/certifications/)
-   - Gap Analysis Program: feasibility analysis for certification expansion
+   - [Gap Analysis Program](../security-compliance/gap-analysis-program.md): feasibility analysis for certification expansion
    - External Audit coordination and execution
 1. [Continuous Monitoring of GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
    - [Policy-as-code](./policy-as-code.md)
