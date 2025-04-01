@@ -1,5 +1,5 @@
 ---
-title: "SaaS Platforms Processes"
+title: "Platforms Processes"
 ---
 
 ## Processes
