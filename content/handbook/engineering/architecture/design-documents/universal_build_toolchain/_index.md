@@ -14,119 +14,69 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!--
-Before you start:
-
-- Copy this file to a sub-directory and call it `_index.md` for it to appear in
-  the design documents list.
-- Remove comment blocks for sections you've filled in.
-  When your document ready for review, all of these comment blocks should be
-  removed.
-
-To get started with a document you can use this template to inform you about
-what you may want to document in it at the beginning. This content will change
-/ evolve as you move forward with the proposal.  You are not constrained by the
-content in this template. If you have a good idea about what should be in your
-document, you can ignore the template, but if you don't know yet what should
-be in it, this template might be handy.
-
-- **Fill out this file as best you can.** At minimum, you should fill in the
-  "Summary", and "Motivation" sections.  These can be brief and may be a copy
-  of issue or epic descriptions if the initiative is already on Product's
-  roadmap.
-- **Create a MR for this document.** Assign it to an Architecture Evolution
-  Coach (i.e. a Principal+ engineer).
-- **Merge early and iterate.** Avoid getting hung up on specific details and
-  instead aim to get the goals of the document clarified and merged quickly.
-  The best way to do this is to just start with the high-level sections and fill
-  out details incrementally in subsequent MRs.
-
-Just because a document is merged does not mean it is complete or approved.
-Any document is a working document and subject to change at any time.
-
-When editing documents, aim for tightly-scoped, single-topic MRs to keep
-discussions focused. If you disagree with what is already in a document, open a
-new MR with suggested changes.
-
-If there are new details that belong in the document, edit the document. Once
-a feature has become "implemented", major changes should get new blueprints.
-
-The canonical place for the latest set of instructions (and the likely source
-of this file) is
-[content/handbook/engineering/architecture/design-documents/_template.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md).
-
-Document statuses you can use:
-
-- "proposed"
-- "accepted"
-- "ongoing"
-- "implemented"
-- "postponed"
-- "rejected"
-
--->
-
 <!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
 
-<!--
-Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
-
-For long pages, consider creating a table of contents.
--->
-
 ## Summary
 
-Introduce universal simplified way to build our GitLab distributions, reducing
-unnecessary toil.
+GitLab supports packages on multiple hardware architectures such as `x86_64`
+and `arm64`. Today the Build team maintains a toolchain per each supported
+distribution method and hardware architecture. This approach does not scale.
 
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire documents like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
-
-A good summary is probably at least a paragraph in length.
--->
+The Build team wants to reduce maintenance burden, eliminate specific classes of
+failure, and improve confidence in what we ship through simplification. The
+Universal Build Toolchain allows GitLab to use one toolchain per supported
+hardware architecture. This eliminates significant toil and insulates Gitlab
+from known unknown issues related to the Linux Kernel and the core libraries
+that underpin every GitLab component.
 
 ## Motivation
 
-Currently components are being build in a matrix style - P times for each OS platform (Linux, etc.), M times for each OS, Z times for each hardware platform and N times for each component.
+GitLab maintains toolchains per each supported:
 
-We're spending a lot of time rebuilding components multiple times to arrive virtually at the same result.
-In other words it's P x M x Z x N builds for each release/MR etc.
+- Distribution method.
+    - Omnibus GitLab
+    - Cloud Native GitLab
+    - GitLab Development Kit
+- Linux Distribution.
+    - Enterprise Linux
+    - Debian
+    - Ubuntu
+    - OpenSUSE
+    - SUSE Enterprise Linux
+    - AmazonLinux 2023
+    - AmazonLinux 2
+- Linux Distribution version.
+- Hardware Architecture.
+    - `x86_64` / `amd64`
+    - `arm64`
 
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
-
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
+Each pipeline created by this combination produces similar if not equivalent
+results. This wastes considerable amounts of runner time in addition to the high
+toil burden required to maintain so many variants. This method also hides
+potential problems from feature teams who may build with a newer toolchain than
+supported in GitLab's own production environment or customer environments.
 
 ### Goals
 
-By providing Universal Build Toolchain we'd like to simplify above down to P x Z x N complexity matrix - i.e. build only once per platform/architecture/component combination. Produced artifacts would become applicable in wider range of builds. As a result we should be able to build component "once" and reuse it in various places: for example built Gitaly component for linux/amd64 can be (re)used in all the omnibus OS variants (Debian, SUSE, RedHat, etc.) and in CNG that uses UBI or Debian.
-<!--
-List the specific goals / opportunities of the document.
+The Universal Build Toolchain will allow GitLab to build each component with one
+and only one builder per each supported hardware architecture.
 
-- What is it trying to achieve?
-- How will we know that this has succeeded?
-- What are other less tangible opportunities here?
--->
+Success will be measured when:
+
+- Omnibus GitLab only had one build/toolchain image per each hardware architecture.
+- Cloud Native GitLab uses the same build/toolchain as Omnibus GitLab for
+  supported hardware architectures.
+
+Side effects:
+
+- Reduced maintenance toil enables time to package components for GDK for parity
+  with production builds.
+- Lowers validation time because there is one and only one build to check per
+  each hardware architecture.
 
 ### Non-Goals
 
