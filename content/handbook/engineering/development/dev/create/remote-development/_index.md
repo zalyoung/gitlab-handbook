@@ -293,7 +293,7 @@ Issues are assigned to specific milestones based on factors like team velocity, 
 
 Occasionally, unrefined or unplanned issues like bugs and customer escalations may be brought in after a milestone has started. In these cases, they will be labeled ~Stretch by default, since they weren't fully prepared before being included.
 
-Issues would typically move from the `%"Backlog"` to `%"Next 1-3 Releases"` and then to a concrete milestone.
+Issues typically move from `%"Backlog"` to `%"Next 1-3 Releases"` and then into a concrete milestone e.g. `%16.x`. Unless discussed otherwise with the EM, engineers should prioritize picking up ~Deliverable items scheduled in the active milestone before considering other issues in that milestone. If all ~Deliverable and ~Stretch issues in the current milestone are already assigned and in progress, the next place to look is the following milestone or `%"Next 1-3 Releases"`.
 
 **Milestone Planning and Creating Planning Issue**:
 
