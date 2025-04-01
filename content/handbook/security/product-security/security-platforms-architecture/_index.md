@@ -3,7 +3,7 @@ title: "Security Platforms & Architecture"
 description: "Security Platforms & Architecture Team Charter"
 ---
 
-Last Updated: March 28, 2025
+Last Updated: April 1, 2025
 
 ## Mission Statement
 
@@ -111,4 +111,4 @@ The following are key metrics we will start tracking in FY26 to measure the SPA 
 
 This charter will be updated quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and critical risks in the StORM and Product Security Risk Registers.
 
-Next scheduled review: April 30, 2025
+Next scheduled review: June 30, 2025
