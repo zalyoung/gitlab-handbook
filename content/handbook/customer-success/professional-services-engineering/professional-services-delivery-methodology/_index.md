@@ -9,11 +9,17 @@ The Professional Services Delivery Methodology (PSDM) is the guiding light for P
 
 ## Managing a Project in GitLab
 
-GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below.
+GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below. At a minimum, all status documents. 
 
 Please reference the following tips for [GitLab best practices](./gitlab-best-practices/_index.md) when navigating GitLab.
 
 How to initially configure GitLab as a Project Management tool can be found [here](./cp/_index.md).
+
+Not every Project is going to follow an Sprint or Iteration cadence. However, status updates are expected to live within Gitlab. It is recommended to use an engagement charter to direct users and reporters to the weekly status updates, RAID, etc. 
+
+* [Engagement Charter](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration/Ingram-Barge/SOW-3184/-/blob/main/engagement-charter.md?ref_type=heads) example
+* [Status Update](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/Delta/-/epics/1) example 1
+* [Status Update](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/smartsheet/SOW-2163/-/issues/2) example 2
 
 NOTE: any issues marked as "internal" are still visible to anyone who has "developer" access into the Gitlab Collaboration project. This includes anyone outside of Gitlab. It it recommended to use the Projects "Internal Epic" for confidential communications.
 
