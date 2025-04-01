@@ -82,7 +82,7 @@ For non-team members, feel free to create issues in these epics if you have gene
 
 At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to collaborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
 
-Use the comment template to apply the approrpiate labels for the feature categories:
+Use the comment template to apply the appropriate labels for the feature categories:
 
 - Workspaces - `/label ~"Category:Workspaces" ~"customer-collaboration"`
 
@@ -98,9 +98,9 @@ You can find the customer collaboration issues dashboard for the feature categor
 
 <span id="-team-meetings" data-message="alias anchor for old links"></span>
 
-**❗️Important**: For every meeting, the [Remote Development group's meeting document](https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#) should be used apart from High Level Planning which has a document of it's own, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
+**❗️Important**: For every meeting, the [Remote Development group's meeting document](https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#) should be used apart from High Level Planning which has a document of its own, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
 
-Please note that sync meeting schedules are flexible and can be moved to accomodate required participants. For up to date schedule of all team meetings, please consult the [Group's Calendar](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV92ZGc3bW04NDRuczVrN3JxZGlyMzM0N2YwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+Please note that sync meeting schedules are flexible and can be moved to accommodate required participants. For up-to-date schedule of all team meetings, please consult the [Group's Calendar](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV92ZGc3bW04NDRuczVrN3JxZGlyMzM0N2YwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
 The table below briefly outlines the objectives and key details of regular team meetings:
 
@@ -129,19 +129,19 @@ In the Create:Remote Development group we leverage an automatic issue hygiene sy
 If a task is too large, has too many unknowns, or requires proof of concept (POC), it should be broken down into smaller investigation tasks or POC issues. These tasks help clarify the scope, reduce risks, and identify the necessary steps to proceed with implementation and ideally should fit into a single milestone.
 
 1. **Create an Investigation Issue:**
-    - **Purpose:** Research, investigate, and document or breakdown the necessary work. Please make sure to **define the core question or problem** you’re investigating.
-    - **Weight:** Default to 3 for investigations, POCs, or breakdown tasks. If a different weight is needed, discuss it with PM/EM/Team stakeholders.
-    - **Label:** Assign the ~spike label to the issue.
-    - **Updates:**  Investigations are capped at **3 working days of focused effort**.
-        - On Day 3 or sooner, investigator shares findings and proposed next steps. Consider using a sync meeting to align with key stakeholders and make a decision. If a meeting is not feasible, a short recorded video summarizing findings is acceptable.
-    - Depending on the feedback from the updates, we can decide to allocate more time to these investigations or settle for something that works based on the information we have.
+   - **Purpose:** Research, investigate, and document or breakdown the necessary work. Please make sure to **define the core question or problem** you're investigating.
+   - **Weight:** Default to 3 for investigations, POCs, or breakdown tasks. If a different weight is needed, discuss it with PM/EM/Team stakeholders.
+   - **Label:** Assign the ~spike label to the issue.
+   - **Updates:**  Investigations are capped at **3 working days of focused effort**.
+     - On Day 3 or sooner, investigator shares findings and proposed next steps. Consider using a sync meeting to align with key stakeholders and make a decision. If a meeting is not feasible, a short recorded video summarizing findings is acceptable.
+   - Depending on the feedback from the updates, we can decide to allocate more time to these investigations or settle for something that works based on the information we have.
 
 1. **Break Down and Close:**
-    - After the investigation is done, summarize findings and break the work into actionable, refined issues within the given epic.
-    - The outcome should include:
-        - An **Architecture Plan**: High-level technical direction, quality goals (like performance, security), and supporting approaches.
-        - An **Iteration Plan**: A breakdown of work into clearly scoped, refined issues .
-    - Add the plans to the epic description and close the investigation issue.
+   - After the investigation is done, summarize findings and break the work into actionable, refined issues within the given epic.
+   - The outcome should include:
+     - An **Architecture Plan**: High-level technical direction, quality goals (like performance, security), and supporting approaches.
+     - An **Iteration Plan**: A breakdown of work into clearly scoped, refined issues .
+   - Add the plans to the epic description and close the investigation issue.
 
 ### 📝 Issue Guidelines
 
@@ -165,7 +165,7 @@ To improve the accuracy of our planning and delivery estimates, we've adapted pa
 
 The goal is not to fully adopt XP or Scrum, but to take the pieces that work for us, mainly around iteration planning and historical velocity tracking. By grounding our estimates in ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) (our team's recent delivery history), we can better align scope to capacity and make informed decisions about what we can ship and when.
 
-This process helps us navigate evolving priorities, reduce planning overhead, and stay transparent about what we’re working on.
+This process helps us navigate evolving priorities, reduce planning overhead, and stay transparent about what we're working on.
 
 ### Process Phases
 
@@ -217,7 +217,7 @@ The **Async Refinement** process is designed to efficiently prepare upcoming wor
 
 **Key Principles:**
 
-- **Epic Board:** The epic board organizes and prioritizes upcoming work, following a color scheme to reflect each epic’s status.
+- **Epic Board:** The epic board organizes and prioritizes upcoming work, following a color scheme to reflect each epic's status.
   - <span style="color:#1068bf">Blue</span>: Default color for new epics that need refinement.
   - <span style="color:#f3ad5d">Apricot</span>: Indicates that an epic is fully refined and ready for weighing in the next planning stage.
   - <span style="color:#4dd787">Mint</span>: Used after the **Iterative Planning Meeting** once all issues within an epic have been weighed and finalized for execution.
@@ -229,19 +229,19 @@ The **Async Refinement** process is designed to efficiently prepare upcoming wor
 1. **Identify Epics in Need of Refinement:**
    - These are marked in <span style="color:#1068bf">blue</span> on the epic board and would typically be assigned by the Engineering Manager to Engineers.
 1. **Break Down the Epic:**
-    - Divide the epic into smaller, actionable issues.
-    - Define the work necessary to meet the epic’s acceptance criteria.
-    - Assign the ~refined label to the issues that have been refined.
+   - Divide the epic into smaller, actionable issues.
+   - Define the work necessary to meet the epic's acceptance criteria.
+   - Assign the ~refined label to the issues that have been refined.
 1. **Mark as Refined:**
-    - Once refined, change the epic color to <span style="color:#f3ad5d">apricot</span> to indicate it is ready for weighing.
-    - Add the label **"refined"** to the epic to signal readiness.
+   - Once refined, change the epic color to <span style="color:#f3ad5d">apricot</span> to indicate it is ready for weighing.
+   - Add the label **"refined"** to the epic to signal readiness.
 1. **Next Steps - Iterative Planning Meeting:**
-    - Following refinement, epics enter the **Iteration Planning Meeting** where all issues within an epic are weighed.
-    - After this stage, epics are marked <span style="color:#4dd787">mint</span> to indicate they are fully weighed and ready for execution.
+   - Following refinement, epics enter the **Iteration Planning Meeting** where all issues within an epic are weighed.
+   - After this stage, epics are marked <span style="color:#4dd787">mint</span> to indicate they are fully weighed and ready for execution.
 
 #### 4. Iteration Planning Meeting
 
-The **Iteration Planning Meeting** is a collaborative session where the team reviews and weighs issues within epics marked as <span style="color:#f3ad5d">apricot</span> on the epic board. This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning). This process ensures that each refined epic is fully understood, in scope, and aligned with the team’s goals.
+The **Iteration Planning Meeting** is a collaborative session where the team reviews and weighs issues within epics marked as <span style="color:#f3ad5d">apricot</span> on the epic board. This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning). This process ensures that each refined epic is fully understood, in scope, and aligned with the team's goals.
 
 **Meeting Objectives:**
 
@@ -292,7 +292,7 @@ This structure allows for both synchronous and asynchronous participation, enabl
 
 The **Milestone Planning & Starting Development** process is used to plan issues for development in upcoming releases and to align team efforts with milestone.
 
-**Epic and Issue Setup:** When starting work on a new epic, all child issues are assigned the milestone **`%"Next 1-3 Releases"`** or a concrete milestone (eg. **`%16.9`**) to indicate they are prioritized for near-term development.
+**Epic and Issue Setup:** When starting work on a new epic, all child issues are assigned the milestone **`%"Next 1-3 Releases"`** or a concrete milestone for example, **`%16.9`** to indicate they are prioritized for near-term development.
 
 Issues are assigned to specific milestones based on factors like team velocity, potential for parallel work, and overall availability. **If unplanned work needs to be added to an active milestone**, please discuss it with the EM first, as it may affect delivery projections and commitments.
 
@@ -542,5 +542,5 @@ We have the following automation goals for this Workflow. Unless otherwise noted
 | --- | --- | --- | --- |
 | <a id="automation-01">01</a> | Warn when no epic is assigned | Issues in `~"Category:(Web IDE \| Workspace)"` but with no epic assigned should get a warning comment | TODO: implement |
 | <a id="automation-02">02</a> | Assign missing milestone to issues | Issues in `~"Category:(Web IDE \| Workspace)"` should be assigned to the `%"Backlog"` if no milestone is assigned | TODO: implement |
-| <a id="automation-03">03</a> | Flag stretch issues in a milestone | Issues that have been assigned the active milestone eg. 16.x, 17.x and don't have both a ~refined label and weight should be marked as ~Stretch | TODO: implement |
+| <a id="automation-03">03</a> | Flag stretch issues in a milestone | Issues that have been assigned the active milestone for example, 16.x, 17.x and don't have both a ~refined label and weight should be marked as ~Stretch | TODO: implement |
 | <a id="automation-04">04</a> | Sync Workspace workflow and GitLab workflow labels | 1. Unstarted issues with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. <br> 2. Every closed issue in `~"Category:(Web IDE \| Workspace)"` should have the `~workflow::done` label applied| TODO: implement |
