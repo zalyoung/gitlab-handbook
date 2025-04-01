@@ -87,6 +87,7 @@ Projects in user namespaces are deleted permanently without any recovery period.
    - When a user initiates deletion, the item and all its child items, if any, move to "pending deletion" state
    - System automatically renames the namespace to free up the original path
    - Item becomes inaccessible to regular operations but visible in a new "Bin" UI
+   - All child items are treated like the parent item that is deleted
 
 2. **Pending Deletion State**
    - Items remain in this state for a configurable period (7 days initially, 30 days in Iteration 2)
