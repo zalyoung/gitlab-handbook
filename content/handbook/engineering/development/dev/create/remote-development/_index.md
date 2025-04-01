@@ -147,7 +147,7 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
-- Treat the wider community as the primary audience ([see relevant summary for rationale](/handbook/engineering/development/dev/create/remote-development/community-contributions/#wider-community-as-primary-audiencee)).
+- Treat the wider community as the primary audience ([see relevant summary for rationale](/handbook/engineering/development/dev/create/remote-development/community-contributions/#wider-community-as-primary-audience)).
 - Provide a meaningful **title** that describes a deliverable result.
   - ✅ `Add a cancel button to the edit workspace form page`
   - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
@@ -158,16 +158,14 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 
 ## 🤖 Planning Process
 
+<span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
+<span id="remote-development-planning-process-overview" data-message="alias anchor for old links"></span>
+
 To improve the accuracy of our planning and delivery estimates, we've adapted parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow. Our team uses a lightweight, velocity-based approach inspired by [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity). This helps us stay flexible while still providing clear, realistic forecasts.
 
 The goal is not to fully adopt XP or Scrum, but to take the pieces that work for us, mainly around iteration planning and historical velocity tracking. By grounding our estimates in ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) (our team's recent delivery history), we can better align scope to capacity and make informed decisions about what we can ship and when.
 
 This process helps us navigate evolving priorities, reduce planning overhead, and stay transparent about what we’re working on.
-
-### Planning Process
-
-<span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
-<span id="remote-development-planning-process-overview" data-message="alias anchor for old links"></span>
 
 ```mermaid
 graph TD;
@@ -282,6 +280,7 @@ This allows you make following Async IPMs faster by standardizing the configurat
 1. Select Save.
 
 **Async Weighing Option:**
+
 - Weighing can also be done asynchronously through the `#remote_development_async_ipm` Slack channel.
 - To initiate async weighing, post the issue that needs to be weighed along with a [Polly poll](https://www.polly.ai/help/slack/creating-polls) to gather input.
 
