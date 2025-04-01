@@ -88,15 +88,15 @@ This is a high-impact role for someone who is competitive, self-starter and hung
 - Introduce and execute against new creative prospecting and campaign ideas
 - Meet or exceed New Logo quota while fostering strong relationships and consultative selling
 - Take ownership of and act as the CEO for the book of business in your territory:
-    - Document the buying criteria & process, next steps & owners
-    - Develop and execute comprehensive prospecting strategies to build and maintain a healthy pipeline of new business opportunities
-    - Work and collaborate with our Partner ecosystem to drive new business and value for our customers
-    - Utilize business and industry knowledge to research accounts, identify key players, generate interest, create/identify compelling events, and develop accounts
+  - Document the buying criteria & process, next steps & owners
+  - Develop and execute comprehensive prospecting strategies to build and maintain a healthy pipeline of new business opportunities
+  - Work and collaborate with our Partner ecosystem to drive new business and value for our customers
+  - Utilize business and industry knowledge to research accounts, identify key players, generate interest, create/identify compelling events, and develop accounts
 - Manage complex sales cycles involving technical audience, multiple stakeholders and decision-makers, and articulate GitLab's value proposition to across various industries
 - Master MEDPICC and Command of the Message on all opportunities
 - Collaborate with cross-functional teams including Sales Development, Solution Architecture and Digital Marketing to develop winning strategies in targeting accounts
 - Contribute to root cause analyses on wins/losses.
-    - Communicate lessons learned to the team, including the marketing team, the technical team and product
+  - Communicate lessons learned to the team, including the marketing team, the technical team and product
 - Feedback: Effectively communicate learnings, feedback and challenges to relevant teams (including Product Development, Sales, and Marketing) to drive continuous improvement, and be the voice of the prospect by contributing product ideas to our public issue tracker
 - Contribute to documenting improvements in our sales handbook
 - Market knowledge: Maintain a foundational understanding of technologies related to GitLab’s market focus
@@ -120,7 +120,7 @@ This is a high-impact role for someone who is competitive, self-starter and hung
 
 ## New Logo Sales Manager
 
-### The New Logo Sales Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+### The New Logo Sales Manager is a grade 8.
 
 ### Responsibilities 
 
@@ -157,10 +157,9 @@ Reporting to the Sr Sales Director, you will be responsible for hiring, developi
 - Strong relationship building and negotiation skills
 - Strong presentation skills; Executive level communication skills (both written and verbal) and the ability to mentor others
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](https://handbook.gitlab.com/handbook/company/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s travel policy
-
 
 ## Career Ladder
 
