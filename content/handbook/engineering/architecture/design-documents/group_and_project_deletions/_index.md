@@ -36,7 +36,7 @@ Additionally, namespace paths remain locked after deletion, preventing users fro
 3. Decrease support and infrastructure team burden by enabling self-service recovery options
 4. Free up namespace paths immediately upon deletion through automated renaming
 5. Improve user experience by providing clear visibility and control over the deletion process
-6. Separate the concepts of "deletion" (revocable) and "permanent deletion" (irrevocable) with appropriate UI
+6. Separate the concepts of "moved to bin" (revocable) and "permanent deletion" (irrevocable) with appropriate UI
 
 ### Non-Goals
 
