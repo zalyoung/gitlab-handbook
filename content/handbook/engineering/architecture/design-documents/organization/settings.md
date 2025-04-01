@@ -5,7 +5,7 @@ group: Organizations
 toc_hide: true
 ---
 
-This document is a work in progress and represents the current state of the Organization Settings design.
+As of March 2025 this document is undergoing review. It represents the current state of the Organization Settings design but may change in the coming months.
 
 The end goal for most existing Admin Area settings is to migrate them to Organizations, with a few exceptions in which we might want to make a setting available at both the instance and Organization level.
 
