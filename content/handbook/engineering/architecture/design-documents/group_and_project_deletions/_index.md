@@ -19,7 +19,7 @@ This architecture blueprint outlines a comprehensive redesign of GitLab's deleti
 The current system presents significant challenges, including accidental permanent deletions, high support burden for recovery requests, and locked namespace paths.
 
 Our proposal introduces a consistent, user-friendly deletion experience across all pricing tiers with a "pending deletion" state, recovery options, and automatic namespace renaming.
-We recommend implementing this vision in three clear iterations, enhancing protection against data loss while maintaining user control.
+We recommend implementing this vision in three iterations, enhancing protection against data loss while maintaining user control.
 These changes will significantly reduce support requests, mitigate accidental deletions, and improve the overall experience for all GitLab users regardless of pricing tier.
 
 ## Motivation
@@ -27,12 +27,12 @@ These changes will significantly reduce support requests, mitigate accidental de
 The current GitLab deletion flow has several critical shortcomings that negatively impact both users and internal teams.
 Projects in personal namespaces lack deletion protection entirely, while protection for group-based projects is inconsistent across pricing tiers.
 When users accidentally delete content, they have limited recourse, leading to unnecessary support requests and infrastructure team involvement for manual recoveries.
-Additionally, namespace paths remain locked after deletion, preventing users from reusing paths immediately.
+Additionally, some namespace paths remain locked while pending deletion, preventing users from reusing paths immediately.
 
 ### Goals
 
 1. Create a consistent deletion experience across all pricing tiers and namespace types (group, project, personal namespace)
-2. Reduce accidental permanent deletions by implementing a "pending deletion" state for all entities
+2. Reduce accidental deletions by implementing a "pending deletion" state for all entities
 3. Decrease support and infrastructure team burden by enabling self-service recovery options
 4. Free up namespace paths immediately upon deletion through automated renaming
 5. Improve user experience by providing clear visibility and control over the deletion process
@@ -61,7 +61,7 @@ We propose implementing a unified deletion flow across all GitLab environments a
    - Introduce dedicated "Bin" section in UI for managing deleted items
    - Create clear separation between "Move to Bin" and "Delete Permanently" actions
    - Implement bulk actions for trash management (restore multiple, empty trash)
-   - Add filtering and sorting capabilities in the Bin view
+   - Add filtering and sorting capabilities in the "Bin" UI
 
 Find a visual reference of this proposal in [Figma](https://www.figma.com/board/AKGxnlizU5pr8r8zRled7z/Group-and-project-deletion-flow?node-id=0-1&p=f&t=9BDJWEeUGiTugJAW-0).
 
@@ -71,20 +71,20 @@ Find a visual reference of this proposal in [Figma](https://www.figma.com/board/
 
 GitLab's deletion flow currently operates differently based on:
 
-- Pricing tier (Free vs. Premium/Ultimate)
-- Entity type (Project vs. Group)
-- Namespace type (User vs. Group)
+- Pricing tier (free vs. premium/ultimate)
+- Entity type (project vs. group)
+- Namespace type (user vs. group)
 
 On premium and ultimate tiers, projects and groups enter a "pending deletion" state for 7 days, during which users can either recover or permanently delete them.
 On the free tier, deleted items are immediately hidden from users and only accessible to admins.
-Projects in user namespaces are deleted permanently without any recovery period regardless of tier.
+Projects in user namespaces are deleted permanently without any recovery period.
 
 ### New Unified Deletion Flow
 
 #### Core Components
 
-1. **Deletion Action**
-   - When a user initiates deletion, the item moves to "pending deletion" state
+1. **Deletion Initiation**
+   - When a user initiates deletion, the item and all its child items, if any, move to "pending deletion" state
    - System automatically renames the namespace to free up the original path
    - Item becomes inaccessible to regular operations but visible in a new "Bin" UI
 
@@ -96,7 +96,7 @@ Projects in user namespaces are deleted permanently without any recovery period 
 
 3. **Recovery Mechanism**
    - Self-service recovery option available to users who have appropriate permissions
-   - Recovery action restores item to active state with original content
+   - Recovery action restores item to active state with original content, including its child items
    - System handles potential namespace conflicts during recovery
 
 4. **Permanent Deletion**
@@ -135,9 +135,9 @@ Projects in user namespaces are deleted permanently without any recovery period 
 
 ### User Experience Flow
 
-#### User Deleting a Project/Group
+#### User Moving a Project/Group to Bin
 
-1. User selects "Delete" option for project/group
+1. User selects "Move to Bin" option for project/group
 2. System displays confirmation dialog explaining the process
 3. Upon confirmation, system:
    - Moves item to pending deletion state
