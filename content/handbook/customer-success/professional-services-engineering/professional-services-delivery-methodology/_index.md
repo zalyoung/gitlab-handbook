@@ -7,20 +7,6 @@ description: "Learn the processes and methodology that GitLab Professional Servi
 
 The Professional Services Delivery Methodology (PSDM) is the guiding light for Program and Project Delivery within GitLab. The goal is to ensure the PS Delivery team operates within a predictable time slice against the Project scope while ensuring we’re focused on Customer Success. This is done through GitLab.com as the SSOT, label guidelines for managing and reporting against progress, risk, iterations needed against our processes and enablement material, and fundamental Agile best practices.
 
-## Iteration 0
-
-[Iteration 0](./iteration-0/_index.md) includes the initial discovery and planning between the GitLab & Customer Project Team(s). This includes:
-
-- EM>PS Delivery Transition
-- Opening a Support ticket on behalf of Customers
-- Stakeholder Planning
-- Customer Kickoff
-- Discovery sessions with the Customer
-
-To prepare and deliver Iteration 0, the PM will work with the GitLab Project team to review the timeline against the agreed upon scope and dependencies. This ensures we are gathering the right information and understanding the potential risks. Allowing us to show up to Iteration 0 more aligned with our Customers and prepared to deliver against a more predictable schedule.
-
-Proper Iteration 0 preparedness allows us to address risk early and instills confidence with our Customers.
-
 ## Managing a Project in GitLab
 
 GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below.
