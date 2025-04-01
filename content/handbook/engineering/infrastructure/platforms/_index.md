@@ -30,7 +30,7 @@ Our main method of communication is Slack.
 
 If you need assistance with a production issue or incident, please see the section on [getting assistance](/handbook/engineering/infrastructure/#getting-assistance).
 
-**SaaS Platforms**
+**Platforms**
 
 | **Channel** | **Purpose** |
 |-----------|-----------|
@@ -173,11 +173,11 @@ The Platforms section builds and maintains various tools to help deploy, operate
 ### OKR
 
 We use objective and key results to set goals in alignment with [OKRs at GitLab](/handbook/company/okrs/).
-[Our OKR process](/handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Saas Platforms.
+[Our OKR process](/handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Platforms.
 
 ### Hiring
 
-[Our hiring process](/handbook/engineering/infrastructure/platforms/hiring/) is shared between all teams in SaaS Plaforms.
+[Our hiring process](/handbook/engineering/infrastructure/platforms/hiring/) is shared between all teams in Platforms.
 
 ## Platforms Learning Path
 
@@ -187,7 +187,7 @@ All team members are encouraged to schedule time for personal development. The f
 
 | Group | Topic |
 |-------|-------|
-| SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
+| Platforms | [Product direction](https://about.gitlab.com/direction/platforms/) |
 | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) | [Mission](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#mission), [Strategy](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#strategy), [Team history](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#history) |
 | [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) | [Mission](/handbook/engineering/infrastructure/team/scalability/#mission), [Strategy](/handbook/engineering/infrastructure/team/scalability/#strategy), [Team history](/handbook/engineering/infrastructure/team/scalability/#history) |
 | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) | [Mission](/handbook/engineering/infrastructure/team/gitlab-dedicated/#mission) |
