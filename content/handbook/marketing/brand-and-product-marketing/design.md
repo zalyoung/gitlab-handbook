@@ -32,7 +32,9 @@ Create simple, effective, and intentional brand experiences by solving complex p
 
 ## Requesting Support
 
-Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request. For more information on the brand video process you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/). 
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request. 
+
+For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/). 
 
 ### Brand Design & Video Issue Templates
 
@@ -127,7 +129,7 @@ The best way to get in contact with the Creative team is to fill out one of the 
 - Use the @gl-design tag in GitLab issues and epics for visibility.
 - @-mention individuals from the team in GitLab issues and epics.
 - Ask your question in the #marketing-design Slack channel.
-- For video specific questions or assistance, please reach out in the #brand_video Slack channel.
+- For video specific questions or assistance, please reach out in the `#brand_video` Slack channel.
 
 ### Working with the brand
 
