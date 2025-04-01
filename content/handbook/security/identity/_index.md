@@ -201,7 +201,7 @@ Learn more on the [Identity Boundaries](/handbook/security/identity/boundaries) 
 
 We consider Workday to be the source of truth for [team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab). All users and their attributes are synced with Okta every hour with built-in vendor integrations.
 
-The [Temporary Service Provider](/handbook/it/end-user-services/onboarding-access-requests/temporary-service-providers/) process is the SSOT for contractors and external users. The IT team manages automation that creates temporary service provider users in Okta with `-ext@gitlab.com` email addresses.
+The [Temporary Service Provider](/handbook/finance/procurement/contingent-worker-policy/) process is the SSOT for contractors and external users. The IT team manages automation that creates temporary service provider users in Okta with `-ext@gitlab.com` email addresses.
 
 Workday has department, job title, and manager metadata, but does not have sufficient sub-department/team/role metadata that is needed for RBAC (that are being evaluated). Workday also does not have any of our temporary service provider contractors. In our current iteration, we consider Workday to be focused on People Group related use cases.
 

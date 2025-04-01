@@ -1122,7 +1122,7 @@ Slack is used for:
 - Asynchronous team standups, questions, and quick collaboration
 - Informal communication
 
-Use a [bias for action](/handbook/values/#bias-for-action) to quickly move conversations that require collaboration and action out of Slack and into an issue.
+Use a [bias for action](/handbook/values/#operate-with-a-bias-for-action) to quickly move conversations that require collaboration and action out of Slack and into an issue.
 
 Only 90 days of Slack activity will be retained, so Slack should specifically NOT be used for:
 

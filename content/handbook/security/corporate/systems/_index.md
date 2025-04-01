@@ -20,7 +20,7 @@ As GitLab has grown organically, several departments and functional groups have 
 
 ## CorpSec Systems Directory
 
-The Corporate Security department provides configuration management [engineering](/handbook/security/corporate/services/engineering) and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
+The Corporate Security department provides configuration management [engineering](/handbook/security/corporate/services/infrastructure/) and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
 
 <table>
 <thead>
@@ -334,7 +334,7 @@ The Corporate Security department provides configuration management [engineering
 <!-- Drive Strike -->
 <tr>
 <td>
-<a href="/handbook/security/corporate/systems/drivestrike">DriveStrike</a></td>
+<a href="https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/">DriveStrike</a></td>
 <td><i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=drivestrike_default">Engineering Issue</a></td>
 <td>
 <a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/?label_name%5B%5D=corpsys-drivestrike">Issues</a>
@@ -516,8 +516,8 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/com">Google Cloud Platform (com)<br><code>gitlab.com</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/com/projects">Create Project for Service/Workload</a><br>
-<i class="fas fa-users mr-2"></i><a href="/handbook/security/corporate/systems/gcp/com/users">User and Role Management</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/com/projects">Create Project for Service/Workload</a><br>
+<i class="fas fa-users mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/com/users">User and Role Management</a><br>
 <i class="fas fa-user-plus mr-2"></i><a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=gcp_com_default">Open an Access Request</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_com_default">Engineering Issue</a>
 </td>
@@ -545,7 +545,7 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/sandbox">Google Cloud Platform (sandbox)<br><code>gitlabsandbox.cloud</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/sandbox/projects">Create My GCP Project</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/sandbox/projects">Create My GCP Project</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_sandbox_default">Engineering Issue</a>
 </td>
 <td>
@@ -643,7 +643,7 @@ The Corporate Security department provides configuration management [engineering
 <td>
 <a href="/handbook/security/corporate/systems/google/cloud/dedicated-dev">Google Cloud Platform (dedicated-dev)<br><code>gitlab-private.org</code></a></td>
 <td>
-<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/gcp/dedicated-dev/projects">Create My GCP Project</a><br>
+<i class="fas fa-cloud-arrow-up mr-2"></i><a href="/handbook/security/corporate/systems/google/cloud/dedicated-dev/projects">Create My GCP Project</a><br>
 <i class="fas fa-user-plus mr-2"></i><a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=gcp_dedicated_dev_default">Open an Access Request</a><br>
 <i class="fas fa-gear mr-2"></i><a href="https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=gcp_dedicated_dev_default">Engineering Issue</a>
 </td>

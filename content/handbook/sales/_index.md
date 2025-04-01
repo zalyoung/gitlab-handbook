@@ -87,7 +87,7 @@ The people working with each segment and their quota are:
 
 - Large: [Strategic Account Executive](/job-families/sales/enterprise-account-executive/) (SAE)
 - Mid-Market: [Mid-Market Account Executive](/job-families/sales/account-executive/) (MM AE)
-- SMB: [SMB Account Executive](/job-families/sales/smb-customer-advocate/) (SMB AE)
+- SMB: [SMB Account Executive](/job-families/sales/smb-account-executive/) (SMB AE)
 
 ## How We Work
 

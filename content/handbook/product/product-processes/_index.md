@@ -116,7 +116,7 @@ Some **internal** methods for communication include:
 
 ### Writing to inspire action
 
-As a PM, it is important to remember a [bias towards action](/handbook/values/#bias-for-action) (and other value actions like [sense of urgency](/handbook/values/#sense-of-urgency), [make a proposal](/handbook/values/#make-a-proposal), [boring solutions](/handbook/values/#boring-solutions), [write things down](/handbook/values/#write-things-down), [don't wait](/handbook/values/#dont-wait), [make two way doors decisions](/handbook/values/#make-two-way-door-decisions) and [accepting uncertainty](/handbook/values/#accepting-uncertainty)
+As a PM, it is important to remember a [bias towards action](/handbook/values/#operate-with-a-bias-for-action) (and other value actions like [sense of urgency](/handbook/values/#sense-of-urgency), [make a proposal](/handbook/values/#make-a-proposal), [boring solutions](/handbook/values/#boring-solutions), [write things down](/handbook/values/#write-things-down), [don't wait](/handbook/values/#dont-wait), [make two way doors decisions](/handbook/values/#make-two-way-door-decisions) and [accepting uncertainty](/handbook/values/#accepting-uncertainty)
 which enables PMs to drive an async discussion to being action oriented. Every time you write a comment or create an issue ask yourself: Will this allow us to take an action and move us forward?
 
 ### Writing about features
@@ -700,7 +700,7 @@ Maturity plans are highly encouraged - but not required - for non-marketing cate
 
 #### Planning and OKRs
 
-[GitLab users quarterly OKRs](/handbook/company/okrs/) that cascade into [Product OKRs](/handbook/product/product-okrs/) and product group OKRs.
+[GitLab users quarterly OKRs](/handbook/company/okrs/) that cascade into [Product OKRs](/handbook/product/product-processes/product-okrs/) and product group OKRs.
 You should have plans for the next three months in terms of driving specific product metrics through discovery and delivery actions.
 You should discuss the product metrics with your manager, your design and engineering counterparts and the actions to reach the results with your design and engineering counterparts.
 

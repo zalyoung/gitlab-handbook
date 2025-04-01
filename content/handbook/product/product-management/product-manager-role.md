@@ -141,7 +141,7 @@ Onboarding issues can be tracked in the [Product Onboarding Issue Board](https:/
 
 ### Product Manager Onboarding Buddy
 
-As part of onboarding a new hire will be given an [Onboarding Buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). As a Product Manager onboarding buddy there are many processes and resources to share with the new hire. A list of tasks and resources specific to Product Managers can be found [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/product/product-manager-role/product-manager-buddy-tasks.md)
+As part of onboarding a new hire will be given an [Onboarding Buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). As a Product Manager onboarding buddy there are many processes and resources to share with the new hire. A list of tasks and resources specific to Product Managers can be found [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/product/product-management/product-manager-role/product-manager-buddy-tasks.md)
 
 ## Interviewing Product Management Candidates
 

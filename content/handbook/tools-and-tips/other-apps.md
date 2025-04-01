@@ -41,7 +41,7 @@ Shut off interest based ads by setting your preferences.
 ### Browser extensions
 
 In general, if a particular application or browser extension (sometimes called a plugin) is referenced in the handbook, it is considered "approved".
-For example, [1Password](/handbook/security/#1password-guide) is centered around the browser extension.
+For example, [1Password](/handbook/security/corporate/systems/1password/) is centered around the browser extension.
 Another application is [Zoom](/handbook/tools-and-tips/#zoom), which has a scheduler extension.
 However, be sure to search for specific information about the application.
 

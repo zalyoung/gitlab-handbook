@@ -31,7 +31,7 @@ Must do:
 - Feedback requests from other designers (issues, MRs, Figma, [`#ux-coworking`](https://gitlab.slack.com/app_redirect?channel=ux_coworking) Slack channel).
 - Adjustments to issues in the current release milestone and labeled `Deliverable`.
 - Issues assigned with labels `workflow::problem validation`, `workflow::solution validation`, or `workflow::design`.
-- Planning and prioritization of UX issues in the next release milestone. See [Milestone planning](/handbook/product/ux/ux-department-workflow/#milestone-planning).
+- Planning and prioritization of UX issues in the next release milestone. See [Milestone planning](/handbook/product/ux/product-designer/).
 - Sharing work with the team through UX Forums, Slack posts, UX meetings.
 
 Should do:
