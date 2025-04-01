@@ -35,7 +35,7 @@ There will be two aspects of the overall querying architecture. The first part, 
 
 This proposal references the first part, but is focused on implementing the second.
 
-![querying_api_flowchart](/images/engineering/architecture/design-documents/data_insights_platform_quering_api/querying_api_flowchart.png)
+![querying_api_flowchart](/images/engineering/architecture/design-documents/data_insights_platform_querying_api/querying_api_flowchart.png)
 
 ## Goals
 
