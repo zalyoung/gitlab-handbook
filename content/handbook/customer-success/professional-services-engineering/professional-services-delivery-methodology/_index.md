@@ -9,7 +9,7 @@ The Professional Services Delivery Methodology (PSDM) is the guiding light for P
 
 ## Managing a Project in GitLab
 
-GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below.
+GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below. At a minimum, all status documents. 
 
 Please reference the following tips for [GitLab best practices](./gitlab-best-practices/_index.md) when navigating GitLab.
 
@@ -39,17 +39,17 @@ Labels are the best way to generate reports around our Projects and sort accordi
 
 Currently, our [CP (Customer Project) automation](./cp/_index.md) includes the following labels:
 
-- SOW-# or PO# - helps the GitLab team search for Projects within the Professional service Group
-- PM name - helps the GitLab team sort by PM name
-- PSD workflow (for issue board management)
+* SOW-# or PO# - helps the GitLab team search for Projects within the Professional service Group
+* PM name - helps the GitLab team sort by PM name
+* PSD workflow (for issue board management)
 
 Labels used for *Internal retro & RAID tracking/reporting* can be found in “Reporting throughout the Iteration” below.
 
-## Iteration Scheduling
+## Project Velocity and Iteration Scheduling
 
-The [iteration schedule and cadence](./iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Communication Plan that lives within the GitLab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
+The [iteration schedule and cadence](./iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Engagement Charter that lives within the GitLab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
 
-There are five components within an Iteration schedule:
+When working within an Iteration/Sprint schedule, there are five components within an Iteration schedule:
 
 1. Iteration Planning
 2. Iteration Review
@@ -57,19 +57,27 @@ There are five components within an Iteration schedule:
 4. Backlog Refinement
 5. Retrospective
 
-## Iteration Planning & Review
+When not working within Iterations, it is still important to communicate the project velocity in order to ensure consistent resource alignment to the Project. (eg. we anticipate to work 40 hours/week for 5 weeks in oder to perform a sucessful upgrade and a seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance). This is validated in Stakelholder Planning meeting and the Customer Kickoff. 
+
+## Iteration/Status Planning & Review
 
 The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, and iteration goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the iteration scope is defined and committed to by the development team.
 
 Please reference [Backlog Management](./backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips.
 
-## Reporting within the Iteration Schedule and Project
+## Status Reporting 
 
 ### Who Updates What?
 
 While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the GitLab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board.
 
 Working asynchronously & remotely can be challenging. Ensuring the DRI within the issue is actively contributing to is crucial to the project’s velocity. It’s the best way the PM can protect the technical teams from distractions as well as make sure there is an effective status roll-up.
+
+Not every Project is going to follow an Sprint or Iteration cadence. However, status updates are expected to live within Gitlab. It is recommended to use an engagement charter to direct users and reporters to the weekly status updates, RAID, etc. 
+
+* [Engagement Charter](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration/Ingram-Barge/SOW-3184/-/blob/main/engagement-charter.md?ref_type=heads) example
+* [Status Update](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/Delta/-/epics/1) example 1
+* [Status Update](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/smartsheet/SOW-2163/-/issues/2) example 2
 
 ### RAID & Internal/Customer Retrospective
 
