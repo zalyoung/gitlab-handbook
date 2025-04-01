@@ -49,12 +49,15 @@ Certain policies are now available [here](/handbook/people-policies/#translation
 
 ### Guidelines and Other Resources
 
+- [Conflicts of Interest Disclosure Form](https://docs.google.com/forms/d/e/1FAIpQLSegpCkaD8L6mnCuT4cMnC1ohfE9mqEnoenx7h5YmT-OJqSyAA/viewform?usp=sf_link)
+- [Gifts & Entertainment Inquiry Form](https://docs.google.com/forms/d/e/1FAIpQLSfVOYD-YFXd-DZAOkzCukFLQWWT9tOSKOKd5ESI4kLP2zx3pA/viewform?usp=sf_link)
 - [AI Ethics Principles for Product Development](/handbook/legal/ethics-compliance-program/ai-ethics-principles/)
 - [Data Classification Standards](/handbook/security/data-classification-standard/)
 - [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#heading=h.b3pm8ljoip1y)
 - [External Materials Compliance Checklist](/handbook/legal/external-materials-compliance-checklist/)
 - [Insider Trading Policy FAQs](https://docs.google.com/document/d/1vKFiYuieDQtKmrak-aAB2dTT3B3Q-aU4DtbcRm27X4U/edit)
 - [IP Public Materials Guidelines](/handbook/legal/ip-public-materials-guidelines/)
+- [GitLab Federal Collaboration Guidelines](https://internal.gitlab.com/handbook/sales/public-sector/#gitlab-federal-collaboration-guidelines)
 - [Learning Content Accessibility Guidelines](/handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/)
 - [Materials Legal Review Process](/handbook/legal/materials-legal-review-process/)
 - [Trade Controls relating to Russia, Belarus, and Ukraine - Sales](https://docs.google.com/document/d/1oT8fj0z313iYcaVxFBo3MtDm5R2KECYmYbWcGFODHKE/edit)
@@ -68,7 +71,7 @@ We anticipate the need for policy amendments and new policies and procedures, as
 
 Compliance training is critical to GitLab's success and the success of its team members. Effective training helps team members achieve a more meaningful understanding of what our Compliance Standards require and puts them in a better position to recognize and escalate (as required) unethical and unlawful behavior when they see it.
 
-All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through [NavexEngage](https://lms.navexglobal.com/topclass5/) and [Level Up](https://university.gitlab.com/learn/dashboard). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-training.html) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training). Additional information about Navex and the courses available there can be found [here](/handbook/legal/legalops/navex/). The refresher training schedule for the current year is reflected in the [GitLab Team Member Calendar](https://handbook.gitlab.com/handbook/people-group/calendars/team-member-calendar/).
+All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through [NavexEngage](https://lms.navexglobal.com/topclass5/) and [Level Up](https://university.gitlab.com/learn/dashboard). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-awareness-training/) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training). Additional information about Navex and the courses available there can be found [here](/handbook/legal/legalops/navex/). The refresher training schedule for the current year is reflected in the [GitLab Team Member Calendar](/handbook/people-group/calendars/team-member-calendar/).
 
 We recognize that some team members are subject to additional or heightened compliance requirements as a result of their roles and responsibilities or the geographies in which they operate. Depending on these factors, those team members may receive additional training. As an example, team members employed by or working closely with GitLab Federal, our United States public sector entity, must complete a training course titled Government Contracting: Gifts, Gratuities, and Bribery.
 

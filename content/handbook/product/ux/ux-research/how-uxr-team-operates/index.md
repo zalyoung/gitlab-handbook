@@ -41,7 +41,7 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 | Section: Stage Groups | Assigned UX Researchers |
 |---------|-------------------------------|
 | **Systems**: Distribution, Geo, Cloud Connector <br> **Data Stores**: Global Search, Tenant Scale, Database <br> **SaaS Platforms**: GitLab Dedicated, US Public Sector Services, Delivery <br> **Deploy**: Environments <br> **Monitor**: Observability | [Will Leidheiser](https://gitlab.com/wleidheiser) |
-| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision <br>**AI-Powered**: AI Framework, Duo Chat, AI Model Validation | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
+| **Fulfillment**: Purchase, Utilization, Fulfillment Platform, Billing & Subscription Management, Provision <br>**Data Science**: AI Framework, Duo Chat, Custom Models, MLOps | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Anne Lasch](https://gitlab.com/alasch) |
 | **Monitor**: Product Intelligence, Product Analytics | [Nicholas Hertz](https://gitlab.com/NickHertz) |
 | **Manage**: Import and Integrate, Design System, Personal Productivity, UX Paper Cuts | [Thaina Tavares](https://gitlab.com/thaina.t) |
 | **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky](https://gitlab.com/dteverovsky) |

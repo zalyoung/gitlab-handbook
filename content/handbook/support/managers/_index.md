@@ -49,7 +49,7 @@ See [Support Hiring](/handbook/support/managers/hiring)
 
 ## Promotions
 
-See [Promoting a team member]({{< ref promoting-a-support-team-member >}})
+See [Promoting a team member](/handbook/support/managers/promoting-a-support-team-member)
 
 ## Metrics
 

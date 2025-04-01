@@ -106,7 +106,7 @@ Application
 
 - [Application Settings](https://gitlab.com/admin/application_settings/network) (admin access only)
   - See `User and IP Rate Limits` and `Protected Paths`
-- [GitLab.com Docs](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits) (published manually)
+- [GitLab.com Docs](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom) (published manually)
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Application
 
 ### Bypasses
 
-[Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits) apply to all customers and users with no exceptions.
+[Published rate limits](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom) apply to all customers and users with no exceptions.
 
 Customers or internal teams seeking a bypass should refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
@@ -279,7 +279,7 @@ GitLab utilises [RackAttack](https://docs.gitlab.com/ee/development/application_
 
 For more information about configuring rate limits for a GitLab instance, see the [User and IP rate limits](https://docs.gitlab.com/ee/administration/settings/user_and_ip_rate_limits.html) doc.
 
-You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
+You can read more information about [rate limits specific to GitLab.com](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom), alongside RackAttack configuration documentation in [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting#application-rackattack).
 
 ### ApplicationRateLimiter
 
@@ -320,12 +320,25 @@ The list of semi-standard rate limiting response headers can be found [here](htt
 
 See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25372) for improvements to returning rate limiting response headers.
 
-## Avoiding Rate Limits
+## Client-Side Best Practices
 
 To minimize the risk of hitting rate limits, you can try the following:
 
-- Stagger the execution of your automated pipelines.
-- Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.
+1. Implement Retry Logic
+    - Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.
+    - Respect the `429` response status and `Retry-After` headers.
+    - Implement circuit breakers for persistent failures.
+1. Stagger Automated Pipelines
+    - Reduce the volume of requests being made at any one time.
+1. Request Batching
+    - Combine multiple operations into single requests where possible.
+    - Implement client-side queue management.
+1. Implement Caching
+    - Cache responses where possible to reduce request frequency.
+    - Implement conditional requests, utlizing `If-Modified-Since` for example.
+1. Monitor for Rate Limited Responses
+    - Log and alert on unexpected increases in rate limited requests.
+    - Track rate limit responses and headers where applicable.
 
 ## Troubleshooting
 
@@ -333,7 +346,7 @@ Please see [Rate Limiting Troubleshooting](/handbook/engineering/infrastructure/
 
 ## Important Links
 
-- [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
+- [docs: GitLab.com](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom)
 - [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits.html)
 - [runbook: GitLab.com rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
 - [handbook: Identifying the cause of IP Blocks on GitLab.com](/handbook/support/workflows/ip-blocks/)

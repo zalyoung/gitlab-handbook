@@ -40,7 +40,7 @@ Everyone has unconscious biases, the goal is to bring them to our consciousness 
 Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one's conscious values. Therefore it would be good to have an instrument to detect and fight it.
 The tool that achieved most popularity both in scientific circles and public is the [implicit-association test (IAT)](https://implicit.harvard.edu/implicit/), which is a collaborative research effort between researchers at Harvard University, the University of Virginia, and University of Washington. It is meant to reveal the strength of one's mental association between certain groups of people and certain traits. It is used to investigate biases in racial groups, gender, sexuality, age, and religion, as well as assessing self-esteem.
 
-Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism), IAT can jumpstart our thinking about hidden biases:
+IAT can jump start our thinking about hidden biases:
 
 - Where do they come from?
 - How do they influence our actions?

@@ -19,14 +19,14 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Commercial Sales](/handbook/sales/commercial/)  |[Sales Enablement Sessions](/handbook/sales/training/sales-enablement-sessions/) | [Engage & Educate the Customer](/handbook/sales/sales-operating-procedures/engage-and-educate-the-customer/) |[Sales Kickoff](/handbook/sales/training/sko/) |
 | [Enterprise Sales](/handbook/sales/playbook/) |  [Command of the Message](/handbook/sales/command-of-the-message/)  |  [Facilitate The Opportunity](/handbook/sales/sales-operating-procedures/facilitate-the-opportunity/)  | [Sales Meetings](/handbook/sales/sales-meetings/) |
 | [Inside Sales](/handbook/sales/insidesales/) | [Most Commonly Used Sales Resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) | [Deal Closure](/handbook/sales/sales-operating-procedures/deal-closure/) |  |
-| [Channels](/handbook/sales/channel/#channels-handbook)  | [Field Certification Program](/handbook/sales/training/field-certification/) | [Retain and Expand](/handbook/sales/sales-operating-procedures/retain-and-expand/) |  |
+| [Channels](/handbook/resellers/)  | [Field Certification Program](/handbook/sales/training/field-certification/) | [Retain and Expand](/handbook/sales/sales-operating-procedures/retain-and-expand/) |  |
 | [Sales Territories](/handbook/sales/territories/)| [Sales Manager Best Practices](/handbook/sales/field-operations/field-enablement/sales-manager-best-practices/) | [Forecasting](/handbook/sales/forecasting/) |  |
 | [Sales Term Glossary](/handbook/sales/sales-term-glossary/) | [Field Flash Newsletter](/handbook/sales/field-communications/field-flash-newsletter/) | [Investor Sales Support](/handbook/sales/assistance-from-investors) |  |
 | [ACV Deep Dive](/handbook/sales/sales-term-glossary/arr-in-practice)  | [Field Team Recognition Programs](/handbook/sales/field-operations/field-enablement/field-team-recognition) | Customer Planning |  |
 | [ARR Deep Dive](/handbook/sales/sales-term-glossary/arr-in-practice)  | [Highspot - GitLab Sales Asset Management Tool](/handbook/sales/field-communications/gitlab-highspot) | [Rules of Engagement for Selling GitLab & Partner Professional Services](/handbook/sales/selling-professional-services) |  |
 | **Field Operations Teams and Resources** | **Customer Success Resources** | **Helpful Sales Handbook Tips** | **Sales Resources Outside of the Sales Handbook** |
 |  ------ | ------ | ------ | ------ |
-| [Field Operations](/handbook/sales/field-operations/) | [Customer Success Groups](/handbook/customer-success/#customer-success-groups) | [FAQ from Prospects](/handbook/sales/faq-from-prospects/) |[Resellers Handbook](/handbook/resellers/) |
+| [Field Operations](/handbook/sales/field-operations/) | [Customer Success Teams](/handbook/customer-success/#customer-success-teams) | [FAQ from Prospects](/handbook/sales/faq-from-prospects/) |[Resellers Handbook](/handbook/resellers/) |
 | [Sales Operations](/handbook/sales/field-operations/sales-operations/) | [How to Engage a Solutions Architect](/handbook/solutions-architects#when-and-how-to-engage-a-solutions-architect) | [Client Use Cases](/handbook/marketing/use-cases/) | [Customer Reference Sheet](https://docs.google.com/a/gitlab.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit?usp=sharing) |
 | [Deal Desk](/handbook/sales/field-operations/sales-operations/deal-desk/) | [Account Planning Template for Large Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24) | [Dealing with Security Questions From Prospects](/handbook/security/#security-questionnaires-for-customers) | [Customer Reference Case Study Dynamic Board](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&) |
 | [Field Enablement](/handbook/sales/field-operations/field-enablement/) | [How to Engage a CSM/CSE](/handbook/customer-success/pre-sales-post-sales-transition/) | [How to conduct an executive meeting](https://www.youtube.com/watch?v=PSGMyoEFuMY&feature=youtu.be) | [GitLab Support Handbook](/handbook/support/) |
@@ -65,7 +65,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | ------ | ------ | ------ | ------ |
 | [Deal Desk: Assistance with Quotes](/handbook/sales/field-operations/order-processing/#assistance-with-quotes) | [Business Operations Handbook](/handbook/business-technology/) | [Collaborating with Legal - Sales](/handbook/legal/customer-negotiations/) |  |
 | [Deal Desk: Approval Process](/handbook/sales/field-operations/order-processing/#deal-desk-approval-process) | [Data Team Handbook](/handbook/enterprise-data/) | [Legal Page](/handbook/legal/) |  |
-| [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/enterprise-data/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
+| [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/enterprise-data/data-governance/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
 | [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/it/end-user-services/onboarding-access-requests/) |  |  |
 |  | [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests) |  |  |
 
@@ -87,7 +87,7 @@ The people working with each segment and their quota are:
 
 - Large: [Strategic Account Executive](/job-families/sales/enterprise-account-executive/) (SAE)
 - Mid-Market: [Mid-Market Account Executive](/job-families/sales/account-executive/) (MM AE)
-- SMB: [SMB Account Executive](/job-families/sales/smb-customer-advocate/) (SMB AE)
+- SMB: [SMB Account Executive](/job-families/sales/smb-account-executive/) (SMB AE)
 
 ## How We Work
 
@@ -133,7 +133,7 @@ The Inside Sales department is part of the GitLab Sales function and partners wi
 
 #### Channels & Alliances
 
-These teams help accelerate GitLab's trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/sales/channel/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
+These teams help accelerate GitLab's trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/resellers/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
 
 #### Sales Development Organization
 
@@ -192,7 +192,7 @@ To standardize our messaging around Coronavirus and the impact it is having on o
 
 ### Export Control Classification, and Countries We Do Not Do Business In
 
-GitLab's Export Control Classification (or ECCN) is 5D992.c. As a consequence of this classification, we currently do not do business in: Iran, Sudan, Syria, North Korea, Cuba and the Crimea, Donetsk, or Luhansk regions of the Ukraine.
+GitLab's Export Control Classification (or ECCN) is 5D992.c. As a consequence of this classification, we currently do not do business in: Cuba, Iran, North Korea, Syria, Russia, Belarus, and the Crimea, Donetsk, and Luhansk regions of Ukraine.
 
 ## Performance Indicators
 

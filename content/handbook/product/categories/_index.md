@@ -32,10 +32,10 @@ The categories form a hierarchy:
 1. **Sections**: Are a collection of stages. We attempt to align these logically along common workflows like Dev, Sec and Ops.
 Sections are maintained in [`data/sections.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/sections.yml).
 1. **Stages**: are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
-Each stage has a corresponding [`devops::<stage>` label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) under the `gitlab-org` group.
+Each stage has a corresponding [`devops::<stage>` label](https://docs.gitlab.com/development/labels/#stage-labels) under the `gitlab-org` group.
 1. **Group**: A stage has one or more [groups](/handbook/company/structure/#product-groups).
 Groups are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
-Each group has a corresponding [`group::<group>` label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) under the `gitlab-org` group.
+Each group has a corresponding [`group::<group>` label](https://docs.gitlab.com/development/labels/#group-labels) under the `gitlab-org` group.
 1. **Categories**: A group has one or more categories. Categories are high-level
 capabilities that may be a standalone product at another company. e.g.
 Portfolio Management. To the extent possible we should map categories to
@@ -48,12 +48,12 @@ to be fewer categories, or shorter category names, if the aggregate number of
 lines when rendered would exceed 13 lines, when accounting for category names
 to word-wrap, which occurs at approximately 15 characters.
 Categories are maintained in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml).
-Each category has a corresponding [`Category:<Category>` label](https://docs.gitlab.com/ee/development/labels/index.html#category-labels) under the `gitlab-org` group. Category maturity is managed in the product [Category Maturity Change](/handbook/product/categories/#changing-category-maturity) process
+Each category has a corresponding [`Category:<Category>` label](https://docs.gitlab.com/development/labels/#category-labels) under the `gitlab-org` group. Category maturity is managed in the product [Category Maturity Change](/handbook/product/categories/#changing-category-maturity) process
 1. **Features**: Small, discrete functionalities. e.g. Issue weights. Some
 common features are listed within parentheses to facilitate finding
 responsible PMs by keyword.
 Features are maintained in [`data/features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/features.yml).
-It's recommended to associate [feature labels](https://docs.gitlab.com/ee/development/labels/index.html#feature-labels) to a category or a group with `feature_labels` in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml?ref_type=heads) or [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml?ref_type=heads).
+It's recommended to associate [feature labels](https://docs.gitlab.com/development/labels/#feature-labels) to a category or a group with `feature_labels` in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml?ref_type=heads) or [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml?ref_type=heads).
 
 Notes:
 
@@ -197,7 +197,7 @@ After approval and prior to merging, ping the Engineering Manager for Quality En
 
 This is to ensure that [GitLab Bot auto-labeling](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#auto-labelling-of-issues-and-merge-requests) can be updated prior to the change, which can be [disruptive if missed](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/467#note_337325686).
 
-Upon approval, tag the group Technical Writer in the merge request to ensure [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#stage-and-group-metadata) is updated after the category change is merged.
+Upon approval, tag the group Technical Writer in the merge request to ensure [documentation metadata](https://docs.gitlab.com/development/documentation/#stage-and-group-metadata) is updated after the category change is merged.
 
 Ensure that relevant slack channels are updated following our [slack channel naming convention](/handbook/communication/chat/#channel-categories), open an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to have slack channel names updated as they can no longer be updated by creators.
 
@@ -226,6 +226,10 @@ Changes that require approval only from the relevant Product Director include:
 When changing the name of a group, create a merge request to change the group name in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml)
 using the [Group-Stage-Category-Change](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Group-Stage-Category-Change.md) template,
 and make sure to complete all the steps in the template.
+
+When changing the team tags, such as `be_team_tag`, ensure that each team member's individual `data/team_members/person/` YAML has the relevant `departments` entry updated. Alternatively, if the team tag is missing, add the tag under the list of `departments` as the second or lower entry. The first `departments` entry is controlled by the Workday sync and will be overwritten.
+
+When deciding on the naming, ensure that each team tag is unique. For example, `sre_team_tag` should have a different value compared to `be_team_tag`. If they are the same, then all team members with the tag with be displayed, duplicating the list for BE and SRE.
 
 ### Changing category name
 
@@ -312,14 +316,14 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Code Review group](/handbook/product/categories/#code-review-group)
 
-- [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/)
+- [Merge Requests](https://docs.gitlab.com/user/project/merge_requests/)
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 
 #### Remote Development group
 
 [Remote Development group](/handbook/product/categories/#remote-development-group/)
 
-- [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/)
+- [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/editor_extensions/visual_studio_code/)
 
 ### Other functionality in Verify
 
@@ -333,7 +337,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Pipeline Authoring Group](#pipeline-authoring-group)
 
-- [CI/CD Template Management and Contributions](https://docs.gitlab.com/ee/development/cicd/templates.html)
+- [CI/CD Template Management and Contributions](https://docs.gitlab.com/development/cicd/templates/)
 
 ### Other functionality in Monitor stage
 
@@ -345,11 +349,11 @@ Maybe we should make our features easier to search to replace the section below.
 
 - [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
-### Other functionality in Test Platform
+### Other functionality in Developer Experience
 
-[Test Platform](/handbook/engineering/infrastructure/test-platform/)
+[Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience/)
 
-- [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+- [Reference Architectures](https://docs.gitlab.com/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
@@ -365,14 +369,14 @@ Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster
 
 [Product Analytics group](/handbook/product/categories/#product-analytics-group)
 
-- [Analytics Dashboards](https://docs.gitlab.com/ee/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
+- [Analytics Dashboards](https://docs.gitlab.com/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
 
 ### Facilitated functionality
 
 Some product areas are have a broad impact across multiple stages. Examples of this include, among others:
 
-- Shared project views, like the [project](https://docs.gitlab.com/ee/user/project/#projects) overview and settings page.
-- Functionality specific to the [admin area](https://docs.gitlab.com/ee/administration/settings/) and not tied to a feature belonging to a particular stage.
+- Shared project views, like the [project](https://docs.gitlab.com/user/project/#projects) overview and settings page.
+- Functionality specific to the [admin area](https://docs.gitlab.com/administration/settings/) and not tied to a feature belonging to a particular stage.
 - UI components available through our design system, [Pajamas](https://design.gitlab.com/).
 - Dashboards for displaying analytics, such as Product Analytics, Value Stream Analytics, and others.
 

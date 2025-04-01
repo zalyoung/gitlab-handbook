@@ -29,6 +29,43 @@ the project developers know the current status of the sync.
 ![Success badge](https://img.shields.io/badge/Sync%20Status-Success-green)
 ![Failure badge](https://img.shields.io/badge/Sync%20Status-Failed-red)
 
+## Pre-checks
+
+To be eligible for a contact management project, all of the following criteria
+must be met:
+
+- The requester must be associated to an organization
+- The organization must have an active subscription with GitLab (it cannot be
+  expired or within the grace period)
+- The organization must have a qualifying subscription, which would be one of
+  the following:
+  - A GitLab Premium subscription (Self-Managed or gitlab.com)
+  - A GitLab Ultimate subscription (Self-Managed or gitlab.com)
+  - A GitLab Dedicated subscription
+- The organization's valid subscription must be for at least 50 seats
+- The requester must be one of the following:
+  - The sold-to (purchasing party) of the subscription
+  - An owner on the gitlab.com namespace
+
+If any of those criteria are not met, you should reply to the ticket with the
+`Support::Support-Ops::Not qualified for CMP` macro.
+
+If they have met all criteria, you can proceed to the setup section below.
+
+## Setup
+
+The setup and creation of a contact management project is completely performed
+via the Zendesk Global app `Support Ops Super App`. As such, you should use that
+to kick the process off after you have done the needed checks. The app will ask
+you for a comma-separated list of emails to use for the project's developers.
+After submission, a combination of the app and the ticket processor will handle
+the rest.
+
+## NOTE
+
+This section below is being kept for historical purposes. Please use the Zendesk
+app for the setup/creation of contact management projects.
+
 ## How do we set this up
 
 These are setup via several stages that all work together to reflect a complete

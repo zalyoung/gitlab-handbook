@@ -50,4 +50,4 @@ For further details on GitLab's access management processes, please review the [
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Security and Technology Policy Exception Management Process]({{< ref "security-and-technology-policy-exception" >}}).
+Exceptions to this policy will be tracked as per the [Security and Technology Policy Exception Management Process](/handbook/security/security-and-technology-policy-exception/).

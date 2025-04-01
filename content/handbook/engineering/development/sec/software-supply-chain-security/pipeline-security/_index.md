@@ -81,7 +81,7 @@ Our active feature flags can be found on the [feature flag dashboard](https://10
 
 #### General planning
 
-Our team does not use [Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/) because we do not have an assigned Software Engineer in Test. Instead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
+Our team does not use Quad-Planning process because we do not have an assigned Software Engineer in Test. Instead we deploy a "tripod" approach where PM, EM, and UX work together to plan at least three milestones worth of work at a high level. During planning, the PM sets the general direction for the team and works with the EM to ensure the team's plans are ambitious, yet achievable based on the team's capacity. This ensures checks and balances during the planning discussions to minimize carryover and ensure engineering priorities are addressed along with feature priories in the roadmap. UX will work with PM to ensure research and design issue are ready in time for implementation. Planning is mostly asynchronous via the release planning issue (see below), with additional discussion during weekly 1:1 sessions and team meetings as needed. This tripod approach allows us to address dependencies early on and ensure Design and Engineering are aligned on our product roadmap.
 
 #### Release planning issue
 
@@ -123,7 +123,7 @@ If the weight of an issue cannot be determined within a day, create a separate [
 
 When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
 
-To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#ux-definition-of-done-ux-dod) template to clearly state where the issue stands in the product development flow. An example of this in practice is https://gitlab.com/gitlab-org/gitlab/-/issues/33418/.
+To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done) template to clearly state where the issue stands in the product development flow. An example of this in practice is https://gitlab.com/gitlab-org/gitlab/-/issues/33418/.
 
 Once the design is complete, and appropriate workflow labels are applied, design, quality, and development (include FE, BE, and EM) should work together to break down the issue further for implementation, if necessary.
 
@@ -178,8 +178,8 @@ Before the team will accept an issue into a milestone for work it must meet thes
 - Issues labeled with ~"type::feature" include a well stated "why" and customer problem
 - Issues labeled ~"type::bug" include steps to reproduce
 - Designs are in the design tab if needed
-- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code-be/#weights)
-- Design proposal satisfies the [UX Definition of Done (DoD)](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#definition-of-done-for-ux-pilot)
+- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code/backend/#weighting-issues)
+- Design proposal satisfies the [UX Definition of Done (DoD)](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done)
 
 #### Definition of Blocked
 
@@ -195,7 +195,7 @@ During each milestone, we create a [Release Post Checklist](https://gitlab.com/g
 
 ### Workflow
 
-Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/ux-department-workflow/) workflows.
+Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/product-designer/) workflows.
 
 #### Starting New Work
 

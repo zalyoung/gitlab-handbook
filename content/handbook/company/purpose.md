@@ -43,7 +43,6 @@ Our knowledge sharing empowers everyone, not only to GitLab team members but als
 
 #### Aimed at under-represented or under-resourced groups
 
-1. [Coaching & mentoring program for people from underrepresented groups](/handbook/engineering/volunteer-coaches-for-urgs/)
 1. [Morehouse College Advanced Software Engineering Course](/handbook/company/culture/inclusion/erg-minorities-in-tech/advanced-software-engineering-course/)
 1. Targeted events such as [workshops organized for Rails Girls](/handbook/people-group/givelab-volunteer-initiatives/#rails-girls)
 1. [Minorities in Tech (MIT) mentoring](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/program-structure/) for GitLab team members

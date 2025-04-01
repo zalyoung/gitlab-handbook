@@ -19,6 +19,7 @@ the variables passed to it from the Zendesk trigger.
 
 Currently, the ticket processor actions on the following:
 
+- [Process 2FA Removal tickets](#process-2fa-removal-tickets)
 - [Autowork account blocked requests](#autowork-account-blocked-requests)
 - [Autowork account locked requests](#autowork-account-locked-requests)
 - [Autowork email suppression requests](#autowork-email-suppression-requests)
@@ -27,6 +28,40 @@ Currently, the ticket processor actions on the following:
 - [Add internal comments on Zendesk tickets based on the organization](#add-internal-comments-on-zendesk-tickets-based-on-the-organization)
 - [Add tags on Zendesk tickets when a STAR is made on them](#add-tags-on-zendesk-tickets-when-a-star-is-made-on-them)
 - [Add ticket weighting values to Zendesk tickets](#add-ticket-weighting-values-to-zendesk-tickets)
+- [CMP Creation](#cmp-creation)
+
+### Process 2FA Removal tickets
+
+This checks the request itself to determine the eligiblity status. Depending on
+the determination, it adds a tag to the ticket (which will fire a corresponding
+Zendesk trigger).
+
+- If the request is to remove the requester's 2FA:
+  - The user has support entitlement for the request
+    - The tag `2fa_challenge_questions` is added, which causes the trigger
+      [Post 2FA challenge questions](https://gitlab.com/gitlab-com/support/zendesk-global/triggers/-/blob/master/2FA/Post%202FA%20challenge%20questions.md?ref_type=heads)
+      to fire
+  - The user does not have support entitlement for the request
+    - The tag `2fa_user_not_entitled` is added, which causes the trigger
+      [Close 2FA ticket due to user not entitled](https://gitlab.com/gitlab-com/support/zendesk-global/triggers/-/blob/master/2FA/Close%202FA%20ticket%20due%20to%20user%20not%20entitled.md?ref_type=heads)
+      to fire
+- If the request is to remove another user's 2FA:
+  - Checks the following criteria
+    - Does the requester have support entitlement for the request?
+    - Is the domain of the requester's email an exact match for the domain of
+      the target's email?
+    - Does the requester have a gitlab.com account?
+    - Does the target have a gitlab.com account?
+    - Is the requester an `Owner` on a top-level paid namespace?
+    - Is the target a member under the top-level paid namespace?
+  - If it passed all checks:
+    - The tag `2fa_snippet_verification` is added, which causes the trigger
+      [Post 2FA snippet verification](https://gitlab.com/gitlab-com/support/zendesk-global/triggers/-/blob/master/2FA/Post%202FA%20snippet%20verification.md?ref_type=heads)
+      to fire
+  - If it fails any checks:
+    - The tag `2fa_owner_not_entitled` is added, which causes the trigger
+      [Close 2FA ticket due to owner not entitled](https://gitlab.com/gitlab-com/support/zendesk-global/triggers/-/blob/master/2FA/Close%202FA%20ticket%20due%20to%20owner%20not%20entitled.md?ref_type=heads)
+      to fire
 
 ### Autowork account blocked requests
 
@@ -170,6 +205,10 @@ This adds the ticket tag `star_submitted` onto the ticket.
 This determines the ticket's "weight" based on specific criteria. The criteria
 currently used can be seen within the
 [ticket processor's code](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
+
+### CMP Creation
+
+This creates a contact management project for the ticket.
 
 ## What it does on Zendesk US Government
 

@@ -72,7 +72,7 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#add-biometric-authentication-to-okta-for-mobile-devices-accessing-okta-apps-on-your-phone)), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
 1. If clearing your browser cache, please be careful as you can delete your passkey.
-    1. In Chrome, if using "Clear Browsing Data" function please ensure that you [DO NOT check](/handbook/it/end-user-services/self-help-troubleshooting/#clearing-google-chrome-cache-like-this-will-break-your-touchid-2fa) "Passwords and other sign-in data" (under "Advanced" tab). By default, this is unchecked.
+    1. In Chrome, if using "Clear Browsing Data" function please ensure that you [DO NOT check](https://internal.gitlab.com/handbook/it/end-user-services/self-help-troubleshooting/#clearing-google-chrome-cache-like-this-will-break-your-touchid-2fa) "Passwords and other sign-in data" (under "Advanced" tab). By default, this is unchecked.
     1. In Safari, the credential is stored under "Settings->Password". This is separate from the "Settings->Privacy" and "Manage Website Data" where you would click "Remove all" to remove the cache.
 
 Follow the GitLab Okta [FAQ](/handbook/it/okta/okta-enduser-faq/).
@@ -145,7 +145,7 @@ If both of previous devices are not available, you could use a [YubiKey](https:/
 
 ### I would like to get a YubiKey, how can I do so?
 
-Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](/handbook/it/guides/yubikey/)), and we will coordinate shipment of one to you thru our group buy.
+Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](/handbook/security/corporate/systems/yubikey/)), and we will coordinate shipment of one to you thru our group buy.
 
 ### Lost access to your 2FA or your OKTA account has been locked out because of failed attempts?
 
@@ -191,7 +191,7 @@ Okta Device Trust ensures that team members are acccessing Okta applications fro
 
 ### After enrolling
 
-You will continue to be able to use a [YubiKey](/handbook/it/guides/yubikey/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
+You will continue to be able to use a [YubiKey](/handbook/security/corporate/systems/yubikey/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
 
 A macOS device missing the certificate (even when enrolled with Okta Verify), will quickly show:
 ![No Certificate](/images/it/okta/no-certificate.png)

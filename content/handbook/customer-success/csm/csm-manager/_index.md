@@ -25,7 +25,7 @@ This page provides an overview on relevant CSM leadership processes.
 | [Chloe Whitestone](/handbook/company/team/#chloe) | AMER East | Manager | CSM |
 | [Tiffany McAtee](/handbook/company/team/#tiffanymcatee.gitlab) | AMER East | Senior Manager | CSM |
 | [Jamie Reid](/handbook/company/team/#jrreid) | AMER West | Manager | CSM |
-| [Cedric Stapleton](/company/team/#c.stapleton) | AMER West | Manager | CSM |
+| [Cedric Stapleton](/handbook/company/team/#c.stapleton) | AMER West | Manager | CSM |
 | [Michael Leutz](/handbook/company/team/#mrleutz) | EMEA | Director | CSM |
 | [Christina Souleles](/handbook/company/team/#csouleles) | DACH | Senior Manager | CSM |
 | [Robert Clark](/handbook/company/team/#robclark14) | PubSec | Manager | CSM & CSE |

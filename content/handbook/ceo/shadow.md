@@ -221,7 +221,7 @@ If you're not familiar with some of the business acronyms, take a bit of time to
 - [Revenue definitions (Internal link)](https://internal.gitlab.com/handbook/sales/sales-glossary/) such as [ARR (Annual Recurring Revenue) (Internal link)](https://internal.gitlab.com/handbook/sales/annual-recurring-revenue-arr/)
 - Other business terminology may come up. [Wall Street Oasis Finance Dictionary](https://www.wallstreetoasis.com/finance-dictionary#DicT) is a handy guide.
 
-**Note:** This list is not meant to be exhaustive and [should not become a glossary]({{< ref "handbook-usage#single-source-of-truth" >}}). While we strive to be handbook first, you may find that we are using acronyms without a clear handbook definition. If you can't find it in the handbook or find a standard definition on Google, ask someone what the acronym means. Not being able to find it could be a sign that we need to do a better job with documentation.
+**Note:** This list is not meant to be exhaustive and [should not become a glossary](/handbook/about/handbook-usage/#single-source-of-truth). While we strive to be handbook first, you may find that we are using acronyms without a clear handbook definition. If you can't find it in the handbook or find a standard definition on Google, ask someone what the acronym means. Not being able to find it could be a sign that we need to do a better job with documentation.
 
 #### Look for values being lived out
 
@@ -363,7 +363,7 @@ When attending **external meetings**, notify the CEO in a private Zoom chat mess
 
 In internal meetings, `I think` can be used to signal opportunity for others to present a contrasting opinion.
 
-Also send a private Zoom chat message when the [CEO displays other flawed behavior]({{< ref "ceo#flaws">}}").
+Also send a private Zoom chat message when the [CEO displays other flawed behavior](/handbook/ceo/).
 
 #### Share thanks
 

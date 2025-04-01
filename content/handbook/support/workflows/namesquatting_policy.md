@@ -68,7 +68,7 @@ If the namespace owner has made no response, follow the [Request successful](#re
 
 If the request is successful, follow these steps:
 
-For users, change the owner's username with [Chatops](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html):
+For users, change the owner's username with [Chatops](https://docs.gitlab.com/development/chatops_on_gitlabcom/):
 
 1. In Slack, run `/chatops run user idle <owner_username>`.
 1. Add an [Admin note](/handbook/support/workflows/admin_note).

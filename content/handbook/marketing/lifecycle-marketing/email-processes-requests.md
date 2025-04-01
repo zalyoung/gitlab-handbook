@@ -557,3 +557,12 @@ The workback timeline is to be created by the Lifecycle Marketer to organize the
 
 /label ~"dg-campaigns" ~"mktg-demandgen" ~"mktg-status::wip"
 ```
+
+## Action Streams
+
+Currently available Action Streams. Please use the values below to populate the Marketo `{{my.Action Stream}}` token. These must be exactly as written:
+
+* Security
+* Compliance
+
+Instructions for routing to Action Streams is available on the [Campaigns & Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page. [Video Instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing).

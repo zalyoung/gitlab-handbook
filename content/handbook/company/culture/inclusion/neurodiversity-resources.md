@@ -11,9 +11,9 @@ canonical_path: "/company/culture/inclusion/neurodiversity-resources/"
 
 ## Resources for those who identify as neurodivergent
 
-- GitLab's Employee Assistance Program, [Modern Health]({{< ref "modern-health" >}}), offers resources to support team members that identify as neurodivergent:
+- GitLab's Employee Assistance Program, [Modern Health](/handbook/total-rewards/benefits/modern-health/), offers resources to support team members that identify as neurodivergent:
   - **Digital Content**: Modern Health offers [digital resources](https://my.joinmodernhealth.com/resources) that may be helpful, such as meditations for sensory mindfulness and programs that offer strategies for focus.
-  - **Coaching & Therapy**: GitLab Team Members have access to [coaching and therapy sessions]({{< ref "modern-health#care" >}}). Modern Health has counselors and therapist who specialize in working with people across the spectrum of neurodiversity. Any member can write into help@joinmodernhealth.com and ask for a provider with this kind of specialization (the more specific, the better).
+  - **Coaching & Therapy**: GitLab Team Members have access to [coaching and therapy sessions](/handbook/total-rewards/benefits/modern-health/#care). Modern Health has counselors and therapist who specialize in working with people across the spectrum of neurodiversity. Any member can write into help@joinmodernhealth.com and ask for a provider with this kind of specialization (the more specific, the better).
 - [Neurodiversity as a competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage)
 - [ADHD in the workplace](https://www.webmd.com/add-adhd/adhd-in-the-workplace)
 - [Youtube channel with significant amounts of information, interviews, and personal experiences relating to ADHD](https://www.youtube.com/c/HowtoADHD)
@@ -45,11 +45,11 @@ G--> |Yes| J[You should consider disclosing if you feel comfortable to get the s
 G--> |No| K[You can consider speaking with a People Business Partner or the DIB Team about accomodations and the best way to approach your manager]
 ```
 
-[Diverseability Resource - Disclosing your disability to your team and GitLab]({{< ref "erg-gitlab-diversability#disclosing-your-disability-to-your-team-and-gitlab" >}})
+[Diverseability Resource - Disclosing your disability to your team and GitLab](/handbook/company/culture/inclusion/erg-gitlab-diversability/#disclosing-your-disability-to-your-team-and-gitlab)
 
 ## Resources for Team Members and Managers+
 
-- [Modern Health]({{< ref "modern-health" >}}) provides Coaching sessions for team members and managers supporting people in the neurodiverse community. Team Members can schedule a coaching sessions via the modern health platform. Please reach out to the [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) should you need any help with scheduling a session.
+- [Modern Health](/handbook/total-rewards/benefits/modern-health/) provides Coaching sessions for team members and managers supporting people in the neurodiverse community. Team Members can schedule a coaching sessions via the modern health platform. Please reach out to the [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382) should you need any help with scheduling a session.
 - [How to embed neurodiversity into your people management practices](https://hrzone.com/how-to-embed-neurodiversity-into-your-people-management-practices/)
 - [Autistic Advocacy Resources](https://autisticadvocacy.org/resources/accessibility/)
 - [Certified Neurodiverse Workplace](https://ibcces.org/certified-neurodiverse-workplace/)
@@ -68,7 +68,7 @@ You can use this [template](https://gitlab.com/gitlab-com/people-group/dib-diver
 
 ## Reasonable Accommodations
 
-We provide [reasonable accommodations]({{< ref "inc-usa#reasonable-accommodation" >}}) to individuals in order to remove any artificial barriers to success.  Our [EAP program]({{< ref "modern-health" >}}) is also always available for team members to help them identify the best reasonable accommodations for them.
+We provide [reasonable accommodations](/handbook/people-policies/inc-usa/#reasonable-accommodation) to individuals in order to remove any artificial barriers to success.  Our [EAP program](/handbook/total-rewards/benefits/modern-health/) is also always available for team members to help them identify the best reasonable accommodations for them.
 
 *Please note that all accommodations discussed below are potential accommodations that can be reviewed on a case-by-case basis, but are not guaranteed. Any accommodations and/or adjustments made are in line with the applicable laws/regulations of the jurisdiction in question.*
 

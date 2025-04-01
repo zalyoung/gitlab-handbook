@@ -101,9 +101,9 @@ GitLab's preferred method of payment for suppliers is electronic funds transfer 
 
 ## <i id="biz-tech-icons" class="fas fa-stream"></i> QuickLinks
 
-<a href="{{< ref "../accounting#procure-to-pay" >}}" class="btn btn-lg btn-primary"><i class="fa-solid fa-file-invoice-dollar"></i> Invoicing and Payment</a>
-<a href="{{< ref "../accounts-payable/corp-credit-cards" >}}" class="btn btn-lg btn-primary"><i class="fa-regular fa-credit-card"></i> Corporate Credit Card</a>
-<a href="{{< ref "../procurement" >}}" class="btn btn-lg btn-primary"><i class="fa-solid fa-cart-plus"></i> Procurement</a>
+<a href="/handbook/finance/accounting/#procure-to-pay" class="btn btn-lg btn-primary"><i class="fa-solid fa-file-invoice-dollar"></i> Invoicing and Payment</a>
+<a href="../accounts-payable/corp-credit-cards/" class="btn btn-lg btn-primary"><i class="fa-regular fa-credit-card"></i> Corporate Credit Card</a>
+<a href="../procurement/" class="btn btn-lg btn-primary"><i class="fa-solid fa-cart-plus"></i> Procurement</a>
 
 ### <i id="biz-tech-icons" class="far fa-flag"></i> Reference link
 

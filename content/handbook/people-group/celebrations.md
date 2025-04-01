@@ -33,7 +33,7 @@ If you have any questions or need further assistance regarding New Hire or Anniv
 
 ### Team Member Birthdays
 
-GitLab encourages team members to take a day of vacation on their special day in alignment with our **[Paid Time Off Policy]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}})**. If your celebration happens to fall over a weekend please be sure to take an alternate day such as the Friday prior or the Monday after.
+GitLab encourages team members to take a day of vacation on their special day in alignment with our **[Paid Time Off Policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)**. If your celebration happens to fall over a weekend please be sure to take an alternate day such as the Friday prior or the Monday after.
 
 ### Team Member Retirement
 

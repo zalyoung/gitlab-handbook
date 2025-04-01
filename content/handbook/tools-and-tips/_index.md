@@ -83,7 +83,7 @@ Team members choose to manage their GitLab activities in different ways. Setup y
 
 ### GitLab team members' resources
 
-The [GitLab team-member resources project](https://gitlab.com/gitlab-com/gitlab-team-member-resources) has a wiki for sharing among [GitLab team-members]({{< ref "structure#team-and-team-members" >}}).
+The [GitLab team-member resources project](https://gitlab.com/gitlab-com/gitlab-team-member-resources) has a wiki for sharing among [GitLab team-members](/handbook/company/structure/).
 
 It's for topics like parenting where people may want to share knowledge, but the handbook is not the best fit.
 
@@ -109,9 +109,9 @@ A few additional resources that can be helpful when working with Mermaid are:
 - A [CSS color bank](https://www.rapidtables.com/web/css/css-color.html) to add color to your charts.
 - You can see an example of how to add images to Mermaid charts [here](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuICBDIC0tPiBHXG4gIEcoXCI8aW1nIHNyYz0naHR0cHM6Ly9pY29uc2NvdXQuY29tL21zLWljb24tMzEweDMxMC5wbmcnOyB3aWR0aD0nMzAnIC8-XCIpIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQiLCJzZWN1cml0eUxldmVsIjoibG9vc2UifX0).
 - Examples of Mermaid charts that have been created by GitLab team members:
-  - [Talent Development Program Chart]({{< ref "talent-development-program#talent-development-program-chart" >}}) by [Cassiana Gudgenov](https://gitlab.com/cgudgenov), People Compliance Partner
-  - [CEO Year at a Glance]({{< ref "cadence#year-at-a-glance" >}})
-  - [Data Infrastructure System Diagram](/handbook/enterprise-data/platform/infrastructure/#system-diagram)
+  - [Talent Development Program Chart](/handbook/people-group/talent-development-program/#talent-development-program-chart) by [Cassiana Gudgenov](https://gitlab.com/cgudgenov), People Compliance Partner
+  - [CEO Year at a Glance](/handbook/company/cadence/#year)
+  - [Data Infrastructure System Diagram](/handbook/enterprise-data/platform/)
 - [Advanced layout demos](mermaid) for Mermaid diagrams
 
 *Note: When creating Mermaid charts in the GitLab handbook, you need to type `three back tick symbols` followed by the word `mermaid` before the chart, and `three back tick symbols` at the end of the chart. This will enable Markdown to distinguish between .md and Mermaid. Please reference the example Mermaid charts linked above to see how this looks live.*
@@ -130,7 +130,7 @@ This can be done by running `find source/handbook -type f | xargs wc -w` from th
 
 ### Trainee maintainer issue upkeep
 
-Part of the [maintainer training process](/handbook/engineering/workflow/code-review/#trainee-maintainer) is to keep track of Merge Request that have been reviewed and writing down an assessment on the review in the maintainer training issue.
+Part of the [maintainer training process](/handbook/engineering/workflow/code-review/) is to keep track of Merge Request that have been reviewed and writing down an assessment on the review in the maintainer training issue.
 Manual upkeep of the maintainer training issue can be time consuming. There are tools that others have built to help with this task:
 
 - <https://gitlab.com/nolith/review-tanuki>
@@ -180,7 +180,7 @@ sudo apt install imagemagick
 
 ### Creating GIFs
 
-We have a [dedicated section](/handbook/product/making-gifs) for that in the handbook.
+We have a [dedicated section](/handbook/product/product-processes/making-gifs/) for that in the handbook.
 
 ### Resizing images
 
@@ -403,7 +403,7 @@ Note: you have to pay for these items yourself.
 ### Wi-fi usage
 
 When using unsecured Wi-Fi, consider a personal VPN.
-We [don't have a corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn) but consider [purchasing]({{< ref "expenses#reimbursements" >}}) a [personal VPN]({{< ref "personal-vpn" >}}) if you travel for GitLab or use unknown networks often.
+We [don't have a corporate VPN](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn) but consider [purchasing](/handbook/finance/expenses/#vpn-subscription) a [personal VPN](/handbook/tools-and-tips/personal-vpn/) if you travel for GitLab or use unknown networks often.
 
 Remember that if your job has restrictions based upon geolocation (for example supporting customers with specific data restrictions and country-based access), a personal VPN may not be the best choice as often the VPN vendor routes traffic through other countries.
 If this restriction applies to you, consider tethering.
@@ -447,7 +447,7 @@ While there are other hardware tokens that are also decent and will function wit
 
 What GitLab team members need to keep in mind is that if you travel with your company laptop - either on a business trip, a trip to visit family and friends in another location but you intend to keep working, or just a trip to the local coffee shop - treat the token with the same level of care as a credit card. Do not leave it where it could be stolen.
 
-If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
+If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/security/corporate/systems/okta/verify/) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
 
 Usage of 2FA is mandatory for GitLab team members.
 
@@ -465,7 +465,7 @@ This method is not quite as secure as a hardware token, as typically those devic
 
 ### TOTP
 
-Timed-based One-Time Password is fairly secure. This method involves a rotating value based off of a cryptographic seed that is used to uniquely identify communication between the service and the end user authenticating. The value is (usually) a six digit number that changes every 30 seconds, and during the authentication process after you've successfully entered in your username and password, you are asked to enter in the value. GitLab team members should use [1Password](/handbook/security#two-factor-authentication-and-time-based-one-time-passwords) to manage TOTP codes.
+Timed-based One-Time Password is fairly secure. This method involves a rotating value based off of a cryptographic seed that is used to uniquely identify communication between the service and the end user authenticating. The value is (usually) a six digit number that changes every 30 seconds, and during the authentication process after you've successfully entered in your username and password, you are asked to enter in the value. GitLab team members should use [1Password](/handbook/security/corporate/systems/1password/) to manage TOTP codes.
 
 #### TOTP Caveats
 
@@ -497,7 +497,7 @@ There may be services that only offer SMS as their 2FA solution, so in those cas
 
 Remember the purpose of 2FA - it is a secondary authentication method, invoked after the primary authentication method has succeeded. You should only acknowledge a 2FA request if you personally have just successfully completed the primary authentication. An unsolicited 2FA request means someone has your password, and is in the process of trying to log in as you. This is why 2FA exists, to help protect your user account from attacks involving your password.
 
-If you experience any such irregularities, please bring it to the attention of the Security Team. For more information, review the handbook regarding [Security Awareness](/handbook/security#security-awareness)
+If you experience any such irregularities, please bring it to the attention of the Security Team. For more information, review the handbook regarding [Security Awareness](/handbook/security/security-assurance/governance/sec-awareness-training/)
 
 ## Slack
 
@@ -528,7 +528,7 @@ This is great when someone is speaking about something they are typing on a vide
     - [Emoji live-search](https://support.google.com/docs/answer/3371015) can be accessed by typing `@:`, or shorter using the `:` character. Start typing to search for an emoji and press enter to insert.
 1. Pageless docs are great for documents you don't intend to print, and is the [preferred format at GitLab](/handbook/communication/#pageless-is-the-gitlab-preferred-format). You can [switch in File > Page setup](https://support.google.com/docs/answer/11528737).
 
-See also [Live Doc Meetings]({{< ref "live-doc-meetings" >}}) for more Google Doc tips.
+See also [Live Doc Meetings](/handbook/company/culture/all-remote/live-doc-meetings/) for more Google Doc tips.
 
 ### Google Analytics
 
@@ -597,7 +597,7 @@ For meetings spanning across multiple time zones and with external parties, [Tim
 #### GitLab availability calendar
 
 The GitLab Availability Calendar has been deprecated to allow for GitLab to scale effectively.
-We have created [tools and tips for managing your time off]({{< ref "paid-time-off" >}}).
+We have created [tools and tips for managing your time off](/handbook/people-group/paid-time-off/).
 
 #### Setting working hours & location
 
@@ -858,7 +858,7 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature if employed by our German entity
 
-If you are employed by our German entity GitLab GmbH, you will need to include some additional company related details after your own signature in emails ([along with other forms of communication listed on the German entity Handbook page]({{< ref "gmbh-germany" >}})) as follows:
+If you are employed by our German entity GitLab GmbH, you will need to include some additional company related details after your own signature in emails ([along with other forms of communication listed on the German entity Handbook page](/handbook/entity/gmbh-germany/)) as follows:
 
 <span style="font-family: serif;font-size: small;display: block;">Alex Doe (they/them)</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
@@ -1005,7 +1005,7 @@ Jamboard is a collaborative whiteboarding platform, accessible at <https://jambo
   - Hide the bookmarks bar: `cmd shift b` (e.g. for screenshots, or shared screen presentations)
   - Open the developer tools: `cmd option i` (e.g. for debugging website errors)
 - You can [organize tabs into tab groups](https://www.google.com/chrome/tips/#organize), assign names and custom colors, and collapse or reorder them. Moving tabs between groups also works across browser windows.
-- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptop-refreshes-for-team-members).
+- Logging in to the browser (with your GitLab Workspace account) preserves [your profile across installations](https://www.google.com/chrome/tips/#customize). This is helpful to migrate bookmarks, extensions, and configuration [when refreshing your laptop](/handbook/security/corporate/services/laptops/refresh/).
 
 #### Chrome Performance Settings
 

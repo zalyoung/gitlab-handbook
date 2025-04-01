@@ -142,17 +142,28 @@ SELECT
   )
 FROM Account
 WHERE
-  Type IN ('Customer', 'Former Customer') AND
-  (
+  Id IN
     (
-      Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
-      Account_Demographics_Territory__c != 'PUBSEC_' AND
-      (
-        NOT Account_Demographics_Territory__c LIKE '%SLED%'
-      )
-    ) OR
-    Support_Instance__c = 'federal-support'
-  )
+      SELECT
+        Zuora__Account__c
+      FROM Zuora__SubscriptionProductCharge__c
+      WHERE
+        Subscription_Status__c = 'Active' AND
+        Zuora__EffectiveEndDate__c >= #{(Date.today - 91.days).iso8601} AND
+        (
+          Name IN (
+            '12x5 US Citizen Support - 1 Year',
+            '12x5 US Citizen Support - 2 Year',
+            '12x5 US Citizen Support - 3 Year',
+            '12x5 US Citizen Support - Monthly',
+            '24x7 US Citizen Support - 1 Year',
+            '24x7 US Citizen Support - 2 Year',
+            '24x7 US Citizen Support - 3 Year',
+            '24x7 US Citizen Support - Monthly'
+          ) OR
+          Zuora__Account__r.Support_Instance__c = 'federal-support'
+        )
+    )
 ```
 
 </details>
@@ -187,9 +198,7 @@ SELECT
   Name,
   Email,
   Account.Account_ID_18__c,
-  Account.Type,
-  Account.Name,
-  Role__c
+  Account.Name
 FROM Contact
 WHERE
   Inactive_Contact__c = false AND
@@ -200,15 +209,26 @@ WHERE
     NOT Email LIKE '%gitlab.com'
   ) AND
   Account.Type IN ('Customer', 'Former Customer') AND
-  (
-    (
-      Account.Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
-      Account.Account_Demographics_Territory__c != 'PUBSEC_' AND
+  AccountId IN (
+    SELECT
+      Zuora__Account__c
+    FROM Zuora__SubscriptionProductCharge__c
+    WHERE
+      Subscription_Status__c = 'Active' AND
+      Zuora__EffectiveEndDate__c >= #{(Date.today - 91.days).iso8601} AND
       (
-        NOT Account.Account_Demographics_Territory__c LIKE '%SLED%'
+        Name IN (
+          '12x5 US Citizen Support - 1 Year',
+          '12x5 US Citizen Support - 2 Year',
+          '12x5 US Citizen Support - 3 Year',
+          '12x5 US Citizen Support - Monthly',
+          '24x7 US Citizen Support - 1 Year',
+          '24x7 US Citizen Support - 2 Year',
+          '24x7 US Citizen Support - 3 Year',
+          '24x7 US Citizen Support - Monthly'
+        ) OR
+        Zuora__Account__r.Support_Instance__c = 'federal-support'
       )
-    ) OR
-    Account.Support_Instance__c = 'federal-support'
   )
 ```
 

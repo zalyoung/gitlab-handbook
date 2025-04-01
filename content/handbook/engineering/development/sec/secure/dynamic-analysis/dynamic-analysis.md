@@ -246,58 +246,155 @@ Every Monday, a calendar event with an attached agenda exists for a synchronous 
 
 Every Tuesday, a calendar event with an attached agenda exists for a synchronous general group meeting. This meeting is **product focused** and includes all engineers on the team, the engineering manager, and the product manager. The purpose of this meeting is to discuss product efforts, timelines, and serves as a direct two-way feedback mechanism between product and the engineering team. We will review the current [milestone planning issue](#milestone-release-planning) as our transient backlog and ensure that we are staying focused on these priorities. The group will also rotate to a new Reaction Coordinator, discuss any unresolved and significant/product impediments blocking the team, and host general discussions valuable to a synchronous team meetup with our product manager.
 
-#### Wednesday's Support Huddle
+## Reaction rotation
 
-Every Wednesday, a calendar event with an attached agenda exists for a synchronous support group meeting. This meeting is **support focused** and includes our primary support engineer, the engineering manager, our product manager, and, as optional members, all engineers on the team. The purpose of this meeting is to discuss active support cases and ensure they are added to our [delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis), improve our support runbooks, review live debugging and log reviews of recent support cases, spread support resolution knowledge, and suggest product improvements that will make resolving these support issues easier for the customer, GitLab support, and the team.
+On top of our development roadmap, engineering teams need to perform tasks related to vulnerability management, support, maintenance, community contributions.
 
-#### Reaction Coordinator
+The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/7) follows the development cycle, which means using the start/end dates from the GitLab [product milestones](/handbook/product/product-processes/milestones/). When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
-DAST uses a reaction coordinator rotation to give each team member in the group the opportunity to ensure all internally and externally generated epics and issues are triaged or resolved as efficienctly as possible.
+### Request For Help (RFH) Resolution Guide
 
-Engineers rotate through the position to give everyone equal opportunity both in the role and away from the role. The weekly sync agenda document will contain the currently assigned reaction coordinator. The reaction rotation aims to produce better group workflow, support and quality, and community outcomes by encouraging knowledge sharing, reducing dependencies on individuals in knowledge silos, and clarifying who is responsible for responding to any external requests.
+This guide outlines the standard procedure for handling and resolving Request For Help (RFH) issues. Following these guidelines ensures consistent customer service and proper issue management.
 
-Due to the unpredictable nature of all of the following triage items, it is hard to determine the impact of reaction coordinator rotation on an engineer's typical throughput, but a significant decrease is to be expected for the betterment of all of these stakeholders.
+Engineers participating in reaction coordination must make sure there GitLab handles are included in the RFH template so they are notified when a new RFH is opened.
 
-The reaction coordinator of the week is responsible for triaging:
+When a new RFH is opened the reaction coordinator will be assigned and starts the investigation. If the reaction coordinator rolls off reaction coordination before the RFH is completed, the RFH should be handed off to an incoming reaction coordinator.
 
-##### Dynamic Analysis delivery board columns near their WIP limits
+**At least once, each milestone**, the Reaction Coordinator is responsible for triaging existing RFH issues.
 
-[Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis)
+1. Has an engineer engaged with the RFH? If not, assign RFH to one of the reaction coordination engineers to work on.
+1. Is the RFH a candidate to be closed? If so, close the RFH issue with any needed notes.
+1. Check zendesk for latest customer response.
 
-- Issues that need to be refined with the `~workflow::planning breakdown` label
-- Issues that need to be broken down in any status
-- All other columns with too many issues
+#### When to Close an RFH
 
-##### Blocked epics or issues anywhere in the workflow
+RFH issues can take a long time to resolve with numerous back and forth communications between engineering, support, and the customer. Sometimes customers will stop responding if they get past the issue, a workaround works, or they decide to stop investing in the support case. To limit the amount of issue maintenance that is required, RFH issues should be closed when there are no more steps to be performed or when the last step is a confirmation from the customer. When the last step is a confirmation from the customer close the issue with a message similar to:
 
-##### External support issues
+`Closing this issue out as a fix/workaround has been provided. Please feel free to re-open this issue if provided solution doesn't work or the customer has additional questions/concerns.`
 
-- Triage and respond to customer support requests via support [request for help issues](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Adynamic%20analysis&first_page_size=20). As an outcome of triage, create new issues and communicate with the product team to help assign priority.
-- Triage and respond to customer support requests via Slack. Encourage customers/support teams to create support tickets because of Slack's short retention history.
-- Ensure high-quality support request responses. Reach out to other engineers, teams, or people with knowledge to ensure customers get the best possible answers.
+This prevents engineers from having to circle back and close out issues if the customer never responds.
+It also helps keep our KPIs looking good (how many RFHs are open, how long to resolve).
 
-##### External Security & Quality Issues
+An RFH issue can be closed under the following circumstances:
 
-- Ensure security issues (for FedRAMP compliance or platform security) are created or updated, either manually or through automation. Follow up with creation of [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) if necessary.
-- See the [AST sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
+1. Confirmed resolution
+    - The customer has confirmed the issue has been resolved
 
-##### Community contributions
+1. High confidence workaround or resolution
+    - Engineer provides a high confidence workaround or resolution
+    - Engineer closes issue with a note to reopen if the workaround or resolution doesn't work
 
-- Act as an MR Coach for newly created community contributions.
+1. Feature request backlog
+    - The RFH is for a feature that cannot be prioritized immediately
+    - An issue has been created in the backlog
+    - The backlog issue has been linked to the original RFH
+    - A note has been added to the RFH pointing to the linked issue
+    - Engineer closes issue
 
-##### Out of Scope of the Role
+1. Immediate Implementation
+    - The issue has been worked on immediately
+    - Changes have been merged and are ready for customer testing
+    - Engineer closes issue with a note to reopen if the workaround or resolution doesn't work
 
-The reaction rotation engineer should not:
+1. No Customer Response
+    - The RFH has received a response from support
+    - There has been no customer reply for a prolonged period (15 days)
+    - Engineer closes issue with a note to reopen if the customer responds
 
-- Directly fix issues as a result of customer support triage. The product team must prioritize any issue prior to an engineer picking it up.
-- Exclusively work on community contributions, security issues, or bug fixes. These are the purview of the entire team.
-- Take the time as slack time. Slack time is important in everyone's role and is captured as a constant when measuring team throughput to predict release dates.
+#### Best Practices
 
-#### Weekly Outputs
+- Acknowledge receipt of new RFH issues promptly
+- Set clear expectations about resolution timeframes
+- Link related issues or documentation when applicable
+- Provide detailed explanations when closing issues to ensure knowledge transfer
 
-- Assign a new Reaction Coordinator
-- Discuss any unresolved and significant impediments
-- General team discussions
+#### Issue Status Monitoring
+
+Regular review of open RFH issues should be conducted to ensure no issues remain unaddressed for extended periods.
+
+### Vulnerability Management
+
+1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
+1. Check for `SLA::Breached` issues.
+1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
+1. Check for new security releases of our dependencies and ensure we use them:
+   1. Upstream scanners (see [Updating an upstream scanner](/handbook/engineering/development/sec/secure/composition-analysis/#updating-an-upstream-scanner))
+   1. Container base images
+   1. Application dependencies
+   1. Programming language
+1. Refine scheduled security issues.
+1. Consider creating or updating any automation or tooling (related to security, maintainership or support!)
+
+### Security vulnerabilities triaging process
+
+We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
+
+See the [Application Security Testing sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
+
+#### Security Policy
+
+We prioritize findings by their CVSS severities and [SLAs](../../../../../security/product-security/vulnerability-management/sla/). Start with `Critical` and `High` but also look for issues that are connected to [vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=SLA%3A%3ANear%20Breach&first_page_size=100) and have an `SLA::Near Breach` label. These vulnerabilities might have a lower CVSS score but letting them reach SLA breach will count as 'past due' security issues and affect FedRAMP compliance.
+
+Ensure security issues (for FedRAMP compliance or platform security) are created or updated, either manually or through automation. Follow up with creation of [Deviation Requests](/handbook/security/security-assurance/security-compliance/poam-deviation-request-procedure/) if necessary.
+
+Please utilize all the time you have set aside. If you complete all the ones at Critical and High, please continue to triage - we want to address all findings but we are working in a risk based order.
+
+#### SLA::Breached issues
+
+Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard?:iid=1) (Note: This does not require SAFE access). `SLA::Breached` issue may appear for many reasons including:
+
+- A medium or low vulnerability that is not handled because it never got priority. Please notice that a low vulnerability might lead to a `severity::1` issue since it might get its score from different sources.
+- Issues that are never closed even if the relevant vulnerability is resolved or dismissed.
+
+If SLAs are breached, and if an SLA exception request is not already created then create an [SLA exception request](../../../../../security/product-security/vulnerability-management/sla-exceptions/) based on the [circumstance](../../../../../security/product-security/vulnerability-management/sla-exceptions/#when-is-an-sla-exception-request-appropriate).
+You can search for `SLA::Breached` issues in the issue tracker using the following label filters:
+
+- [Severity 1](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Adynamicn%20analysis&label_name%5B%5D=severity%3A%3A1&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+- [Severity 2](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=severity%3A%3A2&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+- [Severity 3](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=severity%3A%3A3&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+- [Severity 4](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=severity%3A%3A4&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+
+#### Triaging vulnerabilities
+
+We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
+
+1. [Analyzers Vulnerability Report](https://gitlab.com/groups/gitlab-org/security-products/analyzers/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&activity=ALL&severity=CRITICAL,HIGH&projectId=19617580,21351796,40229908,57788406,5964710)
+
+For each item, investigate and either [dismiss](#dismissing-a-vulnerability) or [confirm](#confirming-a-vulnerability) it. I
+> Refer to [Vulnerability status definitions](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#vulnerability-status-values) in case you are unsure of what each of them mean.
+
+##### Triaging vulnerabilities
+
+We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
+
+#### Dismissing a vulnerability
+
+When there is no doubt a vulnerability is a false-positive, it can be "Dismissed" unless it related to a FedRAMP image (fips).
+Select the "Dismiss" option from the vulnerability status options.
+Finally, make sure to comment on the vulnerability status change notification to explain why.
+
+#### Confirming a vulnerability
+
+If the vulnerability impacts a dependency:
+
+1. Evaluate if the dependency (software library, system library, base image, etc.) can be upgraded *or* removed.
+1. Set the vulnerability status to "Confirmed".
+1. Release a new version of the analyzer with the dependency upgrade/removal and follow the process on [resolving a vulnerability](#resolving-a-vulnerability).
+1. If the dependency cannot be updated or removed then [SLA exception](../../../../../security/product-security/vulnerability-management/sla-exceptions/#sla-exception-procedures) can be requested to extend SLA based on the [circumstance](../../../../../security/product-security/vulnerability-management/sla-exceptions/#when-is-an-sla-exception-request-appropriate).
+
+#### Resolving a vulnerability
+
+Upon remediating a vulnerability, it will [automatically be moved to "Resolved"](https://gitlab.com/gitlab-org/security-products/analyzers/analyzers-security-policy-project/-/merge_requests/8) status by the next scan.
+
+##### Responsibilities - Support
+
+1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
+If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/request-for-help).
+    - [#g_ast-dynamic-analysis](https://gitlab.enterprise.slack.com/archives/CKWJP0ZS7)
+1. Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Adynamic%20analysis&first_page_size=20) project for support requests.
+1. Try to resolve issues as much as possible, if you discover that the problem applies to more than one customer - open a public issue and link it. Tag EM/PM.
+
+These items must be triaged continuously throughout the milestone which means they must be checked multiple times a week.
 
 ### Daily Look Left & Right Before Dev
 

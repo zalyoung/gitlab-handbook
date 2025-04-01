@@ -22,4 +22,4 @@ GitLab's Security Incident Response Team is the first line of defense for the Gi
 
 ## Enrollment
 
-Ready to enroll? [Click here]({{< ref "security-shadow" >}}) for more information.
+Ready to enroll? [Click here](/handbook/security/security-shadow/) for more information.

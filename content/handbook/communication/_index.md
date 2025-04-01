@@ -586,14 +586,14 @@ There are times when presenting during a meeting is needed. This may occur when 
 
 #### Framework for meetings with presentations
 
-While most meetings should not have presentations, there are a few exceptions. Specifically, we may use synchronous touch points in meetings with large numbers of folks. These tend to be meetings used for building team cohesion and alignment. For example, [GitLab Assembly](/handbook/company/gitlab-assembly/) or the [Functional Leaders Meeting](/handbook/company/offsite/#functional-leaders-zoom-call).
+While most meetings should not have presentations, there are a few exceptions. Specifically, we may use synchronous touch points in meetings with large numbers of folks. These tend to be meetings used for building team cohesion and alignment. For example, [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/) or the [Functional Leaders Meeting](/handbook/company/offsite/#functional-leaders-zoom-call).
 
 GitLab has the following meeting framework for determining which meetings should have presentations:
 
 | Presentation Approach | Types of meetings with few participants | Types of meetings with many participants |
 | ------------- | ------------- | ------------- | ------------- |
 | No presentations (async prep) | Most meetings | [AMA](/handbook/communication/ask-me-anything/) |
-| Presentations  | These meetings should not happen | [Assembly](/handbook/company/gitlab-assembly/) and other large team meetings |
+| Presentations  | These meetings should not happen | [Assembly](/handbook/company/gitlab-all-company-meetings/) and other large team meetings |
 
 ### Meeting introduction guidelines
 
@@ -1122,7 +1122,7 @@ Slack is used for:
 - Asynchronous team standups, questions, and quick collaboration
 - Informal communication
 
-Use a [bias for action](/handbook/values/#bias-for-action) to quickly move conversations that require collaboration and action out of Slack and into an issue.
+Use a [bias for action](/handbook/values/#operate-with-a-bias-for-action) to quickly move conversations that require collaboration and action out of Slack and into an issue.
 
 Only 90 days of Slack activity will be retained, so Slack should specifically NOT be used for:
 
@@ -1466,7 +1466,7 @@ the general number (+1-415-761-1791), but be aware that this number simply guide
 In an all-remote organization effective communication is key to exchanging knowledge, ideas, and information. Effective communication at GitLab:
 
 - Uses [asynchronous](/handbook/company/culture/all-remote/asynchronous/) communication as the starting point and stays as open and transparent as we can by [communicating via text](/handbook/communication/#writing-style-guidelines) through public issues, merge requests, and Slack channels (over DMs).
-- Places an emphasis on ensuring that conclusions of offline conversations are written down ensuring a [Single Source of Truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot).
+- Places an emphasis on ensuring that conclusions of offline conversations are written down ensuring a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot).
 - [Produces video](/handbook/marketing/marketing-operations/youtube/) when necessary.
 
 If you would like to improve your skills or expand your knowledge on topics relating to Communication at GitLab, check out our resources:

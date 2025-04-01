@@ -63,11 +63,11 @@ Admittedly, this is complex and can be confusing for product managers when imple
 Ideas to simplify this are welcome (but note that making personal namespaces equal to groups is not one of
 them, as that introduces other issues).
 
-For more guidance on feature tiers and pricing, visit [tiering guidance for features](/handbook/product/tiering-guidance-for-features/)
+For more guidance on feature tiers and pricing, visit [tiering guidance for features](/handbook/product/product-processes/tiering-guidance-for-features/)
 
 ### Naming features
 
-Naming new features or [renaming existing features](https://docs.gitlab.com/ee/development/renaming_features.html) is notoriously hard and sensitive to many opinions.
+Naming new features or [renaming existing features](https://docs.gitlab.com/development/renaming_features/) is notoriously hard and sensitive to many opinions.
 
 #### Factors in picking a name
 
@@ -135,7 +135,7 @@ So, in the long term, we want our permission system to explicitly cover the next
 
 All the above can be achieved by iteratively improving existing roles.
 
-[Documentation on permissions](https://docs.gitlab.com/ee/user/permissions.html)
+[Documentation on permissions](https://docs.gitlab.com/user/permissions/)
 
 ### Security Paradigm
 
@@ -231,11 +231,11 @@ only one part of GitLab it should be a great experience.
 GitLab ships with built-in integrations to many popular applications. We aspire
 to have the world's best integrations for Slack, JIRA, and Jenkins.
 
-Many other applications [integrate with GitLab](/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/ee/user/project/integrations/).
+Many other applications [integrate with GitLab](https://about.gitlab.com/partners/technology-partners/integrate/), and we are open to adding new integrations to our [technology partners page](/partners/technology-partners/). New integrations with GitLab can vary in richness and complexity; from a simple webhook, and all the way to a [Project Service](https://docs.gitlab.com/user/project/integrations/).
 
-GitLab [welcomes and supports new integrations](/partners/technology-partners/integrate/) to be created to extend collaborations with other products.
+GitLab [welcomes and supports new integrations](https://about.gitlab.com/partners/technology-partners/integrate/) to be created to extend collaborations with other products.
 GitLab plays well with others by providing APIs for nearly anything you can do within GitLab.
-GitLab can be a [provider of authentication](https://docs.gitlab.com/ee/integration/oauth_provider.html) for external applications.
+GitLab can be a [provider of authentication](https://docs.gitlab.com/integration/oauth_provider/) for external applications.
 
 There is some natural tension between GitLab being a single-application for the
 entire DevOps lifecycle, and our support for better user experience via integration

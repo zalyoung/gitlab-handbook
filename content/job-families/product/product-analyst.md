@@ -21,7 +21,7 @@ We work in a very unique way at GitLab, where flexibility and independence meet
 a high paced, pragmatic way of working. And everything we do is [in the open](/handbook/).
 
 We recommend looking at our [about page](/handbook/company/) and at the
-[Product Data Insights handbook](/handbook/product/product-analysis) to get started.
+[Product Data Insights handbook](/handbook/product/groups/product-analysis/) to get started.
 
 <a id="base-pa-requirements"></a>
 
@@ -215,7 +215,7 @@ maintainability, and best practices
 - Help create a leading product Data Program to support GitLab's vision and advocate for a
 data-driven culture
 - Act as a central contributor to cross-functional groups and initiatives like
-[FACE (Functional Analytics Center of Excellence)](/handbook/enterprise-data/functional-analytics-center-of-excellence/)
+[FACE (Functional Analytics Center of Excellence)](/handbook/enterprise-data/how-we-work/functional-analytics-center-of-excellence/)
 
 **Be an individual contributor**
 
@@ -259,7 +259,7 @@ maintainability, and best practices
 - Help create a leading product Data Program to support GitLab's vision and advocate for a
 data-driven culture
 - Act as a central contributor to cross-functional groups and initiatives like
-[FACE (Functional Analytics Center of Excellence)](/handbook/enterprise-data/functional-analytics-center-of-excellence/)
+[FACE (Functional Analytics Center of Excellence)](/handbook/enterprise-data/how-we-work/functional-analytics-center-of-excellence/)
 - Actively provide feedback on Product strategy direction leveraging insights derived from the team
 - Contribute to GitLab's [Analytics section](https://about.gitlab.com/direction/monitor/) providing feedback on tools, technology and use cases for Product Analytics.
 

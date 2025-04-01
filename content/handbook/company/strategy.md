@@ -125,7 +125,7 @@ Legend with links to the relevant metrics:
 1. Higher [Revenue per licensed user](/handbook/sales/#revenue-per-licensed-user-also-known-as-arpu) due to the [Advantages of a single application](/handbook/product/categories/gitlab-the-product/single-application/)
 1. [Net ARR](https://docs.google.com/document/d/1UaKPTQePAU1RxtGSVb-BujdKiPVoepevrRh8q5bvbBg/edit#bookmark=id.a35sth38hahw) stands for Annual Recurring Revenue is our [most important KPI](/handbook/company/kpis/#gitlab-kpis)
 1. [ARR](/handbook/sales/#annual-recurring-revenue-arr) stands for Annual Recurring Revenue and IACV increases it.
-1. R&D spend ratio becomes higher if the growth rate is higher due to the [Hypergrowth Rule](/handbook/finance/financial-planning-and-analysis/hypergrowth-rule/)
+1. R&D spend ratio becomes higher if the growth rate is higher due to the Hypergrowth Rule
 1. R&D investment is the amount of money spend on Product Management and Engineering excluding Support
 1. [Development Department Narrow MR Rate](/handbook/engineering/development/performance-indicators/#development-department-narrow-mr-rate)
 
@@ -149,7 +149,7 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
    1. Positioning strategy will highlight the way we want to position the company over the next three years. This will drive key decisions and tradeoffs we need to make in the strategy.
 1. The second phase of the strategy process is taking the SWOT, positioning strategy and define the go-to-market (GTM), Product and Operations strategy. The output of these three strategies will be the strategic priorities for each, capabilities needed that we have and that we need to develop and the things we will explicitly not do.  In addition we will define 3-5 big bets the company will take - this will fold in under the strategic themes. Once we have these 3 to 5 themes we will synthesize them into a corporate strategy that ensures alignment among GTM, Product and Operations strategy.
 1. Third phase will be the [Long Range Plan](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) process.
-1. Fourth phase will be defining yearlies and the [annual operating plan](/handbook/finance/financial-planning-and-analysis/#plan).
+1. Fourth phase will be defining yearlies and the [annual operating plan](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop).
 
 ### Big Bet Process
 

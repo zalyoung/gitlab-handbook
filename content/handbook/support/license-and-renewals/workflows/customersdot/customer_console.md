@@ -341,7 +341,7 @@ Force a .com group to be associated with a given subscription. This is typically
 | Name | Required | Details |
 | ------ | ------ | ------ |
 | `:subscription_name` | *Yes* | The subscription name to be re-associated|
-| `:namespace_path` | *Yes* | The [unique GitLab namespace](https://docs.gitlab.com/ee/user/group/#namespaces) *`path`*|
+| `:namespace_path` | *Yes* | The [unique GitLab namespace](https://docs.gitlab.com/user/group/#namespaces) *`path`*|
 
 #### Sample
 

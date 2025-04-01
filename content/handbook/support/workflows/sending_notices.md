@@ -6,7 +6,7 @@ description: How to send notices out to GitLab.com users and customers to inform
 
 ## Overview of the process
 
-At times the [Support team will be asked to send notices]({{< ref "internal-support#gitlab-changes-and-contacting-users" >}}) to GitLab SaaS users or customers to inform them of actions that we have taken (or will be taking) on namespaces or projects under their control.
+At times the [Support team will be asked to send notices](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes) to GitLab SaaS users or customers to inform them of actions that we have taken (or will be taking) on namespaces or projects under their control.
 
 This workflow describes how to fulfill different types of contact requests and the helpful tools you can use in the process.
 
@@ -15,7 +15,7 @@ This workflow describes how to fulfill different types of contact requests and t
 | Number of users | Which thing to use | Approvals required | Notifications required |
 | --- | --- | --- | --- |
 | 1-2 | [Manually create a Zendesk ticket](#manually-create-a-zendesk-ticket) | None | None |
-| 3+ | [Mass Emails through Marketing Department](#mass-emails-through-marketing-department) | Director | [Support Readiness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Support%20Readiness) + FAQ |
+| 3+ | [Mass Emails through Marketing Department](#mass-emails-through-marketing-department) | Director | [Support Preparedness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Support%20Preparedness) + FAQ |
 
 - Support team can be asked to contact users **during an incident**. Such requests are filed by infra team [using `confidential_incident_data` issue template](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=confidential_incident_data) in [production](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/) issue tracker. These must be fulfilled by CMOC during the shift.
 - As a [Stable Counterpart](../support-stable-counterparts.md) you may choose to manually create tickets for a higher number of users at your discretion. This should be done solely for technical matters ("your usage is causing issues, may we suggest a different approach"), never for marketing reasons ("we have a new way to do xyz and would like you to adopt it").
@@ -36,7 +36,7 @@ Some examples:
 
 ### Tips for avoiding RED data in notices
 
-- Make use of the built-in [Project](https://docs.gitlab.com/ee/user/project/working_with_projects.html#access-a-project-by-using-the-project-id) and [Group](https://docs.gitlab.com/ee/user/group/#access-a-group-by-using-the-group-id) redirects when sharing a link to the resource. They will be redirected if the user has appropriate permissions to view the resource.
+- Make use of the built-in [Project](https://docs.gitlab.com/user/project/working_with_projects/#access-a-project-by-using-the-project-id) and [Group](https://docs.gitlab.com/user/group/#access-a-group-by-using-the-group-id) redirects when sharing a link to the resource. They will be redirected if the user has appropriate permissions to view the resource.
   - Project example: `https://gitlab.com/-/p/278964` will redirect to `https://gitlab.com/gitlab-org/gitlab`.
   - Group example: `https://gitlab.com/-/g/9970` will redirect to `https://gitlab.com/gitlab-org`.
 
@@ -44,11 +44,11 @@ Some examples:
 
 Most notices should be sent in the form of Zendesk tickets. Always send these tickets to users with `Owner` level permissions in the namespace or project in question.
 
-Most contact requests will involve contacting all of the owners of only one project or only a few specific users. If you're tasked with contacting the owners of a project and know that there's only one, feel free to look up their email address using your admin account or [ChatOps]({{< ref "chatops#user" >}}).
+Most contact requests will involve contacting all of the owners of only one project or only a few specific users. If you're tasked with contacting the owners of a project and know that there's only one, feel free to look up their email address using your admin account or [ChatOps](/handbook/support/workflows/chatops/#user).
 
 However, some contact requests may involve contacting all of the owners of multiple projects. Support Engineers should direct requests for reaching out to multiple owners across multiple projects to do [Mass Emails through Marketing Department](#mass-emails-through-marketing-department)
 
-Make sure to [add an admin note]({{< ref "admin_note" >}}) on a user/group we took action on. This will ensure that we can track a block/change reason if a user reaches out to us using a different channel.
+Make sure to [add an admin note](/handbook/support/workflows/admin_note/) on a user/group we took action on. This will ensure that we can track a block/change reason if a user reaches out to us using a different channel.
 
 ### Manually create a Zendesk ticket
 

@@ -28,11 +28,11 @@ So you've won a customer's business with a subscription deal to use gitlab, cong
 
 Our team can help your customer accelerate their DevOps Transformation by delivering services to improve operational efficiency, accelerate time to market and reduce risk through GitLab product adoption.
 
-We accomplish these by offering [categories of services](/services/) to help ensure the initial GitLab rollout goes smoothly so the end users can get value as fast as possible.
+We accomplish these by offering [categories of services](https://about.gitlab.com/services/) to help ensure the initial GitLab rollout goes smoothly so the end users can get value as fast as possible.
 
 #### Migration Services
 
-We offer data and user [migration services](/services/migration/) to enable the customer to come from a variety of legacy systems (both SCM and CI/CD). We work closely with the GitLab import API team and have automation tools to facilitate the migration. We are continuously improving them with every nuanced customer migration service we provide. Read about a customer case study of a recent GitLab self managed to gitlab.com migration experience.
+We offer data and user [migration services](https://about.gitlab.com/services/migration/) to enable the customer to come from a variety of legacy systems (both SCM and CI/CD). We work closely with the GitLab import API team and have automation tools to facilitate the migration. We are continuously improving them with every nuanced customer migration service we provide. Read about a customer case study of a recent GitLab self managed to gitlab.com migration experience.
 
 Migration services are always custom-scoped because of the variability of level of effort based on the amount of data and number of users in the source system(s).
 
@@ -40,17 +40,17 @@ Migration services are always custom-scoped because of the variability of level 
 
 When customers choose GitLab self-managed, they typically need help building and configuring their software to meet their non-functional requirements (e.g. Availability, Performance, Security, Disaster Recovery, etc.). Our team of experts maintains a repository Infrastructure-as-Code and automation scripting to facilitate this while leveraging [gitlab reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) best practices.
 
-For gitlab.com users, [implementation services](/services/implementation/) focus mostly on how to organize GitLab groups and projects, how to establish role based access control, and other front end strategic decisions that typically need to be made up-front.
+For gitlab.com users, [implementation services](https://about.gitlab.com/services/implementation/) focus mostly on how to organize GitLab groups and projects, how to establish role based access control, and other front end strategic decisions that typically need to be made up-front.
 
-The implementation services [Rapid Results](/services/rapid-results/) packages have a standard SKU, but have specific bounds to the large cloud service providers and HA/DR architectural patterns. If your customers' needs fall outside of those bounds, you will need to engage in a [custom-scoping exercise](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services).
+The implementation services [Rapid Results](https://about.gitlab.com/services/rapid-results/) packages have a standard SKU, but have specific bounds to the large cloud service providers and HA/DR architectural patterns. If your customers' needs fall outside of those bounds, you will need to engage in a [custom-scoping exercise](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services).
 
 #### Education Services
 
-As with any new software being introduced at a company, users tend to need training to know how to use it. We have excellent [education services](/services/education/) that span the spectrum of basics to advanced; administrators to general users. All of our education services have standard SKUs, which makes the process easy for the ISR/SAE to offer to a customer.
+As with any new software being introduced at a company, users tend to need training to know how to use it. We have excellent [education services](https://about.gitlab.com/services/education/) that span the spectrum of basics to advanced; administrators to general users. All of our education services have standard SKUs, which makes the process easy for the ISR/SAE to offer to a customer.
 
 #### Integration Services
 
-Customers tend to have tools and systems with which they need to establish integrations. We offer [integration services](/services/implementation/integration/) for customers who need systems like LDAP, Jira, Jenkins, etc. to work with gitlab.
+Customers tend to have tools and systems with which they need to establish integrations. We offer [integration services](https://about.gitlab.com/services/implementation/integration/) for customers who need systems like LDAP, Jira, Jenkins, etc. to work with gitlab.
 
 #### Advisory Services
 
@@ -86,7 +86,7 @@ For custom SOWs, initiate a scoping issue to capture the requirement using the [
 
 ## Resources
 
-- [Services Categories page](/services/)
+- [Services Categories page](https://about.gitlab.com/services/)
 - [Full offering catalog](https://about.gitlab.com/services/catalog/)
 - [Services Calculator for custom SOWs](https://services-calculator.gitlab.io/)
 - [Professional Services Pitch Deck](https://docs.google.com/presentation/d/1CFR8_ZyE9r4Dk_mjoWGe4ZkhtBimSdN0pylIPu-NAeU/edit#slide=id.g3667cdc662_0_1)

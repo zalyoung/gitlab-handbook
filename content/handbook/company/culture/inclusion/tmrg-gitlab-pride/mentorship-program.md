@@ -87,7 +87,7 @@ As a mentor, you benefit from:
 
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet with your mentee on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
-- You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
+- You are not on a [Formal Coaching plan](/handbook/leadership/underperformance/#options-for-remediation) or PIP (Performance Improvement Plan)
 
 Note: Anyone at GitLab can apply to be a mentor in the Pride GitLab mentorship program, though priority will be given to members of the TMRG.
 
@@ -110,7 +110,7 @@ As a mentee, you benefit from:
 
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet with your mentor on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
-- You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
+- You are not on a [Formal Coaching plan](/handbook/leadership/underperformance/#options-for-remediation) or PIP (Performance Improvement Plan)
 
 Note: Anyone at GitLab can apply to be a mentee in the Pride GitLab mentorship program, though priority will be given to members of the TMRG.
 

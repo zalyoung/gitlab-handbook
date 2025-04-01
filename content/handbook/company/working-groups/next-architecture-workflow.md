@@ -68,7 +68,7 @@ great results by using it.
   be coordinated.
 
 The following recording from the
-[Rate Limit Architecture]({{< ref "rate-limit-architecture" >}})
+[Rate Limit Architecture](/handbook/company/working-groups/rate-limit-architecture/)
 Working Group included some organic discussion around this topic as we attempt
 to redefine exit criteria that will result in a successful implementation after
 the working group concludes:
@@ -82,7 +82,7 @@ the working group concludes:
 
 #### Architecture Kickoff Working Group
 
-The [Architecture Kickoff]({{< ref "architecture-kickoff" >}}) working group
+The [Architecture Kickoff](/handbook/company/working-groups/architecture-kickoff/) working group
 was primarily concerned with [defining a 3/6/12-month technical roadmap](/handbook/engineering/architecture/roadmap/).
 This working group picks up by further iterating on the process for maintaining this roadmap over time
 and better facilitating its implementation.

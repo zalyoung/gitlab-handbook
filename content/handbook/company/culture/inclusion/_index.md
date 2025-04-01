@@ -43,14 +43,14 @@ This term is generally used in the context of reporting on how GitLab is working
 
 For additional information about how GitLab uses this data to make progress, please see ["select underrepresented group"](#examples-of-select-underrepresented-groups)
 
-**Inclusion** is the ability to recognize, respect, and value differences in those around us.  It focuses on the action and understanding of what makes us diverse and working towards building a diverse team and creating welcoming workplace. It requires skills such as empathy, openness, listening, etc.  This lays the foundation of an inclusive mindset.  The foundation of understanding gives way to the actions and being intentional about creating policies and practices that embrace diversity that in the end change the overall company culture to create an environment of inclusion. Inclusion also means being aware of both [positive and negative biases]({{< ref "unconscious-bias" >}}) and how those biases impact who we hire, work with, and retain.
+**Inclusion** is the ability to recognize, respect, and value differences in those around us.  It focuses on the action and understanding of what makes us diverse and working towards building a diverse team and creating welcoming workplace. It requires skills such as empathy, openness, listening, etc.  This lays the foundation of an inclusive mindset.  The foundation of understanding gives way to the actions and being intentional about creating policies and practices that embrace diversity that in the end change the overall company culture to create an environment of inclusion. Inclusion also means being aware of both [positive and negative biases](/handbook/company/culture/inclusion/unconscious-bias/) and how those biases impact who we hire, work with, and retain.
 
 GitLab believes that many perspectives coming together creates a more innovative environment to work in with more satisfied team members, leading to a better product and increased profitability.
 
 **Belonging** is a feeling that your insights and contributions are valued. It goes back to team members feeling they can bring their full selves to work. It's not enough to simply include people to have a "seat at the table", but it's important to amplify everyone's voices, remove barriers and appreciate each others for their unique backgrounds.
 Embracing inclusion may increase the **sense of belonging**. Team members become more engaged and are invested in the work they are doing, because they are able to see themselves in the work being accomplished with the company overall.
 
-We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs]({{< ref "directly-responsible-individuals" >}}) for all our work. [DRIs do not owe anyone an explanation for their decisions]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
+We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs](/handbook/people-group/directly-responsible-individuals/) for all our work. [DRIs do not owe anyone an explanation for their decisions](/handbook/people-group/directly-responsible-individuals/#empowering-dris), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
 
 All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree](/handbook/values/#disagree-and-commit)- but everyone can contribute and it is on the DRI to acknowledge those.
 Some other ways we actively cultivate a sense of Belonging at GitLab include creating and cultivating allies, welcoming family members in the background of a call, and sharing [negative feedback in 1-1 settings](/handbook/values/#negative-feedback-is-1-1).
@@ -75,20 +75,20 @@ An underrepresented group describes a subset of a population that holds a smalle
 At GitLab, we consider the following groups to be *underrepresented groups*:
 
 - Women - Globally
-- Women in [Management]({{< ref "structure#organizational-chart" >}}) - Globally
-- Women in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - Globally
+- Women in [Management](/handbook/company/structure/#organizational-chart) - Globally
+- Women in [Senior Leadership](/handbook/company/structure/#organizational-chart) - Globally
 - Black/African American - United States
-- Black/African American in [Management]({{< ref "structure#organizational-chart" >}}) - United States
-- Black/African American in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - United States
+- Black/African American in [Management](/handbook/company/structure/#organizational-chart) - United States
+- Black/African American in [Senior Leadership](/handbook/company/structure/#organizational-chart) - United States
 - Hispanic/Latino - United States
-- Hispanic/Latino in [Management]({{< ref "structure#organizational-chart" >}}) - United States
-- Hispanic/Latino in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - United States
+- Hispanic/Latino in [Management](/handbook/company/structure/#organizational-chart) - United States
+- Hispanic/Latino in [Senior Leadership](/handbook/company/structure/#organizational-chart) - United States
 - Indigenous Peoples/Alaska Native - United States
-- Indigenous Peoples/Alaska Native in [Management]({{< ref "structure#organizational-chart" >}}) - United States
-- Indigenous Peoples/Alaska Native in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - United States
+- Indigenous Peoples/Alaska Native in [Management](/handbook/company/structure/#organizational-chart) - United States
+- Indigenous Peoples/Alaska Native in [Senior Leadership](/handbook/company/structure/#organizational-chart) - United States
 - Hawaiian/Pacific Islander - United States
-- Hawaiian/Pacific Islander in [Management]({{< ref "structure#organizational-chart" >}}) - United States
-- Hawaiian/Pacific Islander in [Senior Leadership]({{< ref "structure#organizational-chart" >}}) - United States
+- Hawaiian/Pacific Islander in [Management](/handbook/company/structure/#organizational-chart) - United States
+- Hawaiian/Pacific Islander in [Senior Leadership](/handbook/company/structure/#organizational-chart) - United States
 
 **Due to data and or legal limitations, this is not an exhaustive list of all of our underrepresented groups. Those with disabilities, those that identify as LGBTQIA+, those who choose not to disclose as well as underrepresented ethnicities outside of the US, etc.
 
@@ -170,19 +170,19 @@ In order to more efficiently scale this initiative at GitLab, we would *love* to
 
 ### Inclusive benefits
 
-We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--maternity-care" >}}) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}), a one-stop shop for all tools related to mental well-being and self-improvement.
+We list our [Pregnancy & Maternity Care](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#kaiser-2024-and-2025-calendar-year-plans) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health](/handbook/total-rewards/benefits/modern-health/), a one-stop shop for all tools related to mental well-being and self-improvement.
 
 ### Inclusive language
 
-In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". 
+In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys".
 
 ### TMRGs - Team Member Resource Groups
 
-We have created several TMRGs and welcome interest in creating new ones. Would you like to sign up for an Team Member Resource Group, start an TMRG, or just learn more?  See our [TMRG Guide]({{< ref "erg-guide" >}}).
+We have created several TMRGs and welcome interest in creating new ones. Would you like to sign up for an Team Member Resource Group, start an TMRG, or just learn more?  See our [TMRG Guide](/handbook/company/culture/inclusion/erg-guide/).
 
 ### Military veterans and spouses
 
-GitLab welcomes military veterans from around the world, as well as military spouses, to learn more about [life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and to apply for [vacancies](https://about.gitlab.com/jobs/). We recognize the values gained from military experience, and we foster an [inclusive atmosphere]({{< ref "building-culture" >}}) to thrive in when returning to civilian life.
+GitLab welcomes military veterans from around the world, as well as military spouses, to learn more about [life at GitLab](/handbook/company/culture/#life-at-gitlab) and to apply for [vacancies](https://about.gitlab.com/jobs/). We recognize the values gained from military experience, and we foster an [inclusive atmosphere](/handbook/company/culture/all-remote/building-culture/) to thrive in when returning to civilian life.
 
 Our [all-remote culture](/handbook/company/culture/all-remote/) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design](/handbook/company/culture/all-remote/workspace).
 
@@ -192,7 +192,9 @@ We encourage military veterans and spouses to [read testimonials](/handbook/comp
 
 ### Disability Inclusion
 
-GitLab welcomes all types of team members, including any that may choose to identify as ones that currently have or were previously diagnosed as having a disability. In our HRIS (Human Resource Information System) Workday, on the Job tab page, in the Equal Employment Opportunity section, we have a field titled `Disability Status` that we ask our team members to complete during the onboarding process. The reason we ask is because it is a legal requirement in the United States for us to request this information. We encourage GitLab team members to self-disclose in our HRIS without any fear of judgment or negative consequences, even if you are not in the United States, but it is always optional. All disability data is completely confidential, and only requested for mandatory reporting purposes.
+GitLab welcomes all types of team members, including any that may choose to identify as ones that currently have or were previously diagnosed as having a disability. In our HRIS (Human Resource Information System) Workday, on the Job tab page, in the Equal Employment Opportunity section, we have a field titled `Disability Status` that we ask our team members to complete during the onboarding process. 
+
+The reason we ask is because it is a legal requirement in the United States under Section 503 of the [Rehabilitation Act of 1973](https://www.eeoc.gov/employment-protections-under-rehabilitation-act-1973-50-years-protecting-americans-disabilities), as we are a Federal contractor and are required to ask employees to **voluntarily** self-identify if they have a disability or have ever had a disability, and to provide equal employment opportunity to qualified people with disabilities.
 
 The options of this field are:
 
@@ -254,8 +256,7 @@ We encourage organizers of events that are supported through our [GitLab Diversi
 - [Leadership](/handbook/company/structure/#organizational-chart) is defined as director and above.
 - [Geographically](/handbook/company/culture/inclusion/identity-data/) is defined as those countries we use in our identity data.
 - Women is the term GitLab uses instead of "Female". "Female/Male" are gender terms often designated at birth. "Woman/Man" are gender terms based on self-identification. At GitLab, we define women based on how team members self-identify their gender in Workday.
-- **Privilege** is an unearned advantage given by society to some people but not all. In the USA figures were released in 2009 that on average women were paid $0.78 for every $1 a man makes. These figures have improved but there is still a gender imbalance.
-- **Race** - As we work to be inclusive and equitable in opportunities, promotions, etc throughout GitLab, it is imperative that we understand our representation.  We want to do our best in having categories for race that team members can select where they are able to in some way identify with the options available.  Below are the categories GitLab uses with expanded options for each:
+- **Race** - To understand our representation, we want to do our best in having categories for race that team members can select where they are able to in some way identify with the options available. These definitions align with the EEOC:
   - **American Indian or Alaska Native** - A person having origins in any of the original peoples of North and South America (including Central America) and who maintains tribal affiliation or community attachment. This category includes people who indicate their race as American Indian, Alaska Native, Navajo, Blackfeet, Inupiat, Yup'ik, Central American Indian groups or South American Indian groups.
   - **Asian** - A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including but not limited to: Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. This includes people who indicate their race as Asian Indian, Chinese, Filipino, Korean, Japanese, Vietnamese and or other not mentioned Asian identifies.
   - **Black** - A person having origins in any of the Black racial groups of Africa. Including people who indicate their race as Black or African American, Cape Coloreds, Carribean, Kenyan, Nigerian, or Haitian.
@@ -276,8 +277,3 @@ Nearly all our thoughts and actions are influenced, at least in part, by unconsc
 It's not about being warm and fuzzy and sharing your feelings. It's about being comfortable admitting when you are wrong or have made a mistake as well as challenging each other for the better.
 
 ## Performance Indicators
-
-When measuring diversity-focused performance indicators, we focus on top-of-funnel metrics, like pipeline, because they're [leading indicators](https://www.leadingagile.com/2018/02/leading-lagging-indicators/) which are better measures of where we are heading.
-It also helps reduce risk that we hire to the performance indicator, instead of hiring the best candidate.
-
-Like all performance indicators, our [Diversity Performance Indicators](/handbook/people-group/people-success-performance-indicators#key-performance-indicators) are on the [People Success Performance Indicator Page](/handbook/people-group/people-success-performance-indicators).

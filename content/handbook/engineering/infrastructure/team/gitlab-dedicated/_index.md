@@ -49,7 +49,7 @@ The following people are members of the Dedicated:Switchboard Team:
 
 To engage with the GitLab Dedicated teams:
 
-- [Create an issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new) in the GitLab Dedicated team issue tracker (**Note** The issue tracker will be made public after [work in epic 33 "Considerations for making Dedicated projects public"](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/33) is completed)
+- [Create an issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new) in the GitLab Dedicated team issue tracker
   - For feature requests, use the [feature requests issue template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/.gitlab/issue_templates/feature_request.md) and fill in the required information
 - When creating an issue, it is not necessary to `@`mention anyone
 - In case you want to get attention, use a specific team handle as defined in [group hierarchy below](#gitlab-group-hierarchy)
@@ -61,6 +61,29 @@ To engage with the GitLab Dedicated teams:
     - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
     - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
   - Our social channel, [#g_dedicated-team-social](https://gitlab.slack.com/archives/C03QBGQ3K5W) is accessible to everyone who wants to casually interact with the team
+
+### Urgent Availability or Security Events
+
+In the case of a [Sev-1 or Sev-2 Incident](/handbook/engineering/infrastructure/incident-management/#severities), please *Page* the GitLab Dedicated Engineer On Call. Further guidance on when to use this can be found [here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#what-is-an-emergency).
+
+#### Dedicated for Commercial
+
+1. From any Slack channel, use `/inc escalate`:
+   1. Under `On-Call Teams` select `dedicated EOC`
+   1. Provide information on the report in the `Notification Message`
+   1. *Urgency*, *Priority* and *Assign To* should not be set
+
+#### Dedicated for Government
+
+1. From any Slack channel, use `/pd trigger`:
+   1. Impacted Service: `Dedicated US Public Sector Platform Service`
+   1. Title: `GitLab Dedicated`
+   1. Description: Provide information on the report, and how you can be contacted
+   1. *Urgency*, *Priority* and *Assign To* should not be set
+
+### Escalation Policy
+
+When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
 
 ### Handling Configuration Changes for Tenant Environments
 
@@ -124,10 +147,6 @@ In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discret
 Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken.
 
 Changes not associated to any incident must have an exemption approval by the GitLab Dedicated engineering Leadership.
-
-### Escalation Policy
-
-When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
 
 ### Requesting access to logs
 
@@ -218,7 +237,7 @@ When it is necessary to refer to a specific customer we use the following guidel
 
 | Use Case                               | Example                                                                    | Process                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Internal Communication & Collaboration | Slack conversations                                                        | <ul><li>Use the customer name</li></ul> |
+| Internal Communication & Collaboration | Slack conversations, RFH (Request for Help) issues | <ul><li>Use the customer name</li></ul> |
 | Public Collaboration | Collaboration on issues, including SIRT issues, epics and recorded calls   | <ul><li>Avoid using the customer name publicly. Instead use internal notes, or provide an accessible internal link to aid the identification - remember that not everyone has access to Switchboard</li><li>If a customer name is mentioned on a recorded call the video should be set to Private and the reason included in the YouTube description</li></ul> |
 | Implementation Level                   | We need the ability to map a codename to a tenant_id within the tech stack | <ul><li>Use internal codenames for this use case.</li><li> Switchboard is the SSOT for internal codenames. </ul></li>                                                                                                                                                                                                                                                     |
 
@@ -277,7 +296,7 @@ click I "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/
 click J "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/298"
 ```
 
-_Note_ If you are not seeing the diagram, make sure that you have accepted all cookies.
+*Note* If you are not seeing the diagram, make sure that you have accepted all cookies.
 
 #### Epic Owners
 
@@ -391,7 +410,7 @@ Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI
 1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
     1. Format for weekly update: **Date of Update** (YYYY-MM-DD)
     1. Brief update for each of these four areas:
-        1. Indicate project [Health Status by label](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels:~:text=If%20the%20epic%20is%20labeled).
+        1. Indicate project [Health Status by label](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels).
         1. Briefly highlight project status.
         1. Indicate progress items since the last update.
         1. Indicate any project blockers.
@@ -427,6 +446,25 @@ Prior to the start of a new quarter, the team will spend time refining the Epic 
 While the above information is being added, the Epic will move from ![Triage](/images/engineering/infrastructure/team/gitlab-dedicated/label-triage.png) to ![Proposal](/images/engineering/infrastructure/team/gitlab-dedicated/label-proposal.png).  Once the information has been finalized, the Epic will move to ![Ready](/images/engineering/infrastructure/team/gitlab-dedicated/label-ready.png).
 
 Having this set of refined epics will help us plan for the upcoming quarter and allow engineers to quickly get started on an Epic once it's ready to be picked up during the quarter.
+
+### Blueprints
+
+All new services or significant changes to our existing architecture must have a [blueprint](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/architecture/blueprints).
+
+Blueprints are designed to help us think through all the critical parts of making a change and help to share knowledge across the team.
+
+A blueprint should consider:
+
+1. Scope and technical considerations
+1. High-level implementation details, and project iterations
+1. Deployment to new and existing customers
+1. Ongoing operation and maintenance
+1. Security and Compliance
+1. Costs
+1. Operational risks
+1. Resources
+
+Anyone can contribute a Dedicated blueprint. Please make sure there is always a Staff+ approval before merging.
 
 ### Merge Requests
 
@@ -588,13 +626,14 @@ in the event of a Capacity Planning shift overlapping with an on-call shift,
 consider swapping your capacity planning shift with another engineer
 to ensure both tasks receive the necessary attention.
 The goal is to give ourselves the best chance of resolving impending saturation events
-_before_ they become a customer-impacting incident
+*before* they become a customer-impacting incident
 It is based on statistical modeling and human interpretation,
 and is not expected to be perfect in every situation.
 Do your best,
 and understand that the process is inherently imprecise and fuzzy at the edges.
 
-The Dedicated capacity process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
+The Dedicated capacity planning process is built on top of [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland).
+More information about capacity planning is available in [documentation](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/capacity-planning/introduction/).
 
 The overall flow of work is to assess any new reported saturation risks,
 and re-review any which are due to be looked at again.
@@ -652,7 +691,7 @@ as a high priority task that is second only to active incidents:
       1. Work on the tamland
          [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
         to exclude or tweak the specific saturation signal.
-         - The [Scalability:Observability](/handbook/engineering/infrastructure/team/scalability/observability/) team
+         - The [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability/)
         can offer advice on the finer details of the tamland configuration.
 1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
    The pipeline should run successfuly every day.

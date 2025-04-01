@@ -10,7 +10,7 @@ This assumes an omnibus installation.
 
 ---
 
-See LDAP troubleshooting in docs - [View Docs](https://docs.gitlab.com/ee/administration/auth/ldap/ldap-troubleshooting.html)
+See LDAP troubleshooting in docs - [View Docs](https://docs.gitlab.com/administration/auth/ldap/ldap-troubleshooting/)
 
 **Testing the LDAP server**
 

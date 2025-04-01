@@ -12,6 +12,7 @@ The Professional Services Delivery Methodology (PSDM) is the guiding light for P
 [Iteration 0](./iteration-0/_index.md) includes the initial discovery and planning between the GitLab & Customer Project Team(s). This includes:
 
 - EM>PS Delivery Transition
+- Opening a Support ticket on behalf of Customers
 - Stakeholder Planning
 - Customer Kickoff
 - Discovery sessions with the Customer

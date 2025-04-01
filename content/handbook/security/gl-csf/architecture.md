@@ -30,7 +30,7 @@ helps to understand the conception of the software, and also bring some interest
 consequences (which can be drawbacks).
 
 At GitLab, we already have everything to document decisions: git and Merge Requests are a perfect
-way to document and keep track of decisions. We actually already [use this flow]({{< ref "handbook-usage#flow-structure" >}})
+way to document and keep track of decisions. We actually already [use this flow](/handbook/about/handbook-usage/#flow-structure)
 since the creation of this handbook. So instead of
 storing these discussions in a Markdown file, a Merge Request is enough to detail a change, discuss
 it, and keep track of the evolution of the architecture. This way, your architecture doc remains the

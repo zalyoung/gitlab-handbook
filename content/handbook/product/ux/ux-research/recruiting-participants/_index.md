@@ -59,7 +59,7 @@ Participants must agree to each of these questions to take part in moderated stu
 
 Determine if you need the IP Assignment and/or GitLab's Individual Contributor License Agreement
 
-- Learn more about the [IP Assignment and when to show it](/handbook/product/ux/ux-research-coordination/IP-Assignment/#when-to-show-the-ip-assignment)
+- Learn more about the [IP Assignment and when to show it](/handbook/product/ux/ux-research-coordination/ip-assignment/#when-to-show-the-ip-assignment)
 
 Common questions we include are:
 

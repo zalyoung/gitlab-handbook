@@ -25,7 +25,7 @@ A Referral is **not**
 - Someone the Talent Acquisition Team has already sourced, screened, or been in contact with for the same requisition or job family. If you have questions about whether or not someone is already active in an interview process, please reach out to TA in the #talent-acquisition Slack channel.
 - Someone you do not know and would not be able to speak about confidently.
 - Someone who applied via a unique link you shared from Greenhouse on a social site.
-- A former (or “Boomerang”) Team Member.
+- A former Team Member
 - Contract or temporary roles, including Internships, are not eligible for referral bonuses.
   - However, if the Intern is converted to a Team Member for the same/similar role, then the referring Team Member will receive a referral bonus per the [referral bonus guidelines](/handbook/total-rewards/incentives/#referral-bonuses) upon transitioning to the new employment status.
 

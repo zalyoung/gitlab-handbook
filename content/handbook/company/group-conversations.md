@@ -127,9 +127,8 @@ If your Group Conversation is optional and you need to move the date, please wor
 | [Support](/handbook/support/) | Johnny Scarborough | Yes | Quarterly | @lbot @lyle @vparsons| EBA to Engineering |
 | [Security](/handbook/security/) | Josh Lemos | Yes | Quarterly| | EBA to Security |
 | [Development](/handbook/engineering/development/) | Tim Zallmann | Yes | Quarterly | | EBA to Engineering |
-| [Infrastructure & Quality](/handbook/engineering/infrastructure-quality/) | Mek Stittri | Yes | Quarterly | | EBA to Engineering |
 | [Alliances](/handbook/alliances/) | Nima Badiey | No | Quarterly | | EBA to VP of Alliances |
-| [IT](/handbook/business-technology/it) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
+| [IT](/handbook/business-technology/) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
 | [Data](/handbook/enterprise-data/) | Amie Bright | Yes | Quarterly | | EBA to VP of Business Technology |
 
 ## Current Schedule
@@ -170,7 +169,6 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Thursday 2025-01-02 | Support | Johnny Scarborough | December 16 |
 | Monday 2025-01-06 | Security | Josh Lemos | December 18 |
 | Thursday 2025-01-30 | Data | Amie Bright | January 23 |
-| Monday 2025-02-03 | Infrastructure & Quality | Mek Stittri | January 23 |
 
 ## Examples of Past Group Conversations
 

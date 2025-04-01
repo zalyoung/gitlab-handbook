@@ -89,7 +89,7 @@ A typical investigation around problematic Duo Workflow execution follows steps 
 Based on a user report:
 
 1. Ask the user for the `workflow_id` for the problematic workflow which is displayed in the list of workflows
-2. Use the `workflow_id` from previous step to filter down [langsmith traces](https://smith.langchain.com/o/477de7ad-583e-47b6-a1c4-c4a0300e7aca/projects/p/5409132b-2cf3-4df8-9f14-70204f90ed9b) by applying a filter for `metadata` and `thread_id=[workflow_id]`
+2. Use the `workflow_id` from previous step to filter down [langsmith traces](https://smith.langchain.com/o/477de7ad-583e-47b6-a1c4-c4a0300e7aca/projects/p/a86cfa18-72b2-4729-844e-94d4ffb7f54a?timeModel=%7B%22duration%22%3A%227d%22%7D) by applying a filter for `metadata` and `thread_id=[workflow_id]`
 3. Use the `workflow_id` from 1st step to filter down logs in gcp logs explorer `jsonPayload.workflow_id="123456789"`
 
 Based on a Sentry issue:
@@ -99,6 +99,6 @@ Based on a Sentry issue:
 
 In addition one can use a workflow's `workflow_id` that is being recorded either in sentry or in log explorer to filter down LangSmith logs using `thread_id` filter in _metadata_ and comparing it against `workflow_id`.
 
-## Past in depth investigations 
+## Past in depth investigations
 
 1. Faulty network proxy via Cloudflare [investigation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/501170)

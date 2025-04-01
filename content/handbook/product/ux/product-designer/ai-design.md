@@ -261,5 +261,5 @@ Example of UX testing flow with dataset:
 - [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction): Documentation on best practices for AI-human interaction.
 - [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
 - [UX maturity requirements](../../ai/ux-maturity.md): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
-- [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
+- [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/policy/development_stages_support/): Guidelines on the different stages of feature availability.
 - [UX research in the AI space](../ux-research/research-in-the-ai-space/index.md): Documentation on conducting UX research in the AI domain.

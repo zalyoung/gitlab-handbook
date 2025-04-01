@@ -198,7 +198,7 @@ Our team members are critical to our success. We provide pathways for them to th
   - [Caregivers](/handbook/company/culture/inclusion/tmrg-caregivers/)
   - [Disabilities and Neurodivergence](/handbook/company/culture/inclusion/erg-gitlab-diversability/)
   - [Gente](/handbook/company/culture/inclusion/tmrg-gitlab-gente/)
-  - [Generational Understanding](/handbook/company/culture/inclusion/tmrg-gitlab-generational-understanding/)
+  - [Generational Understanding](/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding/)
   - [Global Voices](/handbook/company/culture/inclusion/tmrg-global-voices/)
   - [Pride](/handbook/company/culture/inclusion/tmrg-gitlab-pride/)
   - [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/)

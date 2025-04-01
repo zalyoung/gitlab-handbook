@@ -77,7 +77,7 @@ task forward.
    expectations for their deliverables within the Task Group. They should manage
    their time and capacity and quickly escalate if they feel unable to serve in
    or deliver in their role.
-1. It is highly recommended that anyone in the Task Group with [OKRs](/company/okrs/) aligns them to the effort.
+1. It is highly recommended that anyone in the Task Group with [OKRs](/handbook/company/okrs/) aligns them to the effort.
 
 ## Process
 
@@ -98,9 +98,10 @@ task forward.
 
 ## Active Task Groups (alphabetic order)
 
-1. [BootstrapVue Removal]({{< ref "bootstrap-vue-removal" >}})
-1. [GitLab UI @vue/compat Compatibility]({{< ref "gitlab-ui-vue-compat" >}})
+1. [BootstrapVue Removal](bootstrap-vue-removal/)
 
 ## Past Task Groups (alphabetic order)
 
-1. [CSS Utilities]({{< ref "css-utils" >}})
+1. [CSS Utilities](css-utils/)
+1. [GitLab UI @vue/compat Compatibility](gitlab-ui-vue-compat/)
+1. [Vue 3 Router 4 Test Compatibility](vue3-router4-tests/)

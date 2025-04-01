@@ -43,11 +43,11 @@ Please review the coverage owner closest available per their timezone when decid
 
 **Escalation Path:**
 
+Outside of normal working hours, we do not have an "on call" procedure, so please follow this escalation path if you cannot reach anyone in the matrix above.
+
 * #mktgops
 * Manager (Amy Waller)
-* If still no response, #lifecycle-marketing or #marketing-campaigns team can help
-
-For Marketing Operations - When OOO/PTO please add this to the backup team members calendar for awareness.
+* If still no response, use Text or Whatsapp to contact Amy via the number in her slack profile. If you cannot reach her, try to reach out to a timezone appropriate member in the matrix above.
 
 ## Roles and responsibilities
 

@@ -143,7 +143,7 @@ Field Communications will enforce a quiet period in the final two weeks of each 
 
 If you have an internal announcement that is also relevant to GitLab's external Channel/Alliances Partner audience, please use the Field Announcement Request process outlined above and add the appropriate details in the `Enablement Scope` section of the issue. Also select the `GitLab Partners (external)` audience in addition to the relevant internal audiences. By selecting this audience, the Field Communications team will engage the appropriate team members in Partner Communications to disseminate the announcement to partners.
 
-If you have an announcement that is relevant *only* for the external partner audience, please open a [Channel Partner Communication Request issue](https://gitlab.com/gitlab-com/channel/channels/-/issues/new?issue%5Bmilestone_id%5D=) so the [Partner Communication team](/handbook/sales/channel/channel-programs-ops/#partner-communications) can assist you.
+If you have an announcement that is relevant *only* for the external partner audience, please open a [Channel Partner Communication Request issue](https://gitlab.com/gitlab-com/partners/partner-programs/partner-programs-general/-/issues/new?issue%5Bmilestone_id%5D=) so the [Ecosystems Operations team](/handbook/sales/field-operations/channel-operations/) can assist you.
 
 ## Sharing Feedback
 

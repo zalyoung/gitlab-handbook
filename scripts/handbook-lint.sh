@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # Define colors and styles
 normal="\033[0m"
@@ -8,10 +8,8 @@ yellow="\033[93m"
 red="\033[31m"
 ERROR_FOUND=false
 
-# Create a code-quality report to populate if it doesn't exist
-if ! [ -f handbook-codequality.json ]; then
-  echo "[]" > handbook-codequality.json
-fi
+# Create the file if it doesn't exist and ensure it's empty
+echo "[]" > handbook-codequality.json
 
 ## MEDIA file checks ##
 # Pull image and video lists
@@ -22,7 +20,7 @@ if [ -n "$CI_PROJECT_ID" ]; then
     if [ "${CI_MERGE_REQUEST_SOURCE_PROJECT_PATH:-}" = "gitlab-com/content-sites/handbook" ] || ([ "${CI_PROJECT_ID:-}" = "42817607" ] && [ "${CI_PIPELINE_SOURCE:-}" != "merge_request_event" ]); then
         BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
-        git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
+        git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|md)$' | sort | uniq > /tmp/SIZE-check
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
     else
@@ -36,14 +34,14 @@ if [ -n "$CI_PROJECT_ID" ]; then
         MODIFIED_MD_FILES=$(git diff --name-only $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep '\.md$')
         printf "CI_MERGE_REQUEST_TARGET_BRANCH_NAME: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME\nCI_MERGE_REQUEST_SOURCE_PROJECT_URL: $CI_MERGE_REQUEST_SOURCE_PROJECT_URL\nCI_MERGE_REQUEST_SOURCE_BRANCH_NAME: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME\nBRANCH_POINT: $BRANCH_POINT\n"
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
-        git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
+        git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|md)$' | sort | uniq > /tmp/SIZE-check
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
    fi
 elif [ -n "$1" ]; then
     # if $1 exists, locally specified a branch to check against
     git diff --name-only --diff-filter=d main...$1 | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
-    git diff --name-only --diff-filter=d main...$1 | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
+    git diff --name-only --diff-filter=d main...$1 | grep -vE '\.(png|jpg|jpeg|gif|md)$' | sort | uniq > /tmp/SIZE-check
     git diff --name-only --diff-filter=d main...$1 | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
     git diff --name-only --diff-filter=d main...$1 | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
 else
@@ -56,6 +54,11 @@ fi
 printf "%b" "${bold}Checking that added images are in static/images directory...${normal}"
 INCORRECT_IMAGE_PATHS=""
 while read -r image; do
+  # Skip specific files or patterns
+  if [[ "$image" == "static/macos-handbook-icon.svg" || "$image" =~ ^assets/.*\.svg$ ]]; then
+    continue
+  fi
+  
   if ! [[ "$image" =~ ^static/images/ ]]; then
     ERROR_FOUND=true
     INCORRECT_IMAGE_PATHS="$INCORRECT_IMAGE_PATHS- $image\n"
@@ -92,13 +95,14 @@ fi
 printf "%b" "${bold}Checking that images are less than 500KB in size...${normal}"
 LARGE_IMAGE_PATHS=""
 while read -r image; do
-  IMAGE_SIZE=$(du -k "$image" | cut -f 1)
-  if [[ IMAGE_SIZE -ge 500 ]]; then
-    ERROR_FOUND=true
-    LARGE_IMAGE_PATHS="$LARGE_IMAGE_PATHS- $image\n"
-    fingerprint=$(sha256sum "$image")
-    markdownlinjson=$(cat handbook-codequality.json)
-    cat << EOF | jq -s 'add' - > handbook-codequality.json
+  if [[ "$image" != *.svg ]]; then # skip SVG files
+    IMAGE_SIZE=$(du -k "$image" | cut -f 1)
+    if [[ IMAGE_SIZE -ge 500 ]]; then
+      ERROR_FOUND=true
+      LARGE_IMAGE_PATHS="$LARGE_IMAGE_PATHS- $image\n"
+      fingerprint=$(sha256sum "$image")
+      markdownlinjson=$(cat handbook-codequality.json)
+      cat << EOF | jq -s 'add' - > handbook-codequality.json
 $markdownlinjson
 [
   {
@@ -117,6 +121,7 @@ $markdownlinjson
   }
 ]
 EOF
+    fi
   fi
 done < /tmp/IMAGES
 if [[ $LARGE_IMAGE_PATHS != "" ]]; then

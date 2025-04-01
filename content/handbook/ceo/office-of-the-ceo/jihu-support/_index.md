@@ -71,7 +71,7 @@ To request access please reach out to [Kevin](/handbook/company/team/#kevinchu) 
 
 ### JiHu contribution process
 
-Please refer to [JiHu contribution process]({{< ref "jihu-contribution-process" >}}) for details.
+Please refer to [JiHu contribution process](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-contribution-process/) for details.
 
 ### Broken JiHu main branch resolution process
 
@@ -85,7 +85,7 @@ There are times where [`main-jh` branch](https://jihulab.com/gitlab-cn/gitlab) i
 
 ### Merge requests with broken JiHu validation pipeline
 
-Check [What to do when the validation pipeline failed]({{< ref "jihu-validation-pipelines" >}}#what-to-do-when-the-validation-pipeline-failed) for more details.
+Check [What to do when the validation pipeline failed](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines/#what-to-do-when-the-validation-pipeline-failed) for more details.
 
 ### Security Release Process
 

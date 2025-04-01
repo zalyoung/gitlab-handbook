@@ -98,7 +98,7 @@ On the gitlab.com side, there are three real components to Dev Pulse:
 ### Analyzing a ticket
 
 This part is triggered via the Zendesk instance's webhook using a GitLab
-[pipeline trigger](https://docs.gitlab.com/ee/ci/triggers/). When triggered,
+[pipeline trigger](https://docs.gitlab.com/ci/triggers/). When triggered,
 specific parts of the code within the project will be run to perform an analysis
 of the request. The result of said analysis determine what actions are taken:
 
@@ -122,7 +122,7 @@ of the request. The result of said analysis determine what actions are taken:
 ### Analzying problem tickets
 
 This part is triggered via GitLab
-[scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+[scheduled pipelines](https://docs.gitlab.com/ci/pipelines/schedules/)
 running at a schedule specified by the GitLab Support team. During this part,
 specific parts of the code will do the following:
 
@@ -146,7 +146,7 @@ specific parts of the code will do the following:
 ### Analyzing RFH tickets
 
 This part is triggered via GitLab
-[scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+[scheduled pipelines](https://docs.gitlab.com/ci/pipelines/schedules/)
 running at a schedule that runs hourly. During this part, specific parts of the
 code will do the following:
 

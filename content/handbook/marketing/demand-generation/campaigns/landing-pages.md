@@ -24,7 +24,7 @@ twitter_creator: "@gitlab"
 
 * For about.gitlab.com pages: The H1/page title will be the slug of the URL
 * The H1 should be concise and focus on keywords for the campaign
-* For Marketo landing pages, follow the landing page naming convention.
+* For Marketo and PathFactory landing pages, follow the landing page naming convention. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
 
 ## Resources and related issues
 
@@ -50,9 +50,10 @@ The following section point to more detailed processes for Marketo landing pages
 
 ### Marketo landing page instructions, character limits, and workback timelines
 
-_Curious how to estimate when a landing page due date should be set? We've tried to make it easy with a workback, so that you can also clearly see the **dependencies** for a landing page to be created (including landing page copy, which is a separate issue teamplate).*
+Curious how to estimate when a landing page due date should be set? We've tried to make it easy with a workback, so that you can also clearly see the **dependencies** for a landing page to be created (including landing page copy, which is a separate issue teamplate).
 
 * Gated content (in-house content, analyst content, and competitive content)
+  * [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787)
   * [Handbook page to reference process and details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
   * [Workback schedule calculator](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1648326617)
   * [Character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
@@ -95,7 +96,7 @@ Marketo landing pages should use the following naming convention:
 
 * `**type-monthdd-shortcampaignname-region**` (no region for global)
 * For joint partner events, include `partner` in the short name
-* If the landing page is for gated content or an evergreen asset (such as a webcast that will be offered on-demand for more than a year), leave the date off.
+* If the landing page is for gated content or an evergreen asset (such as a webcast that will be offered on-demand for more than a year), leave the date off. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
 
 The 'type' is outlined in the table below. If your type is not listed, please use `program-`.
 
@@ -109,13 +110,13 @@ This standardizes our page names for use in reporting and systems such as our AB
 | Workshops | /workshop-  |
 | Owned, in-person events | /event- |
 | Owned, virtual events (that don't fall under webcasts - like wine tastings, cooking, etc) | /event- |
-| Gated content - ebook | /ebook- |
-| Gated content - demo | /demo- |
+| Gated content - ebook | /ebook_ |
+| Gated content - demo | /demo_ |
 | Gated content - video | /video- |
-| Gated content - all others | /resources- |
+| Gated content - all others | /resources_ |
 | Meeting requests | /event- |
 | Executive roundtables | /event- |
-| Survey | /survey- |
+| Survey | /survey_ |
 | Interest forms | /interest- |
 |Contact us forms (localized, for example) | /contact- |
 | Direct Mail | /direct- |
@@ -140,3 +141,13 @@ This standardizes our page names for use in reporting and systems such as our AB
 * Check that [conversion best practices](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-conversion-best-practices) are met
 * Fill out the form and ensure all flow steps in Marketo trigger appropriately (i.e. you receive confirmation email, interesting moment applied, program membership updated, alert sent if applicable, etc.)
 * Confirm correct location is arrived at post-form submit (i.e. correct form success message or a resulting thank you page)
+
+## Reporting: Why URL Structure Is Important
+
+### Automated Content Reporting
+
+The [Content Performance dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ContentPerformance/GatedContent) in Tableau reports on web and pipeline metrics from multiple sources: Google Analytics, Marketo Measure (Bizible), and Salesforce. A single piece of content may have several associated web pages & Salesforce campaigns, including Marketo form pages and multiple PathFactory tracks. A consistent URL structure enables the dashboard to automatically map pages across page.gitlab.com, about.gitlab.com, & learn.gitlab.com as well as Content Syndication. This process lets the dashboard accurately show Content Name and Type variables. To ensure your page and content are automatically captured in Tableau reporting, please use the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787).
+
+### Manual Process
+
+For legacy content where URLs don't follow the current structure, the Marketing Analytics team manually maps content, web, and campaign variables using this [content_keystone.yaml](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/gitlab_data_yaml/content_keystone.yaml) file.

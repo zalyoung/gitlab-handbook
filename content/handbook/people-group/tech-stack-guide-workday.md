@@ -30,7 +30,7 @@ Modules/functionality being implemented:
 
 - _BambooHR is no longer in use at GitLab as of 2024-12-15._
 
-> Details of each integration including frequency can be found in the [Workday Guide]({{< ref "workday-guide#phase-1-integrations" >}})
+> Details of each integration including frequency can be found in the [Workday Guide](/handbook/people-group/workday-guide#phase-1-integrations)
 
 #### Phase 2
 

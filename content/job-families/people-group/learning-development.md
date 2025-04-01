@@ -241,7 +241,7 @@ The Senior Director, Talent, Development & Management is a [grade 11](/handbook/
 
 ## L&D Performance Indicators
 
-1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding/#exit-survey) related to career development
+1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding/#resignation) related to career development
 1. Increase in 5% each year for the Growth & Development category of the [annual engagement survey](/handbook/people-group/engagement/)
 1. Increase in access to career mobility: internal transfers, promotions, job shadows, intern for learning, and professional development
 
@@ -249,7 +249,7 @@ The Senior Director, Talent, Development & Management is a [grade 11](/handbook/
 
 Candidates for Learning & Development can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the procss.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to a 45 minute interview with the Hiring Manager
 - Then, candidates will be invited to schedule a 45 minute interview with a peer in Learning & Development
 - Then, candidates will be invited to schedule a 45 minute interview with a People Business Partner

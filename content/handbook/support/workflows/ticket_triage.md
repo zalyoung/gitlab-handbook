@@ -34,25 +34,16 @@ graph TD
 
 A ticket should have the correct [form](/handbook/support/readiness/operations/docs/zendesk/forms/) applied to it to help route it to the right set of individuals who can assist with that request.
 
-The single source of truth for what forms exist is the [Current active forms](/handbook/support/readiness/operations/docs/zendesk/forms/) list in the Support Ops handbook section.
+The single source of truth for what forms are active is:
 
-Below is a list of some commonly used Zendesk forms with a brief explanation regarding their usage:
+- [zendesk-global/tickets/forms-and-fields](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/forms-and-fields/-/tree/master/data/forms/active?ref_type=heads)
+- [zendesk-us-government/tickets/forms-and-fields](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/forms-and-fields/-/tree/master/data/forms/active?ref_type=heads)
 
-- Self-Managed: An issue where the customer is maintaining their own local instance of GitLab
-- SaaS (GitLab.com): An issue involving the GitLab hosted SaaS offering
-- SaaS Account: Single user account issue only, all others go to GitLab.com (SaaS).
-- L&R (License and Renewals): subscription and purchase issues, see also [L&R workflows](/handbook/support/license-and-renewals/workflows/).
-- Level Up: For tickets that should go to the Professional Services team, such as requests about [the GitLab LevelUp platform](/handbook/people-group/learning-and-development/level-up/)(`levelup.gitlab.com`).
-
-**Please note:** Please follow the guidance under [Moving to non-support forms](#moving-to-non-support-forms) to *change* the ticket form, unless it's between Self-Managed, SaaS (GitLab.com) and SaaS Account.
+For tickets submitted using an incorrect form or those that need to be moved to non-support forms, apply the `General::Forms::Incorrect form used` macro. Support Operations will handle the reassignment from there.
 
 ### For security related matters
 
 Apply the macro `Security::All Security Questions`. This will reply and mark the ticket `solved`.
-
-### Moving to non-support forms
-
-For cases that need to go to non-support forms, apply the `General::Forms::Incorrect form used` macro. Support Operations will do the rest from there.
 
 ### Handling Free User tickets
 

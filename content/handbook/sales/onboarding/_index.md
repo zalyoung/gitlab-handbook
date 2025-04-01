@@ -18,7 +18,7 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 - [Target Roles](/handbook/sales/onboarding/target-roles/)
 - [Learning Objectives](/handbook/sales/onboarding/sqs-learning-objectives/)
 - [Sales Onboarding Process](/handbook/sales/onboarding/sales-learning-path/onboarding-process/)
-- [SQS Workshop](/handbook/sales/onboarding/SQS-workshop/)
+- [SQS Workshop](/handbook/sales/onboarding/)
 - [Graduating from Sales Quick Start](/handbook/sales/onboarding/graduating-SQS/)
 
 ## Current & Upcoming Sales Quick Start (SQS) Workshops

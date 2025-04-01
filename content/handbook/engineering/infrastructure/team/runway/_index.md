@@ -30,20 +30,21 @@ Should you require assistance from the Runway team, please reference [getting as
 
 ## Team Members
 
-{{< team-by-manager-slug "devin" >}}
+{{< team-by-manager-slug "jtoto-gtl" >}}
 
 ## Common Links
 
 - [Runway Top Level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/14)
-- [#g_runway](https://gitlab.enterprise.slack.com/archives/C07UED5CGR2) - work related discussions, external requests, etc
+- [#g_runway](https://gitlab.enterprise.slack.com/archives/C07UED5CGR2) - work and team related discussions.
+- [#f_runway](https://gitlab.enterprise.slack.com/archives/C05G970PHSA) - external requests, questions, support.
 
 ## How We Work
 
 ### Project Management
 
-The Reliability team [has a single top level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/14) that links sub-epics for all projects the team is working on.
+The Runway team [has a single top level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/platform/runway/-/epics/14) that links sub-epics for all projects the team is working on.
 Every sub-epic has a completion date and a DRI for providing a weekly status update.
-We follow Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/).
+We follow Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/). You can read [our 2024 Team Impact Review](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/431)
 
 ### Issues
 

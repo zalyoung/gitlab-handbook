@@ -57,7 +57,7 @@ Limits:
 
 ##### Media files for messages
 
-Follow the tips on [resizing images](/handbook/tools-and-tips/#resizing-images) and [creating GIFs](/handbook/product/making-gifs/) to learn more about image and video conversions for social media, [resizing GIFs](/handbook/product/making-gifs/#resizing-gifs), etc. Always use the best source available, or convert to a common file format. For example, macOS exports a proprietary `HEIC` image format which is not supported by [LinkedIn on the desktop](https://www.linkedin.com/help/linkedin/answer/a564109). Instead, use `JPG` or `PNG` for better compatibility. You can use ImageMagick and macOS Finder to [convert HEIC to JPG](/handbook/tools-and-tips/#convert-heic-to-jpg).
+Follow the tips on [resizing images](/handbook/tools-and-tips/#resizing-images) and [creating GIFs](/handbook/product/product-processes/making-gifs/) to learn more about image and video conversions for social media, [resizing GIFs](/handbook/product/product-processes/making-gifs/#resizing-gifs), etc. Always use the best source available, or convert to a common file format. For example, macOS exports a proprietary `HEIC` image format which is not supported by [LinkedIn on the desktop](https://www.linkedin.com/help/linkedin/answer/a564109). Instead, use `JPG` or `PNG` for better compatibility. You can use ImageMagick and macOS Finder to [convert HEIC to JPG](/handbook/tools-and-tips/#convert-heic-to-jpg).
 
 Media limits:
 
@@ -108,7 +108,7 @@ Benefits: Increase reach of content shares (for example, the [GitLab blog](https
 Some groups require moderators to approve the posts. Please follow these guidelines:
 
 - Ensure that the post is helpful, provides a short summary of the linked article
-- Check the [social card preview](/handbook/marketing/developer-relations/developer-advocacy/social-media/#social-card-validators) and replace them with screenshots or [GIFs](/handbook/product/making-gifs/) that make folks stop scrolling.
+- Check the [social card preview](/handbook/marketing/developer-relations/developer-advocacy/social-media/#social-card-validators) and replace them with screenshots or [GIFs](/handbook/product/product-processes/making-gifs/) that make folks stop scrolling.
 - Do not spam the groups with messages every day. Be thoughtful about shares and help the group owners to create a helpful stream of free learning content.
 
 Example: The [GitLab CLI announcement post by Michael](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-activity-7006375881359130624-1812) which shows the CLI interface with CI/CD pipelines, job traces, and CLI API calls as attached screenshots created 92 likes, and 5,200 impressions in 24 hours. The same post to the [DevOps group on LinkedIn](https://www.linkedin.com/groups/2825397/), once approved, got 40 likes and 9000 impressions in 9 hours.
@@ -227,10 +227,9 @@ _Missing features, 2024-11-11:_
 | Cesar Saveedra | [@cealsair.bsky.social](https://bsky.app/profile/cealsair.bsky.social) |
 | Daniel Helfand | [@dhelfand.bsky.social](https://bsky.app/profile/dhelfand.bsky.social) |
 | Fatima Sarah Kalid | [@sugaroverflow.com](https://bsky.app/profile/sugaroverflow.com) |
-| John Coghlan | [@john-cogs.bsky.social](https://bsky.app/profile/coghlan.me) |
+| John Coghlan | [@coghlan.me](https://bsky.app/profile/coghlan.me) |
 | Michael Friedrich | [@dnsmichi.dev](https://bsky.app/profile/dnsmichi.dev) |
 | William Arias | [@pywarias.bsky.social](https://bsky.app/profile/pywarias.bsky.social) |
-| Abubakar Siddiq Ango | [@abuango.me](https://bsky.app/profile/abuango.me) |
 | GitLab brand social | [@gitlab.com](https://bsky.app/profile/gitlab.com) |
 
 #### Bluesky Starter Packs
@@ -424,8 +423,8 @@ Workflow:
   - Example from [14.9, LinkedIn](https://www.linkedin.com/posts/dnsmichi_terraform-everyonecancontribute-activity-6912476005810999296-ig8Q): `Shoutout to Timo Furrer for becoming the GitLab 14.9 MVP 🎉 Your work on the #Terraform provider, automating all things GitLab, is invaluable. Thanks for all your contributions! 💜 🦊 #EveryoneCanContribute https://about.gitlab.com/releases/2022/03/22/gitlab-14-9-released/#mvp`
 - Post the MVP share on Twitter and LinkedIn
   - Add the URLs to the release evangelism issue
-- Ask Sid in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
-  - Suggested actions: Reshare/like, add a comment thanking for the contributions. Follow the [CEO voice](/handbook/ceo/#ceo-voice) to suggest a text to copy.
+- Ask the CEO in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
+  - Suggested actions: Reshare/like, add a comment thanking for the contributions.
   - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text.
   - Check the shares for comments, and engagement metrics
 

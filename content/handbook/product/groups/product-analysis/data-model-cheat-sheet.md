@@ -1,5 +1,6 @@
 ---
 title: Product Data Insights Data Models Cheat Sheet
+description: Overview of the most common data models used by the Product Data Insights team
 ---
 
 ## Objectives for this page
@@ -12,13 +13,13 @@ To collaborate on the content in this page, please either submit an MR (preferre
 
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. When in doubt, search DBT!
 
-- [Data guides to data subject areas](/handbook/enterprise-data/data-catalog/) managed by the Data team.
+- [Data guides to data subject areas](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) managed by the Data team.
 
 - [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
 
 - [Table of data sources and refresh schedules](/handbook/enterprise-data/platform/#data-sources) to understand standard load times for each data source.
 
-- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) to undertand enterprise analytics subject areas that are broadly useful to the GitLab organization. 
+- [Enterprise Data Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) to understand enterprise analytics subject areas that are broadly useful to the GitLab organization. 
 
 ## Data Model Categories
 
@@ -26,7 +27,7 @@ These categories are grouped by data source and subject area.
 
 ### Service Ping
 
-[Service Ping](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) is GitLab's mechanism to collect data by generating a JSON payload of usage data every week to be sent to GitLab. It provides aggregated data to our Product, Customer Success, Support, and Sales teams to understand how GitLab is used. Service Ping is our only data source for understanding Self-Managed product behavior. Service Ping methodology allows us to protect our Self-Managed users' privacy by aggregating metrics at the installation level.
+[Service Ping](https://docs.gitlab.com/development/internal_analytics/service_ping/) is GitLab's mechanism to collect data by generating a JSON payload of usage data every week to be sent to GitLab. It provides aggregated data to our Product, Customer Success, Support, and Sales teams to understand how GitLab is used. Service Ping is our only data source for understanding Self-Managed product behavior. Service Ping methodology allows us to protect our Self-Managed users' privacy by aggregating metrics at the installation level.
 
 #### FAQs
 
@@ -36,19 +37,19 @@ These categories are grouped by data source and subject area.
 
 > What is the difference between an instance and an installation?
 
-- An installation is the unique combination of instance_id and host_id. [Read more here](/handbook/enterprise-data/data-catalog/self-managed/). We do Self-Managed analysis and reporting at the installation level.
+- An installation is the unique combination of instance_id and host_id. [Read more here](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/self-managed/). We do Self-Managed analysis and reporting at the installation level.
 
 #### Documentation
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Service Ping Overview](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
+- [Service Ping Overview](https://docs.gitlab.com/development/internal_analytics/service_ping/)
 
 - [Service Ping metrics dictionary](https://metrics.gitlab.com/)
 
-- [Data Guide to Self-Managed Analysis](/handbook/enterprise-data/data-catalog/self-managed/)
+- [Data Guide to Self-Managed Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/self-managed/)
 
-- [Data Guide to xMAU Analysis](/handbook/enterprise-data/data-catalog/xmau-analysis/)
+- [Data Guide to xMAU Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/xmau-analysis/)
 
 </details>
 
@@ -82,7 +83,7 @@ These categories are grouped by data source and subject area.
 
 ### GitLab.com
 
-GitLab.com (SaaS) is a single installation reporting a single ping within our Service Ping framework. In order to access more granular data by product tier, plan type, namespace, or user, we utilize the [GitLab.com Postgres database](/handbook/enterprise-data/programs/data-for-product-managers/#gitlabcom-postgres-database). This data source replicates any service ping events that create a [backend table](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs).
+GitLab.com (SaaS) is a single installation reporting a single ping within our Service Ping framework. In order to access more granular data by product tier, plan type, namespace, or user, we utilize the [GitLab.com Postgres database](/handbook/enterprise-data/organization/programs/data-for-product-managers/#gitlabcom-postgres-database). This data source replicates any service ping events that create a [backend table](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs).
 
 #### FAQs
 
@@ -102,13 +103,13 @@ GitLab.com (SaaS) is a single installation reporting a single ping within our Se
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Data Guide for Product Managers documentation on GitLab.com postgres replica data](/handbook/enterprise-data/programs/data-for-product-managers/#gitlabcom-postgres-database)
+- [Data Guide for Product Managers documentation on GitLab.com postgres replica data](/handbook/enterprise-data/organization/programs/data-for-product-managers/#gitlabcom-postgres-database)
 
 - [DB docs](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs) document which service ping metrics are replicated in a database. Click in to the .yml files for each table to access table specific descriptions.
 
 - [DBT documentation on the prep_event model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.prep_event) contains compiled SQL logic to better understand any filtering applied to events.
 
-- [Data Guide to xMAU Analysis](/handbook/enterprise-data/data-catalog/xmau-analysis/)
+- [Data Guide to xMAU Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/xmau-analysis/)
 
 - [Schema file](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/structure.sql) containing SQL logic for the creation of each postgres table available in production.
 
@@ -161,7 +162,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Guide to Snowplow for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/#sts=Snowplow)
+- [Guide to Snowplow for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/#snowplow)
 
 - [Technical Snowplow overview](/handbook/enterprise-data/platform/snowplow/)
 
@@ -200,13 +201,13 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 ### Namespaces, users, & memberships
 
-This category of data models includes GitLab.com (SaaS) [namespaces](https://docs.gitlab.com/ee/user/namespace/) (which include both projects and groups), their firmographic attributes, and individual members.
+This category of data models includes GitLab.com (SaaS) [namespaces](https://docs.gitlab.com/user/namespace/) (which include both projects and groups), their firmographic attributes, and individual members.
 
 #### FAQs
 
 > What is a namespace?
 
-- Starting with the basics! GitLab has two categories of namespaces; groups and projects. In general, a namespace provides one place to organize your related projects. Read more [here](https://docs.gitlab.com/ee/user/namespace/). Namespaces exist within GitLab SaaS and Self-Managed products, but to product the privacy of our Self-Managed users, we only collect identifiable namespace data for SaaS.
+- Starting with the basics! GitLab has two categories of namespaces; groups and projects. In general, a namespace provides one place to organize your related projects. Read more [here](https://docs.gitlab.com/user/namespace/). Namespaces exist within GitLab SaaS and Self-Managed products, but to product the privacy of our Self-Managed users, we only collect identifiable namespace data for SaaS.
 
 > What types of namespaces do we normally analyze?
 
@@ -220,11 +221,11 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Data Guide to Namespace Analysis](/handbook/enterprise-data/data-catalog/namespace/) contains comprehensive documentation on namespace analytics and example SQL code.
+- [Data Guide to Namespace Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/namespace/) contains comprehensive documentation on namespace analytics and example SQL code.
 
-- [This knowledge base page](https://docs.gitlab.com/ee/topics/set_up_organization.html) covers an overview of namespaces, members and groups.
+- [This knowledge base page](https://docs.gitlab.com/topics/set_up_organization/) covers an overview of namespaces, members and groups.
 
-- [Member-specific knowledge base page](https://docs.gitlab.com/ee/user/project/members/index.html) explaining direct and indirect memberships as well as shared group memberships.
+- [Member-specific knowledge base page](https://docs.gitlab.com/user/project/members/) explaining direct and indirect memberships as well as shared group memberships.
 
 </details>
 
@@ -253,7 +254,7 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 ### Duo
 
-GitLab Duo is a suite of AI-powered features including Code Suggestions, Chat, and other capabilities. Data about Duo usage comes from multiple sources including AI Gateway events, Snowplow tracking, and Service Ping metrics, with the AI Gateway being the source of truth for usage metrics across all deployment types starting August 2024. For the most comprehensive documentation see [Data Guide to Duo Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/duo-analysis/).
+GitLab Duo is a suite of AI-powered features including Code Suggestions, Chat, and other capabilities. Data about Duo usage comes from multiple sources including AI Gateway events, Snowplow tracking, and Service Ping metrics, with the AI Gateway being the source of truth for usage metrics across all deployment types starting August 2024. For the most comprehensive documentation see [Data Guide to Duo Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/duo-analysis/).
 
 #### FAQs
 
@@ -269,7 +270,7 @@ GitLab Duo is a suite of AI-powered features including Code Suggestions, Chat, a
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Data Guide to Duo Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/duo-analysis/)
+- [Data Guide to Duo Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/duo-analysis/)
 
 </details>
 

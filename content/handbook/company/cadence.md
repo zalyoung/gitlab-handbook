@@ -88,7 +88,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 ## Year
 
 1. [Yearlies](/handbook/company/yearlies/) for setting annual company goals
-1. [Annual plan](/handbook/finance/financial-planning-and-analysis/#plan)
+1. [Annual plan](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop)
 1. [4 quarter rolling forecast](/handbook/finance/financial-planning-and-analysis/#quarterly-forecast-rolling-four-quarters)
 1. Most of [Direction](https://about.gitlab.com/direction/)
 1. [Fiscal Year Product Investment Themes](https://about.gitlab.com/direction/#fiscal-year-product-investment-themes)

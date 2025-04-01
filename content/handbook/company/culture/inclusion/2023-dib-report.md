@@ -31,28 +31,7 @@ help our users change the world.
 
 ## From our CEO
 
-> **GitLab's mission is to make it so that
-> everyone can contribute. You can't reach
-> everyone unless Diversity, Inclusion, and
-> Belonging (DIB) is core to your company
-> and how you work. DIB has always been
-> a core value of GitLab and reflected in
-> the annual company goals:**
->
-> Continue to build a diverse team of top talent that we retain
-> and grow." DIB helps us accelerate innovation, attract top
-> talent, and deepen team member engagement.
-> In fiscal year 2023 (February 2022 through January 2023),
-> GitLab exceeded its aspirational, internal goals for hiring and
-> promotion of team members from,
-> including women in senior leadership and URGs in
-> management positions. I am proud of the progress that the
-> team has made. Building a diverse and inclusive workplace
-> takes time, effort, intentionality, and persistence. And it's an
-> investment we are committed to continue both externally and
-> for our team members, together, one year at a time.
-
-- Sid Sijbrandij, GitLab Co-founder and Chief Executive Officer
+> To be updated
 
 ## GitLab's DIB vision
 
@@ -127,7 +106,6 @@ committed to that investment, and will continue to improve year over year.
 
 At GitLab we are building an inclusive workplace by:
 
-- Beating our aspirational representation goal of 30% senior women in leadership by 7%
 - Increasing our underrepresented group representation across all job grades, exceeding our CTO and CEO aspirational quarterly goals focused on URG management and senior leadership
 - Establishing 3 new [Team Member Resource Groups (TMRGs)](/handbook/company/culture/inclusion/#tmrgs---team-member-resource-groups) focused on inclusion and belonging: GitLab [Caregivers](/handbook/company/culture/inclusion/tmrg-caregivers/), [Global Voices](/handbook/company/culture/inclusion/tmrg-global-voices/), and [Black@GitLab](/handbook/company/culture/inclusion/tmrg-gitlab-black/)
 

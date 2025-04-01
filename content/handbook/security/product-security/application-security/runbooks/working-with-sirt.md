@@ -6,7 +6,7 @@ This runbook is meant to help AppSec engineers who need to engage and work with 
 
 ## Requirements for using /security to engage SIRT
 
-If this is a P1S1, follow the [P1S1 runbook]({{< ref "handling-s1p1" >}}) and [engage the security on-call]({{< ref "engaging-security-on-call" >}}).
+If this is a P1S1, follow the [P1S1 runbook](/handbook/security/product-security/application-security/runbooks/handling-s1p1/) and [engage the security on-call](/handbook/security/security-operations/sirt/engaging-security-on-call/).
 
 When using `/security` to engage SIRT:
 
@@ -38,7 +38,7 @@ These are some guidelines for selecting the urgency in the `/security` form:
 | Personal data leaks | Not Urgent (review within 24 hours) | Could be Urgent depending on the volume and the data |
 | Public merge requests fixing vulnerabilities not labeled `security-fix-in-public` | See notes | S2 and above is likely Urgent, S3 and below is Not Urgent |
 
-For more information, consider viewing the [SIRT incident classification and severity matrix]({{< ref "severity-matrix" >}}) page.
+For more information, consider viewing the [SIRT incident classification and severity matrix](/handbook/security/security-operations/sirt/severity-matrix/) page.
 
 ## Getting SIRT attention without using /security
 

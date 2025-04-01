@@ -1711,6 +1711,18 @@ So an example:
   be: `jcolyer_most_amazing_project_ever_merge_requests_27`
 
 </details>
+<details>
+<summary>2FA Removal ticket related</summary>
+
+| Tag                        | What it means |
+|----------------------------|---------------|
+| `process_2fa_ticket`       | The request was processed by the Ticket Processor |
+| `2fa_user_not_entitled`    | The self removal request was rejected |
+| `2fa_owner_not_entitled`   | The group owner request was rejected |
+| `2fa_challenge_questions`  | The self removal request was approved and sent the challenge questions |
+| `2fa_snippet_verification` | The group owner request was approved and sent the snipper verification information |
+
+</details>
 
 ## Zendesk US Federal common tags
 

@@ -50,7 +50,7 @@ Individual Use Software (freeware, add-ons and plugins) is permitted, with the e
 
 Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
 
-To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
+To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/) request process.
 
 {{% alert title="Note" %}}
 In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to preempt third party processing of company data under permissive individual use licensing terms, or to prevent Team Member misuse of certain Third Party Software features, IT, Legal, Privacy and Security will generally err on the side of disallowing exceptions to enterprise level software, particularly if there is an enterprise option already in our [Tech Stack Applications](/handbook/business-technology/tech-stack-applications/) that achieves a similar purpose.
@@ -95,7 +95,7 @@ In addition to following the [Team Member Social Media Policy](/handbook/marketi
 
 ### Return of GitLab-Owned Assets
 
-All GitLab-owned computing resources must be [returned]({{< ref "offboarding#returning-property-to-gitlab" >}}) upon separation from the company.  Notwithstanding anything contrary in the [Laptop Buy Back Policy](/handbook/it/end-user-services/onboarding-access-requests/#laptop-buy-back-policy) or the [Offboarding Tasks]({{< ref "offboarding#managing-the-offboarding-tasks" >}}), Team Members must return any GitLab-Owned Assets -- irrespective of their valuation -- if they are specifically requested to do so either during their tenure with GitLab or upon offboarding. In cases of investigation, misconduct, termination for cause or any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), a team member has no right to retain GitLab-owned computing equipment.
+All GitLab-owned computing resources must be [returned](/handbook/people-group/offboarding/#returning-property-to-gitlab) upon separation from the company.  Notwithstanding anything contrary in the [Laptop Buy Back Policy](/handbook/it/end-user-services/onboarding-access-requests/#laptop-buy-back-policy) or the [Offboarding Tasks](/handbook/people-group/offboarding/#managing-the-offboarding-tasks), Team Members must return any GitLab-Owned Assets -- irrespective of their valuation -- if they are specifically requested to do so either during their tenure with GitLab or upon offboarding. In cases of investigation, misconduct, termination for cause or any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), a team member has no right to retain GitLab-owned computing equipment.
 
 ### Bring-Your-Own-Device (BYOD)
 
@@ -111,7 +111,7 @@ All personal mobile computing devices used to access GitLab-managed data, includ
 
 For new employees who have not received a company laptop, there are [exception processes](/handbook/it/end-user-services/onboarding-access-requests/#exception-processes) for using non-company devices.
 
-The same exception processes apply in the case of a corporate laptop being unavailable or unusable due to loss, theft or disrepair. See [lost or stolen procedures](/handbook/security#reporting-an-incident) for additional information. You must open [a Policy Exeption Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/exceptions/issues/new?issuable_template=exception_request). While the exception processes are considered a temporary solution, you still need to make sure the non-company system meets [basic configuration standards](/handbook/security/corporate/systems/#laptop-or-desktop-system-configuration), and a Microsoft Windows system is still not allowed access under any circumstances.
+The same exception processes apply in the case of a corporate laptop being unavailable or unusable due to loss, theft or disrepair. See [lost or stolen procedures](/handbook/security#reporting-an-incident) for additional information. You must open [a Policy Exeption Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/exceptions/issues/new?issuable_template=exception_request). While the exception processes are considered a temporary solution, you still need to make sure the non-company system meets [basic configuration standards](/handbook/security/corporate/services/laptops/security/), and a Microsoft Windows system is still not allowed access under any circumstances.
 
 Do not sign in to any GitLab related accounts using public computers, such as library or hotel kiosks.
 
@@ -159,10 +159,9 @@ Exceptions to this policy must be approved by Security, Legal and PeopleOps Depa
 
 - [Onboarding Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md)
 - [Data Classification Standard](/handbook/security/data-classification-standard/)
-- [Asset return procedure]({{< ref "offboarding#returning-property-to-gitlab" >}})
+- [Asset return procedure](/handbook/people-group/offboarding/#returning-property-to-gitlab)
 - [Lost or stolen asset procedure](/handbook/security#reporting-an-incident)
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security)
 - GitLab's [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to all members of the GitLab community

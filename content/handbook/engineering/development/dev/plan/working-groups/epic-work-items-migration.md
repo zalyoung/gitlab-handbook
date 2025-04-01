@@ -42,30 +42,30 @@ This Working Group has the following exit criteria:
 
 |Task|Progress|DRI (group or individual)|
 |---|---|---|
-|[Add native support for work items at group-level](https://gitlab.com/groups/gitlab-org/-/epics/8308)| 90% | Project Management |
+|[Add native support for work items at group-level](https://gitlab.com/groups/gitlab-org/-/epics/8308)| 100% | Project Management |
 |[Add support for relating work items based on different relationship types](https://gitlab.com/groups/gitlab-org/-/epics/7459)| 100% | Product Planning |
-|[Add support for relating legacy issues as children to work items](https://gitlab.com/groups/gitlab-org/-/epics/10851)| 90% | Product Planning |
+|[Add support for relating legacy issues as children to work items](https://gitlab.com/groups/gitlab-org/-/epics/10851)| 100% | Product Planning |
 |[Add support for cross-group hierarchies in Hierarchy widget](https://gitlab.com/gitlab-org/gitlab/-/issues/424896)| 100% | Product Planning |
-|[Start and Due date inheritance support in Work Items](https://gitlab.com/groups/gitlab-org/-/epics/11409)| 60% | [Kassio Borges](/handbook/company/team/#kassio) (BE) & [Himanshu Kapoor](/handbook/company/team/#himkp) (FE) - Knowledge |
-|[Roll-up statistics around children count, weight sum, and health status in Hierarchy widget](https://gitlab.com/groups/gitlab-org/-/epics/11402)| 5% | Project Management |
-|[Add support for Ancestor widgets](https://gitlab.com/groups/gitlab-org/-/epics/9291)| | |
+|[Start and Due date inheritance support in Work Items](https://gitlab.com/groups/gitlab-org/-/epics/11409)| 100% | [Kassio Borges](/handbook/company/team/#kassio) (BE) & [Himanshu Kapoor](/handbook/company/team/#himkp) (FE) - Knowledge |
+|[Roll-up statistics around children count, weight sum, and health status in Hierarchy widget](https://gitlab.com/groups/gitlab-org/-/epics/11402)| 100% | Project Management |
+|[Add support for Ancestor widgets](https://gitlab.com/groups/gitlab-org/-/epics/9291)| 100% | Product Planning |
 
 #### Stage 2 - Epics data migration plan
 
 |Task|Progress|DRI (group or individual)|
 |---|---|---|
-|Block widgets which will be unavailable for migrated Epics| | |
-|Setup synchronization between Epics table and Work Items table in database| | |
-|Setup synchronization of widgets data between Epics and Work Items along with handling change in Epic Work Item ID| | |
-|Introduce Work Item Epic creation ability at Group level| | |
+|Block widgets which will be unavailable for migrated Epics| 100% | Product Planning |
+|Setup synchronization between Epics table and Work Items table in database| 100% | Product Planning |
+|Setup synchronization of widgets data between Epics and Work Items along with handling change in Epic Work Item ID| 100% | Product Planning |
+|Introduce Work Item Epic creation ability at Group level| 100% | Product Planning |
 
 #### Stage 3 - Post-migration roll-out preparation
 
 |Task|Progress|
 |---|---|
-|[Ensure REST API interoperability with migrated Epics](https://gitlab.com/groups/gitlab-org/-/epics/10845)| |
-|Determine migration strategy for unique ID and IID of migrating epics to ensure that stale reference redirect| |
-|Database cleanup for stale columns and implementation logic of legacy Epics| |
+|[Ensure REST API interoperability with migrated Epics](https://gitlab.com/groups/gitlab-org/-/epics/10845)| 100% |
+|Determine migration strategy for unique ID and IID of migrating epics to ensure that stale reference redirect| 100% |
+|Database cleanup for stale columns and implementation logic of legacy Epics| 80% |
 
 ### Roles and Responsibilities
 

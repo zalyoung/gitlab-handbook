@@ -319,7 +319,7 @@ This allows us to allocate costs to the respective business entity in financial 
 | `canada`      | (future use) GitLab Canada Corp., Canada         |
 | `gk`          | (future use) GitLab GK, Japan                    |
 
-See the [GitLab Mailing addresses](/handbook/company/visiting/) for details about each entity.
+See the [GitLab Mailing addresses](https://about.gitlab.com/company/visiting/) for details about each entity.
 
 ### Realm Usage Guidelines
 

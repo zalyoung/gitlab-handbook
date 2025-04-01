@@ -70,7 +70,7 @@ As a mentor, you benefit from:
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet with your mentee on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
 - You plan to make every effort to attend all live trainings included in the program structure
-- You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
+- You are not on a [Formal Coaching plan](/handbook/leadership/underperformance/#options-for-remediation) or PIP (Performance Improvement Plan)
 - You can complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/dib-training-certification) before the program begins
 
 Note: Anyone at GitLab, regardless of gender identity, can apply to be a mentor in the Women at GitLab mentorship program.
@@ -104,7 +104,7 @@ As a mentee, you benefit from:
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet with your mentor on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
 - You plan to make every effort to attend all live trainings included in the program structure
-- You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
+- You are not on a [Formal Coaching plan](/handbook/leadership/underperformance/#options-for-remediation) or PIP (Performance Improvement Plan)
 
 Applications will be prioritized on many points including:
 

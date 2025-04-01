@@ -44,7 +44,7 @@ Perhaps the most useful approach to describing a non-linear workday is to share 
 
 - By 3:00 PM, Darren and his family ski back to the car, refreshed after an exhilarating day. Given that they're departing the mountain before rush hour has any impact on traffic, they're back to their rental apartment by 3:30 PM.
 
-- After a shower and an early dinner, Darren logs back on to work at 4:30 PM, enthused to tackle ongoing projects and help move issues forward. But first, he shares a few photos he grabbed while skiing — something that is encouraged when you operate in a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture) and measure people on [impact, not activity]({{< ref "remote-values#results" >}}). Though working remotely with hundreds of colleagues across six continents, this deliberate approach to [informal communication](informal-communication/) creates personal bonds that are, in many ways, deeper than those formed in-office.
+- After a shower and an early dinner, Darren logs back on to work at 4:30 PM, enthused to tackle ongoing projects and help move issues forward. But first, he shares a few photos he grabbed while skiing — something that is encouraged when you operate in a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture) and measure people on [impact, not activity](/handbook/company/culture/all-remote/remote-values/#results). Though working remotely with hundreds of colleagues across six continents, this deliberate approach to [informal communication](informal-communication/) creates personal bonds that are, in many ways, deeper than those formed in-office.
 
 - Because it's winter in Montana, it's fairly dark outside by 5:00 PM. Darren has maximized his daylight hours, and has time-shifted his working day to primarily occur during darkness. Given that he would likely be indoors during this time anyway, it's more conducive to work. There is no pull to leave and explore the outdoors when it is dark. Instead, it is an ideal time to work, despite the fact that resuming your work day while most others are ending theirs is incongruent with the conventional definition of routine.
 
@@ -137,7 +137,7 @@ The more this bothers you, the further you need to distance your organization fr
 
 Answering the above will allow you to truly evaluate what elements of routine are beneficial to you, and which are holding you back.
 
-The above skiing example is a maximally [efficient](/handbook/values/#efficiency) day. It was a full working day, and a full day of exploring and spending meaningful time with family. The above team member could've opted to take PTO ([paid time off]({{< ref "paid-time-off" >}})), or opted for a shorter ski session. He could've taken a half-day, thereby extending the ski session or simply providing more buffer time between work and play.
+The above skiing example is a maximally [efficient](/handbook/values/#efficiency) day. It was a full working day, and a full day of exploring and spending meaningful time with family. The above team member could've opted to take PTO ([paid time off](/handbook/people-group/paid-time-off/)), or opted for a shorter ski session. He could've taken a half-day, thereby extending the ski session or simply providing more buffer time between work and play.
 
 You could swap anything in for skiing and envision how it could apply to you. From participating in midday school activities with your children, to helping with a midday community service event, to being available to serve as support during an important medical appointment for a loved one — the examples are endless.
 
@@ -168,7 +168,7 @@ The example detailed here would not have been possible without a few realities a
 
 - The company must work [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), such that all meaningful takeaways from conversations are documented in their proper place, around the clock.
 - The company must embrace [asynchronous workflows](asynchronous/) (including [tools like GitLab](https://about.gitlab.com/stages-devops-lifecycle/) as well as processes) in a deliberate, intentional, and thorough way.
-- The company must support a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture), which measures team members on [impact rather than activity]({{< ref "remote-values#results" >}}). This enables people to enter and exit work as they so choose, with no fear of retribution for doing something as unorthodox as skiing while everyone else works, and working while everyone else wishes they would've gone skiing.
+- The company must support a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture), which measures team members on [impact rather than activity](/handbook/company/culture/all-remote/remote-values/#results). This enables people to enter and exit work as they so choose, with no fear of retribution for doing something as unorthodox as skiing while everyone else works, and working while everyone else wishes they would've gone skiing.
 - A personal dedication to being a [manager of one](/handbook/values/#managers-of-one), able to focus on the right tasks while working from a foreign environment.
 - An understanding that not every single day will look like this. Even masters of non-linear workdays recognize that some days are less amenable to midday excursions than others. Rather than being sour about that, embrace the thrill of it being possible at all, and put effort into structuring your upcoming schedule in a way that allows for such days. As a manager of one, you have to take control over (and be accountable for) your schedule. Otherwise, other forces of the world and work will control it for you.
 
@@ -186,7 +186,7 @@ GitLab's [approach to meetings](meetings/), as with all of our processes, is pub
 
 ### Find what works for you
 
-While embracing non-linear workdays can be incredibly freeing, it's also important to recognize that breaking daily routines might not be productive for everyone. In a conversation in GitLab's [#neurodiversity]({{< ref "erg-gitlab-diversability" >}}) Slack channel, team members shared a range of experiences with non-linear workdays.
+While embracing non-linear workdays can be incredibly freeing, it's also important to recognize that breaking daily routines might not be productive for everyone. In a conversation in GitLab's [#neurodiversity](/handbook/company/culture/inclusion/erg-gitlab-diversability/) Slack channel, team members shared a range of experiences with non-linear workdays.
 
 Ultimately, it's up to each person to experiment and determine their optimal work preferences and schedule (or lack thereof). Whether your schedule looks different each day, or you stick to a strict routine, or you incorporate elements of both, the key is knowing that you have the freedom and [autonomy](/handbook/values/#managers-of-one) to decide what's best for you.
 
@@ -218,8 +218,8 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

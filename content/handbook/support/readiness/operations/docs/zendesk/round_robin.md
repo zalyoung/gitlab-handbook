@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/round_robin
 ## How is it triggered
 
 The round robin, only used for Zendesk US Government, runs via
-[gitLab Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+[gitLab Scheduled pipelines](https://docs.gitlab.com/ci/pipelines/schedules/)
 using a specific schedule for each Zendesk instance:
 
 - Global: N/A

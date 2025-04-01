@@ -136,7 +136,7 @@ The [`populate_ssat` job](https://gitlab.com/gitlab-com/support/readiness/suppor
 
 To run this job:
 
-1. [Run a manual pipeline] (https://docs.gitlab.com/ee/ci/pipelines/#run-a-pipeline-manually) and run the `populate_ssat` job.
+1. [Run a manual pipeline] (https://docs.gitlab.com/ci/pipelines/#run-a-pipeline-manually) and run the `populate_ssat` job.
 
 You can safely re-run this task as many times as you'd like as it will append to the issue.
 
@@ -160,7 +160,7 @@ ticket!):
 * **Make the CSM aware of this feedback? (Y/N)**
 ```
 
-The above text will be automatically added as a comment to "bad" reviews. You might also consider adding the above snippet to a [comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html) for quick use.
+The above text will be automatically added as a comment to "bad" reviews. You might also consider adding the above snippet to a [comment template](https://docs.gitlab.com/user/profile/comment_templates/) for quick use.
 
 If no action needs to be taken, and the customer does not need to be contacted to discuss the ticket, `/close` the Feedback Issue.
 
@@ -177,7 +177,7 @@ a bad review was given. If necessary, [contact the customer](#if-the-customer-sh
 to learn more.
 
 Once the reason behind the "bad" review is understood, apply the `feedback`
-[scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels)
+[scoped label](https://docs.gitlab.com/user/project/labels/#scoped-labels)
 that best describes the situation:
 
 | Label | Description |

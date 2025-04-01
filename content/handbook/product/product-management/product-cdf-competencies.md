@@ -2,7 +2,7 @@
 title: Product Management CDF and Competencies
 ---
 
-On this page, you'll find an overview as well as links to helpful resources for evaluating a product manager's performance at GitLab. To better understand a product manager's responsiblities at GitLab, please visit [The Product Manager Role at GitLab](/handbook/product/product-manager-role/)
+On this page, you'll find an overview as well as links to helpful resources for evaluating a product manager's performance at GitLab. To better understand a product manager's responsiblities at GitLab, please visit [The Product Manager Role at GitLab](/handbook/product/product-management/product-manager-role/)
 
 ## Product Management Career Development Framework
 
@@ -14,7 +14,7 @@ We track progress through the skills required to be a product manager at all lev
 
 ### What is the expected outcome of a CDF Review?
 
-CDF reviews should result in actionable improvement focus areas for the product manager. When conducting a CDF review, managers should consider drilling into specific items within the PM's purview to highlight where the team member can focus on improving. [PM competencies](/handbook/product/product-manager-role/learning-and-development) are also valuable for identifying improvement areas.
+CDF reviews should result in actionable improvement focus areas for the product manager. When conducting a CDF review, managers should consider drilling into specific items within the PM's purview to highlight where the team member can focus on improving. [PM competencies](/handbook/product/product-management/learning-and-development/) are also valuable for identifying improvement areas.
 
 We use KPIs by function in the CDF. These KPIs feature a guideline for results that are meant to be suggested indicators for ideal behaviors for Product teammates at GitLab. These are target results and are not meant to be an exhaustive list for Product teammate performance. As a manager and individual contributor, have a dialogue about the right measures of success and define those at the beginning of each performance cycle. Keep the KPIs consistent as you measure them over each CDF review for the best comparative results of growth.
 
@@ -44,7 +44,7 @@ _Example outcomes: MAU Attainment, Dogfooding Implementation %, Use of Growth Ex
 #### Skills
 
 - [Iteration](/handbook/product/product-management/learning-and-development/#-iteration)
-- [Jobs to Be Done]( /handbook/product/product-manager-role/learning-and-development/#-jobs-to-be-done)
+- [Jobs to Be Done]( /handbook/product/product-management/learning-and-development/)
 - [Lean Product Development](/handbook/product/product-management/learning-and-development/#-lean-product-development)
 - [User Stories](/handbook/product/product-management/learning-and-development/#-user-stories)
 - [Backlog Management](/handbook/product/product-management/learning-and-development/#-backlog-management)

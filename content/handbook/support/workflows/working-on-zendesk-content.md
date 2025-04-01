@@ -37,6 +37,16 @@ Macros are [deployed immediately](/handbook/support/readiness/operations/docs/ch
   - **NOTE** If a managed content file is needed (as you selected a `Public` or `Private` comment would be used), the Support Super Form will create a placeholder file for you (if said file does not exist). For the quickest resolution, it is best to *not* create the managed content file before your submission of the Support Super Form.
 - To discuss a macro (but not actually action on anything), use a support-team-meta issue.
 
+#### Organizations
+
+Modifications to Zendesk organizations can be made through the use of the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+
+- The Support Super Form will walk you through making your modification. If an option does not appear in the list of available choices, it cannot currently be modified.
+
+To make changes to a Global organization's note you would use [the Zendesk Global Organizations project](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to modify an organizations notes. 
+
+For Us Government Organizations, all organization notes are managed manually by the Support Readiness team. Due to the sensitive nature of the organizations, please reach out to Support operations via slack to make changes. 
+
 #### Articles
 
 Articles (also called pages) are [deployed immediately](/handbook/support/readiness/operations/docs/change_management/#ad-hoc-deployments). For information on articles, please see [Zendesk Articles](/handbook/support/readiness/operations/docs/zendesk/articles/).

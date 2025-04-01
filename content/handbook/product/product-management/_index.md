@@ -31,7 +31,7 @@ Please see the [Product Categories](/handbook/product/categories/) to know which
 
 Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, *if creating an issue does not suffice*.
 
-Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, [Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) falls under the [Plan PM](/handbook/product/categories/features/#project-management).
+Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, [Service Desk](https://docs.gitlab.com/user/project/service_desk/) falls under the [Plan PM](/handbook/product/categories/features/#project-management).
 
 All feedback must follow the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/). Failure to do so will result in the issues or comment being deleted.
 
@@ -59,13 +59,13 @@ If a customer expresses interest by simply mentioning an issue number or e.g. "a
 
 The Product Manager is responsible for figuring all of this out, but being one step ahead of them will speed things up.
 
-If a customer is a member of our Product [Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/CAB/), the CSM should add two labels: `~CAB Takeaway` and `~CAB Takeaway Qx FY20xx` to the issue.
+If a customer is a member of our Product [Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/), the CSM should add two labels: `~CAB Takeaway` and `~CAB Takeaway Qx FY20xx` to the issue.
 
 It is highly recommended to use the feedback template below to make this easier.
 
 #### Feedback template
 
-You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html#create-comment-templates) for reusability:
+You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/user/profile/comment_templates/#create-comment-templates) for reusability:
 
 ```markdown
 <!-- Select the appropriate subscription and product text below and remove the others (note: do not add them as labels)>
@@ -120,7 +120,7 @@ If you have followed the process of creating/commenting on issues and have not g
 
 If a customer has identified an issue that is high priority for them, such as a work-stoppage bug or a feature required for the customer to meet a deadline, follow the expected steps for logging and tracking customer feature requests above by adding the customer's interest in a GitLab issue and including it in the collaboration project issue. In addition, [reach out to the Product Manager](/handbook/product/product-management/#where-to-reach-product-managers) who is [responsible for the corresponding group](/handbook/product/product-management/#which-product-manager-should-i-contact) and discuss it with them directly. A general idea of high priority is that the customer needs a particular feature as soon as possible.
 
-**Critical Priority Requests** are extremely rare, but, when they occur, they are agreed upon by both Product and Engineering, with the CSM facilitating the request. If a customer is unable to continue using GitLab without a specific feature, the CSM should begin the [triaging the account](/handbook/customer-success/csm/health-score-triage/), follow the process to indicate customer interest in the issue, then set up regular check-ins with the Product and Engineering teams to assess the status of the feature, expectations, and potential secondary plans. For the product & engineering process, please refer to the details of a [critical customer merge request](https://docs.gitlab.com/ee/development/code_review.html#customer-critical-merge-requests).
+**Critical Priority Requests** are extremely rare, but, when they occur, they are agreed upon by both Product and Engineering, with the CSM facilitating the request. If a customer is unable to continue using GitLab without a specific feature, the CSM should begin the [triaging the account](/handbook/customer-success/csm/health-score-triage/), follow the process to indicate customer interest in the issue, then set up regular check-ins with the Product and Engineering teams to assess the status of the feature, expectations, and potential secondary plans. For the product & engineering process, please refer to the details of a [critical customer merge request](https://docs.gitlab.com/development/code_review/#customer-critical-merge-requests).
 
 ### Why do product teams prefer we ask about the problem rather than the solution?
 
@@ -356,7 +356,7 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 **Internal**
 
 - [SaaS vs. Self-managed](https://about.gitlab.com/features/)
-- [Features by tier](/features/by-paid-tier/)
+- [Features by tier](https://about.gitlab.com/features/by-paid-tier/)
 
 ### Working with User Experience (UX)
 

@@ -134,7 +134,7 @@ Candidates for this position can expect the hiring process to follow the order b
 
 ### Recruiter Screening
 
-Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 
 ### Written Assessment
 

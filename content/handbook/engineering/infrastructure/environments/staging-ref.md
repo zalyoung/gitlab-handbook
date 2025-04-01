@@ -124,7 +124,7 @@ If you have `gcloud` or `kubectl` set up locally, then follow [Connect from your
 
 #### Request access to GCP project and environment
 
-If you need access to Staging Ref components in the GCP project(`gitlab-staging-ref`), please reach out in the `#staging-ref` Slack channel. [Test Platform Engineering Managers](/handbook/engineering/quality#management-team) can [add](https://support.google.com/groups/answer/2465464?hl=en) you to [`gcp-staging-ref-sg@gitlab.com` Google group](https://groups.google.com/a/gitlab.com/g/gcp-staging-ref-sg/members).
+If you need access to Staging Ref components in the GCP project(`gitlab-staging-ref`), please reach out in the `#staging-ref` Slack channel. Someone can add you to [`gcp-staging-ref-sg@gitlab.com` Google group](https://groups.google.com/a/gitlab.com/g/gcp-staging-ref-sg/members).
 
 As another option you can create an issue in [the access-request project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Requests for access to server environments requires the approval of your manager and an Infrastructure manager.
 

@@ -81,7 +81,7 @@ To do this, reply with the following:
 > `Your GitLab License File` in your e-mail to locate it.
 >
 > For information on applying a license, please read through
-> [our documentation](https://docs.gitlab.com/ee/administration/license_file.html).
+> [our documentation](https://docs.gitlab.com/administration/license_file/).
 >
 > As this is a staging license, please keep in mind you *must* setup your GitLab
 > deployment to work with those.

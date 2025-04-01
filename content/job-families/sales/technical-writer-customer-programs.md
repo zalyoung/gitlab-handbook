@@ -62,7 +62,7 @@ The Customer Programs Job Family would flow into the [Customer Success Managers]
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters,
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters,
 - Next, candidates will complete an Assessment
 - Candidates will then interview with the Manager, Customer Success Managers &  Senior Manager of Customer Success Operations
 - The next interview is with one of our Technical Writers

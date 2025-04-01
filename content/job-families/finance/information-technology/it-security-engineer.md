@@ -41,7 +41,7 @@ As a member of the IT Security Operations team at GitLab, you will be working to
 
 ### IT Security Engineer (Intermediate)
 
-The IT Security Engineer (Intermediate) reports to the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+The IT Security Engineer (Intermediate) reports to the [Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/).
 
 #### The IT Security Engineer (Intermediate) Job Grade
 
@@ -57,7 +57,7 @@ The IT Security Engineer (Intermediate) is a [grade 6](/handbook/total-rewards/c
 
 ### Senior Security Engineer
 
-The Senior Security Engineer reports to the Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+The Senior Security Engineer reports to the Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/).
 
 #### Senior Security Job Grade
 
@@ -75,11 +75,11 @@ The Senior Security Engineer role extends the IT Security Engineer (Intermediate
 
 #### Career Ladder
 
-A Senior Security Engineer may decide to pursue the may decide to pursue the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/), should they wish to, or progress to Staff.
+A Senior Security Engineer may decide to pursue the may decide to pursue the [Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/), should they wish to, or progress to Staff.
 
 ### Staff Security Engineer
 
-The Senior Security Engineer reports to the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+The Senior Security Engineer reports to the [Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/).
 
 #### Staff Security Job Grade
 
@@ -99,7 +99,7 @@ The Senior Security Engineer role extends the Senior Security Engineer role.
 
 #### Career Ladder
 
-A Staff Security Engineer may decide to pursue the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+A Staff Security Engineer may decide to pursue the [Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/).
 .
 
 ## Performance Indicators
@@ -111,7 +111,7 @@ A Staff Security Engineer may decide to pursue the [Manager, IT Security Operati
 
 All interviews are conducted using Zoom video conferencing software. Candidates for this position can expect the hiring process to follow the order below, with modifications to the process as required, based on specific situations. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute Intervew with the Hiring Manager
 - After that, candidates will be invited to schedule a 30 minute interview with members of the IT team.
 - Finally, the candidates will interview with the Sr. Director of IT.

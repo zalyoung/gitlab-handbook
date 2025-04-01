@@ -68,125 +68,13 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 
 ### DRIs and Stakeholders
 
-<table>
-<tr>
-<td>
-
-</td>
-<td>Role</td>
-<td>Responsibility</td>
-</tr>
-<tr>
-<td>
-
-[Sabrina Farmer](https://gitlab.com/sabrinafarmer)
-
-</td>
-<td>Executive Sponsor</td>
-<td>
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Marin Jankovski](https://gitlab.com/marin)
-
-</td>
-<td>Senior Director of Engineering</td>
-<td>
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Chun Du](https://gitlab.com/cdu1)
-
-</td>
-<td>Director of Engineering</td>
-<td>
-
-1. Liaison between project team and cross-functional engineering leaders
-2. Coordinating temporary staffing arrangements within the Data Stores stage
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Nick Nguyen](https://gitlab.com/nhxnguyen)
-
-</td>
-<td>Senior Engineering Manager</td>
-<td>
-
-1. Coordinating staffing and unblocking groups in Data Stores
-2. Drive cross-functional efforts in engineering
-3. Report on Data Stores progress and mitigate risks
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Joshua Lambert](https://gitlab.com/joshlambert)
-
-</td>
-<td>Director of Product Management </td>
-<td>
-
-1. Investment and staffing of Core Platform teams
-2. Liaison between project team and cross functional product managers and product leaders
-3. Escalation of product priorities competing with Cells
-4. Decision maker for supported and un-supported features for each iteration of Cells
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Christina Lohr](https://gitlab.com/lohrc)
-
-</td>
-<td>Tenant Scale Product Manager</td>
-<td>
-
-1. Product definition, requirements, roadmap for Organization workstream within Tenant Scale
-2. Product definition, requirements, roadmap for Cells workstreams within Tenant Scale
-3. Point of contact to collaborate with product managers from other teams
-4. Investment and staffing of Tenant Scale
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Darby Frey](https://gitlab.com/darbyfrey)
-
-</td>
-<td>Staff Fullstack Engineer, Expansion</td>
-<td>
-
-DRI of Expansion Software Development
-
-</td>
-</tr>
-<tr>
-<td>
-
-[Kerri Miller](https://gitlab.com/kerrizor)
-
-</td>
-<td>Staff Backend Engineer, Core Development</td>
-<td>
-
-DRI of Core Development
-
-</td>
-</tr>
-
-</table>
+| Stakeholder | Role | Responsibility |
+| ----------  | ---  | -------------- |
+| [Sabrina Farmer](https://gitlab.com/sabrinafarmer) | CTO | Executive Sponsor |
+| [Gerardo Lopez-Fernandez](https://gitlab.com/glopezfernandez) | Engineering Fellow | Tenant Scale Engineering DRI |
+| [Mark Wood](https://gitlab.com/mjwood) | Acting Group Product Manager | Tenant Scale Product DRI |
+| [Darby Frey](https://gitlab.com/darbyfrey) | Staff Fullstack Engineer, Expansion | Sec and Monetization DRI |
+| [Kerri Miller](https://gitlab.com/kerrizor) | Staff Backend Engineer, Create | Core Development DRI |
 
 ## Cells 1.0
 

@@ -13,7 +13,7 @@ Anyone contributing to GitLab's main codebase should have a working and running 
 
 As a general rule, if it can be fixed in a browser inspector, it can be probably be fixed it for real in the GitLab codebase.
 
-Everyone is encouraged to find small UI issues and submit their changes via a [merge request (MRs)](https://docs.gitlab.com/ee/user/project/merge_requests/).
+Everyone is encouraged to find small UI issues and submit their changes via a [merge request (MRs)](https://docs.gitlab.com/user/project/merge_requests/).
 
 ## GitLab's main codebase contribution basics
 
@@ -92,8 +92,8 @@ If you're viewing [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/stor
 
 ## Terminal (CLI) cheatsheet
 
-- [Command Line basic commands](https://docs.gitlab.com/ee/topics/git/commands.html) in our GitLab docs.
-- [Basic Git commands](https://docs.gitlab.com/ee/topics/git/commands.html#basic-git-commands) in our GitLab docs.
+- [Command Line basic commands](https://docs.gitlab.com/topics/git/commands/) in our GitLab docs.
+- [Basic Git commands](https://docs.gitlab.com/topics/git/commands/#basic-git-commands) in our GitLab docs.
 
 ## Video walkthroughs
 

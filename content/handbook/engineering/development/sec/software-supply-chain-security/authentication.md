@@ -76,7 +76,7 @@ Because this group works on components of the application that have a [far-reach
 
 1. Our team's merge requests should be assigned to another Auth team member for first review in order to build more institutional knowledge across the team. This review should be done as a [reviewer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer). The Auth approval counts as the approval matching the role of the Auth Reviewer, e.g. having a Backend Review from Auth counts as a Backend Review. Once approved, the Auth Reviewer should request a review from a Maintainer from the appropriate [maintainer category](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines).
 1. Auth merge requests will include a comment that needs answered before merging, "Should this be behind a feature flag?" This is an effort to remind engineers about feature flag usage, but also to challenge reasoning as to why changes do not need to be behind a feature flag.
-1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/sscs/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) feature of GitLab.
+1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) feature of GitLab.
 
 ##### Rollout and validation for token related features or destructive data updates
 
@@ -108,7 +108,7 @@ Lastly, due to the direct impact of authentication change on the ability to acce
 
 You are encouraged to work as closely as needed with stable counterparts. We include quality engineering and application security counterparts prior to a release kickoff and as-needed during code reviews or issue concerns.
 
-Quality engineering is included in our workflow via the [Quad Planning Process](/handbook/engineering/infrastructure/test-platform/quad-planning/) and is responsible for bug prioritization during release planning. They are also the DRI when it comes to adding new [end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/), though anyone can contribute. Here are some examples of when to engage with your counterpart:
+Quality engineering is included in our workflow via the Quad Planning Process and is responsible for bug prioritization during release planning. They are also the DRI when it comes to adding new [end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/), though anyone can contribute. Here are some examples of when to engage with your counterpart:
 
 - [Seeking Quality's opinion if an MR would introduce flakiness in existing end-to-end tests](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92333#note_1033648348)
 - [You need help deciding the best way to fix a test](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/93467#note_1042495993)
@@ -127,7 +127,7 @@ As the primary interface between customers and engineering team, support team ha
 #### Keeping yourself informed
 
 - Key channels of interest are `#engineering-fyi`, `#team-member-updates`, `#g_sscs_authentication`, `#sec_section`, `#ceo`, `#cto`
-- We create a weekly issue to inform the team members about the company or team updates, to share important links or to be informed about the team availability. Creation of the issue is the responsibility of an Engineering Manager, who can use an issue template located in the [SSCS/Auth repo](https://gitlab.com/gitlab-org/sscs/authentication/discussion). All weekly updates can be found in the project issue list [filtered by weekly update label.](https://gitlab.com/gitlab-org/sscs/authentication/discussion/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
+- We create a weekly issue to inform the team members about the company or team updates, to share important links or to be informed about the team availability. Creation of the issue is the responsibility of an Engineering Manager, who can use an issue template located in the [SSCS/Auth repo](https://gitlab.com/gitlab-org/software-supply-chain-security/authentication/discussion). All weekly updates can be found in the project issue list [filtered by weekly update label.](https://gitlab.com/gitlab-org/software-supply-chain-security/authentication/discussion/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
 
 #### MR review requests
 
@@ -140,7 +140,7 @@ However there are frequently instances where a review request primarily pertains
 We plan in monthly cycles in accordance with our [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline). Our typical planning cycle includes:
 
 - At the beginning of each month, Product creates [a planning issue](https://gitlab.com/gitlab-org/software-supply-chain-security/authentication/discussion/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=Planning%20Issue&first_page_size=20) for the coming release.
-  - This issue should include the general themes of a release. It should also include placeholders for [the quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) to put their prioritized feature, bug, and maintenance lists.
+  - This issue should include the general themes of a release. It should also include placeholders for the quad to put their prioritized feature, bug, and maintenance lists.
   - Issues without estimates should be investigated by engineering throughout the month so weighting does not need to happen at once. Once the prioritized feature list is determined for a milestone, engineering will put a weight on any issues on the list that do not have a weight.
 - Within the first 12 days of the month we estimate the issues. We also identify any key issues that our team feels should be addressed in the upcoming milestone, including bugs, maintenance tasks, and new features. This approach helps us build a list of important issues that we all agree should be prioritized in future milestones.
 - By the 12th day, all planned issues proposed for the next release should be estimated by engineering and put into `~"workflow::ready for development"`.
@@ -153,7 +153,7 @@ Some items may be marked for a certain milestone, but do not have the `~Delivera
 
 Before work can begin on an issue, we should estimate it first after a preliminary investigation. If the scope of work of a given issue touches several disciplines (docs, design, frontend, backend, etc.) and involves significant complexity across them, consider creating separate issues for each discipline (see [an example](https://gitlab.com/gitlab-org/gitlab/-/issues/9288)).
 
-After the PM creates a [planning issue](https://gitlab.com/groups/gitlab-org/sscs/authentication/-/issues/?sort=popularity&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20) for the next release, the quad will gather a prioritized list of issues that should be considered. The EM will then create a "breakdown" issue with a checklist of issues that need to be estimated ([example](https://gitlab.com/gitlab-org/sscs/authentication/discussion/-/issues/45)). All Engineers from the group should be assigned to that issue and participate in weighting or breaking down the list.
+After the PM creates a [planning issue](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/authentication/-/issues/?sort=popularity&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20) for the next release, the quad will gather a prioritized list of issues that should be considered. The EM will then create a "breakdown" issue with a checklist of issues that need to be estimated ([example](https://gitlab.com/gitlab-org/software-supply-chain-security/authentication/discussion/-/issues/45)). All Engineers from the group should be assigned to that issue and participate in weighting or breaking down the list.
 
 When estimating development work, please add the appropriate weight to the issue:
 
@@ -262,7 +262,7 @@ The roadmap items are then marked with the `Small`, `Medium` labels and a priori
 
 #### Monthly cross-functional dashboard review
 
-We create a monthly issue that is assigned to all counterparts. The issue has to be created manually by an Engineering Manager, but we have an issue template in the [Authentication discussion repo](https://gitlab.com/gitlab-org/sscs/authentication/discussion).
+We create a monthly issue that is assigned to all counterparts. The issue has to be created manually by an Engineering Manager, but we have an issue template in the [Authentication discussion repo](https://gitlab.com/gitlab-org/software-supply-chain-security/authentication/discussion).
 
 You can read more about this process on the [handbook page](/handbook/product/product-processes/).
 
@@ -286,7 +286,7 @@ All meetings and 1-1's should have an agenda prepared in advance. If this is not
 
 ### Group Members
 
-Auth group members who are part of the [Authentication group](https://gitlab.com/groups/gitlab-org/sscs/authentication/) can be `@` mentioned on GitLab with `@gitlab-org/sscs/authentication`.
+Auth group members who are part of the [Authentication group](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/authentication/) can be `@` mentioned on GitLab with `@gitlab-org/software-supply-chain-security/authentication`.
 
 The following people are permanent members of the group:
 

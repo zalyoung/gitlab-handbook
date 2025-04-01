@@ -39,7 +39,7 @@ See the [architecture documentation around components](https://docs.gitlab.com/e
       - Port: BLANK (delete `3000`)
       - Environment: `development`
       - Environment Variables (Note: these are taken from the current GDK `Procfile`, as well as additional ones to prevent timeouts during debugging. They may become outdated):
-        - `RAILS_RELATIVE_URL_ROOT=/;ACTION_CABLE_IN_APP=true;ACTION_CABLE_WORKER_POOL_SIZE=4;FIPS_MODE=false;GEO_SECONDARY_PROXY=0;GITLAB_RAILS_RACK_TIMEOUT=999999;GITLAB_RAILS_WAIT_TIMEOUT=999999;GITALY_DISABLE_REQUEST_LIMITS=false`
+        - `RAILS_RELATIVE_URL_ROOT=/;ACTION_CABLE_IN_APP=true;ACTION_CABLE_WORKER_POOL_SIZE=4;FIPS_MODE=false;GEO_SECONDARY_PROXY=0;GITLAB_RAILS_RACK_TIMEOUT=999999;GITLAB_RAILS_WAIT_TIMEOUT=999999;GITALY_DISABLE_REQUEST_LIMITS=false;PUMA_WORKER_TIMEOUT=99999999`
         - NOTE: The following values from the Procfile entry are omitted as they are not necessary:
             - `BUNDLE_GEMFILE`
             - `ENABLE_BOOTSNAP`

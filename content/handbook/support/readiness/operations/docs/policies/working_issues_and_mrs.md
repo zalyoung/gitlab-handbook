@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/policies/working_is
 ## Time tracking
 
 We utilize the
-[Time Tracking](https://docs.gitlab.com/ee/user/project/time_tracking.html)
+[Time Tracking](https://docs.gitlab.com/user/project/time_tracking/)
 feature of GitLab in the issues and merge requests we work on. We utilize this
 time tracking to help with things like defining our hiring model and measuring
 workload. As you work issues and merge requests, make sure you utilize this
@@ -38,7 +38,7 @@ use.
 #### Scoped labels
 
 As per
-[GitLab](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels):
+[GitLab](https://docs.gitlab.com/user/project/labels/#scoped-labels):
 
 > Scoped labels allow teams to use the label feature to annotate issues, merge
 > requests and epics with mutually exclusive labels. This can enable more
@@ -108,7 +108,7 @@ exists on. If you are sure you wish to confirm the deletion, click the red
 ### Milestones
 
 In regards to milestones, as per
-[GitLab](https://docs.gitlab.com/ee/user/project/milestones/):
+[GitLab](https://docs.gitlab.com/user/project/milestones/):
 
 > Milestones in GitLab are a way to track issues and merge requests created to
 > achieve a broader goal in a certain period of time.

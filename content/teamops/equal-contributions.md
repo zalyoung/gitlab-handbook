@@ -24,7 +24,7 @@ Action tenets of facilitating equal contributions, including real-world examples
 
 Working asynchronously does more than free up calendar space. TeamOps prioritizes asynchronous communication as a way of enabling equal opportunities for team members to participate in conversations, receive updates, share insights, or deliver results no matter where or when they are working. In conventional organizations, information exchanges are tightly linked to meetings, which severely limits contributions to only those who are in attendance and are comfortable in a live, spontaneous discussion dynamic.
 
-Instead of spending time scouring schedules and time zone differences to discuss something synchronously, shift the focus to creating clear documentation that will allow team members to contribute both on their own time and with greater intentionality. This [gives agency](/handbook/values/#give-agency), reinforces a [bias for action](/handbook/values/#bias-for-action), and [bridges the knowledge gap](/handbook/company/culture/all-remote/asynchronous/#6-asynchronous-work-bridges-the-knowledge-gap), resulting in more total [iterations](/handbook/values/#iteration).
+Instead of spending time scouring schedules and time zone differences to discuss something synchronously, shift the focus to creating clear documentation that will allow team members to contribute both on their own time and with greater intentionality. This [gives agency](/handbook/values/#give-agency), reinforces a [bias for action](/handbook/values/#operate-with-a-bias-for-action), and [bridges the knowledge gap](/handbook/company/culture/all-remote/asynchronous/#6-asynchronous-work-bridges-the-knowledge-gap), resulting in more total [iterations](/handbook/values/#iteration).
 
 Establishing a thriving asynchronous culture also requires leaders to [celebrate incremental improvements](/handbook/company/culture/all-remote/asynchronous/#celebrate-incremental-improvements) and fight the urge to seek immediate gratification. To do this, they can encourage their team to strive for [iteration](/handbook/values/#iteration); [transparency](/teamops/shared-reality/#public-by-default); and [progress, not perfection](/handbook/company/culture/all-remote/asynchronous/#aim-for-progress-not-perfection).
 
@@ -59,7 +59,7 @@ This decision-making model [combines beneficial dynamics from both hierarchical 
 
 Leaders must foster a culture where DRIs are empowered, able to [escalate to unblock](/handbook/values/#escalate-to-unblock), and willing to share their ideas in the open. This unlocks the team's highest potential. A successful DRI should consult and collaborate with all teams and stakeholders and welcome input from a broad range of diverse perspectives as they form their thoughts.
 
-It's important to note that TeamOps still allows flexibility for team members to [disagree, commit, and disagree](/handbook/values/#disagree-commit-and-disagree), but it reduces the risk that disagreement or dissent will prevent a [bias for action](/handbook/values/#bias-for-action).
+It's important to note that TeamOps still allows flexibility for team members to [disagree, commit, and disagree](/handbook/values/#disagree-and-commit), but it reduces the risk that disagreement or dissent will prevent a [bias for action](/handbook/values/#operate-with-a-bias-for-action).
 
 {{% details summary="Examples and resources for DRIs" %}}
 **Example 1:** [Learning & Development team member owns decisions related to her result metrics](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/24)
@@ -152,7 +152,7 @@ To create an efficient navigation experience and prevent information overload fo
 {{% details summary="Examples and resources for tool prioritization" %}}
 **Resource:** [Doist's Pyramid of Remote Team Communication Tools](https://blog.doist.com/remote-team-communication-tools/)
 
-As a visual guide for when to use which tools in their digital infrastructure, fully-remote company [Doist](doist.com) created a [Pyramid of Remote Team Communication Tools](https://blog.doist.com/remote-team-communication-tools/) that has not only made their company operations more efficient, but also inspired all-remote teams from around the world to do the same.
+As a visual guide for when to use which tools in their digital infrastructure, fully-remote company [Doist](https://doist.com) created a [Pyramid of Remote Team Communication Tools](https://blog.doist.com/remote-team-communication-tools/) that has not only made their company operations more efficient, but also inspired all-remote teams from around the world to do the same.
 
 **Resource:** [6 Reasons Your Team Needs a Communication Charter](https://www.workplaceless.com/blog/communication-charter-reasons-vital-team)
 {{% /details %}}
@@ -188,9 +188,9 @@ To create stronger psychological safety in a virtual-first team, try communicati
 
 Often, the polite feeling of "I don't want to step on anyone's toes," can contribute to stifled contributions, which is a direct contradiction to [GitLab's mission](/handbook/company/mission/). To foster a company culture that encourages employees to take initiative in driving positive change, the organization adopted a ["short toes"](/handbook/values/#short-toes) operating principle that empowers team members to contribute to projects and objectives outside of their direct domain.
 
-**Example:** [Help Scout Reminds Employees to "Assume Miscommunication Over Malice"](www.helpscout.com/blog/asynchronous-communication-remote-teams/)
+**Example:** [Help Scout Reminds Employees to "Assume Miscommunication Over Malice"](https://www.helpscout.com/blog/asynchronous-communication-remote-teams/)
 
-During employee onboarding, [Help Scout](www.helpscout.com) teaches new team members that if they ever feel like their integrity is being questioned, to assume it's a communication misfire, and not because their team member actually thinks they're bad at their job. It helps to remind staff that the way people share concerns or feedback is often informed culturally, and critical feedback is rarely personal.
+During employee onboarding, [Help Scout](https://www.helpscout.com) teaches new team members that if they ever feel like their integrity is being questioned, to assume it's a communication misfire, and not because their team member actually thinks they're bad at their job. It helps to remind staff that the way people share concerns or feedback is often informed culturally, and critical feedback is rarely personal.
 
 **Resource:** [What is Psychological Safety at Work?](https://www.ccl.org/articles/leading-effectively-articles/what-is-psychological-safety-at-work/) (article)
 {{% /details %}}

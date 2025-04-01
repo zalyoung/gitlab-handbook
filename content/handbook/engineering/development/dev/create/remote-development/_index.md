@@ -40,7 +40,13 @@ The following people are permanent members of the Remote Development Engineering
 | Category                 | DRI                                     |
 |--------------------------|-----------------------------------------|
 | Workspaces                | {{< member-by-name "Vishal Tak" >}}     |
-| Web IDE                  | {{< member-by-name "Paul Slaughter" >}} |
+| Web IDE                  | {{< member-by-name "Enrique Alcántara" >}} |
+
+### 📚 Architecture Design Document
+
+Design documents are the primary artifact that the architecture design workflow revolves around. A design document describes a technical vision and a set of principles that will guide feature implementation, as we move forward. It acts as guardrails to keep team aligned.
+
+- [Workspaces](../../../../architecture/design-documents/workspaces/_index.md)
 
 ### 🎓 New Hires
 
@@ -56,7 +62,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 ### 🗣️ Capturing Customer Engagements
 
 To improve our understanding and traceability of customer needs and to ensure followups action items are systematically done, we want to capture customer engagement notes in a SSoT.
-Please use the confidential issues below to capture all customer engagements for the two feature categories:
+Please use the confidential issues below to capture all customer engagements for the feature categories:
 
 - [Web IDE Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/474518)
 - [Workspaces Customer Engagements](https://gitlab.com/gitlab-org/gitlab/-/issues/473627)
@@ -71,6 +77,18 @@ We highly value user feedback! Please use the epics below to capture feedback an
 - [Workspaces User Feedback & Insights](https://gitlab.com/groups/gitlab-org/-/epics/12601)
 
 For non-team members, feel free to create issues in these epics if you have general feedback or suggestions. If you have feedback related to existing or ongoing features, please drop a comment in the appropriate epic or issue.
+
+### 🤝 Customer Collaboration Issues Dashboard
+
+At times, it is required to create private collaboration projects under https://gitlab.com/gitlab-com/account-management to collaborate with the customers on their needs. For such issues, add the appropriate labels so that they show up in our dashboard mentioned below.
+
+Use the comment template to apply the approrpiate labels for the feature categories:
+
+- Workspaces - `/label ~"Category:Workspaces" ~"customer-collaboration"`
+
+You can find the customer collaboration issues dashboard for the feature categories:
+
+- [Workspaces](https://gitlab.com/gitlab-org/gitlab/-/issues/517442)
 
 ### Group Metrics Dashboards
 
@@ -100,7 +118,7 @@ The table below briefly outlines the objectives and key details of regular team 
 
 ### 🖖 Weekly EM Updates
 
-Each week the group EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/?sort=title_asc&state=all&label_name%5B%5D=Weekly%20Team%20Announcements&first_page_size=20).
+Each week the group EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-com/create-stage/remote-development/-/issues/?sort=created_date&state=all&label_name%5B%5D=Weekly%20Team%20Announcements&first_page_size=20).
 
 ### 😷 Issue Workflow Hygiene
 
@@ -153,8 +171,8 @@ The Remote Development group has modified parts of the [Plan](/handbook/product-
 
 The crux of these changes is focused around the following process phases:
 
-1. "High Level Validation and Planning". This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development-flow/#validation-goals--outcomes) before we can start refining and prioritizing issues.
-1. The "Pre-Iteration Planning Meeting", or "Pre-IPM". This is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal of the Pre-IPM is to ensure that all issues which are to be prioritized in the upcoming iteration(s) are ready for the wider team to briefly discuss and estimate in the next IPM.
+1. "High Level Planning". This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development-flow/#validation-goals--outcomes) before we can start refining and prioritizing issues.
+1. The "Async Refinement Process". This is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal of the refinement is to ensure that all issues which are to be prioritized in the upcoming iteration(s) are ready for the wider team to briefly discuss and estimate in the next IPM.
 1. The "Iteration Planning Meeting", or "IPM". This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning).
 
 These components allow us to provide realistic velocity-based estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
@@ -205,114 +223,90 @@ NOTE: All issues in this process _must_ be assigned the `~Category:Workspace` or
 
 ```mermaid
 graph TD;
-  S[issue created] -->|"New issue is added to an epic, and '(workspaces|webide)-workflow::unprioritized' label is applied"| V[High Level Validation and Planning]
-  V -->|"'Next 1-3 Releases' milestone is applied to higher-priority issues"| R[Pre-IPM - Async Refinement]
-  R -->|"Unprioritized issues with 'Next 1-3 Releases' milestone are assigned for refinement"| P[Pre-IPM - Sync prioritization]
-  P -->|"Refined issues are prioritized into '(workspaces|webide)-workflow::prioritized'"| I[IPM]
-  I -->|"'(workspaces|webide)-workflow::prioritized' issues are discussed and estimated by the entire team"| N[Next]
-  N -->|"Issue is assigned to a specific release based on its calculated iteration"| E[Development proceeds for issue]
+  S[Feature Inception] -->|"New epic is created, and '(workspaces|webide)-workflow::unprioritized' label is applied"| V[High Level Planning]
+  V -->|"Epic is prioritized into the roadmap and on the epic board by PM adding '(workspaces|webide)-workflow::prioritized' label "| R[Async Refinement]
+  R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
+  P -->|"Epics marked refined have all of its issues weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
+
+  I --> N[Milestone Planning]
+  I --> D[Development]
+
+  N -->|"EM/PM will plan for the next milestone and\nassign %XX.X labels to issues that are likely to make the next release cycle."| E1[Planning Issue Published]
+  D -->|"When work starts on the epic, all of its child issues\nare labelled '(workspaces|webide)-workflow::prioritized' and 'Next 1-3 Releases'"| E2[Development Release]
+
 ```
 
-#### 1. High Level Validation and Planning
+#### 1. Feature Inception
 
-**Process:**
+Ideas can come from anywhere and anyone. If you have an idea...
 
-**TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
+1. Capture it in an issue under the [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/12601) or [Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/10543) User Feedbback & Insights epic.
+1. Pre-fix the issue title with "Feedback:..." or "Idea:..."
+1. Add this as a topic of discussion on the [Workspaces](https://docs.google.com/document/d/1Xfr5YHdStC7_3kVAognj0SxbXlcavj2ofgp1mH2zH4U/) or [Web IDE](https://docs.google.com/document/d/18l9wI2tRcFgvX8nJfmO3qVG9-smEQL0VwDh5aOOZj0s/) High Level Planning agenda
 
-1. All higher-priority issues should be [contained in the category epic or one of its sub-epics](https://gitlab.com/groups/gitlab-org/-/epics/7419)
-1. They should all have the `~(workspaces|webide)-workflow::unprioritized` label assigned.
-1. All higher-priority issues should be assigned to the **[`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues)**.
-1. Issues which are not a priority to finish within the `%"Next 1-3 releases"` may have the `%"Next 4-7 releases"` or `%"Next 7-13 releases"` release applied, or alternately, they can be assigned to `%Backlog` or `%Awaiting Further Demand`.
-1. Issues in `~(workspaces|webide)-workflow::unprioritized` MUST NOT be left without a release applied. This should be enforced by automation. Use [this issue search to identify Workspace issues which are missing a milestone](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=Category%3AWorkspaces&milestone_title=None&first_page_size=100)
+#### 2. High Level Planning
 
-**Explanation:**
+The **High Level Planning** meeting is an open forum where new and ongoing work is identified, discussed, and prioritized. Team members can propose topics by adding them to the agenda in advance. The meeting typically covers:
 
-This process identifies and validates higher-priority issues to be worked on in the upcoming releases. It is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), and should consist of many of the same steps and processes.
+- **New Feature Ideas**: Proposals for new work to be considered for the roadmap.
+- **Roadmap Adjustments**: Reordering, shifting, or reprioritizing ongoing work.
+- **Escalation of Bugs/Technical Debt**: Issues that need urgent attention or adjustments to the timeline.
 
 In addition to validating features, this process can also result in Engineering identifying high-priority issue which are necessary to [address Technical Debt or "Friction"](https://www.mechanical-orchard.com/insights/friction-over-debt).
 
-There may be concerns about over-committing too many issues to the `%"Next 1-3 releases"` release. However:
+- **Identify and Discuss Topics:** Team members are encouraged to propose any relevant topics in advance and discuss them during the meeting.
 
-1. If we are being healthy and diligent about following the Pre-IPM process **_every week_** as defined, we should be reviewing **_ALL_** issues which have the `%"Next 1-3 releases"` during every Pre-IPM, and moving them to `~"(workspaces|webide)-workflow::prioritized"` .
-1. If we don't get to them one week, we should decide how to deal with it - either agree to do them async in the next week, schedule an extra Pre-IPM, or commit to ensuring we finish reviewing them in next week's Pre-IPM.
-1. Then, during the weekly IPM, per the process defined above, these issues will be weighted and prioritized, and have their release changed from `%"Next 1-3 releases"` to a specific release, depending on what iteration they fall into (and we can always give ourselves a "buffer" by assuming, for our purposes, that only things slated to be completed by a certain time will be likely to be in the release, e.g., everything slated to be completed in the 2nd iteration of the month, which is a ~1+ week buffer before the actual release is cut).
+- **Prioritize Work:** The meeting serves to clarify the most important work and make decisions on what should take priority.
 
-See the [following discussion thread](https://gitlab.com/gitlab-org/create-stage/-/issues/13151#note_1417052962) for more context.
+**Post-Meeting Actions:**
 
-#### 2. Pre-Iteration Planning Meeting
+- **Roadmap Assessment:** After the meeting, the Product Manager will assess the proposed changes and update the epic board(s), which serves as the source of truth for work prioritization.
 
-**TL;DR:**
+- **Epic Creation and Prioritization:** Features will be converted into epics and the Product Manager will determine the order of feature work and mark upcoming work with the `~"(workspaces|webide)-workflow::prioritized"` label.
 
-- **Async phase - Refinement:**
-  - **Engineering Manager: Assign someone to refine each unrefined `(workspaces|webide)-workflow::unprioritized` issue which has the `%"Next 1-3 releases"` milestone using the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Workspaces%20Category%20-%20issue.md)**
-  - **Refinement Assignees: Adequately refine the issue using the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Workspaces%20Category%20-%20issue.md), then apply the `refined` label**
-- **Sync phase - Prioritization: Product and Engineering leaders meet to appropriately prioritize each `refined` issue into the `(workspaces|webide)-workflow::prioritized` lane on the Iteration Planning board.**
+- **Board Order Guidelines:** Please avoid changing the order of items on the epic board without consulting the Engineering Manager or Product Manager first.
 
-##### Async Phase of Pre-IPM Process - Refinement
+#### 3. Async Refinement Process
 
-1. Identify all issues which:
-   1. Have the `~"(workspaces|webide)-workflow::unprioritized"` **AND**
-   1. Have the `%"Next 1-3 releases"` milestone applied (optionally include additional milestones for next `3-4`/`4-7` releases, if these are being used) **AND**
-   1. Do **NOT** yet have the `~refined` label
-1. This can be done by a direct search:
-   1. Workspace: [direct search for `Label is ~workspaces-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=workspaces-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&amp;not%5Blabel_name%5D%5B%5D=refined&first_page_size=100)
-   1. Web IDE: [direct search for `Label is ~webide-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=webide-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&amp;not%5Blabel_name%5D%5B%5D=refined&first_page_size=20).
-1. Assign each of these issues to an appropriate team member to be refined, and leave a comment on the issue mentioning the team member and linking to
-   [Async Phase of Pre-IPM Process - Refinement](#async-phase-of-pre-ipm-process---refinement)
-   This selection process can be whatever works for the team, but in general issues should be refined by someone who has the knowledge and availability
-   to refine them properly and promptly. If there are questions, ask for help or reassign it to someone else.
-1. The assignee should use the [Workspace issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Workspaces%20Category%20-%20issue.md) to refine the issue. The refinement should ensure
-   that the description of each prioritized issue is complete, and contains enough information for the team to review, understand
-   and estimate it during the next IPM, in less than 5-10 minutes, without extensive debate/discussion.
-1. There should be no `TODO:` comments left in the description from the template once refinement is complete. If a section from the template is not applicable, delete it.
-1. If the refinement uncovers additional scope/complexity, the issue should be broken down into smaller issues, which
-   are then refined individually. Optionally, an epic may be created to organize the work across multiple issues.
+The **Async Refinement** process is designed to prepare upcoming work efficiently focusing on issue breakdowns and identifying any unknows of implementation.
 
-##### Sync Phase of Pre-IPM Process - Prioritization
+**Key Principles:**
 
-1. During each Pre-IPM meeting, we will _temporarily_ filter the Iteration Planning board on the `~refined` label,
-   so that only refined issues appear in the `~"(workspaces|webide)-workflow::unprioritized"` list. _Make sure you don't save this filter to the defualt board settings_
-1. The goal of each Pre-IPM sync meeting will be to prioritize all of these issues into the `~"(workspaces|webide)-workflow::prioritized"` list, based on their
-   relative importance, whether they are blocking other issues, etc. They are prioritized by dragging them into the appropriate order in the `~"(workspaces|webide)-workflow::prioritized"` list, with the highest-priority issues being at the top, and the lowest-priority issues being at the bottom.
-1. After an issue has been moved to the `~"(workspaces|webide)-workflow::prioritized"` list, it should be assigned to the **current `Iteration` of the `Iteration Cadence`**.
-   We will eventually create an automation for this, but for now it must be done manually. The easiest way to do this is to search for `RD` in the `Iteration` field,
-   and pick the top-most iteration. Then, the `Iteration Cadence` feature functionality will handle automatically rolling over any incomplete issues to the next
-   iteration once the current iteration ends. Do _NOT_ assign it to a future iteration, only the current iteration. We do this because of limitations in the
-   GitLab Iteration feature which are incompatible with this process, and instead we rely on the
-   [GitLab Velocity Board Chrome Extension](#gitlab-velocity-board-chrome-extension) to automatically split the actual current iteration
-   in the database into multiple future "virtual" iterations based on dynamic velocity calculations.
+- **Epic Board:** The epic board organizes and prioritizes upcoming work, following a color scheme to reflect each epic’s status.
+  - <span style="color:#1068bf">Blue</span>: Default color for new epics that need refinement.
+  - <span style="color:#f3ad5d">Apricot</span>: Indicates that an epic is fully refined and ready for weighing in the next planning stage.
+  - <span style="color:#4dd787">Mint</span>: Used after the **Iterative Planning Meeting** once all issues within an epic have been weighed and finalized for execution.
 
-**Explanation:**
+- **Just-in-Time Planning:** We refine only the next 1-2 epics to avoid over-preparing, which helps ensure epics remain relevant when work begins. If these are refined, no further refinement is necessary.
 
-The "Pre-Iteration Planning" (Pre-IPM) meeting prepares for the Iteration Planning Meeting. It is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow.
+**Refinement Process:**
 
-During the Pre-IPM, the team will collaborate on creating/refining, organizing, and clarifying all issues which are to be prioritized for the upcoming iteration(s). This will normally involve Product and Engineering leaders on the team, but may also involve Design or other team members depending on the nature of the issues involved. The goal is to ensure that all issues which have been identified as a priority for the upcoming releases are properly refined, curated, prioritized, and ready for the wider team to briefly discuss and estimate in the next IPM.
+1. **Identify Epics in Need of Refinement:**
 
-If a single piece of work spans multiple projects/repos, there should be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
-tasks.
+   - Look for epics marked in <span style="color:#1068bf">blue</span> on the epic board.
 
-**QUESTION: Why isn't there a `~(workspaces|webide)-workflow::refined` phase instead of using the `~refined` label?**
+1. **Break Down the Epic:**
+   - Divide the epic into smaller, actionable issues.
+   - Define the work necessary to meet the epic’s acceptance criteria.
 
-For a few reasons:
+1. **Mark as Refined:**
+   - Once refined, change the epic color to <span style="color:#f3ad5d">apricot</span> to indicate it is ready for weighing.
+   - Add the label **"refined"** to signal readiness.
 
-1. We want to keep the main process and board simple and easy to understand. The three columns for `unprioritized`, `prioritized`, and `done` phases
-   are intuitive and self-explanatory. Also, the movement between `unprioritized` and `prioritized` is a sync process, which ensures the team leadership
-   are all on the same page about current priorities.
-1. The refinement and prioritization process may vary among different teams that use this process in the future. Keeping the three core phases simple
-   means that the basic process and board approach can still be used with simpler or more complex refinement/prioritization processes.
-1. Finally (and most importantly from a pragmatic perspective), the implementation of the logic for velocity and iteration calculations on the board is
-   much simpler if we enforce a standardized three-phase/three-column process and UI.
+1. **Next Steps - Iterative Planning Meeting:**
+   - Following refinement, epics enter the **Iteration Planning Meeting** where all issues within an epic are weighed.
+   - After this stage, epics are marked <span style="color:#4dd787">mint</span> to indicate they are fully weighed and ready for execution.
 
-#### 3. Iteration Planning Meeting
+#### 4. Iteration Planning Meeting
 
-**Process:**
+The **Iteration Planning Meeting** is a collaborative session where the team reviews and weighs issues within epics marked as <span style="color:#f3ad5d">apricot</span> on the epic board. This process ensures that each refined epic is fully understood, in scope, and aligned with the team’s goals.
 
-**TL;DR: _As a team_, briefly discuss then estimate each prioritized issue.**
+**Meeting Objectives:**
 
-1. In each the IPM meeting, all newly prioritized issues in the `~"(workspaces|webide)-workflow::prioritized"` lane of the [Workspace Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620) or [Web IDE Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/7440987) are reviewed by the team. The board should be unfiltered other than the standard `~"Category:Workspace"` or `~"Category:Web IDE"` label.
-1. For each newly-prioritized issue, the facilitator reads the description, and the team **_briefly_** discusses the issue. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned.
-    1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the `~"(workspaces|webide)-workflow::unprioritized"` list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
-1. Issues which are prioritized in the upcoming 1-2 iterations should be assigned to individual(s) at this point, to ensure it gets worked on and not lost.
+- **Review and Weigh Issues:**
+
+  - For each issue, the facilitator reads the description, and the team **_briefly_** discusses the issue and clarifying any uncertainties. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned. See[What Weights to Use](#-what-weights-to-use) for more details on weights.
+  - If there are other prioritized issues that have not yet been weighed, these are also reviewed and weighed during the meeting.
 
 **Async Process**
 
@@ -349,21 +343,30 @@ This allows you make following Async IPMs faster by standardizing the configurat
 
 **Explanation:**
 
-The "Iteration Planning Meeting", or "IPM" meeting is a weekly process where a team reviews the backlog and the current iteration status, estimates and prioritizes work for the next iteration, and uses issues as the single source of truth for discussions and progress. It is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning).
+**Async Weighing Option:**
 
-The goal of the IPM is to ensure all issues for the upcoming iteration have been discussed, and [estimated with weights as a team](#-what-weights-to-use). Then, each issue will be worked on, and if there are commits to be made as part of the work, there should be a 1-to-1 relationship between the issue and MR.
+- Weighing can also be done asynchronously through the `#remote_development_async_ipm` Slack channel.
+- To initiate async weighing, post the issue that needs to be weighed along with a [Polly poll](https://www.polly.ai/help/slack/creating-polls) to gather input.
 
-The iteration cycle is one week long, and each category team maintains a separate dedicated board for tracking their progress - [the Workspace Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620) and [the Web IDE Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/7440987).
+This structure allows for both synchronous and asynchronous participation, enabling thorough preparation and alignment on upcoming work.
 
-#### 4. Assigning prioritized issues to specific releases based on calculated iterations
+#### 5. Milestone Planning & Starting Development
 
-TODO: This can be automated in the future by adding functionality to the chrome extension. For now, it will be a manual process.
+TODO: Assigning prioritized issues to specific releases based on calculated iterations can be automated in the future by adding functionality to the chrome extension. For now, it will be a manual process.
 
-**TL;DR: Assign issues to specific releases based on their calculated iteration**
+The **Milestone Planning & Starting Development** process is used to plan issues for development in upcoming releases and to align team efforts with milestone.
 
-At this point, once all prioritized issues have been estimated, with the use of the [GitLab Velocity Board Extension](https://gitlab.com/cwoolley-gitlab/gl-velocity-board-extension) we will be able to know how they break down into future iterations.
+**Epic and Issue Setup:** When starting work on a new epic, all child issues are labeled assigned the milestone **`%"Next 1-3 Releases"`** to indicate they are prioritized for near-term development.
 
-Then, based on the dates of calculated iterations, we can reassign the issues from the `Next 1-3 releases` milestone into specific milestones.
+If any **unplanned work or issues need to be added to an active milestone, discuss them with the EM beforehand**, as they may impact delivery projections and milestone commitments.
+
+**Milestone Planning and Creating Planning Issue**:
+
+1. Before each milestone begins, the Engineering Manager along with Product Manager reviews and assigns issues for the upcoming release based on the team’s velocity. Specific milestone number `%XX.X` to designate them as part of the planned release.
+
+1. A **Planning Issue** is automatically created two weeks before start of the new release cycle. This issue is populated with relevant details to guide the team through the milestone. You can view and access all active Planning Issues [here](https://gitlab.com/gitlab-com/create-stage/remote-development/-/issues/?sort=updated_desc&state=opened&search=planning%20issue&first_page_size=50).
+
+This structure enables smooth planning, tracking, and alignment of development work within each milestone, ensuring work progresses as planned and within scope.
 
 ### Example Lifecycle for a Feature Issue
 
@@ -373,15 +376,30 @@ Then, based on the dates of calculated iterations, we can reassign the issues fr
    Note that the issue description may be incomplete/unrefined and high-level at this point.
 1. Product decides the issue is a high priority, so they apply the `%"Next 1-3 Releases"` milestone to signal this.
 1. As part of the async Pre-IPM process, someone is assigned to refine the issue, by finishing filling out the issue template, then applying the `~refined` label
+1. During the refinement process, consider documentation for the feature. If needed, add the requirements and the `~documentation` and `~Technical writing` labels to the issue.
+   For question and assistance, tag your assigned Technical Writer.
 1. As part of the sync Pre-IPM meeting, product and engineering leadership move the refined issue to the `~(workspaces|webide)-workflow::prioritized` list,
    in the appropriate position based on its priority relative to other issues.
 1. In the sync IPM meeting, the wider team discusses and estimates the issue, and it is assigned to whoever will do the work.
 1. Once the priority and weight are determined, the current velocity will tell us what iteration the issue should be completed in, and a specific
    release milestone can be assigned to the issue based on that.
-1. The assignee opens an MR for the issue, ensures that the issue and MR are cross-referenced on the first lines of their descriptions, and
-   begins work on the MR.
-1. When the work is completely done - i.e., the MR is reviewed and merged, the feature is verified and tested in production, etc.,
+1. The assignee opens an MR for the issue and ensures that the issue and MR are cross-referenced on the first lines of their descriptions.
+1. While the feature implementation is in progress, the assignee creates a documentation MR that follows the appropriate [topic type](https://docs.gitlab.com/development/documentation/topic_types/) format and [style guide](https://docs.gitlab.com/development/documentation/styleguide/).
+1. The documentation MR is reviewed by the Technical Writer, and merged along with or shortly after the feature implementation MR.
+1. When the work is completely done, for example when the feature MR is reviewed and merged, the documentation is published, the feature is verified and tested in production, etc.,
    then the issue is closed, and moved to the `~(workspaces|webide)-workflow::done` list.
+
+**QUESTION: Why isn't there a `~(workspaces|webide)-workflow::refined` phase instead of using the `~refined` label?**
+
+For a few reasons:
+
+1. We want to keep the main process and board simple and easy to understand. The three columns for `unprioritized`, `prioritized`, and `done` phases
+   are intuitive and self-explanatory. Also, the movement between `unprioritized` and `prioritized` is a sync process, which ensures the team leadership
+   are all on the same page about current priorities.
+1. The refinement and prioritization process may vary among different teams that use this process in the future. Keeping the three core phases simple
+   means that the basic process and board approach can still be used with simpler or more complex refinement/prioritization processes.
+1. Finally (and most importantly from a pragmatic perspective), the implementation of the logic for velocity and iteration calculations on the board is
+   much simpler if we enforce a standardized three-phase/three-column process and UI.
 
 ### Relationship of Issues to MRs
 
@@ -451,14 +469,27 @@ To assign weights to issues effectively, it's important to remember that issue w
 If a task is too large, has too many unknowns, or requires proof of concept (POC), it should be broken down into smaller investigation tasks or POC issues. These tasks help clarify the scope, reduce risks, and identify the necessary steps to proceed with implementation and ideally should fit into a single milestone.
 
 1. **Create an Investigation Issue:**
-   - **Purpose:** Research, investigate, and document or breakdown the necessary work.
+   - **Purpose:** Research, investigate, and document or breakdown the necessary work. Please make sure to **define the core question or problem** you’re investigating.
    - **Weight:** Default to 3 for investigations, POCs, or breakdown tasks. If a different weight is needed, discuss it with PM/EM/Team stakeholders.
    - **Label:** Assign the ~spike label to the issue.
-   - **Updates:** Provide an async weekly update in the investigation issue.
-   - You're allowed to adjust the weight dynamically to reflect ongoing efforts if they differ from initial estimates as new information becomes available [see [Responding to change over following a plan](https://agilemanifesto.org)].
+   - **Updates:**  Investigations are capped at **3 working days of focused effort**.
+     - On Day 3 or sooner, investigator shares findings and proposed next steps. Consider using a sync meeting to align with key stakeholders and make a decision. If a meeting is not feasible, a short recorded video summarizing findings is acceptable.
+   - Depending on the feedback from the updates, we can decide to allocate more time to these investigations or settle for something that works based on the information we have.
 
 1. **Break Down and Close:**
    - Once the investigation task is complete, document the findings and break down the work into actionable refined issues.
+   - Close the investigation issue.
+
+### Should bugs be estimated?
+
+There are differing opinions on this in agile philosophy ([1](https://www.reddit.com/r/scrum/comments/n4uhl5/estimating_bugsdoes_it_matter/), [2](https://medium.com/agilelab/estimating-bugs-yes-or-no-cbfe1bc25db1)). 
+
+On our team, we have decided that bugs should not be estimated. Here's why:
+
+- The point of estimating weight in a velocity-based process is to help predict the rate at which a team can expect user value be delivered.
+- From that perspective, bugs should not be estimated, because the "user value" was delivered by the original feature, which _did_ have a weight.
+- But fixing a bug isn't adding any new user value, it's just "finishing" delivery of the user value which was already accounted for by the original feature. So, they shouldn't get a weight.
+- Now, if it's a huge "bug" in the category of "we got this feature entirely wrong and need to rewrite it significantly, and it will take a lot of effort", then that should be considered new feature work, not a "bug". And it should be refined and broken down into weighted issues, just like all feature work.
 
 ### 🧹 Follow-up issues which span multiple releases
 
@@ -602,7 +633,7 @@ TODO: None of these are set up yet for the Web IDE category and `webide-workflow
 | <a id="automation-05">05</a> | Ensure closed issues are in the correct state | Every Issue in `~"Category:Workspace"` which is closed must have the `~workspaces-workflow::done` label applied. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/remote-development/workspaces//workflow-05.yml) |
 | <a id="automation-06">06</a> | Sync Workspace workflow and GitLab workflow labels | 1. Issues in `~workspaces-workflow::unprioritized` but with no GitLab workflow label should have `~"refined"` assigned. <br> 2. Unstarted issues in `~workspaces-workflow::prioritized` but with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/remote-development/workspaces/workflow-06.yml) |
 | <a id="automation-07">07</a> | Ensure all prioritized issues have a milestone assigned | All issues with `~workspaces-workflow::prioritized` but no milestone should have `%"Next 1-3 releases"` milestone assigned. | TODO: implement |
-| <a id="automation-08">08</a> | Ensure all issues with `~workspaces-workflow-unprioritized` have a milestone assigned | All issues with `~workspaces-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section](#1-high-level-validation-and-planning), and instructions that one of the following milestones must be assigned to all issues in `~workspaces-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
+| <a id="automation-08">08</a> | Ensure all issues with `~workspaces-workflow-unprioritized` have a milestone assigned | All issues with `~workspaces-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the "1. High level validation and planning section", and instructions that one of the following milestones must be assigned to all issues in `~workspaces-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
 | <a id="automation-09">09</a> | Apply correct ~workspaces-workflow label to reopened issues | Re-opened issues which are open but in `~workspaces-workflow::done` should have `~"workspaces-workflow::prioritized"` assigned. | TODO: implement |
 | <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Workspace"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See <https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/> <br> - Every Issue in `~"Category:Workspace"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See <https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/> | TODO: implement |
 | <a id="automation-11">11</a> | Automate Label Assignment for Ignored Issues | Issues with the `type::ignore` label should have the `workspaces-workflow::ignored` label assigned. | TODO: implement |

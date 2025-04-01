@@ -10,7 +10,7 @@ The Infrastructure Department enables GitLab (the company) to deliver a single D
 The Infrastructure Department does this by focusing on **availability**, **reliability**, **performance**, and **scalability** efforts.
 These responsibilities have cost efficiency as an additional driving force, reinforced by the properly prioritized [**dogfooding**](#dogfooding) efforts.
 
-Many other teams also contribute to the success of the SaaS platform because [GitLab.com is not a role](/handbook/company/structure/#gitlabcom-isnt-a-role).
+Many other teams also contribute to the success of the SaaS platform.
 However, it is the responsibility of the Infrastructure Department to drive the ongoing evolution of the SaaS platform, enabled by platform observability data.
 
 ## Getting Assistance
@@ -32,9 +32,9 @@ Integral part of this vision is to:
 
 ## Direction
 
-The direction is accomplished by using [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/).
+The direction is accomplished by using Objectives and Key Results (OKRs).
 
-Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/core_platform/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatves across both Infrastructure and Stage Groups needed to address these gaps.
+Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/core_platform/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatives across both Infrastructure and Stage Groups needed to address these gaps.
 
 {{% include "includes/we-are-also-product-development.md" %}}
 
@@ -44,61 +44,33 @@ Other strategic initiatives to achieve this vision are driven by the needs of en
 
 ```mermaid
 flowchart LR
-    I[Infrastructure]
+    I[Infrastructure Platforms]
     click I "/handbook/engineering/infrastructure/"
 
-    I --> TPM[Technical Program Management]
-    click TPM "/handbook/engineering/infrastructure/technical-program-management/"
-
-    I --> EP[Engineering Productivity]
-    click EP "/handbook/engineering/infrastructure/engineering-productivity/"
-    I --> C[Core Platform]
-    click C "/handbook/engineering/infrastructure/core-platform/"
-    I --> EA[Engineering Analytics]
-    click EA "/handbook/engineering/quality/engineering-analytics/"
-    I --> TP[Test Platform]
-    click TP "/handbook/engineering/infrastructure/test-platform/"
-    I --> SP[SaaS Platforms]
-    click SP "/handbook/engineering/infrastructure/platforms/"
-
-    C --> SS[Systems Stage]
-    click SS "/handbook/engineering/infrastructure/core-platform/systems/"
-
-    SS --> GC[Gitaly]
-    click GC "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
-    SS --> Git[Git]
-    click GG "/handbook/engineering/infrastructure-platforms/data-access/git/"
-    SS --> Geo
-    click Geo "/handbook/engineering/infrastructure/core-platform/systems/geo/"
-    SS --> DB[Distribution::Build]
-    click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-    SS --> DD[Distribution::Deploy]
-    click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-
-    C --> DS[Data Stores Stage]
-    click DS "/handbook/engineering/infrastructure/core-platform/data_stores/"
-    DS --> TS[Tenant Scale]
-    click TS "/handbook/engineering/infrastructure/core-platform/tenant-scale/"
-    DS --> Database
-    click Database "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
-    DS --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
-
-    SP --> DE[Delivery]
-    click DE "/handbook/engineering/infrastructure/team/delivery/"
-    DE --> Deployments
-    DE --> Releases
-    SP --> Ops
-    click Ops "/handbook/engineering/infrastructure/team/ops/"
-    SP --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
-    SP --> Scalability
-    click Scalability "/handbook/engineering/infrastructure/team/scalability/"
-    Scalability --> Observability
-    Scalability --> Practices
-
-    SP --> D[Dedicated]
+    I --> DA[Data Access]
+    click DA "/handbook/engineering/infrastructure-platforms/data-access/"
+    I --> D[Dedicated]
     click D "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
+    I --> DE[Developer Experience]
+    click DE "/handbook/engineering/infrastructure-platforms/developer-experience/"
+    I --> PE[Production Engineering]
+    click PE "/handbook/engineering/infrastructure-platforms/production-engineering/"
+    I --> SD[Software Delivery]
+    click SD "/handbook/engineering/infrastructure/team/delivery/"
+    I --> TS[Tenant Scale]
+    click TS "/handbook/engineering/infrastructure-platforms/tenant-scale/"
+
+    DA --> GC[Gitaly]
+    click GC "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
+    DA --> Git[Git]
+    click GG "/handbook/engineering/infrastructure-platforms/data-access/git/"
+    DA --> DF[Database Framework]
+    click DF "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
+    DA --> DO[Database Operations]
+    click DO "/handbook/engineering/infrastructure-platforms/data-access/database-operations/"
+    DA --> DU[Durability]
+    click DU "/handbook/engineering/infrastructure-platforms/data-access/durability/"
+
     D --> E[Environment Automation]
     click E "/handbook/engineering/infrastructure/team/gitlab-dedicated/"
     D --> PSS[Public Sector Services]
@@ -106,13 +78,103 @@ flowchart LR
     D --> Switchboard
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
-    TP --> PE[Performance Enablement]
-    click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
-    TP --> TE[Test Engineering]
-    click TE "/handbook/engineering/infrastructure/test-platform/test-engineering-team/"
-    TP --> TTI[Test and Tools Infrastructure]
-    click TTI "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team/"
+    DE --> EA[Development Analytics]
+    click EA "/handbook/engineering/infrastructure-platforms/developer-experience/engineering-analytics/"
+    DE --> DT[Developer Tooling]
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling/"
+    DE --> FE[Feature Readiness]
+    click FE "/handbook/engineering/infrastructure-platforms/developer-experience/"
+    DE --> PER[Performance Enablement]
+    click PER "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
+    DE --> TG[Test Governance]
+    click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
+
+    PE --> CC[Cloud Connector]
+    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
+    PE --> Foundations
+    click Foundations "/handbook/engineering/infrastructure-platforms/production-engineering/foundations/"
+    PE --> Observability
+    click Observability "/handbook/engineering/infrastructure/team/scalability/"
+    PE --> Ops
+    click Ops "/handbook/engineering/infrastructure/team/ops/"
+    PE --> Runway
+    click Ops "/handbook/engineering/infrastructure/team/runway/"
+
+    SD --> DB[Build]
+    click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    SD --> DD[Deploy]
+    click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    SD --> FR[Framework]
+    click FR "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
+    SD --> RE[Releases]
+    click RE "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
+    SD --> SM[Self-managed]
+    click SM "/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/"
+
+    TS --> Geo
+    click Geo "/handbook/engineering/infrastructure-platforms/tenant-scale/geo/"
+    TS --> Organizations
+    click Organizations "/handbook/engineering/infrastructure-platforms/tenant-scale/organizations/"
+    TS --> Cells
+    click Cells "/handbook/engineering/infrastructure-platforms/tenant-scale/cells-infrastructure/"
 ```
+
+## Technical Roadmap
+
+Infrastructure maintains a [Technical Roadmap](/handbook/engineering/#technical-roadmaps)
+for planning projects over the short (1y), medium (2y), and long term (3y).
+This serves as our strategic compass,
+helping us balance immediate needs with long-term sustainability.
+
+The Technical Roadmap is based on the [Product Roadmap](https://about.gitlab.com/direction/),
+where Product provides the "What" (customer needs) and "Why" (business strategy).
+Engineers then determine the "How" (technical implementation),
+while Engineering Managers plan the "When" (scheduling).
+This comprehensive roadmap emphasizes building high-quality,
+complete features in a sustainable manner.
+
+The Technical Roadmap serves three key purposes:
+
+1. It helps build engineering excellence by addressing critical areas that might not show up in product backlogs,
+   such as technical debt, performance improvements, platform improvements, and system scalability.
+
+1. It enables the department to be proactive rather than reactive.
+   By regularly asking key questions like "Where do we see the biggest instability in our systems?" or
+   "What is generating the most toil?", we can address issues before they become critical problems.
+   This helps maintain our SLOs and keeps our customers happy.
+
+1. It aligns engineering efforts with business goals, ensuring technical improvements drive GitLab's success.
+   Each technical roadmap item is prioritized based on business value and strategic alignment.
+
+### Current State
+
+The Infrastructure Roadmap is maintained as a static site.
+GitLab team-members can review the current technical roadmap,
+at [infra-roadmap.gitlab.com](https://infra-roadmap.gitlab.com/).
+
+**NOTE**:
+The Infrastructure Roadmap is not publicly available as some of the projects and
+initiatives may not be considered [unSAFE](/handbook/legal/safe-framework/).
+
+The site presents the roadmap in a visual manner, showing:
+
+- Dependencies between planned initiatives
+- Filtering options by confidence, stage, or tags
+- Individual roadmaps for each stage within the department
+- Impact analysis through dependency visualization
+
+### Updating the Roadmap
+
+Changes to the Roadmap are made through merge requests to the [`infra-roadmap`](https://gitlab.com/gitlab-com/gl-infra/infra-roadmap/-/tree/main/data) project.
+The data is stored in YAML format, and changes can be made by editing the YAML.
+This allows for version control and collaborative discussion through the merge request process.
+
+Full instructions for making changes to the Infrastructure Roadmap are available
+in [the project's README.md](https://gitlab.com/gitlab-com/gl-infra/infra-roadmap/-/blob/main/README.md#updating-the-roadmap).
+
+Everyone is encouraged to contribute to the roadmap,
+whether proposing new initiatives or making smaller changes
+like updating descriptions or adding links to relevant issues.
 
 ## Design
 
@@ -153,7 +215,7 @@ We have a model that we use to help us support product features. [This model](/h
 
 Infrastructure SREs may be aligned with [stage groups](/handbook/product/categories/#categories-a-z) as [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/).
 
-[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
+[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-platforms).
 
 ## Interviewing
 
@@ -192,6 +254,6 @@ The Infrastructure department hires for a number of different technical speciali
 
 - [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
 - [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
-- [GitLab.com data breach notification policy](/security/#data-breach-notification-policy)
+- [GitLab.com data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy)
 - [Infrastructure careers and internships](career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)

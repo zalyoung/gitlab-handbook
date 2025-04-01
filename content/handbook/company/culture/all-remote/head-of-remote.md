@@ -47,11 +47,11 @@ A sample of questions to be answered by a Head of Remote Work:
 1. Who will be responsible for ensuring that newly-remote workers have healthy, ergonomic [workspaces](workspace/) at home?
 1. Who will ensure that [learning and development](learning-and-development/) principles address the challenges of remote [hiring](hiring/), remote [interviewing](interviews/), remote [onboarding](onboarding/), remote [management](management/), remote promotions, and beyond?
 1. Who will conduct an end-to-end process audit and provide structured replacements for remote-last workflows, such as a reliance on [synchronous meetings](meetings/) for consensus gathering and collaboration?
-1. Who will lead the reevaluation of company [values]({{< ref "remote-values" >}}), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
+1. Who will lead the reevaluation of company [values](/handbook/company/culture/all-remote/remote-values/), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
 1. Who will put a travel strategy in place such that [in-person engagements](in-person/) become a core part of [building company culture](building-culture/)?
 1. Who will revise your company's talent acquisition strategy, creating a clear and concise answer to "What's your stance on workplace flexibility?"
-1. Who will build a visible [talent brand]({{< ref "culture#life-at-gitlab" >}}) demonstrating how remote workers are supported and included? (This will create significant sway in your Glassdoor reviews.)
-1. Who will lead existing executives in [transforming](being-a-great-remote-manager/) their expectations and ways of working, coaching them to model the [unlearning of old habits]({{< ref "candidate-faq" >}}) and embracing new ones in transparent fashion?
+1. Who will build a visible [talent brand](/handbook/company/culture/#life-at-gitlab) demonstrating how remote workers are supported and included? (This will create significant sway in your Glassdoor reviews.)
+1. Who will lead existing executives in [transforming](being-a-great-remote-manager/) their expectations and ways of working, coaching them to model the [unlearning of old habits](/handbook/hiring/candidate-faq/) and embracing new ones in transparent fashion?
 1. Who will ensure that teams have the tools, direction, and coaching they need to [become documentarians](self-service/)?
 1. Who will outline a multi-year remote transformation strategy with quarterly milestones and objectives, coaching a team through iterative change and celebrating small wins along the way?
 1. Who will champion your culture and values, not only to galvanize teams through a pandemic, but excite them by building a more disciplined, cohesive, [asynchronous](asynchronous/), inclusive, and diverse future?
@@ -154,7 +154,7 @@ Below are several recommended areas of study that will prepare you for a remote 
 
 At GitLab, we seek to open source our mastery of remote work in order to equip and empower the next generation of remote work leaders. We encourage those aspiring to fill remote work leadership roles to complete the coursework below and implement GitLab's proven practices into your current organization. In interviews, share completion of these courses and examples of implementing GitLab principles as a means to substantiate your mastery of remote work fundamentals.
 
-1. [GitLab's Remote Work Foundations Certification]({{< ref "remote-certification" >}})
+1. [GitLab's Remote Work Foundations Certification](/handbook/company/culture/all-remote/remote-certification/)
 1. [Remote Team Management](https://www.coursera.org/learn/remote-team-management) (hosted on Coursera)
 
 Prior to the COVID-19 pandemic, there was low supply and low demand for dedicated remote work leadership. In the midst of the pandemic, demand began to rise slowly, while supply remains low.
@@ -176,9 +176,9 @@ While each organization will utilize a remote leader somewhat uniquely, below ar
 Study the links below. They point to various educational sections within the GitLab handbook which will equip you with knowledge to pass the aforementioned certifications.
 
 1. The ability to communicate with [low-context and high precision](effective-communication/#understanding-low-context-communication), particularly with the written word
-1. Deep empathy and an ability to relate to challenges from team members across the globe ([Manager of One]({{< ref "leadership#managers-of-one" >}}))
+1. Deep empathy and an ability to relate to challenges from team members across the globe ([Manager of One](/handbook/leadership/#managers-of-one))
 1. A default to servant leadership, capable of triaging and defining solutions from inbound feedback
-1. Expert storytelling skills to generate understanding and organizational buy-in for significant change management campaigns ([High Output Management]({{< ref "high-output-management" >}}))
+1. Expert storytelling skills to generate understanding and organizational buy-in for significant change management campaigns ([High Output Management](/handbook/leadership/high-output-management/))
 1. Organizational savvy and the ability to garner influence to positively impact the working lives of team members
 1. A native visionary and problem solver who seeks outside perspectives, tools, and workflows to continually evolve an organization's workplace design, culture, and strategy
 1. Propensity to form and foster interdepartmental relationships
@@ -291,4 +291,4 @@ Making remote work well, particularly in companies with colocated roots, is a sh
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

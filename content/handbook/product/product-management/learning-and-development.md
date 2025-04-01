@@ -1,7 +1,6 @@
 ---
 title: Product Management Learning and Development
 description: "This page contains links to internal and external resources that Product Managers at GitLab can use to build their skills."
-canonical_path: "/handbook/product/product-manager-role/learning-and-development/"
 
 ---
 
@@ -442,7 +441,7 @@ _Please contribute your favorite resources here_
 - [John Doerr: Why the secret to success is setting the right goals](https://www.youtube.com/watch?v=L4N1q4RNi9I) (5 min video)
 - [David Skok: SaaS Metrics 2.0 – A Guide to Measuring and Improving what Matters](https://www.forentrepreneurs.com/saas-metrics-2/)
 - [Benefits of OKRs](https://www.whatmatters.com/faqs/benefits-of-okrs)
-- [GitLab - How to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs)
+- [GitLab - How to write OKRs](/handbook/company/okrs/okrs-basics/#how-to-write-okrs)
 - [Ally for OKRs - Overview for Product](https://www.youtube.com/watch?v=hP9yk_PSj2k&feature=youtu.be) (10 min video)
 
 #### Deeper dive

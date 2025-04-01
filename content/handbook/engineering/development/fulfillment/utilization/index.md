@@ -358,7 +358,7 @@ In an effort to raise our confidence of our estimates through shared discussion,
 
 Throughout the estimation process, consider the following GitLab sub-values:
 
-- [Bias for action](/handbook/values/#bias-for-action): the person with more context should help drive the estimation
+- [Bias for action](/handbook/values/#operate-with-a-bias-for-action): the person with more context should help drive the estimation
 - [Everything is in draft](/handbook/values/#everything-is-in-draft): other team members can [propose changes](/handbook/values/#make-a-proposal) to the estimate with an [explanation](/handbook/values/#say-why-not-just-what)
 - [Low level of shame](/handbook/values/#low-level-of-shame): estimations will never be perfect, but we can quickly iterate on an estimate that will be good enough to get us started
 - [Articulate when you've changed your mind](/handbook/values/#articulate-when-you-change-your-mind): as we arrive towards some consensus estimate, clearly articulate that your earlier stance is no longer your current stance
@@ -411,7 +411,7 @@ Depending on the priority of the project or OKR, Frontend engineers are able to 
 
 ## Triage
 
-The following lists are links to Sentry and other tools where we proactively identify and triage Utilization problems. Proactive triage will not only provide for a more secure and robust application, but also provide for a better user experience especially as we iterate on features, reveal features from behind a feature flag, or introduce a refactoring. It leans into our [Bias for action](/handbook/values/#bias-for-action) sub-value and raises our awareness of application performance.
+The following lists are links to Sentry and other tools where we proactively identify and triage Utilization problems. Proactive triage will not only provide for a more secure and robust application, but also provide for a better user experience especially as we iterate on features, reveal features from behind a feature flag, or introduce a refactoring. It leans into our [Bias for action](/handbook/values/#operate-with-a-bias-for-action) sub-value and raises our awareness of application performance.
 
 ### Potential list of places to check
 
@@ -474,7 +474,7 @@ Following a similar process to Milestone Retrospectives, we employ [Iteration Re
 - Look for blockers as natural boundaries for issue/epic breakdown
 - Intentionally cut scope to ensure deliverability. Try to cut scope as early as possible.
 - Lean into using [the Refinement Template](/handbook/engineering/development/fulfillment/#estimation-template) for estimations.
-- Remember to find reviewers/maintainers with domain knowledge and compatible timezones for maximum efficiency - See also [MR review guidelines](/development/code_review.html#domain-experts)
+- Remember to find reviewers/maintainers with domain knowledge and compatible timezones for maximum efficiency - See also [MR review guidelines](/handbook/engineering/workflow/code-review/#domain-experts)
 - Share your proof of concept solutions with others to get feedback early on solutions
 - Consider acceptable partial solutions - cover the majority case; defer the edge cases for the next iteration if possible
 

@@ -30,7 +30,7 @@ The [Support Engineer on-call](/handbook/support/on-call/) is the first responde
 - Act as the next-tier escalation point for emergency pages that get missed (you will be notified automatically by PagerDuty).
 - Respond to new emergency requests by helping the on-call engineer [determine if the situation qualifies as an emergency](/handbook/support/workflows/customer_emergencies_workflows#determine-if-the-situation-qualifies-as-an-emergency) or should be [granted an exception](/handbook/support/workflows/emergency_exception_workflow#exception-criteria)
 - Assist the on-call engineer in difficult communications with the customer,
-  such as [telling them that their request does not qualify as an emergency]({{< ref "customer_emergencies_workflows#communicate-the-priority-downgrade" >}})
+  such as [telling them that their request does not qualify as an emergency](/handbook/support/workflows/customer_emergencies_workflows/#communicate-the-emergency-downgrade)
 - Be aware of ongoing emergencies and assist or lead in our initial response as appropriate
 - During an emergency: find additional staff for subject-matter expertise; replace the on-call engineer if needed; lead any Zoom call(s) as needed; hand off the emergency to the next on-call manager.
 - Find additional staff when there are [multiple emergencies](/handbook/support/on-call/#handling-multiple-simultaneous-emergencies).
@@ -120,7 +120,7 @@ When a STAR is resolved:
 
 ## Finding a Support Manager DRI for an Account Escalation
 
-In case an Account Escalation opens where support involvement is needed, it is the responsibility of the support manager on-call to find a Lead Support Manager. In case this is an ASE account (you can find this in the org notes) please ping Mike Dunninger (AMER), Ilia Kosenko (EMEA) or Wei Meng Lee (APAC). 
+In case an Account Escalation opens where support involvement is needed, it is the responsibility of the support manager on-call to find a Lead Support Manager. In case this is an ASE account (you can find this in the org notes) please ping Mike Dunninger (AMER), Ilia Kosenko (EMEA) or Wei Meng Lee (APAC).
 
 ## Handling mid ticket feedback requesting manager contact during business hours
 

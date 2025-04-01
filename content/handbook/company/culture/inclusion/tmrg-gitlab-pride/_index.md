@@ -15,6 +15,7 @@ To ensure that GitLab is proactive in supporting, retaining, and recruiting from
 
 - [Alex Hanselka](https://about.gitlab.com/company/team/#ahanselka)
 - [Andrew Chapman](https://about.gitlab.com/company/team/#andrwchapman)
+- [Kyle Yetter](https://about.gitlab.com/company/team/#kyetter)
 
 ### Executive Sponsor
 

@@ -42,7 +42,7 @@ The purpose of this process is to streamline receiving and tracking invoices and
 
 ### Legal & Corporate Affairs Expenditure Request Process
 
-This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by LACA. This process does not apply to [equipment](/handbook/finance/expenses/#equipment), [Individual Use Software](/handbook/finance/procurement/personal-use-software/) or other personal reimbursement requests.
+This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by LACA. This process does not apply to [equipment](/handbook/finance/expenses/#equipment), [Individual Use Software](/handbook/finance/procurement/individual-use-software/) or other personal reimbursement requests.
 
 - All expenses / reimbursements must be in accordance with [GitLab's Travel & Expense Policy](/handbook/finance/expenses/).
 - Regardless of the type of expenditure, all requests for use of LACA funds require approval from applicable stakeholders within the LACA Expenditure Request Issue Template.

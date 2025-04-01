@@ -9,11 +9,11 @@ This is a listing of the applications we use at GitLab. If you're looking for th
 
 ### Update tech stack information
 
-Please visit our [Tech Stack main page](https://handbook.gitlab.com/handbook/business-technology/tech-stack-applications/#tech-stack-updates) for instructions on how to request updates to the Tech Stack information.
+Please visit our [Tech Stack main page](/handbook/business-technology/tech-stack-applications/#tech-stack-updates) for instructions on how to request updates to the Tech Stack information.
 
 ### Request Access
 
-If you need to request access for any of the following tools, please refer to and follow the [Access Request process](https://handbook.gitlab.com/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+If you need to request access for any of the following tools, please refer to and follow the [Access Request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
 ## Tech Stack Applications
 

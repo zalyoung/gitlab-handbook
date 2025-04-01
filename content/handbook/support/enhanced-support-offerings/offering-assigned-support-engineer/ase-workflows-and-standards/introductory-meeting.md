@@ -28,9 +28,9 @@ There are only a few goals for this meeting:
 - Begin the relationship building between you and the customers
 - Learn what the customers really want and need from you
 
-## **Optional** Pre-introductory meeting between ASE and CSM
+## **Optional** Pre-introductory meeting between ASE and CSA
 
-Before your introductory call, it's advisable to meet with the CSM you'll
+Before your introductory call, it's advisable to meet with the CSA you'll
 be working alongside. Here are some key points you should go over to ensure
 you're both aligned and can help each other succeed:
 
@@ -42,7 +42,7 @@ during the meeting, as these tips are essential for effective customer-facing
 interactions:
 
 - Avoid assigning labels to colleagues during all interactions, particularly
-those that are customer-facing. For instance, a CSM should refrain from
+those that are customer-facing. For instance, a CSA should refrain from
 making statements like, "This ASE is really good at CI/CD."
   - Such statements can inadvertently influence the customer’s expectations
 and perceptions, potentially leading to misalignment between what is promised
@@ -57,7 +57,7 @@ to maintain professionalism and avoid undermining confidence.
 discuss matters thoroughly before considering the need to involve other
 resources.
 
-## Structure
+## Customer Introductory Meeting Structure
 
 1. Introduce yourself
    1. Tell them your name
@@ -90,8 +90,15 @@ resources.
    1. Determine whether it would make sense to use a
      [collaboration project](../../../../customer-success/csm/customer-collaboration-project.html)
      to track any long-term plans
+1. Agree on a schedule for a regular meeting - either weekly or every other week -
+   to be used for:
+   1. reviewing the work you've done since the previous meeting
+   1. setting priorities for the work you'll do before the next meeting
+   1. agreeing on what you will not do before the next meeting, and whether
+      that work can wait or needs to be done by someone else
+   1. discussing upcoming projects, tasks, changes, time off, etc.
 
-## Tips
+## Customer Introductory Meeting Tips
 
 1. State clearly to the account team when the meeting is being scheduled that
    the ASE will run the meeting and that they will use the entire meeting for
