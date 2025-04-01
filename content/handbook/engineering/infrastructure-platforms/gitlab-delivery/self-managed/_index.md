@@ -17,7 +17,7 @@ The following people are members of the team:
 
 ## Primary Projects
 
-[omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) - This project creates platform-specific, self-contained GitLab packages and images for self-managed consumption in cloud environments and on-premisis hosting.
+[Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab) - This project creates platform-specific, self-contained GitLab packages and images for self-managed consumption in cloud environments and on-premisis hosting.
 
 [Cloud Native GitLab](https://gitlab.com/gitlab-org/build/CNG) provides cloud native containers to deploy GitLab. These containers may be deployed and managed via Helm using [GitLab Charts](https://gitlab.com/gitlab-org/charts/gitlab) or [GitLab Chart-based Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) or [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/operator) on Kubernetes, OpenShift, and Kubernetes compatible container platforms.
 
@@ -29,7 +29,8 @@ The following people are members of the team:
 | Docker All in one GitLab image | [gitlab-org/omnibus-gitlab/docker](https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/docker) | Build Docker images for GitLab CE/EE based on the omnibus-gitlab package |
 | GitLab Helm Chart | [gitlab-org/charts/gitlab](https://gitlab.com/gitlab-org/charts/gitlab) | Cloud Native GitLab Helm Charts |
 | Docker images for GitLab Helm Chart | [gitlab-org/build/CNG](https://gitlab.com/gitlab-org/build/CNG) | Individual images used by GitLab Helm Charts |
-| GitLab Operator | [gitlab-org/cloud-native/gitlab-operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) | The GitLab operator creates and manages GitLab instances/deployments in a container platform such as Openshift or Kubernetes. It will run an any environment that provides native Kubernetes resources including deployments, statefulsets, services, ingress/openshift routes, persistent volume claims, persistent volumes, etc. |
+| Chart-based GitLab Operator | [gitlab-org/cloud-native/gitlab-operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) | GitLab Operator creates and manages GitLab instances in a container platform such as OpenShift or Kubernetes. It will run an any environment that provides native Kubernetes resources. |
+| GitLab Operator | [gitlab-org/cloud-native/operator](https://gitlab.com/gitlab-org/cloud-native/operator) | (In Development) A significant rewrite of the existing Chart-based Operator, aimed at improving user experience and native Kubernetes integration. |
 | Kubernetes Helm Charts index | [charts/charts.gitlab.io](https://gitlab.com/charts/charts.gitlab.io) | Helm charts repository index |
 | AWS images | [AWS marketplace](https://aws.amazon.com/marketplace/pp/B071RFCJZK?qid=1493819387811&sr=0-1&ref_=srh_res_product_title) | AWS image based on the omnibus-gitlab package |
 | Reference Architecture Tester | [gitlab-org/distribution/reference-architecture-tester](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester) | Spins up reference architecture based GitLab deployments using [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and runs QA against them |
