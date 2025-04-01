@@ -99,7 +99,7 @@ When taking over a ticket that has the `out_of_office` tag:
 
 1. Review unassigned tickets for your region from the Global Suppport Ticket View.
 1. Remove the `out_of_office` tag from the ticket.
-1. Set the Zendesk Form `Handover Status` to `Handover Completed`.
+1. Set the Zendesk field `Handover Status` to `Handover Completed`.
 1. Update ticket status and add appropriate comments for any work performed.
 1. After the return date specified in the macro, you can liase with the original engineer to hand the ticket back.  If needed, schedule a knowledge transfer session with the returning engineer.
 
