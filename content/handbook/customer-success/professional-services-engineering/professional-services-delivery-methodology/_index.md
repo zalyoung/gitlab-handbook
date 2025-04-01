@@ -57,8 +57,9 @@ When working within an Iteration/Sprint schedule, there are five components with
 4. Backlog Refinement
 5. Retrospective
 
-When not working within an Iteration schedule, it is still important to communicate the project velocity in order to ensure consistent resource alignment to the Project. This is validated in Stakeholder Planning meeting and the Customer Kickoff. 
-1. _ex. we anticipate to work 40 hours/week for 5 weeks in oder to perform a sucessful upgrade and a seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance_
+When not working within an Iteration schedule, it is still important to communicate the project velocity in order to ensure consistent resource alignment to the Project. This is validated in Stakeholder Planning meeting and the Customer Kickoff.
+
+_ex. we anticipate to work 40 hours/week for 5 weeks in oder to perform a sucessful upgrade and a seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance_
 
 As included in the Iteration 0 guidelines, we ask two weeks notice for any changes in our project velocity expectations. This helps us manage our Project team members' capacity and allocations.
 
