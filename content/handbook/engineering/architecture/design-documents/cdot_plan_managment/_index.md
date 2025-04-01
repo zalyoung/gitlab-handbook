@@ -16,11 +16,9 @@ toc_hide: true
 
 The [GitLab Customers Portal](https://customers.gitlab.com/) is an independent application, distinct from the GitLab product, designed to empower GitLab customers in managing their accounts, subscriptions, and conducting tasks such as renewing and purchasing additional seats. More information about the Customers Portal can be found in [the GitLab docs](https://docs.gitlab.com/ee/subscriptions/customers_portal.html). Internally, the application is known as [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com) (also known as CDot).
 
-GitLab uses [Zuora's platform](../../../../business-technology/enterprise-applications/guides/zuora/) as the SSoT for all product-related information. The [Zuora Product Catalog](https://knowledgecenter.zuora.com/Get_Started/Zuora_quick_start_tutorials/B_Billing/A_The_Zuora_Product_Catalog) represents the full list of revenue-making products and services that are sellable, or have been sold by GitLab, which is core knowledge for CustomersDot decision making. CustomersDot currently has a local cache of the Zuora Product Catalog via the [IronBank](https://github.com/zendesk/iron_bank) gem and [its LocalRecord extension](https://gitlab.com/gitlab-org/customers-gitlab-com/blob/45f5dedbb4fa803d19827472214ea0b5b0ce1861/lib/gem_extensions/iron_bank/local_records.rb#L1).
+GitLab uses [Zuora's platform](../../../../business-technology/enterprise-applications/guides/zuora/) as the SSoT for all product-related information. The [Zuora Product Catalog](https://knowledgecenter.zuora.com/Get_Started/Zuora_quick_start_tutorials/B_Billing/A_The_Zuora_Product_Catalog) represents the full list of revenue-making products and services that are saleable, or have been sold by GitLab, which is core knowledge for CustomersDot decision making. CustomersDot currently has a local copy of the Zuora Product Catalog and refreshes it daily through a scheduled job. However, every time a new Product, Product Rate Plan, or Product Rate Plan Charge is updated or added to the Zuora Product Catalog, additional manual effort is required to make it available in CustomersDot.
 
 CustomersDot uses `Plan` as a wrapper class for easy access to all the details about a Plan in the Product Catalog. Given that the name, price, minimum quantity, and other details of the Plan are spread across the `Zuora::ProductRatePlan`, `Zuora::ProductRatePlanCharge`, and `Zuora::ProductRatePlanChargeTier` objects, traditional access to these details can be cumbersome. This class is very useful because it saves us from having to query for all these details. Additionally, the class helps with the classification of `Zuora::ProductRatePlan`s based on their tier, deployment type, and other criteria used across the app.
-
-CustomersDot keeps a copy of the Zuora Product Catalog and refreshes it daily via a scheduled job. However, every time a new Product, Product Rate Plan, or Product Rate Plan Charge is updated or added to the Zuora Product Catalog, additional manual effort is required to add it to the `Plan` class and configure it.
 
 The main goal of this design document is to improve the architecture and maintainability of the `Plan` model within CustomersDot. When the Product Catalog is updated in Zuora, it should automatically reflect in CustomersDot without requiring app restarts, code changes, or manual intervention.
 
@@ -50,7 +48,7 @@ sequenceDiagram
 
     Note over FTE, LocalDB: One-time setup phase
     FTE->>CDot: Create migration to add HSTORE column
-    CDot->>LocalDB: Apply migration to add classification_metadata HSTORE column
+    CDot->>LocalDB: Apply migration to add custom_fields HSTORE column
     Note over LocalDB: HSTORE column ready to store all custom fields
 
     Note over FTE, LocalDB: Iterative process for each field/set of fields
@@ -66,27 +64,25 @@ sequenceDiagram
     Note over CDot: Later - during scheduled sync
     CDot->>ZuoraAPI: Request ProductCatalog (including new custom fields)
     ZuoraAPI->>CDot: Return ProductCatalog with custom field values
-    CDot->>LocalDB: Refresh local copy, storing field values in classification_metadata
+    CDot->>LocalDB: Refresh local copy, storing field values in custom_fields
     Note over LocalDB: HSTORE column now contains key-value pairs for custom fields
 
     CDot->>CDot: CDot logic can now use these fields from local copy
-    Note over CDot: Replace Plan constants with queries on classification_metadata
+    Note over CDot: Replace Plan constants with queries on custom_fields
 ```
 
 ### New Custom Fields
 
-Collection of fields to be added to the ProductRatePlan in this first iteration:
-
-# Plan Classification Metadata Fields
+Collection of fields to be added to the `ProductRatePlan` in this first iteration:
 
 | Field Name | Data Type | Values | Description |
 |------------|-----------|--------|-------------|
 | **WebDirect__c** | Boolean | `true`, `false` | Indicates whether a plan is available for self-service purchase directly by customers without sales assistance. Plans marked `true` appear in the web store and can be purchased online. |
-| **PlanStatus__c** | String | `active`, `deprecated`, `legacy`, `not_applicable` | Represents the lifecycle stage of a plan: <br>• `active`: Currently sellable and fully supported plans<br>• `deprecated`: Plans being phased out but still available to existing customers<br>• `legacy`: Historical plans maintained only for existing subscriptions<br>• `not_applicable`: Special cases where status concept doesn't apply |
+| **PlanStatus__c** | String | `active`, `deprecated`, `legacy`, `not_applicable` | Represents the lifecycle stage of a plan: <br>• `active`: Currently saleable and fully supported plans<br>• `deprecated`: Plans being phased out but still available to existing customers<br>• `legacy`: Historical plans maintained only for existing subscriptions<br>• `not_applicable`: Special cases where status concept doesn't apply |
 | **IsTrueUp__c** | Boolean | `true`, `false` | Identifies true-up plans, which are special product rate plans used to reconcile usage beyond what was initially purchased. |
 | **IsEcosystem__c** | Boolean | `true`, `false` | Indicates if a plan is part of the GitLab Ecosystem offering. |
 | **IsUsPubSec__c** | Boolean | `true`, `false` | Identifies plans specifically designed for US Public Sector customers. |
-| **AddOnType__c** | String | `ci_minutes`, `storage`, `duo_pro`, `duo_enterprise`, `agile_planning`, `product_analytics`, `amazon_q`, `not_applicable` | Categorizes add-on products that supplement main subscription plans:<br>• `ci_minutes`: Additional CI/CD pipeline minutes<br>• `storage`: Additional repository storage<br>• `duo_pro`: GitLab Duo Pro AI capabilities<br>• `duo_enterprise`: GitLab Duo Enterprise AI capabilities<br>• `agile_planning`: Enterprise Agile Planning features<br>• `product_analytics`: Product analytics capabilities<br>• `amazon_q`: Amazon Q integration<br>• `not_applicable`: Not an add-on product |
+| **AddOnType__c** | String | `ci_minutes`, `storage`, `duo_pro`, `duo_enterprise`, `agile_planning`, `product_analytics`, `amazon_q`, `professional_services`, `not_applicable` | Categorizes add-on products that supplement main subscription plans:<br>• `ci_minutes`: Additional CI/CD pipeline minutes<br>• `storage`: Additional repository storage<br>• `duo_pro`: GitLab Duo Pro AI capabilities<br>• `duo_enterprise`: GitLab Duo Enterprise AI capabilities<br>• `agile_planning`: Enterprise Agile Planning features<br>• `product_analytics`: Product analytics capabilities<br>• `amazon_q`: Amazon Q integration<br>• `professional_services`: Training, consulting, and implementation services<br>• `not_applicable`: Not an add-on product |
 | **CommunityType__c** | String | `education`, `open_source`, `startup`, `not_applicable` | Identifies special pricing programs for specific communities:<br>• `education`: Educational institutions<br>• `open_source`: Open source projects<br>• `startup`: Startup companies<br>• `not_applicable`: Standard commercial plans |
 | **BillingPeriod__c** | String | `monthly`, `annual`, `two_year`, `three_year`, `four_year`, `five_year` (or `1`, `12`, `24`, `36`, `48`, `60`) | Defines the duration of the billing cycle for the plan. Can use either named periods or the number of months. |
 | **Tier__c** | String | `ultimate`, `premium`, `bronze`, `silver`, `gold`, `starter`, `free`, `null` | Represents the feature tier of a plan, with different tiers offering progressively more features:<br>• `ultimate`: Most comprehensive feature set<br>• `premium`: Advanced features<br>• `bronze`/`silver`/`gold`: Legacy tier names<br>• `starter`: Entry-level paid tier<br>• `free`: No-cost tier with limited features |
@@ -111,9 +107,9 @@ class AddClassificationMetadataToProductRatePlans < ActiveRecord::Migration[7.1]
   def change
     enable_extension 'hstore' unless extension_enabled?('hstore')
 
-    add_column :zuora_product_rate_plans, :classification_metadata, :hstore, default: {}, null: false,
+    add_column :zuora_product_rate_plans, :custom_fields, :hstore, default: {}, null: false,
       comment: column_comment
-    add_index :zuora_product_rate_plans, :classification_metadata, using: :gin
+    add_index :zuora_product_rate_plans, :custom_fields, using: :gin
   end
 
   private
@@ -133,7 +129,7 @@ end
 We will iterate over the proposed custom fields picking one field / set of fields at a time and:
 
 1. Create Change Request for EntApps to add the field(s) to Zuora
-2. Transfer the CustomersDot knowledge to the Zuora Product Catalog by populating the field(s) via rake task from CustomersDot
+2. Transfer the CustomersDot knowledge to the Zuora Product Catalog by populating the field(s) through rake task from CustomersDot
 3. Verify the ProductCatalog copy has synced properly (sync can be initiated manually or wait for the scheduled daily sync)
 4. [Behind a feature flag] Replace the usage of `Plan` constants that represent a collection of records that meet a given classification with a call to a method that loads the same collection from the local copy of the Product Catalog leveraging the custom field.
 5. Validate logic and performance in staging
@@ -143,8 +139,8 @@ The following code example illustrates steps 4 from the iteration process descri
 
 ```ruby
 # app/models/zuora/local/product_rate_plan.rb
-scope :web_direct, -> { where("classification_metadata->>'web_direct__c' = 'true'") }
-scope :gitlab_com, -> { where("classification_metadata->>'deployment_type__c' = 'gitlab_dot_com'") }
+scope :web_direct, -> { where("custom_fields->>'web_direct__c' = 'true'") }
+scope :gitlab_com, -> { where("custom_fields->>'deployment_type__c' = 'gitlab_dot_com'") }
 
 # lib/plan_classifier.rb
 module PlanClassifier
@@ -214,7 +210,7 @@ Each feature flag provides a built-in rollback mechanism. If issues are detected
    5. Establish baseline metrics for plan-related operations
 
 2. **Phase 2** (FY2026Q2) In iteration, starting with high-priority constants:
-   1. Transfer CustomersDot knowledge via rake task that populates the custom fields added in the previous iteration
+   1. Transfer CustomersDot knowledge by using a rake task to populate the custom fields added in the previous iteration
    2. Validate that metadata queries return identical results to constant-based approach
    3. Replace constants with metadata queries
    4. Compare performance metrics after implementation
