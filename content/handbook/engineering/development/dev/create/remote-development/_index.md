@@ -147,7 +147,7 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
-- Treat the wider community as the primary audience ([see relevant summary for rationale](/handbook/engineering/development/dev/create/remote-development/community-contributions/#wider-community-as-primary-audience)).
+- Treat the wider community as the primary audience ([see relevant summary for rationale](community-contributions/#treat-wider-community-as-primary-audience)).
 - Provide a meaningful **title** that describes a deliverable result.
   - ✅ `Add a cancel button to the edit workspace form page`
   - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
@@ -166,6 +166,8 @@ To improve the accuracy of our planning and delivery estimates, we've adapted pa
 The goal is not to fully adopt XP or Scrum, but to take the pieces that work for us, mainly around iteration planning and historical velocity tracking. By grounding our estimates in ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) (our team's recent delivery history), we can better align scope to capacity and make informed decisions about what we can ship and when.
 
 This process helps us navigate evolving priorities, reduce planning overhead, and stay transparent about what we’re working on.
+
+### Process Phases
 
 ```mermaid
 graph TD;
@@ -321,59 +323,6 @@ This structure enables smooth planning, tracking, and alignment of development w
 1. The documentation MR is reviewed by the Technical Writer, and merged along with or shortly after the feature implementation MR.
 1. Once the feature MR is merged, documentation is published, and the feature is verified in production, the issue is closed.
 
-### Wider Board Columns
-
-The default width of lists on boards can make the board harder to use, since you see fewer items and have to scroll more.
-
-There is [an open issue to address this](https://gitlab.com/gitlab-org/gitlab/-/issues/15927). In the meantime, though, you can use the following javascript bookmarklet suggested in [this comment on the issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15927#note_214871708), which will make the lists take up the full board width. Just make a bookmark named "Wider board lists" with this as the link:
-
-```text
-javascript:(function(){var el=document.getElementsByClassName('boards-list');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.display='table';}el=document.getElementsByClassName('board');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.border='0';el[i].style.display='table-cell';}el=document.getElementsByClassName('board-inner');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.border='0';}})();
-```
-
-### Relationship of Issues to MRs
-
-<span id="1-to-1-relationship-of-issues-to-mrs" data-message="alias anchor for old links"></span>
-
-We want to enforce that:
-
-1. Every MR is owned by a weighted issue
-
-This is in order to facilitate accurate and granular velocity calculations and issue prioritization under this process.
-The merge request is the atomic unit of deliverable work in most cases, so it must be represented in the prioritization
-and calculations by being owned by one and only one issue.
-
-In order to enforce this via triage-ops automations
-(/handbook/engineering/development/dev/create/remote-development/#automations-for-remote-development-workflow),
-the first line of the issue should have the format: `MR: <...>`:
-
-1. For new issues, the first description line should be: `MR: Pending`
-1. Once an MR is created for the issue and work is started, the first description line of the issue should be: `MR: <MR link with trailing +>`,
-   and the first description line of the MR should be `Issue: <Issue link with trailing +>`.
-1. If the work for an issue was iteratively split into multiple MR's, the first description line of the issue should be:
-
-   ```markdown
-   MR:
-     - <MR link with trailing +>
-     - <MR link with trailing +>
-   ```
-
-   Each description line of the MR's in this list should be `Issue: <Issue link with trailing +>`. **Please note:** If breaking out an issue's implementation
-   into multiple MR's unexpectedly increases the scope of the work, please consider creating a new weighted and prioritized issue to
-   capture the extra scope. This is important in order to accurately reflect scope increases, and their impact on reporting and velocity.
-1. If there is _NO MR_ associated with this issue, the first line should be: `MR: No MR`.
-   However, this should be rare, because most issues should have some sort of committed deliverable, even if it is only
-   a documentation addition or update. If it is an issue which represents a larger piece of work split across smaller issues,
-   then it should be promoted to an epic.
-
-**QUESTION: Why does every MR need a backing issue?**
-
-- If boards and epics allowed MRs to be added and estimated as well as issues, this would not be necessary - for feature/maintenance
-involving an MR, we could have the MR directly represent the full lifecycle of the discussion and implementation, and not
-have an issue at all.
-- We also cannot rely on the Crosslinking Issues feature (https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html),
-because this shows ALL linked MRs that have mentioned the issue anywhere, and cannot enforce this 1-1 relationship.
-
 ### 📝 Ad-Hoc Work
 
 It is normal that team members may identify issues that need to be resolved promptly prior to the next planning cycle. This may be because they are blocking other prioritized issues, or just because a team member wishes to tackle an outstanding bug or small piece of technical debt.
@@ -453,6 +402,49 @@ work that we are _choosing_ to defer. That is why they use the
 following process involving milestones, custom labels, and due date reminders
 to ensure that we do not forget to follow up and complete them.
 
+### Relationship of Issues to MRs
+
+<span id="1-to-1-relationship-of-issues-to-mrs" data-message="alias anchor for old links"></span>
+
+We want to enforce that:
+
+1. Every MR is owned by a weighted issue
+
+This is in order to facilitate accurate and granular velocity calculations and issue prioritization under this process.
+The merge request is the atomic unit of deliverable work in most cases, so it must be represented in the prioritization
+and calculations by being owned by one and only one issue.
+
+In order to enforce this via triage-ops automations
+(/handbook/engineering/development/dev/create/remote-development/#automations-for-remote-development-workflow),
+the first line of the issue should have the format: `MR: <...>`:
+
+1. For new issues, the first description line should be: `MR: Pending`
+1. Once an MR is created for the issue and work is started, the first description line of the issue should be: `MR: <MR link with trailing +>`,
+   and the first description line of the MR should be `Issue: <Issue link with trailing +>`.
+1. If the work for an issue was iteratively split into multiple MR's, the first description line of the issue should be:
+
+   ```markdown
+   MR:
+     - <MR link with trailing +>
+     - <MR link with trailing +>
+   ```
+
+   Each description line of the MR's in this list should be `Issue: <Issue link with trailing +>`. **Please note:** If breaking out an issue's implementation
+   into multiple MR's unexpectedly increases the scope of the work, please consider creating a new weighted and prioritized issue to
+   capture the extra scope. This is important in order to accurately reflect scope increases, and their impact on reporting and velocity.
+1. If there is _NO MR_ associated with this issue, the first line should be: `MR: No MR`.
+   However, this should be rare, because most issues should have some sort of committed deliverable, even if it is only
+   a documentation addition or update. If it is an issue which represents a larger piece of work split across smaller issues,
+   then it should be promoted to an epic.
+
+**QUESTION: Why does every MR need a backing issue?**
+
+- If boards and epics allowed MRs to be added and estimated as well as issues, this would not be necessary - for feature/maintenance
+  involving an MR, we could have the MR directly represent the full lifecycle of the discussion and implementation, and not
+  have an issue at all.
+- We also cannot rely on the Crosslinking Issues feature (https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html),
+  because this shows ALL linked MRs that have mentioned the issue anywhere, and cannot enforce this 1-1 relationship.
+
 ### 🍨 Handling Issues Outside the Process
 
 <span id="-handling-remote-development-issues-outside-the-process" data-message="alias anchor for old links"></span>
@@ -467,6 +459,16 @@ Certain `group::remote development` issues may be categorized under the `(worksp
    - Security-owned issues with extended timelines that don't align with the typical Workspaces workflow.
 
 This approach ensures that these types of issues do not have an undesired impact on our velocity, and that our Workspaces process remains streamlined while accommodating different issue categories that may not fit the standard workflow.
+
+### Wider Board Columns
+
+The default width of lists on boards can make the board harder to use, since you see fewer items and have to scroll more.
+
+There is [an open issue to address this](https://gitlab.com/gitlab-org/gitlab/-/issues/15927). In the meantime, though, you can use the following javascript bookmarklet suggested in [this comment on the issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15927#note_214871708), which will make the lists take up the full board width. Just make a bookmark named "Wider board lists" with this as the link:
+
+```text
+javascript:(function(){var el=document.getElementsByClassName('boards-list');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.display='table';}el=document.getElementsByClassName('board');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.border='0';el[i].style.display='table-cell';}el=document.getElementsByClassName('board-inner');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.border='0';}})();
+```
 
 ## 👏 Communication
 
