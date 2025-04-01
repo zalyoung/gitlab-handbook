@@ -17,7 +17,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 
 #### Iteration 0 
 
-[Iteration 0](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/) includes the initial planning between the GitLab & Customer Project Teams. Proper Iteration 0 preparedness allows us to address risk and expectation early. Key components of this phase include:
+[Iteration 0](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/) includes the initial planning between the GitLab & Customer Project Teams. Proper Iteration 0 preparedness allows us to address risk and expectation early. Key components of this phase include:
 
 * EM>PS Delivery Transition
 * Opening a Support ticket on behalf of the Customer
