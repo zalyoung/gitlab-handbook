@@ -1117,7 +1117,8 @@ def test_get_response(utils):
 
 If you need to add environment variables in the pytest code, you should do it with fixtures.
 
-* Option 1: Using `environ`
+- Option 1: Using `environ`
+
 ```python
 from os import environ
 
@@ -1136,7 +1137,7 @@ def fixture_data_classification():
 # ...
 ```
 
-* Option 2: Using `mock.patch`
+- Option 2: Using `mock.patch`
 
 ```python
 from unittest.mock import patch
@@ -1149,7 +1150,7 @@ def mock_settings_env_vars():
     with mock.patch.dict(os.environ, {"START_TIME": "2023-01-01T00:00:00Z"}):
         yield
 
-# usage is automatically as autouse=True
+# usage is automatically started, as autouse was set to True
 ```
 
 ##### Skip long running test
@@ -1158,7 +1159,7 @@ If you have a scenario where you want to skip a specific test in the CI/CD pipel
 
 ```python
 # if you type command:
-# export RUNALL=YES 
+# export RUNALL=YES
 # test will run, otherwise will skip
 
 @pytest.mark.skipif(
