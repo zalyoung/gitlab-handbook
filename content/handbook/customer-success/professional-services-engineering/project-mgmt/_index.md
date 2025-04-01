@@ -15,6 +15,16 @@ The GitLab PMO accelerates customer time to value through excellence in Professi
 
 Given the close collaboration between the PS Project Management and PS Operations [team functions](/handbook/customer-success/professional-services-engineering/#team-functions), please refer to the [PS Operations Wiki](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home) for more details on processes related to scheduling, reporting, billing, partner processes, and more
 
+#### Iteration 0 
+
+[Iteration 0](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/) includes the initial planning between the GitLab & Customer Project Teams. Proper Iteration 0 preparedness allows us to address risk and expectation early. Key components of this phase include:
+
+* EM>PS Delivery Transition
+* Opening a Support ticket on behalf of the Customer
+* Stakeholder Planning
+* Customer Kickoff
+* Discovery sessions with the Customer
+
 #### Setting up the Collaboration Project (CP)
 
 1. We use GitLab as our primary Project Management tool for Service Deivery with our Customers. We use CP (Customer Project) automation configured by the PS Practice team to convert the SOW activities into trackable issues within GitLab
