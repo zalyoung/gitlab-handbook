@@ -1275,6 +1275,7 @@ timeboxes
 timeboxing
 timecop
 timeframe
+timeframes
 timelog
 timelogs
 timesheet
