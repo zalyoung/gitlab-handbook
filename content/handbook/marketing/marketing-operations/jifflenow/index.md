@@ -34,7 +34,8 @@ We have put together a comprehensive [training slide deck](https://docs.google.c
 - [Processing Inbound Requests](https://drive.google.com/file/d/1yGMK4qmw25-9oPeaHByXOnGYkiXbxRsz/view?usp=sharing)
 - [Updating availability (for executive attendees)](https://drive.google.com/file/d/19YqsLddRDBYwhrVn2wNH-xHFOiyvAebL/view?usp=sharing)
 - [Managing On-Site Meetings](https://drive.google.com/file/d/1dLb_xCytBSYj4pj41TREDl_M-knT2VqE/view?usp=sharing) 
-- Mobile App (to be created)
+- [Mobile App for meeting managers](https://support.cvent.com/s/communityarticle/Using-the-Jifflenow-Mobile-App-for-Meeting-Managers)
+- [Mobile App for attendees](https://support.cvent.com/s/communityarticle/Using-the-Jifflenow-Mobile-App-for-Attendees)
 
 ## Salesforce.com Integration
 
@@ -78,7 +79,9 @@ When booking a new meeting onsite, you will select the attendees and time follow
 
 ## Mobile App
 
-This has not yet been configured - will update this page when ready
+To use the mobile app for onsite meeting management, you must be set-up in Okta to access Jifflenow. We recommend the mobile app for onsite meeting managers.
+
+Download the [Jifflenow app](https://www.jifflenow.com/mobile-app-product/) from the appropriate app store for your device.
 
 ## Meeting types
 
