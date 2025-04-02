@@ -625,7 +625,26 @@ import some_local_module
 from another_local_module import something
 ```
 
-Also, linters should help you with this issue: `iSort`, `mypy`, `flake8`, `pylint`.
+Also, linters should help you with this issue: `isort`, `mypy`, `flake8`, `pylint`.
+
+###### isort
+
+[isort](https://pycqa.github.io/isort/) is a Python utility / library to sort imports alphabetically, and automatically separated into sections and by type. It provides a command line utility, Python library and plugins for various editors to quickly sort all your imports.
+
+Installation:
+
+```bash
+pip install isort
+```
+
+Usage:
+
+```bash
+isort file_name.py
+# or isort .
+```
+
+and it will automatically order imports with the best practices.
 
 ##### Docstrings
 
