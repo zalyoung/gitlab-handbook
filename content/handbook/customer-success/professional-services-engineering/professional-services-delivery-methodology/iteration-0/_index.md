@@ -88,4 +88,6 @@ Include the details below and anything else that would be helpful for support to
 
 1. Select the Create MR Button on the bottom right of the Web IDE.
 
+1. Ask a Support Leader to review and merge your MR by sharing a link to your MR in [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) on Slack
+
 1. At the close of the project repeat this step, but remove the contents added after notes.
