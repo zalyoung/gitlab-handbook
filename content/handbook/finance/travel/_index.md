@@ -38,6 +38,7 @@ GitLab provides team members with comprehensive emergency support through Intern
 ##### How to Access ISOS Services
 
 *App*
+
 1. Download the [ISOS Assistance App](https://www.internationalsos.com/subscriber/assistance-app)
 1. Register using your GitLab email address (use a unique password, not your GitLab credentials)
 1. Press the "Need Assistance" button to connect with the nearest emergency center
