@@ -11,17 +11,17 @@ The Security Platforms and Architecture (SPA) team addresses complex security ch
 
 ## Value Proposition
 
-We provide proactive risk assessments, architectural security solutions and standards, product security expertise and guidance, and direct product enhancements so that GitLab and our customers can create quality, secure software with high velocity. Our team translates security expertise into public and internal thought leadership contributions that establish GitLab as a leader and trusted enabler for secure software development. 
+We provide proactive risk assessments, architectural security solutions and standards, product security expertise and guidance, and direct product enhancements so that GitLab and our customers can create quality, secure software with high velocity. Our team translates security expertise into public and internal thought leadership contributions that establish GitLab as a leader and trusted enabler for secure software development.
 
 ## Scope and Responsibilities
 
 ### Primary Areas of Ownership
 
-- **Product Security Risk Register**: SPA is the DRI for organizing and presenting risks in the [PSRR](/handbook/security/product-security/security-platforms-architecture/risk-register/) and facilitating its operational cadences. We also lead comprehensive risk identification, assessment, and prioritization efforts and work cross-organizationally to create the strategies, roadmaps, and standards required to enhance GitLab’s security posture, protect our customers, and address complex security challenges at scale.
+- **Product Security Risk Register**: SPA is the DRI for organizing and presenting risks in the [PSRR](/handbook/security/product-security/security-platforms-architecture/risk-register/) and facilitating its operational cadences. We also lead comprehensive risk identification, assessment, and prioritization efforts and work cross-organizationally to create the strategies, roadmaps, and standards required to enhance GitLab's security posture, protect our customers, and address complex security challenges at scale.
 - **Security Research**: We assess the GitLab ecosystem to identify previously unknown security risks and vulnerabilities.
-- **Direct Product Contributions**: We contribute directly to the product’s evolution by:
+- **Direct Product Contributions**: We contribute directly to the product's evolution by:
   - Building product-first capabilities, paved paths, and secure guardrails to mitigate risk, facilitate secure software delivery, and meet the needs of both GitLab team members and customers.
-  - Designing secure architecture solutions and executing proofs-of-concept that accelerate engineering teams’ delivery of security improvements.
+  - Designing secure architecture solutions and executing proofs-of-concept that accelerate engineering teams' delivery of security improvements.
 - **[Security Interlock](/handbook/security/product-security/security-platforms-architecture/security-interlock/)**: SPA is the DRI for coordinating cross-divisional Customer 0 efforts of new features, internal dogfooding of existing features, and product co-creation, ensuring the platform's security capabilities meet real-world security use cases.
 - **Architecture Consultations and Review**: Proactively consult on and conduct security architecture reviews for large, complex, strategic, and high-impact projects.
 - **Security Standards**: We develop and communicate security standards to proactively enable teams to make sound security decisions and establish clear expectations for secure software delivery.
