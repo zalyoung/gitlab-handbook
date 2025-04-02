@@ -5,7 +5,7 @@
 title: Design doc title
 status: proposed
 creation-date: "yyyy-mm-dd"
-authors: [ "@username" ]
+authors: [ "@mattkasa", "@stomlinson" ]
 coaches: [ "@username" ]
 dris: [ "@product-manager", "@engineering-manager" ]
 owning-stage: "~devops::<stage>"
@@ -149,7 +149,7 @@ List the specific goals / opportunities of the document.
 - Maintain the load balancing code separately from the monolith
 - Make the load balancer's behavior more resilient during high traffic periods
 - Move more load away from the primary
-- Improve failure mode in all cases
+- Improve failure modes in all cases
 - Add test coverage of failure modes
 - Make it safer to deploy load balancer changes
 
@@ -179,6 +179,8 @@ You might want to consider including the pros and cons of the proposed solution 
 compared with the pros and cons of alternatives.
 -->
 
+We will
+
 ## Design and implementation details
 
 <!--
@@ -205,6 +207,52 @@ Diagrams authored in GitLab flavored markdown are preferred. In cases where
 that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
+
+
+Things to talk about in impl details:
+
+- What do we move out of request/response path and where
+- How do we want to change our health check strategy
+  - Suppose 10 replicas, then check 1 random one, upvote in redis if good.
+    - If first one fails, get a random one of the good ones from redis
+    - Aggregate on reading, store your "upvote" namespaced to your pod name so we don't hammer a key.
+
+- Less lsn lookups in sidekiq dequeue
+
+notes:
+
+
+- check redis, not up to date
+- query db for lsn, push result to redis
+
+- lsn check background wakeup procedure:
+  - Current + next lsn (2 mutexes + variables)
+  - Each loop, wake up threads waiting for current lsn, then check next lsn (lock mutex), then wake up next_lsn threads and swap the mutexes
+  - That way we get all the threads each time.
+
+- redis key for each <replica-fqdn>_<pod_name>, value is lsn that we know the replica has, some short ttl (minutes?)
+- Web / sidekiq threads just trust the host list in process mem if they don't need a lsn requirement.
+- (background thread ensures some lag minimum in seconds for each replica in the host list)
+- If a request requires an LSN:
+  - Ask process mem for a replica that is up-to-date on that LSN
+    - Happy path: found all of them! Pick one
+    - Medium path: found some but not all of them
+      - Run an lsn check on some subset that aren't up-to-date (check 2?) (in the background, recheck from redis when the background thread tries to do this check)
+      - Pick one that was up-to-date
+    - Unhappy path: didn't find any.
+      - Ask redis for latest lsn for each replica
+        - Happy path, found one up-to-date-enough! Use it + set it in process memory (any time you query redis, always make process memory a cache of redis state as fresh as you know it)
+        - Unhappy path:
+          - None are up-to-date-enough in redis. We need to decide to either wait or talk to some databases
+          - Ask every replica for its lsn, write to process mem then to redis (writing to key <fqdn>_<pod_name> so that it doesn't trample other pods)
+          - Thundering herd problem:
+            - Queue with the background thread that we need a fast lsn check, go to sleep for a duration and wait for the check to come back. Use a condition variable to coordinate this so we wait for "remaining sleep budget or until check is done"
+              - This fixes the case where the background thread gets stuck - the condition variable will wake the request thread back up and it can make a decision
+              - This pushes lsn checks to the background thread, background threads can end up in a thundering herd situation of checks here.
+                - fix by jittering how long each pod trusts a redis lsn result before asking the database.
+                  - Means that only some small % of pods are doing an lsn check at a time without any locking between pods
+                  - Get duration remaining on key ttl with https://redis.io/docs/latest/commands/ttl/ (very fast, fixes clock sync problem)
+                  - Some pods will become de-facto "leaders" because they have short ttls, but that's not a big deal, lsn checks are very fast
 
 ## Alternative Solutions
 
