@@ -39,7 +39,6 @@ During the synchronous portion of the retro:
     1. assign the issue to the manager of the SE who responded to the emergency
 1. When emergencies affect multiple regions and involve several engineers, the first engineer who responds will be the DRI of the retro by default. This engineer will collaborate with the retro facilitator and follow the established process. They should then include all other SEs who participated in the incident response to document the events that occurred during each shift.
 
-
 ### Possible Retrospective Findings
 
 The suggestions and findings of a retrospective will vary. Common findings include:
