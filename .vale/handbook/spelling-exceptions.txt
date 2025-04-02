@@ -874,7 +874,6 @@ PDFs
 PEOs
 performant
 Permifrost
-Pentest
 PgBouncer
 pgFormatter
 pgLoader

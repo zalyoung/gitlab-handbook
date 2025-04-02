@@ -52,7 +52,7 @@ We provide proactive risk assessments, architectural security solutions and stan
 
 - Non-escalated security design reviews of moderate or low-impact features [DRI: AppSec]
 - Routine vendor third-party risk assessments [DRI: Security Risk]
-- External Pentest Coordination [DRI: AppSec]
+- External Penetration Testing Coordination [DRI: AppSec]
 - Vulnerability Management Operations [DRI: Vulnerability Management, AppSec, and Security Compliance]
 - Security Feature development unrelated to:
   - PSRR Risks
