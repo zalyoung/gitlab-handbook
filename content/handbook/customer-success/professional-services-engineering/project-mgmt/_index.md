@@ -50,13 +50,20 @@ _Billable vs NonBillable information_, please refer to [Team Metrics](/handbook/
 
 ### Deliver, Train, and Monitor
 
-Please reference the [PSDM (Professional Services Delivery Methodology)](../professional-services-delivery-methodology/_index.md) page for more information
+We follow the [PSDM (Professional Services Delivery Methodology)](../professional-services-delivery-methodology/_index.md) for all our Professional Service Engagements. This page includes details around:
 
-*this also includes information on how we track/report on risk and escalated projects (via RAID), internal retrospective guidelines, tracking lessons learned, and capturing Customer and Project wins
+1. Managing a Project in Gitlab
+1. Project Velocity Planning
+1. Status Reporting
+1. RAID Reporting
+1. Internal & Customer Retrospective Tracking and Reporting
+   * Capturing Project Wins & Lessons Learned
+1. Agile Mapping & Terminology
+1. Sprint/Iteration Management
 
 #### Reporting Project Health & Forecasting
 
-##### PS/PMO Cadence Schedule 
+##### PMO/Ops Reporting Schedule 
 
 * Pinned to the ps_pmo Slack channel for weekly update requirements and the ps-operations slack channel for Month End timelines (billing period dates)
 * The purpose of this schedule is to reference and understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization
@@ -92,8 +99,8 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 * Upside is reviewed on a weekly, monthly and quarterly basis. There are four scenarios around when we need to track upside within our weekly revenue tracking sheet (which is pinned to our ps-pmo channel)
 * If we are unable to confidently forecast the project resources 2 months out, we need to soft-book PSE/PM/TA time in Katata
-* If we have a pending CO that is not yet reflected in Katata, add it to Upside if the work in the CO will be completed this quarter
-* If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified, add it to the Upside
+* If we have a pending CO that is not yet reflected in Katata, review with the PMO Manager the details
+* If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified, review with the PMO Manager the details
 * It is helpful to call upside out in the customer report. ex: can only soft-forecast "x" amount because of "y" restraints
 
 ##### Professional Services Portfolio Report
