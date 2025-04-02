@@ -1055,7 +1055,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 **Limitations**
 
 - Claude's knowledge cutoff is April 2024, so any GitLab features, pricing, or competitive details may be outdated. Always verify current information through official GitLab channels.
-- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time**
+- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. [Adding up to Orange Data has been approved.](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#5-what-type-of-data-is-okay-to-be-shared-with-claude)
 - Claude can't connect to external websites, APIs, or tools. If you need Claude to review specific content, you'll need to paste it directly into the conversation.
 - Claude can't maintain context between conversations - each chat starts fresh, so previous discussions about prospects or strategies won't be remembered.
 - Understand that **Claude is not always right and will sound very confident even when it is wrong**
