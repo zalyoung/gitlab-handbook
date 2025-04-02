@@ -133,20 +133,6 @@ There are three other workflow labels of importance:
 | ![Stalled](/images/engineering/infrastructure/platforms/project-management/label-stalled.png) | Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help. |
 | ![Blocked](/images/engineering/infrastructure/platforms/project-management/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
 
-### Priority labels
-
-The Platform section has only one priority label: `SaaS Platforms::P1`.
-
-Only issues of the utmost importance are given this label.
-
-When an issue is given this label, a message should be pasted in the section's Slack channel so that an owner can be found as quickly as possible.
-
-These issues should be picked up soon as possible after completing ongoing tasks unless directly communicated otherwise.
-
-It is a scoped label as we previously had 4 levels of priority.
-We found that in practise we primarily used P4, and used P1 to indicate the issues of greatest importance.
-This was discussed on a [Scalability issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/863), but we have seen similar usage in other teams.
-
 ### Labels in gitlab-org group
 
 Stage groups use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification) to label merge requests in projects in the `gitlab-org` group.
