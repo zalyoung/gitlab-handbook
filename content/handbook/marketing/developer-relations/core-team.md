@@ -27,7 +27,7 @@ Anyone can open an issue in the [Core Team issue tracker](https://gitlab.com/git
 ## Offboarding and stepping down gracefully
 
 If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel.
-When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/).
+When you step down, you will become an inactive [Core Team](https://about.gitlab.com/community/core-team/) member.
 Once a Core Team member steps down, another Core team member will create an issue using the [`offboarding` template](https://gitlab.com/gitlab-org/gitlab-core-team/general/-/issues/new?issuable_template=offboarding) and follow the steps outlined.
 
 ## Core Team Member Orientation
