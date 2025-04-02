@@ -65,7 +65,7 @@ For Agile SOWs, the Program Manager / Project Manager provides strategy and dire
 
 Please reference [Backlog Management](./backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips
 
-If the scope of work is more defined within the SOW, the PM is expected to review the effect of this change and work with the Customer to repriotize or work through the [Change Order](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/project-mgmt/#iterate-and-validate:~:text=Project%20Health%20%26%20Forecasting-,Iterate%20and%20Validate,-Deploy%20%26%20Close) process
+If the scope of work is more defined within the SOW, the PM is expected to review the effect of this change and work with the Customer to repriotize or work through the [Change Order](/handbook/customer-success/professional-services-engineering/project-mgmt/#iterate-and-validate:~:text=Project%20Health%20%26%20Forecasting-,Iterate%20and%20Validate,-Deploy%20%26%20Close) process
 
 ## Status Reporting 
 
