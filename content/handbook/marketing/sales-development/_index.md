@@ -1050,6 +1050,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 #### Claude Sales Dev BDR/SDR User Guide
 
 - [Prompt Library](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) - a place to find prompts the Sales Dev Org is currently using and collaborating on
+- [Example Claude Project](https://claude.ai/project/92974b9b-f70e-4d74-9288-20c443617e9c) - an example of how information can be stored to a pre-made Project. Pre-made prompts are also saved and shared on the same project in the Activity tab.
 
 **Limitations**
 
