@@ -47,9 +47,9 @@ sequenceDiagram
     participant LocalDB as Local DB Copy
 
     Note over FTE, LocalDB: One-time setup phase
-    FTE->>CDot: Create migration to add HSTORE column
-    CDot->>LocalDB: Apply migration to add custom_fields HSTORE column
-    Note over LocalDB: HSTORE column ready to store all custom fields
+    FTE->>CDot: Create migration to add JSONB column
+    CDot->>LocalDB: Apply migration to add custom_fields JSONB column
+    Note over LocalDB: JSONB column ready to store all custom fields
 
     Note over FTE, LocalDB: Iterative process for each field/set of fields
     FTE->>EntApps: Submit Change Request issue to create custom fields in Zuora
@@ -65,7 +65,7 @@ sequenceDiagram
     CDot->>ZuoraAPI: Request ProductCatalog (including new custom fields)
     ZuoraAPI->>CDot: Return ProductCatalog with custom field values
     CDot->>LocalDB: Refresh local copy, storing field values in custom_fields
-    Note over LocalDB: HSTORE column now contains key-value pairs for custom fields
+    Note over LocalDB: JSONB column now contains key-value pairs for custom fields
 
     CDot->>CDot: CDot logic can now use these fields from local copy
     Note over CDot: Replace Plan constants with queries on custom_fields
@@ -91,7 +91,7 @@ Collection of fields to be added to the `ProductRatePlan` in this first iteratio
 
 ## Additional Considerations
 
-- HSTORE stores all values as strings, so boolean fields will be stored as the strings `"true"` or `"false"`
+- JSONB stores all values as strings, so boolean fields will be stored as the strings `"true"` or `"false"`
 - Field names match Zuora custom field naming conventions with the `__c` suffix
 - The `Category` field is an existing Zuora field, not a custom field
 
@@ -99,15 +99,13 @@ There is a [current effort](https://gitlab.com/gitlab-com/business-technology/en
 
 ## Design and implementation details
 
-Most of our classification is at the `ProductRatePlan` level so we will be focused on this for the first iteration. As a first step we will add a column (HSTORE) to our local copy of `ProductRatePlan` to persist this classification.
+Most of our classification is at the `ProductRatePlan` level so we will be focused on this for the first iteration. As a first step we will add a column (JSONB) to our local copy of `ProductRatePlan` to persist this classification.
 
 ```ruby
 # example migration
-class AddClassificationMetadataToProductRatePlans < ActiveRecord::Migration[7.1]
+class AddCustomFieldsToProductRatePlans < ActiveRecord::Migration[7.1]
   def change
-    enable_extension 'hstore' unless extension_enabled?('hstore')
-
-    add_column :zuora_product_rate_plans, :custom_fields, :hstore, default: {}, null: false,
+    add_column :zuora_product_rate_plans, :custom_fields, :jsonb, default: {}, null: false,
       comment: column_comment
     add_index :zuora_product_rate_plans, :custom_fields, using: :gin
   end
@@ -203,7 +201,7 @@ Each feature flag provides a built-in rollback mechanism. If issues are detected
 ## Implementation Timeline
 
 1. **Phase 1** (FY2026Q1):
-   1. Implement HSTORE column and basic classification fields
+   1. Implement JSONB column and basic classification fields
    2. Create Change Requests (EntApps) to add the custom fields to the ProductRatePlan in Zuora
    3. Update CustomersDot syncing mechanism so it can sync metadata dynamically
    4. Refactor codebase so the `Plan` constants are used within `Plan` class ONLY and external usages are through methods so we can replace each method's approach once the metadata is available.
@@ -219,13 +217,11 @@ Each feature flag provides a built-in rollback mechanism. If issues are detected
 
 _Priority criteria: "high-priority" constants will be determined by usage frequency._
 
-1. **Phase 3** ...
-
 ## Risk Mitigation
 
 | Risk | Mitigation |
 |------|------------|
 | Incomplete custom field population in Zuora | Implement validation checks in the synchronization process |
-| Performance impact of HSTORE queries | Add monitoring and benchmarking; create indexes on common query patterns |
+| Performance impact of JSONB queries | Add monitoring and benchmarking; create indexes on common query patterns |
 | Discrepancies between old and new classification | Create reconciliation reports to compare classifications |
 | Edge cases not covered by metadata | Document process for handling special cases |
