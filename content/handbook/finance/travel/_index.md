@@ -44,6 +44,7 @@ GitLab provides team members with comprehensive emergency support through Intern
 1. Press the "Need Assistance" button to connect with the nearest emergency center
 
 > Note: This is not a GitLab application and is managed by ISOS.
+
 - [ISOS Mobile App User Guide](https://drive.google.com/file/d/1CYryCnznGjIaRh3WcdzG-wiuYVxRahUZ/view?usp=sharing)
 - [ISOS Mobile App Download Information](https://drive.google.com/file/d/1C2k9b8TRth3O4QzZH2YqayZOhpTd4fJl/view?usp=sharing)
 
