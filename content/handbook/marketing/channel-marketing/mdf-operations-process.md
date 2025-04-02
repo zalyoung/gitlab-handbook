@@ -43,6 +43,7 @@ description: "The page details the operational process for the MDF program."
      1. Add `Pending MDF Approval` - to seek issue approval from Manager (automated)
          1. Once approved, update: `MDF-Approved`
 1. Tagging stakeholders for visibility: ESM, marketing, field sales for visibility
+1. Once the campaign details have been populated and all the necessary approvals have been attained, sync the GitLab issue to Asana by adding the label: `Asana-Sync-Project`
 
 ### Step 4: Update the Tracking Sheet
 
