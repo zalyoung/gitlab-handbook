@@ -348,7 +348,7 @@ Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR U
 
 ##### Requesting a GitLab NFR (Not-for-Resale) License
 
-Authorized GitLab Partners can request NFR licenses by filling out the NFR License Request Form which can be found on the [GitLab Partner Portal](https://partners.gitlab.com/English/) on the Services or Support tab. Submissions will route to Ecosystem Operations team for provisioning.  Please allow two (2) business days for processing. Once provisioned, the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS.
+Authorized GitLab Partners can request NFR licenses by filling out the NFR License Request Form which can be found on the [GitLab Partner Portal](https://partners.gitlab.com/prm/English/c/SupportOpen) on the Support tab > Request a Not For Resale (NFR) License. Submissions will route to Ecosystem Operations team for provisioning.  Please allow two (2) business days for processing. Once provisioned, the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS.
 
 ##### NFR Program Eligibility
 
