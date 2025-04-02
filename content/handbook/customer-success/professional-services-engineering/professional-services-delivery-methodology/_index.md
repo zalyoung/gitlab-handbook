@@ -57,39 +57,42 @@ When working within an Iteration/Sprint schedule, there are five components with
 4. Backlog Refinement
 5. Retrospective
 
-When not working within Iterations, it is still important to communicate the project velocity in order to ensure consistent resource alignment to the Project. (eg. we anticipate to work 40 hours/week for 5 weeks in oder to perform a sucessful upgrade and a seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance). This is validated in Stakelholder Planning meeting and the Customer Kickoff. 
+When not working within Iterations, it is still important to communicate the project velocity in order to ensure consistent resource alignment to the Project. (eg. we anticipate to work 40 hours/week for 5 weeks in oder to perform a sucessful upgrade and a seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance). This is validated in Stakeholder Planning meeting and the Customer Kickoff. 
 
 ## Iteration/Status Planning & Review
 
-The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, and iteration goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the iteration scope is defined and committed to by the development team.
+For Agile SOWs, the Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, and iteration goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the iteration scope is defined and committed to by the development team.
 
-Please reference [Backlog Management](./backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips.
+Please reference [Backlog Management](./backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips
+
+If the scope of work is more defined within the SOW, the PM is expected to review the effect of this change and work with the Customer to repriotize or work through the [Change Order](/#iterate-and-validate) process
 
 ## Status Reporting 
 
 ### Who Updates What?
 
-While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the GitLab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board.
+While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the GitLab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board. Hence the importance of _Working Agreements_, as covered in Iteration 0
 
-Working asynchronously & remotely can be challenging. Ensuring the DRI within the issue is actively contributing to is crucial to the project’s velocity. It’s the best way the PM can protect the technical teams from distractions as well as make sure there is an effective status roll-up.
+Working asynchronously & remotely can be challenging. Ensuring the DRI within the issue is actively contributing to is crucial to the project’s velocity. It’s the best way the PM can protect the technical teams from distractions as well as make sure there is an effective status roll-up
 
-Not every Project is going to follow an Sprint or Iteration cadence. However, status updates are expected to live within Gitlab. It is recommended to use an engagement charter to direct users and reporters to the weekly status updates, RAID, etc. 
+Not every Project is going to follow an Sprint or Iteration cadence. However, status updates are expected to live within Gitlab and be reported to the Customer weekly. It is recommended to use an engagement charter to direct users and reporters to the weekly status updates, RAID, etc.
 
 * [Engagement Charter](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration/Ingram-Barge/SOW-3184/-/blob/main/engagement-charter.md?ref_type=heads) example
 * [Status Update](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/Delta/-/epics/1) example 1
 * [Status Update](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/smartsheet/SOW-2163/-/issues/2) example 2
+* While it is recommended to use the GitLab CP for status reporting, if the Customer prefers a deck, please reference this [template.](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252)
 
 ### RAID & Internal/Customer Retrospective
 
-The RAID, Internal Retrospective, and Customer Retrospective not only assist with the progression of a Project, but these records act as a mechanism to feed back into our Business Development, Customer Success tracking, and Team celebrations. [Please reference here](./manage-risk/_index.md) for more guidelines on how to manage these reports once a Project begins.
+The RAID, Internal Retrospective, and Customer Retrospective not only assist with the progression of a Project, but these records act as a mechanism to feed back into our Business Development, Customer Success tracking, and Team celebrations. [Please reference here](./manage-risk/_index.md) for more guidelines on how to manage these reports once a Project begins
 
-The Customer Retrospective guidelines can be [found here](./retrospectives/_index.md).
+The Customer Retrospective guidelines can be [found here](./retrospectives/_index.md)
 
 ## Guidelines for PSDM
 
-Applying the suggested PSDM with a full Iteration schedule is needed only when the Project exceeds 5 Iterations or when the engagement plans to exceed two months.
+Applying the suggested PSDM with a full Iteration schedule is needed only when the Agile-specific Project exceeds 5 Iterations or when the engagement plans to exceed two months
 
-Please review the [archetype definitions](./archetype-definition/_index.md) around what a “large” Customer looks like.
+Please review the [archetype definitions](./archetype-definition/_index.md) around what a “large” Customer looks like
 
 Please use the below as a guide, when planning for Iteration 0.
 
