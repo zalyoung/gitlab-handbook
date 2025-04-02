@@ -106,7 +106,6 @@ To prevent the creation of knowledge silos and also receiving input from people 
 1. Engineers or EM will follow the checklist for assigned issues, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
 1. If the planned implementation of the issue can be further broken down, the engineer/EM will work with the PM to reduce scope and create new issues until this is the case (either PM or engineer/EM can create new work items).
 1. Once an issue is fully refined, engineers or EM will add an appropriate [weight](/handbook/engineering/development/dev/create/source-code/backend/#weight-categories) and label it as `workflow::ready for development`. These issues can then be added to the milestone.
-1. When other teams depend on Source Code Backend issues planned for the current milestone, those issues will be labeled as `SCM::AwaitingBackend`
 
 ### Issue Refinement Checklist
 
