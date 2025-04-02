@@ -542,5 +542,6 @@ We have the following automation goals for this Workflow. Unless otherwise noted
 | --- | --- | --- | --- |
 | <a id="automation-01">01</a> | Warn when no epic is assigned | Issues in `~"Category:(Web IDE \| Workspace)"` but with no epic assigned should get a warning comment | TODO: implement |
 | <a id="automation-02">02</a> | Assign missing milestone to issues | Issues in `~"Category:(Web IDE \| Workspace)"` should be assigned to the `%"Backlog"` if no milestone is assigned | TODO: implement |
-| <a id="automation-03">03</a> | Flag stretch issues in a milestone | Issues that have been assigned the active milestone for example, 16.x, 17.x and don't have both a ~refined label and weight should be marked as ~Stretch | TODO: implement |
-| <a id="automation-04">04</a> | Sync Workspace workflow and GitLab workflow labels | 1. Unstarted issues with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. <br> 2. Every closed issue in `~"Category:(Web IDE \| Workspace)"` should have the `~workflow::done` label applied| TODO: implement |
+| <a id="automation-03">03</a> | Flag stretch issues in a milestone | Issues that have been assigned the active milestone for example, 16.x, 17.x and don't have a ~refined label and weight should be marked as ~Stretch | TODO: implement |
+| <a id="automation-04">04</a> | Sync Workspace workflow and GitLab workflow labels | Unstarted issues with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. | TODO: implement |
+| <a id="automation-05">05</a> | Ensure all issues with an assignee have a weight assigned | All refined issues that are not bugs with an assignee but no weight should get a reminder note to either add a weight estimate. | TODO: implement |
