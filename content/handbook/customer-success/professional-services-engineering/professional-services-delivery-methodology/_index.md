@@ -65,13 +65,13 @@ For Agile SOWs, the Program Manager / Project Manager provides strategy and dire
 
 Please reference [Backlog Management](./backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips
 
-If the scope of work is more defined within the SOW, the PM is expected to review the effect of this change and work with the Customer to repriotize or work through the [Change Order](/#iterate-and-validate) process
+If the scope of work is more defined within the SOW, the PM is expected to review the effect of this change and work with the Customer to repriotize or work through the [Change Order](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/project-mgmt/#iterate-and-validate:~:text=Project%20Health%20%26%20Forecasting-,Iterate%20and%20Validate,-Deploy%20%26%20Close) process
 
 ## Status Reporting 
 
 ### Who Updates What?
 
-While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the GitLab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board. Hence the importance of _Working Agreements_, as covered in Iteration 0
+While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the GitLab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board. Hence the importance of Working Agreements, as covered in Iteration 0
 
 Working asynchronously & remotely can be challenging. Ensuring the DRI within the issue is actively contributing to is crucial to the project’s velocity. It’s the best way the PM can protect the technical teams from distractions as well as make sure there is an effective status roll-up
 
