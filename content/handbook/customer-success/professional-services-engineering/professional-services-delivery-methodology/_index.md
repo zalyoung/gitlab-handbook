@@ -47,7 +47,7 @@ Labels used for *Internal retro & RAID tracking/reporting* can be found in “Re
 
 ## Project Velocity and Iteration Scheduling
 
-The [iteration schedule and cadence](./iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Engagement Charter that lives within the GitLab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
+The [iteration schedule and cadence](./iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Engagement Charter that lives within the GitLab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule & anticipated velocity as an output of the Customer Kickoff, but should be introduced & agreed upon with the Customer as part of our Stakeholder Planning meeting.
 
 When working within an Iteration/Sprint schedule, there are five components within an Iteration schedule:
 
@@ -57,7 +57,11 @@ When working within an Iteration/Sprint schedule, there are five components with
 4. Backlog Refinement
 5. Retrospective
 
-When not working within Iterations, it is still important to communicate the project velocity in order to ensure consistent resource alignment to the Project. (eg. we anticipate to work 40 hours/week for 5 weeks in oder to perform a sucessful upgrade and a seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance). This is validated in Stakelholder Planning meeting and the Customer Kickoff. 
+When not working within an Iteration schedule, it is still important to communicate the project velocity in order to ensure consistent resource alignment to the Project. This is validated in Stakeholder Planning meeting and the Customer Kickoff.
+
+_ex. we anticipate to work 40 hours/week for 5 weeks in oder to perform a sucessful upgrade and a seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance_
+
+As included in the Iteration 0 guidelines, we ask two weeks notice for any changes in our project velocity expectations. This helps us manage our Project team members' capacity and allocations.
 
 ## Iteration/Status Planning & Review
 
