@@ -84,6 +84,7 @@ Projects in user namespaces are deleted permanently without any recovery period.
 ### New Unified Deletion Flow
 
 ![image](/uploads/e23948058c525e8a9b7b013cc129953d/image.png)
+
 #### Core Components
 
 1. **Deletion Initiation**
