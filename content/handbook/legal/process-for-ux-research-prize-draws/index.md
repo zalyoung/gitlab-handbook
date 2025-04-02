@@ -7,13 +7,11 @@ description: "Process for UX Research Prize Draws"
 
 This process is for use by the UX Research Team to conduct prize draws in connection with routine SUS Surveys and other ad hoc surveys which are intended to collect feedback from GitLab users regarding features, navigation, and other items related to improving the user experience.
 
-
 This process uses an automated workflow for the UX Research Team to generate rules. This is accomplished through a Google Form and not through a GitLab issue. Provided that the request satisfies certain pre-determined requirements, the requestor will receive a set of Abbreviated Rules almost immediately (minutes to an hour). If the request does not satisfy the pre-determined requirements use of the [Promotional Games Legal Template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=promotional_games_legal_template) will be required.
-
 
 ## Process
 
-1. Review the [Eligibility Requirements](#eligibility-requirements-for-program). Prize draws which do not meet the Eligibility Requirements *in full* cannot proceed under this process. Refer to the [mainstream review and approval process](/handbook/legal/marketing-collaboration/#promotional-games) for Promotional Games that do not meet the Eligibility Requirements.
+1. Review the [Eligibility Requirements for proceeding under this Process](#eligibility-requirements-for-proceeding-under-this-Process). Prize draws which do not meet the Eligibility Requirements *in full* cannot proceed under this process. Refer to the [mainstream review and approval process](/handbook/legal/marketing-collaboration/#promotional-games) for Promotional Games that do not meet the Eligibility Requirements.
 1. Complete the [Request Rules for a Promotional Game](https://docs.google.com/forms/d/e/1FAIpQLSdVxpGQDt-lPKPIEuGaUnrR2F8F_wS43dVkmVs4ugoaGSNVqA/viewform?usp=sf_link) Google form.
 1. You will receive an email with the Abbreviated Rules as an attachment. Please review the [Standard Promotional Rules and Abbreviated Rules](#standard-promotional-rules-and-abbreviated-rules) section for details on how the Abbreviated Rules work in connection with the standard set of rules created for this process.
 1. Create a separate screen/page within the survey where the participant can select to be entered into the Prize Draw and view the Abbreviated Rules. Follow the [guidelines for the proper administration of the Prize Draw](#proper-administration-of-the-prize-draw) when creating this screen/page.
