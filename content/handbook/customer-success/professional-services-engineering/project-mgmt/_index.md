@@ -57,8 +57,8 @@ We follow the [PSDM (Professional Services Delivery Methodology)](../professiona
 1. Status Reporting
 1. RAID Reporting
 1. Internal & Customer Retrospective Tracking and Reporting
- * Capturing Project Wins & Lessons Learned
-1. Agile Mapping // Terminology
+   * Capturing Project Wins & Lessons Learned
+1. Agile Mapping & Terminology
 1. Sprint/Iteration Management
 
 #### Reporting Project Health & Forecasting
