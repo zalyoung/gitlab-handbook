@@ -16,7 +16,7 @@ Although GitLab is an all-remote company that encourages working from anywhere, 
 
 Please refer to the [Internal Handbook](https://internal.gitlab.com/handbook/security/corporate/travel) for Information Security Considerations for GitLab Team members traveling abroad.
 
-### Business Travel Support 
+### Business Travel Emergency Support and Insurance
 
 #### Quick Emergency Contacts
 - *International SOS 24/7 Assistance:* +1 215 942 8226
