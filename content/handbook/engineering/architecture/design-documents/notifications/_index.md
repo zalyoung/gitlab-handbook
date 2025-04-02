@@ -30,7 +30,7 @@ For long pages, consider creating a table of contents.
 
 The current notification system is based on emails, requiring users to move constantly between their inbox and GitLab. At the same time, we have a system of to-dos that partially overlaps with notifications but generally establishes only a subset of those. To-dos are also not controlled by any user preferences.
 
-To improve user experience and create parity between to-dos and email notifications, we propose creating a notification system within GitLab itself, which will replace our current, fixed system of to-dos. The system of notifications will be based on how we handle e-mail notifications now. 
+To improve user experience and create parity between to-dos and email notifications, we propose creating a notification system within GitLab itself, which will replace our current, fixed system of to-dos. The system of notifications will be based on how we handle e-mail notifications now - users will be able to define rules for email notifications and notification visible in the notification center in GitLab. Visually, notification center will be similar to our current to-dos page. 
 
 [Epic](https://gitlab.com/groups/gitlab-org/-/epics/13794) that defines needs for the new system. 
 
