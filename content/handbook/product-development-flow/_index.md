@@ -372,7 +372,7 @@ could create significant risks or friction for GitLab users or the platform, suc
 In addition to the [experiment details](https://docs.gitlab.com/policy/development_stages_support/#experiment) for users, experiments:
 
 - Are not by default a “scope” or feature-set, nor a “maturity” level or quality bar.
-- Are a tool project managers can use to validate their feature, most commonly to validate the **problem**.
+- Are a tool project leads can use to validate their feature, most commonly to validate the **problem**.
 - Are not required, can be skipped and indeed should be skipped if the problem is already validated, for example via user research or other methods.
 - Shouldn’t be used as a way to get feedback on something that is broken.
 - Shouldn’t be used to release a feature early.
@@ -405,15 +405,15 @@ and complete the [experiment section in the readiness template](https://gitlab.c
 In addition to the [beta details](https://docs.gitlab.com/policy/development_stages_support/#beta) for users, beta features:
 
 - Are not by default a “scope” or feature-set, nor a “maturity” level or quality bar.
-- Are a tool project managers can use to validate their feature, most commonly to validate the solution.
+- Are a tool project leads can use to validate their feature, most commonly to validate the solution.
 - Should be used when the problem is already validated and we have confidence in the solution but want to verify with customers.
 - Are not required, and can be skipped.
 - Shouldn’t be used as a way to get feedback on something that is broken.
 - Shouldn’t be used to release a feature early.
 - Have a high likelihood of becoming GA.
-- Project managers should consider using the CAB, EAP to recruit beta users.
-- Project managers should consider how external contributors can participate in betas.
-- Project managers running betas should define beta exit criteria, ideally before work begins and after discussion with UX and Engineering.
+- Project leads should consider using the CAB, EAP to recruit beta users.
+- Project leads should consider how external contributors can participate in betas.
+- Project leads running betas should define beta exit criteria, ideally before work begins and after discussion with UX and Engineering.
 - TODO: [DRI needed] Telemetry requirements should be added or linked to here.
 - TODO: [DRI needed] UX requirements for beta should be added or linked to here.
 - TODO: [DRI needed] Engineering requirements for beta should be added or linked to here.
