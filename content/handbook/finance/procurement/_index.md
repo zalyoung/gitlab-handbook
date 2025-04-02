@@ -14,13 +14,15 @@ Division alignment for spend over >$25k USD / year:
 
 - Marketing - Ashley Abbate
 - Sales - Ashley Abbate
+- Enterprise Data - Adrienne Ruhaak
+- Enterprise Apps - Adrienne Ruhaak
 - Product - Adrienne Ruhaak
 - Engineering - Adrienne Ruhaak
-- People - Adrienne Ruhaak
-- Finance - Adrienne Ruhaak
-- Legal - Adrienne Ruhaak
-- All division spend <$25k USD - Dasha Yarmusik
+- People - Dasha Yarmusik
+- Finance - Dasha Yarmusik
+- Legal - Dasha Yarmusik
 - Individual Software Purchases - Anam Shaikh
+- Travel and Expense - Anjela Evangelista
 
 ### Shared Goals
 
