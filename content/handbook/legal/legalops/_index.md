@@ -28,8 +28,8 @@ GitLab uses Brightflag’s Legal Spend Management platform to process and review
 
 - Accruals submission reminder notifications are automatically sent through Brightflag to ensure vendors submit their accruals on time.
   - Two automated reminder emails are sent at 06:15 UTC on the following days:
-     - **First Reminder**: Five calendar days before the deadline.
-     - **Final Reminder**: On the day of the deadline.
+    - **First Reminder**: Five calendar days before the deadline.
+    - **Final Reminder**: On the day of the deadline.
   - If the deadline falls on a weekend, the email will be sent on that weekend day.
   - If accruals are submitted on all matters before the deadline for a given vendor office, the notification emails will not be sent to that vendor.
 
@@ -38,20 +38,19 @@ GitLab uses Brightflag’s Legal Spend Management platform to process and review
 This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by LACA. This process does not apply to [equipment](/handbook/finance/expenses/#equipment), [Individual Use Software](/handbook/finance/procurement/individual-use-software/) or other personal reimbursement requests.
 
 - All expenses / reimbursements must be in accordance with [GitLab's Travel & Expense Policy](/handbook/finance/expenses/).
-- Regardless of the type of expenditure, all requests for use of LACA funds require approval from applicable stakeholders within the LACA Expenditure Request Issue Template.
+- All requests for use of LACA funds require approval from applicable stakeholders within the LACA Expenditure Request Issue Template.
 - Requests must be submitted, (i) no less than ninety (90) days prior to the event/purchase request date, and (ii) no more than once per year.
 - For conferences or development requests, team members are expected to share materials and insight with others within LACA (and GitLab).
 
-#### Types of Expenditures
+### Types of Expenditures
 
-- Growth & Development: Team members can review the [Growth & Development Program](/handbook/people-group/learning-and-development/growth-and-development/#growth-and-development-fund-eligibility) and  various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._
-- Event / Conferences: Team members may wish to attend applicable events / conferences where they can learn more about a specific subject. Team members must complete the LACA Expenditure Request Issue Template and supply the necessary information.
-- Tools / Software: For requests related to new tools / software, a LACA Expenditure Request Issue Template is required.
+- Growth & Development: Team members can review the [Growth & Development Fund](/handbook/people-group/learning-and-development/growth-and-development/) and  various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._
+- Tools / Software: For requests related to new tools or software, a LACA Expenditure Request Issue Template is required.
 
-#### Expenditure Process Overview
+### Expenditure Process Overview
 
 - LACA team members must first communicate their intended request with their manager.
-- If supported by the manager, the team member will complete the [LACA Expenditure Request Issue Template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new) (under _Description_, select the "laca-travel-and-expense-request" template).
+- If supported by their manager, the team member will complete the ["laca-travel-and-expense-request" template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=laca-travel-and-expense-request#).
 - Included within the LACA Expenditure Request Issue Template are details that the team member must complete.
 - Upon being submitted, the request will be reviewed internally by LACA leadership.
 - If approved, the request will then be assigned to Finance to ensure applicable funds are available.
