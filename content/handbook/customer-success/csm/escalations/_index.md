@@ -80,7 +80,7 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
   - Managing the 24x7 incident resolution and escalation process (i.e., Support Engineering, SRE, Development)
   - Supporting executive and customer calls (as needed)
 
-If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002).
+If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/124nDAb7p6yViLCsEHaqQTcDTMMT2-FPxeTwZxKOyLwM/edit?gid=0#gid=0).
 
 ### What's the difference between an account escalation or an incident escalation?
 
