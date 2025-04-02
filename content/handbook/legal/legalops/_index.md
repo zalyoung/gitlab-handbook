@@ -1,46 +1,39 @@
 ---
-title: "Legal Operations"
-description: "Information and processes related to Legal Operations"
+title: "Stategy & Legal Operations"
 ---
 
-The Legal Operations Team is responsible for supporting Legal Team processes with a focus on defining and driving initiatives that improve the team's efficiency and effectiveness.
+The Strategy & Legal Ops team promotes and institutes streamlined processes, efficient tools, and centralized program management to ensure LACA remains agile and able to support every area of GitLab’s business.
 
-Check out the [Legal Operations Portfolio](https://gitlab.com/groups/gitlab-com/-/epics/1641) to learn more about our active projects.
+Check out [our issue board](https://gitlab.com/groups/gitlab-com/-/boards/9214591) to learn more about what we’re working on.
 
-## Legal Tech Stack
+### Objectives
 
-The Legal Operations Team manages the [Legal Tech Stack](https://docs.google.com/spreadsheets/d/1nLtWVx6mebR7_y2Qv_CcScbVW-ryLVzvcFVgGk2yeRs/edit#gid=686289913) – the tools used by the rest of the GitLab Legal Team. (Note that the tech stack document is accessible to GitLab Legal Team Members only.)
+1. **Strategic Planning and Financials:** Build, execute, and iterate on a best-in-class strategic plan, including management of LACA’s budget from planning through forecasting and reporting. 
+2. **Legal Operations:** Optimize LACA operations through tools, processes, and operational capabilities. Drive enhancements to the [LACA tech stack](https://docs.google.com/spreadsheets/d/1nLtWVx6mebR7_y2Qv_CcScbVW-ryLVzvcFVgGk2yeRs/edit?gid=686289913#gid=686289913).  
+3. **Program and Project Management:** Define and drive initiatives spanning across LACA and GitLab. Examples include: vendor management, [billing and accruals](/handbook/legal/legalops/#legal-billing-process), [designated insiders and pre-clearance process](/handbook/legal/publiccompanyresources/#designated-insiders), tool administration, and team member engagement activities.
 
-## Procurement
+## Legal Billing Process
 
-For information on GitLab's Procurement Team, policies, and processes, visit the [GitLab Procurement Team handbook](/handbook/finance/procurement/).
-
-Use the [Procurement Guide: Collaborating with GitLab Legal](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/) to learn about how Legal assists and interacts with the procurement of products and services.
-
-**Processes:**
-
-- [Uploading executed contracts to ContractWorks](/handbook/legal/vendor-contract-filing-process/)
-
-## Legal & Corporate Affairs Billing Process
-
-The purpose of this process is to streamline receiving and tracking invoices and accruals for outside counsel vendors. For more information about invoicing and payment, see the [Accounts Payable handbook](/handbook/finance/accounts-payable/).
+GitLab uses Brightflag’s Legal Spend Management platform to process and review legal invoices and accruals. For more information about invoicing and payment, see the [Accounts Payable handbook](/handbook/finance/accounts-payable/).
 
 ### Invoices
 
-- All outside counsel invoices should be sent to <legalbilling@gitlab.com>.
-- Upon receipt, Legal Operations updates the LACA Counsel Budget Tracker.
-- DRIs review their invoices weekly, and approve or reject.
-- Approved invoices are sent to ap@gitlab.com by Legal Operations.
-  - DRIs engage with outside counsel to discuss any rejected invoices. Upon resubmission, Legal Operations will update the tracker and submit to AP.
+- All outside counsel invoices should be uploaded to the Brightflag portal.
+- Brightflag’s AI review flags any charges that do not align with our approved timekeeper rates and billing guidelines.
+- Invoices will be automatically routed to the internal matter lead and/or department head for approval. Approvers can tag other Brightflag users to provide input if needed.
+  - For more information about how to review an invoice in Brightflag, see [this guide](https://help.brightflag.com/hc/en-us/articles/18312240752285-How-to-Review-an-Invoice-in-Brightflag).
+- Approved invoices are sent to ap@gitlab.com.
 
 ### Accruals
 
-- Legal Operations sends a blanket request to all vendors on the 15th of the month requesting accruals be submitted by the 1st day of the following month.
-  - For example, for accruals of August 2023, the latest accruals should be provided to GitLab is 2023-09-01.
-- Once accruals are received, Legal Operations logs and submits to FP&A.
-  - DRIs can review for accuracy as needed/desired.
+- Accruals submission reminder notifications are automatically sent through Brightflag to ensure vendors submit their accruals on time.
+  - Two automated reminder emails are sent at 06:15 UTC on the following days:
+     - **First Reminder**: Five calendar days before the deadline.
+     - **Final Reminder**: On the day of the deadline.
+  - If the deadline falls on a weekend, the email will be sent on that weekend day.
+  - If accruals are submitted on all matters before the deadline for a given vendor office, the notification emails will not be sent to that vendor.
 
-### Legal & Corporate Affairs Expenditure Request Process
+## Legal & Corporate Affairs Expenditure Request Process
 
 This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by LACA. This process does not apply to [equipment](/handbook/finance/expenses/#equipment), [Individual Use Software](/handbook/finance/procurement/individual-use-software/) or other personal reimbursement requests.
 
