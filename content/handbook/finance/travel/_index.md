@@ -19,6 +19,7 @@ Please refer to the [Internal Handbook](https://internal.gitlab.com/handbook/sec
 ### Business Travel Emergency Support and Insurance
 
 #### Quick Emergency Contacts
+
 - *International SOS 24/7 Assistance:* +1 215 942 8226
 - *Email:* philadelphia@internationalsos.com
 - *Mobile App:* Download the ISOS Assistance App
