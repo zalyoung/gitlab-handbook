@@ -26,9 +26,9 @@ A reminder to [think big in discovery](../discovery/_index.md) and consider [tea
 The Delivery team can use the Schedule Intake issue or [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to facilitate the meeting
 
 as an output of this meeting:
-* For larger/complex programs with multiple stakeholders, please work to fill out [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027)
-* Collaboration Project is pinned to the internal Slack channel and the team knows where to find the latest status
-* link to the Internal retro issue is pinned to the channel to track lessons learned thorughout the project
+1. For larger/complex programs with multiple stakeholders, please work to fill out [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027)
+1. Collaboration Project is pinned to the internal Slack channel and the team knows where to find the latest status
+1. link to the Internal retro issue is pinned to the channel to track lessons learned thorughout the project
 
 ## Stakeholder Planning Meeting
 
