@@ -13,7 +13,7 @@ Successful product development requires and demands a unified commitment to shar
 
 ![Overview of Roles and Responsibilities](/images/product-development/It's-a-team-effort-2025-03-31.svg)
 
-### Responsibilities to Delivery High Quality Product
+### Responsibilities to Deliver High Quality Product
 
 ![Roles Leads](/images/product-development/Responsibilities-to-deliver-high-quality-product-2025-03-31.svg)
 
