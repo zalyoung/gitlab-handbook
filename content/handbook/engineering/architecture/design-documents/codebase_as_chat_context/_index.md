@@ -80,16 +80,9 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire documents like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
+We are introducing the capability to include **codebase** as an **additional context** to **[Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) requests**.
 
-A good summary is probably at least a paragraph in length.
--->
+To achieve this, we are leveraging the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to index the codebase as vector embeddings, referred to as _Code Embeddings_. When the user asks a question on Duo Chat, the system executes a semantic search over the Code Embeddings to retrieve relevant context from repositories, which is then processed by large language models to generate helpful responses.
 
 ## Motivation
 
@@ -109,6 +102,10 @@ opportunities. The latter may be a more suitable framework in cases where the
 problem is not well-defined or design details not yet established.
 -->
 
+Currently, we don't do a great job of helping customers understand their repository and code base. [Duo](https://docs.gitlab.com/user/gitlab_duo/) users can select and ask questions about specific code blocks, or ask questions of 1 or more files via `/include`. Competitors support a broader aperture -- a user can ask questions about an entire repository, or scope the context to multiple folders, multiple files, and portions of code. This functional gap is commonly mentioned by customers, and here's a [recent summary](https://docs.google.com/presentation/d/1oyuqOCzR4wzWa6Llo-EwwHdsTxMetd17X9bPYf-YMHA/edit#slide=id.g32a4294fe40_0_77) of research in this space.
+
+This initiative aims to bridge a critical functional gap in GitLab's [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) offering by enabling users to interact with their entire codebase through natural language queries. This capability allows users to more effectively understand, navigate, and plan changes to their repositories -- a feature already offered by competing products.
+
 ### Goals
 
 <!--
@@ -119,6 +116,10 @@ List the specific goals / opportunities of the document.
 - What are other less tangible opportunities here?
 -->
 
+The main goal is to add the codebase as additional context to Duo Chat. The MVC is supported by semantic search over code embeddings via the [AI Context Abstraction Layer](../ai_context_abstraction_layer/).
+
+The creation of code embeddings is included in the initial scope of this work. When indexing repositories, the main branch _as well as_ feature branches should be included.
+
 ### Non-Goals
 
 <!--
@@ -127,6 +128,12 @@ optional.
 
 - What is out of scope for this document?
 -->
+
+The following is out of scope for this initiative, but could theoretically be built upon it:
+
+- Support for indexing and querying locally changed files as vector embeddings.
+- A Knowledge Graph representation of the codebase as additional context to Duo Chat.
+- Codebase as additional context for Code Suggestions.
 
 ## Proposal
 
@@ -140,6 +147,38 @@ real nitty-gritty.
 You might want to consider including the pros and cons of the proposed solution so that they can be
 compared with the pros and cons of alternatives.
 -->
+
+### Iterations
+
+- Phase 1: Support code embeddings on the main branch
+- Phase 2: Support code embeddings on feature branches
+- Phase 3: (Optional) Support code embeddings on the local IDE / Language Server
+
+### Components
+
+#### Code Embeddings
+
+We are using the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to index repositories as code embeddings. We are using the One Parser, a common library shared with the Knowledge Graph initiative, to chunk the code files into logical elements, such as classes or functions.
+
+On Phase 1, the indexing is triggered every time there is a merge to the main branch.
+
+On Phase 2, the indexing is triggered when there is a commit pushed to the feature branch.
+
+On Phase 3 (optional), local file changes are included in the codebase context.
+
+#### Codebase as Chat Context - Backend
+
+Given a Chat question, a semantic search is done over the code embeddings through the [AI Context Abstraction Layer](../ai_context_abstraction_layer/). The result from this search is then used to enhance the chat request sent to the AI model.
+
+On Phase 1, the query is done over the code embeddings of the main branch.
+
+On Phase 2, the query is done over the code embeddings of the main branch + the feature branch, with the results from feature branches being prioritized.
+
+On Phase 3 (optional), the query is done over the code embeddings of the main branch + the feature branch + the local changes. The priority order will be: local changes, feature branch, main branch.
+
+#### Codebase as Chat Context - Frontend
+
+[See UI Design](https://gitlab.com/gitlab-org/gitlab/-/issues/523960).
 
 ## Design and implementation details
 
@@ -167,6 +206,70 @@ Diagrams authored in GitLab flavored markdown are preferred. In cases where
 that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
+
+### Code Embeddings
+
+#### Phase 1 - indexing the main branch
+
+_Note: the **Code Embeddings Service** makes use of the framework provided by the **AI Context Abstraction Layer**. This layer sends request to the AI Gateway to generate vector embeddings. That particular part of the workflow is not illustrated here._
+
+```mermaid
+sequenceDiagram
+    actor USR as User
+    participant ABC as ???
+    box GitLab Rails
+      participant GLRAPI as GitLab API
+      participant CES as Code Embeddings Service
+    end
+    participant PRSR as One Parser
+    participant STOR as Embeddings Storage
+
+    USR->>ABC: Pushes / merges a change to the main branch
+    ABC->>GLRAPI: Notifies GitLab Rails of the change in the main branch
+    GLRAPI->>CES: Kicks off indexing off indexing
+    CES->>CES: Determines the changed files
+    CES->>PRSR: Sends the changed files for chunking
+    PRSR->>CES: Returns the chunked contents
+    CES->>CES: Creates vector embeddings of the content
+    CES->>STOR: Stores the embeddings in the selected storage
+```
+
+### Codebase as Chat Context
+
+_Note: the **Code Embeddings Service**  make use of the framework provided by the **AI Context Abstraction Layer**. This layer sends request to the AI Gateway to generate vector embeddings. That particular part of the workflow is not illustrated here._
+
+```mermaid
+sequenceDiagram
+    actor USR as User
+    participant IDE as IDE
+    participant LS as Language Server
+    box GitLab Rails
+      participant GLRAPI as GitLab API
+      participant GLRDUO as GitLab Duo Chat Service
+      participant CES as Code Embeddings Service
+    end
+    participant STOR as Embeddings Storage
+    participant AIGW as AI Gateway
+    participant LLM as LLM
+
+    USR->>IDE: Types a question, indicating `codebase` as additional context
+    IDE->>LS: Sends question, with the signal to include `codebase` as additional context
+    LS->>GLRAPI: Sends question, with the signal to include `codebase` as additional context
+    GLRAPI->>GLRDUO: Sends question, with the signal to include `codebase` as additional context
+    GLRDUO->>CES: Queries for additional context for the user's question
+    CES->>CES: Creates an embedding of the user's question
+    CES->>STOR: Performs a semantic search on code embeddings with the user's question as target
+    STOR->>CES: Returns the search results
+    CES->>GLRDUO: Returns the search results
+    GLRDUO->>AIGW: Sends the question with the embeddings search result as additional context
+    AIGW->>LLM: Sends the question with the embeddings search result as additional context
+    LLM->>AIGW: Returns the answer
+    AIGW->>GLRDUO: Returns the answer
+    GLRDUO->>GLRAPI: Returns the answer
+    GLRAPI->>LS: Returns the answer
+    LS->>IDE: Returns the answer
+    IDE->>USR: Shows the answer
+```
 
 ## Alternative Solutions
 
