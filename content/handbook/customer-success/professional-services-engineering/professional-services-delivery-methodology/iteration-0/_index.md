@@ -23,12 +23,13 @@ Please reference [Iteration 0 Fundamentals](../iteration-0-fundamentals/_index.m
 
 A reminder to [think big in discovery](../discovery/_index.md) and consider [team alignment for production readiness](../iteration-0-fundamentals/_index.md#engagement-planning). Goal is to head into the Initial Planning and Design meetings with our customers confidently and well prepared
 
-The Delivery team can use the Schedule Intake issue or [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to facilitate the meeting
+The Delivery team can use the Schedule Intake issue or [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to facilitate the meeting, while using the Stakeholder Planning template below as a guide
 
-as an output of this meeting:
+Outputs of this meeting:
 1. For larger/complex programs with multiple stakeholders, please work to fill out [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027)
-1. Collaboration Project is pinned to the internal Slack channel and the team knows where to find the latest status
+1. Collaboration Project initially configured and pinned to the internal Slack channel and the team knows where to find the latest status
 1. link to the Internal retro issue is pinned to the channel to track lessons learned thorughout the project
+1. Stakeholder Planning meeting details are confirmed and meeting is scheduled with the Customer
 
 ## Stakeholder Planning Meeting
 
