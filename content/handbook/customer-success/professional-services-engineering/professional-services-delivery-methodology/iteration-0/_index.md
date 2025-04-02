@@ -27,19 +27,19 @@ A reminder to [think big in discovery](../discovery/_index.md) and consider [tea
 
 The Delivery team can use the Schedule Intake issue or [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to facilitate the meeting, while using the Stakeholder Planning template below as a guide
 
-Outputs of this meeting:
-* For larger/complex programs with multiple stakeholders, please work to fill out [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027)
+Outputs from this meeting:
 * Collaboration Project initially configured and pinned to the internal Slack channel and the team knows where to find the latest status
 * link to the Internal retro issue is pinned to the channel to track lessons learned thorughout the project
 * Stakeholder Planning meeting details are confirmed and meeting is scheduled with the Customer
+* For larger/complex programs with multiple stakeholders, please work to fill out [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027)
 
 ## Stakeholder Planning Meeting
 
-During this meeting, the PM on the GitLab & Customer side meet to review the high level scope, confirm resourcers on their end, gather any onboarding material that is still missing, and start to action dependancies needed begin our work. This is an opportunity to meet each other and begin to build trust. Additionally, this is an opportunity to review how we plan to manage the project within GitLab, our expected project velocity, and action items we will need to begin our owrk. We will take this information to our Customer kickoff and review it with the broader project teams. Please use the [Stakeholder Planning](https://docs.google.com/presentation/d/1vVJQrJeGG-yLAeso_iKkb80H5kE7wStyBAj1sj45sY4/edit#slide=id.g923452f41b_1_5) Meeting template to facilitate this meeting
+During this meeting, the PM on the GitLab & Customer side meet to review the high level scope, confirm resourcers on their end, gather any onboarding material that is still missing, and start to action dependancies needed begin our work. This is an opportunity to meet each other and begin to build trust. Additionally, this is an opportunity to review how we plan to manage the project within GitLab, our expected project velocity, and action items we will need to begin our owrk. We will take this information to our Customer kickoff and review it with the broader project teams. Please use the [Stakeholder Planning](https://docs.google.com/presentation/d/1vVJQrJeGG-yLAeso_iKkb80H5kE7wStyBAj1sj45sY4/edit#slide=id.g923452f41b_1_5) Meeting template to facilitate this meeting to review:
 
 1. Project Stakeholders
 1. Project Objectives
-1. Expectations around Project velocity
+1. Expectations around Project velocity and timeline
 1. Review Project Prerequisites
 1. Kickoff Prep
 1. Onboarding validations
@@ -47,7 +47,7 @@ During this meeting, the PM on the GitLab & Customer side meet to review the hig
 
 ## Customer Kickoff
 
-Before we enter Project Kickoff, the goal is to confidently be on the same understanding of Project expectations as the Customer. This is why we have spent so much effort gathering the initial information from both the account team & the Customer. Now its time to validate and hit the ground running
+Now that we have spent the time to gather the success criteria and effectively prepare our Customers, it's time to bring it all together for Kickoff with all relevant Project Stakeholders so we can begin work quickly
 
 * The template for our Kickoff deck can be found [here.](https://docs.google.com/presentation/d/1Sva2u7NGxUTmDxQNBpqmFm_ep9HHlU86WyhON-To5lU/edit#slide=id.g3427bc5c553_0_243)
 * Our SteerCO template can be found [here](https://docs.google.com/presentation/d/1TDKOJeuzR1uy18umu6ovy30l_A986pOEatFn_7eiNbQ/edit#slide=id.g2e563e08cf5_0_1)
