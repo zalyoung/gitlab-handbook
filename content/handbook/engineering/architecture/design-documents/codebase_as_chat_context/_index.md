@@ -156,9 +156,13 @@ compared with the pros and cons of alternatives.
 
 ### Components
 
+#### One Parser
+
+This is a library or API that does the chunking of code files into logical elements, such as classes or functions. This component will be shared with the Knowledge Graph initiative.
+
 #### Code Embeddings
 
-We are using the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to index repositories as code embeddings. We are using the One Parser, a common library shared with the Knowledge Graph initiative, to chunk the code files into logical elements, such as classes or functions.
+We are using the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to index repositories as code embeddings. The code files are chunked into logical elements using **One Parser** before being sent to the AI Context Abstration Layer for indexing.
 
 On Phase 1, the indexing is triggered every time there is a merge to the main branch.
 
@@ -206,6 +210,10 @@ Diagrams authored in GitLab flavored markdown are preferred. In cases where
 that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
+
+### One Parser
+
+TBA
 
 ### Code Embeddings
 
