@@ -416,7 +416,7 @@ Nice to have
 - Expertise in emerging technology, like AI
 - Understanding of security certifications, frameworks, and standards, like FedRAMP, ISO 27001, SOC 2, PCI-DSS, etc.
 
-## Product Security Risk & Metrics 
+### Product Security Risk & Metrics 
 
 A Product Security Risk & Metrics Engineer combines specialized focus on product security risk operations and metrics engineering. This position manages the Product Security Risk Register, designs specialized metrics and data collection systems, and drives cross-functional alignment among Security, Engineering, and Product stakeholders to ensure buy-in and commitment to risk reduction initiatives.
 
