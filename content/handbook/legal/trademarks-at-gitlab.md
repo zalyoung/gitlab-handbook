@@ -31,10 +31,10 @@ After reviewing the above guidelines, reach out to the Brand Team in [#brand](ht
  - Email Address for Notices
  - Legal Contact
 3. [Contact GitLab Legal](/https://handbook.gitlab.com/handbook/legal/#how-to-reach-us) to obtain approval for any **modifications** the third party requests to the Authorization.
-4. Assign the Authorization for countersignature via DocuSign to an appropriate GitLab team member identified in the [Signature Authorization Matrix](/https://handbook.gitlab.com/handbook/finance/authorization-matrix/#authorization-matrix)
+4. Assign the Authorization for countersignature via DocuSign to an appropriate GitLab team member identified in the [Signature Authorization Matrix](/https://handbook.gitlab.com/handbook/finance/authorization-matrix/#authorization-matrix).
 
 ## Third party infringement of GitLab trademarks
-#For GitLab Team Members Only:#
+**For GitLab Team Members Only:**
 
 If we suspect that a third party is making unauthorized use of the term **GitLab**, or any other GitLab trademark, the process below should be followed:
 
@@ -50,7 +50,7 @@ If we suspect that a third party is making unauthorized use of the term **GitLab
 
 ## Third-party Trademarks
 
-For information on use of third-party IP in external materials, see our [Guidelines for Use of Third-party IP in External Materials](/https://handbook.gitlab.com/handbook/legal/ip-public-materials-guidelines/)
+For information on use of third-party IP in external materials, see our [Guidelines for Use of Third-party IP in External Materials](/https://handbook.gitlab.com/handbook/legal/ip-public-materials-guidelines/).
 
 
 
