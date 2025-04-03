@@ -245,7 +245,7 @@ When extracting new data towards Snowflake and the data source is not listed or 
 
 ## Personal data
 
-Extracting [Personal Data](https://handbook.gitlab.com/handbook/legal/privacy/#privacy-terms) into the Data Platofrm (Snowflake) is allowed, but it will require additional review from our Legal Privacy team and, where applicable, the People Team. When requesting to add a new data source, the team member that requests the upstream system/data source is responsible to indicate if the data source contains personal data and which data elements it concerns. If a team member doesn't have enough knowledge to determine whether certain infomration is Personal Data, they should tag a subject matter expert and, if needed, a data engineer.
+Extracting [Personal Data](/handbook/legal/privacy/#privacy-terms) into the Data Platofrm (Snowflake) is allowed, but it will require additional review from our Legal Privacy team and, where applicable, the People Team. When requesting to add a new data source, the team member that requests the upstream system/data source is responsible to indicate if the data source contains personal data and which data elements it concerns. If a team member doesn't have enough knowledge to determine whether certain infomration is Personal Data, they should tag a subject matter expert and, if needed, a data engineer.
 
 Please note that "pseudonymized" data is still Personal Data under privacy legislation.
 
