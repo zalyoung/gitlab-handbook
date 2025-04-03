@@ -244,7 +244,7 @@ The table below is a comparison between the existing GitLab.com features, and no
 | Any feature dependent on [incoming email](https://docs.gitlab.com/ee/administration/incoming_email.html) (`mail_room`) | Cut scope. While we have a [proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/442161#note_1828026768) to have ingest email per cell, we are yet to figure out how to have stable email addresses that can be used even when an organizations moves to a different cell. |
 | Global search | Each cell will have an isolated search cluster. With Cells 1.0, global search will only work within the cell. See the [Cells: Global Search design document](../impacted_features/global-search.md) for more details. |
 | Paid subscription flows | CustomersDot relies on [path based](https://gitlab.com/gitlab-org/gitlab/-/issues/466369) and [OAuth token](https://gitlab.com/gitlab-org/gitlab/-/issues/465811) routing for Single Sign-On and fetching/updating data on GitLab. Without these, all requests from CustomersDot will go to the legacy Cell. |
-| Legacy CI_JOB_TOKEN | The legacy CI_JOB_TOKEN cannot be routed because it appears in the request body. Customers will need use the JWT format in order to be able to utilise CI_JOB_TOKEN outside of the legacy cell. |
+| Legacy CI_JOB_TOKEN | The legacy CI_JOB_TOKEN cannot be routed because it does not contain routing information, and can be passed in the request body. Customers will need use the JWT format in order to be able to utilise CI_JOB_TOKEN outside of the legacy cell. |
 
 ## Questions
 
