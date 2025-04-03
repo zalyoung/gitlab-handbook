@@ -295,6 +295,7 @@ From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/is
   - Most top-level Groups that are matched to organizations with more than one top-level Group are using only a single pricing tier (59%).
 - Most of the current top-level Groups are set to public visibility (85%).
 - Less than 0.5% of top-level Groups share Groups with another top-level Group.
+  These groups will be unable to migrate to an Organization until we determine a solution.
 
 Based on this analysis we expect to see similar behavior when rolling out Organizations.
 
