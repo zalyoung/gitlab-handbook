@@ -454,7 +454,6 @@ Eligible team members will receive the lower of:
 
 [GitLab’s Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy will run concurrently with NCL and NCP topping up the statutory pay to 100% regular salary.
 
-
 ### Other Job-Protected Leave
 
 The following leave types run concurrently with GitLab PTO. Team members should initiate leave by selecting the appropriate option in `Workday`. If none applies, the team members should notify their manager and the Absence Management team `leaves@gitlab.com` to initiate leave.
