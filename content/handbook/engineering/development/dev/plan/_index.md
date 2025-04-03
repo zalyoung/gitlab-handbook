@@ -104,10 +104,6 @@ This is the recommended workflow for all initiatives:
 
 Team members should collaborate to continuously refine the iterations and update the design document as complexity is revealed. This approach ensures that all stakeholders have a clear, up-to-date understanding of the initiatives's progress and implementation details.
 
-Examples of successful themes:
-
-1. **Requirements Management** ([#f_requirements-management](https://app.slack.com/client/T02592416/CUEQBQ7K8), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2703))
-1. **Jira Importer** ([#f_jira-importer](https://app.slack.com/client/T02592416/CUS6GB2JH), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2738))
 
 ### Roadmap
 
