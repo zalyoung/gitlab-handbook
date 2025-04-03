@@ -29,7 +29,8 @@ Senior Engineering Manager, Development requirements match those of [Senior Mana
 
 ### Director, Development
 
-The Director of Development role extends the [Senior Engineering Manager](#senior-engineering-manager-development) role.
+- The Director of Development role extends the [Senior Engineering Manager](#senior-engineering-manager-development) role.
+- The Director of Engineering role reports to the [Senior Director, Development](#senior-director-development).
 
 #### Job Grade
 
@@ -42,18 +43,6 @@ Director, Development responsibilities extend those of [Director, Engineering](/
 #### Requirements
 
 Director, Development requirements match those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-requirements).
-
-#### Nice-to-have Requirements
-
-- Be a user of GitLab, or familiar with our company
-- Prior Developer Platform or Tool industry experience
-- Prior product company experience
-- Prior high-growth startup experience
-- Experience working on systems at massive (i.e. consumer) scale
-- Deep open source experience
-- Experience working with global teams
-- We value diversity, inclusion and belonging in leadership
-- Be inquisitive: Ask great questions
 
 ### Distinguished Engineer
 
