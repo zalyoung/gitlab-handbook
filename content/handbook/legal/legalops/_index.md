@@ -34,6 +34,7 @@ GitLab uses Brightflag’s Legal Spend Management platform to process and review
 
 #### Invoice Approval
 
+{{% details summary="Invoice Approval Process" %}}
 Any new matters will need to be created in Brightflag. The process is as follows:
 
 - When a law firm is engaged, log into Brightflag via Okta to [create the matter](https://help.brightflag.com/hc/en-us/articles/360002612998-How-to-Create-a-Matter) and assign the law firm.
@@ -45,6 +46,13 @@ When an invoice is pending your review, you will receive an email notification. 
 - [How to Review an Invoice in Brightflag](https://help.brightflag.com/hc/en-us/articles/18312240752285-How-to-Review-an-Invoice-in-Brightflag)
 
 Once the final invoice for a matter is received, close the matter to prevent further activity (invoice submission and accrual email notifications).
+<!-- vale handbook.Repetition = YES -->
+<style>
+    details > details {
+        margin-bottom: 1.5em;
+    }
+</style>
+{{% /details %}}
 
 ### Accruals Process
 
