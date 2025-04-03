@@ -17,6 +17,8 @@ When the specific state is reached, the tickets within Zendesk using Dev Pulse
 are updated to indicate there has been a state change on the issue or merge
 request they were waiting on.
 
+Implementation details about Dev Pulse can be found in the [documentation](../readiness/operations/docs/zendesk/dev_pulse).
+
 ## Using it
 
 ### How to mark a ticket as waiting on a bug issue or MR
@@ -46,10 +48,10 @@ the process has been initiated.
 
 ### How to mark a ticket as waiting on a RFH
 
-To mark a ticket as waiting on a feature request issue or MR, take the
+To mark a ticket as waiting on a [Request for Help (RFH) issue](../workflows/how-to-get-help.md), take the
 following steps:
 
-1. Add the link to the feature request issue or MR in the Zendesk ticket field
+1. Add the link to the RFH in the Zendesk ticket field
    `Waiting on issue or merge request`. Make sure to remove any extra parameters
    from the URL (anything after the IID of the issue or MR)
 1. Apply the macro `General::Waiting on RFH`
@@ -69,7 +71,7 @@ A so-called "parent problem ticket" is used for each issue/MR to connect
 all regular tickets that are waiting on the same issue/MR together.
 
 Updating the parent problem ticket will result in all the tickets attached to it
-(i.e. the other tickets waiting on a bug or feature request issue/MR) to also be
+(That is, the other tickets waiting on a bug or feature request issue/MR) to also be
 updated. To ensure that works properly, follow these steps:
 
 1. Type out the public comment you wish for all the attached tickets to use
@@ -101,10 +103,10 @@ Slack channel.
 
 ### Where can I view a list of active parent problem tickets?
 
-You can view these via the view `Links to bugs and feature requests` in the
+You can view these by using the view `Links to bugs and feature requests` in the
 Zendesk instance.
 
 ### Where can I view tickets waiting on a bug or feature request?
 
-You can view these via the view `Bug or Feature Request tickets` in the Zendesk
+You can view these by using the view `Bug or Feature Request tickets` in the Zendesk
 instance.
