@@ -94,9 +94,6 @@
 /content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake @darmans
 /content/handbook/customer-success/professional-services-engineering/education-services/ @seanjsandoval @IanErnst 
 
-^[customer-support-operations]
-/content/handbook/security/customer-support-operations/ @lyle @jcolyer @dtragjasi
-
 ^[eba-team]
 /content/handbook/eba/ @jrotenberry 
 
@@ -564,6 +561,7 @@
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
 /content/handbook/security/corporate/ @smanzuik @ericrubin @dzhu-gl @mbeee
+/content/handbook/security/customer-support-operations/ @lyle @jcolyer @dtragjasi
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
@@ -586,6 +584,8 @@
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [Security Operations]
 /content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
+
+
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
