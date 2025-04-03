@@ -3,6 +3,16 @@ title: "Professional Services Delivery Methodology"
 description: "Learn the processes and methodology that GitLab Professional Services uses to help ensure Customer Success."
 ---
 
+- [What is the Professional Services Delivery Methodology (PSDM)](#what-is-the-professional-services-delivery-methodology-psdm)
+- [Managing a Project in GitLab](#managing-a-project-in-gitlab)
+- [Project Velocity and Iteration Scheduling](#project-velocity-and-iteration-scheduling)
+- [Status Planning](#status-planning)
+- [Status Reporting](#status-reporting)
+- [Mitigating Risk via RAID Board](#mitigating-risk-via-raid-board)
+- [Internal Retrospective Guidelines](#internal-retrospective-guidelines)
+- [Customer Retrospective Guidelines](#customer-retrospective-guidelines)
+- [Guidelines for Iteration based PSDM](#guidelines-for-Iteration-based-psdm)
+
 ## What is the Professional Services Delivery Methodology (PSDM)
 
 The Professional Services Delivery Methodology (PSDM) is the guiding framework for Program and Project Delivery within GitLab. The goal is to ensure the PS Delivery team operates within a predictable timeframe against the Project scope while prioritizing Customer Success. This is achieved through:
@@ -25,7 +35,7 @@ For initial configuration of GitLab as a Project Management tool, see [the confi
 
 > **NOTE:** Any issues marked as "internal" are still visible to anyone who has "developer" access into the GitLab Collaboration project. This includes people outside of GitLab. It is recommended to use the Project's "Internal Epic" for confidential communications.
 
-## Project Management Mapping in GitLab
+### Project Management Mapping in GitLab
 
 | PM Term    | GitLab Definition |
 | -------- | ------- |
@@ -41,7 +51,7 @@ For initial configuration of GitLab as a Project Management tool, see [the confi
 
 For additional clarity on mapping Agile terminology to GitLab, reference [this guide](./agile-to-gitlab-terminology/_index.md).
 
-## Label Guidelines
+### Label Guidelines
 
 Labels are the most effective way to generate reports around Projects and organize information according to the Project team's needs. While teams have flexibility to create labels that meet their specific project reporting requirements, there are established guidelines for label generation for internal use.
 
@@ -67,7 +77,7 @@ When working within an Iteration/Sprint schedule, there are five key components:
 
 When not working within Iterations, it's still important to clearly communicate the project velocity to ensure consistent resource alignment. For example: "We anticipate working 40 hours/week for 5 weeks to perform a successful upgrade and seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance." This is validated during the Stakeholder Planning meeting and Customer Kickoff.
 
-## Iteration/Status Planning & Review
+## Status Planning
 
 For Agile SOWs, the Program Manager / Project Manager provides strategic direction for the project, including the vision, product roadmap, release goals, and iteration objectives. The Program Manager / Project Manager is responsible for managing the product backlog by inserting, re-prioritizing, refining, or removing items as needed. This can occur at any time until the iteration scope is defined and committed to by the development team.
 
@@ -137,7 +147,7 @@ When documenting a risk, follow these guidelines:
    - Use the "Escalated" label for risks requiring immediate attention that impact project progress
    - Escalated items should be surfaced in the Professional Services Portfolio report
 
-## Tracking Project Wins, Business Development Items, and Customer Stories
+## Internal Retrospective Guidelines
 
 The Internal Retrospective issue serves as an ongoing reflection mechanism throughout the project lifecycle, focusing on:
 
@@ -311,7 +321,7 @@ After the retrospective session:
 - [Retrospective Facilitation Issue/Guide](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/cpr_gitops/issue_templates/retrospective.md)
 - [Customer Survey Template](https://gitlab.gainsightcloud.com/v1/sites/survey/SurveyResponse?at=1I0025DXE6KKG8JCV1GWLAUNW5DYWBNMUL90)
 
-## Guidelines for PSDM
+## Guidelines for Iteration based PSDM
 
 The full PSDM implementation with a complete Iteration schedule is required only when:
 
