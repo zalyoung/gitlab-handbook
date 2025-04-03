@@ -154,7 +154,7 @@ ADD COLUMN is_from_csp_group BOOLEAN NOT NULL DEFAULT FALSE;
 
 ### CSP Group Designation
 
-1. Instance administrator navigates to Admin Area > Settings > Compliance.
+1. Instance administrator navigates to `Admin Area > Settings > Security and compliance`.
 2. Administrator selects a top-level group to designate as the CSP Group.
 3. System creates an entry in the `instance_csp_namespace` table.
 4. UI updates to show special indicators for the CSP Group.
