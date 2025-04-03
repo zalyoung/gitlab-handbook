@@ -45,6 +45,15 @@ When an invoice is pending your review, you will receive an email notification. 
 
 - [How to Review an Invoice in Brightflag](https://help.brightflag.com/hc/en-us/articles/18312240752285-How-to-Review-an-Invoice-in-Brightflag)
 
+**Workflow:** The invoice workflow is assigned during the AI Analysis. You can add reviewers by clicking the edit workflow button.
+
+**Flags:** Flags are potential adjustments identified by the AI Analysis. Click the flag to view the specific line items. You can toggle them on and off to adjust the invoice amount based on the flag.
+
+- You can also make adjustments at the line item level by clicking the amount you'd like to update.
+- The reason you input will be sent to the vendor.
+
+**Resourcing:** Shows spend based on the timekeeper. You can click the role to see all work done by that timekeeper.
+
 Once the final invoice for a matter is received, close the matter to prevent further activity (invoice submission and accrual email notifications).
 <!-- vale handbook.Repetition = YES -->
 <style>
