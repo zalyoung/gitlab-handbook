@@ -1,6 +1,6 @@
 ---
 title: Sandbox
-description: Operations documentation page for Zendesk sandboxex
+description: Operations documentation page for Zendesk sandboxes
 canonical_path: "/handbook/security/customer-support-operations/docs/zendesk/sandbox"
 ---
 
