@@ -61,8 +61,7 @@ organization and into their own private Organization.
 ## Fundamentals of Organizations
 
 - Organization will wrap around nearly all GitLab features.
-- It won't be possible to read or write data between Organizations. Read more
-- about [Organization Isolation](isolation.md).
+- It won't be possible to read or write data between Organizations. Read more about [Organization Isolation](isolation.md).
 - Many product features will remain unchanged, but most instance level features will move down and other features up to Organization level. Level changes are elaborated [below](#level-structure).
 - Users can only be a Member of a single Organization.
 - They can be owners of the Organization or just standard members.
@@ -287,7 +286,7 @@ release is to bring all remaining features to the Organization level.
 
 From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/issues/16166#note_1353332877), we retrieved the following information about Users and Organizations:
 
-- For the users that are connected to an organization the vast majority of them (98%) are only associated with a single organization. This means we expect about 2% of Users to navigate across multiple Organizations.
+- For the users that are connected to an organization the vast majority of them (98%) are only associated with a single organization. This means we expect about 2% of Users have a need to navigate across multiple Organizations.
 - The majority of Users (78%) are only Members of a single top-level Group.
 - 25% of current top-level Groups can be matched to an organization.
   - Most of these top-level Groups (83%) are associated with an organization that has more than one top-level Group.
@@ -295,7 +294,7 @@ From an initial [data exploration](https://gitlab.com/gitlab-data/analytics/-/is
   - Most top-level Groups that are matched to organizations with more than one top-level Group are assumed to be intended to be combined into a single organization (82%).
   - Most top-level Groups that are matched to organizations with more than one top-level Group are using only a single pricing tier (59%).
 - Most of the current top-level Groups are set to public visibility (85%).
-- Less than 0.5% of top-level Groups share Groups with another top-level Group. However, this means we could potentially break 76,000 existing links between top-level Groups by introducing the Organization.
+- Less than 0.5% of top-level Groups share Groups with another top-level Group.
 
 Based on this analysis we expect to see similar behavior when rolling out Organizations.
 
