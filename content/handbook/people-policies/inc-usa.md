@@ -15,16 +15,41 @@ The policy of equal employment opportunity (EEO) and anti-discrimination applies
 
 The policies and principles of EEO also apply to the selection and treatment of independent contractors, personnel working on our premises who are employed by temporary agencies and any other persons or firms doing business for or with GitLab.
 
+### Commitment to Individuals with Disabilities
+
+GitLab will recruit, hire, train, and promote persons in all job titles without regard to disability, and will ensure that all other personnel actions are administered without regard to disability. All employment decisions will be based only on valid job requirements.
+
+### Anti-Discrimination and Anti-Retaliation for Disability-Related Activities
+
+GitLab prohibits harassment, intimidation, threats, coercion, or discrimination against employees and applicants because they:
+
+- Assist or participate in an investigation, compliance evaluation, or other activity related to the administration of Section 503 or any other federal, state, or local law requiring equal opportunity for individuals with disabilities
+- Oppose any act or practice made unlawful by Section 503 or its implementing regulations, or any other federal, state, or local law requiring equal opportunity for individuals with disabilities
+- Exercise any other right protected by Section 503 or its implementing regulations
+
+### Executive Support for Affirmative Action
+
+Bill Stapnes, CEO of GitLab, fully supports GitLab's affirmative action program for individuals with disabilities and is committed to the implementation of the company's equal opportunity and affirmative action policies.
+
 ### Dissemination and Implementation of Policy
 
 The officers of GitLab, Inc. will be responsible for the dissemination of this policy. Directors, managers and supervisors are responsible for implementing equal employment practices within each department. The People Group is responsible for overall compliance and will maintain personnel records in compliance with applicable laws and regulations.
+
+### Responsibility for Implementation
+
+Rob Allen, CPO has been assigned overall responsibility for implementation of GitLab's affirmative action activities for individuals with disabilities. This official's identity appears on all internal and external communications regarding the company's affirmative action program.
+
+### Audit and Reporting System
+
+GitLab maintains an audit and reporting system to measure the effectiveness of our affirmative action program for individuals with disabilities, indicate any need for remedial action, determine the degree to which objectives have been attained, determine whether individuals with disabilities have had the opportunity to participate in company-sponsored activities, and measure compliance with the program's specific obligations.
 
 ### Procedures
 
 GitLab administers our EEO policy fairly and consistently by:
 
 - Posting all required notices regarding employee rights under EEO laws in areas highly visible to team members.
-- Advertising for job openings with the statement "We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity or expression, pregnancy, age, national origin, disability status, genetic information, protected veteran status, or any other characteristic protected by law."
+- Providing these notices in formats that are accessible and understandable to individuals with disabilities, including Braille, large print, and posting notices at a lower height for persons using wheelchairs, as appropriate.
+- Advertising for job openings with the statement "GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab’s [EEO Policy](https://about.gitlab.com/handbook/people-policies/inc-usa/#equal-employment-opportunity-policy) and [EEO is the Law](https://handbook.gitlab.com/handbook/labor-and-employment-notices/#eeoc-us-equal-employment-opportunity-commission-notices). If you have a disability or special need that requires accommodation, please let us know during the recruiting process."
 - Posting all required job openings with the appropriate state agencies.
 - Forbidding retaliation against any individual who files a charge of discrimination, opposes a practice believed to be unlawful discrimination, reports harassment, or assists, testifies or participates in an EEO agency proceeding.
 - Requiring team members to report to a member of management, an HR representative or the Director of Legal - Employment any apparent discrimination or harassment. The report should be made within 48 hours of the incident.
