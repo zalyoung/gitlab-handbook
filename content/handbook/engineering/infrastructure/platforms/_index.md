@@ -4,7 +4,7 @@ title: "The Infrastructure Platforms Section"
 
 ## Mission
 
-The Infrastructure Platforms section enables GitLab Engineering to build and deliver **safe**, **scalable** and **efficient** features for multi-tenant and single-tenant GitLab SaaS platforms (GitLab.com and GitLab Dedicated).
+The Infrastructure Platforms section enables GitLab Engineering to build and deliver **safe**, **scalable** and **efficient** features for multi-tenant and single-tenant GitLab platforms (GitLab.com, GitLab Dedicated, and Self-managed).
 
 ## Vision
 
@@ -16,9 +16,7 @@ To deliver on the mission, we are in the process of formalising the building blo
 
 ## Direction
 
-In FY25, teams in the Platforms Section of the Infrastructure Department have collaborated on [the "North Star"](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1097), which is then used to set [the SaaS Platforms Strategy](https://gitlab.com/groups/gitlab-com/-/epics/2243).
-
-Initiatives driven within the Platforms section, often spanning multiple quarters, are represented on the [SaaS Platforms section epic](https://gitlab.com/groups/gitlab-com/-/epics/2115).
+Initiatives driven within the Platforms section, often spanning multiple quarters, are represented on the [Infrastructure Platforms section epic](https://gitlab.com/groups/gitlab-com/-/epics/2115).
 
 ## How we work
 
