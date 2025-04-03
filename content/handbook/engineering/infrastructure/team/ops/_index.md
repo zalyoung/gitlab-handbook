@@ -4,7 +4,7 @@ title: "Production Engineering Ops Team"
 
 ## Mission
 
-The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes that are vital to the succesfull operations of GitLab.
+The Ops team is an infrastructure team under Infrastructure Platforms that focuses on improving processes that are vital to the succesfull operations of GitLab.
 
 ## Vision
 
@@ -30,7 +30,7 @@ Should you require assistance from the Ops team, please open an issue in the [Pr
 ### Project Management
 
 The Ops team top level Epic can be found [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176).
-We follow the Infrastructure SaaS Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/).
+We follow the Infrastructure Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/).
 
 #### OKRs
 
