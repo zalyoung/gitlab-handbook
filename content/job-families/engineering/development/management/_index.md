@@ -75,23 +75,12 @@ The Distinguished Engineer role extends the [Principal Engineer](/job-families/e
 
 ### Senior Director, Development
 
-The Senior Director, Development role extends the [Director, Development](#director-development) role.  This role is defined by the functional area(s) the person manages.
+- The Senior Director, Development reports to the [VP of Development](#vp-of-development).
+- The Senior Director, Development role extends the [Director, Development](#director-development) role.  This role is defined by the functional area(s) the person manages.
 
 #### Job Grade
 
 The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Responsibilities
-
-- Organizational credibility: Past experience in managing an entire functional area of Engineering
-- Prioritization of hiring efforts to focus on areas of most need and quickly recruit top engineering talent
-- Motivate and communicate across multiple levels of their department
-- Have successful peer partnerships with other department leaders in Engineering, and cross-functionally (Product Management, sales, marketing, alliances, etc)
-- Provide a consistent/successful interface between Engineering Development and Product Management
-- Development, measurement, and management of key metrics for functional area's performance
-- Drive high throughput
-- Standardize the development process where needed, allow local differences where advantages
-- Help shift the organization toward CD over time
 
 ### Engineering Fellow
 

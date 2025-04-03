@@ -154,15 +154,15 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 
 - Extends that of the [Principal Engineer](#principal-engineer) requirements
 
-### Senior Director, Development
+### Senior Director, Engineering
 
-*The Senior Director, Development reports to the [VP of Development](#vp-of-development).
+The Senior Director, Engineering reports to the [VP of Engineering](#vp-of-engineering).
 
-#### Senior Director, Development Job Grade
+#### Senior Director, Engineering Job Grade
 
-The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The  Senior Director, Engineering is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Director, Development Responsibilities
+#### Senior Director, Engineering Responsibilities
 
 - This role is defined by the functional area(s) the person manages
 - Extends that of the [Director, Engineering](#director-engineering) responsibilities
@@ -170,13 +170,15 @@ The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compen
 - Prioritization of hiring efforts to focus on areas of most need and quickly recruit top engineering talent
 - Motivate and communicate across multiple levels of their department
 - Have successful peer partnerships with other department leaders in Engineering, and cross-functionally (Product Management, sales, marketing, alliances, etc)
-- Provide a consistent/successful interface between Engineering Development and Product Management
+- Provide a consistent/successful interface between Engineering Development, Product Management, and Infrastructure
 - Development, measurement, and management of key metrics for functional area's performance
 - Drive high throughput
 - Standardize the development process where needed, allow local differences where advantages
 - Help shift the organization toward CD over time
+- Develop leadership skills within the organization and mentor other leaders
+- Develop strategies and new initiatives with their team to advance on an organizational and technical level both the department, the company and the product
 
-#### Senior Director, Development Requirements
+#### Senior Director, Engineering Requirements
 
 - Extends that of the [Director, Engineering](#director-engineering) requirements
 
