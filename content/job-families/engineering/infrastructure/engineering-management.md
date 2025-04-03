@@ -132,37 +132,25 @@ They are capable of managing multiple teams within a specialty, and their projec
 
 The Senior Engineering Manager, Infrastructure is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+#### Senior Engineering Manager, Infrastructure (Platform) Responsibilities
 
-- Manage the Delivery and Scalability Infrastructure teams
-- Conduct managerial interviews for candidates, and train engineering managers to do said interviews
-- Generate and implement process improvements, especially cross-team processes
-- Hold regular [1:1s](/handbook/leadership/1-1/) with team managers and skip-level 1:1s with all members of their team
-- Management mentorship
+Senior Engineering Manager, Infrastructure responsibilities extend those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-responsibilities).
+
 - Participate in either the [Release Manager rotation](https://gitlab.com/gitlab-org/release/docs/-/tree/master/release_manager#responsibilities) **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure that the availability goals for GitLab.com are met.
 
-#### Senior Engineering Manager, Delivery and Scalability Requirements
+#### Senior Engineering Manager, Infrastructure (Platform) Requirements
+
+Senior Engineering Manager, Infrastructure requirements extend those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
 
 - Technical credibility: Past experience as a product engineer and managing teams thereof
 - Management credibility: Past experience (3 to 5 years) as an engineering manager
-- Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at, at least, one recent job
-- Ability to be successful managing at a remote-only company
-- Value and exhibit servant-leadership behaviors
 
-#### Nice-to-have Requirements
+#### Nice-to-haves
 
-- Be a user of GitLab, or familiar with our company
-- Prior Developer Platform or Tool industry experience
-- Prior product company experience
-- Prior high-growth startup experience
-- Experience working on systems at massive (i.e. consumer) scale
-- Deep open source experience
-- Experience working with global teams
-- We value [diversity, inclusion and belonging](/handbook/company/culture/inclusion/) for all team members
-- Be inquisitive: Ask great question
+Senior Engineering Manager, Infrastructure nice-to-have requirements extend those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-nice-to-have-requirements).
+
 - Hire and manage multiple teams that live our [values](/handbook/values/)
-- Maintain an environment where Team Members can thrive and the team produces [Results](/handbook/values/#results)
+- Maintain an environment where Team Members can thrive and the team produces [Results for Customers](/handbook/values/#results)
 
 ### Director, Infrastructure (Reliability)
 
