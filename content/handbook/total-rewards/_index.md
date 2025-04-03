@@ -16,7 +16,6 @@ title: GitLab's Guide to Total Rewards
 
 **What:** [General Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)
 
-**How:** [Global Benefits Survey](/handbook/total-rewards/benefits/benefits-survey/#global-benefits-survey)
 {{% /card %}}
 
 {{% card header="**Equity**" %}}
