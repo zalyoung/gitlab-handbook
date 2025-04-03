@@ -15,8 +15,6 @@ toc_hide: true
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
 
-[TOC]
-
 ## Motivation
 
 Continuing the work from [Covered Experience SLIs](_index.md), this addendum focus on the augmentation of the Covered Experience Framework
