@@ -45,6 +45,7 @@ Before the transition meeting:
 ### Meeting Execution
 
 Focus the discussion on:
+
 - Business drivers and context
 - SOW validation and clarification
 - Technical requirements overview
@@ -190,3 +191,4 @@ notes: |
    Summary of Engagement:
    Support should know:
    Collaboration Project RAID(Issue) Board Link:
+   
