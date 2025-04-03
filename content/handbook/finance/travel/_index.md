@@ -92,7 +92,7 @@ See the [Policy details](https://drive.google.com/file/d/1pMeC-mTfzuRhlwjQA2lvzo
 1. Contact International SOS
 1. They will provide instructions for submitting claims to the insurer
 
-#### Visa Ltter Documentation
+#### Visa Letter Documentation
 
 For team members needing confirmation of coverage for visa applications:
 
