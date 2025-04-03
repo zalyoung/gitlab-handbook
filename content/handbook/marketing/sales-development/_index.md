@@ -1893,7 +1893,7 @@ The below apply for all inbound-related leads for both the SDR and BDR teams. Pl
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
-| Response Time for leads            | - Net New MQLs: 15 minutes <br> - Inbound Responses: 8 work hours |
+| Response Time for leads            | - Net New MQLs: 2 work hours <br> - Inbound Responses: 8 work hours |
 | Low vs High Touch Groove Flow Usage    | - Over 70% of inbound leads enrolled to High Touch Flows.        |
 | Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
 | Two way conversations           | - 50 per week.        |
