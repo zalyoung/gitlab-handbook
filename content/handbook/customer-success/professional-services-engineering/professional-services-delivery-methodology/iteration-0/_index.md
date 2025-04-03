@@ -59,12 +59,13 @@ Focus the discussion on:
 
 Following the meeting, ensure completion of:
 
-- [ ] Collaboration Project setup and internal issue pinned to Slack channel
+- [ ] Internal team understands where to find the latest status
+- [ ] Collaboration Project setup and pinned to Slack channel, along with the internal retrospective issue 
 - [ ] Stakeholder Planning meeting scheduled with the Customer
 - [ ] Technical prerequisites identified for discussion with customer
 - [ ] Initial risks documented
 
-> **💡 Tip:** Think big in discovery and consider team alignment for production readiness. The goal is to enter Planning and Design sessions confidently and well-prepared.
+> **💡 Tip:** Think big in discovery and consider team alignment for team readiness. The goal is to enter Planning and Design sessions confidently, with the Customer well-prepared.
 
 ---
 
