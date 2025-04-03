@@ -1,6 +1,6 @@
 ---
 title: Covered Experience SLIs
-status: proposed
+status: accepted
 creation-date: "2025-02-03"
 authors: [ "@hmerscher" ]
 coaches: [ "@reprazent", "@andrewn" ]
@@ -14,8 +14,6 @@ toc_hide: true
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
-
-[TOC]
 
 ## Glossary
 
