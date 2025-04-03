@@ -3,7 +3,7 @@ title: "Iteration 0"
 description: "Iteration 0 starts with our internal EM>PS Transition meeting and continues through the Planning and Design Sessions with the Customer. This critical phase establishes project foundations and ensures alignment between GitLab and Customer teams."
 ---
 
-**Quick Links:** [PSDM Guidelines](../_index.md#guidelines-for-iteration-based-psdm) | [Iteration 0 Fundamentals](../iteration-0-fundamentals/_index.md) | [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits)
+**Quick Links:** | [Iteration 0 Fundamentals](../iteration-0-fundamentals/_index.md) | [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits)
 
 ## Phase Overview
 
