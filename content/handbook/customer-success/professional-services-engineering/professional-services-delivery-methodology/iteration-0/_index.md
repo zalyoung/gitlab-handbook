@@ -9,29 +9,26 @@ Iteration 0 starts with our internal EM>PS Transition meeting and goes through t
 
 ## EM>PS Transition
 
-During this phase, the Delivery team works to gather context on the account (business drivers, etc), and validate the SOW & next steps
+During this phase, the Delivery team works to gather context on the account (business drivers, etc), and validate the SOW & next steps. The goal of this meeting is to ensure the Delivery team is prepared, and we have a plan heading into Stakeholder Planning, Kickoff, and P&D sessions with our customers
 
 We use the Scheduling Intake, and Scoping issues a guide for this initial meeting. Both of which, are attached to the Customer Epic
-
-The output of this meeting is to ensure the Delivery team is prepared, and we have a plan heading into Stakeholder Planning, Kickoff, and P&D sessions with our customers
 
 ### Meeting prep & facilitation guidance
 
 After reviewing the statement of work and Kantata, The PM works to setup the intial transition meeting with the Engagement Manager, Technical resource(s) assigned, Account Managers, and Customer Success Managers (if assigned)
 
-Note: For Consulting Block SKUs The DoW is used to add additional detail to a Consulting Block SKU that has been sold. A [DoW](https://docs.google.com/document/d/1ZsMUvBUL9kt3CqB4YjYlX-E1uEJz-elO/edit) is created by the Engagement Management team and confirmed by the Customer. The DOW should be attached to the Customer Epic prior to the Sales to Delivery Transition call
+Note: For Consulting Block SKUs, The DoW is used to add additional detail to a Consulting Block SKU that has been sold. A [DoW](https://docs.google.com/document/d/1ZsMUvBUL9kt3CqB4YjYlX-E1uEJz-elO/edit) is created by the Engagement Management team and confirmed by the Customer. The DOW should be attached to the Customer Epic prior to the Sales to Delivery Transition call
 
 Please reference [Iteration 0 Fundamentals](../iteration-0-fundamentals/_index.md) as we prepare for the transition meeting and work through Customer Kickoff and P&D. It is valuable to reference our [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) to gather prerequisite data we will be sharing in our Stakeholder Planning & Kickoff review with the Customer
 
 A reminder to [think big in discovery](../discovery/_index.md) and consider [team alignment for production readiness](../iteration-0-fundamentals/_index.md#engagement-planning). Goal is to head into the Initial Planning and Design meetings with our customers confidently and well prepared
 
-The Delivery team can use the Schedule Intake issue or [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to facilitate the meeting, while using the Stakeholder Planning template below as a guide
+The PM can use the Schedule Intake issue or [this template](https://docs.google.com/document/d/1bpyhc-a1z573EsyIQtUE-7HS_QauDVmQsHP25PD9i1A/edit) to facilitate the meeting, while using the Stakeholder Planning template below as a guide
 
 Outputs from this meeting:
-* Collaboration Project initially configured and pinned to the internal Slack channel and the team knows where to find the latest status
-* link to the Internal retro issue is pinned to the channel to track lessons learned thorughout the project
+* Collaboration Project & internal issue are pinned to the internal Slack channel. This way, the team knows where to find the latest status and to track lessons learned/project wins
 * Stakeholder Planning meeting details are confirmed and meeting is scheduled with the Customer
-* For larger/complex programs with multiple stakeholders, please work to fill out [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027)
+* For larger/complex programs with multiple stakeholders, please use [this RACI](https://docs.google.com/spreadsheets/d/1nb_sEI-M3IwNgkYQA2uKAo9IDijstPtUGCtLsHlwrtI/edit?gid=1394419027#gid=1394419027) as template
 
 ## Stakeholder Planning Meeting
 
