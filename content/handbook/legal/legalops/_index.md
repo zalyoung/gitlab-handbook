@@ -14,20 +14,41 @@ Check out [our issue board](https://gitlab.com/groups/gitlab-com/-/boards/921459
 
 ## Legal Billing Process
 
-GitLab uses Brightflag’s Legal Spend Management platform to process and review legal invoices and accruals. For more information about invoicing and payment, see the [Accounts Payable handbook](/handbook/finance/accounts-payable/).
+GitLab uses Brightflag’s Legal Spend Management platform to process and review legal invoices and accruals.
 
-### Invoices
+### Brightflag Invoicing Process
 
-- All outside counsel invoices should be uploaded to the Brightflag portal.
-- Brightflag’s AI review flags any charges that do not align with our approved timekeeper rates and billing guidelines.
-- Invoices will be automatically routed to the internal matter lead and/or department head for approval. Approvers can tag other Brightflag users to provide input if needed.
-  - For more information about how to review an invoice in Brightflag, see [this guide](https://help.brightflag.com/hc/en-us/articles/18312240752285-How-to-Review-an-Invoice-in-Brightflag).
-- Approved invoices are sent to ap@gitlab.com.
+**Normal Flow**: Matter Creation → Invoice Upload → Invoice Verification → AI Analysis → Invoice Review → Accounts Payable → Matter Management & Reporting
 
-### Accruals
+**Exception Flow**: If invoices are rejected during Invoice Review, they are sent back to the Law Firm for revision.
 
-- Accruals submission reminder notifications are automatically sent through Brightflag to ensure vendors submit their accruals on time.
-  - Two automated reminder emails are sent at 06:15 UTC on the following days:
+| Stage | Process | Activities | Responsible |
+|-------|---------|------------|--------|
+| **1** | **Matter Creation** | • GitLab users create matters & give law firms access<br>• Add entity and finance allocations to the matter | Internal Matter Lead |
+| **2** | **Invoice Upload** | • Law firm uploads invoice to Brightflag | Law Firm |
+| **3** | **Invoice Verification** | • Invoice extraction<br>• High-level detail verification | Brightflag |
+| **4** | **AI Analysis** | • Identify billing guideline breaches<br>• AI Categorization<br>• Assign approval workflows | Brightflag |
+| **5** | **Invoice Review** | • Flag review<br>• Invoice adjustments<br>• Rejected invoices sent back to law firm | Internal Matter Lead |
+| **6** | **Accounts Payable** | • Approved invoices sent to AP | Brightflag |
+| **7** | **Matter Management & Reporting** | • Budgeting<br>• Accruals | Internal Matter Lead and Legal Ops |
+
+#### Invoice Approval
+
+Any new matters will need to be created in Brightflag. The process is as follows:
+- When a law firm is engaged, log into Brightflag via Okta to [create the matter](https://help.brightflag.com/hc/en-us/articles/360002612998-How-to-Create-a-Matter) and assign the law firm.
+- Once a matter is created, the law firm can begin submitting invoices.
+- Use Brightflag to review and approve/reject invoices.
+
+When an invoice is pending your review, you will receive an email notification. Alternatively, you can check your Review Queue to monitor invoices assigned to you.
+
+- [How to Review an Invoice in Brightflag](https://help.brightflag.com/hc/en-us/articles/18312240752285-How-to-Review-an-Invoice-in-Brightflag)
+
+Once the final invoice for a matter is received, close the matter to prevent further activity (invoice submission and accrual email notifications).
+
+### Accruals Process
+
+Accruals submission reminder notifications are automatically sent through Brightflag to ensure vendors submit their accruals on time.
+  - Law firms with active matters will receive two automated reminder emails at 06:15 UTC on the following days:
     - **First Reminder**: Five calendar days before the deadline.
     - **Final Reminder**: On the day of the deadline.
   - If the deadline falls on a weekend, the email will be sent on that weekend day.
