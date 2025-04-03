@@ -79,11 +79,11 @@ On premium and ultimate tiers, projects and groups enter a "pending deletion" st
 On the free tier, deleted items are immediately hidden from users and only accessible to admins.
 Projects in user namespaces are deleted permanently without any recovery period.
 
-![image](group_and_project_deletion_current.png)
+![image](../../../../../../static/images/handbook/engineering/architecture/design-documents/group_and_project_deletion/group_and_project_deletion_current.png)
 
 ### New Unified Deletion Flow
 
-![image](group_and_project_deletion_iteration3.png)
+![image](../../../../../../static/images/handbook/engineering/architecture/design-documents/group_and_project_deletion/iteration3.png)
 
 #### Core Components
 
@@ -173,7 +173,7 @@ Projects in user namespaces are deleted permanently without any recovery period.
 
 Only admin users would retain the ability to permanently delete content before the scheduled deletion date. This approach significantly changes how users interact with the deletion process and creates several important trade-offs.
 
-![image](group_and_project_deletion_alternative.png)
+![image](../../../../../../static/images/handbook/engineering/architecture/design-documents/group_and_project_deletion/alternative.png)
 
 #### Pros
 
