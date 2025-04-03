@@ -64,7 +64,7 @@ We take employee concerns very seriously and encourage all GitLab Team Members t
 - [Corporate Communication Policy](/handbook/legal/corporate-communications/)
 - [Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/)
 - [GitLab Terms of Service](https://about.gitlab.com/terms/)
-- [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view?usp=sharing)*
+- [Insider Trading Policy](https://drive.google.com/file/d/1yK4-L3nCEjVi14UwFfp9LNJzJNQdvvLB/view?usp=sharing)*
 - [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/)
 - [Modern Slavery Act Transparency Statement](/handbook/legal/modern-slavery-act-transparency-statement/)
 - [Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/)
