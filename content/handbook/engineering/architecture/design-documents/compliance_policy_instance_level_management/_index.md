@@ -205,39 +205,6 @@ scan_execution_policy:
 
 ## API Design
 
-### REST Endpoints
-
-#### CSP Group Management
-
-```text
-GET    /api/v4/instance/csp_group                 # Get current CSP Group
-PUT    /api/v4/instance/csp_group                 # Set CSP Group
-DELETE /api/v4/instance/csp_group                 # Remove CSP Group designation
-```
-
-#### CSP Compliance Frameworks
-
-```text
-GET    /api/v4/instance/csp_group/compliance_frameworks         # List all CSP frameworks
-POST   /api/v4/instance/csp_group/compliance_frameworks         # Create a new CSP framework
-GET    /api/v4/instance/csp_group/compliance_frameworks/:id     # Get a specific CSP framework
-PUT    /api/v4/instance/csp_group/compliance_frameworks/:id     # Update a CSP framework
-DELETE /api/v4/instance/csp_group/compliance_frameworks/:id     # Delete a CSP framework
-```
-
-#### Mirrored Frameworks
-
-```text
-GET    /api/v4/groups/:id/mirrored_compliance_frameworks        # List all mirrored frameworks
-GET    /api/v4/groups/:id/mirrored_compliance_frameworks/:fw_id # Get a specific mirrored framework
-```
-
-#### Framework-Scoped Policies
-
-```text
-GET    /api/v4/instance/csp_group/compliance_frameworks/:id/policies     # List scoped policies
-```
-
 ### GraphQL Extensions
 
 ```graphql
@@ -249,10 +216,13 @@ type Query {
 
 type Mutation {
   designateInstanceCspGroup(namespaceId: ID!): Namespace
+  removeCspGroupDesignation: Boolean
   createCspComplianceFramework(input: FrameworkInput!): ComplianceManagementFramework
   updateCspComplianceFramework(id: ID!, input: FrameworkInput!): ComplianceManagementFramework
+  deleteCspComplianceFramework(id: ID!): Boolean
   scopePolicyToFramework(policyId: ID!, frameworkId: ID!): ComplianceFrameworkSecurityPolicy
   assignFrameworkToProject(projectId: ID!, mirroredFrameworkId: ID!): ProjectComplianceFrameworkSetting
+  setDefaultGroupFramework(namespaceId: ID!, mirroredFrameworkId: ID!): Namespace
 }
 
 type MirroredComplianceFramework {
@@ -269,8 +239,21 @@ extend type ComplianceManagementFramework {
   scopedPolicies: [SecurityPolicy!]!
 }
 
+extend type Namespace {
+  cspFrameworks: [ComplianceManagementFramework!]!
+  mirroredFrameworks: [MirroredComplianceFramework!]!
+  defaultMirroredFramework: MirroredComplianceFramework
+  isCspGroup: Boolean!
+}
+
 extend type Project {
   assignedMirroredFrameworks: [MirroredComplianceFramework!]!
+}
+
+input FrameworkInput {
+  name: String!
+  description: String
+  color: String
 }
 ```
 
