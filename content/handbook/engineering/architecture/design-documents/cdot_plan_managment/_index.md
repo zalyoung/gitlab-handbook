@@ -77,11 +77,13 @@ sequenceDiagram
 
 ### New Custom Fields
 
-Collection of fields to be added to the `ProductRatePlan` in this first iteration:
+All first 12 fields below are proposed as custom fields to be added at the `ProductRatePlan` level:
 
 | Field Name | Data Type | Values | Description |
 |------------|-----------|--------|-------------|
-| **WebDirect__c** | Boolean | `true`, `false` | Indicates whether a plan is available for self-service purchase directly by customers without sales assistance. Plans marked `true` appear in the web store and can be purchased online. |
+| **CDotAccessible__c** | Boolean | `true`, `false` | Indicates whether a plan is accessible within CustomersDot. Plans marked `true` are displayed to users and their details can be viewed, regardless of purchase origin. Plans marked `false` exist in Zuora but are completely invisible in CustomersDot. |
+| **CDotManageable__c** | Boolean | `true`, `false` | Indicates whether management actions (renewals, modifications) are available for this plan in CustomersDot. These plans can be serviced through CustomersDot even if they weren't purchased there. |
+| **CDotPurchasable__c** | Boolean | `true`, `false` | Indicates whether a plan is available for self-service purchase directly through CustomersDot without sales assistance. Plans marked `true` appear in the web store and can be purchased online. |
 | **PlanStatus__c** | String | `active`, `deprecated`, `legacy`, `not_applicable` | Represents the lifecycle stage of a plan: <br>• `active`: Currently salable and fully supported plans<br>• `deprecated`: Plans being phased out but still available to existing customers<br>• `legacy`: Historical plans maintained only for existing subscriptions<br>• `not_applicable`: Special cases where status concept doesn't apply |
 | **IsTrueUp__c** | Boolean | `true`, `false` | Identifies true-up plans, which are special product rate plans used to reconcile usage beyond what was initially purchased. |
 | **IsEcosystem__c** | Boolean | `true`, `false` | Indicates if a plan is part of the GitLab Ecosystem offering. |
@@ -91,7 +93,9 @@ Collection of fields to be added to the `ProductRatePlan` in this first iteratio
 | **BillingPeriod__c** | String | `monthly`, `annual`, `two_year`, `three_year`, `four_year`, `five_year` (or `1`, `12`, `24`, `36`, `48`, `60`) | Defines the duration of the billing cycle for the plan. Can use either named periods or the number of months. |
 | **Tier__c** | String | `ultimate`, `premium`, `bronze`, `silver`, `gold`, `starter`, `free`, `null` | Represents the feature tier of a plan, with different tiers offering progressively more features:<br>• `ultimate`: Most comprehensive feature set<br>• `premium`: Advanced features<br>• `bronze`/`silver`/`gold`: Legacy tier names<br>• `starter`: Entry-level paid tier<br>• `free`: No-cost tier with limited features |
 | **DeploymentType__c** | String | `self_managed`, `dedicated`, `gitlab_dot_com` | Indicates how the GitLab instance is deployed and managed:<br>• `self_managed`: Customer installs and manages GitLab on their infrastructure<br>• `dedicated`: GitLab-managed single-tenant instance<br>• `gitlab_dot_com`: Multi-tenant SaaS offering at gitlab.com |
-| **Category** | String | `Base Products`, `Add On Services`, `Miscellaneous Products` | Broad classification of the product type:<br>• `Base Products`: Core GitLab subscriptions<br>• `Add On Services`: Supplementary features and services<br>• `Miscellaneous Products`: Other product types that don't fit the main categories |
+| **PRPCategory__c** | String | `base_products`, `add_on_services`, `miscellaneous_products` | Broad classification of the product type at the ProductRatePlan level:<br>• `base_products`: Core GitLab subscriptions<br>• `add_on_services`: Supplementary features and services<br>• `miscellaneous_products`: Other product types that don't fit the main categories |
+
+`PRPCategory__c` field currently exists at the `ProductRatePlan` level but there is missalignment between CustomersDot and Zuora. We will work with EntApps to determine if we can align these or we require another field.
 
 ## Additional Considerations
 
