@@ -31,8 +31,8 @@ description: "This page is an overview of the search team alignment and the tale
 | R&D, Leadership | Matt Angell | Alice Crosbie |
 | Engineering, Sec & Monetization | Heather Tarver, Vasilisa Riabova | Josie Staub | 
 | Engineering, Core Development | Seema Anand, Jordan Warren, Nadine Oppermann | Jazmin Armstrong / Alice Crosbie / Alice Crosbie | 
-| Engineering, Infrastructure Platforms  | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
-| Engineering, Customer Support | Sara Currie, Joe Guiler, Amanda Halbirt  | Jazmin Armstrong / Jazmin Armstrong / TBD | 
+| Engineering, Infrastructure Platforms  | Michelle A. Kemp, Aziz Quadri, Amanda Halbirt | Alice Crosbie |
+| Engineering, Customer Support | Sara Currie, Joe Guiler  | Jazmin Armstrong / Jazmin Armstrong | 
 | Product Management | Holly Nesselroad, Joe Brown | Lerato Thipe / Alice Crosbie|
 | Security | Holly Nesselroad, Joe Brown | Lerato Thipe / Alice Crosbie |
 | Design/UX  | Riley Smith, Thomas Cirri | Lerato Thipe |
