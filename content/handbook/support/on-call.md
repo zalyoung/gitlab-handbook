@@ -119,8 +119,6 @@ DRIs are free to use the spreadsheet to create the schedule in advance for up to
 
 To make changes to the PagerDuty schedule, create a support team meta issue to discuss the changes with the affected participants. Once you decide on what changes to make, mention the support operations team in the issue to request that they implement those changes.
 
-More details can be found in the Operations Team [Pagerduty change management documentation](/handbook/support/readiness/operations/docs/pagerduty/change_management/).
-
 #### Your first on-call shift
 
 For new team members approaching their first on-call shift, your [Support onboarding issue](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/New-Support-Team-Member-Start-Here.md) includes a section suggesting that you shadow a current on-call to gain familiarity with the process. After completing your shadow shift, work with your manager to get yourself added to the on-call rotation. For your first on-call week we recommend asking your Onboarding Buddy to be available as a secondary to help if an emergency comes in.

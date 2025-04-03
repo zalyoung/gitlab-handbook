@@ -15,7 +15,7 @@ The context for this flow is because [CCs are disabled](https://about.gitlab.com
 
 ## Access limited to US Citizens
 
-Only our US Citizen Support Engineers have access to the [US Government Zendesk Instance](/handbook/support/readiness/operations/docs/zendesk/#zendesk-us-federal). If you are a US Citizen and would like to get access and contribute you can open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) for either a [light agent](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [full agent](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)(limited to Support/Security Team members).
+Only our US Citizen Support Engineers have access to the [US Government Zendesk Instance](/handbook/security/customer-support-operations/docs/zendesk#zendesk-us-government). If you are a US Citizen and would like to get access and contribute you can open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) for either a [light agent](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [full agent](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)(limited to Support/Security Team members).
 
 ## Communication Guidelines
 
@@ -48,7 +48,7 @@ The US Government team has implemented an automated follow up system that checks
 
 There can be certain situations in which a task may take longer than 7 days for the customer to make changes and provide feedback. If there has been an agreed upon day in the future where the customer has agreed they will update us then an agent may opt to use the `Support::Block Automatic Reopen` macro. This macro will add the `blocked_by` tag and create an internal comment where the agent must fill in the details indicating why the case should remain in pending. The `blocked_by` tag must be manually removed by an agent when the agreed upon date has been reached to resume the standard pending to follow-up workflow. Some best practice suggestions for using the macro are below:
 
-- Set a [task reminder](/handbook/support/readiness/operations/docs/zendesk/apps/#due-date-picker) for the date that we should hear back from the user.
+- Set a [task reminder](/handbook/security/customer-support-operations/docs/zendesk/apps/#zendesk-super-app-1) for the date that we should hear back from the user.
 - Regularly review pending cases to ensure we are receiving follow-up by the date promised
 - Put the relevant issue or case number in the blocked-by reason so that others may be aware and follow-up on your behalf
 
