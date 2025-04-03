@@ -120,27 +120,16 @@ CREATE TABLE instance_csp_namespace (
 );
 ```
 
-**mirrored_compliance_frameworks**
-
-```sql
-CREATE TABLE mirrored_compliance_frameworks (
-  id SERIAL PRIMARY KEY,
-  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
-  original_framework_id BIGINT NOT NULL REFERENCES compliance_management_frameworks(id),
-  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  UNIQUE(namespace_id, original_framework_id),
-  INDEX(original_framework_id)
-);
-```
-
 ### Modified Tables
 
 **compliance_management_frameworks**
 
 ```sql
 ALTER TABLE compliance_management_frameworks 
-ADD COLUMN is_csp_framework BOOLEAN NOT NULL DEFAULT FALSE;
+ADD COLUMN is_csp_framework BOOLEAN NOT NULL DEFAULT FALSE,
+ADD COLUMN is_mirror BOOLEAN NOT NULL DEFAULT FALSE,
+ADD COLUMN original_framework_id BIGINT REFERENCES compliance_management_frameworks(id),
+ADD INDEX(original_framework_id);
 ```
 
 **compliance_framework_security_policies**
@@ -211,7 +200,7 @@ scan_execution_policy:
 type Query {
   instanceCspGroup: Namespace
   cspComplianceFrameworks: [ComplianceManagementFramework!]!
-  mirroredComplianceFrameworks(namespaceId: ID!): [MirroredComplianceFramework!]!
+  mirroredComplianceFrameworks(namespaceId: ID!): [ComplianceManagementFramework!]!
 }
 
 type Mutation {
@@ -221,39 +210,27 @@ type Mutation {
   updateCspComplianceFramework(id: ID!, input: FrameworkInput!): ComplianceManagementFramework
   deleteCspComplianceFramework(id: ID!): Boolean
   scopePolicyToFramework(policyId: ID!, frameworkId: ID!): ComplianceFrameworkSecurityPolicy
-  assignFrameworkToProject(projectId: ID!, mirroredFrameworkId: ID!): ProjectComplianceFrameworkSetting
-  setDefaultGroupFramework(namespaceId: ID!, mirroredFrameworkId: ID!): Namespace
-}
-
-type MirroredComplianceFramework {
-  id: ID!
-  namespace: Namespace!
-  originalFramework: ComplianceManagementFramework!
-  createdAt: Time!
-  updatedAt: Time!
+  assignFrameworkToProject(projectId: ID!, frameworkId: ID!): ProjectComplianceFrameworkSetting
+  setDefaultGroupFramework(namespaceId: ID!, frameworkId: ID!): Namespace
 }
 
 extend type ComplianceManagementFramework {
   isCspFramework: Boolean!
-  mirroredFrameworks: [MirroredComplianceFramework!]!
+  isMirror: Boolean!
+  originalFramework: ComplianceManagementFramework
+  mirroredFrameworks: [ComplianceManagementFramework!]!
   scopedPolicies: [SecurityPolicy!]!
 }
 
 extend type Namespace {
   cspFrameworks: [ComplianceManagementFramework!]!
-  mirroredFrameworks: [MirroredComplianceFramework!]!
-  defaultMirroredFramework: MirroredComplianceFramework
+  mirroredFrameworks: [ComplianceManagementFramework!]!
+  defaultMirroredFramework: ComplianceManagementFramework
   isCspGroup: Boolean!
 }
 
 extend type Project {
-  assignedMirroredFrameworks: [MirroredComplianceFramework!]!
-}
-
-input FrameworkInput {
-  name: String!
-  description: String
-  color: String
+  assignedFrameworks: [ComplianceManagementFramework!]!
 }
 ```
 
@@ -335,18 +312,22 @@ These models define the structure of the compliance framework mirroring system.
 - This model ensures that compliance frameworks defined in a central CSP group are mirrored across other top-level groups.
 - It allows projects in different groups to inherit compliance frameworks from a central source.
 - It links a mirrored framework to its original compliance framework and a specific namespace (group).
-- It ensures that each namespace_id can only have one mirrored copy of a specific original_framework_id to prevent duplicates.
+- It ensures that each namespace_id can only have one mirrored copy of a specific `original_framework_id` to prevent duplicates.
 - It allows projects to reference mirrored compliance frameworks.
 
 #### ComplianceManagementFramework
 
 - This model represents a compliance framework, which consists of a set of security policies, requirements, and rules that organizations must follow.
 - Defines compliance frameworks that belong to a namespace (group).
+- Includes mirrored framework functionality with `is_mirror` and `original_framework_id` fields.
 - Establishes relationships with:
   - Mirrored frameworks (so that it knows which groups have copies)
   - Compliance framework security policies (for applying security policies)
-  - Security policies (via compliance_framework_security_policies).
-- Defines a scope csp_frameworks, which filters frameworks that are designated as CSP frameworks.
+  - Security policies (via `compliance_framework_security_policies`).
+- Defines a scopes:
+  - `csp_frameworks`: filters frameworks that are designated as CSP frameworks.
+  - `mirrored`: filters frameworks that are mirrors of CSP frameworks.
+  - `originals`: filters frameworks that are not mirrors.
 
 ### Services
 
@@ -357,7 +338,16 @@ These models define the structure of the compliance framework mirroring system.
 - Returns an error if no CSP group is set (to prevent execution without context).
 - Retrieves all compliance frameworks in the CSP group.
 - Identifies all top-level groups (excluding the CSP group).
-- Ensures that each top-level group has a mirrored copy of every compliance framework from the CSP group.
+- Creates a mirrored compliance framework in each top-level group for each CSP framework by:
+  - Setting `is_mirror` = true
+  - Setting `original_framework_id` to the ID of the source framework
+  - Copying relevant attributes from the original
+
+#### CSP::FrameworkUpdatePropagationService
+
+- New service that propagates updates from original frameworks to their mirrors.
+- When an original framework is updated, finds all mirrors and updates their attributes.
+- Maintains consistency between originals and mirrors.
 
 #### CSP::PolicyResolverService
 
@@ -377,7 +367,7 @@ These are asynchronous workers that run in the background to handle framework mi
 #### CSP::SyncDeletedFrameworksJob
 
 - Prevents stale mirrored frameworks from existing when the original compliance framework is deleted.
-- Finds mirrored frameworks where the original framework no longer exists.
+- Finds frameworks where `is_mirror` = true and `original_framework_id` points to a non-existent framework.
 - Deletes these orphaned mirrored frameworks.
 
 ### Controllers
