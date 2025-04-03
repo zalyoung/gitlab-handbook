@@ -35,6 +35,7 @@ GitLab uses Brightflag’s Legal Spend Management platform to process and review
 #### Invoice Approval
 
 Any new matters will need to be created in Brightflag. The process is as follows:
+
 - When a law firm is engaged, log into Brightflag via Okta to [create the matter](https://help.brightflag.com/hc/en-us/articles/360002612998-How-to-Create-a-Matter) and assign the law firm.
 - Once a matter is created, the law firm can begin submitting invoices.
 - Use Brightflag to review and approve/reject invoices.
@@ -48,11 +49,12 @@ Once the final invoice for a matter is received, close the matter to prevent fur
 ### Accruals Process
 
 Accruals submission reminder notifications are automatically sent through Brightflag to ensure vendors submit their accruals on time.
-  - Law firms with active matters will receive two automated reminder emails at 06:15 UTC on the following days:
-    - **First Reminder**: Five calendar days before the deadline.
-    - **Final Reminder**: On the day of the deadline.
-  - If the deadline falls on a weekend, the email will be sent on that weekend day.
-  - If accruals are submitted on all matters before the deadline for a given vendor office, the notification emails will not be sent to that vendor.
+  
+- Law firms with active matters will receive two automated reminder emails at 06:15 UTC on the following days:
+  - **First Reminder**: Five calendar days before the deadline.
+  - **Final Reminder**: On the day of the deadline.
+- If the deadline falls on a weekend, the email will be sent on that weekend day.
+- If accruals are submitted on all matters before the deadline for a given vendor office, the notification emails will not be sent to that vendor.
 
 ## Legal & Corporate Affairs Expenditure Request Process
 
