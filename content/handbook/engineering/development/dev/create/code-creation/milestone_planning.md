@@ -33,7 +33,7 @@ _List the specific conditions that must be met for this issue to be considered c
 ## Issue Refinement
 
 The goal of issue refinement is to have engineers review issues to ensure they are ready for development and provide lightweight estimates.
-Use the [template checklist](/handbook/engineering/development/dev/create/code-creation/milestone_planning/#refinment-checklist) in the next section as a guideline.
+Use the [template checklist](/handbook/engineering/development/dev/create/code-creation/milestone_planning/#refinment-template) in the next section as a guideline.
 
 1. Initial Labeling:
     - When a new issue is created or identified as a potential priority, it should be labeled with "workflow::refinement"
@@ -93,6 +93,7 @@ During refinement, focus on providing enough context and direction for someone e
 - **Implementation**: Writing specific code, determining exact file locations, making detailed technical decisions, and executing the solution.
 
 If your refinement work leads you to start implementing the solution, consider either:
+
 1. Assigning yourself to the issue and transitioning to implementation
 2. Documenting your findings without implementing, so someone else can benefit from your research
 
