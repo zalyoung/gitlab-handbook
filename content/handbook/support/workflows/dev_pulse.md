@@ -48,7 +48,7 @@ the process has been initiated.
 
 ### How to mark a ticket as waiting on a RFH
 
-To mark a ticket as waiting on a RFH, take the
+To mark a ticket as waiting on a [Request for Help (RFH) issue](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help), take the
 following steps:
 
 1. Add the link to the RFH in the Zendesk ticket field
