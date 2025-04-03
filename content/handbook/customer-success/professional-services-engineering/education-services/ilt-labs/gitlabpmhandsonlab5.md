@@ -3,42 +3,68 @@ title: "GitLab Agile Portfolio Management - Hands-On Lab: Reporting & Portfolio 
 description: "This Hands-On Guide walks you through creating and managing dashboards in GitLab."
 ---
 
-> Estimated time to complete: 45-60 minutes
+> Estimated time to complete: 20 minutes
 
 ## Objectives
 
 GitLab provides different types of analytics insights for instances, groups, and projects. In this lab, we will explore various types of dashboard one can use in your system, as well as how to create your own dashboards.
 
-## Task A. Review GitLab's Dashboards
+### Task A. Accessing Built-in Dashboards
 
-In order to understand what information you can have in your dashboards, let's look at the way GitLab uses dashboards.
+GitLab offers several built-in dashboards at both the project and group level. Let's look at a few of them now.
 
-1. Go to https://gitlab.com/gitlab-org/gitlab .
+1. Navigate to your project repository.
 
-1. Select **Analyze > Analytics dashboards**.
+1. Click on **Analytics** in the left sidebar.
 
-1. You will see a variety of dashboards available. Some are default dashboards, and some are custom dashboards. Later on, we will create our own dashboards, but for now, let's look at the default dashboards. Click on the **Audience** dashboard.
+1. Explore the available dashboard options:
+   - Value Stream Analytics - Shows the time it takes for code changes to move through your development lifecycle
+   - CI/CD Analytics - Focuses on pipelines and jobs
+   - Repository Analytics - Provides insights into repository activities like commits and merges
+   - Insights (if enabled) - Allows for custom dashboards within your project or group.
 
-1. 
+Now that we have some understanding on how dashboards look and function, let's create a dashboard for our project. To create a custom dashboard we will need to create our own `.gitlab/insights.yml` file, define it's content, and save this configuration.
 
-## Task B. Create a Dashboard
+#### Task B. Creating an Insights File
 
-Now that we have seen GitLab's dashboards, let's make our own.
+1. In your repository, click the **+** button, and click **Create new directory**.
 
-1. In your project, select **Analyze > Analytics dashboards**.
+1. Name the directory _.gitlab_, and commit on the main branch.
 
-1. Select **New dashboard**.
+1. Inside the _.gitlab_ directory, click the **+** button, and click **Create new file**.
 
-1. In the New dashboard input, enter the name of the dashboard.
+1. Title the file **insights.yml**.
 
-1. From the **Add visualizations** list on the right, select the visualizations to add to the dashboard.
+1. Copy the content below into the file and press **Commit changes**.
 
-1. Select **Save**. You should now see your new dashboard.
+```yaml
+group_dashboards:
+  main:
+    name: 'Main Dashboard'
+    panels:
+      - name: 'Issues by type'
+        type: 'bar'
+        query:
+          data_source: 'issuables'
+          params:
+            issuable_type: 'issue'
+            collection_labels: ['bug', 'feature', 'documentation']
+```
 
-## Lab Guide Complete
+### Task C. Create a Dashboard
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
+1. Navigate to your project.
 
-## Suggestions?
+1. Click on **Analyze > Analytics dashboards** in the left sidebar.
 
-If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.
+1. Click on **New Dashboard** in the top right.
+
+1. **Enter a name for your dashboard**
+
+1. Write 'My New Dashboard' in the Dashboard title.
+
+1. Click **Add visualization**, and select the one you created earlier.
+
+1. Click the **Save your dashboard** button.
+
+By effectively using GitLab's dashboard capabilities, you can gain valuable insights into your projects and make data-driven decisions for your portfolio management.
