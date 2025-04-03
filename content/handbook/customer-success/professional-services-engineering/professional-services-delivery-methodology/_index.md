@@ -11,7 +11,7 @@ description: "Learn the processes and methodology that GitLab Professional Servi
 - [Mitigating Risk via RAID Board](#mitigating-risk-via-raid-board)
 - [Internal Retrospective Guidelines](#internal-retrospective-guidelines)
 - [Customer Retrospective Guidelines](#customer-retrospective-guidelines)
-- [Guidelines for Iteration based PSDM](#guidelines-for-Iteration-based-psdm)
+- [Guidelines for Iteration based PSDM](#guidelines-for-iteration-based-psdm)
 
 ## What is the Professional Services Delivery Methodology (PSDM)
 
