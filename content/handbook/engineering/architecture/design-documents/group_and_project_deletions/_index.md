@@ -83,7 +83,7 @@ Projects in user namespaces are deleted permanently without any recovery period.
 
 ### New Unified Deletion Flow
 
-![image](../../../../../../static/images/handbook/engineering/architecture/design-documents/group_and_project_deletion/iteration3.png)
+![image](/images/handbook/engineering/architecture/design-documents/group_and_project_deletion/iteration3.png)
 
 #### Core Components
 
