@@ -40,9 +40,9 @@ You might also find it helpful to review the
       1. where `[percent]` is 25 times the number of accounts you have - if you have 2 accounts, put 50
       1. where `[instance]` is either "global" or "us_gov", according to
          whether your ASE accounts work with Global or US Gov Support
-      1. where `[org_a ID]` is the organization ID, in Zendesk, for your first account (Handbook [topic](/handbook/support/readiness/operations/docs/zendesk/searching/#example-3)
-      for finding the correct ID), `[org_b ID]` is the same for your second
-      account, and so on
+      1. where `[org_a ID]` is the organization ID, in Zendesk, for your first account,
+         `[org_b ID]` is the same for your second
+         account, and so on
       1. where `[org_a percentage]` is the percentage of your ASE time that
          will be spent on org_a, `[org_b percentage]` is the same thing for your
          second account, and the sum of the org percentages is 100

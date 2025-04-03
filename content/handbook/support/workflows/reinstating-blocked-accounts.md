@@ -7,7 +7,7 @@ description: How to determine if a blocked user can be re-instated
 
 This workflow page will describe how to action on **Locked**,  **Blocked** and **Banned** accounts. Sometimes users believe they are blocked, but their accounts are locked. There are several ways to verify:
 
-1. The best way to view this information is via the [Zendesk User Lookup app (part of the GitLab Super App)](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app), through the `Locked` and `State` fields.
+1. The best way to view this information is via the [Zendesk User Lookup app (part of the GitLab Super App)](/handbook/security/customer-support-operations/docs/zendesk/apps#gitlab-super-app), through the `Locked` and `State` fields.
 1. The Admin User UI in `/admin/user/USERNAME` will say `(Locked)`, `(Blocked)` or `(Banned)` next to the name at the top.
 1. The [Users API](https://docs.gitlab.com/api/users/#single-user) through the URL `https://gitlab.com/api/v4/users/<user_id>` in your browser while logged in as an Admin User, also indicates the `locked` and `state` status of the user.
 
@@ -74,7 +74,7 @@ This workflow is used to determine if a blocked or a banned user can be reinstat
 ### Why is account blocked?
 
 If the account is blocked, look for the admin note on the account to determine why it has been blocked.
-    - The [GitLab user lookup app](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app) in Zendesk will show the admin notes for the user if they have contacted support using the email address associated with their account.  Alternatively -
+    - The [GitLab user lookup app](/handbook/security/customer-support-operations/docs/zendesk/apps#gitlab-super-app) in Zendesk will show the admin notes for the user if they have contacted support using the email address associated with their account.  Alternatively -
     - If you have access to ChatOps you can use the below command in any chatops enabled Slack channel to read admin notes for the user
         > `/chatops run user find <username or email>`
 

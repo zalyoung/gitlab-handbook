@@ -18,7 +18,6 @@ Know someone who might be a great fit for our team? Please refer them to the job
 
 - [Support Engineering Job Family](/job-families/engineering/support-engineer/)
 - [Support Management Job Family](/job-families/engineering/support-management/)
-- [Support Operations Job Family](/job-families/engineering/support-readiness-specialist/)
 
 ## What does the Support Team do?
 
@@ -49,7 +48,7 @@ If you recommend [Professional Services](https://about.gitlab.com/services/) or 
 ### Our role within GitLab
 
 GitLab Support is part of the [Engineering division](/handbook/engineering/).
-While most engineering departments are part of the R&D [cost center](/handbook/finance/financial-planning-and-analysis/#cost--reporting-structure),
+While most engineering departments are part of the R&D cost center,
 Support is part of the Cost of Sales (or sometimes Cost of Goods Sold (COGS)) cost center.
 
 This unique arrangement is expressed in our [Key Performance Indicators](/handbook/support/performance-indicators/),
@@ -71,7 +70,7 @@ Success for help, freeing up more time to close sales.
 Part of Support's role is to amplify the voice of the customer. One way of doing this is inviting other GitLab team members into
 experiences that will help them understand customer challenges with the product or our own obstacles in helping customers overcome those challenges.
 
-Before you start, make sure you get [light-agent access in Zendesk](/handbook/support/internal-support/#viewing-support-tickets) so that you can view Support tickets.
+Before you start, make sure you get light-agent access in Zendesk so that you can view Support tickets.
 
 If you're looking to get more exposure to customers, there are a few ways to get involved with Support:
 
@@ -145,7 +144,6 @@ Information for and about the different parts of the Support Team can be found i
 - [/support/license-and-renewals](/handbook/support/license-and-renewals/) is content for the Licensing and Renewals Support Engineers and Managers. Think: [customers.gitlab.com](https://customers.gitlab.com) and working with the Fulfillment Product Team.
 - [/support/managers](/handbook/support/managers/) is content that is for Support Managers. Think: how to manage issues, run 1:1s and leadership sync information.
 - [/support/readiness](/handbook/support/readiness/) is the landing page for Support Readiness. Think: how is the support team preparing for X?
-  - [/support/support-ops](/handbook/support/readiness/operations/) is content that is for Support Operations. Think: how to change Zendesk forms and fields, and other ops details.
 
 Below we also have some commonly referenced pages:
 
@@ -209,11 +207,11 @@ Citing our [dogfooding](/handbook/values/#dogfooding) operating principle, peopl
 
 Dogfooding is using a piece of GitLab *for its intended purpose*. For example, one *could* use GitLab issues as a newsletter (and we do! See: [Support Week in Review](#support-week-in-review)), but creating merge requests to help Issues serve as a newsletter more effectively wouldn't be dogfooding unless that improvement also helps its core use case.
 
-In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports [customer results](/handbook/values/#customer-results).
+In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports customer results.
 
 At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/legal/privacy/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/user/discussions/#add-an-internal-note).
 
-We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize [customer results](/handbook/values/#customer-results) over any other consideration.
+We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize customer results over any other consideration.
 
 ## OKRs
 
@@ -234,7 +232,7 @@ See [Managers/Hazards page](/handbook/support/managers/hazards-and-challenges)
 ## Communications
 
 The GitLab Support Team is part of the wider Engineering function. Be sure to check the
-[communications section in the Engineering handbook](/handbook/engineering/#communication)
+[communications section in the Engineering handbook](/handbook/engineering/)
 for tips on how to keep yourself informed about engineering announcements and initiatives.
 
 Here are our most important modes of communication:
@@ -658,7 +656,6 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 - [Support Channels](/handbook/support/channels/)
 - [On-Call](/handbook/engineering/on-call/)
 - [License & Renewals](/handbook/support/license-and-renewals/)
-- [Support Ops](/handbook/support/readiness/operations/)
 - [Advanced Topics](/handbook/support/advanced-topics/)
 
 ### Documentation
