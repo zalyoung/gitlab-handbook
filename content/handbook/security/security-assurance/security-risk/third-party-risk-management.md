@@ -20,7 +20,7 @@ GitLab's Security Third Party Risk Management (TPRM) Program helps guard against
 GitLab's Security TPRM program involves three components which are integrated into our [Procurement](/handbook/finance/procurement/) processes:
 
 1. Performing due diligence to ensure the third party implements safeguards to enforce data privacy and security
-    - This activity is performed via our Security Assessment Process.
+    - This activity is performed via our Security Assessment Process. You can find an open source version of our TPRM Assessment Report template in our [Open Source Security Hub](https://gitlab.com/gitlab-security-oss/risk-mgmt/tprm-templates).
 1. [Contractually](/handbook/finance/procurement/#contracting) obligating the third party to implement these safeguards
 1. Monitoring third party safeguards and compliance with these contracted provisions
     - Certain high risk Third Parties are reviewed annually while those posing lower risk are reviewed at intervals defined further within this document.
