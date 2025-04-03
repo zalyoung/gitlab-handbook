@@ -24,11 +24,16 @@ _Include any links to documentations, other issues, or MRs that you think may be
 ## Proposal
 
 _Proposed/suggested solution or any guidance related to it. For investigations or spikes, this may describe an expected outcome or expected output._
+
+## Definition of Done / Acceptance Criteria
+
+_List the specific conditions that must be met for this issue to be considered complete._
 ```
 
 ## Issue Refinement
 
 The goal of issue refinement is to have engineers review issues to ensure they are ready for development and provide lightweight estimates.
+Use the [template checklist](/handbook/engineering/development/dev/create/code-creation/milestone_planning/#refinment-checklist) in the next section as a guideline.
 
 1. Initial Labeling:
     - When a new issue is created or identified as a potential priority, it should be labeled with "workflow::refinement"
@@ -43,16 +48,55 @@ The goal of issue refinement is to have engineers review issues to ensure they a
     - Use the issue comments for discussion and clarification. You may loop in other team members or domain experts from outside the team to provide further context and/or give feedback on a proposed solution.
     - Individual team members are encouraged to schedule regular, asynchronous backlog refinement sessions on their calendars
     - Use the [Code Creation Refinement Board](https://gitlab.com/groups/gitlab-org/-/boards/8994789) to make issues needing refinement easy to find
+    - Refinement should be timeboxed to ~30 minutes per issue to avoid spending too much time in refinment 
 4. Refinement Tasks:
     - Team members should focus on the following when refining an issue:
-        - Clarify the issue description and requirements
+        - Validate the problem is clear and aligned with roadmap priorities
+        - Ensure issue labels are accurate
+        - Clarify the issue title, description and requirements (including the `Context`, `Proposal`, and `Acceptance Criteria` sections)
         - Break down the issue into smaller, manageable tasks if needed
         - Identify and document any dependencies or blockers
-        - Estimate the effort required and assign a corresponding weight to the issue. Refer to [issues estimation](#issues-estimation) section for guidance.
+        - Estimate the effort required and assign a corresponding weight to the issue
 5. Refinement Completion:
     - Once a team member believes the issue has been sufficiently refined, they should:
+        - Post the completed refinement checklist as a comment on the issue
         - Ensure that the issue has the appropriate weight
         - Add the "workflow::ready for development" label and remove the "workflow::refinement" label
+
+### Refinement Template
+
+While refining an issue, copy the below template into a comment and work through each todo item. Once you've completed refinement, post the comment to document your refinement work:
+
+```markdown
+## Refinement Checklist
+
+- [ ] Validated the problem is clear and aligns with team priorities, engaged in any discussions with the PM or other stakeholders as needed 
+- [ ] Updated title for clarity (if needed)
+- [ ] Updated labels for proper categorization (if needed)
+- [ ] Added or improved the "Context" section with necessary background information
+- [ ] Added or improved the "Proposal" section with potential implementation approach or suggested ideas to further investigate
+- [ ] Added or improved the "Acceptance Criteria" or "Definition of Done" section
+- [ ] Identified dependencies or blockers (if any)
+- [ ] Considered if the issue should be broken down into smaller tasks
+  - [ ] Created child issues if needed (link them here)
+- [ ] Assigned a weight using [issue estimation](/handbook/engineering/development/dev/create/code-creation/milestone_planning/#issues-estimation)
+
+/weight X
+/label ~"workflow::ready for development"
+```
+
+### Where to Draw the Line Between Refinement and Implementation
+
+During refinement, focus on providing enough context and direction for someone else to implement the issue efficiently. While some investigation is often necessary during refinement, consider these guidelines:
+
+- **Refinement**: Identifying the problem, proposing a general approach, providing helpful context, estimating effort, and setting success criteria.
+- **Implementation**: Writing specific code, determining exact file locations, making detailed technical decisions, and executing the solution.
+
+If your refinement work leads you to start implementing the solution, consider either:
+1. Assigning yourself to the issue and transitioning to implementation
+2. Documenting your findings without implementing, so someone else can benefit from your research
+
+Remember that the goal of refinement is to make issues clear enough that any team member could pick them up and know what to do, without prescribing every implementation detail.
 
 ## Milestone Planning
 
