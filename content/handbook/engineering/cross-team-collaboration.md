@@ -8,7 +8,7 @@ Working across teams on a project or initiative can be challenging. Teams have t
 
 This guide provides some advice and warning signs to consider when working in a cross-team collaborative project.
 
-GitLab's [Collaboration value](../values/_index.md#-collaborationcollaboration) provides a framework for success. Many of the topics below fall directly into some of the Collaboration sub-values: [kindness](../values/_index.md#kindness), [get to know each other](../values/_index.md#get-to-know-each-other), [assume positive intent](../values/_index.md#assume-positive-intent), [don't let each other fail](../values/_index.md#dont-let-each-other-fail), [short toes](../values/_index.md#short-toes), and more. This guide does not attempt to supersede or modify those, but describe how they can look in the scope of a cross-team collaborative effort.
+GitLab's [Collaboration value](../values/_index.md#collaboration) provides a framework for success. Many of the topics below fall directly into some of the Collaboration sub-values: [kindness](../values/_index.md#kindness), [get to know each other](../values/_index.md#get-to-know-each-other), [assume positive intent](../values/_index.md#assume-positive-intent), [don't let each other fail](../values/_index.md#dont-let-each-other-fail), [short toes](../values/_index.md#short-toes), and more. This guide does not attempt to supersede or modify those, but describe how they can look in the scope of a cross-team collaborative effort.
 
 ## Traits of successful collaboration
 
@@ -20,7 +20,7 @@ When it comes to delivering a shared cross-team project. The people involved nee
 
 ### Create a shared objective
 
-If each team has their own individual objective, then the teams are not working as one. A shared objective needs to be developed. This creates opportunities to communicate and collaborate more. Similar to GitLab's value around [Results for Customers](../values/_index.md#-results-for-customers-results), the shared objective should allow the teams to use a common language to communicate, motivate, and stay focused on the ultimate goal. A due date will help for this shared objective will help create motivation. Make sure it's ambitious to enable a [sense of urgency](../values/_index.md#sense-of-urgency), but not aggressive.
+If each team has their own individual objective, then the teams are not working as one. A shared objective needs to be developed. This creates opportunities to communicate and collaborate more. Similar to GitLab's value around [Results for Customers](../values/_index.md#results), the shared objective should allow the teams to use a common language to communicate, motivate, and stay focused on the ultimate goal. A due date will help for this shared objective will help create motivation. Make sure it's ambitious to enable a [sense of urgency](../values/_index.md#sense-of-urgency), but not aggressive.
 
 ### Understand each others processes
 
@@ -28,7 +28,7 @@ When teams come together to work on something, often the first problems arise wh
 
 1. Pick one team's process and stick with it.
 
-   This may cause some frustration for other teams involved, but if it's made clear and optimally there is a reason why one team's process was chosen over another's then team members will find ways to [disagree and commit](../values/_index.md#disagree-commit-and-advocate-disagree-and-commit).
+   This may cause some frustration for other teams involved, but if it's made clear and optimally there is a reason why one team's process was chosen over another's then team members will find ways to [disagree and commit](../values/_index.md#disagree-and-commit).
 
 2. Develop a shared process where needed.
 
