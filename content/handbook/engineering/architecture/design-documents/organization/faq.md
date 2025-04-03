@@ -34,7 +34,7 @@ GitLab Dedicated will be a much better fit for that at this moment.
 
 ## Do we expect Organizations to have visibility settings (public/private) of their own?
 
-Visibility is documented on the main [Organization page](_index.md) and also [Organization Users](users.md).
+Visibility is documented on the main [Organization page](_index.md#organization-product-feature) and also [Organization Users](users.md#when-can-users-see-an-organization).
 
 ## What would the migration of a feature from the top-level Group to the Organization look like?
 
