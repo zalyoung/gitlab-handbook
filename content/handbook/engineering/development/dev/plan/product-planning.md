@@ -209,7 +209,7 @@ Using health status allows stakeholders, such as product and engineering manager
 
 #### Documentation
 
-Documentation should accompany code for any [new or changed functionality](/handbook/product/ux/technical-writing/workflow/#documentation-for-a-product-change) as per our
+Documentation should accompany code for any new or changed functionality as per our
 [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done). This can become tricky when collaborating on a feature that is
 behind a feature flag.
 

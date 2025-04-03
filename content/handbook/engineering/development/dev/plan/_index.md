@@ -104,7 +104,6 @@ This is the recommended workflow for all initiatives:
 
 Team members should collaborate to continuously refine the iterations and update the design document as complexity is revealed. This approach ensures that all stakeholders have a clear, up-to-date understanding of the initiatives's progress and implementation details.
 
-
 ### Roadmap
 
 In product development at GitLab, Product is responsible for the **what** and **why**, Engineering is responsible for the **how** and **when** [[1](https://docs.google.com/presentation/d/1xd2-G8i68dNOd-dsa78xzYectz68T2EETQz2wJye6EA/edit#slide=id.g30963720e56_3_516)]. Maintaining a credible roadmap is therefore a collaborative process, requiring input from both.
