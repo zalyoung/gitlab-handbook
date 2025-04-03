@@ -175,8 +175,8 @@ scan_execution_policy:
   actions:
   - scan: sast
   policy_scope:
-    compliance_frameworks:
-      - id: 1  # CSP compliance framework
+    csp_compliance_frameworks: # CSP compliance framework
+      - id: 1
 ```
 
 ### Project Compliance Framework Assignment
