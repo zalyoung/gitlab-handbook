@@ -22,7 +22,7 @@ Please refer to the [Internal Handbook](https://internal.gitlab.com/handbook/sec
 
 - *International SOS 24/7 Assistance:* +1 215 942 8226
 - *Email:* philadelphia@internationalsos.com
-- *Mobile App:* Download the ISOS Assistance App
+- *Mobile App:* Download the [ISOS Assistance App](https://www.internationalsos.com/subscriber/assistance-app)
 
 #### Emergency Assistance Program with International SOS
 
