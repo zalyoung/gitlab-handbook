@@ -47,9 +47,9 @@ Labels are the most effective way to generate reports around Projects and organi
 
 Our [CP (Customer Project) automation](./cp/_index.md) includes the following default labels:
 
-* SOW-# or PO# - helps the GitLab team search for Projects within the Professional service Group
-* PM name - helps the GitLab team sort by PM name
-* PSD workflow (for issue board management)
+- SOW-# or PO# - helps the GitLab team search for Projects within the Professional service Group
+- PM name - helps the GitLab team sort by PM name
+- PSD workflow (for issue board management)
 
 Labels used for *Internal retrospectives & RAID tracking/reporting* can be found in the "Reporting throughout the Iteration" section below.
 
@@ -86,10 +86,11 @@ Working asynchronously and remotely presents unique challenges. Ensuring that th
 Not every Project will follow a Sprint or Iteration cadence. However, status updates should be documented within GitLab and reported to the Customer on a weekly basis. It is recommended to use an Engagement Charter to direct stakeholders to weekly status updates, RAID logs, and other relevant project documentation.
 
 **Examples:**
-* [Engagement Charter Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration/Ingram-Barge/SOW-3184/-/blob/main/engagement-charter.md?ref_type=heads)
-* [Status Update Example 1](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/Delta/-/epics/1)
-* [Status Update Example 2](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/smartsheet/SOW-2163/-/issues/2)
-* While the GitLab CP is the recommended platform for status reporting, if the Customer prefers a presentation format, please reference this [template](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252).
+
+- [Engagement Charter Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration/Ingram-Barge/SOW-3184/-/blob/main/engagement-charter.md?ref_type=heads)
+- [Status Update Example 1](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/Delta/-/epics/1)
+- [Status Update Example 2](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/smartsheet/SOW-2163/-/issues/2)
+- While the GitLab CP is the recommended platform for status reporting, if the Customer prefers a presentation format, please reference this [template](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252).
 
 ## Mitigating Risk via RAID Board
 
@@ -221,6 +222,7 @@ At project completion, the PM should:
 ### Knowledge Sharing
 
 PS leadership regularly reviews retrospective data to:
+
 - Identify common challenges across projects
 - Recognize exceptional team performance
 - Inform training and enablement priorities
@@ -294,7 +296,6 @@ After the retrospective session:
 3. Create action items
 4. Share insights within #ps-internal
 
-
 ### Best Practices for Customer Retrospectives
 
 - Keep the tone collaborative and constructive
@@ -313,6 +314,7 @@ After the retrospective session:
 ## Guidelines for PSDM
 
 The full PSDM implementation with a complete Iteration schedule is required only when:
+
 - The Agile-specific Project exceeds 5 Iterations, or
 - The engagement is planned to exceed two months
 
