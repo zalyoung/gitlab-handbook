@@ -221,7 +221,7 @@ To find the error specifically related to a user on Sentry, try to check for a l
 To locate a Sentry event, first get the `ID` or `Username` of the **user making the purchase from GitLab** using any of the following:
 
 - Chatops: Run `/chatops run user find <username or email>`
-- Admin account: Navigate to the admin link in the [GitLab User Lookup](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-reminders-app) Zendesk app
+- Admin account: Navigate to the admin link in the [GitLab User Lookup](../../../security/customer-support-operations/docs/zendesk/apps#gitlab-super-app) Zendesk app
 - [Users API](https://docs.gitlab.com/api/users/#for-normal-users): Search for user using their email or username
 
 ### Searching with the username in `gitlabcom` Sentry project

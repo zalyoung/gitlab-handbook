@@ -561,6 +561,7 @@
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
 /content/handbook/security/corporate/ @smanzuik @ericrubin @dzhu-gl @mbeee
+/content/handbook/security/customer-support-operations/ @lyle @jcolyer @dtragjasi
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
@@ -590,7 +591,6 @@
 
 ^[support]
 /content/handbook/support/ @gitlab-com/support
-/content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi
 /content/handbook/support/support-idk.md @irisb @jgianoutsos @klang
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.

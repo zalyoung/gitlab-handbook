@@ -17,7 +17,7 @@ When the specific state is reached, the tickets within Zendesk using Dev Pulse
 are updated to indicate there has been a state change on the issue or merge
 request they were waiting on.
 
-Implementation details about Dev Pulse can be found in the [documentation](../readiness/operations/docs/zendesk/dev_pulse).
+Implementation details about Dev Pulse can be found in the [documentation](/handbook/security/customer-support-operations/docs/zendesk/dev-pulse).
 
 ## Using it
 
