@@ -84,11 +84,9 @@ erDiagram
     compliance_management_frameworks ||--o{ compliance_requirements : "has_many"
     compliance_requirements ||--o{ compliance_requirements_controls : "has_many"
     
-    compliance_management_frameworks ||--o{ mirrored_compliance_frameworks : "is mirrored as"
-    mirrored_compliance_frameworks }|--|| namespaces : "belongs to"
-    mirrored_compliance_frameworks }|--|| compliance_management_frameworks : "references original"
+    compliance_management_frameworks ||--o{ compliance_management_frameworks : "is original for"
     
-    mirrored_compliance_frameworks ||--o{ project_compliance_framework_settings : "has_many"
+    compliance_management_frameworks ||--o{ project_compliance_framework_settings : "has_many"
     project_compliance_framework_settings ||--o{ projects : "many_to_many"
     
     projects ||--o{ project_control_compliance_statuses : "has_many"
@@ -199,8 +197,11 @@ scan_execution_policy:
 ```graphql
 type Query {
   instanceCspGroup: Namespace
-  cspComplianceFrameworks: [ComplianceManagementFramework!]!
-  mirroredComplianceFrameworks(namespaceId: ID!): [ComplianceManagementFramework!]!
+  complianceManagementFrameworks(
+    namespaceId: ID!,
+    isMirror: Boolean,
+    isCspFramework: Boolean
+  ): [ComplianceManagementFramework!]!
 }
 
 type Mutation {
@@ -214,7 +215,7 @@ type Mutation {
   setDefaultGroupFramework(namespaceId: ID!, frameworkId: ID!): Namespace
 }
 
-extend type ComplianceManagementFramework {
+type ComplianceManagementFramework {
   isCspFramework: Boolean!
   isMirror: Boolean!
   originalFramework: ComplianceManagementFramework
@@ -224,8 +225,7 @@ extend type ComplianceManagementFramework {
 
 extend type Namespace {
   cspFrameworks: [ComplianceManagementFramework!]!
-  mirroredFrameworks: [ComplianceManagementFramework!]!
-  defaultMirroredFramework: ComplianceManagementFramework
+  defaultFramework: ComplianceManagementFramework
   isCspGroup: Boolean!
 }
 
@@ -247,7 +247,6 @@ extend type Project {
 
 #### Group-Related Permissions
 
-- `view_mirrored_compliance_frameworks`: View mirrored frameworks (all authenticated users).
 - `assign_mirrored_frameworks`: Assign mirrored frameworks to projects (group owners/maintainers).
 - `set_default_mirrored_frameworks`: Set default frameworks for group (group owners).
 
@@ -306,14 +305,6 @@ extend type Project {
 ### Models and Associations
 
 These models define the structure of the compliance framework mirroring system.
-
-#### MirroredComplianceFramework
-
-- This model ensures that compliance frameworks defined in a central CSP group are mirrored across other top-level groups.
-- It allows projects in different groups to inherit compliance frameworks from a central source.
-- It links a mirrored framework to its original compliance framework and a specific namespace (group).
-- It ensures that each namespace_id can only have one mirrored copy of a specific `original_framework_id` to prevent duplicates.
-- It allows projects to reference mirrored compliance frameworks.
 
 #### ComplianceManagementFramework
 
