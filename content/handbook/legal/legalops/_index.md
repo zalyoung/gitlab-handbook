@@ -16,52 +16,7 @@ Check out [our issue board](https://gitlab.com/groups/gitlab-com/-/boards/921459
 
 GitLab uses Brightflag’s Legal Spend Management platform to process and review legal invoices and accruals.
 
-### Brightflag Invoicing Process
-
-**Normal Flow**: Matter Creation → Invoice Upload → Invoice Verification → AI Analysis → Invoice Review → Accounts Payable → Matter Management & Reporting
-
-**Exception Flow**: If invoices are rejected during Invoice Review, they are sent back to the Law Firm for revision.
-
-| Stage | Process | Activities | Responsible |
-|-------|---------|------------|--------|
-| **1** | **Matter Creation** | • GitLab users create matters & give law firms access<br>• Add entity and finance allocations to the matter | Internal Matter Lead |
-| **2** | **Invoice Upload** | • Law firm uploads invoice to Brightflag | Law Firm |
-| **3** | **Invoice Verification** | • Invoice extraction<br>• High-level detail verification | Brightflag |
-| **4** | **AI Analysis** | • Identify billing guideline breaches<br>• AI Categorization<br>• Assign approval workflows | Brightflag |
-| **5** | **Invoice Review** | • Flag review<br>• Invoice adjustments<br>• Rejected invoices sent back to law firm | Internal Matter Lead |
-| **6** | **Accounts Payable** | • Approved invoices sent to AP | Brightflag |
-| **7** | **Matter Management & Reporting** | • Budgeting<br>• Accruals | Internal Matter Lead and Legal Ops |
-
-#### Invoice Approval
-
-{{% details summary="Invoice Approval Process" %}}
-Any new matters will need to be created in Brightflag. The process is as follows:
-
-- When a law firm is engaged, log into Brightflag via Okta to [create the matter](https://help.brightflag.com/hc/en-us/articles/360002612998-How-to-Create-a-Matter) and assign the law firm.
-- Once a matter is created, the law firm can begin submitting invoices.
-- Use Brightflag to review and approve/reject invoices.
-
-When an invoice is pending your review, you will receive an email notification. Alternatively, you can check your Review Queue to monitor invoices assigned to you.
-
-- [How to Review an Invoice in Brightflag](https://help.brightflag.com/hc/en-us/articles/18312240752285-How-to-Review-an-Invoice-in-Brightflag)
-
-**Workflow:** The invoice workflow is assigned during the AI Analysis. You can add reviewers by clicking the edit workflow button.
-
-**Flags:** Flags are potential adjustments identified by the AI Analysis. Click the flag to view the specific line items. You can toggle them on and off to adjust the invoice amount based on the flag.
-
-- You can also make adjustments at the line item level by clicking the amount you'd like to update.
-- The reason you input will be sent to the vendor.
-
-**Resourcing:** Shows spend based on the timekeeper. You can click the role to see all work done by that timekeeper.
-
-Once the final invoice for a matter is received, close the matter to prevent further activity (invoice submission and accrual email notifications).
-<!-- vale handbook.Repetition = YES -->
-<style>
-    details > details {
-        margin-bottom: 1.5em;
-    }
-</style>
-{{% /details %}}
+See the [Brightflag invoicing process](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/#brightflag-invoicing-process) in the internal handbook.
 
 ### Accruals Process
 
