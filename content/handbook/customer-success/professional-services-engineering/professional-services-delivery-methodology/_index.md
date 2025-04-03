@@ -323,9 +323,9 @@ After the retrospective session:
 
 ## Guidelines for Iteration based PSDM
 
-The full PSDM implementation with a complete Iteration schedule is required only when:
+The full PSDM implementation with a complete Iteration schedule is required only when the Agile-specific SOW
 
-- The Agile-specific Project exceeds 5 Iterations, or
+- Exceeds 5 Iterations, or
 - The engagement is planned to exceed two months
 
 Please review the [archetype definitions](./archetype-definition/_index.md) to understand what constitutes a "large" Customer engagement.
