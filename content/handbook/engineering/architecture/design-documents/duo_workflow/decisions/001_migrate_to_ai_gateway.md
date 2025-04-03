@@ -8,7 +8,7 @@ toc_hide: true
 
 The AI Gateway is a Python-based service that handles LLM interactions over HTTP, primarily acting as a proxy (for authentication, routing, etc.). The Duo Workflow Service is another Python-based service that provides multi-step LLM orchestration (via LangGraph) over gRPC.
 
-Historically, the Duo Workflow Service was developed separately (using gRPC) to allow rapid iteration without integrating into an existing codebase. However, this separation creates overhead in deployments (managing two services specifically for customers using self-hosted models), observability (duplicate logging/tracing), and maintenance (two sets of dependencies). As we plan to migrate Chat to the Duo Workflow backend, merging Duo Workflow into the AI Gateway can reduce complexity and provide a unified service.
+Historically, the Duo Workflow Service was developed separately (using gRPC) to allow rapid iteration without integrating into an existing codebase. However, this separation creates overhead in deployments (managing two services specifically for customers using self-hosted models), observability (duplicate logging/tracing), and maintenance (two sets of dependencies). As we want to mature Duo Workflow towards GA and migrate Chat to the Duo Workflow backend, merging Duo Workflow into the AI Gateway can reduce complexity and provide a unified service.
 
 Three options were considered:
 
@@ -18,7 +18,7 @@ Three options were considered:
 
 ## Decision
 
-**We decided to combine Duo Workflow Service and AI Gateway into a single repository and Docker image using two listeners (Option 2). Separately we will also be adopting web sockets (Option 3 - see ADR-002)** One port will handle the existing HTTP-based AI Gateway traffic, and another port will handle the gRPC-based Duo Workflow traffic. A command-line flag or environment variable can toggle which transports (or both) are enabled at runtime. There will continue to be two services on runway serving the two services on `.com`. Self-hosted models customer have two options they can either run a single combined service or two services depending on their own scaling requirements.
+**We decided to combine Duo Workflow Service and AI Gateway into a single repository and Docker image using two listeners (Option 2). Separately we will also be adopting web sockets (Option 3 - see ADR-002)** One port will handle the existing HTTP-based AI Gateway traffic, and another port will handle the gRPC-based Duo Workflow traffic. A command-line flag or environment variable can toggle which transports (or both) are enabled at runtime. There will continue to be two services on runway serving the two services on `.com`. Self-hosted models customers have two options they can either run a single combined service or two services depending on their own scaling requirements.
 
 Option 3 has been moved to a separate ADR record (ADR-002) as it can be discussed and delivered independently of merging the two services.
 
@@ -71,5 +71,7 @@ flowchart LR
   - Still requires gRPC support from customers’ network configurations. Some firewalls may block HTTP/2 traffic.  
   - The hosting platform (Runway) may need to manage two ports/protocols, which can add some complexity.
   - Maintaining both independent servers, even in a single codebase, may still mean there are duplicated efforts where we have differences between gRPC and HTTP
+  - There is still an initial migration overhead when migrating the existing code-base
+  - We need to decide how to handle reviewer/maintainership when merging two repositories as there is no 100% overlap and Duo Workflow uses different technologies than AI Gateway (LangGraph/gRPC)
 
 Despite these downsides, Option 2 strikes the best balance between maintainability, complexity, and near-term development effort. 

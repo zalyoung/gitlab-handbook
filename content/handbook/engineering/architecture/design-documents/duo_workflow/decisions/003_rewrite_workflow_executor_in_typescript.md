@@ -6,7 +6,7 @@ toc_hide: true
 
 ## Context
 
-The Duo Workflow Service runs in Python, orchestrating multi-step LLM interactions via LangGraph. The executor currently exists as a separate Go binary that the Language Server spawns in order to start executing a workflow. This adds complexity: the LSP is TypeScript-based, but it spawns a Go process for execution. Communication back to the LSP for real-time feedback, streaming and error handling is more limited. Today, remote execution scenarios (running in CI or a container) use the same Go executor.
+The Duo Workflow Service runs in Python, orchestrating multi-step LLM interactions via LangGraph. The executor currently exists as a separate Go binary that the Language Server spawns in order to start executing a workflow. This adds complexity: the LSP is TypeScript-based, but it spawns a Go process for execution. Communication back to the LSP for real-time feedback, streaming and error handling is more limited. There is also duplicated effort in handling local connection and network setup within the Go executor which are already handled in the LSP.  Today, remote execution scenarios (running in CI or a container) use the same Go executor.
 
 ## Proposal
 
