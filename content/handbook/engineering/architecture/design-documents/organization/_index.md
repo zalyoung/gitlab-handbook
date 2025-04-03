@@ -209,7 +209,7 @@ This is foundational work to integrate the Organization at low levels of the cod
 Ensure all Organizations are equal by removing references to the Default Organization (ID = 1).
 This is in part a carry over from the 2023 roadmap.
 
-### Organization Sharding
+#### Organization Sharding
 
 Tables, with a small number of exceptions, should be related to an Organization.
 Organizational tables must have an `organization_id`, `namespace_id`, or a `project_id` column so all tables directly or indirectly belong to an Organization.
