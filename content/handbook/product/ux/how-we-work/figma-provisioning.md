@@ -32,7 +32,7 @@ Figma has three different products that seat types can apply to:
 
 ### Access request issues
 
-Every approved paid Figma seat must have a corresponding access request issue with budget approval. Seat upgrades can only happen with Okta access through Google groups and not by using the Figma admin or Figma's sharing tools.
+Every approved paid Figma seat must have a corresponding [access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=Individual_Bulk_Access_Request) with budget approval. Seat upgrades can only happen with Okta access through Google groups and not by using the Figma admin or Figma's sharing tools.
 
 Provisioners need to be pinged in the access request issue to grant access. As a provisioner, ensure:
 
