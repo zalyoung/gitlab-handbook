@@ -430,6 +430,28 @@ To apply for Adoption Leave:
   - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
   - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
 
+####   Statutory Neonatal Care Leave and Pay (SNCL&P)
+
+New right to neonatal care leave and pay beginning April 6, 2025.
+
+**Neonatal Care Leave (NCL)** will apply to parents of babies who are admitted into neonatal care up to 28 days old and who have a continuous stay in hospital of 7 full days or longer. These measures will allow eligible parents to take up to 12 weeks of leave (and, if eligible, pay) on top of any other leave they may be entitled to, including maternity and paternity leave. The leave must be taken within 68 weeks of your baby's birth. Neonatal Care Leave is a day-one right.
+ 
+There are two tiers of Neonatal Care Leave:
+**Tier 1:** Available when the child is in neo-natal care, and the first week after their release. The leave must be taken in 7 continuous day blocks. Overlap with a pre-booked parental leave, the SNCL can be paused to allow the other parental leave to be taken. Team members must provide notice to their employer as soon as reasonably practicable.
+
+**Tier 2:** Available from the second week following their release, up to 68 weeks following the child’s birth. Taken as a single block, as this leave is taken when the child is out of neo-natal care and can be planned. Team members wanting to take one week SNCL&P will need to give two weeks and one days' notice in advance.
+
+**Neonatal Care Pay (NCP)** is available to eligible employed parents who will be able to claim up to 12 weeks of NCP.
+To be eligible, team members must:
+- Have at least 26 weeks of continuous service with their employer and, 
+- Meet the minimum earnings threshold  (Your average gross weekly earnings must be at least equal to the lower earnings limit, for April 2024-25, this is £123 per week.) 
+Eligible team members will receive the lower of:
+- Standard rate £187.18
+- Or 90% of their average weekly earnings
+
+[GitLab’s Parental Leave](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy will run concurrently with NCL and NCP topping up the statutory pay to 100% regular salary.
+
+
 ### Other Job-Protected Leave
 
 The following leave types run concurrently with GitLab PTO. Team members should initiate leave by selecting the appropriate option in `Workday`. If none applies, the team members should notify their manager and the Absence Management team `leaves@gitlab.com` to initiate leave.
