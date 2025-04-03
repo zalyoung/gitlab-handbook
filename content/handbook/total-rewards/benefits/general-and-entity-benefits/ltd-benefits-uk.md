@@ -430,7 +430,7 @@ To apply for Adoption Leave:
   - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
   - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
 
-####   Statutory Neonatal Care Leave and Pay (SNCL&P)
+#### Statutory Neonatal Care Leave and Pay (SNCL&P)
 
 New right to neonatal care leave and pay beginning April 6, 2025.
 
@@ -443,13 +443,16 @@ There are two tiers of Neonatal Care Leave:
 
 **Neonatal Care Pay (NCP)** is available to eligible employed parents who will be able to claim up to 12 weeks of NCP.
 To be eligible, team members must:
+
 - Have at least 26 weeks of continuous service with their employer and, 
-- Meet the minimum earnings threshold  (Your average gross weekly earnings must be at least equal to the lower earnings limit, for April 2024-25, this is £123 per week.) 
+- Meet the minimum earnings threshold  (Your average gross weekly earnings must be at least equal to the lower earnings limit, for April 2024-25, this is £123 per week.)
+
 Eligible team members will receive the lower of:
+
 - Standard rate £187.18
 - Or 90% of their average weekly earnings
 
-[GitLab’s Parental Leave](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy will run concurrently with NCL and NCP topping up the statutory pay to 100% regular salary.
+[GitLab’s Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy will run concurrently with NCL and NCP topping up the statutory pay to 100% regular salary.
 
 
 ### Other Job-Protected Leave
