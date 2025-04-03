@@ -1,7 +1,10 @@
 ---
-title: "Cloud Connector ADR 002: Remove OIDC key discovery"
+title: "ADR 002: [RETIRED] Remove OIDC key discovery"
 toc_hide: true
 ---
+
+_**NOTE:** We decided to skip this ADR in favor of going straight to [ADR004: Self-contained tokens](./004_self_contained_tokens.md).
+We had originally meant for this to be a stepping stone but think it is more efficient to go straight to self-contained tokens._
 
 ## Context
 
