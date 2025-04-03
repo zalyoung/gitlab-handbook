@@ -1,11 +1,7 @@
 ---
 title: "Iteration 0"
-description: "Learn about the first step of a GitLab PS engagement with a customer."
+description: "Iteration 0 starts with our internal EM>PS Transition meeting and continues through the Planning and Design Sessions with the Customer. This critical phase establishes project foundations and ensures alignment between GitLab and Customer teams."
 ---
-
-# Iteration 0: Project Initiation & Planning
-
-> Iteration 0 starts with our internal EM>PS Transition meeting and continues through the Planning and Design Sessions with the Customer. This critical phase establishes project foundations and ensures alignment between GitLab and Customer teams.
 
 **Quick Links:** [PSDM Guidelines](../_index.md#guidelines-for-psdm) | [Iteration 0 Fundamentals](../iteration-0-fundamentals/_index.md) | [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits)
 
@@ -60,9 +56,9 @@ Focus the discussion on:
 Following the meeting, ensure completion of:
 
 - [ ] Internal team understands where to find the latest status
-- [ ] Collaboration Project setup and pinned to Slack channel, along with the internal retrospective issue 
+- [ ] Collaboration Project setup and pinned to Slack channel, along with the internal retrospective issue
 - [ ] Stakeholder Planning meeting scheduled with the Customer
-- [ ] Technical prerequisites identified for discussion with customer
+- [ ] Technical prerequisites identified for discussion with the Customer
 - [ ] Initial risks documented
 
 > **💡 Tip:** Think big in discovery and consider team alignment for team readiness. The goal is to enter Planning and Design sessions confidently, with the Customer well-prepared.
@@ -75,7 +71,7 @@ Following the meeting, ensure completion of:
 
 ### Meeting Setup
 
-1. Schedule a dedicated meeting with key stakeholders from both GitLab and customer teams
+1. Schedule a dedicated meeting with Customer PM & key stakeholders from both GitLab and Customer teams.
 2. Use the [Stakeholder Planning Template](https://docs.google.com/presentation/d/1vVJQrJeGG-yLAeso_iKkb80H5kE7wStyBAj1sj45sY4/edit#slide=id.g923452f41b_1_5) to guide the discussion
 3. Focus on mutual understanding of project parameters
 
@@ -117,7 +113,7 @@ Following the meeting, ensure completion of:
 - [ ] Prepared agenda for Customer Kickoff
 - [ ] Action items with clear ownership
 
-> **💡 Tip:** Use this meeting to identify and address any misalignments in expectations between GitLab and the customer team before the broader kickoff meeting.
+> **💡 Tip:** Use this meeting to identify and address any expectation misalignment between GitLab and the Customer team before the broader kickoff meeting.
 
 ---
 
@@ -135,6 +131,7 @@ Following the meeting, ensure completion of:
 ### Meeting Content
 
 Present a comprehensive overview of:
+
 - Project objectives and success criteria
 - Team structure and roles
 - Project approach and methodology
@@ -160,17 +157,20 @@ Present a comprehensive overview of:
 ### ZenDesk Access
 
 If you don't have ZenDesk light (Read-Only) access:
+
 1. Open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
 2. Request ZenDesk light access
 
 ### Creating a Support Note
 
 #### Step 1: Find the Customer Organization
+
 1. Access the [Organizations Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations)
 2. Search for the Customer Name (will appear as a hash followed by the Salesforce name)
    ![ZenDesk Search Image](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/Zen-search.png)
 
 #### Step 2: Edit the YAML File
+
 1. Select the YAML from Search, then click `Edit > Open in Web IDE`
    ![Edit YAML Image](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/edit-yaml.png)
 
