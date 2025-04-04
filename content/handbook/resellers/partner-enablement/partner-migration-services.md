@@ -17,9 +17,9 @@ _For the links in this section, login to our [GitLab Partner Portal](https://par
 
 GitLab Partners who are successful at performing customer-facing migrations often take this example path in client engagement:
 
-1. Scope/size of the migration: How many users? How many code repositories? Will the group structure remain intact, or is the migration an opportunity to 'clean up unused projects' within GitLab? Consider running [GitLab Evaluate](https://gitlab.com/gitlab-org/professional-services-automation/tools/utilities/evaluate), an open source a script that can be run to gather information about all projects of a GitLab Instance and/or Group (including subgroups). Also consider running [Project storage report](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/project-storage-report) to create a CSV report for project storage usage. Reports for a single group as well as all projects on a self-managed instance are supported.
+1. Scope/size of the migration: How many users? How many code repositories? Will the group structure remain intact, or is the migration an opportunity to 'clean up unused projects' within GitLab? Consider running [GitLab Evaluate](https://gitlab.com/gitlab-org/professional-services-automation/tools/utilities/evaluate), an open source script that can be run to gather information about all projects of a GitLab Instance and/or Group (including subgroups). Also consider running [Project storage report](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/project-storage-report) to create a CSV report for project storage usage. Reports for a single group as well as all projects on a self-managed instance are supported.
 1. Understand the customer's business: What artifacts are needed to be migrated? Is an audit-compliance history of users, issues, and merge requests important to the company? Or is migrating just the git code repository sufficient? What data is your customer sensitive to migrating? Would a [GitLab Partner Led Optimization Service](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection) be a better first step?
-1. Health check: Is the import data source healthy, or would a [Readiness Assessment](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/readiness/) help provide the health of the GitLab source? Are some git repositories unable to be cloned, or require cleaning up? Are there any large code repositories with a long-lived history?
+1. Health check: Is the import data source healthy, or would a [Health Check](https://drive.google.com/file/d/1OWZdw44MMaYLyrvxGo96vYuzz5wTXeaq/view) help provide the health of the GitLab source? Are some git repositories unable to be cloned, or require cleaning up? Are there any large code repositories with a long-lived history?
 1. Post-migration needs: Are there other consultative considerations like access control, and Single-Sign-On (SSO) that need to be configured as part of the migration and adoption towards GitLab or GitLab.com?
 
 After having a technical scoping/sizing conversation with your customer, GitLab Partners find our [GitLab Channel Service Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) helpful. These contain template Data Sheets, Statements of Work (SOWs), and Project Plans. GitLab Partners are welcome to take and use these GitLab Channel Service Packages as templates for your customer work. Rebranding and rewording towards your unique technical service offering is encouraged. The table also outlines the GitLab expectations for the certifications held by our partners under the `Aligned Partner Certification` column.
@@ -28,13 +28,15 @@ The [Migration Readiness Checklist](https://gitlab.com/gitlab-org/professional-s
 
 Communicating clearly [What are a customer's obligations and responsibilities prior to, during, and after a migration](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-are-a-customers-obligations-and-responsibilities-prior-during-and-after-a-migration) and [What level of instance access and permission are needed for migrating](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-level-of-instance-access-and-permission-are-needed-for-migrating) with your customer will also ensure a smooth migration.
 
-Similarly, the [Migration group](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-delivery-kits) of our [GitLab Professional Services Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) can be very helpful, because these projects "provide step-by-step instructions on delivering everything from a single activity to an entire statement of work (SOW)"
+Similarly, the [Migration group](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-delivery-kits) of our [GitLab Professional Services Migration Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-delivery-kits/migration-delivery-kit) can be very helpful, because these projects "provide step-by-step instructions on delivering everything from a single activity to an entire statement of work (SOW)"
 
 ## From other DevOps platforms to GitLab
 
 To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources) and [Other Import Sources](https://docs.gitlab.com/ee/user/project/import/#other-import-sources) (anchor link on the same page).
 
 Migrating pipelines from other systems, [like Jenkins](https://docs.gitlab.com/ee/ci/migration/jenkins.html), is a value-added **manual** development process. There are automated tools for such migrations out there, but there's none officially supported by GitLab. We encourage our partners to scope by understanding the number of pipelines, current pipeline performance, [environmental variables](https://docs.gitlab.com/ee/ci/variables/), and secrets used. Partners find a time and materials style contract helpful when consulting on developing pipelines between other source systems and [GitLab's pipeline syntax.](https://docs.gitlab.com/ee/ci/)
+
+GitLab Professional Services also offers an advisory [CI/CD Workshop packaged SKU offering](https://drive.google.com/file/d/10RzC-e0fhvgKBRaoZlxEgUQc90Z_0IVR/view) as well as a hands-on custom-scoped [CI/CD App Modernization offering](https://drive.google.com/file/d/1ib6-xhja3WJbV_46rU2iDF9I-4I8xo8M/view) which follows a teach how to fish approach. The [Delivery Kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/cicd-delivery-kits/cicd-delivery-kit) is still under construction but has some good tidbits already.
 
 ## From GitLab self-managed to GitLab self-managed
 
@@ -50,7 +52,7 @@ GitLab can be installed and operated in [offline environments](https://docs.gitl
 
 - Direct transfer doesn't support this. Project/export import is a workaround. See the GitLab issue titled [Direct transfer - Support for air-gapped solutions](https://gitlab.com/groups/gitlab-org/-/epics/8985) and [maintain project and group file-based import/export as a workaround for migrations over air-gapped networks and to serve other use cases](https://gitlab.com/gitlab-org/gitlab/-/issues/363406) for nuanced technical details on performing this.
 
-## From GitLab self-managed to GitLab SaaS or the other way around
+## From GitLab self-managed to GitLab.com or the other way around
 
 Choosing from the three different options for a customer migration depends on understanding your customer's needs post-migration. A full technical page comparing in a table format the pros and cons of each method is outlined in [Migration features](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md#migration-features). While **Congregate** supports most Features to be migrated, migrating to/from GitLab.com with Congregate requires the GitLab Professional Services team due to restricted access to the GitLab.com SaaS (multi-tenant) data. Your migration service may be achieved using one of the other methods.
 
@@ -70,7 +72,7 @@ For cases that direct transfer can't or won't cover. A good example would be air
 
 - [Group import and export API](https://docs.gitlab.com/ee/api/group_import_export.html)
 
-### 2. Direct transfer (Beta)
+### 2. Direct Transfer 
 
 This feature was recently released and is the direction our product team is moving toward for migrating GitLab projects from instance to instance or SaaS. Please review the following resources:
 
@@ -88,7 +90,12 @@ Clone the repo and then with just a single command, the environment is ready to 
 
 ### 3. Congregate
 
-[Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/) - used by [GitLab Professional Services](https://about.gitlab.com/services/) - is GitLab's most mature migration solution and supports many options. **Note that migrations to SaaS require the involvement of GitLab PS due to restricted access to GitLab SaaS (multi-tenant) data.** More information about the latter can be found [here](/handbook/customer-success/csm/risk-mitigation/self-managed-vs-saas/).
+[Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/) is GitLab's most mature migration solution and supports many options. **Note that migrations to SaaS require the involvement of GitLab PS due to restricted access to GitLab SaaS (multi-tenant) data.** More information about the latter can be found [here](/handbook/customer-success/csm/risk-mitigation/self-managed-vs-saas/).
+
+Congregate is an open-source command line interface (CLI) migration tool developed and maintained by the GitLab Professional Services team that orchestrates the end to end process of migrating an organization to GitLab. Congregate is the preferred method used by GitLab Professional Services because it supports the migration of [many features](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md) that the built-in GitLab product importers/exporters don't support.
+
+At a high level, Congregate is an API wrapper that allows Professional Services to leverage [file exports](https://docs.gitlab.com/user/project/settings/import_export/) or [Direct Transfer](https://docs.gitlab.com/user/group/import/.) It relies on the existing importers we have available in GitLab that can be used through the GitLab REST API
+Additional third party REST and GraphQL APIs along with other API libraries are also bundled into Congregate to support migrating from multiple different source types.
 
 Important to note about Congregate:
 
