@@ -67,6 +67,10 @@ Process:
 1. [Add an admin note](/handbook/support/workflows/admin_note/).
 1. Click `Save` when done.
 
+### Identity verification exemption requests
+
+Details of this process is available at [Internal Handbook](https://internal.gitlab.com/handbook/security/security_operations/trust_and_safety/guides-and-documentation/account-reinstatements/identity-verification-exemption-requests/). 
+
 ## Blocked Accounts
 
 This workflow is used to determine if a blocked or a banned user can be reinstated. All blocked accounts should have an admin note with a link to a relevant issue.
