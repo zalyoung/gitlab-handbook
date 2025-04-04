@@ -271,7 +271,7 @@ User groups will allow business teams to manage accessibility to their published
 
 Each section below corresponds to a limited access user group and the designated owner. Access to limited user groups can be done vie the Lumos app using the `Tableau SAFE Access` or `Tableau Special Permissions` applets. Please note: To gain access to an user group, the designated owner will need to give approval. The desingated owner can be seen in Lumos when requeseting access.
 
-- **General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
+- **General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/) list to be added to this group.
 
 - **Ecosystem Sales and Operations** 
 
@@ -459,7 +459,7 @@ Tableau access is structured in a tiered approach that separates data based on s
 
 - General Content: All users receive access to general content by default upon approval
 - Restricted SAFE Content: Requires additional approval and justification
-- Other [special permission](/handbook/enterprise-data/platform/tableau/#limited-access-user-groups) access.
+- Other [special permission](/handbook/enterprise-data/platform/tableau/#user-groups) access.
 
 Users may request restricted access through the Lumos App by selecting the following Lumos Apps and following the instructions there:
 
