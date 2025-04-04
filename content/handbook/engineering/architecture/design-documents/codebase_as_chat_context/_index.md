@@ -124,71 +124,66 @@ Given a question entered on Duo Chat, a semantic search is done over the code em
 
 ### Indexing the Codebase
 
-_Note: the **Code Embeddings Indexer** makes use of the framework provided by the **AI Context Abstraction Layer**, which sends a request to the AI Gateway to generate vector embeddings. That particular part of the workflow is not illustrated here._
-
-**Indexing Workflow on the Default Branch**
+**Indexing Workflow - Default and Feature Branches**
 
 ```mermaid
 sequenceDiagram
     actor USR as User
+    participant GIT as GIT
     box GitLab Rails
-      participant GLRAPI as GitLab API
-      participant GLRGIT as GitLab Git Module
-      participant CEI as Code Embeddings Indexer
+      participant GLRGPS as Git BranchPushService
+      participant CEIW as Code Embeddings Indexing Worker
+      participant CEIS as Code Embeddings Indexing Service
+      participant CE as Code Embeddings
     end
-    participant PRSR as One Parser Gem
-    participant STOR as Embeddings Storage
 
-    USR->>GLRAPI: Pushes a commit to the main branch
-    GLRAPI->>GLRGIT: Notifies change in the main branch
-    GLRGIT->>CEI: Kicks off indexing
-    CEI->>CEI: Determines the changed files in the commit
-    CEI->>PRSR: Sends the changed files for chunking
-    PRSR->>CEI: Returns the chunked contents
-    CEI->>CEI: Creates vector embeddings of the chunked content
-    CEI->>STOR: Stores the embeddings in the selected storage
+    USR->>GIT: Pushes a commit to a branch
+    GIT->>GLRGPS: Notifies of branch push event
+    GLRGPS->>CEIW: Kicks off indexing worker
+    CEIW->>CEIS: Calls indexing service
+    CEIS->>CEIS: Determines if branch is default or feature branch
+    alt index default branch
+      CEIS->>CEIS: Determines the changed files in the affected commits
+    else index feature branch
+      CEIS->>CEIS: Determines the changed files in the feature branch<br /> in comparison to the default branch
+    end
+    loop for each new file
+      CEIS->>CE: Creates a CodeEmbeddings::Reference with unique identifier for branch-filepath
+      CE->>CEIS: Returns the CodeEmbeddings::Reference
+      CEIS->>CE: Tracks the created Reference for indexing
+    end
 ```
 
-**Indexing Workflow on Feature Branches**
-
-```mermaid
-sequenceDiagram
-    actor USR as User
-    box GitLab Rails
-      participant GLRAPI as GitLab API
-      participant GLRGIT as GitLab Git Module
-      participant CEI as Code Embeddings Indexer
-    end
-    participant PRSR as One Parser Gem
-    participant STOR as Embeddings Storage
-
-    USR->>GLRAPI: Pushes a commit to the feature branch
-    GLRAPI->>GLRGIT: Notifies change in the feature branch
-    GLRGIT->>CEI: Kicks off indexing
-    CEI->>CEI: Determines the changed files in the<br /> feature branch in comparison to the default branch
-    CEI->>PRSR: Sends the changed files for chunking
-    PRSR->>CEI: Returns the chunked contents
-    CEI->>CEI: Creates vector embeddings of the chunked content
-    CEI->>STOR: Stores the embeddings in the selected storage
-```
+**Feature Branches Deletion**
 
 We need to delete code embeddings for deleted feature branches.
 
 ```mermaid
 sequenceDiagram
     actor USR as User/System
+    participant GIT as GIT
     box GitLab Rails
-      participant ABC as ???
-      participant GLRGIT as GitLab Git Module
-      participant CEI as Code Embeddings Indexer
+      participant GLRAPI as API / Controller
+      participant GLRGBR as Git Branch Service
+      participant CEDW as Code Embeddings Deletion Worker
+      participant CEDS as Code Embeddings Deletion Service
+      participant CE as Code Embeddings
     end
-    participant STOR as Embeddings Storage
 
-    USR->>ABC: Deletes a feature branch
-    ABC->>GLRGIT: Notifies of deleted feature branch
-    GLRGIT->>CEI: Notifies of deleted feature branch
-    CEI->>STOR: Sends a command to delete the code embeddings in the feature branch
-    STOR->>STOR: Deletes the code embeddings
+    alt branch deletion through git
+      USR->>GIT: Deletes a feature branch through git
+      GIT->>GLRGBR: Notifies of deleted feature branch
+    else deletion through the web
+      USR->>GLRAPI: Deletes a feature branch through the web
+      GLRAPI->>GLRGBR: Notifies of deleted feature branch
+    end
+    GLRGBR->>CEDW: Kicks off embeddings deletion
+    CEDW->>CEDS: Performs embeddings deletion
+    CEDS->>CE: Requests the existing embeddings refs in the branch
+    CE->>CEDS: Returns the existing embeddings refs in the branch
+    loop for each embeddings ref
+      CEDS->>CE: Tracks the embeddings Reference for deletion
+    end
 ```
 
 We also need to watch for stale and inactive feature branches and delete the code embeddings for those branches.
@@ -197,47 +192,65 @@ We also need to watch for stale and inactive feature branches and delete the cod
 sequenceDiagram
     box GitLab Rails
       participant WRKR as Worker
-      participant CEI as Code Embeddings Indexer
+      participant GLRGBR as Git Branch Service
+      participant CEDW as Code Embeddings Deletion Worker
+      participant CEDS as Code Embeddings Deletion Service
+      participant CE as Code Embeddings
     end
-    participant STOR as Embeddings Storage
 
-    WRKR->>WRKR: Watches for stale or inactive feature branches
-    WRKR->>CEI: Notifies of stale or inactive feature branch
-    CEI->>STOR: Sends a command to delete the code embeddings in the feature branch
-    STOR->>STOR: Deletes the code embeddings
+    loop
+      WRKR->>GLRGBR: Checks for stale or inactive feature branches
+      GLRGBR->>WRKR: Returns stale or inactive feature branches
+    end
+    opt there are stale or inactive branches
+      loop for each stale or inactive branch
+        WRKR->>CEDW: Kicks off embeddings deletion
+        CEDW->>CEDS: Performs embeddings deletion
+        CEDS->>CE: Requests the existing embeddings refs in the branch
+        CE->>CEDS: Returns the existing embeddings refs in the branch
+        loop for each embeddings ref
+          CEDS->>CE: Tracks the embeddings Reference for deletion
+        end
+      end
+    end
 ```
 
-### Adding the Codebase as Context on Duo Chat
+**Feature Branches Update**
 
-_Note: the **Code Embeddings Searcher** makes use of the framework provided by the **AI Context Abstraction Layer**, which sends a request to the AI Gateway to generate vector embeddings. That particular part of the workflow is not illustrated here._
+We also need to consider the scenario where a branch is renamed.
+
+_Implementation TBA_
+
+### Adding the Codebase as Context on Duo Chat
 
 ```mermaid
 sequenceDiagram
     actor USR as User
     participant FE as IDE/Language Server
     box GitLab Rails
-      participant GLRAPI as GitLab API
+      participant GLRGQL as GraphQL API
       participant GLRDUO as Duo Chat Module
-      participant CES as Code Embeddings Searcher
+      participant CES as Code Embeddings Search Service
+      participant CE as Code Embeddings
     end
-    participant STOR as Embeddings Storage
     participant AIGW as AI Gateway
     participant LLM as LLM
 
-    USR->>FE: Types a question, indicating `codebase` as additional context
-    FE->>GLRAPI: Sends question, with the signal to include `codebase` as additional context
-    GLRAPI->>GLRDUO: Sends question, with the signal to include `codebase` as additional context
+    USR->>FE: Types a question, indicating<br /> `codebase` as additional context
+    FE->>GLRGQL: Sends question, with the signal<br /> to include `codebase` as additional context
+    GLRGQL->>GLRDUO: Sends question, with the<br /> signal to include `codebase` as additional context
     GLRDUO->>CES: Queries for additional context for the user's question
-    CES->>CES: Creates an embedding of the user's question
-    CES->>STOR: Performs a semantic search on code embeddings with the user's question as target
-    STOR->>CES: Returns the search results
+    CES->>CE: Requests an embedding of the user's question
+    CE->>CES: Returns an embedding of the user's question
+    CES->>CE: Performs a semantic search on code embeddings<br /> with the user's question as target
+    CE->>CES: Returns the search results
     CES->>GLRDUO: Returns the search results
-    GLRDUO->>AIGW: Sends the question with the embeddings search result as additional context
-    AIGW->>LLM: Sends the question with the embeddings search result as additional context
+    GLRDUO->>AIGW: Sends the question with the<br /> embeddings search result as additional context
+    AIGW->>LLM: Sends the question with the<br /> embeddings search result as additional context
     LLM->>AIGW: Returns the answer
     AIGW->>GLRDUO: Returns the answer
-    GLRDUO->>GLRAPI: Returns the answer
-    GLRAPI->>FE: Returns the answer
+    GLRDUO->>GLRGQL: Returns the answer
+    GLRGQL->>FE: Returns the answer
     FE->>USR: Shows the answer
 ```
 
