@@ -265,65 +265,19 @@ Pursuant to GitLab's Transparency value, all GitLab team members will have acces
 
 User Groups are the only prescribed method we use for setting permissions across the Tableau site. A User Group is a collection of users that can be based on a topic, project, or organization structure, that will need to have the same set of access and permissions for content. All users will be a member of the General Access user group and can be added to more User Groups as required.
 
-#### Limited Access User Groups
-
-Limited access user groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the `Standard Data Team Issue` template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/new#) section of the Tableau project.
+User groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the `Standard Data Team Issue` template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/new#) section of the Tableau project.
 
 #### List of User Groups
 
-Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
+Each section below corresponds to a limited access user group and the designated owner. Access to limited user groups can be done vie the Lumos app using the `Tableau SAFE Access` or `Tableau Special Permissions` applets. Please note: To gain access to an user group, the designated owner will need to give approval. The desingated owner can be seen in Lumos when requeseting access.
 
-- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
-- To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager.
+- **General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
 
-- **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
+- **Ecosystem Sales and Operations** 
 
-- **ASM EMEA Commercial Restricted Access:** This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
+- **Internal Audit Restricted Access** 
 
-- **ASM Restricted Access:** Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
-
-- **Customer Success Access:** Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
-
-- **Ecosystem Sales and Operations:** Please work with the Ecosystem Sales and Operations team and/or Niles Jamshaid @Niles
-
-- **Internal Audit Restricted Access:** Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
-
-- **People Restricted Access:** Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
-
-- \***Sales Development SAFE Access:** Please work with Keith Gliksman @keith.gliksman for access approval.
-
-- \***Self-Service SAFE Access:** - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
-
-*Note: Groups with asterisk are where team members must be on the Designated Insiders list to be added to this group.
-
-<details markdown=1>
-
-<summary><b>Example User Group</b></summary>
-
-```yml
-
-groups:
-  - group_name: group 1
-  - group_name: group 2
-  - group_name: group 3
-
-users:
-  - user_name: team_memebr@gitlab.com
-    site_role: Site Administrator Creator
-    auth_setting: SAML
-    groups:
-      - group 1
-      - group 2
-
-  - user_name: other_team_member@gitlab.com
-    site_role: Viewer
-    auth_setting: SAML
-    groups:
-      - group 1
-
-```
-
-</details>
+- **People Restricted Access** 
 
 #### Project Permission Structure
 
