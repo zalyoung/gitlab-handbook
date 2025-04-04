@@ -132,6 +132,17 @@ erDiagram
     }
 ```
 
+Our requirements are that we will be accessing todos in the majority of situations by user_id, and possible filtering patterns are: 
+
+- by project
+- by group (so all notifications coming from projects from particular group)
+- by author
+- by resource connected to the notification
+- by action (for example: mentioned/assigned/etc)
+- by state
+- by snoozed status.
+
+
 ### Notification settings 
 
 Currently notification settings allow users to define highly customizable rules for when to receive email notifications. To create parity between the current to-dos and email system, we should add the ability for users to establish if they want to receive email only, email and web-based notification, or just an web-based notification.
@@ -213,5 +224,15 @@ Cons:
 
 - Doesn't solve code maintenance issues
 - Limited future extensibility
+
+1. Introducing [Read Model](https://www.qlerify.com/event-storming-concepts/read-model) to Notifications table to not use STI pattern
+
+Pros:
+
+- Focus on retrieval patterns, optimizing for read speed
+
+Cons:
+
+- Requires extensive event system development to make sure every change is reflected in the notifications table
 
 ## Architectural Decision Record
