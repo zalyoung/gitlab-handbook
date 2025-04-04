@@ -4,6 +4,7 @@ description: "Learn about the processes that the GitLab Project Management team 
 ---
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Project Initiate & Plan](#project-initiate--plan)
   - [Iteration 0](#iteration-0)
@@ -30,6 +31,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 [Iteration 0](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/iteration-0/) includes the initial planning between the GitLab & Customer Project Teams. Proper Iteration 0 preparedness allows us to address risk and expectation early.
 
 **Summary of Iteration 0 Content:**
+
 Iteration 0 covers the critical preparatory phase of a project, including:
 - Engagement Manager to PS Delivery Team transition process
 - Setting up Support access for the Customer
@@ -61,6 +63,7 @@ _Billable vs NonBillable information_, please refer to [Team Metrics](/handbook/
 We follow the [PSDM (Professional Services Delivery Methodology)](../professional-services-delivery-methodology/_index.md) for all our Professional Service Engagements.
 
 **Summary of PSDM Content:**
+
 The Professional Services Delivery Methodology (PSDM) is a comprehensive framework that covers:
 - Managing Projects in GitLab as the single source of truth
 - Establishing Project Velocity and Iteration scheduling
@@ -210,7 +213,7 @@ Project scope for Professional Services is the outline of the work required to d
 
 4. **Internal Project Retrospective**
 
-   Schedule an internal project retrospective meeting with the GitLab Account Team, GitLab PS Project Team, Engagement Manager, and Delivery Managers, TA, and Practice team. The [internal retrospective](/customer-success/professional-services-engineering/professional-services-delivery-methodology/#internal-retrospective-guidelines) is essential for documenting lessons learned, scoping insights, and opportunities for continuous improvement.
+   Schedule an internal project retrospective meeting with the GitLab Account Team, GitLab PS Project Team, Engagement Manager, and Delivery Managers, TA, and Practice team. The [internal retrospective](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/#internal-retrospective-guidelines) is essential for documenting lessons learned, scoping insights, and opportunities for continuous improvement.
 
 5. **Kantata Updates**
 
