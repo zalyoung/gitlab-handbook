@@ -71,7 +71,7 @@ Process:
 
 ### Accounts unable to verify with a credit card and/or phone number
 
-When a user is unable to complete credit card and/or phone number verification, an exemption can be requested from the [Trust and Safety team](https://handbook.gitlab.com/handbook/security/security-operations/trustandsafety/). This is also sometimes referred to as "identity verification".
+When a user is unable to complete credit card and/or phone number verification, an exemption can be requested from the [Trust and Safety team](../../security/security-operations/trustandsafety/). This is also sometimes referred to as "identity verification".
 
 Details of the process and instructions are available in the [Internal Handbook](https://internal.gitlab.com/handbook/security/security_operations/trust_and_safety/guides-and-documentation/account-reinstatements/identity-verification-exemption-requests/). 
 
