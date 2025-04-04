@@ -111,7 +111,7 @@ The webcast Zoom license can only be used for a single session at a time. This l
 - Naming Convention for Calendar - [WC Dry Run] `Name of Webcast` or [WS Dry Run] `Name of Workshop` and Start-End Time/Time Zone of dry run (example - 9:00am -  10:00am PST)
 - There is no need to add 30 minutes before/after to a dry run event as they generally run 30 minutes and should not take more than 60 minutes.
 - Helpful Hint: If you are having trouble finding 60 minutes where everyone is available, try to at least find a time that everyone is open for the first 30 minutes.
-- FMC to create the invite utilizing the SLA date from the [SLA Workback Schedule](https://docs.google.com/spreadsheets/d/1YXriQ1clvYyBn-TDbbCVvNP6NEbrAF-0w6tIHKhDeZM/edit#gid=1983708280).
+- FMC to create the invite for the week prior to the webcast or workshop, based on a day and time that attendees are available. 
 - The FMC will include webcast/workshop team and FMM listed in the Webcast Dry Run Scheduling issue on calendar invite, as well as the epic link and dry run agenda (linked in epic).
 - FMC will uncheck the setting `Modify Event` and `Invite Others` under `Guest Permissions` so invitees are not able to modify the event or add additional guests.
 - Once the dry run calendar invite is complete, the FMC will also re-visit the main calendar invite for the webcast/workshop and add the additional webcast/workshop team from the Webcast Dry Run Scheduling issue, as well as exchange the issue link for the epic link that should now be created, and add the link for the Dry Run Agenda.
@@ -432,7 +432,7 @@ Please reach out to your Marketing Ops rep to shut down the landing page, or if 
 
 **Webcasts and Workshops:**
 
-- Once the finalized slide deck has been provided to the FMC by `@lfstucker`, the FMC will follow these [instructions](https://support.apple.com/en-jo/guide/preview/prvw11793/mac#:~:text=Delete%20a%20page%20from%20a,or%20choose%20Edit%20%3E%20Delete) to edit the presentation slides, ensuring the account set-up slides have been deleted.
+- Once the finalized slide deck has been provided to the FMC by `@lfstucker`, the FMC will will make a copy of the slides and follow these [instructions](https://support.apple.com/en-jo/guide/preview/prvw11793/mac#:~:text=Delete%20a%20page%20from%20a,or%20choose%20Edit%20%3E%20Delete) to edit the copy of the presentation slides, ensuring the account set-up slides have been deleted.
 - The FMC to then follow [these instructions](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#uploading-the-presentation-deck) to add the slides as a new piece of content to Pathfactory. Then, the FMC will add the presentation slides to the created Pathfactory track for the workshop.
   - **This is needed as soon as slides are final as Pathfactory track is linked to follow up email.**
 
