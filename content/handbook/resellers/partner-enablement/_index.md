@@ -164,7 +164,6 @@ Delivery docs and technical guidance for your GitLab practice engineers
 - [Using GitLab Tutorials](https://docs.gitlab.com/ee/tutorials/) (GitLab Docs)
   - These video and web page tutorials are included in the GitLab Docs site.  They are a great starting point for learning or deploying technical capabilities.
 
-
 ### GitLab Channel Service Packages
 
 The following Services are examples that you can take, modify and use to provide your own branded professional consultative services that involve GitLab.
