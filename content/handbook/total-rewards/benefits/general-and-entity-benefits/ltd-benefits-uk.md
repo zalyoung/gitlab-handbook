@@ -96,6 +96,8 @@ Team Members are automatically enrolled in to the pension benefit of **4x basic 
 
 To designate a beneficiary for this benefit, please complete the [Expression of Wish Form](https://docs.google.com/document/d/1L5PFNeeZPmC5CArxrm7YX8W4BwKzdLFo/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) and send the completed form to the Total Rewards Team.
 
+Unum Life Insurance policyholders have access to a range of support services including Cancer Assist — in-the-moment, personalised guidance from cancer experts Reframe. For more information see [Unum’s Life Wellbeing Checklist](https://drive.google.com/file/d/1TGOquhebJ8A37aBNkaiPch0r8-s7sMp_/view?usp=sharing)
+
 See additional details on the [Life Insurance Policy](https://drive.google.com/file/d/1wS3XP7C9N64iistpsYPUiD709nTkutvt/view?usp=sharing).
 
 ### Employee Assistance Program (EAP)
@@ -119,6 +121,8 @@ New Team Members should expect an enrollment email from Help@Hand the first week
 Income Protection provides financial support if you're unable to work due to illness or injury for a specified length of time, and aims to help you, your family and others who depend on the money you earn. GitLab's policy with Unum will help us to ensure you receive a percentage of your income if you can't work because of illness or injury. It also includes direct access to expert Vocational Rehabilitation Consultants who can support you while you're off and ease your return to work. See more details on the [Income Protection Policy](https://drive.google.com/file/d/1G-3vu-zO38OGAZNcZS9mc-DwCm9laOaC/view?usp=sharing). Please see the [Income Protection User Guide](https://drive.google.com/file/d/1GGLFrzJRUCD7OM41O4F7kNyCqkuBHsyt/view?usp=sharing)
 
 All team members (between age 16 and State Pension Age) are automatically enrolled in Income Protection of **66% of base salary up to the Free Cover Limit payable after you've been absent for 13 weeks** effective as of the date of hire. Employees with a base salary of £226,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover.
+
+Group Income Protection (GIP) from Unum provides a unique combination of expert wellbeing, absence management and in-house vocational rehabilitation services. Please see [GIP Wellbeing](https://drive.google.com/file/d/1OQrgdm-q57-lHiowX6tdww8SbF_sx9gV/view?usp=sharing). Checklist detailing Unum’s holistic suite of support services.
 
 Please reach out to Total Rewards for information on how to use your Income Protection benefit with Unum. Payments are made exactly like your salary, and tax and National Insurance contributions are deducted in the usual way. If you are absent due to illness or injury on the day your cover or an increase in cover is due to begin, you may not be eligible until you return to active work in your usual role.
 
