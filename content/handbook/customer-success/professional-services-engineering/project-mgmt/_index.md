@@ -79,7 +79,7 @@ The Professional Services Delivery Methodology (PSDM) is a comprehensive framewo
 
 ### Reporting Project Health & Forecasting
 
-#### PMO/Ops Reporting Schedule 
+**PMO/Ops Reporting Schedule** 
 
 - Pinned to the ps_pmo Slack channel for weekly update requirements and the ps-operations slack channel for Month End timelines (billing period dates).
 - The purpose of this schedule is to reference and understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization.
@@ -89,7 +89,7 @@ The PMO team ensures their respected projects forecast and portfolio statuses ar
 - Time & Materials (T&M) projects are invoiced according to time submitted at the Project level.
 - Fixed Fee projects (FF or FP) are invoiced at a Milestone schedule. So it's vital to ensure anticipated dates are added to Milestones within FF projects, and we get customer signoff before the billing period ends.
 
-#### Forecasting Time and Materials (T&M) and Fixed Fee (FF)
+**Forecasting Time and Materials (T&M) and Fixed Fee (FF)**
 
 Forecast allocations impact PS revenue forecast and team members availability, utilization and planning.
 
@@ -111,7 +111,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 - It is helpful to call out forecast that "pushes" in the Top Customer report.
 
-#### How to Track Upside
+**How to Track Upside**
 
 - Upside is reviewed on a weekly, monthly and quarterly basis. There are four scenarios around when we need to track upside within our weekly revenue tracking sheet (which is pinned to our ps-pmo channel).
 - If we are unable to confidently forecast the project resources 2 months out, we need to soft-book PSE/PM/TA time in Katata.
@@ -119,7 +119,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 - If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified, review with the PMO Manager the details.
 - It is helpful to call upside out in the customer report. ex: can only soft-forecast "x" amount because of "y" restraints.
 
-#### Professional Services Portfolio Report
+**Professional Services Portfolio Report**
 
 - Pinned to ps_pmo Slack channel updated by EOD Monday.
 - Update the following in the Notes section:
@@ -130,7 +130,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
   5. Internal temperature (R-Y-G) | Customer temperature (R-Y-G)
   6. Link to RAID & Internal Customer Epic if Y/R (to review WE, CO, WaR)
 
-#### Forecast call prep
+**Forecast call prep**
 
 1. Run "Remaining Funds to Forecast" report in Kantata
    - Select project status
