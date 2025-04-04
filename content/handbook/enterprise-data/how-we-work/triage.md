@@ -145,7 +145,7 @@ The Central Data Team triager will create [an issue in the Data Team project](ht
 
 [Read](/handbook/enterprise-data/how-we-work/triage/) the FAQ and common issues.
 
-#### New issue triaging for the Data Platform Team.
+#### New issue triaging for the Data Platform Team
 
 Every issue that comes in during a Data Platform Team member's triage week must be resolved as follows:
 
@@ -461,7 +461,7 @@ When got an error for model `version_usage_data_unpacked` and error looks like:
 
 The root cause of this issue is when new metrics are introduced in an upstream model - and this model (along with model `version_usage_data_unpacked_intermediate`) try to pivot values to columns. Without full refresh, this will not happen under the pipeline.
 
-Full refresh required as per instructions from [dbt models full refresh](/handbook/enterprise-data/platform/infrastructure/#dbt-models-full-refresh).
+Full refresh required as per instructions from [dbt models full refresh - internal handbook](https://internal.gitlab.com/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh).
 
 An example for this failure is the issue: **[#11524 (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/11524)**
 
