@@ -67,6 +67,14 @@ Process:
 1. [Add an admin note](/handbook/support/workflows/admin_note/).
 1. Click `Save` when done.
 
+### Identity verification exemption requests
+
+### Accounts unable to verify with a credit card and/or phone number
+
+When a user is unable to complete credit card and/or phone number verification, an exemption can be requested from the [Trust and Safety team](../../security/security-operations/trustandsafety/). This is also sometimes referred to as "identity verification".
+
+Details of the process and instructions are available in the [Internal Handbook](https://internal.gitlab.com/handbook/security/security_operations/trust_and_safety/guides-and-documentation/account-reinstatements/identity-verification-exemption-requests/). 
+
 ## Blocked Accounts
 
 This workflow is used to determine if a blocked or a banned user can be reinstated. All blocked accounts should have an admin note with a link to a relevant issue.
