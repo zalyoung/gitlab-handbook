@@ -19,8 +19,7 @@ graph TD
   K[1 day before: Team member is invited to gitlab-com and gitlab-org] --> I
   I[Start date: onboarding and swag email is send to the team member] --> C
   C[Day 2: Access Request issue is created and team page sync readiness is checked.] --> CA
-  CA[Day 3: Team page entry is created] --> E
-  E[Day 6: Team members receive a Slack reminder about the anti-harrassment training] --> J
+  CA[Day 3: Team page entry is created] --> J
   J[Day 7: Manager and Interview training issues are opened if people manager] --> L
   L[Day 15: Team member is pinged if they have open compliance task on their onboarding issue] --> F
   F[Day 60: Onboarding issue is closed if it wasn't closed already] --> N{Probation?}
@@ -208,11 +207,6 @@ This will spin up a pipeline and fetch the details. Note that if the team member
 If the **entire** group of team members was missed, in the event of a failed pipeline or another error, a People Connect Team member can re-run the sync by using the `teampageweek` Slack command.
 
 This will trigger a new pipeline and fetch the new team members of the provided week and create a new merge request adding them to the Team page.
-
-## Slack reminder for the anti-harrassment training
-
-We have a daily pipeline that checks everyday who started 6 days ago. For those team members, we send a reminder
-that they have to complete the anti-harrassment training.
 
 ## Manager and Interview training issues
 
