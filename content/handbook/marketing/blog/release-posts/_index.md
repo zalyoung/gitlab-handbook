@@ -1073,16 +1073,12 @@ introducing their [respective icons](https://gitlab.com/gitlab-com/www-gitlab-co
 
 ##### Custom stage URL
 
-For stages outside of the DevOps lifecycle, such as Enablement
-and Growth, which don't have the same path as the other stages
+For stages outside of the DevOps lifecycle, such as
+Growth, which don't have the same path as the other stages
 (`/stages-devops-lifecycle/<stage>`), it is necessary to add
 the `stage_url` to the content block to override the default path:
 
 ```yml
-# Enablement
-stage: data_stores
-stage_url: '/handbook/engineering/infrastructure/core-platform/'
-
 # Growth
 stage: growth
 stage_url: '/handbook/product/growth/'
