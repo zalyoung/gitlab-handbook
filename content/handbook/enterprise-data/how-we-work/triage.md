@@ -179,7 +179,6 @@ flowchart TD
     K-->U
 ```
 
-
 ### Incident
 
 The Data Team follows the [incident definition](/handbook/engineering/infrastructure/incident-management) from Engineering: Incidents are anomalous conditions that result in—or may lead to—service degradation or outages. These events require human intervention to avert disruptions or restore service to operational status.
