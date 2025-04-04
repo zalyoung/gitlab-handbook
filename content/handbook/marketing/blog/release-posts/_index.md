@@ -1050,7 +1050,7 @@ It is a required field.
   - [`secure`](https://about.gitlab.com/stages-devops-lifecycle/secure/)
   - [`software_supply_chain_security`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
-  - [`data_stores`](/handbook/product/categories/#data-stores-stage)
+
 
 The stages display as an icon next to the product tiers' badges linking
 to the stage webpage using a regex:
