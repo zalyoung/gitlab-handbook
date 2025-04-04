@@ -478,7 +478,7 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
 - **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
-- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing).
+- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing) - note the instructions are different for Conferences and our outlined in the Conference instructions below.
 
 ### Step 4: Activate Marketo smart campaign(s)
 
@@ -689,6 +689,7 @@ This is an _optional_ feature only available for the `Owned Event` program templ
 - Update all tokens as they feed the email and interesting moments
   - You do not need to update `Request` tokens if there are no meetings being set up for the conference
   - If you are scheduling in person meetings, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+  - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams).
 
 ### Step 4: Activate Marketo smart campaign
 
@@ -696,6 +697,7 @@ This is an _optional_ feature only available for the `Owned Event` program templ
 - `01 Manual upload processing` this will be activated by MOps if a manual upload is required. If you upload using the self-service process, this is not required.
 - `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
 - `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
+- `04 Action stream processing` If your conference covers a relevant [Action Stream topic](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams), be sure you added the Action Stream to the tokens, then activate this campaign.
 
 ### Step 4a. Meeting Request Processing
 
@@ -746,6 +748,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 
 - Update all tokens as they feed the email and interesting moments. Don't skip the epic token because it is included in the internal alert.
   - Be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+  - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams).
 
 ### Step 4: Activate Marketo smart campaign
 
@@ -754,6 +757,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 - `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
 - `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
 - `01a Meeting Request Processing` Activate this campaign if you have a landing page. Do not activate it if you are only uploading leads.
+- `04 Action stream processing` If your conference covers a relevant [Action Stream topic](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams), be sure you added the Action Stream to the tokens, then activate this campaign.
 
 ### Step 4b. Set-up Asset Expiration
 
