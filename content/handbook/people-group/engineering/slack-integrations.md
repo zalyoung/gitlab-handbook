@@ -47,10 +47,6 @@ details before new hire announcements are sent, it is necessary this job should
 be run an adequate amount of time before the new hire announcements job is run.
 Currently, the pipeline is scheduled to be run at 02:00 PM on every Wednesday.
 
-### Offboarding sheet
-
-There is a Google form that People Connect submits scheduled or voluntary offboardings into, this is then stored within a Google Sheet which we check every day to determine whether or not anyone is being offboarded within the hour. This automation runs every hour to check and see if we have any new team members that are being offboarded, if there are any, we then open the related offboarding issues automatically.
-
 ### Employment survey
 
 Whenever a team member fills in on of the following surveys, the form entrance
@@ -69,14 +65,18 @@ Whenever a new team member is added to a team we currently send a couple of noti
 - `DM` - will attempt to send a survey DM to the new team members hiring manager.
 - `Alert` - will send this survey as a link to the `#peopleops-alerts` channel if the DM could not be sent.
 
+### GitLab Usernames
+
+Often times, team members won't follow the procedure outlined on the [tools and tips page](/handbook/tools-and-tips#change-your-username-at-gitlabcom) to change their GitLab username. This leads to inaccurate or outdated data in Workday.
+To remedy this situation, every Wednesday, we audit all GitLab usernames stored on Workday (`GitLab Username` field) and verify that those usernames are members of the [gitlab-com group](https://gitlab.com/groups/gitlab-com/-/group_members). When a Workday `GitLab Username` is not in the group, a message is automatically sent in `#peopleops-alerts` on Slack.
+
+### Pops Commands
+
+We have more documentation regarding available `/pops` commands in Slack in the [internal handbook here](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/).
+
 ### Template Paths
 
 People Connect associates can type `/pops run templatepaths <EMPLOYEE_NUMBER>` to output
 the list of locations where the bot looks to fill-in role/specialty based access request
 and onboarding tasks. This command is useful when it is unclear why an automated issue
 creation did not pick up a given template. This will show exactly what path the bot expects.
-
-### GitLab Usernames
-
-Often times, team members won't follow the procedure outlined on the [tools and tips page](/handbook/tools-and-tips#change-your-username-at-gitlabcom) to change their GitLab username. This leads to inaccurate or outdated data in Workday.
-To remedy this situation, every Wednesday, we audit all GitLab usernames stored on Workday (`GitLab Username` field) and verify that those usernames are members of the [gitlab-com group](https://gitlab.com/groups/gitlab-com/-/group_members). When a Workday `GitLab Username` is not in the group, a message is automatically sent in `#peopleops-alerts` on Slack.
