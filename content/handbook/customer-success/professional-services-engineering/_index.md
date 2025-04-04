@@ -9,7 +9,7 @@ The Professional Services team at GitLab is a part of the [Customer Success](/ha
 
 Here are links to the most popular Professional Services topics.
 
-* [Marketed Offerings](https://about.gitlab.com/services/)
+* [Marketed Offerings](https://about.gitlab.com/professional-services/catalog/)
 * [Offerings Framework & Delivery Kits](framework/)
 * [Positioning](positioning/)
 * [Professional Services Methodology](professional-services-delivery-methodology/)
@@ -32,7 +32,7 @@ The Professional Services team is organized according to specialized functions a
 | [Delivery](professional-services-delivery-methodology/) | Service delivery planning and execution through specialized engineering team members |
 | [Engagement Management](engagement-mgmt/) | Opportunity and SOW scoping and closing in collaboration with GitLab Sales team members |
 | [Instructional Design and Development](instruct-dev/) | Educational content creation, deployment, and maintenance |
-| [Practice Management](practice-mgmt/) | Definition, planning, go-to-market, and performance for specific categories of professional services offerings |
+| [Practice Management](practice-mgmt/) | Definition, planning, go-to-market, and delivery tooling/maintenance for professional services offerings |
 | [Project Management](project-mgmt/) | Project planning and execution |
 | [Professional Services Operations](professional-services-operations/) | Project Coordination, scheduling, and backend processes |
 | [Professional Services Technical Architect](technical-architect/) | Team technical leadership, project quality and technical escalations |
@@ -41,7 +41,7 @@ The Professional Services team is organized according to specialized functions a
 
 ### Mission
 
-GitLab Professional Services enables customers and partners to realize the full value of GitLab solutions to increase operational efficiencies, deliver better products faster, and reduce security and compliance risks.
+GitLab Professional Services enables customers and partners to accelerate the time-to-value of GitLab implementations through tailored expert-level hands-on and advisory engagements to increase operational efficiencies, deliver better products faster, and reduce security and compliance risks.
 
 ### Goals
 
@@ -61,6 +61,7 @@ GitLab Professional Services enables customers and partners to realize the full 
 GitLab Professional Services offerings sold and scoped by the PS Engagement Management team in partnership with the GitLab Account teams. Services are delivered directly by GitLab team members or by partners. We are building out the partner selling and delivery process to:
 
 * Ensure we have local coverage globally
+* Improve our ability to deliver engagements around new GitLab product capabilities
 * Scale professional services in alignment with GitLab business growth
 * Create a partner revenue stream
 
@@ -70,16 +71,18 @@ Check out the [professional services team page](/handbook/company/team/?departme
 
 ## Team metrics
 
-GitLab Professional Services measures success through tracking business profitability and resource utilization. The targets for FY21 are as follows.
+GitLab Professional Services measures success through tracking business profitability and resource utilization. 
+
+<!-- The targets are as follows.
 
 * **Long term profitability target**: 30% gross margin
-* **Project Manager, Program Manager and Engineer Utilization targets**: 70% billable hours
-* **Technical Architect Utilization target**: 55% billable hours
-* **Trainers**: FY25Q1 & FY25Q2- 60% billable hours, FY25Q3- 65% billable hours and FY25Q4- 70% billable hours
+* **Project Manager, Program Manager and Professional Services Engineer Utilization targets**: ~70% billable hours
+* **Technical Architect Utilization target**: ~55% billable hours
+* **Trainers**: ~55% billable hours -->
 
-* **Billable utilization** is time worked on defined scope that will be charged to a customer according to a contractual SOW.
+* **Billable utilization** is time worked on defined scope that will be charged to a customer according to a contractual SOW, as applicable.
 
-We use the following definitions to determine and track utilization.
+<!-- We use the following definitions to determine and track utilization. **Note:** This may change slighty year to year.
 
 | Metric | Formula/Description | Value |
 | :--- | :--- | :--- |
@@ -93,7 +96,7 @@ We use the following definitions to determine and track utilization.
 | Available Hours | Total Weekday Hours － Non-Working Hours | 1696 hrs |
 | Quarterly Hour Total | Total Available Hours / 4 | 424 hrs |
 | Program/Project Manager, Engineer Quarterly Target | Quarterly  Hour Total * .7 | 296.8 hrs|
-| Technical Architect | Quarterly  Hour Total * .55 | 233.2 hrs|
+| Technical Architect | Quarterly  Hour Total * .55 | 233.2 hrs| -->
 
 ### What is a billable hour?
 
@@ -110,7 +113,7 @@ GitLab offers a full catalog of professional services including implementation, 
 
 * [PS Offerings Framework](framework)
 * [PS Standard SKUs](SKUs)
-* [PS Full Catalog](https://about.gitlab.com/services/catalog/)
+* [PS Full Catalog](https://about.gitlab.com/professional-services/catalog/)
 
 ## Working with Professional Services
 
