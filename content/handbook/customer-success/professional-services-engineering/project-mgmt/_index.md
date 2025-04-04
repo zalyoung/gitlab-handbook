@@ -33,6 +33,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 **Summary of Iteration 0 Content:**
 
 Iteration 0 covers the critical preparatory phase of a project, including:
+
 - Engagement Manager to PS Delivery Team transition process
 - Setting up Support access for the Customer
 - Conducting Stakeholder Planning sessions
@@ -65,6 +66,7 @@ We follow the [PSDM (Professional Services Delivery Methodology)](../professiona
 **Summary of PSDM Content:**
 
 The Professional Services Delivery Methodology (PSDM) is a comprehensive framework that covers:
+
 - Managing Projects in GitLab as the single source of truth
 - Establishing Project Velocity and Iteration scheduling
 - Setting up Agile ceremonies and processes
