@@ -29,11 +29,10 @@ The Professional Services team is organized according to specialized functions a
 
 | Function | Responsibilities |
 |---|---|
-| [Delivery](professional-services-delivery-methodology/) | Service delivery planning and execution through specialized engineering team members |
+| [Delivery & Project Management](/handbook/customer-success/professional-services-engineering/project-mgmt/#deliver-train-and-monitor) | Service delivery planning and execution through specialized Engineers and Project/Program Managers |
 | [Engagement Management](engagement-mgmt/) | Opportunity and SOW scoping and closing in collaboration with GitLab Sales team members |
 | [Instructional Design and Development](instruct-dev/) | Educational content creation, deployment, and maintenance |
 | [Practice Management](practice-mgmt/) | Definition, planning, go-to-market, and delivery tooling/maintenance for professional services offerings |
-| [Project Management](project-mgmt/) | Project planning and execution |
 | [Professional Services Operations](professional-services-operations/) | Project Coordination, scheduling, and backend processes |
 | [Professional Services Technical Architect](technical-architect/) | Team technical leadership, project quality and technical escalations |
 
