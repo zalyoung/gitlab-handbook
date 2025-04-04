@@ -24,7 +24,7 @@ Support all our counterparts with frontend engineering expertise, including impl
 ## Commonly Monitored Issue Lists
 
 * [Source Code + Frontend issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=frontend&label_name%5B%5D=group%3A%3Asource%20code&first_page_size=20)
-* [Milestone Planning Issues](https://gitlab.com/gitlab-org/create-stage/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Asource%20code&first_page_size=20)
+* [Milestone Planning Issues](https://gitlab.com/gitlab-org/create-stage/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group::source%20code&first_page_size=20)
 * [Triage reports](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Aignore&label_name%5B%5D=group%3A%3Asource%20code&first_page_size=20)
 * [Feature flag reports](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=created_date&state=opened&label_name%5B%5D=triage%20report&label_name%5B%5D=feature%20flag&label_name%5B%5D=group%3A%3Asource%20code&first_page_size=20)
 * [OKRs (confidential)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&assignee_username%5B%5D=andr3&label_name%5B%5D=group%3A%3Asource%20code&first_page_size=20)
@@ -56,13 +56,14 @@ The following members of other functional teams are our stable counterparts:
 | Start Date | Project  | Description | Tech Lead |
 | ------ | ------ | ------ |  ------ |
 | 2023-09 | [New Diffs](/handbook/engineering/architecture/design-documents/rapid_diffs/) ([Epic](https://gitlab.com/groups/gitlab-org/-/epics/11559)) | A project to deliver a reusable and performant way of rendering diffs across GitLab | — |
-| 2023 | [Blame info in Blob page](https://gitlab.com/groups/gitlab-org/-/epics/11471) | Improve usability of repository by rendering blame information in blob page | — |
-| 2023 | [Branch Rules - Edit](https://gitlab.com/groups/gitlab-org/-/epics/8075) | Allow editing the branch rule details in one place | — |
+| 2024-10 | [Directory and File Page Improvements](https://gitlab.com/groups/gitlab-org/-/epics/12557) | A project to improve user experience of header area for directory and file pages | — |
 
 ### Archived Project Table
 
 | Start Date | End Date |Project  | Description | Tech Lead |
 | ------ | ------ | ------ |  ------ | ------ |
+| 2023 | put on hold | [Blame info in Blob page](https://gitlab.com/groups/gitlab-org/-/epics/11471) | Improve usability of repository by rendering blame information in blob page | — |
+| 2023 | 2024 | [Branch Rules - Edit](https://gitlab.com/groups/gitlab-org/-/epics/8075) | Allow editing the branch rule details in one place | — |
 | 2022-09 | 2023-04 | Branch Rules - Overview | Place all settings pertaining to branch rules in one place - overview only | — |
 |  2021      | 2022        | [Refactor Repository browser into 1 vue app](https://gitlab.com/groups/gitlab-org/-/epics/5531) | Render the blob page within the Repository frontend app for smoother experience | — |
 
@@ -78,7 +79,7 @@ Engineering Manager as listed above.
 
 For more urgent items, feel free to use [#g_create_source_code](https://gitlab.slack.com/archives/g_create_source-code) or [#g_create_source_code_fe](https://gitlab.slack.com/archives/g_create_source-code-review-fe) on Slack.
 
-[Take a look at the features we support per category here.](/handbook/product/categories/features/#code-creation)
+[Take a look at the features we support per category here.](/handbook/product/categories/features/#source-code)
 
 ### Code Reviewing
 
@@ -123,7 +124,15 @@ This duality will be resolved with the [Link to package managers when viewing de
 
 ### Async standup
 
-{{% include "includes/engineering/create-async-standup.md" %}}
+The groups in the Source Code group conduct asynchronous standups in the [#g_create_source_code_standup](https://gitlab.slack.com/archives/g_create_standup) channel every Monday.
+
+The goal is to support the members of these groups in connecting at a personal level, not to check in on people’s progress or replace any existing processes to communicate status or ask for help, and the questions are written with that in mind:
+
+* What did you do outside of work since we last spoke?
+* What are you planning to do today?
+* Is anything blocking your progress or productivity?
+
+For more background, see the [Async standup feedback issue](https://gitlab.com/gitlab-org/create-stage/issues/4) on the Create stage issue tracker.
 
 ### Retrospectives
 
