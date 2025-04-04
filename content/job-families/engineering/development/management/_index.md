@@ -80,7 +80,15 @@ The Distinguished Engineer role extends the [Principal Engineer](/job-families/e
 
 #### Job Grade
 
-The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role with [specific details for the Development role](/job-families/engineering/development/management/senior-director/).
+
+#### Responsibilities
+
+Senior Director, Development responsibilities extend those of [Senior Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-responsibilities).
+
+#### Requirements
+
+Senior Director, Development requirements extend those of [Senior Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-requirements).
 
 ### Engineering Fellow
 
@@ -108,43 +116,15 @@ The Engineering Fellow is a [grade 12](/handbook/total-rewards/compensation/comp
 
 #### Job Grade
 
-The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).  This role extends the [Senior Director, Development](#senior-director-development) role.  It expands the role to cover full functional and product capabilities at GitLab.
+The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).  This role extends the [Senior Director, Development](#senior-director-development) role with [specific details for the Development role](/job-families/engineering/development/management/vp/)  It expands the role to cover full functional and product capabilities at GitLab.
 
 #### Responsibilities
 
-- Drive recruiting of a world class team at all levels
-- Help their (senior) directors, senior managers, managers, and engineers grow their skills and experience
-- Measure and improve the happiness of Engineering
-- Make sure the handbook is used and maintained in a transparent way
-- *Implement* technical and process improvements that are causal to most critical needs
-- *Participate and support* a sense of psychological safety of the department
-- *Drive* quarterly OKRs around company goals
-- *Define* the agile project management process
-- *Be accountable for* product quality, security, and performance
-- Work across departments within engineering
-- Work closely with Senior leaders of Product Management to provide a consistent/successful interface between Engineering Development and Product Management
-- Support constantly changing priorities between product features, availability, performance, security and reliability
-- Support process for incident management including quality control of RCAs
+VP of Development responsibilities extend those of [VP of Engineering](/job-families/engineering/engineering-management/#vp-of-engineering-responsibilities).
 
-#### Performance Indicators
+#### Requirements
 
-- [Response to Community SLO](/handbook/engineering/development/performance-indicators/#response-to-community-slo)
-- [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
-- [Team/Group MR Rate](/handbook/engineering/development/performance-indicators/#mr-rate)
-- [Handbook Update Frequency](/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
-
-#### Hiring Process
-
-Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
-
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
-- Next, candidates will be invited to schedule a 60 minute first interview with a Director of Engineering
-- Next, candidates will be invited to schedule a 45 minute second peer interview with an Engineering Manager
-- Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team
-- Next, candidates will be invited to schedule a 45 minute fourth interview with a member of the Product team
-- Next, candidates will be invited to schedule a 45 minute fifth interview with our VP of Engineering
-- Finally, candidates may be asked to schedule a 50 minute final interview with our CEO
-- Successful candidates will subsequently be made an offer via email
+VP of Development requirements extend those of [VP of Engineering](/job-families/engineering/engineering-management/#vp-of-engineering-requirements).
 
 ### Executive VP of Engineering
 

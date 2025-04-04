@@ -170,7 +170,7 @@ The  Senior Director, Engineering is a [grade 11](/handbook/total-rewards/compen
 - Prioritization of hiring efforts to focus on areas of most need and quickly recruit top engineering talent
 - Motivate and communicate across multiple levels of their department
 - Have successful peer partnerships with other department leaders in Engineering, and cross-functionally (Product Management, sales, marketing, alliances, etc)
-- Provide a consistent/successful interface between Engineering Development, Product Management, and Infrastructure
+- Provide a consistent/successful interface between Engineering and Product Management
 - Development, measurement, and management of key metrics for functional area's performance
 - Drive high throughput
 - Standardize the development process where needed, allow local differences where advantages
@@ -233,17 +233,17 @@ The Engineering Fellow is a [grade 12](/handbook/total-rewards/compensation/comp
 
 - Extends that of the [Distinguished Engineer](#distinguished-engineer) requirements
 
-### VP of Development
+### VP of Engineering
 
-The VP of Development reports to the [Chief Technology Officer](#chief-technology-officer).
+The VP of Engineering reports to the [Chief Technology Officer](#chief-technology-officer).
 
-#### VP of Development Job Grade
+#### VP of Engineering Job Grade
 
-The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The VP of Engineering is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### VP of Development Responsibilities
+#### VP of Engineering Responsibilities
 
-- Exends that of the [Senior Director, Development](#senior-director-development) responsibilities.  It expands the role to cover full functional and product capabilities at GitLab
+- Extends that of the [Senior Director, Engineering](#senior-director-engineering) responsibilities.  It expands the role to cover full functional and product capabilities at GitLab
 - Drive recruiting of a world class team at all levels
 - Help their (senior) directors, senior managers, managers, and engineers grow their skills and experience
 - Measure and improve the happiness of Engineering
@@ -254,13 +254,13 @@ The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compe
 - *Define* the agile project management process
 - *Be accountable for* product quality, security, and performance
 - Work across departments within engineering
-- Work closely with Senior leaders of Product Management to provide a consistent/successful interface between Engineering Development and Product Management
+- Work closely with Senior leaders of Product Management to provide a consistent/successful interface between Engineering and Product Management
 - Support constantly changing priorities between product features, availability, performance, security and reliability
 - Support process for incident management including quality control of RCAs
 
-#### VP of Development Requirements
+#### VP of Engineering Requirements
 
-- Exends that of the [Senior Director, Development](#senior-director-development) requirements
+- Extends that of the [Senior Director, Engineering](#senior-director-engineering) requirements
 
 ## Performance Indicators
 
