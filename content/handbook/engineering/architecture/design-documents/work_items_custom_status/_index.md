@@ -541,8 +541,6 @@ Customers can customize statuses to match their preferred language.
 
 ## Decision registry
 
-## Decision Registry
-
 This section documents key architectural and implementation decisions made during the development of this feature.
 
 1. Define system-defined entities in code rather than database tables.
