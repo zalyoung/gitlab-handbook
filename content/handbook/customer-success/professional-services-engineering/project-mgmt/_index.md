@@ -77,7 +77,7 @@ We follow the [PSDM (Professional Services Delivery Methodology)](../professiona
 
 - Time & Materials (T&M) projects are invoiced according to time submitted at the Project level.
 - Fixed Fee projects (FF or FP) are invoiced at a Milestone schedule. So it's vital to ensure anticipated dates are added to Milestones within FF projects, and we get customer signoff before the billing period ends.
-- *Note* While SKUs are one transaction, we track against hourly (T&M) billings (eg. Consulting Blocks & Dedicated Engineer Projects)
+- _Note_ While SKUs are one transaction, we track against hourly (T&M) billings (eg. Consulting Blocks & Dedicated Engineer Projects)
 
 **Forecasting Time and Materials (T&M) and Fixed Fee (FF)**
 
