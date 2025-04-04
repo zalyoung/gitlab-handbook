@@ -91,7 +91,7 @@ The Principal Engineer is a [grade 9](/handbook/total-rewards/compensation/compe
 
 ### Director, Engineering
 
-- The Director of Engineering role reports to the [Senior Director, Development](/job-families/engineering/engineering-management/#senior-director-development).
+- The Director of Engineering role reports to the [Senior Director, Engineering](#senior-director-engineering).
 
 #### Director, Engineering Job Grade
 
@@ -184,7 +184,7 @@ The  Senior Director, Engineering is a [grade 11](/handbook/total-rewards/compen
 
 ### Senior Distinguished Engineer
 
-The Senior Distinguished Engineer reports to the [Senior Director, Development](/job-families/engineering/engineering-management/#senior-director-development) or [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering) of their sub-department.
+The Senior Distinguished Engineer reports to the [Senior Director, Development](#senior-director-engineering) or [Director, Engineering](#director-engineering) of their sub-department.
 
 #### Senior Distinguished Engineer Job Grade
 
@@ -207,7 +207,7 @@ The Senior Distinguished Engineer is a [grade 11](/handbook/total-rewards/compen
 
 ### Engineering Fellow
 
-*The Engineering Fellow reports to the [VP of Development](#vp-of-development).
+*The Engineering Fellow reports to the [VP of Engineering](#vp-of-engineering).
 
 #### Engineering Fellow Job Grade
 
