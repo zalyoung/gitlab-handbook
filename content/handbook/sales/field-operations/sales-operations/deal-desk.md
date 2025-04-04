@@ -395,7 +395,7 @@ The payment capture link functionality is a tool by which Opportunity Owners can
 
 Step by step guide:
 
-Please see this [video](/items/67eed0799d4500646857ac40?lfrm=shp.1) (with a scenario that requires quote approvals) for a visual walkthrough of the below steps.
+Please see this [video](https://gitlab.highspot.com/items/67eed0799d4500646857ac40?lfrm=shp.1) (with a scenario that requires quote approvals) for a visual walkthrough of the below steps.
 
 1. After you have reached the **Select "Sold To" and "Bill To" contacts.**  step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide, select **Credit Card** under the **Payment Method** dropdown menu.
 1. Complete the **To Add Products to your quote,** step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide and add approriate discounts if needed.
@@ -456,7 +456,7 @@ C.  On this second and final page of the quoting experience, populate Quote Deta
 | Remove Signature Block         | Signature Block will be removed. Use for customers with Existing Agreements (MSA)        |
 
 - **Select "Sold To" and "Bill To" contacts.** Note that the "Sold To" contact will receive the EULA or License file via email. Note: Each contact record must have a complete address, if the address is not fully populated, you will need to update this before you can proceed with the quote.
-- If you are selecting **Credit Card** under the **Payment Method** dropdown menu, please follow the [Payment Capture Link Step by Step Guide](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#payment-capture-link-step-by-step-guide) before returning to this guide.
+- If you are selecting **Credit Card** under the **Payment Method** dropdown menu, please follow the [Payment Capture Link Step by Step Guide](/handbook/sales/field-operations/sales-operations/deal-desk/#payment-capture-link-step-by-step-guide) before returning to this guide.
 - For **One-Tier Reseller or MSP deals,** populate the "Invoice Owner", "Invoice Owner Contact" and "Resale Partner" fields. For **Distrbutor deals,** populate the "Invoice Owner", "Invoice Owner Contact", "Resale Partner" and "Distributor" fields. For **Direct Deals** leave "Invoice Owner", "Invoice Owner Contact," "Resale Partner," and "Distributor" fields blank.
   - "Invoice Owner" and "Invoice Owner Contact" should reflect the account and contact of the party being quoted by GitLab. This means we should leverage the Resale Partner's Billing Account and Billing Account Contact for One-Tier Reseller and MSP deals, and the Distributor's Billing Account and Billing Account Contact for Distributor deals.
   - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Request Support to the Billing Ops team, tagging the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
