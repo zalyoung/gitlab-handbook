@@ -386,7 +386,7 @@ If you choose to add Annual Payments to a quote, please keep in mind the followi
 
 The payment capture link functionality is a tool by which Opportunity Owners can send a **credit card** capture link to customers for First Order deals. This ensures a successful payment for new subscriptions, while at the same storing their credit card information for future transactions. Before going into the step by step guide on how to use this tool, please see an outline of the tool below:
 
-- **Deal Type**: The payment capture link tool is only available for First Orders / new subscription deals. This tool is not available for Partner deals.
+- **Deal Type**: The payment capture link tool is only available for First Orders / new subscription deals. This tool is not available for Partner deals. As of April 4th 2024, the the payment capture link flow is **required** for all [SMB $19 Promo](https://about.gitlab.com/pricing/smb-promo/) deals.
 - **Quote Type**: The tool can only be used when **Credit Card** is selected as the payment method when creating **New Subscription** quotes in Quote Studio. 
 - **Approvals**: Quote has to be submitted for approval & approved or approval not required before payment link can be sent to the customer.
 - **Distribution Method**: The Opportunity Owner sends the link through a **Send Payment Link** button in SFDC, which triggers an email out to the customer with a payment capture link.
@@ -395,10 +395,10 @@ The payment capture link functionality is a tool by which Opportunity Owners can
 
 Step by step guide:
 
-Please see this [video](https://gitlab.highspot.com/items/67eed0799d4500646857ac40?lfrm=shp.1) (with a scenario that requires quote approvals) for a visual walkthrough of the below steps.
+Please see this [video](/items/67eed0799d4500646857ac40?lfrm=shp.1) (with a scenario that requires quote approvals) for a visual walkthrough of the below steps.
 
-1. After you have reached the **Select "Sold To" and "Bill To" contacts.**  step of the [New Subscription Quote](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide, select **Credit Card** under the **Payment Method** dropdown menu.
-1. Complete the **To Add Products to your quote,** step of the [New Subscription Quote](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide and add approriate discounts if needed.
+1. After you have reached the **Select "Sold To" and "Bill To" contacts.**  step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide, select **Credit Card** under the **Payment Method** dropdown menu.
+1. Complete the **To Add Products to your quote,** step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide and add approriate discounts if needed.
 1. Once you are ready to save the quote, click **Submit** at the top of the screen.
 1. The Quote has to be submitted for approval & approved or `approval not required` (i.e. there is no discount or the discount is too low to require approvals as per the appropriate discount matrix) to be able to send the payment link. So, please ensure you have gotten the appropriate approvals before proceeding to the next step.
 1. Click on the dropdown menu in the Opportunity next to the **Generate PDF** button.
@@ -406,10 +406,10 @@ Please see this [video](https://gitlab.highspot.com/items/67eed0799d4500646857ac
 1. This will send a payment link email with the subject **Set Up Your Secure Automated Credit Card Payments** to the customer. Please see the above linked video for a customer POV.
 1. Once the customer has successfully entered the payment details in the capture link, the quote will be updated confirmation of the capture in the fields **Payment Method Captured** and **Payment Method Capture Date**. If the customer does not enter the enter their details within 72 hours, the link is expired and you will be notifed. You will have to send another link.
 1. The Opportunity cannot be closed until the payment details have been captured. 
-  - If you are unable to get the customer to submit their credit card payment details for whatever reason, you can switch to Wire payment.
-  - We advise that you inform the customer ahead of time on how the payment capture link works and that they will not recieve a license until they provide the payment information.
-  - Assuming you are also sending an order form, please consider the timing of sharing the order form alongside the payment capture link such that it is a smooth process for the customer.
 
+- If you are unable to get the customer to submit their credit card payment details for whatever reason, you can switch to Wire payment.
+- We advise that you inform the customer ahead of time on how the payment capture link works and that they will not recieve a license until they provide the payment information.
+- Assuming you are also sending an order form, please consider the timing of sharing the order form alongside the payment capture link such that it is a smooth process for the customer.
 
 ### Quote Creation: Step by Step Guide by Quote Type
 
