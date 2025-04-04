@@ -46,18 +46,18 @@ Additionally, some namespace paths remain locked while pending deletion, prevent
 
 We propose implementing a unified deletion flow across all GitLab environments and pricing tiers, with a phased approach consisting of three iterations:
 
-1. **Iteration 1: Basic Recovery Framework**
+1. **[Iteration 1: Basic Recovery Framework](https://gitlab.com/groups/gitlab-org/-/epics/17367)**
    - Implement consistent pending deletion period before permanent deletion for all pricing tiers
    - Add self-service recovery options for all deleted items
    - Standardize UI for deletion status across user and group namespaces
    - Implement consistent automated renaming to free up paths immediately
 
-2. **Iteration 2: Extended Deletion Protection**
+2. **[Iteration 2: Extended Deletion Protection](https://gitlab.com/groups/gitlab-org/-/epics/17366)**
    - Extend pending deletion period from 7 to 30 days on SaaS
    - Implement email notifications for deletion events and upcoming permanent deletions
    - Update scheduling system to support longer retention period
 
-3. **Iteration 3: Enhanced Deletion Interface**
+3. **[Iteration 3: Enhanced Deletion Interface](https://gitlab.com/groups/gitlab-org/-/epics/17368)**
    - Introduce dedicated "Bin" section in UI for managing deleted items
    - Create clear separation between "Move to Bin" and "Delete Permanently" actions
    - Implement bulk actions for trash management (restore multiple, empty trash)
