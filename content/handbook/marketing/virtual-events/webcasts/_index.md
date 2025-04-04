@@ -74,7 +74,7 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 * [landing page copy]() - `doc to be added by Marketing Programs` ([clone the template here](https://docs.google.com/document/d/1xHnLKPCaXrpEe1ccRh_7-IqgNbAlzQsZVc-wr1W4ng8/edit#))
 * [ ] [main salesforce campaign]()
 * [ ] [main marketo program]()
-* [ ] [ON24 webcast preview link]()
+* [ ] [Goldcast webcast preview link]()
 * [ ] [Developer Relations Influenced](/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 
@@ -102,7 +102,7 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-Partner webcasts are managed and moderated by Partner Marketing, working closely with partner counterparts, with techincal setup (Marketo, SFDC, ON24) by Campaign Managers.
+Partner webcasts are managed and moderated by Partner Marketing, working closely with partner counterparts, with techincal setup (Marketo, SFDC, Goldcast) by Campaign Managers.
 
 ### Checking Goldcast webcast calendar for partner webcast dates {#bt-partner-webcasts}
 
@@ -263,7 +263,7 @@ Try to get a good sleep the night before, and, if the presentation is in the mor
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Technical demos are aligned with the GTM Motions and cover a range of topics relevant to leads in consideration & purchase stages.
-Demo series run on a bi-weekly cadence as live or pre-recorded sessions on On24 Platform. Participants have the flexibility to engage in either written or live Q&A sessions.
+Demo series run on a bi-weekly cadence as live or pre-recorded sessions on Goldcast Platform. Participants have the flexibility to engage in either written or live Q&A sessions.
 
 **Key objectives:**
 
@@ -292,11 +292,11 @@ Instructions video on adding/removing the technical demos from landing page are 
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### On24 Webcast Calendar {#bt-calendar}
+### Goldcast Webcast Calendar {#bt-calendar}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-[On24 webcast calendar](https://calendar.google.com/calendar/u/1?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) is used to log all planned and scheduled On24 webcasts and their related dry runs. **The purpose of the On24 webcast calendar is to avoid scheduling overlapping webcasts and to provide visibility into all On24 webcasts across teams.**
+[Goldcast webcast calendar](https://calendar.google.com/calendar/u/1?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) is used to log all planned and scheduled Goldcast webcasts and their related dry runs. **The purpose of the Goldcast webcast calendar is to avoid scheduling overlapping webcasts and to provide visibility into all Goldcast webcasts across teams.**
 
 **Adding to the calendar:**
 
@@ -309,7 +309,7 @@ Instructions video on adding/removing the technical demos from landing page are 
    * Add the time of the webcast on the calendar event (if it is still an all-day event)
    * Add the epic link, and remove the issue link, in the calendar description
    * Add all presenters (internal GitLab team members and external speakers)
-   * Add On24 login information for presenters
+   * Add Goldcast login information for presenters
 
 ### Zoom Webcast Calendar {#zoom-calendar}
 
@@ -328,7 +328,7 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 1. Once the date/time of the webcast has been confirmed, go to your calendar event and remove `Hold` from the event title `[WC Hosted] Webcast title` (e.g: `[WC Hosted] Mastering CI`). Specify the time on the calendar event and swap the issue link in the calendar description with the Epic link. *Note: In the spirit of efficiency, please be sure to add all presenters (GitLab team members and external speakers), the epic or issue (if you have one) and your Zoom invite info to the calendar invite so you're not having to create multiple calendar invites.*
 1. Make sure to also add dry runs to the webcast calendar. When creating the webcast dry run event(s), please use the following naming convention `[DR WC Hosted] Webcast title` (e.g: `[DR WC Hosted] Mastering CI`) and specify the date/time on the calendar event.
 
-## On24 Webcasts {#brighttalk}
+## Goldcast Webcasts {#brighttalk}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -336,18 +336,18 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-* [On24 rollout session recording](https://youtu.be/5ioBk6h_dP0)
-* [On24 rollout session slides](https://docs.google.com/presentation/d/1Iyw8XjrkmFpiLvehjqMr4TUSJ4qmjHBFGs0HZ0bZcRI/edit#slide=id.g139e148a631_0_188)
-* [Dedicated On24 handbook page](/handbook/marketing/marketing-operations/on24/)
-* [On24 Support Portal](https://on24support.force.com/Support/s/article/ON24-Contact-Support)
-* [On24 Knowledge Center](https://on24support.force.com/Support/s/knowledge)
+* [Goldcast rollout session recording](https://youtu.be/5ioBk6h_dP0)
+* [Goldcast rollout session slides](https://docs.google.com/presentation/d/1Iyw8XjrkmFpiLvehjqMr4TUSJ4qmjHBFGs0HZ0bZcRI/edit#slide=id.g139e148a631_0_188)
+* [Dedicated Goldcast handbook page](/handbook/marketing/marketing-operations/Goldcast/)
+* [Goldcast Support Portal](https://Goldcastsupport.force.com/Support/s/article/Goldcast-Contact-Support)
+* [Goldcast Knowledge Center](https://Goldcastsupport.force.com/Support/s/knowledge)
 
-### Types of On24 Webcasts {#bt-types}
+### Types of Goldcast Webcasts {#bt-types}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Live Audio and Video (with Screen Share)**: This option is known as the Video Presenter Bridge. Multiple presenters can present a live webcast event using Webcam, PC Microphone, or Dial-in. Live screen share is also available to presenters if they wish to share their screen during the presentation.
-* **Live Audio (no Screen Share)**: Multiple presenters can present a live event using the telephone. Presenters will dial into the ON24 presenter phone bridge for the live webinar. Live screen share is not available with this event type.
+* **Live Audio (no Screen Share)**: Multiple presenters can present a live event using the telephone. Presenters will dial into the Goldcast presenter phone bridge for the live webinar. Live screen share is not available with this event type.
 * **Broadcast Video**: Choose this option to incorporate broadcast quality video into your live events. This option requires video encoding gear external to Webcast Elite. The Broadcast Video option is available at an additional cost and will need to be enabled for your account.
 * **Simu-live**: Choose this option if you wish to pre-record your entire event and deliver it to a live audience at a designated date and time. You can interact with the live audience through written Q&A during playback of the pre-recorded presentation. The event will end immediately after the pre-recorded playback has ended.
   * Simu-lives must be created in advance. No changes can be made two hours before the scheduled live time.
@@ -356,7 +356,7 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 * **On Demand**: Choose this option to create a pre-recorded On Demand event. There is no interaction with a live audience.
 
 ---
-<!-- NOTE: THE DOCUMENTATION BELOW IS FOR ZOOM ONLY!!! ON24 & WEBEX IS BELOW IN THIS HANDBOOK PAGE -->
+<!-- NOTE: THE DOCUMENTATION BELOW IS FOR ZOOM ONLY!!! Goldcast & WEBEX IS BELOW IN THIS HANDBOOK PAGE -->
 
 ## Zoom Webcasts {#zoom}
 
@@ -793,9 +793,9 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 9. Go to Zoom, delete the webcast program from Zoom and make sure to uncheck `send webinar cancellation email to panelists and registrants` since this is already covered in step 4.
 
 ---
-<!-- NOTE: THE REST OF THE DOCUMENTATION IS FOR ON24 ONLY!!! -->
+<!-- NOTE: THE REST OF THE DOCUMENTATION IS FOR Goldcast ONLY!!! -->
 
-## ON24 Webcasts {#on24}
+## Goldcast Webcasts {#Goldcast}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -803,17 +803,17 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-* [ON24 Webcast Login Portal](https://wcc.on24.com/webcast/login)
-* [ON24 Knowledge Centre](https://on24support.force.com/Support/s/knowledge)
+* [Goldcast Webcast Login Portal](https://wcc.Goldcast.com/webcast/login)
+* [Goldcast Knowledge Centre](https://Goldcastsupport.force.com/Support/s/knowledge)
 
-### ON24 Event Types {#on24-types}
+### Goldcast Event Types {#Goldcast-types}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Live Video (Video and audio with screen share):** traditional live webinar with speakers and Q&A.
   * Pre-event registration takes place
   * The event automatically converts to on-demand upon completion
-* **ON24 Live Audio (no Screen Share):** multiple presenters can present a live webcast using the telephone. Presenters will dial into the ON24 presenter phone bridge for the live event. Live screen share is not available with this event type.
+* **Goldcast Live Audio (no Screen Share):** multiple presenters can present a live webcast using the telephone. Presenters will dial into the Goldcast presenter phone bridge for the live event. Live screen share is not available with this event type.
   * Pre-event registration takes place
   * The event automatically converts to on-demand upon completion
 * **Simu-live (written Q&A)**: choose this option if you wish to pre-record entire event and deliver it to a live audience at a designated date and time. **Note**: Simu-lives must be created in advance. No changes can be made two hours before the scheduled live time.
@@ -831,9 +831,9 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 * **On Demand**: essentially an on-demand webcast, no interaction with a live audience.
   * No pre-registration
 
-## LIVE webcast registration and tracking - ON24
+## LIVE webcast registration and tracking - Goldcast
 
-### Organizing ON24 webcast epics and issues {#on24-epics-issues}
+### Organizing Goldcast webcast epics and issues {#Goldcast-epics-issues}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -864,7 +864,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 * [landing page copy]() - `doc to be added by Marketing Programs` ([clone the template here](https://docs.google.com/document/d/1xHnLKPCaXrpEe1ccRh_7-IqgNbAlzQsZVc-wr1W4ng8/edit#))
 * [ ] [main salesforce campaign]()
 * [ ] [main marketo program]()
-* [ ] [ON24 webcast preview link]()
+* [ ] [Goldcast webcast preview link]()
 
 ## :books: Issue creation
 
@@ -887,56 +887,56 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 ```
 
-## ON24 Webcast Setup {#on24-setup}
+## Goldcast Webcast Setup {#Goldcast-setup}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Step 1: Configure ON24 {#configure-on24}
+### Step 1: Configure Goldcast {#configure-Goldcast}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-*Note: ON24 Elite license is used for all field marketing and campaigns internally hosted webcasts. Therefore, when a webcast is requested please confirm there is not going to be a conflict between the pre-scheduled sessions - both live and dry-run - using that license by checking the [webcast gcal](https://calendar.google.com/calendar/u/0?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t). Schedule no less than 30min between sessions (before & after) so there is less chance of conflict and allows for a buffer.*
+*Note: Goldcast Elite license is used for all field marketing and campaigns internally hosted webcasts. Therefore, when a webcast is requested please confirm there is not going to be a conflict between the pre-scheduled sessions - both live and dry-run - using that license by checking the [webcast gcal](https://calendar.google.com/calendar/u/0?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t). Schedule no less than 30min between sessions (before & after) so there is less chance of conflict and allows for a buffer.*
 
-**Setting-up a SEMU-live ON24 Webcast**
+**Setting-up a SEMU-live Goldcast Webcast**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TPxiPsTNMzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Setting-up a LIVE ON24 Webcast**
+**Setting-up a LIVE Goldcast Webcast**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oJIFE9IKWpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. **LOGIN**: log into [ON24 Webcast Portal](https://wcc.on24.com/webcast/login).
+1. **LOGIN**: log into [Goldcast Webcast Portal](https://wcc.Goldcast.com/webcast/login).
 2. **TEMPLATE**: search for a template based on the event type. In the right column under "Actions" select the copy icon to clone a template. When cloning an event, all media files will transfer to the new webcast.
       * Live Event:
-         * [Template (A)](https://wcc.on24.com/webcast/update/3812772) - Standard event template - Trial Banner
-         * [Template (B)](https://wcc.on24.com/webcast/update/4008047) - Standard event template - Trial Tanuki
+         * [Template (A)](https://wcc.Goldcast.com/webcast/update/3812772) - Standard event template - Trial Banner
+         * [Template (B)](https://wcc.Goldcast.com/webcast/update/4008047) - Standard event template - Trial Tanuki
       * Simu-Live Event:
-         * [Template (A)](https://wcc.on24.com/webcast/update/3831579) - XL Media Player (no slide widget) - Trial Banner
-         * [Template (B)](https://wcc.on24.com/webcast/update/4008048) - XL Media Player (no slide widget) - Trial Tanuki
+         * [Template (A)](https://wcc.Goldcast.com/webcast/update/3831579) - XL Media Player (no slide widget) - Trial Banner
+         * [Template (B)](https://wcc.Goldcast.com/webcast/update/4008048) - XL Media Player (no slide widget) - Trial Tanuki
 **Note**: all the templates are tagged with Template and that after cloning the cloned program should have that tag removed
 3. **KEY FIELDS**: update new program fields: Title, Date, Time, Duration, Timezone. Change event type if needed to Simu-live. Select "Create Event" to save and generate Event ID and Webcast URLs.
 4. **TIMEZONE**: select a drop-down timezone option with city/country instead of a generic GMT+ time zone. Generic time zones do not update with time changes, such as Daylight Savings Time.
 5. **MEDIA FILE**: Replace Media File with new event PPT in the Overview tab, or by following Presenter's URL and loging in as Producer. You can access this by clicking on the menu in the menu icon in the top right corner and choosing Setup).
     * IMPORTANT! For the Semu-live webcast you'll need to upload and publish your mp4 recording no later then 2 hours before the scheduled start. Please login as producer using the Presenter's URL, click on the Setup at the bottom on the screen and choose Presenter Media, under the Media tab. Upload your video, go back to previous screen and click on Publish button.
-6. **PANELISTS**: panelists and presenters will share Presenters Link (can be found in the Event URLs list). By following this link they'll need to submit their name and email address and login as Presenters into ON24 console.
+6. **PANELISTS**: panelists and presenters will share Presenters Link (can be found in the Event URLs list). By following this link they'll need to submit their name and email address and login as Presenters into Goldcast console.
 7. *Optional* **EMAILS**: If applicable, edit the confirmation and reminder emails under the email setting tab.
-    * Make sure the registration confirmation email and the reminder emails are set to send from ON24.
+    * Make sure the registration confirmation email and the reminder emails are set to send from Goldcast.
 8. *Optional* **POLLING**: If applicable, add polling questions to the webcast by following the instructions in the video below. Note there is a character limit on poll answer options of 40 characters.
 9. **ATTENDEE & PRESENTER MAX**: All live events and experiences are capped by default at 2,500 live attendees and max of 10 presenters.
 
    **Adding poll questions to a webcast**
    <iframe width="560" height="315" src="https://www.youtube.com/embed/DIo88jv88tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-10. **ADDING WEBCAST SURVEY**: In the tools manager located in the `ON24 Console` choose `Take Survey` and add it to your event console. You can then set it to appear as post event survey, during the webcast, or both in the `Configuration` settings tab.
+10. **ADDING WEBCAST SURVEY**: In the tools manager located in the `Goldcast Console` choose `Take Survey` and add it to your event console. You can then set it to appear as post event survey, during the webcast, or both in the `Configuration` settings tab.
     * Note. Although there is no standard survey template built into our templates currently, you can copy/paste from this [standard post-webcast survey](https://docs.google.com/document/d/1kBG_eXRLYRmgqH2DIpapOUbCkOxjSsRc_f6m8nXOxxE/edit) we are using for tech demos.
 
-### Step 2: Set up the webcast in Marketo/SFDC and connect to ON24 {#on24-mkto-setup}
+### Step 2: Set up the webcast in Marketo/SFDC and connect to Goldcast {#Goldcast-mkto-setup}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Create program in Marketo - ON24 {#on24-marketo-program}
+#### Create program in Marketo - Goldcast {#Goldcast-marketo-program}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-1. Create the webcast program in Marketo by navigating to the [Templates - ON24](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF12119A1) and select between webcast and workshop.
+1. Create the webcast program in Marketo by navigating to the [Templates - Goldcast](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF12119A1) and select between webcast and workshop.
 1. Right-click the appropriate template, and select "clone"
 1. Next to "Clone To", choose `A campaign folder`.
 1. (non-technical demos) For "Name", add the MKTO program name (this is also the SFDC campaign name). Use the following format: `YYYYMMDD_{Webcast Title}_[Region - only if applicable]`. For example, `20170418_MovingToGit`.
@@ -944,7 +944,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 1. Under "Folder", choose the appropriate quarter within the  `GitLab-Hosted Campaign Webcasts` or `GitLab-Hosted Workshops` folders.
 1. Click "Create" (note - you will create the SFDC campaign from Marketo in the next step!)
 
-#### Create campaign in Salesforce - ON24 {#on24-sfdc-campaign}
+#### Create campaign in Salesforce - Goldcast {#Goldcast-sfdc-campaign}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -961,38 +961,38 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 1. Edit the Budgeted Cost (required) to cost of webcast, or "1" if there is no cost associated
 1. Click save
 
-#### Connecting On24 Web Events to Marketo Programs {#on24-marketo-connect}
+#### Connecting Goldcast Web Events to Marketo Programs {#Goldcast-marketo-connect}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-*After completing the creation of an On24 web event, the next step is to connect the webinar to Marketo. Unlike other tools, the On24 room and Marketo program do not need to be connected via the Event Partner field on the Marketo program. All data transfer is done via the Event ID and smart campaigns.*
+*After completing the creation of an Goldcast web event, the next step is to connect the webinar to Marketo. Unlike other tools, the Goldcast room and Marketo program do not need to be connected via the Event Partner field on the Marketo program. All data transfer is done via the Event ID and smart campaigns.*
 
 1. From the previous event set up, please be sure to have the `Event ID` and `Audience URL` handy.
-1. Navigate to the Marketo template folder `Templates - On24`. Located in this folder are program templates Designed with triggers to work with On24's Marketo custom object. Make a copy of the needed program type template in the appropriate folder.
-1. Next step will be to connect the Marketo program to the On24 webcast. In the Smart Campaigns folder of the newly cloned program, add the On24 Event ID to the following smart campaigns on the Added to ON24 Attendee trigger filter:
-      * `04 On24 Processing - Attended`
-      * `04 On24 Processing - Follow Up Requested`
-      * `04 On24 Processing - No Show`
-      * `04 On24 Processing - On Demand`
+1. Navigate to the Marketo template folder `Templates - Goldcast`. Located in this folder are program templates Designed with triggers to work with Goldcast's Marketo custom object. Make a copy of the needed program type template in the appropriate folder.
+1. Next step will be to connect the Marketo program to the Goldcast webcast. In the Smart Campaigns folder of the newly cloned program, add the Goldcast Event ID to the following smart campaigns on the Added to Goldcast Attendee trigger filter:
+      * `04 Goldcast Processing - Attended`
+      * `04 Goldcast Processing - Follow Up Requested`
+      * `04 Goldcast Processing - No Show`
+      * `04 Goldcast Processing - On Demand`
 1. Next activate the following smart trigger campaigns:
       * `01 Registration Flow (choose single or multi)`
       * `00 Interesting Moments`
       * `01a Registration flow (single timeslot)` or `01b Registration Flow (Multi-timeslot)`
-      * `04 On24 Processing - Attended`
-      * `04 On24 Processing - Follow Up Requested`
-      * `04 On24 Processing - On Demand`. Only activate this smart campaign if it is appropriate for the webinar, such as in the event the webinar will be left available for on-demand viewing.
-      * `04 On24 Processing - No Show`. No Show will not be activated as a trigger, but as a batch campaign scheduled to run 6 hours after the event has completed.
-1. Before continuing on, check if it seems appropriate to set any of the local assets to expire. Appropriate items to set an expiration would be, for example, smart campaigns like the `04 On24 Processing - Attended` campaign, which is no longer needed after the event ends.
+      * `04 Goldcast Processing - Attended`
+      * `04 Goldcast Processing - Follow Up Requested`
+      * `04 Goldcast Processing - On Demand`. Only activate this smart campaign if it is appropriate for the webinar, such as in the event the webinar will be left available for on-demand viewing.
+      * `04 Goldcast Processing - No Show`. No Show will not be activated as a trigger, but as a batch campaign scheduled to run 6 hours after the event has completed.
+1. Before continuing on, check if it seems appropriate to set any of the local assets to expire. Appropriate items to set an expiration would be, for example, smart campaigns like the `04 Goldcast Processing - Attended` campaign, which is no longer needed after the event ends.
 1. Update the program tokens as needed within the program. All email assets and landing pages are token dependent.
 1. **Important tokens to review**:
-      * `{{my.on24URL}}`: This token needs to be updated as upon registration the registrant is sent an automatic email with the Audience URL attached to this token.
+      * `{{my.GoldcastURL}}`: This token needs to be updated as upon registration the registrant is sent an automatic email with the Audience URL attached to this token.
       * `{{my.key}}`: This token needs to have the correct alphanumerical value taken from the Audience URL for the registration confirmation email to trigger.
       * `{{my.webcastDate}}`, `{{my.webcastTitle}}` etc. are standard to update.
-      * `{{my.On24password}}`: Update this with the webinar password. If no password was set up in the console, completely remove token from registration confirmation email as it is not necessary.
+      * `{{my.Goldcastpassword}}`: Update this with the webinar password. If no password was set up in the console, completely remove token from registration confirmation email as it is not necessary.
 1. Please note, the `Registration Flow` smart campaigns will send out the Audience URL for the event and have tokens arranged to share event passwords.
-1. Operational emails such as `Registration Confirmation` and `Reminder emails` will be sent from ON24, make sure these are activated in the ON24 program (all template already have them activated).
+1. Operational emails such as `Registration Confirmation` and `Reminder emails` will be sent from Goldcast, make sure these are activated in the Goldcast program (all template already have them activated).
 
-### Step 3.A: Update all other standard Marketo Tokens {#on24-marketo-tokens}
+### Step 3.A: Update all other standard Marketo Tokens {#Goldcast-marketo-tokens}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -1016,7 +1016,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 * `{{my.webcastTime}}` token with the webcast time in local timezone/UTC timezone.
 * `{{my.webcastTitle}}` token with the webcast title.
 
-### Step 3.B: Create the landing page {#on24-marketo-lp}
+### Step 3.B: Create the landing page {#Goldcast-marketo-lp}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -1026,12 +1026,12 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 * Complete the same steps for the `Thank You Page`
   * Use the format `webcast-topic-thank-you` (or `webcast-topic-region-thank-you` if region is relevant) - ex. `webcast-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
 
-### Schedule your ON24 practice session (Dry Run) {#on24-practice-session}
+### Schedule your Goldcast practice session (Dry Run) {#Goldcast-practice-session}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Once an event is created, the presenter link becomes active until the live event. It's unnecessary to schedule an additional dry run event.
-* Share the Presenter URL (which can be found in your Event URLs list in ON24 anfter event is created) to dry run participants.
+* Share the Presenter URL (which can be found in your Event URLs list in Goldcast anfter event is created) to dry run participants.
       * Roles:
          - Producers have the ability to take the event live and have additional admin functionalities such as media player configuration and building poll questions.
          - Presenters have limited admin abilities and can all advance slides during  the presentation. If screen sharing is part of the presentation, a driver is prompted the first time a user shares their screen. It's best to test this function in advance, especially for users who are required to VPN into their device. Some VPNs will limit this functionality.
@@ -1068,7 +1068,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
          - **Presenter.** Can speak to the audience during the rollover to the live portion, use the Q&A, Team Chat, Attendee Chat, Whiteboarding Tools, Highlight/Center Engagement Tools, Screen Share, and Pulse Check.
          - **Q&A Moderator.** Can use the Q&A, Team Chat, and Attendee Chat.
 
-### ON24 Webcast Invitations {#0n24-email-invitations}
+### Goldcast Webcast Invitations {#0n24-email-invitations}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -1078,27 +1078,27 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 3. Go to the `List` folder and edit the `Target List` smart list and input the names of past similar programs and applicable program statuses to the `Member of program` filter. This will make sure people that have attended programs with similar topics in the past are included in the invite.
    * Note: We may uplevel this logic to include webcast invitations within active nurture programs to limit the overhead for invitation emails.
 
-### Add the webcast to the /events/ and /resources/ pages {#on24-webpage-listings}
+### Add the webcast to the /events/ and /resources/ pages {#Goldcast-webpage-listings}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * To add the webcast to the /events/ page follow this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
 * To add the webcast to the /resources/ page follow this [step by step guide](/https://handbook.gitlab.com/handbook/marketing/demand-generation/campaigns/content-in-campaigns/#add-to-resources-page).
 
-### ON24 Webcast Testings / QA {#on24-webcast-testing}
+### Goldcast Webcast Testings / QA {#Goldcast-webcast-testing}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from ON24.
+Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from Goldcast.
 
-**Doing a QA for your ON24 Webcast Registration Page**
+**Doing a QA for your Goldcast Webcast Registration Page**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3k4FUe6_LXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Switching ON24 Webcasts to On-Demand {#on24-ondemand-switch}
+### Switching Goldcast Webcasts to On-Demand {#Goldcast-ondemand-switch}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-ON24 will automatically convert the video to on-demand in the ON24 platform. The steps below allow us to further leverage the webcast in Pathfactory. If you are going to drive to On24 directly for On-demand viewing (such as for large corporate events), skip to the instructions below starting at `Using On24 for On-Demand Viewing`.
+Goldcast will automatically convert the video to on-demand in the Goldcast platform. The steps below allow us to further leverage the webcast in Pathfactory. If you are going to drive to Goldcast directly for On-demand viewing (such as for large corporate events), skip to the instructions below starting at `Using Goldcast for On-Demand Viewing`.
 
 1. **Vimeo**: vimeo provides an ads free user expierence, therefore should be primary video platform used for on-demand recording uploads. To request an upload, open [an issue](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/digital-production/-/issues/new?issuable_template=upload-request) with Digital Production Team.
    * Instructions on uploading Vimeo videos to Pathfactory can be found [here](/handbook/marketing/marketing-operations/pathfactory/content-library/#vimeo-links)
@@ -1109,7 +1109,7 @@ ON24 will automatically convert the video to on-demand in the ON24 platform. The
 1. **YouTube**: Once the recording has been uploaded, copy the video link on the right
 1. **Pathfactory**: Login to PathFactory and add the YouTube or Vimeo link to Pathfactory as new content by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory).
 
-#### Converting the webcast to an On-Demand gated asset - On24 {#zoom-on-demand-switch}
+#### Converting the webcast to an On-Demand gated asset - Goldcast {#zoom-on-demand-switch}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -1153,8 +1153,8 @@ ON24 will automatically convert the video to on-demand in the ON24 platform. The
 
 1. **Marketo**: Update the smart campaigns (activate and deactivate)
    * Under "Schedule" on the `01a Registration Flow (single timeslot)` smart campiagn, click `Deactivate` once the webcast has completed.
-   * On the `04 On24 Processing - On Demand - On24` smart campaign - Smart List, add your On24 `eventid`. Flow: it's all set! For your first few, feel free to review the flows (but they are all using tokens, so it should be ready to go automatically). Go to schedule and click `Activate`.
-   * On the `04 On24 Processing - On Demand - Pathfactory` smart campaign - Smart List:
+   * On the `04 Goldcast Processing - On Demand - Goldcast` smart campaign - Smart List, add your Goldcast `eventid`. Flow: it's all set! For your first few, feel free to review the flows (but they are all using tokens, so it should be ready to go automatically). Go to schedule and click `Activate`.
+   * On the `04 Goldcast Processing - On Demand - Pathfactory` smart campaign - Smart List:
        * The second trigger for Fills out Form should be set to Form Name is "Form 2074: PF General". In Referrer contains, enter the Pathfactory asset name slug. For example guide-to-devops.
        * The third trigger for Fills out Form should be set to Form Name is "Pathfactory Webhook". In Referrer contains, enter the Pathfactory asset name slug. For example guide-to-devops.
        * Filter 1 - Filled Out Form should already be set properly. This will be Form Name is `FORM 2076: On-demand Webcast`. Web Page is (the name of your landing page).
@@ -1163,9 +1163,9 @@ ON24 will automatically convert the video to on-demand in the ON24 platform. The
        * Filter 4 - Pathfactory Engagement Time greater than 600 is set as the default. 600 is the Pathfactory view threshold for Webcasts.
        * Advanced filters will be set to 1 or 2 or (3 and 4)
    * Flow: it's all set! For your first few, feel free to review the flows (but they are all using tokens, so it should be ready to go automatically)
-   * Under "Schedule" on the `04 On24 Processing - On Demand - Pathfactory` smart campaign, click `Activate`.
+   * Under "Schedule" on the `04 Goldcast Processing - On Demand - Pathfactory` smart campaign, click `Activate`.
 
-### Using On24 for On-Demand Viewing - Switching to On-Demand {#on24-using-on24-on-demand-switch}
+### Using Goldcast for On-Demand Viewing - Switching to On-Demand {#Goldcast-using-Goldcast-on-demand-switch}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -1173,7 +1173,7 @@ In most cases, the landing pages for these events are managed by DEX. These inst
 
 1. **Marketo**: Navigate to the webcast program and update the following My Tokens
 
-   * Update the `ondemandUrl` token with the On24 audience URL
+   * Update the `ondemandUrl` token with the Goldcast audience URL
      * This URL should *not* contain `https://`
      * This URL should *not* contain any `?` question marks (if it does, you did not update the custom URL slug)
 
@@ -1181,7 +1181,7 @@ In most cases, the landing pages for these events are managed by DEX. These inst
 
    * Confirm that the URL to view the on-demand webcast is `https://{{my.ondemandUrl}}?{{my.utm}}`
    * Make any changes to the content that you need.
-   * Since you are driving to On24, you can use language such as "If you are prompted for an email address, please enter: {{lead.Email Address:default=No email found, please re-register using a valid email address}}". This will provide the user with a quick reference of the email address they used when registering.
+   * Since you are driving to Goldcast, you can use language such as "If you are prompted for an email address, please enter: {{lead.Email Address:default=No email found, please re-register using a valid email address}}". This will provide the user with a quick reference of the email address they used when registering.
    * Update the text version of the email. Then `Approve and Close`.
    * Right click on the email and choose `Send Sample`
    * Expand advanced settings, under "Sample person for tokens" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
@@ -1202,9 +1202,9 @@ In most cases, the landing pages for these events are managed by DEX. These inst
    * On the Flow: Change Step 1 to Change Program Status - Program is `name of the program you are working on` New status: `Webcast > Attended On-demand`
    * On Schedule: Select `Activate`. Immediately do the next step.
    * Under "Schedule" on the `01a Registration Flow (single timeslot)` smart campiagn, click `Deactivate`.
-   * On the `04 On24 Processing - On Demand - On24` smart campaign - Smart List, add your On24 `eventid`. Flow: it's all set! For your first few, feel free to review the flows (but they are all using tokens, so it should be ready to go automatically). Go to schedule and click `Activate`.
+   * On the `04 Goldcast Processing - On Demand - Goldcast` smart campaign - Smart List, add your Goldcast `eventid`. Flow: it's all set! For your first few, feel free to review the flows (but they are all using tokens, so it should be ready to go automatically). Go to schedule and click `Activate`.
 
-### Rescheduling an ON24 webcast {#on24-reschedule}
+### Rescheduling an Goldcast webcast {#Goldcast-reschedule}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -1215,22 +1215,22 @@ In the event you need to change the date of your webcast, please follow the step
 1. Leave a comment on the epic stating the event has been rescheduled and tag all internal panelists and hosts.
 1. Update issue due dates based on the new timeline and communicate changes to relevant team members.
 1. Update the [events page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/events/index.yml) with the new date and time.
-1. Update the date in ON24
-   * *The system will not automatically update registrants, but you can use the ON24 email notifications to reach out.* Step-by-step instructions available on the [ON24 support page](https://support.on24.com/hc/en-us/articles/21420787306907-Reschedule-or-Cancel-an-Event) - You may need to be logged in to view this documentation.
+1. Update the date in Goldcast
+   * *The system will not automatically update registrants, but you can use the Goldcast email notifications to reach out.* Step-by-step instructions available on the [Goldcast support page](https://support.Goldcast.com/hc/en-us/articles/21420787306907-Reschedule-or-Cancel-an-Event) - You may need to be logged in to view this documentation.
 
-### Canceling an ON24 Webcast {#on24-cancel}
+### Canceling an Goldcast Webcast {#Goldcast-cancel}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The process is very similar to rescheduling.
 
-1. Remove the webcast from the ON24 calendar.
+1. Remove the webcast from the Goldcast calendar.
 1. Add [Canceled] to the webcast epic title then close it out.
 1. Leave a comment on the epic stating the event has been canceled and tag all internal panelists and hosts.
 1. Add [Canceled] to the related issues and close them out.
 1. If webcast is on the Events Page and Resources Page, remove in a new MR.
-1. Go into ON24 and add [Canceled] to the title since webinars cannot be deleted if they already have registrants.
-   * *The system will not automatically update registrants, but you can use the ON24 email notifications to reach out.* Pull up the Email Notifications for the event and set the send date and time.
+1. Go into Goldcast and add [Canceled] to the title since webinars cannot be deleted if they already have registrants.
+   * *The system will not automatically update registrants, but you can use the Goldcast email notifications to reach out.* Pull up the Email Notifications for the event and set the send date and time.
    * Then click on the Preview/Edit option to edit the email text.
 1. In the Marketo program, deactivate all active smart campaigns and append [Canceled] to the program name.
 1. Go to Salesforce, append [Canceled] to the SFDC campaign name.
@@ -1394,6 +1394,6 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 1. Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email. *Check and test the registration confirmation email. Do not forget to update the `Add to calendar` token and the email values for the Google calendar in the Registration Confirmation, Reminder 1 and Reminder 2.*
 
-### Live Webcasts - ON24
+### Live Webcasts - Goldcast
 
-Go to [ON24](/handbook/marketing/marketing-operations/on24) page for more information.
+Go to [Goldcast](/handbook/marketing/marketing-operations/Goldcast) page for more information.
