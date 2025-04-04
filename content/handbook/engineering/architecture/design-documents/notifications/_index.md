@@ -48,7 +48,7 @@ Our internal motivation is to create a system that is easy to extend and loosely
 
 ### Non-Goals
 
-TBD
+- Replace all functionality that users may get from their inbox (ie. search all mentions of all time). We instead want to focus on day to day interactions mostly using GitLab
 
 ## Proposal
 
