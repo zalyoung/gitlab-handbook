@@ -595,7 +595,8 @@ In order to stay environmentally-friendly, we generally do not provide large qua
 ### Ordering Items from the GitLab Swag Shop
 
 If you would like to order item(s) from the [GitLab Swag Shop](https://shop.gitlab.com/) for an event, please submit the request in [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSfCeJSeJaafhh4Xxv2fC3mUSMEIWtQSOqy7S9ErwdX0iECk-Q/viewform). 
-- Note: Order Code = Allocadia line item ID
+
+Note: Order Code = Allocadia line item ID
 
 ## EMEA Field Marketing Swag
 
