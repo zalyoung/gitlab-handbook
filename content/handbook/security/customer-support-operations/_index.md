@@ -29,8 +29,8 @@ The purpose of Customer Support Operations is to enable GitLab to provide deligh
 
 ## Working with us
 
-- [Use this template if you want something new or modified](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues?issuable_template=Feature)
-- [Use this template to file a bug report](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues?issuable_template=Bug)
+- [Use this template if you want something new or modified](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)
+- [Use this template to file a bug report](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)
 
 Or you can reach out to us in Slack via [#support_operations](https://gitlab.enterprise.slack.com/archives/C018ZGZAMPD).
 
