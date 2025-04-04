@@ -1051,7 +1051,6 @@ It is a required field.
   - [`software_supply_chain_security`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
 
-
 The stages display as an icon next to the product tiers' badges linking
 to the stage webpage using a regex:
 `https://about.gitlab.com/stages-devops-lifecycle/<stage>/`. We can

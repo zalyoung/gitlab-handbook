@@ -516,8 +516,6 @@ OR
 
 </details>
 
-
-
 ### Growth Section
 
 Although the [Growth Section](/handbook/marketing/growth/) falls within the Maketing & Strategy division, the Growth Section has dedicated support from Product Data Insights on topics within our ownership areas.
