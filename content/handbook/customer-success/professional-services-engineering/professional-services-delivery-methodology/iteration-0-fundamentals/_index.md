@@ -44,7 +44,7 @@ Working agreements are NOT be a tool to gauge performance. They are ONLY intende
 * Mark yourself as "away" when not available, with expected return time.
 * We will update issue status and time tracking daily.
 * Core collaboration hours: 10:00 AM - 4:00 PM EST; no expectation of response outside working hours.
- * We acknowledge GitLab's preference for [Asynchronous Communication](/handbook/company/culture/all-remote/asynchronous/). This is NOT a directive to define working hours, only an FYI to your teammates.
+* We acknowledge GitLab's preference for [Asynchronous Communication](/handbook/company/culture/all-remote/asynchronous/). This is NOT a directive to define working hours, only an FYI to your teammates.
 * We honor our commitments to our teammates and to our customers. If we commit to doing something, we follow through within expected timelines.
 * We understand that working agreements are not authoritative, but fluid and open to change when necessary.
 
