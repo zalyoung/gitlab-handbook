@@ -76,8 +76,8 @@ We follow the [PSDM (Professional Services Delivery Methodology)](../professiona
 - The purpose of this schedule is to reference and understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization.
 
 - Time & Materials (T&M) projects are invoiced according to time submitted at the Project level.
- - While SKUs are one transaction, we track against hourly billings (eg. Consulting Blocks & Dedicated Engineer Projects)
 - Fixed Fee projects (FF or FP) are invoiced at a Milestone schedule. So it's vital to ensure anticipated dates are added to Milestones within FF projects, and we get customer signoff before the billing period ends.
+- *Note* While SKUs are one transaction, we track against hourly (T&M) billings (eg. Consulting Blocks & Dedicated Engineer Projects)
 
 **Forecasting Time and Materials (T&M) and Fixed Fee (FF)**
 
