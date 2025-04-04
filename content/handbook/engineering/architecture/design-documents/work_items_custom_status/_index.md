@@ -381,6 +381,29 @@ We marked both widgets and fields as experiment in `17.9`, so we can rename them
 1. `STATUS` --> `VERIFICATION_STATUS` ([see MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/182520))
 1. `CUSTOM_STATUS` --> `STATUS` ([see MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/183026))
 
+#### Backfill status data for existing work items
+
+Each work item of a work item type that supports status should have a status assigned.
+We'll backfill the `work_items_current_statuses` table before adding status support for a work item type.
+
+To conserve database storage we'll only backfill status data for `open` work items.
+
+Although custom status is a licensed feature, we will backfill status data for all work items
+of a given work item type regardless of license.
+We will also perform automatic status transitions for all items. 
+
+For example a newly created work item will receive the default open status,
+and when closed, it will transition to the default closed status.
+
+See the [discussion on this topic on this issue](https://gitlab.com/gitlab-org/gitlab/-/work_items/517342).
+
+This approach ensures:
+
+1. Status is immediately available when a namespace adds a license.
+1. Work items maintain correct status assignments when a namespace changes tiers.
+
+This significantly reduces complexity by eliminating the need for additional data migrations during namespace tier changes.
+
 #### Status migration and migration wizard
 
 We need to migrate statuses of work items in the following cases:
@@ -446,11 +469,11 @@ Since the feature will only be available in Premium and Ultimate tier, we consid
 The feature name is `work_item_status`.
 The name differs from the feature flag because we cannot use the same name.
 
-### Implementation Plan
+### Implementation and release plan
 
 We've identified these iterations for this initiative:
 
-#### Iteration 1
+#### Iteration 1 (internal dogfooding)
 
 - [Iteration 1 epic](https://gitlab.com/groups/gitlab-org/-/epics/14793)
 - Implement system-defined status and join model
@@ -459,16 +482,30 @@ We've identified these iterations for this initiative:
 - Implement state/status transitions
 - Add `/status` quick action
 
-#### Iteration 2
+We want to [dogfood the first iteration internally](https://gitlab.com/gitlab-org/gitlab/-/issues/527255#note_2423284340)
+to gather early feedback.
+To make this happen we'll [use the following approach](https://gitlab.com/gitlab-org/gitlab/-/issues/527255#note_2430372132):
+
+1. Continue to use the `work_item_status_feature_flag` for the full GA release.
+1. Move the parts we want to dogfood to `work_items_beta` feature flag which is enabled for the
+   `gitlab-org` and `gitlab-com` groups.
+   This way we only release the feature internally and are still able to disable the feature.
+1. We'll use this [rollout issue](https://gitlab.com/gitlab-org/gitlab/-/issues/533557).
+
+#### Iteration 2 (GA)
 
 - [Iteration 2 epic](https://gitlab.com/groups/gitlab-org/-/epics/14794)
 - Implement custom statuses
 - Board integration
+- Filter by a single status on list views
 - Status management (create, update, reorder, delete)
 - Migration from labels to statuses
 - Expand support to Issues and Epics
 
-We'll likely release the feature after iteration 2 is completed.
+Iteration 2 is the GA release. The following changes need to happen to change from internal dogfooding to GA:
+
+1. Change the feature flag of the internal dogfooding paths back to `work_item_status_feature_flag`.
+1. Enable the feature flag by default in the same MR.
 
 #### Iteration 3
 
@@ -502,6 +539,27 @@ Customers can customize statuses to match their preferred language.
 - Doesn't provide a first-class status integration into the product
 - Limits reporting capabilities
 
+## Decision registry
+
+## Decision Registry
+
+This section documents key architectural and implementation decisions made during the development of this feature.
+
+1. Define system-defined entities in code rather than database tables.
+1. [Status will only be available in Premium and Ultimate tier](https://gitlab.com/gitlab-org/gitlab/-/issues/498393#note_2312781591).
+1. No new permissions for work item statuses. Reuse `read_work_item` and `update_work_item`.
+1. Use the name `STATUS` widget for custom status. Rename existing `STATUS` widget to `VERIFICATION_STATUS`
+   and rename `CUSTOM_STATUS` widget to `STATUS`.
+1. [Statuses are unique across the namespace and are attached to a lifecycle](https://gitlab.com/gitlab-org/gitlab/-/work_items/517342#note_2359312888).
+   We don't create new statuses for each lifecycle. So the status `done` may be attached to multiple lifecycles.
+1. [System-defined statuses won't be internationalized](https://gitlab.com/groups/gitlab-org/-/epics/14793#note_2359390868).
+   We only use english names.
+1. We'll [dogfood iteration 1 internally](https://gitlab.com/gitlab-org/gitlab/-/issues/527255#note_2423284340).
+   and use the release plan outlined in this document.
+1. We'll [backfill only open work items](https://gitlab.com/gitlab-org/gitlab/-/issues/498395#note_2388702770)
+   with a default open status.
+1. We'll always add status data regardless of license to eliminate the need for additional data migrations during tier changes.
+
 ## Resources
 
 1. [Top level epic for this initiative](https://gitlab.com/groups/gitlab-org/-/epics/5099)
@@ -518,4 +576,10 @@ We don't expect everyone to approve changes.
 
 ```text
 @gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani
+```
+
+Feel free to mention the following people to spread the word:
+
+```text
+@johnhope @amandarueda @caitlinsteele 
 ```
