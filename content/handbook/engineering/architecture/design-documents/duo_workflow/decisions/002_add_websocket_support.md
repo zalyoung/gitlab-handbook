@@ -1,5 +1,5 @@
 ---
-title: "Duo Workflow ADR 002: Migrate from gRPC to WebSockets"
+title: "Duo Workflow ADR 002: Add WebSockets as an option for transport"
 owning-stage: "~devops::ai_powered"
 toc_hide: true
 ---
@@ -12,7 +12,7 @@ Initially, the Duo Workflow Service used gRPC over HTTP/2 for streaming. While g
 - [Browsers cannot natively use gRPC](https://grpc.io/blog/state-of-grpc-web/#feature-sets) without a proxy layer (gRPC-Web or Envoy).  
 - Our self-managed customers have frequently highlighted friction in configuring gRPC.
 
-Moving to **WebSockets** (over HTTP/1.1) can address these issues and unify the transport across all components (client, server, LSP executor). It also enables direct browser-to-service streaming if needed, simplifying real-time feedback loops.
+Giving the ability for customers to use **WebSockets** (over HTTP/1.1) can address these issues and unify the transport across all components (client, server, LSP executor). It also enables direct browser-to-service streaming if needed, simplifying real-time feedback loops.
 
 **IDE interactions**:
 
@@ -67,7 +67,7 @@ sequenceDiagram
 
 ## Decision
 
-**We decided to replace gRPC with WebSockets** for Duo Workflow’s streaming and request/response interactions. Protobuf will be used for serialization over WebSockets where appropriate, preserving type safety.
+**We decided add Web Sockets as an alternative to gRPC** for Duo Workflow’s streaming and request/response interactions. Protobuf will be used for serialization over WebSockets where appropriate, preserving type safety.
 
 Websockets have been tested at scale for AI workloads as shown by the following 2 adoptions:
 

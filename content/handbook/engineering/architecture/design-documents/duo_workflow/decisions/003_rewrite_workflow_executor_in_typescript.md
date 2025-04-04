@@ -21,10 +21,10 @@ By embedding the executor in the LSP, we remove a layer of indirection, reduce s
 
 ## Decision
 
-**We decided to adopt a TypeScript executor library** for local and future integrated workflows.
+**We decided to adopt a TypeScript executor library** for local execution in IDE environments.
 
 - The existing Go executor will remain for CI/remote execution or any environment that requires a lightweight compiled binary in the short term.
-- Longer term we move to a cross compiled typescript binary using [bun](https://bun.sh/docs/bundler/executables) or [deno](https://docs.deno.com/runtime/reference/cli/compile/). 
+- Longer term we decide if we want to have a compiled typescript binary using [Node executable](https://nodejs.org/docs/latest-v20.x/api/single-executable-applications.html), [bun](https://bun.sh/docs/bundler/executables) or [deno](https://docs.deno.com/runtime/reference/cli/compile/) or if we'd prefer to maintain both executors.
 
 ## Consequences
 
@@ -32,6 +32,7 @@ By embedding the executor in the LSP, we remove a layer of indirection, reduce s
   - Direct, in-process communication between the LSP and the executor (no separate binary spawn).  
   - Shared type definitions and tooling, reducing friction for developers working on the LSP.  
   - Easier incorporation of streaming, incremental feedback, linting, and token refresh flows.
+  - Easier distribution: the LSP no longer needs to download the executor binary, but is updated with the LSP itself.
 
 - **Cons**  
   - Requires building and publishing an npm package for the executor logic or merging it directly into the LSP repo.  
