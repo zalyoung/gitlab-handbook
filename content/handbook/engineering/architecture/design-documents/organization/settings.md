@@ -1,11 +1,17 @@
 ---
-stage: enablement
-group: Tenant Scale
-title: 'Organization: Settings'
+title: 'Organization Settings'
+owning-stage: "~devops::tenant scale"
+group: Organizations
 toc_hide: true
 ---
 
+As of March 2025 this document is undergoing review. It represents the current state of the Organization Settings design but may change in the coming months.
+
 The end goal for most existing Admin Area settings is to migrate them to Organizations, with a few exceptions in which we might want to make a setting available at both the instance and Organization level.
+
+We anticipate instance settings will be restricted to hardware and infrastructure settings which will be managed by the instance admin.
+
+Settings should be constructed such that when an Organization is moved to another instance there is no perceived change by the customer. This means interaction between the instance and Organization level settings need to be carefully considered.
 
 ## Setting Inheritance
 
