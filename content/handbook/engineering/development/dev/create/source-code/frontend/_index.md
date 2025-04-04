@@ -128,9 +128,9 @@ The groups in the Source Code group conduct asynchronous standups in the [#g_cre
 
 The goal is to support the members of these groups in connecting at a personal level, not to check in on people’s progress or replace any existing processes to communicate status or ask for help, and the questions are written with that in mind:
 
-- What did you do outside of work since we last spoke?
-- What are you planning to do today?
-- Is anything blocking your progress or productivity?
+* What did you do outside of work since we last spoke?
+* What are you planning to do today?
+* Is anything blocking your progress or productivity?
 
 For more background, see the [Async standup feedback issue](https://gitlab.com/gitlab-org/create-stage/issues/4) on the Create stage issue tracker.
 
