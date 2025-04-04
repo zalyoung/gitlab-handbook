@@ -107,7 +107,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 **Weekly Forecast Call Prep**
 
-1. Review by EOD Monday
+1. Updated by 8am EST Tuesday
 2. Run "Remaining Funds to Forecast" report 
    - Select project status
    - Sort by project lead/PM
@@ -126,7 +126,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
  **Professional Services Portfolio Report**
 
-- Updated by EOD Monday
+- Updated by 8am EST Tuesday
 - Update the following in the Notes section:
   1. 1-lined progress update
   2. If there is an issue, what is the proposed action + timing of fix
