@@ -44,14 +44,6 @@ The best way to migrate from one self-managed GitLab server to another is to per
 
 Please note that this migration method only works if [the source and target instances have the exact same version](https://docs.gitlab.com/ee/administration/backup_restore/restore_gitlab.html#the-destination-gitlab-instance-must-have-the-exact-same-version). If it's not the case for your customer's environments (typically it's the source system which lags behind), then our [Upgrade Path tool](https://docs.gitlab.com/ee/update/index.html#upgrade-path-tool) can help with planning the necessary upgrades on the source system. (Make sure to do a full backup **BEFORE** the upgrades!)
 
-## Air-gapped environments
-
-GitLab can be installed and operated in [offline environments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/). This setup makes migration projects more complex.
-
-- [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/), an open-source command line interface (CLI) migration tool from GitLab, does support Air-gapped environments. See [Support air-gapped environment migrations](https://gitlab.com/groups/gitlab-org/professional-services-automation/tools/migration/-/epics/116) and [Migrating data in an air-gapped environment](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/runbooks/airgapped-migration-usage.md)
-
-- Direct transfer doesn't support this. Project/export import is a workaround. See the GitLab issue titled [Direct transfer - Support for air-gapped solutions](https://gitlab.com/groups/gitlab-org/-/epics/8985) and [maintain project and group file-based import/export as a workaround for migrations over air-gapped networks and to serve other use cases](https://gitlab.com/gitlab-org/gitlab/-/issues/363406) for nuanced technical details on performing this.
-
 ## From GitLab self-managed to GitLab.com or the other way around
 
 Choosing from the three different options for a customer migration depends on understanding your customer's needs post-migration. A full technical page comparing in a table format the pros and cons of each method is outlined in [Migration features](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md#migration-features). While **Congregate** supports most Features to be migrated, migrating to/from GitLab.com with Congregate requires the GitLab Professional Services team due to restricted access to the GitLab.com SaaS (multi-tenant) data. Your migration service may be achieved using one of the other methods.
@@ -88,24 +80,30 @@ It spins up a complete ELK Stack (Elasticsearch, Logstash, Kibana) environment s
 
 Clone the repo and then with just a single command, the environment is ready to go! Customer’s logs will automatically get indexed, and Kibana will launch with pre-configured dashboards, giving you an immediate visual analysis of GitLabSOS, KubeSOS, or GDK logs.
 
-### 3. Congregate
+### 3. GEO Replication
+
+[GitLab GEO](https://docs.gitlab.com/administration/geo/#infrastructure-migrations) can be used to migrate a GitLab instance to a new server or data center with minimal downtime and no data loss because the data replication to the secondary would occur in the background as your active instance continues to operate. However, a PostGreSQL database cannot be migrated using GEO. 
+
+**Note:** Both Geo and Congregate can support migrations to GitLab Dedicated, but these types of migrations as of today, are handled only by GitLab internal team members, not partners.
+
+### 4. Congregate
 
 [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/) is GitLab's most mature migration solution and supports many options. **Note that migrations to SaaS require the involvement of GitLab PS due to restricted access to GitLab SaaS (multi-tenant) data.** More information about the latter can be found [here](/handbook/customer-success/csm/risk-mitigation/self-managed-vs-saas/).
 
-Congregate is an open-source command line interface (CLI) migration tool developed and maintained by the GitLab Professional Services team that orchestrates the end to end process of migrating an organization to GitLab. Congregate is the preferred method used by GitLab Professional Services because it supports the migration of [many features](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md) that the built-in GitLab product importers/exporters don't support.
+Congregate is an open-source migration tool developed and maintained by the GitLab Professional Services team that orchestrates the end to end process of migrating an organization to GitLab. Congregate is the preferred method used by GitLab Professional Services because it supports the migration of [many features](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md) that the built-in GitLab product importers/exporters don't support.
 
 At a high level, Congregate is an API wrapper that allows Professional Services to leverage [file exports](https://docs.gitlab.com/user/project/settings/import_export/) or [Direct Transfer](https://docs.gitlab.com/user/group/import/.) It relies on the existing importers we have available in GitLab that can be used through the GitLab REST API
 Additional third party REST and GraphQL APIs along with other API libraries are also bundled into Congregate to support migrating from multiple different source types.
 
-Important to note about Congregate:
+[Congregate docs site](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/), which includes documentation about the features matrix to understand what can be migrated per source, FAQ, methodology, preparation, limitations/constraints, installation, and development.
 
-- [Congregate Migration Features Matrix](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md)
+### Air-gapped environments
 
-- [Migration Readiness Checklist](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/migration-readiness-checklist.md)
+GitLab can be installed and operated in [offline environments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/). This setup makes migration projects more complex.
 
-- [Customer's obligations and responsibilities - Congregate FAMQ](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-are-a-customers-obligations-and-responsibilities-prior-during-and-after-a-migration)
+- [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/), an open-source command line interface (CLI) migration tool from GitLab, does support Air-gapped environments. See [Support air-gapped environment migrations](https://gitlab.com/groups/gitlab-org/professional-services-automation/tools/migration/-/epics/116) and [Migrating data in an air-gapped environment](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/runbooks/airgapped-migration-usage.md)
 
-- [Limitations of Self-Managed to SaaS migrations via Congregate - Congregate FAMQ](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-level-of-instance-access-and-permission-are-needed-for-migrating)
+- Direct transfer doesn't support this. Project/export import is a workaround. See the GitLab issue titled [Direct transfer - Support for air-gapped solutions](https://gitlab.com/groups/gitlab-org/-/epics/8985) and [maintain project and group file-based import/export as a workaround for migrations over air-gapped networks and to serve other use cases](https://gitlab.com/gitlab-org/gitlab/-/issues/363406) for nuanced technical details on performing this.
 
 ## Migrating package/container registries
 
