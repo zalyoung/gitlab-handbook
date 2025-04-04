@@ -907,10 +907,9 @@ Postgres
 postgres.ai
 PostgreSQL
 PQLs
-POV
 POVs
 Praefect's
-Presales
+presales
 prebuild
 prebuilds
 precompile
