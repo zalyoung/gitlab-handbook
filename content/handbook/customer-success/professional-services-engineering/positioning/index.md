@@ -85,17 +85,17 @@ For these customers consider our [Education Services](https://about.gitlab.com/s
 
 ### Internal Testimonials
 
-The PS team has been building maturity and repeatability to its services over the later part of 2019 and early part of 2020. We have captured some recent wins with internal testimonials in [[this highspot page](https://gitlab.highspot.com/items/65047cc5d2ccf775a19de0f6)
+The PS team has been building maturity and repeatability to its services over the later part of 2019 and early part of 2020. We have captured some recent wins with internal testimonials in [this highspot page](https://gitlab.highspot.com/items/65047cc5d2ccf775a19de0f6)
 
 ### Pitch Deck
 
-To discuss our services offerings with prospects, it is often helpful to have a few slides to describe the role of the professional services team.  If you need slides for our SKU services feel free to pull from the below deck. If you are thinking this is a larger engagement, please contact [your Engagement Manager](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit?tab=t.0#heading=h.1er41qhhpoj5)
+To discuss our services offerings with prospects, it is often helpful to have a few slides to describe the role of the professional services team.  If you need slides for our SKU services feel free to pull from the below deck. If you are thinking this is a larger engagement, please contact [your Engagement Manager](https://docs.google.com/document/d/1bdVOf3jL6aJF79qRMFLQsmMxIgQh5ZQ-WiLuNgsWB08/edit?tab=t.0#heading=h.qzgxpwqxme5)
 
 [Professional Services Proposal Deck](https://docs.google.com/presentation/d/1M-7aA7f9S6dULvzuKuTJs4j3A4V1z2DtMsoN0T0SMZg/edit#slide=id.g277ce56021a_0_2036)
 
 ### Data Sheets
 
-Professional Services Data Sheets are available as subpages to the marketing site. You can find them through the [Professional Services portal](https://about.gitlab.com/services/).
+Professional Services Data Sheets are available as subpages to the marketing site. You can find them linked on the [catalog page](https://about.gitlab.com/professional-services/catalog/).
 
 ### Other Collateral
 
