@@ -18,7 +18,7 @@ For information regarding proper use of GitLab's trademarks, see the following:
 
 If considering a new trademark, review the following:
 
-- [The naming process at GitLab](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/naming/)
+- [The naming process at GitLab](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/naming/#the-naming-process)
 - [Product and feature naming guidelines](https://handbook.gitlab.com/handbook/product/product-principles/#product-and-feature-naming-guidelines)
 
 After reviewing the above guidelines, reach out to the Brand Team in [#brand](https://app.slack.com/client/E03N1RJJX7C/C0119M5HUER), with your proposed mark, whether it's a logo or wordmark. If Brand approves use of the proposed logo or wordmark, they will reach out to Legal to discuss next steps. 
@@ -30,7 +30,7 @@ After reviewing the above guidelines, reach out to the Brand Team in [#brand](ht
 
 1. Locate and download the [Master Authorization Template](https://docs.google.com/document/d/1utvdSknJ0hm5m0_6T9SkeXaFqJSZgB6w/copy) in GitLab’s G-Drive (Note this is only available to GitLab team members).
 
-1. Send the template to the third party via DocuSign, ensuring that the DocuSign envelope you create requests the following details, which will appear in the signature block of the Authorization:
+2. Send the template to the third party via DocuSign, ensuring that the DocuSign envelope you create requests the following details, which will appear in the signature block of the Authorization:
 
 - Company Name
 - Company Address
@@ -56,7 +56,7 @@ If we suspect that a third party is making unauthorized use of the term **GitLab
 **Some examples of unauthorized use may be found in:**
 
 - **Third party marketing materials or product names:** Unauthorized use in a way that infers that GitLab endorses or sponsors the publisher of the marketing material.
-- **Browser ads (title or copy):** These uses can be reported by the Legal and Corporate Affairs team to the relevant browser operator (e.g. [Google](https://reportcontent.google.com/forms/legal_trademarks/trademark_ads), [Bing](/https://about.ads.microsoft.com/en/forms/policies/intellectual-property-complaint-form).
+- **Browser ads (title or copy):** These uses can be reported by the Legal and Corporate Affairs team to the relevant browser operator (e.g. [Google](https://reportcontent.google.com/forms/legal_trademarks/trademark_ads), [Bing](https://about.ads.microsoft.com/en/forms/policies/intellectual-property-complaint-form).
 
 **If you’re not a GitLab team member, please share any reports of suspected infringement with us at intellectualproperty@gitlab.com.**
 
