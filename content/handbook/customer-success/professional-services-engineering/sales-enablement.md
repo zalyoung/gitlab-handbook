@@ -71,8 +71,8 @@ With GitLab Ultimate, Professional Services can deliver a [DevSecOps Workshop SK
 
 ### How will we deliver?
 
-1. Direct via the [GitLab Professional Services Engineering Delivery team](/handbook/customer-success/professional-services-engineering/#team-members-and-roles)
-1. Partner delivered (future)
+1. Direct via the [GitLab Professional Services Engineering Delivery team](/handbook/customer-success/professional-services-engineering/#team-members)
+1. Partner delivered
 
 ## How to order
 

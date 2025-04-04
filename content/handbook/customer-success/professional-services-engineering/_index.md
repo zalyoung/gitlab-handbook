@@ -112,7 +112,7 @@ This performance indicator measures how satisfied our customers are with their i
 GitLab offers a full catalog of professional services including implementation, migration, and education delivered by GitLab experts. Click the links to learn more about our framework and for a detailed listing of our standard SKU offerings.
 
 * [PS Offerings Framework](framework)
-* [PS Standard SKUs](SKUs)
+* [PS Standard SKUs](skus)
 * [PS Full Catalog](https://about.gitlab.com/professional-services/catalog/)
 
 ## Working with Professional Services

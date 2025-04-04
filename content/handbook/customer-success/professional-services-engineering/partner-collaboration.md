@@ -133,7 +133,7 @@ If the project requirements exceed the current capacity of the available resourc
 ### Partner Onboarding
 
 - PS Ops Team sets Consultant up in Kantata
-- PS Ops Team meets with Consultant to [review how to log time](sites/handbook/source/handbook/customer-success/professional-services-engineering/professional-services-operations), etc.
+- PS Ops Team meets with Consultant to [review how to log time](/handbook/customer-success/professional-services-engineering/professional-services-operations), etc.
 - PS Ops Team submits Access Request Issues
   - Requesting access to appropriate technical tools (hardware & software)
   - Requesting to add Consultant to appropriate slack channel(s)
@@ -246,7 +246,7 @@ Before making a purchase of any type or booking travel for a customer project, b
 - Expense report per this [template](https://docs.google.com/spreadsheets/d/1fSn1G4opUDpnmGlcd35Zi_Mks5zTFoeg03FP__Xghes/edit?usp=sharing) that includes a separate line item for each expense
 - One PDF document to include receipts for each expense
 - Guidelines for [Traveling](/handbook/finance/travel/#expenses-while-traveling)
-- Expense [Guidelines](/handbook/finance/expenses/#expense-policy-outline)
+- Expense [Guidelines](/handbook/finance/expenses/)
 
 Expenses are to be invoiced in the month in which they have incurred
 
