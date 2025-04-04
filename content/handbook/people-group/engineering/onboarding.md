@@ -66,15 +66,15 @@ The invite email is send to their `GitLab` email address which they will get acc
 
 This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/email_templates) that is sent to our team members on the morning of their first day of employment (based upon the onboarding date in the issue title). The email is cc'd to `people-connect@domain`.
 
-Every day we run 3 scheduled pipelines. They are each set up for a specific region:
+Every day we run 4 scheduled pipelines. They are each set up for a specific region:
 
-- Americas at 10 AM UTC
+- Americas & LATAM at 10 AM UTC
 - EMEA at 4 AM UTC
-- JAPAC at 6 PM UTC
+- APJ at 6 PM UTC
 
-For the **JAPAC** pipeline, it will fetch the team members with a start date for the next day (timezones).
+For the **APJ** pipeline, it will fetch the team members with a start date for the next day (timezones).
 
-For the **EMEA** and **Americas** pipeline, it will fetch all the team members that have a start day equal
+For the other region pipelines, it will fetch all the team members that have a start day equal
 to the current day (so who is starting today). The pipeline then filters out the ones for the region
 they need to send the email to. This all is to ensure we don't send out the email too late or too early.
 The region of the team member is determined from the region that is on their Workday profile. This is the
