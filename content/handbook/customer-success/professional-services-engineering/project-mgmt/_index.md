@@ -10,6 +10,7 @@ description: "Learn about the processes that the GitLab Project Management team 
   - [Iteration 0](#iteration-0)
   - [Initial Kantata Review](#initial-kantata-review)
 - [Deliver, Train, and Monitor](#deliver-train-and-monitor)
+  - [Professional Services Delivery Methodology](#professional-services-delivery-methodology)
   - [Reporting Project Health & Forecasting](#reporting-project-health--forecasting)
 - [Iterate and Validate](#iterate-and-validate)
 - [Deploy & Close](#deploy--close)
@@ -61,13 +62,12 @@ _Billable vs NonBillable information_, please refer to [Team Metrics](/handbook/
 
 ## Deliver, Train, and Monitor
 
-We follow the [PSDM (Professional Services Delivery Methodology)](../professional-services-delivery-methodology/_index.md) for all our Professional Service Engagements.
+### Professional Services Delivery Methodology
 
-**Summary of PSDM Content:**
-
-The Professional Services Delivery Methodology (PSDM) is a comprehensive framework that covers:
+We follow the [PSDM (Professional Services Delivery Methodology)](../professional-services-delivery-methodology/_index.md) for all our Professional Service Engagements. The PSDM is a comprehensive framework that covers:
 
 - Managing Projects in GitLab as the single source of truth
+- Managing Projects according to SOW format (Agile, Timd and Materials, Fixed Price)
 - Establishing Project Velocity and Iteration scheduling
 - Setting up Agile ceremonies and processes
 - Managing labels for effective project tracking
