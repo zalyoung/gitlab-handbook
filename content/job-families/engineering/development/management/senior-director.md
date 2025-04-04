@@ -4,6 +4,18 @@ title: Senior Director, Engineering
 
 Directors in Engineering at GitLab see their team as their product. While they are technically credible and know the details of what engineers work on, their time is spent safeguarding their team's health, hiring a world-class team, and putting them in the best position to succeed. They own the delivery of product commitments and are always looking to improve productivity. They must also coordinate across departments to accomplish collaborative goals. Senior Directors will often be given ambiguous ill-defined problems with the implicit goal of gaining clarity and driving execution/direction. Senior Directors are responsible for mentoring and managing other leaders in the organization and generally have Senior Managers or Directors reporting to them.
 
+## Job Grade
+
+The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role.
+
+## Responsibilities
+
+Senior Director, Development responsibilities extend those of [Senior Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-responsibilities).
+
+## Requirements
+
+Senior Director, Development requirements extend those of [Senior Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-requirements).
+
 ## Performance Indicators
 
 - [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)

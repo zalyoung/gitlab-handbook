@@ -76,19 +76,9 @@ The Distinguished Engineer role extends the [Principal Engineer](/job-families/e
 ### Senior Director, Development
 
 - The Senior Director, Development reports to the [VP of Development](#vp-of-development).
-- The Senior Director, Development role extends the [Director, Development](#director-development) role.  This role is defined by the functional area(s) the person manages.
+- The Senior Director, Development role extends the [Director, Development](#director-development) role. This role is defined by the functional area(s) the person manages.
 
-#### Job Grade
-
-The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role with [specific details for the Development role](/job-families/engineering/development/management/senior-director/).
-
-#### Responsibilities
-
-Senior Director, Development responsibilities extend those of [Senior Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-responsibilities).
-
-#### Requirements
-
-Senior Director, Development requirements extend those of [Senior Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-requirements).
+See [Senior Director, Development](senior-director.md)
 
 ### Engineering Fellow
 
@@ -114,17 +104,9 @@ The Engineering Fellow is a [grade 12](/handbook/total-rewards/compensation/comp
 
 ### VP of Development
 
-#### Job Grade
+The VP of Development role extends the [Senior Director, Development](#senior-director-development) role. It expands the role to cover full functional and product capabilities at GitLab.
 
-The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).  This role extends the [Senior Director, Development](#senior-director-development) role with [specific details for the Development role](/job-families/engineering/development/management/vp/)  It expands the role to cover full functional and product capabilities at GitLab.
-
-#### Responsibilities
-
-VP of Development responsibilities extend those of [VP of Engineering](/job-families/engineering/engineering-management/#vp-of-engineering-responsibilities).
-
-#### Requirements
-
-VP of Development requirements extend those of [VP of Engineering](/job-families/engineering/engineering-management/#vp-of-engineering-requirements).
+See [VP of Development](vp.md).
 
 ### Executive VP of Engineering
 

@@ -4,6 +4,18 @@ title: VP of Development
 
 Engineering Managers at GitLab see their team as their product. While they are technically credible and know the details of what engineers work on, their time is spent safeguarding their team's health, hiring a world-class team, and putting them in the best position to succeed. They own the delivery of product commitments and are always looking to improve productivity. They must also coordinate across departments to accomplish collaborative goals. Engineering Leadership at GitLab is cross-discipline. A VP of Development unifies and focuses all development for a particular product.
 
+## Job Grade
+
+The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+## Responsibilities
+
+VP of Development responsibilities extend those of [VP of Engineering](/job-families/engineering/engineering-management/#vp-of-engineering-responsibilities).
+
+## Requirements
+
+VP of Development requirements extend those of [VP of Engineering](/job-families/engineering/engineering-management/#vp-of-engineering-requirements).
+
 ## Performance Indicators
 
 - [Sale Renewal CSAT](/handbook/engineering/development/performance-indicators/#sales-renewal-csat)
