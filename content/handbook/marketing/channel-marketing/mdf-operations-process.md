@@ -49,7 +49,6 @@ Please ensure your issue is in its final state before applying this label, as an
 
 When you activate the sync, an Asana project with corresponding tasks will be automatically created. The GitLab issue description will populate the Asana overview, and tasks will be automatically assigned. Note that only one assignee can be designated per task. Additional team members can be added as collaborators to maintain visibility without changing the primary assignee.
 
-
 ### Step 4: Update the Tracking Sheet
 
 1. Region, MDF Amount, Issue Link, Line Item ID, End Date, Status
