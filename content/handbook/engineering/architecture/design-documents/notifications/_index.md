@@ -142,7 +142,6 @@ Our requirements are that we will be accessing todos in the majority of situatio
 - by state
 - by snoozed status.
 
-
 ### Notification settings 
 
 Currently notification settings allow users to define highly customizable rules for when to receive email notifications. To create parity between the current to-dos and email system, we should add the ability for users to establish if they want to receive email only, email and web-based notification, or just an web-based notification.
