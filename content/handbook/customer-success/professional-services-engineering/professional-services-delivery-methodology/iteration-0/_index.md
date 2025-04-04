@@ -57,7 +57,7 @@ Focus the discussion on:
 Following the meeting, ensure completion of:
 
 - [ ] Internal team understands where to find the latest status
-- [ ] Initiate [Collaboration Project](/handbook.gitlab.comhandbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/cp/) setup and pin to Slack channel, along with the internal retrospective issue (attached to the Customer Epic)
+- [ ] Initiate [Collaboration Project](/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/cp/) setup and pin to Slack channel, along with the internal retrospective issue (attached to the Customer Epic)
 - [ ] Stakeholder Planning meeting scheduled with the Customer
 - [ ] Technical prerequisites identified for discussion with the Customer
 - [ ] Initial risks documented
