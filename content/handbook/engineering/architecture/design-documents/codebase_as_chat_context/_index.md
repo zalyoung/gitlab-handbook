@@ -6,7 +6,7 @@ title: Codebase as Chat Context
 status: proposed
 creation-date: "2025-04-02"
 authors: [ "@partiaga", "@tgao3701908" ]
-coaches: []
+coaches: [ "@jessieay" ]
 dris: [ "@jordanjanes", "@mnohr" ]
 owning-stage: "~devops::create"
 participating-stages: []
