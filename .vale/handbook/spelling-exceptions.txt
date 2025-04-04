@@ -789,6 +789,7 @@ namespacings
 Nanoc
 NAT
 Navan
+Navattic
 Navia
 navigations
 negatable
@@ -906,7 +907,9 @@ Postgres
 postgres.ai
 PostgreSQL
 PQLs
+POVs
 Praefect's
+presales
 prebuild
 prebuilds
 precompile
