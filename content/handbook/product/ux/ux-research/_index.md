@@ -190,7 +190,7 @@ The UX Research team is here for you! Reach out in the #ux_research Slack channe
 
 #### Measures and processes the UX Research team is responsible for
 
-- [Product Customer Satisfaction (CSAT) Survey](/handbook/product/ux/performance-indicators/csat/)
+- [User Satisfaction (USAT) Survey](/handbook/product/ux/performance-indicators/usat//)
 - [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/)
   - [System Usability Scale responder outreach](/handbook/product/ux/performance-indicators/system-usability-scale/sus-outreach/)
 - [Assessing Category Maturity](/handbook/product/ux/category-maturity/)
