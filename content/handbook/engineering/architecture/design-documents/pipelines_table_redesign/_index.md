@@ -6,7 +6,8 @@ authors: ["@bsandlin", "@pburdette"]
 coaches: ["@jivanvl"]
 dris: ["@bsandlin", "@pburdette", "@jivanvl"]
 owning-stage: "~devops::verify"
-participating-stages: ["~group::pipeline execution", "~group::pipeline authoring"]
+participating-stages:
+    ["~group::pipeline execution", "~group::pipeline authoring"]
 toc_hide: true
 ---
 
@@ -53,17 +54,20 @@ The primary motivation for redesigning the Pipelines Table UI is to address crit
 - **Enhanced Pipeline Details**: Moving detailed information to a secondary request enables us to build a more robust Pipeline Details component that can include richer visualizations, comprehensive failed jobs information, and more detailed metrics without impacting initial page performance.
 - **Addressing Accumulated UX Issues**: This redesign provides an opportunity to address several long-standing UX issues in a coordinated effort rather than piecemeal fixes. Current tracked UX issues include:
 
-  **High Complexity Issues (Weight 3)**:
+    **High Complexity Issues (Weight 3)**:
+
   - [Improve Pipeline table layout and design](https://gitlab.com/gitlab-org/gitlab/-/issues/321517)
   - [Make pipeline mini-graph representation more user-friendly](https://gitlab.com/gitlab-org/gitlab/-/issues/327900)
 
-  **Medium Complexity Issues (Weight 2)**:
+    **Medium Complexity Issues (Weight 2)**:
+
   - [Add created-at time for running pipelines](https://gitlab.com/gitlab-org/gitlab/-/issues/432373)
   - [Reevaluate the tabs headings on pipeline index page](https://gitlab.com/gitlab-org/gitlab/-/issues/329513)
   - [Make "Triggered by me" pipelines more accessible](https://gitlab.com/gitlab-org/gitlab/-/issues/300256)
   - [Provide project-level configuration options for pipeline displays](https://gitlab.com/gitlab-org/gitlab/-/issues/339651)
 
-  **Lower Complexity Issues (Weight 1)**:
+    **Lower Complexity Issues (Weight 1)**:
+
   - [Add missing tooltips on pipeline and job list view](https://gitlab.com/gitlab-org/gitlab/-/issues/435814)
   - [Add skeleton loader to the pipeline tab on merge requests](https://gitlab.com/gitlab-org/gitlab/-/issues/354074)
   - [Align buttons on the pipeline index page with design system](https://gitlab.com/gitlab-org/gitlab/-/issues/365616)
@@ -124,6 +128,7 @@ By combining these two initiatives into a single coordinated effort, we can achi
 The new design will separate pipeline information into two levels:
 
 1. **List View (Essential Information)**
+
    - Pipeline status and finished timestamp
    - Pipeline ID and name
    - Branch, commit, and MR information
@@ -131,6 +136,8 @@ The new design will separate pipeline information into two levels:
    - Quick actions
 
 2. **Expanded View (Detailed Information)**
+
+   _Appears when user expands a pipeline row_
    - Pipeline mini graph visualization
    - Failed jobs information
    - Duration metrics
@@ -144,23 +151,23 @@ The new design will separate pipeline information into two levels:
 
 The implementation will be phased as follows:
 
-1. **Phase 1: Product Design and GraphQL Schema**
+**Phase 1: Product Design and GraphQL Schema**
 
 - Conduct product design sessions to finalize UI/UX requirements
-- Create wireframes and mockups for both list view and expanded details
+- Create designs for both list view and expanded details
 - Define information hierarchy and user interactions
 - Introduce feature flag
 - Update the GraphQL schema if necessary based on the design requirements
 - Build and test the two query patterns
 
-1. **Phase 2: Frontend Implementation and Testing**
+**Phase 2: Frontend Implementation and Testing**
 
 - Build list view components
 - Build expandable details component
 - Conduct performance testing
 - Conduct user testing
 
-1. **Phase 3: Rollout and Monitoring**
+**Phase 3: Rollout and Monitoring**
 
 - Gradually enable feature flag
 - Monitor performance metrics
@@ -175,9 +182,24 @@ The implementation will be phased as follows:
 
 [This structure will evolve once designs are complete]
 
-- `PipelinesListView` - Container component
-- `PipelineListItem` - Individual pipeline row component
-- `PipelineDetails` - Expandable details component
+ci/pipelines_table/
+├── components/
+│ ├── PipelinesListView.vue # Container component
+│ ├── PipelineListItem.vue # Individual pipeline row component
+│ └── PipelineDetails.vue # Expandable details component
+├── graphql/
+│ ├── fragments/
+│ │ └── pipeline_list_fields.fragment.graphql
+│ ├── queries/
+│ │ ├── project_pipelines.query.graphql
+│ │ ├── merge_request_pipelines.query.graphql
+│ │ ├── commit_pipelines.query.graphql
+│ │ └── pipeline_details.query.graphql
+│ └── subscriptions/ # For future real-time updates
+│ ├── pipeline_statuses.subscription.graphql
+│ └── pipeline_details.subscription.graphql
+├── constants.js
+└── utils.js
 
 ### Key Design Decisions
 
@@ -234,10 +256,10 @@ To establish baseline performance measurements and set clear targets for improve
 
 ### Current Performance Baselines
 
-| Location | Metric | Current Value | Target |
-|----------|--------|--------------|--------|
-| Main Pipelines Page | Average network response time (no filtering) | 1.35 seconds | TBD |
-| Main Pipelines Page | Average network response time (with trigger author/status filter) | 2.38 seconds | TBD |
-| Merge Request Pipelines Tab | Average network response time | 1.64 ms | TBD |
+| Location                    | Metric                                                            | Current Value | Target |
+| --------------------------- | ----------------------------------------------------------------- | ------------- | ------ |
+| Main Pipelines Page         | Average network response time (no filtering)                      | 1.35 seconds  | TBD    |
+| Main Pipelines Page         | Average network response time (with trigger author/status filter) | 2.38 seconds  | TBD    |
+| Merge Request Pipelines Tab | Average network response time                                     | 1.64 ms       | TBD    |
 
 We'll measure the success of this initiative by comparing pre and post-implementation metrics across these dimensions, with specific improvement targets as outlined in the Goals section.
