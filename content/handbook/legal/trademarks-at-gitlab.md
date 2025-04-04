@@ -1,3 +1,4 @@
+
 ---
 title: "Trademarks at GitLab"
 description: "Trademark information for GitLab team members"
@@ -31,6 +32,7 @@ After reviewing the above guidelines, reach out to the Brand Team in [#brand](ht
 1. Locate and download the [Master Authorization Template](/https://docs.google.com/document/d/1utvdSknJ0hm5m0_6T9SkeXaFqJSZgB6w/copy) in GitLab’s G-Drive (Note this is only available to GitLab team members).
 
 1. Send the template to the third party via DocuSign, ensuring that the DocuSign envelope you create requests the following details, which will appear in the signature block of the Authorization:
+
 - Company Name
 - Company Address
 - Email Address for Notices
@@ -62,9 +64,3 @@ If we suspect that a third party is making unauthorized use of the term **GitLab
 ## Third-party Trademarks
 
 For information on use of third-party IP in external materials, see our [Guidelines for Use of Third-party IP in External Materials](/https://handbook.gitlab.com/handbook/legal/ip-public-materials-guidelines/).
-
-
-
-
-
-
