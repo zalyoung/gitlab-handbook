@@ -19,7 +19,7 @@ The Duo Chat group is focused on developing GitLab Duo Chat as a platform by sup
 
 ### Technical Strategy
 
-As our team is developing an LLM-driven Chat application to enhance interactions within the GitLab DevSecOps platform, our technical strategy is focused on estabilishing the key engineering aspects that will ensure its reliability, scalability, and effectiveness. We will expose this through guidelines and tools so contributing teams can benefit. Please see our [Technical Strategy](technical-strategy.html) page for full details. 
+As our team is developing an LLM-driven Chat application to enhance interactions within the GitLab DevSecOps platform, our technical strategy is focused on estabilishing the key engineering aspects that will ensure its reliability, scalability, and effectiveness. We will expose this through guidelines and tools so contributing teams can benefit. Please see our [Technical Strategy](technical-strategy.html) page for full details.
 
 ## 📚 Internal Processes
 
@@ -32,7 +32,7 @@ A host system is a platform where DuoChat is integrated. Below is a list of all 
 | GitLab Web UI | Web-based user interface for DuoChat | https://gitlab.com/gitlab-org/gitlab |
 | VS Code | The Visual Studio Code extension integrating DuoChat | https://gitlab.com/gitlab-org/gitlab |
 | Visual Studio | The Visual Studio extension integrating DuoChat  | https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp |
-| Jetbrains| The JetBrains IDE plugin for DuoChat  |  https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin|
+| JetBrains| The JetBrains IDE plugin for DuoChat  |  https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin|
 
 ### Ownership and Maintenance of DuoChat Integrations
 
