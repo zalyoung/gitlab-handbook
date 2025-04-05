@@ -233,5 +233,5 @@ We opted for the current approach because it leverages our existing infrastructu
 - Replace InfluxDB with Prometheus InfluxDB exporter
   - [MR](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/merge_requests/174)
   - [Issue](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/98)
-- [Shift Left and Right Performance Testing](../shift_left_right_performance/_index.md)
-- [End-to-End Pipeline Monitoring](../../../infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/#test-metrics)
+- [Shift Left and Right Performance Testing](../../../../architecture/design-documents/shift_left_right_performance/_index.md)
+- [End-to-End Pipeline Monitoring](../..//end-to-end-pipeline-monitoring/#test-metrics)
