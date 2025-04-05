@@ -427,18 +427,18 @@
 /content/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-reporting.md @award4
 
 ^[People]
-/content/handbook/company/family-and-friends-day.md @pegan
+/content/handbook/company/family-and-friends-day.md @rallen3
 /content/handbook/company/structure.md @rallen3  @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell
 /content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @jconnors3
-/content/handbook/leadership/underperformance.md @rallen3  @pegan @cbednarz @glucchesi
-/content/handbook/people-group/ @rallen3  @pegan @cbednarz @mpatel8 @cgudgenov
+/content/handbook/leadership/underperformance.md @rallen3 @cbednarz @glucchesi
+/content/handbook/people-group/ @rallen3 @cbednarz @mpatel8 @cgudgenov
 /content/handbook/people-group/celebrations.md @rallen3  @mpatel8
-/content/handbook/people-group/competencies.md @rallen3  @glucchesi @pegan @cbednarz
+/content/handbook/people-group/competencies.md @rallen3 @glucchesi @cbednarz
 /content/handbook/people-group/contracts-probation-periods.md @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
 /content/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
 /content/handbook/people-group/employment-branding/people-communications.md @drogozinski @rallen3
 /content/handbook/people-group/engagement.md @drogozinski @rallen3
-/content/handbook/people-group/employment-solutions.md @pegan @hdevlin
+/content/handbook/people-group/employment-solutions.md @hdevlin @rallen3
 /content/handbook/people-group/engineering/ @anechan
 /content/handbook/people-group/general-onboarding/ @mpatel8 @Mowry @alex_venter @anechan @ashjammers @nutaurus
 /content/handbook/people-group/offboarding/ @rallen3  @mpatel8
@@ -448,27 +448,27 @@
 /content/handbook/people-group/people-compliance/ @cgudgenov
 /content/handbook/people-group/promotions-transfers.md @rallen3  @mpatel8
 /content/handbook/people-group/pronouns.md @klang @ahanselka @lmcnally1
-/content/handbook/people-group/talent-assessment.md @rallen3  @glucchesi @pegan @cbednarz
-/content/handbook/people-group/team-member-relations.md @pegan @atisdale @lyndemeiers @dgoodgame @AndreaWalsh
-/content/handbook/people-group/using-gitlab-at-gitlab.md @rallen3  @glucchesi @pegan @cbednarz
-/content/handbook/people-policies/ @emilyplotkin @pegan @rallen3 
-/content/handbook/people-policies/leave-of-absence/ @dgoodgame @teranay @JacquelineG @pegan @cgudgenov
-/content/handbook/people-policies/leave-of-absence/us.md @dgoodgame @teranay @JacquelineG @pegan @cgudgenov
+/content/handbook/people-group/talent-assessment.md @rallen3 @glucchesi @cbednarz
+/content/handbook/people-group/team-member-relations.md @atisdale @lyndemeiers @dgoodgame @AndreaWalsh @rallen3
+/content/handbook/people-group/using-gitlab-at-gitlab.md @rallen3 @glucchesi @cbednarz
+/content/handbook/people-policies/ @emilyplotkin @rallen3
+/content/handbook/people-policies/leave-of-absence/ @dgoodgame @teranay @JacquelineG @cgudgenov @rallen3
+/content/handbook/people-policies/leave-of-absence/us.md @dgoodgame @teranay @JacquelineG @cgudgenov @rallen3
 /content/handbook/total-rewards/incentives.md @rallen3  @mwilkins @Rkole
 /content/handbook/total-rewards/stock-options.md @rallen3  @mwilkins
-/content/handbook/finance/travel/ @rallen3  @pegan
+/content/handbook/finance/travel/ @rallen3
 /content/handbook/people-group/learning-and-development/team-workshops @tely2 @jwrs @jallen16
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]
-/content/handbook/labor-and-employment-notices/ @pegan @rallen3  @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
-/content/handbook/people-group/anti-harassment.md @anjali_kaufmann @rallen3  @emilyplotkin @pegan @gitlab-com/content-sites @gitlab-com/egroup
-/content/handbook/people-group/relocation.md @rallen3  @pegan @mpatel8 @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/labor-and-employment-notices/ @rallen3 @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/people-group/anti-harassment.md @anjali_kaufmann @rallen3 @emilyplotkin @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/people-group/relocation.md @rallen3 @mpatel8 @gitlab-com/content-sites @gitlab-com/egroup
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Policies required approvals]
-/content/handbook/people-policies/ireland-ltd/ @cgudgenov @emilyplotkin @pegan @rallen3  @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/people-policies/france-sas/ @cgudgenov @emilyplotkin @pegan @rallen3  @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-policies/ireland-ltd/ @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-policies/france-sas/ @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[product]
 /content/handbook/product/ @david
@@ -695,7 +695,7 @@
 ## Job Families that require an approval, near the end to override any optional listing
 [Job Families]
 /content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/egroup @gitlab-com/content-sites
-/content/job-families/people-group/ @rallen3  @pegan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/people-group/ @rallen3 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
 /content/job-families/people-group/candidate-experience.md @rallen3 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
@@ -721,9 +721,9 @@
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/people-group/acceptable-use-policy.md @rallen3  @akramer @emilyplotkin @pegan @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-group/acceptable-use-policy.md @rallen3 @akramer @emilyplotkin @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/offboarding/offboarding_standards.md @rallen3  @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @pegan @rallen3  @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/audit-logging-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites

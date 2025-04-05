@@ -33,12 +33,15 @@ We have put together a comprehensive [training slide deck](https://docs.google.c
 - [Dashboards and Reporting](https://drive.google.com/file/d/1SWb7RiWQ7dZeWXkPu4wBf-mVfB0fm3z7/view?usp=sharing) 
 - [Processing Inbound Requests](https://drive.google.com/file/d/1yGMK4qmw25-9oPeaHByXOnGYkiXbxRsz/view?usp=sharing)
 - [Updating availability (for executive attendees)](https://drive.google.com/file/d/19YqsLddRDBYwhrVn2wNH-xHFOiyvAebL/view?usp=sharing)
-- Managing On-Site Meetings (to be created)
-- Mobile App (to be created)
+- [Managing On-Site Meetings](https://drive.google.com/file/d/1dLb_xCytBSYj4pj41TREDl_M-knT2VqE/view?usp=sharing) 
+- [Mobile App for meeting managers](https://support.cvent.com/s/communityarticle/Using-the-Jifflenow-Mobile-App-for-Meeting-Managers)
+- [Mobile App for attendees](https://support.cvent.com/s/communityarticle/Using-the-Jifflenow-Mobile-App-for-Attendees)
 
 ## Salesforce.com Integration
 
 This connection will allow for Sales to book meetings directly within Salesforce.com and allow JiffleNow to access and link contact records. Meeting requestors can access JiffleNow to schedule meetings through a button on the Contact, Account and Opportunity record.
+
+New records created through Jifflenow (for example, people added onsite) will be created as Leads in salesforce, or meeting details will be added to their existing record. This applies even if the meeting isn't booked through Salesforce.
 
 ### Support
 
@@ -61,11 +64,24 @@ For major events, it is common for other companies to utilize JiffleNow as well,
 
 ## Onsite Event Management
 
-This is WIP - will update once we have more information
+How onsite meeting bookings are handled will be determined event-by-event. It is recommended that the DRI have a meeting with all meeting managers (regardless of if they will be onsite or not) to determine how they would like to manage onsite meetings. For example, for some events, the EBA team would prefer to continue to manage the meeting requests that occur onsite and the onsite team should contact the appropriate EBA for booking.
+
+Regardless of how the team decides to book new meetings onsite, external attendees must be checked in to meetings they attend. 
+
+To check-in an attendee:
+
+- Click on the meeting from the Jifflenow "Meetings" tab.
+- On the right side panel that appears, click "check-in" on the attendee.
+
+This will automatically check in the meeting as well. It is important to check-in the individual attendees so their record in Salesforce is updated properly. The process described above is the same for booth demo check-ins.
+
+When booking a new meeting onsite, you will select the attendees and time following the regular booking process. Meeting managers can use "Quick Submit" to bypass the standard booking form. As a meeting manager, you have the ability to add/remove attendees, or change the duration of the meeting. Detailed instructions will be available in the training videos above or the internal handbook. 
 
 ## Mobile App
 
-This has not yet been configured - will update this page when ready
+To use the mobile app for onsite meeting management, you must be set-up in Okta to access Jifflenow. We recommend the mobile app for onsite meeting managers.
+
+Download the [Jifflenow app](https://www.jifflenow.com/mobile-app-product/) from the appropriate app store for your device.
 
 ## Meeting types
 
