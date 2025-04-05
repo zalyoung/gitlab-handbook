@@ -182,6 +182,7 @@ The implementation will be phased as follows:
 
 [This structure will evolve once designs are complete]
 
+```shell
 ci/pipelines_table/
 ├── components/
 │ ├── PipelinesListView.vue # Container component
@@ -200,6 +201,7 @@ ci/pipelines_table/
 │ └── pipeline_details.subscription.graphql
 ├── constants.js
 └── utils.js
+```
 
 ### Key Design Decisions
 
