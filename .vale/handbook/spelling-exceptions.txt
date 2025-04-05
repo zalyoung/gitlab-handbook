@@ -737,6 +737,7 @@ memoizes
 memoizing
 Memorystore
 mentee
+mentees
 mergeability
 mergeable
 metaprogramming
@@ -974,6 +975,7 @@ RCEs
 Rdoc
 reachability
 readme
+readmes
 Realplayer
 rearchitecting
 reauthenticate
@@ -1268,6 +1270,7 @@ Tesorio
 Thanos
 thoughtbot
 throughputs
+tiering
 Tiller
 timebox
 timeboxed
@@ -1523,3 +1526,11 @@ Zoominfo
 zsh
 Zstandard
 Zuora
+Nasdaq
+Boardvantage
+plushies
+watercooler
+unvested
+automations
+Compensia
+sourcer

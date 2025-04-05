@@ -56,7 +56,7 @@ Prepare a well-designed [remote interview process](/handbook/hiring/candidate-fa
 
 We've published our [hiring process](/handbook/hiring/interviewing), including example screening questions, in our handbook.
 
-While this may be unique, we see it as simply staying true to our [transparency value](values#transparency). The process shouldn't be a mystery.
+While this may be unique, we see it as simply staying true to our [transparency value](/handbook/values/#transparency). The process shouldn't be a mystery.
 
 Letting candidates know what to expect allows them to focus on whether the role and the company are right for them, while we evaluate that too.
 
@@ -141,7 +141,7 @@ Having prior experience working remotely is appreciated, but even more are attri
 
 #### Self-awareness
 
-Self-awareness and agile thinking are required to thrive in an all-remote setting. One way to screen for this is to test a candidate's ability to perform *thinking writing*, as described in [this Hacker News thread](https://news.ycombinator.com/item?id=24801098). Thinking writing is the ability to draft ideas, then read them, modify them, change their order, remove some, refine/add others, and share with everyone through a [low level of shame](values#low-level-of-shame).
+Self-awareness and agile thinking are required to thrive in an all-remote setting. One way to screen for this is to test a candidate's ability to perform *thinking writing*, as described in [this Hacker News thread](https://news.ycombinator.com/item?id=24801098). Thinking writing is the ability to draft ideas, then read them, modify them, change their order, remove some, refine/add others, and share with everyone through a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding).
 
 Other qualities unique to a remote workplace are:
 

@@ -204,19 +204,14 @@ Review the [CEO's calendar](#ceos-calendar) to get an idea of what your upcoming
 
 #### Review the CEO Handbook
 
-The CEO has a [section in the handbook](/handbook/ceo/) that details processes and workflows specific to him as well as his background, communication style, strengths, and flaws. Take time to invest in your relationship with him upfront by reviewing this part of the handbook. Here are some helpful sections:
-
-1. [Communication](/handbook/ceo/#communication)
-1. [Pointers from direct reports](/handbook/ceo/#pointers-from-ceo-direct-reports)
-1. [Strengths](/handbook/ceo/#strengths)
-1. [Flaws](/handbook/ceo/#flaws)
+The CEO has a [section in the handbook](/handbook/ceo/) that details processes and workflows specific to him as well as his background, communication style, strengths, and flaws. Take time to invest in your relationship with him upfront by reviewing this part of the handbook.
 
 #### Review acronyms
 
 If you're not familiar with some of the business acronyms, take a bit of time to review them. The [Product Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/) handbook page has some useful acronyms as well as concepts you're likely to come across.
 
 - [KPI (Key Performance Indicator)](/handbook/company/kpis/#what-are-kpis)
-- [OKRs (Objectives and Key Results)](/handbook/company/okrs/#what-are-okrs)
+- [OKRs (Objectives and Key Results)](/handbook/company/okrs/)
 - Product performance indicators such as [CMAU (Combined Monthly Active User) (Internal link)](https://internal.gitlab.com/handbook/company/performance-indicators/product/#estimated-combined-monthly-active-users-cmau) and [SpU (Stages per User) (Internal link)](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stages-per-user-spu)
 - [Revenue definitions (Internal link)](https://internal.gitlab.com/handbook/sales/sales-glossary/) such as [ARR (Annual Recurring Revenue) (Internal link)](https://internal.gitlab.com/handbook/sales/annual-recurring-revenue-arr/)
 - Other business terminology may come up. [Wall Street Oasis Finance Dictionary](https://www.wallstreetoasis.com/finance-dictionary#DicT) is a handy guide.
@@ -363,7 +358,7 @@ When attending **external meetings**, notify the CEO in a private Zoom chat mess
 
 In internal meetings, `I think` can be used to signal opportunity for others to present a contrasting opinion.
 
-Also send a private Zoom chat message when the [CEO displays other flawed behavior](/handbook/ceo/).
+Also send a private Zoom chat message when the CEO displays other flawed behavior.
 
 #### Share thanks
 
@@ -425,7 +420,7 @@ A tweet storm is a series of X/Twitter posts usually made as replies in a single
 1. Draft 2-5 tweets for a 30 minute video, and up to 10 tweets for a 1 hour video.
    1. The first tweet should hook the audience, pose a question, or state how GitLab does something different.
    1. Attribute any lines that are not spoken by the CEO.
-   1. Consider [looking at the CEO's social media accounts for tone and style](/handbook/ceo/#connecting-on-social-media).
+   1. Consider looking at the CEO's social media accounts for tone and style.
    1. Each tweet can contain 280 characters, URLs are counted differently. Make sure to test each tweet with the Twitter web form to tweet.
    1. When you add URLs, use the [card validator](https://cards-dev.twitter.com/validator) to render a preview. This can help to refine the tweet text.
    1. More message tips can be found in the [Developer Advocacy on Social Media handbook](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips).
@@ -580,7 +575,7 @@ If the CEO records a video to the cloud in a meeting it will eventually end up b
 
 When attending events with the CEO, keep the following in mind:
 
-1. The CEO has outlined his [transport preferences](/handbook/ceo/#transport).
+1. The CEO has outlined his transport preferences.
 1. When traveling to events in the Bay Area by car, the CEO will request the ride sharing service.
 1. When traveling to events on foot, CEO Shadows should take responsibility for navigating to the event.
 1. After a talk or panel, be ready to help the CEO navigate the room, particularly if there is a time-sensitive obligation after the event.

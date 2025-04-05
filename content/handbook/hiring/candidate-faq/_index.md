@@ -99,7 +99,7 @@ Feel free to ask your Recruiter which type of interview you can expect.
 
 During the [reference](#references) stage in the interview process, candidates will get the option to speak with a GitLab team member who is a member of our [Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/#definition-of-the-tmrg---team-member-resource-groups) (TMRGs) to learn about what it's like working at GitLab from someone who they can relate to.
 
-When you receive a reference form, you will have the option to opt-in for a conversation with a member of the [TMRG](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels) of your choice. Our Candidate Experience team (CES) will then reach out and coordinate this Zoom call for you. You can also read about how we [field this request](/handbook/company/culture/inclusion/talent-acquisition-initiatives/#speaking-with-tmrg-members-in-the-hiring-process).
+When you receive a reference form, you will have the option to opt-in for a conversation with a member of the [TMRG](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels) of your choice. Our Candidate Experience team (CES) will then reach out and coordinate this Zoom call for you. You can also read about how we [field this request](/handbook/company/culture/inclusion/talent-acquisition-initiatives/#speaking-with-tmrg-members-in-the-hiring-process).
 
 ### Interview Process FAQs
 
@@ -174,7 +174,7 @@ Please note that not every member of the team will be observing that holiday, so
 1. If you need to reschedule, follow the special instructions in your confirmation email if the interview is within 24 hours. You can also email ces@gitlab.com anytime.
 {{% /details %}}
 
-### GitLab's interview recording policy 
+### GitLab's interview recording policy
 
 As part of our commitment to creating an open and comfortable interview environment, interviews may not be recorded in any format. This policy helps ensure authentic conversations and protects the privacy of all participants.
 

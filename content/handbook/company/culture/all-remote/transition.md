@@ -99,7 +99,7 @@ Clear and proactive internal communication is essential to removing fear and ins
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to company-wide documentation.*
 
 > I think [documentation](handbook-first/) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
@@ -181,7 +181,7 @@ Added care must be taken to ensure that the usual [downsides of hybrid-remote](h
 
 Above all, a company which intends to begin hiring remotely (or allowing existing employees to optionally transition from colocated to remote) **must structure the company as if every single team member were remote**.
 
-This means that any hallway conversations must be documented and disseminated for all who were not present to hear, and it means that in-office workers must each use a single webcam and microphone to join a group call (as opposed to in-office colleagues [gathering in a conference room with a sole camera](/handbook/communication/#hybrid-calls-are-horrible)).
+This means that any hallway conversations must be documented and disseminated for all who were not present to hear, and it means that in-office workers must each use a single webcam and microphone to join a group call (as opposed to in-office colleagues [gathering in a conference room with a sole camera](/handbook/communication/#hybrid-calls-are-annoying)).
 
 It means, for example, that colleagues who are sitting side-by-side must use a public Slack channel to communicate, as vocalizing a conversation would be unfair to team members who are remote.
 
