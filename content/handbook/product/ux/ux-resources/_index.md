@@ -9,7 +9,7 @@ This page includes information about UX Resources to help you do your job. It is
 
 - [Product Designer workflows](/handbook/product/ux/product-designer/)
 - [UX Researcher workflows](/handbook/product/ux/ux-research/)
-- [Technical Writing workflows](/handbook/product/ux/technical-writing/workflow/)
+- [Technical Writing workflows](https://docs.gitlab.com/development/documentation/workflow/)
 
 ## UX Department Google Calendar
 

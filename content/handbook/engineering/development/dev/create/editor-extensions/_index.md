@@ -100,7 +100,7 @@ We use the [Editor Extensions Priority Board](https://gitlab.com/groups/gitlab-o
 to track the relative [priority of issues](/handbook/product/product-processes/#boards). Issues at the top of a column have the highest priority.
 
 Separately, the technical writer for this group also triages open issues for potential documentation and UI text changes,
-and follows the Technical Writing [triage process](/handbook/product/ux/technical-writing/workflow/#documentation-feedback-and-improvements). After review, each issue receives the `~tw::triaged` label.
+and follows the Technical Writing [triage process](https://docs.gitlab.com/development/documentation/workflow/#documentation-feedback-and-improvements). After review, each issue receives the `~tw::triaged` label.
 
 #### Technical debt
 
