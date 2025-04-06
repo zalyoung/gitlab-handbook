@@ -183,7 +183,7 @@ When a Technical Writer [is on PTO](#technical-writer-pto), the whole team acts 
 
 ### Stage leads
 
-Some Technical Writers are assigned as [stage leads](/handbook/product/ux/technical-writing/workflow/#stage-leads) for a given [DevOps stage](/handbook/product/categories/#devops-stages):
+Some Technical Writers are assigned as [stage leads](https://docs.gitlab.com/development/documentation/workflow/#stage-leads) for a given [DevOps stage](/handbook/product/categories/#devops-stages):
 
 | Stage            | Assigned stage lead |
 |:-----------------|:--------------------|
