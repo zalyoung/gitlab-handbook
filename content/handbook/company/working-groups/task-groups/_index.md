@@ -77,7 +77,7 @@ task forward.
    expectations for their deliverables within the Task Group. They should manage
    their time and capacity and quickly escalate if they feel unable to serve in
    or deliver in their role.
-1. It is highly recommended that anyone in the Task Group with [OKRs](/company/okrs/) aligns them to the effort.
+1. It is highly recommended that anyone in the Task Group with [OKRs](/handbook/company/okrs/) aligns them to the effort.
 
 ## Process
 

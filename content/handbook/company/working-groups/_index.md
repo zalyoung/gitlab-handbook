@@ -194,7 +194,6 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [HPT in Product Division](/handbook/company/working-groups/hpt-product-division/)
 1. [Keep around references](/handbook/company/working-groups/keep-around-refs/)
 1. [Product Accessibility](/handbook/company/working-groups/product-accessibility/)
-1. [Python Stewardship](/handbook/company/working-groups/python-stewardship/)
 1. [Secure Govern Database Decomposition](/handbook/company/working-groups/secure-govern-database-decomposition/)
 1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
 
@@ -275,6 +274,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Product Engagement Actions (FY21)](FY21-product-engagement-actions.md)
 1. [Project Matterhorn: Premium Price Tier Increase. Limited access](/handbook/communication/confidentiality-levels/#limited-access)
 1. [Purchasing Reliability](/handbook/company/working-groups/purchasing-reliability/)
+1. [Python Stewardship](/handbook/company/working-groups/python-stewardship/)
 1. [Rate Limit Architecture](/handbook/company/working-groups/rate-limit-architecture/)
 1. [Real-Time](/handbook/company/working-groups/real-time/)
 1. [Revenue Globalization](/handbook/company/working-groups/globalization/)

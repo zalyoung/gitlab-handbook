@@ -25,7 +25,7 @@ This is not an exhaustive list. For anything else you believe the Support team c
 
 ## GitLab Support's Purpose
 
-GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/it/end-user-services/self-help-troubleshooting/).
+GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/it/end-user-services/).
 
 ## Should I Contact GitLab Support?
 
@@ -64,7 +64,7 @@ There are several reasons why Support cannot respond to customer-specific reques
 
 - We aim to meet the [Service Level Agreement](https://about.gitlab.com/support/#service-level-agreements) (SLA) each time we help a customer, and we only track SLA compliance via Zendesk.
 - Zendesk has a ticket assignment system which is vital to our workflow. We have no system to assign tickets in Slack.
-- When we are trying to solve a current customer problem, we frequently [search resolved tickets in Zendesk](/handbook/support/readiness/operations/docs/zendesk/searching/). Since Slack content is deleted after 90 days, we may lose valuable information if a customer's problem and/or the solutions to it are discussed in Slack instead of a Zendesk ticket.
+- When we are trying to solve a current customer problem, we frequently search resolved tickets in Zendesk. Since Slack content is deleted after 90 days, we may lose valuable information if a customer's problem and/or the solutions to it are discussed in Slack instead of a Zendesk ticket.
 - We want to keep all of our records of a customer's technical support problems and their solutions in a single place (Zendesk).
 
 If you want to request that we place additional attention on an **existing** ticket or internal request, please use the [Support Ticket Attention Request Form](https://gitlab-com.gitlab.io/support/toolbox/forms_processor/support_escalation/) ([handbook entry](/handbook/support/internal-support/support-ticket-attention-requests)).
@@ -124,7 +124,7 @@ For local or sandbox testing purposes, GitLab team members can provision their o
 
    1. Sign in to the [staging Customers Portal](https://customers.staging.gitlab.com) by selecting the **Continue with GitLab.com account** button.
       If you do not have an existing account, you are prompted to create one.
-   1. If you do not have an existing cloud activation code, visit the purchase page for the subscription you'd like to select. The staging Customers Portal links will redirect to a pricing page, so you must navigate directly to the purchase URL. The full list of URLs for staging subscriptions are documented [here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/flows/self_service_flow_urls.md#new-subscription-purchase-links). If you aren't sure which subscription you'd like, **Self-Managed Ultimate** is a good default. 
+   1. If you do not have an existing cloud activation code, visit the purchase page for the subscription you'd like to select. The staging Customers Portal links will redirect to a pricing page, so you must navigate directly to the purchase URL. The full list of URLs for staging subscriptions are documented [here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/flows/self_service_flow_urls.md#new-subscription-purchase-links). If you aren't sure which subscription you'd like, **Self-Managed Ultimate** is a good default.
    1. Purchase the subscription using [a test credit card](https://gitlab.com/gitlab-org/customers-gitlab-com/#testing-credit-card-information).
 
   Note that both this is a **staging license**, so you must configure your GitLab instance to use the staging Customers Portal. For an Omnibus install, [here](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) is how you point to staging Customers Portal. For GDK, set `export CUSTOMER_PORTAL_URL=https://customers.staging.gitlab.com` in [`env.runit`](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/runit.md).
@@ -134,7 +134,7 @@ If for some reason self-provisioning is not working, team members should request
 
 If a GitLab team member would like an Ultimate license for GitLab.com, there are two options:
 
-1. Request an Ultimate group license for demo purposes through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GitlabCom_Licensed_Demo_Group_Request). 
+1. Request an Ultimate group license for demo purposes through an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=GitlabCom_Licensed_Demo_Group_Request).
 1. [Request an Ultimate license for your personal namespace](/handbook/total-rewards/incentives/#gitlab-ultimate).
 
 ### Contacting users about GitLab incidents or changes

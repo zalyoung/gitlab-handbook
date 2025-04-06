@@ -6,7 +6,7 @@ title: "Zendesk for GitLab Developer Relations"
 
 ![Mentions in Zendesk](/images/handbook/marketing/developer-relations/zendesk.jpg)
 
-The Developer Relations team uses a [dedicated Zendesk instance](https://gitlab-community.zendesk.com/) to centralize the management of relevant community mentions, and to process Education Program, Open Source Program, and Startup Program applications and requests. This instance is separate from [other Zendesk instances GitLab uses](/handbook/support/readiness/operations/docs/zendesk/#instances).
+The Developer Relations team uses a [dedicated Zendesk instance](https://gitlab-community.zendesk.com/) to centralize the management of relevant community mentions, and to process Education Program, Open Source Program, and Startup Program applications and requests. This instance is separate from other Zendesk instances GitLab uses.
 
 The majority of cases in Zendesk are routed there via [Zapier automation](/handbook/marketing/developer-relations/workflows-tools/zapier/), or a native Zendesk integration.
 

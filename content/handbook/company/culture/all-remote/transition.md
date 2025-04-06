@@ -126,7 +126,7 @@ The ability to charge forward and deliver capabilities is a combination of a few
 - Freedom to experiment without consensus
 - Monitoring and clean-up to manage resources and costs
 
-Attempting to transition to a remote working environment while maintaining the gatekeeping effects of the system administrators and security teams may hinder aspirational values such as [bias for action](/handbook/values/#bias-for-action). Do not provide access to sensitive data sets or applications to unverified vendors or take any unnecessarily risky approaches, but try to shrink guard rails and take inventory of what is *truly* sensitive and/or confidential.
+Attempting to transition to a remote working environment while maintaining the gatekeeping effects of the system administrators and security teams may hinder aspirational values such as [bias for action](/handbook/values/#operate-with-a-bias-for-action). Do not provide access to sensitive data sets or applications to unverified vendors or take any unnecessarily risky approaches, but try to shrink guard rails and take inventory of what is *truly* sensitive and/or confidential.
 
 Leadership must foster creativity and intentionally seek progressive, [two-way door](/handbook/values/#make-two-way-door-decisions) approaches. Once a technique or application is proving itself out in the experimental phase, mature it with security evaluations and reliability. Importantly, any experiments that don't pan out won't have wasted months or years.
 

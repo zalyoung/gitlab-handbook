@@ -48,7 +48,13 @@ The Slack command triggers SIRT's Escalation Workflow. You will be sent a link t
 
 For more information on how the form is processed and labels are assigned, consult SIRT's [incident classification](/handbook/security/security-operations/sirt/severity-matrix/) methodology.
 
-The workflow uses your answers to create a new issue and track the reported incident. Please provide as many details as possible when answering the open questions to aid the SEOC in their investigation of the incident. If you do not receive a link to the incident issue, please contact a SIRT engineer.
+The workflow uses your answers to create a new issue and track the reported incident. Please provide as many details as possible when answering the open questions to aid the SEOC in their investigation of the incident. If you do not receive a link to the incident issue, please contact a SIRT engineer (see next paragraph).
+
+For small requests like an indication if something is a security issue, questions on ongoing incidents or SIRT FYIs, team members can use:
+
+- @sirt-oncall
+
+This taggs the current on call engineer. 
 
 If the security incident prevents you from accessing Slack:
 

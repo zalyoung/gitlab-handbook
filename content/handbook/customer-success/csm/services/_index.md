@@ -24,7 +24,7 @@ There are 7 pillars that we have identified as crucial for success as CSMs. It i
 - Relationship-building
   - Both customers and internal team members trust you
 - Proactivity
-  - You don't wait to be told what to do, you have [short toes](/handbook/values/#short-toes) and a [bias for action](/handbook/values/#bias-for-action), and you plan for customer strategy in collaboration with your go-to-market team.
+  - You don't wait to be told what to do, you have [short toes](/handbook/values/#short-toes) and a [bias for action](/handbook/values/#operate-with-a-bias-for-action), and you plan for customer strategy in collaboration with your go-to-market team.
 - Assertiveness
   - You are comfortable telling customers what they need to do as their trusted advisor, as well as working internally to get what you need from others
 - Perceptiveness

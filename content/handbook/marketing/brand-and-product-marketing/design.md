@@ -22,7 +22,7 @@ As stewards of the [GitLab brand](https://design.gitlab.com/resources), our goal
 
 *Where we're going*
 
-The GitLab Brand Design team will elevate the brand beyond the logo and visuals - positioning ourselves as experts in brand strategy and behavior (how the brand presents itself, how it's perceived, and what makes it authentic)
+The GitLab Brand Design and Video teams will elevate the brand beyond the logo and visuals - positioning ourselves as experts in brand strategy and behavior (how the brand presents itself, how it's perceived, and what makes it authentic)
 
 ### Mission
 
@@ -32,7 +32,9 @@ Create simple, effective, and intentional brand experiences by solving complex p
 
 ## Requesting Support
 
-Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request. 
+
+For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/). 
 
 ### Brand Design & Video Issue Templates
 
@@ -122,12 +124,12 @@ Please use [this issue when requesting an update to an existing video or edits t
 
 #### Contacting the team
 
-The best way to get in contact with the Brand design team is to fill out one of the above issue templates with your request, or to:
+The best way to get in contact with the Creative team is to fill out one of the above issue templates with your request, or to:
 
 - Use the @gl-design tag in GitLab issues and epics for visibility.
 - @-mention individuals from the team in GitLab issues and epics.
 - Ask your question in the #marketing-design Slack channel.
-- For video specific questions or assistance, please reach out in the #brand_video Slack channel.
+- For video specific questions or assistance, please reach out in the `#brand_video` Slack channel.
 
 ### Working with the brand
 
@@ -195,7 +197,7 @@ Artwork that draws inspiration from or is based on GitLab's intellectual propert
 - Do not create or share any Fanart that is potentially offensive or otherwise detrimental to GitLab's brand or any other brand.
 - Do not combine Fanart with other companies' materials or anything else unrelated to GitLab.
 
-If you have questions, reach out to the Brand Design and Brand Strategy teams in the `#brand` Slack channel.
+If you have questions, reach out to the Brand Creative and Brand Strategy teams in the `#brand` Slack channel.
 
 ## Canva best practices
 
@@ -323,7 +325,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 ### Team workflow
 
 - **Team check-ins:** We have two recurring team syncs: (1) Monday [Brand Creative hours](https://docs.google.com/document/d/1SOxh6UPZ7n0oGUdxc1p4CggCXbz-uLzQN8DL-_AUEMg/edit?usp=sharing) call where we catch up and talk about work for the upcoming week. (2) Wednesday Brand Creative hours call where we get feedback on projects and collaborate on topics that need to be addressed.
-- **Working in issues:** All design requests should use our [issue templates](/design/#brand--marketing-design-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team’s triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
+- **Working in issues:** All design requests should use our [issue templates](#brand-design--video-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team’s triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
   - Note: Everyone can see their personalized board by selecting the drop-down option where it currently says "Brand Design TRIAGE Board" on the left of the search bar.
   - Note: Epics can be viewed on the [Epic board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/epic_boards).
 - **Collaborating together:** We work together as a team by playing to each of our strengths. Work is usually triaged out to team members whose design skills fit the request, or we collaborate together on a project using our combined talents.

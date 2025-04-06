@@ -164,6 +164,7 @@ Prior to the start of a new quarter, the team will spend time refining the epic 
 - Exit criteria (break down the work into smaller, logical chunks and highlight dependencies and predecessors)
 
 When the above information is being added, the Epic will move from Triage to Ready status. The goal is to start each quarter with our planned roadmap items for that quarter in the Ready list.
+
 </details>
 
 ### Engagement Model

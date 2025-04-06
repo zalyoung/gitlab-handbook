@@ -84,9 +84,24 @@ The following tools can be helpful:
 - [Private Grafana](https://dashboards.gitlab.net/): for both application and system level performance data.
 - [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html): type `pb` in GitLab and a bar with performance metrics will show up at the top of the page. This tool is especially useful for viewing the queries executed and their timings.
 
+If you have identified a Postgres Performance Problem and want to dive deeper, we reccomend these runbooks and dashboards. They are best used together, with the runbooks explaining how to understand the dashboards.
+
+Dashboards: 
+
+- [Postgres node performance overview (high-level)](https://dashboards.gitlab.net/d/postgres-ai-node-performance-overview)
+- [Postgres aggregated query performance analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_02)
+- [Postgres single query performance analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_03)
+- [Postgres wait events analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_04)
+
+Runbooks:
+
+- [High-level performance analysis and troubleshooting of a Postgres node](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/single-node-high-level.md?ref_type=heads)
+- [Postgres wait events analysis (a.k.a. Active Session History; ASH dashboard)](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/wait-events-analisys.md)
+- [SQL query analysis and optimization for Postgres](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/query-analysis.md)
+
 ### Dashboards
 
-The following (private) Grafana dashboard are important / useful for database specialists:
+The following (private) Grafana dashboards are important / useful for database specialists:
 
 - [PostgreSQL Overview](https://dashboards.gitlab.net/d/000000144/postgresql-overview?orgId=1&var-prometheus=Global&var-environment=gprd&var-type=patroni)
 - [Patroni Overview](https://dashboards.gitlab.net/d/patroni-main/patroni-overview?orgId=1)
@@ -98,6 +113,10 @@ The following (private) Grafana dashboard are important / useful for database sp
 - [PostgreSQL Disk IO](https://dashboards.gitlab.net/d/pEfSMUhmy/postgresql-disk-io?orgId=1&var-environment=gprd&var-prometheus=Global&var-type=patroni&var-node=patroni-main-2004-01-db-gprd.c.gitlab-production.internal&from=now-7d&to=now)
 - [Host stats](https://dashboards.gitlab.net/d/bd2Kl9Imk/host-stats?orgId=1)
 - [Tuple Statistics](https://dashboards.gitlab.net/d/000000167/postgresql-tuple-statistics?from=now-3h&to=now&var-prometheus=Global&var-environment=gprd&var-type=patroni&orgId=1&refresh=5m)
+- [Postgres node performance overview (high-level)](https://dashboards.gitlab.net/d/postgres-ai-node-performance-overview)
+- [Postgres aggregated query performance analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_02)
+- [Postgres single query performance analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_03)
+- [Postgres wait events analysis](https://dashboards.gitlab.net/d/postgres-ai-NEW_postgres_ai_04)
 
 ### Documentation
 

@@ -100,4 +100,7 @@
 /handbook/engineering/infrastructure/technical-program-management/ /handbook/engineering/infrastructure/ 301
 
 # Update Earth Month file - remove 2025-06-25
-/handbook/legal/esg/earth-month/index.html/ /handbook/legal/esg/earth-month/ 301 
+/handbook/legal/esg/earth-month/index.html/ /handbook/legal/esg/earth-month/ 301
+
+# Organization filename cleanup - remove 2025-06-26
+/handbook/engineering/architecture/design-documents/organization/organization-faq/ /handbook/engineering/architecture/design-documents/organization/faq/ 301

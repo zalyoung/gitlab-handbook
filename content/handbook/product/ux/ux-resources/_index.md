@@ -66,7 +66,7 @@ We use the JTBD framework for viewing products and solutions in terms of the job
 
 - [JTBD Overview](/handbook/product/ux/jobs-to-be-done/)
 - [JTBD Deep Dive](/handbook/product/ux/jobs-to-be-done/)
-- [Mapping JTBD](/handbook/product/ux/jobs-to-be-done/mapping-jobs-to-be-done/)
+- [Mapping JTBD](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/)
 
 ### Design Reviews
 

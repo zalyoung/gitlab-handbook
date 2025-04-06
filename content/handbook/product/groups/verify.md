@@ -24,7 +24,7 @@ Verify teams:
 - [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
 - [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
 - [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
-- [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
+- [Verify:Pipeline Security](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/)
 
 ### What do y'all do?
 

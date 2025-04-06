@@ -128,7 +128,7 @@ If your Group Conversation is optional and you need to move the date, please wor
 | [Security](/handbook/security/) | Josh Lemos | Yes | Quarterly| | EBA to Security |
 | [Development](/handbook/engineering/development/) | Tim Zallmann | Yes | Quarterly | | EBA to Engineering |
 | [Alliances](/handbook/alliances/) | Nima Badiey | No | Quarterly | | EBA to VP of Alliances |
-| [IT](/handbook/business-technology/it) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
+| [IT](/handbook/business-technology/) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
 | [Data](/handbook/enterprise-data/) | Amie Bright | Yes | Quarterly | | EBA to VP of Business Technology |
 
 ## Current Schedule

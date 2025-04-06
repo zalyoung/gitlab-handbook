@@ -13,7 +13,7 @@ Dive into our analytics by exploring the specific data sources that underpin our
 
 - [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) data is used for reporting on metrics like MR Rate & Performance KPIs
 - [Workday](Workday) is GitLab's current central HRIS and we use this data to determine which group a team member is a part of.
-- [Zendesk](/handbook/support/readiness/operations/docs/zendesk/) data is used to fuel Customer Support metrics.
+- Zendesk data is used to fuel Customer Support metrics.
 
 ## Data Models
 

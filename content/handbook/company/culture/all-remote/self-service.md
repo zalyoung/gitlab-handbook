@@ -65,7 +65,7 @@ The ideal response to learning a new answer at GitLab is to document said answer
 1. [Ambitious](/handbook/values/#ambitious)
 1. [Ownership](/handbook/values/#ownership)
 1. [Sense of urgency](/handbook/values/#sense-of-urgency)
-1. [Bias for action](/handbook/values/#bias-for-action)
+1. [Bias for action](/handbook/values/#operate-with-a-bias-for-action)
 
 ## Why is self-searching and self-learning uncomfortable at first?
 

@@ -26,7 +26,7 @@ See [what to do when the ASE is unavailable](#when-the-ase-is-unavailable) and
 ### New emergency tickets
 
 Regardless of when an emergency request is submitted by an ASE's account,
-the [DRI](/handbook/people-group/directly-responsible-individuals.html)
+the [DRI](/handbook/people-group/directly-responsible-individuals/)
 for the emergency is the
 [on-call support engineer](../../../workflows/customer_emergencies_workflows/).
 The only process change is that the on-call support engineer

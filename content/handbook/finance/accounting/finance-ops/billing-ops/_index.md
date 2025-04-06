@@ -240,7 +240,7 @@ Where does GitLab currently charge tax on sales?
 
 Internal Resource: [VAT & Sales Tax Information & Resources](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/VAT%20&%20Sales%20Tax%20Information%20&%20Resources)
 
-See also: [The GitLab Tax Team](/handbook/tax)
+See also: [The GitLab Tax Team](/handbook/finance/tax/)
 
 </details>
 
