@@ -127,7 +127,7 @@ flowchart TB
 
 #### Organizing the work
 
-We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
+We generally follow the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary):
 
 1. `workflow::problem validation` - needs clarity on the problem to solve
 1. `workflow::design` - needs a clear proposal (and mockups for any visual aspects)
@@ -147,7 +147,7 @@ Generally speaking, issues are in one of two states:
 
 Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/#features).
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ##### Measuring the value of the team deliverables
 

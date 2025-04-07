@@ -40,6 +40,7 @@ Dusek
 Dybenko
 Dzalbo
 Egan
+Evangelista
 Falor
 Farris
 Gabe
@@ -94,6 +95,7 @@ Ogunbowale
 Orrino
 Pazitny
 Pedowitz
+Pesta
 Pilar
 Plotkin
 Pouliquen
@@ -150,6 +152,8 @@ Waldner
 Wawrzyniak
 Whitestone
 Wiebers
+Wildpaner
 Wiskow
 Yetter
 Yu
+Zallmann

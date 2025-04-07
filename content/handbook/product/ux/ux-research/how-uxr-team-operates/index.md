@@ -61,7 +61,7 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 
 ## How UX Researchers work
 
-1. We collaborate with Product Designers, Product Managers, and Engineers to collectively determine what areas to conduct research on. The UX Research department works within the [Product Development Flow](/handbook/product-development-flow/#overview--philosophy) as they partner with Product Management and Product Design.  Additional details can be found [here](/handbook/product/ux/ux-research/research-prioritization/) on how UX Reseachers prioritize research projects.
+1. We collaborate with Product Designers, Product Managers, and Engineers to collectively determine what areas to conduct research on. The UX Research department works within the [Product Development Flow](/handbook/product-development/product-development-flow/#overview--philosophy) as they partner with Product Management and Product Design.  Additional details can be found [here](/handbook/product/ux/ux-research/research-prioritization/) on how UX Reseachers prioritize research projects.
 1. We follow a [priortization process](/handbook/product/ux/ux-research/research-prioritization/) that helps us distribute our time effectively across the research projects occurring within our stage groups.
 1. Like other departments at GitLab, UX Researchers follow the [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline) and use milestones to schedule their work. Milestones change monthly ([find out the dates for upcoming milestones](https://gitlab.com/groups/gitlab-org/-/milestones)).
 
@@ -82,7 +82,7 @@ UX Researchers have the following guidance on how they should be spending their 
 
   - If capacity allows, UX Researchers can help with conducting solution validation research.
 
-Product Managers and Product Designers follow the steps in the [Validation phase 4](/handbook/product-development-flow/#validation-phase-4-solution-validation) when planning and executing solution validation research.
+Product Managers and Product Designers follow the steps in the [Validation phase 4](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation) when planning and executing solution validation research.
 
 - **[~60% Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)** - Researchers spend more than half of their time working with Product Managers conducting Problem Validation research, with the long-term goal of investing their time towards training and mentoring.
 
