@@ -24,7 +24,7 @@ The main goal of this design document is to improve the architecture and maintai
 
 ## Motivation
 
-Every time a new Product/SKU is added to the Zuora Product Catalog, even if the local copy is refreshed, it requires code changes in CustomersDot to make it available. This is due to the current strategy the `Plan` class uses for classification, which consists of assigning the `Zuora::ProductRatePlan` IDs to constants and then manually forming groups of IDs to represent different categories like all plans in the Ultimate tier or all the add-ons available for self-procurement for GitLab.com. These categories are then used for decision-making during execution.
+Every time a new Product/SKU is added to the Zuora Product Catalog, despite having a daily refreshed local copy, it requires code changes in CustomersDot to make it available. This is due to the current strategy the `Plan` class uses for classification, which consists of assigning the `Zuora::ProductRatePlan` IDs to constants and then manually forming groups of IDs to represent different categories like all plans in the Ultimate tier or all the add-ons available for self-procurement for GitLab.com. These categories are then used for decision-making during execution.
 
 As the codebase and number of products grow, this manual intervention becomes more expensive.
 
@@ -77,37 +77,28 @@ sequenceDiagram
 
 ### New Custom Fields
 
-All first 12 fields below are proposed as custom fields to be added at the `ProductRatePlan` level:
-
-| Field Name | Data Type | Values | Description |
-|------------|-----------|--------|-------------|
-| **CDotAccessible__c** | Boolean | `true`, `false` | Indicates whether a plan is accessible within CustomersDot. Plans marked `true` are displayed to users and their details can be viewed, regardless of purchase origin. Plans marked `false` exist in Zuora but are completely invisible in CustomersDot. |
-| **CDotManageable__c** | Boolean | `true`, `false` | Indicates whether management actions (renewals, modifications) are available for this plan in CustomersDot. These plans can be serviced through CustomersDot even if they weren't purchased there. |
-| **CDotPurchasable__c** | Boolean | `true`, `false` | Indicates whether a plan is available for self-service purchase directly through CustomersDot without sales assistance. Plans marked `true` appear in the web store and can be purchased online. |
-| **PlanStatus__c** | String | `active`, `deprecated`, `legacy`, `not_applicable` | Represents the lifecycle stage of a plan: <br>• `active`: Currently salable and fully supported plans<br>• `deprecated`: Plans being phased out but still available to existing customers<br>• `legacy`: Historical plans maintained only for existing subscriptions<br>• `not_applicable`: Special cases where status concept doesn't apply |
-| **IsTrueUp__c** | Boolean | `true`, `false` | Identifies true-up plans, which are special product rate plans used to reconcile usage beyond what was initially purchased. |
-| **IsEcosystem__c** | Boolean | `true`, `false` | Indicates if a plan is part of the GitLab Ecosystem offering. |
-| **IsUsPubSec__c** | Boolean | `true`, `false` | Identifies plans specifically designed for US Public Sector customers. |
-| **AddOnType__c** | String | `ci_minutes`, `storage`, `duo_pro`, `duo_enterprise`, `agile_planning`, `product_analytics`, `amazon_q`, `professional_services`, `not_applicable` | Categorizes add-on products that supplement main subscription plans:<br>• `ci_minutes`: Additional CI/CD pipeline minutes<br>• `storage`: Additional repository storage<br>• `duo_pro`: GitLab Duo Pro AI capabilities<br>• `duo_enterprise`: GitLab Duo Enterprise AI capabilities<br>• `agile_planning`: Enterprise Agile Planning features<br>• `product_analytics`: Product analytics capabilities<br>• `amazon_q`: Amazon Q integration<br>• `professional_services`: Training, consulting, and implementation services<br>• `not_applicable`: Not an add-on product |
-| **CommunityType__c** | String | `education`, `open_source`, `startup`, `not_applicable` | Identifies special pricing programs for specific communities:<br>• `education`: Educational institutions<br>• `open_source`: Open source projects<br>• `startup`: Startup companies<br>• `not_applicable`: Standard commercial plans |
-| **BillingPeriod__c** | String | `monthly`, `annual`, `two_year`, `three_year`, `four_year`, `five_year` (or `1`, `12`, `24`, `36`, `48`, `60`) | Defines the duration of the billing cycle for the plan. Can use either named periods or the number of months. |
-| **Tier__c** | String | `ultimate`, `premium`, `bronze`, `silver`, `gold`, `starter`, `free`, `null` | Represents the feature tier of a plan, with different tiers offering progressively more features:<br>• `ultimate`: Most comprehensive feature set<br>• `premium`: Advanced features<br>• `bronze`/`silver`/`gold`: Legacy tier names<br>• `starter`: Entry-level paid tier<br>• `free`: No-cost tier with limited features |
-| **DeploymentType__c** | String | `self_managed`, `dedicated`, `gitlab_dot_com` | Indicates how the GitLab instance is deployed and managed:<br>• `self_managed`: Customer installs and manages GitLab on their infrastructure<br>• `dedicated`: GitLab-managed single-tenant instance<br>• `gitlab_dot_com`: Multi-tenant SaaS offering at gitlab.com |
-| **PRPCategory__c** | String | `base_products`, `add_on_services`, `miscellaneous_products` | Broad classification of the product type at the ProductRatePlan level:<br>• `base_products`: Core GitLab subscriptions<br>• `add_on_services`: Supplementary features and services<br>• `miscellaneous_products`: Other product types that don't fit the main categories |
-
-`PRPCategory__c` field currently exists at the `ProductRatePlan` level but there is missalignment between CustomersDot and Zuora. We will work with EntApps to determine if we can align these or we require another field.
+| Field Name | Level | New Field? | Data Type | Values | Description |
+|------------|-------|------------|-----------|--------|-------------|
+| **CDotAccessible__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether a plan is accessible within CustomersDot. Plans marked `true` are displayed to users and their details can be viewed, regardless of purchase origin. Plans marked `false` exist in Zuora but are completely invisible in CustomersDot. |
+| **CDotManageable__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether management actions (renewals, modifications) are available for this plan in CustomersDot. These plans can be serviced through CustomersDot even if they weren't purchased there. |
+| **CDotPurchasable__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Indicates whether a plan is available for self-service purchase directly through CustomersDot without sales assistance. Plans marked `true` appear in the web store and can be purchased online. |
+| **CDotPlanStatus__c** | `ProductRatePlan` | Yes | String | `active`, `deprecated`, `legacy`, `not_applicable` | Represents the lifecycle stage of a plan: <br>• `active`: Currently salable and fully supported / available plans<br>• `deprecated`: Plans being phased out but still available to existing customers<br>• `legacy`: Historical plans maintained only for existing subscriptions<br>• `not_applicable`: Special cases where status concept doesn't apply |
+| **CDotIsTrueUp__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Identifies true-up plans, which are special product rate plans used to reconcile usage beyond what was initially purchased. |
+| **CDotIsUsPubSec__c** | `ProductRatePlan` | Yes | Boolean | `true`, `false` | Identifies plans specifically designed for US Public Sector customers. |
+| **CDotCommunityType__c** | `ProductRatePlan` | Yes | String | `education`, `open_source`, `startup`, `not_applicable` | Identifies special pricing programs for specific communities:<br>• `education`: Educational institutions<br>• `open_source`: Open source projects<br>• `startup`: Startup companies<br>• `not_applicable`: Standard commercial plans |
+| **CDotType__c** | `ProductRatePlanCharge` | Yes | String | `ci_minutes`, `storage`, `duo_pro`, `duo_enterprise`, `duo_amazon_q`, `agile_planning`, `product_analytics`, `professional_services`, `ecosystem`, `base_plan`, `not_applicable` | Categorizes add-on products that supplement main subscription plans:<br>• `ci_minutes`: Additional CI/CD pipeline minutes<br>• `storage`: Additional repository storage<br>• `duo_pro`: GitLab Duo Pro AI capabilities<br>• `duo_enterprise`: GitLab Duo Enterprise AI capabilities<br>• `duo_amazon_q`: Amazon Q integration<br>• `agile_planning`: Enterprise Agile Planning features<br>• `product_analytics`: Product analytics capabilities<br>• `professional_services`: Training, consulting, and implementation services<br>• `base_charge`: Standalone charge e.g. Ultimate or Premium <br>• `ecosystem`: GitLab Ecosystem offering discount charge<br>• `not_applicable`: None of the mentioned |
+| **BillingPeriod__c** | `ProductRatePlanCharge` | No | String | `monthly`, `annual`, `two_year`, `three_year`, `four_year`, `five_year` (or `1`, `12`, `24`, `36`, `48`, `60`) | Defines the duration of the billing cycle for the plan. Can use either named periods or the number of months. |
+| **ChargeTier__c** | `ProductRatePlanCharge` | No | String | `ultimate`, `premium`, `bronze`, `silver`, `gold`, `starter`, `free`, `null` | Represents the feature tier of a plan, with different tiers offering progressively more features:<br>• `ultimate`: Most comprehensive feature set<br>• `premium`: Advanced features<br>• `bronze`/`silver`/`gold`: Legacy tier names<br>• `starter`: Entry-level paid tier<br>• `free`: No-cost tier with limited features |
+| **ChargeDeployment__c** | `ProductRatePlanCharge` | No | String | `self_managed`, `dedicated`, `gitlab_dot_com`, `not_applicable` | Indicates how the GitLab instance is deployed and managed:<br>• `self_managed`: Customer installs and manages GitLab on their infrastructure<br>• `dedicated`: GitLab-managed single-tenant instance<br>• `gitlab_dot_com`: Multi-tenant SaaS offering at gitlab.com |
 
 ## Additional Considerations
 
-- JSONB stores all values as strings, so boolean fields will be stored as the strings `"true"` or `"false"`
 - Field names match Zuora custom field naming conventions with the `__c` suffix
-- The `Category` field is an existing Zuora field, not a custom field
-
-There is a [current effort](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/2126) to add some of these fields to Zuora, so we might be able to reuse these. If we are reusing these, we need to double-check that the values in Zuora and CustomersDot classification are aligned for each field. Note these fields are being added at the `ProductRatePlanCharge` level.
+- New fields added specifically for CDot are prefixed with `CDot`
 
 ## Design and implementation details
 
-Most of our classification is at the `ProductRatePlan` level so we will be focused on this for the first iteration. As a first step we will add a column (JSONB) to our local copy of `ProductRatePlan` to persist this classification.
+Our classification is at the `ProductRatePlan`, `ProductRatePlanCharge` levels. As a first step we will add a column (JSONB) to our local copy of `ProductRatePlan` and `ProductRatePlanCharge` to persist this classification.
 
 ```ruby
 # example migration
@@ -125,6 +116,24 @@ class AddCustomFieldsToProductRatePlans < ActiveRecord::Migration[7.1]
       owner: 'section::fulfillment',
       data_classification: 'orange',
       description: 'Stores plan classification metadata as key-value pairs.'
+    }.to_json
+  end
+end
+
+class AddCustomFieldsToProductRatePlanCharges < ActiveRecord::Migration[7.1]
+  def change
+    add_column :zuora_product_rate_plan_charges, :custom_fields, :jsonb, default: {}, null: false,
+      comment: column_comment
+    add_index :zuora_product_rate_plan_charges, :custom_fields, using: :gin
+  end
+
+  private
+
+  def column_comment
+    {
+      owner: 'section::fulfillment',
+      data_classification: 'orange',
+      description: 'Stores plan charge classification metadata as key-value pairs.'
     }.to_json
   end
 end
@@ -190,6 +199,8 @@ class Plan
     PlanClassifier.all_gitlab_com_plans
   end
 ```
+
+As a first iteration we can replace the True up related logic as it doesn't have provision implications.
 
 ### Validation Strategy
 
