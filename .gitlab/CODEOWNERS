@@ -117,8 +117,8 @@
 /content/handbook/engineering/development/analytics/monitor/platform-insights.md @dennis @nicholasklick
 /content/handbook/engineering/development/analytics/monitor/optimize.md @dennis @blabuschagne
 /content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
-/content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
+/content/handbook/engineering/development/data-science/ai-powered/ai-framework @m_gill @timzallmann
+/content/handbook/engineering/development/data-science/ai-powered/custom-models @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/duo-workflow @bastirehm @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/model-validation @m_gill
