@@ -179,12 +179,12 @@ end
 
 We will iterate over the proposed custom fields picking one field / set of fields at a time and:
 
-1. Create Change Request for EntApps to add the field(s) to Zuora
-2. Transfer the CustomersDot knowledge to the Zuora Product Catalog by populating the field(s) through rake task from CustomersDot
-3. Verify the ProductCatalog copy has synced properly (sync can be initiated manually or wait for the scheduled daily sync)
-4. [Behind a feature flag] Replace the usage of `Plan` constants that represent a collection of records that meet a given classification with a call to a method that loads the same collection from the local copy of the Product Catalog leveraging the custom field.
-5. Validate logic and performance in staging
-6. Rollout change to production for all users
+1. Submit a Change Request to EntApps to add the necessary field(s) to Zuora.
+2. Transfer the CustomersDot knowledge to the Zuora Product Catalog by populating the new field(s) via a rake task in CustomersDot.
+3. Confirm that the Product Catalog copy has synced correctly (either manually trigger the sync or wait for the scheduled daily sync).
+4. [Behind a feature flag] Replace any usage of `Plan` constants that represent a collection of records that meet a given classification with a call to a method that loads the same collection from the local copy of the Product Catalog leveraging the custom field.
+5. Validate both logic and performance in the staging environment.
+6. Deploy the change to production and enable it for all users.
 
 The following code example illustrates steps 4 from the iteration process described above. It shows how we would replace hardcoded constants in the `Plan` class with dynamic methods that leverage the custom fields from our local Product Catalog copy. This example specifically demonstrates migrating from hardcoded constants for SaaS plans to dynamic queries based on the `web_direct__c` and `deployment_type__c` fields.
 
