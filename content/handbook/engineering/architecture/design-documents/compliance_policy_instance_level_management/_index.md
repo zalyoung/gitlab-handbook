@@ -99,19 +99,13 @@ erDiagram
 
 ## Data Model
 
-### New Tables
+### Tables
 
-**instance_csp_namespace**
+**application_settings**
 
 ```sql
-CREATE TABLE instance_csp_namespace (
-  id SERIAL PRIMARY KEY,
-  instance_id INTEGER NOT NULL,
-  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
-  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  UNIQUE(instance_id)
-);
+ALTER TABLE application_settings
+ADD COLUMN csp_namespace_id BIGINT REFERENCES namespaces(id);
 ```
 
 ### Modified Tables
@@ -139,7 +133,7 @@ ADD COLUMN is_from_csp_group BOOLEAN NOT NULL DEFAULT FALSE;
 
 1. Instance administrator navigates to `Admin Area > Settings > Security and compliance`.
 2. Administrator selects a top-level group to designate as the CSP Group.
-3. System creates an entry in the `instance_csp_namespace` table.
+3. System creates an entry in the `application_settings` table.
 4. UI updates to show special indicators for the CSP Group.
 5. Generate an instance audit event tracking creation, modification, and deletion of CSP Group Designations.
 
@@ -156,7 +150,9 @@ ADD COLUMN is_from_csp_group BOOLEAN NOT NULL DEFAULT FALSE;
 2. Admin scopes policies to specific compliance frameworks
 3. System creates entries in `compliance_framework_security_policies` with `is_from_csp_group = true`
 
-Example policy YAML:
+The CSP Group approach supports all security policy types, including scan execution policies, merge request approval policies, and vulnerability management policies. Each policy type follows the same scoping mechanism but has different configuration parameters and enforcement behaviors. Below are examples of different policy types:
+
+#### Scan execution policy example
 
 ```yaml
 scan_execution_policy:
@@ -173,6 +169,52 @@ scan_execution_policy:
     csp_compliance_frameworks: # CSP compliance framework
       - id: 1
 ```
+
+#### Merge request approval policy example
+
+```yaml
+merge_request_approval_policy:
+  name: Security approval for production code changes
+  description: Require security team approval for changes to production code
+  enabled: true
+  rules:
+  - type: merge_request
+    branches:
+    - main
+    - production/*
+  approvals_required: 1
+  user_approvers:
+    - security-team
+  policy_scope:
+    csp_compliance_frameworks: # CSP compliance framework
+      - id: 1
+      - id: 3
+```
+
+#### Vulnerability management policy example
+
+```yaml
+vulnerability_management_policy:
+  name: Critical vulnerability remediation policy
+  description: Sets timelines for addressing critical vulnerabilities
+  enabled: true
+  rules:
+  - type: vulnerability
+    severity: critical
+  actions:
+  - issue_creation:
+      due_date: 7 # days
+      assignee: vulnerability_author
+  policy_scope:
+    csp_compliance_frameworks: # CSP compliance framework
+      - id: 2
+```
+
+Each policy type follows its specific workflow for enforcement:
+
+- Scan execution policies are enforced during CI/CD pipeline execution
+- Merge request approval policies are enforced at merge request creation and update
+- Vulnerability management policies are triggered when vulnerabilities are detected
 
 ### Project Compliance Framework Assignment
 
@@ -255,7 +297,7 @@ extend type Project {
 | CSP Group Admin | ❌ | ✅ | ✅ | ✅ | ✅ |
 | CSP Group Maintainer | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Group Owner | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Group Maintainer | ❌ | ❌ | ❌ | ✅ | ❌ |
+| Group Maintainer | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Developer | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ## User Interfaces
