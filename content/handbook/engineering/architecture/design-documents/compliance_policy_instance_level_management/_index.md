@@ -27,15 +27,11 @@ We propose designating a top-level group as the central authority for compliance
 
 - Allow the application of compliance frameworks and security policies across multiple top-level groups from a central location.
 - Enable compliance and security professionals to enforce common requirements across an organization's projects.
-- Reduce the need for complex scripting to maintain consistent frameworks across groups.
-- Improve separation of duties for compliance and security management.
-- Allow the application of compliance frameworks and security policies across multiple top-level groups from a central location.
-- Enable compliance and security professionals to enforce common requirements across an organization's projects.
+- Improve separation of duties for compliance and security management, such as granting only Admin users the ability to designate a CSP group and the users who may manage those policies.
 - Simplify the user experience of centralized compliance and policy management by removing the requirement to manage security policy project (SPP) links across groups to a centralized SPP.
 - Reduce the need for complex scripting to maintain consistent compliance frameworks across groups.
-- Improve separation of duties for compliance and security management, such as granting only Admin users the ability to designate a CSP group and the users who may manage those policies.
-- Create a design that can easily evolve when Organization-level scoping becomes available.
 - Allow for top-level groups to manage policies within their own group while also enabling enforcement of centralized policies across all top-level groups.
+- Create a design that can easily evolve when Organization-level scoping becomes available.
 
 ## Non-Goals
 
@@ -145,6 +141,7 @@ ADD COLUMN is_from_csp_group BOOLEAN NOT NULL DEFAULT FALSE;
 2. Administrator selects a top-level group to designate as the CSP Group.
 3. System creates an entry in the `instance_csp_namespace` table.
 4. UI updates to show special indicators for the CSP Group.
+5. Generate an instance audit event tracking creation, modification, and deletion of CSP Group Designations.
 
 ### Compliance Framework Creation and Mirroring
 
