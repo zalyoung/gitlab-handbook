@@ -207,7 +207,7 @@ The DRI owns the functions as outlined here:
 
 Additionally, please ensure that key escalation updates are captured in the Gainsight Escalation CTA > Timeline > Activity Type = "Health Update". Apply the "Post to Slack - Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
 
- The Gainsight Escalation Update Timeline template questions are :
+The Gainsight Escalation Update Timeline template questions are :
 1. What is the current status of the escalation?
 1. What are the next steps in moving the escalation case forward?
 1. Who is the owner of the next steps?
