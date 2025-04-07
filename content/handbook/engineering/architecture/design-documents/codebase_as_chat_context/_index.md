@@ -99,15 +99,17 @@ This initiative introduces or updates the following components:
 
 This is a module in the GitLab Rails monolith which will be introduced in this initiative.
 
-This makes use of the framework provided by the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to index the files in the codebase as vector embeddings or to perform a search over those embeddings. For further design and implementation details, please see the [**Code Embeddings** blueprint](./code_embeddings.md).
+This makes use of the framework provided by the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to index the files in the codebase as vector embeddings or to perform a search over those embeddings.
+
+For further design and implementation details, please see the [**Code Embeddings** blueprint](./code_embeddings.md).
 
 **Code Parser**
 
-This is a library that does the chunking of code files into logical elements, such as classes or functions. This component will be shared with the Knowledge Graph initiative.
+This is a library that does the chunking of code files into logical elements, such as classes or functions. This component will be shared with the **[Knowledge Graph](https://gitlab.com/groups/gitlab-org/-/epics/16210)** initiative.
 
-The Code Parser lives in its own repository so that it can be used on the Backend and Frontend.
+The Code Parser lives in its own repository so that it can be used on the Backend and Frontend. For the Backend, we will wrap the Parser in a Ruby Gem to be used by the **Code Embeddings** module.
 
-For the Backend, we will wrap the Parser in a Ruby Gem to be used by the **Code Embeddings** module.
+For further design and implementation details, please see the [One Parser proposal](https://gitlab.com/groups/gitlab-org/-/epics/16210).
 
 #### Duo Chat
 
