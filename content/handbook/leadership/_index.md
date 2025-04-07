@@ -41,7 +41,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. A people leader hires a new team member that demonstrates our [CREDIT values](/handbook/values/).
 1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal](/handbook/values#make-a-proposal).
 1. A manager of one prioritizes well-being by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
-1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public](/handbook/values/#public-by-default) and with a [low level of shame](/handbook/values/#low-level-of-shame).
+1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public](/handbook/values/#public-by-default) and with a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding).
 
 ## Interim and Acting Leadership
 

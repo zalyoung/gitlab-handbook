@@ -204,7 +204,7 @@ Incubation-adjusted TL;DR:
 
 #### Code Editors / IDEs
 
-1. Jetbrains IDEs
+1. JetBrains IDEs
 1. Visual Studio Code
 1. Sublime Text
 1. Vim
