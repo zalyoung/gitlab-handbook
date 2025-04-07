@@ -371,6 +371,7 @@ Two important aspects that need to be avoided when it comes when creating/editin
 - Create your first child campaign using the [below instructions](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns) 
 - When finished, go to the top right of the campaign and click `Clone`
 - Edit the campaign name to include _PARENT at the end (example: 20250409_GoogleCloudNext_PARENT)
+- Confirm the `Active` box is checked
 - Remove the Allocadia Sub-Category ID
 - Adjust the `Budgeting Cost in Campaign` to $1
 - Click `Save`
@@ -379,7 +380,7 @@ Two important aspects that need to be avoided when it comes when creating/editin
 
 - Log in to SFDC and search for your child campaign
 - Once in the campaign, click the edit button next to the `Parent Campaign` field
-- Copy and paste the parent campaign name (example: 20250409_GoogleCloudNext_PARENT) into the field and click `Save`
+- Copy and paste the parent campaign name (example: 20250409_GoogleCloudNext_PARENT) into the field or start typing the parent campaign name and click `Save`
 - Continue to do the same for any additional child campaigns
 - You can view your campaign hierarchy in the right-hand panel (clicking `View All` will provide a full hierarchical view)
 
