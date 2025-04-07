@@ -44,7 +44,7 @@ GitLab Inc. ("The Company") complies with the Americans with Disabilities Act (A
 
 ### Our Commitment
 
-A team member or applicant in need of a reasonable accommodation should make the Company aware of their request by notifying the Absence Management team at `leaves@gitlab.com`. The Company will work with each individual to define their job-related or application-related needs and to try to accommodate those needs.
+A team member or applicant in need of a reasonable accommodation should make the Company aware of their request by notifying the Absence Management team in HelpLab. The Company will work with each individual to define their job-related or application-related needs and to try to accommodate those needs.
 
 ### Roles and Responsibilities
 
@@ -86,17 +86,17 @@ GitLab values all team members for their strengths. We offer team members with d
 ### Pregnancy Accommodation
 
 Pregnancy accommodation is governed by the Pregnancy Discrimination Act, the Americans with Disabilities Act, the Family and Medical Leave Act, and numerous state and local laws. If you need a temporary change to how, when, or where you work due to pregnancy or related
-conditions, you may request an accommodation under this policy. A team member in need of a reasonable accommodation should make GitLab aware of their request by notifying the Absence Management team at `leaves@gitlab.com`.
+conditions, you may request an accommodation under this policy. A team member in need of a reasonable accommodation should make GitLab aware of their request by notifying the Absence Management team in HelpLab.
 
 ### Reasonable Accommodation
 
-A reasonable accommodation is any change or adjustment to a job, the work environment or the way things usually are done that enables a qualified individual with a disability to perform the essential functions of the job and that does not pose an undue hardship for the Company or create a direct threat to health or safety. When requesting an accommodation, team members should notify the Absence Management Team at 'leaves@gitlab.com' of the need for the accommodation. The Company may ask for medical documentation supporting the need for an accommodation and all supporting documentation should be returned as quickly as possible to prevent a delay in the accommodation process. Requests for a reasonable accommodation for a medical condition and any supporting documentation, will be treated as confidential, maintained in a file separate from an employee's other personnel documents and disclosed only as permitted by applicable law.
+A reasonable accommodation is any change or adjustment to a job, the work environment or the way things usually are done that enables a qualified individual with a disability to perform the essential functions of the job and that does not pose an undue hardship for the Company or create a direct threat to health or safety. When requesting an accommodation, team members should notify the Absence Management Team in HelpLab of the need for the accommodation. The Company may ask for medical documentation supporting the need for an accommodation and all supporting documentation should be returned as quickly as possible to prevent a delay in the accommodation process. Requests for a reasonable accommodation for a medical condition and any supporting documentation, will be treated as confidential, maintained in a file separate from an employee's other personnel documents and disclosed only as permitted by applicable law.
 
 ### Determining Appropriate Accommodations
 
-When a team member requests a change in the job or working conditions and relates the need to a medical condition, or notifies GitLab "the company" of medical restrictions, the manager or supervisor should direct the team member to notify the Absence Management team (leaves@gitlab.com) of the request.  The Absence Management team will then follow the steps outlined below.
+When a team member requests a change in the job or working conditions and relates the need to a medical condition, or notifies GitLab "the company" of medical restrictions, the manager or supervisor should direct the team member to notify the Absence Management team of the request in HelpLab. The Absence Management team will then follow the steps outlined below.
 
-Frequently, when a qualified individual with a disability requests a reasonable accommodation, the appropriate accommodation is easily agreed upon. The individual may recommend an accommodation based on their life or work experience. The ultimate decision as to whether a particular accommodation will be made rests with the Company. When the appropriate accommodation is not obvious, the Company may assist the individual in identifying one. If more than one accommodation will enable the individual to perform the job, the Company reserves the right to choose which accommodation it will make. If you feel that you have been unreasonably denied an accommodation request, please speak with the Absence Management team by emailing `leaves@gitlab.com`. If you have any questions concerning this policy you should speak with the People Operations team.
+Frequently, when a qualified individual with a disability requests a reasonable accommodation, the appropriate accommodation is easily agreed upon. The individual may recommend an accommodation based on their life or work experience. The ultimate decision as to whether a particular accommodation will be made rests with the Company. When the appropriate accommodation is not obvious, the Company may assist the individual in identifying one. If more than one accommodation will enable the individual to perform the job, the Company reserves the right to choose which accommodation it will make. If you feel that you have been unreasonably denied an accommodation request, please speak with the Absence Management team by submitting a ticket in HelpLab. If you have any questions concerning this policy you should speak with the People Operations team.
 
 **U.S Team Members Requesting Accommodations**
 
@@ -104,7 +104,7 @@ Please submit your request for an accommodation by completing this [form](https:
 
 **Non-US Team Members Requesting Accommodations:**
 
-If your physician is recommending restrictions that GitLab may need to accommodate, please email leaves@gitlab.com.  While you are under no obligation to provide GitLab with a diagnosis, you may be asked questions related to how your condition impacts your ability to perform the essential functions of your job, in accordance with applicable law.  The Absence Management team will provide you with any necessary paperwork, and assist you with your request.
+If your physician is recommending restrictions that GitLab may need to accommodate, please submit a ticket to the Absence Management team in HelpLab.  While you are under no obligation to provide GitLab with a diagnosis, you may be asked questions related to how your condition impacts your ability to perform the essential functions of your job, in accordance with applicable law.  The Absence Management team will provide you with any necessary paperwork, and assist you with your request.
 
 ## US Access to Personnel Records
 

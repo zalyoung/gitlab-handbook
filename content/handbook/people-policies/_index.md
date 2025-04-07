@@ -22,7 +22,7 @@ These policies apply to all GitLab team members, contractors, advisors, and cont
 
 ## Translations
 
-There are translations available of many of our policies, for reference purposes, currently in Dutch, French, German and Spanish, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
+There are translations available of many of our policies, for reference purposes, currently in Dutch, French, German and Spanish, with further additions planned. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
 
 ## General Employment Practices
 
@@ -67,9 +67,9 @@ Team members shall not take for themselves, or for family members, or any other 
 
 Team members also have obligations to protect the personal and sensitive information of our fellow team members. Therefore, you may not access and/or disseminate any team member's personal information (i.e. address, personal phone number, salary, etc.) that the team member has not made publicly available, unless the team member has provided written permission to share this information. An exception to this restriction would be when access is a necessary function of your job duties. A violation of this obligation is considered severe and could result in disciplinary action, up to and including termination.
 
-#### Exceptions
+**Exceptions**
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
+Exceptions to the above procedures will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ### Anti-Harassment
 
@@ -89,19 +89,31 @@ Please see our [Environmental, Social, and Governance](/handbook/company/esg/) p
 
 ### Personal Appearance
 
-The image GitLab projects to the public is reflected in the appearance of our team members. Simply stated, team members should be dressed and groomed appropriately for their specific duties. Team members are expected to use good judgment in their appearance and grooming. Read our [GitLab Events Code of Conduct](/handbook/company/culture/ecoc/) for more information. Please read our GitLab Events Code of Conduct for more information regarding team member responsibility during attendance at company-sponsored events.
+The image GitLab projects to the public is reflected in the appearance of our team members. Simply stated, team members should be dressed and groomed appropriately for their specific duties. Team members are expected to use good judgment in their appearance and grooming. Please read our [GitLab Events Code of Conduct](/handbook/company/culture/ecoc/) for more information regarding team member responsibility during attendance at company-sponsored events.
 
 ### Job Abandonment
 
-When a team member is absent from work for three consecutive workdays, there is no entry on the availability calendar for time off, and fails to contact their supervisor, they may be [terminated](/handbook/people-group/offboarding/#involuntary-terminations) for job abandonment unless otherwise required by law. If a manager is unable to reach a team member via email or slack within a 24 hour period they should contact their [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group). The People Business partner will access the team member's information to obtain additional contact methods and numbers. The manager and People Business Partner will create an action plan to make all attempts to contact the team member.
+When a team member is absent from work for **three consecutive workdays**, there is no entry on the availability calendar for time off, and fails to contact their supervisor, they may be [terminated](/handbook/people-group/offboarding/#involuntary-terminations) for job abandonment unless otherwise required by law. If a manager is unable to reach a team member via email or Slack within a 24 hour period they should contact their [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group). The People Business partner will access the team member's information to obtain additional contact methods and numbers. The manager and People Business Partner will create an action plan to make all attempts to contact the team member. 
 
-#### Exceptions
+Throughout this process, managers and People Business Partners must maintain detailed records of: dates and times of all contact attempts, methods used for each attempt, any responses or information received, consultation with other GitLab teams (if applicable), and jurisdiction-specific considerations.
 
-GitLab understands there are extenuating circumstances that can occur. In the instance that a team member is absent from work for three consecutive workdays due to an emergency outside of the team members' control (ex. an internet outage in their country of residence), the recommendation is:
+#### Exceptions to the Job Abandonment Policy
+
+GitLab understands there are extenuating circumstances that can occur. In the instance that a team member is absent from work for three consecutive workdays due to an emergency outside of the team members' control (see examples below), the recommendation is:
 
 - The team member should notify their manager about the situation, should a period of unavailability be a foreseen possibility.
 - The team member and manager should consider exchanging cell phone numbers to stay in contact as much as possible in the case that the situation should escalate. If you are based in different countries, consider ensuring you and your manager both have an app that facilitates international communication (ex. Whatsapp, Zalo, etc.). If costs are incurred when trying to contact your manager, this can be considered a business expense and can be submitted for reimbursement through [Navan Expense](/handbook/finance/expenses/).
 - Consider leveraging GitLab's flexible [time off policy](/handbook/people-group/paid-time-off/) to take the time you need.
+
+#### Examples of Potential Extenuation Circumstances
+
+- Regional internet or telecommunications outages
+- Natural disasters or severe weather events
+- Sudden medical emergencies affecting the team member or immediate family
+- Civil unrest, political instability, or government actions affecting communications
+- Technology failures when no alternative communication means are available
+- Sudden travel emergencies with no connectivity
+- Unexpected legal detention or immigration issues
 
 ## Team Member Safety
 
@@ -120,7 +132,7 @@ In general, please consider the following recommendations to ensure safety when 
 1. Be wary of public Wi-Fi. Be aware that hackers can steal sensitive information in the public forum. Use a VPN or other secure access if you plan to access sensitive data. More information on [VPN usage at GitLab](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn) and the [Personal VPN](/handbook/tools-and-tips/personal-vpn/) page.
 1. Safeguard your hotel. Lock and deadbolt the door while you are in the room. Ensure the door is locked when you leave. Keep the windows closed. Try to give the impression that you're in your room even when you're away, such as placing the Do Not Disturb sign on the outside of your door and keeping the blinds or windows closed. Don't let any strangers into your room, even if they say they work for the hotel. You can always call the front desk to check whether someone was ordered by hotel staff to come to your room.
 1. Be aware of your surroundings. Always keep an eye on your personal belongings and use good judgment when talking to strangers. A big part of the joy of traveling is the opportunities it affords to meet new people and learn about their cultures. But if someone near you is acting suspiciously, or if you feel uncomfortable, leave the area immediately. Trust your instincts.
-1. Adhere to any recommended safety recommendations made by the GitLab group. For all large self-hosted events we (jointly completed by our internal security team and our contracted security agency) will do a full risk assessment before we converge. It will be up to employees to read said risk assessment and adhere to recommendations outlined.
+1. Adhere to any recommended safety recommendations made by the GitLab group. For all large self-hosted events we (jointly completed by our internal security team and our contracted security agency) will do a full risk assessment before we converge. It will be up to team members to read said risk assessment and adhere to recommendations outlined.
 1. If you are sick please do not come or participate in person workplace activities. This is for your safety and for others. We recommend that GitLab team members not travel while sick.
 
 ### Measures GitLab Takes to Aid Employee Health and Safety
@@ -144,15 +156,21 @@ The following are GitLab's procedures in the event a team member feels threatene
 
 ## Workers' Compensation
 
-If you have been injured at work, at a co-working site, or traveling to a customer location please contact the Absence Management team (leaves@gitlab.com). The Absence Management team will provide you with paperwork to file your claim and explain your benefits.
+Workers' compensation provides benefits to team members who suffer work-related injuries or illnesses. If you have been injured at work, at a co-working site, or traveling to a customer location please follow our reporting procedures:
 
-**CA Team Members Only**: Complete this [form](https://www.dir.ca.gov/dwc/DWCForm1.pdf) and email to the Absence Management Team at leaves@gitlab.com.
+- Seek appropriate medical attention immediately for serious injuries. For emergency situations, call local emergency services (911 in the US).
+- Report all injuries, regardless of severity, to your manager as soon as possible.
+- Contact the Absence Management team through HelpLab within 24 hours of the injury. The Absence Management team will provide you with paperwork to file your claim and explain your benefits.
+- Complete all required documentation as directed by the Absence Management team.
+
+**CA Team Members Only**: Complete this [form](https://www.dir.ca.gov/dwc/DWCForm1.pdf) and submit to the Absence Management Team in HelpLab.
 
 The following states are considered "monopolistic" workers compensation states, meaning employers must purchase workers compensation coverage directly from the state. If a team member in these states is injured, they may file the claim themselves or the Absence Management Team will file on their behalf. **Team members in these States are still required to contact the Absence Management Team, even if they file their own claim through the State**:
 
 - [Ohio](https://info.bwc.ohio.gov/)
 - [Washington](https://www.lni.wa.gov/)
 - [North Dakota](https://www.workforcesafety.com/)
+- [Wyoming](https://dws.wyo.gov/dws-division/workers-compensation/injured-workers/report-an-injury/)
 
 ## Substance Abuse
 
