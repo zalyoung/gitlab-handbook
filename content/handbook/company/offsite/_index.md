@@ -50,7 +50,7 @@ The EBA to the CEO is responsible for booking the hotel and meeting rooms for th
 The EBA to the CEO is responsible for sending out the calendar invites associated to each meeting in the agenda, one calendar entry per meeting, with unique Zoom links for the meeting when the attendees change.
 If the CEO is traveling, the CoS to the CEO (preferred) or the EBA to the CEO should work with the CEO to bring [the Owl](https://owllabs.com/).
 
-[Hybrid calls are hard](/handbook/communication/#hybrid-calls-are-horrible), but occasionally the Offsite will need to take a hybrid meeting form.
+[Hybrid calls are hard](/handbook/communication/#hybrid-calls-are-annoying), but occasionally the Offsite will need to take a hybrid meeting form.
 When this is the case, the EBA to the CEO will ensure that the calendar invites for the offsite sessions include Zoom links.
 The Zoom links should have a waiting room attached to it since the Zoom URL is on calendars and is discoverable internally.
 This also allows the E-Group to pull in folks as-needed into the room without switching Zoom rooms, as people won't just jump in and out without being noticed or before the E-Group is ready to move onto that subject.
@@ -353,7 +353,7 @@ The CoS to the CEO will moderate the call.
 
 The CoS to the CEO is responsible for meeting material. The CoS to the CEO will share the meeting recap material no later than 72 business hours after the offsite concludes and at least 48 hours in advance of the meeting. Material will include an event summary and may include a highlight video message from the CEO or others. All materials will be signed off on by the Legal Team in advance of sharing.
 
-A version of the notes shared with Functional Leaders may be shared with all team members within 4 business days of a Functional Leader meeting. The Office of the CEO prepares materials excluding Functional Leaders Meeting Q&A or any [material non-public information](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information) and shares them in the #company-fyi-private Slack Channel. Functional Leaders are encouraged to discuss relevant information within their teams. You can think of the materials shared with all team members as a "Meeting in a Box."
+A version of the notes shared with Functional Leaders may be shared with all team members within 4 business days of a Functional Leader meeting. The Office of the CEO prepares materials excluding Functional Leaders Meeting Q&A or any [material non-public information](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information-mnpi) and shares them in the #company-fyi-private Slack Channel. Functional Leaders are encouraged to discuss relevant information within their teams. You can think of the materials shared with all team members as a "Meeting in a Box."
 
 ## Content Choice
 

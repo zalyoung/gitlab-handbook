@@ -19,6 +19,7 @@ exclude:
   - pattern: '^/handbook/engineering/development/performance-indicators/?#'
   - pattern: '^/handbook/engineering/infrastructure/performance-indicators/?#'
   - pattern: '^/handbook/engineering/performance-indicators/_index/?#'
+  - pattern: '^/handbook/engineering/performance-indicators/?#'
   - pattern: '^/handbook/finance/finance-team-performance-indicators/?#'
   - pattern: '^/handbook/marketing/developer-relations/performance-indicators/?#'
   - pattern: '^/handbook/marketing/performance-indicators/?#'
@@ -26,5 +27,5 @@ exclude:
   - pattern: '^/handbook/product/ux/performance-indicators/?#'
   - pattern: '^/handbook/support/performance-indicators/?#'
 
-  # hugolint incorrectly flagged a relative URL with `~:text=` as broken when it isn't - https://gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint/-/issues/8
-  - pattern: '^/handbook/engineering/workflow/?#product-development-timeline:~:text=Monday%2C%205%20days%20before%20the%20milestone%20begins%3A'
+  # Pages using the `include` shortcode.
+  - pattern: '^/handbook/engineering/okrs/?#'

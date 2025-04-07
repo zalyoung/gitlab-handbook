@@ -120,7 +120,7 @@ Effective Q2 of FY 2021, we have established a one time bonus payment process fo
 
 - For an interim role to be considered, the need for coverage would need to be longer than a 30 day time period.
 - The interim role has to be at a higher level than the current role of the team member.
-  - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) and leader of the group.
+  - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) and leader of the group.
   - Effective 2023-02-01, interim bonuses in Go-to-Market roles (CRO Organization, Sales Development) will be available to people managers temporarily occupying a lateral or higher management position **in addition to their permanent full time role.**
 - In case the interim role is within another job family, team members will also be eligible for the interim compensation on a lateral level.
 

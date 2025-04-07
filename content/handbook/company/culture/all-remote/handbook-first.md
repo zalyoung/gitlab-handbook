@@ -70,7 +70,7 @@ Resist the urge to abandon documentation plans when crisis hits. The most powerf
 ![GitLab code review](/images/all-remote/gitlab-code-review.jpg)
 {style="max-width: 50%;"}
 
-A common belief is that a company wiki can serve as a handbook, but the reality is that [wikis do not scale](/handbook/about/handbook-usage/#wiki-handbooks-dont-scale). They are designed to be updated by a select few, which creates several issues. One, content frequently falls out of date, which triggers a companywide belief that the information cannot be trusted without personally confirming with another human (and in turn, injecting inefficiency into the process of [self-learning](self-service/)).
+A common belief is that a company wiki can serve as a handbook, but the reality is that [wikis do not scale](/handbook/about/handbook-usage/#wiki-handbooks-dont-scale). They are designed to be updated by a select few, which creates several issues. One, content frequently falls out of date, which triggers a company-wide belief that the information cannot be trusted without personally confirming with another human (and in turn, injecting inefficiency into the process of [self-learning](self-service/)).
 
 Two, it creates class segmentation — those entrusted to update the wiki, and those who are not yet wise or elite enough to do so.
 
@@ -139,7 +139,7 @@ The trick to ensuring a handbook grows continually is to instill it as a value. 
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to company-wide documentation.*
 
 > I think [documentation](management/#scaling-by-documenting) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >

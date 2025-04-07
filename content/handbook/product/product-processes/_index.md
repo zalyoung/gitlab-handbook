@@ -1395,7 +1395,7 @@ As a Product Manager you may need to make a decision on whether GitLab should en
 First, consider whether our users share a similar need and if it's part of GitLab's scope. If so, strongly consider [building as a feature in GitLab](/handbook/values/#dogfooding):
 
 - [Evaluate open source options](#evaluating-open-source-software) to utilize.
-- If time to market is an issue, a [global optimization issue](/handbook/values/#global-optimization) may also be opened to assist with prioritization.
+- If time to market is an issue, a [global optimization issue](/handbook/values/#efficiency-for-the-right-group) may also be opened to assist with prioritization.
 - For a potential acquisition, follow the [acquisition process](/handbook/acquisitions/acquisition-process/).
 
 If the need is specific to GitLab, and will not be built into the product, consider a few guidelines:
