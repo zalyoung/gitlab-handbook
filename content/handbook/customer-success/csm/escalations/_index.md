@@ -138,14 +138,14 @@ If an [Escalation (For Non Professional Services Projects)](#escalation-for-non-
 1. Navigate to the account page in Salesforce
 1. Navigate to the next open renewal opportunity under "Opportunities" (Note: if you're having trouble finding the opportunity, you may need to change the Salesforce App. Click the 9-dotted box in the upper left corned and change the Salesforce App to "Sales")
 1. In the top right corner, select the "CS Help" button
-1. Select the case type: At-Risk Account Help (CSM red accounts & CSM/CSE escalations)
-1. Fill out the required fields in the At-Risk Account Case
+1. Select the case type: Escalations (CSM/CSE Accounts)
+1. Fill out the required fields in the Escalation Case
 1. Click "Create case"
 1. Complete other fields in the opened case: Customer Escalation Slack channel, Customer Collaboration project, Customer meeting notes, Escalation Exit criteria. At this time, you can also edit any of the fields initially filled out when opening the case.
 
 For a CSM Managed account, the Case Owner should be the assigned CSM. For a CSE account, the Case Owner should be the regional CSE leader who will then assign to a CSE.
 
-The Salesforce case will create a Gainsight CTA. A sync between Salesforce and Gainsight happens every 2 hours. Once the Gainsight CTA is created, the Case Owner will receive Gainsight notifications to complete required tasks. Data is bidirectional between Salesforce and Gainsight, so changes can be made in either tool. However, all escalation updates must be made in the Gainsight CTA.
+The Salesforce case will create a Gainsight CTA for that particular customer, which can be found in the Gainsight Cockpit. A sync between Salesforce and Gainsight happens every 2 hours. Once the Gainsight CTA is created, the Case Owner will receive Gainsight notifications to complete required tasks. Data is bidirectional between Salesforce and Gainsight, so changes can be made in either tool. However, all escalation updates must be made in the Gainsight CTA by adding Timeline entries of type "Health Update" (which is the same Timeline entry type used for Red Accounts management).
 
 #### Internal Standup Cadence
 
@@ -201,9 +201,17 @@ The `#escalated_customers` channel is for awareness only and is not intended to 
 
 The DRI owns the functions as outlined here:
 
-- If an escalation status significantly changes, make an update in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel
+- If an escalation status significantly changes, make an update in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel. 
 - Update the temporary escalation slack channel daily, at minimum
 - The escalation progress should also be communicated to the customer on a regular basis - expectation is 3 or more times a week depending on the situation.
+
+Additionally, please ensure that key escalation updates are captured in the Escalation Gainsight CTA > Timeline > Activity Type = "Health Update". Apply the "Post to Slack - Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
+
+ The Gainsight Escalation Update Timeline template questions are :
+1. What is the current status of the escalation?
+1. What are the next steps in moving the escalation case forward?
+1. Who is the owner of the next steps?
+1. Has the exit criteria for this escalation changed? If so, what is the new exit criteria?
 
 Tips & Tricks:
 
@@ -219,18 +227,18 @@ Tips & Tricks:
 
 - When the issue(s) related to the escalation are resolved or move into a non-escalated state:
 
-  - Post an Escalation Closure in the Gainsight CTA with the status and resolution. Be sure to use the "At-Risk/Escalation - Closure" template in the update.
+  - Post an Escalation Closure Timeline entry in the Gainsight CTA with the status and resolution. Be sure to use the "Post to Slack - Escalation Closure" Timeline template in the update (selectable from top right hand corner of the "Notes" box in Timeline).
   - Copy that Escalation Closure update and post in the `#escalated_customers` slack channel.
   - Archive the temporary Slack channel
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
-- Gainsight Escalation Closure question template:
+- Gainsight Escalation Closure Timeline template questions:
 
 Please provide a closure update answering the following questions:
 
-1. Did the at-risk situation end with a positive outcome, negative outcome, or no outcome?
+1. Did the escalation situation end with a positive outcome, negative outcome, or no outcome?
 1. Were the defined exit criteria met?
-1. Give a brief summary of the actions of the team that helped close out this at-risk ticket
+1. Give a brief summary of the actions of the team that helped close out this escalation ticket
 
 ## CSM Manager's role in Escalations
 
