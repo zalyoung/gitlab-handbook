@@ -81,11 +81,9 @@ In order to support **Codebase as Chat Context**, we need to:
     - The changes are done on GitLab Rails, making use of the framework introduced by the [AI Context Abstraction Layer](../ai_context_abstraction_layer/).
     - This introduces the workflow to index the codebase as vector embeddings
     - This gives the ability to perform a semantic search over the embeddings
-    - This will be developed in 4 phases:
-        - Phase 1: Support code embeddings for an entire file on the main branch
-        - Phase 2: Support code embeddings for an entire file on feature branches
-        - Phase 3: Support code embeddings for an entire file + chunking on the main branch
-        - Phase 4: Support code embeddings for an entire file + chunking on feature branches
+    - This will be developed in 2 phases:
+        - Phase 1: Support code embeddings on the main branch
+        - Phase 2: Support code embeddings on feature branches
 
 1. Update [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) to allow for setting the codebase as an additional context.
     - Both the Frontend and Backend part of Duo Chat will be updated.
@@ -101,12 +99,7 @@ This initiative introduces or updates the following components:
 
 This is a module in the GitLab Rails monolith which will be introduced in this initiative.
 
-This makes use of the framework provided by the **[AI Context Abstraction Layer](../ai_context_abstraction_layer/)** to index the files in the codebase as vector embeddings or to perform a search over those embeddings.
-
-This is composed of 2 main parts:
-
-- The **Code Embeddings Indexer** indexes the raw content of code files as vector embeddings. The code files are chunked into logical elements using the **Code Parser** before indexing.
-- The **Code Embeddings Searcher** searches over the indexed code embeddings given a target question.
+This makes use of the framework provided by the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to index the files in the codebase as vector embeddings or to perform a search over those embeddings. For further design and implementation details, please see the [**Code Embeddings** blueprint](./code_embeddings.md).
 
 **Code Parser**
 
@@ -114,7 +107,7 @@ This is a library that does the chunking of code files into logical elements, su
 
 The Code Parser lives in its own repository so that it can be used on the Backend and Frontend.
 
-For the Backend, we will wrap the Parser in a Ruby Gem to be used by the Rails monolith.
+For the Backend, we will wrap the Parser in a Ruby Gem to be used by the **Code Embeddings** module.
 
 #### Duo Chat
 
