@@ -51,17 +51,24 @@ To achieve this, we will index the codebase as vector embeddings, referred to as
 
 When the user asks a question on Duo Chat, the system executes a semantic search over the Code Embeddings to retrieve relevant context from repositories, which is then processed by large language models to generate helpful responses.
 
+This new feature will be available to GitLab **Premium** or **Ultimate** users with the [**Duo Pro** or **Duo Enterprise**](https://docs.gitlab.com/subscriptions/subscription-add-ons/) add-ons.
+
+**Epic:** The work for this feature is tracked in [this epic](https://gitlab.com/groups/gitlab-org/-/epics/16910).
+
 ## Motivation
 
-Currently, we don't do a great job of helping customers understand their repository and code base. [Duo](https://docs.gitlab.com/user/gitlab_duo/) users can select and ask questions about specific code blocks, or ask questions of 1 or more files via `/include`. Competitors support a broader aperture -- a user can ask questions about an entire repository, or scope the context to multiple folders, multiple files, and portions of code. This functional gap is commonly mentioned by customers, and here's a [recent summary](https://docs.google.com/presentation/d/1oyuqOCzR4wzWa6Llo-EwwHdsTxMetd17X9bPYf-YMHA/edit#slide=id.g32a4294fe40_0_77) of research in this space.
+Currently, we don't do a great job of helping customers understand their repository and code base. Competitors support a broader aperture -- a user can ask questions about an entire repository, or scope the context to multiple folders, multiple files, and portions of code. This functional gap is commonly mentioned by customers, and here's a [recent summary](https://docs.google.com/presentation/d/1oyuqOCzR4wzWa6Llo-EwwHdsTxMetd17X9bPYf-YMHA/edit#slide=id.g32a4294fe40_0_77) of research in this space. [LLM's are only as good as the context we give them](https://nmn.gl/blog/ai-understand-senior-developer), so it is important that we achieve parity with our competitors in this area.
 
-This initiative aims to bridge a critical functional gap in GitLab's [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) offering by enabling users to interact with their entire codebase through natural language queries. This capability allows users to more effectively understand, navigate, and plan changes to their repositories -- a feature already offered by competing products.
+This initiative aims to bridge this critical functional gap in GitLab's [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) offering by enabling users to interact with their entire codebase through natural language queries. This capability allows users to more effectively understand, navigate, and plan changes to their repositories -- a feature already offered by competing products.
 
 ### Goals
 
 The main goal is to add the Codebase as additional context to [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/).
 
-The creation of code embeddings is included in the initial scope of this work. When indexing repositories, the main branch _as well as_ feature branches should be included.
+The creation of code embeddings is included in the initial scope of this work.
+
+- When indexing repositories, the main branch feature branches are included.
+- We will only index repositories for projects or namespaces with [Duo enabled](https://docs.gitlab.com/user/get_started/getting_started_gitlab_duo/).
 
 ### Non-Goals
 
@@ -113,9 +120,9 @@ For further design and implementation details, please see the [One Parser propos
 
 #### Duo Chat
 
-[Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) is already an existing AI feature on GitLab. This initiative introduces a change such that:
+**[Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/)** is already an existing AI feature on GitLab. This initiative enhances the feature such that:
 
-Given a question entered on Duo Chat, a semantic search is done over the code embeddings through the **Code Embeddings Searcher**. The result from this search is then used to enhance the Chat request sent to the AI model.
+Given a question entered on **Duo Chat**, a semantic search is done over the **Code Embeddings**, with the result then used as additional context to the Chat request sent to the AI model.
 
 ### Indexing the Codebase
 
