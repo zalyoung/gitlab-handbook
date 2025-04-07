@@ -247,6 +247,10 @@ sequenceDiagram
     FE->>USR: Shows the answer
 ```
 
+#### Code Embeddings Search Service
+
+This is a service class that handles the calls to the **Code Embeddings** module to perform a semantic search over the embeddings.
+
 #### Duo Chat Changes - API
 
 We need to add the following fields in the [`chat` input](https://docs.gitlab.com/api/graphql/reference/#aichatinput) of the [`aiAction`](https://docs.gitlab.com/api/graphql/reference/#mutationaiaction) GraphQL mutation:
@@ -295,7 +299,9 @@ mutation chat(
 
 ### Proposed steps for porting to the Agentic Chat architecture
 
-TBA
+Once we introduce the [Agentic Chat architecture](https://gitlab.com/groups/gitlab-org/-/epics/17182), either the **Duo Workflow Service on the AI Gateway** or the **Duo Workflow Executor on the Language Server** will need to query the vector embeddings.
+
+In order to support this, we will introduce an API over the **[Code Embeddings Search Service](#code-embeddings-search-service)** to be called either from the **Duo Workflow Service** or the **Duo Workflow Executor**.
 
 ### Proposed steps for supporting local file indexing
 
