@@ -205,7 +205,7 @@ The DRI owns the functions as outlined here:
 - Update the temporary escalation slack channel daily, at minimum
 - The escalation progress should also be communicated to the customer on a regular basis - expectation is 3 or more times a week depending on the situation.
 
-Additionally, please ensure that key escalation updates are captured in the Escalation Gainsight CTA > Timeline > Activity Type = "Health Update". Apply the "Post to Slack - Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
+Additionally, please ensure that key escalation updates are captured in the Gainsight Escalation CTA > Timeline > Activity Type = "Health Update". Apply the "Post to Slack - Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
 
  The Gainsight Escalation Update Timeline template questions are :
 1. What is the current status of the escalation?
