@@ -362,27 +362,21 @@ For some tactics, there are mutiple campaigns that occur as a part of a single i
 Two important aspects that need to be avoided when it comes when creating/editing parent campaigns are the following:
 
 1. Do not add any campaign members to the parent campaign as we want to minimize the risk of creating duplicate bizible touchpoints for the same activity.
-2. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
-3. If you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. You will only use an Allocadia ID when creating the child campaigns. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
+1. When creating a parent campaign, it should always be named with `_PARENT` at the end of the campaign name. This is so we do not double-report on campaigns.
+1. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
+1. If you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. You will only use an Allocadia ID when creating the child campaigns. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
 
 ### Create a Parent SFDC Campaign
 
-- Log in to SFDC
-- Click `Campaigns` at the top of the page
-- Click `New`
-- Fill out the `Campaign Name` field using your event campaign name and adding _PARENT at the end (example: 20250409_GoogleCloudNext_PARENT) 
-- Check the `Active` box
-- Fill in the `Type` based on the main event type (example - Conference)
-- Fill in the `Budget Holder` (example - fmm, corp, etc.)
-- Fill in start and end dates for the event
-- Select `Status` as `In Progress`
-- Make sure the campaign owner is the DRI for the event
-- Add either the Asana project or GitLab Epic to the `Epic` field
+- Create your first child campaign using the [below instructions](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns) 
+- When finished, go to the top right of the campaign and click `Clone`
+- Edit the campaign name to include _PARENT at the end (example: 20250409_GoogleCloudNext_PARENT)
+- Remove the Allocadia Sub-Category ID
+- Adjust the `Budgeting Cost in Campaign` to $1
+- Click `Save`
 
 ### How to associate a child campaign to a parent campaign in SFDC
 
-- Create the parent campaign first, using the above instructions
-- Create your first child campaign using the [below instructions](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns) 
 - Log in to SFDC and search for your child campaign
 - Once in the campaign, click the edit button next to the `Parent Campaign` field
 - Copy and paste the parent campaign name (example: 20250409_GoogleCloudNext_PARENT) into the field and click `Save`
