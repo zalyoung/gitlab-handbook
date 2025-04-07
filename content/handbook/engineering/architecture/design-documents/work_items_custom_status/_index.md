@@ -390,7 +390,7 @@ To conserve database storage we'll only backfill status data for `open` work ite
 
 Although custom status is a licensed feature, we will backfill status data for all work items
 of a given work item type regardless of license.
-We will also perform automatic status transitions for all items. 
+We will also perform automatic status transitions for all items, including those that are open, closed, or marked as duplicates. 
 
 For example a newly created work item will receive the default open status,
 and when closed, it will transition to the default closed status.
@@ -545,7 +545,7 @@ This section documents key architectural and implementation decisions made durin
 
 1. Define system-defined entities in code rather than database tables.
 1. [Status will only be available in Premium and Ultimate tier](https://gitlab.com/gitlab-org/gitlab/-/issues/498393#note_2312781591).
-1. No new permissions for work item statuses. Reuse `read_work_item` and `update_work_item`.
+1. [No new permissions for work item statuses](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/184128#note_2402077740). Reuse `read_work_item` and `update_work_item`.
 1. Use the name `STATUS` widget for custom status. Rename existing `STATUS` widget to `VERIFICATION_STATUS`
    and rename `CUSTOM_STATUS` widget to `STATUS`.
 1. [Statuses are unique across the namespace and are attached to a lifecycle](https://gitlab.com/gitlab-org/gitlab/-/work_items/517342#note_2359312888).
@@ -573,7 +573,7 @@ Please mention the current team in all MRs related to this document to keep ever
 We don't expect everyone to approve changes.
 
 ```text
-@gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani
+@gweaver @nickleonard @donaldcook @ntepluhina @msaleiko @aslota @deepika.guliani @stefanosxan
 ```
 
 Feel free to mention the following people to spread the word:
