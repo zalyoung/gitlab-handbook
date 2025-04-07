@@ -143,6 +143,7 @@ Our requirements are that we will be accessing todos in the majority of situatio
 - by snoozed status.
 
 We also have some other requirements: 
+
 - Non-functional requirement: The new database tables must not use STI.
 - Functional requirement: We need to be able to paginate. 
 
