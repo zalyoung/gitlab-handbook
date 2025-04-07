@@ -57,7 +57,7 @@ sequenceDiagram
 
     Note over FTE, LocalDB: Iterative process for each field/set of fields
     FTE->>EntApps: Submit Change Request issue to create custom fields in Zuora
-    EntApps->>ZuoraDB: Create custom fields (e.g., web_direct__c, deployment_type__c)
+    EntApps->>ZuoraDB: Create custom fields (e.g., cdot_purchasable__c)
     Note over ZuoraDB: Custom fields added to ProductRatePlan table
 
     FTE->>CDot: Develop script to extract classification knowledge from Plan class
@@ -186,12 +186,16 @@ We will iterate over the proposed custom fields picking one field / set of field
 5. Validate both logic and performance in the staging environment.
 6. Deploy the change to production and enable it for all users.
 
-The following code example illustrates steps 4 from the iteration process described above. It shows how we would replace hardcoded constants in the `Plan` class with dynamic methods that leverage the custom fields from our local Product Catalog copy. This example specifically demonstrates migrating from hardcoded constants for SaaS plans to dynamic queries based on the `web_direct__c` and `deployment_type__c` fields.
+The following code example illustrates steps 4 from the iteration process described above. It shows how we would replace hardcoded constants in the `Plan` class with dynamic methods that leverage the custom fields from our local Product Catalog copy. This example specifically demonstrates migrating from hardcoded constants for SaaS plans to dynamic queries based on the `cdot_purchasable__c` and `charge_deployment__c` fields.
 
 ```ruby
 # app/models/zuora/local/product_rate_plan.rb
-scope :web_direct, -> { where("custom_fields->>'web_direct__c' = 'true'") }
-scope :gitlab_com, -> { where("custom_fields->>'deployment_type__c' = 'gitlab_dot_com'") }
+scope :cdot_purchasable, -> { where("custom_fields->>'cdot_purchasable__c' = 'true'") }
+scope :gitlab_com, -> {
+  joins(:product_rate_plan_charges)
+    .where("product_rate_plan_charges.custom_fields->>'charge_deployment__c' = 'gitlab_dot_com'")
+    .distinct
+}
 
 # lib/plan_classifier.rb
 module PlanClassifier
@@ -200,7 +204,7 @@ module PlanClassifier
   end
 
   def self.self_service_gitlab_com_plans
-    Zuora::Local::ProductRatePlan.web_direct.gitlab_com.map(&:id)
+    Zuora::Local::ProductRatePlan.cdot_purchasable.gitlab_com.map(&:id)
   end
 end
 
