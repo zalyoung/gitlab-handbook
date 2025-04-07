@@ -497,7 +497,7 @@ To make this happen we'll [use the following approach](https://gitlab.com/gitlab
 - [Iteration 2 epic](https://gitlab.com/groups/gitlab-org/-/epics/14794)
 - Implement custom statuses
 - Board integration
-- Filter by a single status on list views
+- Filter by a single status on list views (if ready only work item list, else legacy list)
 - Status management (create, update, reorder, delete)
 - Migration from labels to statuses
 - Expand support to Issues and Epics
