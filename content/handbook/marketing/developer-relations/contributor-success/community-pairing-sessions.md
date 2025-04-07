@@ -15,12 +15,12 @@ that anyone from the GitLab community (team members and not) can attend. We cove
 - How to contribute to GitLab   
 - [GitLab Development Kit](https://gitlab.com/gitlab-community/gitlab-org/gitlab-development-kit#installation) (GDK) set up   
 - Live coding including but not limited to
-   - the [GitLab](https://gitlab.com/gitlab-community/gitlab) project
-   - a satellite/related project
-   - Backend
-   - Frontend
-   - Database
-   - Documentation
+  - the [GitLab](https://gitlab.com/gitlab-community/gitlab) project
+  - a satellite/related project
+  - Backend
+  - Frontend
+  - Database
+  - Documentation
 - How to triage issues
 - Brainstorming
 
@@ -31,10 +31,11 @@ to express their thoughts (in accordance to the [GitLab Code of Conduct](https:/
 ## When do they happen?
 
 We typically have two weekly pairing sessions. 
+
 |Day | Local time | UTC Time |
-| ------------ | ------------ | ------------ |
-| Tuesdays | 12:15 PM CET/CEST | 10:15/11:15 
-| Thursdays | 3:00 PM EDT/EST | 19:00/20:00
+| --------- | ----------------- | ----------- |
+| Tuesdays  | 12:15 PM CET/CEST | 10:15/11:15 |
+| Thursdays | 3:00 PM EDT/EST   | 19:00/20:00 |
 
 On rare occasions, a scheduled session might be skipped if none of the [organizers](#organizers)
 can attend.
