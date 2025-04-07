@@ -81,7 +81,7 @@ task forward.
 
 ## Process
 
-1. Create an MR with an overview page in the [task-groups/](task-groups/)
+1. Create an MR with an overview page in the `task-groups/`
    directory. Ensure a brief description with an actionable objective is
    included. It is generally recommended that your manager approves the MR prior
    to merging.

@@ -83,7 +83,7 @@ Systems are assigned a Critical Logging tier based on the following matrix:
   <tr>
     <td class="tg-e02t">Tier 4 Administrative</td>
     <td class="tg-zqun">Affects GitLab team members only at an individual level (e.g., quality of life, individual productivity)</td>
-    <td class="tg-zqun">Donut, Jetbrains, LinkedIn Learning, Modern Health</td>
+    <td class="tg-zqun">Donut, JetBrains, LinkedIn Learning, Modern Health</td>
     <td class="tg-zqun">Combination of Tier 2 Support and Tier 3 Non-critical and influenced by responses to BIA</td>
   </tr>
 </tbody>

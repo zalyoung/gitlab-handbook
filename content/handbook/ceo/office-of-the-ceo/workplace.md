@@ -195,7 +195,7 @@ Regardless of the nuance in the request, here are the foundational areas that sh
    - Start now! Designate a scribe if you have to. Start small, as an FAQ, and build it out.
    - Show an example of a handbook page — a great example is our [Communication page](/handbook/communication/).
 1. **Asynchronous over synchronous**
-   - Explain how GitLab requires each meeting to have an agenda and someone [documenting](/handbook/company/culture/all-remote/meetings/#document-everything-live-yes-everything).
+   - Explain how GitLab requires each meeting to have an agenda and someone [documenting](/handbook/company/culture/all-remote/meetings/#5-document-everything-live-yes-everything).
    - Explain how meeting takeaways then need to be contextualized and [added to relevant handbook pages](/handbook/company/culture/all-remote/self-service/#paying-it-forward).
    - Explain how this added burden on meeting is a [forcing-function](/handbook/company/culture/all-remote/how-to-work-remote-first/) to work first in GitLab, and rely on a meeting as a last resort.
 1. **"OK, but where do we start?"**

@@ -215,7 +215,7 @@ Learn more about [compensation in an all-remote environment](/handbook/company/c
 
 We believe that all-remote companies are at a competitive advantage when it comes to educating and developing team members.
 
-Learn more on how to make [learning and development a companywide mindset in an all-remote environment](../learning-and-development/).
+Learn more on how to make [learning and development a company-wide mindset in an all-remote environment](../learning-and-development/).
 
 ## Self-service
 

@@ -79,7 +79,7 @@ Diversity, [Inclusion](/handbook/company/culture/inclusion/) & Belonging is fund
 
 Empathy and [kindness](/handbook/values/#kindness) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication](effective-communication/) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
 
-GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#ownership), and act as a [manager of one](/handbook/values/#managers-of-one).
+GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#have-ownership--accountability), and act as a [manager of one](/handbook/values/#managers-of-one).
 
 For a greater understanding of the importance of empathy in a manager, read [GitLab's guide to combating burnout, isolation, and anxiety](mental-health/).
 

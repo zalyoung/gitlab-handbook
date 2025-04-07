@@ -6,7 +6,7 @@ description: Workflow for Support Engineers on how to get help when working on a
 
 ## Getting Help on a Ticket
 
-When [working on tickets](/handbook/support/workflows/working-on-tickets), collaboration is critical, especially when troubleshooting complex issues, or technical areas of focus that fall outside of your experience level. Asking for help means having a [low level of shame](/handbook/values/#low-level-of-shame), and also shows that you are putting the customer first because you are working towards resolving their problem.
+When [working on tickets](/handbook/support/workflows/working-on-tickets), collaboration is critical, especially when troubleshooting complex issues, or technical areas of focus that fall outside of your experience level. Asking for help means having a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding), and also shows that you are putting the customer first because you are working towards resolving their problem.
 
 ### Ask good questions
 
@@ -222,37 +222,37 @@ stateDiagram-v2
     [*] --> IssueOpened: Issue Created by Support
     IssueOpened --> Active: Add Issue Opened Label
     IssueOpened --> SupportTriage: Add Triage by Support label
-    
+
     state SupportTriage {
         SupportAuthor --> ExpertReview: Support author responds
         ExpertReview --> SupportAuthor: Support expert responds
     }
-    
+
     SupportTriage --> Active: Needs Dev Team Input
-    
+
     state Active {
         SupportComment --> DevComment: Add Last comment from support team label
         DevComment --> SupportComment: Add Last comment from dev team label
         DevComment --> NeedsInfo: Add Needs more info label
         NeedsInfo --> SupportComment: Support provides info
     }
-    
+
     Active --> PendingClosure: Inactive 14d
-    
+
     state PendingClosure {
         [*] --> Inactivity: Add Pending-Closure label
         Inactivity --> AutoClose: After 7d
     }
-    
+
     PendingClosure --> Active: Remove Pending-Closure label
     PendingClosure --> Closed: Add Issue-Closed label
     Active --> Closed: Resolution found and/or Issue Closed
     SupportTriage --> Closed: Resolution found
-    
+
     state Closed {
-        SendReminders: 
+        SendReminders:
         SendReminders --> Resolved: Add Doc-Reminder label Add Resolution-Type label
     }
-    
+
     Closed --> [*]: RFH Lifecycle complete
 ```

@@ -62,7 +62,7 @@ The intention of this is to make sure we're enabling asynchronous communication 
 #### E-Group Initiated
 
 - If an E-Group team member would like a Reverse AMA, they or their EBA will contact an associated TMRG. If there isn't an associated TMRG the E-Group member or EBA will broadcast a message through their Slack channel to see if there is a population of members for the AMA.
-- The E-Group member or EBA will create an issue (template to follow) tagging the [TMRG Leads](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels) or a nominated facilitator for a non-tmrg AMA (facilitator group to be determined), a [DIB Team Member](https://gitlab.slack.com/archives/CLLDY3L8P/p1617863963093900), and Stella Treas (Chief of Staff to the CEO)
+- The E-Group member or EBA will create an issue (template to follow) tagging the [TMRG Leads](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels) or a nominated facilitator for a non-tmrg AMA (facilitator group to be determined), a [DIB Team Member](https://gitlab.slack.com/archives/CLLDY3L8P/p1617863963093900), and Stella Treas (Chief of Staff to the CEO)
 - The TMRG Leads will consult with the TMRG membership and accept or reject the request. If accepted the TMRG leads will provide an ideal timeframe for the AMA, ideally within 4 weeks from the date of the request.
 - Once accepted the EBA will provide a series of times that are suitable
 - The E-Group member or EBA will ensure that there is a Reverse AMA facilitator for the session. (Facilitator Group link to follow)

@@ -29,7 +29,7 @@ Learning and development teams within all-remote organizations enjoy unique bene
 
 - **Faster delivery of training courses**: When your company works [asynchronously](asynchronous/), you don't have to wait for a cohort to be in the same place at the same time to administer updated material.
 - **Culture isn't lost**: Onboarding at most companies involves meet-and-greets and shallow briefs on whatever is pressing at the moment. Institutional knowledge and cultural underpinnings are largely lost due to a dearth of documentation as the company grows and experiences churn.
-- **Learning is more [inclusive](values#diversity-inclusion)**: In all-remote settings, individuals can learn in [environments that are most comfortable for them](/handbook/company/culture/inclusion/) — home, a library, a coworking space, a lakeshore, while caring for a family member, etc. This allows those who struggle to focus in group settings, or who have mobility concerns, to embrace education that they may opt out of if the setting weren't ideal.
+- **Learning is more [inclusive](/handbook/values/#diversity-inclusion)**: In all-remote settings, individuals can learn in [environments that are most comfortable for them](/handbook/company/culture/inclusion/) — home, a library, a coworking space, a lakeshore, while caring for a family member, etc. This allows those who struggle to focus in group settings, or who have mobility concerns, to embrace education that they may opt out of if the setting weren't ideal.
 
 ### What are some good resources for developing remote team skills?
 
@@ -116,7 +116,7 @@ To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportun
 >
 > Impeccable communication and trust is the backbone of any relationship. When it comes to a working environment, [those elements] make it much easier to do what you need to do. - [*Charlie A. — Senior Backend Engineer*](https://gitlab.com/cablett)
 
-Companywide trust and impeccable communication serve as the bedrock for learning and development in any company, all-remote organizations included. This relies on a [set of values](/handbook/values/) that encourages behaviors which are at odds with micromanagement.
+company-wide trust and impeccable communication serve as the bedrock for learning and development in any company, all-remote organizations included. This relies on a [set of values](/handbook/values/) that encourages behaviors which are at odds with micromanagement.
 
 Leaders should create a climate for employees where they are eager to learn new skills and improved processes rather than political tactics. For this to occur, each team member must be trusted and empowered to make decisions based on their professional experience and skill set. This is manifested through behaviors such as [reaching across departments](/handbook/values/#reach-across-company-departments), asking for help with [no fear of judgment or embarrassment](/handbook/values/#its-impossible-to-know-everything), and [speaking up](/handbook/values/#share) when values are not adhered to.
 

@@ -187,7 +187,7 @@ For information about how the user will interact with features behind flags, see
 1. Continue to iterate towards issue completion, using the feature flag to test logical slices:
    1. You may use your feature flag in more than one MR. Continue to iterate until the issue is complete.
 1. Ensure you follow the [documentation guidelines for feature flags](https://docs.gitlab.com/ee/development/documentation/feature_flags.html) and keep them up-to-date according to the feature flag state.
-1. When slices are deemed complete enough (keeping in mind [low level of shame](/handbook/values/#low-level-of-shame)), proceed to the rollout process.
+1. When slices are deemed complete enough (keeping in mind [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding)), proceed to the rollout process.
    1. Some teams may choose to close the feature issue here once it is complete, other teams may want to wait until after the rollout process is finished. If you close your feature issues after the code is present in the default branch, you should close the issue here.
 
 ### Rollout
