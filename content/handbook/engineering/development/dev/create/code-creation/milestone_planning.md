@@ -56,7 +56,7 @@ Use the [template checklist](/handbook/engineering/development/dev/create/code-c
         - Clarify the issue title, description and requirements (including the `Context`, `Proposal`, and `Acceptance Criteria` sections)
         - Break down the issue into smaller, manageable tasks if needed
         - Identify and document any dependencies or blockers
-        - Estimate the effort required and assign a corresponding weight to the issue
+        - Estimate the effort required and assign a corresponding weight to the issue. Refer to [issues estimation](#issues-estimation) section for guidance.
 5. Refinement Completion:
     - Once a team member believes the issue has been sufficiently refined, they should:
         - Post the completed refinement checklist as a comment on the issue
