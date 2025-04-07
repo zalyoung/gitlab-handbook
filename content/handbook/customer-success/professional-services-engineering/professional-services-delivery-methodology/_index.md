@@ -233,6 +233,8 @@ At project completion, the PM should:
    - Assign owners for implementation
    - Set realistic timelines for completion
 
+An example Internal Retrospective can be found [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues/18060)]. The list of inflight and completed internal retros can be found in the "PS-Plan" Gitlab Project by searching within "Titles" and the text "Internal Retro".
+
 ### Knowledge Sharing
 
 PS leadership regularly reviews retrospective data to:
