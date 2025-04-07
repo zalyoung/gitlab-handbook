@@ -133,7 +133,6 @@ We can determine the kind of activities an Access Token (Group, Project, Persona
     - `json.method`
     - `json.token_type`
 
-
 ### Deleted Group/Subgroup/Project
 
 - Example group: [gitlab-silver](https://gitlab.com/gitlab-silver/)
