@@ -185,7 +185,6 @@
 /content/handbook/engineering/development/dev/create/source-code/backend/ @andr3 @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/development/dev/create/source-code/frontend/ @andr3 @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
 
-
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/infrastructure-platforms/ @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure-platforms/tenant-scale/geo/ @luciezhao
@@ -204,7 +203,6 @@
 /content/handbook/engineering/infrastructure/ @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @marin
-/content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/team/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @denisra @plu8
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer

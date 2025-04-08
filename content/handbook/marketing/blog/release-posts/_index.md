@@ -1050,7 +1050,6 @@ It is a required field.
   - [`secure`](https://about.gitlab.com/stages-devops-lifecycle/secure/)
   - [`software_supply_chain_security`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
-  - [`data_stores`](/handbook/product/categories/#data-stores-stage)
 
 The stages display as an icon next to the product tiers' badges linking
 to the stage webpage using a regex:
@@ -1073,16 +1072,12 @@ introducing their [respective icons](https://gitlab.com/gitlab-com/www-gitlab-co
 
 ##### Custom stage URL
 
-For stages outside of the DevOps lifecycle, such as Enablement
-and Growth, which don't have the same path as the other stages
+For stages outside of the DevOps lifecycle, such as
+Growth, which don't have the same path as the other stages
 (`/stages-devops-lifecycle/<stage>`), it is necessary to add
 the `stage_url` to the content block to override the default path:
 
 ```yml
-# Enablement
-stage: data_stores
-stage_url: '/handbook/engineering/infrastructure/core-platform/'
-
 # Growth
 stage: growth
 stage_url: '/handbook/product/growth/'
