@@ -70,7 +70,9 @@ For cases that direct transfer can't or won't cover. A good example would be air
 
 - [Group import and export API](https://docs.gitlab.com/ee/api/group_import_export.html)
 
-### 2. Direct transfer (Beta)
+### 2. Direct Transfer
+
+TODO: expand this section.
 
 This feature was recently released and is the direction our product team is moving toward for migrating GitLab projects from instance to instance or SaaS. Please review the following resources:
 
