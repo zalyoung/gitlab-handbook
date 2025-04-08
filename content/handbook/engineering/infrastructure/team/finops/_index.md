@@ -31,13 +31,13 @@ Whenever possible, we encourage stakeholders to refer to the data available in o
 
 ## Educating Stakeholders
 
-* We encourage stakeholders to access our data repositories and take ownership of their use cases and views. We do our best to ensure data we find useful finds its way into our data warehouse. 
+- We encourage stakeholders to access our data repositories and take ownership of their use cases and views. We do our best to ensure data we find useful finds its way into our [data warehouse](../../../../enterprise-data/platform/_index.md).
 
 > **Important:** The FinOps team does not create or maintain dashboards (including Tableau) for other teams, as this requires deep domain knowledge that resides with the business stakeholders. Creating dashboards for the entire business is not scalable for our small team and would detract from our core responsibilities of cost analysis and optimization.
 
-* We provide the necessary data foundation, but visualization and dashboard creation are the responsibility of the teams who best understand their specific needs and data context.
+- We provide the necessary data foundation, but visualization and dashboard creation are the responsibility of the teams who best understand their specific needs and data context.
 
-📊 **Need Tableau help?** The Data team provides documentation on [getting started with Tableau](https://handbook.gitlab.com/handbook/enterprise-data/organization/programs/data-for-product-managers/).
+📊 **Need Tableau help?** The Data team provides documentation on [getting started with Tableau](../../../../enterprise-data/organization/programs/data-for-product-managers/index.md).
 
 ### Engaging with Stakeholders
 
