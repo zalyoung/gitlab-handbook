@@ -101,8 +101,11 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 ## Data Cleaning Instructions
 
 {{% panel header="**Caution**" header-bg="danger" %}}
-DO NOT MAKE CHANGES TO THE ORIGINAL SPREADSHEET OR INPUT DATA INTO IT. MAKE A COMPLETE COPY AS INDICATED IN THE LIST UPLOAD ISSUE TEMPLATE
+DO NOT MAKE CHANGES TO THE ORIGINAL SPREADSHEET OR INPUT DATA INTO IT. MAKE A COMPLETE COPY AS INDICATED IN THE LIST UPLOAD ISSUE TEMPLATE. 
+
+The list upload spreadsheet includes a protected range on the header. Changes to the header may break the bot. All spreadsheet changes need to be through Marketing Ops, with the following individuals having edit access: Nikki, Bryce, Amy, Jameson, Mihai, Rob and Jenny
 {{% /panel %}}
+
 
 <details>
 
