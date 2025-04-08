@@ -225,9 +225,94 @@ Each policy type follows its specific workflow for enforcement:
 ### Policy Enforcement in CI/CD Pipeline
 
 1. When a project pipeline runs, system checks for assigned compliance frameworks.
-2. If framework is mirrored, system retrieves the original framework from CSP Group.
-3. System retrieves all security policies scoped to the original framework.
-4. Policies are enforced against the project's pipeline.
+1. If framework is mirrored, system retrieves the original framework from CSP Group.
+1. System retrieves all security policies scoped to the original framework.
+1. Policies are enforced against the project's pipeline.
+
+### CSP Group Change Management
+
+#### Changing CSP Group Designation
+
+1. Instance administrator navigates to `Admin Area > Settings > Security and compliance`.
+1. Administrator selects a different top-level group to designate as the new CSP Group.
+1. System displays a confirmation dialog with impact information.
+1. Upon confirmation:
+   1. System updates the entry in `application_settings` table.
+   1. System marks all frameworks in the old CSP Group as `is_csp_framework = false`.
+   1. System marks all frameworks in the new CSP Group as `is_csp_framework = true`.
+   1. All mirrored frameworks linked to the old CSP Group are deleted across the instance.
+   1. All mirrored frameworks linked to the old CSP Group are removed from projects.
+   1. New frameworks from the new CSP Group are mirrored to all top-level groups.
+   1. System generates an audit event tracking the CSP Group change.
+1. UI indicators update to reflect the new CSP Group.
+
+#### Removing CSP Group Designation
+
+1. Instance administrator navigates to `Admin Area > Settings > Security and compliance`.
+1. Administrator selects "Remove CSP Group designation".
+1. System displays a confirmation dialog with impact information.
+1. Upon confirmation:
+   1. System removes the entry from `application_settings` table.
+   1. System marks all frameworks in the CSP Group as `is_csp_framework = false`.
+   1. All mirrored frameworks linked to the CSP Group are deleted across the instance.
+   1. All mirrored frameworks linked to the CSP Group are removed from projects.
+   1. System generates an audit event tracking the CSP Group removal.
+1. UI indicators are removed to reflect the absence of a CSP Group.
+
+### Compliance Framework Change Management
+
+#### Modifying a Compliance Framework in CSP Group
+
+1. CSP Group admin edits a compliance framework in the CSP Group.
+1. System triggers `CSP::FrameworkUpdatePropagationService`.
+1. Service finds all mirrored frameworks associated with the original.
+1. Service updates all mirrored frameworks with the new information.
+1. System generates audit events for each update.
+1. UI updates to show the updated framework information across all groups.
+
+#### Deleting a Compliance Framework in CSP Group
+
+1. CSP Group admin deletes a compliance framework in the CSP Group.
+1. System displays a confirmation dialog with impact information.
+1. Upon confirmation:
+   1. System marks the framework as deleted in the database.
+   1. System triggers `CSP::SyncDeletedFrameworksJob`.
+   1. Any projects that had the deleted framework assigned have that framework unassigned.
+   1. Job deletes all mirrored frameworks associated with the original.
+   1. System generates audit events for each deletion.
+
+### Security Policy Change Management
+
+#### Modifying a Security Policy in CSP Group
+
+1. CSP Group admin edits a security policy in the policy project.
+1. System updates the policy yaml.
+1. Changes take effect immediately for all projects using frameworks associated with that policy.
+1. No action is needed on mirrored frameworks as policy enforcement looks up the original framework.
+1. System generates an audit event tracking the policy change.
+
+#### Removing a Security Policy in CSP Group
+
+1. CSP Group admin removes a security policy from the policy project.
+1. System updates the policy configuration.
+1. Policy is immediately removed from enforcement across all projects.
+1. System generates an audit event tracking the policy removal.
+
+### Top-Level Group Management
+
+#### Adding a New Top-Level Group
+
+1. User creates a new top-level group.
+1. System triggers `CSP::MirrorComplianceFrameworksJob` for the new group.
+1. Job creates mirrors of all CSP Group frameworks in the new group.
+1. Group owners can immediately assign these frameworks to projects.
+
+#### Deleting a Top-Level Group
+
+1. User deletes a top-level group.
+1. System performs standard group deletion operations.
+1. All mirrored frameworks in that group are deleted as part of group deletion.
+1. No special handling is needed beyond standard group deletion.
 
 ## API Design
 
