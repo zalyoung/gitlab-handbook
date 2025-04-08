@@ -49,8 +49,8 @@ are not replicas of one another, or the same configuration with different input 
 smaller/cheaper copy of Production). They are two distinctive environments, built in parallel to one another.
 
 <p float="middle">
-  <img alt="GKE Zonal Configuration for Staging" src="./img/gke-zonal-conf-gstg.png" width="49%" />
-  <img alt="GKE Zonal Configuration for Production" src="./img/gke-zonal-conf-gprd.png" width="49%" />
+  <img alt="GKE Zonal Configuration for Staging" src="/images/engineering/infrastructure/team/gitlab-dedicated/architecture/gke-zonal-conf-gstg.png" width="49%" />
+  <img alt="GKE Zonal Configuration for Production" src="/images/engineering/infrastructure/team/gitlab-dedicated/architecture/gke-zonal-conf-gprd.png" width="49%" />
 </p>
 
 *Same Same, but Different: the GKE Zonal Configuration for Staging and Production. Similar, but not the same.*

@@ -1,5 +1,6 @@
 ---
 title: Crash Course for Product Stage Resources
+description: Overview of the most important Product Analytics related resources for each product Stage
 ---
 
 ## Objectives for this page
@@ -21,7 +22,7 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - [Features by Group handbook page](/handbook/product/categories/features/#product-planning) contains a tabular breakdown of features included in each Stage Group by Core, Premium or Ultimate categories.
 
-- [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/#definitive-guides) managed by the Data team.
+- [Definitive guides to data subject areas](/handbook/enterprise-data/data-governance/data-catalog) managed by the Data team.
 
 - [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
@@ -285,21 +286,15 @@ Primarily time series analyses for Package features on GitLab.com
 
 General and feature specific user interviews for the Package team
 
-[Demos and Speedruns](/handbook/engineering/development/ops/package/#demos--speedruns)
+[Demos and Speedruns](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf)
 
-Package Handbook section with feature and roadmap demos
+Package channel featuring demos, speed-runs and other content
 
 **Product roadmap link**
 
-[Link to product roadmap](/handbook/engineering/development/ops/package/#roadmap)
+[Link to product roadmap](https://about.gitlab.com/direction/package/)
 
 Resource to understand the long-term goals for this team
-
-**OKRs**
-
-[Link to OKRs handbook page](/handbook/engineering/development/ops/package/#okrs)
-
-Resource to understand the current OKRs for this team
 
 **Key documentation**
 
@@ -307,7 +302,7 @@ Resource to understand the current OKRs for this team
 
 It can be helpful to search for specific topics on the Package team's main page
 
-[GitLab Docs Package Page](https://docs.gitlab.com/ee/administration/packages/)
+[GitLab Docs Package Page](https://docs.gitlab.com/administration/packages/)
 
 GitLab Docs are awesome!
 
@@ -497,11 +492,11 @@ Includes Stage and Group level details
 
 **Performance indicators**
 
-[Enablement Section PI handbook page](https://internal.gitlab.com/handbook/company/performance-indicators/product/enablement-section/)
+[Engineering PI handbook page](/handbook/engineering/performance-indicators/)
 
 **Key handbook pages**
 
-[Overall Enablement Section Handbook page for Engineering](/handbook/engineering/development/enablement/)
+[Overall Data Access Section Handbook page for Engineering](/handbook/engineering/infrastructure-platforms/data-access/)
 
 **Slack channels**
 
@@ -517,7 +512,7 @@ Includes Stage and Group level details
 
 OR
 
-[All team members section of engineering page](/handbook/engineering/development/enablement/#all-team-members)
+[All team members section of engineering page](/handbook/engineering/development/growth/#all-team-members)
 
 </details>
 
@@ -566,7 +561,7 @@ Includes Stage and Group level details
 
 **Key handbook pages**
 
-[Overall Enablement Section Handbook page for Engineering](/handbook/engineering/development/enablement/)
+[Overall Enablement Section Handbook page for Engineering](/handbook/engineering/infrastructure-platforms/data-access/)
 
 **Slack channels**
 
@@ -584,7 +579,7 @@ Includes Stage and Group level details
 
 OR
 
-[All team members section of engineering page](/handbook/engineering/development/enablement/#all-team-members)
+[All team members section of engineering page](/handbook/engineering/development/growth/#all-team-members)
 
 </details>
 

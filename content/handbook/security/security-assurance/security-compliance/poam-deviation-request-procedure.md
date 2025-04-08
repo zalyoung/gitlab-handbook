@@ -133,7 +133,7 @@ There are no exceptions allowed to this procedure.
 
 ## References
 
-- [Vulnerability Management Procedure: Scanners]({{< ref "../../product-security/vulnerability-management" >}})
+- [Vulnerability Management Procedure: Scanners](/handbook/security/product-security/vulnerability-management/)
 
 ### Other helpful definitions
 

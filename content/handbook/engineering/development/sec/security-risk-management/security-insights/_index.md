@@ -25,58 +25,25 @@ to be addressed quickly.
 
 **Security Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
 
-## Threat Insights Team Structure
+## Security Insights Team Structure
 
 The Security Insights group is structured into three focused swimlanes that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/): Performance and Optimization, Projects, and AI. This subdivision is to provided bounded focus to each area: enabling us to progress on multiple fronts and reduce planning overhead.
 
-### Stable Counterparts
-
-The following members of other functional teams are our stable counterparts, and work across all swimlanes:
-
-{{% stable-counterparts role="Security Insights" other-manager-roles="Engineering Manager(.*)Security Risk Management:(.*)|Director of Engineering(.*)Security Risk Management" %}}
-
 ### Team Structure
-
-EM: {{< member-by-gitlab "nmccorrison" >}}
 
 {{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Security Risk Management:Security Insights" %}}
 
 ## Common Links
 
 * Slack channels:
-  * Main channel: [`#g_govern_threat_insights`](https://gitlab.slack.com/archives/CV09DAXEW/p1663788936706469)
-  * Stand-up updates: [`#g_govern_threat-insights_standup`](https://gitlab.slack.com/archives/C01U7T6DPNY)
-  * Engineering - All: [`#s_srm_security_eng`](https://gitlab.slack.com/archives/C05N5BLDYUT)
-  * Engineering - Team AI: [`#g_govern_threat_insights_eng_ai`](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
-  * Engineering - Team Navy: [`#g_govern_threat_insights_performance`](https://gitlab.enterprise.slack.com/archives/C07CA38UG3E)
-  * Engineering - Team Tangerine: [`#g_govern_threat_insights_projects`](https://gitlab.enterprise.slack.com/archives/C07CLAV0X33)
-* Slack aliases: `@govern_threat_insights_be`, `@govern_threat_insights_fe`
-* Google groups: eng-dev-secure-threat-insights-members@gitlab.com
-* [Threat Insights calendar](https://calendar.google.com/calendar/u/0?cid=Y19iNGQxYmYzYzY4ZTBjODZkYTE0ZDc4N2M0MjZhMDUxYWEzYzljYWRlZjIwZTcwMmNmOWRjZmEwNzQzMmRmMDNkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (internal link)
+  * Main channel: [`#g_srm_security_insights`](hhttps://gitlab.enterprise.slack.com/archives/C07UD442PQ9)
+  * Engineering - All SRM groups: [`#s_srm_eng`](https://gitlab.enterprise.slack.com/archives/C05N5BLDYUT)
 
 ### Prioritization
 
 We use our  Security Insights Priorities page for [17.x](https://about.gitlab.com/direction/security_risk_management/security-insights/17_security_insights_priorities.html) to track what we are doing, and what order to do it in.
 
-### Metrics
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
-  {{< tableau/filters "GROUP_NAME"="security insights" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
-{{< /tableau >}}
-
-### Workflow
+### Product Workflow
 
 The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
 
@@ -116,6 +83,22 @@ At the end of every week, each engineer is expected to provide a quick async iss
 
 We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on. This also enables us to automatically collate updates across swimlanes, removing some manual process.
 
+#### Indicating Status and Raising Risk
+
+Our teams use the [Health Status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) feature within issues to indicate the likelihood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
+
+Raising risk early is important. The more time we have, the more options we have. For example, issues that have not gone into review by the first Monday of the month may not have enough time to get merged. These should be considered Needs Attention or At Risk depending on their complexity and other factors.
+
+Follow these steps when raising or downgrading risk:
+
+1. Update the Health Status in the issue:
+    1. `On Track` - high confidence - there is no indication the work won't get merged by the second Tuesday of the month.
+    1. `Needs Attention` - medium confidence - the issue is blocked or has other factors that need to be discussed.
+    1. `At Risk` - low confidence - the issue is in jeopardy of missing the merge cutoff on the second Tuesday of the month.
+1. Add a comment about why the risk has increased or decreased. Copy the Engineering Manager and Project Manager for awareness.
+
+Note that an issue probably shouldn't go directly from On Track to At Risk. That pattern indicates we have missed an opportunity to discuss earlier. Consider the progression: `On Track -> Needs Attention -> At Risk`.
+
 ### Support rotation
 
 On top of our development roadmap, engineering teams need to perform tasks related to support and triage. Our team nominates an individual person to reserve capacity for these tasks. The rota is [here (internal link)](https://gitlab.com/groups/gitlab-org/govern/threat-insights/-/epics/2) This is to avoid excessive context-switching and better distribute the workload. It is important we defend our focus within the team to support the delivery of our commitments.
@@ -146,16 +129,11 @@ When dealing with Slack interactions you are expected to use the following react
 1. Monitor slack channels for questions, support requests, and alerts. The person assigned to the reaction rotation is expected to handle them primarily.
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help).
 
-* [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
-* [s_software-supply-chain-security](https://gitlab.enterprise.slack.com/archives/CFHGVJ06R)
+* [#g_srm_security_insights](https://gitlab.enterprise.slack.com/archives/C07UD442PQ9)
+* [s_srm](https://gitlab.enterprise.slack.com/archives/C07QUBQ98S1)
 * [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
-* [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
-* [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
-* Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Athreat%20insights&first_page_size=20) project for support requests.
 
-Our preference is to utilise the [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Athreat%20insights&first_page_size=20) as much as possible. This helps with visibility, tracking and review.
-
-These items must be triaged continuously which means they must be checked multiple times a week.
+We utilize a standardized [Request for Help](https://gitlab.com/gitlab-com/request-for-help) process to request formal assistance from our group . This helps with visibility, tracking and review. Please submit a new Request for Help for Security Insights using [this template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Security-Insights). 
 
 ### MR Reviews
 
@@ -173,32 +151,13 @@ We follow these guidelines when submitting MRs for review when the change is wit
 
 ### Issue Boards
 
-* [Security Insights Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754666?scope=all&utf8=%E2%9C%93&milestone_title=%23started&label_name[]=group%3A%3Asecurity%20insights)
-  * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
+* [Security Insights Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/1754666?milestone_title=Started&label_name[]=group%3A%3Asecurity%20insights)
+  * Primary board showing the stage of currently planned issues. 
 
-* [Security Insights Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420734?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Asecurity%20insights)
-  * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
-
-* [Security Insights "Ready to Pull" Board](https://gitlab.com/groups/gitlab-org/-/boards/4643978?label_name[]=group%3A%3Asecurity%20insights&label_name[]=ready%20to%20pull)
-  * Secondary board for unassigned issues that are separate from a larger effort. Ideal candidates are small features, bugs, and follow-up items.
+* [Security Insights "Who's working on what" board](https://gitlab.com/groups/gitlab-org/-/boards/7145903?milestone_title=Started)
+  * Shows issues assigned to engineers on our team.
 
 These boards show current status of issues.
-
-### Indicating Status and Raising Risk
-
-Our teams use the [Health Status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) feature within issues to indicate the likelihood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
-
-Raising risk early is important. The more time we have, the more options we have. For example, issues that have not gone into review by the 10th of the month may not have enough time to get merged. These should be considered Needs Attention or At Risk depending on their complexity and other factors.
-
-Follow these steps when raising or downgrading risk:
-
-1. Update the Health Status in the issue:
-    1. `On Track` - high confidence - there is no indication the work won't get merged by the 15th.
-    1. `Needs Attention` - medium confidence - the issue is blocked or has other factors that need to be discussed.
-    1. `At Risk` - low confidence - the issue is in jeopardy of missing the merge cutoff of the 15th.
-1. Add a comment about why the risk has increased or decreased. Copy the Engineering Manager and Project Manager for awareness.
-
-Note that an issue probably shouldn't go directly from On Track to At Risk. That pattern indicates we have missed an opportunity to discuss earlier. Consider the progression: `On Track -> Needs Attention -> At Risk`.
 
 ## Quality
 
@@ -233,7 +192,8 @@ When a feature needs to check the current license tier, it's important to make s
 
 To emulate this locally, follow these steps:
 
-1. Export an environment variable: `export GITLAB_SIMULATE_SAAS=1`[^1]
+1. Export an environment variable: `export GITLAB_SIMULATE_SAAS=1`
+   * There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
 1. Within the same shell session run `gdk restart`
 1. Admin > Settings > General > "Account and limit", enable "Allow use of licensed EE features"
 
@@ -254,8 +214,18 @@ If a team member creates an issue or finds an issue where we would be open to a 
 
 ### Group discussion
 
-We hold weekly group discussions alternating on APAC/AMER, and EMEA/AMER time zones. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Security Insights team might be thinking about. You can find the meetings on the [Threat Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1mbXHw6EYT-IqlEFguYRyLrm35f_DGA7EzGPGBCOc9ao/edit#heading=h.pt5d0o3avmun) (internal link). We hope to see you there!
+We hold group discussions every other week.  We alternate between a milestone kickoff and general discussion format. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Security Insights team might be thinking about. You can find the meetings on the [Security Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1nnjYPNKtYzbpdEz16u0U2raDdLcIFY-0ibjxGLltyG0/edit?tab=t.0#heading=h.j80itk3qkjs3) (internal link). We hope to see you there!
 
-## Footnotes
+### Metrics
 
-[^1]: There are many ways to pass an environment variable to your local GitLab instance. For example, you can create a `env.runit` file in the root of your GDK with the above snippet.
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
+  {{< tableau/filters "GROUP_NAME"="security insights" >}}
+{{< /tableau >}}

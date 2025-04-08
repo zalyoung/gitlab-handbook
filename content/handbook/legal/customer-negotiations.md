@@ -213,7 +213,7 @@ All sales-related requests for a non-standard GTM structure, including pricing a
 1. GitLab provides full transparency by including historic versions of the subscription terms. These can be found within the Agreement History section.
 1. The Subscription Agreement is agreed to by either: (i) customer clicking-through when purchasing (or downloading) software via the GitLab website, (ii) referenced in an order form that is signed by a customer, (iii) signing the negotiated subscription agreement, or (iv) passed through via partner if a customer is buying through an authorized partner.
 1. Please note that for a net-new customer that meets the negotiation thresholds, a Legal Request may be opened to request a single agreement that covers both Subscription and Professional Service Terms.
-1. GitLab has a [Master Partner Agreement](/handbook/resellers/reseller-agreement/) that can include multiple exhibits to enable partners to: (i) resell, (ii) refer, or (iii) distribute GitLab software and professional services.
+1. GitLab has a [Master Partner Agreement](/handbook/legal/reseller-agreement/) that can include multiple exhibits to enable partners to: (i) resell, (ii) refer, or (iii) distribute GitLab software and professional services.
 
 ### When does GitLab Negotiate?
 
@@ -260,7 +260,7 @@ Why will GitLab not sign a BAA?
 1. The GitLab Data Processing Addendum, usually referred to as the "DPA", can be accessed from the GitLab [Terms of Use page](https://about.gitlab.com/terms/). As stated in the GitLab Subscription Agreement, the terms of the DPA automatically apply to corporate customers.
 1. When asking questions about data privacy, customers may also raise questions about security. Generally, such questions are best directed to the [Field Security Team](/handbook/security/security-assurance/field-security/#contact-the-field-security-team). However, the following resources may be useful prior to contacting the Field Security team:
     -The [Security Practices handbook page](/handbook/security/) gives details about GitLab's organizational security.
-    -GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package/) provides details of GitLab's current security and compliance policies.
+    -GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-security-assessment-process/) provides details of GitLab's current security and compliance policies.
     -GitLab documentation explaining how to [Secure your application](https://docs.gitlab.com/ee/user/application_security/), [Secure your installation](https://docs.gitlab.com/ee/security/) and the GitLab [permissions guide](https://docs.gitlab.com/ee/development/permissions.html) are useful for helping customers understand steps they can take to secure the personal data processed by GitLab.
 
 ### Contract Lifecycle Management (CLM) Process

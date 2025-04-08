@@ -33,7 +33,7 @@ Changes to project-level rules are not reflected in any MR-level rules after the
 
 Ideally, we would like to be able to:
 
-- Allow the addition of group approval rules. Without this new architecture, propagating new and modified approval rules to projects and MRs [would be very expensive](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/48511#note_469497257). With this new architecture, that operation becomes more manageable.
+- Allow the addition of group approval rules. Without this new architecture, [propagating new and modified group approval rules](https://gitlab.com/gitlab-org/gitlab/-/issues/509984#note_2291076614) to sub groups, projects and MRs [would be very expensive](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/48511#note_469497257). With this new architecture, that operation becomes more manageable.
 - Allow users to modify inherited rules within MRs, projects, and sub-groups.
 - Facilitate updating of open MR level rules from the project level where overriding is allowed but has not occurred. For more details, see https://gitlab.com/gitlab-org/gitlab/-/issues/254958.
 - Retain inherited approval rules at the MR level, which have been modified.

@@ -2,7 +2,7 @@
 title: IT Systems Engineer
 ---
 
-The IT Systems Engineer is responsible for performing functions such as evaluation, testing, debugging and implementation of applications programs supporting the company infrastructure business processes and operations. Other functions include analyze, install, modify and support operating systems, databases, and utilities software. The IT Systems Engineer also plans, conducts and directs the analysis of business problems with automated systems solutions. This job family reports to the [IT Manager](/job-families/finance/manager-it/).
+The IT Systems Engineer is responsible for performing functions such as evaluation, testing, debugging and implementation of applications programs supporting the company infrastructure business processes and operations. Other functions include analyze, install, modify and support operating systems, databases, and utilities software. The IT Systems Engineer also plans, conducts and directs the analysis of business problems with automated systems solutions. This job family reports to the [IT Manager](/job-families/finance/information-technology/manager-it/).
 
 ## Responsibilities
 
@@ -142,13 +142,13 @@ The Staff IT Systems Engineer has all the same responsibilities as the ones outl
 
 ## Career Ladder
 
-The next step in the IT Systems Engineer job family is to move to the [IT Manager](/job-families/finance/manager-it/) job family.
+The next step in the IT Systems Engineer job family is to move to the [IT Manager](/job-families/finance/information-technology/manager-it/) job family.
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to schedule an interview with the Hiring Manager
 - Candidates will then be invited to schedule a Team technical interview with two members of the IT Operations team in a panel interview
 - Candidates will also then be invited to schedule a Technical interview with two other team members

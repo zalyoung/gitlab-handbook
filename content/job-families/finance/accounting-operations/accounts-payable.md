@@ -42,7 +42,7 @@ The Junior Accounts Payable Analyst is a grade 5. (/handbook/total-rewards/compe
 
 ### Accounts Payable Analyst (Intermediate)
 
-The Accounts Payable Analyst (Intermediate) reports to [Senior Manager, Accounts Payable](/job-families/finance/accounts-payable/).
+The Accounts Payable Analyst (Intermediate) reports to [Senior Manager, Accounts Payable](/job-families/finance/accounting-operations/accounts-payable/).
 
 #### Accounts Payable Analyst (Intermediate) Job Grade
 
@@ -80,7 +80,7 @@ The Accounts Payable Analyst (Intermediate) is a [grade 6](/handbook/total-rewar
 
 ### Senior Accounts Payable Analyst
 
-The Senior Accounts Payable Analyst reports to [Senior Manager, Accounts Payable](/job-families/finance/accounts-payable/)
+The Senior Accounts Payable Analyst reports to [Senior Manager, Accounts Payable](/job-families/finance/accounting-operations/accounts-payable/)
 
 #### Senior Accounts Payable Analyst Job Grade
 
@@ -106,7 +106,7 @@ The Senior Accounts Payable Analyst is a [grade 7](/handbook/total-rewards/compe
 
 ### Manager, Accounts Payable
 
-The Manager, Accounts Payable reports to The [Senior Manager, Accounts Payable](/job-families/finance/accounts-payable/)
+The Manager, Accounts Payable reports to The [Senior Manager, Accounts Payable](/job-families/finance/accounting-operations/accounts-payable/)
 
 #### Manager, Accounts Payable Job Grade
 

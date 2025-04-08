@@ -32,3 +32,23 @@ At a glance:
 |   **17.0**     |       **PG14**            |         **PG16**             |      PG14                        | Support for PG16 will be added to omnibus and charts between 17.0 and 17.4<br />Support for PG14 will be removed in 18.0 | |
 |     17.6       |         PG14              |           PG16               |    **PG16**                      |  | |
 |   **18.0**     |       **PG16**            |         **PG17**             |      PG16                        |  | GitLab.com will upgrade to PG17 in FY26-Q2 |
+
+## PostgreSQL Minor Release Cadence
+
+Each major Postgres version receives bug fixes and, if need be, security fixes that are released at least once every three months in what Postgres calls a "minor release." Many people will be more familiar with the term ‘patch’, which more or less refers to the same thing. 
+
+Postgres usually releases minor releases every 3 months. The target date for these releases are, unless otherwise stated, the second Thursday of February, May, August, and November.
+If the Postgres release team determines that a critical bug or security fix is too important to wait until the regularly scheduled minor release, they may make a release available outside of the minor release roadmap.
+
+We can view the Postgres minor release roadmap here: https://www.postgresql.org/developer/roadmap/
+
+The Database Operations Team (DBO Team) may or may not choose to apply each minor release after considering its release notes. When considering whether to install a minor release, we evaluate whether the bug fixes and security enhancements included are likely to be relevant in Gitlabs environment. We also take a look at community forums across the web to note if anyone reports issues with installing that minor release.
+
+Individual minor releases should be evaluated by different people from the DBO team, round robin style. It should not be one team member's sole responsibility to be aware of upcoming postgres minor releases that we may want to install. The team member responsible for evaluating the next minor release is assigned when the current minor release issue is closed. 
+
+New Minor releases should be evaluated by using the [postgresql minor release template](https://gitlab.com/gitlab-com/gl-infra/data-access/dbo/dbo-issue-tracker/-/blob/main/.gitlab/issue_templates/postgres_minor_release.md) to open an issue in the DBO Issue Tracker Repo.
+New Minor releases should be installed after opening a change request in the production repo
+
+The DBO team will usually default to waiting at least a week after a minor release is made available before beginning evaluation. 
+
+It is very important that minor releases are first installed in the staging environment, and left to run there for at least 2 weeks before they are installed in the production environment.

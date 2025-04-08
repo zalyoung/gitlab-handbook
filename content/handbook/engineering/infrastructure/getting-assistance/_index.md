@@ -56,7 +56,7 @@ We can help with:
 
 1. Runway
 
-Our Slack channel is: [#g_runway](https://gitlab.enterprise.slack.com/archives/C07UED5CGR2)
+Our Slack channel is: [fg_runway](https://gitlab.enterprise.slack.com/archives/C05G970PHSA)
 
 #### Foundations
 
@@ -64,19 +64,13 @@ Open a request for help in the [Request For Help Tracker](https://gitlab.com/git
 
 We can help with:
 
-1. Networking
+1. Networking and traffic management (CDN / VPCs / DNS / Load Balancing / Service Discovery)
 1. Rate Limiting: create an issue with the [rate limiting request template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
-1. K8s
+1. Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
+1. Kubernetes (K8s)
 1. Config
-1. Service Discovery with Consul
 1. Secrets Management with Vault
 1. ops.gitlab.net and ops runners
-1. CDN
-1. DNS
-1. Load Balancing
-1. RBAC / IAM
-1. Teleport connections: create an issue with the [teleport-troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=teleport-troubleshooting)
-1. Cloudflare: create an issue with the [Cloudflare Troubleshooting template](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
 
 Our Slack channel is: [#g_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)
 

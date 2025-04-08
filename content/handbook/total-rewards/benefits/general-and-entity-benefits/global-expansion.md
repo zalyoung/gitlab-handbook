@@ -580,10 +580,10 @@ Please refer to the [GitLab Travel page](/handbook/finance/travel/) of the Handb
 
 ### Medical
 
-Review the Medical Insurance [AXA Plan](https://drive.google.com/file/d/1-Xx71vfS0eEcNvfPIKYyqHR418QbXceD/view?usp=sharing) Guide
+Review the Medical Insurance [Daman Premium](https://drive.google.com/file/d/1JNjA1C9FF375uHsQOjtUvvBOm34cHjkl/view?usp=drive_link) Guide
 
-- Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and of eligible dependent premiums.
-- The AXA plan will be administered directly through GX.
+- Team members will be able to avail of GX’s global health insurance plan through Daman. GitLab will cover 100% of the team members' cost and of eligible dependent premiums.
+- The Daman plan will be administered directly through GX.
 - During the onboarding of a *new hire*, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform.
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 

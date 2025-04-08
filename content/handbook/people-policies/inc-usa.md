@@ -36,7 +36,7 @@ Violations of this policy, regardless of whether an actual law has been violated
 
 ### Harassment
 
-Please refer to the [GitLab Anti-Harassment Policy]({{< ref "anti-harassment" >}}) for more information.
+Please refer to the [GitLab Anti-Harassment Policy](/handbook/people-group/anti-harassment/) for more information.
 
 ## Individuals with Disabilities Policy
 

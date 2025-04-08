@@ -53,7 +53,7 @@ Some **internal** methods for communication include:
 
 ### Writing to inspire action
 
-As a PM, it is important to remember a [bias towards action](/handbook/values/#bias-for-action) (and other value actions like [sense of urgency](/handbook/values/#sense-of-urgency), [make a proposal](/handbook/values/#make-a-proposal), [boring solutions](/handbook/values/#boring-solutions), [write things down](/handbook/values/#write-things-down), [don't wait](/handbook/values/#dont-wait), [make two way doors decisions](/handbook/values/#make-two-way-door-decisions) and [accepting uncertainty](/handbook/values/#accepting-uncertainty)
+As a PM, it is important to remember a [bias towards action](/handbook/values/#operate-with-a-bias-for-action) (and other value actions like [sense of urgency](/handbook/values/#sense-of-urgency), [make a proposal](/handbook/values/#make-a-proposal), [boring solutions](/handbook/values/#boring-solutions), [write things down](/handbook/values/#write-things-down), [don't wait](/handbook/values/#dont-wait), [make two way doors decisions](/handbook/values/#make-two-way-door-decisions) and [accepting uncertainty](/handbook/values/#accepting-uncertainty)
 which enables PMs to drive an async discussion to being action oriented. Every time you write a comment or create an issue ask yourself: Will this allow us to take an action and move us forward?
 
 ### Writing about features
@@ -103,13 +103,13 @@ Here are some additional examples of well written release blog posts for inspira
 In addition to the written medium, video is an important medium that caters to the different goals you are trying to accomplish and learning styles of your audience.
 Depending on the type of video you are recording, there are some guidelines to keep in mind.
 
-As our documentation guidelines [actively encourage](https://docs.gitlab.com/ee/development/documentation/styleguide/#videos) linking video content,
-please consider following the [Documentation Style Guide section on language](https://docs.gitlab.com/ee/development/documentation/styleguide/#language),
+As our documentation guidelines [actively encourage](https://docs.gitlab.com/development/documentation/styleguide/#videos) linking video content,
+please consider following the [Documentation Style Guide section on language](https://docs.gitlab.com/development/documentation/styleguide/#language),
 and working with your technical writing team to include links to your speed runs, walk-throughs and demos at relevant locations in the product documentation.
 
 #### Using GIFs
 
-Animated GIFs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/making-gifs/)!
+Animated GIFs are an awesome way of showing of features that need a little more than just an image, either for marketing purposes or explaining a feature in more detail. Checkout our guide to [Making Gifs](/handbook/product/product-processes/making-gifs/)!
 
 #### Speed Run
 

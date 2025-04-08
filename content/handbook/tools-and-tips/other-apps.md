@@ -28,7 +28,7 @@ Here are some non-exhaustive guidelines:
 - When installing something from an "app store" of some sort, look for the reviews, the number of downloads and especially for "badges" that show that the application was reviewed by the app store. For example the Chrome Web Store has a [featured badge](https://support.google.com/chrome_webstore/answer/1050673?visit_id=638011195121439702-999154480&p=cws_badges&rd=1#cws_badges&zippy=%2Cunderstand-chrome-web-store-badges) for popular trustworthy applications
 - When in doubt, do not install the application
 
-In any case, you are encouraged to use our [Individual Use Software Request](/handbook/finance/procurement/personal-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) process prior to installing third party apps.
+In any case, you are encouraged to use our [Individual Use Software Request](/handbook/finance/procurement/individual-use-software/) process prior to installing third party apps.
 
 ## Internet browsers
 
@@ -41,9 +41,9 @@ Shut off interest based ads by setting your preferences.
 ### Browser extensions
 
 In general, if a particular application or browser extension (sometimes called a plugin) is referenced in the handbook, it is considered "approved".
-For example, [1Password](/handbook/security/#1password-guide) is centered around the browser extension.
+For example, [1Password](/handbook/security/corporate/systems/1password/) is centered around the browser extension.
 Another application is [Zoom](/handbook/tools-and-tips/#zoom), which has a scheduler extension.
-However, be sure to search for specific information about the application, in case the desktop version is recommended and the browser extension is not (e.g. [Grammarly](#grammarly)).
+However, be sure to search for specific information about the application.
 
 If you wish to use an extension not referenced in the handbook, consider the following before installing and using it:
 
@@ -56,11 +56,7 @@ Some browser extensions are listed below
 #### Adblockers
 
 Adblockers are browser extensions that can block advertising, prevent user tracking, and include other security-related features.
-A popular one recommended by the Security Team is [uBlock Origin](https://github.com/gorhill/uBlock/) which can be installed by following the links below:
-
-- [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [Edge](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak)
+A popular one recommended by the Security Team is [uBlock Origin](https://github.com/gorhill/uBlock/) which can be installed for [Chrome](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) (uBlock Origin Lite).
 
 #### One Tab
 
@@ -91,29 +87,22 @@ it still leaves vulnerabilities for [zero-day attacks](https://en.wikipedia.org/
 Sometimes you only need to capture small textual or visual changes in a web page as part of a bug report or a feature proposal.
 You can use [development tools](https://en.wikipedia.org/wiki/Web_development_tools) that are usually built-in in most browsers which allow you to select and edit page element attributes as well as move around page elements like buttons or links.
 
-You can also make the entire web page editable, using the [`designMode`](https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode) attribute, by typing `document.designMode="on";` in the development tools console or creating a bookmarklet by dragging the button below to your Bookmarks Bar.
+You can also make the entire web page editable, using the [`designMode`](https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode) attribute, by typing `document.designMode="on";` in the development tools console or creating a bookmark by dragging the button below to your Bookmarks Bar.
 
 <a href="javascript:document.body.contentEditable='true'; document.designMode='on'; void 0" class="btn btn-primary">Edit page</a>
 
 ## Notes/writing
+
+Keep in mind that some of the notes and writing tools make use of cloud servers on the back end, so do not put sensitive information into them.
 
 ### Bear
 
 [Bear (Free)](https://bear.app/) is a clean writing tool for notes and long-form writing.
 [Ulysses $5/month](https://ulysses.app/) is also a great choice.
 
-### Grammarly
-
-[Grammarly](https://www.grammarly.com) is a good tool for those who want to feel more comfortable drafting written communication in English (American or British).
-There is a free and premium version.
-
-{{% panel header="**IMPORTANT NOTE FOR GRAMMARLY**" header-bg="orange" %}}
-Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/desktop/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard/) for additional details on how data is classified across the organization.
-{{% /panel %}}
-
 ### LanguageTool
 
-As an alternative to [Grammarly](#grammarly), we can combine LanguageTool in the browser
+As an alternative to Grammarly, we can combine LanguageTool in the browser
 with a local LanguageTool server .
 This ensures that spell and grammar checking remains both convenient and confidential:
 
@@ -129,6 +118,8 @@ This ensures that spell and grammar checking remains both convenient and confide
 [Simplenote](https://simplenote.com/) is a free, open source note taking app which is cross platform, syncs across all devices, and supports markdown.
 
 ## Productivity
+
+Similar to the extensions referenced in notes and tracking, some of these tools make use of cloud servers so do not put sensitive information into them.
 
 ### Alfred
 
@@ -168,10 +159,10 @@ which are similar to the functionality provided by Calendly.
 [Calendly](https://calendly.com/) connects to your Google Calendar so people outside GitLab can easily book a time with you.
 If you are scheduling a meeting with a GitLab team-member, please use Google Calendar and follow handbook guidance when [scheduling a meeting](/handbook/communication/#scheduling-meetings).
 
-1. Set up a [Calendly](https://calendly.com/). First sign up with your GitLab email address, then accept the terms and conditions and then authentificate with your Google SSO.
+1. Set up a [Calendly](https://calendly.com/). First sign up with your GitLab email address, then accept the terms and conditions and then authenticate with your Google SSO.
 1. Link it to your GitLab Google Calendar to make it possible for people to schedule a call with you.
 1. Get your personal meeting room URL by going to [Zoom meeting settings](https://gitlab.zoom.us/meeting), selecting the *Personal Room* tab, and copying the value of *Invite Link* (do not use *Copy the invitation*).
-1. If you are using the Basic Calendly Subscription (Unpaid) you will only be able to set-up one event type at a time i.e. either a 15, 30, 45 or 60 minute event - teams making use of one of the Paid Subsciption Tiers such as Customer Support will be able to set up more than one event type.
+1. If you are using the Basic Calendly Subscription (Unpaid) you will only be able to set-up one event type at a time i.e. either a 15, 30, 45 or 60 minute event - teams making use of one of the Paid Subscription Tiers such as Customer Support will be able to set up more than one event type.
 1. Set up the desired time slot with the following event description text (replacing text in `{}` with your information) we will be using 45 minutes for the illustration purposes below:
 
 > This will be a Zoom Meeting at {Zoom personal meeting room URL}
@@ -189,7 +180,7 @@ If you are scheduling a meeting with a GitLab team-member, please use Google Cal
    You can use the "Copy Availability From" option on all the other events you have configured one event.
 
 Keep in mind that unlike normal Google Calendar events, Calendly events are not automatically synchronized between both parties when changes are made.
-If an event needs to be cancelled or modified, make sure to use Calendly to do so.
+If an event needs to be canceled or modified, make sure to use Calendly to do so.
 
 ### Freedom
 
@@ -253,7 +244,7 @@ Besides the official integrations, you can also use the Apple Shortcuts app to h
 
 1. Add a new Action in your Stream deck application. Use System > Open as template for this. You can freely choose the title of the action, this is only for your own reference and does not have to do anything with the Shortcut. As for the App/File - you can use the file locator to reference the .scpt file from step 2. Afterwards you have to click back into the input field and delete the apostrophes that were added by the file locator around the path. Now we can pass the name of the Shortcut to the script, if your Shortcut had blank spaces in its name you have to enclose it in quotes. So f.e for a Shortcut called `Active Speaker` the App/File input should contain the following `/path/to/script/ShortcutScript.scpt "Activate speaker"`
 
-1. Add more actions as you need them. Since the .scpt file is parameterized you dont have to repeat step 2 and can just use the script for all Shortcuts!
+1. Add more actions as you need them. Since the .scpt file is parameterized you don't have to repeat step 2 and can just use the script for all Shortcuts!
 
 #### Other Stream deck use cases
 
@@ -261,7 +252,7 @@ Besides the official integrations, you can also use the Apple Shortcuts app to h
 - Muting your microphone
 - Switching between speaker and headphones
 - Switching between languages and keyboard layouts
-- Starting timers (there are some great pomodoro apps that show the reminaing time on the button)
+- Starting timers (there are some great pomodoro apps that show the remaining time on the button)
 - Enabling/disabling Do not disturb mode
 - Control lightning and change scenes
 
@@ -279,7 +270,7 @@ GitHub released [Copilot](https://github.com/features/copilot/), an AI-powered t
 
 ### Shush
 
-[$4.99 tool for macOS](https://mizage.com/shush/) that lets you set a hotkey (e.g. `fn`) to mute your microphone ("push-to-talk" or "push-to-mute").
+[$4.99 tool for macOS](https://mizage.com/shush/) that lets you set a hotkey (for example `fn`) to mute your microphone ("push-to-talk" or "push-to-mute").
 Never again will you have to switch your window focus to Google Hangouts or Zoom to speak or mute.
 The icon will show the current state of your mic input (x means muted).
 With a right click (or your configured hotkey) you can switch from push to talk to push to mute.
@@ -291,7 +282,7 @@ Many USB headsets are unmutable.
 
 #### Shush alternative for Linux
 
-If you use Linux (e.g. [Arch](https://archlinux.org/), [Ubuntu](https://ubuntu.com/) or [Fedora](https://fedoraproject.org/)) you can create a system-wide keyboard shortcut to mute/unmute your mic.
+If you use Linux (examples are [Arch](https://archlinux.org/), [Ubuntu](https://ubuntu.com/) or [Fedora](https://fedoraproject.org/)) you can create a system-wide keyboard shortcut to mute/unmute your mic.
 Please note that it only works for Linux distributions which use [ALSA](https://www.alsa-project.org/wiki/Main_Page) for sounds (most popular Linux distributions use ALSA).
 All you need to do is go to your desktop environment's *Keyboard Settings* and create a custom shortcut with the command `amixer set Capture toggle` and assign a key combination of your choice (e.g. `Pause Break` key).
 Once this is done, you can mute/unmute your mic using the assigned keyboard shortcut while you're in any application.

@@ -15,7 +15,7 @@ Additionally, the Education Program seeks to evangelize the benefits of an all-r
 
 ## How to reach us
 
-* DRI: [@Akarsten1](https://gitlab.com/Akarsten1)
+* DRI: [@janasenap](https://gitlab.com/janasenap)
 * Email: `education@gitlab.com`
 
 Additionally, see the following Slack channels.
@@ -23,7 +23,7 @@ Additionally, see the following Slack channels.
 | Channel | Purpose |
 |---------|---------|
 |[#community-programs](https://gitlab.slack.com/messages/community-programs)| Communication regarding the GitLab for Education,GitLab for Open Source, and GitLab for Startups Programs.|
-|[#gitlab-for-campuses](https://gitlab.slack.com/messages/gitlab-for-campuses)| This channel is for discussing [the GitLab for Campuses](/handbook/product/packaging-and-pricing/gitlab-for-campuses/) (paid) offering |
+|[#gitlab-for-campuses](https://gitlab.slack.com/messages/gitlab-for-campuses)| This channel is for discussing [the GitLab for Campuses](/handbook/marketing/developer-relations/community-programs/education-program/gitlab-for-campuses/) (paid) offering |
 
 ## Vision and goals
 

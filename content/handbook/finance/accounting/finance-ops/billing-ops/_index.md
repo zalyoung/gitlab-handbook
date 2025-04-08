@@ -19,7 +19,7 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 
 ## Meet the Team
 
-- [Sarah McCauley](/handbook/company/team/#s_mccauley) - Senior Director, Billing & Accounts Receivable (Global)
+- [Tim Cheeney](/handbook/company/team/#tcheeney) - Director, Billing & Collections (Global)
 - [Josephine Hararah](/handbook/company/team/#josephinehararah) - Senior Manager, Billing Operations (Global)
 - [Kinga Polgardi](/handbook/company/team/#kingapolgardi) - Manager, Billing Operations (EMEA and APAC)
 - [Cristine Sotomango Marquardt](/handbook/company/team/#csotomango) - Manager, Billing Operations (AMER)
@@ -240,7 +240,7 @@ Where does GitLab currently charge tax on sales?
 
 Internal Resource: [VAT & Sales Tax Information & Resources](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/VAT%20&%20Sales%20Tax%20Information%20&%20Resources)
 
-See also: [The GitLab Tax Team](/handbook/tax)
+See also: [The GitLab Tax Team](/handbook/finance/tax/)
 
 </details>
 

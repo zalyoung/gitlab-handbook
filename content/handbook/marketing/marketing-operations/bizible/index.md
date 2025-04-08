@@ -79,13 +79,13 @@ Model Percentage = Model Accuracy x Conversion Rate x Touchpoint Uniqueness Weig
 
 The Custom Attribution Model's machine learning algorithm improves as it collects more data but does not automatically adjust stage weights. To ensure GitLab is using the best model, during the first month of the fiscal year, the Marketing Operations team updates the weight of each stage. The previous weights can be seen [on this Google Sheet](https://docs.google.com/spreadsheets/d/1gE0rLgVjz04kEEaZtw763SLcKlRcq5y4/edit#gid=1524071528).
 
-Currently the Custom Model has the following weights for each stage (updated February 1st, 2024):
+Currently the Custom Model has the following weights for each stage (updated February 14th, 2025):
 
-- **First Touch** - 19.2%
-- **Opportunity Creation** - 22.5%
-- **SAO** - 15.9%
-- **Closed (Lost, Won)** - 29.2%
-- **Middle Touches** - 13.2%
+- **First Touch** - 34.3%
+- **Opportunity Creation** - 16.9%
+- **SAO** - 13.4%
+- **Closed (Lost, Won)** - 19.4%
+- **Middle Touches** - 16%
 
 ### Online vs. Offline Touchpoints
 

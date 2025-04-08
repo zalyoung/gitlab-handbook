@@ -30,7 +30,7 @@ The archived version of the blueprint file can be found [here](https://gitlab.co
 
 ## Who
 
-Proposal:
+Architectural Design:
 
 <!-- vale gitlab.Spelling = NO -->
 
@@ -45,16 +45,8 @@ DRIs:
 
 | Role        | Who |
 |-------------|-----|
-| Leadership  | Mark Nuzzo |
 | Product     | Dov Hershkovitch |
-| Engineering | Fabio Pitino |
+| Engineering | Avielle Wolfe, Laura Montemayor |
 | UX          | Sunjung Park |
-
-Domain experts:
-
-| Area                        | Who |
-|-----------------------------|-----|
-| Verify / Pipeline authoring | Avielle Wolfe |
-| Verify / Pipeline authoring | Laura Montemayor |
 
 <!-- vale gitlab.Spelling = YES -->

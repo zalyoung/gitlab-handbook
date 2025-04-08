@@ -8,7 +8,7 @@ Maintaining an effective and efficient agenda is important to get the best out o
 
 1. Make sure you use a consistent agenda format for each 1-1.
 1. Both parties add items to the agenda. Preferably, the majority added by the team member. If the manager puts more than half of the items on the agenda this is an indication that something is wrong.
-1. Reference the [suggested format for leadership]({{< ref "suggested-agenda-format" >}}) as necessary.
+1. Reference the [suggested format for leadership](/handbook/leadership/1-1/suggested-agenda-format/) as necessary.
 
 ## Conducting a 1-1
 
@@ -146,7 +146,7 @@ Team members want feedback on their strengths, performance and their potential w
 - I see this as my career path, what career path do you see based on my skills?
 - Should I be gathering career development feedback from others?
 
-Since you are already having regular [1:1s]({{< ref "." >}}) with your team member you may have ideas regarding your team members development aspirations. Plan ahead and take the time to think about what questions they may ask and come prepared to the conversation.
+Since you are already having regular 1:1s with your team member you may have ideas regarding your team members development aspirations. Plan ahead and take the time to think about what questions they may ask and come prepared to the conversation.
 
 #### Having the discussion
 

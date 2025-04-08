@@ -160,7 +160,7 @@ Example 1: *Understand how users interact with a specific page.*
 
 Example 2: *Finding areas for improvement of a new feature for future iterations.*
 
-1. Monitor usage analytics with the [feature flag](https://docs.gitlab.com/ee/development/feature_flags/) after launching the new feature. Examine things like time on page and how many users interacted with other features during the workflow.
+1. Monitor usage analytics with the [feature flag](https://docs.gitlab.com/development/feature_flags/) after launching the new feature. Examine things like time on page and how many users interacted with other features during the workflow.
 1. Understand high-level goals by interviewing users with personas that have any chance of interacting with the new feature, as well as any persona identified in the usage data.
 1. Pair usage analytics and the interview insights to visualize workflows that interact with other features.
 1. Include priorities based on user input and time-on-page trends.

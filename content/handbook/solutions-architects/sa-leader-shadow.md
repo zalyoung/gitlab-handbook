@@ -23,7 +23,7 @@ Candidates must:
 
 1. Complete their [Individual Growth Plan (IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide)
 2. Review their IGP with their manager and discuss leadership aspirations
-3. Review the [SA Manager Operating Rhythm](https://handbook.gitlab.com/handbook/solutions-architects/sa-manager/) and discuss this with your manager
+3. Review the [SA Manager Operating Rhythm](/handbook/solutions-architects/sa-manager/) and discuss this with your manager
 
 ### How to Apply
 
@@ -36,12 +36,13 @@ Candidates must:
 | Start Date | Shadow Name | Geo Preference (can be multiple) |
 |-------|---------|---------|
 | FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR |
-| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) |  |
-| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) |  |
+| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | AMER |
+| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | EMEA |
 | FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
 | FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
+| FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA |
 | FY26 Q3 |  |  |
-| FY26 Q4 |  |  |
+| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |
 | FY27 Q1 |  |  |
 | FY27 Q2 |  |  |
 
@@ -115,19 +116,34 @@ The shadow experience leading up to, during, and after the 2-week shadow is orga
 
 ## Suggested Reading
 
-- [Leaders Eat last](https://simonsinek.com/books/leaders-eat-last/)
-- [Tribes](https://www.amazon.it/Tribes-We-Need-You-Lead/dp/1591842336)
+- [Amp It Up](https://www.amazon.com/Amp-Unlocking-Hypergrowth-Expectations-Intensity/dp/1119836115)
+- [Creativity Inc](https://www.amazon.com/Creativity-Inc-Expanded-Overcoming-Inspiration/dp/0593594649/r)
+- [Crucial Conversations](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328)
 - [Empathy: Why it matters](https://www.amazon.com/Empathy-Why-Matters-How-Get/dp/0399171401)
-- [The Speed of Trust](https://speedoftrust.com/)
-- [The Culture Map](https://www.amazon.co.uk/Culture-Map-Decoding-People-Cultures/dp/1610392760?pd_rd_w=P7BoC&content-id=amzn1.sym.ec8f623a-d4f7-4017-b387-58abf6ea18ca&pf_rd_p=ec8f623a-d4f7-4017-b387-58abf6ea18ca&pf_rd_r=59XH7ARR3R406KVPJ79G&pd_rd_wg=DCguM&pd_rd_r=753167c2-5900-4c19-b32f-537fbbf73058&pd_rd_i=1610392760)
-- [The Chimp Paradox](https://www.amazon.com/Chimp-Paradox-Impulses-Determine-Happiness/dp/009193558X)
-- [The Sales Engineer Manager's Handbook](https://www.amazon.co.uk/gp/product/B087GKLVBZ/ref=kinw_myk_ro_title)
-- [Multipliers](https://www.amazon.co.uk/gp/product/B01KT18416/ref=kinw_myk_ro_title)
-- [The Making of a Manager](https://www.amazon.co.uk/gp/product/B07DXGGDCQ/ref=kinw_myk_ro_title)
-- [Team Topologies](https://www.amazon.co.uk/gp/product/B09JWT9S4D/ref=kinw_myk_ro_title)
+- [Give and Take](https://www.amazon.com/Give-Take-Helping-Others-Success/dp/0143124986)
+- [Hidden Potential](https://www.amazon.com/Hidden-Potential-Science-Achieving-Greater/dp/0593653149)
+- [High Output Management](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884)
 - [How To Win Friends and Influence People](https://www.amazon.co.uk/gp/product/B07FY2WWZG/ref=kinw_myk_ro_title)
-- [The Challenger Sale](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591844355/ref=sr_1_1?crid=1R47T9R3OXW2O&dib=eyJ2IjoiMSJ9.b2GpG6Bth1nvC0dnBNNhs-NlvKFJFO_IX9eN7bYqcw-2zWIHZveWBb_gdF_xxEY7g6FqlwMgljuwZMmkHjrKBb_c3lMVWuXoOTnM0539Loquzuny_t6zSUQ4fh-hv8LYEH2kPFQbEJvTyEe00SttSFaRw-YjznMCVkndai4sG1cqnAoBU8tJVKUpHMnl1eH4bl2YCcIg4jRmjjPMGzbf-8pxhJh1L4KJuVnnBhQxt-o.ON7BWwuTILo5LUwZ7F7hoUn_up45l5mrzS3UXCAnaAQ&dib_tag=se&keywords=the+challenger+sales&qid=1732094566&s=books&sprefix=the+challenger+sales%2Cstripbooks-intl-ship%2C198&sr=1-1)
+- [Leaders Eat Last](https://simonsinek.com/books/leaders-eat-last/)
+- [Multipliers](https://www.amazon.com/dp/B06XXZSZRJ/?bestFormat=true&k=multipliers%20by%20liz%20wiseman&ref\_=nb_sb_ss_w_scx-ent-pd-bk-d_de_k0_1_26&crid=2PPH1IUS27UWF&sprefix=Multipliers%20by%20Liz%20Wiseman)
+- [Necessary Endings](https://www.amazon.com/Necessary-Endings-Henry-Cloud/dp/0061777129/)
+- [Radical Candor](https://www.amazon.com/Radical-Candor-Kick-Ass-Without-Humanity/dp/1250103509)
+- [Team Topologies](https://www.amazon.co.uk/gp/product/B09JWT9S4D/ref=kinw_myk_ro_title)
+- [The Art of Leadership](https://a.co/d/j1FKT8C)
+- [The Challenger Sale](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591844355/)
+- [The Chimp Paradox](https://www.amazon.com/Chimp-Paradox-Impulses-Determine-Happiness/dp/009193558X)
+- [The Culture Map](https://www.amazon.co.uk/Culture-Map-Decoding-People-Cultures/dp/1610392760)
+- [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
+- [The Ideal Team Player](https://www.amazon.com/Ideal-Team-Player-Recognize-Cultivate/dp/1119209595)
+- [The Leader Lab: Core Skills to Become a Great Manager, Faster](https://www.amazon.com/Leader-Lab-Tania-Luna/dp/1119793319)
+- [The Leader Who Had No Title](https://www.amazon.com/Leader-Who-Had-No-Title/dp/1439109133)
+- [The Making of a Manager](https://www.amazon.com/Making-Manager-What-Everyone-Looks/dp/0735219567)
 - [The Qualified Sales Leader](https://www.amazon.co.uk/dp/B09236J2XX/ref=pe_33573471_635671331_TE_M1DP)
+- [The Sales Engineering Manager's Handbook](https://www.amazon.com/Sales-Engineer-Managers-Handbook-Mastering/dp/B087FFMMBW/)
+- [The Speed of Trust](https://speedoftrust.com/)
+- [The Tao of Coaching](https://www.amazon.com/Tao-Coaching-Effectiveness-Inspiring-Developing/dp/1781253323)
+- [Think Again](https://www.amazon.com/Think-Again-Power-Knowing-What/dp/1984878123)
+- [Tribes](https://www.amazon.it/Tribes-We-Need-You-Lead/dp/1591842336)
 
 **Share Your Leadership Journey:** Have you read a book, article, or resource that significantly influenced your development as a leader? We welcome your contributions - please submit an MR to add your transformative reading recommendations to this page.
 

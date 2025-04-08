@@ -143,7 +143,7 @@ Team members who have been continuously employed by GitLab for at least 3 months
 
 Team members who have been continuously employed by GitLab for at least 3 months immediately before their child's due date may be entitled to 2 weeks of government-paid paternity leave. Please visit the [Ministry of Manpower website](https://www.mom.gov.sg/employment-practices/leave/paternity-leave) for more information on eligibility.
 
-- For [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}) team members, this leave runs concurrently with GitLab Parental Leave. If eligible, team members would receive up to 16 weeks of paid paternity leave.
+- For [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) team members, this leave runs concurrently with GitLab Parental Leave. If eligible, team members would receive up to 16 weeks of paid paternity leave.
 
 **Applying for Government-Paid Paternity Leave**
 

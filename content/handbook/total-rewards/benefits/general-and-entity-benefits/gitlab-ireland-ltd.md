@@ -60,9 +60,9 @@ Please submit your receipts via navan and prescription to Total Rewards.
 
 ## Pension
 
-GitLab offers a private pension plan via a defined contribution scheme. Orca Financial is an Irish owned Financial Services company to help with the administration of the pension on behalf of GitLab. The pension provider is **Aviva**. Aviva allows for transfers into the plan and can set up an AVC pension for any members that wish to contribute above the minimum required contribution.
+GitLab offers a private pension plan via a defined contribution scheme. NFP Ireland (formerly Orca Financial) is an Irish owned Financial Services company to help with the administration of the pension on behalf of GitLab. The pension provider is **Aviva**. Aviva allows for transfers into the plan and can set up an AVC pension for any members that wish to contribute above the minimum required contribution.
 
-Orca has put together the following [video](https://docs.google.com/document/d/1i5ir2xMWMIQznq-tEGCmTkSfZ_GuuV46ARlKhAGYrS0/edit) with information about the plan as a resource.
+NFP Irleand has put together the following [video](https://docs.google.com/document/d/1i5ir2xMWMIQznq-tEGCmTkSfZ_GuuV46ARlKhAGYrS0/edit) with information about the plan as a resource.
 
 ### Pension Match
 
@@ -70,19 +70,35 @@ GitLab will match up to 5% of annual base salary of the team member's contributi
 
 ### Enrollment
 
-To enroll in the pension plan or to make changes to an existing contribution, please email `total-rewards@gitlab.com` with the desired percent contribution. Total Rewards will add Orca Financial `employeebenefits@orca.ie` to the email thread. Orca will gather all relevant information from the team member to add to the pension plan. On the 7th of every month, Orca will send Payroll and Total Rewards a summary of any changes to the pension plan which Total Rewards will update in the appropriate payroll changes spreadsheet. Total Rewards will also file the original election email in Workday under the "Benefits and ISO" folder for an audit trail.
+#### How to Enroll
 
-After each pay cycle, Payroll will send Aviva (ccing Orca and Total Rewards) a spreadsheet with all contributions for Aviva to reconcile.
+1. *Create a copy or download* this [Aviva Pension Form](https://docs.google.com/spreadsheets/d/1hM7jZbBVFRRNsSqm02QBWYU4d4WLJ6pw/edit?gid=917049255#gid=917049255) (do not enter your details directly on this form)
+2. *Complete the Form* with your details
+3. *Email the completed form* to employeebenefits@nfpireland.ie from your GitLab email address, and they will help enroll you into the plan
 
-If you have any questions about a pension plan, how pension benefits work in Ireland, or anything else, please reach out to Orca Financial who will be able to assist you directly. Email: `employeebenefits@orca.ie` Phone: `+353 1 2103030`
+Please see the [Pension Benefits FAQ](https://drive.google.com/file/d/10VEGE29XqHfCpM-axOXrW2vpmBgL3umn/view?usp=sharing) for new joiners
+
+#### How to make changes to Existing Contributions
+
+1. Reach out to employeebenefits@nfpireland.ie with your updated contribution amount via your GitLab Email Address
+
+#### Additional Enrollment Details, Questions and Assistance
+
+Team Membes that enroll after the 7th of the month will be enrolled the following month. After each pay cycle, Payroll will send Aviva (ccing NFP Ireland and Total Rewards) a spreadsheet with all contributions for Aviva to reconcile.
+
+Team Members can also set up a session with NFP Ireland to walk through how pension benefit work or ask any questions about the pension plan. Please reach out to NFP Ireland Financial who will be able to assist you directly. Email: `employeebenefits@nfpireland.ie` Phone: `+353 1 210 0210`
 
 You will be able to review the investment strategy once enrolled through the Fund centre on the Aviva website.
+
+### Pension Plan Leavers (Leaving Gitlab)
+
+Please see the [Leaver Benefit Summary](https://drive.google.com/file/d/1GJpVSKGanT6xNg9wfKAd20N2trVjCGL5/view?usp=sharing) for more details on how the pension plan is treated and your options when you leave the plan.  
 
 ## Death in Service
 
 All full-time GitLab team members in Ireland are eligible for death in service at 4x base annual salary. Team members are automatically enrolled in this benefit. This benefit is administered through Aviva. Team members may be contacted to complete an additional questionnaire if their covered amount is over the scheme limits, with potential medical underwriting required.  More information can be found on the [Retirement and Death Benefit Scheme Rules document](https://drive.google.com/file/d/1T1HjLXj2f3FmMiX3D4HVhpYF_k8zwvyr/view?usp=sharing).
 
-Team members can complete a [Expression of Wish Form](https://drive.google.com/file/d/1YSkmogbYIsAVhSESJXLSYBr-T_uH1x2c/view?usp=sharing) to request a beneficiary for this benefit.  Once completed, please send directly to `employeebenefits@orca.ie`
+Team members can complete a [Expression of Wish Form](https://drive.google.com/file/d/1YSkmogbYIsAVhSESJXLSYBr-T_uH1x2c/view?usp=sharing) to request a beneficiary for this benefit.  Once completed, please send directly to `employeebenefits@nfpireland.ie`
 
 ## Disability
 
@@ -136,7 +152,7 @@ From 1 January 2023, team members in Ireland are entitled to 3 days of paid sick
 - 2025: 7 days
 - 2026: 10 days
 
-Ireland's statutory sick leave policy offers a floor level of protection and does not interfere with existing, more favorable, sick pay schemes such as GitLab's [Sick Time policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}). When allowed by law, GitLab's Sick Leave policy will run concurrently with this leave policy.
+Ireland's statutory sick leave policy offers a floor level of protection and does not interfere with existing, more favorable, sick pay schemes such as GitLab's [Sick Time policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting). When allowed by law, GitLab's Sick Leave policy will run concurrently with this leave policy.
 
 #### Statutory Sick Leave Pay Calculations
 
@@ -220,7 +236,7 @@ Relevant parents can take paternity leave. These are:
 - Team members must give written notice to the Absence Management team at `leaves@gitlab.com` of their intention to take parent's leave at least 6 weeks before the intended start date.
 - You may also qualify for 7 weeks [Parent's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/parents_benefit.en.html) if you have enough social insurance (PRSI) contributions.
 - To apply for Parent's Benefit, submit your application via the [Parent's Benefit gov.ie website](https://www.gov.ie/en/service/b321b1-parents-benefit/) at least 4 weeks before the date you start your parent's leave.
-- Parent's Leave runs concurrently with [GitLab Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+- Parent's Leave runs concurrently with [GitLab Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Parental Leave
 
@@ -237,7 +253,7 @@ The Vhi Midwife Support Service is a new and improved benefit that's available t
 
 #### Applying for Maternity, Adoptive, Paternity, Parent's or Parental Leave in Ireland
 
-To initiate your leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts and contact total-rewards@gitlab.com. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts and contact total-rewards@gitlab.com. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 <details>
 <summary markdown="span">Other Types of Statutory Leave</summary>

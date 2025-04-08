@@ -25,7 +25,7 @@ Provide a space for SEs to collaborate in the context of Code Contributions.
 1. Talk with your manager.
 1. If you haven't yet, consider working on the [Code Contributions](https://gitlab.com/gitlab-com/support/support-training/-/blob/master/.gitlab/issue_templates/Code%20Contributions.md) Support training module.
 1. Add Code Contributions to your knowledge areas in the [Support Team data](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents?ref_type=heads). If it already exists, adjust your level accordingly – any level is welcome in the Pod!
-1. Optionally: Let the team and your SGG know about your new focus area.
+1. Optionally: Let the team know about your new focus area.
 1. Join the [#spt_pod_code-contributions](https://gitlab.slack.com/archives/C05DUHAG3EY) Slack channel.
 1. Add yourself to this page.
 
@@ -53,7 +53,7 @@ In addition to collaborating with fellow Support Engineers, consider some of the
 
 🌊 Want to make a code contribution but you aren't sure where to start?
 
-- Search and [filter](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#filter-the-list-of-issues) issues strategically.
+- Search and [filter](https://docs.gitlab.com/user/project/issues/managing_issues/#filter-the-list-of-issues) issues strategically.
   - Have a play around with the labels to look around for issues depending on your interests. For easier issues you can search for `Seeking community contributions`, `Accepting UX contributions` and then add additional labels accordingly
   - If the issue has a weight, look for issues with a weight of `1` for smaller issues
   - `@anton`: I typically like to look for `api` labelled issues, because they tend to be backend only changes and Ruby code is what I like working on. Where possible I like to work on issues that will directly help Support in some way.

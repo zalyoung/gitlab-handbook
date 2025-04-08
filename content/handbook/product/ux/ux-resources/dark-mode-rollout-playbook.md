@@ -5,7 +5,7 @@ description: "A step-by-step plan for product teams to directly support the roll
 
 This playbook is a step-by-step plan for product teams to directly support the rollout and implementation of dark mode in their areas of responsibility. While dark mode has been integrated into the design system, there are potential gaps and custom implementations that need to be reviewed before we can transition dark mode from Experimental (alpha) to Beta status.
 
-Once dark mode reaches Beta, it will require formal support in line with our [feature maturity guidelines](https://docs.gitlab.com/ee/policy/development_stages_support.html). Product teams will ultimately be responsible for ensuring their areas deliver a consistent and cohesive dark mode experience aligned with the design system.
+Once dark mode reaches Beta, it will require formal support in line with our [feature maturity guidelines](https://docs.gitlab.com/policy/development_stages_support/). Product teams will ultimately be responsible for ensuring their areas deliver a consistent and cohesive dark mode experience aligned with the design system.
 
 By following this playbook, teams will not only contribute to a high-quality dark mode experience today but also build the expertise needed to maintain and enhance it and other modes in the future.
 
@@ -68,7 +68,7 @@ In addition to your day-to-day tools like Chrome, Figma, GDK, GitLab Duo, and ot
 
 As a prerequisite, create an epic that includes a description with a list of the most-used or important pages and their alternate UI states in your area of the product (examples in the reference section below). This list will be used for all steps by all roles. Include links, instructions, and configuration requirements needed to access the pages and UI in the product or GDK. Starting with an epic will be helpful so you can track individual issues for your findings later.
 
-There are templates for both [Figma](https://www.figma.com/design/B9mNC34Kh8PavW9TMJlVNI/Dark-mode-%3E-Evaluation-%5BDUPLICATE-ME%5D?node-id=0-1&p=f&t=x7G5uVBQYpYjw4VT-0) and [FigJam](https://www.figma.com/board/SxzD9yCWDc9AjQg8ueakFW/Dark-mode-%3E-Evaluation-%5BDUPLICATE-ME%5D?node-id=0-1&t=KCwD2TTaeNBzZKFv-1) that you can duplicate and use to annotate screenshots. If you don't have access to Figma, use the [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html) feature in GitLab to upload and annotate screenshots.
+There are templates for both [Figma](https://www.figma.com/design/B9mNC34Kh8PavW9TMJlVNI/Dark-mode-%3E-Evaluation-%5BDUPLICATE-ME%5D?node-id=0-1&p=f&t=x7G5uVBQYpYjw4VT-0) and [FigJam](https://www.figma.com/board/SxzD9yCWDc9AjQg8ueakFW/Dark-mode-%3E-Evaluation-%5BDUPLICATE-ME%5D?node-id=0-1&t=KCwD2TTaeNBzZKFv-1) that you can duplicate and use to annotate screenshots. If you don't have access to Figma, use the [Design Management](https://docs.gitlab.com/user/project/issues/design_management/) feature in GitLab to upload and annotate screenshots.
 
 #### 1. Visual review
 

@@ -53,7 +53,7 @@ ServiceNow is a SaaS Enterprise Service Management Platform that enables organiz
 | **Internal**: Inquiry is from a current GitLab team member | [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab). |
 | **External**: Inquiry is from a former GitLab team member or External party | people-connect@gitlab.com |
 
-GitLab remains a [Handbook First]({{< ref "handbook-usage#why-handbook-first" >}}) organization. However, in instances where the answer to a people-related question is not apparent, the next port of call would be People Connect.
+GitLab remains a [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) organization. However, in instances where the answer to a people-related question is not apparent, the next port of call would be People Connect.
 
 The People Connect email alias is restricted and active GitLab team members will **NOT** be able to email this alias, and should be utilizing [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) instead. Former team members or External parties should use the People Connect email for queries or requests.
 

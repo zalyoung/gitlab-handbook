@@ -4,7 +4,7 @@ title: "GitLab Dedicated Prospects"
 
 The purpose of this page is to hopefully help an SA onboards when they onboard a new Dedicated Customer, what are the considerations and preparation material during the onboarding/discovery phase. Based on past interactions with existing GitLab Dedicated customers and due to the usually longer nature of onboarding customers, a [collaboration project](/handbook/solutions-architects/processes/collaboration-project/) is recommended to keep all stakeholders aware and engaged.
 
-A collaboration template specifically for dedicated customers is available as a template here (https://gitlab.com/gitlab-com/account-management/templates/dedicated-collaboration-project).
+A collaboration template specifically for dedicated customers is available as [a template here](https://gitlab.com/gitlab-com/account-management/templates/dedicated-collaboration-project)
 
 Most of the details discussed below are also available as individual issues which provides a good place to include your product managers and customers to collaborate.
 
@@ -12,7 +12,8 @@ Most of the details discussed below are also available as individual issues whic
 
 - [GitLab Dedicated Issue Tracker Board](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/boards)
 - [Customer Onboarding Process](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md#customer-onboarding-process)
-- Slack Channel: #f_gitlab_dedicated
+- Slack Channel Dedicated Engineering: [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/archives/C01S0QNSYJ2)
+- Slack Channel Dedicated SMEs: [#sme-dedicated](https://gitlab.enterprise.slack.com/archives/C07K39TGATB)
 - [Category Direction Page](https://about.gitlab.com/direction/saas-platforms/dedicated/)
 
 ## Administration

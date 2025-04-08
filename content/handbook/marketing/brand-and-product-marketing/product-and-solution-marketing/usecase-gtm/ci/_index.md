@@ -61,7 +61,7 @@ CI purchasing typically does not require executive involvement. It is usually ac
 
 Examples of comparative research for this use case are listed just below. Additional research relevant to this use case can be found in the [Analyst Reports - Use Cases](https://docs.google.com/spreadsheets/d/1vXpniM08Ql0v0yDd22pcNmXpDrA-NInJOwj25PRuHXA/edit?usp=sharing) spreadsheet.
 
-- [Forrester Wave for Cloud-Native CI Tools](/analysts/forrester-cloudci19/)
+- [Forrester Wave for Cloud-Native CI Tools](https://about.gitlab.com/analysts/forrester-cloudci19/)
 
 ## Market Requirements
 
@@ -336,7 +336,7 @@ The table includes free/community and paid tiers associated with GitLab's self-m
 
 ### Product Adoption - Lighthouse Metrics and Leading Indicators for CI
 
-The SSOT Handbook Page for Product Adoption - Lighthouse Metrics and Leading Indicators can be found in the [Enterprise Data Team Handbook](https://internal.gitlab.com/handbook/enterprise-data/company-kpis/product-adoption-lighthouse-metrics/)
+The SSOT Handbook Page for Product Adoption - Lighthouse Metrics and Leading Indicators can be found in the [Enterprise Data Team Handbook](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/product-adoption-lighthouse-metrics/)
 
 #### Additional Documentation Links
 

@@ -1,5 +1,6 @@
 ---
 title: Cells Infrastructure Team
+description: "Information about the Cells Infrastructure Team"
 ---
 
 ## Vision

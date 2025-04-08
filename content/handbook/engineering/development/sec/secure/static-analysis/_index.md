@@ -78,21 +78,7 @@ The process for monitoring, responding to, and mitigating incidents is documente
 
 ### Software delivery in Static Analysis
 
-While we follow GitLab's product development flow, our processes as an engineering team most closely resemble kanban. Engineers are empowered to choose issues from the planning issue and pull them through the identified states.
-
-| State | Expected Outcomes |
-| ----- | ----------------- |
-| `~workflow::planning breakdown` | - Issues deemed complete and understood.<br />- Issue split into smallest testable units of value.<br />- We try to split issues vertically rather than horizontally. Splitting vertically means the whole system will do something noticeably different; splitting horizontally results in trying to realize the fullest possible change in an individual component.<br />- If the issue can - and should - be split into separate issues, engineers are empowered to create the new issues, attach them to the epic they are working, and collaborate with product management on if they are included in current scope. |
-| `~workflow::refinement` | - Implementation plan<br />- Relative size applied as weight. |
-| `~workflow::ready for development` | Issue deemed to be `~Deliverable`, stretch, or possibly punted to a future iteration. |
-| `~workflow::in dev` | Last MR is up and out of Draft or WIP status. |
-| `~workflow::in review` | Last MR is merged and changes are available in a production environment. |
-| `~workflow::verification` | Changes functionally tested in a production environment. |
-| `~workflow::complete` | Code is verified, the work is complete, and the issue is closed. |
-
-#### Weights
-
-We assign issue weights according to our stage's [issue weight definitions](/handbook/engineering/development/sec/secure/workflow/#possible-values).
+We follow the AST stage [Planning](/handbook/engineering/development/sec/secure/planning) process.
 
 #### How we commit to delivering work in a milestone
 

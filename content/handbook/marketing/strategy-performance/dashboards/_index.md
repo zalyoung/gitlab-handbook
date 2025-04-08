@@ -7,7 +7,7 @@ description: "Marketing Analytics creates and maintains dashboards using our mar
 
 Marketing Analytics uses a hierarchical system when building dashboards to help guide the allowable complexity and frame the data for the intended user.
 
-At the highest level, TD Marketing Key Dashboards are intended to provide insights into our top KPIs, while TD Marketing Functional Dashboards give the detailed insights functional marketing teams need. Ad hoc dashboards are meant to answer one-off questions, and are not meant to be used for ongoing KPI reporting. "TD" stands for Trusted Data, and it refers to models inside and from the common schema (see the [Data Team handbook page here](/handbook/enterprise-data/platform/#tdf) for more details)
+At the highest level, TD Marketing Key Dashboards are intended to provide insights into our top KPIs, while TD Marketing Functional Dashboards give the detailed insights functional marketing teams need. Ad hoc dashboards are meant to answer one-off questions, and are not meant to be used for ongoing KPI reporting. "TD" stands for Trusted Data, and it refers to models inside and from the common schema (see the [Data Team handbook page here](/handbook/enterprise-data/how-we-work/data-development) for more details)
 
 | Level              | Intended User                   | Intended Use (examples)      |
 |--------------------|---------------------------------|------------------------------|

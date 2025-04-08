@@ -400,7 +400,6 @@ Let's define their differences first;
   - It is not a finished job.
   - Canceled is a user requested interruption of the job. The intent is to abort the job or stop pipeline processing as soon as possible.
   - We don't know the result, there is no artifacts, etc.
-  - Since it's never run, the `after_script` is not run.
   - Its eventual state is "canceled" so no job can run after it.
     - There is no `when: on_canceled`.
     - Even `when: always` is not run.
@@ -409,7 +408,6 @@ Let's define their differences first;
   - It is equal answer of the system to success. The fact that something is failed is relative,
     and might be desired outcome of CI execution, like in when executing tests that some are failing.
   - We know the result and [there can be artifacts](https://docs.gitlab.com/ee/ci/yaml/index.html#artifactswhen).
-  - `after_script` is run.
   - Its eventual state is "failed" so subsequent jobs can run depending on their `when` values.
     - `when: on_failure` and `when: always` are run.
 

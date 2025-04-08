@@ -17,8 +17,8 @@ The following teams comprise the Ops sub-department:
   - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), [jtbd](/handbook/engineering/development/ops/verify/runner/jtbd/)
   - CI Platform - [handbook](/handbook/engineering/development/ops/verify/ci-platform/)
 - Package stage - [handbook](/handbook/engineering/development/ops/package/), [jtbd](/handbook/engineering/development/ops/package/jtbd/)
-  - Container Registry - [handbook](/handbook/engineering/development/ops/package/container-registry/)
-  - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
+  - Container Registry - [handbook](/handbook/engineering/development/ops/package/)
+  - Package Registry - [handbook](/handbook/engineering/development/ops/package/)
 - Deploy stage
   - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
 

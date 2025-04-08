@@ -24,7 +24,7 @@ The following people are permanent members of the Verify:CI Platform group:
 
 - [Issue tracker: `~group::ci platform`](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=group%3A%3Aci+platform&scope=all)
 - [Slack channel: `#g_ci-platform`](https://gitlab.slack.com/archives/CPCJ8CCCX)
-- Issue board - TBD
+- [Issue board: `CI Platform Workflow`](https://gitlab.com/groups/gitlab-org/-/boards/7604546)
 
 ## Dashboards
 
@@ -83,7 +83,7 @@ The CI Scaling group supports the feature categories described below:
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Continuous Intergration Scaling` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Continuous+Integration+Scaling) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3AContinuous%20Integration%20Scaling) | [Direction](https://about.gitlab.com/direction/verify/#continuous-integration-ci-scaling) | Documentation - TBD |
+| `Category:Continuous Integration (CI) Scaling` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Continuous+Integration+%28CI%29+Scaling) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3AContinuous%20Integration%20%28CI%29%20Scaling) | [Direction](https://about.gitlab.com/direction/verify/#continuous-integration-ci-scaling) | Documentation - TBD |
 
 ## Developer Onboarding
 

@@ -1,5 +1,5 @@
 ---
-title: "Workato - Draft"
+title: "Workato"
 ---
 
 ## What is Workato?

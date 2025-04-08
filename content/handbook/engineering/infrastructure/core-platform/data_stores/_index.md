@@ -9,5 +9,5 @@ Develop the tooling and frameworks to support the scalability and reliability of
 ## Teams
 
 * [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
-* [Database Reliability](/handbook/engineering/infrastructure-platforms/data-access/database-framework-reliability/)
-* [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)
+* [Database Reliability](/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
+* [Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/)

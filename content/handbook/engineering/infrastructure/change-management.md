@@ -396,5 +396,4 @@ Exceptions to this process must be [tracked](https://gitlab.com/gitlab-com/gl-in
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security/)
-- [Change Management Controls](/handbook/security/security-assurance/security-compliance/guidance/change-management/)
+- [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/)

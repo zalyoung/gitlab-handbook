@@ -4,7 +4,7 @@ title: "Production Engineering Ops Team"
 
 ## Mission
 
-The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes that are vital to the succesfull operations of GitLab.
+The Ops team is an infrastructure team under Infrastructure Platforms that focuses on improving processes that are vital to the succesfull operations of GitLab.
 
 ## Vision
 
@@ -30,7 +30,7 @@ Should you require assistance from the Ops team, please open an issue in the [Pr
 ### Project Management
 
 The Ops team top level Epic can be found [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176).
-We follow the Infrastructure SaaS Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/).
+We follow the Infrastructure Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/).
 
 #### OKRs
 
@@ -95,7 +95,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 
 #### Monthly Availability Updates
 
-The Ops Team is responsible for ensuring the published Monthly Availability Updates are maintained.  This is currently a manual process.   Items to update include:
+The Ops team is responsible for ensuring the published Monthly Availability Updates are maintained.  This is currently a manual process.   Items to update include:
 
 1. [Historical Service Level Availability](/handbook/engineering/monitoring/#historical-service-level-availability) including [maintenance windows](https://status.gitlab.com/pages/history/5b36dc6502d06804c08349f7) from the month in the comments
 
@@ -138,6 +138,13 @@ All our welcome to participate in the process of identifying trends.  EOCs, espe
 1. Week 4: Add an item to the [Reliability Leadership Sync Agenda](https://docs.google.com/document/d/1K-od3_I1TsMcyLag-KyUw-iuCAaaqjR0GIbrmBwVU4M/edit#) and include a summary of action items created.  Please include severity for each item.
 1. Week 4: Send a final reply to the announcement thread indicating that the process is closed for the month.
 
+#### System patching notifications
+
+The Ops team maintains a project [patching-notifier](https://gitlab.com/gitlab-com/gl-infra/ops-team/toolkit/patching-notifier) that automates the creation of GitLab issues when security problems are detected on our VM based infrastructure.
+
+Details relating to the operation of this notification system can be found in
+our [runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/security-patching/linux-os/notifications.md?ref_type=heads).
+
 ## Continuous Disaster Recovery Testing and Practice
 
 The Ops team creates, manages, and coordinates regular DR Practices (or "Gamedays") to test and measure our Disaster Recovery processes.
@@ -147,6 +154,16 @@ The Ops team creates, manages, and coordinates regular DR Practices (or "Gameday
 ## Team Members
 
 {{< team-by-manager-slug manager="kkyrala" >}}
+
+## Roadmaps
+
+The Production Engineering Ops team maintains roadmaps for our key focus areas:
+
+- [View All Roadmaps](roadmaps/)
+
+## Team Impact Overviews
+
+- [2025 Team Impact](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26146)
 
 ## Common Links
 

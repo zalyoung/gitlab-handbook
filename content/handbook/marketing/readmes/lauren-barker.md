@@ -5,7 +5,7 @@ description: "Learn more about working with Lauren Barker"
 
 ## Lauren Barker README
 
-I'm [Lauren Barker](/handbook/company/team/#laurenbarker), Engineering Manager for Digital Experience. I lead by creating inclusive environments that empower teams to exceed their goals. I do this with strategic collaboration, communication, and a dose of humor. [I'm currently working on these projects](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3289410?iteration_id=Current&assignee_username=laurenbarker).
+I'm [Lauren Barker](/handbook/company/team/#laurenbarker). I lead by creating inclusive environments that empower teams to exceed their goals. I do this with strategic collaboration, communication, and a dose of humor. 
 
 ### How I work
 

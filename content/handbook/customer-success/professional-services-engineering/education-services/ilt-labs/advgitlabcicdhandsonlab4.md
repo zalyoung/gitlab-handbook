@@ -2,7 +2,10 @@
 title: "GitLab Advanced CI/CD - Hands-On Lab: Reviewing Best Practices"
 description: "This Hands-On Guide walks you through common best practices for CI/CD in GitLab"
 ---
-> Estimate time to complete: 15 minutes
+
+The goal of this lab is to use things like hidden jobs and map merges to help make your code more concise, and avoid repitition.
+
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -28,35 +31,33 @@ default:
 install deps:
   stage: deps
   script:
-    - npm install jest-junit
+    - npm install jest jest-junit
   cache:
-    key: node_mod
+    key: $CI_COMMIT_REF_SLUG
     paths:
       - node_modules
   
-  test binarysearch:
-    before_script:
-      - npm install -g jest
-    script:
-      - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-    cache:
-      key: $CI_COMMIT_REF_SLUG
-      paths:
-       - node_modules
+test binarysearch:
+  stage: test
+  script:
+    - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+     - node_modules
 
-  test linearsearch:
-    before_script:
-      - npm install -g jest
-    script:
-      - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-    artifacts:
-      when: always
-      reports:
-        junit: junit.xml
-    cache:
-      key: $CI_COMMIT_REF_SLUG
-      paths:
-        - node_modules
+test linearsearch:
+  stage: test
+  script:
+    - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+  artifacts:
+    when: always
+    reports:
+      junit: junit.xml
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - node_modules
 ```
 
 ## Task A. Simplifying your jobs
@@ -81,8 +82,9 @@ install deps:
 
     ```yml
     test binarysearch:
+      stage: test
       script:
-        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
       <<: *artifactdef
       cache:
         key: $CI_COMMIT_REF_SLUG
@@ -90,10 +92,12 @@ install deps:
           - node_modules
 
     test linearsearch:
+      stage: test
       script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
       <<: *artifactdef
-      key: $CI_COMMIT_REF_SLUG
+      cache:
+        key: $CI_COMMIT_REF_SLUG
         paths:
           - node_modules
     ```
@@ -104,7 +108,7 @@ install deps:
     stages:
       - deps
       - test
-      
+    
     workflow:
       auto_cancel:
         on_job_failure: all
@@ -127,26 +131,20 @@ install deps:
     install deps:
       stage: deps
       script:
-        - npm install jest-junit
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+        - npm install jest jest-junit
+      <<: *cachedef
 
     test binarysearch:
-      before_script:
-        - npm install -g jest
+      stage: test
       script:
-        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
       <<: [*artifactdef, *cachedef]
 
     test linearsearch:
-      before_script:
-        - npm install -g jest
+      stage: test
       script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
       <<: [*artifactdef, *cachedef]
-      
     ```
 
     > This change not only reduces the total number of lines of code, but also makes it so if the artifact changes, you only need to change it in one place, rather than multiple locations.

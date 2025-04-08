@@ -11,7 +11,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 An **Executive Business Review (EBR)** is a strategic partnership meeting where key stakeholders from both organizations assess progress and align on future priorities. Going beyond standard metrics, these sessions focus on measurable business outcomes and return on investment, ensuring the partnership continues to deliver meaningful value.
 The EBR creates a focused environment for customer leadership to share their evolving business objectives while collaboratively developing action plans to achieve them. This approach ensures resources and initiatives remain aligned with what matters most to the customer's success.
 
-![EBR One pager](static/images/customer-success/csm/engagement/EBR-One-Pager.png)
+![EBR One Pager](/images/customer-success/csm/engagement/EBR-One-Pager.png)
 
 ## Strategic Alignment with Stakeholders: The Importance of the EBR
 
@@ -106,5 +106,9 @@ A: The EBR focuses on strategic goals, but notable feature requests aligning wit
 **Q: What kind of preparation should a customer do before the EBR?**
 A: Reviewing GitLab usage and identifying upcoming initiatives or goals helps ensure a productive discussion on how GitLab can best support objectives.
 
+![EBR Banner](/images/customer-success/csm/engagement/EBR-handshake.png)
+
+Account Team EBR Planning Resources & Overview [Internal Only]: [EBR Internal Handbook Page](https://internal.gitlab.com/handbook/customer-success/csm/cs-scheduled-activities/executive-business-review/)
+
 ---
-*For further details, visit:* [GitLab Success Plans Documentation](/handbook/customer-success/csm/success-plans/)
+*For further details, visit:* [GitLab Success Plans Documentation](/handbook/customer-success/csm/success-plans/) 

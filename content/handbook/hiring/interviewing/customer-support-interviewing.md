@@ -7,7 +7,6 @@ description: "Tips on how to prepare for your interview - Customer Support"
 
 - [Support Engineer](/job-families/engineering/support-engineer)
 - [Support Engineering Manager](/job-families/engineering/support-management)
-- [Support Operations Specialist](/job-families/engineering/support-readiness-specialist)
 
 ## Tips on how to prepare for your Support Engineer interview
 
@@ -39,10 +38,10 @@ Now it's time to get excited! Here are some links that might help you understand
 - [GitLab Company Culture](/handbook/company/culture/)
 - [Informal Communication in an all-remote environment](/handbook/company/culture/all-remote/informal-communication/)
 - [Support Team Handbook](/handbook/support)
-- [Support Engineer Responsibilities]({{< ref "support-engineer-responsibilities" >}})
+- [Support Engineer Responsibilities](/handbook/support/support-engineer-responsibilities/)
 - [Support Workflows](/handbook/support/workflows)
-- [Support Team Member Time Off]({{< ref "support-time-off" >}})
-- [Jobs at GitLab - Frequently Asked Questions]({{< ref "candidate-faq" >}})
+- [Support Team Member Time Off](/handbook/support/support-time-off/)
+- [Jobs at GitLab - Frequently Asked Questions](/handbook/hiring/candidate-faq/)
 - [Working for GitLab - A Support Engineer's perspective](https://about.gitlab.com/blog/2020/08/10/working-for-gitlab-a-support-engineers-perspective/)
 - [A series of blog posts by Cynthia, our Staff Support Engineer](https://cynthiang.ca/2020/06/16/reflection-part-1-my-first-year-at-gitlab-and-on-becoming-senior/)
 
@@ -144,4 +143,4 @@ After you provide us with your references, now it's time to relax! The hiring ma
 
 Successful candidates will subsequently be made an offer. Once the offer is ready, the Recruiter will reach out to you to schedule a Zoom call to discuss its details.
 
-Questions? Check out our [Jobs at GitLab - Frequently Asked Questions]({{< ref "candidate-faq" >}})
+Questions? Check out our [Jobs at GitLab - Frequently Asked Questions](/handbook/hiring/candidate-faq/)

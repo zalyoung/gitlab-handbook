@@ -31,7 +31,7 @@ Regardless of the team, our Program Management key competencies are consistent t
 | Strategic planning | Ensures work aligns with the division's and organization's overall goals. |
 | Program management methodologies | Research, discovery, and documentation of current state processes and workflow. Creates and maintains the project plan in collaboration with team members and helps identify, mitigate, and escalate risks and issues. |
 
-*Note: Company-wide competencies can be referenced [here](/handbook/competencies/) and company-wide job frameworks can be referenced [here](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618). The competencies outlined above are intended to complement these existing artifacts, not replace them.*
+*Note: Company-wide competencies can be referenced [here](/handbook/people-group/competencies/) and company-wide job frameworks can be referenced [here](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618). The competencies outlined above are intended to complement these existing artifacts, not replace them.*
 
 ## Roles
 
@@ -43,7 +43,7 @@ Role overviews, responsibilities, requirements, and performance indicators can b
 
 - [People Operations Program Manager](/job-families/people-group/people-operations-program-manager/)
   - Key Ongoing Programs: Quarterly intake and program management of HR systems, tools, and technologies (i.e. Workday)
-- [Global Workforce Strategy Program Manager](/job-families/people-group/global-workforce-strategy/#senior-global-workforce-strategy-program-manager)
+- [Global Workforce Strategy Program Manager](/job-families/people-group/global-workforce-strategy/#global-workforce-strategy-analyst)
   - Key Ongoing Programs: Own employment solution model across every country and PEO relationships
 - [People Compliance Program Manager](/job-families/people-group/people-compliance/)
   - Key Ongoing Programs: Cross-functional programs that mitigate risk and drive success, People policy and labor-law related program iterations and implementations (US and EMEA)

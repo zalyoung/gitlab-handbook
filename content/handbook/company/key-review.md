@@ -41,7 +41,7 @@ A Key Review should not be cancelled without permission. Permission to cancel or
 Required invitees are members of E-Group, the CoS to the CEO, the EBA to the CFO, and the EBAs to the CEO.
 Optional attendees are other team members as designated by their E-Group leader.
 
-Key Review Meetings may contain [material non-public information (MNPI)](/handbook/enterprise-data/data-management/#data-categorization). As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite.
+Key Review Meetings may contain [material non-public information (MNPI)](/handbook/enterprise-data/data-governance/data-management/#data-categorization). As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite.
 
 If the Key Review meeting will not contain MNPI, it can be privately livestreamed to GitLab Unfiltered.
 
@@ -78,7 +78,7 @@ E-Group members can **optionally** choose to include additional material. Some m
 1. An agenda document will be linked from the calendar invite for participants to log questions or comments for discussion and to any additional track decisions & action items.
 1. KPIs should be covered. This can be in the memo and/or links to the handbook.
 1. Wherever possible, the KPI or KR being reviewed should be compared to Plan, Target, or industry benchmark.
-1. There is no presentation; the meeting is purely Q&A. Of course, people can ask to talk them through a slide. If you want to present, please [post a YouTube video](/marketing/marketing-operations/youtube/) and link that from the slide deck, agenda, and/or Slack.
+1. There is no presentation; the meeting is purely Q&A. Of course, people can ask to talk them through a slide. If you want to present, please [post a YouTube video](/handbook/marketing/marketing-operations/youtube/) and link that from the slide deck, agenda, and/or Slack.
 1. The Staff EBA to the CFO is responsible for coordinating a central submission document for materials to be linked in 5 business days in advance of the meeting.
 1. All Key Review material, excluding memos that should be submitted on the specified date, should be linked 5 business days in advance in the [FY25 & FY26 Key Reviews SSOT](https://docs.google.com/spreadsheets/d/1cAomghJzvww1iikBVgbanOIgg4nuEKZRnK1hDh7sN6k/edit?gid=0#gid=0) on the KR Summary & Materials tab.
 1. The agenda document should include a presentation link that is accessible to all team members on the invite, as well as a Q&A section.

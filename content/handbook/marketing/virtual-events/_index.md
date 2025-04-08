@@ -226,7 +226,7 @@ In order to stay compliant with all regulatory policies as it relates to marketi
 
 Please add the following language when creating your Zoom registration landing page:
 
->By registering for this event, you agree that GitLab may email you about its products, services and events. You may opt-out at anytime by unsubscribing in emails or visit our [communication preference center](/handbook/company/preference-center/).
+>By registering for this event, you agree that GitLab may email you about its products, services and events. You may opt-out at anytime by unsubscribing in emails or visit our [communication preference center](https://about.gitlab.com/company/preference-center/).
 
 If you are creating a self-service partner virtual event, please add the following language when creating your Zoom registration landing page and replace `[partner name]` with the name of the partner:
 

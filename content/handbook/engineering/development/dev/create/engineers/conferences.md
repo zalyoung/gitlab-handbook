@@ -56,7 +56,7 @@ On top of all benefits of attending the conference mentioned above, when speakin
 * Bolster your personal brand and spread the word about GitLab
 * Improve your public speaking and communication skills
 
-For more information on speaking at conferences, check out the [Speaking Resources](/handbook/marketing/corporate-communications/speaking-resources/) and [Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/) handbook pages.
+For more information on speaking at conferences, check out the [Developer Advocacy CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps/) handbook.
 
 ## How do I go about requesting permission to attend a conference?
 

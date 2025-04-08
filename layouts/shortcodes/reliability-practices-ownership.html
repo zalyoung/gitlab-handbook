@@ -6,8 +6,8 @@
     {{ $stageName := .display_name }}
     {{- with .groups }}
         {{- range . }}
-            {{- if .infra_reliability_team_tag }}
-                {{- $members := where $team "departments" "intersect" (slice .infra_reliability_team_tag) }}
+            {{- if .sre_team_tag }}
+                {{- $members := where $team "departments" "intersect" (slice .sre_team_tag) }}
                 {{- $stageGroups = merge $stageGroups (dict (printf "%s:%s" $stageName .name) (dict "group" .name "team" $members)) }}
             {{- end }}
         {{- end }}

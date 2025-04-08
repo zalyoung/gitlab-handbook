@@ -6,7 +6,7 @@ title: "IT Management"
 
 ## Manager, IT
 
-The Manager, IT reports to the [Sr Director, IT Operations](/job-families/finance/director-it-operations/).
+The Manager, IT reports to the Sr Director, IT Operations.
 
 ### Manager, IT Job Grade
 
@@ -125,13 +125,13 @@ Familiarity with data management policies and regulations (GDPR, SOX, PCI)
 
 ## Career Ladder
 
-The next step in the Manager, IT End User Services is to move to the [Director, IT Operations](/job-families/finance/director-it-operations/) job family.
+The next step in the Manager, IT End User Services is to move to the Director, IT Operations job family.
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a first interview with our Director of IT Operations
 - Next, candidates will be invited to schedule a second interview with our Manager of IT Operations
 - Next, candidates will be invited to schedule one or more interviews with members of the Business Technology team

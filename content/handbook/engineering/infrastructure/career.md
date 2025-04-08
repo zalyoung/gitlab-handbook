@@ -100,7 +100,7 @@ Specific ways to work in the internship:
 
 ## Staff+ IC Gearing in Infrastructure
 
-GitLab Engineering employs a gearing method for determining the reporting relationship and number of Staff+ roles, generally referred to as [Staff+ IC Gearing Ratios](/handbook/engineering/career-development).
+GitLab Engineering employs a gearing method for determining the reporting relationship and number of Staff+ roles, generally referred to as [Staff+ IC Gearing Ratios](/handbook/engineering/careers/).
 
 ### Site Reliability Teams IC Gearing
 
