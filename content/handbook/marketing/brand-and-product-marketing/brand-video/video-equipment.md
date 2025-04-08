@@ -7,9 +7,9 @@ The Brand Video team is here to help you capture the highest quality audio and v
 
 ## Video Kits
 
-### Basic Virtual Kit 
+### Basic Virtual Kit
 
-Camera Options 
+Camera Options
 
 - [Osbot Meet 2](https://www.amazon.com/OBSBOT-Lightweight-Microphone-Space-Grey/dp/B0D9W7J9SK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Scm66GTON31gLOVjxaQbNyz7k1llbSkBM08cIqKC9vinnGh8BFeHhQ802fPOaXc8xeOjTwLe6LOzPXn5bOoFGSo3QGWBDd6YSpiARs_sfsY1IvFhguVewm72QWWyrFKYWQRA6sEKFEuft5168jCmWZBcQ7-Gy0PCNNAsPzwZABbu-33iVUOit3TnLFg1y5IT840p-xXz4Evzni2qd9X7EQ.Dc3hk1MzmSv65h0_sp41JxW9Vv5pNHDORAufzKjjJ9o&dib_tag=se&hvadid=711523476421&hvdev=c&hvexpln=67&hvlocphy=9199171&hvnetw=g&hvocijid=5178176774050132995--&hvqmt=e&hvrand=5178176774050132995&hvtargid=kwd-2425433071877&hydadcr=917_1014953023&keywords=osbot%2Bmeet%2B2&mcid=f9a070067c333778a5cd63d6916ad300&qid=1743098407&sr=8-1&th=1)
 - [Logitech MX Brio Ultra HD 4K](https://www.logitech.com/en-us/shop/p/mx-brio-4k-webcam.960-001545)
@@ -84,7 +84,6 @@ USB & XLR-compatible microphone options
 ### Lighting 
 
 Lighting plays an important role in making webinar and streaming content look polished and professional. We prefer using LED panel lights positioned slightly offset rather than ring lights, as ring lights can shine directly into the viewer's face and create an unnatural glare in the eyes. Using LED panels at an angle helps create a more natural, flattering look without harsh reflections. You can learn more about [color temperatur](https://giggster.com/guide/color-temperature-chart/) to help with lighting adjustment. 
-
 
 - [Elgato Key Light Mini](https://www.elgato.com/us/en/p/key-light-mini)
  A compact, powerful LED panel light with adjustable brightness and color temperature, designed for portable and professional lighting on the go.
