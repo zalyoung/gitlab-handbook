@@ -395,7 +395,7 @@ The payment capture link functionality is a tool by which Opportunity Owners can
 
 Step by step guide:
 
-Please see this [video](https://gitlab.highspot.com/items/67eed0799d4500646857ac40?lfrm=shp.1) (with a scenario that requires quote approvals) for a visual walkthrough of the below steps.
+Please see this [video](https://gitlab.highspot.com/items/67eed1b04e5bc5ca5624e8a1?lfrm=rhp.0) (with a scenario that requires quote approvals) for a visual walkthrough of the below steps.
 
 1. After you have reached the **Select "Sold To" and "Bill To" contacts.**  step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide, select **Credit Card** under the **Payment Method** dropdown menu.
 1. Complete the **To Add Products to your quote,** step of the [New Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote) step by step guide and add approriate discounts if needed.
