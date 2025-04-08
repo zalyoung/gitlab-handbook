@@ -87,7 +87,7 @@ If an escalation is opened as high or critical, and the escalation is product re
 - This page describes the account level risk meaning the customer impacting issues could be a single incident or an aggregation of issues. The assessment considers impact to the customer, risk to future business with that customer, and GitLab brand.
 - Technical Support is ultimately accountable for driving resolution to the support case, including escalation to Engineering, Security, and/or Infrastructure teams.  Incident escalation processes should be leveraged for a single incident / support case.
 
-- [Declare a GitLab.com Incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-through-slack) if you suspect a widespread issue on GitLab.com
+- [Declare a GitLab.com Incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) if you suspect a widespread issue on GitLab.com
 - [Escalate an individual support ticket to Support Management](/handbook/support/internal-support/support-ticket-attention-requests) for cases with context that necessitate they should be handled outside of standard priority order.
 - Have the customer [trigger Emergency Support](https://about.gitlab.com/support/#how-to-trigger-emergency-support) for S1/instance down issues to connect directly with the Support Engineer on-call.
   - You can also [page the on-call support manager](/handbook/support/on-call/#engaging-the-on-call-manager) in cases where you've received word that a customer attempted to raise an emergency, but the on-call engineer was not paged.
