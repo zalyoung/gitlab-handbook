@@ -1,31 +1,54 @@
 ---
-title: Guidelines on public discussion of, and reference to, competitor product features
-description: "Guidelines applicable to discussion of, and reference to, competitor product features and sharing of screenshots of competitor products in public issues, GitLab documentation (https://docs.gitlab.com/), and other public-facing media."
+title: Guidelines on Public Discussion of Competitor Product Features
+description: "These guidelines govern how to discuss and reference competitor product features and screenshots in public issues, GitLab documentation, and other public-facing media."
 ---
 
-## Scope
+\# Guidelines on Public Discussion of Competitor Product Features
 
-These Guidelines apply to all discussion of, and reference to, competitor product features and sharing of screenshots of competitor products in public issues, in GitLab documentation, and other public-facing forums, whether initiated, or shared, by team members or members of the GitLab community.
+These guidelines govern how to discuss and reference competitor product features and screenshots in public issues, GitLab documentation, and other public-facing media.
 
-These Guidelines do not apply to discussions of, reference to, competitor product features, nor sharing of competitor screenshots, in confidential issues, materials for internal use, or on platforms only accessible to GitLab team members like [MURAL](/handbook/product/ux/ux-resources#tools). For clarification on what constitutes external vs internal use, see the [External vs Internal use](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) section of the [Materials Legal Review Process](/handbook/legal/materials-legal-review-process/#self-serve-materials-compliance-resources).
+\#\# Scope
 
-"**Screenshots**" when used in these Guidelines means screenshots and screen recordings, wherever obtained, including those taken from publicly-available sources like YouTube videos and competitor or third-party websites, and directly from competitor products themselves.
+\- \*\*Applies to\*\*: All public discussions of competitor product features and screenshots in public issues, GitLab documentation, and other public-facing forums, whether initiated by team members or community members.
 
-## Dos and don'ts
+\- \*\*Does not apply to\*\*: Discussions in confidential issues, internal materials, or platforms accessible only to GitLab team members (like MURAL). For clarification on external vs. internal use, see the [External vs. Internal Use](https://handbook.gitlab.com/handbook/legal/materials-legal-review-process/#external-vs-internal-use) section of the Materials Legal Review Process.
 
-Do:
+\- \*\*Screenshots\*\*: Defined as screenshots and screen recordings from any source, including publicly available sources (YouTube videos, websites) or directly from competitor products.
 
-- Initiate, and engage in, general discussions about competitor product features. For example, a discussion about the advantages and disadvantages of collaborate.ly's new implementation of merge commit messages, which includes screenshots of collaborate.ly's product obtained from publicly-available sources, is permissible.
-- Share screenshots of competitor products for the purpose of illustration and commentary when initiating or engaging in general discussions about competitor product features, provided screenshots are obtained from a publicly-available source and not from products accessed via a free trial, or via a free or paid account.
-- Engage in general discussions about competitor product features in response to screenshots shared by community members.
-- Include screenshots of competitor products in GitLab's documentation (https://docs.gitlab.com/) for reference purposes, for example, in instructions on migrating from a third-party platform to GitLab, integration with another platform, or use of GitLab CI/CD in a third-party repository.
-- Reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) with any questions.
+\#\# Do
 
-Do not:
+\- Initiate and engage in general discussions about competitor product features, including analysis of advantages and disadvantages.  
+    
+  \*Example: "collaborate.ly's merge commit message implementation has an interesting approach to handling conflicts. GitLab solves this differently by..."\*
 
-- Publicly share screenshots of competitor products without commentary or critical analysis.
-- Initiate, or engage in, discussions proposing plans or suggesting that there are plans to directly copy competitor product features verbatim, whether or not such discussions include screenshots of competitor products. For example, discussion of a proposal to copy verbatim collaborate.ly's implementation of merge commit messages is not permissible.
-- Publicly share screenshots of competitor products taken directly from products via a free trial, or a free or paid account for competitive analysis.
-- Publicly share screenshots of competitor products that include the competitor's logo or any other third-party logos, other than logos that are included as part of the product user interface.
+\- Share screenshots obtained from publicly available sources (not from free trials or paid accounts) when providing illustration and commentary.  
+    
+  \*Example: Sharing a screenshot from a competitor's public documentation page to discuss UI differences.\*
 
-For additional guidelines related to competitive intelligence, see  Guidelines for leveraging third-party SaaS free trials to gain competitive intelligence on the [Legal Product Guidance page](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/#guidelines-for-leveraging-third-party-saas-free-trials-to-gain-competitive-intelligence) accessible to team members only.
+\- Respond to community members who share competitor screenshots in discussions.
+
+\- Include competitor screenshots in GitLab documentation for reference purposes (for example, in migration instructions, integration guidance, or CI/CD usage in third-party repositories).  
+    
+  \*Example: Including screenshots in migration documentation that show where to find export options in the competitor's interface.\*
+
+\- Contact [#legal](https://app.slack.com/client/T02592416/C78E74A6L) with any questions or concerns.
+
+\#\# Do not
+
+\- Share competitor screenshots without accompanying commentary or critical analysis.  
+    
+  \*Example: Posting a competitor's dashboard screenshot with no context or discussion.\*
+
+\- Discuss plans to directly copy competitor features verbatim, with or without screenshots.  
+    
+  \*Example: "We should copy collaborate.ly's exact implementation of merge commit messages."\*
+
+\- Publicly share screenshots taken directly from competitor products via free trials or paid accounts for competitive analysis.  
+    
+  \*Example: Taking screenshots while logged into a competitor's product during a free trial period and sharing them publicly.\*
+
+\- Share screenshots that include competitor logos or third-party logos (except logos that are part of the product's user interface).  
+    
+  \*Example: Sharing a screenshot that shows a competitor's logo in the header or footer of their website.\*
+
+For additional guidelines on competitive intelligence, GitLab team members can refer to the internal-only ["Guidelines for use of third-party services for competitor benchmarking"](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/productguidance/\#guidelines-for-use-of-third-party-services-for-competitor-benchmarking) on the Legal Product Guidance page (accessible to team members only).
