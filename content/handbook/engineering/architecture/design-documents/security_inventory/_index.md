@@ -143,6 +143,61 @@ The system will utilize the following tables:
     last_call timestamp with time zone NOT NULL,
     traversal_ids bigint[] DEFAULT '{}'::bigint[] NOT NULL
    );
+   ```
+
+2. **analyzer_namespace_statuses**
+
+   ```sql
+    CREATE TABLE analyzer_namespace_statuses (
+    id bigint NOT NULL,
+    created_at timestamp with time zone NOT NULL,
+    updated_at timestamp with time zone NOT NULL,
+    namespace_id bigint NOT NULL,
+    analyzer_type smallint NOT NULL,
+    success bigint DEFAULT 0 NOT NULL,
+    failure bigint DEFAULT 0 NOT NULL,
+    traversal_ids bigint[] DEFAULT '{}'::bigint[] NOT NULL
+   );
+   ```
+
+3. **vulnerability_statistics** - Existing:
+   ```sql
+   CREATE TABLE vulnerability_statistics (
+    id bigint NOT NULL,
+    created_at timestamp with time zone NOT NULL,
+    updated_at timestamp with time zone NOT NULL,
+    project_id bigint NOT NULL,
+    total integer DEFAULT 0 NOT NULL,
+    critical integer DEFAULT 0 NOT NULL,
+    high integer DEFAULT 0 NOT NULL,
+    medium integer DEFAULT 0 NOT NULL,
+    low integer DEFAULT 0 NOT NULL,
+    unknown integer DEFAULT 0 NOT NULL,
+    info integer DEFAULT 0 NOT NULL,
+    letter_grade smallint NOT NULL,
+    latest_pipeline_id bigint,
+    archived boolean DEFAULT false NOT NULL,
+    traversal_ids bigint[] DEFAULT '{}'::bigint[] NOT NULL
+   );
+   ```
+
+4. **vulnerability_namespace_statistics**
+   ```sql
+   CREATE TABLE vulnerability_namespace_statistics (
+    id bigint NOT NULL,
+    created_at timestamp with time zone NOT NULL,
+    updated_at timestamp with time zone NOT NULL,
+    namespace_id bigint NOT NULL,
+    total integer DEFAULT 0 NOT NULL,
+    critical integer DEFAULT 0 NOT NULL,
+    high integer DEFAULT 0 NOT NULL,
+    medium integer DEFAULT 0 NOT NULL,
+    low integer DEFAULT 0 NOT NULL,
+    unknown integer DEFAULT 0 NOT NULL,
+    info integer DEFAULT 0 NOT NULL,
+    traversal_ids bigint[] DEFAULT '{}'::bigint[] NOT NULL
+   );
+   ```
 
 
 ### Constraints
