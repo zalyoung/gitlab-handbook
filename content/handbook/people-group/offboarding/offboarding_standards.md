@@ -110,4 +110,4 @@ Exceptions to this policy must be approved by People Connect.
 - [Information Security Parent Policy](/handbook/security/)
 - [GitLab Offboarding](/handbook/people-group/offboarding/)
 - [GitLab Offboarding FAQ](/handbook/people-group/offboarding/faq/)
-- [Offboarding Automation Flow](handbook/people-group/engineering/offboarding/)
+- [Offboarding Automation Flow](/handbook/people-group/engineering/offboarding/)
