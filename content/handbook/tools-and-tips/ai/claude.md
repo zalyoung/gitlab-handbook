@@ -14,7 +14,7 @@ Open [claude.ai](https://claude.ai/) and use your team member email address for 
    - Review the [AI At GitLab usage guidelines and FAQ](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#usage-guidelines-and-faqs)
 1. [Claude.ai support articles collection](https://support.anthropic.com/en/collections/4078531-claude-ai)
 1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
-1. Join the [#ai-at-gitlab Slack channel](https://gitlab.enterprise.slack.com/archives/C085M5071LG)
+1. Join the [`#ai-at-gitlab` Slack channel](https://gitlab.enterprise.slack.com/archives/C085M5071LG)
 
 ## Tips
 
