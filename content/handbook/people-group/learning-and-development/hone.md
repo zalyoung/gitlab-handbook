@@ -29,7 +29,7 @@ We will provide available seats to ICs based on availability starting MARCH 3,20
 
 As part of this partnership, we're running two targeted programs for all people leaders in 2025:
 
-### H1 Program (February - July 2024)
+### H1 Program (February - July 2025)
 
 Focus areas:
 
@@ -38,7 +38,7 @@ Focus areas:
 
 Note: Session availability may vary. As demand increases, more sessions will become available. Spanning H1 allows enough time for all people leaders to find dates and times that work. Hone is aware of this H1 focus and will support accommodating session availability as needed. Each of these workshops is 60 minutes.
 
-### H2 Program (August - December 2024)
+### H2 Program (August - January 2025)
 
 Contingent on adoption, engagement, and feedback data; program content will be announced closer to the launch date.
 
