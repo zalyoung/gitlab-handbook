@@ -11,14 +11,89 @@ The goal of this page is to document resources needed for day-to-day work within
 
 - [Team Handbook](/handbook/engineering/development/ops/verify/runner/)
 - [Internal Engineering Handbook](https://internal.gitlab.com/handbook/engineering/)
-- [Runner SaaS HQ issue](https://gitlab.com/groups/gitlab-org/-/epics/9969)
 - [Public Runner Docs](https://docs.gitlab.com/runner/)
 - [Public Development Docs](https://docs.gitlab.com/runner/development/)
 - [Runner Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ci-runners)
-- [GitLab.com Triage](https://dashboards.gitlab.net/d/RZmbBr7mk/gitlab-triage?orgId=1) (for situational awareness)
 - [Blueprints](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints) (search for `runner`)
 
-### Metrics and logs
+## Projects we maintain
+
+As a team we maintain several projects. The <https://gitlab.com/gitlab-com/runner-maintainers> group
+is added to each project with maintainer permission. We also try to align tools and versions used across them.
+
+### Product projects
+
+- [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner)
+- [GitLab Runner Operator for Kubernetes](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator)
+- [GitLab Runner Helm Chart](https://gitlab.com/gitlab-org/charts/gitlab-runner)
+- [GitLab Runner UBI offline build](https://gitlab.com/gitlab-org/ci-cd/gitlab-runner-ubi-images)
+
+### Runner component projects
+
+- [Taskscaler](https://gitlab.com/gitlab-org/fleeting/taskscaler)
+- [Fleeting](https://gitlab.com/gitlab-org/fleeting/fleeting)
+- [Fleeting Plugin AWS](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-aws)
+- [Fleeting Plugin Google Compute](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-googlecompute)
+- [Fleeting Plugin Azure](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-azure)
+- [Fleeting Plugin Static](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-static)
+- [Nesting](https://gitlab.com/gitlab-org/fleeting/nesting)
+- [Docker Machine (fork)](https://gitlab.com/gitlab-org/ci-cd/docker-machine)
+- [Custom Executor Autoscaler](https://gitlab.com/gitlab-org/ci-cd/custom-executor-drivers/autoscaler)
+
+### CI Steps projects
+
+- [Step Runner](https://gitlab.com/gitlab-org/step-runner)
+- [Action Runner](https://gitlab.com/gitlab-org/components/action-runner)
+
+### Helper projects
+
+- Linters
+  - [Runner linters Docker images](https://gitlab.com/gitlab-org/ci-cd/runner-tools/runner-linters)
+  - [goargs linter](https://gitlab.com/gitlab-org/language-tools/go/linters/goargs)
+- Testing
+  - [DinD image tests](https://gitlab.com/gitlab-org/ci-cd/tests/dind-image-tests)
+  - [SaaS Runner Tests](https://gitlab.com/gitlab-org/ci-cd/tests/saas-runners-tests/)
+- Release
+  - [Process](https://gitlab.com/gitlab-org/ci-cd/runner-tools/releases)
+  - [Release tool](https://gitlab.com/gitlab-org/ci-cd/runner-tools/releaser)
+  - [GitLab Changelog](https://gitlab.com/gitlab-org/ci-cd/runner-tools/gitlab-changelog)
+  - [Release index generator](https://gitlab.com/gitlab-org/ci-cd/runner-tools/release-index-generator)
+- Maintenance
+  - [Runner Pod Cleanup](https://gitlab.com/gitlab-org/ci-cd/gitlab-runner-pod-cleanup)
+
+### Runner SaaS projects
+
+- Images
+  - [Linux](https://gitlab.com/gitlab-org/ci-cd/shared-runners/images/gcp/linux-cos)
+  - [MacOS host](https://gitlab.com/gitlab-org/ci-cd/shared-runners/images/aws/macos-nesting)
+  - [MacOS VM 12 and before](https://gitlab.com/gitlab-org/ci-cd/shared-runners/images/macstadium/orka)
+  - [MacOS VM 13 and after](https://gitlab.com/gitlab-org/ci-cd/shared-runners/images/job-images)
+  - [Windows](https://gitlab.com/gitlab-org/ci-cd/shared-runners/images/gcp/windows-containers)
+- Configuration and Deployment
+  - [Monitoring in K8s](https://gitlab.com/gitlab-com/gl-infra/ci-runners/k8s-workloads)
+  - [Terraform Runner Workers](https://gitlab.com/gitlab-com/gl-infra/config-mgmt/-/tree/master/environments) (all `ci*` and `r-saas-*` folders)
+  - [Chef Runners](https://gitlab.com/gitlab-com/gl-infra/chef-repo/) (all `runner-mananger*` roles)
+  - [Chef Runner Cookbook](https://gitlab.com/gitlab-cookbooks/cookbook-gitlab-runner)
+  - [Chef Runner Cookbook Wrapper](https://gitlab.com/gitlab-cookbooks/cookbook-wrapper-gitlab-runner)
+  - [Ansible Playbooks](https://gitlab.com/gitlab-com/gl-infra/ci-runners/deployer)
+  - [Windows Runners](https://ops.gitlab.net/gitlab-com/gl-infra/ci-infrastructure-windows/)
+  - [GRIT](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit.git)
+- Operations
+  - [Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ci-runners)
+  - [MacOS Runbooks](https://gitlab.com/gitlab-org/ci-cd/shared-runners/macos) (deprecated)
+
+### GitLab projects that rely on Runner public-facing APIs
+
+The following projects depend on the public Runner APIs, and should be taken
+into consideration in the scope of any changes/deprecations to the public API surface:
+
+| Project | API |
+|---------| --- |
+| [GitLab Terraform Provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab) | [REST API](https://docs.gitlab.com/ee/api/api_resources.html) |
+| [GitLab CLI](https://gitlab.com/gitlab-org/cli) | [REST API](https://docs.gitlab.com/ee/api/api_resources.html) |
+
+
+## Metrics and logs
 
 - Dashboards
   - [Runner Service Overview](https://dashboards.gitlab.net/d/ci-runners-main/ci-runners-overview?orgId=1)
