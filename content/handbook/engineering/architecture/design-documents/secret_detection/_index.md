@@ -151,6 +151,7 @@ as self-managed instances.
 - [003: Run scan within subprocess](decisions/003_run_scan_within_subprocess)
 - [004: Standalone Secret Detection Service](decisions/004_secret_detection_scanner_service)
 - [005: Use Runway for service deployment](decisions/005_use_runway_for_deployment)
+- [006: Unified SD Support for all GitLab Environments](decisions/006_support_for_all_environments)
 
 ## Challenges
 
