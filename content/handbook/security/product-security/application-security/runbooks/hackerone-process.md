@@ -7,7 +7,6 @@ title: "HackerOne Process"
 
 ### High-level description of the process
 
-
 GitLab's HackerOne process manages vulnerability reports through a structured workflow where security researchers submit findings through HackerOne, which are then triaged by the HackerOne team before moving to GitLab's security team. The AppSec engineer on rotation assigns, validates, and imports valid reports into GitLab issues, calculating CVSS scores to determine severity and bounty amounts. They follow specific protocols for different vulnerability types (exposed secrets, vulnerability chaining, DNS takeovers), maintain regular communication with reporters, and ensure proper remediation tracking. After fixes are deployed, reports are closed and may be publicly disclosed following a 30-day waiting period, with successful reporters potentially earning both bounties and Ultimate licenses.
 
 ## Key Stakeholders and Responsibilities
@@ -488,5 +487,3 @@ License duration: 1 year
 ## Troubleshooting and Special Cases: Frequently Asked Questions
 
  TBD
-
-
