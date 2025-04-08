@@ -64,21 +64,45 @@ Everyone is encouraged to move issues to different workflows if they feel they b
 
 If an issue is `> 3 weight`, it should be promoted to an epic (quick action) and split it up into multiple issues. It's helpful to add a task list with each task representing a vertical feature slice (MVC) on the newly promoted Epic. This enables us to practice "Just In Time Planning" by creating new issues from the task list as there is space downstream for implementation. When creating new vertical feature slices from an epic, please remember to add the appropriate labels - `devops::plan`, `group::*`, `Category:*` or `feature label`, and the appropriate `workflow stage label` - and attach all of the stories that represent the larger epic. This will help capture the larger effort on the roadmap and make it easier to schedule.
 
-#### Themes
+#### Design Documents
 
-A small number of high priority features will be chosen as 'themes' for a period of time. Themes provide an opportunity for the whole team to rally around a deliverable, even if they don't contribute directly to it. These items are given especially close attention by all those involved with a view to delivering small iterations and keeping work unblocked. There should never be more than two themes in progress at a time per team.
+For all tier T1 and T2 roadmap items, and initiatives spanning multiple milestones, we recommend creating
+[a design document](../../../architecture/design-documents/) using the
+[Architecture design workflow](../../../architecture/workflow/).
+This approach offers several benefits:
 
-- A Slack channel is created with the convention #f_[feature name].
-- An epic hierarchy is created with sub-epics mapping to iterations, each achievable within a milestone.
-- Iterations are broken into multiple issues that can be accomplished independently, and PMs schedule those as normal.
-- Other actions may be established, such as regular 'office hours' calls.
+1. **Single Source of Truth (SSOT)**: A design document serves as the central place for all important information related
+   to the initiative, reducing time spent searching for decisions across various places.
+2. **Increased Visibility**: By creating design documents, we raise awareness of the work done in the
+   Plan stage, such as the [work items framework](../../../architecture/design-documents/work_items/),
+   customizable Work Item Types, custom fields, [custom status](../../../architecture/design-documents/work_items_custom_status/),
+   [GLQL](../../../architecture/design-documents/glql/), frontend-driven views, and many more.
+3. **Discoverability**: Design documents are easily accessible
+   [through our public handbook](../../../architecture/design-documents/), 
+   aligning with engineering best practices.
+4. **Collaborative Decision-Making**: [Changes and discussions occur through merge requests](../../../architecture/workflow/#why-are-design-documents-tracked-in-merge-requests),
+   ensuring visibility to all involved team members.
+5. **Comprehensive Entry Point**: The design document functions as a primary entry point for the initiative, containing:
+   - An executive summary
+   - Links to related epics, issues, and wiki pages
+   - Links to Status updates
+   - Implementation details
+   - A decision log or embedded decisions within the document
+   - Links to relevant boards or dashboards
 
-Team-members work together to continuously refine the iterations as complexity is revealed.
+This comprehensive approach allows easy onboarding for team members and provides stakeholders with all necessary information in one place.
 
-Examples of successful themes:
+This is the recommended workflow for all initiatives:
 
-1. **Requirements Management** ([#f_requirements-management](https://app.slack.com/client/T02592416/CUEQBQ7K8), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2703))
-1. **Jira Importer** ([#f_jira-importer](https://app.slack.com/client/T02592416/CUS6GB2JH), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2738))
+1. Create a Slack channel with the convention #f_[feature name].
+2. Develop a design document using the Architecture evolution workflow.
+   Get started using [this template](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md?plain=1). 
+   You don't need to fill out all sections. This is a living document and it's expected that it evolves over time.
+3. An epic hierarchy is created with sub-epics mapping to iterations, each achievable within a milestone.
+4. Iterations are broken into multiple issues that can be accomplished independently, and PMs schedule those as normal.
+5. Other actions may be established, such as regular 'office hours' calls.
+
+Team members should collaborate to continuously refine the iterations and update the design document as complexity is revealed. This approach ensures that all stakeholders have a clear, up-to-date understanding of the initiatives's progress and implementation details.
 
 ### Roadmap
 

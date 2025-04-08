@@ -70,6 +70,7 @@ knowledge base content. This has the following benefits:
 1. Pick the appropriate template in the [`/kb-documentation/templates`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/kb-documentation/templates)
    directory:
    - [`break-fix.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/break-fix.md): Issues encountered by users with one or more specific resolution steps.
+   - [`deprecation-removal-breaking-change.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/deprecation-removal-breaking-change.md): Information about how to assess and mitigate the impact of deprecations, removals and breaking changes.
    - [`how-to.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/how-to.md): Steps to do a specific task. Does not need to be an issue.
    - [`question-answer.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/question-answer.md): Simple article answering a question.
 1. Duplicate the template, placing the new file in the appropriate directory:

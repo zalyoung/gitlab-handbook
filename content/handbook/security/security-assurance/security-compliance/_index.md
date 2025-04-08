@@ -50,7 +50,9 @@ The single source of truth for all of in-progress work is the Security Complianc
 
 Much of our work related to the [FedRAMP Authorization Program](/handbook/security/security-assurance/security-compliance/fedramp-compliance/) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
 
-### <details><summary> How We Work</summary>
+### How We Work
+
+<details><summary>How We Work</summary>
 
 #### Epic hierarchy
 
@@ -164,6 +166,7 @@ Prior to the start of a new quarter, the team will spend time refining the epic 
 - Exit criteria (break down the work into smaller, logical chunks and highlight dependencies and predecessors)
 
 When the above information is being added, the Epic will move from Triage to Ready status. The goal is to start each quarter with our planned roadmap items for that quarter in the Ready list.
+
 </details>
 
 ### Engagement Model

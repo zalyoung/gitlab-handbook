@@ -97,7 +97,7 @@ This remote-first behavior triggers a healthy reminder for people to chat about 
 
 Imagine this scenario. You're in a conference room with five others, being joined by a group of five remote team members in a video call.
 
-Those in the office are inclined to use the office camera, dialing in as a single participant with five heads and voices. This creates an unlevel playing field, where the remote team members are immediately seen as inferior, and are given a substandard call experience. (We've detailed why [hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-horrible) in the Communication section of the GitLab handbook.)
+Those in the office are inclined to use the office camera, dialing in as a single participant with five heads and voices. This creates an unlevel playing field, where the remote team members are immediately seen as inferior, and are given a substandard call experience. (We've detailed why [hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-annoying) in the Communication section of the GitLab handbook.)
 
 The forcing function here is to mandate that everyone, at all times, use their own webcam. This would mean that each individual in the aforementioned conference room would need to open their own laptop and join. This would feel remarkably awkward to those in the room, which is precisely the point. The next logical question is the intended conclusion: *why did everyone in the office bother commuting*?
 
@@ -121,7 +121,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to company-wide documentation.*
 
 > I think [documentation](management/#scaling-by-documenting) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >

@@ -340,7 +340,7 @@ A recording of the first of two sessions can be found here:
 
 {{< youtube "9qUlp8LrduM" >}}
 
-We held 50 minute Introduction to Coaching [Live Learning](/handbook/people-group/learning-and-development/#live-learning) sessions on 2020-12-03. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/1jOAZQkIJq9iU7ho6a09AOANKJs7W7IwnbVYBIlX9kmk/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1UIyIeyCcWCtNcOR2Wz5jvbSdKHI2OanLoM-WR7Gtknw/edit?usp=sharing).
+We held 50 minute Introduction to Coaching [Live Learning](/handbook/people-group/learning-and-development/#learning-delivery-methods---definitions) sessions on 2020-12-03. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/1jOAZQkIJq9iU7ho6a09AOANKJs7W7IwnbVYBIlX9kmk/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1UIyIeyCcWCtNcOR2Wz5jvbSdKHI2OanLoM-WR7Gtknw/edit?usp=sharing).
 
 ## Coaching Manager Competency
 

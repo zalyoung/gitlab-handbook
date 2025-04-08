@@ -52,7 +52,7 @@ Given that support team has no influence over the process at this point, direct 
 #### When manually pausing QSR
 
 1. You will need to take responsibility for ensuring that it becomes reactivated after a bug-fix or other work-around has been implemented.
-   - Consider the [due date app](/handbook/support/readiness/operations/docs/zendesk/apps/#zendesk-super-app), [reminder app](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-reminders-app), Slack's built-in reminder tool, or whatever works for you.
+   - Consider the [Zendesk Super App](../../../security/customer-support-operations/docs/zendesk/apps#zendesk-super-app), [reminder app](../../../security/customer-support-operations/docs/zendesk/apps#gitlab-reminders-app), Slack's built-in reminder tool, or whatever works for you.
 
 ## Resolving Max Seats Overages
 

@@ -283,7 +283,7 @@ Regarding involuntary offboarding, certain information can also be shared with t
 The departing team member may work with their manager to author a goodbye message for voluntary offboarding:
 
 1. Work with your manager on the message that your manager will share in `#team-member-updates` on Slack.
-1. Send it to your manager for approval. If, as a manager, you are in doubt about the message - please reach out to your manager or [aligned People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) for additional review.
+1. Send it to your manager for approval. If, as a manager, you are in doubt about the message - please reach out to your manager or [aligned People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) for additional review.
 1. Managers are encouraged to use the suggested template (above link) and have the space to add more color wherever they see fit.
 
 In some instances there will be no further clarification on why a team member has departed, if there are concerns you can address those with your manager.

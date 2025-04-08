@@ -357,24 +357,46 @@ For all other campaign types, follows steps below. All steps are required.
 
 ## Parent/Child Campaigns Setup
 
-For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session or ancillary event, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. When creating a parent campaign, it should always be named with `_PARENT` at the end of the campaign name.
+For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session or ancillary event, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. 
 
 Two important aspects that need to be avoided when it comes when creating/editing parent campaigns are the following:
 
 1. Do not add any campaign members to the parent campaign as we want to minimize the risk of creating duplicate bizible touchpoints for the same activity.
-2. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
+1. When creating a parent campaign, it should always be named with `_PARENT` at the end of the campaign name. This is so we do not double-report on campaigns.
+1. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
+1. If you are an Allocadia user, you will not include the sub-category ID in the parent campaign. You will only use an Allocadia ID when creating the child campaigns. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
 
-Additionally, if you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. You will only use an Allocadia ID when creating the child campaigns. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
+### Create a Parent SFDC Campaign
 
-To associate a child SFDC campaign to a parent SFDC campaign (the parent campaign needs to be created before the child), go into what will be the child SFDC campaign and at the top of the campaign, click `Edit`. This will open the SFDC fields and then you can add the parent SFDC campaign name into the `Parent` field. Click `Save`.
+- Create your first child campaign using the [below instructions](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns) 
+- When finished, go to the top right of the campaign and click `Clone`
+- Edit the campaign name to include _PARENT at the end (example: 20250409_GoogleCloudNext_PARENT)
+- Confirm the `Active` box is checked
+- Remove the Allocadia Sub-Category ID
+- Adjust the `Budgeting Cost in Campaign` to $1
+- Click `Save`
 
-An example of a folder setup in Marketo is:
+### How to associate a child campaign to a parent campaign in SFDC
 
-- Conference Name (Folder)
-  - Conference Name (Program w/ members)
-  - Demo program (Program w/ members)
-  - Speaking Session 1 (Program w/ members)
-  - Speaking Session 2 (Program w/ members)
+- Log in to SFDC and search for your child campaign
+- Once in the campaign, click the edit button next to the `Parent Campaign` field
+- Copy and paste the parent campaign name (example: 20250409_GoogleCloudNext_PARENT) into the field or start typing the parent campaign name and click `Save`
+- Continue to do the same for any additional child campaigns
+- You can view your campaign hierarchy in the right-hand panel (clicking `View All` will provide a full hierarchical view)
+
+An example of a Parent/Child SFDC hierarchy can be found [here](https://gitlab.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJzZmE6aGllcmFyY2h5RnVsbFZpZXciLCJhdHRyaWJ1dGVzIjp7InJlY29yZElkIjoiNzAxUEwwMDAwMFVqMGs5WUFCIiwic09iamVjdE5hbWUiOiJDYW1wYWlnbiIsInRyZWVEaXJlY3Rpb24iOiJjdXJyZW50VG9Eb3duIiwibGF5b3V0VHlwZSI6IlJFTEFURURfTElTVCIsImxheW91dE92ZXJyaWRlIjoiQ2hpbGRDYW1wYWlnbnMifSwic3RhdGUiOnt9fQ%3D%3D).
+
+### Create a Parent Marketo Program (aka folder)
+
+- Log in to Marketo
+- Go to the correct event type folder based on fiscal year and quarter (example - FY26 - Q1 Conference)
+- Right click the folder and select `New Campaign Folder`
+- Add the campaign name as the `Campaign Folder Name` (example - 20250409_GoogleCloudNext)
+- Hit `Save`
+- All Marketo programs for your event can be nested under this main folder
+  - To move any existing Marketo programs to your folder you can simply drag and drop the programs, or right click the programs and select `Move` and direct to the folder you created.
+
+An example of a Marketo program folder with nested programs can be found [here](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF25757A1).
 
 ## Important Notes
 
@@ -478,7 +500,7 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
 - **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
-- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing).
+- If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing) - note the instructions are different for Conferences and our outlined in the Conference instructions below.
 
 ### Step 4: Activate Marketo smart campaign(s)
 
@@ -689,6 +711,7 @@ This is an _optional_ feature only available for the `Owned Event` program templ
 - Update all tokens as they feed the email and interesting moments
   - You do not need to update `Request` tokens if there are no meetings being set up for the conference
   - If you are scheduling in person meetings, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+  - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams).
 
 ### Step 4: Activate Marketo smart campaign
 
@@ -696,6 +719,7 @@ This is an _optional_ feature only available for the `Owned Event` program templ
 - `01 Manual upload processing` this will be activated by MOps if a manual upload is required. If you upload using the self-service process, this is not required.
 - `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
 - `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
+- `04 Action stream processing` If your conference covers a relevant [Action Stream topic](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams), be sure you added the Action Stream to the tokens, then activate this campaign.
 
 ### Step 4a. Meeting Request Processing
 
@@ -746,6 +770,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 
 - Update all tokens as they feed the email and interesting moments. Don't skip the epic token because it is included in the internal alert.
   - Be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+  - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams).
 
 ### Step 4: Activate Marketo smart campaign
 
@@ -754,6 +779,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 - `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
 - `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
 - `01a Meeting Request Processing` Activate this campaign if you have a landing page. Do not activate it if you are only uploading leads.
+- `04 Action stream processing` If your conference covers a relevant [Action Stream topic](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams), be sure you added the Action Stream to the tokens, then activate this campaign.
 
 ### Step 4b. Set-up Asset Expiration
 

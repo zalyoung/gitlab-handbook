@@ -120,6 +120,19 @@ We can determine if the GitLab Runner registration token was reset for a group o
 1. Add a positive filter on `json.action` for `reset_registration_token`.
 1. Observe the results. If there were any they will contain the username of the user that triggered the reset in the `json.username` field of the result.
 
+### Access Token activity
+
+We can determine the kind of activities an Access Token (Group, Project, Personal) is performing. To find the log entry:
+
+1. Find the `id` of the Access Token you are interested in using the [API](https://docs.gitlab.com/api/personal_access_tokens/) or UI.
+1. In `pubsub-rails-inf-gprd-*`, set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
+1. Add a positive filter on `json.token_id` for the `id` in step 1.
+1. Add other filters that you might be interested in:
+    - `json.username`
+    - `json.path`
+    - `json.method`
+    - `json.token_type`
+
 ### Deleted Group/Subgroup/Project
 
 - Example group: [gitlab-silver](https://gitlab.com/gitlab-silver/)
@@ -407,7 +420,7 @@ Kibana can be used to search for specific errors related to a purchase attempt. 
 
 #### GitLab.com purchase errors
 
-**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the [User Lookup in the GitLab Super App](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#gitlab-super-app).
+**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the User Lookup in the GitLab Super App.
 
 1. Navigate to [Kibana](https://log.gprd.gitlab.net/)
 1. Ensure the `pubsub-rails-inf-gprd-*` index pattern (GitLab.com logs) is selected.

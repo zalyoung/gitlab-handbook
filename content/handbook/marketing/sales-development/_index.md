@@ -1050,11 +1050,12 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 #### Claude Sales Dev BDR/SDR User Guide
 
 - [Prompt Library](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) - a place to find prompts the Sales Dev Org is currently using and collaborating on
+- [Example Claude Project](https://claude.ai/project/92974b9b-f70e-4d74-9288-20c443617e9c) - an example of how information can be stored to a pre-made Project. Pre-made prompts are also saved and shared on the same project in the Activity tab of this Project. Please feel free to use and/or duplicate this Project and the Saved Prompts for your purposes. We have the #sales_dev_claude_insights Slack channel or the [Prompt Library Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) that you can use to report your wins to the team.
 
 **Limitations**
 
 - Claude's knowledge cutoff is April 2024, so any GitLab features, pricing, or competitive details may be outdated. Always verify current information through official GitLab channels.
-- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time**
+- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. [Adding up to Orange Data has been approved.](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#5-what-type-of-data-is-okay-to-be-shared-with-claude)
 - Claude can't connect to external websites, APIs, or tools. If you need Claude to review specific content, you'll need to paste it directly into the conversation.
 - Claude can't maintain context between conversations - each chat starts fresh, so previous discussions about prospects or strategies won't be remembered.
 - Understand that **Claude is not always right and will sound very confident even when it is wrong**
@@ -1892,7 +1893,7 @@ The below apply for all inbound-related leads for both the SDR and BDR teams. Pl
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
-| Response Time for leads            | - Net New MQLs: 15 minutes <br> - Inbound Responses: 8 work hours |
+| Response Time for leads            | - Net New MQLs: 2 work hours <br> - Inbound Responses: 8 work hours |
 | Low vs High Touch Groove Flow Usage    | - Over 70% of inbound leads enrolled to High Touch Flows.        |
 | Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
 | Two way conversations           | - 50 per week.        |

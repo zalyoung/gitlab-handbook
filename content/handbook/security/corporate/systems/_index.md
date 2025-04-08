@@ -8,7 +8,6 @@ description: The Corporate Security department provides configuration management
 As GitLab has grown organically, several departments and functional groups have their own System Administrators ("System Owners") that handle day-to-day management of the tech stack applications that are specific to that department or functional group, within the framework of organization-wide compliance, infrastructure, and security best practices. Each [tech stack application](/handbook/business-technology/tech-stack-applications/) at GitLab has a System Owner that is the DRI for handling the implementation and day-to-day operational support for the team members that utilize that application (in their department or functional group). This has an added benefit of preventing the traditional IT department from being a bottleneck and allows each department to self-service as part of GitLab's [efficiency for the right group](/handbook/values/#efficiency-for-the-right-group) subvalue.
 
 - [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/)
-- [Customer Support Operations](/handbook/support/readiness/operations/)
 - [(Business Intelligence) Data Team](/handbook/enterprise-data/)
 - [Engineering Infrastructure (Reliability SREs)](/handbook/engineering/infrastructure/)
 - [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
@@ -20,7 +19,7 @@ As GitLab has grown organically, several departments and functional groups have 
 
 ## CorpSec Systems Directory
 
-The Corporate Security department provides configuration management [engineering](/handbook/security/corporate/services/infrastructure/) and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
+The Corporate Security department provides configuration management engineering and tech support [helpdesk services](/handbook/security/corporate/services/helpdesk) for team members and temporary service providers (aka contractors, vendors, etc.) for the company-wide systems that we manage.
 
 <table>
 <thead>

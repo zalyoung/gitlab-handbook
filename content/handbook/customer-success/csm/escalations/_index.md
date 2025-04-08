@@ -41,7 +41,7 @@ The DRI for the escalation is determined by evaluating these options in order:
 
 1. If the escalation is related to an ongoing Professional Services project, the Professional Services Project Manager will be the DRI of the escalation.
 1. If the escalation is NOT related to an ongoing Professional Services project and there is a CSM assigned to the account, the CSM will be the DRI.
-1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
+1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned through the [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
 
 ```mermaid
 flowchart TD;
@@ -51,7 +51,7 @@ flowchart TD;
     D -->|Yes| E[CSM is DRI];
     D -->|No| F[Customer assigned to TAM Scale];
     F --> G[AE is DRI];
-    G --> H[CSE assigned via CSE Help Case. CSE is lead technical collaborator.];
+    G --> H[CSE assigned through CSE Help Case. CSE is lead technical collaborator.];
 ```
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
@@ -66,21 +66,21 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
 - The DRI is responsible for managing the account engagement (not the ticket), including:
 
   - Management of internal team and customer meetings for follow-up activities
-    - Note: To ensure the DRI does not slow the resolution of issues, the DRI doesn't need to be in all meetings (e.g., technical troubleshooting with the customer and support/development)
+    - Note: To ensure the DRI does not slow the resolution of issues, the DRI doesn't need to be in all meetings (for example, technical troubleshooting with the customer and support/development)
   - Driving and coordinating the escalation process internally and with the customer, including associated communications and executive-level meetings
   - Opening the CS Help - Escalation Support case in Salesforce
   - Managing all assigned escalation tasks in Gainsight
-  - Acting as an escalation point for customer-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.)
+  - Acting as an escalation point for customer-related issues (for example, delayed response, open actions, non-compliance installation or product use, etc.)
   - Developing the business case justification and escalation to Product for escalations related to enhancement requests
   - Posting updates to Gainsight timeline & keeping the temporary Slack channel and the `#escalated_customers` slack channel updated.
 
 - Support Engineering is responsible for:
 
-  - Collaborating with technical resources (e.g., Development, Quality Assurance, SREs, and Support Engineering staff) to drive resolution of the technical issues
-  - Managing the 24x7 incident resolution and escalation process (i.e., Support Engineering, SRE, Development)
+  - Collaborating with technical resources (for example, Development, Quality Assurance, SREs, and Support Engineering staff) to drive resolution of the technical issues
+  - Managing the 24x7 incident resolution and escalation process (Support Engineering, SRE, Development)
   - Supporting executive and customer calls (as needed)
 
-If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002).
+If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/124nDAb7p6yViLCsEHaqQTcDTMMT2-FPxeTwZxKOyLwM/edit?gid=0#gid=0).
 
 ### What's the difference between an account escalation or an incident escalation?
 
@@ -138,14 +138,14 @@ If an [Escalation (For Non Professional Services Projects)](#escalation-for-non-
 1. Navigate to the account page in Salesforce
 1. Navigate to the next open renewal opportunity under "Opportunities" (Note: if you're having trouble finding the opportunity, you may need to change the Salesforce App. Click the 9-dotted box in the upper left corned and change the Salesforce App to "Sales")
 1. In the top right corner, select the "CS Help" button
-1. Select the case type: At-Risk Account Help (CSM red accounts & CSM/CSE escalations)
-1. Fill out the required fields in the At-Risk Account Case
+1. Select the case type: Escalations (CSM/CSE Accounts)
+1. Fill out the required fields in the Escalation Case
 1. Click "Create case"
 1. Complete other fields in the opened case: Customer Escalation Slack channel, Customer Collaboration project, Customer meeting notes, Escalation Exit criteria. At this time, you can also edit any of the fields initially filled out when opening the case.
 
 For a CSM Managed account, the Case Owner should be the assigned CSM. For a CSE account, the Case Owner should be the regional CSE leader who will then assign to a CSE.
 
-The Salesforce case will create a Gainsight CTA. A sync between Salesforce and Gainsight happens every 2 hours. Once the Gainsight CTA is created, the Case Owner will receive Gainsight notifications to complete required tasks. Data is bidirectional between Salesforce and Gainsight, so changes can be made in either tool. However, all escalation updates must be made in the Gainsight CTA.
+The Salesforce case will create a Gainsight CTA for that particular customer, which can be found in the Gainsight Cockpit. A sync between Salesforce and Gainsight happens every 2 hours. Once the Gainsight CTA is created, the Case Owner will receive Gainsight notifications to complete required tasks. Data is bidirectional between Salesforce and Gainsight, so changes can be made in either tool. However, all escalation updates must be made in the Gainsight CTA by adding Timeline entries of type "Health Update" (which is the same Timeline entry type used for Red Accounts management).
 
 #### Internal Standup Cadence
 
@@ -154,7 +154,7 @@ Set up and document an internal standup cadence series while the escalation is r
 - Major stakeholders from each team involved in the escalation should be invited directly to any calendar invite.
 - Post about the internal standup in the temporary slack channel.
 - Post the escalation case URL in the temporary slack channel and pin the message so it's easy to find.
-- Tip: 10min before each standup, post the link to the escalation case and customer notes doc with a note that the standup will happen at the scheduled time. You can also schedule & automate the message via SLACK.
+- Tip: 10min before each standup, post the link to the escalation case and customer notes doc with a note that the standup will happen at the scheduled time. You can also schedule & automate the message in SLACK.
 
 During the internal cadence, be sure to note any changes in exit criteria or DRI and make those changes in the escalation case.
 
@@ -192,7 +192,7 @@ If the escalation is product related, a Product DRI is required. Please assign t
 To keep noise to a minimum, posting in `#escalated_customers` should happen only at key moments:
 
 - when the escalation is identified and created
-- when the escalation is closed or risk reduced to standard business process to manage (i.e., issue resolved and monitoring the solution)
+- when the escalation is closed or risk reduced to standard business process to manage (that is, issue resolved and monitoring the solution)
 - when there is a change in the priority of the escalation
 
 The `#escalated_customers` channel is for awareness only and is not intended to replace the dedicated account slack channel, support channels, or the temporary escalation channel. Leverage the temporary escalation channel for daily communication, collaborating with team members, and providing executive updates.
@@ -201,9 +201,18 @@ The `#escalated_customers` channel is for awareness only and is not intended to 
 
 The DRI owns the functions as outlined here:
 
-- If an escalation status significantly changes, make an update in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel
+- If an escalation status significantly changes, make an update in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel. 
 - Update the temporary escalation slack channel daily, at minimum
 - The escalation progress should also be communicated to the customer on a regular basis - expectation is 3 or more times a week depending on the situation.
+
+Additionally, please ensure that key escalation updates are captured in the Gainsight Escalation CTA > Timeline > Activity Type = "Health Update". Apply the "Post to Slack - Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
+
+The Gainsight Escalation Update Timeline template questions are :
+
+1. What is the current status of the escalation?
+1. What are the next steps in moving the escalation case forward?
+1. Who is the owner of the next steps?
+1. Has the exit criteria for this escalation changed? If so, what is the new exit criteria?
 
 Tips & Tricks:
 
@@ -219,18 +228,18 @@ Tips & Tricks:
 
 - When the issue(s) related to the escalation are resolved or move into a non-escalated state:
 
-  - Post an Escalation Closure in the Gainsight CTA with the status and resolution. Be sure to use the "At-Risk/Escalation - Closure" template in the update.
+  - Post an Escalation Closure Timeline entry in the Gainsight CTA with the status and resolution. Be sure to use the "Post to Slack - Escalation Closure" Timeline template in the update (selectable from top right hand corner of the "Notes" box in Timeline).
   - Copy that Escalation Closure update and post in the `#escalated_customers` slack channel.
   - Archive the temporary Slack channel
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
-- Gainsight Escalation Closure question template:
+- Gainsight Escalation Closure Timeline template questions:
 
 Please provide a closure update answering the following questions:
 
-1. Did the at-risk situation end with a positive outcome, negative outcome, or no outcome?
+1. Did the escalation situation end with a positive outcome, negative outcome, or no outcome?
 1. Were the defined exit criteria met?
-1. Give a brief summary of the actions of the team that helped close out this at-risk ticket
+1. Give a brief summary of the actions of the team that helped close out this escalation ticket
 
 ## CSM Manager's role in Escalations
 
@@ -240,7 +249,7 @@ When a customer is in an escalated state, the path to resolution must continue t
 
 ## Engineering's role in Escalations
 
-Engineering support will usually come via Support Engineering, however it's worth noting that under some conditions [Engineering / Product may prioritize bug fixes and feature requests](/handbook/engineering/#critical-customer-escalations) related to an escalation.
+Engineering support will usually come through Support Engineering, however it's worth noting that under some conditions [Engineering / Product may prioritize bug fixes and feature requests](/handbook/engineering/#critical-customer-escalations) related to an escalation.
 
 ## Product's role in Escalations
 
@@ -258,7 +267,7 @@ Occasionally, customers will require a product leader to act as a stable counter
 - Lead customer facing calls focused on discovery, de-escalation, technical guidance. Determine the customer's exit/success criteria to consider the escalation resolved.
 - Coordinate cross-functionally to determine path forward, potential workarounds and best practice recommendations.
 - Provide summaries in account escalation Slack channel on a cadence appropriate to the [defined escalation severity level](/handbook/customer-success/csm/escalations/#definitions-of-severity-levels).
-- Share updates to the customer via email.
+- Share updates to the customer through email.
 - Document in new GitLab issue for tracking/pattern matching for future reference. Example: https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/140
 
 ## Related Links

@@ -9,6 +9,8 @@ Snowplow is an open source, event analytics platform. There is a business entity
 
 In `June of 2019`, we switched sending Snowplow events from a third party to sending them to infrastructure managed by GitLab, documented on this page. From the perspective of the data team, not much changed from the third party implementation. Events are sent through the collector and enricher and dumped to S3.
 
+As of December 2024, we have switched over to a new Snowplow env called `aws-snowplow-prd`, more information is detailed in the [Snowplow internal handbook](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/blob/main/content/handbook/enterprise-data/platform/infrastructure/_index.md?ref_type=heads#aws-snowplow-for-cpaa-internal-analytics).
+
 #### Snowplow - adding new `app_id`
 
 When new application should be tracked by `Snowplow` here is the few things should be considered.
@@ -16,7 +18,7 @@ When new application should be tracked by `Snowplow` here is the few things shou
 ![how to add app ID](/images/enterprise-data/platform/snowplow/new_app_id.png)
 
 The right `app_id`, and collector URL should be done in coordination with the data team.
-URL wil stay the same `snowplow.trx.gitlab.net`. Any `app_id` is fine if there are no other concerns around enabling tracking on `CustomersPortal` staging as well.
+URL wil stay the same `snowplowprd.trx.gitlab.net`. Any `app_id` is fine if there are no other concerns around enabling tracking on `CustomersPortal` staging as well.
 
 > **Note:** Any un-expected events *(with wrong app_id)* are normally dropped.
 
@@ -52,6 +54,8 @@ Bad events are stored as JSON in `s3://gitlab-com-snowplow-events/enriched-bad/`
 For both buckets, there are paths that follow a date format of `/YYYY/MM/DD/HH/<data>`.
 
 #### Data Warehousing
+
+<details><summary>Click to expand</summary>
 
 #### Snowpipe
 
@@ -273,6 +277,8 @@ To force a refresh of the stage so that snowpipe picks up older events:
 ``` sql
 ALTER PIPE gitlab_good_event_pipe refresh;
 ```
+
+</details>
 
 #### dbt
 
