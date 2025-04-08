@@ -254,7 +254,6 @@ The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quar
 * Rendi Miller (Finance)
 * Emily Plotkin (Legal)
 * Kim Buncle (Legal)
-* Lauren Lopez (Legal)
 * Alisha Ward (Marketing)
 * Darwin Sanoy (Marketing)
 * Kristof Goossens (Marketing)
