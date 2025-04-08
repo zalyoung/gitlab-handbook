@@ -133,6 +133,18 @@ In addition to the labels outlined above, see also [workflow labels used during 
 
 **To be updated**
 
+### Breaking changes
+
+In order to mitigate disruption for our customers, when a *planned change* is identified as a breaking change:
+
+1. Use `breaking change` label to mark the related issues and the MRs
+1. Mark the MRs as draft
+1. Wait for 5 business days to collect feedback
+1. Highlight the following criteria as acceptance criteria for the change:
+   * Automated Migration - indicating that customers do not need to take additional steps as a result of this change
+   * Security Exception - indicating that there is a security related consideration, and we need to support our customers in the transition
+   * No Usage - indicating that instrumentation is already in place, and is showing low to no usage. Provide a link to the measurement as a comment on the field
+
 ## Distribution DRI
 
 In order to minimize disruption and context switching for team members, Distribution designates one engineer on a weekly rotation basis (DRI, Directly Responsible Individual), who will be responsible for the following duties during their normal office hours. For urgent requests outside of those hours, it will be handled via the [on call process](/handbook/engineering/on-call/).
