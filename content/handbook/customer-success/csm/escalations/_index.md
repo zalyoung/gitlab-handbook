@@ -41,7 +41,7 @@ The DRI for the escalation is determined by evaluating these options in order:
 
 1. If the escalation is related to an ongoing Professional Services project, the Professional Services Project Manager will be the DRI of the escalation.
 1. If the escalation is NOT related to an ongoing Professional Services project and there is a CSM assigned to the account, the CSM will be the DRI.
-1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned via the  [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
+1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned through the [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
 
 ```mermaid
 flowchart TD;
@@ -51,7 +51,7 @@ flowchart TD;
     D -->|Yes| E[CSM is DRI];
     D -->|No| F[Customer assigned to TAM Scale];
     F --> G[AE is DRI];
-    G --> H[CSE assigned via CSE Help Case. CSE is lead technical collaborator.];
+    G --> H[CSE assigned through CSE Help Case. CSE is lead technical collaborator.];
 ```
 
 At the beginning of the escalation, the DRI must be determined - the DRI owns the following responsibilities and key steps:
@@ -66,18 +66,18 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
 - The DRI is responsible for managing the account engagement (not the ticket), including:
 
   - Management of internal team and customer meetings for follow-up activities
-    - Note: To ensure the DRI does not slow the resolution of issues, the DRI doesn't need to be in all meetings (e.g., technical troubleshooting with the customer and support/development)
+    - Note: To ensure the DRI does not slow the resolution of issues, the DRI doesn't need to be in all meetings (for example, technical troubleshooting with the customer and support/development)
   - Driving and coordinating the escalation process internally and with the customer, including associated communications and executive-level meetings
   - Opening the CS Help - Escalation Support case in Salesforce
   - Managing all assigned escalation tasks in Gainsight
-  - Acting as an escalation point for customer-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.)
+  - Acting as an escalation point for customer-related issues (for example, delayed response, open actions, non-compliance installation or product use, etc.)
   - Developing the business case justification and escalation to Product for escalations related to enhancement requests
   - Posting updates to Gainsight timeline & keeping the temporary Slack channel and the `#escalated_customers` slack channel updated.
 
 - Support Engineering is responsible for:
 
-  - Collaborating with technical resources (e.g., Development, Quality Assurance, SREs, and Support Engineering staff) to drive resolution of the technical issues
-  - Managing the 24x7 incident resolution and escalation process (i.e., Support Engineering, SRE, Development)
+  - Collaborating with technical resources (for example, Development, Quality Assurance, SREs, and Support Engineering staff) to drive resolution of the technical issues
+  - Managing the 24x7 incident resolution and escalation process (Support Engineering, SRE, Development)
   - Supporting executive and customer calls (as needed)
 
 If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/124nDAb7p6yViLCsEHaqQTcDTMMT2-FPxeTwZxKOyLwM/edit?gid=0#gid=0).
@@ -87,7 +87,7 @@ If an escalation is opened as high or critical, and the escalation is product re
 - This page describes the account level risk meaning the customer impacting issues could be a single incident or an aggregation of issues. The assessment considers impact to the customer, risk to future business with that customer, and GitLab brand.
 - Technical Support is ultimately accountable for driving resolution to the support case, including escalation to Engineering, Security, and/or Infrastructure teams.  Incident escalation processes should be leveraged for a single incident / support case.
 
-- [Declare a GitLab.com Incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) if you suspect a widespread issue on GitLab.com
+- [Declare a GitLab.com Incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-through-slack) if you suspect a widespread issue on GitLab.com
 - [Escalate an individual support ticket to Support Management](/handbook/support/internal-support/support-ticket-attention-requests) for cases with context that necessitate they should be handled outside of standard priority order.
 - Have the customer [trigger Emergency Support](https://about.gitlab.com/support/#how-to-trigger-emergency-support) for S1/instance down issues to connect directly with the Support Engineer on-call.
   - You can also [page the on-call support manager](/handbook/support/on-call/#engaging-the-on-call-manager) in cases where you've received word that a customer attempted to raise an emergency, but the on-call engineer was not paged.
@@ -154,7 +154,7 @@ Set up and document an internal standup cadence series while the escalation is r
 - Major stakeholders from each team involved in the escalation should be invited directly to any calendar invite.
 - Post about the internal standup in the temporary slack channel.
 - Post the escalation case URL in the temporary slack channel and pin the message so it's easy to find.
-- Tip: 10min before each standup, post the link to the escalation case and customer notes doc with a note that the standup will happen at the scheduled time. You can also schedule & automate the message via SLACK.
+- Tip: 10min before each standup, post the link to the escalation case and customer notes doc with a note that the standup will happen at the scheduled time. You can also schedule & automate the message in SLACK.
 
 During the internal cadence, be sure to note any changes in exit criteria or DRI and make those changes in the escalation case.
 
@@ -248,7 +248,7 @@ When a customer is in an escalated state, the path to resolution must continue t
 
 ## Engineering's role in Escalations
 
-Engineering support will usually come via Support Engineering, however it's worth noting that under some conditions [Engineering / Product may prioritize bug fixes and feature requests](/handbook/engineering/#critical-customer-escalations) related to an escalation.
+Engineering support will usually come through Support Engineering, however it's worth noting that under some conditions [Engineering / Product may prioritize bug fixes and feature requests](/handbook/engineering/#critical-customer-escalations) related to an escalation.
 
 ## Product's role in Escalations
 
@@ -266,7 +266,7 @@ Occasionally, customers will require a product leader to act as a stable counter
 - Lead customer facing calls focused on discovery, de-escalation, technical guidance. Determine the customer's exit/success criteria to consider the escalation resolved.
 - Coordinate cross-functionally to determine path forward, potential workarounds and best practice recommendations.
 - Provide summaries in account escalation Slack channel on a cadence appropriate to the [defined escalation severity level](/handbook/customer-success/csm/escalations/#definitions-of-severity-levels).
-- Share updates to the customer via email.
+- Share updates to the customer through email.
 - Document in new GitLab issue for tracking/pattern matching for future reference. Example: https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/140
 
 ## Related Links
