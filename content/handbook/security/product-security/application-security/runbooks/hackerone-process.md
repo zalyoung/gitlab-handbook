@@ -4,51 +4,55 @@ title: "HackerOne Process"
 
 
 ## Purpose and Overview of GitLab's Bug Bounty Program
+
 ### Summary
+
 GitLab's HackerOne process manages vulnerability reports through a structured workflow where security researchers submit findings via HackerOne, which are then triaged by the HackerOne team before moving to GitLab's security team. The AppSec engineer on rotation assigns, validates, and imports valid reports into GitLab issues, calculating CVSS scores to determine severity and bounty amounts. They follow specific protocols for different vulnerability types (exposed secrets, vulnerability chaining, DNS takeovers), maintain regular communication with reporters, and ensure proper remediation tracking. After fixes are deployed, reports are closed and may be publicly disclosed following a 30-day waiting period, with successful reporters potentially earning both bounties and Ultimate licenses.
+
 ### High-level description of the process
+
 - GitLab uses HackerOne for its bug bounty program where security researchers report vulnerabilities.
-   - Notifications about report status changes go to the #hackerone-feed Slack channel.
+  - Notifications about report status changes go to the #hackerone-feed Slack channel.
 - Key queues in the process:
-    - New: contains all reports in the New state
-    - GitLab Team: validated reports awaiting assignment to team members
-    - H1 Triage: reports being reviewed by HackerOne triage team
-    - Pending Disclosure: reports ready for review and disclosure
+  - New: contains all reports in the New state
+  - GitLab Team: validated reports awaiting assignment to team members
+  - H1 Triage: reports being reviewed by HackerOne triage team
+  - Pending Disclosure: reports ready for review and disclosure
 - Guiding principles for handling reports:
-    - Monitor H1 Triage queue for Critical or High reports
-    - AppSec engineers on rotation should ensure proper assignment and triage
-    - Reports can be reassigned to the next person on rotation if needed
+  - Monitor H1 Triage queue for Critical or High reports
+  - AppSec engineers on rotation should ensure proper assignment and triage
+  - Reports can be reassigned to the next person on rotation if needed
 - Working the queue process:
-    - Use a dedicated namespace with Ultimate license for reproduction testing
-    - Trust but verify the HackerOne Triage Team's validation
-    - Assign reports to yourself when beginning work
-    - Prioritize by severity, close duplicates, and triage oldest reports first
+  - Use a dedicated namespace with Ultimate license for reproduction testing
+  - Trust but verify the HackerOne Triage Team's validation
+  - Assign reports to yourself when beginning work
+  - Prioritize by severity, close duplicates, and triage oldest reports first
 - Report validation workflow:
-    - Review the validation performed by HackerOne
-    - Communicate with reporters and investigate as needed
-    - Determine if the report is out-of-scope, a feature, informative, or a duplicate
+  - Review the validation performed by HackerOne
+  - Communicate with reporters and investigate as needed
+  - Determine if the report is out-of-scope, a feature, informative, or a duplicate
 - For valid, in-scope reports:
-    - Calculate CVSS score and set appropriate severity
-    - Import the report into a GitLab issue
-    - Assign proper labels, due dates, and notify relevant team members
-    - Change report state to "Triaged" in HackerOne
+  - Calculate CVSS score and set appropriate severity
+  - Import the report into a GitLab issue
+  - Assign proper labels, due dates, and notify relevant team members
+  - Change report state to "Triaged" in HackerOne
 - Special handling processes exist for:
-    - Vulnerability chaining (multiple vulnerabilities in one report)
-    - Exposed secrets (tokens, credentials)
-    - Exposed personal data
-    - Features behind feature flags
-    - DNS record takeovers
+  - Vulnerability chaining (multiple vulnerabilities in one report)
+  - Exposed secrets (tokens, credentials)
+  - Exposed personal data
+  - Features behind feature flags
+  - DNS record takeovers
 - Awards and bounty process:
-    - Partial awards may be given at triage time
-    - Awards require approval based on severity level
-    - After 30 days, approved awards may be paid before fixes are confirmed
+  - Partial awards may be given at triage time
+  - Awards require approval based on severity level
+  - After 30 days, approved awards may be paid before fixes are confirmed
 - Issue management and disclosure:
-    - Communicate regularly with reporters (at least monthly)
-    - Follow SLA exception process when needed
-    - Close and disclose issues after patches are released (30-day waiting period)
+  - Communicate regularly with reporters (at least monthly)
+  - Follow SLA exception process when needed
+  - Close and disclose issues after patches are released (30-day waiting period)
 - Additional benefits:
-    - Researchers with 3+ valid reports are eligible for 1-year Ultimate licenses
-    - HackerOne Triage Team members receive Ultimate licenses
+  - Researchers with 3+ valid reports are eligible for 1-year Ultimate licenses
+  - HackerOne Triage Team members receive Ultimate licenses
 <!-- These are the titles which need to be used and filled with content
 This means we need to take anything below this comment and put that content into
 the appropriate title below.
