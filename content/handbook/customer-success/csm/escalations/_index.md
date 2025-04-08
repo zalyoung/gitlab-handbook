@@ -192,7 +192,7 @@ If the escalation is product related, a Product DRI is required. Please assign t
 To keep noise to a minimum, posting in `#escalated_customers` should happen only at key moments:
 
 - when the escalation is identified and created
-- when the escalation is closed or risk reduced to standard business process to manage (i.e., issue resolved and monitoring the solution)
+- when the escalation is closed or risk reduced to standard business process to manage (that is, issue resolved and monitoring the solution)
 - when there is a change in the priority of the escalation
 
 The `#escalated_customers` channel is for awareness only and is not intended to replace the dedicated account slack channel, support channels, or the temporary escalation channel. Leverage the temporary escalation channel for daily communication, collaborating with team members, and providing executive updates.
@@ -208,6 +208,7 @@ The DRI owns the functions as outlined here:
 Additionally, please ensure that key escalation updates are captured in the Gainsight Escalation CTA > Timeline > Activity Type = "Health Update". Apply the "Post to Slack - Escalation Update" Timeline template (selectable from top right hand corner of the "Notes" box in Timeline) to ensure consistency of the information presented in escalation updates.
 
 The Gainsight Escalation Update Timeline template questions are :
+
 1. What is the current status of the escalation?
 1. What are the next steps in moving the escalation case forward?
 1. Who is the owner of the next steps?
