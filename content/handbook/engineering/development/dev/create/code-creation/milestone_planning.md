@@ -48,7 +48,7 @@ Use the [template checklist](/handbook/engineering/development/dev/create/code-c
     - Use the issue comments for discussion and clarification. You may loop in other team members or domain experts from outside the team to provide further context and/or give feedback on a proposed solution.
     - Individual team members are encouraged to schedule regular, asynchronous backlog refinement sessions on their calendars
     - Use the [Code Creation Refinement Board](https://gitlab.com/groups/gitlab-org/-/boards/8994789) to make issues needing refinement easy to find
-    - Refinement should be timeboxed to ~30 minutes per issue to avoid spending too much time in refinment 
+    - Make sure to timebox your refinement efforts. Remember that the goal of refinement is not to provide a detailed solution, but to provide clarity on the problem and to provide a starting point on the solution. See [Where to Draw the Line Between Refinement and Implementation](#where-to-draw-the-line-between-refinement-and-implementation).
 4. Refinement Tasks:
     - Team members should focus on the following when refining an issue:
         - Validate the problem is clear and aligned with roadmap priorities
