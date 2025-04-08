@@ -22,10 +22,9 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Marketing](/handbook/marketing/)| **Kato Faylor**<br> Staff EBA | Ashley Kramer (CMSO) |
 | [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Billy Stallings (Sr. Director Digital Marketing)<br> Jean-Baptiste Larramendy (VP of Sales Development)<br>Laura Fagan (Sr. Chief of Staff, CMSO) |
 | [Marketing](/handbook/marketing/)| **Erin Talanda**<br>Sr EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics)<br> Amie Bright (VP of Data & Insights) |
-| [People](/handbook/people-group/) | **Annette Ramirez**<br> Sr EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
-| [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) |
-| [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA | Justin Farris (VP of Product Management)|
-| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Angela Pesta (VP UX)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
+| [People](/handbook/people-group/) | **Annette Ramirez**<br> Sr EBA  | Rob Allen (Chief People Officer) <br> Pattie Egan (VP of People Operations, Technology and Analytics)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
+| [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (Chief Product Officer)<br> Justin Farris (VP of Product Management) |
+| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Angela Pesta (VP UX) |
 | [Sales](/handbook/sales/) | TBC | Ashley Kramer (Interim CRO) <br> (temporary support) Brian Wald (Sr. Director, Global Field CRO Org) |
 | [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
 | [Sales](/handbook/sales/) | **Carla Sylva**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
