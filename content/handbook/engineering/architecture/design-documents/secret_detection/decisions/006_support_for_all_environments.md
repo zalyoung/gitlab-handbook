@@ -10,7 +10,7 @@ There are two problems that we should address, preferably both at the same time 
       
 1. The initial consideration of using Cloud Connector for SM/Dedicated envs is no longer valid due to [certain limitations](https://gitlab.com/gitlab-org/gitlab/-/work_items/525472#note_2418504073). This puts us back to original problem of requiring to make standalone service accessible across all the environments.
      
-2. Secret Push Protection feature (scanning git commits during git push) requires blocking Secret Detection(SD) scans where scan should run immediately and return the results. The current design of Rails directly invoking the Secret Scan engine(Gem/Secret Detection Service) supports blocking scan requests. However, it is not scalable to do the same on large objects like Job Artifacts or Logs as it affects the throughput of the Scan engine. We need to adopt a non-blocking approach where the scans are run in the background and provide results eventually, similar to how we ingest Security Reports.
+2. Secret Push Protection feature (scanning git commits during git push) requires blocking Secret Detection(SD) scans where scan should run immediately and return the results. The current design of Rails directly invoking the Secret Scan engine(Gem/Secret Detection Service(SDS)) supports blocking scan requests. However, it is not scalable to do the same on large objects like Job Artifacts or Logs as it affects the throughput of the Scan engine. We need to adopt a non-blocking approach where the scans are run in the background and provide results eventually, similar to how we ingest Security Reports.
 
 ## Proposal
 
@@ -22,7 +22,15 @@ The second problem is addressed by introducing asynchronous way of invoking secr
 
 ### Blocking scan requests
 
-We will continue using SDS for GitLab.com and the embedded approach (i.e Gem/Binary) for Self-Managed and Dedicated customers as a default setup, however, we will allow customers to self-host SDS (share Helm Chart/Docker image) in case the embedded approach is not scalable enough for their use case.
+We will continue using SDS for GitLab.com and the embedded approach (i.e Gem/Binary) for Self-Managed and Dedicated customers as a default setup, however, we will allow customers to self-host SDS in case the embedded approach is not scalable enough for their use case.
+
+#### Provison for Self-Hosting Service
+
+We could accomplish this in two ways:
+
+1. Share the Docker image of SDS with the customers. Let them host in their own infrastructure and share the deployed SDS host URL via GitLab Application Settings. If the URL is defined, we will attempt calling the host over embedded SD module. [Secret Revocation Service follows this approach](https://gitlab.com/gitlab-org/gitlab/-/blob/a19707e9f4e137ef897a8ddb4361fa2894917f80/doc/user/application_security/secret_detection/post_processing.md#configure-gitlab-to-interface-with-revocationapi).
+
+2. Share the Helm Chart for deploying SDS. This will reduce operational burden of managing the service for the customer. However, this approach is suitable only for the customers running their infrastructure in Kubernetes.
 
 ### Non-Blocking scan requests
 
@@ -42,10 +50,6 @@ The ensure the authenticity of the service (primarily applicable to Self-hosted)
 
 _This decision still requires evaluation interms of feasibility_
 
-## High-level design
+### High-level design
 
 ![High-level Secret Detection design](/images/engineering/architecture/design-documents/secret_detection/006_support_all_envs.png "High level design supporting sync and async scans")
-
-## Next Steps
-
-- TBD
