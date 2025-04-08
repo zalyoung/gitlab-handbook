@@ -27,7 +27,6 @@ GitLab prohibits harassment, intimidation, threats, coercion, or discrimination 
 - Oppose any act or practice made unlawful by Section 503 or its implementing regulations, or any other federal, state, or local law requiring equal opportunity for individuals with disabilities
 - Exercise any other right protected by Section 503 or its implementing regulations
 
-
 ### Procedures
 
 GitLab administers our EEO policy fairly and consistently by:
