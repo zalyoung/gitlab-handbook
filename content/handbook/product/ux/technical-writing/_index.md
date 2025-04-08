@@ -204,7 +204,7 @@ They support other technical writers assigned to groups in the stage.
 
 Stage leads:
 
-- Assume the same [responsibilities](https://handbook.gitlab.com/job-families/product/technical-writer/#responsibilities) as technical writers, but with a more targeted focus on proactively creating and improving documentation for their assigned stage.
+- Assume the same [responsibilities](#responsibilities) as technical writers, but with a more targeted focus on proactively creating and improving documentation for their assigned stage.
 - Spend approximately 30% of their time on issues and merge requests reviews authored by developers for [new features and enhancements](https://docs.gitlab.com/development/documentation/workflow/#documentation-for-a-product-change) for their assigned groups.
 - Spend the remainder of their time:
   - Creating and refining content to address documentation needs and gaps for their assigned **stage**
