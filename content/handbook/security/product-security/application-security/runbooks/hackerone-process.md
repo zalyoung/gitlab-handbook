@@ -5,11 +5,16 @@ title: "HackerOne Process"
 
 ## Purpose and Overview of GitLab's Bug Bounty Program
 
-### Summary
-
-GitLab's HackerOne process manages vulnerability reports through a structured workflow where security researchers submit findings via HackerOne, which are then triaged by the HackerOne team before moving to GitLab's security team. The AppSec engineer on rotation assigns, validates, and imports valid reports into GitLab issues, calculating CVSS scores to determine severity and bounty amounts. They follow specific protocols for different vulnerability types (exposed secrets, vulnerability chaining, DNS takeovers), maintain regular communication with reporters, and ensure proper remediation tracking. After fixes are deployed, reports are closed and may be publicly disclosed following a 30-day waiting period, with successful reporters potentially earning both bounties and Ultimate licenses.
-
 ### High-level description of the process
+
+
+GitLab's HackerOne process manages vulnerability reports through a structured workflow where security researchers submit findings through HackerOne, which are then triaged by the HackerOne team before moving to GitLab's security team. The AppSec engineer on rotation assigns, validates, and imports valid reports into GitLab issues, calculating CVSS scores to determine severity and bounty amounts. They follow specific protocols for different vulnerability types (exposed secrets, vulnerability chaining, DNS takeovers), maintain regular communication with reporters, and ensure proper remediation tracking. After fixes are deployed, reports are closed and may be publicly disclosed following a 30-day waiting period, with successful reporters potentially earning both bounties and Ultimate licenses.
+
+## Key Stakeholders and Responsibilities
+
+TBD
+
+## HackerOne Workflow
 
 - GitLab uses HackerOne for its bug bounty program where security researchers report vulnerabilities.
   - Notifications about report status changes go to the #hackerone-feed Slack channel.
@@ -53,42 +58,39 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 - Additional benefits:
   - Researchers with 3+ valid reports are eligible for 1-year Ultimate licenses
   - HackerOne Triage Team members receive Ultimate licenses
-<!-- These are the titles which need to be used and filled with content
-This means we need to take anything below this comment and put that content into
-the appropriate title below.
-## HackerOne Report Lifecycle Timeline
-## Key Stakeholders and Responsibilities
-## HackerOne Workflow
-## Step-by-Step Triage and Remediation Procedure
-## Troubleshooting and Special Cases: Frequently Asked Questions
--->
 
-## Queues
+## HackerOne Report Lifecycle Timeline
+
+ TBD
+
+## Step-by-Step Triage and Remediation Procedure
+
+### Queues
 
 - `New` contains all reports in the New state
 - `GitLab Team` contains reports that have been validated by the HackerOne triage team, but are yet to be assigned to a specific GitLab team member
 - `H1 Triage` are reports being triaged by the HackerOne triage team
 - `Pending Disclosure` are reports that should be reviewed and disclosed
 
-## Guiding principles
+### Guiding principles
 
 - When the `GitLab Team` queue is empty, regularly check that the `H1 Triage` queue doesn't contain reports that are rated as `Critical` or `High`. If there are such rated reports, evaluate if they are indeed `Critical` or `High`, and if so handle them directly without waiting on `H1 Triage`.
   - Generally speaking it's a good practice to keep an eye on the `H1 Triage` and `New` queues to look for `Criticals` and `Highs`.
 - The AppSec engineer on rotation should make every effort to ensure that _all_ H1 reports that are assigned to `GitLab Team` within their triage week are both assigned (to themselves) and properly triaged.
   - If a report wasn't re-assigned to the person on rotation, the next person on rotation can freely assign it to them.
 
-## GitLab Team On-boarding
+### GitLab Team On-boarding
 
-- New members of the GitLab security team are granted access to the GitLab HackerOne team via an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
+- New members of the GitLab security team are granted access to the GitLab HackerOne team with an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
 - During onboarding, new GitLab security team members will be invited to join the HackerOne program if their role requires it.
 
-## Working the Queue
+### Working the Queue
 
-### Namespace with Ultimate license for triaging
+#### Namespace with Ultimate license for triaging
 
 Please ensure that you use [this namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/bug-reproduction) to create projects and groups required for testing vulnerabilities. This namespace is dedicated to reproduction of HackerOne issues.
 
-### HackerOne Triage Team
+#### HackerOne Triage Team
 
 GitLab's bug bounty program is managed by HackerOne. The HackerOne triage team are the first responders, and will work with researchers to validate reports before assigning to `GitLab Team`.
 
@@ -97,7 +99,7 @@ We usually trust the HackerOne Triage Team and don't necessarily validate the re
 - There may be additional impact that require more investigation
 - The severity can't be properly assessed without further investigation
 
-### GitLab Team
+#### GitLab Team
 
 - When beginning work on a report, the security team member should assign the
 report to themselves immediately.
@@ -161,7 +163,7 @@ the responsible engineering team:
     - If the report is a security-related documentation change, add the `~documentation` label
     - @-mention the product manager and engineering manager based on the [product categories page](/handbook/product/categories/). Ask for engineering feedback if it is required to complete the triage
     - add labels (`/label ~` command) corresponding to the [DevOps stage](/handbook/product/categories/#devops-stages) and source group (consult the [Hierarchy](/handbook/product/categories/#hierarchy) for an overview on categories forming the hierarchy)
-    - As applicable, notify other relevant team members via the issue, chat, and email, depending on the chosen security level.
+    - As applicable, notify other relevant team members through the issue, chat, and email, depending on the chosen security level.
   - Change the state of the report to "Triaged" in HackerOne:
     - See [GitLab's H1 Policy](https://hackerone.com/gitlab), under `Rewards`, for portions of bounty rewards which are awarded at the time of triage
     - Choose from the following common responses:
@@ -178,7 +180,7 @@ the responsible engineering team:
   - If the report is for a bug that can be detected without authentication (in GitLab or anything else we host) consider reaching out to the Red Team or Vulnerability Management to help create a Nuclei template that we can include into our scanning
 - Remember to review the `Pending Disclosure` tab and follow [our disclosure process](#closing-out--disclosing-issues)
 
-#### Calculating CVSS for Vulnerability Chaining
+##### Calculating CVSS for Vulnerability Chaining
 
 Typically, each HackerOne report discloses a single vulnerability. However, sometimes a single report uses two or more newly discovered vulnerabilities chained together for increased impact.
 
@@ -188,7 +190,7 @@ The CVSS of each individual vulnerability will be used for the CVEs issued for e
 
 For future reports that involve "vulnerability chaining" with previously disclosed vulnerabilities, only calculate the CVSS for newly disclosed vulnerabilities. In such cases, only the new vulnerabilities in the chain will be eligible for a "vulnerability chaining" CVSS-based bounty.
 
-## Triaging exposed secrets
+### Triaging exposed secrets
 
 <details>
 <summary>Click to view copy-pastable Appsec Triage Checklist markdown to help with triaging exposed secrets</summary>
@@ -259,7 +261,7 @@ Exposure of information and secrets is handled a little differently to vulnerabi
   - Use Advanced Search to look for similar patterns in other projects used by GitLab team members
 - If it was leaked through GitLab Unfiltered, add the report to the [tracking issue](https://gitlab.com/gitlab-com/gl-security/security-research/video-scanner/youtube-video-scanner/-/issues/17)
 
-## Triaging exposed personal data
+### Triaging exposed personal data
 
 Similar to how we handle exposed secrets, we sometimes handle exposed personal data which also doesn't need a GitLab Project Issue, CVSS or CVE.
 
@@ -283,7 +285,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
   - Check the history on issue / MR descriptions
   - Use Advanced Search to look for similar patterns in other projects used by GitLab team members
 
-## Triaging features behind a feature flag
+### Triaging features behind a feature flag
 
 Sometimes researchers will report a vulnerability in features behind a [feature flag](https://docs.gitlab.com/ee/operations/feature_flags.html). These reports are excellent as they allow us to patch vulnerabilities prior to them affecting our wider audience that utilizes the default settings. These reports are eligible for the full amount of their calculated bounty.
 
@@ -294,7 +296,7 @@ Pay attention to the full report to determine the `Attack Complexity`. The word 
 
 Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/ee/administration/feature_flags.html#risks-when-enabling-features-still-in-development), not security releases.
 
-## Triaging issues in lower Ruby versions
+### Triaging issues in lower Ruby versions
 
 Some vulnerabilities will only work on certain Ruby versions. In order to reproduce them locally using GDK, here is how you can change your Ruby version:
 
@@ -306,21 +308,21 @@ Some vulnerabilities will only work on certain Ruby versions. In order to reprod
 1. Go into the `./gitlab` directory inside the GDK direcory, and run `bundle install`.
 1. Verify the Ruby version after running `gdk restart` and going to `https://127.0.0.1:3000/admin`
 
-## Triaging deprecated features
+### Triaging deprecated features
 
 Vulnerabilities in deprecated features are triaged normally. [See discussion](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/336) for more information.
 
-## Triaging DNS record takeovers
+### Triaging DNS record takeovers
 
 DNS record takeovers typically require multiple teams in order to triage. The workflow is slightly different:
 
 - Instead of pinging the team responsible for the given page (or service, in the case of MX or TXT records) we collaborate with SIRT and the SRE Oncall
-- We import the HackerOne report to the infrastructure repository via `/h1 import $REPORT infrastructure`
-- Engage SIRT via `/security` in Slack. This will allow SIRT to perform their investigatory duties related to this type of attack.
+- We import the HackerOne report to the infrastructure repository with `/h1 import $REPORT infrastructure`
+- Engage SIRT with `/security` in Slack. This will allow SIRT to perform their investigatory duties related to this type of attack.
 - Engage `@sre-oncall` in Slack. This notifies the SRE (but does not intiate a PagerDuty ping) on-call of a situation requiring their attention. In the relevant SIRT issue, the responder should be added to the issue by the GitLab SIRT.
 Remediation of this vulnerability happens within the SIRT issue and typically involves deleting the dangling CNAME record. For issues involving MX record takeovers we typically work with our MX SaaS vendor, Mailgun to obtain control of the record. More information on MX record takeovers can be found [here](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/334).
 
-## Awards
+### Awards
 
 - See [GitLab's H1 Policy](https://hackerone.com/gitlab), under `Rewards`, for portions of bounty rewards which are awarded at the time of triage
   - It is OK to delay awarding at time of triage. Examples are when we aren't sure if a report is intended behaviour, or if it will be a documentation change. Remember to return and make a partial award if/when appropriate.
@@ -342,7 +344,7 @@ We can award GitLab swag to reporters who have submitted a quality report that d
 
 We can also request to plant trees in the GitLab Forest as a non-monetary rewards, where reporters for various reasons can't accept swag or a monetary award. The amount varies based on the severity, please add a note in the request form based on the [list here](https://gitlab.com/gitlab-com/gl-security/hackerone/administration/-/issues/1#note_2139914536) (Internal link).
 
-## Managing issues
+### Managing issues
 
 Discussion and remediation of vulnerabilities can sometimes take longer than we would prefer. Even so, frequent communication with reporters is far better than leaving reporters in the dark, even if our progress is slow. Therefore:
 
@@ -356,11 +358,11 @@ on-going as to whether a patch will be created at all, reporters should
 be notified of updates at least **monthly**.
 - In any case, no report should go "stale" where updates are not provided within the last month.
 
-## SLA exceptions
+### SLA exceptions
 
 The HackerOne bot will automatically assign the correct due date based on severity of the imported issue. However, sometimes the issues may for various reasons not be patched within that timeframe. When this happens, development teams should open a [SLA exception](/handbook/security/product-security/vulnerability-management/sla/) and have it approved by the Vulnerability Management team. The Application Security team is available to assist by providing guidance on these exception requests, but the expectation is that development teams will submit these requests and provide the justification and exception type.
 
-## Closing out & disclosing issues
+### Closing out & disclosing issues
 
 When a patch is released and the award process complete, it is time to close the HackerOne issue.
 
@@ -382,14 +384,14 @@ disclosure requests using the `08 - Canceled Disclosure Message`
 template. Reporters should instead consider [opening a public GitLab issue](https://about.gitlab.com/submit-feedback/)
 as this is the best way to raise and address non-vulnerability issues.
 
-If a researcher _insists_ on disclosure via HackerOne we should agree to
+If a researcher _insists_ on disclosure on HackerOne we should agree to
 disclose it regardless of quality unless there is a good reason not to.
 
-## Application Security Engineer Procedures for severity::1/priority::1 Issues
+### Application Security Engineer Procedures for severity::1/priority::1 Issues
 
 Please see [Handling severity::1/priority::1 Issues](/handbook/security/product-security/application-security/runbooks/handling-s1p1/)
 
-## Closing reports as Informative, Not Applicable, or Spam
+### Closing reports as Informative, Not Applicable, or Spam
 
 If the report does not pose a security risk to GitLab or GitLab users it can be closed without opening an issue on GitLab.com.
 
@@ -403,13 +405,13 @@ We mostly use the "Informative" status for reports with little to no security im
 
 It may be appropriate to suggest [opening a public GitLab Issue for reproducible bugs](https://about.gitlab.com/submit-feedback/#reproducible-bugs) that are not vulnerabilities.
 
-## If a Report is Unclear
+### If a Report is Unclear
 
 If a report is unclear, or the reviewer has any questions about the validity of the finding or how it can be exploited, now is the time to ask. Move the report to the "Needs More Info" state until the researcher has provided all the information necessary to determine the validity and impact of the finding. Use your best judgement to determine whether it makes sense to open a confidential issue anyway, noting in it that you are seeking more information from the reporter. When in doubt, err on the side of opening the issue.
 
 One the report has been clarified, follow the "regular flow" described above.
 
-## Breakdown of Effective Communication
+### Breakdown of Effective Communication
 
 Sometimes there will be a breakdown in effective communication with a reporter. While this could happen for multiple reasons, it is important that further communication follows [GitLab's Guidelines for Effective and Responsible Communication](/handbook/communication/#effective--responsible-communication-guidelines). If communication with a reporter has gotten to this point, the following steps should be taken to help meet this goal.
 
@@ -420,15 +422,15 @@ Sometimes there will be a breakdown in effective communication with a reporter. 
 
 If the situation leads to a code of conduct violation, follow the process for addressing Code of Conduct violations.
 
-## Addressing Rules of Engagement or Code of Conduct violations
+### Addressing Rules of Engagement or Code of Conduct violations
 
 When behavior violates our [Rules of Engagement](https://hackerone.com/gitlab?type=team#user-content-rules-of-engagement-testing-and-proof-of-concepts) or HackerOne's [Code of Conduct](https://www.hackerone.com/policies/code-of-conduct) we use the Bug Bounty Council to discuss, agree on, and document our response. Add a comment to the current Bug Bounty Council Issue using the template found in the issue description.
 
 In line with our Transparency value, we should try to explain to the researcher why we've taken action and what those actions were. However in some instances (e.g. program bans) it may be appropriate to let HackerOne handle all communication, to keep our team members safe from potential abuse or retribution.
 
-## Reports potentially affecting third parties
+### Reports potentially affecting third parties
 
-When GitLab receives reports, via HackerOne or other means, which might affect third parties the reporter will be encouraged to report the vulnerabilities upstream. On a case-by-case basis, e.g. for urgent or critical issues, GitLab might proactively report security issues upstream while being transparent to the reporter and making sure the original reporter will be credited. GitLab team members however will not attempt to re-apply unique techniques observed from bug bounty related submissions towards unrelated third parties which might be affected.
+When GitLab receives reports, through HackerOne or other means, which might affect third parties the reporter will be encouraged to report the vulnerabilities upstream. On a case-by-case basis, e.g. for urgent or critical issues, GitLab might proactively report security issues upstream while being transparent to the reporter and making sure the original reporter will be credited. GitLab team members however will not attempt to re-apply unique techniques observed from bug bounty related submissions towards unrelated third parties which might be affected.
 
 Vulnerabilities on third-party software are accepted according to the following rules, as stated in our [HackerOne policy](https://hackerone.com/gitlab?type=team):
 The report includes a new vulnerability, for which a patch is not available, or
@@ -439,7 +441,7 @@ The report includes a new vulnerability, for which a patch is not available, or
 
 This does not include websites of third party software and services and only includes dependencies & packaged software.
 
-## Awarding Ultimate Licenses
+### Awarding Ultimate Licenses
 
 GitLab reporters with 3 or more valid reports are eligible for a 1-year Ultimate license for up to 5 users. As per the [H1 policy](https://gitlab.com/gitlab-com/gl-security/hackerone/configuration/-/blob/master/program-policy.md#gitlab-ultimate-license), reporters will request the license through a comment on one of their issues. When a reporter has requested a license, the following steps should be taken:
 
@@ -455,11 +457,11 @@ GitLab reporters with 3 or more valid reports are eligible for a 1-year Ultimate
 The license will be sent to the reporter by CustomersDot. If the reporter claims that the license has not arrived, the app can be used to resend the license.
 When that happens, the creation of a new license should be avoided.
 
-## Questions?
+### Questions?
 
 Members of the public can ask questions about our HackerOne bug bounty program here: [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/hackerone-questions/](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/hackerone-questions/). Note that this repository **is not** the place to discuss or disclose reports and vulnerabilities.
 
-## HackerOne Triage Team GitLab licenses
+### HackerOne Triage Team GitLab licenses
 
 All members of the HackerOne triage team have access to GitLab Ultimate licenses. HackerOne will inform us annually when the license needs to be renewed.
 
@@ -482,3 +484,9 @@ Number of users for each license: 50
 
 License duration: 1 year
 ```
+
+## Troubleshooting and Special Cases: Frequently Asked Questions
+
+ TBD
+
+
