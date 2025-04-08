@@ -1,64 +1,51 @@
 ---
-title: "Legal Operations"
-description: "Information and processes related to Legal Operations"
+title: "Stategy & Legal Operations"
 ---
 
-The Legal Operations Team is responsible for supporting Legal Team processes with a focus on defining and driving initiatives that improve the team's efficiency and effectiveness.
+The Strategy & Legal Ops team promotes and institutes streamlined processes, efficient tools, and centralized program management to ensure LACA remains agile and able to support every area of GitLab’s business.
 
-Check out the [Legal Operations Portfolio](https://gitlab.com/groups/gitlab-com/-/epics/1641) to learn more about our active projects.
+Check out [our issue board](https://gitlab.com/groups/gitlab-com/-/boards/9214591) to learn more about what we’re working on.
 
-## Legal Tech Stack
+### Objectives
 
-The Legal Operations Team manages the [Legal Tech Stack](https://docs.google.com/spreadsheets/d/1nLtWVx6mebR7_y2Qv_CcScbVW-ryLVzvcFVgGk2yeRs/edit#gid=686289913) – the tools used by the rest of the GitLab Legal Team. (Note that the tech stack document is accessible to GitLab Legal Team Members only.)
+1. **Strategic Planning and Financials:** Build, execute, and iterate on a best-in-class strategic plan, including management of LACA’s budget from planning through forecasting and reporting. 
+2. **Legal Operations:** Optimize LACA operations through tools, processes, and operational capabilities. Drive enhancements to the [LACA tech stack](https://docs.google.com/spreadsheets/d/1nLtWVx6mebR7_y2Qv_CcScbVW-ryLVzvcFVgGk2yeRs/edit?gid=686289913#gid=686289913).  
+3. **Program and Project Management:** Define and drive initiatives spanning across LACA and GitLab. Examples include: vendor management, [billing and accruals](/handbook/legal/legalops/#legal-billing-process), [designated insiders and pre-clearance process](/handbook/legal/publiccompanyresources/#designated-insiders), tool administration, and team member engagement activities.
 
-## Procurement
+## Legal Billing Process
 
-For information on GitLab's Procurement Team, policies, and processes, visit the [GitLab Procurement Team handbook](/handbook/finance/procurement/).
+GitLab uses Brightflag’s Legal Spend Management platform to process and review legal invoices and accruals.
 
-Use the [Procurement Guide: Collaborating with GitLab Legal](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/) to learn about how Legal assists and interacts with the procurement of products and services.
+See the [Brightflag invoicing process](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/#brightflag-invoicing-process) in the internal handbook.
 
-**Processes:**
+### Accruals Process
 
-- [Uploading executed contracts to ContractWorks](/handbook/legal/vendor-contract-filing-process/)
+Accruals submission reminder notifications are automatically sent through Brightflag to ensure vendors submit their accruals on time.
+  
+- Law firms with active matters will receive two automated reminder emails at 06:15 UTC on the following days:
+  - **First Reminder**: Five calendar days before the deadline.
+  - **Final Reminder**: On the day of the deadline.
+- If the deadline falls on a weekend, the email will be sent on that weekend day.
+- If accruals are submitted on all matters before the deadline for a given vendor office, the notification emails will not be sent to that vendor.
 
-## Legal & Corporate Affairs Billing Process
-
-The purpose of this process is to streamline receiving and tracking invoices and accruals for outside counsel vendors. For more information about invoicing and payment, see the [Accounts Payable handbook](/handbook/finance/accounts-payable/).
-
-### Invoices
-
-- All outside counsel invoices should be sent to <legalbilling@gitlab.com>.
-- Upon receipt, Legal Operations updates the LACA Counsel Budget Tracker.
-- DRIs review their invoices weekly, and approve or reject.
-- Approved invoices are sent to ap@gitlab.com by Legal Operations.
-  - DRIs engage with outside counsel to discuss any rejected invoices. Upon resubmission, Legal Operations will update the tracker and submit to AP.
-
-### Accruals
-
-- Legal Operations sends a blanket request to all vendors on the 15th of the month requesting accruals be submitted by the 1st day of the following month.
-  - For example, for accruals of August 2023, the latest accruals should be provided to GitLab is 2023-09-01.
-- Once accruals are received, Legal Operations logs and submits to FP&A.
-  - DRIs can review for accuracy as needed/desired.
-
-### Legal & Corporate Affairs Expenditure Request Process
+## Legal & Corporate Affairs Expenditure Request Process
 
 This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by LACA. This process does not apply to [equipment](/handbook/finance/expenses/#equipment), [Individual Use Software](/handbook/finance/procurement/individual-use-software/) or other personal reimbursement requests.
 
 - All expenses / reimbursements must be in accordance with [GitLab's Travel & Expense Policy](/handbook/finance/expenses/).
-- Regardless of the type of expenditure, all requests for use of LACA funds require approval from applicable stakeholders within the LACA Expenditure Request Issue Template.
+- All requests for use of LACA funds require approval from applicable stakeholders within the LACA Expenditure Request Issue Template.
 - Requests must be submitted, (i) no less than ninety (90) days prior to the event/purchase request date, and (ii) no more than once per year.
 - For conferences or development requests, team members are expected to share materials and insight with others within LACA (and GitLab).
 
-#### Types of Expenditures
+### Types of Expenditures
 
-- Growth & Development: Team members can review the [Growth & Development Program](/handbook/people-group/learning-and-development/growth-and-development/#growth-and-development-fund-eligibility) and  various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._
-- Event / Conferences: Team members may wish to attend applicable events / conferences where they can learn more about a specific subject. Team members must complete the LACA Expenditure Request Issue Template and supply the necessary information.
-- Tools / Software: For requests related to new tools / software, a LACA Expenditure Request Issue Template is required.
+- Growth & Development: Team members can review the [Growth & Development Fund](/handbook/people-group/learning-and-development/growth-and-development/) and  various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._
+- Tools / Software: For requests related to new tools or software, a LACA Expenditure Request Issue Template is required.
 
-#### Expenditure Process Overview
+### Expenditure Process Overview
 
 - LACA team members must first communicate their intended request with their manager.
-- If supported by the manager, the team member will complete the [LACA Expenditure Request Issue Template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new) (under _Description_, select the "laca-travel-and-expense-request" template).
+- If supported by their manager, the team member will complete the ["laca-travel-and-expense-request" template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=laca-travel-and-expense-request#).
 - Included within the LACA Expenditure Request Issue Template are details that the team member must complete.
 - Upon being submitted, the request will be reviewed internally by LACA leadership.
 - If approved, the request will then be assigned to Finance to ensure applicable funds are available.
