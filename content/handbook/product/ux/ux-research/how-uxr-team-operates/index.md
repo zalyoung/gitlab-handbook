@@ -33,9 +33,9 @@ Teammate pairings gives the team member a consistent partner to share ideas with
 | **Core DevSecOps Workflows** | [Jessica Kane](https://gitlab.com/jlkane) | **Create** [Ben Leduc-Mills](https://gitlab.com/leducmills) <br> **Verify** [Erika Feldman](https://gitlab.com/enf) <br> **Plan** [Danika Teverovsky](https://gitlab.com/dteverovsky) |
 | **Monetization & Analytics** | [Jessica Kane](https://gitlab.com/jlkane) | **Growth** [Anne Lasch](https://gitlab.com/alasch), Senior Service Designer - TBH <br> **Fulfillment** [Anne Lasch](https://gitlab.com/alasch) <br> **Optimize** [Danika Teverovsky](https://gitlab.com/dteverovsky) |
 | **Platforms** | [Jessica Kane](https://gitlab.com/jlkane) | **SaaS Platforms**  [Will Leidheiser](https://gitlab.com/wleidheiser) <br> **Systems** [Will Leidheiser](https://gitlab.com/wleidheiser) |
-| **Security and Compliance** | [Karen Li](https://gitlab.com/karenyli) | **Security Risk Management** TBH |
+| **Security and Compliance** | [Karen Li](https://gitlab.com/karenyli) | **Security Risk Management** Senior UX Researcher - TBH |
 | **GitLab Docs Site** | [Karen Li](https://gitlab.com/karenyli) | Rolling Responsibility |
-| **Research Operations** | [Karen Li](https://gitlab.com/karenyli) | [Caitlin Faughnan](https://gitlab.com/cfaughnan) <br> TBH |
+| **Research Operations** | [Karen Li](https://gitlab.com/karenyli) | [Caitlin Faughnan](https://gitlab.com/cfaughnan) <br> [Mariana Cardinali](https://gitlab.com/marianacardinali) |
 
 ## How UX Researchers work
 
