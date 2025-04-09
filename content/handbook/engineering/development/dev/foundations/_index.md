@@ -48,12 +48,10 @@ description: The responsibilities of this stage are described by the [Foundation
   - User needs to control which events generate notifications
 
 - **Critical to Design System:**
-  - Maintainer/Reviewer wants to ensure compliance with GitLab's design standards
-  - Developer needs to efficiently migrate legacy components to Pajamas-approved alternatives
-  - Maintainer/Reviewer needs to ensure the implementation meets accessibility standards
-
-- **Design System:**
-  - Developer wants to test components for accessibility issues
+  - User needs a consistent and accessible user experience
+  - Designer needs to efficiently implement interfaces and support multiple color modes with components and design tokens
+  - Developer needs to efficiently implement interfaces and support multiple color modes with components and utility classes
+  - Maintainer needs to ensure quality of interfaces through compliance with design system
 
 ### Standards of Quality and Completeness
 
