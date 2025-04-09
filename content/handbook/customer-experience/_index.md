@@ -2,13 +2,24 @@
 title: "Customer Experience (CX)"
 description: "Home space for CX team"
 ---
-# **Customer Experience (CX)**
+
+## **Customer Experience (CX)**
 
 Welcome to the Customer Experience team page.
 
-## **What is Customer Experience (CX)?**
+## **About Customer Experience (CX)**
 
-If you are new to the field of Customer Experience, please see this page for information (add link). 
+Customer Experience (CX) is a field that encompasses the entire end-to-end customer journey, from initial awareness, evaluation and purchase to post-sales adoption and expansion, focusing on creating positive, seamless, and meaningful interactions to build loyalty and customer satisfaction. 
+
+## **Goals of Customer Experience (CX)**
+
+* **Increase customer satisfaction, loyalty, and retention** through delivering exceptional experiences and building strong customer relationships to drive repeat business  
+* **Reduce customer effort and friction across touchpoints** by identifying top areas of friction to remediate cross-functionally.  
+* **Build a positive brand.** Drive positive word-of-mouth and advocacy, and differentiate from competitors in crowded markets.  
+* **Increase customer lifetime value** and reduce acquisition costs by retaining customers and encouraging repeat purchases to increase the long-term value for each customer.  
+* **Align organizational processes and culture around customer needs**, creating customer-first organization and product.
+
+Learn more here \- new page needed. 
 
 ## **Our Mission**
 
@@ -19,6 +30,7 @@ To create exceptional value through deep customer understanding, enabling GitLab
 We create meaningful connections with customers, transforming every interaction into an opportunity to build trust. By anticipating needs and delivering personalized experiences, we make customers feel valued and supported, turning them into passionate advocates who drive our shared success. (Powered by Claude)
 
 ## **Key Objectives**
+
 | Drive Customer-Centric Decision Making|Enable Customer Success via Strategic Engagement| Champion Customer Innovation and Growth|
 | :---- | :---- | :---- |
 | Establish comprehensive Voice of Customer (VoC) programs for feedback loops, customer intelligence frameworks, and biannual customer satisfaction  insights mechanism to provide actionable experience insights for the organization. | Drive customer engagement through strategic programs, executive relationships, peer learning platforms, and advisory boards to accelerate value realization. | Foster customer growth by identifying innovative use cases, targeted education opportunities, enabling customer influence on strategy, and demonstrating value via success stories and foundational metrics. |

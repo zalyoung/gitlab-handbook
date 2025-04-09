@@ -3,7 +3,7 @@ title: "Expansion Journey: Premium to Ultimate Up-tier"
 description: "Epic for understanding how our largest customers expand into Ultimate"
 ---
 
-# **Expansion Journey: Premium to Ultimate Up-tier**
+## **Expansion Journey: Premium to Ultimate Up-tier**
 
 ## **Purpose**
 

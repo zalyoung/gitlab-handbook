@@ -2,10 +2,13 @@
 title: "Our Team & Partners"
 description: "Who we are, what we do, and who we work with across GitLab to drive customer excellence."
 ---
-# **Our Team**
+
+## **Our Team**
+
 Who we are, what we do, and who we work with across GitLab to drive customer excellence. 
 
 ## **Meet The Team**
+
 We are a small, but mighty, team for now. More teammates will be added in future quarters\!  
 
 | Role | Responsibilities | Outputs |
