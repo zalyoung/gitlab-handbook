@@ -23,8 +23,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Apr 3 |  Visibility and Measurement Roadmap   | Product Marketing  |
-| Apr 10 |  Product Marketing Update   |  Product Marketing  |
+| Apr 10 |  GitLab Duo with Amazon Q Enablement   |  Product Marketing  |
 | Apr 17 |  *No session during the last two weeks of the quarter*   |    |
 | Apr 24 |  *No session during the last two weeks of the quarter*   |    |
 
