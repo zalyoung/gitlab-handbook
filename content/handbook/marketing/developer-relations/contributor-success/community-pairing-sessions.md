@@ -80,8 +80,6 @@ the organizers must attend in order to be able to livestream to [our YouTube cha
 | Organizer       | GitLab handle         | Discord handle  |
 | ---             | ---                   | ---             |
 | Lee Tickett     | `@leetickett-gitlab`  | `@leetickett`   |
-| Arianna Haradon | `@aharadon`           | `@aharadon`    |
+| Arianna Haradon | `@aharadon`           | `@aharadon`     |
 | Raimund Hook    | `@stingrayza`         | `@stingrayza`   |
-| James Rushford  | `@jrushford`          | `@jrushford`    |
-| Andrew Smith    | `@espadav8`           | `@espadav8`     |
-| Marco Zille     | `@zillemarco`         | `@zillemarco`   |
+| Daniel Murphy   | `@daniel-murphy`      | `@daniel-murphy`|
