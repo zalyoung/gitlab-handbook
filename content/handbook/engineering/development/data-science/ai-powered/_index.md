@@ -10,7 +10,7 @@ description: "The AI-Powered Stage in the Data Science section is focused on pro
 1. Agentic framework and customer solutions
 1. Scalability of AI throughout the SDLC
 1. Enterprise-grade completeness 
-1. Design System Adoption
+1. Design System integration/component creation
 
 ### Areas of opportunity
 
@@ -19,8 +19,9 @@ description: "The AI-Powered Stage in the Data Science section is focused on pro
 - Build infrastructure to proactively support 4+ quarters of anticipated feature growth
 - Identify AI components not using the standard Design System and prioritize UI/UX standardization
 - Establish cross-team testing protocols for enterprise-grade reliability
-- Innovation / Industry advancements TBD
-- 
+- Identify emerging industry tools, techniques, models, concepts and validate for application within GitLab
+- [Evaluate existing E2E tests and map to defined user journeys for our domains](https://gitlab.com/groups/gitlab-com/-/epics/2513)
+- Audit database headroom and forecast end of year growth
 - 
 - 
 
@@ -72,6 +73,7 @@ description: "The AI-Powered Stage in the Data Science section is focused on pro
 
 - **Duo Workflow:**
   - Developer needs intelligent agents to execute complex tasks across GitLab projects
+  - Developer needs a way to assign AI agents to tasks and manage their work throughout the GitLab platform
   - DevOps engineer needs to trigger team-wide AI workflows from the GitLab UI
   - User needs to create and configure AI workflows intuitively without deep technical knowledge
   - Team member requires real-time monitoring of AI agent activities and progress
