@@ -117,8 +117,8 @@ Besides the [GitLab product development flow](/handbook/product-development/prod
 
 * `group::distribution` - Items specific to, or authored by Distribution team. It is a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) to be applied to all Distribution subgroups items until further guidance.
 * `group::distribution::*` - Items specific to, or authored by one of Distribution subgroups. They are [nested scope labels](https://docs.gitlab.com/ee/user/project/labels.html#nested-scopes), and mutually exclusive, but can be used with `group::distribution` scoped label together.
-  * `group::distribution::build` - Items specific to, or authored by [build](#distributionbuild-charter) group.
-  * `group::distribution::deploy` - Items specific to, or authored by [deployment](#distributiondeploy-charter) group.
+  * `group::distribution::build` - Items specific to, or authored by [build](/handbook/engineering/infrastructure-platforms/software-delivery/distribution#distributionbuild-charter) group.
+  * `group::distribution::deploy` - Items specific to, or authored by [deployment](/handbook/engineering/infrastructure-platforms/software-delivery/distribution#distributiondeploy-charter) group.
 * `FY(Year in two digitals)::*` (1-4) - [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) to indicate efforts targeted for release within a quarter. i.e., `FY24::Q2`.
 
 There are also a number of additional **required** labels under certain scenarios:
