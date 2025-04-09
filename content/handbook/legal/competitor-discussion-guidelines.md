@@ -17,7 +17,7 @@ These guidelines govern how to discuss and reference competitor product features
 
 \#\# Do
 
-\- Initiate and engage in general discussions about competitor product features, including analysis of advantages and disadvantages.  
+\- Initiate and engage in general discussions about competitor product features, including analysis of advantages and disadvantages.
     
   \*Example: "collaborate.ly's merge commit message implementation has an interesting approach to handling conflicts. GitLab solves this differently by..."\*
 
@@ -35,7 +35,7 @@ These guidelines govern how to discuss and reference competitor product features
 
 \#\# Do not
 
-\- Share competitor screenshots without accompanying commentary or critical analysis.  
+\- Share competitor screenshots without accompanying commentary or critical analysis.
     
   \*Example: Posting a competitor's dashboard screenshot with no context or discussion.\*
 
