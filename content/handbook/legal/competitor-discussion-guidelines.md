@@ -1,9 +1,9 @@
 ---
-title: Guidelines on Public Discussion of Competitor Product Features
-description: "These guidelines govern how to discuss and reference competitor product features and screenshots in public issues, GitLab documentation, and other public-facing media."
+title: Guidelines on public discussion of competitor product features
+description: "These guidelines govern how to discuss and reference competitor product features and screenshots in public issues, GitLab [documentation](http://docs.gitlab.com), and other public-facing media."
 ---
 
-\# Guidelines on Public Discussion of Competitor Product Features
+\# Guidelines on public discussion of competitor product features
 
 These guidelines govern how to discuss and reference competitor product features and screenshots in public issues, GitLab documentation, and other public-facing media.
 
@@ -19,19 +19,19 @@ These guidelines govern how to discuss and reference competitor product features
 
 \- Initiate and engage in general discussions about competitor product features, including analysis of advantages and disadvantages.
     
-  \*Example: "collaborate.ly's merge commit message implementation has an interesting approach to handling conflicts. GitLab solves this differently by..."\*
+  \*Example: "collaborate.ly's new merge commit message implementation has an interesting approach to handling conflicts. GitLab solves this differently by..."\*
 
 \- Share screenshots obtained from publicly available sources (not from free trials or paid accounts) when providing illustration and commentary.  
     
   \*Example: Sharing a screenshot from a competitor's public documentation page to discuss UI differences.\*
 
-\- Respond to community members who share competitor screenshots in discussions.
+\- Engage in general discussions about competitor product features in response to screenshots shared by community members. 
 
 \- Include competitor screenshots in GitLab documentation for reference purposes (for example, in migration instructions, integration guidance, or CI/CD usage in third-party repositories).  
     
   \*Example: Including screenshots in migration documentation that show where to find export options in the competitor's interface.\*
 
-\- Contact [#legal](https://app.slack.com/client/T02592416/C78E74A6L) with any questions or concerns.
+\- Reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) with any questions.
 
 \#\# Do not
 
@@ -39,11 +39,11 @@ These guidelines govern how to discuss and reference competitor product features
     
   \*Example: Posting a competitor's dashboard screenshot with no context or discussion.\*
 
-\- Discuss plans to directly copy competitor features verbatim, with or without screenshots.  
+\- Initiate, or engage in, discussions proposing plans to directly copy competitor features verbatim, with or without screenshots.  
     
   \*Example: "We should copy collaborate.ly's exact implementation of merge commit messages."\*
 
-\- Publicly share screenshots taken directly from competitor products via free trials or paid accounts for competitive analysis.  
+\- Share screenshots taken directly from competitor products via free trials or paid accounts for competitive benchmarking.  
     
   \*Example: Taking screenshots while logged into a competitor's product during a free trial period and sharing them publicly.\*
 
@@ -51,4 +51,4 @@ These guidelines govern how to discuss and reference competitor product features
     
   \*Example: Sharing a screenshot that shows a competitor's logo in the header or footer of their website.\*
 
-For additional guidelines on competitive intelligence, GitLab team members can refer to the internal-only ["Guidelines for use of third-party services for competitor benchmarking"](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/productguidance/\#guidelines-for-use-of-third-party-services-for-competitor-benchmarking) on the Legal Product Guidance page (accessible to team members only).
+For additional guidelines on competitive benchmarking, GitLab team members can refer to the internal-only ["Guidelines for use of third-party services for competitor benchmarking"](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/productguidance/\#guidelines-for-use-of-third-party-services-for-competitor-benchmarking) on the Legal Product Guidance page (accessible to team members only).
