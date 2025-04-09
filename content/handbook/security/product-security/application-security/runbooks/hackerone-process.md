@@ -11,7 +11,10 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 
 ## Key Stakeholders and Responsibilities
 
-TBD
+- HackerOne Triager
+- GitLab AppSec Engineering
+- Gitlab Product Manager of the feature affected by the finding
+- Gitlab Engineering (Development) Manager of the feature affected by the finding
 
 ## HackerOne Workflow
 
