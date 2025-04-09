@@ -79,7 +79,7 @@ Only the `Owner` role has the ability to delete videos in Vimeo. As such, we hav
 
 ## Upload
 
-Vimeo accepts most video file formats (MP4, MOV, WMV, AVI, and FLV). Vimeo does not accept audio files, image files, or other non-video formats (MP3, WAV, WMA, JPG, and PNG). If you compress your source file prior to upload, follow [these guidelines](https://help.vimeo.com/hc/en-us/articles/12426043233169-Video-and-audio-compression-guidelines). For more information on uploading videos to Vimeo, [see this help article](https://vimeo.zendesk.com/hc/en-us/articles/229838988-Preparing-to-upload).
+Vimeo accepts most video file formats (MP4, MOV, WMV, AVI, and FLV). Vimeo does not accept audio files, image files, or other non-video formats (MP3, WAV, WMA, JPG, and PNG). If you compress your source file prior to upload, follow [these guidelines](https://help.vimeo.com/hc/en-us/articles/12426043233169-Video-and-audio-compression-guidelines). For more information on uploading videos to Vimeo, [see this help article](https://help.vimeo.com/hc/en-us/articles/12426058107409-Prepare-to-upload).
 
 ## Live Events
 
@@ -87,9 +87,9 @@ For more information about conducting virtual events, see the [virtual events ha
 
 ### Best Practices
 
-- [Streaming Best Practices](https://vimeo.zendesk.com/hc/en-us/articles/360040590272-Streaming-Best-Practices)
+- [Streaming Best Practices](https://help.vimeo.com/hc/en-us/articles/12426924057617-Streaming-Best-Practices)
 - [Recommended network configuration for streaming](https://help.vimeo.com/hc/en-us/articles/12426939452817-Recommended-network-configuration-for-live-events)
-- [Network and browser requirements for viewing streams](https://vimeo.zendesk.com/hc/en-us/articles/360040394231-Network-and-browser-requirements-for-viewing-streams)
+- [Network and browser requirements for viewing streams](https://help.vimeo.com/hc/en-us/articles/12426098107793-Network-and-browser-requirements-for-viewing-streams)
 
 ### Create a live event
 
@@ -106,12 +106,12 @@ For more information about conducting virtual events, see the [virtual events ha
 
 #### Step 2
 
-1. On the next page, choose settings for your live event. Under the `Event` tab in the left-hand sidebar, toggle the `Chat` functionality on or off (appears only on Vimeo where you choose to embed). [See more info on enabling, disabling, and moderating chat](https://vimeo.zendesk.com/hc/en-us/articles/360040771772-Enabling-disabling-and-moderating-chat).
+1. On the next page, choose settings for your live event. Under the `Event` tab in the left-hand sidebar, toggle the `Chat` functionality on or off (appears only on Vimeo where you choose to embed). [See more info on enabling, disabling, and moderating chat](https://help.vimeo.com/hc/en-us/articles/12426972862737-Enable-disable-and-moderate-chat).
 1. In `Viewing privacy` you can select different privacy options for your live event.
 1. Enter a description for your live event under the `Description` field.
 1. Under the video preview, you can choose a thumbnail for your video cover and edit the start time of the event.
 1. Under the `Embed` tab, select the options you would like to toggle on or off before generating your embed code. First, select the preferred embed privacy. You can choose `Anywhere`, `Nowhere`, or `Specific domains`. [See live event privacy settings](#live-event-privacy-settings).
-1. Under `Video Controls` toggle on/off the options for your live event.  [See more about customizing the embedded player and adding embed presets](https://help.vimeo.com/hc/en-us/articles/12426259745937-How-to-customize-the-embedded-player).
+1. Under `Video Controls` toggle on/off the options for your live event.  [See more about customizing the embedded player and adding embed presets](https://help.vimeo.com/hc/en-us/articles/12426259745937-How-do-I-customize-the-embedded-player).
 1. Choose your preferred interaction tool and its respective settings (optional). See [interaction tools](#interaction-tools) for more detail.
 1. Under the `Destinations` tab, select where you will be streaming your live event. Available destinations to stream: Vimeo. [More destinations coming soon](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/3872). Click `Next`.
 1. Vimeo will ask permission to use your device's microphone and camera. After acceptance, a low-res preview will be made available to test audio/video input/output. Notice a new sidebar menu available to manage the stream including: [Destinations](#destinations), [Chat](#chat), [Polls](#polls), [Q&A](#q--a), [Graphics](#graphics), and [Stream Health](#stream-health). One or more of these features may not be enabled based on the set up of your live event.
@@ -119,7 +119,7 @@ For more information about conducting virtual events, see the [virtual events ha
 
 ## Stream Health
 
-[See how well your stream is performing in real time](https://vimeo.zendesk.com/hc/en-us/articles/360034657071-Stream-health-monitoring). The information displayed in this tool comes directly from the Ingest server logs, which is the first point of contact your stream has with the Vimeo Live back-end.
+[See how well your stream is performing in real time](https://help.vimeo.com/hc/en-us/articles/12426962093841-Stream-health-monitoring). The information displayed in this tool comes directly from the Ingest server logs, which is the first point of contact your stream has with the Vimeo Live back-end.
 
 The stream health indicator can be found on the upper right of the live settings page and preview page.
 
@@ -144,15 +144,15 @@ Ensure that you have the `GitLab` account selected to view video analytics speci
 
 ## Sharing your screen while live
 
-You can [share your screen with your audience](https://vimeo.zendesk.com/hc/en-us/articles/360031406392-Sharing-your-screen-while-live) using the browser-based encoder. This is available as an input alongside your webcam on the `Vimeo Live Settings` page for your live events.
+You can [share your screen with your audience](https://help.vimeo.com/hc/en-us/articles/12426962678545-Share-your-screen-while-live) using the browser-based encoder. This is available as an input alongside your webcam on the `Vimeo Live Settings` page for your live events.
 
 ## Graphics
 
-With [Graphics](https://vimeo.zendesk.com/hc/en-us/articles/360029427951-Graphic-overlays), you can add lower third graphics, fullscreen graphics, and logos to your live broadcast right from the Vimeo live preview page.
+With [Graphics](https://help.vimeo.com/hc/en-us/articles/12426973321489-How-to-add-lower-third-graphic-overlays-to-events), you can add lower third graphics, fullscreen graphics, and logos to your live broadcast right from the Vimeo live preview page.
 
 ### Lower Thirds
 
-The name "lower third" specifically refers to the bottom one-third of the screen. [These graphics](https://vimeo.zendesk.com/hc/en-us/articles/360029427951-Graphic-overlays#h_01EKZD4FKSH76E84VWZXXHE03Q) are typically used to introduce a speaker or participant on your stream or identify the location of your event, among other uses.
+The name "lower third" specifically refers to the bottom one-third of the screen. [These graphics](https://help.vimeo.com/hc/en-us/articles/12426973321489-How-to-add-lower-third-graphic-overlays-to-events) are typically used to introduce a speaker or participant on your stream or identify the location of your event, among other uses.
 
 **Create a lower third**
 
@@ -183,7 +183,7 @@ A logo is a small icon that appears in the lower right corner of the screen and 
 
 ## Q & A
 
-[Live Q&A](https://vimeo.zendesk.com/hc/en-us/articles/360044207351-Live-Q-A) allows you to accept questions, have viewers vote to order questions based on popularity, publish the question to the stream, and ultimately answer them.
+[Live Q&A](https://help.vimeo.com/hc/en-us/articles/12426977669777-How-to-set-up-and-manage-Live-Q-A) allows you to accept questions, have viewers vote to order questions based on popularity, publish the question to the stream, and ultimately answer them.
 
 ### Setting up Q&A
 
@@ -216,7 +216,7 @@ The CSV includes the following information:
 
 ## Polls
 
-[Live polls](https://vimeo.zendesk.com/hc/en-us/articles/360002126447-Live-polls) allows you to insert questions into your live stream for viewers to respond to via [live chat](#chat). Polls can be used to gather feedback from viewers (answers ranked by percentage) or as a quiz (one option being the correct response). You can have as many polls as you'd like per stream, but only one poll may be open at a time.
+[Live polls](https://help.vimeo.com/hc/en-us/articles/12426972962193-How-to-create-and-manage-live-polls) allows you to insert questions into your live stream for viewers to respond to via [live chat](#chat). Polls can be used to gather feedback from viewers (answers ranked by percentage) or as a quiz (one option being the correct response). You can have as many polls as you'd like per stream, but only one poll may be open at a time.
 
 ### Create a poll
 
@@ -230,11 +230,11 @@ The CSV includes the following information:
 
 Chat is disabled by default. You can enable it in [step 2 of creating a live event](#step-2). As the event owner, you have the ability to moderate chat including comment deletion and banning capabilities.
 
-[See more info on enabling, disabling, and moderating chat](https://vimeo.zendesk.com/hc/en-us/articles/360040771772-Enabling-disabling-and-moderating-chat).
+[See more info on enabling, disabling, and moderating chat](https://help.vimeo.com/hc/en-us/articles/12426972862737-Enable-disable-and-moderate-chat).
 
 ## Destinations
 
-Vimeo supports [simulcasting](https://vimeo.zendesk.com/hc/en-us/articles/360000352508-Simulcast-overview) which allows for simultaneous streaming on Facebook Live, YouTube, LinkedIn, and any custom RTMP destination.
+Vimeo supports [simulcasting](https://help.vimeo.com/hc/en-us/articles/12426986039825-Simulcast-overview) which allows for simultaneous streaming on Facebook Live, YouTube, LinkedIn, and any custom RTMP destination.
 
 [Coming soon.](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/3872)
 
@@ -291,7 +291,7 @@ If you only want the email addresses from one particular video, you can download
 1. `Only people with the private link` - Make video visible only to people who have the link. (Your video cannot appear in channels or groups, and any credits you've added will be removed.)
 1. `Hide this video from vimeo.com` - This video can be embedded on other sites but can't be viewed on vimeo.com. (Your video cannot appear in channels and groups but can still be added to showcases and portfolios.)
 
-[See more info on privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/224817847-Privacy-settings-overview).
+[See more info on privacy settings](https://help.vimeo.com/hc/en-us/articles/12426199699985-Overview-of-video-privacy-settings).
 
 ### Live Event Privacy Settings
 
@@ -299,7 +299,7 @@ If you only want the email addresses from one particular video, you can download
 1. `Nowhere` disables embedding completely.
 1. `Only on sites I choose` allows you to input the specific URLs that are allowed to host the embedded player.
 
-[See more info on changing the privacy settings of live videos](https://vimeo.zendesk.com/hc/en-us/articles/360001205427-Changing-the-privacy-settings-of-your-Live-videos).
+[See more info on changing the privacy settings of live videos](https://help.vimeo.com/hc/en-us/articles/12426977279889-Change-the-privacy-settings-of-your-Live-videos).
 
 ## Showcases
 
@@ -312,7 +312,7 @@ With a [showcase](https://help.vimeo.com/hc/en-us/articles/12426259177105-How-to
 1. Select the [privacy level](/handbook/marketing/marketing-operations/vimeo/#privacy-settings-overview) for your showcase. The privacy level you select will determine whether you toggle `SEO: Show in Google results` on or off.
 1. In the right window pane, click the `Add video` button to add on-demand videos to your showcase. You can also create a [live event](/handbook/marketing/marketing-operations/vimeo/#live-events) for the showcase.
 1. In the left sidebar menu, click `Assets`. Here you can add branded assets to your showcase including a logo, thumbnail, and accent color.
-1. In the left sidebar menu, click `SEO`. If you toggled `SEO: Show in Google results` off in step 3, disregard this step. If you toggled `SEO: Show in Google results` on, input the site title, description and meta keywords for this showcase. [More on SEO with showcases here](https://vimeo.zendesk.com/hc/en-us/articles/360032785152-Search-Engine-Optimization-SEO-with-showcases).
+1. In the left sidebar menu, click `SEO`. If you toggled `SEO: Show in Google results` off in step 3, disregard this step. If you toggled `SEO: Show in Google results` on, input the site title, description and meta keywords for this showcase. [More on SEO with showcases here](https://help.vimeo.com/hc/en-us/articles/12426274485521-Search-Engine-Optimization-SEO-with-showcases).
 1. In the left sidebar menu, click `Web`. Toggle on/off the various layout options for your showcase. The right window pane shows a preview of how your showcase will look as you toggle your options.
 1. In the `Domain` tab, select `Vimeo URL`. In the right window pane, you can customize the URL of your showcase and then copy the link.
 1. In the left sidebar menu, select `Embed` if you are embedding your showcase on the website. Toggle on/off the embed options for your showcase before copying the embed code.
@@ -326,9 +326,9 @@ A [custom domain](https://help.vimeo.com/hc/en-us/articles/12426259177105-How-to
 
 Analytics allow you to access in-depth insights about your videos and your Vimeo account. All members can track overall video performance, and advanced analytics and functionality.
 
-To access video [analytics](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview), hover over `Manage Videos` in the top left navigation menu and click `Analytics`.
+To access video [analytics](https://help.vimeo.com/hc/en-us/articles/12426192701841-Analytics-feature-access-by-account-type), hover over `Manage Videos` in the top left navigation menu and click `Analytics`.
 
-[View the knowledge base article](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview) for a full tutorial.
+[View the knowledge base article](https://help.vimeo.com/hc/en-us/articles/12426192701841-Analytics-feature-access-by-account-type) for a full tutorial.
 
 ## Integrations
 

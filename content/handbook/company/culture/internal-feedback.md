@@ -234,13 +234,13 @@ Full question: What would make you leave (what should we avoid in the future if 
 
 - Global Compensation Calculator (GCC) -
     1. Concern that pay will decrease based on the compensation calculator by location
-        - Our policy on [Relocation]({{< ref "relocation" >}}) describes our current process, however, we review each case on an individual basis. We anticipate the need to make changes as often will be reduced with the work underway to build out a [simpler approach to identifying an appropriate market rate](https://gitlab.com/gitlab-com/peopleops/issues/234).
+        - Our policy on [Relocation](/handbook/people-group/relocation/) describes our current process, however, we review each case on an individual basis. We anticipate the need to make changes as often will be reduced with the work underway to build out a [simpler approach to identifying an appropriate market rate](https://gitlab.com/gitlab-com/peopleops/issues/234).
     1. Why is the pay gap between Support Engineers and Developers significant?
         - The role and responsibility is different for these two roles, therefore, the market data indicates a difference in pay scales.  We will review external market data again, during the upcoming merit administration process, to confirm the accuracy of our initial benchmark data.
     1. Concern about relocation causing drop in pay
         - Note the answer above.  This is a relatively new policy in an organization that is helping form the playbook for all-remote companies. We strive to find a balance between financially responsible decisions and what's fair to team members.
     1. Concern for lower pay scale outside the US/Europe based on a lower cost of living
-        - The [Global Compensation Calculator]({{< ref "compensation-calculator" >}}) applies a consistent approach to paying a fair wage to all team members. It is not a perfect solution and we aim to [make the model better](https://gitlab.com/gitlab-com/peopleops/issues/234) this spring.
+        - The [Global Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator/) applies a consistent approach to paying a fair wage to all team members. It is not a perfect solution and we aim to [make the model better](https://gitlab.com/gitlab-com/peopleops/issues/234) this spring.
     1. Will we use the compensation calculator for non engineering roles?
         - Yes, this work will be included in the [making the model better](https://gitlab.com/gitlab-com/peopleops/issues/234) project.
 - Other Compensation Topics -
@@ -286,13 +286,13 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 #### What you would like to change & what we are doing about it
 
 1. Make the handbook easier to navigate.
-    - We have added an [Onboarding]({{< ref "general-onboarding" >}}) guide for new GitLab team-members. We also added Standard Operating Procedures for different departments to make what you are looking for easier to find. And don't forget, there is a search function at the top of the handbook that can help you find exactly what you are looking for! Update: This page has been moved to [Onboarding]({{< ref "general-onboarding" >}})
+    - We have added an [Onboarding](/handbook/people-group/general-onboarding/) guide for new GitLab team-members. We also added Standard Operating Procedures for different departments to make what you are looking for easier to find. And don't forget, there is a search function at the top of the handbook that can help you find exactly what you are looking for! Update: This page has been moved to [Onboarding](/handbook/people-group/general-onboarding/)
 1. Spend more time learning the technical side of our product.
     - Check out [GitLab University](https://university.gitlab.com/) to learn more about Git and GitLab. We will also be rolling out additional training on Git and GitLab during 2017 see [issue](https://gitlab.com/gitlab-com/peopleops/issues/126).
 1. Refine the hiring process.
     - We have revamped our [hiring process](/handbook/hiring) to be more efficient. Our global recruiters are working hard to ensure that every candidate is kept in the loop about where they stand in the hiring process, and managers are not spending too much time in Lever reviewing candidates. If you have any questions please feel fee to reach out on the `#hiring` channel on Slack.
 1. Refine the compensation principles.
-    - Please check out our [Global Compensation Framework]({{< ref "compensation" >}}). If you have any questions or concerns about the compensation principles, please let People Ops know!
+    - Please check out our [Global Compensation Framework](/handbook/total-rewards/compensation/). If you have any questions or concerns about the compensation principles, please let People Ops know!
 1. Focus on differentiating CE from EE.
     - We plan to build features that are interesting for enterprises and replace existing products.
 1. Focus on growth of GitLab team-members within the organization.
@@ -304,11 +304,11 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Have more employee agreements instead of contractor agreements.
     - People Ops will be working to establish new entities/payrolls in more countries as we grow. Once this is completed we can transfer contractors to employees.
 1. Hire in departments that need more GitLab team-members.
-    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring#vacancy-creation-process), and add it to the [jobs page](https://about.gitlab.com/jobs).
+    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring#vacancy-creation-process), and add it to the [jobs page](https://about.gitlab.com/jobs/).
 1. Refine onboarding to be less intense/intimidating.
-    - Onboarding can be overwhelming and sometimes confusing. To alleviate confusion about what you are doing and why, we created an [Onboarding]({{< ref "general-onboarding" >}}) guide to explain each step. Update: This page has been moved to [Onboarding]({{< ref "general-onboarding" >}}).
+    - Onboarding can be overwhelming and sometimes confusing. To alleviate confusion about what you are doing and why, we created an [Onboarding](/handbook/people-group/general-onboarding/) guide to explain each step. Update: This page has been moved to [Onboarding](/handbook/people-group/general-onboarding/).
 1. Move unlimited vacation to a set amount so GitLab team-members take their full vacation.
-    - We are taking a look at what the best option is in regard to a limited or unlimited vacation. We want to urge that GitLab team-members take enough [time off]({{< ref "paid-time-off" >}}) to recharge! Unlimited vacation/taking vacation is encourage at GitLab. For information on how these developments are going, check out the open [issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/952)
+    - We are taking a look at what the best option is in regard to a limited or unlimited vacation. We want to urge that GitLab team-members take enough [time off](/handbook/people-group/paid-time-off/) to recharge! Unlimited vacation/taking vacation is encourage at GitLab. For information on how these developments are going, check out the open [issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/952)
 1. Less downtime on GitLab.com.
     - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](https://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
 1. Casual and social interaction.
@@ -376,7 +376,7 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
 1. "Wish we had more time"/ "Wonder if sometimes we go too fast and should go slower
 to focus on quality and testing more"
     - Please make sure you take enough
-    [time off]({{< ref "paid-time-off" >}}) to recharge!
+    [time off](/handbook/people-group/paid-time-off/) to recharge!
     Having a rapid release cycle contributes to increasing quality over time being able to iterate faster. For
     particular concerns in an individual issue, please raise your concerns in the
     issue. Because GitLab has gotten very popular the absolute amount of bugs might be increasing.

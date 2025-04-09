@@ -120,7 +120,7 @@ Once gathered and analysed, the information can be used to inform new content pr
 
 The following tools are excellent resources for the content planning stage and provide a wealth of actionable information:
 
-[**Thruuu**](https://app.samuelschmitt.com/)
+[**Thruuu**](https://app.thruuu.com/)
 
 Provides a breakdown of the top results per searched term as well as on page structure (H1,H2, H3), metadata and an audit of all on page links.
 

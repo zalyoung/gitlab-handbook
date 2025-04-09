@@ -32,10 +32,10 @@ description: "Learn more about the Product Career Development Framework Working 
 
 ### Exit Criteria
 
-1. Research and incorporation of industry standards into Product Manager [Skills](/handbook/product/product-management/product-cdf-competencies/#cdf-for-individual-contributors) and [Requirements](/job-families/product/product-manager/#base-requirements-across-all-levels) => 100% delivered in [Product#2460](https://gitlab.com/gitlab-com/Product/-/issues/2460#note_632540218)
-1. Research and incorporation of internal expectations into Product Management [Responsibilities](/handbook/product/product-manager-responsibilities/) => 100% delivered in [Product#2517](https://gitlab.com/gitlab-com/Product/-/issues/2517) and [Product#2832](https://gitlab.com/gitlab-com/Product/-/issues/2832)
-1. Clear quantative measures for progress [included in the CDF](/handbook/product/product-management/product-cdf-competencies/#cdf-topics-for-product-managers)
-1. [Training](/handbook/product/product-management/product-cdf-competencies/#people-management-competencies) for how to use the CDF for all [Product Leaders](/handbook/product/product-leaders/product-leadership/#product-leaders)
+1. Research and incorporation of industry standards into Product Manager [Skills](/handbook/product/product-management/product-cdf-competencies/#cdf-for-individual-contributor-product-managers) and [Requirements](/job-families/product/product-manager/#base-requirements-across-all-levels) => 100% delivered in [Product#2460](https://gitlab.com/gitlab-com/Product/-/issues/2460#note_632540218)
+1. Research and incorporation of internal expectations into Product Management [Responsibilities](/handbook/product/product-management/product-cdf-competencies/) => 100% delivered in [Product#2517](https://gitlab.com/gitlab-com/Product/-/issues/2517) and [Product#2832](https://gitlab.com/gitlab-com/Product/-/issues/2832)
+1. Clear quantative measures for progress [included in the CDF](/handbook/product/product-management/product-cdf-competencies/#cdf-for-individual-contributor-pricing-managers)
+1. Training for how to use the CDF for all [Product Leaders](/handbook/product/product-leaders/product-leadership/#product-leaders)
 1. Simplification of [PM Competencies](/handbook/product/product-management/product-cdf-competencies/)
 
 ## Roles and Responsibilities

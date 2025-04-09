@@ -20,7 +20,7 @@ The knowledge base is a self-service tool that enables you to quickly search for
 
 ### How does Field Security use the knowledge base?
 
-- To increase our efficiency and effectiveness when executing [Customer Assurance Activities]({{< ref "customer-security-assessment-process" >}})
+- To increase our efficiency and effectiveness when executing [Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
 
 ## How can I access the knowledge base?
 
@@ -47,5 +47,5 @@ If you have suggestions for improvements, please reach out to Field Security via
   - The `#sec-fieldsecurity`, `#sec-assurance`, `#security-division` slack channels are the best place for questions relating to Field Security (please add the above tag).
 
 <div class="d-grid gap-2 my-4">
-   <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>
+   <a href="/handbook/security/security-assurance/" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>
 </div>

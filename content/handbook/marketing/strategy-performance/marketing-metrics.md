@@ -271,7 +271,7 @@ Our demo conversion rate in December 2020 was 8.3% (600/7,226).
 
 ### Marketing Metrics Dashboard
 
-The [Marketing Metrics Dashboard](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics) is the centralized hub of all major marketing metrics and [marketing KPIs](/handbook/marketing/revenue-marketing/#revenue-marketing-kpi-definitions). It is an evergreen source of information brought in from Salesforce that is comprised of numerous individual graphs/charts and allows the viewer to quickly filter results using pre-defined filters on the dashboard itself.
+The [Marketing Metrics Dashboard](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics) is the centralized hub of all major marketing metrics and [marketing KPIs](/handbook/marketing/performance-indicators/). It is an evergreen source of information brought in from Salesforce that is comprised of numerous individual graphs/charts and allows the viewer to quickly filter results using pre-defined filters on the dashboard itself.
 
 ### Marketing Attribution
 

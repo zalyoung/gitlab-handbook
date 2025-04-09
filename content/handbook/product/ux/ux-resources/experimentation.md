@@ -86,7 +86,7 @@ Experimentation is an awesome way to improve your product. There are a lot of co
 
 ## Resources
 
-- [Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/)
+- [Experiment Guide](https://docs.gitlab.com/development/experiment_guide/)
 
 ## Have an idea for an experiment?
 

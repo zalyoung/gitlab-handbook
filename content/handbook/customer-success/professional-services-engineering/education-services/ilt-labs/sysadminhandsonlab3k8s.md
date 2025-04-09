@@ -19,40 +19,40 @@ The objective of this lab is to demonstrate how to back up a GitLab instance on 
 
     ```yml
     global:
-    appConfig:
+      appConfig:
         artifacts:
-        bucket: gitlab-scosentino-3k-backups
+          bucket: k8-lab-backup-bucket
         backups:
-        bucket: gitlab-scosentino-3k-backups
+          bucket: k8-lab-backup-bucket
         lfs:
-        bucket: gitlab-scosentino-3k-backups
+          bucket: k8-lab-backup-bucket
         packages:
-        bucket: gitlab-scosentino-3k-backups
+          bucket: k8-lab-backup-bucket
         terraformState:
-        bucket: gitlab-scosentino-3k-backups
+          bucket: k8-lab-backup-bucket
         tmpBucket:
-        bucket: gitlab-scosentino-3k-backups
+          bucket: k8-lab-backup-bucket
         uploads:
-        bucket: gitlab-scosentino-3k-backups
+          bucket: k8-lab-backup-bucket
     ```
-    
-    > These configurations set the name of the remote storage bucket for each backup type. 
+
+    > These configurations set the name of the remote storage bucket for each backup type.
 
 1. Kubernetes backups are made through the `toolbox` pod. To enable this pod to run backups, it needs to be able to connect to the backup provider. The following configuration can be added to the `gitlab` block to achieve this:
 
     ```yml
-    toolbox:
+      toolbox:
         backups:
-        objectStorage:
+          objectStorage:
             backend: s3
             config:
-            key: config
-            secret: my-s3cfg
+              key: config
+              secret: my-s3cfg
     ```
 
-1. To be able to access these buckets, you need to provide credentials for an AWS service account. To do this, run the command `kubectl create secret generic my-s3cfg --from-file=config=my-s3cfg`. 
+1. To be able to access these buckets, you need to provide credentials for an AWS service account. To do this, run the command `kubectl create secret generic my-s3cfg --from-file=config=/tmp/my-s3cfg`.
 
-1. After adding this configuration, run the command `helm upgrade --install gitlab gitlab/gitlab --timeout 100s -f values.yml`. 
+1. After adding this configuration, run the command `helm upgrade --install gitlab gitlab/gitlab --timeout 100s -f values.yml`.
 
 ### Task B. Backup the GitLab instance
 
@@ -78,7 +78,7 @@ The objective of this lab is to demonstrate how to back up a GitLab instance on 
     kubectl get secrets <rails-secret-name> -o jsonpath="{.data['secrets\.yml']}" | base64 --decode > gitlab-secrets.yaml
     ```
 
-At this point, the backup is now stored in your object storage. Take note of the file name, for example, s3://bucket/1729261040_2024_10_18_17.4.1-ee_gitlab_backup.tar
+At this point, the backup is now stored in your object storage. Take note of the file name, for example, `s3://bucket/1729261040_2024_10_18_17.4.1-ee_gitlab_backup.tar`
 
 **Important:** Take note of the timestamp (in this example: 1729261040_2024_10_18_17.4.1-ee). You will need this for the restore process.
 

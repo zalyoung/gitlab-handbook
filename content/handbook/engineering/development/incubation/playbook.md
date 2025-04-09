@@ -161,7 +161,7 @@ For UX support, see how Product Designers [engage with Single Engineer Groups (S
 
 ### Releasing Features
 
-When releasing features, ensure you engage the [Application Security team](/handbook/security/product-security/application-security/stable-counterparts/) if your feature matches the [guidelines of what should be reviewed](/handbook/security/product-security/application-security/appsec-reviews/#what-should-be-reviewed), and follow the [guidelines for documentation](/handbook/product/ux/technical-writing/workflow/#documentation-for-a-product-change).
+When releasing features, ensure you engage the [Application Security team](/handbook/security/product-security/application-security/stable-counterparts/) if your feature matches the [guidelines of what should be reviewed](/handbook/security/product-security/application-security/appsec-reviews/#what-should-be-reviewed), and follow the [guidelines for documentation](https://docs.gitlab.com/development/documentation/workflow/#documentation-for-a-product-change).
 
 ### Write a Release Post
 
@@ -204,7 +204,7 @@ Incubation-adjusted TL;DR:
 
 #### Code Editors / IDEs
 
-1. Jetbrains IDEs
+1. JetBrains IDEs
 1. Visual Studio Code
 1. Sublime Text
 1. Vim

@@ -104,7 +104,7 @@ We use Google Tag Manager(GTM) to simplify activity tracking on about.gitlab.com
 
 #### Data Attributes
 
-Previously, GitLab use to track GTM through the use of various CSS classes. This has been an issue, as it obfuscates what is being tracked and why. To add some clarity, we *highly recommend* GitLab team members to start using [data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes).
+Previously, GitLab use to track GTM through the use of various CSS classes. This has been an issue, as it obfuscates what is being tracked and why. To add some clarity, we *highly recommend* GitLab team members to start using [data attributes](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes).
 
 #### Naming convention
 

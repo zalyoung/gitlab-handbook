@@ -43,7 +43,7 @@ This handbook page focuses on how our department operates internally and the ini
 <details>
 <summary markdown="span">IT Compliance</summary>
 
-<a href="/handbook/business-technology/it/compliance">Handbook Page</a><br />
+<a href="/handbook/business-technology/enterprise-applications/it-compliance/">Handbook Page</a><br />
 <br />
 The IT Compliance team works collaboratively with multiple functional teams throughout the GitLab organization. We partner with our Security and Legal teams to identify and manage privacy, data protection risks, and compliance requirements to help meet stakeholder expectations. We also partner with Management, Business Teams, and our Data Team to implement solutions.
 
@@ -54,7 +54,7 @@ The IT Compliance team works collaboratively with multiple functional teams thro
 <details>
 <summary markdown="span">IT Security Operations</summary>
 
-<a href="/handbook/business-technology/it/security">Handbook Page</a><br />
+<a href="/handbook/security/security-operations/">Handbook Page</a><br />
 <br />
 The IT Security Operations team focuses on reducing the threat landscape and improving our security posture across our tech stack applications while ensuring privacy, data protection, and compliance framework requirements are met. We collaborate closely with the <a href="/handbook/security/#departmental-structure">Security</a> department that focuses on the broader scope of the GitLab product and our GitLab.com SaaS offering.<br />
 <br />
@@ -64,16 +64,16 @@ The best practices and policies for team members can be found on the <a href="/h
 
 ### IT Engineering
 
-<a href="/handbook/business-technology/it/engineering">Handbook Page</a>
+<a href="/handbook/security/corporate/">Handbook Page</a>
 
 The IT Engineering sub-department is focused on designing, developing, and implementing automation efficiencies using software and systems to improve GitLab's business processes, software systems, and cloud infrastructure. Our team members have one or more specialties that they focus on.
 
 <details>
 <summary markdown="span">Access Management and Single-Sign On (SSO)</summary>
 
-<a href="/handbook/business-technology/it/engineering/access-mgmt">Handbook Page</a><br />
+<a href="/handbook/security/identity/">Handbook Page</a><br />
 <br />
-The IT Engineering team implements Okta SSO for our tech stack applications. You can learn more on the <a href="/handbook/business-technology/okta">Okta handbook page</a>.<br />
+The IT Engineering team implements Okta SSO for our tech stack applications. You can learn more on the <a href="/handbook/it/okta/">Okta handbook page</a>.<br />
 <br />
 The IT Support team handles <a href="/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/">access requests</a> for the tech stack applications that IT manages. All access requests are created in the same <a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">issue tracker</a> project, regardless of which System Owner is responsible for provisioning your user account.<br />
 <br />
@@ -84,25 +84,25 @@ The IT Development team also focuses on Identity and Access Management (IAM) and
 <details>
 <summary markdown="span">IT Development</summary>
 
-<a href="/handbook/business-technology/it/engineering/development/">Handbook Page</a><br />
+<a href="/handbook/security/corporate/">Handbook Page</a><br />
 <br />
 The IT Engineering Development team develops custom software applications, automation, APIs and integrations that support internal IT automation for business efficiency and processes managed by the IT department. <br />
 <br />
 Many of our projects focus on providing self service access request provisioning to our tech stack applications and supporting IT Infrastructure services including the Demo Systems and Sandbox Cloud.<br />
 <br />
-We are in the process of creating <a href="/handbook/it/access-manager">GitLab Access Manager (GLAM)</a> to provide the next-generation of access request automation across most of our tech stack applications.<br />
+We are in the process of creating <a href="/handbook/security/identity/">GitLab Access Manager (GLAM)</a> to provide the next-generation of access request automation across most of our tech stack applications.<br />
 
 </details>
 
 <details>
 <summary markdown="span">IT Infrastructure</summary>
 
-<a href="/handbook/business-technology/it/engineering/infrastructure">Handbook Page</a><br />
+<a href="/handbook/security/corporate/">Handbook Page</a><br />
 <a href="https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues">Issue Tracker</a><br />
 <br />
 The IT Infrastructure team manages AWS and GCP infrastructure that is not related to GitLab.com SaaS production infrastructure and provide managed infrastructure services for other departments, including most ephemeral sandbox infrastructure needs across the company. We also handle access requests for cloud infrastructure and DNS/domain name requests.<br />
 <br />
-We collaborate with the <a href="/handbook/engineering/infrastructure">Reliability Engineering (SRE)</a> and <a href="/handbook/security/product-security/infrastructure-security/">Infrastructure Security</a> teams to provide Infrastructure Shared Services for all AWS, Azure, and GCP related requests and support across the organization.<br />
+We collaborate with the <a href="/handbook/engineering/infrastructure/">Reliability Engineering (SRE)</a> and <a href="/handbook/security/product-security/infrastructure-security/">Infrastructure Security</a> teams to provide Infrastructure Shared Services for all AWS, Azure, and GCP related requests and support across the organization.<br />
 <br />
 We also provide escalation engineering and triage support for the <a href="/handbook/security/security-operations/sirt">Security Incident Response Team ("SIRT")</a> and <a href="/handbook/security/security-operations/red-team">Security Red Team</a> when security anomalies, events, or incidents require AWS/GCP subject matter expertise.<br />
 <br />
@@ -117,7 +117,7 @@ The <a href="/handbook/infrastructure-standards/realms/sandbox">GitLab Sandbox C
 <details>
 <summary markdown="span">Tech Stack Application Implementation and Support</summary>
 
-<a href="/handbook/business-technology/it/engineering/tech-stack">Handbook Page</a><br />
+<a href="/handbook/business-technology/tech-stack-guide/">Handbook Page</a><br />
 <br />
 We provide implementation engineering and support for 3rd party tech stack applications that are managed by Business Technology and other non-engineering departments. We usually classify this work as "Engineering Operations" (EngOps).<br />
 
@@ -128,7 +128,7 @@ We provide implementation engineering and support for 3rd party tech stack appli
 > This is also referred to as IT Helpdesk, Team Member Enablement, or Analyst team.
 
 <a href="/handbook/it">IT Self Service Knowledge Base</a><br />
-<a href="/handbook/business-technology/it/support">Handbook Page</a><br />
+<a href="/handbook/it/end-user-services/">Handbook Page</a><br />
 <br />
 The IT Support team focuses on providing helpdesk support for all of our team members globally with the technologies that are used across the entire organization. These include our collaboration tools (GitLab.com, Google Workspace, Slack, Zoom, etc.), security and compliance tools (1Password, Okta, Jamf, SentinelOne, etc.), laptops and hardware (MacBook Pros, Linux machines, etc.), and most software applications that run on MacOS.<br />
 <br />
@@ -264,13 +264,6 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | Name                                                                        | Role                              |
 |-----------------------------------------------------------------------------|-----------------------------------|
 | [Sarah Pang](/handbook/company/team/#arahpang)                                       | Senior IT Compliance Engineer     |
-
-### IT Security Operations Team {#who-it-security}
-
-| Name                                                                        | Role                              |
-|-----------------------------------------------------------------------------|-----------------------------------|
-| [Adam Huss](/handbook/company/team/#adamhuss)                                        | IT Security Analyst               |
-| [Clayton Shank](/handbook/company/team/#cshankgitlab)                                | Senior IT Security Engineer       |
 
 ### Cross-Department System Owners
 

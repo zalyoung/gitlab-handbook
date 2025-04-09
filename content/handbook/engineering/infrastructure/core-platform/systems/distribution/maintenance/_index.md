@@ -49,6 +49,6 @@ As part of the team tasks, team has responsibility towards the following nodes/t
 
 As part of the team tasks, the team uses the following external services:
 
-* [dependencies.io](https://dependencies.io): This is used to automatically update
+* [dependencies.io](https://www.dependencies.io/): This is used to automatically update
 software components required by GitLab. See [the specific docs](dependencies.io.html)
 for how to work with this service.

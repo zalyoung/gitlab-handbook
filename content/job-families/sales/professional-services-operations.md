@@ -371,7 +371,7 @@ Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compen
 
 ## Performance Indicator
 
-- [CSAT](/handbook/support/support-ops/#customer-satisfaction-survey-csat ) >8.0/10
+- [CSAT](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/) >8.0/10
 - [Project Margin](/handbook/customer-success/professional-services-engineering/#long-term-profitability-targets ) > 20% for assigned projects
 - Successfully manage the quarterly Education Services revenue forecast within a 5% margin
 

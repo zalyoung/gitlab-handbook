@@ -15,7 +15,7 @@ Official GitLab documentation is managed with regard to industry standard excell
 
 In the past, solution oriented items have also been published in GitLab's blog. The Solutions documentation area differs from blogs in the following ways:
 
-- Blog articles are editted for brevity, where solutions are editted to ensure specific features and functions are shown to work, regardless of length.
+- Blog articles are edited for brevity, where solutions are edited to ensure specific features and functions are shown to work, regardless of length.
 - Blog articles are known by the reader to age and become less accurate over time, where solutions documented items are intended to be maintained in a working state.
 - Blog articles becomes harder to find in searches as they age, where solutions should continue to be relatively easy to find.
 
@@ -24,7 +24,7 @@ The creation of the Solutions documentation section allows the documentation of 
 - can focus on features in partner products that integrate with GitLab
 - can focus on solutions that may leverage features from many parts of GitLab and in combination with non-GitLab technologies.
 
-The solutions area is under complete stewardship of the SA team and are not actively reviewed by Tech Writing. The solutions documetnation section will strive to meet the excellence bar set by GitLab tech writing. All contributors are encouraged to take the [GitLab Internal Tech Writing Course](/handbook/ux/technical-writing/fundamentals/).
+The solutions area is under complete stewardship of the SA team and are not actively reviewed by Tech Writing. The solutions documentation section will strive to meet the excellence bar set by GitLab tech writing. All contributors are encouraged to take the [GitLab Internal Tech Writing Course](https://university.gitlab.com/courses/gitlab-technical-writing-fundamentals).
 
 ## Content scope
 

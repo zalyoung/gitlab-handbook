@@ -69,7 +69,7 @@ Move on to Category Goals:
 
 *When complete, the FigJam should look like this:*
 
-![Step-1 example](example-ux-theme-workshop-step-1.png)
+![Step-1 example](/images/product/ux/product-design/ux-roadmaps/ux-theme-workshops/example-ux-theme-workshop-step-1.png)
 
 #### Section 2 setup
 
@@ -94,7 +94,7 @@ Next: Follow the links provided by the Design DRI for relevant insights and JTBD
 
 *When complete, the FigJam should look like this:*
 
-![Step-2 example](example-ux-theme-workshop-step-2.png)
+![Step-2 example](/images/product/ux/product-design/ux-roadmaps/ux-theme-workshops/example-ux-theme-workshop-step-2.png)
 
 #### Make the FigJam board available to team members
 

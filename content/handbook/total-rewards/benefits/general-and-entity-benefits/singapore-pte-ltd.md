@@ -52,7 +52,7 @@ Please see slide 49 of teh [IHP Portal and Mobile Guide](https://drive.google.co
 
 ### Willis Towers Watson Claims Assistance
 
-[Willis Towers Watson](https://www.wtwco.com/en-SG/Solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
+[Willis Towers Watson](https://www.wtwco.com/en-sg/solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
 
 For any claims issues or benefits queries, please reach out to the WTW team at `claims.sg@willistowerswatson.com` .
 
@@ -143,7 +143,7 @@ Team members who have been continuously employed by GitLab for at least 3 months
 
 Team members who have been continuously employed by GitLab for at least 3 months immediately before their child's due date may be entitled to 2 weeks of government-paid paternity leave. Please visit the [Ministry of Manpower website](https://www.mom.gov.sg/employment-practices/leave/paternity-leave) for more information on eligibility.
 
-- For [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}) team members, this leave runs concurrently with GitLab Parental Leave. If eligible, team members would receive up to 16 weeks of paid paternity leave.
+- For [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) team members, this leave runs concurrently with GitLab Parental Leave. If eligible, team members would receive up to 16 weeks of paid paternity leave.
 
 **Applying for Government-Paid Paternity Leave**
 

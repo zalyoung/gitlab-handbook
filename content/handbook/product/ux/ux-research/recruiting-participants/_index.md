@@ -59,7 +59,7 @@ Participants must agree to each of these questions to take part in moderated stu
 
 Determine if you need the IP Assignment and/or GitLab's Individual Contributor License Agreement
 
-- Learn more about the [IP Assignment and when to show it](/handbook/product/ux/ux-research-coordination/IP-Assignment/#when-to-show-the-ip-assignment)
+- Learn more about the [IP Assignment and when to show it](/handbook/product/ux/ux-research-coordination/ip-assignment/#when-to-show-the-ip-assignment)
 
 Common questions we include are:
 
@@ -180,7 +180,7 @@ In all cases, the UX Research Operations Coordinator will keep you updated on th
 
 ### Promotional games
 
-If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Amazon Gift cards), please review the following information in the [handbook](/handbook/legal/ux-research-pilot/) and consult with legal. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional game or contests.
+If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Amazon Gift cards), please review the following information in the [handbook](/handbook/legal/process-for-ux-research-prize-draws/) and consult with legal. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional game or contests.
 
 #### Respondent.io process and strategy
 

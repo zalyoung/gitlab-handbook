@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-Due to global issues concerning [Coronavirus (COVID-19)](https://www.cdc.gov/coronavirus/2019-ncov/index.html), rising rents in concentrated urban areas, and the ongoing battle amongst organizations for recruiting and retaining top talent, there has been a noted shift in appetite for working remotely. Companies which were previously against remote work are suddenly considering remote, or implementing remote, with varying degrees of intentionality.
+Due to global issues concerning [Coronavirus (COVID-19)](https://www.cdc.gov/covid/index.html), rising rents in concentrated urban areas, and the ongoing battle amongst organizations for recruiting and retaining top talent, there has been a noted shift in appetite for working remotely. Companies which were previously against remote work are suddenly considering remote, or implementing remote, with varying degrees of intentionality.
 
 The reality is that almost every company is [already a remote company](scaling/#does-all-remote-work-at-scale). If you have more than one office, operate a company across more than one floor in a building, or [conduct work while traveling](working-while-traveling/), you are a remote company. It behooves all of these firms to adopt remote-first practices, even if some interactions occur in a shared physical space.
 
@@ -18,21 +18,21 @@ On this page, we're detailing what not to do when transitioning to remote, or mo
 ![GitLab all-remote team](/images/all-remote/gitlab-com-all-remote-1280x270.png)
 {style="max-width: 50%;"}
 
-GitLab has created a **[comprehensive guide to working well remotely]({{< ref "guide" >}})**, covering popular topics such as:
+GitLab has created a **[comprehensive guide to working well remotely](/handbook/company/culture/all-remote/guide/)**, covering popular topics such as:
 
-1. [Transitioning to remote]({{< ref "transition" >}})
-1. [Forcing functions to work remote-first]({{< ref "how-to-work-remote-first" >}})
-1. [Hybrid-remote pitfalls to avoid]({{< ref "hybrid-remote" >}})
-1. [Phases of remote adaptation]({{< ref "phases-of-remote-adaptation" >}})
-1. [Meetings]({{< ref "meetings" >}})
-1. [Management]({{< ref "management" >}})
-1. [Scaling]({{< ref "scaling" >}})
-1. [Informal communication]({{< ref "informal-communication" >}})
-1. [Building culture]({{< ref "building-culture" >}})
-1. [Combating burnout, isolation, and anxiety]({{< ref "mental-health" >}})
-1. [Embracing asynchronous workflows]({{< ref "asynchronous" >}})
-1. [Remote workspaces]({{< ref "guide#workspac" >}})
-1. [Getting started in a remote role]({{< ref "getting-started" >}})
+1. [Transitioning to remote](/handbook/company/culture/all-remote/transition/)
+1. [Forcing functions to work remote-first](/handbook/company/culture/all-remote/how-to-work-remote-first/)
+1. [Hybrid-remote pitfalls to avoid](/handbook/company/culture/all-remote/hybrid-remote/)
+1. [Phases of remote adaptation](/handbook/company/culture/all-remote/phases-of-remote-adaptation/)
+1. [Meetings](/handbook/company/culture/all-remote/meetings/)
+1. [Management](/handbook/company/culture/all-remote/management/)
+1. [Scaling](/handbook/company/culture/all-remote/scaling/)
+1. [Informal communication](/handbook/company/culture/all-remote/informal-communication/)
+1. [Building culture](/handbook/company/culture/all-remote/building-culture/)
+1. [Combating burnout, isolation, and anxiety](/handbook/company/culture/all-remote/mental-health/)
+1. [Embracing asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/)
+1. [Remote workspaces](/handbook/company/culture/all-remote/guide/#workspace)
+1. [Getting started in a remote role](/handbook/company/culture/all-remote/getting-started/)
 
 The pages within, just like the entire GitLab [handbook](/handbook), are [publicly accessible](hiring/#make-your-strategy-public). Please consider studying these guides, implementing them, and contributing your learnings to make them better.
 
@@ -49,18 +49,18 @@ The principles of remote work are different. The approach to conducting work is 
 ![GitLab customer path](/images/all-remote/gitlab-customer-path.jpg)
 {style="max-width: 50%;"}
 
-Remote work isn't something you do as a reaction to an event — it is an *intentional* approach to work that creates greater [efficiency](/handbook/values/#efficiency), more [geographically and culturally diverse teams](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities), and heightened [transparency](/handbook/values/#transparency).
+Remote work isn't something you do as a reaction to an event — it is an *intentional* approach to work that creates greater [efficiency](/handbook/values/#efficiency), more [geographically and culturally diverse teams](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/), and heightened [transparency](/handbook/values/#transparency).
 
 What is happening en masse related to Coronavirus (COVID-19) is largely a temporary work-from-home phenomenon, where organizations are not putting remote work ideals into place, as they expect to eventually require their team members to resume commuting into an office.
 
-Merely [transferring planned office meetings to virtual meetings](https://www.abacusnews.com/culture/worlds-biggest-online-population-staying-home-and-chinas-internet-cant-cope/article/3050947) misses an opportunity to answer a fundamental question: is there a better way to work than to have a meeting in the first place?
+Merely [transferring planned office meetings to virtual meetings](https://www.scmp.com/abacus/culture/article/3051025/worlds-biggest-online-population-staying-home-and-chinas-internet) misses an opportunity to answer a fundamental question: is there a better way to work than to have a meeting in the first place?
 
 ## Do not assume that everyone has access to an optimal workspace
 
 ![GitLab all-remote team](/images/all-remote/gitlab-com-all-remote-v3-dark-1280x270.png)
 {style="max-width: 50%;"}
 
-While long-term remote workers have had years to tweak and iterate on their [home office](workspace/), those who are thrust into working from anywhere may be ill-prepared. Organizations should not expect team members to be masters in office design and ergonomics. Too, what works best for one person [will look different](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) than another person.
+While long-term remote workers have had years to tweak and iterate on their [home office](workspace/), those who are thrust into working from anywhere may be ill-prepared. Organizations should not expect team members to be masters in office design and ergonomics. Too, what works best for one person [will look different](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) than another person.
 
 If [transitioning to remote](transition/), organizations should empower team members to [spend company money as if it is their own](/handbook/finance/spending-company-money/) when constructing a home office. Consider [reimbursing](/handbook/finance/spending-company-money/#coworking-or-external-office--space) expenses related to coworking spaces and external offices, as some team members will prefer to work outside of their homes.
 
@@ -98,9 +98,9 @@ Too, what works for a small remote team may not work for a remote team consistin
 
 In truth, [managing a remote company](management/) is much like managing any company. **It comes down to trust, communication, and company-wide support of shared goals**, all of which aid in [avoiding dysfunction](/handbook/values/#five-dysfunctions).
 
-Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju). It forces discipline that sustains culture and efficiency [at scale](scaling/), particularly in areas which are easily deprioritized in small colocated companies.
+Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju/). It forces discipline that sustains culture and efficiency [at scale](scaling/), particularly in areas which are easily deprioritized in small colocated companies.
 
-It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication](management/#asynchronous), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace](workspace/), and understand the importance of [self-learning/self-service](self-service/).
+It's important to not assume that team members understand good remote work practices. GitLab managers are [expected](/handbook/company/structure/#management-group) to coach their reports to utilize [asynchronous communication](management/#asynchronous), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace](workspace/), and understand the importance of [self-learning/self-service](self-service/).
 
 Leaders should ensure that new remote hires read a [getting started guide](getting-started/), and make themselves available to answer questions throughout one's journey with the company.
 
@@ -109,16 +109,16 @@ Leaders should ensure that new remote hires read a [getting started guide](getti
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-To operate well as a remote enterprise, your values [must be in support of this way of working]({{< ref "remote-values" >}}). GitLab's collection of [values](/handbook/values/) and [operating principles](/handbook/values/#operating-principles) contribute to a thriving all-remote environment. Consider studying the nuances of these values and adjusting or adding to your company's existing values. Values that were established to support colocated norms may not apply to remote, particularly those which obstruct transparency.
+To operate well as a remote enterprise, your values [must be in support of this way of working](/handbook/company/culture/all-remote/remote-values/). GitLab's collection of [values](/handbook/values/) and [operating principles](/handbook/values/#operating-principles) contribute to a thriving all-remote environment. Consider studying the nuances of these values and adjusting or adding to your company's existing values. Values that were established to support colocated norms may not apply to remote, particularly those which obstruct transparency.
 
-Don't be quick to brush values off as understood, either. For example, collaboration in a colocated space  is routinely demonstrated by gathering people in a shared physical space in search of [consensus](management/#separating-decision-gathering-from-decision-making). [Collaboration](/handbook/values/#collaboration) in a remote setting is demonstrated by empowering the greatest amount of people to contribute insights asynchronously while enabling the DRI (directly responsible individual) to [make decisions without explanation]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}).
+Don't be quick to brush values off as understood, either. For example, collaboration in a colocated space  is routinely demonstrated by gathering people in a shared physical space in search of [consensus](management/#separating-decision-gathering-from-decision-making). [Collaboration](/handbook/values/#collaboration) in a remote setting is demonstrated by empowering the greatest amount of people to contribute insights asynchronously while enabling the DRI (directly responsible individual) to [make decisions without explanation](/handbook/people-group/directly-responsible-individuals/#empowering-dris).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

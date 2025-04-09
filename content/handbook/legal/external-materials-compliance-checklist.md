@@ -24,11 +24,11 @@ In addition to following the SAFE Framework and the IP Guidelines, review the fo
 
 | Nature of Materials | Legal Review Necessary? |
 |:--------------------|:------------------------|
-|Materials related entirely to company culture (e.g., All-Remote)|No|
-|Materials solely relying on and citing data from prior public <p> (i.e., SEC) filings|No|
+|Materials related entirely to company culture (such as All-Remote)|No|
+|Materials solely relying on and citing data from prior public <p> (such as SEC) filings|No|
 |Materials based on pre-existing material previously reviewed by <p> Legal & Corporate Affairs without substantive changes|No|
 |Materials  about the tech industry or DevOps generally|No|
-|Materials which quote, or are in the name of, a Section 16 Officer <p> (i.e., Board Members, Sid, Brian, Robin, McB, and Eric J.) and VP, IR (Jack Andrews)|Yes|
+|Materials which quote, or are in the name of, a Section 16 Officer <p> (namely Board Members, CEO, CFO, CLO, CRO, and CTO) and VP, IR |Yes|
 |Materials which include financial data that has not been previously <p> disclosed publicly, or a variation of previously disclosed financial data|Yes|
 |Materials with which a Team Member has concerns related to SAFE or <p> third-party IP|Yes|
 |Materials related to mergers or acquisitions, including spin out, <p> investment or acqui-hires|Yes|

@@ -89,4 +89,4 @@ You can find more guidance on recognition and what is "recognition worthy" at Gi
 
 Some additional resources include:
 
-1. [The Positive Power of Gratitude for Remote Teams](https://www.heykona.com/post/the-positive-power-of-gratitude-for-remote-teams) - Kona Blog
+1. [The Positive Power of Gratitude for Remote Teams](https://www.heykona.com/blog/the-positive-power-of-gratitude-for-remote-teams) - Kona Blog

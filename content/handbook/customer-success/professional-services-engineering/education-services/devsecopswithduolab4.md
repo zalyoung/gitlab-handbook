@@ -67,7 +67,7 @@ In this lab, you will see how GitLab Duo can writing and testing code inside of 
 
 1. Highlight all of the code in the `func print_phrase() string` function.
 
-1. Select the Tanuki icon in the left sidebar.
+1. Select the GitLab Duo Chat icon in the left sidebar.
 
 1. Type the prompt `/tests`. You will receive some tests similar to below:
 

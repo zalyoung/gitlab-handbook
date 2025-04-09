@@ -31,7 +31,7 @@ Must do:
 - Feedback requests from other designers (issues, MRs, Figma, [`#ux-coworking`](https://gitlab.slack.com/app_redirect?channel=ux_coworking) Slack channel).
 - Adjustments to issues in the current release milestone and labeled `Deliverable`.
 - Issues assigned with labels `workflow::problem validation`, `workflow::solution validation`, or `workflow::design`.
-- Planning and prioritization of UX issues in the next release milestone. See [Milestone planning](/handbook/product/ux/ux-department-workflow/#milestone-planning).
+- Planning and prioritization of UX issues in the next release milestone. See [Milestone planning](/handbook/product/ux/product-designer/).
 - Sharing work with the team through UX Forums, Slack posts, UX meetings.
 
 Should do:
@@ -39,7 +39,7 @@ Should do:
 - [UX OKRs](/handbook/company/okrs/).
 - Tasks that improve understanding of users and their workflows (e.g. [UX Scorecards](/handbook/product/ux/ux-scorecards/)).
 - Issues in the current release milestone and labeled `Stretch`.
-- Issues labeled `Pajamas`, `pajamas::define`, `pajamas::design`, `pajamas::build`, or `pajamas::integrate`. See [Pajamas component lifecycle](https://design.gitlab.com/get-started/lifecycle) and the [Pajamas issue tracker](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues).
+- Issues labeled `Pajamas`, `pajamas::define`, `pajamas::design`, `pajamas::build`, or `pajamas::integrate`. See [Pajamas component lifecycle](https://design.gitlab.com/get-started/lifecycle/) and the [Pajamas issue tracker](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues).
 - Completeing [ToDo blocks in Pajamas](https://gitlab.com/search?group_id=5387503&project_id=4456656&scope=blobs&search=todo) for components or examples not fully specified.
 
 Nice to do:

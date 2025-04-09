@@ -12,7 +12,7 @@ The page below is intended to align GitLab's sales and marketing efforts with a 
 
 | Product Marketing | Developer Advocate |
 | ---- | --- |
-| Saumya Upadhyaya (@supadhyaya) | [William Galindez Arias](https://gitlab.com/warias) |
+| Saumya Upadhyaya (@supadhyaya) | [William Galindez Arias](https://gitlab.com/waarias) |
 
 **NOTE: If you are looking for messaging guidelines regarding The DevOps Platform, please visit [The DevOps Platform Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/message-house/).**
 
@@ -218,7 +218,7 @@ GitLab believes this indicates that the market for a DevOps platform delivered a
 
 Amongst the many competitors in the DevOps space, few provide the scope to call themselves a platform, and none have been architected fromt he ground up as a single application.
 
-When viewed through the lens of "the most comprehensive suite of end-to-end functionality provided in a single solution," the nearest competitor is Microsoft's [Azure DevOps]. Microsoft continues to build toward the same vision with [GitHub](https://about.gitlab.com/competition/github/), as well.
+When viewed through the lens of "the most comprehensive suite of end-to-end functionality provided in a single solution," the nearest competitor is Microsoft's [Azure DevOps]. Microsoft continues to build toward the same vision with [GitHub](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/), as well.
 
 ### Industry Analyst Relations (IAR) plan
 
@@ -232,8 +232,8 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
 - [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
-- [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
-- [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
+- [GitLab CI/CD Training](https://university.gitlab.com/pages/ci-cd-training/)
+- [Integration Services](https://about.gitlab.com/services/catalog/ )
 
 ## Resources
 

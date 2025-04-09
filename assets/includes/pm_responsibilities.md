@@ -6,7 +6,7 @@ As a Product Manager (PM) at GitLab, you are primarily responsible for:
 1. Defining requirements for a solution that is loved by our users and customers
 1. Ensuring our product is viable for GitLab
 
-In addition, as a PM, you also play a critical role in the regular development and operating cadence of GitLab. There are a few specific required tasks that the PMs are directly responsible for in [Core PM Tasks](/handbook/product/product-manager-responsibilities/#core-pm-tasks).
+In addition, as a PM, you also play a critical role in the regular development and operating cadence of GitLab. There are a few specific required tasks that the PMs are directly responsible for in [Core PM Tasks](/handbook/product/product-management/product-cdf-competencies/#core-pm-tasks).
 
 ### How does a Product Manager ensure they are solving a problem for our users?
 

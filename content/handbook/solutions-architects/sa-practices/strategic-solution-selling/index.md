@@ -6,7 +6,7 @@ This is a practice guide for a Solutions Architect (SA) to engage enterprises fo
 
 A strategic solution is aimed to provide a customer the DevOps capabilities for delivering software better and faster with an organizational wide impact and aligned with the enterprise transformational intiatitives. The SA will assess and provide the solutioning as the right fit for the enterprise from the business and technical perspectives. The solution should aligne with the business outcomes that can be realized based on the DevOps roadmap vision. Further the solution can accelerate the customer's DevOps transformation at scale.
 
-<img src="/handbook/solutions-architects/sa-practices/strategic-solution-selling/strategic-solution.png" alt="Strategic Solution">
+<img src="/images/solutions-architects/sa-practices/strategic-solution-selling/strategic-solution.png" alt="Strategic Solution">
 
 ## Analyze and Gather Information
 
@@ -162,7 +162,7 @@ Capabilities for the DevOps platform should have been explored with the customer
 
 With these capabilities identify, the solution options can be considered:
 
-[**DevSecOps**](https://about.gitlab.com/solutions/dev-sec-ops/) with shift left security: security team is engaged and measurable business outcome is identified to improve the overall security posture while delivering the software faster;
+[**DevSecOps**](https://about.gitlab.com/solutions/security-compliance/) with shift left security: security team is engaged and measurable business outcome is identified to improve the overall security posture while delivering the software faster;
 
 [**Continous Software Compliance**](https://about.gitlab.com/solutions/compliance/) with built-in compliance, governance, policies and audit needs: compliance and change management teams are engaged to ensure that the app teams have guidance and framework to deliver software with regulatory or enterprise standard compliance;
 

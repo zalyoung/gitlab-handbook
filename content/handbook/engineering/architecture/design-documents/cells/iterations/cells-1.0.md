@@ -243,6 +243,8 @@ The table below is a comparison between the existing GitLab.com features, and no
 | Any feature dependent on Clickhouse | Clickhouse is not supported on Dedicated, which is the underlying provisioning tool for Cells. Clickhouse is also not supported in any of our other tooling such as Geo, Org Mover, Backup/Restore, etc. |
 | Any feature dependent on [incoming email](https://docs.gitlab.com/ee/administration/incoming_email.html) (`mail_room`) | Cut scope. While we have a [proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/442161#note_1828026768) to have ingest email per cell, we are yet to figure out how to have stable email addresses that can be used even when an organizations moves to a different cell. |
 | Global search | Each cell will have an isolated search cluster. With Cells 1.0, global search will only work within the cell. See the [Cells: Global Search design document](../impacted_features/global-search.md) for more details. |
+| Paid subscription flows | CustomersDot relies on [path based](https://gitlab.com/gitlab-org/gitlab/-/issues/466369) and [OAuth token](https://gitlab.com/gitlab-org/gitlab/-/issues/465811) routing for Single Sign-On and fetching/updating data on GitLab. Without these, all requests from CustomersDot will go to the legacy Cell. |
+| Legacy CI_JOB_TOKEN | The legacy CI_JOB_TOKEN cannot be routed because it does not contain routing information, and can be passed in the request body. Customers will need use the JWT format in order to be able to utilise CI_JOB_TOKEN outside of the legacy cell. |
 
 ## Questions
 
@@ -454,7 +456,7 @@ The table below is a comparison between the existing GitLab.com features, and no
       or when we migrate the organization to another Cell.
     - For the following reason this is why we don't want to force particular paths, or use of subdomains.
     - If we choose the path to force to use `relative_path` it would break all cell-wide endpoints
-      This seems to be longer and more complex that approaching this by making existing to be shareded.
+      This seems to be longer and more complex that approaching this by making existing to be shared.
     - If we choose to fix existing not sharded [can be made](https://gitlab.com/gitlab-org/gitlab/-/issues/430330)
       at later point we will achieve much better API consistency, and likely much less amount of the work.
 

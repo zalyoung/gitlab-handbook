@@ -3,7 +3,7 @@ title: "Engineering Productivity team"
 description: "The Engineering Productivity team maximizes the value and throughput of Product Development teams and wider community contributors by improving the developer experience, streamlining the product development processes, and keeping projects secure, compliant, and easy to work on for everyone."
 ---
 
-> ℹ️ Note: This page is deprecated. The team has been restructured as [Development Analytics](../../infrastructure-platforms/developer-experience/development-analytics/) and Developer Tooling under the Developer Experience Stage. 
+> ℹ️ Note: This page is deprecated. The team has been restructured as [Development Analytics](../../infrastructure-platforms/developer-experience/development-analytics/) and Developer Tooling under the Developer Experience Stage.
 
 ## Mission
 

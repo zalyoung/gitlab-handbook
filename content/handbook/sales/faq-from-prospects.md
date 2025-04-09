@@ -79,7 +79,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Log system: https://docs.gitlab.com/ee/administration/logs/
 
-  Audit Events: https://docs.gitlab.com/ee/administration/audit_events.html
+  Audit Events: https://docs.gitlab.com/ee/administration/audit_event_reports.html
 
 ### Performance
 

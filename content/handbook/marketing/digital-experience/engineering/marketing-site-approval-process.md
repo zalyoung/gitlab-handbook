@@ -18,10 +18,10 @@ At its peak, GitLab's Marketing site contained over 3500 pages. Many of these pa
 
 Another example is cases where we have several similar pages that may make sense from an inside-out perspective, but from a customer-centric perspective, they confuse our prospective customers. Example: CI/CD Pages:
 
-1. https://about.gitlab.com/stages-devops-lifecycle/continuous-integration
-1. https://about.gitlab.com/topics/ci-cd
-1. https://about.gitlab.com/resources/ebook-single-app-cicd
-1. https://about.gitlab.com/webcast/mastering-ci-cd
+1. <https://about.gitlab.com/solutions/continuous-integration/>
+1. <https://about.gitlab.com/topics/ci-cd/>
+1. <https://about.gitlab.com/resources/ebook-single-app-cicd/>
+1. <https://about.gitlab.com/webcast/mastering-ci-cd/>
 
 A byproduct of the uncontrolled increase in pages is the unintended effect of diluting the value of the data we collect from Google Analytics. With so many pages receiving little traffic and providing little value to our prospective customers, we struggle to get concentrated data on core pages.
 

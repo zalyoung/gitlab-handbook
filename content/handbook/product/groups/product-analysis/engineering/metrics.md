@@ -1,5 +1,6 @@
 ---
 title: "Engineering Metrics"
+description: Overview of key Engineering Productivity metrics
 ---
 
 ## Engineering Analytics Dashboard Inventory
@@ -25,7 +26,7 @@ To help our teams work better and faster, we track specific metrics that measure
 * Our metrics includes all MRs affecting the product.
 * The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). Please refer to this [section](/handbook/product/groups/product-analysis/engineering/metrics/#updating-the-list-of-projects) for instructions on how to update this list.
 
-By using this consistent dataset, we can ensure our metrics reflect the work that matters most for product development and improvement. 
+By using this consistent dataset, we can ensure our metrics reflect the work that matters most for product development and improvement.
 
 This section explains four key metrics we use—**Review Time to Merge (RTTM)**, **Reviewer First Engagement Time (RFET)**, **Merge Request Rates (MR Rates)**, and **Mean Time to Merge (MTTM)**. These metrics highlight areas where we’re doing well and where we can improve.
 
@@ -65,7 +66,7 @@ Merge Request (MR) Rate is a measure of productivity and efficiency. The numerat
 
 You can use [this MR Rate troubleshooting dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/MergeRequestRates) to check the number of team members that are counted each month. If the monthly team member count is less than expected, refer to the table to see which team member is missing.
 
-To update the job title speciality field, please refer to the guidelines listed [here](/handbook/people-group/promotions-transfers/#for-people-connect-processing-job-information-change-requests) and [here](/handbook/people-group/promotions-transfers/#job-title-specialty-changes).
+To update the job title speciality field, please refer to the guidelines listed [here](/handbook/people-group/promotions-transfers/#job-title-specialty-changes)
 
 #### What It Means
 
@@ -163,7 +164,7 @@ The 3 types (Bug, Feature & Maintenance) is key to our report to industry analys
 If these labels are missing, it will be tracked in the `undefined` bucket instead.
 The Engineering Manager for each team is ultimately responsible for ensuring that these labels are set correctly. If you do not feel the purpose of this issue matches one of the types, you may apply the `~type::ignore` label to exclude it from type tracking metrics and future prompts, this can be good for issues marked `~Planning Issue`.
 
-Classifying work types may require context. All work to deliver a feature with security, performance and quality meeting the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#mr-merge) should be classified as feature work. For example if you are anticipating the performance needs of a feature and implement an application limit as part of the introduction of that feature it should be classified as `feature:addition`. If you discovered an issue scaling an existing feature and implemented an application limit that issue would likely start as a bug and the associated MR would be classified as `bug:performance`.
+Classifying work types may require context. All work to deliver a feature with security, performance and quality meeting the [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#mr-merge) should be classified as feature work. For example if you are anticipating the performance needs of a feature and implement an application limit as part of the introduction of that feature it should be classified as `feature:addition`. If you discovered an issue scaling an existing feature and implemented an application limit that issue would likely start as a bug and the associated MR would be classified as `bug:performance`.
 
 #### More examples of classifications
 
@@ -177,6 +178,8 @@ Below are additional examples to guide you when questions arise about classifyin
 * `~"type::bug"`
   * Missing functionality that was part of original acceptance criteria
 * `~"type::maintenance"`
+  * Infrastructure scaling initiatives that do not involve direct
+    customer-facing updates
   * Upgrade of a dependency
   * Bumping a version without code changes
   * Docs only update

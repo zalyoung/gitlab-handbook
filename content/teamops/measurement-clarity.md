@@ -42,7 +42,7 @@ In Q3-FY23 at GitLab, a company OKR was [Improve user and wider-community engage
 
 These are documented in a tool that's accessible to the entire organization. Any team member can see any function's OKRs and KPIs for the quarter, reinforcing the [value of transparency](/handbook/values/#transparency).
 
-**Resource:** [Performance Management on Remote and Hybrid Teams](https://www.workplaceless.com/blog/remote-performance-management) (article)
+**Resource:** [Performance Management on Remote and Hybrid Teams](https://www.workplaceless.com/blog/performance-management-remote-hybrid-teams) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for transparent measurements" %}}
@@ -155,9 +155,9 @@ To optimize the efficacy of delivered feedback, consider how other TeamOps tenet
 {{% details summary="Examples and resources for transparent feedback" %}}
 **Example:** [A member of GitLab's L&D Team Giving Feedback to the CEO](/handbook/people-group/guidance-on-feedback/#guidance-on-giving-and-receiving-feedback)
 
-At GitLab, our mission that [everyone can contribute] even influences our feedback guidelines—suggesting that any team member, at any level, can give feedback to any other team member, at any level. In this video about [Guidance on Giving and Receiving Feedback](/handbook/people-group/guidance-on-feedback/#guidance-on-giving-and-receiving-feedback), the CEO of GitLab, Sid Sijbrandij, discusses this challenge in more detail, and asks for performance feedback from a member of the Learning & Development team.
+At GitLab, our mission that [everyone can contribute](/handbook/company/mission/) even influences our feedback guidelines—suggesting that any team member, at any level, can give feedback to any other team member, at any level.
 
-**Resource:** [Guide to Giving Remote Feedback](https://www.workplaceless.com/blog/guide-to-remote-feedback) (playbook)
+**Resource:** [Guide to Giving Remote Feedback](https://www.workplaceless.com/blog/giving-remote-feedback-guide) (playbook)
 {{% /details %}}
 
 {{% details summary="Change management support for transparent feedback" %}}
@@ -167,19 +167,19 @@ At GitLab, our mission that [everyone can contribute] even influences our feedba
 - *Team:* Add a section for group feedback into every meeting agenda.
 - *Company:* Create a ritual for company leadership to receive and share feedback on certain projects or tasks, to set a top-down example of healthy feedback dynamics.
 
-**Recommended TeamOps Partner:** [Code Traveller HR](codetravellerhr.com) (consultant)
+**Recommended TeamOps Partner:** [Code Traveller HR](https://codetravellerhr.com) (consultant)
 {{% /details %}}
 
 ## Cadence
 
 In organizations built on information-based operations, team members' collective sense of stability, security, and well-being is an outgrowth of their knowing when future opportunities to receive and exchange knowledge will occur. A [Single Source of Truth (SSoT)](/teamops/shared-reality/#single-source-of-truth-ssot) and [asynchronous workflows](/teamops/equal-contributions/#asynchronous-workflows) ensure that existing information is continuously accessible. But what about informational *updates*? Not knowing about emerging decisions, forthcoming goals, or adjustments to long-term visions can compromise a team's focus, efficiency, and trust.
 
-This is why establishing a transparent [cadence](/handbook/company/cadence/) for decision-making activities, informational updates, and feedback opportunities is important for teams practicing TeamOps. A regular cadence sets a *pace* for productivity and creates predictable, comfortable intervals for work. Establishing and documenting a cadence for everything from operational workflows and [due dates](/handbook/teamops/measurement-clarity/#prioritize-due-dates-over-scope)  to company announcements and team meetings can prevent the kinds of distraction and burnout that often result from context switching, distractive research, or individual uncertainty.
+This is why establishing a transparent [cadence](/handbook/company/cadence/) for decision-making activities, informational updates, and feedback opportunities is important for teams practicing TeamOps. A regular cadence sets a *pace* for productivity and creates predictable, comfortable intervals for work. Establishing and documenting a cadence for everything from operational workflows and [due dates](#prioritize-due-dates-over-scope)  to company announcements and team meetings can prevent the kinds of distraction and burnout that often result from context switching, distractive research, or individual uncertainty.
 
 {{% details summary="Examples and resources for cadence" %}}
-**Example:** [GitLab's Quarterly All-Hands Meeting](/handbook/company/gitlab-assembly/)
+**Example:** [GitLab's Quarterly All-Hands Meeting](/handbook/company/gitlab-all-company-meetings/)
 
-At the same time each quarter, executive leadership hosts [GitLab Assembly](/handbook/company/gitlab-assembly/)—a company-wide recap of the past quarter's accomplishments, summary of the new quarter's objectives, and an open-floor Q&A for any employee to resolve questions or concerns. Knowing exactly when this meeting will occur, who will be in attendance, and what will be discussed gives GitLab team members full confidence of when they can have direct access to the executive team about company growth.
+At the same time each quarter, executive leadership hosts [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)—a company-wide recap of the past quarter's accomplishments, summary of the new quarter's objectives, and an open-floor Q&A for any employee to resolve questions or concerns. Knowing exactly when this meeting will occur, who will be in attendance, and what will be discussed gives GitLab team members full confidence of when they can have direct access to the executive team about company growth.
 
 **Resource:** [How to use a business cadence to promote collaboration](https://web.archive.org/web/20231201100335/https://www.hydra.cloud/en/resources/blog/how-to-use-a-business-cadence-to-promote-collaboration) (article)
 {{% /details %}}

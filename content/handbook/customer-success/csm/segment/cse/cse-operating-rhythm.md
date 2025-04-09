@@ -32,34 +32,6 @@ The CSE Team delivers monthly webinars and hands-on labs that are available to a
 
 The CSE Team works with our content team to create content for our Webinars. In order to create, from start to finish a strong webinar content. We have guidelines and tips and tricks which you can follow over at this link [Webinar Guidelines for CSEs](https://internal.gitlab.com/handbook/customer-success/cse/webinars/)
 
-#### Preparing for and Delivering a Webinar
-
-The upcoming month's webinar dates are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) and the CSE team is asked to sign up as DRIs.
-
-The host of the webinar should download the recording from [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) and do a practice session in the zoom webinar to ensure it plays successfully.  Here are details for playing the video for the webinar:
-
-1. Download Mp4 to your computer **at least two business days** before the session starts.
-1. Start practice session. You'll get a reminder email one day and one hour before the webinar starts and can click on that link. You can join the webinar anytime before it starts in a practice session in order to test the video playback.
-1. Mute yourself and turn off video. The customer will only see the pre-recorded presenter, at no time should they see the panelists.
-1. Press "Share Screen" > Advanced > Video **DE-Select "Optimize for video clip"** Share > Select the Mp4 file of the recording
-
-The host and Q&A panelist should start/join the webinar at least 10 minutes before the webinar start time so that they can test the video sharing and ensure everything is set for the webinar.  There is no need for the host to say any opening remarks prior to playing the video.  All housekeeping items are handled as part of the recording.
-
-For the webinars, we collect feedback from attendees through a Zoom Poll.
-At the end of the webinar, the host should launch the poll for the attendees. The default poll is already configured and saved in Zoom. To access it, follow the steps below:
-
-1. In Zoom, while presenting the video, click on the **More** button in the bottom menu.
-2. Select **Polls**, then click on the **Feedback Poll**.
-3. Check the questions and click on the **Launch** button to launch the poll for all attendees.
-
-![example-zoom-polls-webinars-cse](/handbook/customer-success/csm/segment/cse/zoom-polls-cse.gif)
-
-It is recommended to check before the webinar if the recorded video already mentions the poll. If yes, you should try to launch the poll at the same time it is mentioned in the recorded video.
-
-The CSE Program Manager will handle all pre- and post-webinar communication with the attendees.
-
-Here is a quick video guide on how to host the webinar, including steps for sharing the local webinar video file through zoom: [Quick Guide Video](https://drive.google.com/file/d/1kjntQ_ZzSDTmThP1XvYEARSCS4cjS6XM/view)
-
 #### Preparing for and Delivering a Hands-on Lab
 
 The upcoming month's hands-on labs are added to an issue in the [Customer Success Engineering - Content Project](https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/content/-/issues/?label_name%5B%5D=cse-events%3A%3Asign-up) (separate from the webinar schedule) and the CSE team is asked to sign up as DRIs.
@@ -69,8 +41,10 @@ The upcoming month's hands-on labs are added to an issue in the [Customer Succes
 > As a Lab DRI, you are responsible for submitting a Lab Request for an environment. This should be submitted ideally at least one week before the date of delivery. For assistance/questions please reach out on the `#demo-architect-partners` Slack channel.
 
 1. Navigate and login to the [Demo Architect Portal](https://cloud.gitlabdap.com/).
-1. Select **Customer Workshop/Lab** from the dropdown list.
-1. Fill in the form to the best of your knowledge.
+1. Select **Content/Lab Request** from the dropdown list.
+1. For Salesforce Account Link, enter [https://gitlab.my.salesforce.com/Account/](https://gitlab.my.salesforce.com/Account/)
+1. For Opportunity type, select **CSE Led Lab**.
+1. Fill in the rest of the form to the best of your knowledge.
 1. Click `Submit Request`.
 
 This will result in an Issue being created on the [Demo Architect - Workshop Management Board](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/boards/7697518?label_name[]=DA%20Workshop%20Request) which will be picked up by the Demo Architecture team.
@@ -113,28 +87,37 @@ When reporting a problem, use the `Bug` template in the [Content project](https:
 
 ### CSE Engagement Request Process
 
-Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the [normal operating rhythm during the customer lifecycle](/handbook/customer-success/csm/segment/cse/#customer-lifecycle) (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce. You can submit a case for a CSE to engage with you on an account by clicking on "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ). This will help to qualify the engagement and help the CSE prepare for a productive conversation with the customer.
+Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the normal operating rhythm during the customer lifecycle (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce.
+To open a new CSE case, go to the customer's account in SFDC and select the _Opportunity_ the case will be associated with. On the Opportunity page, click the _**CS Help**_ button. On the next page, you will be asked to select an option between _CSE Help (NOT Escalations)_ and _Escalations (CSM/CSE Accounts)_. Select the _CSE Help option_ (for _Escalations_, please check [this section](#cse-escalations)).
+The next step will ask to provide information about the case. In the _On-Demand Catalog Offerings_ dropdown, select the service that best aligns with the customer's needs. [Below](# cse-catalog-offerings), you have a detailed description of what each offering covers. Next, add the _Contact_ whom the CSE will be speaking with.
+The other mandatory information is a detailed description of what is expected from this engagement. Please add all relevant information in the _Challenges/Pain Points_ field. It is crucial for the CSE to have a clear understanding of the customer's situation so they can prepare appropriately for the meeting.
 
-This brief screencast demonstrates how to reveal the CSE Help button when on an account page in Salesforce:
+This brief screencast demonstrates how to reveal the CS Help button when on the customer's opportunity page in Salesforce:
 
-![example-clip-demonstrating-cse-request-sfdc](/handbook/customer-success/csm/segment/cse/CSE-new-workflow.png)
+![example-clip-demonstrating-cse-request-sfdc](/images/customer-success/csm/segment/cse/SFDC_CSE_Case_Request.jpeg)
 
-#### Requesting CSE Engagement (Account Owners only - AEs, SAEs)
-
-Only account owners (AEs and RM's) should file a new issue requesting a CSE engagement for their customer. Other stakeholders at GitLab (Solutions Architects, Support, Professional Services) may identify a potential opportunity for CSE engagement, but ultimately the account owner should be notified to follow through the request process and communicate to the customer that a request has been made. So the workflow goes like this:
-
-- New cases are allowed to be created for accounts with a minimum of 30k ARR (for max you can connect with your regional sales leader), and the "assigned CSM" must be set to 'TAM Scale'.
-- AE/RM files the request in SFDC.
-- Initiate a case by clicking on the "CSE help" button associated with the Opportunity in Salesforce.
-- Fill out the required fields, which include Customer Contact, interventions needed (such as onboarding, license utilization, competitive risk), and the primary use case. Specify the type of risk and environment associated with the customer.
-- The case is then automatically listed in related case lists on both the account and opportunity.
-- Once a case is created in Salesforce, a corresponding Call to Action (CTA) is generated in Gainsight for the CSE to handle. But it is not real-time (batch rule runs every four hours starting at 12:30-1 am PT everyday).
+After the case is created, it will be automatically listed in related case lists on both the account and opportunity. Then, a corresponding Call to Action (CTA) is generated in Gainsight for the CSE to handle. But it is not real-time (batch rule runs every four hours starting at 12:30-1 am PT everyday).
 NOTE: Unless specified otherwise, CSEs will automatically reach out to the contact with the AE/RM in copy when cases are created. If the AE/RM does not want that to happen they can put a note in the open text "Challenges/Pain Points (1000 Character Limit)" field on the case.
 
 - For more information about the scope and qualifications for CSE engagement, refer to the following links:
   - [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#)
   - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
   - [CSE Highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
+
+#### CSE Catalog Offerings
+
+The CSE Catalog provides a structured framework of engagement offerings that support customer technical needs across different GitLab areas. When submitting an engagement request to the CSE team, Account Executives (AEs), Renewal Managers (RMs), and Solutions Architects (SAs) can select from these offerings to best match the customer's specific requirements. Each offering is designed to address distinct technical challenges and implementation scenarios, allowing for more focused and effective CSE engagements. Below are the detailed descriptions of each available offering:
+
+- **Fast-Track GitLab Implementation**: DevOps leads and platform administrators will recieve expert guidance on how to accelerate their GitLab deployment. The CSEs will share concrete setup recommendations covering configuration, user management strategies, and documentation based best practices.
+- **Optimize Your GitLab Architecture**: Enterprise architects and technical leads will receive expert guidance on designing a robust, scalable GitLab infrastructure. The CSEs will share best practices on architectural patterns, including high availability configurations and disaster recovery strategies that reduce downtime risk.
+- **Streamline Your CI Workflows**: Engineering leads and DevOps teams will learn strategies to enhance their CI pipeline performance and resource utilization. CSEs will analyze the customer's gitlab-ci.yml configuration and share optimization patterns to reduce build times and best practices for job efficiency, caching strategies, and pipeline architecture to improve overall CI performance.
+- **Strengthen Your Application Security**: Development and security leads will discover how to automate and streamline security practices across their pipeline. CSEs will share strategies for implementing automated scans, enforcing security policies, and managing vulnerabilities efficiently using GitLab's security features.
+- **Transform Your Workflow with AI**: Development teams and technical leaders will learn how to leverage GitLab Duo to accelerate their entire software development workflow, improve code quality and deliver more secure applications. CSEs will share strategies for implementing AI-assisted features across planning, code suggestions, and security scanning based on successful implementations.
+- **Optimize Your Migration Strategy**: Technical leaders and migration teams will learn proven strategies for moving to GitLab from their existing tools. CSEs will share migration approaches, technical prerequisites and limitations, architectural considerations, and risk mitigation tactics based on successful transitions at similar organizations.
+- **Accelerate Your Software Delivery**: DevOps teams will discover how to streamline their continuous deployment processes for greater reliability. CSEs will share best practices for deployment automation, environment configuration, and release management drawn from enterprise implementations. 
+- **Strengthen Your GitLab Operations**: System administrators will learn proven strategies for managing their GitLab environment at scale. CSEs will share best practices for authentication, user management, group organization, and project configuration based on enterprise implementations.
+- **Optimize Your Platform Observability**: Platform engineers will gain insights on optimizing their GitLab monitoring and observability practices. CSEs will share monitoring strategies for setting up basic system monitoring, implementing advanced observability, garbage collection statistics, and resource utilization tracking.
+- **Scale Your Agile Planning**: Project leaders and delivery teams will learn how to leverage GitLab's planning capabilities for better visibility. CSEs will share strategies for implementing effective workflows using issues, epics, and iterations while measuring progress through value stream analytics.
 
 #### Tracking Ad-Hoc CSE Engagements in Gainsight (CSEs only)
 
@@ -190,7 +173,7 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
       1. Key Personas
       1. Industry
       1. Duration of contract/last renewal date
-1. Locate and study **Custom Pitch Deck** from AE (find *Custom Pitch Deck* link in **Salesforce Opportunity** or reach out to AE directly)
+1. Locate and study **Custom Pitch Deck** from AE (find **Custom Pitch Deck** link in **Salesforce Opportunity** or reach out to AE directly)
 1. Perform general research of the company and related industry to give better context.
 1. Reach out to AE/SAE and let them know about the meeting; discuss strategy, insights. Add AE/SAE as optional to all calls.
 1. Join the call at least 10-15 minutes early to prepare and be ready to allow customers to join from the waiting room.

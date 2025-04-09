@@ -12,7 +12,7 @@ description: "The User Satisfaction (USAT) survey is a performance indicator we 
 
 ### Satisfaction surveys across GitLab
 
-There are two teams across GitLab who run separate, but related satisfaction surveys. UX Research conducts the User Satisfaction (USAT) survey and Customer Success conducts the All-Customer Satisfaction survey. This [handbook section](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/#what-are-the-differences-between-the-all-customer-csat-and-usat-surveys) has more details on how these two satisfaction surveys are different. 
+There are two teams across GitLab who run separate, but related satisfaction surveys. UX Research conducts the User Satisfaction (USAT) survey and Customer Success conducts the All-Customer Satisfaction survey. This [handbook section](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/#what-are-the-differences-between-the-all-customer-csat-and-usat-surveys) has more details on how these two satisfaction surveys are different.
 
 ### How the USAT survey is run
 

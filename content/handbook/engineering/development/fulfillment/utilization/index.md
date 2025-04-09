@@ -51,7 +51,7 @@ All team members are encouraged to add topics to the [weekly agenda](https://doc
 
 Engineers are responsible for providing async issue updates on active, assigned issues when progress is made. Following the [template and guidance](/handbook/engineering/development/fulfillment/#weekly-async-issue-updates) for async updates for the entire Fulfillment Sub-department, updates should be made at least weekly. These updates help keep collaborators, stakeholders, and community contributors informed on the progress of an issue.
 
-In addition to weekly issue updates, we ask that engineeering DRIs also provide a weekly status update for the bodies of work where they're focussed.
+In addition to weekly issue updates, we ask that engineering DRIs also provide a weekly status update for the bodies of work where they're focussed.
 
 - **When**: We aim to provide these updates every Tuesday
 - **Who**: Anyone who is listed as a DRI against our current milestone priority projects
@@ -110,7 +110,7 @@ It is important to [take time off](/handbook/people-group/paid-time-off/#paid-ti
 
 When going out of office, please be sure to [clearly communicate](/handbook/people-group/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
 
-1. In [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
+1. In Time Off by Deel, select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
 
 2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
 
@@ -358,9 +358,9 @@ In an effort to raise our confidence of our estimates through shared discussion,
 
 Throughout the estimation process, consider the following GitLab sub-values:
 
-- [Bias for action](/handbook/values/#bias-for-action): the person with more context should help drive the estimation
+- [Bias for action](/handbook/values/#operate-with-a-bias-for-action): the person with more context should help drive the estimation
 - [Everything is in draft](/handbook/values/#everything-is-in-draft): other team members can [propose changes](/handbook/values/#make-a-proposal) to the estimate with an [explanation](/handbook/values/#say-why-not-just-what)
-- [Low level of shame](/handbook/values/#low-level-of-shame): estimations will never be perfect, but we can quickly iterate on an estimate that will be good enough to get us started
+- [Low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding): estimations will never be perfect, but we can quickly iterate on an estimate that will be good enough to get us started
 - [Articulate when you've changed your mind](/handbook/values/#articulate-when-you-change-your-mind): as we arrive towards some consensus estimate, clearly articulate that your earlier stance is no longer your current stance
 
 #### Spikes
@@ -411,7 +411,7 @@ Depending on the priority of the project or OKR, Frontend engineers are able to 
 
 ## Triage
 
-The following lists are links to Sentry and other tools where we proactively identify and triage Utilization problems. Proactive triage will not only provide for a more secure and robust application, but also provide for a better user experience especially as we iterate on features, reveal features from behind a feature flag, or introduce a refactoring. It leans into our [Bias for action](/handbook/values/#bias-for-action) sub-value and raises our awareness of application performance.
+The following lists are links to Sentry and other tools where we proactively identify and triage Utilization problems. Proactive triage will not only provide for a more secure and robust application, but also provide for a better user experience especially as we iterate on features, reveal features from behind a feature flag, or introduce a refactoring. It leans into our [Bias for action](/handbook/values/#operate-with-a-bias-for-action) sub-value and raises our awareness of application performance.
 
 ### Potential list of places to check
 
@@ -434,7 +434,7 @@ e.g. https://sentry.gitlab.net/gitlab/customersgitlabcom/issues/2505559/?query=i
 
 See links in the right sidebar:
 
-![''](sentry_issue_creator.png)
+![''](/images/engineering/development/fulfillment/utilization/sentry_issue_creator.png)
 
 Although both links look the same, the first link is for creating an issue *in the security repo*, the **second should be for the project** (CustomersDot/GitLab) accordingly.
 
@@ -474,7 +474,7 @@ Following a similar process to Milestone Retrospectives, we employ [Iteration Re
 - Look for blockers as natural boundaries for issue/epic breakdown
 - Intentionally cut scope to ensure deliverability. Try to cut scope as early as possible.
 - Lean into using [the Refinement Template](/handbook/engineering/development/fulfillment/#estimation-template) for estimations.
-- Remember to find reviewers/maintainers with domain knowledge and compatible timezones for maximum efficiency - See also [MR review guidelines](/development/code_review.html#domain-experts)
+- Remember to find reviewers/maintainers with domain knowledge and compatible timezones for maximum efficiency - See also [MR review guidelines](/handbook/engineering/workflow/code-review/#domain-experts)
 - Share your proof of concept solutions with others to get feedback early on solutions
 - Consider acceptable partial solutions - cover the majority case; defer the edge cases for the next iteration if possible
 

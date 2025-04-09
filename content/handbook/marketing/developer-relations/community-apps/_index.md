@@ -9,7 +9,7 @@ The GitLab Community Apps is a suite of tools that enables the community and oth
 - [Application Hompage](https://app.community.gitlab.com)
 - [Source Code](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/gitlab-community-app)
 
-The applications are built and currently maintained by [Abubakar Siddiq Ango](https://gitlab.com/abuango) and [MRs are welcome](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/gitlab-community-app#how-to-contribute)!
+The applications are maintained by the [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/) and [MRs are welcome](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/gitlab-community-app#how-to-contribute)!
 
 The tools available in the suite are described below.
 

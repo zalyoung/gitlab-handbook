@@ -39,7 +39,7 @@ Please reach out to Allie Klatzkin or Alison Lee with any questions.
 * **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences.
 * **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
 * **Localization**: Owning the translation and localization strategy for email, building new nurtures for prospects
-* **PubSec Nurture**: Rebuild the nurture to educate leads on the value of GitLab for the Public Sector and ultimately generate MQLs 
+* **PubSec Nurture**: Rebuild the nurture to educate leads on the value of GitLab for the Public Sector and ultimately generate MQLs
 
 **Alison Lee** _Senior Customer Lifecycle Marketing Manager_
 
@@ -54,6 +54,15 @@ Please reach out to Allie Klatzkin or Alison Lee with any questions.
 * **Duo Pro & Duo Enterprise Campaigns**: DRI for email campaigns related to our AI product
 * **Re-engagement nurture**: Develop and implement strategy for re-engagement email nurture
 * **Email point of contact/support**: Reviewing and optimizing AMER & APAC events (fmm) and campaigns sends to ensure best practices and compliance with the GitLab brand
+
+**Christian Baun** _Lifecycle Marketng Manager_
+
+* Manage updates/optimizations to our existing Persona nurture and PubSec nurtures
+* Support localized nurture programs for prospects
+* **Own MM+ transformation of trial nurture**: Pivot self-serve to focus on business trials: optimize for high-value biz trials and reduce wasted spend on low-ROI trials starts with personal emails. 
+* Ongoing maintenance/optimization of global prospect campaigns post launch (recycled leads nurture, industry nurtures)
+* Regional/event email reviews for EMEA/APAC
+* Email Templates: manage development and testing of new and existing email templates
 
 ## Communication
 <!-- DO NOT CHANGE THIS ANCHOR -->

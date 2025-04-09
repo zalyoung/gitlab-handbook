@@ -68,7 +68,7 @@ title: Coupa FAQ
   - You can chat with Coupa Support to get a quick response or resolution to your question/issue. Click on the "Chat with Coupa Support" button located in the lower right corner of any screen (see below screenshot).
   - If there's no Support Agent available, you can submit a case by providing the subject of your question/issue and a detailed description. You will receive confirmation that your case was submitted and logged. A Support Agent will respond when available.
 
-   ![coupa-image-1](../CoupaSupportChat.png)
+   ![coupa-image-1](/images/finance/procurement/CoupaSupportChat.png)
 - Suppliers can also email Coupa Support Team (supplier@coupa.com).
 
 ### Do suppliers need to set-up a CSP account, or will this be done for them?

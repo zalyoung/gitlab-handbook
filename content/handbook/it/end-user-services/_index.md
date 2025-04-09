@@ -52,7 +52,7 @@ Please visit the GitLab Onboarding and machine management [handbook page](/handb
 
 #### GitLab Laptop Offboarding
 
-Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](/handbook/it/end-user-services/gitlab-laptop-offboarding/)
+Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-offboarding/)
 
 #### Self-help and troubleshooting
 
@@ -152,8 +152,6 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 
 - Senior IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
 
-- Senior IT Analyst APAC -  [Steve Ladgrove](/handbook/company/team/#sladgrove), sladgrove@gitlab.com, @sladgrove
-
 - IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
 
 - IT Analyst EMEA - Bruno Ferreira, bferreira@gitlab.com, @bruno.n.ferreira
@@ -171,8 +169,6 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 - Alex Kruseic - [appointment schedule](https://calendar.app.google/xsTHAQWxHmT3tpr86) - AMER
 
 - Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - AMER
-
-- Steve Ladgrove - [appointment schedule](https://calendar.app.google/sno1aJBB9YhQUHXh8) - APAC
 
 - Max Hirata - [appointment schedule](https://calendar.app.google/CMK6dKUN2otv1wsWA) - APAC
 

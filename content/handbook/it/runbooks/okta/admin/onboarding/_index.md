@@ -87,7 +87,7 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 
 1. Open 1Password and locate the previous record that you created in your `AR Temp Credentials` vault named `Okta Temp Admin - {firstInitial}{lastName}-admin@gitlab.com`.
 1. Just before the Zoom assisted onboarding or migration call, right click on the 1Password record and choose **Share**.
-    <img style="width: 400px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_0_3_9.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_0_3_9.png" />
+    <img style="width: 400px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_0_3_9.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_0_3_9.png" />
 1. Provide the share link via Slack DM or Zoom chat.
     > This is ephemeral for 60 minutes and the password is about to be changed so there is not a security risk with how you share it.
 
@@ -124,7 +124,7 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 1. Use your new credentials:
     1. Username: `{firstInitial}{lastName}-admin@gitlab.com`
     1. Password: (copy from 1Password record)
-        <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_3_3.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_1_3_3.png" />
+        <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_3_3.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_1_3_3.png" />
 
 ### Task 1.4: Change Password
 
@@ -132,7 +132,7 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 
 1. You will be prompted that `Your Okta password has expired`.
 1. Edit the 1Password record and generate a new password with 64 characters (maximum length in 1Password Web UI). Click **Save**.
-    <img style="width: 300px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_4_2.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_1_4_2.png" />
+    <img style="width: 300px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_4_2.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_1_4_2.png" />
 1. Copy the generated password into the browser in the **New password** and **Re-enter password** fields.
 1. Click **Change Password**.
 
@@ -144,12 +144,12 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 
 1. You will be prompted to `Set up security methods`.
 1. Click the **Set up** button for `Security Key or Biometric Authenticator`.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_5_2.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_1_5_2.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_5_2.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_1_5_2.png" />
 1. On the popup prompt, select **USB security key**.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_5_3.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_1_5_3.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_5_3.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_1_5_3.png" />
 1. Touch your YubiKey to activate MFA.
 1. You will be redirected to the Okta user dashboard for your new account.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_5_5.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_1_5_5.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_1_5_5.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_1_5_5.png" />
 
 ---
 
@@ -161,64 +161,64 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 
 1. On the Okta user dashboard for your new account, click the `G Suite SSO Account` tile.
 1. On the `Welcome to your new account` screen with the terms and conditions, click the **I understand** button.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_1_2.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_1_2.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_1_2.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_1_2.png" />
 1. You will be redirected to the Google Account homepage.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_1_3.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_1_3.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_1_3.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_1_3.png" />
 1. Click the **Personal Info** link in the left navigation.
 1. Click the **Photo** icon to upload an avatar. If you don't have a picture readily available, navigate to `https://gitlab.com/{username}` and right click on your avatar and choose **Save image as** to save it to your desktop.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_1_5.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_1_5.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_1_5.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_1_5.png" />
 
 ### Task 2.2: Configure Google Account 2FA
 
 > **Laptop Transfer?** You can skip this task if you are using the same YubiKey from your old laptop.
 
 1. Click the **Security** link in the left navigation.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_1.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_2_1.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_1.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_2_1.png" />
 1. In the `Signing in to Google` section, click the **2-Step Verification** row.
 1. In the prompt, click the **GET STARTED** button.
 1. Ignore the phone number instructions and click the **Show more options** link in the bottom left corner, then click **Security Key**.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_4.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_2_4.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_4.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_2_4.png" />
 1. When prompted for `Have your security key?`, click the **NEXT** button. You can ignore the instructions for `Make sure your key is with you, but not connected to your device`. You can leave your YubiKey inserted.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_5.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_2_5.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_5.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_2_5.png" />
 1. When prompted, **touch your YubiKey**.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_6.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_2_6.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_6.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_2_6.png" />
 1. After your Security Key has been registered, you will be prompted to **assign a name** to the YubiKey. This is at your discretion, however the model number is a best practice (ex. `YubiKey 5C FIPS`).
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_7.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_2_7.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_2_7.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_2_7.png" />
 1. After your key has been enrolled, your Google Account activation is complete.
 1. **Close the incognito browser window**.
 
 ### Task 2.3: Create Google Chrome Profile
 
 1. Using your **normal** Google Chrome browser window (not in incognito mode), **click on your avatar in the top right corner**, then click the **Add** button below the `Other Profiles` section.
-    <img style="width: 250px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_1.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_1.png" />
+    <img style="width: 250px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_1.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_1.png" />
 1. When prompted to `Set up your new Chrome profile`, click the **Sign in** button.
-    <img style="width: 600px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_2.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_2.png" />
+    <img style="width: 600px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_2.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_2.png" />
 1. When prompted to `Sign in to Chrome`, enter your admin email address (ex. `dmurphy-admin@gitlab.com`).
-    <img style="width: 600px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_3.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_3.png" />
+    <img style="width: 600px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_3.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_3.png" />
 1. You will be redirected to Okta to sign in with your `dmurphy-admin@gitlab.com` credentials. **Copy the password from the 1Password record**.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_4.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_4.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_4.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_4.png" />
 1. Remember that we never save passwords in Chrome. You can click the **Never** button.
 1. When prompted to verify your identity, click the **USB security key** option.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_6.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_6.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_6.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_6.png" />
 1. You will be prompted by Google to verify it's you. Click the **Continue** button.
-    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_7.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_7.png" />
+    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_7.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_7.png" />
 1. You will be prompted that `Your organization will manage this profile`. Click the **Continue** button.
-    <img style="width: 450px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_8.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_8.png" />
+    <img style="width: 450px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_8.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_8.png" />
 1. When prompted to `Turn on sync?`, click the **Settings** button.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_9.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_9.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_9.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_9.png" />
 1. Click the **Manage what you sync** section.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_10.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_10.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_10.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_10.png" />
 1. Change the `Sync everything` to `Customize sync`, then **uncheck** the `Passwords` toggle.
 1. Click the arrow to the left of `Manage what you sync` to return back to the main configuration screen.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_12.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_12.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_12.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_12.png" />
 1. To the right of your name, click the **Confirm** button.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_13.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_13.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_13.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_13.png" />
 1. Click the **Customize your Chrome profile** row.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_14.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_14.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_14.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_14.png" />
 1. Set the **name** to `GitLab Admin (Black)` and choose a **theme color** (ex. Black). This name refers to the PURPLE vs BLACK wristband access levels.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_15.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_15.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_15.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_15.png" />
 1. You can verify your Chrome profile in the top right corner by clicking on your avatar. You can switch between profiles as needed.
-    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_16.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_3_16.png" />
+    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_3_16.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_3_16.png" />
 
 ### Task 2.4: Add bookmarks for Okta and Gmail
 
@@ -228,7 +228,7 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 1. Navigate to `https://gitlab.okta.com` and sign in with your `{handle}-admin@gitlab.com` account using the credentials stored in 1Password. You will be prompted to verify your identity with USB Key MFA and touching your YubiKey.
 1. On the Okta user dashboard, **right click** on the `Admin` button and **open in a new tab**.
 1. Press the star icon to bookmark this page, and edit the name to `Okta Admin`.
-    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_4_4.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_2_4_4.png" />
+    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_2_4_4.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_2_4_4.png" />
 1. **Close** the browser tab.
 1. On the Okta user dashboard, **right click** on the `G Suite SSO Mail` tile and **open in a new tab**.
 1. Press the star icon to bookmark this page, and edit the name to `Gmail`.
@@ -243,15 +243,15 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 > **Laptop Transfer?** You can skip this task.
 
 1. In the Gmail browser tab, open the email titled `Join GitLab on 1Password`.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_1.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_1_1.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_1.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_1_1.png" />
 1. Click the **Join now** button.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_2.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_1_2.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_2.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_1_2.png" />
 1. You will be prompted to **enter a new 1Password master password**.
     1. This must be different than your current 1Password master password for your `{handle}@gitlab.com` account.
     1. This should be at least 24 characters, so it is suggested to use a phrase that you can memorably type rather than numbers and symbols that you can forget.
     1. Do not store this password in your 1Password vault. This should only be typed from memory and written on the printed Emergency Kit and stored in your home safe or other safe offline location.
     1. This is the one password that cannot be autofilled.
-        <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_3.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_1_3.png" />
+        <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_3.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_1_3.png" />
 1. You will be showed your Secret Key. Click the button to **Download** your emergency kit.
     1. It is your discretion whether to store this in your existing 1Password private vault or only store it on paper in a safe location. Never store your secret key and master password in the same place digitally (only on paper).
     1. If you keep your credentials fully digital, never store your master password.
@@ -259,9 +259,9 @@ This runbook requires an access request using the [Admin_Black_Account](https://
     1. Do not store this piece of paper in a backpack or anything that travels with you.
     1. Do not put this in a drawer in your desk or put it anywhere visible to anyone.
 1. Delete the `1Password Emergency Kit` PDF file from the `Downloads` folder.
-    <img style="width: 400px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_6.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_1_6.png" />
+    <img style="width: 400px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_6.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_1_6.png" />
 1. Open your Trash from the dock. Right click on the `1Password Emergency Kit` PDF file and click **Delete Immediately**.
-    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_7.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_1_7.png" />
+    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_1_7.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_1_7.png" />
 1. Your account has been successfully activated. You can ignore the message `your account administrator has been notified to complete the recovery`.
 
 ### Task 3.2: Configure Browser Extension
@@ -273,15 +273,15 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 1. After you have received the email (see above), open a new browser tab, and navigate to `https://gitlab.1password.com`.
 1. Sign in with your email address (`{handle}-admin@gitlab.com`), secret key, and master password.
 1. In the `Get the 1Password browser extension` section, click the **Get it now** button.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_3.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_2_3.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_3.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_2_3.png" />
 1. On the Chrome Extension page, click the **Add to Chrome** button.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_4.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_2_4.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_4.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_2_4.png" />
 1. In the top right corner, click the plugin icon and click the pin icon for 1Password.
-    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_5.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_2_5.png" />
+    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_5.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_2_5.png" />
 1. In the top right corner, click the plugin icon and click the dots icon for 1Password and select **Settings**.
-    <img style="width: 400px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_6.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_2_6.png" />
+    <img style="width: 400px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_6.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_2_6.png" />
 1. On the **Settings > General** page, uncheck the toggle for `Integrate with 1Password app`. This allows us to add separate 1Password accounts that don't conflict with your normal user account on your laptop.
-    <img style="width: 600px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_7.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_2_7.png" />
+    <img style="width: 600px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_2_7.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_2_7.png" />
 1. Scroll down to `Accounts & Vaults`.
 1. (If exists) Click the arrows for your `gitlab` account and click **Sign Out**.
 1. (If exists) Remove any personal/family accounts as well. This will not affect your 1Password usage in other Chrome profiles or on your Mac app.
@@ -295,15 +295,15 @@ This runbook requires an access request using the [Admin_Black_Account](https://
 
 1. Click the 1Password icon in the top right browser toolbar.
 1. Click **New Item** and click **Login**.
-    <img style="width: 500px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_3_2.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_3_2.png" />
+    <img style="width: 500px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_3_2.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_3_2.png" />
 1. You will be redirected to the 1Password website and automatically authenticated.
 1. Click the **Cancel** button in the top right corner.
 1. Click the 1Password **logo** in the top left corner.
-    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_3_5.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_3_5.png" />
+    <img style="width: 700px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_3_5.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_3_5.png" />
 1. Click the **Private** vault tile.
 1. This is the vault web UI where you can add and manage records.
 1. Click the **star** icon in the top right corner to bookmark this page. Edit the description to `1Password`.
-    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_3_8.png" src="/handbook/it/runbooks/okta/admin/onboarding/images/OktaAdminOnboarding_3_3_8.png" />
+    <img style="width: 350px; border: 1px #DCDCDE solid; padding: 2px;" alt="OktaAdminOnboarding_3_3_8.png" src="/images/it/runbooks/okta/admin/onboarding/OktaAdminOnboarding_3_3_8.png" />
 
 ### Task 3.4 Add Okta Account to New 1Password Vault
 

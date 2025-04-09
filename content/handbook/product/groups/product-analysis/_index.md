@@ -1,6 +1,6 @@
 ---
 title: Product Data Insights
-
+description: Product Data Insights team handbook
 ---
 
 ## Product Data Insights Handbook
@@ -13,7 +13,7 @@ across GitLab.
 In addition to supporting the Product and Engineering divisions, the Product Data Insights team is an active
 contributor to the GitLab Data Program. As part of the [Customer Product Adoption (CPA) Pod](/handbook/enterprise-data/organization/#data-pod-assignments),
 the product analysts also work closely with members from the Enterprise Data team. In addition,
-the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/functional-analytics-center-of-excellence/),
+the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/how-we-work/functional-analytics-center-of-excellence/),
 along with other functional analytics groups across the GitLab Data Program.
 
 Read more about what we do at GitLab on our [Direction](https://about.gitlab.com/direction/product-analysis/) page.
@@ -28,8 +28,8 @@ Engineering divisions, each analyst is assigned to one or more sections or teams
 | [Carolyn Braza](/handbook/company/team/#cbraza) | [Senior Manager, Product Data Insights](/job-families/product/product-analyst/#senior-manager-product-data-insights) | [Analytics](/handbook/product/categories/#analytics-section) |
 | [Dani Deng](/handbook/company/team/#ddeng1) | [Product Analyst](/job-families/product/product-analyst/#product-analyst-intermediate) | [Growth](/handbook/product/categories/#growth-section), [Engineering](/handbook/engineering/) |
 | [Nicole Hervas](/handbook/company/team/#nhervas) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [CI](/handbook/product/categories/#ci-section), [CD](/handbook/product/categories/#cd-section) |
-| [Lily Mai](/handbook/company/team/#lmai1) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Data Science](/handbook/product/categories/#data-science-section), [Engineering](/handbook/engineering/) |
-| [Emma Neuberger](/handbook/company/team/#eneuberger) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) |
+| [Lily Fisher](/handbook/company/team/#lmai1) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Core Platform](/handbook/product/categories/#core-platform-section), [Infrastructure Platforms](/handbook/product/categories/#infrastructure-platforms-section), [Engineering](/handbook/engineering/) |
+| [Emma Fergen](/handbook/company/team/#efergen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Data Science](/handbook/product/categories/#data-science-section) |
 | [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section)  |
 | [Dave Peterson](/handbook/company/team/#dpeterson1) | [Staff Product Analyst](/job-families/product/product-analyst/#staff-product-analyst) | [Sec](/handbook/product/categories/#sec-section) |
 | [Neil Raisinghani](/handbook/company/team/#nraisinghani) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Fulfillment](/handbook/product/categories/#fulfillment-section), [Pricing](https://internal.gitlab.com/handbook/product/pricing/) |
@@ -431,10 +431,6 @@ Recordings from office hours, analysis/read-outs, etc
 
 ## Other helpful resources & links
 
-1. [Data Guide Series](/handbook/enterprise-data/data-catalog/#product-release-to-adoption-catalog)
+1. [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
+1. [Data Catalog/Data Guide Series](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/) (internal handbook)
 1. [Data Team Handbook](/handbook/enterprise-data/)
-1. [Data Catalog](/handbook/enterprise-data/data-catalog/)
-1. [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit/)
-1. [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
-1. [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
-1. [Functional Analytics Center of Excellence (FACE) Source of Truth Fields for Reporting](/handbook/enterprise-data/functional-analytics-center-of-excellence/source-of-truth-fields-for-reporting/)

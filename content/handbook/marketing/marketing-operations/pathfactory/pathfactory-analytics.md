@@ -16,13 +16,13 @@ If you are using Safari as your preferred browser, ensure `Prevent cross-site tr
 
 ### Target Track Analytics
 
-1. [Analytics for a Specific Target Track](https://support.pathfactory.com/kb/analytics-for-a-specific-target-track)
-1. [Analytics for All Target Tracks](https://support.pathfactory.com/kb/how-to-access-analytics-for-target-tracks/)
+1. [Analytics for a Specific Target Track](https://support.pathfactory.com/kb/how-to-access-reporting-and-analytics-for-target-tracks/)
+1. [Analytics for All Target Tracks](https://support.pathfactory.com/kb/how-to-access-reporting-and-analytics-for-target-tracks/)
 
 ### Recommend Track Analytics
 
-1. [Analytics for a Specific Recommend Track](https://support.pathfactory.com/kb/how-to-access-analytics-for-target-tracks/)
-1. [Analytics for All Recommend Tracks](https://support.pathfactory.com/kb/analytics-for-all-recommend-tracks)
+1. [Analytics for a Specific Recommend Track](https://support.pathfactory.com/kb/how-to-access-reporting-and-analytics-for-target-tracks/)
+1. [Analytics for All Recommend Tracks](https://support.pathfactory.com/kb/how-to-access-reporting-and-analytics-for-recommend-tracks/)
 
 ### Explore Page Analytics
 
@@ -35,27 +35,27 @@ If you are using Safari as your preferred browser, ensure `Prevent cross-site tr
 
 ### Website Promoter Analytics
 
-1. [Website Promoter Analytics](https://support.pathfactory.com/kb/website-promoter-analytics)
+1. [Website Promoter Analytics](https://support.pathfactory.com/kb/how-to-view-performance-analytics-for-your-content-using-website-tools/)
 
 ### Defining Visitor Activities
 
-1. [Understanding Visitor Activities](https://support.pathfactory.com/kb/understanding-visitor-activities)
+1. [Understanding Visitor Activities](https://support.pathfactory.com/kb/understanding-visitor-activities/)
 
 ### Path Analytics
 
 1. [Introducing: Path Analytics](https://support.pathfactory.com/kb/introducing-path-analytics/)
-1. [Path Analytics: Overview Dashboard](https://support.pathfactory.com/kb/path-analytics-overview-dashboard/)
+1. [Path Analytics: Overview Dashboard](https://support.pathfactory.com/kb/introducing-path-analytics/)
 1. [Path Analytics: Visitors](https://support.pathfactory.com/kb/path-analytics-visitors/)
 1. [Path Analytics: Accounts](https://support.pathfactory.com/kb/path-analytics-accounts/)
 1. [Path Analytics: Content](https://support.pathfactory.com/kb/path-analytics-content/)
-1. [Path Analytics FAQ](https://support.pathfactory.com/kb/path-analytics-faq)
-1. [Using and Sharing Path Analytics Reports](https://support.pathfactory.com/kb/using-and-sharing-path-analytics-reports/)
-1. [Types of Path Analytics Reports](https://support.pathfactory.com/kb/types-of-path-analytics-reports/)
-1. [Path Analytics Reports FAQ](https://support.pathfactory.com/kb/path-analytics-reports-faq/)
+1. [Path Analytics FAQ](https://support.pathfactory.com/categories/analytics_faq/)
+1. [Using and Sharing Path Analytics Reports](https://support.pathfactory.com/kb/creating-analyzing-sharing-data-reports/)
+1. [Types of Path Analytics Reports](https://support.pathfactory.com/kb/introducing-path-analytics/)
+1. [Path Analytics Reports FAQ](https://support.pathfactory.com/categories/analytics_faq/)
 
 ### Using Account-Based Analytics
 
-1. [Using Account Based Analytics](https://support.pathfactory.com/kb/account-based-analytics)
+1. [Using Account Based Analytics](https://support.pathfactory.com/kb/using-account-based-analytics/)
 
 ## Google Analytics
 

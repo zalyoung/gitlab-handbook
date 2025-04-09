@@ -13,7 +13,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 - I grew up in Allentown, PA (just outside Philadelphia).
 - I have lived in Denver, CO since 2012. I love calling Denver home and am fortunate that a lot of my family has relocated to Colorado over the last ~10+ years.
-- I live with my husband, AJ, our son, Micah, and our dog, Piper. 
+- I live with my husband, AJ, our son, Micah, and our dog, Piper.
 - Outside of work, I love adventuring outdoors including hiking and camping in the summers and snowboarding in the winter. I am an avid rock climber, although mostly in the gym. I also love cooking and baking (and eating), music (live and on vinyl), and have recently become a bit of a bookworm. My guilty pleasures are 90 Day Fiance and true crime.
 - I'm a massive sports fan. I love the Philadelphia Eagles, Phillies, and Sixers (not an avid hockey watcher). I'm also a fan of and nerd for all things NBA and basketball in general 🤓.
 - I currently work on the [Marketing Operations team](/handbook/marketing/marketing-operations/) as a [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) at GitLab.

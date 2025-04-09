@@ -27,7 +27,7 @@ Create a merge request with the introductory changes *after the previous post ha
 1. Confirm that "Delete source branch when merge request is accepted" is selected.
 1. Use the release post template for your MR.
 
-   ![release post MR template](release-post-mr-template.png)
+   ![release post MR template](/images/marketing/blog/release-posts/manual-release-post-kickoff/release-post-mr-template.png)
 
 Now that you have created the release post MR, refer to the checklist in the MR for each action that you need to take and the due dates of each action. Keep in mind the MRs for usability improvements, bugs, and performance improvements have their own checklists to be completed, including a task for the Release Post Manager to merge these MR by the 17th prior to final content assembly.
 
@@ -42,7 +42,7 @@ Now that you have created the release post MR, refer to the checklist in the MR 
 ### Content assembly: merging release post items (content blocks) to your branch
 
 {{% alert title="Important" color="info" %}}
-This procedure applies until the 18th, at <time datetime="07:59">7:59 am UTC (18th 2:59 am ET / 17th 11:59 pm PT)</time>. After this time, anyone who wants to include a change in the upcoming release post can either coordinate updates directly on the release post branch with the Release Post Manager or submit it in a separate MR, targeting the `release-X-Y` branch, and assign it to the Release Post Manager to merge. For more information, see our documentation on how to [Develop on a feature branch](https://docs.gitlab.com/ee/gitlab-basics/feature_branch_workflow.html).
+This procedure applies until the 18th, at <time datetime="07:59">7:59 am UTC (18th 2:59 am ET / 17th 11:59 pm PT)</time>. After this time, anyone who wants to include a change in the upcoming release post can either coordinate updates directly on the release post branch with the Release Post Manager or submit it in a separate MR, targeting the `release-X-Y` branch, and assign it to the Release Post Manager to merge. For more information, see our documentation on how to [Develop on a feature branch](https://docs.gitlab.com/ee/topics/git/add_files.html).
 {{% /alert %}}
 
 When it is time to assemble the release post, this will be done by moving the

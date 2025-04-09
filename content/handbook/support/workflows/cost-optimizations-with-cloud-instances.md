@@ -20,7 +20,7 @@ For the context of this page a cloud service is a billed infrastructure product 
 - If a service is not currently in use, but there are plans to use it later, then it can be powered off
 - After deleting a deployment there may be other dependent services still running such as load balancers, databases which can be cleaned up
 - Deploy to minimal spec services wherever possible
-- Consider pricing when choosing between [Digital Ocean](https://www.digitalocean.com/pricing/), [Google Cloud Platform](https://cloud.google.com/pricing) or [Amazon Web Services](https://aws.amazon.com/pricing/)
+- Consider pricing when choosing between [Digital Ocean](https://www.digitalocean.com/pricing), [Google Cloud Platform](https://cloud.google.com/pricing) or [Amazon Web Services](https://aws.amazon.com/pricing/)
 - If the nature of the deployment is permanent, it will most likely be cheaper to use reserved instances over an on-demand instance for your service
 
 ## Cloud Native GitLab Helm Chart
@@ -36,4 +36,4 @@ To deploy the Cloud Native GitLab Helm Chart at a minimum spec:
 
 ### Minikube
 
-GCP is not a requirement and the default helm chart can also be [deployed locally using Minikube](https://docs.gitlab.com/charts/development/minikube).
+GCP is not a requirement and the default helm chart can also be [deployed locally using Minikube](https://docs.gitlab.com/charts/development/minikube/).

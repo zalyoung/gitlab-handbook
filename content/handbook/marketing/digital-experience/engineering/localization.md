@@ -17,7 +17,7 @@ Now that the Digital Experience team and the [Localization team](/handbook/marke
 
 ### Summary
 
-![Flowchart of process current process](current-expected-localization-flow.png)
+![Flowchart of process current process](/images/marketing/digital-experience/engineering/current-expected-localization-flow.png)
 
 Right now, an issue is created leading to UX and content to start working. Ideally, when the content is completed, UX can begin their work. After the UX is completed, this allows engineering and localization to begin their work. When engineers kick off a merge request, this allows content, UX, and engineering to make adjustments to the page. Note that we need the source language to be completed before translations can begin.
 

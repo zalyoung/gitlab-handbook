@@ -56,4 +56,4 @@ All follow-up action items will be assigned to a team/individual before the end 
 ### Sources
 
 - [Google SRE Handbook](https://landing.google.com/sre/book/chapters/postmortem.html)
-- [SAFe Iteration Retrospectives](https://www.scaledagileframework.com/iteration-retrospective/)
+- [SAFe Iteration Retrospectives](https://scaledagileframework.com/iteration-retrospective/)

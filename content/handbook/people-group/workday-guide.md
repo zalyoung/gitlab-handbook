@@ -16,7 +16,7 @@ title: Workday Guide
 
 Workday will be accessible to all GitLab team members through Okta SSO. Go to [gitlab.okta.com](https://gitlab.okta.com/app/UserHome) and click on the **'Workday SSO'** tile to login. You can search your apps for quick access.
 
-![Accesing Workday through Okta](../okta-wd.png)
+![Accesing Workday through Okta](/images/people-group/okta-wd.png)
 
 **Important:** Please note that Workday will be temporarily unavailable due to scheduled weekly maintenance each Friday between 11:00 PM - 3:00 AM PST (Saturday between 6am UTC to 9am UTC).
 
@@ -79,16 +79,18 @@ Modules/functionality being implemented:
 
 | Workday will replace | Workday will enhance |Workday will integrate with |What remains the same in this phase|
 | ------ | ------ |------ |------ |
-| BambooHR (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, EdCast, Navan Expense, LawLogix, Modern Health, Navex, NetSuite, GitLab, E-trade, ADP, Okta, Nominator bot, People Connect bot,Employment Automation, Sync BambooHR entities to GitLab groups, Sync new team members to team page, Sync specialty to team files, Team page readiness check,Anniversary Announcement, New Hire Announcement|Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices|
+| BambooHR* (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, EdCast, Navan Expense, LawLogix, Modern Health, Navex, NetSuite, GitLab, E-trade, ADP, Okta, Nominator bot, People Connect bot,Employment Automation, Sync BambooHR entities to GitLab groups, Sync new team members to team page, Sync specialty to team files, Team page readiness check, Anniversary Announcement, New Hire Announcement|Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices|
+
+- _BambooHR is no longer in use at GitLab as of 2024-12-15._
 
 #### Phase 1 Integrations
 
 | Application | Description | Frequency | Business Owner | Support Contact |
 | ------ | ------ | ------ | ------ | ------ |
 | ADP WorkForce Now | Employee Demographic feed from Workday to ADP Workforce Now via SFTP delivery of inbound file. | Daily (9am PST) | @vlaughlan | @droystang @Laura-Janssen @demina |
-| Employment Automations | - *Announcements*: Slack integrated messaging services, which are responsible for sending DM's or announcing to a channel on a certain matter.<br> - *Audit*: Audits collected on our team members data, we usually are constructing a certain data type (CSV) and then sending this off to the desired party.<br> - *E-mailing*: E-Mails are responsible for sending out our e-mails and replacing keywords from the template documents to include the relevant information. For example, one automation in this group handles the creation of a Letter of Employment and then attaches it to the e-mail prior to sending.<br> - *Issue Handling*: This is the main logic behind our onboardings, offboardings, employment templates, access requests, and anything else GitLab issue related.<br> - *Syncing*: Syncs regarding our HR data and external services. For example, we sync with GitLab to ensure our team page entries are staying up to date depending on if the team members current role specialty differs from that of the team page entry. | N/A | @mpatel8 | @ajrom |
+| Employment Automations | - **Announcements** : Slack integrated messaging services, which are responsible for sending DM's or announcing to a channel on a certain matter.<br> - **Audit**: Audits collected on our team members data, we usually are constructing a certain data type (CSV) and then sending this off to the desired party.<br> - **E-mailing**: E-Mails are responsible for sending out our e-mails and replacing keywords from the template documents to include the relevant information. For example, one automation in this group handles the creation of a Letter of Employment and then attaches it to the e-mail prior to sending.<br> - **Issue Handling**: This is the main logic behind our onboardings, offboardings, employment templates, access requests, and anything else GitLab issue related.<br> - **Syncing**: Syncs regarding our HR data and external services. For example, we sync with GitLab to ensure our team page entries are staying up to date depending on if the team members current role specialty differs from that of the team page entry. | N/A | @mpatel8 | @ajrom |
 | Culture Amp | Daily feed that sends new hires and terminations from Workday over to Culture Amp. | Daily (1am PST) |  @mpatel8 | @Laura-Janssen @demina |
-| E-Trade | - *E-Trade User Account File*: Used to provide demographic information for new participants and to maintain this information for existing participants.<br> - *E-Trade User Termination File*: Used to provide termination dates and termination codes to EEO (Equal Employment Opportunity).<br> - *E-Trade Rehires File*: Used to provide rehire information for previously terminated participants. Rehire date provided will replace the current hire date on EEO (Equal Employment  | Daily (4:30am PST) | @rhark @sguillory | @droystang @Laura-Janssen @demina |
+| E-Trade | - **E-Trade User Account File**: Used to provide demographic information for new participants and to maintain this information for existing participants.<br> - **E-Trade User Termination File**: Used to provide termination dates and termination codes to EEO (Equal Employment Opportunity).<br> - **E-Trade Rehires File**: Used to provide rehire information for previously terminated participants. Rehire date provided will replace the current hire date on EEO (Equal Employment  | Daily (4:30am PST) | @rhark @sguillory | @droystang @Laura-Janssen @demina |
 | EdCast | Automatically adds and removes team members to EdCast to avoid manual work for the team and streamline the onboarding process. | Real Time | @jallen16 | @droystang |
 | Navan Expense<>NetSuite | Utilizing Workato to automatically synchronize team members and their managers from Workday into the correct Navan Expense policy as well as creating a vendor record in NetSuite. | Real Time | @edelongpre @mbrown6 | @droystang |
 | Greenhouse (New Hires) | Creates new hires in Workday when a new applicant is marked as hired in Greenhouse | Real Time | @anechan @MarissaFerber @mpatel8 | @droystang @Laura-Janssen @demina |
@@ -103,7 +105,7 @@ Modules/functionality being implemented:
 
 ### Phase 2
 
-*Subject to change*
+_Subject to change_
 
 **Go live date:** 2022-10-01
 
@@ -121,7 +123,7 @@ Modules/functionality being implemented:
 
 ### Phase 3
 
-*Subject to change*
+_Subject to change_
 
 **Go live date:** 2022-12-01
 

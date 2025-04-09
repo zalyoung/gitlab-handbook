@@ -13,7 +13,7 @@ There have been a number of security researchers looking at Zoom, which has resu
 Here are a few important things to keep in mind, especially as you read through the Zoom tips below:
 
 - Always ensure your operating system as well as the Zoom application are up-to-date with the latest patches.
-- Ensure you've followed the [laptop configuration guidelines](/handbook/security/corporate/systems/#laptop-or-desktop-system-configuration).
+- Ensure you've followed the [laptop configuration guidelines](/handbook/security/corporate/services/laptops/security/).
 - Make a customized [Personal link](#making-a-customized-personal-link).
 - [Enable the "Waiting Room"](#enabling-the-waiting-room-for-your-personal-meeting-room) for your meetings.
 - You can set a password for your meetings, but remember if your meetings are in your calendar, anyone who can view your calendar will see the password if you include it in the meeting invite.
@@ -122,8 +122,8 @@ so unauthorized attendees cannot join your zoom room.
 
 ### Adding your title to your name
 
-Since Zoom doesn't display the job title field during meetings, it is recommended that you add your job title as part of the display name field.
-For example, if your name is Art VanDelay and your role is Engineer, you can write display name: `Art VanDelay - Engineer`.
+Since Zoom doesn't display the job title field during meetings, it is recommended that you add your job title, department, and team name (if applicable) as part of the display name field.
+For example, if your name is Art VanDelay and your role is Backend Engineer within the Source code group, you can write display name: `Art VanDelay - Backend Engineer (Create:Source Code)`.
 
 1. Navigate to the [profile page](https://gitlab.zoom.us/profile)
 1. Click on `Edit` on the far right of your avatar/name
@@ -134,7 +134,7 @@ While you're here, you can also choose to set your pronouns and the display opti
 
 ### Join meetings with muted microphone
 
-Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.us/hc/en-us/articles/203024649-Muting-your-microphone-when-joining-a-meeting):
+Joining an ongoing meeting with your microphone not muted can cause disruptions. As we sometimes forget to quickly mute ourselves, Zoom provides an [option to join calls muted](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062614):
 
 1. Navigate to `Zoom > Preferences > Audio`.
 1. Scroll down and select the box `Mute my mic when joining a meeting`.
@@ -318,7 +318,7 @@ This also mitigates the issue of potential weak communication encryption since t
 
 ### Large meeting considerations
 
-It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-assembly), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
+It can be distracting when a call with a large number of attendees has folks joining unmuted. For [Assembly](/handbook/company/gitlab-all-company-meetings/), CEO [AMAs](/handbook/communication/ask-me-anything), and other meetings in which we expect an attendance of over 25 folks, meetings should be scheduled, so that folks enter on mute. These folks can then opt to unmute as required to participate in the conversation.
 
 If a team member in a meeting is not on mute but creating sound that is distracting, any other team member should feel empowered to put this person on mute. A person must be a co-host or host to put someone on mute. If you are the host and you'd like help with muting people, ensure that "co-host" is enabled in your Zoom settings. During meetings, you can click on individuals in the meeting and designate them as "co-hosts."
 
@@ -404,7 +404,7 @@ Using the Zoom app:
 
 ### Recording video transcripts
 
-[Closed captioning and live transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription)
+[Closed captioning and live transcription](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490)
 is enabled by default for all users, however the subtitles will not show for participants unless
 a host manually enables it once the meeting starts.
 
@@ -419,7 +419,7 @@ available. Processing takes about 15 minutes, so the video files appear before t
 
 ### Zoom AI Companion
 
-#### Meeting summary with AI Companion
+#### Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.
 1. Click `AI Companion` in the meeting control toolbar.
@@ -430,8 +430,13 @@ available. Processing takes about 15 minutes, so the video files appear before t
 #### Accessing AI Companion Meeting Summaries
 
 1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
-1. In the side bar expand `AI Companion` and then click on `Meeting Summary`.
+1. In the sidebar expand `AI Companion` and then click on `Meeting Summary`.
 1. To edit or share, click on a meeting topic and you will have the option to `Share`, `Edit`, or `Delete` meeting summaries.
+
+#### Accessing AI Companion Smart Recordings
+
+1. Go to your Zoom account's [profile](https://gitlab.zoom.us/profile).
+1. In the sidebar click on `Recordings`, your smart recordings will be under `Cloud Recordings`.
 
 ### Enabling email notifications for hosts when attendees join first
 
@@ -663,7 +668,7 @@ In the above Chrome support thread, the following macOS solution is listed:
 If you have a loud keyboard or a fan in your office, Zoom may try to automatically reduce your microphone input volume. This can be frustrating because then other participants have trouble hearing you speak later in the call.
 If you are experiencing this issue, go into your Zoom client settings and uncheck "Automatically adjust microphone volume".
 
-![Zoom mic settings](/handbook/tools-and-tips/images/zoom-mic-volume.png)
+![Zoom mic settings](/images/tools-and-tips/zoom-mic-volume.png)
 
 ### Google Calendar Add-on for Zoom
 

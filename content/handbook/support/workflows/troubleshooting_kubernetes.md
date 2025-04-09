@@ -77,7 +77,7 @@ To get detailed information about the overall health of your cluster, use the fo
 kubectl cluster-info dump
 ```
 
-To delve deeper into troubleshooting the cluster have a look at [Troubleshoot Clusters](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/#looking-at-logs) which gives you insights as to the logs that you would look into.
+To delve deeper into troubleshooting the cluster have a look at [Troubleshoot Clusters](https://kubernetes.io/docs/tasks/debug/debug-cluster/#looking-at-logs) which gives you insights as to the logs that you would look into.
 
 ### GitLab Requirements
 
@@ -125,7 +125,7 @@ gitlab-webservice-default-659fdddb9b-cmrbd             2/2     Running     0    
 gitlab-webservice-default-659fdddb9b-hhctp             2/2     Running     0          12m
 ```
 
-Any pod in `pending` status indicates a possible problem which one can confirm by checking the recent events from the `describe_pods` file. If a pod is stuck in `Pending` it means that it can not be scheduled onto a node. This could be due to lack of resources such as CPU or Memory in your cluster. More on this in [Debugging Pods](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/#debugging-pods)
+Any pod in `pending` status indicates a possible problem which one can confirm by checking the recent events from the `describe_pods` file. If a pod is stuck in `Pending` it means that it can not be scheduled onto a node. This could be due to lack of resources such as CPU or Memory in your cluster. More on this in [Debugging Pods](https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/#debugging-pods)
 
 ### Services
 
@@ -145,7 +145,7 @@ or in AWS
 gitlab-nginx-ingress-controller LoadBalancer   172.20.164.155   a48.eu-west-5.elb.amazonaws.com   80:32220/TCP,443:30038/TCP,22:30963/TCP   45d
 ```
 
-Further checks would involve confirming if all the services have been assigned an [endpoint](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/#my-service-is-missing-endpoints)
+Further checks would involve confirming if all the services have been assigned an [endpoint](https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/#my-service-is-missing-endpoints)
 
 ```bash
 % more endpoints

@@ -40,13 +40,13 @@ Note: Trademarks aren't just words.  As mentioned above, trademarks can be symbo
 - **Sounds**  NBC trademarked the chimes that you hear during intermissions. Intel has a trademarked sound.
 - **Shapes** One of the most famous non-word trademarks is the shape of a Coke bottle.  Once you start getting into how something looks, it is called trade dress. Trade dress is a fancy term for trademarked product presentation.
 
-Marketing owns GitLab's [Brand Guidelines](https://design.gitlab.com/brand-overview/resources).
+Marketing owns GitLab's [Brand Guidelines](https://design.gitlab.com/brand-overview/resources/).
 
 ### Third-party use of GitLab trademarks on marketing materials
 
 - An Authorization to use GitLab Materials must be signed by any third party wanting to include GitLab's name or logo on their website or other marketing materials.
 - Follow these steps to get the Authorization signed:
-   1. Locate and download the template in GitLab's G-Drive [here](https://drive.google.com/file/d/1-osQ6cK3jARbxfHujlhiFRt-NVMjZrCD/view?usp=sharing) (*Note* this is only available to GitLab employees).
+   1. Locate and download the template in GitLab's G-Drive [here] (https://docs.google.com/document/d/1utvdSknJ0hm5m0_6T9SkeXaFqJSZgB6w/copy) (*Note* this is only available to GitLab team members).
    1. Send the template to the third party via DocuSign, ensuring that the DocuSign envelope you create requests the following details, which will appear in the signature block of the Authorization:
        - Company Name
        - Company Address

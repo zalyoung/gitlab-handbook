@@ -19,7 +19,7 @@ which should be completed after the first two and will probably take at least 3 
 ## GitLab.com Infrastructure Management
 
 The SRE teams use [Terraform](https://www.terraform.io/) and
-[Chef](https://chef.io) for configuration management of GitLab.com
+[Chef](https://www.chef.io/) for configuration management of GitLab.com
 infrastructure.
 
 ### Terraform
@@ -234,9 +234,9 @@ There are sample brew files in the [Infrastructure Project](https://gitlab.com/g
 ### iOS apps
 
 1. [Slack](https://apps.apple.com/us/app/slack/id618783545)
-1. [Zoom](https://apps.apple.com/us/app/zoom-cloud-meetings/id546505307)
+1. [Zoom](https://apps.apple.com/us/app/zoom-workplace/id546505307)
 1. [PagerDuty](https://apps.apple.com/us/app/pagerduty/id594039512)
-1. [Working Copy](https://apps.apple.com/us/app/working-copy/id896694807) (Optional)
+1. [Working Copy](https://apps.apple.com/us/app/working-copy-git-client/id896694807) (Optional)
 
 ## Reference Material
 

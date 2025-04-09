@@ -9,8 +9,8 @@ Our goal is to provide Insider Threat features for your applications as well as 
 
 ## Direction
 
-- [Instance Resiliency](https://about.gitlab.com/direction/govern/anti-abuse/instance_resiliency/)
-- [Insider threat](https://about.gitlab.com/direction/govern/anti-abuse/insider_threat/)
+- [Instance Resiliency](https://about.gitlab.com/direction/software_supply_chain_security/#instance-resiliency)
+- [Insider threat](https://about.gitlab.com/direction/software_supply_chain_security/#insider-threat)
 
 ## Planning
 
@@ -52,7 +52,7 @@ You are encouraged to work as closely as needed with our [stable counterparts](/
 
 Other teams that we might collaborate with include but are not limited to:
 
-- [Govern:Authentication and Authorization](/handbook/engineering/development/sec/software-supply-chain-security/authentication-and-authorization/)
+- [Govern:Authentication and Authorization](/handbook/engineering/development/sec/software-supply-chain-security/authentication/)
 - [Growth:Acquisition and Activation](/handbook/engineering/development/growth/)
 - [Fulfillment:Fulfillment Platform](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 

@@ -5,8 +5,8 @@ description: "The Composition Analysis group at GitLab is charged with developin
 
 ## Composition Analysis
 
-The Composition Analysis group at GitLab is charged with developing solutions which perform [Container Scanning](https://about.gitlab.com/direction/secure/composition-analysis/container-scanning/),
-and [Software Composition Analysis](https://about.gitlab.com/direction/secure/composition-analysis/software-composition-analysis/).
+The Composition Analysis group at GitLab is charged with developing solutions which perform [Container Scanning](https://about.gitlab.com/direction/application_security_testing/composition-analysis/container-scanning/),
+and [Software Composition Analysis](https://about.gitlab.com/direction/application_security_testing/composition-analysis/software-composition-analysis/).
 See [the exhaustive list of projects](#projects) the group maintains.
 
 ## Common Links
@@ -76,13 +76,15 @@ Neither engineer should be allocated to work on Features or critical deliverable
 
 The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/2#schedule) follows the development cycle, which means using the start/end dates from the GitLab [product milestones](/handbook/product/milestones/). When creating the schedule, the Engineering Manager should aim to minimize the number of back-to-back rotations that engineers do.
 
-Please keep track of the actions you're doing during your rotation and add notes in the corresponding issue (e.g. copying tools command executed locally, sharing relevant changes to projects and processes, etc.)
+Please keep track of the actions you're doing during your rotation and add notes in the corresponding issue (e.g. copying tools command executed locally, sharing relevant changes to projects and processes, etc.),
+You can use the [Reaction Rotation issue template](https://gitlab.com/gitlab-org/secure/general/-/blob/master/.gitlab/issue_templates/Reaction%20Rotation%20SCA.md?ref_type=heads) for this purpose.
 
 At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/secure/composition-analysis-dev/reaction-rotation`](https://gitlab.com/groups/gitlab-org/secure/composition-analysis-dev/reaction-rotation/-/group_members?with_inherited_permissions=exclude), and remove the current engineers. This group is used to tag the engineers on rotation without having to look-up the schedule.
 
 #### Responsibilities - Security
 
 1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
+1. Check for `SLA::Breached` issues.
 1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
 1. Check for new security releases of our dependencies and ensure we use them:
    1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner))
@@ -95,13 +97,14 @@ At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/se
 #### Responsibilities - Support
 
 1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
-If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help).
+If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [the Request for Help project](https://gitlab.com/gitlab-com/request-for-help#sec-section).
     - [#g_ast-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
     - [#s_application-security-testing](https://gitlab.slack.com/archives/C8S0HHM44)
     - [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
     - [#s_ast-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
     - [#f_container_scanning](https://gitlab.slack.com/archives/C041F2XJACB)
     - [#g_ast-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ)
+    - [#f_operational_container_scanning](https://gitlab.slack.com/archives/C06KGEYGFDZ)
     - [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
 1. Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?label_name=Help%20group%3A%3Acomposition%20analysis) project for support requests.
 1. Refine scheduled bugs and maintenance issues.
@@ -111,6 +114,7 @@ These items must be triaged continuously throughout the milestone which means th
 #### Responsibilities - Maintainership
 
 1. Work with community contributors to help drive [their merge requests](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=group%3A%3Acomposition%20analysis&label_name[]=Community%20contribution) to completion (more information on [community contributions triaging process](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)).
+1. Run the [License Alias Generator](https://gitlab.com/gitlab-org/security-products/license-db/license-alias-generator/-/tree/main?ref_type=heads) tool to update the list of [known alias](https://gitlab.com/gitlab-org/security-products/license-db/license-processor/-/blob/main/data/aliases.go?ref_type=heads). You can find instructions [here](https://gitlab.com/gitlab-org/security-products/license-db/license-alias-generator/-/tree/main?ref_type=heads#workflow). This action should be performed once during a milestone.
 1. Check for new versions of languages or package managers that we support, or deprecation / removal of support for the same and notify Engineering Manager and Product Manager via issue.
 1. Check for new versions of our dependencies (not related to security):
     1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner)).
@@ -121,11 +125,11 @@ These items must be triaged continuously throughout the milestone which means th
 1. Check latest pipelines for any release failures. If any issue is preventing the automated release process from running, begin the [release failure escalation process](#release-failure-process).
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!).
 1. Monitor failures and errors on license-db project, use the `#f_licese_database` Slack channel for communication about these items, so other team members can provide the support.
-    1. Check latest [scheduled pipelines of license-db](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) for any failures. Ensure that pipelines pass or create an issue to fix the failure.
-    1. Monitor the Slack channel `#g_ast-composition-analysis-alerts` for any incidents on the license-db infrastructure.
+1. Monitor the Slack channel `#g_ast-composition-analysis-alerts` for any incidents on the license-db infrastructure.
         - In case of an incident react with :eye: to indicate that you are looking into it.
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
+1. Monitor the Slack channels `#f_operational_container_scanning` and `#f_container_scanning` for alerts related to Operational Container Scanning (OCS) and Container Scanning.
 
 #### Handover
 
@@ -190,14 +194,23 @@ See the [Application Security Testing sub-department vulnerability management pr
 
 #### Security Policy
 
-We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/sla/), and currently focus on security findings with these severity levels:
-
-- Critical
-- High
-
-An exception is made for `Container scanning` findings - we focus only on findings with `Critical` severity.
+We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/sla/). Start with `Critical` and `High` but also look for issues that are connected to [vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=SLA%3A%3ANear%20Breach&first_page_size=100) and have an `SLA::Near Breach` label. These vulnerabilities might have a lower CVSS score but letting them reach SLA breach will count as 'past due' security issues and affect FedRAMP compliance.
 
 Please utilize all the time you have set aside. If you complete all the ones at Critical and High, please continue to triage - we want to address all findings but we are working in a risk based order.
+
+#### SLA::Breached issues
+
+Sometimes we might have `SLA::Breached` issues that need to be handled ASAP. You can view the number of those issues in the Tableau dashboard. `SLA::Breached` issue may appear for many reasons including:
+
+- A medium or low vulnerability that is not handled because it never got priority. Please notice that a low vulnerability might lead to a `severity::1` issue since it might get its score from different sources.
+- Issues that are never closed even if the relevant vulnerability is resolved or dismissed.
+
+You can search for `SLA::Breached` issues in the issue tracker using the following label filters:
+
+- [Severity 1](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A1&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+- [Severity 2](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A2&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+- [Severity 3](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A3&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
+- [Severity 4](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ABreached&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=severity%3A%3A4&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AWill%20Not%20Be%20Fixed&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Base%20Container%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=Vulnerability%3A%3AVendor%20Package%3A%3AFix%20Unavailable&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AVuln%20Remediated&first_page_size=100)
 
 #### Triaging vulnerabilities
 
@@ -359,7 +372,7 @@ detection, resolution, and any other events that you feel are worth highlighting
 To help our Engineering Manager prioritize maintenance issues, the engineering team assigns them a [priority label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority).
 
 1. Leverage the [Maintenance issues board](https://gitlab.com/groups/gitlab-org/-/boards/7658725?label_name[]=group%3A%3Acomposition%20analysis&label_name[]=type%3A%3Amaintenance).
-1. For each open issue that has no Priority label ("Open" column), shortly investigate the issue (< 1h) and comment with your findings. Make sure the correct sub-category label is applied per our [Work type clasification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) (e.g. `~maintenance::refactor`).
+1. For each open issue that has no Priority label ("Open" column), shortly investigate the issue (< 1h) and comment with your findings. Make sure the correct sub-category label is applied per our [Work type clasification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) (e.g. `~maintenance::refactor`).
 
 ### Code review
 
@@ -398,6 +411,8 @@ Additional notes:
 - [license-interfacer](https://gitlab.com/gitlab-org/security-products/license-db/license-interfacer)
 - [license-processor](https://gitlab.com/gitlab-org/security-products/license-db/license-processor)
 - [schema](https://gitlab.com/gitlab-org/security-products/license-db/schema)
+- [PMDB tools](https://gitlab.com/gitlab-org/security-products/license-db/pmdb-tools)
+- [Static Reachability Modules Scraper](https://gitlab.com/gitlab-org/security-products/license-db/static-reachability-modules-scraper)
 
 ### Operational Container Scanning
 
@@ -497,3 +512,17 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 ## Runbooks
 
 See our [Composition Analysis Runbooks](runbooks/) page.
+
+## Slack alerts
+
+The following table presents the various Gitlab projects that can generate slack alerts. Please notice that this doesn't include alerts generated by Sentry.
+
+| Project            | Target slack channel                                                                         | Additional Info                                                                                                          |
+|--------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| [Gemnasium](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium)          | `#g_ast-composition-analysis-alerts`   |                                                                                                                          |
+| [Deployment](https://gitlab.com/gitlab-org/security-products/license-db/deployment)         | `#g_ast-composition-analysis-alerts`  | Multiple alerts can be generated mainly from scheduled pipelines for exporting or feeding license/advisory/epss/kev data |
+| [Container Scanning](https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning) | `#f_container_scanning` | Failures on default branch                                                                                               |
+| [trivy-k8s-wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper)  | `#f_operational_container_scanning` | Failures on default branch   |
+| [trivy-db-glad](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db-glad)      | `#g_ast-composition-analysis-alerts`  | Failures on default branch |
+| [Dependency Scanning Analyzer](https://gitlab.com/gitlab-org/security-products/analyzers/dependency-scanning)  | `#g_ast-composition-analysis-alerts`  | Failures on default branch |
+| [Dependency Scanning Component](https://gitlab.com/components/dependency-scanning/)  | `#g_ast-composition-analysis-alerts`  | Failures on default branch  |

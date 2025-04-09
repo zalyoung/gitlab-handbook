@@ -19,6 +19,7 @@ However, the sources of truth, in increasing order of priority are:
 | [Email swap](/handbook/support/workflows/account_changes/#account-access-requests) | No | This was an interim solution until [gitlab#416451](https://gitlab.com/gitlab-org/gitlab/-/issues/416451) was completed, and should no longer be required |
 | [Email typo](/handbook/support/workflows/confirmation_emails/#typo-fix) | No | See [gitlab#325525](https://gitlab.com/gitlab-org/gitlab/-/issues/325525) & [gitlab#350498](https://gitlab.com/gitlab-org/gitlab/-/issues/350498) |
 | [Emails not received](/handbook/support/workflows/confirmation_emails/#removing-a-suppression-in-zendesk) | Yes |  |
+| [Email account lost](/handbook/support/workflows/lost_emails) | - | e.g. Unable to receive account verification emails |
 | [Log request](/handbook/support/workflows/log_requests/) | [Only if GitLab initiated](https://about.gitlab.com/support/statement-of-support/#free-users) |  |
 | [Namesquat release](/handbook/support/workflows/namesquatting_policy/) | [No](https://about.gitlab.com/support/gitlab-com-policies/#name-squatting-policy) |  |
 | Trial Cancellation | No | See [customers#3470](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3470) |

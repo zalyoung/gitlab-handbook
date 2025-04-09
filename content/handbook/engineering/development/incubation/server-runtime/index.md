@@ -67,7 +67,7 @@ The most recent weekly update for the Server Runtime SEG can be found at:
 
 ### Overview
 
-![Server Runtime Architecture](/handbook/engineering/development/incubation/server-runtime/architecture.svg)
+![Server Runtime Architecture](/images/engineering/development/incubation/server-runtime/architecture.svg)
 
 Server runtime comprises of GitLab and customer managed components. GitLab manages the server side component called **KAS** and an agent, called **Agentk** runs on the customers' cluster/s.
 The Server Runtime is deployed as a module, on both, the server and the client side. AgentK makes outbound connections to KAS from the customer's k8s cluster to fetch updates. It actuates k8s resources pertinent to the runtime, such as deployment, services et cetera based on these updates. Customer hosting GitLab instances will be responsible for managing KAS while for managed GitLab.com accounts this will be managed by GitLab. GitLab can talk to KAS using a gRPC API which is accessed using the kas-gem.
@@ -146,7 +146,7 @@ Coming soon!
 ## Product Development Group Affinity
 
 - [Editor](/handbook/product/categories/#editor-group)
-- [Workspaces](https://about.gitlab.com/direction/create/remote_development/workspaces)
+- [Workspaces](https://about.gitlab.com/direction/create/remote_development/workspaces/)
 
 ## Getting started with Server Runtime
 

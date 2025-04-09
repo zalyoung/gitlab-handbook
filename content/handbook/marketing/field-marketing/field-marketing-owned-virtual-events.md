@@ -62,7 +62,7 @@ Please note that all Webcasts are considered webcasts with new content, which me
 
 ## Additional Virtual Event Details
 
-For more information on Virtual Event type comparisons, promotion, Zoom capabilities, participant engagement, etc., please visit the [Virtual Events page](/handbook/marketing/virtual-events/). For best practices and instructions on how to set up and run your event using Zoom, please visit the [Self-Service Virtual Events page](handbook/marketing/virtual-events/self-service-virtual-events/).
+For more information on Virtual Event type comparisons, promotion, Zoom capabilities, participant engagement, etc., please visit the [Virtual Events page](/handbook/marketing/virtual-events/). For best practices and instructions on how to set up and run your event using Zoom, please visit the [Self-Service Virtual Events page](/handbook/marketing/virtual-events/self-service-virtual-events/).
 
 ## Closed Captioning
 
@@ -73,7 +73,7 @@ When utiling our Zoom webcast license we can either provide manual captioning, o
 1. Only hosts and panelists can provide closed captioning if manually transcribing.
 1. The Zoom live transcription feature is only available in English at this time. This feature is relatively accurate if the presenters are speaking clearly and background noise is kept to a minimum.
 
-For more details about Zoom closed captioning, please reference [this Zoom article](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription) or submit any questions to the `#it_help` Slack channel.
+For more details about Zoom closed captioning, please reference [this Zoom article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490) or submit any questions to the `#it_help` Slack channel.
 
 ## Zoom > Marketo Integration
 
@@ -111,7 +111,7 @@ The webcast Zoom license can only be used for a single session at a time. This l
 - Naming Convention for Calendar - [WC Dry Run] `Name of Webcast` or [WS Dry Run] `Name of Workshop` and Start-End Time/Time Zone of dry run (example - 9:00am -  10:00am PST)
 - There is no need to add 30 minutes before/after to a dry run event as they generally run 30 minutes and should not take more than 60 minutes.
 - Helpful Hint: If you are having trouble finding 60 minutes where everyone is available, try to at least find a time that everyone is open for the first 30 minutes.
-- FMC to create the invite utilizing the SLA date from the [SLA Workback Schedule](https://docs.google.com/spreadsheets/d/1YXriQ1clvYyBn-TDbbCVvNP6NEbrAF-0w6tIHKhDeZM/edit#gid=1983708280).
+- FMC to create the invite for the week prior to the webcast or workshop, based on a day and time that attendees are available. 
 - The FMC will include webcast/workshop team and FMM listed in the Webcast Dry Run Scheduling issue on calendar invite, as well as the epic link and dry run agenda (linked in epic).
 - FMC will uncheck the setting `Modify Event` and `Invite Others` under `Guest Permissions` so invitees are not able to modify the event or add additional guests.
 - Once the dry run calendar invite is complete, the FMC will also re-visit the main calendar invite for the webcast/workshop and add the additional webcast/workshop team from the Webcast Dry Run Scheduling issue, as well as exchange the issue link for the epic link that should now be created, and add the link for the Dry Run Agenda.
@@ -206,7 +206,7 @@ It's not recommended to have more than a few hosts because it can get a bit conf
    - Click into `Email Settings`
    - Click `Edit` next to `Select Email Language`
    - Select the language you would like to utilize from the drop down list. NOTE: You can also select `Same as the recipient's default language` and the language will be set based on the recipient's Zoom profile, if available. Otherwise, the emails will be sent in the language that the user is viewing the registration page.
-   - For more details, review the Zoom Help Center page [here](https://support.zoom.us/hc/en-us/articles/203686335-Customizing-webinar-email-settings).
+   - For more details, review the Zoom Help Center page [here](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065074).
 
 1. *Optional* **HEADER IMAGE**: If applicable, click on branding and update the header.
 1. *Optional* **POLLING**: If applicable, add polling questions to the webcast or workshop by following the instructions in the video below. You do not need to make the polling question answers anonymous. Canned questions (utilized for webcasts only) are not added to Zoom but can be added to the Day Of Agenda so all presenters/moderators have access.
@@ -432,7 +432,7 @@ Please reach out to your Marketing Ops rep to shut down the landing page, or if 
 
 **Webcasts and Workshops:**
 
-- Once the finalized slide deck has been provided to the FMC by `@lfstucker`, the FMC will follow these [instructions](https://support.apple.com/en-jo/guide/preview/prvw11793/mac#:~:text=Delete%20a%20page%20from%20a,or%20choose%20Edit%20%3E%20Delete) to edit the presentation slides, ensuring the account set-up slides have been deleted.
+- Once the finalized slide deck has been provided to the FMC by `@lfstucker`, the FMC will will make a copy of the slides and follow these [instructions](https://support.apple.com/en-jo/guide/preview/prvw11793/mac#:~:text=Delete%20a%20page%20from%20a,or%20choose%20Edit%20%3E%20Delete) to edit the copy of the presentation slides, ensuring the account set-up slides have been deleted.
 - The FMC to then follow [these instructions](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#uploading-the-presentation-deck) to add the slides as a new piece of content to Pathfactory. Then, the FMC will add the presentation slides to the created Pathfactory track for the workshop.
   - **This is needed as soon as slides are final as Pathfactory track is linked to follow up email.**
 

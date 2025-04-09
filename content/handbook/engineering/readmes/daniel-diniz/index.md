@@ -47,7 +47,7 @@ I'm passionate about life itself. I love learning new things, preferably on a da
 * I am a 'sea' person. I'm the happiest version of myself when on walking distance from a seashore.
 * Two of my best friends are actually not human. I spend dumb amounts of time with my two dogs, Kiss and Ravi:
 
-![Kiss and Ravi](img/kiss-and-ravi.jpg "Kiss and Ravi")
+![Kiss and Ravi](/images/engineering/readmes/daniel-diniz/kiss-and-ravi.jpg "Kiss and Ravi")
 
 ## Things I don't care about you
 

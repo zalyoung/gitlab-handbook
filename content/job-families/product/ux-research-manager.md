@@ -67,7 +67,7 @@ The Manager, UX Research is a [grade 8](/handbook/total-rewards/compensation/com
 > ### Presentation Topics
 >
 > 1. An introduction: who you are, where you're based, your background, and why you're a UX Research Manager.
-> 1. An overview of two case studies. 
+> 1. An overview of two case studies.
     <br> - One (1) should be an overview of a high-impact individual project. We want to understand how you approached the research questions, how you synthesized research data to inform product and design decisions, the challenges you faced along the way, and the impact your research had.<br>
     - The second (2) should be something related to your people management experiences. We want to understand your management style & why you decided to become a people manager. We'd also like to understand the details of a project you've led as a Manager. This could be a story on how you overcame some kind of challenge, a process you introduced that had a lot of impact, or how you coached an employee to success. We want to understand: the size, discipline make-up, and structure of the team you were a part of; the goals of the project; what you personally did on the project, the challenges you faced throughout the project; and the meaningful business impact that the research resulted in.
 >
@@ -81,7 +81,7 @@ The Manager, UX Research is a [grade 8](/handbook/total-rewards/compensation/com
 >
 > - Unsure on where to get started? Check out our [handbook page on recording a presentation in Zoom](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom). A free Zoom account is all you'd need to complete this presentation.
 > - Interested in the type of work our UX team does? Check out our [UX Forum on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
-> - We work with a [low level of shame](/handbook/values/#low-level-of-shame) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
+> - We work with a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
 > - Other questions? Want the Recruiter to review your presentation before the review from the Hiring Manager? Don't hesitate to get in touch with the Recruiter who conducted your screening call.
 
 #### The following steps would be scheduled after a successful review of your case studies
@@ -165,7 +165,7 @@ Our interview process for this role is slightly longer than usual as it is a hig
 >
 > - Unsure on where to get started? Check out our [handbook page on recording a presentation in Zoom](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom). A free Zoom account is all you'd need to complete this presentation.
 > - Interested in the type of work our UX team does? Check out our [UX Forum on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
-> - We work with a [low level of shame](/handbook/values/#low-level-of-shame) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
+> - We work with a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
 > - Other questions? Want the Recruiter to review your presentation before the review from the Hiring Manager? Don't hesitate to get in touch with the Recruiter who conducted your screening call.
 
 We will schedule the next stages if the recording indicates your past experiences will lead to your success in a role at GitLab.

@@ -5,7 +5,7 @@ creation-date: "2024-02-06"
 authors: [ "@alexander-sosna" ]
 coach: [ "@andrewn" ]
 approvers: [  ]
-owning-stage: "~devops::data_stores"
+owning-stage: "~devops::data_access"
 participating-stages: []
 toc_hide: true
 ---
@@ -161,7 +161,7 @@ TODO: Define performance requirements and check with different steak holders. Di
 #### Decomposition
 
 The application data for [GitLab.com](https://gitlab.com/) is currently decomposed into two separate database clusters, `Main` and `CI`.
-We are evaluating if we can further decompose the `Main` database with [decomposing `Secure and Govern` related tables to a separate Postgres DB](https://gitlab.com/gitlab-org/gitlab/-/issues/427973) to gain more headroom and scalability for the current platform.
+We are evaluating if we can further decompose the `Main` database with [decomposing `Secure- and Software Supply Chain Security-related tables to a separate Postgres DB](https://gitlab.com/gitlab-org/gitlab/-/issues/427973) to gain more headroom and scalability for the current platform.
 
 For Cells it is a design choice to scale horizontally by adding more Cells and to rebalance by moving organizations to less saturated cells.
 Cells should not be scaled vertically to a point where decomposition is reasonable.
@@ -213,11 +213,57 @@ Most of the information above can be found in the official [Cloud SQL documentat
 
 #### Things to validate
 
-- Could we use the offered [logical replication feature](https://cloud.google.com/sql/docs/postgres/replication/configure-external-replica) ([pglogical](https://github.com/2ndQuadrant/pglogical)) for our migration needs? - estimate 2-4 weeks
-- Can we access WAL and base_backups, as it appears in the [pitr documentation](https://cloud.google.com/sql/docs/postgres/backup-recovery/pitr#log-storage-for-pitr), in contrast to our meeting, where GCP denied it. - estimate < 1 week
-- How long does a major upgrade take for our 50k reference architecture? - estimate 4-5 weeks
-- Is [Query Insights](https://cloud.google.com/sql/docs/postgres/using-query-insights) a sufficient replacement for the current observability tooling.
-- How long does it take to create a read-replica? How long does it take to create a new cluster from backup? `10GB`, `100GB`, `1TB` - estimate 1 week
+Dividing the scope based on the Cells iterations https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/#cells-iterations
+
+##### Cells 1.0 (Initial Scope)
+
+(Focus: Foundational validation and integration tasks for the Cells 1.0 release)
+
+The target of Cells [Cells 1.0] (../iterations/cells-1.0.md) is to deliver a solution for internal customers using the SaaS GitLab.com offering, and foundational work for Cells.
+
+- Evaluate and integrate CloudSQL's database observability and automated telemetry collection tools into GitLab's observability suite.
+  - Is [Query Insights](https://cloud.google.com/sql/docs/postgres/using-query-insights) a sufficient replacement for the current observability tooling?
+  - We need to validate how to export [Cloud SQL metrics](https://cloud.google.com/sql/docs/postgres/admin-api/metrics) and [Cloud SQL System insights](https://cloud.google.com/sql/docs/postgres/use-system-insights) into our Monitoring tools
+  - How to integrate [CloudSQL query insights](https://cloud.google.com/sql/docs/postgres/using-query-insights) into our Monitoring tools?
+  - How to export PostgreSQL logs into Elastic?
+- Validate CloudSQL's backup and recovery strategies, including Point-in-Time Recovery (PITR), and review the [the high availability (HA) configuration for CloudSQL](https://cloud.google.com/sql/docs/postgres/high-availability) to minimize downtime during a zonal outage or hardware failure.
+- [Configure and validate SSL/TLS certificates](https://cloud.google.com/sql/docs/postgres/configure-ssl-instance) to ensure PostgreSQL connections are encrypted.
+- Auto-storage-increase behavior – Trigger multiple sequential storage increases and observe any "cool-off" period between increases, operational delays, or performance degradation.
+- Instance scaling downtime – Measure downtime when scaling up/down with and without HA enabled.
+- Minor version upgrade impact – Validate the downtime experienced during minor version upgrades with and without HA.
+
+##### Cells 1.5 (Future Considerations & Enhancements)
+
+(Focus: Features and validations for later iterations)
+
+The target of [Cells 1.5](../iterations/cells-1.5.md) is to deliver a migration solution for existing and new enterprise customers using the SaaS GitLab.com offering, built on top of the Cells 1.0 architecture.
+
+- Validate a connection pooling solution for both Write and Read-Only workloads:
+  - PgBouncer on VMs
+  - [CloudSQL Manage database connections] (https://cloud.google.com/sql/docs/postgres/manage-connections) / [Managed Connection Pooling (MCP)](https://www.youtube.com/watch?v=rGI3hIBl2s0). It only offers limited functionality compared to self-managed PgBouncers.  
+- Evaluate [CloudSQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy)
+- Compare database migration options:
+  - Native logical replication - [logical replication feature](https://cloud.google.com/sql/docs/postgres/replication/configure-external-replica) ([pglogical](https://github.com/2ndQuadrant/pglogical))
+  - [CloudSQL Database Migration Services](https://cloud.google.com/database-migration)
+  - Also, evaluate options to migrate data out of CloudSQL.
+- Evaluate time and impact of PostgreSQL major version upgrades in a 50k reference architecture.
+  - CloudSQL does not have a direct equivalent to AWS RDS Blue/Green deployments, so solutions must be engineered in-house.
+- How long does it take to create a read-replica, or a new cluster from a backup? `10GB`, `100GB`, `1TB`, `2TB`?
+- Evaluate disaster recovery options, including delayed replicas.
+- Performance impact of storage increase – Measure query performance before and after a manual storage increase.
+- High-load stress testing – Load large datasets and measure how CloudSQL handles sustained write-heavy operations.
+
+##### Evaluate Changes Over the Dedicated Deployment
+
+- Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping. 
+- Evaluate offloading read operations to Standby Replicas.
+- Evaluate "Enable auto minor version upgrade".
+- Assess performance improvements with the "Dedicated Log Volume.".
+- Increase logging levels to capture slow queries, temp usage, autovacuum, lock waits, connections/disconnections, and DDL statements.
+- Configure `pg_stat_statements` settings.
+- Load and Configure `auto_explain`.
+- Implement "logical backup" solution.
+- Review [Cloud Monitoring](https://cloud.google.com/monitoring) and (Alerting](https://cloud.google.com/monitoring/alerts).
 
 ### k8s Operator
 
@@ -235,7 +281,7 @@ Currently, we maintain our own automation for this as well and could adapt it un
 | No product lock-in          | We are not locked in to one product we can not leave in the future.                                                                                                                                              | medium                |
 | Debugging capability        | Compared to any SaaS offering we do not rely on a vendor to be willing and able to debug our problems in a timely manner.                                                                                        | high                  |
 | Good integration with Cells | Compared to other self-hosted solutions, the database will run in the same k8s cluster as the rest of the workloads. This removes the need to integrate external components as well as multiple failure vectors. | medium                |
-| Near Zero Downtime Upgrade | We can adapt Gitlab's ([db-migration/pg-upgrade-logical](https://gitlab.com/gitlab-com/gl-infra/db-migration#zero-downtime-postgresql-upgrades) Automation to achieve near-zero downtime for PostgreSQL MVU over k8s | high / blocker            | 
+| Near Zero Downtime Upgrade | We can adapt Gitlab's ([db-migration/pg-upgrade-logical](https://gitlab.com/gitlab-com/gl-infra/db-migration#zero-downtime-postgresql-upgrades) Automation to achieve near-zero downtime for PostgreSQL MVU over k8s | high / blocker            |
 
 | Cons / Risks     | Description                                                                                                                  | Priority |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -250,7 +296,7 @@ Currently, we maintain our own automation for this as well and could adapt it un
 
 ### Amazon RDS PostgreSQL
 
-[Amazon Relational Database Services PostgreSQL](https://aws.amazon.com/rds/postgresql/) is AWS's managed database service offering fully compatible with PostgreSQL community version. In fact, Amazon only packs and deploys the PostgreSQL community binaries into the [RDS instance underlying infrastructure](https://aws.amazon.com/blogs/database/amazon-rds-multi-az-with-two-readable-standbys-under-the-hood/). 
+[Amazon Relational Database Services PostgreSQL](https://aws.amazon.com/rds/postgresql/) is AWS's managed database service offering fully compatible with PostgreSQL community version. In fact, Amazon only packs and deploys the PostgreSQL community binaries into the [RDS instance underlying infrastructure](https://aws.amazon.com/blogs/database/amazon-rds-multi-az-with-two-readable-standbys-under-the-hood/).
 GitLab currently recognizes Amazon RDS PostgreSQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/ee/administration/reference_architectures/#recommended-cloud-providers-and-services).
 
 | Pro                                  | Description                                                                                                                                                                                                                                                                                                                                                                               | Priority / Importance |
@@ -289,7 +335,7 @@ GitLab currently recognizes Amazon RDS PostgreSQL as a [supported PostgreSQL imp
 - Evaluate time and impact of Major Version Upgrades 50k reference architecture?
   - Also evaluate Blue/Green deployments
 - How long does it take to create a read-replica, or a new cluster from a backup? `10GB`, `100GB`, `1TB`
-- How long is the database service downtime with Blue/Green major version upgrade method? 
+- How long is the database service downtime with Blue/Green major version upgrade method?
   - We should also test if pgbouncer or RDS Proxy can hold requests to alleviate the impact during a Blue/Green deployment.
 
 ##### Evaluate changes over current Dedicated-RDS deployment

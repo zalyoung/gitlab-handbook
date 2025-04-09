@@ -10,33 +10,34 @@ This page details processes and general guidelines specific to the Executive Bus
 
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
-| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA<br>**Carla Sylva**<br>Sr EBA  | Sid Sijbrandij (CEO) |
-| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Carla Sylva**<br>Sr EBA  | Stella Treas (Chief of Staff) |
-| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
-| [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Mek Stittri (VP of Infrastructure & Quality)<br>Tim Zallmann (Sr. Director of Engineering, Core Development) |
+| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA | Bill Staples (CEO) |
+| [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | TBC | Stella Treas (Chief of Staff) |
+| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) <br>Johnny Scarborough (VP Support) |
+| [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Marin Jankovski (Sr. Director of Infrastructure)<br>Tim Zallmann (VP of Engineering, Core Development)<br>Michael Wildpaner (VP Engineering) |
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
 | [Finance](/handbook/finance/) | **Sarah Hobbs**<br>EBA | Simon Mundy (VP Controller)<br>Julie Malloy (VP Accounting Operations)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
-| [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations)<br>Wendy Barnes (CPO) - interim support |
+| [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations) |
 | [Legal & Corporate Affairs](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
 | [Legal & Corporate Affairs](/handbook/legal/)  | **Lauren Lopez**<br>EBA  |Craig Patrick (Chief of Staff, CLO & Head of Corporate Affairs)<br> Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (VP of Legal - Corporate & Compliance)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
 | [Marketing](/handbook/marketing/)| **Kato Faylor**<br> Staff EBA | Ashley Kramer (CMSO) |
 | [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Billy Stallings (Sr. Director Digital Marketing)<br> Jean-Baptiste Larramendy (VP of Sales Development)<br>Laura Fagan (Sr. Chief of Staff, CMSO) |
-| [Marketing](/handbook/marketing/)| **Erin Talanda**<br>EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics)<br> Amie Bright (VP of Data & Insights) |
-| [People](/handbook/people-group/) | **OPEN**<br>EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
+| [Marketing](/handbook/marketing/)| **Erin Talanda**<br>Sr EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics)<br> Amie Bright (VP of Data & Insights) |
+| [People](/handbook/people-group/) | **Annette Ramirez**<br> Sr EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) |
-| [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (VP of Product Management)<br>Angela Pesta (VP UX)|
-| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
+| [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA | Justin Farris (VP of Product Management)|
+| [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Angela Pesta (VP UX)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
 | [Sales](/handbook/sales/) | TBC | Ashley Kramer (Interim CRO) <br> (temporary support) Brian Wald (Sr. Director, Global Field CRO Org) |
-| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
+| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
+| [Sales](/handbook/sales/) | **Carla Sylva**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
-| [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Nick Cayou (VP of WW Channels & Alliances) |
-| [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of Public Sector Sales) <br> Darren Moffett (VP of AMER Sales) |
+| [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Nick Cayou (VP of WW Channels & Alliances) |
+| [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of AMER Sales) |
 | [Sales](/handbook/sales/) | **Oana Migeon**<br>EBA | Michel Isnard (VP of EMEA Sales) |
-| [Security](/handbook/security/) | **Marisa Carlson**<br>Sr EBA  | Josh Lemos (CISO) <br> Julie Davila (VP of Product Security)  |
+| [Security](/handbook/security/) | **Marisa Carlson**<br>Staff EBA  | Josh Lemos (CISO) <br> Julie Davila (VP of Product Security)  |
 
 ## Contact us
 
-Please feel free to ping/hang out with us in slack at #eba-team. If you need to quickly communicate with the entire team please @ mention exec-admins in slack. For requests for Sid, please tag @ceoeba.
+Please feel free to ping/hang out with us in slack at #eba-team. If you need to quickly communicate with the entire team please @ mention exec-admins in slack. For requests for the CEO, please tag @ceoeba.
 
 ## Meeting request requirements
 
@@ -110,7 +111,7 @@ The process outlined below should be followed for requesting interviews with any
 - LIVESTREAM for livestreams
   - When a meeting is being live-streamed to YouTube add Public Stream or Private Stream in the subject and body of the calendar invite to indicate which live stream
 - 1:1 for one-on-ones with direct reports
-  - Example: "1:1 Jane Doe & Sid"
+  - Example: "1:1 Jane Doe & John"
 - "Skip Level" should be in the title of skip level meetings
 - Flight travel should include "flight" in the title
 - Ground transportation is indicated by "Uber", "Ground Transportation", or "Car service" in the title
@@ -167,7 +168,7 @@ Please remember to reach out to the EBA of the executive you need to schedule fo
 1. Plan to join the meeting on time. We start on time and do not wait for folks to join.
    - As most of our meetings are conducted over zoom, please join with your camera on and with a headset or dedicated microphone whenever possible
 1. The meeting may be recorded or live streamed to GitLab Unfiltered on YouTube, please determine in advance if the meeting should be live streamed or recorded
-1. [Hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-horrible) - remote meetings should have participants taking the meeting from their own equipment versus a shared conference room, shared device, etc.
+1. [Hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-annoying) - remote meetings should have participants taking the meeting from their own equipment versus a shared conference room, shared device, etc.
 1. If you need to reschedule, contact the EBA team in #eba-team in slack versus contacting the E-Group directly
 
 ### During the meeting
@@ -175,7 +176,7 @@ Please remember to reach out to the EBA of the executive you need to schedule fo
 1. The Host should start the meeting on time, if the Host is late, the participants should feel empowered to start the meeting on time
 1. We start in order of the agenda, with the person who has the first point in the numbered list
    - Unless it is a 1-1 meeting or some working group meetings, then we'd start at the bottom and work our way up
-1. If you're not actively speaking please help take notes. We prefer to [document everything live.](/handbook/company/culture/all-remote/meetings/#document-everything-live-yes-everything)]
+1. If you're not actively speaking please help take notes. We prefer to [document everything live.](/handbook/company/culture/all-remote/meetings/#5-document-everything-live-yes-everything)]
 1. If something is not on the agenda, we do not discuss it. However, participants can add topics during the meeting if time permits
 1. If you're not benefitting or contributing to the meeting, it is okay to leave the meeting
 1. Speak up if something is not working, i.e. a webcam is causing issues, a speakers volume is too low, there is latency.
@@ -217,7 +218,7 @@ To view members of Google Groups, reference the [Google Workspace group member r
 
 ## OKRs
 
-- EBA to the CEO to assist in maintaining and scheduling meetings revolving around the [OKR updating process](/handbook/company/okrs/#updating).
+- EBA to the CEO to assist in maintaining and scheduling meetings revolving around the [OKR updating process](/handbook/company/okrs/).
 
 ## Performance Indicators (PI)
 

@@ -27,7 +27,7 @@ In cases where our counterparts have differing opinions, we consider their persp
 
 ### Design Principles and Tools
 
-Our [design principles](https://design.gitlab.com/get-started/principles) are outlined in the Pajamas Design System.
+Our [design principles](https://design.gitlab.com/get-started/principles/) are outlined in the Pajamas Design System.
 
 Product Designer Tools
 
@@ -61,7 +61,7 @@ New GitLab Product Designers should refer to the [Product Designer Workflow hand
 
 ## Learning and Development
 
-Our continuous learning initiatives are documented in the [UX Department Learning and Development](handbook/ux/learning-and-development/) section.
+Our continuous learning initiatives are documented in the [UX Department Learning and Development](/handbook/product/ux/learning-and-development/) section.
 
 ## Cross-functional Initiatives
 
@@ -76,7 +76,7 @@ Key Elements:
 - **Work in MRs, not issues:** Direct changes are made through Merge Requests (MRs), with comprehensive documentation and explanations.
 - **Length of rotation:** Pairings last 1-3 milestones, depending on what the pairing believes is appropriate. Multiple pairs can be working simultaneously on Beautifying our UI.
 - **Prioritization:** Participants coordinate with their managers to balance their involvement with regular responsiblities.
-- **Documentation:** All changes must be documentated, adhering to the [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), and involving [relevant Technical Writers](/handbook/product/ux/technical-writing/#assignments).
+- **Documentation:** All changes must be documentated, adhering to the [Definition of Done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done), and involving [relevant Technical Writers](/handbook/product/ux/technical-writing/#assignments).
 
 #### Volunteering and Participation
 

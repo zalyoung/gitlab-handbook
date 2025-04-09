@@ -9,17 +9,25 @@ Whether you want to upskill with new certifications, attend industry conferences
 
 The Growth and Development (G&D) fund is managed by the [Talent Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
+If you've never used the Growth & Development Fund before, check out the short instructional course in [Level Up](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/growth-and-development-explainer) to get a bitesize overview.
+
 ## Eligibility
 
 To use the Growth and Development fund, applicants must be full-time GitLab employees who meet performance expectations in their role and are not on ‘leave’ status.
 
 ## Process
 
-Here is a step by step guide on how to apply for G&D applications:
+Here is a step by step guide on how to apply for G&D applications.
+
+If it's your first time 
+
+We've created a comprehensive guide on Level Up that walks you through the G&D process, complete with video tutorials and step-by-step examples. Check out the [Growth & Development Explainer](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/growth-and-development-explainer) course.
 
 ### Step 1 - Growth Conversation
 
 Start by having a [growth conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to talk through the timing, workload, and application timeline of the program to ensure coverage for your team. This conversation should allow time for you to apply for the program before it begins and allow your manager to ensure team capacity.
+
+[G&D Select](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/pages/gd-select) is a directory of opportunities of recommended opportunities from GitLab team members.
 
 <details>
 <summary>Manager Guidance: Growth Conversations & Recommending Opportunities </summary>
@@ -71,7 +79,7 @@ Cost Tiers Approval:
   - The G&D Fund should be used to pay for conference registration, tickets, etc.
   - The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
 
-- These two costs should still be detailed in the Growth and Development request issue, ghey just need to be expensed separately.
+- These two costs should still be detailed in the Growth and Development request issue, they just need to be expensed separately.
 
 - There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accommodation costs. When approving a team members’ G&D request, managers should feel confident they have the approval of their [budget owner](https://docs.google.com/spreadsheets/d/1JDgoKl2HaHY5iMhJeu8ENqQzOJB8lHL0-oeO0UUieDU/edit?gid=617408906#gid=617408906). VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
 
@@ -194,13 +202,21 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 
 **Reimbursement Requirements:** A final grade report or satisfactory certificate of completion are required to receive reimbursements.
 
+#### Programming Books
+
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
+
+**Description:** Books related to programming, software development, and technical skills that support your career development at GitLab can be reimbursed through the G&D Fund. This is separate from GitLab's [general book reimbursement benefit](/handbook/finance/expenses/#books-audioe-books-included) and requires manager approval as part of the G&D process. Books should align with your growth goals and development plan discussed with your manager.
+
+**Reimbursement Requirements:** Submit proof of purchase (receipt) through Navan using the Expense type `G&D (Growth and Development)`. Include a link to your approved G&D issue in the expense description.
+
 ### Coaching
 
-Please note, using G&D for coaching is only available for managers and leaders grade 8+. Team members job grade 4-7 can receive external coaching from [Modern Health](handbook/total-rewards/benefits/modern-health/#how-can-modern-health-support-my-career-goals).
+Please note, using G&D for coaching is only available for managers and leaders grade 8+. Team members job grade 4-7 can receive external coaching from [Modern Health](/handbook/total-rewards/benefits/modern-health/#how-can-modern-health-support-my-career-goals).
 
 #### Coaching Right Now
 
-**Description:** Professional coaching is available for managers and leaders job grade 8+ to support development in their professional area of interest. Team members job grade 4-7 can receive external coaching from [Modern Health]({{< ref "modern-health" >}}) and internal coaching from our [internal resources]({{< ref "coaching" >}}). Team members are expected to know their confidentiality obligations and are responsible for keeping coaching conversations [SAFE](/handbook/legal/safe-framework/).
+**Description:** Professional coaching is available for managers and leaders job grade 8+ to support development in their professional area of interest. Team members job grade 4-7 can receive external coaching from [Modern Health](/handbook/total-rewards/benefits/modern-health/) and internal coaching from our [internal resources](/handbook/leadership/coaching/). Team members are expected to know their confidentiality obligations and are responsible for keeping coaching conversations [SAFE](/handbook/legal/safe-framework/).
 
 Our partnership with  [Coaching Right Now](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?usp=sharing&ouid=113211236094818760555&rtpof=true&sd=true) connects team members with GitLab-vetted coaches - [read their coaching bios here](https://drive.google.com/file/d/1_5q7aq4diWsXq0O9csQF40skZV4f_L_L/view?usp=drive_link). Team members can book 4, 6, or 8hrs of coaching. Availability is first come, first served. Pairing with a coach via Coaching Right Now saves time and energy looking for a coach that is aligned to GitLab values and way of working.
 
@@ -244,7 +260,7 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 
 **Description:** Your 4th Trimester is a 90-day coaching program with Broad Perspective Consulting. The purpose of the program is to help parents (regardless of gender) be as prepared as possible to be a working parent through coaching and development. The cost of this program is $2,300 USD.
 
-For Your 4th Trimester applications, please notify Talent Development that you would like to participate in the program by sending an email to growth-development@gitlab.com.
+For Your 4th Trimester applications, please open up an issue using the Other G&D types template, then assign to @jallen16 and to your manager for approval. VP approval isn't required for this engagement. Once approval is confirmed you'll be put in touch with our Y4T coach via email.
 
 **Reimbursement Requirements:** Team members leaving for or returning from Parental Leave. The provider will invoice GitLab directly.
 
@@ -294,7 +310,7 @@ If your G&D opportunity is across more than 1 year, you can distribute the costs
 
 ## Tax Implications
 
-In some countries, the Growth and Development Fund may be considered as taxable income and can be (partially) exempted from personal income taxes or subject to employer withholding taxes. Check [the tax table]({{< ref "tax" >}}) for any tax implications in your country.
+In some countries, the Growth and Development Fund may be considered as taxable income and can be (partially) exempted from personal income taxes or subject to employer withholding taxes. Check [the tax table](/handbook/people-group/learning-and-development/growth-and-development/tax/) for any tax implications in your country.
 
 For example, in the United States 2021 tax year, if GitLab pays over [$5,250 for educational benefits for you during the year, you must generally pay tax on the amount over $5,250](https://www.irs.gov/newsroom/tax-benefits-for-education-information-center). GitLab should include in your wages (Form W-2, box 1) the amount over $5,250 in income.
 

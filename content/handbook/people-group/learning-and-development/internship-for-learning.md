@@ -21,7 +21,7 @@ Each manager needs to manage the capacity of their team appropriately. If all of
 
 **Can I join a team where I have no experience or skills in that area?**
 
-That's up to the managers involved. It may be that the first step is to spend some time without producing anything in particular - in which case, it's possible that the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) may be a better fit (or it might not.)
+That's up to the managers involved. It may be that the first step is to spend some time without producing anything in particular - in which case, it's possible that the [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-fund) may be a better fit (or it might not.)
 
 **How long does an internship of this nature last?**
 
@@ -33,14 +33,14 @@ First step is to discuss this with your manager at your next 1:1. Come prepared 
 
 **How do I find a mentor?**
 
-On the [team page](https://about.gitlab.com/company/team/), you can see who is willing to be a mentor by looking at the associated [expertise]({{< ref "structure#expert" >}}) on their entry.
+On the [team page](https://about.gitlab.com/company/team/), you can see who is willing to be a mentor by looking at the associated [expertise](/handbook/company/structure/#expert) on their entry.
 
 **Does completing an internship guarantee me a role on the team?**
 
 Completing an internship through this program does not guarantee an internal transfer. For example, there may not be enough
 allocated headcount in the time-frame in which you complete your internship.
 
-If at the end of your internship, you are interested in transferring teams please follow the guidelines in [Internal Department Transfers]({{< ref "promotions-transfers#internal-department-transfers" >}}).
+If at the end of your internship, you are interested in transferring teams please follow the guidelines in [Internal Department Transfers](/handbook/people-group/promotions-transfers/#internal-department-transfers).
 
 ## Starting Your New Internship
 
@@ -52,4 +52,4 @@ Once you've agreed upon the internship goals, both managers should inform their 
 
 ## Recommendations
 
-We recommend that, at any given time, each [team]({{< ref "structure#team-and-team-members" >}}) is handling only one intern. This is to allow for an efficient and focused mentorship without impacting the capacity of the team. You can, of course, adjust this depending on the size of the team but please consider the impact of mentoring when scheduling internships.
+We recommend that, at any given time, each [team](/handbook/company/structure/) is handling only one intern. This is to allow for an efficient and focused mentorship without impacting the capacity of the team. You can, of course, adjust this depending on the size of the team but please consider the impact of mentoring when scheduling internships.

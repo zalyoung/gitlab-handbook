@@ -7,7 +7,7 @@ subcategory: Upgrade Assistance
 
 ### Overview
 
-As a part of our [Priority Support](https://about.gitlab.com/support/index.html#priority-support),
+As a part of our [Priority Support](https://about.gitlab.com/support/#priority-support),
 GitLab Support offers [Upgrade Assistance](https://about.gitlab.com/support/scheduling-upgrade-assistance/).
 That is, we'll review upgrade and rollback plans, providing feedback and
 suggestions to the customer to help ensure a smooth upgrade. Customers may also
@@ -18,7 +18,7 @@ In addition to the upgrade assistance, it is important for GitLab Support to ens
 the customer's plan for the upgrade is accurate and fully supported by GitLab in
 advance of the production upgrade.
 
-If the customer has not provided a plan, or it lacks the detail we need to support them in their upgrade, feel free to ask for a plan. We have [guidance to assist customers in planning their upgrade](https://docs.gitlab.com/ee/update/plan_your_upgrade.html).
+If the customer has not provided a plan, or it lacks the detail we need to support them in their upgrade, feel free to ask for a plan. We have [guidance to assist customers in planning their upgrade](https://docs.gitlab.com/update/plan_your_upgrade/).
 
 #### Initiating The Process
 

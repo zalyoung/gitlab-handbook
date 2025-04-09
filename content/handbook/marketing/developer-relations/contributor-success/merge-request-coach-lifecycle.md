@@ -9,7 +9,7 @@ title: "Merge Request Coach Lifecycle"
 - Assign the issue to yourself.
 - Work through the steps in that new issue.
 
-![new issue dialog showing how to select the mr_coach_onboarding issue template](new_mr_coach_onboarding_issue.png)
+![new issue dialog showing how to select the mr_coach_onboarding issue template](/images/marketing/developer-relations/contributor-success/new_mr_coach_onboarding_issue.png)
 
 ## Stepping down gracefully
 

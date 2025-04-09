@@ -1,5 +1,0 @@
-# This file excludes certain links from hugolint.
-# It uses the gitignore syntax.
-
-# The team page uses the `{{< team >}}` shortcode, so most anchors cannot be found by hugolint.
-/handbook/company/team

@@ -107,7 +107,7 @@ Gainsight scoring framework:
 - Yellow: 50-74 points
 - Red: 0-49 points
 
-[Link to Gainsight Calculation of Measure Group Scores and Overall Score](https://support.gainsight.com/Gainsight_NXT/05Scorecards/02Admin_Guides/Calculation_of_Group_Scores_and_Overall_Scores)
+[Link to Gainsight Calculation of Measure Group Scores and Overall Score](https://support.gainsight.com/gainsight_nxt/05Scorecards/02Admin_Guides/Calculation_of_Group_Scores_and_Overall_Scores)
 
 Calculation: ((Score *Weight) + (Score* Weight)... / (Max Potential Score * Weight)
 

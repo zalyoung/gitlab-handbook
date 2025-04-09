@@ -26,10 +26,10 @@ Various verticals and industries face specific challenges as they address their 
  | **New technology (business disruption / digital transformation)** | This will demand rapid and responsive design, development and iteration from the software teams building the transportation as a service platform and infrastructure.   GitLab and concurrent DevOps can help teams to dramatically decrease cycle times to ship software. |
 
 - [8 challenges for Financial Svcs CIOs](https://www.cio.com/article/236264/8-challenges-that-keep-financial-services-ctos-and-cios-up-at-night.html)
-- [Top Finanical Svcs Issues (PWC)](https://www.pwc.com/us/en/industries/financial-services/research-institute/top-issues.html)
+- [Top Finanical Svcs Issues (PWC)](https://www.pwc.com/us/en/industries/financial-services/library.html)
 - [FSI Top Issues 2018 (PWC PDF)](https://www.pwc.com/us/en/financial-services/research-institute/assets/pwc-fsi-top-issues-2018.pdf)
 - [Fin Svcs Insights - Protiviti](https://web.archive.org/web/20201128023006/https://www.protiviti.com/sites/default/files/united_states/insights/fs-insights-v4-i3-protiviti.pdf)
-- [Financial Services Regulatory Compliance](https://about.gitlab.com/solutions/financial-services-regulatory-compliance/)
+- [Financial Services Regulatory Compliance](https://about.gitlab.com/solutions/finance/)
 - [PCI Compliance](https://about.gitlab.com/compliance/pci-compliance/)
 
 ### Automotive
@@ -54,10 +54,10 @@ Various verticals and industries face specific challenges as they address their 
 
 - [PWC - Health Industry Issues](https://www.pwc.com/gx/en/industries/healthcare/top-health-industry-issues.html)
 - [PWC - Top Issues 2018](https://www.pwc.com/us/en/health-industries/assets/pwc-health-research-institute-top-health-industry-issues-of-2018-report.pdf)
-- [3 challenges for healthcare IT](https://www.healthdatamanagement.com/opinion/how-3-major-challenges-will-shape-healthcare-it-in-2018)
+- [3 challenges for healthcare IT](https://www.healthdatamanagement.com/articles/how-3-major-challenges-will-shape-healthcare-it-in-2018)
 - [Four IT Challenges for healthcare in 2018](https://thedoctorweighsin.com/four-it-challenges-facing-healthcare-organizations-in-2018/)
 - [Top IT issues in 2018](https://web.archive.org/web/20200606205436/https://www.advisory.com/research/health-care-it-advisor/it-forefront/2018/01/top-it-2018)
-- [How GitLab can help HIPAA compliance](https://about.gitlab.com/solutions/hipaa-compliance/)
+- [How GitLab can help HIPAA compliance](https://docs.gitlab.com/ee/administration/compliance.html)
 
 ### Oil & gas/energy
 

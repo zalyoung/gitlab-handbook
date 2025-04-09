@@ -11,7 +11,7 @@ of [Phase 4](https://gitlab.com/groups/gitlab-org/-/epics/14510).
 
 ## Purpose
 
-GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/ee/security/token_overview.html).
+GitLab uses machine-generated tokens extensively to provide various ways for Users/Services to interact with GitLab, for example, the [REST API Authentication](https://docs.gitlab.com/ee/api/rest/#authentication) and the [Token Overview](https://docs.gitlab.com/ee/security/tokens/index.html).
 Tokens have different scopes as for example User, [project](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html), and [group](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html)
 
 [HTTP Routing Service](http_routing_service.md) require the tokens to be routable,
@@ -102,7 +102,7 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
   - An exception should be raised if `<routing-payload>` is smaller than 3 bytes.
 - Maximum size of `<routing-payload>` is 159 bytes: `'c:3w5e11264sgsf'.size * 10 + (10 - 1)` (see [Maximum token length](#maximum-token-length)).
   - An exception should be raised if `<routing-payload>` is bigger than 159 bytes.
-- Valid routing part keys are currently `c`, `g`, `o`, `p`, `u`. Any other keys should raise an exception.
+- Valid routing part keys are currently `c`, `g`, `o`, `p`, `u`, `t`. Any other keys should raise an exception.
 - Minimum number of random bytes is 16.
   - This is arbitrary to ensure a high entropy.
 - Maximum number of random bytes is 65: `(maximum bytes before encoding) - (max size of <routing-payload>) - (size of <random-bytes-length>) = 225 - 159 - 1 = 65`
@@ -237,6 +237,7 @@ The following fields are optional. Each specific tokens can include them if need
 - `g`: Group ID
 - `p`: Project ID
 - `u`: User ID
+- `t`: Runner type (e.g., `t:1` for instance type, `t:2` for group type, and `t:3` for project type)
 
 It's recommended that for tracing and observing purpose, we can include the
 most important information for the specific token. For example, for a user

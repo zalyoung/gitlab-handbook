@@ -11,7 +11,7 @@ This page outlines detailed guidelines for different ways of reviewing merge req
 
 There are several methods for you to review, test, and contribute changes to the app, user documentation, Pajamas, GitLab UI or company handbook.
 
-We [encourage MR authors to add screenshots or videos](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html)
+We [encourage MR authors to add screenshots or videos](https://docs.gitlab.com/development/contributing/merge_request_workflow/)
 of their changes. However as they don't cover all review aspects (for example, hover states, small viewports, accessibility, and so on.), you cannot rely on them exclusively and should always review the MR in a live environment.
 
 The most common methods to review the MR in a live environment are:
@@ -57,9 +57,9 @@ Additionally, building these skills has the added benefit of empowering designer
 To use Gitpod you must create a Gitpod account (free) and connect it to your GitLab
 account. If you launch Gitpod from any project on GitLab.com your accounts are
 automatically connected (see links below). If for some reason that doesn't work,
-see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs/gitlab-integration#connecting-your-gitlab.com-account).
+see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs/configure/authentication/gitlab#connecting-your-gitlab.com-account).
 
-- [Use Gitpod for any project](https://docs.gitlab.com/ee/integration/gitpod.html#launch-gitpod-in-gitlab)
+- [Use Gitpod for any project](https://docs.gitlab.com/integration/gitpod/#launch-gitpod-in-gitlab)
 - [Use Gitpod for the GitLab project](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md) (i.e. cloud GDK)
 - [📺 Video: Get started with Gitpod for GitLab](https://www.youtube.com/watch?v=AOn7orCcTx8&list=PL05JrBw4t0KqrLsB8wlEhl2F9hXZlMmNR&index=13)
 - [📺 Video: Review MRs with local GDK or Gitpod](https://www.youtube.com/watch?v=M7b19Dq-1tw&list=PL05JrBw4t0KqrLsB8wlEhl2F9hXZlMmNR&index=11)
@@ -88,9 +88,9 @@ see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs
 
 #### Review Apps
 
-- [Use Review Apps in MRs](https://docs.gitlab.com/ee/ci/review_apps/#how-review-apps-work)
-- [Log into GitLab instance Review Apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html#log-into-my-review-app)
-- [Prevent auto-stopping Review Apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html#auto-stopping-of-review-apps)
+- [Use Review Apps in MRs](https://docs.gitlab.com/ci/review_apps/#how-review-apps-work)
+- [Log into GitLab instance Review Apps](https://docs.gitlab.com/development/testing_guide/review_apps/#log-into-my-review-app)
+- [Prevent auto-stopping Review Apps](https://docs.gitlab.com/development/testing_guide/review_apps/#auto-stopping-of-review-apps)
 - [How to enable Feature Flags in Review Apps](https://www.youtube.com/watch?v=VBo667LiwBQ)
 
 You can enable a feature flag by sending an API request to the review app using a tool such as `curl` or [Postman](https://www.postman.com).

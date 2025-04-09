@@ -85,7 +85,7 @@ The Senior Security Incident Response Team Engineer is a [grade 7](/handbook/tot
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with Security Incident Response Team Manager
 - Candidates will then be invited to schedule an interview with 2 SIRT peers, one of which will be a Senior
 - Candidates will then be invited to schedule an interview with Director of Security Operations
@@ -204,7 +204,8 @@ The Security Incident Response Team Senior Manager is a [grade 9](/handbook/tota
   graph LR;
   sec:se(Security Incident Response Engineer)-->sec:sse(Senior Security Incident Response Engineer);
   sec:sse(Senior Security Incident Response Engineer)-->sec:stse(Staff Security Incident Response Engineer);
-  sec:stse(Staff Security Incident Response Engineer)-->sec:dse(Distinguished Security Incident Response Engineer);
+  sec:stse(Staff Security Incident Response Engineer)-->sec:pse(Principal Security Engineer, Security Operations);
+  sec:pse(Principal Security Engineer, Security Operations)-->sec:dse(Distinguished Security Engineer);
   sec:sse(Senior Security Incident Response Engineer)-->sec:sem(Security Incident Response Manager);
   sec:sem(Security Incident Response Manager)-->sec:sesm(Security Incident Response Senior Manager);
   sec:sesm(Security Incident Response Senior Manager)-->sec:ds(Director of Security Operations);
@@ -216,7 +217,7 @@ For details on the Security organization leadership roles, to include the Securi
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with Security Incident Response Team Manager
 - Candidates will then be invited to schedule an interview with Senior Security Incident Response Team Engineer, Red Team Manager, Trust & Safety Manager
 - Candidates will then be invited to schedule an interview with Director of Security Operations

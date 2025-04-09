@@ -26,7 +26,7 @@ In Elevate+, participants will:
 
 Elevate+ spans a wide array of topics that enable leaders to build high performing teams:
 
-![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplustopics.png)
+![visual displaying the content in each elevate+ module](/images/people-group/learning-and-development/elevate-programs/elevateplustopics.png)
 
 ## Time Committment
 

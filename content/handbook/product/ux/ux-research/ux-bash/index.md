@@ -23,7 +23,7 @@ Note that UX Bashes are not meant to replace the team's process to test features
 
 ### When to iterate and run another Bash
 
-UX bashes are most effective when used to uncover actionable insights and measure progress on identified issues. However, it is important to consider the timing of subsequent bashes. 
+UX bashes are most effective when used to uncover actionable insights and measure progress on identified issues. However, it is important to consider the timing of subsequent bashes.
 
 During early bashes for Duo Chat, substantial feedback indicating that the speed of response was too slow. In such scenarios, it's more effective to focus on addressing core issues before running another bash. Before scheduling a new bash, ensure that meaningful steps have been taken to address major feedback points from prior sessions.
 
@@ -61,7 +61,7 @@ Bashes are useful when [foundational research](/handbook/product/ux/ux-research/
 ##### For Recruiting Internal Participants
 
 - In the #ux_research_volunteers Slack channel, make an official announcement about the upcoming Bash.
-  - ![Example of a Slack invitation](Bash_Slack_invite.png)
+  - ![Example of a Slack invitation](/images/product/ux/ux-research/ux-bash/Bash_Slack_invite.png)
 - Share that announcement to other Slack channels for additional exposure. If you are targeting specific audiences, you can strategically select which channels to share with.
   - Examples of diverse channels: #random, #whats_happening_at_gitlab
   - Examples of targeted channels: #security, #docs, #product, #development
@@ -73,7 +73,7 @@ Bashes are useful when [foundational research](/handbook/product/ux/ux-research/
 - Reach out to Fatima Sarah Khalid (GitLab and Discord handle: sugaroverflow) to have your Discord profile noted as a GitLab employee.
 - Create an [Incentives Request issue](/handbook/product/ux/ux-research-coordination/incentives/) to pay participants.
 - Announce the Bash in the #announcements Discord channel with a link to a [screener survey](/handbook/product/ux/ux-research/write-effective-screener/)
-  - ![Example of a Discord invitation](Bash_Discord_invite.png)
+  - ![Example of a Discord invitation](/images/product/ux/ux-research/ux-bash/Bash_Discord_invite.png)
 - Select your participants.
   - You can also work with Fatima Sarah Khalid (GitLab and Discord handle: sugaroverflow) to have your post shared on the GitLab Community Forum to boost awareness.
 - Send event reminders
@@ -82,11 +82,11 @@ Bashes are useful when [foundational research](/handbook/product/ux/ux-research/
 #### Step 5. Bash
 
 - Remind participants about the Bash and its goals via the Bash Slack channel you created.
-  - ![Example of a Slack Bash Guide](Bash_Slack_guide.png)
-  - ![Example of a Slack Bash Reminder](Bash_Slack_reminder.png)
+  - ![Example of a Slack Bash Guide](/images/product/ux/ux-research/ux-bash/Bash_Slack_guide.png)
+  - ![Example of a Slack Bash Reminder](/images/product/ux/ux-research/ux-bash/Bash_Slack_reminder.png)
 - Respond to questions as they come up during the Bash. Note: It is okay to not answer questions about technical limitations in order to get a closer approximation of natural behavior, but let the participant know that.
 - Thank them for their participation at the end of the Bash.
-  - ![Example of a Slack invitation](Bash_Slack_thankyou.png)
+  - ![Example of a Slack invitation](/images/product/ux/ux-research/ux-bash/Bash_Slack_thankyou.png)
 
 #### Step 6. Reflect
 

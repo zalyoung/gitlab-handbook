@@ -33,7 +33,7 @@ GitLab started as an open source alternative to GitHub. Instead of focusing on h
     - 4 times more cost effective
     - Active community of 2,200+ contributors to updates that are released [every month](/handbook/engineering/releases/)
 1. So if you just want SCM, why not go with the open source edition of GitLab?
-1. For the **entire** software development lifecycle, see [GitHub vs. GitLab](https://about.gitlab.com/competition/github/)
+1. For the **entire** software development lifecycle, see [GitHub vs. GitLab](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/)
 
 ## Our company uses GitHub.com for all open source projects
 
@@ -52,10 +52,10 @@ Why should we use GitLab Enterprise Edition on-premises and not GitHub Enterpris
 1. [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) | **Problem**: Needed to increase developer efficiency and software quality | **Result**: Improved 2 builds/day to over a 1000/day; simplified workflow and simplified administration
 1. [Jaguar Land Rover](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/) | **Problem**: Slow delivery and release cycles taking 4 to 6 weeks leading to infrequent feedback for developers| **Result**: Increased delivery speed from 3-6 weeks to 30 minutes giving teams faster feedback.
 1. [Hemmersbach](https://about.gitlab.com/customers/hemmersbach/) | **Problem**: Multiple tools and communication inefficiencies slowed application delivery | **Result**: Increased build speed by 59x; 14.4% improvement in cycle time
-1. [2019 Gartner Peer Insights **Customers' Choice - Enterprise Agile Planning Tools**](/press/releases/2019-07-26-gitLab-recognized-in-gartner-peer-insights-customers-choice-for-EAPT.html) average 4.6 rating: ["DevOps without the overhead"](https://www.gartner.com/reviews/review/view/916200) , ["Simple, Intuitive and efficient DevOps Life Cycle tool"](https://www.gartner.com/reviews/review/view/749177), and ["Secure and Scalable Solution"](https://www.gartner.com/reviews/review/view/876321)
+1. [2019 Gartner Peer Insights **Customers' Choice - Enterprise Agile Planning Tools**](https://about.gitlab.com/press/releases/2019-07-26-gitLab-recognized-in-gartner-peer-insights-customers-choice-for-EAPT.html) average 4.6 rating: ["DevOps without the overhead"](https://www.gartner.com/reviews/review/view/916200) , ["Simple, Intuitive and efficient DevOps Life Cycle tool"](https://www.gartner.com/reviews/review/view/749177), and ["Secure and Scalable Solution"](https://www.gartner.com/reviews/review/view/876321)
 1. Forrester: [Q3 2017 Continuous Integration Wave-Leader](https://about.gitlab.com/blog/2017/09/27/gitlab-leader-continuous-integration-forrester-wave/)
-1. Gartner: [2021 Enterprise Agile Planning Tools - Visionary](/analysts/gartner-eapt21/)
-1. Gartner: [Q2 2020 Continuous Delivery and Release Automation-Contender](/analysts/forrester-cdra20/)
+1. Gartner: [2021 Enterprise Agile Planning Tools - Visionary](https://about.gitlab.com/press/releases/2021-04-27-gitlab-positioned-leader-gartner-magic-quadrant-enterprise-agile-planning-tools/)
+1. Gartner: [Q2 2020 Continuous Delivery and Release Automation-Contender](https://about.gitlab.com/analysts/forrester-cdra20/)
 1. Forrester: 2018 New Wave Value Stream Management- Strong Performer
 
 ## I use Bitbucket.  What can GitLab offer me?
@@ -79,7 +79,7 @@ Do I need GitLab too?  Am I missing anything by not working directly with GitLab
 
 1. GitSwarm is built on GitLab CE or EE.
 1. GitSwarm combines Perforce and GitLab to give developers a Git-based workflow they prefer while also providing an organization with enterprise-class scalability, security, and file management performance from Perforce.
-1. We're happy that Perforce chose GitLab to help their customers create, code, and deploy together. To learn more, have a look at the GitSwarm overview, https://www.perforce.com/gitswarm.
+1. We're happy that Perforce chose GitLab to help their customers create, code, and deploy together. To learn more, have a look at the GitSwarm overview, https://www.perforce.com/products/helix4git.
 1. How should GitLab account executives engage prospects that are currently using or evaluating GitSwarm?
     - If the prospect is already using GitSwarm CE, the GitLab channel representative should work with the Perforce account executive to focus on the benefits of upgrading the customer to GitSwarm EE.
     - Perforce customers can pay via a perpetual license fee up-front with an annual Support and Maintenance fee or they can purchase via an annual subscription fee.

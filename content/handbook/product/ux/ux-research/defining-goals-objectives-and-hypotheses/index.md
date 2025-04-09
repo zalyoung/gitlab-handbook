@@ -14,7 +14,7 @@ Only after you have identified your research question(s) can you select the best
 
 As the figure below shows, there are 5 main steps to creating research hypothesis, goals, and objectives.
 
-![5 Main Steps to Creating Research Hypothesis, Goals, and Objectives](Steps_to_create_hypothesis_goals_objectives.jpg)
+![5 Main Steps to Creating Research Hypothesis, Goals, and Objectives](/images/product/ux/ux-research/defining-goals-objectives-and-hypotheses/Steps_to_create_hypothesis_goals_objectives.jpg)
 
 ## Step 1 - Start thinking of a problem
 
@@ -103,11 +103,11 @@ When writing your hypothesis, focus on simple solutions first and keep the scope
 
 The chart below shows the relationship between your research goal and the tasks and questions you will ask your participants in usability tests.
 
-![The relationship between your research goal and your tasks and questions](Research_Goal_Obj_Questions.jpg)
+![The relationship between your research goal and your tasks and questions](/images/product/ux/ux-research/defining-goals-objectives-and-hypotheses/Research_Goal_Obj_Questions.jpg)
 
 This chart shows the relationship between your research goal and the interview questions you will ask your participants in user interviews.
 
-![The relationship between your research goal and your interview questions](Research_Goal_Obj_questions_interviews.jpg)
+![The relationship between your research goal and your interview questions](/images/product/ux/ux-research/defining-goals-objectives-and-hypotheses/Research_Goal_Obj_questions_interviews.jpg)
 
 As you can see, the more objectives you start out with, the more questions you will need to ask and the longer your research session will be. It's a good rule of thumb to not have the user session last longer than 1 hour. Our typical research sessions at GitLab last 30-45 minutes.
 

@@ -108,7 +108,7 @@ We estimate that using an image can reduce our recovery time by about 15 minutes
 ### Eliminate X% Chef dependencies in Infra by moving infra away from Chef
 
 - Dependencies: None
-- Teams: Ops, Scalability:Observability, Scalability:Practices
+- Teams: Ops, Observability
 
 Gitaly, Postgres, CI runner managers, HAProxy, Bastion, CustomersDot, Deploy, DB Lab, Prometheus, Redis, SD Exporter, and Console servers are managed by Chef.
 To help improve the speed of recoveries, we can move this infrastructure into Kubernetes or Ansible for configuration management.

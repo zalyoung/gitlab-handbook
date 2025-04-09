@@ -36,7 +36,6 @@ This report filters by 6 main categories:
 | CE users | Companies that are using the free Community Edition of our product |
 | Location | Accounts that have Headquarters located in Metropolean cities |
 | Free users with CI runner minutes bought | uncovered new accounts that are using GitLab free but are paying for CI runner minutes |
-| [DemandBase](/handbook/marketing/account-based-marketing/demandbase/)  | shows traction / interest of accounts that are engaging with GitLab |
 
 #### Greenfield accounts (accounts not in Salesforce)
 

@@ -248,7 +248,7 @@ Test all components, integrations, and system tests remotely to ensure that the 
 1. Using the build models command from the defined environment build the changed models.  This will build the changed models and perform any tests that have been included with the changes.
    - This can be performed with one of the [`specify_model`](/handbook/enterprise-data/platform/ci-jobs/#specify_model) CI Jobs.  If the build command only contains models with direct changes then one of the [`run_changed_models_sql`](/handbook/enterprise-data/platform/ci-jobs/#%EF%B8%8Frun_changed_models_sql) CI jobs can be used.
    - If the changed models are incremental models, the models run more than one hour on a full refresh, and a full refresh does not need to be explicitly tested then the full refresh overridden should be used by adding the `REFRESH =` [variable](/handbook/enterprise-data/platform/ci-jobs/#%EF%B8%8F-dbt-run).
-1. Run the [grant_clones](/handbook/enterprise-data/platform/ci-jobs/#grant_clones) CI job, to grant permissions to yourself and run any remaining components, integrations, and system tests on the build models, adding the results of the tests to the MR.
+1. Use the [run_grants](/handbook/enterprise-data/platform/ci-jobs/#run_grants) CI job, to grant permissions to yourself and run any remaining components, integrations, and system tests on the build models, adding the results of the tests to the MR.
     - If the table is new then the grant_clones job will not be able to grant access the table. In this case documentation of local tests are required for verification and validation.
 
 ### Reviews

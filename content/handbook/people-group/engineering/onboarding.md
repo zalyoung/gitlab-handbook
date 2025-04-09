@@ -5,7 +5,7 @@ description: "Information on the automations we have in place to support the Peo
 
 The People Group Engineering team aims to reduce as much manual work as possible. One of the areas we have done this, is everything related to the employment automation flow.
 
-Everything on this page, assumes the team member is already present in Workday. To read more about how they get synced to Workday, you can read [this handbook section](/handbook/people-group/engineering/gh-bhr-sync).
+Everything on this page, assumes the team member is already present in Workday.
 
 ## Onboarding
 
@@ -15,7 +15,7 @@ Note: this section only discusses items in the onboarding where People Engineeri
 
 ```mermaid
 graph TD
-  A[4 Days before: PEA triggers Slack command for onboarding issue] -->|Onboarding issue is created, manager is assigned| K
+  A[2 Weeks before: People Connect triggers Slack command for onboarding issue] -->|Onboarding issue is created, manager is assigned| K
   K[1 day before: Team member is invited to gitlab-com and gitlab-org] --> I
   I[Start date: onboarding and swag email is send to the team member] --> C
   C[Day 2: Access Request issue is created and team page sync readiness is checked.] --> CA
@@ -70,11 +70,11 @@ Every day we run 3 scheduled pipelines. They are each set up for a specific regi
 
 - Americas at 10 AM UTC
 - EMEA at 4 AM UTC
-- JAPAC at 6 PM UTC
+- APJ at 6 PM UTC
 
-For the **JAPAC** pipeline, it will fetch the team members with a start date for the next day (timezones).
+For the **APJ** pipeline, it will fetch the team members with a start date for the next day (timezones).
 
-For the **EMEA** and **Americas** pipeline, it will fetch all the team members that have a start day equal
+For the **EMEA** and **Americas** pipelines, it will fetch all the team members that have a start day equal
 to the current day (so who is starting today). The pipeline then filters out the ones for the region
 they need to send the email to. This all is to ensure we don't send out the email too late or too early.
 The region of the team member is determined from the region that is on their Workday profile. This is the
@@ -96,7 +96,7 @@ This  triggers the following flow:
 ```mermaid
 graph TD
     A[PEA triggers the automation via Slack] -->B(Finds the open onboarding issue)
-    B --> C(Finds the BHR profile from the onboarding issue description)
+    B --> C(Finds the Workday profile from the onboarding issue description)
     C --> D(Sends the e-mail to the team member)
 ```
 
@@ -135,9 +135,9 @@ Every day we run 3 scheduled pipelines. They are each set up for a specific regi
 
 - Americas at 10 AM UTC
 - EMEA at 4 AM UTC
-- JAPAC at 6 PM UTC
+- APJ at 6 PM UTC
 
-For the JAPAC pipeline, it will fetch the team members with a start date for the current day (timezones).
+For the APJ pipeline, it will fetch the team members with a start date for the current day (timezones).
 For the EMEA and Americas pipeline, it will fetch all the team members that have a start day equal
 to the previous day (so who started yesterday). The pipeline then filters out the ones for the region
 they need to send the email to. This all is to ensure we don't create the issue too late or too early.

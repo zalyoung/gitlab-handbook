@@ -48,7 +48,7 @@ The idea of this approach is to treat all entities as first-class citizens and u
 
 This naturally leads to deduplicating records, as they are not physically tied to the existence of the `repository`. See above "Deduplication Ratios".
 
-![er_model](container-registry/er_model.png)
+![er_model](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/container-registry/container-registry/er_model.png)
 
 ##### Benefits
 
@@ -101,7 +101,7 @@ Minor differences to model 1 include using a single `digest` column to store bot
 
 Reference: [SQL schema](container-registry/alternative_model.sql)
 
-![alternative_model](container-registry/alternative_model.png)
+![alternative_model](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/container-registry/container-registry/alternative_model.png)
 
 What is not shown in the diagram is the possibility to have `blobs_layers` being tracked automatically. This can be implemented in the database, but we may also do this from the application. The in-database implementation would rely on a trigger like so:
 

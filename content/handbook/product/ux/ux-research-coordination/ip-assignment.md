@@ -17,7 +17,7 @@ The below table provides guidance on when to show the IP Assignment. Irrespectiv
 
 | UX research method                             | Show IP Assignment? | Why?                                                                                                                            |
 |------------------------------------------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Participatory design                           | Yes                 | Participants are providing suggestions and solutions in their responses. If those include code contributions, the [Individual Contributor License Agreement (ICLA) question](/handbook/product/ux/ux-research-coordination/IP-Assignment/#frequently-asked-questions) must also be shown. |
+| Participatory design                           | Yes                 | Participants are providing suggestions and solutions in their responses. If those include code contributions, the [Individual Contributor License Agreement (ICLA) question](/handbook/product/ux/ux-research-coordination/ip-assignment/#frequently-asked-questions) must also be shown. |
 | Interviews and focus groups                    | Maybe               | If you anticipate the participant will provide suggestions or solutions in their response, the IP Assignment must be shown.     |
 | Longitudinal studies                           | Maybe               | Refer to `Interviews and focus groups` above.                                                                                     |
 | Surveys w/ open-ended questions                | Maybe               | Refer to `Interviews and focus groups` above.                                                                                     |
@@ -48,7 +48,7 @@ The research tool being used (for example Qualtrics, UserTesting, Respondent) de
 - **Question:** My research study will result in code contibutions from my participants.  What's the ICLA question I need to ask?
 - **Answer:** Below is the exact question to ask.  Note the active link in the statement.
 
-  - `Any code contributions you make as part of your participation in this research activity are made subject to [GitLab's Individual Contributor License Agreement](https://docs.gitlab.com/ee/legal/individual_contributor_license_agreement.html).`
+  - `Any code contributions you make as part of your participation in this research activity are made subject to [GitLab's Individual Contributor License Agreement](https://docs.gitlab.com/legal/individual_contributor_license_agreement/).`
 
        `[ ] I accept the terms of GitLab's Individual Contributor License Agreement.`
        `[ ] I do not accept the terms of GitLab's Individual Contributor License Agreement.`

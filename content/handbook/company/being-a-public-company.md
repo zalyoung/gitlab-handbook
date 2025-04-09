@@ -14,7 +14,7 @@ To achieve fair value with limited relative volatility as a publicly traded comp
 
 1. Ability to meet the quarter close schedule outlined on the [Investor Relations](/handbook/finance/investor-relations/#earnings-release-calendar-workback-schedule) page
 1. Consistent execution against key operating metrics and initiatives
-1. Demonstrate a reliable trajectory of revenue growth to operating cash flow that aligns to our target [operating model](/handbook/finance/financial-planning-and-analysis/#long-term-profitability-targets) and [hypergrowth](/handbook/finance/financial-planning-and-analysis/hypergrowth-rule/#the-hypergrowth-rule) objectives
+1. Demonstrate a reliable trajectory of revenue growth to operating cash flow that aligns to our target [operating model](/handbook/finance/financial-planning-and-analysis/#long-term-profitability-targets) and hypergrowt objectives
 1. Assessing the maturity of our model in conjunction with equity market volatility to determine an appropriate time for a public offering
 1. Building out a fulsome compliance program which includes: securities law trainings, communications policies, handbook adjustments, required policies such as insider / [trading window](/handbook/finance/investor-relations/#trading-window)
 1. Maintaining a high degree of [transparency](/handbook/values/#transparency) that we believe increases contributions and makes collaboration easier. This is a core value and may result in higher than expected volatility.
@@ -43,7 +43,7 @@ The father of value investing, Benjamin Graham, explained this concept by saying
 
 ## Long Term Targets Underpin Efficient, Durable Growth
 
-Our financial planning process includes setting a division's spend based on revenue growth as we move towards our long term profitability target. We view these spending objectives (as a percent of revenue) as a measure of our efficient use of capital. **These objectives are not because we aim to go public.** As we capture a larger percentage of the market, growth could moderate and shift operating cash flow margin to a more significant factor in our [hypergrowth](/handbook/finance/financial-planning-and-analysis/hypergrowth-rule/#the-hypergrowth-rule) target.
+Our financial planning process includes setting a division's spend based on revenue growth as we move towards our long term profitability target. We view these spending objectives (as a percent of revenue) as a measure of our efficient use of capital. **These objectives are not because we aim to go public.** As we capture a larger percentage of the market, growth could moderate and shift operating cash flow margin to a more significant factor in our hypergrowth target.
 
 ## Two Actionable Values
 
@@ -74,19 +74,3 @@ In situations where we are using the standard communications channels that other
 ## Disclaimer
 
 Statements on this page are being made pursuant to, and in accordance with, Rule 135 under the Securities Act of 1933, as amended (the "Securities Act") and shall not constitute an offer to sell, or the solicitation of an offer to buy, any securities. Any offers, solicitations or offers to buy, or any sales of securities will be made in accordance with the registration requirements of the Securities Act.
-
-## Remaining an Independent Company
-
-{{< youtube id="LIXLGyZK72c" title="Will GitLab be acquired? Kristof Eger & Sid Sijbrandij" >}}
-
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO [Sid Sijbrandij](https://gitlab.com/sytses) discusses the topic of remaining independent as a company with Kristóf Éger. The [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) is transcribed, in part, below.*
-
-> Our intention, from the moment we took external funding, was to stay independent.
->
-> The reason we want to stay independent is we think it will better allow us to preserve our culture — we have our [six values](/handbook/values/) that are important to us — and also to be a good steward of open source.
->
-> Now, we're not totally in control of that. The majority of GitLab is owned by venture capitalists. But, we do have some sway. If, as an executive team, you're not interested in being acquired, it's harder to acquire a company.
->
-> We're always more [optimistic](/handbook/values/#focus-on-improvement) about the future than anybody outside of the company. That means that we have to keep growing. We have to keep growing [IACV](/handbook/sales/sales-term-glossary/arr-in-practice/), and keep growing our revenue.
->
-> We keep investing in the future in order to not get bought. We've been very clear with our investors what our intentions were from the start. We're doing everything we can to stay independent. - *GitLab co-founder and CEO Sid Sijbrandij*

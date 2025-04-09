@@ -96,7 +96,7 @@ The UX Research Operations Coordinator is a [grade 7](/handbook/total-rewards/co
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-**(1)** Selected candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters. In this call, we will discuss your experience, understand what you are looking for in a UX Research Operations Coordinator role, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
+**(1)** Selected candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters. In this call, we will discuss your experience, understand what you are looking for in a UX Research Operations Coordinator role, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
 
 **(2)** Then you will meet with our UXR Manager, who will talk about your career, experience, go through some scenario-based questions and ensure there's time for your questions too.
 
@@ -112,7 +112,7 @@ Candidates for this position can expect the hiring process to follow the order b
 >
 > 1. It helps us understand your hands-on experience with research operations or coordination.
 > 1. It demonstrates how you approach and solve complex challenges.
-> 1. It gives insight into your communication and storytelling skills when presenting your work. 
+> 1. It gives insight into your communication and storytelling skills when presenting your work.
 >
 > ### What topics it could be about
 >
@@ -142,7 +142,7 @@ Candidates for this position can expect the hiring process to follow the order b
 > - **Overly technical details:** We don't need an in-depth walkthrough of technical tools or systems unless it's directly relevant to the case study.
 > - **Off-topic projects:** Avoid examples unrelated to research operations or coordination, such as projects in unrelated fields or roles.
 >
-> ### Submitting your case study 
+> ### Submitting your case study
 >
 > - Please share your recording within 10 days of the case study being requested.
 > - You can share the recording using either a [private Youtube Link](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en), [Google Drive link](https://support.google.com/drive/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en), or a [Loom link](https://www.loom.com/).
@@ -151,7 +151,7 @@ Candidates for this position can expect the hiring process to follow the order b
 >
 > - Unsure on where to get started? Check out our [handbook page on recording a presentation in Zoom](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom). A free Zoom account is all you’d need to complete this presentation.
 > - Interested in the type of work our UX team does? Check out our [UX Forum on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), review our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
-> - We work with a [low level of shame](handbook/values/#self-service-and-self-learning) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
+> - We work with a [low level of shame](/handbook/values/#self-service-and-self-learning) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
 > - Other questions? Want the Recruiter to review your presentation before the review from the Hiring Manager? Don't hesitate to get in touch with the Recruiter who conducted your screening call.
 
 **(4)** You will then meet with a Peer UX Research Ops Coordinator to learn more about your experience and operational expertise. This is a good opportunity for you to ask specific question about the day-to-day of the role too.

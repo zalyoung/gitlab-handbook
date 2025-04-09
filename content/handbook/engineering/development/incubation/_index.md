@@ -31,7 +31,7 @@ In order to determine our investment into an SEG, we use the following assumptio
 Reference:
 
 - <https://kimchihill.com/2020/04/09/path-to-100m-arr/>
-- <https://www.stephnass.com/blog/saas-ipo-roadmap>
+- <https://openvc.app/blog/how-to-unicorn-startup>
 
 ### What is a New Market?
 

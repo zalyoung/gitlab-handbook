@@ -24,7 +24,7 @@ It is crucial to determine which operation runs within the subprocess because sp
 
 *Bucket Approach*: A compromise between the two extremes would be when we group all the blobs whose cumulative size is at least a fixed chunk size ([`2MiB` in our case](https://gitlab.com/gitlab-org/gitlab/-/blob/5dfcf7431bfff25519c05a7e66c0cbb8d7b362be/gems/gitlab-secret_detection/lib/gitlab/secret_detection/scan.rb#L32)) and then run each group within a separate sub-process as illustrated below.
 
-![Bucketed Subprocesses](../../img/003_subprocess.jpg "Bucketed Subprocess by Fixed Chunk size")
+![Bucketed Subprocesses](/images/engineering/architecture/design-documents/003_subprocess.jpg "Bucketed Subprocess by Fixed Chunk size")
 
 ### Addendum
 

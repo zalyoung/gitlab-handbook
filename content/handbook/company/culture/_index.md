@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-Please see our [company page]({{< ref "company" >}}) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](/handbook/company/culture/summit/)
+Please see our [company page](/handbook/company/) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](/handbook/company/culture/summit/)
 
 <!-- blank line -->
 <figure style="padding:56.25% 0 0 0;position:relative;">
@@ -54,13 +54,13 @@ As our company and the industry continue to grow, you'll have the freedom to cha
 
 {{< youtube "eIs71f5IEUU?start=468" >}}
 
-*In the above [interview](https://youtu.be/eIs71f5IEUU) with [Stuart Miniman](https://twitter.com/stu) of [theCUBE](https://www.thecube.net/), GitLab CEO and co-founder Sid Sijbrandij discusses the merits of operating a 100% remote organization, and why he believes it's the future of work.*
+*In the above [interview](https://youtu.be/eIs71f5IEUU) with [Stuart Miniman](https://twitter.com/stu) of [theCUBE](https://www.thecube.net/), GitLab co-founder Sid Sijbrandij discusses the merits of operating a 100% remote organization, and why he believes it's the future of work.*
 
-> At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles](all-remote/effective-communication/) and being intentional about [informal communication](all-remote/informal-communication/).
+> At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) to [communication styles](all-remote/effective-communication/) and being intentional about [informal communication](all-remote/informal-communication/).
 >
 > If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook](/handbook) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
 >
-> I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend]({{< ref "remote-vision" >}}). We think it's great for [team members](all-remote/people/).
+> I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend](/handbook/company/culture/all-remote/remote-vision/). We think it's great for [team members](all-remote/people/).
 
 GitLab is one of the world's largest all-remote companies, and being a part of our team offers unique advantages beyond the requisite flexibility you'll find in many organizations.
 
@@ -83,9 +83,9 @@ Culture at GitLab is composed of three things.
 
 1. [GitLab Values](/handbook/values/)
 1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication](all-remote/informal-communication/). We also build trust by [effectively collaborating](/handbook/values/#dont-let-each-other-fail) with others.
-1. Work style (how we work). This is defined and articulated in our [communication guide]({{< ref "communication" >}}) and [handbook usage guide]({{< ref "handbook-usage" >}}).
+1. Work style (how we work). This is defined and articulated in our [communication guide](/handbook/communication/) and [handbook usage guide](/handbook/about/handbook-usage/).
 
-In other organizations, culture may be defined through the *personality of the group*. This includes people who have traits in common and people who you enjoy spending time with. Note that this is not something that should matter when [evaluating people for work]({{< ref "#culture-fit-is-a-bad-excuse" >}}), and this is not what we mean with Culture at GitLab.
+In other organizations, culture may be defined through the *personality of the group*. This includes people who have traits in common and people who you enjoy spending time with. Note that this is not something that should matter when [evaluating people for work](/handbook/values/#culture-fit-is-a-bad-excuse), and this is not what we mean with Culture at GitLab.
 
 Watch this live speaker series, hosted on 2021-11-18, with Carter Gibson and Markus Mühlbauer from Google on Building Internal Culture.
 
@@ -105,11 +105,11 @@ Some key takeaways from the call include:
 
 1. [GitLab 101](gitlab-101/)
 1. [GitLab Contribute](/handbook/company/culture/summit/)
-1. [Internal Feedback]({{< ref "internal-feedback" >}})
+1. [Internal Feedback](/handbook/company/culture/internal-feedback/)
 1. [Diversity, Inclusion and Belonging](inclusion/)
 1. [All-Remote](all-remote/)
 1. [GitLab Songbook](songbook/)
-1. [Still a Startup]({{< ref "still-a-startup" >}})
+1. [Still a Startup](/handbook/company/still-a-startup/)
 
 ## Historical Anecdotes
 

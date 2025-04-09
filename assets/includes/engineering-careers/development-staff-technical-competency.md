@@ -3,7 +3,7 @@
 * Advocates for quality and makes sure it is everyone's responsibility.
 * Mentors others on how to maintain and continue to raise the level of quality in everything we produce.
 * Holds MRs to the high standards of [our definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) and collaborate with others to improve their implementation, tests and prevent any future regressions.
-* Takes on initiatives that address performance issues and work with the [Quality Department](/handbook/engineering/quality/) on any initiatives that would simplify life for our developers and contributors.
+* Takes on initiatives that address performance issues and work with the [Developer Experience Stage](/handbook/engineering/infrastructure-platforms/developer-experience/) on any initiatives that would simplify life for our developers and contributors.
 * Advocates for tech debt, customer issues, and high severity bugs.
 * Advocates for security.
 * Works closely with our internal [security](/handbook/security/) team.

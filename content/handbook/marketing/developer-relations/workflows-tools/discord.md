@@ -71,7 +71,7 @@ Every moderation situation is unique and will be dealt with on a case-by-case ba
 
 #### Tier 0 - Report to Discord
 
-If a message violates Discord's Terms of Service or Community Guidelines (e.g., illegal content, explicit harassment, doxxing, etc.), moderators should report the violation directly to Discord via the reporting feature. See [how to report content to Discord](https://discord.com/moderation/360058643194-104-how-to-report-content-to-discord).
+If a message violates Discord's Terms of Service or Community Guidelines (e.g., illegal content, explicit harassment, doxxing, etc.), moderators should report the violation directly to Discord via the reporting feature. See [how to report content to Discord](https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord).
 
 ##### Tier 1 - Warning and Message Deletion
 
@@ -80,7 +80,7 @@ For minor violations of server rules, moderators should remove the message and l
 For example:
 
 ```markdown
-Your message was removed for violating the following rule in our [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct) or GitLab Discord Server:
+Your message was removed for violating the following rule in our [GitLab Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) or GitLab Discord Server:
 
 > (The rule violated)
 ```
@@ -116,4 +116,4 @@ We appreciate your patience as we take time to look over appeal requests.
 
 ### Reporting Unacceptable Behavior
 
-To report unacceptable behavior or abuse, use the Discord reporting feature. See [how to report content to Discord](https://discord.com/moderation/360058643194-104-how-to-report-content-to-discord).
+To report unacceptable behavior or abuse, use the Discord reporting feature. See [how to report content to Discord](https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord).

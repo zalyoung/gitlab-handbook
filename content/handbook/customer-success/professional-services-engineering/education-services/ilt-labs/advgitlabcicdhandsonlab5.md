@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through common configurations for co
 
 In this lab we will analyze more complex merge processes, looking specifically at merge trains and merge conflicts. First, we will start with merge trains.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -44,63 +44,64 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 ```yml
 workflow:
-      auto_cancel:
-        on_job_failure: all
-      rules:
-        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  auto_cancel:
+    on_job_failure: all
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 ```
 
 The current pipeline should look like this:
 
   ```yml
-    stages:
-      - deps
-      - test
+  stages:
+    - deps
+    - test
+    
+  workflow:
+    auto_cancel:
+      on_job_failure: all
+    rules:
+      - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+      - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+  default:
+    image: node:latest
+
+  .artifactdef: &artifactdef
+    artifacts:
+      when: always
+      reports:
+        junit: junit.xml
+
+  .cachedef: &cachedef
+    cache:
+      key: $CI_COMMIT_REF_SLUG
+      paths:
+        - node_modules
       
-    workflow:
-      auto_cancel:
-        on_job_failure: all
-      rules:
-        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  install deps:
+    stage: deps
+    script:
+      - npm install jest jest-junit
+    <<: *cachedef
 
-    default:
-      image: node:latest
+  test binarysearch:
+    stage: test
+    script:
+      - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+    <<: [*artifactdef, *cachedef]
 
-    .artifactdef: &artifactdef
-      artifacts:
-        when: always
-        reports:
-          junit: junit.xml
-
-    .install deps: &cachedef
-      stage: deps
-      script:
-        - npm install jest-junit
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
-
-    test binarysearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-      <<: [*artifactdef, *cachedef]
-
-    test linearsearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-      <<: [*artifactdef, *cachedef]
-      
-    pause:
-      stage: test
-      script:
-        - sleep 4m
+  test linearsearch:
+    stage: test
+    script:
+      - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+    <<: [*artifactdef, *cachedef]
+    
+  pause:
+    stage: test
+    script:
+      - sleep 4m
   ```
 
 Adding this job will ensure that you have enough time to create two merge requests.
@@ -139,7 +140,7 @@ For the second merge request:
 
 Now that both merge requests have been created:
 
-1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`. 
+1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
 
 1. Await the completion of your merge requests and verify that they merge successfully.
 
@@ -167,29 +168,23 @@ When multiple users work on a project at the same time, merge conflicts are ofte
         reports:
           junit: junit.xml
 
-    .install deps: &cachedef
+    install deps: &cachedef
       stage: deps
       script:
-        - npm install jest-junit
-      cache:
-        key: $CI_COMMIT_REF_SLUG
-        paths:
-          - node_modules
+        - npm install jest jest-junit
+      <<: *cachedef
 
     test binarysearch:
-      before_script:
-        - npm install -g jest
+      stage: test
       script:
-        - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
       <<: [*artifactdef, *cachedef]
 
     test linearsearch:
-      before_script:
-        - npm install -g jest
+      stage: test
       script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+        - node_modules/.bin/jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
       <<: [*artifactdef, *cachedef]
-      
     ```
 
 Now, let’s create two merge requests that conflict:

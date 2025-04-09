@@ -52,7 +52,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ## Working at GitLab
 
-GitLab Inc. is a company based on the GitLab open-source project. GitLab is a community project to which over 2,200 people worldwide have contributed. We are an active participant in this community, trying to serve its needs and lead by example. We have one [vision](https://about.gitlab.com/strategy): everyone can contribute to all digital content, and our mission is to change all creative work from read-only to read-write so that everyone can contribute.
+GitLab Inc. is a company based on the GitLab open-source project. GitLab is a community project to which over 2,200 people worldwide have contributed. We are an active participant in this community, trying to serve its needs and lead by example. We have one [vision](/handbook/company/strategy/): everyone can contribute to all digital content, and our mission is to change all creative work from read-only to read-write so that everyone can contribute.
 
 We [value](/handbook/values/) results, transparency, sharing, freedom, efficiency, [self-learning](/handbook/company/culture/all-remote/self-service/#how-self-learning-leads-to-success-in-your-role), frugality, collaboration, directness, kindness, diversity, inclusion and belonging, boring solutions, and quirkiness. If these values match your personality, work ethic, and personal goals, we encourage you to visit our [primer](/handbook/company/) to learn more. Open source is our culture, our way of life, our story, and what makes us truly unique.
 
