@@ -13,6 +13,8 @@ The framework delivers practical benefits through clear processes, defined roles
 
 If you are seeking information to help GitLab ensure incidents are reported, investigated and handled, you might be looking for the [Incident Response Guidance](/handbook/security/product-security/vulnerability-management/incident-response-guidance/).
 
+If an incident requires a non-standard workflow or communication from Support, create the [Support Response issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) if this has not yet been done.
+
 If you are looking for details about being on-call in Support, you might find what you need here: [GitLab Support On-Call Guide](/handbook/support/on-call.md)
 
 {{% /alert %}}
