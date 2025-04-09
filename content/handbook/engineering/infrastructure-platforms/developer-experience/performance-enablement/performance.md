@@ -52,11 +52,7 @@ We also have [rspec-benchmark](https://github.com/piotrmurach/rspec-benchmark) s
 
 ### Observability Testing
 
-Observability testing is actively making use of our Observability tools to detect trends that would develop into performance issues. A couple common approaches to this is to:
-
-1. Have the development teams monitor the dashboards on their components and proactively pickup performance concerns
-2. Build dashboards/tooling that support doing exploratory testing on the Observability data, looking for linkages that may not be obvious (system A causes system B to slow down)
-    * Tools like the [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) can enable someone to notice a performance oddity and start the investigation into the root cause
+Observability testing is described in [it's own page](./observability_performance.md)
 
 ### Instrumenting Existing Testing
 
