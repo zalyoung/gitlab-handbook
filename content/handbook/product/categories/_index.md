@@ -299,7 +299,7 @@ Maybe we should make our features easier to search to replace the section below.
 - quick actions
 - email notifications
 - to-do list
-- Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
+- Real-time features
 
 #### Knowledge group
 

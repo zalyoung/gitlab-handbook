@@ -92,3 +92,25 @@
 # Product Dev flow moved - remove 2025-07-29
 /handbook/product-development-flow/ /handbook/product-development/product-development-flow/ 301
 /handbook/product-development-flow/* /handbook/product-development/product-development-flow/:splat 301
+
+# Non-existent Incubation department - remove 2025-07-29
+/handbook/engineering/development/incubation/ /handbook/engineering/development/ 301
+/handbook/engineering/development/incubation/5-min-production/ https://docs.gitlab.com/cloud_seed/ 301
+/handbook/engineering/development/incubation/ai-assist/ /handbook/engineering/development/data-science/ai-powered/ 301
+/handbook/engineering/development/incubation/airflow/ https://docs.gitlab.com/ci/yaml/needs/ 301
+/handbook/engineering/development/incubation/apm/ https://docs.gitlab.com/operations/ 301
+/handbook/engineering/development/incubation/cloud-seed/ https://docs.gitlab.com/cloud_seed/ 301
+/handbook/engineering/development/incubation/dependency-firewall/ https://docs.gitlab.com/user/packages/dependency_proxy/ 301
+/handbook/engineering/development/incubation/istio/ https://docs.gitlab.com/charts/installation/tools/ 301
+/handbook/engineering/development/incubation/mlops/ /handbook/engineering/development/data-science/modelops/ 301
+/handbook/engineering/development/incubation/mlops/* /handbook/engineering/development/data-science/modelops/ 301
+/handbook/engineering/development/incubation/mobile-devops/ https://docs.gitlab.com/ci/mobile_devops/ 301
+/handbook/engineering/development/incubation/mobile-devops/* https://docs.gitlab.com/ci/mobile_devops/ 301
+/handbook/engineering/development/incubation/monitor-apm/ https://docs.gitlab.com/operations/ 301
+/handbook/engineering/development/incubation/okr/ /handbook/engineering/development/dev/plan/product-planning/ 301
+/handbook/engineering/development/incubation/no-code/ https://docs.gitlab.com/user/duo_workflow/ 301
+/handbook/engineering/development/incubation/real-time-collaboration/ /handbook/engineering/infrastructure/team/cloud-connector/ 301
+/handbook/engineering/development/incubation/secrets-rotation/ https://docs.gitlab.com/user/application_security/secret_detection/automatic_response/ 301
+/handbook/engineering/development/incubation/self-healing-dependencies/ https://gitlab.com/gitlab-org/gitlab/-/issues/260291 301
+/handbook/engineering/development/incubation/server-runtime/ https://docs.gitlab.com/user/duo_workflow/ 301
+/handbook/engineering/development/incubation/service-desk/ https://docs.gitlab.com/user/project/service_desk/ 301
