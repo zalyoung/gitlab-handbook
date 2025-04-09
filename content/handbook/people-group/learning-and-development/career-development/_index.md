@@ -67,7 +67,6 @@ Navigate to career development resources located throughout the GitLab handbook:
     <a href="/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
     <a href="/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
     <a href="/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
-    <a href="/handbook/engineering/fellow-shadow/" class="btn btn-primary" style="margin:5px;">Engineering Fellow</a>
     <a href="/handbook/security/security-shadow/" class="btn btn-primary" style="margin:5px;">Security Team Shadow</a>
     <a href="https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Shadow%20Program.md" class="btn btn-primary" style="margin:5px;">Support Team Shadow</a>
   </div>
