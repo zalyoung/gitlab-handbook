@@ -73,4 +73,5 @@ The [AI Model/Provider Load Tester](https://gitlab.com/gitlab-org/modelops/ai-mo
 2. Create a load test environment(eg, GCP vertex AI project, Fireworks development account) which the load test script will run against
 3. Check the ELK logs to estimate the number of users, and set the env variable accordingly
 4. Run the test, and adjust the quota of the provider if necessary
+
 For how to add test script and run the test script please check [this repo](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test)
