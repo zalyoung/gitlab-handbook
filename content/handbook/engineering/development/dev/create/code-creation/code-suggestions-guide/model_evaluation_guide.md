@@ -76,4 +76,3 @@ The [AI Model/Provider Load Tester](https://gitlab.com/gitlab-org/modelops/ai-mo
 4. Run the load test and adjust the provider's quota if needed.
 
 For instructions on adding and running test scripts, please refer to [this repo](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test).
-
