@@ -15,7 +15,6 @@ exclude:
 
   # Pages using the `{{% performance-indicators %}}` shortcode.
   - pattern: '^/handbook/ceo/office-of-the-ceo/performance-indicators/?#'
-  - pattern: '^/handbook/engineering/development/incubation/performance-indicators/?#'
   - pattern: '^/handbook/engineering/development/performance-indicators/?#'
   - pattern: '^/handbook/engineering/infrastructure/performance-indicators/?#'
   - pattern: '^/handbook/engineering/performance-indicators/_index/?#'

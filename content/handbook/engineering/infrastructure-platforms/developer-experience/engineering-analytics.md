@@ -122,7 +122,6 @@ We assign the stable counterpart by Engineering Division's sub-departments. This
 | Security       | [Dani](https://gitlab.com/ddeng1)                                   | [Security PI Page](/handbook/security/performance-indicators)                           |
 | Support        | [Lily](https://gitlab.com/lmai1)                                    | [Support PI Page](/handbook/support/performance-indicators)                             |
 | Finance        | [Clément](https://gitlab.com/clem.lr)                               | [Finance PI Page](/handbook/finance/finance-team-performance-indicators/)               |
-| Incubation     | [Lily](https://gitlab.com/lmai1)                                    | [Incubation Page](/handbook/engineering/development/incubation/performance-indicators/) |
 
 Engineering analysts assigned to one area are experts in that area and may not have the knowledge depth in other areas. As such contributing cross-domain expertise will only be limited to Sisense charting and not beyond this data layer.
 
