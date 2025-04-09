@@ -227,7 +227,7 @@ Once you've found a new assignee:
 
 ### What if a customer has confirmed a ticket can be closed but the ticket has no assignee?
 
-While we should ensure that all tickets always have an assignee from FRT to,
+While we should ensure that all tickets always have an assignee from FRT to 
 close, there are some scenarios where a ticket is ready to be closed but has no
 assignee. For example, a customer may open a ticket and inform us that they have
 resolved the issue before we send an FRT. In these scenarios:
