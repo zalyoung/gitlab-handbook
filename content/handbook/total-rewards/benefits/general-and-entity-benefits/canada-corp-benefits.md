@@ -173,7 +173,7 @@ For enrolling into the RRSP, please navigate to [Canada Life's RRSP portal](http
 - If you need any help, please contact Canada Life at 1-800-724-3402, our broker SC Insurance at info@scinsurance.ca, or [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382).
 - Please remember to select a beneficiary when enrolling. This is separate from the beneficiary elected for your life insurance plan.
 - Team Members are responsible for monitoring their own contribution limits to ensure they do not over-contribute to their maximum limit. This is because team members can carry forward RRSP contribution room that they were unable to use in any particular year and is unique to each member.
-- Team Members can also request to contribute their bonus or discretionary bonus towards their RRSP plan outside their normal salary. The employer match does not apply towards this contribution. In order to make this request, please email Nonuspayroll@gitlab.com and Total-Rewards@gitlab.com prior to the bonus being paid out.
+- Team Members can also request to contribute their bonus or discretionary bonus towards their RRSP plan outside their normal salary. The employer match does not apply towards this contribution. In order to make this request, please open a [HelpLab request](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352) prior to the [payroll cut off date](https://internal.gitlab.com/handbook/finance/payroll/?search=payroll) listed for the month in which the bonus will be paid.
 
 ## Canada Pension Plan (CPP)
 
