@@ -5,7 +5,7 @@ description: "Distribution Team training overview and videos"
 
 ## Common links
 
-* [Distribution Team Handbook](/handbook/engineering/infrastructure/core-platform/systems/distribution/)
+* [Distribution Team Handbook](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/)
 
 ## Purpose
 

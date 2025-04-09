@@ -4,7 +4,7 @@ title: "Distribution Team Infrastructure and Maintenance"
 
 ## Common links
 
-* [Distribution Team Handbook](/handbook/engineering/infrastructure/core-platform/systems/distribution/)
+* [Distribution Team Handbook](..)
 
 ## Infrastructure
 
@@ -17,7 +17,7 @@ As part of the team tasks, team has responsibility towards the following nodes/t
 
 * Build Machines: Runner manager machines that spins up machines that are used
   by various CI jobs for building and publishing packages. Details of the node
-  as well as the maintenance tasks can be found in [the build machines specific docs](build-machines/)
+  as well as the maintenance tasks can be found in [the build machines specific docs](build-infrastructure.md)
 
 * `packages.gitlab.com`: This is a self-hosted package server managed by
   GitLab Infrastructure team. It's used by Distribution team to ship GitLab CE and EE
@@ -50,5 +50,5 @@ As part of the team tasks, team has responsibility towards the following nodes/t
 As part of the team tasks, the team uses the following external services:
 
 * [dependencies.io](https://www.dependencies.io/): This is used to automatically update
-software components required by GitLab. See [the specific docs](dependencies.io.html)
+software components required by GitLab. See [the specific docs](dependencies.io.md)
 for how to work with this service.

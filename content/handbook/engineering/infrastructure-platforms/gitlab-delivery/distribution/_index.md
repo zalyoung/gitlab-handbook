@@ -134,8 +134,8 @@ In addition to the [separate responsibilities](#overview) for Build and Deploy. 
    - Installation using package is simple, quick, secure and protects the data integrity.
 1. A cloud native installation method.
    - Installation using the Helm charts is able to scale easily with the increased demand.
-1. [Triaging issues](triage.html) and [Reviewing Merge Requests](merge_requests.html) in all owned [projects](#all-projects).
-1. Providing regular [demonstrations](demo.html) of recent solutions or works in progress
+1. [Triaging issues](triage.md) and [Reviewing Merge Requests](merge_requests.md) in all owned [projects](#all-projects).
+1. Providing regular [demonstrations](demo.md) of recent solutions or works in progress
 
 ## Team objectives
 
@@ -150,7 +150,7 @@ Based on team responsibilities, the following objectives apply:
   - The above two goals might sound opposing, however they are not. A compromise can be made between these two goals without increasing the project maintenance cost for the Distribution team. We optimize for the best initial installation experience and then expand to further complexity.
 - Distribution Common Objectives
   - Triaging issue tracker is a task that allows us to keep on the pulse of the changes we make. By being in contact with users and customers, we can maintain visibility into most frequently reported bugs or requested features. Not everything reported will be resolved, however _all_ of the reports should be triaged. This also applies to mentions in GitLab CE/EE repositories on issues with `Distribution` and `group::distribution` label.
-  - Every Distribution team member is responsible for creating a training session for the rest of the team. See the page on [team training](training.html) for details.
+  - Every Distribution team member is responsible for creating a training session for the rest of the team. See the page on [team training](training.md) for details.
   - When the team that manages GitLab.com creates an issue, the item should be raised up directly to the team Engineering Manager and Product Manager. While these issues are important, we don't necessarily need to provide a complete solution right away, but we need to work with the other team on providing a path forward with their request.
 
 ## Primary Projects
@@ -282,7 +282,7 @@ If you are unsure whether something needs to remain private, check with the team
 
 The team regularly publishes demos, discussions and meetings to these playlists:
 
-- [Distribution Team Demos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrPasGZcEUoHHIYdUtzpfA4) (Public) More on [team demos](demo.html).
+- [Distribution Team Demos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrPasGZcEUoHHIYdUtzpfA4) (Public) More on [team demos](demo.md).
 - [Distribution Team Discussions](https://www.youtube.com/playlist?list=PL05JrBw4t0KotcsilVcbCc1NBXUmWqEWy) (Mostly public, but some private content)
 - [Distribution Team Meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoigLGkdYj9x2erU2NC24ij) (Private)
 
@@ -325,7 +325,7 @@ assign it to your manager for approval.
 As part of the team responsibilities, team owns maintenance of infrastructure
 used for day to day work.
 For list of nodes and description of the maintenance tasks, see the
-[infastructure and maintenance](/handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/) page.
+[infastructure and maintenance](maintenance/) page.
 
 ## Team workflows
 
