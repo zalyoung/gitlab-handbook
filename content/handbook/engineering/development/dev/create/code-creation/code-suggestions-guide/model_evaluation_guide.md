@@ -68,10 +68,12 @@ for further guidance and updates.
 
 ### Evaluating by Load Tester
 
-The [AI Model/Provider Load Tester](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test) can simulate prod like traffic to make sure the model provider can handle production traffic. During the model evaluation process, we need to: 
-1. Create a test script in this repo for the new model
-2. Create a load test environment(eg, GCP vertex AI project, Fireworks development account) which the load test script will run against
-3. Check the ELK logs to estimate the number of users, and set the env variable accordingly
-4. Run the test, and adjust the quota of the provider if necessary
+The [AI Model/Provider Load Tester](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test) is designed to simulate production-like traffic, ensuring that the model provider can handle real-world workloads. During the model evaluation process, follow these steps:
 
-For how to add test script and run the test script please check [this repo](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test)
+1. Add a test script for the new model to this repository.
+2. Set up a load testing environment (e.g, a GCP Vertex AI project or a Fireworks development account) where the script will run.
+3. Review ELK logs to estimate the expected number of users, and configure the appropriate environment variable.
+4. Run the load test and adjust the provider's quota if needed.
+
+For instructions on adding and running test scripts, please refer to [this repo](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test).
+
