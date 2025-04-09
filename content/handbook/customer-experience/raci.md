@@ -10,9 +10,9 @@ We are a small, but mighty, team for now. More teammates will be added in future
 
 | Role | Responsibilities | Outputs |
 | :---- | :---- | :---- |
-| Head of Customer Experience | x | xxx |
-| Customer Experience Strategist | Leads the overall customer experience strategy and programs, ensuring the voice of the customer drives business decisions and customer-centricity across GitLab. Leads customer research initiatives and manages feedback programs to provide actionable insights across the organization. | x |
-| Customer Experience Data Analyst | Drives data-driven decision making across CX programs by managing customer analytics, measuring program effectiveness, and providing actionable insights on customer adoption patterns and program success.  | x |
+| Head of Customer Experience | Champion for Customer Experience team across GitLab | Unblocks CX team, advocates for cross-functional resources across the org. |
+| Customer Experience Strategist | Leads the overall customer experience strategy and programs, ensuring the voice of the customer drives business decisions and customer-centricity across GitLab. Leads customer research initiatives and manages feedback programs to provide actionable insights across the organization. | Customer journey maps, customer expeirence research insights,straetgic recommendations to improve high-friction areas |
+| Customer Experience Data Analyst | Drives data-driven decision making across CX programs by managing customer analytics, measuring program effectiveness, and providing actionable insights on customer adoption patterns and program success.  | End-to-end dashboards and reporting, partnering with Aalytics & Insights teams to instrument new metrics |
 
 ## **Cross-Functional Partners**
 

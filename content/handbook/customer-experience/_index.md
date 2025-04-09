@@ -4,7 +4,7 @@ description: "Home space for CX team"
 ---
 # **Customer Experience (CX)**
 
-Welcome to the home site for our Customer Experience team.
+Welcome to the Customer Experience team page.
 
 ## **What is Customer Experience (CX)?**
 

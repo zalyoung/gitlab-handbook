@@ -16,7 +16,7 @@ Customer Experience (CX) research takes three perspectives into account:
 
 ## **Objective**
 
-Map our ***customer’s journey and experience*** evaluating, purchasing, and adopting GitLab in partnership with our customer-facing teams to ***identify opportunities to accelerate value***. We seek to understand this across our core customer journey phases: Awareness, Evaluation, Purchase, Onboarding, Adoption, and Expansion across all customer segments. 
+Map our ***customer’s journey and experience*** evaluating, purchasing, and adopting GitLab in partnership with our customer-facing teams to ***identify opportunities to accelerate value***. We seek to understand this across our core customer journey phases: Awareness, Evaluation, Purchase, Onboarding, Adoption, and Expansion across all customer segments and regions. 
 
 ## **Key Results**
 

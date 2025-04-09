@@ -17,8 +17,8 @@ Essential to this research is not only understanding what the journey looks like
 
 | Person | Role | What they own |
 | :---- | :---- | :---- |
-| Sarah Schuster | Customer Experience Strategy | Owns overall strategy, insights Lead research efforts, mapping journeys, communications |
-| Brandon Butterfield | CX Strategy Analytics | Owns overall customer experience metrics, dashboards and reporting |
+| Sarah Schuster | Customer Experience Strategy | Owns overall CX strategy, insights Lead research efforts, mapping journeys, communications |
+| Brandon Butterfield | CX Strategy Analytics | Owns overall CX metrics, dashboards and reporting |
 | Jong Lee | Data Analytics | Consultation on data analytics, insights |
 | Ben Leduc-Mills | UX Research | Consultation on research methodology, best practices |
 
