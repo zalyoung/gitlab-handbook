@@ -57,7 +57,7 @@ To aid Product Management in their prioritization efforts, we provide insights i
 
 #### Engagement with Single Engineer Groups (SEGs)
 
-The [Incubation Engineering Department](/handbook/engineering/development/incubation/) uses Single Engineer Groups (SEGs) to quickly develop "new market" initiatives. SEGs may request temporary design support for high-usage product areas.
+The Engineering Department uses Single Engineer Groups (SEGs) to quickly develop "new market" initiatives. SEGs may request temporary design support for high-usage product areas.
 
 Product Designers and managers should provide in-depth design critiques in issues and during MR reviews, collaborating with Incubation Engineering to ensure a great user experience.
 

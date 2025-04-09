@@ -42,8 +42,8 @@ Read more about the topic area from the links below:
 
 ### Related GitLab Documentation
 
-- [MLOps Single-Engineer Group](/handbook/engineering/development/incubation/mlops/)
-- [MLOps Primer](/handbook/engineering/development/incubation/mlops/)
+- MLOps Single-Engineer Group
+- MLOps Primer
 - [MLOps Exploration](https://gitlab.com/groups/gitlab-org/incubation-engineering/mlops/-/epics/1)
 - [Product Stage Direction - ModelOps](/handbook/engineering/development/modelops)
 - [Draft Group Direction - MLOps](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/direction/modelops/mlops/index.html.md.erb)
