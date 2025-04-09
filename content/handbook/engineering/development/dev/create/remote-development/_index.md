@@ -366,9 +366,7 @@ In such cases where we have pending or follow up tasks for future releases such 
 1. **Label:** Assign these labels:
     - `~due-date-followup`
     - `~refined`
-    - `~webide-workflow::prioritized` or `~workspaces-workflow::prioritized`
 1. **Milestone:** Assign it a specific milestone - i.e Drop column (17.5) -> Followup remove ignore rule (17.6).
-1. **Iteration:** Assign it to the current/latest iteration for Workspaces or Web IDE (this is required in order to assign a specific milestone)
 1. **Due Date:** Assign a due date 1 week into the assigned milestone. To see the dates for the milestone, you can click "Preview" after adding the Milestone, then open the milestone link in a new tab, and find its date range at the top of the page.
 1. **Epic:** Assign it to the [WebIDE | Technical Debt/Friction](https://gitlab.com/groups/gitlab-org/-/epics/14656) or [Workspaces Technical Debt Work](https://gitlab.com/groups/gitlab-org/-/epics/11041) epic.
 
@@ -380,7 +378,7 @@ Workspaces:
 /relate #<original issue number or link>
 /milestone %"<target milestone>"
 /due date <one week into milestone's date, obtained from clicking on milestone link>
-/label ~due-date-followup ~refined ~workspaces-workflow::prioritized
+/label ~due-date-followup ~refined
 /iteration [cadence:"Workspaces"] --current
 /epic &11041
 ```
@@ -391,7 +389,7 @@ Web IDE:
 /relate #<original issue number or link>
 /milestone %"<target milestone>"
 /due date <one week into milestone's date, obtained from clicking on milestone link>
-/label ~due-date-followup ~refined ~workspaces-workflow::prioritized
+/label ~due-date-followup ~refined
 /iteration [cadence:"WebIDE"] --current
 /epic &14656
 ```
