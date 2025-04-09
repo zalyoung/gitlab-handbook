@@ -352,7 +352,7 @@
   - name: Product sections, stages, groups, and categories
     url: /handbook/product/categories
   - name: Product Development Flow
-    url: /handbook/product-development-flow
+    url: /handbook/product-development/product-development-flow
   - name: Product Development Timeline
     url: /handbook/engineering/workflow/#product-development-timeline
   - name: Data for Product Managers
