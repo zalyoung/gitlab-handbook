@@ -171,7 +171,7 @@ The UX Research team is here for you! Reach out in the #ux_research Slack channe
 - [How the UX Research team operates at GitLab](/handbook/product/ux/ux-research/how-uxr-team-operates/)
 - [UX Researcher pairings](/handbook/product/ux/ux-research/ux-researcher-pairings/)
 - [Research prioritization](/handbook/product/ux/ux-research/research-prioritization/)
-- [The IP Assignment and when to show it](/handbook/product/ux/ux-research-coordination/IP-Assignment/)
+- [The IP Assignment and when to show it](/handbook/product/ux/ux-research-coordination/ip-assignment/)
 - [How to fill in for a UX Research Operations Coordinator](/handbook/product/ux/ux-research-coordination/research-coordinator-fill-in/)
 - [UX Research growth and development](/handbook/product/ux/ux-research/ux-research-growth-and-development/)
 - [Non-Disclosure Agreements for UX Research](/handbook/product/ux/ux-research-coordination/NDAs/)
@@ -190,7 +190,7 @@ The UX Research team is here for you! Reach out in the #ux_research Slack channe
 
 #### Measures and processes the UX Research team is responsible for
 
-- [Product Customer Satisfaction (CSAT) Survey](/handbook/product/ux/performance-indicators/csat/)
+- [User Satisfaction (USAT) Survey](/handbook/product/ux/performance-indicators/usat//)
 - [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/)
   - [System Usability Scale responder outreach](/handbook/product/ux/performance-indicators/system-usability-scale/sus-outreach/)
 - [Assessing Category Maturity](/handbook/product/ux/category-maturity/)

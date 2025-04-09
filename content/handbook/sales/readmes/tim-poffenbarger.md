@@ -27,7 +27,7 @@ title: "Tim Poffenbarger's README"
 
 In the Solutions Architect role, the more our team can get an opportunity to focus on communicating value and stay away from very deep technical and troubleshooting conversations, the more the team can help you achieve target sales. The team is happy to review and contribute to business plans so we remain in sync.
 
-The team is happy to recommend and propose services for prospects and customers. For any custom statement of work, the team can begin scoping out the initial scope of work (SOW) and get approvals from the [Professional Services](/services/) team.
+The team is happy to recommend and propose services for prospects and customers. For any custom statement of work, the team can begin scoping out the initial scope of work (SOW) and get approvals from the [Professional Services](https://about.gitlab.com/services/) team.
 
 ## My working style
 

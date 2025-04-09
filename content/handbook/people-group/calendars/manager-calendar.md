@@ -25,17 +25,17 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 | **Action**                                    | **May**                   | **June** | **July**        |
 |:---------------------------------------------:|:----------------------------:|:-------------:|:------------------:|
 | **[OKR Planning & Execution](/handbook/company/okrs)** | Task: Track Q2 OKR progress | Task: Track Q2 OKR progress                                | Task: Score Q2 OKRs by 2024-07-31 and submit Q3 OKRs by 2024-07-22   |
-| **[Promotion Planning, Calibration & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**          | Task: Promotion planning and calibration  |   Task: Promotion Planning and Calibration                              |  Task: Promotion Planning and Calibration                        |
+| **[Promotion Planning, Calibration & Communication](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline)**          | Task: Promotion planning and calibration  |   Task: Promotion Planning and Calibration                              |  Task: Promotion Planning and Calibration                        |
 | **[GitLab Engagement Survey](/handbook/people-group/engagement)**                  |  | Task: Engagement Survey kicks off               | Task: Engagement Survey results review & Divisional Action planning   |
 | **[Talent Assessment](/handbook/people-group/talent-assessment)** |   |   Task: [Mid-Year Check In](/handbook/people-group/talent-assessment/#timeline-1)                       |                     |
-| **[Career Development Conversations]({{< ref "career-development" >}})**          |                         |      | Task: (Optional) Kick off your Individual Growth Plan in Workday                     |
+| **[Career Development Conversations](/handbook/people-group/learning-and-development/career-development/)**          |                         |      | Task: (Optional) Kick off your Individual Growth Plan in Workday                     |
 
 ### FY24 Q4
 
 | **Action**                                    | **November**                | **December**        | **January**                            |
 |:---------------------------------------------:|:---------------------------:|:-------------------:|:-------------------:|
 | **[OKR Planning & Execution](/handbook/company/okrs)** | Task: Track Q4 OKR progress | Task: Track Q4 OKR progress                                | Task: Score Q4 OKRs by 2024-01-31 and submit FY25-Q1 OKRs by 2024-01-08   |
-| **[Promotion Planning, Calibration & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**          |                  |  |  |
-| **[Promotion Effective date & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**  |                             |                     | Task: Plan Promotions for Q1 and Calibrate with Leadership by 2024-01-15 |
+| **[Promotion Planning, Calibration & Communication](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline)**          |                  |  |  |
+| **[Promotion Effective date & Communication](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline)**  |                             |                     | Task: Plan Promotions for Q1 and Calibrate with Leadership by 2024-01-15 |
 | **[Talent Assessment](/handbook/people-group/talent-assessment)**                         | Task: Write Talent Assessment review for your team members | Task: Calibrate ratings with leadership | Task: Talent Assessment (Review) Discussions with your team |
-| **[Annual Comp Calibration]({{< ref "compensation-review-cycle" >}})**                   |Task: Add in recommendations for compensation changes for your team, Task: Calibrate the recommendations with your leader, Key date: Final recommendation to be entered in Workday by 2024-01-15 (tbc)                    |  |  |
+| **[Annual Comp Calibration](/handbook/total-rewards/compensation/compensation-review-cycle/)**                   |Task: Add in recommendations for compensation changes for your team, Task: Calibrate the recommendations with your leader, Key date: Final recommendation to be entered in Workday by 2024-01-15 (tbc)                    |  |  |

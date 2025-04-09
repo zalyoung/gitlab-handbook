@@ -2,9 +2,9 @@
 title: "Optimize Group"
 ---
 
-## Plan:Optimize
+## Monitor:Optimize
 
-**[Optimize FY25 direction and goals](https://gitlab.com/gitlab-org/gitlab/-/issues/440653)**
+**[Optimize FY26 direction and goals](https://gitlab.com/gitlab-org/gitlab/-/issues/512065)**
 
 ### How we work
 
@@ -16,6 +16,7 @@ title: "Optimize Group"
 - We do an asynchronous daily stand-up in our group stand-up channel:
   - [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
 - You can reach out to the team on slack at: [#g_plan_optimize](https://gitlab.enterprise.slack.com/archives/CJZR6KPB4)
+  - All Optimize team members are ancouraged to triage and respond to requests in the team Slack channel, regardless of the nature of the questions being asked.
 
 #### Prioritization
 
@@ -51,6 +52,78 @@ As a general guideline, we try to plan each release in this way:
 - **Maintenance**: 25%
 
 These targets will be [reviewed monthly](/handbook/product/product-processes/) after each release during the [retrospective](https://gitlab.com/gl-retrospectives/manage-stage/optimize/-/issues).
+
+#### SSoT for data flows across Optimize features
+
+##### Data flow for Contribution analytics
+
+**Data flow for [Group contribution analytics](https://docs.gitlab.com/ee/user/group/contribution_analytics) & [Group value stream dashboard contributions](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html)**
+
+```mermaid
+flowchart TB
+    subgraph User Actions
+        user_actions["User Actions\n(MRs, Pushes, Issues, etc..)"]
+    end
+
+    subgraph Postgres
+        events_table_pg["Events Table"]
+    end
+
+    subgraph ClickHouse
+        events_table_ch["Events Table"]
+        contributions_mv["Contributions\nMaterialized View"]
+    end
+
+    subgraph GraphQL
+        contribution_analytics["ContributionAnalyticsContribution\n(Group Contribution Analytics)"]
+        value_stream["ValueStreamDashboardCount"]
+    end
+
+    user_actions -->|EventCreateService| events_table_pg
+    events_table_pg -->|EventSyncStrategy\nevery 3min| events_table_ch
+    events_table_ch --> contributions_mv
+    events_table_pg --> contribution_analytics
+    contributions_mv --> contribution_analytics
+    contributions_mv --> value_stream
+```
+
+##### Data flow for AI Impact Analytics
+
+**Data flow for [Group/Project AI Impact Analytics](https://docs.gitlab.com/ee/user/analytics/ai_impact_analytics.html)**
+
+```mermaid
+flowchart TB
+    subgraph Postgres
+      ai_code_suggestion_events
+    end
+    subgraph ClickHouse
+      code_suggestion_usages
+      duo_chat_events
+      duo_chat_daily_events_mv
+      code_suggestion_daily_usages_mv
+    end
+    subgraph GraphQL
+      aiMetrics
+      aiUserMetrics
+      aiUsageData
+    end
+    subgraph Redis
+      Ai::UsageEventWriteBuffer
+      ClickHouse::WriteBuffer
+    end
+    user_IDE-->|/usage_data/track_events|REST_API
+    REST_API-->Ai::UsageEventWriteBuffer
+    REST_API-->ClickHouse::WriteBuffer
+    Ai::UsageEventWriteBuffer-->|sync every 5min|ai_code_suggestion_events
+    ClickHouse::WriteBuffer-->|sync every 5min|code_suggestion_usages
+    ClickHouse::WriteBuffer-->|sync every 5min|duo_chat_events
+    duo_chat_events --> duo_chat_daily_events_mv
+    code_suggestion_usages --> code_suggestion_daily_usages_mv
+    ai_code_suggestion_events --> aiUsageData
+    duo_chat_daily_events_mv --> aiMetrics
+    code_suggestion_daily_usages_mv --> aiMetrics
+    code_suggestion_daily_usages_mv --> aiUserMetrics
+```
 
 #### Organizing the work
 
@@ -312,6 +385,19 @@ Considerations for data seeding scripts:
 
 - Ensure scripts are parameterized allowing specification of group or project ID where relevant
 - Ensure scripts can be run repeatedly without failure
+
+#### Feature Flags
+
+We [use feature flags as needed](/handbook/product-development-flow/feature-flag-lifecycle) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
+
+The following roles and responsibilities are associated with feature flags we own:
+
+- [DRI](/handbook/people-group/directly-responsible-individuals/) assignment
+  - The author introducing a feature flag is the DRI of the feature flag rollout.
+- Auditing and cleanup
+  - The EM is DRI for auditing feature flags owned within the stage and will schedule cleanups in collaboration with the feature flag DRI.
+- Process improvements
+  - Everyone is encouraged to contribute toward process improvements.
 
 ## Meetings
 

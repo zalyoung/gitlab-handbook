@@ -139,6 +139,7 @@ Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs s
 1. [People First Jobs](https://peoplefirstjobs.com/jobs)
 1. [Remote Tech Jobs](https://remotetechjobs.com/)
 1. [Close Sales Remote Job Board](https://www.close.com/careers)
+1. [Curaiz](https://www.curaiz.com)
 
 > "Getting promoted while working remotely really depends on how remote your company is. GitLab is a fully remote organization with over 700 folks around the world, so getting promoted wasn't difficult at all. In previous roles, I was the only person who worked remotely. In those cases, I felt very forgotten by my employer." - *Emilie L Schario, a Data Engineer at GitLab*
 
@@ -185,8 +186,8 @@ Each of these platforms support search via hashtag. Be aware that many results w
 1. `#telecommute`
 1. `#locationindependent`
 
-Working in an all-remote environment is unique. Be sure to read over the distinct [benefits]({{< ref "remote-benefits" >}}) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
+Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](/handbook/company/culture/all-remote/remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

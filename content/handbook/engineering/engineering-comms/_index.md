@@ -27,6 +27,19 @@ The Engineering Divison has a Google Group, [`engineering@gitlab.com`](https://g
 
 - [**Engineering All-Hands**](/handbook/engineering/cto-leadership-team/#engineering-all-hands).
 - **CTO Office Hours**: Each week the CTO holds open office hours on Zoom for questions, feedback, and handbook changes. Check the CTO's calendar and look for EMEA and APAC-friendly time slots.
+- **Principal+ Engineering Demo**: this call is an opportunity for sync discussions between
+  Principal+ ICs across the Engineering Division to highlight current ongoing efforts underway in the groups they support.
+  - Focuses for the call include:
+    - Technical roadmap planning: dependencies, cross-departmental upstream requirements,
+      opportunities for downstream improvements based on current projects. Future initiatives.
+    - Opportunities for cross-department alignment, reuse of tooling, modules, processes,
+      standards, technology, documentation.
+    - Discussions on improving the career development resources for Engineering ICs at all levels
+  - All team members are welcome to join the call,
+    but the emphasis is on Principal+ ICs in the Engineering Division to present
+    and discuss the work they’re focused on, the problems they’re experiencing,
+    and solutions they’re considering.
+  - The call is recorded and available in [Google Drive](https://drive.google.com/drive/search?q=in:0APOeuCQrsm4KUk9PVA%20type:video%20title:principal).
 
 ### Asynchronous updates
 

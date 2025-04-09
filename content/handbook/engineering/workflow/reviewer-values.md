@@ -21,7 +21,7 @@ Users > contributors > ourselves
 
 It's important to keep in mind that reviewers/maintainers don't own the requirements.
 It's ultimately the job of Product/UX to create and uphold them.
-Please [involve PM](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/#working-with-community-contributions)
+Please [involve PM](/handbook/product/product-processes/)
 if there are concerns about the functionality being introduced in a contribution.
 However, we all play a part in keeping an eye on the holistic end-user experience.
 

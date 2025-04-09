@@ -12,7 +12,7 @@ description: "Overview of how work is performed by Distribution Engineers, for O
 Distribution team members are expected to:
 
 * Be kind in their interaction with the rest of the community and other teams
-* Ensure that fixing red master branch in projects takes the highest priority
+* Ensure that fixing red main branch in projects takes the highest priority
 * Pick items to work on from the project scheduled queues
 * Define test plans for changes not covered by integration tests
 * Label issues and merge requests to track [engineering metrics](/handbook/product/groups/product-analysis/engineering/dashboards/)
@@ -149,7 +149,7 @@ The Distribution DRI works on the following areas per the order of the list.
 
 1. Support incidents escalated from production.
 1. [Support customer requests](/handbook/engineering/infrastructure/core-platform/systems/distribution/#engaging-distribution-for-expertise-in-support)
-    * ([Distribution support request issues](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/?sort=created_date&state=opened&label_name%5B%5D=support%20request&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADistribution%20Build&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADistribution%20Deploy&first_page_size=20)).
+    * [Support help requests for Build and Self-managed](https://gitlab.com/gitlab-com/request-for-help/-/issues)
 1. Answer or redirect questions in [#g_distribution](https://gitlab.slack.com/archives/C1FCTU4BE) Slack channel.
 1. [Perform issue triage](/handbook/engineering/infrastructure/core-platform/systems/distribution/triage/).
 1. Respond to `@gitlab-org/distribution` group mentions in GitLab.

@@ -160,7 +160,35 @@ More details can be found at the [MRARR Developer Relations PI section](/handboo
 ## How we plan work
 
 The team uses the [Contributor Success Kanban board](https://gitlab.com/groups/gitlab-org/-/boards/7745119?label_name[]=Contributor%20Success).
-Everything that we're working actively is present above the cut-line. Our planning is always focussed on improving our KPIs & achieving our OKRs.
+Issues must:
+
+- Be created in the `gitlab-org` group
+- Have the `Contributor Success` label
+- Have at least 1 `workflow` label from the list below
+
+We use `priority` labels to designate focus areas per quarter.
+
+### Workflow labels
+
+- `workflow::validation backlog`: Issues start in our backlog so the team can validate for effort vs. impact against our KPIs, OKRs and team strategies.
+- `workflow::refinement`: These issues are validated and refined through planning and team discussion before they are marked as ready. Issues should have an Implementation Plan section before moving to the next workflow stage.
+- `workflow::ready for development`: These issues are ready to be picked up, have an Implementation Plan section and a `priority` label.
+- `workflow::in dev`: Issues actively being worked on this quarter.
+- `workflow::blocked`: Issues currently blocked. The description must note the blocker and include a link to issues that would unblock.
+- `workflow::complete`: Issues that are resolved after implementation. These should be highlighted in reports back to the team and DevRel department before being closed.
+
+### Priority labels
+
+- `priority::1` (highest priority): Issues critical to the current quarter's KPIs and OKRs, or urgent bugs blocking work for contributors.
+- `priority::2`: Issues aligned with current quarter's goals but without urgent due dates.
+- `priority::3`: Issues that support long-term objectives without impact on current quarter goals.
+- `priority::4` (lowest priority): Issues that bring incremental value but can wait for additional capacity.
+
+### How to pick issues
+
+Team members should select issues from `workflow::ready for development` based on `priority` label.
+While the team focuses on `priority::1` and `priority::2` issues for the current quarter, sometimes it makes sense to pick up a lower-priority task between larger projects.
+We are guided by GitLab's values on [efficiency](/handbook/values/#efficiency) and [iteration](/handbook/values/#iteration) to act as [managers of one](/handbook/values/#managers-of-one) when choosing tasks.
 
 ## Contributor Success Retrospective
 

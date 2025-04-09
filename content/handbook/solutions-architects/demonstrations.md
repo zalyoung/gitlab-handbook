@@ -43,7 +43,7 @@ The main flow should be:
 
 ## Existing Demonstrations
 
-[Demo Architect Offerings Handbook page](/handbook/solutions-architects/demo-architect/) lists currently available shared CS demos, lunch & learns and workshops maintained and owned by Demo Engineering.
+[Demo Architect Offerings Handbook page](/handbook/solutions-architects/center-of-excellence/demo-architecture/) lists currently available shared CS demos, lunch & learns and workshops maintained and owned by Demo Engineering.
 
 In addition, there are various legacy sources and locations that might be helpful in locating reusable demos and projects:
 

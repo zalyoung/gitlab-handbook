@@ -13,7 +13,7 @@ Every Product Designer is empowered to triage issues labeled with "~UX", ["~Defe
 
 ### Scheduling issues in a milestone
 
-All issues labeled [`Deliverable`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=UX&label_name%5B%5D=Deliverable) that require UX will be assigned to a Product Designer by the kickoff. Issues labeled [`Stretch`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Stretch&label_name%5B%5D=UX) may or may not be assigned by the kickoff. Learn more about how we use Workflow labels in the [GitLab Docs](https://docs.gitlab.com/ee/development/labels/index.html#release-scoping-labels).
+All issues labeled [`Deliverable`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=UX&label_name%5B%5D=Deliverable) that require UX will be assigned to a Product Designer by the kickoff. Issues labeled [`Stretch`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=Stretch&label_name%5B%5D=UX) may or may not be assigned by the kickoff. Learn more about how we use Workflow labels in the [GitLab Docs](https://docs.gitlab.com/development/labels/#release-scoping-labels).
 
 #### Communicating scheduled UX issues to the stage group
 
@@ -122,7 +122,7 @@ When applying iterative design, consider the longer-term strategy and collaborat
 - **Collaborate with Technical Writers**: For substantial UI text changes, work closely with your group's Technical Writer. For smaller changes, involve them in the review process.
 - **Involve your Product Design Manager**: For significant UX changes, include your Product Design Manager in feedback sessions for broader insights and alignment with other initiatives.
 - **Validate with users**: If high-risk or uncertain directions, validate solutions with users through [UX research](/handbook/product/ux/ux-research/solution-validation-and-methods/). For lower-risk directions, gather feedback from users after releasing the minimal valuable change (MVC).
-- **Use the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)**:  Refer to the design and UI changes checklist to ensure your design's readability, appearance, and functionality.
+- **Use the [design and UI changes checklist](https://docs.gitlab.com/development/contributing/design/#checklist)**:  Refer to the design and UI changes checklist to ensure your design's readability, appearance, and functionality.
 
 #### GitLab Design Talks: Iteration
 
@@ -243,7 +243,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
 - **Include your design**:
   - Add your design to the "Solution" section. For small designs, a mock-up may suffice. For more detailed changes, include a link to the Figma file.
 - **Use the design handbook checklist**:
-  - Follow the [design handoff checklist](https://docs.gitlab.com/ee/development/contributing/design.html#handoff) to make sure all design specifications are documented and engineers are set up for success.
+  - Follow the [design handoff checklist](https://docs.gitlab.com/development/contributing/design/#handoff) to make sure all design specifications are documented and engineers are set up for success.
 - **Leverage collaboration tools**:
   - Utilize both Figma's collaboration tools and [GitLab's design management features](https://about.gitlab.com/direction/plan/design_management/). Refer to the following table for common scenarios and recommended tools. Use your judgment to decide the best way to move the design forward.
 

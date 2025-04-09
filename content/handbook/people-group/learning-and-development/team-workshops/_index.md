@@ -22,7 +22,7 @@ Currently offered workshops cover the following skills:
 1. Decision Making and Managing Ambiguity
 1. Unconscious Bias
 
-_These skills were selected and prioritized based on themes derived from the [talent development listening tour](/handbook/people-group/learning-and-development/listening-tour/), feedback from People Business Partners, and Elevate Programs._
+_These skills were selected and prioritized based on themes derived from the talent development listening tour feedback from People Business Partners, and Elevate Programs._
 
 To read more about each workshop, visit the [Team Workshops Level Up page](https://university.gitlab.com/pages/team-workshops). Then, when you're ready to start planning, [open an issue](https://gitlab.com/gitlab-com/people-group/learning-development/custom-ld-engagement/-/issues/new?issuable_template=team-workshops) to connect with the Talent Development team for support.
 

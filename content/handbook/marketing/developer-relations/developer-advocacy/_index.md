@@ -82,7 +82,7 @@ We recognize these KPIs don't capture the impact of the diverse range of work th
 When we are reviewing opportunities or requests for support, we must be able to answer yes to each of these questions to move forward with the work:
 
 1. Will this work support, grow, and/or engage GitLab customers and community members?
-1. Is there a measurable impact against one of our team's KPIs? Because of GitLab's [global optimization subvalue](/handbook/values/#global-optimization), we'll also consider requests that influence a company KPI or contribute to progress on an OKR.
+1. Is there a measurable impact against one of our team's KPIs? Because of GitLab's [global optimization subvalue](/handbook/values/#efficiency-for-the-right-group), we'll also consider requests that influence a company KPI or contribute to progress on an OKR.
 1. Has an issue been created to define the work and assign a DRI?
 
 If the answer to any of the above questions is "no", we ask the requestor to take one of the following actions:
@@ -97,7 +97,6 @@ We are members of the [Developer Relations team](/handbook/marketing/developer-r
 
 | Team member |  Focus areas | Languages | Projects | Technologies | Resources |
 |-------------|--------------|-----------|----------|--------------|-----------|
-| [Abubakar Siddiq Ango](/handbook/company/team/#abuango) <br/> Developer Advocate |  Program management, team content creation and repurpose. DevSecOps with a focus on the Cloud Native Ecosystem | English, Yoruba, Hausa | [DevRel Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-relations-bot), [Campaign Manager](/handbook/marketing/developer-relations/community-apps/campaign-manager/), [event support](/handbook/marketing/developer-relations/developer-advocacy/#corporate-event-support) |  Kubernetes, CI/CD, PHP, Ruby, JavaScript, Rust | [Website](https://abuango.me/) |
 | [Cesar Saavedra](/handbook/company/team/#csaavedra1) <br/> Staff Developer Advocate | DevSecOps with a focus on CD, GitOps, Kubernetes, GitLab Flow, Feature flags, GitLab Duo | English, Spanish | [GitLab demos on YouTube](/handbook/marketing/developer-relations/developer-advocacy/content/#youtube-playlists), Analyst relations demos, Competitive Research, CD Overview, Feature Flags, GitLab Flow |  Kubernetes, GitOps, CI/CD, Java, AI |  |
 | [Daniel Helfand](/handbook/company/team/#dhelfand) <br/> Developer Advocate | DevSecOps | English |  | CI/CD, Kubernetes, Go |  |
 | [Fatima Sarah Khalid](/handbook/company/team/#sugaroverflow) <br/> Developer Advocate | Community Engagement, DevSecOps | English | [LinkedIn Live](/handbook/marketing/developer-relations/developer-advocacy/projects/#linkedin-lives-in-collaboration-with-the-social-team), [Community Engagement](/handbook/marketing/developer-relations/developer-advocacy/#community-engagement) | CI/CD, C++, PHP, JavaScript | |
@@ -105,7 +104,7 @@ We are members of the [Developer Relations team](/handbook/marketing/developer-r
 | [Itzik Gan-Baruch](/handbook/company/team/#iganbaruch) <br/> Staff Developer Advocate | DevSecOps with a focus on CI/CD, Remote Development/IDEs and Value Stream Management | English, Hebrew | [Product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours), [Click-through demos](/handbook/marketing/developer-relations/developer-advocacy/content/#click-through-demos), [CI/CD components](/handbook/marketing/developer-relations/developer-advocacy/projects/#cicd-components-catalog) |  Remote Development, CI/CD, Value Stream Management |  |
 | [John Coghlan](/handbook/company/team/#john-coghlan) <br/> Director, Developer Advocacy | Strategy and Planning in Developer Advocacy | English | | | [Website](https://coghlan.me/) |
 | [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Staff Developer Advocate | DevSecOps with a focus on  efficiency with AI | English, German, Austrian | [GitLab Duo Adoption](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-adoption), [CI/CD components](/handbook/marketing/developer-relations/developer-advocacy/projects/#cicd-components-catalog) | DevSecOps, AI, CI/CD, Python, Go, C/C++, Rust | [README](/handbook/marketing/readmes/michael-friedrich/), [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/portfolio/) |
-| [William Arias](/handbook/company/team/#warias) <br/> Staff Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish | Support Ticket Sentiment Analysis, Competitive Research, Analyst relations demos, [End-to-end DevSecOps Platform](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure) | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
+| [William Arias](/handbook/company/team/#waarias) <br/> Staff Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish | Support Ticket Sentiment Analysis, Competitive Research, Analyst relations demos, [End-to-end DevSecOps Platform](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure) | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
 
 ## <i class="fa fa-tasks" aria-hidden="true"></i> What we do
 
@@ -113,7 +112,7 @@ Our developer advocate team can be summarized by the "Three Cs":
 
 1. **Content creation:** This is what many often think of when thinking of the traditional role of developer relations: writing blog posts, delivering technical talks, participating in podcasts or panels, and sharing ideas and thoughts on social media. Content creation also includes assets co-created with other GitLab teams, inside and outside of Marketing.
 1. **Customer and community engagement:** Our team regularly engages with GitLab customers and the wider GitLab community when they have questions, concerns, and feedback. This happens during in-person and virtual events, webinars, and meetings and online via GitLab issues, the GitLab Forum, Hacker News, and other social media sites.
-1. **Consulting:** Within GitLab, our team represents the voice of the community. When other teams are working on changes or decisions that will impact customers and the community, we will educate them on our customers and community, advocate for their interests, and work to ensure that any potential impacts are clearly understood and addressed when communicating such changes. Our team also shares our knowledge of industry trends, emerging tools, social media strategy, and other skills to support our teammates in achieving their goals in alignment with GitLab's [Global Optimization](/handbook/values/#global-optimization) subvalue.
+1. **Consulting:** Within GitLab, our team represents the voice of the community. When other teams are working on changes or decisions that will impact customers and the community, we will educate them on our customers and community, advocate for their interests, and work to ensure that any potential impacts are clearly understood and addressed when communicating such changes. Our team also shares our knowledge of industry trends, emerging tools, social media strategy, and other skills to support our teammates in achieving their goals in alignment with GitLab's [Cross-functiona Optimization](/handbook/values/#cross-functional-optimization) subvalue.
 
 ### Content creation
 
@@ -150,6 +149,8 @@ Please read the [Consultancy](/handbook/marketing/developer-relations/developer-
 #### Event support
 
 The Developer Advocate team plays a key role in supporting events. We work closely alongside [Corporate Event Marketing](/handbook/marketing/integrated-marketing/corporate-events/) to provide strategic content and assistance for both corporate and third-party sponsored events. This collaboration ensures the success and seamless execution of various gatherings. To learn more please refer to the [Events page](/handbook/marketing/developer-relations/events/).
+
+We also help team members prepare for speaking opportunities at local tech events and meetups. If you'd like help preparing for such an event, please reach out to us in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel or create an issue using the [Developer Advocate Request template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?description_template=developer-advocate-request).
 
 #### Release Advocacy
 

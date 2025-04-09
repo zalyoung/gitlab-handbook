@@ -229,7 +229,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 
 - The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
-  - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
+  - ["Start less, finish more"](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/#starting-new-work)
   - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
 
 ### Steps to getting help from Sales Systems
@@ -272,21 +272,22 @@ The Business DRI should sign off after validating the provided solution works as
 
 Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department
 
-| Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
-|-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Operations                |
-| Territory Management        | Director, Sales Operations                  | Senior Director, Sales Operations                |
-| Partner Operations          | Sales Operations                            | Sales Operations                                 |
-| Customer Success Operations | Senior Director, CS Strategy & Operations   | VP of Field Operations                           |
-| Sales Operations            | Director, Sales Operations                  | Senior Director, Sales Operations                |
-| Deal Desk                   | Sr. Director, Deal Desk                     | Senior Director, Sales Operations                |
-| Professional Services       | Director, Professional Services             | VP of Professional Services & Education          |
-| Marketing Operations        | Director, Marketing Operations              | Senior Director, Marketing Strategy & Platforms  |
-| Sales Dev Operations        | Director, Sales Development Operations      | VP, Sales Development                            |
-| Sales Compensation          | Director, Sales Commissions                 | Senior Director, Sales Operations                |
-| Legal                       | Legal Compliance and Ethics                 | Senior Director, Legal, Corporate and Compliance |
-| Sales Systems               | Senior Manager, Sales Systems               | Senior Director, Enterprise Applications         |
-| Fulfillment                 | Director of Product, Fulfillment            | VP, Product Management                           |
+| Team / Lane                 | Main Approver                                                                                  | Backup Approver                                  |
+|-----------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Quote To Cash               | Director, Quote to Cash                                                                        | Senior Director, Sales Operations                |
+| Territory Management        | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
+| Ecosystems                  | Director, Sales Operations                                                                     | Senior Manager, Global Ecosystem Specialists     |
+| Customer Success Operations | Senior Director, CS Strategy & Operations                                                      | VP, Field Operations                             |
+| Sales Operations            | Director, Sales Operations                                                                     | Senior Director, Sales Operations                |
+| Deal Desk                   | Sr. Director, Deal Desk                                                                        | Senior Director, Sales Operations                |
+| Professional Services       | Director, Professional Services                                                                | VP, Professional Services & Education            |
+| Marketing Operations        | Director, Marketing Operations                                                                 | Senior Director, Marketing Strategy & Platforms  |
+| Sales Dev Operations        | Director, Sales Development Operations                                                         | VP, Sales Development                            |
+| Sales Compensation          | Director, Sales Commissions                                                                    | Senior Director, Sales Operations                |
+| Legal                       | Director, Legal Compliance and Ethics                                                          | VP, Legal                                        |
+| Sales Systems               | Senior Manager, Sales Systems                                                                  | Senior Director, Enterprise Applications         |
+| Fulfillment                 | Group Manager, Fulfillment                                                                     | VP, Product Management                           |
+| Data                        | Director, Data Analytics                                                                       | VP, Data & Analytics                             |
 
 #### [Systems Owner] Systems Owner Sign-off
 

@@ -17,7 +17,7 @@ This section of the handbook is a collection of processes that a required to be 
 Documentation on how to make changes to stages, groups, and categories, as well as what approvals are required, can be found in our [website handbook page](/handbook/marketing/digital-experience/).
 
 As GitLab grows we will need to create new groups, stages, and categories. During this transition period
-we need to [globally optimize](/handbook/values/#global-optimization), and ensure that important issues are not blocked during the creation of a new group.
+we need to [globally optimize](/handbook/values/#efficiency-for-the-right-group), and ensure that important issues are not blocked during the creation of a new group.
 
 There are three common scenarios which may encounter these transition periods:
 

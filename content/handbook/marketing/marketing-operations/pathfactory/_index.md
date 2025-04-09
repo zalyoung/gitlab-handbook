@@ -194,7 +194,6 @@ Track labels are used to document the channels that a content track is distribut
 | internal use only | content track is distributed to GitLab team members only |
 | landing page | content track is sent to a visitor after filling out a form on a landing page |
 | organic social | content track is shared in an organic social media post |
-| outreach | content track is sent via [Outreach](/handbook/marketing/marketing-operations/outreach/) |
 | paid search | content track is part of a paid search campaign |
 | paid social | content track is part of a paid social campaign |
 | SAE inbound | content track is enabled for PathFactory for Sales for SAEs to share inbound |

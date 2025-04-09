@@ -7,7 +7,7 @@ description: "The Monitor Stage is responsible providing observability and respo
 
 This stage consists of the following group:
 
-- [Analytics Instrymentation](analytics-instrumentation/)
+- [Analytics Instrumentation](analytics-instrumentation/)
 - [Optimize](optimize/)
 - [Platform Insights](platform-insights/)
 

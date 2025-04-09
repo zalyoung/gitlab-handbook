@@ -14,11 +14,11 @@ The Senior Manager, Quote to Cash is a [grade 9](/handbook/total-rewards/compens
 
 #### Senior Manager, Quote to Cash Responsibilities
 
-- Serve as primary program manager for many Quote to Cash projects
+- Lead and manage key projects related to QTC process
 - Serve in an advisory role to the Deal Desk & Sales Operations teams across GitLab
 - Partner with our enablement team to ramp our sales team on new and existing processes related to Quote to Cash
-- Serve as principal Q2C representative with our Sales Systems & Product teams to prioritize & iterate on our systems & data
-- Define and deliver analytics on Q2C success metrics from sources across departments
+- Serve as principal QTC representative with our Sales Systems & Product teams to prioritize & iterate on our systems & data
+- Define and deliver analytics on QTC success metrics from sources across departments
 - Quote velocity metrics
 - Quote to Cash operational metrics - i.e. quote and opportunity approval volume and trends
 - Automation efficiency metrics (e.g. % of quotes requiring manual intervention)
@@ -67,18 +67,18 @@ The Director, Quote to Cash is a [grade 10](/handbook/total-rewards/compensation
 
 In addition to the responsibilities of the Senior Manager, Quote to Cash below, the Director, Quote to Cash is responsible for:
 
-- Serve as primary Program manager for Quote to Cash, partnering with Finance, Product, Sales (including online sales) & Revenue Operations
-- Serve as lead of Buyer Experience Group
-- Partner with Senior leadership to define the future state of Quote to Cash
+- Own the creation and iteration of GitLab's holistic Quote to Cash program
+- Serve as primary Program manager for Quote to Cash, partnering with Finance, Product, Sales (including online sales) & Revenue Operations leaders to define the future state of Quote to Cash
+- Lead and facilitate the cross-functional Quote to Cash Steering Committee
 - Own the creation and iteration of:
   - Current state process workflow documentation
   - GitLab's holistic Quote to Cash roadmap including current and future toolsets
   - Milestone-based roadmap of releases to the field
-- Define and document best in class Q2C processes to support our internal and external customers
+- Define and document best in class QTC processes to support our internal and external customers
 - Serve in an advisory role to the Deal Desk & Sales Operations teams across GitLab
 - Partner with our enablement team to ramp our sales team on new and existing processes related to Quote to Cash
-- Serve as principal with our Sales Systems & Product teams to prioritize & iterate on our systems & data
-- Define and deliver analytics on Q2C success metrics from sources across departments
+- Serve as principal QTC representative with Sales Systems & Product teams to prioritize and iterate on our systems, processes, and data
+- Define and deliver analytics on QTC success metrics from sources across departments
 - Quote velocity metrics
 - Quote to Cash operational metrics - i.e. quote and opportunity approval volume and trends
 - Automation efficiency metrics (e.g. % of quotes requiring manual intervention)
@@ -119,7 +119,7 @@ The next steps for the Director, Quote to Cash job family has not yet been defin
 
 Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, qualified candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, qualified candidates will be invited to interview with 2-5 team members
 - There may be a final executive interview for qualified candidates

@@ -43,7 +43,7 @@ of GitLab's [product hierarchy](/handbook/product/categories/#hierarchy)
 ### Group Manager, Product (GMP)
 
 This role typically manages 2-4 Product Managers, and reports either to a [Director of Product](#director-of-product-management),
-a [Senior Director of Product Management](#senior-director-of-product-management) or the [VP of Product Management]({{< ref "product-leadership#vp-of-product-managemen" >}}).
+a [Senior Director of Product Management](#senior-director-of-product-management) or the [VP of Product Management](/job-families/product/product-leadership/#vp-of-product-management).
 
 #### Group Manager, Product (GMP) - Job Grade
 
@@ -148,7 +148,7 @@ Candidates for this position can generally expect the hiring process to follow t
 
 ### Director of Product Management
 
-This role typically manages 4-6 direct reports, including Product Managers and Group Managers of Product Management, and reports to either a [Senior Director of Product Management](#senior-director-of-product-management) or the [VP of Product Management]({{< ref "product-leadership#vp-of-product-management" >}}).
+This role typically manages 4-6 direct reports, including Product Managers and Group Managers of Product Management, and reports to either a [Senior Director of Product Management](#senior-director-of-product-management) or the [VP of Product Management](/job-families/product/product-leadership/#vp-of-product-management).
 
 #### Director of Product Management - Job Grade
 
@@ -164,7 +164,7 @@ The Director, Product Management is a [grade 10](/handbook/total-rewards/compens
   - Within the area of ownership, ensure that team creates product experiences that solve the job-to-be-done.
   - Across your peer group - work to identify areas to partner with peers to create single app experiences that solve the job-to-be-done.
 - Ensure adequate Career Coaching is available to all Product Managers in your organization
-- Maintain a comprehensive understanding of GitLab's overall, and Section specific Product Direction to spot, propose and complete appropriate [global optimizations](/handbook/values/#global-optimization) of our R&D investment
+- Maintain a comprehensive understanding of GitLab's overall, and Section specific Product Direction to spot, propose and complete appropriate [global optimizations](/handbook/values/#efficiency-for-the-right-group) of our R&D investment
 - Analyze GTM metrics and propose and complete improvements to our R&D and GTM interactions including [pricing](/handbook/company/pricing/), product positioning and process
 - Maintain priorities for and champion [acquisitions](/handbook/acquisitions/) that impact our [product maturity](https://about.gitlab.com/direction/#maturity)
 - Perform [product walk-throughs](/handbook/product/product-processes/#walk-through) regularly to highlight opportunities for improved workflows that span groups, stages and section.
@@ -217,7 +217,7 @@ Candidates for this position can generally expect the hiring process to follow t
 
 ### Senior Director of Product Management
 
-This role typically manages 4-6 direct reports, including Product Managers, Group Managers of Product Management, and Directors of Product Management, and reports to the [VP of Product Management]({{< ref "product-leadership#vp-of-product-managemen" >}}).
+This role typically manages 4-6 direct reports, including Product Managers, Group Managers of Product Management, and Directors of Product Management, and reports to the [VP of Product Management](/job-families/product/product-leadership/#vp-of-product-management).
 
 #### Senior Director of Product Management - Job Grade
 

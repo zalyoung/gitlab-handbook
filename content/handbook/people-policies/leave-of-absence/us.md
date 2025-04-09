@@ -30,7 +30,7 @@ Below are the GitLab and US-specific leave policies available to US team members
 
 | Leave Program | Total Time Off | Job Protection |
 |:---:|:---:|:---:|
-| [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) | 16 weeks | Yes* |
+| [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) | 16 weeks | Yes* |
 | [Family Medical Leave Act<br>(FMLA- Own Condition)](#the-family-medical-leave-act-fmla) | Up to 12 weeks | Yes* |
 | [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | Up to 12 weeks | Yes* |
 | [California Family Rights Act (CFRA)](https://edd.ca.gov/en/disability/faqs-fmla-cfra) | Up to 12 weeks** | Yes |
@@ -50,7 +50,7 @@ Below are the GitLab and US-specific leave policies available to US team members
 
 *If leave is taken continuously
 
-If you live in a state where disability or paid family leave benefits are available, GitLab will offset your pay minus these benefits. Please refer to GitLab's [Parental Leave]({{< ref "inc-benefits-us#parental-leave" >}}) policy for more information.
+If you live in a state where disability or paid family leave benefits are available, GitLab will offset your pay minus these benefits. Please refer to GitLab's [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#parental-leave) policy for more information.
 
 ## What Happens Next?
 

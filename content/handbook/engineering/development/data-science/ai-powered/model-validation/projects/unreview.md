@@ -86,7 +86,7 @@ When integrating UnReview into GitLab, some components can be replaced as we pro
 
 ### Integration into GitLab
 
-The backend work for integration will be primarily handled by the [AI Assisted](/handbook/engineering/development/data-science/ai-assisted/) team with help from the infrastructure team.  The frontend work will be by both the AI Assisted team and the `Create::code review` team (PM [Kai Armstrong](/handbook/company/team/#phikai) and EM [André Luís](/handbook/company/team/#andr3)).
+The backend work for integration will be primarily handled by the [AI Assisted](/handbook/engineering/development/data-science/ai-powered/) team with help from the infrastructure team.  The frontend work will be by both the AI Assisted team and the `Create::code review` team (PM [Kai Armstrong](/handbook/company/team/#phikai) and EM [André Luís](/handbook/company/team/#andr3)).
 
 * Milestone 1 [Reviewer/maintainer assignment architectural plan and PoC](https://gitlab.com/groups/gitlab-org/-/epics/5794)
 * Milestone 2 [Customer facing MVC of integration of unreview](https://gitlab.com/groups/gitlab-org/-/epics/6113)

@@ -8,7 +8,7 @@ description: Information for Sales, CS and PS about how best to collaborate with
 ### ASE service kickoff meeting
 
 The ASE service can be sold to an account as a standalone service or as part
-of a bundled offering such as [SPS](https://handbook.gitlab.com/handbook/support/support-idk/#sps). In both situations, the Account Team
+of a bundled offering such as [SPS](/handbook/support/support-idk/). In both situations, the Account Team
 generally facilitates a services kickoff meeting that includes Support.
 For the ASE service to get off to a strong start and have the best chance at
 long-term success, the ASEs need the Account Team's help:
@@ -27,7 +27,7 @@ long-term success, the ASEs need the Account Team's help:
       meeting
       - The ASE will facilitate this meeting
       - The ASE will base the agenda off of the
-        [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#structure)
+        [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.md/#customer-introductory-meeting-structure)
       - We welcome Account Team participation in the meeting so that you can
         stay well informed about the ASE's work and also so that the customers
         can see that we really are a team.
@@ -37,7 +37,7 @@ long-term success, the ASEs need the Account Team's help:
         briefly, and we will mention that there will be a second meeting
       - The second meeting will be conducted as described above, with the ASE
         facilitating and the agenda being based off the
-        [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#structure)
+        [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#customer-introductory-meeting-structure)
 
 ### New ASE introductory meeting
 
@@ -45,7 +45,7 @@ When it becomes necessary to introduce a new ASE to an established ASE account,
 such as when the existing ASE moves into a new role, we will want to host an abbreviated kickoff-style meeting. In this meeting:
 
 1. The new ASE will build the agenda with a focus on the first two main items
-   in the [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#structure)
+   in the [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#customer-introductory-meeting-structure)
 1. We will ask that the CSA participate in the meeting in order to help the
    transition to be as smooth as possible. This also provides an opportunity
    for the CSA and ASE to ensure that they know the customer's GitLab plans and
@@ -71,7 +71,7 @@ such as when the existing ASE moves into a new role, we will want to host an abb
    won't do, please let the ASE or their manager answer that question. If it
    turns out from our answer that you had a different expectation, we can
    discuss that internally and get realigned.
-1. Please trust in Support. If an ASE customer is upset about anything related to  
+1. Please trust in Support. If an ASE customer is upset about anything related to
    the ASE or the service, please listen to and document the customer's concerns,
    and share your faith and trust in us. Afterward, discuss the concerns with the
    ASE and, if needed, their manager.

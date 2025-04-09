@@ -21,12 +21,13 @@ At a high level, the Release post schedule is:
 
 ### Monday, 3 weeks before release
 
-- Release Post Manager manually triggers the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules):
+- Release Post Manager manually trigger the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules):
   - `Release Post Process Kickoff Tasks`
-  - `Add deprecations and removals to current release post branch`
 - These invoke the `bin/rake release_post:start` rake task. ([pipeline configuration](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L280-288); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L9))
 - This task creates the branches, MRs, and issues necessary to run the Release Post process
 - The MRs and issues will be assigned to the Release Post Manager using the content in [release_post_managers.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml)
+- After the `Release Post Process Kickoff Tasks` pipeline completes, and the release post branch is created with associated merge request, manually trigger the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules):
+  - `Add deprecations and removals to current release post branch`
 
 ### Monday through Thursday, 3 weeks before release
 
@@ -69,7 +70,7 @@ MRs added after the Thursday, 1 week before release should target the `release-x
   - RPM create a [What's New](/handbook/product/categories/gitlab-the-product/#using-whats-new-to-communicate-updates-to-users) MR
 
 {{% note %}}
-The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
+The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#operate-with-a-bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
 {{% /note %}}
 
 ### Thursday, release day
@@ -318,11 +319,11 @@ The generator will not create an MR for a confidential issue. To add a release p
 
 #### Option 2: manual MR creation
 
-- Create a new branch from `master` for each feature (primary, secondary, removal). [Deprecations are handled differently](#deprecations-and-other-planned-breaking-change-announcements)
+- Create a new branch from `master` of the [www-gitlab-com repository](https://gitlab.com/gitlab-com/www-gitlab-com) for each feature (primary, secondary, removal). [Deprecations are handled differently](#deprecations-and-other-planned-breaking-change-announcements)
 - Open a merge request targeted at the `master` branch
 - Use the [Release Post Item template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md)
-- Content should be one YAML file added to `data/release_posts/unreleased/` on the `master` branch
-  - See `data/release_posts/unreleased/samples/` for format and sample content
+- Content should be one YAML file added to [`data/release_posts/unreleased/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/release_posts/unreleased/) on the `master` branch
+  - See [`data/release_posts/unreleased/samples/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/release_posts/unreleased/samples?ref_type=heads) for format and sample content
   - Note that the structure needs to be preserved, like `features:` then `primary:`, then the feature content
   - Images should be placed in `/source/images/unreleased/`
 - Update the `data/features.yml` (if applicable) to include your feature and commit the changes as part of the same merge request
@@ -1049,7 +1050,6 @@ It is a required field.
   - [`secure`](https://about.gitlab.com/stages-devops-lifecycle/secure/)
   - [`software_supply_chain_security`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
-  - [`data_stores`](/handbook/product/categories/#data-stores-stage)
 
 The stages display as an icon next to the product tiers' badges linking
 to the stage webpage using a regex:
@@ -1072,16 +1072,12 @@ introducing their [respective icons](https://gitlab.com/gitlab-com/www-gitlab-co
 
 ##### Custom stage URL
 
-For stages outside of the DevOps lifecycle, such as Enablement
-and Growth, which don't have the same path as the other stages
+For stages outside of the DevOps lifecycle, such as
+Growth, which don't have the same path as the other stages
 (`/stages-devops-lifecycle/<stage>`), it is necessary to add
 the `stage_url` to the content block to override the default path:
 
 ```yml
-# Enablement
-stage: data_stores
-stage_url: '/handbook/engineering/infrastructure/core-platform/'
-
 # Growth
 stage: growth
 stage_url: '/handbook/product/growth/'

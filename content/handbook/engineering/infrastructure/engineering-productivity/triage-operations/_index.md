@@ -21,7 +21,7 @@ Our defect SLA can be viewed at:
 * [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
 
 The Quality Engineering department employs a number of tools and automation in addition to manual intervention to help us achieve this goal.
-The work in this area can been seen in our department roadmap under [Triage](/handbook/engineering/infrastructure/test-platform/roadmap/#triage-track-roadmap-view) and [Measure](/handbook/engineering/infrastructure/test-platform/roadmap/#measure-track-roadmap-view) tracks of work.
+The work in this area can been seen in our department roadmap under Triage and Measure tracks of work.
 
 ## Label renaming
 
@@ -119,7 +119,7 @@ The goal is for coaches to add type, stage, and group labels, so that the releva
 This report contains community merge requests that may require some attention from GitLab team members.
 
 * Frequency: Weekly.
-* Assignees: [Contributor Success team](/handbook/engineering/quality/contributor-success/) + volunteer wider community members.
+* Assignees: [Contributor Success team](/handbook/marketing/developer-relations/contributor-success) + volunteer wider community members.
 * Listed merge requests (all awaiting GitLab response):
   1. Merge requests from new contributors idle for 7 days.
   1. Merge requests idle for 21 days (excluding ~group::runner).

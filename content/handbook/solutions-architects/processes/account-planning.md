@@ -4,6 +4,8 @@ title: Account Planning for Solutions Architects
 
 ## Account Planning in Gainsight Overview
 
+- Note as of March 6th, 2025: this information is outdated and Gainsight is not the tool used by Solutions Architects for the purpose of Account Planning. There are plans to update this soon.
+
 [Account planning](/handbook/sales/account-planning/) helps the Strategic Account Leaders (SAE) and the Solutions Architects (SA) develop a plan to elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. This is a critical step is helping the team evaluate the customer's organization and work more strategically across the territory. Gainsight is a the tool for SAEs, SAs, and Customer Success Managers (CSMs) to manage the account planning process. Since it sits within SalesForce, it provides a comprehensive view of your customers, allows you to understand trends and risks, and empowers you to execute a strategy to help you win deals.
 
 ## Accessing Gainsight

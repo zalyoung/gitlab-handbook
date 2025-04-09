@@ -60,14 +60,14 @@ To improve efficiency and results, we need to automate this process.
 
 ```mermaid
 erDiagram
-
   "ErrorMonitorings" {
     integer id PK
     text message "null:false"
     string code
-    string error_type, limit: 1000
+    string error_type "limit: 1000"
     string status "null:false"
     string gitlab_issue_iid
+    string detailed_gitlab_issue_iid
     text backtrace
     jsonb payload
     text notes

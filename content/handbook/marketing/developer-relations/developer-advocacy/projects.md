@@ -39,9 +39,9 @@ Use cases overview:
 | [use-cases/ai/learn-with-ai](https://gitlab.com/gitlab-da/use-cases/ai/learn-with-ai) | @dnsmichi @sugaroverflow | Learning a programming language with GitLab Duo (AI), [blog series](https://about.gitlab.com/blog/categories/ai-ml/) |
 | [use-cases/ai/test-ai](https://gitlab.com/gitlab-da/use-cases/ai/test-ai) | all | Test playground for AI and GitLab Duo |
 | [use-cases/cicd-components-catalog](https://gitlab.com/gitlab-da/use-cases/cicd-components-catalog) |  @iganbaruch | GitLab CI/CD Components Catalog use cases |
-| [use-cases/code-experiments](https://gitlab.com/gitlab-da/use-cases/code-experiments) |  @warias @csaavedra1  | Code experiments with automation and quality assessments |
+| [use-cases/code-experiments](https://gitlab.com/gitlab-da/use-cases/code-experiments) |  @waarias @csaavedra1  | Code experiments with automation and quality assessments |
 | [use-cases/coverage-reports](https://gitlab.com/gitlab-da/use-cases/coverage-reports) | all | Code coverage reports examples |
-| [use-cases/devsecops-platform](https://gitlab.com/gitlab-da/use-cases/devsecops-platform) | @warias | End-to-end DevSecOps platform demo environment |
+| [use-cases/devsecops-platform](https://gitlab.com/gitlab-da/use-cases/devsecops-platform) | @waarias | End-to-end DevSecOps platform demo environment |
 | [use-cases/efficiency](https://gitlab.com/gitlab-da/use-cases/efficiency) | @dnsmichi | Efficiency use cases (CI/CD, container images, workflows, CLI, etc.) |
 | [use-cases/gitlab-api](https://gitlab.com/gitlab-da/use-cases/gitlab-api) | @dnsmichi | GitLab API use cases with libraries and scripts |
 | [use-cases/observability](https://gitlab.com/gitlab-da/use-cases/observability) | @dnsmichi | Observability uses cases and research (OpenTelemetry, eBPF, etc.) |
@@ -97,32 +97,13 @@ Our demo projects are referenced in blog posts and other public content. Moving 
 
 Some projects require access to Kubernetes clusters, self-managed CI/CD Runners, cloud VMs, domains, etc. The team has access to Google Cloud or AWS cloud resources that allow hosting these types of external infrastructure dependencies for GitLab.com SaaS demos.
 
-### Workflow
+Learn more in the [Cloud Resources for Developer Relations handbook](/handbook/marketing/developer-relations/workflows-tools/cloud-resources).
+
+### Best Practices
 
 1. Document the project setup in its README file (or a in a docs/ structure in the Git repository).
-1. Shutdown resources when not needed (i.e. Kubernetes clusters).
 1. Always add [security scanning](https://docs.gitlab.com/ee/user/application_security/) as default, unless it competes with the demo cases.
-
-For demos that require debugging the deployments, prefer shared resources, for example in Google Cloud.
-
-1. Document access in the 1Password vault if not available via SSO login.
-1. A GitLab app requires oauth setup from an account. Use a group shared account (e.g. DE Bot) for production apps (Code challenge, etc.)
-
-Shared cloud resources examples:
-
-1. All team members can manage resources in Google Cloud in the [community-group project](https://console.cloud.google.com/kubernetes/list/overview?hl=en&project=group-community-a29572) and `Editor` role. Create an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to add/remote team members.
-1. Google Cloud/AWS also allows you to [register domains that are not trademarked](/handbook/it/guides/domains-dns/#non-trademark-domain-names) (no `gitlab` in the name!) and use the domains for demo setups.
-
-For individual short-lived tutorials or demo setups for a blog post, prefer the [Cloud Sandbox Realm](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started). This provides automated shutdown, generated domains for easier access, etc.
-
-```mermaid
-flowchart TD;
-  A{Shared resource access required?}
-  A -->|Yes| B[Use cloud group resources]
-  A -->|No| C{Short-lived}
-  C --> |Yes| D[Use individual Cloud Sandbox projects]
-  C --> |No| B
-```
+1. A GitLab app requires OAuth setup from an account. Use a group shared account (for example, [DevRel Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-relations-bot)) for production apps (Code challenge, etc.)
 
 ### Workspaces
 
@@ -340,30 +321,29 @@ German language:
 - [Identify, analyze, action! Deep monitoring with CI](https://gitlab.com/gitlab-da/workshops/ci-monitoring-webcast-2020)
 - [GitLab CI Security Webcast](https://gitlab.com/gitlab-da/workshops/ci-security-webcast-2020)
 
-### Thought Leadership: Observability
+### Developer Relations Bot
 
-#### Kubernetes Observability workshop for Kube Simplify
+Maintainer: TBD. Ask [Michael Friedrich](/handbook/company/team/#dnsmichi) meanwhile.
 
-Published: 2022.
+This bot aims to automate the team tasks such as:
 
-Michael Friedrich provides a 3.5 hours live workshop on Kubernetes Observability for the [Kube Simplify workshop series](https://kubesimplify.github.io/live-workshops/) as a free learning resource. After an introduction, the workshop starts with an overview of monitoring, metrics with Prometheus, and how to build and use dashboards in Kubernetes. Alerts, incidents and SLOs are practiced by example, building the bridge into more Observability data with tracing, logs and more event types. Chaos engineering is practiced with Chaos Mesh to trigger alerts when DNS errors force an app to leak memory. This allows users to practice the [KubeCon EU 2022 demo](https://youtu.be/BkREMg8adaI) themselves. Scaling, long term storage, security workflows as well as new innovative ideas with OpenTelemetry and eBPF are discussed too. The workshop includes exercises and solutions ready for production environments afterwards.
+- Create [release evangelism](/handbook/marketing/developer-relations/developer-advocacy/social-media/#release-evangelism) issues for team members.
+- Triage issues following the [Developer Advocacy workflows](/handbook/marketing/developer-relations/developer-advocacy/workflow/).
+- Generate an issue letter (created, closed, open CFPs) on every Monday.
 
-Resources:
+Project: [DevRel Bot](https://gitlab.com/gitlab-da/projects/devrel-bot)
 
-- [Slides with exercises](https://docs.google.com/presentation/d/1uuYIPwQjckNiPPJQcN8tauZ8KSIdHASbyoAxJ0fc6uQ/edit?usp=sharing)
-- [Project with solutions](https://gitlab.com/everyonecancontribute/workshops/kube-simplify/k8s-o11y-2022)
+### YouTube2Sheets
 
-Recording:
+Maintainer: TBD. Ask [Michael Friedrich](/handbook/company/team/#dnsmichi) meanwhile.
 
-[![Kube Simplify: Kubernetes Observability workshop](https://img.youtube.com/vi/sMEEVbZ4NFM/0.jpg)](https://www.youtube.com/watch?v=sMEEVbZ4NFM)
+This project is used internally at GitLab to retrieve the list of videos from specified playlists on YouTube onto a specified Google Sheet. Pipeline is scheduled to run at midnight and noon UTC.
 
-## OSS Projects
-
-The Developer Advocate team maintains [OSS projects](/handbook/marketing/developer-relations/developer-advocacy/oss-contributions/) as part of community activities.
+Project: [YouTube2Sheets](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/youtube2sheets)
 
 ### CodeChallenge.dev
 
-Maintainer: [Abubakar Siddiq Ango](/handbook/company/team/#abuango)
+Maintainer: Not actively maintained.
 
 `CodeChallenge.dev` is an app that you can use to create challenges that are tied to actions in GitLab.  For example, you can create a challenge that teaches folks how to make merge requests, add issues, or use other GitLab features.  Currently in the beta release, the Code Challenge software was first used at KubeCon EU 2022.
 
@@ -376,84 +356,3 @@ Project: [codechallenge](https://gitlab.com/gitlab-da/projects/codechallenge)
 <figure class="video_container">
     <iframe src="https://www.youtube.com/embed/BNEQMNtrlSM" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
-### Advocate Dashboards
-
-Maintainer: [Abubakar Siddiq Ango](/handbook/company/team/#abuango)
-
-The dashboard is the SSoT to collect all metrics for the Developer Advocate. This includes Twitter, CFPs, YouTube/Google Analytics, etc. Next to the dashboard component, the data component ensures to collect all data from different APIs and sources, and [gets deployed to GitLab Pages](https://gitlab-da.gitlab.io/dashboards/).
-
-Project: [Dashboards](https://gitlab.com/gitlab-da/projects/dashboards)
-
-### Developer Relations Bot
-
-Maintainer: [Abubakar Siddiq Ango](/handbook/company/team/#abuango)
-
-This bot aims to automate the team tasks such as:
-
-- Create [release evangelism](/handbook/marketing/developer-relations/developer-advocacy/social-media/#release-evangelism) issues for team members.
-- Triage issues following the [Developer Advocacy workflows](/handbook/marketing/developer-relations/developer-advocacy/workflow/).
-- Generate an issue letter (created, closed, open CFPs) on every Monday.
-
-Project: [DevRel Bot](https://gitlab.com/gitlab-da/projects/devrel-bot)
-
-### Developer Advocate Dashboard
-
-Maintainer: [Abubakar Siddiq Ango](/handbook/company/team/#abuango)
-
-This [custom dashboard](https://gitlab-com.gitlab.io/marketing/developer-relations/developer-advocacy/code/de-dashboard/) is built using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) and presents an overview of Developer Advocate issues. The requests are synced in a specified interval.
-
-Project: [DE Dashboard](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/de-dashboard)
-
-### YouTube2Sheets
-
-Maintainer: [Abubakar Siddiq Ango](/handbook/company/team/#abuango)
-
-This project is used internally at GitLab to retrieve the list of videos from specified playlists on YouTube onto a specified Google Sheet. Pipeline is scheduled to run at midnight and noon UTC.
-
-Project: [YouTube2Sheets](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/youtube2sheets)
-
-### Events Project
-
-Maintainer: [Abubakar Siddiq Ango](/handbook/company/team/#abuango)
-
-The Developer Advocate Team at GitLab tracks events happening across the industry for attendance, speaking engagements, or just to keep them on the radar. This is also a major need across the industry. The Events project aims to provide an open and collaborative place where members of the wider GitLab community can add and track events happening in the industry.
-
-Project: [DE Events Project](https://gitlab.com/gitlab-da/projects/events)
-
-## EveryoneCanContribute cafe
-
-Maintainer: [Michael Friedrich](/handbook/company/team/#dnsmichi)
-
-[everyonecancontribute.com](https://everyonecancontribute.cafe/) serves as the main website for a community formed around tech coffee chats called `#EveryoneCanContribute cafe` (active) and `#EveryoneCanContribute Kaeffchen` (retired).
-
-The coffee chats are organized as [meetup.com group events](https://www.meetup.com/everyonecancontribute-cafe/) and are open for topic or theme suggestions from everyone.
-
-- Try out newly announced projects together.
-- Do pair programming/debugging sessions.
-- Start discussions and share ideas on the latest technology.
-
-The sessions are hosted by Michael Friedrich. Developer Advocate team members are assigned as alternative hosts in Zoom. The meetups are hosted in Zoom with a waiting room as default, the Zoom URL is hidden in the meetup group event. team members can access the URL in the [Developer Advocate team calendar](/handbook/marketing/developer-relations/developer-advocacy/). For joining the group, users need a profile picture and provide their name for joining an event. This is to protect against Zoom bombing and otherwise harmful intentions.
-
-Next to Zoom, everyone can hangout with text or audio in [Discord](https://everyonecancontribute.cafe/page/handbook/#discord).
-
-The website's [About page](https://everyonecancontribute.cafe/page/about/) covers more details including the exact date and time.
-
-Insights:
-
-- The website is built using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/).
-- Organization happens in the GitLab group [everyonecancontribute](https://gitlab.com/groups/everyonecancontribute/-/issues). This group has applied for an Ultimate license for OSS projects.
-- [#everyonecancontribute cafe (English)](https://www.youtube.com/playlist?list=PL05JrBw4t0Kp1Gni9SyudMmXmBJIp7rIc) YouTube playlist.
-- [#everyonecancontribute Kaeffchen (German)](https://www.youtube.com/playlist?list=PL05JrBw4t0Ko8J8V5V794CXZUZ-DLxccI)YouTube playlist.
-
-[everyonecancontribute.dev](https://everyonecancontribute.dev) hosts a demo page with funny animations featuring the Tanuki, Clippy, and more. It is deployed in a container environment and provides a Prometheus node exporter for monitoring demos and talks. Michael created the website for the job application presentation panel at GitLab.
-
-### Metrics and Insights
-
-In order to track the sessions, [create a monthly issue report](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=everyonecancontribute-cafe-insights) with linking the blog post, recording, social shares etc.
-
-### everyonecancontribute cafe groups
-
-- [Kubernetes](https://gitlab.com/everyonecancontribute/kubernetes) with hands-on workshop series.
-- [Keptn, GitLab, Prometheus](https://gitlab.com/everyonecancontribute/keptn) to collaborate on a deeper integration.
-- [5minprod.app](https://gitlab.com/everyonecancontribute/5-min-prod-app) to drive the [5 minute production app](https://gitlab.com/gitlab-org/5-minute-production-app/deploy-template) with community resources.

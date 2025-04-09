@@ -41,12 +41,12 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people](/handbook/communication/#meeting-introduction-guidelines) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker's video stream.
 1. **Provide verbal cues.** If you're going through an agenda document, then add context: "bullet 3c, Sam, you added that point, can you verbalize it for us?" Similarly use slide numbers when going through a presentation to ensure that all attendees are tracking on the content.
 1. **Adhere to the agenda order to ensure inclusiveness.** People may add agenda topics to the agenda asynchronously and synchronously during the meeting. In guiding discussions, ensure that agenda topics discussed are equitable and fair - don't let a single person or subset of the group monopolize the agenda at the expense of others.
-1. **Document in real-time.** Since not all team members will be able to attend a meeting live, documentation is a vital part of avoiding team dysfunction. Follow [Live Doc meeting best practices]({{< ref "live-doc-meetings" >}}) to increase cohesion, discipline, and transparency.
+1. **Document in real-time.** Since not all team members will be able to attend a meeting live, documentation is a vital part of avoiding team dysfunction. Follow [Live Doc meeting best practices](/handbook/company/culture/all-remote/live-doc-meetings/) to increase cohesion, discipline, and transparency.
 1. **End on time.**
 
 ### What to do after the meeting
 
-1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature]({{< ref "1-1" >}}) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
+1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature](/handbook/leadership/1-1/) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
 1. **Consider important decisions.**  When the meeting takes place outside of some participants' time zones, consider confirming decisions and actions for 24-48 hours. This will allow participants to contribute asynchronously.
 1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda with in 12 hours after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
 1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn't work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results for Customers. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
@@ -77,13 +77,13 @@ This works because of our values, which leads GitLab to hire individuals who enj
 
 #### Record meetings to encourage async participation
 
-You should aim to record all meetings. This allows team members to catch up on what transpired and adds context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook]({{< ref "tools-and-tips#recording-in-zoom" >}}).
+You should aim to record all meetings. This allows team members to catch up on what transpired and adds context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 
 #### Managing meeting attendance for team members
 
 At the same time, even GitLab team members may find themselves on one of two extremes.
 
-1. Some folks may find themselves with **too many meetings** on their calendars. Conference rooms have attendee caps. Virtual meeting rooms can hold more than a stadium worth of people, so there are no physical constraints around the number of folks who can be invited to a meeting. Help over scheduled folks by proactively marking them as optional if they are not required. This helps them in their prioritization and time management. Also revisit meetings for which you are the [DRI]({{< ref "directly-responsible-individuals" >}}) after each meeting. Can folks be removed from a meeting or meeting series? Or, can then be moved from required to optional? Avoid stale meeting invite lists.
+1. Some folks may find themselves with **too many meetings** on their calendars. Conference rooms have attendee caps. Virtual meeting rooms can hold more than a stadium worth of people, so there are no physical constraints around the number of folks who can be invited to a meeting. Help over scheduled folks by proactively marking them as optional if they are not required. This helps them in their prioritization and time management. Also revisit meetings for which you are the [DRI](/handbook/people-group/directly-responsible-individuals/) after each meeting. Can folks be removed from a meeting or meeting series? Or, can then be moved from required to optional? Avoid stale meeting invite lists.
 1. Some folks may find themselves with **few meetings**, so they aren't particularly selective in their attendance. A topical meeting may be an opportunity to connect with team members or feel a sense of belonging, but a participant should choose not to attend a meeting if this is the primary reason for attendance. There are alternatives for [informal communication](informal-communication/) that can better address this need.
 
 Managers can support their direct reports by reviewing the directs' calendars with them on a regular basis to align on which meetings should have in-person attendance.
@@ -92,7 +92,7 @@ Managers can support their direct reports by reviewing the directs' calendars wi
 
 Meetings should not happen if there isn't a clear objective and adequate preparation. In most cases, meetings that should be postponed are cancelled before they begin. At GitLab, roughly 1% of meetings should end within the first minute as it becomes clear that the meeting doesn't have a known meeting outcome, key material required for a productive conversation, or adequate participant preparation. Cancelling a meeting quickly at the start of it is not a failure. It takes leadership to quickly read the situation and make an efficient and time saving call.
 
-Recurring meetings are often established as meaningful points along a given journey. Don't hesitate to cancel them after their purpose has been served. Cancelling meetings isn't an insult to those on the invite list. In fact, ridding multiple calendars of an unneeded meeting is liberating to everyone involved. At the end of each meeting, the meeting [DRI]({{< ref "directly-responsible-individuals" >}}) should evaluate whether the meeting can be **cancelled** or the meeting cadence or duration can be **reduced**. If there are multiple folks who may have an opinion, this can be an agenda item for discussion at the end of the meeting.
+Recurring meetings are often established as meaningful points along a given journey. Don't hesitate to cancel them after their purpose has been served. Cancelling meetings isn't an insult to those on the invite list. In fact, ridding multiple calendars of an unneeded meeting is liberating to everyone involved. At the end of each meeting, the meeting [DRI](/handbook/people-group/directly-responsible-individuals/) should evaluate whether the meeting can be **cancelled** or the meeting cadence or duration can be **reduced**. If there are multiple folks who may have an opinion, this can be an agenda item for discussion at the end of the meeting.
 
 ### 3. Start on time, end on time
 
@@ -115,13 +115,13 @@ Meeting agendas should be include:
 1. Questions or details. A place in the agenda where participants can add thoughts either synchronously or asynchronously.
 1. If the meeting was recorded, after the meeting, update the agenda document with a link to the recording.
 
-[Meeting DRIs]({{< ref "directly-responsible-individuals" >}}) should prep the agenda at least 72 hours before the meeting. This helps participants to:
+[Meeting DRIs](/handbook/people-group/directly-responsible-individuals/) should prep the agenda at least 72 hours before the meeting. This helps participants to:
 
 1. Can make informed decisions around whether they should prioritize synchronous participation.
 1. Have adequate time for any required review.
 1. Have adequate time to contribute asynchronously within the agenda.
 
-We've created a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) that you can copy and use in your organization. There is additional guidance and a separate template for [1:1 meetings]({{< ref "1-1#the-1-1-agenda" >}}). [Coffee chats](informal-communication/#coffee-chats) do not require agenda as their function is informal communication.
+We've created a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) that you can copy and use in your organization. There is additional guidance and a separate template for [1:1 meetings](/handbook/leadership/1-1/#the-1-1-agenda). [Coffee chats](informal-communication/#coffee-chats) do not require agenda as their function is informal communication.
 
 While it is problematic to have no agenda, it is also problematic to have more than one agenda. Meeting and meeting notes require a single source of truth. If you are in a meeting with more than one agenda, stop the meeting as soon as this is known. Clarify the agenda to use with other attendees and immediately deprecate the additional agenda. Add a link to the agenda being used from the deprecated agenda, so anyone who discovers it is aware of the source of truth agenda.
 
@@ -276,7 +276,7 @@ For context, Sid joined the Zoom call from San Francisco, while the researchers 
 >
 > [Colocated companies] fall back on extremely inefficient things, like flying people halfway around the world for a four-hour meeting. GitLab doesn't fall into that trap.
 >
-> We have meetings that are more efficient. I bet our meetings, via Zoom, are more efficient than meetings in a conference room. With [live note-taking]({{< ref "communication" >}}), up-front [agendas]({{< ref "suggested-agenda-format" >}}), and our follow-up, GitLab meetings are more efficient.
+> We have meetings that are more efficient. I bet our meetings, via Zoom, are more efficient than meetings in a conference room. With [live note-taking](/handbook/communication/), up-front [agendas](/handbook/leadership/1-1/suggested-agenda-format/), and our follow-up, GitLab meetings are more efficient.
 >
 > Not only do we have more efficient meetings, we also do not have the time waste of flying people across the world.
 >
@@ -294,7 +294,7 @@ For context, Sid joined the Zoom call from San Francisco, while the researchers 
 
 ### Who should be invited to meetings?
 
-We can use our [DRI framework]({{< ref "directly-responsible-individuals#dri-consulted-informed-dci" >}}) to inform who should participate in a meeting. The **DRIs and consulted folks will play key roles within meetings**. A meeting DRI or facilitator owns the meeting. Other DRIs may own specific activities in support of an initiative. Consulted people are those whose opinions are sought, typically subject-matter experts; and with whom there is two-way communication. **Most informed people should not be invited** if there is a more efficient way to engage or cascade information. When informed folks are invited due to needs for immediate alignment or limitations around effectively cascading asynchronously, they should not be added as a recurring participant in a sequence of meetings.
+We can use our [DRI framework](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) to inform who should participate in a meeting. The **DRIs and consulted folks will play key roles within meetings**. A meeting DRI or facilitator owns the meeting. Other DRIs may own specific activities in support of an initiative. Consulted people are those whose opinions are sought, typically subject-matter experts; and with whom there is two-way communication. **Most informed people should not be invited** if there is a more efficient way to engage or cascade information. When informed folks are invited due to needs for immediate alignment or limitations around effectively cascading asynchronously, they should not be added as a recurring participant in a sequence of meetings.
 
 ### How do you enable folks who don't attend meetings in-person to effectively participate?
 
@@ -330,4 +330,4 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

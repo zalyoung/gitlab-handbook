@@ -1,5 +1,6 @@
 ---
 title: Team Processes
+description: Overview of Product Data Insights team processes
 ---
 
 ## Issue hygiene

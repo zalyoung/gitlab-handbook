@@ -12,7 +12,7 @@ entire DevOps lifecycle"
 
 Product Managers at GitLab have a unique opportunity to define the future of the
 entire [DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/). We
-are working on a [single application](/handbook/product/single-application) that
+are working on a [single application](/handbook/product/categories/gitlab-the-product/single-application/) that
 allows developers to invent, create, and deploy modern applications.
 
 We want to facilitate [Concurrent DevOps](https://about.gitlab.com/topics/devops/) so that teams can work simultaneously instead of sequentially, unleashing collaboration across organizations.
@@ -327,7 +327,7 @@ The Senior Principal Product Manager is a [grade 10](/handbook/total-rewards/com
 Beyond the [base requirements](#base-pm-requirements), Senior Principal Product Manager requirements are:
 
 - Represent GitLab and its values in public communication around specific projects and community contributions.
-- In addition to being an individual contributor product manager of one (or more) of the groups, the Senior Principal PM should be designated as the [product collaborator](/handbook/engineering/incubation/#incubation-engineering-department) for one (or more) [SEG](/handbook/company/structure/#single-engineer-groups)s.
+- In addition to being an individual contributor product manager of one (or more) of the groups, the Senior Principal PM should be designated as the [product collaborator](/handbook/engineering/development/incubation/#incubation-engineering-department) for one (or more) [SEG](/handbook/company/structure/#single-engineer-groups)s.
 - Lead cross stage initiatives, for example: [Top Cross-Functional Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives)
 - Maintains and owns [cross-section directions](/handbook/product/product-processes/#navigating-cross-stage-or-cross-section-direction-pages).
 -Leads working groups to accomplish cross-section [BHAG](/handbook/company/mission/#big-hairy-audacious-goal-bhag)s and targets

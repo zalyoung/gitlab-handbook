@@ -475,7 +475,7 @@ GitLab customers were interviewed and related data was collected independently b
 
 ---
 
-<big>[Forrester: Software Composition Analysis - Challenger](/analysts/forrester-sca/)</big><br>
+<big>[Forrester: Software Composition Analysis - Challenger](https://about.gitlab.com/analysts/forrester-sca/)</big><br>
 *Software composition analysis tools evaluate applications to uncover vulnerabilities in 3rd party and open source components.*<br>
 **Use case** DevSecOps
 
@@ -483,7 +483,7 @@ GitLab customers were interviewed and related data was collected independently b
 
 #### 2018
 
-<big>[Forrester: Continuous Delivery and Release Automation - Contender](/analysts/forrester-cdra20/)</big><br>
+<big>[Forrester: Continuous Delivery and Release Automation - Contender](https://about.gitlab.com/analysts/forrester-cdra20/)</big><br>
 *Release automation tools enable faster, higher-quality, more automated software delivery through modeling applications, infrastructure, middleware, and their supporting installation processes and dependencies. "GitLab's release automation is ideal for cloud-native, Kubernetes-centric organizations."*<br>
 **Value Drivers:** Efficiency, Speed<br>
 **Use case** CD
@@ -535,7 +535,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 
 ### GitLab Reports and Studies
 
-<big>[2020 Global Developer Report: DevSecOps](/developer-survey/)</big><br>
+<big>[2020 Global Developer Report: DevSecOps](https://about.gitlab.com/developer-survey/)</big><br>
 **Findings Included:** A majority of developer respondents, 66%, said their organization does make it possible for them to avoid hacks.
 DevSecOps = changing roles: Security can be found on cross-functional teams and working closely in collaboration with developers, both of which represent significant change from the past.
 <br>
@@ -545,7 +545,7 @@ DevSecOps = changing roles: Security can be found on cross-functional teams and 
 
 ---
 
-<big>[2020 Global Developer Report: DevSecOps](/developer-survey/)</big><br>
+<big>[2020 Global Developer Report: DevSecOps](https://about.gitlab.com/developer-survey/)</big><br>
 **Findings Included:** DevOps = faster releases: If you're a developer, DevOps just works. Nearly 83% of them report they're releasing code more quickly.
 About 35% report code is released twice as rapidly, while nearly 25% said it's now being released 10 times faster.
 <br>
@@ -555,7 +555,7 @@ About 35% report code is released twice as rapidly, while nearly 25% said it's n
 
 ---
 
-<big>[2020 Global Developer Report: DevSecOps](/developer-survey/)</big><br>
+<big>[2020 Global Developer Report: DevSecOps](https://about.gitlab.com/developer-survey/)</big><br>
 **Findings Included:** CD is real: Nearly 60% deploy multiple times a day, once a day, or once every few days. That's up from 45% last year.  And 74% of organizations report they have shifted testing left, meaning they've moved it earlier into the development process.<br>
 **Customer Value:** Visibility and transparency into future work leads to more efficient planning and execution.<br>
 **Value Drivers:** Efficiency<br>
@@ -563,7 +563,7 @@ About 35% report code is released twice as rapidly, while nearly 25% said it's n
 
 #### Older GitLab Reports and Studies (2019 and beyond)
 
-<big>[2019 Global Developer Report: DevSecOps](/developer-survey/previous/2019/)</big><br>
+<big>[2019 Global Developer Report: DevSecOps](https://about.gitlab.com/developer-survey/previous/2019/)</big><br>
 **Findings Included:** 50% of developers agree that security vulnerabilities are mostly discovered by the security team after code is merged and in a test environment.<br>
 **Customer Value:** Building security into the DevOps pipeline improves overall security.<br>
 **Value Drivers:** Risk<br>
@@ -571,7 +571,7 @@ About 35% report code is released twice as rapidly, while nearly 25% said it's n
 
 ---
 
-<big>[2019 Global Developer Report: DevSecOps](/developer-survey/previous/2019/)</big><br>
+<big>[2019 Global Developer Report: DevSecOps](https://about.gitlab.com/developer-survey/previous/2019/)</big><br>
 **Findings Included:** 49% of respondents encounter the most delays during the testing stage of the development lifecycle.<br>
 **Customer Value:** Automated testing in the CI pipeline accelerates delivery, finding defects earlier.<br>
 **Value Drivers:** Speed<br>
@@ -591,7 +591,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 
 ---
 
-<big>[2019 Global Developer Report: DevSecOps](/developer-survey/previous/2019/)</big><br>
+<big>[2019 Global Developer Report: DevSecOps](https://about.gitlab.com/developer-survey/previous/2019/)</big><br>
 **Findings Included:** Ops teams are 1.8x more likely to believe they get sufficient notice to support the developer side when their DevOps practice is very good.<br>
 **Customer Value:** Visibility and transparency into future work leads to more efficient planning and execution.<br>
 **Value Drivers:** Efficiency<br>

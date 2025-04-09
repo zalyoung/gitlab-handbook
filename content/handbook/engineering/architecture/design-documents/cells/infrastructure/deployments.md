@@ -514,6 +514,13 @@ We should aim to deploy to Cells as quickly as possible. For all Cells that exis
 
 Rings outside of the perimeter are self-managed by the orchestration engine. Once `release-tools` graduates a package it can forget about it. The orchestration engine will converge the desired GitLab version to all Cell in Ring 2, the first ring outside of the perimeter, and move to next ring only when all Cells converged.
 
+#### Select Helm Chart Updates
+
+Currently, Instrumentor uses the default behavior of the GitLab Environment Toolkit to infer which version of our Helm Chart shall be utilized.
+This is not suitable for Cells as .com currently leverages unpublished versions of our Helm chart for testing or dogfooding prior to release.
+To keep feature parity in Cells, we'll need to add this capability in Dedicated Stack.
+A blueprint to discuss and drive toward implementation of this feature has been proposed in Dedicated's team blueprints [Enabling Prerelease Helm Chart Selection](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/cell-chart-enhancement.html)
+
 ### FAQ
 
 **Will Developers see indicators on MR's as they are deployed to various Cells?**

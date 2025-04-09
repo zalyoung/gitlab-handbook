@@ -10,8 +10,11 @@ Open [claude.ai](https://claude.ai/) and use your team member email address for 
 
 ## Resources
 
-- [AI at GitLab initiative](https://internal.gitlab.com/handbook/company/ai-at-gitlab/) (internal)
-- [Claude.ai support articles collection](https://support.anthropic.com/en/collections/4078531-claude-ai)
+1. [AI at GitLab initiative](https://internal.gitlab.com/handbook/company/ai-at-gitlab/) (internal)
+   - Review the [AI At GitLab usage guidelines and FAQ](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#usage-guidelines-and-faqs)
+1. [Claude.ai support articles collection](https://support.anthropic.com/en/collections/4078531-claude-ai)
+1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
+1. Join the [`#ai-at-gitlab` Slack channel](https://gitlab.enterprise.slack.com/archives/C085M5071LG)
 
 ## Tips
 
@@ -19,142 +22,181 @@ Open [claude.ai](https://claude.ai/) and use your team member email address for 
 
 Claude.ai can answer many different questions and topics. Be creative, curious, and explore, and iterate on the best chat prompts. Since [GitLab Duo Chat](gitlab-duo.md) also uses [Anthropic Claude as one of the LLMs](https://docs.gitlab.com/ee/user/gitlab_duo_chat/), you can test and repurpose similar chat prompts.
 
-1. Join the [#ai-at-gitlab Slack channel](https://gitlab.enterprise.slack.com/archives/C085M5071LG)
-1. Download [Claude for Desktop](https://claude.ai/download)
-1. CLI and API access
-   - An Anthropic API key is required. Create an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) for Anthropic Console - Corp in the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
+### Applications and CLI
+
+1. Download [Claude for Desktop](https://claude.ai/download) to use the Claude application on macOS.
+1. Anthropic API access
+   - An Anthropic API key is required. Follow the guidance in the [internal handbook](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/#requests-for-anthropic-api-key-use).
+1. Anthropic CLI (requires API access)
    - Learn about the [Anthropic SDK](https://docs.anthropic.com/en/docs/initial-setup#install-the-sdk) and community projects for CLIs: [anthropic-cli](https://github.com/dvcrn/anthropic-cli)
-1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 
-## Use cases
+### Token Limits
 
-### Analyze data
+> [!note]
+> This section covers tips for token limits in [context windows](https://docs.anthropic.com/en/docs/build-with-claude/context-windows), for API rate limits please review [Anthropics rate limit documentation](https://docs.anthropic.com/en/api/rate-limits#rate-limits).
 
-Download data from the internet or other sources, and analyze it with Claude.
+To help prevent hitting rate limits while using Claude, we recommend following the tips below:
 
-#### Download data
+- Set the appropriate thinking mode, Extended seems to support more context that you upload and generated content.
+- Set the response mode to Concise to shorten Claudes response length.
+- Before re-prompting, try editing your previous prompt to include your new ask.
+- Be specific in your prompt, 3.7 likes to try and build out more than you ask, clarify to only make the changes requested in a more iterative approach.
 
-Download the data sets into a file to later upload them into Claude Chat. If it is a website, ask Claude how to download it. You can refine the prompt and ask for JSON, REST API data, CSV, PDF, etc.
+> [!note]
+> At the time of this writing, _Claude 3.5 Sonnet_, has higher rate limits, so if this does the job and you need long conversations, this may be a viable choice until rate limits on _Claude 3.7 Sonnet_ are increased, although will be missing out on improvements made in the 3.7 version of the model.
 
-```markdown
-I want to download a Google sheet for further analysis. Please show how to fetch the raw CSV content.
+## Example Prompt Library
 
-I want to analyze this website. Please share how to download the data as a PDF or JSON file.
+Below is a collection of useful prompts organized by division, with example use cases for each prompt to help team members leverage AI assistants effectively.
 
-I want to analyze a GitLab epic. Show how to download the data from this URL: https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/513 and create a Python script.
+### Sales Division
 
-I want to fetch this forum thread and the replies into a raw text file. https://forum.gitlab.com/t/refreshing-a-fork/32469 Please show me a simple Python script.
-```
-
-If Claude generated a script, you can ask how to run it on macOS/Linux in a follow up conversation.
-
-```markdown
-Show me how to run the provided Python script on macOS. Please add further instructions like virtual environment setup etc.
-```
-
-#### Analyze generic data sets
-
-Use downloaded files and attach them into the Claude chat prompt to ask analysis questions. Examples matching the [downloaded data examples](#download-data):
+#### Value Proposition Analysis Prompt
 
 ```markdown
-Please summarize the attached CSV file, and provide an overview summary, and detailed analysis, no more than 100 words. Show me sample rows.
-
-Provide a sentiment analysis from the attached content.
-
-Summarize the learnings and group them by importance.
-
-Break down the data into visual insights, for example analyze a time-series for time, cost, count etc.
+Analyze how a company's features address key challenges in the [MARKET SEGMENT] space. Focus on:
+1. Pain points solved
+2. Feature advantages
+3. Customer support benefits
+4. Integration capabilities
+5. ROI potential
 ```
 
-#### Hacker News sentiment analysis
+**Example Use Case:** When preparing for a sales call with a prospect in the financial services sector.
 
-Requires two steps:
-
-1. Download the raw Hacker News thread data. Ask Claude how to achieve that, it may come up with a Python script that downloads a JSON data file.
-
-   ```markdown
-   How can I download the raw content of a Hacker News thread, for example https://news.ycombinator.com/item?id=42453341
-   ```
-
-2. Upload the data file into the Claude Chat prompt, and ask Claude to analyze the sentiments.
-
-   ```markdown
-   Please summarize the attached Hacker News discussion, and provide insights into
-
-   1. Competitors and how they are received
-   2. General sentiment analysis
-   ```
-
-### Editing and writing
-
-Edit the handbook, create blog posts, or work on GitLab documentation.
-
-#### Refine writing style
-
-Ask Claude to refine the writing style, language, or complexity. You can provide a context file to refine the writing style based on a given context file.
+#### Sales Email Template Generator
 
 ```markdown
-Please rewrite the following paragraph in more modern writing style.
-...
+Generate a personalized sales email to [PROSPECT TYPE] who is currently using [CURRENT SOLUTION].
+Include:
+- Pain points they might be experiencing
+- Specific features that address these pain points
+- A clear value proposition
+- Soft call-to-action for a demo
+Keep the tone professional but conversational and limit to 200 words.
 ```
 
-When working on the GitLab documentation, first [download](#download-data) the [development style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/), and then upload it as context into the Chat prompt. Then ask to improve specific copied text based on the style guide.
+**Example Use Case:** Creating tailored outreach emails to development team leads at healthcare companies who are using fragmented tools and could benefit from a single application approach.
 
-#### Embedding a YouTube video into Markdown
+### Marketing Division
 
-There is a trick in the Markdown language to embed a video with its image thumbnail as preview image, and link to the video directly. Ask Claude to generate a Markdown snippet for this task.
+#### Content Brief Creator
 
 ```markdown
-Use this YouTube URL and embed it into Markdown with a preview image https://www.youtube.com/watch?v=pwlDmLQMMPo
+Create a detailed content brief for a [CONTENT TYPE] about [TOPIC] targeted at [AUDIENCE].
+Include:
+- Proposed title options (3-5)
+- Key messages to convey
+- SEO keywords to target
+- Outline with section headings
+- Suggested data points or case studies to include
+- Call-to-action recommendations
 ```
 
-Expected result:
+**Example Use Case:** Planning a comprehensive blog post.
+
+#### Social Media Campaign Planner
 
 ```markdown
-[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
-[![Video Title](https://img.youtube.com/vi/pwlDmLQMMPo/0.jpg)](https://www.youtube.com/watch?v=pwlDmLQMMPo)
+Develop a 2-week social media campaign promoting [FEATURE/PRODUCT] across LinkedIn and Twitter.
+For each platform, create:
+- 5 unique post ideas with copy variants (280 chars for Twitter, 700 chars for LinkedIn)
+- Hashtag recommendations
+- Suggested posting schedule
+- Ideas for engagement questions
+Focus on highlighting [SPECIFIC BENEFIT] and target [TARGET AUDIENCE].
 ```
 
-### Development
+**Example Use Case:** Creating a campaign to promote AI-assisted features.
 
-There are many use cases for AI in development. If you are using an IDE, consider using [GitLab Duo](gitlab-duo.md) with Chat, Code Suggestions and specific slash command actions instead.
+### General & Administrative
 
-#### Explain an error
-
-Copy-paste a terminal output, CI/CD job log error, or an IDE error output, and ask Claude to explain the issue. You can add the prefix `Explain this error:` followed by a new line to set the right expectations.
+#### Policy Document Summarizer
 
 ```markdown
-Explain this error: ...
+Summarize the following [POLICY/DOCUMENT] into:
+1. A one-paragraph executive summary
+2. 5-7 bullet points of key takeaways
+3. A list of any action items or compliance requirements
+4. A simple table showing changes from previous version (if applicable)
 ```
 
-#### Visualize code
+**Example Use Case:** Distilling a lengthy updated security compliance document into an easily digestible format for team distribution before quarterly compliance training.
 
-Paste a code snippet and ask Claude to visualize the code flow, function calls, etc. for better debugging insights.
+#### Data Analysis Assistant
 
 ```markdown
-Please visualize the following source code. Show different variants that help understand the execution and function calls for debugging better.
+Help analyze this [DATA SET] to identify:
+1. Key trends and patterns
+2. Anomalies or outliers
+3. Correlations between variables
+4. Business implications
+5. Suggested next steps or areas for deeper investigation
+
+Provide both summary insights and specific data points that support your analysis.
 ```
 
-You can refine the prompt to include a specific format or framework, for example Mermaid charts, PlantUML, ASCIIArt, etc.
+**Example Use Case:** Business users analyzing quarterly expense reports to identify spending patterns across departments, flagging unusual transactions, and generating cost-saving recommendations for leadership.
+
+### Product Division
+
+#### User Story Generator
 
 ```markdown
-Render as ASCIIArt.
+Create detailed user stories for implementing a [FEATURE]. For each user story:
+- Follow the format: "As a [USER TYPE], I want to [ACTION] so that [BENEFIT]"
+- Include acceptance criteria
+- Suggest story points (1, 2, 3, 5, 8)
+- Identify potential dependencies
+- Tag with appropriate labels (frontend, backend, UX, etc.)
 ```
 
-Examples:
+**Example Use Case:** Developing comprehensive user stories.
 
-1. You can use the `server.py` code from this [Duo Python workshop repository](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-workshop-best-practices-advanced-use-cases-2024-10-01/-/merge_requests/1/diffs#diff-content-37f78d9e69dff05b443a39c32175987bb0cbdccd).
-1. Learn and explain a COBOL program ([project](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges/code-challenges/challenge-explain-refactor-cobol-program), [recording](https://www.youtube.com/watch?v=pwlDmLQMMPo))
-
-> Note: The same prompts work with [GitLab Duo](gitlab-duo.md) in an IDE.
-
-### Code modernization
-
-Upload a code snippet into the Claude Chat prompt, and ask Claude to explain the code snippet, and how to rewrite it in a modern language.
+#### Code Visualization Assistant
 
 ```markdown
-Explain what this code snippet does, and how to write it in a modern language.
+Visualize the following code to help understand:
+1. Execution flow
+2. Function calls and relationships
+3. Key dependencies
+4. Potential bottlenecks
 
-...
+Present the visualization in [FORMAT] (Mermaid, ASCII art, etc.)
+
+Code:
+[PASTE CODE HERE]
 ```
+
+**Example Use Case:** Product managers and developers collaborating to better understand the implementation of a complex feature by visualizing code execution paths and dependencies before planning refactoring work.
+
+### AI Workflow Prompts
+
+#### Data Set Analysis
+
+```markdown
+Analyze the attached data file and provide:
+1. Summary of key content
+2. Important patterns or trends
+3. Insights grouped by priority
+4. Recommendations based on findings
+
+For [TYPE] data, focus on [SPECIFIC METRICS].
+```
+
+**Example Use Case:** Analyzing customer usage data to identify adoption patterns of features, highlighting which user segments are most actively engaged with specific tools.
+
+#### Code Modernization Assistant
+
+```markdown
+Review this legacy code and provide:
+1. Explanation of current functionality
+2. Modern implementation approach
+3. Key improvements in the new version
+4. Implementation considerations and challenges
+
+Original code:
+[PASTE CODE HERE]
+```
+
+**Example Use Case:** Modernizing legacy automation scripts to current best practices, improving maintainability while preserving essential functionality that teams depend on.

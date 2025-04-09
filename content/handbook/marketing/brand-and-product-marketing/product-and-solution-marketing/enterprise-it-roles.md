@@ -83,7 +83,7 @@ Related Reading:
          - [Cloud Transformation](https://about.gitlab.com/solutions/cloud-native/)
          - Software-defined Infrastructure
          - [Visibility and Velocity](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
-         - [Geographically distributed teams](/features/gitlab-geo/)
+         - [Geographically distributed teams](https://about.gitlab.com/enterprise/)
          - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
          - [DevSecOps](https://about.gitlab.com/solutions/security-compliance/)
          - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
@@ -109,7 +109,7 @@ Related Reading:
       - [Concurrent DevOps](https://about.gitlab.com/topics/devops/ )
       - Software-defined Infrastructure
       - [Visibility and Velocity](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
-      - [Geographically distributed teams](/features/gitlab-geo/)
+      - [Geographically distributed teams](https://about.gitlab.com/enterprise/)
       - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
       - [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
       - [CI/CD](https://about.gitlab.com/solutions/continuous-integration/)
@@ -128,7 +128,7 @@ Related Reading:
       - [ROI](https://about.gitlab.com/calculator/)
       - [Concurrent DevOps](https://about.gitlab.com/topics/devops/ )
       - [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
-      - [Geographically distributed teams](/features/gitlab-geo/)
+      - [Geographically distributed teams](https://about.gitlab.com/enterprise/)
       - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
       - [DevSecOps](https://about.gitlab.com/solutions/security-compliance/)
       - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
@@ -155,7 +155,7 @@ Related Reading:
       - [Google Cloud Platform](/partners/technology-partners/google-cloud-platform/)
       - [AWS](/partners/technology-partners/aws/)
       - Software-defined Infrastructure
-      - [Geographically distributed teams](/features/gitlab-geo/)
+      - [Geographically distributed teams](https://about.gitlab.com/enterprise/)
       - [DevSecOps](https://about.gitlab.com/solutions/security-compliance/)
       - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
       - [Comparison page](https://about.gitlab.com/why-gitlab/)

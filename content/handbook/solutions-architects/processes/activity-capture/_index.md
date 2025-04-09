@@ -80,7 +80,7 @@ Capturing various types of data helps us build a comprehensive understanding of 
 
 ### 3. **SFDC Fields [Required]**
 
-- **Overview**: Capture key fields in Salesforce such as SA Validated Tech Eval, SA Next Steps, POVs, and Assigned SA.
+- **Overview**: Capture key fields in Salesforce such as SA Validated Tech Eval, SA Feasibility Rating, SA Next Steps, POVs, and Assigned SA.
 - **Details**: [SFDC Fields Guide](/handbook/solutions-architects/processes/activity-capture/sfdc-logging)
 
 ### 4. **Customer Success Plans [Required]**

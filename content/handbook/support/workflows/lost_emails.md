@@ -7,7 +7,7 @@ description: "Workflow for cases when users are no longer able to receive securi
 
 ## Overview
 
-This workflow covers cases when a user requests that their email address be changed, for example due to having lost access to all email addresses on their account and being asked to perform [Account email verification](https://docs.gitlab.com/ee/security/email_verification.html#accounts-without-two-factor-authentication-2fa) in order to access their account.
+This workflow covers cases when a user requests that their email address be changed, for example due to having lost access to all email addresses on their account and being asked to perform [Account email verification](https://docs.gitlab.com/security/email_verification/#accounts-without-two-factor-authentication-2fa) in order to access their account.
 
 ## **Stage 0:** Ticket Triage
 

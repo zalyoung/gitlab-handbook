@@ -12,7 +12,7 @@ description: Helpful information for developers on the Editor team.
 ### gitlab-org/gitlab
 
 - `gdk start`
-( `gdk doctor`
+- `gdk doctor`
 - `bin/rake frontend:fixtures`
 - Running tests:
   - `yarn karma`
@@ -251,6 +251,6 @@ Some frontendmasters workshops related to testing that I want to take after the 
 - <https://frontendmasters.com/courses/testing-practices-principles/>
 - <https://frontendmasters.com/courses/testing-javascript/>
 
-## Jetbrains IDE Usage
+## JetBrains IDE Usage
 
 **_MOVED: There is now a dedicated handbook section on JetBrains IDEs: <https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/>_**

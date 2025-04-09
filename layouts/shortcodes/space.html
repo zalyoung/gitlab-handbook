@@ -3,12 +3,11 @@
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
 {{- $dataURL := printf "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/%s/data/engineering-productivity/space.yml" $publicHandbookRef }}
-{{- with resources.GetRemote $dataURL }}
-  {{- with .Err}}
-    <h2>Unable to fetch data</h2>
-  {{- else }}
-      {{ $data = . | transform.Unmarshal }}
-  {{- end }}
+{{- $resource := resources.GetRemote $dataURL }}
+{{- if not $resource }}
+  <h2>Unable to fetch data</h2>
+{{- else }}
+  {{ $data = $resource | transform.Unmarshal }}
 {{- end }}
 
 {{- $satisfaction := where $data "category" "eq" "satisfaction" }}

@@ -3,7 +3,7 @@ title: GitLab Communication
 description: "We're an all-remote company that allows people to work from almost anywhere in the world. It's important for us to practice clear communication in ways that help us stay connected and work more efficiently."
 ---
 
-We're an [all-remote](/handbook/company/culture/all-remote/#advantages-for-organizations) company that allows people to work from [almost anywhere in the world](/handbook/people-group/employment-solutions/#country-hiring-guidelines). We hire great people regardless of where they live, but with GitLab team members across [more than 60 countries](/handbook/company/team/), it's important for us to practice clear communication in ways that help us stay connected and work more efficiently.
+We're an [all-remote](/handbook/company/culture/all-remote/) company that allows people to work from [almost anywhere in the world](/handbook/people-group/employment-solutions/#country-hiring-guidelines). We hire great people regardless of where they live, but with GitLab team members across [more than 60 countries](/handbook/company/team/), it's important for us to practice clear communication in ways that help us stay connected and work more efficiently.
 
 To accomplish this, we use <b>[asynchronous communication](/handbook/company/culture/all-remote/asynchronous/) as a starting point</b> and stay as open and transparent as we can by communicating through public issues, [merge requests](#start-with-a-merge-request), and [Slack channels](/handbook/communication/chat/).
 
@@ -75,7 +75,7 @@ We encourage communicating risks to GitLab, its team members, or customers in a 
 
 ## Communications Champions
 
-Where possible, a group of Communications Champions, made up of global team members and people managers, will be given a preview of companywide changes to provide feedback, so that team member perspectives have been taken into account.
+Where possible, a group of Communications Champions, made up of global team members and people managers, will be given a preview of company-wide changes to provide feedback, so that team member perspectives have been taken into account.
 
 ### Communications Champion cohorts
 
@@ -222,7 +222,7 @@ It is just for ease of reference.
 
 #### Cross link
 
-Linking should not be in one direction. We should go beyond deep-linking to create a richer web of links that can surface content and ensure people consider all pages when making updates. When linking one page to another, try to link back as well. Instead of only linking from Page A to Page B, both link Page A to Page B and link Page B back to Page A. For example, the [Live Doc Meeting](/handbook/company/culture/all-remote/meetings/#live-doc-meetings) section of the All Remote Guide links to the [Live Docs Meetings page](/handbook/company/culture/all-remote/live-doc-meetings/). The [Live Docs Meetings page](/handbook/company/culture/all-remote/live-doc-meetings/) links back to the [Live Doc Meeting](/handbook/company/culture/all-remote/meetings/#live-doc-meetings) section of the All Remote Guide.
+Linking should not be in one direction. We should go beyond deep-linking to create a richer web of links that can surface content and ensure people consider all pages when making updates. When linking one page to another, try to link back as well. Instead of only linking from Page A to Page B, both link Page A to Page B and link Page B back to Page A. For example, the [Live Doc Meeting](/handbook/company/culture/all-remote/live-doc-meetings/) section of the All Remote Guide links to the [Live Docs Meetings page](/handbook/company/culture/all-remote/live-doc-meetings/). The [Live Docs Meetings page](/handbook/company/culture/all-remote/live-doc-meetings/) links back to the [Live Doc Meeting](/handbook/company/culture/all-remote/live-doc-meetings/) section of the All Remote Guide.
 
 #### Acknowledgement Receipts (ACK)
 
@@ -301,7 +301,7 @@ Indicate your availability by updating your own calendar using Google's ["out of
 
 1. Put your planned away time including holidays, vacation, travel time, and other leave in your own calendar. Please see [Communicating your time off](/handbook/people-group/paid-time-off/#communicating-your-time-off) for more.
 1. Set your working hours in your Google Calendar settings.
-1. Utilize [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) to keep other GitLab team members aware of your planned time away within Slack.
+1. Utilize Time Off by Deel to keep other GitLab team members aware of your [planned time away](/handbook/people-group/paid-time-off/) within Slack.
 
 #### Informal communication
 
@@ -430,7 +430,7 @@ Sometimes a late announcement is better than none at all, and acknowledging thos
 
 #### Posting in #company-fyi
 
-Our companywide announcements channel is **#company-fyi**.
+Our company-wide announcements channel is **#company-fyi**.
 It is an **announcement only** channel, meaning that communications need to be approved before they can be posted. To minimize noise, announcements made in `#company-fyi` should not be duplicated in `#whats-happening-at-gitlab`. Be mindful of the [attention economy](https://en.wikipedia.org/wiki/Attention_economy).
 
 In order to post or have a message posted in `#company-fyi`, please reach out to [the internal communications team](/handbook/people-group/employment-branding/people-communications/) or your function's executive who can approve the message and post it.
@@ -439,7 +439,7 @@ Examples of what **should not** go in **#company-fyi** (as per new group guideli
 
 - Competition prize winner announcements
 - Org change or new team member announcements (unless they are E-group)
-- Promotion of an optional non-companywide internal event
+- Promotion of an optional non-company-wide internal event
 - Announcement that directly impacts less than 75% of team members
 - Actions required from team members is not critical or timely
 
@@ -542,7 +542,7 @@ Consider the following best practice when taking notes in meetings:
 
 1. If at the start of the meeting, it does not look like all team members will contribute to note-taking, identify a set of note-takers who will be responsible for this activity within the meeting
 1. Note-taking can be a lot for a single person to stay on top of--especially when there is a fast moving conversation with many speakers. Team members should still feel empowered to contribute by helping with notes as needed, even if there is someone assigned.
-   - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It's helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
+   - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes), specifically `It's helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
 1. Ask others to scribe answers in real-time to allow the person who asked the question to focus on the answer. Touch up the answer when the conversation has moved on to something less relevant.
 1. It can be hard to keep up with the dialog and capture quality notes when there's fast back and forth conversation. Lead by example and write when you're not talking, expect others will write when you're talking.
 1. Focus on noting speakers and their key points over capturing all words said. Extensive note-taking should not happen at the expense of correct note-taking.
@@ -586,14 +586,14 @@ There are times when presenting during a meeting is needed. This may occur when 
 
 #### Framework for meetings with presentations
 
-While most meetings should not have presentations, there are a few exceptions. Specifically, we may use synchronous touch points in meetings with large numbers of folks. These tend to be meetings used for building team cohesion and alignment. For example, [GitLab Assembly](/handbook/company/gitlab-assembly/) or the [Functional Leaders Meeting](/handbook/company/offsite/#functional-leaders-zoom-call).
+While most meetings should not have presentations, there are a few exceptions. Specifically, we may use synchronous touch points in meetings with large numbers of folks. These tend to be meetings used for building team cohesion and alignment. For example, [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/) or the [Functional Leaders Meeting](/handbook/company/offsite/#functional-leaders-meetings).
 
 GitLab has the following meeting framework for determining which meetings should have presentations:
 
 | Presentation Approach | Types of meetings with few participants | Types of meetings with many participants |
 | ------------- | ------------- | ------------- | ------------- |
 | No presentations (async prep) | Most meetings | [AMA](/handbook/communication/ask-me-anything/) |
-| Presentations  | These meetings should not happen | [Assembly](/handbook/company/gitlab-assembly/) and other large team meetings |
+| Presentations  | These meetings should not happen | [Assembly](/handbook/company/gitlab-all-company-meetings/) and other large team meetings |
 
 ### Meeting introduction guidelines
 
@@ -879,7 +879,7 @@ GitLab has a specific process to follow in crisis situations to ensure effective
 1. Do not add a period at the end of a title.
 1. During introductions, make sure that nobody is presenting. We remember people better and have more empathy when we clearly see peoples faces and expressions.
 1. At the end of the presentation, when you go to Q&A, stop presenting in Zoom. This way the other people can see the person who is speaking much better.
-1. All presentations at GitLab should be based on screenshots of the handbook, issues, merge requests, review apps, and data from GitLab Insights and Sisense charts. In most cases it shouldn't be needed to make content uniquely for the presentation. If you need something that doesn't exist yet add it to the place it belongs and then copy it into the presentation. This way we can have a [Single Source of Truth](/handbook/company/culture/all-remote/handbook-first/#creating-a-home-for-a-single-source-of-truth-ssot) for everything we do. By using screenshots you indicate to people you did the right thing and they can find the canonical source in the appropriate place. Having to find information by digging through old presentations doesn't scale. Consider linking the screenshot to the original source.
+1. All presentations at GitLab should be based on screenshots of the handbook, issues, merge requests, review apps, and data from GitLab Insights and Sisense charts. In most cases it shouldn't be needed to make content uniquely for the presentation. If you need something that doesn't exist yet add it to the place it belongs and then copy it into the presentation. This way we can have a [Single Source of Truth](/handbook/values/#single-source-of-truth) for everything we do. By using screenshots you indicate to people you did the right thing and they can find the canonical source in the appropriate place. Having to find information by digging through old presentations doesn't scale. Consider linking the screenshot to the original source.
 1. Do not use cumulative graphs internally. For example total ARR, total user, total contributors, or total Merge Requests. Instead use IACV per dollar spend, users added per month, contributions per month, or [MR rate](/handbook/engineering/development/performance-indicators/#development-department-member-mr-rate). Cumulative graphs can [hide trends](https://www.heap.io/blog/how-to-lie-with-data-visualization) and are [far more likely to be misinterpreted](https://measuringu.com/cumulative-graphs/). The only acceptable use of cumulative graphs is for external presentations where they are expected by the audience and commonly used.
 1. When your presentation includes graphs or other data, make sure your graphs have clear titles and dimensions. Make sure your data has significant figures and labels. For example, use 'January: 1.95M projects' instead of 'January: 1.95M'. Keep in mind that your audience may not have the full context, especially if they are reading the presentation asynchronously.
 1. When giving a presentation, your commentary should not be a regurgitation of the words in the slide. The audience can read the slide for themselves; your commentary should focus on the most important takeaways.
@@ -908,7 +908,7 @@ This list offers additional guidance for written communication at GitLab:
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](https://handbook.gitlab.com/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs, use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
 1. Read our [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) for more information when using Markdown.
 1. Do not use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting). However, there is the [`#all-caps` Slack channel](https://gitlab.slack.com/archives/C01BC085AVB) for your good-natured shouting needs.
-1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
+1. We use Unix style (`lf`) line endings, not Windows style (`crlf`), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. When specifying measurements, please include both Metric and Imperial equivalents.
 1. When mentioning currency amounts that team members may need to convert to their local currency (e.g. benefits, expenses, or bonuses), link those amounts to our [Exchange Rates](/handbook/total-rewards/compensation/#exchange-rates) section (e.g. [500 USD](/handbook/total-rewards/compensation/#exchange-rates)).
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9.
@@ -941,7 +941,7 @@ This list offers additional guidance for written communication at GitLab:
    1. "FY20" is the preferred format and means: Fiscal Year 2020, the period running from February 1, 2019 through January 31, 2020
    1. "Q1" = the first quarter of the current Fiscal Year, so on Feb 1, 2020, "Q1" is the period from Feb. 1, 2020 through April 30, 2020. Note that Epics in GitLab follow Calendar Years and Quarters.
    1. When referring to a quarter in a future or past year, combine the two above: "FY21-Q1"
-   1. When financial data is presented, include a note to indicate fiscal year (e.g. "Fiscal Year ending January, 31 'yy")
+   1. When financial data is presented, include a note to indicate fiscal year (e.g. "Fiscal Year ending January, 31 'YYYY")
 1. For time formatting guidelines, refer to the [GitLab Content Style Guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#time-formatting).
 1. Please remember that not everyone is working in the same timezone; what may be morning for you is evening for someone else. Try to say 3 hours ago or 4 hours from now, or use a timestamp, including a timezone reference.
 1. Don't use "EOD" or "end of day" ("COB" or "close of business", "EOB" or "end of business"), unless you are okay with a deliverable being due at the end of [anywhere on earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth#:~:text=World%20map%20of%20time%20zones,it%20ends%20on%20Howland%20Island). Team members communicate across timezones, where "end of day" does not specify the exact date and time. When you want something due at a specific time, [communicate the date and time](/handbook/communication/#communicating-dates-and-time) by when the request should be done, for example: `Please review before 2023-06-10 5PM PT`.
@@ -963,7 +963,7 @@ We use it for activities in GitLab, even ones not implemented in software.
 
 By having ubiquitous words to identify concepts we prevent confusion over what is meant, for example we refer to [parts of our organization](/handbook/company/structure/) as a function, department, or group depending on exactly what is meant.
 
-Make sure that domains don't overlap, for example [organization size](/handbook/sales/#organization-size) and [deal size](/handbook/sales/sales-term-glossary/) don't reuse words to prevent overlap.
+Make sure that domains don't overlap, for example [organization size](/handbook/sales/sales-term-glossary/) and [deal size](/handbook/sales/sales-term-glossary/) don't reuse words to prevent overlap.
 
 If a term is ambiguous don't use it, for example our hiring team uses the terms `roles` and `vacancies`, but avoid the ambiguous word `job`.
 
@@ -1055,7 +1055,7 @@ For example, do not suggest that you're "working in real-time" when a matter is 
 
 Do not use a cool term such as "tiger team" when the [existing term of "working group"](/handbook/company/working-groups/) is more exact. While cool terms such as these may be useful for persuading colleagues to join you in working towards a solution, the right way isn't to use flowery language.
 
-The last example is when we used 'Prioritizing for Global Optimization' for what we now call a [headcount reset](/handbook/product/product-processes/#headcount-resets). When we [renamed it](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/31101/diffs) we saw a good reduction in the use of this disruptive practice of moving people around.
+The last example is when we used 'Prioritizing for Global Optimization' for what we renamed to headcount reset. When we [renamed it](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/31101/diffs) we saw a good reduction in the use of this disruptive practice of moving people around.
 
 ### Using additional languages
 
@@ -1071,7 +1071,7 @@ The guidance in this section applies to written one-to-one communication, for ex
 - When in doubt, use American English.
 
 **Here's an example:**
-
+<!-- vale handbook.Spelling = NO -->
 > Hey @nmalcolm, I left some suggestions for your merge request. Ka mau te wehi! (Te Reo Māori: great work / well done!)
 >
 > ありがとうございます (Japanese: thank you very much) for the review @cynthia!
@@ -1089,7 +1089,7 @@ Note to table contributors:
 - Provide guidance when required, e.g. regarding plurals, formality, gender. If possible provide simple language that is suitable for all circumstances.
 - Provide a template if the placement of a person's name is important, e.g. "Kia ora `NAME`".
 -->
-
+<!-- vale handbook.Spelling = YES -->
 ### Avoid using Git in Project Names
 
 Avoid using *Git* in the naming of internal and external company related programs (BagGit, GitFit, Gitty, GitIt, etc.). Referencing Git creates an inaccurate perception that GitLab has a narrow focus. While GitLab started as a source control platform, it has become [The DevOps Platform](https://about.gitlab.com/solutions/devops-platform/).
@@ -1122,7 +1122,7 @@ Slack is used for:
 - Asynchronous team standups, questions, and quick collaboration
 - Informal communication
 
-Use a [bias for action](/handbook/values/#bias-for-action) to quickly move conversations that require collaboration and action out of Slack and into an issue.
+Use a [bias for action](/handbook/values/#operate-with-a-bias-for-action) to quickly move conversations that require collaboration and action out of Slack and into an issue.
 
 Only 90 days of Slack activity will be retained, so Slack should specifically NOT be used for:
 
@@ -1131,7 +1131,7 @@ Only 90 days of Slack activity will be retained, so Slack should specifically NO
 - Storing official company records or documents
 - Sharing personal or sensitive information regarding any individuals
 
-Internal Slack messages between team members are still considered professional communication. Please do not use or add emoji's to Slack that are of a political, religious or of a sexual nature. You can refer to the [Religion and politics at work](/handbook/values/#religion-and-politics-at-work) section of the handbook. When in doubt do not use or add the emoji. If you have any concerns about an emoji that was used, please reach out to the author or if you are not comfortable doing so please reach out to your [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+Internal Slack messages between team members are still considered professional communication. Please do not use or add emoji's to Slack that are of a political, religious or of a sexual nature. You can refer to the [Religion and politics at work](/handbook/values/#religion-and-politics-at-work) section of the handbook. When in doubt do not use or add the emoji. If you have any concerns about an emoji that was used, please reach out to the author or if you are not comfortable doing so please reach out to your [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 There is a lot of information pertaining to Slack, as it is a critical part of GitLab's communication. See the [Slack tools and tips page](/handbook/tools-and-tips/slack).
 
@@ -1144,7 +1144,7 @@ There is a lot of information pertaining to Slack, as it is a critical part of G
 1. Unless you're in an active chat, don't break up a topic into multiple messages as each one will result in a notification which can be disruptive. Use [threads](https://slack.com/intl/en-gb/help/articles/115000769927-Use-threads-to-organise-discussions-) if you want to provide extra info to the question/comment you posted.
 1. If you are having a hard time keeping up with messages, you can update your preferences to have Slack email you all notifications. To change the setting, go to `Preferences > Notifications > When I'm not active on desktop...` and "send me email notifications."
 1. If you agree in a message to start a video call (typically by asking "Call?") the person that didn't leave the last comment starts the call. So either respond to the "Call?" request with a video link or say "Yes" and let the other person start it. Do not say "Yes" and start a call 5 seconds later since it is likely you'll both be creating a video call link at the same time.
-1. As an admin of the Slack workspace, if given the option to *"Disable future attachments from this website"* when removing an attachment from a message **this will block the link/domain from [unfurling](/handbook/tools-and-tips/#unfurling-links-in-messages) in the entire Slack workspace**. Be careful and deliberate when choosing this option as it will impact every user in the workspace.
+1. As an admin of the Slack workspace, if given the option to *"Disable future attachments from this website"* when removing an attachment from a message **this will block the link/domain from [unfurling](/handbook/tools-and-tips/slack/#unfurling-links-in-messages) in the entire Slack workspace**. Be careful and deliberate when choosing this option as it will impact every user in the workspace.
 1. When referencing a Slack thread in a GitLab.com issue, don't *only* link to the thread. Not only will people outside of the GitLab organization be unable to access the content, but the link will expire after the Slack retention period expires. Instead:
    1. **Review the contents** for confidentiality of users, customers, or any other sensitive information before posting.
    1. Copy and paste the relevant parts of the thread into the issue using blockquote formatting.
@@ -1466,7 +1466,7 @@ the general number (+1-415-761-1791), but be aware that this number simply guide
 In an all-remote organization effective communication is key to exchanging knowledge, ideas, and information. Effective communication at GitLab:
 
 - Uses [asynchronous](/handbook/company/culture/all-remote/asynchronous/) communication as the starting point and stays as open and transparent as we can by [communicating via text](/handbook/communication/#writing-style-guidelines) through public issues, merge requests, and Slack channels (over DMs).
-- Places an emphasis on ensuring that conclusions of offline conversations are written down ensuring a [Single Source of Truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot).
+- Places an emphasis on ensuring that conclusions of offline conversations are written down ensuring a [single source of truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot).
 - [Produces video](/handbook/marketing/marketing-operations/youtube/) when necessary.
 
 If you would like to improve your skills or expand your knowledge on topics relating to Communication at GitLab, check out our resources:

@@ -83,7 +83,6 @@ description: Information and guidelines about the Innovation Pitch Competition
   * Jocelyn Eillis, Product Manager
   * Sheela Viswanathan, Senior Manager, Sales Systems
   * Christian Couder, Staff Backend Engineer Gitaly: Git
-  * Abubakar Siddiq Ango, Developer Advocate
   * Christina Lohr, Senior Product Manager, Data Stores Tenant Scale
   * Dave Steer, VP, Brand & Product Marketing
   * Lis Vinueza, Analytics Engineer

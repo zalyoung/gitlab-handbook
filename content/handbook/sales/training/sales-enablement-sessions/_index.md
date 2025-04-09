@@ -9,9 +9,9 @@ The Field Enablement Spotlight is a weekly continuous education series for all G
 
 The Field Enablement Spotlight takes place each week on Thursday, with two session options to accommodate GitLab's global field sales & customer success audience.
 
-- **(Option 1) 11:00 AM (US Eastern Time)(UTC -5)** = (8 AM Pacific Time) = **(5 PM Central European Time)(UTC +1)**
+- **(Option 1) 11:00 AM (US Eastern Time)(UTC -4)** = (8 AM Pacific Time) = **(4 PM Central European Time)(UTC +1)**
 
-- **(Option 2) 12:00 PM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -8)
+- **(Option 2) 11:00 AM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -7)
 
 Attending the weekly Field Enablement Spotlight session is mandatory, with two options provided to accommodate our global audience. If team members are on paid time off or have a scheduling conflict with a customer, they may watch the session recording in a timely manner.
 
@@ -19,12 +19,14 @@ Attending the weekly Field Enablement Spotlight session is mandatory, with two o
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Winter 2024 Lineup**
+**Spring 2025 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Jan 23 | Customer Success - New Paid Offer (Success Plans)   | CS Team  |
-| Jan 30 | *No session during the last week of the quarter* |    |
+| Apr 3 |  Visibility and Measurement Roadmap   | Product Marketing  |
+| Apr 10 |  Product Marketing Update   |  Product Marketing  |
+| Apr 17 |  *No session during the last two weeks of the quarter*   |    |
+| Apr 24 |  *No session during the last two weeks of the quarter*   |    |
 
 ## Past Sessions
 
@@ -33,6 +35,13 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-03-27 | **[FY26 Field Services Positioning Guidance](https://drive.google.com/file/d/1JNa5bKGL0ppGLl-Q4okFtBRfAqZ2kQ-9/view?usp=drive_link)**  |  Private   |
+| 2025-03-20 | **[The Customer Co-Create Initiative](https://drive.google.com/file/d/190xggRUoRndvzR4U9PJBxKUAKiF__f3T/view?usp=drive_link)**   |  Private   |
+| 2025-03-11 | **[The Future of Secure Agentic AI](https://drive.google.com/file/d/1_YdkKYgckNQqg4p8uN4xKDH42chtJlYE/view?usp=drive_link)**  | Private   |
+| 2025-03-06 |  **[Google Private Offer Updates](https://drive.google.com/file/d/1Z7GOZ8ZbjoF39nhvULzEc2osmXAyDiO4/view?usp=drive_link)**  |  Private   |
+| 2025-02-20 | **[GitLab Duo Self-Hosted Models + Security & Compliance Updates](https://drive.google.com/file/d/1s97Q-R23ZVX77inVQb1LBBk60HFkRtFZ/view?usp=drive_link)**   |  Private  |
+| 2025-02-13 |  **[Tools for Field Efficiency: HG Insights & Highspot](https://drive.google.com/file/d/12u6uNibsMuym5EcH2yvO6K2ENxGvNhBA/view?usp=drive_link)**   |  Private  |
+| 2025-01-23 | **[Customer Success: New Paid Tiers](https://drive.google.com/file/d/1oGm4UbUAQzI_bwiBdIvj-D3D-f_Nz9fN/view?usp=drive_link)**   | Private  |
 | 2025-01-16 |  **[GitLab Dedicated for Gov: The FedRAMP Journey](https://drive.google.com/file/d/1lvFqgW4xPvRU2a9yHK9J4YokQEy3XyOQ/view?usp=drive_link)** | Private |
 | 2025-01-09 |  **[Business Value Services Update](https://drive.google.com/file/d/1tWWBq3eppiSuIns-wEzPH9YvZOkQDb2v/view?usp=drive_link)**  | Private |
 | 2024-12-19 |  **[Winning with Analyst Relations](https://drive.google.com/file/d/1QlDRpBaKZLpDAcqbSeJ4a3aWdIHMYCn1/view?usp=drive_link)**  | Private  |

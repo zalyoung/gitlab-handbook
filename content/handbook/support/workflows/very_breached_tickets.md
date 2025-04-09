@@ -18,6 +18,8 @@ A ticket is considered to be a VBT when it meets all of the following criteria:
 - Ticket has breached the FRT SLA relevant to its priority
 - 2 business days have elapsed since the ticket breached FRT SLA
 
+In addition, tickets received on the Emergency form that have breached NRT SLO by 2+ business days will be alerted.
+
 ### Customer Impact of Very Breached Tickets (VBT)
 
 When a ticket meets the VBT criteria, the customer has already waited the following durations for a first response to their request:

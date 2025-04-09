@@ -157,7 +157,7 @@ This section is updated after every Board Meeting by the Staff EBA to the CFO fo
 
 1. Meeting is scheduled for 2025-04-03.
 1. 2025-02-10 - The Lead Independent Director will reach out to the Board to discuss agenda items.
-1. 2025-02-17 (TBD) - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
+1. 2025-02-14 - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
 1. 2025-03-13 - The CFO adds another reminder to the E-Group. [A week before pencils down]
 1. 2025-03-20 - The E-Group has completed all materials by 12pm Pacific time for review by the CLO and CFO. [A week before BoD Meeting materials distribution]
 1. 2025-03-27 - Once approved by the CLO, CFO and CEO, the CFO authorizes the Corporate Paralegal to upload the materials into NBV and attach them to the corresponding NBV Meeting. The CFO then notifies the Board via email that materials are ready for review in NBV 7 days before the meeting. The Staff EBA to the CFO is responsible for sharing settings on all materials linked in the Google doc BOD Agenda. Materials should be shared with the E-Group, the board members, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping.
@@ -196,11 +196,11 @@ Each quarter, E-Group can choose to invite an additional team member as a Key Ta
 1. High performance
 1. Clear results
 1. Function (should have representation across functions throughout the year)
-1. Diversity (participation from members in [GitLab Team Member Resource Groups]({{< ref "erg-guide" >}}))
+1. Diversity (participation from members in [GitLab Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/))
 
 Once the Key Talent Guest has been identified, it is the relevant E-Group team member's responsibility to ensure that managers of this person are aware of the invite. The EBA to the CEO will then confirm that the guest is able to join. If not, the invite will go to the runner up. Once a Key Talent Guest is confirmed, the EBA to the CEO should enter their name in the [Key Talent Board Dinner Guests](#key-talent-board-dinner-guests).
 
-GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines](/handbook/finance/travel/#policy-and-guidelines).
+GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines](/handbook/finance/travel/).
 
 As part of joining the dinner, the Key Talent Guest should come prepared to discuss:
 
@@ -302,7 +302,7 @@ New Director will be provided with:
 
    - Materials for meeting: Most recent Board of Directors meeting presentation, Key Review slides, current quarter OKRs. Please do not generate new content. The Staff EBA to the CEO sends material to the new Director at least 72 hours in advance. The meeting is centered around the new Director's questions
    - [GitLab Strategy](/handbook/company/strategy/)
-   - [3 year strategy](/handbook/company/strategy/#three-year-strategy)
+   - [3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/)
    - [Company KPI's](/handbook/company/kpis/)
    - [Quarterly OKRs](/handbook/company/okrs/)
    - [Yearlies](/handbook/company/yearlies/)
@@ -335,7 +335,7 @@ New Director will be provided with:
    - Compensation Committee Overview
 1. Sales (CRO) - 80 minutes suggested
    - The Staff EBA to the CRO sends material to the new Director at least 72 hours in advance.
-   - Materials and key topics include: Sales Key Review slides, Sales KPI dashboard, most recent CRO Board Appendix slides and Sales section of the BOD deck, market definiton, current organization design, current sales motion, customer motion, sales philosophy and current CRO priorities.
+   - Materials and key topics include: Sales Key Review slides, Sales KPI dashboard, most recent CRO Board Appendix slides and Sales section of the BOD deck, market definition, current organization design, current sales motion, customer motion, sales philosophy and current CRO priorities.
 1. Marketing (CMO) - 50 minutes suggested
 1. Product Overview (EVP, Product, EVP, Engineering, CEO) - 80 minutes suggested
    - Product review

@@ -86,6 +86,28 @@ If you’re considering a speaking opportunity, which includes participating in 
 **Event Booth Staffing**
 If you are staffing the GitLab booth at an in-person or virtual event, you are representing GitLab. Please follow the company’s SAFE framework when engaging with booth visitors and event attendees.
 
+### Event Support Requests
+
+The PR team supports corporate-sponsored industry shows such as RSA, Black Hat, KubeCon NA, Google Cloud Next, and AWS re:Invent, where we make announcements and/or an e-group member attends. 
+
+Our media strategy focuses on technology publications, business media, and vertical media only if we have a brand-name customer who will speak to the press or a product announcement tied to a vertical. 
+
+The full criteria for PR support at events includes:
+
+* **Spokesperson Availability:** An e-group member or designated delegate is confirmed to be onsite and available for interviews.
+* **Geographic Alignment:** The event is held in a country or region the corporate communications team currently supports (US, UK, Germany, France, Japan, Australia).
+* **Media Presence:** At least three journalists from GitLab Top Media will be present at the event.
+* **News Hook:** The event aligns with a compelling news hook related to a product announcement, significant partnership, or major industry trend for media or analysts in attendance.
+
+Additional considerations include:
+
+* **Customer Availability:** At least one customer approved to speak with the media on behalf of their brand about their GitLab experience is confirmed to attend. Customer contact information must be provided to the PR team 6 weeks in advance.
+* **Analyst Alignment:** At least three analysts covering GitLab’s primary markets will be present at external events.
+
+### Vertical Industry Support Requests
+
+GitLab Corporate Communications takes a strategic approach to vertical industry support in alignment with the broader company strategy. Currently, our focus includes the public sector - a well-established area of our business. Specific support for finserv and telco or other verticals will be considered when there are referenceable customers who are willing to speak with the media and the PR team has allocated the appropriate resources. This ensures that our efforts are aligned with key business objectives.
+
 ### Research-oriented requests
 
 #### Analysts
@@ -116,7 +138,16 @@ When representing and/or communicating externally on behalf of GitLab, please fo
 
 ### Sharing Media Coverage
 
-Please follow the guidelines for using third-party IP in external materials outlined in the Legal and Corporate Affairs handbook page.
+Some media outlets (including [these ~14,000 newspapers and magazines](https://hubtitlesearch.nlamediaaccess.com/TitleList/NLA%20Title%20List.xlsx)) require GitLab to hold a license to share (and do the various other things noted below with) extracts, quotes or headlines of print and online articles - both internally (eg. via slack, email or in confidential GitLab issues) and externally (eg. on GitLab's social media channels). The sharing of bare hyperlinks to articles (without extracts, quotes or headlines) does not require a license.
+
+A license may be required to do any of the following with extracts, quotes or headlines of print and online articles:
+
+* Photocopying, faxing, scanning, emailing or copying;
+* Saving on an internal or external intranet or shared drive;
+* Printing, photocopying, emailing or distributing material received from a media monitoring organisation or PR agency;
+* Posting material on internal or external websites or social media accounts.
+
+If you are interested in doing any of the above with a media article (or an extract, quote or headline) internally or externally beyond just sharing the bare hyperlink, please reach out to the Corporate Communications team via the `#external-comms` slack channel before proceeding to confirm if a license is required.
 
 ### Requests for External Announcements
 

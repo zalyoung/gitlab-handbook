@@ -16,7 +16,7 @@ This README is meant to help anyone who needs to work with me by providing a bri
 
 1. **Integrity:** Trust is the most important thing in any relationship. Trust is knowing you can count on me to say what I mean and do what I say. I try to live my life in strict adherence to this value, and when I fall short, I try to proactively and openly acknowledge and recommit. My single biggest ‘hot button’ issue is when someone does not follow through on something they said they would do.
 1. **Curious:** I try to live what many call the “growth mindset,” which means that I’m always learning, striving to improve, and iterating to be better. I feel very imperfect and self-critical on the inside, and I constantly strive to learn as much as I can while appreciating that I can’t know it all. I’m open and accept constructive feedback from anyone, anytime.
-1. **Results:** Good ideas, hard work, and fun on the job are all important, but ultimately, our results are what matter. I care far more about outcomes than effort. I strive to do everything at a high standard of excellence, and I’m never satisfied with the status quo. I seek people who are equally committed to being world-class.
+1. **Results:** Good ideas, hard work, and fun on the job are all important, but ultimately, our results are what matters. I care far more about outcomes than effort. I strive to do everything at a high standard of excellence, and I’m never satisfied with the status quo. I seek people who are equally committed to being world-class.
 
 ### My Super Powers - how you can get the best from me
 
@@ -53,7 +53,7 @@ I am the CEO of GitLab. Here is what I do in 12 words or less that is unique to 
 1. If you have a complex question or need a discussion on something async that will require more than a few sentences for me to reply, put it into a document and share it with me with comments. I read fast and am pretty efficient at giving feedback this way.
 1. Use email when it is an external-facing communication, but don’t expect me to respond in < 1 week unless you ask me to look at it sooner over Slack or it is regarding a critical external matter.
 
-### Expectations for leadership  
+### Expectations for leadership
 
 What I need from you. What you will get from me.
 
@@ -93,3 +93,15 @@ What I need from you. What you will get from me.
 ## CEO Scam
 
 See [CEO and executive fraud](/handbook/security/security-assurance/governance/phishing/#ceo--executive-fraud) in the security practices section of the handbook.
+
+## Meeting request requirements
+
+For scheduling a video call or meeting with me or other execs, please see the [EBA handbook page](/handbook/eba/).
+
+## CEO Meeting Cadence
+
+As part of my role, I participate in a variety of meetings both internal and external.
+
+### Monthly Meetings
+
+1. Monthly CEO AMA, [agenda in Gdrive](https://drive.google.com/drive/search?q=monthly%20ceo%20ama) (internal).

@@ -113,11 +113,11 @@ Mike Lindsay: [Transcript](https://docs.google.com/document/d/1WjFGzhZFdhb8UTG66
 
 - Build [**team member profiles**](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/blob/master/.gitlab/issue_templates/Team-Member-Profile.md) or build your own team member profile and share it with your colleagues/manager. Personalisation is key, by focussing on the team members' individual working styles, communication styles and feedback loops, you will negate the need for disclosure and allow all team members to thrive. You can use this issue [template](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/blob/master/.gitlab/issue_templates/Team-Member-Profile.md).
 
-[**Neurodiversity Resources Handbook Page**]({{< ref "neurodiversity-resources" >}})
+[**Neurodiversity Resources Handbook Page**](/handbook/company/culture/inclusion/neurodiversity-resources/)
 
 **Reasonable Accommodations**
 
-This is covered in the [Neurodiversity Resources Handbook Page]({{< ref "neurodiversity-resources" >}}) but here are some articles that provide specific examples of reasonable accommodations for neurodivergent team members.
+This is covered in the [Neurodiversity Resources Handbook Page](/handbook/company/culture/inclusion/neurodiversity-resources/) but here are some articles that provide specific examples of reasonable accommodations for neurodivergent team members.
 
 [Neurodiversity Hub for Employers](https://www.neurodiversityhub.org/resources-for-employers)
 

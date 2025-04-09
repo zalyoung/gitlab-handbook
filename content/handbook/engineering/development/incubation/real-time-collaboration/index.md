@@ -38,7 +38,7 @@ REID is a complex subject and many challenges were faced along the way:
   was built and an integration attempt was made, but ultimately
   did not ship because of open questions around how to slot it into GitLab's overall IA.
 
-A hand-over with the [Application Performance group](/handbook/engineering/infrastructure/core-platform/data_stores/application_performance/)
+A hand-over with the [Application Performance group](/handbook/engineering/infrastructure/team/cloud-connector/)
 has been conducted in [this issue](https://gitlab.com/gitlab-org/application-performance-team/team-tasks/-/issues/136).
 
 ## Outputs

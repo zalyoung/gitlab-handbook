@@ -117,7 +117,7 @@ As a non-talent acquisition team member, you would need to be added as a `Pool A
 
 ### Configuring notifications
 
-Notifications are configured as part of the [requisition creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#requisition-creation-process) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove yourself for that section.
+Notifications are configured as part of the [requisition creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove yourself for that section.
 
 ### Reporting
 
@@ -190,7 +190,7 @@ To add your email to your LinkedIn profile, click `Me` > `Settings & Privacy` > 
 
 ### Configuring notifications
 
-Notifications are configured as part of the [requisition creation process]({{< ref "req-creation#requisition-creation-process" >}}) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove people for that section.
+Notifications are configured as part of the [requisition creation process](/handbook/hiring/talent-acquisition-framework/req-creation/#open-requisition-in-greenhouse-dri-recruiter) but can be adjusted at any time. To set up notifications, go to the requisition's job dashboard and click on `Job Setup` at the top, then `Notifications` at the left. Under each section, you can then click `Edit` to add or remove people for that section.
 
 It is recommended for the Recruiter of a requisition to set up notifications for themselves regarding new internal applicants, new referrals, new agency submissions, approved to start talent acquisition, offer fully approved, stage transitions, and new scorecards. Best practice is to use the name of the person to be notified rather than `Candidate's Recruiter` or `Candidate's Coordinator`.
 
@@ -230,7 +230,7 @@ Here's how to see if it's been sent and, if applicable, how to send it:
 
 ### Scheduling interviews with Greenhouse
 
-The [Candidate Experience Specialist team]({{< ref "coordinator#framework-coord" >}}) handles all interview scheduling once a candidate has passed the "screening" stage.
+The [Candidate Experience Specialist team](/handbook/hiring/talent-acquisition-framework/coordinator/) handles all interview scheduling once a candidate has passed the "screening" stage.
 
 #### Important scheduling and interview notes
 
@@ -266,7 +266,7 @@ The candidate should always be notified if they've been rejected. The talent acq
 |Assessment|Within 5 days of Asessment Submission|Email |Standard Template by default, may provide specific feedback, but not required|
 |Team Interview|Within 5 days of Team Interview|Email or via Zoom Call |Must provide feedback that is personalized and customized.  Only offer frank feedback. This is hard, but it is part of our [company values](/handbook/values/). All feedback should be constructive and said in a positive manner. Keep it short and sweet.  Feedback should always be applicable to the skill set and job requirements of the position the candidate applied and interviewed for.|
 
-Any time a candidate is rejected, the Talent Acquisition Team will notify them, as they will not automatically be notified if we reject them. When clicking the reject button on a candidate, Greenhouse will open a pop up where you can choose the appropriate rejection reason, as well as a rejection email template. Feel free to adjust the template per the [guidelines in the handbook]({{< ref "interviewing#rejecting-candidates" >}}). You can also select a time delay to send out the rejection email. Finally, you are also able to start a new prospect process for a candidate when rejecting them, in the event you want to reach out to them again in the future.
+Any time a candidate is rejected, the Talent Acquisition Team will notify them, as they will not automatically be notified if we reject them. When clicking the reject button on a candidate, Greenhouse will open a pop up where you can choose the appropriate rejection reason, as well as a rejection email template. Feel free to adjust the template per the [guidelines in the handbook](/handbook/hiring/#interview-stages). You can also select a time delay to send out the rejection email. Finally, you are also able to start a new prospect process for a candidate when rejecting them, in the event you want to reach out to them again in the future.
 
 In Greenhouse, we have compiled a list of reasons for candidate declines or rejections that will allow us to continuously iterate on and improve our hiring process.  Please choose your reasons thoughtfully with this goal in mind, and provide as much detail as possible in the notes--particularly when candidates have reached the offer stage.
 

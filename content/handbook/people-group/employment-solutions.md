@@ -12,7 +12,7 @@ The GitLab team has members in countries and regions all over the world and from
 
 All of our roles are remote, however, some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions applicants may have about location after starting the recruiting process.
 
-In the past GitLab would hire in any country except those we had already determined were not feasible due to certain restrictions. At present, we are focussing our hiring in countries where we have an [entity]({{< ref "employment-solutions#gitlab-entities-and-branches" >}}) or a [PEO]({{< ref "employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch" >}}), that do not carry any hiring restrictions. More details can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under country hiring status.
+In the past GitLab would hire in any country except those we had already determined were not feasible due to certain restrictions. At present, we are focussing our hiring in countries where we have an [entity](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) or a [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch), that do not carry any hiring restrictions. More details can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under country hiring status.
 
 Compared with our former approach of hiring contractors in any country and later planning to implement an entity/PEO, we see four instant benefits with this approach:
 
@@ -23,7 +23,7 @@ Compared with our former approach of hiring contractors in any country and later
 
 We can consider an exception to hire outside of these countries through the use of a PEO for future team members when supported by business needs, on a case-by-case basis. This approach enables a scalable solution from the onset and allows us to continue to hire diverse global talent whilst providing a consistent and positive team member experience. This approach will require a formal business need justification and will be addressed on a case-by-case basis.
 
-Countries that do not have an entity/scalable PEO will be converted as part of our [country conversion process]({{< ref "employment-solutions#country-conversions" >}}).
+Countries that do not have an entity/scalable PEO will be converted as part of our [country conversion process](/handbook/people-group/employment-solutions/#country-conversions).
 
 ## Team Member Types at GitLab
 
