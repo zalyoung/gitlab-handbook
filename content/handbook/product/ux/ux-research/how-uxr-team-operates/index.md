@@ -5,7 +5,7 @@ description: "Our team structure, working model, resource allocation, and more"
 
 ## Team structure
 
-The UX research team is comprised of [UX Researchers](/handbook/product/ux/ux-research/), [Service Designers](/handbook/job-families/product/service-designer.md) and [UX Research Operations Coordinators](/handbook/product/ux/ux-research-coordination/)).
+The UX research team is comprised of [UX Researchers](/handbook/product/ux/ux-research/), Service Designers and [UX Research Operations Coordinators](/handbook/product/ux/ux-research-coordination/)).
 
 - UX Researchers work within their assigned stage groups, where they conduct UX research on their own and consult on research efforts being done by their teams.
 - Service Designers work across stages and groups, where they conduct user research and design to improve the end to end user journeys across GitLab.
