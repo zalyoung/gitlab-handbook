@@ -22,6 +22,21 @@ This policy applies to all GitLab Team Members, contractors, advisors, and contr
 | Security, Legal and PeopleOps | Responsible for implementing and executing this procedure |
 | Security, Legal and PeopleOps (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
+### Acceptable Use Policy (AUP) Working Group
+
+The AUP working group supports GitLab's ongoing cross-functional efforts to account for externally-hosted systems integrating with core GitLab applications. This activity supports ongoing initiatives to improve GitLab's security posture by analyzing, assessing, and restricting applications that receive or otherwise process GitLab data.
+
+The below DRI's are involved in day-to-day AUP activities to understand the risk posed by third party integrations and implement guardrails to reduce the risk of unauthorized data exfiltration.
+
+| DRI | Team | Responsibility |
+|------|-----|----------------|
+| Eric Geving | Security Risk | Project management, analysis for assessment scoping and restrictions |
+| Chris Moberly | Red Team, Threat Intelligence | Analysis of threats introduced by third-party integrations |
+| Steve Sagan | Corporate Security | ---- |
+| TBD | TBD | TBD | 
+
+*Looking to get in touch? Reach out to us in #Security.*
+
 ## Procedure
 
 ### Acceptable Use and Security Requirements of Computing Resources at GitLab
