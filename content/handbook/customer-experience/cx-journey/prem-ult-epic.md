@@ -1,3 +1,8 @@
+---
+title: "Expansion Journey: Premium to Ultimate Up-tier"
+description: "Epic for understanding how our largest customers expand into Ultimate"
+---
+
 # **Expansion Journey: Premium to Ultimate Up-tier**
 
 ## **Purpose**
@@ -12,16 +17,16 @@ Essential to this research is not only understanding what the journey looks like
 
 | Person | Role | What they own |
 | :---- | :---- | :---- |
-| Sarah Schuster | Customer Experience Strategy | Overall strategy, insights Lead research efforts  Mapping journeys Communications |
-| Brandon Butterfield | CX Strategy Analytics |  |
-| Jong Lee | Data Analytics | Consultation on research methodology, insights |
-| Ben Leduc-Mills | UX Research |  |
+| Sarah Schuster | Customer Experience Strategy | Owns overall strategy, insights Lead research efforts, mapping journeys, communications |
+| Brandon Butterfield | CX Strategy Analytics | Owns overall customer experience metrics, dashboards and reporting |
+| Jong Lee | Data Analytics | Consultation on data analytics, insights |
+| Ben Leduc-Mills | UX Research | Consultation on research methodology, best practices |
 
 ## **Cross-functional Counterparts**
 
 | Product | Go-to-Market | Operations |
 | :---- | :---- | :---- |
-| Product Marketing Product Management User Experience (UX) Analytics | Sales, Solution Architects, Customer Success, Services, Support  | Strategy & Operations |
+| Product Marketing, Product Management, User Experience (UX), Data & Analytics | Sales, Solution Architects, Customer Success, Services, Support  | Strategy & Operations |
 
 ## **Scope of Work**
 

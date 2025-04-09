@@ -1,11 +1,12 @@
+---
+title: "Our Team & Partners"
+description: "Who we are, what we do, and who we work with across GitLab to drive customer excellence."
+---
 # **Our Team**
-
 Who we are, what we do, and who we work with across GitLab to drive customer excellence. 
 
 ## **Meet The Team**
-
 We are a small, but mighty, team for now. More teammates will be added in future quarters\!  
- 
 
 | Role | Responsibilities | Outputs |
 | :---- | :---- | :---- |
@@ -97,7 +98,4 @@ While our team is in its start-up phase, our team must be flexible in how we con
 2. Analytical methodology decisions → CX Analyst (with Strategist input)  
 3. Cross-functional coordination → Cross-Company Collaborators  
 4. Strategic direction, scope changes, resource allocation → Steering Committee
-
-*Note: This RACI matrix should be reviewed and adjusted at project kickoff to ensure alignment with organizational structure and project specifics.*
-
- 
+* Note: This RACI matrix should be reviewed and adjusted at project kickoff to ensure alignment with organizational structure and project specifics.*

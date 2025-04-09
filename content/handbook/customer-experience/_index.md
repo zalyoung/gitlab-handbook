@@ -1,3 +1,7 @@
+---
+title: "Customer Experience (CX)"
+description: "Home space for CX team"
+---
 # **Customer Experience (CX)**
 
 Welcome to the home site for our Customer Experience team.
@@ -15,9 +19,9 @@ To create exceptional value through deep customer understanding, enabling GitLab
 We create meaningful connections with customers, transforming every interaction into an opportunity to build trust. By anticipating needs and delivering personalized experiences, we make customers feel valued and supported, turning them into passionate advocates who drive our shared success. (Powered by Claude)
 
 ## **Key Objectives**
-
-| Drive Customer-Centric Decision Making Establish comprehensive Voice of Customer (VoC) programs for feedback loops, customer intelligence frameworks, and biannual customer satisfaction  insights mechanism to provide actionable experience insights for the organization. | Enable Customer Success via Strategic Engagement Drive customer engagement through strategic programs, executive relationships, peer learning platforms, and advisory boards to accelerate value realization. | Champion Customer Innovation and Growth Foster customer growth by identifying innovative use cases, targeted education opportunities, enabling customer influence on strategy, and demonstrating value via success stories and foundational metrics. |
+| Drive Customer-Centric Decision Making|Enable Customer Success via Strategic Engagement| Champion Customer Innovation and Growth|
 | :---- | :---- | :---- |
+| Establish comprehensive Voice of Customer (VoC) programs for feedback loops, customer intelligence frameworks, and biannual customer satisfaction  insights mechanism to provide actionable experience insights for the organization. | Drive customer engagement through strategic programs, executive relationships, peer learning platforms, and advisory boards to accelerate value realization. | Foster customer growth by identifying innovative use cases, targeted education opportunities, enabling customer influence on strategy, and demonstrating value via success stories and foundational metrics. |
 
 ## **Our Work**
 
