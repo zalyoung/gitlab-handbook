@@ -267,7 +267,7 @@ The framework defines clear interaction points between roles:
 
 ## Handover Summary Templates
 
-Summary templates as code blocks for various communication scenarios where CMOC and SMOC roles need to share information with other stakeholders.
+Summary templates as code blocks for various communication scenarios where CMOC and SMOC roles need to share information with other stakeholders in Slack channels, and/or issues.
 
 ### CMOC Communication Templates
 
