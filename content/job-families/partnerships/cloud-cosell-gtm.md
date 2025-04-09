@@ -6,30 +6,27 @@ A Cloud Cosell Go-To-Market (GTM) Specialist focuses on developing and executing
 
 ## Associate Cloud Cosell GTM Specialist
 
-Job Grade
+### Job Grade
 The Associate Cloud Cosell GTM Specialist is a grade 5.
-Responsibilities
-Assist with Executing GTM Strategies:
-Assist in implementing strategies for evangelizing joint cloud products, including market positioning, messaging, and go-to-market plans.
-Buyer/Market Feedback:
-Capture buyer feedback during cloud coselling. They also capture and share competitive information with product and product marketing.
-Product Positioning and Messaging:
-Provide input to help with refining messaging and positioning for cloud products. 
-Cross-Functional Collaboration:
-Work closely with sales, marketing, product, and engineering teams to ensure alignment and effective execution of GTM plans. 
-Cloud Evangelism:
-Provide support to champion joint products and solutions to cloud sellers and related teams. Provide support at industry and joint marketing events. Work with GitLab field sales to deliver business value, demonstrate product functionality, and provide a comprehensive overview of key business use cases.
-Customer Acquisition and Retention:
-Execute strategies to acquire new customers and retain existing ones through effective GTM initiatives.
-Requirements
-Bachelor’s degree preferably with some experience in cloud coselling.
-Basic understanding of cloud computing technologies and trends.
-Some cloud coselling experience preferably in the DevOps space.
-Basic experience in driving Go-To-Market initiatives, technical partnerships, or similar roles.
-Basic communication, presentation, and interpersonal skills.
-Ability to work with a cross-functional team.
-Basic analytical and problem-solving skills.
-Basic business acumen and a passion for cloud computing.
+
+### Responsibilities
+ - Assist with Executing GTM Strategies:
+ - Assist in implementing strategies for evangelizing joint cloud products, including market positioning, messaging, and go-to-market plans.
+ - Buyer/Market Feedback: Capture buyer feedback during cloud coselling. They also capture and share competitive information with product and product marketing.
+ - Product Positioning and Messaging: Provide input to help with refining messaging and positioning for cloud products. 
+ - Cross-Functional Collaboration: Work closely with sales, marketing, product, and engineering teams to ensure alignment and effective execution of GTM plans. 
+ - Cloud Evangelism: Provide support to champion joint products and solutions to cloud sellers and related teams. Provide support at industry and joint marketing events. Work with GitLab field sales to deliver business value, demonstrate product functionality, and provide a comprehensive overview of key business use cases.
+ - Customer Acquisition and Retention: Execute strategies to acquire new customers and retain existing ones through effective GTM initiatives.
+
+### Requirements
+ - Bachelor’s degree preferably with some experience in cloud coselling.
+ - Basic understanding of cloud computing technologies and trends.
+ - Some cloud coselling experience preferably in the DevOps space.
+ - Basic experience in driving Go-To-Market initiatives, technical partnerships, or similar roles.
+ - Basic communication, presentation, and interpersonal skills.
+ - Ability to work with a cross-functional team.
+ - Basic analytical and problem-solving skills.
+ - Basic business acumen and a passion for cloud computing.
 
 ## Cloud Cosell GTM Specialist
 
