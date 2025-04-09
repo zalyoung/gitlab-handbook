@@ -73,6 +73,49 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 - [Identifying and organizing epics into executable Sprint plans](/handbook/marketing/digital-experience/#iteration-process)
 - [Successfully completing bi-weekly Sprint tasks](/handbook/marketing/digital-experience/#sprint-cycle)
 
+### Design Manager (UX) - Marketing 
+The Design Manager role leads a team of Designers within the Digital Experience organization. This position is responsible for guiding the design vision, fostering a culture of design excellence, and ensuring design solutions meet both user needs and business objectives while maintaining alignment with GitLab's overall product strategy.
+
+### Responsibilities
+
+- Lead and develop a team of Designers through coaching, mentoring, and career development
+- Guide the design vision and strategy for assigned product areas
+- Ensure design quality and consistency across team deliverables
+- Facilitate collaboration between design team and cross-functional partners
+- Advocate for user-centered design practices and principles throughout the organization
+- Participate in the hiring and onboarding process for design team members
+- Manage team resources and project prioritization
+- Drive design process improvements and best practices
+- Foster a culture of feedback, continuous learning, and iteration
+
+
+### Requirements
+
+- Ability to use GitLab
+- 5+ years of experience in product design, user experience design, or similar roles
+- 2+ years of experience managing design teams
+- Excellent communication and presentation skills
+- Strong portfolio demonstrating strategic thinking and problem-solving abilities
+- Experience with design systems and accessibility standards
+- Familiarity with user research methodologies and usability testing
+- Ability to balance user needs with business requirements
+- Understanding of web technologies and development processes
+- Experience working in an agile environment
+
+
+### Design Manager Job Grade
+The Design Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Design Manager reports to the Director, Digital Experience.
+
+#### Design Manager Performance Indicators
+
+- Team satisfaction and growth metrics (based on feedback and career progression)
+- Quality and timeliness of team deliverables
+- Success rate of design initiatives against established metrics
+- Contribution to company-wide design standards and systems
+- Effective collaboration with cross-functional partners
+
+
 ## Career Ladder
 
 The next step in the Product Design (UX) - Marketing job family is not yet defined at GitLab.
