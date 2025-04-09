@@ -117,8 +117,8 @@ Besides the [GitLab product development flow](/handbook/product-development/prod
 
 * `group::distribution` - Items specific to, or authored by Distribution team. It is a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) to be applied to all Distribution subgroups items until further guidance.
 * `group::distribution::*` - Items specific to, or authored by one of Distribution subgroups. They are [nested scope labels](https://docs.gitlab.com/ee/user/project/labels.html#nested-scopes), and mutually exclusive, but can be used with `group::distribution` scoped label together.
-  * `group::distribution::build` - Items specific to, or authored by [build](/handbook/engineering/infrastructure-platforms/software-delivery/distribution#distributionbuild-charter) group.
-  * `group::distribution::deploy` - Items specific to, or authored by [deployment](/handbook/engineering/infrastructure-platforms/software-delivery/distribution#distributiondeploy-charter) group.
+  * `group::distribution::build` - Items specific to, or authored by [build](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution#distributionbuild-charter) group.
+  * `group::distribution::deploy` - Items specific to, or authored by [deployment](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution#distributiondeploy-charter) group.
 * `FY(Year in two digitals)::*` (1-4) - [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) to indicate efforts targeted for release within a quarter. i.e., `FY24::Q2`.
 
 There are also a number of additional **required** labels under certain scenarios:
@@ -148,7 +148,7 @@ The Distribution DRI works on the following areas per the order of the list.
 #### During the week
 
 1. Support incidents escalated from production.
-1. [Support customer requests](../#engaging-distribution-for-expertise-in-support)
+1. [Support customer requests](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#engaging-distribution-for-expertise-in-support)
     * [Support help requests for Build and Self-managed](https://gitlab.com/gitlab-com/request-for-help/-/issues)
 1. Answer or redirect questions in [#g_distribution](https://gitlab.slack.com/archives/C1FCTU4BE) Slack channel.
 1. [Perform issue triage](triage.md).
@@ -173,7 +173,7 @@ When you are not on DRI duty, please consider the following when the request is 
 1. Redirect any [active incident](/handbook/engineering/infrastructure/incident-management/) and [deployment blocker](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) request to the Distribution DRI during their normal office hours, or take the request if you are the first available team member
 1. Redirect any Slack DM to the channel [#g_distribution](https://gitlab.slack.com/archives/C1FCTU4BE)
 1. Redirect any GitLab direct mention to `@gitlab-org/distribution` group
-1. Redirect any other requests to [How to work with Distribution](../#how-to-work-with-distribution)
+1. Redirect any other requests to [How to work with Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#how-to-work-with-distribution)
 
 ## Iteration
 
@@ -186,7 +186,7 @@ The goal is to catch scope creep, ensure we are iterating in ways that deliver m
 
 ## Distribution dependency maintenance policy
 
-Distribution team follows below dependency maintenance policy in order to achieve our [technology vision](../#vision).
+Distribution team follows below dependency maintenance policy in order to achieve our [technology vision](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#vision).
 
 Distribution aims to add support to newer release of Distribution managed dependencies within 3 to 5 milestones after their original release unless specified below otherwise.
 

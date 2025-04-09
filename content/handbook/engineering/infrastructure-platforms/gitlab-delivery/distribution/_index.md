@@ -117,7 +117,7 @@ The following people are members of the Distribution:Deploy Team:
 
 ### Stable counterparts
 
-The following members of other functional teams are our [stable counterparts](/handbook/company/structure/#stage-groups):
+The following members of other functional teams are our [stable counterparts](/handbook/leadership/#stable-counterparts):
 
 {{< stable-counterparts manager-role="Backend Engineering Manager, Distribution" role="Core Platform:Distribution" >}}
 
@@ -426,7 +426,7 @@ to support the customer. When sharing the information with multiple relevant gro
 same support request process, we're able to get to a solution much more efficiently.
 
 To open an RFP, refer to the procedures of our
-[how to get help](../../../../../support/workflows/how-to-get-help.md)
+[how to get help](/handbook/support/workflows/how-to-get-help.md)
 handbook page.
 
 This process allows us to track time involved
