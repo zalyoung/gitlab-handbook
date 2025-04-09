@@ -90,7 +90,7 @@ flowchart LR
     click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
 
     PE --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
+    click CC "/handbook/engineering/infrastructure/team/cloud-connector/"
     PE --> Foundations
     click Foundations "/handbook/engineering/infrastructure-platforms/production-engineering/foundations/"
     PE --> Observability

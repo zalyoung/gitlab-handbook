@@ -91,6 +91,10 @@ Everyone in the UX department and all Product Managers can get a Figma account w
 
 **Dovetail** We use [Dovetail](https://dovetailapp.com/) to manage and analyze research findings. If you need access, please submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues).
 
+**Gong** is a conversation intelligence tool to record sales facing conversations and provide analytics and insights into those conversations. It can help UX team members identify customers to speak with, or search calls for topics of interest. It is available to UX team members upon request. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) if you would like to use it. You can request the "Collaborator" role.
+
+**Highspot** contains information about Go-to-market including sales enablement and competitor research. Highspot can be accessed through SSO and is available upon request. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) if you would like to use it. For more information, see the [Highspot handbook page](/handbook/sales/field-communications/gitlab-highspot/)
+
 ### Tutorials
 
 The UX team is encouraged to make improvements directly in the product when they find something that is small and easy to change.

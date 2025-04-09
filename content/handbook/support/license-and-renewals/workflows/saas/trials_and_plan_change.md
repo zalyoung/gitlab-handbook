@@ -139,7 +139,7 @@ Plan changes should **never** be done manually except in the following cases:
 
 Plan changes on a paid non-trial namespace should be done through a subscription purchase.
 
-If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/issue-tracker-workflows/) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
+If a manual plan change is required for non-emergencies, a [legal issue](/handbook/legal/#how-to-reach-us) must be created and approved by legal as manually changing a plan causes data discrepancies, can cause legal issues, and can cause bug issues.
 
 ### Downgrading to a free plan
 

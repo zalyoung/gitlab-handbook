@@ -59,7 +59,7 @@ Some MRs may not need triaging and as an MR coach you should feel empowered to a
 
 When a contributor runs out of CI minutes, you can either:
 
-- Move the MR into the [community fork](https://gitlab.com/gitlab-community/) to take advantage of the unlimited CI minutes and many other [benefits](https://gitlab.com/gitlab-community/#why) there.
+- Move the MR into the [community fork](https://gitlab.com/gitlab-community/) to take advantage of the unlimited CI minutes and many other [benefits](https://gitlab.com/gitlab-community/#why) there. Instructions to move an MR are in the Meta project [here](https://gitlab.com/gitlab-community/meta#migrate-an-existing-merge-request-into-the-community-fork).
 - As a GitLab Team member you can run the pipeline for the contributor. This is useful if the MR is close to completion and moving it would not be efficient.
 
 ### Finishing merge requests

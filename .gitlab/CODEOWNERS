@@ -117,8 +117,8 @@
 /content/handbook/engineering/development/analytics/monitor/platform-insights.md @dennis @nicholasklick
 /content/handbook/engineering/development/analytics/monitor/optimize.md @dennis @blabuschagne
 /content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
-/content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
+/content/handbook/engineering/development/data-science/ai-powered/ai-framework @m_gill @timzallmann
+/content/handbook/engineering/development/data-science/ai-powered/custom-models @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/duo-workflow @bastirehm @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/model-validation @m_gill
@@ -165,7 +165,7 @@
 /content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/dynamic-analysis/ @tkopel @mikeeddington
 /content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @tkopel
-/content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
+/content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson @dabeles
 /content/handbook/engineering/development/sec/secure/static-analysis/ @thiagocsf @adamcohen @jleasure @julianthome
 /content/handbook/engineering/development/sec/security-risk-management/ @dagron1 @rvider
 /content/handbook/engineering/development/sec/security-risk-management/security-infrastructure/ @ryaanwells
@@ -185,7 +185,6 @@
 /content/handbook/engineering/development/dev/create/source-code/backend/ @andr3 @vyaklushin @jwoodwardgl @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/development/dev/create/source-code/frontend/ @andr3 @jerasmus @psjakubowska @gitlab-com/egroup @gitlab-com/content-sites
 
-
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/infrastructure-platforms/ @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure-platforms/tenant-scale/geo/ @luciezhao
@@ -204,7 +203,6 @@
 /content/handbook/engineering/infrastructure/ @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @marin
-/content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/team/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @denisra @plu8
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
