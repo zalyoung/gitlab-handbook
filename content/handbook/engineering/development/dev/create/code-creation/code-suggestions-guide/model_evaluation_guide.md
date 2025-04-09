@@ -71,7 +71,7 @@ for further guidance and updates.
 The [AI Model/Provider Load Tester](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test) is designed to simulate production-like traffic, ensuring that the model provider can handle real-world workloads. During the model evaluation process, follow these steps:
 
 1. Add a test script for the new model to this repository.
-2. Set up a load testing environment (e.g, a GCP Vertex AI project or a Fireworks development account) where the script will run.
+2. Set up a load testing environment (e.g, a GCP Vertex AI project or a Fireworks development account) where the script will run. The test environment should replicate the production environment’s quota and configuration to ensure accurate load testing results.
 3. Review ELK logs to estimate the expected number of users, and configure the appropriate environment variable.
 4. Run the load test and adjust the provider's quota if needed.
 
