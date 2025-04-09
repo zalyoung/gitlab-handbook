@@ -45,7 +45,6 @@ Benefits:
 
 Risks:
 
-- Controlling the scaling for this approach coulb be complicated, or force us to reduce the benefit of doing it in the first place. 
 
 #### Growth Estimation
 
