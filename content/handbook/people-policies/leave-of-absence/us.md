@@ -68,7 +68,7 @@ Team members must have 12 months of continuous service and 1250 hours worked in 
 
 #### How to Apply
 
-Any medical related absence (for yourself or a family member) requiring you to be away from work for at least 3 but no more than 5 days (either continuously or non-continuous but related to the same condition) must be reported either in Workday or to the Absence Management Team (leaves@domain.com). You will be contacted within 24-48 business hours (whenever possible) and provided with information regarding your request.  If approved, please adjust your Slack status noting you are OOO.
+Any medical related absence (for yourself or a family member) requiring you to be away from work for at least 3 but no more than 5 days (either continuously or non-continuous but related to the same condition) must be reported either in Workday or to the Absence Management Team (leaves@gitlab.com). You will be contacted within 24-48 business hours (whenever possible) and provided with information regarding your request.  If approved, please adjust your Slack status noting you are OOO.
 
 #### Payroll Processing During FMLA
 
