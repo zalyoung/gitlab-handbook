@@ -103,6 +103,7 @@ You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 - our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you.
 
 ## Nice-to-Haves
+
 - Experience as a GitLab user
 - Startup company experience
 - Product company experience
