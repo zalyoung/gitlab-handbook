@@ -177,6 +177,7 @@ To be defined at the time of business need.
 ## Career Ladder
 
 Cloud GTM team members can continue to expand their responsibilities within the Cloud GTM job family to include greater scope and complexity of programs. Team members may also have a desire to move to other teams based on their career goals:
+
 - Field enablement for team members with a focus on enablement.
 - Ecosystem sales for team members that want more engagement directly with Ecosystems.
 - Ecosystem Marketing for a shift to marketing programs and potentially other marketing roles.
