@@ -207,7 +207,7 @@ A few examples:
 
 - Design features to avoid downtime since it's not acceptable for SaaS nor self-managed users.
 - It is ok to release functionality to SaaS first, as long as the solution is applicable for self-managed too.
-- While a feature can be enabled first on SaaS via a [feature flag](../product-development-flow/feature-flag-lifecycle/_index.md) or setting, the underlying implementation must also exist, although disabled, on self-managed.
+- While a feature can be enabled first on SaaS via a [feature flag](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) or setting, the underlying implementation must also exist, although disabled, on self-managed.
 
 In line with our [SaaS-first](#saas-first) principle, some features may be released on SaaS to gain operational experience and apply learnings prior to recommending and supporting customers using it. Features would be present on self-managed codebase but are disabled until General Availability.
 
