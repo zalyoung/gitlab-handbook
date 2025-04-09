@@ -13,7 +13,7 @@ The guidelines on this page aim to provide direction on how to include the user'
 
 ## UX Researcher support
 
-**If you have an assigned UX Researcher in your stage:** If you need UX Research support, connect with your [assigned stage UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned) following the [research prioritization process](/handbook/product/ux/ux-research/research-prioritization/#how-to-handle-newly-identified-research-projects). Your AI-specific research topic will be prioritized against the other research projects already identified within their stage.
+**If you have an assigned UX Researcher in your stage:** If you need UX Research support, connect with your [assigned stage UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-team-members-are-assigned) following the [research prioritization process](/handbook/product/ux/ux-research/research-prioritization/#how-to-handle-newly-identified-research-projects). Your AI-specific research topic will be prioritized against the other research projects already identified within their stage.
 
 **If you DON'T have an assigned UX Researcher in your stage:** For those working in a stage group that doesn't have a UX Researcher assigned, Nick Hertz is managing those research requests. The [research prioritization process](/handbook/product/ux/ux-research/research-prioritization/#how-to-handle-newly-identified-research-projects) still applies and you can add your topic to this [AI research-specific prioritization calculator](https://docs.google.com/spreadsheets/d/16iLvrY-saOJsSxFkjVYEu_Db_02caTsQLqzZ59SwFgs/edit#gid=1093756030) after you have opened a research issue.
 
