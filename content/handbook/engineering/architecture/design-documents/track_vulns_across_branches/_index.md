@@ -41,7 +41,7 @@ Essentially, while the proposed implementation uses the word "branches", some us
 Benefits: 
 
 - Comparing any commit to any commit is super simple. Since Tags and Branches are simply identifiers for a sequence of commits, this means we can compare vulnerabilty states very easily.
-- Because most commmits are probably present in 
+- Because most commmits are probably present in multiple branches at once, tracking by commit allows us to track that relationship more efficiently.
 
 Risks:
 
