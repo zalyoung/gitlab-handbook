@@ -83,3 +83,4 @@ the organizers must attend in order to be able to livestream to [our YouTube cha
 | Arianna Haradon | `@aharadon`           | `@aharadon`     |
 | Raimund Hook    | `@stingrayza`         | `@stingrayza`   |
 | Daniel Murphy   | `@daniel-murphy`      | `@daniel-murphy`|
+| Marco Zille     | `@zillemarco`         | `@zillemarco`   |
