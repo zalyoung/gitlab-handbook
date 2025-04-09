@@ -12,7 +12,7 @@ Understanding the current customer experience, identifying opportunities where w
 Customer Experience (CX) research takes three perspectives into account:
 
 1. **Customer Lens:** Understanding the customer’s key activities along our core customer journey, their needs, who on their side is engaged in purchase decisions, through to onboarding and adoption, and the needs and expectations of GitLab for success.  
-2. **GitLab Teams:** Understanding the experience of the GitLab team collaborating with each other in service of helping customers move through their purchasing and adoption journey with us, and where there are areas of friction inhibiting us from providing our best service to customers.    
+2. **GitLab Teams:** Understanding the experience of the GitLab team collaborating as a team in service of helping customers move through their purchasing and adoption journey with us, and where there are areas of friction inhibiting us from providing our best service to customers.    
 3. **Customer \+ Gitlab Intersection:** This intersection captures the customer experience through the engagement model between their teams and ours to realize value in their investment with us. 
 
 **Where’s Product/UX  in this?** Our in-product experience absolutely impacts our customer experience in a very real way. The focus of this team is centered on the engagement 
