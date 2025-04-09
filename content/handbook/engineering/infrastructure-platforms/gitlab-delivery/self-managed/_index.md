@@ -7,35 +7,11 @@ description: "The primary user persona for self managed is all the system admini
 
 Self managed team is focused on installation and upgrade mechanisms to ensure smooth deployments. This includes system integration, scripting, templating, and related configuration management tooling.
 
-In addition to product deliverables, we review a large number of MR's authored outside the team. These include dependency and security updates along with configuration controls and other bundled components like PostgreSQL, Consul, Patroni.
-
 ## Team members
 
 The following people are members of the team:
 
 {{< team-by-manager-slug manager="plu8" team="Self managed" >}}
-
-## Primary Projects
-
-[Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab) - This project creates platform-specific, self-contained GitLab packages and images for self-managed consumption in cloud environments and on-premisis hosting.
-
-[Cloud Native GitLab](https://gitlab.com/gitlab-org/build/CNG) provides cloud native containers to deploy GitLab. These containers may be deployed and managed via Helm using [GitLab Charts](https://gitlab.com/gitlab-org/charts/gitlab) or [GitLab Chart-based Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) or [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/operator) on Kubernetes, OpenShift, and Kubernetes compatible container platforms.
-
-## All Projects
-
-| Name | Location | Description |
-| -------- | -------- | -------- |
-| Omnibus GitLab | [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) | Build Omnibus packages with HA support for LTS versions of all major Linux operating systems such as Ubuntu, Debian, CentOS/RHEL, OpenSUSE, SLES |
-| Docker All in one GitLab image | [gitlab-org/omnibus-gitlab/docker](https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/docker) | Build Docker images for GitLab CE/EE based on the omnibus-gitlab package |
-| GitLab Helm Chart | [gitlab-org/charts/gitlab](https://gitlab.com/gitlab-org/charts/gitlab) | Cloud Native GitLab Helm Charts |
-| Docker images for GitLab Helm Chart | [gitlab-org/build/CNG](https://gitlab.com/gitlab-org/build/CNG) | Individual images used by GitLab Helm Charts |
-| Chart-based GitLab Operator | [gitlab-org/cloud-native/gitlab-operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) | GitLab Operator creates and manages GitLab instances in a container platform such as OpenShift or Kubernetes. It will run an any environment that provides native Kubernetes resources. |
-| GitLab Operator | [gitlab-org/cloud-native/operator](https://gitlab.com/gitlab-org/cloud-native/operator) | (In Development) A significant rewrite of the existing Chart-based Operator, aimed at improving user experience and native Kubernetes integration. |
-| Kubernetes Helm Charts index | [charts/charts.gitlab.io](https://gitlab.com/charts/charts.gitlab.io) | Helm charts repository index |
-| AWS images | [AWS marketplace](https://aws.amazon.com/marketplace/pp/B071RFCJZK?qid=1493819387811&sr=0-1&ref_=srh_res_product_title) | AWS image based on the omnibus-gitlab package |
-| Reference Architecture Tester | [gitlab-org/distribution/reference-architecture-tester](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester) | Spins up reference architecture based GitLab deployments using [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and runs QA against them |
-| Omnibus GitLab Builder | [GitLab Omnibus Builder](https://gitlab.com/gitlab-org/gitlab-omnibus-builder) | Create environment containing build dependencies for the omnibus-gitlab package |
-| Licenses of bundled dependencies | [Licenses page on GL Pages](https://gitlab-org.gitlab.io/omnibus-gitlab/licenses.html)  | Webpage listing the bundled dependencies in each package along with their license. |
 
 ## Working with the community
 
@@ -81,27 +57,6 @@ Unless your work is related to the security, all other work is carried out in pr
 If you need to submit a sensitive issue, please use confidential issues.
 
 If you are unsure whether something needs to remain private, check with the team Engineering Manager.
-
-## Work Resources
-
-General resources available to developers are listed in the
-[Sandbox cloud page](/handbook/company/infrastructure-standards/realms/sandbox/).
-
-In the team specifically, everyone should have access to the
-following resources:
-
-- Google projects in [Google Cloud Platform](https://console.cloud.google.com/)
-  - `testground`
-  - `cloud-native`
-  - `omnibus-build-runners`
-- AWS build infrastructure
-  - Distribution group AWS sandbox account
-  - `cloud-native` EKS cluster for CI (requires a maintainer to [grant access](https://stackoverflow.com/questions/59987859/kubectl-error-you-must-be-logged-in-to-the-server-unauthorized/59991446#59991446))
-  - [GitLabTop account](https://gitlab-top.signin.aws.amazon.com/console) (To be retired, existing team members only)
-
-If you don't have access to any of these resources, create an
-[Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) and
-assign it to your manager for approval.
 
 ## Work/life harmony
 
