@@ -313,9 +313,9 @@ This structure enables smooth planning, tracking, and alignment of development w
 1. Product and Design identify a feature and create an epic
    Note that the issue description may be incomplete/unrefined and high-level at this point.
 1. When prioritized, Product Manager adds the `~(workspaces|webide)-workflow::prioritized` label and the epic is assigned for refinement by the Engineering Manager.
-1. As part of the async IPM process, the assignee refines the issue, by finishing filling out the issue template, then applying the `~refined` label.
-   During the refinement process, consider documentation for the feature. If needed, add the requirements and the `~documentation` and `~Technical writing` labels to the issue.
-   For question and assistance, tag your assigned Technical Writer.
+1. As part of the async IPM process, the assignee refines the epic, by breaking down the feature work into issues and filling out the issue template, then applying the `~refined` label to the issues and to the epic if all issues within the epic have been refined.
+   1. During the refinement process, consider documentation for the feature. If needed, add the requirements and the `~documentation` and `~Technical writing` labels to the issue.
+      For question and assistance, tag your assigned Technical Writer.
 1. In the sync IPM meeting, the wider team discusses and estimates the issues in the epic.
 1. Once the priority and weight are determined, the EM will assign a specific release milestone to the issues of the epic based on velocity.
 1. The assignee opens an MR for the issue and ensures that the issue and MR are cross-referenced on the first lines of their descriptions.
