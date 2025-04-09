@@ -42,20 +42,12 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
-# Analytics pages moved - remove 2025-03-15
-/handbook/engineering/development/ops/monitor/ /handbook/engineering/development/analytics/monitor/ 301
-/handbook/engineering/development/analytics/analytics-instrumentation/ /handbook/engineering/development/analytics/monitor/analytics-instrumentation/ 301
-/handbook/engineering/development/ops/monitor/analytics-instrumentation/ /handbook/engineering/development/analytics/monitor/analytics-instrumentation/ 301
-/handbook/engineering/development/ops/monitor/observability/ /handbook/engineering/development/analytics/monitor/platform-insights/ 301
-/handbook/engineering/development/analytics/product-analytics/ /handbook/engineering/development/analytics/monitor/platform-insights/ 301
-/handbook/engineering/development/dev/plan/optimize/ /handbook/engineering/development/analytics/monitor/optimize/ 301
+# Delivery Group move in Infra platforms - remove 2025-04-20
+/handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/ 301
+/handbook/engineering/infrastructure/team/delivery/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/:splat 301
 
-# Sec realignment - remove 2025-04-02
-/handbook/engineering/development/sec/govern/ /handbook/engineering/development/sec/software-supply-chain-security/ 301
-/handbook/engineering/development/sec/govern/authentication/ /handbook/engineering/development/sec/software-supply-chain-security/authentication/ 301
-/handbook/engineering/development/sec/govern/authorization/ /handbook/engineering/development/sec/software-supply-chain-security/authorization/ 301
-/handbook/engineering/development/sec/govern/compliance/ /handbook/engineering/development/sec/software-supply-chain-security/compliance/ 301
-/handbook/engineering/development/sec/govern/pipeline-security/ /handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ 301
+# Remove Infra TPM - remove 2025-04-29
+/handbook/engineering/infrastructure/technical-program-management/ /handbook/engineering/infrastructure/ 301
 
 # Webinar redirects - remove 2025-05-01
 /handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
@@ -64,12 +56,18 @@
 # Red Team redirects - remove 2025-05-05
 /handbook/security/security-operations/red-team/red-team-roe/ /handbook/security/security-operations/red-team/how-we-operate/rules-of-engagement/ 301
 
+# Old red team handbook - remove 2025-05-11
+/handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
+
+# Source Code team pages move - remove 2025-05-11
+/handbook/engineering/development/dev/create/source-code-be/ /handbook/engineering/development/dev/create/source-code/backend/ 301
+/handbook/engineering/development/dev/create/create-source-code-fe/ /handbook/engineering/development/dev/create/source-code/frontend/ 301
+
+# Old red team handbook - remove 2025-05-11
+/handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
+
 # about.gitlab.com handbook guide redirects - remove 2025-05-25
 /handbook/product/markdown-guide/ https://about.gitlab.com/community/markdown-guide-middleman/ 301
-
-# Dynamic analysis page moved - remove 2025-02-03
-/handbook/engineering/development/sec/secure/dynamic-analysis/ /handbook/engineering/development/sec/secure/dynamic-analysis/dynamic-analysis/ 301
-/handbook/engineering/development/sec/secure/api-security/ /handbook/engineering/development/sec/secure/dynamic-analysis/api-security/ 301
 
 # Secure planning - remove 2025-05-27
 /handbook/engineering/development/sec/secure/workflow/ /handbook/engineering/development/sec/secure/planning/ 301
@@ -85,22 +83,12 @@
 /handbook/engineering/quality/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
 /handbook/engineering/infrastructure/test-platform/gitlab-data-seeder/ https://gitlab-org.gitlab.io/quality/data-seeder 301
 
-# Source Code team pages move - remove 2025-05-11
-/handbook/engineering/development/dev/create/source-code-be/ /handbook/engineering/development/dev/create/source-code/backend/ 301
-/handbook/engineering/development/dev/create/create-source-code-fe/ /handbook/engineering/development/dev/create/source-code/frontend/ 301
-
-# Old red team handbook - remove 2025-11-11
-/handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
-
-# Delivery Group move in Infra platforms - remove 2025-04-20
-/handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/ 301
-/handbook/engineering/infrastructure/team/delivery/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/:splat 301
-
-# Remove Infra TPM - remove 2025-04-29
-/handbook/engineering/infrastructure/technical-program-management/ /handbook/engineering/infrastructure/ 301
-
 # Update Earth Month file - remove 2025-06-25
 /handbook/legal/esg/earth-month/index.html/ /handbook/legal/esg/earth-month/ 301
 
 # Organization filename cleanup - remove 2025-06-26
 /handbook/engineering/architecture/design-documents/organization/organization-faq/ /handbook/engineering/architecture/design-documents/organization/faq/ 301
+
+# Product Dev flow moved - remove 2025-07-29
+/handbook/product-development-flow/ /handbook/product-development/product-development-flow/ 301
+/handbook/product-development-flow/* /handbook/product-development/product-development-flow/:splat 301

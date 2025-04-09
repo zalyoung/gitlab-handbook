@@ -77,9 +77,9 @@
 /content/handbook/company/culture/ @streas
 /content/handbook/company/culture/all-remote/ @streas
 /content/handbook/company/culture/summit/ @akramer
-/content/handbook/company/culture/cross-culture-collaboration-guide.md @glucchesi @rallen3 
+/content/handbook/company/culture/cross-culture-collaboration-guide.md @glucchesi @rallen3
 /content/handbook/company/culture/gitlab-101.md @akramer @streas
-/content/handbook/company/culture/inclusion/ @rallen3 
+/content/handbook/company/culture/inclusion/ @rallen3
 /content/handbook/company/culture/inclusion/tmrg-gitlab-black/ @erran @madou
 /content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sarahwaldner @abuerer
 /content/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding.md @rallen3  @mdrussell @terrichu
@@ -92,10 +92,10 @@
 /content/handbook/customer-success/csm/segment/cse/ @afrusciano @esivak @ofalk
 /content/handbook/customer-success/csm/segment/cse/content/ @jwormwell @nesplin @afrusciano
 /content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake @darmans
-/content/handbook/customer-success/professional-services-engineering/education-services/ @seanjsandoval @IanErnst 
+/content/handbook/customer-success/professional-services-engineering/education-services/ @seanjsandoval @IanErnst
 
 ^[eba-team]
-/content/handbook/eba/ @jrotenberry 
+/content/handbook/eba/ @jrotenberry
 
 ^[engineering]
 /content/handbook/engineering/ @sabrinafarmer
@@ -491,7 +491,8 @@
 /content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @hbenson @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[product-dev-flow]
-/content/handbook/product-development-flow/ @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton
+/content/handbook/product-development/ @david @sabrinafarmer
+/content/handbook/product-development/product-development-flow/ @david @sabrinafarmer @timzallmann @maw @marin @justinfarris @hbenson @mflouton @fzimmer @ampesta
 
 ^[sales]
 /content/handbook/resellers/ @ecepulis
@@ -566,7 +567,7 @@
 /content/handbook/security/product-security/data-security/ @jacobjernigan @boconnor @jcamgl
 /content/handbook/security/product-security/application-security/ @juliedavila
 /content/handbook/security/product-security/security-platforms-architecture/ @jdicken
-/content/handbook/security/product-security/security-platforms-architecture/security-architecture/ @jdicken @plafoucriere 
+/content/handbook/security/product-security/security-platforms-architecture/security-architecture/ @jdicken @plafoucriere
 /content/handbook/security/product-security/security-platforms-architecture/security-research/ @jdicken
 /content/handbook/security/product-security/security-platforms-architecture/product-security-engineering/ @jdicken @maggiemartin
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
