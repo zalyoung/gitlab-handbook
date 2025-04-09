@@ -3,7 +3,7 @@
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
 title: Notification system
-status: proposed
+status: accepted
 creation-date: "2025-02-25"
 authors: [ "@mksionek" ]
 coaches: [ "@fabiopitino" ]
