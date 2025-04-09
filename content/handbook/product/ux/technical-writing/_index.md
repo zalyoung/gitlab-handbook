@@ -181,9 +181,15 @@ When a Technical Writer [is on PTO](#technical-writer-pto), the whole team acts 
 
 <!-- vale handbook.Spelling = NO -->
 
-### Stage leads
+## Stage leads
 
-Some Technical Writers are assigned as [stage leads](https://docs.gitlab.com/development/documentation/workflow/#stage-leads) for a given [DevOps stage](/handbook/product/categories/#devops-stages):
+{{< alert type="note" >}}
+
+This section outlines a process that we experimented with in Q1 and Q2 of FY2025, and rolled out more widely in Q3 of 2025. This process is subject to change.
+
+{{< /alert >}}
+
+Some technical writers are assigned as **stage leads** for a given [DevOps stage](#stage-leads).
 
 | Stage            | Assigned stage lead |
 |:-----------------|:--------------------|
@@ -192,6 +198,25 @@ Some Technical Writers are assigned as [stage leads](https://docs.gitlab.com/dev
 | Create           | {{< member-by-name "Amy Qualls" >}} |
 | Plan             | {{< member-by-name "Marcin Sędłak-Jakubowski" >}} |
 | Application Security Testing | {{< member-by-name "Russell Dickenson" >}} |
+
+Stage leads might work across an entire stage, or a subset of groups in the stage.
+They support other technical writers assigned to groups in the stage.
+
+Stage leads:
+
+- Assume the same [responsibilities](#responsibilities) as technical writers, but with a more targeted focus on proactively creating and improving documentation for their assigned stage.
+- Spend approximately 30% of their time on issues and merge requests reviews authored by developers for [new features and enhancements](https://docs.gitlab.com/development/documentation/workflow/#documentation-for-a-product-change) for their assigned groups.
+- Spend the remainder of their time:
+  - Creating and refining content to address documentation needs and gaps for their assigned **stage**
+    (for example, writing tutorials and use case-based content, restructuring existing content, and working on the information architecture).
+  - Supporting other writers in the stage to contribute to documentation improvements.
+- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones
+  (for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/1067)).
+- Apply the relevant `tw-lead` [label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-lead) to documentation improvement MRs that they drive or provide input on. This label allows us to track the improvements that come out of the stage lead process as one of our performance indicators (PIs).
+- Collaborate with other stage leads on documentation improvements.
+
+For [documentation improvements](https://docs.gitlab.com/development/documentation/workflow/#documentation-feedback-and-improvements), stage leads are responsible for creating an
+issue board to track ongoing and planned documentation enhancements and additions.
 
 ### Assignments to other projects and subjects
 
