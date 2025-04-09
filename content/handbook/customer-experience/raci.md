@@ -101,4 +101,5 @@ While our team is in its start-up phase, our team must be flexible in how we con
 2. Analytical methodology decisions → CX Analyst (with Strategist input)  
 3. Cross-functional coordination → Cross-Company Collaborators  
 4. Strategic direction, scope changes, resource allocation → Steering Committee
-* Note: This RACI matrix should be reviewed and adjusted at project kickoff to ensure alignment with organizational structure and project specifics.*
+
+***Note**: This RACI matrix should be reviewed and adjusted at each project kickoff to ensure alignment with organizational structure and project requirements.*
