@@ -450,7 +450,7 @@ These items receive a **light** edit:
 These items receive a **medium** edit:
 
 - Day-to-day product documentation requests:
-  - New feature work (from [stage groups](../../categories/#devops-stages) or [Incubation engineers](../../../engineering/development/incubation/playbook/#quality--support-guidelines-for-incubation-projects))
+  - New feature work (from [stage groups](../../categories/#devops-stages))
   - Improvements
   - Bug fixes
   - Community contributions
