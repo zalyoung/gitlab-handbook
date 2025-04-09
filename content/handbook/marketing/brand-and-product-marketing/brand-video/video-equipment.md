@@ -3,11 +3,13 @@ title: "Virtual Recording Equipment Guide"
 description: "GitLab Brand Creative - Video Equipment Recommendations"
 ---
 
-The Brand Video team is here to help you capture the highest quality audio and video for your virtual recordings. Below are our recommended equipment options, followed by a list of commonly used alternatives. For more detailed information on using the equipment, please refer to this [Virtual Equipment Set-Up Guide](https://docs.google.com/presentation/d/10Bonwo_sy2q50haiVNs_Cg45aZAUoiWNLBp8EOB25A0/edit?slide=id.g3357bbe63e5_0_183#slide=id.g3357bbe63e5_0_183), which provides more detailed information on how to set-up the basic kit items.
+The Brand Video team is here to help you capture the highest quality audio and video for your virtual recordings. Below are our recommended equipment options, followed by a list of commonly used alternatives. 
 
 ## Video Kits
 
 ### Basic Virtual Kit
+
+For more detailed information on using the equipment, please refer to this [Virtual Equipment Set-Up Guide](https://docs.google.com/presentation/d/10Bonwo_sy2q50haiVNs_Cg45aZAUoiWNLBp8EOB25A0/edit?slide=id.g3357bbe63e5_0_183#slide=id.g3357bbe63e5_0_183), which provides more detailed information on how to set-up the basic kit items.
 
 Camera Options
 
