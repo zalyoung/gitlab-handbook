@@ -103,9 +103,6 @@ You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 - our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you.
 
 ## Nice-to-Haves
-
-In order to be very well qualified, you should also have at least half of these:
-
 - Experience as a GitLab user
 - Startup company experience
 - Product company experience
