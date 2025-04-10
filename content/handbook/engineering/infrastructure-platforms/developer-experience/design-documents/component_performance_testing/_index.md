@@ -394,7 +394,7 @@ This pipeline will also run on main branch of the respective component repositor
    * Create summarized reports for MR comments
    * Provide links to detailed dashboards
 
-## 12. Rollout Strategy
+## Rollout Strategy
 
 <table>
 <tr>
