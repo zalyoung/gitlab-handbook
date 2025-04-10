@@ -6,7 +6,8 @@ authors: ["@bsandlin", "@pburdette"]
 coaches: ["@jivanvl"]
 dris: ["@bsandlin", "@pburdette", "@jivanvl"]
 owning-stage: "~devops::verify"
-participating-stages: ["~group::pipeline execution", "~group::pipeline authoring"]
+participating-stages:
+    ["~group::pipeline execution", "~group::pipeline authoring"]
 toc_hide: true
 ---
 
@@ -53,17 +54,20 @@ The primary motivation for redesigning the Pipelines Table UI is to address crit
 - **Enhanced Pipeline Details**: Moving detailed information to a secondary request enables us to build a more robust Pipeline Details component that can include richer visualizations, comprehensive failed jobs information, and more detailed metrics without impacting initial page performance.
 - **Addressing Accumulated UX Issues**: This redesign provides an opportunity to address several long-standing UX issues in a coordinated effort rather than piecemeal fixes. Current tracked UX issues include:
 
-  **High Complexity Issues (Weight 3)**:
+    **High Complexity Issues (Weight 3)**:
+
   - [Improve Pipeline table layout and design](https://gitlab.com/gitlab-org/gitlab/-/issues/321517)
   - [Make pipeline mini-graph representation more user-friendly](https://gitlab.com/gitlab-org/gitlab/-/issues/327900)
 
-  **Medium Complexity Issues (Weight 2)**:
+    **Medium Complexity Issues (Weight 2)**:
+
   - [Add created-at time for running pipelines](https://gitlab.com/gitlab-org/gitlab/-/issues/432373)
   - [Reevaluate the tabs headings on pipeline index page](https://gitlab.com/gitlab-org/gitlab/-/issues/329513)
   - [Make "Triggered by me" pipelines more accessible](https://gitlab.com/gitlab-org/gitlab/-/issues/300256)
   - [Provide project-level configuration options for pipeline displays](https://gitlab.com/gitlab-org/gitlab/-/issues/339651)
 
-  **Lower Complexity Issues (Weight 1)**:
+    **Lower Complexity Issues (Weight 1)**:
+
   - [Add missing tooltips on pipeline and job list view](https://gitlab.com/gitlab-org/gitlab/-/issues/435814)
   - [Add skeleton loader to the pipeline tab on merge requests](https://gitlab.com/gitlab-org/gitlab/-/issues/354074)
   - [Align buttons on the pipeline index page with design system](https://gitlab.com/gitlab-org/gitlab/-/issues/365616)
@@ -124,6 +128,7 @@ By combining these two initiatives into a single coordinated effort, we can achi
 The new design will separate pipeline information into two levels:
 
 1. **List View (Essential Information)**
+
    - Pipeline status and finished timestamp
    - Pipeline ID and name
    - Branch, commit, and MR information
@@ -131,8 +136,11 @@ The new design will separate pipeline information into two levels:
    - Quick actions
 
 2. **Expanded View (Detailed Information)**
-   - Pipeline mini graph visualization
+
+   _Appears when user expands a pipeline row_
+   - Possibly pipeline mini graph visualization (see [Pipeline Mini Graph Placement](#pipeline-mini-graph-placement) decision)
    - Failed jobs information
+   - Job actions
    - Duration metrics
    - Available artifacts
    - Detailed commit information
@@ -144,23 +152,23 @@ The new design will separate pipeline information into two levels:
 
 The implementation will be phased as follows:
 
-1. **Phase 1: Product Design and GraphQL Schema**
+**Phase 1: Product Design and GraphQL Schema**
 
 - Conduct product design sessions to finalize UI/UX requirements
-- Create wireframes and mockups for both list view and expanded details
+- Create designs for both list view and expanded details
 - Define information hierarchy and user interactions
 - Introduce feature flag
 - Update the GraphQL schema if necessary based on the design requirements
 - Build and test the two query patterns
 
-1. **Phase 2: Frontend Implementation and Testing**
+**Phase 2: Frontend Implementation and Testing**
 
 - Build list view components
 - Build expandable details component
 - Conduct performance testing
 - Conduct user testing
 
-1. **Phase 3: Rollout and Monitoring**
+**Phase 3: Rollout and Monitoring**
 
 - Gradually enable feature flag
 - Monitor performance metrics
@@ -175,16 +183,35 @@ The implementation will be phased as follows:
 
 [This structure will evolve once designs are complete]
 
-- `PipelinesListView` - Container component
-- `PipelineListItem` - Individual pipeline row component
-- `PipelineDetails` - Expandable details component
+```shell
+ci/pipelines_table/
+├── components/
+│ ├── PipelinesListView.vue # Container component
+│ ├── PipelineListItem.vue # Individual pipeline row component
+│ └── PipelineDetails.vue # Expandable details component
+├── graphql/
+│ ├── fragments/
+│ │ └── pipeline_list_fields.fragment.graphql
+│ ├── queries/
+│ │ ├── project_pipelines.query.graphql
+│ │ ├── merge_request_pipelines.query.graphql
+│ │ ├── commit_pipelines.query.graphql
+│ │ └── pipeline_details.query.graphql
+│ └── subscriptions/ # For future real-time updates
+│ ├──── pipeline_statuses.subscription.graphql
+│ └──── pipeline_details.subscription.graphql
+├── constants.js
+└── utils.js
+```
 
 ### Key Design Decisions
 
 #### List View Format
 
-- **Decision DRI**: Product Design
-- **Options to consider**:
+**Decision DRI**: Product Design
+
+**Options to consider**:
+
 - Streamlined row-based list view with expandable details
 - Card-based view
 - Traditional table with all columns
@@ -192,37 +219,107 @@ The implementation will be phased as follows:
 
 #### Expansion Mechanism
 
-- **Decision DRI**: Product Design
-- **Options to consider**:
+**Decision DRI**: Product Design
+
+**Options to consider**:
+
 - Expandable row revealing details panel beneath the row
 - Side drawer showing related pipeline details
 - Modal dialog for detailed information
 - Inline expansion with progressive disclosure
 
+#### Pipeline Mini Graph Placement
+
+**Decision DRI**: Product Design, Engineering
+
+**Decision**: [DECISION PENDING] Whether to include the pipeline mini graph in the details view or focus on failed jobs and actionable items instead.
+
+**Context**: The mini graph requires fetching extensive job data (including dozens of passed jobs with names and statuses) that is often unnecessary for the user's workflow.
+
+**Options**:
+
+1. **Include Mini Graph in Details View**
+   - Provides visual representation of pipeline stages
+   - Maintains familiar visualization element
+   - Requires fetching data for all jobs, including non-actionable ones
+
+2. **Focus on Failed Jobs and Actionable Items**
+   - Prioritizes information users need to take action
+   - Reduces data requirements by focusing on relevant jobs
+   - Shows stage summary without individual passed job details
+   - Potentially more useful for troubleshooting workflows
+
+**Next Steps**:
+
+- Research user workflows to identify most frequently needed information
+- Analyze query patterns to measure reduction in data requirements
+- Test alternative presentations focusing on actionable information
+
+**Initial Recommendation**: Focus primarily on failed jobs and actionable items in the details view, with a simplified stage summary that doesn't require fetching data for every passed job.
+
 #### GraphQL Query Structure
 
-- **Decision DRI**: Engineering
-- **Decision**: Implement two separate GraphQL queries and prepare for future subscription model
-- **Context**: GraphQL allows for precise data fetching and real-time updates through subscriptions.
-- **Benefits**:
+**Decision DRI**: Engineering
+**Decision**: Implement two separate GraphQL queries and prepare for future subscription model
+**Context**: GraphQL allows for precise data fetching and real-time updates through subscriptions.
+
+**Benefits**:
+
 - Optimized initial payload
 - On-demand loading of detailed information
 - Foundation for real-time updates
 - Better separation of concerns in frontend code
-- **Alternatives Considered**:
+
+**Alternatives Considered**:
+
 - Single comprehensive query with all data - Rejected due to performance concerns
 - Multiple fragmented queries - Rejected due to increased request overhead
+
+#### Pipeline Details Schema
+
+**Decision DRI**: Engineering
+
+**Decision**: [PENDING UI DESIGNS] Determine the optimal GraphQL schema for pipeline details based on finalized UI designs.
+
+**Context**: The schema for the secondary query will be driven by UI requirements to ensure we only fetch data needed for the expanded details view.
+
+**Process**:
+
+- Complete UI designs for the expanded pipeline details view
+- Identify all data elements required by the design
+- Develop schema that efficiently retrieves only necessary information
+- Validate schema against performance goals
+
+**Considerations**:
+
+- Balance between comprehensive information and query efficiency
+- Prioritize data for troubleshooting and actionable items
+- Structure for future extensibility and real-time updates
+- Support for all three pipeline table contexts
+
+**Next Steps**:
+
+- Finalize expanded details UI mockups
+- Map UI elements to required data fields
+- Draft initial GraphQL schema
+- Review with stakeholders
+
+**Implementation Target**: A focused schema that retrieves exactly what the UI needs without unnecessary data fetching.
 
 ## Alternative Solutions
 
 ### GraphQL Migration Without UI Redesign
 
-- **Approach**: Migrating to GraphQL while maintaining the current UI design.
-- **Pros**:
+**Approach**: Migrating to GraphQL while maintaining the current UI design.
+
+**Pros**:
+
 - Provides some performance benefits
 - Allows incremental improvements
 - Lower risk of user experience disruption
-- **Cons**:
+
+**Cons**:
+
 - Requires building GraphQL queries that match current REST payloads
 - Creates technical debt when UI is eventually redesigned
 - Doesn't address information hierarchy or cognitive load issues
@@ -234,10 +331,10 @@ To establish baseline performance measurements and set clear targets for improve
 
 ### Current Performance Baselines
 
-| Location | Metric | Current Value | Target |
-|----------|--------|--------------|--------|
-| Main Pipelines Page | Average network response time (no filtering) | 1.35 seconds | TBD |
-| Main Pipelines Page | Average network response time (with trigger author/status filter) | 2.38 seconds | TBD |
-| Merge Request Pipelines Tab | Average network response time | 1.64 ms | TBD |
+| Location                    | Metric                                                            | Current Value | Target |
+| --------------------------- | ----------------------------------------------------------------- | ------------- | ------ |
+| Main Pipelines Page         | Average network response time (no filtering)                      | 1.35 seconds  | TBD    |
+| Main Pipelines Page         | Average network response time (with trigger author/status filter) | 2.38 seconds  | TBD    |
+| Merge Request Pipelines Tab | Average network response time                                     | 1.64 ms       | TBD    |
 
 We'll measure the success of this initiative by comparing pre and post-implementation metrics across these dimensions, with specific improvement targets as outlined in the Goals section.
