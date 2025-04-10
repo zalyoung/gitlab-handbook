@@ -182,7 +182,7 @@ If you do not enroll in a plan within your benefits election period, you will au
 
 ### Cigna Medical Plans
 
-Below are the details for the 2024 & 2025 Calendar Year
+Below are the details for the 2025 Calendar Year
 
 <details markdown="1">
 
@@ -192,9 +192,9 @@ Cigna plans are available to team members located in all US states, with the exc
 
 In Network:
 
-| Plan Details               | [2024 Cigna HDHP - HSA](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing) <br>  [2025 Cigna HDHP - HSA](https://drive.google.com/file/d/1Gb6HaLmEeswxdszUxOQhh5m24jdrmTNp/view?usp=sharing) <br> [Webinar on this plan here](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) | [2024 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing) <br>  [2025 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/1V9oWpbYWBVuyYoiKNyFj_y7LoFH0QR8P/view?usp=sharing) | [2024 Cigna PPO 500***](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing) <br> [2024 Cigna PPO 500***](https://drive.google.com/file/d/1QCjFCIsbE73WnAvQTruangFOnPYsDhlP/view?usp=sharing) |
+| Plan Details               | [2025 Cigna HDHP - HSA](https://drive.google.com/file/d/1Gb6HaLmEeswxdszUxOQhh5m24jdrmTNp/view?usp=sharing) <br> | [2025 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/1V9oWpbYWBVuyYoiKNyFj_y7LoFH0QR8P/view?usp=sharing) |  [2025 Cigna PPO 500***](https://drive.google.com/file/d/1QCjFCIsbE73WnAvQTruangFOnPYsDhlP/view?usp=sharing) |
 |:---------------------------|:----------------------:|:------------------:|:-----------------:|
-| Deductible (Single/Family) | $2,000 / 3,200 (3,300 for 2025)    | $0 / $0            | $500 / $1,000     |
+| Deductible (Single/Family) | $2,000 / 3,300    | $0 / $0            | $500 / $1,000     |
 | Out of Pocket Max (Single/Family)    | $4,000 / $8,000        | $2,500 / $5,000    | $3,000 / $6,000   |
 | Primary Care Visit         | 20%                    | $20 per visit      | $20 per visit     |
 | Specialist Visit           | 20%                    | $20 per visit      | $20 per visit     |
@@ -206,7 +206,7 @@ In Network:
 | Brand - Preferred          | $30                    | $30                | $30               |
 | Brand - Non-Preferred      | $50                    | $50                | $50               |
 | HSA Annual Employer Contribution      | $1200 /$1500 (2024)      | N/A                | N/A               |
-| Rx Plan^                   | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) <br> [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) <br> [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view) | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) <br> [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  |
+| Rx Plan^                   | [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  | [2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view) |[2025 Standard 3- Tier](https://drive.google.com/file/d/1mPLR54AnbOelaif1oh0e_KnMGNIXdnMw/view)  |
 | Fertility Services | $15,000 Lifetime Benefit | $15,000 Lifetime Benefit| $15,000 Lifetime Benefit |
 | Summary Plan Descriptions  | [2025 HDHP](https://drive.google.com/file/d/1UoSJxzk4oCUvDlrtpFSn6XYaON_2neiC/view?usp=sharing) | [2025 EPO](https://drive.google.com/file/d/1MAn1Y5GRKV_YaBGQK6onUeGI0fzbqTBL/view?usp=sharing) |  [2025 PPO](https://drive.google.com/file/d/147BcT7rRqth-m5VsU0zoMDvC6nawxxoi/view?usp=sharing) <BR>  [2025 PPO Utah](https://drive.google.com/file/d/17amF3mBc7duZbsjw92eLhBtmsInfhoUM/view?usp=sharing) |
 
@@ -222,16 +222,7 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 
 <details markdown="1">
 
-<summary>2024 & 2025 Cigna Team Member Premium Costs</summary>
-
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
-
-| Tier                     | HDHP-HSA* | EPO  | PPO  |
-|--------------------------|:---:|:----:|:----:|
-| Team Member Only         | $0  | $92   | $88   |
-| Team Member + Spouse     | $38  | $358 | $346 |
-| Team Member + Child(ren) | $28  | $294 | $282 |
-| Family                   | $62  | $548 | $528 |
+<summary> 2025 Cigna Team Member Premium Costs</summary>
 
 #### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
@@ -243,8 +234,6 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 | Family                   | $70  | $612 | $588 |
 
 *Note: For the **HSA**, GitLab will contribute $100 per month for individuals and $125 per month for team members + dependent(s) cover. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.
-
-Watch the [2024 High Deductible (HDHP) & HSA Deep dive Webinar](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) to learn more about this health plan and the tax advantages of enrolling in the HDHP plan with an HSA.
 
 </details>
 
@@ -324,18 +313,18 @@ Benefits for services and supplies received outside the Service Area are covered
 
 ### Kaiser Medical Plans
 
-#### Kaiser 2024 and 2025 Calendar Year Plans
+#### Kaiser 2025 Calendar Year Plans
 
 The following Kaiser options are available for Hawaii residents.
 Residents in California and Colorado have the Kaiser options below, in addition to the Cigna plan options.
 
 <details markdown="1">
 
-<summary>2024 & 2025 Kaiser Plans & Coverage Details</summary>
+<summary> 2025 Kaiser Plans & Coverage Details</summary>
 
 The Kaiser Coverage details can be found below.
 
-| Plan Details               |  [2024 HMO NorCal](https://drive.google.com/file/d/1tgPibtd99vxasyCP0lq9nqA2W7n2104W/view?usp=sharing) <br> [2025 HMO NorCal](https://drive.google.com/file/d/1kSjaldsszNYJGdG7qofBbX1wYIbxjVfL/view?usp=sharing) | [2024 HMO 20 SoCal](https://drive.google.com/file/d/1lF5Bth3dfmR2W9Ys5PrCz-nM-RBC-Ok9/view?usp=sharing) <br> [2025 HMO SoCal](https://drive.google.com/file/d/1yrNt4Y0PSfCSEXWnp5YbOs0f2OKtYhz3/view?usp=sharing) |  [2024 HMO 20 HI](https://drive.google.com/file/d/1XmGl0xwnQmfY8vfL3eiRRFKfJSdedxta/view?usp=sharing)  <br> [2025 HMO HI](https://drive.google.com/file/d/1qkWTsJ2vPOAGuWSzCxgpLWhZvCyzG-q0/view?usp=sharing) |
+| Plan Details               | [2025 HMO NorCal](https://drive.google.com/file/d/1kSjaldsszNYJGdG7qofBbX1wYIbxjVfL/view?usp=sharing) | [2025 HMO SoCal](https://drive.google.com/file/d/1yrNt4Y0PSfCSEXWnp5YbOs0f2OKtYhz3/view?usp=sharing) | [2025 HMO HI](https://drive.google.com/file/d/1qkWTsJ2vPOAGuWSzCxgpLWhZvCyzG-q0/view?usp=sharing) |
 |----------------------------|:--------------------:|:---------------:|:---------------:|
 | Deductible (Single/Family) | $0 / $0              | $0 / $0         | $0 / $0         |
 | Out Of Pocket Max (Single/Family)    | $1,500 / $3,000      | $1,500 / $3,000 | $2,500 / $7,500 |
@@ -349,26 +338,17 @@ The Kaiser Coverage details can be found below.
 | Brand - Preferred          | $35                  | $35             | $50             |
 | Brand - Non-Preferred      | $35                  | $35             | $50             |
 | Specialty Drugs            | 20% up to $150       | 20% up to $150  | $200            |
-| Disclosures Benefit Summary          | [2024 HMO Norcal](https://drive.google.com/file/d/1aAp75b2yQnGsndRCkn46g27vgqxDd2UO/view?usp=sharing) <br>  [2025 HMO NorCal](https://drive.google.com/file/d/1byP2FD7CcA8cszh_1SZoRTBP_cjUXuOh/view?usp=sharing) |  [2024 HMO SoCal](https://drive.google.com/file/d/1g5rUj6SqB7oWhKyY7zPGG-XvKvSxd18n/view?usp=sharing) <br> [2025 HMO SoCal](https://drive.google.com/file/d/1by7QbMF1eZ1jhXEJpeSi-zWV1cjwNh4G/view?usp=sharing) | <br> [2024 HMO HI](https://drive.google.com/file/d/1XmGl0xwnQmfY8vfL3eiRRFKfJSdedxta/view?usp=sharing)   <br> [2025 HMO HI](https://drive.google.com/file/d/1NSxUxvL_L_rLIDMTJW654lkLCycpCR4H/view?usp=sharing) |
+| Disclosures Benefit Summary          | [2025 HMO NorCal](https://drive.google.com/file/d/1byP2FD7CcA8cszh_1SZoRTBP_cjUXuOh/view?usp=sharing) | [2025 HMO SoCal](https://drive.google.com/file/d/1by7QbMF1eZ1jhXEJpeSi-zWV1cjwNh4G/view?usp=sharing) | [2025 HMO HI](https://drive.google.com/file/d/1NSxUxvL_L_rLIDMTJW654lkLCycpCR4H/view?usp=sharing) |
 
-Please see the [2024 Disclosure Part 2 form for Kaiser CA Plans](https://drive.google.com/file/d/1ItWP_IsUjmDwZfGgkGt-67M-sVZAthFL/view?usp=sharing) and [2025 Disclosure Part 2 form for Kaiser CA](https://drive.google.com/file/d/14bPYtF6Xg_P09PahsVNBeLu8xK9IhGK6/view?usp=sharing)
+[2025 Disclosure Part 2 form for Kaiser CA](https://drive.google.com/file/d/14bPYtF6Xg_P09PahsVNBeLu8xK9IhGK6/view?usp=sharing)
 
 </details>
 
 <details markdown="1">
 
-<summary>2024 & 2025 Kaiser Team Member Premium Costs</summary>
+<summary> 2025 Kaiser Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
-
-#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
-
-| Tier                     | HMO CA North | HMO CA South | HMO HI |
-|--------------------------|:------------:|:------------:|:------:|
-| Team Member Only         | $36           | $36           | $26     |
-| Team Member + Spouse     | $264         | $264         | $152   |
-| Team Member + Child(ren) | $216         | $216         | $126   |
-| Family                   | $388         | $388         | $276   |
 
 #### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
@@ -458,11 +438,11 @@ Dental does not come with individualized insurance cards from Cigna, although yo
 
 <details markdown="1">
 
-<summary>2024 & 2025 Dental Plans and Coverage</summary>
+<summary>2025 Dental Plans and Coverage</summary>
 
 **Coverages:**
 
-| Plan Details                         | [DDPO 2024 Base](https://drive.google.com/file/d/1JKKaGIudKjGWwikOztQ0-m60HjKnBA-K/view?usp=sharing) <br> [DDPO 2025 Base](https://drive.google.com/file/d/1cBwl-Hkf7E8EqbRfHgCJzS1oJpSoHvA5/view?usp=sharing) | [DDPO 2024 Buy Up](https://drive.google.com/file/d/1f0ZvigwP_eG4HQnh0O6Cs61jJIqkqE6d/view?usp=sharing) <br> [DDPO 2025 Buy Up](https://drive.google.com/file/d/1wFpHm0mHX1vqbIxun59DjhvNhi3RxRc4/view?usp=sharing) |
+| Plan Details                         | [DDPO 2025 Base](https://drive.google.com/file/d/1cBwl-Hkf7E8EqbRfHgCJzS1oJpSoHvA5/view?usp=sharing) | [DDPO 2025 Buy Up](https://drive.google.com/file/d/1wFpHm0mHX1vqbIxun59DjhvNhi3RxRc4/view?usp=sharing) |
 |--------------------------------------|----------|-----|
 | Deductible (Single/Family)                          | $50/$150 | $50/$150 |
 | Maximum Benefit                      | $2,000     | $3000 |
@@ -478,18 +458,9 @@ Dental does not come with individualized insurance cards from Cigna, although yo
 
 <details markdown="1">
 
-<summary>2024 & 2025 Dental Team Member Premium Costs</summary>
+<summary>2025 Dental Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
-
-*2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
-
-| Tier                     | DPPO Base | DPPO Buy Up |
-|--------------------------|----|-----|
-| Team Member Only         | $0   | $14 |
-| Team Member + Spouse     | $14  | $40 |
-| Team Member + Child(ren) | $18  | $ 48 |
-| Family                   | $32  | $78 |
 
 ### *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
@@ -520,7 +491,7 @@ Cigna has partnered with EyeMed for their vision plan offerings, you can check c
 
 <details markdown="1">
 
-<summary>2024 & 2025 Vision Plans and Coverage</summary>
+<summary> 2025 Vision Plans and Coverage</summary>
 
 | Plan Details                      | [Vision 2024 Base](https://drive.google.com/file/d/1oEPOCvtuHBvfPY4MWCiVKuCsC_SJudIR/view?usp=sharing) <br> [Vision 2025 Base](https://drive.google.com/file/d/1D5KEum39RHjD2iCD-jo5SAdSck-_To23/view?usp=sharing)  | [Vision 2024 Buy up](https://drive.google.com/file/d/1GUplU7IiPVXJQXIM3yX-x6wHh9omgZcG/view?usp=sharing) <br> [Vision 2025 Buy Up](https://drive.google.com/file/d/13kattV90EQVyJN3ifV5suG4_kLLENvEw/view?usp=sharing) |
 |-----------------------------------|---------|--------|
@@ -537,11 +508,11 @@ Cigna has partnered with EyeMed for their vision plan offerings, you can check c
 
 <details markdown="1">
 
-<summary>2024 & 2025 Vision Team Member Premium Costs</summary>
+<summary>2025 Vision Team Member Premium Costs</summary>
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-*2024 Rates* and *2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+*2025 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | Vision Base | Vision Buy Up |
 |--------------------------|------|------|
