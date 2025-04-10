@@ -30,16 +30,16 @@ After reviewing the above guidelines, reach out to the Brand Team in [#brand](ht
 
 1. Locate and download the [Master Authorization Template](https://docs.google.com/document/d/1utvdSknJ0hm5m0_6T9SkeXaFqJSZgB6w/copy) in GitLab’s G-Drive (Note this is only available to GitLab team members).
 
-2. Send the template to the third party via DocuSign, ensuring that the DocuSign envelope you create requests the following details, which will appear in the signature block of the Authorization:
+1. Send the template to the third party via DocuSign, ensuring that the DocuSign envelope you create requests the following details, which will appear in the signature block of the Authorization:
 
 - Company Name
 - Company Address
 - Email Address for Notices
 - Legal Contact
 
-3. [Contact GitLab Legal](/handbook/legal/#how-to-reach-us) to obtain approval for any **modifications** the third party requests to the Authorization.
+1. [Contact GitLab Legal](/handbook/legal/#how-to-reach-us) to obtain approval for any **modifications** the third party requests to the Authorization.
 
-4. Assign the Authorization for countersignature via DocuSign to an appropriate GitLab team member identified in the [Signature Authorization Matrix](/handbook/finance/authorization-matrix/#authorization-matrix).
+1. Assign the Authorization for countersignature via DocuSign to an appropriate GitLab team member identified in the [Signature Authorization Matrix](/handbook/finance/authorization-matrix/#authorization-matrix).
 
 ## Third party infringement of GitLab trademarks
 
