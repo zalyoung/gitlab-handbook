@@ -28,11 +28,11 @@ We will continue using SDS for GitLab.com and the embedded approach (i.e Gem/Bin
 
 We could accomplish this in two ways:
 
-1. Share the SDS Docker image with the customers. Let them host in their own infrastructure and share the deployed SDS host URL via GitLab Application Settings. If the URL is defined, we will attempt calling the defined host over embedded SD module. [Secret Revocation Service follows this approach](https://gitlab.com/gitlab-org/gitlab/-/blob/a19707e9f4e137ef897a8ddb4361fa2894917f80/doc/user/application_security/secret_detection/post_processing.md#configure-gitlab-to-interface-with-revocationapi).
+1. Share the SDS Docker image with the customers. Let them self-deploy it in their own infrastructure and update the deployed SDS's host URL in GitLab Application Settings. If the URL is defined, we will attempt calling the host URL over embedded SD module. [Secret Revocation Service follows this approach](https://gitlab.com/gitlab-org/gitlab/-/blob/a19707e9f4e137ef897a8ddb4361fa2894917f80/doc/user/application_security/secret_detection/post_processing.md#configure-gitlab-to-interface-with-revocationapi).
 
 2. Share the Helm Chart for deploying SDS. This will reduce operational burden of managing the service for the customer. However, this approach is suitable only for the customers running their infrastructure in Kubernetes.
 
-First approach seems simple enough to get started with, and we could eventually Helm Chart as a convenience(if necessary).
+First approach seems simple enough to get started with, and we could eventually Helm Chart if there is an ask from the customer side.
 
 ### Non-Blocking scan requests
 
