@@ -12,7 +12,7 @@ GitLab's brand is one of its most valuable assets. As part of this, GitLab's tra
 For information regarding proper use of GitLab's trademarks, see the following:
 
 - [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
-- [Brand Introduction](/handbook/design.gitlab.com/brand-introduction)
+- [Brand Introduction](https://gitlab.com/-/ide/project/gitlab-org/gitlab-services/design.gitlab.com/edit/main/-/contents/brand-introduction.md/)
 
 ## Process for New GitLab Trademarks
 
