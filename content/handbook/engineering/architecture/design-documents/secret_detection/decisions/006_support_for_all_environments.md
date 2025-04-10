@@ -10,13 +10,13 @@ There are two problems that we should address, preferably both at the same time 
       
 1. The initial consideration of using Cloud Connector for SM/Dedicated envs is no longer valid due to [certain limitations](https://gitlab.com/gitlab-org/gitlab/-/work_items/525472#note_2418504073). This puts us back to original problem of requiring to make standalone service accessible across all the environments.
      
-2. Secret Push Protection feature (scanning git commits during git push) requires blocking Secret Detection(SD) scans where scan should run immediately and return the results. The current design of Rails directly invoking the Secret Scan engine(Gem/Secret Detection Service(SDS)) supports blocking scan requests. However, it is not scalable to do the same on large objects like Job Artifacts or Logs as it affects the throughput of the Scan engine. We need to adopt a non-blocking approach where the scans are run in the background and provide results eventually, similar to how we ingest Security Reports.
+2. Secret Push Protection feature (scanning git commits during git push) requires blocking Secret Detection(SD) scans where scan should run immediately and return the results. The current design of Rails directly invoking the Secret Scan engine(Gem/Secret Detection Service(SDS)) supports blocking scan requests. However, it is not scalable to do the same on large objects like Job Artifacts or Job Logs as it affects the throughput of the Scan engine. We need to adopt a non-blocking approach where the scans are run in the background and provide results eventually, similar to how we generate and [ingest](https://docs.gitlab.com/development/sec/security_report_ingestion_overview/#vulnerability-creation-from-security-reports) [Security Reports](https://docs.gitlab.com/development/integrations/secure/#report).
 
 ## Proposal
 
 Multiple proposals were [discussed](https://gitlab.com/gitlab-org/gitlab/-/work_items/525472#note_2418504073) for the above problems, this ADR drafts a combined approach considering relevant proposals.
 
-The proposal suggests to address the the first problem by running SD scans within Embedded SD module(Gem/Binary) for Self-Managed(inc. offline) and Dedicated environments. This is a default setup that should be capable enough to handle the traffic for a single-tenant environment. As an alternative, we allow the customers to self-host Secret Detection Service in their infrastructure in the Embedded SD module throughput isn't meeting the needs. We will prioritize invoking self-hosting service URL (if given) over Embedded module for Secret Detection scan. 
+The proposal suggests to address the first problem by running SD scans within Embedded SD module(Gem/Binary) for Self-Managed(inc. offline) and Dedicated environments. This is a default setup that should be capable enough to handle the traffic for a single-tenant environment. As an alternative, we allow the customers to self-host Secret Detection Service in their infrastructure when the Embedded SD module throughput isn't meeting their needs. We will prioritize invoking self-hosting service URL (if given) over the Embedded SD module for Secret Detection scan. 
 
 The second problem is addressed by introducing asynchronous way of invoking secret detection scans using the existing Sidekiq infrastructure used by Rails.
 
@@ -24,7 +24,7 @@ The second problem is addressed by introducing asynchronous way of invoking secr
 
 We will continue using SDS for GitLab.com and the embedded approach (i.e Gem/Binary) for Self-Managed and Dedicated customers as a default setup, however, we will allow customers to self-host SDS in case the embedded approach is not scalable enough for their use case.
 
-#### Provison for Self-Hosting Service
+#### Provision for Self-Hosting Service
 
 We could accomplish this in two ways:
 
@@ -36,11 +36,11 @@ First approach seems simple enough to get started with, and we could eventually 
 
 ### Non-Blocking scan requests
 
-We will leverage the existing Sidekiq for running the non-blocking SD scans in the background. The scan engine remains the same as the one used for blocking approach
+We will leverage the existing background processing tool (Sidekiq) to run non-blocking SD scans in the background. The scan engine remains the same as the one used for blocking approach.
 
 ### Support Matrix
 
-| Environment | blocking scan requests | non-blocking scan requests |
+| Environment | Blocking scan requests | Non-blocking scan requests |
 |-------------|------------------------|----------------------------|
 | GitLab.com | Runway-hosted SDS | Sidekiq + Runway-hosted |
 | Self-Managed/Dedicated (default) | Embedded(Gem/Binary) | Sidekiq + Embedded |
@@ -48,9 +48,9 @@ We will leverage the existing Sidekiq for running the non-blocking SD scans in t
 
 ### Service Authentication and Authorization
 
-The ensure the authenticity of the service (primarily applicable to Self-hosted),  we could adopt Auth framework from [Cloud Connector](https://docs.gitlab.com/development/cloud_connector/).
+To ensure the authenticity of requests to the service (primarily applicable to Self-hosted), we could adopt Auth framework from [Cloud Connector](https://docs.gitlab.com/development/cloud_connector/).
 
-_NOTE: This decision still requires evaluation interms of feasibility_
+_NOTE: This decision still requires evaluation in terms of feasibility._
 
 ### High-level design
 
