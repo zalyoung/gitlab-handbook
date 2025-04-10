@@ -12,7 +12,7 @@ GitLab's brand is one of its most valuable assets. As part of this, GitLab's tra
 For information regarding proper use of GitLab's trademarks, see the following:
 
 - [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
-- [Brand Guidelines](/handbook/design.gitlab.com/)
+- [Brand Guidelines](/handbook/design.gitlab.com/brand-introduction)
 
 ## Process for New GitLab Trademarks
 
@@ -39,7 +39,7 @@ After reviewing the above guidelines, reach out to the Brand Team in [#brand](ht
 
 1. [Contact GitLab Legal](/handbook/legal/#how-to-reach-us) to obtain approval for any **modifications** the third party requests to the Authorization.
 
-1. Assign the Authorization for countersignature via DocuSign to an appropriate GitLab team member identified in the [Signature Authorization Matrix](/handbook/finance/authorization-matrix/#authorization-matrix).
+1. Assign the Authorization for countersignature via DocuSign to an appropriate GitLab team member identified in the [Signature Authorization Matrix](/handbook/legal/#authorization-matrix).
 
 ## Third party infringement of GitLab trademarks
 
