@@ -169,12 +169,11 @@ Respective Component Teams
 
 Component performance testing cannot detect issues related to:
 
-* **Integration Bottlenecks:** Performance problems emerging from component interaction
+* **Integration Bottlenecks**: Performance problems emerging from component interaction
 * **Data volume scaling problems**: Degradation occurring only with production-scale data
 * **Network latency effects**: End-to-end latency issues not apparent in isolated testing
 * **Cascading failures**: System-wide issues triggered by component interdependencies
-
-  and many more
+* etc.
 
 Lets say, any issues that may arise due to huge data or production environment like setup, would not be caught by component performance testing.
 
@@ -187,7 +186,6 @@ The tool focuses on identifying:
 * **Serialization/deserialization overhead**: Data transformation inefficiencies
 * etc.
 
-\
 GPT testing will continue on current schedules to maintain comprehensive real-world scenario coverage.
 
 ## Approach
@@ -230,8 +228,6 @@ Adoption challenges include:
 * Additional maintenance of environment setup and test scripts for developers
 * Learning curve for K6 test developlment
 * Competing priorities and deadlines
-
-  ---
 
 ## Implementation Approach
 
@@ -320,8 +316,8 @@ The flow mentioned in [architecture diagram](#component-testing-tool-architectur
 * When a MR is created or a commit has been pushed to an existing MR, it would run the following jobs
   * `dotenv-var` job: stores the `performance-test` directory as artifacts and also stores some `dotenv` vars
   * `tests:performance` job: This triggers the downstream multi-project pipeline while passing some env vars
-* The downstream multi-project pipeline gets triggered in [Component performance testing tool](https://gitlab.com/gitlab-org/quality/component-performance-testing/-/pipelines)project which does the following
-  * Download artifacts saved by `dotenv-var` upstream job and performs some validation on the `docker-compose.yml` and `test-file.js` files
+* The downstream multi-project pipeline gets triggered in [Component performance testing tool](https://gitlab.com/gitlab-org/quality/component-performance-testing/-/pipelines) project which does the following
+  * Download artifacts saved by `dotenv-var` upstream job and performs some validation on the `docker-compose.yml` and `test-file.js` gfiles
   * Creates a GCP instance, downloads few dependencies and spins up the component using docker container
     * Sends container metrics to InfluxDB
   * Creates a GCP instance, downloads few dependencies and spins up a test runner container which runs the tests against the component docker container running on the other GCP instance
