@@ -40,18 +40,20 @@ While our team is in its start-up phase, our team must be flexible in how we con
 | **Coross-functional Collaborators** | Facilitate access to customers within their domains Provide contextual knowledge from their areas of expertise Co-facilitate interviews when domain knowledge is required Share relevant insights from their customer interactions Help implement recommendations within their areas Bridge organizational silos to ensure comprehensive insights |
 | **Steering Committee** | Provides final approval on project scope and direction Removes organizational barriers Allocates resources and resolves budget issues Makes final decisions on strategic recommendations Champions findings to broader organization Holds team accountable for outcomes and impact |
 
-**Key**
+### **Key**
 
 * **R** \= Responsible (Does the work)  
 * **A** \= Accountable (Ultimate approver/owner)  
 * **C** \= Consulted (Provides input before decisions)  
 * **I** \= Informed (Kept updated on progress/decisions)
 
-**Project Phases & Activities**
+***Note**: This RACI matrix should be reviewed and adjusted at each project kickoff to ensure alignment with organizational structure and project requirements.*
+
+### **Research to Strategy RACI**
 
 | Activity | CX Strategist | CX Analyst | XFN Collaborators | Steering Committee |
 | ----- | :---: | :---: | :---: | :---: |
-| **Planning & Scoping** |  |  |  |  |
+| **Planning & Scoping** |  |  |  |  |  |
 | Define research objectives | R/A | C | C | A |
 | Develop research timeline | R/A | C | I | A |
 | Stakeholder identification | R | C | C | A |
@@ -78,7 +80,11 @@ While our team is in its start-up phase, our team must be flexible in how we con
 | Draft findings report | R | R | C | I |
 | Develop recommendations | R | R | C | C |
 | Results presentation | R | R | I | A/C |
-| Below owned by DRI by cross-function (XFN) team |  |  |  |  |
+
+## **Strategy to Execution RACI**
+
+| Activity | CX Strategist | CX Analyst | XFN Collaborators | Steering Committee |
+| ----- | :---: | :---: | :---: | :---: |
 | **Action Planning** |  |  |  |  |
 | Prioritize recommendations | R | C | C | A |
 | Resource allocation | I | I | C | A |
@@ -101,5 +107,3 @@ While our team is in its start-up phase, our team must be flexible in how we con
 2. Analytical methodology decisions → CX Analyst (with Strategist input)  
 3. Cross-functional coordination → Cross-Company Collaborators  
 4. Strategic direction, scope changes, resource allocation → Steering Committee
-
-***Note**: This RACI matrix should be reviewed and adjusted at each project kickoff to ensure alignment with organizational structure and project requirements.*

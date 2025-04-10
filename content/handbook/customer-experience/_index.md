@@ -19,7 +19,7 @@ Customer Experience (CX) is a field that encompasses the entire end-to-end custo
 * **Increase customer lifetime value** and reduce acquisition costs by retaining customers and encouraging repeat purchases to increase the long-term value for each customer.  
 * **Align organizational processes and culture around customer needs**, creating customer-first organization and product.
 
-Learn more here \- new page needed. 
+Read more about [Customer Experience (CX) as a discipline](/handbook/customer-experience/about-cx/).
 
 ## **Our Mission**
 
@@ -37,8 +37,8 @@ We create meaningful connections with customers, transforming every interaction 
 
 ## **Our Work**
 
-* Biannual All Customer CSAT Survey  
-* Customer Research Projects  
+* CSAT surveys, VoC programs  
+* Customer Journey Research Projects  
 * Foundational (“Lighthouse”) metrics for CX  
 * …and more to come as our team grows\!
 
@@ -46,9 +46,9 @@ We create meaningful connections with customers, transforming every interaction 
 
 | Program | Objective | Why | Cadence |
 | :---- | :---- | :---- | :---- |
-| Customer Experience Journey Research (add link) | Map our customer’s journey in purchasing and adopting GitLab, and experience with our teams, to identify opportunities to accelerate value.  | Improving customer experience, results in increased customer satisfaction, and driving revenue through stronger lands, renewals, and expansions. | Quarterly  |
-| All Customer Satisfaction Survey (add link) | Bi-annual benchmark to provide insights and measures to the business regarding the customer experience.  | By keeping a pulse on customer satisfaction and feedback themes, we can identify areas of improvement to improve customer satisfaction.  | Biannually (May, Nov) |
-| Customer Health Framework (link coming soon) | Instrument and baseline customer health metrics  | Identify areas of opportunity to focus on improving customer health | TBD |
+| [Customer Experience Journey Research](/handbook/customer-experience/cx-journey/) | Map our customer’s journey in purchasing and adopting GitLab, and experience with our teams, to identify opportunities to accelerate value.  | Improving customer experience, results in increased customer satisfaction, and driving revenue through stronger lands, renewals, and expansions. | Quarterly  |
+| [All Customer Satisfaction Survey](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/) | Customer Satisfaction benchmark to provide insights and measures to the business to improve the value of GitLab for our customers.  | By keeping a pulse on customer satisfaction and feedback themes, we can identify areas of improvement to improve customer satisfaction.  | Biannually (May, Nov) |
+| Customer Health Framework (page coming soon) | Instrument and baseline customer health metrics  | Identify areas of opportunity to focus on improving customer health | TBD |
 
 ## **Meet Our Team**
 
@@ -58,7 +58,7 @@ Meet our small but mighty CX team\!
 * Sarah Schuster \- CX Strategy  
 * Brandon Butterfield \- CX Strategy Analytics
 
-Learn more here \- (add link)
+Learn more about [how we collaborate with our cross-functional partners](/handbook/customer-experience/raci/).
 
 ## **Get in touch\!**
 
