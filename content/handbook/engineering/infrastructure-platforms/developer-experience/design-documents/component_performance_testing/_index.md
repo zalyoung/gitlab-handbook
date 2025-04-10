@@ -247,7 +247,7 @@ Adoption challenges include:
 
 1. **Component Testing Framework**
    * Create a reusable framework for component-level performance testing
-   * Support containerized component deployment via Docker/Docker Compose
+   * Support containerized component deployment using Docker/Docker Compose
    * Implement secure credential management (git-crypt)
    * Configure test runners with appropriate resources
 2. **Testing Tools Integration**
@@ -278,8 +278,8 @@ Adoption challenges include:
    * Document lessons learned
 3. Tool Enahancement
    * Create CI templates for component performance testing
-   * Compare test results with runs on master
-   * Create master branch baselines for the component
+   * Compare test results with runs on main branch
+   * Create main branch baselines for the component
    * Document baseline performance
    * Implement automatic baseline updates
 
@@ -375,7 +375,7 @@ k6 by default generates [test summary metrics](https://grafana.com/docs/k6/lates
 
 ![image.png](/uploads/b454ef46070b451be8a77c87a6b321ba/image.png)
 
-This pipeline will also be ran on main/master branch of the respective component repository, which will be considered as a baseline for performance results. Future iteration will involve comparing the test results generated in MRs and providing variance as a results.
+This pipeline will also run on main branch of the respective component repository, which will be considered as a baseline for performance results. Future iteration will involve comparing the test results generated in MRs and providing variance as a results.
 
 ### Data Storage & Analysis
 
@@ -432,7 +432,7 @@ Gather performance requirements from AI Framework group and AI Model validation 
 
 Create a reusable basic framework for component-level performance testing
 
-* Support containerized component deployment via Docker/Docker Compose
+* Support containerized component deployment using Docker/Docker Compose
 * Implement secure credential management (git-crypt)
 * Generate a lean report which is posted as a comment in MRs
 
@@ -447,7 +447,7 @@ Create a `tests:performance` job in ai assist which leverages the component perf
 <tr>
 <td>
 
-Gather feedbacks from ai-assist team to improve the framework and optimize their `tests:performance` job.
+Gather feedback from ai-assist team to improve the framework and optimize their `tests:performance` job.
 </td>
 </tr>
 <tr>
@@ -470,7 +470,7 @@ Gather feedbacks from ai-assist team to improve the framework and optimize their
 <td>Improve the stability of the performance testing</td>
 </tr>
 <tr>
-<td>Continue gathering feedbacks from the team</td>
+<td>Continue gathering feedback from the team</td>
 </tr>
 <tr>
 <td>Develop dashboards in Grafana for performance metrics visualization</td>
@@ -571,7 +571,7 @@ The success of this implementation will be measured by:
 1. **Framework Maintenance**:
    * Performance Enablement team maintains the core framework
    * Performance Enablement team regularly updates to testing tools and infrastructure
-   * Performance Enablement team applys security patches and dependency updates
+   * Performance Enablement team applies security patches and dependency updates
 2. **Component Test Maintenance**:
    * Component teams maintain their specific test scenarios
    * Component teams update tests as component interfaces change
