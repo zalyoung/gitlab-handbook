@@ -1,4 +1,17 @@
-# Architecture Blueprint for Component Level Performance Testing
+---
+title: "Component Performance Testing"
+status: accepted
+creation-date: "2025-04-11"
+authors: [ "@vishal.s.patel" ]
+coach:
+dri: ["@vishal.s.patel"]
+approvers: [ "@ksvoboda" ]
+owning-stage: "~stage::developer-experience"
+participating-stages: []
+toc_hide: true
+---
+
+{{< design-document-header >}}
 
 [[_TOC_]]
 
