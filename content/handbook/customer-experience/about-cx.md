@@ -1,6 +1,6 @@
 ---
 title: "About Customer Experience (CX)"
-description: "Deep dive into Customer Expeirence (CX)"
+description: "Deep dive into Customer Experience (CX)"
 ---
 
 ## **Deep dive into Customer Experience (CX)**
