@@ -568,7 +568,7 @@ The success of this implementation will be measured by:
 5. **Integration Effectiveness**: Seamless integration with CI/CD pipelines
 6. **Decision Impact**: Number of data-driven decisions made using performance insights
 
-## 15. Maintenance & Support
+## Maintenance & Support
 
 1. **Framework Maintenance**:
    * Performance Enablement team maintains the core framework
@@ -583,7 +583,7 @@ The success of this implementation will be measured by:
    * Performance Enablement team provides training for new teams
    * Performance Enablement team shares best practices and lessons learned
 
-## 16. References
+## References
 
 * [Component Performance Testing Repository](https://gitlab.com/gitlab-org/quality/component-performance-testing)
 * [k6 Documentation](https://k6.io/docs/)
