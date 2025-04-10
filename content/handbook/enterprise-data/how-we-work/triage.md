@@ -54,17 +54,7 @@ Steps to uplevel triaging process:
 
 #### Data Platform weekly rotation schedule
 
-In FY23-Q4 the Data Platform Team ran an experiment to move from a daily triage schedule to a weekly triage schedule. At the end of the quarter evaluation showed that:
-
-- Average completion time of issues and incidents was trending **downwards**.
-- Close ratio of issues and incidents was trending **upwards**.
-
-Also a pulse check amongst Data Platform Team members learned that triage was more efficient because Team members were able to focus better.
-The Data Platform Team will run on a weekly rotation schedule moving forward. This means that a Data Platform Team member is performing triage responsibilities from Monday - Friday. With running a weekly schedule Team members could focus more and better on outstanding issues and incidents and prevent doing handovers each and every day.
-
-Before the start of the quarter the Data Platform Team aligns on the weekly rotation schedule via an issue follewed by updating the Data Team calendar.
-
-Because of public holidays or unforeseen circumstances (Family and Friends day excluded, on these days we do not perform triage), the schedule can change throughout the quarter where there is still a possibility to handover a single day amongst Data Platform Team members. These changes are arranged between team members and are reflected in the Data Team calendar. This means that the Data Team calendar is the single source of truth.
+In FY23-Q4, the data platform team moved to a weekly triage schedule. The schedule is maintained on the Data Program Google Calendar.
 
 #### Tableau weekly rotation schedule
 
@@ -76,10 +66,13 @@ Beginning on `2025-01-02` Analytics Engineering will move to a weekly triage sch
 
 ### Enterprise Data Program Triage Instructions
 
-1. GitLab Team members can ping one of the groups above for any questions or help. When not clear, ping a group based on best guess. If a different group was needed, the request or question can always be re-routed.
-1. Triager should review each slack message request in the **#data** that has the triager's assigned Slack alias pinged.
-1. Triager should reply to slack threads by pointing GitLab team member to the appropriate handbook page, visualization, or to other GitLab team members who may know more about the topic.
-1. Triager should direct GitLab team member to the channel description, which has links to the various Data Program Projects, if the request requires more than 5 minutes of investigative effort from a Data Program team member.
+All triage team members, regardless of their team, share the following responsibilities:
+
+1. Triagers should review Slack messages in #data 
+1. Triagers should respond in Slack threads by linking to relevant handbook pages, dashboards, or pointing team members to others who may have deeper expertise on the topic
+1. If a request requires more than five minutes of investigation from a Data Program team member, triagers should direct the requestor to the channel description. The description includes links to the various Data Program projects where an issue can be created
+1. Triagers should support team members who are new to the issue labeling process by reviewing issues with the `clean-up::review` label and offering guidance on proper labels to use
+1. Triagers are responsible for monitoring and triaging all issues labeled with their team’s label to ensure timely responses and resolution of team-specific requests.
 
 A team member who is off, on vacation, or working on a high priority project is responsible for finding coverage and communicating to the team who is taking over their coverage;
 this should be updated on the [Data Program's Google Calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9kN2RsNDU3ZnJyOHA1OHBuM2s2M2VidW84b0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). To avoid putting the *Monday workload* on the same shoulders every week again, the Data Platform Team will rotate/exchange every now and then triage days in good collaboration on an ad-hoc basis.
@@ -118,10 +111,6 @@ The Data Platform triager is responsible for resolving problems with our data pl
 The Analytics Engineer triager has two primary responsibilities: addressing dbt-related errors (both new and existing) and supporting issue organization. 
 
 They monitor the `#analytics-pipelines` Slack channel for `dbt-test`, `dbt-run` errors and MonteCarlo anomalies, creating new issues using the [AE Triage Errors](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=Triage:%20Errors%20AE%20) issue template when needed. 
-
-The AE triager supports team members who are new to our labeling process by monitoring issues with the `clean-up::review` label and providing guidance on proper issue organization. They ensure issues reach the right owners by consulting the CODEOWNERS file for DBT model failures, or by directing them to functional DRIs or the Manager, Data when the ownership path isn't clear. 
-
-Additionally, they monitor and triage all issues labeled with `team::Analytics Engineering` to ensure timely responses to team-specific requests and problems.
 
 **BI / Tableau Team Responsibilities**
 
