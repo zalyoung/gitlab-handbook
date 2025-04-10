@@ -173,55 +173,55 @@ sequenceDiagram
 ## Alternative Solutions
 
 1. Run a baseline run and the performance run every MR
-    - Pros:
-      - Provides immediate, direct comparison without relying on historical data
-      - Guarantees latest reference point for comparison
-      - Eliminates concerns about environmental or temporal variations
-    - Cons:
-      - Dramatically increases CI resource consumption and pipeline duration
-      - Creates redundant test runs of the same baseline code
-      - Doubles the testing time for every performance-relevant MR
-      - Scales poorly as more performance tests are added to the suite
-      - Use a hard coded baseline
+   - Pros:
+     - Provides immediate, direct comparison without relying on historical data
+     - Guarantees latest reference point for comparison
+     - Eliminates concerns about environmental or temporal variations
+   - Cons:
+     - Dramatically increases CI resource consumption and pipeline duration
+     - Creates redundant test runs of the same baseline code
+     - Doubles the testing time for every performance-relevant MR
+     - Scales poorly as more performance tests are added to the suite
+     - Use a hard coded baseline
 2. Use Static, Hard-Coded Baselines
-    - Pros:
-      - Simple implementation with minimal infrastructure needs
-      - Consistent reference points for comparison
-      - Low maintenance overhead for implementation
-    - Cons:
-      - Quickly becomes outdated as the application evolves
-      - Fails to account for legitimate performance changes over time
-      - Requires manual updates to adjust expectations
+   - Pros:
+     - Simple implementation with minimal infrastructure needs
+     - Consistent reference points for comparison
+     - Low maintenance overhead for implementation
+   - Cons:
+     - Quickly becomes outdated as the application evolves
+     - Fails to account for legitimate performance changes over time
+     - Requires manual updates to adjust expectations
 3. Use Existing Per-Environment Prometheus Instances
-    - Pros:
-      - Leverages existing monitoring infrastructure
-      - Data already collected and available
-    - Cons:
-      - Data is isolated within each environment
-      - Added complexity on the CI run to determine which data source to use
-      - Test run will vary, will the needed data be present?
+   - Pros:
+     - Leverages existing monitoring infrastructure
+     - Data already collected and available
+   - Cons:
+     - Data is isolated within each environment
+     - Added complexity on the CI run to determine which data source to use
+     - Test run will vary, will the needed data be present?
 4. Build a Custom Performance Analytics Platform
-    - Pros:
-      - Fully tailored to our specific performance testing needs
-      - Maximum flexibility in data model and analysis capabilities
-    - Cons:
-      - Significantly higher development and maintenance effort
-      - Longer time to initial value
-      - Requires specialized skills to build and maintain
-      - Will reinvent capabilities already available in existing tools
+   - Pros:
+     - Fully tailored to our specific performance testing needs
+     - Maximum flexibility in data model and analysis capabilities
+   - Cons:
+     - Significantly higher development and maintenance effort
+     - Longer time to initial value
+     - Requires specialized skills to build and maintain
+     - Will reinvent capabilities already available in existing tools
 5. Use Object Storage (S3/GCS/Package Registry) for JSON Baselines
-    - Pros:
-      - Simple implementation with minimal infrastructure dependencies
-      - Easy integration with CI/CD pipelines and existing tools
-      - Straightforward version control of baseline files
-      - Low operational overhead with highly reliable storage
-      - Cost-effective for the amount of data involved
-    - Cons:
-      - Limited query capabilities for dynamic analysis and investigation
-      - No built-in visualization or trending capabilities
-      - Requires custom tooling for comparison and regression detection
-      - Difficult to perform ad-hoc analysis or identify patterns across multiple tests
-      - Doesn't scale well for storing full test result datasets, only suitable for baselines
+   - Pros:
+     - Simple implementation with minimal infrastructure dependencies
+     - Easy integration with CI/CD pipelines and existing tools
+     - Straightforward version control of baseline files
+     - Low operational overhead with highly reliable storage
+     - Cost-effective for the amount of data involved
+   - Cons:
+     - Limited query capabilities for dynamic analysis and investigation
+     - No built-in visualization or trending capabilities
+     - Requires custom tooling for comparison and regression detection
+     - Difficult to perform ad-hoc analysis or identify patterns across multiple tests
+     - Doesn't scale well for storing full test result datasets, only suitable for baselines
 
 We opted for the current approach because it leverages our existing infrastructure investments while enabling the dynamic baselines critical for effective MR performance testing. This solution offers the best balance of implementation speed, analytical capabilities, and long-term scalability.
 
