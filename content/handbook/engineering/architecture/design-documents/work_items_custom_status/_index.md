@@ -265,22 +265,30 @@ class WorkItems::Statuses::Custom::Status {
   namespace_id: Sharding key
   name
   color
+  category
+  description
 }
 class WorkItems::Statuses::Custom::Lifecycle {
   namespace_id: Sharding key
+  name
   default_open_status_id
   default_closed_status_id
   default_duplicate_status_id
 }
 class WorkItems::Statuses::Custom::LifecycleStatus {
   namespace_id: Sharding key
+  lifecycle_id
+  status_id
   position
 }
 class WorkItems::Statuses::SystemDefined::Status {
   name
   color
+  category
+  position
 }
 class WorkItems::Statuses::SystemDefined::Lifecycle {
+  name
   work_item_base_types: Array
   status_ids: Array
   default_open_status_id
@@ -290,9 +298,8 @@ class WorkItems::Statuses::SystemDefined::Lifecycle {
 class WorkItems::Type
 class WorkItems::TypeCustomLifecycle {
   namespace_id: Sharding key
-}
-class Namespace {
-  custom_status_enabled: Bool
+  work_item_type_id
+  lifecycle_id
 }
 
 WorkItem -- WorkItems::Statuses::CurrentStatus
@@ -304,7 +311,6 @@ WorkItems::Statuses::Custom::Status -- WorkItems::Statuses::Custom::LifecycleSta
 WorkItems::Statuses::Custom::LifecycleStatus -- WorkItems::Statuses::Custom::Lifecycle
 WorkItems::Statuses::Custom::Lifecycle -- WorkItems::TypeCustomLifecycle
 WorkItems::TypeCustomLifecycle -- WorkItems::Type
-WorkItems::Statuses::Custom::Lifecycle -- Namespace
 
 WorkItems::Statuses::SystemDefined::Status -- WorkItems::Statuses::SystemDefined::Lifecycle
 WorkItems::Statuses::SystemDefined::Lifecycle -- WorkItems::Type
