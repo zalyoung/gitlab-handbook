@@ -138,8 +138,9 @@ The new design will separate pipeline information into two levels:
 2. **Expanded View (Detailed Information)**
 
    _Appears when user expands a pipeline row_
-   - Pipeline mini graph visualization
+   - Possibly pipeline mini graph visualization (see [Pipeline Mini Graph Placement](#pipeline-mini-graph-placement) decision)
    - Failed jobs information
+   - Job actions
    - Duration metrics
    - Available artifacts
    - Detailed commit information
@@ -197,8 +198,8 @@ ci/pipelines_table/
 │ │ ├── commit_pipelines.query.graphql
 │ │ └── pipeline_details.query.graphql
 │ └── subscriptions/ # For future real-time updates
-│ ├── pipeline_statuses.subscription.graphql
-│ └── pipeline_details.subscription.graphql
+│ ├──── pipeline_statuses.subscription.graphql
+│ └──── pipeline_details.subscription.graphql
 ├── constants.js
 └── utils.js
 ```
@@ -207,8 +208,10 @@ ci/pipelines_table/
 
 #### List View Format
 
-- **Decision DRI**: Product Design
-- **Options to consider**:
+**Decision DRI**: Product Design
+
+**Options to consider**:
+
 - Streamlined row-based list view with expandable details
 - Card-based view
 - Traditional table with all columns
@@ -216,37 +219,107 @@ ci/pipelines_table/
 
 #### Expansion Mechanism
 
-- **Decision DRI**: Product Design
-- **Options to consider**:
+**Decision DRI**: Product Design
+
+**Options to consider**:
+
 - Expandable row revealing details panel beneath the row
 - Side drawer showing related pipeline details
 - Modal dialog for detailed information
 - Inline expansion with progressive disclosure
 
+#### Pipeline Mini Graph Placement
+
+**Decision DRI**: Product Design, Engineering
+
+**Decision**: [DECISION PENDING] Whether to include the pipeline mini graph in the details view or focus on failed jobs and actionable items instead.
+
+**Context**: The mini graph requires fetching extensive job data (including dozens of passed jobs with names and statuses) that is often unnecessary for the user's workflow.
+
+**Options**:
+
+1. **Include Mini Graph in Details View**
+   - Provides visual representation of pipeline stages
+   - Maintains familiar visualization element
+   - Requires fetching data for all jobs, including non-actionable ones
+
+2. **Focus on Failed Jobs and Actionable Items**
+   - Prioritizes information users need to take action
+   - Reduces data requirements by focusing on relevant jobs
+   - Shows stage summary without individual passed job details
+   - Potentially more useful for troubleshooting workflows
+
+**Next Steps**:
+
+- Research user workflows to identify most frequently needed information
+- Analyze query patterns to measure reduction in data requirements
+- Test alternative presentations focusing on actionable information
+
+**Initial Recommendation**: Focus primarily on failed jobs and actionable items in the details view, with a simplified stage summary that doesn't require fetching data for every passed job.
+
 #### GraphQL Query Structure
 
-- **Decision DRI**: Engineering
-- **Decision**: Implement two separate GraphQL queries and prepare for future subscription model
-- **Context**: GraphQL allows for precise data fetching and real-time updates through subscriptions.
-- **Benefits**:
+**Decision DRI**: Engineering
+**Decision**: Implement two separate GraphQL queries and prepare for future subscription model
+**Context**: GraphQL allows for precise data fetching and real-time updates through subscriptions.
+
+**Benefits**:
+
 - Optimized initial payload
 - On-demand loading of detailed information
 - Foundation for real-time updates
 - Better separation of concerns in frontend code
-- **Alternatives Considered**:
+
+**Alternatives Considered**:
+
 - Single comprehensive query with all data - Rejected due to performance concerns
 - Multiple fragmented queries - Rejected due to increased request overhead
+
+#### Pipeline Details Schema
+
+**Decision DRI**: Engineering
+
+**Decision**: [PENDING UI DESIGNS] Determine the optimal GraphQL schema for pipeline details based on finalized UI designs.
+
+**Context**: The schema for the secondary query will be driven by UI requirements to ensure we only fetch data needed for the expanded details view.
+
+**Process**:
+
+- Complete UI designs for the expanded pipeline details view
+- Identify all data elements required by the design
+- Develop schema that efficiently retrieves only necessary information
+- Validate schema against performance goals
+
+**Considerations**:
+
+- Balance between comprehensive information and query efficiency
+- Prioritize data for troubleshooting and actionable items
+- Structure for future extensibility and real-time updates
+- Support for all three pipeline table contexts
+
+**Next Steps**:
+
+- Finalize expanded details UI mockups
+- Map UI elements to required data fields
+- Draft initial GraphQL schema
+- Review with stakeholders
+
+**Implementation Target**: A focused schema that retrieves exactly what the UI needs without unnecessary data fetching.
 
 ## Alternative Solutions
 
 ### GraphQL Migration Without UI Redesign
 
-- **Approach**: Migrating to GraphQL while maintaining the current UI design.
-- **Pros**:
+**Approach**: Migrating to GraphQL while maintaining the current UI design.
+
+**Pros**:
+
 - Provides some performance benefits
 - Allows incremental improvements
 - Lower risk of user experience disruption
-- **Cons**:
+
+**Cons**:
+
 - Requires building GraphQL queries that match current REST payloads
 - Creates technical debt when UI is eventually redesigned
 - Doesn't address information hierarchy or cognitive load issues
