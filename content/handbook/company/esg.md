@@ -49,7 +49,7 @@ This report has been prepared with reference to the Global Reporting Initiative 
 
 GitLab’s Nominating and Corporate Governance Committee on the Board of Directors (“Board”) has reviewed the information in this report.
 
-For information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/ESG/).
+For information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/esg/).
 
 #### Our Approach to ESG
 

@@ -76,11 +76,11 @@ Absent [communication guidelines](/handbook/communication/), colocated organizat
 
 ### 9. Does each team member call/collaborate with their own equipment?
 
-A [hybrid call](meetings/#avoid-hybrid-calls) is one that has a mix of participants in the same physical room, together with others who are remote. Hybrid calls should be avoided, as it's better to have everyone on a level playing field for communication and discussion. If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room.
+A [hybrid call](meetings/#7-avoid-hybrid-calls) is one that has a mix of participants in the same physical room, together with others who are remote. Hybrid calls should be avoided, as it's better to have everyone on a level playing field for communication and discussion. If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room.
 
 ### 10. Do you have a documented and defined in-person strategy?
 
-Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages](/handbook/company/culture/all-remote/remote-benefits/) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](in-person/), even if they're optional for team members.
+Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages](remote-benefits/) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](in-person/), even if they're optional for team members.
 
 Quarterly or bi-annual retreats, annual company-wide gatherings, in-person onboarding cohorts, and budgets for ad hoc in-person moments are just a few examples. Great remote organizations recognize that people do not need to spend hours each day commuting to see one another every 24 hours, but budgeting for *strategic* in-person gatherings are useful for bolstering culture and building rapport.
 
@@ -90,7 +90,7 @@ Great remote organizations actively work against [proximity bias](https://web.ar
 
 ### 12. Do you fund individual workspaces and reimburse for out-of-home office use?
 
-Great remote organizations recognize that there are more than two places to work. While "the office" and "home" are two options, the third space is vast. Platforms such as [Codi](https://www.codi.com), [Gable](https://www.gable.to), and [Switchyards](https://switchyards.com) exist to support these arrangements. Enabling team members to [submit for reimbursement](/handbook/finance/expenses#-coworking-or-external-office--space) for coworking or external office space indicates that an organization is so sure of its remote-first workflows that it is comfortable empowering people to work from a variety of spaces.
+Great remote organizations recognize that there are more than two places to work. While "the office" and "home" are two options, the third space is vast. Platforms such as [Codi](https://www.codi.com), [Gable](https://www.gable.to), and [Switchyards](https://switchyards.com) exist to support these arrangements. Enabling team members to [submit for reimbursement](/handbook/finance/expenses/#co-working-space) for coworking or external office space indicates that an organization is so sure of its remote-first workflows that it is comfortable empowering people to work from a variety of spaces.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -98,7 +98,7 @@ Great remote organizations recognize that there are more than two places to work
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

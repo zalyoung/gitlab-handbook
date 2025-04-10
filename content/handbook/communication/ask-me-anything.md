@@ -114,7 +114,7 @@ The Executive Business Partner alignment can be found [here](/handbook/eba/)
 
 AMAs are generally coordinated, scheduled, and planned by the [Executive Business Administrator](/handbook/eba/) team when an E-Group member is the host. Anytime that an AMA is to be hosted by an executive, VP, or Director at GitLab, it should be arranged and scheduled by that functions EBA. AMAs of Board Members are scheduled by the Staff EBA to the CEO.
 
-Other non-Executive AMAs are scheduled by the [People Operations](/handbook/people-group/#people-experience-vs-people-operations-core-responsibilities--response-timeline) team. These AMAs are typically a result of a change that impacts the company as a whole and may often be hosted by multiple leadership members in the company. Whenever there is an open slot in the Group Conversation calendar, the People Operations Team will reach out to the EBA team to create an AMA.
+Other non-Executive AMAs are scheduled by the [People Operations](/handbook/people-group/#people-connect-responsibilities--response-timeline) team. These AMAs are typically a result of a change that impacts the company as a whole and may often be hosted by multiple leadership members in the company. Whenever there is an open slot in the Group Conversation calendar, the People Operations Team will reach out to the EBA team to create an AMA.
 
 When scheduling an AMA, be mindful of timezones.  Generally it is best to have two AMAs, one for the Americas/EMEA time zone, and one for the APAC time zones.
 

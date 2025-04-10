@@ -87,13 +87,13 @@ Crucially, when there are issues with onboarding, new team members may not feel 
 
 Starting a new job can be overwhelming. If a new hire is used to working in a traditional office, adjusting to the remote work lifestyle might be a challenge. Having socialization as part of the onboarding process can help team members feel more connected to their new teams, even though they don't share an office.
 
-In an all-remote company, it's important to encourage [informal communication](/handbook/company/culture/all-remote/informal-communication/) so that team members can build relationships. This can be incorporated into the onboarding process in a couple of key ways:
+In an all-remote company, it's important to encourage [informal communication](informal-communication/) so that team members can build relationships. This can be incorporated into the onboarding process in a couple of key ways:
 
 1. **Assign an onboarding buddy.** This individual can be a friendly point of contact for a new team member and also introduce them to others. Onboarding buddies often set the expectation for how to build relationships with other team members, so new hires and onboarding buddies should communicate in a variety of ways, such as video calls, check-ins on Slack, and coffee chats. At GitLab, we take this kind of role seriously and have an entire handbook page dedicated to [onboarding buddies](/handbook/people-group/general-onboarding/onboarding-buddies.md).
 
 1. **Formally design informal communication.** In an all-remote environment, informal communication should be formally addressed. Leaders should organize informal communication and provide structured opportunities for new hires to get to know their coworkers. We incorporate socializing tasks into our onboarding template such as [scheduling coffee chats](informal-communication/#scheduling-a-coffee-chat), introducing yourself in the `#new_team_members` slack channel, or participating in a video call.
 
-1. **Creating personal connections.** We are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) shows the value of personal connections. While there are tremendous [advantages](/handbook/company/culture/all-remote/remote-benefits/) to operating a 100% remote company, be open to [participating with in-person elements](https://www.fastcompany.com/3051518/the-science-of-when-you-need-in-person-communication), even if they're optional.
+1. **Creating personal connections.** We are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) shows the value of personal connections. While there are tremendous [advantages](remote-benefits/) to operating a 100% remote company, be open to [participating with in-person elements](https://www.fastcompany.com/3051518/the-science-of-when-you-need-in-person-communication), even if they're optional.
 
 **Additional resources:**
 
@@ -126,7 +126,7 @@ At GitLab, we believe the best way to operate is by [documenting](management/#sc
 GitLab is committed to [transparency](/handbook/values/#transparency). This value gives team members access to a great deal of visibility to what is going on throughout the organization. However, it does not negate the need to invite employees to ask questions.
 
 - **Add some excitement.**
-In addition to the [incredible benefits of all-remote work](/handbook/company/culture/all-remote/remote-benefits/), getting to network and interact with their team, whether remote or [in-person](in-person/) is part of what makes work fun and exciting - especially in an all-remote [culture](/handbook/company/culture/).
+In addition to the [incredible benefits of all-remote work](remote-benefits/), getting to network and interact with their team, whether remote or [in-person](in-person/) is part of what makes work fun and exciting - especially in an all-remote [culture](/handbook/company/culture/).
 
 Here's our list of more than 20 ways to participate in a happy, healthy [informal work culture](informal-communication/).
 

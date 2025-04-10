@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## Remote hiring, explained
 
-The [pandemic](https://www.cdc.gov/covid/index.html) forced many organizations to transition to be [all-remote companies](guide/). Many realized the [benefits](/handbook/company/culture/all-remote/remote-benefits/#benefits-of-remote-work) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
+The [pandemic](https://www.cdc.gov/covid/index.html) forced many organizations to transition to be [all-remote companies](guide/). Many realized the [benefits](remote-benefits/#benefits-of-remote-work) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
 
 As one of the world's largest [all-remote companies](guide/), GitLab has been hiring and onboarding remote workers, remotely for over a decade. We've detailed what we learned in the [Principles of Hiring section of our Handbook](/handbook/hiring). On this page, we're sharing best practices for a streamlined remote hiring process anyone can implement.
 
@@ -48,7 +48,7 @@ Remote interviews for remote jobs enable you to gauge a person's ability to comm
 
 ### Commit to supporting remote work, not just allowing it
 
-[**Supporting** remote work](phases-of-remote-adaptation/) is different than [**allowing** it](stages/#remote-allowed). Before hiring for a remote role, ensure that it is [set up to be successful](evaluate/). Prepare management with training on [how to be a great remote manager](being-a-great-remote-manager/).
+[**Supporting** remote work](phases-of-remote-adaptation/) is different than [**allowing** it](stages/#4-remote-allowed). Before hiring for a remote role, ensure that it is [set up to be successful](evaluate/). Prepare management with training on [how to be a great remote manager](being-a-great-remote-manager/).
 
 Prepare a well-designed [remote interview process](/handbook/hiring/candidate-faq/) to ensure that you'll hire the right person and that they'll be prepared with accurate expectations.
 
@@ -92,7 +92,7 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 
 1. Benefits for families and caregivers (daycare stipend, cleaning/laundry stipend, meal stipend, enhanced health insurance options, continuing education, adoption/fertility support, etc.)
 1. [No ask, must tell vacation policy](/handbook/people-group/paid-time-off/) which senior leaders visibly model
-1. The ability to [expense](/handbook/finance/spending-company-money/#coworking-or-external-office--space) a "third space" for working — an external office, coworking space, or residential community space through the likes of [Codi](https://www.codi.com)
+1. The ability to [expense](/handbook/finance/expenses/#co-working-space) a "third space" for working — an external office, coworking space, or residential community space through the likes of [Codi](https://www.codi.com)
 1. Caregiver leave (maternity, paternity, eldercare, etc.)
 1. [De-location stipend](https://web.archive.org/web/20220202064653/https://zapier.com/blog/move-away-from-sf-get-remote-job/) (supporting relocation away from a high cost-of-market location)
 1. 4-day workweek, Summer Fridays, no-meeting days, and other efforts that provide company-wide time off for employees to rest, recharge, and connect with community
@@ -236,7 +236,7 @@ Model good informal communication practices with new hires by scheduling regular
 
 ## Global hiring best practices
 
-GitLab hires globally because we [envision](/handbook/company/culture/all-remote/remote-vision/) a world where talented, driven individuals seek employment and find roles based on **business needs** rather than **geographic location**. In our 10+ years of global hiring, we have significantly developed our best practices. Here are a few things to keep in mind; please see the [hiring section of our handbook](/handbook/hiring) for more in-depth coverage.
+GitLab hires globally because we [envision](remote-vision/) a world where talented, driven individuals seek employment and find roles based on **business needs** rather than **geographic location**. In our 10+ years of global hiring, we have significantly developed our best practices. Here are a few things to keep in mind; please see the [hiring section of our handbook](/handbook/hiring) for more in-depth coverage.
 
 ### Where do you *not* hire?
 
@@ -314,7 +314,7 @@ Driven by our [Collaboration value](/handbook/values/#collaboration), we organiz
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
