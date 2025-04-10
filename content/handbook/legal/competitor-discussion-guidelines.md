@@ -15,7 +15,7 @@ These guidelines govern how to discuss and reference competitor product features
 
 - **Note** that the term "Screenshots" when used within these guidelines include screenshots and screen recordings from any source, including publicly available sources (YouTube videos, websites) or directly from competitor products.
 
-## Do's and don'ts
+## Dos and don'ts
 
 ### Do
 
