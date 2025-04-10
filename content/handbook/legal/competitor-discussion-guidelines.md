@@ -3,7 +3,7 @@ title: Guidelines on public discussion of competitor product features
 description: "These guidelines govern how to discuss and reference competitor product features and screenshots in public issues, GitLab [documentation](http://docs.gitlab.com), and other public-facing media."
 ---
 
-# Guidelines on public discussion of competitor product features
+## Guidelines on public discussion of competitor product features
 
 These guidelines govern how to discuss and reference competitor product features and screenshots in public issues, GitLab documentation, and other public-facing media.
 
