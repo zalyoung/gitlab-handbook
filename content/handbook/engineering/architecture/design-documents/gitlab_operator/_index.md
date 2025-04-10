@@ -65,13 +65,15 @@ optimal cloud-native experience:
 These limitations impede GitLab's potential in cloud-native environments, particularly for complex deployments with
 stateful components and those requiring frequent scaling or minimal manual intervention.
 
-### Business Impacts
+### Business impacts
 
-1. Suboptimal cloud-native experience for users, especially when it comes to upgrading GitLab instances.
-1. Higher operational overhead for lifecycle management.
-1. Limited ability to leverage full cloud-native architecture benefits.
+1. Suboptimal cloud-native experience for users, especially when it comes to upgrading GitLab instances. The friction
+   increase the support cost for GitLab.
+1. Increased operational overhead for deploying and managing GitLab instances, resulting in higher TCO for customers
+   and increased internal operational costs for our support teams.
 1. Slower pace of adoption of upstream changes, making it costly to add new cloud-native features and addressing future
    changes.
+1. Limited ability to leverage full cloud-native architecture benefits.
 
 ## Goals
 
