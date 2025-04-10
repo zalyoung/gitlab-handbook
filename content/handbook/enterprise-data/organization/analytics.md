@@ -5,7 +5,7 @@ description: "GitLab Data Analytics Team Handbook"
 
 The mission of the Data Analytics team is to **maximize** the impact of business decisions and strategy with data solutions that are trusted and scalable.
 
-We do this by helping all GitLab teams move up the [**Data maturity**](https://internal.gitlab.com/handbook/enterprise-data/direction/#current-data-maturity) **by means of our** [**GitLab values**](/handbook/values/) and our [**Data Team Principles**](/handbook/enterprise-data/#data-team-principles).
+We do this by helping all GitLab teams move up the [**Data maturity**](https://internal.gitlab.com/handbook/enterprise-data/direction/#current-data-maturity) **by means of our** [**GitLab values**](/handbook/values/) and our [**Data Team Principles**](/handbook/enterprise-data/organization/principles/).
 
 ## Data Analytics Responsibilities
 
