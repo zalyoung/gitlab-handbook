@@ -33,8 +33,6 @@ First, please open an issue in the [lxp-contributions project](https://gitlab.co
 
 If you want to build the content into the platform yourself, please complete the Level Up [Learning Evangelist training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/learning-evangelist-training). This training course uses instructional videos to teach learners the basics of content creation in Level Up, and includes some best practice to think about when designing learning content and gathering materials. Once you have completed the training, the Learning and Development team will uplift your permissions in Level Up to give you access to course authoring tools.
 
-You can also use the [Learning Evangelist handbook page](/handbook/people-group/learning-and-development/level-up/course-author-training/) to review any of the content in the course, directly from the handbook.
-
 ## Support
 
 For questions not answered below, reach out in the #learninganddevelopment Slack channel or [open an issue](https://gitlab.com/gitlab-com/people-group/learning-development/lxp-contributions).
@@ -56,7 +54,7 @@ For questions not answered below, reach out in the #learninganddevelopment Slack
 1. If you have questions about Level Up functionality or capabilities, the Thought Industries [Academy](https://academy.thoughtindustries.com/) includes self-paced training and support articles. Access the academy by clicking the `Need Help` button on the left side bar when logged into Thought Industries and scroll down to `Learn More in the Academy`
 1. Admin in Level Up can use the `Help Center` to report technical problems with platform directly to Thought Industries.
 1. [Platform Settings PDF Guide](https://drive.google.com/file/d/1MXf8NTGRHWloO4WWZYwcRcDzrVucOfcW/view?usp=sharing)
-1. You can also review the [Level Up Administration Guide](/handbook/people-group/learning-and-development/level-up/administration/#content-types) for more information on platform capabilities.
+1. You can also review the administration guide below for more information on platform capabilities.
 
 ## ThoughtIndustries Administration
 
