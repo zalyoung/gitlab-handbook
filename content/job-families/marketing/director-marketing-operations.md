@@ -38,7 +38,7 @@ The Director, Marketing Operations is a [grade 10](/handbook/total-rewards/compe
 - Familiarity with [our tech stack](/handbook/marketing/marketing-operations/#-tech-stack) is a strong plus
 - BA or equivalent experience
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
-- Ability to use GitLab
+
 
 ### Career Ladder
 

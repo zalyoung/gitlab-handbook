@@ -43,7 +43,6 @@ Marketing analysis
 - Proficiency in MS Excel/ Google Sheets.
 - You are team-centric.
 - You're a self starter, willing to read and watch in order to learn.  (Be ready to learn and how to use GitLab and Git).
-- Ability to use GitLab.
 
 ### Marketing Operations Manager (Intermediate)
 
