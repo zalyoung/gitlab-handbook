@@ -1,22 +1,22 @@
 ---
-title: "GitLab Delivery: Self managed"
-description: "The primary user persona for self managed is all the system administrator, including gitlab.com and dedicated, responsible for managing one or more GitLab instances. The team goals are to make it as easy as possible to deploy, scale, upgrade, and fine tune a GitLab instance on a range of on-prem and cloud platforms."
+title: "GitLab Delivery: Self Managed"
+description: "The primary user persona for Self Managed is all the system administrator, including gitlab.com and dedicated, responsible for managing one or more GitLab instances. The team goals are to make it as easy as possible to deploy, scale, upgrade, and fine tune a GitLab instance on a range of on-prem and cloud platforms."
 ---
 
 ## Overview
 
-Self managed team is focused on installation and upgrade mechanisms to ensure smooth deployments. This includes system integration, scripting, templating, and related configuration management tooling.
+Self Managed team is focused on installation and upgrade mechanisms to ensure smooth deployments. This includes system integration, scripting, templating, and related configuration management tooling.
 
 ## Team members
 
 The following people are members of the team:
 
-{{< team-by-manager-slug manager="plu8" team="Self managed" >}}
+{{< team-by-manager-slug manager="plu8" team="Self Managed" >}}
 
 ## Working with the community
 
 The installation and upgrade process is the first feature that all system administrators experience when working with GitLab.
-As a result, the projects managed by the self managed team have a high level of engagement by the user-base. The GitLab
+As a result, the projects managed by the Self Managed team have a high level of engagement by the user-base. The GitLab
 community is made up of more than just code contributors; users logging issues and feature requests are constantly pushing
 us forward and helping create a better experience.
 
