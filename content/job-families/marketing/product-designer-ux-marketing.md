@@ -74,6 +74,7 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 - [Successfully completing bi-weekly Sprint tasks](/handbook/marketing/digital-experience/#sprint-cycle)
 
 ### Design Manager (UX) - Marketing 
+
 The Design Manager role leads a team of Designers within the Digital Experience organization. This position is responsible for guiding the design vision, fostering a culture of design excellence, and ensuring design solutions meet both user needs and business objectives while maintaining alignment with GitLab's overall product strategy.
 
 ### Responsibilities
@@ -88,7 +89,6 @@ The Design Manager role leads a team of Designers within the Digital Experience 
 - Drive design process improvements and best practices
 - Foster a culture of feedback, continuous learning, and iteration
 
-
 ### Requirements
 
 - Ability to use GitLab
@@ -102,9 +102,9 @@ The Design Manager role leads a team of Designers within the Digital Experience 
 - Understanding of web technologies and development processes
 - Experience working in an agile environment
 
-
 ### Design Manager Job Grade
-The Design Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+
+The Design Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 The Design Manager reports to the Director, Digital Experience.
 
 #### Design Manager Performance Indicators
@@ -115,7 +115,6 @@ The Design Manager reports to the Director, Digital Experience.
 - Contribution to company-wide design standards and systems
 - Effective collaboration with cross-functional partners
 
-
 ## Career Ladder
 
 The next step in the Product Design (UX) - Marketing job family is not yet defined at GitLab.
@@ -124,7 +123,7 @@ The next step in the Product Design (UX) - Marketing job family is not yet defin
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, you can find their job title on our [team page](/handbook/company/team/).
 
-- Select candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Select candidates will be invited to schedule a 30 minute screening call with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 30 minute interview with our Director, Digital Experience.
 - Next, candidates will be invited to schedule a 30 minute interview with a Fullstack Engineer and a Frontend Engineer on the Digital Experience team.
 - Next, candidates will be invited to schedule a 30 minute interview with the Senior Director, Inbound Marketing.
