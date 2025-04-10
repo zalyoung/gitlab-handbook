@@ -15,7 +15,9 @@ These guidelines govern how to discuss and reference competitor product features
 
 - **Screenshots**: Defined as screenshots and screen recordings from any source, including publicly available sources (YouTube videos, websites) or directly from competitor products.
 
-## Do
+## Dos and don'ts
+
+### Do
 
 - Initiate and engage in general discussions about competitor product features, including analysis of advantages and disadvantages.
 
@@ -33,13 +35,13 @@ These guidelines govern how to discuss and reference competitor product features
 
 - Reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) with any questions.
 
-## Do not
+### Do not
 
 - Share competitor screenshots without accompanying commentary or critical analysis.
 
   *Example: Posting a competitor's dashboard screenshot with no context or discussion.*
 
-- Initiate, or engage in, discussions proposing plans to directly copy competitor features verbatim, with or without screenshots. 
+- Initiate, or engage in, discussions proposing plans to directly copy competitor features verbatim, with or without screenshots.
 
   *Example: "We should copy collaborate.ly's exact implementation of merge commit messages."*
 
