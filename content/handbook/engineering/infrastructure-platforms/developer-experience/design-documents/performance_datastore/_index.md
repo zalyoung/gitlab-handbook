@@ -128,9 +128,9 @@ Performance testing across numerous MRs will generate substantial data volumes. 
 
 1. **Selective Storage** - Only persist results from merged MRs, treating pipeline runs on unmerged MRs as transient data
 2. **Data Aggregation** - Implement a periodic process to consolidate historical data, preserving trends while reducing granularity of older measurements
-3. **Time-based Retention** - Maintain full fidelity for recent data (e.g., 30-90 days), then progressively reduce resolution for older data
+3. **Time-based Retention** - Maintain full fidelity for recent data, for example 30-90 days, then progressively reduce resolution for older data
 4. **Significance-based Pruning** - Retain all data points that represent significant changes or anomalies, while sampling or aggregating data that follows expected patterns
-5. **Environment-based Policies** - Apply different retention rules based on the source environment (e.g., longer retention for Reference Architecture runs vs. MR pipeline tests)
+5. **Environment-based Policies** - Apply different retention rules based on the source environment, for example longer retention for Reference Architecture runs vs. MR pipeline tests.
 
 Our initial implementation will focus on establishing the core infrastructure while we evaluate these approaches based on actual usage patterns.
 
