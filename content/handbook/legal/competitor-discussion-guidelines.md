@@ -7,7 +7,7 @@ description: "These guidelines govern how to discuss and reference competitor pr
 
 These guidelines govern how to discuss and reference competitor product features and screenshots in public issues, GitLab documentation, and other public-facing media.
 
-# Scope
+## Scope
 
 - **Applies to**: All public discussions of competitor product features and screenshots in public issues, GitLab documentation, and other public-facing forums, whether initiated by team members or community members.
 
