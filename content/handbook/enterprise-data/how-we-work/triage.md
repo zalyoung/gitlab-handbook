@@ -153,8 +153,8 @@ Every issue that comes in during a Data Platform Team member's triage week must 
 1. All issues are `triaged`, `validated` and `refined` - following the defined [workflow (criteria)](/handbook/enterprise-data/how-we-work/#workflow-summary). If the triager cannot prepare it adequately:
    - Assign to a team member with domain expertise, OR
    - Assign to Data Platform Team Lead if appropriate expertise is unknown
-1. If an issue is **1-2** [issue points](/handbook/enterprise-data/how-we-work/#issue-pointing) and time permits for triager in their triage week, they will fully implement the solution. This means moving with through all workflow stages up until `workflow::6 - review`) 
-1. If an triage don't have availability because of other responsibilties, or the issue is **3 or more** issue points, the issue will be labelled as `workflow::4 - ready to develop`. 
+1. If an issue is **1-2** [issue points](/handbook/enterprise-data/how-we-work/#issue-pointing) they will fully implement the solution. This means moving with through all workflow stages up until `workflow::6 - review`) 
+1. If an issue is **3 or more** issue points, the issue will be labelled as `workflow::4 - ready to develop`. 
    - If an issue is not urgent. Triager unassignes themselves and issue has been placed in the backlog.  
    - If an issue is urgent. Triage alligns with a team member on assignment or assigns to Data Platform Team Lead. 
 
