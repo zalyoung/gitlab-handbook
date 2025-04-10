@@ -21,13 +21,38 @@ Creating a blog post from scratch is as easy as filling out the [blog post templ
 
 ### Creating a blog post using Decap CMS
 
+```mermaid
+
+flowchart TD
+    A[Login into Decap with GitLab SSO] --> B{Are you creating a new article or editing an existing one?}
+    B -- "New Article" --> D[Click New Blogpost]
+    B -- "Editing Article" --> J{Published or Unpublished?}
+    J -- "Published" --> C[Click Contents Tab and Edit Existing Blogpost]
+    J -- "Unpublished" --> E[Go to Workflow Tab, find unpublished article, and click into it]
+    C --> F[Save Changes]
+    D --> F[Save Changes]
+    E --> F[Save Changes]
+    F --> G[MR is created with draft changes in GitLab. Review App is created based on the MR]
+    G --> H{Approval Decision}
+    H -- "Approve Changes" --> I[Merge changes into codebase]
+    H -- "Request Feedback / Update MR" --> F
+    H -- "Delete Article" --> K[Delete article: close MR and preserve contents]
+```
+
 1. Log into Decap by visiting https://about.gitlab.com/admin/ and entering your GitLab credentials.
 1. Using the language of your choice, select a `Blog - Post` Collection.
 1. Fill in the fields under `Content`. Most fields are required unless otherwise noted. (You may also fill out the `SEO` fields - if you leave them blank, they will populate automatically with the Title and Description from the `Content` section.The last section, `Config`, can optionally be used to change the slug, and set the blog post to be Featured on the blog landing page.)
 1. Click `Save` in the upper right corner.
-1. Check the latest [Merge Requests](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/merge_requests) in the about.gitlab.com repository. A new merge request titled "Create Blog - Post {title}" will have automatically been created16. Within that MR, you will be able to view the review app of your blog post, and tag `@Sgittlen` for approval and merge.
+1. Check the latest [Merge Requests](https://gitlab.com/gitlab-com/marketing/digital-experience/about-gitlab-com/-/merge_requests) in the about.gitlab.com repository. A new merge request titled "Create Blog - Post {title}" will have automatically been created. 
+1. Within that MR, you will be able to view the review app of your blog post, and tag `@Sgittlen` for approval and merge.
+1. Deleting a non-published post in Decap will end up **closing the MR**. If you are looking for that content, it will remain in the GitLab UI. 
 
 Video Tutorials can be found at the following [playlist](https://www.youtube.com/watch?v=91Ul69LrSb4&list=PL05JrBw4t0KoIEZXWugERwHAsR2cEalKl). For assistance, please reach out to `#digital-experience-team` or `#blog` in slack.
+
+#### Additonal Notes
+
+- Note that the swim lames/board in the Workflow tab correspond to labels applied to the various MRs.
+- If you want to add an author, category, or tab, you will need to open and resolve a seperate MR with that change. The easiest workflow is to do that before opening a blog post MR. Otherwise, you will need to run a `git rebase main` command against your feature branch. 
 
 ### Adding media to blog posts
 
