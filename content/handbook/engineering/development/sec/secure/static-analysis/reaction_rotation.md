@@ -44,7 +44,7 @@ Check the [Static Analysis Slack Channel](https://gitlab.enterprise.slack.com/ar
 
 #### GLAS Limitations Issues
 
-The Vulnerability Research team actively tests and enhances the GLAS rules. During this process, they identify various bugs and limitations of the engine. For each identified issue, they create detailed documentation. During milestone planning, five issues are selected and placed in an epic. The engineer assigned to Reaction Rotation must review and engage with each of these [open issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=GLAS%3A%3AVR-Reported&not%5Blabel_name%5D%5B%5D=priority%3A%3A4&not%5Blabel_name%5D%5B%5D=priority%3A%3A3&not%5Blabel_name%5D%5B%5D=priority%3A%3A2&not%5Blabel_name%5D%5B%5D=priority%3A%3A1&not%5Blabel_name%5D%5B%5D=feature%3A%3Aaddition&not%5Blabel_name%5D%5B%5D=feature%3A%3Aenhancement&first_page_size=100).
+The Vulnerability Research team actively tests and enhances the GLAS rules. During this process, they identify various bugs and limitations of the engine. For each identified issue, they create detailed documentation. During milestone planning, five issues are selected and placed in an epic. The engineer assigned to Reaction Rotation must review and engage with each of these [open issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=GLAS%3AEngineLimitation&not%5Blabel_name%5D%5B%5D=priority%3A%3A4&not%5Blabel_name%5D%5B%5D=priority%3A%3A3&not%5Blabel_name%5D%5B%5D=priority%3A%3A2&not%5Blabel_name%5D%5B%5D=priority%3A%3A1&not%5Blabel_name%5D%5B%5D=feature%3A%3Aaddition&not%5Blabel_name%5D%5B%5D=feature%3A%3Aenhancement&first_page_size=100).
 
 Responsibilities of the rotation engineer:
 
