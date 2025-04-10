@@ -33,7 +33,7 @@ The below DRI's are involved in day-to-day AUP activities to understand the risk
 | Eric Geving | Security Risk | Project management, analysis for assessment scoping and restrictions |
 | Chris Moberly | Red Team, Threat Intelligence | Analysis of threats introduced by third-party integrations |
 | Steve Sagan | Corporate Security | ---- |
-| TBD | TBD | TBD | 
+| Peter Hansen | Corporate Security | ---- | 
 
 *Looking to get in touch? Reach out to us in #Security.*
 
