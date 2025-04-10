@@ -170,7 +170,7 @@ The following will describe how to create the personal view to list cases in Glo
 
 ### Requests for Help
 
-Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management). Access to CompSecGov comes through (FedRAMP Okta)[https://gitlabus.okta.com]. If you need, but don't have, access contact Wade or Ian to get the process started.  
+Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management). Access to CompSecGov comes through [FedRAMP Okta](https://gitlabus.okta.com). If you need, but don't have, access contact Wade or Ian to get the process started.  
 
 In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. This is slightly tricky without access to logs. Infrastructure-issue RFHs follow the CompSecGov procedure and Application-issue RFHs will follow the [typical procedure](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team)
 
