@@ -373,7 +373,13 @@ Grafana will be used to create dashboards using the metrics stored in InfluxDB.
 
 k6 by default generates [test summary metrics](https://grafana.com/docs/k6/latest/get-started/results-output/#end-of-test-summary) which is ingested by the tool and a much more leaner reporting is created that is posted in MR as a comment by a bot. The example of the report will be
 
-![image.png](/uploads/b454ef46070b451be8a77c87a6b321ba/image.png)
+```text
++---------------------+-----+--------------+----------+----------------+------------+--------+
+| NAME                | RPS | RPS RESULT   | TTFB AVG | TTFB P90       | REQ STATUS | RESULT |
++---------------------+-----+--------------+----------+----------------+------------+--------+
+| v2_code_completions | 2   | 1.97 (> 2/s) | 11.77    | 15.47 (< 25ms) | 100%       | Passed |
++---------------------+-----+--------------+----------+----------------+------------+--------+
+```
 
 This pipeline will also run on main branch of the respective component repository, which will be considered as a baseline for performance results. Future iteration will involve comparing the test results generated in MRs and providing variance as a results.
 
