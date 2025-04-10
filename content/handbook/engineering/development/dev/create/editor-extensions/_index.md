@@ -58,7 +58,7 @@ Our group processes are documented in this section.
 If a process is in use but not described here, please follow the guidance in [Evolving the process](#evolving-the-process) to document it.
 
 Our group is relatively new, and currently light on processes.
-There are several differences between how we operate and the shared processes documented in the [product development flow](/handbook/product-development-flow/) and [engineering workflow](/handbook/engineering/workflow/).
+There are several differences between how we operate and the shared processes documented in the [product development flow](/handbook/product-development/product-development-flow/) and [engineering workflow](/handbook/engineering/workflow/).
 
 ### Evolving the process
 
@@ -71,7 +71,7 @@ If an issue is better suited for the discussion, it should be created in the [`m
 
 ### Epics & Issues
 
-We exclusively use [issue/epic descriptions as the single source of truth](/handbook/product-development-flow/#issue-descriptions-as-the-single-source-of-truth-ssot) for our planned work.
+We exclusively use [issue/epic descriptions as the single source of truth](/handbook/product-development/product-development-flow/#issue-descriptions-as-the-single-source-of-truth-ssot) for our planned work.
 
 - Epics: [GitLab Epic Search](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=group::editor+extensions)
 - Issues: [GitLab Issue Search](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date&state=opened&label_name%5B%5D=group%3A%3Aeditor%20extensions&first_page_size=20)
@@ -100,7 +100,7 @@ We use the [Editor Extensions Priority Board](https://gitlab.com/groups/gitlab-o
 to track the relative [priority of issues](/handbook/product/product-processes/#boards). Issues at the top of a column have the highest priority.
 
 Separately, the technical writer for this group also triages open issues for potential documentation and UI text changes,
-and follows the Technical Writing [triage process](/handbook/product/ux/technical-writing/workflow/#documentation-feedback-and-improvements). After review, each issue receives the `~tw::triaged` label.
+and follows the Technical Writing [triage process](https://docs.gitlab.com/development/documentation/workflow/#documentation-feedback-and-improvements). After review, each issue receives the `~tw::triaged` label.
 
 #### Technical debt
 

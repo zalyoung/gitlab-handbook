@@ -46,6 +46,9 @@ graph TD;
   J[Development]
   K[Validation]
   L[Completed]
+  M[Triage]
+  N[Development]
+  O[Completed]
 ```
 
 ### Triage

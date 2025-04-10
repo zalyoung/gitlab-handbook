@@ -55,7 +55,7 @@ GitLab is a complex system that needs to be delivered as a highly available SaaS
 
 The [Infradev Process](/handbook/engineering/workflow/#infradev) was created to prioritize resolving an issue after an incident or degradation has happened. While the process has proven to be successful, it is *event-focused* and *event-driven*.
 
-The [Engineering Allocation Process](/handbook/engineering/#engineering-allocation) was created to address long term team efficiency, performance and security items.
+The [Engineering Allocation Process](/handbook/product/product-processes/#prioritization-framework) was created to address long term team efficiency, performance and security items.
 
 The initial iteration of error budgets at GitLab aims to introduce objective data and establish a system that will create greater insight into how individual features are performing over an extended period of time. This can be used by the organization to correctly allocate focus, ensure that the risk is well balanced and that the system as a whole remains healthier for extended periods of time.
 
@@ -295,7 +295,7 @@ Improvement` and the `group::` label so they can be tracked in reports.
 | Product Management | [Maintaining the Spend of the Error Budget](https://10az.online.tableau.com/#/site/gitlab/views/Draft-ErrorBudgetDashboard/ErrorBudgetOverviewDashboard) | 20 minutes over 28 days (equivalent to 99.95% availability) | Complete - In Sisense |
 | Infrastructure | [Setting the Error Budget Minutes and Availability Target](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) | 99.95% (20 minutes over 28 days Error Budget) | Complete - In Grafana |
 
-- For groups with [engineering allocations](/handbook/engineering/#engineering-allocation), the responsibility to maintain the spend of error budget is with the development team instead of the product management team.
+- For groups with [engineering allocations](/handbook/product/product-processes/#prioritization-framework), the responsibility to maintain the spend of error budget is with the development team instead of the product management team.
 
 ## Current State and Future Intent
 
@@ -327,7 +327,7 @@ The changes below aim to increase the maturity of the Error Budgets.
 
 Product Development teams are encouraged to:
 
-- Continue working on [Rapid Action](/handbook/engineering/development/#rapid-action), [Infradev](/handbook/engineering/workflow/#availability-and-performance-refinement), [Corrective Actions](/handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership), [Security](/handbook/security/product-security/vulnerability-management/#vulnerability-management-overview), and [Engineering Allocation](/handbook/engineering/#engineering-allocation) issues per our [Prioritization guidelines](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
+- Continue working on [Rapid Action](/handbook/engineering/development/#rapid-action), [Infradev](/handbook/engineering/workflow/#availability-and-performance-refinement), [Corrective Actions](/handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership), [Security](/handbook/security/product-security/vulnerability-management/#vulnerability-management-overview), and [Engineering Allocation](/handbook/product/product-processes/#prioritization-framework) issues per our [Prioritization guidelines](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
 - Propose SLOs for their endpoints
 - [Opt-in to using the new apdex calculation methods that use the custom target durations](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1451)
 - Provide further feedback for future improvements to Error Budgets

@@ -37,13 +37,7 @@ flowchart LR
 
 ### Members
 
-| Team Members                             | Role                                      |
-| ---------------------------------------- | ----------------------------------------- |
-| [Mohga Gamea](https://gitlab.com/mgamea) | Engineering Manager                       |
-| {{< member-by-name "Doug Barrett" >}}    | Backend Engineer, Developer Tooling       |
-| {{< member-by-name "Nao Hashizume" >}}   | Backend Engineer, Developer Tooling       |
-| {{< member-by-name "Kev Kloss" >}}       | Frontend Engineer, Developer Tooling      |
-| {{< member-by-name "Peter Leitzen" >}}   | Staff Backend Engineer, Developer Tooling |
+{{< team-by-manager-slug "mgamea" >}}
 
 ### Stable counterpart
 

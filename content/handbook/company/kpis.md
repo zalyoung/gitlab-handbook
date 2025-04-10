@@ -11,7 +11,7 @@ A function's KPIs are owned by the respective member of e-group.
 A function may have many performance indicators (PIs) they track and not all of them will be KPIs.
 KPIs should be a subset of PIs and used to indicate the most important PIs to be surfaced to leadership.
 
-The KPI definition should be in the most relevant part of the handbook which is organized by [function and results](/handbook/about/handbook-usage/#style-guide-and-information-architecture).
+The KPI definition should be in the most relevant part of the handbook which is organized by [function and results](/handbook/about/handbook-usage/#organized-by-function-and-results).
 In the definition, it should mention what the canonical source is for this indicator.
 Where there are formulas, include those as well.
 Goals related to KPIs should co-exist with the definition.

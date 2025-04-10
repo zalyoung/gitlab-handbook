@@ -85,7 +85,7 @@ Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/medi
 
 ### Reporting Workplace Harassment (Non-Anonymous Only)
 
-Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab's [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab's Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab's Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab's [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab's Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab's Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 ### Reporting Concerns about Team Member Relations (Anonymously OR Non-Anonymously)
 
@@ -98,7 +98,7 @@ Reports can be made using the platform or through the following avenues, which a
 - E-mail: <reports@lighthouse-services.com> (must include company name with report)
 - Fax: (215) 689-3885 (must include company name with report)
 
-Team members may, in the alternative, report concerns about team member relations, including violations of GitLab's Anti-Harassment Policy, to GitLab's [Chief Legal Officer](mailto:rschulman@gitlab.com), [Chief People Officer](mailto:wbarnes@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+Team members may, in the alternative, report concerns about team member relations, including violations of GitLab's Anti-Harassment Policy, to GitLab's [Chief Legal Officer](mailto:rschulman@gitlab.com), [Chief People Officer](mailto:wbarnes@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 ### Manager Roles and Responsibilities
 

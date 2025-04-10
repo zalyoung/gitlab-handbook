@@ -168,7 +168,7 @@ Please remember to reach out to the EBA of the executive you need to schedule fo
 1. Plan to join the meeting on time. We start on time and do not wait for folks to join.
    - As most of our meetings are conducted over zoom, please join with your camera on and with a headset or dedicated microphone whenever possible
 1. The meeting may be recorded or live streamed to GitLab Unfiltered on YouTube, please determine in advance if the meeting should be live streamed or recorded
-1. [Hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-horrible) - remote meetings should have participants taking the meeting from their own equipment versus a shared conference room, shared device, etc.
+1. [Hybrid calls are horrible](/handbook/communication/#hybrid-calls-are-annoying) - remote meetings should have participants taking the meeting from their own equipment versus a shared conference room, shared device, etc.
 1. If you need to reschedule, contact the EBA team in #eba-team in slack versus contacting the E-Group directly
 
 ### During the meeting
@@ -176,7 +176,7 @@ Please remember to reach out to the EBA of the executive you need to schedule fo
 1. The Host should start the meeting on time, if the Host is late, the participants should feel empowered to start the meeting on time
 1. We start in order of the agenda, with the person who has the first point in the numbered list
    - Unless it is a 1-1 meeting or some working group meetings, then we'd start at the bottom and work our way up
-1. If you're not actively speaking please help take notes. We prefer to [document everything live.](/handbook/company/culture/all-remote/meetings/#document-everything-live-yes-everything)]
+1. If you're not actively speaking please help take notes. We prefer to [document everything live.](/handbook/company/culture/all-remote/meetings/#5-document-everything-live-yes-everything)]
 1. If something is not on the agenda, we do not discuss it. However, participants can add topics during the meeting if time permits
 1. If you're not benefitting or contributing to the meeting, it is okay to leave the meeting
 1. Speak up if something is not working, i.e. a webcam is causing issues, a speakers volume is too low, there is latency.
@@ -218,7 +218,7 @@ To view members of Google Groups, reference the [Google Workspace group member r
 
 ## OKRs
 
-- EBA to the CEO to assist in maintaining and scheduling meetings revolving around the [OKR updating process](/handbook/company/okrs/#updating).
+- EBA to the CEO to assist in maintaining and scheduling meetings revolving around the [OKR updating process](/handbook/company/okrs/).
 
 ## Performance Indicators (PI)
 

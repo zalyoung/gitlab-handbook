@@ -167,7 +167,7 @@ Separation and Release of Claims Agreements ***do not*** apply for all offboardi
     - When staging the document for signatures, please note:
         - Remember to send the document to the team member's *personal* email address
         - Select the `assign signature order` option in DocuSign to ensure the team member signs the document first
-        - All US (Inc.) severance agreements should be signed by Pattie Egan, VP of People Operations. If Pattie is unavailable then Wendy Nice Barnes, CPO will be responsible for signing.
+        - All US (Inc.) severance agreements should be signed by Karen Iacobucci, VP, People Operations & Technology. If Karen is unavailable then Robert Allen, CPO will be responsible for signing.
         - US (Federal LLC.) severance agreements need to be signed by an appropriate team member within the Federal Entity.
 1. **TMR**: When the signed document is received, the TMR should upload it to the team member's Workday Profile in the documents tab.
 1. **TMR**: As a final step, the TMR specialist will email the appropriate `uspayroll@gitlab` or `nonuspayroll@gitlab` and total rewards that the final severance agreement has been uploaded to the team members Workday Profile in the documents tab.
@@ -283,7 +283,7 @@ Regarding involuntary offboarding, certain information can also be shared with t
 The departing team member may work with their manager to author a goodbye message for voluntary offboarding:
 
 1. Work with your manager on the message that your manager will share in `#team-member-updates` on Slack.
-1. Send it to your manager for approval. If, as a manager, you are in doubt about the message - please reach out to your manager or [aligned People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) for additional review.
+1. Send it to your manager for approval. If, as a manager, you are in doubt about the message - please reach out to your manager or [aligned People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) for additional review.
 1. Managers are encouraged to use the suggested template (above link) and have the space to add more color wherever they see fit.
 
 In some instances there will be no further clarification on why a team member has departed, if there are concerns you can address those with your manager.

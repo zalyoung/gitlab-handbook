@@ -7,7 +7,7 @@ description: "Learn the processes and methodology that GitLab Professional Servi
 - [Managing a Project in GitLab](#managing-a-project-in-gitlab)
 - [Project Velocity and Iteration Scheduling](#project-velocity-and-iteration-scheduling)
 - [Status Planning](#status-planning)
-- [Status Reporting](#status-reporting)
+- [Status and Burndown Reporting](#status-and-burndown-reporting)
 - [Mitigating Risk via RAID Board](#mitigating-risk-via-raid-board)
 - [Internal Retrospective Guidelines](#internal-retrospective-guidelines)
 - [Customer Retrospective Guidelines](#customer-retrospective-guidelines)
@@ -85,7 +85,7 @@ Please reference [Backlog Management](./backlog-management/_index.md) for guidan
 
 If the scope of work is more strictly defined within the SOW, the PM is expected to assess the impact of any changes and work with the Customer to either reprioritize or initiate the Change Order process.
 
-## Status Reporting 
+## Status and Burndown Reporting 
 
 ### Who Updates What?
 
@@ -95,12 +95,16 @@ Working asynchronously and remotely presents unique challenges. Ensuring that th
 
 Not every Project will follow a Sprint or Iteration cadence. However, status updates should be documented within GitLab and reported to the Customer on a weekly basis. It is recommended to use an Engagement Charter to direct stakeholders to weekly status updates, RAID logs, and other relevant project documentation.
 
-**Examples:**
+**Status Report Examples:**
 
 - [Engagement Charter Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration/Ingram-Barge/SOW-3184/-/blob/main/engagement-charter.md?ref_type=heads)
 - [Status Update Example 1](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/Delta/-/epics/1)
 - [Status Update Example 2](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/smartsheet/SOW-2163/-/issues/2)
 - While the GitLab CP is the recommended platform for status reporting, if the Customer prefers a presentation format, please reference this [template](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252).
+
+### Project Burndown
+
+While Kantata is the single source of truth for our Financial Management, we recommend PMs track the hourly and finanical burn seperately for additional auditing and progress against the progression of the Project. Templates can be found [here](https://drive.google.com/drive/folders/1SKUu-nVP8c1rt0VKv8-7U5Yfk_6CWBYe). It is required to track hourly/financial progress within the weekly status report
 
 ## Mitigating Risk via RAID Board
 
@@ -228,6 +232,8 @@ At project completion, the PM should:
    - Generate specific issues for action items
    - Assign owners for implementation
    - Set realistic timelines for completion
+
+An example Internal Retrospective can be found [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues/18060)]. The list of inflight and completed internal retros can be found in the "PS-Plan" Gitlab Project by searching within "Titles" and the text "Internal Retro".
 
 ### Knowledge Sharing
 

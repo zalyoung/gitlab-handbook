@@ -1,22 +1,16 @@
 ---
 title: "Professional Services Project Management"
-description: "Learn about the processes that the GitLab Project Management team uses to deliver successful engagements with Customers."
+description: "The GitLab PMO & Delivery team accelerates Customer time to value through excellence in Professional Services Delivery. We work to deliver Projects within the agreed scope, timeline, and budget while embracing iteration to address evolving customer needs. Our success is measured by delivering solutions that enable customers to fully realize the benefits of GitLab products. You can find the list of PS Offerings [here](https://about.gitlab.com/services/)."
 ---
 
-## Table of Contents
-
-- [Introduction](#introduction)
 - [Project Initiate & Plan](#project-initiate--plan)
   - [Iteration 0](#iteration-0)
   - [Initial Kantata Review](#initial-kantata-review)
 - [Deliver, Train, and Monitor](#deliver-train-and-monitor)
+  - [Professional Services Delivery Methodology](#professional-services-delivery-methodology)
   - [Reporting Project Health & Forecasting](#reporting-project-health--forecasting)
 - [Iterate and Validate](#iterate-and-validate)
 - [Deploy & Close](#deploy--close)
-
-## Introduction
-
-The GitLab PMO accelerates customer time to value through excellence in Professional Services Delivery. We work to deliver projects within the agreed scope, timeline, and budget while embracing iteration to address evolving customer needs. Our success is measured by delivering solutions that enable customers to fully realize the benefits of GitLab products. You can find the list of PS Offerings [here](https://about.gitlab.com/services/).
 
 ## Project Initiate & Plan
 
@@ -41,7 +35,7 @@ Iteration 0 covers the critical preparatory phase of a project, including:
 - Running initial Discovery sessions with the Customer
 - Establishing working agreements between teams
 - Setting up the project communication plan
-- Configuring the GitLab project structure
+- Configuring the GitLab project structure (PM tooling)
 
 ### Initial Kantata Review
 
@@ -54,20 +48,17 @@ Kantata is our primary Resource Management software. From here the PMO team revi
    - Soft bookings are non-confirmed allocations for team members (displayed as striped cells). This must be added by the PM.
    - Hard bookings are confirmed allocations (displayed as colored cells). This also, must be added by the PM.
 5. To create a new resource request, navigate to the Resource Center > Projects. Under the list of assigned team members, you can click "Add Team Member" or "Add unnamed Resource", fill-in the information at the top of the pop-up and click "Submit Request". NB: Clicking "Post" will not submit the request.
-6. Allocations' review:
-   - You can request your soft bookings to become hard bookings and hours to be adjusted as needed and agreed with the Customer. You can do that from the Resource Center by clicking the resource row under the project and entering your request as a message for your assigned OPS person under Activity. Don't forget to click "Post" once ready.
 
 _Billable vs NonBillable information_, please refer to [Team Metrics](/handbook/customer-success/professional-services-engineering/#team-metrics) page.
 
 ## Deliver, Train, and Monitor
 
-We follow the [PSDM (Professional Services Delivery Methodology)](../professional-services-delivery-methodology/_index.md) for all our Professional Service Engagements.
+### Professional Services Delivery Methodology
 
-**Summary of PSDM Content:**
-
-The Professional Services Delivery Methodology (PSDM) is a comprehensive framework that covers:
+We follow the [PSDM (Professional Services Delivery Methodology)](../professional-services-delivery-methodology/_index.md) for all our Professional Service Engagements. The PSDM is a comprehensive framework that covers:
 
 - Managing Projects in GitLab as the single source of truth
+- Managing Projects according to SOW format (Agile, Timd and Materials, Fixed Price)
 - Establishing Project Velocity and Iteration scheduling
 - Setting up Agile ceremonies and processes
 - Managing labels for effective project tracking
@@ -81,13 +72,12 @@ The Professional Services Delivery Methodology (PSDM) is a comprehensive framewo
 
 **PMO/Ops Reporting Schedule** 
 
-- Pinned to the ps_pmo Slack channel for weekly update requirements and the ps-operations slack channel for Month End timelines (billing period dates).
+- The [PS reporting schedule](https://docs.google.com/document/d/1fK9HOISuISd1NLuAU2Jc3miQVe6YUACl6y-IFqshiSU/edit?tab=t.0) & month end timelines are pinned to the ps_pmo Slack channel for weekly update requirements
 - The purpose of this schedule is to reference and understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the GitLab organization.
-
-The PMO team ensures their respected projects forecast and portfolio statuses are updated by Monday, as the PS Ops team prepares the weekly reports per the [PS Reporting schedule](https://docs.google.com/document/d/1fK9HOISuISd1NLuAU2Jc3miQVe6YUACl6y-IFqshiSU/edit?tab=t.0). 
 
 - Time & Materials (T&M) projects are invoiced according to time submitted at the Project level.
 - Fixed Fee projects (FF or FP) are invoiced at a Milestone schedule. So it's vital to ensure anticipated dates are added to Milestones within FF projects, and we get customer signoff before the billing period ends.
+- _Note_ While SKUs are one transaction, we track against hourly (T&M) billings (eg. Consulting Blocks & Dedicated Engineer Projects)
 
 **Forecasting Time and Materials (T&M) and Fixed Fee (FF)**
 
@@ -95,9 +85,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 - Soft allocations are used when final schedule is not known yet, for visibility and planning. Soft allocation will not promise team member availability for a project, and will be considered upside forecast (assuming 40% accuracy).
 - Hard allocations will promise team member availability, for the requested hours, once approved by the project coordinator. The allocated hours will also project into the revenue forecast (assuming 90-95% accuracy).
-
-- For T&M and FF projects, it is the responsibility of the PM to forecast (hard-book) the PM, PSE, and TA time for the project 2 months out in Kantata. Our goal is to be able to be accurate within +/- 5% of our estimated forecast.
-- For Consulting Blocks and Dedicated Engineer Services, we sometimes enter these engagements knowing very little about the project (as it is generally purchased as a SKU). Therefore, our goal is to be within +/- 10% of our estimated forecast after we have our initial EM>PS Transition Meeting.
+- If is too early to resource request a specific resource, but we have a rough anticipation of our project schedule, please hard schedule with "unnamed resource" as this helps us understand our capacity needs.
 
 - To ensure forecast revenue is accurate go under Resource Center in Kantata:
   1. Select "Project Tab" and filter via "My Projects"
@@ -109,19 +97,36 @@ Forecast allocations impact PS revenue forecast and team members availability, u
   2. Expand milestones
   3. Update sign off date
 
-- It is helpful to call out forecast that "pushes" in the Top Customer report.
-
 **How to Track Upside**
 
-- Upside is reviewed on a weekly, monthly and quarterly basis. There are four scenarios around when we need to track upside within our weekly revenue tracking sheet (which is pinned to our ps-pmo channel).
+- Upside is reviewed on a weekly, monthly and quarterly basis. There are four scenarios around when we need to track upside within our weekly revenue tracking sheet (which is pinned to our ps-pmo channel):
 - If we are unable to confidently forecast the project resources 2 months out, we need to soft-book PSE/PM/TA time in Katata.
 - If we have a pending CO that is not yet reflected in Katata, review with the PMO Manager the details.
-- If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified, review with the PMO Manager the details.
+- If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified.
 - It is helpful to call upside out in the customer report. ex: can only soft-forecast "x" amount because of "y" restraints.
 
-**Professional Services Portfolio Report**
+**Weekly Forecast Call Prep**
 
-- Pinned to ps_pmo Slack channel updated by EOD Monday.
+1. Updated by 8am EST Tuesday
+2. Run "Remaining Funds to Forecast" report 
+   - Select project status
+   - Sort by project lead/PM
+3. Validate start/kickoff/end dates are populated in for all of your project tasks
+4. Run your Forecast report and ensure it's accurate
+5. Review any upside or pushes/changes in forecast with PMO Manager
+6. Run the "Task Audit Report"
+7. Run the Allocation report
+   - Review all soft & hard bookings and look at all team members in light blue
+   - Help to find work for these team members as they are under allocated!
+8. Review all soft-bookings Allocation report
+   - Select All roles
+   - Select Full quarter
+   - There should be no soft allocations for the current month unless the project has just kicked off
+   - Ensure hard bookings are in place for all projects post kick-off
+
+ **Professional Services Portfolio Report**
+
+- Updated by 8am EST Tuesday
 - Update the following in the Notes section:
   1. 1-lined progress update
   2. If there is an issue, what is the proposed action + timing of fix
@@ -129,24 +134,6 @@ Forecast allocations impact PS revenue forecast and team members availability, u
   4. DRI & contributors
   5. Internal temperature (R-Y-G) | Customer temperature (R-Y-G)
   6. Link to RAID & Internal Customer Epic if Y/R (to review WE, CO, WaR)
-
-**Forecast call prep**
-
-1. Run "Remaining Funds to Forecast" report in Kantata
-   - Select project status
-   - Sort by project lead/PM
-2. Validate start/kickoff/end dates are populated in for all of your project tasks
-3. Run your Forecast report and ensure it's accurate
-4. Review any upside with PMO Manager
-5. Run the "Task Audit Report"
-6. Run the Allocation report
-   - Review all soft & hard bookings and look at all team members in light blue
-   - Help to find work for these team members as they are under allocated!
-7. Review all soft-bookings Allocation report
-   - Select All roles
-   - Select Full quarter
-   - There should be no soft allocations for the current month unless the project has just kicked off
-   - Ensure hard bookings are in place for all projects post kick-off
 
 ## Iterate and Validate
 

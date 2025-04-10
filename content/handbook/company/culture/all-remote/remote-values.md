@@ -33,7 +33,7 @@ Two, an overarching belief in a company's values contributes to less ambiguity i
 
 As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there's as much to unlearn as there is to learn** when it comes to living out values in a remote role.
 
-It requires companywide trust that team members **have permission to drop prior organizational baggage and truly operate differently**, which may feel like a [trap](/handbook/values/#five-dysfunctions) for those who have been exposed to traditional bureaucratic norms.
+It requires company-wide trust that team members **have permission to drop prior organizational baggage and truly operate differently**, which may feel like a [trap](/handbook/values/#five-dysfunctions) for those who have been exposed to traditional bureaucratic norms.
 
 Psychological safety is critical, and [leadership](/handbook/leadership/) should place a high degree of importance on ensuring that this does not erode. GitLab signals the importance of this by listing "[Loss of the values that bind us](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#loss-of-the-values-that-bind-us)" as one of the concerns on the [Mitigating Concerns page](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/).
 
@@ -43,7 +43,7 @@ Sharing company values should be a requirement to [hire](hiring/). Prospective a
 
 Open, honest, transparent conversation about company values should be a part of the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/). This is true for all companies, all-remote organizations included. It's not fair to candidates to talk about day-to-day tasks without mentioning the values that guide culture and decision making. It's not fair to existing team members of a company to hire people who aren't aware of company values, and may not be inclined to live them on an ongoing basis.
 
-All-remote contributes to fewer surprises by forcing companies to be more [transparent](values#transparency). With fewer visual cues and in-person interactions, all-remote companies rely on each team member to operate while being mindful of company values.
+All-remote contributes to fewer surprises by forcing companies to be more [transparent](/handbook/values/#transparency). With fewer visual cues and in-person interactions, all-remote companies rely on each team member to operate while being mindful of company values.
 
 It's critical that values be understood as early as the interview process, reiterated during [onboarding](learning-and-development#how-do-you-onboard-new-team-members), and reinforced daily through [informal communication](informal-communication/) practices, [1:1s](/handbook/leadership/1-1), [meetings](meetings/), and [execution](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/) of job responsibilities.
 
@@ -110,7 +110,7 @@ Particularly as organizations scale, the friction of coordinating people and tea
 
 This empowers all-remote teams to make small changes and reduce cycle times. This leads to changes which are easier to provide feedback on (and roll back if needed).
 
-Valuing iteration creates a climate where there is a [low level of shame](/handbook/values/#low-level-of-shame). This is extraordinarily difficult to replicate in large colocated settings, where perception is often reality and decisions are swayed by physical appearances. In all-remote companies, this reinforces that [a person is not their work](/handbook/values/#people-are-not-their-work).
+Valuing iteration creates a climate where there is a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding). This is extraordinarily difficult to replicate in large colocated settings, where perception is often reality and decisions are swayed by physical appearances. In all-remote companies, this reinforces that [a person is not their work](/handbook/values/#people-are-not-their-work).
 
 {{< youtube "EuGsen3FxXc?start=2209" >}}
 

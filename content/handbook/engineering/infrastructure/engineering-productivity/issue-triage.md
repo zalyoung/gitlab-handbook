@@ -225,7 +225,7 @@ We encourage performance improvements to be broken down. Improve where we can an
 
 #### UX bugs
 
-Some UX-related issues are known to impact our [System Usability Scale (SUS) score](/handbook/product/ux/performance-indicators/system-usability-scale/), which is a focus in our [three-year strategy](/handbook/company/strategy/#three-year-strategy). We particularily target issues *with* the label `bug::ux`. These issues will have a severity label applied and they follow the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) for `type::bug` issues.
+Some UX-related issues are known to impact our [System Usability Scale (SUS) score](/handbook/product/ux/performance-indicators/system-usability-scale/), which is a focus in our [three-year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/). We particularily target issues *with* the label `bug::ux`. These issues will have a severity label applied and they follow the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) for `type::bug` issues.
 
 #### Deferred UX
 
@@ -347,7 +347,7 @@ As the DRI you should consider take additional steps to ensure the continued sup
 
 If as a result of the triage process a group is identified as qualified and willing to take ownership on a permanent basis, product and engineering leaders should officially document the type of ownership model and the team in the [shared services components](/handbook/engineering/development/#shared-services-and-components) section of the Development handbook. Multiple groups may permanently share ownership of the same component if deemed appropriate.
 
-It is important to keep in mind that throughout this process, as a leader in your group, you are deemed the initial Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) until the issue is resolved or someone else agrees to take over. Simply removing your group label without further triage conversations with other groups is not an acceptable or helpful action to take in this process. This aligns with our value of [Results: global optimization](/handbook/values/#global-optimization).
+It is important to keep in mind that throughout this process, as a leader in your group, you are deemed the initial Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) until the issue is resolved or someone else agrees to take over. Simply removing your group label without further triage conversations with other groups is not an acceptable or helpful action to take in this process. This aligns with our value of [Results: global optimization](/handbook/values/#efficiency-for-the-right-group).
 
 ### Outdated issues
 

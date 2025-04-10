@@ -320,7 +320,7 @@ If you're considering working for a remote-first company, consider asking the fo
 1. Does the executive team work remotely, or do they all congregate in the same physical space day-to-day?
 1. Where and how are all-hands calls handled?
 1. Are interviews and onboarding handled on-premise or via video call?
-1. Do team members have [hybrid calls](/handbook/communication/#hybrid-calls-are-horrible), or does each person have their own equipment?
+1. Do team members have [hybrid calls](/handbook/communication/#hybrid-calls-are-annoying), or does each person have their own equipment?
 1. What procedures are in place to ensure that remote employees are granted [learning and development](learning-and-development/) and promotion opportunities?
 
 It is possible to find remote-first companies with a healthy, understanding culture that works to support both colocated and remote colleagues. Prospective employees should do their own due diligence to make sure the requisite values are established and lived out.

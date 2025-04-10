@@ -23,9 +23,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Mar 27 | Services & Ecosystem Partnerships for Customer Success  |  Customer Success, Services & Ecosystem Teams   |
-| Apr 3 |  Visibility and Measurement Roadmap   | Product Marketing  |
-| Apr 10 |  Product Marketing Update   |  Product Marketing  |
+| Apr 10 |  GitLab Duo with Amazon Q Enablement   |  Product Marketing  |
 | Apr 17 |  *No session during the last two weeks of the quarter*   |    |
 | Apr 24 |  *No session during the last two weeks of the quarter*   |    |
 
@@ -36,6 +34,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-03-27 | **[FY26 Field Services Positioning Guidance](https://drive.google.com/file/d/1JNa5bKGL0ppGLl-Q4okFtBRfAqZ2kQ-9/view?usp=drive_link)**  |  Private   |
 | 2025-03-20 | **[The Customer Co-Create Initiative](https://drive.google.com/file/d/190xggRUoRndvzR4U9PJBxKUAKiF__f3T/view?usp=drive_link)**   |  Private   |
 | 2025-03-11 | **[The Future of Secure Agentic AI](https://drive.google.com/file/d/1_YdkKYgckNQqg4p8uN4xKDH42chtJlYE/view?usp=drive_link)**  | Private   |
 | 2025-03-06 |  **[Google Private Offer Updates](https://drive.google.com/file/d/1Z7GOZ8ZbjoF39nhvULzEc2osmXAyDiO4/view?usp=drive_link)**  |  Private   |

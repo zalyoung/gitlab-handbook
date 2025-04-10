@@ -14,7 +14,7 @@ GitLab fundamentally changes the way development, security, and ops teams collab
 
 DevOps toolchains are often complex, fragile, and expensive to maintain. Teams are further slowed by hand-offs and re-work. Across toolchains in a company, teams can be siloed by DevOps software that was supposed to help eliminate siloes.
 
-GitLab customers can have SCM, CI, security, and more in one browser window. They can minimize integrations and get back to releasing great software. GitLab CI and CD are truly continuous, speeding up releases and revenues. With one user experience, one permission model, and one conversation from portfolio management to production monitoring, companywide gains include visibility, collaboration, and speed — making good on the promise of DevOps.
+GitLab customers can have SCM, CI, security, and more in one browser window. They can minimize integrations and get back to releasing great software. GitLab CI and CD are truly continuous, speeding up releases and revenues. With one user experience, one permission model, and one conversation from portfolio management to production monitoring, company-wide gains include visibility, collaboration, and speed — making good on the promise of DevOps.
 
 ### A partner like no other
 
