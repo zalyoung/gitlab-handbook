@@ -53,7 +53,7 @@ While our team is in its start-up phase, our team must be flexible in how we con
 
 | Activity | CX Strategist | CX Analyst | XFN Collaborators | Steering Committee |
 | ----- | :---: | :---: | :---: | :---: |
-| **Planning & Scoping** |  |  |  |  |  |
+| **Planning & Scoping** |  |  |  |  |
 | Define research objectives | R/A | C | C | A |
 | Develop research timeline | R/A | C | I | A |
 | Stakeholder identification | R | C | C | A |
