@@ -79,7 +79,7 @@ this should be updated on the [Data Program's Google Calendar](https://calendar.
 
 Having dedicated triagers on the team helps address the bystander affect. The schedule shares clear daily ownership information but is not an on-call position. Through clear ownership, we create room for everyone else on the team to spend most of the day around deep work. The triager is encouraged to plan their day for the kind of work that can be accomplished successfully with this additional demand on time.
 
-#### Triage responsibilities
+#### Triage responsibilities by team
 
 Data triagers are the first responders to requests and problems for the Data Program. 
 
