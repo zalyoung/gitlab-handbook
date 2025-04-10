@@ -81,7 +81,7 @@ While our team is in its start-up phase, our team must be flexible in how we con
 | Develop recommendations | R | R | C | C |
 | Results presentation | R | R | I | A/C |
 
-## **Strategy to Execution RACI**
+### **Strategy to Execution RACI**
 
 | Activity | CX Strategist | CX Analyst | XFN Collaborators | Steering Committee |
 | ----- | :---: | :---: | :---: | :---: |
