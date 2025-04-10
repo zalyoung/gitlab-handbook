@@ -15,7 +15,7 @@ These guidelines govern how to discuss and reference competitor product features
 
 - **Screenshots**: Defined as screenshots and screen recordings from any source, including publicly available sources (YouTube videos, websites) or directly from competitor products.
 
-## Dos and don'ts
+## Do's and don'ts
 
 ### Do
 
@@ -45,7 +45,7 @@ These guidelines govern how to discuss and reference competitor product features
 
   *Example: "We should copy collaborate.ly's exact implementation of merge commit messages."*
 
-- Share screenshots taken directly from competitor products via free trials or paid accounts for competitive benchmarking.
+- Share screenshots taken directly from competitor products through the use of free trials or paid accounts for competitive benchmarking.
 
   *Example: Taking screenshots while logged into a competitor's product during a free trial period and sharing them publicly.*
 
