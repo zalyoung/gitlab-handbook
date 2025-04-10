@@ -7,7 +7,8 @@ Community management, becoming a moderator, tag maintenance, and integrations wi
 
 ## Roles
 
-### Community Managers ###
+
+### Community Managers
 
 Community Managers are typically employees of Stack Overflow who:
 
@@ -18,7 +19,7 @@ Community Managers are typically employees of Stack Overflow who:
 - Manage community-wide initiatives and features
 - Have access to more powerful administrative tools
 
-### Moderators ###
+### Moderators
 
 Moderators are usually trusted members of the community who:
 
