@@ -15,7 +15,7 @@ The following people are members of the team:
 
 ## Working with the community
 
-The install and upgrade process is one of the first features that all system administrators experience when working with GitLab.
+The installation and upgrade process is the first feature that all system administrators experience when working with GitLab.
 As a result, the projects managed by the self managed team have a high level of engagement by the user-base. The GitLab
 community is made up of more than just code contributors; users logging issues and feature requests are constantly pushing
 us forward and helping create a better experience.
