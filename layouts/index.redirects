@@ -114,3 +114,7 @@
 /handbook/engineering/development/incubation/self-healing-dependencies/ https://gitlab.com/gitlab-org/gitlab/-/issues/260291 301
 /handbook/engineering/development/incubation/server-runtime/ https://docs.gitlab.com/user/duo_workflow/ 301
 /handbook/engineering/development/incubation/service-desk/ https://docs.gitlab.com/user/project/service_desk/ 301
+
+# Infra library moved - remove 2025-10-10
+/handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
+/handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
