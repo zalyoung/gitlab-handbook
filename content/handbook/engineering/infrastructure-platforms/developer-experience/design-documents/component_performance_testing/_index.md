@@ -302,14 +302,14 @@ Adoption challenges include:
 
 ### Tech Stack
 
-* :tanuki: **GitLab CI**: Used for triggering multi project pipeline
-* ![image.png](/uploads/0a23e9e9fb86e793bdd8ffb8bf015853/image.png){width="20" height="17"} **Google Cloud Platform**: Used to run docker container of a component in a GCP instance as well as to run test scripts from a separate GCP instance
-* ![:docker-circle:](https://emoji.slack-edge.com/T03N1RJJX7C/docker-circle/c72c8b281701c944.png){width="25" height="25"} **Docker**: Running Dockerized container on GCP instances
-* ![:ruby2:](https://emoji.slack-edge.com/T03N1RJJX7C/ruby2/d4da5d69dbf51b6e.png){width="21" height="21"} **Ruby**: Massaging report to create leaner report
-* ![:script:](https://emoji.slack-edge.com/T03N1RJJX7C/script/e3647b74c83bb5d1.png){width="25" height="25"}**Bash Scripts**: Run gcloud commands to create various GCP resources
-* ![image.png](/uploads/1004ea37f66911ad1c2f336cd2bbd6ef/image.png){width="25" height="25"}**Telegraf**: Send metrics to InfluxDB
-* ![image.png](/uploads/dbbf4c8f0b3787aa6eab1c96cfcc7339/image.png){width="25" height="25"} **InfluxDB**: Store metrics in buckets
-* ![:grafana:](https://emoji.slack-edge.com/T03N1RJJX7C/grafana/b7e62333f68fac17.png){width="25" height="25"} **Grafana**: Create dashboard using metrics in InfluxDB.
+* **GitLab CI**: Used for triggering multi project pipeline
+* **Google Cloud Platform**: Used to run docker container of a component in a GCP instance as well as to run test scripts from a separate GCP instance
+* **Docker**: Running Dockerized container on GCP instances
+* **Ruby**: Massaging report to create leaner report
+* **Bash Scripts**: Run gcloud commands to create various GCP resources
+* **Telegraf**: Send metrics to InfluxDB
+* **InfluxDB**: Store metrics in buckets
+* **Grafana**: Create dashboard using metrics in InfluxDB.
 
 ### Architectural flow
 
