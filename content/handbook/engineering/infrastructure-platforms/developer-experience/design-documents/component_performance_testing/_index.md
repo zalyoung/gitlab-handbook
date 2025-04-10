@@ -408,7 +408,7 @@ This pipeline will also run on main branch of the respective component repositor
 <tr>
 <td rowspan="8">
 
-~FY26::Q1
+`FY26::Q1`
 </td>
 <td>
 
@@ -465,7 +465,7 @@ Gather feedback from ai-assist team to improve the framework and optimize their 
 <tr>
 <td rowspan="8">
 
-~FY26::Q2
+`FY26::Q2`
 </td>
 <td>Add additional performance tests to ai-assist repository</td>
 </tr>
@@ -493,9 +493,9 @@ Gather feedback from ai-assist team to improve the framework and optimize their 
 <tr>
 <td rowspan="5">
 
-~FY26::Q3
+`FY26::Q3`
 </td>
-<td>Begin onboarding a second component(GItaly)</td>
+<td>Begin onboarding a second component(Gitaly)</td>
 </tr>
 <tr>
 <td>Enhance onboarding documentation</td>
@@ -515,7 +515,7 @@ Collaborate with the development team to ensure the new component meets the [pre
 <tr>
 <td rowspan="6">
 
-~FY26::Q4
+`FY26::Q4`
 </td>
 <td>Integrate the framework by creating jobs in the new component repository that leverage the framework for MR testing</td>
 </tr>
