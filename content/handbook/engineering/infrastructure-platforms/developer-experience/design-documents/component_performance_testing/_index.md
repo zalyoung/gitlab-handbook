@@ -10,7 +10,7 @@
 | Real world scenario | **Environment replicating production with representative data** |
 | Component | Standalone element of GitLab architecture (e.g. Gitaly, AI Gateway etc.) |
 
-## 1. Executive Summary
+## Executive Summary
 
 This blueprint outlines a comprehensive approach to implementing component-level performance testing at GitLab, enabling teams to detect performance issues earlier in the development lifecycle ("shift-left"). The approach leverages containerization and automated testing to provide insights on individual component performance metrics as well as providing immediate feedback on performance impacts of code changes at the Merge Request level.
 
@@ -19,25 +19,25 @@ This blueprint outlines a comprehensive approach to implementing component-level
 ```mermaid
 flowchart TD
     %% Force vertical arrangement with a clearer structure
-    
+
     %% Component Repository
     subgraph CR["Component Repository"]
         repoStructure["Required Directory Structure:<br/>performance-test/<br/>├── k6-test/ (test files)<br/>└── setup/ (docker-compose.yml)"]:::highlight
-        
+
         A1[Developer MR]
         A2[MR Pipeline Triggered on Commit]
         A3[dotenv-vars Job]
         A4[tests:performance Job]
-        
+
         A1 --> A2 --> A3 --> A4
-        
+
         note1[Saves test file and setup<br/>file as artifacts]:::note
         A3 --- note1
     end
-    
+
     %% Connection point - this must be outside both subgraphs
     A4 --->|"Trigger Multi-Project Pipeline"| B
-    
+
     %% Component Performance Test Tool Pipeline
     subgraph CPTT["Component Performance Test Tool Pipeline"]
         B[CPT Pipeline Job]
@@ -47,7 +47,7 @@ flowchart TD
         F["📊 Performance Report"]
         G["📈 Baseline"]
         I["📉 Grafana Dashboard"]
-        
+
         B -->|"Spins up"| C
         B -->|"Spins up"| D
         D -->|"Execute Tests"| C
@@ -56,10 +56,10 @@ flowchart TD
         F -->|"Compare with"| G
         E -->|"Visualize"| I
     end
-    
+
     %% Results feedback loop - must be drawn last
     F -->|"Post/Update result as comment to MR"| A1
-    
+
     %% Style definitions
     classDef componentRepo fill:#f9f9f9,stroke:#fc6d26,stroke-width:2px;
     classDef cptTool fill:#f0f0ff,stroke:#4285f4,stroke-width:2px;
@@ -68,7 +68,7 @@ flowchart TD
     %% Dark theme compatible subgraph titles
     classDef subgraphTitle fill:#f9f9f9,stroke:#fc6d26,stroke-width:2px,color:#333333;
     classDef cptTitle fill:#f0f0ff,stroke:#4285f4,stroke-width:2px,color:#333333;
-    
+
     class A1,A2,A3,A4 componentRepo;
     class B,C,D,E,F,G,I cptTool;
     class note1,repoStructure note;
@@ -76,7 +76,7 @@ flowchart TD
     class CPTT cptTitle;
 ```
 
-## 2. Problem Statement
+## Problem Statement
 
 Currently, performance testing in GitLab primarily relies on the GitLab Performance Tool (GPT) running against self-managed instances following reference architectures.
 
@@ -93,11 +93,11 @@ While comprehensive, this approach has significant limitations:
 
 Component-level performance testing addresses these challenges through isolated testing, accelerated feedback loops, and targeted performance analysis.
 
-## 3. Goal
+## Goal
 
 Develop a self-service performance testing framework that component teams can integrate to gain insights into individual component performance and detect [some](#limitation-of-component-performance-testing-tool) performance issues early in the development lifecycle.
 
-## 4. Responsibilities
+## Responsibilities
 
 <table>
 <tr>
@@ -111,6 +111,7 @@ Develop a self-service performance testing framework that component teams can in
 Performance Enablement
 
 * Owner
+
 </td>
 <td>
 
@@ -122,6 +123,7 @@ Performance Enablement
 * Shares best practices and lessons learned
 * Acts on any feedback provided by the respective component teams
 * Updates the framework to provide proper performance insights to various component teams
+
 </td>
 <td>Component Performance Testing Tool repository</td>
 </tr>
@@ -131,11 +133,12 @@ Performance Enablement
 Respective Component Teams
 
 * Owner
+
 </td>
 <td>
 
-* Ensures the component meets the [prerequisites](#component-perrequisites-to-use-the-tool) for adding component level performance test
-* Ensures any new feature of the component meets the [prerequisites](#component-perrequisites-to-use-the-tool) for adding component level performance test
+* Ensures the component meets the [pre-requisites](#prerequisites-to-use-the-tool) for adding component level performance test
+* Ensures any new feature of the component meets the [pre-requisites](#prerequisites-to-use-the-tool) for adding component level performance test
 * Maintains their specific performance test scenarios
 * Constantly monitors the performance of their component
 * Grows the test suite by adding more performance related tests
@@ -143,12 +146,13 @@ Respective Component Teams
 * Monitors the performance on each MR runs and updates the MR accordingly to gain the right performance
 * Adjusts thresholds in tests based on performance requirement
 * Updates the component setup as the configuration of the component changes
+
 </td>
 <td>Respective Component repository</td>
 </tr>
 </table>
 
-## 5. Limitation of Component Performance Testing tool
+## Limitation of Component Performance Testing tool
 
 Component performance testing cannot detect issues related to:
 
@@ -173,15 +177,15 @@ The tool focuses on identifying:
 \
 GPT testing will continue on current schedules to maintain comprehensive real-world scenario coverage.
 
-## 6. Approach
+## Approach
 
 Implement component-level performance testing at the MR level to identify performance regressions before production deployment.
 
-Components meeting the [pre-requisites](#component-perrequisites-to-use-the-tool) can integrate this tool in their CI Pipeline
+Components meeting the [pre-requisites](#prerequisites-to-use-the-tool) can integrate this tool in their CI Pipeline
 
 Component-specific `docker-setup.yml` and `k6-test.js` files would be residing in the component repository, managed by the development teams. The tool will spin up the containerized component and execute Grafana K6 tests against it in a controlled setup.
 
-## 7. Prerequisites to use the tool
+## Prerequisites to use the tool
 
 Components should have the following capabilities before starting to use the tool
 
@@ -190,7 +194,7 @@ Components should have the following capabilities before starting to use the too
 * Mocking/Isolated Testing Capability: Testable in isolation or with interface mocking
 * Metrics Collection: Clear point for collecting performance metrics (endpoints, methods, etc.)
 
-## 8. Tool Implementation Challenges
+## Tool Implementation Challenges
 
 The following points represent challenges that may be faced while implementing the tool
 
@@ -204,11 +208,11 @@ The following points represent challenges that may be faced while implementing t
 8. **Reporting Limitations:** Extending beyond standard [K6 reporting](https://grafana.com/docs/k6/latest/get-started/results-output/#end-of-test-summary) capabilities
 9. **Tool Generalization**: Balancing component-specific needs with framework standardization
 
-## 9. Self Service Challenges
+## Self Service Challenges
 
 Adoption challenges include:
 
-* Components lacking [prerequisites](#component-prerequisites-to-use-the-tool) capabilities
+* Components lacking [pre-requisites](#prerequisites-to-use-the-tool) capabilities
 * Team bandwidth constraints for test development
 * Additional maintenance of environment setup and test scripts for developers
 * Learning curve for K6 test developlment
@@ -216,12 +220,12 @@ Adoption challenges include:
 
   ---
 
-## 10. Implementation Approach
+## Implementation Approach
 
 ### Phase 1: PoC, Gathering Requirements and Identifying component
 
 1. Identifying Component for PoC
-   1. Identify component which satisfies [prerequisites to use the tool](#prerequisites-to-use-the-tool)
+   1. Identify component which satisfies [pre-requisites to use the tool](#prerequisites-to-use-the-tool)
    2. Gather performance requirements from the stakeholder groups
 2. Proof Of Concept
    1. Develop basic K6 test implementation for MR-level testing
@@ -281,7 +285,7 @@ Adoption challenges include:
    * Implement self-service onboarding
    * Provide templates and examples
 
-## 11. Technical Implementation Details
+## Technical Implementation Details
 
 ### Tech Stack
 
@@ -303,7 +307,7 @@ The flow mentioned in [architecture diagram](#component-testing-tool-architectur
 * When a MR is created or a commit has been pushed to an existing MR, it would run the following jobs
   * `dotenv-var` job: stores the `performance-test` directory as artifacts and also stores some `dotenv` vars
   * `tests:performance` job: This triggers the downstream multi-project pipeline while passing some env vars
-* The downstream multi-project pipeline gets triggered in [Component performance testing tool ](https://gitlab.com/gitlab-org/quality/component-performance-testing/-/pipelines)project which does the following
+* The downstream multi-project pipeline gets triggered in [Component performance testing tool](https://gitlab.com/gitlab-org/quality/component-performance-testing/-/pipelines)project which does the following
   * Download artifacts saved by `dotenv-var` upstream job and performs some validation on the `docker-compose.yml` and `test-file.js` files
   * Creates a GCP instance, downloads few dependencies and spins up the component using docker container
     * Sends container metrics to InfluxDB
@@ -389,7 +393,7 @@ This pipeline will also be ran on main/master branch of the respective component
 </td>
 <td>
 
-Identify component which satisfies [prerequisites to use the tool](#prerequisites-to-use-the-tool)
+Identify component which satisfies [pre-requisites to use the tool](#prerequisites-to-use-the-tool)
 </td>
 </tr>
 <tr>
@@ -398,6 +402,7 @@ Identify component which satisfies [prerequisites to use the tool](#prerequisite
 Create a POC demonstrating the component performance testing in action for AI Gateway
 
 * https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/3339
+
 </td>
 </tr>
 <tr>
@@ -406,6 +411,7 @@ Create a POC demonstrating the component performance testing in action for AI Ga
 Gather performance requirements from AI Framework group and AI Model validation group
 
 * https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/3310
+
 </td>
 </tr>
 <tr>
@@ -416,6 +422,7 @@ Create a reusable basic framework for component-level performance testing
 * Support containerized component deployment via Docker/Docker Compose
 * Implement secure credential management (git-crypt)
 * Generate a lean report which is posted as a comment in MRs
+
 </td>
 </tr>
 <tr>
@@ -480,7 +487,7 @@ Gather feedbacks from ai-assist team to improve the framework and optimize their
 <tr>
 <td>
 
-Collaborate with the development team to ensure the new component meets the [prerequisites of onboarding](#prerequisites-to-use-the-tool).
+Collaborate with the development team to ensure the new component meets the [pre-requisites for onboarding](#prerequisites-to-use-the-tool).
 </td>
 </tr>
 <tr>
@@ -510,7 +517,7 @@ Collaborate with the development team to ensure the new component meets the [pre
 </tr>
 </table>
 
-## 13. Performance Feedback Management Workflow
+## Performance Feedback Management Workflow
 
 ```mermaid
 flowchart TD
@@ -521,13 +528,13 @@ flowchart TD
     E -->|Bot captures and| F[Updates issue with thread comments]
     C -->|Labels issue and| G[Tags Performance Enablement team]
     G -->|Issues included in| H[Next milestone]
-    
+
     classDef slackNode fill:#4A154B,stroke:#4A154B,color:white;
     classDef botNode fill:#E01E5A,stroke:#E01E5A,color:white;
     classDef gitlabNode fill:#FC6D26,stroke:#FC6D26,color:white;
     classDef teamNode fill:#36C5F0,stroke:#36C5F0,color:white;
     classDef milestoneNode fill:#ECB22E,stroke:#ECB22E,color:white;
-    
+
     class A teamNode;
     class B,E slackNode;
     class C,F botNode;
@@ -535,7 +542,7 @@ flowchart TD
     class H milestoneNode;
 ```
 
-## 14. Success Metrics
+## Success Metrics
 
 The success of this implementation will be measured by:
 
