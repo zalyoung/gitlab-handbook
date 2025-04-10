@@ -343,7 +343,7 @@ The GitLab Not-for-Resale (NFR) Program offers qualified GitLab Partners access 
 Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR Ultimate license for a 12-month period.
 
 - Select Partners can request a license for up to 25 Ultimate users per license type. Additional licenses may be available with business justification.
-- Select and PSP Partners can request a license for 5 Duo Enterprise users.
+- Select/ PSP and Technology Alliance Partners can request a license for 5 Duo Enterprise users.
 - Open Partners can request a maximum of 10 Ultimate NFR licenses per license type (i.e. a total of 20 NFR licenses - 10 Self-Managed and 10 SaaS).
 
 ##### Requesting a GitLab NFR (Not-for-Resale) License
