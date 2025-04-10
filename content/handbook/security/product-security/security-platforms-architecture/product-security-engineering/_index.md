@@ -92,6 +92,19 @@ It is expected that Product Security Engineering team members will do refinement
 - Setting aside a specific amount of time per week on the calendar to perform refinement
 - Refining issues in-between major context switches, for example after submitting a merge request for review but before picking up the next piece of work
 
+#### Labels
+
+| Label | Description |
+|-------|-------------|
+| `~ProdSecEng Candidate` | Candidate issues for the Product Security Engineering team https://handbook.gitlab.com/handbook/security/security-engineering/product-security-engineering/ |
+| `~workflow::validation backlog` | Issues in a backlog of potential validation opportunities. This label is part of the product development flow https://handbook.gitlab.com/handbook/product-development-flow/#workflow-summary |
+| `~workflow::solution validation` | Workflow label for validating that the proposed solution meets user needs  https://handbook.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation |
+| `~workflow::ready for development` | Issue has a clear technical proposal and a weight https://handbook.gitlab.com/handbook/product-development-flow/#description-4 |
+| `~workflow::in dev` | Issues that are actively being worked on by a developer |
+| `~workflow::in review` | Issues that are undergoing code review by the development team and/or undergoing design review by the UX team |
+| `~workflow::blocked` | Issues that are blocked until another issue has been completed |
+| `~workflow::complete` | Applied after all MRs have merged and the issue has been verified if necessary |
+
 #### Step-by-step refinement process
 
 Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development/product-development-flow/), so that the work can be picked up by anyone.
