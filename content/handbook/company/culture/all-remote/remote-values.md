@@ -134,7 +134,7 @@ At GitLab, we have regular, recorded meetings to discuss progress on each depart
 
 ---
 
-Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](/handbook/company/culture/all-remote/remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
+Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
 
 ---
 

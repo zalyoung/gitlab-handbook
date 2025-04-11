@@ -4,15 +4,6 @@ exclude:
   - pattern: '^/videos/'
   - pattern: '^/images/'
 
-  # The team page uses the `{{< team >}}` shortcode, so most anchors cannot be found by hugolint.
-  - pattern: '^/handbook/company/team/?#'
-
-  # The product categories page uses the `{{% categories %}}` shortcode, creating per-group headings.
-  - pattern: '^/handbook/product/categories/?#'
-
-  # The "Features by Group" page uses the `{{% categories-features %}}` shortcode, creating dynamic headings.
-  - pattern: '^/handbook/product/categories/features/?#'
-
   # Pages using the `{{% performance-indicators %}}` shortcode.
   - pattern: '^/handbook/ceo/office-of-the-ceo/performance-indicators/?#'
   - pattern: '^/handbook/engineering/development/performance-indicators/?#'
@@ -26,5 +17,10 @@ exclude:
   - pattern: '^/handbook/product/ux/performance-indicators/?#'
   - pattern: '^/handbook/support/performance-indicators/?#'
 
-  # Pages using the `include` shortcode.
+# Other pages where the majority of the content is generated from a shortcode
+  - pattern: '^/handbook/#'
+  - pattern: '^/handbook/business-technology/tech-stack/?#'
+  - pattern: '^/handbook/company/team/?#'
+  - pattern: '^/handbook/product/categories/?#'
+  - pattern: '^/handbook/product/categories/features/?#'
   - pattern: '^/handbook/engineering/okrs/?#'

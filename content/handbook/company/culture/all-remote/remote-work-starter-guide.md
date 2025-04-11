@@ -52,14 +52,14 @@ When there is no office to spark spontaneous [informal communication](informal-c
 
 - Schedule regular [coffee chats](informal-communication/#coffee-chats) with people using a video call.
 - Experiment with audio-based chat tools like [Yac](https://www.yac.com) and video-based tools like [Loom](https://www.loom.com).
-- Create an always-on video conferencing room that your team can work from. (In a remote setting, [it's OK to look away](meetings/#its-ok-to-look-away)!)
+- Create an always-on video conferencing room that your team can work from. (In a remote setting, [it's OK to look away](meetings/#9-its-ok-to-look-away)!)
 - Talk about what you normally would. If sports, vacation plans, and hilarious tales of insubordination by children are common water-cooler material, work with your team to establish a chat channel to discuss things outside of work. The medium may be different, but the connection is the same.
-- Drop any shame or embarrassment. Don't [worry about your background](meetings/#meetings-are-about-the-work-not-the-background), and feel welcome to let your pets and family find their way into calls on occasion. It humanizes the experience and reminds everyone that we're people first, and colleagues second.
+- Drop any shame or embarrassment. Don't [worry about your background](meetings/#8-meetings-are-about-the-work-not-the-background), and feel welcome to let your pets and family find their way into calls on occasion. It humanizes the experience and reminds everyone that we're people first, and colleagues second.
 - Connect with family and community. Working from home allows you to spend time with a different set of people than just your coworkers. Look for opportunities to build bonds with family and [community](people/), which may have been impossible or limited when you had a commute.
 
 ### 4. Respect the routine, but try new things (find structure)
 
-One of the [benefits of remote](/handbook/company/culture/all-remote/remote-benefits/) is the ability to experiment with unconventional working days. Not everyone shares the same [peak hours of energy and focus](https://www.jonobacon.com/2019/01/14/remote-working-survival/). For example, if you work best in late evenings, let your team know you are going to try some [non-linear workdays](non-linear-workday/#q-what-is-a-non-linear-workday-routine).
+One of the [benefits of remote](remote-benefits/) is the ability to experiment with unconventional working days. Not everyone shares the same [peak hours of energy and focus](https://www.jonobacon.com/2019/01/14/remote-working-survival/). For example, if you work best in late evenings, let your team know you are going to try some [non-linear workdays](non-linear-workday/#q-what-is-a-non-linear-workday-routine).
 
 You can maximize the benefits of [asynchronous workflows](asynchronous/) in an [all-remote](terminology/) situation if you fill your former commute space with things that make you [healthier](mental-health/) like exercising, resting, bonding with family, cooking, reading, studying, etc.
 
@@ -102,7 +102,7 @@ For a deep dive, consider studying and implementing suggestions from GitLab's [c
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

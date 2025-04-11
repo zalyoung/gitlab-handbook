@@ -30,7 +30,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | `#mr-buddies`                        | For any questions regarding merge requests.                                                                                                                                                                                          |
 | `#new_team_members`                  | For new GitLab team members to introduce themselves to the company and for existing team members to share updates with new hires.                                                                                                    |
 | `#new-vacancies`                  | For all GitLab team members to be aware of internal opportunities, as well as all job openings as they are listed. Please review the [referral process](/handbook/hiring/referral-process/) page to find out more about referring someone for a role.                                                                                                   |
-| `#payroll`                           | For questions pertaining to [payroll](/handbook/finance/payroll/) and [contractor invoices](/handbook/finance/payroll/#non-us) (e.g. ADP, etc.).                                                                                     |
+| `#payroll`                           | For questions pertaining to [payroll](/handbook/finance/payroll/) and [contractor invoices](https://internal.gitlab.com/handbook/finance/payroll/#non-us) (e.g. ADP, etc.).                                                                                     |
 | `#safe`                            | SAFE                                                                                  |
 | `#security`                            | Security                                                                                  |
 | `#talent-acquisition`                | For questions about [referrals](/handbook/hiring/referral-process/), the [hiring process](/handbook/hiring/), and/or candidate status.                                                                                               |
@@ -109,7 +109,7 @@ These channels are for teams and GitLab team-members interested in a specific fe
 
 #### Group Channels (g_)
 
-Group channels (prefixed with a `g_`) correspond to a [DevOps Stage group](/handbook/product/categories/#hierarchy) and other [engineering departments and teams](/handbook/engineering/#engineering-departments--teams).
+Group channels (prefixed with a `g_`) correspond to a [DevOps Stage group](/handbook/product/categories/#hierarchy) and other [engineering departments and teams](/handbook/engineering/#engineering-departments).
 
 **Example**
 
