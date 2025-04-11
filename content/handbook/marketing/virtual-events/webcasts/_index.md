@@ -22,14 +22,14 @@ twitter_creator: "@gitlab"
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-There are four types of GitLab-hosted webcasts and workshops using the Zoom webcast license and Goldcast, with differing DRIs depending on the webcast goal and owner.
+There are 3 types of GitLab-hosted webcasts and workshops using the Zoom webcast license and Goldcast, with differing DRIs depending on the webcast goal and owner.
 
 * **[Global Campaign Webcasts](/handbook/marketing/virtual-events/webcasts/#campaign-webcasts):** goal is net new customer acquisition, managed by Global Campaign Managers in **Goldcast**, aligned to campaign themes to drive Marketing Qualified Leads (MQLs) in target accounts.
 
 * **[Technical Demo Series](/handbook/marketing/virtual-events/webcasts/#technical-demo-series):** goal is to increase conversion from Marketing Qualified Leads (MQLs) to Sales Accepted Opportunities (SAO). Tech Demos are managed by Regional Campaign Managers in **Goldcast** and new Tech Demo bundle themes are created in collaboration with the Developer Relations team
 
-* **[Partner Webcasts](/handbook/marketing/virtual-events/webcasts/#partner-webcasts):** goal is net new customer acquisition, managed by Partner Marketing in **Goldcast**, teaming with Partners to drive registration together
-* **[Virtual Workshops](/handbook/marketing/virtual-events/webcasts/#virtual-workshops):** goal is to increase conversion/velocity of MQLs to SAO, and/or SAO to Closed Won, using hands-on labs with demo environment, capped registration, managed by Field Marketing in **Zoom**
+* **[Virtual Workshops](/handbook/marketing/virtual-events/webcasts/#field-workshops):** goal is to increase conversion/velocity of MQLs to SAO, and/or SAO to Closed Won, using hands-on labs with demo environment, capped registration, managed by Field Marketing in **Zoom**
+
 ## Global Campaign Webcasts {#campaign-webcasts}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -56,117 +56,13 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Info to be added about Asana project management
-```
 
-## Partner Webcasts {#partner-webcasts}
-
-<!-- DO NOT CHANGE THIS ANCHOR -->
-
-Partner webcasts are managed and moderated by Partner Marketing, working closely with partner counterparts, with techincal setup (Marketo, SFDC, Goldcast) by Campaign Managers.
-
-### Checking Goldcast webcast calendar for partner webcast dates {#bt-partner-webcasts}
-
-<!-- DO NOT CHANGE THIS ANCHOR -->
-
-* To schedule a Webcast, please check [Goldcast calendar](https://calendar.google.com/calendar/u/0?cid=Y19xdTVqMzRsZ2ZrcmlybmM5aGx1MWRkams0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-* Key information to add: webcast title, webcast DRI, and the link to the issue in the description
-* If you have any additional questions, please get in touch with Marketing Campaigns on slack - #marketing-campaigns
-
-### Organizing GitLab-Hosted Partner Webcast Epics and Issues {#partner-project-management}
-
-<!-- DO NOT CHANGE THIS ANCHOR -->
-
-* **Confirm Date:** The zoom date request issue (in section above) must be complete and confirmed before creation of the epic, issues, and workback
-* **GitLab-Hosted Partner Webcast Epic:** Partner Marketing DRI creates webcast epic (using code below)
-* **Related Issues:** Partner Marketing DRI creates the issues as designated in the GANTT sheet, and associates to the webcast epic
-
-[View the webcast workback timeline GANTT here](https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=1597899784)
-
-```markdown
-> Naming convention: [Webcast Title] - [3-letter Month] [Date], [Year]
-> Start Date = date epic opened, Due Date = webcast date
-
-## [GANTT >>]() - owner to copy from this template: https://docs.google.com/spreadsheets/d/1A4c2OodEAsOlN4Ek-rBiLlwkdF0AvX5YBiY4mhkZd-M/edit#gid=1597899784
-
-## [Landing Page >>]() - `to be added when live`
-
-#### :key: Key Details
-
-* **Webcast DRI:**
-* **Speaker(s) and Moderator:**
-* **Official Webcast Name:**
-* **Official Webcast Date:**
-* [landing page copy]() - `doc to be added by Partner Marketing` ([clone the template here](https://docs.google.com/document/d/1xHnLKPCaXrpEe1ccRh_7-IqgNbAlzQsZVc-wr1W4ng8/edit#))
-* [ ] [main salesforce campaign]()
-* [ ] [main marketo program]()
-* [ ] Sharing leads with our partner (check box if yes) - campaign manager to use *Form 2432: Partners*
-* [ ] [Developer Relations Influenced](/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
-
-/label ~"Partner Marketing" ~"Marketing Programs" ~"Webcast - GitLab Hosted" ~"Webcast" ~"mktg-status::wip" ~mktg-demandgen
-
-```
-
-### Partner webcast tactical execution steps {#partner-tactical-execution}
-
-<!-- DO NOT CHANGE THIS ANCHOR -->
-
-*(Typically we host 2 webcasts per month with GitLab Partners)*
-
-**Step 1: Creating a GitLab webcast**
-
-* Identify partner, topic, and a potential date for webcast
-  * Establish if the partner wants us to share leads with them.
-    * If yes, we MUST include the following veribage on the landing page per compliance - Ping Lynsey Sayers in Compliance
-    * If yes, Partner marketing is responsible to document in the appropriate issues that we are sharing leads and do the following actions:
-      * Works with the partner to identify requirements of the format of the leads
-      * Will open an issue for Marketing Ops to provide the lead list post-event.
-* Create the copy for the title and abstract (in collaboration with the partner, and any other speakers) and gain approval, and obtain sign off from the partner.
-* Create the copy for the landing page and provide speaker bios and, if applicable, photos of the speakers.
-      + Please make sure if we are sharing leads our agreed upon compliance opt in verbiage is included
-* Create the copy for the invite emails, and determine how many invite emails will be sent pre-webcast.
-  * Campaign Manager and Partner marketing: reviews emails before sending*
-* Within the main issue of the webcast, identify the target audience, previous campaigns, and previous events for the lead list for the invitation emails.
-* Campaign Manager is responsible for setting up [calendar invites for kick-off call, content reviews, dry run and webcast](/handbook/marketing/virtual-events/webcasts/#step-1-configure-webex)
-
-**Step 2: Pre-webcast work**
-
-* If applicable, work with digital marketing (paid advertising), Campaign Manager on where the budget coming for paid advertising will come from.
-  * *Provide guidance on targeting which includes but is not limited to job titles to target and twitter accounts and hashtags recommended.*
-* Set up SDR outreach issue with SDR outreach template in the Product Marketing Board.
-  * *Tag [global SDR managers and SDR enablement manager](/handbook/marketing/sales-development/)*
-  * *Post the issue in the #sdr_global slack channel for visibility*
-* Work with Campaign Manager to set up organic social promotion with the [social marketing team](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/).
-
-**Step 3: Executing the webcast**
-
-* Campaign Manager acts as the project manager and the moderator for the webcast
-  * *Make sure the slides and that the webcast is made available as on-demand asset post webcast*
-* If applicable, [set up a swag link](/handbook/marketing/developer-relations/contributor-success/community-appreciation/) to give to the partner presenter as a thank you.
-
-**Step 4: Post-event follow up**
-
-* Work with the Campaign Manager on the follow up email for attendees and no shows of the webcast. The follow-up email(s) should be prepped and ready to go (minus links to the recording) 48 hours prior to the live event. The following is minimum guidance for what should be included in the follow-up email:
-  * *Slide Deck and Unlisted YouTube video of the webcast*
-  * *A call-to-action for a 30-day trial, any other relevant joint partner collateral (gated or not), and/or an applicable Path Factory*
-  * *Follow up emails should be sent 24-48 hours post webcast*
-* Work with the Campaign Manager on the [conversion of the on-demand page post webcast](/handbook/marketing/virtual-events/webcasts/#converting-the-webcast-to-an-on-demand-gated-asset---zoom)
-* If we are sharing leads with the partner, partner marketing works with Campaign Manager and Marketing Ops to share the leads.
-
-**Step 5: Reporting**
-
-* Fill out lead and salesforce reporting in the [partner and channel webinar tracker](https://docs.google.com/spreadsheets/d/1eoT3i8PO-YZdsoLJn4FIGtLPzo-r-fQbRp91oMKgM2Y/edit#gid=1732141776)
-
-## Webcasts {#field-abm-webcasts}
-
-<!-- DO NOT CHANGE THIS ANCHOR -->
-
-* For details on how the Field Marketing team runs Hosted Webcasts, please review [this page](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1).
 
 ## Virtual Workshops {#field-workshops}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-Virtual Workshops are managed and moderated by Field Marketing, working closely with Solution Architects and other GitLab team members, with partial technical setup by Campaign Managers.
+Virtual Workshops are managed and moderated by Field Marketing, working closely with Solution Architects and other GitLab team members.
 
 For details regarding Virtual Workshops, please visit the [Field Marketing Page](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1).
 
