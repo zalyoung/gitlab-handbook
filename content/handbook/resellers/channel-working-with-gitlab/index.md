@@ -340,11 +340,12 @@ Once a lead is recalled, it will be reassigned to GitLab Inc. for internal follo
 
 The GitLab Not-for-Resale (NFR) Program offers qualified GitLab Partners access to our solutions at no cost. The NFR Program provides Partners with an opportunity to develop greater expertise on the GitLab platform. We encourage all GitLab Partners to participate in the program and set up GitLab solutions. Consider using your environment to create integrations with GitLab Technology Solution Partners. This way your staff can fully understand the benefits and features of GitLab products and be better prepared to demonstrate products to customers.
 
-Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR Ultimate license for a 12-month period.
+Partners can receive Self-Managed and Software-as-a-Service (SaaS) NFR Ultimate licenses for a 12-month period.
 
-- Select Partners can request a license for up to 25 Ultimate users per license type. Additional licenses may be available with business justification.
-- Select and PSP Partners can request a license for 5 Duo Enterprise users.
-- Open Partners can request a maximum of 10 Ultimate NFR licenses per license type (i.e. a total of 20 NFR licenses - 10 Self-Managed and 10 SaaS).
+- Select Partners can request 25 Ultimate users per license type. Additional licenses may be available with business justification.
+- Open and Technology Alliance Partners can request 10 Ultimate NFR licenses per license type.
+- Select, PSP, and Technology Alliance Partners may also request a total of 5 Duo Enterprise users.
+- Any GitLab partner who holds the AWS [DevOps](https://aws.amazon.com/devops/partner-solutions/?blog-posts-cards.sort-by=item.additionalFields.createdDate&blog-posts-cards.sort-order=desc&partner-case-studies-cards.sort-by=item.additionalFields.sortDate&partner-case-studies-cards.sort-order=desc), [Generative AI](https://aws.amazon.com/ai/generative-ai/partners/?aws-marketplace-cards.sort-by=item.additionalFields.sortOrder&aws-marketplace-cards.sort-order=asc&awsf.aws-marketplace-aws-marketplace-aim=*all&awsf.aws-marketplace-aim=aws-marketplace-aim%23gen-ai-software-competency-partner), and [Security](https://aws.amazon.com/security/partner-solutions/?blog-posts-cards.sort-by=item.additionalFields.createdDate&blog-posts-cards.sort-order=desc&partner-case-studies-cards.sort-by=item.additionalFields.sortDate&partner-case-studies-cards.sort-order=desc&events-master-partner-webinars.sort-by=item.additionalFields.startDateTime&events-master-partner-webinars.sort-order=asc&apn-tv-cards.sort-by=item.dateCreated&apn-tv-cards.sort-order=desc) competencies can request 25 GitLab Duo with Amazon Q licenses.
 
 ##### Requesting a GitLab NFR (Not-for-Resale) License
 
@@ -352,10 +353,7 @@ Authorized GitLab Partners can request NFR licenses by filling out the NFR Licen
 
 ##### NFR Program Eligibility
 
-To be eligible for the NFR Program, Partners must:
-
-- Be Open or Select Partners in good standing. Open and Select Requirements can be found [here](/handbook/resellers/channel-program-guide/#gitlab-open-and-select-partner-requirements--benefits).
-- Have at least one employee that has successfully completed the Solution Architect certification or Professional Services Engineer certification training, lab, and exam (with a passing score).
+To be eligible for the NFR Program, Partners must be an Open or Select Partner in good standing or a Technology Alliance Partner with an executed partner agreement. Open and Select Requirements can be found [here](/handbook/resellers/channel-program-guide/#gitlab-open-and-select-partner-requirements--benefits).
 
 ##### NFR Program Terms and Conditions
 
@@ -379,21 +377,17 @@ NFR licenses expire after a 12-month subscription period, unless they are add-on
 
 ##### Add-ons to NFR Subscriptions
 
-If you would like to request any add-on to your NFR license (CI minutes, Storage, Duo Pro, etc), please submit the NFR Request Form or reach out to partnersupport@gitlab.com for assistance. If partners attempt to purchase NFR add-ons through their customer portal, their subscription will be downgraded to free. If you have been downgraded to free already, please contact [GitLab Support](https://about.gitlab.com/support/) for assistance.
+If you would like to request any add-on to your NFR license (CI minutes, Storage, etc), please submit the NFR Request Form or reach out to partnersupport@gitlab.com for assistance. If partners attempt to purchase NFR add-ons through their customer portal, their subscription will be downgraded to free. If you have been downgraded to free already, please contact [GitLab Support](https://about.gitlab.com/support/) for assistance.
 
 ##### NFR Support
 
-- [NFR Support](https://about.gitlab.com/support/) will be provided by the GitLab Support team. GitLab Solution Architects may also be available to help Partners build out training, testing, and lab environments.
+[NFR Support](https://about.gitlab.com/support/) will be provided by the GitLab Support team. GitLab Solution Architects may also be available to help Partners build out training, testing, and lab environments.
 
 #### Technical Support
 
-While not required, we expect customers will, for the most part, contact you if they need help. It is in both of our best interests that they do so, as the more touch points you have with them, the more likely you are to further develop business with them. We do not expect you to be as knowledgeable about our products as our own support staff, and do expect that you may need to escalate some issues to our support staff. For more information, visit the GitLab [Support](https://about.gitlab.com/support/) page.
-
 For pre-sales technical issues, please contact your local GitLab Sales Team.
 
-For technical and solution enablement see our Developing your
-[Channel Partners: Developing your GitLab Practice](/handbook/resellers/services/)
-as well as our [Channel Partner Technical Presales Enablement](/handbook/resellers/partner-enablement/)     page.
+For technical and solution enablement see [Channel Partners: Developing your GitLab Practice](/handbook/resellers/services/) as well as our [Channel Partner Technical Presales Enablement](/handbook/resellers/partner-enablement/) page.
 
 ### Working with GitLab - Distributors
 
