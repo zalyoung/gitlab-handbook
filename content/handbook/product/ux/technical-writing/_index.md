@@ -212,7 +212,7 @@ Stage leads:
   - Supporting other writers in the stage to contribute to documentation improvements.
 - Complete a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones
   (for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/1067)). The [planning issue](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/tw_stage_lead.md) is automatically created and assigned to all Technical Writers in the stage on the 20th of the last month before the start of the quarter.
-- Apply the relevant `tw-lead` [label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-lead) to documentation improvement MRs that they drive or provide input on. This label allows us to track the improvements that come out of the stage lead process as one of our performance indicators (PIs).
+- Apply the relevant `tw-lead` [label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-lead) to documentation improvement MRs that they drive or provide input on. This label allows us to track the improvements that come out of the stage lead process as one of our performance indicators (PIs). [Tableau chart](https://10az.online.tableau.com/#/site/gitlab/views/DRAFT-UXKPIs/TechnicalWritingMRsbyTWLeadStage?:iid=1) accessible to GitLab team members only.
 - Collaborate with other stage leads on documentation improvements.
 - Over time, and with fewer groups assigned per stage lead, an aspirational goal is to switch the current 30/70 split between reactive feature work and proactive stage lead work to a 70/30 split.
 
