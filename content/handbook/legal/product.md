@@ -18,7 +18,7 @@ description: "Legal Product team page"
 
 - Visit [Brand Resources](https://design.gitlab.com/brand-overview/resources/) and [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/) for information about using GitLab's trademark.
 - [Use of Third-party Trademarks in GitLab](/handbook/legal/policies/product-third-party-trademarks-guidelines/)
-- [Trademarks Training Materials](/handbook/legal/trademarks-training-materials/)
+- [Trademarks at GitLab](/handbook/legal/trademarks-at-gitlab/)
 
 ## Cleanroom Development Process
 
