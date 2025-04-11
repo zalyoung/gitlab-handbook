@@ -1,6 +1,6 @@
 ---
 aliases: /handbook/legal/NDA
-title: "Non-Disclosure Agreement Process"
+title: "Non-Disclosure Agreement(NDA) Process"
 description: "How to complete an NDA Request"
 ---
 
