@@ -496,7 +496,7 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 1. **MM Key Accounts Named AE** (MMKAN): These AEs work on current customers that have been deemed to be high spending (high CARR) or have the potential to be high spending (high LAM). To be successful the MMKAN AE must expand their accounts more than the standard expansion rate for their named list of accounts. The named list for each MMKAN AE will grow through the fiscal year as the MMKAFO AE wins new high potential customers.
 1. **MM Territory AE**: These AEs work geographic regions of accounts that have not been vetted to be MM Key Account First Order AE or MM Key Account named AE. The role sells to both prospects and current accounts.
 
-"MM Key Accounts" can be used to refer to MM Key Accounts First Order and MM Key Accounts Named collectively. MM Key Accounts are the sub-set of MM accounts with a higher [LAM](/handbook/sales/sales-term-glossary/#landed-addressable-market-lam) and potential LAM.
+"MM Key Accounts" can be used to refer to MM Key Accounts First Order and MM Key Accounts Named collectively. MM Key Accounts are the sub-set of MM accounts with a higher [LAM](https://internal.gitlab.com/handbook/sales/lam/) and potential LAM.
 
 ### Core Responsibilities
 
@@ -539,7 +539,7 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 
 ## Account Ownership Rules of Engagement for Commercial Sales updated 2022-09-22
 
-The Commercial Sales Team follows the [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement)
+The Commercial Sales Team follows the [Account Ownership Rules of Engagement](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/)
 This section provides step by step clarity on how to follow the **ROE**.
 
 ### Process to follow
