@@ -49,7 +49,7 @@ Remember, the goal is to provide decision-makers with the information they need 
 
 The following is just an example template to help you get started. Please modify it as is appropriate to the situation.
 
->>>
+```
 
 ## Engineering Investigation / Research Spike - Template: Modify as needed
 
@@ -207,4 +207,4 @@ The following is just an example template to help you get started. Please modify
 
 [Any supporting information, diagrams, code examples, or references]
 
->>>
+```
