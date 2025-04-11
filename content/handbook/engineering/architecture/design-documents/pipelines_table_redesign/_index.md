@@ -152,57 +152,216 @@ The new design will separate pipeline information into two levels:
 
 The implementation will be phased as follows:
 
-**Phase 1: Product Design and GraphQL Schema**
+**Phase 1: Design and Infrastructure** (1-2 milestones)
 
-- Conduct product design sessions to finalize UI/UX requirements
-- Create designs for both list view and expanded details
-- Define information hierarchy and user interactions
-- Introduce feature flag
-- Update the GraphQL schema if necessary based on the design requirements
-- Build and test the two query patterns
+- Conduct product design sessions to finalize UI/UX requirements [**Design**]
+- Create designs for both list view and expanded details [**Design**]
+- Define information hierarchy and user interactions [**Design**]
+- Introduce feature flag infrastructure [**BE/FE**]
+- Update user preference schema to add `usePipelinesListView` (see [User Preference Implementation](#user-preference-implementation)) [**BE**]
 
-**Phase 2: Frontend Implementation and Testing**
+**Phase 2: Foundation and Architecture** (1 milestone)
 
-- Build list view components
-- Build expandable details component
-- Conduct performance testing
-- Conduct user testing
+- Update GraphQL schema based on finalized designs [**BE**]
+- Stub out query resolvers [**BE**]
+- Build and test the details query [**BE**]
+- Base component structure for list view [**FE**]
+- Base component structure for details view [**FE**]
 
-**Phase 3: Rollout and Monitoring**
+**Phase 3: Implementation and Integration** (1-2 milestones)
+
+- Implement query resolvers and logic [**BE**]
+- Implement user preference toggle for all 3 locations [**FE**]
+- Build UI child components [**FE**]
+- Query integration [**FE**]
+- Conduct performance testing [**BE/FE**]
+- Conduct user testing [**Design/FE**]
+
+**Phase 4: Rollout and Monitoring** (1 milestone)
 
 - Gradually enable feature flag
-- Monitor performance metrics
-- Gather user feedback
-- Complete rollout
+- Monitor performance metrics and toggle usage patterns
+- Gather user feedback through dedicated feedback channels
+- Adjust default toggle settings based on feedback and metrics
+- Complete rollout when adoption and satisfaction metrics meet targets
 
-### UI Component Architecture
+### Key Design Decisions
 
-[This structure will evolve once designs are complete]
+#### List View Format
 
-```shell
-ci/pipelines_table/
-├── components/
-│ ├── PipelinesListView.vue # Container component
-│ ├── PipelineListItem.vue # Individual pipeline row component
-│ └── PipelineDetails.vue # Expandable details component
-│ ├── renderless/
-│ │ ├── ProjectPipelinesQuery.vue # Renderless component for project pipelines query
-│ │ ├── MergeRequestPipelinesQuery.vue # Renderless component for merge request pipelines query
-│ │ └── CommitPipelinesQuery.vue # Renderless component for commit pipelines query
-├── graphql/
-│ ├── fragments/
-│ │ └── pipeline_list_fields.fragment.graphql
-│ ├── queries/
-│ │ ├── project_pipelines.query.graphql
-│ │ ├── merge_request_pipelines.query.graphql
-│ │ ├── commit_pipelines.query.graphql
-│ │ └── pipeline_details.query.graphql
-│ ├── subscriptions/ # For future real-time updates
-│ ├──── pipeline_statuses.subscription.graphql
-│ └──── pipeline_details.subscription.graphql
-├── constants.js
-└── utils.js
+<details>
+<summary>Details</summary>
+
+**Decision DRI**: Product Design
+
+**Decision**: [DECISION PENDING] Selection of the optimal list view format for the redesigned Pipelines Table.
+
+**Context**: The current Pipelines Table uses a traditional table format with fixed columns, which presents all information at once and becomes visually complex with the pipeline mini graphs. A redesigned list view needs to balance information density with readability and usability, focusing on the most essential information while providing access to details when needed.
+
+**Options to consider**:
+
+- Row-based list view
+- Card-based view
+- Other
+
+</details>
+
+#### Detail View Interaction
+
+<details>
+<summary>Details</summary>
+
+**Decision DRI**: Product Design
+
+**Decision**: [DECISION PENDING] Selection of the optimal interaction method for accessing detailed pipeline information.
+
+**Context**: With the introduction of the progressive disclosure pattern in the redesigned Pipelines Table, we need an effective way to display detailed pipeline information on demand. The component should provide sufficient space for comprehensive details while maintaining context and not disrupting the overall workflow.
+
+**Options to consider**:
+
+- Expandable row revealing details panel beneath the row
+- Side drawer showing related pipeline details
+- Other
+
+</details>
+
+#### User Preference Implementation
+
+<details>
+<summary>Details</summary>
+
+**Decision DRI**: Product Design, Engineering
+
+**Decision**: [DECISION PENDING] Whether to implement a user preference toggle to allow users to switch between the current Pipelines Table and the new redesigned version.
+
+**Context**: As we transition from the current REST-based implementation to the GraphQL redesign, we need to provide users with a smooth migration path that allows them to access both versions during the transition period.
+
+**Implementation**:
+
+The user preference will be controlled with a GraphQL mutation:
+
+```graphql
+mutation updateUsePipelinesListView($usePipelinesListView: Boolean) {
+  userPreferencesUpdate(input: { usePipelinesListView: $usePipelinesListView }) {
+    userPreferences {
+      usePipelinesListView
+    }
+  }
+}
 ```
+
+The frontend will include a toggle component similar to the Work Items toggle that will:
+
+- Display a badge indicating whether the new design is enabled
+- Provide a popover with toggle control to switch between views
+- Include a link to a dedicated feedback issue
+- Handle preference persistence through the GraphQL mutation
+
+**Rollout Strategy**:
+
+1. **Initial Phase**: The feature will be enabled for internal GitLab users only, with the toggle defaulting to "Off"
+2. **Beta Phase**: As confidence grows, the feature flag will be enabled for a wider audience, still with the toggle defaulting to "Off"
+3. **Gradual Rollout**: Based on feedback and performance metrics, the toggle will gradually default to "On" for new users
+4. **Full Rollout**: Eventually, the toggle will be removed and the redesigned implementation will become the standard
+
+This approach enables users to try the new design while maintaining access to the familiar interface, facilitates feedback collection, provides a fallback mechanism, and creates a smoother transition experience.
+
+</details>
+
+#### Pipeline Mini Graph Placement
+
+<details>
+<summary>Details</summary>
+
+**Decision DRI**: Product Design, Engineering
+
+**Decision**: [DECISION PENDING] Whether to include the pipeline mini graph in the details view or focus on failed jobs and actionable items instead.
+
+**Context**: The mini graph requires fetching extensive job data (including dozens of passed jobs with names and statuses) that is often unnecessary for the user's workflow.
+
+**Options**:
+
+1. **Include Mini Graph in Details View**
+   - Provides visual representation of pipeline stages
+   - Maintains familiar visualization element
+   - Requires fetching data for all jobs, including non-actionable ones
+
+2. **Focus on Failed Jobs and Actionable Items**
+   - Prioritizes information users need to take action
+   - Reduces data requirements by focusing on relevant jobs
+   - Shows stage summary without individual passed job details
+   - Potentially more useful for troubleshooting workflows
+
+**Next Steps**:
+
+- Research user workflows to identify most frequently needed information
+- Analyze query patterns to measure reduction in data requirements
+- Test alternative presentations focusing on actionable information
+
+**Initial Recommendation**: Focus primarily on failed jobs and actionable items in the details view, with a simplified stage summary that doesn't require fetching data for every passed job.
+
+</details>
+
+#### GraphQL Query Structure
+
+<details>
+<summary>Details</summary>
+
+**Decision DRI**: Engineering
+
+**Decision**: Implement two separate GraphQL queries and prepare for future subscription model
+
+**Context**: GraphQL allows for precise data fetching and real-time updates through subscriptions.
+
+**Benefits**:
+
+- Optimized initial payload
+- On-demand loading of detailed information
+- Foundation for real-time updates
+- Better separation of concerns in frontend code
+
+**Alternatives Considered**:
+
+- Single comprehensive query with all data - Rejected due to performance concerns
+- Multiple fragmented queries - Rejected due to increased request overhead
+
+</details>
+
+#### Pipeline Details Schema
+
+<details>
+<summary>Details</summary>
+
+**Decision DRI**: Engineering
+
+**Decision**: [PENDING UI DESIGNS] Determine the optimal GraphQL schema for pipeline details based on finalized UI designs.
+
+**Context**: The schema for the secondary query will be driven by UI requirements to ensure we only fetch data needed for the expanded details view.
+
+**Process**:
+
+- Complete UI designs for the expanded pipeline details view
+- Identify all data elements required by the design
+- Develop schema that efficiently retrieves only necessary information
+- Validate schema against performance goals
+
+**Considerations**:
+
+- Balance between comprehensive information and query efficiency
+- Prioritize data for troubleshooting and actionable items
+- Structure for future extensibility and real-time updates
+- Support for all three pipeline table contexts
+
+**Next Steps**:
+
+- Finalize expanded details UI mockups
+- Map UI elements to required data fields
+- Draft initial GraphQL schema
+- Review with stakeholders
+
+**Implementation Target**: A focused schema that retrieves exactly what the UI needs without unnecessary data fetching.
+
+</details>
 
 ### GraphQL Queries
 
@@ -211,7 +370,8 @@ The migration from REST to GraphQL for the Pipelines Table will involve creating
 1. Lightweight list queries that retrieve only essential pipeline information for each context
 2. A detailed query that fetches comprehensive information for a specific pipeline
 
-#### List Queries
+<details>
+<summary><h4>List Queries</h4></summary>
 
 The list queries will be optimized for performance, retrieving only the data necessary for the initial list views. This approach significantly reduces the payload size compared to the current REST implementation. We will implement pagination and basic filtering capabilities from the start to ensure users do not lose current functionality, with additional filters to be added iteratively as needed.
 
@@ -250,7 +410,7 @@ fragment PipelineListFields on Pipeline {
 
 Then we'll implement three specific queries for each context where the Pipelines Table appears:
 
-1. **Project Pipelines Query**:
+**Project Pipelines Query**:
 
 ```graphql
 # queries/project_pipelines.query.graphql
@@ -271,7 +431,7 @@ query getProjectPipelines($projectPath: ID!, $first: Int, $after: String, $filte
 }
 ```
 
-1. **Merge Request Pipelines Query**:
+**Merge Request Pipelines Query**:
 
 ```graphql
 # queries/merge_request_pipelines.query.graphql
@@ -295,7 +455,7 @@ query getMergeRequestPipelines($projectPath: ID!, $mergeRequestIid: ID!, $first:
 }
 ```
 
-1. **Commit Pipelines Query**:
+**Commit Pipelines Query**:
 
 ```graphql
 # queries/commit_pipelines.query.graphql
@@ -319,111 +479,40 @@ query getCommitPipelines($projectPath: ID!, $sha: String!, $first: Int, $after: 
 }
 ```
 
+</details>
+
 #### Details Query
 
 The details query will be established once the UI designs for the expanded view are complete, as noted in the [Pipeline Details Schema](#pipeline-details-schema) decision.
 
-### Key Design Decisions
+### UI Component Architecture
 
-#### List View Format
+[This structure will evolve once designs are complete]
 
-**Decision DRI**: Product Design
-
-**Options to consider**:
-
-- Streamlined row-based list view with expandable details
-- Card-based view
-- Traditional table with all columns
-- List items with variable information density
-
-#### Expansion Mechanism
-
-**Decision DRI**: Product Design
-
-**Options to consider**:
-
-- Expandable row revealing details panel beneath the row
-- Side drawer showing related pipeline details
-- Modal dialog for detailed information
-- Inline expansion with progressive disclosure
-
-#### Pipeline Mini Graph Placement
-
-**Decision DRI**: Product Design, Engineering
-
-**Decision**: [DECISION PENDING] Whether to include the pipeline mini graph in the details view or focus on failed jobs and actionable items instead.
-
-**Context**: The mini graph requires fetching extensive job data (including dozens of passed jobs with names and statuses) that is often unnecessary for the user's workflow.
-
-**Options**:
-
-1. **Include Mini Graph in Details View**
-   - Provides visual representation of pipeline stages
-   - Maintains familiar visualization element
-   - Requires fetching data for all jobs, including non-actionable ones
-
-2. **Focus on Failed Jobs and Actionable Items**
-   - Prioritizes information users need to take action
-   - Reduces data requirements by focusing on relevant jobs
-   - Shows stage summary without individual passed job details
-   - Potentially more useful for troubleshooting workflows
-
-**Next Steps**:
-
-- Research user workflows to identify most frequently needed information
-- Analyze query patterns to measure reduction in data requirements
-- Test alternative presentations focusing on actionable information
-
-**Initial Recommendation**: Focus primarily on failed jobs and actionable items in the details view, with a simplified stage summary that doesn't require fetching data for every passed job.
-
-#### GraphQL Query Structure
-
-**Decision DRI**: Engineering
-**Decision**: Implement two separate GraphQL queries and prepare for future subscription model
-**Context**: GraphQL allows for precise data fetching and real-time updates through subscriptions.
-
-**Benefits**:
-
-- Optimized initial payload
-- On-demand loading of detailed information
-- Foundation for real-time updates
-- Better separation of concerns in frontend code
-
-**Alternatives Considered**:
-
-- Single comprehensive query with all data - Rejected due to performance concerns
-- Multiple fragmented queries - Rejected due to increased request overhead
-
-#### Pipeline Details Schema
-
-**Decision DRI**: Engineering
-
-**Decision**: [PENDING UI DESIGNS] Determine the optimal GraphQL schema for pipeline details based on finalized UI designs.
-
-**Context**: The schema for the secondary query will be driven by UI requirements to ensure we only fetch data needed for the expanded details view.
-
-**Process**:
-
-- Complete UI designs for the expanded pipeline details view
-- Identify all data elements required by the design
-- Develop schema that efficiently retrieves only necessary information
-- Validate schema against performance goals
-
-**Considerations**:
-
-- Balance between comprehensive information and query efficiency
-- Prioritize data for troubleshooting and actionable items
-- Structure for future extensibility and real-time updates
-- Support for all three pipeline table contexts
-
-**Next Steps**:
-
-- Finalize expanded details UI mockups
-- Map UI elements to required data fields
-- Draft initial GraphQL schema
-- Review with stakeholders
-
-**Implementation Target**: A focused schema that retrieves exactly what the UI needs without unnecessary data fetching.
+```shell
+ci/pipelines_list/
+├── components/
+│ ├── PipelinesListView.vue # Container component
+│ ├── PipelineListItem.vue # Individual pipeline row component
+│ └── PipelineDetails.vue # Expandable details component
+│ ├── renderless/
+│ │ ├── ProjectPipelinesQuery.vue # Renderless component for project pipelines query
+│ │ ├── MergeRequestPipelinesQuery.vue # Renderless component for merge request pipelines query
+│ │ └── CommitPipelinesQuery.vue # Renderless component for commit pipelines query
+├── graphql/
+│ ├── fragments/
+│ │ └── pipeline_list_fields.fragment.graphql
+│ ├── queries/
+│ │ ├── project_pipelines.query.graphql
+│ │ ├── merge_request_pipelines.query.graphql
+│ │ ├── commit_pipelines.query.graphql
+│ │ └── pipeline_details.query.graphql
+│ ├── subscriptions/ # For future real-time updates
+│ ├──── pipeline_statuses.subscription.graphql
+│ └──── pipeline_details.subscription.graphql
+├── constants.js
+└── utils.js
+```
 
 ## Alternative Solutions
 
