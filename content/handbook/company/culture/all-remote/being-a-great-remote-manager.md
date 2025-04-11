@@ -182,14 +182,14 @@ Despite its many [advantages](remote-benefits/), all-remote work isn't for every
 The first month in a remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/), especially if you're [transitioning from a traditional office setting](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/).
 
 - To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications](informal-communication/).
-- Scheduling [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#social-calls), and [incentivizing in-person visits](/handbook/total-rewards/incentives/#visiting-grant) between team members are several of the ways in which GitLab accomplishes this.
+- Scheduling [coffee chats](informal-communication/#coffee-chats), [social calls](informal-communication/#team-days-and-social-calls), and [incentivizing in-person visits](/handbook/total-rewards/incentives/#visiting-grant) between team members are several of the ways in which GitLab accomplishes this.
 
 ### Feeling left out
 
 Remote settings can cause a breakdown in communication skills if organizations aren't deliberate about creating ways for their people to stay connected.
 
 - All-remote companies should default to asynchronous communication to combat feelings of being left out of important discussions.
-- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings) that are open to all.
+- We welcome all-remote companies to glean from [GitLab's approach to meetings](meetings/), as well as our [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews) that are open to all.
 
 ### Overworking
 

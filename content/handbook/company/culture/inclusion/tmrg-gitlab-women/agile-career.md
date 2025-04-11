@@ -50,7 +50,7 @@ Participants interested in `Activate your Agile Career` should expect and commit
     - 2022-11-09 @ 4pm UTC - 90 minutes
     - 2023-01-11  @ 4pm UTC - 90 minutes
 1. Complete post-session self paced homework and reflections (total of 7-10 hours)
-1. Read or listen to [Activate Your Agile Career: How Responding to Change Will Inspire Your Life's Work](https://www.amazon.com/Activate-Your-Agile-Career-Responding/dp/0998953121). You can [expense work related books](/handbook/finance/expenses/#-expense-policy-summary).
+1. Read or listen to [Activate Your Agile Career: How Responding to Change Will Inspire Your Life's Work](https://www.amazon.com/Activate-Your-Agile-Career-Responding/dp/0998953121). You can [expense work related books](/handbook/finance/expenses/#books-audioe-books-included).
 1. Attend monthly cohort accountability sync sessions (5 total) along with participants with similar career goals - 25 minutes each
 1. Complete a personal IGP and have a career development conversation with their manager
 

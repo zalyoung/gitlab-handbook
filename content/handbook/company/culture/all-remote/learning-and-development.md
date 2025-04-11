@@ -33,7 +33,7 @@ Learning and development teams within all-remote organizations enjoy unique bene
 
 ### What are some good resources for developing remote team skills?
 
-Managing any team remotely is much like managing in-person. We've created an in-depth guide on the specific skills needed to [be a great remote manager](/handbook/company/culture/all-remote/being-a-great-remote-manager/). We have also created a guide rich with [tips on managing a remote team here](/handbook/company/culture/all-remote/being-a-great-remote-manager/#tips-for-being-a-great-remote-manager).
+Managing any team remotely is much like managing in-person. We've created an in-depth guide on the specific skills needed to [be a great remote manager](being-a-great-remote-manager/). We have also created a guide rich with [tips on managing a remote team here](being-a-great-remote-manager/#tips-for-being-a-great-remote-manager).
 
 ## Challenges with all-remote L&D
 
@@ -75,7 +75,7 @@ From a learning and development standpoint, this approach ensures that all team 
 ![GitLab remote collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
 
-We encourage companies to consider [GitLab (the product)](/handbook/company/culture/all-remote/gitlab-for-remote/) to manage L&D within their own handbook. With a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/), for instance, *any* team member can suggest new learnings to the appropriate places. Colleagues and those managing learning and development can comment, add feedback, and shape what is eventually added.
+We encourage companies to consider [GitLab (the product)](gitlab-for-remote/) to manage L&D within their own handbook. With a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/), for instance, *any* team member can suggest new learnings to the appropriate places. Colleagues and those managing learning and development can comment, add feedback, and shape what is eventually added.
 
 This is powerful in that it encourages team members to continually be mindful of new learnings, and to not keep those learnings to themselves. Said another way, all-remote teams are ideally positioned to *contribute* to learning and development, rather than simply waiting for the L&D team to generate new material to ingest.
 
@@ -152,7 +152,7 @@ That flexibility is unique to the all-remote environment, as those who prefer a 
 
 GitLab's onboarding process is **empowering**. If a new hire gets stuck during onboarding, they are encouraged to update the Handbook, record a video to help others who may encounter the same obstacle, and contribute to learning and development from day one.
 
-At GitLab, new hires are onboarded using [GitLab (the product)](/handbook/company/culture/all-remote/gitlab-for-remote/). We believe in using the tools we create. This allows new hires to become [familiar with GitLab](https://about.gitlab.com/features/) in a way that feels meaningful (e.g. in learning GitLab, they are also accomplishing necessary onboarding tasks). This also provides a continual set of new users to test GitLab with fresh eyes. These individuals are ideally positioned to point out missing features or areas for improvement as we [iterate](/handbook/values/#iteration) on the product.
+At GitLab, new hires are onboarded using [GitLab (the product)](gitlab-for-remote/). We believe in using the tools we create. This allows new hires to become [familiar with GitLab](https://about.gitlab.com/features/) in a way that feels meaningful (e.g. in learning GitLab, they are also accomplishing necessary onboarding tasks). This also provides a continual set of new users to test GitLab with fresh eyes. These individuals are ideally positioned to point out missing features or areas for improvement as we [iterate](/handbook/values/#iteration) on the product.
 
 Learn more about [GitLab Onboarding in our Handbook](/handbook/people-group/general-onboarding/).
 
@@ -251,7 +251,7 @@ Learn more about [GitLab's Key Reviews](/handbook/company/key-review/).
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

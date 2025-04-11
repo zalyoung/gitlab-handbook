@@ -44,7 +44,7 @@ Below is one example of how the cadence items in [cadence flow](#cadence-flow) f
 
 1. One part of our [mission](/handbook/company/mission) is everyone can [contribute to GitLab, the application](/handbook/company/mission/#contribute-to-gitlab-application). By making innovation more accessible, we increase **user contributions to the product**, which creates results for a larger audience, which, in turn, allows more users to contribute to our product. This virtuous cycle drives a high rate of innovation for our product and allows more people to innovate and contribute.
 1. One component necessary to achieve our [AllOps vision](/handbook/company/vision/) is improving [GitLab ServiceDesk](https://docs.gitlab.com/ee/user/project/service_desk/), which helps connect external parties to the software development process, allowing more people to contribute. ServiceDesk is needed to provide a complete **Value Stream Delivery overview**, which should help more people manage the flow of innovation from [idea to customers](https://about.gitlab.com/solutions/value-stream-management/#:~:text=new%20innovation%20from-,idea%20to%20customers,-.), which should lead to more teams and companies relying on GitLab as their AllOps solution.
-1. One pillar of our [three year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) is [Customer Results](/handbook/company/strategy/#1-customer-results), which includes **Proving Value** with items like [Value Stream Analytics](https://about.gitlab.com/solutions/value-stream-management/) to help a broader user base [like managers and executives](https://about.gitlab.com/direction/plan/value_stream_management/#who-are-we-focusing-on) deliver value and innovation. Proving value to a broader user base moves us closer to providing a complete Value Stream Delivery overview, creating progress towards our AllOps vision.
+1. One pillar of our [three year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) is [Customer Results](/handbook/values/#results), which includes **Proving Value** with items like [Value Stream Analytics](https://about.gitlab.com/solutions/value-stream-management/) to help a broader user base [like managers and executives](https://about.gitlab.com/direction/plan/value_stream_management/#who-are-we-focusing-on) deliver value and innovation. Proving value to a broader user base moves us closer to providing a complete Value Stream Delivery overview, creating progress towards our AllOps vision.
 1. One of [our FY24 Yearlies](/handbook/company/yearlies/) is to `increase NetARR from Ultimate up-tiers` which we'll accomplish in part by providing more value to business users with features like [**Value Stream Dashboards for Executives**](https://gitlab.com/groups/gitlab-org/-/epics/9317). These features help extend [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) and, by extension, create progress for our Customer Results strategic pillar.
 1. One [FY24Q1 CEO objective](/handbook/company/okrs/fy24-q1/) is to `increase adoption through customer results to increase operating income` with a sub-key result of launching **Value Stream Dashboards** MVC 1 Beta in FY24-Q1.
 
@@ -82,14 +82,14 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Strategy](/handbook/company/strategy/)
 1. [3-year product direction strategy](https://about.gitlab.com/direction/#3-year-strategy)
 1. [Long range outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
-1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#vesting) after cliff of six months is passed
+1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#rsu-vesting--grant-cadence) after cliff of six months is passed
 1. Average retention of team members is around 3 years
 
 ## Year
 
 1. [Yearlies](/handbook/company/yearlies/) for setting annual company goals
 1. [Annual plan](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop)
-1. [4 quarter rolling forecast](/handbook/finance/financial-planning-and-analysis/#quarterly-forecast-rolling-four-quarters)
+1. [4 quarter rolling forecast](/handbook/finance/financial-planning-and-analysis/#quarterly--monthly-cycle-incl-close-variance-forecast-guidance)
 1. Most of [Direction](https://about.gitlab.com/direction/)
 1. [Fiscal Year Product Investment Themes](https://about.gitlab.com/direction/#fiscal-year-product-investment-themes)
 

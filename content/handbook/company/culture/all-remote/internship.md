@@ -18,9 +18,9 @@ There are many reasons why remote internships are a value-add to any organizatio
 
 ### Competitive hiring advantage
 
-Remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/). The ability to learn and work from wherever one is most fulfilled will soon become the norm. Companies which are built to support remote work (e.g. firms which create digital products), yet refuse to offer such flexibility, will be in low demand by top talent. This includes the most promising interns.
+Remote is the [future of work](remote-vision/). The ability to learn and work from wherever one is most fulfilled will soon become the norm. Companies which are built to support remote work (e.g. firms which create digital products), yet refuse to offer such flexibility, will be in low demand by top talent. This includes the most promising interns.
 
-Offering remote internships provides a competitive advantage to attracting ambitious and capable interns, but it will soon [diminish](/handbook/company/culture/all-remote/remote-vision/#diminishing-competitive-advantage) into a practical requirement.
+Offering remote internships provides a competitive advantage to attracting ambitious and capable interns, but it will soon [diminish](remote-vision/#diminishing-competitive-advantage) into a practical requirement.
 
 ### Diversity
 
@@ -50,7 +50,7 @@ This is of particular importance given that interns are usually inexperienced in
 
 ## What are the drawbacks of remote internships?
 
-Like any remote-working situation, remote internships have multiple [advantages](/handbook/company/culture/all-remote/remote-benefits/), but remote work doesn't suit everyone. Depending on their lifestyle, work preferences, and drive, [a remote internship can have disadvantages](drawbacks/#remote-work-challenges-and-solutions-for-employees) as well. We have outlined potential challenges and solutions for remote internships in our [all remote guide here](drawbacks/#remote-work-challenges-and-solutions-for-employees).
+Like any remote-working situation, remote internships have multiple [advantages](remote-benefits/), but remote work doesn't suit everyone. Depending on their lifestyle, work preferences, and drive, [a remote internship can have disadvantages](drawbacks/#remote-work-challenges-and-solutions-for-employees) as well. We have outlined potential challenges and solutions for remote internships in our [all remote guide here](drawbacks/#remote-work-challenges-and-solutions-for-employees).
 
 ## Employer considerations
 
@@ -77,7 +77,7 @@ Remote internships are fertile ground for communication breakdowns. Intentionall
 
 ### Creating good communication
 
-There is much to glean from [GitLab's approach to meetings](meetings/), and a well-organized internships will also incorporate communication strategies such as [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-meetings).
+There is much to glean from [GitLab's approach to meetings](meetings/), and a well-organized internships will also incorporate communication strategies such as [scheduled AMAs, group conversations, and Key Reviews](learning-and-development/#ask-me-anything-ama-group-conversations-and-key-reviews).
 
 ### Creating psychological safety
 
@@ -96,7 +96,7 @@ Employers should act proactively to address this. **Consider the following**.
 
 ### Hiring remote interns
 
-There are certain [qualities](hiring/#what-qualities-do-you-look-for-in-remote-hires) that [hiring](A) teams look for in remote hires at any level. These include an appreciation for [self-learning and self-service](self-service/), a penchant for [documentation](management/#scaling-by-documenting), and a proven ability to work [asynchronously](management/#asynchronous).
+There are certain [qualities](hiring/#source-for-remote-work-qualities) that [hiring](hiring/) teams look for in remote hires at any level. These include an appreciation for [self-learning and self-service](self-service/), a penchant for [documentation](management/#scaling-by-documenting), and a proven ability to work [asynchronously](management/#asynchronous).
 
 Interns will naturally lack the work experience required to have a great grasp for any of the above; however, hiring teams can ask certain questions that provide insight into how they've operated in remote settings *outside* of the workplace.
 

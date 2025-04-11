@@ -43,7 +43,7 @@ It's important not to let hindsight thwart progress in the here and now. While a
 
 At GitLab, only [90 days of Slack activity is retained](/handbook/communication/#slack). After that, it's gone. This is intentional, as it prevents Slack as being useful as a tool for managing projects end-to-end. Slack, Microsoft Teams, and similar tools are *instant* messaging platforms, which may work to the detriment of a truly [asynchronous culture](asynchronous/).
 
-Leaders who are serious about ensuring that their team can rely on a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) will be ruthless when it comes to instant message retention. If team members know that they can search their instant message history for updates on a given project, there is no motivation to document progress in a place that is universally accessible. This creates massive [knowledge gaps](asynchronous/#plugging-the-knowledge-leak) and further splinters communication, alignment, and understanding throughout an organization.
+Leaders who are serious about ensuring that their team can rely on a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) will be ruthless when it comes to instant message retention. If team members know that they can search their instant message history for updates on a given project, there is no motivation to document progress in a place that is universally accessible. This creates massive [knowledge gaps](asynchronous/#6-asynchronous-work-bridges-the-knowledge-gap) and further splinters communication, alignment, and understanding throughout an organization.
 
 A limited retention policy acts as a forcing function. It nudges team members to discuss work matters in a location that is directly tied to the ultimate single source of truth. At GitLab, all work, process, and policies are documented in the [handbook](/handbook).
 
@@ -51,7 +51,7 @@ To get there, [discussions begin](/handbook/communication/#start-with-a-merge-re
 
 Instant messaging tools are difficult to add people to a conversation, and all work history is left in that program, with no context following the work to where it eventually ends up.
 
-It's difficult to rally an organization to only use Slack for [informal communication](informal-communication/), but it's worth the effort. Otherwise, you ensure a tortuous pattern of people pinging people for updates and snippets of information, adding further fuel to the [chaotic fire](asynchronous/#mental-health) that is synchronous workflows.
+It's difficult to rally an organization to only use Slack for [informal communication](informal-communication/), but it's worth the effort. Otherwise, you ensure a tortuous pattern of people pinging people for updates and snippets of information, adding further fuel to the [chaotic fire](asynchronous/#4-asynchronous-work-alleviates-stress-and-supports-mental-health) that is synchronous workflows.
 
 ## Don't get overwhelmed
 
@@ -91,7 +91,7 @@ The project that drives the sample rendering and starter template can be found [
 
 GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
+You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 ### Empower the entire team to evolve the handbook
 
@@ -103,7 +103,7 @@ This enables anyone at the company, even those who have just joined, to propose 
 
 1. In [this merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29227), only a portion of the initial proposal was agreed upon and merged into GitLab's handbook. However, this ensured that all pertinent parties had a voice. This also documents the thought process that went into the eventual documentation, such that [context](effective-communication/#understanding-low-context-communication) is in place for anyone to understand why these changes were made, and when.
 1. By empowering all team members to make proposals, you enable new hires to offer up fresh perspectives that can benefit the company. [This merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29045) is an example of a new hire sharing a proposal to strengthen GitLab's [Onboarding Buddy](/handbook/people-group/general-onboarding/onboarding-buddies.md) checklist, and then her buddy made a proposal which was eventually merged.
-1. This [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36848) was proposed by someone still in the onboarding phase at GitLab. The discussion threads offer visibility into how learning happens, how [iteration](/handbook/values/#iteration) shapes proposals, and how [everyone can contribute](/handbook/company/strategy#why) to the handbook's evolution.
+1. This [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36848) was proposed by someone still in the onboarding phase at GitLab. The discussion threads offer visibility into how learning happens, how [iteration](/handbook/values/#iteration) shapes proposals, and how [everyone can contribute](/handbook/company/mission/#mission) to the handbook's evolution.
 
 ## What goes in a company handbook?
 
@@ -120,7 +120,7 @@ The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-
    - Annual goals
    - Product principles
    - How we hire
-1. **Groups/departments**: Build the rest of the handbook out by departments (e.g. [People](/handbook#people-group), [Engineering](/handbook#engineering), [Marketing](/handbook#marketing), [Sales](/handbook#sales), [Finance](/handbook#finance), [Product](/handbook#product), [Legal](/handbook#legal)). This orients the reader with *[context](effective-communication/#understanding-low-context-communication)* of which group it primarily impacts, but [does not preclude](/handbook/values/#short-toes) team members from one department from making handbook [proposals](/handbook/values#make-a-proposal) to other departments.
+1. **Groups/departments**: Build the rest of the handbook out by departments (e.g. [People](/handbook/#people-group), [Engineering](/handbook/#engineering), [Marketing](/handbook/#marketing), [Sales](/handbook/#sales), [Finance](/handbook/#finance), [Product](/handbook/#product), [Legal](/handbook/#legal)). This orients the reader with *[context](effective-communication/#understanding-low-context-communication)* of which group it primarily impacts, but [does not preclude](/handbook/values/#short-toes) team members from one department from making handbook [proposals](/handbook/values#make-a-proposal) to other departments.
    - Org structure
    - People profiles
    - Team profiles
@@ -157,7 +157,7 @@ Empowering the entire company to propose changes creates widespread autonomy and
 
 Ideally, everyone feels as if they are a contributing member of a handbook's evolution. This is easier to foster when you instill ["writing things down"](/handbook/values/#write-things-down) as a value at an early stage. For [scaled companies](scaling/) adding a handbook many years after inception, consider hiring dedicated scribes that sit on each team.
 
-Former journalists are ideal for this type of work, as it goes well beyond transcription. Documenting [notes](communication#external-communication) during [meetings](meetings/), and converting them from [Google Docs](/handbook/communication/#google-docs) to [handbook](/handbook/about/handbook-usage/#why-handbook-first), requires a knack for storytelling as well as an understanding of what's important and what [context](effective-communication/#understanding-low-context-communication) should be added.
+Former journalists are ideal for this type of work, as it goes well beyond transcription. Documenting [notes](/handbook/communication/#external-communication) during [meetings](meetings/), and converting them from [Google Docs](/handbook/communication/#google-docs) to [handbook](/handbook/about/handbook-usage/#why-handbook-first), requires a knack for storytelling as well as an understanding of what's important and what [context](effective-communication/#understanding-low-context-communication) should be added.
 
 Consider investing in a handbook editor team that ensures the engineering framework is up to date, and that code owners are notified whenever pages go too long without an update.
 
@@ -167,7 +167,7 @@ This says nothing of the cost of institutional knowledge. Documented answers are
 
 ## Make it public
 
-To whatever degree you legally can, consider making your company handbook [public](hiring/#make-your-strategy-public). Not only does GitLab do this, but outfits such as [Glitch](https://handbook.glitch.me), [MarsBased](https://github.com/MarsBased/handbook), and [Basecamp](https://basecamp.com/handbook) do as well. Public handbooks lead to accountability. It's easier to let an internal wiki rot than it is a handbook which is open to the world.
+To whatever degree you legally can, consider making your company handbook [public](hiring/#advertise-accurately-and-transparently). Not only does GitLab do this, but outfits such as [Glitch](https://handbook.glitch.me), [MarsBased](https://github.com/MarsBased/handbook), and [Basecamp](https://basecamp.com/handbook) do as well. Public handbooks lead to accountability. It's easier to let an internal wiki rot than it is a handbook which is open to the world.
 
 This allows the public as well as companies in your industry to replicate processes and make suggestions for improvement. Remember, this doesn't mean that those who provide input [have a right to feel heard or considered](/handbook/people-group/directly-responsible-individuals#empowering-dris); it simply opens wide the gate for improvements you'd never consider in your own bubble.
 
