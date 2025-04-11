@@ -66,7 +66,7 @@ Doing so successfully will allow the `gitlab-qa` gem to be built from a custom b
 
 ## Configure VS Code for gitlab-qa debugging
 
-The [Ruby VS Code extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) adds a few Ruby-related capabilities to VS Code, including the ability to debug Ruby code.
+The [Ruby LSP VS Code extension](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) adds a few Ruby-related capabilities to VS Code, including the ability to debug Ruby code.
 
 After you install the extension you can use VS Code to debug end-to-end specs running against your local GDK. You will need to add a Run configuration to `launch.json`. For example, the following `launch.json` will add a configuration named `Debug Test::Instance::All current file` to the list in the Run view of your Sidebar. Then, with a spec file open in the editor you can start debugging (F5) and VS Code will run the tests in the spec file.
 
