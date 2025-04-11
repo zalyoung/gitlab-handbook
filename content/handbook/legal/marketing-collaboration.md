@@ -60,5 +60,3 @@ Official Rules for internal GitLab team member only sweepstakes, contests and gi
 ## Publicity Waiver and Release
 
 For requests related to the use of an individual's image or voice in print or digital media, for team members and non-team members, refer to the [Publicity Waiver and Release Guidelines and Process](/handbook/legal/publicity-waiver-release/).
-
-
