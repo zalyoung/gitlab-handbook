@@ -120,4 +120,3 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 6. Copy new query into the Data Source Custom SQL
 7. Run the extract
 8. Publish the updated Data Source
-
