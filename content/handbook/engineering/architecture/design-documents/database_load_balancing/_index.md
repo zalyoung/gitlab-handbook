@@ -155,6 +155,13 @@ List the specific goals / opportunities of the document.
 - What are other less tangible opportunities here?
 -->
 
+- A misbehavior of a single replica database (either errors or slow responses)
+  should not be able to take down an entire web process.
+- LSN checks (checks of the form `has replica X caught up to at least write location Y`)
+  are safe and cheap enough to run many times in a single web request.
+- When a replica catches up to a write, the application notices and the thread
+  that performed that write switches back to a replica.
+
 - Maintain the load balancing code separately from the monolith
 - Make the load balancer's behavior more resilient during high traffic periods
 - Move more load away from the primary
