@@ -12,7 +12,7 @@ The purpose is to:
 1. To provide a knowledge sharing forum where SAs, CSMs, CSAs, SMB reps, PSEs and others can continue to evolve as learning organizations, where team members can have their questions answered on elements of the GitLab Platform in a timely fashion, and be retained beyond the limits currently in Slack today.
 2. To provide an avenue to continue the onboarding and accelerate the growth of SA and CS teams, so that team members can gain GitLab platform expertise themselves more efficiently, and have fun and be rewarded for doing so.
 
-`Note the GitLab support organization utilizes ZenDesk for its [knowledge base services](/handbook/support/knowledge-base/).`
+Note the GitLab support organization utilizes ZenDesk for its [knowledge base services](/handbook/support/knowledge-base/).
 
 Everyone in the Solution Architecture (SA), Customer Success (CS), Professional Services (PS) and SMB sales teams organizations, has access to the Stack Overflow for Teams via Okta and is able to answer questions or provide responses directly via web interface
 
