@@ -118,3 +118,6 @@
 # Infra library moved - remove 2025-10-10
 /handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
 /handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
+
+# SMB team name updates - remove 2026-01-31
+/handbook/sales/commercial/global_digital_smb/* /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
