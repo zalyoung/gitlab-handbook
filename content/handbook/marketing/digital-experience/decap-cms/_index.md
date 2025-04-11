@@ -52,7 +52,7 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 #### Additonal Notes
 
 - Note that the swim lames/board in the Workflow tab correspond to labels applied to the various MRs.
-- If you want to add an author, category, or tab, you will need to open and resolve a seperate MR with that change. The easiest workflow is to do that before opening a blog post MR. Otherwise, you will need to run a `git rebase main` command against your feature branch. 
+- If you want to add an author, category, or tag, you will need to create those in Decap and merge the MRs in to the `main` branch first. Once that is complete the author, category, or tag will become available to be selected in Decap when creating or editing an existing article.
 
 ### Adding media to blog posts
 
