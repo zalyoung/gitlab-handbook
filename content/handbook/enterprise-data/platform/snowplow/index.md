@@ -39,7 +39,7 @@ file. As an example, [here is an issue](https://gitlab.com/gitlab-data/analytics
 
 #### GitLab Implementation
 
-The original design document to move our Snowplow infrastructure from a 3rd-party hosting service to 1st-part is documented in the [Infrastructure design library](/handbook/engineering/infrastructure/library/snowplow/). This was written before the build was started and contains many of the assumptions and design decisions.
+The original design document to move our Snowplow infrastructure from a 3rd-party hosting service to 1st-part is documented in the [Infrastructure design library](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/snowplow). This was written before the build was started and contains many of the assumptions and design decisions.
 
 Snowplow is built with Terraform on AWS documented in the [`config-mgmt` project](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/aws-snowplow/README.md).
 
