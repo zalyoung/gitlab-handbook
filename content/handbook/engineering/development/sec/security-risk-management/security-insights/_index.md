@@ -166,9 +166,11 @@ These boards show current status of issues.
 ### Workflow of E2E runs on Staging and Production
 
 #### Scheduled Runs
+
 We run scheduled E2E tests on both staging and production environments every 4 hours. These tests help ensure that recent deployments haven’t introduced regressions.
 
 We can monitor test results in the following Slack channels:
+
 * #e2e-run-staging
 * #e2e-run-production
 
@@ -179,15 +181,14 @@ We can monitor test results in the following Slack channels:
 
 * The `tier-3` label is automatically added.
 * E2E tests run via a downstream pipeline using the `e2e:test-on-omnibus job`.
-* If the E2E job fails, it blocks the pipeline from moving forward.
-* Test results are posted as a comment by the E2E bot on the merge request, review them carefully before proceeding.
+* If the E2E job fails, it blocks the pipeline from moving forward. Test results are posted as a comment by the E2E bot on the merge request, review them carefully before proceeding.
 
-#####  When the MR is merged
+##### When the MR is merged
 
 Once the MR is merged and environments are deployed:
 
 * When a flag is changed from false ➜ true via an MR, E2E tests are triggered automatically. We do not trigger tests for true ➜ false to save CI time.
-* If a flag is set to default true via an MR, no ChatOps message is posted in the #e2e-run-staging or #e2e-run-production channels. ChatOps messages only appear when toggling a flag using the [/chatops commands](https://handbook.gitlab.com/handbook/support/workflows/chatops/).
+* If a flag is set to default true via an MR, no ChatOps message is posted in the #e2e-run-staging or #e2e-run-production channels. ChatOps messages only appear when toggling a flag using the [/chatops commands](../../support/workflows/chatops.md/).
 * Head to #e2e-run-staging and #e2e-run-production and wait for the next scheduled run to complete. A passing run confirms the deployment is safe. If it fails, investigate before continuing further rollouts.
 
 ### Running and Fixing E2E specs
