@@ -29,7 +29,7 @@ The knowledge base and our product documentation are both key elements of GitLab
 experience that serve different needs:
 
 {{< cardpane >}}
-{{% card header="**Stack Overlfow**" %}}
+{{% card header="**Stack Overflow**" %}}
 
 - Questions and Answers on Product Features, Architecture
 - Articles as Knowledge Dumps, or Drafts before becoming blogs, Docs
@@ -44,6 +44,7 @@ experience that serve different needs:
 - Discovery Questions, FAQs, Technical Evaluation Assets
 - List of Enablement Recordings, Standard Demos, Whiteboarding examples
 - Sales Plays; SA Enablement
+- Used "recent in time".
 
 {{% /card %}}
 
