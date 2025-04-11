@@ -58,6 +58,8 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 
 #### Mermaid charts
 
+<!-- markdownlint-disable -->
+```plaintext
 ```mermaid
       flowchart TB;
 
@@ -67,6 +69,8 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
          proc -->|IO relation|art;
       end
 ```
+```
+<!-- markdownlint-enable -->
 
 #### Videos
 
@@ -84,6 +88,8 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 
 #### Code blocks with syntax highlighting
 
+<!-- markdownlint-disable -->
+```plaintext
 ```json
     {
         "Version": "2012-10-17",
@@ -104,3 +110,5 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
         ]
     }
 ```
+```
+<!-- markdownlint-enable -->
