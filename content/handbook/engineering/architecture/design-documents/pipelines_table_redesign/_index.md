@@ -152,27 +152,30 @@ The new design will separate pipeline information into two levels:
 
 The implementation will be phased as follows:
 
-**Phase 1: Product Design** (1-3 milestones, 1-2 designers)
+**Phase 1: Design and Infrastructure** (1-2 milestones)
 
-- Conduct product design sessions to finalize UI/UX requirements
-- Create designs for both list view and expanded details
-- Define information hierarchy and user interactions
+- Conduct product design sessions to finalize UI/UX requirements [**Design**]
+- Create designs for both list view and expanded details [**Design**]
+- Define information hierarchy and user interactions [**Design**]
+- Introduce feature flag infrastructure [**BE/FE**]
+- Update user preference schema to add `usePipelinesListView` (see [User Preference Implementation](#user-preference-implementation)) [**BE**]
 
-**Phase 2: GraphQL Schema and Query Implementation** (1 milestone, 1-2 BE)
+**Phase 2: Foundation and Architecture** (1 milestone)
 
-- Introduce feature flag infrastructure
-- Update the GraphQL schema based on design requirements
-- Implement query resolvers and backend logic (Should this go to phase 3?)
-- Build and test the details query
-- Update user preference schema to add `usePipelinesListView` (if applicable, see [User Preference Implementation](#user-preference-implementation) decision)
+- Update GraphQL schema based on finalized designs [**BE**]
+- Stub out query resolvers [**BE**]
+- Build and test the details query [**BE**]
+- Base component structure for list view [**FE**]
+- Base component structure for details view [**FE**]
 
-**Phase 3: Frontend Implementation and Testing** (1-2 milestones, 3 FE)
+**Phase 3: Implementation and Integration** (1-2 milestones)
 
-- Implement user preference toggle for switching between old and new implementations in all 3 locations
-- Build list view components
-- Build expandable details component
-- Conduct performance testing
-- Conduct user testing
+- Implement query resolvers and logic [**BE**]
+- Implement user preference toggle for all 3 locations [**FE**]
+- Build UI child components [**FE**]
+- Query integration [**FE**]
+- Conduct performance testing [**BE/FE**]
+- Conduct user testing [**Design/FE**]
 
 **Phase 4: Rollout and Monitoring** (1 milestone)
 
