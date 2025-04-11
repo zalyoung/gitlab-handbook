@@ -571,7 +571,7 @@ All other important dates for a milestone are relative to the release date:
 - **On or around the Wednesday immediately following the release day**:
   - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are updated to reflect previous and current releases, including category epics and direction pages.
 - **On or around the second Monday following the release day**:
-  - Non-critical security patches are [released](/handbook/engineering/infrastructure/library/security-releases-development/).
+  - Non-critical security patches are [released](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/security-releases-development).
 
 Refer to [release post content reviews](/handbook/marketing/blog/release-posts/#content-reviews) for additional deadlines.
 
@@ -721,7 +721,7 @@ Not everything is urgent. See below for a non-exclusive list of things that are 
 ## Performance Refinement
 
 A bi-weekly performance refinement session is held by the Development and QE teams jointly to raise awareness and foster wider collaboration about high-impact performance issues.
-A high impact issue has a direct measurable impact on GitLab.com [service levels or error budgets](/handbook/engineering/infrastructure/library/service-levels-error-budgets/).
+A high impact issue has a direct measurable impact on GitLab.com [service levels or error budgets](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/service-levels-error-budgets).
 
 ### Scope
 
