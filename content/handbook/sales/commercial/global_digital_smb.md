@@ -1,9 +1,9 @@
 ---
-title: "Global Digital SMB"
-description: "Overview of the Global Digital SMB Sales Model"
+title: "High Velocity Sales - First Orders (formerly Global Digital SMB)"
+description: "Overview of the High Velocity Sales - First Orders Sales Model"
 ---
 
-## Global Digital SMB Sales Model
+## SMB Sales Model
 
 - [FY26 Global Digital SMB Kick-Off deck](https://docs.google.com/presentation/d/1CWimjCJkcO7mIJJejv75JLCI1XNB6cReciRZab9U6q0/edit#slide=id.g2b17593787a_0_275)
 
