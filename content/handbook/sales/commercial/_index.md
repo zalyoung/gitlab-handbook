@@ -395,7 +395,7 @@ SMB Account Executives in First Order will assist prospects in their evaluation 
 
 AMER SMB Pooled Account Executives are responsible for managing a subset of SMB customers who range from companies on day 1 of using GitLab, all the way to companies who've used GitLab since their day 1. The Pooled AEs work collectively in a "pooled" account ownership model meaning customers are aligned at the team level and all AEs are equipped to help. Pooled AEs work with customers to evaluate product and plan expansion, making recommendations to ensure a successful renewal with GitLab based on their needs.
 
-Please read below and through the [SMB handbook page for more information](/handbook/sales/commercial/smb/).
+Please read below and through the [SMB handbook page for more information](/handbook/sales/commercial/global_digital_smb/).
 
 ### Critical Salesforce reports to follow and bookmark
 
