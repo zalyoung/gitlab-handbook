@@ -28,11 +28,7 @@ Please ensure you read the [Commercial Sales onboarding page](/handbook/sales/co
 1. Watching videos is core to your onboarding. You can watch YouTube & Chorus videos at 1.5x or 1.75x speed to get through them efficiently, you can still retain the information but in less time. Go to the Settings widget > Playback speed.
 1. When you first start, searching through Slack is a great way to find useful information as it's our primary method of asking questions and announcing things to the company. Some channels that are particularly good for information:
 [#questions](https://gitlab.slack.com/archives/C0AR2KW4B)
-[#smb](https://gitlab.slack.com/archives/CH4KPGS87)
 [#sales](https://gitlab.slack.com/archives/C02NE5PQM)
-[#smb_amer](https://gitlab.slack.com/archives/C010YDVD1BP)
-[#international-smb](https://gitlab.slack.com/archives/CN84VB75H)
-[#smb_training_support](https://gitlab.slack.com/archives/CKYLWKGJU)
 [#competition](https://gitlab.slack.com/archives/C1BBL1V3K)
 1. Use [BuiltWith.com](https://builtwith.com/) to get an idea of what technologies a customer is using currently (though be sure to verify this with them)
 1. You might find it useful to create a Google doc to document all your learnings in your first 30 days, as you will get a lot of information to remember and it will also get you in the habit of taking notes, a [key part of GitLab's culture](/handbook/communication/#external-communication).
