@@ -697,7 +697,8 @@ This is an _optional_ feature only available for the `Owned Event` program templ
 ### Step 1: Clone this program
 
 - [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME12196A1)
-- Use format `YYYYMMDD_Conference_EventType`
+- Use format `YYYYMMDD_Hyperscaler(if applicable)_Conference_EventType`
+- Note that if you are using Jifflenow for setting Executive Meetings or Booth Demos/Meetings, you will need a Marketo program and SFDC campaign for each type. They are all `Conference` campaign types, so you can create the first one following these instructions (including filling out the tokens), then clone that program. That will make it so you don't need to complete all of the tokens each time (you will need to make minor modifications, but they are quicker this way). You will sync each program to SFDC to create the SFDC campaign as described below.
 
 ### Step 2: Sync to Salesforce
 
@@ -757,7 +758,8 @@ The instructions below are designed for meetings led by Field Marketing at large
 ### Step 1: Clone this program
 
 - [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17801A1)
-- Use format `YYYYMMDD_Conference_Meetings_FM_Template`
+- Use format `YYYYMMDD_Hyperscaler(if applicable)_Conference_ExecutiveMeetings`
+- Note that if you are using Jifflenow for setting Executive Meetings or Booth Demos/Meetings, you will need a Marketo program and SFDC campaign for each type.
 
 ### Step 2: Sync to Salesforce
 
