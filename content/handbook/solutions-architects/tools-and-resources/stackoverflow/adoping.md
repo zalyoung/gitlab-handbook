@@ -121,7 +121,7 @@ Please refer to Stack Overflow training on
 
 ---
 
-Suggested Communities of Practices (based on appropriate tags) should be aliged with Product focuses such as:
+Suggested Communities of Practices (based on appropriate tags) should be aligned with Product focuses such as:
 
 - Modernization & Analytics
 - AI
