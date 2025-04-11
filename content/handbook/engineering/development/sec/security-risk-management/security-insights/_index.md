@@ -174,7 +174,6 @@ We can monitor test results in the following Slack channels:
 * #e2e-run-staging
 * #e2e-run-production
 
-
 #### E2E Flow When Changing a Feature Flag via MR
 
 ##### When the MR is approved (but not yet merged)
@@ -188,7 +187,7 @@ We can monitor test results in the following Slack channels:
 Once the MR is merged and environments are deployed:
 
 * When a flag is changed from false ➜ true via an MR, E2E tests are triggered automatically. We do not trigger tests for true ➜ false to save CI time.
-* If a flag is set to default true via an MR, no ChatOps message is posted in the #e2e-run-staging or #e2e-run-production channels. ChatOps messages only appear when toggling a flag using the [/chatops commands](../../support/workflows/chatops.md/).
+* If a flag is set to default true via an MR, no ChatOps message is posted in the #e2e-run-staging or #e2e-run-production channels. ChatOps messages only appear when toggling a flag using the [/chatops commands](../../support/workflows/chatops.md).
 * Head to #e2e-run-staging and #e2e-run-production and wait for the next scheduled run to complete. A passing run confirms the deployment is safe. If it fails, investigate before continuing further rollouts.
 
 ### Running and Fixing E2E specs
