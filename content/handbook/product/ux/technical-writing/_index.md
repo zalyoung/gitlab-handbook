@@ -214,7 +214,7 @@ Stage leads:
   (for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/1067)). The [planning issue](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/tw_stage_lead.md) is automatically created and assigned to all Technical Writers in the stage on the 20th of the last month before the start of the quarter.
 - Apply the relevant `tw-lead` [label](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-lead) to documentation improvement MRs that they drive or provide input on. This label allows us to track the improvements that come out of the stage lead process as one of our performance indicators (PIs).
 - Collaborate with other stage leads on documentation improvements.
-- Over time, and with few groups assigned per stage lead, an aspirational goal is to switch the current 30/70 split between feature work and stage lead work to a 70/30 split.
+- Over time, and with fewer groups assigned per stage lead, an aspirational goal is to switch the current 30/70 split between reactive feature work and proactive stage lead work to a 70/30 split.
 
 For [documentation improvements](https://docs.gitlab.com/development/documentation/workflow/#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
