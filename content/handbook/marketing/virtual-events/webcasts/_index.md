@@ -26,11 +26,10 @@ There are four types of GitLab-hosted webcasts and workshops using the Zoom webc
 
 * **[Global Campaign Webcasts](/handbook/marketing/virtual-events/webcasts/#campaign-webcasts):** goal is net new customer acquisition, managed by Global Campaign Managers in **Goldcast**, aligned to campaign themes to drive Marketing Qualified Leads (MQLs) in target accounts.
 
-* **[Technical Demo Series](/handbook/marketing/virtual-events/webcasts/##technical-demo-series):** goal is to increase conversion from Marketing Qualified Leads (MQLs) to Sales Accepted Opportunities (SAO). Tech Demos are managed by Regional Campaign Managers in **Goldcast** and new Tech Demo bundle themes are created in collaboration with the Developer Relations team
+* **[Technical Demo Series](/handbook/marketing/virtual-events/webcasts/#technical-demo-series):** goal is to increase conversion from Marketing Qualified Leads (MQLs) to Sales Accepted Opportunities (SAO). Tech Demos are managed by Regional Campaign Managers in **Goldcast** and new Tech Demo bundle themes are created in collaboration with the Developer Relations team
 
 * **[Partner Webcasts](/handbook/marketing/virtual-events/webcasts/#partner-webcasts):** goal is net new customer acquisition, managed by Partner Marketing in **Goldcast**, teaming with Partners to drive registration together
 * **[Virtual Workshops](/handbook/marketing/virtual-events/webcasts/#virtual-workshops):** goal is to increase conversion/velocity of MQLs to SAO, and/or SAO to Closed Won, using hands-on labs with demo environment, capped registration, managed by Field Marketing in **Zoom**
-
 ## Global Campaign Webcasts {#campaign-webcasts}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -42,13 +41,11 @@ Global Campaign webcasts are managed, moderated, and executed by the Campaigns T
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=idea-webcast) in the campaigns project.
-
 * Campaign managers will consider the alignment to active and planned campaigns
 * If the suggeted topic is approved, the campaign manager will change the status label from `status:plan` to `status:wip`, and run with the webcast
 * The webcast owner will then begin creation of the epic and related issues, requesting work of relevant teams
 
 ### Creating a Global Campaigns Asana project
-
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Info to be added about Asana project management
@@ -291,11 +288,11 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 1. Once the date/time of the webcast has been confirmed, go to your calendar event and remove `Hold` from the event title `[WC Hosted] Webcast title` (e.g: `[WC Hosted] Mastering CI`). Specify the time on the calendar event and swap the issue link in the calendar description with the Epic link. *Note: In the spirit of efficiency, please be sure to add all presenters (GitLab team members and external speakers), the epic or issue (if you have one) and your Zoom invite info to the calendar invite so you're not having to create multiple calendar invites.*
 1. Make sure to also add dry runs to the webcast calendar. When creating the webcast dry run event(s), please use the following naming convention `[DR WC Hosted] Webcast title` (e.g: `[DR WC Hosted] Mastering CI`) and specify the date/time on the calendar event.
 
-## Goldcast Webcasts {#brighttalk}
+## Goldcast Webcasts {#golcast-webcasts}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Quick Links {#bt-quick-links}
+### Quick Links {#goldcast-quick-links}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -305,7 +302,7 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 * [Goldcast Support Portal](https://Goldcastsupport.force.com/Support/s/article/Goldcast-Contact-Support)
 * [Goldcast Knowledge Center](https://Goldcastsupport.force.com/Support/s/knowledge)
 
-### Types of Goldcast Webcasts {#bt-types}
+### Types of Goldcast Webcasts {#glodcast-types}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
