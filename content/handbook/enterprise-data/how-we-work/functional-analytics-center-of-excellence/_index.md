@@ -19,7 +19,7 @@ The [central data team](/handbook/enterprise-data/) serves as the hub for all of
 |:--------------------------------------------------------------------------------------------------------------------|:----------------------------|
 | [Product Data Insights](/handbook/product/groups/product-analysis/)                                                 | Carolyn Braza               |
 | [Marketing Analytics](/handbook/marketing/strategy-performance/)                                                    | Jerome Ahye                 |
-| [HVS-FO](/handbook/sales/high_velocity_sales_fo_team/hvs_fo_data_ops/)                                                        | Max Fleisher                |
+| [HVS-FO](/handbook/sales/high-velocity-sales-fo-team/hvs_fo_data_ops/)                                                        | Max Fleisher                |
 | [Sales Analytics](/handbook/sales/field-operations/sales-strategy/)                                                 | Melia Vilain & Noel Figuera |
 | Customer Success Analytics                                                                                          | Michael Arntz               |
 | Digital Experience                                                                                                  | Dennis Charukulvanich       |
