@@ -175,10 +175,6 @@ The implementation will be phased as follows:
 - Gather user feedback
 - Complete rollout
 
-### GraphQL Queries
-
-[GraphQL schema details will be added here once designs are complete]
-
 ### UI Component Architecture
 
 [This structure will evolve once designs are complete]
@@ -189,6 +185,10 @@ ci/pipelines_table/
 │ ├── PipelinesListView.vue # Container component
 │ ├── PipelineListItem.vue # Individual pipeline row component
 │ └── PipelineDetails.vue # Expandable details component
+│ ├── renderless/
+│ │ ├── ProjectPipelinesQuery.vue # Renderless component for project pipelines query
+│ │ ├── MergeRequestPipelinesQuery.vue # Renderless component for merge request pipelines query
+│ │ └── CommitPipelinesQuery.vue # Renderless component for commit pipelines query
 ├── graphql/
 │ ├── fragments/
 │ │ └── pipeline_list_fields.fragment.graphql
@@ -197,12 +197,131 @@ ci/pipelines_table/
 │ │ ├── merge_request_pipelines.query.graphql
 │ │ ├── commit_pipelines.query.graphql
 │ │ └── pipeline_details.query.graphql
-│ └── subscriptions/ # For future real-time updates
+│ ├── subscriptions/ # For future real-time updates
 │ ├──── pipeline_statuses.subscription.graphql
 │ └──── pipeline_details.subscription.graphql
 ├── constants.js
 └── utils.js
 ```
+
+### GraphQL Queries
+
+The migration from REST to GraphQL for the Pipelines Table will involve creating two primary query patterns:
+
+1. Lightweight list queries that retrieve only essential pipeline information for each context
+2. A detailed query that fetches comprehensive information for a specific pipeline
+
+#### List Queries
+
+The list queries will be optimized for performance, retrieving only the data necessary for the initial list views. This approach significantly reduces the payload size compared to the current REST implementation. We will implement pagination and basic filtering capabilities from the start to ensure users do not lose current functionality, with additional filters to be added iteratively as needed.
+
+We'll define a common fragment for all list queries to ensure consistency:
+
+```graphql
+# fragments/pipeline_list_fields.fragment.graphql
+fragment PipelineListFields on Pipeline {
+  id
+  iid
+  detailedStatus {
+    ...CiIcon
+  }
+  createdAt
+  finishedAt
+  user {
+    id
+    name
+    avatarUrl
+    webUrl
+  }
+  commit {
+    id
+    shortId
+    webUrl
+  }
+  mergeRequest {
+    id
+    webUrl
+    reference
+  }
+  retryable
+  cancelable
+}
+```
+
+Then we'll implement three specific queries for each context where the Pipelines Table appears:
+
+1. **Project Pipelines Query**:
+
+```graphql
+# queries/project_pipelines.query.graphql
+query getProjectPipelines($projectPath: ID!, $first: Int, $after: String, $filters: PipelineFilterInput) {
+  project(fullPath: $projectPath) {
+    id
+    pipelines(first: $first, after: $after, filters: $filters) {
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      nodes {
+        ...PipelineListFields
+        # Project-specific fields will be added here
+      }
+    }
+  }
+}
+```
+
+1. **Merge Request Pipelines Query**:
+
+```graphql
+# queries/merge_request_pipelines.query.graphql
+query getMergeRequestPipelines($projectPath: ID!, $mergeRequestIid: ID!, $first: Int, $after: String) {
+  project(fullPath: $projectPath) {
+    id
+    mergeRequest(iid: $mergeRequestIid) {
+      id
+      pipelines(first: $first, after: $after) {
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
+        nodes {
+          ...PipelineListFields
+          # MR-specific fields will be added here
+        }
+      }
+    }
+  }
+}
+```
+
+1. **Commit Pipelines Query**:
+
+```graphql
+# queries/commit_pipelines.query.graphql
+query getCommitPipelines($projectPath: ID!, $sha: String!, $first: Int, $after: String) {
+  project(fullPath: $projectPath) {
+    id
+    commit(sha: $sha) {
+      id
+      pipelines(first: $first, after: $after) {
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
+        nodes {
+          ...PipelineListFields
+          # Commit-specific fields will be added here
+        }
+      }
+    }
+  }
+}
+```
+
+#### Details Query
+
+The details query will be established once the UI designs for the expanded view are complete, as noted in the [Pipeline Details Schema](#pipeline-details-schema) decision.
 
 ### Key Design Decisions
 
@@ -338,3 +457,65 @@ To establish baseline performance measurements and set clear targets for improve
 | Merge Request Pipelines Tab | Average network response time                                     | 1.64 ms       | TBD    |
 
 We'll measure the success of this initiative by comparing pre and post-implementation metrics across these dimensions, with specific improvement targets as outlined in the Goals section.
+
+### Query Performance Comparison
+
+To thoroughly evaluate the performance improvements of our proposed changes, we've conducted a comparative analysis of three different query approaches using the same test dataset (project pipelines) in a controlled test environment:
+
+#### Query Approach Comparison
+
+| Approach                    | Description                                                        | Query Complexity                            | Server Response Time | Payload Size | Client Processing Time |
+|-----------------------------|--------------------------------------------------------------------|--------------------------------------------|---------------------|--------------|------------------------|
+| Current REST Implementation | Fetches all pipeline data including mini graphs in a single request | High (N+1 queries for stages/jobs)         | 1.35 seconds        | 256 KB       | 450 ms                 |
+| GraphQL Without UI Redesign | GraphQL implementation that maintains the same data structure as current REST API | Medium (Optimized queries but still fetching all data) | TBD                 | TBD          | TBD                    |
+| GraphQL With UI Redesign    | Two-tier GraphQL approach with separate list and details queries   | Low (Optimized for essential data only)    | TBD                 | TBD          | TBD                    |
+
+#### Detailed Query Analysis
+
+##### Current REST Implementation
+
+**Endpoint**: `GET /api/v4/projects/:id/pipelines?per_page=20`
+
+- **Complexity**: Triggers multiple database queries per pipeline for stages and jobs
+- **Data Returned**: Complete pipeline data including all stages and jobs
+- **Drawbacks**: Significant overhead for information that may not be viewed
+
+##### GraphQL Without UI Redesign
+
+**Endpoint**: GraphQL API with comprehensive pipeline data query
+
+- **Complexity**: Reduced database queries through batch loading
+- **Data Returned**: Same comprehensive dataset as REST
+- **Expected Improvement**: Some efficiency gains through GraphQL optimization
+
+##### GraphQL With UI Redesign
+
+**Primary Endpoint**: GraphQL API with lightweight pipeline list query
+**Secondary Endpoint**: GraphQL API with detailed pipeline information query (on-demand only)
+
+- **Complexity**: Minimal database queries for essential data only
+- **Data Returned**: Only data required for initial list view, with details fetched separately
+- **Expected Improvement**: Significant reduction in payload size and processing time
+
+#### Testing Methodology
+
+The performance metrics were gathered using the following methodology:
+
+- Test environment: Production GitLab instance
+- Test project: Mid-sized project with 20 pipelines (standard pagination size)
+- Measurement tools: Browser Developer Tools, GitLab performance monitoring
+- Metrics captured: Server processing time, payload size, client rendering time
+- Sample size: Average of 20 requests per implementation
+
+#### Expected Performance Improvements
+
+Based on preliminary testing, we anticipate the following improvements with the GraphQL UI redesign approach:
+
+| Metric                 | Expected Improvement |
+|------------------------|----------------------|
+| Server Response Time   | 65-70% reduction     |
+| Initial Payload Size   | 75-80% reduction     |
+| Client Rendering Time  | 50-60% reduction     |
+| Time to Interactive    | 60-65% reduction     |
+
+These expectations will be validated with comprehensive testing during implementation, with actual measurements to be added once available.
