@@ -88,7 +88,7 @@ Some initial validation steps will occur automatically:
 
 If any of these are inaccurate, the ticket will be closed.
 
-If a user submits a 2FA reset request ticket using the `2FA Assistance` category but does not use the `2FA removal` ticket subcategory, set the form subcategory to `2FA removal`. If the user is not eligible for support, the ticket will automatically close.
+If a user submits a 2FA reset request ticket using the `2FA Assistance` category but does not use the `2FA removal` ticket subcategory, set the form subcategory to `2FA removal`. If the ticket is obviously about 2FA reset but the customer didn't use any of the 2FA ticket categories, use the [`General::Forms::Incorrect form used` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Forms/Incorrect%20form%20used.md) to have Support Operations take the appropriate action on the ticket. If the user is not eligible for support, the ticket will automatically close.
 
 ##### Step 1: Checking challenge answers
 
@@ -184,7 +184,7 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 
 1. If the user is unable to pass the risk factor:
    1. Send the additional challenges with the `Support::SaaS::GitLab.com::2FA::Additional 2FA Challenges` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/Additional%202FA%20Challenges.md?ref_type=heads).
-   1. You can ask the owner to generate a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin) and provide it to us in a response to the ticket, as an owner vouch.
+   1. You can ask the owner to generate a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin) and provide it to us in a response to the ticket, as an owner vouch. NOTE: If another user is CC'd on the ticket, once you’ve verified the Support PIN ask the user to generate a new PIN to revoke the previous one.
    1. You may also leverage [Backup methods for authenticating an owner](#backup-methods-for-authenticating-an-owner).
 1. If the user is still unable to pass the risk factor:
    1. Inform them that without verification we will not be able to remove 2FA, use the `Support::SaaS::Gitlab.com::2FA::2FA Removal Verification - GitLab.com - Failed - Final Response` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20GitLab.com%20-%20Failed%20-%20Final%20Response.md?ref_type=heads).
