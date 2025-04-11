@@ -88,7 +88,7 @@ Purpose: These SME Pod channels are mainly for SME Program Leads, SME Area Leads
 | CICD/Runner               | #sme-ci-internal        |
 | Metrics & Observability   | #sme-metrics-internal   |
 
-### SME Public Channels
+### SME Public Channels {#sme-channels}
 
 These channels are open to all SMEs, Product Managers (PMs), and all field members. They serve to:
 
