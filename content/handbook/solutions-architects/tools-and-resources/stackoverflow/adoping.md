@@ -8,13 +8,14 @@ The process to ask a question, provide an answer, write Knowledge Articles/ How 
 ## Asking a Question
 
 Please refer to Stack Overflow training on
+
 - [Slack and Stack Overflow](https://fast.wistia.com/embed/channel/0dp7wdz6v5?wchannelid=0dp7wdz6v5&wmediaid=8enr7931re)
 - [Questions and Answers](https://fast.wistia.com/embed/channel/0dp7wdz6v5?wchannelid=0dp7wdz6v5&wmediaid=9am7itotlg)
 - [General User Enablement (Stack)](https://fast.wistia.com/embed/channel/0dp7wdz6v5?wchannelid=0dp7wdz6v5&wmediaid=susdknl5lj)
 
 ---
 
-1. Anyone with a question should do so in one of the [SME (Subject Matter Expert) Slack channels](handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-channels)
+1. Anyone with a question should do so in one of the [SME (Subject Matter Expert) Slack channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/sme-channels)
 1. Use the `/stack ask` prompt to ask a question 
 1. If a question was asked without the prompt `/slack ask`, another SA or CSM can nudge them to ask the question in Slack or select the content in Slack and use the Stack Overflow app to create it as a question. 
 1. Stack Overflow prompts the SA or CSM to enter the required data (Title, Body, Tags) 
