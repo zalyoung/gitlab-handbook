@@ -304,6 +304,19 @@ mutation chat(
 
 [See UI Design](https://gitlab.com/gitlab-org/gitlab/-/issues/523960).
 
+## Evaluations
+
+Codebase context enhancement can have different results depending on different factors such as the granularity of embeddings or the embeddings model used. Beyond the MVC iteration of this feature, we should evaluate the effectivity of different embeddings models, chunking granularity, and other approaches to embeddings.
+
+### Possible approaches for evaluation
+
+| Approach | Description |
+| -------- | ----------- |
+| **Size-based chunking** | Split files into chunks of fixed size or token count |
+| **Tree-sitter chunking** | Parse code structure using AST to create semantically meaningful chunks |
+| **Whole File Embedding** | Generate embeddings for entire file contents (blob content) |
+| **Different Embedding Models** | Use purpose-built models for code vs. general text models |
+
 ## Next Steps and Future Proofing
 
 ### Proposed steps for porting to the Agentic Chat architecture
