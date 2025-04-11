@@ -3,6 +3,13 @@ title: "High Velocity Sales - First Orders (formerly Global Digital SMB)"
 description: "Overview of the High Velocity Sales - First Orders Sales Model"
 ---
 
+## HVS-FO Sales Team Structure
+
+The HVS-FO Sales Team is comprised of these 3 sets of teams:
+- SMB Advocate Teams, covering global SMB accounts
+- New Logo Team, covering Base prospect accounts and Web Direct Mid-Market and Large inbound First Orders
+- SMB Renewals Teams, covering global SMB renewals
+
 ## SMB Sales Model
 
 - [FY26 Global Digital SMB Kick-Off deck](https://docs.google.com/presentation/d/1CWimjCJkcO7mIJJejv75JLCI1XNB6cReciRZab9U6q0/edit#slide=id.g2b17593787a_0_275)
