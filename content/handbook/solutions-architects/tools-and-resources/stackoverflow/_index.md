@@ -14,9 +14,9 @@ The purpose is to:
 
 Note the GitLab support organization utilizes ZenDesk for its [knowledge base services](/handbook/support/knowledge-base/).
 
-Everyone in the Solution Architecture (SA), Customer Success (CS), Professional Services (PS) and SMB sales teams organizations, has access to the Stack Overflow for Teams via Okta and is able to answer questions or provide responses directly via web interface
+Everyone in the Solution Architecture (SA), Customer Success (CS), Professional Services (PS) and SMB sales teams organizations, has access to the Stack Overflow for Teams via Okta and is able to answer questions or provide responses directly through the web interface.
 
-Additionally, it is possible to interact with Stack Overflow using Slack integration via following commands:
+Additionally, it is possible to interact with Stack Overflow using Slack integration using following commands:
 
 - `/stack ask How do I do X?` to ask a question directly via Slack
 - `/stack search [search term]` to search for questions and answers
@@ -64,5 +64,5 @@ You can use this as a guide when deciding what should be in [Highspot/ SME Hub](
 
 1. [**Onboarding and Off-boarding**](/handbook/solutions-architects/tools-and-resources/stackoverflow/onboarding): The process and workflow to onboard and offboard SAs, CS, PSEs, SMBs and Dev Advocates onto and off Stack Overflow is described here.
 1. [**Administration**](/handbook/solutions-architects/tools-and-resources/stackoverflow/administration): Community management, becoming a moderator, tag maintenance, and integrations with Slack, Okta and others are described here.
-1. [**Adopting StackOverfow KB**](/handbook/solutions-architects/tools-and-resources/stackoverflow/adoping): The process to ask a question, provide an answer, write Knowledge Articles/ How to Guides, improving GitLab docs from Stack Overflw content is described here. 
-1. [**Measuring StackOverflow Impact**](/handbook/solutions-architects/tools-and-resources/stackoverflow/outomes): How to become and Grow as a SME, and how to measure outcomes achieved is described here
+1. [**Adopting StackOverfow KB**](/handbook/solutions-architects/tools-and-resources/stackoverflow/adoping): The process to ask a question, provide an answer, write Knowledge Articles/ How to Guides, improving GitLab docs from Stack Overflow content is described here.
+1. [**Measuring StackOverflow Impact**](/handbook/solutions-architects/tools-and-resources/stackoverflow/outomes): How to become and Grow as a SME, and how to measure outcomes achieved is described here.
