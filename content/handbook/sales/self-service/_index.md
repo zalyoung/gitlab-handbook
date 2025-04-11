@@ -1,17 +1,17 @@
 ---
-title: "Self-Service at GitLab"
-description: "The Self-Service Team is responsible for delivering a cohesive GTM that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription"
+title: "High Velocity Sales and First Orders Team at GitLab"
+description: "The High Velocity Sales and First Orders is responsible for delivering a cohesive GTM that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## Welcome to the Self-Service Handbook
+## Welcome to the High Velocity Sales and First Orders Handbook
 
 {{% alert color="success" %}}
-The Self-Service Team is responsible for delivering a cohesive go-to-market (GTM) that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription.
+The High Velocity Sales and First Orders Team is responsible for delivering a cohesive go-to-market (GTM) that enables customers and prospects to self-serve: from discovery and adoption, purchasing, expanding, and managing their GitLab subscription.
 {{% /alert %}}
 
-## Self-Service Vision
+## High Velocity Sales and First Orders Vision
 
 GitLab engages with customers on their terms, offering seamless self-service options.  We deliver a best in class self-service experience for discovering & adopting GitLab, purchasing, expanding and managing your GitLab subscription.
 
@@ -19,7 +19,7 @@ We are easy to do business with. Our customers get time back to do what matters 
 
 We are a showcase of GitLab's culture. Interacting with us is flexible, asynchronous enabled and transparent.
 
-## Navigating the Self-Service Handbook
+## Navigating the High Velocity Sales and First Orders Handbook
 
 <div class="flex-row" markdown="0" style="height:90px;">
   <a href="#our-strategy" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Our Strategy</a>
