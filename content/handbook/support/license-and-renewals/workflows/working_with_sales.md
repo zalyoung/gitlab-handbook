@@ -44,7 +44,7 @@ Using either the email address or the form will result in the creation of a Sale
 
 #### If the Salesforce `Account Owner` is `AMER|EMEA|APJ SMB Sales User`
 
-- Follow this [process](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case, OR
+- Follow this [process](/handbook/sales/commercial/high_velocity_sales_first_orders/#working-with-the-global-digital-smb-account-team) to create a case, OR
 Slack message the #hvs_public channel.
   - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
   - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
