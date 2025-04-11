@@ -117,6 +117,7 @@ Think of a collection as a folder than span multiple Tags.
 TBD: We would like to use Collections for onboarding SMEs into the various SME Areas.
 
 Suggested Collections (based on appropriate tags) would be around 
+
 - Each SME Area: AI, Dedicated, App Sec, Agile Planning, CICD, Metrics & Observation
 - Each Veritical: Financials, Embedded DevOps, Telecommunications
 
@@ -129,6 +130,7 @@ Please refer to Stack Overflow training on
 ---
 
 Suggested Communities of Practices (based on appropriate tags) should be aliged with Product focuses such as 
+
 - Modernization & Analytics
 - AI
 - Core DevOps Workflows
