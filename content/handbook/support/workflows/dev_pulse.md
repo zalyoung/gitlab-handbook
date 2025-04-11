@@ -31,7 +31,8 @@ To mark a ticket as waiting on a bug issue or MR, take the following steps:
 1. Apply the macro `General::Waiting on bug resolution`
 
 Submit the update as `On-hold` (the macro should default it to that for you) and
-the process has been initiated.
+the process has been initiated. The issue will be checked for updates once per
+month, and the ticket status set accordingly.
 
 ### How to mark a ticket as waiting on a feature request issue or MR
 
@@ -44,7 +45,8 @@ following steps:
 1. Apply the macro `General::Waiting on feature request resolution`
 
 Submit the update as `On-hold` (the macro should default it to that for you) and
-the process has been initiated.
+the process has been initiated. The issue will be checked for updates once per
+month, and the ticket status set accordingly.
 
 ### How to mark a ticket as waiting on a RFH
 
