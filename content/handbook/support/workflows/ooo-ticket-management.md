@@ -73,11 +73,11 @@ flowchart TD
     OtherRegions -->|Not Found| EscalateManager[Escalate to Manager]
     
     WarmHandover --> PairingSession[Pairing Session/Slack Discussion]
-    PairingSession --> ApplyMacro[Apply OOO Ticket Summary Macro]
+    PairingSession --> ApplyMacro[Apply Out Of Office Summary Macro]
     
     NormalPriority --> InformCustomer[Inform Customers of Absence]
     InformCustomer --> SetPending[Set to Pending Status]
-    SetPending --> ApplyMacro[Apply OOO Ticket Summary Macro]
+    SetPending --> ApplyMacro[Apply Out Of Office Summary Macro]
     
     
     subgraph MacroDetails [out of office summary]
