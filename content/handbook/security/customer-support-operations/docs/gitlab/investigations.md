@@ -1,29 +1,29 @@
 ---
 title: Investigations
-description: Operations documentation page for doing an research spike or feasibility investigation
+description: Operations documentation page for doing a research spike or feasibility investigation
 canonical_path: "/handbook/security/customer-support-operations/docs/gitlab/investigations"
 ---
 
-# Introduction
+## Introduction
 
 As we look at different ways of doing things, our operating question should be "How?". An investigation issue is an opportunity to
 come up with creative solutions to solving the challenging problems our business faces.
 
 The outcome of an investigation issue is an artifact that will help a DRI make an informed decision on a topic where there may be tradeoffs or nuance involved.
 
-# Performing an investigation
+## Performing an investigation
 
 There's no set way to go about this, but rather a loose set of guidelines.
 
-1. Right size your effort: the idea isn't to _solve_ the proble but build personal expertise and a portfolio of possible solutions.
+1. Right size your effort: the idea isn't to _solve_ the problem but build personal expertise and a portfolio of possible solutions.
 1. Consider commercial solutions: development and maintenance costs are not always worth it! If there's an off-the-shelf solution, it should be considered.
-1. Consider Dogofooding: if there's a feature of our product that can be used it should be seriously considered.
+1. Consider Dogfooding: if there's a feature of our product that can be used it should be seriously considered.
 1. Document critical blockers early: If you discover a fundamental issue that would prevent a particular approach from working, document it immediately rather than continuing down that path.
 1. Consider sustainability: Evaluate how solutions will scale with increased load and what maintenance burden they'll create over time. Factor in dependencies on third-party systems and their stability.
 1. Consult stakeholders: Talk to the people who will be using or affected by the solution. Their insights into daily workflows and pain points are invaluable.
 1. Consider boring solutions: Favor proven, simple approaches over novel or complex ones. The most reliable solutions are often those with established track records, even if they seem less exciting. Balance implementation timeline, security requirements, and resource constraints accordingly.
 
-# Deliverables
+## Deliverables
 
 A good engineering investigation should produce:
 
@@ -35,7 +35,7 @@ A good engineering investigation should produce:
 
 Remember, the goal is to provide decision-makers with the information they need to choose the best path forward, not to make the final decision yourself at the point of the investigation.
 
-# Example Template
+### Example Template
 
 The following is just an example template to help you get started. Please, modify it as is appropriate to the situation!
 
@@ -127,14 +127,14 @@ The following is just an example template to help you get started. Please, modif
 ## Comparative Analysis
 
 | Criteria | Commercial Solution 1 | Commercial Solution 2 | Custom Option 1 | Custom Option 2 | Custom Option 3 |
-|----------|----------------------|----------------------|----------------|----------------|----------------|
-| Development Time | [Rating] | [Rating] | [Rating] |
-| Maintenance Complexity | [Rating] | [Rating] | [Rating] |
-| Scalability | [Rating] | [Rating] | [Rating] |
-| Performance | [Rating] | [Rating] | [Rating] |
-| User Experience | [Rating] | [Rating] | [Rating] |
-| Security | [Rating] | [Rating] | [Rating] |
-| Cost | [Rating] | [Rating] | [Rating] |
+|----------|-----------------------|-----------------------|-----------------|-----------------|-----------------|
+| Development Time | [Rating] | [Rating] | [Rating] | [Rating] | [Rating] |
+| Maintenance Complexity | [Rating] | [Rating] | [Rating] | [Rating] | [Rating] |
+| Scalability | [Rating] | [Rating] | [Rating] | [Rating] | [Rating] |
+| Performance | [Rating] | [Rating] | [Rating] | [Rating] | [Rating] |
+| User Experience | [Rating] | [Rating] | [Rating] | [Rating] | [Rating] |
+| Security | [Rating] | [Rating] | [Rating] | [Rating] | [Rating] |
+| Cost | [Rating] | [Rating] | [Rating] | [Rating] | [Rating] |
 
 ## Recommendation
 [Clear statement of recommended approach with justification]
