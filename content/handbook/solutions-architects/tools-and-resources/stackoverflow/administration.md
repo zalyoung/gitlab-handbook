@@ -3,7 +3,7 @@ title: Adminstration of StackOverflow
 description: Administration of StackOverflow
 ---
 
-Community management, becoming a moderator, tag maintenance, and integrations with Slack, Okta and others are descrbed here.
+Community management, becoming a moderator, tag maintenance, and integrations with Slack, Okta and others are described here.
 
 ## Roles
 
