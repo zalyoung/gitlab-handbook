@@ -57,13 +57,13 @@ Please use [this template](https://gitlab.com/gitlab-com/it/end-user-services/is
 
 The old laptop must be [wiped](/handbook/it/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**. We recommend using [AirDrop](https://support.apple.com/guide/mac-help/use-airdrop-to-send-items-to-nearby-devices) or [Google Drive](/handbook/tools-and-tips/#adding-google-drive-to-your-mac) to transfer files directly from the old to the new MacBook.
 
-After 3 years of use, the team member may retain the old laptop after it has been wiped at no cost. Note that the option to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), as well as other legal or security related inquiries. Please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy) below.
+After 3 years of use, the team member may retain the old laptop after it has been wiped at no cost. Note that the option to keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause, any violation of [GitLab’s Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), as well as other legal or security related inquiries. Please also refer to our [Laptop Buyback Policy](#laptop-buyback-policy).
 
 ### GitLab Laptop Replacement Program
 
-We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you are not yet eligible for a 3 year refresh. Replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
+We get it, sometimes things change (or break)! If your laptop is not sufficient for your role, you can request a replacement laptop if you are not yet eligible for a 3 year refresh. Replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
 
-Replacement laptops can be requested by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job duties, internal transfer to a new role) Replacements will require approval from IT as well as your manager within the issue.
+Replacement laptops can be requested by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job duties, internal transfer to a new role, damage) Replacements will require approval from IT as well as your manager within the issue.
 
 Many team members can use their company issued laptop until it breaks. If your productivity is suffering, you can request a new laptop. The typical expected timeframe for this is about three years, but it can depend on your usage and specific laptop.
 
@@ -147,11 +147,11 @@ NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased
 
 #### Apple Hardware
 
-Chipset specifications not listed as they will vary based on current inventory levels.
+Laptop configuration, including memory and storage are based on current regional inventory levels. Chip will be M3 at minimum. 
 
-* MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
-* MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
-* MacBook Pro 14-inch - 36GB Unified memory / 1TB storage **Performance model**
+* MacBook Pro 14-inch - 16-32GB memory / 512GB-1TB storage  **Standard model**
+* MacBook Pro 16-inch - 36-64GB memory / 1TB storage **Performance model**
+* MacBook Pro 14-inch - 36-64GB memory / 1TB storage **Performance model**
 
 Most roles that require higher performance machines are approved for a 14" or 16" MacBook Pro performance model. Please see this [spreadsheet](https://docs.google.com/spreadsheets/d/1OuC0_iliCzASKfOhDLWO4fBmDS-uL3VGRMI6063R6tk/edit?usp=sharing) (public) to locate your department group and determine which machine you are eligible for.
 
