@@ -80,7 +80,7 @@ When a customer requests a subscription extension, follow the steps below based 
         - Inform the customer that such requests have to be channeled through sales and provide them with their AE's email address before closing the ticket.
         - Notify the Account Executive (AE) through Chatter to ensure they are aware of the request.
     **SMB Customers:**
-        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
+        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](/handbook/sales/commercial/high_velocity_sales_first_orders/#working-with-the-global-digital-smb-account-team) handbook page.
         - Provide the Salesforce (SFDC) ticket ID to the customer.
         - Close the ticket.
 
