@@ -91,14 +91,23 @@ community members.
 A good summary is probably at least a paragraph in length.
 -->
 
-This proposal addresses four key goals for our database load balancing system.
-We will extract load balancing into a separate gem for better maintainability
-and independent testing. We aim to move load balancing out of the
-request/response path, preventing health check issues from affecting application
-traffic. The new architecture will reduce primary database load by optimizing
-query distribution across replicas, while improving system resilience by
-operating with slightly outdated information rather than failing requests when
-perfect accuracy isn't possible.
+This is a proposal to rewrite our database load balancing system to increase resiliency,
+and then to rely on this increased resiliency to safely push more read traffic to replicas.
+
+We will move all replica health checking operations, including both replication lag checks
+and LSN checks (where we ask if a replica has replayed a specific write yet), off
+of the web request / sidekiq worker threads, and build in timeouts so that misbehaving
+replica databases cannot ever block web request / sidekiq threads during these checks.
+
+With a more robust mechanism for LSN checks, it will be possible to safely perform
+many LSN checks partway through a web request or sidekiq job. We will use this to
+move web requests and jobs back to replicas after they perform a write as soon as
+a replica has caught up to that write.
+
+This will reduce read query traffic to the primary database, buying headroom.
+
+We will also move the load balancing code to a gem in order to test it more thoroughly,
+and we will develop a safer, more sophisticated deployment strategy for the load balancer code.
 
 ## Motivation
 
