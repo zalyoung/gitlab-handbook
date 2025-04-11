@@ -39,7 +39,7 @@ If in the rare case your laptop arrives damaged or unusable prior to your start 
 
 Read the ["What to know about a fake job scam impersonating GitLab"](https://about.gitlab.com/blog/2023/06/29/fake-gitlab-job-scam/) blog post to learn the warning signs and how to protect yourself.
 
-#### Self procurement
+### Self procurement
 
 **Cost will not be covered by GitLab without proper approval**
 
