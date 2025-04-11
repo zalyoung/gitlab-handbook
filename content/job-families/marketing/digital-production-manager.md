@@ -1,28 +1,28 @@
 ---
-title: "Digital Production Roles"
-description: "Learn more about Digital Production roles, responsibilities and requirements."
+title: "Brand Video Roles"
+description: "Learn more about Brand Video roles, responsibilities and requirements."
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nBSQmB_ruco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Digital Production Coordinator
+## Video Production Coordinator
 
-The Digital Production Coordinator reports to the Senior Manager, Video.
+The Video Production Coordinator reports to the Senior Manager, Video.
 
 ### Job Grade
 
-The Digital Production Coordinator is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Video Production Coordinator is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
-- Work with producers and manager of Digital Production to coordinate filming locations and shoot schedules
+- Work with producers and manager of brand video to coordinate filming locations and shoot schedules
 - Support production needs at large shoots and events, i.e. scouting on-site interview locations, wrangling interviewees, assisting crew and producers, etc.
-- Assist with communications and management of digital production contractors
+- Assist with communications and management of brand video contractors
 - Assist with video and audio content organization and maintain libraries
 - Maintain quote library database
 - Assist with managing YouTube channels, including community translation requests
 - Ensure that videos on the YouTube channel tracking mechanisms
-- Coordinate onboarding and maintenance of Digital Production tools
+- Coordinate onboarding and maintenance of video production tools
 - Assist with video metric tracking and reports
 - Assist with reviewing externally submitted videos
 - Treatment, scriptwriting and budget-tracking assistance
@@ -30,7 +30,7 @@ The Digital Production Coordinator is a [grade 5](/handbook/total-rewards/compen
 
 ### Requirements
 
-- Bachelor’s Degree or extensive training in broadcast journalism, film & television, or audio/video production
+- Bachelor's Degree or extensive training in broadcast journalism, film & television, or audio/video production
 - 2+ years of production experience and at least 1 year of marketing experience
 - Extremely detail-oriented and organized
 - Excellent writing, communication and time-management skills
@@ -44,13 +44,13 @@ The Digital Production Coordinator is a [grade 5](/handbook/total-rewards/compen
 - Ability to use GitLab
 - BONUS: A passion and strong understanding of the industry and our mission
 
-## Digital Producer
+## Video Producer
 
-The Digital Production Coordinator reports to the Senior Manager, Video.
+The Video Producer reports to the Senior Manager, Video.
 
 ### Job Grade
 
-The Digital Producer is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Video Producer is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -67,7 +67,7 @@ The Digital Producer is a [grade 6](/handbook/total-rewards/compensation/compens
 
 ### Requirements
 
-- Bachelor’s Degree or extensive training in broadcast journalism, film & television, or audio/video production
+- Bachelor's Degree or extensive training in broadcast journalism, film & television, or audio/video production
 - 3+ years of solid video production work experience and at least 1 year of marketing experience
 - Must be a creative self-starter with exceptional multimedia storytelling skills
 - Excellent writing, communication and time-management skills
@@ -82,13 +82,13 @@ The Digital Producer is a [grade 6](/handbook/total-rewards/compensation/compens
 - Ability to use GitLab
 - BONUS: A passion and strong awareness of the industry and our mission
 
-## Senior Digital Producer
+## Senior Video Producer
 
-The Digital Production Coordinator reports to the Senior Manager, Video.
+The Senior Video Producer reports to the Senior Manager, Video.
 
 ### Job Grade
 
-The Senior Digital Producer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Video Producer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -104,7 +104,7 @@ The Senior Digital Producer is a [grade 7](/handbook/total-rewards/compensation/
 
 ### Requirements
 
-- Bachelor’s Degree or extensive training in broadcast journalism, film & television, or audio/video production
+- Bachelor's Degree or extensive training in broadcast journalism, film & television, or audio/video production
 - 5+ years of solid work experience in video and audio production and at least 1 year of marketing experience
 - Must be a creative self-starter with exceptional multimedia storytelling skills
 - Excellent communication, writing and time management skills
@@ -121,4 +121,4 @@ The Senior Digital Producer is a [grade 7](/handbook/total-rewards/compensation/
 
 ### Career Ladder
 
-The next step in the Digital Production job family is not yet defined at GitLab.
+The next step in the Brand Video job family is not yet defined at GitLab.

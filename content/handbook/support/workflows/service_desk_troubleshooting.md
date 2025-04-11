@@ -7,16 +7,16 @@ description: Basic process on troubleshooting Service Desk within GitLab.com.
 
 ## Overview
 
-Users can experience various issues while utilizing [Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/). This guide walks through troubleshooting when an email does not generate a Service Desk issue.
+Users can experience various issues while utilizing [Service Desk](https://docs.gitlab.com/user/project/service_desk/). This guide walks through troubleshooting when an email does not generate a Service Desk issue.
 
 See also, the [Service Desk runbook doc](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/service_desk).
 
 ## Troubleshooting Steps
 
 1. When an issue related to Service Desk is received, verify with the customer these common occurrences are not applicable:
-    1. [Service Desk not sending to CC:](https://gitlab.com/gitlab-org/gitlab/-/issues/4652)
-    1. [Attachments cannot be over 10MB](https://gitlab.com/gitlab-org/gitlab/-/issues/20061)
-    1. [Emails with `Auto-Submitted` or `X-Autoreply` in the header are ignored](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/email/receiver.rb#L141-159)
+    1. [Attachments cannot be over 100MiB](https://docs.gitlab.com/user/gitlab_com/#account-and-limit-settings)
+    1. [Emails with `Auto-Submitted` or `X-Autoreply` in the header are ignored](https://docs.gitlab.com/administration/incoming_email/#rejected-headers)
+    1. See the [Participants in Service Desk](https://gitlab.com/groups/gitlab-org/-/epics/3758) epic for known limitations.
 
 1. If known issues above are not the cause, request the following from the user:
     1. The source email (including headers) for an example email sent to the Service Desk which did not create an issue. If possible, request the source email be provided as an `.eml` file to preserve the email headers.
@@ -27,11 +27,10 @@ See also, the [Service Desk runbook doc](https://gitlab.com/gitlab-com/runbooks/
            1. In Rails: Sender's IP address (`json.remote_ip`)
            1. In Sidekiq: Service Desk Email (`json.to_address`)
            1. In Sidekiq: Message ID (`json.mail_uid`)
-        1. You may also search Kibana using [this query](https://log.gprd.gitlab.net/app/discover#/?_g=h@d382f30&_a=h@c35a7c3) and filtering on the `json.meta.project` attribute.
         1. Search the `mg.gitlab.com` mail logs in [Mailgun](https://app.mailgun.com/app/sending/domains/mg.gitlab.com/) for suppressions
         1. Create an issue in the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues) providing all information found
     1. Did the sender receive a reply (failure)? **If no**,
-        1. Send a Slack message to [#production](https://gitlab.slack.com/messages/C101F3796), asking for a check of the spam folder in the `incoming` gmailbox for the Service Desk target email
+        1. Send a Slack message to [#production](https://gitlab.enterprise.slack.com/archives/C101F3796), asking for a check of the spam folder in the `incoming` gmailbox for the Service Desk target email
 
 ## Email to Service Desk Email Flow
 

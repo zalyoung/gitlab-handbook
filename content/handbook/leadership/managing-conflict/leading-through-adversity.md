@@ -20,13 +20,13 @@ In the article [5 C's of adversity](https://www.cbsnews.com/news/the-five-cs-of-
 
 ### Tips for weathering storms
 
-In article [Leadership during adversity - 5 tips to help weather the storm](https://www.michaelpage.com.au/advice/management-advice/leadership/leadership-during-adversity-%E2%80%93-5-tips-help-weather-storm)  by the Michael Page team they list the following as a guide for leaders to be successful:
+In article [Leadership during adversity - 5 tips to help weather the storm](https://web.archive.org/web/20210514014535/https://www.michaelpage.com.au/advice/management-advice/leadership/leadership-during-adversity-%E2%80%93-5-tips-help-weather-storm)  by the Michael Page team they list the following as a guide for leaders to be successful:
 
 1. **Encourage transparent, open and honest communication**: Transparency is one of our core values. Leaders should share what they can with team members at the appropriate time.
 1. **Communicate a realistic strategy and keep moving forward**: Iteration is even more important at this time. Keep your teams focused and moving toward the department, division or organizational goals.
 1. **Focus on what you can control**: Keep focusing your teams on the producing Results.
 1. **Create small wins and motivating environment**: Efficiency and boring solutions should still be a focus for the team.
-1. **Take care of your team**: [Family first]({{< ref "values#family-and-friends-first-work-second" >}}) is part of our Diversity, Inclusion & Belonging  values and as a manager making sure your team members are taken care of as well as yourself is even more important during difficult times.
+1. **Take care of your team**: [Family first](/handbook/values/#family-and-friends-first-work-second) is part of our Diversity, Inclusion & Belonging  values and as a manager making sure your team members are taken care of as well as yourself is even more important during difficult times.
 
 ## Additional resources
 
@@ -39,6 +39,6 @@ If you are facing challenges within your team and are looking for help and guida
 - [John Addison: The 5 A's of leading Through Adversity](https://www.success.com/john-addison-the-5-as-of-leading-through-adversity/)
 - [15 Trust-Building Practices for Leaders](https://www.success.com/15-trust-building-practices-for-leaders/)
 - [The Five "C's" of a Trusted Leader](https://www.smartdraw.com/management/five-cs-of-a-trusted-leader.htm)
-- [Leading Effectively in Chaos and Uncertainty](https://hbr.org/2009/02/leading-effectively-in-chaos-a.html)
+- [Leading Effectively in Chaos and Uncertainty](https://hbr.org/2009/02/leading-effectively-in-chaos-a)
 - [Five Cs of Leadership](https://sixth.ucsd.edu/_files/_home/student-life/five-cs-of-leadership.pdf)
-- [10 Quotes About Overcoming Adversity From Leaders Who've Done It](https://www.growwire.com/quotes-about-overcoming-adversity)
+- [10 Quotes About Overcoming Adversity From Leaders Who've Done It](https://www.netsuite.com/portal/resource/articles/business-intelligence/quotes-about-overcoming-adversity.shtml)

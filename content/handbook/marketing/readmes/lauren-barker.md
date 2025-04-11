@@ -5,7 +5,7 @@ description: "Learn more about working with Lauren Barker"
 
 ## Lauren Barker README
 
-I'm [Lauren Barker](/handbook/company/team/#laurenbarker), Engineering Manager for Digital Experience. I lead by creating inclusive environments that empower teams to exceed their goals. I do this with strategic collaboration, communication, and a dose of humor. [I'm currently working on these projects](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3289410?iteration_id=Current&assignee_username=laurenbarker).
+I'm [Lauren Barker](/handbook/company/team/#laurenbarker). I lead by creating inclusive environments that empower teams to exceed their goals. I do this with strategic collaboration, communication, and a dose of humor. 
 
 ### How I work
 
@@ -27,9 +27,9 @@ Team 1:1s are a meeting where I listen to your concerns and ideas, and strive to
 
 To keep notes, we have an ongoing Google document and for topic inspiration, we have an optional template.
 
-#### Myers-Briggs Personality type:
+#### Myers-Briggs Personality type
 
-🔗[**“The Protagonist”** (ENFJ-A/ENFJ-T)](https://www.16personalities.com/articles/assertive-protagonist-enfj-a-vs-turbulent-protagonist-enfj-t)
+🔗[**"The Protagonist"** (ENFJ-A/ENFJ-T)](https://www.16personalities.com/articles/assertive-protagonist-enfj-a-vs-turbulent-protagonist-enfj-t)
 
 **Individual traits:**
 
@@ -69,8 +69,8 @@ These are books that have made an impact on me along with a great book on baking
 - 📖 I'm a lifelong learner who values knowledge and teamwork.
 - 🍸 Coffee or wine please.
 
-
 ### How to reach me
+
 In order of my own preferences, but please use whatever channel suits you best:
 
 GitLab TODOs `@laurenbarker`

@@ -7,13 +7,13 @@ The People Group Engineering team aims to reduce as much manual work as possible
 
 ## Career Mobility
 
-Note: this section only discusses items in the offboarding where People Engineering was involved. You can read more about promotions and transfers at GitLab on [this handbook page]({{< ref "promotions-transfers" >}})
+Note: this section only discusses items in the offboarding where People Engineering was involved. You can read more about promotions and transfers at GitLab on [this handbook page](/handbook/people-group/promotions-transfers/)
 
 ## Timeline Flow
 
 ```mermaid
 graph TD
-  A[PEA triggers Slack command for career mobility issue] --> B
+  A[People Connect triggers Slack command for career mobility issue] --> B
   B[Career mobility issue is created, team member is assigned] --> C
   C[Career mobility issue is automatically marked confidential] --> D
   D[Manager and Interview training issues are opened if people manager] --> E
@@ -32,7 +32,7 @@ The issue will be automatically assigned to the following people:
 - the new manager of the team member
 - the People Business Partner for the team member's department or division
 
-This issue is then added to the [team member's epic]({{< ref "/handbook/people-group/engineering/employment-issues#epics" >}}).
+This issue is then added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
 ## Make confidential
 
@@ -42,8 +42,45 @@ Sometimes, issues are created by humans instead of a bot, in this case they can 
 
 This is the same as the manager an interview training issues we create for onboarding. Except that for onboarding we only create it after day 7 and for career mobility we create it at the same time as the career mobility issue.
 
-Read [here]({{< ref "/handbook/people-group/engineering/onboarding#manager-and-interview-training-issues" >}})
+Read [here](/handbook/people-group/engineering/onboarding#manager-and-interview-training-issues)
+
+## Baseline Entitlements / Access Request
+
+Once per day we run a job to open any baseline entitlment access requests for the team members new role. This is handled by the `dailycareermobilityaccessrequests` job in the employment automation project. This job can also be ran utilize `/pops` to run adhoc.
 
 ## Access request reminders
 
 A job is scheduled to run once per day to look for career mobility issues that have been opened for 5 days. If the team member for whom a career mobility issue was opened has not been mentioned in any access requests since their career mobility issue was opened, an note is created on the career mobility issue to remind the participants to create the necessary access requests.
+
+## Template Placeholders
+
+Career Mobility templates can make use of the following placeholders to be replaced with different tags of content. See the table below.
+
+| Placeholder | Description |
+| --- | --- |
+| `__NAME__` | Team members display name |
+| `__TEAM_MEMBER_HANDLE__` | Team members GitLab username |
+| `__MANAGER_HANDLE__` | New manager GitLab username |
+| `__MANAGER_NAME__` |  New manager display name |
+| `__PREVIOUS_MANAGER_HANDLE__` | Previous manger GitLab username |
+| `__PEOPLE_EXPERIENCE_HANDLE__` | People Connect Specialist GitLab username |
+| `__NEW_ROLE_NAME__` | Job title of the new role. |
+| `__PREVIOUS_ROLE_NAME__` | Job title of the previous role. |
+| `__TRANSITION_DATE__` | The date of the transition into the new role. Format: YYYY-MM-DD |
+
+<details><summary>Example how to use</summary>
+
+```mrkdwn
+### This is my template for `__NEW_ROLE_NAME__`
+
+#### `__MANAGER_HANDLE__` To Do
+- [ ] 123
+- [ ] abc
+
+#### `__PREVIOUS_MANAGER_HANDLE__` To Do
+
+- [ ] 123
+- [ ] abc
+```
+
+</details>

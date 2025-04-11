@@ -1,12 +1,6 @@
 ---
-
 title: "Go-To-Market Integrated Environments"
 ---
-
-
-
-
-
 
 ## How to use this documentation
 
@@ -24,7 +18,7 @@ Our production systems are integrated by either stock or internally developed in
 
 Status: Integrated and Running.
 
-![Go-To-Market Production SaaS Environments](/handbook/sales/images/gtm-production.png)
+![Go-To-Market Production SaaS Environments](/images/sales/gtm-production.png)
 
 ## Staging
 

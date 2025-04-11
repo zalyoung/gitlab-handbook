@@ -37,10 +37,10 @@ The Director, Sales Development is a [grade 10](/handbook/total-rewards/compensa
 - Ability to attract, retain, and motivate exceptional SDRs and SDR managers.
 - Have a general understanding of Git, GitLab, and modern development practices.
 - A broad knowledge of the application development ecosystem.
-- Awareness of industry trends in enterprise digital transformation, devops, and continuous integration.
+- Awareness of industry trends in enterprise digital transformation, DevOps, and continuous integration.
 - Excellent written and spoken English.
 - Able to articulate the GitLab mission, values, and vision.
-- [GitLab Director](/handbook/company/team/structure/#director-group)
+- [GitLab Director](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ### Director, Global Business Development
@@ -75,10 +75,10 @@ The Director, Global Business Development is a [grade 10](/handbook/total-reward
 - Ability to attract, retain, and motivate exceptional BDRs and Business Development managers.
 - Have a general understanding of Git, GitLab, and modern development practices.
 - A broad knowledge of the application development ecosystem.
-- Awareness of industry trends in enterprise digital transformation, devops, and continuous integration.
+- Awareness of industry trends in enterprise digital transformation, DevOps, and continuous integration.
 - Excellent written and spoken English.
 - Able to articulate the GitLab mission, values, and vision.
-- [GitLab Director](/handbook/company/team/structure/#director-group)
+- [GitLab Director](/handbook/company/structure/#director-group)
 - Ability to use GitLab.
 
 ### Area Vice President, Sales Development
@@ -142,7 +142,7 @@ The next step in the Sales Development Leadership job family has not yet been de
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Candidates will then meet with the Senior Director of Revenue Marketing.
 - Candidates will then be asked to schedule an interview with the Manager of Field Marketing, Americas.
 - Candidates will then meet with the CMO.
@@ -154,4 +154,4 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ### Relevant links
 
-- [Sales Development Handbook](/handbook/marketing/revenue-marketing/sdr/)
+- [Sales Development Handbook](/handbook/marketing/sales-development/)

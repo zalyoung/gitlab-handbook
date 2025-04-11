@@ -2,56 +2,50 @@
 title: "Security Shadow: Security Assurance"
 ---
 
-Completion of each course you will receive a certificate.  At the completion of all 3 courses your name will be recognized on this page.
-
 ## Security Compliance
 
-[Security Compliance:]({{< ref "_index.md#security-compliance" >}}) Where “Just do whatever you want” comes to die.
-Have you ever wondered where all those pesky security requests and requirements come from and why in the world you’re always being asked to provide evidence and talk through how systems are designed and configured? Well then good news! Come join the security compliance team for a shadow rotation where we’ll have you:
+Security Compliance: Where "Just do whatever you want" comes to die.
+Have you ever wondered where all those security requests and requirements come from and why in the world you're always being asked to provide evidence and talk through how systems are designed and configured? Well then good news! Come join the security compliance team for a shadow rotation where we'll have you:
 
 - Reading through information security framework documentation
 - Reviewing system access
 - Creating information security policies and standards
-- Testing security controls to see if what we want to have happen within our systems is what’s actually happening
+- Testing security controls to see if what we want to have happen within our systems is what's actually happening
 
-After a couple weeks with the team you’ll have a basic understanding of where these requirements come from and you’ll make compliance friends for the rest of your life when auditors come to you in the future and you can say “Let’s talk about the spirit of this control and figure out the easiest way to get you the evidence you need.”
-
-If you have any questions please reach out in #sec-assurance and we’ll be happy to tell you more!
-
-### Schedule / Topics Covered:
+### Schedule / Topics Covered
 
 #### SC101.1: Security Control Testing
 
- - Understanding the spirit of a security control
- - Common control requirements mapping
- - Control implementation statements
- - Evidence requests
- - Test of design (TOD)
- - Test of operating effectiveness (TOE)
- - Observations, notes, and information output
+- Understanding the spirit of a security control
+- Common control requirements mapping
+- Control implementation statements
+- Evidence requests
+- Test of design (TOD)
+- Test of operating effectiveness (TOE)
+- Observations, notes, and information output
 
 #### SC101.2: Terminated User Access Review
 
- - Overview of process
- - Review of compliance requirements
- - User listing requests
- - Identifying terminated users
- - Reporting back to system owners
- - Review of access review automation
+- Overview of process
+- Review of compliance requirements
+- User listing requests
+- Identifying terminated users
+- Reporting back to system owners
+- Review of access review automation
 
-### Course Length:
+### Course Length
 
 3 days, 6-9 hours
 
-### Team Manager:
+### Team Manager
 
-Jeff Burrows @jburrows001
+Corey Oas @corey-oas
 
 ## Field Security and Governance
 
-Our goal on the Field Security team is to be the liaison between GitLab’s Security Department and outside requests. We do this by providing sales enablement, evalngalism and educational activities, and responding to customer concerns related to security. By proactively positioning the Field Security team in this way, we can effectively triage requests and facilitate communication while supporting our GitLab teammates.
+Our goal on the Field Security team is to be the liaison between GitLab's Security Department and outside requests. We do this by providing sales enablement, evalngalism and educational activities, and responding to customer concerns related to security. By proactively positioning the Field Security team in this way, we can effectively triage requests and facilitate communication while supporting our GitLab teammates.
 
-### Schedule / Topics Covered:
+### Schedule / Topics Covered
 
 #### FSG101: Sales Support and Self- Service Security
 
@@ -76,36 +70,36 @@ Our goal on the Field Security team is to be the liaison between GitLab’s Secu
 - Audit/assessment demo
 - GRC application dashboarding/reporting
 
-### Course Length:
+### Course Length
 
 3 days, 4-6 hours
 
-### Team Manager:
+### Team Manager
 
-TBD
+Joe Longo @jlongo_gitlab
 
 ## Security Risk
 
 The Security Risk team acts as a shield between GitLab and the dangers lurking within our environment. We do this by conducting third party assessments and security operational risk management activities to proactively identify and analyze risk early and often. This allows GitLab to iterate and improve quicker and ultimately provide our customers with a secure and scalable product.
 
-### Schedule / Topics Covered:
+### Schedule / Topics Covered
 
 #### RSK101: Risk Management
 
-- Review the different types of risks and their sources- [StORM]({{< ref "storm-program" >}}) and [Third Party Risk]({{< ref "third-party-risk-management" >}})
+- Review the different types of risks and their sources- [StORM](/handbook/security/security-assurance/security-risk/storm-program/) and [Third Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management/)
 - Learn the main components of risk management
 - Perform a TPRM Assessment
 - [Perform Risk Manager Activities](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm/-/blob/master/.gitlab/issue_templates/storm-shadow.md)
 - You will be given a risk that is reaching a milestone to assess the treatment and potentially validate it's design effectiveness.
 
-### Course Length:
+### Course Length
 
-`TBD`
+6-8 hours over the course of a a few days or weeks depending upon your schedule.
 
-### Team Manager:
+### Team Manager
 
-`TBD`
+Ty Dilbeck, @tdilbeck
 
 ## Enrollment
 
-Ready to enroll? [Click here]({{< ref "security-shadow" >}}) for more information.
+Ready to enroll? [Click here](/handbook/security/security-shadow/) for more information.

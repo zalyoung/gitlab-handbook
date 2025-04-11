@@ -4,13 +4,13 @@ title: "Foundational research"
 
 Foundational research (also referred to as generative research, exploratory research, pathfinding research, or discovery research) attempts to identify and solve a real human problem. This problem should center on a topic or area that has not been clearly defined or explored in the past.
 
-![FoundationalResearchImage](/handbook/product/ux/ux-research/foundational-research/FoundationalResearchImage.png)
+![FoundationalResearchImage](/images/product/ux/ux-research/foundational-research/FoundationalResearchImage.png)
 
 This type of research is not necessarily focused on answering questions about the product, but is more about [answering deeper questions from the user perspective](/handbook/product/ux/ux-research/problem-validation-and-methods/#what-is-problem-validation) (for example: how do users search for information within their roles? How do users engage with security tools in their development process?). In other words, it's about understanding people (their actions, motivations, goals) and the contexts in which they live/work. Understanding people and their context helps to reveal users' pain points or problem areas. The insights can be examined in situations such as workshops or ideation sessions to generate new ideas that could help teams address known pain points.
 
 ## The purpose of doing foundational research
 
-Foundational research focuses on users’ mental models, behaviors, unmet needs, and problem areas. This facilitates a holistic understanding of current and prospective users (who they are, what they believe, how they behave, why they think/feel/act the way they do). By taking an in-depth look at users outside of a single product feature or product area, teams can address more long-term user needs.
+Foundational research focuses on users' mental models, behaviors, unmet needs, and problem areas. This facilitates a holistic understanding of current and prospective users (who they are, what they believe, how they behave, why they think/feel/act the way they do). By taking an in-depth look at users outside of a single product feature or product area, teams can address more long-term user needs.
 
 ## When to conduct foundational research
 
@@ -34,7 +34,7 @@ Foundational research is different because the research outputs have a greater b
 
 ### Foundational research compared to solution validation research
 
-[Solution validation research](/handbook/product/ux/ux-research/solution-validation-and-methods/) assesses how well a product meets users’ needs by examining how users interact with new designs prior to development or the current product. This research is typically done later in the product lifecycle.
+[Solution validation research](/handbook/product/ux/ux-research/solution-validation-and-methods/) assesses how well a product meets users' needs by examining how users interact with new designs prior to development or the current product. This research is typically done later in the product lifecycle.
 
 Alternately, foundational research helps generate new ideas by answering unknown questions about your users. This goes beyond a product, prototype, or experience to provide high-level feedback that reveals opportunities, which can be tackled within future sprints of a product roadmap.
 

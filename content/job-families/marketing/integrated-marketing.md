@@ -9,11 +9,11 @@ description: "Learn more about Integrated Marketing job family levels, roles and
 
 The VP of Integrated Marketing reports to the [CMO](/job-families/marketing/chief-marketing-officer/).
 
-#### VP of Integrated Marketing Job Grade
+### VP of Integrated Marketing Job Grade
 
 The VP of Integrated Marketing is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### VP of Integrated Marketing Responsibilities
+### VP of Integrated Marketing Responsibilities
 
 - Hire, develop and manage a global team of high-performing campaign managers, field marketers and partner marketing managers
 - Map the customer journey and identify the right strategies to attract and advance prospects through the funnel.
@@ -22,7 +22,7 @@ The VP of Integrated Marketing is a [grade 12](/handbook/total-rewards/compensat
 - Continuously evaluate the performance and ROI of campaigns, adjusting demand tactics and strategy accordingly
 - Work closely with product marketing, marketing operations, and sales to ensure message optimization and cross-functional alignment
 
-#### VP of Integrated Marketing Requirements
+### VP of Integrated Marketing Requirements
 
 - Experience in roles of increasing responsibility, managing $500MM-$5B in revenue pipeline in high-growth companies; Ideally with experience marketing to developers, IT, development operations and security
 - Experience running a global team of at least dozens of people with multiple levels of management
@@ -43,14 +43,14 @@ The next step in the Demand Generation job family is not yet defined at GitLab.
 
 ## Performance Indicators
 
-- [Net new business pipeline created ($'s) v plan > 1](/handbook/marketing/revenue-marketing/#revenue-marketing-kpi-definitions)
-- [Total number of  Marketo Qualified Leads by month](/handbook/marketing/revenue-marketing/#revenue-marketing-kpi-definitions)
+- [Net new business pipeline created ($'s) v plan > 1](/handbook/marketing/performance-indicators/)
+- [Total number of  Marketo Qualified Leads by month](/handbook/marketing/performance-indicators/)
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Candidates will then meet with the Senior Director of Revenue Marketing.
 - Candidates will then be asked to schedule an interview with the Manager of Field Marketing, Americas.
 - Candidates will then meet with the CMO.

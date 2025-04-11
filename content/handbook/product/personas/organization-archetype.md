@@ -1,13 +1,6 @@
 ---
-
 title: Organization Archetype
 ---
-
-
-
-
-
-
 
 ## What is an organization archetype?
 
@@ -17,14 +10,13 @@ An organization archetype is a typical example of an organizational setup. In ou
 
 An organization archetype can be considered an additional layer to an end-user's demographics alongside [personas](.../personas). When collecting insights during interviews, it would be useful to understand the context of the user within their role and organization via organization archetypes.
 
-
 ## Cloud Infrastructure Resourcing
 
 Cloud infrastructure enables flexible and purposefully designed infrastructure per application. Because of this, infrastructure provisioning and software development has become part of a coupled workflow. We have observed 5 different types of infra team or platform team models outlined below.
 
 ### All-in-One Team
 
-![All-in-One](all-in-one.png)
+![All-in-One](/images/product/personas/all-in-one.png)
 
 All-in-One teams use resources democratically. In this model, developers are also DevOps engineers. They have access and credentials to infrastructure and related toolings and are expected to use them as needed. There may be unofficial specialist that teammates go to for help.
 
@@ -43,7 +35,7 @@ Examples of how resources are used:
 
 ### Service Model Team
 
-![Service Model](service-model.png)
+![Service Model](/images/product/personas/service-model.png)
 
 On Service Model teams, infrastructure teams gate access to and are responsible for optimize the use of resources. Other development are customers of the infrastructure team and have to request resources and ask for help when needed.
 
@@ -63,8 +55,7 @@ Examples of how resources are used:
 
 ### Service & Embedded Team
 
-
-![Service & Embedded](service-embedded.png)
+![Service & Embedded](/images/product/personas/service-embedded.png)
 
 On service & embedded teams, resource use is guided or optimized in partnership. Teams buddyup with specialist as needed so that both Dev and Ops are working together.
 
@@ -82,7 +73,7 @@ Examples of how resources are used:
 
 ### All-in-One & Service Model
 
-![All-in-One & Service](all-in-one-service.png)
+![All-in-One & Service](/images/product/personas/all-in-one-service.png)
 
 On All-in-One & Service teams, specialized roles guide/enforce DevOps/SecOps practice. Within development teams, they have the access to many of the resources. Central platform teams provide tools to facilitate self-service and enforce governance and compliance.
 
@@ -98,7 +89,7 @@ Examples of how resources are used:
 
 ### All-in-One & Embedded Model
 
-![All-in-One & Embedded](all-in-one-embedded.png)
+![All-in-One & Embedded](/images/product/personas/all-in-one-embedded.png)
 
 On All-in-One & Embedded teams, DevOps engineer work embedded within product groups or product lines to co-create DevOps/SecOps practice relevant to the users.
 
@@ -110,5 +101,3 @@ Examples of how resources are used:
   - All-in-One & Embedded team members who specialize in different areas work in close concert to coordinate specialized workflows that are specific to different environments
 - **Deployment Patterns**
   - All-in-One & Embedded teams members create specialized deployment patterns that are specific to the products line they are working within, use cases and security requirements. They refine them together
-
-

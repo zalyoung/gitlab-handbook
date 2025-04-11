@@ -24,7 +24,7 @@ The table below outlines key responsibilities. Refer to the [blog creation workf
 | Role | Responsibility |
 | ------ | ------ |
 | Product Designer | - Designs or reviews, and approves the solution to address the user problem outlined in the Actionable Insight issue (in collaboration with Product Managers and Engineering Managers) <br> <br> - Conducts Solution Validation as needed <br> <br> - Applies "Ready for Blog" label |
-| UX Researcher | - [Writes blog post](/handbook/marketing/blog/) including links to Actionable Insights <br> <br> - Applies label(s) “Seeking community contribution” and “quick win” (if known) <br> <br> - Opens [issue for blog post proposal](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=blog-post) |
+| UX Researcher | - [Writes blog post](/handbook/marketing/blog/) including links to Actionable Insights <br> <br> - Applies label(s) "Seeking community contribution" and "quick win" (if known) <br> <br> - Opens [issue for blog post proposal](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=blog-post) |
 | Product Manager | - Collaborates with Product Designer on solution to address identified user problem <br> <br> - Reviews and approves blog post |
 | Engineering Manager | - Collaborates with Product Designer on solution to address identified user problem |
 | Code Contributor PM | - Reviews selected Actionable Insights and ensure they are suitable for community contributions <br> <br> - Reviews blog post for proper language and focus for community contributions |
@@ -32,13 +32,13 @@ The table below outlines key responsibilities. Refer to the [blog creation workf
 
 ### What does the blog creation workflow look like?
 
-![Workflow to publish a blog post seeking community contributions](blog-post-workflow-2.png)
+![Workflow to publish a blog post seeking community contributions](/images/product/ux/ux-research/community-contributions-for-actionable-insights/blog-post-workflow-2.png)
 
 View the workflow in [Figjam](https://www.figma.com/file/U6GlKKrbLRphQmCcZwpJuQ/Blog-process_2023-08-22_10-27-37?type=whiteboard&node-id=0-1&t=Bb8QCBHBrzdlu9pv-0).
 
 ### What content should I include in my blog post?
 
-It’s recommended to include the following information in a blog post:
+It's recommended to include the following information in a blog post:
 
 - Research topic (What we did)
 - Insights (What we learned)

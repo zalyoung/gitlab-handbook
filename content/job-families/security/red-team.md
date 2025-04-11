@@ -5,9 +5,9 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-As members of GitLab's [Threat Management sub department](/handbook/security/threat-management/), the [Red Team](/handbook/security/threat-management/red-team/) conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
+As members of GitLab's [Security Operations department](/handbook/security/security-operations/), the [Red Team](/handbook/security/security-operations/red-team/) conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
 
-The Red Team does not perform penetration tests, and the work we do is not focused on delivering a list of vulnerabilities in a specific application or service. Instead, we emulate the real-world tactics, techniques, and procedures (TTPs) of threats that are most relevant to our organization.
+The Red Team emulates the real-world tactics, techniques, and procedures (TTPs) of threats that are most relevant to our organization. We do **not** perform penetration tests, and the work we do is not focused on delivering a list of vulnerabilities in a specific application or service. 
 
 GitLab's environment is very different than traditional organizations, and attacking it takes creativity. There are no wireless corporate networks to sniff, there is no Active Directory to roast, and you won't find a single hash being passed. To be successful on our Red Team, you must be able to adapt traditional attack techniques to an all-remote, all-cloud, and SaaS-based environment.
 
@@ -16,11 +16,11 @@ Our Red Team works **together** with our Blue Team. Even when planning attacks, 
 ## Responsibilities
 
 - Maintain a deep understanding of GitLab's product offerings, how they work, and how they could be attacked or abused
-- Propose, plan, and execute [Red Team operations](/handbook/security/threat-management/red-team/#red-team-operations) based on realistic threats to the organization
+- Propose, plan, and execute [Red Team operations](/handbook/security/security-operations/red-team/#services-we-offer) based on realistic threats to the organization
 - Automate attack techniques, creating custom tooling for specific operations and contributing to general-purpose open source tools
 - Write detailed reports covering the goals and outcomes of Red Team operations, including significant observations and recommendations
 - Collaborate with GitLab's [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) to improve detection and response capabilities
-- Collaborate with GitLab's [Infrastructure Security Team](/handbook/security/security-engineering/infrastructure-security/) to propose defensive improvements to cloud environments
+- Collaborate with GitLab's [Infrastructure Security Team](/handbook/security/product-security/infrastructure-security/) to propose defensive improvements to cloud environments
 - Collaborate across multiple product teams to propose enhancements and additions to GitLab's SaaS and self-hosted offerings
 - Collaborate with non-technical teams to propose process and policy enhancements and additions
 - Stay informed on current security trends, advisories, publications, and academic research that is relevant our organization
@@ -116,31 +116,7 @@ The Staff Red Team Engineer is a [grade 8](/handbook/total-rewards/compensation/
 
 ### Principal Red Team Engineer
 
-This position reports to the [Senior Manager, Threat Management](/job-families/security/security-leadership/#senior-manager-security).
-
-#### Principal Red Team Engineer Job Grade
-
-The Principal Red Team Engineer is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Principal Red Team Engineer Responsibilities
-
-- Includes [Staff-level responsibilities](#staff-red-team-engineer-responsibilities)
-- Solve technical problems of the highest scope, complexity, and ambiguity
-- Guide conversations to remove blockers and encourage collaboration across teams
-- Assist in developing the team and sub-department roadmap and maturity model
-- Teach, mentor, grow, and provide advice to domain experts and individual contributors across the organization
-- Actively pursue the improvement of field applicable knowledge and skills through learning and development opportunities as well as research and experimentation
-- Work with industry peers to discuss Red Team strategies, bringing that knowledge back to GitLab to propose improvements to our own people/process/technologies
-- Maintain an up-to-date understanding of industry offerings from vendors. Create proposals to implement tooling, if and when it makes sense
-- Regularly communicate with the wider GitLab community, via blogs, public speaking, or other methods
-
-#### Principal Red Team Engineer Requirements
-
-- Includes [Staff-level requirements](#staff-red-team-engineer-requirements)
-- Expert knowledge of one or more programming languages including architectural design, tooling, and cloud infrastructure usage
-- Extensive knowledge of offensive cloud security and common vulnerabilities
-- Passion for participation in the security community, demonstrated through published research and community involvement
-- Deep knowledge of the current and emerging security threats that are specifically applicable to the business
+Refer to the "[Principal Security Engineer](../security-engineer/#principal-security-engineer)" description.
 
 ### Manager, Red Team
 
@@ -178,7 +154,7 @@ The Red Team Manager is a [grade 8](/handbook/total-rewards/compensation/compens
 - Willingness to be part of the Security Manager On-Call rotation
 - First hand experience with major cloud providers - GCP, AWS, Azure, Digital Ocean
 - Share our [values](/handbook/values/), and work in accordance with those values
-- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ### Senior Manager, Red Team
 
@@ -215,7 +191,7 @@ The Security Incident Response Team Senior Manager is a [9](/handbook/total-rewa
 - Experience with the role of an incident manager during large scale security events
 - Familiarity with major cloud providers - GCP, AWS, Azure, Digital Ocean
 - You share our [values](/handbook/values/), and work in accordance with those values
-- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Performance Indicators
 
@@ -239,7 +215,7 @@ For details on the Security organization leadership roles, to include the Direct
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with Red Team Manager
 - Candidates will then be invited to schedule an interview with Senior Red Team Engineer, Security Incident Response Team Manager, Trust & Safety Manager
 - Candidates will then be invited to schedule an interview with Director of Security Operations

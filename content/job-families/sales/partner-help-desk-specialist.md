@@ -18,7 +18,7 @@ The Partner Help Desk Specialist (Intermediate) is a [Grade 6](/handbook/total-r
 #### Partner Help Desk Specialist (Intermediate) Responsibilities
 
 - Support Channel Sales Manager in the Partner onboarding process; contracts, portal training, enablement, etc.
-- Support your assigned channel to understand, navigate and meet milestones in the Gitlab Partner Program; including accreditations, badging, certifications.
+- Support your assigned channel to understand, navigate and meet milestones in the GitLab Partner Program; including accreditations, badging, certifications.
 - Support partner in all stages of the customer lifecycle; demand database management, deal registration, quote creation, order processing, add-ons & renewals etc.
 - Execute sales and marketing enablement to channel & distribution partners.
 - Support the execution of GTM, Sales, Marketing, Channel Services.
@@ -91,13 +91,13 @@ The Manager, Partner Help Desk is a [Grade 8](/handbook/total-rewards/compensati
 
 ## Career Ladder
 
-The next step in the Partner Helpdesk Specialist job family is is to move into the [Channel Programs and Enablement](/job-families/sales/director-channel-programs-and-enablement/), the [Channel Sales Manager](/job-families/sales/channel-sales-manager/) or the [Sales Operations](/job-families/sales/sales-operations/) Job Family.
+The next step in the Partner Helpdesk Specialist job family is to move into the [Channel Programs and Enablement](/job-families/sales/director-channel-programs-and-enablement/), the [Channel Sales Manager](/job-families/sales/channel-sales-manager/) or the [Sales Operations](/job-families/sales/sales-operations/) Job Family.
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30 min. [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30 min. [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, candidates will be invited to interview with 1-4 Team Members
 

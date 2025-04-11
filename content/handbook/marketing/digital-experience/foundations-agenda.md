@@ -1,34 +1,26 @@
 ---
-
 title: 'Digital Experience: Foundations Agenda'
 description: "The goal of this page is to identify blockers and highlight the value of unlocking our team."
 ---
 
-
-
-
-
-
-
 ## Digital Experience: Foundations Agenda
-
 
 > To date, at GitLab, we've called it our "_marketing website_." As a $1B company about to go public we need to elevate our main marketing tool and operationalize our efforts by developing a "_digital marketing platform_." Currently, we do not have foundational elements in place to make this change. As such, we must mature our toolset and upgrade our technology.
 
-#### The goal of this page is to identify blockers and highlight the value of unlocking our team.
+### The goal of this page is to identify blockers and highlight the value of unlocking our team
 
 | MAIN ISSUES | BLOCKERS |
 | ----------- | -------- |
 | **We can't scale effectively**<br>[⏱️ Efficiency](/handbook/values/#efficiency) | - Our digital marketing platform is not optimized for results<br>- We're missing key tools to enable scaling<br>- The tools/technology we're missing are "boring solutions" that can be implemented in a series of MVCs that will allow us to iterate to a better future state<br>- We don't have a system that we can operationalize<br>- Our digital marketing platform is not optimized for the right group<br>- Our experience is inconsistent (specifically, user flows and funnel progression) which makes it difficult to learn from/ improve upon |
-| **It's challenging to learn**<br>[🤝 Collaboration](/handbook/values/#collaboration)<br>[👣 Iteration](/handbook/values/#iteration)<br>[👁️ Transparency](/handbook/values/#transparency) | - Lack of consistency minimizes the value of our data<br>- The lack of focus on the [loyalty flywheel](https://unity.trustradius.com/wp-content/uploads/hubspot-flywheel-inbound-method-lifecycles-1024x1024.png) minimizes the effects of the changes we make<br>- Challenging to work as a community without a SSOT or understanding of our Customer |
+| **It's challenging to learn**<br>[🤝 Collaboration](/handbook/values/#collaboration)<br>[👣 Iteration](/handbook/values/#iteration)<br>[👁️ Transparency](/handbook/values/#transparency) | - Lack of consistency minimizes the value of our data<br>- The lack of focus on the [loyalty flywheel](https://solutions.trustradius.com/wp-content/uploads/hubspot-flywheel-inbound-method-lifecycles-1024x1024.png) minimizes the effects of the changes we make<br>- Challenging to work as a community without a SSOT or understanding of our Customer |
 | **High likelihood of human error**<br>[⏱️ Efficiency](/handbook/values/#efficiency) | - No automated build process<br>- No weekly or bi-weekly review of automated or user generated data<br>- Will enable us to shorten our iterations and cycle time |
 | **Hard to consistently stick to our plan**<br>[📈 Results](/handbook/values/#results) | - Without an operationalized approach it's harder keep a bias towards action against competing forces |
 
-- - -
+---
 
 ### 🎯 We need to have plan that we're confident in, stick to, and consistently deliver results
 
-- - -
+---
 
 | WHAT NEEDS TO HAPPEN | VALUE |
 | -------------------- | ----- |

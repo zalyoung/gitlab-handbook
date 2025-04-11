@@ -1,11 +1,8 @@
 ---
-
 title: Workflow for handling Plan/License Ticket Attention Requests
 category: Managers Workflows
 description: How to manage plan/license Support Ticket Attention Requests
 ---
-
-
 
 ## How to move urgent L&R starred tickets forward
 
@@ -72,6 +69,6 @@ graph TD
 
 An edge case is any situation in which the process has been followed and the system does not produce the expected results. Examples:
 
-- A customer is trying to [link their purchase to their account](https://docs.gitlab.com/ee/subscriptions/), but after following the process, the system produces an error.
+- A customer is trying to [link their purchase to their account](https://docs.gitlab.com/subscriptions/), but after following the process, the system produces an error.
 - The web page or system needed to complete the process is down.
 - The owner is not available.

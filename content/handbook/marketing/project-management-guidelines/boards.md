@@ -13,9 +13,11 @@ title: "Issue and Kanban boards project management guidelines"
 #### Board usage
 
 1. First, a common use of boards is in the Kanban style of visualizing work
-  - In this scenario there are three or four lists: **Backlog**; **Doing**; **Waiting for**; **Done**
-  - A user would move an issue from the **Backlog** to the **Doing** list to indicate they are working on the specific issue.   If they finish the task, then they would move the item to **Done**, and if they ran into a barrier and had to wait for something outside their control, then they would move it to **Waiting for**
-  - In this simple example, the Board is essentially `adding` and `removing` labels when the issue is moved from one list to another.
+
+   - In this scenario there are three or four lists: **Backlog**; **Doing**; **Waiting for**; **Done**
+   - A user would move an issue from the **Backlog** to the **Doing** list to indicate they are working on the specific issue.   If they finish the task, then they would move the item to **Done**, and if they ran into a barrier and had to wait for something outside their control, then they would move it to **Waiting for**
+   - In this simple example, the Board is essentially `adding` and `removing` labels when the issue is moved from one list to another.
+
 1. A second situation where boards are useful is assigning work to an individual.   In this situation the board is defined by team members, where different users are represented by the lists.   When an issue is moved to a user's list the issue is then assigned to that user.
 1. The third example of how boards can be used is where the lists are defined as different `milestones`, and moving an issue from one list to another, effectively changes which milestone when the issue will be worked on.
 
@@ -23,22 +25,26 @@ title: "Issue and Kanban boards project management guidelines"
 
 The scope of issues that are displayed on a board are filtered either by `label`, `assignee`, `milestone`, or possibly `weight`.
 
-![board scope](/handbook/marketing/project-management-guidelines/images/board-scope.png)
+![board scope](/images/marketing/project-management-guidelines/board-scope.png)
 
 Boards support groups of lists that are defined by a combination of
+
 1. A single label
 2. A single milestone
 3. An individual
 
 When an issue is moved from one list to another on the board, the board basically does two things:
+
 1. It removes the label, milestone or assignment from the starting list
 2. It adds the label, milestone, or assignment of the list the issue is added to.
 
+{{% alert color="info" %}}
 <i class="fas fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143)
 ;"></i> Board lists also sum up the total "weight" of the issues in each list, as a way to estimate the total work in the list.
-{: .alert .alert-info}
+{{% /alert %}}
 
 #### Board hierarchy
+
 Boards can exist at **BOTH** project and group levels in GitLab.
 
 Depending on the scope of the issues which need to be managed, the board should be defined at the most appropriate level.
@@ -50,6 +56,7 @@ The order of issues on Board Lists can be arranged by dragging and dropping them
 #### Stay tuned for future features
 
 We're investing in boards to add cool features like
+
 - swimlanes
 - advanced editing of Issues and MORE
 
@@ -84,7 +91,7 @@ If the relevant issues that need to be managed in a board are at the project lev
 - Uses the `mktg-status::` scoped labels as lists
 - [Workflow board example](https://gitlab.com/groups/gitlab-com/-/boards/1781956?milestone_title=%23started&&label_name[]=tech-evangelism)
 
-![Workflow board](/handbook/marketing/project-management-guidelines/images/workflow-board.png)
+![Workflow board](/images/marketing/project-management-guidelines/workflow-board.png)
 
 ### Iteration board
 
@@ -96,4 +103,4 @@ If the relevant issues that need to be managed in a board are at the project lev
 - Optionally: at their discretion groups can add a milestones board for project milestones
 - [Iteration board example](https://gitlab.com/groups/gitlab-com/-/boards/1672643?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tech-evangelism)
 
-![Iteration board](/handbook/marketing/project-management-guidelines/images/iteration-board.png)
+![Iteration board](/images/marketing/project-management-guidelines/iteration-board.png)

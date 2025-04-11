@@ -7,7 +7,7 @@ Threat intelligence engineers research and provide information about specific th
 
 As a member of the security team at GitLab, you will be working towards raising the bar on security. We will achieve that by working and collaborating with cross-functional teams to provide guidance on security best practices.
 
-The [Security Team](https://about.gitlab.com/handbook/security) is responsible for leading and
+The [Security Team](/handbook/security) is responsible for leading and
 implementing the various initiatives that relate to improving GitLab's security.
 
 ## Job Grade
@@ -49,11 +49,11 @@ The Senior Threat Intelligence Engineer is a [grade 7](/handbook/total-rewards/c
 - Great written and verbal communication skills
 - Screen security candidates during hiring process
 
-***
+---
 
-A Senior Security Engineer may want to pursue the security engineering management track at this point. See [Engineering Career Development](https://about.gitlab.com/handbook/engineering/career-development/) for more detail.
+A Senior Security Engineer may want to pursue the security engineering management track at this point. See [Engineering Career Development](/handbook/engineering/careers/) for more detail.
 
-***
+---
 
 ### Staff Threat Intelligence Engineer
 
@@ -79,7 +79,7 @@ The Staff Threat Intelligence Engineer is a [grade 8](/handbook/total-rewards/co
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Qualified candidates receive a short questionnaire from our Recruiting team
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with our Recruiting team
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Recruiting team
 - Next, candidates will be invited to schedule an interview with Security Engineer
 - Candidates will then be invited to schedule an interview with Director of Security
 - Candidates will then be invited to schedule an additional interview with VP of Engineering
@@ -91,4 +91,4 @@ See more details about our hiring process on the [hiring handbook](/handbook/hir
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

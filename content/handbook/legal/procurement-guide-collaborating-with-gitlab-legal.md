@@ -32,10 +32,9 @@ GitLab Legal will review any and all purchases made to ensure adequate terms are
 ## Vendor Requirements
 
 - All vendors must agree to comply and act in accordance with:
-    - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
-    - [GitLab Moder Slavery Act Transparency Statement](/handbook/legal/modern-slavery-act-transparency-statement/)
-    - In order to use GitLab Name and Logo [Brand Guidelines Page](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
-
+  - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
+  - [GitLab Modern Slavery Act Transparency Statement](/handbook/legal/modern-slavery-act-transparency-statement/)
+  - In order to use GitLab Name and Logo [Brand Guidelines Page](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
 
 ## Additional Requests & Information
 
@@ -43,12 +42,12 @@ NDA Request(s): [NDA Process](/handbook/legal/procurement-guide-collaborating-wi
 
 Negotiating Terms and Conditions: [Negotiating Terms](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#negotiating-terms)
 
-Use of competitors' services: [Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/?redirected-from=internal-handbook.gitlab.io#guidelines-for-use-of-competitors-services-to-gain-competitive-intelligence) (Internal only)
+Use of competitors' services: [Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/) (Internal only)
 
 ## NDA Process
 
 - Prior to exchanging any confidential information, GitLab and a potential Vendor should execute a Mutual Non-Disclosure Agreement. This will ensure the adequate protection of any / all information shared.
-- Follow the [Non-Disclosure Agreement process](/handbook/legal/NDA/) to send an NDA via DocuSign or request one if you do not have DocuSign access.
+- Follow the [Non-Disclosure Agreement process](/handbook/legal/nda/) to send an NDA via DocuSign or request one if you do not have DocuSign access.
 - NOTE: If a potential vendor requires the use of their NDA template, please follow the process located on the [Procurement Page](/handbook/finance/procurement/) which will initiate the legal review process.
 
 ## Negotiating Terms

@@ -14,9 +14,9 @@ title: Workday Guide
 
 ## Accessing Workday
 
-Workday will be accessible to all GitLab team members through Okta SSO. Go to [gitlab.okta.com](https://gitlab.okta.com/app/UserHome) and click on the **‘Workday SSO’** tile to login. You can search your apps for quick access.
+Workday will be accessible to all GitLab team members through Okta SSO. Go to [gitlab.okta.com](https://gitlab.okta.com/app/UserHome) and click on the **'Workday SSO'** tile to login. You can search your apps for quick access.
 
-![Accesing Workday through Okta](../okta-wd.png)
+![Accesing Workday through Okta](/images/people-group/okta-wd.png)
 
 **Important:** Please note that Workday will be temporarily unavailable due to scheduled weekly maintenance each Friday between 11:00 PM - 3:00 AM PST (Saturday between 6am UTC to 9am UTC).
 
@@ -45,6 +45,10 @@ Use these helpful resources for completing team member self-service tasks in Wor
 |Team Members|upload a signed document|[Link](https://docs.google.com/document/d/1FDUdF9AxiRGHh8v9k1zkVL_5-kWUR9JGgv4AfdyvGeU/edit)|-|
 |Team Members|view compensation changes|&bull;Click your profile photo, then View Profile<br />&bull;Click "Actions"<br />&bull;Click `Compensation > View Compensation Statement History`|-|
 |Team Members|set Team Page export preferences|[Link](https://docs.google.com/document/d/16_G0jQEjV3f08rGZ65g6RHTCSX5IfFalo9ZUdLEqH1s/edit)|-|
+|Team Members|request time off & view balances|[Link](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit)|-|
+|Team Members|correct time off|[Link](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit)|-|
+|Team Members|request time off through Slack|[Link](https://docs.google.com/document/d/1co0-_8YEV2iS7YIFsDdsSqw7ohCd1nNd3HCQU7jTQMo/edit)|-|
+|Team Members|request a leave of absence|[Link](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit)|-|
 |Managers|request a one-time payment|[Link](https://docs.google.com/document/d/15_cqMAIoqkxNhoCTL42X3XUpr0E9fNZXFmY3Yitk2LQ/edit)|-|
 |Managers|terminate team members (voluntary)|[Link](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit)|-|
 |Managers|view team information|[Link](https://docs.google.com/document/d/1HlvaxIvmUPL6GLB3z6TqHWMf95RrDD7aOaeZPE0Hm7Q/edit)|-|
@@ -56,7 +60,7 @@ Use these helpful resources for completing team member self-service tasks in Wor
 
 ## Job Title Speciality Creation/Update
 
-If you require any changes to a job title speciality or need a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please send an email to `people-connect@gitlab.com` for assistance.
+If you require any changes to a job title speciality or need a new job title speciality created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new) for the People Tech team to review. Select the `Workday: Job Title Speciality Request` template option. Once the job title speciality has been created, and you need changes to team members profiles in Workday, please submit a Job Title Specialty request in HelpLab for assistance.
 
 ## How is Workday being implemented?
 
@@ -75,16 +79,18 @@ Modules/functionality being implemented:
 
 | Workday will replace | Workday will enhance |Workday will integrate with |What remains the same in this phase|
 | ------ | ------ |------ |------ |
-| BambooHR (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, EdCast, Navan Expense, LawLogix, Modern Health, Navex, NetSuite, GitLab, E-trade, ADP, Okta, Nominator bot, People Connect bot,Employment Automation, Sync BambooHR entities to GitLab groups, Sync new team members to team page, Sync specialty to team files, Team page readiness check,Anniversary Announcement, New Hire Announcement|Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices|
+| BambooHR* (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, EdCast, Navan Expense, LawLogix, Modern Health, Navex, NetSuite, GitLab, E-trade, ADP, Okta, Nominator bot, People Connect bot,Employment Automation, Sync BambooHR entities to GitLab groups, Sync new team members to team page, Sync specialty to team files, Team page readiness check, Anniversary Announcement, New Hire Announcement|Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices|
+
+- _BambooHR is no longer in use at GitLab as of 2024-12-15._
 
 #### Phase 1 Integrations
 
 | Application | Description | Frequency | Business Owner | Support Contact |
 | ------ | ------ | ------ | ------ | ------ |
 | ADP WorkForce Now | Employee Demographic feed from Workday to ADP Workforce Now via SFTP delivery of inbound file. | Daily (9am PST) | @vlaughlan | @droystang @Laura-Janssen @demina |
-| Employment Automations | - *Announcements*: Slack integrated messaging services, which are responsible for sending DM's or announcing to a channel on a certain matter.<br> - *Audit*: Audits collected on our team members data, we usually are constructing a certain data type (CSV) and then sending this off to the desired party.<br> - *E-mailing*: E-Mails are responsible for sending out our e-mails and replacing keywords from the template documents to include the relevant information. For example, one automation in this group handles the creation of a Letter of Employment and then attaches it to the e-mail prior to sending.<br> - *Issue Handling*: This is the main logic behind our onboardings, offboardings, employment templates, access requests, and anything else GitLab issue related.<br> - *Syncing*: Syncs regarding our HR data and external services. For example, we sync with GitLab to ensure our team page entries are staying up to date depending on if the team members current role specialty differs from that of the team page entry. | N/A | @mpatel8 | @ajrom |
+| Employment Automations | - **Announcements** : Slack integrated messaging services, which are responsible for sending DM's or announcing to a channel on a certain matter.<br> - **Audit**: Audits collected on our team members data, we usually are constructing a certain data type (CSV) and then sending this off to the desired party.<br> - **E-mailing**: E-Mails are responsible for sending out our e-mails and replacing keywords from the template documents to include the relevant information. For example, one automation in this group handles the creation of a Letter of Employment and then attaches it to the e-mail prior to sending.<br> - **Issue Handling**: This is the main logic behind our onboardings, offboardings, employment templates, access requests, and anything else GitLab issue related.<br> - **Syncing**: Syncs regarding our HR data and external services. For example, we sync with GitLab to ensure our team page entries are staying up to date depending on if the team members current role specialty differs from that of the team page entry. | N/A | @mpatel8 | @ajrom |
 | Culture Amp | Daily feed that sends new hires and terminations from Workday over to Culture Amp. | Daily (1am PST) |  @mpatel8 | @Laura-Janssen @demina |
-| E-Trade | - *E-Trade User Account File*: Used to provide demographic information for new participants and to maintain this information for existing participants.<br> - *E-Trade User Termination File*: Used to provide termination dates and termination codes to EEO (Equal Employment Opportunity).<br> - *E-Trade Rehires File*: Used to provide rehire information for previously terminated participants. Rehire date provided will replace the current hire date on EEO (Equal Employment  | Daily (4:30am PST) | @rhark @sguillory | @droystang @Laura-Janssen @demina |
+| E-Trade | - **E-Trade User Account File**: Used to provide demographic information for new participants and to maintain this information for existing participants.<br> - **E-Trade User Termination File**: Used to provide termination dates and termination codes to EEO (Equal Employment Opportunity).<br> - **E-Trade Rehires File**: Used to provide rehire information for previously terminated participants. Rehire date provided will replace the current hire date on EEO (Equal Employment  | Daily (4:30am PST) | @rhark @sguillory | @droystang @Laura-Janssen @demina |
 | EdCast | Automatically adds and removes team members to EdCast to avoid manual work for the team and streamline the onboarding process. | Real Time | @jallen16 | @droystang |
 | Navan Expense<>NetSuite | Utilizing Workato to automatically synchronize team members and their managers from Workday into the correct Navan Expense policy as well as creating a vendor record in NetSuite. | Real Time | @edelongpre @mbrown6 | @droystang |
 | Greenhouse (New Hires) | Creates new hires in Workday when a new applicant is marked as hired in Greenhouse | Real Time | @anechan @MarissaFerber @mpatel8 | @droystang @Laura-Janssen @demina |
@@ -99,7 +105,7 @@ Modules/functionality being implemented:
 
 ### Phase 2
 
-*Subject to change*
+_Subject to change_
 
 **Go live date:** 2022-10-01
 
@@ -115,10 +121,9 @@ Modules/functionality being implemented:
 | ------ |
 | Talent Assessment Tool, Compaas (Compensation planning tool), PlanSource, Time Off by Deel, Internal Employment Automations |
 
-
 ### Phase 3
 
-*Subject to change*
+_Subject to change_
 
 **Go live date:** 2022-12-01
 
@@ -127,14 +132,13 @@ Modules/functionality being implemented:
 - Continuation of absence management plans
 - Benefits - Canada Only
 
-
 | Workday will replace |
 | ------ |
 | Canada Life  |
 
 ## Workday support
 
-For general navigation and functionality questions, please contact [#people-connect](https://gitlab.slack.com/archives/C02360SQQFR).
+For general navigation and functionality questions, please contact the People Connect team via HelpLab.
 For report requests, or to request an enhancement or report a bug, please create an issue in the [People Technology Intake project](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/issues/new?issuable_template=intake)
 
 ## Frequently asked questions

@@ -1,47 +1,58 @@
 ---
 title: "NAVEX Compliance Courses"
-description: "Information about NAVEX compliance training, including processes, course info, and FAQ"
+description: "Compliance training processes, course info, and FAQ"
 ---
-
-The information on this page is specific to NAVEXEngage, NAVEX’s online ethics and compliance training solution. To learn more about other compliance courses and resources at GitLab, please visit the [Learning & Development handbook](/handbook/people-group/learning-and-development/compliance-courses/).
 
 ## Access
 
-All new team members have a task during their onboarding to set up their NAVEX account and complete the assigned courses within 30 days of starting. NAVEX accounts are provisioned automatically on a new hire’s start date via a Workday integration and can only be accessed through Okta.
+NAVEXEngage is GitLab's online ethics and compliance training solution. NAVEX accounts are provisioned automatically on a new hire's start date via a Workday integration and can only be accessed through Okta. All new team members have a task in their onboarding issue to complete assigned NAVEX courses within 30 days of starting. 
 
 ## Courses
 
-Team members are enrolled in the following courses on their start date:
+New hires are enrolled in the following courses on their start date:
 
+- Ethics and Code of Conduct
 - Insider Trading
 - Global Data Privacy
-- Anti-Bribery and Corruption (note, this course is currently only assigned to team members on the Finance, Legal, Sales, and Marketing teams)
+- Team members in Finance, Legal & Corporate Affairs, Marketing, and Sales: Anti-Bribery and Corruption
+- Team members employed by or working with our public sector entity: Government Contracting: Gifts, Gratuities, and Bribery
 
 Each of these courses should take around 30 minutes or less to complete.
 
-Additionally, team members who are either employed by or work with our public sector entity, GitLab Federal, LLC, will be invited to complete a Government Contracting: Gifts, Gratuities and Bribery training. This course is assigned in June for new hires who started between December and May and in December for new hires who started between June and November.
+### Anti-Harassment
 
-### Annual Recertification
+Team members are also enrolled in the following anti-harassment-related course(s) based on their role and location.
 
-Team members will be required to re-certify compliance courses annually. Instructions for completing recertification and course assignments will be sent in January each year.
+| **Role** | **Location** | **NAVEX Course** | **Approximate Duration** |
+|----------|--------------|------------|--------------------------|
+| Individual Contributor | Outside the US | Global Workplace Harassment | 30 minutes |
+| Individual Contributor | US | The Workplace Harassment 10 course that meets your specific jurisdictional requirements | 60 minutes (exact length will vary depending location) |
+| Manager | Outside the US (unless any direct reports are located in Cook County, Illinois) | Global Workplace Harassment for Managers | 30-60 minutes |
+| Manager | US (and any having direct reports located in Cook County, Illinois) | Workplace Harassment 10 for Managers, designed to meet the heightened training requirements that apply to GitLab due to its business operations in various states and the City of Chicago, Illinois | 120 minutes* |
+| All | Cook County, Illinois and/or having direct reports in Cook County, Illinois | Bystander Intervention | 60 minutes* |
 
-## Resolving Common Issues
+*If you complete the course under the time required for your jurisdiction, you will be prompted to spend the remaining time reviewing the course material in order to meet location-specific requirements.
 
-NAVEX recommends using Google Chrome if possible.
+### Refresher Training and Recertification
 
-Ensure your pop-up blocker is disabled. Courses launch in a separate window, so if a pop-up blocker is enabled, it will prevent this from happening.
+Team members will be enrolled in refresher training on a regular basis and asked to complete a certification for certain courses (including Ethics and Code of Conduct).
 
-If a course is stuck or frozen in a certain part, save and close the course. If the course still appears to be stuck as if there is no button to proceed forward, it may be related to how the course is displaying:
+## Best Practices for Using NAVEX
 
-- Make sure the course player is expanded to the full size of the screen it is being displayed on.
+For the best user experience, we recommend using Google Chrome and disabling your pop-up blocker. If your course freezes or becomes stuck, follow these best practices:
+
+- Save and close the course.
+- Expand the course player to the full screen size.
 - Toggle the zoom, making sure it is set to no greater than 100%.
-
-If the course launch button does not work, clear your cache. Also ensure that you are only logged in to NAVEX in one tab/window. You may also need to restart your computer.
+- Clear your cache.
+- Make sure you have logged into NAVEX in only one tab/window.
+- Restart your computer.
 
 If you are experiencing course completion issues, follow these best practices:
 
+- Clear your cache.
 - Ensure your internet connection is stable.
-- Don’t leave the course unattended without input (i.e., running in the background).
-- Close out of the course prior to changing networks, docking/undocking computers, locking your computer, stepping away from your computer, or completing other work (use the internal course ‘x’ as opposed to the main window ‘x’).
+- Don't leave the course unattended without input (i.e., running in the background).
+- Close out of the course prior to changing networks, docking/undocking computers, locking your computer, stepping away from your computer, or completing other work (use the internal course 'x' as opposed to the main window 'x').
 
-For questions, reach out in `#compliance-training` on Slack.
+If you continue to experience difficulties or have questions, contact [#compliance-training](https://gitlab.enterprise.slack.com/archives/C01BUENE8MV).

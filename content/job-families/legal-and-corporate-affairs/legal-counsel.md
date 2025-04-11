@@ -1,8 +1,7 @@
 ---
 title: Legal Counsel
+description: The Legal Counsel job family is responsible for advising clients across GitLab on legal matters related to their functional area of expertise.
 ---
-
-The Legal Counsel job family is responsible for advising clients across GitLab on legal matters related to their functional area of expertise.
 
 ## Associate Legal Counsel
 
@@ -25,7 +24,7 @@ The Associate Legal Counsel is a [Grade 5](/handbook/total-rewards/compensation/
 - 1 - 3 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience working effectively across business units and internal functions to efficiently resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Familiarity working across the globe, to support multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to interface effectively with all business functions throughout the organization with a highly responsive and service-oriented attitude
@@ -54,7 +53,7 @@ The Legal Counsel is a [Grade 6](/handbook/total-rewards/compensation/compensati
 - 4 - 8 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience working effectively across business units and internal functions to efficiently resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Familiarity working across the globe, to support multiple time zones and cultures
 Outstanding interpersonal skills, the ability to interface effectively with all business functions throughout the organization with a highly responsive and service-oriented attitude
@@ -62,9 +61,37 @@ Outstanding interpersonal skills, the ability to interface effectively with all 
 - Previous experience in a remote work environment would be an added advantage
 - Ability to use GitLab
 
+## Legal Counsel, Litigation 
+
+### Legal Counsel, Litigation Job Grade
+
+The Legal Counsel, Litigation is a [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Sr. Director, of Legal Risk Management and Dispute Resolution](/job-families/legal-and-corporate-affairs/risk-management-dispute-resolution/#senior-director-of-legal-risk-management--dispute-resolution)
+
+### Legal Counsel, Litigation Responsibilities
+
+- Draft and review pleadings, discovery responses, motions, and briefs; prepare and defend company witnesses for depositions, hearings, and trials.
+- Partner with team members and stakeholders across GitLab to assess litigation risks and develop strategic approaches to dispute resolution.
+- Develop and implement litigation holds and manage document collection and production.
+- Manage outside counsel to ensure cost-effective and high-quality representation while within the litigation budget.
+- Monitor and analyze changes in the law and legal risks; propose creative and effective solutions to address those risks.
+- Develop and implement litigation avoidance best practices.
+- Advise on, draft, maintain and review templates and policies.
+- Oversee and improve internal processes and tools related to litigation.
+
+### Legal Counsel, Litigation Requirements
+
+- 6+ years’ legal experience.
+- JD/LLB or local law degree equivalent and admission to state bar or analogous governing body.
+- Broad litigation experience and a proven track record of managing complex litigation, with bonus points for substantively managing patent litigation and/or securities matters.  
+- Ability to work with technical teams and translate technical concepts for legal purposes.
+- Outstanding interpersonal skills, with the ability to interface effectively with all business functions throughout the organization and build strong relationships.
+- Proactive, dynamic, and result driven self starter with strong attention to detail.
+- Strong project management skills and ability to independently handle multiple matters simultaneously
+- Familiarity working across the globe, to support multiple time zones and cultures, and previous  experience in a remote work environment would be advantageous.
+
 ## Senior Legal Counsel
 
-The Senior Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal-us).
+The Senior Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal).
 
 ### Senior Legal Counsel Job Grade
 
@@ -83,7 +110,7 @@ The Senior Legal Counsel is a [Grade 7](/handbook/total-rewards/compensation/com
 - 6 - 10 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience working effectively across business units and internal functions to efficiently resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Familiarity working across the globe, to support multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to interface effectively with all business functions throughout the organization with a highly responsive and service-oriented attitude
@@ -93,7 +120,7 @@ The Senior Legal Counsel is a [Grade 7](/handbook/total-rewards/compensation/com
 
 ## Lead Legal Counsel
 
-The Lead Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal-us).
+The Lead Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal).
 
 ### Lead Legal Counsel Job Grade
 
@@ -113,7 +140,7 @@ The Lead Legal Counsel is a [Grade 8](/handbook/total-rewards/compensation/compe
 - 8 - 15 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience identifying and leading  initiatives effectively across business units and internal functions to efficiently and proactively resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Experience working across the globe in support of multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to influence and interface effectively with leadership across all business functions
@@ -154,7 +181,7 @@ The Managing Legal Counsel is a [Grade 8](/handbook/total-rewards/compensation/c
 
 ## Principal Legal Counsel
 
-The Principal Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal-us).
+The Principal Legal Counsel reports to the [Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/) or [Sr. Director, Legal](/job-families/legal-and-corporate-affairs/director-legal-us/#senior-director-legal).
 
 ### Principal Legal Counsel Job Grade
 
@@ -176,7 +203,7 @@ The Principal Legal Counsel is a [Grade 9](/handbook/total-rewards/compensation/
 - 10 - 15 years' legal experience, preferably in a multinational company
 - JD/LLB or local law degree equivalent and admission to local governing body
 - Experience identifying and leading  initiatives effectively across business units and internal functions to efficiently and proactively resolve business issues
-- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab’s interests
+- Practical yet creative problem-solving approach that emphasizes addressing business needs while protecting GitLab's interests
 - Proactive, dynamic, and result driven self starter with strong attention to detail
 - Experience working across the globe in support of multiple time zones and cultures
 - Outstanding interpersonal skills, the ability to influence and interface effectively with leadership across all business functions
@@ -219,7 +246,7 @@ The Senior Managing Legal Counsel is a [Grade 9](/handbook/total-rewards/compens
 
 ### Product and Privacy
 
-The Legal Counsel, Product and Privacy collaborates with clients across GitLab on a broad range of matters including IP, product, marketing and privacy. In addition to the general Responsibilities and and Requirements above, this role specifically requires:
+The Legal Counsel, Product and Privacy collaborates with clients across GitLab on a broad range of matters including IP, product, marketing and privacy. In addition to the general Responsibilities and Requirements above, this role specifically requires:
 
 - Experience providing counseling to product and engineering teams on products and features throughout the development lifecycle, and identifying legal issues
 - Knowledge and understanding of open source licensing

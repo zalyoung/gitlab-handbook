@@ -10,11 +10,11 @@ We are the Minorities in Tech (MIT) Enterprise Resource Group (TMRG) founded in 
 ## Leads
 
 - [Aricka Flowers](/handbook/company/team/#atflowers)
-- [Sharif Bennett](/handbook/company/team/#SharifATL)
+- [Sharif Bennett](/handbook/company/team/#sharifatl)
 
 ## Sub-committees
 
-**Mentorship**: [Sharif Bennett](/handbook/company/team/#SharifATL) & [Darva Satcher](/handbook/company/team/#dsatcher)
+**Mentorship**: [Sharif Bennett](/handbook/company/team/#sharifatl) & [Darva Satcher](/handbook/company/team/#dsatcher)
 
 **Events**: [Aricka Flowers](/handbook/company/team/#atflowers), [Morgen Smith](/handbook/company/team/#msmith6) & [Shakarra McGuire](/handbook/company/team/#samcguire)
 
@@ -29,7 +29,7 @@ We are the Minorities in Tech (MIT) Enterprise Resource Group (TMRG) founded in 
 
 ## 2021 Initiatives
 
-- [Advanced Software Engineering Course taught at Morehouse College]({{< ref "advanced-software-engineering-course" >}})
+- [Advanced Software Engineering Course taught at Morehouse College](/handbook/company/culture/inclusion/erg-minorities-in-tech/advanced-software-engineering-course/)
 - Reverse AMA
 - Establish a TMRG Outreach Program
 - Speaker Series
@@ -39,16 +39,17 @@ We are the Minorities in Tech (MIT) Enterprise Resource Group (TMRG) founded in 
 ## 2020 Initiatives
 
 The top four Initiatives for 2020 are:
+
 - Mentorship
 - Participation in external events
 - Talent Acquisition
-- [Internal Outreach]({{< ref "erg-minorities-in-tech#internal-outreach" >}})
+- [Internal Outreach](/handbook/company/culture/inclusion/erg-minorities-in-tech/#internal-outreach)
 
 ## MIT Mentoring Program
 
 Mentoring is important for employee retention and growth.  During the 2020 calendar year, MIT is hosting it's first Mentoring Program.
 
-[Learn More]({{< ref "./mentoring" >}})
+[Learn More](mentoring/)
 
 ### Internal Outreach
 

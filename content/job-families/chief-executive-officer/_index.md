@@ -10,7 +10,7 @@ The CEO reports to the Board of Directors of GitLab, Inc.
 
 - Set overall strategy
 - Hire great people. Help people that are not a good fit find another job
-- Provide direction for product development with the [Executive Vice President of Product](/job-families/product/chief-product-officer/)
+- Provide direction for product development with the [Chief Product Officer](/job-families/product/chief-product-officer/)
 - Communicate company vision and goals to the entire team and the rest of the community
 - Lead by example
 - Praise the right behaviour
@@ -21,7 +21,7 @@ The CEO reports to the Board of Directors of GitLab, Inc.
 - Pricing and business model
 - Actively engage in mergers and acquisitions, if and when those are appropriate
 - Oversee the continued build out of a great team
-- [Leadership at GitLab](/handbook/company/team/structure/#e-group)
+- [Leadership at GitLab](/handbook/company/structure/#e-group)
 
 ## Performance Indicators
 

@@ -1,27 +1,25 @@
-
+<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators -->
+{{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
 {{ $org := lower (replace (.Get 0) " " "_") }}
-{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/performance_indicators/%s.yml" $org}}
-{{ with resources.GetRemote $dataURL }}
-  {{ with .Err}}
-    <h2>Unable to fetch performance indicator Data</h2>
-  {{ else }}
-      {{ $data := . | transform.Unmarshal }}
-      <ol>
-      {{ range $data }}
-        {{ if .is_key }}
-        <li><a href="{{.base_path}}#{{ .name | anchorize }}">{{ .name }}
-          {{ with .target}}(target: {{ . }}){{ end }}</a>
-          {{ if .sisense_data }}
-          <a href="https://app.periscopedata.com/app/gitlab/{{ .sisense_data.dashboard }}/?widget={{ .sisense_data.chart }}">📊</a>
-          {{ else if .urls }}
-            {{$url := index .urls 0}}
-            <a href="{{ $url }}">🔗</a>
-          {{ else }}
-          🐔
-          {{ end }}
-        </li>
-        {{ end }}
+{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/performance_indicators/%s.yml" $publicHandbookRef  $org}}
+{{ $resource := resources.GetRemote $dataURL }}
+{{ if not $resource }}
+  <h2>Unable to fetch performance indicator Data</h2>
+{{ else }}
+  {{ $data := $resource | transform.Unmarshal }}
+  <ol>
+  {{ range $data }}
+    {{ if .is_key }}
+    <li><a href="{{.base_path}}#{{ .name | anchorize }}">{{ .name }}
+      {{ with .target}}(target: {{ . }}){{ end }}</a>
+      {{ if .urls }}
+        {{$url := index .urls 0}}
+        <a href="{{ $url }}">🔗</a>
+      {{ else }}
+      🐔
       {{ end }}
-      </ol>
-{{ end }}
+    </li>
+    {{ end }}
+  {{ end }}
+  </ol>
 {{ end }}

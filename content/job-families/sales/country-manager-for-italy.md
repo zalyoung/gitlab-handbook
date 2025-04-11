@@ -29,7 +29,7 @@ The Country Sales Manager for Italy is a [grade 9](/handbook/total-rewards/compe
 - Generate qualified leads and develop new customers in conjunction with our strategic channel partners in exceeding quota
 - Expand knowledge of industry as well as the competitive posture of the company
 - Prepare activity and forecast reports as requested
-- Update and maintain Sales’ database as appropriate
+- Update and maintain Sales' database as appropriate
 - Assist sales management in conveying customer needs to product managers, and technical support staff
 - Utilize a consultative approach, discuss business issues with prospect and develop a formal quote, a written sales proposal or a formal sales presentation addressing their business needs
 - Respond to RFP's and follow up with prospects
@@ -60,11 +60,11 @@ The Country Sales Manager for Italy is a [grade 9](/handbook/total-rewards/compe
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ## Performance Indicators
 
-- [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary)
+- [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary)
 
 ## Career Ladder
 
@@ -74,7 +74,7 @@ The next steps in the Country Sales Manager for Italy job family is the [Area Sa
 
 Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, candidates will be invited to interview with 2-5 team members
 - There may be a final executive interview

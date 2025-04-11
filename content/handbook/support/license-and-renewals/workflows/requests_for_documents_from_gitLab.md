@@ -1,5 +1,4 @@
 ---
-
 title: Requests for documents or signatures from GitLab
 category: General
 description: How to get GitLab documents or signature for customers.
@@ -15,7 +14,7 @@ GitLab sign some kind of document. Examples include:
 
 If the documents are related to a subscription, license or sales opportunity,
 Sales team members are responsible for communication with the customer. Follow
-the [working with sales workflow]({{< ref "working_with_sales" >}}) to get the customer's
+the [working with sales workflow](/handbook/support/license-and-renewals/workflows/working_with_sales/) to get the customer's
 Account Owner involved.
 
 Additional information on this topic can be found in the following handbook pages:
@@ -23,7 +22,7 @@ Additional information on this topic can be found in the following handbook page
 - [Sales Guide: Collaborating with GitLab Legal - How to reach Legal](/handbook/legal/customer-negotiations/)
 - [Sales Order Processing - Contact Legal](/handbook/sales/field-operations/order-processing/#contact-legal)
 
-Other types of documents may be covered by the [general Support workflows]({{< ref "/content/handbook/support/workflows/_index.md" >}}).
+Other types of documents may be covered by the [general Support workflows](/handbook/support/workflows/_index.md).
 
 ## Tax Documents
 

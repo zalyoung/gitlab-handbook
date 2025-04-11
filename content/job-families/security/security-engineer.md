@@ -11,7 +11,7 @@ description: "As a member of the security team at GitLab, you will be working to
 
 As a member of the security team at GitLab, you will be working towards raising the bar on security. We will achieve that by working and collaborating with cross-functional teams to provide guidance on security best practices.
 
-The [Security Team](https://about.gitlab.com/handbook/security) is responsible for leading and implementing the various initiatives that relate to improving GitLab's security.
+The [Security Team](/handbook/security) is responsible for leading and implementing the various initiatives that relate to improving GitLab's security.
 
 ## Responsibilities for Security Engineer roles
 
@@ -72,11 +72,11 @@ The Senior Security Engineer role extends the [Intermediate Security Engineer](#
 - Great written and verbal communication skills
 - Interview security candidates during hiring process
 
-***
+---
 
-A Senior Security Engineer may decide to pursue the [security engineering management track](/job-families/security/security-leadership/) at this point, should they wish to. See [Engineering Career Development](https://about.gitlab.com/handbook/engineering/career-development/) for more detail on the tracks available for Senior Engineers.
+A Senior Security Engineer may decide to pursue the [security engineering management track](/job-families/security/security-leadership/) at this point, should they wish to. See [Engineering Career Development](/handbook/engineering/careers/) for more detail on the tracks available for Senior Engineers.
 
-***
+---
 
 #### Job Grade
 
@@ -108,7 +108,6 @@ The Staff Security Engineer role is a progression of the [Senior Security Engine
 - Demonstrated consistent willingness and ability to take on new and difficult challenges
 - Possesses expert-level knowledge in their specialty field and the security technology stack
 - Demonstrates strong technical leadership, acknowledged by cross-functional peers and stakeholders
-
 
 #### Job Grade
 
@@ -148,7 +147,6 @@ The Principal Security Engineer is a [grade 9](/handbook/total-rewards/compensat
 
 The Distinguished Security Engineer role is a progression of the [Principal Security Engineer](#principal-security-engineer) role and typically reports to Director/Senior Director/VP.
 
-
 #### Responsibilities
 
 - Collaborate as a trusted advisor to Security Senior Leadership, providing visionary technical leadership that shapes the organization's long-term security strategic direction
@@ -160,7 +158,6 @@ The Distinguished Security Engineer role is a progression of the [Principal Secu
 - Identify and mitigate emerging threats before they impact the organization, designing and deploying advanced countermeasures
 - Shape the company's security strategy, influencing its direction and ensuring it remains at the forefront of industry best practices
 - Develop solutions addressing longer term strategic goals and objectives that have deep and broad impact both internally and externally
-
 
 #### Requirements
 
@@ -175,27 +172,26 @@ The Distinguished Security Engineer role is a progression of the [Principal Secu
 - Display exceptional adaptability when requirements, direction, or circumstances change
 - Exhibit exceptional conflict management skills to navigate and resolve complex and critical conflicts with far-reaching organizational impact
 
-
 #### Job Grade
 
 The Distinguished Security Engineer is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Staff+ Initiatives
 
-At GitLab, [Staff+ individual contributors](https://about.gitlab.com/handbook/engineering/ic-leadership/) take on a larger role by driving initiatives that are larger in scope, impact, and value than their current day-to-day responsibilities call for.  In order to achieve this, Staff+ engineers are encouraged to choose 1 project, mutually agreed upon with their manager, for which they act as DRI until completion or mutually agreed upon priorities change.  The goal is to provide our staff+ team members the following benefits:
+At GitLab, [Staff+ individual contributors](/handbook/engineering/ic-leadership/) take on a larger role by driving initiatives that are larger in scope, impact, and value than their current day-to-day responsibilities call for.  In order to achieve this, Staff+ engineers are encouraged to choose 1 project, mutually agreed upon with their manager, for which they act as DRI until completion or mutually agreed upon priorities change.  The goal is to provide our staff+ team members the following benefits:
 
 - Career Growth through increased scope and responsibility
-- Increase in influence and authority through exertion of [technical leverage](https://about.gitlab.com/handbook/engineering/ic-leadership/#technical-leverage).
+- Increase in influence and authority through exertion of [technical leverage](/handbook/engineering/ic-leadership/#technical-leverage).
 - Increase in decision making opportunities
 - Leadership experience
 - Project Management experience
 
 Initiatives are selected with the following criteria:
 
-- Mutually Decided: The team member and team member’s manager will mutually agree upon the initiative, taking into account the requirements of other stakeholders.
-- Relevant: The initiative should be relevant to GitLab, the Security Department, and the team member’s team.
+- Mutually Decided: The team member and team member's manager will mutually agree upon the initiative, taking into account the requirements of other stakeholders.
+- Relevant: The initiative should be relevant to GitLab, the Security Department, and the team member's team.
 - Impactful: The initiative should have a positive impact in making GitLab more secure and/or maturing our Security program
-- (Preferably) Within Team Member’s Domain: To increase the team member’s ability to succeed and ability to control influence and outcome, the chosen work should fall within the team member’s domain of work.  The team member does not need to be at an expert level as growth and development in skillset is not only encouraged, but intended.
+- (Preferably) Within Team Member's Domain: To increase the team member's ability to succeed and ability to control influence and outcome, the chosen work should fall within the team member's domain of work.  The team member does not need to be at an expert level as growth and development in skillset is not only encouraged, but intended.
 - Solves a Problem:  The initiative should be designed to produce an outcome that remediates or mitigates a security concern.
 
 All staff+ initiatives are tracked as epics with the `~"Staff+ Initiative"` label in both of our top-level namespaces with corresponding epic boards for global transparency and tracking:
@@ -213,11 +209,11 @@ The manager and team member should work to define how much time should be alloca
 
 **Define Objective and Scope of Work**
 
-Scope should include systems, services, and tools.  The objective should provide a clear description of outlining the problem to be addressed, why this is a problem, what impact or value solving this problem will have, and the cost of not addressing this issue.  Note: The more data you can provide in proving value, the more likely you are to succeed. For example, it is better to say “fixing this will result in a reduction of $74,000 in bug bounty spend” vs “fixing this will make us more secure”.
+Scope should include systems, services, and tools.  The objective should provide a clear description of outlining the problem to be addressed, why this is a problem, what impact or value solving this problem will have, and the cost of not addressing this issue.  Note: The more data you can provide in proving value, the more likely you are to succeed. For example, it is better to say "fixing this will result in a reduction of $74,000 in bug bounty spend" vs "fixing this will make us more secure".
 
 **Timebound**
 
-The initiative will list a projected start and end date.  Ideally, projects would range anywhere from 6 weeks to 6 months.  The end date is your educated guess and may change, but leverage the due date to your advantage with your dependencies and stakeholders.  Further, this does not need to follow a quarterly cycle meaning it does not need to start at the beginning of a quarter and end on the last day of the quarter.  The intent is to start an initiative and carry it to 100% completion.  The work is not required to be tracked as an OKR but the team member may choose to create OKR’s if they feel more comfortable with that tracking and reporting style.
+The initiative will list a projected start and end date.  Ideally, projects would range anywhere from 6 weeks to 6 months.  The end date is your educated guess and may change, but leverage the due date to your advantage with your dependencies and stakeholders.  Further, this does not need to follow a quarterly cycle meaning it does not need to start at the beginning of a quarter and end on the last day of the quarter.  The intent is to start an initiative and carry it to 100% completion.  The work is not required to be tracked as an OKR but the team member may choose to create OKR's if they feel more comfortable with that tracking and reporting style.
 
 **Milestones**
 
@@ -229,7 +225,7 @@ The project needs to have a well defined exit criteria.  This should match with 
 
 **Stakeholders**
 
-The team member should ensure stakeholders are identified, notified, and kept informed throughout the duration of the project.  It is the team member’s responsibility to negotiate time and resources with their stakeholders and understand the nuances of stakeholder and team priorities.
+The team member should ensure stakeholders are identified, notified, and kept informed throughout the duration of the project.  It is the team member's responsibility to negotiate time and resources with their stakeholders and understand the nuances of stakeholder and team priorities.
 
 **Dependencies & Risks**
 
@@ -293,31 +289,33 @@ Product Security Engineering Team Requirements
 - Excellent understanding of application security issues and how to fix application security vulnerabilities
 - Track record of delivering results through the entire software development lifecycle
 
-### Security Automation
+### Signals Engineering
 
-By leveraging diverse technologies and an automation first approach, the Security Automation team strives towards improving the efficiency, effectiveness, and accuracy within GitLab's Information Security program with a focus on cost savings. Examples include the creation of automated security issue triage and management solutions, automating handling of repetitive tasks, and defining re-usable security automation architectures. Additionally, the Security Automation team will assist other security specialty teams with automation efforts they are leading and developing through the assessment of automation tools, and integration tools and technologies to support automation efforts as needed.
+Signals engineers build and maintain security observability capabilities and transform those capabilities into actionable signals and detections to detect attacker behaviors. An understanding of the GitLab product and a passion for diving deep into attacker behaviors is a key competency in this role. Signals engineers are able to think like an incident responder, research and test attacker TTPs, maintain relationships with product stakeholders, and empower the business to build and improve security logging and detection capabilities.
 
-Security Automation Responsibilities
+Signals Engineering Team Responsibilities:
 
-- Design, engineer, deploy, and maintain custom automation products
-- Build security tooling and automation for internal use that enable the Security Department to operate at high speed and wide scale
-- Define and own metrics and key performance indicators to determine the effectiveness of the Security Automation program
-- Collaborate with product teams to ensure that the GitLab product meets security automation requirements for ourselves and our users.
+- Develop and improve security signal creation at GitLab - including the GitLab product, corporate, cloud and identity infrastructure.
+- Map detection capabilities to breach concerns, identifying critical signals to detect behaviors of interest.
+- Understand the implications of an attack, vulnerability, or gap in security observability, and be able to translate that gap into an opportunity to improve overall security observability.
+- Sit at the intersection of Security Operations, Infrastructure and Product teams in a powerful position to create threat detection rules, identify and empower the business to implement security observability improvements for internal threat detections and customer security observability needs.
+- Dogfood the GitLab product observability capabilities through product logging such as the GitLab audit log.
+- Build and report on signals engineering metrics.
+- Participate in high severity security incidents with a focus on identifying gaps in observability, building new threat detection rules, and reducing the mean time to detection creation.
 
-Security Automation Requirements
+Signals Engineering Team Requirements:
 
-- Previous experience on a Security Operations, Software Development, or Automation team
-- Scripting/coding experience with one or more languages - Python, Ruby, and/or Golang experience a plus
-- Extensive knowledge of Internet security issues, automation or software engineering technologies, cloud architectures, and threat landscape concepts
-- Solid understanding of the Software as a Service (SaaS) model
-- Solid understanding of the DevOps model
-- Experience with Cloud Computing Platforms - GCP experience a plus
-- Experience with Kubernetes a plus
-- Experience with infrastructure as code processes and tools a plus
+- A passion for AI (Artificial Intelligence) with goals to implement it in all parts of detection engineering
+- Ability to write complex threat detection engineering rules
+- Experience with SIEM tools, such as Splunk or Devo
+- Programming knowledge and ability to automate manual processes using code in a commonly used programming language, like Python
+- The ability to map out and understand attacker patterns and behaviors and understand the security implications of various attacks on DevSecOps platforms like GitLab.
+- The ability to assist in translating technical details into a cohesive story which empowers security observability improvements.
+- Some experience with Google Cloud Platform (GCP) and/or AWS
 
 ### SIRT - Security Incident Response Team
 
-SIRT Engineers are the firefighters of the GitLab Security Team.  As a Security Engineer in SIRT your daily duties will include incident response, log analysis, forensics, tooling and automation development, as well as contributing to strategic improvements to the GitLab products and GitLab.com services.  Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, have the ability to engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user’s data safe.
+SIRT Engineers are the firefighters of the GitLab Security Team.  As a Security Engineer in SIRT your daily duties will include incident response, log analysis, forensics, tooling and automation development, as well as contributing to strategic improvements to the GitLab products and GitLab.com services.  Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, have the ability to engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user's data safe.
 
 More information about the SIRT role is described in the persona of [Alex, SIRT Engineer](/handbook/product/personas/#alex-security-operations-engineer)
 
@@ -350,7 +348,7 @@ SIRT Requirements
 
 Trust & Safety Engineers are the builders of the anti-abuse world. They develop the tools needed to monitor, mitigate and report on abusive behavior and are an essential part of our goal to be good internet citizens.
 
-A successful candidate is someone who wants to make the internet a safer place and do the right thing because it’s right.
+A successful candidate is someone who wants to make the internet a safer place and do the right thing because it's right.
 
 Your daily duties will include building tooling and automation for curbing abuse, assist with incident response, as well as contributing to strategic improvements to the GitLab products and GitLab.com services.
 
@@ -387,29 +385,86 @@ Security Assurance Engineers enable Sales and support go-to-market by achieving 
 
 ### Security Architect
 
-This role reports directly to the CISO. Generally we would see this specialty to be filled at the Distinguished level. Distinguished engineers and Fellows have the widest sphere of influence and responsibility at the individual contributor level and as such may be asked to focus on high impacting focus areas. The security architect is a highly technical role responsible for planning, designing, testing, implementing and maintaining security strategy and solutions across the entire GitLab ecosystem. More specifically the responsibilities of this role include:
+Security Architects are responsible for the identification, assessment, prioritization, and reduction of systemic risks associated with the GitLab product and architecture. They lead the development and execution of the security strategy, roadmap, and standards to address complex security challenges across the GitLab ecosystem.
 
-- Define key architectural patterns, engineering practices and standards and drive them across the organization.
-- Work closely with other teams to develop and promote security architectures to protect microservices, serverless, containers, application development and operations practices
-- Maintain a deep understanding and application of security concepts at a technical level.
-- Responsible for providing security guidance to other team members in their design, implementation and support of new cloud architecture and automation technologies, as well as updates and maintenance of existing cloud and automation systems
-- Advocate, document and define security architecture vision from a strategic perspective, including internal and external platforms, tools, and systems
-- Contributes to the security of enterprise data and systems by developing enterprise information security solutions.
-- Creates and updates a view of IT assets, related attack surfaces, and threat actors to illustrate the flow of data and associated security threats.
-- Research, design, and develop new enterprise technologies, architectures, and security products that will support security requirements for the enterprise and its customers, business partners, and vendors.
-- Drive deep architectural discussions in a collaborative fashion to ensure solutions are designed for successful, automated deployment in the cloud, vendor, and on prem environments
-- Assist in the development of security technology roadmaps and end-of-life technology plans.
-- Contribute to, interpret, and disseminate information security policies, standards, and promote awareness of these artifacts to technical component owners.
-- Ensure compliance to information security practices & standards to reduce the likelihood of breaches, audit findings, regulatory, and legal liabilities
-- Analyzes business impact and exposure based on emerging security threats, vulnerabilities, and risks and contributes to the development and maintenance of information security architecture.
-- Engages with security specialists and other functional area architects to ensure adequate enterprise security solutions are in place to sufficiently mitigate identified risks, and to meet business objectives and regulatory requirements.
-- Responds to escalated cybersecurity issues for enterprise systems; facilitates advanced diagnosis and troubleshooting when necessary.
+Security Architects report to the Director of Security Platforms and Architecture within the Product Security Department. As Staff+ Security Engineers, they have a wide sphere of influence and responsibility, and they maximize their impact by working through and with others.
+
+Responsibilities
+
+- Lead the development and execution of the security strategy and roadmap to address complex security challenges at scale
+- Develop expert-level knowledge of GitLab’s platform architecture and perform comprehensive risk identification, assessment, and prioritization
+- Work cross-organizationally to create remediation plans for key security risks in the Product Security Risk Register
+- Lead the security architecture and design work for strategic initiatives, providing clear direction to cross-functional teams
+- Conduct security architecture reviews for large strategic projects
+- Drive continuous improvement of security architecture practices and patterns across the organization
+- Develop and communicate security standards to proactively enable teams to make sound security decisions and establish clear expectations for secure software delivery
+- Cultivate strong relationships across Product and Engineering to maintain visibility into major initiatives and drive security outcomes
+- Anticipate emerging security challenges and propose proactive architectural solutions
+- Provide expert guidance and mentorship to security engineers across the division
+
+Requirements
+
+- Demonstrated ability to translate complex security concepts into clear, actionable recommendations
+- Proven track record of driving complex security initiatives through cross-functional collaboration and influence
+- Deep expertise in risk assessment, secure system design, and threat modeling
+- Extensive experience securing modern application architectures and/or cloud platforms (AWS/Azure/GCP)
+- Strong understanding of DevSecOps practices and secure software delivery
+
+Nice to have
+
+- Demonstrated ability to quantify risk, develop metrics, and/or develop Key Risk Indicators for Product Security
+- Expertise in emerging technology, like AI
+- Understanding of security certifications, frameworks, and standards, like FedRAMP, ISO 27001, SOC 2, PCI-DSS, etc.
+
+### Product Security Risk & Metrics 
+
+A Product Security Risk & Metrics Engineer combines specialized focus on product security risk and metrics engineering. This position develops specialized Key Risk Indicators (KRIs), designs data collection systems, and creates visualizations that demonstrate security posture improvements, measure Product Security teams' strategic and operational effectiveness, and drive data-informed security decisions. This engineer also manages the Product Security Risk Register and drives cross-functional alignment among Security, Engineering, and Product stakeholders to ensure buy-in and commitment to risk reduction initiatives.
+
+The ideal candidate combines product security expertise, data analysis expertise, and strong stakeholder management skills to build frameworks that enhance visibility, prioritization, and progress tracking of our product security initiatives.
+
+Responsibilities:
+
+- Create and maintain Key Risk Indicators (KRIs) specifically designed to measure, monitor, and communicate product security risk levels
+- Engineer tracking systems and data visualizations that monitor remediation progress and provide visibility into risk reduction initiatives
+- Apply data analysis techniques to identify trends and patterns in product security risk data to inform proactive risk management
+- Design and implement robust metrics collection systems that accurately measure both strategic and operational effectiveness for all Product Security teams
+- Build and maintain the operational systems for the Product Security Risk Register, focusing on efficient workflows and data collection
+- Manage operational cadences including the monthly risk review process and action item tracking workflows
+- Facilitate cross-team collaboration to ensure risk reduction efforts are properly coordinated and tracked
+- Drive cross-functional alignment between Security, Engineering, Product, and other stakeholders to ensure buy-in and commitment to risk reduction initiatives
+- Work alongside the Security Risk Team to ensure product-specific risk tracking aligns with broader operational and enterprise risk management programs while maintaining distinct focus areas
+- Serve as the central coordinator for the Product Security Risk Register operations, related metrics collection, and stakeholder reporting within the Security Architecture team
+
+Requirements:
+
+- 5+ years of experience in product security, DevSecOps, security risk management, data analytics, or related technical roles
+- Demonstrated understanding of secure development practices and product security risks
+- Proven experience developing and implementing security metrics, KRIs, and risk dashboards that drive organizational outcomes 
+- Proven ability to translate complex security concepts into actionable data and visualizations
+- Proficiency with data visualization and analysis tools (e.g., Tableau, Power BI, or similar)
+- Proficiency in designing workflows and scalable labeling systems in development ticketing systems like GitLab, Jira, Asana, etc. 
+- Strong analytical skills with ability to collect, organize, and derive insights from complex data sets
+- Proven ability to manage cross-functional stakeholders, drive consensus, and navigate competing priorities
+- Excellent written and verbal communication skills with the ability to present complex data in accessible formats
+
+Nice-to-Have Qualifications:
+
+- Experience working directly with product and engineering teams on security initiatives
+- Familiarity with GitLab and its DevSecOps capabilities
+- Prior experience specifically with security risk registers or vulnerability management programs
+- Prior experience with threat modeling, security reviews, or pentesting
+- Experience with automation and scripting for data collection and reporting
+- Security certifications such as CISSP, CISM, CRISC, CRM, etc.
+- Project management certifications like PMP
+- Experience with risk assessment methodologies and frameworks such as NIST RMF, FAIR, ISO 31000, etc.
+- Knowledge of compliance frameworks such as FedRAMP, SOC 2, ISO 27001, PCI-DSS, TISAX, etc.
+- Experience working in a rapidly scaling technology company
 
 ## Security Engineer Hiring Process
 
 All interviews are conducted using Zoom video conferencing software. Candidates for Security Engineer roles can expect the hiring process to follow the order below, with modifications to the process as required, based on specific situations. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-#### Screening call with Recruiter
+### Screening call with Recruiter
 
 ### Round 1
 
@@ -433,4 +488,4 @@ See more details about our hiring process on the [hiring handbook](/handbook/hir
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

@@ -27,7 +27,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 
 > Reduce the administrative burden linked to customer security review processes
 
-### Understand Security’s role
+### Understand Security's role
 
 > Strengthen the understanding of the customer assurance activities and Field Security work
 
@@ -42,6 +42,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 ## Holistic security training and enablement
 
 {{% details summary="1. Throughout the pipeline" %}}
+
 - **At the discovery stage**
 - **During scoping discussions**
 - **With the technical evaluation**
@@ -50,6 +51,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 {{% /details %}}
 
 {{% details summary="2. During their time at GitLab" %}}
+
 - **Before they join GitLab**
 - **During the onboarding process**
   - Sales Quick Start
@@ -60,6 +62,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 {{% /details %}}
 
 {{% details summary="3. Across the different roles" %}}
+
 - **SDR/BDR**
 - **Account Executives**
 - **Strategic Account Leaders**
@@ -72,6 +75,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 {{% /details %}}
 
 {{% details summary="4. In every territory" %}}
+
 - **EMEA**
 - **APAC**
 - **AMER**
@@ -79,6 +83,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 {{% /details %}}
 
 {{% details summary="5. For every type of customer" %}}
+
 - **SMB**
 - **Mid-Market**
 - **Enterprise**
@@ -87,7 +92,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 
 ## Next generation of sales security training
 
-Our objective is to build the next generation of GitLab's [Field Security]({{< ref "../field-security" >}}) program. Part of enhancing this program is establishing a Security Sales Training and Enablement program. We want to spearhead the following initiatives:
+Our objective is to build the next generation of GitLab's [Field Security](../field-security/) program. Part of enhancing this program is establishing a Security Sales Training and Enablement program. We want to spearhead the following initiatives:
 
 - **GitLab Security on Demand,** the Netflix of sales security enablement
 - **Just in time micro-enablement,** learn what you need, when you need it

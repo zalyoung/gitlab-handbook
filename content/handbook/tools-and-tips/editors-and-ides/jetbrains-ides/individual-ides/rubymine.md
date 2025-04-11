@@ -9,9 +9,9 @@ Website: <https://www.jetbrains.com/ruby/>
 Best for: editing Ruby or Rails applications, which can include Javascript/Typescript and most other
 web technologies.
 
-## Common Jetbrains Setup and Configuration
+## Common JetBrains Setup and Configuration
 
-Jetbrains IDEs are standardized, so much of the setup and configuration information applies to all IDEs, and can be found under [Common Jetbrains Setup and Configuration](../../setup-and-config).
+JetBrains IDEs are standardized, so much of the setup and configuration information applies to all IDEs, and can be found under [Common JetBrains Setup and Configuration](../setup-and-config/_index.md).
 
 Specific config for RubyMine can be found in the sections below.
 
@@ -30,13 +30,16 @@ See the [architecture documentation around components](https://docs.gitlab.com/e
 #### Setting up a RubyMine "Ruby" Run Configuration with puma using default socket binding
 
 1. Make sure you have done `gdk stop rails-web` before each debugging session (and `gdk start rails-web` when you are done debugging)
+1. In RubyMine, open the gitlab repo directory from `/path/to/gdk/gitlab` (Cloning gitlab and running it from a different directory won't work out of the box)
 1. Go to `Run -> Edit Configurations` to set up a Rails Run/Debug config like this in RubyMine:
     - Name: `GitLab: rails-web`
     - Configuration:
       - Server: `Puma`
+      - IP address: BLANK (delete `0.0.0.0`)
+      - Port: BLANK (delete `3000`)
       - Environment: `development`
       - Environment Variables (Note: these are taken from the current GDK `Procfile`, as well as additional ones to prevent timeouts during debugging. They may become outdated):
-        - `RAILS_RELATIVE_URL_ROOT=/;ACTION_CABLE_IN_APP=true;ACTION_CABLE_WORKER_POOL_SIZE=4;FIPS_MODE=false;GEO_SECONDARY_PROXY=0;GITLAB_RAILS_RACK_TIMEOUT=999999;GITLAB_RAILS_WAIT_TIMEOUT=999999;GITALY_DISABLE_REQUEST_LIMITS=false`
+        - `RAILS_RELATIVE_URL_ROOT=/;ACTION_CABLE_IN_APP=true;ACTION_CABLE_WORKER_POOL_SIZE=4;FIPS_MODE=false;GEO_SECONDARY_PROXY=0;GITLAB_RAILS_RACK_TIMEOUT=999999;GITLAB_RAILS_WAIT_TIMEOUT=999999;GITALY_DISABLE_REQUEST_LIMITS=false;PUMA_WORKER_TIMEOUT=99999999`
         - NOTE: The following values from the Procfile entry are omitted as they are not necessary:
             - `BUNDLE_GEMFILE`
             - `ENABLE_BOOTSNAP`
@@ -88,3 +91,7 @@ If you want to add more schemas from `config/database.yml`:
 1. Right click on top level of database, and view `Properties` (or the "wrench" button)
 1. Go to the `Schemas` tab
 1. Select the schemas you want.
+
+## Miscellaneous
+
+- To enable "Navigate to Test" (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>t</kbd>) for EE code, right click on `ee/spec` directory and choose "Mark Directory As...", "Test Sources".

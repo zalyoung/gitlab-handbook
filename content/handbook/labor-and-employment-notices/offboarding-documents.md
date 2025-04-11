@@ -11,7 +11,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Alabama
 
-- [Unemployment Compensation Documents](https://labor.alabama.gov/docs/dept_type.aspx)
+- [Unemployment Compensation Documents](https://labor.alabama.gov/docs/Default2.aspx)
 
 ### Alaska
 
@@ -25,7 +25,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Arkansas
 
-- [Unemployment Insurance Information Handbook](https://dws.arkansas.gov/wp-content/uploads/Your-Unemployment-Insurance-Info-Handbook.pdf)
+- [Unemployment Insurance Information Handbook](https://dws.arkansas.gov/wp-content/uploads/UI-Handbook-2024-Final.pdf)
 
 ### California
 
@@ -45,7 +45,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Georgia
 
-- [Separation Notice DOL-800](https://dol.georgia.gov/sites/dol.georgia.gov/files/related_files/document/dol800fillable.pdf)
+- [Separation Notice DOL-800](https://dol.georgia.gov/document/separation-notices/separation-notice-individual-interactive-dol-800/)
 
 ### Illinois
 
@@ -54,12 +54,12 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Indiana
 
-- [Unemployment Insurance Poster](https://www.in.gov/dwd/files/X-11.pdf)
+- [Unemployment Insurance Poster](https://www.in.gov/dwd/files/Employer-Poster.pdf)
 
 ### Iowa
 
-- [Notice of Separation 60-0154](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/documents/60-0154%20Notice%20Of%20Separation%20Or%20Refusal%20Of%20Work.pdf)
-- [Unemployment Insurance](https://www.iowaworkforcedevelopment.gov/sites/search.iowaworkforcedevelopment.gov/files/documents/2018/UnemploymentFlyer70-8010.pdf)
+- [Notice of Separation 60-0154](https://uiclaims.iwd.iowa.gov/EmployerSeparation/)
+- [Important Resources on Unemployment](https://workforce.iowa.gov/unemployment/resources)
 
 ### Kansas
 
@@ -81,7 +81,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Massachusetts
 
-- [Unemployment Insurance Benefits Claims Notice 0590-A](https://www.mass.gov/files/documents/2018/01/29/Form%20590-A-English%201-26-18.pdf)
+- [Unemployment Insurance Benefits Claims Notice 0590-A](https://www.mass.gov/doc/how-to-apply-for-unemployment-insurance-benefits-form-0590a/download)
 - [Unemployment Insurance Poster](https://www.mass.gov/doc/information-on-employees-unemployment-insurance-coverage-form-2553a/download)
 
 ### Michigan
@@ -117,7 +117,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Pennsylvania
 
-- [Unemployment Compensation UC-1609](https://www.uc.pa.gov/Documents/UC_Forms/UC-1609.pdf)
+- [Unemployment Compensation UC-1609](https://www.pa.gov/content/dam/copapwp-pagov/en/hrmoa/documents/hire-sep/separating/documents/uc-1609-benefits-employer-form.pdf)
 
 ### Rhode Island
 
@@ -141,9 +141,9 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Washington
 
-- [Unemployment Benefits Poster](https://esdorchardstorage.blob.core.windows.net/esdwa/Default/ESDWAGOV/about-employees/ESD-unemployment-benefits-poster.pdf)
+- [Unemployment Benefits Poster](https://esd.wa.gov/media/315/download?inline)
 
 ### West Virginia
 
-- [Unemployment Benefits Poster](https://workforcewv.org/wp-content/uploads/2022/10/UC-Benefits-Poster.pdf)
+- [Unemployment Claimant Handbook](https://workforcewv.org/wp-content/uploads/2024/05/WFWV-Claimant-Handbook-08.23-2.pdf)
 {{% /details %}}

@@ -1,6 +1,6 @@
 ---
 title: "Globalization & Localization"
-summary: Lead Gitlab’s go-to-market localization strategy, operations and technology platform, with a primary focus on Sales, Marketing, Growth & E-commerce Product areas.
+summary: Lead GitLab's go-to-market localization strategy, operations and technology platform, with a primary focus on Sales, Marketing, Growth & E-commerce Product areas.
 ---
 
 ## Levels
@@ -17,7 +17,7 @@ The Senior Globalization Enablement Manager is a [grade 7](/handbook/total-rewar
 
 The Senior Globalization Enablement Manager oversees the production of multilingual content for global teams at GitLab that require translation and localization to fulfill the company's market growth goals.
 
-This role requires strong collaboration skills and experience in website localization, world readiness, and digital publishing practices and is responsible for executing and delivering as a part of a successful localization program that supports marketing, product, help documentation, and content optimization in non-English languages. This role works closely with global content managers and developers to define successful localization models and help technical counterparts iterate on automating work streams and making costs and time-to-market processes more efficient.  
+This role requires strong collaboration skills and experience in website localization, world readiness, and digital publishing practices and is responsible for executing and delivering as a part of a successful localization program that supports marketing, product, help documentation, and content optimization in non-English languages. This role works closely with global content managers and developers to define successful localization models and help technical counterparts iterate on automating work streams and making costs and time-to-market processes more efficient.
 
 ### Senior Globalization Enablement Manager Responsibilities
 
@@ -86,7 +86,7 @@ The Senior Localization Content Manager is passionate about improving the user e
 
 - 3-5 years experience with content creation, localization, and copywriting, especially as pertains to the tech industry
 - Experience with all components of interdepartmental localized collateral, including product, marketing, and support
-- Able to manage the work of numerous suppliers, including copywriters, language services provider’s teams, and direct contractors
+- Able to manage the work of numerous suppliers, including copywriters, language services provider's teams, and direct contractors
 - Experience overseeing the end-to-end in-language customer journey, with an eye toward UX and impact to business
 - Working knowledge of SEO best practices
 - Strong communication skills
@@ -108,6 +108,111 @@ The next step in the Localization Content Manager job family is not yet defined 
 - Speed and throughput of translation; % of on-time deliveries
 - Localization quality; average language quality scores
 - Where necessary, ensure that localization decisions align to performance related outcomes for particular content types
+
+### Staff Fullstack Engineer, Localization
+
+The Staff Fullstack Engineer, Globalization and Localization reports to the Senior Manager, Globalization Technology.
+
+#### Staff Fullstack Engineer, Localization Job Grade
+
+The Staff Fullstack Engineer, Localization is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role.
+
+### Engineering Leadership
+
+- Lead and serve as technical expert for the team's technical domains, providing guidance on web development best practices, architectural decisions, and technical strategy
+- Partner with cross-functional stakeholders to define business needs, navigate priorities, and deliver optimal business outcomes
+- Communicate complex technical and architectural solutions clearly to both technical and non-technical stakeholders
+- Mentor team members on engineering practices, documentation, problem-solving, and stakeholder engagement
+- Drive process improvements and technical initiatives that enhance team efficiency and code quality
+- Drive innovation in localization technologies by evaluating emerging tools, frameworks, and AI solutions
+
+### Technical Expertise
+
+- Deliver high-quality technical solutions for complex web projects using advanced knowledge of globalization technologies
+- Identify and implement architectural improvements that address performance, security, internationalization (i18n) and scalability
+- Decompose complex requirements into actionable deliverables while maintaining flexibility to pivot based on feedback
+- Champion and implement solutions for technical debt reduction, security improvements, and system optimization
+- Guide the team in maintaining high standards for localizability, code quality, testing, and documentation
+- Diagnose and resolve complex performance issues, particularly in B2B/enterprise contexts
+- Design and implement AI-powered translation capabilities that enhance human translation workflows
+- Architect and integrate automated localization solutions, ensuring seamless delivery of internationalized content across platforms
+
+### Development and Collaboration
+
+- Drive results from unclear requirements through iterative development and stakeholder alignment
+- Actively participate in architectural design processes and technical planning
+- Build and maintain effective partnerships across Engineering, Marketing, Product, and leadership teams
+- Champion a culture of continuous improvement and knowledge sharing
+
+### Requirements
+
+- 10+ years in Fullstack engineering, with 5+ years in B2B/enterprise software marketing
+- Demonstrated experience leading cross-functional technical initiatives
+- Strong track record of mentoring and coaching team members
+- Proven ability to work effectively in agile, iterative development environments
+- Experience representing technical domains to diverse stakeholders
+- Deep understanding of globalization technologies and optimization techniques
+
+### Senior Fullstack Engineer, Localization
+
+The Senior Fullstack Engineer, Globalization and Localization reports to the Senior Manager, Globalization Technology.
+
+#### Senior Fullstack Engineer, Localization Job Grade
+
+The Senior Fullstack Engineer, Localization is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role.
+
+#### Senior Fullstack Engineer, Localization Role Overview
+
+The Senior Fullstack Engineer, Localization, is passionate about the changing localization technology landscape and can design and build solutions and capabilities that are disruptive in nature and in alignment with the future of automation and AI-assisted localization tooling.
+
+#### Senior Fullstack Engineer, Localization Responsibilities
+
+- Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment
+- Develop features and improvements to the GitLab localization infrastructure in a secure, well-tested, and performant way
+- Collaborate with Product Management and other stakeholders within Engineering (Frontend, UX, etc.) to maintain a high bar for quality in a fast-paced, iterative environment
+- Integrate AI-powered translation capabilities and solutions into existing systems and pipelines, to enhance human translation workflows
+- Design, develop and maintain integration and automation capabilities to support continuous localization pipelines within GitLab projects and internal
+systems, such as content management systems, marketing technology stack tools, etc.
+- Build and scale solutions for context-enhanced translation, machine translation, copywriting, transcreation and linguistic review of GitLab products and content
+- Recognize i18n (internationalization) and localizability technical debt, propose and implement solutions
+- Build product and content i18n (internationalization) standards and checks into CI/CD pipelines
+- Collaborate with UX, engineering, and product teams to integrate i18n effectively into our initiatives
+
+#### Senior Fullstack Engineer, Localization Requirements
+
+- Strong technical skills and an ability to work across backend, frontend, and infrastructure management code
+- Experience with Ruby on Rails is mandatory given GitLab's current tech stack (Python, Go and/or Vue are nice to have)
+- Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions
+- Experience owning a project from concept to production, including proposal, discussion, and execution
+- Professional experience building web applications and APIs
+- Hands-on experience working with large language models and their toolkits
+- Self-motivated and self-managing, with excellent organizational skills
+- Ability to thrive in a fully remote organization
+- Contributions to GitLab are highly regarded
+
+#### Senior Fullstack Engineer, Localization Desirable Skills, Knowledge, and Experience
+
+- Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
+- Comfort working in a highly agile, intensely iterative software development process
+- Experience owning a project from concept to production, including proposal, discussion, and execution
+- Self-motivated and self-managing, with strong organizational skills
+- Demonstrated ability to work closely with other parts of the organization
+- Share our values, and work in accordance with those values
+
+#### Career Ladder
+
+The next step in the Senior Fullstack Engineer, Globalization and Localization is Staff Fullstack Engineer, Globalization and Localization.
+
+For more details on the engineering career ladders, please review the [engineering career development handbook page](/handbook/engineering/careers/).
+
+A Senior Backend Engineer may want to pursue the [engineering management track](/job-families/engineering/engineering-management/) as a manager of people or a higher level individual contributor. See [Engineering Career Development](/handbook/engineering/careers/) for more detail.
+
+Note: Staff and above positions at GitLab are more of a role than just a level. We prefer to bring people in as Senior and let the team elevate them to Staff due to an outstanding work history within GitLab.
+
+#### Performance Indicators
+
+- Build and maintain a state-of-the-art localization platform in partnership with internal development teams and external suppliers.
+- Deploy solutions for localization workflows that rely more on integrated ML and generative AI tooling.
 
 ### Senior Manager, Globalization Technology
 
@@ -151,7 +256,7 @@ The next step in the Globalization Technology job family is Director, Globalizat
 #### Performance Indicators
 
 - Build and maintain a state-of-the-art localization platform in partnership with internal development teams and external suppliers.
-- Deploye solutions for localization workflows that rely more on integrated ML and generative AI tooling.
+- Deploy solutions for localization workflows that rely more on integrated ML and generative AI tooling.
 - Speed and throughput of translation; % of on-time deliveries.
 - Localization Quality; average language quality scores.
 - Total localization costs relative to content volume / format; fully-loaded price per word.
@@ -166,7 +271,7 @@ The Director, Globalization & Localization is a [grade 10](/handbook/total-rewar
 
 #### Director, Globalization & Localization Role
 
-The Director, Globalization & Localization will lead Gitlab’s go-to-market localization strategy, operations and technology platform, with a primary focus on Sales, Marketing, Growth & E-commerce Product areas. You’ll apply your deep domain knowledge and experience in web & product internationalization, localization lifecycle management, translation management system, machine translation and international expansion to help share the GitLab story & value across languages and cultures. You will translate, localize and customize market-appropriate content that resonates with the target audience. You’ll also work with product and engineering to ensure our globalization infrastructure and technology platform can support both current and future use cases. The qualified candidate will be a driven and inspiring leader who has a successful track record of building and leading a global team, including agencies and linguists network, and is comfortable being a player coach while scaling the globalization & localization function as our company grows.
+The Director, Globalization & Localization will lead GitLab's go-to-market localization strategy, operations and technology platform, with a primary focus on Sales, Marketing, Growth & E-commerce Product areas. You'll apply your deep domain knowledge and experience in web & product internationalization, localization lifecycle management, translation management system, machine translation and international expansion to help share the GitLab story & value across languages and cultures. You will translate, localize and customize market-appropriate content that resonates with the target audience. You'll also work with product and engineering to ensure our globalization infrastructure and technology platform can support both current and future use cases. The qualified candidate will be a driven and inspiring leader who has a successful track record of building and leading a global team, including agencies and linguists network, and is comfortable being a player coach while scaling the globalization & localization function as our company grows.
 
 #### Director, Globalization & Localization Responsibilities
 
@@ -204,7 +309,7 @@ The next step in the Globalization & Localization job family is not yet defined 
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - A 45 minute interview with our VP, Marketing Strategy & Platforms
 - A 45 minute interview with our Director, Digital Experience or Group Product Manager, Growth
 - A 45 minute interview with our Director, Marketing Operations or Manager, Marketing Operations

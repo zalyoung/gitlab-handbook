@@ -1,4 +1,4 @@
-{{ $sections := partials.IncludeCached "data/sections" page }}
+{{- /* To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/sections.yml */}}
   <table>
     <thead>
       <tr>
@@ -7,7 +7,7 @@
       </tr>
     </thead>
     <tbody>
-    {{- range $sections }}
+    {{- range site.Data.public.sections }}
       {{- if .sm }}
       <tr>
           <td>{{ .name }}</td>
@@ -17,18 +17,3 @@
     {{- end }}
     </tbody>
 </table>
-
-<style>
-    img.avatar {
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    max-height: 30px;
-    overflow: hidden;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: 1px solid lightgray;
-    aspect-ratio: auto 90 / 90;
-    overflow-clip-margin: content-box;
-    }
-</style>

@@ -1,18 +1,11 @@
 ---
-
 title: "Using the Customer Collaboration Project as a CSM"
 description: "Best practices and setup guide for Customer Success Managers using Customer Collaboration Projects to manage customer data, requests, and collaborations."
 ---
 
-
-
-
-
-
-
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
 ## The Customer Collaboration Project
 
@@ -44,19 +37,19 @@ The projects are further ordered into Sub-Groups by region:
 - Architecture diagram with history (git history).
 - List of [Members in the Zendesk Support](https://about.gitlab.com/support/managing-support-contacts/#managing-contacts) [Shared Organization](https://about.gitlab.com/support/managing-support-contacts/#shared-organizations) maintained by the customer with full history for governance (git history).
 - [TAM Issue tracker](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/tam-issue-tracking) Tracking of product feature requests.
-- [Interacting with the Product Team](/handbook/customer-success/csm/product/#product-interacting-with-csms) and [Prioritizing Customer issues](/handbook/product/product-processes/customer-issues-prioritization-framework/#customer-success).
+- Interacting with the Product Team and [Prioritizing Customer issues](/handbook/product/product-processes/customer-issues-prioritization-framework/#customer-success).
 - [Public Pages for Issue creation](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/tree/master/public).
 - [ServiceDesk Function](https://docs.gitlab.com/ee/user/project/service_desk/), to enable other users of the customer without a role in the Customer Collaboration Project to create issues. The CSM should notify the customer that the Collaboration Project is not meant for product support and troubleshooting inquiries.
 - Sharing service ping metrics, graphics, and Usage metrics guides via PDF, CSV with GitLab from the Customer ([configure Collab project for LFS](https://docs.gitlab.com/ee/user/project/settings/index.html#configure-project-visibility-features-and-permissions)).
 - Storing EBR and other meeting recordings ([configure Collab project for LFS](https://docs.gitlab.com/ee/user/project/settings/index.html#configure-project-visibility-features-and-permissions)).
 - Store Meeting Minutes.
-- Providing the [GitLab Support Team](/handbook/support/) and their Architecture Diagrams app access to the [Infrastructure Diagram](/handbook/support/workflows/looking_up_customer_technical_details.html#architecture-diagram-and-customer-success-project)
+- Providing the [GitLab Support Team](/handbook/support/) and their Architecture Diagrams app access to the [Infrastructure Diagram](/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project)
 - GitLab exploration. Allowing the customer access to an Ultimate tier namespace can come in handy for exploration of uses they may not have access to in their own instance. Also, it exposes them to our use of issues/epics/boards and may drive some interest in expanding their own use of these features.
 - Issue Boards with [scoped labels](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) as [workflow states](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels-examples).
 - Provide:
   - Training recommendations.
   - Important links & resources.
-- The use cases of Pre-Sales assets are described in this [Handbook Page: Solutions Architecture Collaboration Project](/handbook/customer-success/solutions-architects/processes/collaboration-project/)
+- The use cases of Pre-Sales assets are described in this [Handbook Page: Solutions Architecture Collaboration Project](/handbook/solutions-architects/processes/collaboration-project/)
 
 ### Setup a Customer Collaboration Project for Customer Success Managers
 
@@ -87,10 +80,10 @@ The customer's team should be included on the project and begin to work collabor
 9. Complete the [README](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/blob/master/README.md) file - make sure you replace all areas where there are [SQUARE BRACKETS] around text with the appropriate customer information
    1. IMPORTANT: This README is customer facing. Please be thorough when filling out sections and use customer presentable language that demonstrates a strong understanding of their needs and requirements.
 10. Invite the customer's team as direct members to the Customer Collaboration Project with 'Developer' role
-1. Discuss with the customer if some of their team members should have the 'Maintainer' role, so that they can manage the users themself.
-11. Subscribe to new issues in the Project and all applicable labels.
-12. Adjust the Feature Request and Agenda issue Templates in your collaboration project. The other [issue templates are on Group Level](https://gitlab.com/gitlab-com/account-management/sub-group-issue-templates/-/tree/master/.gitlab/issue_templates).
-13. Introduce the customer to the collaboration project.
+11. Discuss with the customer if some of their team members should have the 'Maintainer' role, so that they can manage the users themself.
+12. Subscribe to new issues in the Project and all applicable labels.
+13. Adjust the Feature Request and Agenda issue Templates in your collaboration project. The other [issue templates are on Group Level](https://gitlab.com/gitlab-com/account-management/sub-group-issue-templates/-/tree/master/.gitlab/issue_templates).
+14. Introduce the customer to the collaboration project.
 
 #### Please follow these instructions when you receive a customer from another CSM
 

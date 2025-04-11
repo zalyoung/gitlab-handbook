@@ -1,5 +1,5 @@
 ---
-title: "Corporate Legal"
+title: "Corporate & Compliance Legal"
 description: "This page offers a single source related to corporate legal information."
 ---
 
@@ -12,11 +12,11 @@ Please note that all links are GitLab-internal only.
 ## Working with Corporate Legal
 
 - For questions related to corporate matters, please review the content and materials within [AnswerBase](https://app.vendorpedia.com/vendor-portal/libraries). The team will continue to update the Corporate Library.
-- If the question a team member has is not answered within [AnswerBase](https://app.vendorpedia.com/vendor-portal/libraries), please open an Issue pursuant to the [RFP Process](/handbook/security/security-assurance/field-security/Field-Security-RFP.html#request-for-proposal-rfp-process)
+- If the question a team member has is not answered within [AnswerBase](https://app.vendorpedia.com/vendor-portal/libraries), please open an Issue pursuant to the [RFP Process](/handbook/security/security-assurance/field-security/field-security-rfp/#request-for-proposal-rfp-process)
 
 ## Insider Trading Policy and Insider Trading Policy FAQ
 
-- [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view?usp=sharing)
+- [Insider Trading Policy](https://drive.google.com/file/d/1yK4-L3nCEjVi14UwFfp9LNJzJNQdvvLB/view?usp=sharing)
 - [Insider Trading Policy FAQ](https://docs.google.com/document/d/1vKFiYuieDQtKmrak-aAB2dTT3B3Q-aU4DtbcRm27X4U/edit?usp=sharing)
 
 ## Designated Insiders

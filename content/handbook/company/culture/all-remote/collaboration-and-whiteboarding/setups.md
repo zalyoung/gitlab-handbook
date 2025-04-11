@@ -44,7 +44,7 @@ The first three criteria drove a lot of research into many applications + collab
 - **Drawing Surface Option 2:** [Samsung Galaxy Tab S6 Lite 10.4" with Spen (SM-P610NZBAXAR) $300](https://www.amazon.com/SAMSUNG-Android-Included-Speakers-SM-P610NZBAXAR/dp/B086Z3S3MY/).
   - Larger screen for easier drawing
 - **The Drawing Implement:** [Staedtler Digital Pencil $30](https://www.amazon.com/gp/product/B072N31S7C/) - the built in stylus is too small for drawing speed.
-- **The Collaborative Whiteboard App**: [LiveBoard.online Apps / Website](https://liveboard.online), Free Forever attributes:
+- **The Collaborative Whiteboard App**: [LiveBoard.online Apps / Website](https://www.liveboard.online/), Free Forever attributes:
 
 |                                                   | [Liveboard Online](https://www.liveboard.online) | [Google Jamboard](https://support.google.com/jamboard/answer/7424836?hl=en) | [Miro](https://miro.com) |
 | ------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------ |
@@ -66,15 +66,15 @@ The first three criteria drove a lot of research into many applications + collab
 
 ##### Liveboard
 
-1. Create two free accounts on https://liveboard.online.
+1. Create two free accounts on https://www.liveboard.online/.
 1. On your mobile app, create a "session" and invite the second user.
 1. On your zoom laptop, join as the second user. (it is important that the user owning the whiteboard session be logged in on the tablet so that the "new page" control resides there.)
-1. Screenshare the whiteboard from the laptop web logon - since in most cases others won't contribute.
+1. Screen share the whiteboard from the laptop web logon - since in most cases others won't contribute.
 1. Be ready to share a link if others desire to contribute (req $5/mon to have guests which do not have to register to participate).
 
 ##### Android Settings
 
-Android tablets with no physical buttons put a navigation bar on the bottom part of the screen. I found that I was having my palm be picked up by the Home Screen button, which would close the white boarding app. Also, when any of these buttons are activated by the stylus it is equally disruptive to the flow. For the Navigation Bar settings I set “Navigation type” to “Swipe gestures” and I enable “Block gestures with S Pen” (Android 12, Samsung OneUI v4.1)
+Android tablets with no physical buttons put a navigation bar on the bottom part of the screen. I found that I was having my palm be picked up by the Home Screen button, which would close the white boarding app. Also, when any of these buttons are activated by the stylus it is equally disruptive to the flow. For the Navigation Bar settings I set "Navigation type" to "Swipe gestures" and I enable "Block gestures with S Pen" (Android 12, Samsung OneUI v4.1)
 
 #### Questions About This Setup
 

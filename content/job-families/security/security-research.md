@@ -164,18 +164,18 @@ The {Security Research Manager} is a [grade 8](/handbook/total-rewards/compensat
 
 - Demonstrable prior people management experience
 Enjoys working efficiently; is action oriented and full of energy for the things he/she sees as challenging; not fearful of acting with a minimum of planning; seizes more opportunities than others.
-- Can effectively cope with change; can shift gears comfortably; can decide and act without having the total picture; isn’t upset when things are up in the air; doesn’t have to finish things before moving on; can comfortably handle risk and uncertainty.
+- Can effectively cope with change; can shift gears comfortably; can decide and act without having the total picture; isn't upset when things are up in the air; doesn't have to finish things before moving on; can comfortably handle risk and uncertainty.
 - Knows how businesses work; knowledgeable in current and possible future policies, practices, trends, and information affecting their business and organization; knows the competition; is aware of how strategies and tactics work in the marketplace.
-- Deals with problem reports firmly and in a timely manner; doesn’t allow problems to fester; regularly reviews performance and holds timely discussions; can make negative decisions when all other efforts fail; deals effectively with troublemakers.
+- Deals with problem reports firmly and in a timely manner; doesn't allow problems to fester; regularly reviews performance and holds timely discussions; can make negative decisions when all other efforts fail; deals effectively with troublemakers.
 - Makes good decisions (without considering how much time it takes) based upon a mixture of analysis, wisdom, experience, and judgment; most of their solutions and suggestions turn out to be correct and accurate when judged over time; sought out by others for advice and solutions.
-- Provides challenging and stretching tasks and assignments; holds frequent development discussions; is aware of each report’s career goals; constructs compelling development plans and executes them; pushes reports to accept developmental moves; will take reports who need work; is a people builder.
+- Provides challenging and stretching tasks and assignments; holds frequent development discussions; is aware of each report's career goals; constructs compelling development plans and executes them; pushes reports to accept developmental moves; will take reports who need work; is a people builder.
 - Is good at establishing clear guidance; sets stretching goals; distributes the workload appropriately; lays out work in a well-planned and organized manner; maintains two-way dialogue with others on work and results; brings out the best in people; is a clear communicator.
-- Is widely trusted; is seen as a direct, truthful; can present the unvarnished truth in an appropriate and helpful manner; keeps confidences; admits mistakes; doesn’t misrepresent him/herself for personal gain.
-- Doesn’t hold back anything that needs to be said; provides current, direct, complete, and “actionable” positive and corrective feedback to others; lets people know where they stand; faces up to people problems on any person or situation (not including direct reports) quickly and directly; is not afraid to take negative action when necessary.
+- Is widely trusted; is seen as a direct, truthful; can present the unvarnished truth in an appropriate and helpful manner; keeps confidences; admits mistakes; doesn't misrepresent him/herself for personal gain.
+- Doesn't hold back anything that needs to be said; provides current, direct, complete, and "actionable" positive and corrective feedback to others; lets people know where they stand; faces up to people problems on any person or situation (not including direct reports) quickly and directly; is not afraid to take negative action when necessary.
 - Assigns responsibility for tasks and decisions; sets clear goals and measures; monitors process, progress, and results; designs feedback loops into work.
 - Creates a climate in which people want to do their best; can motivate many kinds of reports and team or project members; can assess each persons hot button and use it to get the best out of him/her; pushes tasks and decisions down; empowers others; invites input from each person and shares ownership and visibility; makes each person feel their work is important; is someone people like working for and with.
 - Scopes out length and difficulty of tasks and projects; sets goals; breaks down work into the process steps; develops schedules and task/people assignments; anticipates and adjusts for problems and roadblocks; measures performance against goals; evaluates results.
-- Uses rigorous logic and methods to solve difficult problems with effective solutions; probes all fruitful sources for answers; can see hidden problems; is excellent at honest analysis; looks beyond the obvious and doesn’t stop at the first answers.
+- Uses rigorous logic and methods to solve difficult problems with effective solutions; probes all fruitful sources for answers; can see hidden problems; is excellent at honest analysis; looks beyond the obvious and doesn't stop at the first answers.
 - Can be counted on to exceed goals successfully; is constantly and consistently one of the top performers; very bottom-line oriented; steadfastly pushes self and others for results.
 
 ### Senior Security Manager, Security Research
@@ -222,7 +222,7 @@ For details on the Security organization leadership roles, to include the Securi
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule 2 separate 50-minute interviews with Security Research team member peers.
 - Then, candidates will be invited to schedule a 50-minute interviews with the Security Research team hiring manager.
 - Finally, candidates will be invited to schedule a 30-minute interview with the Director, Security Engineering.

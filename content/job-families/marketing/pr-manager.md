@@ -11,7 +11,7 @@ The GitLab PR Manager will help GitLab build thought leadership and drive conver
 
 - Think globally to implement global PR campaigns.
 - Execute thought leadership, product, partner, technical, channel, crisis, rapid response and proactive PR campaigns.
-- Manage GitLab’s PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
+- Manage GitLab's PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
 - Work closely with executives, spokespeople and the greater organization to develop press releases, blog posts and media relations strategy for GitLab announcements and news.
 - Collaborate across the organization to support the news cycle through various channels, as well as educate teams on news.
 - Oversee the GitLab awards submission program.
@@ -77,7 +77,7 @@ The Senior PR Manager is a [grade 7](/handbook/total-rewards/compensation/compen
 - Responsible for ideation of PR activities, OKRs, and reporting on results.
 - Think globally to implement global PR strategy and  campaigns.
 - Plan, implement and manage PR programs  for product, security and partner/channel including thought leadership, technical, crisis, rapid response and proactive PR campaigns.
-- Engage and coordinate with GitLab’s PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
+- Engage and coordinate with GitLab's PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
 - Work closely with executives, spokespeople and the greater organization to develop press releases  and media relations strategy for GitLab announcements and news.
 - Collaborate across the organization to support the news cycle through various channels, as well as educate teams on news.
 - Respond to daily media inquiries in a timely and professional manner.
@@ -111,11 +111,11 @@ This specialty maps to the [Field Marketing](/handbook/marketing/field-marketing
 
 ### Partner and Channel
 
-This specialty maps to the [partner and channel marketing](/handbook/marketing/channel-marketing/) department at GitLab. The partner and channel specialty covers developing and overseeing the PR strategy, announcements and campaigns related to any <!-- 404 Broken link [tech partners](/handbook/marketing/strategic-marketing/partner-marketing/) --> tech partners or channel partners. This includes promotion of key technology integrations and alliances, promotion of key channel partnerships, reviewing partner-led announcements around joining the GitLab Partner Program, and developing proactive partner storylines for press engagements and events. Additionally, this role is responsible for ensuring partner and channel storylines are integrated for a holistic GitLab offering view.
+This specialty maps to the [partner and channel marketing](/handbook/marketing/channel-marketing/) department at GitLab. The partner and channel specialty covers developing and overseeing the PR strategy, announcements and campaigns related to any tech partners or channel partners. This includes promotion of key technology integrations and alliances, promotion of key channel partnerships, reviewing partner-led announcements around joining the GitLab Partner Program, and developing proactive partner storylines for press engagements and events. Additionally, this role is responsible for ensuring partner and channel storylines are integrated for a holistic GitLab offering view.
 
 ### Product
 
-This specialty maps to the [Product Marketing](/handbook/marketing/strategic-marketing/) department at GitLab. The product specialty covers developing and overseeing the PR product strategy, which includes promotion of releases, developing product storylines for press engagements, and product awards submissions. Additionally, this role is responsible for ensuring partner and channel storylines are integrated for a holistic GitLab offering view.
+This specialty maps to the [Product Marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) department at GitLab. The product specialty covers developing and overseeing the PR product strategy, which includes promotion of releases, developing product storylines for press engagements, and product awards submissions. Additionally, this role is responsible for ensuring partner and channel storylines are integrated for a holistic GitLab offering view.
 
 ### Public Sector
 
@@ -133,7 +133,7 @@ The GitLab Manager, PR  will lead a team of PR managers to build GitLab thought 
 
 - Think globally to implement global PR strategy and  campaigns.
 - Plan, implement and manage PR programs  for product, security, verticals and partner and channel including thought leadership, technical, crisis, rapid response and proactive PR campaigns.
-- Manage GitLab’s PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
+- Manage GitLab's PR agency relationship and develop a PR program in line with overall corporate marketing objectives and goals.
 - Work closely with executives, spokespeople and the greater organization to develop press releases  and media relations strategy for GitLab announcements and news.
 - Collaborate across the organization to support the news cycle through various channels, as well as educate teams on news.
 - Respond to daily media inquiries in a timely and professional manner.

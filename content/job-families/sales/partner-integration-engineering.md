@@ -37,7 +37,7 @@ The Partner Integration Engineer is a [grade 6](/handbook/total-rewards/compensa
 - Contribute to the development of assets and knowledge tools for developer.gitlab.com portal.
 - Influence a positive outcome in partner relationships and technical projects.
 - Partner with appropriate stakeholders to make ongoing program and project decisions, leverage insights from the team, and make recommendations and/or decisions when issues arise.
-- Work with partners and customers to apply modern software development methodologies such as Agile and DevOps on GitLab’s modern devops platform.
+- Work with partners and customers to apply modern software development methodologies such as Agile and DevOps on GitLab's modern DevOps platform.
 
 #### Partner Integration Engineer Requirements
 
@@ -45,7 +45,7 @@ The Partner Integration Engineer is a [grade 6](/handbook/total-rewards/compensa
 - B.A/B.S. or M.S. or equivalent degree or experience
 - Experience in languages and frameworks used at GitLab including Ruby, Ruby on Rails and Go lang
   - Alternatively, proven experience in other popular backend and systems languages such as Python, Rust or Java and a willingness to learn and work with Ruby and Go lang
-- Experience working with GitLab software and GitLab’s core architecture
+- Experience working with GitLab software and GitLab's core architecture
 - Experience working with Web technology stack
 - Experience communicating and partnering with cross-functional teams
 - Experience developing and effectively managing relationships with external and internal partners
@@ -57,7 +57,7 @@ The Partner Integration Engineer is a [grade 6](/handbook/total-rewards/compensa
   - Application performance monitoring
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/finance/travel/)
 
 ### Manager, Partner Integration Engineers
 
@@ -98,7 +98,7 @@ The Manager, Partner Integration Engineers is a [grade 9](/handbook/total-reward
   - Application performance monitoring
 - You have a history of contributing to Open Source projects, and maintain a handful of your own OSS repositories.
 - Experience working with Web technology stack
-- Ability to travel if needed and comply with the company’s travel policy
+- Ability to travel if needed and comply with the company's travel policy
 
 ## Performance Indicators
 
@@ -117,7 +117,7 @@ The next steps for the Partner Integration Engineering job family is not yet def
 
 Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, candidates will be invited to interview with 2-5 team members
 - There may be a final executive interview

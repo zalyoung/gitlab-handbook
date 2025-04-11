@@ -1,10 +1,10 @@
-{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/product_priorities/software_supply_chain_security_wg.yml"}}
-{{ with resources.GetRemote $dataURL }}
-{{ with .Err}}
-
+{{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
+{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/product_priorities/software_supply_chain_security_wg.yml" $publicHandbookRef}}
+{{ $resource := resources.GetRemote $dataURL }}
+{{ if not $resource }}
 <h2>Unable to fetch priority Data</h2>
 {{ else }}
-{{ $data := . | transform.Unmarshal }}
+{{ $data := $resource | transform.Unmarshal }}
 
 <table>
   <thead>
@@ -32,5 +32,4 @@
   </tbody>
 </table>
 
-{{ end }}
 {{ end }}

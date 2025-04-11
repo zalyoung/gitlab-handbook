@@ -1,7 +1,10 @@
-{{ $sections := partials.IncludeCached "data/sections" . }}
-{{ $categories := partials.IncludeCached "data/categories" . }}
-{{ $stages := partials.IncludeCached "data/stages" . }}
-{{ $features := partials.IncludeCached "data/features" . }}
+{{ $sections := site.Data.public.sections }}
+{{- $categories := dict }}
+{{- range $k, $v := site.Data.public.categories }}
+  {{- $categories = merge $categories (dict $k $v) }}
+{{ end }}
+{{ $stages := site.Data.public.stages.stages }}
+{{ $features := site.Data.public.features }}
 
 {{ range $key, $values := $sections }}
 
@@ -17,9 +20,9 @@
 
 {{ range $k, $v :=  .groups }}
 
-#### {{ $stage_name }}: {{ .name }} Group
+#### {{ $stage_name }}: {{ .name }} Group {#{{ .name | urlize }}}
 
-{{ partial "group-table" . }}
+{{ partial "categories/section-heading" . }}
 
 {{- if $v.categories }}
 
@@ -72,19 +75,3 @@
 {{- end -}}
 {{- end -}}
 {{- end -}}
-
-
-<style>
-    img.avatar {
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    max-height: 30px;
-    overflow: hidden;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: 1px solid lightgray;
-    aspect-ratio: auto 90 / 90;
-    overflow-clip-margin: content-box;
-    }
-</style>

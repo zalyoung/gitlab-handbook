@@ -29,7 +29,7 @@ supporting many different use cases and views. The exception to this rule is the
 exclusive Labels. When one Scoped Label is applied, it automatically replaces any previous Label in that set. Scoped Labels are used
 to assign status, support workflows, or otherwise segment items into "either / or" situations.
 
-![Multiple Labels per issue](/handbook/marketing/project-management-guidelines/images/labels-multiple.png)
+![Multiple Labels per issue](/images/marketing/project-management-guidelines/labels-multiple.png)
 
 ### Known limitations
 
@@ -45,9 +45,9 @@ Group-level Labels should *only* be used for tracking at the Group level, across
 group-level labels include:
 
 1. Executive Interest labels (e.g. **CMO**, **CEO**, etc.). This indicates the epic or issue is an executive interest item and enables reporting and visibility of related issues and epics.
-1. Executive Priority (**CMO-priority::1**, **CMO-priority::2**, etc.). These labels help the organization understand the priority of issues - mainly used by CMO Staff to communicate priority on CMO”s behalf.
+1. Executive Priority (**CMO-priority::1**, **CMO-priority::2**, etc.). These labels help the organization understand the priority of issues - mainly used by CMO Staff to communicate priority on CMO"s behalf.
 1. Executive Theme (**CMO::Agility**, **CMO::Efficiency**, **CMO::Commit**, etc.). This small list of scoped labels help to flag specific CMO Interest themes based on top level initiatives and areas of focus
-1. “Team” Labels. (**Product and Solution Marketing**, **Corporate Marketing**, etc.). This allows high-level work tracking within the greater Marketing organization.
+1. "Team" Labels. (**Product and Solution Marketing**, **Corporate Marketing**, etc.). This allows high-level work tracking within the greater Marketing organization.
 
 If you are unsure whether you should create a group-level label or a project-level Label, **err on the side of caution and create a project-level Label**.
 You can always promote it to a group-level Label in the future.
@@ -59,9 +59,10 @@ When creating a Label name, use the smallest possible number of characters. Labe
 ### Provide detailed descriptions
 
 When you create a Label, ensure that the Description field contains the following information:
-* When the Label should be applied
-* Purpose or Goal
-* DRI
+
+- When the Label should be applied
+- Purpose or Goal
+- DRI
 
 This information will be presented in a tooltip above the Label throughout the UI.
 
@@ -76,14 +77,14 @@ also grouping your Labels together in the UI.
 Labels only work properly when they are applied consistently. Wherever possible, automate the creation of appropriate Labels by adding them to
 [Issue templates](https://docs.gitlab.com/ee/user/project/description_templates.html#create-an-issue-template).
 
-![Sample scoped labels](/handbook/marketing/project-management-guidelines/images/labels-template.png)
+![Sample scoped labels](/images/marketing/project-management-guidelines/labels-template.png)
 
 ### Apply Scoped Labels to remove confusion
 
 To minimize clutter and reduce the possibility of incorrect double-counts, always consider creating Scoped Labels to automate Label management,
 rather than depending on users to remove invalid labels as they assign new ones.
 
-![Sample scoped labels](/handbook/marketing/project-management-guidelines/images/labels-scoped.png)
+![Sample scoped labels](/images/marketing/project-management-guidelines/labels-scoped.png)
 
 ### Automate Label Hygiene
 
@@ -101,7 +102,6 @@ should be performed by the Label's DRI (should be listed in the Label descriptio
 
 If you are the DRI and wish to delete a Label, follow the following steps:
 
-* Append the 'DEPRECATE_' tag to your Label (e.g., 'pMm' becomes 'DEPRECATE_pMm').
-* Socialize the change within your group.
-* Wait a calendar month before deleting the Label.
-
+- Append the 'DEPRECATE_' tag to your Label (e.g., 'pMm' becomes 'DEPRECATE_pMm').
+- Socialize the change within your group.
+- Wait a calendar month before deleting the Label.

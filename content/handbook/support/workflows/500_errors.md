@@ -29,8 +29,8 @@ Check on the [#feed_alerts](https://gitlab.slack.com/messages/C12RCNXK5), [#prod
 
 Before you post to #production or make an issue, here are some helpful ways to capture data that help to narrow down the issue(s):
 
-1. You can add `performance_bar=flamegraph` query parameter to generate a [CPU flamegraph](https://docs.gitlab.com/ee/development/profiling.html#speedscope-flamegraphs).
-1. Use the [performance bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) by typing `pb` in your browser window.  Reload the page and grab the information from the server side.
+1. You can add `performance_bar=flamegraph` query parameter to generate a [CPU flamegraph](https://docs.gitlab.com/development/profiling/#speedscope-flamegraphs).
+1. Use the [performance bar](https://docs.gitlab.com/administration/monitoring/performance/performance_bar/) by typing `pb` in your browser window.  Reload the page and grab the information from the server side.
 1. If using Chrome, open the Chrome developer tools (View > Developer > Developer Tools), reload the page, and look at the Network tab.  This will show all of the requests and times.
 1. If using Firefox, there is a similar network view under Tools > Web Developer > Network which will show requests and timing.
 
@@ -42,7 +42,7 @@ If our customer is reporting problems connecting to GitLab.com, we should ask fo
 
 ```shell
 traceroute gitlab.com
-curl http://gitlab.com/cdn-cgi/trace
+curl https://gitlab.com/cdn-cgi/trace
 curl https://gitlab.com/cdn-cgi/trace
 curl -svo /dev/null https://gitlab.com
 ```
@@ -69,11 +69,11 @@ The following workflows will guide you on how to search Kibana and/or Sentry for
 
 #### Searching Kibana
 
-See the [500-specific section in the Kibana]({{< ref "kibana#searching-kibana-for-500-level-errors" >}}) workflow.
+See the [500-specific section in the Kibana](/handbook/support/workflows/kibana#searching-kibana-for-500-level-errors) workflow.
 
 #### Searching Sentry
 
-See the [Sentry workflow]({{< ref sentry >}}).
+See the [Sentry workflow](/handbook/support/workflows/sentry).
 
 A video walkthrough of investigating 500 errors using Kibana and Sentry can be seen [here](https://youtu.be/o02t3V3vHMs) (GitLab Unfiltered).
 
@@ -85,7 +85,7 @@ Once results have been found in either Kibana or Sentry, do the following.
 1. Search the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab) for any duplicate or related issue.
 1. Confirm if the issue is known or unknown and proceed accordingly: [Issue is known](#issue-is-known) or [Issue is unknown](#issue-is-unknown).
 
-In a Priority 1/Severity 1 situation, consider a [dev escalation](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html).
+In a Priority 1/Severity 1 situation, consider a [dev escalation](/handbook/engineering/development/processes/infra-dev-escalation/process/).
 
 #### Responding to the user
 
@@ -103,7 +103,8 @@ Then, respond to the user with information about the cause of the issue, provide
 
 ###### Issues found in Sentry
 
-1. Convert the issue to a GitLab issue by using the "Create GitLab Issue" button on the issue page.
+1. Convert the issue to a GitLab issue by using the "Create GitLab Issue" button on the issue page. **Note:** There is a known issue with the GitLab integration in Sentry that prevents this from working,
+   due to the number of projects under the `gitlab-org` group. As a result you will most likely need to create the GitLab issue manually.
 1. Comment on the issue providing a link to the Zendesk ticket.
 1. Add any additional labels if needed such as `customer`, [priority and severity](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#severity-labels), and the appropriate DevOps stage.
 1. Respond to the user with information about the cause of the issue, provide a link to it, and invite them to subscribe to it for updates.

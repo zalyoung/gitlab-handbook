@@ -15,7 +15,7 @@ status: active
 
 ## Business Goal
 
-To create a Talent Acquisition SSOT and a reconciliation process to use with the Talent Acquisition SSOT. The Talent Acquisition SSOT will be used by Finance for forecasting and Talent Acquisition for hiring. It will include all forecasted hiring for the fiscal year that is agreed upon by Finance and the GitLab [E-Group]({{< ref "structure#e-group" >}}).
+To create a Talent Acquisition SSOT and a reconciliation process to use with the Talent Acquisition SSOT. The Talent Acquisition SSOT will be used by Finance for forecasting and Talent Acquisition for hiring. It will include all forecasted hiring for the fiscal year that is agreed upon by Finance and the GitLab [E-Group](/handbook/company/structure/#e-group).
 
 ## Exit Criteria
 

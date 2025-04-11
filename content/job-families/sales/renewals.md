@@ -8,7 +8,7 @@ The Renewals job family delivers to an essential moment in the customer journey,
 
 ### Senior Director, Renewals
 
-The Senior Director, Renewals reports to the [Vice President of Customer Success](/job-families/sales/vp-of-customer-success/).
+The Senior Director, Renewals reports to the [Vice President of Customer Success](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success).
 
 #### Senior Director, Renewals Job Grade
 
@@ -51,7 +51,7 @@ The next step for the Renewals job family is not yet defined.
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, qualified candidates will be invited to interview with 2 - 4 team members.
 - Next, qualified candidates will have a final interview with an executive.
 

@@ -14,7 +14,7 @@ The VP, Developer Relations and Community is responsible for engaging our commun
 - Create and maintain a GitLab heroes program to build evangelists in the community to grow the number of evangelists that regularly give talks, write blog posts, and organize meetups about GitLab.
 - Build out key community programs such as open-source, education, non-profits, startups, etc.
 - Develop the plan to attract and retain code contributors to hit our contribution goals.
-- Develop GitLab’s open-source partnership strategy and expand the number of active open source projects either self-hosting GitLab or using GitLab.com.
+- Develop GitLab's open-source partnership strategy and expand the number of active open source projects either self-hosting GitLab or using GitLab.com.
 - Develop widely read content focussed on users (Development, Security and Operations) of GitLab for our blog, newsletter and YouTube channel. Ensure that content is relevant and syndicated to our community.
 
 ## Requirements
@@ -54,7 +54,7 @@ The career ladder for this role is not yet defined.
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with our Executive Recruiter.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Executive Recruiter.
 - 50 minute Meeting with the CMSO
 - 50 minute Meeting with VP Product Marketing
 - 50 minute Meeting with VP Corporate Marketing

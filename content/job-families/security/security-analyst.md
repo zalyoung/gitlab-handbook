@@ -7,7 +7,7 @@ The roles described below are grades: [6, 7, 8](/handbook/total-rewards/compensa
 
 ## Responsibilities
 
-As a member of the [Security Team](https://about.gitlab.com/handbook/security) at GitLab, you will be working towards raising the bar on security for GitLab, Inc. the company, GitLab the product, and GitLab.com. We achieve that by collaborating with cross-functional teams to provide guidance on security best practices across the organization, implementing security requirements and improvements, and reacting to security events and incidents.
+As a member of the [Security Team](/handbook/security) at GitLab, you will be working towards raising the bar on security for GitLab, Inc. the company, GitLab the product, and GitLab.com. We achieve that by collaborating with cross-functional teams to provide guidance on security best practices across the organization, implementing security requirements and improvements, and reacting to security events and incidents.
 
 ## Requirements
 
@@ -85,10 +85,6 @@ The Senior Anti-Abuse Analyst is responsible for leading and implementing the va
 
 See [Security Compliance](/job-families/security/security-compliance/)
 
-### Security External Communications
-
-See [Security External Communications](/job-families/security/external-security-communications/)
-
 ### Security Operations
 
 [Security Operations](/handbook/security/#security-operations) is responsible for the proactive security measures to protect GitLab the company, GitLab the product, and GitLab.com, as well as detecting and responding to security incidents.  The Security Analysts in Security Operations play a vital role in identifying and responding to incidents, and using the resulting knowledge and experience to help build automated methods of remediating these issues in the future.
@@ -119,7 +115,7 @@ Security Analysts have job-family performance indicators defined by each sub dep
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Qualified candidates receive a short questionnaire from our Recruiting team
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with our Recruiting team
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Recruiting team
 - Next, candidates will be invited to schedule an interview with the Hiring Manager
 - Candidates will then be invited to schedule an interview with the Hiring Manager defined panel
 - Candidates will then be invited to schedule an additional interview with the sub-department Director
@@ -129,10 +125,6 @@ Candidates for this position can expect the hiring process to follow the order b
 As always, the interviews and screening call will be conducted via a video call.
 See more details about our hiring process on the [hiring handbook](/handbook/hiring/).
 
-## External Communications
-
-- [HackerOne Outreach and Engagement](/handbook/security/performance-indicators/#hackerone-outreach-and-engagement)
-
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

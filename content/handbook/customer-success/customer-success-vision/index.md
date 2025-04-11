@@ -1,15 +1,8 @@
 ---
-aliases: /handbook/customer-success/vision
 title: "Customer Success Vision"
 description: "Create a company-wide customer success approach, providing an engagement
   framework for the Customer Success organization"
 ---
-
-
-
-
-
-
 
 *"Customer Success is when customers achieve their desired outcome through interactions with your company with the appropriate experience."* - Lincoln Murphy
 
@@ -27,17 +20,17 @@ Deliver faster time-to-value and customer-specific business outcomes with a worl
 
 [Video Introduction to Customer Journey and Process Framework](https://youtu.be/LIroDgZOWLc)
 
-![GitLab Customer Journey](images/customer-journey.png)
-[A pdf of Customer Journey](images/gitlab-customer-journey.pdf)
+![GitLab Customer Journey](/images/customer-success/customer-success-vision/customer-journey.png)
+[A pdf of Customer Journey](/pdfs/customer-success/customer-success-vision/gitlab-customer-journey.pdf)
 
 ## High-Level Visual of GitLab Adoption Journey
 
-![GitLab Adoption Journey](images/gitlab-adoption-journey.jpeg)
+![GitLab Adoption Journey](/images/customer-success/customer-success-vision/gitlab-adoption-journey.jpeg)
 
 ## Capabilities Roadmap
 
-The following shows the high-level view of the capabilities that we will be developing as mature our customer success team, processes and systems. [A pdf version for viewing.](images/gitLab_customer_success_capabilities_roadmap.pdf)
-![GitLab Capabilities Roadmap](images/capabilities-roadmap.jpeg)
+The following shows the high-level view of the capabilities that we will be developing as mature our customer success team, processes and systems. [A pdf version for viewing.](/pdfs/customer-success/customer-success-vision/gitLab_customer_success_capabilities_roadmap.pdf)
+![GitLab Capabilities Roadmap](/images/customer-success/customer-success-vision/capabilities-roadmap.jpeg)
 
 ## Strategy and Priorities Page
 
@@ -89,10 +82,9 @@ To improve the customer experience, deliver on customer outcomes, and increase n
 
 The intention, both of the P.R.O.V.E. components and overall philosophy, is that we need to "prove value" to the customer.
 
-![Customer Health Vision](images/customer-health-score-vision.jpeg)
+![Customer Health Vision](/images/customer-success/customer-success-vision/customer-health-score-vision.jpeg)
 
 For a detailed description of Customer Health and Early Warning System methodology, see [Customer Health Scoring](/handbook/customer-success/customer-health-scoring/). This will include the methodology around how we score the health of accounts, along with how we enable the team toward a proactive renewal approach.
-
 
 ### Retention and Reasons for Churn
 
@@ -137,4 +129,4 @@ If you need help with determining the standard cost rate or if it is applicable 
 
 ## Process Framework
 
-![Process Framework](images/process-framework.jpg)
+![Process Framework](/images/customer-success/customer-success-vision/process-framework.jpg)

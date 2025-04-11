@@ -5,7 +5,7 @@ description: "How to handle Support Engineer promotions"
 
 ### Support Engineer Promotion Process for Support Managers - Quick Guide
 
-The companywide People Group process should be followed [For Managers: Requesting a Promotion or Compensation Change](/handbook/people-group/promotions-transfers/#process-for-managers-requesting-a-promotion). The steps below are an addendum for notification and review for Support Engineering managers, taking into account the Customer Support Department's organisational structure, and is not meant as a replacement for any steps in the companywide people group process.
+The company-wide People Group process should be followed [For Managers: Requesting a Promotion or Compensation Change](/handbook/people-group/promotions-transfers/#process-for-managers-requesting-a-promotion). The steps below are an addendum for notification and review for Support Engineering managers, taking into account the Customer Support Department's organisational structure, and is not meant as a replacement for any steps in the company-wide people group process.
 
 #### Planning
 
@@ -17,7 +17,7 @@ Regularly:
    promotion target.
 1. Review each of your candidates' progress toward promotion.
 
-If you have any questions, please ask your manager or our [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+If you have any questions, please ask your manager or our [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 #### Calibration
 
@@ -25,12 +25,12 @@ In Support we start the promotion-docs review process
 as soon as the documents are ready for review.
 
 - Create the promotion document using the appropriate template:
-    - [Promotion to Senior Support Engineer - Template](https://drive.google.com/drive/search?q=Promotion%20to%20Senior%20Support%20Engineer%20-%20Template)
-    - FY23Q3+ Promotion to Staff Support Engineer -- link TBD, updates in
+  - [Promotion to Senior Support Engineer - Template](https://drive.google.com/drive/search?q=Promotion%20to%20Senior%20Support%20Engineer%20-%20Template)
+  - FY23Q3+ Promotion to Staff Support Engineer -- link TBD, updates in
       [this Epic](https://gitlab.com/groups/gitlab-com/support/-/epics/188)
 - Add a link to the document into the Support Promotions Projects spreadsheet
 - Complete the document with the Support Engineer
-- Create a public Google Docs view link to the document for everyone at Gitlab
+- Create a public Google Docs view link to the document for everyone at GitLab
   to allow sharing, as this is the document that will be used in the promotion
   calibration and approval process
 - Discuss the promotion candidate with your manager
@@ -56,4 +56,3 @@ as soon as the documents are ready for review.
 - Go multi-modal and [add an announcement](https://gitlab-com.gitlab.io/support/toolbox/forms_processor/SWIR/) to the [Support Week in Review (SWIR)](/handbook/support/#support-week-in-review), using the "Team Member Updates" category
 - Move the promotion doc to the [Individual Docs folder](https://drive.google.com/drive/search?q=Individual%20Docs)
   in the shared `Support` drive on Google Drive.
-

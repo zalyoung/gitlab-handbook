@@ -33,7 +33,7 @@ The Senior Manager, Self-Service Sales is a [grade 9](/handbook/total-rewards/co
 
 #### Senior Manager, Self-Service Sales Requirements
 
-- Experience selling to Fortune 500; willingness to “roll up your sleeves” and sell
+- Experience selling to Fortune 500; willingness to "roll up your sleeves" and sell
 - Proven track record of meeting or exceeding performance objectives (revenue targets, pipeline targets, etc.)
 - Strong presentation skills; Executive level communication skills (both written and verbal) and the ability to mentor others
 - Experience leading a front line customer facing team and owning key business performance outcomes.
@@ -61,7 +61,7 @@ The next steps for the Senior Manager, Self-Service Sales job family has not yet
 
 Applicants for this position can expect the hiring process to follow the order below. Please keep in mind that applicants can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a 30min [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next, qualified candidates will be invited to schedule a first interview with the Hiring Manager
 - Next, qualified candidates will be invited to interview with 2-5 team members
 - There may be a final executive interview for qualified candidates

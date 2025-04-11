@@ -38,16 +38,16 @@ When putting a ticket `On-Hold`, you should:
 - Invite them to inform you if your chosen schedule does not meet their needs
   so that you can adjust your plans accordingly. See also
   [Understanding Business Impact](#understanding-business-impact).
-- Aim to provide updates daily, and no less than every four days, which is the [`On-Hold` period length]({{< ref "zendesk-ticket-basics#behavior-of-on-hold-tickets" >}}).
+- Aim to provide updates daily, and no less than every four days, which is the [`On-Hold` period length](/handbook/support/workflows/zendesk-ticket-basics/#behavior-of-on-hold-tickets).
 
-When setting a ticket to `Pending` or `On-Hold`, consider using our [Due Date](/handbook/support/readiness/operations/docs/zendesk/apps/#zendesk-super-app)
-and [Reminders](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-reminders-app)
+When setting a ticket to `Pending` or `On-Hold`, consider using our [Due Date](/handbook/security/customer-support-operations/docs/zendesk/apps#zendesk-super-app)
+and [Reminders](/handbook/security/customer-support-operations/docs/zendesk/apps#gitlab-reminders-app)
 apps to help you to meet commitments you make.
 
 ### Avoiding giving concrete answers to "when can I expect feature / fix X?"
 
 During the course of your ticket work you may link back to feature requests and bugs. While an issue with an assigned milestone *may* ship in the release indicated,
-do not promise that it will be. See more in our [documentation style-guide](https://docs.gitlab.com/ee/development/documentation/versions#promising-features-in-future-versions).
+do not promise that it will be. See more in our [documentation style-guide](https://docs.gitlab.com/development/documentation/styleguide/availability_details/).
 
 ## Emotionally-charged tickets
 
@@ -109,7 +109,7 @@ To delete text or attachments from a ticket:
 1. Follow the steps in Zendesk [documentation](https://support.zendesk.com/hc/en-us/articles/4408846470170-Redacting-ticket-content#ariaid-title4).
 1. Let the user know what actions you have taken and why. Request the user to rotate any secrets that may have been shared.
 
-If you don't see the option to redact, it is likely that you are not assigned to one of the authorized roles (you can check your role in Zendesk profile). In this case, please reach out to `#support_operations` or `#spt_managers` in Slack to request deletion. Zendesk roles that have access to redact:
+If you don't see the option to redact, it is likely that you are not assigned to one of the authorized roles (you can check your role in Zendesk profile). In this case, please reach out to `#support_operations` or `#support_leadership` in Slack to request deletion. Zendesk roles that have access to redact:
 
 - Admin
 - GitLab Staff
@@ -175,7 +175,7 @@ Some caveats to bear in mind:
 1. You should add a closure summary if the ticket is a long ongoing ticket where
    multiple suggestions have been provided to the customer throughout the ticket
    lifecycle.
-1. The macro template ‘Closure Summary’ is available in Zendesk to help guide
+1. The macro template 'Closure Summary' is available in Zendesk to help guide
    you with formatting a closure summary, you can modify or remove template
    content as deemed necessary.
 1. You should not feel the need to add a closure summary if the customer has not

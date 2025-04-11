@@ -8,7 +8,7 @@ On this page we are going to review psychological safety and its importance for 
 
 ## What is Psychological Safety
 
-Psychological safety is [defined by Amy Edmondson](https://www.jstor.org/stable/2666999?seq=1) as a “shared belief held by members of a team that the team is safe for interpersonal risk taking”.
+Psychological safety is [defined by Amy Edmondson](https://www.jstor.org/stable/2666999?seq=1) as a "shared belief held by members of a team that the team is safe for interpersonal risk taking".
 
 It's not about being warm and fuzzy and sharing your feelings. It's about being comfortable admitting when you are wrong or have made a mistake as well as challenging each other for the better.
 
@@ -18,7 +18,7 @@ Watch the video below where Susan David explains psychological safety.
 
 ## How it Works
 
-The following information was summarized from an [article on Psychological Safety](https://peopletalking.com.au/project/psychological-safety/) by PeopleTalking.
+The following information was summarized from an [article on Psychological Safety](https://peopletalking.com.au/what-is-psychological-safety/) by PeopleTalking.
 
 **Psychological Safety** has primary importance when it comes to significant impact on a team's performance.
 
@@ -31,12 +31,12 @@ Why is psychological safety important? When you have psychological safety in the
 - Collaboration
 - Innovation
 - Inclusion
-- Wellbeing
+- Well-being
 - Culture
 
 ![Psychological Safety How it Works](/images/handbook/leadership/psych-safety-how-it-works.png)
 
-Amy Edmondson uses David Kantor's model to show the [relationship between Psychological Safety and Accountability & Motivation](https://peopletalking.com.au/project/psychological-safety/). When there is an environment where psychological safety is low or non-existent, it can be very stress or anxiety filled. When there is high psychological safety, it can make people more comfortable. You can get a better picture of this from the diagram below.
+Amy Edmondson uses David Kantor's model to show the [relationship between Psychological Safety and Accountability & Motivation](https://peopletalking.com.au/what-is-psychological-safety/). When there is an environment where psychological safety is low or non-existent, it can be very stress or anxiety filled. When there is high psychological safety, it can make people more comfortable. You can get a better picture of this from the diagram below.
 
 ![Psychological Safety Model](/images/handbook/leadership/psych-safety-model.png)
 
@@ -63,9 +63,9 @@ Psychological safety has impacts on diversity and inclusion in organizations. Ev
 1. Build a speak-up culture.
 1. Highlight competencies.
 
-The above list is from a [Grant Thornton article](https://www.grantthornton.com/library/articles/advisory/2020/psychological-safety-speak-up-culture.aspx).
+The above list is from a [Grant Thornton article](https://web.archive.org/web/20220528223316/https://www.grantthornton.com/library/articles/advisory/2020/psychological-safety-speak-up-culture.aspx).
 
-It is important to enable a human-to-human approach and realize the other party is more like you than different. The reflection activity called “Just Like Me”, [developed by Paul Santagata](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it), asks you to consider:
+It is important to enable a human-to-human approach and realize the other party is more like you than different. The reflection activity called "Just Like Me", [developed by Paul Santagata](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it), asks you to consider:
 
 - This person has beliefs, perspectives, and opinions, just like me.
 - This person has hopes, anxieties, and vulnerabilities, just like me.
@@ -134,13 +134,13 @@ Once survey results have been collected and reviewed by each manager, it's sugge
 
 ## Additional Resources
 
-- Read: [The Role of Psychological Safety in Diversity and Inclusion](https://www.psychologytoday.com/us/blog/the-fearless-organization/202006/the-role-psychological-safety-in-diversity-and-inclusion) - Psychology Today
-- Read: [The Fearless Organization by Amy C. Edmondson](https://www.amazon.com/Fearless-Organization-Psychological-Workplace-Innovation/dp/1119477247/ref=sr_1_1?keywords=The+Fearless+Organization&qid=1567701716&s=gateway&sr=8-1)
-- Read: [7 ways to create psychological safety in your workplace](https://blog.jostle.me/blog/7-ways-to-create-psychological-safety-in-your-workplace)
+- Read: [The Role of Psychological Safety in Diversity and Inclusion](https://www.psychologytoday.com/us/blog/the-fearless-organization/202006/the-role-of-psychological-safety-in-diversity-and-inclusion) - Psychology Today
+- Read: [The Fearless Organization by Amy C. Edmondson](https://www.amazon.com/Fearless-Organization-Psychological-Workplace-Innovation/dp/1119477247/)
+- Read: [7 ways to create psychological safety in your workplace](https://blog.jostle.me/blog/psychological-safety-at-work)
 - Read: [What Google Learned from it's Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)
 - Read: [How To Build An Environment Of Psychological Safety](https://trainingindustry.com/articles/compliance/how-to-build-an-environment-of-psychological-safety/)
 - Read: [How Psychological Safety Actually Works](https://www.forbes.com/sites/shanesnow/2020/05/04/how-psychological-safety-actually-works/#c5be718f864c)
-- Read: [High-Performing Teams Need Psychological Safety. Here’s How to Create It](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it)
+- Read: [High-Performing Teams Need Psychological Safety. Here's How to Create It](https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it)
 - Listen: [Creating Psychological Safety in the Workplace](https://hbr.org/podcast/2019/01/creating-psychological-safety-in-the-workplace) - HBR
 - Watch: [Why good leaders make you feel safe - Simon Sinek](https://www.youtube.com/watch?v=lmyZMtPVodo&list=PLhVoCCkYxQDcdcU7j7H_w0-0BdOqIIYxa) - TED
 - Watch: [The importance of psychological safety: Amy Edmondson](https://www.youtube.com/watch?v=eP6guvRt0U0)

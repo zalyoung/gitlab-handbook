@@ -100,7 +100,7 @@ The Principal Industry Analyst Relations is responsible for executing the strate
 
 Strategy & Operations
 
-- Support the analyst relations strategy and a variety of research and independent analyst relationships that influence GitLab’s success
+- Support the analyst relations strategy and a variety of research and independent analyst relationships that influence GitLab's success
 - Execute  analyst relations projects and create, maintain and influence analyst relationships that contribute to the overall success of the team
 - Deliver on-going AR program activities such as analyst briefings, analyst inquiries, reporting and other core program tactics
 - Schedule and prepare GitLab spokespeople for analyst inquiry and briefings
@@ -139,24 +139,24 @@ Events
 
 The Director of Industry Analyst Relations is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-The Director of Industry Analyst Relations is responsible for the strategy and implementation of the industry analyst relations program, cultivating strategic relationships and creating mindshare with key analysts through education, customer references, and two-way communication around key product updates. This leader plays a critical role in GitLab achieving its long-term growth vision by helping to shape analyst perceptions of the outcomes we enable customers to achieve and how we serve customers in ways other companies can’t. The Director of Industry Analyst Relations collaborates closely with Product Marketing, Product Management, and key executives. This is an independent contributor role reporting to the Senior Director of Corporate Communications.
+The Director of Industry Analyst Relations is responsible for the strategy and implementation of the industry analyst relations program, cultivating strategic relationships and creating mindshare with key analysts through education, customer references, and two-way communication around key product updates. This leader plays a critical role in GitLab achieving its long-term growth vision by helping to shape analyst perceptions of the outcomes we enable customers to achieve and how we serve customers in ways other companies can't. The Director of Industry Analyst Relations collaborates closely with Product Marketing, Product Management, and key executives. This is an independent contributor role reporting to the Senior Director of Corporate Communications.
 
 #### Director of Industry Analyst Relations Responsibilities
 
 Strategy
 
-- Develop, execute, and manage the company’s industry analyst relations strategy and plan to support measurable business objectives.
+- Develop, execute, and manage the company's industry analyst relations strategy and plan to support measurable business objectives.
 - Establish key KPIs, strategy, and industry benchmarks to position GitLab as a leader across markets and in industry analyst reports, hype cycles and through inbound inquiries.
 - Drive alignment with sales, marketing, and product teams to maximize program impact.
 - Create and nurture strong, positive and collaborative relationships with industry analysts, technology influencers, and thought leaders, serving as a key, centralized contact point.
-- Establish and maintain regular communication with analysts and influencers via multiple channels, which you will develop, to engage and educate these audiences on GitLab’s strategy, roadmap, and product updates.
+- Establish and maintain regular communication with analysts and influencers via multiple channels, which you will develop, to engage and educate these audiences on GitLab's strategy, roadmap, and product updates.
 
 Operations
 
 - Manage all AR operations, including rationalizing agreements and budgets to support consistent analyst strategy days, quarterly briefings, inbound and outbound inquiries, and research requests. Ensure that contracted services are fully utilized.
 - Plan, schedule, and manage analyst program activities such as participation in analyst research, conferences, advisory events, demos, briefings, inquiries, and reporting.
 - Prioritize and manage incoming analyst requests for information, research support, research review, customer references, and event speakers.Respond to, serve, and manage internal requests for industry analyst interactions, publications, research, events support and other requests.
-- Monitor competitive coverage by industry analysts to support product and product marketing leaders’ refinement of product and market positioning, and educate internal audiences on the evolving technology landscape.
+- Monitor competitive coverage by industry analysts to support product and product marketing leaders' refinement of product and market positioning, and educate internal audiences on the evolving technology landscape.
 - Ensure analyst advice is communicated to key internal stakeholders and that assets mentioning GitLab are leveraged appropriately to help build market awareness, drive demand, and enable the selling process.
 
 Gartner Peer Insights
@@ -167,7 +167,7 @@ Gartner Peer Insights
 
 - 15+ years of in-house analyst relations experience, with progressive experience operating at a director level at a public company.
 - Prior experience working with industry analysts at a high-growth B2B SaaS enterprise software and services company and deep industry knowledge of open core tenants, cloud services and platforms, cybersecurity, observability, and AI / machine learning required.
-- Experience securing a first time position or significantly improving a company’s position in a key analyst vendor report
+- Experience securing a first time position or significantly improving a company's position in a key analyst vendor report
 - Understanding of how to build and maintain relationships with key influencers, leading industry analysts, and analyst firms
 - Prior, significant experience working with and presenting to senior executives
 - Experience negotiating contracts with analyst firms
@@ -183,7 +183,7 @@ The next step in the Analyst Relations job family is not yet defined at GitLab.
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute interview with the Senior Director, Communications
 - Candidates will then be invited to schedule a 45 minute interview with our VP, Global Communications
 - Finally, selected candidates may be asked to interview with our CMO

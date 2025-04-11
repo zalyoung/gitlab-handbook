@@ -19,12 +19,12 @@ title: Data Intelligence
 - Establish data quality metrics, detection/correction of data quality issues
 - Manage team performance; support professional development
 - Manage and monitor data attributes and definitions through the data dictionary
-- Support Deal Desk/Order Management and SOps teams’ data initiatives
+- Support Deal Desk/Order Management and SOps teams' data initiatives
 
 ## Requirements
 
 - Ability to use GitLab
-- Bachelor’s degree in computer science, business, statistics or related fields
+- Bachelor's degree in computer science, business, statistics or related fields
 - 6-8 years of data management experience
 - Excellent verbal and written communication skills, presentation and storytelling
 - SFDC Admin certified
@@ -68,7 +68,7 @@ The Senior Manager of Data Intelligence is a [grade 9](/handbook/total-rewards/c
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Qualified candidates will be invited to schedule a 30 minute interview with the Hiring Manager
 - Qualified candidates will be invited to schedule a 30 minute interview with their peers Senior Manager of Sales Operations and a 30 minute interview with the Senior Manager of Deal Desk / Order Management
 - Qualified candidates that are ready to proceed to the next step of the process will be invited to schedule 30 minute intervies with the Sr. Director of Sales Operations and the VP of Field Operations

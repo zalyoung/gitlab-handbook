@@ -4,57 +4,39 @@ description: >-
   A calendar of important events to help plan for the year at GitLab.
 ---
 
-This page shows an overview of key company events and tasks for all team members. The goal of this page is to ensure that team members have an overview of upcoming programs and timelines.
+This page provides an overview of many key company events, programs and timelines for the team members.
 
 ## Communication
 
-Each quarter a Slack reminder will go out in #what's-happening-at-GitLab Slack channel to review the next quarter calendar events. We will also share in the Company Newsletter.
+Details about key events and programs are communicated via Slack channels like #company-fyi-private and #what’s-happening-at-gitlab. These events are also shared in the “While you were iterating…” newsletter.
 
-## FY24 Q2
+## FY25 Q4
 
-| Action | May | June | July |
+| Event Type | November | December | January |
 | ----- | ----- | ----- | ----- |
-| Key Company Events | Q2 Begins + Complete Engagement Survey | Assembly all-company meeting | Q2 Ends |
-| Career Growth | ----- | Mid-Year Check-In | ----- |
-| History and Awareness | Asian American and Pacific Islander Heritage Month; Mental Health Awareness Month | LGBTQ+ Pride Month | ----- |
-| Skill of the Month | Continuous Learning | Customer Centricity | Personal Productivity |
+| All-Company Events | FY25 Q4 Starts | FY25-Q3 Earnings Call; FY25 Post Earnings Internal AMA; Assembly all- company meeting | FY25 Q4 Ends |
+| Growth & Developement | Radical Candor Workshop| ----- | ----- |
+| ESG | GiveLab 30 Days of Impact program | ----- | ----- |
+| Compliance Training | Global Data Privacy | Global Anti-Bribery and Curruption; Government Contracting: Gifts, Gratuities and Bribery; Regulation FD Course | ----- |
+| Talent Assessment | ----- | ----- | 2025-01-27: Self Evaluation cycle starts |
+| Observances and Awareness | National Family Caregivers Month; Transgender Awareness Week – November 13-19; Transgender Day of Remembrance - November 20;  Remembrance Day - November 11 | ----- | Martin Luther King Jr. Day - January 20 |
 
+## FY26 Q1
 
-## FY24 Q3
-
-| Action | August | September | October |
+| Event Type | February | March | April |
 | ----- | ----- | ----- | ----- |
-| Key Company Events | Q3 Begins |  | Assembly all-company meeting; Q3 Ends |
-| Career Growth | Review IGP with your manager |  | IGP Work |
-| History and Awareness | ----- | Latinx Heritage Month | ----- |
-| Skill of the Month | Analytical Thinking | Personal Productivity | Staying Motivated |
+| All Company Events | FY26 Q1 starts | Assembly all-company meeting | FY26 Q1 ends |
+| Talent Assessment | 2025-02-06: Self-Evaluation cycle ends | Kick off Manager Evaluation cycle; Talent Assessment in Workday is locked; Final review & approval | Communication: Performance/Growth Potential Assessment and Annual Compensation Review |
+| Observances and Awareness | ----- | Women's History Month | ----- |
+| Compliance Training | SAFE and Insider Trading | ----- | Code of Conduct |
+
+## FY26 Q2
+
+| Event Type | May | June | July |
 | ----- | ----- | ----- | ----- |
-| ----- | ----- | ----- | ----- |
-
-
-## FY24 Q4
-
-| Action | November | December | January |
-| ----- | ----- | ----- | ----- |
-| Key Company Events | Q4 Begins |  | Assembly all-company meeting; Q4 Ends |
-| Career Growth | Talent Assessment | IGP Work | IGP Work |
-| History and Awareness | ----- | ----- | ----- |
-| Skill of the Month | ----- | ----- | ----- |
-| ----- | ----- | ----- | ----- |
-| ----- | ----- | ----- | ----- |
-
-## FY25 Q1
-
-| Action | February | March | April |
-| ----- | ----- | ----- | ----- |
-| Key Company Events | FY25 and Q1 Begins | ----- | Q1 Ends |
-| Career Growth | ----- | ----- | ----- |
-| History and Awareness | Black History Month | Women's History Month | ----- |
-| Skill of the Month | ----- | ----- | ----- |
-| ----- | ----- | ----- | ----- |
-| ----- | ----- | ----- | ----- |
-
-
-
-
-
+| All-Company Events | Q2 Begins + Complete Engagement Survey | Assembly all-company meeting | Q2 Ends |
+| Growth & Development | ----- | Mid-Year Check-In | ----- |
+| ESG | ----- | ----- | ----- |
+| Talent Assessment | ----- | ----- | ----- |
+| Compliance Training | ----- | Global Data Privacy, CCPA, and Security | ----- |
+| Observances and Awareness | Asian American and Pacific Islander Heritage Month; Mental Health Awareness Month | LGBTQ+ Pride Month | ----- |

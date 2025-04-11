@@ -6,19 +6,19 @@ description: "Provides a general overview of how the GitLab.com (SaaS) context i
 
 ## Overview
 
-This page is meant to provide a general overview of how GitLab SaaS (GitLab.com) is different from self-managed instances of GitLab.
+This page is meant to provide a general overview of how GitLab.com is different from self-managed instances of GitLab.
 
-Please note that context for the following sections on this page should be covered by the various [workflows](/handbook/support/workflows) that Support utilizes when working with GitLab SaaS along with the [GitLab.com Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com-Basics.md) training module.
+Please note that context for the following sections on this page should be covered by the various [workflows](/handbook/support/workflows) that Support utilizes when working with GitLab.com along with the [GitLab.com Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com-Basics.md) training module.
 
 ## GitLab.com Architecture
 
-GitLab.com is the largest known GitLab instance. It is monitored and maintained 24/7 by our [infrastructure team](https://about.gitlab.com/handbook/engineering/infrastructure/).
+GitLab.com is the largest known GitLab instance. It is monitored and maintained 24/7 by our [infrastructure team](/handbook/engineering/infrastructure/).
 
-The Support team should have a general understanding of [its architecture](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/) along with how to access logs ([Kibana]({{< ref "kibana" >}}) and error reports ([Sentry]({{< ref "sentry" >}})) to troubleshoot reported issues.
+The Support team should have a general understanding of [its architecture](/handbook/engineering/infrastructure/production/architecture/) along with how to access logs ([Kibana](/handbook/support/workflows/kibana/)) and error reports ([Sentry](/handbook/support/workflows/sentry/)) to troubleshoot reported issues.
 
-As well, Support team members should be aware that Gitlab.com has certain customizations. These customization are applied through the [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo). Details of Gitlab.com customizatons can be found in [GitLab.com custom limits](/handbook/support/workflows/gitlab-com_customizations)
+As well, Support team members should be aware that GitLab.com has certain customizations. These customization are applied through the [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo). Details of GitLab.com customizatons can be found in [GitLab.com custom limits](/handbook/support/workflows/gitlab-com_customizations)
 
-Numerous Support team members including all SaaS focused ones also assist with incidents as [CMOC]({{< ref "cmoc_workflows" >}}).
+Numerous Support team members also assist with incidents as [CMOC](/handbook/support/workflows/cmoc_workflows/).
 
 ## Legal Context
 
@@ -28,13 +28,13 @@ Violation of terms, including DMCA and code of conduct, are taken care of by [Se
 
 ## Administration
 
-With GitLab SaaS, GitLab (the company) is the administrator of the instance. This has a number of consequences, outlined below.
+With GitLab.com, GitLab (the company) is the administrator of the instance. This has a number of consequences, outlined below.
 
 ### Users Are Not Admins
 
-Users including customers [never have an admin role](https://docs.gitlab.com/ee/administration/index.html#administrator-documentation).
+Users including customers [never have an admin role](https://docs.gitlab.com/administration/#administrator-documentation).
 
-This means that none of our administrator specific documentation will apply to end-users, and [instance level settings](https://docs.gitlab.com/ee/user/gitlab_com/) are managed by our infrastructure team.
+This means that none of our administrator specific documentation will apply to end-users, and [instance level settings](https://docs.gitlab.com/user/gitlab_com/) are managed by our infrastructure team.
 
 ### Accounts Belong to Users
 
@@ -50,10 +50,10 @@ As of 2021-02-01 when our terms were last updated, we introduced the definition 
 
 Enterprise user accounts belong to the company that purchased a GitLab subscription. This means when requested by an `Owner` in the **top-level of a paid group**, information can be shared about, and actions can be made on behalf of an enterprise user.
 
-To share private information or take any action, [proof of account ownership is required]({{< ref "account_verification" >}}) as usual.
+To share private information or take any action, [proof of account ownership is required](/handbook/support/workflows/account_verification/) as usual.
 
 Enterprise users belong to a group based on the `enterprise_group_id` user attribute.
-See the [enterprise users documentation page](https://docs.gitlab.com/ee/user/enterprise_user/) for details on how this happens in GitLab.
+See the [enterprise users documentation page](https://docs.gitlab.com/user/enterprise_user/) for details on how this happens in GitLab.
 
 For the purposes of support, a user may still be considered an enterprise user when **all** of the following conditions are met:
 
@@ -66,6 +66,6 @@ For the purposes of support, a user may still be considered an enterprise user w
 
 If the Owner is requesting access to an account which has a primary email in the company domain, but *does not meet* any of the second conditions, then we must treat the account as belonging to the user. In this case, the only recourse for the Owner to add the user's *primary email* as a CC on the ticket, then the user validates their own account.
 
-The relevant information can be found in the [Zendesk GitLab Super App: User Lookup]({{< ref "../readiness/operations/docs/zendesk/apps.md#gitlab-super-app" >}}), GitLab admin or API. Subscription information can additionally be found in CustomersDot.
+The relevant information can be found in the Zendesk GitLab Super App: User Lookup, GitLab admin or API. Subscription information can additionally be found in CustomersDot.
 
 {{% include "includes/support-quick-reference.md" %}}

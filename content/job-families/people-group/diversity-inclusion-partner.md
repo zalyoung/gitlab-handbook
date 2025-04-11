@@ -1,7 +1,7 @@
 ---
 title: "Diversity, Inclusion and Belonging"
 ---
-The Diversity, Inclusion and Belonging (DIB) team builds an environment where all team members feel they belong: they are recognized, allowed to express their thoughts, have the ability to make contributions and are able to bring their best selves to work every day. As GitLab continues to grow, we look for people from a wide range of backgrounds to reflect the global nature of our customers and we want to have the tools and resources available to support that growth. It takes diversity of thought, culture, background, and perspective to build a truly global company. The DIB team members build and work with external partnerships as well as closely with internal departments such as Recruiting, Marketing, Communication, Talent Brand, etc to help shape the overall DIB strategy that creates, supports and fuels GitLab’s growth.
+The Diversity, Inclusion and Belonging (DIB) team builds an environment where all team members feel they belong: they are recognized, allowed to express their thoughts, have the ability to make contributions and are able to bring their best selves to work every day. As GitLab continues to grow, we look for people from a wide range of backgrounds to reflect the global nature of our customers and we want to have the tools and resources available to support that growth. It takes diversity of thought, culture, background, and perspective to build a truly global company. The DIB team members build and work with external partnerships as well as closely with internal departments such as Recruiting, Marketing, Communication, Talent Brand, etc to help shape the overall DIB strategy that creates, supports and fuels GitLab's growth.
 
 ## Responsibilities
 
@@ -62,7 +62,7 @@ The Diversity, Inclusion and Belonging Specialist is a [grade 6](/handbook/total
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - 30-45 minute interview with the VP, DIB
 - 30 minute interview with a member of the Learning and Development team
 - 30 minute interview with a People Business Partner
@@ -118,7 +118,7 @@ The Diversity, Inclusion, and Belonging Partner is a [grade 7](/handbook/total-r
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute interview with our Vice President, Diversity Inclusion, and Belonging
 - Next, candidates will be invited to schedule a 45 minute panel interview with one of our People Business Partners, member of our L&D team and People Operations leadership
 - After that, candidates will be invited to schedule a 30 minute interview with our Chief People Officer
@@ -155,7 +155,7 @@ The Diversity, Inclusion, and Belonging Partner is a [grade 8](/handbook/total-r
 - 7+ years of experience in human resources or related business experience
 - 5+ years of experience leading diversity projects, diversity sourcing initiatives, and/or recruiting initiatives
 - 3+ years leadership experience, preferably in the DIB space
-- [Bias towards action](/handbook/values/#bias-for-action)
+- [Bias towards action](/handbook/values/#operate-with-a-bias-for-action)
 - Proven ability to achieve results
 - Excellent program / project management and analytical skills
 - Proven ability to drive a globally inclusive DIB agenda
@@ -168,7 +168,7 @@ The Diversity, Inclusion, and Belonging Partner is a [grade 8](/handbook/total-r
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute interview with our Vice President, Diversity Inclusion, and Belonging
 - Next, candidates will be invited to schedule a 45 minute panel interview with one of our Diversity Inclusion, and Belonging Partner, People Business Partners, member of our L&D team, and/or People Operations leadership
 - After that, candidates will be invited to schedule a 30 minute interview with our Chief People Officer

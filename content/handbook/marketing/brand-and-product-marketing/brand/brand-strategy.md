@@ -1,29 +1,20 @@
 ---
-
-title: "Brand Strategy team"
-description: "The GitLab Brand Strategy team handbook"
+title: "The GitLab Brand Strategy team"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
+The Brand Strategy team is responsible for accelerating GitLab's path to market by creating awareness, trust, and affinity for the GitLab brand.
 
-
-
-
-
-
-# The GitLab Brand Strategy team
-
-The Brand Strategy team is responsible for accelerating GitLab’s path to market by creating awareness, trust, and affinity for the GitLab brand.
-
-## Meet the team:
+## Meet the team
 
 - Rebecca Clayman: Director of Brand Strategy - `@rclayman`
 - Matthew Jordan: Senior Brand Manager - `@jmatthewj`
 - Betsy Bula: Senior Brand Manager - `@bbula`
+- Melody Akhtari: Staff Brand Manager - `@melodyakhtari`
 
-We’re part of the broader [Brand and Product Marketing team](/handbook/marketing/brand-and-product-marketing/) at GitLab, and we’re close counterparts of the Brand Creative team. Looking for design-related resources? Check out the [Brand Creative handbook](/handbook/marketing/brand-and-product-marketing/design/).
+We're part of the broader [Brand and Product Marketing team](/handbook/marketing/brand-and-product-marketing/) at GitLab, and we're close counterparts of the Brand Creative team. Looking for design-related resources? Check out the [Brand Creative handbook](/handbook/marketing/brand-and-product-marketing/design/).
 
-# What we do
+## What we do
 
 Our team's work falls into four pillars:
 
@@ -36,17 +27,17 @@ In FY24, our goal is to establish a global, always-on digital presence with brea
 
 ## Objectives and Key Results (OKRs)
 
-Want to learn more about our current projects, objectives, and key results? GitLab team members can find the Brand Strategy team’s OKRs [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Abrandstrategy&first_page_size=100).
+Want to learn more about our current projects, objectives, and key results? GitLab team members can find the Brand Strategy team's OKRs [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Abrandstrategy&first_page_size=100).
 
-# How to work with us
+## How to work with us
 
 ## Requesting support
 
-If you have a question or request that isn’t outlined on this page, you can reach our team in the #brand Slack channel.
+If you have a question or request that isn't outlined on this page, you can reach our team in the #brand Slack channel.
 
 ### Creative requests
 
-Have a creative request for the Brand team? Please [open an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general) to get started.  
+Have a creative request for the Brand team? Please [open an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general) to get started.
 
 ### Swag requests
 
@@ -60,47 +51,61 @@ If the outdated logo is something you have access or permission to update, you c
 
 Please reach out in the #brand Slack channel if you have questions.
 
+### Naming process
+
+Our [naming handbook page](/handbook/marketing/brand-and-product-marketing/brand/naming/) contains everything you need to know about naming products, features, events, and other initiatives at GitLab. The Brand & Creative team is here to guide and facilitate this process. 
+
 ### Vendor reference requests
 
-If you receive a vendor request for GitLab to act as a reference (case study, blog post or GitLab logo on their website, etc.) for the product, service, or technology that your GitLab team is using, please refer to these guidelines and check to see if the request meets the criteria. If it does, you can move through the approval process to notify the Brand team of your request.
+If you receive a vendor request for GitLab to act as a reference for a product, service, or technology that your GitLab team is using, please start by referring to the guidelines below. If the request meets our criteria, you can open an issue to kick off the approval process.
 
-For Public Relations requests, please reference the [Corporate Communications handbook page](/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support).
+Examples of reference requests include:
+
+- Use of GitLab’s logo on the vendor’s website or marketing materials
+- A case study
+- Co-branding opportunities
+- Social media posts mentioning GitLab
+
+For public relations requests or support, please reference the [Corporate Communications handbook page](/handbook/marketing/corporate-communications).
 
 #### Vendor reference criteria
 
-Please ensure that the vendor meets this criteria before proceeding with the approval process. If you have any questions on the below criteria or need clarification please reach out to us via the #brand Slack channel.
+Before starting the approval process, please ensure that the vendor meets this criteria. If you have any questions, reach out to us in the #brand Slack channel.
 
-- GitLab team and/or team member(s) need to have been using the product, service and/or technology for at LEAST 6 months prior to the reference request.
-- The product, service, and/or technology has met or exceeded your expectations.
-- E-group member approval for all reference requests except logo use. (E-group member will be for the specific organization using the vendor. For example, if it is a tool the Product team uses, David DeSanto will be the approver for e-group.)
-- If the request involves GitLab logo/brand use, please ensure the vendor follows the below:
-    1. [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
-    1. [Brand Standards](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/#brand-guidelines)
+1. The GitLab team must have used the product, service, or technology for **at least 12 months** prior to the reference request.
+1. The product, service, or technology must have met or exceeded your expectations. We prefer that this satisfaction is documented via a recent QBR.
+1. GitLab must have an official vendor relationship with the product, service, or technology.
+1. The appropriate e-group member (from the department using the vendor) will review most reference requests. The only type of request that does not require e-group approval is the use of the GitLab logo on a vendor’s website. 
+1. If the request involves the GitLab logo or brand use, please ensure the vendor follows these guidelines:
+    - [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
+    - [Brand Guidelines](https://design.gitlab.com/brand-introduction)
+1. We will consider social media posts or promotions if we've done a case study or blog post with the vendor. All social posts must be reviewed and approved via this process.
+
+#### Stakeholder reviewers 
+
+The following teams will review the request as part of this process:
+
+- Brand team
+- Corporate Communications team
+- E-group member for the organization using the vendor (this is required for all reference requests except for logo usage requests)
+- Legal team ([Legal Materials Review Process](/handbook/legal/materials-legal-review-process/))
 
 #### Approval process
 
-If the vendor has met the above criteria, please [submit an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=vendor-reference-request) for review. Once the request has been submitted, please allow for 7-10 days for review and approval of the request. The team will review all content and relevant info to ensure it follows the SAFE framework and route through the approval process.
+1. Before opening an issue, please ensure the vendor has met the above criteria.
+1. [Open an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=vendor-reference-request) and submit details on the request.
+1. Once the issue has been opened, the Brand team will pass the request through the appropriate stakeholder reviewers in the issue.
+1. Please allow for 7-10 business days for the review process. This may take longer depending on how responsive the vendor is to questions, signatures on authorization agreements, etc.
+1. If the request is approved and logo use rights are not already covered in the vendor agreement (or any other agreement), the Legal team will likely create an authorization agreement. The vendor will sign this document to acknowledge the details of the approved usage.
 
-**Approver List:**
+## Additional brand resources
 
-- [ ] Vendor DRI
-- [ ] Brand
-- [ ] Corporate Communications
-- [ ] E-group member for organization using the vendor (all reference requests except logo use)
-- [ ] Legal ([Legal Materials Review Process](/handbook/legal/materials-legal-review-process/))
+## Brand Guidelines
 
-# Additional brand resources
-
-## Brand guidelines
-
-GitLab's official brand guidelines can be found at [design.gitlab.com](https://design.gitlab.com/?_gl=1%2ajgpg6f%2a_ga%2aMjA5OTczOTQuMTY3MDM0NzQwMg..%2a_ga_ENFH3X7M5Y%2aMTY3NTI4MTI2NS4zMC4xLjE2NzUyODE4MDMuMC4wLjA.) under the `Brand` tab. These guidelines should be applied to all marketing materials, including digital ads, events, publications, merchandise, etc.
+GitLab's official Brand Guidelines can be found at [design.gitlab.com](https://design.gitlab.com/) under the `Brand` tab. These guidelines should be applied to all marketing materials, including digital ads, events, publications, merchandise, etc.
 
 ## Logo and trademark usage
 
-GitLab's official logo files can be found and downloaded in the [press kit](/press/press-kit/).
+GitLab's official logo files can be found and downloaded in the [press kit](https://about.gitlab.com/press/press-kit/).
 
 Refer to GitLab's [trademark guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/) for details on how our trademarks can and can't be used.
-
-
-
-

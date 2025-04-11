@@ -2,7 +2,6 @@
 title: "Working Groups"
 description: "Like all groups at GitLab, a working group is an arrangement of people from different functions. Learn more!"
 no_list: true
-aliases: /handbook/company/top-cross-functional-initative/
 ---
 
 ## What's a Working Group?
@@ -10,21 +9,6 @@ aliases: /handbook/company/top-cross-functional-initative/
 Like all groups at GitLab, a [working group](https://en.wikipedia.org/wiki/Working_group) is an arrangement of people from different functions. What makes a working group unique is that it has defined roles and responsibilities, and is tasked with achieving a high-impact business goal fast. A working group disbands when the goal is achieved (defined by exit criteria) so that GitLab doesn't accrue bureaucracy.
 
 Working groups are for important work that needs to be done quickly, when asynchronous work would be too slow.
-
-### CEO Handbook Learning Discussion on Working Groups
-
-GitLab's CEO, Sid, and Chief of Staff to the CEO, Stella, and the Learning & Development team discuss Working Groups in detail during a [CEO handbook learning session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions).
-
-Topics covered include:
-
-1. What is a working group
-1. When to start a working group
-1. Difference between project managers and working groups.
-   - Note: GitLab does not internally have project managers. Individual team members should have agency and accountability. We don't want someone who just tracks the status of work and makes updates. We want people to do this directly, and we want the [DRI](/handbook/people-group/directly-responsible-individuals/) to own the process and outcome. This supports accountability. We sometimes have project managers when interacting with external organizations, because accountability is harder when working with external parties.
-1. Lessons learned from previous working groups
-1. Why and how working groups support cross-functional projects
-
-{{< youtube "tE3d8WUSL30" >}}
 
 ## Roles and Responsibilities
 
@@ -74,6 +58,7 @@ The DRI should identify key folks who will be members of the Working Group. They
 1. Reach out to the exec sponsor to help identify leads/contacts throughout the organization who could provide support
 1. Reach out to functional leads from the stages identified as needing to provide support to this effort
 1. Include the folks who the DRI has already been working with on this effort, and ask them if they'd like to continue or have someone they'd recommend taking over
+    - If cross functional data pulls/analysis will be required, please identify Data DRIs that can help. As an example, please see what was done for the [Storage Limits Initiative](https://internal.gitlab.com/handbook/product/fulfillment/storage-limits-enforcement/#data-dris)
 1. Solicit help on the respective stage's/team's Slack channel. The [Features by Group](/handbook/product/categories/features/) page may provide some guidance
 
 For example, if you know that this Working Group will eventually involve customer communications, you should ensure that the team has appropriate representation from the Customer Success department and that the representative is clear on the asks for both the team and the individual within the coming weeks and quarters.
@@ -99,7 +84,7 @@ The Working Group should follow the [GitLab norms for meetings](/handbook/compan
 1. Save time at the end of the meeting to take action items
 1. Turn action items into merge requests or issues
 
-Working Groups should follow the guidance outlined in [Building High Performing Teams](/handbook/leadership/build-high-performing-teams/).
+Working Groups should follow the guidance outlined in [Building High Performing Teams](/handbook/leadership/#strategies-to-build-high-performing-teams).
 
 ### Working Group meetings
 
@@ -111,7 +96,7 @@ All meetings should have an [agenda](/handbook/company/culture/all-remote/meetin
 
 ### Create a page in the handbook
 
-Working Groups should have a page in the handbook in the current `working-groups` folder and added to the [list of active working groups](#active-working-groups-alphabetic-order) below. If you inherited an existing Working Group, make sure that the page is up-to-date. This ensures that other team members have a place to go if they are looking to learn about what you are working on. At GitLab, we’re [public handbook first](/handbook/handbook-usage/#why-handbook-first), but if your work is [not public](/handbook/communication/confidentiality-levels/#internal), please use the [internal working groups folder](https://internal.gitlab.com/handbook/company/internal-working-groups/) to keep the content [SAFE](/handbook/legal/safe-framework/).
+Working Groups should have a page in the handbook in the current `working-groups` folder and added to the [list of active working groups](#active-working-groups-alphabetic-order) below. If you inherited an existing Working Group, make sure that the page is up-to-date. This ensures that other team members have a place to go if they are looking to learn about what you are working on. At GitLab, we're [public handbook first](/handbook/about/handbook-usage/#why-handbook-first), but if your work is [not public](/handbook/communication/confidentiality-levels/#internal), please use the [internal working groups folder](https://internal.gitlab.com/handbook/company/internal-working-groups/) to keep the content [SAFE](/handbook/legal/safe-framework/).
 
 Items to cover on your handbook page should include:
 
@@ -122,7 +107,7 @@ Items to cover on your handbook page should include:
 1. Key milestones and their delivery timeline
 1. Who is involved. This should include who the DRI and Exec Sponsor (if there is one) are. Ensure that responsibilities for all participants are clearly documented and understood.
 
-When possible, we work [handbook first](/handbook/handbook-usage/#why-handbook-first) and start with a [Merge Request](/handbook/communication/#start-with-a-merge-request). Google Docs can be used for drafting a proposal in which multiple folks need to collaborate in real-time. It may also be something that you'd consider when material is [limited access](/handbook/communication/confidentiality-levels/#limited-access). Once the confidentiality concerns are addressed and real-time editing is less crucial, the content should be moved to a [Merge Request](/handbook/communication/#start-with-a-merge-request) and the Google Doc should be marked deprecated with a link to the Merge Request.
+When possible, we work [handbook first](/handbook/about/handbook-usage/#why-handbook-first) and start with a [Merge Request](/handbook/communication/#start-with-a-merge-request). Google Docs can be used for drafting a proposal in which multiple folks need to collaborate in real-time. It may also be something that you'd consider when material is [limited access](/handbook/communication/confidentiality-levels/#limited-access). Once the confidentiality concerns are addressed and real-time editing is less crucial, the content should be moved to a [Merge Request](/handbook/communication/#start-with-a-merge-request) and the Google Doc should be marked deprecated with a link to the Merge Request.
 
 ### Create issues and epics
 
@@ -130,19 +115,20 @@ Use [issues](https://docs.gitlab.com/ee/user/project/issues/) to lay out the wor
 
 You may also want to use an [issue board](https://docs.gitlab.com/ee/user/project/issue_board.html) as an overview of progress.
 
-As work is being fleshed out and sub-projects are identified, some issues should be promoted to [epics](https://docs.gitlab.com/ee/user/group/epics/) to group other issues that are part of the same sub-project. It’s best practice to have an issue or sub-epic for each sub-project associated with the Working Group. Group sub-epics under one parent epic to track progress over time. As items are completed, close out the issues and epics and document progress in the handbook.
+As work is being fleshed out and sub-projects are identified, some issues should be promoted to [epics](https://docs.gitlab.com/ee/user/group/epics/) to group other issues that are part of the same sub-project. It's best practice to have an issue or sub-epic for each sub-project associated with the Working Group. Group sub-epics under one parent epic to track progress over time. As items are completed, close out the issues and epics and document progress in the handbook.
 
 Like the handbook, issues and epics should be public by default. If an issue or epic contains material that needs to remain internal, they should be made [confidential](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html) or be in a [project](https://docs.gitlab.com/ee/user/project/) which is [private](https://docs.gitlab.com/ee/user/public_access.html#private-projects-and-groups). If an issue or epic can remain public, but a comment needs to be added that is internal only, you can use [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) to allow the issue to remain public while having a confidential conversation.
 
-Working Groups should leverage issues and epics in the projects, groups, and sub-groups that drive maximum efficiency.  For Working Groups operating within the [GitLab.com](https://gitlab.com/gitlab-com) group on GitLab company related projects, the following resources are available:
+Working Groups should leverage issues and epics in the projects, groups, and sub-groups that drive maximum efficiency. For Working Groups operating within the [GitLab.com](https://gitlab.com/gitlab-com) group on GitLab company related projects, the following resources are available:
+
 - Per Working Group scoped labels
-    - `WorkingGroup::<NewWorkingGroupName>`
+  - `WorkingGroup::<NewWorkingGroupName>`
 - [Working Group status labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=wg-status) for tracking status of issues and epics
-    - `wg-status::Not Started`
-    - `wg-status::Ready`
-    - `wg-status::In Progress`
-    - `wg-status::Blocked`
-    - `wg-status::Complete`
+  - `wg-status::Not Started`
+  - `wg-status::Ready`
+  - `wg-status::In Progress`
+  - `wg-status::Blocked`
+  - `wg-status::Complete`
 - [working-groups](https://gitlab.com/gitlab-com/working-groups) subgroup for organizing per Working Group issues, epics, and projects
 
 ### Communicating status, updates, and changes
@@ -155,7 +141,7 @@ Changes to the timeline or schedule can have rippling downstream impacts. It is 
 
 ### Trust Building
 
-When a Working Group forms, it is important to [build trust](/handbook/leadership/building-trust/) amongst the team members. This will help the Working Group function better, build credibility, and allow team members to be vulnerable with each other, if needed. Just as it’s important to do the work itself, it’s also important to take time for coffee-chats, activities, games, etc. that allow Working Group members to build a personal connection.
+When a Working Group forms, it is important to [build trust](/handbook/leadership/building-trust/) amongst the team members. This will help the Working Group function better, build credibility, and allow team members to be vulnerable with each other, if needed. Just as it's important to do the work itself, it's also important to take time for coffee-chats, activities, games, etc. that allow Working Group members to build a personal connection.
 
 ### Disband the working group
 
@@ -174,22 +160,22 @@ Some things can't be made public and are either internal to the company or have 
 If something isn't on our [Not Public list](/handbook/communication/confidentiality-levels/#not-public), we should make it available externally. If a working group is working on something on the Not Public List, working group team members should take precautions to limit access to information until it is determined that information can be shared more broadly. To highlight a few modifications to the process above:
 
 1. Preparation
-   1. Determine an appropriate project name using [limited access naming conventions](/handbook/communication/confidentiality-levels/#limited-access).
-   1. Create an overview page and add the link to [Active Working Groups](#active-working-groups-alphabetic-order). You can share limited information, but capture key team members, including the facilitator, executive stakeholder, and functional lead.
-   1. If working in the handbook, evaluate whether the page should be confidential or be housed in a new project with limited access. Consider working in the [staging handbook](/handbook/handbook-usage/#the-staging-handbook). We use this when information may need to be iterated on or MR branches may need to be created in staging before it is made public. Outside of E-Group, temporary access may be granted on a project-specific basis.
-   1. Maintain a list of working group members and other folks who are participating in or informed of the project. This list should be available to all participating team members. Folks should not be added to this list until it is confirmed that they understand what can be communicated.
-   1. Ensure that each working group team member understands what can be communicated externally and internally.
-   1. Have private Slack channels that include folks who are directly working on the project.
-   1. Limit the agenda to a specific set of folks.
+    1. Determine an appropriate project name using [limited access naming conventions](/handbook/communication/confidentiality-levels/#limited-access).
+    1. Create an overview page and add the link to [Active Working Groups](#active-working-groups-alphabetic-order). You can share limited information, but capture key team members, including the facilitator, executive stakeholder, and functional lead.
+    1. If working in the handbook, evaluate whether the page should be confidential or be housed in a new project with limited access. Consider working in the [internal handbook](https://internal.gitlab.com/). We use this when information may need to be iterated on or MR branches may need to be created in staging before it is made public. Outside of E-Group, temporary access may be granted on a project-specific basis.
+    1. Maintain a list of working group members and other folks who are participating in or informed of the project. This list should be available to all participating team members. Folks should not be added to this list until it is confirmed that they understand what can be communicated.
+    1. Ensure that each working group team member understands what can be communicated externally and internally.
+    1. Have private Slack channels that include folks who are directly working on the project.
+    1. Limit the agenda to a specific set of folks.
 1. Communicate the results
-   - Communicate results and progress to the direct working group or other key stakeholders to ensure that folks are aligned and have context on key happenings. Do not share sensitive information outside of private channels.
+    - Communicate results and progress to the direct working group or other key stakeholders to ensure that folks are aligned and have context on key happenings. Do not share sensitive information outside of private channels.
 1. Proactively share information if the project is no longer limited access
-   1. Notify widely of progress or exit outcomes when information can be shared more broadly.
-   1. Evaluate which artifacts and communication material can be made internally available or public.
-      1. If you were working in the [staging handbook](/handbook/handbook-usage/#the-staging-handbook), follow instructions to make a merge request against the public repo.
-      1. Transition members to public Slack channels and archive private channels.
-      1. Deprecate private agendas. Link this to a new agenda document.
-      1. Consider making GitLab Groups and Projects public or avialable to a broader audience.
+    1. Notify widely of progress or exit outcomes when information can be shared more broadly.
+    1. Evaluate which artifacts and communication material can be made internally available or public.
+        1. If you were working in the [internal handbook](https://internal.gitlab.com/), follow instructions to make a merge request against the public repo.
+        1. Transition members to public Slack channels and archive private channels.
+        1. Deprecate private agendas. Link this to a new agenda document.
+        1. Consider making GitLab Groups and Projects public or avialable to a broader audience.
 
 ## Participating in a Working Group
 
@@ -199,119 +185,123 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 ## Active Working Groups (alphabetic order)
 
-1. [Account Escalation Process]({{< ref "account-escalation-process" >}})
-1. [API Vision]({{< ref "api-vision" >}})
-1. [Automotive Development]({{< ref "automotive-development" >}})
-1. [AWS/GCP Partnerships](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/11)
-1. [Bounded Contexts]({{< ref "bounded-contexts" >}})
-1. [Category Leadership]({{< ref "category-leadership" >}})
-1. [CI/CD Build Speed time-to-result]({{< ref "ci-build-speed" >}})
-1. [ClickHouse Datastore]({{< ref "clickhouse-datastore" >}})
-1. [Continue to win against GitHub and ship AI features]({{< ref "yearlies" >}})
-1. [Customer Use Case Adoption]({{< ref "customer-use-case-adoption" >}})
-1. [Demo & Test Data]({{< ref "demo-test-data" >}})
-1. [Emerging Talent]({{< ref "emerging-talent" >}})
-1. [Event Stream]({{< ref "event-stream" >}})
-1. [Expense Management]({{< ref "expense-management" >}})
-1. [FedRAMP Execution]({{< ref "fedramp-execution" >}})
-1. [Frontend Observability]({{< ref "frontend-observability" >}})
-1. [Frontend Vision]({{< ref "frontend-vision" >}})
-1. [Fulfillment Efficiency](https://docs.google.com/presentation/d/1eTH09QZqnazJ4jh-jVGTEYEFA3m6R2jwWuhY5_EtPL4/edit#slide=id.g123a13deda8_0_405)
-1. [GCP Partnership]({{< ref "gcp-partnership" >}})
-1. [GitLab Dedicated]({{< ref "gitlab-dedicated" >}})
-1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})
-1. [GitLab.com SAAS Data Pipeline]({{< ref "gitlab-com-saas-data-pipeline" >}})
-1. [Government Support Offerings (Internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/govt-support-offerings/)
-1. [Revenue Globalization]({{< ref "globalization" >}})
-1. [Issue Prioritization Framework]({{< ref "issue-prioritization-framework" >}})
-1. [Leading Organizations]({{< ref "leading-organizations" >}})
-1. [Learning Experience]({{< ref "learning-experience" >}})
-1. [Modern Applications Go-To-Market]({{< ref "modern-applications-gtm" >}})
-1. [Next Architecture Workflow]({{< ref "next-architecture-workflow" >}})
-1. [North Star Metric Definitions]({{< ref "north-star-metric-definitions" >}})
-1. [Product Accessibility]({{< ref "product-accessibility" >}})
-1. [Runtime Update Process]({{< ref "runtime-update-process" >}})
-1. [Software Supply Chain Security]({{< ref "software-supply-chain-security" >}})
-1. [Talent Acquisition SSOT]({{< ref "recruiting-ssot" >}})
-1. [Token Management]({{< ref "token-management" >}})
-1. [Vue.js 3 Upgrade]({{< ref "vuejs-3-migration" >}})
+1. [Automotive Development](/handbook/company/working-groups/automotive-development/)
+1. [Customer Use Case Adoption](/handbook/company/working-groups/customer-use-case-adoption/)
+1. [Feature Testing](/handbook/company/working-groups/feature-testing/)
+1. [FedRAMP Execution](/handbook/company/working-groups/fedramp-execution/)
+1. [Frontend Technical Interview (internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/frontend-technical-interview/)
+1. [GCP Partnership](/handbook/company/working-groups/gcp-partnership/)
+1. [HPT in Product Division](/handbook/company/working-groups/hpt-product-division/)
+1. [Keep around references](/handbook/company/working-groups/keep-around-refs/)
+1. [Product Accessibility](/handbook/company/working-groups/product-accessibility/)
+1. [Secure Govern Database Decomposition](/handbook/company/working-groups/secure-govern-database-decomposition/)
+1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
 
 ## Past Working Groups (alphabetic order)
 
-1. [AI Integration]({{< ref "ai-integration" >}})
-1. [Architecture Kickoff]({{< ref "architecture-kickoff" >}})
-1. [Category Leadership](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/10)
-1. [China Service]({{< ref "china-service" >}})
-1. [CI Queue Time Stabilization]({{< ref "ci-queue-stability" >}})
+1. [Account Escalation Process](/handbook/company/working-groups/account-escalation-process/)
+1. [AI Integration](/handbook/company/working-groups/ai-integration/)
+1. [API Vision](/handbook/company/working-groups/api-vision/)
+1. [Architecture Kickoff](/handbook/company/working-groups/architecture-kickoff/)
+1. [Bounded Contexts](/handbook/company/working-groups/bounded-contexts/)
+1. [Category Leadership](/handbook/company/working-groups/category-leadership/)
+1. [China Service](/handbook/company/working-groups/china-service/)
+1. [CI Queue Time Stabilization](/handbook/company/working-groups/ci-queue-stability/)
+1. [CI/CD Build Speed time-to-result](/handbook/company/working-groups/ci-build-speed/)
+1. [ClickHouse Datastore](/handbook/company/working-groups/clickhouse-datastore/)
 1. [Cloud Licensing](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/2)
-1. [Commercial & Licensing]({{< ref "commercial-licensing" >}})
-1. [Continuous Scanning]({{< ref "continuous-scanning" >}})
-1. [Cross Functional Prioritization]({{< ref "cross-functional-prioritization" >}})
+1. [Commercial & Licensing](/handbook/company/working-groups/commercial-licensing/)
 1. [Consumption Add-Ons](https://docs.google.com/presentation/d/1eTH09QZqnazJ4jh-jVGTEYEFA3m6R2jwWuhY5_EtPL4/edit#slide=id.g123a13deda8_0_405)
-1. [Contributor Growth]({{< ref "contributor-growth" >}})
-1. [Dashboards]({{< ref "dashboards" >}})
-1. [Database Scalability]({{< ref "database-scalability" >}})
-1. [Development Metrics]({{< ref "development-metrics" >}})
+1. [Continuous Scanning](/handbook/company/working-groups/continuous-scanning/)
+1. [Contributor Growth](/handbook/company/working-groups/contributor-growth/)
+1. [Cross Functional Prioritization](/handbook/company/working-groups/cross-functional-prioritization/)
+1. [Dashboards](/handbook/company/working-groups/dashboards/)
+1. [Database Scalability](/handbook/company/working-groups/database-scalability/)
+1. [Demo & Test Data](/handbook/company/working-groups/demo-test-data/)
+1. [Development Metrics](/handbook/company/working-groups/development-metrics/)
 1. [DevSecOps Adoption](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/59)
-1. [Dogfood Plan]({{< ref "dogfood-plan" >}})
-1. [Ecommerce Motion]({{< ref "ecommerce" >}})
-1. [Engineering Career Matrices]({{< ref "engineering-career-matrices" >}})
-1. [Engineering Internship]({{< ref "engineering-internship" >}})
-1. [Enterprise Market Leadership]({{< ref "enterprise-market-leadership" >}})
-1. [Experimentation]({{< ref "experimentation" >}})
+1. [Digital SMB + Solutions Architects](/handbook/company/working-groups/digital-smb-sa/)
+1. [Dogfood Plan](/handbook/company/working-groups/dogfood-plan/)
+1. [Ecommerce Motion](/handbook/company/working-groups/ecommerce/)
+1. [Emerging Talent](/handbook/company/working-groups/emerging-talent/)
+1. [Engineering Career Matrices](/handbook/company/working-groups/engineering-career-matrices/)
+1. [Engineering Internship](/handbook/company/working-groups/engineering-internship/)
+1. [Enterprise Market Leadership](/handbook/company/working-groups/enterprise-market-leadership/)
+1. [Event Stream](/handbook/company/working-groups/event-stream/)
+1. [Expense Management](/handbook/company/working-groups/expense-management/)
+1. [Experimentation](/handbook/company/working-groups/experimentation/)
 1. [First Order](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/9)
-1. [Githost Migration]({{< ref "githost-migration" >}})
-1. [GitLab Administration]({{< ref "administration" >}})
-1. [GitLab.com Cost]({{< ref "gitlab-com-cost" >}})
-1. [GitLab.com Revenue]({{< ref "gitlab-com-revenue" >}})
-1. [gitlab-ui (CSS and Components)]({{< ref "gitlab-ui" >}})
-1. [GTM Product Analytics]({{< ref "product-analytics-gtm" >}})
-1. [IACV - Delta ARR]({{< ref "iacv-delta-arr" >}})
-1. [IC Gearing]({{< ref "ic-gearing" >}})
-1. [Improve Ops Quality]({{< ref "improve-ops-quality" >}})
-1. [Internship Pilot]({{< ref "internship-pilot" >}})
-1. [Internal Feature Flag usage]({{< ref "feature-flag-usage" >}})
-1. [Isolation]({{< ref "isolation" >}})
-1. [Leading Organization Growth](https://gitlab.com/groups/gitlab-com/-/epics/1880)
-1. [Learning Restructure]({{< ref "learning-restructure" >}})
-1. [Licensing and Transactions Improvements]({{< ref "licensing-transactions-improvements" >}})
-1. [Log Aggregation]({{< ref "log-aggregation" >}})
-1. [Logging]({{< ref "logging" >}})
-1. [Maintainership]({{< ref "maintainership" >}})
-1. [Merge Request Report Widgets]({{< ref "merge-request-report-widgets" >}})
-1. [Minorities in Tech (MIT) Mentoring Program]({{< ref "mit-mentoring" >}})
-1. [MLOps]({{< ref "mlops" >}})
-1. [Multi-Large]({{< ref "multi-large" >}})
-1. [Object Storage]({{< ref "object-storage" >}})
-1. [Pipeline Validation Service Operations]({{< ref "pipeline-validation-service-operations" >}})
-1. [Performance Indicators]({{< ref "performance-indicators" >}})
-1. [Product Analytics]({{< ref "product-analytics" >}})
-1. [Product Career Development Framework]({{< ref "product-career-development-framework" >}})
-1. [Product Development Flow]({{< ref "product-development-flow" >}})
-1. [Product Engagement Actions (FY21)]({{< ref "FY21-product-engagement-actions" >}})
+1. [Frontend Observability](/handbook/company/working-groups/frontend-observability/)
+1. [Frontend Vision](/handbook/company/working-groups/frontend-vision/)
+1. [Githost Migration](/handbook/company/working-groups/githost-migration/)
+1. [GitLab Administration](/handbook/company/working-groups/administration/)
+1. [GitLab Dedicated](/handbook/company/working-groups/gitlab-dedicated/)
+1. [gitlab-ui (CSS and Components)](/handbook/company/working-groups/gitlab-ui/)
+1. [GitLab.com Cost](/handbook/company/working-groups/gitlab-com-cost/)
+1. [GitLab.com Disaster Recovery](/handbook/company/working-groups/disaster-recovery/)
+1. [GitLab.com Revenue](/handbook/company/working-groups/gitlab-com-revenue/)
+1. [GitLab.com SAAS Data Pipeline](/handbook/company/working-groups/gitlab-com-saas-data-pipeline/)
+1. [Government Support Offerings (Internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/govt-support-offerings/)
+1. [GTM Product Analytics](/handbook/company/working-groups/product-analytics-gtm/)
+1. [IACV - Delta ARR](/handbook/company/working-groups/iacv-delta-arr/)
+1. [IC Gearing](/handbook/company/working-groups/ic-gearing/)
+1. [Improve Ops Quality](/handbook/company/working-groups/improve-ops-quality/)
+1. [Internal Feature Flag usage](/handbook/company/working-groups/feature-flag-usage/)
+1. [Internship Pilot](/handbook/company/working-groups/internship-pilot/)
+1. [Isolation](/handbook/company/working-groups/isolation/)
+1. [Issue Prioritization Framework](/handbook/company/working-groups/issue-prioritization-framework/)
+1. [Leading Organizations](/handbook/company/working-groups/leading-organizations/)
+1. [Learning Experience](/handbook/company/working-groups/learning-experience/)
+1. [Learning Restructure](/handbook/company/working-groups/learning-restructure/)
+1. [Licensing and Transactions Improvements](/handbook/company/working-groups/licensing-transactions-improvements/)
+1. [Lighthouse Metric Definitions](/handbook/company/working-groups/lighthouse-metric-definitions/)
+1. [Log Aggregation](/handbook/company/working-groups/log-aggregation/)
+1. [Logging](/handbook/company/working-groups/logging/)
+1. [Maintainership](/handbook/company/working-groups/maintainership/)
+1. [Major Releases](/handbook/company/working-groups/major-releases/)
+1. [Merge Request Report Widgets](/handbook/company/working-groups/merge-request-report-widgets/)
+1. [Minorities in Tech (MIT) Mentoring Program](/handbook/company/working-groups/mit-mentoring/)
+1. [MLOps](/handbook/company/working-groups/mlops/)
+1. [Modern Applications Go-To-Market](/handbook/company/working-groups/modern-applications-gtm/)
+1. [Multi-Large](/handbook/company/working-groups/multi-large/)
+1. [Next Architecture Workflow](/handbook/company/working-groups/next-architecture-workflow/)
+1. [Object Storage](/handbook/company/working-groups/object-storage/)
+1. [Performance Indicators](/handbook/company/working-groups/performance-indicators/)
+1. [Pipeline Validation Service Operations](/handbook/company/working-groups/pipeline-validation-service-operations/)
+1. [Product Analytics](/handbook/company/working-groups/product-analytics/)
+1. [Product Career Development Framework](/handbook/company/working-groups/product-career-development-framework/)
+1. [Product Development Flow](/handbook/company/working-groups/product-development-flow/)
+1. [Product Engagement Actions (FY21)](FY21-product-engagement-actions.md)
 1. [Project Matterhorn: Premium Price Tier Increase. Limited access](/handbook/communication/confidentiality-levels/#limited-access)
-1. [Purchasing Reliability]({{< ref "purchasing-reliability" >}})
-1. [Rate Limit Architecture]({{< ref "rate-limit-architecture" >}})
-1. [Real-Time]({{< ref "real-time" >}})
+1. [Purchasing Reliability](/handbook/company/working-groups/purchasing-reliability/)
+1. [Python Stewardship](/handbook/company/working-groups/python-stewardship/)
+1. [Rate Limit Architecture](/handbook/company/working-groups/rate-limit-architecture/)
+1. [Real-Time](/handbook/company/working-groups/real-time/)
+1. [Revenue Globalization](/handbook/company/working-groups/globalization/)
+1. [Runtime Update Process](/handbook/company/working-groups/runtime-update-process/)
 1. [SaaS Free User Efficiency](https://gitlab.com/groups/gitlab-com-top-initiatives/free-saas-user-efficiency/-/epics/1)
 1. [SaaS Reliability](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/5)
-1. [Secure Offline Environment Working Group]({{< ref "secure-offline-environment" >}})
-1. [Self-Managed Scalability]({{< ref "self-managed-scalability" >}})
-1. [Sharding]({{< ref "sharding" >}})
+1. [Secure Offline Environment Working Group](/handbook/company/working-groups/secure-offline-environment/)
+1. [Self-Managed Scalability](/handbook/company/working-groups/self-managed-scalability/)
+1. [Sharding](/handbook/company/working-groups/sharding/)
 1. Shift LAM to Primary Metric
-1. [Simplify Groups & Projects]({{< ref "simplify-groups-and-projects" >}})
-1. [Single Codebase]({{< ref "single-codebase" >}})
-1. [SOX PMO]({{< ref "sox" >}})
-1. [TeamOps Sales and Marketing Group]({{< ref "teamops-sales-marketing" >}})
-1. [Tiering]({{< ref "tiering" >}})
-1. [Transient Bugs]({{< ref "transient-bugs" >}})
-1. [Upstream Diversity]({{< ref "upstream-diversity" >}})
+1. [Simplify Groups & Projects](/handbook/company/working-groups/simplify-groups-and-projects/)
+1. [Single Codebase](/handbook/company/working-groups/single-codebase/)
+1. [Software Supply Chain Security](/handbook/company/working-groups/software-supply-chain-security/)
+1. [SOX PMO](/handbook/company/working-groups/sox/)
+1. [Talent Acquisition SSOT](/handbook/company/working-groups/recruiting-ssot/)
+1. [TeamOps Sales and Marketing Group](/handbook/company/working-groups/teamops-sales-marketing/)
+1. [Tiering](/handbook/company/working-groups/tiering/)
+1. [Token Management](/handbook/company/working-groups/token-management/)
+1. [Transient Bugs](/handbook/company/working-groups/transient-bugs/)
+1. [Upstream Diversity](/handbook/company/working-groups/upstream-diversity/)
 1. [Usage Reporting](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1)
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)
-1. [Webpack (Frontend build tooling)]({{< ref "webpack" >}})
+1. [Vue.js 3 Upgrade](/handbook/company/working-groups/vuejs-3-migration/)
+1. [Webpack (Frontend build tooling)](/handbook/company/working-groups/webpack/)
 
 ## What were Top Cross-Functional Initiatives?
 
-Top Cross-Functional Initiatives were [Working Groups]({{< ref "working-groups" >}}) that were key to GitLab's success in the fiscal year and beyond. While there were other important business initiatives and priorities that existed within functions or required engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring.
+Top Cross-Functional Initiatives were [Working Groups](/handbook/company/working-groups) that were key to GitLab's success in the fiscal year and beyond. While there were other important business initiatives and priorities that existed within functions or required engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring.
 
-We retired this concept in FY24-Q3, because we had layered these initiatives under [Yearlies]({{< ref "yearlies" >}}) as sub-objectives. This list was duplicative and confusing to team members who were trying to manage these and other priorities. Top Cross-Functional Initiatives were moved to this page. The Top Cross-Functional Initiative concept was deprecated.
+We retired this concept in FY24-Q3, because we had layered these initiatives under [Yearlies](/handbook/company/yearlies/) as sub-objectives. This list was duplicative and confusing to team members who were trying to manage these and other priorities. Top Cross-Functional Initiatives were moved to this page. The Top Cross-Functional Initiative concept was deprecated.

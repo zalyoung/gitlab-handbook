@@ -5,14 +5,14 @@ description: "This page is an overview of the processes the hiring manager is re
 
 ## Step 1/HM: Identifying hiring need
 
-1. [Add Vacancy to the Hiring Plan]({{< ref "req-creation#adding-vacancies-to-the-hiring-plan" >}})
+1. [Add Vacancy to the Hiring Plan](/handbook/finance/financial-planning-and-analysis/#hiring-plan-process)
 Determine the purpose of this role
-1. [Create or Review the Job Family]({{< ref "req-creation#create-or-review-the-job-family" >}})
+1. [Create or Review the Job Family](/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family-dri-hiring-manager)
 1. [Work with the Recruiting Manager/Lead to open the vacancy in Greenhouse](req-creation/#opening-vacancies-in-greenhouse)
 
 ## Step 2/HM: Complete Kick-off
 
-[Complete Kick-off]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
+[Complete Kick-off](/handbook/hiring/talent-acquisition-framework/req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session)
 
 ## Step 3/HM: Setup Scorecard and Prepare Interview Team
 
@@ -44,18 +44,20 @@ As a best practice the Hiring Manager should reach out to each individual on the
 
 One way a Hiring Manager can help create more engagement in the open role is to create a short (1 minute) video discussing what the role will entail for a successful candidate.
 
-1. [Create a video, upload it to GitLab's unfiltered youtube channel, and in the description link to the job listing in question](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
+1. [Create a video, upload it to GitLab's unfiltered YouTube channel, and in the description link to the job listing in question](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
 1. If you're active on Twitter, post the YouTube link to Twitter and include the job listing in the body of the tweet.
 1. Upload the video to LinkedIn and create a post with a link to the job listing. It is better to upload the video directly to LinkedIn than use the YouTube link as this will help generate more traffic.
-1. Embed the YouTube video into the Job listing itself via [Greenhouse](https://boards.greenhouse.io/gitlab/jobs/6201785002) under the `work for this role` sub-heading.
-1. Ask the [sourcing team]({{< ref "/handbook/hiring/sourcing" >}}) to embed the video in the initial message they send to new candidates for the role.
+1. Embed the YouTube video into the Job listing itself via Greenhouse under the `work for this role` sub-heading.
+1. Ask the [sourcing team](/handbook/hiring/sourcing) to embed the video in the initial message they send to new candidates for the role.
 1. If you have questions, please reach out to the #talent-brand channel on slack. Please also share newly created videos in the #talent-brand channel so these can be captured in our content library.
 
-## Step 5/HM (Optional): Source candidates and/or review inbound applications
+## Step 5/HM (Optional): Set up notifications & email sync
 
-Our hybrid recruiting model means that candidates enter the pipeline through an inbound application or via direct sourcing. Depending on capacity, Hiring Managers can contribute to the hiring process by reviewing inbound applications or helping identify and source candidates to ensure we have a robust pipeline.
+You can set up reminders in Greenhouse by going to your [account settings](https://app2.greenhouse.io/myinfo) and turning on `Daily interview reminder email` which will email you each morning with a list of your interviews for the day. You can also [connect your Slack account](https://support.greenhouse.io/hc/en-us/articles/207344866-Slack-integration) to your Greenhouse account and receive reminders after the interview is over if your scorecard is still due, as well as other notifications depending on your settings.
 
-You can work with your Recruiter and Sourcer to understand whether your time will be better spent on sourcing outreach or on reviewing inbound applications.
+You can also set up notifications to be delivered to your Slack by clicking on your name > `account settings`. From there, connect your Slack account and set @mentions as well as any job-specific notifications.
+
+All email communication with candidates must be kept in Greenhouse. If you need to email your candidate directly, please reach out to your Recruiter. In order to ensure that the candidate's responses are also kept in Greenhouse, you have two options (there is no automatic sync). The first option is to use a [Google Add-on "Greenhouse for Gmail"](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on) which will allow you to sync any emails you receive from within your gmail inbox. The second option is to either bcc your outgoing email or forward your received email to `maildrop@ivy.greenhouse.io`.
 
 ## Step 6/HM: Hiring team to complete feedback in Greenhouse
 
@@ -77,6 +79,8 @@ At least 2 references must be completed and documented in Greenhouse (one of the
 
 Hiring managers are expected to contact references by call or by email. Some managers [send the reference a brief email](https://gitlab.com/gitlab-com/people-group/hiring-processes/snippets/1933704) stating the purpose of the call and including a Calendly link so that the reference can select a convenient time. You can add a template to your Greenhouse account for quick use. Some managers also ask the candidate to reach out to their references to expect the email from the manager (as sometimes the email is ignored if the recipient is not expecting it).
 
+**For Engineering:** Before extending an offer, one reference (from either a manager - preference or peer) must be completed and documented in Greenhouse by the Recruiter. After reviewing the initial reference, the Hiring Manager can either proceed with the offer or contact additional references themselves to gather more information about the candidate.
+
 In Greenhouse: Configure (the gear on the top right) - Email Templates - My Templates - New. Be sure to create the template as a Team Email under the Type field. If you create the email template with tokens please check the tokens were added correctly upon the first use.
 
 After creating the email template you can send to the references. Because there is not a bcc option you should send individual emails to each reference. From the Candidate's profile: Tools (bottom right on the page view) - Email the Team - Choose a template (drop-down) - (select the name of the template you created) - **Uncheck "Add a link to the candidate's profile"** - Send Email.
@@ -87,9 +91,9 @@ Hiring managers check references:
 
 - To ensure we are hiring the right candidate.
 - To understand under what circumstances this candidate thrives vs. what circumstances frustrates them.
-    - As the hiring manager, you will be the closest to the GitLab team-member and benefit most from learning about them.
+  - As the hiring manager, you will be the closest to the GitLab team-member and benefit most from learning about them.
 - To build your network.
-    - As a hiring manager, you need to build a network for great talent.  Each reference you talk to can be a part of that network.
+  - As a hiring manager, you need to build a network for great talent.  Each reference you talk to can be a part of that network.
 - To use the opportunity to spread the GitLab story.  We could spark new customers and new GitLab team-members.
 
 All GitLab hiring managers should be making the best effort to complete and conduct the reference checks for their candidate.
@@ -112,13 +116,13 @@ You should not ask any questions about the person's race, gender, sexual prefere
 - Who watches their children while they are at work?
 - What types of groups does the candidate belong to that are not work related?
 
-[Use our guide to scoring]({{< ref "conducting-a-gitlab-interview#all-divisions-but-engineering" >}}) to help select the vote you choose when submitting a scorecard for each reference check.
+[Use our guide to scoring](/handbook/hiring/conducting-a-gitlab-interview/#candidate-evaluation-and-scorecards) to help select the vote you choose when submitting a scorecard for each reference check.
 
 ### Reference Check Review
 
 All reference check feedback should be entered into Greenhouse using the Reference Checks scorecard. To add this information, go to the candidate's profile, make sure they are in the "Reference Checks" stage, and click "Collect Feedback".
 
-It is the hiring manager's responsibility to do the reference checks, but the hiring team may also provide assistance and guidance. You can also refer to [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
+It is the hiring manager's responsibility to do the reference checks, but the hiring team may also provide assistance and guidance. You can also refer to [these guidelines](https://bothsidesofthetable.com/how-to-make-better-reference-calls-d493a12714f0).
 
 ### If References Don't Provide Full References
 
@@ -132,4 +136,4 @@ If a GitLab team member provides a positive or negative feedback on a candidate,
 
 ### Backchannel References
 
-At no time should a backchannel reference be completed. A backchannel reference is defined as reaching out to someone in a candidates network (professional or personal), to gather feedback about the candidate without their consent or knowledge. Doing backchannel reference checks is counter to GitLab's value of [transparency]({{< ref "values#transparency" >}}). It may also have unintended, negative consequences for the person being backchanneled.
+At no time should a backchannel reference be completed. A backchannel reference is defined as reaching out to someone in a candidates network (professional or personal), to gather feedback about the candidate without their consent or knowledge. Doing backchannel reference checks is counter to GitLab's value of [transparency](/handbook/values/#transparency). It may also have unintended, negative consequences for the person being backchanneled.

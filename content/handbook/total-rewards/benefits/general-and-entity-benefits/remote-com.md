@@ -9,12 +9,12 @@ The following benefits are provided by [Remote](https://www.remote.com/) and app
 
 All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/brazil). Queries can be directed to help@remote.com. See [Benefits Guide](https://remote.com/benefits-guide/brazil) for the complete list of benefits offered through Remote.
 
-- 13th Salary - Also known as a 'Christmas Bonus', this payment is an amount equal to one month’s salary which is paid out to employees in two parts in November (by the 20th) and December. The pro-rated 13th-month salary is also due upon termination. The 13th-month payment is a legally mandated benefit and not part of the base salary. During negotiations with candidates, it is important to clearly state what salary is being offered and whether it is inclusive or exclusive of the 13th-month payment. The Christmas Bonus is calculated at 8.33% of the base annual salary
-- Vacations Bonus - Professionals in Brazil are entitled to 30 calendar days of vacation per year after every 12 months of service, and the employee must be paid 1/3rd of a month’s salary as a Vacations bonus. Holiday pay and holiday bonus payments are pro-rated upon termination. The Vacation bonus is calculated at 2.77% of the base annual salary.
+- 13th Salary - Also known as a 'Christmas Bonus', this payment is an amount equal to one month's salary which is paid out to employees in two parts in November (by the 20th) and December. The pro-rated 13th-month salary is also due upon termination. The 13th-month payment is a legally mandated benefit and not part of the base salary. During negotiations with candidates, it is important to clearly state what salary is being offered and whether it is inclusive or exclusive of the 13th-month payment. The Christmas Bonus is calculated at 8.33% of the base annual salary
+- Vacations Bonus - Professionals in Brazil are entitled to 30 calendar days of vacation per year after every 12 months of service, and the employee must be paid 1/3rd of a month's salary as a Vacations bonus. Holiday pay and holiday bonus payments are pro-rated upon termination. The Vacation bonus is calculated at 2.77% of the base annual salary.
 
 ### Medical & Dental
 
-Remote will offer healthcare through Omint all hired from April 2022 onwards. Team members have the option to add dependents to the healthcare plan at an additional cost.
+Remote will offer healthcare through Remote. See [Benefits Guide](https://remote.com/benefits-guide/brazil) for the complete list of benefits offered through Remote. . Team members have the option to add dependents to the healthcare plan at an additional cost.
 
 Team Members hired prior to April 2022 are legacied in to the medical allowance policy. Team Members hired after April 2022 are not eligible for this policy.
 
@@ -35,11 +35,7 @@ Team Members hired prior to April 2022 are legacied in to the medical allowance 
 
 ### Life Insurance
 
-- Death: BRL 50,000
-- Total or partial permanent disability due to accident: BRL 50,000
-- Family funeral assistance: BRL 5,000
-
-Note: All amounts stated above are estimates and may change during the course of the year as more employees in Brazil are added or removed from the policy.
+Remote provides Life Insurance through Prudential. Coverage amount is 24x your monthly salary. Gitlab covers 100% of the premiums. Team Members can assign their Beneficiaries in the Remote portal.
 
 ### Remote - Brazil  Statutory Leave policies
 
@@ -47,43 +43,54 @@ Below is the information related to Brazil's statutory leave policies.  Please n
 
 ### Annual leave
 
-Team Members in Brazil are entitled to a statutory minimum of 30 calendar days of paid annual leave per year after each 12 months of service. The vacation period is typically taken in one block (or split between 20 days and 10 days).  Team members are eligible for GitLab's PTO policy; which will run concurrently with this Annual Leave policy. In addition, team members must be paid 1/3rd of a month’s salary as holiday bonus.
+Brazil has specific requirements that govern statutory leave to remain compliant. For reference, after 12 months of service, you are entitled to 30 calendar days of paid time off. Team members are also eligible for [GitLab's paid time off policy](/handbook/people-group/paid-time-off/#paid-time-off). If the time off taken falls under the requirements for statutory time then the time off will automatically be deducted from the statutory allowance first (you may see this reflected as "dummy days" on your pay slip).
+If the time off does not fall under the requirements it will be used as Flex Time Off, then once you have exhausted the full statutory leave allowance all ongoing time off will be Flex Time Off per GitLab policy.
 
-To ensure all statutory annual leave is tracked appropriately, please enter all requested into Time Off by Deel by selecting the `Vacation` option.
+Please keep the below in mind before [submitting your time off request via Workday or the Workday Slack App](/handbook/people-group/paid-time-off/#communicating-your-time-off).
+
+- Vacations can only be divided in up to 3 periods. One of the vacation periods must be at least 14 days long, while the other two vacation periods need to be at least five days long each.
+- Team members cannot start their vacation two days before a holiday or a weekend as per the leave rules in Brazil. This means the team member cannot start their vacation on Thursday or Friday under the Statutory Leave allowance.
+- Vacations earned must be taken during the concession period and cannot be accumulated or carried over to the following year.
+- Team members are required to submit their time off request with at least 30 days’ notice. Although, we recommend team members submit their time off request 45 days in advance (this is to ensure accuracy and reporting for statutory compliance).
+- Our GitLab Payroll Team sends a time off report (past and current month) to the PEO vendor on a monthly basis to ensure their processing of your vacation bonus two days before you go on vacation.
+- Conversion into cash: 1/3 of vacations (10 days) can be converted into cash upon request to the PEO vendor. The funds will be paid on the last period of vacation days taken.
+- Team members will be provided the "Aviso de Férias" document from the PEO vendor which will need to be returned with signature (this document will be provided via the PEO portal).
+
+If you need further information on the laws that govern vacation days in Brazil, please visit the [Remote Help Center](https://support.remote.com/hc/en-us/sections/8577490511885-Statutory-Leave-in-Brazil) or reach out to help@remote.com
 
 ### Statutory Pregnancy & Maternity leave
 
-Team members in Brazil, including contractors, are entitled to 120 days of statutory maternity leave.  This leave will run concurrently with GitLab's 16-week [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}). Team members are eligible to receive up to 100% of their regular salary, paid by the employer who is later refunded by the government. This leave applies to adoption as well.
+Team members in Brazil, including contractors, are entitled to 120 days of statutory maternity leave.  This leave will run concurrently with GitLab's 16-week [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Team members are eligible to receive up to 100% of their regular salary, paid by the employer who is later refunded by the government. This leave applies to adoption as well.
 
-To apply for leave, please enter the dates into Time Off by Deel and select the `Parental Leave` option.  The Absence Management team will reach out to you with more information.
+To apply for leave, please enter the dates into Workday and select the `Parental Leave` option.  The Absence Management team will reach out to you with more information.
 
 ### Statutory Partner/Paternity leave
 
-Team Members in Brazil are entitled to up to five days of paid statutory paternity leave.  Team members are also eligible for GitLab's 16-week paid [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}); which run concurrently.
+Team Members in Brazil are entitled to up to five days of paid statutory paternity leave.  Team members are also eligible for GitLab's 16-week paid [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave); run concurrently.
 
 Team members will receive up to 100% of their regular salary during their statutory Paternity Leave.  If eligible, team members will receive up to 100% of their regular salary for the full 16 weeks of leave.
 
 Same-sex couples in Brazil may apply to receive full maternity leave benefits beginning on the day the caregiver takes leave from work.
 
-To apply for leave, please enter the dates into Time Off by Deel and select the `Parental Leave` option.  The Absence Management team will reach out to you with more information.
+To apply for leave, please enter the dates into Workday and select the `Parental Leave` option.  The Absence Management team will reach out to you with more information.
 
 ### Bereavement leave
 
 Team members are entitled to two consecutive days of paid leave following the death of an immediate family member such as a spouse, parent, or child.
 
-Please enter the dates in Time Off by Deel and select the `Bereavement` option.
+Please enter the dates in Workday and select the `Bereavement` option.
 
 ### Marriage Leave
 
-Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy]({{< ref "paid-time-off" >}}).
+Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy](/handbook/people-group/paid-time-off/).
 
-Please enter the time away in Time Off by Deel and select the `Vacation` option.
+Please enter the time away in Workday and select the `Paid Time Off` option.
 
 ### Statutory Sick Leave
 
 In the event a team member in Brazil is unable to work due to illness, their pay will be supplemented up to 100% of their base salary until the 15th day of absence. After the 16th day of absence, team members are eligible to receive compensation paid by the Social Security Authorities.
 
-To ensure all statutory sick leave is tracked appropriately, please email the Absence Management Team (leaves@gitlab.com) to report your leave.  Then enter the dates into Time Off by Deel by selecting the `Out Sick` option.
+To ensure all statutory sick leave is tracked appropriately, please email the Absence Management Team (leaves@gitlab.com) to report your leave.  Then enter the dates into Workday by selecting the `Out Sick` option.
 
 ## Denmark
 
@@ -98,17 +105,25 @@ More information can be found below:
 - [Remote Allianz Benefit Guide](https://drive.google.com/file/d/1krO_RGt_H1_kPNgudHeuSIFjJohJuq-h/view)
 - [Allianz](https://drive.google.com/file/d/1hMw61FsriqRPfcFRQ-mzQsu6HF03IUFB/view)
 
-Team members in Denmark can also access the [public healthcare system](https://www.healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
+Team members in Denmark can also access the [public healthcare system](https://healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 
+### Eye Examination and Corrective Lenses
+
+Team Members who spend a significant portion of their working hours in front of a screen are entitled to receive an eye and vision examination. This examination should be conducted by either an optician or an ophthalmologist. The employer is responsible for covering the cost of this examination, and every effort should be made to schedule it during regular working hours.
+
+In cases where the Team Member requires corrective eyewear, the employer is obligated to provide, at a minimum, one standard frame with lenses or standard contact lenses at no expense to the Team Member.
+
+Remote has implemented a self-service model to facilitate this process, with a budget allocation of $250 USD to cover frame with lenses or standard contact lenses. This approach allows employees to independently arrange their eye examinations, purchase necessary eyeglasses, and then submit their expenses for reimbursement through the Remote platform.
+
 ### Pension
 
-Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer’s payment of the monthly salary to the team member.
+Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The pension contribution includes both the retirement savings and the associated insurance and administration fees. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer’s payment of the monthly salary to the team member.
 
 ### Life Insurance
 
-GitLab does not plan to offer life insurance at this time as team members can access the benefits from Social insurance system if they get ill, injured or have a disability. The [GitLab Life Insurance plan]({{< ref "general-and-entity-benefits#life-insurance" >}}) still applies.
+GitLab does not plan to offer life insurance at this time as team members can access the benefits from Social insurance system if they get ill, injured or have a disability. The [GitLab Life Insurance plan](/handbook/total-rewards/benefits/general-and-entity-benefits/#life-insurance) still applies.
 
 ### Remote - Denmark Statutory Leave Policies
 
@@ -139,7 +154,7 @@ During maternity leave (after childbirth), birthing parents will receive 50% of 
 
 The allowance during parental leave is calculated as an amount per week. The amount depends on how much you work. The maximum amount per week is DKK 4.460 (2021).
 
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave for up to 16 weeks. Any additional leave time taken (up to 52 weeks total used between both parents) will be paid at 50% from the State.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave for up to 16 weeks. Any additional leave time taken (up to 52 weeks total used between both parents) will be paid at 50% from the State.
 
 *Remote will seek reimbursement from the public authority; Udbetaling Danmark.
 
@@ -169,7 +184,7 @@ If you have not received the letter shortly after you have gone on leave, you mu
 
 To help you plan for your leave, click on [Calculating your Maternity Leave](https://www.borger.dk/Handlingsside?selfserviceId=9afd00f4-efd1-448f-94b9-6d66fd95d505&referringPageId=a2a65391-2201-4d47-ad25-2b0e0a343fad&type=DK).
 
-Please submit the dates of your leave in Time Off by Deel by selecting the `Parental Leave` option.  The Absence Management team will contact you with more information.
+Please submit the dates of your leave in Workday by selecting the `Parental Leave` option.  The Absence Management team will contact you with more information.
 
 #### Paternity Leave
 
@@ -177,9 +192,9 @@ Fathers are entitled to 2 weeks of paternity leave before the birth and 14 weeks
 
 #### Paternity Leave Payment
 
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave for up to 16 weeks. GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave for up to 16 weeks. GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
-Please submit the dates of your leave in Time Off by Deel by selecting the `Parental Leave` option.  The Absence Management team will contact you with more information.
+Please submit the dates of your leave in Workday by selecting the `Parental Leave` option.  The Absence Management team will contact you with more information.
 
 #### Parental leave
 
@@ -187,7 +202,7 @@ Parents are entitled to 32 weeks leave with a possibility to extend to a maximum
 
 #### Applying for Parental Leave in Denmark
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Other Leave Policies
 
@@ -215,14 +230,23 @@ This plan has required enrollment for all employees. There is no opt-out option.
 
 *Contribution rates are:*
 
-- On Pensionable Salary between 0 and 7.5 x the Income Base Amount (IBA*) = 4.5% On Pensionable Salary between 7.5 and 30 x the IBA = 30% No contributions are payable on Pensionable Salary above 30 x the IBA.
+- Pensionable Salary between 0 and 7.5 x the [Income Base Amount (IBA*)](https://ec.europa.eu/social/main.jsp?catId=1130&langId=en&intPageId=4814#:~:text=The%20income%20base%20amount%20is,is%20also%20a%20lower%20limit.) = 4.5% On Pensionable Salary between 7.5 and 30 x the IBA = 30% No contributions are payable on Pensionable Salary above 30 x the IBA.
 - The company pays all the contributions and no contributions are required from employees.
 - Pensionable salary is defined as Basic Salary only.
 - Membership of the pension scheme is open to employees aged 18 to 65.
 
+Example for 2024 Income Base Amount:
+
+An employee with an annual salary of 800 000 SEK.
+
+- the 2024 IBA (income base amount) is 76 200 SEK. This means that 7,5 IBA x 76 200 is= 571 500
+- Up to a salary of 571 500 the employee has 4,5% contribution (coming from the employer), and above 571 500 (up to 800 000) they have a 30% contribution. There is also a roof of 30% IBA, so if an employee has an annual salary over 30 IBA (2 286 000 SEK), there would be no contribution beyond that level.
+To the top of that amount, 24,26% taxes should be added.
+
 ### Life Insurance
 
-Mandatory TGL life insurance is provided via Bliwa Livförsäkring. Lump sum benefit: the basic amount is SEK 285,600 (6 x Price Base Amount – PBA*) upon death before age 55, or after age 55 if there are children under age 17. It decreases for death above age 55, to 1 times PBA between age 64 and age 65.
+All Sweden-based team members will be automatically covered by group life insurance.
+Lump sum benefit: 352,800 SEK for deaths before age 55 (or later if there are children under 17). This benefit decreases with age and is tax-free.
 
 ### Remote - Sweden Statutory Leave Policies
 
@@ -230,7 +254,7 @@ Below is information related to Sweden's statutory leave policies.  Please note 
 
 ### Holiday Leave
 
-Part-time and full-time employees are entitled to 25 days of paid time off per year. Employers are required to enforce the use of their employees’ vacation time. Employees may roll over vacation days for up to five years, but employers should not let employees fail to take time off.
+Part-time and full-time employees are entitled to 25 days of paid time off per year. Employers are required to enforce the use of their employees' vacation time. Employees may roll over vacation days for up to five years, but employers should not let employees fail to take time off.
 
 ### Sick Leave
 
@@ -238,184 +262,11 @@ Employers in Sweden must compensate employees at 80% of their salary for the fir
 
 ### Parental (föräldraledighet) Leave
 
-Sweden's Parental (föräldraledighet) Leave affords parents 480 days of leave; 390 of these days paid at a rate of 80% of your salary up to a capped limited of 1006 SEK a day.  If you have twins, you are eligible for an additional 180 days.  Parents are encouraged to split these days equally between them.  However, it is possible for one parent to take up to 390 days of the 480 days. To do this the other parent has to ‘transfer’ these days to the other parent.
+Sweden's Parental (föräldraledighet) Leave affords parents 480 days of leave; 390 of these days paid at a rate of 80% of your salary up to a capped limited of 1006 SEK a day.  If you have twins, you are eligible for an additional 180 days.  Parents are encouraged to split these days equally between them.  However, it is possible for one parent to take up to 390 days of the 480 days. To do this the other parent has to 'transfer' these days to the other parent.
 
 #### Eligibility
 
 As long as you are a legal resident of Sweden you are entitled to the basic parental leave payment which is 250 SEK a day. To claim your benefit and find out how much you are entitled to, employees should contact your local branch of Försäkringskassan.
-
-## South Africa
-
-### Medical
-
-#### Registered Medical Aid Plan
-
-Effective November 1, 2023, Remote will offer a Registered Medical Aid plan for Team Members. GitLab will cover the cost to enroll in the "Priority Plan" for the Team Members. Team Members can opt to upgrade to a higher plan at their own cost, the difference will be deducted from their payslip.
-
-#### Dependents
-
-Team Members can add dependents to their plans. While the actual cost will be deducted from the team member's payslips, GitLab will subsidize the benefit through a Dependent Medical Allowance up to R3500 a month. Please send total-rewards@gitlab.com an email with documentation of your dependent's enrollment along with the cost of enrollment. The Total Rewards team will verify and send to Remote & the Non-US payroll Team to process the monthly allowance.
-
-#### Grandfathered Medical Policy
-
-Team Members who were hired before November 1, 2023 have the option to join the Registered Medical Plan in place of their medical allowance, or opt out of the plan and keep their monthly allowance. Should the team member move to the group plan, they will be unable to revert back to the allowance policy at a later time. The allowance policy is not available for team members hired after November 1, 2023.
-
-### Discovery Life Provident Umbrella Fund (Provident fund match)
-
-Under the Remote Technology scheme, the employer and member both pay **5% each to the Provident fund** as contributions. Applicable tax laws provide that any contribution the employer makes is treated as a contribution made by the member. The contributions will qualify for a tax deduction in each tax year of assessment.
-
-### Group Life including the Global Education Protector & Funeral Family Benefit
-
-- Sum insured of the Group Life Cover will be 4 times of the annual salary.
-- The primary protection offered by group life cover is as follows:
-    - Provide for living expenses for surviving dependants
-    - Extinguish debt
-    - Protect the lifestyle of the surviving dependants
-    - Fund for the education costs of the surviving children
-- Upon the death of the member, spouse or child, a benefit payment equal to the amount of the Funeral Cover will be made.
-- The sum assured for this benefit is up to R30,000
-- This benefit is 100% contributed and covered by Remote.
-
-### Disability - Income Continuation Benefit
-
-- The Income Continuation Benefit is designed to provide team member with a payment equal to the income they received before they became disabled or severely ill.
-- Disability refers to injury, illness or disease that has resulted in a member being unable to perform his or her own job based on objective medical criteria.
-- Due to changes in the tax treatment of income protection benefits, the disability income benefit will be calculated on a flat **75% of member salary**, but subject to a maximum of the team members’s net of tax salary or specified rand maximum including any retirement fund waiver benefits.
-- The 75% income continuation will come into effect from the **4th month** of the leave.
-- This benefit is 100% contributed and covered by Remote.
-
-### Disability - Severe Illness
-
-- A severe illness is an illness that affects a person’s lifestyle in such a way that their ability to function normally is altered.
-- Sum assured of this benefit is twice the annual salary of the team member (2 x Annual Salary).
-- Discovery Life provides insurance to cover team member against the impact of a severe illness. The Severe Illness Benefit pays a lump sum if a team member is diagnosed with a covered physiological or anatomical severe illness. The claim payment is proportional to the severity of the illness, with severity levels that have been set to reflect the financial impact of the illness on their lifestyle.
-- The lump sum benefit provides financial assistance to ensure that the team member can maintain their lifestyle after a life-changing event. This could mean having their homes modified to accommodate their injury or illness, or reinvesting the money to replace the monthly income they can no longer earn
-- This benefit is 100% contributed and covered by the Remote.
-
-For more details on benefits managed by Discovery: [Remote Technology Employee Benefits](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/bfd6b16936b7cfaccc8fe0992bd7271f/ZA_Remote_Technology.pdf)
-
-### Parental Leave
-
-Below is the information related to South Africa's statutory leave policies.  Please note that team members hired in South Africa are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
-
-To initiate your parental leave, submit the dates via Time Off by Deel under the Parental Leave category. This will prompt the Absence Management team to process your leave. You can find out more information about our Parental Leave policy on the [general benefits page]({{< ref "general-and-entity-benefits#parental-leave" >}}).
-
-If you are eligible to for GitLab's parental leave, your payments will be made up of payments from UIF and then supplemented up to 100%.
-
-Please submit the dates of your leave in Time Off by Deel by selecting the `Parental Leave` option.  The Absence Management team will contact you with more information.  Once you send your parental leave notification in Time Off by Deel, the Absence Management team will notify Remote. Remote will then get in touch with you to explain the UIF payment claim process.
-
-### Expenses
-
-**Important note:**
-
-Please read carefully the additional requirements outlined in Remote's taxation of [expenses article](https://support.remote.com/hc/en-us/articles/21097725062285-Taxation-of-expenses-in-South-Africa) accessible by logging into the Remote platform.
-
-Team members located in South Africa must submit all expenses via Navan (GitLab's expense tool). Additionally, Remote is committed to ensuring team member's tax compliance and may require additional details for specific Navan-approved expenses to process through the payroll in accordance with local tax regulations.
-
-**Example:**
-
-A team member has an approved expense on Navan for incidental costs like meals and parking related to a business event.
-Remote will require the team member to complete an additional spreadsheet containing details of the business trip (local or abroad) and submit this spreadsheet through the Remote portal. Please refer to this [guide](https://support.remote.com/hc/en-us/articles/4411238221965-Add-an-expense) for more detailed instructions on submitting expenses.
-
-If you experience any issues, please contact Remote via email: help@remote.com. **No other expenses need to be submitted via the Remote portal, only Navan should be used.**
-
-## Spain
-
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/). Queries can be directed to help@remote.com.
-
-### Healthcare
-
-- Remote must offer [Allianz](https://drive.google.com/file/d/1hMw61FsriqRPfcFRQ-mzQsu6HF03IUFB/view) premium plan to all employees (this covers team members only and does not include dependants).
-- Team members have the option to waive this plan and instead can be paid a taxable bonus of up to $300/€252.35 each month, to be used to cover their own medical insurance and include dependants. This will be marked as 'bonus' on the payslip.
-- Proof of coverage must be shared with Total Rewards. To do this, the team member may redact any personal information, upload to their Workday profile, and email to total-rewards@domain to confirm the same.
-- Total Rewards will inform Payroll via the Payroll changes sheet
-- Accruals for 13th and 14th month salaries
-- General risks and unemployment insurance
-- Salary guarantee fund (FOGASA)
-- Work accident insurance
-
-GitLab currently has no plans to offer Life Insurance, Private Medical cover, or a private pension due to the government cover in Spain. The [GitLab Life Insurance plan]({{< ref "general-and-entity-benefits#life-insurance" >}}) still applies.
-
-### Statutory Leave Policies
-
-Below is the information related to Spain's statutory leave policies.  Please note that team members hired in Spain are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
-
-#### Holiday Leave
-
-All full-time workers are legally entitled to 22 days paid holiday leave a year. In addition, full-time workers have 14 paid public holidays a year.
-
-#### Paid Maternity leave
-
-Employees in Spain are eligible for up to 16 weeks of Maternity leave. This rises to 18 weeks for twins and 20 weeks in the case of triplets. For children with disabilities there is an additional two weeks.
-
-Four out of the 16 weeks may be taken prior to the birth of the child.  At least six uninterrupted weeks must be taken immediately following the birth. Also, if you have to take time off whilst pregnant for medical reasons, you are still entitled to the 16 weeks maternity leave after your child is born.
-
-It is also possible to use the 16 weeks in combination with a part-time working timetable or even add holiday time that you are due in order to extend your leave.
-
-For mothers of premature babies or where a baby has to remain in hospital for more than seven days following the birth, standard maternity leave can be extended for up to 13 weeks.
-
-During the maternity period, team members are not paid a salary, but instead a maternity benefit. This contribution is paid directly from the [Social Security Administration](https://www.seg-social.es/wps/portal/wss/internet/Conocenos/QuienesSomos/29413?changeLanguage=es) to the employee.
-
-Same-sex couples: both parents are entitled to paid leave. One will have to apply for paternity benefits, and the other for maternity benefits. However, in order to qualify for paid paternity (or maternity) benefits, it is essential that each parent has a legal link with the child. This means that paid leave will only be granted either:
-
- - If you are a biological parent; or
- - If you have legally adopted the child.
-    - Being married to the biological or adoptive parent of a child does not qualify you for paid leave.
-
-#### Applying for Maternity Leave
-
-In order to be eligible for paid maternity leave, you must make sure to meet the following requirements:
-
-- You must be working for a company, or as a self-employed worker.
-- If you are below 21 years old, you won’t be required to have made contributions to social security before.
-- If you are 21 to 26 years old, then you must be making contributions to social security for at least 90 days during the past 7 years, or 180 days during your entire working life.
-- If you are over 26 years old, 180 days during the past 7 years or at least 360 days during your working life.
-
-If you don’t meet this requirement, you can still get your maternity leave and get paid during those 16 weeks. Under certain conditions, you will get a non-contributory pension, which pays approximately 530€ per month. Team Members will need to request your [work-life certificate](https://balcellsgroup.com/employment-history-report/) at the “Tesorería de la Seguridad Social”, which can be requested online.
-
-To help plan your leave click: [How Much Exactly Will You Get Paid On Leave](https://balcellsgroup.com/maternity-leave-spain/#How_much_exactly_will_you_get_paid_during_maternity_leave).
-
-Please enter the dates of your leave in Time Off by Deel by selecting the `Parental leave` option.  The Absence Management team will contact you with more information.
-
-#### Unpaid Maternity Leave
-
-Excedencia sin sueldo offers the right to take extended leave from work for up to a maximum of three years in total for a mother to care for her children and still return to the same employer. You can request that your exact post be held for a maximum of one year, after which you may be offered a similar post for up to 2 years.
-
-During this absence you will still be recognized as contributing to the social security system. You do not need to agree the time period with your employer beforehand and legally you are required to give two weeks notice before returning to your post.
-
-#### Paternity Leave
-
-Team Members in Spain are eligible for 16 weeks of Paternity leave.  The first six weeks must be taken immediately and consecutively after the child’s birth, whereas the other 10 weeks can be taken non-consecutively during the first 12 months of the baby’s life, which can be extended by one week per child in the case of a multiple birth. An extra week’s leave can also be applied for if the baby is born with a disability or health problems. If the baby is premature or has to be hospitalized for longer than seven days, leave can be extended for up to an additional 13 weeks.
-
-This leave must be taken in batches of one week as a minimum, but the weeks can be split over time if desired. The father is also entitled to take unpaid childcare leave until the child is three years old.
-
-Please enter the dates of your leave in Time Off by Deel by selecting the `Parental Leave` option.  The Absence Management team will contact you with more information.
-
-#### Paternity Leave Payments
-
-As long as the father has correctly paid his social security contributions—for a minimum of 180 working days within the past seven years or 360 total days in his entire professional life — 100% of his salary will be covered (as long as payment does not exceed 4070.10 EUR).
-
-This money comes from the Spanish government, not his employer, though employers are liable for certain taxes that pertain to the salary, such as withholding.
-
-#### Applying for Parental Leave in Spain
-
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
-
-#### Breastfeeding leave
-
-Parents can take an additional breastfeeding leave after parental leave. This breastfeeding leave can be enjoyed in two ways:
-
-- take one hour off during the day, until the child is nine months old (it can either be one hour, or half an hour at the beginning and at the end of the working day)
-- take 15 consecutive days after the parental leave
-
-The breastfeeding leave is considered as working time, meaning that the employee doesn't receive anything from Social Security and is paid by the company at 100%.
-
-### Other leave policies
-
-- **Adoption leave:** upon adoption of a child or have taken in a foster child, employees are entitled to the same entitles apply as for maternity and paternity rights. Applies to both parents.  When adopting or fostering a child, each parent is eligible for the same 16 weeks as is the biological parent if the child is under six years old. If the child is older, both adoptive parents are eligible for the remaining optional 10 weeks that a biological parent would have after the first obligatory six weeks after birth.
-- **Emergency and short absense leave:** intended for unforeseen personal circumstances for which an employee has to take time off immediately. Examples include making arrangements for the care of a sick family member or in the event of a death in the family. Up to two calendar days or four if travel is required.
-- **Long-term care leave:** when a child, partner or parent of the employee is seriously (i.e. life threateningly) ill and requires care, the employee can request long-term care leave.
-- **Unpaid leave:** the employee may take unpaid leave in consultation with the employer on a full-time or part-time basis. Granted at the discretion of the employer, but must always be set in an individual or collective agreement. Unpaid leave periods are not regulated by law.
 
 ## Italy
 
@@ -446,9 +297,9 @@ Based on the NCLA applied by Remote ROL every employee has right to:
 36 hours per year of ROL, with seniority > 2 years, but < 4 years
 72 hours per year of ROL, with seniority > 4 years
 
-When submitting holiday leave via Time Off by Deel team members must add a comment on which type of leave they are taking, EG: "Ex Festiva" this will then be submitted to & processed by Remote accordingly.
+When submitting holiday leave via Workday team members must add a comment on which type of leave they are taking, EG: "Ex Festiva" this will then be submitted to & processed by Remote accordingly.
 
-To ensure all holiday leave is tracked accurately, please enter all holiday leave requests in Time Off by Deel by selecting the `Vacation` option.
+To ensure all holiday leave is tracked accurately, please enter all holiday leave requests in Workday by selecting the `Paid Time Off` option.
 
 #### Pregnancy & Maternity leave
 
@@ -460,11 +311,11 @@ In Italy, maternity leave is compulsory and women must take up to two months off
 
 These pensions are funded by the INPS (National Institute for Social Security) which are financed by the employers and employees through the rate established by the employment sector. Workers can either be paid from INPS or through the employer who is compensated by the INPS. During the five-month leave, women are paid up to 80% of their wage.
 
-If eligible, a team member's first 16 weeks of leave will be supplemented the remaining 20% per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, a team member's first 16 weeks of leave will be supplemented the remaining 20% per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 #### Applying for Maternity Leave in Italy
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Paternity Leave
 
@@ -472,11 +323,11 @@ Below is the information related to Italy's statutory leave policies.  Please no
 
 Fathers are also obligated to take a seven-day paid leave of absence from work during the five months of maternity leave. The mother has the option to extend the father's paternal leave if she transfers one of her maternity days to him.
 
-If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 #### Applying for Paternity Leave in Italy
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Parental Leave
 
@@ -487,11 +338,14 @@ In addition to maternity and paternity leave, parents can take extended unpaid p
 Below is the information related to Italy's statutory leave policies.  Please note that team members hired in Italy are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
 
 = **Adoption leave:** upon adoption of a child, employees are entitled to 3 months of maternity or paternity leave and employees are entitled to the same financial benefits of natural children. Parents can also take parental leave in the first three years the child is in the family for same periods and financial benefits. Applies to both parents
+
 - **Work-related Injust leave:**  collective bargaining agreements or individual contracts generally provide for a period paid time off in the case of work injury. The period is generally between 6 and 12 months and applies for both a single period of sick leave and multiple periods. The employee is entitled to keep their job and receive their salary in proportion to the period set out in the collective bargaining agreement or individual employment contract.
 
 ## Switzerland
 
 All of the benefits listed below are administered and managed by [Remote](https://remote.com/)
+
+Note that pensionable salary includes base salary and commissions. Remote will use the estimated commissions on your monthly payslip. At the end of the year, Remote Payroll will conduct a reconciliation and re-declare pensionable salary based on actual earnings.
 
 The social security obligations through Remote are divided between the employee and the employer, with each party contributing their respective shares:
 
@@ -513,7 +367,7 @@ Below is the information related to Switzerland's statutory leave policies.  Ple
 Team members 20 years old and above receive at least four weeks of paid time off per year. Team Members younger than 20 years old are entitled to five weeks. Team members are also entitled to paid time off for public holidays in the canton in which they live.
 
 Team members are eligible for additional time off to get married.  Team members are eligible for 1 day + 1/2 day on the preceding day and 1/2 day on the following day or can log up to 2 full days.
-Please enter the time off into Time Off by Deel using the label `vacation` and then add a comment noting the time away is for Marriage leave.
+Please enter the time off into Workday using the label `Paid Time Off` and then add a comment noting the time away is for Marriage leave.
 For this type of time off request, you will also need to enter it into Remote's platform. Please select the "Other" category and enter the details "wedding leave".
 
 #### Pregnancy and maternity leave
@@ -528,25 +382,25 @@ Team members are eligible for up to 80% of their wages during leave; capped at C
 
 Employees must contribute to AHV (social security) for the nine months preceding childbirth and must be actively employed for five months preceding childbirth to be eligible.
 
-If eligible, a team member's leave pay will be supplemented the remaining 20% per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}). GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, a team member's leave pay will be supplemented the remaining 20% per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 #### Applying for Maternity Leave in Switzerland
 
-To initiate your maternity leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your maternity leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Partner/Paternity leave
 
-Since 1 January 2021, new fathers can take two weeks of paid paternity leave (14 days’ daily allowance).
+Since 1 January 2021, new fathers can take two weeks of paid paternity leave (14 days' daily allowance).
 
-If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, team members can take up to 16 weeks of time away (in total) per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
 #### Paternity Leave Pay
 
 Paternity allowance amounts to 80% of earnings up to a maximum of CHF 196 per day. Cantonal provisions, personnel regulations, and collective employment contracts may provide for more generous solutions.
 
-If eligible, a team member's leave pay will be supplemented the remaining 20% per GitLab's [Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}). GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
+If eligible, a team member's leave pay will be supplemented the remaining 20% per GitLab's [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). GitLab's Parental leave will run concurrently with any statutory leave and/or pay entitlements the team member is eligible for.
 
-To initiate your paternity leave, please enter the dates of your leave into Time Off by Deel by selecting the `Parental Leave` option at least 30 days prior to the start of your leave.
+To initiate your paternity leave, please enter the dates of your leave into Workday by selecting the `Parental Leave` option at least 30 days prior to the start of your leave.
 
 #### Sick leave
 
@@ -577,97 +431,6 @@ The family allowance is not paid out automatically, it must be applied for.
 - Section H - Lists the supporting documents that need to be sent.
 - Section F - Will be filled out by Remote's local partner (Intertrust Services) once the application form is complete with the supporting documents.
 
-## Mexico
-
-### Social Security
-
-All workers employed in Mexico must be registered with and contribute to the following institutions that deal with different social security insurance benefits:
-
-- Mexican Institute of Social Security (IMSS):
-    - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
-- National Workers’ Housing Fund Institute (INFONAVIT):
-    - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
-
-Employees in Mexico are covered by the Social Security Law, under IMSS who is responsible for administering social security insurance benefits and the collection of contributions.
-
-- Both the employer and employee are required to contribute to social security, although the employer has the responsibility of withholding the employee’s contribution.
-- These contributions fund retirement pensions, health and maternity insurance, occupational risk, day-care, disability and life insurance, and unemployment/old age insurance.
-
-### Medical Benefits
-
-- Healthcare Monthly Allowance will be paid by Remote as an allowance to the team members.
-- The allowance will be 5000 USD per annum.
-- This amount will be paid on monthly basis with the regular payroll
-
-### Life Insurance
-
-- Life insurance cover provided via Remote (Details to be added by Total Rewards)
-
-### Christmas Bonus (Aguinaldo)
-
-- GitLab offers 30 working days pay (which includes total earnings + taxable allowances + commissions)
-- Paid by December 20th (so the employee can use it for the holiday)
-- Employees with less than one year of service will receive a pro-rated Christmas bonus.
-
-### Vacation Bonus (Prima)
-
-The vacation premium is an additional cash benefit given to employees for use on their vacation. It is calculated as a minimum of 25% of daily salary multiplied by the number of days of vacation. Employees who have provided one year of service must be afforded a minimum of 6 paid vacation days in their first year of employment. Two working days will be added to that vacation time every following year through the fourth year. After five years, employers are required to add two days of vacation time every five years.
-
-- Here is a chart on how vacations days increase:
-
-| Year(s)  | Days |
-|----------|------|
-| 1        | 6    |
-| 2        | 8    |
-| 3        | 10   |
-| 4        | 12   |
-| 5 to 9   | 14   |
-| 10 to 14 | 16   |
-| 14 to 19 | 18   |
-
-**Calculation:**
-
-- To calculate the vacation bonus based on 25% and a salary of $50,000 USD per year:
-- $50,000 USD divided by 365 days = $136.99 USD daily pay rate
-- $136.99 USD daily pay rate multiplied by 25% = $34.25 USD
-- $34.25 USD multiplied by 6 vacation days (first year) = $205.50 USD vacation bonus
-- It can be paid right away when the vacation is taken, or as a lump sum upon completing one year of service (or employment ends). It is the employer’s choice which method to use.
-- Unused leave must also be paid when employment ends (in other words, the employee does not ‘forfeit’ unused vacation time)
-
-### Mexico Statutory Leave Policies
-
-Below is the information related to Mexico's statutory leave policies.  Please note that team members hired in Mexico are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
-
-#### Statutory Leave Entitlement
-
-**Maternity Leave:**
-
-- Team members can take 12 weeks of Maternity Leave (6 weeks before the child is born and 6 weeks after birth) to run concurrently with GitLab's 16 week [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) policy.
-
-**Paternity Leave:**
-
-- Team members can take 5 days of Paternity Leave to run concurrently with GitLab's 16 week [Parental leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) policy.
-
-#### Payroll Process
-
-##### Maternity Leave Payment
-
-- 12 weeks of the team member's Maternity Leave will be paid by the Mexican Social Security Institute (MSSI).
-- GitLab Parental Leave Pay Calculations: If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% minus any MSSI payments received for up to 16 weeks of leave.
-    - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
-
-##### Paternity Leave Payment
-
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), the team member will receive 100% paid Parental Leave from Remote for up to 16 weeks.
-
-#### Applying for Parental Leave in Mexico
-
-To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
-
-### Mexico Sick Leave
-
-Team members unable to work because of a nonwork-related injury or illness and who have made payments into the social security system for the four weeks before the condition developed are eligible for paid sick leave through the Social Security Institute. The benefit, which is 60% of an employee’s regular wage, is paid from the fourth day of the illness for up to 52 weeks and maybe extended for another 52 weeks.
-
 ## Hungary
 
 All of the benefits listed below are administered and managed by [Remote](https://remote.com/). Queries can be directed to help@remote.com.
@@ -691,7 +454,7 @@ GitLab does not plan to offer pension benefit at this time as the Hungarian pens
 
 ### Life Insurance
 
-GitLab does not plan to offer life insurance at this time as team members can access the benefits from [Social insurance system](https://tcs.allamkincstar.gov.hu/) if they get ill, injured or have a disability.
+GitLab does not plan to offer life insurance at this time as team members can access the benefits from [Social insurance system](https://www.allamkincstar.gov.hu/) if they get ill, injured or have a disability.
 
 ### Hungary Statutory Leave Policies
 
@@ -720,16 +483,16 @@ Team members can take unpaid leave to care for their child until the child reach
 ##### Maternity Leave Payment
 
 - The team member will receive Pregnancy and Confinement Benefit (CSED) at a rate of 70% of their salary for 24 weeks.
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% pay (minus any CSED benefits received) for up to 16 weeks.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), pay will be supplemented up to 100% pay (minus any CSED benefits received) for up to 16 weeks.
 
 ##### Paternity Leave Payment
 
 - Team members will receive payment from the Hungarian State Treasury for 5 days of their leave.
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% pay (minus State Treasury benefits) for up to 16 weeks.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), pay will be supplemented up to 100% pay (minus State Treasury benefits) for up to 16 weeks.
 
 #### Applying for Parental Leave in Hungary
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Time Off by Deel at least 30 days before your leave starts.
+To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Workday at least 30 days before your leave starts.
 
 ## Luxembourg
 
@@ -764,7 +527,7 @@ Non-birthing parents "fathers" are entitled to 10 days of paid paternity leave f
 
 Employees are entitled to parental leave ranging from four to six months following each new birth into their family, which can be exercised until their child turns six, or 12, if the latter is adopted.
 
-Both leaves can be taken either in full, partially, or split with the other parent and are based on the number of hours in the employee’s contract:
+Both leaves can be taken either in full, partially, or split with the other parent and are based on the number of hours in the employee's contract:
 
 40 hours per week- 4–6 months of full-time leave; 8-12 months of part-time leave (50% of regular working hours); 4 periods of 1 month leave within a 20–month period; 1-2 half days of leave per week within a 20–month period.
 At least 20 hours per week- 4-6 months of full-time leave; 8-12 months of part-time leave (50% of regular working hours)
@@ -774,62 +537,16 @@ Split or partial leave is at the discretion of the employer. To be eligible:
 The parent must be registered with social security at the time of the birth or adoption of the child for at least 12 continuous months
 Salaried employees- must have worked at least 10 hours per week
 Have an employment contract during the leave
-Instead of wages, an allowance is given by the Children’s Future Fund.
+Instead of wages, an allowance is given by the Children's Future Fund.
 
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% pay (minus any statutory benefits received) for up to 16 weeks.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), pay will be supplemented up to 100% pay (minus any statutory benefits received) for up to 16 weeks.
 
 #### Applying for Maternity, Paternity, and/or Parental Leave in Luxembourg
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Time Off by Deel.
+To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Workday.
 
 #### Sick leave
 
 Sick employees are entitled to their full wages paid by the employer for the 77 days (or the end of the month after the 77th day of illness elapses) after which an employee will draw sickness benefits from the Caisse Nationale de Santé equivalent to 100% of the normal wages, without exceeding 500% of the minimum wage, i.e. roughly capped at ~€12,000 per month.
 
-Employees should enter their Sick Time into Time Off by Deel by selecting `Out Sick`.  After the 5th consecutive workshift missed due to illness, employees should contact leaves@gitlab.com.
-
-## Austria
-
-The Austrian Social Security Act General Social Insurance Act (Allgemeines Sozialversicherungsgesetz, ASVG) has employer and team member contributions to cover statutory requirements such as pension, health insurance, accident insurance and unemployment.
-
-### Medical
-
-GitLab does not plan to offer Private Health Insurance at this time because team members in Austria can access the public Austrian health insurance system. This health insurance scheme covers all the team members and their family members.
-
-### Pension
-
-GitLab does not plan to offer pension benefit at this time as Austria has their uniform pension system through The Act on the Harmonisation of Austrian Pension Systems. The amount of a pension is calculated on the basis of the duration of the pension insurance and amount of the contributions paid. In order to receive the pension a team member must have paid contributions for at least 180 months (15 years).
-
-### Life Insurance
-
-GitLab does not plan to offer life insurance at this time as team members can access the benefits from Social insurance system if they get ill, injured or have a disability.
-
-### Bonus Payment
-
-The salary will be paid 14 times a year. This includes 12 months salary and two bonuses.
-
-### Remote Technology - Austria Leave Policy
-
-Below is the information related to Austria's statutory leave policies.  Please note that team members hired in Austria are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
-
-### Austria Parental Leave
-
-##### Statutory Maternity Leave
-
-The statutory entitlement for maternity leave (Mutterschaftsurlaub) is 16 weeks. The leave must start **8 weeks prior to the scheduled delivery date**.
-
-- For high-risk births, leave after the birth can be extended to 12 weeks.
-
-#### Applying for Maternity Leave in Austria
-
-To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Time Off by Deel at least 30 days before your leave starts.
-
-##### Statutory Parental Leave
-
-Mothers and fathers are entitled to parental leave until the child reaches the age of 24 months (maximum), provided the parent in parental leave lives in the same household as the child. The minimum period of the parental leave is two months. The dismissal and termination protection ends four weeks after the end of the parental leave.
-
-During the time of parental leave, and provided the conditions are satisfied, parents are entitled to childcare allowance(Kinderbetreuungsgeld) under the Child Care Payment Act from social security.
-
-#### Applying for Parental Leave in Austria
-
-To initiate your parental leave, submit your time off by selecting the `Parental Leave category` in Time Off by Deel at least 30 days before your leave starts.
+Employees should enter their Sick Time into Workday by selecting `Out Sick`.  After the 5th consecutive workshift missed due to illness, employees should contact leaves@gitlab.com.

@@ -28,7 +28,7 @@ Automotive software development is characterized by a complex combination of:
 1. based on huge repositories with a large number of artifact-like binary files
 1. thus very long pipeline runtimes (due to repo checkout and artifact handover between stages) measured in terms of hours
 1. complex QA requirements with deployments into custom hardware test clusters
-1. compliance requirements regulated by [ASPICE](https://www.automotivespice.com/) including long-term versioning and pipeline reproducibility requirements measured in years to decades ("Baselining") as well as traceability of changes and dependency / license management (SBOM)
+1. compliance requirements regulated by [ASPICE](https://vda-qmc.de/en/automotive-spice/) including long-term versioning and pipeline reproducibility requirements measured in years to decades ("Baselining") as well as traceability of changes and dependency / license management (SBOM)
 1. Strong focus on application lifecycle management
 
 ### Goals
@@ -37,7 +37,7 @@ Automotive software development is characterized by a complex combination of:
   - Capture requirements, use cases and product gaps in collaboration with major automotive customers
   - Close product gaps and develop blueprints for automotive development workflows
   - Obtain [TISAX](https://portal.enx.com/en-us/tisax/) certification
-  - Develop solutions for [ASPICE](https://www.automotivespice.com/) compliance
+  - Develop solutions for [ASPICE](https://vda-qmc.de/en/automotive-spice/) compliance
 - Enable Sales and CS to drive customer value and growth based on the developed solutions
   - Provide Sales/SA/CSM enablements on automotive development use cases
   - Develop a Sales strategy for automotive customers

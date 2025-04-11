@@ -1,12 +1,8 @@
 ---
-
-
 title: Associating a subscription with a namespace & troubleshooting errors
 description: "How to provision GitLab.com subscriptions"
 category: GitLab.com subscriptions & purchases
 ---
-
-
 
 ## Provisioning subscriptions for reseller customers
 
@@ -18,7 +14,7 @@ All SaaS customers should provision their subscriptions from CustomersDot as des
 
 While handling the subscription provisioning requests, we might encounter a 502 error while impersonating the user on the customer portal, this occurs when an admin accidentally links their GitLab.com admin account with the customer portal account, due to which the customer portal tries to fetch all the groups that are accessible to the admin user on GitLab.com and eventually returns a 502 error.
 
-- We can verify that by [retrieving the token information](https://docs.gitlab.com/ee/api/oauth2.html#retrieving-the-token-information)(grab the `access_token` from the customer portal and call the API endpoint to retrieve the `resource_owner_id` attribute, which should be the same as the  GitLab.com `userID`).
+- We can verify that by [retrieving the token information](https://docs.gitlab.com/api/oauth2/#retrieving-the-token-information)(grab the `access_token` from the customer portal and call the API endpoint to retrieve the `resource_owner_id` attribute, which should be the same as the  GitLab.com `userID`).
 
 To fix this, we should **completely unlink the GitLab.com account with the customer portal** account using the [unlink_customer console function](/handbook/support/license-and-renewals/workflows/customersdot/customer_console#unlink_customer) or `Unlink GitLab.com account` form in the ZenDesk ticket Mechanizer app.
 
@@ -30,7 +26,7 @@ While handing the subscription provisioning requests, we'll face some cases wher
 
 - If the namespace has more active users than the number of seats in the subscription, the system redirects to the payment page to purchase additional seats to match the GitLab.com Group's active user count, in this scenario if the customer is not interested in purchasing additional seats upfront then we can force associate the subscription and the additional seats will be reflected as true-ups on the group's billing page.
 
-- Another scenario: Provisioning requests for EDU/OSS customers. In this case, the ```Change Linked Namespace``` button on the subscription does not exist, so you must use the [Force Associate Zendesk App]({{< ref "mechanizer#force-associate" >}}) to associate the subscription.
+- Another scenario: Provisioning requests for EDU/OSS customers. In this case, the ```Change Linked Namespace``` button on the subscription does not exist, so you must use the [Force Associate Zendesk App](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#force-associate) to associate the subscription.
 
 - If it's successful then the response would be {:success=>true} -> You can also verify the namespace and close the issue.
 - If it's not successful then add the `~Console Escalation - customers` label and this will be investigated by the engineers with console access.
@@ -52,7 +48,8 @@ Navigate to the [Clear subscription form](https://gitlab-com.gitlab.io/support/t
 - If it's successful then the namespace will be switched to free plan: `"name"=>"Free"` -> You can also verify the namespace and close the issue.
 - If it's not successful then add the `~Console Escalation - customers` label and this will be investigated by the engineers with console access.
 
- ***
+ ---
+
  FYI: You can read more about using the Zendesk Mechanizer app for Licensing & Renewals tickets [here](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer).
 
 ## Customer self-serve: associating the subscription and namespace

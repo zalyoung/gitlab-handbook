@@ -25,11 +25,11 @@ TBD
 
 #### Zuora to Salesforce
 
-Zuora Data to [Salesforce](#salesforce-sales-cloud) via [Zuora CPQ](#zuora-cpq)
+Zuora Data to Salesforce via Zuora CPQ
 
 #### Go-To-Market Production SaaS Environments
 
-![Go-To-Market Production SaaS Environments](/handbook/sales/images/gtm-production.png)
+![Go-To-Market Production SaaS Environments](/images/sales/gtm-production.png)
 
 [Go-To-Market Integrated Environments](/handbook/sales/field-operations/sales-systems/gtm-integrated-environments/)
 

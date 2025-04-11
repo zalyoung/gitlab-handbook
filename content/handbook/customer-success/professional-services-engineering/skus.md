@@ -1,14 +1,13 @@
 ---
-aliases: /handbook/customer-success/professional-services-engineering/SKUs
 title: "PS Standard SKUs"
-description: “Discover GitLab’s Professional Services Standard SKUs”
+description: "Discover GitLab's Professional Services Standard SKUs"
 ---
 
-Some Professional Services Offerings, such as non-customized Education Services courses, Rapid Results implementations, and other out-of-the-box implementation packages can be sold as a standard SKU. Professional Services SKUs can be easily added to an order within Zuora and do not require creation of a custom SOW.
+Some Professional Services Offerings, such as non-customized Education Services courses, Health Check, CI/CD andDevSecOps Workshop, Implementation/Migration QuickStart SKUS, and other out-of-the-box packages can be sold as a standard SKU. Professional Services SKUs can be easily added to an order within Zuora and do not require creation of a custom SOW.
 
-**Important Note:** The GitLab System Administration Basics and GitLab Advanced System Administration courses should always be ordered using the custom SOW process so that we can review the customer's deployment variables and create a custom list of topics for them with the appropriate pricing depending on the scope of the topics needed. Once the trainings are scoped, they can be ordered using the new hourly rate Training SKU for ProServ Education Services in Zuora/SFDC.
+<!-- **Important Note:** The GitLab System Administration Basics and GitLab Advanced System Administration courses should always be ordered using the custom SOW process so that we can review the customer's deployment variables and create a custom list of topics for them with the appropriate pricing depending on the scope of the topics needed. Once the trainings are scoped, they can be ordered using the new hourly rate Training SKU for ProServ Education Services in Zuora/SFDC.
 
-Below are the current SKUs broken out by services category. For a detailed list including pricing see the [Full Catalog](/services/catalog/) page.
+Below are the current SKUs broken out by services category. For a detailed list including pricing see the [Full Catalog](https://about.gitlab.com/professional-services/catalog/) page.
 
 ### Implementation and Integration Services Standard SKUs
 
@@ -16,11 +15,11 @@ Below are the current SKUs broken out by services category. For a detailed list 
 
 ### Education Services Standard SKUs
 
-Currently, the following Education Services course SKUs are available within Zuora and can be added to any quote without using the Services Calculator or a SOW. Most courses have both an on-site and a remote delivery SKU. In the case of onsite delivery, travel and expenses (T&E) is billed separately to the customer based on our [Professional Services terms](https://about.gitlab.com/terms/#consultancy) and [sponsored travel policy](/handbook/travel/sponsored/). Customization of any of these standard courses will require use of the Services Calculator and further project scoping as well as the custom SOW approval process and signature by customers.
+Currently, the following Education Services course SKUs are available within Zuora and can be added to any quote without using the Services Calculator or a SOW. Most courses have both an on-site and a remote delivery SKU. In the case of onsite delivery, travel and expenses (T&E) is billed separately to the customer based on our [Professional Services terms](https://about.gitlab.com/terms/#consultancy) and [sponsored travel policy](/handbook/finance/travel/sponsored/). Customization of any of these standard courses will require use of the Services Calculator and further project scoping as well as the custom SOW approval process and signature by customers.
 
 #### Update: Per-Seat Training SKU
 
-**Now Available: Training seat add-ons!** Customers who want to add on to the 12-person limit for training sessions can now do so by ordering the new **[ProServ Training Per-Seat Add-on](https://about.gitlab.com/services/education/ILT-Seat-Add-On/)** SKU. Priced at $500 per added seat, this is an easy way to accommodate additional attendees and avoid the need to order a full additional training delivery for customers with more than 12 trainees.
+**Now Available: Training seat add-ons!** Customers who want to add on to the 12-person limit for training sessions can now do so by ordering the new **[ProServ Training Per-Seat Add-on](https://university.gitlab.com/pages/training-seataddon/)** SKU. Priced at $500 per added seat, this is an easy way to accommodate additional attendees and avoid the need to order a full additional training delivery for customers with more than 12 trainees.
 
 Here are answers to anticipated frequently-asked questions.
 
@@ -28,10 +27,11 @@ Here are answers to anticipated frequently-asked questions.
 
 2. **What is the process for making an exception?** If you have a quote in flight we will honor the number of students you may have already requested an exception for from us. For all new quotes you should create an order that includes the per-seat SKU quantities and request a discount as needed using the standard discount approval process.
 
-{{% sku-tables categories="Education" maturities="Viable,Lovable,Minimal" stages=true %}}
+{{% sku-tables categories="Education" maturities="Viable,Lovable,Minimal" stages=true %}} -->
 
 #### Planned SKUs
-We are planning to release additional Education Services SKUs designed to increase our scale and reach to GitLab customers. For details review the issues in the [Education Services Project](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services).
+
+Consulting services become SKUs as a last step of the service lifecycle, after a service has successfully been delivered a handful of times to allow any necessary adjustments to price, scope, and timeline, as well as ensure sufficient product-market fit.
 
 ##### Have an idea for a new SKU?
 

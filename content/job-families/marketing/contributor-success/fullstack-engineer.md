@@ -19,6 +19,7 @@ description: Contributor Success Fullstack Engineers work on laying down an effi
 - Participate in Contributor Success team stand-up and agile processes.
 - Be a sounding board for our community contributors.
 - Participate in GitLab's overall Contributor Success events and processes.
+- Collaborate with & motivate customers who want to learn how to contribute to GitLab.
 
 ## Requirements
 
@@ -29,6 +30,7 @@ description: Contributor Success Fullstack Engineers work on laying down an effi
 - Extensive experience using Git and source control
 - Extensive experience with the Open Source community
 - Track record of contributing to well-known Open Source projects
+- Track record of customer interactions
 - Computer science education or equivalent experience
 - Proficiency in the English language, with excellent written and oral communication skills.
 - You share our [values](/handbook/values/), and work in accordance with those values
@@ -64,6 +66,7 @@ The Contributor Success Fullstack Engineer is a [grade 6](/handbook/total-reward
 - Participate in Contributor Success team stand-up and agile processes.
 - Listen to community contributors' feedback and capture them as issues in the backlog.
 - Participate in GitLab's overall Contributor Success events and processes.
+- Travel to customers for training purposes.
 
 ### Senior Contributor Success Fullstack Engineer
 
@@ -88,6 +91,7 @@ The Senior Contributor Success Fullstack Engineer role extends the [Contributor 
 - Drive Contributor Success team stand-up and agile processes.
 - Advocate prioritization of improvements backlog based on feedback from our community.
 - Participate in GitLab's overall Contributor Success events and processes.
+- Travel to customers for training purposes.
 
 ### Staff Contributor Success Fullstack Engineer
 
@@ -113,6 +117,7 @@ The Staff Engineering Contributor Success Fullstack Engineer role extends the [S
 - Own Project Management of Contributor Success team stand-up and agile processes.
 - Make trade-off recommendations to prioritize the most impactful improvements for the community.
 - Participate in GitLab's overall Contributor Success events and processes.
+- Travel to customers for training purposes.
 
 ### Performance Indicators
 
@@ -137,10 +142,10 @@ The Staff Engineering Contributor Success Fullstack Engineer role extends the [S
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to a 60 minute interview with the Hiring Manager.
 - Candidates will then be invited to a 45 minute peer interview with an Engineer in the Contributor Success team.
-- Candidates will then be invited to a 45 minute interview with an Engineering Productivity Engineer
+- Candidates will then be invited to a 45 minute interview with a Developer Advocate in the Developer Advocacy team.
 - Candidates will then be invited to a 45 minute interview with the VP of Developer Relations
 - Successful candidates will subsequently be made an offer
 

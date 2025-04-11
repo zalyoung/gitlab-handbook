@@ -11,15 +11,15 @@ This page is for all information regarding GitLab security trainings. Security t
 
 ## Security Assurance
 
-The Security Assurance sub department handles security training needs that involve [Field Security]({{< ref "../field-security" >}}), [Security Governance]({{< ref "./_index.md" >}}), [Security Compliance]({{< ref "../security-compliance" >}}) and [Security Risk]({{< ref "../security-risk" >}}).
+The Security Assurance sub department handles security training needs that involve [Field Security](../field-security/), [Security Governance](_index.md), [Security Compliance](../security-compliance/) and [Security Risk](../security-risk/).
 
-For more information on Security Assurance, visit the [Security Assurance]({{< ref "security-assurance" >}}) page.
+For more information on Security Assurance, visit the [Security Assurance](/handbook/security/security-assurance/) page.
 
 ## Security Awareness Training
 
-GitLab team members are probably most familiar with [security awareness training]({{< ref "sec-awareness-training" >}}) which is a handbook first GitLab-customized training + annual policy reviews provided via [ProofPoint](https://gitlab.ws01-securityeducation.com/). GitLab requires all new hires to complete [New Hire security orientation training]({{< ref "sec-awareness-training#when-will-security-awareness-training-occur" >}}) as part of the onboarding process and annual training there after.
+GitLab team members are probably most familiar with [security awareness training](/handbook/security/security-assurance/governance/sec-awareness-training/) which is a handbook first GitLab-customized training + annual policy reviews provided via [ProofPoint](https://gitlab.ws01-securityeducation.com/). GitLab requires all new hires to complete [New Hire security orientation training](/handbook/security/security-assurance/governance/sec-awareness-training/#when-will-security-awareness-training-occur) as part of the onboarding process and annual training there after.
 
-GitLab security awareness training has been developed by [GitLab Security]({{< ref "/handbook/security/" >}})'s [Governance Program]({{< ref "./_index.md" >}}). The goal of the training is to:
+GitLab security awareness training has been developed by [GitLab Security](/handbook/security/)'s [Governance Program](_index.md). The goal of the training is to:
 
 1. Make all GitLab team-members aware of the GitLab Security team, and familiarize them with our efforts, team structure, and people.
 1. Make all GitLab team-members aware of the importance of their role in securing GitLab on a daily basis, and to empower them to make the right decisions with security best-practices.
@@ -27,15 +27,15 @@ GitLab security awareness training has been developed by [GitLab Security]({{< r
 1. Help all GitLab team-members internalize and reinforce the idea that reaching out to Security is an encouraging practice.
 
 - Special topics covered:
-  - [Suspected phishing]({{< ref "phishing#how-to-identify-a-basic-phishing-attack" >}})
+  - [Suspected phishing](/handbook/security/security-assurance/governance/phishing/#how-to-identify-a-basic-phishing-attack)
   - [Acceptable Use](/handbook/people-group/acceptable-use-policy/)
-  - [Device Lost or Stolen?!]({{< ref "/handbook/security#reporting-an-incident" >}})
+  - [Device Lost or Stolen?!](/handbook/security#reporting-an-incident)
     - Slack: the `/security` Slack command
     - Email (Emergencies-ONLY): panic@gitlab.com
-  - [Data Classification]({{< ref "data-classification-standard" >}})
+  - [Data Classification](/handbook/security/data-classification-standard/)
   - [No Red Data on Unapproved Locations](/handbook/people-group/acceptable-use-policy/#security-and-proprietary-information)
 
-#### Training Feedback
+### Training Feedback
 
 You are strongly encouraged to engage the team behind the training and provide feedback, or ask any questions related to the content of the training. You can do that through:
 
@@ -45,7 +45,7 @@ You are strongly encouraged to engage the team behind the training and provide f
 
 ## Secure Coding Training
 
-As a [DevOps](https://about.gitlab.com/topics/devops/) company, it makes sense that we need to focus on producing secure code, and therefore training of our developers is a high priority item. There is an entire [handbook page dedicated to Secure Coding training]({{< ref "secure-coding-training" >}}) with numerous references to both required and recommended training.
+As a [DevOps](https://about.gitlab.com/topics/devops/) company, it makes sense that we need to focus on producing secure code, and therefore training of our developers is a high priority item. There is an entire [handbook page dedicated to Secure Coding training](/handbook/security/secure-coding-training/) with numerous references to both required and recommended training.
 
 ## Additional Security Training
 
@@ -74,12 +74,13 @@ There are a few basics to keep in mind. They are as follows:
 
 There are a few fundamental differences when creating training material vs non-security training material.
 
-- Review the [GitLab Data Classification Standard]({{< ref "data-classification-standard" >}}) so you are aware of what is considered public vs non-public data. [GREEN]({{< ref "data-classification-standard#green" >}}) data can be publicly shareable, any training content that is not GREEN data should not be included in publicly-accessible training material.
+- Review the [GitLab Data Classification Standard](/handbook/security/data-classification-standard/) so you are aware of what is considered public vs non-public data. [GREEN](/handbook/security/data-classification-standard/#green) data can be publicly shareable, any training content that is not GREEN data should not be included in publicly-accessible training material.
 - New content created from scratch needs to be reviewed by the Security Department to determine what its classification is.
 - Non-public training content would not go into the handbook, but could be included in a private project or runbook.
 
 Here are a few examples to help illustrate the point:
-- Training content that talks about GitLab's [Red Team]({{< ref "/handbook/security/threat-management/red-team/_index.md" >}}) and their approach to how they perform their duties is fine. Details on how a Red Team assessment was performed including examples of data recovered or specific techniques against specific GitLab assets should not be (unless perhaps it has been reviewed and "sanitized" by the Security Department).
+
+- Training content that talks about GitLab's [Red Team](/handbook/security/security-operations/red-team/) and their approach to how they perform their duties is fine. Details on how a Red Team assessment was performed including examples of data recovered or specific techniques against specific GitLab assets should not be (unless perhaps it has been reviewed and "sanitized" by the Security Department).
 - Security-related content that involves business partnerships, specific customers, certain company initiatives, and other related non-public information cannot be included in publicly accessible training content. A good example would be if GitLab were working with a government agency - the agency itself may have extremely strict rules about what can be made public, and something that is considered public by GitLab's own standards may not be a part of that agency's standards.
 - You *can* have public content that points to internal private content, similar to a handbook entry that contains a link to an internal issue or restricted document. However, you *cannot* quote from that private content within your public content.
 

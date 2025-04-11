@@ -14,7 +14,7 @@ We use the shared [UX Research Google Calendar](https://calendar.google.com/cale
     - Overall goal for the research (this should come from the discussion guide)
     - Who will conduct the research
     - Links to the discussion guide, research issue, and Dovetail project
-    - ![Example Google calendar invite](Google_calendar_invite_small.png)
+    - ![Example Google calendar invite](/images/product/ux/ux-research/ux-research-google-calendar/Google_calendar_invite_small.png)
 
 ## Adding an event for *internal* research participants
 
@@ -26,4 +26,4 @@ We use the shared [UX Research Google Calendar](https://calendar.google.com/cale
     - Overall goal for the research (this should come from the discussion guide)
     - Who will conduct the research
     - Links to the discussion guide, research issue, and Dovetail project
-    - ![Example Google calendar invite](Google_calendar_invite_small.png)
+    - ![Example Google calendar invite](/images/product/ux/ux-research/ux-research-google-calendar/Google_calendar_invite_small.png)

@@ -1,14 +1,7 @@
 ---
-
 title: "Using Timeline"
 description: "The Timeline view in Gainsight gives us a chronological overview of our activities with the customer. It's a valuable tool to see our interactions and progression on success efforts over time."
 ---
-
-
-
-
-
-
 
 The Timeline view in Gainsight gives us a chronological overview of our activities with the customer. It's a valuable tool to see our interactions and progression on success efforts over time.
 
@@ -22,23 +15,26 @@ The Timeline view in Gainsight gives us a chronological overview of our activiti
 
 - **CTA View**: When you click on the details of a specific CTA or success plan Objective, there is a Timeline tab. You can add entries from here that will be linked to the CTA. These timeline entries will also appear on the company and global timelines.
 
-
 ## Activity types
 
-The following activities can be logged in Gainsight:
+The following activities can be logged in Gainsight and automatically sync-ed to Salesforce:
 
+- **Customer Call**: Conversation with the customer using Zoom or other synchronous channel.
 - **Update**: General update on the customer, could be from an internal conversation.
-- **Customer Call**: Conversation with the customer via Zoom or other synchronous channel.
 - **In-Person Meeting**: On-site or otherwise in-person meeting with the customer.
 - **Email**: Message sent to the customer, or message thread between the CSM and the customer.
-- **At-Risk Update**: An update (similar to above) and used exclusively with red customers for providing updates specific to a risk. See [At-Risk CTA](/handbook/customer-success/csm/health-score-triage/#at-risk-cta) for details.
+- **Health Update**: An update on the customer, could be from an internal conversation and used exclusively with red customers for providing updates specific to a risk. See [At-Risk CTA](/handbook/customer-success/csm/health-score-triage/#at-risk-cta) for details.
 - **Workshop**: A customer workshop, which can include GitLab Days, Workshops, Lunch and & Learns, and more.
+- **CSE Engagement**: Conversation with a CSE/Scale customer using Zoom or other synchronous channel.
+- **CSA Engagement**: Used to track CSA engagements aligned with a Success Services engagement.
+- **Verified Outcomes**: An activity type used to provide an update regarding work aligned with a customer verified outcome.
+- **At-Risk/Escalation**: An update on the customer, could be from an internal conversation. This timeline entry type is part of a process to push update notifications to the Escalations Slack channel for visibility and collaboration.
 
-### Chorus Recordings
+### Gong Recordings
 
-When Chorus is used to record a call, a record is created in Salesforce. That activity record is then synced to Gainsight and will appear on the Timeline. CSMs can edit these activities and add additional information such as External Attendees, CSM Sentiment, etc.
+When Gong is used to record a call, a record is created in Gainsight Timeline. CSMs can edit these activities and add additional information such as External Attendees, CSM Sentiment, etc.
 
-Note: these activities will only count towards the Last Activity Date and the Engagement score if they are created by the CSM (or in other words, if the CSM was the owner of the Chorus call).
+Note: these activities will only count towards the Last Activity Date and the Engagement score if they are created by the CSM (or in other words, if the CSM was the owner of the Gong call).
 
 ### Last Activity Date
 
@@ -79,7 +75,6 @@ Tip: When searching for external attendees, you can use "%%%" as your search pat
 
 *Follow the rest of the steps below*
 
-
 1. Input a subject
 1. Confirm the date (it will default to when you clicked "+ Activity") and time (this does not need to be the exact time of the activity as long as the date is correct) if applicable
 1. Add internal and external attendees (more details on that immediately below) if applicable
@@ -101,17 +96,17 @@ If you would like to see the activity logging process in action, please watch th
 Gainsight Timeline also displays the following Salesforce activities. While these are synced, they do **not** impact CSM health scorecards, `Last Activity Date`, or `Last Timeline Activity` since Salesforce activities are typically sales-related.
 
 - Source:
-   - Opportunities
-   - Accounts
+  - Opportunities
+  - Accounts
 - Type:
-   - Included: `Call`, `Demo`, `Workshop
-   - Purposefully **excluded**: `Email` and `Other`
-      - There are certain email activities classified as `Other` thus why they're excluded (noise to signal)
+  - Included: `Call`, `Demo`, `Workshop`
+  - Purposefully **excluded**: `Email` and `Other`
+    - There are certain email activities classified as `Other` thus why they're excluded (noise to signal)
 
 ### Limitations
 
 - Any Salesforce activity that does **not** have any content in the description
-   - Example: a call with a subject and no body will [fail to sync](https://support.gainsight.com/Gainsight_NXT/Timeline/02Admin_Guides/Integrate_Salesforce_Activities_in_Gainsight_Timeline#Limitations)
+  - Example: a call with a subject and no body will [fail to sync](https://support.gainsight.com/gainsight_nxt/Timeline/02Admin_Guides/Integrate_Salesforce_Activities_in_Gainsight_Timeline#Limitations)
 
 ## BCCing Emails
 
@@ -127,5 +122,3 @@ BCCing emails to Gainsight is *not* a required step. However, if you want an ema
 1. Emails logged in Gainsight appear in Gainsight and then are synced to Salesforce during the nightly sync
 
 For more information on using emails with Gainsight, see the [Gainsight workflow handbook page](/handbook/customer-success/csm/gainsight/#emails).
-
-

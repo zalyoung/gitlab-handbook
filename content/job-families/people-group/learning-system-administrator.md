@@ -6,7 +6,7 @@ title: Learner Engagement Specialist
 
 ### Associate Learner Engagement Specialist
 
-The Learner Engagement Specialist is responsible for maintaining and administering systems to increase adoption of the Learning Experience Platform, Content Library, and other learning platforms. The job family will be responsible for internal marketing and communications of L&D initiatives to raise awareness of programs.  This is achieved by creating engaging communication campaigns, establishing best practices for internal marketing and by ensuring that GitLab’s digital learning platforms are optimized and administered effectively to cater for team member needs.
+The Learner Engagement Specialist is responsible for maintaining and administering systems to increase adoption of the Learning Experience Platform, Content Library, and other learning platforms. The job family will be responsible for internal marketing and communications of L&D initiatives to raise awareness of programs.  This is achieved by creating engaging communication campaigns, establishing best practices for internal marketing and by ensuring that GitLab's digital learning platforms are optimized and administered effectively to cater for team member needs.
 
 The Associate Learning System Administrator reports into the [Learning & Development Manager](/job-families/people-group/learning-development/#learning-and-development-partner).
 
@@ -21,7 +21,7 @@ The Associate Learner Engagement Specialist is a [grade 5](/handbook/total-rewar
 - Identify and utilise new tools for creating engaging learning experiences and communications.
 - Coordinate communications from across the L&D team to ensure all L&D initiatives are appropriately shared with GitLab Team and Community.
 - Seek opportunities to enhance the reputation of GitLab L&D externally such as award entries, writing articles, webinars etc.
-- Monitor and resolve learner issues on GitLab’s LXP using Zendesk, Slack, the GitLab Community Forum, and email. This role will be the Directly Responsible Individual (DRI) for all free user community interactions, including GitLab Education program members and wider community members.
+- Monitor and resolve learner issues on GitLab's LXP using Zendesk, Slack, the GitLab Community Forum, and email. This role will be the Directly Responsible Individual (DRI) for all free user community interactions, including GitLab Education program members and wider community members.
 - Enable GitLab team members and wider community members to contribute learning content to GitLab Learn
 - LXP Administration - maintain security requirements, role permissions, group segmentation, and public versus private content in the platform, including management of user permissions and roles. Build and implement a scalable system to moderate user and team members contributed content and activity using the GitLab Community Code of Conduct
 - Manage relationships with Learning System contacts to advocate for feature enhancements and improve knowledge on best practices for learner engagement.
@@ -43,7 +43,7 @@ The Associate Learner Engagement Specialist is a [grade 5](/handbook/total-rewar
 - Ability to work in a fast-paced environment with demonstrated ability to coordinate multiple projects/initiatives simultaneously while meeting deadlines and business objectives
 - Exhibit strong data skills and ability to utilize Google Sheets
 - Ability to use, or willingness to learn, GitLab
-- Bachelor’s degree in Training Education or Communication is preferred
+- Bachelor's degree in Training Education or Communication is preferred
 - Experience working with various virtual meeting management tools such as Zoom is a plus
 - 1-2 years related work experience (or equivalent combination of transferable experience and education)
 - Ability to learn new systems quickly, and preferably have experience using GitLab, Zendesk, Discourse, EdCast, or any learning management or learning experience platforms
@@ -111,7 +111,7 @@ The next step for the Learner Engagement Specialist is not yet defined.
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 30 minute interview with our Learning & Development Manager.
 - Next, candidates will be asked to submit a short writing sample to answer a question that the Learning and Development team often sees from customers and community members.
 - Next, the candidate will be invited to interview with a member of the Learning & Development team, a team member from our Sales Enablement, Professional Services, and/or Developer Relations team.

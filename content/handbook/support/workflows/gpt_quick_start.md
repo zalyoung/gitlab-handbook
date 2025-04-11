@@ -8,9 +8,9 @@ category: Self-managed
 
 [The GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) (`gpt`) is built and maintained by the GitLab Quality Engineering - Enablement team to provide performance testing of any GitLab instance. The tool has itself been built upon the industry-leading open-source tool [k6](https://k6.io/) and provides numerous tests that are designed to effectively performance test GitLab.
 
-GitLab recommends running GPT against your GitLab environment to get an effective performance test. We do not recommend running on a production instance. Only run on production if it’s really required. If so, then run it at the quietest possible time. Depending on your system environment, the test may take up at least 4 hours.
+GitLab recommends running GPT against your GitLab environment to get an effective performance test. We do not recommend running on a production instance. Only run on production if it's really required. If so, then run it at the quietest possible time. Depending on your system environment, the test may take up at least 4 hours.
 
-**NOTE**: This quick start was written and adopted based on [documentation for `GPT v2` (2.10.0)](https://gitlab.com/gitlab-org/quality/performance/-/blob/2.10.0/docs/README.md). Please always check the [the official GitLab Project documentation: GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/README.md) for latest changes.
+**NOTE**: This quick start was written and adopted based on [documentation for `GPT v2` (2.10.0)](https://gitlab.com/gitlab-org/quality/performance/-/blob/2.10.0/docs/README.md). Please always check the [official GitLab Project documentation: GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/README.md) for latest changes.
 
 ## Requirements
 
@@ -32,12 +32,12 @@ mkdir results
 
 This will generate the data that will be used for the test later. More details on [GPT Project](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/environment_prep.md):
 
-1. Create [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token) with API scope from an **Admin** user.
+1. Create [Personal Access Token](https://docs.gitlab.com/user/profile/personal_access_tokens/#creating-a-personal-access-token) with API scope from an **Admin** user.
    1. In the top-right corner on your GitLab UI, select your avatar.
    1. Select **Edit profile**.
    1. In the left sidebar, select **Access Tokens**.
    1. Enter a name and optional expiry date for the token.
-   1. Select the [API scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes).
+   1. Select the [API scopes](https://docs.gitlab.com/user/profile/personal_access_tokens/#personal-access-token-scopes).
    1. Select **Create personal access token**.
    1. Save the personal access token somewhere safe. After you leave the page, you no longer have access to the token.
 
@@ -119,6 +119,6 @@ Method 2: Delete the top-level group `gpt` (or the unique name you've replaced a
 Customers often ask for their GPT results to be reviewed as part of building out a Reference Architecture.
 
 - Check [the GPT issues list](https://gitlab.com/gitlab-org/quality/performance/-/issues) if errors or issues .
-- Ask for help from [support team members with GPT experience](https://gitlab-com.gitlab.io/support/team/skills-by-subject).
-- Alternatively reach out to the Quality Engineering - Enablement team who manage GPT over on the `#gitlab-performance-tool` channel on Slack.
-- The [Reference Architecture group](https://about.gitlab.com/handbook/engineering/quality/quality-engineering/self-managed-excellence/#reference-architectures) can also review the results as well as the environment as a whole on request. This can be done by asking the customer's CSM to raise an issue on the [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues) project with the `environment-review-request` template.
+- Ask for help from [support team members with GPT experience](https://gitlab-support-readiness.gitlab.io/support-team/skills-by-subject.html).
+- Alternatively reach out to either the GPT maintainers over on the `#gitlab-performance-tool` channel on Slack.
+- You can also reach out to the Reference Architecture group on their [tracker](https://gitlab.com/gitlab-org/reference-architectures/-/issues/?sort=created_date&state=opened&first_page_size=100) and raise a Request for Help via the template if you suspect performance issues are related to the environmental design or makeup.

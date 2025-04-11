@@ -1,15 +1,10 @@
 ---
 title: "Security Awareness Training Program"
-description: "Security Awareness Training Program"
 ---
 
-## Security Awareness Training Program
+## Security awareness training program
 
-The GitLab security awareness training program provides ongoing training to GitLab team members that enhances knowledge and identification of cybersecurity threats, vulnerabilities, and attacks. Security awareness training is provided by [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third party provider, and will help satisfy external regulatory requirements and bolster customer assurance.
-
-## Security Awareness Training Campaigns
-
-Security awareness training is an integral part of GitLab's overall security strategy. The Security Governance team utilizes ProofPoint to deliver training campaigns designed to provide GitLab team members with the information they need to protect themselves and GitLab from loss or harm, highlight their role in securing GitLab on a daily basis, and empower them to make the right decisions with security best practices.
+The GitLab security awareness training program provides ongoing training to GitLab team members that enhances knowledge and identification of cybersecurity threats, vulnerabilities, and attacks. Security awareness training is provided by [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third party provider, and will help satisfy external regulatory requirements and bolster customer assurance. The training campaigns designed to provide GitLab team members with the information they need to protect themselves and GitLab from loss or harm, highlight their role in securing GitLab on a daily basis, and empower them to make the right decisions with security best practices.
 
 ## When will security awareness training occur?
 
@@ -19,7 +14,7 @@ Annual security awareness training will occur in the second quarter of each fisc
 
 ## Who will receive the security awareness training?
 
-The successful completion of new hire and annual security awareness training is a compliance requirement for GitLab, Inc. As part of these requirements, 100% of active GitLab team members, contractors/Temporary Service Providers (TSPs), and others with access to [Red, Orange and Yellow data]({{< ref "data-classification-standard#data-classification-levels" >}}) are required to successfully complete this training.
+The successful completion of new hire and annual security awareness training is a compliance requirement for GitLab, Inc. As part of these requirements, 100% of active GitLab team members, contractors/Temporary Service Providers (TSPs), and others with access to [Red, Orange and Yellow data](/handbook/security/data-classification-standard/#data-classification-levels) are required to successfully complete this training.
 
 Exceptions will be made for any individuals on extended leave at the time the campaign is launched. Upon their return from extended leave, they will be added to a catch-up campaign at a later date.
 
@@ -27,19 +22,19 @@ Contractors/TSPs that are able to show evidence of equivalent training completio
 
 For annual security awareness training, all team members hired prior to May 1 of the current year will receive an email via ProofPoint from GitLab Security <awareness@securityeducation.com> that will contain a link to access the training(s). GitLab team members hired after May 1 of the current year will have undergone New Hire security orientation training as part of their onboarding and therefore will not be required to take the annual security awareness training until the following year.
 
-An additional [Secure Coding]({{< ref "secure-coding-training#gitlab-secure-coding-training" >}}) training module must also be completed by 100% of all active GitLab team members + contractors/TSPs.
+An additional [Secure Coding](/handbook/security/secure-coding-training/) training module must also be completed by 100% of all active GitLab team members + contractors/TSPs.
 
 By default, GitLab team members within the Engineering Department and the sub-departments of Cost of Sales, Development, Incubation Engineering, Infrastructure and Quality that have titles with `Engineer` or `Developer` **AND** write code as part of their role (even Infra-as-code) will be assigned the additional training.
 
 Other departments outside of Engineering such as Finance and Marketing also include team members that write code and will be required to complete training.
 
-#### Contractors (Temporary Service Providers)
+### Contractors (Temporary Service Providers)
 
 Internal Contractors/TSPs (with a GitLab email address) and external Contractors/TSPs (non-GitLab email address) that have access to production data are required to complete new hire security training during onboarding and the annual security awareness training thereafter.
 
 Internal contractors/TSPs will be assigned training via ProofPoint. External contractors/TSPs will be sent an email with a training video and handbook links to review.
 
-##### Training Exceptions:
+#### Training exceptions
 
 - Contractors/TSPs that do **NOT** have access to any internal systems or sensitive data are **NOT** required to complete GitLab's annual training. However, they must complete training during onboarding.
 - Contractors/TSPs that have been offboarded are not required to complete training, but an [offboarding issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues) must be provided as proof of termination.
@@ -55,23 +50,13 @@ If you are a manager and are notified that one of your direct reports has not co
 
 ## How long will the training take?
 
-The security awareness training(s) have been limited to 30 minutes in an effort to find the best return of security investment from team member's time.
+The security awareness training(s) have been limited to 30 minutes in an effort to find the best return of security investment from team members' time.
 
 ## What will be covered in the training?
 
 Security awareness training is a critical component of GitLab's security program and key to ensuring that GitLab team members are continuously educated in security core competencies.
 
 A GitLab customized handbook first training is provided via ProofPoint. To receive full credit, the training + annual policy reviews must be completed to identify what you have learned.
-
-- Special topics covered:
-    - [Suspected phishing]({{< ref "phishing#how-to-identify-a-basic-phishing-attack" >}})
-    - [Acceptable Use](/handbook/people-group/acceptable-use-policy/)
-    - [Device Lost or Stolen?!](https{{< ref "/handbook/security#reporting-an-incident" >}})
-        - Slack: the `/security` Slack command
-        - Email (Emergencies-ONLY): panic@gitlab.com
-    - [Data Classification]({{< ref "data-classification-standard" >}})
-    - [No Red Data on Unapproved Locations](/handbook/people-group/acceptable-use-policy/#security-and-proprietary-information)
-    - An additional training module including OWASP fundamentals for any GitLab team member that writes code as part of their role (including Infra-as-code)
 
 ## What happens if training is not completed?
 
@@ -80,9 +65,15 @@ If required, we will communicate incomplete assigned trainings to managers for a
 
 We are required to reach 100% participation for regulatory purposes. Team members that do not complete training within the required timeframe (minus exceptions) may have repercussions of their access being disabled until training has been completed. Further penalties may be incurred on a case by case basis.
 
-### Security Awareness Training Metrics
+## Security awareness training metrics
 
 The Security Governance team will track the annual security awareness training completion metrics and publish them in a GitLab Issue. Once the training campaign has completed, the Security Governance team will provide results in the [Security Awareness Training Program](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-awareness-training) project.
+
+## Security awareness training program maturity model
+
+GitLab leverages the SANS Security Awareness Maturity Model to gauge the maturity of its program. GitLab's current maturity level is **Stage 2 - Compliance Focused.**
+
+![SANS Security Awareness Maturity Model](/images/security/security-assurance/sansmaturitymodel.png "SANS Security Awareness Maturity Model")
 
 ### Questions and Answers
 
@@ -96,7 +87,7 @@ The Security Governance team will track the annual security awareness training c
 
 *Why was I chosen?*
 
-- All GitLab team members, contractors and anyone with access to data that is [NOT publicly shareable, and could expose GitLab or its customers to any harm or material impact]({{< ref "data-classification-standard#data-classification-levels" >}}) will be required to complete our security awareness trainings whether it be during new hire orientation or annually.
+- All GitLab team members, contractors and anyone with access to data that is [NOT publicly shareable, and could expose GitLab or its customers to any harm or material impact](/handbook/security/data-classification-standard/#data-classification-levels) will be required to complete our security awareness trainings whether it be during new hire orientation or annually.
 
 *I just took New Hire training, why do I have to take it again?*
 
@@ -116,4 +107,4 @@ The Security Governance team will track the annual security awareness training c
 
 ### Additional Questions, Comments, Concerns?
 
-Please reach out to the [Security Governance Team!]({{< ref "governance" >}})
+Please reach out to the [Security Governance Team!](/handbook/security/security-assurance/governance/)

@@ -1,13 +1,9 @@
 ---
-title: "GitLab Security Essentials - Hands-On Lab"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Container Scanning"
+description: "This Hands-On Guide walks you through enabling and using Container Scanning in a GitLab project."
 ---
 
-# Lab 3: Enable and Configure Container Scanning
-
-> Estimated time to complete: 15 to 20 minutes
-
-> **You are viewing the latest Version 16.x instructions.** You are using v16 if your group URL is `https://gitlab.com/gitlab-learn-labs/...`. If your group URL starts with `https://ilt.gitlabtraining.cloud` or `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson3.md).
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
@@ -17,9 +13,9 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 ## Prerequisites
 
-1. Open your browser to to the **Security Labs** project that you created in Lab 1.
+1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
+    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL, and the project should appear in your history.
 
 1. Before beginning this lab and all later labs, you should disable any scanners that you enabled in previous labs to speed up pipeline runtime. You should have already completed this in Lab 2.
 
@@ -31,31 +27,28 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Above the repository file list, click **(+) > This directory > New file**.
 
-1. In the **File name** field, type `Dockerfile`.
+1. In the **File name** field, type `Dockerfile`. It is important that the first letter is capitalized for industry standards.
 
-    > It is important that the first letter is capitalized for industry standards.
+1. The `Dockerfile` must specify which Linux image to install your application on. For this lab you'll use an old version of Python that has security vulnerabilities for the Container Scanner to find. Paste this into `Dockerfile`:
 
-1. The `Dockerfile` must specify which Linux image to install your application on. For this lab you'll use an old version of Ubuntu that has security vulnerabilities for the Container Scanner to find. Paste this into `Dockerfile`:
-
-    ```dockerfile
+    ```Dockerfile
     FROM python:3.4-alpine
     ```
 
 1. The Dockerfile must add your application to the Linux image specified above. Paste this at the bottom of `Dockerfile`:
 
-    ```dockerfile
+    ```Dockerfile
     ADD main.py .
     ```
 
 1. Your completed `Dockerfile` should look like this. Make any corrections necessary.
 
-    ```dockerfile
+    ```Dockerfile
     FROM python:3.4-alpine
     ADD main.py .
     ```
 
 1. Add a commit message, set the target branch to `main` and click **Commit changes**.
-
 
 ## Task B. Build the Docker image
 
@@ -190,7 +183,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
         - docker push $IMAGE
     ```
 
-1. Commit the changes to the `main` branch with an appropriate commit message (Adding a docker file definition).
+1. Commit the changes to the `main` branch with an appropriate commit message (`Adding a docker file definition`).
 
 1. Navigate to **Build > Pipelines** to watch the progress of the new pipeline. Click on the pipeline to view the CI output for the build job.
 
@@ -204,9 +197,9 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
     ```yml
     include:
-    # - template: Security/SAST.gitlab-ci.yml
-    # - template: Security/Secret-Detection.gitlab-ci.yml
-    # - template: DAST.gitlab-ci.yml
+    - template: Security/SAST.gitlab-ci.yml
+    - template: Security/Secret-Detection.gitlab-ci.yml
+    - template: Security/Dependency-Scanning.gitlab-ci.yml
     - template: Security/Container-Scanning.gitlab-ci.yml
     ```
 
@@ -232,40 +225,14 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Edit the `.gitlab-ci.yml` file.
 
-1. Copy and paste this to overwrite all of the contents of your `.gitlab-ci.yml` file. This has commented out sections of jobs and scanners that we won't be using for the rest of the class to speed up our pipeline.
+1. Copy and paste this to overwrite all of the contents of your `.gitlab-ci.yml` file. This is to ensure that we do not have any unnessescary scanners running that would slow down our pipeline. We are keeping the SAST job in order to maintain the `.gitlab-ci.yml` file's formatting.
 
     ```yml
     stages:
-    # - build
     - test
-    # - dast
 
     include:
-    # - template: Security/SAST.gitlab-ci.yml
-    # - template: Security/Secret-Detection.gitlab-ci.yml
-    # - template: DAST.gitlab-ci.yml
-    # - template: Security/Container-Scanning.gitlab-ci.yml
-
-    variables:
-    #  SAST_EXCLUDED_PATHS: venv/
-    #  DAST_WEBSITE: https://example.com
-
-    #secret_detection:
-    #  variables:
-    #    SECRET_DETECTION_EXCLUDED_PATHS: tests/
-
-    #build-and-push-docker-image:
-    #  stage: build
-    #  image: docker:20.10.17
-    #  services:
-    #    - docker:20.10.17-dind
-    #  variables:
-    #    IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-    #    DOCKER_TLS_CERTDIR: ""
-    #  script:
-    #    - docker build --tag $IMAGE .
-    #    - docker login --username $CI_REGISTRY_USER --password $CI_REGISTRY_PASSWORD $CI_REGISTRY
-    #    - docker push $IMAGE
+    - template: Security/SAST.gitlab-ci.yml
     ```
 
 1. Set the commit message to `Lab 3 pipeline reset` and commit your changes to the `main` branch.
