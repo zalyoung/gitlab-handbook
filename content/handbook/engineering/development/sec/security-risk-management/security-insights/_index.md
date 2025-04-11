@@ -191,6 +191,8 @@ Use the following command to run tests locally against your GDK instance:
   WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ <filename/path> --enable-feature <feature_flag_name>
   ```
 
+You can also run a specific RSpec line using <filename>:<line_number> to target the surrounding example block. See [RSpec best practices](https://docs.gitlab.com/development/testing_guide/best_practices/#rspec) for more details.
+
 * With a feature flag disabled:
 
   ```shell
