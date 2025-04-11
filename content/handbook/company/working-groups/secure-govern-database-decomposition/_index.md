@@ -103,19 +103,19 @@ dateFormat YYYY-MM-DD
 title Estimated Decomposition Timeline
 
 section Timeline
-Gitlab Application Work Ready :active, decompose, 2025-01-28, 2025-02-17
-GitLab Decomposition Ready 17 February :milestone, rolloutready, after decompose, 0d
-Time left to finish rollout and communication plans :readycomms, 2025-01-28, 2025-03-08
-Inform Customers of Planned Decomposition 8 March :milestone, communicate, 2025-03-08, 0d
-Standard Customer Communication Timeline :comms, 2025-03-8, 6w
-Infrastructure Rollout :inf, after decompose, 2025-04-19
-Phase 4 : phase4, after decompose, 3w
-Phase 5 : phase5, after phase4, 3w
-Phase 6 : phase6, after phase4, 3w
-Phase 7 : phase7, after phase6, 4w
-Target Rollout Date 19 April :milestone, rollout, 2025-04-19, 0d
-axisFormat  %Y-%m
-
+Gitlab Decomposition Ready :active , decompose, 2024-07-01, 2025-02-14
+Non-Slice Work :active, nonslicework, 2024-07-15, 2025-02-14
+Slice 1 :active, slice1, 2024-07-23, 2025-01-13
+Slice 2 :active, slice2, 2024-08-06, 2024-12-30
+Slice 3 :active, slice3, 2024-07-15, 2025-02-10
+Gitlab Application Ready for Decomposition :milestone, allslices, after slice1 slice2 slice3 nonslicework, 0d
+Phase 1 & 2 : phase12, 2024-09-11, 16w
+Phase 4 : phase4, 2025-03-14, 3w
+Phase 5 : phase5, after phase4, 1w
+Phase 6 : phase6, 2025-03-21, 3w
+Phase 7 : phase7, after phase6, 1w
+Rollout complete :milestone, rollout, 2025-04-19, 1d
+axisFormat  %Y-%m-%d
 ```
 
 [Source](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2351215673).
