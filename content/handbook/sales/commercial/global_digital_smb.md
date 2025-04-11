@@ -6,6 +6,7 @@ description: "Overview of the High Velocity Sales - First Orders Sales Model"
 ## HVS-FO Sales Team Structure
 
 The HVS-FO Sales Team is comprised of these 3 sets of teams:
+
 - SMB Advocate Teams, covering global SMB accounts
 - New Logo Team, covering Base prospect accounts and Web Direct Mid-Market and Large inbound First Orders
 - SMB Renewals Teams, covering global SMB renewals
