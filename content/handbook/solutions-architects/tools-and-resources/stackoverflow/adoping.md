@@ -15,7 +15,7 @@ Please refer to Stack Overflow training on
 
 ---
 
-1. Anyone with a question should do so in one of the [SME (Subject Matter Expert) Slack channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/sme-channels)
+1. Anyone with a question should do so in one of the [SME (Subject Matter Expert) Slack channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations/#sme-channels)
 1. Use the `/stack ask` prompt to ask a question 
 1. If a question was asked without the prompt `/slack ask`, another SA or CSM can nudge them to ask the question in Slack or select the content in Slack and use the Stack Overflow app to create it as a question. 
 1. Stack Overflow prompts the SA or CSM to enter the required data (Title, Body, Tags) 
