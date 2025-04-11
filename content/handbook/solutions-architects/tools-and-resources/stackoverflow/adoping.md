@@ -25,6 +25,8 @@ Please refer to Stack Overflow training on
 1. Other SAs can view the link and provide additional answers in StackOverflow 
 1. Knowledge is ultimately captured in your Stack Overflow registry
 
+---
+
 ```mermaid
 flowchart TD
     A[SA or CSM has question] --> B[They go to SME Slack channel]
