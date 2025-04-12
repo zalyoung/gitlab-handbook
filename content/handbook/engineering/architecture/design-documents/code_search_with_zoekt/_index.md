@@ -23,9 +23,9 @@ in GitLab has been enhanced with new features enabled by Zoekt's capabilities.
 This integration provides significant improvements over the existing Elasticsearch-based search, including:
 
 1. **Exact match mode**: Returns results that precisely match the search query, eliminating false positives
-2. **Regular expression mode**: Supports regex patterns and boolean expressions for powerful code searching
-3. **Multiple line matches**: Shows multiple matching lines from the same file in the search results
-4. **Self-registering architecture**: Enables simple scaling and management of search infrastructure
+1. **Regular expression mode**: Supports regex patterns and boolean expressions for powerful code searching
+1. **Multiple line matches**: Shows multiple matching lines from the same file in the search results
+1. **Self-registering architecture**: Enables simple scaling and management of search infrastructure
 
 ## Motivation
 
@@ -51,8 +51,8 @@ The main goals of this integration have been to implement the following highly
 requested improvements to code search:
 
 1. [Exact match (substring match) code searches in advanced search](https://gitlab.com/gitlab-org/gitlab/-/issues/325234)
-2. [Support regular expressions with Advanced Global Search](https://gitlab.com/gitlab-org/gitlab/-/issues/4175)
-3. [Support multiple line matches in the same file](https://gitlab.com/gitlab-org/gitlab/-/issues/668)
+1. [Support regular expressions with Advanced Global Search](https://gitlab.com/gitlab-org/gitlab/-/issues/4175)
+1. [Support multiple line matches in the same file](https://gitlab.com/gitlab-org/gitlab/-/issues/668)
 
 The rollout was designed to catch and resolve scaling or infrastructure cost issues
 as early as possible, allowing us to pivot if necessary before investing too heavily
@@ -63,9 +63,9 @@ in this technology.
 The following were not initial goals but could be built upon this solution in the future:
 
 1. Improving security scanning features by leveraging fast regex scans across repositories
-2. Reducing search infrastructure costs (though this may be possible with further optimizations)
-3. AI/ML features to predict what users might be interested in finding
-4. Comprehensive code intelligence and navigation features (which would require more structured data)
+1. Reducing search infrastructure costs (though this may be possible with further optimizations)
+1. AI/ML features to predict what users might be interested in finding
+1. Comprehensive code intelligence and navigation features (which would require more structured data)
 
 ## Proposal
 
@@ -107,9 +107,9 @@ One significant improvement in the implementation is the introduction of a unifi
 Having a unified binary simplifies deployment, operation, and maintenance of the Zoekt infrastructure. The key advantages of this approach include:
 
 1. **Simplified deployment**: Only one binary needs to be built, deployed, and maintained
-2. **Consistent codebase**: Shared code between indexer and webserver is maintained in one place
-3. **Operational flexibility**: The same binary can run in different modes based on configuration
-4. **Testing mode**: The unified binary can run both services simultaneously for testing purposes
+1. **Consistent codebase**: Shared code between indexer and webserver is maintained in one place
+1. **Operational flexibility**: The same binary can run in different modes based on configuration
+1. **Testing mode**: The unified binary can run both services simultaneously for testing purposes
 
 #### Database Models
 
@@ -156,9 +156,9 @@ graph TD
 The Zoekt integration consists of several key components working together:
 
 1. **GitLab Rails Application**: Manages which repositories need to be indexed, coordinates with Zoekt nodes
-2. **Zoekt Nodes**: Run the `gitlab-zoekt` binary to handle indexing and searching of repositories
-3. **Gitaly**: Provides Git repository access to Zoekt for indexing
-4. **Database**: Stores metadata about nodes, indices, tasks, and repositories
+1. **Zoekt Nodes**: Run the `gitlab-zoekt` binary to handle indexing and searching of repositories
+1. **Gitaly**: Provides Git repository access to Zoekt for indexing
+1. **Database**: Stores metadata about nodes, indices, tasks, and repositories
 
 ### Indexing Flow
 
@@ -188,10 +188,10 @@ sequenceDiagram
 The indexing process follows these steps:
 
 1. When a repository is created or updated, the GitLab Rails application creates `zoekt_tasks` records
-2. Zoekt nodes (running in indexer mode) periodically pull tasks through the internal API
-3. Zoekt nodes process the tasks by fetching repository data from Gitaly and creating search indices
-4. Zoekt nodes send callback notifications to GitLab to update task status
-5. GitLab updates the appropriate database records (`zoekt_task`, `zoekt_repository`, `zoekt_index`)
+1. Zoekt nodes (running in indexer mode) periodically pull tasks through the internal API
+1. Zoekt nodes process the tasks by fetching repository data from Gitaly and creating search indices
+1. Zoekt nodes send callback notifications to GitLab to update task status
+1. GitLab updates the appropriate database records (`zoekt_task`, `zoekt_repository`, `zoekt_index`)
 
 `zoekt_task` can be of three different types:
 
@@ -223,10 +223,10 @@ sequenceDiagram
 The search process follows these steps:
 
 1. User performs a search in GitLab UI
-2. GitLab determines if the search should use Zoekt based on user preferences and enabled namespaces
-3. If Zoekt is appropriate, GitLab forwards the search to a Zoekt node running in webserver mode
-4. Zoekt processes the search and returns results
-5. GitLab formats and presents the results to the user
+1. GitLab determines if the search should use Zoekt based on user preferences and enabled namespaces
+1. If Zoekt is appropriate, GitLab forwards the search to a Zoekt node running in webserver mode
+1. Zoekt processes the search and returns results
+1. GitLab formats and presents the results to the user
 
 ### Communication Flow
 
@@ -261,10 +261,10 @@ POST /internal/search/zoekt/:uuid/callback
 This asynchronous callback architecture is a significant improvement over the previous design, which used Sidekiq jobs for indexing operations. By using callbacks instead of blocking Sidekiq jobs, the system gains several important benefits:
 
 1. **Reduced Sidekiq load**: Indexing operations no longer block Sidekiq workers, freeing them for other critical GitLab tasks
-2. **Better scalability**: The number of concurrent indexing operations is only limited by Zoekt node capacity, not by Sidekiq worker availability
-3. **Improved reliability**: If a node goes down during indexing, it doesn't leave Sidekiq jobs in an incomplete state
-4. **More efficient resource usage**: Long-running indexing tasks don't consume valuable Sidekiq resources
-5. **Separation of concerns**: Zoekt nodes handle indexing independently, reporting back only when completed
+1. **Better scalability**: The number of concurrent indexing operations is only limited by Zoekt node capacity, not by Sidekiq worker availability
+1. **Improved reliability**: If a node goes down during indexing, it doesn't leave Sidekiq jobs in an incomplete state
+1. **More efficient resource usage**: Long-running indexing tasks don't consume valuable Sidekiq resources
+1. **Separation of concerns**: Zoekt nodes handle indexing independently, reporting back only when completed
 
 This approach allows GitLab to maintain a lightweight coordination role while the computationally intensive work is handled by specialized Zoekt nodes, resulting in better overall system performance and responsiveness.
 
@@ -306,9 +306,9 @@ This architecture makes the system self-configuring and facilitates easy scaling
 #### Sharding Strategy
 
 1. Groups/namespaces are assigned to specific Zoekt nodes for indexing and searching
-2. GitLab manages the shard assignments internally based on node capacity and load
-3. When new nodes are added, they can automatically take on new workloads
-4. If nodes go offline, their work can be reassigned to other nodes
+1. GitLab manages the shard assignments internally based on node capacity and load
+1. When new nodes are added, they can automatically take on new workloads
+1. If nodes go offline, their work can be reassigned to other nodes
 
 #### Replication Strategy
 
@@ -348,11 +348,11 @@ graph TD
 The replication strategy works at the database record level rather than through actual data synchronization between nodes:
 
 1. **Independent Indexing**: Each Zoekt node independently indexes repositories by fetching data directly from Gitaly
-2. **Multiple Replica Records**: For high availability, GitLab can create multiple `Search::Zoekt::Replica` records for a single namespace
-3. **Distributed Indices**: Each replica record is associated with an index record that may be assigned to different physical Zoekt nodes
-4. **Fast Indexing**: Indexing is efficient (approximately 10 seconds for a large repository like `gitlab-org/gitlab`), making it practical to maintain multiple independent indices
-5. **No Complex Synchronization**: This approach eliminates the need for complex index file synchronization between nodes
-6. **Search Load Distribution**: GitLab can route search requests to any node that has an index for the relevant namespace
+1. **Multiple Replica Records**: For high availability, GitLab can create multiple `Search::Zoekt::Replica` records for a single namespace
+1. **Distributed Indices**: Each replica record is associated with an index record that may be assigned to different physical Zoekt nodes
+1. **Fast Indexing**: Indexing is efficient (approximately 10 seconds for a large repository like `gitlab-org/gitlab`), making it practical to maintain multiple independent indices
+1. **No Complex Synchronization**: This approach eliminates the need for complex index file synchronization between nodes
+1. **Search Load Distribution**: GitLab can route search requests to any node that has an index for the relevant namespace
 
 Currently, GitLab typically creates a single replica record per namespace, but the system is designed to support a configurable number of replicas per namespace in the future. This approach provides the following benefits:
 
@@ -374,7 +374,7 @@ GitLab provides a Helm chart ([`gitlab-zoekt`](https://gitlab.com/gitlab-org/clo
 - Automatic node registration and service discovery
 - Gateway component for load balancing
 
-The `gitlab-zoekt` Helm chart has proven to be highly scalable in production environments. On GitLab.com, this deployment is handling over 36 TiB of indexed code data, demonstrating its ability to operate at enterprise scale. The chart's design allows for both horizontal and vertical scaling to accommodate growing code search needs while maintaining performance and reliability.
+The `gitlab-zoekt` Helm chart has proven to be highly scalable in production environments. On GitLab.com, this deployment is handling over 36 TiB of data, demonstrating its ability to operate at enterprise scale. The chart's design allows for both horizontal and vertical scaling to accommodate growing code search needs while maintaining performance and reliability.
 
 #### Docker/Container
 
@@ -452,9 +452,9 @@ A new [gRPC-based federated search capability](https://gitlab.com/gitlab-org/git
 The gRPC federated search offers several advantages:
 
 1. **More efficient communication**: gRPC uses HTTP/2 for transport, providing better performance than HTTP/1.1
-2. **Streaming results**: Results can be streamed as they're found, rather than waiting for all results
-3. **Reduced latency**: Faster response times, especially for searches across many repositories
-4. **Better resource management**: More granular control over search processing limits
+1. **Streaming results**: Results can be streamed as they're found, rather than waiting for all results
+1. **Reduced latency**: Faster response times, especially for searches across many repositories
+1. **Better resource management**: More granular control over search processing limits
 
 These parameters provide powerful controls to:
 
@@ -470,24 +470,24 @@ This gRPC-based federated search is especially beneficial for global searches th
 The GitLab Zoekt integration can be configured through:
 
 1. **GitLab Admin Settings**: Enable/disable indexing and searching, configure concurrent indexing tasks, set auto-deletion settings
-2. **User Preferences**: Enable/disable exact code search for individual users
-3. **Zoekt Node Settings**: Resource allocation, storage configuration, network settings
-4. **Feature Flags**: Control specific features or behaviors of the integration
+1. **User Preferences**: Enable/disable exact code search for individual users
+1. **Zoekt Node Settings**: Resource allocation, storage configuration, network settings
+1. **Feature Flags**: Control specific features or behaviors of the integration
 
 ### Rollout Strategy
 
 The rollout strategy has followed these steps:
 
 1. Initial availability for `gitlab-org` group
-2. Improvements to monitoring and performance
-3. Expansion to select customers with high code search needs
-4. Implementation of sharding and replication for scalability
-5. Gradual rollout to more licensed groups
-6. Implementation of automatic balancing of shards
-7. Assessment of costs and performance for broader rollout
-8. Continued performance improvements
-9. Availability to the majority of licensed groups on GitLab.com
-10. General availability to all licensed groups on GitLab.com (pending)
+1. Improvements to monitoring and performance
+1. Expansion to select customers with high code search needs
+1. Implementation of sharding and replication for scalability
+1. Gradual rollout to more licensed groups
+1. Implementation of automatic balancing of shards
+1. Assessment of costs and performance for broader rollout
+1. Continued performance improvements
+1. Availability to the majority of licensed groups on GitLab.com
+1. General availability to all licensed groups on GitLab.com (pending)
 
 For self-managed instances, administrators can enable Zoekt by installing the required components and enabling the feature in the admin area.
 
@@ -496,19 +496,19 @@ For self-managed instances, administrators can enable Zoekt by installing the re
 To monitor the health and performance of the Zoekt integration, GitLab provides:
 
 1. **Admin UI**: Shows indexing status, node health, and storage utilization
-2. **Rake Tasks**: Tools to check indexing status. For example,
+1. **Rake Tasks**: Tools to check indexing status. For example,
    `gitlab:zoekt:info`
-3. **Automated Management**: Features to automatically delete offline nodes, manage watermark levels, and redistribute indices
-4. **Logging**: Detailed logging of indexing operations, search queries, and errors
-5. **Metrics**: Performance metrics for indexing and search operations
+1. **Automated Management**: Features to automatically delete offline nodes, manage watermark levels, and redistribute indices
+1. **Logging**: Detailed logging of indexing operations, search queries, and errors
+1. **Metrics**: Performance metrics for indexing and search operations
 
 ### Watermark Management
 
 The Zoekt integration includes a sophisticated watermark management system to ensure efficient use of storage:
 
 1. **Low Watermark (60-70%)**: Triggers rebalancing to avoid reaching higher levels
-2. **High Watermark (70-75%)**: Signals potential storage pressure and prioritizes rebalancing
-3. **Critical Watermark (85%+)**: May pause indexing to prevent node overload
+1. **High Watermark (70-75%)**: Signals potential storage pressure and prioritizes rebalancing
+1. **Critical Watermark (85%+)**: May pause indexing to prevent node overload
    while performing evictions
 
 This system ensures that storage is used efficiently while preventing nodes from running out of space.
