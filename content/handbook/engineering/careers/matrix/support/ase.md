@@ -8,15 +8,25 @@ title: "Support Career Framework: Assigned Support Engineer"
 
 **Assigned Support Engineers at GitLab are expected to exhibit the following competencies:**
 
+- [Emotional Intelligence Competencies](#emotional-intelligence-competencies)
 - [Leadership Competencies](#leadership-competencies)
 - [Technical Competencies](#technical-competencies)
 - [Values Alignment](#values-alignment)
 
 ---
 
+### [Emotional Intelligence](/handbook/leadership/emotional-intelligence/) Competencies
+
+- Able to build and maintain healthy relationships with customers at all levels
+- Able to influence others to make necessary decisions and take necessary actions
+- Able to work through conflict to create collaboration
+- Able to be genuinely empathetic toward customers and build trust with them
+  in order to deliver outstanding support
+
 ### Leadership Competencies
 
-<!-- {{% include "includes/engineering-careers/senior-leadership-competency.md" %}} -->
+<!-- {{% include "includes/engineering-careers/senior-leadership-competency.md" %}} 
+     removed in order to differentiate between development and support  -->
 - Able to communicate clearly and effectively, both orally and in writing, in
   all business settings
 - Able to deliver positive outcomes even when initially given unclear
@@ -37,18 +47,16 @@ title: "Support Career Framework: Assigned Support Engineer"
 
 ### Technical Competencies
 
-<!-- {{% include "includes/engineering-careers/senior-technical-competency.md" %}} -->
-<!-- MIKE DUNNINGER: I've not yet progressed beyond this point in editing
-     the competencies to be appropriate for ASEs -->
+<!-- {{% include "includes/engineering-careers/senior-technical-competency.md" %}} 
+     removed in order to differentiate between development and support  -->
 
-- Able and willing to debug and resolve complex problems
-- Notices and escalates emerging issues
-- Becomes involved with issues that are likely to breach
-  due to their complexity
-- Contributes improvements to documentation
-- Fixes customer-impacting bugs
-- Strong understanding of GitLab's architecture
-- Contributes to the support team toolbox
+- Able to coach and mentor to others
+- Able to troubleshoot and resolve complex problems in any part of the GitLab
+  product
+- Able to contribute improvements to product documentation
+- Able to use their understanding of GitLab's architecture to find product
+  bugs and submit issues or MRs to fix them
+- Able to contribute to the support team toolbox
 
 ### Values Alignment
 
