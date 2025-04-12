@@ -464,6 +464,7 @@ GROUP BY 1;
 </details>
 
 ### fct_team_member_job_history
+
 This table contains team members' job history. Sensitive columns like `job_grade` are masked using [dynamic masking](/handbook/enterprise-data/platform/#dynamic-masking) and the fields are only visible to team members with the **analyst_people** role assigned in Snowflake. This table is a [hybrid SCD (Type 0 + Type 2)](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
 
 The table includes information from **Workday**, . The grain of this table is one row per `team member ID` and `workday_job_profile_id` combination.
@@ -510,6 +511,7 @@ SELECT *
 FROM retention_by_job_family
 WHERE NOT active_team_members = 0 --Excluded deprecated job families
 ```
+
 </details>
 
 ### fct_team_member_absence
@@ -622,8 +624,7 @@ Legacy models are models we will be transitioning from at some point but are sti
 
 | Database | Schema | Table Name | Data Grain | Description | Notes |
 | --- | --- | --- | --- | --- | --- |
-| prod | legacy | [employee_directory_analysis](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.employee_directory_analysis) | `employee_id` by `date_actual` | Gives the current state of the team members at GitLab at any point of time. This is the model to use for headcount, team size, or any people-related analysis for team members. This has current and past team members
-, as well as their department, division, and cost center and hire/termination dates. | |
+| prod | legacy | [employee_directory_analysis](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.employee_directory_analysis) | `employee_id` by `date_actual` | Gives the current state of the team members at GitLab at any point of time. This is the model to use for headcount, team size, or any people-related analysis for team members. This has current and past team members, as well as their department, division, and cost center and hire/termination dates. | |
 | prep | sensitive | [employee_directory_intermediate](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.employee_directory_intermediate) | `employee_id` by `date_actual` | INCLUDES SENSITIVE INFORMATION. The master collection of all info about GitLab team members for their latest position. | |
 | prep | sensitive | [workday_terminations](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.workday_terminations) | `employee_id` | Provides the termination reason, and exit impact to allow the People Analytics team to accurately report on termination data | |
 | prep | workday | [blended_directory_source](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.blended_directory_source) | `employee_id` by `uploaded_at` and `source_system` | Daily upload of team member data used for downstream models. | Helpful source for auditing any data issues in Snowflake |
