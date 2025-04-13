@@ -1,5 +1,5 @@
 ---
-title: "Executive Business Administrators"
+title: "Executive Business Administrators(EBAs)"
 ---
 
 ## Intro
