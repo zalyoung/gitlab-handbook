@@ -183,6 +183,12 @@ load and knowledge are shared across team members.
 | Mar 31     | Apr 7     | @manojmj      | @jpcyiza         |
 | Apr 8      | Apr 13    | @jpcyiza      | @bcardoso-       |
 | Apr 14     | Apr 20    | @bcardoso-    | @eduardobonet    |
+| Apr 21     | Apr 27    | @eduardobonet | @mhamda          |
+| Apr 28     | May 4     | @mhamda       | @manojmj         |
+| May 5      | May 11    | @manojmj      | @jpcyiza         |
+| May 12     | May 18    | @jpcyiza      | @bcardoso-       |
+| May 19     | May 25    | @bcardoso-    | @eduardobonet    |
+| May 26     | Jun 1     | @eduardobonet | @mhamda          |
 
 During on call period, support requests should be acknowledge within 24h.
 
