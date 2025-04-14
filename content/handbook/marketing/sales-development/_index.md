@@ -66,7 +66,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **Announcements - (SDR Ops/Enablement - Chris Wang)**| [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL) |
 | **SDR AMER and EMEA (Manager - Jonathan Rivat)**              | [`#sdr_amer_emea_inbound`](https://gitlab.enterprise.slack.com/archives/C077J5ANZ0T) |
 | **BDR AMER (Manager - Brian Tabbert)**            | [`#amer_bdr`](https://gitlab.enterprise.slack.com/archives/C06J0U9EC8L) |
-| **BDR COMM AMER (Manager - Charlotte Platt)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
+| **BDR COMM AMER (Interim Manager - Brian Tabbert)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENT AMER (Manager - Christie Park)** | [`#bdr_amer_ent`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
 | **BDR FINS & LATAM AMER (Manager - Ashley Dunn)**       | [`#bdr_amer_fins_latam`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR PUBSEC AMER (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00)|
