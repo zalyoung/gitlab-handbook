@@ -36,7 +36,9 @@ Key Components:
 - **Git Integration**: Uses Gitaly to access repository content.
 - **Elasticsearch Client**: Manages connections to Elasticsearch and handles document submission.
 
-### Proposal: Indexing and chunking done in the Go Indexer, with the chunks immediately stored in vector storage
+### Proposal: Use Go Indexer to index chunks and Rails to index embeddings
+
+Indexing and chunking done in the Go Indexer, with the chunks immediately stored in vector storage.
 
 The indexer efficiently processes and chunks code files, while Rails handles generating and storing embeddings separately.
 
@@ -46,10 +48,10 @@ The indexer efficiently processes and chunks code files, while Rails handles gen
 - Indexer calls Gitaly to retrieve changed files.
 - Process each file by chunking the content using the configured chunker.
 - Create each chunk if not present
-    - Postgres: `INSERT into chunks (...) ON CONFLICT DO NOTHING`
-    - Elasticsearch/OpenSearch: `doc_as_upsert: true, detect_noop: true`
+  - Postgres: `INSERT into chunks (...) ON CONFLICT DO NOTHING`
+  - Elasticsearch/OpenSearch: `doc_as_upsert: true, detect_noop: true`
 - Delete orphaned chunks
-    - Postgres: `DELETE from chunks where filename = ? AND hash NOT IN (?)`
+  - Postgres: `DELETE from chunks where filename = ? AND hash NOT IN (?)`
 - Return upserted unique IDs back to Rails
 - AI Abstraction Layer tracks embedding references for each unique ID.
 - In batches, references are pulled from the queue.
