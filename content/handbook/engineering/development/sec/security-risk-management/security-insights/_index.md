@@ -178,13 +178,13 @@ We can monitor test results in the following Slack channels:
 
 ##### When the MR is approved (but not yet merged)
 
-* The `tier-3` label is automatically added.
-* E2E tests run via a downstream pipeline using the `e2e:test-on-omnibus job`.
+* The `pipeline:tier-3` label is automatically added.
+* E2E tests run via downstream pipelines that are named `e2e:test-on-cng` and `e2e:test-on-gdk`.
 * If the E2E job fails, it blocks the pipeline from moving forward. Test results are posted as a comment by the E2E bot on the merge request, review them carefully before proceeding.
 
 ##### When the MR is merged
 
-Once the MR is merged and environments are deployed:
+Once the MR is merged and the commit has been picked for auto-deploy to environments such as staging-canary, staging, production-canary and production:
 
 * When a flag is changed from `false` to `true` in an MR, E2E tests are triggered automatically. We do not trigger tests for `true` to `false` cases to save CI time.
 * If a flag is set to default to `true` in an MR, no ChatOps message is posted in the #e2e-run-staging or #e2e-run-production channels. ChatOps messages only appear when toggling a flag using the [/chatops commands](../../../../../support/workflows/chatops.md).
