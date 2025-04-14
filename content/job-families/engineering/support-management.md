@@ -164,7 +164,7 @@ The VP of Support role extends the Director of Support Role through:
 
 Support Management have the following job-family performance indicators.
 
-- [Customer satisfaction with Support](/handbook/support/#support-satisfaction-ssat)
+- [Customer satisfaction with Support](/handbook/support/performance-indicators/#support-satisfaction-ssat)
 - [Manage team within approved operating expenses](/handbook/support/#customer-support-operating-expenses)
 - [Service Level Agreement](/handbook/support/#service-level-agreement-sla)
 - [Maintain hiring plan and capacity to achieve IC:Manager ratio](/handbook/support/#individual-contributor-to-manager-ratio)

@@ -164,7 +164,7 @@ Because remote onboarding is mostly self-guided, the real-time face-to-face abil
 1. **Introduce them to any tools for connecting with colleagues.** Chat tools such as Slack may seem ubiquitous, but not everyone has used them before - and even if they have, they may not know how your network is organized.
 1. **Ask where they need help and connect them with the experts**. Connect new team members with subject matter experts if your assigned team member requests additional help in a given area.
 1. **Keep checking in regularly.** Checking in regularly will help them feel welcome and supported.
-1. **Provide backup if needed**. If you plan to be out (e.g. [vacation](/handbook/people-group/paid-time-off/), [company business](/handbook/travel), [events](https://about.gitlab.com/events/), etc.) during a new team member's first few weeks, make sure that a backup person is available to offer support.
+1. **Provide backup if needed**. If you plan to be out (e.g. [vacation](/handbook/people-group/paid-time-off/), [company business](/handbook/finance/travel/), [events](https://about.gitlab.com/events/), etc.) during a new team member's first few weeks, make sure that a backup person is available to offer support.
 
 ### What are some tips to plan an effective employee onboarding training?
 

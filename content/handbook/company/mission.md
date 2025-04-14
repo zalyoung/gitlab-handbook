@@ -36,7 +36,7 @@ work themselves. More than [3,000 people from the wider community](https://about
 We do this by having quality code, tests, documentation, popular frameworks,
 and offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
 and a dedicated [GitLab Design System](https://design.gitlab.com/).
-We use GitLab at GitLab Inc., we [dogfood](/handbook/product/product-processes/#dogfood-everything)
+We use GitLab at GitLab Inc., we [dogfood](/handbook/product/product-processes/dogfooding-for-r-d/)
 it and make it a tool we continue to love. We celebrate contributions by
 recognizing a Most Valuable Person (MVP) every month.
 We allow everyone to anticipate, propose, discuss, and contribute features by having everything on
