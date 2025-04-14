@@ -54,9 +54,7 @@ direction of these initiatives.
 
 ## Proposal
 
-### Option 1 - using service accounts
-
-#### User type definition
+### User type definition
 
 To enforce clearer security and permission boundaries, standardize types into
 2 categories:
@@ -70,7 +68,7 @@ account type.
 This eliminates security inconsistencies by applying uniform authentication and
 access control across all external and internal machine identities.
 
-#### Service accounts availability in the hierarchy
+### Service accounts availability in the hierarchy
 
 Service accounts are currently available at the top-group level on .com, and at
 the instance level for self-managed.
@@ -79,6 +77,7 @@ To provide flexibility and support a wider range of use cases, service accounts
 should be available at all levels in the hierarchy:
 
 - instance level
+- organizations
 - groups and subgroups
 - projects
 
@@ -92,7 +91,7 @@ will be migrated to `User#bot_namespace`.
 `User#bot_namespace` can reference to both levels - `Group` and
 `Namespaces::ProjectNamespace` namespaces.
 
-#### Tiering
+### Tiering
 
 Service accounts are currently a Premium / Ultimate feature.
 To fully support machine identities, Service accounts need to be available in
@@ -107,6 +106,42 @@ in the Free tier. Token expiration for Personal access tokens:
   tokens from becoming a security risk. Keeping optional expiry as a Premium /
   Ultimate feature maintains a balance between flexibility and security
   controls.
+
+### Visibility
+
+Service accounts are created at a specific point in the hierarchy and are only
+visible and accessible within that hierarchical branch.
+Eg. a service account created at a subgroup-level will not be visible by sibling
+or parent groups, or unrelated organizations.
+
+This is considered a non-breaking change, as existing memberships remain
+unaffected.
+However, with this change enabled, service accounts will no longer be accessible
+outside their hierarchical scope.
+
+### System-generated service accounts
+
+System-generated service accounts will follow the same visibility and access
+rules as user-created ones.
+Their management will also not differ: namespace owners will be able to manage
+them like any other service account.
+The UI may indicate that a service account is system-generated or user-created
+for clarity.
+
+### Open questions
+
+- How does our service account design align with industry standards? Are we
+  following to common patterns and expectations around service accounts?
+- How do we decouple membership and access? How do we support cross-project
+  access? Is relying on multiple service accounts acceptable, or do we need to
+  support cross-project access under a single token?
+
+## Alternative Solutions
+
+### Option 1 - using service accounts
+
+In addition to the current proposal, we also considered the following additional
+features:
 
 #### System-generated service accounts
 
@@ -235,9 +270,3 @@ As an example: starting from a defined cutoff date, new memberships for service
 accounts cannot be created.
 This preserves current access while simplifying future behavior without
 introducing a new user type.
-
-## Alternative Solutions
-
-- Do nothing
-  - Pros: requires no effort
-  - Cons: existing issues remain unresolved
