@@ -43,7 +43,7 @@ There are some online training courses that describe the managerial experience:
 **Exceed in Your Current Role**
 
 * Make sure that you exceed in your current role so you have the technical skillset proven for the next level
-* Exceed consistently for a long period of time. [See the performance/potential matrix](/handbook/people-group/talent-assessment/#the-performancepotential-matrix).
+* Exceed consistently for a long period of time. [See the performance/potential matrix](/handbook/people-group/talent-assessment/#the-performancegrowth-potential-matrix).
 * Have patience - growing into a management role takes time
 * Ask your manager what the gap is between where you are and where you want to be, and get a plan in place to grow. If your manager does not have a plan, ask for one and provide valid feedback about the timeline
 * Get a [mentor](/handbook/people-group/learning-and-development/mentor/) to help you grow to where you want to be

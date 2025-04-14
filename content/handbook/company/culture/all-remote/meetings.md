@@ -262,7 +262,7 @@ All-remote virtual offsites are cost-effective and enable team members to pivot 
 
 ### How do I run a remote board meeting?
 
-In April 2019, GitLab transitioned our board meetings to all-remote. This means that none of the attendees are colocated. By doing so, we've made it as easy as possible for the right people to attend our board meetings, including board members, observers, executives, and anyone doing a [deep dive](/handbook/board-meetings#deep-dives), which can include directors, managers, and, in some cases, individual contributors.
+In April 2019, GitLab transitioned our board meetings to all-remote. This means that none of the attendees are colocated. By doing so, we've made it as easy as possible for the right people to attend our board meetings, including board members, observers, executives, and anyone doing a deep dive, which can include directors, managers, and, in some cases, individual contributors.
 
 Learn more on [how to run an all-remote board meeting](https://about.gitlab.com/blog/2020/04/15/remote-board-meeting/).
 

@@ -91,7 +91,7 @@ Any custom labels or tags that are created should use the respective realm slug 
         <tr>
             <td><code>infra-shared-services</code></td>
             <td>
-                <a href="/handbook/infrastructure-standards/realms/infra-shared-services">Infrastructure Shared Services</a>
+                <a href="/handbook/company/infrastructure-standards/realms/infra-shared-services/">Infrastructure Shared Services</a>
             </td>
             <td>
                 This is for top-level infrastructure and shared services managed by the Infrastructure Realm Owners in Business Technology, Engineering Infrastructure, and Infrastructure Security teams.
@@ -100,7 +100,7 @@ Any custom labels or tags that are created should use the respective realm slug 
         <tr>
             <td><code>saas</code></td>
             <td>
-                <a href="/handbook/infrastructure-standards/realms/saas">GitLab SaaS</a>
+                <a href="/handbook/company/infrastructure-standards/realms/saas/">GitLab SaaS</a>
             </td>
             <td>
                 This is for GitLab.com SaaS that is managed by Engineering Infrastructure and Site Reliability Engineers.
@@ -109,7 +109,7 @@ Any custom labels or tags that are created should use the respective realm slug 
         <tr>
             <td><code>sandbox</code></td>
             <td>
-                <a href="/handbook/infrastructure-standards/realms/sandbox">Compute Sandbox Cloud</a>
+                <a href="/handbook/company/infrastructure-standards/realms/sandbox/">Compute Sandbox Cloud</a>
             </td>
             <td>
                 This is for sandbox and ephemeral testing resources that provides an account/project for each user that are self-administered by each team member.
@@ -134,7 +134,7 @@ Any custom labels or tags that are created should use the respective realm slug 
         <tr>
             <td><code>eng-infra</code></td>
             <td>
-                <a href="/handbook/infrastructure-standards/realms/eng-infra">Engineering Infrastructure</a>
+                <a href="/handbook/company/infrastructure-standards/realms/eng-infra/">Engineering Infrastructure</a>
             </td>
             <td>
                 This is for additional services managed by Engineering Infrastructure and Site Reliability Engineers that may not be specific to GitLab.com SaaS (Ex. tools, release and package management services, etc).

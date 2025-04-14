@@ -104,13 +104,13 @@ The IT Infrastructure team manages AWS and GCP infrastructure that is not relate
 <br />
 We collaborate with the <a href="/handbook/engineering/infrastructure/">Reliability Engineering (SRE)</a> and <a href="/handbook/security/product-security/infrastructure-security/">Infrastructure Security</a> teams to provide Infrastructure Shared Services for all AWS, Azure, and GCP related requests and support across the organization.<br />
 <br />
-We also provide escalation engineering and triage support for the <a href="/handbook/security/security-operations/sirt">Security Incident Response Team ("SIRT")</a> and <a href="/handbook/security/security-operations/red-team">Security Red Team</a> when security anomalies, events, or incidents require AWS/GCP subject matter expertise.<br />
+We also provide escalation engineering and triage support for the <a href="/handbook/security/security-operations/sirt">Security Incident Response Team ("SIRT")</a> and <a href="/handbook/security/security-operations/red-team/">Security Red Team</a> when security anomalies, events, or incidents require AWS/GCP subject matter expertise.<br />
 <br />
 Our focus is on organizational policy management, access request provisioning, and services that are outside of the <a href="/handbook/engineering/infrastructure">Reliability Engineering</a> scope of hosting the GitLab.com SaaS service, such as the provisioning of demo/sandbox/test infrastructure for team members.<br />
 <br />
 The <a href="/handbook/customer-success/demo-systems">Demo Systems</a> provide an always-on shared sandbox environment for demo and experimental use cases that aren't intended for or supported on GitLab.com and don't need dedicated infrastructure to be provisioned for your use case.<br />
 <br />
-The <a href="/handbook/infrastructure-standards/realms/sandbox">GitLab Sandbox Cloud</a>, powered by <a href="https://gitlab.com/gitlab-com/business-technology/engineering/tools/hackystack">HackyStack</a>, automates the provisioning of AWS accounts, AWS IAM users, GCP projects, and GCP users. This has allowed us to automate a large portion of our AWS and GCP access requests.<br />
+The <a href="/handbook/company/infrastructure-standards/realms/sandbox/">GitLab Sandbox Cloud</a>, powered by <a href="https://gitlab.com/gitlab-com/business-technology/engineering/tools/hackystack">HackyStack</a>, automates the provisioning of AWS accounts, AWS IAM users, GCP projects, and GCP users. This has allowed us to automate a large portion of our AWS and GCP access requests.<br />
 
 </details>
 
