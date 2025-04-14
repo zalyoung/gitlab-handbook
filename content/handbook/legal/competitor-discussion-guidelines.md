@@ -13,7 +13,7 @@ These guidelines govern how to discuss and reference competitor product features
 
 - **Does not apply to**: Discussions in confidential issues, internal materials, or platforms accessible only to GitLab team members (like MURAL). For clarification on external vs. internal use, see the [External vs. Internal Use](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) section of the Materials Legal Review Process.
 
-- **Note** that the term "Screenshots" when used within these guidelines include screenshots and screen recordings from any source, including publicly available sources (YouTube videos, websites) or directly from competitor products.
+- **Note** that the term "Screenshots" when used within these guidelines includes screenshots and screen recordings from any source, including publicly available sources (YouTube videos, websites) and directly from competitor products.
 
 ## Dos and don'ts
 
