@@ -15,6 +15,8 @@ toc_hide: true
 
 ## Summary
 
+**Associated Epic: [#17330: Pipelines Table Redesign and GraphQL Migration](https://gitlab.com/groups/gitlab-org/-/epics/17330)**
+
 The Pipelines Table is a critical component of GitLab's CI/CD experience, appearing in three key locations throughout the application:
 
 1. The main Pipelines page
