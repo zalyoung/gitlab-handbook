@@ -21,7 +21,7 @@ If the user is a GitLab team member, have them [contact IT Ops](/handbook/it/end
 
 ### Self Service 2FA removal
 
-In most cases, users can disable 2FA themselves and regain access to their accounts using [one of the documented methods](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html#recovery-options).
+In most cases, users can disable 2FA themselves and regain access to their accounts using [one of the documented methods](https://docs.gitlab.com/user/profile/account/two_factor_authentication/#recovery-codes).
 
 > As of August 2020, [Support will not intervene for free users](https://about.gitlab.com/blog/2020/08/04/gitlab-support-no-longer-processing-mfa-resets-for-free-users/) if self-service methods do not work for them.
 
