@@ -31,7 +31,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ## Goals
 
-1. Provide modular and reusable GitLab CI components for generating verifying SLSA provenance attestations.
+1. Provide modular and reusable GitLab CI components for generating and verifying SLSA provenance attestations.
 1. Collect detailed build metadata for supported ecosystems (e.g., containers, Go, Maven).
 1. Embed GitLab-specific platform data (e.g., pipeline variables, commit IDs) into provenance for traceability.
 1. Support out-of-pipeline signing via secure KMS or HSM, isolating signing keys from build environments.
@@ -51,7 +51,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 1. SLSA: Supply-chain Levels for Software Artifacts, a framework for improving supply chain security.
 1. Provenance predicate: Metadata that describes how an artifact was built, including the source code, dependencies, and environment.
 1. Provenance statement: Document that binds a provenance predicate to a software artifact.
-1. Provenance attestation: Envelope that combines a provenance statement and with a signature.
+1. Provenance attestation: Envelope that combines a provenance statement with a signature.
 1. Sigstore: An open-source tool for signing, verifying, and storing software artifacts securely (e.g., cosign and gitsign).
 1. OIDC Token: Short-lived, identity-based tokens issued by GitLab CI for secure signing.
 1. Runner: A build agent that executes GitLab CI/CD pipeline jobs.
@@ -76,9 +76,9 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
 
-1. Generate provenance attestation using Sigstore tools (cosign).
+1. Generate provenance attestations using Sigstore tools (cosign).
 1. Leverage GitLab CI’s OIDC tokens for secure and short-lived credentials.
-1. Verify provenance attestation and generate Verification Summary Attestation (VSA).
+1. Verify provenance attestations and generate Verification Summary Attestations (VSA).
 1. Build reusable GitLab CI components that can be easily included in pipelines.
 
 ### Phase 2: In-Pipeline Data Collection
