@@ -364,13 +364,13 @@ SFDC campaigns have a general set of required fields. This section describes the
   - Update `Is an Alliance Partner involved?` - You can leave this blank if "No"
     - If yes, add the `Alliance Partner Name`
   - Update `Will there be MDF Funding` - You can leave this blank if "No"
-    - If yes, lookup the `MDF Request` in this field: [Detailed instructions](https://handbook.gitlab.com/handbook/marketing/channel-marketing/mdf-operations-process/#step-3-add-mdf-request-on-the-salesforce-campaign)
+    - If yes, lookup the `MDF Request` in this field: [Detailed instructions](/handbook/marketing/channel-marketing/mdf-operations-process/#step-3-add-mdf-request-on-the-salesforce-campaign)
   - Update `Integrated Campaign` if applicable
   - Update `GTM Motion` if applicable
   - If there will be `Sales Dev Invite Support` - check this box. Otherwise leave blank
   - If there will be `Sales Dev Onsite Support` - check this box. Otherwise leave blank
   - Update `Is Hyperscaler involved?` to Yes if a hyperscaler is involved.
-    - If yes, add the hyperscaler partner name after the date in your campaign name. Example using Executive Roundtable: YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType. For more info, [see](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
+    - If yes, add the hyperscaler partner name after the date in your campaign name. Example using Executive Roundtable: YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
     - If yes, enter the hyperscaler partner name in the `Hyperscaler` field
   - Update the event epic
   - Update the description (if any)
@@ -385,7 +385,6 @@ SFDC campaigns have a general set of required fields. This section describes the
     - There were GitLab Dollars spent on the campaign (Field, Digital, Corporate, Community etc.) - can be left blank in the cases when we have campaigns that do not utilize budget; - **NOTE:** By updating the budget holder, we do **NOT** run the risk of double counting touchpoints, however, do keep in mind that since the field is not always filled out, it shouldn't be used for measuring each team's performance.
 - Click "Save"
 - Add the Marketo program link and SFDC campaign link to the epic.
-
 
 _If you are utilizing the Allocadia, please see below instructions._
 
@@ -655,7 +654,7 @@ All programs have different necessities so it will be important to determine how
 
 ### Step 7: Update the Salesforce campaign
 
-Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 
 ### Step 8: Update the Salesforce campaign - Using Allocadia
 
@@ -781,7 +780,7 @@ These steps are not yet configured. If you are planning to do this for your next
 
 ### Step 5: Update the Salesforce campaign
 
-Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 
 - Add the Marketo program link and SFDC campaign link to the epic.
 - If the program is being ran by Digital Marketing, add the SFDC campaign under the parent campaign `Demand Gen Pulishers/Sponsorships`
@@ -831,7 +830,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 
 ### Step 5: Update the Salesforce campaign
 
-Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 
 **If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
 
@@ -887,7 +886,7 @@ Use these instructions if you are NOT working through Integrate DAP. For the ins
 
 ### Step 5: Update the Salesforce campaign
 
-Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 
 - Add the Marketo program link and SFDC campaign link to the epic.
 - If the program is being ran by Digital Marketing, add the SFDC campaign under the parent campaign `Demand Gen Pulishers/Sponsorships`
@@ -1217,7 +1216,7 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 ### Step 3: Update the Salesforce campaign
 
 - Add `Parent Campaign` of `2020_Social_LinkedIn_Lead Gen`
-- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 - Add the Marketo program link and SFDC campaign link to the epic or issue.
 
 ### Step 4: Go back into Marketo Template
