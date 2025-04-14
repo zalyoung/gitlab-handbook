@@ -110,11 +110,11 @@ In the cases of incidents that are on-going and require constant communication t
 
 | Group & Contacts | When to Engage | DRI to Engage | At what Cadence | In what Channel |
 | ------ | ------ | ------ | ------ | ------ |
-| Director of Security Operations | For S1 incidents immediately upon determination of the S1 severity rating | `SIMOC/CMOC` | 30 minute intervals (unless otherwise requested) | In incident response Slack channel |
-| VP of Security | For S1 incidents immediately upon determination of the S1 severity rating | `Director of Security Operations` | 30 minute intervals (unless otherwise requested) | Slack direct message |
-| Broader e-group | Immediately in cases of a data breach or an RCE with evidence of exploitation | `VP of Security` | 30 minute intervals (unless otherwise requested) | `#e-group` Slack channel |
+| VP of Security Operations | For S1 incidents immediately upon determination of the S1 severity rating | `SIMOC/CMOC` | 30 minute intervals (unless otherwise requested) | In incident response Slack channel |
+| CISO | For S1 incidents immediately upon determination of the S1 severity rating | `VP of Security Operations` | 30 minute intervals (unless otherwise requested) | Slack direct message |
+| Broader e-group | Immediately in cases of a data breach or an RCE with evidence of exploitation | `CISO` | 30 minute intervals (unless otherwise requested) | `#e-group` Slack channel |
 | Sr. Director of Corporate Marketing and Director of Corporate Communications | Immediately, if the incident has been publicly reported or if there is a regulatory requirement to make an announcement. In other cases, once the full impact and associated risk has been determined. | `SIMOC/CMOC` | Continuous | In incident response Slack channel |
-| Legal | If GitLab EE customers are impacted, or if the security incident includes a data breach including but not limited to: <br> Exposure of PII / Personal Data <br> Private Projects <br> Financial Information | `VP of Security` | Continuous | Incident response Slack channel |
+| Legal | If GitLab EE customers are impacted, or if the security incident includes a data breach including but not limited to: <br> Exposure of PII / Personal Data <br> Private Projects <br> Financial Information | `CISO` | Continuous | Incident response Slack channel |
 | `Designated key approvers`| As soon as we know we'll need to communicate with customers | `CMOC` | Continuous | Incident response Slack channel |
 
 ## Communicating externally
@@ -146,7 +146,7 @@ Our intent is to provide clear and accurate information to GitLab users as quick
 
 | Group | **Blog** | **Customer Email** | **FAQs for Support Teams** | **Media Response** | **Social/Forum Response** |
 |------------------------------|------|----------------|------------------------|----------------|-----------------------|
-| `VP of Security` | Approver | Approver | Approver | Approver if quote attributed to Security, FYI otherwise | FYI Only |
+| `VP of Security Operations` | Approver | Approver | Approver | Approver if quote attributed to Security, FYI otherwise | FYI Only |
 | `Senior Director of Legal, Privacy and Product` | Approver | Approver | Approver | Approver | Approver |
 | `VP Customer Success` | Approver | Approver | FYI Only | Approver | FYI Only |
 | [Support Manager on Call](/handbook/security/security-operations/sirt/security-incident-communication-plan/#extended-team-roles-responsibilities-and-points-of-contact) | FYI Only | FYI Only | FYI Only  | FYI Only | FYI Only |
@@ -161,9 +161,9 @@ See [this doc](https://docs.google.com/document/d/1aGHdYmAVSkSJZdGgSPLkY1MFitJ78
 
 **- For the "required" approvers, we need at least 2 designated back-up approvers.**
 
-- Security: If `VP Security` is not available, one of the `Security directors` may approve, if not available move to `VP of Engineering`.
+- Security: If `VP of Security Operations` is not available, one of the `VP of Security` may approve, if not available move to `VP of Engineering`.
 - Legal: `Senior Director of Legal, Privacy and Product` can approve. If not available, then move to `Legal Counsel`, and then move to `CLO`.
-- Customer Success: `VP Customer Success` can approve. If not available, `Snr Director, Customer Success Managers`, then `Director of Customer Success, Public Sector`.
+- Customer Success: `VP of Customer Success` can approve. If not available, `Snr Director, Customer Success Managers`, then `Director of Customer Success, Public Sector`.
 - Support Team: `Support Manager on call` can approve. If not available, move to a member of [Support Senior Leadership](https://gitlab.com/groups/gitlab-com/support/managers/senior/-/group_members?with_inherited_permissions=exclude), then to [Support Managers](https://gitlab.com/groups/gitlab-com/support/managers/-/group_members?with_inherited_permissions=exclude) if needed.
 - Corporate Comms: `Director of Corp Comms` can approve. If not available, move to `Manager, Public Relations` and then move to `Manager, Corp Comms` if needed.
 - Investor Relations: `VP of Investor Relations` can approve. If not available, move to `Chief Financial Officer`, and then move to `VP Finance and Business Technology` for back-up approval.
