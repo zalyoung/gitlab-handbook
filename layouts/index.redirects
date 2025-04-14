@@ -89,6 +89,10 @@
 # Organization filename cleanup - remove 2025-06-26
 /handbook/engineering/architecture/design-documents/organization/organization-faq/ /handbook/engineering/architecture/design-documents/organization/faq/ 301
 
+# SMB team name updates - remove 2025-07-14
+/handbook/sales/commercial/global_digital_smb/* /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
+
+
 # Product Dev flow moved - remove 2025-07-29
 /handbook/product-development-flow/ /handbook/product-development/product-development-flow/ 301
 /handbook/product-development-flow/* /handbook/product-development/product-development-flow/:splat 301
@@ -118,6 +122,3 @@
 # Infra library moved - remove 2025-10-10
 /handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
 /handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
-
-# SMB team name updates - remove 2025-07-11
-/handbook/sales/commercial/global_digital_smb/* /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
