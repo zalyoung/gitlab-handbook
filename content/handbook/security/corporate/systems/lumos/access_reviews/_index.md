@@ -36,11 +36,13 @@ When a review is assigned to you, you will receive a notification through Slack 
 
 Access review administrators must include a messave when launching access reviews, to assist unfamiliar reviewers with how to perform an access review. Use the template below.
 
-    You have been assigned to perform a user access review for a system at GitLab. Please see the instructions listed below.
+```
+You have been assigned to perform a user access review for a system at GitLab. Please see the instructions listed below.
 
-    App name: <insert app name>
+App name: <insert app name>
 
-    https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/access_reviews/
+https://handbook.gitlab.com/handbook/security/corporate/systems/lumos/access_reviews/
+```
 
 ## Need help? Have a question?
 
