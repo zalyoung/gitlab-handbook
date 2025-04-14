@@ -224,13 +224,13 @@ Refer to the [Access Change Request](/handbook/it/end-user-services/onboarding-a
 
 ### How do I get my application set up within Okta?
 
-If you are an application owner please submit a [new application setup issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request) on the Okta project page for your application.
+If you are an application owner please submit an [Okta app change issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?description_template=okta_app_change) on the Okta project page for your application.
 We will work with you to verify details and provide setup instructions.
 
 ### I have an application that uses a shared password for my team, can I move this to Okta?
 
 Yes you can!
-Submit a [new application setup issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request) on the Okta project page for your application.
+Submit a [new application setup issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?description_template=okta_app_change) on the Okta project page for your application.
 We will work with you to verify details and provide setup instructions.
 
 If you are having problems with being asked for multiple MFA authentications during the day, please [log an issue](https://gitlab.com/gitlab-com/business-technology/change-management/issues) and we can look into it.
