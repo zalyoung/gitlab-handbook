@@ -91,6 +91,13 @@
 
 # SMB team name updates - remove 2025-07-14
 /handbook/sales/commercial/global_digital_smb/* /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
+/handbook/sales/self-service/ /handbook/sales/high-velocity-sales-fo-team/ 301
+/handbook/sales/self-service/self-service-data/ /handbook/sales/commercial/high_velocity_sales_first_orders/hvs_fo_data_ops/ 301
+/handbook/sales/commercial/gds-feedback/ /handbook/sales/commercial/hvs_fo_feedback/ 301
+/handbook/sales/commercial/renewals-faq/ https://docs.gitlab.com/subscriptions/customers_portal/ 301
+/handbook/sales/commercial/handover/ /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
+/handbook/sales/commercial/first-order/ /handbook/sales/commercial/ 301
+/handbook/sales/commercial/activitylogging/ /handbook/sales/commercial/high_velocity_sales_first_orders/ 301
 
 
 # Product Dev flow moved - remove 2025-07-29
