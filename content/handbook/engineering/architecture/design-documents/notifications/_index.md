@@ -109,29 +109,6 @@ Create a unified notification center built on an event-driven architecture that:
 
 We need to persist notifications in a new _notifications_ database table. This table will store data about notifications - what kind of notification it is, what resource it's connected with, the state of it, information if it is saved by the user, etc.
 
-An example of the table schema could be the following, although actual schema is TBD:
-
-```mermaid
-erDiagram
-  NOTIFICATION {
-        bigint id
-        bigint user_id
-        bigint namespace_id
-        bigint target_id
-        smallint target_type
-        bigint author_id
-        smallint action
-        smallint state
-        timestamp created_at
-        timestamp updated_at
-        string commit_id
-        smallint resolved_by_action
-        bigint note_id
-        timestamp snoozed_until 
-        boolean saved
-    }
-```
-
 Our requirements are that we will be accessing todos in the majority of situations by user_id, and possible filtering patterns are: 
 
 - by project
@@ -146,6 +123,192 @@ We also have some other requirements:
 
 - Non-functional requirement: The new database tables must not use STI.
 - Functional requirement: We need to be able to paginate. 
+
+#### Proposal of database structure
+
+##### 📄 Technical Proposal: Notification System Design
+
+###### 🧠 Goal
+
+Design a flexible and normalized database structure to manage **user notifications** about different types of resources (issues, notes, merge requests, epics), while avoiding:
+
+- Single Table Inheritance (STI)
+- Polymorphic Associations
+
+##### 🏗️ Database Design Overview
+
+###### 1. `notifications` table (centralized)
+
+Stores notifications per user.
+
+```sql
+CREATE TABLE notifications (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id),
+  read BOOLEAN DEFAULT FALSE,
+  created_at TIMESTAMP DEFAULT NOW(),
+  updated_at TIMESTAMP DEFAULT NOW()
+);
+```
+
+###### 2. Resource Link Tables (one per resource)
+
+Each notification links to exactly **one** resource via a dedicated table.
+
+```sql
+CREATE TABLE issue_notification_links (
+  notification_id INTEGER PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  issue_id INTEGER NOT NULL REFERENCES issues(id)
+);
+
+CREATE TABLE note_notification_links (
+  notification_id INTEGER PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  note_id INTEGER NOT NULL REFERENCES notes(id)
+);
+
+CREATE TABLE merge_request_notification_links (
+  notification_id INTEGER PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  merge_request_id INTEGER NOT NULL REFERENCES merge_requests(id)
+);
+
+CREATE TABLE epic_notification_links (
+  notification_id INTEGER PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  epic_id INTEGER NOT NULL REFERENCES epics(id)
+);
+```
+
+##### 🔍 Entity Relationship Diagram
+
+```mermaid
+erDiagram
+  users ||--o{ notifications : has
+  notifications ||--|| issue_notification_links : links
+  notifications ||--|| note_notification_links : links
+  notifications ||--|| merge_request_notification_links : links
+  notifications ||--|| epic_notification_links : links
+```
+
+##### ⚖️ Validation Strategy
+
+###### ✅ Application-Level Validation (Rails)
+
+```ruby
+# app/models/notification.rb
+class Notification < ApplicationRecord
+  belongs_to :user
+
+  has_one :issue_notification_link
+  has_one :note_notification_link
+  has_one :merge_request_notification_link
+  has_one :epic_notification_link
+
+  has_one :issue, through: :issue_notification_link
+  has_one :note, through: :note_notification_link
+  has_one :merge_request, through: :merge_request_notification_link
+  has_one :epic, through: :epic_notification_link
+
+  validate :only_one_resource_linked
+
+  def only_one_resource_linked
+    links = [
+      issue_notification_link,
+      note_notification_link,
+      merge_request_notification_link,
+      epic_notification_link
+    ].compact
+
+    errors.add(:base, "Only one resource can be linked to a notification") if links.size > 1
+  end
+end
+```
+
+##### ⚙️ Notification Creation Service
+
+Encapsulates logic for resource-safe creation:
+
+```ruby
+class NotificationCreator
+  def self.create_for(resource:, user:)
+    notification = Notification.create!(user: user)
+
+    case resource
+    when Issue
+      IssueNotificationLink.create!(notification: notification, issue: resource)
+    when Note
+      NoteNotificationLink.create!(notification: notification, note: resource)
+    when MergeRequest
+      MergeRequestNotificationLink.create!(notification: notification, merge_request: resource)
+    when Epic
+      EpicNotificationLink.create!(notification: notification, epic: resource)
+    else
+      raise ArgumentError, "Unsupported resource type"
+    end
+
+    notification
+  end
+end
+```
+
+##### 📦 Rails Model Summary
+
+Each link table has a corresponding model, e.g.:
+
+```ruby
+class IssueNotificationLink < ApplicationRecord
+  belongs_to :notification
+  belongs_to :issue
+end
+```
+
+Repeat similarly for `NoteNotificationLink`, `MergeRequestNotificationLink`, and `EpicNotificationLink`.
+
+---
+
+##### 📊 Query Examples
+
+###### Get all user notifications with resource type
+
+```sql
+SELECT n.id, 'Issue' AS resource_type, i.title, n.read, n.created_at
+FROM notifications n
+JOIN issue_notification_links l ON l.notification_id = n.id
+JOIN issues i ON i.id = l.issue_id
+WHERE n.user_id = :user_id
+
+UNION ALL
+
+SELECT n.id, 'Note', no.content, n.read, n.created_at
+FROM notifications n
+JOIN note_notification_links l ON l.notification_id = n.id
+JOIN notes no ON no.id = l.note_id
+WHERE n.user_id = :user_id
+
+UNION ALL
+
+SELECT n.id, 'MergeRequest', mr.title, n.read, n.created_at
+FROM notifications n
+JOIN merge_request_notification_links l ON l.notification_id = n.id
+JOIN merge_requests mr ON mr.id = l.merge_request_id
+WHERE n.user_id = :user_id
+
+UNION ALL
+
+SELECT n.id, 'Epic', e.title, n.read, n.created_at
+FROM notifications n
+JOIN epic_notification_links l ON l.notification_id = n.id
+JOIN epics e ON e.id = l.epic_id
+WHERE n.user_id = :user_id
+
+ORDER BY created_at DESC;
+```
+
+##### ✅ Benefits of This Design
+
+- No STI or polymorphic associations
+- Full referential integrity via FK constraints
+- Clear separation of responsibilities
+- Rails-friendly with explicit models
+- Easier indexing and performance optimization
 
 ### Notification settings 
 
