@@ -29,6 +29,48 @@ By tackling both efforts simultaneously, we can significantly reduce development
 
 ![pipelines_table](/images/engineering/architecture/design-documents/pipelines_table_redesign/pipelines_table.png)
 
+## Business Impact
+
+### User Impact
+
+The proposed redesign and migration will significantly improve the GitLab CI/CD experience by:
+
+- **Improving Performance**: Reducing initial load time by 50%+, translating directly to increased developer productivity
+- **Enhancing Information Access**: Implementing progressive disclosure to show essential information first while making details available on demand
+- **Streamlining Troubleshooting**: Prioritizing failed jobs and actionable items in the expanded view to reduce MTTR
+- **Addressing Current Issues**: Resolving multiple open issues related to Pipelines Table functionality, addressing long-standing user pain points
+- **Preparing for Real-time Updates**: Establishing the foundation for future instantaneous pipeline status updates
+
+### Business Value
+
+This initiative delivers substantial business value through:
+
+- **Infrastructure Cost Savings**: 30-40% reduction in CI/CD-related server load by eliminating polling and reducing payload sizes
+- **Developer Efficiency**: Significant time savings across millions of daily pipeline interactions through faster load times and improved information hierarchy
+- **Competitive Positioning**: Reinforcing GitLab's market position by addressing key performance concerns
+- **Technical Debt Elimination and Prevention**: Eliminating significant existing technical debt while avoiding future rework by proactively implementing modern patterns and technologies
+
+### Risk Mitigation
+
+The implementation strategy includes several elements to mitigate potential business risks:
+
+- **Feature Flag Approach**: The phased rollout behind a feature flag allows for controlled testing and monitoring, reducing the risk of disruption to critical workflows.
+- **User Preference Toggle**: Providing users with the ability to switch between implementations ensures that those who rely heavily on the current interface can continue their work without interruption while adapting to the new design.
+- **Feature Parity**: Maintaining feature parity for all critical pipeline information ensures that users don't lose functionality during the transition.
+- **Comprehensive Metrics**: Detailed performance and user satisfaction metrics will be collected to validate improvements and identify any areas requiring adjustment.
+
+### ROI Calculation
+
+Based on preliminary estimates:
+
+| Investment                                                                                      | Return                                                    |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Engineering effort: Partial allocation over ~4-5 milestones (approx 30% of engineers' time)     | 30-40% reduction in CI/CD-related server resources        |
+| Product design effort: Partial allocation over ~2 milestones                                    | Measurable improvement in pipeline interaction efficiency |
+| QA and validation effort: Partial allocation over ~1-2 milestones                               | Reduction in CI/CD-related support tickets                |
+|                                                                                                 | Improved user satisfaction scores                         |
+|                                                                                                 | Foundation for future real-time capabilities              |
+
 ## Motivation
 
 ### GraphQL Migration
@@ -52,27 +94,34 @@ The primary motivation for redesigning the Pipelines Table UI is to address crit
 - **Unnecessary Data Loading**: Most users only need to view detailed mini graph information for a small subset of pipelines, yet we currently load this data for all visible pipelines.
 - **Progressive Disclosure Opportunity**: By moving the mini graph and other detailed information to an expandable view loaded with a secondary request, we can drastically improve initial load performance while still providing access to all pipeline details.
 - **Enhanced Pipeline Details**: Moving detailed information to a secondary request enables us to build a more robust Pipeline Details component that can include richer visualizations, comprehensive failed jobs information, and more detailed metrics without impacting initial page performance.
-- **Addressing Accumulated UX Issues**: This redesign provides an opportunity to address several long-standing UX issues in a coordinated effort rather than piecemeal fixes. Current tracked UX issues include:
 
-    **High Complexity Issues (Weight 3)**:
+### Previous Work and Issues Addressed
 
-  - [Improve Pipeline table layout and design](https://gitlab.com/gitlab-org/gitlab/-/issues/321517)
-  - [Make pipeline mini-graph representation more user-friendly](https://gitlab.com/gitlab-org/gitlab/-/issues/327900)
+This initiative builds upon previous efforts while comprehensively addressing identified UX pain points. By combining the GraphQL migration with UI redesign, we can make progress on:
 
-    **Medium Complexity Issues (Weight 2)**:
+#### Previous Migration Attempts
 
-  - [Add created-at time for running pipelines](https://gitlab.com/gitlab-org/gitlab/-/issues/432373)
-  - [Reevaluate the tabs headings on pipeline index page](https://gitlab.com/gitlab-org/gitlab/-/issues/329513)
-  - [Make "Triggered by me" pipelines more accessible](https://gitlab.com/gitlab-org/gitlab/-/issues/300256)
-  - [Provide project-level configuration options for pipeline displays](https://gitlab.com/gitlab-org/gitlab/-/issues/339651)
+Several attempts to address pipeline table performance through GraphQL migration have not gained sufficient traction as standalone initiatives. While these efforts targeted individual components, our proposal addresses all three instances of the pipeline table throughout the application:
 
-    **Lower Complexity Issues (Weight 1)**:
+- **[Epic #11080: Migrate MR pipelines tab to GraphQL](https://gitlab.com/groups/gitlab-org/-/epics/11080)**
+- **[Epic #16831: Migrate pipelines table to GraphQL](https://gitlab.com/groups/gitlab-org/-/epics/16831)**
+- **[Issue #223264: Move pipelines page to GraphQL](https://gitlab.com/gitlab-org/gitlab/-/issues/223264)**
+- **[Issue #223267: Move pipelines table filter search to GraphQL](https://gitlab.com/gitlab-org/gitlab/-/issues/223267)**
 
-  - [Add missing tooltips on pipeline and job list view](https://gitlab.com/gitlab-org/gitlab/-/issues/435814)
-  - [Add skeleton loader to the pipeline tab on merge requests](https://gitlab.com/gitlab-org/gitlab/-/issues/354074)
-  - [Align buttons on the pipeline index page with design system](https://gitlab.com/gitlab-org/gitlab/-/issues/365616)
+These previous efforts highlighted the need for pipeline table improvements but faced challenges in prioritization when treated as separate initiatives.
 
-Combining these two initiatives creates an opportunity to significantly improve both the performance and usability of the pipeline experience while establishing the foundation for real-time updates.
+#### UX Issues by Complexity
+
+The redesign also provides an opportunity to address several long-standing UX issues in a coordinated effort:
+
+| High (Weight 3) | Medium (Weight 2) | Low (Weight 1) |
+|:---------------:|:-----------------:|:--------------:|
+| [#321517](https://gitlab.com/gitlab-org/gitlab/-/issues/321517)<br>Improve table layout | [#432373](https://gitlab.com/gitlab-org/gitlab/-/issues/432373)<br>Add created-at time | [#435814](https://gitlab.com/gitlab-org/gitlab/-/issues/435814)<br>Add missing tooltips |
+| [#327900](https://gitlab.com/gitlab-org/gitlab/-/issues/327900)<br>Improve mini-graph UX | [#329513](https://gitlab.com/gitlab-org/gitlab/-/issues/329513)<br>Reevaluate tab headings | [#354074](https://gitlab.com/gitlab-org/gitlab/-/issues/354074)<br>Add skeleton loader |
+| | [#300256](https://gitlab.com/gitlab-org/gitlab/-/issues/300256)<br>Improve "Triggered by me" | [#365616](https://gitlab.com/gitlab-org/gitlab/-/issues/365616)<br>Align buttons with design system |
+| | [#339651](https://gitlab.com/gitlab-org/gitlab/-/issues/339651)<br>Add configuration options | |
+
+Our user research indicates that pipeline performance and usability issues are consistently reported as significant pain points by users, yet addressing them has been repeatedly deprioritized in favor of new feature development.
 
 ## Goals
 
@@ -138,6 +187,7 @@ The new design will separate pipeline information into two levels:
 2. **Expanded View (Detailed Information)**
 
    _Appears when user expands a pipeline row_
+
    - Possibly pipeline mini graph visualization (see [Pipeline Mini Graph Placement](#pipeline-mini-graph-placement) decision)
    - Failed jobs information
    - Job actions
@@ -184,6 +234,14 @@ The implementation will be phased as follows:
 - Gather user feedback through dedicated feedback channels
 - Adjust default toggle settings based on feedback and metrics
 - Complete rollout when adoption and satisfaction metrics meet targets
+
+### Contributors
+
+The implementation of this initiative will require:
+
+- 3-4 Frontend engineers
+- 1-2 Backend engineers
+- 1-2 UX/UI designers
 
 ### Key Design Decisions
 
@@ -242,11 +300,13 @@ The user preference will be controlled with a GraphQL mutation:
 
 ```graphql
 mutation updateUsePipelinesListView($usePipelinesListView: Boolean) {
-  userPreferencesUpdate(input: { usePipelinesListView: $usePipelinesListView }) {
-    userPreferences {
-      usePipelinesListView
+    userPreferencesUpdate(
+        input: { usePipelinesListView: $usePipelinesListView }
+    ) {
+        userPreferences {
+            usePipelinesListView
+        }
     }
-  }
 }
 ```
 
@@ -282,11 +342,13 @@ This approach enables users to try the new design while maintaining access to th
 **Options**:
 
 1. **Include Mini Graph in Details View**
+
    - Provides visual representation of pipeline stages
    - Maintains familiar visualization element
    - Requires fetching data for all jobs, including non-actionable ones
 
 2. **Focus on Failed Jobs and Actionable Items**
+
    - Prioritizes information users need to take action
    - Reduces data requirements by focusing on relevant jobs
    - Shows stage summary without individual passed job details
@@ -380,31 +442,31 @@ We'll define a common fragment for all list queries to ensure consistency:
 ```graphql
 # fragments/pipeline_list_fields.fragment.graphql
 fragment PipelineListFields on Pipeline {
-  id
-  iid
-  detailedStatus {
-    ...CiIcon
-  }
-  createdAt
-  finishedAt
-  user {
     id
-    name
-    avatarUrl
-    webUrl
-  }
-  commit {
-    id
-    shortId
-    webUrl
-  }
-  mergeRequest {
-    id
-    webUrl
-    reference
-  }
-  retryable
-  cancelable
+    iid
+    detailedStatus {
+        ...CiIcon
+    }
+    createdAt
+    finishedAt
+    user {
+        id
+        name
+        avatarUrl
+        webUrl
+    }
+    commit {
+        id
+        shortId
+        webUrl
+    }
+    mergeRequest {
+        id
+        webUrl
+        reference
+    }
+    retryable
+    cancelable
 }
 ```
 
@@ -414,20 +476,25 @@ Then we'll implement three specific queries for each context where the Pipelines
 
 ```graphql
 # queries/project_pipelines.query.graphql
-query getProjectPipelines($projectPath: ID!, $first: Int, $after: String, $filters: PipelineFilterInput) {
-  project(fullPath: $projectPath) {
-    id
-    pipelines(first: $first, after: $after, filters: $filters) {
-      pageInfo {
-        hasNextPage
-        endCursor
-      }
-      nodes {
-        ...PipelineListFields
-        # Project-specific fields will be added here
-      }
+query getProjectPipelines(
+    $projectPath: ID!
+    $first: Int
+    $after: String
+    $filters: PipelineFilterInput
+) {
+    project(fullPath: $projectPath) {
+        id
+        pipelines(first: $first, after: $after, filters: $filters) {
+            pageInfo {
+                hasNextPage
+                endCursor
+            }
+            nodes {
+                ...PipelineListFields
+                # Project-specific fields will be added here
+            }
+        }
     }
-  }
 }
 ```
 
@@ -435,23 +502,28 @@ query getProjectPipelines($projectPath: ID!, $first: Int, $after: String, $filte
 
 ```graphql
 # queries/merge_request_pipelines.query.graphql
-query getMergeRequestPipelines($projectPath: ID!, $mergeRequestIid: ID!, $first: Int, $after: String) {
-  project(fullPath: $projectPath) {
-    id
-    mergeRequest(iid: $mergeRequestIid) {
-      id
-      pipelines(first: $first, after: $after) {
-        pageInfo {
-          hasNextPage
-          endCursor
+query getMergeRequestPipelines(
+    $projectPath: ID!
+    $mergeRequestIid: ID!
+    $first: Int
+    $after: String
+) {
+    project(fullPath: $projectPath) {
+        id
+        mergeRequest(iid: $mergeRequestIid) {
+            id
+            pipelines(first: $first, after: $after) {
+                pageInfo {
+                    hasNextPage
+                    endCursor
+                }
+                nodes {
+                    ...PipelineListFields
+                    # MR-specific fields will be added here
+                }
+            }
         }
-        nodes {
-          ...PipelineListFields
-          # MR-specific fields will be added here
-        }
-      }
     }
-  }
 }
 ```
 
@@ -459,23 +531,28 @@ query getMergeRequestPipelines($projectPath: ID!, $mergeRequestIid: ID!, $first:
 
 ```graphql
 # queries/commit_pipelines.query.graphql
-query getCommitPipelines($projectPath: ID!, $sha: String!, $first: Int, $after: String) {
-  project(fullPath: $projectPath) {
-    id
-    commit(sha: $sha) {
-      id
-      pipelines(first: $first, after: $after) {
-        pageInfo {
-          hasNextPage
-          endCursor
+query getCommitPipelines(
+    $projectPath: ID!
+    $sha: String!
+    $first: Int
+    $after: String
+) {
+    project(fullPath: $projectPath) {
+        id
+        commit(sha: $sha) {
+            id
+            pipelines(first: $first, after: $after) {
+                pageInfo {
+                    hasNextPage
+                    endCursor
+                }
+                nodes {
+                    ...PipelineListFields
+                    # Commit-specific fields will be added here
+                }
+            }
         }
-        nodes {
-          ...PipelineListFields
-          # Commit-specific fields will be added here
-        }
-      }
     }
-  }
 }
 ```
 
@@ -553,11 +630,11 @@ To thoroughly evaluate the performance improvements of our proposed changes, we'
 
 #### Query Approach Comparison
 
-| Approach                    | Description                                                        | Query Complexity                            | Server Response Time | Payload Size | Client Processing Time |
-|-----------------------------|--------------------------------------------------------------------|--------------------------------------------|---------------------|--------------|------------------------|
-| Current REST Implementation | Fetches all pipeline data including mini graphs in a single request | High (N+1 queries for stages/jobs)         | 1.35 seconds        | 256 KB       | 450 ms                 |
-| GraphQL Without UI Redesign | GraphQL implementation that maintains the same data structure as current REST API | Medium (Optimized queries but still fetching all data) | TBD                 | TBD          | TBD                    |
-| GraphQL With UI Redesign    | Two-tier GraphQL approach with separate list and details queries   | Low (Optimized for essential data only)    | TBD                 | TBD          | TBD                    |
+| Approach                    | Description                                                                       | Query Complexity                                       | Server Response Time | Payload Size | Client Processing Time |
+| --------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------ | -------------------- | ------------ | ---------------------- |
+| Current REST Implementation | Fetches all pipeline data including mini graphs in a single request               | High (N+1 queries for stages/jobs)                     | 1.35 seconds         | 256 KB       | 450 ms                 |
+| GraphQL Without UI Redesign | GraphQL implementation that maintains the same data structure as current REST API | Medium (Optimized queries but still fetching all data) | TBD                  | TBD          | TBD                    |
+| GraphQL With UI Redesign    | Two-tier GraphQL approach with separate list and details queries                  | Low (Optimized for essential data only)                | TBD                  | TBD          | TBD                    |
 
 #### Detailed Query Analysis
 
@@ -600,11 +677,11 @@ The performance metrics were gathered using the following methodology:
 
 Based on preliminary testing, we anticipate the following improvements with the GraphQL UI redesign approach:
 
-| Metric                 | Expected Improvement |
-|------------------------|----------------------|
-| Server Response Time   | 65-70% reduction     |
-| Initial Payload Size   | 75-80% reduction     |
-| Client Rendering Time  | 50-60% reduction     |
-| Time to Interactive    | 60-65% reduction     |
+| Metric                | Expected Improvement |
+| --------------------- | -------------------- |
+| Server Response Time  | 65-70% reduction     |
+| Initial Payload Size  | 75-80% reduction     |
+| Client Rendering Time | 50-60% reduction     |
+| Time to Interactive   | 60-65% reduction     |
 
 These expectations will be validated with comprehensive testing during implementation, with actual measurements to be added once available.
