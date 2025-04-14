@@ -29,7 +29,7 @@ There are four teams in the Security Assurance department.
   <tr>
     <th class="text-center">
         <i class="fas fa-hands-helping i-bt"></i>
-        <h5>Governance & Field Security</h5>
+        <h5>Security Enablement</h5>
     </th>
     <th class="text-center">
         <i class="fas fa-bullseye i-bt"></i>
@@ -47,8 +47,7 @@ There are four teams in the Security Assurance department.
   <tr>
       <td>
         <ul>
-            <li><a href="/handbook/security/security-assurance/governance/"> Governance Team Page </a></li>
-            <li><a href="/handbook/security/security-assurance/field-security/"> Field Security Team Page </a></li>
+            <li><a href="/handbook/security/security-assurance/governance/"> Security Enablement Team Page </a></li>
         </ul>
       </td>
       <td>
@@ -71,14 +70,7 @@ There are four teams in the Security Assurance department.
 
 ## <i class="fab fa-gitlab fa-fw" style="font-size:.85em" aria-hidden="true"></i> Core Competencies
 
-### Field Security Core Competencies
-
-- [Sales Training (Security)](/handbook/sales/onboarding/sqs-learning-objectives/)
-- [Sales Enablement (Security)](/handbook/security/security-assurance/field-security/field-security-rfp/)
-- [Customer Assurance (Security)](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
-- [Security Evangelization](/handbook/security/security-assurance/field-security/evangelism/)
-
-### Security Governance Core Competencies
+### Security Enablement Core Competencies
 
 - [Security Policies, Standards and Control maintenance](/handbook/security/controlled-document-procedure/)
 - [Security Assurance Metrics](/handbook/security/security-assurance/governance/#security-assurance-metrics)
@@ -86,6 +78,10 @@ There are four teams in the Security Assurance department.
 - [Security Awareness and Training](/handbook/security/security-assurance/governance/sec-awareness-training/)
 - [Security Assurance Application Administration](/handbook/security/security-assurance/#i-idbiz-tech-icons-classfar-fa-newspaperi-core-tools-and-systems)
 - [Security Assurance Automation](/handbook/security/security-assurance/governance/security-assurance-automation/)
+- [Sales Training (Security)](/handbook/sales/onboarding/sqs-learning-objectives/)
+- [Sales Enablement (Security)](/handbook/security/security-assurance/field-security/field-security-rfp/)
+- [Customer Assurance (Security)](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
+- [Security Evangelization](/handbook/security/security-assurance/field-security/evangelism/)
 
 ### Security Risk Core Competencies
 
