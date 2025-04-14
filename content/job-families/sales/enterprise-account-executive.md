@@ -197,6 +197,10 @@ The Senior Major Account Executive Leader is a [grade 8](/handbook/total-rewards
 
 The [confidence gap](https://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/) exists. The above list is intended to show the kinds of experience and qualities we're looking for. If you're reading this, do not match all of the requirements, and are hesitant to apply, we encourage you to make an application despite your hesitations.
 
+### Verticals 
+
+GitLab has organized a cross functional Financial Services field organization to support our AMER Financial Services clients. This organization is designed around the Financial Services industry which includes Banking, Payments, Insurance and Capital Markets consisting of Exchanges and Broker / Investment organizations.  GitLab has a successful track record within the Financial Services industry including large deployments at many large financial institutions.  All functions necessary to support the Financial Industry are organized including: field sales, solutions architects, customer success technical teams, consulting, inside sales, as well as field marketing. The AMER Financial Services team is led by field leaders located in New York City along with additional team members located throughout the United States.
+
 ### Career Ladder
 
 The next step in the Strategic Account Executive and Major Account Executive  job family is to move to the Sales Management job family.
