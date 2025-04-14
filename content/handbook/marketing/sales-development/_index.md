@@ -69,7 +69,6 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **BDR COMM AMER (Interim Manager - Brian Tabbert)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENT AMER (Manager - Christie Park)** | [`#bdr_amer_ent`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
 | **BDR FINS & LATAM AMER (Manager - Ashley Dunn)**       | [`#bdr_amer_fins_latam`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
-| **BDR PUBSEC AMER (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00)|
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
 | **BDR ENTG EMEA NEUR UKI - (Manager - Fintan Harrington)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
