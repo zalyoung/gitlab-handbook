@@ -26,14 +26,14 @@ This policy applies to all GitLab Team Members, contractors, advisors, and contr
 
 The AUP working group supports GitLab's ongoing cross-functional efforts to account for externally-hosted systems integrating with core GitLab applications. This activity supports ongoing initiatives to improve GitLab's security posture by analyzing, assessing, and restricting applications that receive or otherwise process GitLab data.
 
-The below DRI's are involved in day-to-day AUP activities to understand the risk posed by third party integrations and implement guardrails to reduce the risk of unauthorized data exfiltration.
+The below DRI's are involved in day-to-day activities to understand the risk posed by third party integrations and implement guardrails to reduce the risk of data exposure.
 
 | DRI | Team | Responsibility |
 |------|-----|----------------|
-| Eric Geving | Security Risk | Project management, analysis for assessment scoping and restrictions |
-| Chris Moberly | Red Team, Threat Intelligence | Analysis of threats introduced by third-party integrations |
-| Steve Sagan | Corporate Security | ---- |
-| Peter Hansen | Corporate Security | ---- | 
+| [Chris Moberly](https://gitlab.com/cmoberly), [Oliver Smith](https://gitlab.com/ojsmith) | [Threat Intelligence](/handbook/security/security-operations/threat-intelligence/) | Third-party integration threat analysis |
+| [Eric Geving](https://gitlab.com/EricGeving) | [Security Risk](/handbook/security/security-assurance/security-risk/) | TPRM assessment scoping and analysis, policy development | 
+| [Peter Hansen](https://gitlab.com/p_han) | [Corporate Security](/handbook/security/corporate/) | ---- | 
+| [Steve Sagan](https://gitlab.com/stevesagan) | [Corporate Security](/handbook/security/corporate/) | ---- |
 
 *Looking to get in touch? Reach out to us in #Security.*
 
