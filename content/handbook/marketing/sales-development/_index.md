@@ -1055,7 +1055,6 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
   - [Report Template for Calling Projects](https://gitlab.my.salesforce.com/00OPL00000Fy1Ws) 
   - Above are some examples of how information can be stored to a pre-made project. Pre-made prompts are also saved and shared on the same project in the Activity tab of this Project. Please feel free to use and/or duplicate this Project and the Saved Prompts for your purposes. We have the #sales_dev_claude_insights Slack channel or the [Prompt Library Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) that you can use to report your wins to the team.
 
-
 **Limitations**
 
 - Claude's knowledge cutoff is April 2024, so any GitLab features, pricing, or competitive details may be outdated. Always verify current information through official GitLab channels.
