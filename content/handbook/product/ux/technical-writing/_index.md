@@ -32,6 +32,11 @@ The team manages general documentation-related and team-specific Slack channels:
 - `#tw-team`: Technical Writing team chat.
 - `#tw-social`: Technical Writing team social chat.
 
+## Docs feedback or ideas
+
+- See a problem in the GitLab documentation? Open a merge request with the `Documentation` template.
+- Have ideas for a documentation improvement? Open an issue [with the `Documentation` template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?description_template=Documentation).
+
 ## Learn GitLab tech writing fundamentals
 
 If you're interested in updating or creating GitLab documentation,
