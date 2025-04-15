@@ -195,7 +195,29 @@ You might want to consider including the pros and cons of the proposed solution 
 compared with the pros and cons of alternatives.
 -->
 
-We will
+We will move load balancing health checks and LSN checks out of the request/response cycle, and
+persist LSN information in both an in-memory cache and redis. This will have two main improvements to the current system:
+
+1. A single misbehaving replica will no longer block any load balancing operations indefinitely, effectively taking down every puma worker that tries to talk to it.
+2. We can reduce the volume of LSN checks performed against a replica by caching the results.
+
+As a result of these two improvements, it becomes safe to query for LSN information much more frequently.
+
+Before this proposal, read queries could be routed to a primary database for one of the following reasons:
+
+1. The current web request or sidekiq job previously performed a write operation, so we are "stuck" to the primary to allow reading our own write.
+2. The current web request or sidekiq job was provided an LSN from the sticking system as the request or job started, and we could not find a replica up-to-date with that LSN to serve that request.
+3. The current sidekiq job declared `data_consistency: :always` so it doesn't ever talk to a replica. We won't fix this case in this proposal.
+
+A principal motivation of this proposal is that points 1. and 2. are the same event - reading our own write.
+Point 1. accomplishes this naively by reading from the primary always, whereas point 2 uses LSN information to attempt to read from a replica.
+
+This proposal aims to unify these two ideas. We will persist sticking information within a single request / job, and re-check it before every query execution.
+This will let the system move back to a replica within the same job execution as soon as one is available.
+
+When a web request or sidekiq job starts, we will re-hydrate the sticking information that was stored in the previous request or job, the same way that sticking works today.
+This will let us dynamically move to a replica,  either immediately if possible, or after some number of read queries from the primary if one is not immediately available.
+
 
 ## Design and implementation details
 
