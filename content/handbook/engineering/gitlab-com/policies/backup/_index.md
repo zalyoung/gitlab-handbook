@@ -24,7 +24,7 @@ Customer data is stored in the following locations:
 
 1. Customer Data stored in the Redis cache
    1. Data queued for processing
-   1. Session data and other cached data
+   1. Sessions and other cached data
 
 ## Roles & Responsibilities
 
