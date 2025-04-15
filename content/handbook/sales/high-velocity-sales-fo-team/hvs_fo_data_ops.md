@@ -1,35 +1,33 @@
 ---
-title: "Self-Service Data Team at GitLab"
-description: "The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making."
+title: "HVS-FO Data and Ops Team at GitLab"
+description: "The HVS-FO Data and Ops Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The HVS-FO Data and Ops Team also aims to create data tools to help with efficiency, prioritization, and decision making."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-## Welcome to the Self-Service Data Team Handbook
+## Welcome to the HVS-FO Data and Ops Team Handbook
 
 {{% alert color="success" %}}
-The Self-Service Data Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The Self-Service Data Team also aims to create data tools to help with efficiency, prioritization, and decision making.
+The HVS-FO Data and Ops Team is responsible for leveraging data to optimize for the self-service customer experience and drive nARR growth via sales efficiency. Data insights from this team feed: sales visibility, self-service fulfillment features, and growth/marketing experiments. The HVS-FO Data and Ops Team also aims to create data tools to help with efficiency, prioritization, and decision making.
 {{% /alert %}}
 
 ## Team
 
 |  **Name** | **GitLab Handle** | **Title** |
 | :--------------- | :----------------- | :----------------- |
-| Max Fleisher | @mfleisher |  Mgr, Self-Service & Online Sales Data |
-| Sara Gladchun | @sglad | Sr. Analyst, Self-Service & Online Sales Data |
-| Ed Lu | @eclu94 | Sr. Analyst, Global Digital SMB Operations |
+| Max Fleisher | @mfleisher | Sr. Mgr, HVS Data and Operations |
+| Sara Gladchun | @sglad | Sr. Analyst, HVS Data |
+| Ed Lu | @eclu94 | Sr. Analyst, HVS Operations |
 
 ## Who We Work With
 
-**Self Service Team** - We partner with the overall Self Service team to provide data insight around the self service customers (currently AMER SMB FO and Pooled accounts) to drive nARR and growth through sales efficiency and strategy.
+**HVS-FO Team** - We partner with the overall HVS-FO team to provide data insight and operational support to drive nARR and growth through sales efficiency and strategy.
 
 **Central Data Team** - We work with the central data team by staying involved in cross functional data initiatives, collaborating where possible, and providing feedback on data models and the data that live in Snowflake. We also work with the data science team by staying up to date on their projects and models and incorporate many of their predictive outputs into our analyses and triggers,
 
 **Product Analytics** - We work with product analytics by staying up to date on what major projects they are working on and by leveraging many of their models in our own data work.
 
 **Fulfillment** - We work with fulfillment to provide data around self service fulfillment features and feature requests.
-
-**Sales** - We work with the Low Touch Sales team to provide data insights, data tools, and sales visibility to the AEs to increase efficiency and make the most up to date data available for quick response times and targeted outreach. We also provide forecasting models for the Low Touch sales teams (FO and Pooled teams).
 
 **Marketing Analytics** - We partner with Marketing Analytics to provide data around FO Funnels as well as targeted digital outreach to the Pooled Account customers.
 
@@ -44,14 +42,7 @@ The Self-Service Data Team is responsible for leveraging data to optimize for th
 
 ### OKRs
 
-- [FY22-Q4](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/19)
-- [FY23-Q1](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/40)
-- FY23-Q2
-- FY23-Q3
-- [FY23-Q4](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/61)
-- [FY24-Q1](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/66)
-- [FY24-Q2](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/77)
-- [FY24-Q3](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/93)
+- [FY26](https://docs.google.com/spreadsheets/d/1i9yYZKZVJ-OimjoF-Ip_SbA2hlqqhYfoag2m71wqs1M/edit?gid=1461447719#gid=1461447719)
 
 <!-- ### Quarterly Prioritization List
 
@@ -59,17 +50,6 @@ The Self-Service Data Team is responsible for leveraging data to optimize for th
 - [FY24-Q1](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/66)
 - [FY24-Q2](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/66)
 - [FY24-Q3](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/66) -->
-
-### Quarterly Work: Weekly Progress
-
-|  **Quarter** | **Max** | **Sara** |
-| :--------------- | :----------------- | :----------------- | :----------------- |
-| FY23-Q2 | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/106) | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/108) |
-| FY23-Q3 | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/152) | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/151) |
-| FY23-Q4 | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/226) | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/214) |
-| FY24-Q1 | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/289) | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/286) |
-| FY24-Q2 | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/362) | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/108) |
-| FY24-Q3 | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/402) | [Issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/401) |
 
 ## Working with us
 
@@ -101,32 +81,6 @@ The more points the better!
 4. Is an c-suite member asking for this? If yes, +2
 
 If an ad-hoc request scores north of 7 points, we will re-consider prioritizing it above existing OKR work. -->
-
-## Data Definitions
-
-**Purpose**: To ensure that we are all speaking the same data language, we have created clear metrics that align with our agreed business definitions.
-
-**General Definitions**:
-
-- Low Touch - Consists of  any AMER SMB FO or Pooled Account opportunity
-- Pooled Model - handbook page
-- Pooled Cases - SFDC cases that are created for pooled accounts (Pooled cases will have record_type_id = '0128X000001pPRkQAM')
-- Tasks - SFDC tasks
-- WW FO Count = All New - First Order deals
-- WW Web Growth nARR = Any non-First Order nARR transacted through Web (Web Portal Purchase = T)
-- LT all-in nARR = Any nARR owned by the FO and Pooled AEs
-- LT FO Count = Number of First Orders owned by AMER SMB FO AEs (not limited to Pooled accts)
-- Web Growth = All non-FO transactions through Web Portal
-- LT all-in = Everything closed by the AMER SMB FO and Pooled AE teams
-
-**Retention, Renewal, and Churn Definitions**:
-
-- NET_RETENTION = ARR in the Pooled account set in a given month / ARR in that account set 1 year prior
-- NET_LOGO_RETENTION = What % of account set from a year prior are still customers
-- Pooled Renewal and Churn Rates: Shows the components of nARR renewal outcomes, either Uplift, Contraction, or Churn, unit is % of ATR ARR monthly/quarterly
-- Pooled Renewal and Churn nARR: Same as above but the actual nARR totals
-- Pooled Acct Set Growth Rates: Shows how the overall Pooled account CARR changes monthly/quarterly, broken in the TRX type components ("Growth" excludes Renewals)
-- Pooled Acct Set Growth nARR: Same as above but the actual nARR totals
 
 ## SSOT Queries
 
@@ -166,29 +120,3 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 6. Copy new query into the Data Source Custom SQL
 7. Run the extract
 8. Publish the updated Data Source
-
-### Current SSOT Queries (Updated Quarterly)
-
-- ARR Mart Price Quantity
-- Churn Renewal Rates (Low Touch)
-- Churn Renewal Rates (Monthly)
-- Facts from Price Points
-- FO ASP Price Points
-- FO Bucket (Low Touch)
-- Monthly Subscription ARR snapshot (Low Touch)
-- Opportunities with Prior Year
-- Pooled Account Snapshot
-- Pooled Case Triggers
-- Pooled Cases
-- Pooled Overage List
-- Renewal Price Points
-- Retention Rates (Low Touch)
-- Self Service Usage (Low Touch)
-- Touch Level Data on Opportunities (WIP)
-- TO BE ADDED: Tableau Queries
-
-### Ad Hoc Analysis (updated Quarterly)
-
-- Account Tiering (deprecated)
-- Credit Card Failure and Payment Method Analysis
-- Case Creation Automation Queries
