@@ -43,7 +43,7 @@ The ESA also promotes partner Delivery teams to get trained and certified to pro
 - **Ecosystem Expansion:** Consult on the identification of potential new technology partners.  Evaluate technical fit and integration opportunities.  Support the onboarding of new partners from a technical perspective.
 
 ## Ecosystem Solutions Architecture Engagement Model
-This [reference](/handbook/solutions-architect/processes/partners_content_categorisation.md) was created for GitLab Partners Solutions Architects to standardise content categorisation and governance in HighSpot.
+This [reference](/handbook/solutions-architects/processes/partners_content_categorisation.md) was created for GitLab Partners Solutions Architects to standardise content categorisation and governance in HighSpot.
 
 
 ### Developing Partner Champions
