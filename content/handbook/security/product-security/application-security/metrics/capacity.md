@@ -6,14 +6,15 @@ title: "Application Security - Capacity Indicators, Classifications, and Workflo
 
 AppSec manages [a wide range of tasks with a high volume of work](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team#team-capacity-planning-and-operational-work). This page outlines how we measure the team's capacity to ensure we can effectively handle current workloads and plan for future needs.
 
+Consult our [FAQ](#faq) if you have questions or need to engage with the Application Security team for more specific asks.
+
 ### What decisions does this data help us make?
 
 Collecting this data helps inform decisions involving the team's capacity and headcount needs. These metrics are only analyzed in aggregate and are __not__ utilized or referenced for evaluating individual team member performance. They are solely used to understand overall team dynamics and requirements.
 
 ### Where are the charts that are based on this data?
 
-TBD
-<!-- TODO: Add tableau link -->
+Capacity metrics can be consulted on this [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSecGeneralDashboard?:iid=1)(Internal)
 
 ### How often are these metrics reviewed?
 
@@ -124,3 +125,9 @@ Where:
 - Total vulnerability-introducing Merge Requests = Merge Requests labeled with `appsec-kpi::vulnerability-introduced`
 - Vulnerability-introducing Merge Requests _without_ Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking both `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
 - Merged Vulnerability-introducing Merge Requests with Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests with either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
+
+## FAQ
+
+### What labels should I add to have my work considered in the capacity metrics?
+
+You need to have the `Application Security Team`, `AppSecWorkType::`, `AppSecWorkFlow::` labels along with the corresponding `AppSecWeight::` label and a milestone assigned to the issue.
