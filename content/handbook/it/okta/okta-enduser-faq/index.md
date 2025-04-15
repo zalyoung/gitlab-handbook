@@ -46,7 +46,7 @@ To delete a tab, you will need to move all applications out of that tab into ano
 
 ## How do I request an app to be added?
 
-First, please open a [CorpSec Issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new) and tag `@gitlab-com/gl-security/corp/identity` for Iteration planning and specification gathering. Please also create a [Change Management Issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issue%5Bmilestone_id%5D=#) within the Business Technology team. Please use the `okta_new_app_request` template to ensure all required information fields are inputted.
+First, please open a [CorpSec Issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?description_template=okta_app_change)
 
 [All new software must go through Procurement](/handbook/finance/procurement/individual-use-software/) before being added to Okta.
 
