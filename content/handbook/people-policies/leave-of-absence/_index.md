@@ -13,10 +13,12 @@ This page is designed to educate our team members about the different GitLab-spe
 
 - [GitLab B.V. Netherlands Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-netherlands/#gitlab-bv-netherlands-leave-policy)
 - [GitLab B.V. Belgium Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/#gitlab-bv-belgium-leave-policy)
-- [Global Upside (India, Philippines, Kenya, Chile, Costa Rica, Denmark and Latvia)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
+- [Gitlab B.V. Finland](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-finland)
+- [Global Upside (India)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
 - [GitLab Inc (US)](/handbook/people-policies/leave-of-absence/us/)
 - [GitLab LTD (UK)](/handbook/total-rewards/benefits/general-and-entity-benefits/ltd-benefits-uk/)
 - [GitLab GmbH (Germany)](/handbook/entity/gmbh-germany/)
+- [Gitlab Israel Ltd. Leave Policy](/handbook/entity/israel-ltd/#leave-policy)
 - [GitLab PTY (Australia & New Zealand)](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/)
 - [GitLab Canada Corp](/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/)
 - [GitLab GK (Japan)](/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-gk/)
@@ -24,8 +26,8 @@ This page is designed to educate our team members about the different GitLab-spe
 - [GitLab Korea LTD](/handbook/total-rewards/benefits/general-and-entity-benefits/korea-ltd-benefits/)
 - [GitLab France S.A.S.](/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas/)
 - [GitLab Singapore Pte Ltd](/handbook/total-rewards/benefits/general-and-entity-benefits/singapore-pte-ltd/)
-- [Remote Technology (South Africa, Mexico, Hungary and Austria)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
-- Safeguard (Spain, Italy, Brazil and Switzerland)
+- [Remote Technology (Brazil, Denmark, Italy, Switzerland, Hungary, and Sweden)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
+- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-expansion/)
 
 ### Parental Leave
 
