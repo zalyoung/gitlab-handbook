@@ -330,6 +330,9 @@ ORDER BY created_at DESC;
 
 ##### Challenges of this design
 
+- Joining multiple tables at once
+- Need for the careful queries structure to avoid inefficient queries
+
 ### Notification settings 
 
 Currently notification settings allow users to define highly customizable rules for when to receive email notifications. To create parity between the current to-dos and email system, we should add the ability for users to establish if they want to receive email only, email and web-based notification, or just an web-based notification.
