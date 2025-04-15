@@ -193,6 +193,8 @@ CREATE TABLE commit_notification_links (
 )
 ```
 
+For the future reference: those linking tables should be sharded together with `notifications` table, so `notification_id` should be the sharding key.
+
 ##### 🔍 Entity Relationship Diagram
 
 ```mermaid
