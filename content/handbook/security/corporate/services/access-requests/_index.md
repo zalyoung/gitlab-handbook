@@ -62,7 +62,7 @@ If you have any access requests related questions, please reach out to `#it_help
   - [Other Service Account (App to App)](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=New_Service_Account_Request)
   - [Other API Token Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=API_Token_Request)
 - Tech Stack
-  - [Okta new application setup](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request)
+  - [Okta new application setup](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?description_template=okta_app_change)
   - [Add application to tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack)
   - [Update tech stack metadata](/handbook/business-technology/tech-stack-applications/#update-tech-stack-information)
   - [Update tech stack provisioner](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Update_Tech_Stack_Provisioner)
