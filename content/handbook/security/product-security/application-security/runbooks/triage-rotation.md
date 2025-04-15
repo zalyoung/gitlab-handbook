@@ -36,8 +36,9 @@ The following rotations are defined:
     - @gitlab-com/gl-security/product-security/appsec on GitLab.com
     - @appsec-team in Slack
   - First responder to mentions from the custom SAST bot:
-    - All merge requests with the [`~appsec-sast-ping::unresolved` label](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=appsec-sast-ping%3A%3Aunresolved) must be reviewed
-    - Apply the `~appsec-sast-ping::resolved` label once the bot's findings have been resolved
+    - All merge requests with the [`~appsec-sast-ping::unresolved` label](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=appsec-sast-ping%3A%3Aunresolved) must be reviewed.
+    - Apply the `~appsec-sast-ping::resolved` label once the bot's findings have been resolved.
+    - A dashboard with all the bot's findings can be found [here](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/sast-custom-rules/-/issues/80).
   - First responder for issues created needing triage: [~security-triage-appsec issue search](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=security-triage-appsec)
     - Refer to [this page](/handbook/security/engaging-with-security/#reproducibility-on-security-issues) to learn about the different labels that we can apply to issues when they're not vulnerabilities
 - (~Fortnightly Assignment) Security Engineer for [Security & Patch Releases](https://about.gitlab.com/releases/#patch-releases)
