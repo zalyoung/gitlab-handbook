@@ -76,7 +76,7 @@ After you install the extension you can use VS Code to debug end-to-end specs ru
   "configurations": [
     {
       "name": "Debug Test::Instance::All current file",
-      "type": "Ruby",
+      "type": "ruby_lsp",
       "request": "launch",
       "useBundler": true,
       "pathToBundler": "<path_to_bundler>",
