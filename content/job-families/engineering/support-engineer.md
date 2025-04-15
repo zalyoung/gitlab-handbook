@@ -136,11 +136,8 @@ closely in order to deliver a significantly enhanced support experience.
   through major changes such as upgrades, and to help them to meet their
   GitLab-associated business needs
 - Stay up-to-date with customer environments, use cases and business needs, and use that knowledge both to resolve problems quickly and to advise proactively on problem prevention
-
-
 - Meet with each account on a frequent and regular basis to report on progress, to set relative priorities on remaining work, and to set expectations regarding what will be done by the next meeting
   - At any moment in time this might or might not mean taking assignment and full ownership of all non-emergency tickets for an account
-
 - Assist with emergency tickets submitted by accounts during business hours for their ASE contract
 
 
