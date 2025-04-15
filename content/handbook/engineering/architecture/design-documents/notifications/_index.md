@@ -144,10 +144,16 @@ Stores notifications per user.
 ```sql
 CREATE TABLE notifications (
   id SERIAL PRIMARY KEY,
-  user_id INTEGER NOT NULL REFERENCES users(id),
+  user_id BIGINT NOT NULL REFERENCES users(id),
   read BOOLEAN DEFAULT FALSE,
   created_at TIMESTAMP DEFAULT NOW(),
-  updated_at TIMESTAMP DEFAULT NOW()
+  updated_at TIMESTAMP DEFAULT NOW(),
+  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
+  snoozed_until TIMESTAMP,
+  saved BOOLEAN DEFAULT FALSE,
+  resolved_by_action SMALLINT,
+  author_id BIGINT REFERENCES users(id),
+  action SMALLINT
 );
 ```
 
@@ -157,24 +163,34 @@ Each notification links to exactly **one** resource via a dedicated table.
 
 ```sql
 CREATE TABLE issue_notification_links (
-  notification_id INTEGER PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  issue_id INTEGER NOT NULL REFERENCES issues(id)
+  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  issue_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE
 );
 
 CREATE TABLE note_notification_links (
-  notification_id INTEGER PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  note_id INTEGER NOT NULL REFERENCES notes(id)
+  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  note_id BIGINT NOT NULL REFERENCES notes(id) ON DELETE CASCADE
 );
 
 CREATE TABLE merge_request_notification_links (
-  notification_id INTEGER PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  merge_request_id INTEGER NOT NULL REFERENCES merge_requests(id)
+  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  merge_request_id BIGINT NOT NULL REFERENCES merge_requests(id) ON DELETE CASCADE
 );
 
 CREATE TABLE epic_notification_links (
-  notification_id INTEGER PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  epic_id INTEGER NOT NULL REFERENCES epics(id)
+  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  epic_id BIGINT NOT NULL REFERENCES epics(id) ON DELETE CASCADE
 );
+
+CREATE TABLE ssh_keys_notification_links (
+  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  ssh_key_id BIGINT NOT NULL REFERENCES keys(id) ON DELETE CASCADE
+)
+
+CREATE TABLE commit_notification_links (
+  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
+  commit_id BIGINT NOT NULL 
+)
 ```
 
 ##### 🔍 Entity Relationship Diagram
@@ -185,7 +201,7 @@ erDiagram
   notifications ||--|| issue_notification_links : links
   notifications ||--|| note_notification_links : links
   notifications ||--|| merge_request_notification_links : links
-  notifications ||--|| epic_notification_links : links
+  notifications ||--|| epic_notification_links : links etc
 ```
 
 ##### ⚖️ Validation Strategy
@@ -200,12 +216,14 @@ class Notification < ApplicationRecord
   has_one :issue_notification_link
   has_one :note_notification_link
   has_one :merge_request_notification_link
-  has_one :epic_notification_link
+  has_one :epic_notification_link 
+  <etc>
 
   has_one :issue, through: :issue_notification_link
   has_one :note, through: :note_notification_link
   has_one :merge_request, through: :merge_request_notification_link
   has_one :epic, through: :epic_notification_link
+  <etc>
 
   validate :only_one_resource_linked
 
@@ -260,7 +278,7 @@ class IssueNotificationLink < ApplicationRecord
 end
 ```
 
-Repeat similarly for `NoteNotificationLink`, `MergeRequestNotificationLink`, and `EpicNotificationLink`.
+Repeat similarly for `NoteNotificationLink`, `MergeRequestNotificationLink`, and `EpicNotificationLink` etc.
 
 ---
 
@@ -302,13 +320,15 @@ WHERE n.user_id = :user_id
 ORDER BY created_at DESC;
 ```
 
-##### ✅ Benefits of This Design
+##### Benefits of this design
 
 - No STI or polymorphic associations
 - Full referential integrity via FK constraints
 - Clear separation of responsibilities
 - Rails-friendly with explicit models
 - Easier indexing and performance optimization
+
+##### Challenges of this design
 
 ### Notification settings 
 
