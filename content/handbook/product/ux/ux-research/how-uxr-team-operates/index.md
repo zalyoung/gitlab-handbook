@@ -29,7 +29,7 @@ Teammate pairings gives the team member a consistent partner to share ideas with
 
 | Domains | Heads of UX Research | Product Areas and UX Researchers |
 |------|------|------|
-| **AI** | [Karen Li](https://gitlab.com/karenyli) | **ModelOps** [Nicholas Hertz](https://gitlab.com/NickHertz) <br> **AI Powered** [Nicholas Hertz](https://gitlab.com/NickHertz) <br> **Duo Pro & Nano** [Nicholas Hertz](https://gitlab.com/NickHertz) <br> **Duo Enterprise** [Erika Feldman](https://gitlab.com/enf) <br> **Duo Workflow** [Erika Feldman](https://gitlab.com/enf), [Nicholas Hertz](https://gitlab.com/NickHertz)|
+| **AI** | [Karen Li](https://gitlab.com/karenyli) | **AI Powered** [Nicholas Hertz](https://gitlab.com/NickHertz) <br> **Duo Pro & Nano** [Nicholas Hertz](https://gitlab.com/NickHertz) <br> **Duo Enterprise** [Erika Feldman](https://gitlab.com/enf) <br> **Duo Workflow** [Erika Feldman](https://gitlab.com/enf), [Nicholas Hertz](https://gitlab.com/NickHertz)|
 | **Core DevSecOps Workflows** | [Jessica Kane](https://gitlab.com/jlkane) | **Create** [Ben Leduc-Mills](https://gitlab.com/leducmills) <br> **Verify** [Erika Feldman](https://gitlab.com/enf) <br> **Plan** [Danika Teverovsky](https://gitlab.com/dteverovsky) |
 | **Monetization & Analytics** | [Jessica Kane](https://gitlab.com/jlkane) | **Growth** [Anne Lasch](https://gitlab.com/alasch), Senior Service Designer - TBH <br> **Fulfillment** [Anne Lasch](https://gitlab.com/alasch) <br> **Optimize** [Danika Teverovsky](https://gitlab.com/dteverovsky) |
 | **Platforms** | [Jessica Kane](https://gitlab.com/jlkane) | **SaaS Platforms**  [Will Leidheiser](https://gitlab.com/wleidheiser) <br> **Systems** [Will Leidheiser](https://gitlab.com/wleidheiser) |
