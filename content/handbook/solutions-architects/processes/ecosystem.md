@@ -43,6 +43,8 @@ The ESA also promotes partner Delivery teams to get trained and certified to pro
 - **Ecosystem Expansion:** Consult on the identification of potential new technology partners.  Evaluate technical fit and integration opportunities.  Support the onboarding of new partners from a technical perspective.
 
 ## Ecosystem Solutions Architecture Engagement Model
+This [reference](/handbook/solutions-architect/processes/partners_content_categorisation.md) was created for GitLab Partners Solutions Architects to standardise content categorisation and governance in HighSpot.
+
 
 ### Developing Partner Champions
 
@@ -61,6 +63,9 @@ In terms of key responsibilities, the Ecosystem SA is responsible for supporting
 - Content Curation: Sources and curates content with Partner Enablement team that is easy to find and use, and helps meet the goals of GitLab and its partners.
 
 ### TODO Working with Services Partners
+
+### GitLab Partners Content Categorisation & Governance
+
 
 ### MBO Guidelines
 
