@@ -6,7 +6,7 @@ title: "Application Security - Capacity Indicators, Classifications, and Workflo
 
 AppSec manages [a wide range of tasks with a high volume of work](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team#team-capacity-planning-and-operational-work). This page outlines how we measure the team's capacity to ensure we can effectively handle current workloads and plan for future needs.
 
-Consult our [FAQ](#faq) if you have questions or engage with the Application Security team for more specific asks.
+Consult our [FAQ](#faq) if you have questions or need to engage with the Application Security team for more specific asks.
 
 ### What decisions does this data help us make?
 
