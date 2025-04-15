@@ -29,7 +29,7 @@ Now, we need to set up the infrastructure for the component.
 
 1. For the directory name, type in **templates**. Make sure that it is in lower case.
 
-1. Click the **Commit changes** button, and cmomit it to the main branch.
+1. Click the **Commit changes** button, and commit it to the main branch.
 
 1. Click on the **templates** folder. Inside the folder, click on the **+** button, then click the **New file** button.
 
@@ -62,11 +62,11 @@ Now, we have a component that we can use in our project. You can also publish th
 
 1. Select **Edit > Edit in Pipeline Editor**.
 
-1. At the top of your file, below the image, add in the custom component we created earlier:
+1. At the top of your file, below the image, add in the custom component we created earlier. You will need to replace <group-patthway> with the the URL pathway to the project. For example, it might look something like "session-0378bc88/iuljg1dh".
 
 ```yaml
 include:
-  - component: ilt.gitlabtraining.cloud/my-test-group/example-component/templates/sample-template.yml@main
+  - component: ilt.gitlabtraining.cloud/training-users/<group-pathway>/example-component/templates/sample-template.yml@main
 ```
 
 The top of the `.gitlab-ci.yml` file should look like this:
@@ -82,7 +82,7 @@ default:
   image: golang
 
 include:
-  - component: ilt.gitlabtraining.cloud/my-test-group/example-component/templates/sample-template.yml@main
+  - component: ilt.gitlabtraining.cloud/<group-pathway>/example-component/templates/sample-template.yml@main
 ```
 
 1. Select **Commit changes**.
