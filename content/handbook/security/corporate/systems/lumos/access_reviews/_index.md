@@ -6,7 +6,7 @@ title: Lumos Access Reviews Guide
 
 Lumos is our access review platform. User access reviews are critical to ensuring GitLab systems are being accessed appropriately, securely, and compliantly. If you are a DRI for an app, technical owner, or business owner, you may be assigned access review tasks from Lumos. If you are the direct manager of a team member who manages an app, you may also receive user access review assignments for those you manage.
 
-Before getting started in Lumos, please read the [Access Review Procedure](https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/access-reviews/). When an access review is assigned, Lumos will reach out via email and Slack with the app name and permissions being reviewed in the title of the access review.
+Before getting started in Lumos, please read the [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/). When an access review is assigned, Lumos will reach out via email and Slack with the app name and permissions being reviewed in the title of the access review.
 
 ## Access Review Walkthrough
 
@@ -50,7 +50,7 @@ Reach out to the #user_access_reviews channel on Slack
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 
-- [Access Review Procedure](https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/access-reviews/)
+- [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/)
 - [Identification & Authentication Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [Access Requests handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
