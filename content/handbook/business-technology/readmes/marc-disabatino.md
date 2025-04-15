@@ -23,7 +23,7 @@ I have worked for GitLab for over five years now, in my time here I....
 - Was the first IT Analyst ever hired at GitLab back in 2019.
 - Onboarded over a thousand employees between 2019-2022.
 - Performed a hybrid role during our hyper growth period above. 'IT Help, Ops, Sec and anything else needed'
-- Created and Lead weekly IT knowledge and onboarding assistance calls.
+- Created weekly IT knowledge and onboarding assistance calls and was the primary for hosting said sessions.
 - Maintained three roles and was promoted to Senior for two of those roles.
 - Reported directly to one Manager and three Directors in my tenure.
 - Onboarded and became technical owner of a large portion of our current [Tech Stack](/handbook/business-technology/tech-stack/).
