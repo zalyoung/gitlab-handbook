@@ -269,7 +269,7 @@ sequenceDiagram
 |--------|------|------|
 | **Option 1: Indexing and chunking done in the Go Indexer, with the chunks immediately stored in vector storage** | • More performant indexing of code<br>• Separation of concerns: indexing code and embeddings is separate<br>• Better deduplication handling for rapidly changing files | • Requires more effort to implement clients and adapters for all vector stores<br>• Makes the indexer stateful<br>• The bottleneck for indexing is still on the embedding generation side |
 | **Option 2: Indexing and chunking done in Rails** | • Familiar Ruby technology for all engineers<br>• Faster implementation timeline<br> | • Slower processing for getting code blobs (up to 50x slower than Go solution)<br>• Requires building service to get blobs from Gitaly<br>|
-| **Option 3: Indexing and chunking done in the Go Indexer, with the chunks returned to Railsr** | • Significant performance boost for getting code from gitaly<br>• Type safety<br>• Binary is available in all self-managed installations | • Requires Go expertise for development<br>• Shared binary ownership between teams<br> |
+| **Option 3: Indexing and chunking done in the Go Indexer, with the chunks returned to Rails** | • Significant performance boost for getting code from gitaly<br>• Type safety<br>• Binary is available in all self-managed installations | • Requires Go expertise for development<br>• Shared binary ownership between teams<br> |
 
 #### Common Implementation Approach
 
