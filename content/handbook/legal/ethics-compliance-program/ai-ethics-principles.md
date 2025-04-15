@@ -10,7 +10,7 @@ We're publishing these principles to stay true to our core [Transparency value](
 
 ## 1. Avoid unfair bias
 
-[Diversity, Inclusion, & Belonging](https://about.gitlab.com/company/culture/inclusion/) ("DIB") is fundamental to the success of GitLab and is one of our core CREDIT values. We include DIB in every way possible and in all that we do. This [handbook page](https://about.gitlab.com/company/culture/inclusion/) explains how GitLab thinks about DIB and what measures have been taken so far to foster DIB at GitLab.
+[Diversity, Inclusion, & Belonging](/handbook/company/culture/inclusion/) ("DIB") is fundamental to the success of GitLab and is one of our core CREDIT values. We include DIB in every way possible and in all that we do. This [handbook page](/handbook/company/culture/inclusion/) explains how GitLab thinks about DIB and what measures have been taken so far to foster DIB at GitLab.
 
 DIB is a critical consideration when thinking about ethical AI since there is [evidence](https://fra.europa.eu/en/publication/2022/bias-algorithm) that AI systems may perpetuate human and societal biases by recommending and driving decisions based on race, gender, biological sex, and other bases. This bias can be introduced in many ways:
 
@@ -57,6 +57,6 @@ We should also ensure that our AI features' processing of users' personal data i
 
 GitLab believes in our core [Iteration value](/handbook/values/#iteration) and is dedicated to continuous improvement. AI systems are developing rapidly and so will the ways in which we leverage AI systems and mitigate related risks. GitLab's development of AI features are conducted by team members with the relevant expertise in the technology, and its benefits and risks. We believe it is important to ensure our AI features are subject to human review and intervention.
 
-We also strongly believe in our core [Collaboration value](/handbook/values/#collaboration), and it is GitLab's mission to make it so that [everyone can contribute](https://about.gitlab.com/company/mission/). We welcome feedback from GitLab users and members of the public about our externally available AI features. We are committed to ensuring that feedback mechanisms are clear and consistent. We should also strive to share our AI ethics-related findings with others in the industry where possible.
+We also strongly believe in our core [Collaboration value](/handbook/values/#collaboration), and it is GitLab's mission to make it so that [everyone can contribute](/handbook/company/mission/). We welcome feedback from GitLab users and members of the public about our externally available AI features. We are committed to ensuring that feedback mechanisms are clear and consistent. We should also strive to share our AI ethics-related findings with others in the industry where possible.
 
 We should aim to remain self-critical and continue to educate ourselves on AI developments. The AI landscape is changing rapidly, and we should work to ensure that these principles are continuously updated to reflect the industry's latest risks and best practices.

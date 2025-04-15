@@ -17,7 +17,7 @@ F. In the event of an inconsistency between these API Terms and those of an agre
 
 ## 1. License and Use
 
-1.1. Provided that you comply with these API Terms, all documentation relating to the GitLab APIs at [docs.gitlab.com](https://docs.gitlab.com/) and [developer.gitlab.com](http://developer.gitlab.com), and all applicable laws, we grant you a non-exclusive, non-transferable, non-sublicensable, revocable, limited right to access and use the GitLab APIs to:
+1.1. Provided that you comply with these API Terms, all documentation relating to the GitLab APIs at [docs.gitlab.com](https://docs.gitlab.com/) and [developer.gitlab.com](https://developer.gitlab.com), and all applicable laws, we grant you a non-exclusive, non-transferable, non-sublicensable, revocable, limited right to access and use the GitLab APIs to:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1. Develop, test and support any application or integration developed by you which interacts with the GitLab APIs (each, an "**Integration**") and;
 
@@ -61,7 +61,7 @@ F. In the event of an inconsistency between these API Terms and those of an agre
 
 2.3. GitLab will retain all intellectual property rights relating to any suggestions, ideas, enhancement requests, feedback, or other recommendations you provide relating to the GitLab APIs and GitLab Software ("**Feedback Materials**"), which are hereby assigned to GitLab. Feedback Materials will not include any intellectual property owned by you.
 
-2.4. Your use of any registered or unregistered GitLab trademarks is subject to the GitLab [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines) and [Branding Standards](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/), as updated from time to time.
+2.4. Your use of any registered or unregistered GitLab trademarks is subject to the GitLab [Trademark Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines) and [Branding Standards](https://design.gitlab.com/brand-overview/resources/), as updated from time to time.
 
 ## 3. Processing of Personal Data
 

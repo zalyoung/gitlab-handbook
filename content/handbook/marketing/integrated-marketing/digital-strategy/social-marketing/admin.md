@@ -55,7 +55,7 @@ Head to the [corporate marketing project](https://gitlab.com/gitlab-com/marketin
 
 - Sometimes it is not possible to schedule posts when desired due to any number of reasons, but the social team will work with you to make sure you're supported.
 - The social team reserves the right to not publish for a myriad of reasons including crisis moments, calendar priorities, and other elements. We'll do our best to explain why when asked.
-- If you haven't done so already, consider [GitLab's Social Advocacy Program](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/) as an additional resource for amplification. Advocacy allows your marketing messages to be given to GitLab Team Members to share on their own personal social media channels. If your team does not have a designated [curator](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/#current-list-of-curators), you can suggest the piece of content through [Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#bambu-our-social-advocacy-tool) for approval.
+- If you haven't done so already, consider [GitLab's Social Advocacy Program](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/) as an additional resource for amplification. Advocacy allows your marketing messages to be given to GitLab Team Members to share on their own personal social media channels. If your team does not have a designated [curator](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/#current-list-of-curators), you can suggest the piece of content through [Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#everyonesocial-our-social-advocacy-tool) for approval.
 
 ### Request workflows
 
@@ -285,7 +285,7 @@ Post-Giveaway </summary>
 <li>Winners must sign an Affidavit of Eligibility &amp; Liability, Indemnity, and Publicity Release. Use the &quot;Affidavit of Eligibility - Sweepstakes&quot; template found on the google drive.</li>
 <li>Announce the winners</li>
 </ol>
-<p><a href="https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/giveaways/">Find out more about the swag giveaways here.</a></p>
+<p><a href="/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/">Find out more about the swag giveaways here.</a></p>
 
 </details>
 
@@ -414,7 +414,7 @@ All of the following elements should be coming from the team member who is the e
 
 If these elements aren't provided or necessary, the event imagery will be whatever the current GitLab brand profile default is at the time.
 
-[Check out the LinkedIn Events FAQs provided by LinkedIn here.](https://www.linkedin.com/help/linkedin/answer/118926/linkedin-events-organized-by-pages-faqs?lang=en)
+[Check out the LinkedIn Events FAQs provided by LinkedIn here.](https://www.linkedin.com/help/linkedin/answer/a548521/linkedin-events-organized-by-pages-faqs?lang=en)
 
 ### Non-social team admin access to select social channels
 

@@ -4,7 +4,7 @@ title: "Static Analysis Group EC2 development machine setup guide"
 
 ## Static Analysis Group EC2 development machine setup guide
 
-Some of the SAST analyzers, [including Semgrep](https://github.com/returntocorp/semgrep/issues/2252), do not run on the M1 mac as ARM64 is not supported.
+Some of the SAST analyzers, [including Semgrep](https://github.com/semgrep/semgrep/issues/2252), do not run on the M1 mac as ARM64 is not supported.
 
 To overcome this, a SAST developer image has been added to the EC2 AMI catalog and shared with the `arn:aws:organizations::663740273027:organization/o-qjrbh9ll6x` sandbox organisation so that SAST contributors can run SAST analyzers in a development environment. To setup the image:
 

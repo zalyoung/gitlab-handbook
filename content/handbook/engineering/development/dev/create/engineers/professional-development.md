@@ -15,7 +15,7 @@ If you feel that you have earned a promotion, take a look at the [Job Family](/h
 
 Let them know that you are starting a Promotion Document, and once you are done, you would like your manager to review it. Your manager will be eager to support you by either moving your promotion document forward or telling you whether or not you need more evidence or more consistent behaviors.  Either way, discussing promotion with your manager will serve you well by ensuring a plan is in place to help get you to the next level. If you know you want to work towards a promotion but are not ready yet, you can use the promotion doc templates below to help drive your employee development conversations.
 
-GitLab's general promotion document can be found [here](/handbook/people-group/promotions-transfers/#general-promotion-document-template).
+GitLab's general promotion document can be found [here](/handbook/people-group/promotions-transfers/#promotion-document).
 
 Below you will find a copy of the general promotion document that includes specific examples to help guide questions to ask yourself for each pillar of the promotion document aligned with role-specific criteria:
 
@@ -90,7 +90,7 @@ GitLab has several programs they have in place which offer additional learning o
 
 ### Security Shadow Program
 
-From converging on real-time critical events with SIRT, exploiting vulnerabilities with the Red Team or participating in live Customer Assurance calls with the Risk and Field Security team, you will have the opportunity to [work next to security staff](/handbook/security/security-shadow.html) to gain valuable insight and working knowledge of security fundamentals across multiple domains.
+From converging on real-time critical events with SIRT, exploiting vulnerabilities with the Red Team or participating in live Customer Assurance calls with the Risk and Field Security team, you will have the opportunity to [work next to security staff](/handbook/security/security-shadow/) to gain valuable insight and working knowledge of security fundamentals across multiple domains.
 
 ### CEO Shadow Program
 

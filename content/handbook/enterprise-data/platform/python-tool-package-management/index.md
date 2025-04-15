@@ -61,10 +61,8 @@ There are several images we are using 🐍`Python`. Various versions are in use 
 |-------------------------------------------------------------------------------------------------------------------|----------------|--------------------------------------------------------------------|-----------|-----------------------|
 | [analytics](https://gitlab.com/gitlab-data/analytics/-/blob/master)                                               | `3.10`         | `N\A`                                                              | `TBA`     | `Data Platform`       |
 | [airflow-image](https://gitlab.com/gitlab-data/airflow-image/-/blob/main/src/Dockerfile?ref_type=heads)           | `3.8`          | `python:3.8`                                                       | `TBA`     | `Data Platform`       |
-| [analyst-image](https://gitlab.com/gitlab-data/analyst-image/-/blob/main/src/Dockerfile?ref_type=heads)           | `3.8.8`        | `jupyter/tensorflow-notebook:python-3.8.8`                         | `TBA`     | `Analytics Engineers` |
 | [ci-pyhton-image](https://gitlab.com/gitlab-data/ci-python-image/-/blob/main/src/Dockerfile) | `3.8`          | `python:3.8-slim-buster`                                           | `TBA`     | `Data Platform`       |
 | [data-image](https://gitlab.com/gitlab-data/data-image/-/blob/master/data_image/Dockerfile?ref_type=heads)        | `3.10.3`          | `python:3.10.3`                                                       | `TBA`     | `Data Platform`       |
-| [data-science](https://gitlab.com/gitlab-data/data-science/-/blob/main/docker-compose.yml?ref_type=heads)         | `3.8.8`        | `registry.gitlab.com/gitlab-data/data-image/analyst-image:v0.0.19` | `TBA`     | `Data Scientists`     |
 | [dbt-image](https://gitlab.com/gitlab-data/dbt-image/-/blob/main/src/Dockerfile)             | `3.10.3`       | `python:3.10.3`                                                    | `TBA`     | `Data Platform`       |
 | [gitlab-data-meltano](https://gitlab.com/gitlab-data/gitlab-data-meltano/-/blob/main/Dockerfile?ref_type=heads)   | `3.8`          | `meltano/meltano:v2.16.1-python3.8`                                | `TBA`     | `Data Platform`       |
 | [mlfow-infra](https://gitlab.com/gitlab-data/mlflow-infra/-/blob/main/mlflow_image/Dockerfile?ref_type=heads)     | `3.8`          | `python:3.8`                                                       | `TBA`     | `Data Scientists`     |
@@ -80,7 +78,6 @@ flowchart LR
     P388 --> pip
     P310 --> pip
     pip --> airflow-image
-    pip --> analyst-image
     pip --> ci-python-image
     pip --> data-image
     pip --> dbt-image
@@ -91,7 +88,6 @@ flowchart LR
     data-image      --Inherit--> gitlab-data-utils
     data-image      --Inherit--> analytics
     ci-python-image --Inherit--> analytics
-    analyst-image   --Inherit--> data-science
 
 
     subgraph Python
@@ -106,7 +102,6 @@ flowchart LR
 
     subgraph Images
         airflow-image
-        analyst-image
         ci-python-image
         data-image
         data-science
@@ -154,7 +149,7 @@ This is because anything becomes deprecated usually no longer receives any bug f
 
 | Tool name                                                                                                   | Version in use | Version supported timeline                                                                                                                                                                                                                                                                         | How to upgrade   | DRI       | Users                                                               | Upgrade Policy |
 |-------------------------------------------------------------------------------------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------|---------------------------------------------------------------------| ------------ |
-| [dbt](/handbook/enterprise-data/platform/dbt-guide/)                  | `1.8.0`        | [link](https://docs.getdbt.com/docs/dbt-versions/core#latest-releases)| - [dbt best practices for upgrading](https://docs.getdbt.com/docs/dbt-versions/core#best-practices-for-upgrading)<br>- [Upgrading dbt version](https://gitlab.com/gitlab-data/runbooks/-/blob/main/infrastructure/upgrading_dbt_version.md)  | `TBA`     | - `Data Platform`<br>- `Analytics Engineers`<br>- `Data Scientists` | Not more than 2 versions behind (beta release excluded) and minimum support level `critical` |
+| [dbt](/handbook/enterprise-data/platform/dbt-guide/)                  | `1.9.2`        | [link](https://docs.getdbt.com/docs/dbt-versions/core#latest-releases)| - [dbt best practices for upgrading](https://docs.getdbt.com/docs/dbt-versions/core#best-practices-for-upgrading)<br>- [Upgrading dbt version](https://gitlab.com/gitlab-data/runbooks/-/blob/main/infrastructure/upgrading_dbt_version.md)  | `TBA`     | - `Data Platform`<br>- `Analytics Engineers`<br>- `Data Scientists` | Not more than 2 versions behind (beta release excluded) and minimum support level `critical` |
 | [airflow](/handbook/enterprise-data/platform/infrastructure/#airflow) | `2.5.3`        | [link](https://airflow.apache.org/docs/apache-airflow/stable/installation/supported-versions.html#version-life-cycle) | [Upgrade Plan for Airflow](https://gitlab.com/gitlab-data/analytics/-/issues/11804)                                                                                                                                                          | `TBA`     | `Data Platform`                                                     | Current version released > 1 year |
 | [permifrost](/handbook/enterprise-data/platform/permifrost/)          | `0.15.4`       | [link](https://gitlab.com/gitlab-data/permifrost)                                                                     | [Upgrading permifrost version](https://gitlab.com/gitlab-data/permifrost/-/blob/master/RELEASE.md?ref_type=heads)                                                                                                                            | @rbacovic | `Data Platform`                                                     | Not more than 2 versions behind (beta release excluded) |
 | [meltano](/handbook/enterprise-data/platform/Meltano-Gitlab/)         | `2.16.1`       | [link](https://github.com/meltano/meltano/releases)                                                                   | [Upgrade Meltano version](https://gitlab.com/gitlab-data/gitlab-data-meltano/-/merge_requests/34)                                                                                                                                            | `TBA`     | `Data Platform`                                                     | Current version released > 1 year |
@@ -166,10 +161,10 @@ This is because anything becomes deprecated usually no longer receives any bug f
 | [snowflake_spend](https://gitlab.com/gitlab-data/snowflake_spend)                           | `1.1`          | `N\A` |-Data Engineers<br>-Analytics Engineers |
 | [data-tests](https://gitlab.com/gitlab-data/data-tests)                                     | `N\A`          | `N\A` |-Data Engineers<br>-Analytics Engineers |
 | [dbt-labs/audit_helper](https://github.com/dbt-labs/dbt-audit-helper)                       | `0.9.0`        | `N\A` |-Data Engineers<br>-Analytics Engineers |
-| [dbt-labs/dbt_utils](https://github.com/dbt-labs/dbt-utils)                                 | `1.2.0`        | `N\A` |-Data Engineers<br>-Analytics Engineers |
+| [dbt-labs/dbt_utils](https://github.com/dbt-labs/dbt-utils)                                 | `1.1.1`        | `N\A` |-Data Engineers<br>-Analytics Engineers |
 | [dbt-labs/snowplow](https://github.com/dbt-labs/snowplow/tree/0.15.1/)                      | `0.15.1`       | `N\A` |-Data Engineers<br>-Analytics Engineers |
 | [dbt-labs/dbt_external_tables](https://hub.getdbt.com/dbt-labs/dbt_external_tables/latest/) | `0.8.7`        | `N\A` |-Data Engineers<br>-Analytics Engineers |
-| [brooklyn-data/dbt_artifacts](https://github.com/brooklyn-data/dbt_artifacts)               | `2.6.1`        | `N\A` |-Data Engineers<br>-Analytics Engineers |
+| [brooklyn-data/dbt_artifacts](https://github.com/brooklyn-data/dbt_artifacts)               | `2.8.0`        | `N\A` |-Data Engineers<br>-Analytics Engineers |
 
 ### Approach to update tools version
 

@@ -19,6 +19,14 @@ across deployment types. The aim is to describe RAG implementations that provide
 our AI features–and by extension our customers–with best-in-class user
 experiences.
 
+## Status of RAG at GitLab
+
+| Feature | Current | Deprecated | Ongoing | Links |
+|---------|---------|------------|----------|-------|
+| RAG for Duo Chat: Documentation question-answering | [Vertex AI Search](vertex_ai_search.md)  Released in %17.0 | [Postgres with PGVector extension](postgresql.md) Released in %16.0, deprecated in %17.0 | Once [AI Context Abstraction layer](../ai_context_abstraction_layer/_index.md) is done, embeddings can be moved | [Gitlab Duo RAG blueprint](../gitlab_duo_rag/_index.md) |
+| RAG for Search features: hybrid issues and epics search | [Elasticsearch](elasticsearch.md) Released in %17.6 | | | [Hybrid issue search epic](https://gitlab.com/groups/gitlab-org/-/epics/13474) |
+| Future RAG features | | | [AI Context Abstraction layer](../ai_context_abstraction_layer/_index.md) will support embedding storage and retrieval for GitLab data on Elasticsearch, OpenSearch or postgres | [AI Context Abstraction layer blueprint](../ai_context_abstraction_layer/_index.md) [AI Context Epic](https://gitlab.com/groups/gitlab-org/-/epics/16008) |
+
 ## Overview of RAG
 
 RAG, or Retrieval Augmented Generation, involves several key process blocks:
@@ -35,7 +43,7 @@ RAG, or Retrieval Augmented Generation, involves several key process blocks:
 - **Generation**: This phase involves crafting a prompt with the retrieved data
   and submitting it to an LLM, which then generates an AI-powered response.
 
-![Current page](img/blog_figure-1.jpg)
+![Current page](/images/engineering/architecture/design-documents/gitlab_rag/blog_figure-1.jpg)
 
 (Image from [Deconstructing RAG](https://blog.langchain.dev/deconstructing-rag/))
 
@@ -262,7 +270,7 @@ retrieval process. Tailoring the retrieval process based on specific user
 feedback can lead to biased optimizations, potentially causing regressions for
 other users. It's essential to have a dedicated test dataset and tools for a
 comprehensive quality assessment. For assistance with AI evaluation, please
-reach out to the [AI Model Validation Group](../../../development/data-science/model-validation/).
+reach out to the [AI Model Validation Group](../../../development/data-science/ai-powered/model-validation/_index.md).
 
 ## Before Implementing RAG
 

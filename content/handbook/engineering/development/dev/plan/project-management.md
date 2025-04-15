@@ -62,11 +62,11 @@ When estimating the effort involved in upcoming work, we use the same approach a
 
 #### Refining and organizing feature work
 
-To help drive alignment with our stable counterparts, provide visibility into progress, and breakdown our vision into a series of [MVCs](/handbook/product/product-principles/#the-minimal-valuable-changegegege-mvc), we collaborate with Product and UX during [`~workflow::planning breakdown`](/handbook/product-development-flow/#description-4) to refine and organize `~type::feature` deliverables into the following structure:
+To help drive alignment with our stable counterparts, provide visibility into progress, and breakdown our vision into a series of [MVCs](/handbook/product/product-principles/#the-minimal-valuable-changegegege-mvc), we collaborate with Product and UX during [`~workflow::planning breakdown`](/handbook/product-development/product-development-flow/#description-4) to refine and organize `~type::feature` deliverables into the following structure:
 
 - Feature (Epic) - Contains all of the necessary vertical feature slices to default the corresponding feature flag to "on". The feature epic will also serve as the location to generate a corresponding Release Post item MR. The feature epic should be scoped to the [minimal amount of functionality that still provides customer value](/handbook/product/product-principles/#the-minimal-valuable-change-mvc). Additional scope planned for future enhancements should be stored in follow-on epics.
   - Spike (Issue) - If we are unable to accurately estimate the effort necessary to implement the feature, we first conduct a [spike](#spikes)
-  - UX (Issue) - For larger initiatives, UX creates a separate UX issue that serves as the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented. [Learn more about UX issues](/handbook/product/ux/stage-group-ux-strategy/plan/plan.html#ux-issue-management-weights-and-capacity-planning).
+  - UX (Issue) - For larger initiatives, UX creates a separate UX issue that serves as the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented. [Learn more about UX issues](/handbook/product/ux/product-design/ux-roadmaps/).
   - Vertical Feature Slice (Issue) - A subset of the feature that can be completed within a single milestone, tested, and verified within the `plan-stage` group on production.
     - Engineering Tasks (Task - *Optional*) - One or more engineering tasks that need to be completed in order to deliver the vertical feature slice. The scope of a task should generally correlate to a single MR.
 
@@ -102,7 +102,7 @@ functionally complete, merged and verified but frontend, or other, work is ongoi
 
 ### Picking something to work on
 
-The [Plan:Project Management Build board](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend) shows prioritized work with [workflow columns](/handbook/product-development-flow/) relevant to implementation. There is an
+The [Plan:Project Management Build board](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend) shows prioritized work with [workflow columns](/handbook/product-development/product-development-flow/) relevant to implementation. There is an
 additional column to show in-progress community contributions. Filtering it by
 ~backend shows issues for backend engineers to work on.
 
@@ -131,7 +131,7 @@ This will help us manage and report progress more effectively using queue manage
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure results, not hours](/handbook/values/#results). Part of this is the
+because [we measure impact, not activity](/handbook/values/#results). Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
@@ -174,5 +174,5 @@ When you pick something to work on, please:
 - [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
 - [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0)
 - [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
-- [Group Conversations](http://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
-  [section level](/company/team/structure/#organizational-structure))
+- [Group Conversations](https://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
+  [section level](/handbook/company/structure/#organizational-structure))

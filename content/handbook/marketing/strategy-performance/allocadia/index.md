@@ -7,7 +7,7 @@ description: Allocadia is Marketing Performance Management Software.
 
 Say good-bye to multiple spreadsheets, disparate data sets and misaligned marketing plans. The recognized leader in Marketing Performance Management (MPM), Allocadia's budget management and strategic planning platform is the foundation for operational excellence for marketing leaders and their teams. Powered with data-driven insights, marketing leaders can visualize what's working to enable greater planning agility. Learn how to run marketing like a business at Allocadia.com.
 
-💰 Version purchased: [Allocadia Optimize](https://allocadia.com/pricing/)
+💰 Version purchased: [Allocadia Optimize](https://www.uptempo.io/)
 
 🔑 Logins are available for Marketing budget holders
 
@@ -33,11 +33,11 @@ Allocadia integrates with multiple systems described further [below](/handbook/m
 
 ## Partnership with Finance
 
-Marketing and Finance partner together when using Allocadia. The [Marketing Finance handbook](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) page lists out:
+Marketing and Finance partner together when using Allocadia. The [Marketing Finance handbook](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) page lists out:
 
-1. [Finance Marketing Allocadia Training](/handbook/finance/financial-planning-and-analysis/marketing-finance/#allocadia-training-materials)
-1. [Financial terminology](/handbook/finance/financial-planning-and-analysis/marketing-finance/#finance-terminology) as it relates to your view in Allocadia
-1. [Important dates](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) to be aware of between finance and marketing
+1. [Finance Marketing Allocadia Training](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#allocadia-training-materials)
+1. [Financial terminology](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#finance-terminology) as it relates to your view in Allocadia
+1. [Important dates](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) to be aware of between finance and marketing
 1. And more!
 
 ## Allocadia Internal communication
@@ -317,7 +317,7 @@ You can **ONLY** create a GitLab issue from within a **SUB-CATEGORY**. Please do
 
 If you have tried to create from the subcategory and you're still not able to create the issue, please ask in the #allocadia_mktg-budget-holders slack channel.
 
-#### How to Create a Channel Marketing Epic/Issues from Allocadia
+#### How to Create a Channel Marketing Issues from Allocadia
 
 1. Create a new subcategory with a naming convention: `YYYYMMDD  Partner Name  Activity Name`
 2. In the details panel under subcategory, input the following fields:
@@ -331,20 +331,55 @@ If you have tried to create from the subcategory and you're still not able to cr
    - `Campaign Owner` = `Select CMM`
    - `Operational Program Owner` = `Select Operational Campaign Owner`
 3. Create a Line Item with a naming convention: `MDF 000  Partner Name  Details Related to Spend`
-   Note, 000 indicates being bookmarked once MDF has been approved and the fund request received in SFDC, the MDF Program Owner will change from 000 to the fund request number.
-4. In the etails panel under Line Item, scroll to actions and select `Create MDF Epic & Issues` to create the corresponding epic and issues:
-   - Marketing Campaign epic
-   - Proof of Performance issue
-   - List Import issue
-5. In the marketing campaign epic, update the campaign details, user journey, joint messaging and all sections.
+   
+   Note, `MDF 000` is a placeholder that will automatically be updated once the MDF Request has been selected in the Salesforce campaign.
+4. In the details panel under Line Item, scroll to actions and select `Create/Edit MDF Issue` to create a Channel Marketing issue.
+5. In the Channel Marketing issue, update the campaign details, user journey, joint messaging and all sections.
+6. Once the MDF request has been submitted and the Channel Partner Marketing team creates the Marketo program and Salesforce campaign, on the Salesforce campaign, the MDF request number must be selected.
+7. During the nightly sync, "MDF 000" in the line item will update with the MDF number selected, alongside the MDF fields:
+   - Target Number of Contact
+   - Expected Number of DR
+   - Estimated Pipeline Created (USD)
 
 Watch the [video](https://youtu.be/Xis0KDi-Iy4) for a step to step walkthrough.
 
-##### MDF Epic/Issues Auto Update
+##### Allocadia - GitLab Issue Integration Summary
 
-Allocadia runs two daily syncs at 1:30 am and 1:30 pm EST and you can manual push the changes using the button at the bottom of the line item details button: `Create/Update MDF Epic/Issues`. Doing so will update any Allocadia name and date changes to the epic/issues.
+- Issue can be created or updated in GitLab through an outbound action button on the details panel
+  - Button label: Create/Update MDF Issues
+  - Note that action is available in the Partner portion of the hierarchy only
+- Issue creation can be initiated at the "Line Item" row level only in Allocadia, and the line item must be within a sub-category
+- Fields from the Allocadia details panel are used to populate an Issue template in GitLab
+- User is presented with a link to open the new Issue in GitLab after creation
+- Once the epic has been created it is automatically tagged back to the MDF Issue URL field on the Allocadia item
+- If the MDF Issue URL is populated already, the action is treated as an update rather than creation
+- The sync runs twice daily at 10:30 am and 10:30 pm PT
 
-Please be aware that the Start and End Date updates will only go through if the format of the "Date(s)" section in the epic description is still in the original format (e.g. "Date(s):YYYY.MM.DD - YYYY.MM.DD").
+See [slides](https://docs.google.com/presentation/d/13JsM0poTh4TN_U-l-pgRz_gMbaMpZiGT/edit#slide=id.p1) for technical summary and [sheet](https://docs.google.com/spreadsheets/d/1leqnCPx6GTdyhg9jzgliZK76WartBJV4k3Q57W4rxTQ/edit?usp=sharing) for issue field mapping.
+
+##### GitLab Issue Creation Details
+
+- The partner issue title is built as follows:
+  - `<item name> - <Start Date Quarter> - <Start Date (MM.DD.YY)>`
+  - E.g. `MDF 179 Spectrum Groupe Devoxx 23 - FY24-Q1 - 2023.04.12`
+- A pre-defined message template is used for the partner issue Description
+- The message template has several placeholders for fields from Allocadia, as well as some fields that are formatted by the integration
+
+##### Partner Issue Update Details
+
+- If the action button is pressed after the partner issue has already been created then an update action will be
+applied
+- The update is only applicable to the following fields:
+    1. Issue title – will be updated if any components of the title have changed (start date or item name)
+    2. Issue description – only updates the Start Date / End Date (if they are changed)
+    3. Tactic/event type
+    4. Allocadia Line Item ID
+    5. Estimated pipeline created (USD)
+    6. Target number of contacts
+    7. Expected number of deal registrations
+    8. Campaign Name
+    9. Salesforce Campaign Link
+    10. Region
 
 #### Making changes to the GitLab issues
 
@@ -360,7 +395,7 @@ As mentioned above, there is a listing of available FY23 SFDC campaigns to choos
 
 In addition, we will be sending over planned amounts into the SFDC Campaign Budget field and actuals will synch nightly. This ONLY happens if the connection is there by having a campaign selected in the `Existing SFDC Campaign` field. If there are multiple line items for a given SFDC campaign, they will be combined for the updated SFDC Campaign Budget, since we use the Allocadia sub-category ID to sync Allocadia to the SFDC campaign.
 
-There may be times when new values for existing fields need to be added to account for changing intiatives. If a new value needs to be added to an existing field that syncs to the SFDC campaign, that value will need to exist in SFDC first. An issue will need to be opened with the Sales Systems team to add the new value. Once the new value exists in SFDC, that matching value can be added in the master settings of Allocadia. 
+There may be times when new values for existing fields need to be added to account for changing intiatives. If a new value needs to be added to an existing field that syncs to the SFDC campaign, that value will need to exist in SFDC first. An issue will need to be opened with the Sales Systems team to add the new value. Once the new value exists in SFDC, that matching value can be added in the master settings of Allocadia.
 
 Full detailed instructions on how to set this synch up, which does have to be done campaign by campaign, can be [found here](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up).
 
@@ -396,7 +431,7 @@ Think of each line item ID as its own budget line. Each Allocadia line item ID w
 
 **Example Event in Allocadia:**
 
-![Example Event](/handbook/marketing/strategy-performance/allocadia/Alloscreenshot.png)
+![Example Event](/images/marketing/strategy-performance/allocadia/Alloscreenshot.png)
 
 In this example, you would use your sponsorship line item ID when submitting your sponsorship contract through Zip. You would then use your swag line item ID when submitting your swag order through Zip. If you used your Navan card for shipping charges and additional booth charges, you would enter those individual line item IDs into Navan when submitting your receipts (see below for more information regarding the new Navan field.)
 

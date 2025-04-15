@@ -5,9 +5,9 @@ description: "This Hands-On Guide walks you through creating and maintaining a D
 
 Runner scalers rely on a consistent runner image to be able to spin up runner machines on demand. The first step to creating this image is understanding how the underlying runner functions. In this lab, you will learn how to create a Docker based runner. This runner will be able to serve as a basis for a Docker autoscaler.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
-### Task A. Create a new project
+## Task A. Create a new project
 
 To start, let's create a new project in the lab environment:
 
@@ -19,21 +19,21 @@ To start, let's create a new project in the lab environment:
 
 1. Leave all other options as default and select **Create project**.
 
-### Task B. Adding the runner to the project
+## Task B. Adding the runner to the project
 
 1. Navigate to your project.
 
-1. In the left sidebar, select **Settings > CI/CD**. 
+1. In the left sidebar, select **Settings > CI/CD**.
 
-1. Select **Expand** next to Runners. 
+1. Select **Expand** next to Runners.
 
-1. Select **New project runner**. 
+1. Select **New project runner**.
 
-1. Select **Run untagged jobs**, leave all other settings as default, and select **Create runner**. 
+1. Select **Run untagged jobs**, leave all other settings as default, and select **Create runner**.
 
 1. Ensure that Linux is selected as your operating system.
 
-1. In the section titled **Step 1**, review the command, which will look something like this: 
+1. In the section titled **Step 1**, review the command, which will look something like this:
 
     ```shell
     gitlab-runner register  --url https://ilt.gitlabtraining.cloud  --token glrt-RrzYz4Kok-1X63pSqVJf
@@ -41,9 +41,9 @@ To start, let's create a new project in the lab environment:
 
 1. Take note of the value following `--token`. You will need this token later for the registration of your runner.
 
-### Task B. Deploying a runner
+## Task C. Deploying a runner
 
-We will manage the association of the runner and deployment of runner configuration through GitLab. This strategy allows you to have source control on your runner configuration, which is ideal for tracking changes. 
+We will manage the association of the runner and deployment of runner configuration through GitLab. This strategy allows you to have source control on your runner configuration, which is ideal for tracking changes.
 
 Let's take a look at how this is structured:
 
@@ -87,7 +87,7 @@ Let's take a look at how this is structured:
     ```
 
    > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
-   > 
+   >
    > The `–non-interactive` flag prevents the runner from prompting us for inputs during the installation process. Rather than entering a prompt, we provide the arguments for URL, executor, docker image, and token through command line arguments.
    >
    > In this configuration, the executor is set to docker. For the `docker-image`, you are setting the default Docker image to use for your pipelines. You can use any Docker image you like, for this example, we will use `alpine:latest` as the default image.
@@ -106,7 +106,7 @@ To verify that the runner is registered:
 
 1. Select **Expand** next to **Runners**. You should see a green circle next to your runner.
 
-## Task C. View your runner configuration
+## Task D. View your runner configuration
 
 When this runner is created, it will have a `config.toml` file that defines the configuration of the runner. Let's start by viewing our current runner configuration.
 
@@ -156,7 +156,7 @@ When this runner is created, it will have a `config.toml` file that defines the 
         network_mtu = 0
     ```
 
-## Task D. Editing your runner configuration
+## Task E. Editing your runner configuration
 
 For our configuration, we want to be able to run our job with Docker in Docker. To do this, we need to change two default configurations:
 
@@ -169,11 +169,11 @@ To make these changes, we will push a `config.toml` file to the runner.
 
 1. Navigate to your project repository.
 
-1. Select **+ > New file** 
+1. Select **+ > New file**
 
 1. In the filename, type `config.toml`.  
 
-1. Copy the `config.toml` from your job output into the toml file you created in your repository. 
+1. Copy the `config.toml` from your job output into the toml file you created in your repository.
 
     Your `config.toml` will look something like this (the `your-token` value will be your runner token instead):
 
@@ -259,17 +259,17 @@ To make these changes, we will push a `config.toml` file to the runner.
 
 This script copies your configuration to the runner machine. When the runner is registered, the new configuration is applied!
 
-## Task E. Testing the Runner
+## Task F. Testing the Runner
 
-To test the runner, let’s create a basic Docker in Docker configuration to use for a project. 
+To test the runner, let’s create a basic Docker in Docker configuration to use for a project.
 
-1. Navigate to your `Runners` project. 
+1. Navigate to your `Runners` project.
 
 1. Start by disabling instance level runners to ensure the jobs run on your project runner. To do this, navigate to **Settings > CI/CD**.
 
 1. Select **Expand** next to the **Runners** option.
 
-1. Toggle Enable instance runners for this project **off**. 
+1. Toggle Enable instance runners for this project **off**.
 
 1. Navigate back to your code repository.
 
@@ -319,7 +319,7 @@ To test the runner, let’s create a basic Docker in Docker configuration to use
 
 When your pipeline runs, you should see your job succeed using your new Docker runner!
 
-## Task F. Disabling the runner
+## Task G. Disabling the runner
 
 For future labs, it is best to use the instance runners to ensure consistency in your results. To allow for this, disable your custom runner using the following steps:
 
@@ -339,4 +339,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request.

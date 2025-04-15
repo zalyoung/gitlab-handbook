@@ -31,8 +31,8 @@ Small and Medium Size Business Account Executives "SMB AE" act as Account Execut
 #### SMB Support
 
 - **SMB Training Support** = [`#smb_training_support`](https://app.slack.com/client/T02592416/CKYLWKGJU)
-- **Sales Support** = [`#sales-support`](http://app.slack.com/client/T02592416/CNLBL40H4/thread/CKYLWKGJU)
-- **Questions** = [`#questions`](http://app.slack.com/client/T02592416/C0AR2KW4B)
+- **Sales Support** = [`#sales-support`](https://app.slack.com/client/T02592416/CNLBL40H4/thread/CKYLWKGJU)
+- **Questions** = [`#questions`](https://app.slack.com/client/T02592416/C0AR2KW4B)
 
 #### Closed deals
 
@@ -85,7 +85,7 @@ Additionally, [quarterly subscription reconciliations](/handbook/support/license
 The GitLab usage phases are broken down into the following:
 
 - Implementation: 12-9 months left
-- Adoption 9-6 months left 
+- Adoption 9-6 months left
 - Expansion 6-3 months left
 - Renewal less than 3 months left
 
@@ -102,10 +102,9 @@ Customer success planning should be broken into three categories based off the p
 - [Clari](/handbook/sales/forecasting/) - Forecasting
 - [CustomersDot Admin](https://customers.gitlab.com/admin/) (see overview video [here](https://youtu.be/G9JuHXqV5LM))
 - [LinkedIn Sales Navigator](https://docs.google.com/document/d/1UF69ieck4AdHadzgPmZ5X1GBs3085JhlYaMowLj0AOg/edit) - Social Selling
-- [Outreach](/handbook/marketing/marketing-operations/outreach/) - Email Sequencing
 - [Periscope](https://app.periscopedata.com/app/gitlab/403199/Welcome-Dashboard-%F0%9F%91%8B) - Data Visualization
 - Salesforce - Customer Relationship Management
-- [Scratchpad](https://scratchpad.com/) - Editing tool for Salesforce
+- [Scratchpad](https://www.scratchpad.com/) - Editing tool for Salesforce
 - [Version GitLab](https://version.gitlab.com/users/sign_in)- Customer Product Usage
 - Xactly - Commission Calculator
 - [ZenDesk](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) - Ticketing system
@@ -165,4 +164,4 @@ Any further questions related to SMB Compensation can be directed to the slack c
 
 ### Handbook Mantra
 
-GitLab is intentional about documenting in a manner that creates a single source of truth. [It operates handbook-first](/handbook/company/culture/all-remote/handbook-first-documentation/), and in valuing transparency, makes its handbook publicly accessible to all. SMB team members should always be striving to contribute and exemplify this value.
+GitLab is intentional about documenting in a manner that creates a single source of truth. [It operates handbook-first](/handbook/company/culture/all-remote/handbook-first/), and in valuing transparency, makes its handbook publicly accessible to all. SMB team members should always be striving to contribute and exemplify this value.

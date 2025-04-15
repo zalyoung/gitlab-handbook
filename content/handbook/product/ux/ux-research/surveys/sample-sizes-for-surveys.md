@@ -26,7 +26,7 @@ One of the most common questions around sampling is *'how many people should we 
 - **Scenario 4:** If your research is trying to understand what kinds of tools users' incorporate in their workflow, you will likely have more open-ended questions in the survey. Example: survey to understand tools in a workflow (n=30)
   - Why?  You don't need as large of a sample for accuracy, since you are not computing a measure. Rather, you're trying to get an idea of what responses users give.
   - You might be looking to target certain tools that users list and want to conduct follow up interviews to understand how they are using the tool.
-  - A sample size of 30 is commonly used because that number is [large enough to accrue a normal distribution in scores even from populations where there is a skewed distribution](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5370305/). In short, this number helps us prevent bias in our results.
+  - A sample size of 30 is commonly used because that number is [large enough to accrue a normal distribution in scores even from populations where there is a skewed distribution](https://pmc.ncbi.nlm.nih.gov/articles/PMC5370305/). In short, this number helps us prevent bias in our results.
 
 ## Guidelines for survey sample size
 
@@ -53,4 +53,4 @@ Justification for your sample size is often needed to help other team members un
 4. What does the confidence level and margin of error mean?
 
 Here is an example of a filled in report slide for a survey:
-![Example slide reporting sample size](/handbook/product/ux/ux-research/surveys/Example_slide_reporting_sample_size1.png)
+![Example slide reporting sample size](/images/product/ux/ux-research/surveys/Example_slide_reporting_sample_size1.png)

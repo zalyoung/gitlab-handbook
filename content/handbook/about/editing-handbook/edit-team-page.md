@@ -5,11 +5,11 @@ description: "Instructions on how to add yourself to the team page, and make edi
 
 This page specifically covers how to add yourself to the team page, add your pets to the pets page, and edit the relevant entries.
 
-For the handbook, see the [editing handbook page]({{< ref "editing-handbook" >}}).
+For the handbook, see the [editing handbook page](/handbook/about/editing-handbook/).
 
 ## Add yourself to the Team Page
 
-We are happy to have you join our company and to include you in our [team page](https://about.gitlab.com/company/team/)! [A sync](/handbook/people-group/engineering/onboarding/#sync-to-team-page) will add a basic entry for you on our team page on your third day of employment at GitLab. You are invited to personalize this entry and add more information to it. If an update is not properly reflected on the team page, verify that your Workday setting is correct.
+We are happy to have you join our company and to include you in the team pages found on [our website](https://about.gitlab.com/company/team/) and [in the handbook](/handbook/company/team/)! [A sync](/handbook/people-group/engineering/onboarding/#sync-to-team-page) will add a basic entry for you on your third day of employment at GitLab. You are invited to personalize this entry and add more information to it. If an update is not properly reflected, verify that your Workday setting is correct. The same file is referenced for both team pages, however some of the fields that display are different. All of the available fields are documented in the [team member data schema](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/README.md).
 
 Ask anyone in the company for help if you need it, including the `#mr-buddies` Slack channel. There are **three** ways to update the website:
 
@@ -33,6 +33,10 @@ Choose the method below that feels most comfortable and have the following infor
 - Story about your background and interests. (See other team member profiles for examples.)
 - Add your personal LinkedIn / Twitter / GitLab handles. When adding these handles, make sure to only include your username without any links or `@` in front of them, such as `LinkedIn: username`. (Some incorrect examples are: `LinkedIn: linkedin.com/in/username`, `LinkedIn: @username`.)
 - A relative link to your role. If your link is `https://handbook.gitlab.com/job-families/engineering/support-engineer/` use `/job-families/engineering/support-engineer/`. Refer to other entries for reference.
+
+{{% alert title="Note" color="primary" %}}
+For more information on setting the `Export Name/Location to Team Page?` opt-in mentioned below, search for the ["How to: Set Team Page Export Preferences" Google doc](https://drive.google.com/drive/search?q=how+to+Set+Team+Page+Export+Preferences) (internal).
+{{% /alert %}}
 
 ### Method 1: Add your info on GitLab.com using Web IDE
 
@@ -70,9 +74,10 @@ Choose the method below that feels most comfortable and have the following infor
    - Add your pronouns.
    - Consider adding `pronunciation` for your full name to help others to pronounce your name correctly (such as, `Sid See-brandy` for Sid Sijbrandij).
    - Add your Twitter and GitLab handles without the leading `@`.
+   - Add your Mastodon account in the format `mastodon.instance/@username`. Basically, the profile link without the `https://`.
    - Ensure your list of `departments` is accurate. Use other team members' as a reference.
    - Add your [`specialty`](/handbook/company/structure/#specialist).
-   - Add your [`expertise`](/handbook/company/structure/#expert).
+   - Add your [`expertise`](/handbook/company/structure/#expert). This must be formatted as HTML. An array will display incorrectly.
    - Add your own `story`. Use other team members' stories as a reference.
    - If remote work has [changed your life](/handbook/company/culture/all-remote/people/) in a meaningful way, consider adding your own `remote_story`, using other team members' remote stories as a [reference](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/uploads/8161ceac4523a9f36244f9533960ccbd/remote-story-example.png)
    - Update any data that was filled in but is incorrect.
@@ -84,7 +89,7 @@ Choose the method below that feels most comfortable and have the following infor
    1. Select the image you want to upload, and `Open`.
    1. If the image filename is different from what you updated your team page file previous, you need navigate back to your team page entry. You can do this by either closing the `sites` folder and opening `data`, then `team members`, `person`, and the folder containing you file; or you can notice your file tab on the top bar, and you can click on it to be taken to that file.
    1. If you did the previous step, update your `picture` field to your filename. Delete the content that is this line after the `picture:` that starts with `../gitlab` etc. Make sure to match the letter case of your picture file. The completed line should look like this: `picture: yournameinlowercase.jpg` for example.
-1. Once you have finished, click the `Source Control` icon on the left. It should have a small circle with a number inside of it. See point 5 of [Using the new Web IDE to edit the handbook](/handbook/about/editing-handbook/#web-ide-editing-steps) for details.
+1. Once you have finished, click the `Source Control` icon on the left. It should have a small circle with a number inside of it. See point 5 of [Using the new Web IDE to edit the handbook](/handbook/about/editing-handbook/#use-the-web-ide-to-edit-the-handbook) for details.
 1. Add a short description of your changes in the box above the `Commit and push` button. An example description would be `Update details to my team page entry`.
 1. Click the ⋁ on the right side of the `Commit and push` button.
 1. Choose the `Create new branch and commit` option.
@@ -146,6 +151,15 @@ Choose the method below that feels most comfortable and have the following infor
 1. Once ready, [stage and commit your changes](https://docs.gitlab.com/ee/topics/git/commit.html), with a comment *Add details for FirstName LastName to team page*.
 1. [Push your branch](https://docs.gitlab.com/ee/topics/git/commit.html#send-changes-to-gitlab).
 1. [Create a Merge Request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created and assign your manager as reviewer.
+
+## Reviewing your changes
+
+Once the MR is created, and you have a passing pipeline:
+
+1. Look for the "View app" button in the pipeline widget on the "Overview" tab of the MR.
+1. If the "View app" button does not take you to the correct page, manually visit the URL.
+   - For example, use the domain of the review app `https://your-branch.about.gitlab-review.app/` and add `company/team/` to form `https://your-branch.about.gitlab-review.app/company/team/` to preview your team page changes.
+1. If you make changes, ensure that the latest pipeline has passed before you look at the preview. Otherwise, the latest changes will not be present.
 
 ## Add your pet(s) to the Team Pets Page
 

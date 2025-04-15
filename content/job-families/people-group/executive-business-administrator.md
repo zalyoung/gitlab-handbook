@@ -28,11 +28,12 @@ The Executive Business Administrator is a [grade 6](/handbook/total-rewards/comp
 - Partner with PeopleOps, IT and Security to resolve any logistical needs
 - Assist the full life cycle of recruiting including booking interviews, liaising between the hiring team and the candidate, and coordinating onboarding of new hires
 - Maintain and track manager and teams project list and/or OKRs
-- Contribute to virtual and in-person team meetings and onsites by assisting with the production of materials and pre-reads, scheduling and coordination, logistics and vendor communication, budget-tracking, taking notes, and tracking action items.
+- Contribute to and attend virtual and in-person team meetings and onsites by assisting with the production of materials and pre-reads, scheduling and coordination, logistics and vendor communication, budget-tracking, taking notes, and tracking action items.
 - Provide general project support as needed
 - Provide coverage for other EBAs in similar roles
 - Contribute to broader EBA community by participating in EBA activities and initiatives
 - Build strong cross functional relationships with other EBAs
+- Organize agendas and note-take for meetings where the leaders they support are present (e.g. Staff meetings, AMAs, All Hands, team meetings, etc.)
 
 #### Executive Business Administrator (Intermediate) Requirements
 
@@ -73,6 +74,7 @@ The Senior Executive Business Administrator is a [grade 7](/handbook/total-rewar
 - Plan events such as team onsites, team building activities and company kick-offs, as needed
 - Participate in the interview process for open EBA positions
 - Contribute to the broader EBA community by sharing learnings and resources, supporting new EBA onboarding, and supporting EBA team camaraderie
+- Host/facilitate division-wide team meetings, AMAs, All Hands, etc.
 - Is a champion of GitLab strategy and CREDIT values
 
 #### Senior Executive Business Administrator Requirements
@@ -91,7 +93,7 @@ Staff Executive Business Administrators (EBA) support the CEO or an E-Group memb
 
 #### Staff Executive Business Administrator
 
-The Staff Executive Business Administrator to the CEO is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff Executive Business Administrator is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff Executive Business Administrator Responsibilities
 
@@ -109,6 +111,7 @@ The Staff Executive Business Administrator to the CEO is a [grade 8](/handbook/t
 - May manage executive's email inbox including drafting internal and external communications on behalf of the executive when required
 - Serve as a helpful knowledge base for executives and other team members (e.g., other EBAs), especially for processes and procedures, and provide assistance in a hands-on, kind, and proactive manner
 - Contribute to the broader EBA community by sharing learnings, resources, and mentoring other EBAs as appropriate. Develops and fosters collaborative working relationships with stakeholders at all levels. Known as a positive influencer across GitLab and an informal leader amongst the EBA community
+- May host/facilitate company-wide meetings and events in addition to division-wide touchpoints
 - Able to provide CEO support, if needed
 
 #### Staff Executive Business Administrator Requirements

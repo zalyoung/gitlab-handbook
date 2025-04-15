@@ -2,70 +2,105 @@
 title: "Security Assurance Automation"
 ---
 
-## A dedicated resource
+## A team supporting Security Assurance's growth
 
-The Security Assurance department is continuously growing both in terms of personnel and breadth of the program. As we continue to scale, self-operating automated processes will become a critical catalyst to driving mission success.
+The Security Assurance program is expanding constantly, be it in breadth, headcount, complexity and scope. The Assurance department is composed of numerous teams with different processes, data sets and objectives. Having a single team focused on creating efficiencies through software allows the Department to scale faster and support the growth and impact of individual programs.
 
-Security Assurance Automation Engineers are a critical dedicated resource that enable the Security Assurance department through the development, implementation, and maintenance of automated processes and controls.
+We provide to the Security Assurance department an ability to automate processes through developing scripts, building solutions and implementing fixes. Dedicated resources ensures custom solutions can be built and maintained in the future to provide continuous value-add.
 
-## How does Security Assurance Automation operate?
+## How does Security Assurance Automation team operate?
 
 ### Intake process
 
-Security Assurance Automation maintains an internal [Security Assurance Automation Issue Landing project](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing) that is dedicated to the intake of Security Assurance related automation requests. As these requests are received, Security Assurance Automation Engineers triage and prioritize the requests. Once requests have been prioritized, an Epic is opened at the [GitLab Security Assurance Automation](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup) sub-group level if appropriate or handled directly in the issue requesting the work. All work related to the automation request is tracked in its associated Epic.
+To work with the Security Assurance Automation team, please create an issue following your team's relevant link below:
 
-#### Intake process - Control Related Automations
+| [Risk](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing/-/issues/new?issuable_template=risk_request)| [Compliance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing/-/issues/new?issuable_template=compliance_request)| [Field Security](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing/-/issues/new?issuable_template=field_security_request)| [Governance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing/-/issues/new?issuable_template=governance_request)| [Any other team](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing/-/issues/new?issuable_template=ad-hoc_request) |
+|-|-|-|-|-|
 
-A specific `control_related_automation_request` template exists and should be used for any requests related to automating a component of control testing. These requests will always be promoted to an epic or added to an existing control-specific epic if one already exists. GitLab strives to have a true [Continous Control Monitoring](/handbook/security/security-assurance/#security-compliance-commercial-core-competencies) program in place, and iterating to that state for controls often involves many intermediate steps. For this reason, we aim to gather as many details up front about the MVP solution that we can work on and implement immediately for a control automation. Gaining an idea of "where we're going" enables a forward looking approach and allows us to maintain a healthy backlog of work to push forward and adapt as capabilities/systems shift throughout the company.
-
-<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/issue-landing/-/issues/new" class="btn bg-primary text-white btn-lg">Open a Security Assurance Automation Request</a>
+Work related to the request will be performed within the dedicated issue. If an Epic is needed to track the work (maybe too big for an issue, which are often scoped to be completed within an iteration ie. 2 weeks), the issue will be promoted to an Epic, and the stakeholders will be able to track the work from there.
 
 ### Labels
 
-The Security Assurance Automation team uses scoped labels to identify the workflow stage of automation requests. These labels also define where the request is coming from and the type of work that is needed to satisfy the request.
+GitLab has native features that allow team members to track their work, report on current status and view dashboard of velocity among other things.
 
-- `team::SAA` - This is a catch all label that will be applied to all security assurance automation related issues. Please apply this label, regardless of project, to get the SAA team to review.
+The current limitation is that outside of GitLab, the way data is visible on our BI tool (Tableau) is through labels. Even if GitLab has native weight and stage features, using labels facilitate reporting.
+
+These Tableau dashboards will showcase the work completed by the team, where the requests originated from and our velocity. More advanced metrics will also be created based on that data.
+
+Labels also help organize our issue boards in a way that ensures all issues fit into a category so no valuable work from team members isn't tracked.
+
+#### In every issue
+
+`team::SAA` will be added on all issues handled by the Security Assurance Automation team.
 
 #### Stages
 
-- `SAA::In-Progress` - Issues that are currently in progress
-- `SAA::Ready` - Issues that have been triaged and are in the backlog
-- `SAA::Blocked` - Issues that are blocked or stalled
-- `SAA::UAT` - User acceptance testing, these issues will need to be reviewed by the stakeholder
-- `SAA::Vague` - Issues that require additional information before work can proceed.
+Used to track current status of issues as part of the [project lifecycle](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/-/boards/7578600?iteration_id=Current). These labels also help track velocity in conjunction with Weight as they are the main inputs in our Tableau dashboard.
+
+All `SAA::Ready` work should have a weight assigned to it as part of the triage/grooming process.
+
+Don't forget to add the `SAA::Complete` once the work in done. Issues will be closed at the end of the iteration by closing all `SAA::Complete` issues still opened.
+
+Any Issue that was added to an iteration after it started should have the `Unplanned` label added to it. It will help track unplanned work and how it impacts velocity and capacity.
+
+```mermaid
+graph TD;
+    Issue_Created== SAA::Backlog ==>Issue_Prepped;
+    Issue_Prepped== SAA::Ready ==>Issue_Iteration_Ready;
+    Issue_Iteration_Ready== SAA::In-Progress ==>Issue_Worked_On;
+    Issue_Stalled-. SAA::In-Progress .->Issue_Worked_On;
+    Issue_Worked_On== SAA::Blocked ==>Issue_Stalled;
+    Issue_Worked_On== SAA::Complete ==>Issue_Completed;
+    Issue_Completed== Issue closed ==>Issue_Closed;
+
+    style Issue_Created color:#FFFFFF, fill:#36454f, stroke:#AA00FF
+    style Issue_Prepped color:#FFFFFF, fill:#36454f, stroke:#AA00FF
+    style Issue_Iteration_Ready color:#FFFFFF, fill:#8fbc8f, stroke:#AA00FF
+    style Issue_Worked_On color:#FFFFFF, fill:#00a0b0, stroke:#AA00FF
+    style Issue_Stalled color:#FFFFFF, fill:#d00000, stroke:#AA00FF
+    style Issue_Completed color:#FFFFFF, fill:#070edf, stroke:#AA00FF
+```
+
+| Label name | Meaning |
+| --- | --- |
+| `SAA::Backlog` | All new issues start with this label |
+| `SAA::Ready` | Once groomed and reviewed, these issues can be picked up during an iteration |
+| `SAA::In-Progress` | Issues are actively worked on |
+| `SAA::Blocked` | Work has started but dependencies prevent further progress |
+| `SAA::Complete` | All work has been completed |
+| `Unplanned` | These issues weren't planned for the iteration but were picked up |
 
 #### Type
 
-- `SAA-Type::Metrics` - Issues that are metric centric
-- `SAA-Type::Control-Automation` - Issues that are control process automations
-- `SAA-Type::API-Integration` - Issues that require API integration between systems
-- `SAA-Type::Process-Automation` - Issues that are manual processes, that are being upgraded
-- `SAA-Type::Maintenance` - Issues that are related to ongoing structure/maintenance of team processes
+We use Type labels to determine what the work is about. Categories are as distinctive as possible to allow team members to quickly understand the nature of the work being done.
+
+These categories can be changed or expanded upon depending on work items, the goal always being of accurately capturing what the SAA team member is working on.
+
+| Label name | Meaning |
+| --- | --- |
+| `SAA-Type::Planning` | Project Management activities |
+| `SAA-Type::Documentation` | Writing, revamping, improving documentation |
+| `SAA-Type::Maintenance` | Issues related to maintenance of current automations |
+| `SAA-Type::Metrics` | Work related to dashboards, reporting and metrics |
+| `SAA-Type::Testing` | QA, writing tests and reviewing code |
+| `SAA-Type::API-Integration` | Integration between systems |
+| `SAA-Type::Process-Automation` | Automating manual team processes |
+| `SAA-Type::Control-Automation` | Specific automation of control testing |
 
 #### Source
 
-- `SAA-Source::Risk` - Issues from the Risk team
-- `SAA-Source::Compliance` - Issues from the Compliance team
-- `SAA-Source::Assurance-Automation` - Issues from the Security Assurance Automation team
-- `SAA-Source::Governance` - Issues from the Governance team
-- `SAA-Source::Field-Security` - Issues from the Field Security team
-- `SAA-Source::Ad-Hoc` - Unplanned issues raised for the department that don't fall under a specific team (e.g. leadership asks etc.)
+We use Source labels to determine where the work item came from. Any additional issues stemming from that external team will always have the same source, even if the first issue came directly from.
 
-### SLAs
+`SAA-Source::Assurance-Automation` is reserved for internal work where no direct external stakeholders/dependencies exist. This label can also be used once v1 of any work has been delivered already.
 
-The Security Assurance team uses scoped labels to identify the priority and indicate the resolution time of automation requests.
-
-- Priority Label - Security Assurance Automation (SAA) followed by the associated priority number.
-- Color - The color of the label.
-- Description - Criteria the issue must fit to be assigned the label.
-- Provide Solution - The time it will take to update the issue and provide a solution to the automation request.
-
-| Priority | Color | Description | Provide Solution |
-| -------- | ---------- | --------- | --- |
-| `~"SAA::1"` | Red | These issues have a direct, immediate impact on business continuity AND are critical for compliance engagements. These are "drop everything so the team can do work" types of requests.                 | 1 Business Day |
-| `~"SAA::2"` | Orange   | These issues have an effect on business continuity or are critical for compliance engagements. | 3 Business Days |
-| `~"SAA::3"` | Yellow | These issues are day to day automations that are not critical but greatly reduce time for manual tasks by the team. The bulk of automation issues will live here.                                  | 4 Business Days |
-| `~"SAA::4"` | Blue    | These issues are automation ideas that may not have a clear path forward or need additional resources to accomplish.                                          | 7 Business Days |
+| Label name | Meaning |
+| --- | --- |
+| `SAA-Source::Risk` | Request from Risk |
+| `SAA-Source::Governance` | Request from Governance |
+| `SAA-Source::Compliance` | Request from Compliance |
+| `SAA-Source::Field-Security` | Request from Field Security |
+| `SAA-Source::Assurance-Automation` | Internal work |
+| `SAA-Source::Ad-Hoc` | Request from teams not mentioned (leadership, etc.)|
 
 ### What does Security Assurance Automation own?
 
@@ -83,7 +118,7 @@ The Security Assurance Automation team is continuously engineering new automated
 
 [Tableau Dashboarding](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTZenGRCObservations/ZenGRCObservationsDashboard) - Custom dashboards using our analytic tool that integrates with data sources across GitLab.
 
-[Insight Dashboarding](https://docs.gitlab.com/ee/user/group/insights/index.html#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
+[Insight Dashboarding](https://docs.gitlab.com/ee/user/project/insights/index.html#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
 
 #### Compliance control monitoring and evidence gathering automation
 
@@ -93,7 +128,7 @@ Conversion of manual compliance control monitoring and evidence gathering proces
 
 [GitLab Project Testing and Populations](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations) - Automations around GitLab.com for gathering evidence and performing automated tests.
 
-## Security Assurance Automation SDLC
+## Software Development Lifecycle
 
 ### Planning
 
@@ -114,7 +149,13 @@ As a result of the planning stage, we determine the feasibility of a particular 
 
 During the analysis stage, we continue to gather details to support accepted projects. Projects are broken down into individual components to support an agile approach to development. Those individual components are represented as child issues under the project Epic or associated tasks/issues for smaller bodies of work.
 
-Each issue to be worked in a given iteration is assigned a weight. The total weight of the Epic allows us to gauge the level of effort required to accomplish a particular project as well as plan for each bi-weekly iteration so we maintain a consistent velocity. We assign time weights to issues according to the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence) since the complexity of a problem does not increase linearly, but rather exponentially.
+The agreed upon scale is one weight equals one business day. This means for each iteration, team members can't have assigned more than 10 points of work.
+
+This allows us to track unplanned work and rolled over issues for effectively and account for opportunities to better split big chunks of work into smaller manageable issues.
+
+This approach is flexible enough to ensure the team doesn't spend valuable engineering time gauging the relevant weight to assign an issue.
+
+If work takes less than a full business day, weight of 1 will still be used for simplicity purposes.
 
 | Weight | Level of Effort |
 | -------- | ---------- |
@@ -164,9 +205,9 @@ Below is a list of libraries we use to assist with standardization:
      - Dependency Management: [Pipenv](https://pipenv.pypa.io/en/latest/)
      - CLI: [argparse](https://docs.python.org/3/library/argparse.html)
   3) Modules
-     - Dependency Management: [PDM](https://pdm.fming.dev/)
+     - Dependency Management: [PDM](https://pdm-project.org/en/latest/)
         - [PDM](https://pdm-project.org/latest/) has been selected over [Poetry](https://python-poetry.org/) due to PDM's direct support of [PEP 621](https://peps.python.org/pep-0621/), [PEP631](https://peps.python.org/pep-0631/), and [PEP 517](https://peps.python.org/pep-0517/)
-     - CLI: [click](https://click.palletsprojects.com/en/7.x/)
+     - CLI: [click](https://click.palletsprojects.com/en/stable/)
 
 As `Simple is better than complex.`, this standard definition will remain minimal.
 
@@ -221,7 +262,7 @@ Once current level is assessed - add the scoped label `ControlAutomationCurrentL
 
 #### Assessing Potential Level
 
-Next, the potential should be assessed. There is, inevitably, subjectivity in this assessment. This is intended to be a realistic but ambitious assessment of where we think the control's testing/monitoring could be matured to. When determining a control's potential level, adding a brief justification will help support that rating decision. Something like the "final phase" of the [control automation issue](#intake-process---control-related-automations) that is opened should already have this information as this is the end state we're working toward but if it does not already exist, please briefly justify the rating.
+Next, the potential should be assessed. There is, inevitably, subjectivity in this assessment. This is intended to be a realistic but ambitious assessment of where we think the control's testing/monitoring could be matured to. When determining a control's potential level, adding a brief justification will help support that rating decision. Something like the "final phase" of the control automation issue that is opened should already have this information as this is the end state we're working toward but if it does not already exist, please briefly justify the rating.
 
 Potential ratings can and should change (hopefully for the better) through technology changes, process changes etc. Not every control will have a potential rating of 6 immediately, and that's OK. To reach the higher levels of maturity (4+), process changes from a control operator and assessor standpoint may need to adapt.
 
@@ -233,5 +274,5 @@ Once current level is assessed - add the scoped label `ControlAutomationPotentia
 
 [Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
 
-- [Automation design, development, and implementation]({{< ref "security-assurance-automation" >}})
-- [GRC application administration]({{< ref "security-assurance#core-tools-and-systems-1" >}})
+- [Automation design, development, and implementation](/handbook/security/security-assurance/governance/security-assurance-automation/)
+- [GRC application administration](/handbook/security/security-assurance/#i-idbiz-tech-icons-classfar-fa-newspaperi-core-tools-and-systems)

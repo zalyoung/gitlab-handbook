@@ -55,7 +55,7 @@ If the true-up is not added or has the incorrect number of users over the licens
 
 The customer is always free to renew for as many users as they would like, even if this number is lower than the previous year; the true-up amount just needs to be paid for in full.
 
-If a customer is having issues obtaining the number of licenses needed to purchase, you can [request a screenshot](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/#how-to-ask-the-customer-for-a-screenshot-needed-for-users-over-license-with-self-managed) from them or else access their usage ping data through the [version application](https://version.gitlab.com/).
+If a customer is having issues obtaining the number of licenses needed to purchase, you can [request a screenshot](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/troubleshooting/#how-to-ask-the-customer-for-a-screenshot-needed-for-users-over-license-with-self-managed) from them or else access their usage ping data through the [version application](https://version.gitlab.com/).
 If there is no data available through usage ping, we can conclude that the usage ping has been disabled in the instance, and you will need to obtain this information manually.
 
 **Customer Question: Why is there a discrepancy between "Maximum Users" and "Users" on the admin dashboard? (self-managed)**
@@ -417,7 +417,7 @@ E.g. Customer in UK purchased web direct, at renewal (if sales assisted) the quo
 This is to make sure we ask for Tax ID or VAT ID which prevents a customer from paying tax or VAT charges.
 
 The following image reflects how inside the quote object you can change the entity to US.
-<img src="/handbook/business-technology/enterprise-applications/applications/troubleshooting/entity2.png" class="full-width" alt="">
+<img src="/images/business-technology/enterprise-applications/applications/troubleshooting/entity2.png" class="full-width" alt="">
 
 ## Checklists for quotes
 

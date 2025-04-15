@@ -29,7 +29,7 @@ The Commercial Solutions Architecture team is a part of the global [SA Organizat
 
 ### Segment-Specific Engagement Models
 
-The SA team’s engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
+The SA team's engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
 
 #### Mid-Market
 
@@ -115,7 +115,7 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead. These
 - **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
   - Goal: AEs to hold off on scheduling the next customer meetings until the SA Team has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
     - SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments. GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
-    - Sometimes, a lot of runaway is not possible. We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Team 
+    - Sometimes, a lot of runaway is not possible. We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Team
 - **#4: Does the SA have relatable experience on this type of account.**
   - 'Yes' could be the "preferred" answer depending on the account and timeline.
   - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will have a chance to learn with the support of the wider team
@@ -244,35 +244,6 @@ Commercial SA team recognizes [Peer Review sessions](/handbook/solutions-archite
 - Two opportunities are reviewed during the session (10 minutes each)
 - Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
 
-### Solutions Architect Judgment Indicator
-
-The Solutions Architect Judgment Indicator (SA Judgment) is a metric used to assess the technical perception and feedback regarding current opportunities. It aids in making informed decisions and effectively managing sales pipelines. This indicator enhances the precision of forecasting by providing a means to validate AE judgment based on the technical seller's assumptions. It also facilitates discussions during deal reviews and pipeline analysis by highlighting potential misalignments more easily.
-
-The key aspects to take into consideration:
-
-1. Technical statement
-   1. Customer knowledge: current state well documented (internal)
-   1. Clear use cases. Identified pains.
-   1. Product-match. Identified capabilities to close the gap.
-1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
-   1. Access to development, information security and operations. Technical/lead developer involved with the right skills
-   1. Connection to the technical validator/buyer
-   1. Established communication channel and responsiveness
-
-The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] Initials Date: One line qualitative comment` with `[COLOR]` equals to:
-
-- `[RED]`: Indicates high risk or significant issues present in the opportunity's presales forecast. These issues might include technical challenges, unclear requirements, or insufficient resources allocated.
-- `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
-- `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
-
-> Example: _[RED] VD 17/10: No access to technical buyers, no clear use case_.
-
-Solutions Architects are required to fill out in their judgment on all opportunities meeting these criteria:
-
-- EMEA COMM Business Unit
-- Net ARR >$50K
-- Stage: 3+ (potentially 2+)
-
 ## Team Meetings
 
 Commercial SA team meetings are held on a regular basis to ensure alignment, share knowledge, and discuss important topics. The following meetings are part of the Commercial SA team's schedule:
@@ -301,7 +272,7 @@ Commercial SA team meetings are held on a regular basis to ensure alignment, sha
   - Purpose: Connect as a team, discuss any ongoing initiatives, regional priorities, share updates, and address any pressing issues
 
 ### Manager Sync
- 
+
 - Frequency: Weekly
 - Duration: 25 minutes
 - Purpose: Discuss team performance, address any challenges, and align on priorities for the upcoming weeks, months, quarters

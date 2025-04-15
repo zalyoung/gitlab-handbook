@@ -16,7 +16,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 ## What do we work on?
 
 <!-- TODO: Pull this from the product side -->
-- **Navigation & Settings** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/navigation_settings/))
+- **Navigation & Settings** ([Direction Page](https://about.gitlab.com/direction/foundations/personal_productivity/))
 
 ## Communication
 
@@ -27,7 +27,7 @@ For more urgent items or if you are unsure who to ask, ping `@gitlab-org/foundat
 
 ## How do we work?
 
-In general, we use the standard GitLab [Product Development Flow](/handbook/product-development-flow/). Here are some specific workflows we use:
+In general, we use the standard GitLab [Product Development Flow](/handbook/product-development/product-development-flow/). Here are some specific workflows we use:
 
 {{% include "includes/engineering/foundations/weighting_scale.md" %}}
 

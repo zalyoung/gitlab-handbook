@@ -1,0 +1,20 @@
+---
+# Error: handbook.AbsoluteLinkPrefixContent
+#
+# Checks for links that start with "/content/handbook/" or "content/handbook/".
+#
+# For a list of all options, see https://vale.sh/docs/topics/styles/
+extends: existence
+message: "This link uses a file system path instead of the web path. Drop 'content' so the link start with '/handbook/'."
+link: https://handbook.gitlab.com/docs/markdown-guide/#links
+level: error
+scope: raw
+raw:
+  - '\[[^\]]+\]\(/?content/handbook/.*?\)'
+action:
+  name: edit
+  params:
+    - regex
+    - '\]\(/?content/handbook/'  # pattern
+    - '](/handbook/'  # replacement
+

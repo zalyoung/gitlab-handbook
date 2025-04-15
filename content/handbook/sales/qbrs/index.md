@@ -89,7 +89,7 @@ See below for a list of QBR sessions by segment.
 1. Professional Services Team
 1. CS Leadership
 
-![QBR Structure Pyramid](/handbook/sales/qbrs/QBR_Structure_Pyramid.png)
+![QBR Structure Pyramid](/images/sales/qbrs/QBR_Structure_Pyramid.png)
 
 ### Field Manager QBR Participation - Virtual
 

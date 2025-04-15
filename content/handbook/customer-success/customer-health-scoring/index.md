@@ -107,7 +107,7 @@ Gainsight scoring framework:
 - Yellow: 50-74 points
 - Red: 0-49 points
 
-[Link to Gainsight Calculation of Measure Group Scores and Overall Score](https://support.gainsight.com/Gainsight_NXT/05Scorecards/02Admin_Guides/Calculation_of_Group_Scores_and_Overall_Scores)
+[Link to Gainsight Calculation of Measure Group Scores and Overall Score](https://support.gainsight.com/gainsight_nxt/05Scorecards/02Admin_Guides/Calculation_of_Group_Scores_and_Overall_Scores)
 
 Calculation: ((Score *Weight) + (Score* Weight)... / (Max Potential Score * Weight)
 
@@ -344,7 +344,7 @@ Indicators from Seat Reduction or Downtier above plus:
 
 - [MVC Early Warning System epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/25)
 - [Customer Analytics Roadmap (internal-only document)](https://docs.google.com/presentation/d/1_v4hxKdbL6--UjpjVdveGEGD_MjmUnBg0-OIU1R14m8/edit#slide=id.gb3e6c0a32e_0_5) (slide deck)
-- [Customer Success Services](https://about.gitlab.com/services/customer-success-services/) (client facing)
+- [Customer Success Services](/handbook/customer-success/csm/digital-journey/) (client facing)
 - [Operational Data Vision](/handbook/customer-success/product-usage-data/)
 - [Cloud Licensing Documentation](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/cloud-licensing/) (internal handbook)
 - [Strict Cloud Licensing](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/strictcloudlicensing/) (internal handbook)

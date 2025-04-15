@@ -13,46 +13,15 @@ This page aims to walk you through some basic checks and items to tick off when 
 
 In previous years, triage of tickets was done in the `Needs Org` queue and required Support Engineers to ensure that tickets were assigned to their organizations with proof of entitlement. Currently, all submitted tickets should have an organization or belong to a free user. Tickets from users who are not listed contacts will automatically be rejected and closed with [instructions on how to become a contact for their organization](https://about.gitlab.com/support/managing-support-contacts/). However, customers may still submit tickets under the wrong forms, so having accurate information helps with reporting and getting the tickets to the right people.
 
-## Overall Flow
-
-```mermaid
-graph TD
-    G[Ensure correct form] --> A{Is it a Support Ticket?}
-    A -->|Yes| B{Is the ticket tied to an org?}
-    A -->|No| H[Check if it falls under 'Other Requests']
-    B -->|Yes| D{Does the ticket have an SLA?}
-    B -->|No| J[Is it a Free User?]
-    D -->|Yes| C[Done]
-    D -->|No| F[Contact Support Ops!]
-    J --> |No| E[Contact Support Ops!]
-    J --> |Yes| I[Does it qualify for Support?]
-    I --> |No| K[See 'Handling Free User tickets' section below]
-    I --> |Yes| E
-```
-
 ## Applying the Correct Form
 
-A ticket should have the correct [form](/handbook/support/readiness/operations/docs/zendesk/forms/) applied to it to help route it to the right set of individuals who can assist with that request.
+A ticket should have the correct form applied to it to help route it to the right set of individuals who can assist with that request.
 
-The single source of truth for what forms exist is the [Current active forms](/handbook/support/readiness/operations/docs/zendesk/forms/) list in the Support Ops handbook section.
-
-Below is a list of some commonly used Zendesk forms with a brief explanation regarding their usage:
-
-- Self-Managed: An issue where the customer is maintaining their own local instance of GitLab
-- SaaS (GitLab.com): An issue involving the GitLab hosted SaaS offering
-- SaaS Account: Single user account issue only, all others go to GitLab.com (SaaS).
-- L&R (License and Renewals): subscription and purchase issues, see also [L&R workflows](/handbook/support/license-and-renewals/workflows/).
-- Level Up: For tickets that should go to the Professional Services team, such as requests about [the GitLab LevelUp platform](/handbook/people-group/learning-and-development/level-up/)(`levelup.gitlab.com`).
-
-**Please note:** Please follow the guidance under [Moving to non-support forms](#moving-to-non-support-forms) to *change* the ticket form, unless it's between Self-Managed, SaaS (GitLab.com) and SaaS Account.
+For tickets submitted using an incorrect form or those that need to be moved to non-support forms, apply the `General::Forms::Incorrect form used` macro. Support Operations will handle the reassignment from there.
 
 ### For security related matters
 
 Apply the macro `Security::All Security Questions`. This will reply and mark the ticket `solved`.
-
-### Moving to non-support forms
-
-For cases that need to go to non-support forms, apply the `General::Forms::Incorrect form used` macro. Support Operations will do the rest from there.
 
 ### Handling Free User tickets
 
@@ -71,7 +40,7 @@ If the request falls outside of such scenarios, see the [Other Requests section]
 
 ## After applying the correct form
 
-- Apply the correct `Support - Category` and `Subcategory` if possible.
+- Apply the correct `Support Ticket Category` value if possible.
 - If missing, gather information about the `GitLab Install Type`, `Reference Architecture` and `GitLab Version`
 - Consider gathering any other information that might be missing if the customer used the incorrect form.
 
@@ -90,7 +59,7 @@ We also receive non Support requests in our queue - if you see something not lis
 |Training|Redirect requester to [Education from Professional Services](https://about.gitlab.com/services/education/)|
 |New Set Up/Installation|Follow the [Passing a Lead to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) workflow|
 |Requests for swag|Ask in the #swag internal slack channel or direct to [the FAQ](https://shop.gitlab.com/policies) for existing orders. For general requests for free swag, use the `General::Free Swag Request` Macro.|
-|Questions related to status of job application| Use the `General::Job Application Questions` [macro](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/General/Job%20Application%20Questions.yaml) and send a note to the internal `#talent acquisition` Slack channel.|
+|Questions related to status of job application| Use the `General::Job Application Questions` and send a note to the internal `#talent acquisition` Slack channel.|
 |Legal Questions and Concerns|Ask in the #legal internal slack channel|
 |Missing Learning and Development Certificates | Direct requester to review  Missed Certificate and contact `learning@` with a note about which certificate/knowledge assessment is missing. |
 |Questions regarding [GitLab Partner Program](https://partners.gitlab.com/English/) or problems with registration. | This program is under [Channel Partner](/handbook/resellers/). Kindly direct requester to contact `partnersupport@` or ask in [#partner-programs-ops](https://gitlab.slack.com/archives/CTM4T5BPF) when unsure. |

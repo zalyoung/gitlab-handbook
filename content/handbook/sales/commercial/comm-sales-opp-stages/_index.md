@@ -15,7 +15,7 @@ To view these stages in Google sheet format please [click this link](https://doc
 
 [Exit Criteria at a Glance:](https://docs.google.com/presentation/d/1x6ycY7SdPET5ioD2bPyV6RURafdU_fn4P7vD6X0QRsM/edit#slide=id.p)
 
-![comm-sales-stages-exit-criteria](/handbook/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
+![comm-sales-stages-exit-criteria](/images/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
 
 ---
 
@@ -145,7 +145,7 @@ It is important to note that Sales Development opportunities could come from inb
 - SA will determine if trial is assisted by the SA or self-managed by customer
 - Work with customer to determine success criteria for eval, time frame, and next steps
 - Understand buying process, e.g. paper process, approvals, signatures, etc.
-- If a [trial license extension](/handbook/support/license-and-renewals/workflows/self-managed/trials.html) is being requested from a customer, discuss with AE and prepare a project plan with the customer before granting an extension.
+- If a [trial license extension](/handbook/support/license-and-renewals/workflows/self-managed/trials/) is being requested from a customer, discuss with AE and prepare a project plan with the customer before granting an extension.
 - Other teams/business units identified that may need to be involved  (Other points of entry)
 - Additional demos scheduled for stakeholders with unique needs
 - [Opportunity Consults and Lightweight Deal Reviews](/handbook/sales/commercial/#opportunity-consults-and-lightweight-deal-reviews) with manager if monetary thresholds are met

@@ -40,7 +40,7 @@ UX Design, and Contributors to work together more seamlessly and improve our pro
 
 - Product Designers can spend more time solving problems and less time designing
 (and redesigning) UI components. Components can be reused, making design efforts
-scalable and ensuring our UI stays [DRY](https://deviq.com/don-t-repeat-yourself/).
+scalable and ensuring our UI stays [DRY](https://deviq.com/principles/dont-repeat-yourself).
 - Engineers can reference design documentation that enables them to easily eliminate
 inconsistencies between design and code without assistance from a Product Designer.
 - Engineers can find coding and development guidelines which will enable them to
@@ -71,7 +71,7 @@ improving the experience of our UI.
 
 Everyone can contribute! Pajamas is a living system, meaning it continually evolves
 to support new UI components and also deprecate outdated components. For this
-evolution to be scalable, we encourage everyone to [contribute](https://design.gitlab.com/get-started/contributing)
+evolution to be scalable, we encourage everyone to [contribute](https://design.gitlab.com/get-started/contributing/)
 ideas, designs, code, and bug reports.
 
 External contributions can be particularly valuable, because GitLab Contributors
@@ -85,7 +85,7 @@ Not every component used in the GitLab product must be codified as part of the
 design system, because sometimes we create components that are relevant for only
 a specific use case in a distinct product area.
 
-To learn more about when to add a new component to Pajamas, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas).
+To learn more about when to add a new component to Pajamas, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle/#determining-whether-a-component-should-be-included-in-pajamas).
 
 ## What is the component development lifecycle?
 
@@ -93,7 +93,7 @@ The goal of this process is to make it easy to: submit new designs (including
 documentation), propose changes to existing designs, and translate component
 designs into built components.
 
-To learn more about the stages of the component lifecycle, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
+To learn more about the stages of the component lifecycle, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle/).
 
 ## Beautifying the GitLab UI
 
@@ -136,6 +136,6 @@ goals, which can be evaluated regularly at major adoption milestones (0%, 25%,
 - The UX team sends surveys to Product Designers and Front-End Engineers to gather
 data related to the time they spend building unique components.
 - We pull reports to determine the number of `UI polish` and
-[`Deferred UX`](https://docs.gitlab.com/ee/development/labels/index.html#technical-debt-and-deferred-ux)
+[`Deferred UX`](https://docs.gitlab.com/development/labels/#technical-debt-and-deferred-ux)
 issues to track trends over time. A reduction in overall issues affirms consistency
 throughout the product.

@@ -12,9 +12,9 @@ The page below is intended to align GitLab's sales and marketing efforts with a 
 
 | Product Marketing | Developer Advocate |
 | ---- | --- |
-| Saumya Upadhyaya (@supadhyaya) | [William Galindez Arias](https://gitlab.com/warias) |
+| Saumya Upadhyaya (@supadhyaya) | [William Galindez Arias](https://gitlab.com/waarias) |
 
-**NOTE: If you are looking for messaging guidelines regarding The DevOps Platform, please visit [The DevOps Platform Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/message-house/index.html).**
+**NOTE: If you are looking for messaging guidelines regarding The DevOps Platform, please visit [The DevOps Platform Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/message-house/).**
 
 ## How to use this value play
 
@@ -111,7 +111,7 @@ For example, if the customer is focused on a specific project planning solution,
 
 **We've built a system that's optimized for our business**
 
-More often than not, this objection reflects a desire to "not lose all the work we've put in" more than it does any unique business needs. With a DevOps Platform, businesses can focus their resources on differentiation that matters to the bottom line--the products and services organizations deliver to their customers. Work with customers to identify the costs (including staffing and opportunity costs) of building and maintaining their own toolchain (assets like the [Forrester Total Economic Impact report](https://about.gitlab.com/resources/report-forrester-tei/) can help start the conversation), then help them understand the customer value they could be generating if those resources were focused toward business goals instead of infrastructure.
+More often than not, this objection reflects a desire to "not lose all the work we've put in" more than it does any unique business needs. With a DevOps Platform, businesses can focus their resources on differentiation that matters to the bottom line--the products and services organizations deliver to their customers. Work with customers to identify the costs (including staffing and opportunity costs) of building and maintaining their own toolchain (assets like the [Forrester Total Economic Impact report](https://about.gitlab.com/resources/study-forrester-tei-gitlab-ultimate/) can help start the conversation), then help them understand the customer value they could be generating if those resources were focused toward business goals instead of infrastructure.
 
 **I don't want to retrain**
 
@@ -128,7 +128,7 @@ The DevOps Platform is relevant to all market segments and industries, though di
 One common set of pain points solved by the DevOps Platform involves the inefficiency of [DIY DevOps implementations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/message-house/#phase-3-do-it-yourself-diy-custom-integration). Custom toolchains are inefficient, diminishing the potential of workers who interact with it. This typically manifests in two ways.
 
 - Productivity lost to toolchain creation and maintenance: By definition, DIY DevOps requires organizations to create and maintain a toolchain that often depends on a mix of APIs, third-party plugins, and custom code. None of the work necessary to build and maintain that toolchain produces measurable end-user value. Many organizations have tasked entire teams with toolchain maintenance, sapping resources from revenue-generating activities and, in many case, decreasing employee satisfaction by assigning less-visible, less-rewarding tasks to development and operations staff.
-- Productivity lost to context switching: Even in a fully-integrated toolchain, moving from one set of tools to another creates a measurable dip in productivity, compounded by each additional tool in a toolchain. Industry experts such as Forrester have [noted the benefits of platforms in reducing this cost](https://www.forrester.com/report/accelerate-sustainable-innovation-with-platforms/) (please contact Analyst Relations for more information on this or other reports).
+- Productivity lost to context switching: Even in a fully-integrated toolchain, moving from one set of tools to another creates a measurable dip in productivity, compounded by each additional tool in a toolchain. Industry experts such as Forrester have [noted the benefits of platforms in reducing this cost](https://www.forrester.com/report/accelerate-sustainable-innovation-with-platforms/RES171399) (please contact Analyst Relations for more information on this or other reports).
 - Productivity lost to hard limitations: In many cases, DevOps toolchains are created by chaining together disparate tools that were never designed to work in concert, or in the ways modern organizations demand. In some cases, APIs mauy simply not offer access to necessary data, or organizations may need to embed sub-optimal workarounds into their toolchain to assemble necessary information.
 
 ### Business agility and innovation
@@ -218,7 +218,7 @@ GitLab believes this indicates that the market for a DevOps platform delivered a
 
 Amongst the many competitors in the DevOps space, few provide the scope to call themselves a platform, and none have been architected fromt he ground up as a single application.
 
-When viewed through the lens of "the most comprehensive suite of end-to-end functionality provided in a single solution," the nearest competitor is Microsoft's [Azure DevOps]. Microsoft continues to build toward the same vision with [GitHub](https://about.gitlab.com/competition/github/), as well.
+When viewed through the lens of "the most comprehensive suite of end-to-end functionality provided in a single solution," the nearest competitor is Microsoft's [Azure DevOps]. Microsoft continues to build toward the same vision with [GitHub](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/), as well.
 
 ### Industry Analyst Relations (IAR) plan
 
@@ -232,8 +232,8 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
 - [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
-- [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
-- [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
+- [GitLab CI/CD Training](https://university.gitlab.com/pages/ci-cd-training/)
+- [Integration Services](https://about.gitlab.com/services/catalog/ )
 
 ## Resources
 

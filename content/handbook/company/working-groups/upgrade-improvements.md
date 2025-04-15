@@ -1,7 +1,7 @@
 ---
 title: "Upgrade improvements"
 description: "The working group aims to enhance customer's experience of the entire lifecycle of upgrading a self-managed GitLab instance."
-status: active
+status: Paused
 ---
 
 ## Attributes
@@ -51,7 +51,7 @@ status: active
 </tr>
 <tr>
 <td>Status</td>
-<td>Active</td>
+<td>Paused</td>
 </tr>
 </table>
 
@@ -163,10 +163,8 @@ The north star of this working group is increasing the number of self-managed Gi
 | Executive Stakeholder | [Sabrina Farmer](https://gitlab.com/sabrinafarmer) | Chief technology officer (CTO) |
 | Facilitator | [Peter Lu](https://gitlab.com/plu8) | Engineering Manager, Distribution::Deploy |
 | Functional Lead - Product & Distribution | [Dilan Orrino](https://gitlab.com/dorrino) | Senior Product Manager Distribution |
-| Functional Lead - Database | [Nick Nguyen](https://gitlab.com/nhxnguyen) | Senior Engineering Manager, Data Stores |
 | Functional Lead - Test Platform | [Kassandra Svoboda](https://gitlab.com/ksvoboda) | Engineering Manager, Test Platform |
 | Functional Lead - Support | [Brie Carranza](https://gitlab.com/bcarranza) | Staff Support Engineer |
-| Functional Lead - Backup | [Lucie Zhao](https://gitlab.com/luciezhao) | Engineering Manager, Geo |
 | Functional Lead - Expansion Software Development | [Thomas Woodham](https://gitlab.com/twoodham) | Senior Engineering Manager, Secure |
 | Functional Lead - Core Development | [Luke Duncalfe](https://gitlab.com/.luke) | Staff Backend Engineer, Manage:Import and Integrate |
 | Functional Lead - Core Development | [Erran Carey](https://gitlab.com/erran) | Staff Fullstack Engineer, Create::Editor Extensions |
@@ -174,4 +172,3 @@ The north star of this working group is increasing the number of self-managed Gi
 | Member | [Vincy Wilson](https://gitlab.com/vincywilson) | Director, Test Platform |
 | Member | [Lyle Kozloff](https://gitlab.com/lyle) | Director, Support Engineering |
 | Member | [Stan Hu](https://gitlab.com/stanhu) | Engineering Fellow |
-| Member | [Michael Kozono](https://gitlab.com/mkozono) | Staff Backend Engineer, Geo |

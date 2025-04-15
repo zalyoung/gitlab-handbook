@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Rules and Merging Changes"
 description: "This Hands-On Guide demonstrates how to configure rules and merge request pipelines"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 - Overview of branch, merge request, and merged results pipelines
@@ -94,9 +96,9 @@ Let’s introduce a new job that adds a release based on the current project cod
         description: 'The latest release!'
     ```
 
-    When the release job runs, it will create a tag in your repository. The creation of a tag by default will trigger a pipeline to run. This creates an infinite loop, where each time the pipeline finishes, it creates a new tag, which then triggers a new pipeline. 
+    When the release job runs, it will create a tag in your repository. The creation of a tag by default will trigger a pipeline to run. This creates an infinite loop, where each time the pipeline finishes, it creates a new tag, which then triggers a new pipeline.
 
-    To prevent the infinite loop, we can utilize a workflow to prevent a pipeline from triggering when a new commit tag is added. 
+    To prevent the infinite loop, we can utilize a workflow to prevent a pipeline from triggering when a new commit tag is added.
 
 1. Define the following workflow at the top of your `.gitlab-ci.yml` file:
 
@@ -116,13 +118,14 @@ This rule applies to the whole pipeline. If a `CI_COMMIT_TAG` is present, the if
 
 ## Task B. Merge Request Pipelines
 
-Another consideration we have for our new release job is when the job to create a release runs. Currently, this job will run on every commit, however, we ideally only want it to run in commits to the main or default branch. To achieve this, we can implement a merge request pipeline. 
+Another consideration we have for our new release job is when the job to create a release runs. Currently, this job will run on every commit, however, we ideally only want it to run in commits to the main or default branch. To achieve this, we can implement a merge request pipeline.
 
-A merge request pipeline will run every time you make a change to a branch in a merge request. By controlling the flow for merge requests, we can prevent releases from running until they are fully merged. 
+A merge request pipeline will run every time you make a change to a branch in a merge request. By controlling the flow for merge requests, we can prevent releases from running until they are fully merged.
 
 To define a job that runs in a merge request, we will add a rules definition to the job. The rule we add will check the `CI_PIPELINE_SOURCE` to see if it is merge_request_event.
 
-1. Open your `.gitlab-ci.yml` file in the pipeline editor
+1. Open your `.gitlab-ci.yml` file in the pipeline editor.
+
 1. Below the `script` for your `build go` and `run go` jobs, add the following rule:
 
     ```yml
@@ -201,23 +204,23 @@ Let's get the other jobs to run by creating a merge request.
 
 1. Leave all options as default and select **Create merge request**.
 
-To trigger the merge request pipeline, you need to make some change to the code. 
+To trigger the merge request pipeline, you need to make some change to the code.
 
-1. Select **Code > Open in Web IDE**. 
+1. Select **Code > Open in Web IDE**.
 
-1. Select the `README.md` file and change anything you want in the file. 
+1. Select the `README.md` file and change anything you want in the file.
 
 1. Once complete, select **Source Control > Commit and push**.
 
 1. Select **Go to MR** to return to your merge request.
 
-1. Navigate to **Build > Pipelines**.  You will see a new pipeline with the merge request label. 
+1. Navigate to **Build > Pipelines**.  You will see a new pipeline with the merge request label.
 
-1. Select it to see its progress. You will see two jobs run, the build and run jobs specified in our `.gitlab-ci.yml file`. 
+1. Select it to see its progress. You will see two jobs run, the build and run jobs specified in our `.gitlab-ci.yml file`.
 
-1. Navigate back to the merge request by selecting **Code > Merge Requests**. 
+1. Navigate back to the merge request by selecting **Code > Merge Requests**.
 
-1. Select your merge request. Notice that there is now a section stating Merge request pipeline. This section will show the progress of the merge request pipeline. 
+1. Select your merge request. Notice that there is now a section stating Merge request pipeline. This section will show the progress of the merge request pipeline.
 
 ## Lab Guide Complete
 
@@ -225,4 +228,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

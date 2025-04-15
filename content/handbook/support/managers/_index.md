@@ -49,7 +49,7 @@ See [Support Hiring](/handbook/support/managers/hiring)
 
 ## Promotions
 
-See [Promoting a team member]({{< ref promoting-a-support-team-member >}})
+See [Promoting a team member](/handbook/support/managers/promoting-a-support-team-member)
 
 ## Metrics
 
@@ -107,7 +107,7 @@ These criteria and actions came from the [Metrics Analysis Workgroup](/handbook/
 
 ## OKR's
 
-All Support Engineering Managers have at least 1 [OKR](/handbook/company/okrs/#what-are-okrs) each quarter. Each managers' OKR should align with one of the department level OKR's, although the scope may be smaller (confined to a region/team of direct reports rather than globally impactful). While OKR's are important, they are not the most important thing for managers to work on. To the end of effectively managing Support Engineers, a managers focus should be on:
+All Support Engineering Managers have at least 1 [OKR](/handbook/company/okrs/) each quarter. Each managers' OKR should align with one of the department level OKR's, although the scope may be smaller (confined to a region/team of direct reports rather than globally impactful). While OKR's are important, they are not the most important thing for managers to work on. To the end of effectively managing Support Engineers, a managers focus should be on:
 
 1. [KPIs](/handbook/support/performance-indicators/)
 1. Team Growth (Hiring and Development)

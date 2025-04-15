@@ -103,7 +103,7 @@ Speakers and presenters can present from anywhere. They may be on a stage with o
 
 #### Asynchronous engagement
 
-A major boon of remote work summits is the ability to engage [asynchronously]({{< ref "communication" >}}). Even if you're unavailable for the entirety of the live event, all-remote and remote-first events are typically structured to be experienced at your leisure. For example, the prior year of [The Remote Future Summit](https://remote-future.com/) can still be experienced now, as all sessions were captured and archived for future viewing.
+A major boon of remote work summits is the ability to engage [asynchronously](/handbook/communication/). Even if you're unavailable for the entirety of the live event, all-remote and remote-first events are typically structured to be experienced at your leisure. For example, the prior year of [The Remote Future Summit](https://remote-future.com/) can still be experienced now, as all sessions were captured and archived for future viewing.
 
 #### Building a community
 
@@ -115,4 +115,4 @@ To find remote-focused events that GitLab is hosting or participating in,  pleas
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

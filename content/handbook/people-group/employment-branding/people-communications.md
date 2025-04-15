@@ -48,37 +48,35 @@ If asking for communications to lead communications when preparing key messages 
 
 1. Share the need for communications support by completing a [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit?usp=sharing) as completely as possible and share the need with a member of our People Communications & Engagement team.
     - These requests can be shared on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with:
-    - Kayla Golden, Senior Program Manager, People Communications & Engagement
-    - Devin Rogozinski, Senior Director, Talent Brand & Engagement
+    - Devin Rogozinski, Senior Director, People Strategy & Engagement
 1. Upon receiving the project brief, our People Communications & Engagement team will socialize the need with the #comms-asks channel to determine who will be a DRI or partner from the People Communications & Engagement team or the broader talent & engagement team assigned to the project.
 1. A [communications plan](https://docs.google.com/document/d/15QN0c6THE2wo_MGkyDi84Dhu3WyiY5p3MJFWfbWUlFQ/edit) including release timing, cadence, and appropriate channels will be developed.
     1. At least ~48 hours advance notice is needed to plan a single message being shared
     1. For more complex internal communications requests, we request at least ~7-10 business days advance notice to effectively collaborate together on a communications plan. We will opt to move more methodically depending on the scope and timeliness of the communication.
 1. To expedite this process, you can create an initial communications plan [using this template](https://docs.google.com/document/d/15QN0c6THE2wo_MGkyDi84Dhu3WyiY5p3MJFWfbWUlFQ/edit).
     1. Once you have created the initial communications plan, share it with the People Communications & Engagement team on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with:
-       - Kayla Golden, Senior Program Manager, People Communications & Engagement
-       - Devin Rogozinski, Senior Director, Talent Brand & Engagement
+       - Devin Rogozinski, Senior Director, People Strategy & Engagement
 
 ## People Communications & Engagement channels
 
 We use a variety of channels to communicate with various audiences within GitLab. The top channels we use, the purpose of each of these channels, and how everyone can contribute to each is as follows.
 
 1. **"While You Were Iterating" Newsletter...** Communicating new updates that are important for all team members to be aware of on a twice a month basis.
-    - 🤝 To contribute: Write a comment in the [most current newsletter GitLab issue](https://gitlab.com/gitlab-com/internal-communications/newsletter/-/issues) and tag `@kaylagolden`. Things to note when sending over content:
+    - 🤝 To contribute: Write a comment in the [most current newsletter GitLab issue](https://gitlab.com/gitlab-com/internal-communications/newsletter/-/issues) and tag `@cmotes`. Things to note when sending over content:
         - Is it globally relevant to more than 75% of GitLab team members?
         - Is this something all team members should know about and/or action?
         - Does it align with our GitLab values?
         - Make sure there is a team member action included
         - Send over a 1-2 sentence draft description of your content. If necessary, include additional context for internal comms team's background and knowledge - this is helpful when reviewing and finalizing the messaging.
 1. **Manager README Monthly Newsletter:** Monthly proactive communication to people managers containing: what's coming up, reminders of what's important, guidance on team member talking points and what actions to take
-    - 🤝 To contribute: Write a comment in the most current manager comms GitLab issue and tag @kaylagolden. Things to note when sending over content:
+    - 🤝 To contribute: Write a comment in the most current manager comms GitLab issue and tag @cmotes. Things to note when sending over content:
         - Is it globally relevant to more than 75% of GitLab People Managers?
         - Is this something all people managers should know about and/or action?
         - Does it align with our GitLab values?
         - Make sure there is a people manager action included
         - Send over a 1-2 sentence draft description of your content. If necessary, include additional context for internal comms team's background and knowledge - this is helpful when reviewing and finalizing the messaging.
 1. **All-team-member Slack channels (#company-fyi and #company-fyi-private):** Timely important and action-oriented important updates to all team members
-    - 🤝 To contribute: Read the [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw) to determine if your message falls into Tier 1a/1b which would signal a #company-fyi or #company-fyi-private message. If that's the case, create a copy of and complete the [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r) and share on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with @kaylagolden.
+    - 🤝 To contribute: Read the [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw) to determine if your message falls into Tier 1a/1b which would signal a #company-fyi or #company-fyi-private message. If that's the case, create a copy of and complete the [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r) and share on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with @devinrogo.
 1. **GitLab Handbook:** For permanent and non-confidential updates, we consider how information should live in the GitLab Handbook.
 1. **GitLab Assembly:** All-company synchronous time to hear from GitLab leaders and answer team member questions
     - 🤝 To contribute: Content creation is determined by the People Comms & Engagement Team with review by members of the E-Group.
@@ -200,7 +198,7 @@ We have a runbook for internal announcements that could lead to heated conversat
    1. When the message will be optimally be shared
    1. Main messages to be communicated and message content
    1. An activity and communications timeline that includes key participants and their responsibilities. It will specify any planned follow up in the minutes, hours, and weeks after the initial communications. This should include:
-      1. Who will be on call to respond in Slack or other channels immediately after an announcement, including coordinated leadership participation. Key leaders, including members of E-Group and often members of [VP-Directs Group](/content/handbook/company/structure.md#vp-directs), should be aware of when an announcement will happen and the response expectations for them. For example, if there is a contentious Slack announcement, a designated group of people should be monitoring the thread and responding immediately after the announcement.
+      1. Who will be on call to respond in Slack or other channels immediately after an announcement, including coordinated leadership participation. Key leaders, including members of E-Group and often members of [VP-Directs Group](/handbook/company/structure.md#vp-directs), should be aware of when an announcement will happen and the response expectations for them. For example, if there is a contentious Slack announcement, a designated group of people should be monitoring the thread and responding immediately after the announcement.
       1. Any AMAs or other designated plans for discussion or follow up communications
    1. Who is required to sign-off on the message and plan
    1. The desired timeline for sign-off
@@ -208,10 +206,10 @@ We have a runbook for internal announcements that could lead to heated conversat
 1. Both legal and corporate comms should review planned communications of this nature as well with the appropriate stakeholders from each team identified in the comms plan.
 1. Once the Executive Sponsors and Key Stakeholders are in agreement on the comms and plan, it should be shared with all of E-Group in #e-group-confidential or in the E-Group Weekly as a discussion item. Plan feedback should be incorporated.
 1. If applicable, once the plan has gone through E-Group review, it should be shared with the [B.V. Netherlands Works Council](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/netherlands/#works-council-rights) and any other councils that have review rights. When possible, this should be done at least two weeks before a planned announcement to allow adequate time for review and feedback.
-1. When possible, share with managers in advance (1-2 days before a broader announcement) and ask for their support in following up with their teams. We should be clear on how we expect them to support (answer questions, cascade info, [manager mention](/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs), etc.)
+1. When possible, share with managers in advance (1-2 days before a broader announcement) and ask for their support in following up with their teams. We should be clear on how we expect them to support (answer questions, cascade info, [manager mention](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs), etc.)
     1. When sharing announcements with the manager community, MR's may be staged in document form to allow for changes and clarification prior to sharing the MR with the broader team member community.
 1. If the post includes a merge request (MR), we should ensure that we are following MR best practice before we post.
-    1. If discussion is happening in an issue, we can ask for [manager mentions](/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs).
+    1. If discussion is happening in an issue, we can ask for [manager mentions](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs).
     1. MRs should not already be merged. Team members should be invited to share feedback on a change and be clear on the intended merge timeline.
     1. We shouldn't use separate MRs for removing and adding content. This makes it harder for team members to track changes.
 1. After a communication is shared, there should be a placeholder for the Executive Sponsor and designated team to connect synchronously to review feedback and (if agreed upon) respond. A calendar hold should be placed on the calendar for 25 to 50 minutes after the communication.
@@ -224,7 +222,7 @@ This runbook outlines key steps to be followed. Additional steps may be added ba
 
 - [Request for Internal Communications Support Template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r)
 - [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw)
-- [Communication at GitLab]({{< ref "communication" >}})
+- [Communication at GitLab](/handbook/communication/)
 
 ## More to come
 

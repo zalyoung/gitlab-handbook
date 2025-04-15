@@ -5,7 +5,7 @@ description: "Details about Office of the CEO (OCEO) at GitLab"
 
 ## Office of the CEO Overview
 
-GitLab is a [functionally organized](/handbook/company/structure/#gitlabcom-isnt-a-role) company in which functions are as mutally exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) (OCEO for short) led by the Chief of Staff (CoS) to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
+GitLab is a [functionally organized](/handbook/company/structure/) company in which functions are as mutually exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) (OCEO for short) led by the Chief of Staff (CoS) to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
 
 ## Team Mission
 
@@ -16,7 +16,7 @@ Help the CEO be more effective and lead select cross-functional initiatives of i
 The [Office to the CEO](/handbook/ceo/office-of-the-ceo/) consists of:
 
 1. The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/): the person responsible for running this group and supporting the success of the CEO.
-1. [Strategy and Operations team members](job-families/chief-executive-officer/strategy-and-operations/): internal consultants and doers who support priority cross-functional projects within GitLab. Roles vary based on business needs, but these folks can be specialists (for example, focused on China or technology) or generalists.
+1. [Strategy and Operations team members](/job-families/chief-executive-officer/strategy-and-operations/): internal consultants and doers who support priority cross-functional projects within GitLab. Roles vary based on business needs, but these folks can be specialists (for example, focused on China or technology) or generalists.
 1. [EBAs](/handbook/eba/) to the CEO: EBAs who support the CEO and the Chief of Staff to the CEO.
 
 When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
@@ -111,9 +111,7 @@ Examples of tasks or initiatives that are important to the CEO:
 
 ## How to Work
 
-The team uses a limited access Google doc called "Sid, Stella, and the Office of the CEO" to collaborate and share progress with the CEO.
-It's format is structured like the [1-1 Suggested Agenda Format](/handbook/leadership/1-1/suggested-agenda-format/).
-Many of the tasks on the sheet are quick asks: handbook MRs, formatting changes, or questions to be answered.
+Many of the tasks are quick asks: handbook MRs, formatting changes, or questions to be answered.
 Small asks should be handled as quickly as possible.
 Other asks, such as OKR-related planning or an initiative that requires alignment with multiple stakeholders, require forethought and more appropriate timing.
 Some amount of time each week needs to be spent moving these sorts of tasks forward.
@@ -124,7 +122,7 @@ The CEO will review and delete the item once it's been assessed as completed.
 
 ### Prioritization
 
-Since the team has limited capacity to lean into everything that it may want or be asked to, it is thoughtful about team and individual capacity. Members of the Office of the CEO will be expected to manage both directed and leadership (largely self-directed) work. You can find definitions and examples of directed and leadership work on the [CoS to the CEO handbook page]({{< ref "chief-of-staff#responsibilities" >}}).
+Since the team has limited capacity to lean into everything that it may want or be asked to, it is thoughtful about team and individual capacity. Members of the Office of the CEO will be expected to manage both directed and leadership (largely self-directed) work. You can find definitions and examples of directed and leadership work on the [CoS to the CEO handbook page](/job-families/chief-executive-officer/chief-of-staff/#responsibilities).
 
 When newly initiated, self-directed, leadership work entails a significant time commitment (>20% capacity for more than a week), the work being done should be flagged to the CEO in a 1:1 or team meeting. This work should stay on the 1:1 agenda between the CoS to the CEO and the team member for the duration of the activity. If needed, activities may be reprioritized based on top demands and priorities.
 
@@ -150,9 +148,9 @@ Designated meeting time will be used to review and make adjustments to the propo
 The Office of the CEO runs the [OKR process](/handbook/company/okrs/).
 We set OKRs on a [fiscal quarter](/handbook/finance/#fiscal-year) basis.
 
-There is an [OKR schedule](/handbook/company/okrs/#schedule) that dictates the timeline of events.
+There is an [OKR schedule](/handbook/company/okrs/#okr-process-at-gitlab) that dictates the timeline of events.
 We use a handbook page for each quarter.
-The CEO's Objectives every quarter map to the [sequence](/handbook/company/strategy/#sequence) of our [strategy](/handbook/company/strategy/#strategy).
+The CEO's Objectives every quarter map to the [sequence](/handbook/company/cadence/) of our [strategy](/handbook/company/strategy/).
 The CEO's KRs are what we're measuring for the company for that quarter.
 
 ## Collaborating on Cross-Functional Initiatives
@@ -166,7 +164,7 @@ While there are rare exceptions, members of the Office of the CEO are not foreve
 
 Office of the CEO members can be reassigned based on the needs of the business and priorities of the CEO. In most cases, a member of the Office of the CEO will remain with a project until the exit criteria for the Office of the CEO is achieved. If a project extends beyond its anticipated timeframe or priorities change, a member may have to leave a project before the agreed upon exit criteria is achieved.
 
-When a member of the Office of the CEO exits an ongoing intitiative they will:
+When a member of the Office of the CEO exits an ongoing initiative they will:
 
 1. Provide as much notice as possible that the Office of the CEO will no longer support the initiative
 1. Document their key responsibilities
@@ -248,12 +246,12 @@ With the goals of increasing efficiency and looking at how to make recurring mee
 If you're looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day.
 ```
 
-When cancelling a meeting, a team member can copy and paste this message to send to attendees:
-*I evaluated the need for this meeting as part of [Meeting Cleanup Day](/handbook/communication/#meeting-cleanup-day). I have determined that the meeting is no longer needed. Please get in touch if you have any concerns.*
+When canceling a meeting, a team member can copy and paste this message to send to attendees:
+*I evaluated the need for this meeting as part of [Meeting Cleanup Day](/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day). I have determined that the meeting is no longer needed. Please get in touch if you have any concerns.*
 
 When changing the cadence of a meeting, a team member can copy and paste this message to send to attendees:
 
-*I reassessed this meeting as part of [Meeting Cleanup Day](/handbook/communication/#meeting-cleanup-day). I have determined that the meeting no longer needs to happen as frequently. Please look for an updated meeting invite and get in touch if you have any concerns.*
+*I reassessed this meeting as part of [Meeting Cleanup Day](/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day). I have determined that the meeting no longer needs to happen as frequently. Please look for an updated meeting invite and get in touch if you have any concerns.*
 
 If you are a team member who intends to decline a meeting, the [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async) section of the handbook has some good suggestions for what to say when you decline.
 
@@ -285,7 +283,7 @@ We are evaluating different ways to measure our success as a team. These include
 
 ## Chief of Staff Shadow
 
-The Chief of Staff to the CEO may occasionally have a Chief of Staff Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed time. Depending on the projec or initiative, the team member may spend most of their time with an Office of the CEO team member instead.
+The Chief of Staff to the CEO may occasionally have a Chief of Staff Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed time. Depending on the project or initiative, the team member may spend most of their time with an Office of the CEO team member instead.
 
 Shadow responsibilities could include: taking notes, providing feedback, and/or supporting the overall initiative success. This role would be in addition to any existing responsibilities at GitLab. Participants would opt in to experience another function within GitLab and contribute to a different part of the business. Since participation would be in addition to an existing workload, managers must sign off before a CoS to the CEO Shadow can participate. Interested team members can share their interest with the Chief of Staff to the CEO in the `#ceo-chief-of-staff-team` Slack channel. The CoS to the CEO will follow up with you to understand what you are looking to get out of the experience and review projects that may be a good match. If there is not an existing project, you will be kept in mind for future opportunities.
 
@@ -303,16 +301,16 @@ Once a project or initiative to Shadow has been identified and the team member d
 1. This is not a performance evaluation
 1. Plan to observe and ask questions.
 1. Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them.
-1. Give feedback to and receive feedback from the Chief of Staff to the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#guidelines-for-delivering-feedback). Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
+1. Give feedback to and receive feedback from the Chief of Staff to the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback). Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
 
 ## Quick Links and Fun Facts
 
 - [Chief of Staff to the CEO Job Family](/job-families/chief-executive-officer/chief-of-staff/)
-- [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
-- [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
-- [Performance Indicators]({{< ref performance-indicators >}})
+- [Strategy & Operations Job Family](/job-families/chief-executive-officer/strategy-and-operations)
+- [GitLab Strategy and Operations (Workplace) Team Handbook](/handbook/ceo/office-of-the-ceo/workplace)
+- [Performance Indicators](/handbook/ceo/office-of-the-ceo/performance-indicators)
 - [GitLab Team Project](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team)
-- [Team READMEs]({{< ref readmes >}})
+- [Team readmes](/handbook/ceo/office-of-the-ceo/readmes/)
 
 ## Contact Us
 

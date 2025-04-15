@@ -4,7 +4,7 @@ title: "The Infrastructure Platforms Section"
 
 ## Mission
 
-The Infrastructure Platforms section enables GitLab Engineering to build and deliver **safe**, **scalable** and **efficient** features for multi-tenant and single-tenant GitLab SaaS platforms (GitLab.com and GitLab Dedicated).
+The Infrastructure Platforms section enables GitLab Engineering to build and deliver **safe**, **scalable** and **efficient** features for multi-tenant and single-tenant GitLab platforms (GitLab.com, GitLab Dedicated, and Self-managed).
 
 ## Vision
 
@@ -16,9 +16,7 @@ To deliver on the mission, we are in the process of formalising the building blo
 
 ## Direction
 
-In FY25, teams in the Platforms Section of the Infrastructure Department have collaborated on [the "North Star"](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1097), which is then used to set [the SaaS Platforms Strategy](https://gitlab.com/groups/gitlab-com/-/epics/2243).
-
-Initiatives driven within the Platforms section, often spanning multiple quarters, are represented on the [SaaS Platforms section epic](https://gitlab.com/groups/gitlab-com/-/epics/2115).
+Initiatives driven within the Platforms section, often spanning multiple quarters, are represented on the [Infrastructure Platforms section epic](https://gitlab.com/groups/gitlab-com/-/epics/2115).
 
 ## How we work
 
@@ -30,14 +28,14 @@ Our main method of communication is Slack.
 
 If you need assistance with a production issue or incident, please see the section on [getting assistance](/handbook/engineering/infrastructure/#getting-assistance).
 
-**SaaS Platforms**
+**Platforms**
 
 | **Channel** | **Purpose** |
 |-----------|-----------|
-| [#s_platforms](https://gitlab.slack.com/archives/C02D1HQRTKQ) | We collaborate on section level items here. This channel is used to share important information with the wider team, but also serves to align all teams in Platfroms with the common topic. |
-| [#g_saas_platforms_leads](https://gitlab.slack.com/archives/C010QV6RRB3) | Communication for managers. Everyone interested is welcome to join this channel if they find the topics interesting. |
-| [confidential managers channel](https://gitlab.slack.com/archives/G010N73CXJ6) | Used to discuss staffing issues affecting all teams that require additional coordination. We default to using the public channel as far as possible.|
-| [#s_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) | Our social channel. |
+| [#infrastructure_-_platforms](https://gitlab.slack.com/archives/C02D1HQRTKQ) | We collaborate on department level items here. This channel is used to share important information with the wider team, but also serves to align all teams in Platfroms with the common topic. |
+| [#g_infrastructure_platforms_leads](https://gitlab.slack.com/archives/C010QV6RRB3) | Communication for managers. Everyone interested is welcome to join this channel if they find the topics interesting. |
+| [confidential managers channel](https://gitlab.enterprise.slack.com/archives/C0808MLEXL1) | Used to discuss staffing issues affecting all teams that require additional coordination. We default to using the public channel as much as possible.|
+| [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) | Our social channel. |
 
 **Dedicated**
 
@@ -66,14 +64,14 @@ If you need assistance with a production issue or incident, please see the secti
 
 | **Channel** | **Purpose** |
 |-----------|-----------|
-| [#g_production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N)| Place for the Production Eng team to have internal work discussions and ask for MR reviews etc. |
+| [#s_production_engineering](https://gitlab.enterprise.slack.com/archives/C07U6SAKS4D)| General conversation for Production Engineering teams and requests coming in from other team members. |
 | [#g_production_engineering_leads](https://gitlab.enterprise.slack.com/archives/C06LDGA7Z9S)| Channel for Production Engineering leads (staff+ and management) |
 | [#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)| Team channel for Production Engineering Ops  |
 | [#g_infra_social](https://gitlab.enterprise.slack.com/archives/CQYDEJE13)| Social channel for Production Engineering |
-| [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)| Team channel for Production Engineering Foundations |
-| [#g_infra_foundations_social](https://gitlab.enterprise.slack.com/archives/C04QVEXBVL3)| Social channel for the Foundations team |
-| [#g_infra_foundations_alerts](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF) | Non-urgent service alerts for Foundations owned services |
-| [#g_infra_foundation_notifications](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD) | Renovate notifications for Foundations owned projects |
+| [#g_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)| Team channel for Production Engineering Foundations |
+| [#g_foundations_social](https://gitlab.enterprise.slack.com/archives/C04QVEXBVL3)| Social channel for the Foundations team |
+| [#g_foundations_alerts](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF) | Non-urgent service alerts for Foundations owned services |
+| [#g_foundations_notifications](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD) | Renovate notifications for Foundations owned projects |
 | [#infra-terraform-alerts](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH) | Terraform state drift alerts for SaaS infrastructure |
 
 **Scalability**
@@ -99,10 +97,29 @@ Once per week, we hold a `Platforms leads call` to align on action items related
 
 In addition to the `Platforms leads call`, we have some recurring events and reminders that can be viewed in the [SaaS Platforms Leadership Calendar](https://calendar.google.com/calendar/embed?src=c_8a81f7acc76d72b8e4189a61f7a259b9d722e3fe1e05693236f592e7dd52e83b%40group.calendar.google.com). Please add this to your Calendars to stay up-to-date with the various events.
 
-The Director of Product and Director of Infrastructure for SaaS Platforms conduct weekly progress reviews. During `Platforms Grand Review`, they review [progress across all groups](https://gitlab.com/groups/gitlab-com/-/epics/2115) with the goals of being informed of progress made, learning about existing blockers, and supporting the team. The review is private streamed to the GitLab Unfiltered channel because the review covers confidential issues. All recordings are made available in the [Platforms Grand Review YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqDXSHdlUvPWHOj_Hw8JdQ1).
-
 Sr. Director of Infrastructure Marin Jankovski, likes to meet with new team members that join the organization. Marin sets up informal 1:1 coffee chats a few times a month with newer team members to get to know one another and see how they are doing. This process is organized by his EBA who will reach out to team members once he has the availability to meet. As this is a large team, it may take a while to get through everyone.
 If someone needs to meet with Marin sooner than when the coffee chat is scheduled, you can reach out to his EBA Liki Simonot to set something up.
+
+##### Grand Review
+
+The Engineering Leads for each Stage, along with their Product Managers, hold weekly progress reviews to assess their groups’ progress, share project updates, resolve blockers, and celebrate wins. Additionally, the Director of Product and the Senior Director of Infrastructure Platforms conduct a higher-level leadership review, where they go over summaries from these group-level meetings.
+
+**Weekly Schedule**
+
+- Wednesday: each Epic DRI updates the status section of their epics with the progress. It is important to surface:
+  - risks and blockers impacting the project
+  - projects that are completed, including a closing summary highlight. These epics will be closed during the Grand Reviews
+- Thursday: Group Level Reviews conducted and added as threads in [Infrastructure Platforms Top Level epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) (see [example](https://gitlab.com/groups/gitlab-com/-/epics/2115#note_2197983622))
+  - Data Access: run by the Data Access Acting Sr. EM and the Group PM
+  - Tenant Scale: run by the Tenant Scale Sr. EM and Group PM
+  - Production Engineering: run by the Production Engineering Sr. EM and Group PM
+  - Software Delivery: run by the Software Delivery Acting Sr. EM and Group PM
+  - Developer Experience: run by the Developer Experience Director and a rotation of Product Managers
+  - Dedicated: run by the Dedicated Sr. EM and a rotation of of Product Managers
+- Friday: Leadership Review, run by the Sr. Director of Infrastructure Platforms and the Director of Product Infrastructure Platforms. Review the group-level summaries added as threads in the [Infrastructure Platforms Top Level epic](https://gitlab.com/groups/gitlab-com/-/epics/2115), then conduct a deep dive into one specific group to ensure comprehensive project coverage.
+- Friday: Group level and the leadership level reviews are released together in #infrastructure_platforms
+
+The review is private streamed to the GitLab Unfiltered channel because the review covers confidential issues. All recordings are made available in the [Platforms Grand Review YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqDXSHdlUvPWHOj_Hw8JdQ1)
 
 ##### Infrastructure Platforms Leads Demo
 
@@ -154,11 +171,11 @@ The Platforms section builds and maintains various tools to help deploy, operate
 ### OKR
 
 We use objective and key results to set goals in alignment with [OKRs at GitLab](/handbook/company/okrs/).
-[Our OKR process](/handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Saas Platforms.
+[Our OKR process](/handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Platforms.
 
 ### Hiring
 
-[Our hiring process](/handbook/engineering/infrastructure/platforms/hiring/) is shared between all teams in SaaS Plaforms.
+[Our hiring process](/handbook/engineering/infrastructure/platforms/hiring/) is shared between all teams in Platforms.
 
 ## Platforms Learning Path
 
@@ -168,8 +185,8 @@ All team members are encouraged to schedule time for personal development. The f
 
 | Group | Topic |
 |-------|-------|
-| SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
-| [Delivery Group](/handbook/engineering/infrastructure/team/delivery) | [Mission](/handbook/engineering/infrastructure/team/delivery/#mission), [Strategy](/handbook/engineering/infrastructure/team/delivery/#strategy), [Team history](/handbook/engineering/infrastructure/team/delivery/#history) |
+| Platforms | [Product direction](https://about.gitlab.com/direction/platforms/) |
+| [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) | [Mission](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#mission), [Strategy](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#strategy), [Team history](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#history) |
 | [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) | [Mission](/handbook/engineering/infrastructure/team/scalability/#mission), [Strategy](/handbook/engineering/infrastructure/team/scalability/#strategy), [Team history](/handbook/engineering/infrastructure/team/scalability/#history) |
 | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) | [Mission](/handbook/engineering/infrastructure/team/gitlab-dedicated/#mission) |
 

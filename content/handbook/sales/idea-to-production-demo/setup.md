@@ -33,7 +33,7 @@ In order to run the demo, you need to install Docker, the OC Client Tools, and o
 
 You will need to install Docker on your OpenShift machine if you have not installed it already.
 
-The best way to install Docker is by going to their [official installation instructions](https://docs.docker.com/engine/installation/)
+The best way to install Docker is by going to their [official installation instructions](https://docs.docker.com/engine/install/)
 and following the install instructions for your OpenShift machine's operating system.
 
 The installation steps should walk you through running Docker's Hello World app.

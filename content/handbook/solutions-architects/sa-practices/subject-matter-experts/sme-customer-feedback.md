@@ -7,22 +7,26 @@ description: Gather Feedback from Customers
 
 ## **Customer Feedback Loop**
 
-Gathering and systematically relaying top asks from the field and customers to Product Management and Engineering, is one of the main responsibilities of a SME. 
+Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/)  
+
+PMs Create issues under [gitlab.org/issues](http://gitlab.org/issues) especially for customer prioritization; prefer to have [customer feedback template](/handbook/product/product-management/#feedback-template) included as comments
+
+Gathering and systematically relaying top asks from the field and customers to Product Management and Engineering, is one of the main responsibilities of a SME.
 
 This allows a collective view of feedback from the field with analysis, so that it does not always seem reactive, but constructively adds to and builds on a roadmap, with roadmap themes.  
 
-The subject matter expert program can share the top ten requests from the field, with predetermined themes/ categories, rather than react individually or just have them go to a issue wasteland. 
+The subject matter expert program can share the top ten requests from the field, with predetermined themes/ categories, rather than react individually or just have them go to a issue wasteland.
 
 1. SAs and CSMs submit customer feedbacks and asks from the field via a process to be determined.  
-2. SMEs for each Area should analyze and prioritize the asks via a point system async or on one of their [pod cadence calls](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-area-pod-candence).  
-3. The top requests are presented and discussed by the SME Area Leads at the [monthly SME/ PM Cadence meetings](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-product-candence)  
-4. The status of the requests are updated. Updates are relayed back to the SMEs for each Area who then provides updates during a [regional SME call or SME Corner updates](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-corner).
+1. SMEs for each Area should analyze and prioritize the asks via a point system async or on one of their [pod cadence calls](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-area-pod-cadence).  
+1. The top requests are presented and discussed by the SME Area Leads at the [monthly SME/ PM Cadence meetings](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-product-cadence)
+1. The status of the requests are updated. Updates are relayed back to the SMEs for each Area who then provides updates during a [regional SME call or SME Corner updates](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-cadences/#sme-corner).
 
 ## **Customer Feedback Framework and Process** (TBD)
 
 ### **Customer Feedback Submission**
 
-TODO: Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/) 
+TODO: Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/)
 
 1. Implement a GitLab issue template with the following fields, for customer feedback submission from SMEs:
    - Customer name

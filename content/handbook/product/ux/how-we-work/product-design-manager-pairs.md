@@ -15,7 +15,7 @@ Product Design Manager pairs give PDMs a regular touchpoint with their peers and
 ### Collaboration suggestions
 
 - Share team processes and ways of working.
-- Walk your pair through your product areas to familiarize them with it. 
+- Walk your pair through your product areas to familiarize them with it.
 - Talk through ongoing and upcoming work happening in your area. This can uncover opportunities for cross-stage collaboration.
 - Discuss strengths and skillsets on your teams to connect product designers looking to grow in certain areas with product designers who are already strong in those areas.
 
@@ -28,7 +28,6 @@ This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
 | Product Design Manager | Product Design Manager |
 |------------------------|------------------------|
 | Jacki Bauer            | Paul Wright            |
-| Andy Volpe             | Emily Sybrant          |
-| Marcel van Remmerden   | Chris Micek            |
+| Emily Sybrant          | Chris Micek            |
 | Justin Mandell         | Caitlin Steele         |
 | Taurie Davis           | Rayana Verissimo       |

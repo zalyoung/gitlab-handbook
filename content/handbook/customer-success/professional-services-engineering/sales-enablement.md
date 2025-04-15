@@ -7,10 +7,10 @@ description: "Discover the customer benefits and value of working with GitLab Pr
 
 This [sales enablement](/handbook/sales/training/sales-enablement-sessions/) page is designed to help the GitLab Sales team understand our professional services offerings, how to [position](/handbook/customer-success/professional-services-engineering/positioning/) them to customers, and the [workflow for selling](/handbook/customer-success/professional-services-engineering/selling/) services.
 
-### Resources
+<!-- ### Resources
 
 - Watch the live version of the [Sales Enablement Level Up Webcast](https://youtu.be/_04S2JhVZ5A) recorded on April 9, 2020.
-- Check out the [enablement deck](https://docs.google.com/presentation/d/1VGfUC85NO74S5qaaNZ1yQydhZL3Be4ofBTG52xr_LEA/edit#slide=id.) used in this presentation. (Note: internal link)
+- Check out the [enablement deck](https://docs.google.com/presentation/d/1VGfUC85NO74S5qaaNZ1yQydhZL3Be4ofBTG52xr_LEA/edit#slide=id.) used in this presentation. (Note: internal link) -->
 
 <!-- ## Learning Objectives
 
@@ -24,42 +24,37 @@ This [sales enablement](/handbook/sales/training/sales-enablement-sessions/) pag
 
 ### What
 
-So you've won a customer's business with a subscription deal to use gitlab, congratulations! Now you can focus on establishing a foundation of trust to grow the relationship. In order for your customer to get the most out of GitLab consider engaging them with professional services.
+So you've won a customer's business with a subscription deal to use Gitlab, congratulations! Now you can focus on establishing a foundation of trust to grow the relationship. In order for your customer to get the most out of GitLab consider engaging them with Professional Services.
 
-Our team can help your customer accelerate their DevOps Transformation by delivering services to improve operational efficiency, accelerate time to market and reduce risk through GitLab product adoption.
+Our team can help your customer accelerate their GitLab Adoption journey from Onboarding to Source Code Management Consolidation, CI/CD Modernization, DevSecOps Transformation, and Value Stream Management by delivering services to improve operational efficiency, accelerate time to market and reduce risk through GitLab product adoption.
 
-We accomplish these by offering [categories of services](/services/) to help ensure the initial GitLab rollout goes smoothly so the end users can get value as fast as possible.
+We accomplish these by offering [categories of services](https://about.gitlab.com/professional-services/) to help ensure the initial GitLab rollout goes smoothly so the end users can get value as fast as possible.
 
 #### Migration Services
 
-We offer data and user [migration services](/services/migration/) to enable the customer to come from a variety of legacy systems (both SCM and CI/CD). We work closely with the GitLab import API team and have automation tools to facilitate the migration. We are continuously improving them with every nuanced customer migration service we provide. Read about a customer case study of a recent GitLab self managed to gitlab.com migration experience.
+We offer data and user migration services to enable the customer to come from a variety of legacy systems (both SCM and CI/CD). We work closely with the GitLab import API team and have automation tools to facilitate the migration. We are continuously improving them with every nuanced customer migration service we provide. 
 
-Migration services are always custom-scoped because of the variability of level of effort based on the amount of data and number of users in the source system(s).
+Migration services are always custom-scoped because of the variability of level of effort based on the amount of data and number of users in the source system(s), except for our [Migration QuickStart SKU](https://drive.google.com/file/d/1dPs65e23bzlBQ_DxXbAkzZl-6t5OkFzZ/view), which supports a smaller, more controlled migration at a fixed cost. 
 
 #### Implementation Services
 
-When customers choose GitLab self-managed, they typically need help building and configuring their software to meet their non-functional requirements (e.g. Availability, Performance, Security, Disaster Recovery, etc.). Our team of experts maintains a repository Infrastructure-as-Code and automation scripting to facilitate this while leveraging [gitlab reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) best practices.
+When customers choose GitLab Self-Managed, they typically need help building and configuring their software to meet their non-functional requirements (e.g. Availability, Performance, Security, Upgrade, GEO, Disaster Recovery, etc.). Our team of experts maintains an [Implementation delivery kit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/implementation-delivery-kits) to facilitate this while leveraging [gitlab reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) best practices.
 
-For gitlab.com users, [implementation services](/services/implementation/) focus mostly on how to organize GitLab groups and projects, how to establish role based access control, and other front end strategic decisions that typically need to be made up-front.
+For GitLab.com users, focus mostly on how to organize GitLab groups and projects, how to establish role based access control, and other front end strategic decisions that typically need to be made up-front.
 
-The implementation services [Rapid Results](/services/rapid-results/) packages have a standard SKU, but have specific bounds to the large cloud service providers and HA/DR architectural patterns. If your customers' needs fall outside of those bounds, you will need to engage in a [custom-scoping exercise](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services).
+The Implementation QuickStart GitLab.com and Self-Managed (HA) packages have a standard SKU, but have specific bounds to the large cloud service providers and HA/DR architectural patterns. If your customers' needs fall outside of those bounds, you will need to engage in a [custom-scoping exercise](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services).
 
 #### Education Services
 
-As with any new software being introduced at a company, users tend to need training to know how to use it. We have excellent [education services](/services/education/) that span the spectrum of basics to advanced; administrators to general users. All of our education services have standard SKUs, which makes the process easy for the ISR/SAE to offer to a customer.
+As with any new software being introduced at a company, users tend to need training to know how to use it. We have excellent [education services](https://about.gitlab.com/services/education/) that span the spectrum of basics to advanced; administrators to general users. All of our education services have standard SKUs, which makes the process easy for the ISR/SAE to offer to a customer. We've also begun to offer custom education services as well as scaled trainings to Customers.
 
-#### Integration Services
+#### CI/CD Services
 
-Customers tend to have tools and systems with which they need to establish integrations. We offer [integration services](/services/implementation/integration/) for customers who need systems like LDAP, Jira, Jenkins, etc. to work with gitlab.
+We discussed in the migration services about moving data from source CI/CD systems over to GitLab CI, but we also offer a [CI/CD Workshop SKU](https://drive.google.com/file/d/10RzC-e0fhvgKBRaoZlxEgUQc90Z_0IVR/view) that allows us to demo GitLab CI features and then provide strategy and roadmapping advisory sessions to Customers to ease their adoption of GitLab CI. Additionally, we offer T&M services to help with large scale and/or custom CI/CD modernization efforts.
 
-#### Advisory Services
+#### Security Services
 
-Advisory services can be helpful to customers who have questions on how to best leverage GitLab to meet their company's ambitious goals related to DevOps or digital transformation.
-Advisory Services typically follow a 3-step approach:
-
-- A Discovery Session to align with the customer to better understand their goals or challenges, aswell as the current tooling and process.
-- Asynchronous investigation to develop and iterate on a candidate solution.
-- Delivery workshop to demonstrate the proposed solution or workflow, together with any further supporting guidance or recommendations
+With GitLab Ultimate, Professional Services can deliver a [DevSecOps Workshop SKU](https://drive.google.com/file/d/1mZm_DiwPdtssFqBolrDqPooaH6kA5Y5u/view) that allows us to demo key GitLab Ultimate security features and then provide strategy and roadmapping advisory sessions to Customers to ease their adoption of GitLab Ultimate. Additionally, we offer T&M services to help with large scale and/or custom Security transformation efforts. 
 
 ### Why GitLab Professional Services?
 
@@ -76,34 +71,15 @@ Advisory Services typically follow a 3-step approach:
 
 ### How will we deliver?
 
-1. Direct via the [GitLab Professional Services Engineering Delivery team](/handbook/customer-success/professional-services-engineering/#team-members-and-roles)
-1. Partner delivered (future)
+1. Direct via the [GitLab Professional Services Engineering Delivery team](/handbook/customer-success/professional-services-engineering/#team-members)
+1. Partner delivered
 
 ## How to order
 
 Ordering services is done through an **Off-the-shelf SKU** or a custom-scoped **Statement of Work**.  See the [selling services workflow](/handbook/customer-success/professional-services-engineering/selling/) for more details.
-For custom SOWs, initiate a scoping issue to capture the requirement using the [Services Calculator](https://services-calculator.gitlab.io/), and collaborate with your local [Professional Services Engagement Manager](/job-families/sales/job-professional-services-engagement-manager/).
+For custom SOWs, initiate the PS epic and associated scoping issue process to capture the requirement by creating a child PS opportunity off of a parent license or subscription SFDC opportunity using the `Create Services Opportunity` button, and collaborate with your local [Professional Services Engagement Manager](https://docs.google.com/document/d/1bdVOf3jL6aJF79qRMFLQsmMxIgQh5ZQ-WiLuNgsWB08/edit?tab=t.0#heading=h.qzgxpwqxme5).
 
 ## Resources
 
-- [Services Categories page](/services/)
-- [Full offering catalog](/services/catalog/)
-- [Services Calculator for custom SOWs](https://services-calculator.gitlab.io/)
-- [Professional Services Pitch Deck](https://docs.google.com/presentation/d/1CFR8_ZyE9r4Dk_mjoWGe4ZkhtBimSdN0pylIPu-NAeU/edit#slide=id.g3667cdc662_0_1)
-
-## Command of Message questions to ask
-
-### Increase Operational Efficiencies
-
-- Tell me about the most important things that need to be done to make the rollout successful.
-- Describe to me where you think there may be opportunities to accelerate your time-to-value?
-- How much time could we save your teams by having a GitLab expert architect and deploy GitLab for you?
-
-### Deliver Better Products Faster
-
-- How would the business benefit from the ability to quickly and easily migrate teams?
-- Describe how your developer productivity would be impacted by education around best practices for using GitLab, git or GitLab CI/CD
-
-### Reduce Security and Compliance Risk
-
-- How does your team manage the risk associated with adding a new tool or platform?
+- [Full offering catalog](https://about.gitlab.com/services/catalog/)
+- [Professional Services Pitch Deck](https://docs.google.com/presentation/d/1M-7aA7f9S6dULvzuKuTJs4j3A4V1z2DtMsoN0T0SMZg/edit?slide=id.g277ce56021a_0_2036#slide=id.g277ce56021a_0_2036)

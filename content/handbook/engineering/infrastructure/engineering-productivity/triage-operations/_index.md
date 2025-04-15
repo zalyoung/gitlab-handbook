@@ -21,7 +21,7 @@ Our defect SLA can be viewed at:
 * [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
 
 The Quality Engineering department employs a number of tools and automation in addition to manual intervention to help us achieve this goal.
-The work in this area can been seen in our department roadmap under [Triage](/handbook/engineering/infrastructure/test-platform/roadmap/#triage-track-roadmap-view) and [Measure](/handbook/engineering/infrastructure/test-platform/roadmap/#measure-track-roadmap-view) tracks of work.
+The work in this area can been seen in our department roadmap under Triage and Measure tracks of work.
 
 ## Label renaming
 
@@ -119,7 +119,7 @@ The goal is for coaches to add type, stage, and group labels, so that the releva
 This report contains community merge requests that may require some attention from GitLab team members.
 
 * Frequency: Weekly.
-* Assignees: [Contributor Success team](/handbook/engineering/quality/contributor-success/) + volunteer wider community members.
+* Assignees: [Contributor Success team](/handbook/marketing/developer-relations/contributor-success) + volunteer wider community members.
 * Listed merge requests (all awaiting GitLab response):
   1. Merge requests from new contributors idle for 7 days.
   1. Merge requests idle for 21 days (excluding ~group::runner).
@@ -148,7 +148,7 @@ The report itself is divided into 4 main parts.
 
 The bug sections also contains a heatmap.
 
-![heatmap.png](heatmap.png)
+![heatmap.png](/images/engineering/infrastructure/engineering-productivity/triage-operations/heatmap.png)
 
 An example: [https://gitlab.com/gitlab-org/quality/triage-ops/issues/118](https://gitlab.com/gitlab-org/quality/triage-ops/issues/118)
 
@@ -192,7 +192,7 @@ This section contains issues with the `~"type::bug"` label without priority and 
 
 ##### severity::1 & severity::2 bugs past SLO
 
-This section contains bugs which has past our targeted SLO based on the severity label set. This is based on our [missed SLO detection](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/index.html#missed-slo) triage policy.
+This section contains bugs which has past our targeted SLO based on the severity label set. This is based on our [missed SLO detection](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#missed-slo) triage policy.
 
 ##### Heatmap for ~customer bugs
 
@@ -410,9 +410,9 @@ graph LR
 * Automation conditions:
   * A new note that starts with `@gitlab-bot label ~"label-name"` or `@gitlab-bot unlabel ~"label-name"` where `label-name` matches:
     * `group::*`, `type::*`, `feature::*`, `bug::*`, `maintenance::*`, `category:*`
-    * `backend`, `database`, `documentation`, `frontend`, `handbook`, `UX`
+    * `backend`, `Contributor Success`, `database`, `documentation`, `frontend`, `handbook`, `UX`
     * `security` (`label` only for community members)
-    * `workflow::in dev`, `workflow::ready for review`, `workflow::blocked`
+    * `workflow::in dev`, `workflow::ready for review`, `workflow::in review`, `workflow::complete`, `workflow::blocked`
   * The note is posted by the author, an assignee, or a team member
 * **Note**: to add or remove multiple labels, list all labels after the command, for example: `@gitlab-bot label ~"group::project management" ~"type::bug"`
 * Automation actions:
@@ -540,6 +540,20 @@ Current type labels with subtype labels are:
   * `@gitlab-bot` will send a request to retry all failed jobs in the target pipeline and reply with the pipeline link.
 * Example: <https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues/3187#note_1496076800>
 * Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_retry_pipeline_or_job.rb>
+
+#### Reactive `delete_bot_comment` command
+
+* Automation conditions:
+  * A new issue or merge request note with `@gitlab-bot delete_bot_comment` posted by a GitLab team member as a reply to a bot comment thread.
+  * The comment to be deleted must be posted by `@gitlab-bot`, and the command must be posted by a GitLab team member.
+  * Community members must reach out to a GitLab team member for help, as they will not have access to this command.
+* Automation actions:
+  * `@gitlab-bot` will delete the bot comment along with any reply comments it has.
+  * A page refresh may be needed for the thread to be removed from page.
+  * If the above automation conditions are not met, posting this command will not have any effect on the replied comment.
+  * NOTE: After deleting the bot comment, it will be re-posted to the resource if the required labels or other attributes are missing again.
+* Example: not available, as the comment gets deleted as a result of running the command
+* Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/gitlab_internal_commands/command_delete_bot_comment.rb>
 
 ### Database-related reactive workflow automation
 

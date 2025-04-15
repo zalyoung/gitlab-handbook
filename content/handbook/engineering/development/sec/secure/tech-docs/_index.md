@@ -35,7 +35,7 @@ The scans are executed in CI jobs via several small projects called [Analyzers](
 The Analyzers are small wrappers around in-house or external security tools called [Scanners](https://docs.gitlab.com/ee/user/application_security/terminology/#scanner) to integrate them into GitLab.
 The Analyzers are mainly written in Go and rely on our [Common Go library](https://gitlab.com/gitlab-org/security-products/analyzers/common).
 
-Some 3rd party integrators also make additional Scanners available by following our [integration documentation](https://docs.gitlab.com/ee/development/integrations/secure), which leverages the same architecture.
+Some 3rd party integrators also make additional Scanners available by following our [integration documentation](https://docs.gitlab.com/ee/development/integrations/secure/), which leverages the same architecture.
 
 The results of the scans are exported as JSON reports that must follow [Secure Report Format](https://docs.gitlab.com/ee/user/application_security/terminology/#secure-report-format) and are uploaded as [CI Job Report Artifacts](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html#artifactsreports) to make them available for processing after the pipelines completes.
 
@@ -60,7 +60,7 @@ Depending on the context, the security reports can be stored in the database or 
 
 This part is mainly covered by the [Threat Insights group](/handbook/product/categories/#threat-insights-group).
 
-Though, the boundaries can sometimes be a bit blurry so [we're trying to delineate this as clearly as possible](/handbook/engineering/development/sec/delineate-sec.html#technical-boundaries).
+Though, the boundaries can sometimes be a bit blurry so [we're trying to delineate this as clearly as possible](/handbook/engineering/development/sec/delineate-sec/#technical-boundaries).
 
 ## ClickHouse Datastore
 

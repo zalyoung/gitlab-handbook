@@ -45,7 +45,7 @@ Customizing your instance configuration can go a long way to discouraging and re
 
 ### Understand how abuse is reported and managed by self-managed Admins
 
-It's also key to understand how users can [report abuse from other GitLab users to GitLab self-managed Administrators](https://docs.gitlab.com/ee/user/report_abuse.html), the [actions that self-managed Admins can take against abusers](https://docs.gitlab.com/ee/user/report_abuse.html) and how [abuse reports are managed and resolved by Admins](https://docs.gitlab.com/ee/user/report_abuse.html).
+It's also key to understand how users can [report abuse from other GitLab users to GitLab self-managed Administrators](https://docs.gitlab.com/ee/user/report_abuse.html), the [actions that self-managed Admins can take against abusers](https://docs.gitlab.com/ee/administration/moderate_users.html) and how [abuse reports are managed and resolved by Admins](https://docs.gitlab.com/ee/administration/review_abuse_reports.html#resolving-abuse-reports).
 
 ### Rate limits
 
@@ -57,4 +57,4 @@ For any abuse prevention feature requests and suggestions for CE and EE, please 
 
 ### Open Source Program Partners, Premium and Ultimate Customers
 
-Please see the [Contact Us]({{< ref "trustandsafety#contact-us" >}}) section on out Team page for details on reaching us.
+Please see the [Contact Us](/handbook/security/security-operations/trustandsafety/#reporting-abuse) section on out Team page for details on reaching us.

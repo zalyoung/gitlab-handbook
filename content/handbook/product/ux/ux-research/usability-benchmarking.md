@@ -28,7 +28,7 @@ Every benchmarking study has a similar 'skeleton' - the basic elements one needs
 
 ## Planning for a benchmarking study
 
-When leading a benchmarking study, you will need to coordinate with several stakeholders including the Product Manager (PM) and Product Designer (PD) to ensure that everyone agrees upon the study protocol, tasks, metrics, and timeline. As with any UX research project that you're driving, don't forget to share the test plan with the UX Research team for a [peer review](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researcher-conduct-peer-reviews).
+When leading a benchmarking study, you will need to coordinate with several stakeholders including the Product Manager (PM) and Product Designer (PD) to ensure that everyone agrees upon the study protocol, tasks, metrics, and timeline. As with any UX research project that you're driving, don't forget to share the test plan with the UX Research team for a [peer review](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-we-uphold-the-quality-of-our-work).
 
 The early planning stages are crucial for setting the rest of your study up for success. In order to maximize the first few weeks of study planning, communicate with your stakeholders on how they would prefer to provide feedback. If you are getting feedback async, make sure to provide firm deadlines that are non-negotiable. In cases where those deadlines are not being met, try pivoting to sync communication such as a scheduled meeting to help stay on the research timeline.
 
@@ -96,7 +96,7 @@ Here is an example of a singular task as written in the task list:
 
 There isn't a hard and fast rule when it comes to assigning a cut-off time for your tasks. There are a few ways you might do this:
 
-- Time yourself completing the tasks, and, if you're an expert, multiply that by 3 (a [guideline](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5738945/#:~:text=An%20expert%20can%20take%20longer,second%20nature%20for%20an%20expert.&text=For%20routine%20tasks%2C%20experts%20complete,1.3%20to%20multiple%20times%20faster.) for how long a novice might take).
+- Time yourself completing the tasks, and, if you're an expert, multiply that by 3 (a [guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5738945/#:~:text=An%20expert%20can%20take%20longer,second%20nature%20for%20an%20expert.&text=For%20routine%20tasks%2C%20experts%20complete,1.3%20to%20multiple%20times%20faster.) for how long a novice might take).
 - Perform a [KLM](https://measuringu.com/predicted-times/) (Keystroke Level Modeling) calculation to get a rough estimate of time on task.
 - Run a pilot without enforcing any cut off. Measure time on task, and use that as a baseline. This comes with some caveats: you should consider adding time to the tasks that your pilot participant completed quickly and possibly subtracting time from the tasks that you felt took too long.
 
@@ -281,7 +281,7 @@ A: The UX Researcher on the project can set up a cloud instance of GitLab and cr
 
 A: It depends. Basically you need to look at your task list and go through them, ensuring that every area of the project that you go to (or might reasonably expect participants to go) has something there. Ideally, there's more than 1 item there (file, merge request, comment, environment, deployment, etc.) so that the task time accounts for scanning and searching the desired path. Depending on the areas you're focused on, this may be a lot of sample data, or not so much.
 
-**Q:Where does this fit in the [product lifecycle?](/handbook/product-development-flow/)**
+**Q:Where does this fit in the [product lifecycle?](/handbook/product-development/product-development-flow/)**
 
 A: Benchmarking lives at a space bridging the 'improve' stage of the build track and the 'collect ideas/understand the problem' parts of the validation track. Benchmarking is a great way to see how the current product is performing, so it fits well with the 'measure, learn, and improve' part of the cycle. The 'learn' and 'improve' parts of are then taken as inputs into the collect ideas/understand the problem parts of the validation track. So, in benchmarking, we're measuring our current product, validating existing problems we know of, and generating ideas on how to address these problems or generally improve the product.
 Note: Benchmarking is somewhat outside of our normal workflow. Since it is so time intensive, it's not something that could or should be a part of every feature or issue, and it's not something we should conduct more than once or twice a year for the same tasks.

@@ -6,7 +6,7 @@ description: "Rev is an speech-to-text company that provides closed captioning, 
 ## Support
 
 1. For technical assistance: Slack (`#mktgops`)
-2. [Rev resource library](https://www.rev.com/blog/resources)
+2. [Rev resource library](https://www.rev.com/resources)
 3. `support@rev.com`
 
 ## Access

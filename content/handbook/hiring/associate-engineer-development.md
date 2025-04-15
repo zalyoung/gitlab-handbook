@@ -2,7 +2,7 @@
 title: "MERGE: Ongoing Development for Associate Engineers"
 ---
 
-Congratulations and welcome to the GitLab team! We're excited to have you on board as you start this exciting new chapter in your engineering career. Our comprehensive ongoing development program is designed to support you every step of the way - from your first day, to your first merge request, and beyond. You'll have support from your manager, onboarding buddy, and the Talent Development team; don't ever hesitate to reach out. 
+Congratulations and welcome to the GitLab team! We're excited to have you on board as you start this exciting new chapter in your engineering career. Our comprehensive ongoing development program is designed to support you every step of the way - from your first day, to your first merge request, and beyond. You'll have support from your manager, onboarding buddy, and the Talent Development team; don't ever hesitate to reach out.
 
 Get ready to explore new technologies and skills, collaborate with GitLab team members around the globe, and grow in an environment where your success and results are our priority. Let's dive in and make great things happen together!
 
@@ -15,7 +15,7 @@ Don't forget about the wider GitLab team member community, too. There are lots o
 | Slack Channel | Description |
 | ----- | ----- |
 | Social Slack Channels | A [HUGE list](/handbook/communication/chat/#social-groups) of social channels to join based on your interests - try #cooking, #gaming, #dog, #cats, #travel, or #music. Can't find a channel for your favorite hobby? Start one and post about it in #whats-happening-at-gitalb so others know to join! |
-| Team Member Resource Groups | TMRGs are voluntary, team member-led groups focused on fostering diversity, inclusion and belonging within GitLab. These groups help team members build stronger internal and external connections; offer social, educational, and outreach activities; create development opportunities for future leaders; and increase engagement among team members. Find a list of TMRGs [here](/handbook/communication/team-member-resource-groups/). |
+| Team Member Resource Groups | These groups help team members build stronger internal and external connections; offer social, educational, and outreach activities; create development opportunities for future leaders; and increase engagement among team members. Find a list of TMRGs [here](/handbook/company/culture/inclusion/erg-guide/). |
 
 ## Priotizing your Development
 
@@ -23,7 +23,7 @@ Skill development and career growth are important for all team members at GitLab
 
 ### Your First Week at GitLab
 
-Our GitLab team starts using the product on Day 1 for onboarding with our [onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). You'lll start here, too. 
+Our GitLab team starts using the product on Day 1 for onboarding with our [onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). You'lll start here, too.
 
 The first week at GitLab can feel like a lot - getting used to your new at home workspace, meeting your manager and colleagues, and working through values and compliance trainings. It's a great week to have a few coffee chats with your onboarding buddy, get to know your manager, and introduce yourself in the [#new-team-members Slack channel](https://app.slack.com/client/E03N1RJJX7C/C4XCPSVB8).
 
@@ -38,7 +38,7 @@ Don't worry if you've not finished your Week 1 onboarding issue yet - keep worki
 - Begin working on initial assignments to apply your skills and contribute to the codebase
 - Shadow other teams or participate in pair programming sessions with experienced engineers
 - Attend customer or client meetings to gain a better understanding of user needs and business objectives
-  
+
 ### Training and Workshops
 
 The Talent Development team curates a robust schedule of training sessions, workshops, and lunch-and-learns to help you expand your technical skills and knowledge. These cover a wide range of topics, from new programming languages to agile methodologies.
@@ -53,7 +53,7 @@ In your first month at GitLab, you'll be assigned a custom learning path from O'
 Along with this self paced work, you'll start exploring opportunties to advance your technical skills in the flow of work at GitLab in spaces like:
 
 - Internal hackathons and innovation days
-- Reviewing Community Contributions (and owning stagnant contributions) 
+- Reviewing Community Contributions (and owning stagnant contributions)
 - Specialized tech tracks for areas like Machine Learning, Security, or Performance Optimization
 - Contribution to open-source projects, fostering practical skills and community involvement
 - Peer-led sessions and reverse mentoring to foster a learning culture.

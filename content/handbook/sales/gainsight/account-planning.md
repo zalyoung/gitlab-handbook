@@ -72,7 +72,7 @@ This section of the account plan serves to capture relevant information about ou
 1. From the Gainsight widget, use the top navigaion bar to select the **Contacts tab**.
 1. Use the drag and drop function to add contacts to the map or use the Add Person button located to the right of the widget.
 1. Add further detail (Influence, GitLab Role, Manager) to the contact card by double clicking in the card or using the ellipsis menu.
-1. Check out [this article](https://support.gainsight.com/Gainsight_NXT/07360/People_Maps/Build_People_Maps#Business_Use_Cases) from Gainsight on building maps as well as [this enablement](/handbook/sales/account-planning/#relationship-and-influence-mapping) page.
+1. Check out [this article](https://support.gainsight.com/gainsight_nxt/07360/User_Guides/Build_People_Maps) from Gainsight on building maps as well as [this enablement](/handbook/sales/account-planning/#relationship-and-influence-mapping) page.
 
 ### Whitespace Mapping
 
@@ -92,11 +92,11 @@ Company Intelligence allows users to stay up-to-date on their key customers and 
 1. Using the bell icon in the top right corner of Gainsight, select the gear icon.
 1. Select the Events drop down menue
 1. Next to Company Intelligence, select your notification preferences. Currently the only option is Slack and the updates will arrive via the Gainsight Sally app.
-   - Bonus: Once opted in to Slack notifications [you can request additional real time updates](https://support.gainsight.com/SFDC_Edition/Sally_AI_Bot/User_Guides/Sally_-_the_Gainsight_bot_Overview). Go to slack and send a direct message to "Gainsight Sally." Ask for a summary of an Account you own.
+   - Bonus: Once opted in to Slack notifications [you can request additional real time updates](https://support.gainsight.com/gainsight_nxt/Sally_AI_Bot/Sally_for_Slack/About/Sally_-_The_Gainsight_Bot_Overview). Go to slack and send a direct message to "Gainsight Sally." Ask for a summary of an Account you own.
 
-- [Setting up notifications](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
-- [Company Intelligence FAQs](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
-- [Company Intelligence, The long version](https://support.gainsight.com/SFDC_Edition/Company_Intelligence/About/Company_Intelligence_Overview?mt-draft=true#Overview).
+- [Setting up notifications](https://support.gainsight.com/gainsight_nxt/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
+- [Company Intelligence FAQs](https://support.gainsight.com/gainsight_nxt/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
+- [Company Intelligence, The long version](https://support.gainsight.com/gainsight_nxt/Company_Intelligence/About/Company_Intelligence_Overview_Old).
 
 *Note: Only 5,000 Accounts can be tracked at a time. To request an account be added to tracking, please submit an issue in the [Sales Ops project](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues) and select the General Request template.*
 
@@ -107,7 +107,7 @@ Company Intelligence allows users to stay up-to-date on their key customers and 
 1. In the action column, click the link and enter the LinkedIn URL to start tracking.
 1. Private, Premium LinkedIn profiles can't be tracked at this time (May 2021).
       - Profile with special characters cannot be tracked unless a request is submitted to Gainsight Customer Support.
-1. For more detail on how Sponsor Tracking works, please [read this article](https://support.gainsight.com/SFDC_Edition/View_More_Categories/Sponsor_Tracking/User_Guides/How_to_Use_Sponsor_Tracking#Changes_in_Tracked_Contacts) from Gainsight.
+1. For more detail on how Sponsor Tracking works, please [read this article](https://support.gainsight.com/gainsight_nxt/07360/User_Guides/Sponsor_Tracking_Overview) from Gainsight.
 
 ### Available Courses
 
@@ -120,24 +120,10 @@ Company Intelligence allows users to stay up-to-date on their key customers and 
 
 - [Gainsight Kickoff and Demo](https://www.youtube.com/watch?v=Xhor2IIsCQQ)
 - [How a Gainsight Rep Uses Gainsight](https://youtu.be/lnEkbLnxs-8)
-
-**Getting Started with Gainsight**
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/3bc8692532e94a37ba693c14e36d1d8a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-**Completing the Account Snapshot in Gainsight**
-<div style="position: relative; padding-bottom: 69.76744186046511%; height: 0;"><iframe src="https://www.loom.com/embed/09f6d86b58f042da860185fe947814c9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-**Whitespace Mapping with Gainsight**
-<div style="position: relative; padding-bottom: 68.18181818181819%; height: 0;"><iframe src="https://www.loom.com/embed/1da3c252c8f34e74a145cf964e4fb29e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-**Whitespace Mapping Visuals with Gainsight**
-<div style="position: relative; padding-bottom: 68.18181818181819%; height: 0;"><iframe src="https://www.loom.com/embed/3463bbf34da64343821df1b0c7f302eb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-**Relationship and Influence Mapping with Gainsight**
-<div style="position: relative; padding-bottom: 71.57057654075547%; height: 0;"><iframe src="https://www.loom.com/embed/1d5cfe4374bc40d2b2dddd0dee43a387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-**Relationship and Influene Multi-Maps with Gainsight**
-<div style="position: relative; padding-bottom: 71.57057654075547%; height: 0;"><iframe src="https://www.loom.com/embed/3e04070f7f9a47babb5b5cb6a3838741" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-**Creating the Action Plan with Gainsight**
-<div style="position: relative; padding-bottom: 68.18181818181819%; height: 0;"><iframe src="https://www.loom.com/embed/6ce45c18843743b88ec7554863792266" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+- [Getting Started with Gainsight](https://www.loom.com/embed/3bc8692532e94a37ba693c14e36d1d8a)
+- [Completing the Account Snapshot in Gainsight](https://www.loom.com/embed/09f6d86b58f042da860185fe947814c9)
+- [Whitespace Mapping with Gainsight](https://www.loom.com/embed/1da3c252c8f34e74a145cf964e4fb29e)
+- [Whitespace Mapping Visuals with Gainsight](https://www.loom.com/embed/3463bbf34da64343821df1b0c7f302eb)
+- [Relationship and Influence Mapping with Gainsight](https://www.loom.com/embed/1d5cfe4374bc40d2b2dddd0dee43a387)
+- [Relationship and Influene Multi-Maps with Gainsight](https://www.loom.com/embed/3e04070f7f9a47babb5b5cb6a3838741)
+- [Creating the Action Plan with Gainsight](https://www.loom.com/embed/6ce45c18843743b88ec7554863792266)

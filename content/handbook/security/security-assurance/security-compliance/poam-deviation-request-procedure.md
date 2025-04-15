@@ -5,10 +5,10 @@ title: "FedRAMP Vulnerability Deviation Request Procedure"
 ## Submit a Request
 
 <div class="d-grid gap-2 my-4">
-<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests/-/issues" class="btn bg-primary text-white btn-lg">Click here to submit a Deviation Request!</a>
+<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues/new" class="btn bg-primary text-white btn-lg">Click here to submit a Deviation Request!</a>
 </div>
 
-Team members working with security vulnerabilities should read this procedure in its entirety and reach out to `@dedicated_compliance` in the `# sec-assurance` Slack channel if you have any questions.
+Team members working with security vulnerabilities should read this procedure in its entirety and reach out to `@sec-compliance-team` in the `#sec-assurance` Slack channel if you have any questions.
 
 ## Purpose
 
@@ -26,9 +26,9 @@ For further detail on each type, see the definitions in the [DR types](#dr-types
 
 ### Assets in scope
 
-Only the assets and scan types listed [here (internal)](https://internal.gitlab.com/handbook/engineering/dedicated/pubsec/fedramp-boundary-vulnerability-scanning/) are in-scope. Do not submit a DR for a scan type (e.g. SAST) or asset not included within the FedRAMP production authorization boundary.
+Only the assets and scan types listed [here (internal)](https://internal.gitlab.com/handbook/engineering/infrastructure/platforms/gitlab-dedicated/us-public-sector-services/architecture/#vulnerability-scanning-scope-and-targeted-assets) are in-scope. Do not submit a DR for a scan type (e.g. SAST) or asset not included within the FedRAMP production authorization boundary.
 
-Vulnerabilities in-scope for FedRAMP get the `FedRAMP::Vulnerability` label applied. See AppSec's [FedRAMP Vulnerability Scanning and Triage Process](/handbook/security/product-security/application-security/runbooks/fedramp-scanners-process.html#for-each-finding-from-dast-and-container-scanners) for more details, as well as the [standard vulnerability labels (internal)](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues/34199373).
+Vulnerabilities in-scope for FedRAMP get the `FedRAMP::Vulnerability` label applied. See the [standard vulnerability labels (internal)](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues/34199373) for more details.
 
 ## Roles & Responsibilities
 
@@ -41,7 +41,7 @@ Vulnerabilities in-scope for FedRAMP get the `FedRAMP::Vulnerability` label appl
 
 ## Procedure
 
-Any GitLab team member can submit a deviation request (DR) via a [GitLab issue in this private project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests). DRs should be submitted as early as possible, and mustn't be submitted once the SLA for a vulnerability is already at risk of being breached. This allows time for approval and alternate mitigations to be explored without risking breaching the SLA if the DR is not appropriate for approval. All DRs are reviewed and approved by security, compliance, and our AO and they must meet the definitions and critieria defined within the DR issue templates to be eligable for review and potential approval.
+Any GitLab team member can submit a deviation request (DR) by [creating a new issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues/new) in the `Plan of Action and Milestones (POA&M) - Vulnerability Deviation Requests` private project. DRs should be submitted as early as possible, and mustn't be submitted once the SLA for a vulnerability is already at risk of being breached. This allows time for approval and alternate mitigations to be explored without risking breaching the SLA if the DR is not appropriate for approval. All DRs are reviewed and approved by security, compliance, and our AO and they must meet the definitions and critieria defined within the DR issue templates to be eligable for review and potential approval.
 
 To open a DR the applicable issue template must be selected and all information must be completed prior to submitting the issue for internal review. Each DR will undergo three rounds of review:
 
@@ -133,7 +133,7 @@ There are no exceptions allowed to this procedure.
 
 ## References
 
-- [Vulnerability Management Procedure: Scanners]({{< ref "../../product-security/vulnerability-management" >}})
+- [Vulnerability Management Procedure: Scanners](/handbook/security/product-security/vulnerability-management/)
 
 ### Other helpful definitions
 

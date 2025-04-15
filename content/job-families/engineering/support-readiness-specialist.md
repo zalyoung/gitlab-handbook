@@ -73,14 +73,14 @@ of freedom to work on things that will make your life, and the lives of your
 coworkers, easier. Current and past Support Readiness Specialists in Operations have:
 
 - Created
-  [tooling to generate weekly 1-1 issues](https://gitlab.com/gitlab-com/support/toolbox/1-1-issue-generator)
+  tooling to generate weekly 1-1 issues
   for Support Engineers containing metrics, random tickets to review, etc.
 - Developed
-  [tooling to generate weekly account deletion reports](/handbook/support/support-ops/documentation/adwr.html).
+  tooling to generate weekly account deletion reports.
 - Leaned into
   [dogfooding](/handbook/engineering/development/principles/#dogfooding) by
   having various aspects of Zendesk
-  [version controlled via GitLab.com](/handbook/support/support-ops/documentation/sync_repos.html).
+  version controlled via GitLab.com.
 - ...and even more!
 
 ### Data Analysis & Services Delivery
@@ -124,7 +124,7 @@ workflow information or documentation closer to customers, Support Engineers
 and Support Management.
 - coordinate with Support Readiness Specialists in Service Delivery on improving
 ticket quality and customer satisfaction with Support (SSAT).
-- facilitate the self-organization and activities of [Support Pods](/handbook/support/workflows/working-with-pods.html)
+- facilitate the self-organization and activities of [Support Pods](/handbook/support/workflows/working-with-pods/)
 - keep your eye on the horizon for product and offering changes to keep support prepared for the future.
 
 ### Requirements
@@ -201,12 +201,12 @@ workflows through our applications:
 
 - Providing top tier support to the GitLab Support Engineering team
 - Driving the Support Operations
-  [mission](/handbook/support/support-ops/#mission) and
-  [vision](/handbook/support/support-ops/#vision)
+  [mission](/handbook/support/readiness/) and
+  [vision](/handbook/support/readiness/)
 - Maintenance of
-  [Support Operations documentation](/handbook/support/support-ops/documentation/)
+  Support Operations documentation
 - Adherence and improvement of
-  [Support Operations workflows](/handbook/support/support-ops/workflows/)
+  Support Operations workflows
 
 ### Hiring Process
 
@@ -243,7 +243,7 @@ Be sure to use the same email address for both.
 GitLab Inc. is a company based on the GitLab open-source project. GitLab is a
 community project to which over 2,200 people worldwide have contributed. We are
 an active participant in this community, trying to serve its needs and lead by
-example. We have one [vision](https://about.gitlab.com/strategy): everyone can
+example. We have one [vision](/handbook/company/strategy/): everyone can
 contribute to all digital content, and our mission is to change all creative
 work from read-only to read-write so that everyone can contribute.
 

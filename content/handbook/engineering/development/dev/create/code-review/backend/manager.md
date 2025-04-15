@@ -22,31 +22,24 @@ Here are the activities done by the engineering manager throughout the course of
 The release is on the [3rd Thursday of every month](https://about.gitlab.com/releases/). We use a cutoff date of the Friday before that to get any work completed.
 You can see more about the [release process here](/handbook/engineering/releases/).
 
-On the first of the month a new [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acode%20review&label_name%5B%5D=Planning%20Issue) is automatically created for the next milestone. Create a thread for **Backend** and tag the backend team to get ideas for issues to include in the upcoming milestone planning.
+On the first of the month a new [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acode%20review&label_name%5B%5D=Planning%20Issue) is automatically created for the next milestone. Create threads for the various projects / topics (e.g. Rapid Diffs, CLI, Bugs) and tag the backend team to get ideas for issues to include in the upcoming milestone planning.
 
-#### Starting a Milestone
+### Planning week activities
 
-Here are the tasks to do at the start of the milestone. For these dates, use the Monday before the 3rd Thusday as day 0 since the Friday before that is the engineering cutoff.
+The last week of the milestone is planning week for the next milestone. Here are the tasks to do during this week and the following one:
 
-| Days into Milestone | Action |
-|---------------------|--------|
-| 0 | Label all issues with the `Deliverable` and `workflow::ready for development` labels. |
-| 0 | Assign issues to team members based on capacity. |
-| 0 | Send emails to team members with their current issue board. |
-| 1 | Move all open issues from the previous milestone into this new milestone |
-| 3 | Find issues to investigate as part of the [planning / backlog refinement process](/handbook/engineering/development/dev/create/code-review/backend/#planning). Create a new issue using the [backlog refinement template](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/issues/new?issuable_template=backlog_refinement). |
-| 3 | Calculate the percentage breakdown of features, bugs, and maintenance and add it to the current planning issue. |
-
-#### Wrapping Up a Milestone
-
-Here are the tasks to do at the end of the milestone. The dates are relative to the cutoff date, which is the Friday before the 3rd Thursday.
-
-| Days before Cutoff | Action |
-|--------------------|--------|
-| 7 | Move any issues that still have the `workflow::ready for development` label to the next milestone because it is likely it will not make the current milestone if it has not been started yet. |
-| 7 | Make sure we have a capacity estimate for the next milestone. Check with team members to make sure all PTO has been entered. Add the capacity estimate to the planning issue. |
-| 4 | Move any issues that have the `workflow::in dev` label to the next milestone because if they are still in progress it is likely they will not make the current milestone. |
-| 2 | Have a planning meeting with the PM for Code Review to prioritize and pick issues for the milestone that fit within the available capacity. |
+| Day | Action |
+|-----|--------|
+| Mon | Make sure we have a capacity estimate for the next milestone. Check with team members to make sure all PTO has been entered. Use the [capacity planning spreadsheet](https://docs.google.com/spreadsheets/d/1YMnFy-kQySXs7GCQ-hnnM_oB0Ur9us5mXh8GkdjNgaM) and add the capacity estimate to the planning issue. |
+| Mon | Estimate slippage by asking team members which issues are likely/sure to slip, and the total weight expected to complete the work in the next milestone. |
+| Mon | Have an initial planning meeting with the PM and frontend EM for Code Review to align on priorities for the milestone and set initial expectations on slippage. |
+| Thu | Have a final planning meeting with the PM and frontend EM for Code Review to pick issues for the milestone that fit within the available capacity. |
+| Fri | Assign issues to team members based on capacity. |
+| Fri | Label all issues with the `Deliverable` and `workflow::ready for development` labels. |
+| Fri | Post a comment with an overview of all assigned issues in the planning issue. |
+| - | Milestone ends |
+| Mon | Calculate the percentage breakdown of features, bugs, and maintenance and add it to the current planning issue. |
+| Tue | Review all open issues from the previous milestone, move them to the appropriate milestone. |
 
 ### Capacity planning
 
@@ -81,7 +74,7 @@ be backported across several releases.
 
 ### Availability
 
-Approximately 5-10 business days before the start of a new release, the EM will begin determining how "available" the team will be. Some of the things that will be taken into account when determining availability are:
+Approximately 5-10 business days before the start of a new release, the EM will begin determining how "available" the team will be. This is recorded in the [capacity planning spreadsheet](https://docs.google.com/spreadsheets/d/1YMnFy-kQySXs7GCQ-hnnM_oB0Ur9us5mXh8GkdjNgaM) for transparency. Some of the things that will be taken into account when determining availability are:
 
 - Upcoming training
 - Upcoming time off / holidays
@@ -94,23 +87,13 @@ All individual contributors start with a "weight budget" of 7, meaning they are 
 
 Product will prioritize issues based on the teams total weight budget.
 
-### Kickoff emails
-
-Once availability has been determined, weights have been assigned, and the PM/EM finalize a list of prioritized issues for the upcoming release, kickoff emails will be sent. The intent of this email is to notify you of the work we intend to assign for the upcoming release. This email will be sent before the release begins. The kickoff email will include:
-
-- Your availability, weight budget, and how it was calculated
-- A list of the issues you will most probably be assigned as an individual
-- A reasoning behind why you have been assigned more than your weight budget, if applicable\
-
-Emails get sent to each individual contributor on the team in order to give a heads-up about the upcoming issues in the milestone and what the assignments will be.
-
 ## Project Management
 
 ### Service Level Objectives Monitoring
 
 The Engineering Manager will take proactive steps to avoid having reported bugs to go past the target duration defined in [Severity SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
-The [Bug Triage Board](https://gitlab.com/groups/gitlab-org/-/boards/2546239) can be used to browse them together in one board.
+The [Bug Triage Board](https://gitlab.com/groups/gitlab-org/-/boards/2546239) and [Triage Reports](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=created_date&state=opened&label_name%5B%5D=triage%20report&label_name%5B%5D=group%3A%3Acode%20review) can be used to review all open bugs.
 
 ### Priority Issues
 

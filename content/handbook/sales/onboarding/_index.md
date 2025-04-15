@@ -18,20 +18,23 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 - [Target Roles](/handbook/sales/onboarding/target-roles/)
 - [Learning Objectives](/handbook/sales/onboarding/sqs-learning-objectives/)
 - [Sales Onboarding Process](/handbook/sales/onboarding/sales-learning-path/onboarding-process/)
-- [SQS Workshop](/handbook/sales/onboarding/SQS-workshop/)
+- [SQS Workshop](/handbook/sales/onboarding/)
 - [Graduating from Sales Quick Start](/handbook/sales/onboarding/graduating-SQS/)
 
 ## Current & Upcoming Sales Quick Start (SQS) Workshops
 
 | DATES | GEO | LOCATION | ISSUE |
 | ------ | ------ | ------ | ------ |
-| October 14th - October 28th, 2024  | AMER / EMEA | Virtual | [SQS 42 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2857) |
-| November 21st - December 16th, 2024  | AMER / EMEA | Virtual | [SQS 43 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2898) |
+| April 2nd - April 23rd, 2025  | AMER / EMEA | Virtual | [SQS 45 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2984) |
+| June 4th - June 23rd, 2025  | AMER / EMEA | Virtual | [SQS 46 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2985) |
 
 ## Past Sales Quick Start (SQS) Workshops
 
 | DATES | GEO | LOCATION | ISSUE |
 | ------ | ------ | ------ | ------ |
+| February 6th - February 26th, 2025  | AMER / EMEA | Virtual | [SQS 44 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2946) |
+| December 9th, 2024 - January 17th, 2025  | AMER / EMEA | Virtual | [SQS 43 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2898) |
+| October 14th - October 28th, 2024  | AMER / EMEA | Virtual | [SQS 42 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2857) |
 | August 22nd - September 13th, 2024  | AMER / EMEA | Virtual | [SQS 41 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2795) |
 | July 15th - 26th, 2024  | AMER / EMEA | Virtual | [SQS 40 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2660) |
 | June 7th - 24th, 2024  | AMER / EMEA | Virtual | [SQS 39 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2425) |
@@ -165,8 +168,8 @@ By comparing the learners' pre-training and post-training confidence levels, we 
 
 By using the Kirkpatrick model to evaluate the sales onboarding program at each of these four levels, we gain a holistic view of the program's effectiveness and make data-driven decisions to improve it.
 
-### Sales Quick Start Onboarding Workshop & e-learning Feedback 
+### Sales Quick Start Onboarding Workshop & e-learning Feedback
 
-Your feedback on the onboarding process and content is important to us and we welcome your thoughts and ideas about how we can improve in the future. 
+Your feedback on the onboarding process and content is important to us and we welcome your thoughts and ideas about how we can improve in the future.
 
-Please share your feedback by opening an issue using the following [SQS Feedback issue template.](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new) 
+Please share your feedback by opening an issue using the following [SQS Feedback issue template.](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new)

@@ -209,7 +209,7 @@ GitLab's Version 11 year in review provided an overview of what we released, 11.
 
 ### 11.0 Launch
 
-The theme of our 11.0 launch was [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/) (as it had been for 10.0):
+The theme of our 11.0 launch was [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/) (as it had been for 10.0):
 
 > Beyond making it easy to host and collaborate on public and private repositories, GitLab also simplifies the rest of the process by offering the whole delivery toolchain, built in. And now, it's not only built in, it's automated. Simply commit your code and Auto DevOps can do the rest. Auto DevOps is a pre-built, fully featured CI/CD pipeline that automates the entire delivery process.
 
@@ -217,7 +217,7 @@ Read more in the 11.0 release blog post: [GitLab 11.0 released with Auto DevOps 
 
 ### 10.0 Launch
 
-The theme of our 10.0 launch was [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/):
+The theme of our 10.0 launch was [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/):
 
 > From the formulation of an idea to executing and monitoring it in production, DevOps establishes a culture and environment where developing, testing, and releasing software can happen quickly, frequently, and more reliably.
 >

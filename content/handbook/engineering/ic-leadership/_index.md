@@ -53,10 +53,10 @@ Examples of this are:
 
 ### The four archetypes
 
-Staff Engineers and Engineering Managers shared their perspective on [what does Staff level mean at GitLab](https://about.gitlab.com/blog/2020/02/18/staff-level-engineering-at-gitlab/) in an [Unfiltered](/handbook/marketing/blog/unfiltered/) blogpost.
+Staff Engineers and Engineering Managers shared their perspective on [what does Staff level mean at GitLab](https://about.gitlab.com/blog/2020/02/18/staff-level-engineering-at-gitlab/) in an Unfiltered blog post.
 Much of what each engineer said overlapped, but each had a unique perspective based on their team and their particular experience within GitLab as an entity.
 
-There are [four common archetypes of Staff-plus roles in the industry](https://staffeng.com/guides/staff-archetypes) that could explain this variability their perspective:
+There are [four common archetypes of Staff-plus roles in the industry](https://staffeng.com/guides/staff-archetypes/) that could explain this variability their perspective:
 
 - The **Tech Lead** guides the approach and execution of a particular project. Most frequently they partner closely with a single manager, but sometimes they partner with two or three managers within a focused area. At GitLab, Tech Lead is not only an archetype, but it is also a [role](/handbook/engineering/ic-leadership/tech-lead)
 - The **Architect** is responsible for the direction, quality and approach within a critical area, both today and stretching into the multi-year future horizon. They combine a deep knowledge of technical constraints, user needs, and organization level leadership.

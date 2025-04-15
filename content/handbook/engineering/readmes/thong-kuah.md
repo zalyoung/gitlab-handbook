@@ -1,11 +1,12 @@
 ---
 title: "Thong Kuah's README"
+description: "Personal readme page for Thong Kuah, Staff Backend Engineer, GitLab"
 job: "Staff Backend Engineer"
 ---
 
 ## Introduction
 
-Hello, my name is Thong Kuah. I am a Staff Backend Engineer with the [Tenant Scale group](/handbook/engineering/infrastructure/core-platform/tenant-scale/). I currently reside in Wellington, New Zealand.
+Hello, my name is Thong Kuah. I am a Staff Backend Engineer with the [Tenant Scale group](/handbook/engineering/infrastructure-platforms/tenant-scale/). I currently reside in Wellington, New Zealand.
 
 I joined GitLab in 2018, starting with the Configure group.
 

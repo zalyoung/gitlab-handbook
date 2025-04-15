@@ -27,7 +27,7 @@ We established these processes because we saw these benefits:
 
 One common concern newcomers to the handbook express is that the strict documentation makes the company more rigid.
 In fact, writing down our current process in the handbook has the effect of empowering contributors to propose change.
-As a result, this handbook is far from rigid. You only need to look at the [handbook changelog](/handbook/about/changelog/) to see the evidence. Every attempt is made to document guidelines and processes in the handbook. However, it is not possible to document every possible situation or scenario that could potentially occur. Just because something is not yet in the handbook does not mean that it is allowed. GitLab will review each team member's concern or situation based on local laws to determine the best outcome and then update the handbook accordingly. If you have questions, please discuss with your manager or contact the [People Success](/handbook/people-group/) team.
+As a result, this handbook is far from rigid. You only need to look at the [handbook commits list](https://gitlab.com/gitlab-com/content-sites/handbook/-/commits/main) to see the evidence. Every attempt is made to document guidelines and processes in the handbook. However, it is not possible to document every possible situation or scenario that could potentially occur. Just because something is not yet in the handbook does not mean that it is allowed. GitLab will review each team member's concern or situation based on local laws to determine the best outcome and then update the handbook accordingly. If you have questions, please discuss with your manager or contact the [People Success](/handbook/people-group/) team.
 
 ## Handbook Interpretation
 
@@ -70,6 +70,4 @@ GitLab uses [Snowplow](/handbook/enterprise-data/platform/snowplow/) to track ha
 We've gathered *some* information about the handbook here, but there's still more elsewhere.
 
 - [Handbook usage](/handbook/about/handbook-usage/)
-- [Evolution of the handbook](/handbook/ceo/#evolution-of-the-handbook) on the [CEO page](/handbook/ceo/)
-- [Changelog](/handbook/CHANGELOG.html)
 - [Handbook editing examples](/handbook/about/editing-handbook/practical-handbook-edits/)

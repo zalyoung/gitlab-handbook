@@ -36,7 +36,7 @@ Rolly is an automated tool which extracts key status information from project/pr
 
 #### Example Rollup Issue
 
-![Example Rollup Issue](rollupissue.png)
+![Example Rollup Issue](/images/business-technology/how-we-work/rolly/rollupissue.png)
 
 ### Where does Rolly live?
 

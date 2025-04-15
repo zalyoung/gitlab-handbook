@@ -167,7 +167,7 @@ After you commit these changes, a pipeline will run, and the test stage will fai
 
 - The **test** stage, which runs various tests on your application code to ensure it is secure and high quality. A few of the jobs are explained below:
 
-  - The Dependency scan will scan to detect any new licenses and dependencies added to the project. Select **Full report** in the License Compliance section to see the scan details. After viewing the report, return to the pipeline.
+  - The Dependency scan will scan to detect any new licenses and dependencies added to the project. Select the **Licenses** section to see the scan details. After viewing the report, return to the pipeline.
 
   - The Code Quality scan will scan to detect if the code quality has changed between the main and the merge request code. If any code quality issues exist, they will be flagged in this section.
 

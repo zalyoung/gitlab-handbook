@@ -5,6 +5,7 @@ description: "How the Developer Relations team measures effectiveness of content
 
 ## Quicklinks
 
+- [Marketing Influenced Pipeline Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MarketingInfluencedPipeline/MarketingInfluencedPipelineReview?:iid=3) on Tableau
 - [Marketing Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?%3Aiid=1) on Tableau
 - [Looker Reports](https://lookerstudio.google.com/reporting/25dedcd0-7f67-4a37-8ab6-ad03cd431f92/page/p_k19k34iwad)
   - [Multilingual YouTube Views Report](https://lookerstudio.google.com/u/0/reporting/25dedcd0-7f67-4a37-8ab6-ad03cd431f92/page/p_zzca42mped)
@@ -26,7 +27,11 @@ The key measure of content effectiveness for the Developer Relations team is how
 - Blog Views: These are impressions generated from blog posts published by the team on the GitLab blog.
 - Video Views: Videos are uploaded to the [Official](https://www.youtube.com/gitlab) and the [GitLab Unfiltered](https://youtube.com/gitlabunfiltered) channels on YouTube. We also include Shortened links with Relevant UTM codes.
 - Campaigns: The Developer Relations team use the `devrel` UTM Campaign name to track engagement with our content or activities shared on external mediums.
-- Influenced Campaigns: These are campaigns owned by other marketing teams that we contribute to, we track the result of our influence on the [Marketing Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?%3Aiid=1).
+- Influenced Campaigns: These are campaigns owned by other marketing teams that we contribute to, we track the result of our influence on the [Marketing Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?%3Aiid=1) and in the [Marketing Influenced Pipeline dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MarketingInfluencedPipeline/MarketingInfluencedPipelineReview?:iid=3).
+
+You can learn how everything fits together in this [overview video](https://drive.google.com/file/d/1s0HIm64oY27ZIbxsUv0cW0MyWhKoQaQA/view?usp=drive_link) [Internal].
+
+![DevAdvocacy Metrics Data Pipeline](/images/handbook/marketing/developer-relations/DevAdvocacy-Metrics-Pipeline.png)
 
 #### Everything is a Campaign
 
@@ -107,7 +112,7 @@ The [Looker Studio reports](https://lookerstudio.google.com/reporting/25dedcd0-7
 
 Using the 4 data sources, 3 blends were created, the `DevRel Filtered Youtube Data Source`, `DevRel Filtered Youtube (Official Channel) Data Source` and `DevRel Filtered Blog`. A [Blend in Looker Studio](https://support.google.com/looker-studio/topic/9061419?hl=en&ref_topic=10388842&sjid=10095352649474076992-EU) lets you combine multiple data sources in the same visualization.
 
-`DevRel Filtered Youtube Data Source` and `DevRel Filtered Youtube (Official Channel) Data Source` blends the data from the `youtube_views_gitlab` sheet and the YouTube API using the `External Video ID` from the API and the `video_id` column from then sheet, in an Inner join. The `DevRel Filtered Youtube (Official Channel)` Data Source is authenticated using Abubakar's Google account to the official channel and `DevRel Filtered Youtube Data Source` to the Unfiltered channel using the same account.  The `DevRel Filtered Blog` blends data from the `devrel_blog_posts_views` and Google Analytics (GA4) API.
+`DevRel Filtered Youtube Data Source` and `DevRel Filtered Youtube (Official Channel) Data Source` blends the data from the `youtube_views_gitlab` sheet and the YouTube API using the `External Video ID` from the API and the `video_id` column from then sheet, in an Inner join. The `DevRel Filtered Youtube (Official Channel)` Data Source is authenticated using John Coghlan's Google account to the official channel and `DevRel Filtered Youtube Data Source` to the Unfiltered channel using the same account.  The `DevRel Filtered Blog` blends data from the `devrel_blog_posts_views` and Google Analytics (GA4) API.
 
 Here is an example of a blend:
 
@@ -129,31 +134,13 @@ This configuration only supports videos published on the Official GitLab YouTube
 
 This section details how the different components of the Content Effectiveness workflow link together and how to maintain them.
 
-### Data Reporting Flow
-
-```mermaid
-flowchart LR
-    manual_data_updates[/Manual Updates to Blogpost and Campaigns sheet/]
-    youtube2sheet_config[/YouTube2Sheets Playlists JSON file/]
-    youtube2sheet_script[[YouTube2Sheets updates video lists twice daily]]
-    content_inventory[(DevRel Content Inventory)]
-    snowflake[(Snowflake Datawarehouse)]
-    tableau_datasource[Tableau Data Source]
-    tableau_dashboard[Tableau Dashboard]
-    looker_reports[Looker Studio Reports]
-    manual_data_updates --> content_inventory
-    youtube2sheet_config --> youtube2sheet_script --> content_inventory
-    content_inventory --> looker_reports
-    content_inventory --> snowflake --> tableau_datasource --> tableau_dashboard
-```
-
 ### Maintenance
 
 #### Campaigns
 
 - Use the Campaign Manager to generate shortlinks or full campaign links and use them in your campaigns.
 - Add the `DevRel-Influenced` label to the issue or epic of the campaign you are working on.
-- If the campaign belongs to a different team, confirm the UTM or Salesforce Campaign name and update the `devrel_influenced_campaigns` sheet in the Content Inventory accordingly.
+- If the campaign belongs to a different team, confirm the UTM or Salesforce Campaign name and update the `devrel_influenced_campaigns` sheet in the Content Inventory accordingly. Please make sure campaign names are not duplicated, if it already exists, no need to add it again as it will break data pipeline.
 - It is recommended to use campaign links as much as you can on non-GitLab mediums.
 
 #### Blog posts

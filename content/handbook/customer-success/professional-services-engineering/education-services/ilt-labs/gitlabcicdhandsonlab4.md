@@ -2,6 +2,9 @@
 title: "GitLab CI/CD - Hands-On Lab: Working with CI/CD Components"
 description: "This Hands-On Guide demonstrates how to add CI/CD components to a pipeline"
 ---
+
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD features are provided as components. In this lab, you will learn how to add a CI/CD component to your GitLab project.
@@ -10,9 +13,9 @@ A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD
 
 GitLab stores CI/CD components inside of the CI/CD catalog. To view the catalog:
 
-1. In the left sidebar, select **Search or go to**. 
+1. In the left sidebar, select **Search or go to**.
 
-1. In the resulting dialog, select **Explore**. 
+1. In the resulting dialog, select **Explore**.
 
 1. In the left sidebar, select **CI/CD Catalog**. This will show you a list of all of the CI/CD catalog items available in your GitLab instance. For this lab, you will be adding SAST to your project. Select the SAST component.
 
@@ -23,18 +26,18 @@ include:
   - component: ilt.gitlabtraining.cloud/components/sast/sast@<VERSION>
 ```
 
-Let’s add this to our CI/CD file. 
+Let’s add this to our CI/CD file.
 
 ## Task B. Adding the SAST component
 
-1. Navigate to your CI/CD project by clicking on the Tanuki logo in the top left corner of the page, then click on your project name. 
+1. Navigate to your CI/CD project by clicking on the Tanuki logo in the top left corner of the page, then click on your project name.
 
-1. From the project, select your `.gitlab-ci.yml` file. 
+1. From the project, select your `.gitlab-ci.yml` file.
 
-1. Select **Edit > Edit in Pipeline Editor**. 
+1. Select **Edit > Edit in Pipeline Editor**.
 
 1. At the top of your file, below the image, add the SAST import at version main.
- 
+
 ```yaml
 include:
   - component: ilt.gitlabtraining.cloud/components/sast/sast@main
@@ -66,4 +69,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

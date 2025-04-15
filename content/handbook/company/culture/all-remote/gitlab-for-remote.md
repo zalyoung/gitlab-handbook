@@ -92,7 +92,7 @@ destination_url: "https://youtu.be/qCDAioq3eis"
     <div class="col d-flex align-items-center">
         <div>
         <h2>Track work from dream to done</h2>
-        <p>Adding labels to GitLab Issues lets you categorize work into different stages, such as planning, in-progress, and complete. <a href="https://about.gitlab.com/stages-devops-lifecycle/issueboard/">GitLab Boards</a> give you visibility and control over how work is being done. It's like moving digital post-it notes across an online whiteboard that everyone can use, not just the folks in the conference room.</p></div>
+        <p>Adding labels to GitLab Issues lets you categorize work into different stages, such as planning, in-progress, and complete. <a href="https://docs.gitlab.com/ee/user/project/issue_board.html">GitLab Boards</a> give you visibility and control over how work is being done. It's like moving digital post-it notes across an online whiteboard that everyone can use, not just the folks in the conference room.</p></div>
     </div>
 </div>
 

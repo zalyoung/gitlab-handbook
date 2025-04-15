@@ -16,8 +16,8 @@ Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrast
 {{< team-by-manager-slug "ashiel" >}}
 
 Product Manager: [Loryn Bortins](/handbook/company/team/#lbortins)
-Technical Writer: [Lysanne Pinto](/handbook/company/team/#lyspin)
-Product Designer: [Divya Alagarsamy](/handbook/company/team/#divyaalagarsamy)
+Technical Writer: [Emily Sahlani](/handbook/company/team/#emily.sahlani)
+Product Designer: [Jesse Hoek](/handbook/company/team/#jhoek)
 
 ## Working with us
 
@@ -47,7 +47,7 @@ To engage with the Switchboard team:
   - the specific environment ( Test / Beta / Production )
   - level of access required (Readonly, Support, Provisioner, Operator)
   - justification for the access
-- Access & Provision Details for the application can be found in the `Switchboard - GitLab Dedicated` section of the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/d3561ab939029faf4ac25f32612c57e861eb8b39/data/tech_stack.yml)
+- Access & Provision Details for the application can be found in the `Switchboard - GitLab Dedicated` section of the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 
 ## How we work
 
@@ -329,8 +329,16 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 
 ### Open Questions :question:
 | Question | Added by | Discussion thread | Resolved |
-|----------|----------|-------------------| ------ |
+|----------|----------|-------------------| -------- |
 |  |  |  |  |
+
+### Feature flags
+
+<!-- This table should document any feature flags that were added or removed by the epic -->
+
+| Feature flag | Details |
+| ------------ | ------- |
+| | |
 
 ### Further details :mag:
 
@@ -380,6 +388,7 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 <!-- STATUS NOTE END -->
 
 /label ~"team::Switchboard" ~"workflow-infra::Triage"
+/confidential
 
 ```
 

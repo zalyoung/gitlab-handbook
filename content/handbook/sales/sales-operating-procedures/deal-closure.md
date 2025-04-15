@@ -88,7 +88,7 @@ This step can be looked at as an extension of the negotiation process and the ti
 
 ### 4.1 Create a New Quote
 
-A quote is created in Salesforce. [Create a New Quote](/handbook/marketing/developer-relations/community-programs/community-program-applications/#step-3-create-a-new-quote). Generally once you submit a quote it will be sent to the customer's legal team to redline and review.
+A quote is created in Salesforce. [Create a New Quote](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/). Generally once you submit a quote it will be sent to the customer's legal team to redline and review.
 
 EMEA specific Quote Creation Considerations:
 

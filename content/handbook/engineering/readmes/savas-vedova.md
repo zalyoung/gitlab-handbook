@@ -1,5 +1,6 @@
 ---
 title: "Savas Vedova's README"
+description: "Personal readme page for Savas Vedova, Senior Frontend Engineer, Govern, GitLab"
 job: "Senior Frontend Engineer, Govern"
 ---
 

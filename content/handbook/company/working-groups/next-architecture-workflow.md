@@ -15,7 +15,7 @@ status: active
 
 ### Problem Statements
 
-1. [Cross-functional prioritization](/handbook/product/cross-functional-prioritization/) framework allocates
+1. [Cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) framework allocates
    some amount of time towards maintenance activities. It is not prescriptive
    regarding how Engineering Managers and Engineers might coordinate across
    multiple teams to execute on large-scale cross-functional projects like those
@@ -38,7 +38,7 @@ improve the process itself, to position team members better for delivering
 great results by using it.
 
 - Firm up the definition of "Architecture" and "Blueprint" in this context.
-- Take inventory of current and historical [Engineering Allocation](/handbook/engineering/#engineering-allocation)
+- Take inventory of current and historical [Engineering Allocation](/handbook/product/product-processes/#prioritization-framework)
   initiatives and evaluate the extent to which such initiatives could be defined as
   [blueprints](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints), following the [Architecture Evolution Workflow](/handbook/engineering/architecture/workflow/).
 - Lower the entry barrier for creating a proposal in a blueprint.
@@ -48,7 +48,7 @@ great results by using it.
   [AppSec reviews](/handbook/security/product-security/application-security/runbooks/review-process),
   and [creation of release posts](/handbook/marketing/blog/release-posts/).
 - Develop strategy for incorporating this process and the Engineering roadmap into Product planning
-  and prioritization via the [Cross-functional Prioritization](/handbook/product/cross-functional-prioritization/) framework.
+  and prioritization via the [Cross-functional Prioritization](/handbook/product/product-processes/cross-functional-prioritization/) framework.
 
 ### Context
 
@@ -62,13 +62,13 @@ great results by using it.
   initiatives have a low rate of success. Many *choose* to produce blueprints
   as part of their exit criteria, but blueprints are not standard and do very
   little to ensure the work gets done.
-- [Cross-functional Prioritization](/handbook/product/cross-functional-prioritization/) aims to replace
-  [Engineering Allocations](/handbook/engineering/#engineering-allocation) but is not prescriptive
+- [Cross-functional Prioritization](/handbook/product/product-processes/cross-functional-prioritization/) aims to replace
+  [Engineering Allocations](/handbook/product/product-processes/#prioritization-framework) but is not prescriptive
   regarding how efforts involving engineers across multiple Product stages will
   be coordinated.
 
 The following recording from the
-[Rate Limit Architecture]({{< ref "rate-limit-architecture" >}})
+[Rate Limit Architecture](/handbook/company/working-groups/rate-limit-architecture/)
 Working Group included some organic discussion around this topic as we attempt
 to redefine exit criteria that will result in a successful implementation after
 the working group concludes:
@@ -82,7 +82,7 @@ the working group concludes:
 
 #### Architecture Kickoff Working Group
 
-The [Architecture Kickoff]({{< ref "architecture-kickoff" >}}) working group
+The [Architecture Kickoff](/handbook/company/working-groups/architecture-kickoff/) working group
 was primarily concerned with [defining a 3/6/12-month technical roadmap](/handbook/engineering/architecture/roadmap/).
 This working group picks up by further iterating on the process for maintaining this roadmap over time
 and better facilitating its implementation.

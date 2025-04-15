@@ -200,8 +200,7 @@ The Environments team size is currently too smal to fully support the entire sco
 
 With **Critical Maintenance** we mean that we will be able to take on only p2/s2 and above Security, Scalability and Availability issues and only p1/s1 bugs otherwise classified, or issues considered impactful to fix by the Product Manager.
 
-Issues falling out of the mentioned types will be marked with `Environments::No-Capacity` label and we will ignore their SLO.
-While we do not have the capacity to work on them we welcome and will support any community contributions to those issues.
+Issues falling out of the mentioned types will be marked with `~environments::parked` label and we will ignore their SLO.
 
 #### Issue Weighting
 
@@ -403,17 +402,17 @@ following milestone planning. For example, for Deferred UX issues opened in the 
 milestone, engineers should evaluate and ensure appropriate prioritization of
 the issue during the planning of the 16.4 milestone. This does not mean that the
 issue must be resolved during the 16.4 milestone, but that the issue is placed
-into the appropriate step of our [product development flow](/handbook/product-development-flow), or closed if appropriate.
+into the appropriate step of our [product development flow](/handbook/product-development/product-development-flow/), or closed if appropriate.
 
 This helps to ensure that Deferred UX issues are resolved in a timely manner,
 keeping with the overall goals of the group and adherence to broader
-[engineering workflows](/handbook/engineering/workflow#deferred-ux).
+[engineering workflows](/handbook/engineering/workflow/#deferred-ux).
 
 ### Epic Ownership
 
 The Environments group uses epics to describe features or capabilities that will increase the maturity of the Environments categories over time.
 
-Each epic should be owned by an engineer who is responsible for all technical aspects of that epic. The engineering DRI will work closely with the Product Manager and Product Designer to understand the requirements and create issues that encapsulate the technical work required during the [design](/handbook/product-development-flow/#validation-phase-3-design)/[solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) phases and [build](/handbook/product-development-flow/#build-track) track of the [Product Development Flow](/handbook/product-development-flow/). Each issue needs to be weighted and contain enough information in the description area for any other engineer on the team to be able to pick up that work.
+Each epic should be owned by an engineer who is responsible for all technical aspects of that epic. The engineering DRI will work closely with the Product Manager and Product Designer to understand the requirements and create issues that encapsulate the technical work required during the [design](/handbook/product-development/product-development-flow/#validation-phase-3-design)/[solution validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation) phases and [build](/handbook/product-development/product-development-flow/#build-track) track of the [Product Development Flow](/handbook/product-development/product-development-flow/). Each issue needs to be weighted and contain enough information in the description area for any other engineer on the team to be able to pick up that work.
 
 **For the duration of building the epic**, the engineer does not need to be the only person implementing the issues. They should keep watch of the work that is done on the issues so that they can verify that the work is progressing correctly. If there are problems with the work, or lengthy delays,
 they need to make sure the Product Manager and Engineering Manager are aware.
@@ -467,7 +466,7 @@ An engineer might be assigned as a DRI to look into this.
 
 The DRI is neither expected to determine a root cause nor propose a solution on their own.
 
-The DRI should instead reach out to [the Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections.html) for support.
+The DRI should instead reach out to the [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability/) for support.
 
 ## Async Issue Updates
 

@@ -8,12 +8,12 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 
 1. On the computer, if using Chrome, please check that it is on the latest version by visiting the URL `chrome://settings/help` - if a new version is available, please use the `Relaunch` button to restart the browser.
 
-2. On your Mac, please also check that you are using macOS Ventura [13.0.1](https://support.apple.com/en-us/HT201260#:~:text=From%20the%20Apple%20menu%20%EF%A3%BF,version%20number%20to%20see%20it.) or newer.
+2. On your Mac, please also check that you are using macOS Ventura [13.0.1](https://support.apple.com/en-us/109033#:~:text=From%20the%20Apple%20menu%20%EF%A3%BF,version%20number%20to%20see%20it.) or newer.
 
 3. On your Mac, please check under "System Settings"->"Privacy & Security"->"Bluetooth" and make sure that Google Chrome has Bluetooth access enabled.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
-    <img src="/handbook/business-technology/okta/images/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
+    <img src="/images/business-technology/okta/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
+    <img src="/images/business-technology/okta/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
 
 4. On the computer, login into your [Okta](https://gitlab.okta.com)
 
@@ -25,16 +25,16 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 
 8. On the computer, ignore all popups from the 1Password browser extension as it could interfere with the process of transferring the passkey. Click the "Yubikey" icon to bypass if it appears.
 
-<img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
+<img src="/images/business-technology/okta/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. On the computer, the next step depends on the browser and version.
     1. In Chrome, the pop up that opens states "Create a passkey for gitlab.okta.com" and has your email address listed. Choose "Use a different passkey" at the bottom left.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Chrome Passkey" width="300"/>
+    <img src="/images/business-technology/okta/Okta-Chrome-Passkey-Popup.png" alt="Okta Chrome Passkey" width="300"/>
 
      Then, choose "Use a phone, tablet or security key".
 
-     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Chrome Passkey-2" width="300"/>
+     <img src="/images/business-technology/okta/Okta-Chrome-Passkey-2.png" alt="Okta Chrome Passkey-2" width="300"/>
 
       This should display a QR code that you can scan.
     2. In Safari, click "Other options", then choose "iPhone, iPad or Android device - save a passkey on a device with a camera", then "Continue".

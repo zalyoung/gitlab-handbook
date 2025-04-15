@@ -9,7 +9,7 @@ Group conversations are recurring events providing regular updates and an additi
 
 All Team Members are invited to participate in Group Conversations by adding questions and comments in the [Group Conversation issue](https://gitlab.com/gitlab-com/group-conversations/-/issues), which is linked in every announcement by the respective host.
 
-If you have suggestions for improving the Attendee or Meeting Leader experience please create a Merge Request (MR) to update this page — [everyone can contribute](/handbook/company/strategy/#why)!
+If you have suggestions for improving the Attendee or Meeting Leader experience please create a Merge Request (MR) to update this page — [everyone can contribute](/handbook/company/mission/#contribute-to-gitlab-company)!
 
 Due to low attendance of the sync meetings, Group Conversations moved to being fully [asynchronous](/handbook/company/culture/all-remote/asynchronous/) in FY24-Q4.
 
@@ -71,7 +71,7 @@ Please see `${INSERT_LINK}` for the Group Conversation Issue, which includes lin
 
 Use presentations to document everything people should know about your group. If the GC is for a group that didn't have a Key Review, and are preparing new slides, the slides should start with the top 3-5 highlights or top of mind updates that are relevant across functions, followed by additional information. These presentations are for attendees to review and generate questions from for the call, and attendees will often have [low context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) around your function or team.
 
-Functions with Key Reviews should not create a new deck for a Group Conversation but should use their [Key Review deck](/handbook/company/key-review/#group-conversations-and-key-review-metrics) for the Group Conversation. If the Key review deck has MNPI, then a copy without MNPI should be created.
+Functions with Key Reviews should not create a new deck for a Group Conversation but should use their [Key Review deck](/handbook/company/key-review/#key-metrics) for the Group Conversation. If the Key review deck has MNPI, then a copy without MNPI should be created.
 
 You can also record and upload a [YouTube video](/handbook/marketing/marketing-operations/youtube/) if there is additional context that would be beneficial to supplement the slides.
 
@@ -88,7 +88,7 @@ Best practices for presentations:
 1. Slides with a lot of text that can be read on their own with lots of links are appreciated.
 1. If you want to present, please consider [posting a recording to YouTube](/handbook/marketing/marketing-operations/youtube/) at least 72 hours before the meeting. Link it to the Google Doc (including specifying whether the video is private or public), and mention it in the relevant slack channels.
 1. Once a quarter, add a slide covering items being actioned from the engagement survey.
-1. Use this [slide deck](https://docs.google.com/presentation/d/16FZd01-zCj_1jApDQI7TzQMFnW2EGwtQoRuX82dkOVs/edit?usp=sharing) as the template for your presentation. Presentations should allow editing (preferred) or commenting from everyone at GitLab so that [everyone can contribute](/handbook/company/strategy/#why).
+1. Use this [slide deck](https://docs.google.com/presentation/d/16FZd01-zCj_1jApDQI7TzQMFnW2EGwtQoRuX82dkOVs/edit?usp=sharing) as the template for your presentation. Presentations should allow editing (preferred) or commenting from everyone at GitLab so that [everyone can contribute](/handbook/company/mission/#contribute-to-gitlab-company).
 1. We encourage you to share metrics and key results during your Group Conversation. Please do not use cumulative metrics in your Group Conversations since those will usually show an upward trend and make it difficult to assess current performance. It is more appropriate to share cumulative metrics externally. See [#8 of the general presentation suggestions](/handbook/communication/#presentations) for more information about cumulative metrics.
 
 For more general presentation best practices, please see our communication handbook's [Presentation section](/handbook/communication/#presentations).
@@ -122,16 +122,13 @@ If your Group Conversation is optional and you need to move the date, please wor
 | ------------------ | --- | ----------- | ------------ | --------------- | -------------- |
 | [Marketing](/handbook/sales/) | Ashley Kramer | Yes | Twice per quarter | | EBA to CMSO |
 | [Sales](/handbook/sales/) | Sales VPs | Yes (GTM Key Review shared with Marketing) | Monthly - rotates between VP of Commercial, VP of Enterprise, VP of Channel & VP of Customer Success | | EBAs in Sales |
-| [Finance](/handbook/finance/) | Brian Robins | Yes | Twice per quarter | | EBAs in Finance|
 | [People](/handbook/people-group/) | Wendy Barnes | Yes | Twice per quarter | | EBA to CPO |
 | [Product](/handbook/product/) | [Month PLT Leader Rotation](/handbook/product/product-leaders/product-leadership/#product-group-conversation-leader-rotation) | Yes | Quarterly | | EBAs in Product |
 | [Support](/handbook/support/) | Johnny Scarborough | Yes | Quarterly | @lbot @lyle @vparsons| EBA to Engineering |
 | [Security](/handbook/security/) | Josh Lemos | Yes | Quarterly| | EBA to Security |
 | [Development](/handbook/engineering/development/) | Tim Zallmann | Yes | Quarterly | | EBA to Engineering |
-| [Infrastructure & Quality](/handbook/engineering/infrastructure-quality/) | Mek Stittri | Yes | Quarterly | | EBA to Engineering |
-| [General](/handbook/ceo/) | Sid Sijbrandij | No | Every other month | | EBA to CEO|
 | [Alliances](/handbook/alliances/) | Nima Badiey | No | Quarterly | | EBA to VP of Alliances |
-| [IT](/handbook/business-technology/it) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
+| [IT](/handbook/business-technology/) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
 | [Data](/handbook/enterprise-data/) | Amie Bright | Yes | Quarterly | | EBA to VP of Business Technology |
 
 ## Current Schedule
@@ -160,7 +157,6 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Thursday 2024-07-25 | Data | Amie Bright | July 18 |
 | Monday 2024-08-05 | Infrastructure & Quality | Mek Stittri | July 25 |
 | Thursday 2024-08-22 | IT | Nabitha Rao | August 14 |
-| Thursday 2024-08-29 | Finance | Brian Robins | - |
 | Wednesday 2024-09-11 | Product | Product Leadership | August 30 |
 | Thursday 2024-09-12 | People | Wendy Barnes | - |
 | Thursday 2024-09-26 | Support | Johnny Scarborough | September 18 |
@@ -168,13 +164,11 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Thursday 2024-10-24 | Data | Amie Bright | October 17 |
 | Monday 2024-10-28 | Infrastructure & Quality | Mek Stittri | October 16 |
 | Thursday 2024-11-21 | IT | Nabitha Rao | November 14 |
-| Tuesday 2024-11-26 | Finance | Brian Robins | - |
 | Thursday 2024-11-28 | Product | Product Leadership | - |
 | Wednesday 2024-12-11 | People | Wendy Barnes | - |
 | Thursday 2025-01-02 | Support | Johnny Scarborough | December 16 |
 | Monday 2025-01-06 | Security | Josh Lemos | December 18 |
 | Thursday 2025-01-30 | Data | Amie Bright | January 23 |
-| Monday 2025-02-03 | Infrastructure & Quality | Mek Stittri | January 23 |
 
 ## Examples of Past Group Conversations
 

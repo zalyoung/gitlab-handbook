@@ -174,25 +174,25 @@ When scheduling an event, this table can help guide you towards the right event 
 
 #### Resources {#zoom-resources}
 
-* [Managing participants in webcast](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-Participants-in-Webinar)
-* [Managing participants in a meeting](https://support.zoom.us/hc/en-us/articles/115005759423-Managing-participants-in-a-meeting)
+* [Managing participants in webcast](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063276)
+* [Managing participants in a meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065566)
 
 #### Chat {#zoom-chat}
 
-* [In-meeting chat](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat) / [Save in-meeting chat](https://support.zoom.us/hc/en-us/articles/115004792763-Saving-In-Meeting-Chat)
-* [Webcast chat](https://support.zoom.us/hc/en-us/articles/205761999-Webinar-Chat)
+* [In-meeting chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064400) / [Save in-meeting chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067312)
+* [Webcast chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067761)
 
 **Chat announcements**
 
 Chat announcements allow specific users to send one-way announcements to everyone in the same account. Account owners and admin can add up to 50 users who can send announcements.
 
-[Using chat announcements](https://support.zoom.us/hc/en-us/articles/360037120072-Using-Chat-Announcements)
+[Using chat announcements](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062229)
 
 #### Q&A {#zoom-questions}
 
 The question & answer (Q&A) feature for webcasts allows attendees to ask questions during the webcast and for the panelists, co-hosts and host to answer their questions. With the public Q&A feature, attendees can answer each other's questions and if enabled, they may also upvote each others questions.
 
-* [Getting started with question & answer](https://support.zoom.us/hc/en-us/articles/203686015-Getting-Started-with-Question-Answer)
+* [Getting started with question & answer](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064380)
 
 #### Polling {#zoom-polling}
 
@@ -200,8 +200,8 @@ You can enable polling in your meeting or virtual event to survey your attendees
 
 You can also download the results of your poll - see [reporting](/handbook/marketing/virtual-events/#reporting).
 
-* [Polling for webcasts](https://support.zoom.us/hc/en-us/articles/203749865-Polling-for-Webinars)
-* [Polling for meetings](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings)
+* [Polling for webcasts](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066668)
+* [Polling for meetings](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066150)
 
 #### Networking {#zoom-networking}
 
@@ -226,7 +226,7 @@ In order to stay compliant with all regulatory policies as it relates to marketi
 
 Please add the following language when creating your Zoom registration landing page:
 
->By registering for this event, you agree that GitLab may email you about its products, services and events. You may opt-out at anytime by unsubscribing in emails or visit our [communication preference center](/handbook/company/preference-center/).
+>By registering for this event, you agree that GitLab may email you about its products, services and events. You may opt-out at anytime by unsubscribing in emails or visit our [communication preference center](https://about.gitlab.com/company/preference-center/).
 
 If you are creating a self-service partner virtual event, please add the following language when creating your Zoom registration landing page and replace `[partner name]` with the name of the partner:
 
@@ -236,7 +236,7 @@ If you are creating a self-service partner virtual event, please add the followi
 
 #### Resources {#reporting-resources}
 
-* [Getting started with reporting](https://support.zoom.us/hc/en-us/articles/201363213-Getting-started-with-reports)
+* [Getting started with reporting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060623)
 
 There are two types of reports you can export for virtual events from Zoom:
 
@@ -269,7 +269,7 @@ If you have a **minimum of 20 leads** to upload from a virtual event, you can ut
 
 When driving webcast registration to a Zoom landing page, Zoom registration source tracking can be useful for tracking where the registrants are coming from.
 
-[Registration source tracking on zoom landing page](https://support.zoom.us/hc/en-us/articles/360000315683-Webinar-registration-source-tracking) is only available for MPM run `Webcast` type and not the self-service virtual events `Meeting` type set up.
+[Registration source tracking on zoom landing page](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065543) is only available for MPM run `Webcast` type and not the self-service virtual events `Meeting` type set up.
 
 Currently, we do not use Zoom's landing page for webcast registration as MPMs manage the webcast registration process by creating an about.gitlab landing page and integrating form fills to Zoom via Marketo. The Zoom integration tracks sources that drove the registration using UTM parameters. See [full documentation on when and how to use utms](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#utms-for-url-tagging-and-tracking).
 
@@ -349,7 +349,7 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
 * Add "- GitLab" and the end of your name or "- your title" to your event profile depending on what is displayed in the event when in chat rooms or other interactive areas. If the event platform accepts emoji (often possible if there is a mobile app) feel free to use the fox emoji or something else that shows your personality.
 * Add a profile picture to your virtual profile if you have the option. It adds a more humanistic touch. If you do not feel comfortable using your image, please use one of the company logos instead.
 
-### Attendee/Staff Best Practices (Virtual sponsored conferences){#best-practices-attendees-staff}  
+### Attendee/Staff Best Practices (Virtual sponsored conferences){#best-practices-attendees-staff}
 
 * One of the biggest advantages of virtual conferences is that you can often search the attendee list by company and title. Sales should especially take advantage of this as an easy way to find and connect with other attendees from your account. Be mindful to use a custom outreach that is relevant to that contact, as sending a generic message to thousands of attendees does not yield a positive image or create meaningful connections.
 * Attend and participate in discussions at sessions, in chat rooms, and other areas the event platform provides in topics that are relevant to you. This helps show us as thought leaders beyond just our own speaking slots and helps gain connections across the event.

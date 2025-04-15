@@ -8,7 +8,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ## Overview
 
-One of the primary tools CSMs have to become a trusted advisor and assess and improve account [health](/handbook/customer-success/csm/health-score-triage/) is the customer cadence call. This is an opportunity for the CSM and the customer team to sync on business outcomes, priorities, progress on initiatives, and concerns, and it is a great opportunity to bring in other GitLab team members that the CSM feels should be included (for example, [Product](/handbook/customer-success/csm/product/) to review feature requests and the roadmap).
+One of the primary tools CSMs have to become a trusted advisor and assess and improve account [health](/handbook/customer-success/csm/health-score-triage/) is the customer cadence call. This is an opportunity for the CSM and the customer team to sync on business outcomes, priorities, progress on initiatives, and concerns, and it is a great opportunity to bring in other GitLab team members that the CSM feels should be included (for example, Product to review feature requests and the roadmap).
 
 Cadence calls are an important aspect of CSM engagement to continue to understand customer's evolving needs, ensure GitLab is delivering value and outcomes, unblock barriers, address issues, collect feedback, nurture relationships, and ensure the customer continues to have positive experiences.
 
@@ -54,13 +54,13 @@ The following items are to be covered/completed in your initial cadence call/kic
 - Identify training needs and agree on enablement sessions
   - New Customers: Discuss the [Intro to GitLab and the Intro to CI/CD enablement sessions](/handbook/customer-success/csm/workshops/) in your first cadence call
   - Existing Customers: Discuss other [enablement sessions](/handbook/customer-success/csm/workshops/) in-line with their desired use cases and potential expansion opportunities (it can be helpful to start discussing future sessions/topics right after one is delivered and it's fresh in their mind)
-  - Scale Customers: Share the [landing page for upcoming webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/), and encourage them to sign up for the Intro to GitLab and the Intro to CI/CD webinars at a minimum
+  - Scale Customers: Share the [landing page for upcoming webinars](https://university.gitlab.com/pages/gitlab-user-webinars), and encourage them to sign up for the Intro to GitLab and the Intro to CI/CD webinars at a minimum
 - Share our [support offerings](https://about.gitlab.com/support/)
 - If the customer is on a self-managed subscription:
   - Strongly advise that they sign-up for security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/)
   - Share the [Communication Preference Center link](https://about.gitlab.com/company/preference-center/) so that customers can manage the emails they get from GitLab
 - If the customer is on a SaaS subscription:
-  - Share [Status](https://status.gitlab.com/) and [Communications Preferences](/handbook/company/preference-center/) pages with customer and advise that they opt-in to security alerts
+  - Share [Status](https://status.gitlab.com/) and [Communications Preferences](https://about.gitlab.com/company/preference-center/) pages with customer and advise that they opt-in to security alerts
   - Subscribe the GitLab Admin to Status page updates
 - Set up recurring cadence calls (CSM-managed only)
 
@@ -157,7 +157,7 @@ At the end of each customer call any changes to customer health should be reflec
 ### Best Practices for Note-Taking
 
 - Write down your *agenda* (including questions you want to ask) in advance. This way you can quickly add your notes for the specific context.
-- If you're comfortable in writing in [Markdown format](/handbook/markdown-guide/), use it to quickly structure your notes in real time.
+- If you're comfortable in writing in [Markdown format](https://handbook.gitlab.com/docs/markdown-guide/), use it to quickly structure your notes in real time.
 - Allow yourself time directly after the call to clean up your notes. Avoid scheduling back-to-back meetings.
 - Practice slowing down call conversations. Stopping the dialog for a few seconds to say "let me write that down" tells the customer what they said is important to you.
 - Ask your SAE/AE/SA to take notes with you. After the meeting combine and add detail.

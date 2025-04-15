@@ -111,23 +111,23 @@ Note: The points, levels & status can still change.
 
 | Contributor Levels | Requirements | Benefits & Rewards |
 | --- | --- | --- |
-| Level 1 | 25 Contribution Points | Achievement on profile, Swag |
-| Level 2 | 500 Contribution Points | Achievement on profile, Swag |
-| Level 3 | 2500 Contribution Points | Achievement on profile, Swag |
-| Level 4 | 7500+ Contribution Points | Achievement on profile, Tier 3 swag coupon, 1 GitLab Ultimate License for personal use |
-| Core | after approval, Individual basis only, 120 Contribution Points, Election process | Achievement on profile, Swag, 1 GitLab Ultimate License for personal use, Slack Access (Requires an NDA to be signed), Developer Permission for GitLab projects |
+| Level 1 | 25 Contribution Points | Achievement on profile, 5 credits for the Contributor Success store |
+| Level 2 | 500 Contribution Points | Achievement on profile, 50 credits for the Contributor Success store |
+| Level 3 | 2500 Contribution Points | Achievement on profile, 150 credits for the Contributor Success store |
+| Level 4 | 7500+ Contribution Points | Achievement on profile, 300 credits for the Contributor Success store, 1 GitLab Ultimate License for personal use |
+| Core | After approval (election process) | Achievement on profile, 300 credits for the Contributor Success store, 1 GitLab Ultimate License for personal use, Slack Access (Requires an NDA to be signed), Developer Permission for GitLab projects |
 
 | Contributor Achievements | Requirements | Benefits & Rewards |
 | --- | --- | --- |
-| Hackathon Winner #1 | First place in the hackathon | Achievement on profile, Swag |
-| Hackathon Runner up #2 | Second place in the Hackathon | Achievement on profile, Swag |
-| Contributor of the month (MVP) | Elected by GitLab Team Members | Achievement on profile, Swag |
-
-| Contributor Achievements | Requirements | Benefits & Rewards |
-| --- | --- | --- |
-| Bugsmash Winner #1 | First place in the bugsmash | Achievement on profile, Swag |
-| Bugsmash Runner up #2 | Second place in the bugsmash | Achievement on profile, Swag |
-| Contributor of the quarter (MVP) | Elected by GitLab Team Members | Achievement on profile, Swag |
+| Contributor of the month (MVP) | Elected by GitLab Team Members | Achievement on profile, 150 credits for the Contributor Success store |
+| Contributor of the quarter (MVP) | Elected by GitLab Team Members | Achievement on profile, 150 credits for the Contributor Success store |
+| Hackathon 1st place | First place in the hackathon | Achievement on profile, 200 credits for the Contributor Success store |
+| Hackathon 2nd place | Second place in the Hackathon | Achievement on profile, 150 credits for the Contributor Success store |
+| Hackathon 3rd place | Third place in the Hackathon | Achievement on profile, 100 credits for the Contributor Success store |
+| Hackathon participant | At least one Hackathon merge request merged | 50 credits for the Contributor Success store |
+| Bugsmash 1st place | First place in the bugsmash | Achievement on profile, 150 credits for the Contributor Success store |
+| Bugsmash 2nd place | Second place in the bugsmash | Achievement on profile, 100 credits for the Contributor Success store |
+| Bugsmash participant | At least one bug smashed | 50 credits for the Contributor Success store |
 
 ### Examples, according to the activities
 
@@ -152,6 +152,10 @@ Note: The points, levels & status can still change.
   - Merge Request merged
     - Merged merge requests credited to all content participants that have commented in that issue or were assigned to it, each participant was credited 2 contribution points
     - Merged merge requests credited to all code participants, each participant was credited 5 Contribution Points
+
+### Recognizing organizations that contribute
+
+An organization's contributions are calculated as the sum of user contributions grouped by the organization configured in their GitLab user profile.
 
 ## Phase 2: Rewards and incentives based on member's value to GitLab, including product marketing
 

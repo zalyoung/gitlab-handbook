@@ -39,26 +39,43 @@ As a follow on to the [Technical Close Plan process](/handbook/solutions-archite
 
 ## When to Create a Mutual Customer Success Plan
 
-A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescribe what a phased adoption and customer adoption journey would look like, in collaboration with the customer.  Please note that a Technical Close Plan should be started in stage 2 or 3 and will contain the required information for a CSP.
+A Mutual Customer Success Plan should be initiated during stage-2 (scoping) and the first version should exist before going into stage-3 (technical evaluation).  This is when an SA begins to prescribe the GitLab solution to the prospect or customer's objectives and what a phased adoption and customer adoption journey would look like, in collaboration with the customer.  Please note that for some SA regions, a Technical Close Plan should also be started in stage 2 or 3 and will contain the required information for a CSP.  
 
-### Which Opportunities Should Have a Mutual Customer Success Plan?
+The Mutual Customer Success Plan should be reviewed and accepted with a customer at some point before stage-4.
 
-1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/#sa-specific-opportunity-fields)
-2. First Order opportunities for accounts with [LAM](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#landed-addressable-market-lam) over $2M  in Proposal stage (Stage-4) and beyond.
-3. All New or Growth Opportunities over $300k net ARR, in Proposal stage (Stage-4) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
-4. All existing customers with upcoming Renewals, over $300k in ARR basis.  *(The CSM is the DRI, to create a Mutual Customer Success Plan.  In these cases the SA may optionally create a Technical Close Plan to capture necessary context if one did not exist, or add to the CSM's Mutual Customer Success Plan as needed.)*
+### Opportunity Thresholds for Creating and Reviewing Mutual Customer Success Plans?
 
-SA Managers have discretion for additional opportunities to be included or excluded.
+1. All New or Growth Opportunities with $300k net ARR or more, in stage-3 (technical evaluation) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
+2. All opportunities with $30K net ARR or more for *focus accounts* as indicated in salesforce.  *(Opportunities that are part of a focus account have salesforce named "Compensation Target Account" checked.)*
+3. All opportunities where the SA is involved in a [*SA Validated Tech Evaluation*](/handbook/solutions-architects/processes/activity-capture/sfdc-logging/#sa-validated-tech-evaluation).  
+
+SA Managers have discretion for additional opportunities to be included.  Additionally, SA Directors can provide an [exception](#csp-exception-process) in specific cases where it is impossible or unreasonable for the SA to create a CSP for a customer.
 
 Once an opportunity has been identified using the criteria above, as requiring a Customer Success Plan, the Solutions Architect should initiate it at the end of Stage-3 Technical Evaluation, and place the URL in the Customer Success Plan field, in the opportunity, in Sales Force.
 
-Then the SA ensures that the releavnt fields in the Customer Success Plan section, on the Opportunity level in SFDC, is maintained throughout the process:
+Then the SA ensures that the [relevant fields](#tracking-customer-success-plan-creation-and-review) in the Customer Success Plan section, on the Opportunity level in SFDC, is maintained throughout the process.
 
-![Customer Success Plan Opportunity Fields](/handbook/solutions-architects/processes/Customer-Success-Plan-SFDC.png)
+### CSP Exception Process
 
-1. Customer Success Plan: field for the URL to the plan
-1. CSM Ready: Check if the plan is/can be handed over to the CSM
-1. Customer Accepted: Check if the customer accepted the plan
+When it is unreasonable or impossible for the SA to create a CSP for a customer, the SA Director can mark the opportunity as requiring a CSP exception.  This provides us a feedback driven approach to iterating on our customer engagement models, encourages dialougue on specific opportunity feasibility, and provide a KPI based approach to SA customer success planning that is within the control of the SA organization.  
+
+Possible reason it would be unreasonable to create a CSP.
+
+- The SA is unable to engage with the customer and we've made multiple attempts with the customer.
+- The customer is not interested in engaging on a CSP after we've explained the necessity and benefits.
+- Sales leadership (VP+) supports not doing the CSP based on the dynamics of the opportunity.
+
+**The SA and SA leadership should work with the sales team to figure out how to engage on a CSP before marking it for exception**
+
+To mark an opportunity with a CSP Exception, following the guidance for [Tracking customer success plan creation and review](#tracking-customer-success-plan-creation-and-review) below.
+
+### Tracking Customer Success Plan creation and review
+
+To drive visibility, accountability, and collaboration, CSPs and the associated customer review need to be recorded on the associated opportunity in salesforce. Please use the following fields:
+
+1. Customer Success Plan: field for the URL to the plan.  If CSM Excpetion is checked, this field will contain the justification for the exception (using this field is a temporary method while a field dedicated for CSM exception justification is implemented).
+1. CSM Exception: SA Director+ can check this if it's impossible or unreasonable for the SA to create a CSP for the customer. 
+1. Customer Accepted: Check if the CSP has been reviewed with the customer.  The customer doesn't need to formally "accept" the CSP for this to be checked.
 
 See how to [initiate a Customer Success Plan from a Technical Close Plan below](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-to-build-a-technical-close-plan-and-transition-to-a-customer-success-plan).
 
@@ -212,13 +229,6 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
 |4.|OnGoing/ Planned Initiatives w/ Status|||Update Milestones upon Cadence|X|
 |5.|Outcome/ Metric Updates|||Update Metrics/ Customer upon Cadence|X|
 |6.|PS SOWs and RunBook|||Attached|X|
-
-### Tracking Customer Success Plan creation and review
-
-To drive visibility and accountability, CSPs and the associated customer review need to be recorded on the associated opportunity in salesforce. Please use the following fields:
-
-- Customer Success Plan:  contains the link to the plan
-- Customer Accepted:  checked when the plan has been reviewed with the customer and the customer accepts it.  There are no formal actions needed to consider the plan accepted.
 
 ### The CSM and the Customer Success Plan
 

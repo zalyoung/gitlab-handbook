@@ -5,7 +5,7 @@ description: "Editing content in Contentful"
 
 ## Content Type Overview
 
-We use emojis to discern which content types are related to **Pages** (📄), **Atoms**, or small building blocks (⚛️), and **Blocks**, or bigger chunks of content that can be assembled using atoms (📦). We have a few others, but between a series of Atom and Block entries added to a single Page entry, a page on our marketing site is built. Please see [the handbook page](/handbook/marketing/digital-experience/contentful-cms/custom-pages.html) for our **Custom Page** content type to learn more about how those pages are built and when they differ from our **Pages**.
+We use emojis to discern which content types are related to **Pages** (📄), **Atoms**, or small building blocks (⚛️), and **Blocks**, or bigger chunks of content that can be assembled using atoms (📦). We have a few others, but between a series of Atom and Block entries added to a single Page entry, a page on our marketing site is built. Please see [the handbook page](/handbook/marketing/digital-experience/contentful-cms/custom-pages/) for our **Custom Page** content type to learn more about how those pages are built and when they differ from our **Pages**.
 
 ## Editing existing content in Contentful
 
@@ -181,3 +181,22 @@ Items to keep in mind when updating our All Jobs page:
    - Add the exisitng Code of Conduct header and text component to the Footnote section
    - Add the existing Next Steps - Free trial double column component to the Next Steps section
    - Choose whether this event will also appear on the /events/ landing page (yes or no radio buttons)
+
+#### Removing a page in Contentful
+
+Due to the way pages are generated, there are a few steps that need to be preformed in a certain order to unpublish a page. This should be done by a Digital Experience engineer. 
+
+1. In Contentful: Remove any text in the `description` field 
+   - Don't forget to remove all locales' descriptions, too
+   - It's ok that this is a required field - you don't need to publish your changes, just leave them in their `changed` state
+1. Turn off the webhook in Contentful
+   - Note: Since making your changes in the step above, `draft` content will break for other people, so try to do this in one go.
+1. Open an MR in buyer experience with your changes 
+   - Delete the file/references to your page
+   - *Use Preview API in your MR!*
+1. Once that build passes in your MR:
+   - With the webhook still turned off, unpublish your page in Contentful
+   - Merge your MR
+   - After the build is done, you can turn webhooks back on
+   - Archive the page in Contentful
+   - Set up a redirect in `www` if necessary

@@ -45,19 +45,20 @@ Service Accounts<br>
 <code>Staff</code> Mark Loveless
 </td>
 <td>
-Adam Huss<br>
 Clayton Shank<br>
 Erik Lentz<br>
 Jacob Waters<br>
 Justin Bisutti<br>
-Marcus Whitaker<br>
 Mohammed Al Kobaisy<br>
+Peter Hansen<br>
+Steve Ladgrove<br>
+Steve Sagan<br>
 Zack Hardie<br>
 </tr>
 <tr>
 <td><strong>Device Trust<br>Engineering</strong></td>
 <td>
-<a href="/handbook/security/corporate/systems/drivestrike">DriveStrike</a><br>
+<a href="https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/">DriveStrike</a><br>
 <a href="/handbook/security/corporate/systems/jamf">Jamf MDM</a><br>
 <a href="/handbook/security/corporate/services/phones">Mobile Devices</a><br>
 <a href="/handbook/security/corporate/systems/vpn">NordLayer VPN</a><br>
@@ -72,10 +73,11 @@ Zack Hardie<br>
 <code>Staff</code> Mark Loveless
 </td>
 <td>
-Adam Huss<br>
 Clayton Shank<br>
 Justin Bisutti<br>
 Zack Hardie<br>
+Peter Hansen<br>
+Steve Sagan<br>
 </tr>
 <tr>
 <td><strong>Identity<br>Engineering</strong></td>
@@ -96,8 +98,8 @@ Role Entitlements<br>
 <td>
 Erik Lentz<br>
 Jacob Waters<br>
-Marcus Whitaker<br>
 Mohammed Al Kobaisy<br>
+Steve Ladgrove<br>
 </tr>
 <tr>
 <td>

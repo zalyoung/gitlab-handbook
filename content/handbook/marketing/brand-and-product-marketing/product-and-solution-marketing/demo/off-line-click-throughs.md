@@ -28,7 +28,7 @@ The specific files are:
 Once off-line, to run these presentations:
 
 1. Open up your Chrome browser and make sure you are logged in as the same user you used in the previous setup
-1. Go to [http://docs.google.com/presentation](http://docs.google.com/presentation)
+1. Go to [https://docs.google.com/presentation](https://docs.google.com/presentation)
 1. Find the files you want to present (they should be in the same folder structure that you previously looked at them in)
 1. Open the presentation you want to show and it should just work.
 

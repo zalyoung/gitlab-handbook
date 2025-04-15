@@ -4,7 +4,7 @@ description: 'Processes and timelines for account renewals & risk management.'
 
 ---
 
-Managing risk & renewals is a [core responsibility of CSMs](/customer-success/csm/#high-level-responsibilities-of-a-csm), and managers at all levels are involved in this process.
+Managing risk & renewals is a [core responsibility of CSMs](/handbook/customer-success/csm/#high-level-responsibilities-of-a-csm), and managers at all levels are involved in this process.
 
 This page outlines the different actions and processes CSM management have for account risk & renewals.
 

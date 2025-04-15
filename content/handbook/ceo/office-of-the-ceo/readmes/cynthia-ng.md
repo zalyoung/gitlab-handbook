@@ -23,7 +23,7 @@ I believe I've come to really embrace the [GitLab Values](/handbook/values/),
 but it initially took me months to really internalize,
 and I'm still working on excelling in some areas.
 
-Aside from work, you'll hear me talk about alls sorts of things, but namely
+Aside from work, you'll hear me talk about all sorts of things, but namely
 books, movies, food, birds (and birding), puzzles, Lego, Canada, languages, and plushies (check out the pets page)!
 
 ### My assumptions
@@ -31,7 +31,7 @@ books, movies, food, birds (and birding), puzzles, Lego, Canada, languages, and 
 Being at GitLab, I generally assume that people are following or embody the [GitLab Values](/handbook/values/).
 In particular, the assumptions I have about others tend to be the same things people say about me:
 
-- You'll [do what you say you will](/handbook/values/#ownership).
+- You'll [do what you say you will](/handbook/values/#have-ownership--accountability).
 - You'll [share, especially by asking for help](/handbook/values/#share).
 - You're [direct](/handbook/values/#directness).
 - You'll [provide feedback if you have any](/handbook/values/#give-feedback-effectively).
@@ -62,7 +62,7 @@ Ways to connect with me:
   - GitLab (internal)
   - [Support Driven](https://supportdriven.slack.com/)
   - [Write the Docs](https://www.writethedocs.org/slack/)
-- GitLab.com: [cynthia](http://gitlab.com/cynthia)
+- GitLab.com: [@cynthia](https://gitlab.com/cynthia)
 - Personal Blog: [cynthiang.ca](https://cynthiang.ca)
 - Digital card (with links to social accounts): [About.Me](https://about.me/cynthiang)
 
@@ -84,12 +84,12 @@ Ways to connect with me:
 - Applying GitLab values, including TeamOps
 - Mentoring/coaching and being a non-manager leader
 
-## Stengths and weaknesses
+## Strengths and weaknesses
 
 - **I take ownership of my work and focus on results with a bias for action.** At best, this means I deliver, and get a lot done.
-At worst, I lose focus of the human element, seem very certain of an opinion, and/or I'm unintentially discouraging or not giving others the opportunities to contribute.
+At worst, I lose focus of the human element, seem very certain of an opinion, and/or I'm unintentionally discouraging or not giving others the opportunities to contribute.
   - **What to do at its worst**: Tell me you'd like to contribute or remind me to think of the human impact.
-  Let me know that you might disagree with my idea, as many of them are [strong opinions weakly held](/handbook/ceo/#flaws).
+  Let me know that you might disagree with my idea, as many of them may sound like strong opinions even though they are not.
   Because I don't do this consciously, I will never get mad at someone for letting me know.
 - **I'm direct.** At best, it means I'm being transparent and providing feedback.
 At worst, the feedback will read as criticizing, forgetting the "kind" part of [directness](/handbook/values/#directness).

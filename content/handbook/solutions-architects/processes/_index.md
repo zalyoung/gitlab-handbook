@@ -2,6 +2,12 @@
 title: Solutions Architects Processes
 ---
 
+## SA Opportunity Hygiene
+
+This Section of the handbood describes all the processes Solutions Architects are either responsible for or are involved in, several of which require an updates and tracking in Sales Force, GitLab's record of accounts and opportunities.
+
+To increase the SA's efficiency, a checklist of all [SA's Opportunity updates](/handbook/solutions-architects/processes/sa-opportunity-hygiene.md) has been created, to assist the SA, in keeping track their opportunity responsbiliies on a weekly basis.
+
 ## SA Process Maps
 
 The SA organization uses process mapping as a framework for structured and continuous improvement.  LucidChart is used to document SA execution workflow and details; in other words, what we do and how we do it is documented as a visual process map. This provides a single location to find reusable artifacts, enablement, and tooling.
@@ -31,42 +37,18 @@ We have a [standard meeting notes document](https://docs.google.com/document/d/1
 
 A Customer Success Plan is a customer-facing and mutually agreed roadmap for achieving value through GitLab adoption. This is an outcome of collaboration between GitLab Solution Architecture and the customer with the primary objective of ensuring customers are successful.  The process is designed to support shifting from product scoped conversations (focusing on specific features or functions and limited to a specific subset of DevSecOps stages) towards solution (addressing specific pain points) or strategic (shaping business outcomes through holistic organizational process innovation and transformation tied to top strategic initiatives ) scopes. This Success Plan starts in the [pre-sales process](/handbook/solutions-architects/sa-practices/customer-success-plan/) and is intended to carry through to the post-sales [Success Plan](/handbook/customer-success/csm/success-plans/).
 
-Note: While the Customer Success organization also has a [Customer Success Plan](/handbook/customer-success/csm/success-plans/), with the [following template](https://docs.google.com/presentation/d/1T-Y2WJ-mRqGey7b1YQMTKE3tVbBTnyY3a9HzaOpxPQ4/edit#slide=id.g27c03c31d08_1_500) for post-sales, with the intent of it being used as a customer facing document, so that updates can be made on post-sales initiatives and milestones, the Solutions Architect's [Customer Success Plan process](/handbook/solutions-architects/sa-practices/customer-success-plan/), intends to provide all the necessary context, and to capture the Customer's Voice, requirements and outcomes, in collaboration with the Customer during pre-sales, to ensure a smooth transition to Customer Success.  This is the previous [pre-sales standard template](https://docs.google.com/presentation/d/1npyhUebp68YkccLlJP5R_6gmtQjfELpB1mBGWfroVmY/edit#slide=id.g1f06a8a4d73_0_501).
-
-In order to ensure that the Customer Success Plan continues to be a living document the [Mutual Customer Success Plan](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) was jointly developed by the SA and CSM orgs. The Mutual Customer Success Plan represents a living document, capturing the entire content and outcome of a customer's journey with GitLab. It is used interchangeably with Customer Success Plan. The Mutual Customer Success Plan is intended to be dynamic and should therefore be regularly reviewed on an agreed-upon cadence.
+Note: While the Customer Success organization also has a [Customer Success Plan](/handbook/customer-success/csm/success-plans/) for post-sales, with the intent of it being used as a customer facing document, so that updates can be made on post-sales initiatives and milestones, the Solutions Architect's [Customer Success Plan process](/handbook/solutions-architects/sa-practices/customer-success-plan/), intends to provide all the necessary context, and to capture the Customer's Voice, requirements and outcomes, in collaboration with the Customer during pre-sales, to ensure a smooth transition to Customer Success. 
 
 Customer Success Planning core goal is to identify and state:
 
 - Business outcomes
 - Key business stakeholders
 - High-impact strategic requirements
-- Current state of customer technology ecosystem
-- Current and desired capabilities
+- Current state of customer technology ecosystem (integrations required)
+- Current and required capabilities
 - Operational alignment with strategic objectives
 - Perceived gaps and deficiencies in current capabilities
-
-### The Mutual Customer Success Planning process
-
-1. The Solutions Architect starts with a [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/) during customer technical discovery (Stage 3 - Technical Evaluation) to understand the customer business outcomes and will remain the DRI
-1. After the Technical Evaluation completes successfully, the Solutions Architect will utilize the [mutual customer success plan template](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) in a collaborative session with the customer to capture any necessary information not already captured in the [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/), tracking the document in the `Customer Success Plan` field on the opportunity in Salesforce
-1. After the initial Customer Success Plan is drafted, the link to the document will be updated by the Solution Architect in the `Customer Success Plan` field on the opportunity in Salesforce in a timely manner and before the opportunity closes
-1. Where applicable, the Solution Architect will engage other functions (CSM, Professional Services) towards the end of technical evaluation to ensure long-term alignment, using the `CSM Ready` field on the opportunity in Salesforce to indicate plan readiness
-1. The Solution Architect will share the results with the customer, either part of or in support of a proposal
-1. The account team should ask the customer if they are willing to sign the plan as a gesture of joint commitment to the plan
-1. The Solutions Architect should follow the meeting with an email summary, potentially using this [email template](https://gitlab.highspot.com/items/656e20d882b4b085aafe3a3c?lfrm=shp.0), ensuring the customer is aligned with the plan and acceptance is capture
-1. After reviewing and securing buy-in with the customer, capture the acceptance of the Customer Success Plan in Salesforce using the `Customer Accepted` field on the opportunity
-1. The Account Team and the customer will agree on the cadence for reviewing and updating the Success Plan during and after the sales cycle
-1. The Customer Success Plan will be reviewed with the CSM team when the account moves into Post-Sales
-
-To summarize, there are three additional fields in the Customer Success Plan section, on the Opportunity level in SFDC, that should be maintained through the process:
-
-![Customer Success Plan Opportunity Fields](Customer-Success-Plan-SFDC.png)
-
-1. Customer Success Plan: field for the URL to the plan
-1. CSM Ready: Check if the plan is/can be handed over to the CSM
-1. Customer Accepted: Check if the customer accepted the plan
-
-Please read the [Customer Success Plan page](/handbook/solutions-architects/sa-practices/customer-success-plan/) for more details on the Mutual Customer Success Plan process.
+- Plan for implementing required capabilities and how GitLab can help
 
 ## Positioning Professional Services
 
@@ -84,18 +66,18 @@ Simplified process description:
 - If it a standard (non-customized) service from our [full catalog](https://about.gitlab.com/services/catalog/).
   - SAE / AE to order PS directly from Zuora in SFDC.
 - If standard services do not meet the needs of the customer
-  - Use the [Services Calculator](http://services-calculator.gitlab.io/) to generate an issue and a draft quote.
+  - Use the [Services Calculator](https://services-calculator.gitlab.io/) to generate an issue and a draft quote.
   - Iterate on that issue with PS and SAE / AE.
 
 ## Customer Security Assurance
 
-Follow the process detailed in the [GitLab's Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+Follow the process detailed in the [GitLab's Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
 handbook page.
 
 **Optional** Considerations when engaging the Customer Assurance team:
 
 - You can start with [Security - GitLab Trust Center](https://about.gitlab.com/security/) in some cases.
-- Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+- Encourage customers to use and review [Self-service Information Gathering](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 - SAs can attempt a first-pass for all security questionnaires if time permits
   - Do it, it's fun and educational!
   - You can also make use of the [GitLab's Trust Center](https://trust.gitlab.com/)
@@ -207,12 +189,12 @@ Solution Architects should participate in [technical discovery](#technical-disco
 
 - GitLab demos
 - GitLab technical deep dives
-- [GitLab hands-on workshops & Labs](/handbook/solutions-architects/demo-architect/#labshands-on-content)
+- [GitLab hands-on workshops & Labs](/handbook/solutions-architects/center-of-excellence/demo-architecture/#labshands-on-content)
 - Whiteboarding sessions
 - Prospect Q&A sessions
 - RFI/RFP completion
 - PoV planning, documentation and execution strategy
-- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
+- [Security Audits](/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
@@ -221,7 +203,7 @@ SA's may also work in tandem with a CSM to support existing customers, especiall
 
 - On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.
 
-Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
+Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers-or-architects)
 
 #### Technical Discovery and Demo Preparation
 
@@ -311,7 +293,7 @@ The Ecosystem SA (ESA) team is global. The Ecosystem SA's are aligned variously 
 
 Most Opportunity based enagement should start with the ESM and they should identify the appropriate Ecosystem SA to engage.  The ESM for every account is listed in the SFDC customer account record.  The ESA for a partner account is listed in the SFDC partner account record.  If no ESA is listed reach out to the Ecosystem Sales Manager for assistance.
 
-See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem#Engaging-an-Ecosystem-SolutionsArchitect) handbook page.
+See the details of how to engage an Ecosystem SA in the [Ecosystem Solutions Architect Engagement Model](/handbook/solutions-architects/processes/ecosystem/#engaging-an-ecosystem-solutions-architect) handbook page.
 
 ### Subject Matter Expert Engagement Model
 
@@ -325,19 +307,19 @@ A given opportunity may be found to be too complex, valuable, or risky for a sin
 
 #### Ad Hoc Support
 
-As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops. 
+As part of GitLab's CREDIT values, SAs are encouraged to collaborate with one-another on customer activities to deliver better results. As such, SAs often reach out on their own seeking assistance. Examples include asking questions in Slack channels or Stackoverflow, scheduling brainstorming or enablement meetings, and supporting each other's demonstrations or workshops.
 
 #### Long-Term
 
-To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity. 
+To better support the business and create an opportunity for SAs to collaborate and learn from one another, SA Leaders may assign a secondary SA to pair long-term on an opportunity.
 
-When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another. 
+When only ad hoc support is needed without a long-term secondary SA, SAs should continue relying on and collaborating with one another.
 
 #### Tracking Secondary SA Engagement on Opportunities
 
 Ad hoc and long-term secondary SAs should log activities as if they were the primary SA supporting the account, capturing their impression of the customer interaction. The `Primary Solutions Architect` field in Salesforce would be used to designate the primary SA, and any other SAs involved in the opportunity would be derived from the logged activities.
 
-If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity. 
+If a secondary SA is also involved as a Subject Matter Expert, the `SA Assistance - Subject Matter` SA Activity Type should be used when logging the activity.
 
 ### Issue Creation Details
 

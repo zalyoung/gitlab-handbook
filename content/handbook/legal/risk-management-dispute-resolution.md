@@ -28,6 +28,11 @@ If in doubt, please involve RMDR earlier rather than later – we would always r
 
 ## Privilege
 
+<!-- markdownlint-disable MD044 -->
+{{% alert color="warning" %}}
+See the [Legal & Corporate Affairs internal handbook](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/) for links to a **video** and **presentation** with additional information about privileged communication.
+{{% /alert %}}
+
 Privileged communication is communication, written or oral, that is protected from later disclosure in litigation because it was conveyed to the attorney in confidence by a client **for the purpose of *seeking* legal advice** or by an attorney **for the purpose of *giving* legal advice**. Privilege can also be asserted over certain confidential documents created by attorneys for the same purpose.
 
 The terminology differs depending on the jurisdiction. For example, in the United States, the privilege is generally referred to as "attorney-client privilege" for communications made to or from an attorney for the purpose of providing legal advice or "attorney work product" for communication or documentations created in relation to actual or anticipated litigation. In many of our EMEA and APAC countries, it may be called "client legal privilege," "legal professional privilege," "legal advice privilege," or "litigation privilege." Additionally, the scope of the privilege differs by country. It is therefore likely that the status of a privileged communication that contains legal advice in respect of foreign law will be determined by reference to the law of the country in which any action is taken.  If you have jurisdiction-specific questions about privilege, please contact a LACA team member who sits in that jurisdiction.

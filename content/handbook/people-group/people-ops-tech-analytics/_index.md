@@ -21,7 +21,6 @@ Here are how the team members divide their work to ensure the best results:
 ### Connect With Us
 
 <a href="https://helplab.gitlab.systems/esc?id=ec_pro_dashboard" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> HelpLab</a>
-<a href="https://gitlab.com/people/general/-/issues" class="btn btn-primary btn-lg"><i class="fa-brands fa-gitlab"></i> Issue tracker</a>
 
 ## How We Work
 
@@ -31,7 +30,7 @@ People Operations is a Department under the [People](/handbook/people-group) Div
 
 ### HelpLab
 
-The People Operations Department primarily uses HelpLab as the primary tool for all GitLab's People Operations-related queries. This is where folks from other teams can ask for help, direction, and receive answers or direction to the correct team from the People Connect team. 
+The People Operations Department primarily uses HelpLab as the primary tool for all GitLab's People Operations-related queries. This is where folks from other teams can ask for help, direction, and receive answers or direction to the correct team from the People Connect team.
 
 You can also tag subsets of the People Operations Team in other slack channels using:
 
@@ -66,4 +65,4 @@ You can tag the People Operations in GitLab using:
 - [People Connect team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
 - [People Engineering Handbook](/handbook/people-group/engineering)
 - [People Compliance](/handbook/people-group/people-compliance)
-- [People Analytics Team]({{< ref "people-analytics" >}})
+- [People Analytics Team](/handbook/people-group/people-ops-tech-analytics/people-analytics/)

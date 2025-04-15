@@ -30,7 +30,7 @@ helps to understand the conception of the software, and also bring some interest
 consequences (which can be drawbacks).
 
 At GitLab, we already have everything to document decisions: git and Merge Requests are a perfect
-way to document and keep track of decisions. We actually already [use this flow]({{< ref "handbook-usage#flow-structure" >}})
+way to document and keep track of decisions. We actually already [use this flow](/handbook/about/handbook-usage/#flow-structure)
 since the creation of this handbook. So instead of
 storing these discussions in a Markdown file, a Merge Request is enough to detail a change, discuss
 it, and keep track of the evolution of the architecture. This way, your architecture doc remains the
@@ -103,7 +103,7 @@ constraints:
 GitLab offers out of the box some nice integrations in Markdown files, like
 [Mermaid](https://docs.gitlab.com/ee/user/markdown.html#mermaid) or
 [PlantUML](https://docs.gitlab.com/ee/user/markdown.html#plantuml). These are great for sequence or
-activity diagram, but don't work well for other views. [Diagrams](https://diagrams.net) is an
+activity diagram, but don't work well for other views. [Diagrams](https://www.drawio.com/) is an
 open source tool to create drag and drop diagrams, and is the recommended tool for this activity as
 of today.
 
@@ -208,5 +208,5 @@ The content of this page is based on the following books and articles:
    Erder & Pureur - (ISBN-13: 978-0136523567)
 1. [Continuous Architecture in Practice](https://continuousarchitecture.com/) -
    Erder, Pureur, & Woods - (ISBN-13: 978-0136523567)
-1. [Architecture Tradeoff Analysis Method](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2000_005_001_13706.pdf) -
+1. [Architecture Tradeoff Analysis Method](https://insights.sei.cmu.edu/documents/629/2000_005_001_13706.pdf) -
    Kazman, Klein, & Clements - (CMU/SEI-2000-TR-004)

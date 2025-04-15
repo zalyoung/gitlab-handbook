@@ -271,7 +271,7 @@ Our demo conversion rate in December 2020 was 8.3% (600/7,226).
 
 ### Marketing Metrics Dashboard
 
-The [Marketing Metrics Dashboard](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics) is the centralized hub of all major marketing metrics and [marketing KPIs](/handbook/marketing/revenue-marketing/#revenue-marketing-kpi-definitions). It is an evergreen source of information brought in from Salesforce that is comprised of numerous individual graphs/charts and allows the viewer to quickly filter results using pre-defined filters on the dashboard itself.
+The [Marketing Metrics Dashboard](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics) is the centralized hub of all major marketing metrics and [marketing KPIs](/handbook/marketing/performance-indicators/). It is an evergreen source of information brought in from Salesforce that is comprised of numerous individual graphs/charts and allows the viewer to quickly filter results using pre-defined filters on the dashboard itself.
 
 ### Marketing Attribution
 
@@ -517,7 +517,7 @@ Please note that whilst you can track leads via SFDC campaigns or UTM reports, p
 
 ## Channel Marketing Reporting
 
-We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/Channel-Program-Guide/MDF/).
+We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/channel-program-guide/mdf/).
 
 | Report Name                                    | Platform   | Description                                                                                                                                                                                                                                  | Link                                                                                                                                  |
 | ---------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |

@@ -180,7 +180,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 
 Landing Zones
 
-- [CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/CI/)
+- [CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/ci/)
 
  Customer Metrics
 
@@ -199,7 +199,7 @@ Landing Zones
 
 - [Transitioning a Customer from Pre-Sales to Post-Sales](/handbook/customer-success/pre-sales-post-sales-transition/)
 - [Account Engagement and Prioritization](/handbook/customer-success/csm/engagement/)
-  - [Non-Engaged Customer Strategies](/handbook/customer-success/csm/engagement/Non-engaged-customer-strategies/)
+  - [Non-Engaged Customer Strategies](/handbook/customer-success/csm/engagement/non-engaged-customer-strategies/)
 - [Account Onboarding](/handbook/customer-success/csm/onboarding/)
 - [Success Plans](/handbook/customer-success/csm/success-plans/)
 - [Cadence Calls](/handbook/customer-success/csm/cadence-calls/)
@@ -213,7 +213,7 @@ Landing Zones
 #### Digital Customer Programs
 
 - [Digital Customer Programs Handbook Page](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
-  - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/index.html#csm-assigned-account-programs)
+  - [Available Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/)
 
 ### CSM Managers
 

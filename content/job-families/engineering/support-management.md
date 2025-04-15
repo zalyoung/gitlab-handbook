@@ -106,7 +106,7 @@ A Senior Manager, Support Engineering will:
 - Represent GitLab Support in client meetings, networking events and other official functions
 - Partner with management on budget requirements and executing to established budgets
 
-See also our [Support Manager Responsibilities page](/handbook/support/managers/manager-responsibilities.html).
+See also our [Support Manager Responsibilities page](/handbook/support/managers/manager-responsibilities/).
 
 #### Requirements
 
@@ -164,7 +164,7 @@ The VP of Support role extends the Director of Support Role through:
 
 Support Management have the following job-family performance indicators.
 
-- [Customer satisfaction with Support](/handbook/support/#support-satisfaction-ssat)
+- [Customer satisfaction with Support](/handbook/support/performance-indicators/#support-satisfaction-ssat)
 - [Manage team within approved operating expenses](/handbook/support/#customer-support-operating-expenses)
 - [Service Level Agreement](/handbook/support/#service-level-agreement-sla)
 - [Maintain hiring plan and capacity to achieve IC:Manager ratio](/handbook/support/#individual-contributor-to-manager-ratio)

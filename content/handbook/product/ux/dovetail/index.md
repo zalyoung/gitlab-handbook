@@ -74,7 +74,7 @@ This [video](https://www.youtube.com/watch?v=Cmh4yNu8fxE) contains a walkthrough
 
 Just like manually created tags, global tags can be used by highlighting the text you want to tag, and clicking on the global tag you have enabled. This is shown in the image below:
 
-![Dovetail Note](dovetail-note-tag-example.png)
+![Dovetail Note](/images/product/ux/dovetail/dovetail-note-tag-example.png)
 
 Tags are organized into categories, so you may want to familiarize yourself with the organization of tags and their categories.
 
@@ -101,7 +101,7 @@ GitLab Global Tags are organized into six categories:
 | User Emotion  | These tags are related to the user's attitude towards the UI, like in a [usability test](/handbook/product/ux/ux-research/usability-testing/) or walkthrough. | A user could feel `overwhelmed` when being presented with a UI. |
 | Workflow      | Can be used to track the user's actions in their workflow specifically.<br><br>Also a subset of tags with generic task numbers (1-10), which can be used for [usability tests](/handbook/product/ux/ux-research/usability-testing/) or [UX Scorecards](/handbook/product/ux/ux-scorecards/#option-b-perform-a-formative-evaluation).| You could use the `unsuccessful end task` tag if a user finished a series of tasks, but missed a key deliverable.<br><br>Or, you may want to keep track of when a user finished `task 1` and `task 2`.|
 | Personas      | Each tag relates to one of our [user personas](/handbook/product/personas/#list-of-user-personas), or characteristics of those personas.<br><br>Use these tags when looking for jobs or features that correspond to certain personas.| When a user configures a static scanner, they could be `Amy, Application Security Engineer`.<br><br>Or, if you are performing [foundational research](/handbook/product/ux/ux-research/foundational-research/) on the users' organization, you could use `enterprise` or `start-up` tags. |
-| JTBD          | Most of the tags relate to the various stages in [mapping jobs](/handbook/product/ux/jobs-to-be-done/mapping-jobs-to-be-done/#how-to-create-a-job-map).<br><br>Can be used when performing foundational jobs research such as [contextual inquiries](/handbook/product/ux/ux-research/problem-validation-and-methods). | When conducting a contextual, a user may talk about monitoring their pipeline, which could be tagged with `Step in Job - monitor`.|
+| JTBD          | Most of the tags relate to the various stages in [mapping jobs](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/).<br><br>Can be used when performing foundational jobs research such as [contextual inquiries](/handbook/product/ux/ux-research/problem-validation-and-methods). | When conducting a contextual, a user may talk about monitoring their pipeline, which could be tagged with `Step in Job - monitor`.|
 
 #### Global tag definitions
 
@@ -308,13 +308,13 @@ This video demonstrates how to take structured notes in Dovetail similarly to a 
 
 In order to protect PII (Personally Identifiable Information), ensure that your project settings for insights are [disabled for public access](https://dovetailapp.com/help/share-insights-with-public-access/). To do this you navigate to your project and click `Insights`. From there, ensure your share settings look like this:
 
-![Dovetail Window](sharesettings.png)
+![Dovetail Window](/images/product/ux/dovetail/sharesettings.png)
 
 ### Frequently Asked Questions
 
 #### I'm a Product Manager. Can I use Dovetail to keep track of the calls I have with customers?
 
-Yes! When creating a new project, please select the `Customer calls` template. In the ReadMe file, update the name of your project from `Customer calls` to something more recognisable. Continue to follow the steps outlined under the UX Research team's guide to documenting insights in Dovetail starting with [Importing raw data into Dovetail](/handbook/product/ux/dovetail/index.html#importing-raw-data-into-dovetail).
+Yes! When creating a new project, please select the `Customer calls` template. In the ReadMe file, update the name of your project from `Customer calls` to something more recognisable. Continue to follow the steps outlined under the UX Research team's guide to documenting insights in Dovetail starting with [Importing raw data into Dovetail](/handbook/product/ux/dovetail/#importing-raw-data-into-dovetail).
 
 Note: If you're only speaking to one customer and haven't heard evidence from other customers that they are experiencing the same problem or want the same feature improvement, it's highly likely that your finding should remain as a `highlight` rather than be converted into an `insight`. Feel free to reach out to your UX Researcher if you're not sure.
 

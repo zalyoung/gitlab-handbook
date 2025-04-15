@@ -64,54 +64,60 @@ A GCP environment has been set up under [The Static Analysis GCP Project: dev-sa
 Note: The following steps are written from the perspective of setting up
 another 2k reference architecture. If you need to set up something like
 a 25k reference architecture, you may need to change things that are not
-covered in this guide. Alternate reference architectures can be [found here](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality/-/tree/main/configs/reference_architectures?ref_type=heads).
+covered in this guide. Alternate reference architectures can be [found here](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/get-environments/ra-test-environments/-/tree/main/configs/reference_architectures?ref_type=heads).
 
 One time steps:
 
 * Clone the [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and `cd` into it
-* Copy bootstrap.sh from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) to the root and update it as necessary
+* Copy `bootstrap.sh` from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) to the root and update it as necessary
 * You may need to make it executable: `chmod +x bootstrap.sh`
 
 Note, `bootstrap.sh` has steps that only need to be ran once, as well as
-steps that need to be ran for setting up a new $GCP_ENV_PREFIX, and they
+steps that need to be ran for setting up a new `$GCP_ENV_PREFIX`, and they
 still need to be separated.
 
-Steps to add a new $GCP_ENV_PREFIX:
+Steps to add a new `$GCP_ENV_PREFIX`:
 
 * Use [Provisioning the environment with Terraform](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_provision.md) as guide for setting up Terraform, ignoring the AWS steps as we are using GCP
 * Make sure you are within your cloned [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
-* Update the variables in bootstrap.sh as necessary
+* Update the variables in `bootstrap.sh` as necessary
 * Run `./bootstrap.sh`
 * Note the ip address at the end
-* Run `mkdir -p terraform/environments/$GCP_ENV_PREFIX/files/gitlab_configs``
-* Copy over environment.tf, main.tf, and variables.tf from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) into the corresponding directory
+* Note the username created when the ssh key is added to the service account (will be used later)
+* Run `mkdir -p terraform/environments/$GCP_ENV_PREFIX`
+* Copy over `environment.tf`, `main.tf`, and `variables.tf` from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) into the corresponding directory
 * Update those *.tf files as necessary
-* From that MR, copy `environments/gcp-2k/files/gitlab_configs/gitlab_rails.rb.j2` to `environments/$GCP_ENV_PREFIX/files/gitlab_configs`
-* Cd to /terraform/environments/$GCP_ENV_PREFIX
+  * Add the ip address you obtained earlier in `variables.tf` under `external_ip`
+  * Add a [proper service account prefix](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_provision.md#service-account-prefix-gcp) in `environment.tf`
+  * Update prefix in `main.tf` to match the value of `$GCP_ENV_PREFIX`
+* Cd to `/terraform/environments/$GCP_ENV_PREFIX`
 * Run `terraform init`
 * Run `terraform apply`
-* Small celebration
+* Small celebration :tada:
 * Use [Configuring the environment with Ansible](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md) as guide for setting up Ansible, ignoring the AWS steps as we are using GCP
 * Cd to the root directory of the [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
+* Run `mkdir -p ansible/environments/$GCP_ENV_PREFIX/files/gitlab_configs`
 * Run `mkdir -p ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
 * Run `mkdir -p ansible/environments/$GCP_ENV_PREFIX/inventory`
-* Copy over vars.yml, and gcp_2k.gcp.yml from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) into that `/inventory` directory
-* Rename gcp_2k.gcp.yml and update both *.yml files as necessary
+* From [the MR we referenced earlier](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4), copy `environments/gcp-2k/files/gitlab_configs/gitlab_rails.rb.j2` to `ansible/environments/$GCP_ENV_PREFIX/files/gitlab_configs` – this is necessary for the license to be added correctly when the configuration is applied
+* Copy over `vars.yml`, and `gcp_2k.gcp.yml` from [the MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) into that `/inventory` directory
+* Rename `gcp_2k.gcp.yml` to match `$GCP_ENV_PREFIX` (but use underscores) and update both `*.yml` files as necessary
 * Copy over `monitor.yml` to `ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
+* If you would like to setup monitoring, you may need to copy other files and folders as well:
+  * Copy over `dashboards.yml` to `ansible/environments`
+  * Copy over `datasources.yml` to `ansible/environments`
+  * Copy over `linux-package` folder to `ansible/environments`
 * Nothing needs to change in `monitor.yml`, but be sure `grafana_password` is set in `vars.yml`
-* Acquire a new Ultimate license [following this process](/handbook/support/readiness/operations/docs/policies/team_member_licenses/)
-* Upload that license file to `/environments/$GCP_ENV_PREFIX/files`
+* Add the username obtained earlier (when running `.bootstrap.sh`) to the `vars.yml` file as `ansible_user`
+* Make sure to [configure other variables](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#environment-config-varsyml) like passwords/secrets when necessary (depends on the reference architecture but at least the `gitlab_root_password`, `postgres_password`, `gitaly_token` and `redis_password` will be required)
+* You will likely also have to update the `prefix`, `external_url` and uncomment a few lines like `gitlab_license_file`
+* Consult the [documentation](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#environment-config-varsyml) and other reference architecture files (e.g. [the one for 25k ref architecture](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/get-environments/ra-test-environments/-/blob/main/configs/reference_architectures/25k/ansible/inventory/vars.yml?ref_type=heads)) for other variables you may need to update
+* Acquire a new Ultimate license [using the Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+* Add the license file (without renaming it) to `/ansible/environments/$GCP_ENV_PREFIX/files`
 * From the root directory, follow the steps in [Installing Ansible with a Virtual Environment](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#installing-ansible-with-a-virtual-environment)
 * Cd to the `ansible` directory
 * Run `ansible-playbook -i environments/$GCP_ENV_PREFIX/inventory playbooks/all.yml`
 * After logging in to the instance, if the Ultimate license doesn't apply, you may have to manually upload the license
-* Make the instance a "Dedicated instance" by logging in to the rails console and running:
-
-```ruby
-a = ApplicationSetting.first
-a.gitlab_dedicated_instance = true
-a.save!
-```
 
 #### Setting up an existing environment ($GCP_ENV_PREFIX)
 
@@ -119,8 +125,8 @@ a.save!
 * Run `mkdir terraform/environments/$GCP_ENV_PREFIX`
 * Run `mkdir -p ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
 * Navigate to https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs (pending merge of [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4))
-* Copy the `configs/$GCP_ENV_PREFIX/terraform/*.tf` files into the `terraform/environments/$GCP_ENV_PREFIX` diretory
-* Copy the `configs/$GCP_ENV_PREFIX/ansible/*.yml` files into the `ansible/environments/$GCP_ENV_PREFIX` diretory
+* Copy the `configs/$GCP_ENV_PREFIX/terraform/*.tf` files into the `terraform/environments/$GCP_ENV_PREFIX` directory
+* Copy the `configs/$GCP_ENV_PREFIX/ansible/*.yml` files into the `ansible/environments/$GCP_ENV_PREFIX` directory
 * From the root directory, follow the steps in [Installing Ansible with a Virtual Environment](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#installing-ansible-with-a-virtual-environment)
 * Cd to the `ansible` directory
 * Run `ansible-playbook -i environments/$GCP_ENV_PREFIX/inventory playbooks/all.yml`
@@ -139,7 +145,7 @@ docker run -it \
   -v $PWD:/results \
   -v $PWD:/config \
   gitlab/gpt-data-generator \
-  --environment gcp-2k.json --environment-url=http://34.83.26.81 \
+  --environment gcp-2k.json --environment-url=https://34.83.26.81 \
   --subgroups 10 --projects 10 --no-vertical
 ```
 

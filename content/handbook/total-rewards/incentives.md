@@ -22,7 +22,7 @@ The following incentives are available for GitLab team members. Also see our sep
 1. As with other bonuses, only active GitLab team members can be nominated and can nominate other GitLab team members to receive discretionary bonuses.
    Should a nominated team member leave GitLab, they will not receive a discretionary bonus.
    It's at the discretion of the manager if they still want to publicly recognize the team member's behavior for the nomination.
-1. Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing [underperformance remediation]({{< ref "underperformance" >}})). If a team member receives a discretionary bonus nomination during a period of underperformance remediation, managers should wait until the underperformance remediation period concludes successfully before determining whether to admit the discretionary bonus request.
+1. Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing [underperformance remediation](/handbook/leadership/underperformance/)). If a team member receives a discretionary bonus nomination during a period of underperformance remediation, managers should wait until the underperformance remediation period concludes successfully before determining whether to admit the discretionary bonus request.
 1. Any bonus that sits idle for 90 days will be automatically canceled. At GitLab, only 90 days of Slack is retained and therefore any history of this request has also been deleted for the approver.
 
 ### Valid and Invalid criteria for discretionary bonuses
@@ -104,7 +104,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. Slack will open a dialog and ask you for some details about the nomination. Use the motivation text field, to write a few sentences describing how the GitLab team member has demonstrated a specific GitLab value in their work.  Please make sure you have viewed the valid and invalid criteria listed above. Don't forget that the nomination request should tie to our values and be detailed enough to ensure that the nomination meets the criteria. You can select the values it applies to.
 1. If applicable, please be sure to include any relevant issues or merge requests that support the nomination.
 1. Once submitted, the bot will send this over to the manager to kick-off the approval flow.
-1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?), this [FAQ guide](/handbook/people-group/engineering/nominatorbot/#frequenty-asked-questions) could help clarify, alternatively they can reach out to [people connect](/handbook/people-group/people-connect/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?), this [FAQ guide](/handbook/people-group/engineering/nominatorbot/#frequenty-asked-questions) could help clarify, alternatively they can reach out to [people connect](/handbook/people-group/people-connect/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 1. If the manager or second level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. Once everyone has approved the bot will report back to you with the good news. If it's rejected we ask the person who rejects, to reach out to you. That is not done by the bot.
 
@@ -113,6 +113,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. The Nominator bot will send you a Slack DM asking to approve or reject the nomination.
 1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Connect team).
 1. When you decide to reject, click the reject button. The nomination will be updated as `rejected_by_manager`. The bot will ask you to reach out to the nominator as to make sure they understand why the nomination was not approved.
+1. If the next level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#thanks](https://gitlab.slack.com/archives/C038E3Q6L) Slack channel, and make sure the team member's direct peers can easily see it:
      - For example, cross-post to the team member's group channel
      - For Support, add it to the [Support Week in Review](/handbook/support/#support-week-in-review) as a "Team Member Update" item
@@ -135,7 +136,7 @@ graph TD;
 
 ### Working Group Bonus
 
-1. Sometimes a [working group]({{< ref "structure#working-groups" >}}) strongly displays GitLab Values over a period, project or situation. For this case, use the  Working Group Bonus.
+1. Sometimes a [working group](/handbook/company/structure/#working-groups) strongly displays GitLab Values over a period, project or situation. For this case, use the  Working Group Bonus.
 1. As with individuals, we recognize those who make up that group through the `#thanks` channel and sometimes through a Working Group Bonus.
 1. Anybody can [recommend a Working Group Bonus](#process-for-recommending-working-group-bonus-in-workday) through the managers of the individuals involved for $100 per person at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates).
 
@@ -287,6 +288,12 @@ All team members can make nominations for both The DZ Award and Values Awards. W
 - The nominations are finalized and E-group will discuss the nominees from each group and select the award winners.
 - The award winners will be announced.
 
+## CTO DevSecOps Innovation Award
+
+The DevSecOps Innovation Award is a recognition program for GitLab team members who are leveraging our platform and its features to improve the productivity and effectiveness of how they approach their day-to-day work. **Dogfooding** our product is critical to learning how to improve the product, not just for ourselves but also for our customers. By understanding our internal use of the product, we can enhance both our productivity and our ability to market and promote the platform to others.
+
+More details about this award can be seen on the [internal handbook page](https://internal.gitlab.com/handbook/engineering/cto-programs/cto-devsecops-innovation-award/).
+
 ## Referral Bonuses
 
 Chances are that if you work at GitLab, you have great friends and peers who would be fantastic additions to our [Team](/handbook/company/team/) and who may be interested in joining our team. To help us grow with exceptional people, we have a [Referral Bonus](/handbook/hiring/referral-process/) that work as follows:
@@ -371,7 +378,7 @@ We canceled Contribute FY23-Q3 due to the COVID risk to team members in having a
 
 ### The Original Visiting Grant Program (suspended)
 
-Please note in FY21-Q1, GitLab suspended the Original Visiting Grant program until further notice. GitLab is an [all-remote company](/handbook/company/culture/all-remote/) with GitLab team-members all over the world. If you want to visit other team members to get to know them, GitLab will assist with travel expenses (flights, trains, and ground transportation to and from the airport) for a total of up to $150 for every team member that you visit and work with. Please note lodging is excluded. To be clearer, if you meet 2 [GitLab team members]({{< ref "top-misused-terms" >}}) during your visit, the maximum limit of your visiting grant could be $150x2. You don't need to work on the same project or team, either, so long as you discuss work for at least part of the time you're meeting. Before booking any travel using the travel grant budget please discuss your proposed travel with your manager. We encourage team members to utilize the travel grant, however in some cases - for example, a team member has performance issues related to their role - the visiting grant would not be applicable.
+Please note in FY21-Q1, GitLab suspended the Original Visiting Grant program until further notice. GitLab is an [all-remote company](/handbook/company/culture/all-remote/) with GitLab team-members all over the world. If you want to visit other team members to get to know them, GitLab will assist with travel expenses (flights, trains, and ground transportation to and from the airport) for a total of up to $150 for every team member that you visit and work with. Please note lodging is excluded. To be clearer, if you meet 2 [GitLab team members](/handbook/communication/top-misused-terms/) during your visit, the maximum limit of your visiting grant could be $150x2. You don't need to work on the same project or team, either, so long as you discuss work for at least part of the time you're meeting. Before booking any travel using the travel grant budget please discuss your proposed travel with your manager. We encourage team members to utilize the travel grant, however in some cases - for example, a team member has performance issues related to their role - the visiting grant would not be applicable.
 
 Note that meals and local travel while visiting are not typically covered for anyone as that wouldn't really be fair to those being visited. It may be acceptable to cover a meal, however, if the meeting is pre-announced to other people in the region to encourage as many of them to attend as possible and there are four or more GitLab team-members attending.
 
@@ -383,7 +390,7 @@ To claim the grant, include a line item on your expense report or invoice along 
 
 As we continue to prioritize the health and safety of our team members, GitLab is temporarily suspending the Significant Life Event Grant program until further notice.  We continue to monitor the situation and will update this information and the [travel policy](/handbook/finance/expenses/) accordingly.
 
-Recognizing that [GitLab Team Members]({{< ref "top-misused-terms" >}}) may wish to share significant events in each other's lives, such as weddings or civil partnerships, GitLab will assist with travel expenses to attend these events. This grant works the same way as the [Visiting Grant](#visiting-grant), except the reimbursement limit is $300 per team member you visit at an event.
+Recognizing that [GitLab Team Members](/handbook/communication/top-misused-terms/) may wish to share significant events in each other's lives, such as weddings or civil partnerships, GitLab will assist with travel expenses to attend these events. This grant works the same way as the [Visiting Grant](#visiting-grant), except the reimbursement limit is $300 per team member you visit at an event.
 
 ## GitLab Ultimate
 
@@ -391,3 +398,5 @@ Every GitLab team member can request the [Ultimate](https://about.gitlab.com/pri
 In case a team member has separate private and work accounts on GitLab.com, they can request it for both. This incentive **does not** apply to groups owned by GitLab team members (Group-level Ultimate features such as epics will not be available for Ultimate GitLab team-member personal accounts, for instance).
 
 In order to request this benefit please [submit this form](https://docs.google.com/forms/d/e/1FAIpQLSddexI8VZTCiyxme1_7QtbQZ6WoIJRlHdaI2Gi6PD8Eti-DLQ/viewform). Your account(s) will be upgraded to the Ultimate tier within 2 hours of submission. If you have questions about this process or don't see this upgrade after 2 hours please reach out in the [#it_help GitLab slack channel](https://gitlab.slack.com/archives/CK4EQH50E).
+
+The ownership of intellectual property (IP) created during your time as a GitLab team member is governed by your employment agreement. Choosing to develop and host this IP on a personal GitLab account that benefits from this incentive does not determine whether the IP is subject to your employment agreement's invention assignment provisions.

@@ -5,15 +5,15 @@ description: "Mentorship opportunities for women at GitLab sponspored by a partn
 
 The GitLab Mentorship program hosted by the Women TMRG is a 5-month career development opportunity for participants to build trust across the organization, enable pathways for internal growth and development, and increase collaboration across teams. The program is hosted in collaboration with the Women's TMRG, GitLab Learning and Development team, and the GitLab DIB team.
 
-Our current program began in July and will end in November 2023. The program includes 137 team members, made up of 73 mentees and 64 mentors.
-
 Questions, comments, and feedback can be posted in the [#women-at-gitlab-mentorship](https://app.slack.com/client/T02592416/C0219QJR1K5) slack channel.
 
 <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%;"><video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted" style="position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%);width: 80px;height: 80px;margin-bottom: 10%"><source src="https://static.genial.ly/resources/loader-default.mp4" type="video/mp4" />Your browser does not support the video tag.</video><div id="645a9bb0944010001175f43d" class="genially-embed" style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div></div><script>(function (d) { var js, id = "genially-embed-js", ref = d.getElementsByTagName["script"](0); if (d.getElementById(id)) { return; } js = d.createElement("script"); js.id = id; js.async = true; js.src = "https://view.genial.ly/static/embed/embed.js"; ref.parentNode.insertBefore(js, ref); }(document));</script>
 
 ## History
 
-In 2020, the Women's TMRG partnered with the Sales Organization at GitLab to offer the [Women in Sales Mentorship Program pilot]({{< ref "women-in-sales-mentorship-pilot-program#women-in-sales-mentorship-program-pilot" >}}). This initial iteration was a huge success and inspired the scale of this iteration to include a wider audience. The program now runs on a yearly basis and has been expanded to include mentees who identify as women and non-binary team members.
+In 2020, the Women's TMRG partnered with the Sales Organization at GitLab to offer the Women in Sales Mentorship Program pilot. This initial iteration was a huge success and inspired the scale of this iteration to include a wider audience. The program now runs on a yearly basis and has been expanded to include mentees who identify as women and non-binary team members.
+
+Please see the results section for a list of sessions since launch.
 
 ## Testimonials
 
@@ -36,10 +36,10 @@ Don't take our word for it - check out what mentors and mentees at GitLab have t
 | Title | Description |
 | ----- | -------- |
 | **Start of Program Feedback Form** | A Culture Amp survey to measure results of the program. Participation is **required**. |
-| **Mentor/Mentee Training** | Completion of the self-paced [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring?u=2255073) course on LinkedIn Learning is **required** of all mentors and mentees. If you prefer to review text-based information, you can instead review [this slides](/handbook/people-group/learning-and-development/mentor#mentor-and-mentee-training), created using content from the LinkedIn course. |
+| **Mentor/Mentee Training** | Completion of the self-paced [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring) course on LinkedIn Learning is **required** of all mentors and mentees. If you prefer to review text-based information, you can instead review [this slides](/handbook/people-group/learning-and-development/mentor#mentor-and-mentee-training), created using content from the LinkedIn course. |
 | **Initial program kickoff** | A 25-minute discussion to meet other mentors and mentees in the program. Attendance is **encouraged**. |
 | **1:1 Mentor Sessions** | Mentors and mentees should meet every other week for 30-minutes for a total of 5 months (with the option to extend). Sessions are led by the mentee and should be focused on specific goals. Attendance is **required**. |
-| **Mentor/Mentee Resources** |[Async resources](/handbook/people-group/learning-and-development/mentor#mentoring-resources) are available as a training guide for all mentor/mentee pairs. These resources include suggested articles to read and discuss, strategies for goal setting, sample meeting agendas, and additional training material. Use of resources is encouraged but not required. |
+| **Mentor/Mentee Resources** |[Async resources](/handbook/people-group/learning-and-development/mentor/#resources) are available as a training guide for all mentor/mentee pairs. These resources include suggested articles to read and discuss, strategies for goal setting, sample meeting agendas, and additional training material. Use of resources is encouraged but not required. |
 | **End of Program Feedback Form** | A Culture Amp survey to measure results of the program. Participation is **required**. |
 
 ## Current Program Timeline
@@ -55,7 +55,7 @@ Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RS
 | By 2024-11-04   | Pre-Program survey sent via Culture Amp | |
 | By 2024-11-14 | Mentor/Mentee pre-program coffee chats | |
 | TBA  | Initial program Kickoff meeting |  |
-| Week of 2025-02-01 | End of program feedback due |  |
+| Week of 2025-04-01 | End of program feedback due |  |
 
 ## Being a Mentor
 
@@ -70,7 +70,7 @@ As a mentor, you benefit from:
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet with your mentee on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
 - You plan to make every effort to attend all live trainings included in the program structure
-- You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
+- You are not on a [Formal Coaching plan](/handbook/leadership/underperformance/#options-for-remediation) or PIP (Performance Improvement Plan)
 - You can complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/dib-training-certification) before the program begins
 
 Note: Anyone at GitLab, regardless of gender identity, can apply to be a mentor in the Women at GitLab mentorship program.
@@ -104,7 +104,7 @@ As a mentee, you benefit from:
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet with your mentor on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
 - You plan to make every effort to attend all live trainings included in the program structure
-- You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
+- You are not on a [Formal Coaching plan](/handbook/leadership/underperformance/#options-for-remediation) or PIP (Performance Improvement Plan)
 
 Applications will be prioritized on many points including:
 
@@ -207,8 +207,8 @@ Skill development was a key variable used to measure success of this program.
 1. 100% of mentors agree they had the time, resources, and support needed to be a great mentor, would serve as a mentor in a future program, and would suggest the program to their colleagues.
 1. 95.3% of mentees agree that their mentorship contributed to the achievement of their career and development goals at GitLab.
 1. 95.2% of mentees agree that their mentorship contributed to the achievement of their business goals in FY23 Q1 and/or FY23 Q2 at GitLab.
-1. 95.2% of mentees agree that this program strengthened my self-confidence.
-1. 100% of mentees would suggest other GitLab team members join this program as a mentee?
+1. 95.2% of mentees agree that this program strengthened their self-confidence.
+1. 100% of mentees would suggest other GitLab team members join this program as a mentee.
 
 - > I am grateful the company has invested in the Women in GitLab mentorship program. My mentor and I had both a very structured approach to our relationship, but then also took the time to get to know each other and build trust, which allowed for open and honest discussions. I would recommend other team members showing up for this program, both on the mentor and mentee side!
 - > Having someone that is not my manager to work through developmental goals has been extraordinary and I am grateful to my mentor for all the feedback and support as I went from feeling heavy with imposter syndrome to believing in myself and my knowledge level!

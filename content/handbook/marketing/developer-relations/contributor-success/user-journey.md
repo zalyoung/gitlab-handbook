@@ -150,7 +150,7 @@ flowchart TB
 
         click id2_box2 "https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/#community-office-hours"
         click id2_box3 "https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions.html"
-        click id2_box4 "https://about.gitlab.com/company/culture/all-remote/informal-communication/#coffee-chats"
+        click id2_box4 "https://handbook.gitlab.com/handbook/company/culture/all-remote/informal-communication/#coffee-chats"
         click id2_box5 "https://about.gitlab.com/community/hackathon/"
 
     end

@@ -25,10 +25,15 @@ Provide subscription access to additional CustomersDot user by creating billing 
 
 1. Verify the requestor's identity as outlined under [ownership verification](#ownership-verification).
 1. Ensure the requestor has a Customer record in [CustomersDot](https://customers.gitlab.com).
-1. Locate the CustomersDot billing account for the provided Zuora account.
-1. Navigate to the `Billing account memberships` section.
+1. Identify the CustomersDot billing account for the provided Zuora account, and
+   save the user and billing account names for use in upcoming steps.
+1. Navigate to the `Billing account memberships` section in the left navigation
+   area.
 1. Select the `+ Add new` action.
-1. Select the correct `CustomersDot` user and `CustomersDot billing account` for the new subscription management request. The CustomersDot user can be uniquely located by its `Email` and the billing_account by its `zuora_account_id`.
+1. Using the information you saved earlier, select the correct `CustomersDot`
+   user and `CustomersDot billing account` for the new subscription management
+   request. The CustomersDot user can be uniquely located by its `Email` and
+   the billing_account by its `zuora_account_id`.
 1. Click `Save`.
 1. Ensure the `Login activated` checkbox for the CustomersDot user is **checked**. If it is not, then [confirm the CustomersDot account login status](#confirm-the-customersdot-account-login-status).
 
@@ -45,8 +50,8 @@ Consider using the [Support::L&R::Change Customers Portal Contact](https://gitla
 If the requester is an existing subscription contact and has access to the Customer Portal account or email address of the previous owner, guide them to:
 
 1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the existing owner's email.
-1. [Claim the account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-profile-owner-information) by changing over the profile owner details.
-1. [Link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account) to the Customers Portal account or [change the linked account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account) for authentication.
+1. [Claim the account](https://docs.gitlab.com/subscriptions/customers_portal/#change-profile-owner-information) by changing over the profile owner details.
+1. [Link their GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#link-a-gitlabcom-account) to the Customers Portal account or [change the linked account](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account) for authentication.
 1. Once the requestor has updated the account on the Customers Portal, verify that the `Sold To:` contact in the Zuora account matches the Customers Portal account. Follow the [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot) if they do not match.
 
 #### Error "Email has already been taken" reported
@@ -76,8 +81,8 @@ If the requestor is not an existing CustomersDot user when doing an email search
 1. Edit the `Name` and `Email` of the current `Sold To:` contact's CustomersDot customer account to the new contact, check the box `Skip email confirmation` and click `Save`.
 1. Check if the CustomersDot account is linked to a GitLab.com account:
       - On the CustomersDot account, navigate to the `Show` tab and confirm there is a value under `Uid`. The `Uid` is the ID of a GitLab account which can be checked via the Users API `https://gitlab.com/api/v4/users/<Uid>`
-      - [Unlink GitLab.com Account mechanizer function]({{< ref "mechanizer#unlink-gitlabcom-account" >}}).
-1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the new email. Request the customer to [Link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account) to the CustomersDot account.
+      - On the CustomersDot account, unlink the GitLab user account by selecting the **Unlink GitLab User** tab. This should prepopulate the GitLab username and associated account to unlink.
+1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the new email. Request the customer to [Link their GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#link-a-gitlabcom-account) to the CustomersDot account.
 1. Confirm that the `Sold To:` contact in the Billing account is also updated, otherwise follow [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot).
 
 ## Other notable workflows involving CustomersDot
@@ -99,11 +104,11 @@ We need **one** of the following in order to verify eligibility for the subscrip
    - The `Bill To:` contact must provide a recent GitLab invoice.
 1. Prior subscription contract
 1. Recent GitLab invoice (last 12 months)
-   - This option is not available for customers who purchased through a reseller. If the license key is unactivated at the time of the request, see Option 5. below, if the license has already been activated, the reseller can either open a ticket with this request or the customer can CC the reseller and also confirm that they would like to authorize the reseller to participate in the ticket. The reseller can then provide the invoice as proof of identity.
+   - This option is not available for customers who purchased through a reseller. If the license key is unactivated at the time of the request, see Option 6. below, if the license has already been activated, the reseller can either open a ticket with this request or the customer can CC the reseller and also confirm that they would like to authorize the reseller to participate in the ticket. The reseller can then provide the invoice as proof of identity.
 1. Copy of last loaded license (Self-Managed only) in text format only.
    - Screenshots are not valid
    - To obtain the license code:
-     - GitLab version 14.2 and newer: Use [license usage export](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html#export-your-license-usage).
+     - GitLab version 14.2 and newer: Use [license usage export](https://docs.gitlab.com/subscriptions/self_managed/#export-your-license-usage).
      - GitLab version 14.1, run the command `sudo gitlab-rails runner 'print License.current.data'` on the GitLab instance. N.B. this command can take a few minutes to complete.
      - GitLab versions older than 14.1, use `Download license` from the `Admin area > License` page.
    - License file can be decoded in customersDot from `Licenses` -> `Validate License` (`/admin/license/validate_license`)
@@ -126,7 +131,7 @@ Support may receive an [Internal Request](/handbook/support/license-and-renewals
 
 1. (Cloud license only, proceed to step 2 for Offline/Legacy) In CustomersDot, find the subscription name on the [Cloud Activation](https://customers.gitlab.com/admin/cloud_activation) page. Ensure the activation code has not been used; if it has not been activated yet, there will be no "Self Managed Instance Activations" tab for this cloud activation.
 1. [Check the Mailgun logs](/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases/#troubleshooting-email-delivery-from-customerdot) to verify that the license email was sent but failed to reach the intended customer. If the email with the typo does not exist, the Mailgun log entry will display a failed mail delivery attempt (commonly shown as a **550 error code**).
-1. Log the error by taking a screenshot of the error message and attach it to the ticket.
+1. Log the error by attaching a Mailgun log in text form to the ticket.
 1. Validate the correct email address with the Account Manager who submitted the request in writing before correcting the typo.
 1. Update the Sold to contact email address on the Billing Account and the related Customers Portal account.
 1. Resend the license or activation code to the corrected email address.
@@ -142,7 +147,7 @@ Support may receive an [Internal Request](/handbook/support/license-and-renewals
 1. Upon completion of the changes, click the `Save` button near the bottom of the page.
 1. To confirm the changes propogated properly this can be done by verifying in Zuora that the `Sold To:` and/or the `Bill To:` contacts have been updated.
 
-If the Zuora information is not updated properly, or the `Bill To:` and the `Sold To:` records have the same account and the customer needs them to be separate people, you may hand the ticket to the Billing team using the [Zuora contact change workflow]({{< ref "billing_contact_change_payments#zuora-contact-change" >}}) to update the relevant information.
+If the Zuora information is not updated properly, or the `Bill To:` and the `Sold To:` records have the same account and the customer needs them to be separate people, you may hand the ticket to the Billing team using the [Zuora contact change workflow](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments/#zuora-contact-change) to update the relevant information.
 
 ### Remove a billing account membership
 

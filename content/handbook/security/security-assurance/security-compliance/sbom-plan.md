@@ -54,7 +54,7 @@ GitLab the Company uses the Dependency List for viewing vulnerability informatio
   - This can be done manually, for example using CycloneDX CLI, but there is no native GitLab support for this.
 - Create a company-wide SBOM Standard which includes the practices and process that must be followed such as the tools and format, how frequently we will generate SBOMs and for which software/projects, what level of depth it needs to be, how it will be used/consumed, how we will track inaccuracies or incompleteness, and how they will be distributed/shared with customers.
 - Digitally sign all SBOMs and/or assemblies within BOMs to provide integrity verification and non-repudiation.
-- Maintain readily accessible and digitally signed SBOM repositories, and have a documented mechanism to share SBOMs with customers. The mechanism may be within the [Security CAP](https://about.gitlab.com/security/cap/) or through a similar, publicly available page. Inform Product, Field Security, and Sales of how customers can request/access GitLab SBOMs.
+- Maintain readily accessible and digitally signed SBOM repositories, and have a documented mechanism to share SBOMs with customers. The mechanism may be within the [Security CAP](https://trust.gitlab.com/) or through a similar, publicly available page. Inform Product, Field Security, and Sales of how customers can request/access GitLab SBOMs.
 
 ### Intermediate Capabilities
 

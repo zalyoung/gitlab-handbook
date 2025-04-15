@@ -8,10 +8,10 @@ description: "Job families are organized by function at GitLab and we use them t
 
 ### Things to Keep in Mind
 
-1. Before you begin creating a new job family you should check the directory to see if there is an existing job family or a role close to the one you are working to create. Job families should encompass a team, a department, or perhaps a division. 
+1. Before you begin creating a new job family you should check the directory to see if there is an existing job family or a role close to the one you are working to create. Job families should encompass a team, a department, or perhaps a division.
     - Sometimes you should just add a level, a specialty or a segment and not create a new job family.
 1. We don't include location requirements for most roles (EMEA, Americas, APAC) in the job family because these can change over time and job families are constant.
-1. We don't include [expertises]({{< ref "structure#expert" >}}), since these are free form.
+1. We don't include [expertises](/handbook/company/structure/#expert), since these are free form.
 1. We don't include a specific number of years of experience unless they are directly relevant to the ability to perform in the role at the level required. If the years of experience are not directly relevant to the role, then we instead say that a person in a specified role should be able to show 'relevant, progressive experience' and then define what constitutes relevant, progressive experience in that particular context.
     - For grade 4 & 5 roles, we avoid listing any kind of prior experience requirements to encourage people with unique career or educational journeys to see themselves in a particular role.
 1. We don't allow them to read like a vacancy. The job family could be used for hiring however they are more often serving as the requirements that team members and managers alike use in conversations around career development and performance management. The verbiage you don't want to use includes phrases like "you will", or "exciting opportunity" or "we're hiring for".
@@ -34,7 +34,7 @@ Anyone can create or edit a job family, but generally it is the responsibility o
 
    - The level is common in the market based on survey data.
    - All components of the job family are populated.
-   - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
+   - A [benchmark](/handbook/total-rewards/compensation/compensation-calculator/#new-benchmark) is set to add to the Compensation Calculator.
    - A Job Title is created within Workday.
 
 1. To create more visibility for the Merge Request, send a note to the `#job-family` slack channel
@@ -267,7 +267,7 @@ Here is a brief [walkthrough](https://docs.google.com/presentation/d/1ZNsMLhk5ZB
 1. Insert the title in the format of `job-title.md` for example `marketing-campaign-manager.md`
 1. Copy the [Template for New Job Family](#templates-for-new-job-family) and insert it into the body of the file
 1. Fill in the sections of the template by replacing everything in `{curly brackets}` search `{add`
-1. Use [markdown formatting](/docs/markdown-guide)
+1. Use [markdown formatting](https://handbook.gitlab.com/docs/markdown-guide/)
 1. Delete any unnecessary sections - for example, there may be no `Levels` or `Specialties` at this time, so those sections can be deleted
 1. Update the Commit message with a description of what you are doing
 1. Update Target Branch to an abbreviation of what you did. Note: include dashes between words instead of spaces.
@@ -326,7 +326,7 @@ We have a CI job that checks job families for hard requirements:
   - every role must have `Ability to use GitLab` as a bullet point.
 - Responsibilities
 - Performance Indicators
-- [Job Grades]({{< ref "compensation-calculator#gitlab-job-grades" >}})
+- [Job Grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 - Hiring Process
 - Inclusive Language Check
 
@@ -374,4 +374,4 @@ The following results lead to failure of the pipeline:
 - Time sensitive PIs, like OKRs or weekly goals, are also not useful because they are not long term success factors.
 - Performance indicators should be specific to the role and not dependent on anyone else's performance.
 - Job Families should have three to five PIs.
-- Performance Indicators should be linked to one or more performance indicator definitions for which this job family will be the [DRI]({{< ref "directly-responsible-individuals" >}}).
+- Performance Indicators should be linked to one or more performance indicator definitions for which this job family will be the [DRI](/handbook/people-group/directly-responsible-individuals/).

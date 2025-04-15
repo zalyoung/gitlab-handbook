@@ -55,7 +55,7 @@ To choose the right ***foundational*** research method, you need to identify the
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
 | <ul><li>Understand a phenomenon</li> <li>Expand a theory</li> <li>Challenge the dominant view</li> <li>Propose a new theory</li> <li>Justify the need for a new technology</li></ul>| [Diary study](/handbook/product/ux/ux-research/diary-studies/)<br> [Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)        |
 | <ul><li>Redesign a product</li> <li>Make a technology more usable/accessible/inclusive</li> <li>Innovate</li> <li>Solve a new problem</li></ul>                            | [Diary study](/handbook/product/ux/ux-research/diary-studies/) <br>[Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)        |
-| <ul><li>Motivate change</li> <li>Empower people</li> <li>Increase visibility and scrutiny</li> <li>Apply a critical lens</li></ul>                                        | [Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)<br> [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html) |
+| <ul><li>Motivate change</li> <li>Empower people</li> <li>Increase visibility and scrutiny</li> <li>Apply a critical lens</li></ul>                                        | [Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)<br> [In-depth interview](https://digital.gov/guides/hcd/discovery-operations/interviews/) |
 
 ### Descriptive and informative research methods
 
@@ -64,14 +64,14 @@ To choose the right ***descriptive and informative*** research method, ask yours
 |                                                  What I need to understand better                                                  |            Research Method            |
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
 | <ul><li>How users perform in their natural environment</li> <li>What tools they use</li> <li>How their space is set up</li></ul> | [Contextual inquiry](https://www.nngroup.com/articles/contextual-inquiry/)        |
-| <ul><li>What users' attitudes, beliefs, desires, and experiences are</li></ul>                             | [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html)        |
+| <ul><li>What users' attitudes, beliefs, desires, and experiences are</li></ul>                             | [In-depth interview](https://digital.gov/guides/hcd/discovery-operations/interviews/)        |
 | <ul><li>How users complete tasks over an extended period of time (hours, days or weeks)</li></ul>                                         | [Diary study](/handbook/product/ux/ux-research/diary-studies/) |
 | <ul><li>How my customers might solve product problems for themselves</li></ul>                                          | [Participatory design](https://uxmag.com/articles/participatory-design-in-practice) |
 | <ul><li>What the entire experience is from the user's standpoint</li></ul>                                          | [User journey mapping](https://www.nngroup.com/articles/journey-mapping-101/) |
 
 Check out our guidance for [writing your discussion guide](/handbook/product/ux/ux-research/discussion-guide-user-interviews/) and [facilitating user sessions](/handbook/product/ux/ux-research/facilitating-user-interviews/) for In-depth interviews.
 
-You can also frame questions using the [Taxonomy of Cognitive Domain](http://www.nwlink.com/~donclark/hrd/bloom.html), which explains how certain verbs target particular thought processes. This is a great way to expand your questioning in order to help trigger specific responses from participants.
+You can also frame questions using the [Taxonomy of Cognitive Domain](https://knowledgejump.com/hrd/bloom.html), which explains how certain verbs target particular thought processes. This is a great way to expand your questioning in order to help trigger specific responses from participants.
 
 | Domain        | Critical Thinking Process            | Verbs to use                                  | Sample Questions                                                                                                                                                                                                                    |
 |---------------|--------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

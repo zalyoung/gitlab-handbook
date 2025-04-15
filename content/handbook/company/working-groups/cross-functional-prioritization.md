@@ -22,7 +22,7 @@ This working group is charged with rolling forward from the emergency "Engineeri
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1wog8bR7jg6SECefx9BGqIa07sFm_sXJPvelVAganYmc/edit#heading=h.pmtw3ocv2aty)  |
 | Issue board    | [Issue board](https://gitlab.com/groups/gitlab-com/-/boards/4199535?not[label_name][]=wg-cross-functional-prioritization-adoption&label_name[]=wg-crossfunctional-prioritization) |
 | Open merge requests for the working group | [MR list](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?label_name%5B%5D=wg-cross-functional-prioritization) |
-| OKR | [Mature cross functional prioritization model](https://app.ally.io/objectives/2228738?time_period_id=155987) |
+| OKR | Mature cross functional prioritization model |
 | Overview & Status | See [Exit criteria](#exit-criteria) below |
 
 ### Exit criteria

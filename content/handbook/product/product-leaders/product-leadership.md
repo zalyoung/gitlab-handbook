@@ -17,36 +17,13 @@ The GitLab Product team includes team members at various levels of [Product Mana
 
 ## Product Leaders
 
-All Managers and above in the Product function are considered product leaders. They can be referenced using the `@gl-product-leadership` handle. This document describes important leadership concepts specific to the product management team. See also our page on [general GitLab leadership guidance](/handbook/leadership/).
+All Directors and above in the Product function are considered Product Leaders. They can be referenced using the `@gl-product-leadership` handle. This document describes important leadership concepts specific to the product management team. See also our page on [general GitLab leadership guidance](/handbook/leadership/).
 
 ### Product Leadership Team Structure
 
-Product team members who report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) are members of the Product Leadership Team.
+Product team members that are Director+ and report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a permanent basis are members of the Product Leadership Team (PLT). Team members reporting to the [Chief Product Officer](/job-families/product/chief-product-officer/) on a temporary basis and/or that are not Director+ are PLT observers. PLT observers have the opportunity to be temporarily part of the PLT meetings and activities but may not be permanent members. PLT observers may not be included in all PLT activities.
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
-
-## Product Monthly Kick-Off Host Rotation
-
-The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is hosted by a member of [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) on a monthly rotation. See below for the schedule:
-
-| Date | Host | Planning Issue |
-| ---- | ---- | -------------- |
-| 2023-09-18 | Hillary Benson | [16.5 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12732) |
-| 2023-10-16 | Justin Farris | [16.6 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12796) |
-| 2023-11-16 | Mike Flouton | [16.7 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12859) |
-| 2023-12-18 | Hillary Benson | [16.8 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12955) |
-| 2024-01-18 | Omar Fernandez | [16.9 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13036) |
-| 2024-02-16 | Mike Flouton | [16.10 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13116) |
-| 2024-03-18 | Justin Farris | [16.11 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13212) |
-| 2024-04-18 | Hillary Benson | [17.0 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13279) |
-| 2024-05-20 | Steve Evangelista | [17.1 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13349) |
-| 2024-06-18 | Mike Flouton | [17.2 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13455) |
-| 2024-07-18 | Justin Farris | [17.3 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13519) |
-| 2024-08-19 | Hillary Benson | [17.4 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13573) |
-| 2024-09-18 | Jackie Porter | [17.5 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13636) |
-| 2024-10-17 | Steve Evangelista | To be added |
-| 2024-11-18 | Mike Flouton | To be added |
-| 2024-12-18 | Justin Farris | To be added |
 
 ## Product Key Review Leader Rotation
 
@@ -83,10 +60,8 @@ Below you'll find the ReadMe's for our Product Division leaders who manage teams
 
 - [David DeSanto's README](https://gitlab.com/david)
 - [Justin Farris's README](https://gitlab.com/justinfarris)
-- [Kevin Chu's README](https://gitlab.com/kbychu/README)
 - [Sarah Waldner's README](https://gitlab.com/sarahwaldner/README)
 - [Jackie Porter's README](https://gitlab.com/jreporter/read-me)
-- [Omar Fernandez's README](https://gitlab.com/ofernandez2)
 
 ## Product Manager/Leader Collaboration
 

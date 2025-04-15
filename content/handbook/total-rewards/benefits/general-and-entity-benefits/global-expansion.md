@@ -34,6 +34,35 @@ GitLab does not plan to offer pension benefits at this time as Austria has their
 
 There is no plan to offer life insurance at this time as team members can access the benefits via the social security system which covers illness, injury & disability.
 
+### Bike Leasing Benefit
+
+Global Expansion, through partnership with the local provider, is able to offer a bike leasing option to team members via [BikeLeasing.AT](https://bikeleasing.at/arbeitnehmer#c2991).
+
+#### Benefits of Bike Leasing
+
+- Team members can lease bikes at a lower cost than purchasing, thanks to tax advantages and bulk pricing offered by leasing companies.
+- Encourages team members to stay fit and healthy by cycling regularly, which can lead to better overall well-being and potentially reduce sick days.
+- Promotes eco-friendly commuting, helping reduce a company's carbon footprint.
+- The cost is deducted from the team member's salary, spread over a fixed period, making the bike more affordable.
+
+#### Salary Deduction
+
+The exact salary deduction depends on the terms of the lease agreement, but typically, a portion of the gross salary is deducted monthly. This could be calculated based on the bike's value over the leasing period (usually 36 months).
+
+#### Tax Efficiency
+
+Bike leasing is considered a tax-efficient measure in Austria. Since the salary deduction occurs pre-tax, it reduces the employee’s taxable income, thus lowering their income tax liability.
+
+#### Process if resignation is submitted
+
+If you resign before the end of the leasing period, you will generally have a few options:
+
+- Pay the Remaining Balance: You may be required to settle the outstanding lease payments (remaining balance) in a lump sum or through continued payments after resignation.
+- Purchase the Bike: Buy the bike at the end of the lease or upon resignation by paying a predefined residual value.
+- Transfer to a New Employer/Leasing Company: It may be possible to transfer the leasing contract to a new employer, but this depends on the policies of both the current leasing provider and the new company. So this would need to be clarified with bikeleasing.at directly.
+
+If you would like to sign up for this benefit or have any questions regarding this, please reach out to the Global Expansion team via `gx_employeeexperience@globalexpansion.com`.
+
 ### GX Leave policy
 
 ### Annual leave (statutory)
@@ -55,7 +84,7 @@ During the time of parental leave, and provided the conditions are satisfied, pa
 
 #### Applying for parental leave in Austria
 
-Please familiarize yourself with [GitLab’s Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). You will need to submit your parental leave via [Workday - Time Off](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit) at least 30 days before starting the leave. 
+Please familiarize yourself with [GitLab’s Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). You will need to submit your parental leave via [Workday - Time Off](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit) at least 30 days before starting the leave.
 
 #### Time-tracking
 
@@ -78,7 +107,7 @@ Review the [AXA Medical guide](https://drive.google.com/file/d/1PqIC6xjfthcX5PCk
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
 - The AXA plan will be administered directly through GX.
-- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform.
+- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. If dependants are added GX will need to ask team members to sign an authorisation form detailing the amount that will be deducted through Payroll.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 
@@ -92,7 +121,7 @@ There is no plan to offer life insurance at this time as team members can access
 
 ### GX Leave policy
 
-### Annual leave (statutory) 
+### Annual leave (statutory)
 
 15 days
 
@@ -137,7 +166,7 @@ Review the [AXA Medical guide](https://drive.google.com/file/d/1PqIC6xjfthcX5PCk
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
 - The AXA plan will be administered directly through GX.
-- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. 
+- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. If dependants are added GX will need to ask team members to sign an authorisation form detailing the amount that will be deducted through Payroll.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA.
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 
@@ -175,7 +204,7 @@ Team members who adopt a child are entitled to 3 months’ paid leave starting f
 
 #### Applying for parental leave in Costa Rica
 
-Please familiarize yourself with [GitLab’s Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). You will need to submit your parental leave via [Workday - Time Off](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit) at least 30 days before starting the leave. 
+Please familiarize yourself with [GitLab’s Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). You will need to submit your parental leave via [Workday - Time Off](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit) at least 30 days before starting the leave.
 
 ## Kenya
 
@@ -189,12 +218,12 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 (Health Care Allowance)
 
 - Healthcare Monthly Allowance will be paid by GX as an allowance to the team members for their own Medical Coverage.
+- The allowance will be up to 40,000 KES per month for team members and up to 70,000 KES per month for team members plus Dependents.
 - This amount will be paid on a monthly basis with the regular payroll as a reimbursement.
-- Proof of coverage must be shared or forwarded to total-rewards@gitlab.com in order to receive the correct allowance amount.
-- New Proof of coverage must be shared anytime your plan renews.
-- The allowance will be up to 300 USD per month for team members and up to 500 USD per month for team members plus Dependents. (USD amount can be converted to the local currency using the latest Currency Conversion Factor)
-- The Total Rewards team will send a confirmation email to Global Expansion to have the reimbursement processed.
-- The Total Rewards team will email the non-us payroll team of the allowance and include the amount in the current month’s payroll changes report.
+- Team Members are required to share proof of registration to the GX1 (Global Expansion) portal.
+- If a team member has a change in cost and coverage / renewal, please ensure to upload the new proof of cost and cover to the GX1 (Global Expansion) portal and send an email to `gx_employeeexperience@globalexpansion.com` cc'ing `total-rewards@gitlab.com` to advise the new proof has been uploaded so that this can be adjusted on the next available payroll.
+
+Once a year, Global Expansion may reach out to team members to complete an audit and request that team members upload proof of coverage and cost.
 
 ### Pension
 
@@ -214,7 +243,7 @@ GitLab offers company paid [International Group Life and Disability Plans throug
 
 Team members can take up to 3 months maternity leave.
 
-**Maternity leave payment** 
+**Maternity leave payment**
 
 If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), team members will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
@@ -222,7 +251,7 @@ If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#pare
 
 Team members can take up to 2 weeks of Paternity Leave.
 
-**Paternity leave payment** 
+**Paternity leave payment**
 
 If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), team members will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
@@ -243,7 +272,7 @@ Review the [AXA Benefit guide](https://drive.google.com/file/d/1EW0J9S3kEnNxOk9U
 
 - Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and 66%  of eligible dependent premiums.
 - The AXA plan will be administered directly through GX.
-- During the onboarding of a *new hire*, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. 
+- During the onboarding of a *new hire*, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA.
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 
@@ -316,7 +345,7 @@ Employees in Mexico are covered by the Social Security Law, under IMSS who is re
 
 **For team members hired before October 1, 2024**
 Healthcare Monthly Allowance will be paid by GX as an allowance to the team members until December 31, 2024.
-The allowance will 5000 USD per annum broken into monthly installments. 
+The allowance will 5000 USD per annum broken into monthly installments.
 
 ### Health Insurance
 
@@ -324,9 +353,9 @@ The allowance will 5000 USD per annum broken into monthly installments.
 - Team members who's allowance will be retired as of December 31, 2024 will be able to opt into the GX Global health plan by AXA.
 - GitLab will cover 100% of the team members' cost and 66% of eligible dependent premiums.
 - The AXA plan will be administered directly through GX.
-- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform. 
+- During the onboarding of a new hire, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform.
 - Once the plan is implemented, the team member will receive the documentation along with a digital pass  via a secure link directly from AXA.
-- For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com. 
+- For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 
 ### Life Insurance
 
@@ -335,8 +364,8 @@ Life insurance cover provided via GX AXA plan
 ### Monthly Remote Working Allowances
 
 - Team members in Mexico will receive a monthly allocation of 2200 MXN for internet and electricity to support their remote work. These reimbursements are tax-exempt and will be reflected as a separate line item on your payslips to cover remote working expenses such as internet and electricity.
-- **Erganomic Chair Allowance** 
-Team members are entitled to a one-time claim of up to 3000MXN for the purchase of an ergonomic chair to support their comfort and health while working remotely. 
+- **Erganomic Chair Allowance**
+Team members are entitled to a one-time claim of up to 3000MXN for the purchase of an ergonomic chair to support their comfort and health while working remotely.
 
 **Instructions** for reimbursement is outlined in the [Navan policy](/handbook/finance/expenses/#equipment)
 
@@ -368,7 +397,7 @@ Annual leave (statutory) 21 Days
 
 - 12 weeks of the team member’s Maternity Leave will be paid by the Mexican Social Security Institute (MSSI).
 - GitLab Parental leave calculations: If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), will be supplemented up to 100% minus any MSSI payments received for up to the 16 weeks of leave.
-*For example: If the team member receives 80% of their pay from MSSI payments, GX will provide the remaining 20% of their pay during the normal payroll calendar. 
+*For example: If the team member receives 80% of their pay from MSSI payments, GX will provide the remaining 20% of their pay during the normal payroll calendar.
 
 ### Paternity leave
 
@@ -378,7 +407,7 @@ If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#pare
 
 To initiate parental leave, submit your time off by selecting parental leave category in [Workday - Time Off](https://docs.google.com/document/d/1ZatJdGp485lOS2QVrxYJByQK8dD_CMGiLVOykgd338w/edit) at least 30 days before the leave starts. Please familiarize yourself with GitLabs [Parental leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
-**Paternity leave payment** 
+**Paternity leave payment**
 
 If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), team members will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
@@ -421,13 +450,13 @@ The 13th month pay is mandatory in the Philippines under the labor code and by P
 
 ### GX Leave policy
 
-### Annual leave (statutory) 
+### Annual leave (statutory)
 
 Team members are entitled to five days of paid vacation leave after 12 months of service, referred to as “service incentive leave” by the Labour Code.
 
 ### Parental Leave
 
-### Maternity leave 
+### Maternity leave
 
 Team members can take up to 105 days of Maternity Leave. Team members may request an additional 30 days of unpaid Maternity Leave. Solo mothers have the option to extend by 15 days.
 
@@ -458,7 +487,9 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 
 ### Medical Allowance
 
-Up to ZAR 5,000 /month for a single employee or up to ZAR 8,500/month for the employee and legal dependents (not a flat amount). Team Members are required  to share proof of registration to the GitLab Total Rewards team (total-rewards@gitlab.com). If a team member has a change in cost, please ensure to email the new proof of cost and cover to the Total Rewards team and upload a copy to the GX1 platform.
+Team members receive up to ZAR 5,000 /month for a single employee or up to ZAR 8,500/month for the employee and legal dependents (not a flat amount). Team Members are required to share proof of registration to the GX1 (Global Expansion) portal. If a team member has a change in cost, please ensure to upload the new proof of cost and cover to the GX1 (Global Expansion) portal and send an email to `gx_employeeexperience@globalexpansion.com` cc'ing `total-rewards@gitlab.com` to advise the new proof has been uploaded so that this can be adjusted on the next available payroll.
+
+Once a year, Global Expansion may reach out to team members to complete an audit and request that team members upload proof of coverage and cost.
 
 ### Provident fund
 
@@ -486,8 +517,8 @@ Please submit the dates of your leave in Workday by selecting the Parental Leave
 
 ### Maternity Leave
 
-Female employees have a right to four months’ maternity leave when they are pregnant. 
-By law your employer is not obliged to give you paid maternity leave, but you are entitled to four consecutive months of maternity leave. 
+Female employees have a right to four months’ maternity leave when they are pregnant.
+By law your employer is not obliged to give you paid maternity leave, but you are entitled to four consecutive months of maternity leave.
 The maternity leave may begin at any time from at least four weeks before the birth of the baby.
 
 ### Paternity Leave
@@ -549,10 +580,10 @@ Please refer to the [GitLab Travel page](/handbook/finance/travel/) of the Handb
 
 ### Medical
 
-Review the Medical Insurance [AXA Plan](https://drive.google.com/file/d/1-Xx71vfS0eEcNvfPIKYyqHR418QbXceD/view?usp=sharing) Guide
+Review the Medical Insurance [Daman Premium](https://drive.google.com/file/d/1JNjA1C9FF375uHsQOjtUvvBOm34cHjkl/view?usp=drive_link) Guide
 
-- Team members will be able to avail of GX’s global health insurance plan through AXA. GitLab will cover 100% of the team members' cost and of eligible dependent premiums.
-- The AXA plan will be administered directly through GX.
+- Team members will be able to avail of GX’s global health insurance plan through Daman. GitLab will cover 100% of the team members' cost and of eligible dependent premiums.
+- The Daman plan will be administered directly through GX.
 - During the onboarding of a *new hire*, GX will collect the team member and eligible dependent’s census for enrollment via the GX1 platform.
 - For any addition or modification a team member can reach out to the GX team at: gx_employeeexperience@globalexpansion.com.
 

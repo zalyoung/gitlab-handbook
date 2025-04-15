@@ -64,8 +64,8 @@ GitLab hosts workshops with organizations interested in increasing their contrib
 
 1. **Program Workshop** - Program Overview and Benefits
    1. Audience: Business Stakeholders, GitLab: Leading Organization Team and CSM/Account Executive
-   <object data="/handbook/marketing/developer-relations/leading-organizations/leading-org-workshop-handbook-page.pdf" type="application/pdf" width="100%" height="500px">
-   <p>Unable to display PDF file. <a href="/handbook/marketing/developer-relations/leading-organizations/leading-org-workshop-handbook-page.pdf">Download it</a> instead.</p>
+   <object data="/pdfs/marketing/developer-relations/leading-organizations/leading-org-workshop-handbook-page.pdf" type="application/pdf" width="100%" height="500px">
+   <p>Unable to display PDF file. <a href="/pdfs/marketing/developer-relations/leading-organizations/leading-org-workshop-handbook-page.pdf">Download it</a> instead.</p>
    </object>
 
 2. Onboarding Workshop & Technical Deep Dive
@@ -95,8 +95,8 @@ Contribution Help:
 
 ## Who
 
-The Leading Organizations program is a [top cross-functional initiative](/handbook/company/top-cross-functional-initiatives/#current-top-cross-functional-initiatives) and [working group](/handbook/company/working-groups/leading-organizations/).
+The Leading Organizations program is a top cross-functional initiative and [working group](/handbook/company/working-groups/leading-organizations/).
 
 [^1]: RedHat, The State of Enterprise Open Source (February 22, 2022). Available at: [https://www.redhat.com/en/resources/state-of-enterprise-open-source-report-2022](https://www.redhat.com/en/resources/state-of-enterprise-open-source-report-2022)
-[^2]: Nagle, Frank, Learning by Contributing: Gaining Competitive Advantage Through Contribution to Crowdsourced Public Goods (December 21, 2017). Available at SSRN: [https://ssrn.com/abstract=3091831](https://ssrn.com/abstract=3091831)
+[^2]: Nagle, Frank, Learning by Contributing: Gaining Competitive Advantage Through Contribution to Crowdsourced Public Goods (December 21, 2017). Available at SSRN: [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3091831](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3091831)
 [^3]: Tidelift, 2020 Managed Open Source Survey (October 2020). Available at Tidelift: https://tidelift.com/subscription/2020-managed-open-source-survey

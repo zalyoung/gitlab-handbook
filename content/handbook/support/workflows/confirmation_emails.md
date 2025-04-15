@@ -12,7 +12,7 @@ This workflow covers cases when a user says they are not receiving their confirm
 ## **Stage 0:** Ticket Triage
 
 Before working the ticket ensure that it's correctly triaged with the `SaaS Account` form and `Did not receive confirmation email` problem type so that
-the [SaaS Account Ticket Helper](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app) application can activate.
+the [SaaS Account Ticket Helper](/handbook/security/customer-support-operations/docs/zendesk/apps#gitlab-super-app) application can activate.
 
 If the user has already correctly chosen the problem type, the automation will activate when an agent opens the ticket for the first time. If the SaaS Account Ticket Helper application fails to solve the issue for any reason, proceed to manually resolve it by going through the steps in the following sections.
 
@@ -50,8 +50,15 @@ The automation will send out an email to the customer letting them know whether 
 
 ### Typo Fix
 
-As of 2023-08-07, unconfirmed users are [deleted after a set number of days](https://docs.gitlab.com/ee/user/gitlab_com/#email-confirmation) on GitLab.com.
-Users are recommended to wait for GitLab to automatically delete the account.
+As of 2023-08-07, unconfirmed users are [deleted after a set number of days](https://docs.gitlab.com/user/gitlab_com/#email-confirmation) on GitLab.com.
+
+#### Free Users
+
+Free users are required to wait for GitLab to automatically delete the account.
+
+#### Paid Users
+
+Paid users are recommended to wait for GitLab to automatically delete the account, however it is possible for Support to update the email address with manager approval if required.
 
 ### Manually remove a Suppression in Zendesk
 
@@ -110,7 +117,8 @@ On the first attempt, if our email system could not get through (usually server 
 
 This is useful to check if emails have been delivered successfully from our end, which could mean that the error is with the users' email provider.
 
-1. Utilize the Mailgun SSO app on your Okta dashboard to log in to [Mailgun](https://app.mailgun.com/app/dashboard).
+1. Utilize the Mailgun SSO tile on your Okta dashboard to log in to [Mailgun](https://app.mailgun.com/app/dashboard).
+1. Click on `Send` on the left-hand side navigation bar.
 1. Click on `Sending` along the left-hand side navigation bar.
 1. Click on `Logs`.
 1. Ensure that `mg.gitlab.com` is set as the domain above the activity graph.
@@ -119,6 +127,25 @@ This is useful to check if emails have been delivered successfully from our end,
     - If email is bouncing due to a suppression (evidenced by the message `Not delivering to previously bounced address` in the log) proceed to [Removing a Suppression in Zendesk](#manually-remove-a-suppression-in-zendesk) or [Removing a Suppression in Mailgun](#manually-remove-a-suppression-in-mailgun).
     - If email is marked as `Delivered` and the response code under `delivery-status` is `"code": 250`, this indicates that the user's mail server acknowledged the receipt, and the email delivery was successful.
 
+#### Using Mailgun's new log search
+
+Mailgun has introduced a new search page, which they've announced [here](https://www.mailgun.com/blog/product/mailgun-announces-improvements-to-logs-feature-to-increase-visibility-into-deliverability-problems/). One can choose to use this new search by clicking the link in the info box labeled "Check out our new reporting logs experience with updated functionality here" at the top of the old search page, or one can find it here: https://app.mailgun.com/mg/reporting/logs. Note: this new search functionality may become the default search in the future.
+
+Mailgun's new search functionality allows a support engineer to use filters to narrow down the search results. Usage of this new search will change the steps above slightly. Support engineers can also use the new search to perform more in-depth searches if needed - including searching for all messages sent to a specific domain. Here are the steps:
+
+1. Utilize the Mailgun SSO tile on your Okta dashboard to log in to [Mailgun](https://app.mailgun.com/app/dashboard).
+1. Click on `Send` on the left-hand side navigation bar.
+1. Click on `Reporting`.
+1. Click on `Logs`.
+1. Choose a date range using the date range picker at the top of the `Controls` box.
+1. Click the `Filters` button to the right of the date range picker.
+1. Choose the filters you wish to use. To search for suppressions, use **To** and **Contains** as the source, then input the user's email address in the `Enter text` field and click the `Add` button. Then, click `Apply` at the bottom right.
+    - If email is delayed, respond to the user and ask them to wait.
+    - If email is bouncing due to a suppression (evidenced by the message `Not delivering to previously bounced address` in the log) proceed to [Removing a Suppression in Zendesk](#manually-remove-a-suppression-in-zendesk) or [Removing a Suppression in Mailgun](#manually-remove-a-suppression-in-mailgun).
+    - If email is marked as `Delivered` and the response code under `delivery-status` is `"code": 250`, this indicates that the user's mail server acknowledged the receipt, and the email delivery was successful.
+
+Support engineers can also choose to filter on **Status message**, **Status code**, and more. For example, a support engineer can choose to filter on **Status code** **Equals** "550" and **To** **Contains** "gmail.com" to find all undelivered messages to `@gmail.com` addresses that were rejected because the user's inbox doesn't exist.
+
 ### How to see or resend emails in Mailgun
 
 This is to check the content of an email sent:
@@ -126,7 +153,7 @@ This is to check the content of an email sent:
 1. Follow the steps from the section [Checking Mailgun logs](#checking-mailgun-logs) to locate an email in Mailgun - The email subject must be "Verify your identity".
 1. Access the log details by clicking on the dented wheel icon at the right end of the log entry.
 1. In the log details, go to the third tab named "quick view" to display the full email.
-![Mailgun_email_body](../assets/Mailgun_email_body.png)
+![Mailgun email body](/images/support/workflows/assets/Mailgun_email_body.png)
 
 To resend an email:
 
@@ -134,7 +161,7 @@ To resend an email:
 
 1. On the dented wheel icon at the right end of the log entry, click on the "Resend message" button.
 1. From there you can enter an email address and press "Send".
-![Mailgun_resend_email](../assets/Mailgun_resend_email.png)
+![Mailgun resend email](/images/support/workflows/assets/Mailgun_resend_email.png)
 
 ### Identifying Multiple Suppressions on a Single Domain
 
@@ -148,3 +175,15 @@ Mailgun does not allow us to check for multiple suppressions on the same domain 
 1. Add a filter for `Event is Permanent Fail`.
 1. Scan the results, any email address listed with a `Delivery Status Message` of  `Not delivering to previously bounced address` has been suppressed at one point in time.
 1. Navigate to the `Suppressions` tab and enter in an email address from your previous search to confirm whether or not it's currently suppressed.
+
+### Password reset on behalf of a user
+
+When a user (free or paid) forgot the primary email of their account we are not able to disclose this information but we can send a password reset email on their behalf:
+
+1. Take note of the primary email address of the account.
+1. Open an incognito window.
+1. Go to https://gitlab.com/users/password/new
+1. Trigger the password reset with the user primary email address.
+1. Optional - Go to Mailgun and check the email is delivered before going back to the user with the following:
+
+> Due to our privacy policies I am unable to reveal what the primary email address is. That being said we have triggered a password reset for the account <username> just now, if you have access to the primary email address for this account you should see an email and be able to perform the password reset steps.

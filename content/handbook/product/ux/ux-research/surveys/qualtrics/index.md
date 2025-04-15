@@ -190,7 +190,7 @@ There will be studies where you wish to target specific populations of users bas
 1. The list will show up as a shared list for the *UX Research & Product* directory. You can access the list itself from the *Contacts* section of Qualtrics, or you can select the list as part of the process of sending an email distribution.
 1. **IMPORTANT:** Create a sample of the list you just created to filter out users who have opted-out. To do this, navigate to the new list in Qualtrics, click the `List Options` dropdown in the top right hand corner, select `Create sample from list`, name the sample, click `Add sampling criteria`, choose `Opt-out status` from the dropdown, and make sure `Is opted-in` is selected. This will ensure that no users who have opted-out of email communication will be contacted. From there, select `Create` and Qualtrics will make the sample of users who have opted into emails from GitLab. The sample created will be the one used to distribute emails.
 
-![Process of making a sample in Qualtrics](Create_a_sample.png)
+![Process of making a sample in Qualtrics](/images/product/ux/ux-research/surveys/qualtrics/Create_a_sample.png)
 
 If you have followed all of the above steps correctly and your spreadsheet does not process within 20 minutes of adding it to the Qualtrics Request drive, the Qualtrics Data Pipeline might be broken. To fix it, open up an issue using the DE Triage template in the [GitLab Data Team project](https://gitlab.com/gitlab-data/analytics/-/issues). Here's an example of a [previous issue](https://gitlab.com/gitlab-data/analytics/-/issues/11443#note_817069161) opened by the team.
 

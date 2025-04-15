@@ -9,7 +9,7 @@ This document does not cover servers that are not integral to the public facing 
 
 ## Purpose
 
-This page is our [document](/handbook/security/controlled-document-procedure.html#creation) that captures an overview of the production architecture for GitLab.com.
+This page is our [document](/handbook/security/controlled-document-procedure/#purpose) that captures an overview of the production architecture for GitLab.com.
 
 ## Scope
 
@@ -28,7 +28,7 @@ The compute and network layout that runs GitLab.com
 
 - [Application Architecture documentation](https://docs.gitlab.com/ee/development/architecture.html)
 - [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
-- [GitLab.com Rate Limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
+- [GitLab.com Rate Limits](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
 - [GitLab performance monitoring documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html)
 - [Performance of the Application](/handbook/engineering/performance/)
@@ -42,9 +42,11 @@ The compute and network layout that runs GitLab.com
 
 #### GitLab.com Production Architecture {#gitlab-com-architecture}
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vShfNY5bxtjAsYq-YBDAJAnyjBuxN0i62NoDvbmhvDVOrCas20_Q4XA8Qxm1D2v0mmemP9y-rDsRQFe/pub?w=669&h=551" alt="">
+<img
+  src="https://docs.google.com/drawings/d/e/2PACX-1vT_5uGw5WDdR3zwjmT3ejgSVvY_HbyOthj5vCdDiOh5zSXmVMZm0-4NtBbETNYQNADcrS5_8FSLiWQI/pub?w=669&amp;h=551"
+  alt="GitLab.com Production Architecture diagram">
 
-[Source](https://docs.google.com/drawings/d/1NmafL3ULQnjuY3_JFMWDwXpjdd0I1hyMXkZ0bwUYNhI/edit), GitLab internal use only
+[Source](https://docs.google.com/drawings/d/1xM32ToSpKvySEHmkTzd4Fc4IAmdZu9lixdK98Fr0LTk/edit), GitLab internal use only.
 
 Most of GitLab.com is deployed on Kubernetes using  [GitLab cloud native helm chart](https://docs.gitlab.com/charts/). There are a few exceptions for this
 which are mainly the datastore services like `PostgresSQL`, `Gitaly`, `Redis`, `Elasticsearch`.
@@ -197,4 +199,4 @@ Exceptions to this architecture policy and design will be tracked in the [compli
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)

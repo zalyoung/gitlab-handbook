@@ -3,7 +3,7 @@ title: "Talent Acquisition Process Framework for Creating REQs"
 description: "The Talent Acquisition Process Framework for Creating REQs provides guidance on how to open a new requisition for the talent acquisition team."
 ---
 
-Prior to starting the req creation process, a Hiring Manager should follow the steps outlined to create a Job Family or create a MR to edit any relevant Job Family information as needed. For questions specific to Hiring Plans or how to go about making such changes, please refer to the [Finance section of the handbook](/handbook/finance/financial-planning-and-analysis/#headcount-and-the-talent-acquisition-single-source-of-truth).
+Prior to starting the req creation process, a Hiring Manager should follow the steps outlined to create a Job Family or create a MR to edit any relevant Job Family information as needed. For questions specific to Hiring Plans or how to go about making such changes, please refer to the [Finance section of the handbook](/handbook/finance/financial-planning-and-analysis/#single-source-of-truth-ssot-headcount-forecast-and-hiring-plan).
 
 ## Process Overview
 
@@ -37,12 +37,12 @@ To open a backfill:
 1. The Manager of a departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding/).
 1. Each week, by noon (PST) Monday, Corporate FP&A downloads the data from Adaptive and refreshes the confidential LIVE Headcount lists shared with TA, FP&A, and relevant leaders
    1. By the end of the day (PST) Monday, Corporate notifies FP&A partners of targeted conversations with E-Group during the week.
-1. By the end of the day (PST) Wednesday, divisional FP&A teams align with E-Group and PBPs to review all new backfill roles and determine the appropriate action for each. 
+1. By the end of the day (PST) Wednesday, divisional FP&A teams align with E-Group and PBPs to review all new backfill roles and determine the appropriate action for each.
    1. If no decisions are made, FP&A will mark backfill as paused
-   1. If decisions are made, FP&A will ensure Position IDs and GHPIDs are processed and shared with TA by the end of the day on Wednesday. 
-      - For roles being repurposed: the business leader owns communication to the team to discuss the rationale and drive clarity. PBP/Strategy team partners on reallocation decisions. 
+   1. If decisions are made, FP&A will ensure Position IDs and GHPIDs are processed and shared with TA by the end of the day on Wednesday.
+      - For roles being repurposed: the business leader owns communication to the team to discuss the rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
 1. Taking the E-Group leader's decisions, each divisional Recruiting Leader will allocate the role to the appropriate recruiter.
-1. Once the role is approved/the decision has been reached and the role is allocated, the Recruiting partner will set up a kickoff strategy call with the hiring manager and will create a position in Greenhouse for approval to move to the next step of the process. 
+1. Once the role is approved/the decision has been reached and the role is allocated, the Recruiting partner will set up a kickoff strategy call with the hiring manager and will create a position in Greenhouse for approval to move to the next step of the process.
 1. By the end of the day (PST) Thursday, the FP&A update Adaptive
    1. FP&A includes their best estimates of the start dates of all planned personnel for the forecast period based on the input from Talent Acquisition in the headcount forecast templates. This reflects a 50/50 “most realistic” view of headcount expenses/timing and is part of the current [Forecast Interlock process](/handbook/finance/financial-planning-and-analysis/#finance-business-partners--talent-acquisition-managers-forecast-interlock).
 
@@ -81,7 +81,7 @@ If you are looking to open a job for pipeline reasons, because a Hiring Manager 
 **The Recruiter will:**
 
 1. The Recruiter will open a [kick-off issue](https://gitlab.com/gl-talent-acquisition/req-intake/-/issues/new). This will happen simultaneously with the steps for opening the job in Greenhouse below.
-1. [Log in]({{< ref "greenhouse#how-to-join-greenhouse" >}}) to [Greenhouse](https://gitlab.greenhouse.io/users/sign_in) and hover over the plus sign in the top right corner of their dashboard, and then click [Create a Job](https://app2.greenhouse.io/plans/new).
+1. [Log in](/handbook/hiring/greenhouse/#how-to-join-greenhouse) to [Greenhouse](https://gitlab.greenhouse.io/users/sign_in) and hover over the plus sign in the top right corner of their dashboard, and then click [Create a Job](https://app2.greenhouse.io/plans/new).
 1. Click on [Start from a copy of an existing job](https://gitlab.greenhouse.io/get_started/show_existing_jobs). From there, select `Any Status` at the top bar, select `Draft`, and choose the template for the division. If you need a template created, please speak with a member of the Enablement team.
 
 Once you've selected a template to copy, the first screen will ask for **Basic Job Info**.
@@ -92,11 +92,11 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. Click `Generate IDs` to create a requisition ID. You'll need this again when you set up your opening(s).
 1. Under `Job Family URL`, ensure you are linking to the correct job family page. It is the Recruiter's responsibility to ensure that the job family has the specific job listed before submitting the requisition for approval. If the job family is currently in approvals, please contact Total Rewards to ensure you are clear before moving forward. If you skip this step and the job makes it to the offer stage, the process will stall during Total Rewards approval and will take significantly longer to get approved. It is OK if the job title in Greenhouse is not identical to the job family for posting purposes.
 1. Under `Employment Type`, select your opening type - which unless there is an explicit exception, should be Full-Time. *Contract* refers to a true consultant, who works on short-term projects, and not someone in a country like the Netherlands who requires a one-year contract before indefinite. Talent Acquisition only supports Full Time Employee hiring at this time.
-1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, Rich Kahn, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
-1. `CA/CO/HI/NY/NJ/WA/DC Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
+1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
+1. `CA/CO/HI/NY/NJ/WA/DC/IL/MN Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
 1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is **not** the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
-1. Under `Type` choose if this is a *Annual Plan*, *Backfill*, *Incremental* or *Intern*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. 
+1. Under `Type` choose if this is a *Annual Plan*, *Backfill*, *Incremental* or *Intern*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below.
    1. **Annual Plan**: Refers to any budgeted net new role included at the start of the fiscal year as part of the planned headcount. These roles will appear in the interlock sheet and are typically labeled as ‘FYxx AOP’ in the ‘employee name’ field.
    1. **Backfill**: Refers to budgeted roles generated throughout the year due to a team member’s departure. These will also be visible in the interlock sheet and labeled as backfill in the ‘employee name’ field.
    1. **Incremental**: Refers to any Rolling List of Asks (RLoA) or in-quarter approved budget release not part of the annual plan. This headcount is released by Finance during the quarter and communicated directly by TALT in Pod Squad. Recruiters should ensure the correct ‘req type’ is selected in Greenhouse to inform the interlock sheet.
@@ -110,7 +110,7 @@ The `Interview Plan` is where you'll craft the hiring process and scorecards for
 
 The `Hiring Team` is where you select who will be working on this opening and what access they should have.
 
-- Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/#recruiter-coordinator-and-sourcer-alignment-by-department), Coordinator(s) and Sourcer(s). Everyone who will be involved in interviewing may not be known until after the Kick-off Session.
+- Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/), Coordinator(s) and Sourcer(s). Everyone who will be involved in interviewing may not be known until after the Kick-off Session.
 - Ensure that only necessary team members have Hiring Manager access in the bottom section. Filter by Job Admin: Hiring Manager and ensure the only people with that level of access are Hiring Managers. Interviewers do not need Job Admin access and should be removed.
 
 Set up Notifications where appropriate. You should make sure that you are always notified for internal candidates and referrals, but the rest is up to your preferences. Most recruiters prefer to use their own names, rather than `Candidate's Recruiter`, because it ensures they are notified even if the candidate is interviewing for multiple positions and therefore has a different default recruiter.
@@ -134,7 +134,7 @@ If you find that someone is delayed in responding to an approval request, you ca
 
 #### Complete the Kick-Off
 
-1. Schedule a [Kick-off Session]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}}) or complete a-sync with the Hiring Team.
+1. Schedule a [Kick-off Session](/handbook/hiring/talent-acquisition-framework/req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session) or complete a-sync with the Hiring Team.
 1. Prepare the job to be posted on the [Careers Page](https://about.gitlab.com/jobs/).
 
 #### Post the job internally
@@ -260,13 +260,13 @@ On occasion, there may be additional or fewer stages than represented here, but 
 
 1. Update the `Hiring Team` after the Kick-off Session.
 1. The Hiring Team is where you select who will be working on this opening and what access they should have.
-   - Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)]({{< ref "recruiting-alignment" >}}), Coordinator(s) and Sourcer(s).
+   - Scroll to the `Who's responsible for this job?` to assign the Hiring Managers, [Recruiter(s)](/handbook/hiring/recruiting-alignment/), Coordinator(s) and Sourcer(s).
    - Scroll to the `Who can see this job?` section to set permissions to the team members who will need access. Search for someone's name, click the pencil and select the correct access level from the drop-down.
    - Ensure that only necessary team members have Hiring Manager access. Filter the bottom section by Job Admin: Hiring Manager and ensure the only people with that level of access are Hiring Managers. Interviewers do not need advanced access and should be removed.
 
 ### Publish the Job: Careers Page & LinkedIn
 
-Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs).
+Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs/).
 
 #### Choosing the correct location for your published job
 
@@ -346,7 +346,7 @@ If you run into problems, you can reach out to the #talent-brand channel for sup
 
 #### How jobs are categorized on our careers site job board
 
-Greenhouse data is fed into our custom jobs page located at [https://about.gitlab.com/jobs/all-jobs](https://about.gitlab.com/jobs/all-jobs/).
+Greenhouse data is fed into our custom jobs page located at <https://about.gitlab.com/jobs/all-jobs/>.
 
 Each department in Greenhouse has a specific department ID associated with it. Those department ID's can be found in our [Greenhouse API feed](https://boards-api.greenhouse.io/v1/boards/gitlab/departments).
 
@@ -354,7 +354,7 @@ Specific departments are coded to show up in various categories, this is defined
 
 When new departments are created, we will need to add those to the openings.js file so that they appear correctly on our job board.
 
-If new categories are needed on the [https://about.gitlab.com/jobs/all-jobs](https://about.gitlab.com/jobs/all-jobs/) job board we also need to update that index file.
+If new categories are needed on the <https://about.gitlab.com/jobs/all-jobs/> job board we also need to update that index file.
 
 #### Publishing jobs to Indeed and Glassdoor
 

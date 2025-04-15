@@ -41,8 +41,8 @@ Demo Examples:
 
 **Question: Do you recommend running Elasticsearch on the same host as GitLab?**
 
-**Answer:** No. Elasticsearch will consume memory and file descriptors that is not allocated to the JVM [heap](https://www.elastic.co/guide/en/elasticsearch/reference/current/heap-size.html) (e.g. results caching, aggregations, etc.) As a result, it may result in resource contention of the various systems resulting in instability of the whole setup.
+**Answer:** No. Elasticsearch will consume memory and file descriptors that is not allocated to the JVM [heap](https://www.elastic.co/guide/en/elasticsearch/reference/current/important-settings.html#heap-size-settings) (e.g. results caching, aggregations, etc.) As a result, it may result in resource contention of the various systems resulting in instability of the whole setup.
 
 **Question: Are Elasticsearch operations transactional?**
 
-**Answer:** No, not out of the box. Elasticsearch was not designed to be [ACID](http://en.wikipedia.org/wiki/ACID) compliant.
+**Answer:** No, not out of the box. Elasticsearch was not designed to be [ACID](https://en.wikipedia.org/wiki/ACID) compliant.

@@ -257,7 +257,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Handbook: CD Solution Resource](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/)
 - [Handbook: CI Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/message-house/)
 - [Handbook: CD Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/message-house/)
-- [Website: CI Solution Page](https://about.gitlab.com/features/continuous-integration/)
+- [Website: CI Solution Page](https://about.gitlab.com/solutions/continuous-integration/)
 - [Website: CI Solution Page](https://about.gitlab.com/stages-devops-lifecycle/continuous-delivery/)
 - [2022-04-07 CI/CD Campaign Review Deck](https://docs.google.com/presentation/d/1mqYScmF1bjON0PsjfurmsChcVdCkMsjkDvTK5YyOlIQ/edit#slide=id.g5e411f22b2_0_0) - GitLab Team Members Only
 - [2021-09-09 CI/CD Campaign Review Deck](https://docs.google.com/presentation/d/1TG7SAHUub3BqclJg4nawDARecOOaQ4NpMaxDnXWWtF8/edit#slide=id.g5e411f22b2_0_0) - GitLab Team Members Only
@@ -302,7 +302,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Solution Resource](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/)
 - [Campaign Review 2021-07-26](https://docs.google.com/presentation/d/1gPMLjIRPNOCt8DqHUWYdwxW2tNH528qg_YbmZaDYzl8/edit#slide=id.g5e411f22b2_0_0) - GitLab Team Members Only
 - [SDR & Sales enablement epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/874)
-- [Live landing page](https://about.gitlab.com/solutions/dev-sec-ops/)
+- [Live landing page](https://about.gitlab.com/solutions/security-compliance/)
 - [Slack](https://gitlab.slack.com/archives/CV8GZ63GR)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001df4w?srPos=0&srKp=701)
 - Campaign UTM: `devsecopsusecase`
@@ -435,7 +435,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 - *Note: this is being sunsetted Q2 FY21 and existing records in the nurture will move to the DevSecOps use case campaign nurture.*
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/368)
-- [Live landing page](https://about.gitlab.com/solutions/dev-sec-ops/)
+- [Live landing page](https://about.gitlab.com/solutions/security-compliance/)
 - [Campaign brief](https://docs.google.com/document/d/1NzFcUg-8c1eoZ1maHHQu9-ABFfQC65ptihx0Mlyd-64/edit)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000000CyeJ)
 
@@ -465,7 +465,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/439)
 - [SDR & Sales enablement epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/445)
 - [FigJam of campaign user journey](https://www.figma.com/file/BYZIoMhJzI4FvM4nXit9Ca/OctoCat-Campaign-Flows-Actual-Sizes_2023-09-11_19-03-47?type=whiteboard&t=elKOAakWTl8snIYW-1)
-- [Live landing page](https://about.gitlab.com/competition/github/)
+- [Live landing page](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/)
 - [Campaign brief](https://docs.google.com/document/d/1Mcy_0cwMsTPIxWUXPgoqw9ejsRJxaZBHi4NikYTabDY/edit#heading=h.kf9lglu57c0t)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001lmdK)
 
@@ -632,10 +632,8 @@ Paid Media:
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Diagram of sales lead funnel cross-over with all-remote {#funnel-crossover-all-remote-diagram}
+### Sales lead funnel cross-over with all-remote {#funnel-crossover-all-remote-diagram}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-Below is a V1 visual in Mural of the sales lead funnel (pre-opportunity) on the left and the all-remote funnel on the right. Discussion of how and when to "bridge the gap" between the funnels - potentially sharing GitLab audience-targeted offers within All-Remote communications - is included [in this issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2590).
-
-<div style="width: 600px;" class="embed-thumb"> <h1 style="position: relative;vertical-align: middle;display: inline-block; font-size: 24px; line-height:22px; color: #393939;margin-bottom: 10px; font-weight: 300;font-family: Proxima Nova, sans-serif;"> <img src="https://app.mural.co/avatar/jgragnola2053" style="position: absolute; border-radius: 50%; width: 36px;height: 36px;margin-right: 14px; display: inline-block; margin-top: -6px;margin-right: 10px; vertical-align: middle;" alt=""> <div style="padding-left:50px"> <span style="max-width:555px;display: inline-block;overflow: hidden; white-space: nowrap;text-overflow: ellipsis;line-height: 1; height: 25px; margin-top: -3px;">Lead Generation Funnel + All-Remote Breakout</span> <span style="position:relative;top:-3px;font-size: 16px; margin-top: -6px; line-height: 24px;color: #393939; font-weight: 300;"> by Jackie Gragnola</span> </div> </h1> <div style="position: relative; height: 0;overflow: hidden; height: 400px; max-width: 800px; min-width: 320px; border-width: 1px; border-style: solid; border-color: #d8d8d8;"> <div style="position: absolute;top: 0;left: 0;z-index: 10; width: 600px; height: 100%;background: url(https://murally.blob.core.windows.net/thumbnails/gitlab24743204/murals/gitlab24743204.1585283889844-5e7d833115ecf04b79301159.png?v=51ddc0c0-b456-443c-aa7c-92557e78efe9) no-repeat center center; background-size: cover;"> <div style="position: absolute;top: 0;left: 0;z-index: 20;width: 100%; height: 100%;background-color: white;-webkit-filter: opacity(.4);"> </div> <a href="https://app.mural.co/t/gitlab24743204/m/gitlab24743204/1585283889844/5837d15d7eed38c848745c9e63cef77eba194009" target="_blank" rel="noopener noreferrer" style="transform: translate(-50%, -50%);top: 50%;left: 50%; position: absolute; z-index: 30; border: none; display: block; height: 50px; background: transparent;"> <img src="https://app.mural.co/static/images/btn-enter-mural.svg" alt="ENTER THE MURAL" width="233" height="50"> </a> </div> </div> <p style="margin-top: 10px;margin-bottom: 60px;line-height: 24px; font-size: 16px;font-family: Proxima Nova, sans-serif;font-weight: 400; color: #888888;"> You will be able to edit this mural. </p></div>
+Discussion of how and when to "bridge the gap" between the funnels - potentially sharing GitLab audience-targeted offers within All-Remote communications - is included [in this issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2590).

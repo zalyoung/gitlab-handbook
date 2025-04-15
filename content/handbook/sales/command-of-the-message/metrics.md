@@ -60,7 +60,7 @@ As a follow on to the above, be sure to familiarize yourself with GitLab's [Valu
 1. Single Application for Entire DevOps Lifecycle, and
 1. End-to-End Insight and Visibility
 
-Watch the below video and check out GitLab's [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) solutions page to learn more. In addition, access short customer-facing VSM videos in the [Agile Management](https://about.gitlab.com/learn/#agile_management) section of the Learn@GitLab page.
+Watch the below video and check out GitLab's [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) solutions page to learn more. In addition, access short customer-facing VSM videos in the [Agile Management](https://university.gitlab.com/#agile_management) section of the Learn@GitLab page.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/e2XQB5HFJmc" frameborder="0" allowfullscreen="true"> </iframe>
@@ -94,7 +94,7 @@ Listen to Nico Ochoa (Strategic Account Executive, US West) describe his role in
 **Technical metrics** highlight measurable results that prove the solution's capabilities.
 
 - Review [Getting Started with Agile Metrics](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/devops-metrics/)
-- Consider reading ["Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/book/accelerate/)
+- Consider reading ["Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/product/accelerate/)
 
 Hear what Nico says about cycle time compression, helping organizations do more with less, and improving developer satisfaction.
 

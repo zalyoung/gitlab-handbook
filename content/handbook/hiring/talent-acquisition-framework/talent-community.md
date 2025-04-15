@@ -21,10 +21,10 @@ While LinkedIn projects can be used, all approached prospects should be added in
 
 There are multiple ways to add the candidates, as follows:
 
-- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-Prospects-to-Greenhouse-via-LinkedIn-RSC-Integration)
+- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-prospects-to-Greenhouse-Recruiting-with-LinkedIn-RSC)
 - [Greenhouse plug-in](https://support.greenhouse.io/hc/en-us/articles/8302339682843-Install-the-Greenhouse-Recruiting-Chrome-extension)
-- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630)
-- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-Enable-LinkedIn-Recruiter-System-Connect-RSC-) so you can export candidates in one click as prospects
+- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630-Maildrop)
+- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-LinkedIn-Recruiter-System-Connect-RSC-integration) so you can export candidates in one click as prospects
 
 How to add prospects to Talent Pools:
 

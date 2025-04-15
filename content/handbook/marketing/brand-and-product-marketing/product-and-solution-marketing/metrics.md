@@ -2,7 +2,7 @@
 title: "Product and Solution Marketing Metrics"
 ---
 
-## North Star Metrics (CEO (Sid) ask on North Star Metrics)
+## North Star Metrics (CEO ask on North Star Metrics)
 
 Every marketing function should have at least one north star metric that they aspire to improve over time to help GitLab's business growth.
 Below is a list of metrics by different marketing functions in Product and Solution Marketing.
@@ -177,7 +177,7 @@ Forrester reprint info (views, d/l, dwell)
 
 ## Examples to consider
 
-- [ChangeLog](/handbook/CHANGELOG.html)
+- ChangeLog
 - Surveys (Sales team)
 - Analytics on issues managed - open/closed, internal vs. external
 - Pathfactory

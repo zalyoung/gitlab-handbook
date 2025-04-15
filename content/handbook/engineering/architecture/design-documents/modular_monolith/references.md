@@ -27,12 +27,16 @@ toc_hide: true
 - [`#modular_monolith`](https://gitlab.slack.com/archives/C03NTK6HZBM)
 - [`#architecture`](https://gitlab.slack.com/archives/CJ4DB7517)
 
+## Presentations
+
+- [The Myth of the Modular Monolith](https://youtu.be/olxoNDBp6Rg?feature=shared) - Rails 2024 Keynote by Eileen Uchitelle
+
 ## Reference Implementations / Guides
 
 Gusto / RubyAtScale:
 
 - [RubyAtScale toolchain for modularization](https://github.com/rubyatscale)
-- [Gusto's engineering blog](https://engineering.gusto.com/laying-the-cultural-and-technical-foundation-for-big-rails/)
+- [Gusto's engineering blog](https://engineering.gusto.com/laying-the-cultural-and-technical-foundation-for-big-rails-6b5ab78349ed)
 - [Gradual modularization](https://gradualmodularization.com/) (successor to CBRA)
 - [Component-Based Rails Applications](https://cbra.info) ("deprecated")
 

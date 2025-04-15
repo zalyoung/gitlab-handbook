@@ -72,8 +72,8 @@ POST /v1/proxy/anthropic/(*path)
 
 `path` can be forwarded to the following endpoints:
 
-- [`/v1/complete`](https://docs.anthropic.com/claude/reference/complete_post)
-- [`/v1/messages`](https://docs.anthropic.com/claude/reference/messages_post) (Future iteration)
+- [`/v1/complete`](https://docs.anthropic.com/en/api/complete)
+- [`/v1/messages`](https://docs.anthropic.com/en/api/messages) (Future iteration)
 
 #### Vertex AI
 
