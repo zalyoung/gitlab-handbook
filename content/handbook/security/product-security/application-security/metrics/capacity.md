@@ -131,4 +131,3 @@ Where:
 ### What labels should I add to have my work considered in the capacity metrics?
 
 You need to have the `Application Security Team`, `AppSecWorkType::`, `AppSecWorkFlow::` labels along with the corresponding `AppSecWeight::` label and a milestone assigned to the issue.
-
