@@ -68,7 +68,7 @@ When secrets are confirmed to be leaked, it is important to minimize the exposur
 
 Security incidents may (and usually do) involve sensitive information related to GitLab, GitLab's customers or employees, or users who (in one way or another) have engaged with GitLab. GitLab, while codifying the [Transparency](/handbook/values/#transparency) value, also strongly believes in and strives to maintain the privacy and confidentiality of the data its employees, customers, and users have entrusted us with.
 
-A **confidential** issue means any data within the issue and any discussions about the issue or investigation are to be kept to a need to know basis. This will involve specific **GitLab employees only** unless permission is explicitly granted by GitLab Legal, a GitLab Security Director, a VP of Security, or the GitLab Executive Team.
+A **confidential** issue means any data within the issue and any discussions about the issue or investigation are to be kept to a need to know basis. This will involve specific **GitLab employees only** unless permission is explicitly granted by GitLab Legal, a GitLab Security Director, a VP of Security, or scoped incident labels GitLab Executive Team.
 
 Which team members have access to a specific incident is defined on a case to case basis by SIRT according to our [limited access policy](/handbook/security/security-operations/sirt/#limited-access). Whenever a team member needs access to the incident, this should be requested in the corresponding incident channel or in `#security-operations`. Bypassing security controls to access the incident issue will result in Security Operations being notified.
 
@@ -166,7 +166,7 @@ In the event of a perceived major security incident (which may prove to not be o
 
 ### Incident Labels
 
-Use proper labels. The correct use of dedicated [scoped incident labels](#incident-labels) is critical to the accuracy of the data in the incident tracker and the subsequent metrics calculated from it. A list of all labels can be found in the [GitLab SIRT group](https://internal.gitlab.com/handbook/security/security_operations/sirt/team/groups_projects/gitlab_sirt/#labels) internal handbook page.
+Use proper labels. The correct use of dedicated scoped incident labels is critical to the accuracy of the data in the incident tracker and the subsequent metrics calculated from it. A list of all labels can be found in the [GitLab SIRT group](https://internal.gitlab.com/handbook/security/security_operations/sirt/team/groups_projects/gitlab_sirt/#labels) internal handbook page.
 
 ## Exceptions
 
