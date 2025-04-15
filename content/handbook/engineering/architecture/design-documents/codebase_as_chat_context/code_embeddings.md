@@ -115,19 +115,15 @@ sequenceDiagram
 
 | Field Name | Type | Description |
 |------------|------|-------------|
+| id | keyword | hash of the filename and chunk content |
 | project_id | bigint | Filter by projects |
 | traversal_ids | keyword | Efficient group-level searches |
-| filename | keyword | Filter by code paths |
+| path | keyword | Relative path including file name |
 | content_type | keyword | Whether it's the full blob content or a node extracted from a chunker. Example options: `file\|class\|function\|imports\|constant` |
 | content | text | Code content |
-| content_range | keyword | `"#{offset}:#{length}"` which can be used to rebuild the full file or restore order of chunks |
-| hash | keyword | hash of the filename and chunk content, also the unique identifier |
+| source | keyword | `"#{blob.id}:#{offset}:#{length}"` which can be used to rebuild the full file or restore order of chunks |
 | language | keyword | Language of content |
 | embeddings_v1 | vector | Embeddings for the content |
-| archived | boolean | Project archive status |
-| ref_id |  | Blob id (added automatically) |
-| ref_version |  | Timestamp to handle orphaned data (added automatically) |
-| unique_identifier |  | Must be globally unique. This will be a hash of the filename and chunk content (added automatically) |
 
 ### Options for supporting multiple branches
 
