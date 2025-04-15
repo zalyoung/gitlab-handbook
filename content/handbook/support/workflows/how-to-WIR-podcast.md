@@ -20,7 +20,7 @@ Much of this is done in the [Support Week in Review Project](https://gitlab.com/
       - Before the Recording:
          - Prepare the SSAT input
             - SSAT is gathered into the SSAT issue in the [SWIR project](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues).
-            - Some SSAT input will have been provided by managers during the week, but most will need to be ingested using the `populate_ssat` pipeline.
+            - Some SSAT input will have been provided by managers during the week, but most will need to be ingested using the `populate_ssat` job from the pipeline.
             - Run `populate_ssat` job - this will gather any open positive SSAT into the SSAT issue
             - Review the content (automated or other) and make corrections and remove anything that is not actually positive. If there is a lot of content, consider reducing the number down by removing some that are short and not personalised - use your judgement here.  Remove the line about "automated content". 
          - Prepare the digest issue
