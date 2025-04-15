@@ -151,8 +151,8 @@ Our [security incident communication plan](/handbook/security/security-operation
 
 If during the course of investigating a security event the incident itself, materials involved in the incident (stored data, traffic/connections, etc), or actions surrounding the incident are deemed illegal in the United States, it may be necessary (and advisable) to engage U.S. law enforcement.
 
-1. The Security Engineer On-Call will immediately escalate to the VP of Security Operations to raise awareness of the legal concern.
-1. Following review, the Engineer and VP of Security Operations will engage the CISO of Security and VP of Legal for validation of next steps.
+1. The Security Engineer On-Call will immediately escalate to the Security Operations Manager On-Call and the VP of Security Operations to raise awareness of the legal concern.
+1. Following review, the VP of Security Operations will engage the CISO of Security and VP of Legal for validation of next steps.
 1. The VP of Security Operations will then contact the appropriate local law enforcement agencies, state agencies or US (federal) government agencies.
 
 ### When You Join an Incident Channel or Call
