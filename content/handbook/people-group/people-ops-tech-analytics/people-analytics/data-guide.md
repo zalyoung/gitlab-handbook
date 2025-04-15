@@ -169,6 +169,7 @@ Underneath each model is a clean lineage of dimensions and facts that can also b
 |fct_team_member_status|Fact|One row per employee_id, employment_status and status_effective_date combination|Workday|Completed| [DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_member_status) |
 |fct_team_status|Fact|One row per employee_id and valid_from combination|Workday|Completed| [DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_status) |
 |fct_team_member_absence|Fact|One row per Team Member ID, pto_uuid and absence_date combination|Time Off By Deel|Completed|[DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_member_absence)|
+|fct_team_member_history|Fact|One row per Team Member ID and hired date|Workday|Completed|[DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_member_history)|
 |fct_team_member_job_history|Fact|One row per Team Member ID and `job_profile_workday_id` |Workday|Completed|[DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_team_member_job_history)|
 |fct_team_member_locality|Fact||Workday|Planned| DBT docs |
 |fct_team_demographic|Fact||Workday|Planned| DBT docs |
@@ -463,11 +464,41 @@ GROUP BY 1;
 
 </details>
 
+### fct_team_member_history
+
+This table contains team members' employment history, details such as when they were hired and left the organisation. This table is a [Type 2 SCD)](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
+
+The grain of this table is one row per `team member ID` and `hired date` combination.
+
+<details>
+<summary markdown="span">Query - Team Roster with Tenure Information </summary>
+
+*Shows all current team members with their length of service, helping managers understand their team composition and recognize long-term employees.*
+
+```sql
+SELECT 
+    t.employee_id,
+    e.full_name,
+    e.position,
+    e.team_manager_name,
+    t.hire_date,
+    DATEDIFF('month', t.hire_date, CURRENT_DATE()) AS tenure_months,
+    ROUND(DATEDIFF('year', t.hire_date, CURRENT_DATE()), 1) AS tenure_years
+FROM "PROD".common.fct_team_member_history t
+JOIN PROD.COMMON_MART_PEOPLE.MART_TEAM_MEMBER_DIRECTORY e 
+    ON t.employee_id = e.employee_id AND is_current= TRUE -- Team member's current information
+WHERE e.team_manager_name = 'MANAGER_FULL_NAME'           -- Replace with preferred full name of the people manager
+  AND t.term_date IS NULL                                 -- Only current team members
+ORDER BY tenure_years DESC
+```
+
+</details>
+
 ### fct_team_member_job_history
 
 This table contains team members' job history. Sensitive columns like `job_grade` are masked using [dynamic masking](/handbook/enterprise-data/platform/#dynamic-masking) and the fields are only visible to team members with the **analyst_people** role assigned in Snowflake. This table is a [hybrid SCD (Type 0 + Type 2)](/handbook/enterprise-data/platform/edw/#slowly-changing-dimensions--snapshots).
 
-The table includes information from **Workday**, . The grain of this table is one row per `team member ID` and `workday_job_profile_id` combination.
+The table includes information from **Workday**, . The grain of this table is one row per `team member ID` and `workday job profile id` combination.
 
 <details>
 <summary markdown="span">Query - Career Progression Path Analysis (Most common job transitions)</summary>
