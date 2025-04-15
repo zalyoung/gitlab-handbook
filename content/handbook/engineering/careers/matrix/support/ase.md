@@ -27,7 +27,7 @@ _(See the [Emotional Intelligence Handbook page]((/handbook/leadership/emotional
 
 ### Leadership Competencies
 
-<!-- {{% include "includes/engineering-careers/senior-leadership-competency.md" %}} 
+<!-- {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
      removed in order to differentiate between development and support  -->
 - Able to communicate clearly and effectively, both orally and in writing, in
   all business settings
@@ -49,10 +49,10 @@ _(See the [Emotional Intelligence Handbook page]((/handbook/leadership/emotional
 
 ### Technical Competencies
 
-<!-- {{% include "includes/engineering-careers/senior-technical-competency.md" %}} 
+<!-- {{% include "includes/engineering-careers/senior-technical-competency.md" %}}
      removed in order to differentiate between development and support  -->
 
-- Able to coach and mentor to others
+- Able to coach and mentor others
 - Able to troubleshoot and resolve complex problems in any part of the GitLab
   product
 - Able to contribute improvements to product documentation
