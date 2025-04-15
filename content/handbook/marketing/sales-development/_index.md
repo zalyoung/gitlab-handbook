@@ -1049,7 +1049,11 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 #### Claude Sales Dev BDR/SDR User Guide
 
 - [Prompt Library](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) - a place to find prompts the Sales Dev Org is currently using and collaborating on
-- [Example Claude Project](https://claude.ai/project/92974b9b-f70e-4d74-9288-20c443617e9c) - an example of how information can be stored to a pre-made Project. Pre-made prompts are also saved and shared on the same project in the Activity tab of this Project. Please feel free to use and/or duplicate this Project and the Saved Prompts for your purposes. We have the #sales_dev_claude_insights Slack channel or the [Prompt Library Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) that you can use to report your wins to the team.
+- [Business Development Prospecting Claude Project](https://claude.ai/project/92974b9b-f70e-4d74-9288-20c443617e9c) 
+- [AMER Calling Analysis Claude Project](https://claude.ai/project/0196022b-a414-7215-9cf0-22ec8e19f9aa) 
+- [EMEA Calling Analysis Claude Project](https://claude.ai/project/01961368-cd7e-7652-a1e3-3d2427367998)
+  - [Report Template for Calling Projects](https://gitlab.my.salesforce.com/00OPL00000Fy1Ws) 
+  - Above are some examples of how information can be stored to a pre-made project. Pre-made prompts are also saved and shared on the same project in the Activity tab of this Project. Please feel free to use and/or duplicate this Project and the Saved Prompts for your purposes. We have the #sales_dev_claude_insights Slack channel or the [Prompt Library Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) that you can use to report your wins to the team.
 
 **Limitations**
 
