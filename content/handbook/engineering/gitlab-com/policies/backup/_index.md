@@ -23,7 +23,7 @@ Customer data is stored in the following locations:
 ## Not in Scope
 
 1. Customer Data stored in the Redis cache
-   1. Data that queued for processing
+   1. Data queued for processing
    1. Session data and other cached data
 
 ## Roles & Responsibilities
