@@ -116,10 +116,11 @@ I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and 
 1. [Work setup](https://gitlab.com/dnsmichi/dotfiles)
 1. [GitLab profile](https://gitlab.com/dnsmichi)
 1. [Social profiles](https://dnsmichi.at/about/)
+1. Blog: [My 5th Year at GitLab: Developer Advocate Journey, AI Adventures, and Finding Balance](https://dnsmichi.at/2025/03/02/my-5th-year-at-gitlab-developer-advocate-journey-ai-adventures-and-finding-balance/)
 1. Blog: [4 years all-remote at GitLab](https://dnsmichi.at/2024/03/02/michi-limited-edition-4-years-all-remote-at-gitlab/)
-1. Blog: [3 years all-remote at GitLab](https://dnsmichi.at/2023/03/02/three-years-all-remote-at-gitlab-know-the-unknown-unknowns-growth-life-work/)
-1. Blog: [2 years all-remote at GitLab](https://dnsmichi.at/2022/03/02/2-years-all-remote-and-2022-vision/)
-1. Blog: [1 year all-remote at GitLab](https://dnsmichi.at/2021/03/02/my-1st-year-all-remote-at-gitlab/)
+1. Blog: [Three years all-remote at GitLab: Know the unknown unknowns (growth, life, and work)](https://dnsmichi.at/2023/03/02/three-years-all-remote-at-gitlab-know-the-unknown-unknowns-growth-life-work/)
+1. Blog: [2 years all-remote and my 2022 vision](https://dnsmichi.at/2022/03/02/2-years-all-remote-and-2022-vision/)
+1. Blog: [My 1st year all-remote at GitLab](https://dnsmichi.at/2021/03/02/my-1st-year-all-remote-at-gitlab/)
 
 ## Thanks for reading
 
