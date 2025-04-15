@@ -303,3 +303,25 @@ The Lead Cloud Program Manager sets the direction and roadmap for all cloud prog
 - Great project & program management skills, ability to leverage, manage & lead virtual teams
 
 
+## Cloud Cosell GTM Specialist
+
+A Cloud Cosell Go-To-Market (GTM) Specialist focuses on developing and executing strategies to facilitate coselling joint products and solutions to  ensure customer acquisition. They work with many GitLab associates including field sellers, sales leaders, ecosystem sales managers, marketers, solution architects, and product managers to drive adoption and growth of joint products. They also work in tandem with their cloud counterparts within the AWS NGDE team.
+
+### Responsibilities
+- GTM Strategies for evangelizing joint cloud products, including market positioning, messaging, and go-to-market plans.
+- Buyer/Market Feedback for cloud coselling. They also capture and share competitive information with product and product marketing.
+Product Positioning and Messaging:refining messaging and positioning for cloud products. 
+- Work closely with sales, marketing, product, and engineering teams to ensure alignment and effective execution of GTM plans. 
+- Cloud Evangelism to champion joint products and solutions to cloud sellers and related teams. Provide support at industry and joint marketing events. Work with GitLab field sales to deliver business value, demonstrate product functionality, and provide a comprehensive overview of key business use cases.
+- Customer Acquisition and Retention to acquire new customers and retain existing ones through effective GTM initiatives.
+
+### Requirements
+- Bachelor’s degree preferably with some experience in cloud coselling.
+- Strong understanding of cloud computing technologies and trends.
+- Strong cloud coselling experience preferably in the DevOps space.
+- Strong experience in driving Go-To-Market initiatives, technical partnerships, or similar roles.
+- Strong communication, presentation, and interpersonal skills.
+- Ability to work with a cross-functional team.
+- Strong analytical and problem-solving skills.
+- Strong business acumen and a passion for cloud computing.
+
