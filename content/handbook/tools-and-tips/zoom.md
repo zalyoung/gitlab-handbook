@@ -164,14 +164,9 @@ Your settings will now be updated to record zoom meetings in full HD.
 It's recommended you enable the [Waiting Room](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063329) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).
 There are a few steps to get this enabled for personal meetings:
 
-1. Navigate to the [settings page](https://gitlab.zoom.us/profile/setting) in your browser.
-1. In the "Meeting" tab under "Security", find the option "Waiting room" and enable it for all participants.
-1. Navigate to the [meetings page](https://gitlab.zoom.us/meeting).
-1. Select the top tab "Personal Room".
-1. Towards the bottom of the page, select "Edit" and check the "Waiting Room" box.
-1. Select "Save".
-
-Now all meetings that use your Personal Meeting ID (PMI) will require you to "admit" anyone who joins the meeting.  If you use this feature, please be sure to note in the meeting invite itself that this has been enabled.
+1. Go to [settings page](https://gitlab.zoom.us/profile/setting).
+1. In the [Meeting](https://gitlab.zoom.us/profile/setting?tab=meeting) tab under `Security`, find the option `Waiting room` and enable it for all participants.
+1. You can go to `Customize Waiting Room` to use a GitLab branded video or logo for participants in the waiting room to see before the host joins the meeting.
 
 ### Enable passcodes for all meetings
 
