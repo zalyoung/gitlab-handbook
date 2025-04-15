@@ -38,7 +38,8 @@ Much of this is done in the [Support Week in Review Project](https://gitlab.com/
          - From the SWIR L&R tab: scroll to the bottom of `L&R FRT SLA achievement - Last 4 Weeks` and capture the current week
       - in text, enter key metrics into the appropriate sections of the SWIR digest issue
          - you can use the following for formatting
-         ``` 
+
+         ``` markdown
          * **SSAT**: 
          * **FRT**: 
             * **High**: 
@@ -46,6 +47,7 @@ Much of this is done in the [Support Week in Review Project](https://gitlab.com/
             * **Low**: 
          * **NRT**: 
          ```
+
       - Copy US Gov stats from this [doc](https://docs.google.com/document/d/1ypFHpm3McUNcUVCgZY1aZMlCOIP1jaEQp8oYUO8G36U/edit?tab=t.0#heading=h.7uk6mblh5p2k) from earlier in the week
       - gather pairing data by observing the number of issues against the current [pairing milestone](https://gitlab.com/groups/gitlab-com/support/-/milestones?search_title=pairing&state=&sort=) and compare to the previous week's digest issue data for the week on week (WoW) metric.
       - read and record this section during the recording call.
