@@ -233,7 +233,7 @@ Yes you can!
 Submit a [new application setup issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?description_template=okta_app_change) on the Okta project page for your application.
 We will work with you to verify details and provide setup instructions.
 
-If you are having problems with being asked for multiple MFA authentications during the day, please [log an issue](https://gitlab.com/gitlab-com/business-technology/change-management/issues) and we can look into it.
+If you are having problems with being asked for multiple MFA authentications during the day, please [log an issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new), tag `gitlab-com/gl-security/corp/identity`, and we can look into it.
 
 ### Why does GitLab.com ask for an additional MFA when I login via Okta?
 
