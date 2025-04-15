@@ -17,7 +17,7 @@ title: "Support Career Framework: Assigned Support Engineer"
 
 ### Emotional Intelligence Competencies
 
-_(See the [Emotional Intelligence Handbook page]((/handbook/leadership/emotional-intelligence/)))_
+_(See the [Emotional Intelligence Handbook page](/handbook/leadership/emotional-intelligence/))_
 
 - Able to build and maintain healthy relationships with customers at all levels
 - Able to influence others to make necessary decisions and take necessary actions
