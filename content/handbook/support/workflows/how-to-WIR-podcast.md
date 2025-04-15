@@ -19,20 +19,36 @@ Much of this is done in the [Support Week in Review Project](https://gitlab.com/
    - Editor:
       - Before the Recording:
          - Prepare the SSAT input
-            - view the SSAT issue in the [SWIR project](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues).  If there is no content, run `populate_ssat` pipeline - this will gather any open positive SSAT into the SSAT issue
-            - review the content (automated or other) and make corrections and remove anything that is not actually positive. If there is a lot of content, consider reducing the number down by removing some that are short and not personalised - use your judgement here.
-         - prepare the digest issue
+            - SSAT is gathered into the SSAT issue in the [SWIR project](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues).
+            - Some SSAT input will have been provided by managers during the week, but most will need to be ingested using the `populate_ssat` pipeline.
+            - Run `populate_ssat` pipeline - this will gather any open positive SSAT into the SSAT issue
+            - Review the content (automated or other) and make corrections and remove anything that is not actually positive. If there is a lot of content, consider reducing the number down by removing some that are short and not personalised - use your judgement here.  Remove the line about "automated content". 
+         - Prepare the digest issue
             - run the `create_digest_issue` job.
-            - edit the digest issue and add a phrase of the week
-            - work with the Metrics Analyst (below) to ensure the metrics section is populated
+            - Edit the digest issue and add a phrase of the week
+            - Work with the Metrics Analyst (below) to ensure the metrics section is populated
       - After the recording
          - [Publish](#publishing-the-podcast) the podcast
          - [Prepare SWIR for the next week](#prepare-swir-for-the-next-week)
    - Metrics analyst:
-      - take screenshots of the key metrics from the [Support Metrics Dashboard - Suport KPIs](https://gitlab.zendesk.com/explore/dashboard/D9951578C8EC2AC68212FD96F1B5DB90C7E9BD20D7119D47F08BD82BC5616498/tab/36611332) and insert them into the SWIR digest issue. Change your profile timezone in Zendesk to Pacific Time before screen grabbing this so that it is comparable to previous week's graphs (in your Zendesk profile, look for "Time zone" in the left side bar)
-      - in text, enter key metrics into the appropriate sections of the SWIR digest issue (US Fed stats are shared by a manager in the private channel spt_managers-internal - copy and paste these in if you have access. Alternatively ask a manager to copy these to you in Slack. It is also ok to proceed without them on occasion if necessary).
-      - gather pairing data by observing the number of issues against the current [pairing milestone](https://gitlab.com/groups/gitlab-com/support/-/milestones?search_title=pairing&state=&sort=) and compare to the previous week's digest issue data for the week on week (WoW) metric
-      - read and record this section during the recording call
+      - take screenshots of the key metrics from the [MM: Support Suport KPIs](https://gitlab.zendesk.com/explore/studio#/dashboards/3DC60497A02C9E0EDB02ECE9C20153733D4AF220B656C550418FF2E42B7E2329) Zendesk dashboard and insert them into the SWIR digest issue. The following 4 items need to be included:
+         - From the SWIR tab: the top row of 4 graphs, from SSAT through to volume
+         - From the SWIR tab: scroll to the bottom of `Total FRT SLA achievement - Last 4 Weeks` and capture the current week
+         - From the SWIR L&R tab: the top row of 4 graphs, from SSAT through to volume
+         - From the SWIR L&R tab: scroll to the bottom of `L&R FRT SLA achievement - Last 4 Weeks` and capture the current week
+      - in text, enter key metrics into the appropriate sections of the SWIR digest issue
+         - you can use the following for formatting
+         ``` 
+         * **SSAT**: 
+         * **FRT**: 
+            * **High**: 
+            * **Normal**: 
+            * **Low**: 
+         * **NRT**: 
+         ```
+      - Copy US Gov stats from this [doc](https://docs.google.com/document/d/1ypFHpm3McUNcUVCgZY1aZMlCOIP1jaEQp8oYUO8G36U/edit?tab=t.0#heading=h.7uk6mblh5p2k) from earlier in the week
+      - gather pairing data by observing the number of issues against the current [pairing milestone](https://gitlab.com/groups/gitlab-com/support/-/milestones?search_title=pairing&state=&sort=) and compare to the previous week's digest issue data for the week on week (WoW) metric.
+      - read and record this section during the recording call.
    - Narrator(s):
       - analyze the content of the section you'll be narrating: click on each link and understand what is being expressed by the point
       - read and record the content of the point
@@ -69,8 +85,6 @@ The purpose of including SSAT content in the Support Week in Review is two-fold:
 1. To highlight the excellent work on the part of individuals and groups of individuals that take place in ticket interactions.
 
 We do not include every SSAT review every week, both for brevity and because not every SSAT review fulfills the purposes above.
-
-Depending on what [managers reviewing SSAT](/handbook/support/workflows/how-to-respond-to-feedback/#who-is-responsible-for-reviewing-support-satisfaction-feedback) have populated the weekly SSAT issue with as a SWIR host you may need to add additional content.
 
 With the above purposes in mind, SSAT comments in the Support Week in Review should:
 
