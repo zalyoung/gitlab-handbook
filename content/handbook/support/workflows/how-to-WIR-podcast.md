@@ -76,7 +76,7 @@ Once you have the compiled audio:
 
 #### Prepare SWIR for the next week
 
-1. Run the `close_week_and_create_new_milestone` pipeline
+1. Run the `close_week_and_create_new_milestone` job
 1. You're done!
 
 #### Notes on SSAT content
