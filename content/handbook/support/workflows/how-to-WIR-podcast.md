@@ -31,7 +31,7 @@ Much of this is done in the [Support Week in Review Project](https://gitlab.com/
          - [Publish](#publishing-the-podcast) the podcast
          - [Prepare SWIR for the next week](#prepare-swir-for-the-next-week)
    - Metrics analyst:
-      - take screenshots of the key metrics from the [MM: Support Suport KPIs](https://gitlab.zendesk.com/explore/studio#/dashboards/3DC60497A02C9E0EDB02ECE9C20153733D4AF220B656C550418FF2E42B7E2329) Zendesk dashboard and insert them into the SWIR digest issue. The following 4 items need to be included:
+      - take screenshots of the key metrics from the [MM: Support KPIs](https://gitlab.zendesk.com/explore/studio#/dashboards/3DC60497A02C9E0EDB02ECE9C20153733D4AF220B656C550418FF2E42B7E2329) Zendesk dashboard and insert them into the SWIR digest issue. The following 4 items need to be included:
          - From the SWIR tab: the top row of 4 graphs, from SSAT through to volume
          - From the SWIR tab: scroll to the bottom of `Total FRT SLA achievement - Last 4 Weeks` and capture the current week
          - From the SWIR L&R tab: the top row of 4 graphs, from SSAT through to volume
