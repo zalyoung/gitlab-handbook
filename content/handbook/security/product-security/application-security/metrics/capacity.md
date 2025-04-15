@@ -128,7 +128,7 @@ Where:
 
 ## FAQ
 
-### What labels I should add to have my work being taken into consideration in the capacity metrics?
+### What labels should I add to have my work considered in the capacity metrics?
 
 You need to have the `AppSecWorkType::` as well as the `AppSecWorkFlow::` label set
 
