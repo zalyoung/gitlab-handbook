@@ -108,7 +108,7 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
   - This is arbitrary to ensure a high entropy.
 - Maximum number of random bytes is 65: `(maximum bytes before encoding) - (max size of <routing-payload>) - (size of <random-bytes-length>) = 225 - 159 - 1 = 65`
   - This ensures we can always encode the biggest `<routing-payload>`.
-- Minimum size of `<base64-payload>` is 27 bytes (20 bytes before encoding: `(min size of <random-bytes>) + (min size of <routing-payload>) + (size of <routing-payload-length>) = 3 + 16 + 1 = 20`)
+- Minimum size of `<base64-payload>` is 27 bytes (20 bytes before encoding: `(min size of <random-bytes>) + (min size of <routing-payload>) + (size of <routing-payload-length>) = 16 + 3 + 1 = 20`)
 - Maximum size of `<base64-payload>` is 300 bytes (225 bytes before encoding).
   - This is arbitrary and should be enough to carry all the information we need for now.
   - An exception should be raised if `<base64-payload>` is bigger than 300 bytes.
