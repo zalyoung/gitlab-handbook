@@ -1,8 +1,8 @@
 ---
-title: "The Infrastructure SaaS Platforms OKRs"
+title: "The Infrastructure Platforms OKRs"
 ---
 
-## OKRs in SaaS Platforms
+## OKRs in Platforms
 
 ### Creating OKRs
 

@@ -332,7 +332,7 @@ The Director, Billing and Collections is a [grade 11](/handbook/total-rewards/co
 
 ## Career Ladder
 
-The next step in the Billing & Collections job family is to move to the [Revenue Accounting](/job-families/finance/revenue-accounting/) job family.
+The next step in the Billing & Collections job family is to move to the [Revenue Accounting](/job-families/finance/corporate-controller/revenue-accounting/) job family.
 
 ## Hiring Process
 

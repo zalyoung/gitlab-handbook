@@ -107,7 +107,7 @@ Deploy team focus is configuration, deployment, and operation of GitLab as a who
 
 The following people are members of the Distribution:Build Team:
 
-{{< team-by-manager-slug manager="plu8" team="Build" >}}
+{{< team-by-manager-slug manager="denisra" team="Build" >}}
 
 ### Distribution Deploy Team
 
@@ -345,7 +345,7 @@ The following important areas of the GitLab Handbook impact how we work and are 
 - [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
 - [Principles of our company strategy](/handbook/company/strategy/#principles)
 - [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
-- [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/)
+- [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)
 
 ## Work/life harmony
 
@@ -418,18 +418,23 @@ request.
 
 ## Engaging Distribution for expertise in support
 
-There are occasions where the experise of the Distribution team may be needed in
-support of a customer issue. When this does occur, the appropriate method of requesting
-our engagement is by opening an issue on the [Distribution team tracker](https://gitlab.com/gitlab-org/distribution/team-tasks)
-using the `Support Request` template. This process allows us to track time involved
-and ensure that the right parties are involved at the correct time.
+GitLab provides a unified process to open a request for help (RFP) to support customers. This process
+is in place to ensure we have a single source of truth for those, so that we better
+collaborate cross-functionally as, many times, the requests actually require expertize
+of multiple areas of the product, or is not initially clear which area is more suitable
+to support the customer. When sharing the information with multiple relevant groups, within the
+same support request process, we're able to get to a solution much more efficiently.
 
-Requests should be opened **two or more** business
-days before action is needed to ensure the team has time to prepare.
+To open an RFP, refer to the procedures of our
+[how to get help](../../../../../support/workflows/how-to-get-help.md)
+handbook page.
+
+This process allows us to track time involved
+and ensure that the right parties are involved at the correct time.
 
 ## Trivia
 
-How did Distribution get its name? We iterated, as always. "Distribution" was chosen as better than "Install" when renaming the original "Build" team, [live on an AMA](https://www.youtube.com/watch?v=gSyAFN6LPHU) with our CEO Sid. Since then we have [iterated further](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/936) in order to grow the team, and now have subgroups for "Build" and "Deploy".
+How did Distribution get its name? We iterated, as always. "Distribution" was chosen as better than "Install" when renaming the original "Build" team, [live on an AMA](https://www.youtube.com/watch?v=gSyAFN6LPHU) with our co-founder, Sid. Since then we have [iterated further](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/936) in order to grow the team, and now have subgroups for "Build" and "Deploy".
 
 ## Dashboards
 

@@ -35,7 +35,7 @@ You will access your GitLab installation using SSH. As a part of this class, you
 
     > If you encounter an error like: WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!, you may need to reset your SSH known hosts. To do this, run the command `ssh-keygen -R <vm_ip_address>`.
 
-1. Press Enter. 
+1. Press Enter.
 
 1. If your system displays an authentication warning, type `yes` and press Enter.
 
@@ -65,7 +65,7 @@ The `gitlab-ctl` command line utility provides you with tools for managing and t
     run: sidekiq: (pid 911) 110s; run: log: (pid 909) 110s
     ```
 
-    > The status command shows you an overview of the GitLab components running on your server. 
+    > The status command shows you an overview of the GitLab components running on your server.
 
 1. Next, try stopping a GitLab component, using the command `sudo gitlab-ctl stop nginx`.
 
@@ -85,7 +85,7 @@ The `gitlab-ctl` command line utility provides you with tools for managing and t
 
 ## Task C. Interacting with GitLab Rails
 
-GitLab Rails is a command line tool which allows you to interact with GitLab directly through Ruby on Rails. This tool can be valuable for troubleshooting and fixing instance errors. 
+GitLab Rails is a command line tool which allows you to interact with GitLab directly through Ruby on Rails. This tool can be valuable for troubleshooting and fixing instance errors.
 
 1. To access GitLab Rails, run the command `sudo gitlab-rails console`.
 
@@ -103,7 +103,7 @@ GitLab Rails is a command line tool which allows you to interact with GitLab dir
 
 ## Task D. Interacting with PostgreSQL
 
-GitLab uses PostgreSQL for all application related data. Sometimes it is helpful to view this data through `psql`. 
+GitLab uses PostgreSQL for all application related data. Sometimes it is helpful to view this data through `psql`.
 
 1. To access PostgreSQL, run the command `sudo gitlab-psql -d gitlabhq_production`.
 

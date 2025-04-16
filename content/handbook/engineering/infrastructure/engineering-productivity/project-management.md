@@ -16,7 +16,7 @@ The Engineering Productivity team has diverse responsibilities and reactive work
 
 ## Weighting
 
-We follow the [department weighting guidelines](/handbook/engineering/infrastructure/test-platform/#weights) to relatively weight issues over time to understand a milestone velocity and increase predictability.
+We follow the [department weighting guidelines](/handbook/engineering/infrastructure-platforms/developer-experience/#weights) to relatively weight issues over time to understand a milestone velocity and increase predictability.
 
 When weighting, think about knowns and complexity related to recently completed work. The goal with weighting is to allow for some estimation ambiguity that allows for a consistent predictable flow of work each milestone.
 

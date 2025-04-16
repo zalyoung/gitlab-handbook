@@ -32,13 +32,25 @@ There are 3 issue templates in [this directory](https://gitlab.com/gitlab-com/bu
 
 It is the Business Sponsor's responsibility to provide information and obtain required approvals for the SKU changes being requested. Steps 1-4 of the SKU issue template must be completed and have required approvals obtained before the SKU can be configured. **Please assign the SKU Request issue to yourself by clicking on the `Edit` button on the right-hand panel of the issue.**
 
+Generally, it takes 6-8 weeks for a new SKU to be created. This timing includes 4 major steps. This [flow](https://lucid.app/lucidchart/bc3b2fae-8007-4ecc-b246-83e078ba7b6e/edit?viewport_loc=2618%2C46%2C3328%2C1592%2C0_0&invitationId=inv_700137df-67d0-4833-a808-2ebc12d27f33) outlines the steps to create the SKU in our Enterprise Applications (Salesforce, Zuora) & CDOt (webstore). This does not include the time it takes to provision customer access to features in GitLab.
+
+1. SKU requirements gathering and cross-functional approvals
+2. Enterprise Apps SKU build & test data generation
+3. User acceptance testing and cross-functional approvals
+4. SKU deployment
+
 {{% alert color="warning" %}}
 To reduce the overall time required to get a new SKU reviewed and approved, consider making an accompanying slack channel similar to [this one](https://gitlab.slack.com/archives/C03KMK6LASY).
 {{% /alert %}}
 
-### Step 1. Product Information
+## Step 1. SKU Requirements Gathering & Cross Functional Approvals
 
-This section business and technical requirements for product offerings. Most of these questions will have been answered if all steps of the [Product Launch Process](/handbook/product/product-processes/product-launch/) were completed. Please answer these to the best of your ability in the SKU issue.
+**Owner:** Business Sponsor or TPM if assigned
+<br>**Expected Timing:** 2-3 weeks
+
+### Step 1a. Product Information
+
+This section covers business and technical requirements for product offerings. Most of these questions will have been answered if all steps of the [Product Launch Process](/handbook/product/product-processes/product-launch/) were completed. Please answer these to the best of your ability in the SKU issue.
 
 **General Overview/Business Requirements**
 
@@ -47,6 +59,7 @@ This section business and technical requirements for product offerings. Most of 
 2. `Desired Go-Live Date`
     - Provide a specific date of when the new SKU is expected to be used.
     - Please note the date helps with intake and prioritization of the request and does not necessarily mean the SKU will be ready for sale by this date
+    - Remember that from requirements to deployment, a SKU takes 6-8 weeks to create.
 3. `Product/Service Type for Quoting`
     - Identify whether the SKU is a base product (i.e. Premium, Ultimate, Dedicated, etc.) or an add-on product (i.e. Storage, Professional Services, etc.)
 4. `How will the SKU be sold to Customers?`
@@ -126,10 +139,10 @@ In the issue template, three asterisks are considered a "non-standard" configura
 
 **Data Requirements**
 
-- Assign Sushma N `@snalamaru` and Israel Weeks `@iweeks` for input on the Product Tier, Delivery, and Deployment fields for this offering based on the definitions in the [GitLab Handbook](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/)
+- Assign Israel Weeks `@iweeks` for input on the Product Tier, Delivery, and Deployment fields for this offering based on the definitions in the [GitLab Handbook](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/)
 - This is required to configure the SKU and ensure data integrity
 
-### Step 2. Cross-functional Approval For Pricing and Non-Standard Requests
+### Step 1b. Cross-functional Approval For Pricing and Non-Standard Requests
 
 {{% alert color="warning" %}}
 **Pricing approval is always required.** Additional approvals from Fulfillment and Sales Operations may be required based on the requirements requested in the prior step.
@@ -139,7 +152,7 @@ In the issue template, three asterisks are considered a "non-standard" configura
 
 - Provide a link to the Cost of Goods Sold (COGS) spreadsheet (Make a copy of [this template](https://docs.google.com/spreadsheets/d/1em_4RiKOzvA3W9N4FxjmDxH6Rtr4my_o6ZifSXEWz0o/edit#gid=1853638008))
 - Provide a justification if project margins are below 55% for internally delivered services
-- Obtain approval from the `Senior Director of Product Monetization`
+- Obtain approval from @justinfarrris in the SKU issue
 
 **Fulfillment approval required if**:
 
@@ -155,11 +168,11 @@ In the issue template, three asterisks are considered a "non-standard" configura
 - Any non-standard (***) Charge Type, Charge Model, Charge Timing requests
 - Obtain approval from the `Senior Manager of Deal Desk`
 
-### Step 3. Finance
+### Step 1c. Finance
 
 Finance Approval is required for any **non-standard revenue recognition approach**. The Business Sponsor should communicate with the directly responsible individual (DRI) for input in Step 3.
 
-### Step 4. Management Approvals
+### Step 1d. Management Approvals
 
 Assign the Issue to the management approvers in Step 4. It is the Business Sponsor's responsibility to ensure all prior requirements and approvals are obtained before progressing to Step 5.
 
@@ -173,6 +186,153 @@ The required approvals will differ depending on whether it is a Professional Ser
 - If the SKU will be sold through the channel, assign the issue to the `Sales Operations Analyst` listed in Step 6 to add the SKU to the quarterly update issue, the upcoming Pricebook and any other necessary information
 - If the SKU requires a service description, it is the Business Sponsor's responsibility to complete step 7
 {{% /panel %}}
+
+## Step 2: SKU Build & Test Generation Data
+
+**Owner:** Enterprise Applications
+<br>**Expected Timing:** 2-3 weeks
+
+Enterprise Applications and systems team build the SKU in test1 staging.
+
+Enterprise Applications generates test data to be utilized during user acceptance testing based on the approved test cases.
+
+## Step 3: User Acceptance Testing & Cross Functional Approvals
+
+**Owner:** Business Sponsor or TPM if assigned
+<br>**Expected Timing:** 1 week for test case generation and approvals (can be done in parallel with SKU Build).  2 weeks for testing and sign-off
+
+### Step 3a. Create the UAT issue
+
+There is a UAT issue template in 
+ [this directory](https://gitlab.com/gitlab-com/Product/-/issues/new?issuable_template=SKU-UAT-template). Open an issue in and use the `SKU UAT template`.
+
+ **UAT Type**: This section is to determine whether this user acceptance testing is for an existing SKU or a new SKU.
+
+ **Pre-Testing Checklist**:
+
+- *Stakeholder & Timeline Alignment*
+  - This section is used to outline the [timeline] for UAT testing
+- *Test Case Readiness*
+  - This section is used to:
+    - Create a copy of the master spreadsheet and link this spreadsheet in this section of the issue
+    - Check that all DRIs have approved the test cases
+- *System Readiness*
+  - This section to be completed by Enterprise Apps & Fulfillment
+
+**Testing DRIs**
+
+These teams are typically involved in SKU testing:
+
+- Deal Desk
+- Billing & AR
+- Fulfillment
+- Data
+- Revenue
+- Finance
+
+Each team will need to confirm:
+
+- The expected DRI for that team’s testing
+- The team can test during the testing availability dates for that team established in the timeline alignment above
+- That they approve the test cases to be tested
+
+**Test Scenarios** 
+<br> Use this section to link to the test cases
+
+**Bugs Identified**
+<br> This section will be used to track bugs during the user acceptance testing.
+
+**Final Testing Sign Off**
+<br>This section will be used to receive final sign off across the cross-functional teams involved in testing
+
+### Step 3b: Estimate the UAT Timeline
+
+Several key dates and timing need to be established and approved by the [Testing DRIs]:
+
+- Date when Ent Apps will complete their SKU build in staging/test environment
+- Date when UAT test cases should be finalized and approved by all Testing DRIs
+- Date when Ent Apps will have test data generated
+- Date when Cross-functional Testing DRIs will conduct their testing
+  - 2-3 biz days: Q2C & Deal Desk
+  - 2-3 biz days: Billing & AR
+  - 2-3 biz days: Fulfillment, Data, Revenue, FP&A
+- Date when User acceptance final sign off/approval
+
+Outline the estimated dates above and then ensure that these teams approve the timeline:
+
+- All [Testing DRIs]
+- Caroline Swanson from Enterprise Applications
+
+### Step 3c: Create Draft of UAT Test Cases
+
+- Create a copy of the [master spreadsheet](https://docs.google.com/spreadsheets/d/1awATKGhVKLRh3LpyVllCnCQYsV4vjakoijsW5K8dY_4/edit?gid=2069598564#gid=2069598564)
+- Populate columns A through J in the spreadsheet
+- **Column A:** test case #. Use this format for test case numbering:
+  - TC (test case)
+  - Short-hand for the SKU. For example Duo Enterprise would be DE
+  - 01 (test case number)
+    - So for Duo Enterprise test case #1 would be: TC-DE-01
+- **Column B:** Purchase method
+  - This would be either sales-assisted or self-service
+- **Column C:** Deal Type
+  - This would be new, upgrade, downgrade, renewal, cancellation
+- **Column D:** Purchase Path:
+  - This would be either Direct or Partnership
+- **Column E:** Term
+  - Term is the length of the contract (12 months, 24 months, 36 months)
+- **Columen F:** Ramp?
+  - This would be Yes or No whether the price ramps over multi-year terms
+- **Column G:** Ramp Segments
+- **Column H:** Product Type
+  - This is the instance type: SaaS, Self-Managed, or Dedicated
+- **Column: I:** Product Tier
+  - This is the product tier: Free, Premium, Ultimate
+- **Column J:** Use Case Summary
+  - Describe what this test case is trying to test
+- **Columns K through AN** will be populated during testing by the Testing DRIs
+
+Test cases will vary depending on the SKU. However, most test cases will likely include scenarios such as:
+
+- New deals that include a product
+- Deals that have multi-year terms and need to ramp
+- Deals that are an upgrade or downgrade from one product to another
+- Deals renewals or cancellations
+- Contract terms that need to be tested: Examples might include: ensuring minimums or maximums are tested, ensuring mandatory attach rules are tested
+
+Not every single transaction scenario needs to be tested. Jesse Rabbits can help validate and add initial test cases.
+
+### Step 3d: Assign Business Ownership and Get Timing & Test Case Approval
+
+Assign the folks outlined in the [Testing DRIs] section of the issue
+
+Each team will need to confirm:
+
+- The expected DRI for that team’s testing
+- The team can test during the testing availability dates for that team established in the timeline alignment above
+- That they approve the test cases to be tested
+
+### Step 3e: Conduct UAT and Track Bugs/Issues
+
+On the approved timing dates, the outlined [Testing DRIs] will conduct the test cases from the approved test cases
+
+Testing DRIs will use the UAT issue to report any buys or issues identified. Those bugs & issues will be tracked in the [Bugs Identified] section of the issue
+
+Most bug resolution will be executed between the Testing DRI and Enterprise Applications.
+
+### Step 3f: Complete UAT and Cross Functional Approvals
+
+All [Testing DRIs] need to give their final sign-off and approval in the issue. 
+
+Once completed, UAT is can be considered done
+
+## Step 4: SKU Deployment to Enterprise Applications
+
+**Owner:** Enterprise Applications
+<br>**Expected Timing:** 2-3 days
+
+Enterprise Applications will deploy the SKU to production Enterprise Applications
+SKUs are always deployed on Wednesdays
+[Add deployment schedules]
 
 ## Post Go Live SKU Modifications
 
@@ -214,7 +374,7 @@ It is the Business Sponsor's responsibility to provide information and obtain re
 **When is the SKU expected to be retired**
 
 - Provide a specific date of when the new SKU is expected to be retired.
-- Please note that helps with intake and prioritization of the request and does not necessarily mean the SKU will be ready for sale by this date
+- Please note that helps with intake and prioritization of the request and does not necessarily mean the SKU will be ready for sale by this date.
 
 ### Step 2. Stakeholder Approval for SKU Retiring
 

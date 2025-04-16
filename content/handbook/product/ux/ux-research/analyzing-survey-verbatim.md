@@ -3,7 +3,7 @@ title: "Analyzing survey verbatim"
 description: "Guidelines for how to analyze survey verbatim"
 ---
 
-[Verbatim are comments that are submitted to open-ended questions](https://goascribe.com/blog/verbatim-coding-for-survey-research/) (e.g.," Is there anything that you'd like to share with us about GitLab's usability?") that are typically asked in a survey where respondents can type in their responses in a free-form format. A verbatim analysis helps us understand different phenomena, like the user experience, by looking for themes across those responses.
+[Verbatim are comments that are submitted to open-ended questions](https://goascribe.com/blog/verbatim-coding/) (e.g.," Is there anything that you'd like to share with us about GitLab's usability?") that are typically asked in a survey where respondents can type in their responses in a free-form format. A verbatim analysis helps us understand different phenomena, like the user experience, by looking for themes across those responses.
 
 The process of analyzing verbatim is usually called "coding", which is not related to writing a computer program in a programming language but describes the process of assigning codes that represent what a verbatim is trying to communicate.
 

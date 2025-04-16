@@ -207,7 +207,7 @@ CREATE TABLE analyses (
 
 One possible method of partitioning a schema like the above example would be to
 utilize
-[sub-partitioning](https://github.com/pgpartman/pg_partman/blob/master/doc/pg_partman.md#sub-partitioning).
+[sub-partitioning](https://github.com/pgpartman/pg_partman/blob/master-old/doc/pg_partman.md#sub-partitioning).
 If we partition by `project_id` then by some interval of `updated_at`, and touch
 the row when we see a query, we can store only queries that the codebase is
 still executing, and prune partitions that only contain queries the code is no

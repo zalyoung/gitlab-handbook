@@ -1,5 +1,5 @@
 ---
-title: "Vice President, Cash Management"
+title: "VP, Cash Management"
 ---
 
 The Cash Management job family will focus on leading and enhancing day-to-day cash management and treasury operations for the organization, including potential hedging of intercompany and foreign currency expense and stock administration. The VP, Cash Management will work closely with finance management to ensure appropriate financial systems and processes have been put in place to effectively manage corporate treasury risks. This job family will oversee all aspects of the cash management function worldwide.
@@ -24,7 +24,7 @@ The Cash Management job family will focus on leading and enhancing day-to-day ca
 - Proven experience developing and leading a high-performing cash management group.
 - Leadership experience at the Vice-President level in a software or global technology company.  Will have both Public and Private Company experience.
 - Detailed experience with specific knowledge of strategic and tactical vision and understands and drives best-practices to guide a high-performing cash management team.
-- The Vice President has demonstrated strong business judgment applied to routine and complex financial issues.
+- The VP has demonstrated strong business judgment applied to routine and complex financial issues.
 - Professional acumen and demonstrated ability in addressing business issues and ability to explain to all levels of management.
 - Demonstrated ability to work with investor facing teams to showcase the company's cash and stock strategies.
 - Has driven international teams working with overseas cash and stock operations.
@@ -43,7 +43,7 @@ The Cash Management job family will focus on leading and enhancing day-to-day ca
 
 ## Job Grade
 
-The Vice President, Cash Management is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The VP, Cash Management is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Performance Indicators
 
@@ -60,7 +60,7 @@ The next step in the Cash and Project Management job family is to move to a seni
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Meet with PAO for 50 minutes
 - Meet with Key Reports and Key Finance Leaders - Director of Treasury, VP Corporate Controller, Sr. Director Revenue - for 30 minutes each
 - Meet with People Business Partner for the CFO Organization for 25 minutes

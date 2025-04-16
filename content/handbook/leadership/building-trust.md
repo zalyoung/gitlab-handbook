@@ -10,7 +10,7 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-Trust is the cornerstone of how we operate at GitLab. We trust team members to [do the right thing instead of having rigid rules](/handbook/values/#measure-results-not-hours). Trust at GitLab [increases results](/handbook/people-group/guidance-on-feedback/), [efficiency](/handbook/values/#efficiency), and [collaboration](/handbook/values/#collaboration).
+Trust is the cornerstone of how we operate at GitLab. We trust team members to [do the right thing instead of having rigid rules](/handbook/values/#measure-impact-not-activity). Trust at GitLab [increases results](/handbook/people-group/guidance-on-feedback/), [efficiency](/handbook/values/#efficiency), and [collaboration](/handbook/values/#collaboration).
 
 Trust takes time and energy to build. We leverage [informal communication](/handbook/company/culture/all-remote/informal-communication/) to build trust, but there are additional strategies [people leaders](_index.md) and team members can implement on their teams.
 
@@ -18,7 +18,7 @@ Working remotely can be isolating for team members if managers do not take the [
 
 ## Ten Dimensions of Trust
 
-Sid Sijbrandij, GitLab's CEO, shared what he has identified as the ten dimensions of trust. He notes that trust allows you to [assume positive intent](/handbook/values/#assume-positive-intent) in support of our [CREDIT values](/handbook/values/#credit). It also helps to [prevent political behavior](/handbook/values/#playing-politics-is-counter-to-gitlab-values) that runs counter to our values.
+Sid Sijbrandij, GitLab's co-founder, shared what he has identified as the ten dimensions of trust. He notes that trust allows you to [assume positive intent](/handbook/values/#assume-positive-intent) in support of our [CREDIT values](/handbook/values/#credit). It also helps to [prevent political behavior](/handbook/values/#playing-politics-is-counter-to-gitlab-values) that runs counter to our values.
 
 1. Optimizing [efficiency for the right group](/handbook/values/#efficiency-for-the-right-group)
     1. We versus I optimization
@@ -78,14 +78,14 @@ Getting to know your people through personality assessments is a tool to build t
 
 An abundance of free personality assessments are available. Several are outlined below:
 
-- [Understanding Social Styles]({{< ref "social-styles" >}})
-- [Emotional Intelligence Assessments]({{< ref "emotional-intelligence" >}})
+- [Understanding Social Styles](/handbook/leadership/emotional-intelligence/social-styles/)
+- [Emotional Intelligence Assessments](/handbook/leadership/emotional-intelligence/)
 - [Gallup Strengths Finder](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx)
 - [16 Personalities](https://www.16personalities.com/) (also known as Myers-Briggs)
 - [DISC Personality Test](https://discpersonalitytesting.com/free-disc-test/)
 - [HEXACO Personality Inventory](https://hexaco.org/hexaco-online)
 
-**How to apply personality assessments:** People leaders can have all team members take a personality assessment when they first join their team. Managers can examine personality assessment results and have strength-based discussions with their people. However, it is essential to never type-cast team members based on their results. Use personality assessments as a tool to facilitate trust and get to know each other. When we embrace our unique strengths and the unique strengths of our team members, we all feel more engaged, more productive, more valued, and more trusted. They should encourage their team members to share their strengths / styles with the team. In addition, team members can take personality assessment and update their [READMEs]({{< ref "_index.md#your-individual-readme" >}}) accordingly with personality assessment information if they choose to.
+**How to apply personality assessments:** People leaders can have all team members take a personality assessment when they first join their team. Managers can examine personality assessment results and have strength-based discussions with their people. However, it is essential to never type-cast team members based on their results. Use personality assessments as a tool to facilitate trust and get to know each other. When we embrace our unique strengths and the unique strengths of our team members, we all feel more engaged, more productive, more valued, and more trusted. They should encourage their team members to share their strengths / styles with the team. In addition, team members can take personality assessment and update their [READMEs](/handbook/leadership/#your-individual-readme) accordingly with personality assessment information if they choose to.
 
 ### Use a One-Slider Personal Summary
 
@@ -125,15 +125,15 @@ One of our Managers said this about the Zoom Background Ice-Breaker:
 
 ### Give Credit to Team Members
 
-Use the '#thanks' [Slack channel]({{< ref "communication" >}}) to give recognition to team members in a public setting. Review team accomplishments weekly, monthly, and quarterly. Meet with each team member to review their accomplishments.
+Use the '#thanks' [Slack channel](/handbook/communication/) to give recognition to team members in a public setting. Review team accomplishments weekly, monthly, and quarterly. Meet with each team member to review their accomplishments.
 
-Take a [coaching approach]({{< ref "coaching" >}}) and have the team members talk through what their accomplishments were. Managers should identify opportunities for [executives]({{< ref "structure#executives" >}}) to recognize the team. They should also look for opportunities to recognize the team in front of executives.
+Take a [coaching approach](/handbook/leadership/coaching/) and have the team members talk through what their accomplishments were. Managers should identify opportunities for [executives](/handbook/company/structure/#executives) to recognize the team. They should also look for opportunities to recognize the team in front of executives.
 
 **How to apply giving credit to team members:** Managers can set a weekly reminder to review team accomplishments and areas for individual recognition. Scheduling a regular cadence of giving credit will show team members that leaders are playing an active role in their career.
 
 ### 1-1 Meetings
 
-[1-1 meetings]({{< ref "1-1" >}}) can serve as an opportunity for managers and team members to get to know each other on a personal and professional level. Nobody is alike, and each person has a different unique background and story. A communication or management approach that works well on one team member might not work on another. By showing vulnerability during 1-1 discussions, team members can build trust.
+[1-1 meetings](/handbook/leadership/1-1/) can serve as an opportunity for managers and team members to get to know each other on a personal and professional level. Nobody is alike, and each person has a different unique background and story. A communication or management approach that works well on one team member might not work on another. By showing vulnerability during 1-1 discussions, team members can build trust.
 
 **How to build trust in 1-1 meetings:** One way to do this is to ensure team members have plenty of time to talk about the weekend or what fun things are going on in their lives. Managers can spend the first 5-10 minutes of the call, letting it be about "them." Before diving straight into "work topics," especially at the beginning of a new working relationship, pause and ask about family, hobbies, the weekend, etc. Try to remember things team members mention about family, pets, hobbies, or other things going on in their life. If they live in a particular part of the world, managers can spend time getting to know what's happening regionally. Follow up with questions related to a team member's home.
 For some great tips on how to make small talk and build connection through communication listen to [Rachel Greenwald in Episode 89 of Think Fast, Talk Smart](https://www.youtube.com/watch?v=jLFH9Q3VQsc).
@@ -148,7 +148,7 @@ A [curated list of external resources](/handbook/people-group/learning-and-devel
 
 ### Ask for Feedback
 
-Managers should be open to [receiving feedback](/handbook/people-group/guidance-on-feedback/) from their team members. Often there is a barrier as employees feel uncomfortable sharing constructive feedback, let alone with their manager. But if managers are open to feedback, they can slowly grow a culture of feedback within their team, thereby increasing trust. Managers can show their openness by asking for feedback, through [1:1 calls]({{< ref "1-1" >}}) with direct reports or our performance management platform.
+Managers should be open to [receiving feedback](/handbook/people-group/guidance-on-feedback/) from their team members. Often there is a barrier as employees feel uncomfortable sharing constructive feedback, let alone with their manager. But if managers are open to feedback, they can slowly grow a culture of feedback within their team, thereby increasing trust. Managers can show their openness by asking for feedback, through [1:1 calls](/handbook/leadership/1-1/) with direct reports or our performance management platform.
 
 **How to apply asking for feedback:** It may be difficult to ask for feedback from team members as a manager. However, people leaders should be in the habit of regularly asking for feedback. Every 1-1 can be an opportunity for team members to share feedback on your performance. Managers must establish an environment built on trust with [no ego](/handbook/values/#no-ego) to enable team members to be forthcoming.
 
@@ -178,7 +178,7 @@ Managers can set up a more relaxed call with their team that is specifically foc
 
 ### Managers Enable Team Members to Make Decisions
 
-Managers play a unique role at GitLab. When a team member on their team excels in their role, they should be given an opportunity to [make decisions]({{< ref "making-decisions" >}}). Allowing team members to play a role in decision-making can enable trust by catering to the team members' skills and attributes.
+Managers play a unique role at GitLab. When a team member on their team excels in their role, they should be given an opportunity to [make decisions](/handbook/leadership/making-decisions/). Allowing team members to play a role in decision-making can enable trust by catering to the team members' skills and attributes.
 
 ### Host a Team Day
 
@@ -195,7 +195,7 @@ Below are potential team day activities:
 
 #### More Ideas for Activities
 
-- [Among Us](https://innersloth.com/gameAmongUs.php) - Free on mobile, multiple platforms.
+- [Among Us](https://www.innersloth.com/games/among-us/) - Free on mobile, multiple platforms.
 - [Card & board game "table"](https://playingcards.io/) - Free!
 - [City Guesser](https://virtualvacation.us/guess) - Free!
 - [Drawasaurus](https://www.drawasaurus.org/) - Free!
@@ -206,14 +206,6 @@ Below are potential team day activities:
 - [Jackbox](https://www.jackboxgames.com/) - Small fee for each pack. Only the host needs to own the game.
 - Online multiplayer jigsaw puzzles ([1](https://jigsawpuzzles.io/), [2](https://www.jigsawexplorer.com/)) - Free!
 
-## Learning Speaker Series - Building Trust with Remote Teams
-
-On 2020-11-19, the L&D team launched our first [learning speaker series](/handbook/people-group/learning-and-development/learning-initiatives/#learning-speaker-series-overview) on Building Trust with Remote Teams. We hosted [Dr. Jeb Hurley](https://medium.com/@jebhurley/building-trust-on-remote-teams-99b937cbd5d0), CEO and Co-Founder of [Xmetryx](https://www.xmetryx.com/) to discuss how strategies and tips on how to build trust in a remote setting. The discussion was a [fireside chat](https://docs.google.com/document/d/17ziw6q-nioyzYGnnIa9LM1G3I4DwYfb2UxwN9XceFxg/edit) format where Dr. Hurley shared what remote team members can do to meaure trust on their teams.
-
-{{< youtube "hHMDY77upAE" >}}
-
 ## Summary
 
 Building trust takes time and energy. These are not the only strategies teams can apply to build trust but it is a start. Use this page as a guide to building a cohesive and collaborative team. Trust among teammates is the foundation of almost everything we do at GitLab.
-
-If you have further suggestions on building trust in a remote team, make a merge request to this page and alert our [Learning & Development team](/handbook/people-group/learning-and-development/#how-to-communicate-with-us).

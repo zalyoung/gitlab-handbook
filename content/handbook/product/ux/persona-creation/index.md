@@ -42,7 +42,7 @@ The process for building out user personas is based on data obtained through use
 
 **It's strongly recommended to consult with a UX Researcher at the start and conclusion of each step.**  This will help set you up for success as you start efforts and also provide you with another set of eyes to review your data.
 
-![Persona Creation Steps](persona-creation-steps.png)
+![Persona Creation Steps](/images/product/ux/persona-creation/persona-creation-steps.png)
 
 ### Step 1: Meet with Stakeholders
 
@@ -161,7 +161,7 @@ Personas that were originally independent from one another may become less disti
 1. Stakeholders should collect all known information about the personas in question. For example, this can include interviews with customers or previously researched JTBD statements on a specific persona.
 1. All existing data about the personas should be mapped out, so that stakeholders can visualize all of the information at once. One way to assess the amount of overlap between personas is a [Venn diagram](https://www.lucidchart.com/pages/tutorial/venn-diagram).
 
-![PersonaVennDiagram](PersonaVennDiagram.png)
+![PersonaVennDiagram](/images/product/ux/persona-creation/PersonaVennDiagram.png)
 
 1. There are some general guidelines to follow when creating your Venn diagram:
     1. If the number of bullet points (i.e., number of jobs to be done, motivations, and frustrations combined) that are similar between the personas in question are **greater than** the number of bullet points that are different, personas could be consolidated.

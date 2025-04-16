@@ -159,7 +159,7 @@ For Creating lambda function select the following :
 
 More details are shown in the image below.
 
-![LambdaFunctionCreate.png](LambdaFunctionCreate.png)
+![LambdaFunctionCreate.png](/images/enterprise-data/platform/snowflake/snowpipe/LambdaFunctionCreate.png)
 
 Once the function is created it/data-team/ code you can set up the basic Python code to send the `Slack` notification. Here is an example from our `gitlab_snowflake_notification` lambda code:
 
@@ -236,7 +236,7 @@ def lambda_handler(event, context):
 
 Above function will send all the event notification information into `Slack` for snowflake tasks and snowpipe failures and it will look like:
 
-![slack_alert_example.png](slack_alert_example.png)
+![slack_alert_example.png](/images/enterprise-data/platform/snowflake/snowpipe/slack_alert_example.png)
 
 ### **Step 7: Add trigger to the Lambda function as the SNS topic which is created in step 1**
 

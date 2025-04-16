@@ -28,13 +28,13 @@ All of our open positions can be found on our [jobs page](https://about.gitlab.c
 {{% /details %}}
 
 {{% details summary="Internal applicants" %}}
-Interested in another role internally? Review internal mobility eligibility [here]({{< ref "internal-hiring-process#team-member-responsibilities" >}}).
+Interested in another role internally? Review internal mobility eligibility [here](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/#team-member-responsibilities).
 
-If you are a [current team member and are interested in applying]({{< ref "promotions-transfers#department-transfers" >}}) for a current vacancy, please follow the steps below.
+If you are a [current team member and are interested in applying](/handbook/people-group/promotions-transfers/#department-transfers) for a current vacancy, please follow the steps below.
 
 1. Log in to your [Greenhouse account](https://gitlab.greenhouse.io/dashboard)
 1. If you are a GitLab team member who signed in to Greenhouse you can access the [Internal Job Board](https://gitlab.greenhouse.io/internal_job_board). If you do not yet have a Greenhouse account, you can activate yours by clicking the Greenhouse tile in Okta.
-1. You can also access the internal job board under the "Helpful Links" section. For more information (and screenshots!), feel free to read the [Greenhouse help article](https://support.greenhouse.io/hc/en-us/articles/200913945-Employee-Access-to-Internal-Job-Board).
+1. You can also access the internal job board under the "Helpful Links" section. For more information (and screenshots!), feel free to read the [Greenhouse help article](https://support.greenhouse.io/hc/en-us/articles/200913945-Access-your-internal-job-board).
 1. Click on the position title that interests you.
 1. You will be redirected to the vacancy description and application form, where you will be asked to fill out basic personal information, provide your resume, LinkedIn, GitLab username, and/or cover letter, and answer any vacancy-specific application questions, as well as answer a voluntary Equal Employment Opportunity questionnaire if the position is open to US applicants.
 1. Once you have finished, click "Submit Application" at the bottom.
@@ -80,7 +80,7 @@ Depending on the outcome of the call, the talent acquisition team or manager may
 1. What is your experience with X? (for each of the skills listed in the position description)
 1. [STAR Method](https://www.themuse.com/advice/star-interview-method) questions and simple technical or skills-related questions
 1. What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
-1. Do you require visa sponsorship or a work/study permit to work for GitLab? Or do you require the work permit to be transferred to GitLab? If the answer is yes, we will not be able to proceed, [unless you currently hold a work permit in the Netherlands]({{< ref "visas#dutch-work-permits" >}}). You can refer to the [Visa and Sponsorship]({{< ref "visas#visas-and-sponsorhip" >}}) handbook section for further clarity.
+1. Do you require visa sponsorship or a work/study permit to work for GitLab? Or do you require the work permit to be transferred to GitLab? If the answer is yes, we will not be able to proceed, [unless you currently hold a work permit in the Netherlands](/handbook/people-group/visas/#dutch-work-permits). You can refer to the [Visa and Sponsorship](/handbook/people-group/visas/) handbook section for further clarity.
 1. What is the notice period you would need if you were hired?
 1. Is this salary range in line with your expectations? At GitLab, we are committed to paying competitively and equitably. Therefore, we set our offers based on market pay rather than a candidate's pay history. We walk through the [Compensation Calculator](https://comp-calculator.gitlab.net/) with each candidate so that we can address any gaps in expectations early on. Only candidates who are in the team interview stage or later can access our [compensation calculator](https://comp-calculator.gitlab.net/) by following `applicants sign up`.
 
@@ -91,7 +91,7 @@ At the end of the screening call, the Recruiter will tell you what the next step
 
 ### Team Interviews expectations
 
-After the Screening Call, a candidate will move into the Team Interviews stage if the Recruiter decides that the candidate is fit for the role. Team Interviews may consist of behavioral, panel and/or [technical interviews]({{< ref "technical" >}}) (certain positions).
+After the Screening Call, a candidate will move into the Team Interviews stage if the Recruiter decides that the candidate is fit for the role. Team Interviews may consist of behavioral, panel and/or [technical interviews](/handbook/hiring/interviewing/technical/) (certain positions).
 
 Feel free to ask your Recruiter which type of interview you can expect.
 
@@ -99,7 +99,7 @@ Feel free to ask your Recruiter which type of interview you can expect.
 
 During the [reference](#references) stage in the interview process, candidates will get the option to speak with a GitLab team member who is a member of our [Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/#definition-of-the-tmrg---team-member-resource-groups) (TMRGs) to learn about what it's like working at GitLab from someone who they can relate to.
 
-When you receive a reference form, you will have the option to opt-in for a conversation with a member of the [TMRG](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels) of your choice. Our Candidate Experience team (CES) will then reach out and coordinate this Zoom call for you. You can also read about how we [field this request](/handbook/company/culture/inclusion/talent-acquisition-initiatives/#speaking-with-tmrg-members-in-the-hiring-process).
+When you receive a reference form, you will have the option to opt-in for a conversation with a member of the [TMRG](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels) of your choice. Our Candidate Experience team (CES) will then reach out and coordinate this Zoom call for you. You can also read about how we [field this request](/handbook/company/culture/inclusion/talent-acquisition-initiatives/#speaking-with-tmrg-members-in-the-hiring-process).
 
 ### Interview Process FAQs
 
@@ -145,7 +145,7 @@ Example of dual Interview process outline
 {{% /details %}}
 
 {{% details summary="I've been rejected, when can I reapply?" %}}
-If your application is rejected because you are insufficiently qualified for the role, you are welcome to reapply to the same position once 6 months have passed. If you gain the skills, experience, or knowledge we outlined in our [feedback to you](/handbook/hiring/interviewing/#rejecting-candidates), you are welcome to reapply at any time.
+If your application is rejected because you are insufficiently qualified for the role, you are welcome to reapply to the same position once 6 months have passed. If you gain the skills, experience, or knowledge we outlined in our [feedback to you](/handbook/hiring/#interview-stages), you are welcome to reapply at any time.
 {{% /details %}}
 
 {{% details summary="I already passed the technical interview, will I need to repeat that stage if I reapply?" %}}
@@ -161,7 +161,7 @@ The GitLab team understands the importance of inclusive interviewing, and we str
 ### How we conduct remote interviews on a global scale
 
 {{% details summary="How we work during holidays" %}}
-As an all-remote, global company, GitLab gives all team members the flexibility to determine their [time away from work]({{< ref "paid-time-off" >}}), including the holidays they observe.
+As an all-remote, global company, GitLab gives all team members the flexibility to determine their [time away from work](/handbook/people-group/paid-time-off/), including the holidays they observe.
 There will likely be holidays that our candidates observe that a Recruiter, Hiring Manager, or CES may not.
 If there's a time during the year when a significant portion of the company will be taking time off, we'll be sure to send a communication to all active candidates to let them know of a possible delay in communication.
 Please note that not every member of the team will be observing that holiday, so you may still receive emails from them.
@@ -174,6 +174,10 @@ Please note that not every member of the team will be observing that holiday, so
 1. If you need to reschedule, follow the special instructions in your confirmation email if the interview is within 24 hours. You can also email ces@gitlab.com anytime.
 {{% /details %}}
 
+### GitLab's interview recording policy
+
+As part of our commitment to creating an open and comfortable interview environment, interviews may not be recorded in any format. This policy helps ensure authentic conversations and protects the privacy of all participants.
+
 ## References
 
 ### How references are conducted
@@ -184,7 +188,7 @@ Three references will be requested and at least one needs to be a past manager. 
 
 ## Offer & Background Screening
 
-Depending on your location, a [background screen]({{< ref "people-policies#background-screenings" >}}) will be initiated at the same time as references or once an offer has been extended.
+Depending on your location, a [background screen](/handbook/people-group/contracts-probation-periods/#background-screenings) will be initiated at the same time as references or once an offer has been extended.
 
 ## Where does GitLab hire people?
 
@@ -233,12 +237,12 @@ Note: In countries with a star (*) hiring is limited to only certain roles
 
 ## What's it like to work at GitLab?
 
-Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product]({{< ref "using-gitlab-at-gitlab" >}}) and staying aligned with our [values](/handbook/values/).
+Our [mission](/handbook/company/mission/) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product](/handbook/people-group/using-gitlab-at-gitlab/) and staying aligned with our [values](/handbook/values/).
 
 {{% details summary="Explore the resources below for a deeper understanding of working at GitLab — one of the world's largest all-remote companies" %}}
 
 - [Life at GitLab](https://about.gitlab.com/jobs/)
-- [How We're Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/brand-studio/gitlab-changing-look-devops-remote-work?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab)
+- [How We're Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/articles/gitlab-changing-look-devops-remote-work)
 - [GitLab's guide to starting a new remote role](/handbook/company/culture/all-remote/getting-started/)
 - [Life at GitLab Content Library](/handbook/people-group/employment-branding/content-library)
 {{% /details %}}

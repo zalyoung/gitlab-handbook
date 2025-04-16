@@ -12,10 +12,7 @@ Specific rollout plans may need to be created for different [rollout phases](#ro
 
 ## Rollout method
 
-Rollout of a new model will be done through a [feature flag](https://docs.gitlab.com/ee/development/feature_flags/).
-
-You must create a [feature flag rollout issue](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md)
-for the new feature flag.
+Rollout of a new model will be done through a [`beta` feature flag](./implementation_guidelines.md#introduce-behind-a-feature-flag).
 
 ## Pre-rollout checklist
 
@@ -28,7 +25,8 @@ Rollout of a new model is usually done in 3 phases:
 
 1. Rollout to Code Creation team members and other interested stakeholders.
 2. Rollout to all GitLab team members.
-3. Rollout to all users.
+3. [Optional] Opt out selected customers from the new model
+4. Rollout to all users.
 
 ### Roll out to Code Creation team members and other interested stakeholders
 
@@ -48,6 +46,12 @@ Before rollout, make sure that the
 [internal rollout](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_rollout.md)
 and [internal feedback](https://gitlab.com/gitlab-org/code-creation/code-suggestions-model-evaluation-hub/-/blob/main/.gitlab/issue_templates/internal_feedback_template.md)
 issues have been created. Make sure to direct all feedback to the internal feedback issue.
+
+### [Optional] Opt out selected customers from the new model
+
+Some customers may not be able to switch to the new model within the rollout timeline. We can opt them out by implementing an [opt-out feature flag](./implementation_guidelines.md#allow-customers-to-opt-out).
+
+Ideally, we should enable this opt-out for the relevant customers _before_ rolling out to all users.
 
 ### Roll out to all users
 

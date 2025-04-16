@@ -17,6 +17,7 @@ Our most reported known issues are:
 
 1. [Blank lastname/surname field](https://gitlab.com/groups/gitlab-org/-/epics/5785)
 1. [3D Secure](https://en.wikipedia.org/wiki/3-D_Secure) credit-card authentication protocol [is supported](https://gitlab.com/groups/gitlab-org/-/epics/7714). There are, however, a few exceptions where the payment might fail. See [3D Secure Authentication 3DS](#3d-secure-authentication-3ds) for more information.
+1. [India issues cards](#india-issues-cards)
 1. [Email already taken](https://gitlab.com/gitlab-org/gitlab/-/issues/330608)
 
 We use an Issue to [document any issues](https://gitlab.com/gitlab-com/support/toolbox/console-training-wheels/-/issues/19) that might be a result of the workarounds described in this workflow.
@@ -51,14 +52,14 @@ Request the user to add a second name in their GitLab account profile as a tempo
 >
 > Transaction declined.generic_decline - Your card was declined
 
-Our existing integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). The issue is actively being worked on and will [soon also cover the Customers Portal](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/9069).
+Our product purchase integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup).
 
-At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user [payment through invoice](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.md#paying-invoices).
 
 >
 > card_error/authentication_required/authentication_required
 
-Our existing integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). Such transactions will fail after the card is added.
+Our product purchase integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). Such transactions will fail after the card is added.
 
 At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
 
@@ -69,6 +70,14 @@ The 3DS authentication failed.
 
 The first option is to request the user to try again, or with a different another card.
 You can also [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
+### India issues cards
+
+>
+> Transaction declined.402 - [card_error/card_declined/transaction_not_allowed]
+> Your card does not support this type of purchase.
+
+Please direct the customer to [the troubleshooting page](https://docs.gitlab.com/subscriptions/gitlab_com/gitlab_subscription_troubleshooting/#error-transaction_not_allowed) to purchase through a reseller or [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user [payment through invoice](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.md#paying-invoices).
 
 ### Check whether the linked accounts have matching emails
 
@@ -98,7 +107,7 @@ Let's say a Customer X has an existing Customers Portal account with their email
 Customer X will get this error if they log in or create an account in GitLab with their email <customerX@example.com> and attempt to purchase or renew a paid plan or additional storage, or try to purchase more compute minutes from GitLab.
 The error is reported because *they did not link their Customers Portal account to a GitLab account before making the purchase.*
 
-🔧 To fix the problem, Customer X needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and [link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
+🔧 To fix the problem, Customer X needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and [link their GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account).
 
 ##### Unlinked CustomersDot account for purchases via Sales
 
@@ -115,7 +124,7 @@ For example:
 Customer Y will get this error if they try to log in or create an account in GitLab with their email <customerY@example.com> then attempt to purchase or renew a paid plan or additional storage, or try to purchase more compute minutes from GitLab.
 The error is reported because *they did not link their Customers Portal account to a GitLab account before making the purchase.*
 
-🔧 To fix the problem, Customer Y needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and [link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
+🔧 To fix the problem, Customer Y needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and [link their GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account).
 
 ##### Linked accounts have different emails
 
@@ -130,7 +139,7 @@ CustomersDot then tries to create an account using the email <customerZ@example.
 
 🔧 To fix the problem, Customer Z needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and either:
 
-- [Change the linked GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account) to the GitLab account with email <customerZ@example.com>
+- [Change the linked GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account) to the GitLab account with email <customerZ@example.com>
 - Or update the email in their Customers Portal account to match the email in the linked GitLab account, which is <gitlabZ@example.com>.
 Customer Z should not create another account with the email <customerZ@example.com> because an account will be created for them automatically when the transaction succeeds.
 
@@ -171,7 +180,7 @@ please report if you encounter it again.
    1. Confirm that the subscription you have located is linked to the namespace:
       - Click on the `Impersonate` tab. You will see the landing page of the Customers Portal with the heading `Manage Purchases`
       - Check the listed products whose `Start Date` is 1 year ago. These products will have expired.
-      - Check the Title of the product that is usually located above the subscription name (A-S000xxxx). If this title is the same as the `Product Name` listed in the table, then it is **NOT** linked. Otherwise, this title displays the **Name of the group** (not the [namespace](https://docs.gitlab.com/ee/user/group/#namespaces)) that it is linked to.
+      - Check the Title of the product that is usually located above the subscription name (A-S000xxxx). If this title is the same as the `Product Name` listed in the table, then it is **NOT** linked. Otherwise, this title displays the **Name of the group** (not the [namespace](https://docs.gitlab.com/user/group/#namespaces)) that it is linked to.
       - Confirm the subscription name of the product whose title shows the customer's namespace. You will use the **Subscription Name** in the next step
    1. Open the [Clear Subscription form](https://gitlab-com.gitlab.io/support/toolbox/forms_processor/LR/clear_subscription) to unlink the expired subscription:
       - Enter your GitLab username
@@ -181,7 +190,7 @@ please report if you encounter it again.
       - Check that the issue reports a successful `Subscription Unlinked` message. If this fails, add the label `Console Escalation::Customers` and comment with the ZD ticket link and/or ask for assistance in #support_licensing-subscription.
 1. If the namespace is on a paid plan, request the user to:
    1. Create a new [Customers Portal](https://customers.gitlab.com/customers/sign_in) account
-   1. [Link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account)
+   1. [Link their GitLab account](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account)
    1. Retry the purchase from the new portal account
 
 ### Replying with next troubleshooting steps
@@ -212,8 +221,8 @@ To find the error specifically related to a user on Sentry, try to check for a l
 To locate a Sentry event, first get the `ID` or `Username` of the **user making the purchase from GitLab** using any of the following:
 
 - Chatops: Run `/chatops run user find <username or email>`
-- Admin account: Navigate to the admin link in the [GitLab User Lookup](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-reminders-app) Zendesk app
-- [Users API](https://docs.gitlab.com/ee/api/users.html#for-normal-users): Search for user using their email or username
+- Admin account: Navigate to the admin link in the [GitLab User Lookup](../../../security/customer-support-operations/docs/zendesk/apps#gitlab-super-app) Zendesk app
+- [Users API](https://docs.gitlab.com/api/users/#for-normal-users): Search for user using their email or username
 
 ### Searching with the username in `gitlabcom` Sentry project
 

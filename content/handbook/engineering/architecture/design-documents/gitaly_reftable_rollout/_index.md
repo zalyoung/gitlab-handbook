@@ -96,14 +96,16 @@ You can see how deleting refs has such a high average latency, ~20x of WriteRefs
 
 The rollout can be broken down into a number of steps:
 
-1. Add metrics to capture the required data from Gitaly
-2. Rollout symref-updates functionality for git-update-ref(1)
+1. We dry-run the migration using the Gitaly's transaction manager (dry-run's don't affect the regular flow and will run in the background). This provides some information on:
+  a. Latency of the migration
+  b. Any errors that we didn't consider
+2. Evaluate the metrics and perform any fixes as needed.
 3. For each in _staging, production-canary, production_
-  a. Dogfood the migration with some of our own repositories (possibly gitlab-org/gitaly or gitlab-org/git).
-  b. Slowly toggle the flag to enable reftables for new repositories
-  c. Perform migration of few selected repositories to reftables
-    1. Compare efficacy of the migrated repositories
-    2. Check correctness of migrated repositories
+  a. Select a few repositories for dogfooding (possibly gitlab-org/gitaly or gitlab-org/git), backup said repositories using the `gitaly-backup` subcommand.
+  b. Run the migration on the selected repository. On staging, run some stress tests to write refs.
+    1. Compare efficacy of the migrated repositories.
+    2. Check correctness of migrated repositories.
+  c. Slowly toggle the flag to enable reftables for new repositories
   d. Migrate remaining repositories to reftables
 
 While this lays out the overall plan, in the following sections, we will dive more into the details of each of the steps mentioned here.
@@ -168,13 +170,21 @@ We also will have E2E running atop reftables possibly also with [GPT](/handbook/
 
 ### Restore/Rollback
 
-For existing repositories, there could potentially be a situation where the migration corrupts the repository.
+Since we take a multi-step approach of dry-running the migration before rolling out, the chance for errors is highly reduced. Nonetheless there are still unknown unknown's which could occur, which we potentially have to deal with.
 
-If the migration corrupts the repository before the transaction is committed, then the transaction is simply aborted.
+There are two broad scenarios which we can categorize the issues into:
 
-If the migration is successful, but we notice that the 'reftable' backend causes data corruption, we would need to restore the repository from the backups.
+#### Unsuccessful migration
 
-While 'git refs migrate' does support migrating from the 'files' backend to the 'reftable' backend. In even of data corruption, this is not really an option. So restoring from backups seems like the best solution.
+A migration is unsuccessful when there is an error during the migration process. This could occur due to number of issues. But since we use Gitaly's transaction manager, any unsuccessful migration is simply rolled back. Since the migration also includes validating before committing, the system rolls back any unsuccessful attempt. There is no intervention required apart from assessing why it was unsuccessful.
+
+#### Successful migration
+
+A successful migration is one where the repository is finally using reftables and the validation step of the migration was successful. The migration is then committed. In such scenarios ideally, there shouldn't be a need for rollback, however we should consider the following scenarios:
+
+1. The repository's performance with reftables is not satisfactory. We can solve this by adding a new migration to migrate back to files backend.
+2. The reftable backend contains bugs, but repository state is okay. Since the repository state is okay, we consider such bugs as Git bugs, and the Git team will address them. They will either patch the bug in the Git version used by Gitaly or apply the fix directly upstream.
+3. The repository has become corrupted over time. If the reftable backend corrupts the repository over time, the only solution is to restore a disk backup. There is some discussions on how effective this would be [here](https://gitlab.com/gitlab-com/gl-infra/data-access/durability/team/-/issues/16#note_2230262996) and the what the future for backups restoration in Gitaly would look like.
 
 ### Blockers
 

@@ -14,7 +14,7 @@ GitLab fundamentally changes the way development, security, and ops teams collab
 
 DevOps toolchains are often complex, fragile, and expensive to maintain. Teams are further slowed by hand-offs and re-work. Across toolchains in a company, teams can be siloed by DevOps software that was supposed to help eliminate siloes.
 
-GitLab customers can have SCM, CI, security, and more in one browser window. They can minimize integrations and get back to releasing great software. GitLab CI and CD are truly continuous, speeding up releases and revenues. With one user experience, one permission model, and one conversation from portfolio management to production monitoring, companywide gains include visibility, collaboration, and speed — making good on the promise of DevOps.
+GitLab customers can have SCM, CI, security, and more in one browser window. They can minimize integrations and get back to releasing great software. GitLab CI and CD are truly continuous, speeding up releases and revenues. With one user experience, one permission model, and one conversation from portfolio management to production monitoring, company-wide gains include visibility, collaboration, and speed — making good on the promise of DevOps.
 
 ### A partner like no other
 
@@ -46,20 +46,20 @@ From enterprise customers and [an established retailer like Fanatics](https://ab
 
 #### Peer reviews
 
-GitLab is a 2-time Gartner Peer Insights "Customers Choice" award winner, recently in the [2019 Enterprise Agile Planning Tools](https://www.gartner.com/reviews/market/enterprise-agile-planning-tools/vendor/gitlab/product/gitlab?months=12) following on our recognition in the [2018 Application Release Orchestration](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab). Below are a few select quotes from Gartner Peer Insights and G2 Crowd reviews:
+GitLab is a 2-time Gartner Peer Insights "Customers Choice" award winner, recently in the [2019 Enterprise Agile Planning Tools](https://www.gartner.com/reviews/market/enterprise-agile-planning-tools/vendor/gitlab/product/gitlab?months=12) following on our recognition in the [2018 Application Release Orchestration](https://www.gartner.com/reviews/market/devops-platforms/vendor/gitlab/product/gitlab). Below are a few select quotes from Gartner Peer Insights and G2 Crowd reviews:
 
-- "[GitLab, the central hub of DevOps. This is an overall application for the entire DevOps lifecycle, which is amazing.](https://www.gartner.com/reviews/review/view/1017404)"
+- "[GitLab, the central hub of DevOps. This is an overall application for the entire DevOps lifecycle, which is amazing.](https://www.gartner.com/reviews/market/devops-platforms/vendor/gitlab/product/gitlab/review/view/1017404)"
 - "[Makes you highly efficient while developing software with big group of people.](https://www.gartner.com/reviews/review/view/987403)"
-- "[Our developers do not have to mind shift between coding and tracking their work. Having the source code available next to planning boards makes the shift that much simpler.](https://www.gartner.com/reviews/review/view/956352)"
+- "[Our developers do not have to mind shift between coding and tracking their work. Having the source code available next to planning boards makes the shift that much simpler.](https://www.gartner.com/reviews/market/enterprise-agile-planning-tools/vendor/gitlab/product/gitlab/review/view/956352)"
 - "[Powerful team collaboration tool for managing software development projects.](https://www.g2.com/products/gitlab/reviews/gitlab-review-1976773)"
 - "[GitLab is an amazing solution with a very fast-paced feature release cycle. They are great at listening to our feedback and incorporate in future roadmaps.](https://www.gartner.com/reviews/review/view/612634)"
 
 #### Analysts
 
-GitLab's unique breadth in DevOps has enabled us to enjoy similarly [broad coverage across analysts' categories and reports](/analysts/). A few highlights across the DevOps lifecycle include:
+GitLab's unique breadth in DevOps has enabled us to enjoy similarly [broad coverage across analysts' categories and reports](https://about.gitlab.com/analysts/). A few highlights across the DevOps lifecycle include:
 
 - [GitLab named 'Visionary' in Gartner's 2019 Enterprise Agile Planning Tool Magic Quadrant](https://about.gitlab.com/blog/2019/05/22/gitlab-identified-by-gartner-as-eapt-visionary/)
-- [Forrester named GitLab a leader in 2019 Wave for Cloud-Native Continuous Integration Tools](/analysts/forrester-cloudci19/)
+- [Forrester named GitLab a leader in 2019 Wave for Cloud-Native Continuous Integration Tools](https://about.gitlab.com/analysts/forrester-cloudci19/)
 - [Forrester recognized GitLab as a Challenger in 2019 Wave for Software Composition Analysis](https://about.gitlab.com/blog/2019/04/12/gitlab-is-an-sca-contender/)
 
 ### GitLab's vision

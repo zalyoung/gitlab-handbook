@@ -19,7 +19,7 @@ For more information on general Product Usage Reporting, see [Using Product Usag
 |:---|:---|:---|:---|
 | [GS] Customer Conversion Source  | The purpose is understanding where the customer came from — this is about sourcing (e.g., marketing/SDR'ing as an analogy). | During customer onboarding, these fields should be filled out in Gainsight. | [Link](/handbook/customer-success/csm/gainsight/deployment-types/) |
 | [GS] First Value Date | Time to First Value is calculated by taking the Original Contract Date and subtracting First Value Date, which is a manual input on the customer's Attributes section of the C360. | If Cloud License stats are in Gainsight, the First Value Date will be automatically populated by the system when Known License Utilization meets or exceeds 10%. If Cloud License stats are not available, it is the responsibility of the CSM to manually update the date field based on their best estimate.<br>Required CSM action: confirm Cloud License stats are in Gainsight, if not, then manually update the First Value Date | [Link](/handbook/customer-success/csm/onboarding/#time-to-first-value) |
-| [GS] Geo? | Is your customer using Geo? Manually filled by the CSM |  | [Link](https://about.gitlab.com/solutions/geo/) |
+| [GS] Geo? | Is your customer using Geo? Manually filled by the CSM |  | [Link](https://docs.gitlab.com/ee/administration/geo/index.html) |
 | [GS] GitLab Issue Link | Account related GitLab Issue(s) |  |  |
 | [GS] Google Doc Notes | Google Doc Notes URL Manually filled by the CSM |  |  |
 | [GS] High Availability? | Does your customer require High Availability (HA) solutions and/or zero-downtime upgrade? Manually filled by the CSM |  | [Link](https://docs.gitlab.com/ee/administration/reference_architectures/) |

@@ -35,7 +35,7 @@ the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel
 #### Requests from sales during procurement delays
 
 - In the event that a customer is in the procurement process to purchase additional minutes, but are currently out of usable quota and blocked from working, their sales account manager may file an internal request for support team to add minutes
-- the request should be for a reasonable amount to unblock the customer
+- the request should be for a reasonable amount to unblock the customer. Reasonable in this case will vary in amount based on customer usage. Reviewing their usage page and checking historic usage is a good way to gauge their needs.
 - there must be an in-progress opportunity in SFDC
 
 #### Customer impacted by product bug or unplanned downtime
@@ -64,7 +64,7 @@ the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel
 
 ### Purchased compute minutes are not associated with customer's group
 
-To transfer compute minutes from a user's personal namespace to a group namespace, use the [Force Association option in the ZD Mechanizer App]({{< ref "mechanizer#force-associate" >}}).
+To transfer compute minutes from a user's personal namespace to a group namespace, use the [Force Association option in the ZD Mechanizer App](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#force-associate).
 
 **If the Mechanizer does not work**, you will need to request a refund for the customer.  In this case:
 
@@ -91,7 +91,7 @@ Once verified, use the following steps:
 
 1. Edit the user account `https://gitlab.com/admin/users/USERNAME/edit`.
 1. Select the `Validate user account` checkbox.
-1. Add an [Admin note]({{< ref "admin_note" >}}).
+1. Add an [Admin note](/handbook/support/workflows/admin_note/).
 1. `Save changes`.
 
 ### Enabling compute minutes for sales assisted trials
@@ -102,7 +102,7 @@ The following process will remove the restrictions for using compute minutes for
 
 #### Using Mechanizer ZD App
 
-Use the [Enable compute minutes via ZD Mechanizer app]({{< ref "mechanizer#enable-units-of-compute" >}}).
+Use the [Enable compute minutes via ZD Mechanizer app](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer/#enable-compute-minutes).
 
 #### Using customerDot Console
 

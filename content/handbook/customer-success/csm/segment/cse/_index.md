@@ -19,7 +19,7 @@ At GitLab, we take customer success seriously, and our Customer Success Engineer
 
 2\. **[Customer Enablement Hands-on Lab Program](https://university.gitlab.com/pages/gitlab-user-webinars):**
 
-- Help customers gain practical experience with GitLab’s features.
+- Help customers gain practical experience with GitLab's features.
 
 - Interactive sessions with Live Q&A.
 
@@ -55,413 +55,56 @@ The [CSE operating rhythm](/handbook/customer-success/csm/segment/cse/cse-operat
 
 [For the ARR thresholds for the CSE customer segment please reference this Wiki page](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) (GitLab Internal).
 
-![Customer Lifecycle Journey CSE](/handbook/customer-success/csm/segment/cse/CustomerLifecycleJourneywithMetrics-ScaleCSE_Nov-2023.png)
+![Customer Lifecycle Journey CSE](/images/customer-success/csm/segment/cse/CustomerLifecycleJourneywithMetrics-ScaleCSE_Nov-2023.png)
 
-The [DCI matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) provided below is designed to serve as a guiding framework to improve collaboration across teams. Please note that this is applicable only to accounts interacting with a CSE. For accounts managed by a CSM or CSA, refer to the [CSMA's DCI](/handbook/customer-success/account-team/#customer-success-manager-csm/) on Rules of Engagement.
+The [CSE DCI matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) provided below is designed to serve as a guiding framework to improve collaboration across teams. Please note that this is applicable only to accounts interacting with a CSE. For accounts managed by a CSM or CSA, refer to the [CSMA's DCI](/handbook/customer-success/account-team/#customer-success-manager-csm/) on Rules of Engagement.
 
-### **DCI matrix - CSE**
+#### **Journey Stage: Pre-Sales & Alignment**
 
-<table>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td colspan="8" align="center">
+| Activities | Tasks | CSE | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
+|-------|------|------|-----|----|----|----|------|----|-----|
+| Identify Tech Champion(s) | Define and engage key user personas for solution tailoring. | I |C,I||DRI|||||
+| Sales to Customer Success (CS) Handoff | Ensure detailed information transfer from sales to CS for seamless transition. | I |C,I||DRI|||||
 
-**Stakeholders**
-</td>
-<td>
+#### **Journey Stage: Onboard**
 
-</td>
-</tr>
-<tr>
-<td>
+| Activities | Tasks | CSE | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
+|--------------|------------|------|-----|----|----|----|------|----|-----|
+| General Advice for GitLab Setup and features implementation | As part of the onboarding campaign, an automatic post-onboarding email is sent by Gainsight. The customer can book a call with a CSE to go through their setup and needs. | DRI |C,I|I||||||
+| Technical Integration and Setup Support | Provide direct assistance setting up GitLab (for example, architecture and deployment strategies) to fit customers' needs and goals. ||C,I|I|C,I|DRI||||
 
-**Journey Stage**
-</td>
-<td>
+#### **Journey Stage: Enable**
 
-**Activities**
-</td>
-<td>
+| Activities | Tasks | CSE | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
+|--------------|------------|------|-----|----|----|----|------|----|-----|
+| 1:1 Engagement with the customer, triggered by AE/RM, depending on the needs from the customer | Transactional engagement between the customer and the CSE to discuss a specific topic, which should be clearly defined by the AE/RM before the meeting with the customer. | DRI |C|I||||||
+| Conduct 1:N Workshops and Webinars focused on customer enablement | Organized workshops and webinar sessions hosted for different customers aiming to enable and help users with key product topics. |DRI||I||||||
+| Break'n'fix scenarios where there is a bug/the platform not behaving correctly | Cases where the customer expects someone to troubleshoot a bug or help with a specific feature setup. (In specific situations, the Support Engineering might communicate and inform the CSE about the support ticket)|(C,I)|||||DRI|||
+| Measure Primary Use Case Adoption | Track and analyze the adoption rate of primary use cases when associated to requests originated from Renewals Managers or Account Executives.|DRI|I|I|I|||||
 
-**Tasks**
-</td>
-<td>
+Comments: (C,I) - It will depend on the situation.
 
-**CSE**
-</td>
-<td>
+#### **Journey Stage: Expand**
 
-**AE**
-</td>
-<td>
+| Activities | Tasks | CSE | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
+|--------------|------------|------|-----|----|----|----|------|----|-----|
+| Expansion Discovery | Identify and pursue upsell and cross-sell opportunities. | (C) |DRI|I|C|||(I)||
+| Account Health Checkups | Conduct regular assessments of account health to ensure ongoing customer success. | (C) |DRI|C,I|C|||||
 
-**RM**
-</td>
-<td>
+Comments: (C),(I) - It will depend on the situation.
 
-**SA**
-</td>
-<td>
+#### **Journey Stage: Optimize & Renew**
 
-**PS**
-</td>
-<td>
+| Activities | Tasks | CSE | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
+|--------------|------------|------|-----|----|----|----|------|----|-----|
+| Business Review (BR) | Conduct BRs to review successes, challenges, and future plans. |C|DRI|I|C|||C,I||
+| Renewal Discussions | Initiate early discussions about renewal, leveraging insights from the customer journey.|C,I|C|DRI|C|||I||
+| Monitor Client Satisfaction | Implement a structured feedback process to capture and act on customer insights, driving continuous improvement.|I|DRI|C,I|C,I|(C)||I|I|
+| Facilitate Product Collaboration | Clearly capture customer needs via feature requests to assist Product Managers with feature prioritisation and product enhancement.|C,I|C|I|DRI|||I|C,I|
+| Ongoing Risk Review | Active management of risk in a customer account, quickly turning a customer to red when there is any potential risk of contraction or churn and frequently updating the status.|C,I|DRI|C,I|C|||C,I||
+| Escalation Management | Trigger/leading the escalation process (account escalation / STAR) where needed.|C,I|DRI|C,I|C||C,I|C,I|I|
 
-**Support**
-</td>
-<td>
-
-**Executive Sponsor**
-</td>
-<td>
-
-**Product and Engineering**
-</td>
-<td>
-
-**Comments**
-</td>
-</tr>
-
-<tr>
-<td>
-
-**Pre-Sales & Alignment**
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>Identify Tech Champion(s)</td>
-<td>Define and engage key user personas for solution tailoring.</td>
-<td>I</td>
-<td>C,I</td>
-<td></td>
-<td>DRI</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>Sales to Customer Success (CS) Handoff</td>
-<td>Ensure detailed information transfer from sales to CS for seamless transition.</td>
-<td>I</td>
-<td>C,I</td>
-<td></td>
-<td>DRI</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>
-
-**Onboard**
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>General Advice for GitLab Setup and features implementation</td>
-<td>As part of the onboarding campaign, an automatic post-onboarding email is sent by Gainsight. The customer can book a call with a CSE to go through their setup and needs.</td>
-<td>DRI</td>
-<td>C,I</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>Technical Integration and Setup Support</td>
-<td>Provide direct assistance setting up GitLab (for example, architecture and deployment strategies) to fit customers' needs and goals.</td>
-<td></td>
-<td>C,I</td>
-<td>I</td>
-<td>C,I</td>
-<td>DRI</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-
-<tr>
-<td>
-
-**Enable**
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>1:1 Engagement with the customer, triggered by AE/RM, depending on the needs from the customer</td>
-<td>Transactional engagement between the customer and the CSE to discuss a specific topic, which should be clearly defined by the AE/RM before the meeting with the customer.</td>
-<td>DRI</td>
-<td>C</td>
-<td>I</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>Conduct 1:N Workshops and Webinars focused on customer enablement</td>
-<td>Organized workshops and webinar sessions hosted for different customers aiming to enable and help users with key product topics.</td>
-<td>DRI</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>Break'n'fix scenarios where there is a bug/the platform not behaving correctly</td>
-<td>Cases where the customer expects someone to troubleshoot a bug or help with a specific feature setup. (In specific situations, the Support Engineering might communicate and inform the CSE about the support ticket)</td>
-<td>(C,I)</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>DRI</td>
-<td></td>
-<td></td>
-<td>(C,I): It will depend on the situation.</td>
-</tr>
-<tr>
-<td></td>
-
-<td>Measure Primary Use Case Adoption</td>
-<td>Track and analyze the adoption rate of primary use cases when associated to requests originated from Renewals Managers or Account Executives.</td>
-<td>DRI</td>
-<td>I</td>
-<td>I</td>
-<td>I</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-
-</tr>
-<tr>
-
-<tr>
-<td>
-
-**Expand**
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>Expansion Discovery</td>
-<td>Identify and pursue upsell and cross-sell opportunities.</td>
-<td>(C)</td>
-<td>C</td>
-<td>I</td>
-<td>DRI</td>
-<td></td>
-<td></td>
-<td>(I)</td>
-<td></td>
-<td>(C),(I): It will depend on the situation.</td>
-</tr>
-<tr>
-<td></td>
-
-<td>Account Health Checkups</td>
-<td>Conduct regular assessments of account health to ensure ongoing customer success.</td>
-<td>(C)</td>
-<td>DRI</td>
-<td>C,I</td>
-<td>C</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-
-</tr>
-<tr>
-
-<tr>
-<td>
-
-**Optimize & Renew**
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>Business Review (BR)</td>
-<td>Conduct BRs to review successes, challenges, and future plans.</td>
-<td>C</td>
-<td>DRI</td>
-<td>I</td>
-<td>C</td>
-<td></td>
-<td></td>
-<td>C,I</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>Renewal Discussions</td>
-<td>Initiate early discussions about renewal, leveraging insights from the customer journey.</td>
-<td>C,I</td>
-<td>C</td>
-<td>DRI</td>
-<td>C</td>
-<td></td>
-<td></td>
-<td>I</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>Monitor Client Satisfaction</td>
-<td>Implement a structured feedback process to capture and act on customer insights, driving continuous improvement.</td>
-<td>I</td>
-<td>DRI</td>
-<td>C,I</td>
-<td>C,I</td>
-<td>(C)</td>
-<td></td>
-<td>I</td>
-<td>I</td>
-<td>(C): It will depend on the situation.</td>
-</tr>
-<tr>
-<td></td>
-
-<td>Facilitate Product Collaboration</td>
-<td>Clearly capture customer needs via feature requests to assist Product Managers with feature prioritisation and product enhancement.</td>
-<td>C,I</td>
-<td>DRI</td>
-<td>I</td>
-<td>I</td>
-<td></td>
-<td></td>
-<td>I</td>
-<td>C,I</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>Ongoing Risk Review</td>
-<td>Active management of risk in a customer account, quickly turning a customer to red when there is any potential risk of contraction or churn and frequently updating the status.</td>
-<td>C,I</td>
-<td>DRI</td>
-<td>C,I</td>
-<td>C</td>
-<td></td>
-<td></td>
-<td>C,I</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-
-<td>Escalation Management</td>
-<td>Trigger/leading the escalation process (account escalation / STAR) where needed.</td>
-<td>C,I</td>
-<td>DRI</td>
-<td>C,I</td>
-<td>C</td>
-<td></td>
-<td>C,I</td>
-<td>C,I</td>
-<td>I</td>
-<td>(C,I): It will depend on the situation.</td>
-</tr>
-<tr>
-
-</tr>
-</table>
+Comments: (C), (C,I) - It will depend on the situation.
 
 For an additional overview of our CSE team-specific responsibilities, please reference our Job Family: [CSE Responsibilities & Requirements](/job-families/sales/customer-success-engineer/)
 

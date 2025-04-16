@@ -6,7 +6,7 @@ description: "Description of duties and scope for Account Deletion and Data Acce
 controlled_document: true
 ---
 
-## Overview
+## Purpose
 
 This document provides an overview of what account deletion and data access requests are and who is responsible for processing the different aspects of each request. To learn how to process each type of request as a Support Engineer, refer to the [workflows page](/handbook/support/workflows/account_deletion_access_request_workflows).
 
@@ -32,7 +32,7 @@ This process applies to personal data requests submitted by both personal users 
 
 Every request will go through multiple stages, denoted by labels, before they're closed out as completed. Keeping track of which stage of the process each request assigned to you is at is essential to processing them efficiently. Use one of the following two methods to do this:
 
-1. [Create a new issue board](https://docs.gitlab.com/ee/user/project/issue_board.html#create-an-issue-board) in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues) issue tracker that is scoped to only show issues that you are assigned to. Then, [create new lists](https://docs.gitlab.com/ee/user/project/issue_board.html#create-a-new-list) for each label used in the process. Reference [this board](https://gitlab.com/gitlab-com/gdpr-request/-/boards/2316580?assignee_username=tristan) for an example.
+1. [Create a new issue board](https://docs.gitlab.com/user/project/issue_board/#create-an-issue-board) in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues) issue tracker that is scoped to only show issues that you are assigned to. Then, [create new lists](https://docs.gitlab.com/user/project/issue_board/#create-a-new-list) for each label used in the process. Reference [this board](https://gitlab.com/gitlab-com/gdpr-request/-/boards/2316580?assignee_username=tristan) for an example.
 
 1. Use the already existing [Issue Tracking Board](https://gitlab.com/gitlab-com/gdpr-request/-/boards/4379198) and filter it so that only issues that are assigned to you are displayed by typing in `Assignee = yourusername` in the search field.
 

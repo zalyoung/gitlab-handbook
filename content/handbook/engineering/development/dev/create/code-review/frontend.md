@@ -56,7 +56,7 @@ The following members of other functional teams are our stable counterparts:
 | Start Date | Project  | Description | Tech Lead |
 | ------ | ------ | ------ |  ------ |
 | 2019 | Merge Requests Vue app | The frontend application that renders Merge Requests | — |
-| 2023-09 | [New Diffs](https://docs.gitlab.com/ee/architecture/blueprints/new_diffs/index.html) ([Epic](https://gitlab.com/groups/gitlab-org/-/epics/11559)) | A project to deliver a reusable and performant way of rendering diffs across GitLab | — |
+| 2023-09 | [New Diffs](/handbook/engineering/architecture/design-documents/rapid_diffs/) ([Epic](https://gitlab.com/groups/gitlab-org/-/epics/11559)) | A project to deliver a reusable and performant way of rendering diffs across GitLab | — |
 
 ## Engineering Onboarding
 

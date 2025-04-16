@@ -6,9 +6,39 @@ title: "Talent Brand and Talent Acquisition Enablement"
 
 ### Levels
 
+### Talent Brand Coordinator
+
+The Talent Brand Coordinator reports to the Senior Director of Talent Acquisition.
+
+#### Talent Brand Coordinator Job Grade
+
+The Talent Brand Coordinator is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Talent Brand Coordinator Responsibilities
+
+- Partner with our internal teams like Corporate Communications, Diversity, Inclusion & Belonging, and Social
+- Plan, communicate, and coordinate talent brand social media posts and spotlights
+- Become an expert in our branding guidelines and bring creativity to everything you do, whether it’s editing videos or crafting graphics for external social campaigns
+- Chat with team members from across the globe to gather their stories about life at GitLab, collecting images, quotes and compiling videos for internal and external initiatives
+- Support team member story collection for publications on Built In, GitLab’s Life Pages, and our Careers Site
+- Audit our internal and external platforms and hold the team accountable for making updates
+- Exercise your impressive organizational skills. You’ll be the keeper of our Recruiting event tracker, photo library, employee releases and more.
+- Assist with our in-person event process, including preparation of event materials, occasional shipping and swag creation
+- Be an ambassador for GitLab’s culture, infusing GitLab’s mission, culture, and values into everything you do
+
+### Talent Brand Coordinator Requirements
+
+- Interested in learning about creating and curating branded content
+- Supremely organized and have fine-tuned project management skills
+- Interest in learning and working with digital production and post-production tools (Canva, InDesign, Photoshop, Illustrator, etc.)  
+- Experience with social media as a marketing tool, creating digital content for various audiences and an understanding of social reporting
+- Experience working with Google Suite and Slack is ideal
+- Must have unrestricted work authorization to work in the United States
+- You share our [values](/handbook/values/), and work in accordance with those values
+
 ### Talent Brand Program Manager
 
-The Talent Brand Program Manager reports to the Senior Director of Talent Brand & Talent Acquisition Enablement.
+The Talent Brand Program Manager reports to the Senior Director of Talent Acquisition.
 
 #### Talent Brand Program Manager Job Grade
 
@@ -43,7 +73,7 @@ The Talent Brand Program Manager is a [grade 6](/handbook/total-rewards/compensa
 
 ### Senior Talent Brand Program Manager
 
-The Senior Talent Brand Program Manager reports to the Senior Director of Talent Brand & Talent Acquisition Enablement.
+The Senior Talent Brand Program Manager reports to the Senior Director of Talent Acquisition.
 
 #### Senior Talent Brand Program Manager Job Grade
 

@@ -7,7 +7,7 @@ Business Value Services is a practice and approach that allows the GitLab deal t
 - Focus on customer challenges and required GitLab DevSecOps capabilities to address these challenges
 - Quantify value of the GitLab solution with performance improvements and measurable business outcomes
 
-The practice starts from the first conversation at the discovery and scoping stages. The output of the business value discussion can be a Return on Investment (ROI) and Total Cost of Ownership (TCO) document, also known as a **Business Value Assessment**. This allows the team to:
+The practice starts from the first conversation at the discovery and scoping stages. The output of the business value discussion can consist of the Return on Invesment (ROI), Total Cost of Ownership (TCO), Cost of Inaction, and other quantified & qualified benefits and outcomes, all of which constitutes the **Business Case**. This allows the team to:
 
 - Drive value discussion to address challenges, support organizational goals and vision
 - Expand the customer reach and engage right stakeholders
@@ -18,18 +18,17 @@ The practice starts from the first conversation at the discovery and scoping sta
 
 ## Why Business Value Discussion
 
-Derisking a customer's buying decision by incorporating the business value discussion and exercise into the customer engagement is important. GitLab provides a comprehensive AI-powered DevSecOps platform that provides the software delivery solution with high impacts on business, technology and teams across the organization.
-Organizations need to make their strategic investment in DevSecOps with demonstrable ROI and path to value realization.
+Derisking a customer's buying decision by incorporating the business value discussion and exercise into the customer engagement is important. GitLab provides a comprehensive AI-powered DevSecOps platform that provides the software delivery solution with high impacts on business, technology and teams across the organization. Organizations need to make their strategic investment in DevSecOps with demonstrable ROI and path to value realization.
 
 Often times, the business value conversation started with the customers wanting to understand more value proposition and business outcomes. GitLab as the industry leader in DevSecOps can provide referencable customer journey and quantitiative measures. SAs can provide the consultative advices to identify transformational drivers for the organizations and help measure the results of DevSecOps transformation as the performance improvement.
 
-## Utilizing the Business Value Services tool to create Business Value Assessments (BVAs)
+## Utilizing the Business Value Platform to create Business Cases
 
-GitLab's Business Value Services tool is a platform integrated into Salesforce that takes GitLab’s proprietary ROI modeling and provides a scalable, consistent way for AEs to build business cases and demonstrate ROI in customer conversations. It also allows them to tailor these generated business cases and proposals to their customers as well as to GitLab’s value framework and Command of Message methodology. The sales field starts from several ROI model templates and co-builds a strong business case with their customer that allows them to engage around the right value drivers, and communicate the value of GitLab that targets meaningful customer outcomes.
+GitLab's Business Value Platform is a tool integrated into Salesforce that takes GitLab's proprietary ROI modeling and provides a scalable, consistent way for AEs to build business cases and demonstrate ROI in customer conversations. It also allows them to tailor these generated business cases and proposals to their customers as well as to GitLab's value framework and Command of Message methodology. The sales field starts from several ROI model templates and co-builds a strong business case with their customer that allows them to engage around the right value drivers, and communicate the value of GitLab that targets meaningful customer outcomes.
 
 This tool allows us to democratize value-based conversations by creating a self-serve model that balances business value positioning with quantitative analysis. Instead of a centralized team that holds onto this, we are enabling everyone to create, customize, and communicate value to customer organizations in partnership with their customer.
 
-Benefits of the Business Value Services tool:
+Benefits of the Business Value Platform:
 
 - Create a consistent and scalable way to show ROI & quantifiable value as to why a customer should partner with GitLab on their desired business outcomes
 - Derisk the buyers decision with credible, quantifiable justification
@@ -47,11 +46,11 @@ The account team can incorporate the value consulting into early sales stages wh
   - Engage with discover questions for the values and benefits
 - Scoping stage
   - Conduct value stream workshop (VSW) with the customer with identified key stakeholders
-  - Align the orgnaization vision and initiative to DevSecOps roadmap while building the trusted relationship
+  - Align the organization vision and initiative to DevSecOps roadmap while building the trusted relationship
   - Surface the value drivers in the customer context that can drive the organization transformation. Often times, the top drivers can be tool consolidation for better efficiency and reduced cost, and securing the software supply chain for improved compliance and reduced security risk.
   At this time, customers or prospects may request a budgetary proposal along with the value drivers and associated benefits that are quantified as the dollar amount and business hours reclaimed for the performance improvement.
 - Technical evaluation
-  - Conduct technical evaluation activitiones including Proof of Value (POV) along with the required capabilities and strategic DevSecOps solution in the customer's context
+  - Conduct technical evaluation activities including Proof of Value (POV) along with the required capabilities and strategic DevSecOps solution in the customer's context
   - Identify and quantify business values associated with the agreed drivers, mapped to ROI and investment options, provide clearn understanding how to measure and realize the benefit realization
 - Negotiation
   - Work on the commercial proposal with investment options and TCO by the deal team and led by AE, with measurable positive business outcomes from the proposed solution

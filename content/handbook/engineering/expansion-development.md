@@ -35,7 +35,7 @@ We will follow our parent department [Engineering](/handbook/engineering/#divers
 The Expansion department includes the following sub-departments and groups:
 
 - [Secure](/handbook/engineering/development/sec/secure/)
-- [Govern](/handbook/engineering/development/sec/govern/)
+- [Software Supply Chain Security](/handbook/engineering/development/sec/software-supply-chain-security/)
 - [Fulfillment](/handbook/engineering/development/fulfillment/)
 - [Growth](/handbook/engineering/development/growth/)
 
@@ -55,7 +55,7 @@ The following members of other functional teams are our stable counterparts:
 
 ### Promotion Process
 
-Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), Development utilizes a quarterly process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/#bamboohr-promotion-approval-process). The goal of this quarterly promotion projection and review is to:
+Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), Development utilizes a quarterly process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/). The goal of this quarterly promotion projection and review is to:
 
 - Promote the right people at the right time
 - Maintain a high bar for promotions
@@ -187,7 +187,7 @@ The following is a non exhaustive list of daily duties for engineering directors
     1. Growth
     1. Ops
     1. Secure
-    1. Govern
+    1. Software Supply Chain Security
 1. Review hiring dashboards
 1. Personal todo list
 1. Personal GitLab board(s) if any
@@ -245,7 +245,7 @@ Below are tips for developing individual's OKRs:
 
 ## Engineering Allocations and Tracking
 
-[Engineering Allocation](/handbook/engineering/#engineering-allocation) require us to track goals with more diligence and thought.  We need confidence that we're making correct decisions and executing well to these initiatives. As such, you will see us reviewing these more closely than other initiatives.  We will meet on a cadence to review these initiatives and request additional reporting to support the process.  Possible requests for additional data:
+[Engineering Allocation](/handbook/product/product-processes/#prioritization-framework) require us to track goals with more diligence and thought.  We need confidence that we're making correct decisions and executing well to these initiatives. As such, you will see us reviewing these more closely than other initiatives.  We will meet on a cadence to review these initiatives and request additional reporting to support the process.  Possible requests for additional data:
 
 1. [Demos](/handbook/engineering/demos/)
 1. [GitLab Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/)
@@ -306,26 +306,26 @@ The shared services and components below are extracted from the GitLab [product 
 | GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
 | GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
-| GitLab Shell |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Reference](/handbook/product/categories/#source-code-group-1) |
-| HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations/) |  |
+| GitLab Shell |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
+| HAproxy |  | Centralized with Specific Team |  | [Infrastructure](/handbook/engineering/infrastructure-platforms/production-engineering/foundations/) |  |
 | Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
-| LFS |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  |
+| LFS |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 | Logrotate |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Mattermost |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | MinIO |  | Decentralized |  |  | Some issues can be broken down into group-specific issues. Some issues may need more work identifying user or developer impact in order to find a DRI. |
 | NGINX |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
-| Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks) |  |
+| Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/) |  |
 | Patroni | General except Geo secondary clusters | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
-|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/) |  |
+|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/) |  |
 | PgBouncer |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | PostgreSQL | PostgreSQL Framework and Tooling | Centralized with Specific Team | @alexives | [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) | Specific to the development portion of PostgreSQL, such as the fundamental architecture, testing utilities, and other productivity tooling |
 |  | GitLab Product Features | Decentralized |  |  | Examples like feature specific schema changes and/or performance tuning, etc. |
 | Prometheus |  | Decentralized |  |  | Each group maintains their own metrics.  |
-| Puma |  | Centralized with Specific Team | @pjphillips | [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud_connector) |  |
+| Puma |  | Centralized with Specific Team | @pjphillips | [Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/) |  |
 | Redis |  | Decentralized |  |  | DRI is similar to Sidekiq which is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
 | Sentry |  | Decentralized |  |  | DRI is similar to GitLab Rails which is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | Sidekiq |  | Decentralized |  |  | DRI for each worker is determined by the feature category specified in the class. [app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/workers) and [ee/app/workers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/workers) |
-| Workhorse |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  |
+| Workhorse |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
 
 ## Learning Resources
 
@@ -391,7 +391,7 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 
 ### Development Escalation Process
 
-- [General information](/handbook/engineering/development/processes/Infra-Dev-Escalation/)
+- [General information](/handbook/engineering/development/processes/infra-dev-escalation/)
 - [Process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/)
 
 ### Reducing the impact of far-reaching work
@@ -432,9 +432,9 @@ Some areas have already been identified that meet the definition above, and may 
 | Gitaly product areas             | high percentage of traffic share |                                                                                                                       |
 | [Create: Source Code product areas](/handbook/product/categories/features/#createsource-code-group) | high percentage of traffic share. Special attention should be paid to Protected Branches, CODEOWNERS, MR Approvals, Git LFS, Workhorse and the git over SSH / gitlab-sshd interfaces. Please contact the EM (@sean_carroll) or PM (@tlinz) if you are unsure. | |
 | Pipeline Execution product areas | high percentage of traffic share  | [Documentation](https://docs.gitlab.com/ee/development/contributing/verify/)                                          |
-| Authentication and Authorization product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/sec/govern/authentication-and-authorization#code-review)            |
-| Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/govern/compliance/#code-review)                     |
-| Workspace product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/dev/manage/workspace#how-we-work)                                   |
+| Authentication and Authorization product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/development/sec/software-supply-chain-security/authorization/#code-review)            |
+| Compliance product areas | potentially have legal, security, or compliance consequences | [Code Review Documentation](/handbook/engineering/development/sec/software-supply-chain-security/compliance/#code-review)                     |
+| Workspace product areas    | touch multiple areas of the application    | [Documentation](/handbook/engineering/architecture/design-documents/workspaces/)                                   |
 | [Specific fulfillment product areas](/handbook/engineering/development/fulfillment/#revenue-impacting-changes) | potentially impact revenue |                                                                                                                       |
 | Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade.html#ruby-upgrade-guidelines)           |
 | Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update.html)                                  |
@@ -449,17 +449,17 @@ These are the stakeholders:
 | Team                                                                                                                                                           | Stake |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development)                                                                         | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))  |
-| [Editor Extensions](/handbook/engineering/development/dev/create/editor_extensions/)                                                   | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [Jetbrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
+| [Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/)                                                   | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [JetBrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
 | [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/) (`@mkaeppler`, `@nmilojevic1`) | AI-Assissted for Self-Managed |
 | [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |
 | [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/)                                                           | GitLab Chat for VSCode and WebIDE|
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/)                                                    | Code Suggestions |
-| [AI Model Validation Group](/handbook/engineering/development/data-science/ai-assisted/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
+| [AI Model Validation Group](/handbook/engineering/development/data-science/ai-powered/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
 | [Infrastructure](/handbook/engineering/infrastructure/)                                                                                | Code Suggestions AI Gateway scalability |
 
 ## ClickHouse Datastore usage
 
-[ClickHouse usage by Monitor:Observability group](/handbook/engineering/development/ops/monitor/observability/#clickhouse-datastore)
+[ClickHouse usage by Monitor:Platform Insights group](/handbook/engineering/development/analytics/monitor/platform-insights/#clickhouse-datastore)
 
 ## Customer Account Escalation coordination
 

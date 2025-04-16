@@ -42,7 +42,7 @@ Bigger product feature contributions should follow GitLab
 [Iteration training](/handbook/engineering/development/onboarding/manager/#iteration-training) is available to coach on GitLab's value of iteration. This can be helpful to understand the expectations of GitLab product teams for feature iteration.
 
 Not every features can follow the same strategy, but the first strategy we
-try should be [crafting the minimal valuable change](/handbook/product/product-processes/#crafting-an-mvc), and for creating
+try should be [crafting the minimal valuable change](/handbook/product/product-processes/#writing-about-features), and for creating
 merge requests, always try to [keep merge requests small](/handbook/engineering/workflow/iteration/#how-to-keep-a-merge-request-small).
 
 In the above guidelines to keep merge requests small, we mentioned:
@@ -77,7 +77,7 @@ Contributions in projects that have proprietary and upstream contributions will 
 1. The JiHu Engineering team will review and merge the JiHu MR in the JiHu project.
 1. A scheduled pipeline every 2 hours will run in [compliance-verification](https://gitlab.com/gitlab-org/gitlab-jh-mirrors/compliance-verification) against the [JiHu project pulling mirror](https://gitlab.com/gitlab-org/gitlab-jh-mirrors/gitlab) to verify that there are no code difference outside of `jh/` directory beside [agreed difference for `package.json` and `yarn.lock`](https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/170#note_892043256).
 
-![Diagrem of the GitLab JiHu MR Process](/handbook/ceo/office-of-the-ceo/jihu-support/images/gitlab-jh-mr-process.jpg)
+![Diagrem of the GitLab JiHu MR Process](/images/ceo/office-of-the-ceo/jihu-support/gitlab-jh-mr-process.jpg)
 
 ### JiHu contribution identification
 
@@ -95,18 +95,18 @@ Contributions from [JiHu team members](https://gitlab.com/groups/gitlab-jh/jh-te
 1. Merge request is then set to 'ready' state by JiHu team.
 1. JiHu author will request a review using `@gitlab-bot request_review` to identify and work on merging the MR with a merge request coach
 1. The MR goes through our documented review process which includes:
-    1. [Code review by domain experts](#what-approvals-are-required)
-    1. Review from owners of specific code files. JiHu merge request author is responsible to mention team members from list of require approvals in the MR Approvals widget. Currently for the following area:
-        1. Authentication related code
-    1. [GitLab Security Review]({{< ref "jihu-security-review-process" >}}#security-review-workflow-for-jihu-contributions), which will be triggered automatically.
+   1. [Code review by domain experts](#what-approvals-are-required)
+   1. Review from owners of specific code files. JiHu merge request author is responsible to mention team members from list of require approvals in the MR Approvals widget. Currently for the following area:
+      1. Authentication related code
+   1. [GitLab Security Review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/#security-review-workflow-for-jihu-contributions), which will be triggered automatically.
 
 #### What approvals are required
 
 Upstream merge requests require the same level of review and approval as all merge requests including:
 
 - [Regular code review](https://docs.gitlab.com/ee/development/code_review.html)
-- [Security review]({{< ref jihu-security-review-process >}})
-- [Database migration review]({{< ref jihu-database-change-process >}}) when applicable
+- [Security review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process)
+- [Database migration review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-database-change-process) when applicable
 
 Upstream merge requests may require additional [specific team reviews](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines) based on changed files. High impact code is identified with [CODEOWNERS](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) rules and required approvals for specific files. For example, if the merge request includes changes related to authentication or authorization, it must be approved by a [Manage:Authentication and Authorization team member](/handbook/company/team/)
 
@@ -121,7 +121,7 @@ Upstream merge requests may require additional [specific team reviews](https://d
   - Changes for prepending the classes/modules should be reviewed based on
     [JH features based on CE or EE features](https://docs.gitlab.com/ee/development/jh_features_review.html#jh-features-based-on-ce-or-ee-features).
   - Database migrations related changes should be reviewed following
-    [database migration review process]({{< ref jihu-database-change-process >}}).
+    [database migration review process](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-database-change-process).
 
 #### Merge request review escalation
 
@@ -129,6 +129,6 @@ Please refer to our [guidelines](https://docs.google.com/document/d/1zEiPBZ1D90L
 
 ### Release certification process
 
-The Application Security team performs a certification of each release that includes JiHu contributions. Please see [this documentation]({{< ref release-certification >}}) for more information about this process.
+The Application Security team performs a certification of each release that includes JiHu contributions. Please see [this documentation](/handbook/ceo/office-of-the-ceo/jihu-support/release-certification) for more information about this process.
 
 Certification issues containing a report can be found in the [issue tracker](https://gitlab.com/gitlab-org/jh-upstream-report/-/issues/) of the [jh-upstream-report repository](https://gitlab.com/gitlab-org/jh-upstream-report).

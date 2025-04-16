@@ -20,7 +20,7 @@ Join GitLab's Slack Reseller channel by emailing vgoetz@gitlab.com to keep curre
 
 ## Training & Enablement
 
-- [GitLab Product training](https://about.gitlab.com/learn/) - Providing a subset of on-demand content suggested based on role and skill level. Each track links to the specific on-demand training area GitLab recommends.
+- [GitLab Product training](https://university.gitlab.com/) - Providing a subset of on-demand content suggested based on role and skill level. Each track links to the specific on-demand training area GitLab recommends.
 - [GitLab sales enablement list](https://www.youtube.com/playlist?list=PLFGfElNsQthYe-_LZdge1SVc1XEM1bQfG)
 - [Future GitLab sales enablement](https://gitlab.com/gitlab-com/marketing/general/boards/465497?=&label_name[]=Sales%20Enablement)
 

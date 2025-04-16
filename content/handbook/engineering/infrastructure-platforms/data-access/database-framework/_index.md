@@ -174,7 +174,7 @@ milestone.
 
 [Database: Build · Boards · GitLab.org · GitLab](https://gitlab.com/groups/gitlab-org/-/boards/1324138) The build board
 gives you an overview of the current state of work for `group::database`. These
-issues have already gone through validation and are on the [Product Development Build Track](/handbook/product-development-flow/#build-track). Issues are added
+issues have already gone through validation and are on the [Product Development Build Track](/handbook/product-development/product-development-flow/#build-track). Issues are added
 to this board by adding the current active milestone and `group::database`
 labels. Issues in the `workflow::ready for development` column are ordered in
 priority order (top down). Team members use this column to select the next item
@@ -257,8 +257,7 @@ We document our insights, road maps and other relevant material in this section.
   [#g_database](https://gitlab.slack.com/app_redirect?channel=g_database) -
 Official Business
 - Slack Channel
-  [#db-lounge](https://gitlab.slack.com/app_redirect?channel=db-lounge) - Team
-Chat
+  [#db-lounge](https://gitlab.slack.com/app_redirect?channel=db-lounge) - Team Chat
 - [Database Epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Adatabase)
 - [Database Subgroup](https://gitlab.com/gitlab-org/database-team) - Issues and
   templates related to team processes.

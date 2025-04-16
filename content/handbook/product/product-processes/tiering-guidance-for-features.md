@@ -57,7 +57,7 @@ Should product managers have any questions when making tier decisions, they shou
 
 Multiple considerations go into customers' purchase decisions. Here are some various resources product managers can visit to reference various data points for analysis:
 
-- [Post purchase surveys](https://about.gitlab.com/direction/product-operations/#post-purchase)
+- Post purchase surveys (link no longer available)
 
 ## How to consider impact to revenue
 
@@ -67,7 +67,7 @@ Product managers should be familiar with and leverage strategies and tactics for
 
 - [Create stage's use of popularity to drive revenue](https://about.gitlab.com/direction/create/#pricing)
 - [Plan stage's balance between usage and enterprise adoption](https://about.gitlab.com/direction/plan/#pricing)
-- [Enablement section's balance of ease of use and scale](https://about.gitlab.com/direction/enablement/#pricing)
+- [Enablement section's balance of ease of use and scale](https://about.gitlab.com/direction/core_platform/#pricing)
 
 ### Understanding Investment
 
@@ -80,10 +80,10 @@ Pricing adjustments within a buyer-based model can be challenging and sometimes 
 👍
 
 - [Move Feature Flags to Core](https://gitlab.com/gitlab-org/gitlab/-/issues/212318)
-- With pressure from the market that our SAST features were just open source tools and any customer could just run those themselves for free, we moved SAST analyzers to core. We were able to turn this criticism into a community feature which has increased our community contributions, provided an entry point for [all customers to try our security tooling](https://docs.gitlab.com/ee/user/application_security/sast/#making-sast-analyzers-available-to-all-gitlab-tiers) and even create some in-product upgrade paths to Ultimate. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2098), [Internal Discussions](https://gitlab.com/gitlab-com/Product/-/issues/315), [Release Post](https://about.gitlab.com/releases/2020/08/22/gitlab-13-3-released/#sast-security-analyzers-available-for-all)
+- With pressure from the market that our SAST features were just open source tools and any customer could just run those themselves for free, we moved SAST analyzers to core. We were able to turn this criticism into a community feature which has increased our community contributions, provided an entry point for [all customers to try our security tooling](https://docs.gitlab.com/user/application_security/sast/#making-sast-analyzers-available-to-all-gitlab-tiers) and even create some in-product upgrade paths to Ultimate. [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2098), [Internal Discussions](https://gitlab.com/gitlab-com/Product/-/issues/315), [Release Post](https://about.gitlab.com/releases/2020/08/22/gitlab-13-3-released/#sast-security-analyzers-available-for-all)
 - The [Kubernetes Agent move to core](https://gitlab.com/gitlab-com/Product/-/issues/2067) generated great discussions on how competitive pressure and the desire for feedback can challenge the buyer-based tiering
 
 👎
 
 - Pricing the [MR Diff code quality annotations](https://gitlab.com/gitlab-org/gitlab/-/issues/2526) into Ultimate was something that got some resistance initially since the feature would be used by developers. The feature fits into the Transformation type sale where a team is trying to shift code quality to the left and bring it to the full code review process.
-- Putting the [Accessibility MR Widget](https://docs.gitlab.com/ee/ci/testing/accessibility_testing.html) into Core was about getting some usage for the new category and to learn what additional features customers wanted.
+- Putting the [Accessibility MR Widget](https://docs.gitlab.com/ci/testing/accessibility_testing/) into Core was about getting some usage for the new category and to learn what additional features customers wanted.

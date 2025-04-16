@@ -5,7 +5,7 @@ creation-date: "2024-02-06"
 authors: [ "@alexander-sosna" ]
 coach: [ "@andrewn" ]
 approvers: [  ]
-owning-stage: "~devops::data_stores"
+owning-stage: "~devops::data_access"
 participating-stages: []
 toc_hide: true
 ---
@@ -98,24 +98,24 @@ They can be *high*, *soft*, *low*.
 
 ### Universal Requirements
 
-| Requirement                                        | Description                                                                                                                                                                                                                                                                              | Priority | Cloud SQL | k8s operator | Amazon RDS          |
+| Requirement                                        | Description                                                                                                                                                                                                                                                                              | Priority | Cloud SQL | Crunchy K8s Operator | Amazon RDS          |
 | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------ | ------------------- |
 | Support GitLab                                     | Ability to support GitLab application with minimal, or no changes                                                                                                                                                                                                                        | high     | ✅        | ✅           | ✅                  |
-| PostgreSQL Major Release                           | Support for stable releases within 6 months, so development and infrastructure teams can work on integration.                                                                                                                                                                            | high     | ❌        | ✅/?         | ✅                  |
-| PostgreSQL Major Release                           | Support for stable releases within 3 months, so development and infrastructure teams can work on integration.                                                                                                                                                                            | medium   | ❌        | ✅/?         | ✅/partial          |
-| PostgreSQL Patch Release                           | Support for minor releases (bugfixes) within 7 days.                                                                                                                                                                                                                                     | high     | ❌        | ✅/?         | ✅                  |
-| PostgreSQL Security Fixes                          | Any security fix to follow out [Security SLAs](../../../../threat-management/vulnerability-management/#remediation-slas), critical within 24 hours.                                                                                                                                      | high     | ❌        | ✅           | ✅                  |
+| PostgreSQL Major Release                           | Support for stable releases within 6 months, so development and infrastructure teams can work on integration.                                                                                                                                                                            | high     | ❌        | ✅         | ✅                  |
+| PostgreSQL Major Release                           | Support for stable releases within 3 months, so development and infrastructure teams can work on integration.                                                                                                                                                                            | medium   | ❌        | ✅         | ✅/partial          |
+| PostgreSQL Patch Release                           | Support for minor releases (bugfixes) within 7 days.                                                                                                                                                                                                                                     | high     | ❌        | ✅         | ✅                  |
+| PostgreSQL Security Fixes                          | Any security fix to follow out [Security SLAs](../../../../threat-management/vulnerability-management/#remediation-slas), critical within 24 hours.                                                                                                                                      | high     | ❌        | ✅/partial           | ✅                  |
 | PostgreSQL Beta Release                            | Support for current PostgreSQL beta release, so development and infrastructure teams can test early.                                                                                                                                                                                     | low      | ❌        | ✅           | ✅/only preview env |
-| Near Zero Downtime Upgrade                         | Upgrades need to be possible with only seconds, not minutes or hours, of APDEX degradation.                                                                                                                                                                                              | high     | ❌        | ✅/?         | ✅/partial          |
+| Near Zero Downtime Upgrade                         | Upgrades need to be possible with only seconds, not minutes or hours, of APDEX degradation.                                                                                                                                                                                              | high     | ❌        | ✅/partial, requires engineering efforts         | ✅/partial          |
 | HA solution                                        | High availability and failover automation, on-par or better than current Patroni solution. Switchover / Failover in seconds without human intervention and not allowing split-brain scenarios.                                                                                           | high     | ✅        | ✅           | ✅                  |
-| Logging Integration                                | Structured logging on Postgres available.                                                                                                                                                                                                                                                | high     | ✅        | ✅           | ✅                  |
+| Logging Integration                                | Structured logging on Postgres available.                                                                                                                                                                                                                                                | high     | ✅        | ✅/Configurable & Sidecar option           | ✅                  |
 | Metrics                                            | Integration in our Prometheus / Grafana monitoring setup.                                                                                                                                                                                                                                | high     | ✅        | ✅           | ✅                  |
-| PostgreSQL Extensions - Operation (high)           | The following extensions are currently necessary: <br>  - pg_stat_statements <br> - pg_wait_sampling <br> - amcheck <br> - [pgvector](https://github.com/pgvector/pgvector) <br> - pg_trgm <br> - btree_gin <br> - btree_gist <br> - plpgsql <br> - pg_repack                            | high     | ✅        | ✅           | ✅                  |
-| PostgreSQL Extensions - Debug (medium)             | The following extensions are used for debugging: - pg_stat_kcache <br> - pgstattuple <br> - pageinspect <br> - pg_buffercache <br>                                                                                                                                                       | medium   | ❌        | ✅           | ✅/not kcache       |
+| PostgreSQL Extensions - Operation (high)           | The following extensions are currently necessary: <br>  - pg_stat_statements <br> - pg_wait_sampling <br> - amcheck <br> - [pgvector](https://github.com/pgvector/pgvector) <br> - pg_trgm <br> - btree_gin <br> - btree_gist <br> - plpgsql <br> - pg_repack                            | high     | ✅        | ✅/not wait_sampling, repack;but option to rebuild image            | ✅                  |
+| PostgreSQL Extensions - Debug (medium)             | The following extensions are used for debugging: - pg_stat_kcache <br> - pgstattuple <br> - pageinspect <br> - pg_buffercache <br>                                                                                                                                                       | medium   | ❌        | ✅/not kcache;but option to rebuild image           | ✅/not kcache       |
 | PostgreSQL Extensions - Migration / Sharding (low) | The following extensions are not used yet, but might become important in the future: <br> - postgres_fdw <br> - file_fdw                                                                                                                                                                 | low      | ❌        | ✅           | ✅/not file_fdw     |
-| Debug Tooling                                      | We currently use tools like strace to hook into PostgreSQL processes to find performance root causes. In a SaaS we would need to make sure the service provider is willing and able to do such analysis instead.                                                                         | medium   | ❌        | ✅           | ❌                  |
+| Debug Tooling                                      | We currently use tools like strace to hook into PostgreSQL processes to find performance root causes. In a SaaS we would need to make sure the service provider is willing and able to do such analysis instead.                                                                         | medium   | ❌        | ✅/On-demand package install or container image rebuild           | ❌                  |
 | Backups with third-party tools                     | Automated and manual base backups with third party tools such as wal-g, pgBackRest, with custom backup/archive repositories and retention policies.                                                                                                                                      | high     | ❌        | ✅           | ❌                  |
-| Disk based backup / restore                        | Automated and manual fast backup like disk / volume snapshots, configurable retention policy, atomic snapshots or integration with [pg_start_backup / pg_stop_backup](https://www.postgresql.org/docs/14/functions-admin.html#FUNCTIONS-ADMIN-BACKUP-TABLE) to guarantee consistent data | high     | ✅        | ✅           | ✅                  |
+| Disk based backup / restore                        | Automated and manual fast backup like disk / volume snapshots, configurable retention policy, atomic snapshots or integration with [pg_start_backup / pg_stop_backup](https://www.postgresql.org/docs/14/functions-admin.html#FUNCTIONS-ADMIN-BACKUP-TABLE) to guarantee consistent data | high     | ✅        | ✅/Clone-only, no multi-AZ support yet; on roadmap.           | ✅                  |
 | Incremental backups                                | Customize incremental backup execution, which allow us to perform more frequent backups, which reduces RTO.                                                                                                                                                                              | medium   | ✅        | ✅           | ✅                  |
 | Backup Export                                      | Ability to export backups to generic storage e.g. GCS buckets.                                                                                                                                                                                                                           | high     | ❌        | ✅           | ❌/only S3 .parquet |
 | Local Streaming Replication                        | Streaming Physical Replication to the same region is required to offload read-only workload and for horizontal scaling.                                                                                                                                                                  | high     | ✅        | ✅           | ✅                  |
@@ -124,7 +124,7 @@ They can be *high*, *soft*, *low*.
 | WAL Archiving Replication                          | WAL Archiving Replication eliminates the impact of hot standby feedback and streaming replication, which is useful for analytics (eg. execution of long/slow queries and reports), query testing and performance debug                                                                   | high     | ✅        | ✅           | ✅                  |
 | WAL Delayed Archiving Replication                  | WAL Delayed Archiving Replication allow to keep a Replica continuously recoverying in a previous point-in-time (eg. 8 hours ago), this provides a very quick Disaster Recovery method for issues such as human errors.                                                                   | medium   | ❌        | ✅           | ❌                  |
 | Logical Replication                                | Logical Replication is needed for zero downtime upgrades, future migrations or any kind of infrastucture change that might not support PostgreSQL physical replication.                                                                                                                  | high     | ✅ / ?    | ✅           | ✅                  |
-| Read Load Distribution                             | Standbys to distribute read load need to be deployable on short notice, to mitigate performance bottlenecks, a suitable automation is acceptable as well.                                                                                                                                | high     | ✅        | ✅           | ✅                  |
+| Read Load Distribution                             | Standbys to distribute read load need to be deployable on short notice, to mitigate performance bottlenecks, a suitable automation is acceptable as well.                                                                                                                                | high     | ✅        | ✅/use pgBackRest instead of volume snapshot           | ✅                  |
 | Regional deployment                                | We need to be able to define the region of individual standbys for DR requirements.                                                                                                                                                                                                      | low      | ✅        | ✅           | ✅                  |
 | Database Lab Integration                           | [Database Lab](https://postgres.ai/docs/platform) is used by our backend developers and needs to be integrated.                                                                                                                                                                          | low      | ✅ / ?    | ✅           | ✅ / ?              |
 
@@ -161,7 +161,7 @@ TODO: Define performance requirements and check with different steak holders. Di
 #### Decomposition
 
 The application data for [GitLab.com](https://gitlab.com/) is currently decomposed into two separate database clusters, `Main` and `CI`.
-We are evaluating if we can further decompose the `Main` database with [decomposing `Secure and Govern` related tables to a separate Postgres DB](https://gitlab.com/gitlab-org/gitlab/-/issues/427973) to gain more headroom and scalability for the current platform.
+We are evaluating if we can further decompose the `Main` database with [decomposing `Secure- and Software Supply Chain Security-related tables to a separate Postgres DB](https://gitlab.com/gitlab-org/gitlab/-/issues/427973) to gain more headroom and scalability for the current platform.
 
 For Cells it is a design choice to scale horizontally by adding more Cells and to rebalance by moving organizations to less saturated cells.
 Cells should not be scaled vertically to a point where decomposition is reasonable.
@@ -213,11 +213,57 @@ Most of the information above can be found in the official [Cloud SQL documentat
 
 #### Things to validate
 
-- Could we use the offered [logical replication feature](https://cloud.google.com/sql/docs/postgres/replication/configure-external-replica) ([pglogical](https://github.com/2ndQuadrant/pglogical)) for our migration needs? - estimate 2-4 weeks
-- Can we access WAL and base_backups, as it appears in the [pitr documentation](https://cloud.google.com/sql/docs/postgres/backup-recovery/pitr#log-storage-for-pitr), in contrast to our meeting, where GCP denied it. - estimate < 1 week
-- How long does a major upgrade take for our 50k reference architecture? - estimate 4-5 weeks
-- Is [Query Insights](https://cloud.google.com/sql/docs/postgres/using-query-insights) a sufficient replacement for the current observability tooling.
-- How long does it take to create a read-replica? How long does it take to create a new cluster from backup? `10GB`, `100GB`, `1TB` - estimate 1 week
+Dividing the scope based on the Cells iterations https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/#cells-iterations
+
+##### Cells 1.0 (Initial Scope)
+
+(Focus: Foundational validation and integration tasks for the Cells 1.0 release)
+
+The target of Cells [Cells 1.0] (../iterations/cells-1.0.md) is to deliver a solution for internal customers using the SaaS GitLab.com offering, and foundational work for Cells.
+
+- Evaluate and integrate CloudSQL's database observability and automated telemetry collection tools into GitLab's observability suite.
+  - Is [Query Insights](https://cloud.google.com/sql/docs/postgres/using-query-insights) a sufficient replacement for the current observability tooling?
+  - We need to validate how to export [Cloud SQL metrics](https://cloud.google.com/sql/docs/postgres/admin-api/metrics) and [Cloud SQL System insights](https://cloud.google.com/sql/docs/postgres/use-system-insights) into our Monitoring tools
+  - How to integrate [CloudSQL query insights](https://cloud.google.com/sql/docs/postgres/using-query-insights) into our Monitoring tools?
+  - How to export PostgreSQL logs into Elastic?
+- Validate CloudSQL's backup and recovery strategies, including Point-in-Time Recovery (PITR), and review the [the high availability (HA) configuration for CloudSQL](https://cloud.google.com/sql/docs/postgres/high-availability) to minimize downtime during a zonal outage or hardware failure.
+- [Configure and validate SSL/TLS certificates](https://cloud.google.com/sql/docs/postgres/configure-ssl-instance) to ensure PostgreSQL connections are encrypted.
+- Auto-storage-increase behavior – Trigger multiple sequential storage increases and observe any "cool-off" period between increases, operational delays, or performance degradation.
+- Instance scaling downtime – Measure downtime when scaling up/down with and without HA enabled.
+- Minor version upgrade impact – Validate the downtime experienced during minor version upgrades with and without HA.
+
+##### Cells 1.5 (Future Considerations & Enhancements)
+
+(Focus: Features and validations for later iterations)
+
+The target of [Cells 1.5](../iterations/cells-1.5.md) is to deliver a migration solution for existing and new enterprise customers using the SaaS GitLab.com offering, built on top of the Cells 1.0 architecture.
+
+- Validate a connection pooling solution for both Write and Read-Only workloads:
+  - PgBouncer on VMs
+  - [CloudSQL Manage database connections] (https://cloud.google.com/sql/docs/postgres/manage-connections) / [Managed Connection Pooling (MCP)](https://www.youtube.com/watch?v=rGI3hIBl2s0). It only offers limited functionality compared to self-managed PgBouncers.  
+- Evaluate [CloudSQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy)
+- Compare database migration options:
+  - Native logical replication - [logical replication feature](https://cloud.google.com/sql/docs/postgres/replication/configure-external-replica) ([pglogical](https://github.com/2ndQuadrant/pglogical))
+  - [CloudSQL Database Migration Services](https://cloud.google.com/database-migration)
+  - Also, evaluate options to migrate data out of CloudSQL.
+- Evaluate time and impact of PostgreSQL major version upgrades in a 50k reference architecture.
+  - CloudSQL does not have a direct equivalent to AWS RDS Blue/Green deployments, so solutions must be engineered in-house.
+- How long does it take to create a read-replica, or a new cluster from a backup? `10GB`, `100GB`, `1TB`, `2TB`?
+- Evaluate disaster recovery options, including delayed replicas.
+- Performance impact of storage increase – Measure query performance before and after a manual storage increase.
+- High-load stress testing – Load large datasets and measure how CloudSQL handles sustained write-heavy operations.
+
+##### Evaluate Changes Over the Dedicated Deployment
+
+- Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping. 
+- Evaluate offloading read operations to Standby Replicas.
+- Evaluate "Enable auto minor version upgrade".
+- Assess performance improvements with the "Dedicated Log Volume.".
+- Increase logging levels to capture slow queries, temp usage, autovacuum, lock waits, connections/disconnections, and DDL statements.
+- Configure `pg_stat_statements` settings.
+- Load and Configure `auto_explain`.
+- Implement "logical backup" solution.
+- Review [Cloud Monitoring](https://cloud.google.com/monitoring) and (Alerting](https://cloud.google.com/monitoring/alerts).
 
 ### k8s Operator
 
@@ -235,7 +281,7 @@ Currently, we maintain our own automation for this as well and could adapt it un
 | No product lock-in          | We are not locked in to one product we can not leave in the future.                                                                                                                                              | medium                |
 | Debugging capability        | Compared to any SaaS offering we do not rely on a vendor to be willing and able to debug our problems in a timely manner.                                                                                        | high                  |
 | Good integration with Cells | Compared to other self-hosted solutions, the database will run in the same k8s cluster as the rest of the workloads. This removes the need to integrate external components as well as multiple failure vectors. | medium                |
-| Near Zero Downtime Upgrade | We can adapt Gitlab's ([db-migration/pg-upgrade-logical](https://gitlab.com/gitlab-com/gl-infra/db-migration#zero-downtime-postgresql-upgrades) Automation to achieve near-zero downtime for PostgreSQL MVU over k8s | high / blocker            | 
+| Near Zero Downtime Upgrade | We can adapt Gitlab's ([db-migration/pg-upgrade-logical](https://gitlab.com/gitlab-com/gl-infra/db-migration#zero-downtime-postgresql-upgrades) Automation to achieve near-zero downtime for PostgreSQL MVU over k8s | high / blocker            |
 
 | Cons / Risks     | Description                                                                                                                  | Priority |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -250,7 +296,7 @@ Currently, we maintain our own automation for this as well and could adapt it un
 
 ### Amazon RDS PostgreSQL
 
-[Amazon Relational Database Services PostgreSQL](https://aws.amazon.com/rds/postgresql/) is AWS's managed database service offering fully compatible with PostgreSQL community version. In fact, Amazon only packs and deploys the PostgreSQL community binaries into the [RDS instance underlying infrastructure](https://aws.amazon.com/blogs/database/amazon-rds-multi-az-with-two-readable-standbys-under-the-hood/). 
+[Amazon Relational Database Services PostgreSQL](https://aws.amazon.com/rds/postgresql/) is AWS's managed database service offering fully compatible with PostgreSQL community version. In fact, Amazon only packs and deploys the PostgreSQL community binaries into the [RDS instance underlying infrastructure](https://aws.amazon.com/blogs/database/amazon-rds-multi-az-with-two-readable-standbys-under-the-hood/).
 GitLab currently recognizes Amazon RDS PostgreSQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/ee/administration/reference_architectures/#recommended-cloud-providers-and-services).
 
 | Pro                                  | Description                                                                                                                                                                                                                                                                                                                                                                               | Priority / Importance |
@@ -289,7 +335,7 @@ GitLab currently recognizes Amazon RDS PostgreSQL as a [supported PostgreSQL imp
 - Evaluate time and impact of Major Version Upgrades 50k reference architecture?
   - Also evaluate Blue/Green deployments
 - How long does it take to create a read-replica, or a new cluster from a backup? `10GB`, `100GB`, `1TB`
-- How long is the database service downtime with Blue/Green major version upgrade method? 
+- How long is the database service downtime with Blue/Green major version upgrade method?
   - We should also test if pgbouncer or RDS Proxy can hold requests to alleviate the impact during a Blue/Green deployment.
 
 ##### Evaluate changes over current Dedicated-RDS deployment

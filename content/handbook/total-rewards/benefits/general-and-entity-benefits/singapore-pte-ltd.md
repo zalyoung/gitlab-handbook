@@ -50,16 +50,16 @@ See the [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1T
 
 Please see slide 49 of teh [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1Td9zfsrAcxYGjPZZ0uCv8G4h/view?usp=sharing) for instructions on requesting a Letter of Gaurantee.
 
-### Willis Tower Watson Claims Assistance
+### Willis Towers Watson Claims Assistance
 
-[Willis Tower Watson](https://www.wtwco.com/en-SG/Solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
+[Willis Towers Watson](https://www.wtwco.com/en-sg/solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
 
 For any claims issues or benefits queries, please reach out to the WTW team at `claims.sg@willistowerswatson.com` .
 
 ### Enrollment
 
 New Team Members will be prompted to fill out a Singapore Benefits Onboarding Form during onboarding.
-Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Tower Watson, to enroll team members into the group plans.
+Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Towers Watson, to enroll team members into the group plans.
 Team Members will receive underwriting forms from WTW within the first month from their hire date.
 
 Team Members who experience a qualified status change can update their information by sending an email to the Total Rewards Team at total-rewards@gitlab.com
@@ -141,14 +141,14 @@ Team members who have been continuously employed by GitLab for at least 3 months
 
 #### Paternity Leave
 
-Team members who have been continuously employed by GitLab for at least 3 months immediately before their child's due date may be entitled to 2 weeks of government-paid paternity leave. Please visit the [Ministry of Manpower website](https://www.mom.gov.sg/employment-practices/leave/paternity-leave) for more information on eligibility.
+Team members who have been continuously employed by GitLab for at least 3 months immediately before their child's due date may be entitled to 4 weeks of government-paid paternity leave. Please visit the [Ministry of Manpower website](https://www.mom.gov.sg/employment-practices/leave/paternity-leave) for more information on eligibility.
 
-- For [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}) team members, this leave runs concurrently with GitLab Parental Leave. If eligible, team members would receive up to 16 weeks of paid paternity leave.
+- For [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) team members, this leave runs concurrently with GitLab Parental Leave. If eligible, team members would receive up to 16 weeks of paid paternity leave.
 
 **Applying for Government-Paid Paternity Leave**
 
 - Team members must submit their leave request through Workday by choosing the `Parental Leave` option.
-- Team members must submit a [GPPL Declaration](https://file.go.gov.sg/gppl1form.pdf) to the Absence Management team at `leaves@gitlab.com` as soon as possible.
+- Team members must submit a [GPPL Declaration](https://file.go.gov.sg/gpfd1.pdf) to the Absence Management team at `leaves@gitlab.com` as soon as possible.
 - GitLab will continue to pay the team member's salary during their leave and [submit a claim for reimbursement](https://www.profamilyleave.msf.gov.sg/schemes/maternity-leave).
 
 #### **Annual Leave**

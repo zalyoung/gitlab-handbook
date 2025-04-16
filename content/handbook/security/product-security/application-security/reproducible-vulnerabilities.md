@@ -42,7 +42,7 @@ In GitLab 15.0 a malicious user could create a stored XSS payload. See if you ca
 
 #### Installation
 
-1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker.html). Depending on your setup, the command will look something like:
+1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker/index.html). Depending on your setup, the command will look something like:
 
 ```shell
 sudo docker run --detach \
@@ -123,7 +123,7 @@ We took multiple steps to holistically address this vulnerability:
 
 - GitLab Issue: <https://gitlab.com/gitlab-org/gitlab/-/issues/363293>
 - Patch: <https://gitlab.com/gitlab-org/gitlab/-/commit/e61e9b9434e2198c4c1d5cf6b4531eb4323c3575>
-- Release Post: <https://about.gitlab.com/releases/2022/06/01/critical-security-release-gitlab-15-0-1-released>
+- Release Post: <https://about.gitlab.com/releases/2022/06/01/critical-security-release-gitlab-15-0-1-released/>
 - CVSS and Bounty: [CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/#vector=CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N&range=new) (8.7 High / $13,950.00)
 - CVE: <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1948>
 - Learn more about XSS:
@@ -136,7 +136,7 @@ On GitLab installations before 14.3.6, a malicious actor could perform a Denial 
 
 #### Installation
 
-1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker.html). Depending on your setup, the command will look something like:
+1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker/index.html). Depending on your setup, the command will look something like:
 
 ```shell
 sudo docker run --detach \
@@ -225,7 +225,7 @@ Open a Merge Request to this page, mention `@gitlab-com/gl-security/product-secu
 
 - A title and non-revealing summary of the vulnerability
 - Steps to install the vulnerable version
-  - Ideally <https://docs.gitlab.com/ee/install/docker.html#install-gitlab-using-docker-engine> with a specific version number
+  - Ideally <https://docs.gitlab.com/ee/install/docker/index.html#install-gitlab-using-docker-engine> with a specific version number
   - More complex issues might require a specific installation method, like the Omnibus Linux package.
 - A series of progressively revealing hints, so people can try to hunt for the bug themselves but get help if needed. (Remember GitLab is a big product!).
 - A link to the GitLab issue, for those who want to follow the original HackerOne report's steps to reproduce.

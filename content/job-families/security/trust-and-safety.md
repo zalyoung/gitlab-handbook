@@ -42,7 +42,7 @@ The Security Analyst, Trust and Safety is a [grade 6](/handbook/total-rewards/co
 #### Security Analyst, Trust and Safety (Intermediate) Responsibilities
 
 - Respond to incidents of abusive activity originating from `GitLab.com`
-- Participate in the Trust and Safety Team [on-call rotation]({{< ref "secops-oncall" >}})
+- Participate in the Trust and Safety Team [on-call rotation](/handbook/security/security-operations/secops-oncall/)
 - Process abuse reports and DMCA notices relating to GitLab.com
 - Mitigate detected abusive activity on GitLab.com and it's related products and services
 - Manage internal requests from other teams inside and outside the Security Department
@@ -136,7 +136,7 @@ The Security Engineer, Trust and Safety is a [grade 6](/handbook/total-rewards/c
 #### Security Engineer, Trust and Safety (Intermediate) Responsibilities
 
 - Respond to incidents of abusive activity originating from GitLab.com
-- Participate in the Trust and Safety Team [on-call rotation]({{< ref "secops-oncall" >}})
+- Participate in the Trust and Safety Team [on-call rotation](/handbook/security/security-operations/secops-oncall/)
 - Utilize log ingestion platforms for analyzing and identifying the tactics, techniques and patterns of abusive users
 - Contribute to the creation of documentation and runbooks
 - Contribute to the production and tuning of anti-abuse detection and mitigation tooling
@@ -213,7 +213,7 @@ The Trust and Safety Manager is a [grade 8](/handbook/total-rewards/compensation
 #### Manager, Trust and Safety Responsibilities
 
 - Hire a world class team of security engineers to work on their team
-- Participate in the Trust and Safety Team [on-call rotation]({{< ref "secops-oncall" >}}) as the `Trust and Safety Manager On-call (TSMOC)`
+- Participate in the Trust and Safety Team [on-call rotation](/handbook/security/security-operations/secops-oncall/) as the `Trust and Safety Manager On-call (TSMOC)`
 - Help their team grow their skills and experience
 - Provide input on security architecture, issues, and features
 - Hold regular 1:1's with all members of their team
@@ -300,7 +300,7 @@ For details on the Security organization leadership roles, to include the Securi
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with Trust and Safety Manager
 - Candidates will then be invited to schedule an interview with Senior Security Engineer, Trust and Safety, Security Incident Response Team Manager, Red Team Manager
 - Candidates will then be invited to schedule an interview with Director of Security Operations

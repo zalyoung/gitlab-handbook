@@ -5,7 +5,7 @@ title: "Secret push protection troubleshooting"
 ### When to use this runbook?
 
 Use this runbook for troubleshooting Production issues related to the
-[secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html) feature.
+[secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/secret_push_protection/index.html) feature.
 
 ### Relevant settings
 

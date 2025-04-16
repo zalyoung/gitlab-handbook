@@ -8,7 +8,7 @@ job: "Associate Engineer - Enterprise Applications"
 
 ### Intro
 
-Ola! Kumusta? I'm Rey and I'm an [Associate Engineer](https://handbook.gitlab.com/job-families/finance/it-entapps-engineering/) for the [IT Enterprise Applications](/handbook/business-technology/) division.
+Ola! Kumusta? I'm Rey and I'm an [Associate Engineer](/job-families/finance/information-technology/it-entapps-engineering/#associate-it-enterprise-applications-engineer) for the [IT Enterprise Applications](/handbook/business-technology/) division.
 
 ### About me
 

@@ -242,9 +242,9 @@ the Container Registry and is responsible for items listed under [Package produc
 - Create and maintain observability of the newly defined features
 - Work with customers on defining their needs to replace existing package repository solutions
 
-### Govern
+### Software Supply Chain Security
 
-Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Govern Engineering Manager.
+Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Software Supply Chain Security Engineering Manager.
 
 #### Requirements
 
@@ -369,7 +369,7 @@ large repositories and projects, or can be part of a Disaster Recovery solution.
 - Work with the Product Manager to carefully assess technical feasibility of feature requests
 - Deliver proof-of-concept proposals to help guide technical discussions
 - Identify ways to deliver complex technical projects in an iterative fashion
-- Take [ownership](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#epic-ownership) of feature implementation
+- Take [ownership](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/process/#work-ownership) of feature implementation
 - Respond quickly to customer requests for support
 
 #### Requirements

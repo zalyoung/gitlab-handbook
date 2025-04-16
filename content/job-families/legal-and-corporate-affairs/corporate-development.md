@@ -18,27 +18,38 @@ The Analyst, Corporate Development is a [grade 6](/handbook/total-rewards/compen
 
 #### Responsibilities
 
-- Create a target list of potential acquisitions
-- Develop relationships with tech incubators, investors, and other sources of acquisition candidates
-- Execute a sourcing plan through online research, outreach, and other means to help support the corporate development team goals
-- Operationalize acquisition sourcing and handling processes to help the team scale
-- Validate fit for terms, product roadmap, and other criteria
-- Value the companies in a financial model
-- Help negotiate terms of the deal
-- Manage deal flow CRM system data
-- Prepare all acquisition related documents such as Non-Disclosure Agreements, Letters of Intent, and Purchase Agreements with our legal team and legal counsel
-- Assist in various aspects of the deal as necessary: qualification, initial rationale/pitch, financial modeling, due diligence and closing & integration activities.
+Deal Sourcing & Pipeline Management:
+
+- Research and analyze market trends, competitive landscape, and emerging technologies in the DevSecOps space to identify potential acquisition targets
+- Build and maintain comprehensive target lists across strategic focus areas, leveraging various data sources and industry research
+- Manage and optimize our deal flow tracking system to ensure efficient pipeline management
+
+Deal Analysis & Execution:
+
+- Conduct initial screening of potential targets, analyzing strategic fit, product synergies, and financial metrics
+- Assist in building detailed financial models and valuation analyses to support deal evaluation and negotiations
+- Support due diligence process by coordinating with cross-functional teams and supporting multiple work streams
+- Assist drafting key business documents for active acquisition engagements
+- Support post-merger integration planning and technical delivery 
+- Create and maintain process documentation to improve efficiency and knowledge sharing for your areas of responsibility
+
+Analysis & Reporting:
+
+- Perform market research and competitive analysis to support strategic decision-making
+- Create periodic reports on pipeline activity, deal progress, and integration status
+- Analyze historical deal performance and capture lessons learned to improve future processes
+- Monitor industry trends and provide regular updates to the team on relevant market activities
 
 #### Requirements
 
-- Bachelors or equivalent in Finance, Accounting, Economics, Computer Science, Engineering, or a related field
+- Bachelors or equivalent in Science, Finance, Accounting, Economics or a related field
 - Minimum of 2 years of corporate development, venture capital, private equity, or competitive analysis ideally focused on the technology industry
-- Adept with technology and a strategic thinker – knows what's best for the business
-- Excellent judgment, mature personality, and experience working with executives; a sophisticated, worldly businessperson
+- Adept with technology, analytical and detail-oriented critical thinker
+- Excellent judgment, mature personality; a sophisticated, worldly businessperson
+- Strong sense of ownership and ability to drive multiple simultaneous projects independently
 - Proactive and action-oriented, anticipates needs
-- Experience in a deal environment and buyer-seller conducts
 - Excellent verbal and written communication skills
-- Familiarity with the DevOps space
+- Comfortable with working asynchronously across multiple time zones
 - You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
 - You share our [values](/handbook/values/), and work in accordance with those values
 
@@ -52,15 +63,16 @@ The Corporate Development Manager is a [grade 8](/handbook/total-rewards/compens
 
 Prospecting:
 
-- Develop relationships with tech incubators, investors, and other sources of acquisition targets
-- Validate targets' fit for GitLab's product roadmap, terms and other criteria quickly and with little information
+- Establish relationships with tech incubators, early stage investors, and other sources of acquisition targets
+- Validate targets’ fit for GitLab’s product roadmap, terms and other criteria quickly and with little information
 - Develop a strategy and execution plan for the product areas you will be leading, prioritizing prospects accordingly
 
 Deal execution:
 
 - Support acquisitions engagements start to finish, from qualifying targets, through closing and integration
-- Support the Sr. Director of Corporate Development in deal terms negotiation
+- Support the VP of Corporate Development in deal terms negotiation and key areas of the deal
 - Lead the cross-functional due-diligence process
+- Prepare business cases and other deal materials supporting the acquisitions
 - Work to establish valuations and ROI potential for deals by building financial models and conducting valuation analysis
 
 Integration:
@@ -95,17 +107,18 @@ The Senior Corporate Development Manager is a [grade 9](/handbook/total-rewards/
 
 Prospecting:
 
-- Develop relationships with tech incubators, investors, and other sources of acquisition targets
-- Validate targets' fit for GitLab's product roadmap, terms and other criteria quickly and with little information
+- Establish relationships with tech incubators, early stage investors, and other sources of acquisition targets
+- Validate targets’ fit for GitLab’s product roadmap, terms and other criteria quickly and with little information
 - Establish strategy and execution plan for the product areas you will be leading, prioritizing prospects accordingly
 - Own the pipeline of opportunities - generate prospects and lead sourcing efforts
 
 Deal execution:
 
-- Lead acquisitions engagements start to finish, from qualifying targets, through closing and integration
+- Lead acquisition process start to finish, from qualifying targets, through closing and integration
 - Lead the cross-functional due-diligence process
-- Support the Sr. Director of Corporate Development in deal terms negotiation
-- Act as a subject matter expert on valuation and deal structuring
+- Prepare business cases and other deal materials supporting the acquisitions
+- Support the VP of Corporate Development in deal terms negotiation and key areas of the deal
+- Act as a subject matter expert on valuations and revenue modeling
 
 Integration:
 
@@ -224,7 +237,7 @@ The VP of Corporate Development is a [grade 12](/handbook/total-rewards/compensa
 
 - Build and lead a high-performing Corporate Development team and mentor team members through the entire deal process
 - Develop GitLab's corporate development strategy, for acquisitions and key initiatives, and establish executive alignment
-- Determine Corporate Development's scope and priority focus areas through collaboration with executive and senior leadership, driving impact to [GitLab's vision](https://about.gitlab.com/company/vision/)
+- Determine Corporate Development's scope and priority focus areas through collaboration with executive and senior leadership, driving impact to [GitLab's vision](/handbook/company/vision/)
 - Oversee deal flow management end-to-end from sourcing to deal execution
 - Provide leadership and guidance in developing the business case, integration strategy planning and due diligence stages of the acquisition process with cross-functional teams
 - Lead deal terms negotiations on behalf of the company, guiding deal structure creation and negotiation strategy
@@ -259,7 +272,7 @@ The VP of Corporate Development is a [grade 12](/handbook/total-rewards/compensa
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
 
 - Selected candidates will be invited to schedule a 30 minute screening call with one of our Global Recruiters.
-- Candidates will then be invited to schedule an interview with the Hiring Manager (Sr. Director of Corporate Development).
+- Candidates will then be invited to schedule an interview with the Hiring Manager (VP of Corporate Development).
 - Candidates will then be invited to schedule an interview with the Director of Product (Section leader).
 - Next, candidates will be invited to schedule an interview with the Senior Director of Legal, Corporate.
 - Next, candidates may be invited to schedule an interview with the Chief Legal Officer (as applicable).

@@ -20,7 +20,7 @@ In April 2020, we pivoted to a Virtual Contribute after canceling the Prague Con
 
 In May 2019, 518 team members and 43 guests gathered in New Orleans. Around a dozen customers, community members, and investors also experienced the GitLab culture.
 
-![GitLab Summit - New Orleans - 2019](/images/summits/2019_new-orleans_team.png)
+![GitLab Summit - New Orleans - 2019](/images/summits/2019_new-orleans_team.jpg)
 
 <small>In May 2019, the whole team counted 518 GitLab team-members!</small>*
 
@@ -76,4 +76,4 @@ Here are some impressions from our [second summit](https://about.gitlab.com/blog
 
 Less than 10 people attended GitLab's first summit. The highlight was lunch at Marin's mom's home in October 2013.
 
-![GitLab Summit - Serbia - 2013](/images/summits/2013_novi-sad_team.png)
+![GitLab Summit - Serbia - 2013](/images/summits/2013_novi-sad_team.jpg)

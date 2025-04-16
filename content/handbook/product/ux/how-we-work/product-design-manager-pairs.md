@@ -28,7 +28,6 @@ This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
 | Product Design Manager | Product Design Manager |
 |------------------------|------------------------|
 | Jacki Bauer            | Paul Wright            |
-| Andy Volpe             | Emily Sybrant          |
-| Marcel van Remmerden   | Chris Micek            |
+| Emily Sybrant          | Chris Micek            |
 | Justin Mandell         | Caitlin Steele         |
 | Taurie Davis           | Rayana Verissimo       |

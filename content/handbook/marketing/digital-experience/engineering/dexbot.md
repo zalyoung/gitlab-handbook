@@ -27,7 +27,7 @@ Currently the main use for this bot is to notify the team as soon as one of the 
 
 and also includes a button to open the comparison with the previous version in the CMS
 
-![DexBot Message](DexBot-message.png)
+![DexBot Message](/images/marketing/digital-experience/engineering/DexBot-message.png)
 
 this integration is done using two webhooks:
 

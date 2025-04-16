@@ -20,7 +20,7 @@ We organize our projects in the [Developer Advocacy group](https://gitlab.com/gi
 
 #### GitLab
 
-* [GitLab CI/CD Pipeline Efficiency documentation](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html) sourcing from the [CI Monitoring webcast](https://learn.gitlab.com/c/deep-monitoring-ci?x=fDT7Bl)
+* [GitLab CI/CD Pipeline Efficiency documentation](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html) sourcing from the CI Monitoring webcast
 * [CI/CD Templates: Support the default branch, shift to main](https://gitlab.com/gitlab-org/gitlab/-/issues/324131)
 
 #### Prometheus
@@ -41,7 +41,7 @@ We organize our projects in the [Developer Advocacy group](https://gitlab.com/gi
 * Demo
   * [Waypoint AWS ECS example](https://gitlab.com/brendan-demo/waypoint)
 * Community
-  * [5. everyonecancontribute cafe](https://everyonecancontribute.com/post/2020-10-21-cafe-5-hashicorp-waypoint/)
+  * [5. everyonecancontribute cafe](https://everyonecancontribute.cafe/post/2020-10-21-cafe-5-hashicorp-waypoint/)
 
 ## Definition of Contributions
 

@@ -18,7 +18,7 @@ The newer offline demos called simulation (sim) demos. They are executable files
 
 Both click-through and sim demos look and feel like live demos, the audience of the demo get the experience of a live product, and the person who deliver the demo can focus on what to say, and will have confidance that the flow will always run without any risk .Sim demos also include short animations between clicks to enhance the realism.
 
-Both the legacy click-through demos and the new sim demos are available from the [Learn@GitLab page](https://about.gitlab.com/learn/).
+Both the legacy click-through demos and the new sim demos are available from the [Learn@GitLab page](https://university.gitlab.com/).
 
 ## Using click-through and sim demos
 

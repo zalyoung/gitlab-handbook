@@ -226,7 +226,7 @@ For details regarding Virtual Workshops, please visit the [Field Marketing Page]
 7. Include "contact us" information and a clear CTA at the end of the presentation.
 8. Video recording of webcast uploaded to YouTube within 24 hours as event occurred.
 9. Send the recording to all registrants, whether they attended or not within 48 hours post webcast.
-10. Review Zoom's guide on [in person chat](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat) which explains the various ways you can utilize the chat feature.
+10. Review Zoom's guide on [in person chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064400) which explains the various ways you can utilize the chat feature.
 
 Review GitLab's general [virtual events best practices](/handbook/marketing/virtual-events/#best-practices) for additional suggestions on how to make your virtual event a success.
 
@@ -430,7 +430,6 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 1. Click into the SFDC campaign
 1. Change the campaign owner to the webcast DRI
 1. Change the status to `in progress`
-1. Edit the `Enable Bizible Touchpoints` field to `Include only "Responded" Campaign Members`
 1. Edit the Budgeted Cost (required) to cost of webcast, or "1" if there is no cost associated
 1. Click save
 
@@ -960,7 +959,6 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 1. Click into the SFDC campaign
 1. Change the campaign owner to the webcast DRI
 1. Change the status to `in progress`
-1. Edit the `Enable Bizible Touchpoints` field to `Include only "Responded" Campaign Members`
 1. Edit the Budgeted Cost (required) to cost of webcast, or "1" if there is no cost associated
 1. Click save
 
@@ -1288,7 +1286,6 @@ The process is very similar to rescheduling.
 1. Click into the SFDC campaign
 1. Change the campaign owner to the webcast DRI
 1. Change the status to `in progress`
-1. Edit the `Enable Bizible Touchpoints` field to `Include only "Responded" Campaign Members`
 1. Edit the Budgeted Cost (required) to cost of webcast, or "1" if there is no cost associated
 1. Click save
 
@@ -1400,4 +1397,4 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 ### Live Webcasts - ON24
 
-TBD - WIP - Go to [ON24](/handbook/marketing/marketing-operations/on24) page for more information.
+Go to [ON24](/handbook/marketing/marketing-operations/on24) page for more information.

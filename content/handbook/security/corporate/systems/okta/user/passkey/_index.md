@@ -10,4 +10,4 @@ title: Okta User Passkey Setup Guide
 1. After pressing `Enroll`, a prompt from your web browser will appear.
 1. From 1Password, you'll see a pop up notification from 1Password with the options "New Item" or "Update Existing". Select "Update Existing" and your Okta account to continue.
 
-    <img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="Okta Passkey Key #1" width="300"/>
+    <img src="/images/business-technology/okta/1password-passkey.png" alt="Okta Passkey Key #1" width="300"/>

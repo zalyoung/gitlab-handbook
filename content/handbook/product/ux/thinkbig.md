@@ -41,7 +41,7 @@ If any of the above questions are answered with a **"No"** it is a sign to reeva
   - The facilitator presents the problem or design by communicating what type of feedback they need. For more genuine reactions and feedback, keep the explanation as short as possible.
   - Following the order in the agenda, participants take turns asking relevant questions and providing a single piece of feedback to the design. Each "turn" should be limited to about 1 minute.
   - Repeat this turn-based process until time runs out or all the participants "pass".
-  - If you need inspiration for feedback, consider taking a [few different hats for a spin](https://www.mindtools.com/pages/article/newTED_07.htm)!
+  - If you need inspiration for feedback, consider taking a [few different hats for a spin](https://www.mindtools.com/ajlpp1e/six-thinking-hats)!
 - Action items from the meeting will be turned into issues with a think big label, such as `Package:ThinkBIG!`.
 
 ### General guidelines for presenters

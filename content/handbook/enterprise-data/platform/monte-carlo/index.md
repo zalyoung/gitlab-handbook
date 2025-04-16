@@ -37,7 +37,7 @@ Login to Monte Carlo is done via Okta. Go to https://getmontecarlo.com/signin.
 The following screen appears upon login and after providing your email and clicking "Sign in with SSO", you should be redirected to your Okta login.
 Please note, you need to login via SSO and not via username/password.
 
-![image](/handbook/content/handbook/enterprise-data/platform/monte-carlo/screenshot-1.png)
+![image](/images/content/handbook/enterprise-data/platform/monte-carlo/screenshot-1.png)
 
 A runbook of how everything is technically set up can be found in the [Monte Carlo Runbook](https://gitlab.com/gitlab-com/business-technology/team-member-enablement/runbooks/-/wikis/IT-Runbooks/App-Setup/Monte-Carlo:-How-It's-Built).
 
@@ -49,7 +49,7 @@ For that you should submit an AR (similar ARs: [Example AR 1](https://gitlab.com
 
 Once logged in, you should be able to see the Monte Carlo Monitors dashboard with details on the objects being monitored and several custom monitors that have already been set up.
 
-![image](/handbook/content/handbook/enterprise-data/platform/monte-carlo/screenshot-2.png)
+![image](/images/content/handbook/enterprise-data/platform/monte-carlo/screenshot-2.png)
 
 You can create a new monitor or view existing monitor details, such as definition and schedule and any anomalies related to it.
 Alternatively, you can also list all the incidents by clicking on the Incidents menu item on the top menu bar, you can search for a specific model by querying the Catalog view or check Pipelines for a detailed lineage information on how the data flows from the source to the production model.
@@ -66,6 +66,13 @@ Monte Carlo will be running volume, freshness and schema change monitors by defa
 However, these checks are based on update patterns the tool learns from the data and if you need a specific custom check that runs on a certain schedule, you might want to add a custom monitor for that.
 
 The official Monte Carlo documentation on monitors can be found in the [Monitors Overview guide](https://docs.getmontecarlo.com/docs/monitors-overview).
+
+We have one Monte Carlo Snowflake Integration in place, which has two separate connections to Snowflake.
+The first connection is called `snowflake` and it operates on `DATA_OBS_WH_1`, an `XS` Snowflake Warehouse.
+The second connection called `snowflake large` and it operates on `DATA_OBS_WH_L`, a `L` Snowflake Warehouse.
+
+Please make sure to mindfully choose the connection that makes most sense for your new custom monitor when adding a new one.
+Only choose to run the monitor on the large warehouse if this is really necessary for your custom SQL query to run in a reasonable amount of time and to prevent it from timing out.
 
 ## Fine-Tuning an Existing Monitor
 
@@ -101,9 +108,13 @@ The same script has to be run as many times as we have databases to monitor (in 
 Please note this is an exception to our usual permission-handling procedure, where we rely on Permifrost, because observability permissions are an edge-case for Permifrost and not yet supported by the tool.
 There is an ongoing [feature request](https://gitlab.com/gitlab-data/permifrost/-/issues/120) on Permifrost for adding granularity to the way permissions are set, but no solution has been agreed on yet.
 
-### Muting Monte Carlo alerts for sandbox schema's
+## Monitoring strategy
 
-Sandbox environments are generally created for the purpose of testing. We normally don't take any actions on them even if any alerts come through in our triage slack channels. For this reason, with the confirmation from stakeholders we mute notifications from within monte carlo for sandbox schemas to avoid getting any alerts from them. To mute a schema, head over to [mute-datasets page](https://getmontecarlo.com/settings/muted-data/datasets).
+By default, we monitor all tables in the `RAW`, `PREP`, and `PROD` databases in Monte-Carlo, unless there is a specific reason not to, or if we reach the limits specified in our contract. Excluded tables or schemas from monitoring are documented below.
+
+### Exclude sandbox schemas
+
+Sandbox environments are generally created for the purpose of testing. We normally don't take any actions on them even if any alerts come through in our triage slack channels. For this reason we exclude monitoring schemas that contain `sandbox` to avoid getting any alerts from them. This has been set via an exclude rule in Monte Carlo.
 
 ## Notification strategy
 
@@ -147,7 +158,7 @@ We have the availability to use [domains](https://vimeo.com/646676972) in our Mo
 
 In Monte Carlo UI in the top right corner there is a dropdown box available which you can select a particular domain or all domains.
 
-![image](/handbook/content/handbook/enterprise-data/platform/monte-carlo/Screenshot_MC_domain.png)
+![image](/images/content/handbook/enterprise-data/platform/monte-carlo/Screenshot_MC_domain.png)
 
 ## BI Integrations
 

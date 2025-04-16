@@ -7,7 +7,7 @@ description: "When considering navigation changes, it's important to test ideas 
 
 This process is intended to enable rapid iteration for early solution validation research projects that focus on navigation. The goal is to provide a process for most early [solution validation](/handbook/product/ux/ux-research/solution-validation-and-methods/#what-is-solution-validation) research needs, provide easy-to-follow guidance for Product Designers, and enable early solution validation research to be planned quickly. In the double diamond framework, this is in the [develop/test](https://en.wikipedia.org/wiki/Double_Diamond_%28design_process_model%29) phase of the design lifecycle. The goal is to evaluate early navigation designs and concepts to build confidence in those ideas before fully investing in them. This guide does not cover later solution validation usability or benchmarking studies.
 
-![Double Diamond process model](double_diamond.png)
+![Double Diamond process model](/images/product/ux/ux-research/early-solution-validation-process-for-navigation/double_diamond.png)
 
 The table below describes three methods that can be used with early solution validation research. The goal is to provide direction for a navigation design by collecting qualitative insight to understand the 'why,' rather than focusing on benchmarking or measuring the design.
 

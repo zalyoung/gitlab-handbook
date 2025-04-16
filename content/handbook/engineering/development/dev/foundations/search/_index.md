@@ -42,6 +42,31 @@ The following members of other functional teams are our stable counterparts:
 
 The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
 
+## Advanced Search data stores and interfaces today
+
+![Global Search data stores and interfaces diagram](/images/global_search_interfaces.png)
+
+### A note on basic search
+
+Basic search utilizes Postgres for text searching and Gitaly for code searching. Both functionalities are significantly limited compared to with Advanced search.
+
+## Current state of Advanced Search scopes
+
+There are many data types and search scopes already available via the Advanced Search interfaces. Below is a table that outlines the various available data types and the status of various functional elements, such as permissions, cross-group searching, and embeddings.
+
+| Data type / scope | Privacy / Permissions | Cross-namespace / cross-group searching | Keyword search | Similarity search & Embeddings | Metadata filtering |
+|-------------------|-----------------------|-----------------------------------------|----------------|--------------------------------|--------------------|
+| **Code** | Yes | Yes | Yes | In progress | Group, Project, Include/exclude archived, include/exclude forks, Language, Filename, Path, Extension |
+| **Issues** | Yes | Yes | Yes | Yes | Group, Project, Status, Confidentiality, Labels, Include/exclude archived |
+| **Merge requests** | Yes | Yes | Yes | No | Group, Project, Status, Include/exclude archived |
+| **Epics** | Yes | Yes | Yes | No | Group, Project |
+| **Comments** | Yes | Yes | Yes | No | Group, Project, Include/exclude archived |
+| **Users** | Yes | Yes | Yes | No | Group, Project |
+| **Commits** | Yes | Yes | Yes | No | Include/exclude archived |
+| **Milestones** | Yes | Yes | Yes | No | Group, Project, Include/exclude archived |
+| **Project** | Yes | Yes | Yes | No | Group |
+| **Wiki** | Yes | Yes | Yes | No | Group, Project |
+
 ## Meetings
 
 Whenever possible, we prefer to communicate asynchronously using issues, merge requests, and Slack. However, face-to-face meetings are useful for establishing a personal connection and addressing items that would be more efficiently discussed synchronously, such as blockers.
@@ -51,7 +76,7 @@ Whenever possible, we prefer to communicate asynchronously using issues, merge r
 
 ## Work
 
-We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/development/dev/foundations/search/#stable-counterparts) section above.
+We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/development/dev/foundations/search/#stable-counterparts) section above.
 
 Below are a few guidelines the team follows in the day-to-day work.
 
@@ -62,7 +87,7 @@ Below are a few guidelines the team follows in the day-to-day work.
 - We apply the Deliverable label to the issues that we intend to close in a milestone before the milestone starts. Issues added during a milestone should not have the Deliverable label applied. We review these issues in the middle of the milestone, usually the first week of each month. We will remove the Deliverable label from the issues that are not likely to make it into the release.
 - We apply the Stretch label to the issues that we intend to start during a milestone but are not committing to closing.
 - We work with the UX team for features that need their design input by labeling the issues with a UX workflow label and adding the corresponding UX team counterpart as the assignee. We use `workflow::problem validation` and `workflow::solution` validation for user research and `workflow::design` for UI design and prototyping. Once the design is finished, `workflow::ready for development` label will be added as an indicator that development can start. For minor UX/UI changes, we contact our UX counterpart or the Product Design Manager to request a review for fast iterations.
-- We work with the Quality team for issues that require input from a testing perspective by labeling the issues with `workflow::planning breakdown` and adding the SET counterpart as an assignee. Once SET reviews the issue, they acknowledge back with the label [`quad-planning::complete-action` or `quad-planning::complete-no-action`](/handbook/product-development-flow/#build-phase-1-plan)
+- We work with the Quality team for issues that require input from a testing perspective by labeling the issues with `workflow::planning breakdown` and adding the SET counterpart as an assignee. Once SET reviews the issue, they acknowledge back with the label [`quad-planning::complete-action` or `quad-planning::complete-no-action`](/handbook/product-development/product-development-flow/#build-phase-1-plan)
 - We work with the Technical Writing team for issues that need documentation change by labeling the issues with <code>documentation</code> and adding our counterpart in the Technical Writing team as assignee. Our technical writer helps us update the corresponding document. The documentation change normally happens together with the code change.
 - We work with our stable counterpart in the Security team for issues that need input from a security perspective. We suggest using team planning issues, for example, [this one](https://gitlab.com/gitlab-org/search-team/team-tasks/-/issues/17), for communication.
 - We work with the Support Engineering team by collaborating on issues directly. We invite our counterpart in the Support Engineering team to our team meeting every month to have direct communication.
@@ -166,7 +191,7 @@ We utilize the [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD) f
 
 ### Performance Testing
 
-We are exploring [Rally](https://esrally.readthedocs.io) for performance testing the Elasticsearch cluster. Workload data is determined using Kibana and stored in a [Google Sheet](https://docs.google.com/spreadsheets/d/1K_MteuTEX0spu0jOiRt9BqDLZXywUhQ9NUw7PbU8odw/edit?usp=sharing) (internal)
+We are exploring [Rally](https://esrally.readthedocs.io/en/stable/) for performance testing the Elasticsearch cluster. Workload data is determined using Kibana and stored in a [Google Sheet](https://docs.google.com/spreadsheets/d/1K_MteuTEX0spu0jOiRt9BqDLZXywUhQ9NUw7PbU8odw/edit?usp=sharing) (internal)
 
 ## Resources
 

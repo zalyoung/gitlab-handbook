@@ -1,6 +1,11 @@
 ---
 title: "Logging Blueprint for GitLab"
-toc_hide: true
+status: ongoing
+creation-date: "2024-07-22"
+authors: [ "@stejacks-gitlab" ]
+approvers: [ "@lmcandrew" ]
+owning-stage: "~team::Observablity"
+toc_hide: false
 ---
 
 {{< design-document-header >}}
@@ -9,9 +14,9 @@ This document describes the current state of Logging for GitLab SaaS Platforms, 
 
 ## Scalability Themes
 
-- [Observability across the Production Fleet is accessible for all](https://about.gitlab.com/direction/saas-platforms/scalability/#observability-across-the-production-fleet-is-accessible-for-all)
-- [Paved roads are the default for all team members](https://about.gitlab.com/direction/saas-platforms/scalability/#paved-roads-are-the-default-for-all-team-members)
-- [Solutions at GitLab follow the Well Architected Services Framework](https://about.gitlab.com/direction/saas-platforms/scalability/#solutions-at-gitlab-follow-the-well-architected-services-framework)
+- [Observability across the Production Fleet is accessible for all](https://about.gitlab.com/direction/saas-platforms/production-engineering/#observability-across-the-production-fleet-is-accessible-for-all)
+- [Paved roads are the default for all team members](https://about.gitlab.com/direction/saas-platforms/production-engineering/#paved-roads-are-the-default-for-all-team-members)
+- [Solutions at GitLab follow the Well Architected Services Framework](https://about.gitlab.com/direction/saas-platforms/production-engineering/#solutions-at-gitlab-follow-the-well-architected-services-framework)
 
 ## Overview
 

@@ -12,7 +12,7 @@ description: Helpful information for developers on the Editor team.
 ### gitlab-org/gitlab
 
 - `gdk start`
-( `gdk doctor`
+- `gdk doctor`
 - `bin/rake frontend:fixtures`
 - Running tests:
   - `yarn karma`
@@ -241,7 +241,7 @@ Depending on your existing habits and `git` practices the habits below may help 
 
 About testing:
 
-- Vue test utils guide: <https://vue-test-utils.vuejs.org/guides/>
+- Vue test utils guide: <https://v1.test-utils.vuejs.org/guides/>
 - Book: The way of the web tester: <https://pragprog.com/titles/jrtest/>
 - An essay on mocks: <https://martinfowler.com/articles/mocksArentStubs.html>
 - Clean architecture book: <https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164>
@@ -251,6 +251,6 @@ Some frontendmasters workshops related to testing that I want to take after the 
 - <https://frontendmasters.com/courses/testing-practices-principles/>
 - <https://frontendmasters.com/courses/testing-javascript/>
 
-## Jetbrains IDE Usage
+## JetBrains IDE Usage
 
 **_MOVED: There is now a dedicated handbook section on JetBrains IDEs: <https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/>_**

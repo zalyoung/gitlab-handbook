@@ -29,7 +29,7 @@ You can skip Steps 3 through 6 below by importing the "Preference Question Block
 - Upload the graphic from your computer by selecting the 'Upload a new Graphic' from your computer
 - Repeat for each response option
 
-![Preference Test](preference-test.png)
+![Preference Test](/images/product/ux/ux-research/preference-testing/preference-test.png)
 
 **Step 4:** Add a question that will help you understand user preferences
 

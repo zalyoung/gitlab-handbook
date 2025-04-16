@@ -7,7 +7,7 @@ Can't find what you're looking for? Try the main [People Operations page](/handb
 
 ## India
 
-All of the benefits listed below are administered and managed by [Global Upside](https://globalupside.com/). As part of the onboarding process Global Upside will reach out to team members in their first week to arrange setup and enrollment.  Should you have any questions, please contact:
+All of the benefits listed below are administered and managed by [Global Upside](https://www.safeguardglobal.com/). As part of the onboarding process Global Upside will reach out to team members in their first week to arrange setup and enrollment.  Should you have any questions, please contact:
 
 | Email | Purpose |
 | ------ | ------ |
@@ -44,22 +44,22 @@ Sodexo Meal Cards are an optional benefit. These Meal Cards work like a Debit Ca
 
 #### Statutory Leave Entitlement
 
-**Maternity Leave:** Team members can take up to 26 weeks of Maternity Leave (for up to 2 occassions).
+**Maternity Leave:** Team members can take up to 26 weeks of Maternity Leave (for up to 2 occasions).
 
-**Paternity Leave:** There is no statutory entitlement for paternity leave, but team members are eligible for [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+**Paternity Leave:** There is no statutory entitlement for paternity leave, but team members are eligible for [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Maternity Leave Payment
 
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave from GitLab for up to 26 weeks.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave from GitLab for up to 26 weeks.
 - Every female team member availing maternity leave is eligible for an insurance coverage of INR 50,000 for expenses related to delivery.
 
 #### Paternity Leave Payment
 
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
 #### Applying for Parental Leave in India
 
-To initiate your parental leave, submit your time off by selecting `Parental Leave` Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 ### Gratuity
 
@@ -69,7 +69,7 @@ Gratuity is a statutory offering in India per The Payment of Gratuity Act, 1972 
 
 GitLab has implemented a private loyalty bonus scheme since some team members have been contracted through different employment types as we have worked through country conversion processes. Therefore, the GitLab Loyalty Bonus Scheme will supplement gratuity based on the GitLab hire date vs the PEO hire date.
 
-**Elibility:** One can only claim Loyalty Bonus after retirement or resign from the service after completing 5 years of continuous service.
+**Eligibility:** One can only claim Loyalty Bonus after retirement or resign from the service after completing 5 years of continuous service.
 
 **Forfeiture of Loyalty Bonus:** The full amount of Loyalty Bonus can be forfeited if a team member's services have been terminated due to: a) Riotous or disorderly conduct or any other violent act; b) Committing an offence involving moral turpitude.
 
@@ -89,7 +89,7 @@ Loyalty Bonus Amount =  Gratuity Calculation using GitLab Hire Date + Gratuity C
 
 ## Philippines
 
-All of the benefits listed below are administered and managed by [Global Upside](https://globalupside.com/).
+All of the benefits listed below are administered and managed by [Global Upside](https://www.safeguardglobal.com/).
 
 ### Social Security System
 
@@ -128,27 +128,27 @@ Team members are entitled to `five days` of paid vacation leave after 12 months 
 #### Maternity Leave Payment
 
 - Team members may receive Maternity Leave payment from the SSS for up to 105 days.
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement your pay to ensure you receive 100% pay for up to 16 weeks of your leave.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement your pay to ensure you receive 100% pay for up to 16 weeks of your leave.
 
 #### Paternity Leave Payment
 
 - Team members may receive Paternity Leave payment from the SSS for up to 7 days (if allocated from the wife's Maternity Leave payment).
-- If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement your pay to ensure you receive 100% pay for up to 16 weeks of your leave.
+- If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement your pay to ensure you receive 100% pay for up to 16 weeks of your leave.
 
 #### Applying for Parental Leave in the Philippines
 
-To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](general{{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 ## Latvia
 
-All of the benefits listed below are administered and managed by [Global Upside](https://globalupside.com/).
+All of the benefits listed below are administered and managed by [Global Upside](https://www.safeguardglobal.com/).
 
 ### Medical (Healthcare Monthly Allowance)
 
 - Healthcare Monthly Allowance will be paid by Global Upside as an allowance to the team members for their own Medical Coverage.
 - This amount will be paid on monthly basis with the regular payroll as a reimbursement.
 - Proof of coverage must be shared or forwarded to total-rewards@ domain in order to receive the correct allowance amount.
-- The allowance will be up to 300 USD per month for team member and up to 500 USD per month for team member plus Dependents. (USD amount can be converted to the local currency using the latest [Currency Conversion Factor]({{< ref "compensation#exchange-rates" >}}))
+- The allowance will be up to 300 USD per month for team member and up to 500 USD per month for team member plus Dependents. (USD amount can be converted to the local currency using the latest [Currency Conversion Factor](/handbook/total-rewards/compensation/#exchange-rates))
 - The Total Rewards team will send a confirmation email to Global Upside to have the reimbursement processed.
 
 ### Pension
@@ -189,12 +189,12 @@ All team members are entitled to up to 1 ½ years of parental leave for the birt
 
 #### Maternity Leave Payment
 
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
 #### Paternity Leave Payment
 
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.
 
 #### Applying for Parental Leave in Latvia
 
-To initiate your parental leave, submit your time off by selecting  `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your parental leave, submit your time off by selecting  `Parental Leave` in Workday at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).

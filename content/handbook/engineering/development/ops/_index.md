@@ -17,19 +17,17 @@ The following teams comprise the Ops sub-department:
   - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), [jtbd](/handbook/engineering/development/ops/verify/runner/jtbd/)
   - CI Platform - [handbook](/handbook/engineering/development/ops/verify/ci-platform/)
 - Package stage - [handbook](/handbook/engineering/development/ops/package/), [jtbd](/handbook/engineering/development/ops/package/jtbd/)
-  - Container Registry - [handbook](/handbook/engineering/development/ops/package/container-registry/)
-  - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
+  - Container Registry - [handbook](/handbook/engineering/development/ops/package/)
+  - Package Registry - [handbook](/handbook/engineering/development/ops/package/)
 - Deploy stage
   - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
-- Monitor stage
-  - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
 
 ## Product Direction
 
 Teams in the Ops Sub-Department map to several Product Sections.  Product direction can be found on the following direction pages:
 
-- [CI Section Direction](https://about.gitlab.com/direction/ci)
-- [CD Section Direction](https://about.gitlab.com/direction/cd)
+- [CI Section Direction](https://about.gitlab.com/direction/ci/)
+- [CD Section Direction](https://about.gitlab.com/direction/delivery/)
 - [Observability Direction](direction/analytics/observability/)
 
 ## Slack channels

@@ -13,7 +13,7 @@ The guidelines on this page aim to provide direction on how to include the user'
 
 ## UX Researcher support
 
-**If you have an assigned UX Researcher in your stage:** If you need UX Research support, connect with your [assigned stage UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-ux-researchers-are-assigned) following the [research prioritization process](/handbook/product/ux/ux-research/research-prioritization/#how-to-handle-newly-identified-research-projects). Your AI-specific research topic will be prioritized against the other research projects already identified within their stage.
+**If you have an assigned UX Researcher in your stage:** If you need UX Research support, connect with your [assigned stage UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-team-members-are-assigned) following the [research prioritization process](/handbook/product/ux/ux-research/research-prioritization/#how-to-handle-newly-identified-research-projects). Your AI-specific research topic will be prioritized against the other research projects already identified within their stage.
 
 **If you DON'T have an assigned UX Researcher in your stage:** For those working in a stage group that doesn't have a UX Researcher assigned, Nick Hertz is managing those research requests. The [research prioritization process](/handbook/product/ux/ux-research/research-prioritization/#how-to-handle-newly-identified-research-projects) still applies and you can add your topic to this [AI research-specific prioritization calculator](https://docs.google.com/spreadsheets/d/16iLvrY-saOJsSxFkjVYEu_Db_02caTsQLqzZ59SwFgs/edit#gid=1093756030) after you have opened a research issue.
 
@@ -23,7 +23,7 @@ The guidelines on this page aim to provide direction on how to include the user'
 
 AI solutions themselves won't reveal the user problem they are meant to solve. To identify and understand user needs (and to determine if the AI solution is addressing a real user problem), there are different approaches you can take:
 
-![Overview of approaches to identify and understand user needs](overview-of-approaches.png)
+![Overview of approaches to identify and understand user needs](/images/product/ux/ux-research/research-in-the-ai-space/overview-of-approaches.png)
 
 **Review existing research**
 
@@ -83,7 +83,7 @@ To get robust feedback during solution validation, it's recommended to collect a
 
 **Tip:** Avoid asking the tempting "Would you use this?" question.
 
-If you are maturing your AI feature towards [Generally Available](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#generally-available-ga), take a look at the [UX maturity requirements](/handbook/product/ai/ux-maturity/) for further guidance on metrics and success criteria.
+If you are maturing your AI feature towards [Generally Available](https://docs.gitlab.com/policy/development_stages_support/#generally-available-ga), take a look at the [UX maturity requirements](/handbook/product/ai/ux-maturity/) for further guidance on metrics and success criteria.
 
 ### Guideline 4: Learn about the cost of errors that AI will make
 
@@ -155,7 +155,7 @@ Follow the [steps for running a Category Maturity Scorecard study](/handbook/pro
 
 Similar to the Category Maturity Scorecard scoring (Figure 1), the calculated AI Usability score will be a number between 1.00 - 5.00. This is intended to give some granularity to the scores as regression/progression occurs. If need be, the score is translatable to an A-F grade scale.
 
-| ![Scoring rubric from our Category Maturity Scorecard process](AI_usability_metric_chart.png)  |
+| ![Scoring rubric from our Category Maturity Scorecard process](/images/product/ux/ux-research/research-in-the-ai-space/AI_usability_metric_chart.png)  |
 |------------------------------------------------------------------------------------------------|
 | **Figure 1: Borrowing the existing scoring rubric from our Category Maturity Scorecard process** |
 

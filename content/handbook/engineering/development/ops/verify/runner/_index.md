@@ -23,7 +23,7 @@ The product strategy and roadmap for the runner product categories are covered o
 
 ## UX strategy
 
-Our UX vision, more information around how UX and Development collaborate, and other UX-related information will be documented in the [UX Strategy page](/handbook/product/ux/stage-group-ux-strategy/ci-cd/).
+Our UX vision, more information around how UX and Development collaborate, and other UX-related information will be documented in the [UX Strategy page](/handbook/product/ux/product-design/ux-roadmaps/).
 Our [Jobs to be Done](/handbook/product/ux/jobs-to-be-done) are documented in [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/) and provide a high-level view of the main objectives. Our User Stories are documented in [Runner Group - User Stories](/handbook/engineering/development/ops/verify/runner/user-stories/) which guide our solutions as we create design deliverables, and ultimately map back to JTBDs.
 
 ## Performance Indicator
@@ -197,13 +197,13 @@ At a minimum we will always identify our top priorities using `~"Runner::P1"`.
 
 ### Design and development process
 
-We follow the [product development flow](/handbook/product-development-flow/). Our team uses one issue as SSOT for design, backend, and frontend work.
+We follow the [product development flow](/handbook/product-development/product-development-flow/). Our team uses one issue as SSOT for design, backend, and frontend work.
 
-Once a problem is [validated](/handbook/product-development-flow/#validation-phase-2-problem-validation), the issue enters the [design phase](/handbook/product-development-flow/#validation-phase-3-design) where the product designer collaborates with the team to ideate solutions and explore different approaches before converging on a single solution that is feasible and has requirements meet the business goals.
+Once a problem is [validated](/handbook/product-development/product-development-flow/#validation-phase-2-problem-validation), the issue enters the [design phase](/handbook/product-development/product-development-flow/#validation-phase-3-design) where the product designer collaborates with the team to ideate solutions and explore different approaches before converging on a single solution that is feasible and has requirements meet the business goals.
 
-Sometimes we need to increase our confidence that the proposed solution meets the user's needs and expectations. This confidence can be obtained from additional research during the [solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) phase.
+Sometimes we need to increase our confidence that the proposed solution meets the user's needs and expectations. This confidence can be obtained from additional research during the [solution validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation) phase.
 
-Following the design and validation phases, the problem should already be broken down into the quickest change possible to improve the user's outcome and be ready for a more detailed review by engineering before moving to the [build track](/handbook/product-development-flow/#build-track).
+Following the design and validation phases, the problem should already be broken down into the quickest change possible to improve the user's outcome and be ready for a more detailed review by engineering before moving to the [build track](/handbook/product-development/product-development-flow/#build-track).
 
 Once the PM intends to prioritize the issue for the next milestone, the `~"workflow::planning breakdown"` label is applied and the EM will assign a developer to further break down and apply weights to that work so that the issue can be `~"workflow::ready for development"`.
 
@@ -337,7 +337,7 @@ In this case, the vulnerability:
 The primary course of action here is to create a
 [`deviation request issue`](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues)
 (see
-https://handbook.gitlab.com/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/).
+<https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/poam-deviation-request-procedure/>).
 We generally create one deviation request issue per offending software module (e.g. `git-lfs` or `libcurl`). When
 creating the issue, be sure to select `operational_requirement_template` as a template and complete the following
 sections:
@@ -458,7 +458,7 @@ cherry-picking the commits. You will have to resolve them.
 
 ## Issue Health Status Definitions
 
-- **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
+- **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-13#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
   - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.

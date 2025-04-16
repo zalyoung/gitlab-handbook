@@ -25,9 +25,7 @@ If you'd like to subscribe to SSATs submitted by customers from a certain
 territory, you can subscribe to the appropriate `OrganizationRegion` scoped
 label through the [Feedback project labels page](https://gitlab.com/gitlab-com/support/feedback/-/labels).
 
-These labels are applied based on organization information
-[synced to Zendesk](/handbook/support/readiness/operations/docs/zendesk/organizations/)
-from SFDC.
+These labels are applied based on organization information synced to Zendesk from SFDC.
 
 | Label   | Description |
 |---------|-------------|
@@ -48,8 +46,8 @@ This SSAT data will be reviewed by Senior Leaders and presented in Monthly regio
 
 ### SSAT
 
-The manager of the person to whom a ticket is assigned is responsible for reviewing customer feedback on that ticket.Feedback issues
-[are assigned](/handbook/support/readiness/operations/docs/zendesk/ssat/) to the managers automatically. The manager receives email notification from GitLab and a To-Do item.
+The manager of the person to whom a ticket is assigned is responsible for reviewing customer feedback on that ticket. Feedback issues
+are assigned to the managers automatically. The manager receives email notification from GitLab and a To-Do item.
 
 ### Mid-ticket feedback
 
@@ -59,7 +57,7 @@ The manager of the person to whom a ticket is assigned is responsible for review
 
 Currently, the following methods create feedback issues for review:
 
-1. [Automatic email survey](/handbook/support/readiness/operations/docs/zendesk/ssat/) -- sent to customers when tickets are closed.
+1. Automatic email survey -- sent to customers when tickets are closed.
 1. Mid-ticket feedback link -- each Public Comment from a GitLab Support Engineer or Manager has a link to a form where a customer can provide feedback or request contact from a manager while the ticket is open (introduced in issue [2913](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/2913)).
    1. This feedback form creates issues in the customer feedback project, with a subject format of **Positive/Negative/Neutral feedback for ticket nnnnnn**, and is automatically assigned to the **Support Manager On-call** and the manager of the Support Engineer assigned to the ticket.
    1. If the feedback is negative, there is an option to request manager contact (within 48hrs Mon-Fri). If this option is chosen, a Slack notification is sent to the #support_ticket-attention-requests channel. The [**On Call Manager**](/handbook/support/workflows/support_manager-on-call#expectations-for-support-manager-on-call) should promptly follow the guidance in [Handling mid ticket feedback requesting manager contact during business hours](/handbook/support/workflows/support_manager-on-call#handling-mid-ticket-feedback-requesting-manager-contact-during-business-hours).
@@ -136,7 +134,7 @@ The [`populate_ssat` job](https://gitlab.com/gitlab-com/support/readiness/suppor
 
 To run this job:
 
-1. [Run a manual pipeline] (https://docs.gitlab.com/ee/ci/pipelines/#run-a-pipeline-manually) and run the `populate_ssat` job.
+1. [Run a manual pipeline] (https://docs.gitlab.com/ci/pipelines/#run-a-pipeline-manually) and run the `populate_ssat` job.
 
 You can safely re-run this task as many times as you'd like as it will append to the issue.
 
@@ -160,7 +158,7 @@ ticket!):
 * **Make the CSM aware of this feedback? (Y/N)**
 ```
 
-The above text will be automatically added as a comment to "bad" reviews. You might also consider adding the above snippet to a [comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html) for quick use.
+The above text will be automatically added as a comment to "bad" reviews. You might also consider adding the above snippet to a [comment template](https://docs.gitlab.com/user/profile/comment_templates/) for quick use.
 
 If no action needs to be taken, and the customer does not need to be contacted to discuss the ticket, `/close` the Feedback Issue.
 
@@ -177,7 +175,7 @@ a bad review was given. If necessary, [contact the customer](#if-the-customer-sh
 to learn more.
 
 Once the reason behind the "bad" review is understood, apply the `feedback`
-[scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels)
+[scoped label](https://docs.gitlab.com/user/project/labels/#scoped-labels)
 that best describes the situation:
 
 | Label | Description |

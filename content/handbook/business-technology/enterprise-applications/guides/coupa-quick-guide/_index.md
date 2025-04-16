@@ -16,7 +16,7 @@ This page provides a general overview of the Coupa procurement processes. See be
 
 <br>
 
-![coupa-image-3](/handbook/business-technology/enterprise-applications/guides/coupa-quick-guide/coupaquick3.png)
+![coupa-image-3](/images/business-technology/enterprise-applications/guides/coupa-quick-guide/coupaquick3.png)
 
 <br>
 
@@ -46,7 +46,7 @@ Click on the below boxes for more details of the process:
 
 <br>
 
-![coupa-image-2](/handbook/business-technology/enterprise-applications/guides/coupa-quick-guide/coupaquick2.png)
+![coupa-image-2](/images/business-technology/enterprise-applications/guides/coupa-quick-guide/coupaquick2.png)
 
 <br>
 
@@ -54,7 +54,7 @@ Click on the below boxes for more details of the process:
 
 Click on the below boxes for more details of the process:
 <div class="flex-row" markdown="0" style="height:110px;justify-content:center">
-  <a href="/handbook/finance/procurement/new-software/" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Software</a>
+  <a href="/handbook/finance/procurement/individual-use-software/" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Software</a>
   <a href="/handbook/finance/procurement/software-renewal/" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Software Renew/Add-on</a>
   <a href="/handbook/finance/procurement/field-marketing-events/" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Field Marketing & Events</a>
   <a href="/handbook/finance/procurement/professional-services/" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Professional Services</a>

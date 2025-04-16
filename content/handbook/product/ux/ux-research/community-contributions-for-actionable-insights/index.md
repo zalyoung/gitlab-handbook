@@ -32,7 +32,7 @@ The table below outlines key responsibilities. Refer to the [blog creation workf
 
 ### What does the blog creation workflow look like?
 
-![Workflow to publish a blog post seeking community contributions](blog-post-workflow-2.png)
+![Workflow to publish a blog post seeking community contributions](/images/product/ux/ux-research/community-contributions-for-actionable-insights/blog-post-workflow-2.png)
 
 View the workflow in [Figjam](https://www.figma.com/file/U6GlKKrbLRphQmCcZwpJuQ/Blog-process_2023-08-22_10-27-37?type=whiteboard&node-id=0-1&t=Bb8QCBHBrzdlu9pv-0).
 

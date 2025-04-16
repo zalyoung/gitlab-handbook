@@ -165,7 +165,7 @@ Always On Lead Generation:
 | Stage | Asset 1 | Asset 2| Asset 3 |
 | ------ | ------ | -------| -------|
 | Awareness| [[EBOOK] Modernize your CI/CD](https://about.gitlab.com/resources/ebook-fuel-growth-cicd/) | [[WEBCAST] Accelerating Software Delivery: Keys for a Digital Transformation](https://www.youtube.com/watch?v=Igu9DKpfweQ) | [[WEBCAST] Simplify Continuous Integration and Delivery Pipelines with New Tools](https://www.youtube.com/watch?v=esZSETVu70I)  |
-| Consideration | [[EBOOK] Benefits of single application CI/CD](https://about.gitlab.com/resources/ebook-single-app-cicd/) | [[REPORT] The Total Economic Impact™ of GitLab](https://about.gitlab.com/resources/report-forrester-tei/) | [[VIDEO] GitLab CI/CD Overview](https://www.youtube.com/watch?v=wsbSvLyC2Z8) |
+| Consideration | [[EBOOK] Benefits of single application CI/CD](https://about.gitlab.com/resources/ebook-single-app-cicd/) | [[REPORT] The Total Economic Impact™ of GitLab](https://about.gitlab.com/resources/study-forrester-tei-gitlab-ultimate/) | [[VIDEO] GitLab CI/CD Overview](https://www.youtube.com/watch?v=wsbSvLyC2Z8) |
 | Purchase| [[ANALYST] The 2019 Forrester Wave™: Cloud-Native Continuous Integration Tools](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/4203)| [[REFERENCE] How Jaguar Land Rover embraced CI to speed up builds](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/)| [COMPETITIVE] GitLab vs. Jenkins |
 
 ### Marketo Nurture Emails {#nurture-emails}

@@ -26,6 +26,7 @@ Enable others within the Support Team to answer GitLab Dedicated tickets.
 - {{< member-by-name "Brenda Nyaringita" >}} (`@bnyaringita`)
 - {{< member-by-name "Segolene Bouly" >}} (`@sbouly`)
 - {{< member-by-name "Sam Bernal-Damasco" >}} (`@definitelynotsam`)
+- {{< member-by-name "Luminus Alabi" >}} (`@lalabi`)
 
 ## Collaboration channels
 
@@ -55,7 +56,7 @@ Check the GitLab Support Google Calendar for the events and add yourself to the 
   - This handbook is located in the [Support Workflows](/handbook/support/workflows/) and is a great starting point for more information when working GitLab Dedicated tickets
 - See the training module for [GitLab Dedicated](https://gitlab.com/gitlab-com/support/support-training/-/blob/master/.gitlab/issue_templates/GitLab%20Dedicated.md) in the [Support Training](https://gitlab.com/gitlab-com/support/support-training) project.
 - Read about [working with logs](/handbook/support/workflows/dedicated/#working-with-logs) when handling tickets for GitLab Dedicated.
-- Review the [features _not_ in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available) as these are almost as important as [the features in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features)
+- Review the [features _not_ in GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#features-that-are-not-available) as these are almost as important as [the features in GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#available-features)
 
 ## ℹ️  Stay Informed
 

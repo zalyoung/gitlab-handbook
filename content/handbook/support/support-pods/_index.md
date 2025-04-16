@@ -32,7 +32,7 @@ different uses of the word `pod` in the GitLab context.
 | [Authentication and Authorization](authentication-and-authorization) | [#spt_pod_auth](https://gitlab.enterprise.slack.com/archives/C01NGKZQ2F2) | <ul><li>{{< member-by-name "Asmaa Hassan Ahmed Ali" >}}</li><li>{{< member-by-name "Gerardo Gutierrez" >}}</li><li>{{< member-by-name "Jio Castillo" >}}</li><li>{{< member-by-name "Alejandro Guerrero de Alba" >}}</li></ul> |
 | [CI/CD](ci-cd) | [#spt_pod_cicd](https://gitlab.enterprise.slack.com/archives/C04DHQ91WJE) | <ul><li>{{< member-by-name "Manuel Grabowski" >}}</li></ul> |
 | [Code Contributions](code-contributions) | [#spt_pod_code-contributions](https://gitlab.enterprise.slack.com/archives/C05DUHAG3EY) | <ul><li>{{< member-by-name "Anton Smith" >}}</li><li>{{< member-by-name "Manuel Grabowski" >}}</li></ul> |
-| [Database](database) | [#spt_pod_database](https://gitlab.enterprise.slack.com/archives/C05K0R2830A) | <ul><li>{{< member-by-name "Ben Prescott" >}}</li></ul> |
+| [Database](database) | [#spt_pod_database](https://gitlab.enterprise.slack.com/archives/C05K0R2830A) | <ul><li>{{< member-by-name "Daniel Diniz de Noronha" >}}</li><li>{{< member-by-name "Chris Nightingale" >}}</li><li>{{< member-by-name "Mark Nagle" >}}</li><li>{{< member-by-name "Ryan Castro" >}}</li></ul> |
 | [Documentation](docs) | [#spt_pod_docs](https://gitlab.enterprise.slack.com/archives/C07UU2R5SKU) | <ul><li>{{< member-by-name "Keelan Lang" >}}</li><li>{{< member-by-name "Michelle Almendarez" >}}</li><li>{{< member-by-name "Michael Gibson" >}}</li></ul> |
 | [Geo](geo) | [#spt_pod_geo](https://app.slack.com/client/T02592416/C03D96JF4LD) | <ul><li>{{< member-by-name "Ronald van Zon" >}}</li><li>{{< member-by-name "Anton Smith" >}}</li><li>{{< member-by-name "Keelan Lang" >}}</li></ul> |
 | [GET](get) | [#spt_pod_get](https://app.slack.com/client/T02592416/C05NL747NMD) | <ul><li>{{< member-by-name "Lewis Brown" >}}</li></ul> |
@@ -43,7 +43,7 @@ different uses of the word `pod` in the GitLab context.
 | [Licensing and Renewals](licensing-and-renewals) | [#support_licensing-subscription](https://gitlab.enterprise.slack.com/archives/C018C623KBJ) | <ul><li>{{< member-by-name "Bethany Mcgrew" >}}</li></ul> |
 | [Performance and Reliability](performance-and-reliability) | [#spt_pod_performance](https://gitlab.enterprise.slack.com/archives/C04DP058MT2) | <ul><li>{{< member-by-name "Cody West" >}}</li></ul> |
 | [Runner](runner) | [#spt_pod_runner](https://gitlab.enterprise.slack.com/archives/C05MBS5RZ50) | <ul><li>{{< member-by-name "Justin Farmiloe" >}}</li><li>{{< member-by-name "Tony Marsh" >}}</li></ul> |
-| [Secure](secure) | [#spt_pod_secure](https://gitlab.enterprise.slack.com/archives/C03FV8G5LV7) | <ul><li>{{< member-by-name "Katrin Leinweber" >}}</li><li>{{< member-by-name "Brie Carranza" >}}</li></ul> |
+| [Sec](sec) | [#spt_pod_sec](https://gitlab.enterprise.slack.com/archives/C03FV8G5LV7) | <ul><li>{{< member-by-name "Katrin Leinweber" >}}</li><li>{{< member-by-name "Brie Carranza" >}}</li></ul> |
 | [Training](training) | [#spt_pod_training](https://gitlab.enterprise.slack.com/archives/C06P0J75H6Y) | <ul><li>{{< member-by-name "Matthew Badeau" >}}</li><li>{{< member-by-name "John Gaughan" >}}</li></ul> |
 | [Upgrade](upgrade) | [#spt_pod_upgrade](https://gitlab.enterprise.slack.com/archives/C04MEHW7J4W) | |
 

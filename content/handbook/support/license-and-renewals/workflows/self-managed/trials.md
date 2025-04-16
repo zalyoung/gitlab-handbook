@@ -89,9 +89,30 @@ The `Deviation from SM License Extension Workflow` macro is to be used to record
 
 #### Customer requests for a license extension
 
-For tracking customer requests for a license extension, we rely on the SE to review the problem type and fix it if it's wrong. When a customer submits a ticket requesting a license extension, we should apply the macro `Customer Request for SM License Extension` to redirect the customer to their AE.  In this scenario, we need to modify the template text to provide the customer with their AE's email address.
+When a customer requests a license extension, follow the steps below based on the day of the week and whether the customer is classified as Enterprise or SMB.
 
-This macro will automatically add the tag `lnr_sm_extension_customer_request` to track these instances.
+1. Locate the Account Owner:
+    - In the Zendesk (ZD) ticket, look for the internal note labeled `Organization Info` to dentify the Account Owner:
+        - For Enterprise/Commercial customers, a specific individual will be listed.
+        - For SMB customers, you will see `EMEA/AMER/APAC SMB Sales` instead of a named person.
+
+2. Determine next steps Based on the Day and Customer Type:
+
+    | Day | Enterprise/Commercial | SMB |
+    |--|-----------------------|-----|
+    | **Weekday** | Redirect to Sales | Redirect to Sales |
+    | **Weekend/Holiday** | Redirect to Sales | Issue temp extension and redirect to Sales |
+
+3. Steps for Redirecting to Sales:
+
+    **Enterprise/Commercial Customers:**
+        - Apply the `Customer Request for SM License Extension macro`, updating the template to include the AE's email address before sending it to the customer.
+        - Notify the Account Executive (AE) through Chatter to ensure they are aware of the request.
+    **SMB Customers:**
+        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](../../../sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
+        - Provide the Salesforce (SFDC) ticket ID to the customer.
+
+4. For SMB Customers on Weekends or Holidays, please issue a temporary license extension before redirecting to Sales.
 
 ### Licensing pathways for handling customer renewals and new sales that have become delayed
 

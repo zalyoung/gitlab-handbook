@@ -7,7 +7,7 @@ description: "GitLab's email response process for marketing emergencies"
 
 At times GitLab needs to communicate a "breaking" change or details related to a high-priority emergency patch. These emails are transactional and are highly targeted to the impacted audience.
 
-**Not an emergency?** For important planned customer communications, please use [the customer update/announcement process](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#customer-comms-email), to enable teams to work together and plan without the urgency of an emergency request.
+**Not an emergency?** For important planned customer communications, please use [the customer update/announcement process](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#customer-or-user-comms-email-including-breaking-changes), to enable teams to work together and plan without the urgency of an emergency request.
 
 **As soon as an emergency communication is recognized, the Requesting team MUST:**
 
@@ -43,11 +43,11 @@ Please review the coverage owner closest available per their timezone when decid
 
 **Escalation Path:**
 
+Outside of normal working hours, we do not have an "on call" procedure, so please follow this escalation path if you cannot reach anyone in the matrix above.
+
 * #mktgops
 * Manager (Amy Waller)
-* If still no response, #lifecycle-marketing or #marketing-campaigns team can help
-
-For Marketing Operations - When OOO/PTO please add this to the backup team members calendar for awareness.
+* If still no response, use Text or Whatsapp to contact Amy via the number in her slack profile. If you cannot reach her, try to reach out to a timezone appropriate member in the matrix above.
 
 ## Roles and responsibilities
 
@@ -114,6 +114,7 @@ This is the process to follow when there is an announcement that is an emergency
    * Vice President of Customer Success
    * Vice President of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure)
    * Legal (copy only)
+   * Customer Comms and PR
    * Marketing Operations Manager
    * Appropriate field teams driven by the scope of customers receiving the communication (SAE/AE, SA, CSM, Professional Services)
    * Support, if there is any call to action in the communication to contact support

@@ -152,7 +152,7 @@ Please contact the [Learning & Development team](/handbook/people-group/learning
 
 - Change Management Primer ([Slides](https://docs.google.com/presentation/d/1KrFKBHS0IC15cn7q2CYGakCRfcq-A5tmRCxg8ys_v-Y/edit#slide=id.g82ed3c344a_0_0)) ([Video](https://www.youtube.com/watch?v=Gz6OpHnOGlM&feature=youtu.be)) from our Field Enablement Team
 - [Prosci change management resources](https://www.prosci.com/resources)
-- [Harvard Business Review Change Management Resources](https://hbr.org/topic/change-management)
-- [Five Levers of Change Management](https://www.prosci.com/resources/articles/five-levers-of-organizational-change-management) (article)
-- [Keys to Prepare for Change](https://blog.prosci.com/keys-to-prepare-for-change)
-- [Understanding Resistance to Change](https://blog.prosci.com/understanding-resistance-to-change)
+- [Harvard Business Review Change Management Resources](https://hbr.org/topic/subject/change-management)
+- [Five Levers of Change Management](https://www.prosci.com/blog/change-management-plans) (article)
+- [Keys to Prepare for Change](https://www.prosci.com/blog/keys-to-prepare-for-change)
+- [Understanding Resistance to Change](https://www.prosci.com/blog/understanding-resistance-to-change)

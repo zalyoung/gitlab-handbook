@@ -42,7 +42,7 @@ Empirical Path helps us execute advanced Google Tag Manager and Google Analytics
 We also use supplmental tools to improve our understanding of how people interact with about.gitlab.com. These tools are used most heavily by our Search Marketing team:
 
 * [Google Search Console](https://search.google.com/search-console) (click data from Google Search)
-* [SEMRush](https://www.semrush.com/dashboard/) (keyword research and coverage)
+* [SEMRush](https://www.semrush.com/) (keyword research and coverage)
 * [Sitebulb](https://sitebulb.com/) (site health and crawl)
 
 ## Google Marketing Platform
@@ -104,7 +104,7 @@ We use Google Tag Manager(GTM) to simplify activity tracking on about.gitlab.com
 
 #### Data Attributes
 
-Previously, GitLab use to track GTM through the use of various CSS classes. This has been an issue, as it obfuscates what is being tracked and why. To add some clarity, we *highly recommend* GitLab team members to start using [data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes).
+Previously, GitLab use to track GTM through the use of various CSS classes. This has been an issue, as it obfuscates what is being tracked and why. To add some clarity, we *highly recommend* GitLab team members to start using [data attributes](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes).
 
 #### Naming convention
 

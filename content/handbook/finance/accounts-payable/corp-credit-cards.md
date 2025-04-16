@@ -131,7 +131,7 @@ Along with any charges that are over $5,000 USD (or equivalent local currency) t
 ### Software subscriptions
 
 - Of any kind are not permitted (i.e. Amazon, Dropbox, Adobe etc)
-- For individual subscriptions, please follow the process regarding [Individual Use Software](/handbook/finance/procurement/personal-use-software/).
+- For individual subscriptions, please follow the process regarding [Individual Use Software](/handbook/finance/procurement/individual-use-software/).
 - For group subscriptions, please submit a Purchase Requisition in Zip.
 
 ### Team member Gifts that are not for a Significant Life Event

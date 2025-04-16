@@ -58,7 +58,7 @@ There are some tools/services that other companies are using for this
 
 1. [Kafka](https://kafka.apache.org)
 1. [NSQD](https://nsq.io)
-1. [RabbitMQ](https://rabbitmq.com)
+1. [RabbitMQ](https://www.rabbitmq.com/)
 1. [GCP PubSub](https://cloud.google.com/pubsub)
 
 ### Related GitLab Documentation or Issues

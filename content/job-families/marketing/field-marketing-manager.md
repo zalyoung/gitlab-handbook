@@ -279,11 +279,11 @@ This role includes all of the performance indicators of the previous level plus:
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a series of 45 minute interviews with the VP of Revenue Marketing, Director of Field Marketing, regional sales leader, and a seller who they would support.
 - Depending on location, candidates may meet in person with any of the above.
 - Finally, our CMO may choose to conduct a final interview.
-- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://about.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
+- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://handbook.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
 
 ## Senior Manager, Regional Marketing
 
@@ -323,10 +323,10 @@ The next step for  managers of people is to move to the [Director of Field Marke
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a series of 45 minute interviews with the Sr. Director of Revenue Marketing, Director of Field Marketing, regional sales leader, and a seller who he/she would support.
 - Depending on location, candidates may meet in person with any of the above.
 - Finally, our CEO may choose to conduct a final interview.
-- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://about.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
+- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://handbook.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

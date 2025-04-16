@@ -9,9 +9,10 @@ The Import and Integrate group is a part of the [Foundations Stage](/handbook/pr
 The group supports the product
 
 - by migrating between GitLab instances and from other providers
-- with 3rd party integrations, REST APIs and GraphQL foundational code, and Webhooks.
+- with 3rd party integrations and webhooks
+- by supporting foundational REST API GraphQL code.
 
-This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/manage/import_and_integrate/) and the [features we support per category](/handbook/product/categories/features/#manageimport-and-integrate-group).
+This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
 
 ## How to reach us
 
@@ -20,17 +21,21 @@ issue in the relevant project (typically [GitLab](https://gitlab.com/gitlab-org/
 `~"group::import and integrate"` label, along with any other [appropriate labels](#issue-labels). Then,
 feel free to ping the relevant Product Manager and/or Engineering Manager.
 
-For more urgent items, feel free to use the Slack Channel (internal): [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/g_manage_import_and_integrate).
+For more urgent items, feel free to use the Slack Channel (internal): [#g_import_and_integrate](https://gitlab.slack.com/archives/g_import_and_integrate).
+
+Note that while we own the foundations of GitLab's APIs, the behaviour of most individual API endpoints is owned by
+other teams. Please check the [feature categorizatiob page](/handbook/product/categories/features/) to ensure your
+query is being directed to the correct group.
 
 ## Team Members
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Manage:Import and Integrate" >}}
+{{< stable-counterparts role="Foundations:Import and Integrate" >}}
 
 ## Metrics
 
-Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/product/groups/product-analysis/engineering/dashboards/dev/manage/import-and-integrate/).
+Our Engineering Metrics Dashboards can be found [here](/handbook/product/groups/product-analysis/engineering/dashboards/#dashboards).
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
   {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
@@ -106,7 +111,7 @@ All issues should have:
 
 - All of our section, stage and group labels:
   - `~"section::core platform"`
-  - `~"devops::manage"`
+  - `~"devops::foundations"`
   - `~"group::import and integrate"`
 - One or more of the category labels:
   - `~"Category:API"`
@@ -114,7 +119,7 @@ All issues should have:
   - `~"Category:Integrations"`
   - `~"Category:Internationalization"`
   - `~"Category:Webhooks"`
-- A [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification)
+- A [type label](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
 - `~"backend"` or `~"frontend"` if appropriate
 
@@ -126,7 +131,7 @@ For issues related to our APIs, also apply either `~"api"` for REST or `~"GraphQ
 
 Once you have completed an issue and closed it make sure to add `~"workflow::complete"`.
 
-Team members might find it helpful to use a comment template to help apply labels correctly. See [an example here](https://gitlab.com/gitlab-org/manage/import-and-integrate/discussions/-/issues/76#note_1718035490).
+Team members might find it helpful to use a comment template to help apply labels correctly. See [an example here](https://gitlab.com/gitlab-org/foundations/import-and-integrate/discussions/-/issues/76#note_1718035490).
 
 ### Capacity Planning
 
@@ -159,6 +164,8 @@ The weights we use are:
 
 Anything larger than 5 should be broken down if possible.
 
+Weights should account for both development and review time.
+
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
 [patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
@@ -181,7 +188,7 @@ This process happens in three steps.
 #### Step 1: Identifying Issues for Refinement
 
 The engineering manager will identify issues that need to be
-refined. On average we will try to refine 3-6 issues per
+refined. On average we will try to refine up to 6 backend and up to 3 frontend issues per
 week. If there are issues that are good candidates for the backlog refinement
 process, please let the engineering manager know in the issue.
 
@@ -202,7 +209,7 @@ to look:
 Once identified, the engineering manager will apply the `ready for next refinement` label, which will indicate the issues are ready for
 refinement.
 
-The engineering manager will use the [Refinement Bot](https://gitlab.com/gitlab-org/manage/import-and-integrate/refinement-bot)
+The engineering manager will use the [Refinement Bot](https://gitlab.com/gitlab-org/foundations/import-and-integrate/refinement-bot)
 to generate an issue with all the issues that have been identified for
 refinement.
 
@@ -223,7 +230,6 @@ Some considerations:
 - During this process, the issue description and [labels](#issue-labels) should be updated as
 more information is gathered.
 - Does the issue need a feature flag?
-- Consider adding an "Availability and Testing" section as defined in the [Quad Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/).
 - For efficiency, engineers can also skip the refinement of some issues
 depending on the feedback that we already have.
 - Where the fix is clear and easy, we can assign the issue to
@@ -244,23 +250,36 @@ For any issues that were not discussed and given a weight, the engineering
 manager will work with the engineers to see if we need to get more information
 from PM or UX.
 
+### Requesting help
+
+If you are not part of the Support organization, we recommend reaching out to them first, as they have greater availability and can assist with most common issues. There's a dedicated Slack channel [#spt_pod_import_and_integrate](https://gitlab.enterprise.slack.com/archives/C052K0Z1F8T) you can join, follow and ask questions in. However, there are times when in-depth technical knowledge is needed to resolve a customer issue, requiring the involvement of an engineer from the team.
+
+Before requesting help from the Engineering team, please first review the [GitLab documentation](https://docs.gitlab.com/) for the topic of your interest and the additional resources listed below:
+
+- [Importer Runbook](https://gitlab.com/gitlab-org/foundations/import-and-integrate/team/-/blob/main/importers/runbook.md?ref_type=heads)
+- [GitLab Log Analysis Tool](https://gitlab.com/gitlab-org/foundations/import-and-integrate/gitlab-logs-analysis)
+- [Jira playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Koazgli_PmMQCER2pVH7vUT)
+
+If you cannot find the answer to your question in the resources listed above, please open a [Request for Help (RFH) issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Import-Integrate) and use the `SupportRequestTemplate-Import-Integrate` template. Please ensure that you provide all the required information before reaching out to the team; otherwise, we will be unable to proceed with your request. New issues will be prioritized according to our internal triage process. Please note that we can only support requests for issues affecting the current and the two most recent minor GitLab versions (N-2). We cannot offer a fix for older versions. This is aligned with our [maintenance policy for backports](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases).
+
 ### Milestone Doctors
 
-In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 70% to allow taking over additional responsibilities as "Milestone Doctors".
+In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 60% to allow taking over additional responsibilities as "Milestone Doctors".
 
-#### Responsibilites
+#### Responsibilities
 
-- Engage with Support and PS on new [RFH issues](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/issues/?label_name%5B%5D=Help%20group%3A%3Aimport%20and%20integrate)
+- Engage with Support and PS on new [RFH issues](https://gitlab.com/gitlab-com/request-for-help/-/issues?label_name%5B%5D=Help%20group%3A%3Aimport%20and%20integrate)
 - Follow-up on long-lasting open issues
 - Assist the Support team on customer calls
 - Maintain team runbook documentation on how Milestone Doctors have successfully diagnosed problems
 - Respond to questions in our team Slack channel #g_manage_import_and_integrate
+- Update our [FAQ](https://gitlab.com/gitlab-org/foundations/import-and-integrate/team/-/blob/main/importers/faq.md?ref_type=heads) with any learnings from the shift
 
 #### Rotation schedule
 
 - Each milestone two Backend Engineers take the role of a Milestone Doctor.
 - Engineers claim shifts themselves on the [Milestone Doctor schedule spreadsheet](https://docs.google.com/spreadsheets/d/1N6ObBcCnliu4uZS-_IbpsjzgrF5f-etcLohYKAzR6KQ/edit?usp=sharing).
-- At the beginning of a new milestone, Milestone Doctors update assignee section of the [RFH template](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/edit/main/.gitlab/issue_templates/SupportRequestTemplate-Import-Integrate.md?ref_type=heads#L99) with their usernames.
+- At the beginning of a new milestone, Milestone Doctors update assignee section of the [RFH template](https://gitlab.com/gitlab-com/request-for-help/-/edit/main/.gitlab/issue_templates/SupportRequestTemplate-Import-Integrate.md) with their usernames.
 - Given the current team size, every Backend Engineer is expected to sign up as Milestone Doctor once per quarter.
 - At the end of each quarter, the EM assigns unassigned shifts for the upcoming quarter to engineers.
 
@@ -277,7 +296,7 @@ An [Application Security Review](/handbook/security/product-security/application
 
 ### Longer lived feature flags
 
-This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags)
+This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags/)
 for use of feature flags. It applies to all flag types besides the [`ops` type](https://docs.gitlab.com/ee/development/feature_flags/#ops-type).
 
 Changes to Import and Integrate features often happen in high-traffic code paths and have
@@ -386,14 +405,14 @@ A tech lead is:
 
 The Tech Lead role provides growth opportunity for engineers who are interested in adopting leadership skills.
 
-#### Responsibilites of a Tech Lead
+#### Responsibilities of a Tech Lead
 
 Tech leads wear many hats. Their responsibilities may differ from project to project but may include:
 
 - Technical Vision and Architecture - Defining and evolving the overall technical architecture for a given project
 - Technical Guidance - Providing technical guidance and mentoring to other developers on the team
 - Planning and Prioritizing Work - Organizing the work by breaking down bigger tasks into smaller actionable items
-- Tracking Progress -  Tracking progress on committments and reporting status updates
+- Tracking Progress -  Tracking progress on commitments and reporting status updates
 - Risk Management - Identifying, assessing and managing technical risks that may impact deliverables
 - Coordination - Overseeing the work of others and helping remove blockers
 - Technical documentation - Maintaining documentation of the technical architecture and code structure for other developers
@@ -536,7 +555,16 @@ Learn more about error budgets with these resources:
 - [Error budgets and how they are calculated](/handbook/engineering/error-budgets/)
 - [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request.html)
 - [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
-- [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
+- [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization/): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
+
+## Usage data dashboards
+
+You can view data for feature usage in Tableau.
+ 
+- [Centralized Product Usage Metrics Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting?:iid=1) can be used to observe any chosen metric. To see data for e.g. Microsoft Teams integration, on the left in `Select Metric Level` choose `PI`, in the `Select Metrics to view` first uncheck `All` and then search for `microsoft` and check metrics for Microsoft Teams integration you're interested in, see [example](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/8c7d8afd-ffc7-4198-b11a-6099df2b8611/3170c5bb-4509-4b3d-8362-470e49286d42). You can choose timeframe and `Dimention Paremeter`, e.g deployment type. Another example is data for [GitHub importer](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/57ab6fbb-7d64-4ab9-ac36-dfcfbd891c69/1e04a888-66de-44c8-b722-1c31e214b8db) or [webhooks usage by deployment](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/ef4c4285-1a54-4769-86d7-60331b44a10a/0fa98245-8e1c-4db1-82f3-2591e310aa3d)
+- [Integrations Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ManageIntegrationsUsage/ServicePingResults?:iid=1) shows all usage of integrations. You can filter in or out (keep only or exclude) any specific integration on the right hand side.
+- [Importer Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2214374/views). This is still work in progress. 
+- [User Contribution Mapping Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/3238494/views) shows data on placeholder users created during imports.
 
 ## Links and resources {#links}
 
@@ -550,7 +578,7 @@ Learn more about error budgets with these resources:
   - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
 - Contribution guides
   - [Principles of importer design](https://docs.gitlab.com/ee/development/import/principles_of_importer_design/)
-  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing)
+  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing/)
     - [Feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/456468)
 - Onboarding videos (GitLab Unfiltered Youtube)
   - [Direct Transfer](https://www.youtube.com/watch?v=vVQ6Ex9fSl8) (formerly known as GitLab Migration)

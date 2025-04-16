@@ -24,10 +24,10 @@ The section is covered by groups from teams across two primary departments, Engi
 
 - Engineering
   - [Development](/handbook/engineering/development/)
-    - [Analytics Instrumentation](/handbook/engineering/development/analytics/analytics-instrumentation/)
+    - [Analytics Instrumentation](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/)
     - Product Analytics
   - [UX](/handbook/product/ux/#team-structure)
-  - [Quality](/handbook/engineering/quality/#quality-engineering-structure)
+  - [Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience/)
 - Product
   - TBD
 
@@ -138,4 +138,4 @@ TBD
 ## References
 
 - [Product categories](/handbook/product/categories/#analytics-section)
-- [Direction](https://about.gitlab.com/direction/analytics/)
+- [Direction](https://about.gitlab.com/direction/monitor/)

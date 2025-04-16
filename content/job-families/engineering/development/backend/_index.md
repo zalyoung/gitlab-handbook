@@ -171,7 +171,7 @@ For more details on the engineering career ladders, please review the [engineeri
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - As part of the application, candidates are asked to complete a short technical questionnaire, with a possibility of additional technical questions being asked if needed after the application is submitted.
-- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/talent-acquisition-framework/req-overview/#screening) with one of our Technical Recruiters
+- Next, candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Backend Engineers
 - Next, candidates will be invited to schedule a 60 minute interview with one of our Backend Engineering Managers
 - Next, candidates will be invited to schedule a 60 minute interview with our Director of Engineering
@@ -217,9 +217,9 @@ the Container Registry and is responsible for items listed under [Package produc
 - Create and maintain observability of the newly defined features
 - Work with customers on defining their needs to replace existing package repository solutions
 
-### Govern
+### Software Supply Chain Security
 
-Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Govern Engineering Manager.
+Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Software Supply Chain Security Engineering Manager.
 
 #### Requirements
 
@@ -321,7 +321,7 @@ large repositories and projects, or can be part of a Disaster Recovery solution.
 - Work with the Product Manager to carefully assess technical feasibility of feature requests
 - Deliver proof-of-concept proposals to help guide technical discussions
 - Identify ways to deliver complex technical projects in an iterative fashion
-- Take [ownership](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#epic-ownership) of feature implementation
+- Take [ownership](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/process/#work-ownership) of feature implementation
 - Respond quickly to customer requests for support
 
 #### Requirements
@@ -375,9 +375,9 @@ to understand what is working and what is not.
 - Experience using Continuous Integration systems (e.g., GitLab CI, Jenkins, Travis).
 - Experience using Docker and containerized architectures (e.g. Kubernetes).
 
-See the description of the [Quality team](/handbook/engineering/quality/) for more details.
+See the description of the [Developer Experience stage](/handbook/engineering/infrastructure-platforms/developer-experience/) for more details.
 The position also involves working with the community as
-[Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with our
+[Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with other
 [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and
 address issues from the community.
 

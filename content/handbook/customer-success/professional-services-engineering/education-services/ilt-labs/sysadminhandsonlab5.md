@@ -123,7 +123,7 @@ Grafana provides you with useful tools for log collection and analysis. Let's se
     - url: http://localhost:3100/loki/api/v1/push
     ```
 
-1. Take note specifically of the `loki` URL and port. You will use this later. 
+1. Take note specifically of the `loki` URL and port. You will use this later.
 
 1. Log collection configurations are set in the `scrape_configs` section of the configuration file. These configurations require the following values to be set:
 
@@ -156,7 +156,7 @@ Grafana provides you with useful tools for log collection and analysis. Let's se
 
     > This configuration adds three log files to Grafana: Nginx, Workhorse, and rails.
 
-1. After adding this data, save the file. Restart `promtail` using `sudo systemctl restart promtail`. 
+1. After adding this data, save the file. Restart `promtail` using `sudo systemctl restart promtail`.
 
 1. With this complete, navigate to Grafana at `http://your-gitlab-ip:3000/login`.
 

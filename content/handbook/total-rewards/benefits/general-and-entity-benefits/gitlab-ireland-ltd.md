@@ -60,9 +60,9 @@ Please submit your receipts via navan and prescription to Total Rewards.
 
 ## Pension
 
-GitLab offers a private pension plan via a defined contribution scheme. Orca Financial is an Irish owned Financial Services company to help with the administration of the pension on behalf of GitLab. The pension provider is **Aviva**. Aviva allows for transfers into the plan and can set up an AVC pension for any members that wish to contribute above the minimum required contribution.
+GitLab offers a private pension plan via a defined contribution scheme. NFP Ireland (formerly Orca Financial) is an Irish owned Financial Services company to help with the administration of the pension on behalf of GitLab. The pension provider is **Aviva**. Aviva allows for transfers into the plan and can set up an AVC pension for any members that wish to contribute above the minimum required contribution.
 
-Orca has put together the following [video](https://docs.google.com/document/d/1i5ir2xMWMIQznq-tEGCmTkSfZ_GuuV46ARlKhAGYrS0/edit) with information about the plan as a resource.
+NFP Irleand has put together the following [video](https://docs.google.com/document/d/1i5ir2xMWMIQznq-tEGCmTkSfZ_GuuV46ARlKhAGYrS0/edit) with information about the plan as a resource.
 
 ### Pension Match
 
@@ -70,19 +70,35 @@ GitLab will match up to 5% of annual base salary of the team member's contributi
 
 ### Enrollment
 
-To enroll in the pension plan or to make changes to an existing contribution, please email `total-rewards@gitlab.com` with the desired percent contribution. Total Rewards will add Orca Financial `employeebenefits@orca.ie` to the email thread. Orca will gather all relevant information from the team member to add to the pension plan. On the 7th of every month, Orca will send Payroll and Total Rewards a summary of any changes to the pension plan which Total Rewards will update in the appropriate payroll changes spreadsheet. Total Rewards will also file the original election email in Workday under the "Benefits and ISO" folder for an audit trail.
+#### How to Enroll
 
-After each pay cycle, Payroll will send Aviva (ccing Orca and Total Rewards) a spreadsheet with all contributions for Aviva to reconcile.
+1. *Create a copy or download* this [Aviva Pension Form](https://docs.google.com/spreadsheets/d/1hM7jZbBVFRRNsSqm02QBWYU4d4WLJ6pw/edit?gid=917049255#gid=917049255) (do not enter your details directly on this form)
+2. *Complete the Form* with your details
+3. *Email the completed form* to employeebenefits@nfpireland.ie from your GitLab email address, and they will help enroll you into the plan
 
-If you have any questions about a pension plan, how pension benefits work in Ireland, or anything else, please reach out to Orca Financial who will be able to assist you directly. Email: `employeebenefits@orca.ie` Phone: `+353 1 2103030`
+Please see the [Pension Benefits FAQ](https://drive.google.com/file/d/10VEGE29XqHfCpM-axOXrW2vpmBgL3umn/view?usp=sharing) for new joiners
+
+#### How to make changes to Existing Contributions
+
+1. Reach out to employeebenefits@nfpireland.ie with your updated contribution amount via your GitLab Email Address
+
+#### Additional Enrollment Details, Questions and Assistance
+
+Team Membes that enroll after the 7th of the month will be enrolled the following month. After each pay cycle, Payroll will send Aviva (ccing NFP Ireland and Total Rewards) a spreadsheet with all contributions for Aviva to reconcile.
+
+Team Members can also set up a session with NFP Ireland to walk through how pension benefit work or ask any questions about the pension plan. Please reach out to NFP Ireland Financial who will be able to assist you directly. Email: `employeebenefits@nfpireland.ie` Phone: `+353 1 210 0210`
 
 You will be able to review the investment strategy once enrolled through the Fund centre on the Aviva website.
 
+### Pension Plan Leavers (Leaving Gitlab)
+
+Please see the [Leaver Benefit Summary](https://drive.google.com/file/d/1GJpVSKGanT6xNg9wfKAd20N2trVjCGL5/view?usp=sharing) for more details on how the pension plan is treated and your options when you leave the plan.  
+
 ## Death in Service
 
-All full-time GitLab team members in Ireland are eligible for death in service at 4x base annual salary. Team members are automatically enrolled in this benefit. This benefit is administered through Aviva. Team members may be contacted to complete an additional questionniare if their covered amount is over the scheme limits, with potential medical underwriting required.  More information can be found on the [Retirement and Death Benefit Scheme Rules document](https://drive.google.com/file/d/1T1HjLXj2f3FmMiX3D4HVhpYF_k8zwvyr/view?usp=sharing).
+All full-time GitLab team members in Ireland are eligible for death in service at 4x base annual salary. Team members are automatically enrolled in this benefit. This benefit is administered through Aviva. Team members may be contacted to complete an additional questionnaire if their covered amount is over the scheme limits, with potential medical underwriting required.  More information can be found on the [Retirement and Death Benefit Scheme Rules document](https://drive.google.com/file/d/1T1HjLXj2f3FmMiX3D4HVhpYF_k8zwvyr/view?usp=sharing).
 
-Team members can complete a [Expression of Wish Form](https://drive.google.com/file/d/1YSkmogbYIsAVhSESJXLSYBr-T_uH1x2c/view?usp=sharing) to request a beneficiary for this benefit.  Once completed, please send directly to `employeebenefits@orca.ie`
+Team members can complete a [Expression of Wish Form](https://drive.google.com/file/d/1YSkmogbYIsAVhSESJXLSYBr-T_uH1x2c/view?usp=sharing) to request a beneficiary for this benefit.  Once completed, please send directly to `employeebenefits@nfpireland.ie`
 
 ## Disability
 
@@ -129,14 +145,14 @@ Once the total rewards team has approved the bike or ticket application, an invo
 
 ### Statutory Sick Leave
 
-From 1 January 2023, team members in Ireland are entitled to 3 days of paid sick leave per year (increasing in subsequent years) under the [relevant legislation](https://www.irishstatutebook.ie/eli/2022/en/act/pub/0024/index.html). The new entitlement will be phased in as part of a 4-year plan, starting with 3 days Statutory Sick Pay (SSP) per year in 2023, increasing to a maximum of 10 days paid SSP over 4 years, as follows:
+From 1 January 2023, team members in Ireland are entitled to 3 days of paid sick leave per year (increasing in subsequent years) under the [relevant legislation](https://www.irishstatutebook.ie/eli/2022/act/24/enacted/en/html). The new entitlement will be phased in as part of a 4-year plan, starting with 3 days Statutory Sick Pay (SSP) per year in 2023, increasing to a maximum of 10 days paid SSP over 4 years, as follows:
 
 - 2023: 3 days
 - 2024: 5 days
 - 2025: 7 days
 - 2026: 10 days
 
-Ireland's statutory sick leave policy offers a floor level of protection and does not interfere with existing, more favorable, sick pay schemes such as GitLab's [Sick Time policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}). When allowed by law, GitLab's Sick Leave policy will run concurrently with this leave policy.
+Ireland's statutory sick leave policy offers a floor level of protection and does not interfere with existing, more favorable, sick pay schemes such as GitLab's [Sick Time policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting). When allowed by law, GitLab's Sick Leave policy will run concurrently with this leave policy.
 
 #### Statutory Sick Leave Pay Calculations
 
@@ -156,7 +172,7 @@ GitLab will be required to pay a minimum of 70% of an team member's gross wage, 
 
 #### Illness Benefit
 
-Team members may also be eligible for Ireland's [Illness Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/disability_and_illness/disability_benefit.html). Please contact `leaves@gitlab.com` for more information.
+Team members may also be eligible for Ireland's [Illness Benefit](https://www.citizensinformation.ie/en/social-welfare/disability-and-illness/illness-benefit/). Please contact `leaves@gitlab.com` for more information.
 
 ### Statutory Domestic Violence Leave
 
@@ -174,7 +190,7 @@ If a team member in Ireland has experienced, or is currently experiencing, domes
 
 **Adoptive Leave:** All team members who qualify as ["qualifying adopters"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/adoptive_leave.html) are entitled to a minimum of 24 consecutive weeks of ordinary Adoptive Leave beginning on the first day of the placement of the child, and up to 16 weeks of additional unpaid Adoptive Leave, beginning immediately after the end of the 24 weeks of ordinary Adoptive Leave. If you wish to take additional unpaid Adoptive Leave, please notify the Absence Management team at `leaves@gitlab.com` at least 4 weeks before the ordinary Adoptive Leave is due to end.
 
-**Paternity Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/paternity_leave.html) can take up to 2 consecutive weeks of Paternity Leave, taken within the first 6 months following the birth/adoption.
+**Paternity Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/paternity-leave/) can take up to 2 consecutive weeks of Paternity Leave, taken within the first 6 months following the birth/adoption.
 
 Relevant parents can take paternity leave. These are:
 
@@ -184,7 +200,7 @@ Relevant parents can take paternity leave. These are:
 
 **Parent's Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/parents_leave.html) can take up to 7 weeks of Parent's Leave during the first 2 years of their child's life, or within 2 years of the adoption event. Leave may be taken in one continuous period, or in several periods of not less than one week.
 
-**Parental Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/parental_leave.html) can take up to 26 weeks of unpaid Parental Leave.
+**Parental Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/parental-leave/) can take up to 26 weeks of unpaid Parental Leave.
 
 #### GitLab Parental Leave Payment
 
@@ -201,14 +217,14 @@ Relevant parents can take paternity leave. These are:
 
 #### State Adoptive Leave Payment
 
-- You may be eligible to receive State [Adoptive Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/adoptive_benefit.html) at €250 per week for up to 24 weeks subject to your PRSI contributions.
+- You may be eligible to receive State [Adoptive Benefit](https://www.citizensinformation.ie/en/social-welfare/families-and-children/adoptive-benefit/) at €250 per week for up to 24 weeks subject to your PRSI contributions.
   - Effective 2023 the PRSI contributions will increase to €262/week.
 - To apply for State Adoptive Benefit, please notify leaves@gitlab.com of the start and end date of your leave.
 - Submit your application via the [Adoptive Benefit gov.ie website](https://www.gov.ie/en/service/295b84-adoptive-benefit/) at least 6 weeks before you intend to start your leave.
 
 #### State Paternity Leave Payment
 
-- You may be eligible to receive State [Paternity Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/paternity_benefit.html#:~:text=Paternity%20Benefit%20is%20a%20payment,or%20after%201%20September%202016) at 250 EUR per week for up to 2 weeks subject to your PRSI contributions.
+- You may be eligible to receive State [Paternity Benefit](https://www.citizensinformation.ie/en/social-welfare/families-and-children/paternity-benefit/#:~:text=Paternity%20Benefit%20is%20a%20payment,or%20after%201%20September%202016) at 250 EUR per week for up to 2 weeks subject to your PRSI contributions.
   - Effective 2023 the PRSI contributions will increase to €262/week.
 - To apply for State Paternity Benefit, please notify leaves@gitlab.com of your child's due date.
   - The Absence Management team will then send you a completed [PB2 form](https://assets.gov.ie/10312/a293b948613c41edaeb84ae4396725e3.pdf).
@@ -220,7 +236,7 @@ Relevant parents can take paternity leave. These are:
 - Team members must give written notice to the Absence Management team at `leaves@gitlab.com` of their intention to take parent's leave at least 6 weeks before the intended start date.
 - You may also qualify for 7 weeks [Parent's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/parents_benefit.en.html) if you have enough social insurance (PRSI) contributions.
 - To apply for Parent's Benefit, submit your application via the [Parent's Benefit gov.ie website](https://www.gov.ie/en/service/b321b1-parents-benefit/) at least 4 weeks before the date you start your parent's leave.
-- Parent's Leave runs concurrently with [GitLab Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+- Parent's Leave runs concurrently with [GitLab Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 #### Parental Leave
 
@@ -237,7 +253,7 @@ The Vhi Midwife Support Service is a new and improved benefit that's available t
 
 #### Applying for Maternity, Adoptive, Paternity, Parent's or Parental Leave in Ireland
 
-To initiate your leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts and contact total-rewards@gitlab.com. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+To initiate your leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts and contact total-rewards@gitlab.com. Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 <details>
 <summary markdown="span">Other Types of Statutory Leave</summary>

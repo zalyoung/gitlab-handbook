@@ -6,7 +6,7 @@ canonical_path: "/job-families/engineering/incubation/engineer/"
 
 Incubation Engineers are experienced Software Engineers with deep knowledge in a specific domain that are able to work independently to deliver a solution to market.  The goal of an Incubation Engineer is to reach a [Viable](https://about.gitlab.com/direction/#maturity) level of maturity of their respective area within the GitLab project.
 
-Incubation Engineers work within the [Incubation Engineering Department](/handbook/engineering/incubation/).
+Incubation Engineers work within the [Incubation Engineering Department](/handbook/engineering/).
 
 ### Responsibilities
 
@@ -79,8 +79,8 @@ The Staff Incubation Engineer is a [grade 8](/handbook/total-rewards/compensatio
 
 Incubation Engineers have the following Performance Indicators
 
-- [SEG Category Maturity](/handbook/engineering/incubation/performance-indicators/#seg-category-maturity)
-- [Community Engagement](/handbook/engineering/incubation/performance-indicators/#community-engagement)
+- SEG Category Maturity
+- Community Engagement
 
 ## Career Ladder
 
@@ -90,7 +90,7 @@ For more details on the engineering career ladders, please review the [engineeri
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next candidates will meet the Hiring Manager.
 - There will then be 2x Technical Interviews - one Frontend and one Backend.
 - The next *optional* step is an architectural discussion

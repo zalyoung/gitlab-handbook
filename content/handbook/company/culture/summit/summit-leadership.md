@@ -72,7 +72,7 @@ Remember that you and your co-workers may have different personality types in te
 - A combination of both introverts and extroverts
 
 References:
-[Are Extroverts Happier Than Introverts? Psychology Today](https://www.psychologytoday.com/blog/thrive/201205/are-extroverts-happier-introverts)
+[Are Extroverts Happier Than Introverts? Psychology Today](https://www.psychologytoday.com/intl/blog/thrive/201205/are-extroverts-happier-introverts)
 [Are You an Extrovert, Introvert, or Ambivert?](https://www.psychologytoday.com/us/blog/cutting-edge-leadership/201711/are-you-extravert-introvert-or-ambivert)
 
 ## Health and safety

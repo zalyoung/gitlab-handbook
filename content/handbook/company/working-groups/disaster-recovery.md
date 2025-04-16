@@ -10,7 +10,7 @@ status: active
 | -------------- | ------------------------------------------------------------ |
 | Date Restarted | August 1, 2022                                               |
 | Date Created   | November 11, 2020                                            |
-| End Date       | TBD                                                          |
+| End Date       | January 6, 2025 |
 | Slack          | [#wg_disaster-recovery](https://gitlab.slack.com/archives/C01D6Q0DHAL) (only accessible from within the company) |
 | Google Doc     | [Working Group Agenda](https://docs.google.com/document/d/1dLgmLlvET5WyWF0CpX5JUxiyQKyDzctocs7unwLueY8) (only accessible from within the company) |
 | Overview & Status | [Internal Handbook](https://internal.gitlab.com/handbook/engineering/disaster-recovery/) |
@@ -48,5 +48,7 @@ The exit criteria and target goals for the working group are defined [here](http
 
 ## Related Links
 
-- [Disaster Recovery at GitLab](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md)
-- [DR presentation (internal)](https://docs.google.com/presentation/d/1-8KxO31IvOb7DYT3N0j8Add-3A0FZquIYQ2vjmLLU2s/edit#slide=id.g1319217f3a3_0_0)
+- [Backup and recovery of gitlab.com](/handbook/engineering/gitlab-com/policies/backup/)
+- (internal handbook) [gitlab.com Disaster Recovery](https://internal.gitlab.com/handbook/engineering/disaster-recovery/) including RTO/RPO targets
+- [GitLab Dedicated Disaster Recovery Plan](/handbook/engineering/infrastructure/team/gitlab-dedicated/slas/#disaster-recovery-plan)
+- Followup: [Align on the Performance Indicator for Disaster Recovery capabilities for GitLab.com and GitLab Dedicated](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/397)

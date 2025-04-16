@@ -28,11 +28,7 @@ Please ensure you read the [Commercial Sales onboarding page](/handbook/sales/co
 1. Watching videos is core to your onboarding. You can watch YouTube & Chorus videos at 1.5x or 1.75x speed to get through them efficiently, you can still retain the information but in less time. Go to the Settings widget > Playback speed.
 1. When you first start, searching through Slack is a great way to find useful information as it's our primary method of asking questions and announcing things to the company. Some channels that are particularly good for information:
 [#questions](https://gitlab.slack.com/archives/C0AR2KW4B)
-[#smb](https://gitlab.slack.com/archives/CH4KPGS87)
 [#sales](https://gitlab.slack.com/archives/C02NE5PQM)
-[#smb_amer](https://gitlab.slack.com/archives/C010YDVD1BP)
-[#international-smb](https://gitlab.slack.com/archives/CN84VB75H)
-[#smb_training_support](https://gitlab.slack.com/archives/CKYLWKGJU)
 [#competition](https://gitlab.slack.com/archives/C1BBL1V3K)
 1. Use [BuiltWith.com](https://builtwith.com/) to get an idea of what technologies a customer is using currently (though be sure to verify this with them)
 1. You might find it useful to create a Google doc to document all your learnings in your first 30 days, as you will get a lot of information to remember and it will also get you in the habit of taking notes, a [key part of GitLab's culture](/handbook/communication/#external-communication).
@@ -72,7 +68,7 @@ Note: this doesn't mean you can't get travel approval without booking meetings. 
 
 #### Trip Notes
 
-The ultimate purpose of attending any GitLab field event is to gain insight and add value. Sid Sijbrandij, our CEO, talks about the importance of conferences and events [here](https://www.youtube.com/watch?v=qQ0CL3J08lI). He believes the main goal of GitLab team participation should always be to connect with our customers and prospects and not to solely attend presentations. Trip notes are our internal process for tracking and capturing this data.
+The ultimate purpose of attending any GitLab field event is to gain insight and add value. Sid Sijbrandij, our co-founder, talks about the importance of conferences and events [here](https://www.youtube.com/watch?v=qQ0CL3J08lI). He believes the main goal of GitLab team participation should always be to connect with our customers and prospects and not to solely attend presentations. Trip notes are our internal process for tracking and capturing this data.
 
 #### Why and When?
 
@@ -399,7 +395,7 @@ SMB Account Executives in First Order will assist prospects in their evaluation 
 
 AMER SMB Pooled Account Executives are responsible for managing a subset of SMB customers who range from companies on day 1 of using GitLab, all the way to companies who've used GitLab since their day 1. The Pooled AEs work collectively in a "pooled" account ownership model meaning customers are aligned at the team level and all AEs are equipped to help. Pooled AEs work with customers to evaluate product and plan expansion, making recommendations to ensure a successful renewal with GitLab based on their needs.
 
-Please read below and through the [SMB handbook page for more information](/handbook/sales/commercial/smb/).
+Please read below and through the [SMB handbook page for more information](/handbook/sales/commercial/high_velocity_sales_first_orders/).
 
 ### Critical Salesforce reports to follow and bookmark
 
@@ -460,7 +456,7 @@ Support will take the lead on all incoming requests in the queue and only forwar
 - [Detailed Exit Stage Criteria Google Sheet](https://docs.google.com/spreadsheets/d/1tVtJvfSsmWL2L1vTcJZgARlzC9Qy3Ae7pPqGBH9_KOQ/edit#gid=1399111321)
 - [Exit Criteria at a Glance](https://gitlab.highspot.com/items/6245c14f198094aabf1cfe52?lfrm=srp.0)
 
-![comm-sales-stages-exit-criteria](/handbook/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
+![comm-sales-stages-exit-criteria](/images/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
 
 - Please read through the [Commercial Sales Opportunity Stages handbook page](/handbook/sales/commercial/comm-sales-opp-stages/) for more information.
 
@@ -500,7 +496,7 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 1. **MM Key Accounts Named AE** (MMKAN): These AEs work on current customers that have been deemed to be high spending (high CARR) or have the potential to be high spending (high LAM). To be successful the MMKAN AE must expand their accounts more than the standard expansion rate for their named list of accounts. The named list for each MMKAN AE will grow through the fiscal year as the MMKAFO AE wins new high potential customers.
 1. **MM Territory AE**: These AEs work geographic regions of accounts that have not been vetted to be MM Key Account First Order AE or MM Key Account named AE. The role sells to both prospects and current accounts.
 
-"MM Key Accounts" can be used to refer to MM Key Accounts First Order and MM Key Accounts Named collectively. MM Key Accounts are the sub-set of MM accounts with a higher [LAM](/handbook/sales/sales-term-glossary/#landed-addressable-market-lam) and potential LAM.
+"MM Key Accounts" can be used to refer to MM Key Accounts First Order and MM Key Accounts Named collectively. MM Key Accounts are the sub-set of MM accounts with a higher [LAM](https://internal.gitlab.com/handbook/sales/lam/) and potential LAM.
 
 ### Core Responsibilities
 
@@ -543,7 +539,7 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 
 ## Account Ownership Rules of Engagement for Commercial Sales updated 2022-09-22
 
-The Commercial Sales Team follows the [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement)
+The Commercial Sales Team follows the [Account Ownership Rules of Engagement](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/)
 This section provides step by step clarity on how to follow the **ROE**.
 
 ### Process to follow
@@ -651,9 +647,9 @@ The GitLab partner network is ready to work with GitLab Account Executive's in o
 
 GitLab has a mature Partner network with good coverage of GitLab-trained Sales and Technical resources. There are a few ways in which AEs will work with a customer including a Partner.
 
-- [Approved Partner GitLab Deal Registrations](/handbook/resellers/#the-deal-registration-program-overview) As these are received in your territory, in most cases* you will be contacted by a GitLab channel team member to arrange a co-selling kickoff call to develop a simple Partner co-selling plan to share with the Partner. GitLab Channel Managers do not proactively manage all OPEN Partners. AEs can always request Channel Manager support for a Deal Registration by slacking channel-sales or available contacts.
+- [Approved Partner GitLab Deal Registrations](/handbook/sales/field-operations/channel-operations/sales-faq/#deal-registration) As these are received in your territory, in most cases* you will be contacted by a GitLab channel team member to arrange a co-selling kickoff call to develop a simple Partner co-selling plan to share with the Partner. GitLab Channel Managers do not proactively manage all OPEN Partners. AEs can always request Channel Manager support for a Deal Registration by slacking channel-sales or available contacts.
 - If you find themselves thinking 1. "a Partner SA could execute on this customer-requested SA task", or 2. AEs have customers that could benefit from a "Partner services attach engagement", reach out on slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) with a Partner engagement request, if possible with a link to the related account or opportunity. A member of the channel team will promptly reach out to learn more about the request, and connect you with a Partner that is pre-qualified to promptly and properly execute on the task at hand, and keep you updated along the way.
-- AEs should lead planning and execution of the joint opportunity/customer pursuit with alignment and support of the partner and GitLab Channel Manager. The plan should be [tracked in SFDC with tasks and action items](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans). Partners should always get an email confirmation of any tasks assigned to them (via AE or Channel Mgr).
+- AEs should lead planning and execution of the joint opportunity/customer pursuit with alignment and support of the partner and GitLab Channel Manager. The plan should be [tracked in SFDC with tasks and action items](/handbook/resellers/). Partners should always get an email confirmation of any tasks assigned to them (via AE or Channel Mgr).
 - Channel Managers will engage with AE's in the following ways:
   - When a new deal registration arrives in the AE's pipeline
   - To review 2-3 Partners for the AE to work with for AE-selected joint customer success motions:
@@ -666,9 +662,9 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 
 - If this is a first time for an AE, we recommend watching the available training delivered. This Levelup video starts with a basic understanding of the [Channel Partner landscape](https://youtu.be/OeykHQetd7U).
 - LevelUp video on [Maximizing Value of Partners in a Deal](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2) specifically for AE's to learn more about co-selling success.
-- [Learn more about Partner co-selling best practices, how Partners can help build out key elements of an AE's R7 & Command Plans](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans) and much more in the [Channel Sales Handbook](/handbook/sales/channel/).
+- [Learn more about Partner co-selling best practices, how Partners can help build out key elements of an AE's R7 & Command Plans](/handbook/resellers/) and much more in the [Channel Sales Handbook](/handbook/resellers/).
 - Slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) or reach out to your Channel Account Manager with any questions or requests for assistance. The channel is closely monitored by several members of the channel team who are here to help AE's succeed in co-selling in any way we can.
-- List of [GitLab-trained OPEN and SELECT channel partners](https://help.salesforce.com/articleView?id=reports_schedule.htm&type=5)
+- List of [GitLab-trained OPEN and SELECT channel partners](https://help.salesforce.com/s/articleView?language=en_US&id=reports_schedule.htm&type=5)
 - Channel Partner Finder **[Here](https://partners.gitlab.com/English/directory/)
 
 #### Mid-Market First Order Account Handoff and Named/Territory Collaboration Process

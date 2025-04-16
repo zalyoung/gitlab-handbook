@@ -85,7 +85,7 @@ Managers can submit an issue in the [Sales Operations project](https://gitlab.co
 
 ## Why is My Meeting "Livestreamed"?
 
-![live-on-zoom](/handbook/sales/field-operations/sales-operations/go-to-market/chorus/live-on-zoom.png)
+![live-on-zoom](/images/sales/field-operations/sales-operations/go-to-market/chorus/live-on-zoom.png)
 
 The banner "Live on Zoom with Chorus.ai" is controlled and set by Zoom, therefore neither Chorus nor GitLab can make changes to the text.
 
@@ -111,12 +111,12 @@ The banner "Live on Zoom with Chorus.ai" is controlled and set by Zoom, therefor
   - How to explain why Chorus is there and why it is recording
 - [Security & Compliance](https://www.chorus.ai/trust)
   - Share this with customers as needed
-- [Chorus FAQs](https://help.zoominfo.com/)
+- [Chorus FAQs](https://help.zoominfo.com/s/)
 - [Chorus YouTube Channel](https://www.youtube.com/c/Chorus_ai/videos)
 
 ## Chorus.ai Advanced Usage
 
-- [Chorus Release Notes](https://view.highspot.com/viewer/61faa9016e6856ecc10ce41d)
+- Chorus Release Notes (no longer available)
 - [Chorus Integrations](https://help.zoominfo.com/s/article/Overview-of-Chorus-Screen-Share-Providers)
 
 For additional assistance regarding Chorus, please reach out in the #chorus-users Slack channel.

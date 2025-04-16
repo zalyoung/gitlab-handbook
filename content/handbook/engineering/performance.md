@@ -60,14 +60,14 @@ Performance of GitLab and GitLab.com is ultimately about the user experience. As
 
 Our current focus at the moment are two indicators:
 
-- **[Largest Contentful Paint](https://web.dev/lcp/)** (LCP) to measure the complete loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
+- **[Largest Contentful Paint](https://web.dev/articles/lcp)** (LCP) to measure the complete loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
 - **[Time to first Byte](https://developer.chrome.com/docs/lighthouse/performance/server-response-time)** (TTFB) so we have an understanding how long the backend takes to send the base page. Our target for a good backend rendering is below 500ms
 
-On a mid term we target to focus on all of the [Web Vitals](https://web.dev/vitals/) with introducing also a bigger focus on **[First Input delay](https://web.dev/fid/)** (FID) and **[Cumulative Layout Shift](https://web.dev/cls/)** (CLS). So if routes are already performing well with our main indicators please extend optimisations on those.
+On a mid term we target to focus on all of the [Web Vitals](https://web.dev/articles/vitals) with introducing also a bigger focus on **[First Input delay](https://web.dev/articles/fid)** (FID) and **[Cumulative Layout Shift](https://web.dev/articles/cls)** (CLS). So if routes are already performing well with our main indicators please extend optimisations on those.
 
 There are many other performance metrics that can be useful in analyzing and prioritizing work, some of those are discussed in the sections below. But the user experienced LCP is the target for the site as a whole, and should be what everything ties back to in the end.
 
-Groups should monitor closely the user experience in regards of performance to also improve the [perceived performance](https://developer.mozilla.org/en-US/docs/Learn/Performance/perceived_performance) also outside those measured performance indicators. For example if any action after loading is very slow and takes a lot of time.
+Groups should monitor closely the user experience in regards of performance to also improve the [perceived performance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/Perceived_performance) also outside those measured performance indicators. For example if any action after loading is very slow and takes a lot of time.
 
 ### What we measure
 

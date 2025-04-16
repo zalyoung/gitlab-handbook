@@ -17,7 +17,7 @@ Professional Services has a shared Zoom account for remote training deliveries t
 
 1. In the Zoom shared account, click **Webinars** from the left navigation menu.
 
-1. Check the list of scheduled webinars on the **Upcoming Webinars** tab to make sure none are scheduled to overlap with the one you need to schedule. **Important Note!** Zoom does not allow concurrent meetings or webinars to run from the same Zoom account. Even if you designate an alternate host, one of the meetings or webinars must be ended in order for the other session to initiate. If you see a webinar already scheduled that overlaps with the time slot you need to schedule, you must use a different Zoom account to schedule the session. For details see this [Zoom help article](https://support.zoom.us/hc/en-us/articles/206122046-Can-I-Host-Concurrent-Meetings-).
+1. Check the list of scheduled webinars on the **Upcoming Webinars** tab to make sure none are scheduled to overlap with the one you need to schedule. **Important Note!** Zoom does not allow concurrent meetings or webinars to run from the same Zoom account. Even if you designate an alternate host, one of the meetings or webinars must be ended in order for the other session to initiate. If you see a webinar already scheduled that overlaps with the time slot you need to schedule, you must use a different Zoom account to schedule the session. For details see this [Zoom help article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068522).
 
 1. Click the **Webinar Templates** tab.
 

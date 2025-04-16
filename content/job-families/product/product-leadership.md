@@ -25,7 +25,7 @@ The VP of UX is a [grade 12](/handbook/total-rewards/compensation/compensation-c
 - **UX initiatives:** Identify ways to elevate the GitLab product experience, manage initiatives to address those concerns, and track and communicate about progress.
 - **Coach UX leaders:** Help UX leaders grow their skills and leadership experience.
 - **Culture:** Foster an open and collaborative culture based on trust in the UX department, where everyone feels empowered to do their best work.
-- **Cross-product collaboration:** Ensure that UX is well-integrated into the [Product Development Flow](/handbook/product-development-flow/), and advocate for process changes that help product management, engineering, and UX work together to build a great experience.
+- **Cross-product collaboration:** Ensure that UX is well-integrated into the [Product Development Flow](/handbook/product-development/product-development-flow/), and advocate for process changes that help product management, engineering, and UX work together to build a great experience.
 - **Design system:** Define and promote design guidelines, best practices, and standards, and help to drive GitLab's [design system](https://design.gitlab.com/) forward at a strategic level.
 - **Research evangelism:** Work with product leadership to prioritize research efforts, so that we validate whether we're solving the right problems in the right ways.
 - **Democratize UX:** Ensure that Development is included in the UX process by offering the opportunity to participate in and understand the outcomes of user research, give early feedback on upcoming designs, and participate in design system strategy.
@@ -67,7 +67,7 @@ See more details about our hiring process on the [hiring handbook](/handbook/hir
 
 ### VP of Product Management
 
-This role typically manages 4-6 direct reports, including Group Managers of Product Management, Directors of Product Management and Senior Directors of Product Management, and reports to the [Chief Product Officer]({{< ref "chief-product-officer" >}}).
+This role typically manages 4-6 direct reports, including Group Managers of Product Management, Directors of Product Management and Senior Directors of Product Management, and reports to the [Chief Product Officer](/job-families/product/chief-product-officer/).
 
 #### VP of Product Management - Job Grade
 
@@ -82,7 +82,7 @@ The VP of Product Management is a [grade 12](/handbook/total-rewards/compensatio
 - Align team with end-to-end product line vision and goals
 - Leverage portfolio product management techniques to ensure product investments are properly allocated across the end-to-end GitLab product
 - Partner effectively with Engineering, Design, and Product Marketing to ensure we validate, build, launch, and measure product experiences that customers love and value
-- Help refine and implement the GitLab [product development flow](/handbook/product-development-flow/), ensuring team members receive training and coaching required to work effectively within the system
+- Help refine and implement the GitLab [product development flow](/handbook/product-development/product-development-flow/), ensuring team members receive training and coaching required to work effectively within the system
 - Serve as a spokesperson for the end-to-end GitLab product internally and externally
 
 #### VP of Product Management - Requirements
@@ -126,7 +126,7 @@ The VP of Product Management - Monetization is the PM DRI for the Fulfillment Se
 
 ### Senior Director of Product Management
 
-This role typically manages 4-6 direct reports, including Product Managers, Group Managers of Product Management, and Directors of Product Management, and reports to the [Chief Product Officer]({{< ref "chief-product-officer" >}}).
+This role typically manages 4-6 direct reports, including Product Managers, Group Managers of Product Management, and Directors of Product Management, and reports to the [Chief Product Officer](/job-families/product/chief-product-officer/).
 
 #### Senior Director of Product Management - Job Grade
 
@@ -155,7 +155,7 @@ The next step in the Product Management Leadership job family is to move to the 
 
 The Senior Director of Product Management - Sec & Data Science is the PM DRI for the Sec and Data Science Sections which include:
 
-- [Sec Section](/handbook/product/categories/#sec-section) - Secure & Govern Stages
+- [Sec Section](/handbook/product/categories/#sec-section) - Secure & Software Supply Chain Security Stages
 - [Data Science Section](/handbook/product/categories/#data-science) - ModelOps & Anti-Abuse Stages
 
 ##### Dev & Analytics

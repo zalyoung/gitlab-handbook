@@ -1,18 +1,18 @@
 ---
-title: Ecosystems Operations
+title: Ecosystem Operations
 ---
 
 ## Levels
 
-### Ecosystems Specialist
+### Ecosystem Specialist
 
-The Ecosystems Specialist reports to the Manager, Global Ecosystems Specialists
+The Ecosystem Specialist reports to the Manager, Global Ecosystem Specialists
 
-#### Ecosystems Specialist Job Grade
+#### Ecosystem Specialist Job Grade
 
-The Ecosystems Specialist is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Ecosystem Specialist is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Ecosystems Specialist Responsibilities
+#### Ecosystem Specialist Responsibilities
 
 - Develop, manage, and continuously improve critical partner processes including partner onboarding, deal registration, NFR licensing, rebates, and certifications
 - Provide daily operational support and enablement to sales, partners, and cross-functional teams for all partner related inquiries (e.g., accounts, deal registrations, opportunities, quotes and orders, post-sales support, program compliance, reporting/dashboards)
@@ -24,7 +24,7 @@ The Ecosystems Specialist is a [grade 6](/handbook/total-rewards/compensation/co
 - Identify opportunities for process automation and optimization, with a focus on scalability and driving significant growth
 - Document processes and best practices to enable our Sellers, Partners, Partner Operations team members, and other cross-functional GitLab teams
 
-#### Ecosystems Specialist Requirements
+#### Ecosystem Specialist Requirements
 
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience working directly with sales/partner sales teams and partners
@@ -37,24 +37,24 @@ The Ecosystems Specialist is a [grade 6](/handbook/total-rewards/compensation/co
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Senior Ecosystems Specialist
+### Senior Ecosystem Specialist
 
-The Senior Ecosystems Specialist reports to the Manager, Global Partner Specialists
+The Senior Ecosystem Specialist reports to the Manager, Global Partner Specialists
 
-#### Senior Ecosystems Specialist Job Grade
+#### Senior Ecosystem Specialist Job Grade
 
-The Senior Ecosystems Specialist is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Ecosystem Specialist is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Ecosystems Specialist Responsibilities
+#### Senior Ecosystem Specialist Responsibilities
 
-- Extends that of the Ecosystems Specialist Responsibilities
+- Extends that of the Ecosystem Specialist Responsibilities
 - Demonstrates a deeper understanding of GitLab partner programs and operations to handle more complex requests and escalations
 - Collaborates with managers across departments to create and iterate on operational processes and larger projects related to the Partner Specialist team
 - SME on all partner processes that provides enablement and mentorship to other Partner Specialists
 
-#### Senior Ecosystems Specialist Requirements
+#### Senior Ecosystem Specialist Requirements
 
-- Extends that of the Ecosystems Specialist Requirements
+- Extends that of the Ecosystem Specialist Requirements
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience working directly with sales/partner sales teams and partners
 - Excellent problem solving, project management, interpersonal and organizational skills
@@ -66,18 +66,18 @@ The Senior Ecosystems Specialist is a [grade 7](/handbook/total-rewards/compensa
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Senior Ecosystems Operations Analyst
+### Senior Ecosystem Operations Analyst
 
-The Senior Ecosystems Operations Analyst reports to the Senior Manager, Partner Operations
+The Senior Ecosystem Operations Analyst reports to the Senior Manager, Partner Operations
 
-#### Senior Ecosystems Operations Analyst Job Grade
+#### Senior Ecosystem Operations Analyst Job Grade
 
-The Senior Ecosystems Operations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Ecosystem Operations Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Ecosystems Operations Analyst Responsibilities
+#### Senior Ecosystem Operations Analyst Responsibilities
 
 - Identify opportunities for system and process automation and optimization, and lead projects with a focus on efficiency, effectiveness, scalability and growth
-- Translate GitLab's Ecosystems GTM strategy into technical solutions that automate QTC, territory coverage, reporting models, and compensation
+- Translate GitLab's Ecosystem GTM strategy into technical solutions that automate QTC, territory coverage, reporting models, and compensation
 - Collaborate with Salesforce administrators and developers to influence and enhance CRM functionalities to meet partner data management and attribution needs
 - Work cross-functionally to improve the integration between Salesforce and other mission-critical systems, including Impartner, Vartopia, and Zuora
 - Create and implement reporting and dashboards for the Partner organization that focuses on improving efficiency, effectiveness, and productivity
@@ -86,7 +86,7 @@ The Senior Ecosystems Operations Analyst is a [grade 7](/handbook/total-rewards/
 - Support the partner sales team on escalations including SFDC account management, opportunity assistance, and ad hoc support
 - Build and deliver ad hoc solutions to support projects and company OKRs
 
-#### Senior Ecosystems Operations Analyst Requirements
+#### Senior Ecosystem Operations Analyst Requirements
 
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience working directly with sales/partner sales teams and partners
@@ -101,25 +101,25 @@ The Senior Ecosystems Operations Analyst is a [grade 7](/handbook/total-rewards/
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Manager, Global Ecosystems Specialists
+### Manager, Global Ecosystem Specialists
 
-The Manager, Global Ecosystems Specialists reports to the Director, Partner Operations
+The Manager, Global Ecosystem Specialists reports to the Director, Partner Operations
 
-#### Manager, Global Ecosystems Specialists Job Grade
+#### Manager, Global Ecosystem Specialists Job Grade
 
-The Manager, Global Ecosystems Specialists is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Manager, Global Ecosystem Specialists is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Manager, Global Ecosystems Specialists Responsibilities
+#### Manager, Global Ecosystem Specialists Responsibilities
 
 - Develop and lead a team of partner SMEs across the business in driving critical partner processes and providing daily operational support and enablement to sales, partners, and cross-functional teams for all partner related inquiries
-- Manage Ecosystems Specialist team performance and professional development
-- Coach Ecosystems Specialists to establish strong partnerships with the teams and partners they support
+- Manage Ecosystem Specialist team performance and professional development
+- Coach Ecosystem Specialists to establish strong partnerships with the teams and partners they support
 Be the point of escalation for sales and partner leadership on partner related inquiries
 - Identify opportunities to implement or improve tools and automate processes that focus on increasing efficiency, effectiveness, productivity, and scalability
 - Work with other departments to recommend improvements to the integration between Salesforce and other mission-critical systems, including Impartner, Vartopia, and Zuora
 - Collaborate cross-functionally to roll out partner program updates, system enhancements, process improvements and enablement programs
 
-#### Manager, Global Ecosystems Specialists Requirements
+#### Manager, Global Ecosystem Specialists Requirements
 
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience managing individual contributor performance to lead a successful team
@@ -134,17 +134,17 @@ Be the point of escalation for sales and partner leadership on partner related i
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Ecosystems Operations Manager
+### Ecosystem Operation Manager
 
-The Ecosystems Operations Manager reports to the Director, Ecosystems Operations
+The Ecosystem Operations Manager reports to the Director, Ecosystem Operations
 
-#### Ecosystems Operations Manager Job Grade
+#### Ecosystem Operations Manager Job Grade
 
-The Ecysostems Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Ecysostem Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Ecosystems Operations Manager Responsibilities
+#### Ecosystem Operations Manager Responsibilities
 
-- Own and drive long-term and high impact strategic projects across the global ecosystems business including project identification and scoping, stakeholder alignment and management, build, rollout, and execution
+- Own and drive long-term and high impact strategic projects across the global ecosystem business including project identification and scoping, stakeholder alignment and management, build, rollout, and execution
 - Contribute to cross-functional company projects as the voice of our partners and partner teams
 - Assess existing partner processes, identify opportunities to redesign for efficiency and scalability, and successfully drive projects to deliver these improvements
 - Engage with Product, Marketing, Finance, and Enablement teams on GitLab revenue plays and special projects to ensure partner requirements are included in initial scoping and design to drive successful partner outcomes
@@ -153,7 +153,7 @@ The Ecysostems Operations Manager is a [grade 8](/handbook/total-rewards/compens
 - Assist in designing, maintaining, and delivering on the roadmap for partner operations initiatives
 - Build and deliver ad hoc reporting to support projects and company OKRs
 
-#### Ecosystems Operations Manager Requirements
+#### Ecosystem Operations Manager Requirements
 
 - Demonstrated progressive experience and understanding of partner operations and programs
 - Excellent problem solving, project management, interpersonal, and organizational skills
@@ -168,24 +168,24 @@ The Ecysostems Operations Manager is a [grade 8](/handbook/total-rewards/compens
 - Interest in using GitLab
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Senior Manager, Global Ecosystems Specialists
+### Senior Manager, Global Ecosystem Specialists
 
-The Senior Manager, Global Ecosystems Specialists reports to the Director, Ecosystems Operations
+The Senior Manager, Global Ecosystem Specialists reports to the Director, Ecosystem Operations
 
-#### Senior Manager, Global Ecosystems Specialists Job Grade
+#### Senior Manager, Global Ecosystem Specialists Job Grade
 
-The Senior Manager, Global Ecosystems Specialists is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, Global Ecosystem Specialists is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Manager, Global Ecosystems Specialists Responsibilities
+#### Senior Manager, Global Ecosystem Specialists Responsibilities
 
-- Extends that of Manager, Global Ecosystems Specialists Responsibilities
+- Extends that of Manager, Global Ecosystem Specialists Responsibilities
 - Develop, document, launch, and enable teams on new processes that support our long-term partner sales and services strategy in FY25 and beyond
 - Drive operationalization of short-term partner GTM initiatives and pilots from idea to execution including building, launching, iterating, and expanding upon success globally with efficient and scalable processes
 - Measure the ROI of new partner GTM initiatives and leverage it to effectively communicate positive business outcomes and drive further investment
 
-#### Senior Manager, Global Ecosystems Specialists Requirements
+#### Senior Manager, Global Ecosystem Specialist Requirements
 
-- Extends that of the Manager, Global Ecosystems Specialists Requirements
+- Extends that of the Manager, Global Ecosystem Specialists Requirements
 - Demonstrate progressive experience managing individual contributor performance to lead successful teams
 - Proven ability to delegate initiatives and drive results through team performance
 - Experience working directly with sales/partner sales teams and partners at leadership and individual contributor levels
@@ -194,15 +194,15 @@ The Senior Manager, Global Ecosystems Specialists is a [grade 9](/handbook/total
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Senior Manager, Ecosystems Operations
+### Senior Manager, Ecosystem Operations
 
-The Senior Manager, Ecosystems Operations reports to the Director, Ecosystems Operations
+The Senior Manager, Ecosystem Operations reports to the Director, Ecosystem Operations
 
-#### Senior Manager, Ecosystems Operations Job Grade
+#### Senior Manager, Ecosystem Operations Job Grade
 
-The Senior Manager, Ecosystems Operations is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Manager, Ecosystem Operations is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Manager, Ecosystems Operations Responsibilities
+#### Senior Manager, Ecosystem Operations Responsibilities
 
 - Develop and lead a team of SMEs to drive critical partner operations processes and have business ownership of the tech stack
 - Identify and lead the creation, testing, deployment of complex automations and workflows to drive operational efficiency, effectiveness, scalability and growth
@@ -215,7 +215,7 @@ The Senior Manager, Ecosystems Operations is a [grade 9](/handbook/total-rewards
 - Lead cross-functional projects from end-to-end including project identification, documentation, coordination, and successful execution and post-launch management
 - Build and deliver ad hoc solutions to support projects and company OKRs
 
-#### Senior Manager, Ecosystems Operations Requirements
+#### Senior Manager, Ecosystem Operations Requirements
 
 - Demonstrated progressive relevant experience and understanding of partner operations
 - Experience managing individual contributor performance to lead a successful team
@@ -232,15 +232,15 @@ The Senior Manager, Ecosystems Operations is a [grade 9](/handbook/total-rewards
 - Interest in GitLab, and open source software
 - Shares GitLab's [values](/handbook/values/) and works in accordance with those values
 
-### Director, Ecosystems Operations
+### Director, Ecosystem Operations
 
-The Director, Ecosystems Operations reports to the Senior Director, Sales Operations
+The Director, Ecosystem Operations reports to the Senior Director, Sales Operations
 
-#### Director, Ecosystems Operations Job Grade
+#### Director, Ecosystem Operations Job Grade
 
-The Director, Ecosystems Operations is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, Ecosystem Operations is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Director, Ecosystems Operations Responsibilities
+#### Director, Ecosystem Operations Responsibilities
 
 - Drive recruiting of a world-class team at all levels
 - Motivate and communicate across multiple levels of their department
@@ -259,7 +259,7 @@ The Director, Ecosystems Operations is a [grade 10](/handbook/total-rewards/comp
 - Create and coordinate key reporting for GitLab leadership team, partnering with Customer Success to provide reporting on customer adoption, sentiment and advocacy and business results (i.e., forecasts, renew, expand, churn)
 - Act as liaison to partner enablement to drive training and enablement priorities, content and methods
 
-#### Director, Ecosystems Operations Requirements
+#### Director, Ecosystem Operations Requirements
 
 - Demonstrated progressive experience with alliance and channel partner operations in a global SaaS environment
 - Ability to work independently with a high degree of accountability, while also able to collaborate cross-functionally (finance, product, marketing, sales enablement, etc) with exceptional interpersonal skills

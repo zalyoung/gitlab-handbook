@@ -12,7 +12,7 @@ The forecasting tool generates capacity warnings which are converted to issues a
 
 For GitLab.com capacity planning, a [report is published](https://gitlab-com.gitlab.io/gl-infra/capacity-planning-trackers/gitlab-com/) and any predicted saturation events result in an issue on the [capacity planning issue tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/boards/2816983).
 
-The capacity planning is part of the capacity management policy which can be found on [the monitoring policy page](/content/handbook/engineering/gitlab-com/policies/monitoring/).
+The capacity planning is part of the capacity management policy which can be found on [the monitoring policy page](/handbook/engineering/gitlab-com/policies/monitoring/).
 
 ## Tools
 
@@ -82,14 +82,14 @@ Therefore, the recommended practice when including Tamland data is:
 
 Capacity planning is a shared activity and dependent on input from many stakeholders:
 
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) is the owner of the Capacity Planning process overall - the team oversees the entire process, implements technical improvements to improve our forecasting abilities and helps guide teams to act on associated capacity warnings.
+1. The [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability/) is the owner of the Capacity Planning process overall - the team oversees the entire process, implements technical improvements to improve our forecasting abilities and helps guide teams to act on associated capacity warnings.
 2. Each service we monitor is associated with a **Service Owner**, who is identified as the [DRI](/handbook/people-group/directly-responsible-individuals/) to act on capacity warnings and provide input in terms of domain knowledge.
 
-#### Scalability:Observability
+#### Observability
 
 1. Tamland analyzes metrics data on a daily basis and creates capacity warning issues if it predicts that a resource will exceed its SLO within the forecast horizon.
 
-1. On a weekly basis, an engineer from the team reviews all open issues in the [Capacity Planning](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues) tracker following the [process described on the Scalability:Observability team page](/handbook/engineering/infrastructure/team/scalability/observability/)
+1. On a weekly basis, an engineer from the team reviews all open issues in the [Capacity Planning](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues) tracker following the [process described on the Observability team page](/handbook/engineering/infrastructure-platforms/production-engineering/observability/)
    1. Assign legitimate forecasts to the respective Service Owner to review and act on it (see below).
    2. Select the most crucial saturation points to report in the [GitLab SaaS Availability](/handbook/engineering/#saas-availability-weekly-standup) meeting based on the impact they would have when fully saturated and how difficult the mitigation might be. To indicate issues like this, we apply the `~"SaaS Weekly"` label when we do the weekly triage.
    3. Review forecasts with inaccurate model fit or otherwise obscure predictions, and work on improving their quality. Those issues should be labeled with `~capacity-planning::tune model` and not get assigned to the Service Owner directly. Since these model tunings highly benefit from domain insight, the Scalability engineer involves Service Owners to get more information.
@@ -111,11 +111,11 @@ While many forecasts provide a clear and reliable outlook, not all forecasts wil
 
 The Service Owner will note down their findings on the issue and get the appropriate actions going to remediate and prevent the saturation event. While the Service Owner is the DRI for the capacity warning, the [Infradev Process](/handbook/engineering/workflow/#infradev) and the [SaaS Availability weekly standup](/handbook/engineering/#saas-availability-weekly-standup) assist with the prioritization of these capacity alerts.
 
-The Service Owner can also decide to change the Service Level Objective, the metric definition or any other forecasting parameters that are used to generate capacity warnings. Please see the related [documentation](https://gitlab.com/gitlab-com/runbooks/-/blob/master/libsonnet/saturation-monitoring/README.md) for further information. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability/) is available to assist, but the work should be owned by the [DRI](/handbook/people-group/directly-responsible-individuals/) and their team.
+The Service Owner can also decide to change the Service Level Objective, the metric definition or any other forecasting parameters that are used to generate capacity warnings. Please see the related [documentation](https://gitlab.com/gitlab-com/runbooks/-/blob/master/libsonnet/saturation-monitoring/README.md) for further information. The [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability/) is available to assist, but the work should be owned by the [DRI](/handbook/people-group/directly-responsible-individuals/) and their team.
 
-If the issue does not require investigation, it is important to follow-up and improve the quality of the forecast or the process to improve the signal-to-noise-ratio for capacity planning. This can include feeding external knowledge into the forecasting model or consider changes in automation to prevent getting this capacity warning too early. The Service Owner is expected to get in touch with Scalability:Observability to consider and work on potential improvements.
+If the issue does not require investigation, it is important to follow-up and improve the quality of the forecast or the process to improve the signal-to-noise-ratio for capacity planning. This can include feeding external knowledge into the forecasting model or consider changes in automation to prevent getting this capacity warning too early. The Service Owner is expected to get in touch with Observability to consider and work on potential improvements.
 
-At any time, the Scalability:Observability team can be consulted and is ready to assist with questions around the forecasting or to help figure out the underlying reasons for a capacity warning.
+At any time, the Observability team can be consulted and is ready to assist with questions around the forecasting or to help figure out the underlying reasons for a capacity warning.
 
 #### Due Dates
 
@@ -217,13 +217,13 @@ In addition to precision, we also define a KPI *rated* to indicate the ratio of 
 The following details the team-level agreements and responsibilities regarding capacity planning for GitLab Dedicated.
 While capacity planning for GitLab.com is a shared activity, capacity planning for GitLab Dedicated implements a more differentiated responsibility model.
 
-### Stakeholders: Scalability:Observability team and Dedicated teams
+### Stakeholders: Observability team and Dedicated teams
 
 1. The Dedicated team is responsible for defining saturation metrics Tamland monitors, and to configure tenants for capacity planning.
 1. The Dedicated team runs Tamland inside tenant environments and produces saturation forecasting data.
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) owns the reporting side of capacity planning and makes sure reports and warnings are available.
+1. The [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability) owns the reporting side of capacity planning and makes sure reports and warnings are available.
 1. The Dedicated team is responsible for triaging and responding to the forecasts and warnings generated, and applying any insights to Dedicated tenant environments.
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) implements new features and fixes for Tamland to aid the capacity planning process for GitLab Dedicated.
+1. The [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability) implements new features and fixes for Tamland to aid the capacity planning process for GitLab Dedicated.
 
 ### Defining saturation metrics and tenants
 
@@ -233,7 +233,7 @@ The manifest is generated from the GET metrics catalog using a [jsonnet generato
 ### Executing Tamland
 
 Tamland runs inside tenant environments on a daily cadence and produces forecasting data to a S3 bucket.
-For more information, please refer to [documentation](/handbook/engineering/infrastructure/team/scalability/observability/tamland/#gitlab-projects-and-capacity-planning-trackers) and this [project](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated).
+For more information, please refer to [documentation](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/capacity-planning/introduction/) and this [project](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated).
 
 ### Reporting and capacity warnings
 

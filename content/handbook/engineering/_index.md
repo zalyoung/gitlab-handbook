@@ -2,6 +2,8 @@
 title: Engineering
 ---
 
+[The GitLab Product team](/handbook/product/) looks ahead for expanding the platform “What" (customer needs) and "Why” (business strategy) and Engineering determines the “How" (technical implementation) and "When” (scheduling) of the platform releases. The content on this page talks about how we do engineering at GitLab.
+
 ## Engineering Direction
 
 GitLab has a [Three-Year Strategy](/handbook/company/strategy/), and we're excited to see every member of the Engineering division contribute to achieving it. Whether you're creating something new or improving something that already exists, we want you to feel empowered to bring your best ideas for influencing the product direction through improved scalability, usability, resilience, and system architectures. And when you feel like you need to expand your knowledge in a particular area, know that you're supported in having the resources to learn and improve your skills.
@@ -29,7 +31,7 @@ building software products. Engineering excellence is being fueled by a strong
 engineering culture combined with a mission: to build better software that
 allows everyone to contribute.
 
-## Engineering Initiatives
+### Engineering Initiatives
 
 Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/cross-functional-prioritization/) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform, and foundational technologies we use.
 
@@ -41,8 +43,12 @@ Work in the 40% time budget should be coordinated and prioritized by the Enginee
 - Improvements to the performance, stability and scalability of a feature or dependency including underlying infrastructure. Again, the Product team should be involved in the definition of these issues but Engineering may lead here by planning, prioritizing, and coordinating the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
 - Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
-- Constructing proof-of-concept models for thorough exploration of new technologies, enhancements and new possibilites.
+- Constructing Proof-of-Concept models for thorough exploration of new technologies, enhancements and new possibilites.
 - Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
+
+### Engineering Innovation
+
+Engineering Innovation is a new process geared toward individual or small-team collaboration that encourages engineers to explore new ideas and Proof-of-Concepts. These projects are typically lean, time-boxed, iterative, and designed to validate whether an idea has the potential to evolve into a viable experimental feature or product.  See the [Innovation at GitLab Guide](./engineering-innovation.md).
 
 ### Technical Roadmaps
 
@@ -133,14 +139,65 @@ For **Hosted Customers**, we're supporting feature parity between Self-Managed a
 
 For customers using **CI/CD**, we're expanding the available types of Runners to include macOS, Linux/Docker, and Windows, and we're autoscaling build agents.
 
+### Taking time off
+
+{{% note %}}
+This process is expected for PTO that is five consecutive days or more, inclusive of adjacent public holidays (excluding weekend days). For PTO that is fewer than five consecutive days, including the cases where there are multiple PTO blocks with fewer than 5 consecutive days and a few working days in-between, a coverage issue is not required but a coverage issue can be filed for PTO of any length, especially if it'd be helpful to balance team continuity and individual flexibility.
+{{% /note %}}
+
+In order to ensure business continuity, and deliver on commitments; the Engineering Division is adopting a PTO Coverage Issue Process. Processes like this are already formalized in GitLab (e.g. [PM Coverage Issue](/handbook/product/product-management/product-manager-role/#creating-a-pm-coverage-issue)) and some team's within Engineering have practiced this regularly at the Management+ level. This allows us to continue to support team member well-being through time away without negatively impacting the rest of the team.
+
+A PTO Coverage issue is required for [job grades 8 and up](/handbook/total-rewards/compensation/compensation-calculator/#job-grades). For job grades 7 and below a PTO Coverage issue is recommended as there is value in going through the process of creating the PTO Coverage issue even if there are minimal items to include (for all levels) in that it forces you to think about what you have on your plate and what impact your PTO will have on those items. So whether the result is that the work waits or there is someone designated as a replacement DRI, it makes the decision explicit and documented.
+
+Once planning for a milestone has been completed (see [**Monday, 5 days before the milestone begins**](/handbook/engineering/workflow/#product-development-timeline)) PTO for periods longer than 5 consecutive days, inclusive of adjacent public holidays (excluding weekend days), cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
+
+- urgent scenarios
+- a team/individual hits targets earlier in the milestone ([we measure impact, not activity](/handbook/values/#measure-impact-not-activity))
+- a strong need for a team member to take PTO of this length
+
+These issues will help inform teams as they plan their milestones to ensure the work teams are committed to can be achieved with the staff available, or if there will be a lack of staff to achieve those commitments, to work with team members to see what can be done to achieve the results for our customers.
+
+The process below helps to clarify and expand upon the [Flexible PTO Policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) by making the coordination with the team members manager explicit.
+
+#### 1. Creating an Engineering coverage issue
+
+You should use [this issue template](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new) to define handshake responsibilities. For extended leave, it is important to find one or more Directly Responsible Individuals (DRIs) that will be able to make decisions while you are away. This may be your manager, another engineer, or maybe the Product Manager for your team. The coverage issue should contain all the necessary information for the DRIs to make good decisions in your absence, so please make sure to include as much detail as needed. The coverage issue should highlight work impact estimates, mitigations identified, and coverage alternatives.
+
+If additional context needs to be shared to provide color to the coverage issue, you can consider a specific handover meeting to cover further details.
+
+It is recommended to work with your manager and other stakeholders when considering cross-functional teammate capacity for a coverage task assignment. For example, while it’s optimal for PM, EM, and PDs to assist in covering for each other given their shared knowledge of their product area including customers and users, PM teammates may or may not have the bandwidth or expertise to take on covering engineering specific responsibilities. Alternatively, it may be better for the manager of the engineer or another engineer in the same stage to aid in coverage. Plan to have the necessary conversations across teams and managers.
+
+#### 2. Sharing your Engineering coverage issue with your manager
+
+Once you’ve filed your engineering coverage issue, share this with your manager prior to milestone planning so they can review and approve. Check the [latest guidance in our PTO policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) on how much notice is required.
+
+Consider whether any new commitments would be affected by your planned PTO. If a team member falls behind on something, they will need to make sure they have a coverage plan in place to ensure success of their commitments.
+
+#### 3. Manager reviews coverage issue
+
+Once the team member has shared their coverage issue with their manager, the manager will review the coverage issue and validate assumptions with stakeholders or impacted project DRIs as needed.
+
+The manager will make a decision on approval or discuss different arrangements or other contingency plans. Once the manager ticks their box on the coverage issue approving the leave, enter the time off into Workday.
+
+#### 4. Communicate your time off
+
+After team members' coverage issue is approved, team members will [communicate their time off](/handbook/people-group/paid-time-off/#communicating-your-time-off) and enter the PTO into Deel/Workday including a link to their coverage issue. Team members will share their coverage issue with their relevant colleagues via Slack channels, GitLab status, etc. ahead of the milestone planning.
+
+#### 5. Take your time off
+
+Please disconnect and take the time off that you need!
+
+#### 6. Returning from Time Off
+
+Returning from time off can be overwhelming and daunting. You should work with your DRIs to understand what has changed during your absence and what the current priorities are. Also, communicate transparently that your response time may be slower because you are catching up. Here are some additional tips on [how to return back to work after time off](/handbook/people-group/paid-time-off/#returning-from-pto).
+
 ## Engineering Departments
 
 There are five departments within the Engineering Division:
 
 - [Core Development Department](/handbook/engineering/core-development/)
 - [Expansion Development Department](/handbook/engineering/expansion-development/)
-- [Technical Infrastructure](/handbook/engineering/infrastructure/)
-- [SaaS Platforms](/handbook/engineering/infrastructure/platforms/)
+- [Infrastructure Platforms](/handbook/engineering/infrastructure-platforms/)
 - [Support Engineering Department](/handbook/support/)
 
 ## Other Related Pages
@@ -191,7 +248,6 @@ There are five departments within the Engineering Division:
 - [Emerging Talent @ GitLab](/handbook/hiring/emerging-talent/)
 - [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
-- [Volunteer Coaching program for URGs](/handbook/engineering/volunteer-coaches-for-urgs/)
 - [Starting New Teams](/handbook/engineering/starting-new-teams/)
 
 ### Cross-Functional Prioritization
@@ -259,7 +315,7 @@ but manual verification provides a higher level of confidence that features beha
 
 We manually verify issues when they are in the `workflow::verification` state.
 Generally, after you have manually verified something, you can close the associated issue.
-See the [Product Development Flow](/handbook/product-development-flow/) to learn more about this issue state.
+See the [Product Development Flow](/handbook/product-development/product-development-flow/) to learn more about this issue state.
 
 We manually verify in the staging environment whenever possible.
 In certain cases we may need to manually verify in the production environment.
@@ -275,7 +331,7 @@ requires immediate scheduling of bug fixes or development effort.
 
 ### Requirements for critical escalation
 
-- Customer is in [critical escalation](/handbook/customer-success/csm/escalations/#critical-and-high-level-escalations) state
+- Customer is in [critical escalation](/handbook/customer-success/csm/escalations/#escalation-for-non-professional-services-projects) state
 - The issues escalated have critical business impact to the customer, determined by Customer Success and Support Engineering leadership
   - Failure to expedite scheduling may have cascading business impact to GitLab
 - Approval from a VP from Customer Success AND a Director of Support Engineering are required to expedite scheduling

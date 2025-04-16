@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Deploying Applications"
 description: "This Hands-On Guide demonstrates how to deploy applications in a pipeline"
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Task A. Preparing Code
 
 First, let’s make some small adjustments to our code so that it runs as a web application:
@@ -51,6 +53,7 @@ stages:
   - build
   - run
   - release
+  - deploy
 
 test go:
   stage: test
@@ -191,7 +194,7 @@ deploy app:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://<your-server-ip> to see the results!
+This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://{your-server-ip} (Can be found in the Variables section of your group under $ip-address) to see the results!
 
 ## Lab Guide Complete
 
@@ -199,4 +202,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

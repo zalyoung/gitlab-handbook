@@ -12,7 +12,7 @@ The Marketing Operations team provides the Integrated Marketing team with advice
 
 ## Working with us
 
-Marketo campaign/program creation and support is a function of Marketing Operations, so [follow the same guidelines](handbook/marketing/marketing-operations/#-how-to-get-help) to request assistance. **Be sure to add the `~MktgOps-Support` label to the issue.**
+Marketo campaign/program creation and support is a function of Marketing Operations, so [follow the same guidelines](/handbook/marketing/marketing-operations/#how-to-get-help) to request assistance. **Be sure to add the `~MktgOps-Support` label to the issue.**
 
 Field Marketing issue templates (used by both Field Marketing and Corporate Events) for landing page and email requests have been updated with the appropriate labels to route to Marketing Ops.
 
@@ -59,7 +59,7 @@ Please see Field Marketing SLAs pertaining to this process [here](/handbook/mark
 ### Triage Steps
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-1. **Field Marketing / Corporate Events**: Marketo asset issues are created (in Field Marketing, the FMC will create the issues during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)). When opening issues via the appropriate templates, the `~MktgOps::07: Blocked` and the `~MktgOps-Support` labels will automatically be associated with the issues. This allows for the issues to be opened in advance and to be available while copy is being finalized.
+1. **Field Marketing / Corporate Events**: Marketo asset issues are created (in Field Marketing, the FMC will create the issues during the plan to WIP process. When opening issues via the appropriate templates, the `~MktgOps::07: Blocked` and the `~MktgOps-Support` labels will automatically be associated with the issues. This allows for the issues to be opened in advance and to be available while copy is being finalized.
 1. **Field Marketing / Corporate Events**: If the copy references analyst reports, the FMM must open the [Analyst Citation Review issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing/-/issues/new?issuable_template=AR-CitationReview) and associate it to the MOps email request. You do not need to complete the entire issue, but you must link the email issue and the copy doc with your proposed copy. To expedite email approval, you can use the content found [here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing/-/issues/7130#previously-approved-email-copy-still-requires-reapproval) as it is most likely to be approved quickly. We do not have previously approved landing page copy.
 1. **Field Marketing / Corporate Events**: For Field Marketing, the FMM will ping the FMC in the `Write Copy` issue to let them know when copy is ready for each asset. The FMC will then review the copy and once ready, move the label from `~MktgOps::07: Blocked` to `~MktgOps::00: Triage`. For Corporate Events, Event Manager to move the label from `~MktgOps::07: Blocked` to `~MktgOps::00: Triage`
     - At this time, all details must be provided and final (including copy reviewed by relevant stakeholders, and all hyperlinks double-checked and confirmed).
