@@ -30,7 +30,7 @@ This list can change and the handbook version is the SSOT. It's based on best pr
 | Onboarding | Features/workflows have clear calls to action. | A call to action should make it clear what is to be done to move the task forward.  At the very least, there should be links to documentation for assistance. At best, guided setup.|
 | Onboarding | Tasks are easy to learn, or if highly complex, have setup support in the form of in-app guidance, defaults, templates or wizards. | Tasks should be intuitive first and foremost, and when they are complex, they must provide tools to enable learning. |
 
-## AI Heuristics (for probablistic features)
+### AI Heuristics (for probablistic features)
 [Credit to Emily Campbell at the Shape of AI](https://www.linkedin.com/pulse/my-emerging-heuristics-assessing-ai-design-emily-campbell-f2zqc/)
 
 | Category | Heuristic | Description |
