@@ -28,7 +28,7 @@ The Enterprise Data Team collaborates internally via Key Results. Key Results ar
 
 1. Insure completion of the opportunity canvas and ask for help when needed.
 2. Schedule a work breakdown session with the Key Result Team. This can be either asyncronous or syncrounous depending on the Key Result.
-3. Schedule recurring stand-ups and working sessions as needed with the Key Result Team. This can be either asyncronous or syncrounous and at a frequency that makes sense for the Key Result.
+3. Schedule recurring stand-ups and working sessions as needed with the Key Result Team. This can be either asynchronous or synchronous and at a frequency that makes sense for the Key Result.
 4. Provide a monthly update in the Key Result Issue in the OKR Project. Include percent complete and health status of the Key Result.
 
 ## Analytics Engineering - Stable Counterpart Assignments
