@@ -18,8 +18,8 @@ The Data Team Organization model is guided by five primary business needs:
 Based on these needs, the Data Team is organized in the following way:
 
 1. **[Analytics Engineering](/handbook/enterprise-data/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
-1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
-1. **[Data Science Team](/handbook/enterprise-data/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
+1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--architecture-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
+1. **[Data Science Team](/handbook/enterprise-data/#the-enterprise-insights--data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
 1. **[Data Governance and Data Quality Team](/handbook/enterprise-data/):** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement. 
 
 ## Data Team Operating Model
@@ -131,7 +131,6 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Extend an existing Tableau dashboard or complete the triage phase for a dbt issue | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts (e.g. dashboards) or complete a product evaluation|
-| Start attending [Data Fusion Team](/handbook/enterprise-data/#data-fusion-teams) and Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
 | Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ### Data Science

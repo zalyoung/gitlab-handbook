@@ -11,9 +11,7 @@ Organization (Product and Engineering divisions), in addition to product data-re
 across GitLab.
 
 In addition to supporting the Product and Engineering divisions, the Product Data Insights team is an active
-contributor to the GitLab Data Program. As part of the [Customer Product Adoption (CPA) Pod](/handbook/enterprise-data/organization/#data-pod-assignments),
-the product analysts also work closely with members from the Enterprise Data team. In addition,
-the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/how-we-work/functional-analytics-center-of-excellence/),
+contributor to the GitLab Data Program. In addition, the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/how-we-work/functional-analytics-center-of-excellence/),
 along with other functional analytics groups across the GitLab Data Program.
 
 Read more about what we do at GitLab on our [Direction](https://about.gitlab.com/direction/product-analysis/) page.
