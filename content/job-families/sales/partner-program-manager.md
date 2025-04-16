@@ -25,7 +25,26 @@ The Associate Ecosystem Program Manager is a [grade 5](/handbook/total-rewards/c
 
 ### Responsibilities
 
-To be defined at time of business need.
+The Associate Ecosystem Program Manager will support the design, management & execution of GitLab’s Partner Ecosystem Programs. In addition to the Ecosystem programs, the Associate Ecosystem Programs Managers will facilitate deal registration, sales and services engagement and partner success programs.
+- Collaborate across Channels & Alliances teams to gather requirements for Programs
+- Support the development and management of Partner Programs such as incentive, MDF, Reseller, Services, Alliances, Deal Registration and other programs
+- Contribute to the development of program guides that details requirements and benefits, terms and conditions, etc.
+- Support communications to partner via portal, newsletters, social channels.
+Contribute to the playbooks to help partner development and Ecosystems Sales engagement with partners.
+- Collect and manage feedback from partners into the ongoing sales and services roadmap for the Ecosystem Program.
+- Support cross-functional collaboration with Operations, Customer Success/Professional Services, Marketing, Finance, Field Enablement and technical teams to secure, operationalize and manage all the committed benefits to the partners.
+- Document policies and processes to support all aspects of the program and enable global execution.
+- Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field.
+- Manage and measure the results of programs. Iterate to improve.
+
+### Requirements
+- Bachelor’s degree with experience in channel programs.
+- Prior experience with developing partner programs, preferably in the DevOps space
+- Excellent communication, analytical and organizational skills.
+- Previous experience enabling partners to deliver services and solutions that grow revenue, expand customer footprint and drive renewals.
+- Execution & revenue focused
+- Great project & program management skills, ability to leverage, manage & lead virtual teams
+
 
 ### Requirements
 
