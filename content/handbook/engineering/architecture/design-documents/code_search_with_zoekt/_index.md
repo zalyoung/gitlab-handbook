@@ -4,7 +4,7 @@ status: ongoing
 creation-date: "2022-12-28"
 authors: [ "@dgruzd", "@DylanGriffith" ]
 coach: "@DylanGriffith"
-approvers: [ "@joshlambert", "@changzhengliu" ]
+approvers: [ "@changzhengliu" ]
 owning-stage: "~devops::foundations"
 participating-stages: []
 toc_hide: true
@@ -378,7 +378,7 @@ The `gitlab-zoekt` Helm chart has proven to be highly scalable in production env
 
 #### Docker/Container
 
-Containers are built from the CNG repository with:
+Containers are built from the [CNG repository](https://gitlab.com/gitlab-org/build/CNG/-/tree/master/gitlab-zoekt) with:
 
 - The unified `gitlab-zoekt` binary
 - Universal CTags for symbol extraction
