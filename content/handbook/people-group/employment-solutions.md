@@ -34,12 +34,11 @@ Countries that do not have an entity/scalable PEO will be converted as part of o
 | Contractor : C2C | Cont-C2C | Non-US |
 | Employee : PEO | Emp-PEO | Non-US |
 | Contractor : PEO | Cont-PEO | Non-US |
-| Consultant | Cons-US | US Only |
 | Intern | Intern | Global |
 
 - C2C means Company to Company
 - IND means Independent
-- For more information on Consultants/Independent Contractors (those that are **US-based only**), please review the [Procurement](/handbook/finance/procurement/) handbook page.
+- For more information on Contingent Workers, please review the please review the [Procurement](/handbook/finance/procurement/) handbook page.
 
 ## Team Member Types by Country
 
