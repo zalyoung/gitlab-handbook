@@ -113,16 +113,16 @@ sequenceDiagram
 
 ### Schema
 
-| Field Name | Type | Description |
-|------------|------|-------------|
-| id | keyword | hash of the filename and chunk content |
-| project_id | bigint | Filter by projects |
-| path | keyword | Relative path including file name |
-| content_type | smallint | Enum indicating whether it's the full blob content or a node extracted from a chunker. Example options: `file\|class\|function\|imports\|constant` |
-| content | text | Code content |
-| source | keyword | `"#{blob.id}:#{offset}:#{length}"` which can be used to rebuild the full file or restore order of chunks |
-| language | keyword | Language of content |
-| embeddings_v1 | vector | Embeddings for the content |
+| Field Name    | Type     | Description                                                                                                                                        |
+|---------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| id            | keyword  | hash of the filename and chunk content                                                                                                             |
+| project_id    | bigint   | Filter by projects                                                                                                                                 |
+| path          | keyword  | Relative path including file name                                                                                                                  |
+| content_type  | smallint | Enum indicating whether it's the full blob content or a node extracted from a chunker. Example options: `file\|class\|function\|imports\|constant` |
+| content       | text     | Code content                                                                                                                                       |
+| source        | keyword  | `"#{blob.id}:#{offset}:#{length}"` which can be used to rebuild the full file or restore order of chunks                                           |
+| language      | keyword  | Language of content                                                                                                                                |
+| embeddings_v1 | vector   | Embeddings for the content                                                                                                                         |
 
 The following fields were considered but not added to the initial schema. Adding new fields can be done using AI Abstraction Layer migrations and backfills can be done using either migrations or by doing a reindex.
 
