@@ -24,7 +24,7 @@ Based on these needs, the Data Team is organized in the following way:
 
 ## Data Team Operating Model
 
-The Enterprise Data Team collaborates internally via Key Results. Key Results are planned on a quarterly basis and various members from the four pillars of the Team can be assigned to a Key Result. The Key Result has a DRI who is the Directly Responsible Individual for the business outcome of the Key Result and leading the Team to success. Each respective pillar on the Team has flexibility to establish their own pillar specific ceremonies as well as processes on how they triage and assign P1-Ops and P3-Other issues that come up. Below are the expectations of the DRI assigned to the Key Result:
+The Enterprise Data Team collaborates internally via Key Results. Key Results are planned on a quarterly basis and various team members from the four pillars of the Team can be assigned to a Key Result. The Key Result has a DRI who is the Directly Responsible Individual for the business outcome of the Key Result and leading the Team to success. Each respective pillar on the Team has flexibility to establish their own pillar specific ceremonies as well as processes on how they triage and assign P1-Ops and P3-Other issues that come up. Below are the expectations of the DRI assigned to the Key Result:
 
 1. Insure completion of the opportunity canvas and ask for help when needed.
 2. Schedule a work breakdown session with the Key Result Team. This can be either asyncronous or syncrounous depending on the Key Result.
