@@ -6,7 +6,7 @@ title: Codebase as Chat Context
 status: proposed
 creation-date: "2025-04-02"
 authors: [ "@partiaga", "@tgao3701908" ]
-coaches: [ "@jessieay" ]
+coaches: [ "@jessieay", "@dgruzd" ]
 dris: [ "@jordanjanes", "@mnohr" ]
 owning-stage: "~devops::create"
 participating-stages: []
@@ -45,7 +45,7 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-We are introducing the capability to include **Codebase** as an **additional context** to **[Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) requests**.
+We are introducing the capability to include **Codebase** as **additional contexts** to **[Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) requests**. This can refer to the entire repository or to a sub-directory under the repository.
 
 To achieve this, we will index the codebase as vector embeddings, referred to as **Code Embeddings**.
 
@@ -63,20 +63,21 @@ This initiative aims to bridge this critical functional gap in GitLab's [Duo Cha
 
 ### Goals
 
-The main goal is to add the Codebase as additional context to [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/).
+The main goal is to add Codebase as an additional context to [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/). In this initiative, this is scoped to Repository and Directory. A semantic search will then be done over the Repository or Directory, with the results used to enhance the Chat prompt sent to the AI model.
 
-The creation of code embeddings is included in the initial scope of this work.
+To support semantic search, the creation of code embeddings is included in the initial scope of this work. Indexing of the default branch will be done for the first phase of the work, with feature branches indexed in the second phase.
 
-- When indexing repositories, the main branch feature branches are included.
-- We will only index repositories for projects or namespaces with [Duo enabled](https://docs.gitlab.com/user/get_started/getting_started_gitlab_duo/).
+We will only generate embeddings for projects or namespaces with [Duo enabled](https://docs.gitlab.com/user/get_started/getting_started_gitlab_duo/).
 
 ### Non-Goals
 
 The following is out of scope for this initiative, but could theoretically be built upon it:
 
+- Codebase as additional context for Agentic Duo Chat.
+- Codebase as additional context for Duo Chat Slash Commands.
+- Codebase as additional context for Code Suggestions.
 - Support for indexing and querying locally changed files as vector embeddings.
 - A Knowledge Graph representation of the codebase as additional context to Duo Chat.
-- Codebase as additional context for Code Suggestions.
 
 _Please see [Next Steps and Future Proofing](#next-steps-and-future-proofing) for proposed plans regarding the above topics._
 
@@ -84,17 +85,23 @@ _Please see [Next Steps and Future Proofing](#next-steps-and-future-proofing) fo
 
 In order to support **Codebase as Chat Context**, we need to:
 
-1. Introduce Code Embeddings
-    - The changes are done on GitLab Rails, making use of the framework introduced by the [AI Context Abstraction Layer](../ai_context_abstraction_layer/).
-    - This introduces the workflow to index the codebase as vector embeddings
+1. Introduce **Code Embeddings**
+    - This is a vector representation of files in the codebase.
+    - This includes a pipeline to index the codebase as vector embeddings
     - This gives the ability to perform a semantic search over the embeddings
     - This will be developed in 2 phases:
         - Phase 1: Support code embeddings on the main branch
         - Phase 2: Support code embeddings on feature branches
 
-1. Update [Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/) to allow for setting the codebase as an additional context.
-    - Both the Frontend and Backend part of Duo Chat will be updated.
-    - Given a question entered on Duo Chat, a semantic search is done over the **Code Embeddings**, with the search result then used to enhance the Chat request sent to the AI model.
+1. Update **[Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/)** to support **codebase as additional context**.
+    - When asking a question on Chat, the user will have the option to include the following as contexts:
+        - _repository_ - refers to the entire codebase of a project
+        - _directory_ - this is a "subset" of the _repository_, and refers to a subfolder in a project
+    - When a _repository_ is selected as additional context
+        - a semantic search is done over the **Code Embeddings** representation of the files in the repository. The search result is then used to enhance the Chat prompt sent to the AI model.
+    - When a _directory_ is selected as additional context:
+        - a semantic search is done over the **Code Embeddings** representation of the files in the directory. The search result is then used to enhance the Chat prompt sent to the AI model.
+        - as an additional consideration: if a directory only has a few files, the file contents are included directly as additional context to enhance the Chat prompt sent to the AI model.
 
 ## Design and implementation details
 
@@ -104,31 +111,39 @@ This initiative introduces or updates the following components:
 
 #### Code Embeddings
 
-This is a module in the GitLab Rails monolith which will be introduced in this initiative.
+_Please refer to the **[Code Embeddings blueprint](./code_embeddings.md)** for the detailed design of this component._
 
-This makes use of the framework provided by the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to index the files in the codebase as vector embeddings or to perform a search over those embeddings.
+This is a vector representation of files in the Codebase. We will introduce an indexing pipeline to generate embeddings when a change is pushed to a branch. We will also introduce the capability to search over these embeddings.
 
-For further design and implementation details, please see the [**Code Embeddings** blueprint](./code_embeddings.md).
+**Indexing the Code Embeddings**
 
-**Code Parser**
+- The changes are done on both the [Gitlab Elasticsearch Indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer) and [GitLab Rails](https://gitlab.com/gitlab-org/gitlab).
+- On Rails, we will make use of the [AI Context Abstraction Layer](../ai_context_abstraction_layer/).
+- We will make use of a new **Code Parser** library to parse the code files into logical chunks before generating embeddings on those chunks.
+  - The Code Parser lives in its own repository so that it can be used in different projects.
+  - For further design and implementation details, please see the [One Parser proposal](https://gitlab.com/groups/gitlab-org/-/epics/16210).
 
-This is a library that does the chunking of code files into logical elements, such as classes or functions. This component will be shared with the **[Knowledge Graph](https://gitlab.com/groups/gitlab-org/-/epics/16210)** initiative.
+**Searching the Code Embeddings**
 
-The Code Parser lives in its own repository so that it can be used on the Backend and Frontend. For the Backend, we will wrap the Parser in a Ruby Gem to be used by the **Code Embeddings** module.
-
-For further design and implementation details, please see the [One Parser proposal](https://gitlab.com/groups/gitlab-org/-/epics/16210).
+- The changes will be done on [GitLab Rails](https://gitlab.com/gitlab-org/gitlab)
+- We will make use of the [AI Context Abstraction Layer](../ai_context_abstraction_layer/) to perform a search on the embeddings.
 
 #### Duo Chat
 
-**[Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/)** is already an existing AI feature on GitLab. This initiative enhances the feature such that:
+**[Duo Chat](https://docs.gitlab.com/user/gitlab_duo_chat/)** is already an existing AI feature on GitLab.
 
-Given a question entered on **Duo Chat**, a semantic search is done over the **Code Embeddings**, with the result then used as additional context to the Chat request sent to the AI model.
+For details on the current Duo Chat workflow and architecture, please refer to the following documentations:
 
-### Indexing the Codebase
+- [How a Chat prompt is constructed](https://docs.gitlab.com/development/ai_features/duo_chat/#how-a-chat-prompt-is-constructed)
+- [GraphQL API (`aiAction`) flow](https://docs.gitlab.com/development/ai_features/#graphql-api)
+- [Duo Chat process flow](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/duo_chat.md)
+- [Duo Chat tools](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/prompts_migration/_index.md#duo-chat-tools)
 
-TBA
+In this initiative, we will introduce changes on the [GitLab Language Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp), [GitLab Rails](https://gitlab.com/gitlab-org/gitlab), and the [GitLab AI Gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/). For further implementation details, please proceed to the [Adding the Codebase as Context on Duo Chat](#adding-the-codebase-as-context-on-duo-chat) section below.
 
 ### Adding the Codebase as Context on Duo Chat
+
+The diagram below shows the workflow for including codebase (repository or directory) semantic search results as additional context. The areas highlighted in blue are where we'll introduce new changes.
 
 ```mermaid
 sequenceDiagram
@@ -136,71 +151,116 @@ sequenceDiagram
     participant FE as IDE/Language Server
     box GitLab Rails
       participant GLRGQL as GraphQL API
-      participant GLRDUO as Duo Chat Module
+      participant GLRLLMS as LLM Services
+      participant GLRLLMCHAT as LLM Chat Module
+      participant GLRLLMSEM as LLM Semantic Search Tool
       participant CES as Code Embeddings Search Service
-      participant CE as Code Embeddings
     end
+    participant CE as Code Embeddings Storage
     participant AIGW as AI Gateway
     participant LLM as LLM
 
-    USR->>FE: Types a question, indicating<br /> `codebase` as additional context
-    FE->>GLRGQL: Sends question, with the signal<br /> to include `codebase` as additional context
-    GLRGQL->>GLRDUO: Sends question, with the<br /> signal to include `codebase` as additional context
-    GLRDUO->>CES: Queries for additional context for the user's question
-    CES->>CE: Requests an embedding of the user's question
-    CE->>CES: Returns an embedding of the user's question
-    CES->>CE: Performs a semantic search on code embeddings<br /> with the user's question as target
-    CE->>CES: Returns the search results
-    CES->>GLRDUO: Returns the search results
-    GLRDUO->>AIGW: Sends the question with the<br /> embeddings search result as additional context
-    AIGW->>LLM: Sends the question with the<br /> embeddings search result as additional context
-    LLM->>AIGW: Returns the answer
-    AIGW->>GLRDUO: Returns the answer
-    GLRDUO->>GLRGQL: Returns the answer
-    GLRGQL->>FE: Returns the answer
-    FE->>USR: Shows the answer
+    USR->>FE: Asks a question, indicating<br /> repository or directory<br /> as additional context
+
+    FE->>GLRGQL: Sends chat request to `aiAction` mutation<br /> with repository or directory<br /> as additional context
+    Note over FE: The Language Server will send the ID and category<br /> of the repository and directory additional contexts,<br /> but the content will still be empty at this point.
+    GLRGQL->>GLRLLMS: Sends chat request, with<br /> repository or directory<br /> as additional context
+    GLRLLMS->>GLRLLMCHAT: Sends chat request, with<br /> repository or directory<br /> as additional context
+
+    rect rgb(240, 248, 255)
+      GLRLLMCHAT->>GLRLLMSEM: Executes the Semantic Search Tool,<br /> with a repository or directory filter
+      GLRLLMSEM->>CES: Performs the semantic search
+
+      CES->>AIGW: Generates embeddings for the question
+      AIGW-->>CES: Returns embeddings for the question
+      CES->>CE: Queries Code Embeddings with<br /> the question embeddings as target<br /> and filtered by the given repository or directory
+      CE-->>CES: Returns Code Embeddings
+      CES-->>GLRLLMSEM: Returns semantic search result
+
+      GLRLLMSEM-->>GLRLLMCHAT: Returns semantic search result
+      GLRLLMCHAT->>GLRLLMCHAT: Adds the semantic search result as the content<br /> to the repository and directory additional context
+      Note over GLRLLMCHAT: The content of the repository and directory<br /> additional contexts will be set here.
+
+      GLRLLMCHAT->>AIGW: Request to /v2/chat/agent<br /> with repository or directory +<br /> semantic search result as additional context
+      AIGW->>AIGW: Builds a prompt with the<br /> repository or directory +<br /> semantic search result<br /> as additional context
+    end
+
+    AIGW->>LLM: Sends prompt with the additional contexts
+
+    LLM-->>AIGW: Returns the final answer
+    AIGW-->>GLRLLMSEM: Returns the final answer
+    GLRLLMSEM-->>GLRLLMCHAT: Returns the final answer
+    GLRLLMCHAT-->>GLRLLMS: Returns the final answer
+    GLRLLMS-->>GLRGQL: Returns the final answer
+    GLRGQL-->>FE: Returns the final answer
+    FE-->>USR: Shows the answer
 ```
+
+#### Additional Context Category
+
+We will add one additional context category: `repository`. If a directory is given, it will be considered a `repository` additional context, with the relative path of the directory specified in the `metadata`.
+
+#### Unit Primitives
+
+We will add the following unit primitives as part of this initiative:
+
+**Include Context**
+
+- `include_repository_context` - used by both the Language Server and AIGW
+
+**Tool**
+
+- `codebase_search` - used by Rails, for the [Semantic Search Tool](#duo-semantic-search-tool)
+
+**Embeddings Generation**
+
+- `generate_embeddings_codebase` - unit primitive used for the embeddings generation endpoint ([`/v1/proxy/vertex-ai`](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/ai_gateway/api/v1/proxy/vertex_ai.py#L31))
 
 #### Code Embeddings Search Service
 
-This is a service class that handles the calls to the **Code Embeddings** module to perform a semantic search over the embeddings.
+This is a service class that handles the calls to the **Code Embeddings**. This makes use of the [AI Context Abstraction Layer](../ai_context_abstraction_layer/). For details on how this is done, please refer to the **Search** section in the [Code Embeddings blueprint](./code_embeddings.md).
 
-#### Duo Chat Changes - API
+#### Duo Semantic Search Tool
 
-We need to add the following fields in the [`chat` input](https://docs.gitlab.com/api/graphql/reference/#aichatinput) of the [`aiAction`](https://docs.gitlab.com/api/graphql/reference/#mutationaiaction) GraphQL mutation:
+This is a new [Duo Chat tool](https://docs.gitlab.com/development/ai_features/duo_chat/#adding-a-new-tool) that will be introduced in this initiative.
 
-- `useCodebaseAsContext` - a `boolean` value indicating whether to use the codebase as chat context
-- `currentBranch` - a `string` value indicating the current branch the user is working on
+Similar to the [Slash Command Tools](https://gitlab.com/gitlab-org/gitlab/-/blob/30817374f2feecdaedbd3a0efaad93feaed5e0a0/ee/lib/gitlab/llm/completions/chat.rb#L120), there is no need to have LLM infer whether the tool is needed. This tool will be called as long as the `repository` additional context is present.
 
-The call to the mutation should then look like:
+On Rails, we will introduce an LLM Tool class that will call the **Code Embeddings Search Service** to fetch the matching embeddings of a Chat question. This new **Semantic Search Tool** will be called from the LLM Chat module, with the search results then included as the _content_ of either the `repository` additional context. The Chat request is then sent to AIGW with the new additional contexts.
+
+#### API Changes - Duo Chat Available Features
+
+The Language Server calls the [GraphQL query `{currentUser { duoChatAvailableFeatures } }`](https://docs.gitlab.com/api/graphql/reference/#currentuser) to fetch the list of available Duo Chat features.
+
+As part of this initiative, we will add the `include_repository_context` unit primitive to this list of features.
+
+#### API Changes - Chat Request
+
+The [GraphQL mutation used by Duo Chat (`aiAction`)](https://docs.gitlab.com/development/ai_features/#graphql-api) already accepts `additionalContext` as a parameter for a [`chat` input](https://docs.gitlab.com/development/ai_features/#graphql-api).
+
+With the [`repository` additional context category](#additional-context-category), the `chat` input to the `aiAction` mutation should then look like:
+
+**For `repository` as additional context**
 
 ```graphql
-mutation chat(
-  $question: String!
-  $resourceId: AiModelID
-  $currentFileContext: AiCurrentFileInput
-  $clientSubscriptionId: String
-  $platformOrigin: String!
-  $additionalContext: [AiAdditionalContextInput!]
-  $useCodebaseAsContext: Boolean
-  $currentBranch: String
-) {
+mutation newChatMessage {
   aiAction(
     input: {
       chat: {
-        resourceId: $resourceId
-        content: $question
-        currentFile: $currentFileContext
-        additionalContext: $additionalContext
-        useCodebaseAsContext: $useCodebaseAsContext
-        currentBranch: $currentBranch
+        content: "the user question"
+        additionalContext: [{
+          category: "repository",
+          id: "the-project-id",
+          content: "", # should be empty
+          metadata: {
+            directory: "some/dir" # this is optional, specified when the user selects directory as an additional context
+            branch: "some-branch" # including the branch is a second phase iteration
+          }
+        }]
       }
-      clientSubscriptionId: $clientSubscriptionId
-      platformOrigin: $platformOrigin
     }
   ) {
     requestId
-    errors
   }
 }
 ```
@@ -230,6 +290,18 @@ Once we introduce the [Agentic Chat architecture](https://gitlab.com/groups/gitl
 
 In order to support this, we will introduce an API over the **[Code Embeddings Search Service](#code-embeddings-search-service)** to be called either from the **Duo Workflow Service** or the **Duo Workflow Executor**.
 
+### Codebase as additional context for Duo Chat Slash Commands
+
+Slash commands include `/refactor`, `/fix`, `/test`.
+
+The Slash commands can either make use of the **[Semantic Search Tool](#duo-semantic-search-tool)** or directly call the **[Code Embeddings Search Service](#code-embeddings-search-service)** to search over Code Embeddings.
+
+Alternatively, we can support codebase as additional context for Slash commands only in Agentic Chat.
+
+### Codebase as additional context for Code Suggestions
+
+Code Completion or Code Generation can make use of the **[Code Embeddings Search Service](#code-embeddings-search-service)**, which abstracts all the logic needed for searching over the Code Embeddings.
+
 ### Proposed steps for supporting local file indexing
 
 TBA
@@ -240,9 +312,188 @@ TBA
 
 ## Alternative Solutions
 
-<!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
+### Allow LLM to infer the need for Codebase Semantic Search
 
-"Do nothing" and its pros and cons could be included in the list too.
--->
+In this solution, we would introduce a tool definition for the Codebase Semantic Search on the AIGW. This tool will then be made available to the LLM, which infers whether the tool is needed based on the question.
+
+We decided not to go with this solution for the following reasons:
+
+- There is no need for the LLM to infer whether the codebase search tool is required. If a _repository_ or _directory_ additional context is included, then we can immediately do a codebase search.
+- The MVC proposal and the requirement from Product is that the user should be able to explicitly decided whether a codebase semantic search is needed. In this solution, while the user can specify _repository_ or _directory_ as additional context, the LLM still has the final decision on whether the codebase search is performed.
+- This solution means an additional round of requests between Rails and AIGW, making the latency higher.
+
+**PoC for the tool definition:** [MR: POC: Codebase search tool](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/2415).
+
+**Workflow diagram:**
+
+```mermaid
+sequenceDiagram
+    actor USR as User
+    participant FE as IDE/Language Server
+    box GitLab Rails
+      participant GLRGQL as GraphQL API
+      participant GLRLLMS as LLM Services
+      participant GLRLLMCHAT as LLM Chat Module
+      participant GLRLLMSEM as LLM Semantic Search Tool
+      participant CES as Code Embeddings Search Service
+    end
+    participant CE as Code Embeddings Storage
+    participant AIGW as AI Gateway
+    participant LLM as LLM
+
+    USR->>FE: Asks a question, indicating<br /> codebase as additional context
+
+    FE->>GLRGQL: Sends chat request to `aiAction` mutation<br /> with codebase as additional context
+    GLRGQL->>GLRLLMS: Sends chat request, with<br /> codebase as additional context
+    GLRLLMS->>GLRLLMCHAT: Sends chat request, with<br /> codebase as additional context
+    GLRLLMCHAT->>AIGW: Request to /v2/chat/agent<br /> with codebase as additional context
+
+    rect rgb(240, 248, 255)
+      AIGW->>LLM: Sends chat request, indicating<br /> that codebase context is present
+      LLM->>LLM: Determines that the<br /> semantic search tool is needed
+      Note over LLM: The LLM will have a new available<br /> tool for semantic search.<br /> This tool will have instructions<br /> to perform a semantic search if<br /> the codebase context is present.
+      LLM-->>AIGW: Returns response, indicating that<br /> the semantic search tool is needed
+    end
+
+    AIGW-->>GLRLLMCHAT: Returns response, indicating that<br /> the semantic search tool is needed
+
+    GLRLLMCHAT->>GLRLLMSEM: Executes the Semantic Search Tool
+
+    rect rgb(240, 248, 255)
+      GLRLLMSEM->>CES: Performs the semantic search
+      CES->>AIGW: Generates embeddings for the question
+      AIGW-->>CES: Returns embeddings for the question
+      CES->>CE: Queries Code Embeddings with<br /> the question embeddings as target
+      CE-->>CES: Returns Code Embeddings
+      CES-->>GLRLLMSEM: Returns semantic search result
+    end
+
+    GLRLLMSEM->>AIGW: Request to /v1/prompts/chat<br />with search results as additional context
+
+    AIGW->>AIGW: Builds a prompt with the<br /> search results as additional context
+    AIGW->>LLM: Sends prompt with the<br /> search results as additional context
+
+    LLM-->>AIGW: Returns the final answer
+    AIGW-->>GLRLLMSEM: Returns the final answer
+    GLRLLMSEM-->>GLRLLMCHAT: Returns the final answer
+    GLRLLMCHAT-->>GLRLLMS: Returns the final answer
+    GLRLLMS-->>GLRGQL: Returns the final answer
+    GLRGQL-->>FE: Returns the final answer
+    FE-->>USR: Shows the answer
+```
+
+### Introduce an "Ask Codebase" tool and prompt
+
+In this solution, we will introduce an "Ask Codebase" tool:
+
+- On Rails, the LLM Chat module will determine that the tool is needed if there is a `repository` additional context
+- The "Ask Codebase" tool will use the "Codebase Embeddings Search Service" to get the semantic search results
+- The "Ask Codebase" tool will then send a request to the `/v1/prompts/chat` endpoint
+- On AIGW, there will be a new prompt for `ask_codebase` available through the `/v1/prompts/chat` endpoint
+- The workflow will essentially be similar to the Slash Command tools workflow
+
+```mermaid
+sequenceDiagram
+    actor USR as User
+    participant FE as IDE/Language Server
+    box GitLab Rails
+      participant GLRGQL as GraphQL API
+      participant GLRLLMS as LLM Services
+      participant GLRLLMCHAT as LLM Chat Module
+      participant GLRLLMAC as LLM Ask Codebase Tool
+      participant CES as Code Embeddings Search Service
+    end
+    participant CE as Code Embeddings Storage
+    participant AIGW as AI Gateway
+    participant LLM as LLM
+
+    USR->>FE: Asks a question, indicating<br /> repository or directory<br /> as additional context
+
+    FE->>GLRGQL: Sends chat request to `aiAction` mutation<br /> with repository or directory<br /> as additional context
+    Note over FE: The Language Server will send the ID and category<br /> of the repository and directory additional contexts,<br /> but the content will still be empty at this point.
+    GLRGQL->>GLRLLMS: Sends chat request, with<br /> repository or directory<br /> as additional context
+    GLRLLMS->>GLRLLMCHAT: Sends chat request, with<br /> repository or directory<br /> as additional context
+
+    rect rgb(240, 248, 255)
+      GLRLLMCHAT->>GLRLLMAC: Executes the Ask Codebase Tool,<br /> with a repository or directory filter
+      GLRLLMAC->>CES: Performs the semantic search
+
+      CES->>AIGW: Generates embeddings for the question
+      AIGW-->>CES: Returns embeddings for the question
+      CES->>CE: Queries Code Embeddings with<br /> the question embeddings as target<br /> and filtered by the given repository or directory
+      CE-->>CES: Returns Code Embeddings
+      CES-->>GLRLLMAC: Returns semantic search result
+
+      GLRLLMAC-->>GLRLLMCHAT: Returns semantic search result
+      GLRLLMCHAT->>GLRLLMCHAT: Adds the semantic search result as additional context
+
+      GLRLLMCHAT->>AIGW: Request to /v1/prompts/chat<br /> with repository or directory +<br /> semantic search result as additional context
+      AIGW->>AIGW: Builds a prompt with the<br /> repository or directory +<br /> semantic search result<br /> as additional context
+      Note over AIGW: This will be a new `ask_codebase` prompt
+    end
+
+    AIGW->>LLM: Sends prompt with the additional contexts
+
+    LLM-->>AIGW: Returns the final answer
+    AIGW-->>GLRLLMAC: Returns the final answer
+    GLRLLMAC-->>GLRLLMCHAT: Returns the final answer
+    GLRLLMCHAT-->>GLRLLMS: Returns the final answer
+    GLRLLMS-->>GLRGQL: Returns the final answer
+    GLRGQL-->>FE: Returns the final answer
+    FE-->>USR: Shows the answer
+```
+
+### Using different categories and unit primitives for `repository` and `directory`
+
+Instead of using a single `repository` category for the repository and directory additional context, we will use `repository` and `directory` categories.
+
+Note: we decided not to go with this option because a category has a 1-to-1 mapping to a unit primitive, and conceptually, we should only have 1 unit primitive for the "include codebase" context.
+
+The `chat` input to the `aiAction` mutation should then look like:
+
+**For `repository` as additional context**
+
+```graphql
+mutation newChatMessage {
+  aiAction(
+    input: {
+      chat: {
+        content: "the user question"
+        additionalContext: [{
+          category: "repository",
+          id: "the-project-id",
+          content: "", // should be empty
+          metadata: {'branch': 'some-branch'} // including the branch is a second phase iteration
+        }]
+      }
+    }
+  ) {
+    requestId
+  }
+}
+```
+
+**For `directory` as additional context**
+
+```graphql
+mutation newChatMessage {
+  aiAction(
+    input: {
+      chat: {
+        content: "the user question"
+        additionalContext: [{
+          category: "directory",
+          id: "file:///home/user/workspace/src/dir",
+          content: "", // should be empty
+          metadata: {
+            'relativePath': 'src/dir',
+            'branch': 'some-branch' // including the branch is a second phase iteration
+          }
+        }]
+      }
+    }
+  ) {
+    requestId
+  }
+}
+```
