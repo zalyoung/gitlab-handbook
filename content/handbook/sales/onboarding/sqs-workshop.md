@@ -14,7 +14,7 @@ title: "Sales Quick Start (SQS) Workshop"
 
 ## Sales Quick Start In-Person Workshop Agenda
 
-This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7JEydEIkUeGZ16nQuLxNgD6RXEM2zEgws/edit?usp=sharing) contains the most up to date agenda for our in-person Sales Quick Start Workshop. Please check the tabs at the bottom of this document to see each day's agenda. This agenda is subject to change based on the individual needs of the class and the availability of SMEs, but we will make every effort to surface those changes in this document.
+This [SQS 2025 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7JEydEIkUeGZ16nQuLxNgD6RXEM2zEgws/edit?usp=sharing) contains the most up to date agenda for our in-person Sales Quick Start Workshop. Please check the tabs at the bottom of this document to see each day's agenda. This agenda is subject to change based on the individual needs of the class and the availability of SMEs, but we will make every effort to surface those changes in this document.
 
 ## Sales Quick Start Remote Agenda
 
@@ -41,25 +41,42 @@ This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Apr 17, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement |
 | Apr 21 - 25, 2025 | 10:00a ET | 10:50a ET | Mock Discovery Calls | Mock Customers |
 
-### SQS 46 - June 2025
+### SQS 46 - May 2025
 
 - Workshop times quoted are United States Eastern Standard Daylight Time (New York) (UTC -4)
 
 | DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
 |------|------------|----------|----------|--------------|
-| Jun 4, 2025 | 10:00a ET | 11:00a ET | Welcome Call | Field Enablement |
+| May 12, 2025 | 10:30a ET | 10:50a ET | Operational Excellence: Into to Gitlab Field Security | Field Security |
+| May 12, 2025 | 11:30a ET | 12:25p ET | Solution Focus: Intro to GitLab Pitch & Market Overview | Product Marketing |
+| May 13, 2025 | 10:00a ET | 10:50a ET | Solution Focus: Intro to Competition | Product Marketing |
+| May 13, 2025 | 11:30a ET | 11:50a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
+| May 13, 2025 | 12:00p ET | 12:50p ET | Operational Excellence: Working with Marketing & Sales Development | Marketing Enablement |
+| May 14, 2025 | 10:00a ET | 11:20a ET | Intro to Ecosystem Sales | Ecosystem Team |
+| May 14, 2025 | 11:30a ET | 12:20p ET | Discussion: Professional Services | Professional Services |
+| May 15, 2025 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Overview | Customer Success Team |
+| May 16, 2025 | 10:00a ET | 10:20a ET | Intro to Sales Ops + Deal Desk | RSOE Team |
+| May 16, 2025 | 10:30a ET | 10:55a ET | Renewals Manager Overview | Renewals Team  |
+
+### SQS 47 - June 2025
+
+- Workshop times quoted are United States Eastern Standard Daylight Time (New York) (UTC -4)
+
+| DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
+|------|------------|----------|----------|--------------|
 | Jun 9, 2025 | 10:30a ET | 10:50a ET | Operational Excellence: Into to Gitlab Field Security | Field Security |
-| Jun 9, 2025 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Product Marketing |
+| Jun 9, 2025 | 11:30a ET | 12:25p ET | Solution Focus: Intro to GitLab Pitch & Market Overview | Product Marketing |
 | Jun 10, 2025 | 10:00a ET | 11:20a ET | Intro to Ecosystem Sales | Ecosystem Team |
-| Jun 11, 2025 | 10:00a ET | 10:20a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
-| Jun 11, 2025 | 10:30a ET | 11:20a ET | Discussion: Professional Services | Professional Services |
-| Jun 11, 2025 | 11:30a ET | 12:20p ET | Operational Excellence: Working with Sales Dev | Marketing Enablement |
-| Jun 12, 2025 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Overview | Customer Success Team |
-| Jun 12, 2025 | 11:30a ET | 11:55a ET | Renewals Manager Overview | Renewals Team  |
-| Jun 13, 2025 | 10:00a ET | 10:50a ET | Command of the Message: MEDDPPICC  | Field Enablement |
-| Jun 13, 2025 | 11:00a ET | 11:30a ET | Intro to Sales Ops + Deal Desk | RSOE Team |
-| Jun 16, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Essential Questions Exercise | Field Enablement |
-| Jun 17, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement |
-| Jun 18, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement |
-| Jun 19, 2025 | 10:30a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement |
+| Jun 10, 2025 | 11:00a ET | 11:30a ET | Intro to Sales Ops + Deal Desk | RSOE Team |
+| Jun 11, 2025 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Product Marketing |
+| Jun 11, 2025 | 11:00a ET | 11:50a ET | Customer Focus: Customer Success Overview | Customer Success Team |
+| Jun 11, 2025 | 12:00p ET | 12:20p ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
+| Jun 12, 2025 | 12:00p ET | 12:50p ET | Operational Excellence: Working with Marketing & Sales Development | Marketing Enablement |
+| Jun 13, 2025 | 10:00a ET | 10:50a ET | Discussion: Professional Services | Professional Services |
+| Jun 13, 2025 | 11:00a ET | 11:25a ET | Renewals Manager Overview | Renewals Team  |
+| Jun 16, 2025 | 10:00a ET | 11:50a ET | Command of the Message: Essential Questions Exercise | Field Enablement |
+| Jun 17, 2025 | 10:00a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement |
+| Jun 18, 2025 | 10:00a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement |
+| Jun 19, 2025 | 10:00a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement |
+| Jun 20, 2025 | 10:00a ET | 10:50a ET | Command of the Message: MEDDPPICC  | Field Enablement |
 | Jun 23 - 25, 2025 | 10:00a ET | 10:50a ET | Mock Discovery Calls | Mock Customers |
