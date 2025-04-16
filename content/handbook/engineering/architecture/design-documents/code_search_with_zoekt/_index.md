@@ -115,12 +115,12 @@ Having a unified binary simplifies deployment, operation, and maintenance of the
 
 GitLab uses several database models to manage Zoekt:
 
-- **`Search::Zoekt::EnabledNamespace`**: Tracks which top-level namespaces have Zoekt enabled
-- **`Search::Zoekt::Node`**: Represents a Zoekt server node with information about its capacity, status, and configuration
-- **`Search::Zoekt::Replica`**: Manages replica relationships for high availability
-- **`Search::Zoekt::Index`**: Manages the index state for a namespace, including storage allocation and watermark levels
-- **`Search::Zoekt::Repository`**: Represents a project repository in Zoekt with indexing state
-- **`Search::Zoekt::Task`**: Tracks indexing tasks (index, force_index, delete) that need to be processed by Zoekt nodes
+- **[`Search::Zoekt::EnabledNamespace`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_enabled_namespaces.yml)**: Tracks which top-level namespaces have Zoekt enabled
+- **[`Search::Zoekt::Node`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_nodes.yml)**: Represents a Zoekt server node with information about its capacity, status, and configuration
+- **[`Search::Zoekt::Replica`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_replicas.yml)**: Manages replica relationships for high availability
+- **[`Search::Zoekt::Index`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_indices.yml)**: Manages the index state for a namespace, including storage allocation and watermark levels
+- **[`Search::Zoekt::Repository`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_repositories.yml)**: Represents a project repository in Zoekt with indexing state
+- **[`Search::Zoekt::Task`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_tasks.yml)**: Tracks indexing tasks (index, force_index, delete) that need to be processed by Zoekt nodes
 
 ### Architecture Overview
 
