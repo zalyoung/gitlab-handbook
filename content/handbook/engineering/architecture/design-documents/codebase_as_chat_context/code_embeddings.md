@@ -119,11 +119,19 @@ sequenceDiagram
 | project_id | bigint | Filter by projects |
 | traversal_ids | keyword | Efficient group-level searches |
 | path | keyword | Relative path including file name |
-| content_type | keyword | Whether it's the full blob content or a node extracted from a chunker. Example options: `file\|class\|function\|imports\|constant` |
+| content_type | smallint | Enum indicating whether it's the full blob content or a node extracted from a chunker. Example options: `file\|class\|function\|imports\|constant` |
 | content | text | Code content |
 | source | keyword | `"#{blob.id}:#{offset}:#{length}"` which can be used to rebuild the full file or restore order of chunks |
 | language | keyword | Language of content |
 | embeddings_v1 | vector | Embeddings for the content |
+
+The following fields were considered but not added to the initial schema. Adding new fields can be done using AI Abstraction Layer migrations and backfills can be done using either migrations or by doing a reindex.
+
+- `archived` (`boolean`): for group-level search, filter out projects that are archived
+- `branches` (`keyword[]`): to support non-default branches
+- `extension` (`keyword`): extension of the file to easily filter by extension
+- `repository_access_level` (`smallint`): permissions for group-level searches
+- `visibility_level` (`smallint`): permissions for group-level searches
 
 ### Options for supporting multiple branches
 
