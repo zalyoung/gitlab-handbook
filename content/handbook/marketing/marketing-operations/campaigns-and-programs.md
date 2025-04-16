@@ -372,6 +372,8 @@ SFDC campaigns have a general set of required fields. This section describes the
   - Update `Is Hyperscaler involved?` to Yes if a hyperscaler is involved.
     - If yes, add the hyperscaler partner name after the date in your campaign name. Example using Executive Roundtable: YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
     - If yes, enter the hyperscaler partner name in the `Hyperscaler` field
+    - If yes, select the type of Hyperscaler Funding using `Will there be Hyperscaler Funding?`, options are `MDF` or `Credits`
+       - then, update the `Hyperscaler Fund Requested Amount`
   - Update the event epic
   - Update the description (if any)
   - Enter the `Form submission page` if you know it. Otherwise, it will need to be added after the landing page is created (if applicable)
