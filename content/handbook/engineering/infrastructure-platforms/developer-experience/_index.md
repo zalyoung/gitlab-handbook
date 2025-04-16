@@ -61,7 +61,7 @@ graph TD
 
 ### Individual contributors
 
-The following people are members of the [Development Analytics group](development-analytics/):
+The following people are members of the [Development Analytics group](development-analytics):
 
 {{< team-by-manager-slug "ghosh-abhinaba" >}}
 
