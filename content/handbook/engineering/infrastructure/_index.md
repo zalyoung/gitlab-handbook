@@ -101,9 +101,9 @@ flowchart LR
     click Ops "/handbook/engineering/infrastructure/team/runway/"
 
     SD --> DB[Build]
-    click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    click DB "/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/"
     SD --> DD[Deploy]
-    click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    click DD "/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/"
     SD --> FR[Framework]
     click FR "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> RE[Releases]

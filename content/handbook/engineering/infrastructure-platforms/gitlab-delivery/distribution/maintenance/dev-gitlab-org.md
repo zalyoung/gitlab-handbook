@@ -5,8 +5,8 @@ description: "Guidelines for maintaining dev.gitlab.org, including manual packag
 
 ## Common links
 
-* [Distribution Team Handbook](/handbook/engineering/infrastructure/core-platform/systems/distribution/)
-* [Distribution Team Infrastructure and Maintenance](/handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/)
+* [Distribution Team Handbook](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/)
+* [Distribution Team Infrastructure and Maintenance](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/maintenance/)
 
 ## dev.gitlab.org
 

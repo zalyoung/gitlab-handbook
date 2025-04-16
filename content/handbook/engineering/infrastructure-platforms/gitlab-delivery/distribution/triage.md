@@ -31,9 +31,9 @@ See the [CE documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/C
 
 During triage, an appropriate `group::` label should be applied to the issue.
 
-* `group::distribution::build` for [Distribution Build team responsibilities](index.html.md.erb#distribution-build)
-* `group::distribution::deploy` for [Distribution Deploy team responsibilities](index.html.md.erb#distribution-deploy)
-* `group::distribution` for [Distribution team shared responsibilities](index.html.md.erb#team-responsibility)
+* `group::distribution::build` for [Distribution Build team responsibilities](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#distribution-build)
+* `group::distribution::deploy` for [Distribution Deploy team responsibilities](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#distribution-deploy)
+* `group::distribution` for [Distribution team shared responsibilities](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#team-responsibility)
 * The otherwise appropriate group to assign based on [GitLab Features by Group](/handbook/product/categories/features/)
 
 During triage additional labels should be added to indicate what part of the product is impacted by the issue. Descriptions for the labels that Distribution often uses can be found the [Distribution Frequently Used Labels Page](https://gitlab.com/gitlab-org/distribution/team-tasks/-/blob/master/frequently-used-labels.md).

@@ -69,8 +69,8 @@ GitLab uses automation to streamline engineering processes, such as:
 * [`@gitlab-bot`](https://gitlab.com/gitlab-bot) owned by the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity), running various things. We're [breaking this down](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/757) into multiple dedicated service accounts.
 * [`@gitlab-qa`](https://gitlab.com/gitlab-qa) owned by the [Developer Experience stage](/handbook/engineering/infrastructure-platforms/developer-experience), running end-to-end test related automation.
 * [`@gitlab-release-tools-bot`](https://gitlab.com/gitlab-release-tools-bot) owned by the [Delivery team](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/), running delivery/release-related automation.
-* [`@gl-build-trigger`](https://gitlab.com/gl-build-trigger) owned by the [Distribution group](/handbook/engineering/infrastructure/core-platform/systems/distribution/), triggering build-related pipelines.
-* [`@gitlab-omnibus-mirror-bot`](https://gitlab.com/gitlab-omnibus-mirror-bot) owned by the [Distribution group](/handbook/engineering/infrastructure/core-platform/systems/distribution/), mirroring various dependency projects of [the `gitlab-org/omnibus-gitlab` project](https://gitlab.com/gitlab-org/omnibus-gitlab).
+* [`@gl-build-trigger`](https://gitlab.com/gl-build-trigger) owned by the [Distribution group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/), triggering build-related pipelines.
+* [`@gitlab-omnibus-mirror-bot`](https://gitlab.com/gitlab-omnibus-mirror-bot) owned by the [Distribution group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/), mirroring various dependency projects of [the `gitlab-org/omnibus-gitlab` project](https://gitlab.com/gitlab-org/omnibus-gitlab).
 * Triage operations for `gitlab-org/quality/triage-ops`, `gitlab-org/gitlab-triage` owned by the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity).
 
 ## Background on the single `@gitlab-bot` service account

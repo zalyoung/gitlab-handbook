@@ -5,8 +5,8 @@ description: "Details and maintenance tasks for the Distribution Team's build no
 
 ## Common links
 
-- [Distribution Team Handbook](/handbook/engineering/infrastructure/core-platform/systems/distribution/)
-- [Distribution Team Infrastructure and Maintenance](/handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/)
+- [Distribution Team Handbook](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/)
+- [Distribution Team Infrastructure and Maintenance](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/maintenance/)
 
 ## Build Infrastructure
 
