@@ -60,7 +60,7 @@ GitLab `master` has three QA pipelines generated from scheduled pipeline against
 - [`test-on-omnibus`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-omnibus-job) runs the `full` suite of end-to-end tests against an omnibus Docker image built from `master`
 - [`test-on-gdk`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-gdk-job) runs the full suite of end-to-end tests as part of the `gdk-instance` job against a GDK instance from a Docker image built from `master`
 
-If jobs in `test-on-omnibus` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
+If jobs in `test-on-omnibus` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) to see if it's a known problem with the build.
 
 If failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/97483eafd3db198437faccc40a946fc260c0736a/test_on_gdk#disable-the-e2etest-on-gdk-pipeline) for details.
 

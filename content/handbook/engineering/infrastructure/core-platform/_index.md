@@ -12,8 +12,8 @@ Core Platform focuses on improving our capabilities and metrics in the following
 
 - [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
 - [Database Reliability](/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
-- [Distribution:Build](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-build)
-- [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
+- [Distribution:Build](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#distribution-build)
+- [Distribution:Deploy](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/#distribution-deploy)
 - [Geo](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/)
 - [Gitaly](/handbook/engineering/infrastructure-platforms/data-access/gitaly/)
 - [Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/)
