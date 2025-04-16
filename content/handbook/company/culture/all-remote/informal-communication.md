@@ -434,7 +434,7 @@ In this section, we'll spotlight tips and advice from other experts and companie
 
 ### Tools for building empathy and connection
 
-1. Build empathy, rapport, and cohesion on remote teams with [Kona by Sike Insights](https://www.heykona.com/)
+1. Build empathy, rapport, and cohesion on remote teams with [Kona by Sike Insights](#)
 1. Asynchronous voice messaging for teams via [Yac](https://www.yac.com)
 1. Asynchronous video messaging for teams via [Loom](https://www.loom.com)
 
