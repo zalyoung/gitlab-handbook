@@ -117,7 +117,6 @@ sequenceDiagram
 |------------|------|-------------|
 | id | keyword | hash of the filename and chunk content |
 | project_id | bigint | Filter by projects |
-| traversal_ids | keyword | Efficient group-level searches |
 | path | keyword | Relative path including file name |
 | content_type | smallint | Enum indicating whether it's the full blob content or a node extracted from a chunker. Example options: `file\|class\|function\|imports\|constant` |
 | content | text | Code content |
@@ -131,6 +130,7 @@ The following fields were considered but not added to the initial schema. Adding
 - `branches` (`keyword[]`): to support non-default branches
 - `extension` (`keyword`): extension of the file to easily filter by extension
 - `repository_access_level` (`smallint`): permissions for group-level searches
+- `traversal_ids` (`keyword`): Efficient group-level searches
 - `visibility_level` (`smallint`): permissions for group-level searches
 
 ### Options for supporting multiple branches
