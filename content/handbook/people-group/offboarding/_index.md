@@ -42,6 +42,10 @@ For any other offboarding questions from active team members please reach out to
 
 In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)) and complying with any contractual requirements, Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
 
+#### Germany
+
+In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)), Team Members in Germany should send a wet-signature resignation letter to the [GmbH address](/handbook/entity/gmbh-germany/#scope) as per [§ 623 BGB](https://www.gesetze-im-internet.de/bgb/__623.html).
+
 ##### Japan
 
 Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) by the 10th of the month in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
