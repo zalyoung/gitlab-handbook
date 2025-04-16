@@ -118,7 +118,7 @@ You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 
 ### Assigned Support Engineer (ASE)
 
-An Assigned Support Engineer is a Support Engineer who is nearing or at the
+An Assigned Support Engineer is a Support Engineer who is nearing (exceeding in their current role) or at the
 Senior Level. Each ASE is assigned up to 4 accounts with which they will work
 closely in order to deliver a significantly enhanced support experience.
 
@@ -131,13 +131,12 @@ closely in order to deliver a significantly enhanced support experience.
 - Work closely with the [Sales](/handbook/sales) and
   [Customer Success](/handbook/customer-success) Teams to coordinate work and
   communications with each account so that it is clear to them that GitLab is one team
-- Give top priority to working with assigned accounts to resolve their support
-  tickets quickly and excellently, to advocate within GitLab for their needs, to advise and guide them
-  through major changes such as upgrades, and to help them to meet their
-  GitLab-associated business needs
+- Give top priority to working with assigned accounts: advocating within GitLab for their needs, advising and guiding them through major changes such as upgrades, and helping them meet their GitLab-associated business goals
+  - Track and prioritize all customer agreed-upon work on support tickets, GitLab issues, and Customer Success projects, giving each appropriate priority to meet agreed delivery timelines
 - Stay up-to-date with customer environments, use cases and business needs, and use that knowledge both to resolve problems quickly and to advise proactively on problem prevention
-- Meet with each account on a frequent and regular basis to report on progress, to set relative priorities on remaining work, and to set expectations regarding what will be done by the next meeting
-  - At any moment in time this might or might not mean taking assignment and full ownership of all non-emergency tickets for an account
+- Meet with each account on a frequent and regular basis to report on progress, to set relative priorities on remaining work, and to agree on what will be done by the next meeting
+  - This agreement should include a plan for whether to take all, some or none of the non-emergency tickets the account submits prior to the next meeting
+- Establish and document clear communication agreements with each account regarding preferred methods of interaction, expected response times, and escalation procedures, and review these regularly to ensure continued alignment
 - Assist with emergency tickets submitted by accounts during business hours for their ASE contract
 
 
