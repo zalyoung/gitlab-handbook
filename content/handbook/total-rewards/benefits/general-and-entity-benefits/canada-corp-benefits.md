@@ -163,6 +163,8 @@ Effective November 1, 2021, eligible Canadian Team Members can enroll in GitLab'
 - Eligibility criteria: All full-time (defined as working at least 30 hours per week) team members of GitLab Canada Corp.
 - Contributions may be updated at any time, but please allow 1 - 2 payroll cycles for the new contribution amount to reflect in your paycheck.
 - Effective April 2025, transfers and withdrawals are permitted.
+     - Transfers to other accounts or institutions are initiated by the other institution, not Canada Life. 
+     - Withdrawals can be made online at mycanadalifeatwork.com 
 
 ### RRSP Enrollment
 
