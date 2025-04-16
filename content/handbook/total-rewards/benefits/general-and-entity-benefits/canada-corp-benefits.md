@@ -646,4 +646,3 @@ If at any time you are no longer deemed to be totally disabled, your benefits ma
 ## Administrative Details for Benefits Team
 
 The Benefits Team can reference the Canada Processes [here](https://drive.google.com/drive/u/0/folders/1lhC6RbuvUmqJ-KMrsPyTBFntyvYgZral)
-
