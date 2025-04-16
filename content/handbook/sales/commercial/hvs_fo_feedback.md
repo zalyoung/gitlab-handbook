@@ -1,11 +1,11 @@
 ---
-title: "Global Digital SMB - Feedback Collection and Best Practices"
-description: "Overview of how GDS collects product, systems, and case operations feedback, along with how to best provide feedback"
+title: "High Velocity Sales and First Orders - Feedback Collection and Best Practices"
+description: "Overview of how HVS collects product, systems, and case operations feedback, along with how to best provide feedback"
 ---
 
 ## Background
 
-Currently the GDS team derives feedback from SFDC Cases via Advocates, Customer self-cancels on CDot, and periodic CSAT/NPS surveys. We want to centralize all these sources, ensure we are getting the best version of the respective feedback, and actioning on them to the best of our abilities. Below is a guide on our best practices surrounding this effort.
+Currently the HVS team derives feedback from SFDC Cases via Advocates, Customer self-cancels on CDot, and periodic CSAT/NPS surveys. We want to centralize all these sources, ensure we are getting the best version of the respective feedback, and actioning on them to the best of our abilities. Below is a guide on our best practices surrounding this effort.
 
 ## Feedback sources
 
@@ -15,13 +15,13 @@ When an Advocate closes a case, they select their `Feedback Type` and add commen
 
 ### Portal cancels
 
-When a customer self-cancels on the Customers Portal, they are prompted to select a `cancel reason` and add additional comments in the text field. The GDS team can access this data to derive insights. See this [screenshot](https://drive.google.com/file/d/1gxz_iAOA43ehUlNDECO0LPJLiFWv2Qod/view?usp=drive_link) of the cancel prompt.
+When a customer self-cancels on the Customers Portal, they are prompted to select a `cancel reason` and add additional comments in the text field. The HVS team can access this data to derive insights. See this [screenshot](https://drive.google.com/file/d/1gxz_iAOA43ehUlNDECO0LPJLiFWv2Qod/view?usp=drive_link) of the cancel prompt.
 
 ### Customer call recordings or emails
 
-Advocates can record customer calls on Gong and can screenshot any relevant customer email they receive. This can be posted on our global-digital-smb_feedback channel. GDS Leadership will also periodically review Gong call recordings to aggregate any product-related feedback.
+Advocates can record customer calls on Gong and can screenshot any relevant customer email they receive. This can be posted on our hvs_public channel. HVS Leadership will also periodically review Gong call recordings to aggregate any product-related feedback.
 
-### Ad-hoc global-digital-smb_feedback channel posts
+### Ad-hoc hvs_public channel posts
 
 Any other type of feedback is typically posed in this feedback Slack channel.
 
@@ -42,9 +42,9 @@ Please refer to this [document](https://docs.google.com/document/d/1z5FHYeM0pId9
 Direct feedback from customers should be provided in one of two channels:
 
 1. **Case feedback**: ideally, your customer interaction is linked to a case. When closing the case, please link the Gong call recording with a brief summary of what the call consists of. For emails, feel free to copy + paste the email into the feedback field. Alternatively, you can screenshot the email, save it on your gdrive, and link it within the feedback field.
-1. **global-digital-smb_feedback channel**: if your customer interaction cannot be linked to a specific case, please post the call recording ([example](https://gitlab.slack.com/archives/C06GWAS5RA8/p1731624483166999)) or an email screenshot in the feedback Slack channel. Again, this should be accompanied with a brief summary describing the problem and potentially the suggested solution.
+1. **hvs_public channel**: if your customer interaction cannot be linked to a specific case, please post the call recording ([example](https://gitlab.slack.com/archives/C06GWAS5RA8/p1731624483166999)) or an email screenshot in the feedback Slack channel. Again, this should be accompanied with a brief summary describing the problem and potentially the suggested solution.
 
-### global-digital-smb_feedback channel
+### hvs_public channel
 
 For any other feedback not connected to a case or customer interaction, please post it in the feedback channel as well. Similar to a customer feedback, any example available to outline the feedback is strongly recommended. For example, if you are unable to complete a Salesforce action, please provide the screenshot of the error you are receiving.
 
@@ -52,19 +52,19 @@ For any other feedback not connected to a case or customer interaction, please p
 
 Depending on the type of feedback, we will pursue one of the following routes:
 
-### GDS Leadership issue
+### HVS Leadership issue
 
-Any feedback stemming from the above-stated resources that can be actioned on by GDS leadership (e.g. case type update), will be actioned in through an issue creation.
+Any feedback stemming from the above-stated resources that can be actioned on by HVS leadership (e.g. case type update), will be actioned in through an issue creation.
 
-See an example [issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/700) of how GDS leadership logged and will action on feedback items stemming from recent team onsites.
+See an example [issue](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/700) of how HVS leadership logged and will action on feedback items stemming from recent team onsites.
 
 ### Sales systems or Sales ops issue
 
-Any feedback that concerns SFDC object updates, automation logic, and sales tooling will be pursued by GDS leadership by engaging with the appropriate systems or sales ops team.
+Any feedback that concerns SFDC object updates, automation logic, and sales tooling will be pursued by HVS leadership by engaging with the appropriate systems or sales ops team.
 
-For example, Advocates in Q3 provided feedback on further automating case actions, especially with Groove Flows. The GDS leadership team created this [issue](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/4106) to kickstart exploring automation opportunities.
+For example, Advocates in Q3 provided feedback on further automating case actions, especially with Groove Flows. The HVS leadership team created this [issue](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/4106) to kickstart exploring automation opportunities.
 
-### GDS <> Product intake issue
+### HVS <> Product intake issue
 
 Any feedback that points to productization will follow this agreed upon [intake-model](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/721) with Product. This intake model places further emphasis on making sure the original feedback we gather has specific examples and screenshots, so Product can prioritize our items first.
 
@@ -78,11 +78,11 @@ Any feedback items that may be smaller in nature, or just require clarification,
 
 ## Feedback progress updates
 
-The GDS team will be kept up to date on any feedback they provided weekly through the `Friday Weekly SMB update Alert` in the `global-digital-smb_team channel`. In this update, we will callout any feedback item we are pursuing, and link the appropriate issue if needed.
+The HVS team will be kept up to date on any feedback they provided weekly through the `Friday Weekly SMB update Alert` in the `hvs_team channel`. In this update, we will callout any feedback item we are pursuing, and link the appropriate issue if needed.
 
 ## Feedback dashboard
 
-The GDS Feedback Tableau [dashboard](https://10az.online.tableau.com/#/site/gitlab/views/GDSFeedbackTracker/PortalCancelEventsSummary?:iid=1) is how the team will monitor most of the feedback sources. The has created views on each feedback source in one workbook, making it easily accessible to read and action on said feedback.
+The HVS Feedback Tableau [dashboard](https://10az.online.tableau.com/#/site/gitlab/views/HVSFeedbackTracker/PortalCancelEventsSummary?:iid=1) is how the team will monitor most of the feedback sources. The has created views on each feedback source in one workbook, making it easily accessible to read and action on said feedback.
 
 ### Case feedback
 
@@ -142,7 +142,7 @@ Below are the DRIs to facilitate the investigation of the appropriate feedback t
 <td>
 
 - Monitor case feedback weekly or bi-weekly to identify notable feedback
-- Involve additional GDS leadership team members if needed, and then create appropriate issue to kickstart investigation
+- Involve additional HVS leadership team members if needed, and then create appropriate issue to kickstart investigation
 - Gain additional examples if needed from advocates or support
 
 </td>
@@ -206,7 +206,7 @@ Below are the DRIs to facilitate the investigation of the appropriate feedback t
 <tr>
 <td>
 
-Call recordings, customer emails, or ad-hoc posts on `#global-digital-smb_feedback channel`
+Call recordings, customer emails, or ad-hoc posts on `#hvs_public channel`
 </td>
 <td>
 
