@@ -2,8 +2,6 @@
 title: "Data Governance and Quality Analyst"
 ---
 
-## Data Governance and Quality Analyst Roles at GitLab
-
 This role will be part of Data Governance and Data Quality team that comes under the larger umbrella of Data and Insights organization.
 The Data Governance and Data Quality Analyst will collaborate with cross-functional teams to implement and enforce data governance standards, manage data catalog, perform data quality assessments, and contribute to the overall success of the Data governance and data quality program and roadmap.
 
