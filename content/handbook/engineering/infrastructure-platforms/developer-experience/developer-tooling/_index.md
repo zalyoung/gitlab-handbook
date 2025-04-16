@@ -53,9 +53,9 @@ Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=c
 
 ## Communication
 
-| Description            | Link                                                                                                           |
-| ---------------------- |----------------------------------------------------------------------------------------------------------------|
-| **GitLab Team Handle** | [`@gl-dx/developer-tooling`](https://gitlab.com/gl-dx/developer-tooling)                                       |
-| **Slack Channel**      | [`#g_developer_tooling`](https://gitlab.enterprise.slack.com/archives/C07UW7F3FL2)                             |
-| **Team Issue Board**        | [Team Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/8974136?label_name%5B%5D=group%3A%3Adeveloper+tooling&iteration_id=Current) |
-| **Issue Tracker**      | [`gitlab-org/dx/tooling/team`](https://gitlab.com/gitlab-org/quality/tooling/team/-/issues/)                   |
+| Description            | Link                                                                                                                                         |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **GitLab Team Handle** | [`@gl-dx/developer-tooling`](https://gitlab.com/gl-dx/developer-tooling)                                                                     |
+| **Slack Channel**      | [`#g_developer_tooling`](https://gitlab.enterprise.slack.com/archives/C07UW7F3FL2)                                                           |
+| **Team Issue Board**   | [Team Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/8974136?label_name%5B%5D=group%3A%3Adeveloper+tooling&iteration_id=Current) |
+| **Issue Tracker**      | [`gitlab-org/dx/tooling/team`](https://gitlab.com/gitlab-org/quality/tooling/team/-/issues/)                                                 |
