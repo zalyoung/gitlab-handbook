@@ -478,16 +478,16 @@ The GitLab Zoekt integration can be configured through:
 
 The rollout strategy has followed these steps:
 
-1. Initial availability for `gitlab-org` group
-1. Improvements to monitoring and performance
-1. Expansion to select customers with high code search needs
-1. Implementation of sharding and replication for scalability
-1. Gradual rollout to more licensed groups
-1. Implementation of automatic balancing of shards
-1. Assessment of costs and performance for broader rollout
-1. Continued performance improvements
-1. Availability to the majority of licensed groups on GitLab.com
-1. General availability to all licensed groups on GitLab.com (pending)
+- [x] Initial availability for `gitlab-org` group
+- [x] Improvements to monitoring and performance
+- [x] Expansion to select customers with high code search needs
+- [x] Implementation of sharding and replication for scalability
+- [x] Gradual rollout to more licensed groups
+- [x] Implementation of automatic balancing of shards
+- [x] Assessment of costs and performance for broader rollout
+- [x] Continued performance improvements
+- [x] Availability to the majority of licensed groups on GitLab.com
+- [ ] General availability to all licensed groups on GitLab.com (pending)
 
 For self-managed instances, administrators can enable Zoekt by installing the required components and enabling the feature in the admin area.
 
