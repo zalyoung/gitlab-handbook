@@ -17,19 +17,10 @@ The Data Team Organization model is guided by three primary business needs:
 
 Based on these needs, the Data Team is organized in the following way:
 
-1. **Data Pods:** Pods are assembled to provide concentrated focus on delivering & maintaining **data products** for **strategic company initiatives**. Pods are staffed with multiple data personas including Data Analyst, Data Scientist, Analytics Engineer, and supported by Data Engineer as stable counterpart.
 1. **[Analytics Engineering](/handbook/enterprise-data/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
 1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
 1. **[Data Science Team](/handbook/enterprise-data/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
 1. **[Data Governance and Data Quality Team](/handbook/enterprise-data/):** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement. 
-
-## Data Pod Assignments
-
-| POD                       | Data Product Manager | Analytics Engineer                     | Data Analyst    | Data Scientist |
-| ------------------------- | -------------------- | -------------------------------------- | --------------- | -------------- |
-| Company KPIs              |  @iweeks          | @dantenel @chrissharp @annapiaseczna @j_kim    | @annie-analyst  |                |
-| Customer Intelligence     |  @nmcavinue          |                                | @jonglee1218      |                |
-| Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 @lisvinueza |                 |                |
 
 ## Analytics Engineering - Stable Counterpart Assignments
 
@@ -42,46 +33,28 @@ Based on these needs, the Data Team is organized in the following way:
 | Product          |  Product Data Insights            |  @michellecooper        |
 | Engineering      |  Engineering Analytics            |  @michellecooper        |
 | Security         |  Engineering Analytics            |  @michellecooper        |
-| Support          |  N/A                              |  @michellecooper        |
+| Support          |  N/A                              |  TBD                    |
 | People           |  People Analytics                 |  @rakhireddy            |
-| R&D              |  Product Usage Data Architecture Steering Committee | @pempey |
-
-## Data Platform Team Stable Counterpart Assignments
-
-| POD | Data Engineer |
-| --- | ------------- |
-| Enterprise Metrics | @csnehansh |
-| Customer Intelligence | @rigerta |
-| Customer Product Adoption | @juwong |
 
 ### Manager, Data
 
-In support of the Data Pod, the Manager, Data fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilites:
+The Manager, Data fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilites:
 
 1. Works with the Director, Data to envision and draft Quarterly Objectives, driven by requirements gathered from multiple business partners.
-1. Monitor, measure, and improve key aspects of the Data Pods.
+1. Monitor, measure, and improve key aspects of the Enterprise Data Team.
 1. Regularly meet with business partners to understand and solve for data needs.
-1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests submitted by the Data Pod and stable counterparts.
+1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests.
 
 ### Lead Analytics Engineer (Stable Counterparts for the Business)
 
-In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
+The Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
 
 1. Own one or more stakeholder relationship in Go To Market, Research & Development, General & Administrative, Financial Analytics, or Engineering Analytics business functions.
 1. Co-DRI of Key Results along with the Manager, Data.
 1. Lead [work breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdowns) sessions for OKRs.
 1. Work with functional stakeholders to prioritze `P3-Other` issues.
-1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests submitted by the Data Pod and stable counterparts.
+1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests.
 1. Review the weekly stand-up and provide support as needed to unblock team members and answer questions.
-
-### Data Platform Team Stable Counterpart
-
-Following the GitLab [Stable Counterpart](/handbook/leadership/#stable-counterparts) principles, every **Data Pod** have a **Data Platform Team** Stable Counterpart assigned. The Data Platform Stable Counterpart divides their time, work and priorities between the Data Platform Team and Data Pod (general an average of 50% each, P2-OKR scheduled ahead of the quarter in collaboration with the respective Pod). The Stable Counterpart is aware of the direction and priorities of the Data Pod and when needed brought into discussion with the Data Platform Team. I.e. when there is a bigger demand than the Stable Counterpart can handle in the assigned availability or architectural direction needs to change. The Stable Counterpart recognize, flags and address this with the applicable stakeholders (in general the Lead/DRI of the Data Platform Team and the Data Pod).
-
-The stable counterpart is expected to participate in the following meetings asynchronously or synchronously. When in doubt, please reach out to the Data Pod Manager to learn which meetings on the calendar you should participate in. In general, the meetings in scope are as follows:
-
-1. Data Pod Iteration Planning Meetings.
-1. Data Pod Team Meetings.
 
 ## Data Program Recruiting
 
