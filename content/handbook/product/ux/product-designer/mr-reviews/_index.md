@@ -178,7 +178,7 @@ Some MRs require additional set up:
 
 **After review**:
 
-- [Keep yourself as a reviewer](/https://docs.gitlab.com/development/code_review/#dogfooding-the-reviewers-feature) and post a summary comment, indicating if any changes are required.
+- [Keep yourself as a reviewer](https://docs.gitlab.com/development/code_review/#dogfooding-the-reviewers-feature) and post a summary comment, indicating if any changes are required.
 - Create follow-up issues for any outstanding UX concerns that deviate from the Minimal Valuable Change (MVC), labeling them as `Deferred UX` (details on [UX labels](/handbook/product/ux/#ux-labels)).
 
 **Follow-up with authors**:
