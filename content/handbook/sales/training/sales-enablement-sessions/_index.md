@@ -23,13 +23,13 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| May 1 |   Support Team Overview      |  Customer Success   |
+| May 1 |   **No Session**      |     |
 | May 7 |   GitLab Duo Special       |     |
 | May 15 |  Business Value Platform Updates       |  RSO Team  |
 | May 22 |  Embedded Systems in the Automotive, Aerospace, and Electronics Verticals       |  Marketing  |
 | May 29 |  SFDC Product Data Integration       |  RSO Team   |
-| Jun 5 |   TBD      |    |
-| Jun 12 |   TBD      |    |
+| Jun 5 |   Customer & Ecosystems Quoting Update     |  Deal Desk & Ecosystems  |
+| Jun 12 |   Support Team Overview     | Customer Success  |
 | Jun 19 |   TBD     |    |
 | Jun 26 |   TBD      |    |
 | Jul 3 |   Hosted Runners for GitLab Dedicated      |  Product Marketing  |
