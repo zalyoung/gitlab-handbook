@@ -139,7 +139,6 @@ closely in order to deliver a significantly enhanced support experience.
 - Establish and document clear communication agreements with each account regarding preferred methods of interaction, expected response times, and escalation procedures, and review these regularly to ensure continued alignment
 - Assist with emergency tickets submitted by accounts during business hours for their ASE contract
 
-
 #### What is it like to be an ASE?
 
 We asked some questions of our two first ASEs, Harish and Gerardo, to find out about the work life of an ASE. See what they had to say:
