@@ -2,7 +2,7 @@
 
 A team can be added as the second layer of responders to assist SRE on-call engineers in troubleshooting complex incidents that they do not have enough context about
 
-# Expectations
+## Expectations
 
 - Respond when paged by the Tier 1 EOC, Incident Lead (.com or Dedicated), Security, or Self-Managed Support.
 
@@ -14,11 +14,10 @@ A team can be added as the second layer of responders to assist SRE on-call engi
 
 - Help define and maintain incident severity criteria and escalation rules for their domain.
 
-# How to onboard your team
+## How to onboard your team
 
 - Create an onboarding issue from the [Team incident onboarding template](<to-be-updated>)
 - Ensure that the rota covers known low-coverage periods such as holiday seasons or team events.
 - Establishing the pager that is used to reach the on-call engineer in this rota.
 - Establishing rules of engagement for when a group is paged.
 - Escalation chain for times when the initial page is not acknowledged within 15 minutes.
-
