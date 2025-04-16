@@ -53,6 +53,7 @@ Go to the My Assigned Tickets view in Zendesk. For each ticket you wish to summa
    - Blockers?
    - Return Date.
 3. Feel free to also ask regional peers if they can pickup tickets in other forms of communication, such as Slack, but Zendesk should remain as the single source of truth for tickets that need attention from other team members.
+4. At the end of your last work day before taking PTO, update your availability using the [Out of Office](/handbook/security/customer-support-operations/docs/zendesk/apps#out-of-office) app in Zendesk. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make unavailable` button on the row with your user information in it.  Please note it is important that you do this in order for tickets to be unssigned when the customer responds. 
 
 #### PTO FlowChart 
 
