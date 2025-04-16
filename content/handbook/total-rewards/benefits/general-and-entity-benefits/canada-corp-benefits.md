@@ -162,7 +162,7 @@ Effective November 1, 2021, eligible Canadian Team Members can enroll in GitLab'
 - Match: GitLab will match up to 3% of base salary with a cap of 2,500 CAD. Team members may voluntarily choose to contribute more than 3% with no employer match.
 - Eligibility criteria: All full-time (defined as working at least 30 hours per week) team members of GitLab Canada Corp.
 - Contributions may be updated at any time, but please allow 1 - 2 payroll cycles for the new contribution amount to reflect in your paycheck.
-- Withdrawals are not permitted on the employer or member portion.  If the member has a voluntary account than they are permitted.
+- Effective April 2025, transfers and withdrawals are permitted.
 
 ### RRSP Enrollment
 
