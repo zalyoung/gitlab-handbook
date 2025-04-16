@@ -75,7 +75,7 @@ We strive to be as transparent as possible, but this section is only for GitLab 
 
 ### Content library
 
-The [life at GitLab content library](/handbook/marketing/developer-relations/technical-marketing/content-library/) is a curated list of blog posts, articles, videos, awards, and quick facts that help tell the story of life at GitLab.
+The [life at GitLab content library](https://handbook.gitlab.com/handbook/people-group/employment-branding/content-library/) is a curated list of blog posts, articles, videos, awards, and quick facts that help tell the story of life at GitLab.
 
 ### GitLab talent ambassadors
 
