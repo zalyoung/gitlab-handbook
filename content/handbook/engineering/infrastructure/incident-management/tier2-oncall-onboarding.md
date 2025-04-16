@@ -1,6 +1,8 @@
-# Tier-2 Oncall
+---
+title: "Tier-2 Oncall"
+---
 
-A team can be added as the second layer of responders to assist SRE on-call engineers in troubleshooting complex incidents that they do not have enough context about
+A team can be added as the second layer of responders to assist SRE on-call engineers in troubleshooting complex incidents that they do not have enough context about. These Subject Matter Expert (SME) teams provide specialized knowledge and support to ensure faster incident resolution.
 
 ## Expectations
 
@@ -14,9 +16,11 @@ A team can be added as the second layer of responders to assist SRE on-call engi
 
 - Help define and maintain incident severity criteria and escalation rules for their domain.
 
+- Participate in post-incident reviews to improve response processes.
+
 ## How to onboard your team
 
-- Create an onboarding issue from the [Team incident onboarding template](<to-be-updated>)
+- Create an onboarding issue from the **Team incident onboarding template** (To be added later)
 - Ensure that the rota covers known low-coverage periods such as holiday seasons or team events.
 - Establishing the pager that is used to reach the on-call engineer in this rota.
 - Establishing rules of engagement for when a group is paged.
