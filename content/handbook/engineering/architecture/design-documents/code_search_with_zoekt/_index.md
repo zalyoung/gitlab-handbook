@@ -504,14 +504,48 @@ To monitor the health and performance of the Zoekt integration, GitLab provides:
 
 ### Watermark Management
 
-The Zoekt integration includes a sophisticated watermark management system to ensure efficient use of storage:
+The Zoekt integration implements a sophisticated watermark management system that operates at both the node level and index level to ensure efficient storage utilization while preventing resource exhaustion.
 
-1. **Low Watermark (60-70%)**: Triggers rebalancing to avoid reaching higher levels
-1. **High Watermark (70-75%)**: Signals potential storage pressure and prioritizes rebalancing
-1. **Critical Watermark (85%+)**: May pause indexing to prevent node overload
-   while performing evictions
+#### Node-Level Watermarks
 
-This system ensures that storage is used efficiently while preventing nodes from running out of space.
+Each Zoekt node has watermark thresholds based on the percentage of total disk space used:
+
+1. **Low Watermark (60%)**: When disk usage exceeds this threshold, GitLab starts taking proactive measures to avoid reaching higher levels
+1. **High Watermark (75%)**: Signals potential storage pressure and prioritizes rebalancing actions
+1. **Critical Watermark (85%)**: May pause new indexing operations to prevent node overload while performing evictions
+
+These node-level watermarks are used for overall node health monitoring and to make decisions about task assignment and index reallocation.
+
+#### Index-Level Watermarks
+
+In addition to node-level watermarks, each index within a node has its own watermark levels based on the ratio of used storage to reserved storage:
+
+1. **Ideal Storage Utilization (60%)**: Target level for optimal operation
+1. **Low Watermark (70%)**: Triggers evaluation for potential rebalancing
+1. **High Watermark (75%)**: Indicates the index is consuming more storage than expected
+1. **Critical Watermark (80%)**: May trigger eviction processes for this specific index
+
+Each index has an associated `watermark_level` enum state that reflects its current status:
+
+- `healthy`: Operating within expected parameters
+- `overprovisioned`: Using less than the ideal storage percentage (has more reserved space than needed)
+- `low_watermark_exceeded`: Exceeded the low watermark threshold
+- `high_watermark_exceeded`: Exceeded the high watermark threshold
+- `critical_watermark_exceeded`: Exceeded the critical watermark threshold
+
+#### Storage Reservation Mechanism
+
+The system uses a storage reservation mechanism where:
+
+1. Each index maintains a `reserved_storage_bytes` value representing its allocation
+1. The node tracks its total `usable_storage_bytes` and the sum of all index reservations
+1. When an index needs more storage, it attempts to claim additional bytes from the node's unclaimed storage
+1. Indices in a `ready` state can both increase and decrease their reservations as needed
+1. Indices in initialization states can only increase their reservations until they're fully indexed
+
+This reservation system prevents overcommitment of storage while allowing flexible allocation based on actual needs. If a node approaches its critical watermark, indices may be marked for eviction to reclaim space.
+
+The combination of node-level and index-level watermarks provides a comprehensive approach to storage management, ensuring efficient resource utilization while preventing resource exhaustion at both the node and index levels.
 
 ## Conclusion
 
