@@ -58,7 +58,7 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 
 #### Mermaid charts
 
-```plaintext
+````plaintext
 ```mermaid
       flowchart TB;
 
@@ -67,8 +67,8 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
          art[Artifact];
          proc -->|IO relation|art;
       end
-\`\`\`
 ```
+````
 
 #### Videos
 
@@ -86,7 +86,7 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
 
 #### Code blocks with syntax highlighting
 
-```plaintext
+````plaintext
 ```json
     {
         "Version": "2012-10-17",
@@ -106,5 +106,5 @@ Video Tutorials can be found at the following [playlist](https://www.youtube.com
             }
         ]
     }
-\`\`\`
 ```
+````
