@@ -21,7 +21,7 @@ This document outlines the technical vision, principles, and key architectural d
 
 We propose a phased implementation of SLSA Level 3 compliance across GitLab CI/CD pipelines using modular and reusable components. Each phase addresses a critical step:
 
-1. In-Pipeline Sigstore Attestation Generation (Phase 1): Build and sign provenance within the pipeline.
+1. In-Pipeline Provenance Generation and Verification using Sigstore (Phase 1): Generate and verify provenance attestation within the pipeline.
 1. In-Pipeline Data Collection (Phase 2): Collect granular build metadata for enriched provenance.
 1. Platform Indication of Provenance Data (Phase 3): Integrate GitLab platform-specific metadata into provenance.
 1. Out-of-Pipeline Signing (Phase 4): Enable external, KMS-based artifact signing for better security.
@@ -31,7 +31,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ## Goals
 
-1. Provide a modular and reusable GitLab CI component for generating and signing SLSA-compliant provenance.
+1. Provide modular and reusable GitLab CI components for generating and verifying SLSA provenance attestations.
 1. Collect detailed build metadata for supported ecosystems (e.g., containers, Go, Maven).
 1. Embed GitLab-specific platform data (e.g., pipeline variables, commit IDs) into provenance for traceability.
 1. Support out-of-pipeline signing via secure KMS or HSM, isolating signing keys from build environments.
@@ -49,7 +49,9 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 ## Terminology/Glossary
 
 1. SLSA: Supply-chain Levels for Software Artifacts, a framework for improving supply chain security.
-1. Provenance: Metadata that describes how an artifact was built, including the source code, dependencies, and environment.
+1. Provenance predicate: Metadata that describes how an artifact was built, including the source code, dependencies, and environment.
+1. Provenance statement: Document that binds a provenance predicate to a software artifact.
+1. Provenance attestation: Envelope that combines a provenance statement with a signature.
 1. Sigstore: An open-source tool for signing, verifying, and storing software artifacts securely (e.g., cosign and gitsign).
 1. OIDC Token: Short-lived, identity-based tokens issued by GitLab CI for secure signing.
 1. Runner: A build agent that executes GitLab CI/CD pipeline jobs.
@@ -59,7 +61,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ## Assumptions
 
-1. Provenance Generation: Use Sigstore tools (cosign) to generate and sign provenance files.
+1. Provenance Generation: Use Sigstore tools (cosign) to generate provenance attestations.
 1. Reusable Components: Build modular GitLab CI components for easy adoption across projects.
 1. Data Collection: Use both build-specific tools (e.g. go, maven) and GitLab platform metadata for provenance enrichment.
 1. Signing Methods:
@@ -72,11 +74,12 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ## Design Details
 
-### Phase 1: In-Pipeline Sigstore Attestation Generation
+### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
 
-1. Generate provenance metadata using Sigstore tools (cosign).
+1. Generate provenance attestations using Sigstore tools (cosign).
 1. Leverage GitLab CI’s OIDC tokens for secure and short-lived credentials.
-1. Build a reusable GitLab CI component that can be easily included in pipelines.
+1. Verify provenance attestations and generate Verification Summary Attestations (VSA).
+1. Build reusable GitLab CI components that can be easily included in pipelines.
 
 ### Phase 2: In-Pipeline Data Collection
 
@@ -106,10 +109,10 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ## Implementation Plan
 
-### Reusable GitLab CI Component
+### Reusable GitLab CI Components
 
-1. Define the structure of the component (e.g., input/output variables, artifact paths).
-1. Create templates for users to integrate the component into their .gitlab-ci.yml files.
+1. Define the structure of the components (e.g., input/output variables, artifact paths).
+1. Create templates for users to integrate the components into their .gitlab-ci.yml files.
 
 ### Key Implementation Projects
 
