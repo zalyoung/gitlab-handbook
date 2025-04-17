@@ -171,7 +171,7 @@ service, but given the following needs:
   (even if there are multiple replicas of the repository) because knowledge
   graph service will keep open DB connections for recently used DBs
 
-we will use similar strategy as [Zoekt searching](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/code_search_with_zoekt/#high-level-proposal):
+we will use similar strategy as [Zoekt searching](/handbook/engineering/architecture/design-documents/code_search_with_zoekt/#high-level-proposal):
 
 - Graph nodes register themselves with GitLab by providing their address, name, and status
 - GitLab maintains a registry of nodes with their status, capacity, and assignments
