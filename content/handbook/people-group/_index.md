@@ -155,7 +155,7 @@ Please note that the source of truth for role responsibilites is the job family 
 | -------------- | ----------------- |
 | [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/) | 2 weeks prior to start date |
 | [Offboarding](/handbook/people-group/offboarding/offboarding_standards/) | Immediate action for involuntary & 24 hours for voluntary |
-| [Career Mobility](/handbook/people-group/promotions-transfers/#career-mobility-issue) | Within 24 hours |
+| [Organizational Changes](/handbook/people-group/promotions-transfers/#organization-change-checklist) | Within 3 days of effective date of change |
 | [Letters of Employment](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
 | [Employment Verification](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
 | [Anniversary Emails](/handbook/people-group/celebrations/#anniversary-gifts) | First day of the following month |
