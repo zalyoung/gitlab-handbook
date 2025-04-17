@@ -1,6 +1,6 @@
 ---
 title: "Professional Services Project Management"
-description: "The GitLab PMO & Delivery team accelerates Customer time to value through excellence in Professional Services Delivery. We work to deliver Projects within the agreed scope, timeline, and budget while embracing iteration to address evolving customer needs. Our success is measured by delivering solutions that enable customers to fully realize the benefits of GitLab products. You can find the list of PS Offerings [here](https://about.gitlab.com/services/)."
+description: "The GitLab PMO & Delivery team accelerates Customer time to value through excellence in Professional Services Delivery. Throughout the [PS Customer Journey](https://lucid.app/lucidchart/13d16253-7bba-4082-9b72-761c6105c7ed/edit?viewport_loc=-24156%2C-2407%2C3862%2C1831%2Cm-5o7ONTd-nK&invitationId=inv_6a3429e9-eb45-4a96-b300-dc11bd10ff35), we work to deliver Projects within the agreed scope, timeline, and budget while embracing iteration to address evolving customer needs. Our success is measured by delivering solutions that enable customers to fully realize the benefits of GitLab products. You can find the list of PS Offerings [here](https://about.gitlab.com/services/)."
 ---
 
 - [Project Initiate & Plan](#project-initiate--plan)
