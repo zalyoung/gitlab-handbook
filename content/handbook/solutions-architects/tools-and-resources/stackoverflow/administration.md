@@ -19,14 +19,14 @@ StackOverflow Admins have the following responsibilities:
 
 The current Admins are:
 
-- {{< member-by-name "David Astor" >}}
-- {{< member-by-name "Jonathan Fullam" >}}
-- {{< member-by-name "Tiffany McAteeAdmin" >}}
-- {{< member-by-name "Brian Will" >}}
-- {{< member-by-name "Mike Lindsay" >}}
-- {{< member-by-name "Kathleen Rintelman-Betances" >}}
-- {{< member-by-name "Mitchell Hanks" >}}
-- {{< member-by-name "Ancil McBarnett" >}}
+- {{< member-by-name "David Astor" >}} representing the SA Org
+- {{< member-by-name "Jonathan Fullam" >}} representing the SA Org
+- {{< member-by-name "Tiffany McAtee" >}} representing the CS Org
+- {{< member-by-name "Brian Will" >}} representing the PS Org
+- {{< member-by-name "Mike Lindsay" >}} representing the PS Org
+- {{< member-by-name "Kathleen Rintelman-Betances" >}} representing Sales Operations
+- {{< member-by-name "Mitchell Hanks" >}} representing the SMB Sales Org
+- {{< member-by-name "Ancil McBarnett" >}} representing the SA Org
 
 ### Community Managers
 
@@ -42,8 +42,8 @@ Community Managers are typically employees of Stack Overflow who:
 The current Community Managers are:
 
 - {{< member-by-name "David Astor" >}} representing the SA Org
-- {{< member-by-name "Tiffany McAteeAdmin" >}} representing the CS Org
-- {{< member-by-name "SeanJohn Hoyle" >}} representing the CS Org
+- {{< member-by-name "Tiffany McAtee" >}} representing the CS Org
+- {{< member-by-name "Sean Hoyle" >}} representing the CS Org
 - {{< member-by-name "Brian Will" >}} representing the PS Org
 - {{< member-by-name "Mike Lindsay" >}} representing the PS Org
 - {{< member-by-name "Mitchell Hanks" >}} representing the SMB Sales Org
