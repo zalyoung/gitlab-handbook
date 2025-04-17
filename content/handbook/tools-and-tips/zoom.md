@@ -167,7 +167,7 @@ There are a few steps to get this enabled for personal meetings:
 1. Go to [settings page](https://gitlab.zoom.us/profile/setting).
 1. In the [Meeting](https://gitlab.zoom.us/profile/setting?tab=meeting) tab under `Security`, find the option `Waiting room` and enable it for all participants.
 1. You can go to `Customize Waiting Room` to use the default Zoom screen, GitLab branded logo/video, or a custom image, for participants in the waiting room to see before the host joins the meeting. You will need to enter a title for the video and press "Save".
-  1. By default it is set to the GitLab branded video
+   - By default it is set to the GitLab branded video.
 
 ![Zoom Waiting Room](/images/tools-and-tips/zoom-waiting-room-video.png)
 
