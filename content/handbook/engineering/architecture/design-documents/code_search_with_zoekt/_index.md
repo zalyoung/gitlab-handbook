@@ -99,7 +99,8 @@ Here's a screenshot of the new UI:
 
 #### Unified Binary: `gitlab-zoekt`
 
-One significant improvement in the implementation is the introduction of a unified binary called `gitlab-zoekt`, which replaces the previously separate binaries (`gitlab-zoekt-indexer` and `gitlab-zoekt-webserver`). This unified binary can operate in two distinct modes:
+Zoekt comes with it's own binaries for indexing and searching. Initially we used some of these and we started to build out our own binaries over time. We then pivoted to a single binary for both indexing and searching.
+We call this unified binary `gitlab-zoekt`, which replaces the previously separate binaries (`gitlab-zoekt-indexer` and `gitlab-zoekt-webserver`). This is a Go codebase which uses public modules from the Zoekt codebase as a library, rather than using the binaries directly. This unified binary can operate in two distinct modes:
 
 - **Indexer mode**: Responsible for indexing repositories
 - **Webserver mode**: Responsible for serving search requests
@@ -113,12 +114,15 @@ Having a unified binary simplifies deployment, operation, and maintenance of the
 
 #### Database Models
 
+Zoekt is not a distributed database (like Elasticsearch) or even really a database service (like Postgres) but instead it's a set of Go modules (and binaries) that interact with index files on disk. It supports creating index files and searching them. Since we needed to build a higher level distributed, clustered and replicated search engine on top of it we needed to manage all of the lifecycle of Zoekt processes and indexes somewhere. We chose to store all this lifecycle data in Rails and Zoekt processes periodically poll Rails state to figure out what to do next.
+
+
 GitLab uses several database models to manage Zoekt:
 
 - **[`Search::Zoekt::EnabledNamespace`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_enabled_namespaces.yml)**: Tracks which top-level namespaces have Zoekt enabled
 - **[`Search::Zoekt::Node`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_nodes.yml)**: Represents a Zoekt server node with information about its capacity, status, and configuration
 - **[`Search::Zoekt::Replica`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_replicas.yml)**: Manages replica relationships for high availability
-- **[`Search::Zoekt::Index`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_indices.yml)**: Manages the index state for a namespace, including storage allocation and watermark levels
+- **[`Search::Zoekt::Index`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_indices.yml)**: Manages the index state for a top level namespace, including storage allocation and watermark levels
 - **[`Search::Zoekt::Repository`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_repositories.yml)**: Represents a project repository in Zoekt with indexing state
 - **[`Search::Zoekt::Task`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_tasks.yml)**: Tracks indexing tasks (index, force_index, delete) that need to be processed by Zoekt nodes
 
@@ -303,6 +307,8 @@ Zoekt implements a self-registering node architecture inspired by GitLab Runner:
 
 This architecture makes the system self-configuring and facilitates easy scaling.
 
+Unlike the GitLab Runner the Zoekt nodes authenticate with a shared secret managed at the infrastructure level and cannot be registered by users. So self-registration is more of a convenience for the operator rather than a feature for users.
+
 #### Sharding Strategy
 
 1. Groups/namespaces are assigned to specific Zoekt nodes for indexing and searching
@@ -362,6 +368,8 @@ Currently, GitLab typically creates a single replica record per namespace, but t
 - **Independent Scaling**: Search and indexing capacity can be scaled independently by adding more nodes
 
 This design prioritizes operational simplicity and reliability while still providing the necessary redundancy for high availability.
+
+Since our Zoekt database is not a source of truth (ie. it simply syncing repos from Gitaly) we do not need to worry about assigning specific replicas to be a "primary" or "leader". Instead we just let the replicas independently sync data from Gitaly and assume that each time they update the index they will get the new source of truth.
 
 ### Deployment Options
 
@@ -518,7 +526,7 @@ These node-level watermarks are used for overall node health monitoring and to m
 
 #### Index-Level Watermarks
 
-In addition to node-level watermarks, each index within a node has its own watermark levels based on the ratio of used storage to reserved storage:
+In addition to node-level watermarks, each index within a node has its own watermark levels based on the ratio of used storage to [reserved storage](#storage-reservation-echanism):
 
 1. **Ideal Storage Utilization (60%)**: Target level for optimal operation
 1. **Low Watermark (70%)**: Triggers evaluation for potential rebalancing
