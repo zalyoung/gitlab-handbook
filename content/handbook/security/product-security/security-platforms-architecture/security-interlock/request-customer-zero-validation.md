@@ -63,9 +63,12 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 
 ## Timeline Expectations
 
-The Product Security Team is excited to partner with you to make GitLab's security features the best they can be! While we strive to accommodate all requests, we recommend Product Managers submit requests at least 10 calendar days before the milestone when you'd like our feedback to be delivered. This advance notice helps us allocate capacity to provide you with the most thorough and valuable feedback.
+The Product Security Team is excited to partner with you to make GitLab's security features the best they can be! While we strive to accommodate all requests as quickly as possible, our response timelines follow these Service Level Objectives (SLOs):
 
-For critical features, consider engaging with us early and through multiple request types for the best collaborative results.
+- **Requests received at least 10 calendar days before the next milestone starts**: We'll provide feedback within the next milestone
+- **Requests received later than 10 days before the next milestone starts**: Our response will typically be provided in milestone+2
+
+This advance notice helps us allocate capacity to provide you with the most thorough and valuable feedback. For critical features, consider engaging with us early and through multiple request types for the best collaborative results.
 
 ## Remember
 
