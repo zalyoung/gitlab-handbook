@@ -116,7 +116,6 @@ Having a unified binary simplifies deployment, operation, and maintenance of the
 
 Zoekt is not a distributed database (like Elasticsearch) or even really a database service (like Postgres) but instead it's a set of Go modules (and binaries) that interact with index files on disk. It supports creating index files and searching them. Since we needed to build a higher level distributed, clustered and replicated search engine on top of it we needed to manage all of the lifecycle of Zoekt processes and indexes somewhere. We chose to store all this lifecycle data in Rails and Zoekt processes periodically poll Rails state to figure out what to do next.
 
-
 GitLab uses several database models to manage Zoekt:
 
 - **[`Search::Zoekt::EnabledNamespace`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/docs/zoekt_enabled_namespaces.yml)**: Tracks which top-level namespaces have Zoekt enabled
