@@ -484,18 +484,15 @@ A new [gRPC-based federated search capability](https://gitlab.com/gitlab-org/git
 The gRPC federated search offers several advantages:
 
 1. **More efficient communication**: gRPC uses HTTP/2 for transport, providing better performance than HTTP/1.1
-1. **Streaming results**: Results can be streamed as they're found, rather than waiting for all results
-1. **Reduced latency**: Faster response times, especially for searches across many repositories
+1. **Streaming between Zoekt nodes**: Results are streamed between Zoekt nodes as they're found, allowing the coordinating node to stop requesting results from other nodes once it has gathered enough matches
+1. **Reduced latency**: Faster response times, especially for searches across many repositories, achieved through:
+   - Concurrent searches across multiple nodes
+   - Early termination once enough results are collected
+   - More efficient binary protocol with HTTP/2
+   - Processing results as they arrive rather than waiting for complete result sets
 1. **Better resource management**: More granular control over search processing limits
 
-These parameters provide powerful controls to:
-
-- Limit resource consumption during searches
-- Ensure early stopping for expensive searches
-- Balance search completeness against performance
-- Provide more predictable response times
-
-This gRPC-based federated search is especially beneficial for global searches that span many projects or groups, as it distributes the search load across multiple nodes while efficiently aggregating the results.
+It's important to note that while this implementation streams results between Zoekt nodes, the final results are still collected by the coordinating Zoekt node before being returned to Rails. The current implementation does not stream results to Rails. Instead, the performance benefits come from more efficient inter-node communication and the ability to stop searching once sufficient results are found, rather than exhaustively searching all repositories.
 
 ### Configuration Options
 
