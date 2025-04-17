@@ -116,7 +116,7 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
 - Maximum size of prefix is 20 bytes.
   - An exception should be raised if prefix is bigger than 20 bytes.
 - Minimum size of token is 40 bytes: `(min size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 27 + 1 + 2 + 1 + 2 + 7 = 40`
-- Maximum size of token without prefix is 313 bytes: `(max size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 300 + 1 + 2 + 1+ 2 + 7 = 313`
+- Maximum size of token without prefix is 313 bytes: `(max size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 300 + 1 + 2 + 1 + 2 + 7 = 313`
 - Maximum size of token with prefix is 333 bytes: `(max size of prefix) + (max size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 20 + 300 + 1 + 2 + 1 + 2 + 7 = 333`
 
 #### Additional information
@@ -187,7 +187,7 @@ Here's an example of a token having minimum id for a single routable part,
 with no prefix showing the minimum length of a token (40 bytes):
 
 ```text
-bzoxd_Rb5_cHeWe1JH56wr2FCBA.01.0r1pum4t4
+EL25d_AKXDUtqLnIQHEpkG86MQM.01.0r1ndkym2
 ```
 
 Here is its routing payload:
