@@ -290,35 +290,45 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 - [Remote.com](/handbook/hiring/talent-acquisition-framework/coordinator/#remotecom)
 - [Global Upside](/handbook/hiring/talent-acquisition-framework/coordinator/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-upside)
 - [Papaya](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-add-the-new-hire-to-the-papaya-platform)
+- [Global Expansion](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/coordinator/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-expansion-gx)
 - The following timelines to onboarding are advised:
 
 **Remote.com:** [remote.com onboarding timeline](https://support.remote.com/hc/en-us/articles/4411262104589-Employee-Onboarding-Timeline)
 
 | Country | Working days |
 |------|------|
-| Austria | 9 |
-| Denmark   | 9 |
-| Hungary | 9 |
-| Italy  | 9 |
-| Mexico  | 3 |
-| South Africa  | 5 |
-| Spain  | 7 |
-| Switzerland | 7 |
+| Denmark   | 3 |
+| Hungary | 4 |
+| Italy  | 3 |
+| Sweden  | 3 |
+| Luxembourg| 4 |
+| Switzerland | 8 |
+
+**Global Expansion:**
+
+Processing contracts for candidates hired via Global Expansion could take up to 10 bueisness days. 
+
+| Country | Working days |
+|------|------|
+| Austria  | 10 business days |
+| Chile  | 10 business days |
+| Costa Rica  | 10 business days |
+| Kenya  | 10 business days |
+| Latvia  | 10 business days |
+| Mexico  | 10 business days |
+| Philippines  | 10 business days |
+| South Africa  | 10 business days |
+| UAE  | 10 business days |
 
 **Global Upside:**
 
 | Country | Working days |
 |------|------|
-| India   | 7 business days |
-| Philippines   | 17 ( Including 7 business days for pre hire medical test and 3 business days for social registration) |
-| Kenya   | 7 business days |
-| Costa Rica   | 12 ( Including 5 business days for social registration) |
-| Latvia   | 8 ( Including 1 business day for social registration) |
-| Chile   | 12 ( Including 5 business days for social registration) |
+| India  | 10-14 business days |
 
 **Papaya**
 
-Processing for the United Arab Emirates could take up to a month, so we recommend start dates at least 6 weeks after the offer is generated.
+Processing for Italy (Dirigenti) could take up to a month, so we recommend start dates at least 6 weeks after the offer is generated.
 {{% /details %}}
 
 ## Other Hiring Pages
