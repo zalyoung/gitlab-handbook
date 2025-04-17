@@ -509,7 +509,7 @@ This section describes the approval chain after the People Business Partner subm
     - Add sign date field for the team member
     - **Note:** Make sure that **a)** "Set signing order" option has been selected while preparing the doc, and **b)** Select radio button instead of checkboxes as only radio button allows you to select the required field/mandatory field option. This prohibits the Manager to process the letter without checking the tasks on the letters.
 1. Save the signed letter to the respective team members [Documents Tab](https://docs.google.com/document/d/1ao_d_JxvqvZdqxlt4mBoHe1GcAhYT7B6YQoBgDxPdRE/edit) within their Workday Profile.
-1. If the [here mentioned criteria](/handbook/people-group/promotions-transfers/#career-mobility-issue) for an Organization Change Checklist is met the People Connect Specialists will receive an alert from Workday and ensure that an [issue is opened](/handbook/people-group/promotions-transfers/#career-mobility-issue-creation-process) for the transitioning team member.
+1. If the [here mentioned criteria](/handbook/people-group/promotions-transfers/#organization-change-checklist) for an Organization Change Checklist is met the People Connect Specialists will receive an alert from Workday and ensure that an [issue is opened](/handbook/people-group/promotions-transfers/#organization-change-checklist-creation-process) for the transitioning team member.
 
 ## Interim and Acting Roles
 
@@ -749,7 +749,7 @@ If you are unsure of the role, set up a coffee chat with the hiring manager to i
 
 ### Announcing Internal Promotions/Transfers
 
-While the [Organization Change Checklist](/handbook/people-group/promotions-transfers/#career-mobility-issue) aims to kick off the logistics of switching roles, the guidelines below are meant to guide the communication of internal promotions and transitions to ensure consistency and alignment from all parties involved.
+While the [Organization Change Checklist](/handbook/people-group/promotions-transfers/#organization-change-checklist) aims to kick off the logistics of switching roles, the guidelines below are meant to guide the communication of internal promotions and transitions to ensure consistency and alignment from all parties involved.
 
 1. Prior to any company-wide announcement, the team member should be given the opportunity to share the news with their immediate team members.
 1. Promotions typically also include equity grants. If the equity grant amount is not listed on the Job Change Letter, managers can navigate to Workday to find the amount to communicate to the team member following these steps:
@@ -817,7 +817,6 @@ Actions by both the current and new managers are required to set the team member
 - Reminding the team member to update their title on the team page, on their GitLab profile, in Zoom, in Slack and on professional networks like LinkedIn. If relevant, remind them to order new business cards as well.
 - If we are in the middle of Annual Compensation Review, it is encouraged that the current manager and new manager arrange a successful handover of the feedback, whether sync or async.
 - All migration tasks by the applicable team members need to be completed within 2 weeks of the migration start date.
-
 
 ## Promotions and Transfers of Employees in Commissionable Roles
 
