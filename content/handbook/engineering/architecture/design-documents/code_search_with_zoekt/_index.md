@@ -403,6 +403,30 @@ Key database tables include:
 - `zoekt_enabled_namespaces`: Configuration for which namespaces use Zoekt
 - `zoekt_replicas`: Manages replica relationships for high availability
 
+#### Database Model Relationships
+
+The following diagram illustrates the relationships between the database models:
+
+```mermaid
+classDiagram
+    class Node
+    class Index
+    class Repository
+    class Task
+    class EnabledNamespace
+    class Replica
+
+    Node "1" --> "*" Task : has_many tasks
+    Node "1" --> "*" Index : has_many indices
+
+    EnabledNamespace "1" --> "*" Replica : has_many replicas
+
+    Replica "1" --> "*" Index : has_many indices
+
+    Index "1" --> "*" Repository : has_many repositories
+    Repository "1" --> "*" Task : has_many tasks
+```
+
 Here's an example of the database structure for a namespace with multiple replicas and indices:
 
 ```mermaid
