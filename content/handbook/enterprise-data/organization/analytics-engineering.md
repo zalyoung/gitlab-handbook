@@ -50,7 +50,7 @@ Each sub-team has the following ceremonies. They can be at a cadence that makes 
 
 ## Analytics Engineering Leadership Roles
 
-- The Manager, Data provides leadership to the sub-teams as described [HERE](/handbook/enterprise-data/organization/#manager-data). 
+- The Manager, Data provides leadership to the sub-teams as described in the [Senior Manager, Data Job Family](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data)
 
 - Lead Analytics Engineer (Stable Counterpart for the Business)
   
