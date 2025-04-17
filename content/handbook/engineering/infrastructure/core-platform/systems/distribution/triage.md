@@ -49,6 +49,7 @@ Issues for triaging can be identified using the following criteria:
   * `for scheduling`
   * `maintainer-discussion`
   * `needs investigation`
+  * `Seeking community contributions`
 
 Such issues can be listed using the [issues filter](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&assignee_id=None&milestone_title=None&not[label_name][]=For%20Scheduling&not[label_name][]=awaiting%20feedback&not[label_name][]=maintainer-discussion)
 
@@ -97,6 +98,10 @@ triage duty can be summarized as follows
    assigning `For Scheduling` label so that it gets scheduled for one of the
    upcoming milestones (or even `Backlog` milestone). Also apply the severity
    labels as applicable.
+1. Try to engage the community using `Seeking community contributions` label where appropriate. The issues that are good
+   candidates for community contribution should have low severity and priority or have a valid workaround. They must be
+   in `workflow::ready for development` state. If the required change is simple and trivial use `quick win` label.
+   See [Omnibus examples](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/?label_name%5B%5D=Seeking%20community%20contributions).
 1. If an issue is a valid issue, and there is a valid workaround. Close the issue with details on the
    workaround, and open a follow up issue to fix the bug. Ensure the issue includes:
    1. Details on how to recreate the bug
