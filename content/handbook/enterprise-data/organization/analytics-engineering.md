@@ -48,6 +48,6 @@ Each sub-team has the following ceremonies. They can be at a cadence that makes 
 
 - Triage follows the Enterprise Data Team [Triage Process](/handbook/enterprise-data/how-we-work/triage/#triage-responsibilities). This is the primary intake process for P1-Ops issues.
 
-- The Manager, Data provides leadership to the sub-teams as described [HERE](/handbook/enterprise-data/organization/#manager,-data). 
+- The Manager, Data provides leadership to the sub-teams as described [HERE](/handbook/enterprise-data/organization/#manager-data). 
 
-- The Lead Analytics Engineer provides leadership to the sub-team as described [HERE](/handbook/enterprise-data/organization/#lead-analytics-engineer-stable). 
+- The Lead Analytics Engineer provides leadership to the sub-team as described [HERE](/handbook/enterprise-data/organization/#lead-analytics-engineer-stable-counterparts-for-the-business). 
