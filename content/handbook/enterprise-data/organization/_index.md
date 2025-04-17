@@ -181,8 +181,8 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
-| Complete People and Data Onboarding  | Extend an existing dbt [Trusted Data Models](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development) | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts|
-| Start attending Data Fusion Team and Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
+| Complete People and Data Onboarding  | Extend an existing dbt [Trusted Data Models](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development) | Run a project end-to-end as DRI | Create ERDs/Data Artifacts|
+| Start attending Business Team synchronous meetings | Perform [triage](/handbook/enterprise-data/how-we-work/triage/) activities | | |
 | Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ### Data Governance and Data Quality
