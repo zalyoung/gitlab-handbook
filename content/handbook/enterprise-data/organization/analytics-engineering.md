@@ -25,3 +25,29 @@ Additionally, the **Analytics Engineering Team** supports the following responsi
   - Help define and champion Data Quality practices and programs for GitLab data systems 
 - With the **Data Science and Enterprise Analytics Team**:
   - Provide Self-Service Data capabilities to help everyone leverage data and analytics
+
+## Analytics Engineering Organization
+
+The Analytics Engineering Organization is composed of sub-teams as follows:
+
+- GTM Analytics Engineering
+- R&D Analytics Engineering
+- Finance Analytics Engineering
+- People Analytics Engineering
+
+## Analytics Engineering Ceremonies
+
+Each sub-team has the following ceremonies. They can be at a cadence that makes sense for the sub-team and can also use asynchronous or synchronous approaches as agreed upon by the sub-team. It is optional for team members to attend the ceremonies of other pillars. Team members are encouraged to attend other pillar ceremonies where attendance adds value. 
+
+- Iteration Refinement Sync
+- Iteration Planning Sync
+- Sub-Team Meeting
+- Analytics Engineering Functional Team Sync (All Sub-Teams Attend)
+
+## Analytics Engineering Processes
+
+- Triage follows the Enterprise Data Team [Triage Process](/handbook/enterprise-data/how-we-work/triage/#triage-responsibilities). This is the primary intake process for P1-Ops issues.
+
+- The Manager, Data provides leadership to the sub-teams as described [HERE](/handbook/enterprise-data/organization/#manager,-data). 
+
+- The Lead Analytics Engineer provides leadership to the sub-team as described [HERE](/handbook/enterprise-data/organization/#lead-analytics-engineer-stable). 
