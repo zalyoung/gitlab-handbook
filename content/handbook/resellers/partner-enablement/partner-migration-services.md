@@ -88,7 +88,7 @@ Clone the repo and then with just a single command, the environment is ready to 
 
 ### Congregate
 
-[Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/) is GitLab's most mature migration solution and supports many options. **Note that migrations to SaaS require the involvement of GitLab PS due to restricted access to GitLab SaaS (multi-tenant) data.** More information about the latter can be found [here](/handbook/customer-success/csm/risk-mitigation/self-managed-vs-saas/).
+[Congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) is GitLab's most mature migration solution and supports many options. **Note that migrations to SaaS require the involvement of GitLab PS due to restricted access to GitLab SaaS (multi-tenant) data.** More information about the latter can be found [here](/handbook/customer-success/csm/risk-mitigation/self-managed-vs-saas/).
 
 Congregate is an open-source migration tool developed and maintained by the GitLab Professional Services team that orchestrates the end to end process of migrating an organization to GitLab. Congregate is the preferred method used by GitLab Professional Services because it supports the migration of [many features](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md) that the built-in GitLab product importers/exporters don't support.
 
