@@ -37,6 +37,7 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 |Sean Gillespie|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
 |Valentine Mairet|[Staff Security Engineer](/job-families/security/security-incident-response-team/#staff-security-incident-response-team-engineer)|
 |Yunus Khan|[Senior Security Engineer](/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer)|
+|Saksham Anand|[Security Engineer](/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate)|
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
