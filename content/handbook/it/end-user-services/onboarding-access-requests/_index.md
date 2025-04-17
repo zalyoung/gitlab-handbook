@@ -137,7 +137,7 @@ Any circumstance that falls outside of the listed exceptions or if GitLab IT dee
 
 GitLab approves and supports the use of Linux and Apple's macOS as the OS for employee laptops. To keep GitLab IT Support efficient, Windows is not supported as a hardware laptop OS.
 
-Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/) page.
+Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems for GitLab Team Member Endpoint Systems](https://internal.gitlab.com/handbook/security/corporate/operating-systems/) page.
 
 The operating system choices have obviously affected the hardware selection process.
 
