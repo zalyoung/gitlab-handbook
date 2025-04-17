@@ -31,7 +31,6 @@ This page is designed to educate our team members about the different GitLab-spe
 - [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-expansion/)
 - [Global Upside (India)](/handbook/total-rewards/benefits/general-and-entity-benefits/global-upside-benefits-india/)
 
-
 ### Parental Leave
 
 GitLab's paid Parental Leave is for any team member (regardless of gender) who becomes a parent through child birth or adoption.  To learn more about our Parental Leave policy and eligibility requirements, please refer to the [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) section in our handbook.
