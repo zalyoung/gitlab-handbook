@@ -547,12 +547,12 @@ These node-level watermarks are used for overall node health monitoring and to m
 
 #### Index-Level Watermarks
 
-In addition to node-level watermarks, each index within a node has its own watermark levels based on the ratio of used storage to [reserved storage](#storage-reservation-echanism):
+In addition to node-level watermarks, each index within a node has its own watermark levels based on the ratio of used storage to reserved storage:
 
 1. **Ideal Storage Utilization (60%)**: Target level for optimal operation
-1. **Low Watermark (70%)**: Triggers evaluation for potential rebalancing
-1. **High Watermark (75%)**: Indicates the index is consuming more storage than expected
-1. **Critical Watermark (80%)**: May trigger eviction processes for this specific index
+1. **Low Watermark (70%)**: Triggers evaluation for potential rebalancing or increasing reserved storage allocation
+1. **High Watermark (75%)**: Indicates the index is consuming more storage than expected and may prompt additional storage allocation if available
+1. **Critical Watermark (80%)**: May trigger eviction processes for this specific index or, if storage is available, a significant increase in reserved storage allocation
 
 Each index has an associated `watermark_level` enum state that reflects its current status:
 
@@ -561,6 +561,8 @@ Each index has an associated `watermark_level` enum state that reflects its curr
 - `low_watermark_exceeded`: Exceeded the low watermark threshold
 - `high_watermark_exceeded`: Exceeded the high watermark threshold
 - `critical_watermark_exceeded`: Exceeded the critical watermark threshold
+
+These watermark levels directly influence how storage allocation adjustments are made. Indices in the `ready` state can both increase their reserved storage when hitting higher watermarks (if node storage is available) or decrease their reservations when overprovisioned.
 
 #### Storage Reservation Mechanism
 
