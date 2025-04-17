@@ -31,19 +31,19 @@ The Enterprise Data Team collaborates internally via Key Results. Key Results ar
 3. Schedule recurring stand-ups and working sessions as needed with the Key Result Team. This can be either asynchronous or synchronous and at a frequency that makes sense for the Key Result.
 4. Provide a monthly update in the Key Result Issue in the OKR Project. Include percent complete and health status of the Key Result.
 
-## Analytics Engineering - Stable Counterpart Assignments
+## Analytics Engineering - Team and Stable Counterpart Assignments
 
-| Department / Division | Functional Analytics Team / Steering Committee | Analytics Engineer      |
-| ---------------- | --------------------------------- | ----------------------- |
-| Sales            |  Revenue Strategy and Analytics   |  @j_kim @dantenel       |
-| Marketing        |  Marketing Strategy and Analytics |  @dantenel              |
-| Finance          |  FP&A Analytics                   |  @annapiaseczna         |
-| Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
-| Product          |  Product Data Insights            |  @michellecooper        |
-| Engineering      |  Engineering Analytics            |  @michellecooper        |
-| Security         |  Engineering Analytics            |  @michellecooper        |
-| Support          |  N/A                              |  TBD                    |
-| People           |  People Analytics                 |  @rakhireddy            |
+| Department / Division | Functional Analytics Team | Analytics Engineer      | Analytics Engineering Sub-Team |
+| ---------------- | --------------------------------- | ----------------------- | ---------- |
+| Sales            |  Revenue Strategy and Analytics   |  @j_kim @dantenel       | GTM |
+| Marketing        |  Marketing Strategy and Analytics |  @dantenel              | GTM |
+| Finance          |  FP&A Analytics                   |  @annapiaseczna         | Finance |
+| Customer Success |  CS Strategy and Analytics        |  @mdrussell             | R&D |
+| Product          |  Product Data Insights            |  @michellecooper        | R&D |
+| Engineering      |  Engineering Analytics            |  @michellecooper        | R&D |
+| Security         |  Engineering Analytics            |  @michellecooper        | R&D |
+| Support          |  N/A                              |  TBD                    | TBD |
+| People           |  People Analytics                 |  @rakhireddy            | People |
 
 ### Manager, Data
 
