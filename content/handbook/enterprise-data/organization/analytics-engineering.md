@@ -39,7 +39,7 @@ The Analytics Engineering Organization is composed of sub-teams as follows:
 
 Each sub-team has the following ceremonies. They can be at a cadence that makes sense for the sub-team and can also use asynchronous or synchronous approaches as agreed upon by the sub-team. It is optional for team members to attend the ceremonies of other pillars. Team members are encouraged to attend other pillar ceremonies where attendance adds value. 
 
-- Iteration Refinement Sync
+- Backlog Refinement Sync
 - Iteration Planning Sync
 - Sub-Team Meeting
 - Analytics Engineering Functional Team Sync (All Sub-Teams Attend)
