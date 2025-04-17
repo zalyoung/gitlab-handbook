@@ -11,7 +11,7 @@ Your Absence Managment team is here to help before, during, or after your leave.
 
 This page is designed to educate our team members about the different GitLab-specific leave policies available.  Whenever allowed by law these leave programs are coordinated and run concurrently any entity specific leaves a team member may be eligible for. To find any entity-specific leave programs you may be eligible for, please click on the link below.
 
-- [GitLab B.V. Netherlands(/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-netherlands/#gitlab-bv-netherlands-leave-policy)
+- [GitLab B.V. Netherlands](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-netherlands/#gitlab-bv-netherlands-leave-policy)
 - [GitLab B.V. Belgium](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-belgium/#gitlab-bv-belgium-leave-policy)
 - [GitLab B.V. Finland](/handbook/total-rewards/benefits/general-and-entity-benefits/bv-benefits-finland/#finland-statutory-leave-policies)
 - [GitLab Inc (US)](/handbook/people-policies/leave-of-absence/us/)
