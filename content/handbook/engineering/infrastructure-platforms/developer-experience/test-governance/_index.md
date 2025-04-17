@@ -59,30 +59,35 @@ graph LR
 
 #### Planning
 
-#### Working with us through support requests
-
+#### Working with us through request for help
 The Test Governance group aims to better enable teams to apply the principle that [quality is everyone's responsibility](/handbook/engineering/development/principles/#quality).
-
 To that aim, we have been working to make it easier to contribute to E2E test development, and we want to begin gradually transitioning product teams to own E2E tests. During and after the transition, the Test Governance team will act more as coaches, helping to provide the platform that enables effective testing among the team.
-
-Below is a general template that teams can use to get started on this transition process.
-
-Teams should feel encouraged to tailor this process to what works best for them. Like everything we do at GitLab, this is an iterative process, and we always welcome feedback for improvement.
-
-#### Transition Process
-
-1. Engineering Manager (EM) or Product Manager (PM) creates an issue to request support from a team member for a new `~priority::1` project, and tags the Test Governance manager and respective engineers for that stage.
-2. An engineer is assigned to the project for coaching and developer experience needs.
-3. Engineer reviews project requirements and creates a test planning issue to collaborate with EM, PM, UX and the engineers who will be DRIs for the project to define new test cases and determine where existing tests need to be updated.
-    * With [Defining a criteria on when to write E2E tests](https://gitlab.com/gitlab-org/developer-experience/test-governance/team-tasks/-/issues/2359), we will be reinventing the way we think about E2E test coverage. While the full details are still being decided, below are a few ways teams can get started with this new approach:
-        * Engage with key DRIs listed above to define [persona](/handbook/product/personas) use cases, with the goal of illustrating how different customers will use these new features.
-        * Keeping the entire [testing pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html) in mind, evaluate which parts of the use cases can be sufficiently covered by lower level tests, and which ones should have coverage in E2E tests.
-        * This screenshot illustrates an example of what test coverage for a use case might look like once all tests are implemented:
-        * ![use-case-test-coverage.png](/images/engineering/infrastructure-platforms/developer-experience/test-governance/use-case-test-coverage.png)
-4. Engineer evaluates what E2E framework, tooling or infrastructure work (if any) will need to be completed ahead of time, and creates the respective issues.
-    * The Test Governance team should collaborate with the Developer Tooling & Development Analytics team for these changes, especially if the scope is large and could affect all E2E tests / frameworks.
-    * If the scope of the change is more specific to the features or product area to be tested within the project, the Test Governance team is encouraged to implement these changes.
-5. Engineer is assigned to any E2E testing issues, and EM also assigns the appropriate feature engineer(s).
-6. The feature engineer can reach out to this engineer as their coaching buddy for pairings, questions and reviews while they develop / update the E2E tests.
-7. If there is a change mid-project in implementation or direction that would affect the previously planned E2E test changes, it is the responsibility of the developer to update the test issues and notify the Engineer to keep them in the loop.
-8. After E2E test(s) are merged, if a test failure is encountered within a merge request, it is the responsibility of the author to investigate. If an SET creates or is assigned to a failure issue from a scheduled pipeline, the SET will also assign the issue to the relevant developer. The SET can then help guide the developer through troubleshooting and supporting them with test maintenance.
+Below is a Request for Help process that teams can use to get started on this transition process.
+Like everything we do at GitLab, this is an iterative process, and we always welcome feedback for improvement.
+#### Request for Help Process
+1. An Engineer, Engineering Manager (EM) or Product Manager (PM) creates an issue in the [Request for Help](https://gitlab.com/gitlab-org/quality/test-governance/request-for-help/-/issues) project using one of the available templates:
+ * Test Tooling Improvement Request - For help improving or implementing testing tools
+ * Test Strategy Guidance Request - For help developing or improving your test strategy
+ * Flakiness Investigation Request - For help investigating and resolving flaky tests
+ * Test Execution Support Request - For help executing tests or evaluating test results
+2. When creating the issue, provide as much detail as possible:
+ * Add as much detail as possible in the template
+ * Include specific context about your project and requirements
+ * Attach relevant links, resources, and examples
+ * Clearly state your expectations and timeline
+3. The Test Governance team will triage the request within a week, adding appropriate labels and assigning team members based on the request type and priority.
+4. An SET is assigned to the issue and will reach out to establish initial communication.
+5. The assigned SET will:
+ * Review requirements and collaborate with the team
+ * Create a test planning issue if needed to define test cases and determine where existing tests need to be updated
+ * Evaluate what E2E framework, tooling, or infrastructure work might be required
+ * Provide coaching and guidance throughout the process
+6. For feature-specific testing needs, the SET will work with the appropriate feature engineer(s) as assigned by the EM, serving as a coaching buddy for pairings, questions, and reviews during test development.
+7. If there are changes in implementation or direction that affect the planned testing approach, the development team should update the relevant issues and notify the assigned SET.
+8. After test implementation, the Test Governance SET can continue to provide support with troubleshooting and maintenance as needed.
+9. You can track progress via the issue itself and reach out in the #test-governance Slack channel with any questions.
+ 
+For more detailed guidance on E2E test coverage, consider these approaches:
+* Engage with key DRIs to define [persona](/handbook/product/personas) use cases that illustrate how different customers will use new features
+* Evaluate which parts of use cases can be covered by lower-level tests versus E2E tests, keeping the entire [testing pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html) in mind
+* Refer to our documentation on [Testing Best Practices](https://docs.gitlab.com/development/testing_guide/end_to_end/best_practices) before submitting your request
