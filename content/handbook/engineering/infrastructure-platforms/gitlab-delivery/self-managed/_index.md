@@ -11,7 +11,7 @@ Self Managed team is focused on installation and upgrade mechanisms to ensure sm
 
 The following people are members of the team:
 
-{{< team-by-manager-slug manager="plu8" team="Self Managed" >}}
+{{< team-by-manager-slug "plu8" >}}
 
 ## Working with the community
 
