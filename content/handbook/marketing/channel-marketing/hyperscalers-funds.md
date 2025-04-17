@@ -13,15 +13,17 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 1. Program Owner (Francine): Primary contact with Hyperscaler Partners
     - Oversees the entire MDF program
     - Reviews internal MDF request entries with Hyperscalers
+    - Submit MDF request, when approved, we’ll receive a PO
+    - Request an invoice from AR team provide the PO and MDF Approval Email via issue
+    - Submit claim with proof of performance (receipt) to the Hyperscaler portal
 1. Partner Marketing Manager (Gabby): Administers fund allocation
     - Set up the Allocadia activity and GitLab issue assigned to the requester
-   - Submit a claim with proof of performance to the Hyperscaler portal
 1. Campaign Owners/Operations (Fund Requester can also be a Campaign Owner)
    - Create their own Asana project to manage their campaign
    - Manages execution and setup for Marketo and Salesforce
-   - Send Partner Marketing Manager receipts and lead list for Proof of Performance
-   - Provide the link to the campaign report to issue
-   - Enter the Actual MQL and Pipeline
+   - Open Zip request
+   - Send Partner Marketing Manager receipts for Proof of Performance
+   - Provide the link to the Tableau campaign report to issue
 1. Fund Requesters: Initiates funding requests
    - Fill out the spreadsheet with campaign details
    - Provides Target MQL and Target Pipeline Goals
@@ -44,6 +46,7 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
     - Include any supporting materials that strengthen your case (past performance of similar activities, customer interest data, etc.)
 
 ## Approval Process
+
 1. Initial Screening: Francine will review your application to ensure it meets basic requirements and aligns with strategic priorities.
 2. Hyperscaler Partner Approval: Upon preliminary approval, Francine will review and seek approval for the activity and confirm funding amount from the Hyperscaler Partner.
 3. System Configuration: Once approved by the Hyperscaler Partner, 
@@ -53,11 +56,13 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
   
 ## Field Marketing MDF Scenario
 
-When activities are co-funded between Field Marketing budgets and Hyperscaler MDF programs, we will maintain a streamlined approach that avoids duplication while ensuring accurate tracking across both funding sources. The fundamental principle is one campaign, two budget entries (amount in FM and amount provided by AWS in Hyperscaler), one GitLab issue, and one FM Asana project.
-  - Field Marketing will submit one entry in their Allocadia folder for their portion of the funding
-- The Hyperscaler MDF folder will show both the positive entry (AWS contribution) and the negative entry (GitLab's matching portion)
--  Both entries will reference the same campaign and use identical naming conventions
+AWS MDF coverages is a 50/50 split arrangement, this means GitLab pays half and AWS coverages for the other half. When activities are co-funded using Field Marketing budgets, we will maintain a streamlined approach that avoids duplication while ensuring accurate tracking across both funding sources. 
 
+The means we'll manage one campaign, two budget entries (amount in FM and amount provided by AWS in Hyperscaler), one GitLab issue, and one FM Asana project.
+  - Field Marketing will submit one entry in their Allocadia folder for 50% of the total activity for GitLab's matching portion in the Regional Marketing folder
+     - When submitting the Zip request, you must enter 50% of the total coverage.
+  - Partner Marketing will submit both the positive entry for AWS contribution and the negative entry for GitLab's matching portion in the Hyperscaler MDF folder.
+  - Both entries will reference the same campaign and use identical naming conventions
 
 ## Understanding Data Flow: From Lead to Opportunity
 
