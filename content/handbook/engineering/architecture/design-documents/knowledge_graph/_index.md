@@ -65,7 +65,11 @@ repository statistics or showing related files when browsing through repository.
 
 - Implementation of repository parser (this will be done in a separate document
   design). For purposes of this document the expectation is that the repository
-  parser will run as a worker in GitLab Rails.
+  parser will run as a worker in GitLab Rails. Ideally we use the same worker
+  used also for [Chat with your codebase](https://gitlab.com/groups/gitlab-org/-/epics/16910), the only
+  difference will be that the parser will be called with a different parameter
+  because more detailed parsing will be needed for knowledge graph than for
+  embeddings.
 
 ## Proposal
 
@@ -344,6 +348,35 @@ sure that we can monitor these nodes and have enough data to investigate
 potential issues.
 
 ## Alternative Solutions
+
+### Use one graph database per root namespace
+
+All repositories in a top-level namespace would be stored in single graph database.
+A downside is that then we would still need to handle authorization in graph
+database, specifically on graph node level which would be much more complex
+(more details about this complexity are in "One graph database" section below).
+
+### Make it part of Zoekt Indexer / Webservice
+
+[Zoekt search](https://gitlab.com/gitlab-org/gitlab-zoekt-indexer) uses similar
+approach - it uses self-registered nodes approach and file-based searching. A
+possible solution might be making Zoekt more generic, so it would support both
+Zoekt nodes and graph nodes. Then we could deploy graph DBs together with Zoekt
+on the same nodes. The major benefit would be that we could re-use
+existing Zoekt logic (nodes management on Rails side) and infrastructure
+(deployment of Zoekt nodes) and node logic itself (Zoekt Webservice and
+Indexer).
+
+There are some open questions regarding this approach:
+
+* Is it a good fit to deploy both services together? Graph nodes will require as
+  much local disk space as possible - disk space will be major factor for
+  scaling this service on SaaS. Also graph nodes will need to reserve some
+  memory to keep open database connections for recently used repositories.
+* Is node management and workflow similar enough for both services to make
+  existing code generic?
+
+### One graph database
 
 An alternative approach is deploying a graph database which would be used for
 storing knowledge graphs for all repositories. We originally planned this
