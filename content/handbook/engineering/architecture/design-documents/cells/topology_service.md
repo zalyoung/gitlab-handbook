@@ -639,16 +639,16 @@ sequenceDiagram
 The cons of using Spanners are:
 
 1. Vendor lock-in, our data will be hosted in a proprietary data.
-    - How to prevent this: Topology Service will use generic SQL.
+    - How to prevent this: Use generic SQL.
 1. Not self-managed friendly, when we want to have Topology Service available for self-managed customers.
-    - How to prevent this: Spanner supports PostgreSQL dialect.
+    - How to prevent this: Support actual PostgreSQL as well.
 1. Brand new data store we need to learn to operate/develop with.
 
 ### GoogleSQL vs PostgreSQL dialects
 
 Spanner supports two dialects one called [GoogleSQL](https://cloud.google.com/spanner/docs/reference/standard-sql/overview) and [PostgreSQL](https://cloud.google.com/spanner/docs/reference/postgresql/overview).
-The dialect [doesn't change the performance characteristics of Spanner](https://cloud.google.com/spanner/docs/postgresql-interface#choose), it's mostly how the Database schemas and queries are written.
-Choosing a dialect is a one-way door decision, to change the dialect we'll have to go through a data migration process.
+It is claimed that both dialects [offer the same core features, performance, and scalability](https://cloud.google.com/spanner/docs/choose-googlesql-or-postgres).
+However, they should be treated as two different databases because the dialect has to be decided upfront when creating the database, and there's no way to change the dialect beside going through a [complex migration process](https://cloud.google.com/spanner/docs/migration-overview).
 
 We will use the `GoogleSQL` dialect for the Topology Service, and [go-sql-spanner](https://github.com/googleapis/go-sql-spanner) to connect to it, because:
 
@@ -656,6 +656,13 @@ We will use the `GoogleSQL` dialect for the Topology Service, and [go-sql-spanne
 1. GoogleSQL [data types](https://cloud.google.com/spanner/docs/reference/standard-sql/data-types) are narrower and don't allow to make mistakes for example choosing int32 because it only supports int64.
 1. New features seem to be released on GoogleSQL first, for example, <https://cloud.google.com/spanner/docs/ml>. We don't need this feature specifically, but it shows that new features support GoogleSQL first.
 1. A more clear split in the code when we are using Google Spanner or native PostgreSQL, and won't hit edge cases.
+
+We will not use `PostgreSQL` dialect but actual PostgreSQL for local development because:
+
+1. Using `GoogleSQL` dialect also means that we cannot use [PGAdapter](https://cloud.google.com/spanner/docs/pgadapter), because it can only be used against a `PostgreSQL` dialect Spanner database.
+1. [`PostgreSQL` dialect](https://cloud.google.com/spanner/docs/reference/postgresql/overview) is quite different than actual PostgreSQL, and it's not just a subset of PostgreSQL so code using `PostgreSQL` dialect might not even work well on actual PostgreSQL.
+1. When we want to have Topology Service available for self-managed customers we can support it via actual PostgreSQL.
+1. Even if using actual PostgreSQL doesn't scale too well, it is okay for local development and it's likely okay for self-managed as well.
 
 Citations:
 
