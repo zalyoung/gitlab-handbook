@@ -661,7 +661,7 @@ We will not use `PostgreSQL` dialect but actual PostgreSQL for local development
 
 1. Using `GoogleSQL` dialect also means that we cannot use [PGAdapter](https://cloud.google.com/spanner/docs/pgadapter), because it can only be used against a `PostgreSQL` dialect Spanner database.
 1. [`PostgreSQL` dialect](https://cloud.google.com/spanner/docs/reference/postgresql/overview) is quite different than actual PostgreSQL, and it's not just a subset of PostgreSQL so code using `PostgreSQL` dialect might not even work well on actual PostgreSQL.
-1. When we want to have Topology Service available for self-managed customers we can support it via actual PostgreSQL.
+1. When we want to have Topology Service available for self-managed customers we can support it through actual PostgreSQL.
 1. Even if using actual PostgreSQL doesn't scale too well, it is okay for local development and it's likely okay for self-managed as well.
 
 Citations:
