@@ -130,7 +130,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
-| Complete People and Data Onboarding | Extend an existing Tableau dashboard or complete the triage phase for a dbt issue | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts (e.g. dashboards) or complete a product evaluation|
+| Complete People and Data Onboarding | Extend an existing Tableau dashboard or complete the triage phase for a dbt issue | Run a project end-to-end as DRI | Create ERDs/Data Artifacts (e.g. dashboards) or complete a product evaluation|
 | Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ### Data Science
