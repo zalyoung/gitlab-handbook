@@ -30,8 +30,8 @@ The below DRI's are involved in day-to-day activities to understand the risk pos
 
 | DRI | Team | Responsibility |
 |------|-----|----------------|
-| [Chris Moberly](https://gitlab.com/cmoberly), [Oliver Smith](https://gitlab.com/ojsmith) | [Threat Intelligence](/handbook/security/security-operations/threat-intelligence/) | Third-party integration threat analysis |
-| [Eric Geving](https://gitlab.com/EricGeving) | [Security Risk](/handbook/security/security-assurance/security-risk/) | TPRM assessment scoping and analysis, policy development | 
+| [Chris Moberly](https://gitlab.com/cmoberly), [Oliver Smith](https://gitlab.com/ojsmith) | [Threat Intelligence](/handbook/security/security-operations/threat-intelligence/) | Threat analysis of different types of third-party integratoins |
+| [Eric Geving](https://gitlab.com/EricGeving) | [Security Risk](/handbook/security/security-assurance/security-risk/) | TPRM assessment scoping and execution, policy development | 
 | [Peter Hansen](https://gitlab.com/p_han) | [Corporate Security](/handbook/security/corporate/) | ---- | 
 | [Steve Sagan](https://gitlab.com/stevesagan) | [Corporate Security](/handbook/security/corporate/) | ---- |
 
