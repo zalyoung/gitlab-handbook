@@ -290,7 +290,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 - [Remote.com](/handbook/hiring/talent-acquisition-framework/coordinator/#remotecom)
 - [Global Upside](/handbook/hiring/talent-acquisition-framework/coordinator/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-upside)
 - [Papaya](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-add-the-new-hire-to-the-papaya-platform)
-- [Global Expansion](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/coordinator/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-expansion-gx)
+- [Global Expansion](/handbook/hiring/talent-acquisition-framework/coordinator/#preparing-employment-agreements-for-gitlab-team-members-employed-via-global-expansion-gx)
 - The following timelines to onboarding are advised:
 
 **Remote.com:** [remote.com onboarding timeline](https://support.remote.com/hc/en-us/articles/4411262104589-Employee-Onboarding-Timeline)
@@ -306,7 +306,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 **Global Expansion:**
 
-Processing contracts for candidates hired via Global Expansion could take up to 10 bueisness days. 
+Processing contracts for candidates hired via Global Expansion could take up to 10 bueisness days.
 
 | Country | Working days |
 |------|------|
