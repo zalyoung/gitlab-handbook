@@ -89,7 +89,7 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
     - Integer values must be encoded as base36 string for space efficiency.
     - Lines are sorted alphabetically (e.g. `c:` comes before `g:` etc.).
   - The `<routing-payload-length>` is 1 byte (`8-bit unsigned (unsigned char)`) (i.e. `<integer>.pack("C")`) that stores the length of `<routing-payload>`.
-- The `<token-version>` is a string that represents the version of the token format (e.g., `v1`).
+- The `<token-version>` is an integer represented in `base16`, using two hexadecimal characters (e.g., `01`, `0a`, `ff`), generated using `<integer>.to_s(16).rjust(2, '0')`. This format supports versioning from 0 to 255.
 - The `<base64-payload-length>` is an integer represented in `base36`, which we use 2 bytes and pad with 0 on the significant digit (i.e. `<integer>.to_s(36).rjust(2, '0')`) that store the length of `<base64-payload>`.
 - The `<crc32>` is an integer represented in base36, which we use 7 bytes and pad with 0 on the significant digits (i.e. `<integer>.to_s(36).rjust(7, '0')` in Ruby) that store a CRC32 checksum of `<prefix><base64-payload>.<base64-payload-length>`.
 
@@ -117,7 +117,7 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
   - An exception should be raised if prefix is bigger than 20 bytes.
 - Minimum size of token is 40 bytes: `(min size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 27 + 1 + 2 + 1 + 2 + 7 = 40`
 - Maximum size of token without prefix is 313 bytes: `(max size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 300 + 1 + 2 + 1+ 2 + 7 = 313`
-- Maximum size of token with prefix is 333 bytes: `(max size of prefix) + (max size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 20 + 300 + 1 +2 + 1 + 2 + 7 = 333`
+- Maximum size of token with prefix is 333 bytes: `(max size of prefix) + (max size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 20 + 300 + 1 + 2 + 1 + 2 + 7 = 333`
 
 #### Additional information
 
@@ -153,6 +153,8 @@ the following ids:
 Pseudo code for generating a routable token for personal access token:
 
 ```ruby
+TOKEN_VERSION = 1
+TOKEN_VERSION_LENGTH = 2
 RANDOM_BYTES_LENGTH = 16
 BASE64_PAYLOAD_LENGTH_HOLDER_BYTES = 2
 CRC_BYTES = 7
@@ -165,10 +167,10 @@ def generate_routable_token(user)
   }
 
   routing_payload = params.sort.map { |k,v| "#{k}:#{v}" }.compact_blank.join("\n")
-  base64_payload = Base64.urlsafe_encode64("#{routing_payload}#{SecureRandom.random_bytes(RANDOM_BYTES_LENGTH)}#{[RANDOM_BYTES_LENGTH].pack("C")}", padding: false)
+  base64_payload = Base64.urlsafe_encode64("#{SecureRandom.random_bytes(RANDOM_BYTES_LENGTH)}#{routing_payload}#{[routing_payload.size].pack("C")}", padding: false)
   base64_payload_length = base64_payload.size.to_s(36).rjust(BASE64_PAYLOAD_LENGTH_HOLDER_BYTES, '0')
-
-  checksummable_payload = "#{PersonalAccessToken.token_prefix}#{base64_payload}.#{base64_payload_length}"
+  token_version = TOKEN_VERSION.to_s(16).rjust(TOKEN_VERSION_LENGTH, '0')
+  checksummable_payload = "#{PersonalAccessToken.token_prefix}#{base64_payload}.#{token_version}.#{base64_payload_length}"
   crc = Zlib.crc32(checksummable_payload).to_s(36).rjust(CRC_BYTES, '0')
 
   "#{checksummable_payload}#{crc}"
@@ -185,7 +187,7 @@ Here's an example of a token having minimum id for a single routable part,
 with no prefix showing the minimum length of a token (40 bytes):
 
 ```text
-bzoxd_Rb5_cHeWe1JH56wr2FCBA.v1.0r1pum4t4
+bzoxd_Rb5_cHeWe1JH56wr2FCBA.01.0r1pum4t4
 ```
 
 Here is its routing payload:
@@ -200,7 +202,7 @@ Here's an example of a token having maximum ids for all possible routable parts,
 prefixed with the longest prefix (20 bytes) showing the maximum length of a token (330 bytes):
 
 ```text
-++++++++++++++++++++YzozdzVlMTEyNjRzZ3NmCmc6M3c1ZTExMjY0c2dzZgpoOjN3NWUxMTI2NHNnc2YKajozdzVlMTEyNjRzZ3NmCms6M3c1ZTExMjY0c2dzZgpsOjN3NWUxMTI2NHNnc2YKbTozdzVlMTEyNjRzZ3NmCm86M3c1ZTExMjY0c2dzZgpwOjN3NWUxMTI2NHNnc2YKdTozdzVlMTEyNjRzZ3Nmw5bzMmayzK43Ugba9fl8T_I-nZqc5gxOGH2HsUF6-J7UesTG4lmc3PT2aoPyuiUndG5Ci5IMThAbaiNkUTR87KBB.v1.8c1adh6iv
+++++++++++++++++++++YzozdzVlMTEyNjRzZ3NmCmc6M3c1ZTExMjY0c2dzZgpoOjN3NWUxMTI2NHNnc2YKajozdzVlMTEyNjRzZ3NmCms6M3c1ZTExMjY0c2dzZgpsOjN3NWUxMTI2NHNnc2YKbTozdzVlMTEyNjRzZ3NmCm86M3c1ZTExMjY0c2dzZgpwOjN3NWUxMTI2NHNnc2YKdTozdzVlMTEyNjRzZ3Nmw5bzMmayzK43Ugba9fl8T_I-nZqc5gxOGH2HsUF6-J7UesTG4lmc3PT2aoPyuiUndG5Ci5IMThAbaiNkUTR87KBB.01.8c1adh6iv
 ```
 
 Here is its routing payload:
