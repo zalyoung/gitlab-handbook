@@ -18,6 +18,7 @@ The HVS-FO Sales Team is comprised of these 3 sets of teams:
 - [FY26 Global Digital SMB Segment Lines](https://docs.google.com/presentation/d/1CWimjCJkcO7mIJJejv75JLCI1XNB6cReciRZab9U6q0/edit#slide=id.g33f2d6040db_0_0)
 
 - Abbreviations
+  - SMB: Small and Medium-sized Business
   - cARR: Contracted Annual Recurring Revenue
 
 All members of the Sales, Support, Billing and Deal Desk teams should familiarize themselves with the Global Digital SMB Model.
