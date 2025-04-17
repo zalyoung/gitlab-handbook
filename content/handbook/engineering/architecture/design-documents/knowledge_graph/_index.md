@@ -16,16 +16,17 @@ toc_hide: true
 ## Summary
 
 This document proposes a new service that enhances repository insights by
-creating and maintaining graph databases for repositories. Using Kuzu, a
-file-embedded graph database, the service will store each repository's knowledge
-graph separately, enabling users to query relationships between directories,
-files, classes, functions, and dependencies through Cypher queries. The
-architecture includes a scalable approach with primary nodes and replicas for
-high availability, with all requests routed through GitLab Rails for
-authentication and authorization. This feature will enable Duo Chat to answer
-complex repository questions (like "where is method X defined" or "what
-dependencies are used in file Y"), while also supporting non-AI use cases such
-as repository statistics and related file discovery when browsing code.
+creating and maintaining graph databases for repositories. Using
+[Kuzu](https://docs.kuzudb.com/), a file-embedded graph database, the service
+will store each repository's knowledge graph separately, enabling users to query
+relationships between directories, files, classes, functions, and dependencies
+through Cypher queries. The architecture includes a scalable approach with
+primary nodes and replicas for high availability, with all requests routed
+through GitLab Rails for authentication and authorization. This feature will
+enable Duo Chat to answer complex repository questions (like "where is method X
+defined" or "what dependencies are used in file Y"), while also supporting
+non-AI use cases such as repository statistics and related file discovery when
+browsing code.
 
 ## Motivation
 
@@ -170,7 +171,7 @@ service, but given the following needs:
   (even if there are multiple replicas of the repository) because knowledge
   graph service will keep open DB connections for recently used DBs
 
-we will use similar strategy as [Zoekt searching](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/770aec0a34b0aeaa0221ec1930868964fc2c6af4/content/handbook/engineering/architecture/design-documents/code_search_with_zoekt/_index.md#scaling-and-high-availability):
+we will use similar strategy as [Zoekt searching](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/code_search_with_zoekt/#high-level-proposal):
 
 - Graph nodes register themselves with GitLab by providing their address, name, and status
 - GitLab maintains a registry of nodes with their status, capacity, and assignments
@@ -329,6 +330,18 @@ sequenceDiagram
 
 A protocol for communicating with graph nodes was not specified yet. We will use
 either REST or gRPC.
+
+### Known limitations
+
+Because separate file-embedded databases are used, this approach is not suitable
+for running a query across high number of repositories (for searching all
+repositories in a big group structure).
+
+### Observability
+
+Graph nodes will use existing monitoring, tracing and logging mechanisms to make
+sure that we can monitor these nodes and have enough data to investigate
+potential issues.
 
 ## Alternative Solutions
 
