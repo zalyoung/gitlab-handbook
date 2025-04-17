@@ -17,7 +17,6 @@ description: "The GitLab Enterprise Data Team is responsible for empowering ever
 
 * Read our [Direction](https://internal.gitlab.com/handbook/enterprise-data/direction/) page to learn _what_ we are doing to improve data at GitLab.
 * Our [Principles](/handbook/enterprise-data/organization/principles/) inform how we accomplish our mission.
-* Watch our [Data Recruiting Video](https://youtu.be/4DlwsBIPxUw) to learn about the growing Data Program.
 
 **Would you like to contribute? [Recommend an improvement](https://gitlab.com/gitlab-data/analytics/-/issues), [visit Slack #data](https://gitlab.slack.com/messages/data/), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!**
 
@@ -66,25 +65,10 @@ classDiagram
     Data : +Analytics Engineer
     Data : +Data Engineer
     Data : +Data Scientist
+    Data : +Data Quality and Governance Analyst
 ```
 
-### The Data Platform & Architecture Team
-
-The **[Data Platform Team & Architecture Team](/handbook/enterprise-data/organization/engineering/)** is part of the Enterprise Data Team and focuses on building and maintaing secure, efficent, and reliable data systems [data infrastructure](/handbook/enterprise-data/platform/). The Data Platform & Architecture Team is both a development team and an operations/site reliability team. The team supports all Data Pods with **available, reliable, and scalable** data compute, processing, and storage. Platform components include the Data Warehouse, New Data Sources, Data Pumps, Data Security, and related new data technology. The Data Platform team also drives the [Data Management processes](/handbook/enterprise-data/data-governance/data-management/). The Data Platform Team is composed of [Data Engineers](/job-families//marketing/enterprise-data/data-engineer/).
-
-### Analytics Engineering Team
-
-The **[Analytics Engineering Team](/handbook/enterprise-data/organization/)** transforms raw data into clean, structure and usable formats for data decision-making. The Analytics Engineering team also drives Enterprise Data Program and supports the wider data community. The team focuses on inventorying, integrating, maintaining, and governing the data at an Enterprise level. This includes collaborating with the business units and data teams in establishing and facilitating commonly accepted guidelines around Enterprise data along with building [enterprise-wide data models](/handbook/enterprise-data/platform/edw/), supporting Self-Service BI and Analytical capabilities by providing Data Enablement and required training to the Users on Enterprise Data Models.
-
-### The Enterprise Insights & Data Science Team
-
-The **[Enterprise Insights & Data Science Team](/handbook/enterprise-data/organization/data-science/)** utilize analytics and Machine Learning (ML) for insights into customer behavior and company performance. The Enterprise Insights & Data Science team focuses on delivering a complete view of the customer (Customer 360), predict customers that are likely to buy, expand or churn, develop models to predict the long-term value of customers, create detailed customer profiles, and deliver insights on company performance.  The Team acts as a Center of Excellence for predictive analytics and supports other teams in their data science endeavours by developing tooling, processes, and best practices for data science and machine learning. List of the current projects can be found in the [Data Science handbook page](/handbook/enterprise-data/organization/data-science/).
-
-### Data Governance and Data Quality Team
-
-The **[Data Governance and Data Quality Team](/handbook/enterprise-data/organization/)** focuses on building a data governance and data quality program that ensures our organization leverages data as a strategic asset with the highest standards of **integrity, reliability, and secure accessibility** which are enabled through robust policies, advanced technologies and a culture of collaboration. The team partners with cross functional teams including Enterprise Apps, Security and Legal to establish data policies, quality controls, metadata management and compliance with regulatory requirements.
-
-### Data Job Families
+### Enterprise Data Team Job Families
 
 The job families are designed to support all of the routine activities expected of a Data Team. In FY22 we are introducing two new job families, Data Scientist and Analytics Engineer.
 
@@ -144,18 +128,17 @@ Additionally we want to shift to a more aspirational measurement which is to mea
 
   <a href="https://gitlab.com/gitlab-data/analytics/-/issues" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Issue tracker</a>
   <a href="https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">GitLab Unfiltered Data Team Playlist</a>
-  <a href="https://www.worldtimebuddy.com/?pl=1&lid=2950159,5746545,4180439,1271439" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">What time is it for folks on the data team?</a>
 </div>
 <br>
 
 ### Data Slack Channels
 
 * [#data](https://gitlab.slack.com/messages/data/) is the primary channel for all of GitLab's data and analysis conversations. This is where folks from other teams can link to their issues, ask for help, direction, and get general feedback from members of the Data Team.
-* [#data-daily](https://gitlab.slack.com/messages/data-daily/) is where the Data Team tracks day-to-day productivity, blockers, and fun. Powered by [Geekbot](https://geekbot.com/), it's our asynchronous version of a daily stand-up, and helps keep everyone on the Data Team aligned and informed.
+* [#data-team](https://gitlab.enterprise.slack.com/archives/C02UG779AQ1) is where Data Team announcements are made.
+* [#data-daily](https://gitlab.slack.com/messages/data-daily/) is where the Data Engineers track day-to-day productivity, blockers, and fun. Powered by [Geekbot](https://geekbot.com/), it's our asynchronous version of a daily stand-up, and helps keep the Data Engineers aligned and informed.
 * [#data-lounge](https://gitlab.slack.com/messages/data-lounge/) is for links to interesting articles, podcasts, blog posts, etc. A good space for casual data conversations that don't necessarily relate to GitLab. Also used for intrateam discussion for the Data Team.
 * [#data-engineering](https://gitlab.slack.com/messages/data-engineering/) is where the GitLab Data Platform team collaborates.
 * [#bt-data-science](https://gitlab.slack.com/messages/bt-data-science/) is where the GitLab Data Science team collaborates.
-* [#business-technology](https://gitlab.slack.com/messages/business-technology/) is where the Data Team coordinates with Business Technology in order to support scaling, and where all Business Technology-related conversations occur.
 * [#analytics-pipelines](https://gitlab.slack.com/messages/analytics-pipelines/) is where slack logs for dbt runs and monte carlo analysis are output and is for analytics engineers to maintain. The DRI for tracking and triaging issues from this channel is shown [here](/handbook/enterprise-data/how-we-work/triage/#enterprise-data-triager).
 * [#data-triage](https://gitlab.slack.com/messages/data-triage/) is an activity feed of opened and closed issues and MR in the data team project.
 * [#data-pipelines](https://gitlab.slack.com/archives/C0384JBNVDJ) is where alerts from  the ELT pipelines / FiveTran/ Monte Carlo RAW layer anomalies  published and is for data engineers to maintain. The DRI for tracking and triaging issues from this channel is shown [here](/handbook/enterprise-data/how-we-work/triage/#enterprise-data-triager).
@@ -184,6 +167,7 @@ You can tag the Data Team in GitLab using:
 * @gitlab-data  - this notifies the entire Data Team
 * @gitlab-data/engineers  - this notifies just the Data Engineers
 * @gitlab-data/analysts - this notifies just the Data Analysts
+* @gitlab-data/analytics-engineers - this notifies just the Analytics Engineers
 
 ### Team, Operations, and Technical Guides
 
@@ -194,7 +178,7 @@ You can tag the Data Team in GitLab using:
 | [Python Guide](/handbook/enterprise-data/platform/python-guide/) | [Data Sources](/handbook/enterprise-data/platform/)| [Calendar](/handbook/enterprise-data/how-we-work/calendar/) |
 | [Airflow & Kubernetes](/handbook/enterprise-data/platform/infrastructure/#common-airflow-and-kubernetes-tasks) | [Snowplow](/handbook/enterprise-data/platform/snowplow/)  | [Triage](/handbook/enterprise-data/how-we-work/triage/) |
 | [Docker](/handbook/enterprise-data/platform/infrastructure/#docker) | [Permifrost](/handbook/enterprise-data/platform/permifrost/) | [Merge Requests](/handbook/enterprise-data/how-we-work/mr-review/) |
-| [Data CI Jobs](/handbook/enterprise-data/platform/ci-jobs/) | [DataSiren](/handbook/enterprise-data/platform/#datasiren) | [Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/) |
+| [Data CI Jobs](/handbook/enterprise-data/platform/ci-jobs/) |  | [Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/) |
 | [Rstudio Guide](/handbook/enterprise-data/platform/rstudio/) | [Trusted Data](/handbook/enterprise-data/how-we-work/data-development) | [Data Science Team](/handbook/enterprise-data/organization/data-science) |
 | [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide/) | | [Data Management](/handbook/enterprise-data/data-governance/data-management/) |
 | [Meltano Guide](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/) | | |
@@ -211,6 +195,7 @@ You can tag the Data Team in GitLab using:
 * [How The Data Team Works](/handbook/enterprise-data/how-we-work/)
   * [Calendar](/handbook/enterprise-data/how-we-work/calendar/)
   * [Data Analytics Team](/handbook/enterprise-data/organization/analytics/)
+  * [Analytics Engineering Team](/handbook/enterprise-data/organization/analytics-engineering/)
   * [Data Platform Team](/handbook/enterprise-data/organization/engineering/)
   * [Data Science Team](/handbook/enterprise-data/organization/data-science)
   * [Data Team Principles](/handbook/enterprise-data/organization/principles/)
@@ -225,11 +210,9 @@ You can tag the Data Team in GitLab using:
   * [Internship Experience](/handbook/enterprise-data/internship-experience/internship-experience.md)
   * [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
   * [Data Quality](/handbook/enterprise-data/data-governance/data-quality/)
-  * [Data Services](/handbook/enterprise-data/data-service/)
   * [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/)
   * [Enterprise Data Warehouse](/handbook/enterprise-data/platform/edw/)
   * [Jupyter Guide](/handbook/enterprise-data/platform/jupyter-guide)
-  * [Meltano Guide](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
   * [Permifrost](/handbook/enterprise-data/platform/permifrost/)
   * [Python Guide](/handbook/enterprise-data/platform/python-guide/)
   * [RStudio Guide](/handbook/enterprise-data/platform/rstudio/)
