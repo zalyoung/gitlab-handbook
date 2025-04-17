@@ -8,9 +8,8 @@ toc_hide: true
 
 Initially, the Duo Workflow Service used gRPC over HTTP/2 for streaming. While gRPC provides efficient bi-directional streaming and code generation, it can pose challenges:
 
-- Firewalls or corporate proxies often block or inspect HTTP/2 traffic in ways that break gRPC.  
+- We have first hand experience that enterprise customers are likely to have their security platform such as Netskope or Zscaler configured to block HTTP/2 traffic by default. This leads to added onboarding friction with Duo Workflow, as the security team has to be involved to allow connection.
 - [Browsers cannot natively use gRPC](https://grpc.io/blog/state-of-grpc-web/#feature-sets) without a proxy layer (gRPC-Web or Envoy).  
-- Our self-managed customers have frequently highlighted friction in configuring gRPC.
 
 Giving the ability for customers to use **WebSockets** (over HTTP/1.1) can address these issues and unify the transport across all components (client, server, LSP executor). It also enables direct browser-to-service streaming if needed, simplifying real-time feedback loops.
 
