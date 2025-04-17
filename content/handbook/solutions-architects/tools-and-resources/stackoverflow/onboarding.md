@@ -13,7 +13,7 @@ When a new GitLab Team member joins one of these teams, they are automatically a
 
 ### SMB Team Members
 
-When joining the SMB Team, the current process is to have the SMB [Community Manager](handbook/solutions-architects/tools-and-resources/stackoverflow/administration/#community-managers) add the new team member(s) directly to the [Stack Overflow Google group](https://groups.google.com/a/gitlab.com/g/okta-stackoverflow-users) as a "Member".  Adding a name to that group will allow the SMB team members to access the Stack Overflow Okta tile. 
+When joining the SMB Team, the current process is to have the SMB [Community Manager](/handbook/solutions-architects/tools-and-resources/stackoverflow/administration/#community-managers) add the new team member(s) directly to the [Stack Overflow Google group](https://groups.google.com/a/gitlab.com/g/okta-stackoverflow-users) as a "Member".  Adding a name to that group will allow the SMB team members to access the Stack Overflow Okta tile. 
 
 ## Offboarding
 
