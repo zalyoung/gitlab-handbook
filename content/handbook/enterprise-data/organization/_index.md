@@ -47,7 +47,7 @@ The Enterprise Data Team collaborates internally via Key Results. Key Results ar
 
 ### Manager, Data
 
-The Manager, Data fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilites:
+The Manager, Data fulfills the below responsibilities from the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) Job Responsibilities:
 
 1. Works with the Director, Data to envision and draft Quarterly Objectives, driven by requirements gathered from multiple business partners.
 1. Monitor, measure, and improve key aspects of the Enterprise Data Team.
