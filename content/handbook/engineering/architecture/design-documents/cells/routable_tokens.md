@@ -199,10 +199,10 @@ o:1
 ### Maximum token length
 
 Here's an example of a token having maximum ids for all possible routable parts,
-prefixed with the longest prefix (20 bytes) showing the maximum length of a token (330 bytes):
+prefixed with the longest prefix (20 bytes) showing the maximum length of a token (333 bytes):
 
 ```text
-++++++++++++++++++++YzozdzVlMTEyNjRzZ3NmCmc6M3c1ZTExMjY0c2dzZgpoOjN3NWUxMTI2NHNnc2YKajozdzVlMTEyNjRzZ3NmCms6M3c1ZTExMjY0c2dzZgpsOjN3NWUxMTI2NHNnc2YKbTozdzVlMTEyNjRzZ3NmCm86M3c1ZTExMjY0c2dzZgpwOjN3NWUxMTI2NHNnc2YKdTozdzVlMTEyNjRzZ3Nmw5bzMmayzK43Ugba9fl8T_I-nZqc5gxOGH2HsUF6-J7UesTG4lmc3PT2aoPyuiUndG5Ci5IMThAbaiNkUTR87KBB.01.8c1adh6iv
+++++++++++++++++++++LB4hkKqprRab1Y3A72WqTPSDo2FS1t1qgJTIhL2O_kp90C8s8cL55xHQtmr-eVFugNkcwt0PZgzKqS3RI2ku4fBjOjN3NWUxMTI2NHNnc2YKZzozdzVlMTEyNjRzZ3NmCmg6M3c1ZTExMjY0c2dzZgpqOjN3NWUxMTI2NHNnc2YKazozdzVlMTEyNjRzZ3NmCmw6M3c1ZTExMjY0c2dzZgptOjN3NWUxMTI2NHNnc2YKbzozdzVlMTEyNjRzZ3NmCnA6M3c1ZTExMjY0c2dzZgp1OjN3NWUxMTI2NHNnc2af.01.8c01vlkoy
 ```
 
 Here is its routing payload:
