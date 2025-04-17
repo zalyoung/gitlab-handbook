@@ -54,17 +54,6 @@ The Manager, Data fulfills the below responsibilities from the [Senior Manager, 
 1. Regularly meet with business partners to understand and solve for data needs.
 1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests.
 
-### Lead Analytics Engineer (Stable Counterparts for the Business)
-
-The Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilities:
-
-1. Own one or more stakeholder relationship in Go To Market, Research & Development, General & Administrative, Financial Analytics, or Engineering Analytics business functions.
-1. Co-DRI of Key Results along with the Manager, Data.
-1. Lead [work breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdowns) sessions for OKRs.
-1. Work with functional stakeholders to prioritize `P3-Other` issues.
-1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests.
-1. Review the weekly stand-up and provide support as needed to unblock team members and answer questions.
-
 ## Data Program Recruiting
 
 Recruiting great people is critical to our success and we've invested much effort into making the process efficient. Here are some reference materials we use:
