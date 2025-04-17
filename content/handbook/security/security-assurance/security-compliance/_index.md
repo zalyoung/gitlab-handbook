@@ -22,18 +22,19 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps pl
    - External Audit coordination and execution
 
 1. [Continuous Monitoring of GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
-  - [Policy-as-code](policy-as-code.md)
-  - [Automated evidence collection and control testing](automated-control-testing.md)
-  - [User Access Reviews](access-reviews.md)
-  - [Risk-based control testing](risk-based-control-testing.md)
-  - [PCI Internal Control Review](pci-internal-control-review.md)
-  - [FedRAMP Continuous Monitoring](fedramp-compliance.md)
+
+- [Policy-as-code](policy-as-code.md)
+- [Automated evidence collection and control testing](automated-control-testing.md)
+- [User Access Reviews](access-reviews.md)
+- [Risk-based control testing](risk-based-control-testing.md)
+- [PCI Internal Control Review](pci-internal-control-review.md)
+- [FedRAMP Continuous Monitoring](fedramp-compliance.md)
 
 1. [Observation and Remediation Management](../observation-management-procedure.md)
 
-  - Identify control weaknesses and gaps (observations)
-  - Provide remediation recommendations and guidance
-  - Track remediation to completion
+- Identify control weaknesses and gaps (observations)
+- Provide remediation recommendations and guidance
+- Track remediation to completion
 
 1. Industry and Regulatory Monitoring and Insights
    - Monitoring drafts and changes to relevant laws, executive orders, directives, regulations, policies, standards, and guidelines.
