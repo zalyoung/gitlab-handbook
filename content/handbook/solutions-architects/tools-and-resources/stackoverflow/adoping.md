@@ -60,7 +60,7 @@ flowchart TD
 
 ## Upvoting an Answer
 
-## Writing Knowledge Articles/ How to Guides/ Best Practices
+## Writing Knowledge Articles/ How to Guides/ Best Practices {#best-practices-guide}
 
 Please refer to Stack Overflow training on
 
@@ -82,7 +82,7 @@ There are two types of considerations for architectural blueprints and best prac
 
    Best Practices around Deployment at Scale: Configuration, Migration, Administration, Monitoring, Break Fix, would most likely be written by and for Support Engineers and would be found in the [Zendesk KB](/handbook/support/knowledge-base/#implementation).
 
-1. Consumer Adoption/ Maturity Considerations: This is usually the focus of Customer Success, Solutions Architects and Professional Services.  They encompass:
+1. **Consumer Adoption/ Maturity Considerations**: This is usually the focus of Customer Success, Solutions Architects and Professional Services.  They encompass:
 
    - Conceptual Architecture/ Design/ Data Flows
    - Sizing and impact on Deployment Recommendations
