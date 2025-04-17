@@ -428,7 +428,7 @@ The Technical Writers use the following levels of edit:
 - Ensure the content is clear, discoverable, navigable, and written with the user's perspective in mind.
 - Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
 - Ensure the content conforms to the defined [topic types](https://docs.gitlab.com/development/documentation/topic_types/).
-- Ensure the content fits well into the larger documentation set and does not duplicate information in other areas.
+- Ensure the content fits well into the larger documentation set.
 - For UI text, ensure the content meets the standards defined in the [Pajamas Design System](https://design.gitlab.com/) and the [Technical Writer Word List](https://docs.gitlab.com/development/documentation/styleguide/word_list/).
 
 #### How the writers apply the levels of edit
