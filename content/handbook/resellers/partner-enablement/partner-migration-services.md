@@ -86,14 +86,13 @@ Clone the repo and then with just a single command, the environment is ready to 
 
 **Note:** Both Geo and Congregate can support migrations to GitLab Dedicated, but these types of migrations as of today, are handled only by GitLab internal team members, not partners.
 
-### 4. Congregate
+### Congregate
 
 [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/) is GitLab's most mature migration solution and supports many options. **Note that migrations to SaaS require the involvement of GitLab PS due to restricted access to GitLab SaaS (multi-tenant) data.** More information about the latter can be found [here](/handbook/customer-success/csm/risk-mitigation/self-managed-vs-saas/).
 
 Congregate is an open-source migration tool developed and maintained by the GitLab Professional Services team that orchestrates the end to end process of migrating an organization to GitLab. Congregate is the preferred method used by GitLab Professional Services because it supports the migration of [many features](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md) that the built-in GitLab product importers/exporters don't support.
 
-At a high level, Congregate is an API wrapper that allows Professional Services to leverage [file exports](https://docs.gitlab.com/user/project/settings/import_export/) or [Direct Transfer](https://docs.gitlab.com/user/group/import/.) It relies on the existing importers we have available in GitLab that can be used through the GitLab REST API
-Additional third party REST and GraphQL APIs along with other API libraries are also bundled into Congregate to support migrating from multiple different source types.
+Congregate is an enhanced API wrapper tool that allows Professional Services to leverage [file exports](https://docs.gitlab.com/user/project/settings/import_export/) or [Direct Transfer](https://docs.gitlab.com/user/group/import/) with added functionality to support more data migration capabilities, as noted above. While it relies on the existing importers we have available in GitLab that can be used through the GitLab REST API, the extended functionality the Professional Services team has built and maintains allows us to also support migrations from non GitLab sources, including BitBucket Server, BitBucket Cloud, GitHub.com, GitHub Enterprise, Azure DevOps, and AWS CodeCommit.
 
 [Congregate docs site](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/), which includes documentation about the features matrix to understand what can be migrated per source, FAQ, methodology, preparation, limitations/constraints, installation, and development.
 
