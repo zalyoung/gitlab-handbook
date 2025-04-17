@@ -1,4 +1,6 @@
-# Hyperscaler Funds
+--
+title: Hyperscaler Funds
+--
 
 Hyperscaler funds represent a strategic partnership mechanism through which cloud hyperscalers like Amazon Web Services (AWS) and Google Cloud Platform (GCP) provide financial support to partners like GitLab for joint marketing initiatives.
 
@@ -27,8 +29,9 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 1. Fund Requesters: Initiates funding requests
    - Fill out the spreadsheet with campaign details
    - Provides Target MQL and Target Pipeline Goals
-  
+
 ## Application Process
+
 1. Complete the Google Sheet:
     - AWS: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1Ej_QJpTI0u_hPwB-jJKcqTviIAnmS1wgctfabgfUlPM/edit?gid=2978057#gid=2978057)
     - GCP: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1B2mSraHHhCMbK96Sx0ZQlXTI6J7tIp5LNeWdsnKetrE/edit?usp=sharing)
@@ -48,12 +51,12 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 ## Approval Process
 
 1. Initial Screening: Francine will review your application to ensure it meets basic requirements and aligns with strategic priorities.
-2. Hyperscaler Partner Approval: Upon preliminary approval, Francine will review and seek approval for the activity and confirm funding amount from the Hyperscaler Partner.
-3. System Configuration: Once approved by the Hyperscaler Partner, 
+1. Hyperscaler Partner Approval: Upon preliminary approval, Francine will review and seek approval for the activity and confirm funding amount from the Hyperscaler Partner.
+1. System Configuration: Once approved by the Hyperscaler Partner,
   - Channel Marketing Manager will open the Allocadia activity and Hyperscaler MDF GitLab
   - Campaign Owner will be responsible for creating the Marketo campaign and sync to Salesforce using the Allocadia Subcategory ID (found in the Hyperscaler MDF GitLab issue)
   - Link to the appropriate GitLab issues for tracking
-  
+
 ## Field Marketing MDF Scenario
 
 AWS MDF coverages is a 50/50 split arrangement, this means GitLab pays half and AWS coverages for the other half. When activities are co-funded using Field Marketing budgets, we will maintain a streamlined approach that avoids duplication while ensuring accurate tracking across both funding sources. 
@@ -73,4 +76,3 @@ One of the most complex aspects of hyperscaler campaigns is tracking the custome
 - Co-Sell Integration: Labra facilitates referrals between GitLab and Hyperscalers for co-sell opportunities, creating a structured engagement process.
 
 Understanding this flow helps teams recognize that not all Hyperscaler campaign leads will become co-sell opportunities, but tracking remains important to demonstrate overall program impact.
-
