@@ -89,7 +89,7 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
     - Integer values must be encoded as base36 string for space efficiency.
     - Lines are sorted alphabetically (e.g. `c:` comes before `g:` etc.).
   - The `<routing-payload-length>` is 1 byte (`8-bit unsigned (unsigned char)`) (i.e. `<integer>.pack("C")`) that stores the length of `<routing-payload>`.
-- The `<token-version>` is an integer represented in `base16`, using two hexadecimal characters (e.g., `01`, `0a`, `ff`), generated using `<integer>.to_s(16).rjust(2, '0')`. This format supports versioning from 0 to 255.
+- The `<token-version>` is an integer represented in `base36`, using two alphanumeric characters (e.g., `00`, `0a`, `zz`), generated using `<integer>.to_s(36).rjust(2, '0')`. This format supports versioning from 0 to 1295.
 - The `<base64-payload-length>` is an integer represented in `base36`, which we use 2 bytes and pad with 0 on the significant digit (i.e. `<integer>.to_s(36).rjust(2, '0')`) that store the length of `<base64-payload>`.
 - The `<crc32>` is an integer represented in base36, which we use 7 bytes and pad with 0 on the significant digits (i.e. `<integer>.to_s(36).rjust(7, '0')` in Ruby) that store a CRC32 checksum of `<prefix><base64-payload>.<base64-payload-length>`.
 
@@ -169,7 +169,7 @@ def generate_routable_token(user)
   routing_payload = params.sort.map { |k,v| "#{k}:#{v}" }.compact_blank.join("\n")
   base64_payload = Base64.urlsafe_encode64("#{SecureRandom.random_bytes(RANDOM_BYTES_LENGTH)}#{routing_payload}#{[routing_payload.size].pack("C")}", padding: false)
   base64_payload_length = base64_payload.size.to_s(36).rjust(BASE64_PAYLOAD_LENGTH_HOLDER_BYTES, '0')
-  token_version = TOKEN_VERSION.to_s(16).rjust(TOKEN_VERSION_LENGTH, '0')
+  token_version = TOKEN_VERSION.to_s(36).rjust(TOKEN_VERSION_LENGTH, '0')
   checksummable_payload = "#{PersonalAccessToken.token_prefix}#{base64_payload}.#{token_version}.#{base64_payload_length}"
   crc = Zlib.crc32(checksummable_payload).to_s(36).rjust(CRC_BYTES, '0')
 
