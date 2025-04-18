@@ -106,25 +106,16 @@ You will receive an Okta activation email on your personal device (mobile or com
 
 You have completed the initial setup process for your GitLab account and MacBook. If you encounter any issues, please contact the IT Help Desk.
 
-#### Apple ID
+### Apple ID
 
 - Please create a new Apple ID for GitLab using your @gitLab.com email address to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It's the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
-
-#### Initial Setup Part 2
+### Optional Setup Items
 
 - **Screen Time:** Monitor and get reports on the use of your computer. For options and details, see Screen Time on Mac.
 
 - **Enable Siri and "Hey Siri"**: You can turn on Siri and "Hey Siri" (so you can speak your Siri requests) during setup. To enable "Hey Siri," speak several Siri commands when prompted. To learn how to turn on Siri and "Hey Siri" later and for information about using Siri on your Mac, see Siri on your Mac.
 
 - **Store files in iCloud**: iCloud has the ability to store desktop and documents in iCloud. As our Cloud Storage option is Google Drive, please make sure this feature is disabled. Anything of importance for work should be stored in Google Drive, a GitLab Issue, or the Handbook based on the type and [data classification](/handbook/security/data-classification-standard/) of the information.
-
-- **Choose an appearance**: Select Light, Dark, or Auto for your desktop appearance. If you want to change the choice you make during setup, open System Preferences, click General, then select an appearance option. You can also set other preferences here.
-
-- **Set up Touch ID**: You can add a fingerprint to Touch ID during setup. To set up Touch ID later, or to add additional fingerprints, open System Preferences, then click Touch ID. To add a fingerprint, click the Add button and follow the onscreen instructions.
-
-- You can also set options for how you want to use Touch ID on your MacBook Pro: to unlock your Mac, use Apple Pay (see Use Apple Pay on your Mac), purchase items on the App Store, Apple TV app, Apple Book Store, and websites, and auto-fill your password.
-
-Tip: If two or more users use the same MacBook Pro, each user can add a fingerprint to Touch ID to quickly unlock, authenticate, and log in to the MacBook Pro. You can add up to three fingerprints per user account, and a total of five fingerprints for all your MacBook Pro user accounts.
 
 ## MacBook Cheat Sheet
 
