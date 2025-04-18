@@ -6,7 +6,7 @@ authors: [ "@vishal.s.patel" ]
 coach:
 dri: ["@vishal.s.patel"]
 approvers: [ "@ksvoboda" ]
-owning-stage: '~group::performance enablement'
+owning-group: '~group::performance enablement'
 participating-stages: []
 toc_hide: true
 ---
