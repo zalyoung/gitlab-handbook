@@ -18,7 +18,7 @@ Successful product development requires and demands a unified commitment to shar
 
 ## Who, What, Why, How, and When
 
-For Product Development, we are leveraging the general-purpose questioning method of "who", "what", "why", "how", and "when" to aid in understanding how these roles with their respective responsibilities are working together on a continuous basis. In the figure below, we walk through an illustrative example of how Product Development team members contribute and collaborate in shaping a new product feature:
+For Product Development, we are leveraging the general-purpose questioning method of "who", "what", "why", "how", and "when" and asking these questions to better understand the outcomes we are aiming for the team. Each of us plays a role in answering these questions on a continuous basis to achieve delivering a world class product to our customers. In the figure below, we walk through an illustrative example of how Product Development team members contribute and collaborate in shaping a new product feature:
 
 ![The who, what, why, how, when of Product Development Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
 
