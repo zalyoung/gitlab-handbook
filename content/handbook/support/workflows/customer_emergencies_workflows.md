@@ -410,7 +410,9 @@ The Support Manager On-Call is always available to support you. To request suppo
 4. Select `Support Managers` from the list of Impacted Services 
 5. Click `Create` to trigger alert.
 
-### Monitoring
+### Rollout and Monitoring
+
+Estimated timeline for Phase 1: 1-2 months, depending on ticket volume and customer adoption.
 
 - TODO: Setup reporting to review historical volumes 
 - TODO: Setup reporting to monitor incoming volumes 
