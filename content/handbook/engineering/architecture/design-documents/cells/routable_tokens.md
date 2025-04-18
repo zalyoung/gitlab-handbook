@@ -187,7 +187,7 @@ Here's an example of a token having minimum id for a single routable part,
 with no prefix showing the minimum length of a token (40 bytes):
 
 ```text
-EL25d_AKXDUtqLnIQHEpkG86MQM.01.0r1ndkym2
+EL25d_AKXDUtqLnIQHEpkG86MQM.01.0r1ajj2i3
 ```
 
 Here is its routing payload:
@@ -202,7 +202,7 @@ Here's an example of a token having maximum ids for all possible routable parts,
 prefixed with the longest prefix (20 bytes) showing the maximum length of a token (333 bytes):
 
 ```text
-++++++++++++++++++++LB4hkKqprRab1Y3A72WqTPSDo2FS1t1qgJTIhL2O_kp90C8s8cL55xHQtmr-eVFugNkcwt0PZgzKqS3RI2ku4fBjOjN3NWUxMTI2NHNnc2YKZzozdzVlMTEyNjRzZ3NmCmg6M3c1ZTExMjY0c2dzZgpqOjN3NWUxMTI2NHNnc2YKazozdzVlMTEyNjRzZ3NmCmw6M3c1ZTExMjY0c2dzZgptOjN3NWUxMTI2NHNnc2YKbzozdzVlMTEyNjRzZ3NmCnA6M3c1ZTExMjY0c2dzZgp1OjN3NWUxMTI2NHNnc2af.01.8c01vlkoy
+++++++++++++++++++++LB4hkKqprRab1Y3A72WqTPSDo2FS1t1qgJTIhL2O_kp90C8s8cL55xHQtmr-eVFugNkcwt0PZgzKqS3RI2ku4fBjOjN3NWUxMTI2NHNnc2YKZzozdzVlMTEyNjRzZ3NmCmg6M3c1ZTExMjY0c2dzZgpqOjN3NWUxMTI2NHNnc2YKazozdzVlMTEyNjRzZ3NmCmw6M3c1ZTExMjY0c2dzZgptOjN3NWUxMTI2NHNnc2YKbzozdzVlMTEyNjRzZ3NmCnA6M3c1ZTExMjY0c2dzZgp1OjN3NWUxMTI2NHNnc2af.01.8c0kai99b
 ```
 
 Here is its routing payload:
