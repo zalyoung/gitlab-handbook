@@ -18,4 +18,4 @@ At GitLab, everyone can contribute, including to our design documents. If you wo
 1. [Create a merge request](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html).
 1. `@` message both an author assigned to the design document, as listed below.
 
-{{< design-documents-list folder="handbook/engineering/infrastructure-platforms/developer-experience/design-documents" >}}
+{{< design-documents-list-devex folder="handbook/engineering/infrastructure-platforms/developer-experience/design-documents" >}}
