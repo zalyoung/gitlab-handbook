@@ -17,6 +17,27 @@ section of the CustomersDot. This is typically due to a bad address
 Sentry for a relevant error and file an issue in the
 [CustomersDot tracker](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/) as necessary.
 
+### 3D Secure Authentication 3DS
+
+> Transaction declined.generic_decline - Your card was declined
+
+Our product purchase integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup).
+
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user [payment through invoice](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.md#paying-invoices).
+
+> card_error/authentication_required/authentication_required
+
+Our product purchase integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). Such transactions will fail after the card is added.
+
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
+> invalid_request_error/setup_intent_authentication_failure
+
+The 3DS authentication failed.
+
+The first option is to request the user to try again, or with a different another card.
+You can also [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
 ### Getting error message from Sentry
 
 To find the error specifically related to a customer on sentry, try the following:
