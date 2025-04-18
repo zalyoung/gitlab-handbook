@@ -109,6 +109,7 @@ You have completed the initial setup process for your GitLab account and MacBook
 ### Apple ID
 
 - Please create a new Apple ID for GitLab using your @gitLab.com email address to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It's the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
+
 ### Optional Setup Items
 
 - **Screen Time:** Monitor and get reports on the use of your computer. For options and details, see Screen Time on Mac.
