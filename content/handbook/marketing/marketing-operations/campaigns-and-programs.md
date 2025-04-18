@@ -388,27 +388,17 @@ SFDC campaigns have a general set of required fields. This section describes the
 - Click "Save"
 - Add the Marketo program link and SFDC campaign link to the epic.
 
-_If you are utilizing the Allocadia, please see below instructions._
+#### Instructions for SFDC campaign creation when utilizing Allocadia
 
-- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
-  - Change the `Campaign owner` to your name
-  - Confirm that start date and end date populated correctly (this is automated).
-  - Update the `Is this an in person event` dropdown, based on `in-person` vs `virtual` type
-  - Update the event epic
-  - Update the description (if any)
-  - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
-  - Update `Region` and `Sub-region`, if these are local or targeted to a specific region
-  - Update `Budget Holder` -  Do keep in mind that the `Budget Holder` field should be updated **only if**:
-    - The campaign results in offline Bizible touchpoints based on campaign type (i.e. content syndication, sponsored webcast, etc.) - **NOTE:** an offline Bizible touchpoint happens when we gather a lead offline and in order for the system to have this name you must go through a [list upload process](/handbook/marketing/marketing-operations/list-import/);
+Using an integration from Allocadia > Marketo > SFDC, the information you've provided in Allocadia will push to your SFDC campaign.
 
-    **OR:**
+**Please Note:** You must NOT edit the SFDC campaign until the Allocadia connector has completed the sync. This is normally done near-real time, but if the data does not push immediately, be aware it can take minutes to hours to do so. You'll know the Allocadia connect has completed its work when you see the SFDC campaign owner change from Marketo Integration to the name of the person running the camapign, as well as well as when all details are populated from Allocadia to SFDC. If you edit the campaign before the connector pushes the data over, it will break the build and you will manually have to edit all of the fields listed. For additional Allocadia details [go here](/handbook/marketing/strategy-performance/allocadia/#salesforcecom-sfdc).
 
-    - There were GitLab Dollars spent on the campaign (Field, Digital, Corporate, Community etc.) - can be left blank in the cases when we have campaigns that do not utilize budget; - **NOTE:** By updating the budget holder, we do **NOT** run the risk of double counting touchpoints, however, do keep in mind that since the field is not always filled out, it shouldn't be used for measuring each team's performance.
-- All other fields on the campaign are not required and are not used for reporting - take `Status` as an example. You WOULD update this field to `Aborted` if the campaign was cancelled for any reason. We have a process that goes into more detail specifically when [offline events are cancelled](/handbook/marketing/events/#cancellation-of-offline-events).
-- Click "Save"
-- Add the Marketo program link and SFDC campaign link to the epic.
-- For all SFDC campaign types run by Corporate Events or Field Marketing, please check the `High Priority` check box on the campaign level.
-  - Details on our [pilot](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/6905) we ran with the business development team which led us to add this!
+- Go to alesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
+- Confirm that start date and end date populated correctly (this is automated)
+- Add `Budgeted Cost`
+  - `Budgeted Cost` in SFDC pulls from your `plan` number, not your `forecast` number from Allocadia. If you do not have a plan number in Allocadia, `Budgeted Cost` will remain blank in SFDC. If you do have a plan amount in Allocadia, that amount will pull through to SFDC in the nightly sync.
+  - If the cost of the tactic is $0 (example - virtual workshop) list `1` in the `Budgeted Cost` field. There needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
 
 ### Parent/Child Campaigns Setup
 
@@ -598,7 +588,7 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
   - Select the `01a Registration Flow` smart campaign
   - The correct program should automatically apply when cloned, so _you don't need to do anything here._ However, you can confirm that the campaign tag appears on in the Smart List and Flow. If the name of the template appears anywhere, replace it with the campaign tag.
   - Click to the `Schedule` tab and click `Activate`
-  - If this is an `Owned Event` follow the below activation instructions:
+- If this is an `Owned Event` follow the below activation instructions:
   - Click the `Campaigns` folder
   - If you have a Marketo registration page for this event, select the `01b - Registration` smart campaign
   - The correct program should automatically apply when cloned, so _you don't need to do anything here._ However, you can confirm that the campaign tag appears on in the Smart List and Flow. If the name of the template appears anywhere, replace it with the campaign tag.
@@ -660,20 +650,12 @@ Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns
 
 ### Step 8: Update the Salesforce campaign - Using Allocadia
 
-Using an integration from Allocadia > Marketo, Marketo > SFDC, the information you've provided in Allocadia will push to your SFDC campaign.
-
-**Please Note:** You must NOT edit the campaign until the Allocadia connector has time to work. This is normally done near-real time, but if the data does not push immediately, be aware it can take minutes to hours to do so. You'll know the Allocadia connect has completed its work when you see the SFDC campaign owner change from Marketo Integration to the name of the actual person who is running the camapign as well as well as when all details are populated from Allocadia to SFDC. If you edit the campaign before the connector pushes the data over, it will break the build and you will manually have to edit all of the fields listed. For additional Allocadia details [go here](/handbook/marketing/strategy-performance/allocadia/#salesforcecom-sfdc).
+Please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 #### Training Videos for Setting up SFDC Campaign - Using Allocadia
 
 - [Instructional Video](https://youtu.be/1681EBw5344)
 - [Sync Results Video](https://youtu.be/PocOPnJY4w0)
-
-Based on the [Step 5. list above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign), the only thing you will need to manually update in SFDC is the following:
-
-- `Budgeted Cost` in SFDC pulls from your `plan` number, not your `forecast` number from Allocadia. If you do not have a `plan` cost in Allocadia then Budgeted Cost in SFDC will remain blank. If this is the case, you will want to add in your Budgeted Cost manually into your SFDC campaign. The initial Plan Cost in the campaign needs 1 night to synch. The campaign meta data is a one time synch, where as the Actual Cost in Campaign (which is run off of the Campaign Tag to be Created field in Allocadia), synchs every nightly.
-
-**Please Note:** `Budgeted Cost` in SFDC pulls from your plan number, not your forecast number from Allocadia. If you do not have a plan cost in Allocadia then `Budgeted Cost` in SFDC will remain blank. If this is the case, you will want to add in your `Budgeted Cost` manually into your SFDC campaign. If cost is $0 list `$1` in the `Budgeted Cost` field. There needs to be at least a $1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
 
 ### Waitlist processing - Owned Event, Workshop, Webcasts
 
@@ -787,7 +769,7 @@ Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns
 - Add the Marketo program link and SFDC campaign link to the epic.
 - If the program is being ran by Digital Marketing, add the SFDC campaign under the parent campaign `Demand Gen Pulishers/Sponsorships`
 
-**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ## Steps to Setup in-person Conference Meetings
 
@@ -834,7 +816,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 
 Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 
-**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+If utilizing Allocaida, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ## Steps to Setup Content Syndication in Marketo and SFDC
 
@@ -893,7 +875,7 @@ Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns
 - Add the Marketo program link and SFDC campaign link to the epic.
 - If the program is being ran by Digital Marketing, add the SFDC campaign under the parent campaign `Demand Gen Pulishers/Sponsorships`
 
-**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ## Steps to Setup Content Syndication in Marketo and SFDC - Campaigns through Integrate DAP
 
@@ -1115,7 +1097,7 @@ The 7 webhook feedback automations we send to Integrate are:
 - Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
 - Add the Marketo program link and SFDC campaign link to the epic.
 
-**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ### Step 5: Troubleshooting
 
