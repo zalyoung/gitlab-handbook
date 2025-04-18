@@ -374,6 +374,48 @@ On rare occasions, you and the manager on-call may decide it's necessary to init
 
 To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline).
 
+## Supporting Customer Success Architect (CSA) 24/7 Coverage - Phase 1 
+
+A [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) is included with GitLab’s Advanced and Signature Success Tiers. These tiers include 24/7 coverage and faster response times for Severity 2, known as High Priority tickets in Zendesk.
+
+| Success Tier | Coverage                                   | 
+| ------------ | ------------------------------------------ |
+| Advanced     | - 24/7 High Priority coverage              | 
+| Signature    | - 24/7 High Priority coverage<br>- 2hr SLA |
+
+### Weekend Coverage
+
+Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets. A team of dedicated engineers hired for the permanent 24/7 roles will use this period for onboarding and training. This is Phase 1 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
+
+### PagerDuty Alerts 
+
+From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The `@ceoc` will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk. 
+
+### Ticket Assignment and Handling 
+
+We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action. 
+
+1. When you start your shift, look in the [Success Advanced and Signature 24x7 Tickets](https://gitlab.zendesk.com/agent/filters/17365930959516) Zendesk queue for any `High` priority tickets.
+2. Take assignment of all High Priority tickets in this queue. This ensures that you are notified of customer responses during your shift, and will minimise delays responding to the customer. 
+3. We should aim to focus on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. Once it's a medium or lower priority, ensure you communicate this with the customer. 
+4. Only downgrade the Priority of the ticket, once you have received confirmation from the customer. 
+
+**Important note:** There is no need to Unassign tickets over the weekend, as the incoming `@ceoc` will take assignment upon commencing their shift. 
+
+The Support Manager On-Call is always available to support you. To request support please trigger a PagerDuty alert: 
+
+1. Navigate to the [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) channel in Slack 
+2. Type `/pd trigger` and hit Enter
+3. Write a summary in the Title field 
+4. Select `Support Managers` from the list of Impacted Services 
+5. Click `Create` to trigger alert.
+
+### Monitoring
+
+- TODO: Setup reporting to review historical volumes 
+- TODO: Setup reporting to monitor incoming volumes 
+
+
 ## License Emergencies
 
 ### During the week
