@@ -125,15 +125,16 @@ All incidents are reported in MonteCarlo incident portal. For triage purposes th
 | RAW       | TIER1                                                | #data-pipelines      | #data-pipelines      | #analytics-pipelines (once per day) | #data-pipelines      |
 |           | TIER2                                                | #data-pipelines      | #data-pipelines      | #analytics-pipelines (once per day) | #data-pipelines      |
 |           | TIER3                                                | #data-pipelines      | #data-pipelines      | #analytics-pipelines (once per day) | #data-pipelines      |
-| PREP      | n/a                                                  | -                    | -                    | -                                   | -                    |
+| PREP      | GITLAB_COM                                                  | #data-pipelines                    | #data-pipelines                  | #data-pipelines                                   | #data-pipelines                    |
+|           | Other                                                | #analytics-pipelines                      | #analytics-pipelines                  | #analytics-pipelines                                   | #analytics-pipelines                    |
 | PROD      | COMMON `*` | #analytics-pipelines | #analytics-pipelines | -                                       | #analytics-pipelines                                       |
 |           | WORKSPACE  `**`                                      | -                    | -                    | -                                   | -                    |
 |           | WORKSPACE-DATA-SCIENCE     | #data-science-pipelines | #data-science-pipelines                     | -                                   | #data-science-pipelines |
 |           | LEGACY `***`                                         | -                    | -                    | -                                   | -                    |
 
-`*` COMMON is also the COMMON_RESTRICTED equivalent. It excludes `COMMON_PREP` and `COMMON_MAPPING`
-`**` WORKSPACE-DATA-SCIENCE is the only workspace schema we are including in the notification strategy
-`***` Only these two models (`snowplow_structured_events_400` and `snowplow_structured_events_all`) of the `LEGACY` schema have been included temporarily as per MR [!7049](https://gitlab.com/gitlab-data/analytics/-/merge_requests/7049)
+1. `*` COMMON is also the `COMMON_RESTRICTED` equivalent. It excludes `COMMON_PREP` and `COMMON_MAPPING`
+1. `**` WORKSPACE-DATA-SCIENCE is the only workspace schema we are including in the notification strategy
+1. `***` Only these two models (`snowplow_structured_events_400` and `snowplow_structured_events_all`) of the `LEGACY` schema have been included temporarily as per MR [!7049](https://gitlab.com/gitlab-data/analytics/-/merge_requests/7049)
 
 This notification strategy is the basis for any alert being sent from Monte Carlo towards Slack. However, as of [Notifications 2.0](https://docs.getmontecarlo.com/docs/notifications-v2) Monte Carlo has introduced *Audiences*.
 This means, the above notification strategy has now been migrated towards Audiences and we have the following Audiences in place, sending alerts to Slack channels as specified below:
