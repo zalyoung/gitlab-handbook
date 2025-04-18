@@ -91,6 +91,5 @@ The majority of our [project management process is described at the Platforms le
 
 Project management links
 
-- Team [project status epic](https://gitlab.com/groups/gitlab-org/quality/-/epics/96)
-- Team [roadmap epic](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/117)
-
+- Team [Project Status epic](https://gitlab.com/groups/gitlab-org/quality/-/epics/96)
+- Team [Roadmap epic](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/117)
