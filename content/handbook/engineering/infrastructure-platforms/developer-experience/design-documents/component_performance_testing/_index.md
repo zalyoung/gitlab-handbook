@@ -592,4 +592,4 @@ The success of this implementation will be measured by:
 * [Telegraf Documentation](https://docs.influxdata.com/telegraf/)
 * [GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/)
 * [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
-* [Shift Left and Right Performance Testing](../../../../architecture/design-documents/shift_left_right_performance/)
+* [Shift Left and Right Performance Testing](../shift_left_right_performance/)
