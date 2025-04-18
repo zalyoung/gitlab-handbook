@@ -1,4 +1,6 @@
-# Incident Follow Up Issues
+---
+title: "Incident Follow Up Issues"
+---
 
 This page documents the process for managing follow-up items from incidents.
 
@@ -104,6 +106,6 @@ Incident Leads should ensure each issue contains:
 
 ## References
 
-- [Engineering Workflow - InfraDev](https://handbook.gitlab.com/handbook/engineering/workflow/#infradev)
-- [Product Processes - InfraDev](https://handbook.gitlab.com/handbook/product/product-processes/#infradev)
-- [Incident Management - Corrective Actions](https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#corrective-actions)
+- [Engineering Workflow - InfraDev](handbook/engineering/workflow/#infradev)
+- [Product Processes - InfraDev](/product/product-processes/#infradev)
+- [Incident Management - Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions)
