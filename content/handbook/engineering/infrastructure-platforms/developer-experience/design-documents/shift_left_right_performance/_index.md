@@ -9,7 +9,7 @@ authors: [ "@AndyWH" ]
 coaches: [ ]
 dris: [ "@AndyWH" ]
 approvers: [ "@ksvoboda" ]
-owning-stage: '~"group::performance enablement"'
+owning-stage: '~group::performance enablement'
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
