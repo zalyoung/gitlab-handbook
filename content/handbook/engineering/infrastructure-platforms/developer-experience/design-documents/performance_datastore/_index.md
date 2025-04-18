@@ -6,7 +6,7 @@ authors: [ "@AndyWH" ]
 coach:
 dris: [ "@AndyWH" ]
 approvers: [ "@ksvoboda" ]
-owning-stage: "~stage::developer-experience"
+owning-group: '~group::performance enablement'
 participating-stages: []
 toc_hide: true
 ---
