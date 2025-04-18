@@ -131,7 +131,7 @@ GitLab Dedicated feature proposal issues should be created in the **Public** [`g
 
 GitLab Dedicated uses the [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/administration/reference_architectures/10k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Instance implementation and changes are done via the [instrumentor project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor).
 
-If it's an emergency, [raise a Dedicated incident](#raise-a-dedicated-incident) and [Escalate to the Dedicated Engineer On-Call](#escalate-to-the-dedicated-engineer-on-call).
+If it's an emergency, [raise a Dedicated incident](#raise-a-dedicated-incident).
 
 When any changes are required besides those listed below, raise [an issue with `SupportRequestTemplate-GitLabDedicated`](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
