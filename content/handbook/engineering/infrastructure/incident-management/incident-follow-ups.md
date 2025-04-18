@@ -106,6 +106,6 @@ Incident Leads should ensure each issue contains:
 
 ## References
 
-- [Engineering Workflow - InfraDev](handbook/engineering/workflow/#infradev)
-- [Product Processes - InfraDev](/product/product-processes/#infradev)
+- [Engineering Workflow - InfraDev](/handbook/engineering/workflow/#infradev)
+- [Product Processes - InfraDev](/handbook/product/product-processes/#infradev)
 - [Incident Management - Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions)
