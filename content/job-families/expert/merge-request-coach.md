@@ -21,7 +21,7 @@ get merged into GitLab.
   JavaScript, Golang, etc. or programming entirely. For example, you can add any hints or possible fixes on issues that are open for community contribution.
 - Join and actively follow the internal [`#mr-coaching` Slack channel](https://app.slack.com/client/T02592416/C2T9APP9C) and the external [GitLab Community Discord](https://discord.gg/gitlab) to assist contributors and fellow MR Coaches when they need help or to discuss best practices for collaboration.
 - Ensure the content on the [MR Coaches handbook pages](/handbook/marketing/developer-relations/contributor-success/merge-request-coach-lifecycle/) stays relevant, up-to-date and keeps evolving.
-- Participate in the discussion and voting for the [release post MVP](/handbook/marketing/blog/release-posts/#mvp).
+- Participate in the discussion and voting for the [release post Notable Contributor](/handbook/marketing/blog/release-posts/#notable-contributor).
 
 ### Specialties
 
