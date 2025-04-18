@@ -92,7 +92,6 @@ erDiagram
 ### ✅ Application-Level Validation (Rails)
 
 ```ruby
-# app/models/notification.rb
 class Notification < ApplicationRecord
   belongs_to :user
 
