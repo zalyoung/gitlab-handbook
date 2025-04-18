@@ -48,7 +48,7 @@ Engineering Manager: Kassandra Svoboda
 
 | Name | Description |
 | :---: | :--- |
-| [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed)| Tool to test web page frontend performance in browsers. |
+| [GitLab Browser Performance Tool](https://gitlab.com/gitlab-org/quality/performance-sitespeed)| Tool that is a [SiteSpeed](https://www.sitespeed.io/) wrapper which measures frontend performance in browsers, providing insights into web page performance across GitLab environments. |
 | [GitLab Component Performance Tool](https://gitlab.com/gitlab-org/quality/component-performance-testing)| Tool which leverages containerization and automated testing to provide insights on individual component performance. |
 | [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance)| Tool to provide performance testing of any GitLab instance. |
 | [GitLab Verify Playbook](https://gitlab.com/gitlab-org/quality/quality-engineering/gitlab-verify-playbook)| Experimental Tool to verify that a GitLab instance is up and functional after deployment or reconfiguration. |
