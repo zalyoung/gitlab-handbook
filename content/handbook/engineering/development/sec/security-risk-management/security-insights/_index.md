@@ -303,6 +303,8 @@ Standalone [E2E specs can be run against your local GDK instance](https://gitlab
 E2E tests should pass with a feature flag enabled before it is enabled on Staging or on GitLab.com.
 Therefore, it's important to confirm this when introducing a new feature flag. Adding or editing a feature flag definition file [starts two `e2e:test-on-omnibus` jobs](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/feature_flags.html#automatic-test-execution-when-a-feature-flag-definition-changes) (one with the feature flag turned on and another where it's turned off).
 
+For a thorough explanation of the end-to-end testing process when working with feature flags, please consult the official documentation on the [Testing feature flags with end-to-end tests](https://docs.gitlab.com/development/testing_guide/end_to_end/feature_flag_testing/#e2e-flow-when-changing-a-feature-flag-with-a-merge-request) page.
+
 ## Notes and Resources on QA Testing
 
 For any questions, reach out to [#s_developer_experience](https://gitlab.enterprise.slack.com/archives/C07TWBRER7H).
