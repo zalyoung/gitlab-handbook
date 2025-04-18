@@ -117,5 +117,5 @@ Below is a list of our cross-functional partners and high-level description of h
 
 ## Resources & Communications
 
-- **Slack Channel**: `#self-service_public`
-- Create an issue in the [Self-Service project](https://gitlab.com/gitlab-com/sales-team/self-service) and use the `Self-Service` label
+- **Slack Channel**: `#hvs`
+- Create an issue in the [HVS project](https://gitlab.com/gitlab-com/sales-team/hvs)

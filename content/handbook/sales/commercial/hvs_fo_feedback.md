@@ -19,9 +19,9 @@ When a customer self-cancels on the Customers Portal, they are prompted to selec
 
 ### Customer call recordings or emails
 
-Advocates can record customer calls on Gong and can screenshot any relevant customer email they receive. This can be posted on our hvs_public channel. HVS Leadership will also periodically review Gong call recordings to aggregate any product-related feedback.
+Advocates can record customer calls on Gong and can screenshot any relevant customer email they receive. This can be posted on our #hvs channel. HVS Leadership will also periodically review Gong call recordings to aggregate any product-related feedback.
 
-### Ad-hoc hvs_public channel posts
+### Ad-hoc #hvs channel posts
 
 Any other type of feedback is typically posed in this feedback Slack channel.
 
@@ -42,9 +42,9 @@ Please refer to this [document](https://docs.google.com/document/d/1z5FHYeM0pId9
 Direct feedback from customers should be provided in one of two channels:
 
 1. **Case feedback**: ideally, your customer interaction is linked to a case. When closing the case, please link the Gong call recording with a brief summary of what the call consists of. For emails, feel free to copy + paste the email into the feedback field. Alternatively, you can screenshot the email, save it on your gdrive, and link it within the feedback field.
-1. **hvs_public channel**: if your customer interaction cannot be linked to a specific case, please post the call recording ([example](https://gitlab.slack.com/archives/C06GWAS5RA8/p1731624483166999)) or an email screenshot in the feedback Slack channel. Again, this should be accompanied with a brief summary describing the problem and potentially the suggested solution.
+1. **#hvs channel**: if your customer interaction cannot be linked to a specific case, please post the call recording ([example](https://gitlab.slack.com/archives/C06GWAS5RA8/p1731624483166999)) or an email screenshot in the feedback Slack channel. Again, this should be accompanied with a brief summary describing the problem and potentially the suggested solution.
 
-### hvs_public channel
+### #hvs channel
 
 For any other feedback not connected to a case or customer interaction, please post it in the feedback channel as well. Similar to a customer feedback, any example available to outline the feedback is strongly recommended. For example, if you are unable to complete a Salesforce action, please provide the screenshot of the error you are receiving.
 
@@ -206,7 +206,7 @@ Below are the DRIs to facilitate the investigation of the appropriate feedback t
 <tr>
 <td>
 
-Call recordings, customer emails, or ad-hoc posts on `#hvs_public channel`
+Call recordings, customer emails, or ad-hoc posts on `#hvs channel`
 </td>
 <td>
 

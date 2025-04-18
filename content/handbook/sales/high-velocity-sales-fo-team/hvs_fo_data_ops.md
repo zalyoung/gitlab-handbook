@@ -37,7 +37,7 @@ The HVS-FO Data and Ops Team is responsible for leveraging data to optimize for 
 
 |  **Resource** | **About** |
 | :--------------- | :----------------- |
-| [Data Request Issue Template](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/new?issuable_template=Data_Question_Intake) | Template that should be used for ad-hoc data questions and requests |
+| [Data Request Issue Template](https://gitlab.com/gitlab-com/sales-team/hvs/-/issues/new?description_template=Data_Question_Intake) | Template that should be used for ad-hoc data questions and requests |
 | [Data Hub](https://docs.google.com/document/d/10p86n7f5vt4UmhHM4ZGRZm4OSa5k5g-LKQ0uBAKnvSc/edit?usp=sharing) | All of our data assets and resources in one place |
 
 ### OKRs
@@ -66,11 +66,11 @@ The HVS-FO Data and Ops Team is responsible for leveraging data to optimize for 
    - If no, please try to answer your question using these existing resources.
    - If yes, but you're still unable to answer your question, go to question 2.
 
-2. Using the Data Question Intake issue template in [our project](https://gitlab.com/gitlab-com/sales-team/self-service/), please:
+2. Using the Data Question Intake issue template in [our project](https://gitlab.com/gitlab-com/sales-team/hvs/-/issues/new?description_template=Data_Question_Intake), please:
 
 - Fill out all items under the "Filled out by Requestor" section
 - Add the "Self-Service Data" and "Self-Service Data Ad Hoc" labels
-- If business stopping: tag Max in Slack (ideally in [self-service_public](https://gitlab.slack.com/archives/C02F6JUKF6X)) with link to issue.
+- If business stopping: tag Max in Slack (ideally in #hvs) with link to issue.
 
 <!-- ## How we prioritize ad hoc requests
 The more points the better!
