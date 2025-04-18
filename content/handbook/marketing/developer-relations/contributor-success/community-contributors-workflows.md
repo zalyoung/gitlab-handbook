@@ -173,9 +173,9 @@ row at the bottom with the same structure.
 
 Caution: If an organization reaches the threshold it will be auto-enrolled in the program for receiving the review-time SLO.
 
-## GitLab MVP Selection Process
+## GitLab Notable Contributor Selection Process
 
-See [GitLab MVP Selection Process](/handbook/marketing/developer-relations/contributor-success/mvp-process).
+See [GitLab Notable Contributor Selection Process](/handbook/marketing/developer-relations/contributor-success/notable-contributor-process).
 
 ## Contributor Thanks messages
 

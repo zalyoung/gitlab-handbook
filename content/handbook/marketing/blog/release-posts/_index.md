@@ -63,7 +63,7 @@ MRs added after the Thursday, 1 week before release should target the `release-x
 
 ### Monday through Tuesday of release week
 
-- **Contributor Success** adds the [MVP](#mvp)
+- **Contributor Success** adds the [Notable Contributor](#notable-contributor)
 - **Release Post Manager and Technical Writer** perform final reviews
   - Changes after <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time> on the Monday of release week will be done via the `release-X-Y` branch and are subject to approval by the Release Post Manager.
   - The TW Lead verifies the deprecations and removals links in the release post
@@ -816,7 +816,7 @@ Should you prefer to continue to contribute to an issue under active development
 
 ## Monthly release blog post sections
 
-- [MVP](#mvp)
+- [Notable Contributor](#notable-contributor)
 - [Features](#features)
   - [Top feature](#top-feature)
   - [Primary features](#primary-features)
@@ -828,11 +828,11 @@ Should you prefer to continue to contribute to an issue under active development
 - [Important notes on upgrading](#important-notes-on-upgrading) (optional)
 - [Deprecations and removals](#deprecations-and-other-planned-breaking-change-announcements)
 
-### MVP
+### Notable Contributor
 
-The Contributor Success team now owns the process for nominating, selecting and adding the GitLab MVP for the release post. See the Contributor Success [GitLab MVP Selection Process](/handbook/marketing/developer-relations/contributor-success/mvp-process/).
+The Contributor Success team owns the process for nominating, selecting and adding the GitLab Notable Contributor (formerly MVP) for the release post. See the Contributor Success [GitLab Notable Contributor Selection Process](/handbook/marketing/developer-relations/contributor-success/notable-contributor-process/).
 
-The Release Post Manager no longer has any MVP-related tasks.
+The Release Post Manager no longer has any Notable Contributor related tasks.
 
 ### Features
 
@@ -840,7 +840,7 @@ The most relevant features of the release are included in the post by [product m
 
 #### Top feature
 
-The top feature of the release is mentioned right after the MVP section, prior to other primary features. An image or video and documentation links are required. The [TW lead](#tw-lead) will pay close attention to the content of this item, as it is the "headline" feature for the release and it's especially important to get it right.
+The top feature of the release is mentioned right after the Notable Contributor section, prior to other primary features. An image or video and documentation links are required. The [TW lead](#tw-lead) will pay close attention to the content of this item, as it is the "headline" feature for the release and it's especially important to get it right.
 
 The Release Post Manager will select a `top` feature. The following can be used as a guideline on which feature to select:
 
@@ -1524,8 +1524,8 @@ If the script fails to run or there are pipeline issues, you can run `bundle exe
 1. The data directory for the release is created under `data/release_posts/X_Y/`.
    If it exists, the script stops and exits. You'll need to delete this directory
    if you want to re-run the script.
-1. The [MVP template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_posts/unreleased/samples/mvp.yml)
-   is used to create the MVP file (`data/release_posts/X_Y/mvp.yml`).
+1. The [Notable Contributor (MVP) template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_posts/unreleased/samples/mvp.yml)
+   is used to create the Notable Contributor (MVP) file (`data/release_posts/X_Y/mvp.yml`).
 1. The retro issue is generated and assigned using the [Release-Post-Retrospective template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/Release-Post-Retrospective.md)
 1. The script performs a find and replace to update the following values in all of the MRs and Issues above using content from `data/release_post_managers.yml`:
 
