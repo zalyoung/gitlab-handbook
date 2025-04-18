@@ -1,3 +1,10 @@
+---
+title: "Notifications ADR 001: Database schema"
+creation-date: "2025-04-18"
+authors: [ "@mksionek" ]
+toc_hide: true
+---
+
 # Proposal of database structure
 
 ## 📄 Technical Proposal: Notification System Design
