@@ -1,12 +1,12 @@
 ---
 title: "Performance results datastore"
-status: proposed
+status: accepted
 creation-date: "2025-03-11"
 authors: [ "@AndyWH" ]
 coach:
 dris: [ "@AndyWH" ]
 approvers: [ "@ksvoboda" ]
-owning-stage:
+owning-stage: "~stage::developer-experience"
 participating-stages: []
 toc_hide: true
 ---

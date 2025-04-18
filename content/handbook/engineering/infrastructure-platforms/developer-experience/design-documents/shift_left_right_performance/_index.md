@@ -3,12 +3,13 @@
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
 title: Shift Left and Right Performance
-status: proposed
+status: accepted
 creation-date: "2024-12-13"
 authors: [ "@AndyWH" ]
 coaches: [ ]
-dris: [ "@ksvoboda" ]
-owning-stage: ""
+dris: [ "@AndyWH" ]
+approvers: [ "@ksvoboda" ]
+owning-stage: "~stage::developer-experience"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
