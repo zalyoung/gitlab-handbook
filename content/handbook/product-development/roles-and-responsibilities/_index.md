@@ -16,14 +16,6 @@ Successful product development requires and demands a unified commitment to shar
 
 ![Responsibilities of Leads](/images/product-development/Quality-is-everyone's-responsibility-2025-03-31.svg)
 
-## Who, What, Why, How, and When
-
-For Product Development, we are leveraging the general-purpose questioning method of "who", "what", "why", "how", and "when" and asking these questions to better understand the outcomes we are aiming for the team. Each of us plays a role in answering these questions on a continuous basis to achieve delivering a world class product to our customers. In the figure below, we walk through an illustrative example of how Product Development team members contribute and collaborate in shaping a new product feature:
-
-![The who, what, why, how, when of Product Development Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
-
-Our objective is to preserve each team's freedom to leverage agile methods to develop and deliver customer value in our product, while introducing a synchronized planning process to ensure that we deliver with the predictability and quality that GitLab's customers demand and deserve.
-
 ## Role vs. Responsibility
 
 There is an important distinction between a role (such as Product Manager, Engineering Manager) and a Lead's responsibility area (such as Product, Technical, Delivery, Resource, UX). While roles such as 'Product Manager' and 'Engineering Manager' often align with specific leadership responsibilities, their areas of responsibility are not exclusive to their roles.
@@ -49,6 +41,14 @@ Within GitLab product development teams, we believe that "we win or lose as a te
 - Ex: Technical Lead may serve as the Product Lead and Documentation Lead for technical excellence, reliability, scalability, or sustainability efforts. 
 
 Lastly, the specific needs that a product development team has for a specific responsibility may differ based upon the type of project, maturity of project, maturity of technology area and technology stack, maturity of developers, etc. The key is ensuring that each product development team has agreement and interlock on ownership and accountability for each of these responsibilities, regardless of how they are distributed among team members and across roles.
+
+## Who, What, Why, How, and When
+
+For Product Development, we are leveraging the general-purpose questioning method of "who", "what", "why", "how", and "when" and asking these questions to better understand the outcomes we are aiming for the team. Each of us plays a role in answering these questions on a continuous basis to achieve delivering a world class product to our customers. In the figure below, we walk through an illustrative example of how Product Development team members contribute and collaborate in shaping a new product feature:
+
+![The who, what, why, how, when of Product Development Roles and Responsibilities](/images/product-development/Product-Quarterly-All-Hands-2025-03-18.svg)
+
+Our objective is to preserve each team's freedom to leverage agile methods to develop and deliver customer value in our product, while introducing a synchronized planning process to ensure that we deliver with the predictability and quality that GitLab's customers demand and deserve.
 
 ## Key Events & Activities Mapping into Responsibilities
 
