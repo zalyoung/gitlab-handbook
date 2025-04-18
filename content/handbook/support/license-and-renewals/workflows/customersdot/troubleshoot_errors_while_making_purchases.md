@@ -45,7 +45,6 @@ You can also [reach out to Sales](/handbook/support/license-and-renewals/workflo
 
 Please direct the customer to [the troubleshooting page](https://docs.gitlab.com/subscriptions/gitlab_com/gitlab_subscription_troubleshooting/#error-transaction_not_allowed) to purchase through a reseller or [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user [payment through invoice](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.md#paying-invoices).
 
-
 ### Getting error message from Sentry
 
 To find the error specifically related to a customer on sentry, try the following:
@@ -106,7 +105,7 @@ In the Log Fields panel, you can also choose specific log files, as well as seve
 
 Sometimes a customer reports that they did not receive an email from the portal, such as a password reset request or new account confirmation.  GitLab uses Mailgun as a service to send outgoing mail. We can login to Mailgun to view the message logs, and when appropriate, remove suppressions.
 
-The general workflow that Support uses for this process is documented in the [Support handbook page on confirmation emails](/handbook/support/workflows/confirmation_emails#check-mailgun), and that page has a full description on navigating the Mailgun dashboard and searching through the logs.
+The general workflow that Support uses for this process is documented in the [Support handbook page on confirmation emails](/handbook/support/workflows/confirmation_emails/#checking-mailgun-logs), and that page has a full description on navigating the Mailgun dashboard and searching through the logs.
 
 The process here is much the same, but since we are investigating mail from CustomerDot, in Step 4 of the general workflow ensure that `customers.gitlab.com` is selected as the domain to search under.
 
