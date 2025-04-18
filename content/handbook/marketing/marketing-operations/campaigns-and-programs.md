@@ -816,7 +816,7 @@ The instructions below are designed for meetings led by Field Marketing at large
 
 Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign).
 
-If utilizing Allocaida, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
+If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
 
 ## Steps to Setup Content Syndication in Marketo and SFDC
 
