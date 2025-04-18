@@ -103,6 +103,7 @@ You will receive an Okta activation email on your personal device (mobile or com
 3. Follow the instructions in the email to set up your GitLab.com account
 
 ## Congratulations!
+
 You have completed the initial setup process for your GitLab account and MacBook. If you encounter any issues, please contact the IT Help Desk.
 
 #### Apple ID
