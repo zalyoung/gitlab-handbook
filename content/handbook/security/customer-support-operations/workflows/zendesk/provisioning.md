@@ -100,6 +100,7 @@ You will, from time to time, get a request to deprovision an agent (these will m
 - Clear out any user fields on the profile
 - Demote the agent's role to that of end-user
 - Suspend the end-user
+- Delete any [Support Team](https://gitlab.com/gitlab-support-readiness/support-team) files attached to the user (if applicable)
 - After doing so, do the following on the issue requesting the deprovisioning
   - Check the corresponding boxes on the request issue
 
