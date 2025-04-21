@@ -111,7 +111,7 @@ characteristics:
 
 1. Embeds specific commits of external repositories into your main repository.
 1. Changes to submodules are tracked by the parent repository as single-commit pointers.
-1.Requires explicit commands to update (git submodule update).
+1. Requires explicit commands to update (git submodule update).
 1. Native Git feature, no extra tools required.
 1. Each submodule maintains its own .git directory.
 
