@@ -23,13 +23,13 @@ GitLab Legal will review any and all purchases made to ensure adequate legal ter
 - Hotel Contracts; and 
 - Subcontracting Agreements (staff augmentation or providing services/resources to GitLab and/or GitLab customers)*.
 
-*Note: Additional policies regarding some purchases may apply. Please ensure that you work with the GitLab Procurement Team to ensure that your purchase is in compliance with policies and process. For more information, please visit [The Procurement Handbook Page](https://handbook.gitlab.com/handbook/finance/procurement/).
+*Note: Additional policies regarding some purchases may apply. Please ensure that you work with the GitLab Procurement Team to ensure that your purchase is in compliance with policies and process. For more information, please visit [The Procurement Handbook Page](/handbook/finance/procurement/).
 
 ## Signing Contracts
 
 **DO NOT SIGN ANY CONTRACTS**
 
-- Only authorized individuals can execute contracts on behalf of GitLab. Please view the [Signatory Matrix](/handbook/finance/authorization-matrix/#authorization-matrix) for who may sign.
+- Only authorized individuals can execute contracts on behalf of GitLab. Please view the [Signatory Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) for who may sign.
 - In order to be executed, all Contracts must include the GitLab Legal stamp. This stamp confirms that the Contract has been reviewed and approved by a Legal Team Member. If you do not receive a GitLab Legal stamped version of the Contract, please ask the Procurement Team Member for assistance.
 - If you accidentally sign a contract or become aware of a contract that was signed by someone without authority, please immediately report it to the GitLab Procurement Team so that GitLab Legal can be engaged.
 
@@ -84,7 +84,7 @@ Use of competitors' services: [Guidelines](https://internal.gitlab.com/handbook/
 ## Requesting a Certificate of Insurance
 
 - To request a COI, please use your existing procurement request and tag the Legal Team member assigned (if applicable), or not active request exist, open an issue in the Legal and Compliance project using the [general legal template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=general-legal-template&_gl=1*1aumr6r*_ga*MTc1Mjg0Mzg3NS4xNjc1NzE0NjA5*_ga_ENFH3X7M5Y*MTY3NjQ4OTU3Ny4xMC4xLjE2NzY0ODk2ODkuMC4wLjA). Be sure to apply the `legal-procurement::to do` label and tag `@dcolesjr`, `@chilling32`, and `@ndjohnson` in your request.
-- For requests related to a customer or partner, open a [Legal Request](/handbook/legal/customer-negotiations/#how-to-reach-legal) in SFDC.
+- For requests related to a customer or partner, open a [Legal Request](/handbook/legal/customer-negotiations/#how-to-reach-the-legal-commercial-team) in SFDC.
 
 ## Helpful Resources
 
