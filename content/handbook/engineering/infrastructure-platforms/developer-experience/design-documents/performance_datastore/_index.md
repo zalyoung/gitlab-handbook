@@ -54,6 +54,18 @@ We'll leverage existing infrastructure (InfluxDB and Grafana) to create a proof-
 - Visualization through Grafana dashboards
 - Programmatic access from CI/CD pipelines
 
+### Infrastructure Details
+
+The following resources have been provisioned for this implementation:
+
+- **InfluxDB Instance**
+  - URL: https://influxdb.quality.gitlab.net/
+  - Bucket name: `perf-test-metrics`
+
+- **Grafana Instance**
+  - URL: https://dashboards.quality.gitlab.net/
+  - Connected to the InfluxDB instance for visualization of performance metrics
+
 ## Architecture Overview
 
 ```mermaid
