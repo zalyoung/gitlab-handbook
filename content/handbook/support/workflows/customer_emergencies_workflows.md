@@ -389,7 +389,7 @@ Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule,
 
 ### PagerDuty Alerts 
 
-From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The `@ceoc` will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk. 
+From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk. 
 
 ### Ticket Assignment and Handling 
 
