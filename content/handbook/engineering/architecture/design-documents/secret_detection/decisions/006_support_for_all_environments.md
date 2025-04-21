@@ -16,9 +16,9 @@ There are two problems that we should address, preferably both at the same time 
 
 Multiple proposals were [discussed](https://gitlab.com/gitlab-org/gitlab/-/work_items/525472#note_2418504073) for the above problems, this ADR drafts a combined approach considering relevant proposals.
 
-The proposal suggests to address the first problem by running SD scans within Embedded SD module(Gem/Binary) for Self-Managed(inc. offline) and Dedicated environments. This is a default setup that should be capable enough to handle the traffic for a single-tenant environment. As an alternative, we allow the customers to self-host Secret Detection Service in their infrastructure when the Embedded SD module throughput isn't meeting their needs. We will prioritize invoking self-hosting service URL (if given) over the Embedded SD module for Secret Detection scan. 
+The proposal suggests addressing the first problem by running SD scans within an Embedded SD module (Gem/Binary) for Self-Managed (including offline) and Dedicated environments. This is a default setup that should be capable enough to handle the traffic for a single-tenant environment. As an alternative, we allow the customers to self-host Secret Detection Service in their infrastructure when the Embedded SD module's throughput isn't meeting their needs. When a self-hosted service URL is provided, we will prefer invoking such a service over the Embedded SD module.
 
-The second problem is addressed by introducing asynchronous way of invoking secret detection scans using the existing Sidekiq infrastructure used by Rails.
+The second problem is addressed by introducing an asynchronous way of invoking secret detection scans using the existing Sidekiq infrastructure.
 
 ### Support Matrix
 
@@ -40,7 +40,7 @@ We could accomplish this in two ways:
 
 2. Share the Helm Chart for deploying SDS. This will reduce operational burden of managing the service for the customer. However, this approach is suitable only for the customers running their infrastructure in Kubernetes.
 
-First approach seems simple enough to get started with, and we could eventually Helm Chart if there is an ask from the customer side.
+First approach seems simple enough to get started with, and we could eventually provide such a Helm Chart if there is an ask from the customer side.
 
 ### Service Authentication and Authorization
 
