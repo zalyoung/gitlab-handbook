@@ -12,7 +12,12 @@ We leverage our versatile skill sets to drive positive outcomes for GitLab and o
 
 ### Commercial
 
-The [Commercial](/handbook/legal/commercial/) group supports GitLab’s go-to-market and procurement functions with knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company’s values.
+The GitLab Legal [Commercial](/handbook/legal/commercial/) team is responsible for all contracting matters at GitLab, including procurement, revenue, channel, technical, and alliances, while partnering with sales, technical, and business stakeholders to ensure alignment with GitLab contracting standards and efficient execution timelines. The team supports GitLab's go-to-market and procurement functions, providing knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company's values.
+
+Helpful links:
+- [Sales Guide | Collaborating with GitLab Legal](/https://handbook.gitlab.com/handbook/legal/customer-negotiations/)
+- [Internal Handbook Page for Legal - Commercial](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/)
+- [Highspot - GitLab Legal Hub](https://gitlab.highspot.com/items/64d69e83c17499125edb7063?lfrm=srp.0)
 
 ### Corporate & Compliance
 
