@@ -381,6 +381,10 @@ b. `Due to unforeseen circumstances the event has been canceled.`
   a. "イベントのスケジュールが変更されました！"
   b. "予期せぬ事情により、イベントは中止となりました。"
 
+## Working with a Series
+
+filler 
+
 ## Content Hub
 
 Content Hub is an AI-powered feature that allows users to generate creative assets based on the content from either our webcasts broadcast within Goldcast or videos loaded into the platform. Goldcast can generate several types of content, including:
