@@ -131,7 +131,7 @@ GitLab Dedicated feature proposal issues should be created in the **Public** [`g
 
 GitLab Dedicated uses the [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/administration/reference_architectures/10k_users/#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Instance implementation and changes are done via the [instrumentor project](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor).
 
-If it's an emergency, [raise a Dedicated incident](#raise-a-dedicated-incident) and [Escalate to the Dedicated Engineer On-Call](#escalate-to-the-dedicated-engineer-on-call).
+If it's an emergency, [raise a Dedicated incident](#raise-a-dedicated-incident).
 
 When any changes are required besides those listed below, raise [an issue with `SupportRequestTemplate-GitLabDedicated`](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
@@ -223,15 +223,13 @@ If the customer is reporting an availability or performance issue:
 
 #### Raise a Dedicated incident
 
+When raising a GitLab Dedicated incident, you must complete all three steps:
+
 1. Follow the [Dedicated On-Call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/incident-management.md#how-to-raise-an-incident).
-
 1. In the incident channel that is automatically created on Slack, provide a summary of the current state.
+1. Escalate to the Dedicated Engineer On-Call by following [the escalation process](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person)
 
-1. [Escalate to the Dedicated Engineer On-Call](#escalate-to-the-dedicated-engineer-on-call) if immediate attention is necessary.
-
-#### Escalate to the Dedicated Engineer On-Call 
-
-If immediate involvement from the Dedicated Engineer On-Call  becomes necessary, follow the [escalation process](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/runbooks/on-call.html#escalating-to-an-on-call-person). 
+You are now done raising the incident!
 
 #### Engaging the GitLab Dedicated CMOC
 
