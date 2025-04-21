@@ -376,7 +376,7 @@ To trigger a developer escalation, see [this process outline](/handbook/engineer
 
 ## Supporting Customer Success Architect (CSA) 24/7 Coverage - Phase 1 
 
-A [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) is included with GitLab’s Advanced and Signature Success Tiers. These tiers include 24/7 coverage and faster response times for Severity 2, known as High Priority tickets in Zendesk.
+A [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) is included with GitLab's Advanced and Signature Success Tiers. These tiers include 24/7 coverage and faster response times for Severity 2, known as High Priority tickets in Zendesk.
 
 | Success Tier | Coverage                                   | 
 | ------------ | ------------------------------------------ |
@@ -404,19 +404,18 @@ We as a company want to treat High Priority tickets, especially from customers w
 
 The Support Manager On-Call is always available to support you. To request support please trigger a PagerDuty alert: 
 
-1. Navigate to the [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) channel in Slack 
+1. Navigate to the [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) channel in Slack
 2. Type `/pd trigger` and hit Enter
-3. Write a summary in the Title field 
-4. Select `Support Managers` from the list of Impacted Services 
+3. Write a summary in the Title field
+4. Select `Support Managers` from the list of Impacted Services
 5. Click `Create` to trigger alert.
 
 ### Rollout and Monitoring
 
 Estimated timeline for Phase 1: 1-2 months, depending on ticket volume and customer adoption.
 
-- TODO: Setup reporting to review historical volumes 
-- TODO: Setup reporting to monitor incoming volumes 
-
+- TODO: Setup reporting to review historical volumes
+- TODO: Setup reporting to monitor incoming volumes
 
 ## License Emergencies
 
@@ -456,7 +455,7 @@ A customer may be blocked because of a license expiring or neglecting to apply a
     - Click `Submit request`.
 1. Wait for the pipeline to complete and check the output of Mechanizer in the [Internal Requests issue tracker](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) where Mechanizer will have automatically assigned you to a new issue.
     - If it is successful, proceed to the next step.
-    - If there are any failures, please see [Problems extending trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#problems-extending-trials) for some troubleshooting steps.
+    - If there are any failures, please see [Problems extending trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials) for some troubleshooting steps.
 1. When the customer confirms, close the emergency ticket.
 1. Alert [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) by linking to the ticket for follow-up.
 
@@ -530,7 +529,7 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 #### Broken functionality due to something specific to the customer
 
-1. [Page the Support Manager on-call](/handbook/support/on-call/#paging-the-on-call-manager) to review the best way to unblock the customer. It may be that you will need someone with .com console access to fully investigate / resolve.
+1. [Page the Support Manager on-call](/handbook/support/on-call/#engaging-the-on-call-manager) to review the best way to unblock the customer. It may be that you will need someone with .com console access to fully investigate / resolve.
 
 #### Broken functionality due to an incident
 
@@ -549,7 +548,7 @@ If there is a known incident, it's acceptable to link to the public status page 
 A customer may be blocked because they have run out of compute minutes.
 
 1. Advise them to purchase additional compute minutes or set up individual runners.
-1. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-additional-minutes-quota-for-a-namespace)
+2. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-minutes-quota-for-a-namespace)
 
 #### Customer has exceeded their storage quota
 
@@ -570,16 +569,16 @@ If this occurs:
 
 1. Don't panic! Slack and PD alerts may come quickly and frequently. Consider silencing both temporarily and focus on ZD.
 1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows#how-are-incidents-declared) and that the incident is actively being worked.
-1. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/engineering/infrastructure/incident-management/#communications-manager-on-call-cmoc-responsibilities) so that you can point to it in responses.
-1. Choose a unique tag that will help you identify tickets, using the incident number would be typical. For example: `incident-12345`
-1. Create a bulk response that points to the incident on the status page, `@gitlabstatus` on Twitter and the production issue. If any of these aren't available yet, you can send a response without to keep customers informed. You can include them in a future update.
+2. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/engineering/infrastructure/incident-management/#how-incidents-are-declared) so that you can point to it in responses.
+3. Choose a unique tag that will help you identify tickets, using the incident number would be typical. For example: `incident-12345`
+4. Create a bulk response that points to the incident on the status page, `@gitlabstatus` on Twitter and the production issue. If any of these aren't available yet, you can send a response without to keep customers informed. You can include them in a future update.
    - Share the response that you draft or otherwise coordinate with `#support_gitlab-com` and others fielding first responses. There are likely non-emergency tickets being raised about the incident. Using the same response increases the efficiency with which we can all respond to customer inquiries about the problem.
-1. Create the tag by typing it into the tag field of at least **one** ticket and submitting it - if you don't, it won't show as available in the bulk edit view of Zendesk.
-1. Use Zendesk search to identify customer-raised emergencies:
+5. Create the tag by typing it into the tag field of at least **one** ticket and submitting it - if you don't, it won't show as available in the bulk edit view of Zendesk.
+6. Use Zendesk search to identify customer-raised emergencies:
    - [`priority:urgent order_by:created_at sort:desc`](https://gitlab.zendesk.com/agent/search/1?type=ticket&q=priority%3Aurgent%20order_by%3Acreated_at%20sort%3Adesc) will show all emergency tickets, sorted by those opened most recently
    - [`priority:urgent order_by:created_at sort:desc status:new`](https://gitlab.zendesk.com/agent/search/1?type=ticket&q=priority%3Aurgent%20order_by%3Acreated_at%20sort%3Adesc%20status%3Anew) will show all **new** emergencies
    - **CAREFUL**: Verify that each ticket is related to the incident - if it is not, follow [handling multiple simultaneous emergencies](#handling-multiple-simultaneous-emergencies)
-1. Use [Zendesk Bulk Update](#using-zendesk-bulk-update) to respond to all open tickets.
+7. Use [Zendesk Bulk Update](#using-zendesk-bulk-update) to respond to all open tickets.
 
 At any point, you may ack/resolve PD alerts. It may be faster to do so through the PagerDuty web interface.
 
