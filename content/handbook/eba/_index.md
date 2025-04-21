@@ -25,7 +25,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [People](/handbook/people-group/) | **Annette Ramirez**<br> Sr EBA | Rob Allen (CPO)<br>Karen Iacobucci (VP of People Operations and Technology)<br> Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) <br> Justin Farris (VP of Product Management) |
 | [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Angela Pesta (VP UX) |
-| [Sales](/handbook/sales/) | TBC | Ian Steward (CRO) - effective 2025-05-05|
+| [Sales](/handbook/sales/) | **Missy Keasler**<br>Staff EBA | Ian Steward (CRO) - effective 2025-05-05|
 | [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education)<br>Sherrod Patching (VP of CSMS) - interim support |
 | [Sales](/handbook/sales/) | **TBC**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Allie Marconi (VP of Online Sales and Self Service) |
 | [Sales](/handbook/sales/) | **Janice Parker**<br> EBA | Craig Nielsen (VP of APJ Sales) |
