@@ -5,7 +5,7 @@ description: "Describes the role and responsibilities for the Support Managers r
 ---
 
 ## Introduction
-   
+
 The Support Manager On-call helps coordinate responses to urgent and important situations that arise within the scope of delivering a quality
 experience to GitLab customers.
 
@@ -47,7 +47,7 @@ See more examples of [situations that might be emergencies](/handbook/support/wo
 
 The APAC region has a pool of [**backup engineers**](/handbook/support/workflows/customer_emergencies_workflows) that are available to reach out to during the weekend on-call hours, in the event that a concurrent emergency occurs.
 
-If you are the Support Manager on-call and a concurrent emergency occurs, you will be paged by the Support Engineer On-call escalated via Pagerduty. You will then be responsible for checking the current situation and determining if the **backup engineers** need to be paged. If so, the Support Manager will then **manually page** the **backup engineers**. At this point, the backup engineers are all pinged. Only one backup engineer needs to acknowledge the page and lend assistance, and there is no expectation that **backup engineers** will be available to respond to a page.
+If you are the Support Manager on-call and a concurrent emergency occurs, you will be paged by the Support Engineer On-call escalated through Pagerduty. You will then be responsible for checking the current situation and determining if the **backup engineers** need to be paged. If so, the Support Manager will then **manually page** the **backup engineers**. At this point, the backup engineers are all pinged. Only one backup engineer needs to acknowledge the page and lend assistance, and there is no expectation that **backup engineers** will be available to respond to a page.
 
 The Support Engineer On-call will [escalate the page directly to the Support Manager On-Call](/handbook/support/workflows/customer_emergencies_workflows/#escalate-to-initiate-page-to-backup-engineers).
 
