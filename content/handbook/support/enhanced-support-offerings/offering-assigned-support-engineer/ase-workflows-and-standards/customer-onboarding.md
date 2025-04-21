@@ -42,7 +42,8 @@ For both of these, please contact your manager and request that:
 
    The request is automated and will create a tracking issue reflecting its status.
 
-1. They verify that the subscription in Salesforce has an `SPS` or `ASE`
+1. They verify in Zendesk that the `Subscription: Support Services - ASE` box
+   is checked for the account 
    product charge listed. If it does not, they should contact Sales Ops
    for assistance.
 
