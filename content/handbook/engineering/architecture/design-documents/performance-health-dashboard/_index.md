@@ -35,7 +35,7 @@ This proposal is motivated by a rise in reported incidents and performance issue
 ### Goals
 
 - Increase awareness for stage teams regarding the performance of their code after deployments and self-managed releases.
-- Enable teams to make data-driven prioritization decisions about performance in their owned code paths.
+- Enable teams to make data-informed prioritization decisions about performance in their owned code paths.
 - Shorten the feedback loop; get problems to the people who can solve them, faster
 
 ### Non-Goals
