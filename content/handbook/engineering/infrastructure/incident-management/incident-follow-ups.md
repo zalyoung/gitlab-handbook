@@ -9,7 +9,7 @@ This page documents the process for managing follow-up items from incidents.
 - **Follow Up Item**: Action items, bugs, or improvements identified during an incident that need to be addressed after the incident is resolved.
 - **Incident Lead**: The person responsible for coordinating the incident response and ensuring proper follow-up after resolution.
 - **Corrective Action**: A follow-up item aimed at preventing similar incidents in the future (synonymous with InfraDev for labeling purposes).
-- **InfraDev**: Infrastructure development issues that affect the production platform.
+- **InfraDev**: [Infrastructure development issues](/handbook/engineering/workflow/#infradev) that affect the production platform.
 
 ## Default Issue Locations
 
