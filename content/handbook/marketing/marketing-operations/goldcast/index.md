@@ -357,6 +357,30 @@ All Japanese event templates have been updated with email templates that include
 
 A Korean template has been requested and is undergoing approvals
 
+To send a `Reschedule` or `Cancelation` email, follow similar protocal as explained in the above section. Select the templates titled `[Reschedule] Default GitLab Template - {{Primary Language}}` or `[Cancellation] Default GitLab Template - {{Primary Language}}` and depending on the email, fill in the subject line with one of these translations:
+
+a. `Your event has been rescheduled!`
+b. `Due to unforeseen circumstances the event has been canceled.`
+
+- Spanish
+  a. "Su evento se reprogramó."
+  b. "Debido a circunstancias imprevistas, el evento se canceló."
+- French
+  a. "Votre événement a été reprogrammé!"
+  b. "En raison de circonstances imprévues, l'événement a été annulé."
+- German
+  a. "Dein Event wurde verschoben."
+  b. "Aufgrund unvorhergesehener Umstände wurde das Event abgesagt."
+- Portuguese
+  a. "Seu evento foi reagendado!"
+  b. "evido a imprevistos, o evento foi cancelado. "
+- Italian
+  a. "Il tuo evento è stato riprogrammato."
+  b. "A causa di circostanze impreviste, l'evento è stato annullato."
+- Japanese
+  a. "イベントのスケジュールが変更されました！"
+  b. "予期せぬ事情により、イベントは中止となりました。"
+
 ## Content Hub
 
 Content Hub is an AI-powered feature that allows users to generate creative assets based on the content from either our webcasts broadcast within Goldcast or videos loaded into the platform. Goldcast can generate several types of content, including:
