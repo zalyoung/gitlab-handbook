@@ -337,6 +337,26 @@ To send a custom email, within the main event menu select into the `Email` menu.
 
 If the event has been rescheduled, change the Marketo program name to match the new date. If the event has been canceled, ping in the mktgops slack channel to have the program deleted or delete the program if you have the permissions.
 
+## Localized Event Templates
+
+Goldcast has been outfitted with localized event templates for 6 additional languages, bringing the number of templates available to 7 languages total:
+
+- English
+- Spanish (Spain)
+- French
+- German
+- Portuguese
+- Italian
+- Japanese
+
+Each of these templates have the `Primary Language` set to the listed language, meaning email assets, UI and features are set to this language and **in order for some features to work correctly the speakers must be speaking in that language**. Event information must also be input by Staff to match the language for a completely localized experience. More information can be found [within Goldcast's documentation](https://help.goldcast.io/event-settings/16635257856923-hosting-an-event-in-different-primary-languages). 
+
+When adding Speakers to an event, the `Speaker Invite/Instructions` email will be set to the `Primary Language` initially but can be switched to a standard English template in the `Email Schedule` section of the event. If you would like to send a `Primary Language` email to one speaker and the standard English email to a different speaker, switch the `Speaker Invite/Instructions` email before adding one Speaker or the other. The system is not capable of sending two different language emails simultaneously. For the `1 hour reminder` email, only one of the two emails can be sent due to those reminders being sent simultaneosly. `Staff Emails` are only in English.
+
+All Japanese event templates have been updated with email templates that include the greeting `{{last name}}-sama`, whether the email is in Japanese or English
+
+A Korean template has been requested and is undergoing approvals
+
 ## Content Hub
 
 Content Hub is an AI-powered feature that allows users to generate creative assets based on the content from either our webcasts broadcast within Goldcast or videos loaded into the platform. Goldcast can generate several types of content, including:
