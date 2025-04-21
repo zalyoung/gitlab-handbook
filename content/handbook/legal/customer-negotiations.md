@@ -90,7 +90,7 @@ With regards to completing a Request for Proposal ("RFP"), sometimes referred to
 
 **It is the sales team member's responsibility to complete vendor request forms**
 
-1. These documents typically: (i) contain various non-legal elemens that require review by appropriate GitLab stakholders; and (ii) often include information already publicly available on the [Company Information page](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information), GitLab [Investor Relations page](https://ir.gitlab.com/) GitLab Handbook or GitLab.com. Sales team members can significantly reduce legal review time by first consulting these public resources before reaching out to the Legal team.
+1. These documents typically: (i) contain various non-legal elements that require review by appropriate GitLab stakholders; and (ii) often include information already publicly available on the [Company Information page](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information), GitLab [Investor Relations page](https://ir.gitlab.com/) GitLab Handbook or GitLab.com. Sales team members can significantly reduce legal review time by first consulting these public resources before reaching out to the Legal team.
 
     **Included on the Company Information Page are:**
 
@@ -101,7 +101,7 @@ With regards to completing a Request for Proposal ("RFP"), sometimes referred to
     - Dun and Bradstreet Number
     - And other relevant corporate information
 
-1. For information not found on the Company Information Page, Sales team members should identify the appropriate GitLab department owners for the remaining matters. You can Contact Deal Desk via the [Sales Order Process](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) page to coordinate finance requests, or alternatively, engage the Finance team within the Finance Slack channel  If uncertain about the correct department, Legal can provide guidance on the proper routing.
+1. For information not found on the Company Information Page, Sales team members should identify the appropriate GitLab department owners for the remaining matters. You can contact Deal Desk via the [Sales Order Process](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) page to coordinate finance requests, or alternatively, engage the Finance team within the Finance Slack channel  If uncertain about the correct department, Legal can provide guidance on the proper routing.
 1. GitLab's W9 is located on the Finance [Forms page](/handbook/finance/#forms)
 1. If there are Security-related questions that are not found in GitLab's [Trust Center](https://trust.gitlab.com/), the Sales team member should engage the Field Security Team via the [Customer Assurance Activities Page](/handbook/security/security-assurance/field-security/customer-security-assessment-process).
 1. For tax specific questions, the Sales team member should engage the Tax Team within the Tax Slack Channel or in the SFDC chatter if there is already an existing SFDC case. For Tax Certificate requests please email the Finance team at 'tax@gitlab.com'.
