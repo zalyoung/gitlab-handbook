@@ -93,6 +93,17 @@ There should be a number of ways a Change Set can be created:
 
 #### [Identify projects that make up a "product"](https://gitlab.com/groups/gitlab-org/-/epics/17278)
 
+An organization (loosely defined as instance or group) can have multiple “products”. There could be multiple poly-repos in a given organization.
+
+The "product" is orthogonal to the group/sub-group/project hierarchy. It
+can be a map of any arbitrary projects in the organization, not
+necessarily belonging to the same group.
+
+- organization has many “products”
+- a product has many projects/repos
+- a product has many changesets
+- a changeset has many MRs (implicitly project + ref)
+
 Usually a Change Set will involve a subset of the projects involved in a
 target project. Customers currently use a number of approaches to
 identify a product. For example:
