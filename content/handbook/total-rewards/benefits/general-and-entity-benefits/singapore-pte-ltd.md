@@ -3,7 +3,7 @@ title: "GitLab Singapore Pte Ltd"
 description: "Discover GitLab's benefits for team members in Singapore"
 ---
 
-The Total Rewards team hosted a [Singapore Benefits Webinar](https://drive.google.com/drive/folders/1xoXT7VPy6LvHjBp-T6CnY57EE1Y05TYr) on 31-07-2024 with WTW to go over the benefit plans below.
+The Total Rewards team hosted a [Singapore Benefits Webinar](https://drive.google.com/file/d/1dA0aM-wdgaIRDJTCpDmGd-IWMaf3skaq/view?usp=sharing) on 31-07-2024 with WTW to go over the benefit plans below.
 
 ## Medical
 
