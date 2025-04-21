@@ -374,41 +374,41 @@ On rare occasions, you and the manager on-call may decide it's necessary to init
 
 To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline).
 
-## Supporting Customer Success Architect (CSA) 24/7 Coverage - Phase 1 
+## Supporting Customer Success Architect (CSA) 24/7 Coverage - Phase 1
 
 A [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) is included with GitLab's Advanced and Signature Success Tiers. These tiers include 24/7 coverage and faster response times for Severity 2, known as High Priority tickets in Zendesk.
 
-| Success Tier | Coverage                                   | 
+| Success Tier | Coverage                                   |
 | ------------ | ------------------------------------------ |
-| Advanced     | - 24/7 High Priority coverage              | 
+| Advanced     | - 24/7 High Priority coverage              |
 | Signature    | - 24/7 High Priority coverage<br>- 2hr SLA |
 
 ### Weekend Coverage
 
 Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets. A team of dedicated engineers hired for the permanent 24/7 roles will use this period for onboarding and training. This is Phase 1 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
 
-### PagerDuty Alerts 
+### PagerDuty Alerts
 
-From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk. 
+From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
 
-### Ticket Assignment and Handling 
+### Ticket Assignment and Handling
 
-We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action. 
+We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
 
 1. When you start your shift, look in the [Success Advanced and Signature 24x7 Tickets](https://gitlab.zendesk.com/agent/filters/17365930959516) Zendesk queue for any `High` priority tickets.
-2. Take assignment of all High Priority tickets in this queue. This ensures that you are notified of customer responses during your shift, and will minimise delays responding to the customer. 
-3. We should aim to focus on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. Once it's a medium or lower priority, ensure you communicate this with the customer. 
-4. Only downgrade the Priority of the ticket, once you have received confirmation from the customer. 
+1. Take assignment of all High Priority tickets in this queue. This ensures that you are notified of customer responses during your shift, and will minimise delays responding to the customer.
+1. We should aim to focus on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority.Once it's a medium or lower priority, ensure you communicate this with the customer.
+1. Only downgrade the Priority of the ticket, once you have received confirmation from the customer.
 
-**Important note:** There is no need to Unassign tickets over the weekend, as the incoming `@ceoc` will take assignment upon commencing their shift. 
+**Important note:** There is no need to Unassign tickets over the weekend, as the incoming `@ceoc` will take assignment upon commencing their shift.
 
-The Support Manager On-Call is always available to support you. To request support please trigger a PagerDuty alert: 
+The Support Manager On-Call is always available to support you. To request support please trigger a PagerDuty alert:
 
 1. Navigate to the [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) channel in Slack
-2. Type `/pd trigger` and hit Enter
-3. Write a summary in the Title field
-4. Select `Support Managers` from the list of Impacted Services
-5. Click `Create` to trigger alert.
+1. Type `/pd trigger` and hit Enter
+1. Write a summary in the Title field
+1. Select `Support Managers` from the list of Impacted Services
+1. Click `Create` to trigger alert.
 
 ### Rollout and Monitoring
 
@@ -548,7 +548,7 @@ If there is a known incident, it's acceptable to link to the public status page 
 A customer may be blocked because they have run out of compute minutes.
 
 1. Advise them to purchase additional compute minutes or set up individual runners.
-2. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-minutes-quota-for-a-namespace)
+1. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-minutes-quota-for-a-namespace)
 
 #### Customer has exceeded their storage quota
 
@@ -569,16 +569,16 @@ If this occurs:
 
 1. Don't panic! Slack and PD alerts may come quickly and frequently. Consider silencing both temporarily and focus on ZD.
 1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows#how-are-incidents-declared) and that the incident is actively being worked.
-2. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/engineering/infrastructure/incident-management/#how-incidents-are-declared) so that you can point to it in responses.
-3. Choose a unique tag that will help you identify tickets, using the incident number would be typical. For example: `incident-12345`
-4. Create a bulk response that points to the incident on the status page, `@gitlabstatus` on Twitter and the production issue. If any of these aren't available yet, you can send a response without to keep customers informed. You can include them in a future update.
+1. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/engineering/infrastructure/incident-management/#how-incidents-are-declared) so that you can point to it in responses.
+1. Choose a unique tag that will help you identify tickets, using the incident number would be typical. For example: `incident-12345`
+1. Create a bulk response that points to the incident on the status page, `@gitlabstatus` on Twitter and the production issue. If any of these aren't available yet, you can send a response without to keep customers informed. You can include them in a future update.
    - Share the response that you draft or otherwise coordinate with `#support_gitlab-com` and others fielding first responses. There are likely non-emergency tickets being raised about the incident. Using the same response increases the efficiency with which we can all respond to customer inquiries about the problem.
-5. Create the tag by typing it into the tag field of at least **one** ticket and submitting it - if you don't, it won't show as available in the bulk edit view of Zendesk.
-6. Use Zendesk search to identify customer-raised emergencies:
+1. Create the tag by typing it into the tag field of at least **one** ticket and submitting it - if you don't, it won't show as available in the bulk edit view of Zendesk.
+1. Use Zendesk search to identify customer-raised emergencies:
    - [`priority:urgent order_by:created_at sort:desc`](https://gitlab.zendesk.com/agent/search/1?type=ticket&q=priority%3Aurgent%20order_by%3Acreated_at%20sort%3Adesc) will show all emergency tickets, sorted by those opened most recently
    - [`priority:urgent order_by:created_at sort:desc status:new`](https://gitlab.zendesk.com/agent/search/1?type=ticket&q=priority%3Aurgent%20order_by%3Acreated_at%20sort%3Adesc%20status%3Anew) will show all **new** emergencies
    - **CAREFUL**: Verify that each ticket is related to the incident - if it is not, follow [handling multiple simultaneous emergencies](#handling-multiple-simultaneous-emergencies)
-7. Use [Zendesk Bulk Update](#using-zendesk-bulk-update) to respond to all open tickets.
+1. Use [Zendesk Bulk Update](#using-zendesk-bulk-update) to respond to all open tickets.
 
 At any point, you may ack/resolve PD alerts. It may be faster to do so through the PagerDuty web interface.
 
