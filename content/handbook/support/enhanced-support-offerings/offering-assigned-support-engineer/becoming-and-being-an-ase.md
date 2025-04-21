@@ -46,6 +46,14 @@ You might also find it helpful to review the
       1. where `[org_a percentage]` is the percentage of your ASE time that
          will be spent on org_a, `[org_b percentage]` is the same thing for your
          second account, and the sum of the org percentages is 100
+1. Submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
+   to have a user record created for yourself in Salesforce:
+   1. Issue Title: [YOUR NAME], Salesforce, Executive-NoViewAll
+   1. Under `Step 2: Access Request`, create a checklist using this as a
+      template:
+      > * [ ] Salesforce: Executive-NoViewAllJustification:
+      >   * [ ] As per https://gitlab.com/gitlab-com/sales-team/field-operations/systems#5626, support engineers serving as Assigned Support Engineers need SFDC access in order to enable the picklist functionality that the issue describes
+   1. Assign the issue to your manager
 1. Change your job title in Zoom
 1. Update your signature in Zendesk to indicate that you are an ASE
 
@@ -68,18 +76,18 @@ CMOC rotation that minimizes disruption to the team.
 
 **<<<< COMING SOON >>>>**
 
-- Balancing between ASE and Global
-  - on-call rotation
-  - ticket queue
-  - pairings and help sessions
-- Learn about how to work with your account (manager 1:1s for now, presentation eventually)
-  - managing customer expectations
-  - stepping out of the SE box - change your way of thinking about what you should
+* Balancing between ASE and Global
+  * on-call rotation
+  * ticket queue
+  * pairings and help sessions
+* Learn about how to work with your account (manager 1:1s for now, presentation eventually)
+  * managing customer expectations
+  * stepping out of the SE box - change your way of thinking about what you should
     or shouldn't do
-  - prioritize and re-prioritize all the time
-  - only attend account meetings in which you will learn or contribute
-  - get to know the people as people
-    - do lots of Zooms with them and chat as you work a ticket
-  - get to know what they're doing with GitLab and why
-- Link to the customer onboarding page (customer-onboarding.html)
-- Tips from ASEs
+  * prioritize and re-prioritize all the time
+  * only attend account meetings in which you will learn or contribute
+  * get to know the people as people
+    * do lots of Zooms with them and chat as you work a ticket
+  * get to know what they're doing with GitLab and why
+* Link to the customer onboarding page (customer-onboarding.html)
+* Tips from ASEs
