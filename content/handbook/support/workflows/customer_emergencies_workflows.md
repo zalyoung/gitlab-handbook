@@ -414,8 +414,9 @@ The Support Manager On-Call is always available to support you. To request suppo
 
 Estimated timeline for Phase 1: 1-2 months, depending on ticket volume and customer adoption.
 
-- TODO: Setup reporting to review historical volumes
-- TODO: Setup reporting to monitor incoming volumes
+**Zendesk Explore Dashboard:** [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE)
+
+This is being closely monitored by Manager DRIs (@erikamiklos (EMEA), @ralfaro (AMER), @kslaats (APAC)) in the Zendesk Dashboard: [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE).
 
 ## License Emergencies
 
@@ -441,21 +442,21 @@ Otherwise, follow the [Self-Managed Weekend Emergencies - License Request](/hand
 
 A customer may be blocked because of a license expiring or neglecting to apply a renewal. If this happens over the weekend:
 
-1. Look up the namespace details using [chatops](/handbook/support/workflows/chatops#namespace) or a GitLab.com Admin account via the namespaces API (https://gitlab.com/api/v4/namespaces/<NAMESPACE>)
+1. Look up the namespace details using [chatops](/handbook/support/workflows/chatops#namespace) or a GitLab.com Admin account by using the namespaces API (https://gitlab.com/api/v4/namespaces/<NAMESPACE>)
 1. Check the `Trial ends on` date.
-    - If it has a date, you will not need to provide a `Subscription Name` in the next step. Proceed to step 3.
-    - If it is empty or null **and the namespace is on a Free plan**, guide the customer to navigate to the Settings -> Billing page and click on `Start a Free Ultimate trial`.
+   - If it has a date, you will not need to provide a `Subscription Name` in the next step. Proceed to step 3.
+   - If it is empty or null **and the namespace is on a Free plan**, guide the customer to navigate to the Settings -> Billing page and click on `Start a Free Ultimate trial`.
 1. In the ticket, apply the `Trial Subscription - Exclusions Sign Off` macro and send the generated message to the customer. Do not proceed further until the customer has provided a **written** response confirming they understand the trial subscription exclusions.
 1. In the `Mechanizer` app on the ticket use the [`Manage GitLab Plan and Trials`](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#manage-gitlabcom-plan-and-trials) option to resolve the situation.
-    - Enter the namespace path.
-    - Select the Plan the customer had initially purchased, or use `Ultimate` if you do not have this information.
-    - Set the end date to 10 days later.
-    - Leave the `Approving sales manager's GitLab username` field empty.
-    - Leave the `Subscription name` empty.
-    - Click `Submit request`.
+   - Enter the namespace path.
+   - Select the Plan the customer had initially purchased, or use `Ultimate` if you do not have this information.
+   - Set the end date to 10 days later.
+   - Leave the `Approving sales manager's GitLab username` field empty.
+   - Leave the `Subscription name` empty.
+   - Click `Submit request`.
 1. Wait for the pipeline to complete and check the output of Mechanizer in the [Internal Requests issue tracker](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) where Mechanizer will have automatically assigned you to a new issue.
-    - If it is successful, proceed to the next step.
-    - If there are any failures, please see [Problems extending trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials) for some troubleshooting steps.
+   - If it is successful, proceed to the next step.
+   - If there are any failures, please see [Problems extending trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials) for some troubleshooting steps.
 1. When the customer confirms, close the emergency ticket.
 1. Alert [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) by linking to the ticket for follow-up.
 
@@ -569,7 +570,7 @@ If this occurs:
 
 1. Don't panic! Slack and PD alerts may come quickly and frequently. Consider silencing both temporarily and focus on ZD.
 1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows#how-are-incidents-declared) and that the incident is actively being worked.
-1. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/engineering/infrastructure/incident-management/#how-incidents-are-declared) so that you can point to it in responses.
+1. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/support/workflows/cmoc_workflows/#how-incidents-are-declared).
 1. Choose a unique tag that will help you identify tickets, using the incident number would be typical. For example: `incident-12345`
 1. Create a bulk response that points to the incident on the status page, `@gitlabstatus` on Twitter and the production issue. If any of these aren't available yet, you can send a response without to keep customers informed. You can include them in a future update.
    - Share the response that you draft or otherwise coordinate with `#support_gitlab-com` and others fielding first responses. There are likely non-emergency tickets being raised about the incident. Using the same response increases the efficiency with which we can all respond to customer inquiries about the problem.
