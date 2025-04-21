@@ -21,7 +21,7 @@ The information contained on this page is organized into two distinct categories
 | [**Completing Vendor Request Forms**](#completing-vendor-request-forms) | [**GitLab Subscription Agreement ("Subscription Agreement") Basics**](#gitlab-subscription-agreement-basics) |
 | [**Requests for GitLab Financial Information and Insurance Certificates**](#requests-for-gitlab-financial-information-and-insurance-certificates) | [**Business Associate Agreements**](#business-associate-agreements-baas) |
 | [**Escalation Process**](#escalation-process) | [**Data Privacy and the GitLab Data Processing Addendum**](#data-privacy-security-and-the-gitlab-data-processing-addendum) |
-| [**Request for Name Change or Change in Control**](#request-for-name-change-or-change-in-control) | [**Contract Lifecycle Management (CLM) Process**](#clm-process)
+| [**Request for Name Change or Change in Control**](#request-for-name-change-or-change-in-control) | [**Contract Lifecycle Management (CLM) Process**](#contract-lifecycle-management-clm-process) |
 | [**Legal Commercial Coverage Model**](#legal-commercial-coverage-model) | |
 | [**GitLab Issues: Collaborating Cross-Functionally**](#collaborating-cross-functionally-with-gitlab-issues) |  |
 | [**Best Practices for a Legal Call**](#best-practices-for-a-legal-call) |  |
@@ -51,7 +51,7 @@ The information contained on this page is organized into two distinct categories
 
 ### How do I get an Agreement Signed
 
-1. No one in the Sales organization is authorized to sign any agreements. Only certain individuals may execute on behalf of GitLab, see Authorization Matrix [here](/handbook/finance/authorization-matrix/#authorization-matrix) (as updated from time to time). If you have any questions, please reach out to the Legal team member who has been assisting with the applicable request.
+1. No one in the Sales organization is authorized to sign any agreements. Only certain individuals may execute on behalf of GitLab, see Authorization Matrix [here](https://internal.gitlab.com/handbook/company/authorization-matrix/) (as updated from time to time). If you have any questions, please reach out to the Legal team member who has been assisting with the applicable request.
 1. All agreements require a Legal approval stamp in order to be signed. This stamp is placed on the agreement by a Legal team member when an executable version is reached. 
 
     **NOTE - the Legal Stamp is not a signature**
@@ -178,6 +178,7 @@ Order Form Process for Sales:
 All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab's Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/solutions-architects/tools-and-resources/pov/) guided by GitLab.
 
 If a customer declines the trial process and is adamant to have a separate Evaluation Agreement, the sales team member or solutions architect should: 
+
 - Open a Legal Request to request an Evaluation Agreement with Request Form. 
 - The Legal Request should (i) include a request for approval from the Area Sales Manager or higher; and (ii) set forth applicable details to complete the Request Form, such as customer contact information, length of evaluation, number of users, etc.
 
@@ -244,7 +245,7 @@ Why will GitLab not sign a BAA?
 
 1. The [GitLab Privacy Policy](https://about.gitlab.com/privacy/) explains how GitLab collects, uses and shares customers' personal information, and how customers may exercise their rights with respect to that personal information. Additional details on privacy compliance at GitLab, including answers to a number of frequently asked questions concerning GDPR, can be found on the GitLab [Privacy Compliance handbook page](https://about.gitlab.com/privacy/privacy-compliance/).
 1. The GitLab Data Processing Addendum, usually referred to as the "DPA", can be accessed from the GitLab [Terms of Use page](https://about.gitlab.com/terms/). As stated in the GitLab Subscription Agreement, the terms of the DPA automatically apply to corporate customers.
-1. When asking questions about data privacy, customers may also raise questions about security. Generally, such questions are best directed to the [Field Security Team](/handbook/security/security-assurance/field-security/#contact-the-field-security-team). However, the following resources may be useful prior to contacting the Field Security team:
+1. When asking questions about data privacy, customers may also raise questions about security. Generally, such questions are best directed to the [Field Security Team](/handbook/security/security-assurance/field-security/). However, the following resources may be useful prior to contacting the Field Security team:
     -The [Security Practices handbook page](/handbook/security/) gives details about GitLab's organizational security.
     -GitLab's [Trust Center](/handbook/security/security-assurance/field-security/customer-security-assessment-process/) provides details and documentation of GitLab's current security and compliance policies.
     -GitLab documentation explaining how to [Secure your application](https://docs.gitlab.com/ee/user/application_security/), [Secure your installation](https://docs.gitlab.com/ee/security/) and the GitLab [permissions guide](https://docs.gitlab.com/ee/development/permissions.html) are useful for helping customers understand steps they can take to secure the personal data processed by GitLab.
