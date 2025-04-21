@@ -19,13 +19,11 @@ We use different default projects for incident follow-up issues based on privacy
 
 - **Default Location**: `gitlab-com/gl-infra/incident-follow-ups`
 - This project serves as the initial triage point for all follow-up items from GitLab.com incidents
-- Both the `infradev` and `corrective action` labels are automatically applied to all follow-up issues
 
 ### Dedicated Team
 
 - **Default Location**: `gitlab-com/gl-infra/dedicated-follow-ups`
 - This private project preserves confidentiality for customer-specific incidents
-- Both the `infradev` and `corrective action` labels are automatically applied to all follow-up issues
 
 ## Incident Lead Responsibilities
 
