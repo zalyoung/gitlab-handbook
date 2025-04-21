@@ -151,6 +151,7 @@ as self-managed instances.
 - [003: Run scan within subprocess](decisions/003_run_scan_within_subprocess)
 - [004: Standalone Secret Detection Service](decisions/004_secret_detection_scanner_service)
 - [005: Use Runway for service deployment](decisions/005_use_runway_for_deployment)
+- [006: Unified SD Support for all GitLab Environments](decisions/006_support_for_all_environments)
 
 ## Challenges
 
@@ -354,6 +355,16 @@ _More details on Phase 2.1 will be added once there are updates on the developme
 
 ### Phase 3 - Expansion beyond Push Protection service
 
+The standalone Secret Detection service is currently supported for GitLab.com environment. We will continue using a hybrid approach of SD Service (GitLab.com) and Embedded Secret Detection module(Self-Managed/Dedicated). An embedded Secret Detection module is a locally hosted Secret Detection application in the form of a Ruby gem or an executable binary installed on the host GitLab Rails machine.
+
+Secret Push Protection requires scans to run on git diffs (target type) in a blocking manner to provide scan results instantenously. This approach isn't technically scalable for other scan target types (particularly larger sized ones like Job Artifacts or Job Logs). As a result, we decided to support non-blocking scans via Sidekiq.
+
+Read more about the above decisions [here](./decisions/006_support_for_all_environments.md).
+
+![High-level Secret Detection design](/images/engineering/architecture/design-documents/secret_detection/006_support_all_envs.png "High level design supporting sync and async scans")
+
+#### High-level SD detection flow for Work Items
+
 The detection flow for arbitrary text blobs, such as issue comments, relies on
 subscribing to `Notes::PostProcessService` (or equivalent service) to enqueue
 Sidekiq requests to the `SecretScanningService` to process the text blob by object type
@@ -361,15 +372,12 @@ and primary key of domain object. The `SecretScanningService` service fetches th
 relevant text blob, scans the contents, and notifies the Rails application when a secret
 is detected.
 
+#### High-level SD detection flow for Job Logs
+
 The detection flow for job logs requires processing the log during archive to object
 storage. See discussion [in this issue](https://gitlab.com/groups/gitlab-org/-/epics/8847#note_1116647883)
 around scanning during streaming and the added complexity in buffering lookbacks
 for arbitrary trace chunks.
-
-In the case of a push detection, the commit is rejected and error returned to the end user.
-In any other case of detection, the Rails application manually creates a vulnerability
-using the `Vulnerabilities::ManuallyCreateService` to surface the finding in the
-existing Vulnerability Management UI.
 
 #### Configuration
 
