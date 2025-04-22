@@ -64,7 +64,7 @@ New to GitLab and looking for some IT tips and tricks? This is the spot for you,
 
 #### Offboarding
 
-- Are you or a direct report leaving the company? Please reference the [Offboarding](/handbook/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
+- Are you or a direct report leaving the company? Please reference the [Offboarding](https://internal.gitlab.com/handbook/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> Automations
 
