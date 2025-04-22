@@ -63,40 +63,51 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 ### Key Roles in the Hyperscaler MDF Ecosystem
 
 1. Program Owner (Francine): Primary contact with Hyperscaler Partners
-  - Oversees the entire MDF program
-  - Reviews internal MDF request entries with Hyperscalers
-  - Submit MDF request, when approved, we’ll receive a PO
-  - Request an invoice from AR team provide the PO and MDF Approval Email via issue
-  - Submit claim with proof of performance (receipt) to the Hyperscaler portal
-1. Partner Marketing Manager (Gabby): Administers fund allocation
-  - Set up the Allocadia activity and GitLab issue assigned to the requester
-1. Campaign Owners/Operations (Fund Requester can also be a Campaign Owner)
-  - Create their own Asana project to manage their campaign
-  - Manages execution and setup for Marketo and Salesforce
-  - Open Zip request
-  - Send Partner Marketing Manager receipts for Proof of Performance
-  - Provide the link to the Tableau campaign report to issue
-1. Fund Requesters: Initiates funding requests
-  - Fill out the spreadsheet with campaign details
-  - Provides Target MQL and Target Pipeline Goals
+
+- Oversees the entire MDF program
+- Reviews internal MDF request entries with Hyperscalers
+- Submit MDF request, when approved, we'll receive a PO
+- Request an invoice from AR team provide the PO and MDF Approval Email via issue
+- Submit claim with proof of performance (receipt) to the Hyperscaler portal
+
+2. Partner Marketing Manager (Gabby): Administers fund allocation
+
+- Set up the Allocadia activity and GitLab issue assigned to the requester
+
+3. Campaign Owners/Operations (Fund Requester can also be a Campaign Owner)
+
+- Create their own Asana project to manage their campaign
+- Manages execution and setup for Marketo and Salesforce
+- Open Zip request
+- Send Partner Marketing Manager receipts for Proof of Performance
+- Provide the link to the Tableau campaign report to issue
+
+4. Fund Requesters: Initiates funding requests
+
+- Fill out the spreadsheet with campaign details
+- Provides Target MQL and Target Pipeline Goals
 
 ### Application Process
 
 1. Complete the Google Sheet:
-  - AWS: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1Ej_QJpTI0u_hPwB-jJKcqTviIAnmS1wgctfabgfUlPM/edit?gid=2978057#gid=2978057)
-  - GCP: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1B2mSraHHhCMbK96Sx0ZQlXTI6J7tIp5LNeWdsnKetrE/edit?usp=sharing)
-  - Complete all required fields, including:
-    - Strategic Priority Alignment
-    - Region
-    - Activity Type and Description
-    - Proposed Start and End Date
-    - Total Cost
-    - Amount Requested
-    - Target MQL
-    - Target Pipeline
+
+- AWS: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1Ej_QJpTI0u_hPwB-jJKcqTviIAnmS1wgctfabgfUlPM/edit?gid=2978057#gid=2978057)
+- GCP: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1B2mSraHHhCMbK96Sx0ZQlXTI6J7tIp5LNeWdsnKetrE/edit?usp=sharing)
+- Complete all required fields, including:
+
+  - Strategic Priority Alignment
+  - Region
+  - Activity Type and Description
+  - Proposed Start and End Date
+  - Total Cost
+  - Amount Requested
+  - Target MQL
+  - Target Pipeline
+
 1. Submit for Review:
-  - Tag Francine for approval in the Google spreadsheet
-  - Include any supporting materials that strengthen your case (past performance of similar activities, customer interest data, etc.)
+
+- Tag Francine for approval in the Google spreadsheet
+- Include any supporting materials that strengthen your case (past performance of similar activities, customer interest data, etc.)
 
 ### Approval Process
 
