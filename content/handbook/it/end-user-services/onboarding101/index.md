@@ -6,8 +6,6 @@ title: "GitLab IT 101"
 
 Congratulations on joining GitLab! This page is dedicated to the IT onboarding experience, here at GitLab we use many applications and the latest hardware to enable you to complete your work to the best of your ability! While it may seen a little bit overwhelming at the start the Team member enablement team is here to make the process as easy as possible!
 
-
-
 ## Laptop Setup: MacBook
 
 > **IMPORTANT**: You will not have access to your work MacBook until your start date. On your start date,  please follow this guide.
@@ -118,7 +116,7 @@ You have completed the initial setup process for your GitLab account and MacBook
 
 - **Store files in iCloud**: iCloud has the ability to store desktop and documents in iCloud. As our Cloud Storage option is Google Drive, please make sure this feature is disabled. Anything of importance for work should be stored in Google Drive, a GitLab Issue, or the Handbook based on the type and [data classification](/handbook/security/data-classification-standard/) of the information.
 
-###  MacBook Cheat Sheet
+### MacBook Cheat Sheet
 
 If you are new to using a MacBook or switched from another OS such as windows check out these useful shortcuts and options!
 
@@ -141,7 +139,6 @@ If you do not see those applications, please check [this guide](https://internal
 Check out [this page](/handbook/tools-and-tips/linux/) on setting up your Linux laptop. Also feel free to reach out in #Linux slack channel or #it_help for assistance!
 
 Our Linux MDM is FleetDM. Please review [this page](https://internal.gitlab.com/handbook/security/corporate/tooling/fleet/#enrolling-in-fleet) for instructions on enrolling your system in Fleet.
-
 
 ## Need Help?
 
