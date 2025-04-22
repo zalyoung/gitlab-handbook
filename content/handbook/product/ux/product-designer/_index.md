@@ -306,7 +306,7 @@ Refer to the [MR reviews handbook page](/handbook/product/ux/product-designer/mr
 
 - When reviewing an MR, refer to the SSOT in the issue, which should include a mock-up or Figma link in the "Solutions" section of the issue description.
 
-### Follow-up after design is complete
+### Follow-up after a design proposal is finalised
 
 For changes that affect Pajamas (GitLab's design system):
 
