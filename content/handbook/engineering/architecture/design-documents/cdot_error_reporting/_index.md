@@ -56,12 +56,13 @@ To improve efficiency and results, we need to automate this process.
 
 ## Design and implementation details
 
-### Proposed DB schema
+### DB schema
 
 ```mermaid
 erDiagram
   "ErrorMonitorings" {
     integer id PK
+    type string "null:false"
     text message "null:false"
     string code
     string error_type "limit: 1000"
@@ -82,7 +83,13 @@ The `error_monitorings` table is designed to store meaningful errors that are va
 * `error_type` -> This code is not valid. Try re-entering the code from your email.
 * `message` -> Subscription update failed
 
-Currently, we are tagging error messages with `fulfillment_job_monitoring` within the codebase and using GCloud to look up and resolve them individually. Moving forward, the plan remains the same: we will begin by logging errors with the `fulfillment_job_monitoring` tag into the database.
+The `error_monitorings` table uses [Single Table Inheritance (STI)](https://martinfowler.com/eaaCatalog/singleTableInheritance.html) to store different types of errors. In Rails, the type column enables this STI pattern, allowing multiple error types to be stored in the same table.
+
+Currently, we are using two types: 'RevenueImpact' and 'SalesforceErrors', both of which inherit from the base ErrorMonitoring model.
+
+We are tagging error messages with `fulfillment_job_monitoring` to store the   Revenue Impact errors within the codebase and using GCloud to look up and resolve them individually.
+
+We are tagging salesforce error messages with `salesforce_error_monitoring` to store the errors related to Salesforce within the codebase.
 
 Errors will continue to be addressed individually. As soon as an error is encountered, we will send an immediate notification to the designated Slack channel, probably through the background job, to ensure timely resolution.
 
