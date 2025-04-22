@@ -54,7 +54,7 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 - Any 4K broadcasts require the GitLab team contact Goldcast support as these are deemed "special" events 
 - [Lite Mode](https://help.goldcast.io/en_US/for-attendees/9152654198427-goldcast-attendee-faqs), as shown on Q4 of the FAQ, may improve performance of attendees experiencing video or audio problems. By default, guests are asked to perform a connection test before joining an event 
 - To request text-based Live Chat Support during an event and from the Studio dashboard, [click the "?" icon in the top right corner](https://help.goldcast.io/en_US/about-goldcast/16577714397851-how-do-i-contact-goldcast-support-). Support can share an `event check`up to 48 hours prior to the event, if requested, which includes a review of settings
-- Uploading our own subtitle files [requires reaching out to Support](https://goldcast.zendesk.com/hc/en-us/articles/26677786827291-Upload-Custom-VTT-Caption-Files-to-Pre-recorded-Sessions) with the event name/ID and pre-recorded session name. Pre-loaded subtitles are only available for pre-recorded events. The file emailed to Support must be in VTT format  
+- Uploading our own subtitle files [requires reaching out to Support](https://goldcast.zendesk.com/hc/en-us/articles/26677786827291-Upload-Custom-VTT-Caption-Files-to-Pre-recorded-Sessions) with the event name/ID and pre-recorded session name. Pre-loaded subtitles are only available for pre-recorded events. The file emailed to Support must be in VTT format and the Support team requests up to 48 hours to implement
 
 ## Fields syncing between Marketo and Goldcast
 
