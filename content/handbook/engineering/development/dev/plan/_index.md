@@ -483,40 +483,43 @@ See further details at https://handbook.gitlab.com/handbook/product/ux/product-d
 
 #### Background
 
-There are many company, team, process (and other) updates that are important to communicate to team members so that they are not missed. Besides that, there is other information important for day-to-day work. In Plan we use async Weekly updates, called Plan Weekly digest, to communicate these to our team members.
+In Plan we use async Weekly updates, called Plan Weekly digests, to communicate progress on important work this week to our team members.
 
-The Engineering Managers in the Plan stage alternate each week as the DRIs. There are 4 groups in the Plan stage, and one SEM, so every EM is the DRI roughly once / 5 weeks.
+The Engineering Managers in the Plan stage alternate each week as the DRIs. There are 3 groups in the Plan stage, and one SEM, so every EM is the DRI roughly once / 4 weeks.
 
-The responsibility of the DRI is simply to collect information and to ensure the issue is ready to be publicized in time for the coming week. All team-members are welcome to participate in suggesting content using discussions or adding it directly by editing the description.
+The responsibility of the DRI is simply to ensure the issue is ready to be publicized in time for the coming week by reminding everyone to contribute. All team-members are welcome to participate in suggesting content using discussions or adding it directly by editing the description.
 
 #### Process
 
 1. A new confidential issue is created every **Monday, 8 UTC**. (automatically)
-1. The issue is assigned to all Plan Engineering Managers.
-1. The EM **responsible** for the content of the issue can be found in the schedule below but all other EMs can contribute to the issue as well.
-1. On **Saturday, 8 UTC** all team members are alerted on the issue via a comment (automatically).
+1. The issue is assigned to a Plan Engineering Manager according to the schedule below. Their role is to remind others to contribute.
+1. On **Saturday, 8 UTC** all team members are reminded to read the updates on the issue via a comment (automatically).
 1. On Friday, 8 UTC (next week) the issue is closed.
 
 #### DRIs
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-12-30 | Vladimir Shushlin |
-| 2025-01-06 | Kushal Pandya |
-| 2025-01-13 | Donald Cook |
-| 2025-01-20 | John Hope |
-| 2025-01-27 | Vladimir Shushlin |
-| 2025-02-03 | Kushal Pandya |
-| 2025-02-10 | Donald Cook |
-| 2025-02-17 | John Hope |
-| 2025-02-24 | Vladimir Shushlin |
-| 2025-03-03 | Kushal Pandya |
-| 2025-03-10 | Donald Cook |
-| 2025-03-17 | John Hope |
-| 2025-03-24 | Vladimir Shushlin |
-| 2025-03-31 | Kushal Pandya |
-| 2025-04-07 | Donald Cook |
 | 2025-04-14 | John Hope |
+| 2025-04-21 | John Hope |
+| 2025-04-28 | Vladimir Shushlin |
+| 2025-05-05 | Donald Cook |
+| 2025-05-12 | John Hope |
+| 2025-05-19 | Vladimir Shushlin |
+| 2025-05-26 | Donald Cook |
+| 2025-06-02 | John Hope |
+| 2025-06-09 | Vladimir Shushlin |
+| 2025-06-16 | Donald Cook |
+| 2025-06-23 | John Hope |
+| 2025-06-30 | Vladimir Shushlin |
+| 2025-07-07 | Donald Cook |
+| 2025-07-14 | John Hope |
+| 2025-07-21 | Vladimir Shushlin |
+| 2025-07-28 | Donald Cook |
+| 2025-08-04 | John Hope |
+| 2025-08-11 | Vladimir Shushlin |
+| 2025-08-18 | Donald Cook |
+| 2025-08-25 | John Hope |
 
 #### Links
 
