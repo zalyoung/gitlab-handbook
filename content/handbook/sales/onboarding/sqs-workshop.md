@@ -48,15 +48,15 @@ This [SQS 2025 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
 |------|------------|----------|----------|--------------|
 | May 12, 2025 | 10:30a ET | 10:50a ET | Operational Excellence: Into to Gitlab Field Security | Field Security |
-| May 12, 2025 | 11:30a ET | 12:25p ET | Solution Focus: Intro to GitLab Pitch & Market Overview | Product Marketing |
-| May 13, 2025 | 10:00a ET | 10:50a ET | Solution Focus: Intro to Competition | Product Marketing |
-| May 13, 2025 | 11:30a ET | 11:50a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
-| May 13, 2025 | 12:00p ET | 12:50p ET | Operational Excellence: Working with Marketing & Sales Development | Marketing Enablement |
+| May 12, 2025 | 11:00a ET | 11:20a ET | Operational Excellence: Intro to GitLab Legal | Legal Team |
+| May 12, 2025 | 11:30a ET | 12:20p ET | Operational Excellence: Working with Marketing & Sales Development | Marketing Enablement |
+| May 13, 2025 | 11:00a ET | 11:50a ET | Solution Focus: Intro to GitLab Pitch & Market Overview | Product Marketing |
 | May 14, 2025 | 10:00a ET | 11:20a ET | Intro to Ecosystem Sales | Ecosystem Team |
-| May 14, 2025 | 11:30a ET | 12:20p ET | Discussion: Professional Services | Professional Services |
 | May 15, 2025 | 10:00a ET | 10:50a ET | Customer Focus: Customer Success Overview | Customer Success Team |
 | May 16, 2025 | 10:00a ET | 10:20a ET | Intro to Sales Ops + Deal Desk | RSOE Team |
-| May 16, 2025 | 10:30a ET | 10:55a ET | Renewals Manager Overview | Renewals Team  |
+| May 19, 2025 | 10:00a ET | 10:50a ET | Solution Focus: Intro to Competition | Product Marketing |
+| May 21, 2025 | 10:00a ET | 10:25a ET | Renewals Manager Overview | Renewals Team  |
+| May 22, 2025 | 10:00a ET | 10:50a ET | Discussion: Professional Services | Professional Services |
 
 ### SQS 47 - June 2025
 
