@@ -63,10 +63,11 @@ To help a new hire prepare for their first on-call rotation, they should spend a
 
 During planned upgrades to live environments during GitLab's regular business hours, the Developer Experience sub-department may be requested to validate the environment pre/post-upgrade by running our end-to-end test suite. The DRI shall take responsibility for any assistance requested in triggering or reviewing test results.
 This should be planned at least 1 week in advance, including the relevant DRIs [QEM](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule-1) and [SET](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) who will be on call on the proposed date.
-NB - For assistance with supporting upgrades outside GitLab's regular business hours, please reach out to Slack channel `#infrastructure-managers`.
+NB - For assistance with supporting upgrades outside GitLab's regular business hours, please submit a [RFH (request for help) issue](https://gitlab.com/gitlab-org/quality/test-governance/request-for-help).
 
 Some examples of issues where Developer Experience have provided support include:
 
+- [Sec Decomposition GPRD Rollout](https://gitlab.com/gitlab-org/quality/test-governance/request-for-help/-/issues/2)
 - [CI Decomposition Rollout](https://ops.gitlab.net/gitlab-com/gl-infra/db-migration/-/blob/ae6240c4bdf94a7774f9ad844dcec26f936a2946/.gitlab/issue_templates/ci_decomposition.md)
 - [PostgreSQL 14 upgrade](https://ops.gitlab.net/gitlab-com/gl-infra/db-migration/-/blob/ae6240c4bdf94a7774f9ad844dcec26f936a2946/.gitlab/issue_templates/pg14_upgrade.md)
 
