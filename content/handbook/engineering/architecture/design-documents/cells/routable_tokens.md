@@ -79,17 +79,18 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
 
 ### Specification
 
-- The Routable Token would change the `<random-string>` to become `<base64-payload>.<base64-payload-length><crc32>`.
+- The Routable Token would change the `<random-string>` to become `<base64-payload>.<token-version>.<base64-payload-length><crc32>`.
 
-- The `<base64-payload>` is a base64-encoded string composed of 3 parts: `<routing-payload><random-bytes><random-bytes-length>`.
+- The `<base64-payload>` is a base64-encoded string composed of 3 parts: `<random-bytes><routing-payload><routing-payload-length>`.
+  - The `<random-bytes>` is a set of random bytes to ensure a high entropy, so the token cannot be forged.
   - The `<routing-payload>` is a line-delimited string in the form of `c:3w5e11264sgsf\ng:3w5e11264sgsf\np:3w5e11264sgsf`.
     - It contains information that will allow the HTTP Router to route requests to the cell where the token is intended to be used.
     - Each routing line starts with a character indicating a type of value it describes. The type and value are separated by the `:` character.
     - Integer values must be encoded as base36 string for space efficiency.
     - Lines are sorted alphabetically (e.g. `c:` comes before `g:` etc.).
-  - The `<random-bytes>` is a set of random bytes to ensure a high entropy, so the token cannot be forged.
-  - The `<random-bytes-length>` is 1 byte (`8-bit unsigned (unsigned char)`) (i.e. `<integer>.pack("C")`) that stores the length of `<random-bytes>`.
-- The `<base64-payload-length>` is an integer represented in base36, which we use 2 bytes and pad with 0 on the significant digit (i.e. `<integer>.to_s(36).rjust(2, '0')`) that store the length of `<base64-payload>`.
+  - The `<routing-payload-length>` is 1 byte (`8-bit unsigned (unsigned char)`) (i.e. `<integer>.pack("C")`) that stores the length of `<routing-payload>`.
+- The `<token-version>` is an integer represented in `base36`, using two alphanumeric characters (e.g., `00`, `0a`, `zz`), generated using `<integer>.to_s(36).rjust(2, '0')`. This format supports versioning from 0 to 1295.
+- The `<base64-payload-length>` is an integer represented in `base36`, which we use 2 bytes and pad with 0 on the significant digit (i.e. `<integer>.to_s(36).rjust(2, '0')`) that store the length of `<base64-payload>`.
 - The `<crc32>` is an integer represented in base36, which we use 7 bytes and pad with 0 on the significant digits (i.e. `<integer>.to_s(36).rjust(7, '0')` in Ruby) that store a CRC32 checksum of `<prefix><base64-payload>.<base64-payload-length>`.
 
 #### Constraints
@@ -107,16 +108,16 @@ Currently tokens are generated with the following pattern: `<prefix><random-stri
   - This is arbitrary to ensure a high entropy.
 - Maximum number of random bytes is 65: `(maximum bytes before encoding) - (max size of <routing-payload>) - (size of <random-bytes-length>) = 225 - 159 - 1 = 65`
   - This ensures we can always encode the biggest `<routing-payload>`.
-- Minimum size of `<base64-payload>` is 27 bytes (20 bytes before encoding: `(min size of <routing-payload>) + (min size of <random-bytes>) + (size of <random-bytes-length>) = 3 + 16 + 1 = 20`)
+- Minimum size of `<base64-payload>` is 27 bytes (20 bytes before encoding: `(min size of <random-bytes>) + (min size of <routing-payload>) + (size of <routing-payload-length>) = 16 + 3 + 1 = 20`)
 - Maximum size of `<base64-payload>` is 300 bytes (225 bytes before encoding).
   - This is arbitrary and should be enough to carry all the information we need for now.
   - An exception should be raised if `<base64-payload>` is bigger than 300 bytes.
 - Minimum size of prefix is 0 bytes.
 - Maximum size of prefix is 20 bytes.
   - An exception should be raised if prefix is bigger than 20 bytes.
-- Minimum size of token is 37 bytes: `(min size of <base64-payload>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 27 + 1 + 2 + 7 = 37`
-- Maximum size of token without prefix is 310 bytes: `(max size of <base64-payload>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 300 + 1 + 2 + 7 = 310`
-- Maximum size of token with prefix is 330 bytes: `(max size of prefix) + (max size of <base64-payload>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 20 + 300 + 1 + 2 + 7 = 330`
+- Minimum size of token is 40 bytes: `(min size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 27 + 1 + 2 + 1 + 2 + 7 = 40`
+- Maximum size of token without prefix is 313 bytes: `(max size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 300 + 1 + 2 + 1 + 2 + 7 = 313`
+- Maximum size of token with prefix is 333 bytes: `(max size of prefix) + (max size of <base64-payload>) + (size of '.') + (size of <token-version>) + (size of '.') + (size of <base64-payload-length>) + (size of <crc32>) = 20 + 300 + 1 + 2 + 1 + 2 + 7 = 333`
 
 #### Additional information
 
@@ -152,6 +153,8 @@ the following ids:
 Pseudo code for generating a routable token for personal access token:
 
 ```ruby
+TOKEN_VERSION = 1
+TOKEN_VERSION_LENGTH = 2
 RANDOM_BYTES_LENGTH = 16
 BASE64_PAYLOAD_LENGTH_HOLDER_BYTES = 2
 CRC_BYTES = 7
@@ -164,10 +167,10 @@ def generate_routable_token(user)
   }
 
   routing_payload = params.sort.map { |k,v| "#{k}:#{v}" }.compact_blank.join("\n")
-  base64_payload = Base64.urlsafe_encode64("#{routing_payload}#{SecureRandom.random_bytes(RANDOM_BYTES_LENGTH)}#{[RANDOM_BYTES_LENGTH].pack("C")}", padding: false)
+  base64_payload = Base64.urlsafe_encode64("#{SecureRandom.random_bytes(RANDOM_BYTES_LENGTH)}#{routing_payload}#{[routing_payload.size].pack("C")}", padding: false)
   base64_payload_length = base64_payload.size.to_s(36).rjust(BASE64_PAYLOAD_LENGTH_HOLDER_BYTES, '0')
-
-  checksummable_payload = "#{PersonalAccessToken.token_prefix}#{base64_payload}.#{base64_payload_length}"
+  token_version = TOKEN_VERSION.to_s(36).rjust(TOKEN_VERSION_LENGTH, '0')
+  checksummable_payload = "#{PersonalAccessToken.token_prefix}#{base64_payload}.#{token_version}.#{base64_payload_length}"
   crc = Zlib.crc32(checksummable_payload).to_s(36).rjust(CRC_BYTES, '0')
 
   "#{checksummable_payload}#{crc}"
@@ -181,10 +184,10 @@ in text. Users do not need to look at the random bytes and we encode the eventua
 ### Minimum token length
 
 Here's an example of a token having minimum id for a single routable part,
-with no prefix showing the minimum length of a token (37 bytes):
+with no prefix showing the minimum length of a token (40 bytes):
 
 ```text
-bzoxd_Rb5_cHeWe1JH56wr2FCBA.0r1pum4t4
+EL25d_AKXDUtqLnIQHEpkG86MQM.01.0r1ajj2i3
 ```
 
 Here is its routing payload:
@@ -196,10 +199,10 @@ o:1
 ### Maximum token length
 
 Here's an example of a token having maximum ids for all possible routable parts,
-prefixed with the longest prefix (20 bytes) showing the maximum length of a token (330 bytes):
+prefixed with the longest prefix (20 bytes) showing the maximum length of a token (333 bytes):
 
 ```text
-++++++++++++++++++++YzozdzVlMTEyNjRzZ3NmCmc6M3c1ZTExMjY0c2dzZgpoOjN3NWUxMTI2NHNnc2YKajozdzVlMTEyNjRzZ3NmCms6M3c1ZTExMjY0c2dzZgpsOjN3NWUxMTI2NHNnc2YKbTozdzVlMTEyNjRzZ3NmCm86M3c1ZTExMjY0c2dzZgpwOjN3NWUxMTI2NHNnc2YKdTozdzVlMTEyNjRzZ3Nmw5bzMmayzK43Ugba9fl8T_I-nZqc5gxOGH2HsUF6-J7UesTG4lmc3PT2aoPyuiUndG5Ci5IMThAbaiNkUTR87KBB.8c1adh6iv
+++++++++++++++++++++LB4hkKqprRab1Y3A72WqTPSDo2FS1t1qgJTIhL2O_kp90C8s8cL55xHQtmr-eVFugNkcwt0PZgzKqS3RI2ku4fBjOjN3NWUxMTI2NHNnc2YKZzozdzVlMTEyNjRzZ3NmCmg6M3c1ZTExMjY0c2dzZgpqOjN3NWUxMTI2NHNnc2YKazozdzVlMTEyNjRzZ3NmCmw6M3c1ZTExMjY0c2dzZgptOjN3NWUxMTI2NHNnc2YKbzozdzVlMTEyNjRzZ3NmCnA6M3c1ZTExMjY0c2dzZgp1OjN3NWUxMTI2NHNnc2af.01.8c0kai99b
 ```
 
 Here is its routing payload:
