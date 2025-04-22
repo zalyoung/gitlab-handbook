@@ -1,6 +1,6 @@
 ---
 title: "EPSS Support"
-status: ongoing
+status: implemented
 creation-date: "2024-06-19"
 authors: [ "@YashaRise" ]
 coach: [ "@theoretick" ]
