@@ -45,25 +45,27 @@ Each form will have the appropriate opt-in language specifid. However, to check 
 
 ### CAN-SPAM
 
-Controlling the Assault of Non-Solicited Pornography and Marketing Act (CAN-SPAM) came into effect in the United States in 2003 and impacts all mass electronic marketing communications. Other countries have similar e-mail spam laws.
+Controlling the Assault of Non-Solicited Pornography and Marketing Act (CAN-SPAM) 
 
-CAN-SPAM sets forth certain requirements that must be honored when sending out mass emails and other marketing materials.
+The CAN-SPAM Act is a U.S. based set of rules for all commerical emails, though additional countries have similar e-mail spam laws. The Act does not apply just to bulk email, but covers all commercial messages whose primary purpose is to advertise or promote a commercial product or service.
 
-**Keep the header honest.** The reader needs to be able to identify who is sending them messages. The email address of the sender should properly denote GitLab as the sender of the company material.
+It is worth noting that there are no exceptions for B2B email. The main requirements are as follows:
 
-**Keep the subject line honest.** Don’t mislead the reader or otherwise use deceitful or inaccurate subject lines to compel someone to open the email. Be honest, impactful and short. You can create urgency but, most importantly, create value. In fact, the more authentic and clear the email, the less likely it is to be marked as spam or junk mail.
+**Keep the header accurate.** The reader needs to be able to identify who is sending them messages. The email address of the sender should indicate GitLab is the sender.
 
-**Acknowledge that it is an ad.** This doesn’t mean that you have to go over the top and begin each Subject Line with “Hello, I am an advertisement.” It just means that the sender has to know it is marketing material sent by GitLab. Put it in the subject line or put it in the body - just put it somewhere.
+**No deceptive subject lines.** Don’t mislead the reader or use inaccurate subject lines to persuade someone to open the email. Be clear, impactful and short; though you can create urgency and value. 
 
-**Include location.** There needs to be a valid business address listed in the emails. This helps ensure that the recipient has a clear and legal point of reference to double check the authenticity of the sender.
+**Identify the message as an ad.** The subject line doesn't need to include "advertisement” however the message must include a clear and conspicuous indication that it is an advertisement. 
 
-**Opt-out options are not oppressive.** When people receive mail that they don’t want, there must be an easy way to unsubscribe from the lists. And “easy” means my grandmother should be able to figure it out as quickly as my 15-year old nephew. In some jurisdictions, every email sent after an opt-out is selected may be subject to a fine.
+**Include location.** There must be a valid business address listed in the email.
 
-**Opt-outs need to be quick.** Ideally, an opt-out will occur automatically or within a business day or two. If you take more than ten (10) business days to remove an email from a mailing list, things will get messy quickly.
+**Opt-out options.** Every email must include an easy way to unsubscribe from receiving further communications. This is generally an opt-out link or an unsubscribe link which has minimal clicks required. Opting-out should be as easy as opting-in. 
 
-**Stay Diligent.** If you use a third party to manage business emails, be aware that GitLab could still be on the hook for any wrongdoing. Make sure that any mass communications are reviewed by someone knowledgeable in the spam laws.
+**Opt-outs need to be processed quickly.** Ideally, an opt-out will occur automatically or within a business day or two but must be completed within ten (10) business days.
 
-We care about our customers and their protection is our focus. For an additional incentive, be aware that failing to comply can cost a lot of money on a per email basis - up to $41,000 per violation.
+**Stay Diligent.** If you use a third party to manage business emails, be aware that GitLab is still responsible for compliance with CAN-SPAM. Ensure that email campaigns and emails list messages are reviewed for CAN-SPAM.
+
+Each separate email in violation of the CAN-SPAM Act is subject to penalties over $53,000.
 
 ### Email filters
 
