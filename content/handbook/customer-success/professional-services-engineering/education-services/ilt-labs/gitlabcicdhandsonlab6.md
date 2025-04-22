@@ -80,6 +80,20 @@ release job:
     description: 'The latest release!'
   rules:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
+
+deploy app:
+  stage: deploy
+  image: ubuntu:latest
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+    - eval $(ssh-agent -s)
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - ssh-add "$SSH_PRIVATE_KEY"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+  script:
+    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+    - ssh root@$ip 'ls /'
 ```
 
 1. To ensure we have access to the build artifact in the deploy job, remove the run condition from the job:
@@ -171,7 +185,7 @@ Our code will need to move the array binary to the www directory, and move the s
 
 ```yaml
 deploy app:
-  stage: release
+  stage: deploy
   image: ubuntu:latest
   before_script:
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
@@ -194,7 +208,7 @@ deploy app:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://{your-server-ip} (Can be found in the Variables section of your group under $ip-address) to see the results!
+This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://{your-server-ip} (Can be found in the Variables section of your group under `$ip`) to see the results!
 
 ## Lab Guide Complete
 

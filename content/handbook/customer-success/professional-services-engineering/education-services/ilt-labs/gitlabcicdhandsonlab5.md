@@ -151,6 +151,32 @@ To test if this fixes the error:
 
 1. Leave all values as default and select **New pipeline** again. You will now see the job complete successfully!
 
+# Task C. Clean Up Deploy Job
+
+Now that the job has been fixed, it is important to clean up the job so that the steps of the job are more clear. For example, we can move parts of the jobs from the `script` section to the `before_script` section.
+
+1. Let's move the steps from the `'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'` to `chmod 700 ~/.ssh` into a `before_script` section. That way, it is clear which parts of the job are for setup, and which are the actual tasks being performed.
+
+The deploy job should now look like this:
+
+```yaml
+deploy app:
+  stage: deploy
+  image: ubuntu:latest
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+    - eval $(ssh-agent -s)
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - ssh-add "$SSH_PRIVATE_KEY"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+  script:
+    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+    - ssh root@$ip 'ls /'
+```
+
+1. Run the pipeline to make sure the changes did not break anything in the pipeline.
+
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcicdhandson).
