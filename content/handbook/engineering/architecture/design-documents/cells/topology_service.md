@@ -641,7 +641,7 @@ The cons of using Spanners are:
 1. Vendor lock-in, our data will be hosted in a proprietary data.
     - How to prevent this: Use generic SQL.
 1. Not self-managed friendly, when we want to have Topology Service available for self-managed customers.
-    - How to prevent this: Support actual PostgreSQL as well.
+    - How to prevent this: Support actual PostgreSQL as well. We will run this for local development by default for developers.
 1. Brand new data store we need to learn to operate/develop with.
 
 ### GoogleSQL vs PostgreSQL dialects
