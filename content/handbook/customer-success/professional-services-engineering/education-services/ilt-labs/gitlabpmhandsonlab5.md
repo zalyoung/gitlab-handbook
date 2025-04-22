@@ -68,3 +68,11 @@ group_dashboards:
 1. Click the **Save your dashboard** button.
 
 By effectively using GitLab's dashboard capabilities, you can gain valuable insights into your projects and make data-driven decisions for your portfolio management.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabpmhandson).
+
+## Suggestions?
+
+If you'd like to suggest changes to the *GitLab Agile Portfolio Management Hands-on Guide*, please submit them via merge request.
