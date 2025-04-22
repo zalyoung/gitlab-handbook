@@ -1,6 +1,6 @@
 ---
 title: "KEV Support"
-status: proposed
+status: implemented
 creation-date: "2024-08-11"
 authors: [ "@onaaman" ]
 coaches: [ "@theoretick" ]
