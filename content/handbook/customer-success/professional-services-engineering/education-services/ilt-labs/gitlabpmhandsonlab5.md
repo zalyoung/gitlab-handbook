@@ -23,7 +23,7 @@ GitLab offers several built-in dashboards at both the project and group level. L
    - Repository Analytics - Provides insights into repository activities like commits and merges
    - Insights (if enabled) - Allows for custom dashboards within your project or group.
 
-Now that we have some understanding on how dashboards look and function, let's create a dashboard for our project. To create a custom dashboard we will need to create our own `.gitlab/insights.yml` file, define it's content, and save this configuration.
+Now that we have some understanding on how dashboards look and function, let's create a dashboard for our project. To create a custom dashboard we will need to create our own `.gitlab/insights.yml` file, define its content, and save this configuration.
 
 #### Task B. Creating an Insights File
 

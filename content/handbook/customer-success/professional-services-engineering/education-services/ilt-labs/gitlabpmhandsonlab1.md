@@ -9,7 +9,7 @@ description: "This Hands-On Guide walks you through creating groups, projects, a
 
 In GitLab, projects and subgroups help you organize your codebases and effectively manage your projects. In this lab, you will learn how to create an organizational subgroup, how to create a project, and how to add a user to a project.
 
-**Organization Namespaces:** You can create subgroups under any other groups that you have access to and have permissions to create groups underneath. Your organization should have best practices documented on how groups are structured or named. If you're not sure, you can locate another [group's members](https://docs.gitlab.com/ee/user/project/members/#display-direct-members) and ask one of the users with `Owner` role who should be able to help.
+**Organization Namespaces:** You can create subgroups under any other groups that you have access to and have permissions to create groups underneath. Your organization should have best practices documented on how groups are structured or named. If you're not sure, you can locate another [group's members](https://docs.gitlab.com/ee/user/project/members/#display-direct-members) and ask one of the users with the `Owner` role who should be able to help.
 
 **Personal Namespaces:** Although you can create _projects_ in your personal namespace (ex. `https://gitlab.com/exampleuser/example-project`), you cannot create _groups_ in your personal namespace.
 

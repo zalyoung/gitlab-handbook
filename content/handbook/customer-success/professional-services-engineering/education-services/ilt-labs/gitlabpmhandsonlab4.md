@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through creating a merge request and
 
 ## Objectives
 
-A merge request is a proposal to incorporate changes from a source branch to a target branch. Merge requests help you manage the changes that are applied to your code. In this lab, you will learn how to setup and manage merge request approval rules in your projects. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/).
+A merge request is a proposal to incorporate changes from a source branch to a target branch. Merge requests help you manage the changes that are applied to your code. In this lab, you will learn how to set up and manage merge request approval rules in your projects. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/).
 
 Approval rules define how many approvals a merge request must receive before it can be merged, and which users should do the approving. They can be used in conjunction with Code owners to ensure that changes are reviewed both by the group maintaining the feature, and any groups responsible for specific areas of oversight. See the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html) to learn more.
 

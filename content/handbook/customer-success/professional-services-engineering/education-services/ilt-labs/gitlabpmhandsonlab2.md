@@ -19,7 +19,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. In the left pane, click **Epics**. This takes you to a searchable list of epics in **GitLab.org** and all its subgroups.
 
-1. In the left pane, click **Plan > Roadmap**. Epics and milestones in a group containing a start date or due date can be visualized in a form of a timeline (that is, a Gantt chart). The Roadmap page shows the epics and milestones in a group, one of its subgroups, or a project in one of the groups.
+1. In the left pane, click **Plan > Roadmap**. Epics and milestones in a group containing a start date or due date can be visualized in the form of a timeline (that is, a Gantt chart). The Roadmap page shows the epics and milestones in a group, one of its subgroups, or a project in one of the groups.
 
 1. On the epic bars, you can see each epic's title, progress, and completed weight percentage. When you hover over an epic bar, a popover appears with the epic's title, start date, due date, and weight completed.
 
@@ -111,9 +111,9 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. In the **Title** section, type in `Organization Kickoff`.
 
-1. In the **Start Date** section, use the calendar to enter in today's date.
+1. In the **Start Date** section, use the calendar to enter today's date.
 
-1. In the **End Date** section, use the calender to enter 2 days from today's date as the milestone end date.
+1. In the **End Date** section, use the calendar to enter 2 days from today's date as the milestone end date.
 
     > While a description is not necessary, it is recommended to type in a description to help clarify what the milestone is intended to be used for.
 
@@ -125,9 +125,9 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. In the **Title** section, type in `Backend services deployed`.
 
-1. In the **Start Date** section, use the calendar to enter in today's date.
+1. In the **Start Date** section, use the calendar to enter today's date.
 
-1. In the **End Date** section, use the calender to enter 2 weeks from today as the milestone end date.
+1. In the **End Date** section, use the calendar to enter 2 weeks from today as the milestone end date.
 
 1. Click **Create milestone**.
 
@@ -149,7 +149,7 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 
 1. In the **Description** section, type in `Tracking team progress toward minimum viable product` .
 
-1. In the **Automatic start date** input, use the calendar to enter in today's date.
+1. In the **Automatic start date** input, use the calendar to enter today's date.
 
 1. In the **Duration** section, select 2 weeks as the duration of each iteration.
 

@@ -100,7 +100,7 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 
 1. Click the **Create issue** button.
 
-1. Apply the following labels to the **Backend services** issue by clicking on tne label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::Open**, and **Priority::High**.
+1. Apply the following labels to the **Backend services** issue by clicking on the label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::Open**, and **Priority::High**.
 
 1. In the left pane, click **Plan > Issues** to see both issues with their labels.
 
@@ -120,7 +120,7 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 
 1. Click **Create issue**.
 
-1. Apply the following labels to the **Frontend services** by clicking on tne label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::WIP**, and **Priority::High**.
+1. Apply the following labels to the **Frontend services** by clicking on the label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::WIP**, and **Priority::High**.
 
 1. In the left pane, click **Plan > Issues** to see all 3 issues with their labels.
 
