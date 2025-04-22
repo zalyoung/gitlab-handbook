@@ -85,11 +85,12 @@ Instance level service accounts enable global automation and system-wide
 integrations. Group and project level service accounts allows granular control
 and access over machine identities.
 
-Service account ownership is indicated by the `User#provisioned_by_group`
-attribute. To have support both at group and project level, this attribute
-will be migrated to `User#bot_namespace`.
-`User#bot_namespace` can reference to both levels - `Group` and
-`Namespaces::ProjectNamespace` namespaces.
+#### Permissions
+
+The current permission model of service accounts will continue to be applied
+across all hierarchy levels.
+Owners of the namespace will be able to manage service accounts associated with
+that specific namespace, regardless of who created them.
 
 ### Tiering
 
@@ -114,6 +115,10 @@ visible and accessible within that hierarchical branch.
 Eg. a service account created at a subgroup-level will not be visible by sibling
 or parent groups, or unrelated organizations.
 
+This restriction means that users outside of the service account's hierarchical
+branch won't be able to discover or add them as members, nor will the service
+account be able to access resources outside that scope.
+
 This is considered a non-breaking change, as existing memberships remain
 unaffected.
 However, with this change enabled, service accounts will no longer be accessible
@@ -128,10 +133,28 @@ them like any other service account.
 The UI may indicate that a service account is system-generated or user-created
 for clarity.
 
+### Further restrictions
+
+To prevent potential abuse, service accounts will have the following
+limitations:
+
+- Service accounts are prohibited from creating other service accounts.
+  This prevents unintended proliferation of machine identities, lateral movement
+  from potential malicious actors, and maintains clear ownership.
+- Service accounts are prohibited from creating top-level namespaces.
+  This ensures that all top-level groups remain under explicit human ownership.
+- Free and trial namespaces will have a limit on the number of service accounts.
+  To support token consolidation (where tokens may be backed by a
+  system-generated system account), tokens in these namespaces may also be
+  subject to limits.
+
 ### Open questions
 
-- How does our service account design align with industry standards? Are we
-  following to common patterns and expectations around service accounts?
+- This proposal aligns with industry standards for service accounts, with a
+  clear separation between human and machine identities, and leveraging the
+  native access control mechanisms like memberships, roles, and inheritance.
+  It may still be valuable to further validate that we are following common
+  patterns and meeting user expectations.
 - How do we decouple membership and access? How do we support cross-project
   access? Is relying on multiple service accounts acceptable, or do we need to
   support cross-project access under a single token?
