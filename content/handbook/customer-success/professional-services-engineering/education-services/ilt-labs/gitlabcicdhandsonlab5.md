@@ -151,7 +151,7 @@ To test if this fixes the error:
 
 1. Leave all values as default and select **New pipeline** again. You will now see the job complete successfully!
 
-# Task C. Clean Up Deploy Job
+## Task C. Clean Up Deploy Job
 
 Now that the job has been fixed, it is important to clean up the job so that the steps of the job are more clear. For example, we can move parts of the jobs from the `script` section to the `before_script` section.
 
