@@ -1,8 +1,5 @@
 ---
-# This is the title of your design document. Keep it short, simple, and descriptive. A
-# good title can help communicate what the design document is and should be considered
-# as part of any review.
-title: CustomersDot revenue impacting error monitoring & improvements
+title: CustomersDot revenue impacting and Salesforce error monitoring & improvements
 status: proposed
 creation-date: "2024-09-02"
 authors: [ "@shreyasagarwal", "@aish.sub", "@vshumilo" ]
@@ -135,23 +132,3 @@ sequenceDiagram
     G->>ER: Auto-updates error_monitoring record on resolution
   end
 ```
-
-### Places of interest to add entries within `error_monitorings` table?
-
-1. When a customer is purchasing a subscription.
-    * [SubscriptionController's create action](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/controllers/subscriptions_controller.rb#L304)
-1. When a customer is updating a subscription.
-    * [SubscriptionController's update action](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/controllers/subscriptions_controller.rb#L304)
-1. When a customer upgrades the subscription.
-    * [SubscriptionUpgradesController create action](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/controllers/subscription_upgrades_controller.rb#L59)
-1. When syncing the product catalog to local cache
-    * [Zuora::SyncProductCatalogLocalCacheJob](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/jobs/zuora/sync_product_catalog_local_cache_job.rb)
-    * [Zuora::EvictMissingProductCatalogEntitiesJob](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/jobs/zuora/evict_missing_product_catalog_entities_job.rb)
-    * [Zuora::SyncProductResourceJob](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/jobs/zuora/sync_product_resource_job.rb)
-1. When the reconciliation is being performed
-    * [ReconciliationService](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/services/reconciliation_service.rb)
-    * [Reconciliations::UpdateSaasUserCountService](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/services/reconciliations/update_saas_user_count_service.rb)
-1. When Salesforce entities are getting created/updated
-    * [Salesforce::CreateAccountWorker](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/workers/salesforce/create_account_worker.rb)
-1. When the subscription is getting auto renewed
-    * [AutoRenewService](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/services/auto_renew_service.rb)
