@@ -35,6 +35,10 @@ Each project within these environments maintains the following branch structure:
 2. **main-translation** Used for delivering translations from our Translation Management System (TMS). Do not contribute to this branch.  
 3. **main-development** This is our development workspace for i18n features.
 
+#### Branch maintence 
+
+To be added here
+
 ### Local development workflow
 
 When working on i18n features:
