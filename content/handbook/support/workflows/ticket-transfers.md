@@ -50,7 +50,7 @@ the following simple process to handle tickets from different regions:
 When providing the first response to a ticket from a different region, follow
 these guidelines:
 
-1. Take assignment of the ticket.
+1. Take assignment of the ticket so that you're notified of any replies until you initiate a rehome
 1. Introduce yourself and acknowledge the customer's preferred region (`Support::Out of Region::Cross-region_Preferred region clarify assignment` macro is a good starting point)
 1. Explain that you're providing initial assistance to ensure a timely response
 1. Proceed with all appropriate initial steps to begin addressing the customer's
