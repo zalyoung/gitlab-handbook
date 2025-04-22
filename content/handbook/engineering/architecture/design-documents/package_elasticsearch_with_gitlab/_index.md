@@ -24,7 +24,7 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-GitLab is proposing to package Elasticsearch with its distribution to solve multiple strategic challenges and unlock new capabilities. Currently, search functionality backed by PostgreSQL has significant limitations for larger instances and complex group hierarchies, which impacts feature delivery and user experience. While Elasticsearch is already used for advanced search and adopted by approximately TBD of self-managed instances (with higher rates among larger customers), it remains optional infrastructure that requires separate installation and configuration.
+GitLab is proposing to package Elasticsearch with its distribution to solve multiple strategic challenges and unlock new capabilities. Currently, search functionality backed by PostgreSQL has significant limitations for larger instances and complex group hierarchies, which impacts feature delivery and user experience. While Elasticsearch is already used for advanced search and adopted by a percentage of self-managed instances (with higher rates among larger customers), it remains optional infrastructure that requires separate installation and configuration.
 
 By including Elasticsearch directly in GitLab packages (using the legally-approved "Free and Open" version at no additional licensing cost), we aim to make it a standard component of the GitLab infrastructure. This change would improve database scalability by offloading text search operations, enable more powerful search capabilities, and provide a consistent platform for AI features that require vector storage for embeddings.
 
@@ -36,10 +36,9 @@ This initiative will benefit both existing and new customers by removing adoptio
 
 GitLab features increasingly require scalable data storage solutions that go beyond PostgreSQL's capabilities, particularly for search, AI, and data-intensive operations. Despite numerous evaluations of potential solutions, we've reached a fragmented state where:
 
-1. TBD
-2. Feature teams must either limit functionality or maintain compatibility with multiple data stores
-3. AI features requiring vector embeddings lack a standardized storage mechanism
-4. Database scalability remains a persistent challenge for growing instances
+1. Only a subset of self-managed users run Elasticsearch with GitLab. For medium and large size customers, adoption averages increase.
+2. Feature teams must limit functionality for medium and large instances using PostgreSQL, particularly for AI features requiring vector search.
+3. Database scalability remains a persistent challenge for growing instances
 
 The consequence is a divided user experience where feature availability depends on infrastructure choices, creating adoption barriers and limiting GitLab's ability to deliver consistent functionality across all deployment types.
 
@@ -87,6 +86,7 @@ The motivation for this work is to establish Elasticsearch as the standard data 
 ### Goals
 
 - Increase adoption of Elasticsearch on self managed instances
+- Improve search experience for users across all GitLab
 
 ### Non-Goals
 
@@ -113,7 +113,7 @@ We propose to package Elasticsearch with GitLab distribution through the followi
 3. **Improved Configuration Automation**:
    - Streamline Elasticsearch index configuration with sensible defaults
    - Automate common setup tasks to reduce administrator burden
-   - Create health checks and self-healing capabilities
+   - Expand existing health checks and self-healing capabilities
 
 ### Implementation Approaches
 
@@ -147,6 +147,7 @@ For the initial implementation, we propose to include Elasticsearch's "Free and 
 2. **Version Selection**:
    - Include Elasticsearch version 8.12+ to support hybrid search capabilities
    - The "Free and Open" version is legally approved and incurs no additional licensing costs
+   - The latest versions have non-trivial cost savings and performance improvements for embeddings storage
    - **Implementation Note**: Elasticsearch Docker Hub images bundle both Free and Open and Enterprise code, with the latter activated by default for a 30-day trial. As part of this work, we'll need to modify CI configurations to explicitly use only the Free and Open functionality.
 
 3. **Configuration and Resource Allocation**:
@@ -154,10 +155,6 @@ For the initial implementation, we propose to include Elasticsearch's "Free and 
    - Provide configuration templates for different instance sizes
    - Implement automatic scaling parameters based on instance characteristics
    - Isolate resources to prevent ES from impacting GitLab performance
-
-4. **Deployment Workflow**:
-
-TBD
 
 ### Self-Managed Considerations
 
