@@ -4,7 +4,7 @@ status: ongoing
 creation-date: "2023-04-05"
 authors: [ "@lohrc", "@alexpooley" ]
 coach: "@ayufan"
-approvers: [ "@alexpooley", "@dorrino" ]
+approvers: [ "@alexpooley" ]
 owning-stage: "~devops::tenant scale"
 group: Organizations
 participating-stages: []
