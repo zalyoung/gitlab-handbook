@@ -14,7 +14,6 @@ We partner across the organization to define our employer value proposition, bui
 
 Through strategic branding and storytelling, we position GitLab as the place to grow, innovate, and co-create the future.
 
-
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/947155019?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Get to Know GitLab"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## Defining our talent brand vision
@@ -29,7 +28,7 @@ There are three pillars to achieving this vision:
 
 1. Candidate Education to Support Conversion: Empowering candidates with clear insights into our culture, values, and opportunities improves engagement and conversion—accelerating time-to-hire and strengthening our employer brand.
 1. Evolved Brand Messaging: We're moving from a remote-first story to a bold, impact-driven vision—Co-Create the Future—to attract talent aligned with our culture of innovation, collaboration, and global flexibility.
-3. Elevated Candidate Journey: We create a seamless, authentic experience that mirrors life at GitLab—building trust, strengthening engagement, and helping candidates see themselves in our culture from the very first touchpoint.
+1. Elevated Candidate Journey: We create a seamless, authentic experience that mirrors life at GitLab—building trust, strengthening engagement, and helping candidates see themselves in our culture from the very first touchpoint.
 
 To achieve our vision, we need to ensure that we're building a workplace that fits this description by implementing these three strategic pillars in our strategy.
 
@@ -51,7 +50,7 @@ As we build GitLab into one of the world's best workplaces, we will look to incr
     - Building a company where anyone can thrive means putting in place the programs needed for our team members to manage their [health, wealth, and well-being](/handbook/total-rewards/benefits/) regardless of location.
     - [Career development](/handbook/people-group/learning-and-development/career-development/), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
 1. **We foster a values-led, remote culture**
-    - Our [CREDIT values](/handbook/values/) drive a culture that's built to operate in an [all-remote environment](/handbook/company/culture/all-remote/guide/). Because we're all-remote, we aim to stay at the forefront of best practices & building culture in a globally distributed environment.
+    - Our [CREDIT values](/handbook/values/) drive a culture that's built to operate in an all-remote environment.
     - Our [handbook-led approach](/handbook/company/culture/all-remote/handbook-first/) and async working style highlight our values-led, remote culture.
 
 ## Key ways we bring this vision to life
@@ -149,7 +148,6 @@ On LinkedIn, we have a specific [careers page](https://www.linkedin.com/company/
 
 There are a number of videos on our [YouTube channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KpZ7TlkcjRZdn7dAAjpi97L) that relate to working here.
 
-
 ### Review sites
 
 We want ensure candidates who come across GitLab's profile on employer review sites have an accurate picture of what it's like to work here.
@@ -174,7 +172,6 @@ As an engaged employer with Glassdoor, we're able to customize the branded conte
 ##### Responding to Glassdoor reviews
 
 The Talent Brand Manager keeps track of new company reviews and escalates them as needed for an external response and internal action. [Here's our process](/handbook/people-group/employment-branding/glassdoor-escalation/) for tracking and escalating reviews.
-
 
 ##### Profile updates on Glassdoor
 
