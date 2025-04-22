@@ -55,6 +55,7 @@ the following simple process to handle tickets from different regions:
 When providing the first response to a ticket from a different region, follow
 these guidelines:
 
+1. Take assignment of the ticket.
 1. Introduce yourself and acknowledge the customer's preferred region. (`Support::Out of Region::Cross-region_Preferred region clarify assignment` macro is a good starting point)
 1. Explain that you're providing initial assistance to ensure a timely response.
 1. Proceed with all appropriate initial steps to begin addressing the customer's
@@ -65,6 +66,9 @@ these guidelines:
 1. If it's the end of your work day and the customer hasn't confirmed the region, move it to the region that they chose when they created the ticket. To do that run the `Support::Rehome::Initiate Rehome` macro.
 
 ### Initiating a ticket rehome
+
+Before initiating a rehome, double check that you are the assignee on the ticket. If you are not, take assignment and
+submit the update before proceeding.
 
 To initiate a ticket rehome, simply use the `Support::Rehome::Initiate Rehome`
 macro. This macro will:
