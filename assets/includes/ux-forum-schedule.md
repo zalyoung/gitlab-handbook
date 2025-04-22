@@ -3,8 +3,7 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-04-16 | Justin Mandell       | Camellia Yang          | Libor Vanc             |                        |
-| 2025-04-30 | Emily Sybrant        | Michael Fangman        | Sascha Eggenberger     | Jesse Hoek             |
+| 2025-04-30 | Rayana Verissimo     | Michael Fangman        | Sascha Eggenberger     | Jesse Hoek             |
 | 2025-05-14 | Jacki Bauer          | Alyssa Trinh           | Tina Lise Ng           |                        |
 | 2025-05-28 | APAC                 | Michael Le             | Alex Fracazo           | Bonnie Tsang           |
 | 2025-06-11 | Create PDM           | Dan Mizzi-Harris       | Tim Noah               | Sunjung Park           |
@@ -14,8 +13,8 @@
 | 2025-08-06 | Jacki Bauer          | Nicolle Merrill        | Julia Miocene          |                        |
 | 2025-08-20 | Taurie Davis         | Chad Lavimoniere       | Amelia Bauerly         |                        |
 | 2025-09-03 | Paul Wright          | Taylor Vanderhelm      | Sunjung Park           |                        |
-| 2025-09-17 | Emily Sybrant        | Mark Unthank           | Jesse Hoek             |                        |
-| 2025-10-01 | Rayana Verissimo     | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
+| 2025-09-17 | APAC        | Mark Unthank           | Jesse Hoek             |                        |
+| 2025-10-01 | Emily Sybrant     | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
 | 2025-10-15 | Create PDM           | Austin Regnery         | Emily Bauman           |                        |
 | 2025-10-29 | Chris Micek          | Nick Leonard           | Divya Alagarsamy       | Torian Parker          |
 | 2025-11-12 | Justin Mandell       | Camellia Yang          | Libor Vanc             | Jason Hung             |
