@@ -5,20 +5,20 @@ authors: [ "@mksionek" ]
 toc_hide: true
 ---
 
-# Proposal of database structure
+## Proposal of database structure
 
-## 📄 Technical Proposal: Notification System Design
+### 📄 Technical Proposal: Notification System Design
 
-### 🧠 Goal
+#### 🧠 Goal
 
 Design a flexible and normalized database structure to manage **user notifications** about different types of resources (issues, notes, merge requests, epics), while avoiding:
 
 - Single Table Inheritance (STI)
 - Polymorphic Associations
 
-## 🏗️ Database Design Overview
+### 🏗️ Database Design Overview
 
-### 1. `notifications` table (centralized)
+#### 1. `notifications` table (centralized)
 
 Stores notifications per user.
 
@@ -38,7 +38,7 @@ CREATE TABLE notifications (
 );
 ```
 
-### 2. Resource Link Tables (one per resource)
+#### 2. Resource Link Tables (one per resource)
 
 Each notification links to exactly **one** resource via a dedicated table.
 
@@ -76,7 +76,7 @@ CREATE TABLE commit_notifications (
 
 For the future reference: those linking tables should be sharded together with `notifications` table, so `notification_id` should be the sharding key.
 
-## 🔍 Entity Relationship Diagram
+### 🔍 Entity Relationship Diagram
 
 ```mermaid
 erDiagram
@@ -87,9 +87,9 @@ erDiagram
   notifications ||--|| epic_notifications : links etc
 ```
 
-## ⚖️ Validation Strategy
+### ⚖️ Validation Strategy
 
-### ✅ Application-Level Validation (Rails)
+#### ✅ Application-Level Validation (Rails)
 
 ```ruby
 class Notification < ApplicationRecord
@@ -122,7 +122,7 @@ class Notification < ApplicationRecord
 end
 ```
 
-## ⚙️ Notification Creation Service
+### ⚙️ Notification Creation Service
 
 Encapsulates logic for resource-safe creation:
 
@@ -151,7 +151,7 @@ class NotificationCreator
 end
 ```
 
-## 📦 Rails Model Summary
+### 📦 Rails Model Summary
 
 Each link table has a corresponding model, e.g.:
 
@@ -166,9 +166,9 @@ Repeat similarly for `NoteNotification`, `MergeRequestNotification`, and `EpicNo
 
 ---
 
-## 📊 Query Examples
+### 📊 Query Examples
 
-### Get all user notifications with resource type
+#### Get all user notifications with resource type
 
 ```sql
 SELECT n.id, 'Issue' AS resource_type, i.title, n.read, n.created_at
@@ -204,7 +204,7 @@ WHERE n.user_id = :user_id
 ORDER BY created_at DESC;
 ```
 
-## Benefits of this design
+### Benefits of this design
 
 - No STI or polymorphic associations
 - Full referential integrity via FK constraints
@@ -212,7 +212,7 @@ ORDER BY created_at DESC;
 - Rails-friendly with explicit models
 - Easier indexing and performance optimization
 
-## Challenges of this design
+### Challenges of this design
 
 - Joining multiple tables at once
 - Need for the careful queries structure to avoid inefficient queries
