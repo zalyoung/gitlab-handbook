@@ -45,26 +45,28 @@ Incident Leads have the following responsibilities for managing follow-up items:
 ### For GitLab.com Incidents
 
 1. Follow-up items are automatically created in `gitlab-com/gl-infra/incident-follow-ups`
-2. The Incident Lead reviews each issue and:
+2. To attach an existing GitLab issue to an incident as a follow up instead of creating a new one, paste the issue's URL into the slack channel
+3. The Incident Lead reviews each issue and:
    - For infrastructure issues: Apply appropriate infrastructure team labels
    - For application issues: Move to `gitlab-org/gitlab` using the `/move` command
    - For service-specific issues: Move to the appropriate service project (e.g., `gitlab-org/gitaly` for Gitaly issues)
 
-3. Apply appropriate group/team labels:
+4. Apply appropriate group/team labels:
    - Engineering team issues should include the group label (e.g. `group::database`)
    - Infrastructure team issues should include the team label (e.g. `team::database`)
    
-4. When moving an issue, ensure the `infradev` label is maintained on the issue
+5. When moving an issue, ensure the `infradev` label is maintained on the issue
 
 ### For Dedicated Incidents
 
 1. Follow-up items are automatically created in `gitlab-com/gl-infra/dedicated-follow-ups`
-2. The Incident Lead reviews each issue and:
+2. To attach an existing GitLab issue to an incident as a follow up instead of creating a new one, paste the issue's URL into the slack channel
+3. The Incident Lead reviews each issue and:
    - Applies appropriate team labels
    - Ensures the issue has a clear owner
    - Maintains confidentiality by keeping customer-specific information in the private repository
 
-3. Only move issues if the Dedicated team requires a different location (for example, if it's an issue that needs to be addressed by a team outside of the Dedicated organization)
+4. Only move issues if the Dedicated team requires a different location (for example, if it's an issue that needs to be addressed by a team outside of the Dedicated organization)
 
 ## Tracking and Visibility
 
