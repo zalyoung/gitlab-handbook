@@ -88,7 +88,7 @@ According to our [privacy policies](https://about.gitlab.com/privacy/), Support 
 
 A Zendesk Light Agent account is required to view Support Tickets and can be obtained without manager approval.
 
-To request a Zendesk  Global light agent account, please send an email to [contact-project+gitlab-com-support-support-ops-zendesk-global-light-agent-provi-46606987-issue-@incoming.gitlab.com](mailto:contact-project+gitlab-com-support-support-ops-zendesk-global-light-agent-provi-46606987-issue-@incoming.gitlab.com).
+To request a Zendesk  Global light agent account, please send an email to [contact-project+gitlab-com-gl-security-corp-cust-support-ops-zendesk-global-lig-68900149-issue-@incoming.gitlab.com](mailto:contact-project+gitlab-com-gl-security-corp-cust-support-ops-zendesk-global-lig-68900149-issue-@incoming.gitlab.com).
 
 - **You must send your request from your GitLab Google / Gmail account. No other addresses will work.**
   - Please use gmail to send this. Other email clients often strip vital information from the email headers.
