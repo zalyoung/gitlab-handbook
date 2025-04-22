@@ -175,20 +175,10 @@ As an engaged employer with Glassdoor, we're able to customize the branded conte
 
 The Talent Brand Manager keeps track of new company reviews and escalates them as needed for an external response and internal action. [Here's our process](/handbook/people-group/employment-branding/glassdoor-escalation/) for tracking and escalating reviews.
 
-##### OpenCompany designation
-
-As an open, transparent company, the OpenCompany designation is important for us to have to best represent our talent brand. We take action to maintain this status throughout the year.
-
-Achieving and maintaining OpenCompany requires that you:
-
-- Keep company profile up to date
-- Add 5-10 new photos every 12 months
-- Get 5-60 new employee reviews (depending on company size) every 12 months
-- Respond to 2-10 reviews (depending on company size) every 12 months
 
 ##### Profile updates on Glassdoor
 
-To be sure the details on our profile stay up to date, we [review these items](https://gitlab.com/gl-talent-acquisition/talent-brand/-/issues/9) quarterly and make any needed updates:
+To be sure the details on our profile stay up to date, we review these items quarterly and make any needed updates:
 
 - Headcounts and country numbers listed on our profile
 - Our status as one of the world's largest all-remote companies
@@ -205,7 +195,7 @@ Our goal on the site is to maintain our profile and keep the feedback up to date
 
 - [Builtin](https://builtin.com/company/gitlab)
 - [Indeed](https://www.indeed.com/cmp/Gitlab-Inc/about)
-- [AngelList](https://wellfound.com/company/gitlab/)
+- [Blind](https://www.teamblind.com/company/gitlab)
 
 ### GitLab blog
 
@@ -249,8 +239,8 @@ Our external talent engagement strategy aims to align with the goals and vision 
 
 For further detail from each sub-group please refer to the links below.
 
-1. [Talent Brand](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/issues/1014)
-1. [Talent Acquisition](https://docs.google.com/document/d/1Q9ui_BZLRPBAYpRtdtpHVSvGzW3g7JtVYkGj_KqwZBA/edit#heading=h.riu5wc8sjmum)
+1. [Talent Brand](https://docs.google.com/presentation/d/1B1yZZQ3BHA8NNzYLQadYzYwf6cLhIos9MIoX3qPW5LY/edit?slide=id.g1d24c3e4ddd_5_252#slide=id.g1d24c3e4ddd_5_252)
+1. [Talent Acquisition](https://docs.google.com/document/d/1ollQaElBdOK18oUx2VBu9A8aeq0Sg35RmGG9c-DjooA/edit?tab=t.0#heading=h.a6py5r5muinn)
 1. [DIB](/handbook/people-group/people-success-performance-indicators/#key-performance-indicators)
 
 Together, we partner to define and select organizations to partner with that allow us to engage with a target audience that includes members from underrepresented groups as defined [here](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups).
@@ -275,7 +265,7 @@ Our decision-making process involves a comprehensive assessment of potential par
 **Location and Accessibility**
 
 - If this is related to an event, is the location viable for GitLab to attend?
-- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) If related to interns see [here](https://docs.google.com/spreadsheets/d/1uHHbExS_mEY2mMtPeZcfJz21IMg-TXS2buWeLIUYUlA/edit#gid=402334717).
+- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](https://handbook.gitlab.com/handbook/people-policies/#entity-specific-employment-policies).
 - If this is related to an event, does the location provide an opportunity for GitLab to perform other business-related activities?
 - Does this partnership share clear ways that their space is accessible?
 - Is there a virtual option?
@@ -323,25 +313,15 @@ Collaboration from all teams and departments is welcome. To effectively manage r
 | GitLab Team Members Featured | Number and names of GitLab team members featured on the platform or as a result of the partnership. |
 | Content | Number of and links to content published on the platform or as a result of the partnership. |
 
-**FY24 Roster**
+**FY26 Roster**
 
-- [Code2College](https://code2college.org) - Partnership
--[Women Impact Tech](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/835) - Event Sponsorship
-- [European Women in Tech](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/888) - Event Sponsorship
-- [Black Tech Fest](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/826) - Event Sponsorship
-- [Unicorns in Tech](https://www.unicornsintech.com) - Event Sponsorship
-- [Grace Hopper Conference](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/829) - Event Sponsorship
-- [GitLab Hosted Experience](https://www.eventbrite.com/e/diverse-minds-unified-ai-solutions-gitlab-hosted-happy-hour-and-panel-tickets-728537293657?aff=oddtdtcreator) - during [Afrotech 2023](https://afrotechconference.com/)
-- [Out in Tech](https://outintech.com) - Partnership
-- [Blacks In Technology Calgary](https://foundation.blacksintechnology.net/chapters/) - Sponsorship
+- [Women of Silicon Roundabout](https://code2college.org) - Event Sponsorship
+- [Obsidi Tech Talk](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/835) - Event Sponsorship
+- TBD - Event Sponsorship
 
-**FY24 Lookback and FY25 Proposal**
+**FY25 Lookback and FY26 Proposal**
 
-- [FY25 Talent Events Proposal & FY24 Talent Events Look Back](https://docs.google.com/presentation/d/1-y3tP4JuLsfz55B-j25Q7lWAs6f_KoIOOobXZ9Js8_w/edit#slide=id.g12b319f6181_0_0)
-
-## All-remote work
-
-A foundational aspect of our talent brand is the flexibility and autonomy that all-remote work gives our team members. The Talent Brand Manager collaborates closely with the [All-Remote Marketing team](/handbook/ceo/office-of-the-ceo/workplace/) to raise awareness about remote work and tell the stories of how it's impacted the lives of our team members. Learn more about GitLab's approach to remote work on our [all-remote page](/handbook/company/culture/all-remote/).
+- [FY26 Talent Events Proposal & FY25 Talent Events Look Back](https://docs.google.com/presentation/d/13SEEmOWXrqd5IU7plA2JIrR1q5r6xkPIuz06EYIP_E0/edit?slide=id.g12b319f6181_0_0#slide=id.g12b319f6181_0_0)
 
 ## Performance indicators
 
