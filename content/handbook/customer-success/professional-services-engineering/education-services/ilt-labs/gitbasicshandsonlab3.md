@@ -21,7 +21,7 @@ In the last lab, you created a new branch called **test-commit**. In this sectio
 
 1. In the **Title** field, enter the title **Merging new file to main**.
 
-1. Check the box **Mark as draft**. This will mark the Merge Request as a draft, and prevent it from being merged until the the Draft status is removed.
+1. Check the box **Mark as draft**. This will mark the Merge Request as a draft, and prevent it from being merged until the Draft status is removed.
 
 1. In **Description**, enter any description you would like. 
 
@@ -59,7 +59,7 @@ Return to the **Overview** tab. In this tab, there are a few important details t
 
 In the center of the screen, you will see a message stating **Merge blocked**. In this section, you can see any issues preventing your code from being merged into main. Anything from failed pipelines to security scan results can block a merge request, depending on your configuration. Currently, the reason to request is blocked is stated below: "Merge request must not be a draft". Let's fix this issue.
 
-1. Click **Mark as ready** in the **Merge blocked** block. If you do not see the **Mark as ready** option, click on the arrow to the right ot the **Merge blocked** block to expand it.
+1. Click **Mark as ready** in the **Merge blocked** block. If you do not see the **Mark as ready** option, click on the arrow to the right of the **Merge blocked** block to expand it.
 
 1. Select **Merge**.
 
