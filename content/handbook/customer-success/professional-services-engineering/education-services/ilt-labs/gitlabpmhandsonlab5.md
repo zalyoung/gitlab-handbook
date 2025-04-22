@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through creating and managing dashbo
 
 ## Objectives
 
-GitLab provides different types of analytics insights for instances, groups, and projects. In this lab, we will explore various types of dashboard one can use in your system, as well as how to create your own dashboards.
+GitLab provides different analytics insights for instances, groups, and projects. In this lab, we will explore various dashboards one can use in your system, as well as how to create your own insights.
 
 ### Task A. Accessing Built-in Dashboards
 
@@ -21,7 +21,7 @@ GitLab offers several built-in dashboards at both the project and group level. L
    - Value Stream Analytics - Shows the time it takes for code changes to move through your development lifecycle
    - CI/CD Analytics - Focuses on pipelines and jobs
    - Repository Analytics - Provides insights into repository activities like commits and merges
-   - Insights (if enabled) - Allows for custom dashboards within your project or group.
+   - Insights - Allows for custom dashboards within your project or group.
 
 Now that we have some understanding on how dashboards look and function, let's create a dashboard for our project. To create a custom dashboard we will need to create our own `.gitlab/insights.yml` file, define its content, and save this configuration.
 
@@ -48,26 +48,10 @@ group_dashboards:
           data_source: 'issuables'
           params:
             issuable_type: 'issue'
-            collection_labels: ['bug', 'feature', 'documentation']
+            collection_labels: ['dev', 'Status::WIP']
 ```
 
-### Task C. Create a Dashboard
-
-1. Navigate to your project.
-
-1. Click on **Analyze > Analytics dashboards** in the left sidebar.
-
-1. Click on **New Dashboard** in the top right.
-
-1. **Enter a name for your dashboard**
-
-1. Write 'My New Dashboard' in the Dashboard title.
-
-1. Click **Add visualization**, and select the one you created earlier.
-
-1. Click the **Save your dashboard** button.
-
-By effectively using GitLab's dashboard capabilities, you can gain valuable insights into your projects and make data-driven decisions for your portfolio management.
+1. Review the resulting issues chart, _Issues by type_, under the **Analytics > Insights** tab. If your dashboard is not displaying correctly, wait a few moments for it to refresh.
 
 ## Lab Guide Complete
 
