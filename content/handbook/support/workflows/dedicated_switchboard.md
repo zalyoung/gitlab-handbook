@@ -22,6 +22,11 @@ You should now be in **Switchboard**.
 
 During [onboarding](https://docs.gitlab.com/administration/dedicated/#onboarding-to-gitlab-dedicated-using-switchboard), GitLab Dedicated customers get access to Switchboard. Temporary credentials are sent to these customers via email. If these credentials expire, customers may open a Support ticket. Support Engineers should open a [request for help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Switchboard) with Switchboard.
 
+### Customers with Dedicated Pre-Prod deployments
+
+GitLab Support Engineers can access the [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) application for Pre-Prod deployments by visiting https://console.gitlab-dedicated.systems/.
+The password is saved in 1Password.
+
 ### Password reset
 
 There is currently no self-serve option for switchboard users to reset their passwords. This feature is being worked on in [issue 3982](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3982) (internal).
