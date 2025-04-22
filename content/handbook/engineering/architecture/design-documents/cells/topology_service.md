@@ -844,22 +844,18 @@ Citations:
 
 Running Multi-Regional read-write is one of the biggest selling points of Spanner.
 When provisioning an instance you can choose single Region or Multi-region.
-After provisioning you can [move an instance](https://cloud.google.com/spanner/docs/move-instance) whilst is running but this is a manual process that requires assistance from GCP.
+After provisioning you can [move an instance](https://cloud.google.com/spanner/docs/move-instance) whilst it is running but this is a a cautious process that requires careful planning and manual execution.
 
 We will provision a Multi-Regional Cloud Spanner instance because:
 
 1. Won't require migration to Multi-Regional in the future.
 1. Have Multi Regional on day 0 which cuts the scope of multi region deployments at GitLab.
 
-This will however increase the cost considerably, using public facing numbers from GCP:
+Cloud Spanner has a list of pre-defined [instance configurations](https://cloud.google.com/spanner/docs/instance-configurations) and we will be using `nam11` as detailed in [Cloud Spanner Region Configuration for Topology Service](decisions/015_spanner_multiregional.md).
 
-1. [Regional](https://cloud.google.com/products/calculator?hl=en&dl=CiRlMjU0ZDQyMy05MmE5LTRhNjktYjUzYi1hZWE2MjQ4N2JkNDcQIhokOTlGQUM4RjUtNjdBRi00QTY1LTk5NDctNThCODRGM0ZFMERC): $1,716
-1. [Multi Regional](https://cloud.google.com/products/calculator?hl=en&dl=CiQzNjc2ODc5My05Y2JjLTQ4NDQtYjRhNi1iYzIzODMxYjRkYzYQIhokOTlGQUM4RjUtNjdBRi00QTY1LTk5NDctNThCODRGM0ZFMERC): $9,085
+For data security, we will use Google's default encryption for data at rest, which is automatically enabled with Cloud Spanner. As noted in Google's documentation: "By default, Spanner encrypts customer content at rest. Spanner handles encryption for you without any additional actions on your part." This eliminates the need to implement custom encryption in the Topology Service with CMEK while ensuring data security compliance.
 
-Citations:
-
-1. Google (n.d.). _Regional and multi-region configurations._ Google Cloud. Retrieved April 1, 2024, from <https://cloud.google.com/spanner/docs/instance-configurations>
-1. Google (n.d.). FeedbackReplication. Google Cloud. Retrieved April 1, 2024, from <https://cloud.google.com/spanner/docs/replication>
+An [estimated cost](https://cloud.google.com/products/calculator?hl=en&dl=CjhDaVJpWldSalpUVmxOeTAxWXprekxUUTBPR1l0T1RJeU5DMW1PVEUwTnpVMVpXTXpZVEFRQVE9PRAOGiRDRENBM0ZENy0zQ0Y5LTQ1MkQtQkJBMi04NUZGNjU1RUVBM0U) for this configuration is approximately $11,838.94 per month, based on a hypothetical compute usage of 5 nodes, 1 TB of storage, and Enterprise Plus Edition.
 
 #### Architecture of multi-regional deployment of Topology Service
 
