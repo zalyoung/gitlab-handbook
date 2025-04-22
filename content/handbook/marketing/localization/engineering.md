@@ -26,22 +26,21 @@ We maintain two separate environments that contain all projects used to compile 
 
 **Test environment**: [localization/tech-docs-forked-projects/test/](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/)
 
-
 ### Branch structure
 
 Each project within these environments maintains the following branch structure:
 
-1. **main** Used exclusively for pulling upstream changes into our fork. Do not contribute to this branch. 
-2. **main-translation** Used for delivering translations from our Translation Management System (TMS). Do not contribute to this branch.  
+1. **main** Used exclusively for pulling upstream changes into our fork. Do not contribute to this branch.
+2. **main-translation** Used for delivering translations from our Translation Management System (TMS). Do not contribute to this branch.
 3. **main-development** This is our development workspace for i18n features.
 4. **live-preview** A stable live preview branch for the internationalized GitLab documentation. [See MR for more details](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17).
 
-#### Branch maintence 
+#### Branch maintence
 
 ##### How update localization forks with upstream changes
 
-1. A localization team member updates the Fork Project’s main branch to match the Production Project’s default branch. 
-2. The localization team member creates an MR that merges the default branch to a `main-translation`. This MR contains all the changes to the default branch since the last time this step was done, which includes all the changes to the documentation that have occurred since then. 
+1. A localization team member updates the Fork Project’s main branch to match the Production Project’s default branch.
+2. The localization team member creates an MR that merges the default branch to a `main-translation`. This MR contains all the changes to the default branch since the last time this step was done, which includes all the changes to the documentation that have occurred since then.
 3. The localization team member merges the MR to the `main-translation`, bringing the translation branch up to date with the default branch and triggering the GitLab Integration to check for source language file updates.`
 
 [Here is an example](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab/-/merge_requests/11) update `main-translation` branch with content form upstream from Omnibus Production fork.
