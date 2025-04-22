@@ -63,7 +63,7 @@ these guidelines:
 1. Inform the customer that before the end of your workday you will transfer
    their ticket to their preferred region for continued support **unless they
    request that you keep it**.
-1. If it's the end of your work day and the customer hasn't confirmed the region, move it to the region that they chose when they created the ticket. To do that run the `Support::Rehome::Initiate Rehome` macro.
+1. If it's the end of your work day and the customer hasn't confirmed the region, proceed to the next section.
 
 ### Initiating a ticket rehome
 
