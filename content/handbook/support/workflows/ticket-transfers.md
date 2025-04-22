@@ -21,16 +21,15 @@ Examples of these tickets include:
 
 - Tickets for which a call or special follow-up has been promised within the next few hours without confirming availability with the receiving region present a challenge for the Support Engineer to address without adequate preparation. (Direct to Call - DTC)
 - Tickets not in their region that will trigger the Hot Rehome process due to unmet customer expectations with a STAR request (Falling Star).
-- Not rehomed tickets that require additional attention.
-(The ticket was held outside of the preferred region for longer than 1 shift, which is raising the risk)
+- Not rehomed tickets that require additional attention. (The ticket was held outside of the preferred region for longer than 1 shift, which is raising the risk)
 
-### Hot Rehome prevention
+### Hot rehome prevention
 
 Before placing any ticket in a region other than the customer's preferred one, please ensure the following steps are completed:
 
 **Agreement:** The customer must acknowledge that their initial request for a specific region will not be fulfilled and must provide their consent. Additionally, they should understand the added value associated with keeping the ticket in the current region.
 
-**Understanding:** The customer should be made aware that there may be delays in responses. If it becomes necessary to transfer the ticket to the originally requested region, a transition period will be implemented to ensure the receiving engineer is adequately prepared.
+**Understanding:** The customer must be made aware that there may be delays in responses. If it becomes necessary to transfer the ticket to the originally requested region, a transition period will be implemented to ensure the receiving engineer is adequately prepared.
 
 As you work on the ticket, refrain from making promises on behalf of others. Instead, leave a detailed note in the ticket that outlines the customer's situation and emphasizes the intention to achieve a favorable outcome for them. If necessary, contact a manager in the receiving region for assistance. Furthermore, be considerate of the time of the receiving support engineer.
 
@@ -52,14 +51,14 @@ When providing the first response to a ticket from a different region, follow
 these guidelines:
 
 1. Take assignment of the ticket.
-1. Introduce yourself and acknowledge the customer's preferred region. (`Support::Out of Region::Cross-region_Preferred region clarify assignment` macro is a good starting point)
-1. Explain that you're providing initial assistance to ensure a timely response.
+1. Introduce yourself and acknowledge the customer's preferred region (`Support::Out of Region::Cross-region_Preferred region clarify assignment` macro is a good starting point)
+1. Explain that you're providing initial assistance to ensure a timely response
 1. Proceed with all appropriate initial steps to begin addressing the customer's
-   issue.
+   issue
 1. Inform the customer that before the end of your workday you will transfer
    their ticket to their preferred region for continued support **unless they
-   request that you keep it**.
-1. If it's the end of your work day and the customer hasn't confirmed the region, proceed to the next section.
+   request that you keep it**
+1. If it's the end of your work day and the customer hasn't confirmed the region, proceed to the next section
 
 ### Initiating a ticket rehome
 
@@ -100,7 +99,7 @@ request that you keep the ticket rather than transferring it to their preferred
 region, you should follow these steps:
 
 1. Use the `Support::Rehome::Do Not Rehome` macro, which creates a public
-   comment with some initial text for you to use.
+   comment with some initial text for you to use
 1. Proceed as you would with any other ticket
 
 ## Ticket handover (assignee change not related to preferred region)
