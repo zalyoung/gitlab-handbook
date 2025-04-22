@@ -37,18 +37,24 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 ## Random Things to Know
 
 - Note: As of launch registrations should not be taken via the Goldcast landing pages/forms and registrations should only occur via Marketo forms/landing pages until further notice. 
-- When selecting the `New Webinar` option, keep in mind that **any** event where speakers will appear live on camera **must** be set to the `Live` event type. If no speakers will appear live on camera, the event type can be set to `Pre-recorded`. When the event type is set to `Pre-recorded`, back stage staff can interact with the audience **only** via text. If your event will need to be a mix of `pre-recorded` and `live Q&A`, it is recommended to select `New Event` instead of `New Webinar` as `New Event` will give more flexibilty for presenters. `New Webinar` offers a simpler setup, less flexibilty and automative content creation via Content Lab. More reading [here](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events) 
+- When selecting the `New Webinar` option, keep in mind that **any** event where speakers will appear live on camera **must** be set to the `Live` event type. If no speakers will appear live on camera, the event type can be set to `Pre-recorded`. When the event type is set to `Pre-recorded`, back stage staff can interact with the audience **only** via text. If your event will need to be a mix of `pre-recorded` and `live Q&A`, it is recommended to select `New Event` instead of `New Webinar` as `New Event` will give more flexibilty for presenters. `New Webinar` offers a simpler setup, less flexibilty and automative content creation via Content Lab - but will require Backstage or Speakers to manually control video and other displayed content during live presentations. More reading [here](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events) 
+- When set to `Automatic`, the [Session Redirection Strategy](https://help.goldcast.io/program-agenda/18803068306459?from_search=181942475&swifty_search_highlight=redirectio) setting automatically allows registrants in at the event start time, but does not immediately force presenters on-stage. Having this set to `Manual` requires staff input to move attendees around sessions. The GitLab team has found the `automatic` session redirection feature on multi-session `Events` can be slow, so it is best to familiarize how the feature works and if it would be better to use the manual setting at least an hour before the event starts (when this setting becomes locked) 
 - Specifications for creative assets, including video, can be found [here](https://help.goldcast.io/en_US/design/4406894301979-goldcast-design-specifications). **WARNING: Upload processing time can take up to 4x the length of the recorded video** and it's recommended for events to be 2 minutes longer than the video asset for pre-recorded events
 - Test events are no longer test events if the registrant number reaches 10 people. More information on test events [here](https://help.goldcast.io/en_US/event-settings/what-is-a-test-event-how-to-create-one)
 - When an event is set to convert to an on demand capable event, the transition occurs around the 35 minute mark after the event ends
-- While users can create custom fields within their events as needed, the data syncing into Marketo is set by Marketing Ops. **Do not add any fields into the Goldcsat -> Marketo sync without consulting Marketing Ops**
-- By default, `English` is set as the primary language in the event template. Captions and subtitles are also toggled on by default, but will only work correctly if the presenters are speaking in the set primary language
+- While users can create custom fields within their events as needed, the data syncing into Marketo is set by Marketing Ops. **Do not add any fields into the Goldcast -> Marketo sync without consulting Marketing Ops**
+- By default, `English` is set as the primary language in the primary event template unless labeled otherwise. Captions and subtitles are also toggled on by default, but will only work correctly if the presenters are speaking in the set primary language
 - The `Enter Event` button on the registration landing page is recommended to be disabled, if it is not already. If enabled, registrants can enter the event earlier than 1 hour prior to event start. Instructions on disabling the button [here](https://help.goldcast.io/en_US/event-settings/4583663517211-disabling-the-enter-event-button#how-to-turn-off-the-enter-event-button-1)
+- As of April 2025, there is no way to fully deactivate an event - but we have requested such a feature from Goldcast 
 - Run on the assumption that settings cannot be changed within an hour of your event start time
-- When set to `Automatic`, the `Session Redirection Strategy` setting automatically allows registrants in at the event start time, but does not immediately force presenters on-stage. Having this set to `Manual` requires staff input to allow users in/out of the event
-- Goldcast registration landing pages are activated by default and cannot be deactivated, automatically deactivating soon after the event is over. The choice to use Marketo LPs vs Goldcast LPs is up to the event owner
+- The removal of Goldcast branding, such as surveys and rate us button, are part of the white listing feature and behind a paywall
+- Goldcast registration landing pages are activated by default and cannot be deactivated, automatically deactivating soon after the event is over. Once Goldcast landing pages are ready, the choice to use Marketo LPs vs Goldcast LPs is up to the event runners
 - File size maximum for video in a standard event is 5gb but we can contact support if the size is larger for a large event
-- To cut down on complexity and strain on Marketo, the `Attended On Demand` Marketo program flows for both Goldcast and for Pathfactory are shared. Have Pathfactory keywords in mind or reserved before the webcast air date so this flow can be turned on quickly after the event ends 
+- To cut down on complexity and strain on Marketo, the `Attended On Demand` Marketo program flows for Goldcast, On-demand form fills and for Pathfactory are shared. Have Pathfactory keywords in mind or reserved before the webcast air date so this flow can be turned on quickly after the event ends. Once the event is over, either take down the landing page or replace the `FORM 1592: Webcast` form for the `FORM 2076: On-demand Webcast` form if the intention is to leave the landing page up for on-demand
+- Any 4K broadcasts require the GitLab team contact Goldcast support as these are deemed "special" events 
+- [Lite Mode](https://help.goldcast.io/en_US/for-attendees/9152654198427-goldcast-attendee-faqs), as shown on Q4 of the FAQ, may improve performance of attendees experiencing video or audio problems. By default, guests are asked to perform a connection test before joining an event 
+- To request text-based Live Chat Support during an event and from the Studio dashboard, [click the "?" icon in the top right corner](https://help.goldcast.io/en_US/about-goldcast/16577714397851-how-do-i-contact-goldcast-support-). Support can share an `event check`up to 48 hours prior to the event, if requested, which includes a review of settings
+- Uploading our own subtitle files [requires reaching out to Support](https://goldcast.zendesk.com/hc/en-us/articles/26677786827291-Upload-Custom-VTT-Caption-Files-to-Pre-recorded-Sessions) with the event name/ID and pre-recorded session name. Pre-loaded subtitles are only available for pre-recorded events. The file emailed to Support must be in VTT format  
 
 ## Fields syncing between Marketo and Goldcast
 
@@ -183,7 +189,7 @@ As mentioned in the Random Things to Know section, when creating a new event the
 
 - For more simplistic webinars where the entire event is either broadcast type `pre-recorded` or entirely broadcast type `live`, `New Webinar` offers an easy set up option but with less flexibilty. If `pre-recorded` is selected, the Back Stage staff can only interact with the audience via the text-based interface. If `Live` is selected, the Staff or Speakers must manually manage all video shown on the stage
 - For more flexibility to manage pre-recorded video and live speakers within your event, select `New Event`. `New Event` lets users create a multi-session events that can be scheduled across multiple rooms, times and days. This option is best for events featuring `live Q&A` after a pre-recorded video
-- More info to come on Series as Goldcast landing pages become public facing ready
+- A Series mostly acts as a way of grouping multiple events and or webinars under a single label, kind of like a folder. More details in the "Working with a Series" section below 
 
 ### Event Creation within Goldcast 
 
@@ -227,9 +233,9 @@ When the Goldcast event and Marketo program are connected, Goldcast will automat
 
 ### Additional smart campaigns
 
-- `02 Goldcast Form Registration and Live`: Goldcast automatically changes program statuses when events and Marketo programs are connected. This smart campaign watches for program status changes for `Attended`, `No Show`, `Canceled`, `Rejected`, `Waitlisted` and `Registered`. If the event's registration is started on a Goldcast landing page, this smart campaign needs to be turned on immediately and before invite emails are sent out to invitees. This smart campaign needs to be active before the event, regardless of registration landing page location
-- `03 Goldcast Processing - On Demand - Goldcast/Pathfactory`: This smart campaign is designed to process `on-demand` attendees based on either Goldcast post-event viewing or Pathfactory viewing. Needs to be turned on within 30 minutes of the webcast ending to work correctly for Goldcast on demand attendees. Have Pathfactory keywords in-mind or ready so those filters can be added to the trigger and the flow can be activated before the 35 minute mark post-event 
-- `04 Goldcast Processing - Engagement`: If an attendee clicks the CTA button -which by default is labeled as `Talk to an Expert`- in either an Event or in a Booth, this flow marks those leads as `Follow Up Requested`. In order for this flow to work, it must be active and needs to have the event ID place in the trigger filter. Otherwise the CTA button will not MQL the lead for follow up. Note that the CTA button simply links to the "talk to sales" page during `on demand` events and this flow does not need to be activated for `on demand`
+- `02 Goldcast Form Registration and Live`: Goldcast automatically changes program statuses when events and Marketo programs are connected. This smart campaign watches for program status changes for `Attended`, `No Show`, `Canceled`, `Rejected`, `Waitlisted` and `Registered`. If the event's registration is started on a Goldcast landing page, this smart campaign needs to be turned on immediately and before invite emails are sent out to invitees. This smart campaign needs to be active before the event, regardless of registration landing page location. The flow can safely be set to automatically expire 24 hours after the event ends 
+- `03 Goldcast Processing - On Demand - Goldcast/Pathfactory`: This smart campaign is designed to process `on-demand` attendees based on either Goldcast post-event viewing, On-demand form fills or Pathfactory viewing. The flow needs to be turned on within 30 minutes of the webcast ending to work correctly for Goldcast on-demand attendees. Have Pathfactory keywords in-mind or ready so those filters can be added to the trigger and the flow can be activated before the 35 minute mark post-event. For the flow to work on landing pages for on-demand form fills, the Marketo landing page form needs to be switched to `FORM 2076: On-demand Webcast`
+- `04 Goldcast Processing - Follow Up Requested`: If an attendee clicks the CTA button -which by default is labeled as `Talk to an Expert`- in either an Event or in a Booth, this flow marks those leads as the `Follow Up Requested` program status. In order for this flow to work, it must be active and needs to have the event ID place in the trigger filter. Otherwise the CTA button will not MQL the lead for follow up. CTA click numbers are also available to reference in the Goldcast event analytics dashboard. Note that the CTA button simply links to the "talk to sales" page during `on demand` events and on the registration landing page - and this flow does not need to be activated for `on demand`. It is up to the discretion of the team member to turn off this functionality within the Goldcast event by hiding all `CTA` buttons. The Marketo smart campaign can safely be set to automatically expire 24 hours after the event ends 
 
 ## Navigating Inside a Goldcast Webinar and Event, pre-live
 
@@ -293,6 +299,8 @@ This section allows for viewing of data directly collected by Goldcast, such as 
 
 This section also gives access to see registrants' `Magic Links`. A magic link is the link emailed directly to registrants that allows them to access the event. In the event a user reaches out about not getting access to the event, this is the custom link they need 
 
+Many attributes can be found in this dashboard, including the number of successful CTA clicks 
+
 ## Inside an Event
 
 From the Producer view during an event, there are several key controls to take note of:
@@ -315,7 +323,9 @@ From the Producer view during an event, there are several key controls to take n
 - P: List of staff inside your event. This list also allows Producers to manually move Speakers onto the Stage or mute Speakers
 - Q: Controls to interact with the audience 
 - R: Speakers use this button to enter and leave the Stage. Producers also have this button visible and Coordinators cannot use the button 
-- S: Night mode for backstage 
+- S: Night mode for backstage
+
+Note: Additional controls and settings can be found by clicking your profile icon (or initials) in the top right of the Stage. This information is mostly informative, like assigned role and attendee numbers (for Producers, but not Speakers)
 
 ![Goldcast Stage Console](/images/marketing/marketing-operations/goldcast/goldcast_console.png)
 
@@ -336,6 +346,61 @@ To cancel an event, send out a notification email as described in the next parag
 To send a custom email, within the main event menu select into the `Email` menu. Within that menu, select `Send Custom Email`. Fill in the `Email Subject` with the appropriate title and for the email template select the pre-made template named `[Reschedule] Default GitLab Template` or `[Cancellation] Default GitLab Template`. Complete the email send by hitting the `Send to Registrants` button.
 
 If the event has been rescheduled, change the Marketo program name to match the new date. If the event has been canceled, ping in the mktgops slack channel to have the program deleted or delete the program if you have the permissions.
+
+## Localized Event Templates
+
+Goldcast has been outfitted with localized event templates for 6 additional languages, bringing the number of templates available to 7 languages total:
+
+- English
+- Spanish (Spain)
+- French
+- German
+- Portuguese
+- Italian
+- Japanese
+
+Each of these templates have the `Primary Language` set to the listed language, meaning email assets, UI and features are set to this language and **in order for some features to work correctly the speakers must be speaking in that language**. Event information must also be input by Staff to match the language for a completely localized experience. More information can be found [within Goldcast's documentation](https://help.goldcast.io/event-settings/16635257856923-hosting-an-event-in-different-primary-languages). 
+
+When adding Speakers to an event, the `Speaker Invite/Instructions` email will be set to the `Primary Language` initially but can be switched to a standard English template in the `Email Schedule` section of the event. If you would like to send a `Primary Language` email to one speaker and the standard English email to a different speaker, switch the `Speaker Invite/Instructions` email before adding one Speaker or the other. The system is not capable of sending two different language emails simultaneously. For the `1 hour reminder` email, only one of the two emails can be sent due to those reminders being sent simultaneosly. `Staff Emails` are only in English.
+
+All Japanese event templates have been updated with email templates that include the greeting `{{last name}}-sama`, whether the email is in Japanese or English
+
+A Korean template has been requested and is undergoing approvals
+
+To send a `Reschedule` or `Cancelation` email, follow similar protocal as explained in the above section. Select the templates titled `[Reschedule] Default GitLab Template - {{Primary Language}}` or `[Cancellation] Default GitLab Template - {{Primary Language}}` and depending on the email, fill in the subject line with one of these translations:
+
+a. `Your event has been rescheduled!`
+b. `Due to unforeseen circumstances the event has been canceled.`
+
+- Spanish
+  a. "Su evento se reprogramó."
+  b. "Debido a circunstancias imprevistas, el evento se canceló."
+- French
+  a. "Votre événement a été reprogrammé!"
+  b. "En raison de circonstances imprévues, l'événement a été annulé."
+- German
+  a. "Dein Event wurde verschoben."
+  b. "Aufgrund unvorhergesehener Umstände wurde das Event abgesagt."
+- Portuguese
+  a. "Seu evento foi reagendado!"
+  b. "evido a imprevistos, o evento foi cancelado. "
+- Italian
+  a. "Il tuo evento è stato riprogrammato."
+  b. "A causa di circostanze impreviste, l'evento è stato annullato."
+- Japanese
+  a. "イベントのスケジュールが変更されました！"
+  b. "予期せぬ事情により、イベントは中止となりました。"
+
+## Working with a Series
+
+A Series in Goldcast acts as a method of grouping multiple events with differing dates and times under the same label. A few things to know about Series:
+
+- A Series can come with its own Goldcast landing page that will allow users to select their event date and time, but use of these landing pages is currently limited while the team investigates how Bizible touchpoints work with these landing pages. It is recommended to continue using Marketo or About.GitLab marketing landing pages until Goldcast and Bizible are correctly connected. Reach out to MktgOps to set up a single form registration within Marketo
+- The only Series template created is currently in English and called `Series Landing Page Template`. To recreate this template, use the "duplicate" feature found in the Edit Series menu. Know the form for the landing page is not set up at this time
+- Please note a Series cannot have a Primary language set because that function lives at the Event/Webinar level. This means different events within your Series can be set to different Primary languages
+- Events and Webinars added to your Series can be created by selecting "Add Event" or "Add Webinar" on the Series Dashboard. Each unique event/webinar created within the Series will create its own Marketo program
+- Registration confirmation and reminder emails will come from the individual events/webinars, but it is possible for Series to send Registration confirmation and Waitlist emails
+- More information to be added on this functionality after Bizible Touchpoints are successfully integrated with Goldcast
 
 ## Content Hub
 
