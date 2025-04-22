@@ -76,7 +76,7 @@ graph BT;
 | More Contributions | [MRARR](/handbook/engineering/infrastructure/performance-indicators/#mrarr) | Developer Relations and Engineering |
 | More Contributions | [Wider community contributions per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release) | Developer Relations and Engineering |
 | More Features | [Merge Requests per release per engineer in product development](/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
-| More Revenue | [IACV](/handbook/sales/#incremental-annual-contract-value-iacv) vs. plan | Sales and Marketing |
+| More Revenue | IACV vs. plan | Sales and Marketing |
 
 ### Flywheel with two turbos
 

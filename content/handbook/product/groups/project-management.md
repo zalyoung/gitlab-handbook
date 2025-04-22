@@ -119,7 +119,7 @@ The retrospective issue is created by a scheduled pipeline in the
 [async-retrospectives] project. For more information on how it works, see that
 project's README.
 
-- [GitLab retrospective](/handbook/engineering/workflow/#retrospective)
+- [GitLab retrospective](/handbook/engineering/management/group-retrospectives/)
 - [team retrospectives](/handbook/engineering/management/group-retrospectives/)
 - [async-retrospectives](https://gitlab.com/gitlab-org/async-retrospectives)
 - [retros](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
