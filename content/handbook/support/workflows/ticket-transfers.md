@@ -67,16 +67,17 @@ these guidelines:
 
 ### Initiating a ticket rehome
 
-Before initiating a rehome, double check that you are the assignee on the ticket. If you are not, take assignment and
-submit the update before proceeding.
+Before initiating a ticket rehome, double check that you are the assignee on the ticket. If you are not, take assignment
+and submit the update before proceeding.
 
-To initiate a ticket rehome, simply use the `Support::Rehome::Initiate Rehome`
-macro. This macro will:
+To initiate a ticket rehome, use the `Support::Rehome::Initiate Rehome` macro. This macro will:
 
 1. Remove ticket assignment
 1. Apply the `rehome_initiated` tag
+1. Apply an internal comment indicating the rehome regions
 
-If the ticket is waiting on a customer reply put the ticket into "Pending", if the ticket is waiting on a reply from a support engineer put the ticket into "Open".
+If the ticket is waiting on a customer reply, set the ticket status to **Pending**. If the ticket is waiting on a reply
+from a support engineer, set the ticket status to **Open**. Submit the ticket to initiate the rehome.
 
 ### Receiving a ticket rehome
 
