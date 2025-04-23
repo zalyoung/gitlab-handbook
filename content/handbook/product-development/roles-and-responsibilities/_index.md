@@ -1,6 +1,6 @@
 ---
 title: "Product Development Roles and Responsibilities"
-description: "List of roles and responsibilities in the product development process."
+description: "Overview of roles and responsibilities across Product and Engineering teams in the product development process."
 ---
 
 Successful product development requires and demands a unified commitment to shared outcomes across team members. The entire team must collectively embrace responsibility for the delivery of positive user impact, aligned to our GitLab value of delivering [Results for Customers](/handbook/values/#results).
