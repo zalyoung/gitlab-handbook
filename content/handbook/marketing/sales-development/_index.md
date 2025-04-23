@@ -167,7 +167,7 @@ To find and access your leads, please:
 1. Navigate to SFDC's homepage
 1. Click on the `Leads` tab.
 
-You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/#inbound-lead-management).
+You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/#inbound-lead-management). whatever you wanna write
 
 #### SDR Lead Views
 
