@@ -15,10 +15,11 @@ Use of the Logos is not permitted under these Guidelines, except for the limited
 1.1. You can use the GitLab Name to truthfully and accurately refer to, or identify, GitLab and its products and services, including in the following instances:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.1. To indicate if your product, service, or solution integrates, or is interoperable or compatible, with GitLab, e.g. `This product is an issue downloader for GitLab`, provided that doing so does not create a likelihood of confusion as to the origin of such product, service, or solution. Use of the GitLab Name to indicate interoperability or compatibility with a plugin or extension is permitted, provided the following:
- - The GitLab Name is not used as the first word;
- - Only the phrases, "...for GitLab", or "GitLab Compatible" are used;
- - The following statement must be included in the overview section of the marketplace listing:
-    - "This [plugin/extension] is not affiliated, endorsed, sponsored or approved with or by GitLab Inc."
+
+- The GitLab Name is not used as the first word;
+- Only the phrases, "...for GitLab", or "GitLab Compatible" are used;
+- The following statement must be included in the overview section of the marketplace listing:
+  - "This [plugin/extension] is not affiliated, endorsed, sponsored or approved with or by GitLab Inc."
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.2. To refer to GitLab Inc. and its products and services in news articles and other text without alteration, e.g. `GitLab acquires open source observability distribution Opstrace`;
 
