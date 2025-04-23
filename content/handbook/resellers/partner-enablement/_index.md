@@ -203,7 +203,7 @@ Here are links to the most popular Professional Services topics from the [Profes
 
 ## 1. Official GitLab Training on Level Up
 
-- [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/prm/English/c/Training)
+- [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/)
   - Please login through the Partner Portal to access training in GitLab University. This will ensure that the training you take will be associated with your company partnership with GitLab!
 
     ![Start Training from the Partner Portal](/images/resellers/partner-enablement/gitlab-partner-training.png)
