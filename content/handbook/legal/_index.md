@@ -36,9 +36,9 @@ The [Employment](/handbook/legal/employment-law/) group provides thoughtful, pra
 
 The [ESG](/handbook/legal/esg/) group works cross-functionally to integrate ESG considerations, ESG regulatory compliance, and responsible business practices as part of GitLab’s overarching mission to make our customers successful.
 
-### Privacy and Intellectual Property
+### Privacy, Product, and Intellectual Property
 
-The [Privacy](/handbook/legal/privacy/) and [Intellectual Property](/handbook/legal/product/) group enables fast-paced product development within applicable regulatory confines; privacy solutions so customers can confidently co-create in those products; and robust protection of Company IP.
+The [Privacy](/handbook/legal/privacy/) and [Product and Intellectual Property](/handbook/legal/product/) group enables fast-paced product development within applicable regulatory confines; privacy solutions so customers can confidently co-create in those products; and robust protection of Company IP.
 
 ### Risk Management and Dispute Resolution
 
