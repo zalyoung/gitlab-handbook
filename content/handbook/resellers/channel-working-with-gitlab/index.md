@@ -130,9 +130,9 @@ Service Attached Registrations are submitted via the Partner Portal as a deal re
 - MSP software opportunities where licenses are sold to and owned by the partner do not qualify for Service Attached Registration
 - Each closed-won software opportunity can only have one approved Service Attached Registration (i.e., one software opportunity to one registration)
 
-Qualification Categories 
+### Qualification Categories 
 
-Approved - Qualifies for Rebate and PSP 
+**Approved** - Qualifies for Rebate and PSP 
 The following criteria must be met for a Service Attached Registration to be approved and for a partner to receive a rebate:
 
 - Completion of the associated software opportunity (i.e., closed-won)
@@ -142,7 +142,7 @@ The following criteria must be met for a Service Attached Registration to be app
     - verify that the services meet both program guidelines and customer needs as outlined in the current program guidance (found in the Partner Portal) for incentive
     - confirm the dates of the project and include customer signatures
     - be signed and submitted within 6 months after opportunity closure
-      Note: If the SOW is unable to be signed, it can be considered with an accompanying proof of execution, such as a PO, signed order form, or customer email confirmation of the service engagement
+      - Note: If the SOW is unable to be signed, it can be considered with an accompanying proof of execution, such as a PO, signed order form, or customer email confirmation of the service engagement
     - be dated (i.e., customer signature) within 6 months of submission
   - Each SOW can only be applied to one Service Attached Registration (i.e., one SOW cannot be used for multiple registrations).  However, exceptions PSP Delivery Requirements, asmay be considered on a case-by-case basis for multi-phase projects that drive an add-on or upsell opportunity.
 - Scope of services
@@ -153,12 +153,12 @@ Rebates for approved Service Attached Registrations are paid out no later than 4
 
 Service Attached Registrations that do not qualify for approval for the rebate per the terms noted above will still be considered for [PSP Delivery Requirements](/handbook/resellers/channel-program-guide/#delivery-requirements) per the Qualification Category - Accepted.
 
-# Accepted - Qualifies for PSP
+##### Accepted - Qualifies for PSP
 - Paid service engagement with a SOW signed and submitted within 12 months of registration submission and closed-won Net ARR opportunity
 - Free of charge, partner-led services that show proof of execution, such as assessments
 - Closed-won managed/hosted service deal registrations (with software sold to / owned by the partner) 
 
-# Unqualified - Does not qualify for Rebate or PSP 
+##### Unqualified - Does not qualify for Rebate or PSP 
 - Services that are not directly related to GitLab
 - Engagements without a related license opportunity in Salesforce
 - Services for GitLab CE customers without a pending upgrade opportunity
