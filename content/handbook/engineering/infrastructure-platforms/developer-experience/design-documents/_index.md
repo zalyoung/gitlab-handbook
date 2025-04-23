@@ -25,4 +25,4 @@ At GitLab, everyone can contribute, including to our design documents. If you wo
 1. Write your blueprint
 1. While your blueprint is theoretical leave it in ~pending state, once it has been implemented you can change the state to ~accepted
 
-{{< design-documents-list-devex folder="handbook/engineering/infrastructure-platforms/developer-experience/design-documents" >}}
+{{< design-documents-list folder="handbook/engineering/infrastructure-platforms/developer-experience/design-documents" >}}
