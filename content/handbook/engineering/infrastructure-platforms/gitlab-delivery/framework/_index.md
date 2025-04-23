@@ -160,7 +160,7 @@ We follow Platforms Project Management practices as outlined [here](/handbook/en
 ### Labels
 
 <!-- Labels explanations -->
-The primary team label is `team::GitLab Delivery Framework`. This label should be applied to issues and epics throughout the organization that require the team's attention.
+The primary team label is `group::framework`. This label should be applied to issues and epics throughout the organization that require the team's attention.
 The team tracks work using the `workflow` and `workflow-infra` labels across issues, epics, and MRs. Team members will ensure that their work items are updated with the correct workflow labels.
 
 | `gitlab-org` issues | `gitlab-com/gl-infra` issues |
@@ -206,7 +206,7 @@ The team tracks work using the `workflow` and `workflow-infra` labels across iss
 
 <!-- STATUS NOTE END -->
 
-/label ~"team::GitLab Delivery Framework" ~"workflow-infra::Triage"
+/label ~"group::framework" ~"workflow-infra::Triage"
 
 ```
 
