@@ -16,7 +16,7 @@ no_list: true
 ## Summary
 This architecture blueprint outlines a comprehensive approach to implementing a Security Inventory feature. The feature aims to provide AppSec and DevSecOps teams with visibility into their security posture across all their digital assets. The current system lacks asset-level visibility, focusing primarily on project-level vulnerabilities without providing a holistic view of security coverage and gaps. 
 
-Our proposal introduces a performant, hierarchical inventory system that provides visibility into groups, subgroups, projects, and their security scanning coverage and vulnerability statistics. By pre-calculating and efficiently storing this data, we enable quick querying and visualization without costly aggregation operations, making the system scalable for our largest customers.```
+Our proposal introduces a performant, hierarchical inventory system that provides visibility into groups, subgroups, projects, and their security scanning coverage and vulnerability statistics. By pre-calculating and efficiently storing this data, we enable quick querying and visualization without costly aggregation operations, making the system scalable for our largest customers.
 
 
 ### Proposal
@@ -38,9 +38,9 @@ AppSec teams today face significant challenges in securing their company's digit
 By implementing the Security Inventory feature, GitLab will empower security teams to visualize their entire asset portfolio and the security measures applied to each asset, enabling them to make better security decisions based on a complete picture.
 
 
-#### Visibility
-TO_ADD
+### Visibility
 
+Access to the Security Inventory is limited to Owners and Maintainers of a given group. The data is available at `/-/security/inventory` and via the GraphQL API.
 
 ### Goals
 - Create a performant, scalable inventory system that works efficiently for GitLab's largest customers
@@ -50,7 +50,8 @@ TO_ADD
 
 
 ### Non-Goals
-TO_ADD
+- Replace the Security Dashboard; this feature will not replace the Security Dashboard
+- Triage individual vulnerabilities; this feature will not be appropriate to use for triaging individual vulnerabilities
 
 
 ### Terminology/Glossary
@@ -77,7 +78,7 @@ TO_ADD
 
 2. **Data Collection**:
    - Update analyzer statuses based on detected security scanner executions in a post-pipeline execution step
-   - Calculate and store vulnerability statistics when new security findings are generated or when dismissing a finding
+   - Calculate and store vulnerability statistics when new security findings are generated, when dismissing a finding, when moving a project/group, or when deleting a project/group
 
 3. **Data Integrity**:
    - Implement a schedule alignment services to detect and correct data drift
@@ -88,7 +89,7 @@ TO_ADD
    - Include filtering and pagination capabilities
 
 
-##### Internal requirements
+##### Requirements
 1. **Database Performance**:
    - Optimize database schema for read performance
    - Implement efficient indexing strategies
@@ -112,20 +113,53 @@ TO_ADD
    - Apply appropriate access controls for security information
 
 
-##### External requirements
+##### Workflow
 TO_ADD
 
 
-###### Workflow
+##### Auditing
+
+
+##### Application Programmer Interfaces (APIs)
+
+For the integration with the UI, we will leverage the existing Groups GraphQL API. In addition, we will implement the following APIs as part of this feature.
+
+###### Vulnerabilities APIs
+```
+query GetGroupVulnerabilityStatistics($fullpath: FULLPATH!) {
+  group(fullPath: $fullpath) {
+    descendantGroups(includeParentDescendants: false, first: 20) {
+      nodes {
+        vulnerabilityNamespaceStatistic {
+          critical
+          medium
+        }
+      }
+    }
+  }
+}
+```
+
+```
+query GetGroupVulnerabilityStatisticsForProjects($fullpath: FULLPATH!) {
+  group(fullPath: $fullpath) {
+    projects(first: 20) {
+      nodes {
+        vulnerabilityStatistic {
+          critical
+          medium
+        }
+      }
+    }
+  }
+}
+```
+
+###### Analyzer Status APIs
+
 TO_ADD
-
-
-###### Auditing
-
-
-###### Application Programmer Interfaces (APIs)
-TO_ADD
-
+* AnalyzerGroupStatus
+* AnalyzerStatus
 
 ### Database Schema
 The system will utilize the following tables:
