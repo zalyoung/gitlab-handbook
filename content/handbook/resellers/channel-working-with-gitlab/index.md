@@ -120,12 +120,19 @@ If any of the above requirements are not met—or you fail to promptly schedule 
 
 The Service Attached incentive is based on the volume of licensing opportunities with services attached to those licensing deals. The more licensing deals you attach services to the richer the program becomes.
 
-Service Attached Registration is submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to a software opportunity.
+The partner must submit service opportunities via a Service Attached Registration on the Partner Portal. Service Attached qualifications do not require license purchases through the services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. 
 
-- Service must be connected to a GitLab software opportunity sold to an end customer directly, via reseller, or via cloud marketplace
+Select partners and/or PSPs with approved Service Attached Registrations qualify for quarterly back-end rebates. This is separate from the Partner Sourced Deal Registration for the license sale. In addition, approved and accepted Service Attached Registrations count towards partners' PSP qualifications.
+
+Service Attached Registrations are submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to a software license sale opportunity.
+
+- Service must be connected to a GitLab software opportunity sold to an end customer directly by GitLab, via reseller, or via a cloud marketplace
 - MSP software opportunities where licenses are sold to and owned by the partner do not qualify for Service Attached Registration
 - Each closed-won software opportunity can only have one approved Service Attached Registration (i.e., one software opportunity to one registration)
 
+Qualification Categories 
+
+Approved - Qualifies for Rebate and PSP 
 The following criteria must be met for a Service Attached Registration to be approved and for a partner to receive a rebate:
 
 - Completion of the associated software opportunity (i.e., closed-won)
@@ -135,15 +142,29 @@ The following criteria must be met for a Service Attached Registration to be app
     - verify that the services meet both program guidelines and customer needs as outlined in the current program guidance (found in the Partner Portal) for incentive
     - confirm the dates of the project and include customer signatures
     - be signed and submitted within 6 months after opportunity closure
+      Note: If the SOW is unable to be signed, it can be considered with an accompanying proof of execution, such as a PO, signed order form, or customer email confirmation of the service engagement
     - be dated (i.e., customer signature) within 6 months of submission
-  - Each SOW can only be applied to one Service Attached Registration (i.e., one SOW cannot be used for multiple registrations). However, exceptions may be considered on a case-by-case basis for multi-phase projects that drive an add-on or upsell opportunity
+  - Each SOW can only be applied to one Service Attached Registration (i.e., one SOW cannot be used for multiple registrations).  However, exceptions PSP Delivery Requirements, asmay be considered on a case-by-case basis for multi-phase projects that drive an add-on or upsell opportunity.
 - Scope of services
-  - _In Scope_: Implementation, Integration, Optimization, Migration, Managed/hosted services (with software sold to / owned by end customer), Security/Compliance, Adoption, Assessment, Transformation, Application Development, DevSecOps AI
+  - _In Scope_:  Implementation, Integration, Optimization, Migration, Managed/hosted services (with software sold to / owned by end customer), Security/Compliance, Adoption, Assessment, Transformation, Application Development, DevSecOps AI, Support and/or Success Services
   - _Out of Scope_: Education/Training, Subcontracted services, Free-of-charge services, Managed/hosted services (with software sold to / owned by the partner)
 
-Rebates are paid out no later than 45 days after the end of each quarter. To view the GitLab Service Attached Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
+Rebates for approved Service Attached Registrations are paid out no later than 45 days after the end of each quarter. To view the GitLab Service Attached Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
 
-Service Attached Registrations that do not qualify for approval for the rebate per the terms noted above will still be considered for [PSP Delivery Requirements](/handbook/resellers/channel-program-guide/#delivery-requirements).
+Service Attached Registrations that do not qualify for approval for the rebate per the terms noted above will still be considered for [PSP Delivery Requirements](/handbook/resellers/channel-program-guide/#delivery-requirements) per the Qualification Category - Accepted.
+
+# Accepted - Qualifies for PSP
+- Paid service engagement with a SOW signed and submitted within 12 months of registration submission and closed-won Net ARR opportunity
+- Free of charge, partner-led services that show proof of execution, such as assessments
+- Closed-won managed/hosted service deal registrations (with software sold to / owned by the partner) 
+
+# Unqualified - Does not qualify for Rebate or PSP 
+- Services that are not directly related to GitLab
+- Engagements without a related license opportunity in Salesforce
+- Services for GitLab CE customers without a pending upgrade opportunity
+- GitLab PS subcontracting engagements
+- Education/Training services
+
 
 ##### Quote to Order
 
