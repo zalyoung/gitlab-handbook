@@ -563,6 +563,7 @@ This section documents key architectural and implementation decisions made durin
 1. We'll [backfill only open work items](https://gitlab.com/gitlab-org/gitlab/-/issues/498395#note_2388702770)
    with a default open status.
 1. We'll always add status data regardless of license to eliminate the need for additional data migrations during tier changes.
+1. We will not be implementing work item [status badge and filters in legacy issues list and epic work item list](https://gitlab.com/gitlab-org/gitlab/-/work_items/508015#note_2461199237). We will not be supporting legacy epics list.
 
 ## Resources
 
