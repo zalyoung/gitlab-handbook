@@ -166,6 +166,19 @@ there will be an abstraction layer which:
 
 ### Scalability and high availability
 
+Scaling of graph nodes will depend on:
+
+- available disk space on each node (this will be the main factor, at least for
+  the beginning)
+- number of open database connections at the same time: each database connection
+  reserves a certain memory space - this is configurable when opening the
+  database connection and we can choose how much memory will be used. For
+  example we can allocate 100MB memory for big graph databases and 10MB memory
+  for small databases.
+
+  For a node with 64GB RAM, we could keep >500 concurrently opened connections
+  to big databases or >5000 connections to small databases.
+
 There are multiple ways how to implement high availability for knowledge graph
 service, but given the following needs:
 
@@ -300,6 +313,8 @@ graph database for this repository.
   of permission checks, finding primary node for the repository and sending the
   request to the graph node and processing the response. As an input it will
   accept a cypher query and a project ID (on which we want to run the query).
+  Note: instead of using primary node, we could also use replica (as long as we
+  always pick same replica).
 - Although queries could be served also by any replica, the primary node for the
   repository should be used because any follow-up queries would re-use already
   opened DB connection
