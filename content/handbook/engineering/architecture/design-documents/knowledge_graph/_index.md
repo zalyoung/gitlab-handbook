@@ -63,8 +63,8 @@ repository statistics or showing related files when browsing through repository.
 
 ### Non-Goals
 
-- Implementation of repository parser (this will be done in a separate document
-  design). For purposes of this document the expectation is that the repository
+- Implementation of repository parser. For more details on the parser, see the [Knowledge Graph First iteration](https://gitlab.com/groups/gitlab-org/-/epics/17514).
+  For purposes of this document, the expectation is that repository
   parser will run as a worker in GitLab Rails. Ideally we use the same worker
   used also for [Chat with your codebase](https://gitlab.com/groups/gitlab-org/-/epics/16910), the only
   difference will be that the parser will be called with a different parameter
@@ -373,7 +373,7 @@ database, specifically on graph node level which would be much more complex
 
 ### Make it part of Zoekt Indexer / Webservice
 
-[Zoekt search](https://gitlab.com/gitlab-org/gitlab-zoekt-indexer) uses similar
+[Exact Code Search (Zoekt)](/handbook/engineering/architecture/design-documents/code_search_with_zoekt) uses similar
 approach - it uses self-registered nodes approach and file-based searching. A
 possible solution might be making Zoekt more generic, so it would support both
 Zoekt nodes and graph nodes. Then we could deploy graph DBs together with Zoekt
