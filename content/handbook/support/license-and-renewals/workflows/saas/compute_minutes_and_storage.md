@@ -1,6 +1,6 @@
 ---
-title: Handling compute minutes
-description: Adjusting compute minutes
+title: Handling compute minutes and Storage
+description: Adjusting compute minutes and storage
 category: GitLab.com subscriptions & purchases
 ---
 
@@ -21,6 +21,30 @@ Use the <a href="/handbook/support/license-and-renewals/workflows/customersdot/m
 View the <a href="/handbook/support/workflows/chatops/#setting-additional-minutes-quota-for-a-namespace">
 Support ChatOps documentation</a> for more information.
 </details>
+
+<details>
+<summary>Using the Cdot [Namespace controls SaaS / Set extra CI minutes](https://customers.gitlab.com/admin/saas_full_order/set_extra_ci_minutes) tab. </summary>
+
+The form has two required fields:
+
+- Namespace: The customer namespace as it appears in the URL. (for example: gitlab-silver)
+- Extra minutes: The value of compute minutes. (Note: This will **set** the Additional unit to the provided number so please note the namespace existing state of Additional units before making the change.)
+
+</details>
+
+## Adding storage
+
+<details>
+<summary>Using the Cdot [Namespace controls SaaS / Set additional storage](https://customers.gitlab.com/admin/saas_full_order/add_storage) tab. </summary>
+
+The form has two required fields:
+
+- Namespace: The customer namespace as it appears in the URL. (for example: gitlab-silver)
+- Extra storage (MiB): Additional space to add in MB (GB * 1024, for example: 10 GB = 10240)
+
+</details>
+
+Adding storage using this tool should be used as a temporary solution. Please create an [Internal Request / Repo size change](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=Repo%2520Size%2520Limit%2520Change#) to remove the storage once a permanent solution is in place. Please verify the amount the namespace should have and the actual amount on the namespace before actually reverting the change.
 
 ### Process for authorising additional compute minutes for customers as an act of goodwill
 
@@ -84,7 +108,7 @@ To transfer compute minutes from a user's personal namespace to a group namespac
 Qualifying requirements:
 
 1. Requester has [filed an internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) or ZenDesk ticket to track request.
-1. Request is approved or created by a [Community Relations](/handbook/marketing/developer-relations/#-meet-the-team) or [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members) team member.
+1. Request is approved or created by a [Community Relations](/handbook/marketing/developer-relations/#i-classfas-fa-users-fa-fw-color-orange-font-awesomei-meet-the-team) or [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members) team member.
 1. GitLab.com admin account
 
 Once verified, use the following steps:
