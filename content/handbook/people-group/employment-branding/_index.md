@@ -262,7 +262,7 @@ Our decision-making process involves a comprehensive assessment of potential par
 **Location and Accessibility**
 
 - If this is related to an event, is the location viable for GitLab to attend?
-- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](https://handbook.gitlab.com/handbook/people-policies/#entity-specific-employment-policies).
+- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](/handbook.gitlab.com/handbook/people-policies/#entity-specific-employment-policies).
 - If this is related to an event, does the location provide an opportunity for GitLab to perform other business-related activities?
 - Does this partnership share clear ways that their space is accessible?
 - Is there a virtual option?
