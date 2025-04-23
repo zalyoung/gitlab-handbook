@@ -188,7 +188,7 @@ Project leads should strive to implement dogfooding during the final testing pha
 
 ### Talking With Customers
 
-In a perfect world, we would have cross-functional representation in every conversation we have with customers.
+We aim to have cross-functional representation in every conversation we have with customers.
 
 #### Customer Conversations calendar
 
