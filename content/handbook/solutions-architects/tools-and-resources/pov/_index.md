@@ -372,7 +372,7 @@ For existing customers there are two options for getting the POV template into t
 
 ## POV Trials
 
-PoV usually require a license activation. Instructions for handling trials, extensions and plan changes on GitLab.com [here](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change/). 
+PoV usually require a license activation. Instructions for handling trials, extensions and plan changes on GitLab.com [here](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change). 
 
 ## POV Resources
 
