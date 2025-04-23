@@ -163,6 +163,7 @@ Delivery docs and technical guidance for your GitLab practice engineers
   - Review the rest of the assets on the Getting Started with GitLab page.
 - [Using GitLab Tutorials](https://docs.gitlab.com/ee/tutorials/) (GitLab Docs)
   - These video and web page tutorials are included in the GitLab Docs site.  They are a great starting point for learning or deploying technical capabilities.
+- [Value Stream Management for GitLab Partners](https://partners.gitlab.com/prm/English/s/assets?id=634200&renderMode=Collection) Login to the [GitLab Partner Portal](https://partners.gitlab.com/) first.
 
 ### GitLab Channel Service Packages
 
