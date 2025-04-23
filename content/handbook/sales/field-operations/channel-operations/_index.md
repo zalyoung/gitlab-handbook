@@ -949,13 +949,21 @@ The GitLab Ecosystem Operations team is responsible for compiling the reports ou
 
 ## Ecosystem Forecast Salesforce Dashboards
 
-The following partner forecast dashboards have been published for FY25. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
+The following partner forecast dashboards have been published for FY26. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
 
-- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001JF612AG/view?queryScope=userFolders)
-- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KUHV2A4/view)
-- [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001Jwir2AC/view?queryScope=userFolders)
-- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KZlp2AG/view)
-- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KNG12AO/view?queryScope=userFolders)
+**Ecosystem Operating Dashboards:**
+- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DNLp2AO/view?queryScope=userFolders)
+- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DzXZ2A0/view?queryScope=userFolders)
+- [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002EQ9Z2AW/view)
+- [EMEA](https://gitlab.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJkZXNrdG9wRGFzaGJvYXJkczpkYXNoYm9hcmQiLCJhdHRyaWJ1dGVzIjp7ImRhc2hib2FyZElkIjoiMDFaUEwwMDAwMDJFUUJCMkE0IiwiZGlzcGxheU1vZGUiOiJlZGl0In0sInN0YXRlIjp7fX0%3D)
+- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002Esyf2AC/view?queryScope=userFolders)
+
+**Ecosystem MBO Dashboards:**
+- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000020rBF2AY/view?queryScope=userFolders)
+- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026oVd2AI/view?queryScope=userFolders)
+- [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026iy52AA/view?queryScope=userFolders)
+- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026rA92AI/view?queryScope=userFolders)
+- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026mdV2AQ/view?queryScope=userFolders)
 
 ## Alliances and OEMs
 
