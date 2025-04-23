@@ -1,3 +1,7 @@
+---
+title: GitLab Partners Content Categorisation & Governance
+---
+
 # GitLab Partners Content Categorisation & Governance
 
 This document outlines the comprehensive content categorisation framework and governance model for GitLab Partners content management in HighSpot.
@@ -310,4 +314,3 @@ This section provides examples of properly categorised content to serve as a ref
 **Description**: "GitLab Enterprise Agile Planning Workshop Materials"
 
 ---
-
