@@ -4,6 +4,12 @@ description: Operations documentation page for Zendesk satisfaction surveys
 canonical_path: "/handbook/security/customer-support-operations/docs/zendesk/ssat"
 ---
 
+{{% alert title="Note" color="danger" %}}
+
+Note that as of 2025-05-01, we are no longer using Zendesk satisfaction surveys. We have switched to using [CES Surveys](./ces)
+
+{{% /alert %}}
+
 {{% alert title="Note" color="primary" %}}
 
 This is an informational page for the Zendesk satisfaction surveys. It may not reflect the way we actually manage Zendesk satisfaction surveys.
