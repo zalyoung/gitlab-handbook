@@ -1,10 +1,10 @@
 ---
 title: "Utilize bundle-uri to reduce Gitaly CPU load"
-status: proposed
+status: ongoing
 creation-date: "2023-08-04"
 authors: [ "@toon" ]
 coach: ""
-approvers: [ "@mjwood", "@jcaigitlab" ]
+dris: [ "@oli.campeau" ]
 owning-stage: "~devops::systems"
 participating-stages: []
 toc_hide: true
