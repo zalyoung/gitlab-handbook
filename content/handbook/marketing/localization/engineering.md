@@ -3,14 +3,13 @@ title: Localization Engineering
 description: Technical details of GitLab's localization infrastructure and engineering processes.
 ---
 
-# Localization Engineering
-
 Technical overview of GitLab's localization infrastructure and engineering processes across documentation and product interfaces. Includes translation environments, branch management, development workflows, and preview systems for internationalized content.
 
 ## Internationalized Documentation - docs.gitlab.com
 
 The GitLab docs site is beeing enabled for internationalization, with initial support for Japanese translations.
 https://docs.gitlab.com/ja-jp/
+
 ### Translation content sources
 
 Translated content for https://docs.gitlab.com is pulled from separate `/doc-locale/` directories in the following repositories:
