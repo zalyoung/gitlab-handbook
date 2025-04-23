@@ -248,8 +248,8 @@ The Technical Writing team gets assistance with the `docs-gitlab-com` project fr
 
 | Subject          | Person |
 |:-----------------|:-------|
-| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie), [David O'Regan](https://gitlab.com/oregand) |
-| Frontend reviews | [Paul Gascou-Vaillancourt](https://gitlab.com/pgascouvaillancourt), [Lukas 'Eipi' Eipert](https://gitlab.com/leipert), [David O'Regan](https://gitlab.com/oregand) |
+| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie), |
+| Frontend reviews | [Paul Gascou-Vaillancourt](https://gitlab.com/pgascouvaillancourt) |
 | Support          | [Mike Lockhart](https://gitlab.com/mlockhart) |
 
 <!-- vale handbook.Spelling = YES -->
