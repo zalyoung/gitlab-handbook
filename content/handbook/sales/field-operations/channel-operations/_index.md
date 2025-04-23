@@ -702,6 +702,8 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - **`Pending`**: Additional information or documentation is needed. Ecosystem Operations will leave the registration in `Pending` status and work with the partner to obtain required documentation.
     - **`Pending Opportunity Closure`**: The partner's SOW (i) has been submitted and (ii) meets [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work), but the related software opportunity is not yet closed-won
     - **`Approved`**: (i) The SOW has been submitted and approved, (ii) the opportunity has been closed-won, and (iii) all other [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) have been met
+    - **`Accepted`**: Qualifies for PSP, but not for rebate. Paid service engagement with a SOW signed and submitted within 12 months of registration submission and closed-won Net ARR opportunity.
+    - **`Unqualified`**: Does not qualify for PSP or rebate. 
     - **`Denied`**: The registration and/or SOW do not qualify for Service Attached program as defined by the [GitLab Partner Program](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work)
     - **`Closed`**: If the opportunity has moved to Closed-Lost or if the partner or ESM communicates the partner did not win the services business
 
