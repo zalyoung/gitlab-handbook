@@ -84,13 +84,11 @@ The `error_monitorings` table uses [Single Table Inheritance (STI)](https://mart
 
 Currently, we are using two types: 'RevenueImpact' and 'SalesforceErrors', both of which inherit from the base ErrorMonitoring model.
 
-We are tagging error messages with `fulfillment_job_monitoring` to store the   Revenue Impact errors within the codebase and using GCloud to look up and resolve them individually.
+We are tagging error messages with `fulfillment_job_monitoring` to store the Revenue Impact errors within the codebase and using GCloud to look up and resolve them individually.
 
 We are tagging salesforce error messages with `salesforce_error_monitoring` to store the errors related to Salesforce within the codebase.
 
-Errors will continue to be addressed individually. As soon as an error is encountered, we will send an immediate notification to the designated Slack channel, probably through the background job, to ensure timely resolution.
-
-Right now, most of the errors being tagged are considered noise. In the future, once the error list is addressed, unnecessary noise will be filtered out and not saved in the database.
+Errors will continue to be addressed individually. As soon as an error is encountered, we send an immediate notification to the designated Slack channel, through the background job, to ensure timely resolution.
 
 #### Error states
 
