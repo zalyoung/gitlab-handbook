@@ -153,18 +153,19 @@ Rebates for approved Service Attached Registrations are paid out no later than 4
 
 Service Attached Registrations that do not qualify for approval for the rebate per the terms noted above will still be considered for [PSP Delivery Requirements](/handbook/resellers/channel-program-guide/#delivery-requirements) per the Qualification Category - Accepted.
 
-##### Accepted - Qualifies for PSP
+#### Accepted - Qualifies for PSP
+
 - Paid service engagement with a SOW signed and submitted within 12 months of registration submission and closed-won Net ARR opportunity
 - Free of charge, partner-led services that show proof of execution, such as assessments
 - Closed-won managed/hosted service deal registrations (with software sold to / owned by the partner) 
 
-##### Unqualified - Does not qualify for Rebate or PSP 
+#### Unqualified - Does not qualify for Rebate or PSP 
+
 - Services that are not directly related to GitLab
 - Engagements without a related license opportunity in Salesforce
 - Services for GitLab CE customers without a pending upgrade opportunity
 - GitLab PS subcontracting engagements
 - Education/Training services
-
 
 ##### Quote to Order
 
