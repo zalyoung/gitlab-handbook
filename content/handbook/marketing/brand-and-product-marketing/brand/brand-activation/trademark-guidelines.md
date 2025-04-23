@@ -21,7 +21,7 @@ Use of the Logos is not permitted under these Guidelines, except for the limited
 - The GitLab Name is not used as the first word;
 - Only the phrases, "...for GitLab", or "GitLab Compatible" are used;
 - The following statement is included in the overview section of the marketplace listing:
-  - "This [plugin/extension] is not affiliated, endorsed, sponsored or approved with or by GitLab Inc."
+  - "This [plugin/extension] is not affiliated, endorsed, sponsored, or approved with or by GitLab Inc."
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.1.3. To refer to GitLab Inc. and its products and services in news articles and other text without alteration, e.g. `GitLab acquires open source observability distribution Opstrace`;
 
