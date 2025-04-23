@@ -132,7 +132,8 @@ Service Attached Registrations are submitted via the Partner Portal as a deal re
 
 ### Qualification Categories 
 
-**Approved** - Qualifies for Rebate and PSP 
+**Approved** - Qualifies for Rebate and PSP
+
 The following criteria must be met for a Service Attached Registration to be approved and for a partner to receive a rebate:
 
 - Completion of the associated software opportunity (i.e., closed-won)
@@ -144,7 +145,7 @@ The following criteria must be met for a Service Attached Registration to be app
     - be signed and submitted within 6 months after opportunity closure
       - Note: If the SOW is unable to be signed, it can be considered with an accompanying proof of execution, such as a PO, signed order form, or customer email confirmation of the service engagement
     - be dated (i.e., customer signature) within 6 months of submission
-  - Each SOW can only be applied to one Service Attached Registration (i.e., one SOW cannot be used for multiple registrations).  However, exceptions PSP Delivery Requirements, asmay be considered on a case-by-case basis for multi-phase projects that drive an add-on or upsell opportunity.
+  - Each SOW can only be applied to one Service Attached Registration (i.e., one SOW cannot be used for multiple registrations).  However, exceptions may be considered on a case-by-case basis for multi-phase projects that drive an add-on or upsell opportunity.
 - Scope of services
   - _In Scope_:  Implementation, Integration, Optimization, Migration, Managed/hosted services (with software sold to / owned by end customer), Security/Compliance, Adoption, Assessment, Transformation, Application Development, DevSecOps AI, Support and/or Success Services
   - _Out of Scope_: Education/Training, Subcontracted services, Free-of-charge services, Managed/hosted services (with software sold to / owned by the partner)
