@@ -24,8 +24,6 @@ At GitLab, our mission is simple: to enable everyone to contribute to and co-cre
 Here, you’re not just contributing to a tool, you’re shaping the future of secure, scalable software delivery. Our high-performance culture values collaboration, ownership, and impact, accelerating careers while driving global innovation.
 This is more than a job, it’s your opportunity to build something that matters.
 
-Here's a look at what you can expect from our culture and [all-remote environment](all-remote/guide/).
-
 ### Everyone can contribute
 
 Our size and [our mission](/handbook/company/mission/#mission) (enable everyone to contribute to and co-create the software that powers our world.) mean that our team members can — and are expected to — make an impact across the company.
@@ -50,10 +48,7 @@ Working this way means our team members are expected to quickly deliver the mini
 While this can be a challenging practice to adopt at first, it's liberating to be able to make mistakes, get feedback quickly, and course correct to reach a better outcome, faster.
 
 As our company and the industry continue to grow, you'll have the freedom to change and constantly evolve everything from your schedule and your workspace to your job description and your skills.
-
-
 ## Culture at GitLab
-
 Culture at GitLab is composed of three things.
 
 1. [GitLab Values](/handbook/values/)
@@ -62,7 +57,6 @@ Culture at GitLab is composed of three things.
 
 
 ## Other pages related to culture
-
 1. [Internal Feedback](/handbook/company/culture/internal-feedback/)
 1. [Diversity, Inclusion and Belonging](inclusion/)
 1. [Talent Brand](https://handbook.gitlab.com/handbook/people-group/employment-branding/)
