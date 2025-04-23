@@ -190,10 +190,12 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 12. **Refer to available examples** – Review [existing product tours](#product-tours) to understand the preferred format.
 13. Before releasing any public facing product tour, request a review from the DA team.
 
-### Requesting Access to Navattic  
+### Requesting Access to Navattic 
+
+If your team has special requirements for tours and you want to develop tours with Navattic yourself, we can help.
 
 - We can offer a **3-month trial license** to team members who request access and provide a **valid business justification** for using Navattic.  
-- If a user actively utilizes the tool, we may **extend their access** or purchase additional licenses as needed.  
+- If a user actively utilizes the tool, we may **extend their access** or consider purchase additional licenses as needed.  
 - If a user is not actively using the tool, their license may be **reassigned** to another team member.  
 - To request access, open an [issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=other-activities) 
 
