@@ -82,11 +82,11 @@ The `error_monitorings` table is designed to store meaningful errors that are va
 
 The `error_monitorings` table uses [Single Table Inheritance (STI)](https://martinfowler.com/eaaCatalog/singleTableInheritance.html) to store different types of errors. In Rails, the type column enables this STI pattern, allowing multiple error types to be stored in the same table.
 
-Currently, we are using two types: 'RevenueImpact' and 'SalesforceErrors', both of which inherit from the base ErrorMonitoring model.
+Currently, we are using two types: 'RevenueImpact' and 'SalesforceErrors', both of which inherit from the base `ErrorMonitoring` model.
 
 We are tagging error messages with `fulfillment_job_monitoring` to store the Revenue Impact errors within the codebase and using GCloud to look up and resolve them individually.
 
-We are tagging salesforce error messages with `salesforce_error_monitoring` to store the errors related to Salesforce within the codebase.
+We are tagging Salesforce error messages with `salesforce_error_monitoring` to store the errors related to Salesforce within the codebase.
 
 Errors will continue to be addressed individually. As soon as an error is encountered, we send an immediate notification to the designated Slack channel, through the background job, to ensure timely resolution.
 
