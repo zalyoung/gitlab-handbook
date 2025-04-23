@@ -266,11 +266,11 @@ Our decision-making process involves a comprehensive assessment of potential par
 - If this is related to an event, does the location provide an opportunity for GitLab to perform other business-related activities?
 - Does this partnership share clear ways that their space is accessible?
 - Is there a virtual option?
-- Do our talent insights provide data around the location having a diverse population [gender, ethnicity, etc.]
+- Do our talent insights provide data around the location having a diverse population (gender, ethnicity, etc.)
 
 **Brand Value**
 
-- Will this opportunity offer GitLab exposure and/or the ability to promote careers via a speaking engagement[s], social media presence, or likewise?
+- Will this opportunity offer GitLab exposure and/or the ability to promote careers via a speaking engagement(s), social media presence, or likewise?
 
 **Previous GitLab Engagement + Feedback**
 
