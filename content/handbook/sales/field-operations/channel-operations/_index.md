@@ -952,6 +952,7 @@ The GitLab Ecosystem Operations team is responsible for compiling the reports ou
 The following Ecosystem forecast dashboards have been published for FY26. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
 
 **Ecosystem Operating Dashboards:**
+
 - [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DNLp2AO/view?queryScope=userFolders)
 - [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DzXZ2A0/view?queryScope=userFolders)
 - [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002EQ9Z2AW/view)
@@ -959,6 +960,7 @@ The following Ecosystem forecast dashboards have been published for FY26. Please
 - [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002Esyf2AC/view?queryScope=userFolders)
 
 **Ecosystem MBO Dashboards:**
+
 - [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000020rBF2AY/view?queryScope=userFolders)
 - [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026oVd2AI/view?queryScope=userFolders)
 - [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026iy52AA/view?queryScope=userFolders)
