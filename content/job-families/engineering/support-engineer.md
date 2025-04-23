@@ -127,7 +127,7 @@ closely in order to deliver a significantly enhanced support experience.
 - Build, nurture and lead the relationship between Support and up to 4 assigned
   accounts
 - Balance time between accounts to ensure that, on average, each account receives the amount of service for which they contracted
-- Be available during accounts' business hours (or arrange temporary cover when not available)
+- Be available during accounts' business hours and arrange temporary cover when not available
 - Work closely with the [Sales](/handbook/sales) and
   [Customer Success](/handbook/customer-success) Teams to coordinate work and
   communications with each account so that it is clear to them that GitLab is one team
