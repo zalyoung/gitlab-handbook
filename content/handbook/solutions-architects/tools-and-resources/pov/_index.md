@@ -370,6 +370,10 @@ For existing customers there are two options for getting the POV template into t
       `git push origin`
 1. View the new wiki in the new customer success collaboration project to ensure it is there and continue making any other edits in the wiki web editor (or on the local machine).
 
+## POV Trials
+
+PoV usually require a license activation. Instructions for handling trials, extensions and plan changes on GitLab.com [here](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change/). 
+
 ## POV Resources
 
 Below is an evolving list of projects that have proven beneficial during POVs, which may be a great starting point to offer customers.
