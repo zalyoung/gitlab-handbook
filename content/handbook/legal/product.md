@@ -71,7 +71,7 @@ Alternatively, if looking for information on contributing to GitLab see [here](h
 
 ## Authorship Criteria
 
-GitLab has established guidance to aid with determining authorship of academic papers developed at GitLab. This guidance is accessible to team membery only [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/productguidance/#authorship-criteria)
+GitLab has established guidance to aid with determining authorship of academic papers developed at GitLab. This guidance is accessible to team members only [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/productguidance/#authorship-criteria)
 
 ## GPL Cooperation Commitment
 
