@@ -955,7 +955,7 @@ The following partner forecast dashboards have been published for FY26. Please u
 - [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DNLp2AO/view?queryScope=userFolders)
 - [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DzXZ2A0/view?queryScope=userFolders)
 - [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002EQ9Z2AW/view)
-- [EMEA](https://gitlab.lightning.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJkZXNrdG9wRGFzaGJvYXJkczpkYXNoYm9hcmQiLCJhdHRyaWJ1dGVzIjp7ImRhc2hib2FyZElkIjoiMDFaUEwwMDAwMDJFUUJCMkE0IiwiZGlzcGxheU1vZGUiOiJlZGl0In0sInN0YXRlIjp7fX0%3D)
+- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002EQBB2A4/view)
 - [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002Esyf2AC/view?queryScope=userFolders)
 
 **Ecosystem MBO Dashboards:**
