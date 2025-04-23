@@ -53,7 +53,7 @@ We currently send out CES surveys on tickets that have been in the solved state 
 
 ### CES Processor
 
-This takes information sent by Zapier and processes it. It then checks the informaiton against the ticket itself to determine if the request is valid. It currently checks:
+This takes information sent by Zapier and processes it. It then checks the information against the ticket itself to determine if the request is valid. It currently checks:
 
 - The ticket ID is present
 - The ticket itself exists
@@ -69,7 +69,7 @@ If no validation checks have failed, it will then do the following:
 - Add the CES score to the ticket
 - Add an entry to a google spreadsheet (as a backup)
 
-The location of the the project is [here](https://gitlab.com/gitlab-support-readiness/processors/ces-processor)
+The location of the project is [here](https://gitlab.com/gitlab-support-readiness/processors/ces-processor)
 
 ### CES Survey Form
 
@@ -98,4 +98,4 @@ These are used to create feedback issues for Support.
 
 ### Zapier
 
-This is used to receive submissions from the CES Survey and send them to the CES Processor
+This is used to receive submissions from the CES Survey and send them to the CES Processor.
