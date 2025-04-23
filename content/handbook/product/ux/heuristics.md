@@ -31,6 +31,7 @@ This list can change and the handbook version is the SSOT. It's based on best pr
 | Onboarding | Tasks are easy to learn, or if highly complex, have setup support in the form of in-app guidance, defaults, templates or wizards. | Tasks should be intuitive first and foremost, and when they are complex, they must provide tools to enable learning. |
 
 ### AI Heuristics (for probablistic features)
+
 [Credit to Emily Campbell at the Shape of AI](https://www.linkedin.com/pulse/my-emerging-heuristics-assessing-ai-design-emily-campbell-f2zqc/)
 
 | Category | Heuristic | Description |
@@ -39,7 +40,7 @@ This list can change and the handbook version is the SSOT. It's based on best pr
 | Usability | Input Clarity and Ease | Users understand how to initiate an interaction and can communicate their intent.|
 | Usability | Context | Users can understand what context and information the AI has available to it. Users can add additional context that fits the task. |
 | Performance | Result Quality | Results are accurate, relevant and helpful. Output is readable and visually appealing. |
-| Transparency | Transparency of Results	| Users can understand why they got the answer they did. Sources are identified and linked as appropriate. |
+| Transparency | Transparency of Results | Users can understand why they got the answer they did. Sources are identified and linked as appropriate. |
 | Usability | Customization and Tunability | Users can fine-tune their inputs to easily generate outputs that match their specific needs and expectations.|
 | Performance | Branching and Recall | The AI maintains conversational context throughout or across interactions, allowing users to explore different paths and easily return to the main thread. |
 | Usability | User Autonomy and Control | Users maintain control over the AI through mechanisms that let them guide, direct, and control the interaction. When the interaction is complete, users can use the results elsewhere. |
@@ -47,7 +48,6 @@ This list can change and the handbook version is the SSOT. It's based on best pr
 | Transparency | Ethical Integrity and Trustworthiness | The AI adheres to ethical standards, minimizes bias, protects privacy, and ensures transparency to foster user trust. Risks to the user are managed appropriately. |
 | Transparency | Identification and Honesty | Users can distinguish AI inputs and outputs from human-generated content. The AI is honest and transparent about its capabilities and constraints. |
 | Performance | Continuous Learning | The AI continuously improves, learning from user feedback and data to enhance its functionality. |
-
 
 ## Scoring
 
