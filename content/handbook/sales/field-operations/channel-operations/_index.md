@@ -947,9 +947,9 @@ The GitLab Ecosystem Operations team is responsible for compiling the reports ou
   - Number of accreditations
   - Pipeline generated
 
-## Ecosystem Forecast Salesforce Dashboards
+## Ecosystem Forecast and MBO Salesforce Dashboards
 
-The following partner forecast dashboards have been published for FY26. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
+The following Ecosystem forecast dashboards have been published for FY26. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
 
 **Ecosystem Operating Dashboards:**
 - [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DNLp2AO/view?queryScope=userFolders)
