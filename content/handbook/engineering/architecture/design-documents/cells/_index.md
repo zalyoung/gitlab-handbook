@@ -115,8 +115,24 @@ Not directly, our goal is to keep them isolated and only communicate using globa
 ### How are Cells provisioned?
 
 The GitLab.com cluster of Cells will use GitLab Dedicated tooling to create instances.
-Once this instance gets provisioned it could join the GitLab.com cluster and become a Cell.
-One requirement will be that the instance does not contain any prior data.
+That's why Cells are referred to by Tenants in some projects.
+Once any Cell instance gets provisioned it could join the GitLab.com cluster and become a Cell.
+One requirement will be that the instance does not contain any prior data. One of the reasons
+is that Cells save data with custom primary key ranges that they pull from the Topology
+Service.
+
+![cells-deployment](/images/cells/cells-deployment.png)
+
+The list of Cells are managed in [the tissue](https://gitlab.com/gitlab-com/gl-infra/cells/tissue/-/tree/main/rings?ref_type=heads)
+project, where we manage all the Cells for both `dev` and `prod` environments
+in the directory `rings`.
+
+Each cells configuration, is validated against [tenant-model-schema](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/tenant-model-schema)
+which is already used for GitLab dedicated tenants as well.
+
+[The instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) pulls the Cells configuration
+and deploys them using Helm (Kubernetes) which is one of the [GitLab installation methods](https://docs.gitlab.com/install/install_methods/).
+We also use Helm (Kubernetes) to install GitLab
 
 To reach shared resources, Cells will use [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect).
 
