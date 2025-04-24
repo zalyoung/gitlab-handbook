@@ -240,3 +240,5 @@ Cons:
 - Requires extensive event system development to make sure every change is reflected in the notifications table
 
 ## Architectural Decision Record
+
+Database proposal: [link](adr/001_database_schema.md)
