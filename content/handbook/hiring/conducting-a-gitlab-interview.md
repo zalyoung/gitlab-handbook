@@ -100,11 +100,11 @@ The section below outlines questions and topics that are not allowed to be discu
 1. Examples of illegal interview questions include inquiries about marital status, age or any other protected characteristic.
 1. Avoid discussing compensation, equity, country hiring guidelines, availability or confidential company information during the interview. These topics should be redirected to the Recruiter to discuss with the candidate.
 
-### North Korean (DPRK) Threat Awareness for Interviewers
+### Security Awareness for Interviewers
 
 #### Understanding the Concern
 
-We've identified an increased risk from North Korean (DPRK) nation-state actors attempting to gain employment under false identities. These individuals pose a significant security threat to GitLab as they may:
+We've identified increased risks from malicious actors attempting to gain employment under false identities. These individuals pose a significant security threat to GitLab as they may:
 
 - Attempt to access sensitive company information
 - Engage in extortion if discovered
@@ -112,13 +112,24 @@ We've identified an increased risk from North Korean (DPRK) nation-state actors 
 
 #### What We're Doing About It
 
-Our Talent Acquisition team is partnering with Security to address this threat through a historical candidate review as well as website-level application filtering to block applicants from a known threat list.
+Our Talent Acquisition team is partnering with Security to address these threats through:
+
+##### 1. Historical Candidate Review
+
+- Security is analyzing applicant data from 2023 onward
+- Checking names, email addresses, and phone numbers against known threat indicators
+
+##### 2. Preventative Measures
+
+- Working with the Digital Experience team to implement website-level filtering
+- Creating spam logic to block submissions from suspicious email addresses and IP addresses
 
 #### Your Role as an Interviewer
 
 All interviews following a recruiter screen should take place on camera for both the candidate and interviewer. If the candidate is unable to use their camera because of technical issues, please indicate this in your interview notes. Seeing candidates on camera helps identify challenging interview situations, such as AI Deepfake avatars and multiple users interviewing as one candidate. If you have concerns about filters and odd behavior during an interview, please take a screenshot to send to the recruiter for reference who will then compare to other sources, such as LinkedIn or their recruiter screen. Trust your instincts- if something feels off or out of place, let your Talent Acquisition partner know.
 
 ##### What to Watch For:
+
 - Candidates who refuse to turn on their camera without reasonable explanation
 - Visual glitches that might suggest deepfake technology
 - Multiple voices or people appearing to coach the candidate
@@ -126,6 +137,7 @@ All interviews following a recruiter screen should take place on camera for both
 - Reluctance to discuss background details that were in their application
 
 ##### How to Respond:
+
 1. Complete the interview professionally
 2. Document your concerns in detail in your interview notes
 3. Notify your Talent Acquisition partner immediately
