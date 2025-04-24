@@ -39,6 +39,7 @@ The primary consideration for escalation is actual or potential customer impact,
 ### Complexity Factors
 
 Tier-1 may escalate when:
+
 - The incident involves components or services where documentation is insufficient
 - Multiple teams or systems are involved, requiring coordination with domain experts
 - The incident resolution requires changes that only the Tier-2 SME has knowledge to make
