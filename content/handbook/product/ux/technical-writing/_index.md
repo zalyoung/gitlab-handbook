@@ -248,7 +248,7 @@ The Technical Writing team gets assistance with the `docs-gitlab-com` project fr
 
 | Subject          | Person |
 |:-----------------|:-------|
-| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie), |
+| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie) |
 | Frontend reviews | [Paul Gascou-Vaillancourt](https://gitlab.com/pgascouvaillancourt) |
 | Support          | [Mike Lockhart](https://gitlab.com/mlockhart) |
 
