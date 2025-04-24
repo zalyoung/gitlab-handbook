@@ -46,7 +46,7 @@ Each sub-team has the following ceremonies. They can be at a cadence that makes 
 
 ## Analytics Engineering Processes
 
-- Triage follows the Enterprise Data Team [Triage Process](/handbook/enterprise-data/how-we-work/triage/#triage-responsibilities). This is the primary intake process for P1-Ops issues.
+- Triage follows the Enterprise Data Team Triage Process. This is the primary intake process for P1-Ops issues.
 
 ## Analytics Engineering Leadership Roles
 
