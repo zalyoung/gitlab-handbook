@@ -13,7 +13,7 @@ For content for positioning the value of the tiers, how to price/quote the tiers
 
 ### Overview
 
-Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support.   We achieve this by bundling an [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/), [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/)/[Customer Success Manager (CSM)](https://handbook.gitlab.com/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm-at-gitlab) and Education services into a single SKU as an annual renewable service.
+Our Success Tiers drive adoption and value realization of GitLab products whilst providing customers with Best Practices and a higher tier of White Glove support.   We achieve this by bundling an [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/), [Customer Success Architect (CSA)](/job-families/sales/customer-success-architect/)/[Customer Success Manager (CSM)](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm-at-gitlab) and Education services into a single SKU as an annual renewable service.
 
 The [Assigned Support Engineer (ASE)](/handbook/support/assigned-support-engineer/) is the primary point of contact for their customers and will  triage any support ticket logged by that customer.  Over time, because of this consistent resourcing, the knowledge of the customer's needs, environment and architecture results in faster resolution times to the most common logged issues.
 
@@ -50,7 +50,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 1. Internal Kick-off Call
    1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.
    2. The purpose of this call is to discuss the customer objectives between the account team and the CSM/A, which should identified prior to the Order Form being signed.
-      *  Account Context & Technical Documentation Template
+      * Account Context & Technical Documentation Template
          1. The Template helps standardize the documentation of critical customer information, technical configurations, stakeholders, and strategic objectives gathered during account onboarding to ensure consistent knowledge capture and enable effective handoffs between CS team members.
          2. Utilize [this internal template](https://docs.google.com/document/d/1uIcF7sBN84vyyfzikmMm_GrDgcjOyhB8SVkkWYque78/edit?usp=sharing) and customize to your customer's needs
             * Tip: you can organize a playback/walkthrough meeting with your account team (SA, CS) to validate your understanding prior to the kick-off call
@@ -78,7 +78,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 #### CSM Processes
 
-See [High-Level Responsibilities of a CSM](https://handbook.gitlab.com/handbook/customer-success/csm/#high-level-responsibilities-of-a-csm)
+See [High-Level Responsibilities of a CSM](handbook/customer-success/csm/#high-level-responsibilities-of-a-csm)
 
 #### CSA Processes
 
