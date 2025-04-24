@@ -109,6 +109,7 @@ The [GitLab team handbook](/) is the central repository for how we run the compa
 - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Infrastucture Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
 - [Security Operational Risk Management (StORM) Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/)
+- [AI Policy](tbd)
 
 GitLab has a dedicated Security Compliance team responsible for monitoring design and effectiveness of the [GitLab common control framework](/handbook/security/security-assurance/security-compliance/sec-controls/) to ensure GitLab's security objectives are thoughtfully planned, implemented and monitored.
 
