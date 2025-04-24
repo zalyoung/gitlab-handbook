@@ -61,8 +61,9 @@ This ISMS governs GitLab security operations. Interested parties include:
 | Security Assurance | Reporting on the performance of the information security management system to top management; security risk assessments and treatment; continuous monitoring and auditing; customer assurance activities; security awareness program; security governance activities |
 | Product Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks; infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
 | Security Operations | Monitor, manage and report on security incidents; monitor compliance with security policies through technical tools; identify security risks; monitor and respond to abuse of SaaS subscriptions |
-| Threat Management | Manage identity and access management, role based access control, admin access |
+| Corporate Security | Manage identity and access management, role based access control, admin access |
 | Duo Product Management| Monitor performance of AI system; maintain AI system; identify AI risks; evaluation of the performance of AI model providers |
+| Legal| Responsible for AI governance; third-party contracts; privacy reviews|
 | Other ISMS Business units | Implement, operate and/or administer information security requirements; remediate information security findings; collaborate with the Security department |
 | All GitLab Team Members | Awareness of responsibilities as it relates to information security; adherence to information security controlled documents; reporting of suspected security violations |
 
@@ -107,13 +108,13 @@ The [GitLab team handbook](/) is the central repository for how we run the compa
 - [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/)
 - [Security Policies](/handbook/security/security-and-technology-policies/security-and-technology-policies-management/)
 - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
-- [Infrastucture Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
+- [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
 - [Security Operational Risk Management (StORM) Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/)
-- [AI Policy](tbd)
+- [AI Policy]
 
 GitLab has a dedicated Security Compliance team responsible for monitoring design and effectiveness of the [GitLab common control framework](/handbook/security/security-assurance/security-compliance/sec-controls/) to ensure GitLab's security objectives are thoughtfully planned, implemented and monitored.
 
-If using a third party service to outsource or supplement security processes, a [third party risk assessment](/handbook/security/security-assurance/security-risk/third-party-risk-management/) is executed prior to onboarding. Critical vendors are also reviewed once per calendar year after onboarding, or at contract renewal if it comes first.
+If using a third-party service to outsource or supplement security processes, a [third party risk assessment](/handbook/security/security-assurance/security-risk/third-party-risk-management/) is executed prior to onboarding. Critical vendors are also reviewed once per calendar year after onboarding, or at contract renewal if it comes first.
 
 ### Performance
 
