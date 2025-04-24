@@ -564,6 +564,14 @@ This section documents key architectural and implementation decisions made durin
    with a default open status.
 1. We'll always add status data regardless of license to eliminate the need for additional data migrations during tier changes.
 1. We will be implementing work item [status badge and filters in legacy issues list and epic work item list](https://gitlab.com/gitlab-org/gitlab/-/work_items/508015#note_2461199237). We will not be supporting legacy epics list.
+1. Once a namespace uses custom statuses, [there's no way back to system-defined statuses](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/187267#note_2451249170).
+1. When the default open/closed/duplicate status of a lifecycle is changed, [it only affects new transitions and new item creations](https://gitlab.com/gitlab-org/gitlab/-/issues/498394#note_2450687886).
+1. [We decided on limits](https://gitlab.com/groups/gitlab-org/-/epics/17321#note_2451571648): max. `70` statuses and
+   `50` lifecycles per namespace and `30` statuses per lifecycle.
+1. We'll [set default open/closed statuses for all items of supported work item types](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/187686#note_2456571060)
+   regardless of feature flag state and license.
+1. We'll [show the default open status as a preselected value on the work item create form](https://gitlab.com/gitlab-org/gitlab/-/issues/526531#note_2457132393).
+1. [We won't implement status on the legacy epic list](https://gitlab.slack.com/archives/C08DMJWCPEG/p1745338731609409?thread_ts=1745297729.087019&cid=C08DMJWCPEG).
 
 ## Resources
 
