@@ -92,7 +92,7 @@ It is expected that Product Security Engineering team members will do refinement
 - Setting aside a specific amount of time per week on the calendar to perform refinement
 - Refining issues in-between major context switches, for example after submitting a merge request for review but before picking up the next piece of work
 
-#### Labels
+#### Refinement Labels
 
 | Label | Description |
 |-------|-------------|
