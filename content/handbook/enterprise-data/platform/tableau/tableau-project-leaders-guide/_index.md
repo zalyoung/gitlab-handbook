@@ -10,6 +10,7 @@ Project Leaders collaborate with developers to manage content in Production, whe
 ---
 
 ### **Project Leader Training**
+
 Department staff interested in becoming Project Leaders must complete the [Tableau Project Lead Review & Responsibilities Training](https://drive.google.com/file/d/1LXPPyIwJ5k4MFsRfEY33nYVmWbuwDB30/view?usp=drive_link).
 
 ---
