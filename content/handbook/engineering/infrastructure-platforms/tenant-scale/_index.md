@@ -10,14 +10,7 @@ The Tenant Scale group is working towards a horizontally scalable, fault-toleran
 
 ### Group Leads
 
-| Name | Role |
-| ---- | ---- |
-| Gerardo Lopez-Fernandez | Engineering Fellow |
-| Kamil Trzciński | Senior Distinguished Engineer |
-| Steve Xuereb | Staff Site Reliability Engineer |
-| Thong Kuah | Principal Engineer |
-| Rémy Coutable | Principal Engineer |
-| Nick Nguyen | Senior Engineering Manager |
+{{< member-and-role-by-gitlab "glopezfernandez" "ayufan" "sxuereb" "tkuah" "rymai" "nhxnguyen" >}}
 
 ### Geo
 
@@ -25,7 +18,7 @@ The Tenant Scale group is working towards a horizontally scalable, fault-toleran
 
 ### Organizations
 
-{{< team-by-manager-slug manager="nick-nguyen" team="Organizations" >}}
+{{< team-by-manager-slug manager="mandrewsgl" team="Organizations" >}}
 
 ### Cells Infrastructure
 

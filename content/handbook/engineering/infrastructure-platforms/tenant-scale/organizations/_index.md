@@ -33,9 +33,9 @@ The executive summary goals for the Organizations group include:
 
 ### Team Members
 
-The following people are permanent members of the Tenant Scale group:
+The following people are permanent members of the Organizations group:
 
-{{% team-by-manager-slug manager="nick-nguyen" team="Organizations" %}}
+{{% team-by-manager-slug manager="mandrewsgl" team="Organizations" %}}
 
 ### Stable Counterparts
 
