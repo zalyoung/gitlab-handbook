@@ -38,9 +38,8 @@ For more information on the brand video process, you can visit the brand video t
 
 ### Brand Design & Video Issue Templates
 
-
 #### 1. Blog Image Request
-Need an image for a blog? Please use [this template to request blog images](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=blog-asset-request). 
+Need an image for a blog? Please use [this template to request blog images](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=blog-asset-request).
 
 #### 2. Brand Review Request
 
