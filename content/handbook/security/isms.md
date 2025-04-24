@@ -5,17 +5,19 @@ controlled_document: true
 
 ## Purpose
 
-GitLab has adopted the ISO/IEC 27001:2022, ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
+GitLab has adopted the ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, and ISO/IEC 42001:2023 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
 
 ## Scope
 
 The scope of GitLab's ISMS is limited to the production resources that directly support GitLab SaaS subscriptions: GitLab.com and GitLab Dedicated.
 
+GitLab is an AI provider for the AI service GitLab Duo and it's components.
+
 ### Assets
 
 Assets within the scope of the ISMS include: customer data, software, people, and internal information assets to host and operate the cloud-based solution.
 
-External assets that are subject to shared responsiblity include cloud service providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, infrastructure assets management, processes that run on a multi-tenant virtualized environment, and cloud service administration.
+External assets that are subject to shared responsiblity include cloud service providers and artificial intelligence providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, infrastructure assets management, processes that run on a multi-tenant virtualized environment, cloud service administration, and development and enhacement AI models.
 
 ### Excluded from Scope
 
@@ -31,7 +33,7 @@ GitLab's headquarter mailing address is in scope and covers all sub organization
 
 Business functions included in the scope of the ISMS include:
 
-- Engineering - Chief Information Security Officer; Security Assurance; Product Security; Security Operations; Threat Management Security teams. Division structure is defined [here](/handbook/security/#division-structure)
+- Security - Chief Information Security Officer; Security Assurance; Product Security; Security Operations; Threat Management Security teams. Division structure is defined [here](/handbook/security/#division-structure)
 - Engineering - VP of Development
 - Engineering - VP of Infrastructure and Quality
 - Finance - VP of Information Technology
