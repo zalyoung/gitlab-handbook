@@ -51,7 +51,7 @@ As we build GitLab into one of the world's best workplaces, we will look to incr
     - [Career development](/handbook/people-group/learning-and-development/career-development/), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
 1. **We foster a values-led, remote culture**
     - Our [CREDIT values](/handbook/values/) drive a culture that's built to operate in an all-remote environment.
-    - Our [handbook-led approach](/handbook/company/culture/all-remote/handbook-first/) and async working style highlight our values-led, remote culture.
+    - Our Handbook-led approach and async working style highlight our values-led, remote culture.
 
 ## Key ways we bring this vision to life
 
@@ -262,7 +262,7 @@ Our decision-making process involves a comprehensive assessment of potential par
 **Location and Accessibility**
 
 - If this is related to an event, is the location viable for GitLab to attend?
-- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](/handbook.gitlab.com/handbook/people-policies/#entity-specific-employment-policies).
+- If applicable - Is this partnership in an [entity or an "open for hiring" branch?](/handbook/people-policies/#entity-specific-employment-policies).
 - If this is related to an event, does the location provide an opportunity for GitLab to perform other business-related activities?
 - Does this partnership share clear ways that their space is accessible?
 - Is there a virtual option?
