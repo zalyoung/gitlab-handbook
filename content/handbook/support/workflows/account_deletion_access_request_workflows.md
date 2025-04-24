@@ -467,4 +467,4 @@ If you're ever unsure if a particular scenario requires escalating, reach out to
 
 ## References
 
-- [Account Deletion & Data Access Requests - Introduction](https://handbook.gitlab.com/handbook/support/workflows/personal_data_access_account_deletion/)
+- [Account Deletion & Data Access Requests - Introduction](/handbook/support/workflows/personal_data_access_account_deletion/)
