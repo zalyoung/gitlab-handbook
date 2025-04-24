@@ -128,7 +128,7 @@ Our Talent Acquisition team is partnering with Security to address these threats
 
 All interviews following a recruiter screen should take place on camera for both the candidate and interviewer. If the candidate is unable to use their camera because of technical issues, please indicate this in your interview notes. Seeing candidates on camera helps identify challenging interview situations, such as AI Deepfake avatars and multiple users interviewing as one candidate. If you have concerns about filters and odd behavior during an interview, please take a screenshot to send to the recruiter for reference who will then compare to other sources, such as LinkedIn or their recruiter screen. Trust your instincts- if something feels off or out of place, let your Talent Acquisition partner know.
 
-##### What to Watch For:
+##### What to Watch For
 
 - Candidates who refuse to turn on their camera without reasonable explanation
 - Visual glitches that might suggest deepfake technology
@@ -136,7 +136,7 @@ All interviews following a recruiter screen should take place on camera for both
 - Inconsistent responses compared to written materials
 - Reluctance to discuss background details that were in their application
 
-##### How to Respond:
+##### How to Respond
 
 1. Complete the interview professionally
 2. Document your concerns in detail in your interview notes
