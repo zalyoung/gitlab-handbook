@@ -1739,6 +1739,8 @@ Announcement Channels
 | Expert    | - Timeframe: Months 4+ - Parameters: SDR is on full quota, leads are set at 100% in Traction, Qualified is on |
 | | - SDR is now able to create their own Groove Flows pending approval.               |
 
+- Managers can update MQL round robin pools in traction. PLease watch these videos on [managing your teams and mql round robin in traction](https://www.youtube.com/watch?v=45uJCxoiP1s) and [updating a reps availibility in traction](https://www.youtube.com/watch?v=TvuKYotFI-Q) 
+
 #### Sales Development Credit Matrix
 
 | Products Considered | Who | Order Type | Segment | Opportunities |
