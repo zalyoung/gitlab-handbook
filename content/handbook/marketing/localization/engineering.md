@@ -24,8 +24,9 @@ The Localization team uses the following issue labels for distinguishing which p
 | [Localization engineering work](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=L10n%3A%3Aengineering) | `~"l10n::engineering"` |
 
 The Localization team uses the following scope labels to categorize documentation engineering work.
-
-| [Documenation eengineeringg work to be triaged](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Atriage&first_page_size=100)| `~"l10n-docs-engineering::triage"`   |
+| What & Current Issues          | Title       |
+| ----------    | -----------|
+| [Documentation engineering work to be triaged](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Atriage&first_page_size=100)| `~"l10n-docs-engineering::triage"`   |
 | [Documenation engineering work required for launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Alaunch-required&first_page_size=100)| `~"l10n-docs-engineering::launch-required"` |
 | [Documenation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=l10n-docs-engineering%3A%3Apost-launch)| `~"l10n-docs-engineering::post-launch"`  |
 
@@ -35,7 +36,7 @@ Board: https://gitlab.com/groups/gitlab-com/localization/-/boards/9140637
 
 Displays all issues with ~"L10n::engineering" label assigned to current [Localization engineering iterations](https://gitlab.com/groups/gitlab-com/localization/-/cadences/)  
 
-#### Docs Engineering (Stream)
+#### Docs Engineering (Stream) Boards #7828627
 
 Board: https://gitlab.com/groups/gitlab-com/localization/-/boards/7828627
 
@@ -54,7 +55,7 @@ Translated content for https://docs.gitlab.com is pulled from separate `/doc-loc
 * [Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator/) 
 * [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/-/tree/master/doc-locale/)  
 * Runner  
-* Charts
+* [Charts](https://gitlab.com/gitlab-org/charts/gitlab/-/tree/master/doc-locale/)
 
 ### Translation environments
 
