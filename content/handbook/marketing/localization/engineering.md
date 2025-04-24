@@ -29,11 +29,15 @@ The Localization team uses the following scope labels to categorize documentatio
 | [Documenation engineering work required for launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Alaunch-required&first_page_size=100)| `~"l10n-docs-engineering::launch-required"` |
 | [Documenation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=l10n-docs-engineering%3A%3Apost-launch)| `~"l10n-docs-engineering::post-launch"`  |
 
-#### Iteration ([Board \#9140637](https://gitlab.com/groups/gitlab-com/localization/-/boards/9140637))  
+#### Iteration Board #9140637 
+
+Board: https://gitlab.com/groups/gitlab-com/localization/-/boards/9140637
 
 Displays all issues with ~"L10n::engineering" label assigned to current [Localization engineering iterations](https://gitlab.com/groups/gitlab-com/localization/-/cadences/)  
 
-#### Docs Engineering (Stream) ([Board \#7828627](https://gitlab.com/groups/gitlab-com/localization/-/boards/7828627)) 
+#### Docs Engineering (Stream)
+
+Board: https://gitlab.com/groups/gitlab-com/localization/-/boards/7828627
 
 Tracks all documentation-related engineering tasks in the Localization project. This board displays all issues with both ~"L10n-docs" and ~"L10n::engineering" labels.
 
