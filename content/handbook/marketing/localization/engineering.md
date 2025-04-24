@@ -7,13 +7,13 @@ Technical overview of GitLab's localization infrastructure and engineering proce
 
 ## Iteration Process
 
-We start our iteration on a Monday. We release throughout the iteration. Iterations are 2 weeks long. 
+We start our iteration on a Tuesday. We release throughout the iteration. Iterations are 2 weeks long. 
 
 See our [Localization engineering iterations here](https://gitlab.com/groups/gitlab-com/localization/-/cadences/).
 
 ### Labels and Workflow Boards
 
-We use issue boards to track issue progress throughout a iteration. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
+We use issue boards to track issue progress throughout an iteration. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
 
 The Localization team uses the following issue labels for distinguishing which part of the org the work belongs to and distinguishing between specialities:
 
@@ -83,8 +83,8 @@ Each project within these environments maintains the following branch structure:
 
 ###### Steps
 
-1. **Update the Fork's main branch**  
-   * Update your fork's default branch (`main` or `master`) to match the Production Project's default branch
+1. **Update the fork's main branch**  
+   * Update your fork's default branch (`main` or `master`) to match the production project's default branch
    * Use the "Update Fork" button in the UI
 2. **Create a merge request (MR)**
    * Create an MR that merges the default branch to `main-translation`
@@ -93,13 +93,13 @@ Each project within these environments maintains the following branch structure:
    * **Pipelines**: If pipelines fail, this is typically due to upstream configuration issues
      * In most cases, you can force the merge and ignore pipeline issues
      * Attempting to fix these issues often consumes engineering resources unnecessarily
-   * **Merge Conflicts**: Review these case by case
+   * **Merge conflicts**: Review these case by case
      * May need to be relayed to the localization team
      * Conflicts occur because of upstream changes
      * Ignoring conflicts on target files will cause future translations to overwrite upstream changes
 4. **Merge the MR to `main-translation`**
    * This updates the translation branch with the default branch
-   * Triggers GitLab Integration to check for source language file updates
+   * Triggers Argo-GitLab integration to check for source language file updates
 
 [See example MR](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab/-/merge_requests/11) for updating the `main-translation` branch with content from the Omnibus Production fork.
 
