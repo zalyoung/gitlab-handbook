@@ -5,6 +5,38 @@ description: Technical details of GitLab's localization infrastructure and engin
 
 Technical overview of GitLab's localization infrastructure and engineering processes across documentation and product interfaces. Includes translation environments, branch management, development workflows, and preview systems for internationalized content.
 
+## Iteration Process
+
+We start our iteration on a Monday. We release throughout the iteration. Iterations are 2 weeks long. 
+
+See our [Localization engineering iterations here](https://gitlab.com/groups/gitlab-com/localization/-/cadences/).
+
+### Labels and Workflow Boards
+
+We use issue boards to track issue progress throughout a iteration. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
+
+The Localization team uses the following issue labels for distinguishing which part of the org the work belongs to and distinguishing between specialities:
+
+| Organization          | Title       |
+| ----------    | -----------|
+| [Documenation - docs.gitlab.com](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs&first_page_size=100) | `~"L10n-docs"`     |
+| [Mareting - about.gitlab.com](https://gitlab.com/dashboard/issues?sort=created_date&state=opened&label_name[]=L10n-mktg) | `~"L10n-mktg"`     |
+| [Localization engineering work](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=L10n%3A%3Aengineering) | `~"l10n::engineering"` |
+
+The Localization team uses the following scope labels to categorize documentation engineering work.
+
+| [Documenation eengineeringg work to be triaged](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Atriage&first_page_size=100)| `~"l10n-docs-engineering::triage"`   |
+| [Documenation engineering work required for launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Alaunch-required&first_page_size=100)| `~"l10n-docs-engineering::launch-required"` |
+| [Documenation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=l10n-docs-engineering%3A%3Apost-launch)| `~"l10n-docs-engineering::post-launch"`  |
+
+#### Iteration ([Board \#9140637](https://gitlab.com/groups/gitlab-com/localization/-/boards/9140637))  
+
+Displays all issues with ~"L10n::engineering" label assigned to current [Localization engineering iterations](https://gitlab.com/groups/gitlab-com/localization/-/cadences/)  
+
+#### Docs Engineering (Stream) ([Board \#7828627](https://gitlab.com/groups/gitlab-com/localization/-/boards/7828627)) 
+
+Tracks all documentation-related engineering tasks in the Localization project. This board displays all issues with both ~"L10n-docs" and ~"L10n::engineering" labels.
+
 ## Internationalized Documentation - docs.gitlab.com
 
 The GitLab docs site is beeing enabled for internationalization, with initial support for Japanese translations.
