@@ -20,7 +20,7 @@ description: "Test Governance Group under Developer Experience Stage"
 
 ## Team members
 
-{{< team-by-manager-slug "aphillips" >}}
+{{< team-by-manager-slug "amyphillips" >}}
 
 ## Core Responsibilities
 

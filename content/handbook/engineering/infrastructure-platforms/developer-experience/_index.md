@@ -79,4 +79,4 @@ The following people are members of the [Performance Enablement group](performan
 
 The following people are members of the [Test Governance group](test-governance):
 
-{{< team-by-manager-slug "aphillips" >}}
+{{< team-by-manager-slug "amyphillips" >}}
