@@ -16,6 +16,33 @@ The Tier-2 SME on-call program enhances incident response by establishing a seco
   - Escalation rules for your domain
   - Documentation and runbooks
 
+## Escalation Criteria
+
+The Tier-1 team will exhaust all available resources and troubleshooting steps before escalating to Tier-2. The following guidelines help determine when escalation is appropriate:
+
+### By Severity Level
+
+- **S1/S2 Incidents**: These typically require escalation when the Tier-1 team cannot resolve them independently. Due to their critical nature, Tier-2 SMEs should expect to be paged for these incidents when domain-specific expertise is needed.
+
+- **S3/S4 Incidents**: These typically do not require escalation to Tier-2 SMEs during off-hours. However, Tier-1 may escalate S3/S4 incidents in specific circumstances:
+  - When the customer impact is unclear and requires domain expertise to assess
+  - When there's uncertainty about whether the issue might develop into a higher severity incident
+  - When multiple lower-severity incidents combined create a potentially broader impact
+
+### Customer Impact Assessment
+
+The primary consideration for escalation is actual or potential customer impact, regardless of the initial severity classification:
+
+- If an incident has clear customer impact that Tier-1 cannot mitigate, escalation is appropriate even if initially classified as lower severity
+- If Tier-1 needs help determining whether errors or unusual behavior in a service will affect customers, they may consult with Tier-2 SMEs
+
+### Complexity Factors
+
+Tier-1 may escalate when:
+- The incident involves components or services where documentation is insufficient
+- Multiple teams or systems are involved, requiring coordination with domain experts
+- The incident resolution requires changes that only the Tier-2 SME has knowledge to make
+
 ## Onboarding Process for Teams
 
 1. **Define SME group**
