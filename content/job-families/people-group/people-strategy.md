@@ -9,11 +9,9 @@ title: "People Strategy Program Management"
 
 The Principal Program Manager, People Strategy reports into the Senior Director, People Strategy and Engagement.
 
-
 ### Job Grade
 
 The Principal Program Manager, People Strategy is [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
 
 ### Responsibilities
 
