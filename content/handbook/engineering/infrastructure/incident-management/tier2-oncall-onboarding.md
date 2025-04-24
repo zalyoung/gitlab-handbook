@@ -36,14 +36,6 @@ The primary consideration for escalation is actual or potential customer impact,
 - If an incident has clear customer impact that Tier-1 cannot mitigate, escalation is appropriate even if initially classified as lower severity
 - If Tier-1 needs help determining whether errors or unusual behavior in a service will affect customers, they may consult with Tier-2 SMEs
 
-### Complexity Factors
-
-Tier-1 may escalate when:
-
-- The incident involves components or services where documentation is insufficient
-- Multiple teams or systems are involved, requiring coordination with domain experts
-- The incident resolution requires changes that only the Tier-2 SME has knowledge to make
-
 ## Onboarding Process for Teams
 
 1. **Define SME group**
