@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Purpose
 
-GitLab has adopted the ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, and ISO/IEC 42001:2023 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
+GitLab has adopted the ISO/IEC 27001:2022, ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
 
 ## Scope
 
@@ -56,12 +56,13 @@ This ISMS governs GitLab security operations. Interested parties include:
 | Role | Responsibility |
 | --- | --- |
 | ISMS Council | Oversight, implementation and continual improvement of the ISMS |
-| Chief Information Security Officer | Executive sponsor of the ISMS; coordinate, promote and improve information security; establish information security policy |
+| Chief Information Security Officer | Executive sponsor of the ISMS; coordinate, promote and improve information security; establish information security policy; establish AI policy |
 | Security Management (Code Owners) | Owner of the ISMS responsible for approving significant changes and exceptions of the ISMS |
 | Security Assurance | Reporting on the performance of the information security management system to top management; security risk assessments and treatment; continuous monitoring and auditing; customer assurance activities; security awareness program; security governance activities |
 | Product Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks; infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
 | Security Operations | Monitor, manage and report on security incidents; monitor compliance with security policies through technical tools; identify security risks; monitor and respond to abuse of SaaS subscriptions |
 | Threat Management | Manage identity and access management, role based access control, admin access |
+| Duo Product Management| Monitor performance of AI system; maintain AI system; identify AI risks; evaluation of the performance of AI model providers |
 | Other ISMS Business units | Implement, operate and/or administer information security requirements; remediate information security findings; collaborate with the Security department |
 | All GitLab Team Members | Awareness of responsibilities as it relates to information security; adherence to information security controlled documents; reporting of suspected security violations |
 
