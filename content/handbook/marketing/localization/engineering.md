@@ -24,6 +24,7 @@ The Localization team uses the following issue labels for distinguishing which p
 | [Localization engineering work](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=L10n%3A%3Aengineering) | `~"l10n::engineering"` |
 
 The Localization team uses the following scope labels to categorize documentation engineering work.
+
 | What & Current Issues          | Title       |
 | ----------    | -----------|
 | [Documentation engineering work to be triaged](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Atriage&first_page_size=100)| `~"l10n-docs-engineering::triage"`   |
