@@ -2,8 +2,8 @@
 # This is the title of your design document. Keep it short, simple, and descriptive. A
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
-title: Design doc title
-status: ongoin
+title: "Dashboard Data Exploration and Querying Architecture"
+status: ongoing
 creation-date: "2025-04-24"
 authors: [ "@drosse", "@jiaan", "@rob.hunt" ]
 coaches: [ "@username" ]
