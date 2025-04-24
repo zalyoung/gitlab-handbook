@@ -208,7 +208,7 @@ exist yet):
 - For each repository GitLab maintains: its primary graph node, a list of
   replicas where the repository is synced, a list of replicas where the
   repository should be synced and a list of of nodes from where the repository
-  shoud be removed
+  should be removed
 - Parser parses the repository and sends parsed data to the primary graph node
   (it gets primary node from Rails DB)
 - Each graph node periodically requests from GitLab following information:
@@ -345,6 +345,14 @@ sequenceDiagram
     A-->>T: query result
 ```
 
+#### Graph database schema versioning
+
+Graph database schema will evolve during time. Ideally the repository parser
+(which will return graph nodes and edges) should be also versioned and this
+version should be part of the parser output. For each graph DB and each graph
+node will track in Rails database what schema version was used for parsing
+the repository.
+
 ### Communication protocol
 
 A protocol for communicating with graph nodes was not specified yet. We will use
@@ -361,6 +369,12 @@ repositories in a big group structure).
 Graph nodes will use existing monitoring, tracing and logging mechanisms to make
 sure that we can monitor these nodes and have enough data to investigate
 potential issues.
+
+Most important metrics will be: disk usage, memory usage, number of open DB
+connections, number of requests, average bootstrap speed, parsing time,
+replication time.
+
+Similar metrics as for Zoekt indexer/service would be a good starting point.
 
 ## Alternative Solutions
 
