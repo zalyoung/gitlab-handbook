@@ -135,11 +135,9 @@ To help get started as a developer with the Create:Code Creation team, we have c
 
 ### Milestone Meetings
 
-Our team operates on monthly milestones with three key meetings per milestone cycle. To accommodate our globally distributed team, meeting times alternate between APAC-friendly and EMEA/AMER-friendly time zones ensuring all team members have opportunities to participate live in different meeting types.
+Our team operates on monthly milestones with one key meeting per milestone cycle. This meeting combines both the retrospective for the previous milestone and the kickoff for the upcoming milestone. To accommodate our globally distributed team, this meeting is held twice each milestone at different times - once in an APAC-friendly time zone and once in an EMEA/AMER-friendly time zone. This approach ensures all team members have the opportunity to participate live in the meeting that best fits their schedule.
 
-1. Milestone Kickoff Meeting - Held at the beginning of each monthly milestone to align on objectives, discuss requirements, and assign responsibilities.
-1. Mid-Milestone Check-in - Conducted approximately two weeks into the milestone to provide status updates, address blockers, and coordinate dependencies.
-1. Milestone Retrospective - Scheduled at the end of each milestone to discuss outcomes from our async retrospectives.
+The Combined Retrospective/Kickoff Meeting serves two purposes: reviewing the outcomes from our async retrospectives of the completed milestone, and aligning on objectives, discussing requirements, and assigning responsibilities for the upcoming milestone.
 
 All of our meetings are recorded and uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to switch to use the [Unfiltered YouTube account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
 
