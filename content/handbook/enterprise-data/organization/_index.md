@@ -24,7 +24,13 @@ Based on these needs, the Data Team is organized in the following way:
 
 ## Data Team Operating Model
 
-The Enterprise Data Team collaborates internally via Key Results. Key Results are planned on a quarterly basis and various team members from the four pillars of the Team can be assigned to a Key Result. The Key Result has a DRI who is the Directly Responsible Individual for the business outcome of the Key Result and leading the Team to success. Each respective pillar on the Team has flexibility to establish their own pillar specific ceremonies as well as processes on how they triage and assign P1-Ops and P3-Other issues that come up. It is optional for team members to attend the ceremonies of other pillars. Team members are encouraged to attend other pillar ceremonies where attendance adds value. Below are the expectations of the DRI assigned to the Key Result:
+The Enterprise Data Team collaborates internally via Key Results. Key Results are planned on a quarterly basis and various team members from the four pillars of the Team can be assigned to a Key Result. The Key Result has a DRI who is the Directly Responsible Individual for the business outcome of the Key Result and leading the Team to success. Each respective pillar on the Team has flexibility to establish their own pillar specific ceremonies as well as processes on how they triage and assign P1-Ops and P3-Other issues that come up. 
+
+It is optional for team members to attend the ceremonies of other pillars. Team members are encouraged to attend other pillar ceremonies where attendance adds value. 
+
+At times, a pillar in the Enterprise Data Team may require collaboration and support from another pillar on an extended basis, lasting multiple quarters, and requiring consistent and deep support across P1, P2, and P3 issues. In these cases, a team member can be assigned as a stable counterpart to the pillar for an extended period of time with an end date established for the commitment where that team member will provide dedicated support across P1, P2, and P3 issues for the pillar. 
+
+Below are the expectations of the DRI assigned to the Key Result:
 
 1. Ensure completion of the opportunity canvas and ask for help when needed.
 2. Schedule a work breakdown session with the Key Result Team. This can be either asynchronous or synchronous depending on the Key Result.
