@@ -78,7 +78,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 
 #### CSM Processes
 
-See [High-Level Responsibilities of a CSM](handbook/customer-success/csm/#high-level-responsibilities-of-a-csm)
+See [High-Level Responsibilities of a CSM](/handbook/customer-success/csm/#high-level-responsibilities-of-a-csm)
 
 #### CSA Processes
 
