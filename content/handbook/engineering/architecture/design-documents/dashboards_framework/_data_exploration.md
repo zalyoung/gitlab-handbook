@@ -151,7 +151,6 @@ Beyond the query language differences, there are fundamental inconsistencies in 
 - Field naming conventions vary across systems
 - Entity relationships are modeled differently
 - Data granularity differs (e.g., detailed records vs. aggregated data)
-- Time-based data uses inconsistent formats and time zone handling
 
 These disparities make it difficult to establish meaningful connections between related data points that exist in different systems, limiting users' ability to gain a complete picture of their information.
 
@@ -159,10 +158,10 @@ These disparities make it difficult to establish meaningful connections between 
 
 The current state creates significant friction in the data exploration process:
 
-- Users must often switch between multiple tools or interfaces to access different data sources
-- Creating dashboards that combine data from multiple sources requires complex integration work
-- Non-technical users face significant barriers to exploring data on their own
+- Enabling users to create dashboards that combine data from multiple sources requires complex integration work
 - Visualization options are inconsistent across data sources
+- Users must often switch between multiple tools or interfaces to access different data sources
+- Non-technical users face significant barriers to exploring data on their own
 
 This friction discourages data exploration and limits the insights users can derive from their GitLab data.
 
@@ -172,8 +171,7 @@ Different data sources have varying performance characteristics:
 
 - Some queries may be resource-intensive and could impact system performance
 - Query optimization strategies differ across data sources
-- Performance can vary dramatically for similar queries against different data sources
-- Resource limits and timeout thresholds are inconsistent
+- Performance can vary dramatically for similar queries against different data sources 
 
 These challenges make it difficult to provide a consistently responsive exploration experience across all data types.
 
@@ -184,7 +182,6 @@ Despite these challenges, there is a significant opportunity to simplify and enh
 - A unified data exploration interface could dramatically reduce the learning curve
 - Standardizing query patterns could unlock new cross-source analytics capabilities
 - Consistent visualization options would help users interpret data more effectively
-- A metadata-driven approach could make new data sources discoverable as they become available
 - Integration with GitLab Duo could further enhance data exploration through AI assistance
 
 A well-designed data exploration architecture would not only address the current pain points but also establish a foundation for more advanced analytics capabilities in the future.
@@ -207,7 +204,7 @@ List the specific goals / opportunities of the document.
 - **Ensure appropriate performance** for data exploration queries across different data sources
 - **Maintain proper security controls** and respect user permissions across all data sources
 - **Facilitate integration with GitLab Duo** to enhance data exploration capabilities
-- **Establish a foundation** for cross-source analytics that can evolve over time
+
 
 ### Non-Goals
 
@@ -218,15 +215,8 @@ optional.
 - What is out of scope for this document?
 -->
 
-- **Building a comprehensive business intelligence platform** - We are focused on exploration, not replacing dedicated BI tools
 - **Dashboard layout framework implementation** - We will rely on the existing framework
-- **Dashboard listing features** - Management of dashboard listings is outside the scope
-- **Dashboard file management** - Managing underlying dashboard files is not covered
-- **Dashboard onboarding experiences** - Initial onboarding flows are not part of this proposal
-- **Dashboard cloning functionality** - Features to clone dashboards are not included
-- **Single data source implementations** - The focus is on architecture across data sources, not implementing individual source adapters
 - **Creating new visualization components** - We will use existing visualization components rather than creating new ones
-- **Implementing a data warehouse** - We're not aiming to consolidate all data into a single data store
 
 
 
