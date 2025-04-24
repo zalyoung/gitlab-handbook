@@ -38,20 +38,26 @@ Now that we have some understanding on how dashboards look and function, let's c
 1. Copy the content below into the file and press **Commit changes**.
 
 ```yaml
-group_dashboards:
-  main:
-    name: 'Main Dashboard'
-    panels:
-      - name: 'Issues by type'
-        type: 'bar'
-        query:
-          data_source: 'issuables'
-          params:
-            issuable_type: 'issue'
-            collection_labels: ['dev', 'Status::WIP']
+bugsCharts:
+  title: "Insights for Awesome App"
+  charts:
+    - title: "Team Progress"
+      description: "Tracking how many issues are being worked on by the development team over a month"
+      type: bar
+      query:
+        data_source: issuables
+        params:
+          issuable_type: issue
+          issuable_state: opened
+          filter_labels:
+            - Dev
+          group_by: month
+          period_limit: 30
 ```
 
-1. Review the resulting issues chart, _Issues by type_, under the **Analytics > Insights** tab. If your dashboard is not displaying correctly, wait a few moments for it to refresh.
+This insight will help you track your work done by your team over a month.
+
+1. Review the resulting insight under the **Analytics > Insights** tab. If your dashboard is not displaying correctly, wait a few moments for it to refresh.
 
 ## Lab Guide Complete
 
