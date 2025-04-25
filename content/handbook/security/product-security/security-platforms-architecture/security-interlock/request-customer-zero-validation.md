@@ -26,7 +26,7 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 - Be open to feedback that might redirect or reshape your initial concept
 - Use our feedback to inform your product roadmap priorities
 
-**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Idea_Priority_Validation) to submit.**
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Idea_Priority_Validation) to submit this type of request.**
 
 ### Requirements Gathering
 
@@ -41,7 +41,7 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 - Be specific about the intended user and use cases
 - Use our feedback to ensure your solution design addresses our needs
 
-**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Requirements_Gathering) to submit.**
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Requirements_Gathering) to submit this type of request.**
 
 ### Solution Validation
 
@@ -54,7 +54,7 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 - Include mockups, wireframes, or detailed descriptions of the user experience
 - Use our feedback to refine your solution before development begins
 
-**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Solution_Validation) to submit.**
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Solution_Validation) to submit this type of request.**
 
 ### Internal Testing
 
@@ -69,7 +69,7 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 - Allow sufficient time to incorporate feedback before scheduled release
 - Use our feedback to make final refinements and determine release readiness
 
-**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Internal_Testing) to submit.**
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Internal_Testing) to submit this type of request.**
 
 ## Timeline Expectations
 
