@@ -3,9 +3,10 @@ title: Account Deletion & Data Access Requests - Workflows
 category: GitLab.com
 subcategory: Legal
 description: "How to perform the processing of Account Deletion and Data Access requests"
+controlled_document: true
 ---
 
-## Overview
+## Purpose
 
 This document contains instructions on how to process each type of Account Deletion or Data Access request. It is split into two stages; **Submission Handling** and **Request Processing**, to be followed in that order. Each request will go through the same flow from opening to completion that is outlined in the chart below. **All requests must be fulfilled within 30 calendar days.**
 
@@ -19,7 +20,9 @@ graph TD
     I(Create Delete Meta Issue)
 ```
 
-## **Stage 1:** Submission Handling
+## Procedure
+
+### **Stage 1:** Submission Handling
 
 We are only able to process Account Deletion and Data Access requests if they are submitted through the official [Personal Data Request form](https://support.gitlab.io/personal-data-request/). If a request is received via any other method, we will close it and direct the user to open a request through the form.
 
@@ -27,7 +30,7 @@ When a user submits a request through the form, an issue is automatically create
 
 The purpose of this stage is to instruct you on how to close out invalid requests.
 
-### Zendesk Submissions
+#### Zendesk Submissions
 
 When a request is received through Zendesk as a support ticket, do one the following:
 
@@ -37,7 +40,7 @@ When a request is received through Zendesk as a support ticket, do one the follo
 
 - If the ticket is regarding a combination of both, use a variation of both macros above, and mark the ticket as solved.
 
-### Direct Email Submissions
+#### Direct Email Submissions
 
 If a request to the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/service_desk) is submitted directly via email, add the `account-deletion::invalid` label, add a comment to the issue with the snippet below, then close the issue.
 
@@ -53,11 +56,11 @@ If a request to the [Personal Account Requests Service Desk](https://gitlab.com/
 
 **NOTE:** Requests sent in through the official form will include a copy of the form entries in the initial description of the issue.
 
-### Spam Submissions
+#### Spam Submissions
 
 If the request submitted is spam, apply the label `Invalid Request::Spam`, then close the issue.
 
-### Duplicate Form Submissions
+#### Duplicate Form Submissions
 
 If a user has submitted multiple requests via the form, apply the `/duplicate` quick action to the duplicate issues, and respond with the following before closing the duplicates:
 
@@ -73,7 +76,7 @@ If a user has submitted multiple requests via the form, apply the `/duplicate` q
  <p>Regards,</p>
 </details>
 
-## **Stage 2:** Request Processing
+### **Stage 2:** Request Processing
 
 Find the appropriate workflow below to process requests submitted to our [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/service_desk), based on their request type.
 
@@ -84,7 +87,7 @@ Find the appropriate workflow below to process requests submitted to our [Person
 
 As a reminder, before processing a request you should make sure that you have already [Streamlined Your Workflow](/handbook/support/workflows/personal_data_access_account_deletion#streamlining-your-workflow) to make requests easier to process.
 
-### **Deletion Requests**
+#### **Deletion Requests**
 
 The following are the types of requests that a user can file. Click the link for each to jump to the associated workflow for processing that request.
 
@@ -96,7 +99,7 @@ The following are the types of requests that a user can file. Click the link for
 
 Currently, only **GitLab.com Account Deletion** or **Full Deletion** requests are auto-checked upon form submission.
 
-#### **GitLab.com Account Deletion and Full Deletion**
+##### **GitLab.com Account Deletion and Full Deletion**
 
 This workflow applies to both **GitLab.com Account Deletion** and **Full Deletion** requests. When a request is submitted for either of these types, the following form entries are verified using built-in automated checks:
 
@@ -114,7 +117,7 @@ You Should Know:
 If any of the automated checks fail, the user will receive an auto-generated response detailing the reason we are unable to process their request. The issue created will be marked as invalid with "Invalid Request Received" noted in the title. These issues are scheduled to automatically close, and the label "account-deletion::invalid" will be applied. No action is required.
 ```
 
-##### **Step 1:** Await Challenges
+###### **Step 1:** Await Challenges
 
 If all of the automated checks succeed, the user will receive a set of [Verification Challenge questions](https://internal.gitlab.com/handbook/support/#account-verification-challenge-questions) in an auto-generated response. Users have a total of **7 calendar days** to respond to the challenge questions.
 
@@ -142,7 +145,7 @@ If the user fails to respond within 7 calendar days:
   `/label ~"Account Verification Failed" ~"deletion request::denied" ~"denied-reason::no_response"`
 </details>
 
-##### **Step 1.5:** Blocked or Banned Accounts
+###### **Step 1.5:** Blocked or Banned Accounts
 
 If the user account is not blocked or banned, skip this section.
 
@@ -162,7 +165,7 @@ If the user is blocked due to a user deleting their own account (see the admin n
 
 For all other blocked or banned reasons, proceed to [step 2](#step-2-evaluate) first.
 
-##### **Step 2:** Evaluate
+###### **Step 2:** Evaluate
 
 Evaluate the answers to the challenge questions that the user has provided using the [Account Verification](/handbook/support/workflows/account_verification/#step-2-checking-challenge-answers) workflow with a data classification of `RED` along with the [Risk Factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) for data and privacy requests to confirm if the verification passes or fails.
 </details>
@@ -235,7 +238,7 @@ If the above conditions are not met, respond with the following before closing t
 `/label ~"Account Verification Failed" ~"deletion request::denied"`
 </details>
 
-##### **Step 2.5:** Verification Passed - Unblock user
+###### **Step 2.5:** Verification Passed - Unblock user
 
 1. Ensure that the user has passed the challenge questions and has been properly evaluated.
 1. Proceed to follow the [reinstating a blocked account workflow](/handbook/support/workflows/reinstating-blocked-accounts/#blocked-accounts). Generally, this means opening a Trust and Safety issue for evaluation.
@@ -275,7 +278,7 @@ If the account stays blocked or banned, apply the `Account Verification Failed` 
   <p>Regards,</p>
 </details>
 
-##### **Step 3:** Create Meta Issue
+###### **Step 3:** Create Meta Issue
 
 Proceed with processing the request by doing the following:
 
@@ -301,7 +304,7 @@ Proceed with processing the request by doing the following:
 
 1. Follow the instructions in the top of the template, then complete each step in the issue that begins with `Support Engineer:` in order.
 
-#### **GitLab.com Account Deletion - Deceased User**
+##### **GitLab.com Account Deletion - Deceased User**
 
 Use this workflow for requests to delete user data where the sole owner of that data is deceased. No automated checks will take place with this request type.
 
@@ -355,14 +358,14 @@ IMPORTANT NOTE: If at any point you are unsure of next steps or have any questio
 1. Create a new confidential issue using the [Deletion Meta Issue - Deceased.md](https://gitlab.com/gitlab-com/gdpr-request/-/blob/master/.gitlab/issue_templates/Deletion%20Meta%20Issue%20-%20Deceased.md) template, populating the title with the email address of the original request.
 1. Complete each step in the issue that begins with `Support Engineer:` in order.
 
-#### **Portal Account Deletion**
+##### **Portal Account Deletion**
 
 Use this workflow for requests to delete user data from the Portal (customers.gitlab.com).
 
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [Deletion Meta Issue - Customers Portal](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20Customers%20Portal) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.
 
-#### **Marketing or Sales Account Deletion**
+##### **Marketing or Sales Account Deletion**
 
 Use this workflow for requests to delete user data from Sales or Marketing systems.
 
@@ -378,7 +381,7 @@ Use this workflow for requests to delete user data from Sales or Marketing syste
   <p>Regards,</p>
 </details>
 
-### **Data Access Requests**
+#### **Data Access Requests**
 
 Users can request the following to obtain information about their data. Use this workflow for requests to access full details about what data we have on the user.
 
@@ -426,7 +429,7 @@ Use the following workflows based on the type of request submitted.
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [personal_data_access_request](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=personal_data_access_request) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.
 
-### **Data Export Requests (Right to Portability)**
+#### **Data Export Requests (Right to Portability)**
 
 Use this workflow for data export request submissions. Note that we can only action on this if the request is for personal namespace projects, or projects in groups where the user is the *only* member. This workflow cannot be completed if the request indicates the user's country is Cuba, Iran, North Korea, Syria, Russia, Belaru or the Crimea, Donetsk or Luhanks regions of Ukraine as these are embargoed countries and we are not permitted under Trade Compliance laws to engage with individuals in those locations. You can visit the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel if you have any questions.
 
@@ -446,7 +449,7 @@ Use this workflow for data export request submissions. Note that we can only act
 
 **Important Note:** Because we can not deny free users from support to export their data if they run into a problem, we will need to assist them through the issue (not ZenDesk).
 
-### **General Questions**
+#### **General Questions**
 
 Use this workflow for general question submissions.
 
@@ -454,10 +457,14 @@ Use this workflow for general question submissions.
 1. If needed, engage a Support Manager or the Privacy team for guidance and messaging. You can visit the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel to ask for help.
 1. Close the issue once the users question(s) have been answered.
 
-### Escalating to the Privacy Team
+## Exceptions
 
 While processing a request, certain scenarios may arise that necessitate the escalation of the request to the Privacy team. The most common of these scenarios can be found in the [Privacy Escalation Meta Issue](https://gitlab.com/gitlab-com/gdpr-request/-/blob/master/.gitlab/issue_templates/Privacy%20Escalation%20Meta%20Issue.md) template. If a request needs to be escalated to the Privacy team, do the following:
 
 1. Create a new related issue using the [Privacy Escalation Meta Issue](https://gitlab.com/gitlab-com/gdpr-request/-/blob/master/.gitlab/issue_templates/Privacy%20Escalation%20Meta%20Issue.md) template.
 
 If you're ever unsure if a particular scenario requires escalating, reach out to the Privacy team via the `#privacy-team_help` Slack channel.
+
+## References
+
+- [Account Deletion & Data Access Requests - Introduction](/handbook/support/workflows/personal_data_access_account_deletion/)
