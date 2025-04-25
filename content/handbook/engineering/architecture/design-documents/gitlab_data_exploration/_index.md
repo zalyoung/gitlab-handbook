@@ -179,12 +179,132 @@ These challenges make it difficult to provide a consistently responsive explorat
 
 Despite these challenges, there is a significant opportunity to simplify and enhance how users interact with their GitLab data:
 
-- A unified data exploration interface could dramatically reduce the learning curve
-- Standardizing query patterns could unlock new cross-source analytics capabilities
+- A unified data exploration interface would simplify access to critical insights, improve feature adoption, and unlock data that is currently inaccessible to most users
 - Consistent visualization options would help users interpret data more effectively
 - Integration with GitLab Duo could further enhance data exploration through AI assistance
+- Enabling export, sharing, and embedding of query results would allow users to incorporate insights across other GitLab pages and workflows
+
+
+---
+title: "Dashboard Data Exploration and Querying Architecture"
+status: ongoing
+creation-date: "2025-04-24"
+authors: [ "@drosse", "@jiaan", "@rob.hunt" ]
+coaches: [ "@username" ]
+dris: [ "@lfarina8", "@nicholasklick" ]
+owning-stage: "~devops::monitor"
+participating-stages: []
+toc_hide: true
+---
+
+<!-- Design Documents often contain forward-looking statements -->
+<!-- vale gitlab.FutureTense = NO -->
+
+<!-- This renders the design document header on the detail page, so don't remove it-->
+{{< design-document-header >}}
+
+## Summary
+
+This design document outlines the architecture for a unified Dashboard Data Exploration and Querying system at GitLab. The system aims to provide users with the ability to explore and understand their GitLab data across multiple data sources through a consistent and intuitive interface.
+
+Currently, GitLab's diverse data sources (PostgreSQL, ClickHouse, GraphQL, REST APIs) each require different query strategies and have varying schemas, relationships, and performance characteristics. This creates significant friction for users trying to access and gain insights from their data. 
+
+The proposed architecture addresses this by creating a standardized data abstraction layer that handles the complexity of interacting with multiple data sources while providing a uniform querying experience.
+
+The core of this proposal is to develop a single API to query any GitLab data with a consistent query language (building on GitLab Query Language - GLQL), supported by a context-aware filtering component and visualization capabilities. This will enable users to discover meaningful insights about their GitLab usage and business performance without needing to understand the underlying data architecture.
+
+## Motivation
+
+The ability for users to explore their GitLab data and derive meaningful business insights is increasingly important as organizations rely on data-driven decision making. However, several challenges currently prevent users from effectively exploring and understanding their GitLab data:
+
+### Data Source Fragmentation
+
+GitLab data resides across multiple data sources, each with different access patterns:
+
+- **PostgreSQL databases** store transactional application data
+- **ClickHouse databases** contain analytical and time-series data
+- **GraphQL endpoints** provide structured API access to application data
+- **REST APIs** offer additional interfaces to various data sets
+
+Each of these sources has evolved independently, resulting in different query requirements, data models, and performance characteristics. This fragmentation forces users to understand each system separately to explore their data effectively.
+
+### Query Language Inconsistency
+
+Users currently need to employ different query approaches depending on the data source:
+
+- SQL dialects differ between PostgreSQL and ClickHouse
+- GraphQL has its own query structure
+- REST APIs use various parameter-based filtering mechanisms
+- Filters and operators vary across endpoints even within the same API type
+
+This inconsistency creates a steep learning curve for users who need to access data across multiple sources and requires specialized knowledge of each system's querying capabilities.
+
+### Schema and Data Model Disparities
+
+Beyond the query language differences, there are fundamental inconsistencies in how data is structured:
+
+- Field naming conventions vary across systems
+- Entity relationships are modeled differently
+- Data granularity differs (e.g., detailed records vs. aggregated data)
+- Time-based data uses inconsistent formats and time zone handling
+
+These disparities make it difficult to establish meaningful connections between related data points that exist in different systems, limiting users' ability to gain a complete picture of their information.
+
+### User Experience Friction
+
+The current state creates significant friction in the data exploration process:
+
+- Users must often switch between multiple tools or interfaces to access different data sources
+- Creating dashboards that combine data from multiple sources requires complex integration work
+- Non-technical users face significant barriers to exploring data on their own
+- Visualization options are inconsistent across data sources
+
+This friction discourages data exploration and limits the insights users can derive from their GitLab data.
+
+### Performance and Resource Challenges
+
+Different data sources have varying performance characteristics:
+
+- Some queries may be resource-intensive and could impact system performance
+- Query optimization strategies differ across data sources
+- Performance can vary dramatically for similar queries against different data sources
+- Resource limits and timeout thresholds are inconsistent
+
+These challenges make it difficult to provide a consistently responsive exploration experience across all data types.
+
+### Opportunity for Unified Data Exploration
+
+Despite these challenges, there is a significant opportunity to simplify and enhance how users interact with their GitLab data:
+
+- A unified data exploration interface would simplify access to critical insights, improve feature adoption, and unlock data that is currently inaccessible to most users due to technical complexity
+- Standardizing query patterns could unlock new cross-source analytics capabilities
+- Consistent visualization options would help users interpret data more effectively
+- A metadata-driven approach could make new data sources discoverable as they become available
+- Integration with GitLab Duo could further enhance data exploration through AI assistance
+- Enabling export, sharing, and embedding of query results would allow users to incorporate insights across other GitLab pages and workflows
+- A well-designed data exploration architecture would not only address the current pain points but also establish a foundation for more advanced analytics capabilities in the future
 
 A well-designed data exploration architecture would not only address the current pain points but also establish a foundation for more advanced analytics capabilities in the future.
+
+#### Examples of User Needs
+
+The unified data exploration system would enable users to answer questions such as:
+
+**For Engineering Teams:**
+- "As an engineering team, every day during standup, we want to look at one dashboard that tells us how we are doing in relation to our devsecops flow. We will need to see:
+  - Table with current open MRs
+  - Count of critical and high vulnerabilities introduced in the last x days
+  - Issues assigned to our current milestone (or label/status, whatever pivot the team would want to look at their current work)
+  - Recent pipeline failures or slow jobs
+  - DORA metrics like deployment frequency and lead time for changes"
+
+**For Product Managers:**
+- "As an internal GitLab PM, I want to track the MAU/WRU of my feature (event data that we are tracking for usage and behavior that wouldn't be customer facing)"
+- "How are users navigating through my feature's workflow?"
+- "What is the adoption rate of new capabilities we've released?"
+- "How does feature usage correlate with other activities in the product?"
+
+These examples illustrate how users need to combine data from multiple sources (issues, MRs, vulnerabilities, pipelines, analytics events) in a single cohesive view—something that's currently difficult to achieve.
 
 ### Goals
 
@@ -199,8 +319,9 @@ List the specific goals / opportunities of the document.
 - **Create a unified data exploration experience** across GitLab's diverse data sources
 - **Simplify the process of querying data** for both technical and non-technical users
 - **Standardize the filtering interface** to work consistently regardless of underlying data source
-- **Enable metadata-driven discovery** of available data sources and their schemas
+- **Enable exporting** of queries result across GitLab pages
 - **Support common visualization needs** by leveraging existing dashboard framework components
+- **Enable metadata-driven discovery** of available data sources and their schemas
 - **Ensure appropriate performance** for data exploration queries across different data sources
 - **Maintain proper security controls** and respect user permissions across all data sources
 - **Facilitate integration with GitLab Duo** to enhance data exploration capabilities
@@ -215,7 +336,7 @@ optional.
 - What is out of scope for this document?
 -->
 
-- **Dashboard layout framework implementation** - We will rely on the existing framework
+- **Creating a dashboard layout framework implementation** - We will rely on the existing framework
 - **Creating new visualization components** - We will use existing visualization components rather than creating new ones
 
 
