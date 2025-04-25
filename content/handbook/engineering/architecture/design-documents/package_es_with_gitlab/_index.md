@@ -202,7 +202,6 @@ For self-managed customers, the primary challenges are:
 
 **Pros**:
 
-- Leverages existing infrastructure
 - Lower barrier to entry for customers
 - Simpler implementation with no additional components
 - No changes to packaging required
