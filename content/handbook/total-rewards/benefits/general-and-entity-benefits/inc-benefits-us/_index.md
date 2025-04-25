@@ -68,7 +68,7 @@ You can log into PlanSource through your Workday profile. There is an integratio
 
 ## ID Cards
 
-Cigna issues Digital ID cards, which are available through the mycinga.com website or the myCigna mobile app. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
+Cigna issues Digital ID cards, which are available through the https://my.cigna.com website or the myCigna mobile app. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
 
 Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.Kaiser Digital ID cards are available through the Kaiser website or the Kaiser mobile app.
 
