@@ -7,6 +7,8 @@ description: "Guidelines for Product Managers to engage GitLab's Security Team a
 
 Customer Zero Validation is the process where the Product Security Team acts as the first customer for new security features. Our hypothesis is simple: **if we can use GitLab's security features effectively, then many of our customers can too.**
 
+The Issue Board tracking these requests can be found [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/boards/9306316).
+
 ## Request Types
 
 Product Managers or Engineering Teams can engage with the Product Security Team during different phases of feature development through four distinct request types. To streamline our collaboration, we've created specific Issue Templates for each one that help you provide the initial information we need to begin our evaluations.
@@ -24,6 +26,8 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 - Be open to feedback that might redirect or reshape your initial concept
 - Use our feedback to inform your product roadmap priorities
 
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Idea_Priority_Validation) to submit this type of request.**
+
 ### Requirements Gathering
 
 **Purpose:** To collect detailed requirements from the Product Security Team about what would make the feature valuable for our daily work.
@@ -37,6 +41,8 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 - Be specific about the intended user and use cases
 - Use our feedback to ensure your solution design addresses our needs
 
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Requirements_Gathering) to submit this type of request.**
+
 ### Solution Validation
 
 **Purpose:** To verify that your proposed design and implementation will address the Product Security Team's requirements and integrate effectively into our workflows.
@@ -47,6 +53,8 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 
 - Include mockups, wireframes, or detailed descriptions of the user experience
 - Use our feedback to refine your solution before development begins
+
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Solution_Validation) to submit this type of request.**
 
 ### Internal Testing
 
@@ -60,6 +68,8 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 - Provide clear setup instructions and testing scenarios
 - Allow sufficient time to incorporate feedback before scheduled release
 - Use our feedback to make final refinements and determine release readiness
+
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Internal_Testing) to submit this type of request.**
 
 ## Timeline Expectations
 
