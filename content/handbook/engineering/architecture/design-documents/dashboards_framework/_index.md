@@ -84,7 +84,7 @@ The structure outlined below describes what this will include, and how they will
 
 ### Building blocks
 
-![dashboards_layout_framework_outline](/images/engineering/architecture/design-documents/data_insights_platform_querying_api/dashboards_layout_framework_outline.png)
+![dashboards_layout_framework_outline](/images/engineering/architecture/design-documents/dashboards_layout_framework/dashboards_layout_framework_outline.png)
 
 #### The grid
 
