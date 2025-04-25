@@ -39,7 +39,7 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 
 ### Solution Validation
 
-**Purpose:** To verify that your proposed implementation will address the Product Security Team's requirements and integrate effectively into our workflows.
+**Purpose:** To verify that your proposed design and implementation will address the Product Security Team's requirements and integrate effectively into our workflows.
 
 **When to use:** After designing your solution approach but before beginning implementation.
 
