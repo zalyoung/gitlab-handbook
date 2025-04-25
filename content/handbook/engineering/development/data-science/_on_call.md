@@ -5,11 +5,11 @@ description: "T Data Science stage on-call process definition and explanation."
 
 ## Tier-2 on-call rotation
 
-Our clients need support during incidents, and GitLab as a product has grown too big to expect any engineer to know everything about it. Because of those two factors, we need to have Subject Matter Experts (called further SMEs) to be able to help during incidents. This coverage needs to be reliable at all times, and cover 24x7x365. 
+Our clients need support during incidents, and GitLab as a product has grown too big to expect any engineer to know everything about it. Because of those two factors, we need to have Subject Matter Experts (called further SMEs) to be able to help during incidents. This coverage needs to be reliable at all times, and cover 24x7x365.
 
-### Eligilibility
+### Eligibility
 
-All Engineers (frontend and backend) level 6 (intermediate) and higher are eligible to participate in the rotation based on their knowledge level of the subject matter area. 
+All Engineers (frontend and backend) level 6 (intermediate) and higher are eligible to participate in the rotation based on their knowledge level of the subject matter area.
 The following exceptions apply:
 
 - Engineers who have been at GitLab for less than 6 months
@@ -64,7 +64,7 @@ possibilities:
 1. Swap weekend days and weekdays.
 1. Swap hours between weekend days and weekdays.
 1. Take up to double the time off for any time worked during the weekend when the
-above two options don’t work with your personal schedule.
+above two options don't work with your personal schedule.
 
 - When a SME is in standby mode (e.g. not paged) during the weekend shift, they can take 1.25x time-off.
 - When a SME is in call-back mode (e.g. being paged) during the weekend shift, they can take double the time-off.
