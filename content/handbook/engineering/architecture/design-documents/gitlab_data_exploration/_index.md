@@ -236,7 +236,7 @@ optional.
 - What is out of scope for this document?
 -->
 
-- **Creating new dashboard frameowkr or visualization components** - We will use existing framework visualization components rather than creating new ones
+- **Creating a dashboard framework or new visualizations components** - We will use existing framework visualization components rather than creating new ones
 
 ## Proposal
 
