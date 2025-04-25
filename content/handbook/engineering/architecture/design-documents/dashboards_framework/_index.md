@@ -66,7 +66,7 @@ augment our existing offering with clearer visuals and AI integration.
 
 - Clear guidelines on what a dashboard is, what functionality it contains, and how to use the framework.
 - Adopt the dashboards framework across GitLab, especially where data is being used for analysis.
-- An agnostic dashboards framework, giving engineers the tools needed to quickly and efficiently set up and use dashboards.
+- An agnostic dashboards framework, not tied to any one feature, giving engineers the tools needed to quickly and efficiently set up and use dashboards.
 - Link uses of the dashboards framework together in preparation for [dashboards navigation restructuring](https://gitlab.com/groups/gitlab-org/-/epics/16940).
 
 ### Non-Goals
@@ -78,16 +78,41 @@ augment our existing offering with clearer visuals and AI integration.
 
 ## Proposal
 
-<!--
-This is where we get down to the specifics of what the proposal actually is,
-but keep it simple!  This should have enough detail that reviewers can
-understand exactly what you're proposing, but should not include things like
-API designs or implementation. The "Design Details" section below is for the
-real nitty-gritty.
+With the above goals and motivation in mind, we want to outline a dashboards layout framework that provides the core
+functionality, UI, and UX needed to efficiently develop a dashboard within GitLab that adheres to our Pajamas guidelines.
+The structure outlined below describes what this will include, and how they will function.
 
-You might want to consider including the pros and cons of the proposed solution so that they can be
-compared with the pros and cons of alternatives.
--->
+### Building blocks
+
+![dashboards_layout_framework_outline](/images/engineering/architecture/design-documents/data_insights_platform_querying_api/dashboards_layout_framework_outline.png)
+
+#### The grid
+
+The grid will be developed using [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
+grid structures, along with the changing and resizing of grid items, in a deterministic, and cross-browser friendly way.
+
+The grid itself will support 12 columns, with an unlimited number of rows. Each item (panel) within the grid, can be
+up to 12 columns in width. In other words, each row may contain between 1–12 panels. Each panel can span an unlimited
+number of rows, although realistically for UX and performance reasons, it would only be a few rows for any given panel.
+We will not be setting any limits at this time though, so it is perfectly possible for someone using the framework to
+create a panel that doesn't fit its contents.
+
+#### Panels
+
+
+#### Visualizations
+
+
+#### Filters
+
+
+#### Error handling
+
+
+#### Data structures
+
+
+#### Data sources
 
 ## Design and implementation details
 
