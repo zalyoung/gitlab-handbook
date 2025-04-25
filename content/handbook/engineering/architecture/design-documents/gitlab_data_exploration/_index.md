@@ -91,14 +91,13 @@ community members.
 A good summary is probably at least a paragraph in length.
 -->
 
+This design document addresses the challenge of data exploration and querying across GitLab's diverse data landscape. Users currently face significant obstacles when trying to access and derive insights from GitLab data, as information is spread across multiple sources including PostgreSQL, ClickHouse, GraphQL, and REST APIs.
 
-This design document outlines the architecture for a unified Dashboard Data Exploration and Querying system at GitLab. The system aims to provide users with the ability to explore and understand their GitLab data across multiple data sources through a consistent and intuitive interface.
+Each of these data sources requires different query strategies and presents varying schemas, relationships, and performance characteristics. This fragmentation creates substantial friction in the data exploration process, requiring users to understand multiple systems and query languages to access the information they need.
 
-Currently, GitLab's diverse data sources (PostgreSQL, ClickHouse, GraphQL, REST APIs) each require different query strategies and have varying schemas, relationships, and performance characteristics. This creates significant friction for users trying to access and gain insights from their data. 
+GitLab currently lacks a unified querying interface and visualization tool that can work consistently across these different data sources. This absence forces users to switch between different interfaces and tools, making it difficult to create comprehensive dashboards that combine data from multiple sources or to explore relationships between different types of data.
 
-<!-- The proposed architecture addresses this by creating a standardized data abstraction layer that handles the complexity of interacting with multiple data sources while providing a uniform querying experience.
-
-The core of this proposal is to develop a single API to query any GitLab data with a consistent query language (building on GitLab Query Language - GLQL), supported by a context-aware filtering component and visualization capabilities. This will enable users to discover meaningful insights about their GitLab usage and business performance without needing to understand the underlying data architecture. -->
+The goal is to simplify how users interact with GitLab data, enabling them to discover meaningful insights about their GitLab usage and business performance without needing to understand the underlying differences between data sources. By addressing this challenge, we aim to unlock valuable data that is currently difficult or impossible for most users to access due to technical complexity.
 
 ## Motivation
 
