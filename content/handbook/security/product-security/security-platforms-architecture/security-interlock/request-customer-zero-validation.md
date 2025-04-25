@@ -54,7 +54,7 @@ Product Managers or Engineering Teams can engage with the Product Security Team 
 - Include mockups, wireframes, or detailed descriptions of the user experience
 - Use our feedback to refine your solution before development begins
 
-**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Solution_Validation.**
+**Click [here](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-requests/-/issues/new?description_template=C0_Solution_Validation).**
 
 ### Internal Testing
 
