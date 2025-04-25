@@ -172,6 +172,42 @@ Deteermining who to include in a design review can be challenging. Here are some
 
 If unsure who to include, consult your Product Design Manager for guidance.
 
+### Design critiques
+
+Design critiques are dedicated sessions for Product Designers to give and receive rigorous, constructive feedback aimed at elevating work quality from team members within Product Design. Unlike regular design reviews, critiques emphasize challenging assumptions and deepening analysis of design decisions. Benefits include:
+
+- Pushing designs to excellence through specific, actionable feedback
+- Building a culture where constructive challenge is valued and expected
+- Accelerating professional growth through deeper design discussions
+- Catching potential issues early in the design process
+- Ensuring user-centered thinking remains at the forefront
+
+We prioritize a balanced approach to design critiques that practices benevolent, [radical candor](https://www.radicalcandor.com/blog/what-is-radical-candor/), which is to care personsonally but challenge directly. Here's how to conduct an effective critique:
+
+1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work.
+1. **Provide thorough context**: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged.
+1. **Structure the critique session**: 
+  - Begin by presenting work without excessive explanation (5 min)
+  - Allow participants to ask clarifying questions (3 min)
+  - Receive feedback using the "I like/I wish/What if" framework (15 min)
+  - Summarize key takeaways and next steps (2 min)
+1. **Participate effectively**: When giving to critique to others:
+  - Focus on the work, not the person ("This border element..." not "Your design")
+  - Be specific and reference particular elements ("The hierarchy in this section...") not "It feels off"
+  - Connect feedback to user needs or business goals
+  - Frame concerns as questions when possible ("Have you considered...?)
+1. **Receive critique productively**:
+  - Listen without immediately defending
+  - Take detailed notes
+  - Ask clarifying questions when needed
+  - Thank participants for specific, challenging feedback
+1. **Document and follow up**:
+  - Capture key critique points in the relevent issue or epic
+  - SHare how the critique influenced your design decisions in subsequent iterations
+  - Acknowledge team members whose critique led to meaningful improvements
+
+By embracing true critique rather than simple review, we create an environment where excellence is expected, supported, and achieved through collabroative challenge. 
+
 ### Partnering with Technical Writers
 
 When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development/product-development-flow/#validation-phase-3-design).
