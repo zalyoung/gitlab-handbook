@@ -15,7 +15,7 @@ Prints a list of design documents with metadata from a given folder.
             <th>Title</th>
             <th>Authors</th>
             <th>Coach</th>
-            <th>Owning Stage/Group</th>
+            <th>Owning Group</th>
             <th>Created</th>
         </tr>
     </thead>
@@ -35,12 +35,7 @@ Prints a list of design documents with metadata from a given folder.
                 {{ partial "gitlab/profile-links" (dict "handles" .Params.Coaches) }}
             </td>
             <td>
-                {{ if isset .Params "owning-stage" }}
-                {{ partial "gitlab/label" (dict "name" (index .Params "owning-stage"))}}
-                {{ end }}
-                {{ if isset .Params "owning-group" }}
                 {{ partial "gitlab/label" (dict "name" (index .Params "owning-group"))}}
-                {{ end }}
             </td>
             <td>{{ index .Params "creation-date" }}</td>
         </tr>
