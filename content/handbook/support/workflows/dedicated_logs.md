@@ -12,6 +12,10 @@ When working on a GitLab Dedicated ticket, prioritize asking for information tha
 
 The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
 
+### Preprod deployments
+
+Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#customers-with-dedicated-preprod-deployments) to find links to Opensearch logs for a specific customer's Preprod environment, when applicable.
+
 ### Log requests older than 7 days
 
 If the customer requests logs for a period older than 7 days, a security issue should be created. Follow the same procedure as the [Security - log request workflow](./log_requests.md).
