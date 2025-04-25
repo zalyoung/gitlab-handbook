@@ -70,22 +70,26 @@ As a hiring manager, you should be aware of increased risks from malicious actor
 ### Your Responsibilities as a Hiring Manager
 
 #### 1. Partnership with Talent Acquisition
+
 - Work closely with your Talent Acquisition partner, who is actively collaborating with Security
 - Be receptive to any security concerns raised about candidates in your pipeline
 - Prioritize security considerations alongside skill assessments
 
 #### 2. Interview Best Practices
+
 - Ensure all members of your interview panel understand [security awareness guidelines](/handbook/hiring/conducting-a-gitlab-interview/)
 - Set up your interview plan so all interviewers are conducting Zoom calls with cameras on
 - Review interview feedback with attention to any noted security concerns
 
-#### 3. What to Watch For:
+#### 3. What to Watch For
+
 - Candidates with unusual reluctance to provide standard information or documentation
 - Excessive interest in security protocols or access permissions during interviews
 - Candidates who frequently change their stories or qualifications
 - Interviewers reporting technical glitches or unusual behavior during video interviews
 
-#### 4. Escalation Path:
+#### 4. Escalation Path
+
 1. Document any concerns thoroughly
 2. Discuss issues directly with your Talent Acquisition partner
 3. Include Security team in discussions when appropriate
