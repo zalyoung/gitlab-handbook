@@ -123,6 +123,8 @@ Service Desk tickets may use a different lifecycle with different statuses like 
 `waiting for customer` and `waiting for next response`. But that is to be defined.
 [See this discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/498393#note_2314175535) to learn more.
 
+There's a limit of `50` lifecycles per namespace.
+
 #### Statuses
 
 A status can be used in multiple lifecycles and can be attached to a work item based on the available lifecycle of
@@ -133,6 +135,8 @@ the work item type and namespace. The default lifecycle contains these statuses:
 - `Done`
 - `Won't do`
 - `Duplicate`
+
+There's a limit of max. `70` statuses per namespace. A max. of `30` statuses can be attached to a lifecycle.
 
 #### Status Categories
 
@@ -337,13 +341,15 @@ which only adds two additional queries. One to load the join model and another t
 
 We use the fields `default_open_status_id`, `default_closed_status_id`, and `default_duplicate_status_id` to make
 automatic state/status transitions possible.
+When the assigned status for any of these changes, we won't change status for existing work items.
+Instead we'll [use the newly assignes status for new transitions or new items only](https://gitlab.com/gitlab-org/gitlab/-/issues/498394#note_2450687886).
 
 #### Namespace Configuration
 
 Each root namespace exclusively uses either system-defined statuses or custom statuses.
 When editing statuses for the first time, the system creates copies of all system-defined statuses as custom statuses.
 All work items of this namespace and its descendants will need to be migrated from the old to the new statuses
-(which will happen in the background).
+(which will happen in the background). After that there's no way back to using system-defined statuses for this namespace.
 
 Lifecycles and statuses can only be configured on the root namespace level in the first iterations.
 It's to be defined how the mechanic to configure on a lower level will work and which restrictions will apply.
@@ -503,7 +509,7 @@ To make this happen we'll [use the following approach](https://gitlab.com/gitlab
 - [Iteration 2 epic](https://gitlab.com/groups/gitlab-org/-/epics/14794)
 - Implement custom statuses
 - Board integration
-- Filter by a single status on list views (if ready only work item list, else legacy list)
+- Filter by a single status on list views (if ready only work item list, else legacy list, no support for legacy epic list)
 - Status management (create, update, reorder, delete)
 - Migration from labels to statuses
 - Expand support to Issues and Epics
@@ -517,6 +523,7 @@ Iteration 2 is the GA release. The following changes need to happen to change fr
 
 - [Iteration 3 epic](https://gitlab.com/groups/gitlab-org/-/epics/14795)
 - Customizable status for all work item types
+- Lifecycle management (create, update, assign work item types, delete)
 - Status available on dashboards (more complex because they can be fed by different root namespaces)
 - Calculations for milestone and iteration burndown
 
