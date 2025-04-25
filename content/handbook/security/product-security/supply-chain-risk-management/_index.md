@@ -267,4 +267,3 @@ Success in our supply chain risk management strategy will be measured by:
 | Successful passing of external security audits with minimal findings | Map findings related to supply chain. Loop back with coverage above to make sure previously unknown risks are logged. | SecAssurance / AppSec |
 | Improved visibility and quantification of supply chain risks and dependencies | Track "dead-ends" in supply chains (missing information). | Each risk is labeled correctly in the PSRR & [Inventory of GitLab public artifacts](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/73) |
 | Reduced number of critical and high-risk components in the supply chain | Number of components with risk score above a shreshold. | PSRR |
-
