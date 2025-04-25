@@ -5,7 +5,7 @@
 title: "GitLab Data Exploration and Querying Architecture"
 status: ongoing
 creation-date: "2025-04-24"
-authors: [ "@drosse", "@jiaan", "@rob.hunt" ]
+authors: [ "@drosse"]
 coaches: [ "@username" ]
 dris: [ "@lfarina8", "@nicholasklick" ]
 owning-stage: "~devops::monitor"
@@ -183,10 +183,8 @@ Despite these challenges, there is a significant opportunity to simplify and enh
 - A unified data exploration interface would simplify access to critical insights, improve feature adoption, and unlock data that is currently inaccessible to most users due to technical complexity
 - Standardizing query patterns could unlock new cross-source analytics capabilities
 - Consistent visualization options would help users interpret data more effectively
-- A metadata-driven approach could make new data sources discoverable as they become available
-- Integration with GitLab Duo could further enhance data exploration through AI assistance
 - Enabling export, sharing, and embedding of query results would allow users to incorporate insights across other GitLab pages and workflows
-- A well-designed data exploration architecture would not only address the current pain points but also establish a foundation for more advanced analytics capabilities in the future
+- Integration with GitLab Duo could further enhance data exploration through AI assistance
 
 A well-designed data exploration architecture would not only address the current pain points but also establish a foundation for more advanced analytics capabilities in the future.
 
@@ -225,7 +223,6 @@ List the specific goals / opportunities of the document.
 - **Standardize the filtering interface** to work consistently regardless of underlying data source
 - **Enable exporting** of queries result across GitLab pages
 - **Support common visualization needs** by leveraging existing dashboard framework components
-- **Enable metadata-driven discovery** of available data sources and their schemas
 - **Ensure appropriate performance** for data exploration queries across different data sources
 - **Maintain proper security controls** and respect user permissions across all data sources
 - **Facilitate integration with GitLab Duo** to enhance data exploration capabilities
@@ -240,10 +237,7 @@ optional.
 - What is out of scope for this document?
 -->
 
-- **Creating a dashboard layout framework implementation** - We will rely on the existing framework
-- **Creating new visualization components** - We will use existing visualization components rather than creating new ones
-
-
+- **Creating new dashboard frameowkr or visualization components** - We will use existing framework visualization components rather than creating new ones
 
 ## Proposal
 
