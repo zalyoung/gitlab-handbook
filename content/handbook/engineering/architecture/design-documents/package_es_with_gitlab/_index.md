@@ -120,7 +120,7 @@ We propose to package Elasticsearch with GitLab distribution through the followi
 Several potential implementation approaches to consider:
 
 1. **Full Packaging**: Include Elasticsearch directly in omnibus and K8S deliverable packages
-   - Could use Elastic's "Free and Open" version (legally vetted, no additional cost)
+   - Elasticsearch core is [open source under the AGPL license](https://www.elastic.co/about/open-source)
    - Would provide most seamless experience for users
 
 2. **Installation Script**: Include scripts in GitLab's distribution that facilitate downloading and installing Elasticsearch
@@ -137,7 +137,7 @@ Based on preliminary discussions, the full packaging approach appears to offer t
 
 ### Technical Approach
 
-For the initial implementation, we propose to include Elasticsearch's "Free and Open" version with GitLab's distribution packages, with the following considerations:
+For the initial implementation, we propose to include Elasticsearch core  version with GitLab's distribution packages, with the following considerations:
 
 1. **Packaging Method Considerations**:
    - For Omnibus: Consider bundling Elasticsearch as a configurable component
@@ -146,9 +146,9 @@ For the initial implementation, we propose to include Elasticsearch's "Free and 
 
 2. **Version Selection**:
    - Include Elasticsearch version 8.12+ to support hybrid search capabilities
-   - The "Free and Open" version is legally approved and incurs no additional licensing costs
+   - Elasticsearch core is open source under the AGPL license
    - The latest versions have non-trivial cost savings and performance improvements for embeddings storage
-   - **Implementation Note**: Elasticsearch Docker Hub images bundle both Free and Open and Enterprise code, with the latter activated by default for a 30-day trial. As part of this work, we'll need to modify CI configurations to explicitly use only the Free and Open functionality.
+   - **Implementation Note**: Elasticsearch Docker Hub images bundle both core and enterprise code, with the latter activated by default for a 30-day trial. As part of this work, we'll need to modify CI configurations to explicitly use only the core functionality.
 
 3. **Configuration and Resource Allocation**:
    - Default to a minimal configuration suitable for small instances
