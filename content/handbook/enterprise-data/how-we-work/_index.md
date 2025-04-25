@@ -35,9 +35,11 @@ The Data Team strives to spend the majority of its time developing and operating
 | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. |  Target allocation varies by data team pillar and needs of the business | Prioritized through the Data Steering Committee and committed to during our [quarterly planning process](/handbook/enterprise-data/how-we-work/planning/) |
 | Business Support | Data work and business engagement that is requested on an ad-hoc basis throughout the quarter | Target allocation varies by data team pillar and needs of the business | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/enterprise-data/how-we-work/#quarterly-and-iteration-planning). |
 
+The allocation of capacity across Production Operations, Data Team OKRs, and Business Support will be determined by each pillar on a quarter-by-quarter basis in the planning file. The allocation will consider the amount of Production Operations support needed from the pillar, strategic initiatives that the pillar needs to support, and projects being developed by partner teams.
+
 We use [scoped labels in GitLab](/handbook/enterprise-data/how-we-work/#issue-labeling) to track our issues across these categories.
 
-In addition to the above priorities focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends 5 to 10% of our time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
+In addition to the above categories focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
 
 ### Project Intake
 
