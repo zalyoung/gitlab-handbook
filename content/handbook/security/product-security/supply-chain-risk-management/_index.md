@@ -241,6 +241,231 @@ Success in our supply chain risk management strategy will be measured by:
 | Improved visibility and quantification of supply chain risks and dependencies | Track "dead-ends" in supply chains (missing information). | Each risk is labeled correctly in the PSRR & [Inventory of GitLab public artifacts](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/73) |
 | Reduced number of critical and high-risk components in the supply chain | Number of components with risk score above a shreshold. | PSRR |
 
+## Practical Implementation Guide
+
+### Implementation Playbooks
+
+#### New Project Security Setup
+
+The following playbooks provide practical guidance for implementing supply chain security controls in different scenarios.
+
+##### Initial Setup Checklist
+
+- [ ] Configure source code repository security settings
+  - Enable branch protection rules
+  - Set up code owner reviews
+  - Configure commit signing requirements
+- [ ] Set up automated security scanning
+  - Enable dependency scanning
+  - Configure container scanning
+  - Set up SAST analysis
+- [ ] Configure artifact security
+  - Enable SBOM generation
+  - Set up artifact signing
+  - Configure secure artifact storage
+- [ ] Implement access controls
+  - Set up RBAC
+  - Configure authentication requirements
+  - Enable audit logging
+
+##### CI/CD Pipeline Security Template
+
+```yaml
+# Example secure pipeline configuration
+stages:
+  - dependency-check
+  - build
+  - sign
+  - verify
+
+dependency-scan:
+  stage: dependency-check
+  script:
+    - run-dependency-scan
+    - validate-dependencies
+  artifacts:
+    reports:
+      dependency_scanning: gl-dependency-scanning.json
+
+build:
+  stage: build
+  script:
+    - build-with-reproducible-config
+    - generate-sbom
+  artifacts:
+    reports:
+      sbom: gl-sbom.json
+
+sign-artifacts:
+  stage: sign
+  script:
+    - sign-container-images
+    - sign-sbom
+    - store-signatures
+
+verify:
+  stage: verify
+  script:
+    - verify-signatures
+    - validate-sbom
+    - check-compliance
+```
+
+### Decision Trees
+
+#### Evaluating New Dependencies
+
+```mermaid
+graph TD
+    A[New Dependency Required] -->|Evaluate| B{Is it in approved registry?}
+    B -->|Yes| C{Recent updates?}
+    B -->|No| D[Security Assessment Required]
+    C -->|Yes| E[Check vulnerability history]
+    C -->|No| F[Evaluate alternatives]
+    E -->|Clean| G[Proceed with integration]
+    E -->|Issues found| H[Risk assessment needed]
+    D --> I[Complete security review]
+    F --> J[Document decision]
+    G --> K[Update dependency list]
+    H --> L[Document mitigation]
+```
+
+#### Security Incident Response
+
+```mermaid
+graph TD
+    A[Supply Chain Security Alert] -->|Initial Assessment| B{Severity Level?}
+    B -->|Critical| C[Immediate Response]
+    B -->|High| D[24h Response]
+    B -->|Medium| E[Scheduled Response]
+    C --> F[Stop affected pipelines]
+    D --> G[Investigate impact]
+    E --> H[Plan mitigation]
+    F --> I[Incident response team]
+    G --> J[Security review]
+    H --> K[Update controls]
+```
+
+### Practical Checklists
+
+#### Source Code Repository Security
+
+- [ ] Branch protection rules enabled
+  - Required approvals configured
+  - Force push prohibited
+  - Branch deletion restricted
+- [ ] Code owners defined and enforced
+- [ ] Commit signing required
+- [ ] Automated security scanning enabled
+  - Dependency scanning
+  - SAST
+  - Container scanning
+- [ ] Access controls reviewed quarterly
+- [ ] Audit logging enabled
+
+#### Build Process Security
+
+- [ ] Reproducible builds configured
+- [ ] Build environment isolated
+- [ ] Dependencies pinned to specific versions
+- [ ] Build logs retained and secured
+- [ ] Build artifacts signed
+- [ ] SBOM generated per build
+- [ ] Build cache security configured
+
+#### Artifact Distribution Security
+
+- [ ] Artifacts stored in secure registry
+- [ ] Access controls implemented
+- [ ] Signature verification enabled
+- [ ] SBOM attached to artifacts
+- [ ] Distribution process documented
+- [ ] Artifact retention policy enforced
+
+### Quick Reference Guides
+
+#### Common Security Controls Implementation
+
+| Control | Implementation | Verification | Monitoring |
+|---------|----------------|--------------|------------|
+| Code Signing | Use GPG/cosign keys | Verify signatures | Check signature logs |
+| Dependency Scanning | Configure dependency scanner | Review scan results | Monitor for new vulnerabilities |
+| Access Control | Implement RBAC | Audit access logs | Review access patterns |
+| SBOM Generation | Configure CycloneDX generator | Validate SBOM contents | Track SBOM coverage |
+
+#### Incident Response Procedures
+
+| Scenario | Immediate Action | Investigation | Follow-up |
+|----------|------------------|---------------|-----------|
+| Vulnerable Dependency | Lock dependency version | Assess impact | Plan upgrade |
+| Compromised Credential | Revoke access | Review audit logs | Rotate credentials |
+| Build System Issue | Stop builds | Investigate logs | Update controls |
+| Malicious Package | Block package | Track usage | Update allowlist |
+
+### Metrics Collection Framework
+
+#### Key Performance Indicators (KPIs)
+
+1. Security Posture Metrics
+   - Number of critical vulnerabilities
+   - Mean time to remediate (MTTR)
+   - Security control coverage percentage
+   - SLSA compliance level
+
+2. Implementation Progress Metrics
+   - Percentage of repositories with full security controls
+   - Number of signed releases
+   - SBOM coverage across artifacts
+   - Dependency scanning coverage
+
+#### Measurement Methods
+
+```yaml
+metrics:
+  vulnerability_tracking:
+    tool: Dependency Scanner
+    frequency: Daily
+    threshold: Zero critical findings
+    
+  build_security:
+    tool: Pipeline Analytics
+    frequency: Per build
+    threshold: 100% signed artifacts
+    
+  sbom_coverage:
+    tool: SBOM Analyzer
+    frequency: Weekly
+    threshold: 95% coverage
+```
+
+### Troubleshooting Guide
+
+#### Common Issues and Solutions
+
+1. Build Failures
+   - Signature verification failed
+     - Check key expiration
+     - Verify key permissions
+     - Validate signing configuration
+   - Dependency check failed
+     - Update dependencies
+     - Check for false positives
+     - Review security advisories
+   - SBOM generation failed
+     - Verify metadata completeness
+     - Check tool configuration
+     - Validate dependencies list
+
+2. Security Control Issues
+   - Access control problems
+     - Review access logs
+     - Check permission settings
+     - Validate user roles
+   - Pipeline security failures
+     - Check security scan configs
+     - Verify pipeline permissions
+     - Review security policies
+
 ## References and Resources
 
 - [SLSA 1.0 Specifications and Requirements](https://slsa.dev/spec/v1.0/)
