@@ -217,7 +217,11 @@ All [one-time bonuses](/handbook/total-rewards/incentives/) including Discretion
 
 ### Not paid in your local currency
 
-Team members contracted through CXC or IT BV may have the option to choose to be paid in USD or EUR when there is volatility in their local currency. This change can only be made once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. This change will be made according to the conversion from local currency to USD or EUR at the time of the update. All future salary adjustments will be made based on the new salary regardless of fluctuations to local currency in order to provide a stable experience to team members who opt into this.
+Team members contracted through CXC or IT BV may have the option to be paid in USD or EUR when there is volatility in their local currency. This change can be made only once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. 
+
+The conversion from local currency to USD or EUR will be calculated at the time of the update. All future salary adjustments will be based on the new currency amount, regardless of fluctuations in the local currency. This provides stable compensation for team members who opt into this arrangement.
+
+If a team member is currently paid in a non-local currency, they may request to move back to their local currency. Once a team member has requested to move back to their local currency, this decision will be final.
 
 Please reach out to People Connect in order to understand if you are eligible to update your currency to USD or EUR and to initiate this process.
 
