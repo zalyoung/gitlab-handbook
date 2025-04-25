@@ -34,7 +34,7 @@ We focus our inventory and management efforts on artifacts and components within
 
 ### SLSA Supply Chain Model
 
-We align our supply chain tracking with the SLSA framework ([Specification 1.0](https://slsa.dev/spec/v1.0/)), which defines three key areas to secure:
+We align our supply chain tracking with the SLSA framework ([Specification 1.1](https://slsa.dev/spec/v1.1/)), which defines three key areas to secure:
 
 ![SLSA Supply Chain Model](/images/security/product-security/supply-chain-risk-management/supply-chain-model.svg)
 
@@ -42,13 +42,13 @@ This model illustrates the core steps we track:
 
 1. **Source**: Where code is authored, reviewed, and stored
 1. **Build**: Where source is transformed into packages/artifacts
-1. **Package**: Where built artifacts are stored and distributed
+1. **Distribution**: Where built artifacts are stored and distributed
 
 The model also depicts:
 
 - **Producer**: The entity responsible for creating the software
 - **Consumer**: The entity consuming the software (another supply chain, or end-user)
-- **Dependencies**: Internal and external components that feed into the build and package processes
+- **Dependencies**: Internal and external components that feed into the Build and Distribution processes
 
 For each artifact in our supply chain, we track its path through these three core steps, documenting controls and provenance at each stage.
 
@@ -56,7 +56,7 @@ For each artifact in our supply chain, we track its path through these three cor
 
 Our model identifies specific component types within each core step of the supply chain. These types serve as reference elements to be used when describing a particular subset of the supply chain. Note that not all components will be present in every supply chain - the categorization below provides a framework for comprehensive modeling.
 
-These types are linked to [SLSA threats](https://slsa.dev/spec/v1.0/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below. Risks can be linked to a subtype if more granularity is needed.
+These types are linked to [SLSA threats](https://slsa.dev/spec/v1.1/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below. Risks can be linked to a subtype if more granularity is needed.
 
 #### Source components
 
@@ -103,25 +103,25 @@ The Build core step includes everything that can transform the source code (comp
 |  | Certificate authorities | `~sscs-rm-component:build:certificate-authorities` |
 |  | Signing infrastructure | `~sscs-rm-component:build:signing-infra` |
 
-#### Package components
+#### Distribution components
 
 | Component type | Sub type | Label |
 | -- | -- | -- |
-| **Registries** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:registries` |
-|  | Package registry | `~sscs-rm-component:pkg:package-registry` |
-|  | Container registry | `~sscs-rm-component:pkg:container-registry` |
-| **Distribution Infrastructure** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:distribution-infra` |
-|  | CDNs | `~sscs-rm-component:pkg:cdns` |
-|  | Mirror services | `~sscs-rm-component:pkg:mirror-services` |
-|  | Download servers | `~sscs-rm-component:pkg:download-servers` |
-| **Verification Systems** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:verification-systems` |
-|  | Signature verification | `~sscs-rm-component:pkg:signature-verification` |
-|  | Checksumming services | `~sscs-rm-component:pkg:checksumming-services` |
-|  | Attestation systems | `~sscs-rm-component:pkg:attestation-systems` |
+| **Registries** | (Wraps all sub-types below) | `~sscs-rm-component:dis:registries` |
+|  | Package registry | `~sscs-rm-component:dis:package-registry` |
+|  | Container registry | `~sscs-rm-component:dis:container-registry` |
+| **Distribution Infrastructure** | (Wraps all sub-types below) | `~sscs-rm-component:dis:distribution-infra` |
+|  | CDNs | `~sscs-rm-component:dis:cdns` |
+|  | Mirror services | `~sscs-rm-component:dis:mirror-services` |
+|  | Download servers | `~sscs-rm-component:dis:download-servers` |
+| **Verification Systems** | (Wraps all sub-types below) | `~sscs-rm-component:dis:verification-systems` |
+|  | Signature verification | `~sscs-rm-component:dis:signature-verification` |
+|  | Checksumming services | `~sscs-rm-component:dis:checksumming-services` |
+|  | Attestation systems | `~sscs-rm-component:dis:attestation-systems` |
 
-### SLSA 1.0 Alignment
+### SLSA 1.1 Alignment
 
-This framework is based on the Supply chain Levels for Software Artifacts (SLSA) specification 1.0. We deliberately adopt SLSA terminology and concepts to ensure consistency with industry standards and facilitate compliance efforts. Key SLSA elements incorporated into our model include:
+This framework is based on the Supply chain Levels for Software Artifacts (SLSA) specification 1.1. We deliberately adopt SLSA terminology and concepts to ensure consistency with industry standards and facilitate compliance efforts. Key SLSA elements incorporated into our model include:
 
 - Build provenance documentation
 - Source verification
@@ -131,29 +131,56 @@ This framework is based on the Supply chain Levels for Software Artifacts (SLSA)
 
 #### Threats
 
-SLSA [defines a set of threats](https://slsa.dev/spec/v1.0/threats) that are used in the PSRR to link elements of the model to risks:
+SLSA [defines a set of threats](https://slsa.dev/spec/v1.1/threats) that are used in the PSRR to link elements of the model to risks:
 
 ![SLSA Threats](/images/security/product-security/supply-chain-risk-management/supply-chain-threats.svg)
 
-| Threat area | Threat | Label |
-| -- | -- | -- |
-| Source | [(A) Submit unauthorized change](https://slsa.dev/spec/v1.0/threats#a-submit-unauthorized-change) | `~sscs-rm-threat::a-submit-unauthorized-change` |
-|        | [(B) Compromise source repo](https://slsa.dev/spec/v1.0/threats#b-compromise-source-repo) | `~sscs-rm-threat::b-compromise-source-repo` |
-|        | [(C) Build from modified source](https://slsa.dev/spec/v1.0/threats#c-build-from-modified-source) | `~sscs-rm-threat::c-build-from-modified-source` |
-| Dependency | [(D) Use compromised dependency](https://slsa.dev/spec/v1.0/threats#d-use-compromised-dependency) | `~sscs-rm-threat::d-use-compromised-dependency` |
-| Build  | [(E) Compromise build process](https://slsa.dev/spec/v1.0/threats#e-compromise-build-process) | `~sscs-rm-threat::e-compromise-build-process` |
-|        | [(F) Upload modified package](https://slsa.dev/spec/v1.0/threats#f-upload-modified-package) | `~sscs-rm-threat::f-upload-modified-package` |
-|        | [(G) Compromise package registry](https://slsa.dev/spec/v1.0/threats#g-compromise-package-registry) | `~sscs-rm-threat::g-compromise-pkg-registry` |
-|        | [(H) Use compromised package](https://slsa.dev/spec/v1.0/threats#h-use-compromised-package) | `~sscs-rm-threat::h-use-compromised-pkg` |
-
-### SBOM Integration
-
-Software Bills of Materials (SBOMs) play a crucial role in connecting different supply chains. For each artifact we produce:
-
-- We generate a comprehensive SBOM
-- The SBOM documents all dependencies and their sources
-- These SBOMs serve as the "connective tissue" between different supply chain segments
-- SBOMs provide traceability from any artifact back through its entire dependency tree
+| Threat area | Threat | Description | Label |
+| -- | -- | -- | -- |
+| Source | [(A) Producer](https://slsa.dev/spec/v1.1/threats#a-producer) | Software producer intentionally creates a malicious revision of the source | `~sscs-rm-threat::a-malicious-source` |
+| | [(B) Modifying the source](https://slsa.dev/spec/v1.1/threats#b-modifying-the-source) -> [(B1) Submit change without review](https://slsa.dev/spec/v1.1/threats#b1-submit-change-without-review) | Directly submit without review | `~sscs-rm-threat::b1-submit-without-review` |
+| | | Single actor controls multiple accounts | `~sscs-rm-threat::b1-actor-controls-multiple-accounts` |
+| | | Use a robot account to submit change | `~sscs-rm-threat::b1-robot-account-submit` |
+| | | Abuse of rule exceptions | `~sscs-rm-threat::b1-abuse-rule-exceptions` |
+| | | Highly-permissioned actor bypasses or disables controls | `~sscs-rm-threat::b1-bypass-controls` |
+| | [(B) Modifying the source](https://slsa.dev/spec/v1.1/threats#b-modifying-the-source) -> [(B2) Evade change management process](https://slsa.dev/spec/v1.1/threats#b2-evade-change-management-process) | Modify code after review | `~sscs-rm-threat::b2-modify-after-review` |
+| | | Submit a change that is unreviewable | `~sscs-rm-threat::b2-unreviewable-change` |
+| | | Copy a reviewed change to another context | `~sscs-rm-threat::b2-copy-to-another-context` |
+| | | Commit graph attacks | `~sscs-rm-threat::b2-commit-graph-attacks` |
+| | [(B) Modifying the source](https://slsa.dev/spec/v1.1/threats#b-modifying-the-source) -> [(B3) Render code review ineffective](https://slsa.dev/spec/v1.1/threats#b3-render-code-review-ineffective) | Collude with another trusted person | `~sscs-rm-threat::b3-collusion` |
+| | | Trick reviewer into approving bad code | `~sscs-rm-threat::b3-trick-reviewer` |
+| | | Reviewer blindly approves changes | `~sscs-rm-threat::b3-blind-approval` |
+| | [(B) Modifying the source](https://slsa.dev/spec/v1.1/threats#b-modifying-the-source) -> [(B4) Render change metadata ineffective](https://slsa.dev/spec/v1.1/threats#b4-render-change-metadata-ineffective) | Forge change metadata | `~sscs-rm-threat::b4-forge-metadata` |
+| | [(C) Source code management](https://slsa.dev/spec/v1.1/threats#c-source-code-management) | Platform admin abuses privileges | `~sscs-rm-threat::c-admin-abuse` |
+| | | Exploit vulnerability in SCM | `~sscs-rm-threat::c-exploit-scm-vulnerability` |
+| Build | [(D) External build parameters](https://slsa.dev/spec/v1.1/threats#d-external-build-parameters) | Build from unofficial fork of code | `~sscs-rm-threat::d-unofficial-fork` |
+| | | Build from unofficial branch or tag | `~sscs-rm-threat::d-unofficial-branch` |
+| | | Build from unofficial build steps | `~sscs-rm-threat::d-unofficial-steps` |
+| | | Build from unofficial parameters | `~sscs-rm-threat::d-unofficial-parameters` |
+| | | Build from modified version of code modified after checkout | `~sscs-rm-threat::d-modified-after-checkout` |
+| | [(E) Build process](https://slsa.dev/spec/v1.1/threats#e-build-process) | Forge values of the provenance (other than output digest) | `~sscs-rm-threat::e-forge-provenance-values` |
+| | | Forge output digest of the provenance | `~sscs-rm-threat::e-forge-output-digest` |
+| | | Compromise project owner | `~sscs-rm-threat::e-compromise-owner` |
+| | | Compromise other build | `~sscs-rm-threat::e-compromise-other-build` |
+| | | Steal cryptographic secrets | `~sscs-rm-threat::e-steal-secrets` |
+| | | Poison the build cache | `~sscs-rm-threat::e-poison-cache` |
+| | | Compromise build platform admin | `~sscs-rm-threat::e-compromise-platform-admin` |
+| | [(F) Artifact publication](https://slsa.dev/spec/v1.1/threats#f-artifact-publication) | Build with untrusted CI/CD | `~sscs-rm-threat::f-untrusted-cicd` |
+| | | Upload package without provenance | `~sscs-rm-threat::f-upload-without-provenance` |
+| | | Tamper with artifact after CI/CD | `~sscs-rm-threat::f-tamper-after-cicd` |
+| | | Tamper with provenance | `~sscs-rm-threat::f-tamper-with-provenance` |
+| | [(G) Distribution channel](https://slsa.dev/spec/v1.1/threats#g-distribution-channel) | Build with untrusted CI/CD | `~sscs-rm-threat::g-untrusted-cicd` |
+| | | Issue VSA from untrusted intermediary | `~sscs-rm-threat::g-untrusted-vsa` |
+| | | Upload package without provenance or VSA | `~sscs-rm-threat::g-upload-without-verification` |
+| | | Replace package and VSA with another | `~sscs-rm-threat::g-replace-package-vsa` |
+| | | Tamper with artifact after upload | `~sscs-rm-threat::g-tamper-after-upload` |
+| | | Tamper with provenance or VSA | `~sscs-rm-threat::g-tamper-verification` |
+| Usage | [(H) Package selection](https://slsa.dev/spec/v1.1/threats#h-package-selection) | Dependency confusion | `~sscs-rm-threat::h-dependency-confusion` |
+| | | Typosquatting | `~sscs-rm-threat::h-typosquatting` |
+| | [(I) Usage](https://slsa.dev/spec/v1.1/threats#i-usage) | Improper usage | `~sscs-rm-threat::i-improper-usage` |
+| Dependency | [Build dependency](https://slsa.dev/spec/v1.1/threats#build-dependency) | Include a vulnerable dependency | `~sscs-rm-threat::dep-vulnerable-dependency` |
+| | | Use a compromised build tool | `~sscs-rm-threat::dep-compromised-build-tool` |
+| | | Use a compromised runtime dependency during the build | `~sscs-rm-threat::dep-compromised-runtime-dependency` |
 
 ## Integration with the Product Security Risk Register
 
@@ -162,7 +189,7 @@ The Supply Chain Risk Management Strategy serves as a critical foundation for th
 1. **Risk Mapping Requirements**
 
    - Every supply chain risk in the PSRR must reference specific components from this model
-   - By extension, risks identifies which part of the supply chain step is affected (Source, Build, or Package)
+   - By extension, risks identifies which part of the supply chain step is affected (Source, Build, or Distribution)
    - Risk documentation can include specific artifacts involved
    - The potential for risk propagation through the supply chain should be documented
 
@@ -232,18 +259,12 @@ The following metrics represent future/North Star indicators. These are not curr
 Success in our supply chain risk management strategy will be measured by:
 
 | Metric | Possible methodology | Dependencies |
-| -- | -- | -- | 
+| -- | -- | -- |
 | Completeness of risk assessment coverage across all components and artifacts | Track threat models done for each component. | [Inventory of GitLab public artifacts](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/73) |
 | Quantifiable reduction in supply chain security incidents and vulnerabilities | Create new labels to track down incidents and vulnerabilities related to our supply chain. | AppSec team |
 | Decreased mean time to detect and respond to supply chain threats | Risks in the PSRR should have remediation issues linked, but also detection issues. | PSRR |
-| Progressive achievement of higher SLSA levels with documented risk reduction | Track implemented [SLSA requirements](https://slsa.dev/spec/v1.0/requirements). | This [Epic](https://gitlab.com/groups/gitlab-org/-/epics/15857) for SLSA Level 3 support. |
+| Progressive achievement of higher SLSA levels with documented risk reduction | Track implemented [SLSA requirements](https://slsa.dev/spec/v1.1/requirements). | This [Epic](https://gitlab.com/groups/gitlab-org/-/epics/15857) for SLSA Level 3 support. |
 | Successful passing of external security audits with minimal findings | Map findings related to supply chain. Loop back with coverage above to make sure previously unknown risks are logged. | SecAssurance / AppSec |
 | Improved visibility and quantification of supply chain risks and dependencies | Track "dead-ends" in supply chains (missing information). | Each risk is labeled correctly in the PSRR & [Inventory of GitLab public artifacts](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/73) |
 | Reduced number of critical and high-risk components in the supply chain | Number of components with risk score above a shreshold. | PSRR |
 
-## References and Resources
-
-- [SLSA 1.0 Specifications and Requirements](https://slsa.dev/spec/v1.0/)
-- [NIST Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)
-- [SPDX SBOM Format](https://spdx.dev/)
-- [CycloneDX SBOM Format](https://cyclonedx.org/)
