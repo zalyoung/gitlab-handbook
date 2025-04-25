@@ -18,7 +18,7 @@ The credentials for accessing the Grafana instance associated with each GitLab D
 
 ### Preprod deployments
 
-Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#customers-with-dedicated-pre-prod-deployments) to find links to the Grafana dashboard for a specific customer.
+Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#customers-with-dedicated-preprod-deployments) to find links to the Grafana dashboard for a specific customer.
 
 ## Finding Dashboards
 
