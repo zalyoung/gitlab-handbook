@@ -187,24 +187,24 @@ We prioritize a balanced approach to design critiques that practices benevolent,
 1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work
 1. **Provide thorough context**: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged
 1. **Structure the critique session**:
-- Begin by presenting work without excessive explanation (5 min)
-- Allow participants to ask clarifying questions (3 min)
-- Receive feedback using the "I like/I wish/What if" framework (15 min)
-- Summarize key takeaways and next steps (2 min)
+    1. Begin by presenting work without excessive explanation (5 min)
+    1. Allow participants to ask clarifying questions (3 min)
+    1. Receive feedback using the "I like/I wish/What if" framework (15 min)
+    1. Summarize key takeaways and next steps (2 min)
 1. **Participate effectively**: When giving to critique to others:
-- Focus on the work, not the person ("This border element..." not "Your design")
-- Be specific and reference particular elements ("The hierarchy in this section...") not "It feels off"
-- Connect feedback to user needs or business goals
-- Frame concerns as questions when possible ("Have you considered...?)
+    1. Focus on the work, not the person ("This border element..." not "Your design")
+    1. Be specific and reference particular elements ("The hierarchy in this section...") not "It feels off"
+    1. Connect feedback to user needs or business goals
+    1. Frame concerns as questions when possible ("Have you considered...?)
 1. **Receive critique productively**:
-- Listen without immediately defending
-- Take detailed notes
-- Ask clarifying questions when needed
-- Thank participants for specific, challenging feedback
+    1. Listen without immediately defending
+    1. Take detailed notes
+    1. Ask clarifying questions when needed
+    1. Thank participants for specific, challenging feedback
 1. **Document and follow up**:
-- Capture key critique points in the relevent issue or epic
-- SHare how the critique influenced your design decisions in subsequent iterations
-- Acknowledge team members whose critique led to meaningful improvements
+    1. Capture key critique points in the relevent issue or epic
+    1. Share how the critique influenced your design decisions in subsequent iterations
+    1. Acknowledge team members whose critique led to meaningful improvements
 
 By embracing true critique rather than simple review, we create an environment where excellence is expected, supported, and achieved through collabroative challenge.
 
