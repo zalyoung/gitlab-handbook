@@ -41,7 +41,7 @@ Open Source libraries are allowed under this policy if its use complies with the
 
 ### Freeware, Browser Extensions, Add-ons, and Plugins
 
-Individual Use Software (freeware, add-ons and plugins) is generally not permitted unless there is a clear business need and the software has been reviewed and approved prior to use. In addition all Google Workspace Integrations and Chrome Extensions must be approved by Security prior to use. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security when it is deemed unsafe or insecure. IT Security will periodically take inventories of GitLab provided endpoints installed software and take any necessary action. 
+Individual Use Software (freeware, add-ons and plugins) is permitted once it has been reviewed and approved. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security. IT Security will periodically take inventories of GitLab provided endpoints installed software and take any necessary action. 
 
 Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
 
