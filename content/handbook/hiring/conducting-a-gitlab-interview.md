@@ -55,6 +55,26 @@ It's important to allocate the right amount of time for each part of the intervi
 1. Interviewer questions for the candidate = 80-85%
 1. Candidate questions for the interviewer = 5-10%
 
+### ⚠️ Be Alert as an Interviewer
+
+Please note, there is a possible risk event affecting fully-remote workplaces like ours:
+
+- Threat actors are using **AI deepfake avatars to disguise their identities** during online interviews for open roles. The intent is to trick the company into hiring them for reasons such as:
+
+  - Financial exploitation
+  - Intellectual property theft
+  - Introduction of security vulnerabilities or ransomware
+
+What can you do to help protect GitLab?
+
+- After joining the video call with the candidate, politely ask them to:
+
+  - Turn off all virtual backgrounds and video filters
+  - Turn their face side to side
+  - Raise a hand in front of their face
+
+- Most importantly, **trust your instincts**. If the candidate refuses to comply with the above or if the video/audio still appears unusual, end the call. Promptly report the incident to Talent Acquisition leadership.
+
 ### Quick Tips
 
 - Show up prepared and on time.
