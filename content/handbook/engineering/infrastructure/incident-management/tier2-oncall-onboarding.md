@@ -18,7 +18,7 @@ The Tier-2 SME on-call program enhances incident response by establishing a seco
 
 ## Escalation Criteria
 
-The Tier-1 team will exhaust all available resources and troubleshooting steps before escalating to Tier-2. The following guidelines help determine when escalation is appropriate:
+The Tier-1 Engineering On-Call (EOC) will perform initial triage and use available documentation before escalating to Tier-2 SMEs. However, timely escalation is encouraged when domain expertise is clearly needed, especially for critical incidents. The following guidelines help determine when escalation is appropriate:
 
 ### By Severity Level
 
