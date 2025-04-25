@@ -55,6 +55,8 @@ It's important to allocate the right amount of time for each part of the intervi
 1. Interviewer questions for the candidate = 80-85%
 1. Candidate questions for the interviewer = 5-10%
 
+All interviews following a recruiter screen should take place on camera for both the candidate and interviewer. If the candidate is unable to use their camera because of technical issues, please indicate this in your interview notes. Seeing candidates on camera helps identify challenging interview situations, such as AI Deepfake avatars and multiple users interviewing as one candidate. If you have concerns about filters and odd behavior during an interview, please take a screenshot to send to the recruiter for reference who will then compare to other sources, such as LinkedIn or their recruiter screen. Trust your instincts- if something feels off or out of place, let your Talent Acquistion partner know.
+
 ### Quick Tips
 
 - Show up prepared and on time.
@@ -66,7 +68,7 @@ It's important to allocate the right amount of time for each part of the intervi
   - Let the candidate know you are taking notes
   - Be an active listener
     - Concentrate on the candidate - remove all distractions (turn off notifications on your phone, slack, email, etc.) Look at the candidate - make sure to look at your camera and not at another screen
-    - Try not to interrupt - validate your assumptions by explaining what you understood, and allow the candidate to correct your understanding of the story Silence is golden
+    - Try not to interrupt - validate your assumptions by explaining what you understood, and allow the candidate to correct your understanding of the story.
 - Cover the prepared topics/questions without being mechanical
   - Work with the hiring team to set up the interview plan in Greenhouse ahead of the interview to ensure all the areas you want to cover are in the scorecard.
   - Try to cover the prepared topics, but keep the conversation smooth - it is ok to skip around.
