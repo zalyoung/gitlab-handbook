@@ -30,7 +30,7 @@ For long pages, consider creating a table of contents.
 
 Dashboards are at the heart of how our customers interact with their data.
 It is the means to which they are able to understand their data and use it to meet their business needs.
-However, at GitLab, our dashboards have always been inheritenly feature-focused, without any unifying vision
+However, at GitLab, our dashboards have always been inherently feature-focused, without any unifying vision
 or clear guidance on _how_ to build a dashboard that meets the needs of our customers whilst also providing
 clear UX and behavioral guidelines to make sure our customers know how to use a dashboard at GitLab, irrespective
 of the data they're looking at.
@@ -46,8 +46,8 @@ The framework has been adopted by ~"group::optimize" for the [Value Stream Dashb
 and [AI Impact Analytics](https://docs.gitlab.com/user/analytics/ai_impact_analytics/),
 as well as currently being evaluated for our [Security Dashboards](https://docs.gitlab.com/user/application_security/security_dashboard/).
 
-The next stage of this work is to solidify the foundations of the dashboards framework, align on the UI/UX, and what features the dashboards framework will support.
-There must be clear guidance on:
+The next stage of this work is to solidify the foundations of the dashboards framework, align on the UI/UX,
+and what features the dashboards framework will support. There must be clear guidance on:
 
 - What a dashboard is and isn't, along with what functionality a dashboard should provide.
 - How to use the dashboards framework within existing features and new features.
@@ -56,8 +56,8 @@ There must be clear guidance on:
 
 ## Motivation
 
-As part of the [Data Unification and Insights effort](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc) we are looking to unify and standardize our data offering
-at GitLab. A core part of this work, is aligning our UI/UX on how customers interact with their data and
+As part of the [Data Unification and Insights effort](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc), we are looking to unify and standardize our data offering
+at GitLab. A core part of this work, is aligning our UI/UX to how customers interact with their data and
 gain insights on what they can do to meet their business needs. Implementing and adopting a standardized
 dashboards framework will go a long way to meeting this need, whilst also giving us the foundation to
 augment our existing offering with clearer visuals and AI integration.
@@ -67,13 +67,14 @@ augment our existing offering with clearer visuals and AI integration.
 - Clear guidelines on what a dashboard is, what functionality it contains, and how to use the framework.
 - Adopt the dashboards framework across GitLab, especially where data is being used for analysis.
 - An agnostic dashboards framework, giving engineers the tools needed to quickly and efficiently set up and use dashboards.
-- Link uses of the dashboards framework together in preperation for [dashboards navigation restructuring](https://gitlab.com/groups/gitlab-org/-/epics/16940).
+- Link uses of the dashboards framework together in preparation for [dashboards navigation restructuring](https://gitlab.com/groups/gitlab-org/-/epics/16940).
 
 ### Non-Goals
 
 - ~"group::platform insights" will not implement every possible piece of functionality, data source, visualization type, or dashboard.
   These will be driven by feature teams, with support from ~"group::platform insights".
-- 
+- The dashboard layout framework does not include [data exploration](https://gitlab.com/gitlab-org/gitlab/-/issues/536187 outside defined panel visualizations.
+- The dashboard layout framework does not include [user-driven customization](https://gitlab.com/gitlab-org/gitlab/-/issues/536610) of dashboards, only the building blocks of the dashboards themselves.
 
 ## Proposal
 
