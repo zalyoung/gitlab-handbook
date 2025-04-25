@@ -12,9 +12,9 @@ When working on a GitLab Dedicated ticket, prioritize asking for information tha
 
 The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
 
-### Pre-Prod deployments
+### Preprod deployments
 
-Use the [GitLab Dedicated Pre-Prod switchboard](./dedicated_switchboard.md#customers-with-dedicated-pre-prod-deployments) to find links to Opensearch logs for a specific customer's pre-prod environment, when applicable.
+Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#customers-with-dedicated-pre-prod-deployments) to find links to Opensearch logs for a specific customer's Preprod environment, when applicable.
 
 ### Log requests older than 7 days
 
