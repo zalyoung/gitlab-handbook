@@ -36,7 +36,7 @@ clear UX and behavioral guidelines to make sure our customers know how to use a 
 of the data they're looking at.
 
 ~"group::platform insights" is working to design, develop, and implement this unified vision for all dashboards
-at GitLab. This vision began with the [Dashboards Working Group](https://handbook.gitlab.com/handbook/company/working-groups/dashboards/) and in March 2023 cumulated in a
+at GitLab. This vision began with the [Dashboards Working Group](../../../../company/working-groups/dashboards.md) and in March 2023 cumulated in a
 new [Pajamas dashboards pattern](https://design.gitlab.com/patterns/dashboards/). This pattern laid the groundwork for what a dashboard
 is at a basic level.
 
@@ -73,7 +73,7 @@ augment our existing offering with clearer visuals and AI integration.
 
 - ~"group::platform insights" will not implement every possible piece of functionality, data source, visualization type, or dashboard.
   These will be driven by feature teams, with support from ~"group::platform insights".
-- The dashboard layout framework does not include [data exploration](https://gitlab.com/gitlab-org/gitlab/-/issues/536187 outside defined panel visualizations.
+- The dashboard layout framework does not include [data exploration](https://gitlab.com/gitlab-org/gitlab/-/issues/536187) outside defined panel visualizations.
 - The dashboard layout framework does not include [user-driven customization](https://gitlab.com/gitlab-org/gitlab/-/issues/536610) of dashboards, only the building blocks of the dashboards themselves.
 
 ## Proposal
@@ -99,18 +99,13 @@ create a panel that doesn't fit its contents.
 
 #### Panels
 
-
 #### Visualizations
-
 
 #### Filters
 
-
 #### Error handling
 
-
 #### Data structures
-
 
 #### Data sources
 
