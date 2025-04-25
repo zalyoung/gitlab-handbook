@@ -32,7 +32,7 @@ Collaborate closely with engineering peers throughout the product development li
 
 ### Community contributions
 
-Community-submitted MRs are assigned to the design DRI of the affected group. If the group has no designer, `@pedroms` will review them. The GitLab Roulette suggests the correct designers automatically and generated a Slack message in the `#ux-community-contributions` channel.
+Community-submitted MRs are assigned to the design DRI of the affected group. If the group has no designer, `@pedroms` or a member of UX Paper Cuts (`@annabeldunstone`, `@seggenberger`, `@jmiocene`, `@clavimoniere`) will review them. The GitLab Roulette suggests the correct designers automatically and generated a Slack message in the `#ux-community-contributions` channel.
 
 ### Single engineering group MRs
 
