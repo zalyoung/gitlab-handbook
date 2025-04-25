@@ -4,7 +4,7 @@ description: "Performance Enablement group within Developer Experience sub-depar
 ---
 
 
-![Emerald City](/images/engineering/infrastructure-platforms/developer-experience/performance-enablement/devperfops-diagram.svg)
+![DevPerfOps Logo](/images/engineering/infrastructure-platforms/developer-experience/performance-enablement/devperfops-diagram.svg)
 
 ## Mission
 
