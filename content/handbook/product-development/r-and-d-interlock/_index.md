@@ -36,8 +36,8 @@ the [R&D Investment Roadmap](#rd-investment-roadmap), the
 - ### P1/P2/P3: Product-Driven Initiatives
 
   - Prioritization Levels
-    - P1: 100% Eng Confidence
-    - P2: 80% Eng Confidence
+    - P1: 100% Eng Confidence that the complete initiative will be delivered at the committed date
+    - P2: 80% Eng Confidence that the complete initiative will be delivered at the committed date
     - P3: 50% Eng Confidence, can be stopped if a P1-2 or E1-2 is at risk.
   - Some but not all P1/P2/P3 projects will be added to the
     [Public Roadmap](#public-roadmap) (owned by GTM) and will be labeled with
@@ -59,8 +59,8 @@ the [R&D Investment Roadmap](#rd-investment-roadmap), the
 - ### E1/E2/E3: Engineering-Driven Initiatives
 
   - Prioritization Levels:
-    - E1: 100% Eng Confidence
-    - E2: 80% Eng Confidence
+    - E1: 100% Eng Confidence that the complete initiative will be delivered at the committed date
+    - E2: 80% Eng Confidence that the complete initiative will be delivered at the committed date
     - E3: 50% Eng Confidence, can be stopped if a P1-2 or E1-2 is at risk.
   - Internal visibility only
   - Not externally communicated
