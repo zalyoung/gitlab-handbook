@@ -13,19 +13,6 @@ If you have suggestions for improving the Attendee or Meeting Leader experience 
 
 Due to low attendance of the sync meetings, Group Conversations moved to being fully [asynchronous](/handbook/company/culture/all-remote/asynchronous/) in FY24-Q4.
 
-## Group Conversation vs. Key Review
-
-It's common to wonder what the difference is between these two meetings. Generally, they cover the same or similar content, but for different audiences.
-
-|  | Key Review | Group Conversation |
-| --- | ---------- | ------------------ |
-| **Audience** | Management | General GitLab Team |
-| **Tone** | Formal | Informational |
-| **Discussion** | High-context | [Low-context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) |
-
-The [Key Review](/handbook/company/key-review/) is intended for senior leadership to ask questions. The Group Conversation is open to the entire GitLab team to ask questions. We have both to give the senior leaders enough time to ask questions since the Group Conversations often have general questions unrelated to slide deck. Both are also a good place for sharing news and explaining initiatives. The same deck is generally used for both events, except that the Group Conversation one will have any material non-public information (MNPI) removed. Here's a brief discussion of why we have both meetings, and how they can operate effectively:
-<figure class="video_container"><iframe src="https://www.youtube.com/embed/tLOMA3663XM"></iframe></figure>
-
 ## For Attendees
 
 If you have questions around an upcoming Group Conversation, please be sure to bring it to the `#group-conversations` Slack channel and @tag the host!
@@ -70,8 +57,6 @@ Please see `${INSERT_LINK}` for the Group Conversation Issue, which includes lin
 ### Presentation
 
 Use presentations to document everything people should know about your group. If the GC is for a group that didn't have a Key Review, and are preparing new slides, the slides should start with the top 3-5 highlights or top of mind updates that are relevant across functions, followed by additional information. These presentations are for attendees to review and generate questions from for the call, and attendees will often have [low context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) around your function or team.
-
-Functions with Key Reviews should not create a new deck for a Group Conversation but should use their [Key Review deck](/handbook/company/key-review/#key-metrics) for the Group Conversation. If the Key review deck has MNPI, then a copy without MNPI should be created.
 
 You can also record and upload a [YouTube video](/handbook/marketing/marketing-operations/youtube/) if there is additional context that would be beneficial to supplement the slides.
 

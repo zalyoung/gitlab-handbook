@@ -102,7 +102,6 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
 1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
-1. [Key Reviews](/handbook/company/key-review/)
 1. [Group Conversations](/handbook/company/group-conversations/)
 
 ## Month
