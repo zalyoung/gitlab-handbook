@@ -5,7 +5,6 @@ description: "An overview of how OKRs are done at GitLab."
 
 This page generally covers OKRs _at_ GitLab, including:
 
-1. [Company and function-level OKR expectations](#company-and-function-level-okr-expectations)
 1. [Considerations and guidance](#okrs-are-what-is-different)
 1. [OKR Process at GitLab](#okr-process-at-gitlab)
 1. [Maintaining the health status of OKRs](#maintaining-the-status-of-okrs)
@@ -18,7 +17,7 @@ There is additional information on:
 
 ## Overview
 
-[OKRs](okrs-basics.md) are quarterly objectives that help us achieve our [KPIs](../kpis.md), and [yearlies](../yearlies.md).
+[OKRs](okrs-basics.md) are quarterly objectives that help us achieve our [KPIs](../kpis.md).
 
 We do not use it to [give performance feedback](/handbook/people-group/360-feedback/) or as a [compensation review](/handbook/total-rewards/compensation/) for team members.
 
@@ -34,24 +33,6 @@ Our OKR process and timelines are public and listed on the pages below.
 - [Previous OKRs](#okr-archive)
 
 OKRs are internal-only in line with guidance from the [SAFE framework](/handbook/legal/safe-framework/).
-
-## Company and function-level OKR expectations
-
-Company-level [Yearlies](/handbook/company/yearlies/) guide company-level Objectives and Key Results though company-level goals are revisited and set on a quarterly basis. At a minimum, each Function should inherit the company-level Objectives for their function-level Objectives and have 1-3 function level Key Results that supports company Objective and KR attainment each quarter.
-
-Individual functions and teams have discretion around how much they use OKRs beyond the Yearly cascade level.
-
-### Cadence
-
-OKRs are part of our company [cadence](/handbook/company/cadence/).
-
-Since OKRs create progress for our [Yearlies](/handbook/company/yearlies/), by achieving our quarterly priorities, we create progress for the rest of the items on the cadence page. By achieving our yearlies, we create progress to achieving our [strategy](/handbook/company/strategy/). Achieving our strategy is key to realizing our [vision](/handbook/company/vision/), [mission](/handbook/company/mission/), and eventually [purpose](/handbook/company/purpose/). In this way, OKRs are quarterly building blocks that create progress toward longer term goals.
-
-### Alignment
-
-OKRs are our quarterly priorities that create progress toward our [Yearlies](/handbook/company/yearlies/), which are our annual company goals. Since OKRs create progress for yearlies, OKRs are aligned to one of the yearlies.
-
-OKRs are directly aligned to yearlies and not directly aligned to one of the three pillars of the [three year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/).
 
 ## OKRs are what is different
 
@@ -216,33 +197,3 @@ Everyone is welcome to a suggestion to improve any OKR.
 To update please make a merge request and post a link to the MR in the #okrs channel in Slack and at-mention the Chief of Staff to the CEO. If commenting on a functional objective or KR, comment directly on the OKR in GitLab.
 
 ## OKR Archive
-
-- [FY25-Q3](/handbook/company/okrs/fy25-q3/)
-- [FY25-Q2](/handbook/company/okrs/fy25-q2/)
-- [FY25-Q1](/handbook/company/okrs/fy25-q1/)
-- [FY24-Q4](/handbook/company/okrs/fy24-q4/)
-- [FY24-Q3](/handbook/company/okrs/fy24-q3/)
-- [FY24-Q2](/handbook/company/okrs/fy24-q2/)
-- [FY24-Q1](/handbook/company/okrs/fy24-q1/)
-- [FY23-Q4](/handbook/company/okrs/fy23-q4/)
-- [FY23-Q3](/handbook/company/okrs/fy23-q3/)
-- [FY23-Q2](/handbook/company/okrs/fy23-q2/)
-- [FY23-Q1](/handbook/company/okrs/fy23-q1/)
-- [FY22-Q4](/handbook/company/okrs/fy22-q4/)
-- [FY22-Q3](/handbook/company/okrs/fy22-q3/)
-- [FY22-Q2](/handbook/company/okrs/fy22-q2/)
-- [FY22-Q1](/handbook/company/okrs/fy22-q1/)
-- [FY21-Q4](/handbook/company/okrs/fy21-q4/)
-- [FY21-Q3](/handbook/company/okrs/fy21-q3/)
-- [FY21-Q2](/handbook/company/okrs/fy21-q2/)
-- [FY21-Q1](/handbook/company/okrs/fy21-q1/)
-- [FY20-Q4](/handbook/company/okrs/fy20-q4/)
-- [FY20-Q3](/handbook/company/okrs/fy20-q3/)
-- [FY20-Q2](/handbook/company/okrs/fy20-q2/)
-- [FY20-Q1](/handbook/company/okrs/fy20-q1/)
-- [CY18-Q4](/handbook/company/okrs/2018-q4/)
-- [CY18-Q3](/handbook/company/okrs/2018-q3/)
-- [CY18-Q2](/handbook/company/okrs/2018-q2/)
-- [CY18-Q1](/handbook/company/okrs/2018-q1/)
-- [CY17-Q4](/handbook/company/okrs/2017-q4/)
-- [CY17-Q3](/handbook/company/okrs/2017-q3/)

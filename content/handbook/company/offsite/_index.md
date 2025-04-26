@@ -161,7 +161,6 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 **Q1 Offsite**
 
 1. E-Group Offsite and Board Meeting Month: March
-1. Start [**Yearlies**](/handbook/company/yearlies/) (50 minutes)
 1. Start review of [**Three Year Strategy**](/handbook/company/strategy/) (0.5 day)
 1. Non-product **Engineering** review, e.g. architecture, infrastructure
 
@@ -178,7 +177,6 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. E-Group Offsite and Board Meeting Month: September
 1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
 1. Go-to-market (**GTM**) learnings
-1. Finish [**Yearlies**](/handbook/company/yearlies/) for the next year (1.5 hrs)
 1. **Org** design
 
 **Q4 Offsite**
@@ -199,7 +197,6 @@ In addition to the topics from the [Topic Calendar](#offsite-topic-calendar) abo
     1. When a new person is added to the promotion or future promotion list, the sponsorship exec should provide a summary on the person, their contributions, and any areas to be addressed in advanced of the intended promotion window
 1. [Content Discussion](#content-choice) (30 minutes - 1 hour)
 1. Aligning on quarterly priorities (OKRs) (25 minutes)
-1. Review [**Yearlies**](/handbook/company/yearlies/#cadence) (25 minutes)
 
 ### Pre-offsite discussion topics
 

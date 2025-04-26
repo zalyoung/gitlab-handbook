@@ -120,7 +120,7 @@ By making it so **everyone can contribute**, we increase access for people to be
 
 Access to a broader set of more valuable opportunities ultimately **increases people's lifetime earnings**.
 
-[Our mission](/handbook/company/mission) is on the same 30 year cadence as our purpose. Our purpose informs our mission, which directly or indirectly informs the rest of the items in [our cadence](/handbook/company/cadence/). As a result, our purpose indirectly informs all of the items in [our cadence](/handbook/company/cadence/), and progress for the items on our [cadence page](/handbook/company/cadence/) like [Yearlies](/handbook/company/yearlies/) creates progress for both our mission and purpose.
+[Our mission](/handbook/company/mission) is on the same 30 year cadence as our purpose. Our purpose informs our mission, which directly or indirectly informs the rest of the items in [our cadence](/handbook/company/cadence/). As a result, our purpose indirectly informs all of the items in [our cadence](/handbook/company/cadence/), and progress for the items on our [cadence page](/handbook/company/cadence/) creates progress for both our mission and purpose.
 
 ## Purpose Resources
 
