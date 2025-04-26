@@ -39,7 +39,7 @@ Candidates must:
 | FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | AMER |
 | FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | EMEA |
 | FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
-| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
+| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) | EMEA |
 | FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA |
 | FY26 Q3 |  |  |
 | FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |
