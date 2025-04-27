@@ -25,8 +25,8 @@ This document outlines the comprehensive content categorisation framework and go
 
 ### Content Privacy Classification
 
-* **Ecosystems Internal:** Content restricted to GitLab team
-* **Ecosystems External:** Content approved for external distribution and public sharing on the partner portal
+* **Internal:** Content restricted to GitLab team
+* **External:** Content approved for external distribution and public sharing on the partner portal.  This is now the default for new content.
 
 ### Asset Types
 
