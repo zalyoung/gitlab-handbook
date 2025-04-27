@@ -4,7 +4,7 @@ title: GitLab Partners Content Categorisation & Governance
 
 ## GitLab Partners Content Categorisation & Governance
 
-This document outlines the comprehensive content categorisation framework and governance model for GitLab Partners content management in HighSpot.
+This document outlines the comprehensive content categorisation framework and governance model for GitLab Partners content management in HighSpot. Watch this [video](https://gitlab.highspot.com/items/67f00eaa1e91c735f53e920b?lfrm=shp.0) for a complete walk through on upload and share content to the EcoSystem Solutions Architects (ESA) Highspot page.   
 
 ## Table of Contents
 
