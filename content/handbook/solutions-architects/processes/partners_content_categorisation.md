@@ -56,6 +56,7 @@ This document outlines the comprehensive content categorisation framework and go
   * Other product subcategories
 
 ### Additional Classification Dimensions
+
 #### By Lifecycle Stage
 
 ##### Partner Enablement (Internal Partner Ramp-Up)
