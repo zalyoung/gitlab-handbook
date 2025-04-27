@@ -56,14 +56,44 @@ This document outlines the comprehensive content categorisation framework and go
 
 ### Additional Classification Dimensions
 
+
 #### By Lifecycle Stage
 
-* **Enablement** - Training materials, onboarding guides
-* **Pre-Sales** - Discovery templates, proposal frameworks
-* **Implementation** - Technical guides, integration documentation
-* **Adoption** - Best practices, optimisation guides
-* **Growth** - Upsell/cross-sell materials, expansion playbooks
+##### Partner Enablement (Internal Partner Ramp-Up)
+- Partner onboarding guides
+- Partner technical training decks
+- Certification exam guides
+- Shadowing playbooks
 
+##### Pre-Sales (Customer Facing Activities)
+- Discovery frameworks and customer interview templates
+- Demo scripts and demo environment setup guides
+- POC/pilot evaluation templates
+- Architecture & scoping templates
+- Solution validation checklists
+
+##### Implementation (Post-Sales Technical Execution)
+- Deployment and setup guides
+- Integration blueprints and documentation
+- Troubleshooting playbooks
+- Migration toolkits
+
+##### Adoption and Success (Maximizing Value)
+- Best practice guides for feature adoption
+- Health check templates
+- Usage and value realization playbooks
+- QBR (Quarterly Business Review) templates
+
+##### Growth and Expansion (Land and Expand)
+- Cross-sell/upsell playbooks
+- Product expansion messaging templates
+- Roadmap presentation templates
+- Expansion scoping templates
+
+##### Strategic Content and Internal Tools (Partner Support Ecosystem)
+- Partner marketing collateral
+- Co-sell program guides
+- Internal relationship management templates (for GitLab/partner collaboration)
 #### By Partner Type
 
 * Technology Partners
