@@ -8,18 +8,17 @@ This document outlines the comprehensive content categorisation framework and go
 
 ## Table of Contents
 
-* [Content Categorisation Framework](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#content-categorisation-framework)
-  * [Content Privacy Classification](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#content-privacy-classification)
-  * [Asset Types](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#asset-types)
-  * [Additional Classification Dimensions](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#additional-classification-dimensions)
-* [Content Governance Model](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#content-governance-model)
-  * [Roles & Responsibilities](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#1-roles--responsibilities)
-  * [Compliance Requirements](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#3-compliance-requirements)
-  * [Categorisation Decision Guidelines](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#4-categorisation-decision-guidelines)
-  * [Content Quality Standards](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#5-content-quality-standards)
-* [Content Categorisation Decision Tree](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#content-categorisation-decision-tree)
-* [Example Content Categorisation](https://claude.ai/chat/dbb6f02e-9c30-46cd-bb88-df03a255b7bd#example-content-categorisation)
-
+* [Content Categorisation Framework](#content-categorisation-framework)
+  * [Content Privacy Classification](#content-privacy-classification)
+  * [Asset Types](#asset-types)
+  * [Additional Classification Dimensions](#additional-classification-dimensions)
+* [Content Governance Model](#content-governance-model)
+  * [Roles & Responsibilities](#1-roles--responsibilities)
+  * [Compliance Requirements](#3-compliance-requirements)
+  * [Categorisation Decision Guidelines](#4-categorisation-decision-guidelines)
+  * [Content Quality Standards](#5-content-quality-standards)
+* [Content Categorisation Decision Tree](#content-categorisation-decision-tree)
+* [Example Content Categorisation](#example-content-categorisation)
 ---
 
 ## Content Categorisation Framework
