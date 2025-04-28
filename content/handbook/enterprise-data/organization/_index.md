@@ -36,6 +36,7 @@ Below are the expectations of the DRI assigned to the Key Result:
 2. Schedule a work breakdown session with the Key Result Team. This can be either asynchronous or synchronous depending on the Key Result.
 3. Schedule recurring stand-ups and working sessions as needed with the Key Result Team. This can be either asynchronous or synchronous and at a frequency that makes sense for the Key Result.
 4. Provide a monthly update in the Key Result Issue in the OKR Project. Include percent complete and health status of the Key Result.
+5. Raise risks and dependencies for successful completion of the Key Result with the data management team.
 
 ## Analytics Engineering - Team and Stable Counterpart Assignments
 
