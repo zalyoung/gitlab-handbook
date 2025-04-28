@@ -228,7 +228,7 @@ To ensure critique sessions maintain both psychological safety and honest feedba
 
 Note: While reading this mantra verbatim before each session might initially feel awkward or repetitive, consistently establishing these shared expectations has proven valuable in creating the right environment for productive critique. The few moments it takes pays dividends in the quality of feedback and team dynamics.
 
-By embracing true critique rather than simple review, we create an environment where excellence is expected, supported, and achieved through collabroative challenge.
+By embracing true critique rather than simple review, we create an environment where excellence is expected, supported, and achieved through collaborative challenge.
 
 ### Partnering with Technical Writers
 
