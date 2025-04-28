@@ -29,7 +29,7 @@ We're happy to help you achieve your goals with Data. As a central shared servic
 
 The Data Team strives to spend the majority of its time developing and operating the Enterprise Data Platform and related systems, keeping fresh data flowing through the system, regularly expanding the breadth of data available for analysis, and delivering high-impact strategic projects. We categorize our work using the framework outlined below.
 
-| Category | Description| Target Allocation | Prioritization Method |
+| Work Category | Description| Target Allocation | Prioritization Method |
 | --- | --- | --- | --- |
 | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/enterprise-data/platform/#data-sources). | Target allocation varies by data team pillar and needs of the business | Based on severity and impact |
 | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. |  Target allocation varies by data team pillar and needs of the business | Prioritized through the Data Steering Committee and committed to during our [quarterly planning process](/handbook/enterprise-data/how-we-work/planning/) |
@@ -37,9 +37,9 @@ The Data Team strives to spend the majority of its time developing and operating
 
 The allocation of capacity across Production Operations, Data Team OKRs, and Business Support will be determined by each pillar on a quarter-by-quarter basis in the planning file. The allocation will consider the amount of Production Operations support needed from the pillar, strategic initiatives that the pillar needs to support, and projects being developed by partner teams.
 
-We use [scoped labels in GitLab](/handbook/enterprise-data/how-we-work/#issue-labeling) to track our issues across these categories.
+We use [scoped labels in GitLab](/handbook/enterprise-data/how-we-work/#issue-labeling) to track our issues across these work categories.
 
-In addition to the above categories focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
+In addition to the above work categories focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
 
 ### Project Intake
 
