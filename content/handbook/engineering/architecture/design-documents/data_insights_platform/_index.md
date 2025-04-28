@@ -137,7 +137,7 @@ With the intention to make the Data Insights Platform available to every GitLab 
 - Ability to generate insights & metrics around business continuity faster.
 - Building flexible/loose coupling between analytical parts of the product, allowing components to be switched should our future business needs change.
 - Scalable data ingestion pipeline for augmenting our AI initiatives across GitLab, for example, help power RAG ingestion pipelines.
-- Gathering operational insights from running software systems at GitLab, existing proposal at [Proposal: GitLab Observability Component - Structured Events](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2046).
+- Gathering operational insights from running software systems at GitLab, existing proposal at [Proposal: GitLab Observability Component - Structured Events](https://gitlab.com/gitlab-org/analytics-section/platform-insights/core/-/issues/56).
 
 ## Design & Implementation
 
@@ -151,7 +151,7 @@ With the intention to make the Data Insights Platform available to every GitLab 
 
 - Considering NATS can both be embedded within an application and scale out as a cluster when needed, NATS makes it trivial for us to deploy NATS clusters across all our reference architectures we decide to run the Platform in.
 - With NATS forming the data backbone of the Platform, it makes it trivial for us to:
-  - Be able to ingest data from multiple event-sources trivially,
+  - Be able to ingest data from multiple event-sources,
   - Be able to centrally & dynamically process & enrich it without having to send data across systems,
   - Be able to route it to other data-related systems as needed.
 
