@@ -82,59 +82,60 @@ With the above goals and motivation in mind, we want to outline a dashboards lay
 functionality, UI, and UX needed to efficiently develop a dashboard within GitLab that adheres to our Pajamas guidelines.
 The structure outlined below describes what this will include, and how they will function.
 
-### Building blocks
+## Design and implementation details
 
 ![dashboards_layout_framework_outline](/images/engineering/architecture/design-documents/dashboards_layout_framework/dashboards_layout_framework_outline.png)
 
-#### The grid
+### The grid
 
-The grid will be developed using [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
+The grid is developed using [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
 grid structures, along with the changing and resizing of grid items, in a deterministic, and cross-browser friendly way.
 
 The grid itself will support 12 columns, with an unlimited number of rows. Each item (panel) within the grid, can be
 up to 12 columns in width. In other words, each row may contain between 1–12 panels. Each panel can span an unlimited
 number of rows, although realistically for UX and performance reasons, it would only be a few rows for any given panel.
-We will not be setting any limits at this time though, so it is perfectly possible for someone using the framework to
-create a panel that doesn't fit its contents.
+We will not be setting any limits at this time, so it is possible for someone using the framework to create a panel
+that doesn't fit its contents.
 
-#### Panels
+### Panels
 
-#### Visualizations
+Panels are the wrapping modular container that provides a contextual interface for users to interact with their data.
+Each panel may contain:
 
-#### Filters
+- A title
+- A tooltip for further tertiary information
+- A kebab menu of contextual actions
+- An indicator for any contextual errors/warnings/info
+- The visualization area
 
-#### Error handling
+Panels handle:
 
-#### Data structures
+- The retrieval of visualization data
+- Selecting the right visualization to be rendered
+- Maintaining the current state
+- Showing potential error states
+- Triggering contextual actions
 
-#### Data sources
+Each panel can be resized in accordance with [the grid](#the-grid).
 
-## Design and implementation details
+### Visualizations
 
-<!--
-This section should contain enough information that the specifics of your
-change are understandable. This may include API specs (though not always
-required) or even code snippets. If there's any ambiguity about HOW your
-proposal will be implemented, this is the place to discuss them.
+Generally, visualizations can be one of three types:
 
-If you are not sure how many implementation details you should include in the
-document, the rule of thumb here is to provide enough context for people to
-understand the proposal. As you move forward with the implementation, you may
-need to add more implementation details to the document, as those may become
-valuable context for important technical decisions made along the way. A
-document is also a register of such technical decisions. If a technical
-decision requires additional context before it can be made, you probably should
-document this context in a document. If it is a small technical decision that
-can be made in a merge request by an author and a maintainer, you probably do
-not need to document it here. The impact a technical decision will have is
-another helpful information - if a technical decision is very impactful,
-documenting it, along with associated implementation details, is advisable.
+- ECharts-based visualizations, using the [GitLab UI implementations](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/charts-chart--docs)
+- Tables, using [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--docs) (or the lite version)
+- Text or markdown-based content
 
-If it's helpful to include workflow diagrams or any other related images.
-Diagrams authored in GitLab flavored markdown are preferred. In cases where
-that is not feasible, images should be placed under `images/` in the same
-directory as the `index.md` for the proposal.
--->
+Visualizations should not be contextually aware, their only job is to render the data provided in the format outlined by
+it's configuration and component structure.
+
+### Filters
+
+### Error handling
+
+### Data structures
+
+### Data sources
 
 ## Alternative Solutions
 
