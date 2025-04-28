@@ -218,7 +218,7 @@ We prioritize a balanced approach to design critiques that practices benevolent,
 To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to read this mantra aloud before beginning, especially with new team members or when introducing the critique format:
 
 > **Mantra**  
-> Please keep the following in mind throughout this Team Review session:
+> Please keep the following in mind throughout this critique session:
 > * We are not our designs
 > * We will not offend anyone in this room intentionally
 > * We will practice benevolent, radical candor, which is to care personally but challenge directly, when sending feedback
