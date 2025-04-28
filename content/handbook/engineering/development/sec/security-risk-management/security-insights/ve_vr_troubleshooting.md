@@ -21,8 +21,27 @@ Also check: [VR troubleshooting guide](https://docs.gitlab.com/ee/user/applicati
 |  Upstream errors such as "The upstream AI provider request timed out without responding" | This may indicate an issue with our third-party AI. This could be Anthropic outage - check [status](https://status.anthropic.com/).|
 | Specific recurring errors like "an unexpected error has occurred" | This may indicate an issue with the creation of the diff patch or MR. Refer to [Error handling code](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/completions/resolve_vulnerability/helpers.rb) |
 | False positive errors | We handle empty responses and empty <fixed_code> as false positives. [Documentation](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#troubleshooting), [Response modifier code](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/response_modifiers/resolve_vulnerability.rb) |
-| If you see that the VR button is disabled, that means that the CWE is not part of the supported list at this time. |  Feature coverage restriction: VR is available for a set of CWEs, check SSOT [doc](https://docs.google.com/spreadsheets/d/1G5zN4s4Inw2xhcyZP1U1oDW1erJuxL7QZsXSoOGNKeI/edit?gid=1605042126#gid=1605042126). |
+| If you see that the VR button is disabled, that means that the CWE is not part of the supported list at this time. |  Feature coverage restriction: VR is available for a set of CWEs, check SSOT [documentaton](https://docs.gitlab.com/user/application_security/vulnerabilities/#supported-vulnerabilities-for-vulnerability-resolution) and [spreadheet](https://docs.google.com/spreadsheets/d/1G5zN4s4Inw2xhcyZP1U1oDW1erJuxL7QZsXSoOGNKeI/edit?gid=1605042126#gid=1605042126). |
 | Query custom errors in Elastic | Check this [dashboard](https://log.gprd.gitlab.net/app/r/s/8no4f) for further investigation. |
+
+### CWE Support
+
+#### Vulnerability Explaination 
+
+Vulnerability Explaination is enabled for all SAST vulnerabilities.
+
+#### Vulnerability Resolution
+
+Vulnerability Resolution is enabled for a specific set of CWEs documented at [Supported vulnerabilities for Vulnerability Resolution](https://docs.gitlab.com/user/application_security/vulnerabilities/#supported-vulnerabilities-for-vulnerability-resolution).
+
+The list of CWEs presents itself in two locations to the code
+
+1. Database field on vulnerability records
+   - `has_vulnerability_resolution` is used for Vulnerability Report (filtering/display) and Vulnerabilitiy Details (availability of "Resolve with AI"). This field is populated via a background migration
+1. [Hardcoded list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb?ref_type=heads#L25)
+   - This list is used for pipeline findings, as the database field has not yet been populated.
+
+Both of these locations (including docs) need to be updated each time the CWE list is ammended. See this ([example issue](https://gitlab.com/gitlab-org/gitlab/-/issues/534307)) of prior work.
 
 ### Dashboard to see logs
 
