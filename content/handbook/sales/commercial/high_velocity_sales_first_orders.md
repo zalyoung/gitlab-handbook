@@ -135,6 +135,7 @@ You can now return to this report at any time to check;
 ## SMB Advocate Playbook
 
 ### Introduction to SMB Cases
+
 - As of 02/01/2025, all cases will be auto-assigned to Advocates using Traction Complete's round-robin functionality.
 - Information pertaining to the case will be displayed in the **Context**, **CTA** & **Description** box.
 - At any time, an SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
@@ -142,6 +143,7 @@ You can now return to this report at any time to check;
 #### Case Status
 
 Available Case Statuses:
+
 - Open
 - In Progress: Attempting Contact
 - In Progress: Blocked
@@ -154,6 +156,7 @@ Available Case Statuses:
 - **Note**:  Inbound customer requests must only be marked as closed once the customers needs have been addressed.
 
 ### Case Workflow and Management
+
 - To work the case, the SMB Advocate should contact the customer, with all activities logged on the contact/ account, via Groove. The Next Steps fields on the case should also be updated to include the case next steps/ date.
   - An Advocate must then update the Status to In Progress (this shows the case is being worked).
 
@@ -176,9 +179,11 @@ Available Case Statuses:
 - If applicable, the linked opportunity should also be closed.
 
 #### Case Status and Action Required
+
 [FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=386573487#gid=386573487)
 
 #### Common SMB Cases and Expected Outcomes
+
 [FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=0#gid=0)
 
 ### Cross-Team Collaboration
@@ -187,11 +192,13 @@ When and how to engage with cross-functional teams:
 [FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=496062544#gid=496062544)
 
 ### Resources & Tools
+
 - [FY26: GDS Case Enablement](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g32b866bfec2_0_0)
 - [FY26 HVS Dashboards](https://docs.google.com/spreadsheets/d/1WIO84I2842a0MO5R1UuoCfqDhmrHIIfAQI6kzJvfiDU/edit?gid=0#gid=0)
 - [HVS Sales Tech Stack](https://docs.google.com/spreadsheets/d/14YrGHDiMvLpeMAwi6p_G7uC7XpMsCqaJ1KhvUvUumbc/edit?gid=0#gid=0)
 
 ### Advocate Expectations
+
 - An Advocate should look to resolve/ close a case within 7 days of it being opened. The max time to resolve a case is limited to 15 days (*List of case exceptions below*).
   - High Value Account
   - Renewal Will Fail
