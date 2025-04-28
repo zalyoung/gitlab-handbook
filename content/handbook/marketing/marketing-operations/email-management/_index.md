@@ -43,8 +43,6 @@ At GitLab, we strive to communicate with people in a way that is beneficial to t
 
 Each form will have the appropriate opt-in language specifid. However, to check you may [visit here](https://docs.google.com/document/d/1UEfWo26DP7nRPrWRWo7O7oSrNp_rRuVqyN_vC7SwXME/edit?usp=sharing).
 
-
-
 ### Email filters
 
 All email sends must use the relevant `Emailable` Smart List. This is in addition to filters to address the relevant audience.
@@ -76,7 +74,7 @@ We have a Marketo enforced limit on how many emails a single address can receive
 
 The email limits are not set in campaign templates, however, if your email is set to send to more than 20,000 people, you must include a filter for `Not Sent Email in last 2 Days`.
 
-Please reference and use the [All-Marketing SSOT Calendar](/handbook/marketing/#marketing-calendar-inputs) to see other sends happening around the same time.
+Please reference and use the [All-Marketing SSOT Calendar](/https://internal.gitlab.com/handbook/marketing/#fy25-ssot-marketing-calendar) to see other sends happening around the same time.
 
 ## Request non-Demand Generation Emails
 
