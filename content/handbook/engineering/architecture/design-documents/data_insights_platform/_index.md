@@ -107,6 +107,7 @@ Following is a detailed set of use-cases that benefit from the existence of a ce
 | __Product__ | Implementing real-time analytics features on top of ClickHouse. | Data volume: Similar or less than what we observe with the PostgreSQL databases. Depends on how many tables we replicate (Siphon) to ClickHouse. Enqueued event count: significantly lower as we’re batching the CDC events into packages. |
 | __Plan__ | [JIRA Compete Strategy](https://gitlab.com/groups/gitlab-org/-/epics/364) |  |
 | __Optimize__ | Ingesting [JIRA data](https://gitlab.com/gitlab-org/gitlab/-/issues/342780) | |
+| __Fulfillment__ | [Consumption Billing for Dedicated Hosted Runners](https://gitlab.com/gitlab-org/customers-gitlab-com/-/merge_requests/11924) | |
 
 ### Deployments
 
@@ -186,8 +187,8 @@ The following sections describe how we ensure the Platform and the data ingested
 
 ### Encryption
 
-- Data while at rest within NATS will remain encrypted by using filesystem encryption.
-- Data persisted durably in ClickHouse will also remain encrypted.
+- Data while at rest within NATS will remain encrypted by using [filesystem encryption](/handbook/engineering/architecture/design-documents/gitlab_messaging_layer/#encryption).
+- Data persisted durably in ClickHouse will also remain encrypted. For ClickHouse Cloud, we can start with [Transparent Data Encryption (TDE)](https://clickhouse.com/docs/cloud/security/cmek#transparent-data-encryption-tde) or [Customer Managed Encryption Keys (CMEK)](https://clickhouse.com/docs/cloud/security/cmek#customer-managed-encryption-keys-cmek) as applicable.
 
 ### Auditing & Logging
 
