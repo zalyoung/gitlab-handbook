@@ -9,9 +9,10 @@ owning-stage: "~plan::product planning"
 participating-stages: []
 ---
 
-# Summary
-
 # Business Objectives
+
+To further rollout work items, we need to tackle the scaling problems that are inherent of our hierarchy-based approach of querying data.
+Without adressing these performance problems, the product will not be able to scale appropriately for large organizations.
 
 # Problem Statement
 
