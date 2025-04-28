@@ -219,11 +219,11 @@ To ensure critique sessions maintain both psychological safety and honest feedba
 
 > **Mantra**  
 > Please keep the following in mind throughout this critique session:
-> * We are not our designs
-> * We will not offend anyone in this room intentionally
-> * We will practice benevolent, radical candor, which is to care personally but challenge directly, when sending feedback
-> * We will be open to receiving benevolent, radical candor feedback and will be, if necessary, willing to let go of things that aren't working
-> * These sessions are about candid talk, spirited debate, fun, and passion for what we do as designers for a living
+> - We are not our designs
+> - We will not offend anyone in this room intentionally
+> - We will practice benevolent, radical candor, which is to care personally but challenge directly, when sending feedback
+> - We will be open to receiving benevolent, radical candor feedback and will be, if necessary, willing to let go of things that aren't working
+> - These sessions are about candid talk, spirited debate, fun, and passion for what we do as designers for a living
 
 Note: While reading this mantra verbatim before each session might initially feel awkward or repetitive, consistently establishing these shared expectations has proven valuable in creating the right environment for productive critique. The few moments it takes pays dividends in the quality of feedback and team dynamics.
 
