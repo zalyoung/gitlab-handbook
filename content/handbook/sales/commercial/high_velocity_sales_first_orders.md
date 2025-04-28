@@ -208,6 +208,200 @@ When and how to engage with cross-functional teams:
   - Customer request to get in touch at a later date
 - The Advocate must also adhere to the Required 10, to ensure that the correct case fields and opportunity fields are updated when picking up, working, and closing out a case.
 
+## Renewals Team
+
+The SMB Renewals Team will soft launch on May 5th, 2025. Every SMB Renewal opportunity will have a Renewal Manager attached and engaged.
+- As the Renewals team ramps to full capacity, they will start to take over cases on accounts that are both < 3k CARR and < 20 LAM
+- **Most Renewals case types will be deprecated as soon as the Renewals teams take over renewal engagement.**
+  - **Exceptions**:
+    - Autorenewal Recently Turned Off
+    - Overage with QSR Off
+    - Autorenewal Will Fail
+- Renewal Managers can escalate ccases to Advocates by adding #advocate to the Subject of any case assigned to them
+  - These cases will be assigned as per usual SMB Advocate routing rules. Advocates can reach out to the RM for additional context.
+- Renewals Managers **will be assigned to HVA renewals**, the expectation is for Advocates and RMs to work as a team to build these relationships
+ - As a reminder, please review recent Activities on your HVA accounts once RMs are engaged as that is where you will find their activities. They will also have access to and review your Account Plans.
+
+ ## New Logo Team Playbook
+
+**Key Audience**: New Logo Account Executive, Area Sales Managers, and Renewals Managers
+
+### Introduction to New Logo Team
+
+**Overview**
+
+The New Logo Team is a specialized sales team within GitLab's High Velocity Sales & New Logo organization focused on closing first-order deals in MM & ENT accounts. 
+
+**Team Structure**
+
+- **Team Members**: 4 New Logo AEs, 4 BDRs, and 1 ASM
+- **Launch Date**: May 1, 2025
+
+**Team Vision**
+
+- Build a legendary sales team known for delivering exceptional First Orders (FOs) while innovating and having fun
+- Provide unparalleled professional growth for New Logo AEs
+- Showcase GitLab's culture - flexible, asynchronous, and transparent
+- Exceed customer expectations across both digital and AE-supported buying journeys
+
+### New Logo Sales Process
+
+#### Account Strategy
+
+We use a tiered approach to focus efforts efficiently:
+
+- **Tier 1**: High-priority accounts receiving most attention from BDRs and AEs, including collaborative prospecting
+- **Tier 2**: Accounts receiving scaled outreach programs and targeted campaigns based on buying intent signals
+- **Tier 3**: Accounts primarily receiving digital marketing and PLG motions rather than dedicated sales resources
+
+#### New Logo AE Time Allocation
+
+Recommended Time Split: 
+
+- 40% Prospecting: Account strategy & planning and direct outreach
+- 30% Deal Advancement: Moving opportunities through pipeline
+- 20% Admin/Operations: CRM updates, forecasting, internal meetings
+- 10% Feedback/Improvement: Process iteration and sharing learnings
+
+A typical week should look like:
+
+**Monday**: Strategy & Account Planning
+
+- Team stand-up and weekly planning (30 min)
+- Account planning and targeting strategy (2 hours)
+- BDR collaboration sessions (2 hours)
+- "Inbound Interest Feed" dashboard review (1.5 hours)
+
+**Tuesday & Wednesday**: Prospecting & Deal Advancement
+
+- Dedicated prospecting blocks (2.5 hours)
+- Discovery and qualification calls (2 hours)
+- Opportunity advancement (1.5 hours)
+
+**Thursday**: Deal Advancement & Process Improvement
+- SA engagement and technical validation calls (2.5 hours)
+- Deal negotiation and proposal writing (1.5 hours)
+- Team feedback session (1 hour)
+
+**Friday**: Administrative & Closing
+- Final push on deals closing this week (1.5 hours)
+- CRM updates and opportunity management (1 hour)
+- Internal meetings and enablement (1 hour)
+- 1:1 with manager (1 hour)
+- Weekly metrics review and forecast update (1 hour)
+
+#### Success Metrics
+
+**Primary Metric** (North Star)
+
+- FO Count
+
+**Secondary Metrics**
+
+- Calls / touches (including LinkedIn and emails)
+- Multi-threaded accounts (accounts where you're in touch with multiple people)
+- Meetings
+- Pipeline generation
+- nARR
+- Close Rate
+- Average deal size and cycle time
+
+#### Feedback Mechanisms
+
+We actively seek and act on feedback across multiple channels:
+
+**How We Capture Feedback**
+
+- **In Meetings/Slack**: Weekly meetings and Slack channels for real-time feedback (focus on "1 thing we need to do differently to win")
+- **Passively**: Gong reporting with weekly/monthly review cycles
+- **Active-ish**: Feedback Friday form with specific questions
+- **Actively**: Mechanisms to collect feedback during the sales cycle
+
+**Feedback Prioritization**
+
+- **High Priority**: Critical issues requiring immediate action
+- **Medium Priority**: Selected items (3 per quarter) for potential development
+- **Low Priority**: Ideas requiring additional data
+
+#### Team Cadence
+
+- **Weekly**: New Logo Team Meeting, 1:1 with Manager, 1:1 with BDR
+- **Monthly**: HVS Team All Hands, Feedback/team learning sessions
+- **As needed**: Additional collaboration sessions
+
+### Cross-Team Collaboration
+
+#### BDR Collaboration
+
+Each New Logo AE Pairs 1:1 wit ha BDR handling both inbound and outbound motions.
+
+**Account Selection**
+
+- Regular joint meetings to select target accounts
+- Focus on Tier 1 accounts
+- AEs can nominate accounts for BDRs
+
+**Role Specialization**
+
+- BDRs typically focus on lower-level personas; AEs on higher-level contacts
+- BDRs may cc AEs on executive outreach for credibility
+- BDRs handle all MQLs until they become SAOs
+- BDRs work approximately 75 accounts per 8-week cycle
+
+**Meeting Collaboration**
+
+- Inbound leads: BDRs qualify and may participate in the second discovery call with AEs
+- Outbound efforts: BDRs and AEs can "tag-team" the first call with prospects
+
+**BDR Success Metrics**
+
+- **Primary**: 8 SAOs per month (target for fully ramped BDR)
+
+#### SA Collaboration
+
+A First Order SME (Subject Matter Expert) SA is aligned to this team to provide technical support during the sales process.
+
+**When to Engage SAs**
+
+- When prospects are demo-ready: for customers wanting to understand GitLab's value and how it solves their business needs
+- During "Early-stage 2-Scoping through 4-Proposal" for opportunities where a Command Plan and Custom Pitch Deck are being leveraged
+- During technical evaluations: aim to have SAs complete the "3-Technical Evaluation" prior to 15 days of the Close Date
+
+**SA Engagement Process**
+
+- AE completes Command Plan and MEDDPPICC documentation
+- AE submits SA request via SFDC with required information
+- Request reviewed and assigned within one business day
+- SA and AE align on strategy
+- SA prepares customized materials
+- SA supports technical aspects
+- SA documents outcomes and next steps
+- SA remains available for ongoing support
+
+#### Partner Collaboration
+
+Our team will work with relevant GitLab partners to expand our reach and provide additional service capabilities to customers.
+
+**Partner Types**
+
+- Distributors/partners with existing relationships to target accounts
+- Partners that can engage in co-selling and POCs (Proof of Concepts)
+- Cloud partners (AWS/GCP) for accounts with committed cloud spend
+
+### Resources & Tools
+
+**Essential Dashboards**
+
+- [Inbound Interest Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficialBASE/InboundInterestFeed-ProspectLevel?:iid=1)
+- [Free to Paid Cockpit](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/SaaSTrials?:iid=1)
+- [New Logo Team Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002Gs9l2AC/view?queryScope=userFolders)
+
+**Key Documents**
+
+- [FY26 HVS New Logo Playbook](https://docs.google.com/spreadsheets/d/14pVjV5cDALJpWfb3w6fgI7pRvDdSR68hz3jHD3Ww_vY/edit?gid=0#gid=0)
+- [Base Account Selling Motion Strategy](https://docs.google.com/presentation/d/18hCYN3TQUsdUKC4y3rHBYh6_Ej0snBfBagXQ7zUMfP4/edit?slide=id.g33b3eeab09e_0_3234#slide=id.g33b3eeab09e_0_3234)
+- [BDR Collaboration](https://docs.google.com/document/d/1eyqQIl944ky3Uu-flc5zs-EVelVAMYPgUsT0hR907U0/edit?tab=t.0#heading=h.840uwru4zj5i)
+
 ## Required 10
 
 The Required 10 acts a to do list which should be followed by all Advocates when picking up and working cases.
