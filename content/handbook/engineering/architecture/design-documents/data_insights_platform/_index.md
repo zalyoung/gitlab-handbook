@@ -46,7 +46,7 @@ The motivation behind building a centralized data platform manifests from our wo
 
 - Consolidate the various event-collection mechanisms and simplify supporting infrastructure and/or systems - inline with our decisions in the following `ADRs` from the working group:
   - [Do not use proprietary components for collecting and processing event data](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/blob/master/decisions/001_collector.md?ref_type=heads).
-  - [Replace internal usage of Snowplow with dogfooding of the Monitor Stack for applicable CPAA use cases](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/blob/master/decisions/002_dogfood_pa.md?ref_type=heads).
+  - [Replace internal usage of Snowplow with dogfooding of Data Insights Platform](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/blob/master/decisions/002_dogfood_data_insights_platform.md?ref_type=heads).
   - [Build a single events routing interface](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/blob/master/decisions/003_single_event_instrumentation_interface.md?ref_type=heads).
   - [Build GitLab Data Connector integration within a single codebase](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/blob/master/decisions/004_single_codebase.md?ref_type=heads).
 
