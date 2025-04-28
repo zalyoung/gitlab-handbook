@@ -217,7 +217,7 @@ We prioritize a balanced approach to design critiques that practices benevolent,
 
 To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to read this mantra aloud before beginning, especially with new team members or when introducing the critique format:
 
-> **Mantra**  
+> **Mantra**
 > Please keep the following in mind throughout this critique session:
 >
 > - We are not our designs
