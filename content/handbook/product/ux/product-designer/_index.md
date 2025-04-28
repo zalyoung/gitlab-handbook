@@ -190,14 +190,21 @@ We prioritize a balanced approach to design critiques that practices benevolent,
     1. Begin by presenting work without excessive explanation (5 min)
     1. Allow participants to ask clarifying questions (3 min)
     1. Receive feedback using the "I like/I wish/What if" framework (15 min)
+      - **I like...** - Start by highlighting effective elements of the design
+        - *Example:* "I like how the hierarchy clearly prioritizes the primary action, making the user flow intuitive."
+      - **I wish...** - Express constructive suggestions for improvement
+        - *Example:* "I wish the error states were more distinctive to help users quickly identify problems."
+      - **What if...** - Propose alternative approaches or exploratory ideas
+        - *Example:* "What if we used progressive disclosure to handle the complexity rather than showing all options at once?" 
+      - Be specific and tie your comments to user needs, business goals, or design principles wherever possible.
     1. Summarize key takeaways and next steps (2 min)
-1. **Participate effectively**: When giving to critique to others:
+1. **Participate effectively**: When giving critique to others:
     1. Focus on the work, not the person ("This border element..." not "Your design")
     1. Be specific and reference particular elements ("The hierarchy in this section...") not "It feels off"
     1. Connect feedback to user needs or business goals
-    1. Frame concerns as questions when possible ("Have you considered...?)
+    1. Frame concerns using the "I like/I wish/What if" framework mentioned above
 1. **Receive critique productively**:
-    1. Listen without immediately defending
+    1. Listen openly before responding
     1. Take detailed notes
     1. Ask clarifying questions when needed
     1. Thank participants for specific, challenging feedback
@@ -205,6 +212,19 @@ We prioritize a balanced approach to design critiques that practices benevolent,
     1. Capture key critique points in the relevent issue or epic
     1. Share how the critique influenced your design decisions in subsequent iterations
     1. Acknowledge team members whose critique led to meaningful improvements
+
+### Setting the Right Mindset
+To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to read this mantra aloud before beginning, especially with new team members or when introducing the critique format:
+
+> **Mantra**  
+> Please keep the following in mind throughout this Team Review session:
+> * We are not our designs
+> * We will not offend anyone in this room intentionally
+> * We will practice benevolent, radical candor, which is to care personally but challenge directly, when sending feedback
+> * We will be open to receiving benevolent, radical candor feedback and will be, if necessary, willing to let go of things that aren't working
+> * These sessions are about candid talk, spirited debate, fun, and passion for what we do as designers for a living
+
+Note: While reading this mantra verbatim before each session might initially feel awkward or repetitive, consistently establishing these shared expectations has proven valuable in creating the right environment for productive critique. The few moments it takes pays dividends in the quality of feedback and team dynamics.
 
 By embracing true critique rather than simple review, we create an environment where excellence is expected, supported, and achieved through collabroative challenge.
 
