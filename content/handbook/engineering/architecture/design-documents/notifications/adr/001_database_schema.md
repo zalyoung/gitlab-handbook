@@ -34,9 +34,13 @@ CREATE TABLE notifications (
   saved BOOLEAN DEFAULT FALSE,
   resolved_by_action SMALLINT,
   author_id BIGINT REFERENCES users(id),
-  action SMALLINT
-);
+  action SMALLINT,
+  PRIMARY KEY (id, user_id)
+) PARTITION BY HASH (user_id);
+;
 ```
+
+This table should be partitioned using [hash-based strategy](https://docs.gitlab.com/development/database/partitioning/). We should use 32 partitions (which would give us enough headway to accommodate future growth of this table). `User_id` column should be used as partition key, since lookup by `user_id` is the most used usecase we should optimize for. 
 
 #### 2. Resource Link Tables (one per resource)
 
@@ -44,37 +48,55 @@ Each notification links to exactly **one** resource via a dedicated table.
 
 ```sql
 CREATE TABLE issue_notifications (
-  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  issue_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE
+  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
+  issue_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
+  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
 );
 
 CREATE TABLE note_notifications (
-  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  note_id BIGINT NOT NULL REFERENCES notes(id) ON DELETE CASCADE
+  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
+  note_id BIGINT NOT NULL REFERENCES notes(id) ON DELETE CASCADE,
+  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
+  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
 );
 
 CREATE TABLE merge_request_notifications (
-  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  merge_request_id BIGINT NOT NULL REFERENCES merge_requests(id) ON DELETE CASCADE
+  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
+  merge_request_id BIGINT NOT NULL REFERENCES merge_requests(id) ON DELETE CASCADE,
+  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
+  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
 );
 
 CREATE TABLE epic_notifications (
-  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  epic_id BIGINT NOT NULL REFERENCES epics(id) ON DELETE CASCADE
+  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
+  epic_id BIGINT NOT NULL REFERENCES epics(id) ON DELETE CASCADE,
+  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
+  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
 );
 
 CREATE TABLE ssh_keys_notification_links (
-  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  ssh_key_id BIGINT NOT NULL REFERENCES keys(id) ON DELETE CASCADE
+  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
+  ssh_key_id BIGINT NOT NULL REFERENCES keys(id) ON DELETE CASCADE,
+  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
+  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
 )
 
 CREATE TABLE commit_notifications (
-  notification_id BIGINT PRIMARY KEY REFERENCES notifications(id) ON DELETE CASCADE,
-  commit_id BIGINT NOT NULL 
+  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
+  commit_id BIGINT NOT NULL,
+  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
+  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
 )
 ```
 
-For the future reference: those linking tables should be sharded together with `notifications` table, so `notification_id` should be the sharding key.
+`Namespace_id` column should be that same as in the referenced `notifications` table, to be used as a sharding key. 
 
 ### 🔍 Entity Relationship Diagram
 
@@ -211,6 +233,7 @@ ORDER BY created_at DESC;
 - Clear separation of responsibilities
 - Rails-friendly with explicit models
 - Easier indexing and performance optimization
+- Build-in partitioning, allowing us to store more rows than we store now
 
 ### Challenges of this design
 
