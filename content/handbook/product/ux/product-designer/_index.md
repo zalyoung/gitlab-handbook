@@ -195,7 +195,7 @@ We prioritize a balanced approach to design critiques that practices benevolent,
       - **I wish...** - Express constructive suggestions for improvement
         - _Example:_ "I wish the error states were more distinctive to help users quickly identify problems."
       - **What if...** - Propose alternative approaches or exploratory ideas
-        - _Example:_ "What if we used progressive disclosure to handle the complexity rather than showing all options at once?" 
+        - _Example:_ "What if we used progressive disclosure to handle the complexity rather than showing all options at once?"
       - Be specific and tie your comments to user needs, business goals, or design principles wherever possible.
     1. Summarize key takeaways and next steps (2 min)
 1. **Participate effectively**: When giving critique to others:
