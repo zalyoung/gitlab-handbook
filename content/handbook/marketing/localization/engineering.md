@@ -77,7 +77,7 @@ Each project within these environments maintains the following branch structure:
 3. **main-development** This is our development workspace for i18n features.
 4. **live-preview** A stable live preview branch for the internationalized GitLab documentation. [See MR for more details](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17).
 
-#### Branch maintence
+#### Branch maintenance
 
 ##### How to Update Localization Forks with Upstream Changes**
 
