@@ -106,6 +106,7 @@ Following is a detailed set of use-cases that benefit from the existence of a ce
 | __Product__ | [Generic Events Platform](/handbook/engineering/architecture/design-documents/gitlab_events_platform/) to asynchronously process data, events & tasks. Ingesting & processing external data via webhooks as a service. |  |
 | __Product__ | Implementing real-time analytics features on top of ClickHouse. | Data volume: Similar or less than what we observe with the PostgreSQL databases. Depends on how many tables we replicate (Siphon) to ClickHouse. Enqueued event count: significantly lower as we’re batching the CDC events into packages. |
 | __Plan__ | [JIRA Compete Strategy](https://gitlab.com/groups/gitlab-org/-/epics/364) |  |
+| __Optimize__ | Ingesting [JIRA data](https://gitlab.com/gitlab-org/gitlab/-/issues/342780) | |
 
 ### Deployments
 
