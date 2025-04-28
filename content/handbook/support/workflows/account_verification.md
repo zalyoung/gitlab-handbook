@@ -49,8 +49,8 @@ The table below provides a summary of the available verification options based o
 | Requester | Target | Challenges | Support PIN | Notes |
 | --- | --- | --- | --- | --- |
 | Enterprise Owner | Own account | Owner passes challenges on own account | Support PIN must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com/handbook/support/#account-verification-challenge-questions) for other challenges. |
-| Enterprise Owner | Member of paid group or intent to be added or Enterprise User | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
-| Owner | Non-enterprise user | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CC'd on ticket.  |
+| Enterprise Owner | Member of paid group or intent to be added or Enterprise User | Owner or target user passes challenges on their own account | Support PIN is from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CCed on ticket. |
+| Owner | Non-enterprise user | Target user passes challenges on own account | Support PIN from owner | One user per ticket. Communication is direct from the target user who must be CCed on ticket.  |
 | Paid User | Own account | User passes challenges on own account | N/A | If owner is needed, owner must open a new ticket. |
 | Paid User | Other member of same paid group | Target user passes challenges on own account | N/A | If owner is needed, owner must open a new ticket.|
 | Free User | Non-member of group with intent to be added | Not allowed - request must come from group owner | Owner vouch required |  |
@@ -67,11 +67,11 @@ If you need a basis for a response where you send the challenges, use the [`Supp
 
 1. To verify the challenge answers, use the Zendesk GitLab User Lookup App or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
 1. Use the ZenDesk [GitLab Super App's](/handbook/security/customer-support-operations/docs/zendesk/apps/#gitlab-super-app) `2FA Helper` or `2FA validator` to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [GitLab Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification), which is considered the source of truth.
-   - Challenge answers must be evaluated against a paid namespace if the user is a member of any paid namespace. If the user is not a member of a paid namespace, refer to [Conditions for 2FA Reset Consideration](./2fa-removal.md#conditions-when-account-is-used-to-access-customers-portal) for further guidance.
+   - Challenge answers must be evaluated against a paid namespace if the user is a member of any paid namespace. If the user is not a member of a paid namespace, refer to [Conditions for 2FA Reset Consideration](../workflows/2fa-removal.md#conditions-when-account-is-used-to-access-customers-portal) for further guidance.
    - If a group owner is answering on an [enterprise user's](/handbook/support/workflows/gitlab-com_overview#enterprise-users) behalf, see the [Account verification matrix](#account-verification-matrix) for which account to evaluate the answers against. Even if the Enterprise user is not a current member of the paid namespace, the data classifcation is RED.
    - If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
 
-1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team via Slack `#support_gitlab-com`. They will perform the steps in 3a
+1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team through Slack `#support_gitlab-com`. They will perform the steps in 3a
 1. **If the verification failed**: Move to step 3b
 
 ### Step 3a: User successfully proves account ownership
@@ -96,16 +96,16 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 
 #### Authenticating an Owner Vouch
 
-In a paid namespace: If the user elects to have an Owner vouch for their request, apply the macro [`Support::SaaS::Gitlab.com::2FA::2FA ask owner vouch`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Ask%20owner%20vouch.md?ref_type=heads). This will direct the requestor to have an Owner (top-level) create a Snippet with a Support-provided string. Once they have replied verifying they have done so:
+In a paid namespace: If the user elects to have an Owner vouch for their request, apply the macro [`Support::SaaS::Gitlab.com::2FA::2FA ask owner vouch`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Ask%20owner%20vouch.md?ref_type=heads). This will direct the requester to have an Owner (top-level) create a Snippet with a Support-provided string. Once they have replied verifying they have done so:
 
-1. Use your Admin or Auditor account to browse to the Snippet provided (e.g. `https://gitlab.com/-/snippets/2057341`)
+1. Use your Admin or Auditor account to browse to the Snippet provided (for example `https://gitlab.com/-/snippets/2057341`)
    - Verify the text of the Snippet matches the string you specified
    - Verify that the author of the Snippet is an Owner and direct member of the top-level paid group
 1. If the Owner passes, you may count this towards the account verification challenges.
 
-Note: Due to this [bug](https://gitlab.com/gitlab-org/gitlab/-/issues/337939) some group owners are not able to create snippets. In that case, we can ask the Owner to generate and share with us a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin) instead. 
+Note: Due to this [bug](https://gitlab.com/gitlab-org/gitlab/-/issues/337939) some group owners are not able to create snippets. In that case, we can ask the Owner to generate and share with us a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin) instead.
 
-If another user is CCed on the ticket, once you've verified the PIN ask them to generate a new PIN to revoke the previous one. 
+If another user is CCed on the ticket, once you've verified the PIN ask them to generate a new PIN to revoke the previous one.
 
 ## Account Ownership Changes
 
