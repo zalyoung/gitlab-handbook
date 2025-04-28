@@ -135,18 +135,33 @@ to Billable Members, here is a relationship diagram:
 
 ```mermaid
 graph TD
-        A[Group] <-.type of.- B[Namespace]
-        C[Project] -.belongs to.-> A
+    User
+    GroupMember
+    ProjectMember
+    Member
+    Group
+    Project
+    ProjectGroupLink
+    GroupGroupLink
+    Namespace
 
-        E[GroupMember] <-.type of.- D[Member]
-        G[User] -.has many.-> F
-        F -.belongs to.-> C
-        F[ProjectMember] <-.type of.- D
-        G -.has many.-> E -.belongs to.-> A
+    User -.->|has many| GroupMember
+    User -.->|has many| ProjectMember
 
-        GGL[GroupGroupLink] -.belongs to.->A
-        PGL[ProjectGroupLink] -.belongs to.->A
-        PGL -.belongs to.->C
+    GroupMember ---|type of| Member
+    GroupMember -.->|belongs to| Group
+
+    ProjectMember ---|type of| Member
+    ProjectMember -.->|belongs to| Project
+
+    ProjectGroupLink -.->|belongs to| Project
+    ProjectGroupLink -.->|belongs to| Group
+
+    GroupGroupLink -.->|belongs to| Group
+
+    Project -.->|belongs to| Group
+
+    Group ---|type of| Namespace
 ```
 
 GroupGroupLink is the join table between two Group records, indicating that one
