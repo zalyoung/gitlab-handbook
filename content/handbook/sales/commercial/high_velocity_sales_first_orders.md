@@ -161,6 +161,7 @@ Available Case Statuses:
   - An Advocate must then update the Status to In Progress (this shows the case is being worked).
 
 **Next Steps Field Hygiene Example**:
+
 - BAD: Contact
 - GOOD: 2024-07-05 KK First touch email to discuss promo
 
@@ -206,7 +207,6 @@ When and how to engage with cross-functional teams:
   - First Order (FO)
   - Customer request to get in touch at a later date
 - The Advocate must also adhere to the Required 10, to ensure that the correct case fields and opportunity fields are updated when picking up, working, and closing out a case.
-
 
 ## Required 10
 
