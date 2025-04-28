@@ -174,9 +174,9 @@ Different data sources have varying performance characteristics:
 
 These challenges make it difficult to provide a consistently responsive exploration experience across all data types.
 
-### Opportunity for Unified Data Exploration
+### Opportunities for Unified Data Exploration
 
-Despite these challenges, there is a significant opportunity to simplify and enhance how users interact with their GitLab data:
+Despite these challenges, there are significant opportunities to simplify and enhance how users interact with their GitLab data:
 
 - A unified data exploration interface would simplify access to critical insights, improve feature adoption, and unlock data that is currently inaccessible to most users due to technical complexity
 - Standardizing query patterns could unlock new cross-source analytics capabilities
