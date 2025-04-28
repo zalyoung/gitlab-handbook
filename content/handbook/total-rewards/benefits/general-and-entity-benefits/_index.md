@@ -61,7 +61,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
       - Print it, sign and digitize.
       - In macOS, use the native Preview app.
       - In Linux, use the Xournal app's pen tool to draw the signature.
-    - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?tab=t.0) is the job aid for quick reference.
+    - Upload to your Documents folder `Document Category: Benefit Documents and Forms` in Workday - [here](https://docs.google.com/document/d/1lb7KCF3FAfaXggl6CM1actpZ_yJWjizgamSeMLl_vN0/edit?tab=t.0) is the job aid for quick reference.
   - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000](/handbook/total-rewards/compensation/#exchange-rates).
 
 ## HealthKick Well-being Platform & Discounts
