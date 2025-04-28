@@ -16,10 +16,16 @@
       fill: #2b2838;
     }
 
-    .text3 {
+    .process {
       font-size: 12px;
       fill: #2b2838;
     }
+
+    .tool {
+      font-size: 12px;
+      fill: #a3855b;
+    }
+
 
     .devsecops {
       font-size: 56px;
@@ -106,20 +112,25 @@
 
   <text x="50%" y="255" class="text devsecops">DevPerfOps</text>
   <text x="353" y="131" class="text">Plan</text>
-  <text x="353" y="150" class="text text3">Performance Requirements Definition</text>
+  <text x="353" y="150" class="text process">Performance Requirements Definition</text>
   <text x="127" y="131" class="text">Code</text>
-  <text x="127" y="150" class="text text3">Unit-Level Performance Testing</text>
+  <text x="127" y="150" class="text process">Unit-Level Performance Testing</text>
   <text x="127" y="371" class="text">Build</text>
-  <text x="127" y="390" class="text text3">Performance Profiling</text>
+  <text x="127" y="390" class="text process">Performance Profiling</text>
+  <text x="127" y="405" class="text tool">GitLab Performance Tool (GPT)</text>
+  <text x="127" y="420" class="text tool">GitLab Browser Performance Tool (GBPT)</text>
   <text x="353" y="371" class="text">Test</text>
-  <text x="353" y="390" class="text text3">Component-Level Performance Testing</text>
+  <text x="353" y="390" class="text process">Component-Level Performance Testing</text>
+  <text x="353" y="405" class="text tool">Component Performance Testing (CPT)</text>
   <text x="672" y="131" class="text">Release</text>
-  <text x="672" y="150" class="text text3">Performance Comparison</text>
+  <text x="672" y="150" class="text process">Performance Comparison</text>
   <text x="898" y="131" class="text">Deploy</text>
-  <text x="898" y="150" class="text text3">Deployment Performance Monitoring</text>
+  <text x="898" y="150" class="text process">Deployment Performance Monitoring</text>
+  <text x="898" y="165" class="text tool">Deployment Verification</text>
   <text x="898" y="371" class="text">Operate</text>
-  <text x="898" y="390" class="text text3">Real User Monitoring (RUM)</text>
+  <text x="898" y="390" class="text process">Real User Monitoring (RUM)</text>
   <text x="672" y="371" class="text">Monitor</text>
-  <text x="672" y="390" class="text text3">Performance Trend Analysis</text>
+  <text x="672" y="390" class="text process">Performance Trend Analysis</text>
+  <text x="672" y="405" class="text tool">Feature Performance Health Dashboard</text>
 
 </svg>
