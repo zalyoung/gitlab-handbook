@@ -24,10 +24,10 @@ Reference the [Campaigns and Programs](/handbook/marketing/marketing-operations/
 When setting up these campaigns in Salesforce, you need to take two critical actions:
 
 1. Set the field `Is Hyperscaler Involved?` to `True` - This flags the campaign as a partnership activity.
-1. Select the appropriate partner under the `Hyperscaler` field - Choose either:
+2. Select the appropriate partner under the `Hyperscaler` field - Choose either:
 
   1. Amazon Web Services
-  1. Google Cloud (Partner)
+  2. Google Cloud (Partner)
 
 This configuration ensures proper attribution and tracking of partnership activities.
 
@@ -65,46 +65,45 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 1. Program Owner (Francine): Primary contact with Hyperscaler Partners
 
   1. Oversees the entire MDF program
-  1. Reviews internal MDF request entries with Hyperscalers
-  1. Submit MDF request, when approved, we'll receive a PO
-  1. Request an invoice from AR team provide the PO and MDF Approval Email via issue
-  1. Submit claim with proof of performance (receipt) to the Hyperscaler portal
+  2. Reviews internal MDF request entries with Hyperscalers
+  3. Submit MDF request, when approved, we'll receive a PO
+  4. Request an invoice from AR team provide the PO and MDF Approval Email via issue
+  5. Submit claim with proof of performance (receipt) to the Hyperscaler portal
 
-1. Partner Marketing Manager (Gabby): Administers fund allocation
+2. Partner Marketing Manager (Gabby): Administers fund allocation
 
   1. Set up the Allocadia activity and GitLab issue assigned to the requester
 
-1. Campaign Owners/Operations (Fund Requester can also be a Campaign Owner)
+3. Campaign Owners/Operations (Fund Requester can also be a Campaign Owner)
 
   1. Create their own Asana project to manage their campaign
-  1. Manages execution and setup for Marketo and Salesforce
-  1. Open Zip request
-  1. Send Partner Marketing Manager receipts for Proof of Performance
-  1. Provide the link to the Tableau campaign report to issue
+  2. Manages execution and setup for Marketo and Salesforce
+  3. Open Zip request
+  4. Send Partner Marketing Manager receipts for Proof of Performance
+  5. Provide the link to the Tableau campaign report to issue
 
-1. Fund Requesters: Initiates funding requests
+4. Fund Requesters: Initiates funding requests
 
   1. Fill out the spreadsheet with campaign details
-  1. Provides Target MQL and Target Pipeline Goals
+  2. Provides Target MQL and Target Pipeline Goals
 
 ### Application Process
 
 1. Complete the Google Sheet:
 
   1. AWS: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1Ej_QJpTI0u_hPwB-jJKcqTviIAnmS1wgctfabgfUlPM/edit?gid=2978057#gid=2978057)
-  1. GCP: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1B2mSraHHhCMbK96Sx0ZQlXTI6J7tIp5LNeWdsnKetrE/edit?usp=sharing)
-  1. Complete all required fields, including:
+  2. GCP: [Marketing calendar - spreadsheet](https://docs.google.com/spreadsheets/d/1B2mSraHHhCMbK96Sx0ZQlXTI6J7tIp5LNeWdsnKetrE/edit?usp=sharing)
+  3. Complete all required fields, including:
 
-    1. Strategic Priority Alignment
     1. Region
-    1. Activity Type and Description
-    1. Proposed Start and End Date
-    1. Total Cost
-    1. Amount Requested
-    1. Target MQL
-    1. Target Pipeline
+    2. Activity Type and Description
+    3. Proposed Start and End Date
+    4. Total Cost
+    5. Amount Requested
+    6. Target MQL
+    7. Target Pipeline
 
-1. Submit for Review:
+2. Submit for Review:
 
   1. Tag Francine for approval in the Google spreadsheet
   1. Include any supporting materials that strengthen your case (past performance of similar activities, customer interest data, etc.)
@@ -112,12 +111,12 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 ### Approval Process
 
 1. Initial Screening: Francine will review your application to ensure it meets basic requirements and aligns with strategic priorities.
-1. Hyperscaler Partner Approval: Upon preliminary approval, Francine will review and seek approval for the activity and confirm funding amount from the Hyperscaler Partner.
-1. System Configuration: Once approved by the Hyperscaler Partner,
+2. Hyperscaler Partner Approval: Upon preliminary approval, Francine will review and seek approval for the activity and confirm funding amount from the Hyperscaler Partner.
+3. System Configuration: Once approved by the Hyperscaler Partner,
 
   1. Channel Marketing Manager will open the Allocadia activity and Hyperscaler MDF GitLab
-  1. Campaign Owner will be responsible for creating the Marketo campaign and sync to Salesforce using the Allocadia Subcategory ID (found in the Hyperscaler MDF GitLab issue)
-  1. Link to the appropriate GitLab issues for tracking
+  2. Campaign Owner will be responsible for creating the Marketo campaign and sync to Salesforce using the Allocadia Subcategory ID (found in the Hyperscaler MDF GitLab issue)
+  3. Link to the appropriate GitLab issues for tracking
 
 ### Field Marketing MDF Scenario
 
