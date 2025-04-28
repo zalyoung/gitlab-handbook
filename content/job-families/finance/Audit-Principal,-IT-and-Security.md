@@ -6,7 +6,7 @@ Responsibility includes assessing risk, developing audit scopes, performing audi
 
 ## Role
 
-The Audit Principal, IT and Security will interact heavily with the IT/InfoSec Leadership and must be able to clearly articulate related risks and audit results to technical and non-technical members of executive management. The Audit Principal, IT and Security reports to the [Director, IT Audit] (https://handbook.gitlab.com/job-families/finance/internal-audit/director-it-audit/).
+The Audit Principal, IT and Security will interact heavily with the IT/InfoSec Leadership and must be able to clearly articulate related risks and audit results to technical and non-technical members of executive management. The Audit Principal, IT and Security reports to the [Director, IT Audit](/internal-audit/director-it-audit/).
 
 ### Job Grade
 
@@ -62,17 +62,17 @@ The Audit Principal, IT and Security is a [grade 9]({{% ref "compensation-calcul
 
 ### Performance Indicators
 
-* [Percentage of Desktop procedures documented] (https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures) 
-* [Percentage of controls tested] (https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-* [Percentage of recommendations implemented] (https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-* [Percentage of audits completed] (https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-* [New Hire Location Factor < 0.69] (https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
+* [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures) 
+* [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+* [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+* [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+* [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
 * Completing tasks and audits timely and efficiently
 * Utilizing Best Practices related to audit findings and recommendations.
 
 ### Career Ladder
 
-The next step in the Senior Manager, Internal Audit job family is to move to the [Director, IT Audit] (https://handbook.gitlab.com/job-families/finance/internal-audit/director-it-audit/) job family.
+The next step in the Senior Manager, Internal Audit job family is to move to the [Director, IT Audit](/internal-audit/director-it-audit/) job family.
 
 ### Hiring Process
 
