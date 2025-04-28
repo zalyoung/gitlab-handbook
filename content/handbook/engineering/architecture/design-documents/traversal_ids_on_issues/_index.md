@@ -322,8 +322,9 @@ There are the following cases to consider for the new queries:
 When the user is a member of the namespace or an ascendant, we do not need to lookup all namespaces that the user has access to.
 We therefore can directly query the `issues` table:
 
+**Querying for a top-level group (`gitlab-org`)**
+
 ```sql
--- Querying for a top-level group (`gitlab-org`)
 SELECT * FROM issues WHERE traversal_ids[1] = 9970
 ```
 
@@ -411,7 +412,7 @@ LIMIT 101
 
 </details>
 
-<details><summary>`gitlab-org` traversal_ids https://explain.depesz.com/s/1kgh</summary>
+<details><summary>[Using traversal_ids](https://explain.depesz.com/s/1kgh) (only `gitlab-org` backfill)</summary>
 
 ```sql
 SELECT * FROM "issues"
@@ -455,25 +456,67 @@ Limit  (cost=1.00..894.11 rows=101 width=1583) (actual time=7.198..20.279 rows=1
 
 </details>
 
-<details><summary>TODO: full backfill plan</summary>
+TODO: We still miss the full backfill results. This is in progress on a replica.
+
+**Querying for a sub-group (`gitlab-org/plan-stage`)**
 
 ```sql
-
-```
-
-```
-
-```
-
-</details>
-
-```sql
--- Querying for a sub-group (`gitlab-org/plan-stage`)
 SELECT * FROM issues WHERE traversal_ids @> ARRAY[9970, 10510295]::bigint[];
 ```
 
--   `gitlab-org` backfill explain plan
--   full backfill explain plan (TODO)
+<details><summary>[Using travresal_ids](https://explain.depesz.com/s/bOy7#html) (only `gitlab-org` backfill)</summary>
+
+```sql
+SELECT * FROM "issues"
+WHERE (
+  NOT EXISTS (
+    SELECT 1
+    FROM "banned_users"
+    WHERE (issues.author_id + 0 = banned_users.user_id)
+  )
+)
+AND traversal_ids @> ARRAY[9970, 10510295]::bigint[]
+AND "issues"."state_id" = 1
+ORDER BY "issues"."created_at" DESC, "issues"."id" DESC
+LIMIT 101;
+```
+
+```
+Limit  (cost=95.76..95.78 rows=6 width=1568) (actual time=3125.088..3125.116 rows=101 loops=1)
+   Buffers: shared hit=5002 read=2791
+   I/O Timings: shared read=2970.573
+   ->  Sort  (cost=95.76..95.78 rows=6 width=1568) (actual time=3125.086..3125.106 rows=101 loops=1)
+         Sort Key: issues.created_at DESC, issues.id DESC
+         Sort Method: top-N heapsort  Memory: 101kB
+         Buffers: shared hit=5002 read=2791
+         I/O Timings: shared read=2970.573
+         ->  Nested Loop Anti Join  (cost=33.94..95.69 rows=6 width=1568) (actual time=152.247..3118.722 rows=1498 loops=1)
+               Buffers: shared hit=4996 read=2791
+               I/O Timings: shared read=2970.573
+               ->  Bitmap Heap Scan on issues  (cost=33.51..76.03 rows=11 width=1568) (actual time=151.424..3043.277 rows=1498 loops=1)
+                     Recheck Cond: (traversal_ids @> '{9970,10510295}'::bigint[])
+                     Filter: (state_id = 1)
+                     Rows Removed by Filter: 1749
+                     Heap Blocks: exact=2867
+                     Buffers: shared hit=577 read=2716
+                     I/O Timings: shared read=2920.014
+                     ->  Bitmap Index Scan on idx_issues_on_traversal_ids  (cost=0.00..33.51 rows=28 width=0) (actual time=148.797..148.798 rows=3247 loops=1)
+                           Index Cond: (traversal_ids @> '{9970,10510295}'::bigint[])
+                           Buffers: shared hit=210 read=216
+                           I/O Timings: shared read=139.345
+               ->  Index Only Scan using banned_users_pkey on banned_users  (cost=0.43..2.08 rows=1 width=8) (actual time=0.045..0.045 rows=0 loops=1498)
+                     Index Cond: (user_id = (issues.author_id + 0))
+                     Heap Fetches: 0
+                     Buffers: shared hit=4419 read=75
+                     I/O Timings: shared read=50.559
+ Planning:
+   Buffers: shared hit=9 read=2
+   I/O Timings: shared read=2.459
+ Planning Time: 3.078 ms
+ Execution Time: 3125.217 ms
+```
+
+</details>
 
 ### User is member of a sub-group(s) or project(s)
 
@@ -490,10 +533,190 @@ Initially it could be enough to keep the existing query we have to find all `nam
   AND issues.namespace_id IN (namespace_ids)
 ```
 
-<details><summary>`gitlab-org` traversal_ids TODO</summary>
+<details><summary>[Using traversal_ids](https://explain.depesz.com/s/uK14) (only `gitlab-org` backfill)`</summary>
 
 ```sql
+explain (analyze, buffers) WITH "namespace_ids" AS MATERIALIZED (
+  SELECT "namespaces"."id"
+  FROM (
+    (SELECT "namespaces"."id"
+     FROM "namespaces"
+     WHERE "namespaces"."type" = 'Group'
+     AND (traversal_ids @> ('{9970}')))
 
+    UNION ALL
+
+    (SELECT "projects"."project_namespace_id"
+     FROM "projects"
+     LEFT JOIN project_features ON projects.id = project_features.project_id
+     WHERE "projects"."namespace_id" IN (
+       SELECT "namespaces"."id"
+       FROM UNNEST(
+         COALESCE(
+           (SELECT ids
+            FROM (
+              SELECT "namespace_descendants"."self_and_descendant_group_ids" AS ids
+              FROM "namespace_descendants"
+              WHERE "namespace_descendants"."outdated_at" IS NULL
+              AND "namespace_descendants"."namespace_id" = 9970
+            ) cached_query),
+           (SELECT ids
+            FROM (
+              SELECT ARRAY_AGG("namespaces"."id") AS ids
+              FROM (
+                SELECT namespaces.traversal_ids[array_length(namespaces.traversal_ids, 1)] AS id
+                FROM "namespaces"
+                WHERE "namespaces"."type" = 'Group'
+                AND (traversal_ids @> ('{9970}'))
+              ) namespaces
+            ) consistent_query)
+         )
+       ) AS namespaces(id)
+     )
+     AND (
+       EXISTS (
+         SELECT 1
+         FROM "project_authorizations"
+         WHERE "project_authorizations"."user_id" = 13585187
+         AND (project_authorizations.project_id = projects.id)
+         AND (project_authorizations.access_level >= 10)
+       )
+       OR projects.visibility_level IN (10,20)
+     )
+     AND (
+       "project_features"."issues_access_level" IS NULL
+       OR "project_features"."issues_access_level" IN (20,30)
+       OR (
+         "project_features"."issues_access_level" = 10
+         AND EXISTS (
+           SELECT 1
+           FROM "project_authorizations"
+           WHERE "project_authorizations"."user_id" = 13585187
+           AND (project_authorizations.project_id = project_features.project_id)
+           AND (project_authorizations.access_level >= 10)
+         )
+       )
+     )
+    )
+  ) namespaces
+)
+
+SELECT * FROM "issues"
+WHERE (
+  NOT EXISTS (
+    SELECT 1
+    FROM "banned_users"
+    WHERE (issues.author_id + 0 = banned_users.user_id)
+  )
+)
+AND (issues.namespace_id IN (SELECT id FROM namespace_ids))
+AND "issues"."state_id" = 1
+ORDER BY "issues"."created_at" DESC, "issues"."id" DESC
+LIMIT 101
+```
+
+```
+ Limit  (cost=11411.84..11411.84 rows=1 width=1568) (actual time=920.052..920.085 rows=101 loops=1)
+   Buffers: shared hit=20783 read=878
+   I/O Timings: shared read=870.415
+   CTE namespace_ids
+     ->  Append  (cost=45.66..11298.52 rows=1314 width=8) (actual time=17.539..902.706 rows=79 loops=1)
+           Buffers: shared hit=12996 read=878
+           I/O Timings: shared read=870.415
+           ->  Subquery Scan on "*SELECT* 1"  (cost=45.66..121.22 rows=49 width=8) (actual time=17.538..52.444 rows=21 loops=1)
+                 Buffers: shared hit=1 read=44
+                 I/O Timings: shared read=51.502
+                 ->  Bitmap Heap Scan on namespaces  (cost=45.66..120.61 rows=49 width=4) (actual time=17.536..52.418 rows=21 loops=1)
+                       Recheck Cond: ((traversal_ids @> '{10510295}'::integer[]) AND ((type)::text = 'Group'::text))
+                       Heap Blocks: exact=21
+                       Buffers: shared hit=1 read=44
+                       I/O Timings: shared read=51.502
+                       ->  Bitmap Index Scan on index_namespaces_on_traversal_ids_for_groups  (cost=0.00..45.65 rows=49 width=0) (actual time=14.521..14.521 rows=21 loops=1)
+                             Index Cond: (traversal_ids @> '{10510295}'::integer[])
+                             Buffers: shared hit=1 read=23
+                             I/O Timings: shared read=13.947
+           ->  Nested Loop Left Join  (cost=121.86..11170.73 rows=1265 width=8) (actual time=23.725..850.168 rows=58 loops=1)
+                 Filter: ((project_features.issues_access_level IS NULL) OR (project_features.issues_access_level = ANY ('{20,30}'::integer[])) OR ((project_features.issues_access_level = 10) AND (hashed SubPlan 4)))
+                 Rows Removed by Filter: 2
+                 Buffers: shared hit=12995 read=834
+                 I/O Timings: shared read=818.913
+                 ->  Nested Loop  (cost=121.30..7646.84 rows=814 width=12) (actual time=18.622..417.977 rows=60 loops=1)
+                       Buffers: shared hit=199 read=287
+                       I/O Timings: shared read=412.141
+                       ->  HashAggregate  (cost=120.73..121.22 rows=49 width=28) (actual time=0.540..0.593 rows=21 loops=1)
+                             Group Key: namespaces_1.traversal_ids[array_length(namespaces_1.traversal_ids, 1)]
+                             Batches: 1  Memory Usage: 24kB
+                             Buffers: shared hit=45
+                             ->  Bitmap Heap Scan on namespaces namespaces_1  (cost=45.66..120.61 rows=49 width=28) (actual time=0.492..0.528 rows=21 loops=1)
+                                   Recheck Cond: ((traversal_ids @> '{10510295}'::integer[]) AND ((type)::text = 'Group'::text))
+                                   Heap Blocks: exact=21
+                                   Buffers: shared hit=45
+                                   ->  Bitmap Index Scan on index_namespaces_on_traversal_ids_for_groups  (cost=0.00..45.65 rows=49 width=0) (actual time=0.480..0.480 rows=21 loops=1)
+                                         Index Cond: (traversal_ids @> '{10510295}'::integer[])
+                                         Buffers: shared hit=24
+                       ->  Index Scan using index_projects_on_namespace_id_and_id on projects  (cost=0.57..153.41 rows=17 width=16) (actual time=7.317..19.865 rows=3 loops=21)
+                             Index Cond: (namespace_id = (namespaces_1.traversal_ids)[array_length(namespaces_1.traversal_ids, 1)])
+                             Filter: ((SubPlan 1) OR (visibility_level = ANY ('{10,20}'::integer[])))
+                             Buffers: shared hit=154 read=287
+                             I/O Timings: shared read=412.141
+                             SubPlan 1
+                               ->  Index Only Scan using index_project_authorizations_on_project_user_access_level on project_authorizations  (cost=0.58..3.60 rows=1 width=0) (actual time=4.237..4.237 rows=1 loops=60)
+                                     Index Cond: ((project_id = projects.id) AND (user_id = 3509693) AND (access_level >= 10))
+                                     Heap Fetches: 0
+                                     Buffers: shared hit=107 read=190
+                                     I/O Timings: shared read=251.396
+                 ->  Index Scan using index_project_features_on_project_id on project_features  (cost=0.56..0.71 rows=1 width=8) (actual time=3.441..3.441 rows=1 loops=60)
+                       Index Cond: (project_id = projects.id)
+                       Buffers: shared hit=134 read=166
+                       I/O Timings: shared read=204.145
+                 SubPlan 4
+                   ->  Index Only Scan using project_authorizations_pkey on project_authorizations project_authorizations_1  (cost=0.58..256.14 rows=9160 width=4) (actual time=8.251..216.080 rows=20150 loops=1)
+                         Index Cond: ((user_id = 3509693) AND (access_level >= 10))
+                         Heap Fetches: 77
+                         Buffers: shared hit=12662 read=381
+                         I/O Timings: shared read=202.627
+   ->  Sort  (cost=113.32..113.33 rows=1 width=1568) (actual time=920.050..920.064 rows=101 loops=1)
+         Sort Key: issues.created_at DESC, issues.id DESC
+         Sort Method: top-N heapsort  Memory: 101kB
+         Buffers: shared hit=20783 read=878
+         I/O Timings: shared read=870.415
+         ->  Nested Loop Anti Join  (cost=68.00..113.31 rows=1 width=1568) (actual time=910.408..918.617 rows=1498 loops=1)
+               Buffers: shared hit=20783 read=878
+               I/O Timings: shared read=870.415
+               ->  Hash Join  (cost=67.57..110.12 rows=1 width=1568) (actual time=910.381..915.785 rows=1498 loops=1)
+                     Hash Cond: (issues.namespace_id = namespace_ids.id)
+                     Buffers: shared hit=16289 read=878
+                     I/O Timings: shared read=870.415
+                     ->  Bitmap Heap Scan on issues  (cost=33.51..76.03 rows=11 width=1568) (actual time=6.861..11.725 rows=1498 loops=1)
+                           Recheck Cond: (traversal_ids @> '{9970,10510295}'::bigint[])
+                           Filter: (state_id = 1)
+                           Rows Removed by Filter: 1749
+                           Heap Blocks: exact=2867
+                           Buffers: shared hit=3293
+                           ->  Bitmap Index Scan on idx_issues_on_traversal_ids  (cost=0.00..33.51 rows=28 width=0) (actual time=6.503..6.504 rows=3247 loops=1)
+                                 Index Cond: (traversal_ids @> '{9970,10510295}'::bigint[])
+                                 Buffers: shared hit=426
+                     ->  Hash  (cost=31.57..31.57 rows=200 width=8) (actual time=903.495..903.496 rows=79 loops=1)
+                           Buckets: 1024  Batches: 1  Memory Usage: 12kB
+                           Buffers: shared hit=12996 read=878
+                           I/O Timings: shared read=870.415
+                           ->  HashAggregate  (cost=29.57..31.57 rows=200 width=8) (actual time=903.449..903.464 rows=79 loops=1)
+                                 Group Key: namespace_ids.id
+                                 Batches: 1  Memory Usage: 40kB
+                                 Buffers: shared hit=12996 read=878
+                                 I/O Timings: shared read=870.415
+                                 ->  CTE Scan on namespace_ids  (cost=0.00..26.28 rows=1314 width=8) (actual time=17.544..903.058 rows=79 loops=1)
+                                       Buffers: shared hit=12996 read=878
+                                       I/O Timings: shared read=870.415
+               ->  Index Only Scan using banned_users_pkey on banned_users  (cost=0.43..2.08 rows=1 width=8) (actual time=0.001..0.001 rows=0 loops=1498)
+                     Index Cond: (user_id = (issues.author_id + 0))
+                     Heap Fetches: 0
+                     Buffers: shared hit=4494
+ Planning:
+   Buffers: shared hit=1277 read=296
+   I/O Timings: shared read=382.085
+ Planning Time: 403.961 ms
+ Execution Time: 920.688 ms
 ```
 
 </details>
@@ -513,7 +736,7 @@ SELECT * FROM issues
     AND namespaces.visibility_level >= 20;
 ```
 
-<details><summary>`gitlab-org` traversal_ids https://explain.depesz.com/s/zA6A</summary>
+<details><summary>[Using traversal_ids](https://explain.depesz.com/s/zA6A)</summary>
 
 ```sql
 SELECT * FROM "issues"
@@ -585,211 +808,6 @@ all work items within that sub-group and being forced to sort in memory sort due
 ```
 CREATE INDEX idx_issues_on_traversal_ids ON issues USING gin (traversal_ids);
 ```
-
-<details><summary>Before https://explain.depesz.com/s/Voj1</summary>
-
-```sql
-WITH "namespace_ids" AS MATERIALIZED (
-    SELECT "namespaces"."id"
-    FROM (
-        (
-            SELECT "namespaces"."id"
-            FROM "namespaces"
-            WHERE "namespaces"."type" = 'Group'
-            AND (traversal_ids @> ('{10510295}'))
-        )
-        UNION ALL
-        (
-            SELECT "projects"."project_namespace_id"
-            FROM "projects"
-            LEFT JOIN project_features ON projects.id = project_features.project_id
-            WHERE "projects"."namespace_id" IN (
-                SELECT namespaces.traversal_ids[array_length(namespaces.traversal_ids, 1)] AS id
-                FROM "namespaces"
-                WHERE "namespaces"."type" = 'Group'
-                AND (traversal_ids @> ('{10510295}'))
-            )
-            AND (
-                EXISTS (
-                    SELECT 1
-                    FROM "project_authorizations"
-                    WHERE "project_authorizations"."user_id" = 3509693
-                    AND (project_authorizations.project_id = projects.id)
-                    AND (project_authorizations.access_level >= 10)
-                )
-                OR projects.visibility_level IN (10, 20)
-            )
-            AND (
-                "project_features"."issues_access_level" IS NULL
-                OR "project_features"."issues_access_level" IN (20, 30)
-                OR (
-                    "project_features"."issues_access_level" = 10
-                    AND EXISTS (
-                        SELECT 1
-                        FROM "project_authorizations"
-                        WHERE "project_authorizations"."user_id" = 3509693
-                        AND (project_authorizations.project_id = project_features.project_id)
-                        AND (project_authorizations.access_level >= 10)
-                    )
-                )
-            )
-        )
-    ) namespaces
-)
-SELECT
-  issues.*
-FROM "issues"
-WHERE (
-    NOT EXISTS (
-        SELECT 1
-        FROM "banned_users"
-        WHERE (issues.author_id + 0 = banned_users.user_id)
-    )
-)
-AND (issues.namespace_id IN (SELECT id FROM namespace_ids))
-AND "issues"."state_id" = 1
-ORDER BY "issues"."created_at" DESC, "issues"."id" DESC
-LIMIT 101
-```
-
-```
-Limit  (cost=173873.41..173873.42 rows=1 width=1471) (actual time=406.037..406.069 rows=101 loops=1)
-  Buffers: shared hit=35068
-  CTE namespace_ids
-    ->  Append  (cost=45.66..11298.52 rows=1314 width=8) (actual time=0.311..12.784 rows=79 loops=1)
-          Buffers: shared hit=13874
-          ->  Subquery Scan on "*SELECT* 1"  (cost=45.66..121.22 rows=49 width=8) (actual time=0.311..0.339 rows=21 loops=1)
-                Buffers: shared hit=45
-                ->  Bitmap Heap Scan on namespaces  (cost=45.66..120.61 rows=49 width=4) (actual time=0.310..0.335 rows=21 loops=1)
-                      Recheck Cond: ((traversal_ids @> '{10510295}'::integer[]) AND ((type)::text = 'Group'::text))
-                      Heap Blocks: exact=21
-                      Buffers: shared hit=45
-                      ->  Bitmap Index Scan on index_namespaces_on_traversal_ids_for_groups  (cost=0.00..45.65 rows=49 width=0) (actual time=0.303..0.303 rows=21 loops=1)
-                            Index Cond: (traversal_ids @> '{10510295}'::integer[])
-                            Buffers: shared hit=24
-          ->  Nested Loop Left Join  (cost=121.86..11170.73 rows=1265 width=8) (actual time=0.333..12.434 rows=58 loops=1)
-                Filter: ((project_features.issues_access_level IS NULL) OR (project_features.issues_access_level = ANY ('{20,30}'::integer[])) OR ((project_features.issues_access_level = 10) AND (hashed SubPlan 4)))
-                Rows Removed by Filter: 2
-                Buffers: shared hit=13829
-                ->  Nested Loop  (cost=121.30..7646.84 rows=814 width=12) (actual time=0.320..0.921 rows=60 loops=1)
-                      Buffers: shared hit=486
-                      ->  HashAggregate  (cost=120.73..121.22 rows=49 width=28) (actual time=0.275..0.284 rows=21 loops=1)
-                            Group Key: namespaces_1.traversal_ids[array_length(namespaces_1.traversal_ids, 1)]
-                            Batches: 1  Memory Usage: 24kB
-                            Buffers: shared hit=45
-                            ->  Bitmap Heap Scan on namespaces namespaces_1  (cost=45.66..120.61 rows=49 width=28) (actual time=0.252..0.269 rows=21 loops=1)
-                                  Recheck Cond: ((traversal_ids @> '{10510295}'::integer[]) AND ((type)::text = 'Group'::text))
-                                  Heap Blocks: exact=21
-                                  Buffers: shared hit=45
-                                  ->  Bitmap Index Scan on index_namespaces_on_traversal_ids_for_groups  (cost=0.00..45.65 rows=49 width=0) (actual time=0.246..0.246 rows=21 loops=1)
-                                        Index Cond: (traversal_ids @> '{10510295}'::integer[])
-                                        Buffers: shared hit=24
-                      ->  Index Scan using index_projects_on_namespace_id_and_id on projects  (cost=0.57..153.41 rows=17 width=16) (actual time=0.013..0.029 rows=3 loops=21)
-                            Index Cond: (namespace_id = (namespaces_1.traversal_ids)[array_length(namespaces_1.traversal_ids, 1)])
-                            Filter: ((SubPlan 1) OR (visibility_level = ANY ('{10,20}'::integer[])))
-                            Buffers: shared hit=441
-                            SubPlan 1
-                              ->  Index Only Scan using index_project_authorizations_on_project_user_access_level on project_authorizations  (cost=0.58..3.60 rows=1 width=0) (actual time=0.006..0.006 rows=1 loops=60)
-                                    Index Cond: ((project_id = projects.id) AND (user_id = 3509693) AND (access_level >= 10))
-                                    Heap Fetches: 0
-                                    Buffers: shared hit=297
-                ->  Index Scan using index_project_features_on_project_id on project_features  (cost=0.56..0.71 rows=1 width=8) (actual time=0.005..0.005 rows=1 loops=60)
-                      Index Cond: (project_id = projects.id)
-                      Buffers: shared hit=300
-                SubPlan 4
-                  ->  Index Only Scan using project_authorizations_pkey on project_authorizations project_authorizations_1  (cost=0.58..256.14 rows=9160 width=4) (actual time=0.017..6.538 rows=20150 loops=1)
-                        Index Cond: ((user_id = 3509693) AND (access_level >= 10))
-                        Heap Fetches: 77
-                        Buffers: shared hit=13043
-  ->  Sort  (cost=162574.89..162574.90 rows=1 width=1471) (actual time=406.036..406.050 rows=101 loops=1)
-        Sort Key: issues.created_at DESC, issues.id DESC
-        Sort Method: top-N heapsort  Memory: 101kB
-        Buffers: shared hit=35068
-        ->  Hash Anti Join  (cost=36559.16..162574.88 rows=1 width=1471) (actual time=399.048..404.801 rows=1498 loops=1)
-              Hash Cond: (issues.author_id = banned_users.user_id)
-              Buffers: shared hit=35068
-              ->  Nested Loop  (cost=30.13..125269.33 rows=207071 width=1471) (actual time=12.883..18.273 rows=1498 loops=1)
-                    Buffers: shared hit=17662
-                    ->  HashAggregate  (cost=29.57..31.57 rows=200 width=8) (actual time=12.832..12.862 rows=79 loops=1)
-                          Group Key: namespace_ids.id
-                          Batches: 1  Memory Usage: 40kB
-                          Buffers: shared hit=13874
-                          ->  CTE Scan on namespace_ids  (cost=0.00..26.28 rows=1314 width=8) (actual time=0.313..12.798 rows=79 loops=1)
-                                Buffers: shared hit=13874
-                    ->  Index Scan using index_issues_on_namespace_id_iid_unique on issues  (cost=0.57..624.61 rows=158 width=1471) (actual time=0.010..0.065 rows=19 loops=79)
-                          Index Cond: (namespace_id = namespace_ids.id)
-                          Filter: (state_id = 1)
-                          Rows Removed by Filter: 22
-                          Buffers: shared hit=3788
-              ->  Hash  (cost=23351.58..23351.58 rows=1054196 width=8) (actual time=378.985..378.986 rows=1054371 loops=1)
-                    Buckets: 2097152  Batches: 1  Memory Usage: 57571kB
-                    Buffers: shared hit=17406
-                    ->  Index Only Scan using banned_users_pkey on banned_users  (cost=0.43..23351.58 rows=1054196 width=8) (actual time=0.022..120.538 rows=1054371 loops=1)
-                          Heap Fetches: 16466
-                          Buffers: shared hit=17406
-Planning:
-  Buffers: shared hit=61
-Planning Time: 2.717 ms
-Execution Time: 406.523 ms
-```
-
-</details>
-
-<details><summary>`gitlab-org` backfill https://explain.depesz.com/s/nlWP#html</summary>
-
-```sql
-SELECT * FROM "issues"
-WHERE (
-  NOT EXISTS (
-    SELECT 1
-    FROM "banned_users"
-    WHERE (issues.author_id + 0 = banned_users.user_id)
-  )
-)
-AND traversal_ids @> ARRAY[9970, 10510295]::bigint[]
-AND "issues"."state_id" = 1
-ORDER BY "issues"."created_at" DESC, "issues"."id" DESC
-LIMIT 101;
-```
-
-```
-Limit  (cost=5171.70..5518.23 rows=101 width=1583) (actual time=20.580..22.673 rows=101 loops=1)
-   Buffers: shared hit=3609 read=6
-   I/O Timings: shared read=2.976
-   ->  Nested Loop Anti Join  (cost=5171.70..6900.94 rows=504 width=1583) (actual time=20.579..22.655 rows=101 loops=1)
-         Buffers: shared hit=3609 read=6
-         I/O Timings: shared read=2.976
-         ->  Gather Merge  (cost=5171.27..5286.27 rows=1009 width=1583) (actual time=20.545..22.302 rows=101 loops=1)
-               Workers Planned: 1
-               Workers Launched: 1
-               Buffers: shared hit=3306 read=6
-               I/O Timings: shared read=2.976
-               ->  Sort  (cost=4171.26..4172.74 rows=594 width=1583) (actual time=7.761..7.773 rows=50 loops=2)
-                     Sort Key: issues.created_at DESC, issues.id DESC
-                     Sort Method: quicksort  Memory: 786kB
-                     Buffers: shared hit=3306 read=6
-                     I/O Timings: shared read=2.976
-                     Worker 0:  Sort Method: quicksort  Memory: 25kB
-                     ->  Parallel Bitmap Heap Scan on issues  (cost=46.89..4143.89 rows=594 width=1583) (actual time=3.251..5.453 rows=749 loops=2)
-                           Recheck Cond: (traversal_ids @> '{9970,10510295}'::bigint[])
-                           Filter: (state_id = 1)
-                           Rows Removed by Filter: 874
-                           Heap Blocks: exact=2867
-                           Buffers: shared hit=3293
-                           ->  Bitmap Index Scan on idx_issues_on_traversal_ids  (cost=0.00..46.63 rows=2654 width=0) (actual time=6.102..6.102 rows=3247 loops=1)
-                                 Index Cond: (traversal_ids @> '{9970,10510295}'::bigint[])
-                                 Buffers: shared hit=426
-         ->  Index Only Scan using banned_users_pkey on banned_users  (cost=0.43..1.83 rows=1 width=8) (actual time=0.002..0.002 rows=0 loops=101)
-               Index Cond: (user_id = (issues.author_id + 0))
-               Heap Fetches: 0
-               Buffers: shared hit=303
- Planning:
-   Buffers: shared hit=2
- Planning Time: 0.423 ms
- Execution Time: 22.774 ms
-```
-
-</details>
 
 ## Concerns
 
