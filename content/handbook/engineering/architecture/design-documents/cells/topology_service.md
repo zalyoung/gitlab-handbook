@@ -212,8 +212,7 @@ NOTE:
 - The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
   - To support Cells 2.0 (i.e: allow moving organizations from
   Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
-  Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
-  and it is estimated to take around 12 months.
+  This effort is tracked in the epic [Convert all integer IDs to bigint in the primary cell (#15591)](https://gitlab.com/groups/gitlab-org/-/epics/15591).
 
 More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
