@@ -1,10 +1,10 @@
 ---
-title: "GitLab Co-Create: Legal Explainer for Customers"
+title: "Navigating Project License Requirements: A Compatibility Guide for Corporate Contributors"
 ---
 
 ## Understanding Contribution Agreements at a Glance
 
-| Type of Contribution | Who's Contributing | Agreement Required | Approval Process |
+| Type of Contribution | Who's Contributing | Governing Agreement | Approval Process |
 |----------------------|-------------------|-------------------|------------------|
 | MIT-licensed code | Individual | DCO (Developer Certificate of Origin) | Automatic - by contributing you accept the DCO |
 | MIT-licensed code | Corporation | DCO (Developer Certificate of Origin) | Automatic - by contributing you accept the DCO |
