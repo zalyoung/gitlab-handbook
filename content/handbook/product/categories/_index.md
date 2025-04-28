@@ -260,7 +260,7 @@ When downgrading product maturity, we adjust our customer's current expectations
 
 ![Dev Ops Diagram](/images/product/categories/devops-diagram.svg)
 
-{{% categories %}}
+{{% product/categories %}}
 
 ## Possible future Stages
 
@@ -410,4 +410,4 @@ For more information please review [this section in the quality department handb
 
 <!-- To edit the content of the Categories index, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml -->
 
-{{< categories-index >}}
+{{< product/categories-index >}}

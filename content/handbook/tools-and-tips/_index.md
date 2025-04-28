@@ -1,15 +1,11 @@
 ---
 title: Tools and tips
-no_list: true
+simple_list: true
 ---
 
 ## Overview
 
 This page contains useful tips for working at GitLab and for various tools we use.
-
-## Sub-pages
-
-{{< subpages >}}
 
 ## GitLab tips
 

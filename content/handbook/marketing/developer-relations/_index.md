@@ -186,7 +186,7 @@ To update our [list of current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-
 
 The Developer Relations team monitors several [Key Performance Indicators and related Performance Indicators](/handbook/marketing/developer-relations/performance-indicators/).
 
-{{< kpi-list "developer_relations_department" >}}
+{{< kpi "developer_relations_department" >}}
 
 ## <i class="fas fa-vector-square fa-fw color-orange font-awesome"></i> Team Logos
 

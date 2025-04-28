@@ -6,7 +6,7 @@ status: rejected
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 _This blueprint was surpassed by the [infrastructure blueprint](../infrastructure/index.md)_
 

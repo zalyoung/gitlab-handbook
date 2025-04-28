@@ -407,7 +407,7 @@ The Compliance EM also contributes to issues in the [Software Supply Chain Secur
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Software Supply Chain Security.+Compliance" >}}
+{{< engineering/stable-counterparts role="Software Supply Chain Security.+Compliance" >}}
 
 ## Dashboards
 

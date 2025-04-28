@@ -11,7 +11,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 
 ## Team Members
 
-{{% stable-counterparts role="Foundations:Design System" %}}
+{{% engineering/stable-counterparts role="Foundations:Design System" %}}
 
 ## What do we work on?
 

@@ -10,7 +10,7 @@ toc_hide: true
 
 <!-- Blueprints often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 

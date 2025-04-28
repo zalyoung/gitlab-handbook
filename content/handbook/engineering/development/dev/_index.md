@@ -92,7 +92,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts manager-role="Director of Engineering, Dev" role="[,&] Dev" >}}
+{{< engineering/stable-counterparts manager-role="Director of Engineering, Dev" role="[,&] Dev" >}}
 
 ## How we work
 

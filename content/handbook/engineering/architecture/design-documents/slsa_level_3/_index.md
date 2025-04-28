@@ -11,7 +11,7 @@ toc_hide: true
 no_list: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -119,9 +119,9 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 Note: the projects listed below are note dependent on each other and can be done in parallel.
 
 #### Provenance Generation
-  
-1. Phase 1: Develop and validate the provenance generation component using Sigstore. 
-1. Phase 2: Extend the component to collect build-specific metadata for supported ecosystems. 
+
+1. Phase 1: Develop and validate the provenance generation component using Sigstore.
+1. Phase 2: Extend the component to collect build-specific metadata for supported ecosystems.
 1. Phase 3: Add functionality to collect and embed GitLab platform metadata.
 
 #### KMS Integration
@@ -272,10 +272,10 @@ component:
     - echo "Downloading artifact from ${RESOURCE_URL}..."
     - mkdir -p $(dirname ${DOWNLOADED_ARTIFACT})
     - curl -L -o ${DOWNLOADED_ARTIFACT} ${RESOURCE_URL}
-    
+
     - echo "Calculating artifact digest..."
     - ARTIFACT_DIGEST=$(sha256sum ${DOWNLOADED_ARTIFACT} | cut -d ' ' -f 1)
-    
+
     - echo "Downloading policy from ${POLICY_URL}..."
     - POLICY_FILE=".tmp/policy.json"
     - |
@@ -283,11 +283,11 @@ component:
         echo "ERROR: Failed to download policy file from ${POLICY_URL}"
         exit 1
       fi
-    
+
     - echo "Calculating policy digest..."
     - POLICY_DIGEST=$(sha256sum ${POLICY_FILE} | cut -d ' ' -f 1)
     - echo "Policy digest: ${POLICY_DIGEST}"
-    
+
     - echo "Verifying signed provenance against downloaded artifact..."
     - cosign verify-blob-attestation --type slsaprovenance1 \
         --bundle ${BUNDLE_FILE} \
@@ -295,7 +295,7 @@ component:
         --certificate-oidc-issuer ${CI_SERVER_URL} \
         ${DOWNLOADED_ARTIFACT}
     - RESULT="PASSED" # TODO: verify the provenance against the policies
-    
+
     - echo "Generating verification summary for artifact..."
     - mkdir -p $(dirname ${VERIFICATION_SUMMARY_FILE})
     - jq -n --arg policyUrl "${POLICY_URL}" --arg result "${RESULT}" \
@@ -339,10 +339,10 @@ component:
           "slsaVersion": "1.0"
         }
       }' > "${VERIFICATION_SUMMARY_FILE}"
-    
+
     - echo "Verification summary generated at ${VERIFICATION_SUMMARY_FILE}"
     - jq . ${VERIFICATION_SUMMARY_FILE}
-    
+
     - echo "Signing the verification summary attestation..."
     - cosign attest-blob --predicate "${VERIFICATION_SUMMARY_FILE}" \
         --type slsaverificationsummary \
@@ -352,9 +352,9 @@ component:
         --identity-token "${GITLAB_OIDC_TOKEN}" \
         --bundle "${VERIFICATION_SUMMARY_FILE}.bundle" \
         "${DOWNLOADED_ARTIFACT}"
-        
+
     - echo "VSA signed and stored at ${VERIFICATION_SUMMARY_FILE}.bundle"
-    
+
     - |
       if [ "$RESULT" == "FAILED" ]; then
         echo "Policy verification FAILED. Exiting with error."

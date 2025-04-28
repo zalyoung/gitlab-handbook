@@ -177,6 +177,6 @@ Non-group specific counterparts typically also step in when the related group ha
 
 ## Product counterparts
 
-{{< section-counterparts >}}
+{{< engineering/section-counterparts >}}
 
-{{< stages-counterparts >}}
+{{< engineering/stages-counterparts >}}

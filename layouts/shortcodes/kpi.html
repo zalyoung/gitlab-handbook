@@ -4,7 +4,7 @@
 {{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/performance_indicators/%s.yml" $publicHandbookRef  $org}}
 {{ $resource := resources.GetRemote $dataURL }}
 {{ if not $resource }}
-  <h2>Unable to fetch performance indicator Data</h2>
+  Unable to fetch performance indicator Data
 {{ else }}
   {{ $data := $resource | transform.Unmarshal }}
   <ol>
@@ -15,8 +15,6 @@
       {{ if .urls }}
         {{$url := index .urls 0}}
         <a href="{{ $url }}">🔗</a>
-      {{ else }}
-      🐔
       {{ end }}
     </li>
     {{ end }}

@@ -10,7 +10,7 @@ participating-stages: ["~devops::data stores", "~devops::systems"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document outlines the design goals and architecture of Routing Git over SSH.
 

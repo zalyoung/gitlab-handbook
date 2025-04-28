@@ -14,7 +14,7 @@ toc_hide: true
 <!-- Design Documents often contain forward-looking statements -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Background
 
@@ -123,7 +123,7 @@ erDiagram
 
 ##### **2. NAMESPACE_AI_FEATURES**
 
-- A set of features enabled for the namespace. 
+- A set of features enabled for the namespace.
 - This table consists of a feature category (such as Code Suggestions) and a feature (such Code Completion)
 - This also stores the organization level recommended model
 - **New**
@@ -340,7 +340,7 @@ sequenceDiagram
 
 **Conflict Resolution**
 
-What happens if multiple namespace admins set conflicting default models at different levels of the hierarchy. Which default should we choose? 
+What happens if multiple namespace admins set conflicting default models at different levels of the hierarchy. Which default should we choose?
 > **Decision**: Configurations on a child namespace to take precedence over the parent namespace.
 
 **Future Model Feature Parity**
