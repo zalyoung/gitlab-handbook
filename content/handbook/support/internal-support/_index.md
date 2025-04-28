@@ -425,8 +425,6 @@ Please declare a **security incident** if:
 
 The Infrastructure team is the admin of GitLab.com, and any changes to product tuneables go through the [change request workflow](/handbook/engineering/infrastructure/change-management/#change-request-workflows).
 
-## Other
-
 ### Trials and Prospect Support
 
 For information relating to priority prospects, please see
