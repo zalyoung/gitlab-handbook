@@ -61,7 +61,7 @@ This page outlines the DBO team's incident escalation policy.
 
 When responding to an Incident, utilize the below procedure as guidelines to follow to assist both yourself and the members requesting your assistance
 
-1. Join the Incident Zoom - this can be found bookmarked in the `#incidents` Slack Channel
+1. Join the Incident Zoom - this can be found bookmarked in the relevant incident Slack Channel
 1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#inc-<INCIDENT NUMBER>`
 1. Work with the EOC to determine if a known code path is problematic
 
@@ -72,7 +72,7 @@ When responding to an Incident, utilize the below procedure as guidelines to fol
 
 ### Shadowing An Incident Triage Session
 
-Feel free to participate in any incident triaging call if you would like to have a few rehearsals of how it usually works. Simply watch out for active incidents in [#incidents](https://gitlab.slack.com/archives/C02HF90ME66) and join the Situation Room Zoom call (link can be found in the channel) for synchronous troubleshooting. There is a [nice blog post](https://about.gitlab.com/blog/2020/04/13/lm-sre-shadow/) about the shadowing experience.
+Feel free to participate in any incident triaging call if you would like to have a few rehearsals of how it usually works. Simply watch out for active incidents in [#incidents-dotcom](https://gitlab.slack.com/archives/C08FMPK1DDF) and join the Situation Room Zoom call (link can be found in the channel) for synchronous troubleshooting. There is a [nice blog post](https://about.gitlab.com/blog/2020/04/13/lm-sre-shadow/) about the shadowing experience.
 
 ### Replaying Previous Incidents
 
@@ -80,7 +80,7 @@ Situation Room recordings from previous incidents are available in this [Google 
 
 ### Shadowing A Whole Shift
 
-To get an idea of what's expected of an on-call DBO and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBO on-call to let them know you'll be shadowing. During the shift keep an eye on [#incidents](https://gitlab.slack.com/archives/C02HF90ME66) for incidents.
+To get an idea of what's expected of an on-call DBO and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBO on-call to let them know you'll be shadowing. During the shift keep an eye on [#incidents-dotcom](https://gitlab.slack.com/archives/C08FMPK1DDF) for incidents.
 
 ### Tips & Tricks of Troubleshooting
 
