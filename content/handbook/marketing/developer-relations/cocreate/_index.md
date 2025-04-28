@@ -54,7 +54,7 @@ Is there an issue that should be considered for the curated Co-Create [issue lis
 
 - [Contribute to GitLab](https://about.gitlab.com/community/contribute/) - this webpage provides a high-level overview of the benefits related to contributing to GitLab's open-source community, as well as contribution guidelines and tutorials aimed at helping you better understand and visualize the process.
 - [Our stewardship of open source](/handbook/company/stewardship/#promises) - this webpage discusses GitLab's open-core business model and promises related to open-source stewardship.
-- [Legal explainer](/handbook/marketing/developer-relations/cocreate/legal-explainer) - this webpage answers FAQs about contributing to GitLab with Co-Create.
+- [Navigating Project License Requirements](/handbook/marketing/developer-relations/cocreate/license-compatibility-guide) - A Compatibility Guide for Corporate Contributors.
 - [GitLab's Corporate Contributor Agreement](https://docs.google.com/document/d/1JZ495wMxsnUPIzZoBvAVtvnfbWiMNS4VYC_S2Er4K0s/edit) - this Agreement covers all contributions made on behalf of a corporate contributor by the corporation's authorized contributors. Please email [cla_managers@gitlab.com](mailto:cla_managers@gitlab.com) to start the process of signing this agreement.
 
 ## Internal Slack Channel
