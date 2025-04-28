@@ -43,30 +43,6 @@ At GitLab, we strive to communicate with people in a way that is beneficial to t
 
 Each form will have the appropriate opt-in language specifid. However, to check you may [visit here](https://docs.google.com/document/d/1UEfWo26DP7nRPrWRWo7O7oSrNp_rRuVqyN_vC7SwXME/edit?usp=sharing).
 
-### CAN-SPAM
-
-Controlling the Assault of Non-Solicited Pornography and Marketing Act (CAN-SPAM) 
-
-The CAN-SPAM Act is a U.S. based set of rules for all commerical emails, though additional countries have similar e-mail spam laws. The Act does not apply just to bulk email, but covers all commercial messages whose primary purpose is to advertise or promote a commercial product or service.
-
-It is worth noting that there are no exceptions for B2B email. The main requirements are as follows:
-
-**Keep the header accurate.** The reader needs to be able to identify who is sending them messages. The email address of the sender should indicate GitLab is the sender.
-
-**No deceptive subject lines.** Don’t mislead the reader or use inaccurate subject lines to persuade someone to open the email. Be clear, impactful and short; though you can create urgency and value. 
-
-**Identify the message as an ad.** The subject line doesn't need to include "advertisement” however the message must include a clear and conspicuous indication that it is an advertisement. 
-
-**Include location.** There must be a valid business address listed in the email.
-
-**Opt-out options.** Every email must include an easy way to unsubscribe from receiving further communications. This is generally an opt-out link or an unsubscribe link which has minimal clicks required. Opting-out should be as easy as opting-in. 
-
-**Opt-outs need to be processed quickly.** Ideally, an opt-out will occur automatically or within a business day or two but must be completed within ten (10) business days.
-
-**Stay Diligent.** If you use a third party to manage business emails, be aware that GitLab is still responsible for compliance with CAN-SPAM. Ensure that email campaigns and emails list messages are reviewed for CAN-SPAM.
-
-Each separate email in violation of the CAN-SPAM Act is subject to penalties over $53,000.
-
 ### Email filters
 
 All email sends must use the relevant `Emailable` Smart List. This is in addition to filters to address the relevant audience.
@@ -98,7 +74,7 @@ We have a Marketo enforced limit on how many emails a single address can receive
 
 The email limits are not set in campaign templates, however, if your email is set to send to more than 20,000 people, you must include a filter for `Not Sent Email in last 2 Days`.
 
-Please reference and use the [All-Marketing SSOT Calendar](/handbook/marketing/#marketing-calendar-inputs) to see other sends happening around the same time.
+Please reference and use the [All-Marketing SSOT Calendar](https://internal.gitlab.com/handbook/marketing/#fy25-ssot-marketing-calendar) to see other sends happening around the same time.
 
 ## Request non-Demand Generation Emails
 
