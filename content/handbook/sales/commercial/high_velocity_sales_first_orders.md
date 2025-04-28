@@ -79,19 +79,11 @@ Cases are automatically created when;
 
 ## Case Types
 
-The cases that will be auto-created, are split into 5 distinct categories;
+Instructions and resources for working each case type can be found in the content below:
 
-Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.
+[FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=0#gid=0)
 
-Renewal Sales-Assist - These occur when the account in question has exhibited signs of low usage/ adoption, payments failed, or the renewal must be processed by an Advocate.
-
-Expansion Opportunity - These occur when the account in question has exhibited signs of growth, and that they are likely to expand.
-
-Non-Renewal Sales-Assist - These occur when customers need assistance with payment issues, requiring outreach to help them update payment methods, renew subscriptions, or access promotional pricing.
-
-Instructions and resources for working each case type are found in the consolidated SMB Case Enablement Deck:
-
-[FY26 SMB Advocate Case Instructions and Resources](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g2f4db661fd3_0_1928)
+[FY26 SMB Case Enablement](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g2f4db661fd3_0_1928)
 
 [FY26 SMB Case Triggers](https://docs.google.com/spreadsheets/d/1ihpt5WDpoJmDWa5gA0eXvBJOgFOJgL1J_QxsBuDDowc/edit?gid=1223186811#gid=1223186811)
 
@@ -142,28 +134,72 @@ You can now return to this report at any time to check;
 
 ## SMB Advocate Playbook
 
-### SMB Advocate Case Workflow
-
-[FY26: GDS Case Enablement](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g32b866bfec2_0_0)
-
+### Introduction to SMB Cases
 - As of 02/01/2025, all cases will be auto-assigned to Advocates using Traction Complete's round-robin functionality.
-- Information pertaining to the case will be displayed in the Context, CTA & Description box.
-- An Advocate must then update the Status to In Progress. (This shows the case is being worked).
+- Information pertaining to the case will be displayed in the **Context**, **CTA** & **Description** box.
+- At any time, an SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
+
+#### Case Status
+
+Available Case Statuses:
+- Open
+- In Progress: Attempting Contact
+- In Progress: Blocked
+- In Progress: Engaged
+- Closed: Duplicate
+- Closed: Unresponsive
+- Closed: Resolved
+
+- Once a Case is considered closed, the Status should be set to one of the three Closed options above and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
+- **Note**:  Inbound customer requests must only be marked as closed once the customers needs have been addressed.
+
+### Case Workflow and Management
 - To work the case, the SMB Advocate should contact the customer, with all activities logged on the contact/ account, via Groove. The Next Steps fields on the case should also be updated to include the case next steps/ date.
-- Note: when assigned a case created by a GitLab stakeholder e.g the Support Team, it is crucial that the Advocate updates **Next Steps** as soon as the case has been actioned.
+  - An Advocate must then update the Status to In Progress (this shows the case is being worked).
+
+**Next Steps Field Hygiene Example**:
+- BAD: Contact
+- GOOD: 2024-07-05 KK First touch email to discuss promo
+
+- BAD: Waiting on billing
+- GOOD: 2024-07-05 KK Followed up with billing team to approve refund request
+
+- When working cases, the following Groove cadence should be followed.
+  - Day 1 - Email
+  - Day 3 - Call
+  - Day 5 - Email
+  - Day 7 - Email
+
+- **Note**: When assigned a case created by a GitLab stakeholder e.g the Support Team, it is crucial that the Advocate updates **Next Steps** as soon as the case has been actioned.
  This allows the stakeholder to view case updates, and negates the need for them to chatter the Case Owner requesting an update.  Any updates that *are* requested via chatter, should be answered by the Advocate/ Case Owner within one business day.
 - (If the Advocate is working on an Expansion Opportunity case, any Add On or Growth opp they uncover should be manually created, and linked to the case in question, via the Opportunity lookup field).
-- Once a Case is considered closed, the Status should be set to one of the three Closed options, and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
-- Note:  Inbound customer requests must only be marked as closed once the customers needs have been addressed.
 - If applicable, the linked opportunity should also be closed.
-- At any time, an SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
-- When working cases, the following Groove cadence should be followed.
-- - Day 1 - Email
-- - Day 3 - Call
-- - Day 5 - Email
-- - Day 7 - Email
-- An Advocate should look to resolve/ close a case within 7 days of it being opened. The max time to resolve a case is limited to 15 days (except cases with containing the subject: High Value Account).
+
+#### Case Status and Action Required
+[FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=386573487#gid=386573487)
+
+#### Common SMB Cases and Expected Outcomes
+[FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=0#gid=0)
+
+### Cross-Team Collaboration
+
+When and how to engage with cross-functional teams:
+[FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=496062544#gid=496062544)
+
+### Resources & Tools
+- [FY26: GDS Case Enablement](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g32b866bfec2_0_0)
+- [FY26 HVS Dashboards](https://docs.google.com/spreadsheets/d/1WIO84I2842a0MO5R1UuoCfqDhmrHIIfAQI6kzJvfiDU/edit?gid=0#gid=0)
+- [HVS Sales Tech Stack](https://docs.google.com/spreadsheets/d/14YrGHDiMvLpeMAwi6p_G7uC7XpMsCqaJ1KhvUvUumbc/edit?gid=0#gid=0)
+
+### Advocate Expectations
+- An Advocate should look to resolve/ close a case within 7 days of it being opened. The max time to resolve a case is limited to 15 days (*List of case exceptions below*).
+  - High Value Account
+  - Renewal Will Fail
+  - PO Required
+  - First Order (FO)
+  - Customer request to get in touch at a later date
 - The Advocate must also adhere to the Required 10, to ensure that the correct case fields and opportunity fields are updated when picking up, working, and closing out a case.
+
 
 ## Required 10
 
