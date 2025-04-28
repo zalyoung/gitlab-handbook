@@ -211,18 +211,19 @@ When and how to engage with cross-functional teams:
 ## Renewals Team
 
 The SMB Renewals Team will soft launch on May 5th, 2025. Every SMB Renewal opportunity will have a Renewal Manager attached and engaged.
+
 - As the Renewals team ramps to full capacity, they will start to take over cases on accounts that are both < 3k CARR and < 20 LAM
 - **Most Renewals case types will be deprecated as soon as the Renewals teams take over renewal engagement.**
   - **Exceptions**:
     - Autorenewal Recently Turned Off
     - Overage with QSR Off
     - Autorenewal Will Fail
-- Renewal Managers can escalate ccases to Advocates by adding #advocate to the Subject of any case assigned to them
-  - These cases will be assigned as per usual SMB Advocate routing rules. Advocates can reach out to the RM for additional context.
+- Renewal Managers can escalate cases to Advocates by adding #advocate to the Subject of any case assigned to them
+- These cases will be assigned as per usual SMB Advocate routing rules. Advocates can reach out to the RM for additional context.
 - Renewals Managers **will be assigned to HVA renewals**, the expectation is for Advocates and RMs to work as a team to build these relationships
  - As a reminder, please review recent Activities on your HVA accounts once RMs are engaged as that is where you will find their activities. They will also have access to and review your Account Plans.
 
- ## New Logo Team Playbook
+## New Logo Team Playbook
 
 **Key Audience**: New Logo Account Executive, Area Sales Managers, and Renewals Managers
 
@@ -279,11 +280,13 @@ A typical week should look like:
 - Opportunity advancement (1.5 hours)
 
 **Thursday**: Deal Advancement & Process Improvement
+
 - SA engagement and technical validation calls (2.5 hours)
 - Deal negotiation and proposal writing (1.5 hours)
 - Team feedback session (1 hour)
 
 **Friday**: Administrative & Closing
+
 - Final push on deals closing this week (1.5 hours)
 - CRM updates and opportunity management (1 hour)
 - Internal meetings and enablement (1 hour)
