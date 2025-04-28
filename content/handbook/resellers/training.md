@@ -15,24 +15,19 @@ At GitLab we value asynchronous working relationships, that's why all of our Par
 
 | Sales| Pre-Sales Technical | Customer Success |
 | :---         | :---:    | ---:          |
-| GitLab Foundations for Partners    | SA Core Accreditation  | Customer Centric Lunch & Learns       |
-| Sales Professional Accreditation     | How to demos  | Service Delivery Kits       |
+|| SA Core Accreditation  | Customer Centric Lunch & Learns       |
+| Sales Professional for Partners Accreditation     | How to demos  | Service Delivery Kits       |
 | Competitive Positioning    | Competitive Positioning   | Product Installation Guides      |
 | Value Pitches    | Product Knowledge  | Service Development      |
 
-## <span style="color: #fc6d26;">Training for all Partner Learners</span>
-
-We recommend that every learner begin their journey with GitLab, by taking the GitLab Foundations course. This fundamental course will give you and introduction to the GitLab product, licensing model, and how to transact with GitLab.
-
 ## <span style="color: #fc6d26;">Training for Sales Professionals</span>
 
-### <span style="color: #380d75;">GitLab Sales Professional</span>
+### <span style="color: #380d75;">GitLab Sales Professional for Partners</span>
 
-The GitLab Sales Professional Learning Pathway is ideal for Account Executives and Sales Engineers. Learn about the core features, use cases and solutions that GitLab provides. The GitLab Sales Professional contains 4 courses: GitLab Foundations, Understanding DevSecOps, GitLab Customers, Pitching GitLab. Each course contains 3-5 lessons and knowledge checks. There is a final exam at the end of the learning pathway, upon passing learners will be awarded the GitLab Sales Professional Accreditation.
+The GitLab Sales Professional for Partners is ideal for Account Executives and Sales Engineers. Learn about the core features, use cases and solutions that GitLab provides. The GitLab Sales Professional for Partners contains 4 modules: Introduction to GitLab Professional Sales Accreditation, Understanding DevSecOps, Undertsanding GitLab Customers, and  GitLab Foundations for Partners. Each course contains lessons and knowledge checks. There is a final exam at the end of the training which should take approximately 3.5 hours. Upon successfully passing, learners will be awarded the GitLab Sales Professional for Partners Accreditation.
 
 After completing this training, learners will be familiar with GitLab's core use cases, ideal customer profile and buyer personas, and how to pitch the DevSecOps platform story.
 
-This learning pathway takes approximately 3 hours to complete.
 
 ## <span style="color: #fc6d26;">Accreditations for Pre- Sales Technical  Professionals</span>
 
