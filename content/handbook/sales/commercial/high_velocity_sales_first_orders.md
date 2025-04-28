@@ -162,11 +162,11 @@ Available Case Statuses:
 
 **Next Steps Field Hygiene Example**:
 
-- BAD: Contact
-- GOOD: 2024-07-05 KK First touch email to discuss promo
+- Incorrect: Contact
+- Correct: 2024-07-05 KK First touch email to discuss promo
 
-- BAD: Waiting on billing
-- GOOD: 2024-07-05 KK Followed up with billing team to approve refund request
+- Incorrect: Waiting on billing
+- Correct: 2024-07-05 KK Followed up with billing team to approve refund request
 
 - When working cases, the following Groove cadence should be followed.
   - Day 1 - Email
@@ -258,10 +258,10 @@ We use a tiered approach to focus efforts efficiently:
 
 Recommended Time Split: 
 
-- 40% Prospecting: Account strategy & planning and direct outreach
-- 30% Deal Advancement: Moving opportunities through pipeline
-- 20% Admin/Operations: CRM updates, forecasting, internal meetings
-- 10% Feedback/Improvement: Process iteration and sharing learnings
+- **40% Prospecting**: Account strategy & planning and direct outreach
+- **30% Deal Advancement**: Moving opportunities through pipeline
+- **20% Admin/Operations**: CRM updates, forecasting, internal meetings
+- **10% Feedback/Improvement**: Process iteration and sharing learnings
 
 A typical week should look like:
 
@@ -292,7 +292,7 @@ A typical week should look like:
 
 #### Success Metrics
 
-**Primary Metric** (North Star)
+**Primary Metric (North Star)**
 
 - FO Count
 
