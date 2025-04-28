@@ -174,7 +174,6 @@ Different data sources have varying performance characteristics:
 
 These challenges make it difficult to provide a consistently responsive exploration experience across all data types.
 
-
 ### Opportunity for Unified Data Exploration
 
 Despite these challenges, there is a significant opportunity to simplify and enhance how users interact with their GitLab data:
@@ -192,6 +191,7 @@ A well-designed data exploration architecture would not only address the current
 The unified data exploration system would enable users to answer questions such as:
 
 **For Engineering Teams:**
+
 - "As an engineering team, every day during standup, we want to look at one dashboard that tells us how we are doing in relation to our devsecops flow. We will need to see:
   - Table with current open MRs
   - Count of critical and high vulnerabilities introduced in the last x days
@@ -200,6 +200,7 @@ The unified data exploration system would enable users to answer questions such 
   - DORA metrics like deployment frequency and lead time for changes"
 
 **For Product Managers:**
+
 - "As an internal GitLab PM, I want to track the MAU/WRU of my feature (event data that we are tracking for usage and behavior that wouldn't be customer facing)"
 - "How are users navigating through my feature's workflow?"
 - "What is the adoption rate of new capabilities we've released?"
@@ -225,7 +226,6 @@ List the specific goals / opportunities of the document.
 - **Ensure appropriate performance** for data exploration queries across different data sources
 - **Maintain proper security controls** and respect user permissions across all data sources
 - **Facilitate integration with GitLab Duo** to enhance data exploration capabilities
-
 
 ### Non-Goals
 
