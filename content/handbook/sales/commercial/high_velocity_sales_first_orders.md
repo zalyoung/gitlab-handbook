@@ -41,6 +41,7 @@ Vision: SMB Accounts will not be owned individually, but by the entire team. Thi
 - All AMER SMB Opportunities are owned by the AMER SMB Sales User.
 - All APJ SMB Opportunities are owned by the APJ SMB Sales User.
 - All EMEA SMB Opportunities are owned by the EMEA SMB Sales User.
+
 **Advocate owned opportunities will routinely be updated by SMB Ops to the SMB Sales User**
 
 ### High Value Accounts
@@ -54,13 +55,13 @@ You can use the criteria below to help determine whether an SMB account is a Hig
 - Ultimate upgrade potential
 - Advocate wants to build relationship as a top 50 account
 
-For additional information on how to select a High Value Account in Salesforce please reference the (Account Review Doc FY26) [https://docs.google.com/document/d/18vBLcLAKSsSGrav_QUqjt_3zrgqZOvLDVBADPvewa5U/edit?tab=t.0#heading=h.3swk9suvcl1e]
+For additional information on how to select a High Value Account in Salesforce please reference the [Account Review Doc FY26](https://docs.google.com/document/d/18vBLcLAKSsSGrav_QUqjt_3zrgqZOvLDVBADPvewa5U/edit?tab=t.0#heading=h.lbtgwbx5glho)
 
 ## Engaging with Global Digital SMB Accounts
 
 Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events / scenarios are triggered. Once one of these defined scenarios is triggered, a case will automatically be created. An SMB Advocate will then be assigned to it, and work it through to completion.
 
-For additional information on how our case routing system works please reference the (SMB Traction User Guide) [https://docs.google.com/document/d/1njy6nuwr-DddF6QzZnfpk5z_9ZCpA_ftk-fPYB_b8cQ/edit?usp=sharing]
+For additional information on how our case routing system works please reference the [SMB Traction User Guide](https://docs.google.com/document/d/1njy6nuwr-DddF6QzZnfpk5z_9ZCpA_ftk-fPYB_b8cQ/edit?usp=sharing)
 
 ### Why?
 
@@ -96,7 +97,7 @@ Instructions and resources for working each case type are found in the consolida
 
 ## Working with the Global Digital SMB Account Team
 
-If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APJ/ EMEA Sales Users are not monitored).
+If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (*Chatter messages sent to the AMER/ APJ/ EMEA Sales Users are not monitored*).
 
 [Case Creation How-to Video](https://drive.google.com/file/d/1cExv6WlzM4RBkOBDJlSWG56o5BsRGnns/view?usp=drive_link)
 [FY26 SMB/SDR Handover Process](https://docs.google.com/spreadsheets/d/18tGE_dpbx7nLu2S6bzD3WkLrHM3IrDv72WWJMgDDi64/edit?gid=920984489#gid=920984489)
@@ -275,9 +276,9 @@ Q. If a customer has a new request, but they send an email to smallbusiness@ via
 
 A. No.  Unfortunately, the email will be attached to the prior case which is likley to have been closed.  In this scenario, the owner of the prior closed case (who will receive a notification of the customers email), should either ask the customer to initiate a new request (by sending a new email to smallbusiness@.  This will create a new case, and start a new thread. Or, the Advocate can create a new case on the customers behalf, and work that case.
 
-### High Value Cases
+### High Value Account Cases
 
-Whilst Accounts are always owned by the regions SMB Sales User, High Value Cases attached to accounts are owned by the SMB Advocate.
+Whilst Accounts are always owned by the regions SMB Sales User, High Value Account Cases attached to accounts are owned by the SMB Advocate.
 
 These cases are to remain open for the entirety of the FY26, even if the customer renews. This means that if a HVA customer renews mid way during FY26, they will be assisted by the same Advocate both pre and post renewal.
 
@@ -289,9 +290,9 @@ The Advocate is advised to schedule ongoing touchpoints, update Next Steps/ Next
 
 Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  Any opp created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.
 
-Note: A High Value Account can be closed out if the customer advises ahead of renewal that they definitely fully churn.  Only in this scenario should the case be closed out, and the *Resolution Action* must be set to *Request Not Possible*.  By setting the *Resolution Action* to *Request Not Possible*, future High Value Cases will not be created on the account.
+Note: A High Value Account can be closed out if the customer advises ahead of renewal that they definitely fully churn.  Only in this scenario should the case be closed out, and the *Resolution Action* must be set to *Request Not Possible*.  By setting the *Resolution Action* to *Request Not Possible*, future High Value Account Cases will not be created on the account.
 
-For more information about managing HVA cases over the year, please review this (FY26 SMB Account Planning slide) [https://docs.google.com/presentation/d/1zS6nkAUBMg_zpJjRM_dEfdc5uBTjt6RkdoQalndPZ-o/edit#slide=id.g341dcdaeb6b_1_0]
+For more information about managing HVA cases over the year, please review this [FY26 SMB Account Planning slide](https://docs.google.com/presentation/d/1zS6nkAUBMg_zpJjRM_dEfdc5uBTjt6RkdoQalndPZ-o/edit#slide=id.g341dcdaeb6b_1_0)
 
 ### FO Opp (an SDR engages with a net new lead who has been qualified)
 
@@ -367,6 +368,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - [SMB Ops Changelog](https://docs.google.com/document/d/1IzbfmMfdR0Uh8Lyx24sxhp9MJyCvN30kYbknYULL6mM/edit?tab=t.0#heading=h.k7j0xsk0jh3q)
 - [FY26 SMB Dashboards](https://docs.google.com/spreadsheets/d/1WIO84I2842a0MO5R1UuoCfqDhmrHIIfAQI6kzJvfiDU/edit?gid=0#gid=0)
 - [SMB Sales Tech Stack](https://docs.google.com/spreadsheets/d/14YrGHDiMvLpeMAwi6p_G7uC7XpMsCqaJ1KhvUvUumbc/edit?gid=0#gid=0)
+- [Best Practicies - SMB Advocate Activity Tracking](https://docs.google.com/document/d/1EhntpSjQyqT4u1vdByZiJCrm1OvXuw2YfAOX3Kkzjiw/edit?tab=t.0#heading=h.93zyy6ndwqsq)
 
 ## FAQ
 
