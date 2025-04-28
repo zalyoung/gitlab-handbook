@@ -221,7 +221,7 @@ The SMB Renewals Team will soft launch on May 5th, 2025. Every SMB Renewal oppor
 - Renewal Managers can escalate cases to Advocates by adding #advocate to the Subject of any case assigned to them
 - These cases will be assigned as per usual SMB Advocate routing rules. Advocates can reach out to the RM for additional context.
 - Renewals Managers **will be assigned to HVA renewals**, the expectation is for Advocates and RMs to work as a team to build these relationships
- - As a reminder, please review recent Activities on your HVA accounts once RMs are engaged as that is where you will find their activities. They will also have access to and review your Account Plans.
+- As a reminder, please review recent Activities on your HVA accounts once RMs are engaged as that is where you will find their activities. They will also have access to and review your Account Plans.
 
 ## New Logo Team Playbook
 
