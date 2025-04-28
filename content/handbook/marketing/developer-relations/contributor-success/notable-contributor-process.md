@@ -22,18 +22,18 @@ is used for the entire major release cycle (for example 18.0 through 18.11). Com
 1. Select one or more [eligible Notable Contributors](/handbook/marketing/developer-relations/contributor-success/notable-contributor-process/#notable-contributor-eligibility) from the nomination issue.
    - Selections should be chosen based on contribution and community impact, nomination comments and emoji votes.
    - Selections should be completed at least 10 calendar days before the [release date](https://about.gitlab.com/releases/).
-1. If this is is a minor release version, use the existing thread in the nominations issue announcing the Notable Contributor(s).
+1. If this is is a minor release version, use the existing thread in the nominations issue announcing the Notable Contributor winner.
    - Be sure to ping and thank the nominators and anyone who added supportive comments for the nominees.
-   - Add the Notable Contributor(s) to the table in the top level description of the issue.
+   - Add the Notable Contributor to the table in the top level description of the issue.
 
    ```text
-   :tada: Congratulations to our X.Y :letter_m: :letter_v: :letter_p: winner(s) X https://gitlab.com/x
-   Note about X's contribution(s).
+   :tada: Congratulations to our X.Y Notable Contributor award winner X https://gitlab.com/x
+   Note about X's contributions.
 
    A huge thank you to A B and C for nominating Notable Contributors and X Y and Z for adding support.
    ```
 
-1. From the current release branch, draft a merge request for adding the new Notable Contributor(s)
+1. From the current release branch, draft a merge request for adding the new Notable Contributor
    - The first step is switching to the current release branch `release-x-y` in the `www-gitlab-org` project. Using the 15.8 release as an example, navigate to the current release branch directly on GitLab by selecting the `release-15-8` branch from the dropdown menu. If working locally, checkout the `release-15-8` branch.
    - Navigate to the `mvp.yml` file inside the current release folder under `data/release_posts/x_y`. In this example it would be the `15_8` folder which has a placeholder `mvp.yml` file inside.
       - **NOTE**: When there are multiple Notable Contributors, please use array syntax in the yaml files, when singular please avoid array syntax. Examples:
@@ -101,7 +101,7 @@ is used for the entire major release cycle (for example 18.0 through 18.11). Com
 
 ### Notable Contributor Eligibility
 
-- The Contributor Success team will make the final choice on the GitLab Notable Contributor(s).
+- The Contributor Success team will make the final choice on the GitLab Notable Contributor award selection.
 - The Contributor Success team will consider one or more Notable Contributors as appropriate.
 - A contributor is eligible to be Notable Contributor once per major release cycle. For example, if they are Notable Contributor during any 17.* milestone, they cannot be a Notable Contributor again until the 18.0 milestone.
 - View past Notable Contributors on the [contributor platform](https://contributors.gitlab.com/docs/notable-contributors).
@@ -114,9 +114,11 @@ Use the `data/release_posts/x_y/mvp.yml` merge request to collaborate on the Not
 
 The Notable Contributor write-up section should:
 
-- Contain a brief description of the Notable Contributor's release contribution and summary of prior GitLab contributions.
-- A link to the Notable Contributor's GitLab profile.
-- Any links to relevant issues, MRs, issue boards or epics the Notable Contributor contributed to.
+- Contain a brief description of the Notable Contributor's contributions to GitLab.
+- Links to relevant issues, MRs, issue boards or epics the Notable Contributor contributed to.
+- Links for the nominator and/or supporters with quotes about the Notable Contributor.
+- A quote or any details from the Notable Contributor if provided.
+- The role or organization of the Notable Contributor if provided.
 - Contributor Success is responsible for reviewing the entry for:
   - Consistency and accuracy
   - Correct and working links for user information, issues, MRs, etc.
@@ -132,6 +134,7 @@ Hi **{WINNER}** :wave:
 Congrats on being selected as GitLab's **{X.Y}** Notable Contributor!
 
 We are working on a write-up for you that will be included in the **{X.Y}** release post. For reference you can check out our past [Notable Contributor list](https://about.gitlab.com/community/mvp/) and here are a few notable examples:
+- https://about.gitlab.com/releases/2025/04/17/gitlab-17-11-released/#notable-contributor
 - https://about.gitlab.com/releases/2024/04/18/gitlab-16-11-released/#notable-contributor
 - https://about.gitlab.com/releases/2024/03/21/gitlab-16-10-released/#notable-contributor
 - https://about.gitlab.com/releases/2024/02/15/gitlab-16-9-released/#notable-contributor
