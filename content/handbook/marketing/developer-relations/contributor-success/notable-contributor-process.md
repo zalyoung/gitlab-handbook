@@ -55,7 +55,7 @@ is used for the entire major release cycle (for example 18.0 through 18.11). Com
    - Ping the [release post manager](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml) into the MR for awareness.
    - Merge by the Tuesday of release week.
 1. Add the Notable Contributor to the Recipients section of the [Notable Contributors platform page](https://contributors.gitlab.com/docs/notable-contributors)
-   - Update the `notable-contributors.md` [file](https://gitlab.com/gitlab-org/developer-relations/contributor-success/contributors-gitlab-com/-/blob/main/contributors/public/docs/notable-contributors.md?ref_type=heads) in the `contributors-gitlab-com` project
+   - Update [`notable-contributors.md`](https://gitlab.com/gitlab-org/developer-relations/contributor-success/contributors-gitlab-com/-/blob/main/contributors/public/docs/notable-contributors.md?ref_type=heads) in the `contributors-gitlab-com` project
    - Follow the existing version and date format to link to the `#notable-contributor` header of the upcoming release post page
    - Follow the existing format to link to the winner's GitLab profile
    - If more than one winner, use an inline line break `<br>` to separate contributor names
