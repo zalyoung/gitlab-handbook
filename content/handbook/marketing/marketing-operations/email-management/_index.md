@@ -74,7 +74,7 @@ We have a Marketo enforced limit on how many emails a single address can receive
 
 The email limits are not set in campaign templates, however, if your email is set to send to more than 20,000 people, you must include a filter for `Not Sent Email in last 2 Days`.
 
-Please reference and use the [All-Marketing SSOT Calendar](/https://internal.gitlab.com/handbook/marketing/#fy25-ssot-marketing-calendar) to see other sends happening around the same time.
+Please reference and use the [All-Marketing SSOT Calendar](https://internal.gitlab.com/handbook/marketing/#fy25-ssot-marketing-calendar) to see other sends happening around the same time.
 
 ## Request non-Demand Generation Emails
 
