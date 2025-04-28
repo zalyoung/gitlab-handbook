@@ -168,7 +168,7 @@ Plan Engineering regularly tests new functionality internally before releasing t
 
 ##### Alpha Testing
 
-Testing that occurs during ongoing development. This is limited to subgroups or projects other than `gitlab-org`, `gitlab-com`, or `gitlab-org/gitlab`.
+Testing that occurs during ongoing development. This is limited to GitLab's subgroups or projects other than `gitlab-org`, `gitlab-com`, or `gitlab-org/gitlab`. The Plan Stage has two groups that are available for testing on: [gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage/) and [gitlab-org/plan-stage](https://gitlab.com/gitlab-org/plan-stage).
 
 ##### End-of-line testing
 
