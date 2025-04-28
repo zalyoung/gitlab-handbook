@@ -191,11 +191,11 @@ We prioritize a balanced approach to design critiques that practices benevolent,
     1. Allow participants to ask clarifying questions (3 min)
     1. Receive feedback using the "I like/I wish/What if" framework (15 min)
       - **I like...** - Start by highlighting effective elements of the design
-        - *Example:* "I like how the hierarchy clearly prioritizes the primary action, making the user flow intuitive."
+        - _Example:_ "I like how the hierarchy clearly prioritizes the primary action, making the user flow intuitive."
       - **I wish...** - Express constructive suggestions for improvement
-        - *Example:* "I wish the error states were more distinctive to help users quickly identify problems."
+        - _Example:_ "I wish the error states were more distinctive to help users quickly identify problems."
       - **What if...** - Propose alternative approaches or exploratory ideas
-        - *Example:* "What if we used progressive disclosure to handle the complexity rather than showing all options at once?" 
+        - _Example:_ "What if we used progressive disclosure to handle the complexity rather than showing all options at once?" 
       - Be specific and tie your comments to user needs, business goals, or design principles wherever possible.
     1. Summarize key takeaways and next steps (2 min)
 1. **Participate effectively**: When giving critique to others:
