@@ -209,7 +209,7 @@ We prioritize a balanced approach to design critiques that practices benevolent,
     1. Ask clarifying questions when needed
     1. Thank participants for specific, challenging feedback
 1. **Document and follow up**:
-    1. Capture key critique points in the relevent issue or epic
+    1. Capture key critique points in the relevant issue or epic
     1. Share how the critique influenced your design decisions in subsequent iterations
     1. Acknowledge team members whose critique led to meaningful improvements
 
