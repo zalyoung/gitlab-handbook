@@ -8,7 +8,7 @@ creation-date: "2025-04-24"
 authors: [ "@drosse"]
 coaches: [ "@username" ]
 dris: [ "@lfarina8", "@nicholasklick" ]
-owning-stage: "~devops::monitor"
+owning-stage: "~devops::analytics"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
