@@ -214,6 +214,7 @@ We prioritize a balanced approach to design critiques that practices benevolent,
     1. Acknowledge team members whose critique led to meaningful improvements
 
 ### Setting the Right Mindset
+
 To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to read this mantra aloud before beginning, especially with new team members or when introducing the critique format:
 
 > **Mantra**  
