@@ -60,10 +60,6 @@ The motivation behind building a centralized data platform manifests from our wo
 
 - Broadly speaking, the Platform should enable a paved path for us to build an [event-driven platform within the product](https://gitlab.com/groups/gitlab-org/-/epics/14860).
 
-### Non-goals
-
-- While the Platform resembles a general-purpose data pipeline, it's __not__ intended to replace existing systems at GitLab that warrant the usage of data-pipeline-like infrastructure.
-
 ## Proposal
 
 [Data Insights Platform](https://gitlab.com/groups/gitlab-org/architecture/gitlab-data-analytics/-/epics/12) is a logical abstraction comprising a set of components functioning together to structurally form a scalable data-pipeline that allow us to ingest, process and persist large volumes of analytical data into designated datastores from where it can be queried efficiently.
@@ -85,10 +81,10 @@ Following is a brief description of each underlying component. Note, we have als
   - Supported enrichments include operations such as pseudonymization or redaction of sensitive parts of ingested data, PII detection, parsing client useragent strings, etc.
 
 - __Exporters__: Custom implementations that help ship ingested data into designated persistent stores for further querying/processing.
-  - ClickHouse
-  - S3/GCS: Having data shipped to S3/GCS helps land data into Snowflake powering our current analytical query-workflows.
+  - [ClickHouse Exporter](https://gitlab.com/gitlab-org/analytics-section/platform-insights/core/-/tree/main/pkg/snowplow/exporter/clickhouse?ref_type=heads): [ClickHouse](https://clickhouse.com/docs/intro) is our designated persistent database which helps us persist all analytical data ingested by the Platform and query from using the `Query API`.
+  - [S3/GCS Exporter](https://gitlab.com/gitlab-org/analytics-section/platform-insights/core/-/issues/19): Having data shipped to `S3`/`GCS` helps land data into Snowflake powering our current analytical query-workflows using Snowflake & Tableau.
 
-- [__ClickHouse__](https://clickhouse.com/): External database that allows for durable persistence and advanced OLAP querying capabilities for ingested data.
+- [__ClickHouse__](https://clickhouse.com/docs/intro): External persistent database that allows for durable persistence and [advanced OLAP querying capabilities](https://clickhouse.com/docs/concepts/olap) for all analytical data ingested within the Platform.
 
 - __Query API__: Custom, semantic querying layer for clients/UIs to query data persisted within ClickHouse.
   - [Architecture Blueprint introducing Platform's querying capabilities](/handbook/engineering/architecture/design-documents/data_insights_platform_querying_api/).
