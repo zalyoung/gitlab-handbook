@@ -39,7 +39,7 @@ Results for Customers: Demonstrate clear value through roadmap iterations that a
 
 1. **Connect to Previous Feedback:** Reference previous feedback you have received from advisory meetings in the past. This will help illustrate to CAB members the value of their time and that GitLab takes their recommendations into consideration. Be as specific as possible (within reason) about what actions were taken as a result of feedback.
 
-1. **Prompt Follow Through:** Document key insights and actions items during your session. Your team is responsible for finding a note taker with appropriate context. 
+1. **Prompt Follow Through:** Document key insights and actions items during your session. Your team is responsible for finding a note taker with appropriate context.
 
 1. **Be Prepared:** Be sure to prepare for the meeting ahead of time independently. Please be prepared to share slides as we will not meet as a team to run through the whole presentation to ensure different ways of working are supported and to ensure team effeciency. 
 
