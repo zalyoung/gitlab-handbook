@@ -63,4 +63,4 @@ Please note: All publish dates are dependent on CPO Approval
 
 ## Edit This Page
 
-Do you have an addition or an update you'd like to make? Please reach out to Michaela Seferian-Jenkins, CAB DRI to collaborate!  
+Do you have an addition or an update you'd like to make? Please reach out to Michaela Seferian-Jenkins, CAB DRI to collaborate!
