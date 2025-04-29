@@ -28,7 +28,7 @@ The Enterprise Data Team collaborates internally via Key Results. Key Results ar
 
 It is optional for team members to attend the ceremonies of other pillars. Team members are encouraged to attend other pillar ceremonies where attendance adds value. 
 
-At times, a pillar in the Enterprise Data Team may require collaboration and support from another pillar on an extended basis, lasting multiple quarters, and requiring consistent and deep support across P1, P2, and P3 issues. In these cases, a team member can be assigned as a stable counterpart to the pillar for an extended period of time with an end date established for the commitment where that team member will provide dedicated support across P1, P2, and P3 issues for the pillar. 
+At times, a pillar in the Enterprise Data Team may require collaboration and support from another pillar on an extended basis, lasting multiple quarters, and requiring consistent and deep support across P1, P2, and P3 issues. In these cases, a team member can be assigned as a stable counterpart to the pillar for an extended period of time with an end date established for the commitment where that team member will provide dedicated support across P1, P2, and P3 issues for the pillar. Expectations and capacity will be agreed at the start of the assignment and could change throughout in collaboration and agreement. 
 
 Below are the expectations of the DRI assigned to the Key Result:
 
