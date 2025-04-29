@@ -420,8 +420,8 @@ available. Processing takes about 15 minutes, so the video files appear before t
 #### Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.
-1. Click `AI Companion` in the meeting control toolbar.
-1. Click `Start summary`.
+1. Click `AI Companion` in the meeting control toolbar to activate its automatic "Meeting Summary" feature
+1. Make sure that `Meeting summary` option is selected.
 1. Participants will see a notification that AI Companion is active and analyzing the discussion.
 1. Once the meeting ends, the summary will be emailed to the meeting host and meeting invitees in our organization.
 
