@@ -177,7 +177,9 @@ List of features managed by the [subscription management group](https://about.gi
 
 ### Subscription Renewal and Auto-Renewal
 
-Customers can renew their gitlab.com or Self-managed subscriptions using either auto-renewal or manual renewal. By default, subscriptions are set to auto-renew. Customers who are not eligible for auto-renew or do not want to auto-renew their subscription can manually renew their subscription through the `Renew` button on the subscription card in the [Customers Portal](https://customers.gitlab.com/).
+Customers can renew their GitLab.com or self-managed subscriptions through either auto-renewal or manual renewal. By default, subscriptions are set to auto-renew, which means they automatically renew at midnight UTC on the expiration date with no service interruption. If the billing account has `Auto-Pay = Yes`, payment is processed using the default payment method. Otherwise, an invoice is generated and sent to the customer.
+
+Customers who are either ineligible for auto-renewal or prefer not to use it can manually renew their subscription by clicking the **Renew** button on the subscription card in the [Customers Portal](https://customers.gitlab.com/).
 
 #### Auto-Renewal eligibility
 
