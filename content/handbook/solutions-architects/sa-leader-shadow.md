@@ -34,17 +34,17 @@ Candidates must:
 ### Rotation Schedule
 
 | Start Date | Shadow Name | Geo Preference (can be multiple) | Status |
-|-------|---------|---------|
+|-------|---------|---------|---------|
 | FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR | Completed |
 | FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | AMER | Completed |
 | FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | EMEA | Scheduled |
-| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  | |
-| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  | |
-| FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA | |
-| FY26 Q3 |  |  |
-| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER | |
-| FY27 Q1 |  |  |
-| FY27 Q2 |  |  |
+| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |  |
+| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |  |
+| FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA |  |
+| FY26 Q3 |  |  |  |
+| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |  |
+| FY27 Q1 |  |  |  |
+| FY27 Q2 |  |  |  |
 
 ## Program Preparation
 
