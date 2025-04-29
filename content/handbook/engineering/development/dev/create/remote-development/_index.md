@@ -257,9 +257,11 @@ The **Iteration Planning Meeting** is a collaborative session where the team rev
 1. Navigate to Polly application under that Apps section in Slack.
 1. Select Create a Polly.
 1. Select Create New.
+1. Select Multiple Choice
 1. Fill out creation Options:
     1. Create Question: Weight for: **_Add link to issue here._**
-    1. Question Type: Select **_1-to-10_** option.
+    1. Question Type: Multiple Choice.
+    1. Enter choices below: **0 1 2 3 5 8** (each number on a separate line)
     1. Choose audience: Select **_remote_development_async_ipm_** channel.
     1. Make sure "Send polly as direct message" is **_unchecked_**.
     1. Select Settings Button.
