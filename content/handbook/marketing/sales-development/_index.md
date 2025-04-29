@@ -1217,6 +1217,27 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 
 ### Sales Dev Manager Resources
 
+#### Sales Dev Operations Team Regional Availability
+
+The Global Sales Dev Operations team has the office hours below, so that regional team members can know how to address internally. Please tag the DRI below in the `#sales_dev_global` slack channel to maintain our [shared reality](https://handbook.gitlab.com/teamops/shared-reality/) and other [GitLab TeamOps tenets.](https://about.gitlab.com/teamops/)
+
+| Region / Timezone                     | Ops Team Member                                                                                                                                                                  |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AMER              | Ed Bao  |
+| EMEA / APJ              | Panos Rodopoulos (Ed can also assist the APJ team)  |
+
+#### Sales Dev Operations Reccuring Team Visits
+
+The Sales Dev Ops team aims to visit each team's meeting once per month to be of assistance with anything operations related as required. Please find a [link to an issue that we use for planning and feedback here.](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1275)
+
+#### Sales Dev Operations Working Sessions
+
+The Sales Dev Ops team also holds recurring weekly working sessions, with up to four participants per session. These sessions are aligned to the month's theme outlined above, and are designed to collaborate on key operational topics and initiatives. 
+ 
+#### Sales Dev Research Desk
+
+Our Sales Dev Ops team can help you with researching our suite of databases (Sales Nav, ZoomInfo, Cognism, 6Sense) to help you manage your actively worked account list. We typically focus on accounts that are not currently available to our database, but can help with other ideas that you may have. Please log an issue to our board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) using the template `BDR_Research_Request` 
+
 #### Manager Tool Certification
 
 We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893).
