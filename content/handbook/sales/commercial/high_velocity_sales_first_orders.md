@@ -41,6 +41,7 @@ Vision: SMB Accounts will not be owned individually, but by the entire team. Thi
 - All AMER SMB Opportunities are owned by the AMER SMB Sales User.
 - All APJ SMB Opportunities are owned by the APJ SMB Sales User.
 - All EMEA SMB Opportunities are owned by the EMEA SMB Sales User.
+
 **Advocate owned opportunities will routinely be updated by SMB Ops to the SMB Sales User**
 
 ### High Value Accounts
@@ -54,13 +55,13 @@ You can use the criteria below to help determine whether an SMB account is a Hig
 - Ultimate upgrade potential
 - Advocate wants to build relationship as a top 50 account
 
-For additional information on how to select a High Value Account in Salesforce please reference the (Account Review Doc FY26) [https://docs.google.com/document/d/18vBLcLAKSsSGrav_QUqjt_3zrgqZOvLDVBADPvewa5U/edit?tab=t.0#heading=h.3swk9suvcl1e]
+For additional information on how to select a High Value Account in Salesforce please reference the [Account Review Doc FY26](https://docs.google.com/document/d/18vBLcLAKSsSGrav_QUqjt_3zrgqZOvLDVBADPvewa5U/edit?tab=t.0#heading=h.3swk9suvcl1e)
 
 ## Engaging with Global Digital SMB Accounts
 
 Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events / scenarios are triggered. Once one of these defined scenarios is triggered, a case will automatically be created. An SMB Advocate will then be assigned to it, and work it through to completion.
 
-For additional information on how our case routing system works please reference the (SMB Traction User Guide) [https://docs.google.com/document/d/1njy6nuwr-DddF6QzZnfpk5z_9ZCpA_ftk-fPYB_b8cQ/edit?usp=sharing]
+For additional information on how our case routing system works please reference the [SMB Traction User Guide](https://docs.google.com/document/d/1njy6nuwr-DddF6QzZnfpk5z_9ZCpA_ftk-fPYB_b8cQ/edit?usp=sharing)
 
 ### Why?
 
@@ -78,25 +79,17 @@ Cases are automatically created when;
 
 ## Case Types
 
-The cases that will be auto-created, are split into 5 distinct categories;
+Instructions and resources for working each case type can be found in the content below:
 
-Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.
+[FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=0#gid=0)
 
-Renewal Sales-Assist - These occur when the account in question has exhibited signs of low usage/ adoption, payments failed, or the renewal must be processed by an Advocate.
-
-Expansion Opportunity - These occur when the account in question has exhibited signs of growth, and that they are likely to expand.
-
-Non-Renewal Sales-Assist - These occur when customers need assistance with payment issues, requiring outreach to help them update payment methods, renew subscriptions, or access promotional pricing.
-
-Instructions and resources for working each case type are found in the consolidated SMB Case Enablement Deck:
-
-[FY26 SMB Advocate Case Instructions and Resources](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g2f4db661fd3_0_1928)
+[FY26 SMB Case Enablement](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g2f4db661fd3_0_1928)
 
 [FY26 SMB Case Triggers](https://docs.google.com/spreadsheets/d/1ihpt5WDpoJmDWa5gA0eXvBJOgFOJgL1J_QxsBuDDowc/edit?gid=1223186811#gid=1223186811)
 
 ## Working with the Global Digital SMB Account Team
 
-If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APJ/ EMEA Sales Users are not monitored).
+If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (**Chatter messages sent to the AMER/ APJ/ EMEA Sales Users are not monitored**).
 
 [Case Creation How-to Video](https://drive.google.com/file/d/1cExv6WlzM4RBkOBDJlSWG56o5BsRGnns/view?usp=drive_link)
 [FY26 SMB/SDR Handover Process](https://docs.google.com/spreadsheets/d/18tGE_dpbx7nLu2S6bzD3WkLrHM3IrDv72WWJMgDDi64/edit?gid=920984489#gid=920984489)
@@ -141,28 +134,279 @@ You can now return to this report at any time to check;
 
 ## SMB Advocate Playbook
 
-### SMB Advocate Case Workflow
-
-[FY26: GDS Case Enablement](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g32b866bfec2_0_0)
+### Introduction to SMB Cases
 
 - As of 02/01/2025, all cases will be auto-assigned to Advocates using Traction Complete's round-robin functionality.
-- Information pertaining to the case will be displayed in the Context, CTA & Description box.
-- An Advocate must then update the Status to In Progress. (This shows the case is being worked).
+- Information pertaining to the case will be displayed in the **Context**, **CTA** & **Description** box.
+- At any time, an SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
+
+#### Case Status
+
+Available Case Statuses:
+
+- Open
+- In Progress: Attempting Contact
+- In Progress: Blocked
+- In Progress: Engaged
+- Closed: Duplicate
+- Closed: Unresponsive
+- Closed: Resolved
+
+- Once a Case is considered closed, the Status should be set to one of the three Closed options above and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
+- **Note**:  Inbound customer requests must only be marked as closed once the customers needs have been addressed.
+
+### Case Workflow and Management
+
 - To work the case, the SMB Advocate should contact the customer, with all activities logged on the contact/ account, via Groove. The Next Steps fields on the case should also be updated to include the case next steps/ date.
-- Note: when assigned a case created by a GitLab stakeholder e.g the Support Team, it is crucial that the Advocate updates **Next Steps** as soon as the case has been actioned.
+  - An Advocate must then update the Status to In Progress (this shows the case is being worked).
+
+**Next Steps Field Hygiene Example**:
+
+- Incorrect: Contact
+- Correct: 2024-07-05 KK First touch email to discuss promo
+
+- Incorrect: Waiting on billing
+- Correct: 2024-07-05 KK Followed up with billing team to approve refund request
+
+- When working cases, the following Groove cadence should be followed.
+  - Day 1 - Email
+  - Day 3 - Call
+  - Day 5 - Email
+  - Day 7 - Email
+
+- **Note**: When assigned a case created by a GitLab stakeholder e.g the Support Team, it is crucial that the Advocate updates **Next Steps** as soon as the case has been actioned.
  This allows the stakeholder to view case updates, and negates the need for them to chatter the Case Owner requesting an update.  Any updates that *are* requested via chatter, should be answered by the Advocate/ Case Owner within one business day.
 - (If the Advocate is working on an Expansion Opportunity case, any Add On or Growth opp they uncover should be manually created, and linked to the case in question, via the Opportunity lookup field).
-- Once a Case is considered closed, the Status should be set to one of the three Closed options, and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
-- Note:  Inbound customer requests must only be marked as closed once the customers needs have been addressed.
 - If applicable, the linked opportunity should also be closed.
-- At any time, an SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
-- When working cases, the following Groove cadence should be followed.
-- - Day 1 - Email
-- - Day 3 - Call
-- - Day 5 - Email
-- - Day 7 - Email
-- An Advocate should look to resolve/ close a case within 7 days of it being opened. The max time to resolve a case is limited to 15 days (except cases with containing the subject: High Value Account).
+
+#### Case Status and Action Required
+
+[FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=386573487#gid=386573487)
+
+#### Common SMB Cases and Expected Outcomes
+
+[FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=0#gid=0)
+
+### Cross-Team Collaboration
+
+When and how to engage with cross-functional teams:
+[FY26 HVS Case Workflow Guide](https://docs.google.com/spreadsheets/d/1s9SeHFlXZPBxo64A0gPENSza-kA_5FbmsQE-Y-11Ags/edit?gid=496062544#gid=496062544)
+
+### Resources & Tools
+
+- [FY26: GDS Case Enablement](https://docs.google.com/presentation/d/15oJJ4DnNTxADddY3G1pc6VimgbSAoBZLLGSWbglp8VY/edit#slide=id.g32b866bfec2_0_0)
+- [FY26 HVS Dashboards](https://docs.google.com/spreadsheets/d/1WIO84I2842a0MO5R1UuoCfqDhmrHIIfAQI6kzJvfiDU/edit?gid=0#gid=0)
+- [HVS Sales Tech Stack](https://docs.google.com/spreadsheets/d/14YrGHDiMvLpeMAwi6p_G7uC7XpMsCqaJ1KhvUvUumbc/edit?gid=0#gid=0)
+
+### Advocate Expectations
+
+- An Advocate should look to resolve/ close a case within 7 days of it being opened. The max time to resolve a case is limited to 15 days (*List of case exceptions below*).
+  - High Value Account
+  - Renewal Will Fail
+  - PO Required
+  - First Order (FO)
+  - Customer request to get in touch at a later date
 - The Advocate must also adhere to the Required 10, to ensure that the correct case fields and opportunity fields are updated when picking up, working, and closing out a case.
+
+## Renewals Team
+
+The SMB Renewals Team will soft launch on May 5th, 2025. Every SMB Renewal opportunity will have a Renewal Manager attached and engaged.
+
+- As the Renewals team ramps to full capacity, they will start to take over cases on accounts that are both < 3k CARR and < 20 LAM
+- **Most Renewals case types will be deprecated as soon as the Renewals teams take over renewal engagement.**
+  - **Exceptions**:
+    - Autorenewal Recently Turned Off
+    - Overage with QSR Off
+    - Autorenewal Will Fail
+- Renewal Managers can escalate cases to Advocates by adding #advocate to the Subject of any case assigned to them
+- These cases will be assigned as per usual SMB Advocate routing rules. Advocates can reach out to the RM for additional context.
+- Renewals Managers **will be assigned to HVA renewals**, the expectation is for Advocates and RMs to work as a team to build these relationships
+- As a reminder, please review recent Activities on your HVA accounts once RMs are engaged as that is where you will find their activities. They will also have access to and review your Account Plans.
+
+## New Logo Team Playbook
+
+**Key Audience**: New Logo Account Executive, Area Sales Managers, and Renewals Managers
+
+### Introduction to New Logo Team
+
+**Overview**
+
+The New Logo Team is a specialized sales team within GitLab's High Velocity Sales & New Logo organization focused on closing first-order deals in MM & ENT accounts. 
+
+**Team Structure**
+
+- **Team Members**: 4 New Logo AEs, 4 BDRs, and 1 ASM
+- **Launch Date**: May 1, 2025
+
+**Team Vision**
+
+- Build a legendary sales team known for delivering exceptional First Orders (FOs) while innovating and having fun
+- Provide unparalleled professional growth for New Logo AEs
+- Showcase GitLab's culture - flexible, asynchronous, and transparent
+- Exceed customer expectations across both digital and AE-supported buying journeys
+
+### New Logo Sales Process
+
+#### Account Strategy
+
+We use a tiered approach to focus efforts efficiently:
+
+- **Tier 1**: High-priority accounts receiving most attention from BDRs and AEs, including collaborative prospecting
+- **Tier 2**: Accounts receiving scaled outreach programs and targeted campaigns based on buying intent signals
+- **Tier 3**: Accounts primarily receiving digital marketing and PLG motions rather than dedicated sales resources
+
+#### New Logo AE Time Allocation
+
+Recommended Time Split: 
+
+- **40% Prospecting**: Account strategy & planning and direct outreach
+- **30% Deal Advancement**: Moving opportunities through pipeline
+- **20% Admin/Operations**: CRM updates, forecasting, internal meetings
+- **10% Feedback/Improvement**: Process iteration and sharing learnings
+
+A typical week should look like:
+
+**Monday**: Strategy & Account Planning
+
+- Team stand-up and weekly planning (30 min)
+- Account planning and targeting strategy (2 hours)
+- BDR collaboration sessions (2 hours)
+- "Inbound Interest Feed" dashboard review (1.5 hours)
+
+**Tuesday & Wednesday**: Prospecting & Deal Advancement
+
+- Dedicated prospecting blocks (2.5 hours)
+- Discovery and qualification calls (2 hours)
+- Opportunity advancement (1.5 hours)
+
+**Thursday**: Deal Advancement & Process Improvement
+
+- SA engagement and technical validation calls (2.5 hours)
+- Deal negotiation and proposal writing (1.5 hours)
+- Team feedback session (1 hour)
+
+**Friday**: Administrative & Closing
+
+- Final push on deals closing this week (1.5 hours)
+- CRM updates and opportunity management (1 hour)
+- Internal meetings and enablement (1 hour)
+- 1:1 with manager (1 hour)
+- Weekly metrics review and forecast update (1 hour)
+
+#### Success Metrics
+
+**Primary Metric (North Star)**
+
+- FO Count
+
+**Secondary Metrics**
+
+- Calls / touches (including LinkedIn and emails)
+- Multi-threaded accounts (accounts where you're in touch with multiple people)
+- Meetings
+- Pipeline generation
+- nARR
+- Close Rate
+- Average deal size and cycle time
+
+#### Feedback Mechanisms
+
+We actively seek and act on feedback across multiple channels:
+
+**How We Capture Feedback**
+
+- **In Meetings/Slack**: Weekly meetings and Slack channels for real-time feedback (focus on "1 thing we need to do differently to win")
+- **Passively**: Gong reporting with weekly/monthly review cycles
+- **Active-ish**: Feedback Friday form with specific questions
+- **Actively**: Mechanisms to collect feedback during the sales cycle
+
+**Feedback Prioritization**
+
+- **High Priority**: Critical issues requiring immediate action
+- **Medium Priority**: Selected items (3 per quarter) for potential development
+- **Low Priority**: Ideas requiring additional data
+
+#### Team Cadence
+
+- **Weekly**: New Logo Team Meeting, 1:1 with Manager, 1:1 with BDR
+- **Monthly**: HVS Team All Hands, Feedback/team learning sessions
+- **As needed**: Additional collaboration sessions
+
+### Cross-Team Collaboration
+
+#### BDR Collaboration
+
+Each New Logo AE pairs 1:1 with a BDR handling both inbound and outbound motions. New Logo AE and BDR pairs will jointly target accounts and different personas with the account.
+
+**Account Selection**
+
+- Regular joint meetings to select target accounts
+- Focus on Tier 1 accounts
+- AEs can nominate accounts for BDRs to move into their "actively working account" list
+
+**Role Specialization**
+
+- BDRs typically focus on lower-level personas; AEs on higher-level contacts
+- BDRs may cc AEs on executive outreach for credibility
+- BDRs handle all MQLs until they become SAOs
+- BDRs will target 4 new accounts per day (20 per week) with a 3 week prospecting cycle per account
+
+**Meeting Collaboration**
+
+- Inbound leads: BDRs qualify and may participate in the second discovery call with AEs
+- Outbound efforts: BDRs and AEs can "tag-team" the first call with prospects
+
+**BDR Success Metrics**
+
+- **Primary**: 8 SAOs per month (target for fully ramped BDR). However, BDRs have a stretch goal to hit 10 SAOs per month with accelerators.
+
+#### SA Collaboration
+
+A First Order SME SA is aligned to this team to provide technical support during the sales process.
+
+**When to Engage SAs**
+
+- When prospects are demo-ready: for customers wanting to understand GitLab's value and how it solves their business needs
+- During Stage 3 for opportunities where a [Command Plan](/handbook/sales/command-of-the-message/command-plan/) and [MEDDPPICC documentation](/handbook/sales/meddppicc/) are being leveraged
+- During technical evaluations: aim to have SAs involved at least 15 days of the Close Date and at least 1 day (ideally more) when direct engagement is needed
+
+**SA Engagement Process**
+
+- AE completes Command Plan and MEDDPPICC documentation
+- AE submits SA request via SFDC with required information
+- Request reviewed and assigned within one business day
+- SA and AE align on strategy
+- SA prepares customized materials
+- SA supports technical aspects
+- SA documents outcomes and next steps
+- SA remains available for ongoing support
+
+#### Partner Collaboration
+
+Our team will work with relevant GitLab partners to expand our reach and provide additional service capabilities to customers.
+
+**Partner Motions**
+
+- With Rank 1 and Rank 2 accounts, partners will provide services and act as technical support especially if we have SA-capacity constraints. **Examples**:
+  - Demos, VPs, and POCs
+  - Co-selling with AWS
+- For Unranked accounts, partners that also have contacts in our accounts will take the lead on the account as the primary sales contact
+
+### Resources & Tools
+
+**Essential Dashboards**
+
+- [Inbound Interest Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficialBASE/InboundInterestFeed-ProspectLevel?:iid=1)
+- [Free to Paid Cockpit](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/SaaSTrials?:iid=1)
+- [New Logo Team Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002Gs9l2AC/view?queryScope=userFolders)
+
+**Key Documents**
+
+- [FY26 HVS New Logo Playbook](https://docs.google.com/spreadsheets/d/14pVjV5cDALJpWfb3w6fgI7pRvDdSR68hz3jHD3Ww_vY/edit?gid=0#gid=0)
+- [Base Account Selling Motion Strategy](https://docs.google.com/presentation/d/18hCYN3TQUsdUKC4y3rHBYh6_Ej0snBfBagXQ7zUMfP4/edit?slide=id.g33b3eeab09e_0_3234#slide=id.g33b3eeab09e_0_3234)
+- [BDR Collaboration](https://docs.google.com/document/d/1eyqQIl944ky3Uu-flc5zs-EVelVAMYPgUsT0hR907U0/edit?tab=t.0#heading=h.840uwru4zj5i)
+
+*This handbook page is a living document and will be updated as our team evolves. For questions or suggestions, please contact the New Logo Team ASM.*
 
 ## Required 10
 
@@ -275,9 +519,9 @@ Q. If a customer has a new request, but they send an email to smallbusiness@ via
 
 A. No.  Unfortunately, the email will be attached to the prior case which is likley to have been closed.  In this scenario, the owner of the prior closed case (who will receive a notification of the customers email), should either ask the customer to initiate a new request (by sending a new email to smallbusiness@.  This will create a new case, and start a new thread. Or, the Advocate can create a new case on the customers behalf, and work that case.
 
-### High Value Cases
+### High Value Account Cases
 
-Whilst Accounts are always owned by the regions SMB Sales User, High Value Cases attached to accounts are owned by the SMB Advocate.
+Whilst Accounts are always owned by the regions SMB Sales User, High Value Account Cases attached to accounts are owned by the SMB Advocate.
 
 These cases are to remain open for the entirety of the FY26, even if the customer renews. This means that if a HVA customer renews mid way during FY26, they will be assisted by the same Advocate both pre and post renewal.
 
@@ -291,7 +535,7 @@ Note that these Accounts will still trigger other cases types, which should be w
 
 Note: A High Value Account can be closed out if the customer advises ahead of renewal that they definitely fully churn.  Only in this scenario should the case be closed out, and the *Resolution Action* must be set to *Request Not Possible*.  By setting the *Resolution Action* to *Request Not Possible*, future High Value Cases will not be created on the account.
 
-For more information about managing HVA cases over the year, please review this (FY26 SMB Account Planning slide) [https://docs.google.com/presentation/d/1zS6nkAUBMg_zpJjRM_dEfdc5uBTjt6RkdoQalndPZ-o/edit#slide=id.g341dcdaeb6b_1_0]
+For more information about managing HVA cases over the year, please review this [FY26 SMB Account Planning slide](https://docs.google.com/presentation/d/1zS6nkAUBMg_zpJjRM_dEfdc5uBTjt6RkdoQalndPZ-o/edit#slide=id.g341dcdaeb6b_1_0)
 
 ### FO Opp (an SDR engages with a net new lead who has been qualified)
 
