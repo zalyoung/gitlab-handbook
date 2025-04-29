@@ -6,13 +6,20 @@ controlled_document: true
 
 ## Purpose
 
-This policy specifies requirements related to the use of GitLab computing resources and data assets by GitLab Team Members so as to protect our customers, Team Members, contractors, company, and other partners from harm caused by both deliberate and inadvertent misuse. Our intention in publishing this policy is to outline information security guidelines intended to protect GitLab assets.
+This policy establishes requirements for the secure use of GitLab computing resources and data assets. It protects our customers, Team Members, contractors, company, and partners from harm caused by misuse, whether deliberate or inadvertent.
 
-It is the responsibility of every member of our Community to interact with GitLab computing resources and data in a secure manner and to that end we provide the following acceptable use standards related to computing resources, company and customer data, mobile and tablet devices, and removable and external media storage devices.
+Every Community member must follow these guidelines to maintain GitLab's security posture and protect our assets.
 
 ## Scope
 
-This policy applies to all GitLab Team Members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing company or customer data.
+**This policy applies to** all GitLab Team Members, contractors, advisors, and contracted parties interacting with GitLab systems or data.
+
+**This policy covers:**
+- Computing resources and equipment
+- Company and customer data handling
+- Mobile and tablet devices
+- Removable and external storage media
+- Acceptable and prohibited activities
 
 ## Roles & Responsibilities
 
@@ -22,39 +29,96 @@ This policy applies to all GitLab Team Members, contractors, advisors, and contr
 | Security, Legal and PeopleOps | Responsible for implementing and executing this procedure |
 | Security, Legal and PeopleOps (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
+## Quick Reference Guide
+
+| Need | Action | Contact |
+|------|--------|---------|
+| **Report lost/stolen device** | Email [panic@gitlab.com](mailto:panic@gitlab.com) immediately | [Security Team](mailto:security@gitlab.com) |
+| **Request policy exception** | Submit through [Security Compliance tracker](https://gitlab.com/gitlab-com/security-compliance/security-compliance/-/issues/new?issuable_template=policy_exception_request) | Security, Legal, and PeopleOps |
+| **Software approval request** | Follow [Individual Use Software request process](/handbook/security/individual-use-software-process.html) | IT, Legal, and Security |
+| **Data classification questions** | Consult [Data Classification Standard](/handbook/security/data-classification-standard/) | [Privacy Team](mailto:privacy@gitlab.com) |
+| **Security consultation** | Create issue in [Security Compliance tracker](https://gitlab.com/gitlab-com/security-compliance/security-compliance) | [Security Team](mailto:security@gitlab.com) |
+| **Personal device usage** | Submit [Policy Exception Request](/handbook/security/security-assurance/security-risk/policy-exceptions.html) | Security Team |
+| **Required security tools** | Mac: Jamf<br>Linux: SentinelOne and DriveStrike | [IT Support](mailto:it@gitlab.com) |
+| **External storage/media** | Contact Security for encrypted device recommendations | [Security Team](mailto:security@gitlab.com) |
+| **Reporting policy violations** | Contact your manager or Security | [Security Team](mailto:security@gitlab.com) |
+
 ## Procedure
 
-### Acceptable Use and Security Requirements of Computing Resources at GitLab
+## Acceptable Use of GitLab Resources
 
-GitLab-managed assets are provided to conduct GitLab business, with consideration given for limited personal use subject to any conflicting statements contained in any individual employment contracts or agreements. Our company uses global electronic communications and resources as routine parts of our business activities. Personal and professional use of GitLab-managed assets are subject to security monitoring and protection, unless prohibited under the local laws of a respective Team Member's jurisdiction. It is essential that electronic resources used to perform company business are protected to ensure that these resources are accessible for business purposes and operated in a cost-effective manner, that our company's reputation is protected, and that we minimize the potential for legal risk.
+GitLab provides computing resources primarily for business purposes. Limited personal use is permitted unless prohibited by your employment agreement. Key points:
 
-Those receiving GitLab-provided assets are responsible for exercising good judgment when using GitLab-managed computers and accessing GitLab-managed data.
+- You are responsible for exercising good judgment when using GitLab resources
+- All usage is subject to security monitoring and protection (unless prohibited by local laws)
+- All GitLab data must be handled according to our [Data Classification Standard](#data-classification-standard)
 
-As per the [onboarding issue procedures](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) outlined in our handbook, evidence of device encryption and device serial number must be provided to IT Ops prior to the completion of onboarding period.
+### DO ✅
+- ✅ Use GitLab resources primarily for business purposes
+- ✅ Exercise good judgment when using company systems
+- ✅ Keep your devices and software updated with security patches
+- ✅ Report lost or stolen devices immediately to [panic@gitlab.com](mailto:panic@gitlab.com)
+- ✅ Use Slack for all work-related communications
+- ✅ Lock your computer when stepping away
+- ✅ Report security concerns promptly
 
-We are currently using Jamf as our endpoint management solution for Mac laptops. All macOS laptops procured by GitLab will come configured with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/). GitLab Team Members procuring and expensing Mac Laptops will require [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/) to be installed as part of their [Day 1 Security tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#day-1-getting-started-accounts-and-paperwork). Upon their discretion, CorpSec may install additional security tools via Jamf.
+### DON'T ❌
+- ❌ Share your credentials with others
+- ❌ Disable security controls without approval
+- ❌ Store RED data on personal devices
+- ❌ Sign into GitLab accounts on public computers
+- ❌ Forward confidential emails to personal accounts
+- ❌ Attempt to bypass security measures
 
-Linux users must install [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/sentinelone/#how-do-i-install-the-sentinelone-agent-on-linux) and [DriveStrike](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/) as part of their onboarding process during their first week.
+## Device Security Requirements
 
-### Security and Proprietary Information
+### Required for All Devices
+- Provide device encryption evidence and serial number to IT Ops during onboarding
+- Install required security software within your first week
+- Maintain current operating system and security patches
 
-All GitLab data is categorized and must be handled in accordance with the [Data Classification Standard](/handbook/security/data-classification-standard/). All computing assets that connect to any part of the GitLab network, or 3rd party services that are used by GitLab, must comply with the applicable standards.
+### Mac-Specific Requirements
+- All GitLab-provided Mac laptops come pre-configured with Jamf endpoint management
+- Team Members expensing Mac laptops must install Jamf during Day 1 Security tasks
+- CorpSec may install additional security tools via Jamf as needed
 
-### Open source libraries
+### Linux-Specific Requirements
+- Must install SentinelOne and DriveStrike during first week onboarding
 
-Open Source libraries are allowed under this policy if its use complies with the pre-approved or approval requirements captured in the [Product Legal Handbook](/handbook/legal/product/#using-open-source-software).
+> **Note:** Detailed setup instructions can be found in your [Onboarding Issue](#onboarding-issue)
 
-### Freeware, Browser Extensions, Add-ons, and Plugins
+## Security and Software Management
 
-Individual Use Software (freeware, add-ons and plugins) is permitted, with the exception of unauthorized Google Workspace Integrations and Chrome Extensions. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security when it is deemed unsafe or insecure.
+### Data Security
+- All GitLab data must be categorized according to the [Data Classification Standard](/handbook/security/data-classification-standard/)
+- All computing assets connecting to GitLab networks or third-party services must comply with applicable standards
+- [RED data](/handbook/security/data-classification-standard/#red) may not be transmitted from an approved source without prior approval from Privacy and Security teams
 
-Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
+#### Open Source Libraries
+- Permitted when complying with pre-approved or approval requirements in the [Product Legal Handbook](/handbook/legal/product-legal-handbook/)
 
-To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/) request process.
+#### Individual Use Software
 
-{{% alert title="Note" %}}
-In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to preempt third party processing of company data under permissive individual use licensing terms, or to prevent Team Member misuse of certain Third Party Software features, IT, Legal, Privacy and Security will generally err on the side of disallowing exceptions to enterprise level software, particularly if there is an enterprise option already in our [Tech Stack Applications](/handbook/business-technology/tech-stack-applications/) that achieves a similar purpose.
-{{% /alert %}}
+**Definition:** Freeware, browser extensions, add-ons, and plugins for individual use
+
+- **General Policy:**
+  - Individual Use Software is permitted with exceptions noted below
+  - May be retroactively removed if deemed unsafe by IT, Legal, or Security
+   - Find authorized software on the [Pre-Approved Individual-Use Software list](/handbook/security/pre-approved-individual-use-software-list.html)
+   - For new software approval, follow the [Individual Use Software request process](/handbook/security/individual-use-software-process.html)
+
+- **Restrictions:**
+  - Unauthorized Google Workspace integrations, Chrome extensions, and Slack integrations are prohibited. See **Third-Party Application Integrations** below.
+  - Enterprise-level software exceptions are generally not granted if a Tech Stack alternative exists
+
+#### Third-Party Application Integrations
+
+Corporate Security maintains an application integration request workflow to ensure proper stakeholder visibility and review prior to configuring new integrations between managed environments. This process must be followed prior to allow-listing integrations with environments such as Google Workspace, Google Chrome, and Slack.
+
+Integration requests can be entered [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issue%5Btitle%5D=%5BSystem%20Name%5D%20Integration%20Request&description_template=application_integration_request). The Security, Privacy, and Legal teams will coordinate to ensure the transmission of data between these environments is lawful and appropriate based on the information shared.
+
+#### Security Controls
+- Security requirements for GitLab environments must not be disabled without approval via the [Information Security Policy Exception Management Process](/handbook/security/security-assurance/security-risk/policy-exceptions.html)
 
 ### Unacceptable Use
 
@@ -62,28 +126,37 @@ Team Members and contractors may **not** use GitLab-managed resources for activi
 
 Security requirements for GitLab production and corporate environments and on GitLab-managed assets must not be disabled without security approval via the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
-#### Unacceptable System and Network Activities
+## Unacceptable System and Network Activities
 
-Prohibited system and network activities include, but are not limited to, the following:
+The following activities are prohibited when using GitLab systems or networks:
 
-- Violations of the rights of any person or company protected by copyright, trade secret, patent or other intellectual property, or similar laws or regulations.
-- Unauthorized copying, distribution, or use of copyrighted material.
-- Exporting software, technical information, encryption software, or technology in violation of international or national export control laws.
-- Intentional introduction of malicious programs into GitLab networks or any GitLab-managed computing device.
-- Intentional misuse of any GitLab-managed computing device or GitLab networks (e.g. for cryptocurrency mining, botnet control, etc.).
-- Sharing your credentials for any GitLab-managed computer or 3rd party service that GitLab uses with others, or allowing use of your account or a GitLab-managed computer by others. This prohibition does not apply to single-sign-on or similar technologies, the use of which is approved.
-- Using a GitLab computing asset to procure or transmit material that is in violation of sexual harassment policies or that creates a hostile workplace.
-- Making fraudulent offers of products, items, or services originating from any GitLab account.
-- Intentionally accessing data or logging into a computer or account that the Team Member or contractor is not authorized to access, or disrupting network communication, computer processing, or access.
-- Executing any form of network monitoring that intercepts data not intended for the Team Member's or contractor's computer, except when troubleshooting networking issues for the benefit of GitLab.
-- Attempting to bypass, modify, disable or tamper with security controls or logs.
-- Attempting to uninstall security controls without prior approval from a Security manager
-- Circumventing user authentication or security of any computer host, network, or account used by GitLab.
-- Tunneling between network segments or security zones (e.g., `gprd`, `gstg`, `ops`, `ci`, `ngrok`), except when troubleshooting issues for the benefit of GitLab.
-- Given the potential sensitivity of the data contained in screenshot images, the use of tools that capture and share screenshots to hosted sites online is prohibited without the explicit approval of the Security and Legal Departments.  Screenshots should be stored locally or within Google drive folders associated with your GitLab.com account. Access to these drives and files should be managed in accordance with our [Access Management policy](/handbook/security/security-and-technology-policies/access-management-policy/), and handled according to our [Data Classification Standard](/handbook/security/data-classification-standard/). Tools such as [Lightshot](https://app.prntscr.com/en/index.html), where upload functionality cannot be disabled and could result in inadvertent uploads, should not be used.
-- The use of high risk remote administration tools, such as TeamViewer and AnyDesk, which are [commonly used by attackers](https://attack.mitre.org/techniques/T1219/) to gain and remotely control systems.
-- Tools that emulate another operating system or create compatibility layers such as [WINE](https://www.winehq.org/)
-- The use of torrent or other P2P software on GitLab computing assets.
+### Intellectual Property Violations
+- Violating rights protected by copyright, trade secret, patent, or intellectual property laws
+- Unauthorized copying, distribution, or use of copyrighted material
+- Exporting software, technical information, encryption software, or technology in violation of export control laws
+
+### Security Threats
+- Intentionally introducing malicious programs into GitLab networks or devices
+- Intentional misuse of GitLab devices (e.g., cryptocurrency mining, botnet control)
+- Attempting to bypass, modify, disable, or tamper with security controls or logs
+- Attempting to uninstall security controls without prior Security manager approval
+- Circumventing user authentication or security of any system used by GitLab
+
+### Access Violations
+- Sharing your credentials with others or allowing others to use your account
+- Intentionally accessing unauthorized data or logging into computers or accounts without permission
+- Executing network monitoring that intercepts data not intended for your computer
+- Tunneling between network segments or security zones (except when troubleshooting for GitLab)
+
+### Data Handling and Tools
+- Using screenshot tools with automatic upload features. Screenshots must be stored locally or in your GitLab Google Drive, following our [Access Management policy](/handbook/security/security-and-technology-policies/access-management-policy/) and [Data Classification Standard](/handbook/security/data-classification-standard/). Avoid tools like [Lightshot](https://app.prntscr.com/en/index.html) where uploads can't be disabled.
+- Using high-risk remote administration tools (TeamViewer, AnyDesk) that are [frequently exploited by attackers](https://attack.mitre.org/techniques/T1219/).
+- Using operating system emulators or compatibility layers like WINE
+- Using torrent or P2P software on GitLab devices
+
+### Workplace Conduct
+- Using GitLab assets to procure or transmit material that violates harassment policies
+- Making fraudulent offers originating from any GitLab account
 
 #### Unacceptable Email and Communications Activities
 
@@ -97,29 +170,42 @@ In addition to following the [Team Member Social Media Policy](/handbook/marketi
 
 All GitLab-owned computing resources must be [returned](/handbook/people-group/offboarding/#returning-property-to-gitlab) upon separation from the company.  Notwithstanding anything contrary in the [Laptop Buy Back Policy](/handbook/it/end-user-services/onboarding-access-requests/#laptop-buy-back-policy) or the [Offboarding Tasks](/handbook/people-group/offboarding/#managing-the-offboarding-tasks), Team Members must return any GitLab-Owned Assets -- irrespective of their valuation -- if they are specifically requested to do so either during their tenure with GitLab or upon offboarding. In cases of investigation, misconduct, termination for cause or any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), a team member has no right to retain GitLab-owned computing equipment.
 
-### Bring-Your-Own-Device (BYOD)
+## Bring-Your-Own-Device (BYOD) Policy
 
-As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](/handbook/security/data-classification-standard/), is still prohibited.
+**General Rule:** Non-company devices are not permitted to access company assets. Access to [RED classified data](/handbook/security/data-classification-standard/) is prohibited in all cases.
 
-The exceptions are as follows:
+### Permitted Exceptions
 
-#### Personal Mobile Phone and Tablet Usage
+#### 1. Personal Mobile Devices
+Mobile devices may access GitLab email and GitLab.com if:
+- Device has passcode protection
+- 2FA is enabled for GitLab.com and Google Workspace accounts
+- Device runs the latest operating system with all security patches
+- Contact the [Security Team](mailto:security@gitlab.com) with questions about device suitability
 
-All personal mobile computing devices used to access GitLab-managed data, including but not limited to email and GitLab.com, must be passcode-enabled. 2FA will be enforced by the Security team for all employee and contractor GitLab.com and Google Workspace accounts. Mobile computing best practices dictate that these devices should be running the latest version of the operating system available, and all new patches applied. For assistance with determining the suitability of your mobile device, please contact the Security Team.
+#### 2. Temporary Use of Personal Computers
+Personal computers may be used temporarily only when:
+- New employees haven't yet received a company laptop
+- Corporate laptop is unavailable due to loss, theft, or repair
 
-#### Unable to Use Company Laptop
+**Requirements:**
+- Submit a [Policy Exception Request](/handbook/security/security-assurance/security-risk/policy-exceptions.html)
+- Personal system must meet basic configuration standards
+- Microsoft Windows systems are not permitted
+- Never sign into GitLab accounts on public computers such as those in libraries or hotel kiosks.
 
-For new employees who have not received a company laptop, there are [exception processes](/handbook/it/end-user-services/onboarding-access-requests/#exception-processes) for using non-company devices.
+## Mobile Messaging
 
-The same exception processes apply in the case of a corporate laptop being unavailable or unusable due to loss, theft or disrepair. See [lost or stolen procedures](/handbook/security#reporting-an-incident) for additional information. You must open [a Policy Exeption Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/exceptions/issues/new?issuable_template=exception_request). While the exception processes are considered a temporary solution, you still need to make sure the non-company system meets [basic configuration standards](/handbook/security/corporate/services/laptops/security/), and a Microsoft Windows system is still not allowed access under any circumstances.
+### Acceptable Platforms
 
-Do not sign in to any GitLab related accounts using public computers, such as library or hotel kiosks.
+- **Primary:** All GitLab-related conversations must take place in Slack using the official [Slack application](https://slack.com/downloads/), or [Slack web application](https://slack.com/signin), available for [iOS](https://apps.apple.com/us/app/slack/id618783545) and [Android](https://play.google.com/store/apps/details?id=com.Slack&hl=en_US)
+- **Secondary:** [Zoom](https://zoom.us/) for video calls and as a Slack alternative during meetings
 
-### Mobile Messaging
+### Important Considerations
 
-All GitLab-related conversations need to take place in Slack. It is strongly recommended that the official Slack application, or Slack web application, are used for mobile messaging. Downloads are available for [iOS](https://apps.apple.com/us/app/slack/id618783545) and [Android](https://play.google.com/store/apps/details?id=com.Slack). While it may be more convenient to use an integrated chat application that puts all of your conversations in one place, the use of these applications can unintentionally lead to work-related conversations crossing platforms, or being sent to external contacts. The use of Slack for all work communications assists with our security and compliance efforts. For example, in the case of an incident response issue, it may be necessary to review a conversation to understand the order in which events occurred, or to provide evidence that the chain of custody has been maintained for forensic evidence during a handoff.
-
-For [video calls](/handbook/communication/#video-calls), and as a back-up to Slack, we prefer Zoom. Zoom chats are an acceptable alternative to Slack when in a video call. If the conversation is interesting to others or may be needed for a retrospective, consider recording the call.
+- Avoid using integrated chat applications that combine multiple conversation platforms
+- Using Slack exclusively helps maintain security, compliance, and proper incident response documentation
+- For important video calls, consider recording the conversation for future reference
 
 ### Use of External Media on Company Assets
 
@@ -137,30 +223,68 @@ When creating an account with and using a file sharing service other that Google
 - Only upload files directly to shared folders created by those external to GitLab and do not upload files to the personal area of the file sharing service.
 - Remove all files and close the account when the file sharing service is no longer needed.
 
-### Lost or Stolen Procedures
+## Lost or Stolen Device Procedures
 
-GitLab provides a `panic@gitlab.com` email address and a [lost or stolen procedure](/handbook/security#reporting-an-incident) for team members to use in situations that require an immediate security response. Should a team member lose a device such as a thumb drive, Yubikey, mobile phone, tablet, laptop, etc. that contains their credentials or other GitLab-sensitive data, they should send an email to `panic@gitlab.com` right away. When the production and security teams receive an email sent to this address it will be handled immediately. Using this address provides an excellent way to limit the damage caused by a loss of one of these devices.
+> **IMPORTANT:** If you lose a device containing credentials or GitLab data, act immediately using these procedures.
 
-GitLab reserves the right to request documentation of the theft and/or a related police report in the case of a stolen laptop.
+### Immediate Actions Required
 
-### Policy Compliance
+1. **Report Immediately:** Send an email to [panic@gitlab.com](mailto:panic@gitlab.com) right away
+2. **Include Details:** 
+  - Type of device lost (laptop, phone, Yubikey, etc.)
+  - When it was lost/stolen
+  - What GitLab data or credentials it contained
+  - Any actions you've already taken
 
-Compliance with this policy will be verified through various methods, including but not limited to, automated reporting, audits, and feedback to the policy owner.
+### How This Process Works
+- Emails to [panic@gitlab.com](mailto:panic@gitlab.com) are handled immediately by production and security teams
+- This prompt reporting helps limit damage from lost devices containing credentials or sensitive data
 
-Any Team Member or contractor found to be in violation of this policy may be subject to disciplinary action, up to and including termination of employment, or contractual agreement.
+### Documentation Requirements
+- GitLab may request documentation of theft and/or a police report for stolen laptops
+- Follow the complete [lost or stolen asset procedure](/handbook/security/lost-or-stolen-device-procedure/) for additional steps
 
-### Consultations
+### For Lost Access to Your Primary Device
+- If you cannot access your primary device, follow the [Unable to Use Company Laptop](#unable-to-use-company-laptop) procedures
 
-To consult with the Security Team create an issue in the [Security Compliance tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/compliance/issues).
+## Policy Compliance
 
-## Exceptions
+### Monitoring and Enforcement
+- Compliance with this policy is verified through:
+ - Automated reporting
+ - Regular audits
+ - Feedback to policy owners
+ - Security control effectiveness reviews
 
-Exceptions to this policy must be approved by Security, Legal and PeopleOps Departments.
+### Violation Consequences
+- Any Team Member or contractor found in violation of this policy may face:
+ - Disciplinary action
+ - Up to and including termination of employment or contract
+ - Potential legal consequences depending on the violation severity
 
-- [Onboarding Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md)
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
-- [Asset return procedure](/handbook/people-group/offboarding/#returning-property-to-gitlab)
-- [Lost or stolen asset procedure](/handbook/security#reporting-an-incident)
+### Reporting Concerns
+- If you notice potential policy violations, report them to your manager or the [Security Team](#consultations)
+- Whistleblower protections apply as outlined in the [Code of Business Conduct & Ethics](/handbook/legal/code-of-business-conduct-ethics/)
+
+## Exceptions and Consultations
+
+### Requesting Policy Exceptions
+1. **When to Request:** Before taking any action that would violate this policy
+2. **How to Request:** Submit an exception request through the [Security Compliance tracker](https://gitlab.com/gitlab-com/security-compliance/security-compliance/-/issues/new?issuable_template=policy_exception_request)
+3. **Approval Process:**
+  - Exceptions require joint approval from Security, Legal, and PeopleOps Departments
+  - Temporary exceptions may be granted with an expiration date
+  - All exceptions are documented and periodically reviewed
+
+### Consulting with Security
+- For security guidance or clarification about this policy:
+ - Create an issue in the [Security Compliance tracker](https://gitlab.com/gitlab-com/security-compliance/security-compliance)
+ - For urgent concerns, contact the [Security Team](mailto:security@gitlab.com) directly
+ - Include details about your specific situation or question
+
+### Regular Policy Reviews
+- This policy is reviewed quarterly by Security, Legal, and PeopleOps
+- Team Members can contribute suggested improvements by following the [handbook update process](/handbook/handbook-usage/#how-to-update-the-handbook)
 
 ## References
 
