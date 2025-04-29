@@ -69,6 +69,6 @@ Responsibilities of the rotation engineer:
 
 ### Reaction Rotation Issue Tracking
 
-To help track reaction rotation activities without unnecessary overhead, we've created a [simple issue template](https://gitlab.com/gitlab-org/secure/general/-/blob/master/.gitlab/issue_templates/Reaction Rotation Static Analysis.md) that engineers can use. The template provides basic structure for documenting essential activities and includes helpful queries for monitoring key areas.
+To help track reaction rotation activities without unnecessary overhead, a [simple issue template](https://gitlab.com/gitlab-org/secure/general/-/blob/master/.gitlab/issue_templates/Reaction%20Rotation%20Static%20Analysis.md) is available for engineers to use. The template provides basic structure for documenting essential activities and includes helpful queries for monitoring key areas.
 
 Engineers should use this template as a flexible tool to support their rotation work, adapting it as needed to fit their workflow while ensuring the core responsibilities outlined in this handbook are addressed.
