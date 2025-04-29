@@ -336,20 +336,20 @@ We actively seek and act on feedback across multiple channels:
 
 #### BDR Collaboration
 
-Each New Logo AE Pairs 1:1 wit ha BDR handling both inbound and outbound motions.
+Each New Logo AE pairs 1:1 with a BDR handling both inbound and outbound motions. New Logo AE and BDR pairs will jointly target accounts and different personas with the account.
 
 **Account Selection**
 
 - Regular joint meetings to select target accounts
 - Focus on Tier 1 accounts
-- AEs can nominate accounts for BDRs
+- AEs can nominate accounts for BDRs to move into their "actively working account" list
 
 **Role Specialization**
 
 - BDRs typically focus on lower-level personas; AEs on higher-level contacts
 - BDRs may cc AEs on executive outreach for credibility
 - BDRs handle all MQLs until they become SAOs
-- BDRs work approximately 75 accounts per 8-week cycle
+- BDRs will target 4 new accounts per day (20 per week) with a 3 week prospecting cycle per account
 
 **Meeting Collaboration**
 
@@ -358,17 +358,18 @@ Each New Logo AE Pairs 1:1 wit ha BDR handling both inbound and outbound motions
 
 **BDR Success Metrics**
 
-- **Primary**: 8 SAOs per month (target for fully ramped BDR)
+- **Primary**: 8 SAOs per month (target for fully ramped BDR). However, BDRs have a stretch goal to hit 10 SAOs per month with accelerators.
 
 #### SA Collaboration
 
-A First Order SME (Subject Matter Expert) SA is aligned to this team to provide technical support during the sales process.
+A First Order SME SA is aligned to this team to provide technical support during the sales process.
 
 **When to Engage SAs**
 
 - When prospects are demo-ready: for customers wanting to understand GitLab's value and how it solves their business needs
-- During "Early-stage 2-Scoping through 4-Proposal" for opportunities where a Command Plan and Custom Pitch Deck are being leveraged
-- During technical evaluations: aim to have SAs complete the "3-Technical Evaluation" prior to 15 days of the Close Date
+- During Stage 3 for opportunities where a [Command Plan](https://handbook.gitlab.com/handbook/sales/command-of-the-message/command-plan/) and [MEDDPPICC documentation](https://handbook.gitlab.com/handbook/sales/meddppicc/) are being leveraged
+- During technical evaluations: aim to have SAs involved at least 15 days of the Close Date and at least 1 day (ideally more) when direct engagement is needed
+
 
 **SA Engagement Process**
 
@@ -385,11 +386,12 @@ A First Order SME (Subject Matter Expert) SA is aligned to this team to provide 
 
 Our team will work with relevant GitLab partners to expand our reach and provide additional service capabilities to customers.
 
-**Partner Types**
+**Partner Motions**
 
-- Distributors/partners with existing relationships to target accounts
-- Partners that can engage in co-selling and POCs (Proof of Concepts)
-- Cloud partners (AWS/GCP) for accounts with committed cloud spend
+- With Rank 1 and Rank 2 accounts, partners will provide services and act as technical support especially if we have SA-capacity constraints. **Examples**:
+  - Demos, VPs, and POCs
+  - Co-selling with AWS
+- For Unranked accounts, partners that also have contacts in our accounts will take the lead on the account as the primary sales contact
 
 ### Resources & Tools
 
@@ -404,6 +406,8 @@ Our team will work with relevant GitLab partners to expand our reach and provide
 - [FY26 HVS New Logo Playbook](https://docs.google.com/spreadsheets/d/14pVjV5cDALJpWfb3w6fgI7pRvDdSR68hz3jHD3Ww_vY/edit?gid=0#gid=0)
 - [Base Account Selling Motion Strategy](https://docs.google.com/presentation/d/18hCYN3TQUsdUKC4y3rHBYh6_Ej0snBfBagXQ7zUMfP4/edit?slide=id.g33b3eeab09e_0_3234#slide=id.g33b3eeab09e_0_3234)
 - [BDR Collaboration](https://docs.google.com/document/d/1eyqQIl944ky3Uu-flc5zs-EVelVAMYPgUsT0hR907U0/edit?tab=t.0#heading=h.840uwru4zj5i)
+
+*This handbook page is a living document and will be updated as our team evolves. For questions or suggestions, please contact the New Logo Team ASM.*
 
 ## Required 10
 
