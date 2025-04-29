@@ -174,7 +174,7 @@ If unsure who to include, consult your Product Design Manager for guidance.
 
 ### Design critiques
 
-Design critiques are dedicated sessions for Product Designers to give and receive rigorous, constructive feedback aimed at elevating work quality from team members within Product Design. Unlike regular design reviews, critiques emphasize challenging assumptions and deepening analysis of design decisions. Benefits include:
+Design critiques are dedicated sessions where Product Designers exchange rigorous, constructive feedback to elevate work quality; challenging assumptions and examining the underlying rationales for design decisions beyond standard [design reviews](#design-reviews). Benefits include:
 
 - Pushing designs to excellence through specific, actionable feedback that increases overall quality and value for customers
 - Building a culture where constructive challenge is valued and expected
