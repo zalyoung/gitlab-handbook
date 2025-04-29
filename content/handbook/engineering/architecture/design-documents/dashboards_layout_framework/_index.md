@@ -126,22 +126,91 @@ Generally, visualizations can be one of three types:
 - Tables, using [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--docs) (or the lite version)
 - Text or markdown-based content
 
+Table visualizations may contain keyset pagination, sorting, and internal searching.
+
 Visualizations should not be contextually aware, their only job is to render the data provided in the format outlined by
-it's configuration and component structure.
+it's configuration and component structure. However, for simpler migration, it may be prudent to begin by copying existing visualization components
+into the dashboard structure. Although this would contain the data source or API information to begin with, a separate [data source](#data-sources)
+could then be developed for a more integrated drop-in replacement.
 
 ### Filters
 
+There are two areas where filters can be applied. The first area is the global filter that is applied to every visualization within the dashboard.
+This will allow you to define the filters that should show on the dashboard either by using a pre-existing filter from the suite of filters that
+have already been developed or by making your own. Each filter will need to be connected to each data source, as each data source will need to
+process the filter I/O differently. In the event that a filter does not work with a data source, then the user needs to be notified through the UI.
+How this notification looks is still being discussed.
+⁠⁠
+The second type of filter is a per-panel filter applied to any one individual panel. ⁠At this moment, the dashboard layout framework
+only supports global filters. Per-panel filters will also need to be connected to each data source, but since these are a more curated option,
+this should be done when visualizations and panels are being developed, so it's less of a concern.
+
+Applying a filter will automatically update all applicable panels, as well as update the URL for users to easily share the dashboard state with others.
+
 ### Error handling
 
-### Data structures
+In the event of an error, the UI should handle these and explain to the user how they can fix the error, or at the very least, why it has failed.
+When possible, errors should provide a retry button, or another next-step for users.
+
+Page-level errors should use the [Pajama's alert component](https://design.gitlab.com/components/alert).
+
+The errors should be located where the error occurred:
+
+- Entire dashboard - replace dashboard grid with the error message.
+- Global filters - show above the global filters.
+
+For per-panel filters and panel-specific errors, we should use the panel error state. The panel error state will:
+
+- Highlight the panel has an error through color and iconography.
+- Have a tooltip explaining the error in detail, and what the user can do, with a retry button where applicable.
+- Replace the panel content with a contextual error message.
+
+### Configuration structure
+
+The configuration used to build a dashboard, filter, panel, or visualization must follow the JSON validation schema outlined in either the [dashboard schema](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/validators/json_schemas/analytics_dashboard.json) or [visualization schema](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/validators/json_schemas/analytics_visualization.json).
+
+The configuration doesn't need to have come from a JSON file, as long as the structure properties are met. Some examples of where the configuration could be stored:
+
+- A YAML file
+- A JSON file
+- An API call
+- A database table
+- A JavaScript object
+- Vue component props
+
+The configuration should be validated against the schema before being used.
 
 ### Data sources
 
-## Alternative Solutions
+Data sources are the component that ties the dashboard visualizations to our underlying data. The data sources are responsible for taking the request data:
 
-<!--
-It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
-each alternative solution/path.
+- Which filters have been applied
+- Any query parameters
+- Any configuration options
 
-"Do nothing" and its pros and cons could be included in the list too.
--->
+And transforming these into values that the data source can understand. The data source response is then transformed into values that the dashboard layout
+framework can understand for it to be able to:
+
+- Render the visualization
+- Update any UI elements
+- Update any filter values
+
+To make this work, each data source is required to have a consistent API. ⁠For now, this is a `fetch` function which looks something like:
+
+```javascript
+export default async function fetch({
+  contextId, // The id of the namespace or project where the data should be retrieved from
+  contextFullPath, // The full path of the namespace or project where the data should be retrieved from
+  query, // The query being used to fetch the data
+  queryOverrides, // Optional overrides to the base query
+  visualizationType, // The type of visualization being rendered
+  visualizationOptions, // Additional options for customizing the visualization
+  filters, // The filters applied to the query
+  onRequestDelayed, // Callback function when request is delayed. It can trigger a loading spinner in the panel
+  setAlerts, // Callback function to set alerts
+  setVisualizationOverrides, // Callback function to set visualization options before render but after the data fetch, allowing us to include fetched data in the visualization options
+})
+```
+
+The panel will always send this information, the data source's `fetch` method can then decide which information it needs to use, and which it can ignore.
+Any other functions used by the data source are data source specific, and ignored by the wider dashboard layout framework.
