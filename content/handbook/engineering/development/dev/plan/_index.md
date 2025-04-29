@@ -272,20 +272,19 @@ summary and corrective actions. The rotation for upcoming milestones is as follo
 
 | Milestone | DRI |
 |---   | ---       |
-| 16.10 | Donald Cook |
-| 16.11 | Kushal Pandya |
-| 17.0 | John Hope |
-| 17.1 | Brandon Labuschagne |
-| 17.2 | Vladimir Shushlin |
-| 17.3 | Kushal Pandya |
-| 17.4 | Donald Cook |
-| 17.5 | John Hope |
-| 17.6 | Donald Cook |
-| 17.7 | Kushal Pandya |
-| 17.8 | Vladimir Shushlin |
-| 17.9 | John Hope |
-| 17.10 | Donald Cook |
-| 17.11 | Kushal Pandya |
+| 17.11 | John Hope |
+| 18.0 | Donald Cook |
+| 18.1 | Vlad Shushlin |
+| 18.2 | John Hope |
+| 18.3 | Donald Cook |
+| 18.4 | Vlad Shushlin |
+| 18.5 | Knowledge EM |
+| 18.6 | John Hope |
+| 18.7 | Donald Cook |
+| 18.8 | Vlad Shushlin |
+| 18.9 | Knowledge EM |
+| 18.10 | John Hope |
+| 18.11 | Donald Cook |
 
 The role of the DRI is to facilitate a psychologically safe environment where team-members
 feel empowered to give feedback with candour. As such they should refrain from participating
