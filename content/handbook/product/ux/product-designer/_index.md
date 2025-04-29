@@ -176,13 +176,14 @@ If unsure who to include, consult your Product Design Manager for guidance.
 
 Design critiques are dedicated sessions for Product Designers to give and receive rigorous, constructive feedback aimed at elevating work quality from team members within Product Design. Unlike regular design reviews, critiques emphasize challenging assumptions and deepening analysis of design decisions. Benefits include:
 
-- Pushing designs to excellence, such as quality and value to customers, through specific, actionable feedback
+- Pushing designs to excellence through specific, actionable feedback that increases overall quality and value for customers
 - Building a culture where constructive challenge is valued and expected
-- Accelerating professional growth through deeper design discussions
-- Catching potential issues early in the design process
+- Accelerating professional growth and design craft through deeper discussions
+- Addressing issues and inconsistency earlier in the design process
+- Alignment with the design system, other product areas, and UX paradigms
 - Ensuring user-centered thinking remains at the forefront
 
-We prioritize a balanced approach to design critiques that practices benevolent, [radical candor](https://www.radicalcandor.com/blog/what-is-radical-candor/), which is to care personally but challenge directly. Here's how to conduct an effective critique:
+We prioritize a balanced approach to design critiques that practices benevolent, [radical candor](https://www.radicalcandor.com/blog/what-is-radical-candor/) and cares personally, but challenges directly. Here's how to conduct an effective critique:
 
 1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work
 1. **Provide thorough context**: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged
