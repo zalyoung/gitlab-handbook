@@ -376,7 +376,7 @@ To trigger a developer escalation, see [this process outline](/handbook/engineer
 
 ## Supporting 24/7 Coverage for Customers on the Advanced or Signature Success Tier  - Phase 1
 
-Customer Support is responsible for providing 24/7 coverage for customers with GitLab's Advanced and Signature Success Tiers. These premium tiers, which include a [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/), require 24/7 coverage and faster response times for Severity 2, known as High Priority tickets in Zendesk.
+Customer Support provides 24/7 coverage for customers subscribed to GitLab’s Advanced and Signature Success Tiers. These premium tiers, which include access to a [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) (CSA), require continuous support and faster response times for Severity 2 issues (labeled as High Priority tickets in Zendesk).
 
 | Success Tier | Coverage                                   |
 | ------------ | ------------------------------------------ |
