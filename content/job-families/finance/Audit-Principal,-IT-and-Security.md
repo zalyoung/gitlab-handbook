@@ -6,7 +6,7 @@ Responsibility includes assessing risk, developing audit scopes, performing audi
 
 ## Role
 
-The Audit Principal, IT and Security will interact heavily with the IT/InfoSec Leadership and must be able to clearly articulate related risks and audit results to technical and non-technical members of executive management. The Audit Principal, IT and Security reports to the [Director, IT Audit] (https://handbook.gitlab.com/job-families/finance/internal-audit/director-it-audit/).
+The Audit Principal, IT and Security will interact heavily with the IT/InfoSec Leadership and must be able to clearly articulate related risks and audit results to technical and non-technical members of executive management. The Audit Principal, IT and Security reports to the [Director, IT Audit](/internal-audit/director-it-audit/).
 
 ### Job Grade
 
@@ -29,19 +29,19 @@ The Audit Principal, IT and Security is a [grade 9]({{% ref "compensation-calcul
 * Maintaining appropriate industry associations to keep up to date with emerging technologies/IT risks and identify/leverage audit best practices.
 * Ensures the Internal Audit team is advised of key developments in all areas of responsibility.
 * Working with external auditors to coordinate IT coverage across areas of responsibility and ensure that audit work is comprehensive and sufficient to allow the external auditors to rely on the work.
-* Challenges the ‘status-quo’ and brings original ideas to the team.
+* Challenges the 'status-quo' and brings original ideas to the team.
 * Fosters a team environment, is inclusive and works well with others.
 * Prepares monthly reporting for the Executive team summarizing activities and key performance indicators.
 * Other tasks as assigned.
 
 ### Requirements
 
-* Bachelor’s degree in related field required (e.g., Computer Science, Management Information Systems, Accounting)
+* Bachelor's degree in related field required (for example; Computer Science, Management Information Systems, Accounting)
 * CISA, CISSP, CISM, or other relevant certification is required.
 * 9+ years of internal and/or external IT audit experience required.
 * Mix of operational and IT audit experience desired.
 * Experience as project lead including:
-* isk Assessment
+* Risk Assessment
 * Planning
 * Audit execution
 * Issue/report writing
@@ -58,27 +58,27 @@ The Audit Principal, IT and Security is a [grade 9]({{% ref "compensation-calcul
 * Ability to work effectively in a team environment, both within Internal Audit and across other departments
 * Must be able to work in US and International time zones, when required
 * Ability to balance quality of work with speed of execution
- Ability to use GitLab
+* Ability to use GitLab
 
 ### Performance Indicators
 
-* [Percentage of Desktop procedures documented] (https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures) 
-* [Percentage of controls tested] (https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-* [Percentage of recommendations implemented] (https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-* [Percentage of audits completed] (https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-* [New Hire Location Factor < 0.69] (https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
+* [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+* [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+* [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+* [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
+* [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
 * Completing tasks and audits timely and efficiently
 * Utilizing Best Practices related to audit findings and recommendations.
 
 ### Career Ladder
 
-The next step in the Senior Manager, Internal Audit job family is to move to the [Director, IT Audit] (https://handbook.gitlab.com/job-families/finance/internal-audit/director-it-audit/) job family.
+The next step in the Senior Manager, Internal Audit job family is to move to the [Director, IT Audit](/internal-audit/director-it-audit/) job family.
 
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-* Qualified candidates will be invited to schedule a 30 minute [screening call]({{< ref "interviewing#screening-call" >}}) with one of our Global Recruiters.
+* Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/) with one of our Global Recruiters.
 * Next, candidates will be invited to schedule a first interview with our VP, Internal Audit.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring).
