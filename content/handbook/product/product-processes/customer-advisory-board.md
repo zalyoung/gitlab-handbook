@@ -31,7 +31,7 @@ Results for Customers: Demonstrate clear value through roadmap iterations that a
 
 ### Presenter Guiding Principles
 
-1. **Product Focused Highlights:** All presentation materials should be focused on products we plan to launch or evaluating products we have available to customers. Information can be applicable, but should always circle back to the product, gathering customer insights, and demonstrating product value. 
+1. **Product Focused Highlights:** All presentation materials should be focused on products we plan to launch or evaluating products we have available to customers. Information can be applicable, but should always circle back to the product, gathering customer insights, and demonstrating product value.
 
 1. **Emphasize Dialogue over Monologue:** Structure your presentation to encourage meaningful two-ways discussions. Take pauses, plan specific talking points, and actively seek input.
 
