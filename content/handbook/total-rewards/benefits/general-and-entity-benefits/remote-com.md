@@ -98,7 +98,7 @@ All of the benefits listed below are administered and managed by [Remote](https:
 
 ### Medical
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll (usd) $106.50 (for partner), $85.20 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll (usd) $123.16 (for partner), $61.58 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -215,7 +215,7 @@ All of the benefits listed below are administered and managed by [Remote](https:
 
 ### Healthcare
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll (usd) $106.50 (for partner), $85.20 (children under 18).  Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll (usd) $123.16 (for partner), $61.58 (children under 18).  Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -274,7 +274,7 @@ All of the benefits listed below are administered and managed by [Remote](https:
 
 ### Health Insurance
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $135.92 (for partner), $108.73 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $157.09 (for partner), $78.55 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -441,7 +441,7 @@ The Hungarian Social Security Act has employer and team member contributions to 
 
 ### Medical
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $106.50 (for partner), $85.20 (children under 18).  Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $123.16 (for partner), $61.58 (children under 18).  Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -500,7 +500,7 @@ All of the benefits listed below are administered and managed by [Remote](https:
 
 ### Medical
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $135.92 (for partner), $108.73 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $157.09 (for partner), $78.55 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
