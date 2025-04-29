@@ -104,7 +104,7 @@
     d="M497.519 422.923C494.82 420.9 491.706 419.5 488.403 418.824L488.331 419C487.355 421.551 487.235 424.35 487.989 426.976C488.743 429.601 490.33 431.911 492.511 433.556L492.536 433.575L492.594 433.62L502.914 441.355L512.405 434.186L497.519 422.923Z"
     fill="#FC6D26"></path>
 
-  <text x="50%" y="255" class="text devsecops">DevPerfOps</text>
+  <text x="50%" y="255" class="text devsecops">DevPerfEx</text>
   <text x="353" y="131" class="text">Plan</text>
   <text x="353" y="150" class="text process">Performance Requirements Definition</text>
   <text x="127" y="131" class="text">Code</text>
