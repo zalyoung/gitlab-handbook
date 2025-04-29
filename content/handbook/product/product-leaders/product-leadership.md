@@ -37,23 +37,6 @@ The Product [Key Review](/handbook/company/key-review/) is hosted by a member of
 | 2024-XX-XX | Mike Flouton | -- |
 | 2024-XX-XX | Hillary Benson | -- |
 
-## Product Group Conversation Leader Rotation
-
-The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
-
-For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/#additional-consideration-for-functional-presentations)
-
-| Date | Host | Planning Issue |
-| ---- | ---- | -------------- |
-| 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 |
-| 2023-12-06 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/12909 |
-| 2024-02-28 | Justin Farris | https://gitlab.com/gitlab-com/Product/-/issues/13120 |
-| 2024-06-20 | Mike Flouton | -- |
-| 2024-XX-XX | Hillary Benson | To be added |
-| 2024-XX-XX | Justin Farris | To be added |
-| 2024-XX-XX | Mike Flouton | To be added |
-| 2024-XX-XX | Hillary Benson | To be added |
-
 ## Product Leadership ReadMe's
 
 Below you'll find the ReadMe's for our Product Division leaders who manage teams.
@@ -61,7 +44,6 @@ Below you'll find the ReadMe's for our Product Division leaders who manage teams
 - [David DeSanto's README](https://gitlab.com/david)
 - [Justin Farris's README](https://gitlab.com/justinfarris)
 - [Sarah Waldner's README](https://gitlab.com/sarahwaldner/README)
-- [Jackie Porter's README](https://gitlab.com/jreporter/read-me)
 
 ## Product Manager/Leader Collaboration
 
