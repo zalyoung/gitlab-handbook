@@ -83,7 +83,7 @@ In the current iteration, incident management activities happen during each team
 
 ### Responsibility
 
-- The Engineering Manager should ensure they have joined the Slack channel `#incident-management`.
+- The Engineering Manager should ensure they have joined the Slack channel `#incidents`.
 - The Engineering Manager should help with monitoring the incident management channel, tracking, directly helping, delegating, and raising awareness of incidents within the Developer Experience Sub-Department as appropriate.
 - The current DRI should be clearly noted on the incident issue.
 - If a corrective action is needed, the EM should create an issue and ensure it is labeled with ~'corrective action'.

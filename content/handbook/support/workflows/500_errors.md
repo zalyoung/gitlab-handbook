@@ -23,7 +23,7 @@ If a customer reports a shared runner running slower than it normally does, it i
 
 Check the [CI Runners Overview](https://dashboards.gitlab.net/d/ci-runners-main/ci-runners-overview?orgId=1) graphs where you will find an increase in queue apdex and latency.
 
-Check on the [#feed_alerts](https://gitlab.slack.com/messages/C12RCNXK5), [#production](https://gitlab.slack.com/messages/C101F3796), and [#incident-management](https://gitlab.slack.com/messages/CB7P5CJS1) Slack channels to ensure this isn't an outage or infrastructure issue.
+Check on the [#feed_alerts](https://gitlab.slack.com/messages/C12RCNXK5), [#production](https://gitlab.slack.com/messages/C101F3796), and [#incidents](https://gitlab.slack.com/messages/C02HF90ME66) Slack channels to ensure this isn't an outage or infrastructure issue.
 
 ### If you notice slowness yourself on GitLab.com
 
