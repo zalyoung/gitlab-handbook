@@ -193,7 +193,7 @@ We will not attempt to auto-renew if:
 Auto-renewal will fail if:
 
 - Credit card payment failed
-- .com subscription is not assigned to a group
+- GitLab.com subscription is not assigned to a group
 - Another system error that wasn't accounted for previously
 
 Accounts and Subscriptions excluded from auto-renewal:
