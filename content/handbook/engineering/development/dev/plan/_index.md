@@ -152,7 +152,7 @@ graph TD;
 
 ### Executing on the Roadmap
 
-Every Roadmap commitment has a Directly Responsible Individual (DRI) for overall project management. This is usually the Engineering Manager (EM) of the group that owns the corresponding category.
+Every Roadmap commitment has a Directly Responsible Individual (DRI) for its delivery, which is typically a [Tech Lead](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role) who leads project management activities such as clarifying scope, coordinating dependencies, and communicating progress. If no engineer in the group has the capacity to assume a Tech Lead role, the Engineering Manager (EM) may step in. The EM is ultimately accountable for overall roadmap execution and cross-team coordination in either case.
 
 The project manager clarifies scope, identifies dependent work, appoints DRIs for work streams, and ensures risks and blockers are prioritized.
 
