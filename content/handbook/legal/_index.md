@@ -30,7 +30,7 @@ The [Corporate Development](/handbook/acquisitions/) group conducts diligent and
 
 ### Employment
 
-The [Employment](/handbook/legal/employment-law/) group provides thoughtful, pragmatic recommendations to address complicated employment situations within the legal confines of the many jurisdictions in which GitLab team members reside.
+The Legal [Employment](/handbook/legal/employment-law/) team serves as a strategic partner across the organization, providing expert guidance and proactive legal solutions throughout the entire team member lifecycle.
 
 ### Environment, Social, and Governance (ESG)
 
