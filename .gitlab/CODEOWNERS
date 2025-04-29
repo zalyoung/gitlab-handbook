@@ -541,7 +541,7 @@
 /content/job-families/sales/ @akramer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 ^[security]
-/content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila @cibericua
+/content/handbook/security/ @joshlemos @jlongo_gitlab @juliedavila @cibericua @jdicken
 /content/handbook/security/corporate/ @smanzuik @ericrubin @dzhu-gl @mbeee
 /content/handbook/security/customer-support-operations/ @lyle @jcolyer @dtragjasi
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
@@ -550,7 +550,7 @@
 /content/handbook/security/product-security/data-security/ @jacobjernigan @boconnor @jcamgl
 /content/handbook/security/product-security/application-security/ @juliedavila
 /content/handbook/security/product-security/security-platforms-architecture/ @jdicken
-/content/handbook/security/product-security/security-platforms-architecture/security-architecture/ @jdicken @plafoucriere
+/content/handbook/security/product-security/security-platforms-architecture/security-architecture/ @jdicken
 /content/handbook/security/product-security/security-platforms-architecture/security-research/ @jdicken
 /content/handbook/security/product-security/security-platforms-architecture/product-security-engineering/ @jdicken @maggiemartin
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
@@ -681,9 +681,9 @@
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
 [Security and Technology Policies]
-/content/handbook/security/security-and-technology-policies/change-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/change-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @jdicken
 /content/handbook/security/product-security/vulnerability-management/encryption-policy.md @juliedavila @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-and-technology-policies/penetration-testing-policy.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/penetration-testing-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @jdicken
 /content/handbook/security/security-and-technology-policies/security-and-technology-policies-management.md @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 
@@ -710,7 +710,7 @@
 /content/handbook/security/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @jdicken
 /content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
