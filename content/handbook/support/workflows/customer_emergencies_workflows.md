@@ -374,9 +374,9 @@ On rare occasions, you and the manager on-call may decide it's necessary to init
 
 To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline).
 
-## Supporting Customer Success Architect (CSA) 24/7 Coverage - Phase 1
+## Supporting 24/7 Coverage for Customers on the Advanced or Signature Success Tier  - Phase 1
 
-A [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) is included with GitLab's Advanced and Signature Success Tiers. These tiers include 24/7 coverage and faster response times for Severity 2, known as High Priority tickets in Zendesk.
+Customer Support is responsible for providing 24/7 coverage for customers with GitLab's Advanced and Signature Success Tiers. These premium tiers, which include a [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/), require 24/7 coverage and faster response times for Severity 2, known as High Priority tickets in Zendesk.
 
 | Success Tier | Coverage                                   |
 | ------------ | ------------------------------------------ |
