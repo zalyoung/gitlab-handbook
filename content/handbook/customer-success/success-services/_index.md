@@ -63,7 +63,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
       1. [Signature | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe720b1d0a83d481b69449#1)
          * [Demo](https://gitlab.highspot.com/items/680f8ee83cc2d050572efa00)
       2. [Advanced | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7209be150cb32b8b47f2?lfrm=srp.9)
-         * [Demo](https://gitlab.zoom.us/rec/share/2YDpMXTyqKRhvxZeoQjU2EZ3YVSKVYY3Kf4oDqVFBBwA53RTP3t6djshXlH6nGs.oUCRl2MjGVRiw0Ry?pwd=IaXWABT9kBqeDrB4dMEkds0LSD1KsMUQ)
+         * [Demo](https://gitlab.highspot.com/items/680b978897caecb740bc6504)
       3. [Essentials | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7205040d7eb57aaf784c?lfrm=srp.8)
          * Demo to be added
    4. Share the `.pdf` version post-call as well as immediate next steps, such as a sudiscovery workshop.
