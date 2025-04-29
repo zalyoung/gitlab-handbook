@@ -1219,7 +1219,7 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 
 #### Sales Dev Operations Team Regional Availability
 
-The Global Sales Dev Operations team has the office hours below, so that regional team members can know how to address internally. Please tag the DRI below in the `#sales_dev_global` slack channel to maintain our [shared reality](handbook/teamops/shared-reality/) and other [GitLab TeamOps tenets.](https://about.gitlab.com/teamops/)
+The Global Sales Dev Operations team has the office hours below, so that regional team members can know how to address internally. Please tag the DRI below in the `#sales_dev_global` slack channel to maintain our [shared reality](handbook/teamops/shared-reality-guide/) and other [GitLab TeamOps tenets.](https://about.gitlab.com/teamops/)
 
 | Region / Timezone                     | Ops Team Member                                                                                                                                                                  |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
