@@ -44,7 +44,7 @@ For cross-functional projects that do not involve individual team members but do
 
 ### Consult
 
-A table showing coverage for queries by subject matter is available for internal use and can be accessed [here](https://docs.google.com/presentation/d/19g8k4V7ijn5J7Xr2BYlIhe5tcQP0ppfhFexRlrTEhpo/edit#slide=id.g2fc30a73634_0_4). Please feel free to consult any member of the Legal Employment team.
+A table showing coverage for queries by subject matter is available for internal use and can be accessed [here](https://docs.google.com/presentation/d/19g8k4V7ijn5J7Xr2BYlIhe5tcQP0ppfhFexRlrTEhpo/edit#slide=id.g2fc30a73634_0_4). You are welcome to consult any member of the Legal Employment team.
 
 ### Consider these additional guidelines
 
