@@ -4,12 +4,12 @@ title: "A Compatibility Guide for Corporate Contributors: Navigating Project Lic
 
 ## Understanding Contribution License Agreements at a Glance
 
-| Type of Contribution | Who's Contributing | Governing Agreement | 
+| Type of Contribution | Who's Contributing | Governing Agreement |
 |----------------------|-------------------|-------------------|
-| MIT-licensed code | Individual | DCO (Developer Certificate of Origin) 
-| MIT-licensed code | Corporation | DCO (Developer Certificate of Origin) 
-| EE-directory code | Individual | Individual CLA 
-| EE-directory code | Corporation | Corporate CLA 
+| MIT-licensed code | Individual | DCO (Developer Certificate of Origin) |
+| MIT-licensed code | Corporation | DCO (Developer Certificate of Origin) |
+| EE-directory code | Individual | Individual CLA |
+| EE-directory code | Corporation | Corporate CLA |
 
 ## Licensing Approach for Co-Create
 
@@ -22,7 +22,7 @@ title: "A Compatibility Guide for Corporate Contributors: Navigating Project Lic
 **For Corporations who require an overarching CLA**:
 
 - Some organizations may wish to execute an overarching Corporate CLA that governs all contributions made on behalf of the corporation in order to manage who is authorized to contribute on behalf of the corporation.
-- In these cases, GitLab offers an optional overarching Corporate CLA 
+- In these cases, GitLab offers an optional overarching Corporate CLA
 
 ## Managing Corporate Contributions
 
