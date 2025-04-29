@@ -420,7 +420,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Plan.+Optimize" >}}
+{{< engineering/stable-counterparts role="Plan.+Optimize" >}}
 
 ## Links and resources {#links}
 

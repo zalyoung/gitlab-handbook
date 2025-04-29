@@ -31,7 +31,7 @@ query is being directed to the correct group.
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Foundations:Import and Integrate" >}}
+{{< engineering/stable-counterparts role="Foundations:Import and Integrate" >}}
 
 ## Metrics
 

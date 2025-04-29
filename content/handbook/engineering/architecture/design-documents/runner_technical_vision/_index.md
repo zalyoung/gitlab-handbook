@@ -3,14 +3,14 @@ title: "GitLab Runner Technical Vision"
 status: proposed
 creation-date: "2024-11-05"
 authors: [ "@josephburnett", "@ajwalker" ]
-coach: 
+coach:
 approvers: [ ]
 owning-stage: "~devops::verify"
 participating-stages: [ ]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a technical vision, not a product or feature
 roadmap. It describes how to decompose the GitLab Runner problem space

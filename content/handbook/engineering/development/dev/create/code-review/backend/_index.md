@@ -24,7 +24,7 @@ The following people are permanent members of the Create:Code Review Group:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Code Review" manager-role="Engineering Manager, Create:Code Review" >}}
+{{< engineering/stable-counterparts role="Code Review" manager-role="Engineering Manager, Create:Code Review" >}}
 
 ## Common Links
 

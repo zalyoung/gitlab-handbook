@@ -45,7 +45,7 @@ The following people are permanent members of the Create:Source Code BE Team:
 
 The following people of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
+{{< engineering/stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
 ## Common Links
 
@@ -148,12 +148,12 @@ flowchart TD
     style Start fill:#f9f,stroke:#333,stroke-width:2px
     style End fill:#f9f,stroke:#333,stroke-width:2px
     style NeedBreakdown fill:#ffd,stroke:#333
-    
+
     classDef pmStyle fill:#e6f3ff,stroke:#333
     classDef emStyle fill:#fff0e6,stroke:#333
     classDef engStyle fill:#e6ffe6,stroke:#333
     classDef sharedStyle fill:#f0f0f0,stroke:#333
-    
+
     class RefinementLabel pmStyle
     class CreateRefIssue,DistributeTasks emStyle
     class RefineIssue,NeedBreakdown,CreateNewIssues,FullyRefined,ReadyLabel engStyle
@@ -181,7 +181,7 @@ If you cannot finish any of these steps, ping EM/PM.
 - [ ] Issue is small and doesn't need to be broken down
 
 ## Final steps
-- [ ] This issue has a weight 
+- [ ] This issue has a weight
 - [ ] There are no blockers
 - [ ] Issue has ~"workflow::ready for development" label
 ```
@@ -231,7 +231,7 @@ Add a comment to the issue under refinement using the provided template.
 
 **2. Dependencies**
 
-- [ ] Requires ~backend 
+- [ ] Requires ~backend
 - [ ] Requires ~frontend
 - [ ] Requires ~database
 - [ ] Requires ~documentation
@@ -265,11 +265,11 @@ Add a comment to the issue under refinement using the provided template.
 
 
 @engineer_username please review this implementation plan.
-<!-- 
-Pick a peer engineer following this criteria: 
-1. is a subject matter expert. 
-2. might have some familiarity with the topic. or 
-3. ask on slack who'd be available to review this plan before the due date of the issue 
+<!--
+Pick a peer engineer following this criteria:
+1. is a subject matter expert.
+2. might have some familiarity with the topic. or
+3. ask on slack who'd be available to review this plan before the due date of the issue
 -->
 ```
 

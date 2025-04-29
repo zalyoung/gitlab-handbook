@@ -22,7 +22,7 @@ The following teams make up the Package stage:
 
 ### Stable Counterparts
 
-{{< stable-counterparts manager="crystalpoole" role="[,&] Package" >}}
+{{< engineering/stable-counterparts manager="crystalpoole" role="[,&] Package" >}}
 
 ### Package Format DRIs
 

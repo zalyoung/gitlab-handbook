@@ -41,7 +41,7 @@ The following people are permanent members of the Organizations group:
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts manager="glopezfernandez" role="Tenant Scale|Principal Engineer, Data Stores|Senior Distinguished Engineer, Ops and Core Platform" %}}
+{{% engineering/stable-counterparts manager="glopezfernandez" role="Tenant Scale|Principal Engineer, Data Stores|Senior Distinguished Engineer, Ops and Core Platform" %}}
 
 ## Projects
 

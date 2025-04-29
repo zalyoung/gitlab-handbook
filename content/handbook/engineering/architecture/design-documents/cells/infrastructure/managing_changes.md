@@ -9,7 +9,7 @@ approvers: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 We must ensure the correct sequencing of "changes" in our Cells environments: deployments, configuration changes, and regular merge requests should all be sequenced correctly and applied sequentially. A priority system should exist to accelerate critical changes. Later on, this system should also be able to propagate changes between rings. Merge requests and pipelines alone cannot enforce those properties; they could be building blocks of our solution, but there is a need for a coordinator engine.
 

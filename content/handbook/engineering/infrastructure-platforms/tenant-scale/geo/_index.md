@@ -15,7 +15,7 @@ repositories and projects, or can be part of a Disaster Recovery solution.
 
 ### Stable counterparts
 
-{{< stable-counterparts role="Geo" manager-role="Fullstack Engineering Manager, Geo" >}}
+{{< engineering/stable-counterparts role="Geo" manager-role="Fullstack Engineering Manager, Geo" >}}
 
 ## Goals and Priorities
 

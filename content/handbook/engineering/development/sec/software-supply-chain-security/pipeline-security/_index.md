@@ -27,7 +27,7 @@ We measure the value we contribute by using a [Product Performance Indicator](ht
 
 The following people are permanent members of the Software Supply Chain Security:Pipeline Security group:
 
-{{< stable-counterparts role="Software Supply Chain Security:Pipeline Security" >}}
+{{< engineering/stable-counterparts role="Software Supply Chain Security:Pipeline Security" >}}
 
 ## Stable Counterparts
 

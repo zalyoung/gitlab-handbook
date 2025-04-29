@@ -37,7 +37,7 @@ title: "Developer Relations Workflows and Tools"
 
 These are the tools the Developer Relations team is the DRI for:
 
-{{< workflows-tools >}}
+{{< marketing/workflows-tools >}}
 
 ### Community Operations Tool Stack (deprecated)
 

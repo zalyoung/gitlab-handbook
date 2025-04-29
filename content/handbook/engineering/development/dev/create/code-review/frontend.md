@@ -39,7 +39,7 @@ The following people are permanent members of the Create:Code Review FE Team:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts manager-role="Senior Engineering Manager(.*)Create:Code Review" role="(Product Manager|Technical Writer|Software Engineer in Test|Senior Security Engineer|Product Designer).*(Create:Code Review|Create \(Code)|Dev\:Create|Code Review" >}}
+{{< engineering/stable-counterparts manager-role="Senior Engineering Manager(.*)Create:Code Review" role="(Product Manager|Technical Writer|Software Engineer in Test|Senior Security Engineer|Product Designer).*(Create:Code Review|Create \(Code)|Dev\:Create|Code Review" >}}
 
 ## Core Responsibilities
 

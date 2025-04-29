@@ -17,7 +17,7 @@ This document contains an exhaustive inventory of the GitLab product navigation,
 
 ## Product contexts
 
-{{% navigation-inventory %}}
+{{% product/navigation-inventory %}}
 
 ## Missing a nav item?
 
