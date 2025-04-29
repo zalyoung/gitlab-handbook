@@ -187,17 +187,19 @@ Triage bot utilizes policies to determine what actions to perform on what items.
 
 Each policy contains rules for the resource set. These rules are contained within an array that detail what to run on and what to actually do. Triage bot fields are:
 
-| Missing Field | Example |
+| Missing Field | Example | Notes |
 | ------------- | ---- |
 | Issue Assignee | @csmname  |
 | CS-Priority Label | ~"CS-Priority::Top-5"  |
 | CS-Team Label | ~"CS-Team::CSM"   |
 | CS-Status Label  | ~"CS-Status::On Track"   |
 | CS-Region Label  | ~"CS-Region::AMER"   |
-| OKR label  | ~"OKR"  |
+| OKR/Initiative label  | ~"OKR"  |
 | LT Sponsorship label  | ~"CSLT::CS DIR NAME"  |
-| Milestone  | ~FYXX-QX  |
+| Milestone  | ~FYXXQX CS OKR  |
 | XLT DRI label  | ~"CSXLT::MGR CS NAME"  |
+
+Please note: Milestones for OKRs and Initiatives are tracked separately. Use the format `FYXXQX CS OKR` to track OKRS and `FYXXQX CS Initiative` to track non-OKR initiatives
 
 ## Completion and Review
 
@@ -214,8 +216,7 @@ Each issue should have labels and field values to satisfy the triage bot policie
 | Category | Label | Definition |
 | ------------- | ---- | -------------------------------------------------------- |
 | GitLab Department | Customer Success | Defines the relevant GitLab department as Customer Success for global OKR tracking |
-| OKR | OKR | Required label for tracking OKRs across GitLab |
-| Initiative | Initiative | Non-OKR initiative being tracked by CS org |
+| OKR/Initiative Label | OKR or Initiative | Required label for tracking OKRs and non-OKR initiatives respectively across GitLab |
 | CS-Status | CS-Status::On Track | Issue is progressing as expected |
 | CS-Status | CS-Status::Watchpoint | Issue is running behind and needs re-alignment on objective timeline between DRI team |
 | CS-Status | CS-Status::Concern | Issue has signficant obstacles that jeopardize completion by due date and require leadership assistance |
