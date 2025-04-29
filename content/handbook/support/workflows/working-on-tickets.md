@@ -274,3 +274,14 @@ to the newly created ticket.
 
 If you plan to immediately start working the ticket, please assign the ticket to
 yourself.
+
+### Can I use output from an LLM in ticket replies?
+
+While you can use a tool like GitLab Duo to help when researching and when writing a reply to a customer, there are a few important things to keep in mind:
+
+- Verify the information provided by the LLM to ensure that it is accurate using the docs and the source code or by checking with a human subject matter expert
+  - You should pay special attention to making sure whether things like environment variables, configuration options and UI settings actually exist
+- Be mindful of GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/) and the [kind of input](/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/#input) you have in mind when selecting a tool 
+
+Read the [General Purpose AI Tool Usage Guidelines](/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/) for additional guidance.
+
