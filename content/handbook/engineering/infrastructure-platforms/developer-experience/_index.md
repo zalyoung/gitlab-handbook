@@ -69,7 +69,7 @@ The following people are members of the [Developer Tooling group](developer-tool
 
 {{< team-by-manager-slug "mgamea" >}}
 
-The following people are members of the [Feature Readiness group](feature-readiness-team):
+The following people are members of the [Feature Readiness group](feature-readiness):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
