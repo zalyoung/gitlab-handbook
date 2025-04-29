@@ -33,16 +33,16 @@ Candidates must:
 
 ### Rotation Schedule
 
-| Start Date | Shadow Name | Geo Preference (can be multiple) |
+| Start Date | Shadow Name | Geo Preference (can be multiple) | Status |
 |-------|---------|---------|
-| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR |
-| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | AMER |
-| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | EMEA |
-| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
-| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
-| FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA |
+| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR | Completed |
+| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | AMER | Completed |
+| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | EMEA | Scheduled |
+| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  | |
+| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  | |
+| FY26 Q2 | [Chloe Cartron](https://gitlab.com/ChloeCartron) | EMEA | |
 | FY26 Q3 |  |  |
-| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER |
+| FY26 Q4 | [Ryan Taylor](https://gitlab.com/crtaylor) | AMER | |
 | FY27 Q1 |  |  |
 | FY27 Q2 |  |  |
 
@@ -51,6 +51,8 @@ Candidates must:
 ### Confidentiality
 
 As a shadow, you'll have access to confidential information requiring compliance with the [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y) for the entire quarter. Even after the quarter is complete, the program's success depends on continually maintaining this trust beyond the duration of the shadow.
+
+
 :bulb: **NOTE:** the DI review process happens quarterly and DI access lasts at least a quarter (subject to Legal Team evaluation), so the SA Shadow will be added to the DI list for an entire quarter as a minimum. As a consequence, the SA Shadown onboarding issue has to be opened a quarter in advance from the SA joining the SA Leader Shadow program.
 
 ### Getting Ready for Your Shadowing Experience
