@@ -1,37 +1,36 @@
 ---
-title: "Navigating Project License Requirements: A Compatibility Guide for Corporate Contributors"
+title: "A Compatibility Guide for Corporate Contributors: Navigating Project License Requirements:"
 ---
 
-## Understanding Contribution Agreements at a Glance
+## Understanding Contribution License Agreements at a Glance
 
-| Type of Contribution | Who's Contributing | Governing Agreement | Approval Process |
-|----------------------|-------------------|-------------------|------------------|
-| MIT-licensed code | Individual | DCO (Developer Certificate of Origin) | Automatic - by contributing you accept the DCO |
-| MIT-licensed code | Corporation | DCO (Developer Certificate of Origin) | Automatic - by contributing you accept the DCO |
-| EE-directory code | Individual | Individual CLA | Automatic - by contributing you accept the Individual CLA |
-| EE-directory code | Corporation | Corporate CLA | Automatic acceptance OR **optional formal setup** |
+| Type of Contribution | Who's Contributing | Governing Agreement | 
+|----------------------|-------------------|-------------------|
+| MIT-licensed code | Individual | DCO (Developer Certificate of Origin) 
+| MIT-licensed code | Corporation | DCO (Developer Certificate of Origin) 
+| EE-directory code | Individual | Individual CLA 
+| EE-directory code | Corporation | Corporate CLA 
 
-## Legal Approach for Co-Create
+## Licensing Approach for Co-Create
 
 **Key Points to Understand**:
 
-- Contributors automatically accept the appropriate agreement (DCO or CLA) by submitting a contribution
 - No pre-approval process is required before teams can start contributing during Co-Create engagements
+- Contributors automatically accept the governing agreement (DCO or CLA) through submission of a contribution
 - The code location determines which agreement applies (MIT-licensed = DCO, EE-directory = CLA)
 
-**For Organizations With Specific Legal Requirements**:
+**For Corporations who require an overarching CLA**:
 
-- Some organizations may need formal agreements for compliance or governance reasons
-- In these cases, GitLab offers an optional formal Corporate CLA process
-- This setup gives organizations greater control over who can contribute on their behalf
+- Some organizations may wish to execute an overarching Corporate CLA that governs all contributions made on behalf of the corporation in order to manage who is authorized to contribute on behalf of the corporation.
+- In these cases, GitLab offers an optional overarching Corporate CLA 
 
 ## Managing Corporate Contributions
 
 For organizations participating in Co-Create, there are two paths:
 
 1. **Standard Contribution Path**:
-   - Employees can immediately contribute to GitLab code
-   - By contributing, they automatically accept the appropriate agreement
+   - Employees can immediately begin contribute to GitLab code
+   - By contributing, they automatically accept the governing license agreement
    - No pre-approval or formal setup required
 
 2. **Formal CLA Management (Optional)**:
@@ -52,7 +51,7 @@ To expedite the legal process:
 
 1. Share this page and [the GitLab DCO & CLA](https://about.gitlab.com/community/contribute/dco-cla/) with your legal team
 2. Contact cla_managers@gitlab.com to initiate the Corporate CLA process
-3. Prepare a list of developers' GitLab usernames who will need to be authorized contributors
+3. Prepare a list of authorized contributions, including each contributor's GitLab usernames.
 
 ## Contact Information
 
