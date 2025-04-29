@@ -105,15 +105,15 @@ Zendesk as `Account Owner`. During FY26Q1 (Feb25-Apr25), APAC are participating 
    - Post a message in a relevant support channel (`#support_leadership`,
      `#support_gitlab-com`, or `#support-self_managed`).
 
-### Pilot for CSE collaboration - APAC FY26Q1
+### Pilot for CSE collaboration - APAC FY26Q2
 
-During Quarter 1 of FY26 (February - April 2025) the CSEs and APAC Support are participating in a pilot to reach out to CSEs for TAM Scale customers, similar to working with CSMs for larger customers.
+During Quarter 2 of FY26 (May - July 2025) the CSEs and APAC Support are participating in a pilot to reach out to CSEs for TAM Scale customers, similar to working with CSMs for larger customers.
 
 During this period, if you a Support Engineer in APAC and you are working on a ticket that would benefit from collaboration with the customer success team and the listed CSM in the meta details is `TAM Scale`, please follow the process below.  For more details or to share feedback, please refer to the [planning issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6489).
 
-1. Share the ticket in [#team-cse](https://gitlab.enterprise.slack.com/archives/C04FPTL837S) on Slack and ping `@Arihant` for a review (this is a known single point of failure which will be addressed in following iterations).
+1. Share the ticket in [#team-cse](https://gitlab.enterprise.slack.com/archives/C04FPTL837S) on Slack and ping `@Bernard Ng` for a CSE review (this is a known single point of failure which will be addressed in following iterations) and `@weimeng` for Support awareness.
 1. If necessary to meet SLA, send a response to the customer letting them know that you have initiated this.
-1. During the pilot, Arihant will respond to let you know if the CSE team can help.  If they can, they will provide a  one-time use Calendly scheduling link for the customer to schedule a call. This scheduling link will be posted as an internal note in the Support ticket.
+1. During the pilot, Bernard will respond to let you know if the CSE team can help.  If they can, the CSE team will provide a one-time use Calendly scheduling link for the customer to schedule a call. This scheduling link will be posted as an internal note in the Support ticket.
 1. Once received, send a reply to the customer, sharing the scheduling link.  You can use the following text as a starting point:
 
     ```text
