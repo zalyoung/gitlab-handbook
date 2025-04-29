@@ -61,7 +61,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
    2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations through email.
    3. Utilize the appropriate kick-off deck & customize as needed (internal). 
       1. [Signature | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7212040d7ea6e1af7af0)
-         * Demo to be added
+         * [Demo](https://gitlab.highspot.com/items/680f8ee83cc2d050572efa00)
       2. [Advanced | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7209be150cb32b8b47f2?lfrm=srp.9)
          * [Demo](https://gitlab.zoom.us/rec/share/2YDpMXTyqKRhvxZeoQjU2EZ3YVSKVYY3Kf4oDqVFBBwA53RTP3t6djshXlH6nGs.oUCRl2MjGVRiw0Ry?pwd=IaXWABT9kBqeDrB4dMEkds0LSD1KsMUQ)
       3. [Essentials | Success Tiers - Kickoff Deck](https://gitlab.highspot.com/items/67fe7205040d7eb57aaf784c?lfrm=srp.8)
