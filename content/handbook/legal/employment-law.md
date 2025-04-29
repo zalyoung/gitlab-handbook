@@ -32,7 +32,7 @@ To work with the Legal Employment team, reach out early in your process, provide
 
 ### Connect
 
-To connect with legal, employment, especially on sensitive matters, you can use the [legal-employment@gitlab.com](legal-employment@gitlab.com) email address, or for non-sensitive queries, you can reach out in the [#legal](https://gitlab.enterprise.slack.com/archives/C78E74A6L) slack channel. Note that GitLab team members with individual employment queries should reach out to Team Member Relations team on teammemberrelations@gitlab.com or to their PBP for support.
+To connect with legal, employment, especially on sensitive matters, you can use the legal-employment@gitlab.com email address, or for non-sensitive queries, you can reach out in the [#legal](https://gitlab.enterprise.slack.com/archives/C78E74A6L) slack channel. Note that GitLab team members with individual employment queries should reach out to Team Member Relations team on teammemberrelations@gitlab.com or to their PBP for support.
 
 ### Collaborate
 
