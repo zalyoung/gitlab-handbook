@@ -107,7 +107,6 @@ This will have significant impacts on both GitLab and its customers:
 
 - **Milestone:** Should be the fiscal quarter we are planning to deliver & close the work. Milestones will be used to track both OKRs and non-OKR initiatives. OKRs should be defined in the OKR project within CSMERM and all non-OKR initiatives should be defined under the relevant team's subgroup.
 
-
 ## Process
 
 ### GLQL Tracking Table
