@@ -51,6 +51,7 @@ Candidates must:
 ### Confidentiality
 
 As a shadow, you'll have access to confidential information requiring compliance with the [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y) for the entire quarter. Even after the quarter is complete, the program's success depends on continually maintaining this trust beyond the duration of the shadow.
+:bulb: **NOTE:** the DI review process happens quarterly and DI access lasts at least a quarter (subject to Legal Team evaluation), so the SA Shadow will be added to the DI list for an entire quarter as a minimum. As a consequence, the SA Shadown onboarding issue has to be opened a quarter in advance from the SA joining the SA Leader Shadow program.
 
 ### Getting Ready for Your Shadowing Experience
 
