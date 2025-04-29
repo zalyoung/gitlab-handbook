@@ -367,9 +367,8 @@ A First Order SME SA is aligned to this team to provide technical support during
 **When to Engage SAs**
 
 - When prospects are demo-ready: for customers wanting to understand GitLab's value and how it solves their business needs
-- During Stage 3 for opportunities where a [Command Plan](https://handbook.gitlab.com/handbook/sales/command-of-the-message/command-plan/) and [MEDDPPICC documentation](https://handbook.gitlab.com/handbook/sales/meddppicc/) are being leveraged
+- During Stage 3 for opportunities where a [Command Plan](/handbook.gitlab.com/handbook/sales/command-of-the-message/command-plan/) and [MEDDPPICC documentation](/handbook/sales/meddppicc/) are being leveraged
 - During technical evaluations: aim to have SAs involved at least 15 days of the Close Date and at least 1 day (ideally more) when direct engagement is needed
-
 
 **SA Engagement Process**
 
