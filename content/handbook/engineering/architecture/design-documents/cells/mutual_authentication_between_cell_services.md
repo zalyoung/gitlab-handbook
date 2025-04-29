@@ -33,7 +33,7 @@ This document focuses specifically on implementing mutual TLS (mTLS) authenticat
 ### Out of Scope
 
 - Implementation of a service mesh (e.g., Istio) for encrypting traffic via mTLS is out of scope for the following reasons:
-  - We already leverage mTLS inside a cell using [Internal TLS](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/internal_tls.html), so extending this existing blueprint to support external services is more consistent with our architecture.
+  - We already leverage TLS inside a cell using [Internal TLS](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/internal_tls.html), so extending this existing blueprint to support external services is more consistent with our architecture.
   - While service mesh provides a transparent way for application developers to implement mTLS with external services, this approach introduces security risks. If a vulnerability exists, attackers could exploit it to use the client as a proxy to send unauthorized requests to the mTLS server.
 - While mTLS is used to secure communications between CDNs/load balancers and their backends, as well as between internal services, this scope explicitly excludes:
   - Communication from external clients to GitLab services.
