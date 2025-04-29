@@ -44,7 +44,7 @@ All GitLab data is categorized and must be handled in accordance with the [Data 
 
 Open Source libraries are allowed under this policy if its use complies with the pre-approved or approval requirements captured in the [Product Legal Handbook](/handbook/legal/product/#using-open-source-software).
 
-## Individual-Use Software and Integrations
+### Individual-Use Software and Integrations
 
 Corporate Security governs the installation of individual-use software in order to meet our obligations for data security and lawful data processing. This is supported by ongoing collaborations with Corporate Security, Security Risk, Legal, and Privacy to ensure new individual-use software and integrations are sufficiently vetted prior to implementation.
 
@@ -52,11 +52,11 @@ Corporate Security governs the installation of individual-use software in order 
 
 Authorized integrations and other approved individual use software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list. All items are permitted subject to any *Notes and Restrictions* specified for each listing.
 
-### Requesting New Software
+#### Requesting New Software
 
 To request approval for new individual use software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/) request process. 
 
-### Application Integrations and Managed Environments
+#### Application Integrations and Managed Environments
 
 Corporate Security oversees the configuration of new integrations with core GitLab environments in order to maintain the security of sensitive data within.
 
