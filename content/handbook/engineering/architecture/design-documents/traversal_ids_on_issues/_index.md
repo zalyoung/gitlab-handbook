@@ -9,12 +9,12 @@ owning-stage: "~plan::product planning"
 participating-stages: []
 ---
 
-# Business Objectives
+## Business Objectives
 
 To further rollout work items, we need to tackle the scaling problems that are inherent of our hierarchy-based approach of querying data.
 Without adressing these performance problems, the product will not be able to scale appropriately for large organizations.
 
-# Problem Statement
+## Problem Statement
 
 After migrating `epics` to the `issues` table as part of the work items framework, we face a new performance problem when querying work items within the group hierarchy.
 Before this migration, we only had two cases when querying within the hierarchy:
@@ -27,7 +27,7 @@ In both cases, the amount of namespaces was limited to either Groups or Projects
 With work items, everything is in one `issues` table, and we now only distinguish between different work items using the `work_item_type` column. We now want to list all work items from groups and projects.
 From our first experiments, we faced performance problems where the queries timed out for large groups like `gitlab-org` or `gitlab-com`.
 
-## Root cause of the problem - looking up work items in many namespaces
+### Root cause of the problem - looking up work items in many namespaces
 
 When looking up all issues within a group, we use a query like the following (authorization checks are removed for improved readability):
 
@@ -45,13 +45,13 @@ ORDER BY created_at, id LIMIT 100;
 
 For large groups, the amount of namespace_ids in the `IN`-clause can be a few thousand IDs, and the query can time out.
 
-# Denormalize traversal_ids on issues table
+## Denormalize traversal_ids on issues table
 
 Since the bottleneck is the large IN clause, we're proposing to denormalize the hierarchy on the `issues` table. With that, we could directly query all issues within a group hierarchy, instead of providing all namespace_ids to the query.
 This approach has already shown great results as the `vulnerability_reads` table performed the [same optimization](https://gitlab.com/groups/gitlab-org/-/epics/12372).
 Noteable: The `vulnerabilities_reads` table has a similar size as the `issues` table on GitLab.com, but there is a difference in functionality. For example, the sorting options are limited, which we will need to address with specific indexes on the issues table.
 
-## Setup
+### Setup
 
 To validate the experiment, you can use the following script to backfill the `traversal_ids` column on the replica for the `gitlab-org` group:
 
@@ -314,11 +314,11 @@ $$;
 
 </details>
 
-## New queries
+### New queries
 
 There are the following cases to consider for the new queries:
 
-### User is member of the namespace or an ascendant
+#### User is member of the namespace or an ascendant
 
 When the user is a member of the namespace or an ascendant, we do not need to lookup all namespaces that the user has access to.
 We therefore can directly query the `issues` table:
@@ -413,10 +413,11 @@ LIMIT 101
 
 </details>
 
-<details><summary>[Using traversal_ids](https://explain.depesz.com/s/1kgh) (only `gitlab-org` backfill)</summary>
+<details><summary>[Using traversal_ids](https://explain.depesz.com/s/In2U) (only `gitlab-org` backfill)</summary>
 
 ```sql
-SELECT * FROM "issues"
+explain (analyze, buffers) SELECT * FROM "issues"
+LEFT JOIN project_features ON issues.project_id = project_features.project_id
 WHERE (
   NOT EXISTS (
     SELECT 1
@@ -426,33 +427,140 @@ WHERE (
 )
 AND issues.traversal_ids[1] = 9970
 AND "issues"."state_id" = 1
+AND (
+  "project_features"."issues_access_level" IS NULL
+  OR "project_features"."issues_access_level" IN (20,30)
+    OR (
+      "project_features"."issues_access_level" = 10
+      AND EXISTS (
+        SELECT 1
+        FROM "project_authorizations"
+        WHERE "project_authorizations"."user_id" = 3509693
+        AND (project_authorizations.project_id = project_features.project_id)
+        AND (project_authorizations.access_level >= 10)
+      )
+    )
+)
 ORDER BY "issues"."created_at" DESC, "issues"."id" DESC
 LIMIT 101;
 ```
 
 ```
-Limit  (cost=1.00..894.11 rows=101 width=1583) (actual time=7.198..20.279 rows=101 loops=1)
-   Buffers: shared hit=363 read=65
-   I/O Timings: shared read=19.476
-   ->  Nested Loop Anti Join  (cost=1.00..892068.20 rows=100882 width=1583) (actual time=7.197..20.265 rows=101 loops=1)
-         Buffers: shared hit=363 read=65
-         I/O Timings: shared read=19.476
-         ->  Index Scan Backward using idx_issues_on_root_namespace_id_and_created_at_and_id on issues  (cost=0.57..795435.99 rows=201764 width=1583) (actual time=5.562..11.674 rows=101 loops=1)
-               Index Cond: (traversal_ids[1] = 9970)
-               Filter: (state_id = 1)
-               Rows Removed by Filter: 35
-               Buffers: shared hit=96 read=29
-               I/O Timings: shared read=11.282
-         ->  Index Only Scan using banned_users_pkey on banned_users  (cost=0.43..0.48 rows=1 width=8) (actual time=0.084..0.084 rows=0 loops=101)
-               Index Cond: (user_id = (issues.author_id + 0))
-               Heap Fetches: 0
-               Buffers: shared hit=267 read=36
-               I/O Timings: shared read=8.194
+Limit  (cost=1.56..1278.45 rows=101 width=1680) (actual time=0.041..0.641 rows=101 loops=1)
+   Buffers: shared hit=928
+   ->  Nested Loop Left Join  (cost=1.56..1783895.93 rows=141103 width=1680) (actual time=0.041..0.633 rows=101 loops=1)
+         Filter: ((project_features.issues_access_level IS NULL) OR (project_features.issues_access_level = ANY ('{20,30}'::integer[])) OR ((project_features.issues_access_level = 10) AND (hashed SubPlan 2)))
+         Buffers: shared hit=928
+         ->  Nested Loop Anti Join  (cost=1.00..877482.26 rows=146216 width=1568) (actual time=0.023..0.380 rows=101 loops=1)
+               Buffers: shared hit=428
+               ->  Index Scan Backward using idx_issues_on_root_namespace_id_and_created_at_and_id on issues  (cost=0.57..740238.80 rows=292431 width=1568) (actual time=0.014..0.185 rows=101 loops=1)
+                     Index Cond: (traversal_ids[1] = 9970)
+                     Filter: (state_id = 1)
+                     Rows Removed by Filter: 35
+                     Buffers: shared hit=125
+               ->  Index Only Scan using banned_users_pkey on banned_users  (cost=0.43..0.47 rows=1 width=8) (actual time=0.002..0.002 rows=0 loops=101)
+                     Index Cond: (user_id = (issues.author_id + 0))
+                     Heap Fetches: 0
+                     Buffers: shared hit=303
+         ->  Index Scan using index_project_features_on_project_id on project_features  (cost=0.56..2.58 rows=1 width=112) (actual time=0.002..0.002 rows=1 loops=101)
+               Index Cond: (project_id = issues.project_id)
+               Buffers: shared hit=500
+         SubPlan 2
+           ->  Index Only Scan using project_authorizations_pkey on project_authorizations  (cost=0.58..256.14 rows=9160 width=4) (never executed)
+                 Index Cond: ((user_id = 3509693) AND (access_level >= 10))
+                 Heap Fetches: 0
  Planning:
-   Buffers: shared read=1
-   I/O Timings: shared read=0.025
- Planning Time: 0.791 ms
- Execution Time: 20.358 ms
+   Buffers: shared hit=24
+ Planning Time: 0.664 ms
+ Execution Time: 0.716 ms
+```
+
+</details>
+
+<details><summary>[Using traversal_ids for guest access](https://explain.depesz.com/s/6SV4)</summary>
+
+Guest don't have access to confidential work items, except if they are authors or assignees.
+
+```sql
+SELECT * FROM "issues"
+LEFT JOIN project_features ON issues.project_id = project_features.project_id
+LEFT JOIN issue_assignees ON (issues.id = issue_assignees.issue_id)
+WHERE (
+  NOT EXISTS (
+    SELECT 1
+    FROM "banned_users"
+    WHERE (issues.author_id + 0 = banned_users.user_id)
+  )
+)
+AND issues.traversal_ids[1] = 9970
+AND issues.state_id = 1
+AND (
+  issues.confidential = false
+  OR
+  (
+    issues.confidential = true AND (issues.author_id = 13585187 OR issue_assignees.user_id = 13585187)
+  )
+)
+AND (
+  "project_features"."issues_access_level" IS NULL
+  OR "project_features"."issues_access_level" IN (20,30)
+    OR (
+      "project_features"."issues_access_level" = 10
+      AND EXISTS (
+        SELECT 1
+        FROM "project_authorizations"
+        WHERE "project_authorizations"."user_id" = 13585187
+        AND (project_authorizations.project_id = project_features.project_id)
+        AND (project_authorizations.access_level >= 10)
+      )
+    )
+)
+ORDER BY "issues"."created_at" DESC, "issues"."id" DESC
+LIMIT 101;
+```
+
+```
+ Limit  (cost=2.13..1565.71 rows=101 width=1696) (actual time=0.645..50.128 rows=101 loops=1)
+   Buffers: shared hit=1399 read=49 dirtied=1
+   I/O Timings: shared read=47.210
+   ->  Nested Loop Left Join  (cost=2.13..2081937.74 rows=134483 width=1696) (actual time=0.643..50.104 rows=101 loops=1)
+         Filter: ((project_features.issues_access_level IS NULL) OR (project_features.issues_access_level = ANY ('{20,30}'::integer[])) OR ((project_features.issues_access_level = 10) AND (hashed SubPlan 2)))
+         Buffers: shared hit=1399 read=49 dirtied=1
+         I/O Timings: shared read=47.210
+         ->  Nested Loop Left Join  (cost=1.56..1218050.19 rows=139356 width=1584) (actual time=0.613..49.471 rows=101 loops=1)
+               Filter: ((NOT issues.confidential) OR (issues.confidential AND ((issues.author_id = 13585187) OR (issue_assignees.user_id = 13585187))))
+               Rows Removed by Filter: 17
+               Buffers: shared hit=904 read=49 dirtied=1
+               I/O Timings: shared read=47.210
+               ->  Nested Loop Anti Join  (cost=1.00..877482.26 rows=146216 width=1568) (actual time=0.034..4.765 rows=113 loops=1)
+                     Buffers: shared hit=476 read=3
+                     I/O Timings: shared read=3.829
+                     ->  Index Scan Backward using idx_issues_on_root_namespace_id_and_created_at_and_id on issues  (cost=0.57..740238.80 rows=292431 width=1568) (actual time=0.020..0.386 rows=113 loops=1)
+                           Index Cond: (traversal_ids[1] = 9970)
+                           Filter: (state_id = 1)
+                           Rows Removed by Filter: 39
+                           Buffers: shared hit=140
+                     ->  Index Only Scan using banned_users_pkey on banned_users  (cost=0.43..0.47 rows=1 width=8) (actual time=0.038..0.038 rows=0 loops=113)
+                           Index Cond: (user_id = (issues.author_id + 0))
+                           Heap Fetches: 0
+                           Buffers: shared hit=336 read=3
+                           I/O Timings: shared read=3.829
+               ->  Index Scan using issue_assignees_pkey on issue_assignees  (cost=0.56..2.31 rows=1 width=16) (actual time=0.394..0.394 rows=0 loops=113)
+                     Index Cond: (issue_id = issues.id)
+                     Buffers: shared hit=428 read=46 dirtied=1
+                     I/O Timings: shared read=43.381
+         ->  Index Scan using index_project_features_on_project_id on project_features  (cost=0.56..2.58 rows=1 width=112) (actual time=0.005..0.005 rows=1 loops=101)
+               Index Cond: (project_id = issues.project_id)
+               Buffers: shared hit=495
+         SubPlan 2
+           ->  Index Only Scan using project_authorizations_pkey on project_authorizations  (cost=0.58..256.14 rows=9160 width=4) (never executed)
+                 Index Cond: ((user_id = 13585187) AND (access_level >= 10))
+                 Heap Fetches: 0
+ Planning:
+   Buffers: shared hit=130 read=40 dirtied=1
+   I/O Timings: shared read=52.833
+ Planning Time: 58.663 ms
+ Execution Time: 50.291 ms
 ```
 
 </details>
@@ -519,7 +627,7 @@ Limit  (cost=95.76..95.78 rows=6 width=1568) (actual time=3125.088..3125.116 row
 
 </details>
 
-### User is member of a sub-group(s) or project(s)
+#### User is member of a sub-group(s) or project(s)
 
 In this case, we can't just lookup all work items within a hierarchy, but need to filter on namespaces that the user has access to.
 Initially it could be enough to keep the existing query we have to find all `namespace_ids` for a user and use the `traversal_ids` filter.
@@ -725,7 +833,7 @@ LIMIT 101
 As a future optimization, we can build the minimum `traversal_ids` for querying `namespaces`.
 For example, when a user is a member of `gitlab-org/plan-stage`, we query all work items for `gitlab-org` where the visibility level:
 
-### User is not a member or signed out
+#### User is not a member or signed out
 
 When a user is not a member of any of the namespaces within the hierarchy or signed out, we can filter for all namespaces that are public:
 
@@ -790,9 +898,9 @@ LIMIT 101;
 
 </details>
 
-## Indexes
+### Indexes
 
-### Top-level group index
+#### Top-level group index
 
 To support querying work items on large top-level groups and ordering, we're adding a BTREE index on the root of every `traversal_ids`.
 This is especially helpful to support all of our sorting options that we offer.
@@ -801,7 +909,7 @@ This is especially helpful to support all of our sorting options that we offer.
 CREATE INDEX idx_issues_on_root_namespace_id_and_created_at_and_id ON issues ((traversal_ids[1]), created_at, id);
 ```
 
-### Index on traversal_ids
+#### Index on traversal_ids
 
 To optimize querying specific sub-groups, we add a GIN index on `traversal_ids`. This is a trade-off to optimize querying for
 all work items within that sub-group and being forced to sort in memory sort due to the nature of GIN indexes.
@@ -810,9 +918,9 @@ all work items within that sub-group and being forced to sort in memory sort due
 CREATE INDEX idx_issues_on_traversal_ids ON issues USING gin (traversal_ids);
 ```
 
-## Concerns
+### Concerns
 
-### Traversal ID column storage
+#### Traversal ID column storage
 
 There is overhead of storing the `traversal_ids`. Based on the size of the backfill on `gitlab-org` we can estimate the total size:
 
@@ -836,7 +944,7 @@ filtered_column_size_pretty
 30 MB
 ```
 
-### Index storage
+#### Index storage
 
 The size of the indexes for the backfilled `gitlab-org` column are:
 
@@ -859,7 +967,7 @@ ORDER BY
  idx_issues_on_traversal_ids                           | 125 MB     |
 ```
 
-### Index per sorting option
+#### Index per sorting option
 
 In addition to the BTREE index above that is a compound index on `traversal_ids[1]` and `created_at` for sorting, we are looking to also add an index
 for the following sorting options:
@@ -869,7 +977,7 @@ for the following sorting options:
 -   `state_id`
 -   `work_item_type_id`
 
-## Effort of introducing traversal_ids
+### Effort of introducing traversal_ids
 
 While the overhead mentioned above are concerns in regards to the storage size of an already large table, there is also the concern to correctly
 set the `traversal_ids` on creation and keep the `traversal_ids` in sync when moving issues between projects.
@@ -878,16 +986,16 @@ This is a significant investment, but we lack alternatives to keep queries on Po
 Based on the Security Insights team's rollout, we can [estimate around 3 milestones](https://gitlab.com/groups/gitlab-org/-/epics/12372) for this work. Although most of the time
 is waiting for backfill migrations to finish and our required stops to pass.
 
-### Delay of syncing traversal_ids on move
+#### Delay of syncing traversal_ids on move
 
 When moving issues from one namespace to another, we need to update all of the `traversal_ids`. This means that there is a timeframe where issues would not show up as this is done
 in a background job. Based on the Workers for updating `vulnerability_reads`, the P95 execution time of these jobs is within an acceptable range (<3 seconds) [[0](https://log.gprd.gitlab.net/app/lens?_g=%28filters%3A%21%28%28%27%24state%27%3A%28store%3AappState%29%2Cmeta%3A%28alias%3A%21n%2Cdisabled%3A%21f%2Cindex%3AAWNABDRwNDuQHTm2tH6l%2Ckey%3Ajson.class%2Cnegate%3A%21f%2Cparams%3A%28query%3A%27Sbom%3A%3ASyncProjectTraversalIdsWorker%27%29%2Ctype%3Aphrase%29%2Cquery%3A%28match_phrase%3A%28json.class%3A%27Sbom%3A%3ASyncProjectTraversalIdsWorker%27%29%29%29%2C%28%27%24state%27%3A%28store%3AappState%29%2Cmeta%3A%28alias%3A%21n%2Cdisabled%3A%21f%2Cindex%3AAWNABDRwNDuQHTm2tH6l%2Ckey%3Ajson.job_status.keyword%2Cnegate%3A%21f%2Cparams%3A%28query%3Adone%29%2Ctype%3Aphrase%29%2Cquery%3A%28match_phrase%3A%28json.job_status.keyword%3Adone%29%29%29%29%2Ctime%3A%28from%3Anow-1w%2Cto%3Anow%29%29#/?_g=h@97e8101)], [1](https://log.gprd.gitlab.net/app/lens?_g=%28filters%3A%21%28%28%27%24state%27%3A%28store%3AappState%29%2Cmeta%3A%28alias%3A%21n%2Cdisabled%3A%21f%2Cindex%3AAWNABDRwNDuQHTm2tH6l%2Ckey%3Ajson.class%2Cnegate%3A%21f%2Cparams%3A%28query%3A%27Vulnerabilities%3A%3AUpdateNamespaceIdsOfVulnerabilityReadsWorker%27%29%2Ctype%3Aphrase%29%2Cquery%3A%28match_phrase%3A%28json.class%3A%27Vulnerabilities%3A%3AUpdateNamespaceIdsOfVulnerabilityReadsWorker%27%29%29%29%2C%28%27%24state%27%3A%28store%3AappState%29%2Cmeta%3A%28alias%3A%21n%2Cdisabled%3A%21f%2Cindex%3AAWNABDRwNDuQHTm2tH6l%2Ckey%3Ajson.job_status.keyword%2Cnegate%3A%21f%2Cparams%3A%28query%3Adone%29%2Ctype%3Aphrase%29%2Cquery%3A%28match_phrase%3A%28json.job_status.keyword%3Adone%29%29%29%29%2Ctime%3A%28from%3Anow-1w%2Cto%3Anow%29%29#/?_g=h@97e8101)]
 
-## Implementation plan
+### Implementation plan
 
 TODO
 
-## Elasticsearch for GitLab.com and SM instances
+### Elasticsearch for GitLab.com and SM instances
 
 Elasticsearch is a more suitable database for our use-case and we already denormalized the `traversal_ids` on `issues` there.
 With the proposal of [Advanced Finders](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/12300/) which can use ElasticSearch as a backend, it would be an option for large GitLab instances.
