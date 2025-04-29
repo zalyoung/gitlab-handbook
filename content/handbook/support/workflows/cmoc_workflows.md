@@ -234,7 +234,7 @@ The CMOC now needs to notify internal stakeholders of the incident using the Inc
 This workflow, once used, will ask you to fill out a form with details of the incident and will then post those details to `#developer-relations` and `#customer-success`. This serves to notify those teams of the incident. To engage the workflow:
 
 1. Within the `#support_gitlab-com` channel, type `/` in the message box to bring up the list of available workflows and select the `Incident Notifier` workflow.
-1. Fill in the following details that are shared in the #incident-management channel
+1. Fill in the following details that are shared in the #incidents-dotcom channel
    - **Summary**: Brief summary, you can make it the same as the CMOC notice.
    - **Severity**: Select the same severity as the Incident.
    - **Production issue**: Link to the incident issue. eg: `https://gitlab.com/gitlab-com/gl-infra/production/-/issues/12345`
