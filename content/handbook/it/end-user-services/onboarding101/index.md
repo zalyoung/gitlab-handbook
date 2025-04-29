@@ -136,6 +136,13 @@ If you do not see those applications, please check [this guide](https://internal
 
 ## Laptop Setup: Linux
 
+### Step 1: Activate Your Okta Account and Access Gmail
+
+1. On your laptop (personal or GitLab owned), check your personal email for an Okta activation email.
+2. Click the link in the email to set your password.
+3. After setting your password, your browser will redirect to the Okta Dashboard.
+4. Click on Gmail, open your onboarding issue email and access your GitLab Onboarding issue.
+
 Check out [this page](/handbook/tools-and-tips/linux/) on setting up your Linux laptop. Also feel free to reach out in #Linux slack channel or #it_help for assistance!
 
 Our Linux MDM is FleetDM. Please review [this page](https://internal.gitlab.com/handbook/security/corporate/tooling/fleet/#enrolling-in-fleet) for instructions on enrolling your system in Fleet.
