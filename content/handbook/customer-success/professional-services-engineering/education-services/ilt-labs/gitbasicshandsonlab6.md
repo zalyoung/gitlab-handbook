@@ -1,31 +1,126 @@
 ---
-title: "GitLab Fundamentals - Hands-On Lab: Analytics"
-description: "This Hands-On Guide walks you through the process of viewing analytics in GitLab."
+title: "GitLab Fundamentals - Hands-On Lab: Implementing Security Scanners"
+description: "This Hands-On Guide walks you through the process of adding security scanners to your CI/CD process."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-The goal of this lab is to get an overview of the different analytics available to you in GitLab.
+This lab uses SAST, an optional feature in CI/CD pipelines, to identify security vulnerabilities in your code. GitLab's Vulnerability Report then shows any old or new vulnerabilities found with each pipeline run. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/application_security/sast/).
 
-## Task A. Viewing your analytics
+## Task A. Finding the SAST Component
 
-To start, navigate to your `Cool App QA` project.
+GitLab provides a variety of CI/CD components, which are prebuilt CI/CD configurations you can include in your projects. To view all of the available components on your GitLab instance:
 
-1. In the left sidebar, select **Analyze > Analytics Dashboard**.
+1. In the left sidebar, select **Search or go to**.
 
-1. Select **Value Streams Dashboard**.
+1. In the resulting dialog, select **Explore**.
 
-In this report, you will see a variety of analytic details about your current project. Some details you may see populated here after the previous labs are: Merge request throughput, and Median time to merge.
+1. In the left sidebar, select **CI/CD Catalog**. This will show you a list of all of the CI/CD catalog items available in your GitLab instance. For this lab, you will be adding SAST to your project. Select the SAST component.
 
-1. In the left sidebar, select **Analyze > CI/CD Analytics**.
+When you select a CI/CD component, you will see a `Readme`, which describes how to use the component, as well as configuration options for the component. For the SAST component, you will see that it can be included using the following code:
 
-In this report, you will see details about your Ci/CD pipelines. Here you can see how many pipelines have run in your project, the duration of the pipelines, and failure rates of pipelines.
+```yaml
+include:
+  - component: ilt.gitlabtraining.cloud/components/sast/sast@<VERSION>
+```
 
-1. Take some time to explore the other analytics reports available. Review any insights that seem interesting!
+Let’s add this to our CI/CD file.
 
-It's important to note here that you can also view analytics at a group level. To do this, navigate to your **QA** group. In the left sidebar, you can select **Analyze** and see similar reports for everything contained in a group.
+## Task B. Adding the SAST component
+
+1. Navigate to your CI/CD project by clicking on the Tanuki logo in the top left corner of the page, then click on your `Cool App QA` project.
+
+1. In the left sidebar, select **Code > Branches**.
+
+1. Select the `initial-code` branch.
+
+1. Select your `.gitlab-ci.yml` file.
+
+1. Select **Edit > Edit in Pipeline Editor**.
+
+1. At the top of your file, below the image, add the SAST import at version main.
+
+```yaml
+include:
+  - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+```
+
+1. In the stages section of the file, add a stage named `test`, as shown below:
+
+    ```yaml
+    stages:
+      - build
+      - test
+    ```
+
+    After making these changes, your file will look like this:
+
+      ```yaml
+      include:
+        - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+
+      default:
+        image: golang
+
+      stages:
+        - build
+        - test
+
+      build go:
+        stage: build
+        script:
+          - go build
+      ```
+
+1. Ensure that your **Branch** is set to `initial-code`. Select **Commit changes**.
+
+1. After committing your changes, in the left sidebar, navigate to the **Build > Pipelines**. 
+
+1. Select the most recent pipeline.
+
+1. You will now see a new job named *semgrep-sast*. This job is the security scan imported using the `include` keyword.
+
+## Task C. Add `run.py` and review SAST scanning results
+
+In this task, you'll add a file with known vulnerabilities and see if SAST detects it.
+
+1. Return to the **Project overview** page by clicking on the name of your project in the breadcrumbs section.
+
+1. At the top of the project landing page, to the right of the branch dropdown, click **(+) > This directory > New file**.
+
+1. For the **File name** field, type in `run.py`.
+
+1. Copy the content below into the file:
+
+    ```python
+    import subprocess
+
+    in = input("Enter your server ip: ")
+    subprocess.run(["ping", in])
+
+    print("Attempting to connect to the server")
+    print("Application authentication was successful")
+    ```
+
+1. Add an appropriate **Commit message**.
+
+1. Set the **Target Branch** to `main`.
+
+1. Click the **Commit changes** button.
+
+1. In the left-hand navigation pane, click **Build> Pipelines**.
+
+1. At the top of the row of the table of pipelines, click on the **running** (if it is still running) or **passed** (if the pipeline has been completed) status labels.
+
+    > The SAST scan may take a few moments, so feel free to grab a cup of coffee while you wait.
+
+1. When the pipeline finishes, in the left navigation pane, click on **Secure > Vulnerability report**.
+
+1. Click any of the vulnerabilities and read about a potential security problem detected by SAST scanning in `run.py`.
+
+1. Feel free to edit the code to fix the issue raised (such as removing the `subprocess.run` command), and commit the changes. Does the vulnerability report still note the issue as present?
 
 ## Lab Guide Complete
 

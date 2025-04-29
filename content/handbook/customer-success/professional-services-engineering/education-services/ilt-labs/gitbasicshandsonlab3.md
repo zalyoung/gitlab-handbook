@@ -1,71 +1,83 @@
 ---
-title: "GitLab Fundamentals - Hands-On Lab: Collaboration and Code Review"
-description: "This Hands-On Guide walks you through collaborating on changes and creating code reviews."
+title: "GitLab Fundamentals - Hands-On Lab: Project Management with Issues and Boards"
+description: "This Hands-On Guide walks you through the process of working with issues in GitLab."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-In this lab, we will explore the process of creating and merging a merge request
+The goal of this lab is to get an overview of the different plan features available in GitLab, including epics and issue boards.
 
-## Task A. Creating a merge request
+## Task A. Defining an epic
 
-In the last lab, you created a new branch called **test-commit**. In this section, we will create a merge request to merge the changes from this branch into our main branch.
+An epic is created at a group level and defines larger sets of work on a project. To create an epic:
 
-1. Navigate to your `Cool App QA` project.
+1. Navigate to your **QA** group.
 
-1. In the left sidebar, select **Code > Branches**.
+1. In the left sidebar, select **Plan > Epics**. 
 
-1. In the **test-commit** row, select **New**.
+1. Select **New epic**.
 
-1. In the **Title** field, enter the title **Merging new file to main**.
+1. For the title, enter `My first epic`.
 
-1. Check the box **Mark as draft**. This will mark the Merge Request as a draft, and prevent it from being merged until the Draft status is removed.
+1. Enter any description you like and select **Create epic**.
 
-1. In **Description**, enter any description you would like. 
+1. Select `My first epic`. 
 
-1. In **Assignees**, select **Assign to me**.
+In this view, you will see details on your epic. Similar to issues, epics can contain child items and linked items, as well as activity related to the epic. In the right sidebar, there is metadata for the epic, including labs, health status, parent, and time tracking.
 
-1. Leave all other options as default and select **Create merge request**.
+## Task C. Defining a milestone
 
-After selecting **Create merge request**, you will be redirected to the merge request page. Let's explore this page in more detail.
+A milestone represents a set of work being completed over a fixed time period. A milestone can contain both epics and issues. To create a milestone:
 
-## Task B. Exploring the merge request
+1. Navigate to your `QA` group.
 
-On the main merge request page, you will four tabs available:
+1. In the left sidebar, select **Plan > Milestones**. 
 
-* **Overview**, which shows an overview of the merge request, including approvals, merge request status, **Activity**, and a comment area to add comments to a merge request.
+1. Select **New milestone**.
 
-* **Commits**, which shows all of the commits that are part of the current merge request.
+1. In the title, enter `My first milestone`. 
 
-* **Pipelines**, which shows any CI/CD pipelines associated with a merge request.
+1. Enter any **Start Date** and **Due Date** you would like.
 
-* **Changes**, which shows a differential of the changes associated with the merge request.
+1. Input any **Description**, then select **Create milestone**.
 
-Return to the **Overview** tab. In this tab, there are a few important details to note:
+Next, we need to assign issues to the milestone.
 
-1. In the right sidebar, you will see details about your merge request. The merge request is currently assigned to you, meaning you are the one currently working on the merge request contents.
+1. In the left sidebar, select **Plan > Issues**.
 
-* The **Reviewers** section shows any reviewers that have been assigned to a merge request. Currently this is empty, since approval is optional. 
+1. Select `First issue`. 
 
-* **Labels** allows you to add organizational labels to a merge request to keep track of it in context of other related work.
+1. In the right sidebar, select **Edit** next to **Milestone**.
 
-* **Milestone** allows you to associate a milestone to a merge request
+1. Select `My first milestone` from the resulting dropdown.
 
-* **Time Tracking** lets you track time against a merge request.
+1. Select `My first milestone` in the right sidebar to be redirected back to the milestone.
 
-* **Participants** shows everyone who has commented or committed for a merge request. 
+You will now see all issues related to the milestone, along with burndown and burnup charts for the milestone dates provided.
 
-In the center of the screen, you will see a message stating **Merge blocked**. In this section, you can see any issues preventing your code from being merged into main. Anything from failed pipelines to security scan results can block a merge request, depending on your configuration. Currently, the reason to request is blocked is stated below: "Merge request must not be a draft". Let's fix this issue.
+## Task D. Issue boards
 
-1. Click **Mark as ready** in the **Merge blocked** block. If you do not see the **Mark as ready** option, click on the arrow to the right of the **Merge blocked** block to expand it.
+To help with viewing issues and epics in a singular place, you can utilize issue and epic boards. To start:
 
-1. Select **Merge**.
+1. Navigate to the `QA` group.
 
-1. Once the merge completes, in the left sidebar, select **Code > Repositories**. 
+1. In the left sidebar, select **Plan > Issue boards**.
 
-You will now see your new file in the **main** branch of your code repository.
+    > In this view, you will see all your issues associated with their statuses.
+
+1. We are going to create a new list to store our issues that are associated with us. Click the **New List** button on the right.
+
+1. Select *Assignee**, then select your username. 
+
+1. Select **Add to board**.
+
+1. You should see your issue you created before in the 'Open' list. Click and drag the issue from the 'Open' list to the list with your username.
+
+1. Click on the issue. You should see that you have been automatically assigned to the issue.
+
+It is possible to further customize issue boards to display different sets of information depending on your requirements. For more details on issue boards, check out the [documentation](https://docs.gitlab.com/ee/user/project/issue_board.html).
 
 ## Lab Guide Complete
 
