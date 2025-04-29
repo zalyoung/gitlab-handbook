@@ -1,7 +1,7 @@
 ---
 title: Product Customer Advisory Board
 description: >-
-  This is the process for quarterly customer advisory board meeting, specific to the Product / R&D Org. This process is revisited on an annual basis and aligns with the [broader company process focused on customer advocacy](/https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). 
+  This is the process for quarterly customer advisory board meeting, specific to the Product / R&D Org. This process is revisited on an annual basis and aligns with the [broader company process focused on customer advocacy](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). 
 ---
 
 ## Product Customer Advisory Board Charter
