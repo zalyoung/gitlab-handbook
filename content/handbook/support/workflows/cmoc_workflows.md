@@ -88,7 +88,7 @@ Use the following table as a **guideline**. If there aren't any material updates
 - *Some users are reporting connection issues to GitLab.com, we're working on it in: link*
 - Craft a draft of what you think is correct. Whenever possible use ["I intend to..." language](https://www.youtube.com/watch?v=7KnPjakwqeI) when communicating with the IM and EOC:
 
-  - *@IM - I'm going to post: "We've isolated the network problem to the APAC region and are working with Cloudflare support to get it resolved*.
+  - *@incident-manager - I'm going to post: "We've isolated the network problem to the APAC region and are working with Cloudflare support to get it resolved*.
   - *"In my next update I'm going to move the status to monitoring"*
 - Bias to action - you can post another update if there was an error in your last update.
 
