@@ -67,7 +67,3 @@ Use this when you have already obtained gratis support (following one of the abo
 ### a support leadership approved situation not covered by the above
 
 Use this **only** when you have already negotiated a specific situation with Customer Support leadership team, and already have approval to make the request for gratis support. To discuss such a situation, post in `#support_leadership`.
-
-## Further Reading
-
-- [Support Operations workflow handbook page for gratis support](/handbook/support/readiness/operations/docs/policies/gratis_support/)

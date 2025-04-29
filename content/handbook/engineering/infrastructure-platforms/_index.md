@@ -60,7 +60,7 @@ flowchart LR
     PRODENG --> Ops
     click Ops "/handbook/engineering/infrastructure/team/ops/"
     PRODENG --> Foundations
-    click Foundations "/handbook/engineering/infrastructure-platforms/production-enginering/foundations/"
+    click Foundations "/handbook/engineering/infrastructure-platforms/production-engineering/foundations/"
     PRODENG --> Observability
     click Observability "/handbook/engineering/infrastructure-platforms/production-engineering/observability/"
     PRODENG --> Runway
@@ -90,7 +90,7 @@ flowchart LR
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
     SD --> B[Build]
-    click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    click B "/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/"
     SD --> Framework
     click Framework "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> R[Release]

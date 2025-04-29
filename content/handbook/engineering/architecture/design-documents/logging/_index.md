@@ -1,6 +1,11 @@
 ---
 title: "Logging Blueprint for GitLab"
-toc_hide: true
+status: ongoing
+creation-date: "2024-07-22"
+authors: [ "@stejacks-gitlab" ]
+approvers: [ "@lmcandrew" ]
+owning-stage: "~team::Observablity"
+toc_hide: false
 ---
 
 {{< design-document-header >}}

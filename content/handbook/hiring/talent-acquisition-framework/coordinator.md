@@ -380,8 +380,8 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
-| GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster|
+| GitLab BV, Netherlands | Marissa Farris, Jake Foster|
 | GitLab Canada Corp | Simon Mundy |
 | GitLab France S.A.S. | Jake Foster, Rob Allen |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
@@ -389,7 +389,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen. Backups: Jim Gladen & Simon Mundy |
 | GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors |
 | GitLab Israel LTD | Jim Gladen, Simon Mundy|
-| GitLab IT BV | Marissa Farris, Pattie Egan, Jake Foster, Jack Connors |
+| GitLab IT BV | Marissa Farris, Jake Foster, Jack Connors |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
@@ -1011,7 +1011,7 @@ The process for creating and sending an agreement is as follows:
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, Sweden, Luxembourg and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 

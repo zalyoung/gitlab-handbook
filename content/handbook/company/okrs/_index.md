@@ -13,7 +13,7 @@ This page generally covers OKRs _at_ GitLab, including:
 
 There is additional information on:
 
-1. What OKRs are, and general guidance on how to forumlate them, on [the general OKRs page](okrs-basics.md).
+1. What OKRs are, and general guidance on how to formulate them, on [the general OKRs page](okrs-basics.md).
 1. How to enter and organize OKRs in GitLab, on [the OKRs in GitLab page](okrs-in-gitlab.md).
 
 ## Overview
@@ -22,7 +22,7 @@ There is additional information on:
 
 We do not use it to [give performance feedback](/handbook/people-group/360-feedback/) or as a [compensation review](/handbook/total-rewards/compensation/) for team members.
 
-The [E-Group](/handbook/company/structure/#e-group) does use it for their [Performance Enablement Reviews](/handbook/people-group/learning-and-development/career-development/#performance-enablement-review).
+The [E-Group](/handbook/company/structure/#e-group) does use it for their [Performance Enablement Reviews](/handbook/people-group/learning-and-development/career-development/#e-group-performance-enablement-review).
 
 The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) initiates and guides the OKR process.
 
@@ -51,7 +51,7 @@ Since OKRs create progress for our [Yearlies](/handbook/company/yearlies/), by a
 
 OKRs are our quarterly priorities that create progress toward our [Yearlies](/handbook/company/yearlies/), which are our annual company goals. Since OKRs create progress for yearlies, OKRs are aligned to one of the yearlies.
 
-OKRs are directly aligned to yearlies and not directly aligned to one of the three pillars of the [three year strategy](/handbook/company/strategy/#three-year-strategy).
+OKRs are directly aligned to yearlies and not directly aligned to one of the three pillars of the [three year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/).
 
 ## OKRs are what is different
 

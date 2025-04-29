@@ -61,7 +61,7 @@ graph TD
 
 ### Individual contributors
 
-The following people are members of the [Development Analytics group](development-analytics/):
+The following people are members of the [Development Analytics group](development-analytics):
 
 {{< team-by-manager-slug "ghosh-abhinaba" >}}
 
@@ -79,4 +79,4 @@ The following people are members of the [Performance Enablement group](performan
 
 The following people are members of the [Test Governance group](test-governance):
 
-{{< team-by-manager-slug "kkolpakova" >}}
+{{< team-by-manager-slug "amyphillips" >}}

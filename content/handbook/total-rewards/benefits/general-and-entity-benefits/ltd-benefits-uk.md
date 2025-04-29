@@ -96,6 +96,8 @@ Team Members are automatically enrolled in to the pension benefit of **4x basic 
 
 To designate a beneficiary for this benefit, please complete the [Expression of Wish Form](https://docs.google.com/document/d/1L5PFNeeZPmC5CArxrm7YX8W4BwKzdLFo/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) and send the completed form to the Total Rewards Team.
 
+Unum Life Insurance policyholders have access to a range of support services including Cancer Assist — in-the-moment, personalised guidance from cancer experts Reframe. For more information see [Unum’s Life Wellbeing Checklist](https://drive.google.com/file/d/1TGOquhebJ8A37aBNkaiPch0r8-s7sMp_/view?usp=sharing)
+
 See additional details on the [Life Insurance Policy](https://drive.google.com/file/d/1wS3XP7C9N64iistpsYPUiD709nTkutvt/view?usp=sharing).
 
 ### Employee Assistance Program (EAP)
@@ -119,6 +121,8 @@ New Team Members should expect an enrollment email from Help@Hand the first week
 Income Protection provides financial support if you're unable to work due to illness or injury for a specified length of time, and aims to help you, your family and others who depend on the money you earn. GitLab's policy with Unum will help us to ensure you receive a percentage of your income if you can't work because of illness or injury. It also includes direct access to expert Vocational Rehabilitation Consultants who can support you while you're off and ease your return to work. See more details on the [Income Protection Policy](https://drive.google.com/file/d/1G-3vu-zO38OGAZNcZS9mc-DwCm9laOaC/view?usp=sharing). Please see the [Income Protection User Guide](https://drive.google.com/file/d/1GGLFrzJRUCD7OM41O4F7kNyCqkuBHsyt/view?usp=sharing)
 
 All team members (between age 16 and State Pension Age) are automatically enrolled in Income Protection of **66% of base salary up to the Free Cover Limit payable after you've been absent for 13 weeks** effective as of the date of hire. Employees with a base salary of £226,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover.
+
+Group Income Protection (GIP) from Unum provides a unique combination of expert wellbeing, absence management and in-house vocational rehabilitation services. Please see [GIP Wellbeing](https://drive.google.com/file/d/1OQrgdm-q57-lHiowX6tdww8SbF_sx9gV/view?usp=sharing). Checklist detailing Unum’s holistic suite of support services.
 
 Please reach out to Total Rewards for information on how to use your Income Protection benefit with Unum. Payments are made exactly like your salary, and tax and National Insurance contributions are deducted in the usual way. If you are absent due to illness or injury on the day your cover or an increase in cover is due to begin, you may not be eligible until you return to active work in your usual role.
 
@@ -209,7 +213,7 @@ The certification level that has been chosen is **basic salary** only and will n
   - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
-- You may increase the contribution percentage you pay by contacting Non US Payroll team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352). Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
+- You may increase the contribution percentage you pay by contacting Non US Payroll team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352). Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2025/2026 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
@@ -429,6 +433,30 @@ To apply for Adoption Leave:
   - The entitlement is per child up to the age of 18, regardless of the person's employer.
   - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
   - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
+
+#### Statutory Neonatal Care Leave and Pay (SNCL&P)
+
+New right to neonatal care leave and pay beginning April 6, 2025.
+
+**Neonatal Care Leave (NCL)** will apply to parents of babies who are admitted into neonatal care up to 28 days old and who have a continuous stay in hospital of 7 full days or longer. These measures will allow eligible parents to take up to 12 weeks of leave (and, if eligible, pay) on top of any other leave they may be entitled to, including maternity and paternity leave. The leave must be taken within 68 weeks of your baby's birth. Neonatal Care Leave is a day-one right.
+ 
+There are two tiers of Neonatal Care Leave:
+**Tier 1:** Available when the child is in neo-natal care, and the first week after their release. The leave must be taken in 7 continuous day blocks. Overlap with a pre-booked parental leave, the SNCL can be paused to allow the other parental leave to be taken. Team members must provide notice to their employer as soon as reasonably practicable.
+
+**Tier 2:** Available from the second week following their release, up to 68 weeks following the child’s birth. Taken as a single block, as this leave is taken when the child is out of neo-natal care and can be planned. Team members wanting to take one week SNCL&P will need to give two weeks and one days' notice in advance.
+
+**Neonatal Care Pay (NCP)** is available to eligible employed parents who will be able to claim up to 12 weeks of NCP.
+To be eligible, team members must:
+
+- Have at least 26 weeks of continuous service with their employer and, 
+- Meet the minimum earnings threshold  (Your average gross weekly earnings must be at least equal to the lower earnings limit, for April 2024-25, this is £123 per week.)
+
+Eligible team members will receive the lower of:
+
+- Standard rate £187.18
+- Or 90% of their average weekly earnings
+
+[GitLab’s Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) policy will run concurrently with NCL and NCP topping up the statutory pay to 100% regular salary.
 
 ### Other Job-Protected Leave
 

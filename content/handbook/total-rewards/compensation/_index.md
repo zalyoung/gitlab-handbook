@@ -120,7 +120,7 @@ Effective Q2 of FY 2021, we have established a one time bonus payment process fo
 
 - For an interim role to be considered, the need for coverage would need to be longer than a 30 day time period.
 - The interim role has to be at a higher level than the current role of the team member.
-  - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) and leader of the group.
+  - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) and leader of the group.
   - Effective 2023-02-01, interim bonuses in Go-to-Market roles (CRO Organization, Sales Development) will be available to people managers temporarily occupying a lateral or higher management position **in addition to their permanent full time role.**
 - In case the interim role is within another job family, team members will also be eligible for the interim compensation on a lateral level.
 
@@ -217,7 +217,11 @@ All [one-time bonuses](/handbook/total-rewards/incentives/) including Discretion
 
 ### Not paid in your local currency
 
-Team members contracted through CXC or IT BV may have the option to choose to be paid in USD or EUR when there is volatility in their local currency. This change can only be made once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. This change will be made according to the conversion from local currency to USD or EUR at the time of the update. All future salary adjustments will be made based on the new salary regardless of fluctuations to local currency in order to provide a stable experience to team members who opt into this.
+Team members contracted through CXC or IT BV may have the option to be paid in USD or EUR when there is volatility in their local currency. This change can be made only once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. 
+
+The conversion from local currency to USD or EUR will be calculated at the time of the update. All future salary adjustments will be based on the new currency amount, regardless of fluctuations in the local currency. This provides stable compensation for team members who opt into this arrangement.
+
+If a team member is currently paid in a non-local currency, they may request to move back to their local currency. Once a team member has requested to move back to their local currency, this decision will be final.
 
 Please reach out to People Connect in order to understand if you are eligible to update your currency to USD or EUR and to initiate this process.
 

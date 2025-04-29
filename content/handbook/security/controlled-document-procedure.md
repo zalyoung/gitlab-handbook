@@ -59,7 +59,7 @@ Most controlled documents will be published to our public facing [handbook](/). 
 
 #### Handbook header
 
-Controlled documents require a [handbook frontmatter attribute for controlled documents](/docs/frontmatter/) to classify them. This attribute also renders a warning header.
+Controlled documents require a [handbook frontmatter attribute for controlled documents](http://handbook.gitlab.com/docs/frontmatter/) to classify them. This attribute also renders a warning header.
 
 ### Review
 

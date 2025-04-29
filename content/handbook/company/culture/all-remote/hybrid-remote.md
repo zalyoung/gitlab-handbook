@@ -19,7 +19,7 @@ Hybrid-remote (which can be referred to as part-remote), is [different than all-
 
 Hybrid-remote is currently more common than all-remote, as it is easier for large, established companies to implement. In a hybrid-remote scenario, there is one or more offices where a subset of the company commutes to each day — working physically in the same space — paired with a subset of the company that works remotely.
 
-These institutions are primarily colocated, but allow remote work. The day-to-day workplace experience for remote-by-default individuals is vastly different (and [typically inferior](/handbook/company/culture/all-remote/hybrid-remote/)) in a hybrid organization vs. an all-remote organization.
+These institutions are primarily colocated, but allow remote work. The day-to-day workplace experience for remote-by-default individuals is vastly different (and [typically inferior](hybrid-remote/)) in a hybrid organization vs. an all-remote organization.
 
 {{< youtube "QFbrPR0jAYs?start=3" >}}
 
@@ -115,7 +115,7 @@ Leaders should reinforce a particular rigor on documenting takeaways following i
 
 ### Redesigned spaces for individual hybrid-remote meeting rooms
 
-Hybrid calls are [suboptimal for remote attendees](meetings/#avoid-hybrid-calls). Leaders transitioning to hybrid-remote should consider redesigning existing office space to optimize for individual workspaces and individual meeting rooms. This reinforces that the office is simply [another venue to work remotely from](/handbook/company/culture/all-remote/how-to-work-remote-first/#offices-are-simply-venues-to-work-remotely-from).
+Hybrid calls are [suboptimal for remote attendees](meetings/#7-avoid-hybrid-calls). Leaders transitioning to hybrid-remote should consider redesigning existing office space to optimize for individual workspaces and individual meeting rooms. This reinforces that the office is simply [another venue to work remotely from](how-to-work-remote-first/#offices-are-simply-venues-to-work-remotely-from).
 
 Eliminating conference rooms serves as a forcing function to ensure collaboration is accessible to all and removes the temptation to have in-office team members gather around a single camera for a video call with remote attendees.
 
@@ -125,9 +125,9 @@ Zoom is creating in-office videocall solutions which detect individual faces in 
 
 ### Agendas upfront
 
-The most functional hybrid organizations operate [remote-first](/handbook/company/culture/all-remote/how-to-work-remote-first/). This ensures that business continues even if 100% of the workforce opts to work remotely, outside of the office, on any given day. A key part of reinforcing this mindset is a mandate that all work meetings have an upfront agenda.
+The most functional hybrid organizations operate [remote-first](how-to-work-remote-first/). This ensures that business continues even if 100% of the workforce opts to work remotely, outside of the office, on any given day. A key part of reinforcing this mindset is a mandate that all work meetings have an upfront agenda.
 
-Practically speaking, this means that all in-office meeting invites have a shared agenda document attached, so that others can read, learn, and contribute regardless of their location (or even if they're awake and available during the meeting time). This process ensures that a [Live Doc Meeting](/handbook/company/culture/all-remote/live-doc-meetings/) procedure happens even for onsite meetings.
+Practically speaking, this means that all in-office meeting invites have a shared agenda document attached, so that others can read, learn, and contribute regardless of their location (or even if they're awake and available during the meeting time). This process ensures that a [Live Doc Meeting](live-doc-meetings/) procedure happens even for onsite meetings.
 
 This is critical for process continuity regardless of where a team member is. In a hybrid organization, you will have team members who conduct onsite meetings some days, and remote meetings on other days. It's vital that the *process* of those meetings are the same; it's merely the physical position of a team member that changes.
 
@@ -236,7 +236,7 @@ A hybrid-remote schedule is often asynchronous, allowing an individual to [choos
 
 They can also [set up and decorate an office or workspace](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/) in whatever way [works best for them](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/).
 
-And of course, a hybrid schedule allows more flexibility for [traveling while working](/handbook/company/culture/all-remote/working-while-traveling/).
+And of course, a hybrid schedule allows more flexibility for [traveling while working](working-while-traveling/).
 
 ### Reduce exposure to illness
 
@@ -320,7 +320,7 @@ If you're considering working for a remote-first company, consider asking the fo
 1. Does the executive team work remotely, or do they all congregate in the same physical space day-to-day?
 1. Where and how are all-hands calls handled?
 1. Are interviews and onboarding handled on-premise or via video call?
-1. Do team members have [hybrid calls](/handbook/communication/#hybrid-calls-are-horrible), or does each person have their own equipment?
+1. Do team members have [hybrid calls](/handbook/communication/#hybrid-calls-are-annoying), or does each person have their own equipment?
 1. What procedures are in place to ensure that remote employees are granted [learning and development](learning-and-development/) and promotion opportunities?
 
 It is possible to find remote-first companies with a healthy, understanding culture that works to support both colocated and remote colleagues. Prospective employees should do their own due diligence to make sure the requisite values are established and lived out.
@@ -333,7 +333,7 @@ Anyone can test their knowledge on Understanding a Hybrid-Remote Environment by 
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

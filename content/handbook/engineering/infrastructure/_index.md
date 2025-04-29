@@ -90,7 +90,7 @@ flowchart LR
     click TG "/handbook/engineering/infrastructure-platforms/developer-experience/test-governance/"
 
     PE --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
+    click CC "/handbook/engineering/infrastructure/team/cloud-connector/"
     PE --> Foundations
     click Foundations "/handbook/engineering/infrastructure-platforms/production-engineering/foundations/"
     PE --> Observability
@@ -101,9 +101,9 @@ flowchart LR
     click Ops "/handbook/engineering/infrastructure/team/runway/"
 
     SD --> DB[Build]
-    click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    click DB "/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/"
     SD --> DD[Deploy]
-    click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    click DD "/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/"
     SD --> FR[Framework]
     click FR "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> RE[Releases]

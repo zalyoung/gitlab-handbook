@@ -30,7 +30,7 @@ When writing objectives and key results focus on what you want to accomplish (th
 
 To learn about the industry best practices for OKRs, how setting the right goals can mean the difference between success and failure, and how we can use OKRs to hold our leaders and ourselves accountable, watch [John Doerr's Ted Talk](https://www.youtube.com/watch?v=L4N1q4RNi9I).
 
-When planning OKRs, be sure to consider [OKRs at GitLab](_index.md#okrs-at-gitlab).
+When planning OKRs, be sure to consider [OKRs at GitLab](/handbook/company/okrs/#okr-process-at-gitlab).
 
 ### Criteria for Objectives
 

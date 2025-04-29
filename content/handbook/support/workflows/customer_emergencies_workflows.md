@@ -426,7 +426,7 @@ Some legacy-type subscriptions are called "multi-year" but are actually multiple
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account).
 1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/subscriptions/gitlab_com/#change-the-linked-namespace).
 
-If a customer is an [Unlinked CustomersDot account](/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/#unlinked-customersdot-account-for-purchases-via-sales) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
+If the customer's CustomersDot account is not linked to their GitLab.com account (`uid` and `Gitlab user` in the CustomersDot account is empty) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
 
 If neither of the above resolves the issue for the customer, [contact the on-call Support Manager](#optional-contact-the-on-call-support-manager) requesting further guidance.
 
@@ -646,4 +646,4 @@ encounter such a case, engage the Support manager on-call before offering a call
 
 ### Customer Emergency Shadow PagerDuty Schedule
 
-The [Customer Emergency Shadow Schedule](https://gitlab.pagerduty.com/schedules#PLNQAAB) can be used by anyone who wishes to shadow customer emergencies to learn before being Customer Emergency On-Call. To add yourself to the shadow rotation create an [issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues/new#) using the "Add User to a Rotation" template. To modify your rotation schedule use the edit user rotation template. To shadow for a short span of days, you can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.
+The [Customer Emergency Shadow Schedule](https://gitlab.pagerduty.com/schedules#PLNQAAB) can be used by anyone who wishes to shadow customer emergencies to learn before being Customer Emergency On-Call. To add yourself to the shadow rotation, speak to your manager. To modify your rotation schedule, speak to your manager. To shadow for a short span of days, you can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.

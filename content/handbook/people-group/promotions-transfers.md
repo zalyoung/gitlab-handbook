@@ -6,7 +6,7 @@ description: "Information and protocols related to GitLab promotions and transfe
 Developing talent internally is a key component of our success at GitLab, and our promotion and transfer process is built to support that development in alignment with our [values](/handbook/values/). Team members have two main avenues to pursue career advancement at GitLab: 1) Via our cyclical [promotion calibration process](/handbook/people-group/promotions-transfers/#calibration), and 2) by applying and interviewing for open positions.
 
 We encourage team members to take control of their own career advancement, and are empowered to own their development.  Team members are encouraged to utilize the  [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) as a tool to articulate and align with their manager on the skills they want to develop as they think about growing into a different or larger role.
-This page captures information about transfers, promotions, realignments and career mobility.
+This page captures information about transfers, promotions, realignments.
 
 ## Definitions
 
@@ -480,7 +480,7 @@ This section describes the approval chain after the People Business Partner subm
 1. The changes will route for approval to the manager, next level manager, and e-Group leader.
 1. If the request is approved, the People Connect Team will stage the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) in DocuSign.
 1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack `#team-member-updates` channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
-1. For change of departments and managers, People Connect Team members will create a Career Mobility Issue.
+1. For change of departments and managers, People Connect Team members will create a Organization Change Checklist Issue.
 
 ### For People Connect Team: Processing Promotions, Internal Transfers & Compensation Changes
 
@@ -509,7 +509,7 @@ This section describes the approval chain after the People Business Partner subm
     - Add sign date field for the team member
     - **Note:** Make sure that **a)** "Set signing order" option has been selected while preparing the doc, and **b)** Select radio button instead of checkboxes as only radio button allows you to select the required field/mandatory field option. This prohibits the Manager to process the letter without checking the tasks on the letters.
 1. Save the signed letter to the respective team members [Documents Tab](https://docs.google.com/document/d/1ao_d_JxvqvZdqxlt4mBoHe1GcAhYT7B6YQoBgDxPdRE/edit) within their Workday Profile.
-1. If the [here mentioned criteria](/handbook/people-group/promotions-transfers/#career-mobility-issue) for a Career Mobility Issue is met the People Connect Specialists will receive an alert from Workday and ensure that an [issue is opened](/handbook/people-group/promotions-transfers/#career-mobility-issue-creation-process) for the transitioning team member.
+1. If the [here mentioned criteria](/handbook/people-group/promotions-transfers/#organization-change-checklist) for an Organization Change Checklist is met the People Connect Specialists will receive an alert from Workday and ensure that an [issue is opened](/handbook/people-group/promotions-transfers/#organization-change-checklist-creation-process) for the transitioning team member.
 
 ## Interim and Acting Roles
 
@@ -749,7 +749,7 @@ If you are unsure of the role, set up a coffee chat with the hiring manager to i
 
 ### Announcing Internal Promotions/Transfers
 
-While the [Career Mobility Issue](/handbook/people-group/promotions-transfers/#career-mobility-issue) aims to kick off the logistics of switching roles, the guidelines below are meant to guide the communication of internal promotions and transitions to ensure consistency and alignment from all parties involved.
+While the [Organization Change Checklist](/handbook/people-group/promotions-transfers/#organization-change-checklist) aims to kick off the logistics of switching roles, the guidelines below are meant to guide the communication of internal promotions and transitions to ensure consistency and alignment from all parties involved.
 
 1. Prior to any company-wide announcement, the team member should be given the opportunity to share the news with their immediate team members.
 1. Promotions typically also include equity grants. If the equity grant amount is not listed on the Job Change Letter, managers can navigate to Workday to find the amount to communicate to the team member following these steps:
@@ -774,12 +774,12 @@ Vacancies will be posted internally using the Greenhouse internal job board for 
 
 More details can be found in the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) section.
 
-## Career Mobility Issue
+## Organization Change Checklist
 
-A [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) is created when the one of the following criteria is met:
+An [Organization Change Checklist](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md), previously known as the Career Mobility issue, is opened to ensure that a team member's access is reviewed when they meet one of the following criteria:
 
 - Migration from Manager to Individual Contributor (defined as a decrease in management level from Mgr+ to IC within Workday)
-- Migration of Team (for purposes of Career Mobility issues, team changes are defined as a change in both manager & cost center)
+- Migration of Team (for purposes of Organization Change Checklist, team changes are defined as a change in both manager & cost center)
 
 Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
@@ -788,19 +788,19 @@ Or, if the team member already has access to the systems and tools needed, the m
 - To open the 'Becoming a GitLab Manager' and 'Interview Training' issues visit the Training project in GitLab -> Issues -> New Issue.
 - Under 'Description' select the specified project template and then select Create Issue at the bottom.
 
-When a career mobility may not be needed (but can be requested):
+When an Organization Change Checklist may not be needed (but can be requested):
 
 - Team/Speciality change but no access request needed
 
-Any other role changes where a Manager feels their team member's role may require a career mobility issue, please reach out to the People Connect team via HelpLab.
+Any other role changes where a Manager feels their team member's role may require an Organization Change Checklist, please reach out to the People Connect team via HelpLab.
 
-## Career Mobility Issue Creation Process
+## Organization Change Checklist Creation Process
 
-The [People Connect Specialist](/job-families/people-group/people-connect) in the respective rotation will open a Career Mobility issue when an alert is received from Workday (for qualifying team members based on the criteria) and will be assigned to the migration for support.
+The [People Connect Specialist](/job-families/people-group/people-connect) in the respective rotation will open a Organization Change Checklist when an alert is received from Workday (for qualifying team members based on the criteria) and will be assigned to the migration for support.
 
-The People Connect Leads will pull a monthly report to check that any qualifying team members did get their Career Mobility issue is opened.
+The People Connect Leads will pull a monthly report to check that any qualifying team members did get their Organization Change Checklist is opened.
 
-The [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) will then be created by the People Connect Team member assigned by using the [automated Slack command](/handbook/people-group/engineering/employment-issues/#career-mobility-issues) three days prior to the effective date to allow for the managers to start preparing for the team member's transition.
+The [Organization Change Checklist](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) will then be created by the People Connect Team member assigned by using the [automated Slack command](/handbook/people-group/engineering/employment-issues/#career-mobility-issues) on the effective date or within 3 days after the effective date to allow for the managers to start preparing for the team member's transition.
 
 Important things to ensure:
 
@@ -808,7 +808,7 @@ Important things to ensure:
 1. Check to see that the previous Manager and new Manager is listed correctly in the issue.
 1. Complete all applicable tasks under the People Connect list.
 
-## Important Tasks once Career Mobility has been finalized
+## Important Tasks once the Organization Change Checklist has been finalized
 
 Actions by both the current and new managers are required to set the team member up for success:
 
@@ -820,7 +820,7 @@ Actions by both the current and new managers are required to set the team member
 
 ## Career Mobility Retrospective
 
-The team member going through this transition and assigned to their Career Mobility issue have a set of tasks to complete. An important one is to create a retrospective thread within their Career Mobility issue, so that they and their respective previous and current managers can discuss any questions, comments, and proposals. Retrospectives are used in many ways at GitLab, such as which are used after GitLab product [releases](/handbook/communication/#release-retrospectives-and-kickoffs) and describing the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Career Mobility issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Please feel free to ping your assigned People Connect Team member in your issue if you have any questions.
+The team member going through this transition and assigned to their Career Mobility issue have a set of tasks to complete. An important one is to create a retrospective thread within their Career Mobility issue, so that they and their respective previous and current managers can discuss any questions, comments, and proposals. Retrospectives are used in many ways at GitLab, such as which are used after GitLab product [releases](/handbook/engineering/releases/) and describing the Product [retrospective workflow](/handbook/engineering/management/group-retrospectives/). For the Career Mobility issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Please feel free to ping your assigned People Connect Team member in your issue if you have any questions.
 
 ## Promotions and Transfers of Employees in Commissionable Roles
 
@@ -857,7 +857,7 @@ This section describes the steps required for promoting or transferring employee
 There are several situations at GitLab that could lead to team members changing managers, including promotions, lateral transfers, company restructuring, manager resignation, etc. The process of building a new relationship with a new manager can be uncertain at times, but there are resources to help this transition process go smoothly:
 
 - [Transitioning 1-1s](/handbook/leadership/1-1/#transitioning-1-1s) is a very important part of manager transitions. This helps ensure the new manager is up to speed on important discussions, deliverables, etc. so this information does not get lost in the transition.
-- The [Career Mobility Handover template](https://docs.google.com/document/d/1iRbmS518CDjmhZEjvkaibqR1g0angWE83sWvtlH-elE/edit#heading=h.5ahg1o4v53q7) helps to ensure accomplishments, strengths, development areas, etc. are all captured with evidence moving forward. This makes sure career development progress continues and is not lost with manager changes.
+- The [Organization Change Checklist Handover template](https://docs.google.com/document/d/1iRbmS518CDjmhZEjvkaibqR1g0angWE83sWvtlH-elE/edit#heading=h.5ahg1o4v53q7) helps to ensure accomplishments, strengths, development areas, etc. are all captured with evidence moving forward. This makes sure career development progress continues and is not lost with manager changes.
 - Sharing your most recent 360 feedback review and most recent performance review with your new manager can also be a great way to align on your strengths and improvement areas and discuss how they can partner with you in developing both.
 
 ## For Managers : Moving a Team Member to your team

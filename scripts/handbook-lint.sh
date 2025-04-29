@@ -8,10 +8,8 @@ yellow="\033[93m"
 red="\033[31m"
 ERROR_FOUND=false
 
-# Create a code-quality report to populate if it doesn't exist
-if ! [ -f handbook-codequality.json ]; then
-  echo "[]" > handbook-codequality.json
-fi
+# Create the file if it doesn't exist and ensure it's empty
+echo "[]" > handbook-codequality.json
 
 ## MEDIA file checks ##
 # Pull image and video lists
@@ -56,6 +54,11 @@ fi
 printf "%b" "${bold}Checking that added images are in static/images directory...${normal}"
 INCORRECT_IMAGE_PATHS=""
 while read -r image; do
+  # Skip specific files or patterns
+  if [[ "$image" == "static/macos-handbook-icon.svg" || "$image" =~ ^assets/.*\.svg$ ]]; then
+    continue
+  fi
+  
   if ! [[ "$image" =~ ^static/images/ ]]; then
     ERROR_FOUND=true
     INCORRECT_IMAGE_PATHS="$INCORRECT_IMAGE_PATHS- $image\n"

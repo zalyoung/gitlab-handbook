@@ -60,7 +60,7 @@ Notes:
 - Groups may have scope as large as all categories in a stage, or as small as a single category within a stage, but most will form part of a stage and have a few categories in them.
 - Stage, group, category, and feature labels are used by the automated triage
 operation ["Stage and group labels inference from category labels"](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
-- We don't move categories based on capacity. We put the categories in the stages where they logically fit, from a customer perspective. If something is important and the right group doesn't have capacity for it, we adjust the hiring plan for that group, or do [global optimizations](/handbook/values/#global-optimization) to get there faster.
+- We don't move categories based on capacity. We put the categories in the stages where they logically fit, from a customer perspective. If something is important and the right group doesn't have capacity for it, we adjust the hiring plan for that group, or do [global optimizations](/handbook/values/#efficiency-for-the-right-group) to get there faster.
 - We don't have silos. If one group needs something in a category that is owned by another group, go ahead and contribute it.
 - This hierarchy includes both paid and unpaid features.
 
@@ -299,7 +299,7 @@ Maybe we should make our features easier to search to replace the section below.
 - quick actions
 - email notifications
 - to-do list
-- Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
+- Real-time features
 
 #### Knowledge group
 
@@ -359,7 +359,7 @@ Maybe we should make our features easier to search to replace the section below.
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [Core Platform section](/handbook/engineering/infrastructure/#core-platform-section), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in Analytics
 

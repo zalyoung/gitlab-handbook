@@ -88,7 +88,7 @@ Use the following table as a **guideline**. If there aren't any material updates
 - *Some users are reporting connection issues to GitLab.com, we're working on it in: link*
 - Craft a draft of what you think is correct. Whenever possible use ["I intend to..." language](https://www.youtube.com/watch?v=7KnPjakwqeI) when communicating with the IM and EOC:
 
-  - *@IM - I'm going to post: "We've isolated the network problem to the APAC region and are working with Cloudflare support to get it resolved*.
+  - *@incident-manager - I'm going to post: "We've isolated the network problem to the APAC region and are working with Cloudflare support to get it resolved*.
   - *"In my next update I'm going to move the status to monitoring"*
 - Bias to action - you can post another update if there was an error in your last update.
 
@@ -486,7 +486,7 @@ Contact requests opened during a shift should by default be assigned to the Supp
 
 **NOTE:** When adding yourself to this rotation, be aware that adjusting the `Time Zone` field at the top of the page will adjust it for all users, not just yourself. Before you navigate away, please reset the timezone to UTC.
 
-The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules#PQBZCSY) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC can fill out the [Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to get added to the rotation. Or, to shadow for a short span of days, they can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.
+The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules#PQBZCSY) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC should speak to their manager to get added to the rotation. Or, to shadow for a short span of days, they can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.
 
 > **Note About CMOC Shadowing**: When the CMOC shadow PagerDuty schedule is active the engineer will receive notifications and get paged the same way as when on the CMOC schedule. **Do not acknowledge or resolve any incidents when on the CMOC shadow schedule as this will stop any potential pages to the real CMOC!**
 

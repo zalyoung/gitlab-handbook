@@ -22,7 +22,7 @@ As stewards of the [GitLab brand](https://design.gitlab.com/resources), our goal
 
 *Where we're going*
 
-The GitLab Brand Design team will elevate the brand beyond the logo and visuals - positioning ourselves as experts in brand strategy and behavior (how the brand presents itself, how it's perceived, and what makes it authentic)
+The GitLab Brand Design and Video teams will elevate the brand beyond the logo and visuals - positioning ourselves as experts in brand strategy and behavior (how the brand presents itself, how it's perceived, and what makes it authentic)
 
 ### Mission
 
@@ -32,18 +32,24 @@ Create simple, effective, and intentional brand experiences by solving complex p
 
 ## Requesting Support
 
-Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request. 
+
+For more information on the brand video process, you can visit the brand video team [handbook page](/handbook/marketing/brand-and-product-marketing/brand-video/). 
 
 ### Brand Design & Video Issue Templates
 
-#### 1. Brand Review Request
+#### 1. Blog Image Request
+
+Need an image for a blog? Please use [this template to request blog images](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?description_template=blog-asset-request).
+
+#### 2. Brand Review Request
 
 Need a brand review? Please use [this template to request a brand or design review](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request) of multiple or single assets.
 
 - For brand review only - do NOT use this template for requesting new assets or designs*.
 - Do NOT use any of the below issues for brand review*.
 
-#### 2. Brand Review Request of Localized Assets
+#### 3. Brand Review Request of Localized Assets
 
 Need a brand review of a localized asset? Please use [this template to request a brand or design review of multiple or single localized assets](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request-localized-asset).
 
@@ -51,7 +57,7 @@ Need a brand review of a localized asset? Please use [this template to request a
 - For non-English design or video assets only
 - Do NOT use any of the below issues for brand review*.
 
-#### 3. Content Design Request
+#### 4. Content Design Request
 
 Please use [this issue request template for net new creative or refreshes](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request) needed for the following asset types:
 
@@ -63,7 +69,7 @@ Please use [this issue request template for net new creative or refreshes](https
 - Whitepaper
 - Other but within the same category of assets
 
-#### 4. Event Asset Request
+#### 5. Event Asset Request
 
 Please use [this issue template when requesting net new or refreshing](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request) any of the following event-related assets:
 
@@ -73,41 +79,41 @@ Please use [this issue template when requesting net new or refreshing](https://g
 
 Do NOT use this template for For Event Swag + Giveaways. INSTEAD, please use the [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request) issue template.
 
-#### 5. Illustration + Iconography Requests
+#### 6. Illustration + Iconography Requests
 
 Please use [this issue template for any illustration and iconography needs](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request).
 
-#### 6. Presentation Request
+#### 7. Presentation Request
 
 Please use [this issue request template for updating existing presentation decks or when requesting design for net new decks](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request).
 
-#### 7. Social Asset Request
+#### 8. Social Asset Request
 
 Please use [this issue template for net new or refreshing organic and/or paid social requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request).
 
-#### 8. Swag Request
+#### 9. Swag Request
 
 This [issue template should be used for all custom swag requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request) including swag for TMRG programs, event swag + giveaways, etc.
 
-#### 9. Tanuki Tab Request for Team Expressions
+#### 10. Tanuki Tab Request for Team Expressions
 
 Please use [this issue template for custom badge or assets](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=tanuki-tab-for-team-expressions-request) for your TMRG, Department or special project. Be sure to review the [GitLab Team Expressions Style Guide](https://design.gitlab.com/#team-expressions), as this will be the system used for your Tanuki Tab request.
 
-#### 10. General Design Request
+#### 11. General Design Request
 
-Does your design request not fall within one of the above categories? Please use [this issue template to request a new design of multiple or a single asset](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request).
+If your design request does not fall within one of the above categories, or if you need a Zoom background, please use [this issue template to request a new design of multiple or a single asset](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request).
 
 - Do NOT use this template for brand reviews.*
 
-#### 11. New Brand Video Request
+#### 12. New Brand Video Request
 
 Please use [this issue when requesting a net new video](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request).
 
-#### 12. Upload Video Request
+#### 13. Upload Video Request
 
 Please us [this issue template when requesting to have a video uploaded](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request) to Vimeo, YouTube, or another similar platform.
 
-#### 13. Video Edit Request
+#### 14. Video Edit Request
 
 Please use [this issue when requesting an update to an existing video or edits to video footage](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request) such as adding lower thirds, bumpers or slides to a zoom recording.
 
@@ -115,19 +121,19 @@ Please use [this issue when requesting an update to an existing video or edits t
 
 - When submitting your request, please title the request "CREATIVE REQUEST: [Descriptive name]"
 - Please complete the issue form to the best of your ability. The more information our team can receive upfront, the quicker we can get started on your request.
-- **Please note, all requests need a minimum of a two-week turnaround.**
+- **Please note, all requests need a minimum of a two-week turnaround, starting from the date we receive ALL the necessary information to begin the design, not from the date of your request submission. Please note that we cannot guarantee meeting your deadline if it falls under this two-week window.**
 - **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager in Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.
 - When inputting your project deadline, **please be mindful of time zone differences**. For example, if you're operating a day ahead of our Brand Design Team (PT / GMT-8 time zone) and need deliverables completed by Tuesday, Feb 20, please select Monday, Feb 19 as your deadline to accommodate for the time difference.
 - If you have any questions, comments, or concerns regarding your creative request, please reach out to our Senior Creative Operations Manager.
 
 #### Contacting the team
 
-The best way to get in contact with the Brand design team is to fill out one of the above issue templates with your request, or to:
+The best way to get in contact with the Creative team is to fill out one of the above issue templates with your request, or to:
 
 - Use the @gl-design tag in GitLab issues and epics for visibility.
 - @-mention individuals from the team in GitLab issues and epics.
 - Ask your question in the #marketing-design Slack channel.
-- For video specific questions or assistance, please reach out in the #brand_video Slack channel.
+- For video specific questions or assistance, please reach out in the `#brand_video` Slack channel.
 
 ### Working with the brand
 
@@ -195,7 +201,7 @@ Artwork that draws inspiration from or is based on GitLab's intellectual propert
 - Do not create or share any Fanart that is potentially offensive or otherwise detrimental to GitLab's brand or any other brand.
 - Do not combine Fanart with other companies' materials or anything else unrelated to GitLab.
 
-If you have questions, reach out to the Brand Design and Brand Strategy teams in the `#brand` Slack channel.
+If you have questions, reach out to the Brand Creative and Brand Strategy teams in the `#brand` Slack channel.
 
 ## Canva best practices
 
@@ -323,7 +329,7 @@ The team should feel empowered to make the best decisions possible for the GitLa
 ### Team workflow
 
 - **Team check-ins:** We have two recurring team syncs: (1) Monday [Brand Creative hours](https://docs.google.com/document/d/1SOxh6UPZ7n0oGUdxc1p4CggCXbz-uLzQN8DL-_AUEMg/edit?usp=sharing) call where we catch up and talk about work for the upcoming week. (2) Wednesday Brand Creative hours call where we get feedback on projects and collaborate on topics that need to be addressed.
-- **Working in issues:** All design requests should use our [issue templates](/design/#brand--marketing-design-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team’s triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
+- **Working in issues:** All design requests should use our [issue templates](#brand-design--video-issue-templates) and include the `mktg-status::triage`, `corporate-marketing`, and `design` issue labels to show up on our [team’s triage board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/boards/7300835?label_name&label_name&label_name). Michelle, the Senior Creative Operations Manager on the team, triages work at the beginning of the week, and team members are able to assign work to themselves, too.
   - Note: Everyone can see their personalized board by selecting the drop-down option where it currently says "Brand Design TRIAGE Board" on the left of the search bar.
   - Note: Epics can be viewed on the [Epic board](https://gitlab.com/groups/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/-/epic_boards).
 - **Collaborating together:** We work together as a team by playing to each of our strengths. Work is usually triaged out to team members whose design skills fit the request, or we collaborate together on a project using our combined talents.

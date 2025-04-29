@@ -166,8 +166,6 @@
       url: /handbook/engineering/development/sec/software-supply-chain-security/
     - name: Secure Sub-department
       url: /handbook/engineering/development/sec/secure/
-  - name: Incubation Engineering Department
-    url: /handbook/engineering/development/incubation
   - name: Infrastructure Department
     url: /handbook/engineering/infrastructure/
   - name: Developer Experience
@@ -352,7 +350,7 @@
   - name: Product sections, stages, groups, and categories
     url: /handbook/product/categories
   - name: Product Development Flow
-    url: /handbook/product-development-flow
+    url: /handbook/product-development/product-development-flow
   - name: Product Development Timeline
     url: /handbook/engineering/workflow/#product-development-timeline
   - name: Data for Product Managers

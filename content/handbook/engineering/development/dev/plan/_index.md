@@ -28,7 +28,7 @@ For UX questions, @ mention the Product Designers on the Plan stage; [Nick Leona
 
 ### Workflow
 
-We work in a continuous Kanban manner while still aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development-flow/).
+We work in a continuous Kanban manner while still aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/product-development-flow/).
 
 #### Capacity Planning
 
@@ -64,21 +64,45 @@ Everyone is encouraged to move issues to different workflows if they feel they b
 
 If an issue is `> 3 weight`, it should be promoted to an epic (quick action) and split it up into multiple issues. It's helpful to add a task list with each task representing a vertical feature slice (MVC) on the newly promoted Epic. This enables us to practice "Just In Time Planning" by creating new issues from the task list as there is space downstream for implementation. When creating new vertical feature slices from an epic, please remember to add the appropriate labels - `devops::plan`, `group::*`, `Category:*` or `feature label`, and the appropriate `workflow stage label` - and attach all of the stories that represent the larger epic. This will help capture the larger effort on the roadmap and make it easier to schedule.
 
-#### Themes
+#### Design Documents
 
-A small number of high priority features will be chosen as 'themes' for a period of time. Themes provide an opportunity for the whole team to rally around a deliverable, even if they don't contribute directly to it. These items are given especially close attention by all those involved with a view to delivering small iterations and keeping work unblocked. There should never be more than two themes in progress at a time per team.
+For all tier T1 and T2 roadmap items, and initiatives spanning multiple milestones, we recommend creating
+[a design document](../../../architecture/design-documents/) using the
+[Architecture design workflow](../../../architecture/workflow/).
+This approach offers several benefits:
 
-- A Slack channel is created with the convention #f_[feature name].
-- An epic hierarchy is created with sub-epics mapping to iterations, each achievable within a milestone.
-- Iterations are broken into multiple issues that can be accomplished independently, and PMs schedule those as normal.
-- Other actions may be established, such as regular 'office hours' calls.
+1. **Single Source of Truth (SSOT)**: A design document serves as the central place for all important information related
+   to the initiative, reducing time spent searching for decisions across various places.
+2. **Increased Visibility**: By creating design documents, we raise awareness of the work done in the
+   Plan stage, such as the [work items framework](../../../architecture/design-documents/work_items/),
+   customizable Work Item Types, custom fields, [custom status](../../../architecture/design-documents/work_items_custom_status/),
+   [GLQL](../../../architecture/design-documents/glql/), frontend-driven views, and many more.
+3. **Discoverability**: Design documents are easily accessible
+   [through our public handbook](../../../architecture/design-documents/), 
+   aligning with engineering best practices.
+4. **Collaborative Decision-Making**: [Changes and discussions occur through merge requests](../../../architecture/workflow/#why-are-design-documents-tracked-in-merge-requests),
+   ensuring visibility to all involved team members.
+5. **Comprehensive Entry Point**: The design document functions as a primary entry point for the initiative, containing:
+   - An executive summary
+   - Links to related epics, issues, and wiki pages
+   - Links to Status updates
+   - Implementation details
+   - A decision log or embedded decisions within the document
+   - Links to relevant boards or dashboards
 
-Team-members work together to continuously refine the iterations as complexity is revealed.
+This comprehensive approach allows easy onboarding for team members and provides stakeholders with all necessary information in one place.
 
-Examples of successful themes:
+This is the recommended workflow for all initiatives:
 
-1. **Requirements Management** ([#f_requirements-management](https://app.slack.com/client/T02592416/CUEQBQ7K8), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2703))
-1. **Jira Importer** ([#f_jira-importer](https://app.slack.com/client/T02592416/CUS6GB2JH), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2738))
+1. Create a Slack channel with the convention #f_[feature name].
+2. Develop a design document using the Architecture evolution workflow.
+   Get started using [this template](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md?plain=1). 
+   You don't need to fill out all sections. This is a living document and it's expected that it evolves over time.
+3. An epic hierarchy is created with sub-epics mapping to iterations, each achievable within a milestone.
+4. Iterations are broken into multiple issues that can be accomplished independently, and PMs schedule those as normal.
+5. Other actions may be established, such as regular 'office hours' calls.
+
+Team members should collaborate to continuously refine the iterations and update the design document as complexity is revealed. This approach ensures that all stakeholders have a clear, up-to-date understanding of the initiatives's progress and implementation details.
 
 ### Roadmap
 
@@ -205,7 +229,7 @@ GitLab currently offers some freedom in how to structure OKR hierarchies. We tak
 - EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
 - Group KRs and Stage Objectives should ladder into a higher Objective, which can exist anywhere in the organization. In the development of OKRs a stage-level Objective laddered directly into a CEO KR.
 - They should be created or added as **child objectives and key results** of their parent so that progress roll-ups are visible.
-- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development-flow/), and not in OKRs.
+- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development/product-development-flow/), and not in OKRs.
 
 Doing this ensures the hierarchy will be as simple, consistent and shallow as possible. This improves navigability and visibility, as we currently don't have good hierarchy visualization for OKRs.
 
@@ -459,40 +483,43 @@ See further details at https://handbook.gitlab.com/handbook/product/ux/product-d
 
 #### Background
 
-There are many company, team, process (and other) updates that are important to communicate to team members so that they are not missed. Besides that, there is other information important for day-to-day work. In Plan we use async Weekly updates, called Plan Weekly digest, to communicate these to our team members.
+In Plan we use async Weekly updates, called Plan Weekly digests, to communicate progress on important work this week to our team members.
 
-The Engineering Managers in the Plan stage alternate each week as the DRIs. There are 4 groups in the Plan stage, and one SEM, so every EM is the DRI roughly once / 5 weeks.
+The Engineering Managers in the Plan stage alternate each week as the DRIs. There are 3 groups in the Plan stage, and one SEM, so every EM is the DRI roughly once / 4 weeks.
 
-The responsibility of the DRI is simply to collect information and to ensure the issue is ready to be publicized in time for the coming week. All team-members are welcome to participate in suggesting content using discussions or adding it directly by editing the description.
+The responsibility of the DRI is simply to ensure the issue is ready to be publicized in time for the coming week by reminding everyone to contribute. All team-members are welcome to participate in suggesting content using discussions or adding it directly by editing the description.
 
 #### Process
 
 1. A new confidential issue is created every **Monday, 8 UTC**. (automatically)
-1. The issue is assigned to all Plan Engineering Managers.
-1. The EM **responsible** for the content of the issue can be found in the schedule below but all other EMs can contribute to the issue as well.
-1. On **Saturday, 8 UTC** all team members are alerted on the issue via a comment (automatically).
+1. The issue is assigned to a Plan Engineering Manager according to the schedule below. Their role is to remind others to contribute.
+1. On **Saturday, 8 UTC** all team members are reminded to read the updates on the issue via a comment (automatically).
 1. On Friday, 8 UTC (next week) the issue is closed.
 
 #### DRIs
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-12-30 | Vladimir Shushlin |
-| 2025-01-06 | Kushal Pandya |
-| 2025-01-13 | Donald Cook |
-| 2025-01-20 | John Hope |
-| 2025-01-27 | Vladimir Shushlin |
-| 2025-02-03 | Kushal Pandya |
-| 2025-02-10 | Donald Cook |
-| 2025-02-17 | John Hope |
-| 2025-02-24 | Vladimir Shushlin |
-| 2025-03-03 | Kushal Pandya |
-| 2025-03-10 | Donald Cook |
-| 2025-03-17 | John Hope |
-| 2025-03-24 | Vladimir Shushlin |
-| 2025-03-31 | Kushal Pandya |
-| 2025-04-07 | Donald Cook |
 | 2025-04-14 | John Hope |
+| 2025-04-21 | John Hope |
+| 2025-04-28 | Vladimir Shushlin |
+| 2025-05-05 | Donald Cook |
+| 2025-05-12 | John Hope |
+| 2025-05-19 | Vladimir Shushlin |
+| 2025-05-26 | Donald Cook |
+| 2025-06-02 | John Hope |
+| 2025-06-09 | Vladimir Shushlin |
+| 2025-06-16 | Donald Cook |
+| 2025-06-23 | John Hope |
+| 2025-06-30 | Vladimir Shushlin |
+| 2025-07-07 | Donald Cook |
+| 2025-07-14 | John Hope |
+| 2025-07-21 | Vladimir Shushlin |
+| 2025-07-28 | Donald Cook |
+| 2025-08-04 | John Hope |
+| 2025-08-11 | Vladimir Shushlin |
+| 2025-08-18 | Donald Cook |
+| 2025-08-25 | John Hope |
 
 #### Links
 
@@ -608,7 +635,7 @@ The DRI for organizing Team Day may pursue a budget for expenses under existing 
 
 ### Team Process
 
-Each group within the Plan stage follows GitLab's [product development flow](/handbook/product-development-flow/) and [process](/handbook/product/product-processes/). This allows for consistency across the stage, enables us to align with other stages and stable-counterparts, and enables us to clearly understand our throughput and velocity. We're currently focused on strictly following the process stated in the handbook, as opposed to creating our own local optimizations.
+Each group within the Plan stage follows GitLab's [product development flow](/handbook/product-development/product-development-flow/) and [process](/handbook/product/product-processes/). This allows for consistency across the stage, enables us to align with other stages and stable-counterparts, and enables us to clearly understand our throughput and velocity. We're currently focused on strictly following the process stated in the handbook, as opposed to creating our own local optimizations.
 
 In some cases we need to dogfood a new Plan feature that may adjust our adherence to the GitLab's process. If that happens we assign a DRI responsible for setting the objective, reporting on the outcomes and facilitating feedback to ensure we prioritize improvements to our own product. This ensures we're not making a change for the sake of making changes, and gives us clarity into our own evaluation of a change to the product.
 In some cases we need to dogfood a new Plan feature that may adjust our adherence to the GitLab's process. If that happens we assign a DRI responsible for setting the objective, reporting on the outcomes and facilitating feedback to ensure we prioritize improvements to our own product. This ensures we're not making a change for the sake of making changes, and gives us clarity into our own evaluation of a change to the product.

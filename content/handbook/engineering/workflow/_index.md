@@ -15,7 +15,7 @@ We have [specific rules around code review](/handbook/engineering/workflow/code-
 ## Reverting a merge request
 
 In line with our values of [short toes](/handbook/values/#short-toes), [making two-way-door decisions](/handbook/values/#make-two-way-door-decisions)
-and [bias for action](/handbook/values/#bias-for-action), anyone can
+and [bias for action](/handbook/values/#operate-with-a-bias-for-action), anyone can
 propose to revert a merge request. When deciding whether an MR should be reverted,
 the following should be true:
 
@@ -427,7 +427,7 @@ Team members use labels to track issues throughout development. This gives visib
 - `workflow::verification`: A developer indicates that all the development work for the issue has been done and is waiting to be deployed, then verified.
 - `workflow::complete`: A developer indicates the issue has been verified and everything is working by adding the `workflow::complete` label and closing the issue.
 
-Workflow labels are described in our [Development Documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#workflow-labels) and [Product Development Flow](/handbook/product-development-flow/).
+Workflow labels are described in our [Development Documentation](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/labels/index.md#workflow-labels) and [Product Development Flow](/handbook/product-development/product-development-flow/).
 
 ## Working in Teams
 
@@ -554,7 +554,7 @@ All other important dates for a milestone are relative to the release date:
   - GitLab Bot opens [Group Retrospective](/handbook/engineering/management/group-retrospectives/) issue for the current milestone.
 - **Friday, the day the milestone ends**:
   - Issues for milestone completed, with docs, and have been merged into master.
-  - Feature flags should be flipped from default off to default on after verification to be in the release. See [feature flags](/handbook/product-development-flow/feature-flag-lifecycle/#including-a-feature-behind-feature-flag-in-the-final-release).
+  - Feature flags should be flipped from default off to default on after verification to be in the release. See [feature flags](/handbook/product-development/product-development-flow/feature-flag-lifecycle/#including-a-feature-behind-feature-flag-in-the-final-release).
   - Merging by the milestone code cut-off (Friday) **does not guarantee** that the feature will be in the release. See [release timelines](/handbook/engineering/releases/#timelines).
   - Individual [release post entries](/handbook/marketing/blog/release-posts/#contribution-instructions) merged for all relevant issues.
   - By end of the day, milestone `%x.y` is expired.
@@ -571,7 +571,7 @@ All other important dates for a milestone are relative to the release date:
 - **On or around the Wednesday immediately following the release day**:
   - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are updated to reflect previous and current releases, including category epics and direction pages.
 - **On or around the second Monday following the release day**:
-  - Non-critical security patches are [released](/handbook/engineering/infrastructure/library/security-releases-development/).
+  - Non-critical security patches are [released](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/security-releases-development).
 
 Refer to [release post content reviews](/handbook/marketing/blog/release-posts/#content-reviews) for additional deadlines.
 
@@ -640,7 +640,7 @@ To help with prioritization and decision-making process here, we recommend think
 
 Technical debt is prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leaders/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
+For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimized](/handbook/values/#efficiency-for-the-right-group) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leaders/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
 
 ## Deferred UX
 
@@ -650,7 +650,7 @@ For the same reasons as technical debt, we don't want Deferred UX to grow faster
 
 These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leaders/product-leadership/).
+As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#efficiency-for-the-right-group) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leaders/product-leadership/).
 
 ## UI polish
 
@@ -721,7 +721,7 @@ Not everything is urgent. See below for a non-exclusive list of things that are 
 ## Performance Refinement
 
 A bi-weekly performance refinement session is held by the Development and QE teams jointly to raise awareness and foster wider collaboration about high-impact performance issues.
-A high impact issue has a direct measurable impact on GitLab.com [service levels or error budgets](/handbook/engineering/infrastructure/library/service-levels-error-budgets/).
+A high impact issue has a direct measurable impact on GitLab.com [service levels or error budgets](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/service-levels-error-budgets).
 
 ### Scope
 

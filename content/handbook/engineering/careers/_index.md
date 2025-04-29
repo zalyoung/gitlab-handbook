@@ -142,7 +142,7 @@ The main success criteria for interim managers at GitLab is to make one successf
 In some cases, it may not be practical, fitting with the interim timeline or headcount planning might not allow for the Interim Manager to make a new hire. In this case the Interim Manager and the interim manager's manager should agree on success criteria based on the requirements of the role. The interim period not exceeding three months should take precedence over not being able to make a hire (so long as other success criteria are in place). Examples of other success criteria are (multiselect):
 
 - Successfully pass an interview(s) with the Leader(s) of the department(s) around team management competencies/scorecard for Manager;
-- Successfully pass team member relations case role play with the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division);
+- Successfully pass team member relations case role play with the [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments);
 - Performing career development conversations with direct reports successfully;
 - Perform a [Talent Assessment](/handbook/people-group/talent-assessment/) with the manager's manager to determine readiness for the role;
 - Gather 360 feedback via Culture Amp for the manager.
@@ -414,35 +414,6 @@ subgraph Based on Merit & Company Need
 </div>
 </div>
 
-### Incubation Engineering Department
-
-<div style="overflow-x: auto">
-<div style="width: 1800px;">
-
-```mermaid
-  graph LR;
-
-  subgraph Merit Based
-  inc:int(Intermediate Incubation Engineer) --> inc:snr(Senior Incubation Engineer);
-  end
-
-  subgraph Based on Merit & Company Need
-  inc:snr(Senior Incubation Engineer)-->inc:stf(Staff Incubation Engineer);
-  inc:stf(Staff Incubation Engineer)-->inc:pre(Principal Incubation Engineer);
-  inc:dir(Director, Incubation Engineering)-->inc:vp(VP of Incubation Engineering);
-  end
-
-  click inc:int "/job-families/engineering/development/incubation/engineer/#incubation-engineer";
-  click inc:snr "/job-families/engineering/development/incubation/engineer/#senior-incubation-engineer";
-  click inc:stf "/job-families/engineering/development/incubation/engineer/#staff-incubation-engineer";
-  click inc:pre "/job-families/engineering/development/incubation/engineer/#principal-incubation-engineer";
-  click inc:dir "/job-families/engineering/development/incubation/management/#director-incubation-engineering";
-  click inc:vp "/job-families/engineering/development/incubation/management/#vp-of-incubation-engineering";
-```
-
-</div>
-</div>
-
 ## Apprenticeship for Learning
 
 Typically, an apprenticeship provides an individual with an overview of a position or field over a short period of time. It's surface-level learning geared towards team members who are still exploring their interests and deciding what options they'd like to pursue. If the field of interest, it's subject matter experts and the department they want to learn more about can support this effort, then this offers a good opportunity for an internship. For more information on the process please review this handbook section on [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/).
@@ -469,7 +440,7 @@ By default, apprenticeships last for 6 months. At the end of 6 months, both the 
 
 If you wish to apprentice with an Engineering team, start by speaking with your manager.
 
-**Important**: The Apprenticeship for Learning program should differ from any situations where there is actual temporary or permanent [realignment/redeployment/secondment](/handbook/people-group/promotions-transfers/#realignment-of-resources-impacting-multiple-team-members) as a result of changing business needs. If you are unsure whether your situation is aligned with the Apprenticeship for learning program or falls into a resources realignment, please discuss with your aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+**Important**: The Apprenticeship for Learning program should differ from any situations where there is actual temporary or permanent [realignment/redeployment/secondment](/handbook/people-group/promotions-transfers/#department-transfers) as a result of changing business needs. If you are unsure whether your situation is aligned with the Apprenticeship for learning program or falls into a resources realignment, please discuss with your aligned [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 ## Associates Engineers
 

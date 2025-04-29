@@ -36,11 +36,11 @@ Before we start using license compliance scans, it is helpful to have some licen
 
 1. In the **Target Branch** field, enter the name `add-deps`.
 
-1. Ensure that **Start a new merge request with these changes** is checked.
+1. Ensure that **Start a new Merge Request with these changes** is checked.
 
 1. Select **Commit changes**.
 
-1. Leave all options in the merge request as default and select **Create merge request**.
+1. Leave all options in the Merge Request as default and select **Create Merge Request**.
 
 1. Select **Merge**.
 
@@ -61,11 +61,11 @@ Before we start using license compliance scans, it is helpful to have some licen
 
 1. Set the **Target Branch** to `add-scans`.
 
-1. Ensure that **Start a new merge request with these changes** is checked.
+1. Ensure that **Start a new Merge Request with these changes** is checked.
 
 1. Select **Commit changes**.
 
-1. Leave all options as default and select **Create merge request**.
+1. Leave all options as default and select **Create Merge Request**.
 
 1. Select **Merge**.
 
@@ -79,19 +79,19 @@ These changes have added dependency scanning and dependencies to your applicatio
 
 ## Task C. Approve and Deny Licenses
 
-> Let's assume that your team has approved the MIT license. If any license aside from the MIT license exists in a dependency, it must be approved before the merge request can be complete.
+> Let's assume that your team has approved the MIT license. If any license aside from the MIT license exists in a dependency, it must be approved before the Merge Request can be complete.
 
 1. Navigate to **Secure > Policies**.
 
 1. Click the **New policy** button.
 
-1. Click **Merge request approval policy > Select policy**.
+1. Click **Merge Request approval policy > Select policy**.
 
 1. Input any name (ex. `ScanApprovedPolicy`) and description for the policy.
 
 1. Set the **Policy status** to **Enabled**.
 
-1. In **Rules**, set the **Select scan type** dropdown menu to **License Scan**. Ensure that `all protected branches` with `No exceptions` is selected for the merge request target.
+1. In **Rules**, set the **Select scan type** dropdown menu to **License Scan**. Ensure that `all protected branches` with `No exceptions` is selected for the Merge Request target.
 
 1. Set the **Status is** dropdown menu to **Newly Detected**.
 
@@ -103,9 +103,9 @@ These changes have added dependency scanning and dependencies to your applicatio
 
 1. In the **Actions** section, require 1 approval from an individual user. Click your username as the approval user.
 
-1. Leave the **Override project approval settings** checkboxes selected and click **Configure with a merge request**.
+1. Leave the **Override project approval settings** checkboxes selected and click **Configure with a Merge Request**.
 
-1. In the resulting merge request, click the **Merge** button.
+1. In the resulting Merge Request, click the **Merge** button.
 
 1. When you create a policy, GitLab will create a new project for managing the policies. After you click **Merge**, you will need to navigate back to your original project.
 
@@ -129,23 +129,23 @@ These changes have added dependency scanning and dependencies to your applicatio
 
 1. Add a new dependency to the `add-dnspython-dependency` branch **(not the `main` branch!)** by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`.
 
-1. Click the **Create merge request** button.
+1. Click the **Create Merge Request** button.
 
-1. Leave all fields as their default values and click **Create merge request**.
+1. Leave all fields as their default values and click **Create Merge Request**.
 
-1. Wait for the pipeline for the merge request to complete.
+1. Wait for the pipeline for the Merge Request to complete.
 
 1. Once the pipeline completes, refresh the page. A license compliance scan will now display, showing 1 new license detected.
 
-1. Return to the merge request overview.
+1. Return to the Merge Request overview.
 
 1. Click **Full report**.
 
 1. The license compliance report will list all of the licenses that are no longer in compliance with the project policy. Note that the merge status will appear stating **Requires 1 approval from policy**.
 
-1. A new comment is also added to the activity of the merge request, stating that a policy violation was detected.
+1. A new comment is also added to the activity of the Merge Request, stating that a policy violation was detected.
 
-    > This merge request now requires additional approval because `dnspython` does not use an approved license. A reviewer can now verify if the license is ok to proceed with before the merge is complete.
+    > This Merge Request now requires additional approval because `dnspython` does not use an approved license. A reviewer can now verify if the license is ok to proceed with before the merge is complete.
 
 ## Task F. Lab Policy Cleanup
 
@@ -157,7 +157,7 @@ These changes have added dependency scanning and dependencies to your applicatio
 
 3. Click **Delete Policy**.
 
-4. Click **Merge** on the resulting merge request.
+4. Click **Merge** on the resulting Merge Request.
 
 ## Lab Guide Complete
 
@@ -165,4 +165,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you'd like to suggest changes to the *Hands-On Guide for GitLab Compliance*, please submit them via merge request.
+If you'd like to suggest changes to the *Hands-On Guide for GitLab Compliance*, please submit them via Merge Request.

@@ -12,12 +12,12 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-- **Leslie Mendonca - Director, CRM Systems** GitLab handle: [lmendonca2](https://gitlab.com/lmendonca2) Slack handle: Leslie Mendonca
+- **Kiran Chinthapalli - Director, CRM Systems**
 - **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan] (https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
-- **Kiran B - Senior IT Enterprise Applications Engineer** GitLab handle: [kiranbsalesforce] (https://gitlab.com/kiranbsalesforce) Slack handle: @Kiran
 - **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
 - **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
 - **Analissa "Ana" Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
+- **Andie Wheeler - IT Enterprise Applications Administrator** GitLab handle:[alwheel](https://gitlab.com/alwheel) Slack handle: @Andie Wheeler
 - **Brett Latham - Senior Business Systems Administrator** GitLab handle: [Dlatham](https://gitlab.com/Dlatham) Slack handle: @Brett Latham
 - **Mohamed Hussain - Business Systems Administrator** GitLab handle: [Moh.hussain](https://gitlab.com/Moh.hussain) Slack handle: @Mohamed Hussain
 - **Neha Sharma - IT Enterprise Applications Administrator** GitLab handle: [nksharma2](https://gitlab.com/nksharma2) Slack handle: @Neha Sharma
@@ -229,7 +229,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 
 - The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
-  - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
+  - ["Start less, finish more"](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/#starting-new-work)
   - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
 
 ### Steps to getting help from Sales Systems

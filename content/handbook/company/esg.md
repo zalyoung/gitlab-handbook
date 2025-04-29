@@ -49,7 +49,7 @@ This report has been prepared with reference to the Global Reporting Initiative 
 
 GitLab’s Nominating and Corporate Governance Committee on the Board of Directors (“Board”) has reviewed the information in this report.
 
-For information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/ESG/).
+For information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/esg/).
 
 #### Our Approach to ESG
 
@@ -198,7 +198,7 @@ Our team members are critical to our success. We provide pathways for them to th
   - [Caregivers](/handbook/company/culture/inclusion/tmrg-caregivers/)
   - [Disabilities and Neurodivergence](/handbook/company/culture/inclusion/erg-gitlab-diversability/)
   - [Gente](/handbook/company/culture/inclusion/tmrg-gitlab-gente/)
-  - [Generational Understanding](/handbook/company/culture/inclusion/tmrg-gitlab-generational-understanding/)
+  - [Generational Understanding](/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding/)
   - [Global Voices](/handbook/company/culture/inclusion/tmrg-global-voices/)
   - [Pride](/handbook/company/culture/inclusion/tmrg-gitlab-pride/)
   - [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/)
@@ -412,7 +412,7 @@ As part of our commitment to privacy, GitLab ensures that, where appropriate, pr
 
 #### Responsible Product Development
 
-GitLab’s [product mission](/handbook/product-development-flow/) is to consistently create products and experiences that users love and value. We believe this includes our responsibility to [design inclusive products](https://design.gitlab.com/accessibility/inclusive-design-principles/) that aim to provide access to content and functionality that enables consumption and contribution from everyone. Our [product principles](/handbook/product/product-principles/#our-product-principles) guide us in developing products consistent with the approach of other world-class product organizations.
+GitLab’s [product mission](/handbook/product-development/product-development-flow/) is to consistently create products and experiences that users love and value. We believe this includes our responsibility to [design inclusive products](https://design.gitlab.com/accessibility/inclusive-design-principles/) that aim to provide access to content and functionality that enables consumption and contribution from everyone. Our [product principles](/handbook/product/product-principles/#our-product-principles) guide us in developing products consistent with the approach of other world-class product organizations.
 
 We strive to set an example by empowering our wider GitLab community to build and work with the highest levels of security through our DevSecOps platform. This extends to how we are incorporating artificial intelligence (AI) and continuously evolving the platform to enable secure, responsible development.
 

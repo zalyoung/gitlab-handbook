@@ -33,9 +33,9 @@ The executive summary goals for the Organizations group include:
 
 ### Team Members
 
-The following people are permanent members of the Tenant Scale group:
+The following people are permanent members of the Organizations group:
 
-{{% team-by-manager-slug manager="nick-nguyen" team="Organizations" %}}
+{{% team-by-manager-slug manager="mandrewsgl" team="Organizations" %}}
 
 ### Stable Counterparts
 
@@ -104,7 +104,7 @@ projects or epics to make significantly more impact in the company.
 
 ### Product Development Workflow
 
-We follow the GitLab [product development workflow](/handbook/product-development-flow/)
+We follow the GitLab [product development workflow](/handbook/product-development/product-development-flow/)
 guidelines. To get a high-level overview of the status of all issues in the
 current milestone, check the [development workflow board](https://gitlab.com/groups/gitlab-org/-/boards/2594854).
 

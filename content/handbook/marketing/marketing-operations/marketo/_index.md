@@ -345,7 +345,7 @@ A `lead score classification` is a 2-character score/designation meant to classi
 
 The Lead Classification Matrix and the Lead Classification Definitions Table [exist in Figma](https://www.figma.com/file/U4GBe693vvyyrXZnMGGjS7/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=PZBNGKUfGQo8Ocvn-1), if the handbook page ever becomes broken.
 
-![Lead Classification Matrix](/handbook/marketing/marketing-operations/marketo/lead_classification_matrix.png)
+![Lead Classification Matrix](/images/marketing/marketing-operations/marketo/lead_classification_matrix.png)
 
 #### How to use the Lead Classification Matrix and read the Lead Classification
 

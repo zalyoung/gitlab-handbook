@@ -86,7 +86,7 @@ The rotation is staffed during working hours of team members (no weekends). This
   should not be used for emergencies.
   - The on-call is expected to be _available and reachable_ (but not necessarily actively working, as long as you can start the investigation within this SLO.)
   - If paged less than 15 minutes before the end of a shift, you still must respond and explicitly hand off the incident.
-- Serve as point of contact for questions in the `#g_gitaly` channel as well as new [Request For Help issues](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGitalyfirst_page_size=100).
+- Serve as point of contact for questions in the `#g_gitaly` channel as well as new Request For Help issues.
   - Acknowledge inquiries in the `#g_gitaly` channel on a best-effort basis.
   - Triage new Request for Help issues: establish urgency and work with EM/PM to assign a milestone.
 - Ongoing production incidents and customer escalations are explicitly handed off by the outgoing on-call to the next Gitaly on-call using the incident channel on Slack.
@@ -149,7 +149,7 @@ Please refer to https://handbook.gitlab.com/handbook/engineering/on-call/#pagerd
 
 ### Agile workflow in Gitaly
 
-We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) to schedule and track our work.
+We generally follow the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) to schedule and track our work.
 
 Work is executed in small chunks (2-3 days of work), each tracked as an issue. This allows for natural "checkpoints" for safe context switching.
 Triaging and scheduling is separate from executing the current work. All incoming work is tracked and we are intentional about picking up new work.
@@ -246,7 +246,7 @@ roadmap, customer issues should be roughly 70/30.
 ##### Urgent and high priority issues
 
 P1/S1 issues should be treated with urgency. If such issues have not been
-scheduled, [bias for action](/handbook/values/#bias-for-action) is encouraged.
+scheduled, [bias for action](/handbook/values/#operate-with-a-bias-for-action) is encouraged.
 Go ahead and pull them into the current milestone, but do notify the EM and PM.
 
 ##### Blocked issues

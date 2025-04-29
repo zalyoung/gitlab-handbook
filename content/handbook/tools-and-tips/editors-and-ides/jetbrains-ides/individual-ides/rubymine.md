@@ -9,9 +9,9 @@ Website: <https://www.jetbrains.com/ruby/>
 Best for: editing Ruby or Rails applications, which can include Javascript/Typescript and most other
 web technologies.
 
-## Common Jetbrains Setup and Configuration
+## Common JetBrains Setup and Configuration
 
-Jetbrains IDEs are standardized, so much of the setup and configuration information applies to all IDEs, and can be found under [Common Jetbrains Setup and Configuration](../../setup-and-config).
+JetBrains IDEs are standardized, so much of the setup and configuration information applies to all IDEs, and can be found under [Common JetBrains Setup and Configuration](../setup-and-config/_index.md).
 
 Specific config for RubyMine can be found in the sections below.
 

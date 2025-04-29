@@ -19,15 +19,24 @@ Attending the weekly Field Enablement Spotlight session is mandatory, with two o
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Spring 2025 Lineup**
+**Summer 2025 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Mar 27 | Services & Ecosystem Partnerships for Customer Success  |  Customer Success, Services & Ecosystem Teams   |
-| Apr 3 |  Visibility and Measurement Roadmap   | Product Marketing  |
-| Apr 10 |  Product Marketing Update   |  Product Marketing  |
-| Apr 17 |  *No session during the last two weeks of the quarter*   |    |
-| Apr 24 |  *No session during the last two weeks of the quarter*   |    |
+| May 1 |   **No Session**      |     |
+| May 7 |   GitLab Duo Special       |     |
+| May 15 |  Business Value Platform Updates       |  RSO Team  |
+| May 22 |  Embedded Systems in the Automotive, Aerospace, and Electronics Verticals       |  Marketing  |
+| May 29 |  SFDC Product Data Integration       |  RSO Team   |
+| Jun 5 |   Customer & Ecosystems Quoting Update     |  Deal Desk & Ecosystems  |
+| Jun 12 |   Support Team Overview     | Customer Success  |
+| Jun 19 |   TBD     |    |
+| Jun 26 |   TBD      |    |
+| Jul 3 |   Hosted Runners for GitLab Dedicated      |  Product Marketing  |
+| Jul 10 |   Artifact Management Roadmap & the Competition     |  Product Marketing  |
+| Jul 17 |   GitLab Duo Special      |    |
+| Jul 24 |  *No session during the last two weeks of the quarter*   |    |
+| Jul 31 |  *No session during the last two weeks of the quarter*   |    |
 
 ## Past Sessions
 
@@ -36,6 +45,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-04-10 |  **[GitLab Duo with Amazon Q Enablement](https://drive.google.com/file/d/1x6T9YRvgQA2x8poE6M-RPopKYfiMECk5/view?usp=drive_link)**  |  Private  |
+| 2025-03-27 | **[FY26 Field Services Positioning Guidance](https://drive.google.com/file/d/1JNa5bKGL0ppGLl-Q4okFtBRfAqZ2kQ-9/view?usp=drive_link)**  |  Private   |
 | 2025-03-20 | **[The Customer Co-Create Initiative](https://drive.google.com/file/d/190xggRUoRndvzR4U9PJBxKUAKiF__f3T/view?usp=drive_link)**   |  Private   |
 | 2025-03-11 | **[The Future of Secure Agentic AI](https://drive.google.com/file/d/1_YdkKYgckNQqg4p8uN4xKDH42chtJlYE/view?usp=drive_link)**  | Private   |
 | 2025-03-06 |  **[Google Private Offer Updates](https://drive.google.com/file/d/1Z7GOZ8ZbjoF39nhvULzEc2osmXAyDiO4/view?usp=drive_link)**  |  Private   |

@@ -144,7 +144,7 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 
 **Example:**
 
-1. [Git cheat sheet](/images/press/git-cheat-sheet.pdf)
+1. [Git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 1. [How GitLab accelerates workload deployments on AWS](https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/uploads/59d1390557bb304e7401443c4e710c0f/gitlab-aws-ci_t-campaign-infographic-01.pdf)
 
 #### Topic page

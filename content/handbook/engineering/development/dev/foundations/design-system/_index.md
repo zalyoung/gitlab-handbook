@@ -16,7 +16,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 ## What do we work on?
 
 <!-- TODO: Pull this from the product side -->
-- **Design System** ([Direction Page](https://about.gitlab.com/direction/foundations/personal_productivity/))
+- **Design System** ([Direction Page](https://about.gitlab.com/direction/foundations/design_system/))
 
     We are currently focused on integrating our design system, [Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com), into the GitLab product.
 
@@ -33,7 +33,7 @@ For more urgent items or if you are unsure who to ask, ping `@gitlab-org/foundat
 
 ## How do we work?
 
-In general, we use the standard GitLab [Product Development Flow](/handbook/product-development-flow/). Here are some specific workflows we use:
+In general, we use the standard GitLab [Product Development Flow](/handbook/product-development/product-development-flow/). Here are some specific workflows we use:
 
 {{% include "includes/engineering/foundations/weighting_scale.md" %}}
 

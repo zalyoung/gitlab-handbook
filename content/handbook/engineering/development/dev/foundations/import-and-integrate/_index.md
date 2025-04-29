@@ -375,7 +375,7 @@ all stable counterparts who have worked with that team during the milestone.
 Participation by our team members is highly encouraged for every milestone.
 
 These are confidential during the initial discussion, then made public in time
-for each month's [GitLab retrospective](/handbook/engineering/workflow/#retrospective). For more information, see [group retrospectives](/handbook/engineering/management/group-retrospectives/).
+for each month's [GitLab retrospective](/handbook/engineering/management/group-retrospectives/). For more information, see [group retrospectives](/handbook/engineering/management/group-retrospectives/).
 
 #### Per Project
 
@@ -556,6 +556,15 @@ Learn more about error budgets with these resources:
 - [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request.html)
 - [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
 - [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization/): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
+
+## Usage data dashboards
+
+You can view data for feature usage in Tableau.
+
+- [Centralized Product Usage Metrics Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting?:iid=1) can be used to observe any chosen metric. To see data for e.g. Microsoft Teams integration, on the left in `Select Metric Level` choose `PI`, in the `Select Metrics to view` first uncheck `All` and then search for `microsoft` and check metrics for Microsoft Teams integration you're interested in, see [example](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/8c7d8afd-ffc7-4198-b11a-6099df2b8611/3170c5bb-4509-4b3d-8362-470e49286d42). You can choose timeframe and `Dimention Paremeter`, e.g deployment type. Another example is data for [GitHub importer](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/57ab6fbb-7d64-4ab9-ac36-dfcfbd891c69/1e04a888-66de-44c8-b722-1c31e214b8db) or [webhooks usage by deployment](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/ef4c4285-1a54-4769-86d7-60331b44a10a/0fa98245-8e1c-4db1-82f3-2591e310aa3d)
+- [Integrations Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ManageIntegrationsUsage/ServicePingResults?:iid=1) shows all usage of integrations. You can filter in or out (keep only or exclude) any specific integration on the right hand side.
+- [Importer Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2214374/views). This is still work in progress.
+- [User Contribution Mapping Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/3238494/views) shows data on placeholder users created during imports.
 
 ## Links and resources {#links}
 
