@@ -103,7 +103,7 @@ It is expected that Product Security Engineering team members will do refinement
 | `~workflow::in dev` | Issues that are actively being worked on by a developer |
 | `~workflow::in review` | Issues that are undergoing code review by the development team and/or undergoing design review by the UX team |
 | `~workflow::blocked` | Issues that are blocked until another issue has been completed |
-| `~workflow::complete` | Applied after all MRs have merged and the issue has been verified if necessary |
+| `~workflow::complete` | Applied when the [definition of done](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#definition-of-done) has been met |
 
 #### Step-by-step refinement process
 
@@ -117,13 +117,25 @@ Below is a step-by-step process for team members to walk through when refining b
     1. You may need to ask questions of the person who created the issue or the relevant teams
     1. Ensure there is a clear definition of done for this particular set of work
     1. Consider breaking the issue down into separate pieces or, if needed, making an epic
-1. Add additional details to the appropriate sections such that someone can easily understand the goals and requirements
+1. Add additional details to the appropriate sections such that someone can easily understand how to meet the [definition of done](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#definition-of-done), the acceptance criteria, the goals, and requirements
 1. Investigate what an ideal solution might look like and add potential solution information to that issue
     1. Consider timeboxing this effort
     1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
 1. Add a [weight](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#weights) based on how much effort this will take to accomplish
 1. Consider adding a [priority](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#priorities) label to indicate the relative importance of the issue within our backlog
 1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
+
+#### Definition of Done
+
+1. Acceptance criteria met
+1. Code changes:
+    1. Code produced, commented, and checked in
+    1. Peer reviewed and meeting development standards with a passing CI
+    1. Passed any non-CI Acceptance Testing
+    1. Merged & deployed to all applicable environments
+    1. Any build / deployment / configuration changes are implemented / documented / communicated from sprint to sprint
+1. Relevant documentation / diagrams produced and / or updated
+1. Any inter-organizational communication has been completed
 
 ### Weights
 
