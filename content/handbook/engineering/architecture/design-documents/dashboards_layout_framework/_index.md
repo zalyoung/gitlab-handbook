@@ -8,8 +8,8 @@ creation-date: "2025-04-08"
 authors: [ "@rob.hunt", "@jiaan" ]
 coaches: [ "@ahegyi" ]
 dris: [ "@lfarina8", "@nicholasklick" ]
-owning-stage: "~devops::monitor"
-participating-stages: [ "~devops::monitor", "~devops::security risk management" ]
+owning-stage: "~devops::analytics"
+participating-stages: [ "~devops::analytics", "~devops::security risk management" ]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
