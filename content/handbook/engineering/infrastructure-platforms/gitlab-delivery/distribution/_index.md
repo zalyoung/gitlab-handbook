@@ -119,7 +119,7 @@ The following people are members of the Distribution:Deploy Team:
 
 The following members of other functional teams are our [stable counterparts](/handbook/leadership/#stable-counterparts):
 
-{{< stable-counterparts manager-role="Backend Engineering Manager, Distribution" role="Core Platform:Distribution" >}}
+{{< engineering/stable-counterparts manager-role="Backend Engineering Manager, Distribution" role="Core Platform:Distribution" >}}
 
 ## Common links
 

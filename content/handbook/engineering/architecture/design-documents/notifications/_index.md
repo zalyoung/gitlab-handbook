@@ -18,7 +18,7 @@ toc_hide: true
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 <!--
 Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
@@ -30,9 +30,9 @@ For long pages, consider creating a table of contents.
 
 The current notification system is based on emails, requiring users to move constantly between their inbox and GitLab. At the same time, we have a system of to-dos that partially overlaps with notifications but generally establishes only a subset of those. To-dos are also not controlled by any user preferences.
 
-To improve user experience and create parity between to-dos and email notifications, we propose creating a notification system within GitLab itself, which will replace our current, fixed system of to-dos. The system of notifications will be based on how we handle e-mail notifications now - users will be able to define rules for email notifications and notification visible in the notification center in GitLab. Visually, notification center will be similar to our current to-dos page. 
+To improve user experience and create parity between to-dos and email notifications, we propose creating a notification system within GitLab itself, which will replace our current, fixed system of to-dos. The system of notifications will be based on how we handle e-mail notifications now - users will be able to define rules for email notifications and notification visible in the notification center in GitLab. Visually, notification center will be similar to our current to-dos page.
 
-[Epic](https://gitlab.com/groups/gitlab-org/-/epics/13794) that defines needs for the new system. 
+[Epic](https://gitlab.com/groups/gitlab-org/-/epics/13794) that defines needs for the new system.
 
 ## Motivation
 
@@ -127,12 +127,12 @@ erDiagram
         string commit_id
         smallint resolved_by_action
         bigint note_id
-        timestamp snoozed_until 
+        timestamp snoozed_until
         boolean saved
     }
 ```
 
-Our requirements are that we will be accessing todos in the majority of situations by user_id, and possible filtering patterns are: 
+Our requirements are that we will be accessing todos in the majority of situations by user_id, and possible filtering patterns are:
 
 - by project
 - by group (so all notifications coming from projects from particular group)
@@ -142,18 +142,18 @@ Our requirements are that we will be accessing todos in the majority of situatio
 - by state
 - by snoozed status.
 
-We also have some other requirements: 
+We also have some other requirements:
 
 - Non-functional requirement: The new database tables must not use STI.
-- Functional requirement: We need to be able to paginate. 
+- Functional requirement: We need to be able to paginate.
 
-### Notification settings 
+### Notification settings
 
 Currently notification settings allow users to define highly customizable rules for when to receive email notifications. To create parity between the current to-dos and email system, we should add the ability for users to establish if they want to receive email only, email and web-based notification, or just an web-based notification.
 
 NOTE: Changes to the notification settings system apart from adding notification/email differentiation are out of scope for this project.
 
-New columns in the `notification_settings`table: 
+New columns in the `notification_settings`table:
 
 ```mermaid
 erDiagram
@@ -162,9 +162,9 @@ erDiagram
     }
 ```
 
-This will allow to not change anything for current records (we will add the `channel` column with `email` value) and for web-based notifications - we will be adding separate row, allowing maximal flexibility. 
+This will allow to not change anything for current records (we will add the `channel` column with `email` value) and for web-based notifications - we will be adding separate row, allowing maximal flexibility.
 
-### Events 
+### Events
 
 The event system is the backbone of this proposal. GitLab event store implementation is described [here](https://docs.gitlab.com/development/event_store/). Every notification record and every notification email should be handled in the subscriber to the particular event.
 
@@ -178,9 +178,9 @@ flowchart TD
     F --> G[Delivery Channels]
     G --> H[Email]
     G --> K[Future Channels]
-    
+
     F --> L[User Interface]
-    
+
     N[User Preferences] --> D
 ```
 
@@ -199,7 +199,7 @@ The Event Store will serve as the single source of truth for all notification-tr
 
 ### REST API and GraphQL endpoints
 
-Important part of the new implementation is providing REST API and GraphQL endpoints that would allow to interact with notification records, in individual and batch manner. Current implementation of REST API and GraphQL endpoints for to-dos can serve as example of what we are looking for. 
+Important part of the new implementation is providing REST API and GraphQL endpoints that would allow to interact with notification records, in individual and batch manner. Current implementation of REST API and GraphQL endpoints for to-dos can serve as example of what we are looking for.
 
 ## Alternative Solutions
 

@@ -69,7 +69,7 @@ features and experiments that measure the impact of changes to our messaging, UX
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Growth" manager-role="Director of Engineering for Secure, Govern, and Growth" other-manager-roles="Govern and Growth|Growth and Govern:Threat Insights|VP, Online Sales and Self Service" >}}
+{{< engineering/stable-counterparts role="Growth" manager-role="Director of Engineering for Secure, Govern, and Growth" other-manager-roles="Govern and Growth|Growth and Govern:Threat Insights|VP, Online Sales and Self Service" >}}
 
 ## How We Work
 

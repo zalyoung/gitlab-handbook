@@ -6,7 +6,7 @@ description: >-
 
 ## About UX Forum
 
-{{% ux-forum %}}
+{{% product/ux-forum %}}
 
 ### Purpose
 

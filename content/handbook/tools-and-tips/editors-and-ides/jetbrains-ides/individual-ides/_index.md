@@ -1,6 +1,6 @@
 ---
 title: "Individual IDEs"
-no_list: true
+simple_list: true
 ---
 
 ## Individual IDEs
@@ -11,5 +11,3 @@ for all major software development platforms/ecosystems.
 Unlike other single-application editors, each supported platform/ecosystem has a separate individual IDE application.
 
 Here are the individual IDEs most often used at GitLab:
-
-{{< subpages >}}

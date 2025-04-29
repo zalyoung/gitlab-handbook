@@ -203,7 +203,7 @@ When the interim/acting period ends, the following process should be followed to
 
 ## Exchange Rates
 
-{{< exchange-rates >}}
+{{< people-group/exchange-rates >}}
 
 ### Paid in your local currency
 

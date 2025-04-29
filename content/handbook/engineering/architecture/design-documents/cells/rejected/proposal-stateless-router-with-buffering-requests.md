@@ -6,7 +6,7 @@ status: rejected
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 _This proposal was superseded by the [routing service proposal](../http_routing_service.md)_
 

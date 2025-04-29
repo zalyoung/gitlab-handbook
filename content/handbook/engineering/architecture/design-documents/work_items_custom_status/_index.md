@@ -14,7 +14,7 @@ toc_hide: true
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -402,7 +402,7 @@ To conserve database storage we'll only backfill status data for `open` work ite
 
 Although custom status is a licensed feature, we will backfill status data for all work items
 of a given work item type regardless of license.
-We will also perform automatic status transitions for all items, including those that are open, closed, or marked as duplicates. 
+We will also perform automatic status transitions for all items, including those that are open, closed, or marked as duplicates.
 
 For example a newly created work item will receive the default open status,
 and when closed, it will transition to the default closed status.
@@ -601,5 +601,5 @@ We don't expect everyone to approve changes.
 Feel free to mention the following people to spread the word:
 
 ```text
-@johnhope @amandarueda @caitlinsteele 
+@johnhope @amandarueda @caitlinsteele
 ```

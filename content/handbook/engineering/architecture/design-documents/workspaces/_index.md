@@ -11,7 +11,7 @@ toc_hide: true
 no_list: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Introduction
 
@@ -29,7 +29,7 @@ See our [Workspaces direction page](https://about.gitlab.com/direction/create/re
 1. **Web IDE**: An IDE built on top of GitLab VS Code fork by adding GitLab context.
 This IDE runs purely in the browser.
 1. **GitLab VS Code fork for Workspaces**: An IDE built on top of GitLab VS Code fork by applying patches making it suitable to use in Workspaces.
-This IDE runs a server and an optional client which is used to connect remotely. 
+This IDE runs a server and an optional client which is used to connect remotely.
 1. **GitLab Workflow extension**: An extension which adds GitLab features to VS Code.
 1. **GitLab Agent for Kubernetes(agentk)**: A component for solving any GitLab<->Kubernetes integration tasks.
 1. **GitLab Agent for Workspaces(agentw)**: A component for solving any GitLab<->Workspace integration tasks.

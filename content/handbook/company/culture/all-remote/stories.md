@@ -11,6 +11,6 @@ image_title: /images/team.jpg
 twitter_image: "/images/opengraph/all-remote.jpg"
 ---
 
-{{< stories >}}
+{{< all-remote/stories >}}
 
 {{% include "includes/take-gitlab-for-a-spin.md" %}}
