@@ -44,15 +44,34 @@ All GitLab data is categorized and must be handled in accordance with the [Data 
 
 Open Source libraries are allowed under this policy if its use complies with the pre-approved or approval requirements captured in the [Product Legal Handbook](/handbook/legal/product/#using-open-source-software).
 
-### Freeware, Browser Extensions, Add-ons, and Plugins
+## Individual-Use Software and Integrations
 
-Individual Use Software (freeware, add-ons and plugins) is permitted, with the exception of unauthorized Google Workspace Integrations and Chrome Extensions. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security when it is deemed unsafe or insecure.
+Corporate Security governs the installation of individual-use software in order to meet our obligations for data security and lawful data processing. This is supported by ongoing collaborations with Corporate Security, Security Risk, Legal, and Privacy to ensure new individual-use software and integrations are sufficiently vetted prior to implementation.
 
-Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
+### Finding Approved Software
 
-To request approval for new Individual Use Software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/) request process.
+Authorized integrations and other approved individual use software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list. All items are permitted subject to any *Notes and Restrictions* specified for each listing.
+
+### Requesting New Software
+
+To request approval for new individual use software, please follow the [Individual Use Software](/handbook/finance/procurement/individual-use-software/) request process. 
+
+### Application Integrations and Managed Environments
+
+Corporate Security oversees the configuration of new integrations with core GitLab environments in order to maintain the security of sensitive data within.
+
+Integrations with the below-listed **managed environments** are restricted by default and must be reviewed prior to being allow-listed. Requests for new integrations may be submitted [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issue%5Btitle%5D=%5BSystem%20Name%5D%20Integration%20Request&description_template=application_integration_request). Requests will be reviewed by stakeholders from Security, Privacy, and Legal to ensure any data being transmitted between systems is appropriate. Requests may be denied if the integration is found to conflict with GitLab's security and privacy standards.
+
+- Google Chrome
+- Google Workspace
+- Slack
+- Zoom
+
+***Note:*** *The* ***Managed Environments*** *listing is subject to change as we continue iterating on our acceptable use policy. Changes to this policy will be communicated in .*
 
 {{% alert title="Note" %}}
+The individual-use software policy is subject to change as we continue iterating and adjusting to new threats. Major revisions to this policy or to the above-lised **Managed Environments** will be communicated in #whats-happening-at-gitlab.
+
 In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to preempt third party processing of company data under permissive individual use licensing terms, or to prevent Team Member misuse of certain Third Party Software features, IT, Legal, Privacy and Security will generally err on the side of disallowing exceptions to enterprise level software, particularly if there is an enterprise option already in our [Tech Stack Applications](/handbook/business-technology/tech-stack-applications/) that achieves a similar purpose.
 {{% /alert %}}
 
