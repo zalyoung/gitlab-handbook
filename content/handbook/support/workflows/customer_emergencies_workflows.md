@@ -467,7 +467,7 @@ We're expecting, broadly that emergencies will fall into one of five categories:
 
 ### Broken Functionality
 
-If a customer is reporting that behaviour has recently changed, first check [GitLab.com Status](https://status.gitlab.com) and `#incident-management` for any on-going incidents. If there's no known incident:
+If a customer is reporting that behaviour has recently changed, first check [GitLab.com Status](https://status.gitlab.com) and `#incidents` for any on-going incidents. If there's no known incident:
 
 1. Initiate a call with the customer. You're specifically looking to:
    - observe broken behavior.

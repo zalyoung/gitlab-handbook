@@ -1,14 +1,12 @@
 ---
 title: "JetBrains IDEs"
-no_list: true
+simple_list: true
 ---
 
 ## Sub-pages
 
-See the following sub-pages for information on configuration and usage of
+See the sub-pages for information on configuration and usage of
 JetBrains IDEs in general, and for specific usage of IDEs.
-
-{{< subpages >}}
 
 ## Overview
 

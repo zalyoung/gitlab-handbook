@@ -153,7 +153,7 @@ review any proposed changes to documentation, suggest changes to UI microcopy,
 and generally partner with subject matter experts (SMEs) in
 all situations where documentation is required.
 
-{{% tech-writing %}}
+{{% product/tech-writing %}}
 
 <!--
   To update the table above:

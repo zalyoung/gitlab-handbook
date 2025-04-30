@@ -23,4 +23,4 @@ exclude:
   - pattern: '^/handbook/company/team/?#'
   - pattern: '^/handbook/product/categories/?#'
   - pattern: '^/handbook/product/categories/features/?#'
-  - pattern: '^/handbook/engineering/okrs/?#'
+  - pattern: '^/handbook/engineering/projects/?#'

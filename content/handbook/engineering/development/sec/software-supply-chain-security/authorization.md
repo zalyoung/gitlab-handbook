@@ -45,7 +45,7 @@ We do this to encourage our team to be more async in collaboration and to allow 
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Software Supply Chain Security:Authorization" >}}
+{{< engineering/stable-counterparts role="Software Supply Chain Security:Authorization" >}}
 
 ## Team Meetings
 

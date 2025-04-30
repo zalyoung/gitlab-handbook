@@ -132,7 +132,7 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 
 ### UX Forum
 
-{{% ux-forum %}}
+{{% product/ux-forum %}}
 
 ## UX Week in Review
 

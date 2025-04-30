@@ -11,7 +11,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 The CI section envisions new value-added features in GitLab for CI Builds and Runner Fleet focused on observability and automation. However, implementing these features and delivering on the product vision of observability, automation, and AI optimization using the current database architecture in PostgreSQL is very hard because:
 

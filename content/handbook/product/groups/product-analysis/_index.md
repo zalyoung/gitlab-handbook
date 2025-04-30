@@ -11,9 +11,7 @@ Organization (Product and Engineering divisions), in addition to product data-re
 across GitLab.
 
 In addition to supporting the Product and Engineering divisions, the Product Data Insights team is an active
-contributor to the GitLab Data Program. As part of the [Customer Product Adoption (CPA) Pod](/handbook/enterprise-data/organization/#data-pod-assignments),
-the product analysts also work closely with members from the Enterprise Data team. In addition,
-the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/how-we-work/functional-analytics-center-of-excellence/),
+contributor to the GitLab Data Program. In addition, the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/how-we-work/functional-analytics-center-of-excellence/),
 along with other functional analytics groups across the GitLab Data Program.
 
 Read more about what we do at GitLab on our [Direction](https://about.gitlab.com/direction/product-analysis/) page.
@@ -28,7 +26,7 @@ Engineering divisions, each analyst is assigned to one or more sections or teams
 | [Carolyn Braza](/handbook/company/team/#cbraza) | [Senior Manager, Product Data Insights](/job-families/product/product-analyst/#senior-manager-product-data-insights) | [Analytics](/handbook/product/categories/#analytics-section) |
 | [Dani Deng](/handbook/company/team/#ddeng1) | [Product Analyst](/job-families/product/product-analyst/#product-analyst-intermediate) | [Growth](/handbook/product/categories/#growth-section), [Engineering](/handbook/engineering/) |
 | [Nicole Hervas](/handbook/company/team/#nhervas) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [CI](/handbook/product/categories/#ci-section), [CD](/handbook/product/categories/#cd-section) |
-| [Lily Fisher](/handbook/company/team/#lmai1) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Core Platform](/handbook/product/categories/#core-platform-section), [Infrastructure Platforms](/handbook/product/categories/#infrastructure-platforms-section), [Engineering](/handbook/engineering/) |
+| [Lily Fisher](/handbook/company/team/#lmai1) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) |  [Infrastructure Platforms](/handbook/product/categories/#infrastructure-platforms-section), [Engineering](/handbook/engineering/) |
 | [Emma Fergen](/handbook/company/team/#efergen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Data Science](/handbook/product/categories/#data-science-section) |
 | [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section)  |
 | [Dave Peterson](/handbook/company/team/#dpeterson1) | [Staff Product Analyst](/job-families/product/product-analyst/#staff-product-analyst) | [Sec](/handbook/product/categories/#sec-section) |

@@ -30,7 +30,6 @@ The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-s
 Our OKR process and timelines are public and listed on the pages below.
 
 - [FY25-Q4 Active](/handbook/company/okrs/fy25-q4/)
-- [Previous OKRs](#okr-archive)
 
 OKRs are internal-only in line with guidance from the [SAFE framework](/handbook/legal/safe-framework/).
 
@@ -195,5 +194,3 @@ See also [Tips for OKRs that are scoreable](okrs-basics.md#tips-for-okrs-that-ar
 
 Everyone is welcome to a suggestion to improve any OKR.
 To update please make a merge request and post a link to the MR in the #okrs channel in Slack and at-mention the Chief of Staff to the CEO. If commenting on a functional objective or KR, comment directly on the OKR in GitLab.
-
-## OKR Archive

@@ -38,7 +38,7 @@ The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="[&,] Systems:Gitaly( API)?" manager-role="Backend Engineering Manager, Gitaly" >}}
+{{< engineering/stable-counterparts role="[&,] Systems:Gitaly( API)?" manager-role="Backend Engineering Manager, Gitaly" >}}
 
 ## How to contact the team
 

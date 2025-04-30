@@ -260,7 +260,7 @@ When downgrading product maturity, we adjust our customer's current expectations
 
 ![Dev Ops Diagram](/images/product/categories/devops-diagram.svg)
 
-{{% categories %}}
+{{% product/categories %}}
 
 ## Possible future Stages
 
@@ -359,7 +359,7 @@ Maybe we should make our features easier to search to replace the section below.
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [Core Platform section](/handbook/engineering/infrastructure/#core-platform-section), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in Analytics
 
@@ -410,4 +410,4 @@ For more information please review [this section in the quality department handb
 
 <!-- To edit the content of the Categories index, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml -->
 
-{{< categories-index >}}
+{{< product/categories-index >}}

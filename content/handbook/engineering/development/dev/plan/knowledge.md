@@ -19,7 +19,7 @@ Learn more on our [direction page](https://about.gitlab.com/direction/plan/knowl
 
 ### Stable counterparts
 
-{{% stable-counterparts manager-role="Engineering Manager(.*)Plan:Knowledge" role="(.*)Plan:Knowledge$|Product Manager(.*)Plan Stage|Security(.*)Plan|Engineering(.*)Plan$|Principal(.*)Plan$|Group(.*)Plan" %}}
+{{% engineering/stable-counterparts manager-role="Engineering Manager(.*)Plan:Knowledge" role="(.*)Plan:Knowledge$|Product Manager(.*)Plan Stage|Security(.*)Plan|Engineering(.*)Plan$|Principal(.*)Plan$|Group(.*)Plan" %}}
 
 ### Hiring chart
 

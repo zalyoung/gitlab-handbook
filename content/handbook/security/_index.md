@@ -214,7 +214,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 - [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) - Daily questions and discussions focused on work internal to the Security Division. Can be used for reporting when unsure of where to go.
 - [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
 - `#security-team-standup` - Channel for daily standups.
-- `#incident-management` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
+- `#incidents` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
 - `#security-alert-manual` - New reports for the Security Division from various intake sources, including ZenDesk and new HackerOne reports.
 - `#hackerone-feed` - Feed of most activity from our HackerOne program.
 - Other `#security-alert-*` and `#abuse*` - Multiple channels for different notifications

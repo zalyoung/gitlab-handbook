@@ -1,6 +1,14 @@
 {{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
-{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/product_priorities/software_supply_chain_security_wg.yml" $publicHandbookRef}}
+
+{{ if not (.Get 0) }}
+  {{ errorf "The product-priorities shortcode requires an argument. Usage: {{< product-priorities data-file-name >}}" }}
+{{ end }}
+
+{{ $groupName := .Get 0 }}
+{{ $dataFileName := replace $groupName "-" "_" }}
+{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/product_priorities/%s.yml" $publicHandbookRef $dataFileName }}
 {{ $resource := resources.GetRemote $dataURL }}
+
 {{ if not $resource }}
 <h2>Unable to fetch priority Data</h2>
 {{ else }}
@@ -16,7 +24,6 @@
     </tr>
   </thead>
   <tbody>
-
     {{ with $data.priorities }}
       {{ $filteredPriorities := where . "status" "!=" "closed" }}
       {{ range $priorityIndex, $priority := $filteredPriorities }}
@@ -28,8 +35,6 @@
 </tr>
       {{ end }}
     {{ end }}
-
   </tbody>
 </table>
-
 {{ end }}

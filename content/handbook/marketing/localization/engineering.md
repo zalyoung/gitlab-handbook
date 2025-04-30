@@ -19,8 +19,8 @@ The Localization team uses the following issue labels for distinguishing which p
 
 | Organization          | Title       |
 | ----------    | -----------|
-| [Documenation - docs.gitlab.com](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs&first_page_size=100) | `~"L10n-docs"`     |
-| [Mareting - about.gitlab.com](https://gitlab.com/dashboard/issues?sort=created_date&state=opened&label_name[]=L10n-mktg) | `~"L10n-mktg"`     |
+| [Documentation - docs.gitlab.com](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs&first_page_size=100) | `~"L10n-docs"`     |
+| [Marketing - about.gitlab.com](https://gitlab.com/dashboard/issues?sort=created_date&state=opened&label_name[]=L10n-mktg) | `~"L10n-mktg"`     |
 | [Localization engineering work](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=L10n%3A%3Aengineering) | `~"l10n::engineering"` |
 
 The Localization team uses the following scope labels to categorize documentation engineering work.
@@ -28,8 +28,8 @@ The Localization team uses the following scope labels to categorize documentatio
 | What & Current Issues          | Title       |
 | ----------    | -----------|
 | [Documentation engineering work to be triaged](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Atriage&first_page_size=100)| `~"l10n-docs-engineering::triage"`   |
-| [Documenation engineering work required for launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Alaunch-required&first_page_size=100)| `~"l10n-docs-engineering::launch-required"` |
-| [Documenation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=l10n-docs-engineering%3A%3Apost-launch)| `~"l10n-docs-engineering::post-launch"`  |
+| [Documentation engineering work required for launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Alaunch-required&first_page_size=100)| `~"l10n-docs-engineering::launch-required"` |
+| [Documentation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=l10n-docs-engineering%3A%3Apost-launch)| `~"l10n-docs-engineering::post-launch"`  |
 
 #### Iteration Board #9140637 
 
@@ -77,7 +77,7 @@ Each project within these environments maintains the following branch structure:
 3. **main-development** This is our development workspace for i18n features.
 4. **live-preview** A stable live preview branch for the internationalized GitLab documentation. [See MR for more details](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17).
 
-#### Branch maintence
+#### Branch maintenance
 
 ##### How to Update Localization Forks with Upstream Changes**
 

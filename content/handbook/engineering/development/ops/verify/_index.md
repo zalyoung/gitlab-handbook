@@ -96,7 +96,7 @@ The Verify stage is made up of 5 groups:
 
 ### Stable Counterparts
 
-{{< stable-counterparts role="Verify" other-manager-roles="Engineering Manager(.+)(Pipeline Authoring|Pipeline Execution|Runners)|Senior Manager(.+)Verify" >}}
+{{< engineering/stable-counterparts role="Verify" other-manager-roles="Engineering Manager(.+)(Pipeline Authoring|Pipeline Execution|Runners)|Senior Manager(.+)Verify" >}}
 
 ## How we work
 

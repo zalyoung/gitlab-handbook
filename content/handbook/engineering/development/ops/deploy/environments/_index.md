@@ -27,7 +27,7 @@ overall vision.
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Deploy:Environments" manager="nicolo-maria-mezzopera" >}}
+{{< engineering/stable-counterparts role="Deploy:Environments" manager="nicolo-maria-mezzopera" >}}
 
 ## Common Links
 
