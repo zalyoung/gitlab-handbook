@@ -23,11 +23,6 @@ External assets that are subject to shared responsiblity include cloud service p
 
 As an all remote company, there are no physical office locations in the scope of the management system. Contracted third party data center services to include physical and environmental controls are not in scope and are managed by the third party service providers.
 
-For AIMS specifically, the following are excluded from scope:
-
-- Usage of AI tools
-- Third-party AI model architecture and training
-
 ### Locations
 
 GitLab's headquarter mailing address is in scope and covers all sub organizations. Please note this is a mailing address only, there is no physical location to visit:
