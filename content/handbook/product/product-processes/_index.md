@@ -1131,7 +1131,8 @@ both of you can arrive prepared.
 #### Customer Advisory Board meetings
 
 One specific, recurring opportunity to get direct feedback from highly engaged customers
-is the [GitLab Product Customer Advisory Board](/handbook/product/product-processes/customer-advisory-board/). Product Customer Advisory Boards take place on the last month of the quarter and are an opportunity to connect with customers and gather actionable insights.
+is the [GitLab Product Customer Advisory Board](/handbook/product/product-processes/customer-advisory-board/). Product Customer Advisory Board meetings take place on the last month of the quarter. These meetings are an opportunity to connect with customers and gather actionable insights.
+
 You may be asked by the CAB to present your stage or a specific product offering at these meetings.  Here are some guidelines for presenting:
 
 1. Product Focused Highlights: All presentation materials should be focused on products we plan to launch or evaluating products we have available to customers. 
