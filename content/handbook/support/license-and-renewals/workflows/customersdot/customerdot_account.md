@@ -81,4 +81,3 @@ CustomersDot then tries to create an account using the email <customerZ@example.
 Customer Z should not create another account with the email <customerZ@example.com> because an account will be created for them automatically when the transaction succeeds.
 
 **TODO:** We need to verify that Customer Z can purchase using the GitLab account with the email <gitlabZ@example.com> because the system will locate the linked Customers Portal account.
-
