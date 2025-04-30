@@ -41,6 +41,29 @@ TPRM engineers are assigned on-call duties on a weekly basis to manage vendor in
 
 The Security Risk team's core working hours are 8:00AM to 4:00PM CST. For urgent requisitions or TPRM concerns requiring immediate attention outside of these hours, please reach out to Ty Dilbeck via the phone number listed in Slack.
 
+## What Triggers a TPRM Assessment?
+
+Security Risk monitors various inputs to maintain compliance and ensure proper oversight. TPRM assessments are typically valid for 12 months unless otherwise specified, and are triggered in the following scenarios:
+
+- **New Vendor Engagement:** New vendors or systems accessing [Orange or Red data](LINK) require a TPRM review prior to approval.
+- **Vendor Renewal:** Vendor renewals may require a TPRM assessment prior to approval if the most recent assessment has expired.
+- **Changes in Services:** New services and functionality from existing vendors may introduce risks not covered by previous assessments.
+- **Security Incidents:** An assessment may be triggered, along with a [Technical Security Validation](LINK), if a vendor suffers a security incident potentially impacting GitLab data. 
+- **System Integrations:** Integrations between new or existing systems, especially those processing higher-sensitivity data, may require an assessment. See **[System Integrations](LINK)** for details.
+- **Annual High-Risk Reviews:** Vendors in-scope for compliance testing (SOC2, SOX, etc.), [GitLab Sub-Processors](LINK), and vendors otherwise processing Red data are reviewed annual to meet compliance obligations.
+
+## Frequently Asked Questions
+
+| Question | Answer |
+| -------- | ------ |
+| *What is the purpose of all this?* | Our procedures exist to support informed business decisions and mitigate exposure to the ever-evolving threat landscape. This is critical to maintain customer trust and prevent unauthorized data exposure. |
+| *What is my role?* | Your primary role as a requestor is to help us understand what is being purchased and what data is shared. This helps us complete an accurate assessment efficiently to support your needs. | 
+| *You reviewed them last year, why are we doing it again?* | Our assessments are valid for 12 months. After that, a new assessment is required before we can approve additional requisitions. A vendor's security environment and our compliance obligations are subject to change, so ongoing oversight is necessary to stay aligned with evolving risks. | 
+| *Can you just approve and assess after?* | No. Introducing new vendors and systems prior to review can expose us to unforeseen security risks and compliance issues. If a request **must** proceed to address a critical business or customer need, approval may be granted via our [Security Notice process](LINK). | 
+| *Can this be expedited?*  | Our team can prioritize reviews, within reason, if a requisition is critical and time-sensitive. The best way to expedite a review is to encourage the vendor to respond to our inquiries quickly. Urgent requests should be escalated to @Security-Risk in the #Procurement-Security channel. |
+| *How can I track review status?* | [something something Zip something something slack message i'm so tired] |
+| *What if they fail the review?* | A [Security Notice](LINK) will be opened to communicate deficiencies to relevant stakeholders, and Security Risk will collaborate with Business Owners to limit impact to critical workflows. New vendors that fail our TPRM review may be required to address any identified deficiencies before proceeding. For existing vendors, a remediation plan or offboarding plan may be required depending on the severity of the deficiency.  |
+
 ## Security Considerations for Vendor Selection
 
 Security is a top priority in GitLab's vendor selection process, and GitLab is committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and health of their Bitsight security ratings. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security to safeguard GitLab's data and uphold the trust of our stakeholders. Below are some examples of how Security Risk evaluates vendors of different types and some recommendations for vetting vendors when making purchasing decisions.
@@ -447,7 +470,7 @@ Engineers are advised to use professional judgment in determining the scope of c
 
 #### Third Party Application Integrations
 
-Integrations between systems within GitLab's environment are subject to the above-defined TPRM assessment procedures to obtain assurance over the security of data transmitted between each system. The Security Risk team will review the request to obtain an understanding of the data being shared. Application Integration Requests can be opened using the App Integrations issue template located [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issue%5Btitle%5D=%5BSystem%20Name%5D%20Integration%20Request&description_template=application_integration_request). Be sure to update the title of the issue with the relevant system names.
+Integrations between systems within GitLab's environment are subject to the above-defined TPRM assessment procedures to obtain assurance over the security of data transmitted between each system. The Security Risk team will review the request to obtain an understanding of the > data being shared. Application Integration Requests can be opened using the App Integrations issue template located [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issue%5Btitle%5D=%5BSystem%20Name%5D%20Integration%20Request& description_template=application_integration_request). Be sure to update the title of the issue with the relevant system names.
 
 The Application Integration Request process functions to allow visibility and oversight of systems interacting with each other in support of GitLab. This process also functions as a "soft gate" for the Security Risk team to identify and assess existing systems that have aged out of their approval window. Each system within the integration request is reviewed to determine whether an assessment has previously been completed to address the sensitivity of data being transmitted as a result of the proposed integration. New systems, or integrations resulting in increased sensitivity of data being transmitted to a system, will require a TPRM review be completed prior to approval of the request. If each system listed within the request has been previously assessed at any point in alignment with the data shared in the new integration, the request can be approved prior to additional review.
 
