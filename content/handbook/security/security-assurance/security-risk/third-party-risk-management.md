@@ -43,7 +43,7 @@ The Security Risk team's core working hours are 8:00AM to 4:00PM CST. For urgent
 
 ## What Triggers a TPRM Assessment?
 
-Security Risk monitors various inputs to maintain compliance and ensure proper oversight. TPRM assessments are typically valid for 12 months unless otherwise specified, and are triggered in the following scenarios:
+Security Risk monitors various inputs to maintain compliance and ensure proper oversight. TPRM assessments are typically valid for 12 months [unless otherwise specified](LINK or adjust to footnote), and are triggered in the following scenarios:
 
 - **New Vendor Engagement:** New vendors or systems accessing [Orange or Red data](LINK) require a TPRM review prior to approval.
 - **Vendor Renewal:** Vendor renewals may require a TPRM assessment prior to approval if the most recent assessment has expired.
