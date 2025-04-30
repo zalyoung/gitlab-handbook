@@ -1219,12 +1219,14 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 
 #### Sales Dev Operations Team Regional Availability
 
-The Global Sales Dev Operations team has the office hours below, so that regional team members can know how to address internally. Please tag the DRI below in the `#sales_dev_global` slack channel to maintain our [shared reality](/teamops/shared-reality/) and other [GitLab TeamOps tenets.](https://about.gitlab.com/teamops/)
+The Global Sales Dev Operations team has the office hours below, so that regional team members can know how to address internally. Please tag the DRI below in the `#sales_dev_global` slack channel to maintain our [shared reality](/teamops/shared-reality/) and other [GitLab TeamOps tenets.](https://about.gitlab.com/teamops/). 
+
+Please do feel free to reach out to anyone in the ops team based on their availability (Out Of Office etc), and your local time (ie. if you're in EMEA after hours and need someone ASAP, Ed in AMER can assist.)
 
 | Region / Timezone                     | Ops Team Member                                                                                                                                                                  |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AMER              | Ed Bao  |
-| EMEA / APJ              | Panos Rodopoulos (Ed can also assist the APJ team)  |
+| EMEA / APJ              | Panos Rodopoulos (Ed Bao is complementary DRI for APJ)  |
 
 #### Sales Dev Operations Reccuring Team Visits
 
@@ -1237,6 +1239,10 @@ The Sales Dev Ops team also holds recurring weekly working sessions, with up to 
 #### Sales Dev Research Desk
 
 Our Sales Dev Ops team can help you with researching our suite of databases (Sales Nav, ZoomInfo, Cognism, 6Sense) to help you manage your actively worked account list. We typically focus on accounts that are not currently available to our database, but can help with other ideas that you may have. Please log an issue to our board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) using the template `BDR_Research_Request` 
+
+#### Sales Dev Housekeeping Issue
+
+The team has an issue where we consolidate our monthly to-dos (titled `Monthly Housekeeping`). In this issue there's also a section for any feedback that we gathered that month, so we can plan any next steps. If you'd like to add feedback directly please navigate to our [team's board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691), find this month's issue and log any feedback you have there. 
 
 #### Manager Tool Certification
 
