@@ -374,6 +374,47 @@ On rare occasions, you and the manager on-call may decide it's necessary to init
 
 To trigger a developer escalation, see [this process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline).
 
+## Supporting 24/7 Coverage for Customers on the Advanced or Signature Success Tier  - Phase 1
+
+Customer Support provides 24/7 coverage for customers subscribed to GitLab’s Advanced and Signature Success Tiers. These premium tiers, which include access to a [Customer Success Architect (CSA)](/handbook/customer-success/csm/segment/csa/) (CSA), require continuous support and faster response times for Severity 2 issues (labeled as High Priority tickets in Zendesk).
+
+| Success Tier | Coverage                                   |
+| ------------ | ------------------------------------------ |
+| Advanced     | - 24/7 High Priority coverage              |
+| Signature    | - 24/7 High Priority coverage<br>- 2hr SLA |
+
+### Weekend Coverage
+
+Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets. This means we need to provide a first reply and ensure the customer doesn't get into a critical scenario during the weekend. A team of dedicated engineers hired for the permanent 24/7 roles will use this period for onboarding and training. This is Phase 1 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
+
+### PagerDuty Alerts
+
+From 2025-05-01 PagerDuty Alerts for High Priority tickets received from customers with either of the two success tiers will be triggered over the weekend. The [CEOC](#key-responsibilities-for-customer-emergency-on-call) will need to action this ticket within the SLA stated above, dependent on the customer's entitlements, which will be clearly stated in Zendesk.
+
+### Ticket Assignment and Handling
+
+We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
+
+1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention. 
+1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. 
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift. 
+
+The Support Manager On-Call is always available to support you. To request support please trigger a PagerDuty alert:
+
+1. Navigate to the [#support_leadership](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) channel in Slack
+1. Type `/pd trigger` and hit Enter
+1. Write a summary in the Title field
+1. Select `Support Managers` from the list of Impacted Services
+1. Click `Create` to trigger alert.
+
+### Rollout and Monitoring
+
+Estimated timeline for Phase 1: 1-2 months, depending on ticket volume and customer adoption.
+
+**Zendesk Explore Dashboard:** [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE)
+
+This is being closely monitored by Manager DRIs (@erikamiklos (EMEA), @ralfaro (AMER), @kslaats (APAC)) in the Zendesk Dashboard: [24-7 Success Tier Coverage](https://gitlab.zendesk.com/explore/studio#/dashboards/06E115D8E3D0A86B89012F8C2FF9C3713331EF2CA24A3B7677CB8B355D061ACE).
+
 ## License Emergencies
 
 ### During the week
@@ -398,21 +439,21 @@ Otherwise, follow the [Self-Managed Weekend Emergencies - License Request](/hand
 
 A customer may be blocked because of a license expiring or neglecting to apply a renewal. If this happens over the weekend:
 
-1. Look up the namespace details using [chatops](/handbook/support/workflows/chatops#namespace) or a GitLab.com Admin account via the namespaces API (https://gitlab.com/api/v4/namespaces/<NAMESPACE>)
+1. Look up the namespace details using [chatops](/handbook/support/workflows/chatops#namespace) or a GitLab.com Admin account by using the namespaces API (https://gitlab.com/api/v4/namespaces/<NAMESPACE>)
 1. Check the `Trial ends on` date.
-    - If it has a date, you will not need to provide a `Subscription Name` in the next step. Proceed to step 3.
-    - If it is empty or null **and the namespace is on a Free plan**, guide the customer to navigate to the Settings -> Billing page and click on `Start a Free Ultimate trial`.
+   - If it has a date, you will not need to provide a `Subscription Name` in the next step. Proceed to step 3.
+   - If it is empty or null **and the namespace is on a Free plan**, guide the customer to navigate to the Settings -> Billing page and click on `Start a Free Ultimate trial`.
 1. In the ticket, apply the `Trial Subscription - Exclusions Sign Off` macro and send the generated message to the customer. Do not proceed further until the customer has provided a **written** response confirming they understand the trial subscription exclusions.
 1. In the `Mechanizer` app on the ticket use the [`Manage GitLab Plan and Trials`](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#manage-gitlabcom-plan-and-trials) option to resolve the situation.
-    - Enter the namespace path.
-    - Select the Plan the customer had initially purchased, or use `Ultimate` if you do not have this information.
-    - Set the end date to 10 days later.
-    - Leave the `Approving sales manager's GitLab username` field empty.
-    - Leave the `Subscription name` empty.
-    - Click `Submit request`.
+   - Enter the namespace path.
+   - Select the Plan the customer had initially purchased, or use `Ultimate` if you do not have this information.
+   - Set the end date to 10 days later.
+   - Leave the `Approving sales manager's GitLab username` field empty.
+   - Leave the `Subscription name` empty.
+   - Click `Submit request`.
 1. Wait for the pipeline to complete and check the output of Mechanizer in the [Internal Requests issue tracker](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) where Mechanizer will have automatically assigned you to a new issue.
-    - If it is successful, proceed to the next step.
-    - If there are any failures, please see [Problems extending trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#problems-extending-trials) for some troubleshooting steps.
+   - If it is successful, proceed to the next step.
+   - If there are any failures, please see [Problems extending trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials) for some troubleshooting steps.
 1. When the customer confirms, close the emergency ticket.
 1. Alert [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) by linking to the ticket for follow-up.
 
@@ -486,7 +527,7 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 #### Broken functionality due to something specific to the customer
 
-1. [Page the Support Manager on-call](/handbook/support/on-call/#paging-the-on-call-manager) to review the best way to unblock the customer. It may be that you will need someone with .com console access to fully investigate / resolve.
+1. [Page the Support Manager on-call](/handbook/support/on-call/#engaging-the-on-call-manager) to review the best way to unblock the customer. It may be that you will need someone with .com console access to fully investigate / resolve.
 
 #### Broken functionality due to an incident
 
@@ -505,7 +546,7 @@ If there is a known incident, it's acceptable to link to the public status page 
 A customer may be blocked because they have run out of compute minutes.
 
 1. Advise them to purchase additional compute minutes or set up individual runners.
-1. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-additional-minutes-quota-for-a-namespace)
+1. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-minutes-quota-for-a-namespace)
 
 #### Customer has exceeded their storage quota
 
@@ -525,8 +566,8 @@ Success in such a situation is two-fold:
 If this occurs:
 
 1. Don't panic! Slack and PD alerts may come quickly and frequently. Consider silencing both temporarily and focus on ZD.
-1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows#how-are-incidents-declared) and that the incident is actively being worked.
-1. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/engineering/infrastructure/incident-management/#communications-manager-on-call-cmoc-responsibilities) so that you can point to it in responses.
+1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows/#how-incidents-are-declared) and that the incident is actively being worked.
+1. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/support/workflows/cmoc_workflows/#how-incidents-are-declared).
 1. Choose a unique tag that will help you identify tickets, using the incident number would be typical. For example: `incident-12345`
 1. Create a bulk response that points to the incident on the status page, `@gitlabstatus` on Twitter and the production issue. If any of these aren't available yet, you can send a response without to keep customers informed. You can include them in a future update.
    - Share the response that you draft or otherwise coordinate with `#support_gitlab-com` and others fielding first responses. There are likely non-emergency tickets being raised about the incident. Using the same response increases the efficiency with which we can all respond to customer inquiries about the problem.
