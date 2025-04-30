@@ -65,7 +65,6 @@
 /content/handbook/company/stewardship.md @bill_staples
 /content/handbook/company/strategy.md @bill_staples
 /content/handbook/company/group-conversations.md @streas
-/content/handbook/company/key-review.md @streas
 /content/handbook/leadership/ @bill_staples @streas
 /content/job-families/board-of-directors/ @bill_staples @robin
 /content/job-families/chief-executive-officer @bill_staples @streas
@@ -554,7 +553,7 @@
 /content/handbook/security/product-security/security-platforms-architecture/security-research/ @jdicken
 /content/handbook/security/product-security/security-platforms-architecture/product-security-engineering/ @jdicken @maggiemartin
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
-/content/handbook/security/security-operations/ @cibericua @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian 
+/content/handbook/security/security-operations/ @cibericua @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian
 /content/handbook/security/security-operations/security-logging/ @mcoons
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity

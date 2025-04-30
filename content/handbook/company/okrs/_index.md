@@ -31,7 +31,6 @@ The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-s
 Our OKR process and timelines are public and listed on the pages below.
 
 - [FY25-Q4 Active](/handbook/company/okrs/fy25-q4/)
-- [Previous OKRs](#okr-archive)
 
 OKRs are internal-only in line with guidance from the [SAFE framework](/handbook/legal/safe-framework/).
 
@@ -214,35 +213,3 @@ See also [Tips for OKRs that are scoreable](okrs-basics.md#tips-for-okrs-that-ar
 
 Everyone is welcome to a suggestion to improve any OKR.
 To update please make a merge request and post a link to the MR in the #okrs channel in Slack and at-mention the Chief of Staff to the CEO. If commenting on a functional objective or KR, comment directly on the OKR in GitLab.
-
-## OKR Archive
-
-- [FY25-Q3](/handbook/company/okrs/fy25-q3/)
-- [FY25-Q2](/handbook/company/okrs/fy25-q2/)
-- [FY25-Q1](/handbook/company/okrs/fy25-q1/)
-- [FY24-Q4](/handbook/company/okrs/fy24-q4/)
-- [FY24-Q3](/handbook/company/okrs/fy24-q3/)
-- [FY24-Q2](/handbook/company/okrs/fy24-q2/)
-- [FY24-Q1](/handbook/company/okrs/fy24-q1/)
-- [FY23-Q4](/handbook/company/okrs/fy23-q4/)
-- [FY23-Q3](/handbook/company/okrs/fy23-q3/)
-- [FY23-Q2](/handbook/company/okrs/fy23-q2/)
-- [FY23-Q1](/handbook/company/okrs/fy23-q1/)
-- [FY22-Q4](/handbook/company/okrs/fy22-q4/)
-- [FY22-Q3](/handbook/company/okrs/fy22-q3/)
-- [FY22-Q2](/handbook/company/okrs/fy22-q2/)
-- [FY22-Q1](/handbook/company/okrs/fy22-q1/)
-- [FY21-Q4](/handbook/company/okrs/fy21-q4/)
-- [FY21-Q3](/handbook/company/okrs/fy21-q3/)
-- [FY21-Q2](/handbook/company/okrs/fy21-q2/)
-- [FY21-Q1](/handbook/company/okrs/fy21-q1/)
-- [FY20-Q4](/handbook/company/okrs/fy20-q4/)
-- [FY20-Q3](/handbook/company/okrs/fy20-q3/)
-- [FY20-Q2](/handbook/company/okrs/fy20-q2/)
-- [FY20-Q1](/handbook/company/okrs/fy20-q1/)
-- [CY18-Q4](/handbook/company/okrs/2018-q4/)
-- [CY18-Q3](/handbook/company/okrs/2018-q3/)
-- [CY18-Q2](/handbook/company/okrs/2018-q2/)
-- [CY18-Q1](/handbook/company/okrs/2018-q1/)
-- [CY17-Q4](/handbook/company/okrs/2017-q4/)
-- [CY17-Q3](/handbook/company/okrs/2017-q3/)
