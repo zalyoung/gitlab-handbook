@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Purpose
 
-GitLab has adopted the ISO/IEC 27001:2022 standard for our information security management system (ISMS) and ISO/IEC 42001:2023 for our artificial intelligence management system (AIMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's information security and artificial intelligence management systems.
+GitLab has adopted the ISO/IEC 27001:2022 standard for our information security management system (ISMS) and ISO/IEC 42001:2023 for our artificial intelligence management system (AIMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's information security and artificial intelligence management system.
 
 ## Scope
 
@@ -15,13 +15,13 @@ The scope of GitLab's AIMS covers GitLab's role as an AI provider for the AI ser
 
 ### Assets
 
-Assets within the scope of the management systems include: customer data, software, people, and internal information assets to host and operate the cloud-based solution.
+Assets within the scope of the management system include: customer data, software, people, and internal information assets to host and operate the cloud-based solution.
 
 External assets that are subject to shared responsiblity include cloud service providers and artificial intelligence providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, infrastructure assets management, processes that run on a multi-tenant virtualized environment, cloud service administration, and development and enhacement of AI models.
 
 ### Excluded from Scope
 
-As an all remote company, there are no physical office locations in the scope of the management systems. Contracted third party data center services to include physical and environmental controls are not in scope and are managed by the third party service providers.
+As an all remote company, there are no physical office locations in the scope of the management system. Contracted third party data center services to include physical and environmental controls are not in scope and are managed by the third party service providers.
 
 For AIMS specifically, the following are excluded from scope:
 - Usage of AI tools
@@ -35,7 +35,7 @@ GitLab's headquarter mailing address is in scope and covers all sub organization
 
 ### Organizational Units
 
-Business functions included in the scope of the management systems include:
+Business functions included in the scope of the management system include:
 
 - Security - Chief Information Security Officer; Security Assurance; Product Security; Security Operations; Threat Management Security teams. Division structure is defined [here](/handbook/security/#division-structure)
 - Engineering - VP of Development
@@ -69,7 +69,7 @@ This management system governs GitLab security operations. Interested parties in
 | Corporate Security | Manage identity and access management, role based access control, admin access |
 | Duo Product Management| Monitor performance of AI system; maintain AI system; identify AI risks; evaluation of the performance of AI model providers |
 | Legal| Responsible for AI governance; third-party contracts; privacy reviews|
-| Other management systems business units | Implement, operate and/or administer information security requirements; remediate information security findings; collaborate with the Security department |
+| Other management system business units | Implement, operate and/or administer information security requirements; remediate information security findings; collaborate with the Security department |
 | All GitLab Team Members | Awareness of responsibilities as it relates to information security; adherence to information security controlled documents; reporting of suspected security violations |
 
 ## Implementation Manual Procedure
@@ -87,7 +87,7 @@ The council, comprised of Security and Privacy (Legal) leadership, shall meet on
 - Changes to Risk Heatmap (trends)
 - Output from Continuous Control Monitoring
 - Observations (CA/PAs)
-- Changes that could affect the management systems
+- Changes that could affect the management system
 - Feedback and improvements
 - Management system inputs and outputs
 
@@ -127,7 +127,7 @@ If using a third-party service to outsource or supplement security processes, a 
 
 GitLab monitors, measures, and improves security controls through various continuous monitoring measures, such as:
 
-- [Continuous control testing/Annual management systems internal compliance audits](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
+- [Continuous control testing/Annual management system internal compliance audits](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
 - [External audits (SOC 2 Type 2, TISAX, customer security assessments)](security-assurance/security-compliance/certifications/)
 - [Annual security operational risk assessments](/handbook/security/security-assurance/security-risk/storm-program/)
 - [Annual third-party penetration testing](/handbook/security/security-and-technology-policies/penetration-testing-policy/)
@@ -140,7 +140,7 @@ GitLab monitors, measures, and improves security controls through various contin
 
 ### Improvement
 
-GitLab is committed to continually improving the suitability, adequacy and effectiveness of the management systems.
+GitLab is committed to continually improving the suitability, adequacy and effectiveness of the management system.
 
 As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision](/handbook/security/security-assurance/security-risk/storm-program/#risk-response). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/).
 
