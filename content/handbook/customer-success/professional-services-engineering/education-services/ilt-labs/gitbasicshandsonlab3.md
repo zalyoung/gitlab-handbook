@@ -69,7 +69,7 @@ To help with viewing issues and epics in a singular place, you can utilize issue
 
 1. We are going to create a new list to store our issues that are associated with us. Click the **New List** button on the right.
 
-1. Select *Assignee**, then select your username. 
+1. Select **Assignee**, then select your username. 
 
 1. Select **Add to board**.
 
