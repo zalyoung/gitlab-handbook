@@ -385,7 +385,7 @@ Customer Support provides 24/7 coverage for customers subscribed to GitLab’s A
 
 ### Weekend Coverage
 
-Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets. A team of dedicated engineers hired for the permanent 24/7 roles will use this period for onboarding and training. This is Phase 1 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
+Commencing May, 2025 `@ceoc`, managed by our existing on-call rotation schedule, will temporarily be responsible for weekend coverage for these tickets. This means we need to provide a first reply and ensure the customer doesn't get into a critical scenario during the weekend. A team of dedicated engineers hired for the permanent 24/7 roles will use this period for onboarding and training. This is Phase 1 of a 3-Phase approach detailed further in [STM#6743 24/7 Shift role and it's implementation](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6743).
 
 ### PagerDuty Alerts
 
