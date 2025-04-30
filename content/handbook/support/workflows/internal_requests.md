@@ -110,6 +110,7 @@ See [internal wiki page](https://gitlab.com/gitlab-com/support/internal-requests
 
 There is a [generic template](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=GitLab.com%20Console%20Escalation) used to request an engineer with GitLab.com console access to take action.
 Templates available:
+
 1. [Console Export Request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?description_template=GitLab.com%20Console%20Export%20Request) for creating a project export via the console.
 1. [Console Escalation](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?description_template=GitLab.com%20Console%20Escalation) for running commands in the rails console.
 
