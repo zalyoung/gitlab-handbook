@@ -33,7 +33,7 @@ This IDE runs a server and an optional client which is used to connect remotely.
 1. **GitLab Workflow extension**: An extension which adds GitLab features to VS Code.
 1. **GitLab Agent for Kubernetes(agentk)**: A component for solving any GitLab<->Kubernetes integration tasks.
 1. **GitLab Agent for Workspaces(agentw)**: A component for solving any GitLab<->Workspace integration tasks.
-1. **GitLab Agent Server(KAS)**: A server running alongside GitLab Rails application to feliciate connections between different GitLab Agents(agentk, agentw) and GitLab and vice versa.
+1. **GitLab Agent Server(KAS)**: A server running alongside GitLab Rails application to facilitate connections between different GitLab Agents(agentk, agentw) and GitLab and vice versa.
 
 ## Overview
 
