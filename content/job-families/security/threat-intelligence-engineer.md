@@ -58,6 +58,9 @@ The Senior Threat Intelligence Engineer is a [grade 7](/handbook/total-rewards/c
 - Includes [base-level responsibilities](#responsibilities).
 - ...
 - ...
+- Publish blogs on threat-related topics
+- Teach and mentor other engineers, within Threat Intelligence and beyond
+- Participate in candidate interviews during the hiring process
 
 #### Senior Threat Intelligence Engineer Requirements
 
