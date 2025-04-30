@@ -57,7 +57,7 @@ CREATE TABLE issue_notifications (
 
 CREATE TABLE note_notifications (
     notification_id BIGINT NOT NULL,
-    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    resource_id BIGINT NOT NULL REFERENCES notes(id) ON DELETE CASCADE,
     namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
     user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
     FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
@@ -65,7 +65,7 @@ CREATE TABLE note_notifications (
 
 CREATE TABLE merge_request_notifications (
     notification_id BIGINT NOT NULL,
-    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    resource_id BIGINT NOT NULL REFERENCES merge_requests(id) ON DELETE CASCADE,
     namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
     user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
     FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
@@ -73,7 +73,7 @@ CREATE TABLE merge_request_notifications (
 
 CREATE TABLE epic_notifications (
     notification_id BIGINT NOT NULL,
-    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    resource_id BIGINT NOT NULL REFERENCES epics(id) ON DELETE CASCADE,
     namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
     user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
     FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
@@ -81,7 +81,7 @@ CREATE TABLE epic_notifications (
 
 CREATE TABLE ssh_keys_notification_links (
     notification_id BIGINT NOT NULL,
-    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    resource_id BIGINT NOT NULL REFERENCES keys(id) ON DELETE CASCADE,
     namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
     user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
     FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
@@ -89,7 +89,7 @@ CREATE TABLE ssh_keys_notification_links (
 
 CREATE TABLE commit_notifications (
     notification_id BIGINT NOT NULL,
-    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    resource_id BIGINT NOT NULL,
     namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
     user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
     FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
