@@ -397,7 +397,7 @@ We as a company want to treat High Priority tickets, especially from customers w
 
 1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention. 
 1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. 
-1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](https://handbook.gitlab.com/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift. 
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift. 
 
 The Support Manager On-Call is always available to support you. To request support please trigger a PagerDuty alert:
 
@@ -566,7 +566,7 @@ Success in such a situation is two-fold:
 If this occurs:
 
 1. Don't panic! Slack and PD alerts may come quickly and frequently. Consider silencing both temporarily and focus on ZD.
-1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows#how-are-incidents-declared) and that the incident is actively being worked.
+1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows/#how-incidents-are-declared) and that the incident is actively being worked.
 1. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/support/workflows/cmoc_workflows/#how-incidents-are-declared).
 1. Choose a unique tag that will help you identify tickets, using the incident number would be typical. For example: `incident-12345`
 1. Create a bulk response that points to the incident on the status page, `@gitlabstatus` on Twitter and the production issue. If any of these aren't available yet, you can send a response without to keep customers informed. You can include them in a future update.
