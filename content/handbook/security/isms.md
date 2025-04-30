@@ -110,7 +110,9 @@ The [GitLab team handbook](/) is the central repository for how we run the compa
 - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
 - [Security Operational Risk Management (StORM) Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/)
-- [AI Policy]
+- [GitLab AI Ethics Principles for Product Development](https://handbook.gitlab.com/handbook/legal/ethics-compliance-program/ai-ethics-principles/)
+- [General Purpose AI Tool Usage Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/)
+- [Approved AI Tools](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#approved-ai-tools)
 
 GitLab has a dedicated Security Compliance team responsible for monitoring design and effectiveness of the [GitLab common control framework](/handbook/security/security-assurance/security-compliance/sec-controls/) to ensure GitLab's security objectives are thoughtfully planned, implemented and monitored.
 
