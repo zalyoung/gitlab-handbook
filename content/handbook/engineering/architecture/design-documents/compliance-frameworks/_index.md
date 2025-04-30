@@ -1,6 +1,6 @@
 ---
 title: "Compliance Frameworks"
-status: ongoing
+status: implemented
 creation-date: "2024-07-08"
 authors: [ "@nrosandich", "@huzaifaiftikhar1" ]
 coach: "@theoretick"
