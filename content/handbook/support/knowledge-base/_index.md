@@ -100,7 +100,6 @@ Publishing an article should be done by the person who merges a KB MR. After the
 
 As of 2025-05-01 instead of submitting a request using the Super Form and articles being created/published automatically, users will be directed to filing an issue with Customer Support Ops using this [template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=New%20Article) The template askd for the same information the Super Form asked for and Customer Support Ops will ensure the article is created. The Super Form will no longer accept submissions for new articles and will instead contain instructions on how to file an issue instead. **This is a temporary measure until we start managing KB content directly in Zendesk in June.**
 
-
 ### Getting Help
 
 Questions can be asked in the dedicated [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) Slack channel.
