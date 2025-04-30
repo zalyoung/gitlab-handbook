@@ -56,7 +56,7 @@ Participants should consider these important expectations for professional coach
 1. **First Session:** Schedule your first session in the coaching portal. Your first session will be 60 minutes, providing space to get to know your coach and set development goals. This first session should happen before Workshop I on 2024-10-24.
 1. **Subsequent sessions:** Schedule subsequent sessions for 30 or 60 minute sessions, on dates of your choosing, direcly with your coach.
 1. We recommend spreading out coaching hours throughout the length of the program. You’ll likely schedule some sessions after Workshop II. That is expected (and encouraged!) so you can work with your coach on concepts discussed during the workshop.
-1. Sessions can be rescheudled via the coaching portal if done before a 24 hour window. Sessions cancelled within a 24 hour window **cannot be rescheduled.**  
+1. Sessions can be rescheudled via the coaching portal if done before a 24 hour window. Sessions cancelled within a 24 hour window **cannot be rescheduled.**
 1. You will likely complete your Elevate+ certification reflection exercise before you've finished your 5 coaching hours.
 
 ## Measuring Success
@@ -83,7 +83,7 @@ _Please note that Elevate+ is a required training for eligible people leaders at
 
 ### I was asked to fill out the Stakeholder Assessment - what does this mean?
 
-The Elevate+ [stakeholder assessment](/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
+The Elevate+ [stakeholder assessment](/handbook/people-group/learning-and-development/elevate-programs/elevateplus/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
 
 Being nominated to take this assessment means an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style. Participants will view their self assessment results alongside feedback from stakehodlers, then use this data to guide goals they set during Elevate+.
 

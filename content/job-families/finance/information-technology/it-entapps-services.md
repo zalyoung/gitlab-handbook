@@ -8,7 +8,7 @@ The IT Enterprise Services Job Family is responsible for optimal delivery of ser
 
 ### Manager, Enterprise Applications Services (Intermediate)
 
-The Manager, Enterprise Applications Services may report to the [Senior Manager, Enterprise Applications Services](/job-families/finance/it-entapps-services/#senior-manager-data) or to the [Director/Senior Director, Business Technology Operations](/job-families/finance/director-bt-operations).
+The Manager, Enterprise Applications Services may report to the [Senior Manager, Enterprise Applications Services](/job-families/finance/information-technology/it-entapps-services/#senior-manager-enterprise-applications-services) or to the [Director/Senior Director, Business Technology Operations](/job-families/finance/director-bt-operations).
 
 #### Job Grade
 
@@ -73,7 +73,7 @@ The next step in the IT Enterprise Applications Services Management job family i
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with our Director, Business Technology Operations
 - Next, candidates will be invited to schedule one or more interviews with members of the Enterprise Applications Services team
 - Next, candidates will be invited to schedule one or more interviews with Business Partners

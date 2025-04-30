@@ -29,7 +29,7 @@ Are you an active participant in Elevate+? Click here to navigate to the Particp
 
 <div class="flex-row" markdown="0">
   <div>
-     <a href= "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/_participant-hub" class="btn btn-primary" style="width:200px;margin:5px;">Click Here: Participant Hub</a>
+     <a href= "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevateplus/participant-hub/" class="btn btn-primary" style="width:200px;margin:5px;">Click Here: Participant Hub</a>
   </div>
 </div>
 
@@ -171,7 +171,7 @@ Due to our priority to certify people leaders, participation by aspiring manager
 
 ### I was asked to fill out the Stakeholder Assessment - what does this mean?
 
-The Elevate+ [stakeholder assessment](/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
+The Elevate+ [stakeholder assessment](/handbook/people-group/learning-and-development/elevate-programs/elevateplus/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
 
 Being nominated to take this assessment means that an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style. Participants will view their self assessment results alongside feedback from stakehodlers, then use this data to guide goals they set during Elevate+.
 

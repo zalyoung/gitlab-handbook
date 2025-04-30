@@ -139,7 +139,7 @@ The Group PM, Fulfillment is the PM DRI for the [Fulfillment Section](/handbook/
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with a Director of Product
 - Next, candidates will be invited to schedule a 45 minute peer interview with an Engineering Manager
 - Next, candidates will be invited to schedule a 45 minute deep dive interview with a member of the Product team
@@ -206,7 +206,7 @@ The Director of Product Management, SaaS Platforms is the PM DRI for the [SaaS P
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with the VP of Product Management
 - Next, candidates will be invited to schedule a 45 minute second peer interview with a Product Director
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Product team
@@ -244,7 +244,7 @@ The next step in the Product Management Leadership job family is to move to the 
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with the VP of Product Management
 - Next, candidates will be invited to schedule a 45 minute second peer interview with a Product Director
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Product team
