@@ -114,13 +114,12 @@ You have completed the initial setup process for your GitLab account and MacBook
 3. After setting your password, your browser will redirect to the Okta Dashboard.
 
 ### Step 2: Okta Initial Setup
-1. Download Google Chrome
+1. On your Linux laptop, download Google Chrome
 2. Open Google Chrome, and navigate to https://gitlab.okta.com
-3. Click on Gmail 
-4. Complete security verification:
-   - In Chrome, click "Verify it's you with a security method"
+3. Complete security verification:
+   - Click "Verify it's you with a security method"
    - Select "Password" and click "Verify"
-5. Set up additional security methods:
+4. Set up additional security methods:
    - On the "Set up Security methods" screen, click "Set up" for "Security Key or Biometric authenticator"
    - Click "Set up" again to confirm
    - On the "Create a passkey for gitlab.okta.com" pop-up, click "Continue"
