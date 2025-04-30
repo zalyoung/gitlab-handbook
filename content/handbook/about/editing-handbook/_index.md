@@ -163,8 +163,8 @@ The site uses the concept of page bundles, sections, and leaf pages.  A section 
 
 In general, Handbook URLs should describe their content and be as clean and easy to remember as possible.
 
-Directories (folders) and pages should use lowercase `a-z` and hyphen `-`, except for `_index.md`. Uppercase `A-Z` is allowed but discouraged.
-While Git and Hugo allow any UTF-8 character to be used in the file path, using other characters (such as a space) can cause issues with the pipeline.
+Directories (folders) and pages should use lowercase `a-z`, hyphen `-`, and underscore `_`.
+While Git and Hugo allow any UTF-8 character to be used in the file path, using other characters (such as a space) can cause issues with the pipeline, and thus, disallowed.
 
 Section:
 

@@ -315,7 +315,7 @@ Any IT team member can explore lateral career moves within the broader IT job fa
 
 ## Hiring Process
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to a 45 minute interview with a senior member of the team.
 - Second round interviews will involve interviews with 2 members of the Data Team and/or others.
 - Third round interview is with the Senior Director of Enterprise Applications.

@@ -65,7 +65,7 @@ breach before the ASE gets online then that means
 
 When an ASE is planning time off, they will first find one or more
 other support engineers to take care of their accounts during their absence.
-The ASEs use their [PTO planning workflow](../ase-workflows-and-standards/planning-pto-as-ASE.html)
+The ASEs use their [PTO planning workflow](../ase-workflows-and-standards/planning-pto-as-ase.md)
 for arranging coverage. Here's what covering for an ASE means for you:
 
 - Balance your workload to make room for the potential work with
