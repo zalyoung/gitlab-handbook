@@ -138,6 +138,7 @@ for clarity.
 To prevent potential abuse, service accounts will have the following
 limitations:
 
+- Service accounts do not have personal namespaces.
 - Service accounts are prohibited from creating other service accounts.
   This prevents unintended proliferation of machine identities, lateral movement
   from potential malicious actors, and maintains clear ownership.
