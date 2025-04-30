@@ -239,6 +239,7 @@ optional.
 -->
 
 - **Creating a dashboard framework or new visualizations components** - We will use existing framework visualization components rather than creating new ones
+- **Fixing inconsistencies between existing API's and datasources** - We won't directly resolve inconsistencies in existing APIs and data sources. Rather, we're creating an interface layer that abstracts these differences away from the use
 
 ## Proposal
 
