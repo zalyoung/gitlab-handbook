@@ -21,7 +21,7 @@ title: "Customer Advocacy at GitLab"
 
 Questions
 
-- Reach us in the **#customer-advocacy-and-references** Slack channel, where questions will be triaged. For additional information and resources, check out the [Customer Advocacy Overview deck](https://docs.google.com/presentation/d/1QyqHRQzhNE7WdvYqM6evCbX3zRGM5QGf2WJABx8I0gk/edit#slide=id.p) deck and the [Customer Stories Hub in Highspot](https://gitlab.highspot.com/items/676f4e2a20ff94bffb86fc4f?lfrm=shp.2).
+- Reach us in the **#customer-advocacy-and-references** Slack channel, where questions will be triaged. For additional information and resources, check out the [Customer Advocacy Overview deck](https://docs.google.com/presentation/d/1QyqHRQzhNE7WdvYqM6evCbX3zRGM5QGf2WJABx8I0gk/edit#slide=id.p) and the [Customer Stories Hub in Highspot](https://gitlab.highspot.com/items/676f4e2a20ff94bffb86fc4f?lfrm=shp.2).
 
 Requests
 
@@ -57,7 +57,7 @@ The Customer Advocacy team partners with Investor Relations, Sales, and PMM to i
 We focus on two categories of earnings references:
 
 - First Order: net new ENT/MM customers typically appear in earnings as name and/or logo drops.
-- Growth: existing ENT/MM customers that have seen measurable success or expansion are typically featured in earinngs with a story or quote.
+- Growth: existing ENT/MM customers that have seen measurable success or expansion are typically featured in earnings with a story or quote.
 
 > **Help us secure earnings customer references.** For more details on this process, please review the [Customer References Sales Guide](https://docs.google.com/document/d/1FN2zE_shb-0Mp5O8SZhIa4d-j7_nq_oo71sjLGZPsyo/edit?tab=t.0).
 
@@ -95,7 +95,7 @@ For more details on the EAB program, review the [Internal Brief](https://docs.go
 
 > Additionally, other teams at GitLab manage [advisory and executive customer programs](https://docs.google.com/presentation/d/1T0OVie9fjBcjlR_v20xa1X_AB_XzUUTzr0DUYuplcQA/edit?slide=id.g2746b382564_0_218#slide=id.g2746b382564_0_218), including:
 >
-> - **[Product Customer Advisory Board](https://handbook.gitlab.com/handbook/product/product-processes/customer-advisory-board/)** - Select manager+ level champions from strategic accounts, focused on technical discussions (DRI: Michaela Seferian-Jenkins, Product)
+> - **Product Customer Advisory Board** - Select manager+ level champions from strategic accounts, focused on technical discussions (DRI: Michaela Seferian-Jenkins, Product)
 > - **Federal Customer Advisory Board** - Invitation-only cohort of executives from PubSec customer accounts (Interim DRI: Liz Burrows, PubSec)
 > - **Federal Advisory Board** - Forum of 5-7 paid consultants across the government (Interim DRI: Liz Burrows, PubSec)
 > - **Executive Sponsorship Program** - Pairs strategic customer executives with GitLab senior leadership for regular 1x1 engagement (Interim DRI: Aileen Lu, Sales)
