@@ -397,7 +397,7 @@ We as a company want to treat High Priority tickets, especially from customers w
 
 1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention. 
 1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. 
-1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the PD alert and tickets in safe state should stay assigned to the CEOC leaving shift. 
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the [PD alert](https://handbook.gitlab.com/handbook/support/on-call/#engaging-the-next-on-call-support-engineer) and tickets in safe state should stay assigned to the CEOC leaving shift. 
 
 The Support Manager On-Call is always available to support you. To request support please trigger a PagerDuty alert:
 
