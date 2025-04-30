@@ -24,6 +24,7 @@ External assets that are subject to shared responsiblity include cloud service p
 As an all remote company, there are no physical office locations in the scope of the management system. Contracted third party data center services to include physical and environmental controls are not in scope and are managed by the third party service providers.
 
 For AIMS specifically, the following are excluded from scope:
+
 - Usage of AI tools
 - Third-party AI model architecture and training
 
@@ -115,7 +116,7 @@ The [GitLab team handbook](/) is the central repository for how we run the compa
 - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
 - [Security Operational Risk Management (StORM) Program & Procedures](/handbook/security/security-assurance/security-risk/storm-program/)
-- [GitLab AI Ethics Principles for Product Development](https://handbook.gitlab.com/handbook/legal/ethics-compliance-program/ai-ethics-principles/)
+- [GitLab AI Ethics Principles for Product Development](content/handbook/legal/ethics-compliance-program/ai-ethics-principles.md)
 - [General Purpose AI Tool Usage Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/ai-tool-usage-guidelines/)
 - [Approved AI Tools](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#approved-ai-tools)
 
