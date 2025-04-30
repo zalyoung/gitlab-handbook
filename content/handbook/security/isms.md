@@ -43,7 +43,7 @@ Business functions included in the scope of the management systems include:
 - Finance - VP of Information Technology
 - People Operations - VP of Total Rewards and People Operations, Technology and Analytics
 - Legal - VP of Legal Operations; Senior Director, Contracts and Legal Operations; Director of Legal, Privacy and Product
-- Data Science - 
+- Data Science - Responsible for leveraging ML and AI capabilities in the GitLab product, providing applied AI capabilities, and preventing abuse in the application.
 
 ### Interested Parties
 
