@@ -17,7 +17,7 @@ The scope of GitLab's AIMS covers GitLab's role as an AI provider for the AI ser
 
 Assets within the scope of the management system include: customer data, software, people, and internal information assets to host and operate the cloud-based solution.
 
-External assets that are subject to shared responsiblity include cloud service providers and artificial intelligence providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, infrastructure assets management, processes that run on a multi-tenant virtualized environment, cloud service administration, and development and enhacement of AI models.
+External assets that are subject to shared responsiblity include cloud service providers and artificial intelligence providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, infrastructure assets management, processes that run on a multi-tenant virtualized environment, cloud service administration, and development and enhancement of AI models.
 
 ### Excluded from Scope
 
@@ -100,9 +100,9 @@ The GitLab Security team executes quarterly cascading [Objectives and Key Result
 
 ### Support
 
-GitLab has implemented a formal security awareness training program that includes: new hire security awareness training, global annual security awareness training and quarterly targeted phishing exercises. These trainings are administered via a third party portal and include a quiz to test understanding of the security topics presented.
+GitLab has implemented a formal security awareness training program that includes: new hire security awareness training, global annual security awareness training and quarterly targeted phishing exercises. These trainings are administered through a third party portal and include a quiz to test understanding of the security topics presented.
 
-A formal [controlled document procedure](/handbook/security/controlled-document-procedure/) is in place to ensure that there is consistency in developing and maintaining controlled documents at GitLab utilizing a hierarchal approach. All controlled documents are available to all GitLab team members and the public via the [GitLab handbook](/) unless otherwise noted. Updates to controlled documents are managed via [GitLab merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) which are also accessible to all GitLab team members for the entire workflow. An annual review of controlled documents is required by the owner or assigned representative.
+A formal [controlled document procedure](/handbook/security/controlled-document-procedure/) is in place to ensure that there is consistency in developing and maintaining controlled documents at GitLab utilizing a hierarchal approach. All controlled documents are available to all GitLab team members and the public through the [GitLab handbook](/) unless otherwise noted. Updates to controlled documents are managed via [GitLab merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) which are also accessible to all GitLab team members for the entire workflow. An annual review of controlled documents is required by the owner or assigned representative.
 
 GitLab publishes [Job Families](/handbook/hiring/job-families/) to define roles and responsibilities based on level for all team members. This information is publicly available and the foundation for team member hiring and performance reviews. On a minimum of an annual basis, GitLab management executes [talent assessments](/handbook/people-group/talent-assessment/) with team members to ensure competency to Job Family.
 
