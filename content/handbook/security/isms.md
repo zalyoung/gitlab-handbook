@@ -56,7 +56,7 @@ This ISMS governs GitLab security operations. Interested parties include:
 | Role | Responsibility |
 | --- | --- |
 | ISMS Council | Oversight, implementation and continual improvement of the ISMS |
-| Chief Information Security Officer | Executive sponsor of the ISMS; coordinate, promote and improve information security; establish information security policy; establish AI policy |
+| Chief Information Security Officer | Executive sponsor of the ISMS; coordinate, promote and improve information security |
 | Security Management (Code Owners) | Owner of the ISMS responsible for approving significant changes and exceptions of the ISMS |
 | Security Assurance | Reporting on the performance of the information security management system to top management; security risk assessments and treatment; continuous monitoring and auditing; customer assurance activities; security awareness program; security governance activities |
 | Product Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks; infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
