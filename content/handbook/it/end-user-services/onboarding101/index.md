@@ -144,4 +144,4 @@ You have completed the initial setup process for your GitLab account and MacBook
 
 ## Need Help?
 
-If you need further assistance with setting up your MacBook please join our weekly onboarding call scheduled every Tuesday (Check your Calendar!) or reach out to us in Slack in the #it_help channel.
+If you need further assistance with setting up your laptop please join our weekly onboarding call scheduled every Tuesday (Check your Calendar!) or reach out to us in Slack in the #it_help channel.
