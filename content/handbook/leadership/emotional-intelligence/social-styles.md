@@ -34,7 +34,7 @@ There are so many use cases for CliftonStrengths across GitLab:
 * When planning complex projects
 * During team retrospectives and growth discussions
 
-## Typical CLifton Process
+## Typical Clifton Process
 *Please note timelines may vary depending on request.  Find request form [here](https://docs.google.com/forms/d/187ApdZFnhWcJNloaukomxS-wtQ7upmLGzc_vkIF4GyE/viewform?edit_requested=true).*
 Based on the image, here's the CliftonStrengths Process timeline formatted in markdown:
 markdown# Clifton Strengths Process
