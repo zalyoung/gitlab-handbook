@@ -326,6 +326,7 @@ To provide proof of Full Disk Encryption, please do the following depending on t
 
 * Apple : Evidence is automatically gathered in Jamf. No user action necessary.
 * Linux : Take a screenshot showing the output of `sudo dmsetup ls && sudo dmidecode -s system-serial-number && cat /etc/fstab`
+  * You should see something limilar to `luks-xxxxx etc` or `crypt-rpool` or similar at the beginning of the output (`dmsetup ls`) . If you see `No devices found`, your disk is probably not fully encrypted, and you will need to re-install your OS and follow the encryption steps. If you don't ensure your disk is fully encrypted before you start saving data, you'll have to re-do this whole process in the future.
 
 ### Fleet Intelligence & Remote Lock/Wipe
 
