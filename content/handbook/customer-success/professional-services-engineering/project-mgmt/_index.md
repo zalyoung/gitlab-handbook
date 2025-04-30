@@ -187,8 +187,9 @@ Project scope for Professional Services is the outline of the work required to d
    **Revenue Release FP Projects**
 
    - Revenue is recognized upon receipt of customer acceptance or upon the completion of passive acceptance (according to the SOW terms).
-   - The PM sends a formal request for acceptance to the customer, copying the Operations Manager and Project Coordinator. The PM then updates the Billing/Revenue Milestone in Kantata.
-   - If passive acceptance is applicable, Day 1 is counted as the day the notification is sent, and business days are calculated from this date to determine when passive acceptance is complete.
+   - The PM makes a copy of the [Project Milestone/Closure document](https://docs.google.com/document/d/1RiS5TY5484nQuDTW8YMiB-CibVfoni7NJ8IUG2osUD0/edit?tab=t.0) and attaches the document to the Customer for closure, copying Operations coordinator. The Customer can either sign the document itself or reply "approved".
+   - Once approved, The PM updates set the Milestone in Kantata to "complete".
+   - If passive acceptance is applicable per the SOW, the Customer has 5 business days to approve or deny before we can set the milestone to "complete". Day 1 is counted as the day the notification is sent.
 
    **Key Updates for Kantata**
 
