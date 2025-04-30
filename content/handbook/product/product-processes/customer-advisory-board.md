@@ -35,7 +35,7 @@ Results for Customers: Demonstrate clear value through roadmap iterations that a
 
 1. **Emphasize Dialogue over Monologue:** Structure your presentation to encourage meaningful two-ways discussions. Take pauses, plan specific talking points, and actively seek input.
 
-1. **Prepare Targeted Questions:** Develop 2-3 specific, through provoking questions to engage members in conversation. These questions should be focused on product innovation presented, strategic decisions GitLab is currently grappling with not necessarily hypothetical scenarios that can be difficult for Manager+ to answer.
+1. **Prepare Targeted Questions:** Develop 2-3 specific, through provoking questions to engage members in conversation. These questions should be focused on presentation, strategic decisions GitLab is currently grappling in your stage that you would like to gather customer feedback on, or a question related directly to customer workflows. These questions should not be able to be answered with a simple 'yes or no'. We reccomend not to focus too much on hypothetical scenarios that can be difficult for Manager+ to answer since our CAB community are not ICs directly executinf the work within GitLab. 
 
 1. **Connect to Previous Feedback:** Reference previous feedback you have received from advisory meetings in the past. This will help illustrate to CAB members the value of their time and that GitLab takes their recommendations into consideration. Be as specific as possible (within reason) about what actions were taken as a result of feedback.
 
