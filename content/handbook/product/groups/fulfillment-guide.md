@@ -188,7 +188,7 @@ We will not attempt to auto-renew if:
 - Self-Managed customer is not on Cloud Licensing
 - Customer is not on QSR
 - Customer is on QSR, but QSR failed and there's overage
-- Customer's credit card is expired
+- Customer's credit card is expired (if billing account has `Auto-Pay = Yes`)
 
 Auto-renewal will fail if:
 
