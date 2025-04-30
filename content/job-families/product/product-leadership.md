@@ -48,7 +48,7 @@ The VP of UX is a [grade 12](/handbook/total-rewards/compensation/compensation-c
 
 #### Interview Process
 
-- [Screening call](/handbook/hiring/#screening-call) with a recruiter.
+- [Screening call](/handbook/hiring/candidate-faq/#screening-call) with a recruiter.
 - Interview with a manager on the UX Leadership team. In this interview, the interviewer will spend a lot of time trying to understand the experience you have leading managers, as well as what type of teams you have led and your management style. The interviewer will also be looking to understand how you define strategy, how you've handled conflict, and how you dealt with difficult situations in the past. Do be prepared to talk about your work, experience with Design Systems, and technical ability, too.
 - Interview with a director on the UX Leadership team. In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a large initiative you led the work on. We'll look to understand the size and structure of the team, the goals of the project, how you/the team approached research, how you used research to inform decisions, and how you collaborated with the wider team. Broadly, we want to hear how you identified what needed to be done and then guided your team to the end result.
 - Interview with VP of Product Management.
@@ -169,7 +169,7 @@ The Senior Director of Product Management - Dev & Analytics is the PM DRI for th
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with the Chief Product Officer
 - Next, candidates will be invited to schedule a 45 minute second peer interview with a Product Director
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Product team
