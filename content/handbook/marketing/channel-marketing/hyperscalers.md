@@ -127,7 +127,7 @@ The means we'll manage one campaign, two budget entries (amount in FM and amount
 
 - Field Marketing will submit one entry in their Allocadia folder for 50% of the total activity for GitLab's matching portion in the Regional Marketing folder
 
-   - When submitting the Zip request, you must enter 50% of the total coverage.
+  - When submitting the Zip request, you must enter 50% of the total coverage.
 
 - Partner Marketing will submit both the positive entry for AWS contribution and the negative entry for GitLab's matching portion in the Hyperscaler MDF folder.
 - Both entries will reference the same campaign and use identical naming conventions
