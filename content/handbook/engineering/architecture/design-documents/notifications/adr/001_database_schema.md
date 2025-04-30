@@ -24,7 +24,7 @@ Stores notifications per user.
 
 ```sql
 CREATE TABLE notifications (
-  id SERIAL PRIMARY KEY,
+  id SERIAL,
   user_id BIGINT NOT NULL REFERENCES users(id),
   read BOOLEAN DEFAULT FALSE,
   created_at TIMESTAMP DEFAULT NOW(),
@@ -35,9 +35,9 @@ CREATE TABLE notifications (
   resolved_by_action SMALLINT,
   author_id BIGINT REFERENCES users(id),
   action SMALLINT,
+  resource_type SMALLINT,
   PRIMARY KEY (id, user_id)
 ) PARTITION BY HASH (user_id);
-;
 ```
 
 This table should be partitioned using [hash-based strategy](https://docs.gitlab.com/development/database/partitioning/). We should use 32 partitions (which would give us enough headway to accommodate future growth of this table). `User_id` column should be used as partition key, since lookup by `user_id` is the most used usecase we should optimize for. 
@@ -48,51 +48,51 @@ Each notification links to exactly **one** resource via a dedicated table.
 
 ```sql
 CREATE TABLE issue_notifications (
-  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
-  issue_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
-  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
-  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
-  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
+    notification_id BIGINT NOT NULL,
+    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
+    user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
 );
 
 CREATE TABLE note_notifications (
-  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
-  note_id BIGINT NOT NULL REFERENCES notes(id) ON DELETE CASCADE,
-  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
-  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
-  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
+    notification_id BIGINT NOT NULL,
+    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
+    user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
 );
 
 CREATE TABLE merge_request_notifications (
-  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
-  merge_request_id BIGINT NOT NULL REFERENCES merge_requests(id) ON DELETE CASCADE,
-  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
-  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
-  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
+    notification_id BIGINT NOT NULL,
+    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
+    user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
 );
 
 CREATE TABLE epic_notifications (
-  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
-  epic_id BIGINT NOT NULL REFERENCES epics(id) ON DELETE CASCADE,
-  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
-  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
-  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
+    notification_id BIGINT NOT NULL,
+    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
+    user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
 );
 
 CREATE TABLE ssh_keys_notification_links (
-  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
-  ssh_key_id BIGINT NOT NULL REFERENCES keys(id) ON DELETE CASCADE,
-  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
-  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
-  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
+    notification_id BIGINT NOT NULL,
+    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
+    user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
 )
 
 CREATE TABLE commit_notifications (
-  notification_id BIGINT REFERENCES notifications(id) ON DELETE CASCADE,
-  commit_id BIGINT NOT NULL,
-  namespace_id BIGINT NOT NULL REFERENCES namespaces(id),
-  user_id BIGINT NOT NULL REFERENCES user(id) ON DELETE CASCADE,
-  FOREIGN KEY (user_id, notification_id) REFERENCES notifications(id, user_id)
+    notification_id BIGINT NOT NULL,
+    resource_id BIGINT NOT NULL REFERENCES issues(id) ON DELETE CASCADE,
+    namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
+    user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
 )
 ```
 
