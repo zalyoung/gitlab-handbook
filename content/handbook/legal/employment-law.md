@@ -7,7 +7,7 @@ title: "Legal, Employment at GitLab: A Strategic Partnership"
 
 Employment law governs the relationship between employers and employees. At GitLab, the Legal Employment team serves as a **strategic partner** across the organization, providing expert guidance and proactive legal solutions throughout the entire team member lifecycle. **What does this partnership entail?**
 
-- We ***collaborate strategically** with Sales, Field, Finance and People teams to develop scalable, compliant employment solutions as GitLab expands globally and responsibly, implementing a comprehensive process for gathering, assessing, and acting on country-specific information.
+- We ***collaborate strategically** with Sales, Go-to-Market, Finance and People teams to develop scalable, compliant employment solutions as GitLab expands globally and responsibly, implementing a comprehensive process for gathering, assessing, and acting on country-specific information.
 
 - We **empower** the Talent Acquisition department to achieve its critical goals while ensuring compliance with local laws and regulations during sourcing, recruitment, and hiring processes.
 
@@ -32,7 +32,7 @@ To work with the Legal Employment team, reach out early in your process, provide
 
 ### Connect
 
-To connect with legal, employment, especially on sensitive matters, you can use the legal-employment@gitlab.com email address, or for non-sensitive queries, you can reach out in the [#legal](https://gitlab.enterprise.slack.com/archives/C78E74A6L) slack channel. Note that GitLab team members with individual employment queries should reach out to Team Member Relations team on teammemberrelations@gitlab.com or to their PBP for support.
+To connect with legal, employment, especially on sensitive matters, you can use the legal-employment@gitlab.com email address, or for non-sensitive queries, you can reach out in the [#legal](https://gitlab.enterprise.slack.com/archives/C78E74A6L) slack channel. Note that GitLab team members with individual employment queries should reach out to Team Member Relations team on teammemberrelations@gitlab.com or to their aligned [People Business Partner](/handbook/people-group/people-business-partners/#team-structure-and-organizational-health) for support.
 
 ### Collaborate
 
