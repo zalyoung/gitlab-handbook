@@ -1,39 +1,83 @@
 ---
-title: Mechanizer
+title: CustomersDot Admin Support Tools
 category: CustomersDot
-description: How to use the mechanizer for L&R requests.
+description: How to use the CustomersDot Admin Support Tools for L&R requests.
 ---
 
 ## Overview
 
-This workflow details how to use the Zendesk App that utilizes the [Mechanizer](https://gitlab.com/gitlab-com/support/toolbox/mechanizer) to automate CustomersDot console related tasks.
+This workflow details how to use the CustomersDot Admin Support Tools for L&R related tasks.
 
-The Mechanizer is [currently in maintenance mode](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4299). Our product goal is to migrate the features in Mechanizer to CustomersDot ([epic](https://gitlab.com/groups/gitlab-org/-/epics/6828)).
+The CustomersDot Admin Support Tools implementation is tracked in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/6828).
 
-## Existing Automations
+## Where the tools is located 
 
-The new ZD Mechanizer app can be found by opening the ZD App side bar. You must scroll down to find it; it is shown below several other apps.
+The CustomersDot Admin Support Tools can be found by log in into https://customers.gitlab.com/admin. Then scroll down to the **Support** section in the left panel.
 
-In the app you will have the option to select from the following request types:
+In the **Support** section you will have the following tools to select from:
 
-### Note
+### Namespace Controls (SaaS)
 
-**Your GitLab Username** will be automatically added to the form.
+There are different tabs for namespace control:
 
-### Set compute minutes to namespace
+#### Set extra CI minutes
 
-Allows setting additional compute minutes to a customer namespace to the value specified in the `Extra minutes` field.
+Allows setting additional compute minutes to a customer namespace to the value specified in the `New minutes total` field.
 
-> **WARNING:** Additional compute minutes added this way will last **indefinitely** until used. If the request is to provide "extra compute minutes" during the trial period only, use the [Manage GitLab Plan and Trials option](#manage-gitlabcom-plan-and-trials) which will change the *usage quota* to match a paid plan quota for the duration of the trial.
+> **WARNING:** Additional compute minutes added this way will last **indefinitely** until used. If the request is to provide "extra compute minutes" during the trial period only, use the [Manage GitLab Plan and Trials option](#manage-gitlabcom-plan-and-trials) which will change the *usage quota* to match a paid plan quota for the duration of the trial. ## To-be-update
 
-The form has two required fields:
+The form has three required fields:
 
-- **Namespace**: The customer namespace as it appears in the URL.
-- **Extra minutes**: The value of compute units to set. If you want to add X amount of compute units to a namespace:
+- **Namespace ID/Path**: The customer namespace path as it appears in the URL or its ID.
+- **New minutes total**: The value of compute units to set. If you want to add X amount of compute units to a namespace:
   - Check the current "Additional Units" value (Y)
   - Add the current units (Y) + the new units you want (X)
-  - Enter this total in the "Extra amount of units of compute" field
-For example, to add 1000 units to namespace with a total of 6000 Additional Compute Units, set the "Extra amount of units of compute" field to 7000.   (***Note:** This will update the 'Additional Units' value in the namespace's 'Usage Quotas' page.* )
+  - Enter this total in the "New minutes total" field
+For example, to add 1000 units to namespace with a total of 6000 Additional Compute Units, set the "New minutes total" field to 7000.   (***Note:** This will update the 'Additional Units' value in the namespace's 'Usage Quotas' page.* )
+- **Zendesk ticket link**: The link to relevant ZenDesk ticket where the request is made.
+
+#### Set additional storage
+
+Sets [additional storage](https://docs.gitlab.com/user/usage_quotas/#excess-storage-usage) for a namespace to the value specified in the `New extra storage (MiB)` field
+
+- **Namespace ID/Path:** The customer namespace path as it appears in the URL or its ID.
+- **New extra storage (MiB):** Additional storage to add in MB
+- **Zendesk ticket link**: The link to relevant ZenDesk ticket where the request is made.
+
+> Note: As storage is entered as MB, consider that GB is presented in the UI for large numbers. For example: `10000 MB = 9.76 GB`. For '10 GB of storage', you should instead use `10240`, as `10240 MB = 10 GB`
+
+#### Clear Subscription
+
+Unlink a group from a subscription. Note: The group will be downgraded to Free if the subscription being unlinked is a Premium or Ultimate subscription.
+
+- **Subscription ID/name**: The subscription ID/name to be removed from a namespace.
+- **Zendesk ticket link**: The link to relevant ZenDesk ticket where the request is made.
+
+#### Force Associate
+
+Associates a group with a subscription. All fields are required.
+
+- **Namespace ID/Path:** The customer namespace path as it appears in the URL or its ID.
+- **Subscription ID/name**: The subscription ID/name to be removed from a namespace.
+- **Zendesk ticket link**: The link to relevant ZenDesk ticket where the request is made.
+
+#### Reset max seats
+
+Modifies the highest number of seats used on the namespace during the current subscription term.
+
+##### Note
+
+This will change the total seats owed in the GitLab.com subscription. Before using this option check with a support manager.
+
+- **Namespace:** The customer namespace as it appears in the URL.
+- **Max Seats number:** New value for max seats.
+
+### Support Audit Events
+
+### Trial Changes (SaaS)
+
+### Trials for SM
+
 
 ### Enable compute minutes
 
@@ -43,12 +87,6 @@ Remove the restrictions for using compute minutes for groups who are part of a s
 
 - **Namespace**: The customer namespace as it appears in the URL.
 
-### Force Associate
-
-Associates a group with a subscription. All fields are required.
-
-- **Namespace**: The customer namespace as it appears in the URL.
-- **Subscription ID**: The unique ID of the purchased subscription in Salesforce
 
 ### Manage GitLab.com Plan and Trials
 
@@ -79,11 +117,7 @@ Required to "extend" a subscription:
 
 > Note: When a new trial is created, it has the default trial values (30-day, ultimate, 400 compute quota), so you need to re-run "Update GitLab Plan" again with the requested values.
 
-### Clear Subscription
 
-Unlink a group from a subscription. Note: The group will be downgraded to Free if the subscription being unlinked is a Premium or Ultimate subscription or trial.
-
-- **Subscription name:** The subscription to be removed from a namespace.
 
 ### Unlink GitLab.com Account
 
@@ -104,23 +138,3 @@ The use of this feature should be limited for any emergency license requests whe
 A note on **User Count**:
 
 For Self-Managed licences, GitLab will refuse to install a license key with less than the current number of billable users. Therefore, **User Count** for a trial license should *at least* be the same number as the current number of billable users plus any true-ups owed (if any).  For example, if 25 current billable users, and 5 true-ups owed, set **User Count** to at least 30.
-
-### Add project-level storage to a namespace
-
-Sets [additional project storage](https://docs.gitlab.com/user/usage_quotas/#excess-storage-usage) for a namespace to the value specified in the `Extra storage (MiB)` field
-
-- **Namespace:** The customer namespace as it appears in the URL.
-- **Extra storage (MiB):** Additional space to add in MB
-
-> Note: As storage is entered as MB, consider that GB is presented in the UI for large numbers. For example: `10000 MB = 9.76 GB`. For '10 GB of storage', you should instead use `10240`, as `10240 MB = 10 GB`
-
-### Set max seats
-
-Modifies the highest number of seats used on the namespace during the current subscription term.
-
-#### Note
-
-This will change the total seats owed in the GitLab.com subscription. Before using this option check with a support manager.
-
-- **Namespace:** The customer namespace as it appears in the URL.
-- **Max Seats number:** New value for max seats.
