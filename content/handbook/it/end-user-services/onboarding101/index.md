@@ -103,6 +103,7 @@ You will receive an Okta activation email in your personal email. This is the fi
 ### Congratulations
 
 You have completed the initial setup process for your GitLab account and MacBook. If you encounter any issues, please contact the IT Help Desk.
+
 ## Laptop Setup: Linux
 
 ### Step 1: Activate Your Okta Account and Access Gmail
@@ -133,7 +134,7 @@ You have completed the initial setup process for your GitLab account and MacBook
 1. On the **Verify it's you** screen, click **Continue**
 1. On the **Enhanced Ad Privacy in Chrome** notice, click **Got It**
 1. When you see **Your organization will manage this profile,** click **Continue**
-0. On the **Turn on Sync** window, click **Yes, I'm in**
+1. On the **Turn on Sync** window, click **Yes, I'm in**
 
 ### Step 4: Access GitLab.com Account
 
