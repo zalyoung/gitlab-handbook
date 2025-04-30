@@ -220,6 +220,10 @@ Tips & Tricks:
 - Depending on the state of the escalation, also think about setting up an internal cadence meeting and include all necessary team members.
   - CSM, AE, SA, CSM & Sales leadership, and potentially other involved stakeholders.
 
+#### Multiple escalations for one customer
+
+In rare instances, there may be multiple reasons for a customer to be escalated at one time. In order to keep the reasons for escalation and the steps to resolve them focused, there should be an escalation for each situation. Each escalation should be declared and separate Slack channels opened with the relevant stakeholders involved. The reason for the escalation should be included the channel name to reduce confusion (e.g. if one customer is escalated for both a DAST issue and a performance issue, there should be two channels, one called esc_customername_dast and one called esc_customername_perf). Each escalation should follow the defined escalation process separately, but the account team and leadership should stay aligned on where the overall account health is throughout and if there should be any action that relates to both escalations. Including additional leadership such as the e-group may be warranted if there is significant risk to the overall sentiment of the account.
+
 ### Closing the Escalation
 
 - To close an escalation, a clear alignment between GitLab stakeholders and the customer (including documentation in an issue or email) is required. Both parties need to agree the situation is resolved.
