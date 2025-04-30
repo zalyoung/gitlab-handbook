@@ -32,7 +32,6 @@ Use one of the following methods to get a `user.id`:
 - Admin account: Navigate to the admin link in the [GitLab User Lookup](/handbook/security/customer-support-operations/docs/zendesk/apps/#gitlab-super-app) Zendesk app
 - [Users API](https://docs.gitlab.com/api/users/#for-normal-users): Search for user using their email or username
 
-
 At times a search will turn up a Sentry issue that appears to reference the information (user ID, URL, etc...) of another user and not the one that reported the issue. If this happens and you need to create an issue for that specific reporter, simply click the `Events` tab as seen below to view a list of all users affected by that issue.
 
 ![Sentry events tab](/images/support/sentry-events-tab.png)
@@ -64,7 +63,6 @@ If you have the `ID` of the user, find the error message for the user in Sentry'
 If the purchase was also attempted from [CustomersDot portal](https://customers.gitlab.com/customers/sign_in), use
 the [workflow](/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases#getting-error-message-from-sentry)
 to find the error message in [Customers Portal Sentry project](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=8).
-
 
 ### Searching by Correlation ID
 
