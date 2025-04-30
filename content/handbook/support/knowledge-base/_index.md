@@ -96,11 +96,11 @@ knowledge base content. This has the following benefits:
 
 ### Publishing a KB article
 
-Publishing an article should be done by the person who merges a KB MR. After the KB article is merged:
+Publishing an article should be done by the person who merges a KB MR. After the KB article is merged: 
 
-1. Submit a request using the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/), selecting `Create a Zendesk article` for the field "What is this request concerning?".
-1. After successful submission, the Support Super Form will create an issue and post URLs to
-   the published KB article. The sync may take 5 to 10 minutes to complete.
+1. Create an issue with Customer Support Ops using the [New Article template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=New%20Article).
+1. Include a link to the merged article on the master branch.
+1. Ops will create the article.
 
 ### Getting Help
 
