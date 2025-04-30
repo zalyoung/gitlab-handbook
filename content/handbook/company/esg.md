@@ -128,7 +128,7 @@ Managers at GitLab support our mission of enabling everyone to contribute to and
 
 During FY24, we also developed and launched additional tools to help participants deepen and continue their learning beyond initial certification. [Elevate Applied](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/) is an ongoing resource that enables Managers and Senior Managers to connect with each other and practice, apply, and integrate concepts taught in Elevate in their day-to-day work at GitLab.
 
-In addition, we developed and announced the FY25 launch of [Elevate+](/handbook/people-group/learning-and-development/elevate-programs/elevate+/), a six-month program designed to enable senior leaders (Directors and Senior Directors) to better understand and practice behaviors anchored in GitLab’s values and leadership competencies, develop new skills to support high-priority business needs, and help establish and strengthen cross-functional connections.
+In addition, we developed and announced the FY25 launch of [Elevate+](/handbook/people-group/learning-and-development/elevate-programs/elevateplus/), a six-month program designed to enable senior leaders (Directors and Senior Directors) to better understand and practice behaviors anchored in GitLab’s values and leadership competencies, develop new skills to support high-priority business needs, and help establish and strengthen cross-functional connections.
 
 ##### Talent Engagement
 
@@ -219,7 +219,7 @@ From education to mentorship, sponsorship, and advocacy, GitLab educates its lea
 **Equipping Our People Leaders** – Our leadership training ensures that DIB is considered and threaded throughout the team member experience.
 
 - [Elevate – Manager training](/handbook/people-group/learning-and-development/elevate-programs/elevate/)
-- [Elevate+ – Director+ inclusive leadership training](/handbook/people-group/learning-and-development/elevate-programs/elevate+/)
+- [Elevate+ – Director+ inclusive leadership training](/handbook/people-group/learning-and-development/elevate-programs/elevateplus/)
 - [Elevate Applied – Continuous learning for Elevate graduates](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/)
 
 ##### Uplifting Our Communities

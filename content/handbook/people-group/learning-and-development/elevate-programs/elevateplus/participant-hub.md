@@ -15,7 +15,7 @@ Navigate to frequently used links for Elevate+ below:
   <div>
     <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-1/-/boards" class="btn btn-primary" style="width:200px;margin:5px;">Intersession Work - Cohorts 1, 2, and 3</a>
     <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-2/-/boards" class="btn btn-primary" style="width:200px;margin:5px;">Intersession Work - Cohorts 4, 5, and 6</a>
-    <a href= "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/" class="btn btn-primary" style="width:200px;margin:5px;">Elevate+ Overview Handbook Page</a>
+    <a href= "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevateplus/" class="btn btn-primary" style="width:200px;margin:5px;">Elevate+ Overview Handbook Page</a>
   </div>
 </div>
 
@@ -49,7 +49,7 @@ Making the most out of Elevate+:
 
 ## Certification
 
-Elevate+ concludes with an oral certification to demonstrate your mastery of leadership competencies. Please review [this handbook page](/handbook/people-group/learning-and-development/elevate-programs/elevate+/#certification) for a detailed outline of the certification process.
+Elevate+ concludes with an oral certification to demonstrate your mastery of leadership competencies. Please review [this handbook page](/handbook/people-group/learning-and-development/elevate-programs/elevateplus/#certification) for a detailed outline of the certification process.
 
 ## Module 1: My Leadership Identity
 

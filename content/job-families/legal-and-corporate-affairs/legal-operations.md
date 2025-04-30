@@ -64,7 +64,7 @@ The Senior Legal Operations Manager is a [grade 8](/handbook/total-rewards/compe
 - Strong ability to analyze, iterate, and prioritize multiple projects
 - Excellent problem solving, project management, attention to detail, interpersonal, and organizational skills
 - Adept at predicting and removing blockers and collaborating internally and externally
-- Interest in, and ability to use and teach various software technologies, including GitLab 
+- Interest in, and ability to use and teach various software technologies, including GitLab
 - Shares the GitLab values and works in accordance with those values
 
 ### Director, Contracts and Legal Operations
@@ -179,7 +179,7 @@ The Vice President, Legal Operations is a [grade 12](/handbook/total-rewards/com
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
 
-- Selected candidates will be invited to schedule a 45 min [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
+- Selected candidates will be invited to schedule a 45 min [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with the hiring manager.
 - Next, candidates will be invited to schedule an interview with a member of the Legal Operations team.
 - Next, candidates will be invited to schedule an interview with additional members of the Legal and Corporate Affairs Team.
