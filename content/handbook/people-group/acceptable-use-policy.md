@@ -123,7 +123,7 @@ For [video calls](/handbook/communication/#video-calls), and as a back-up to Sla
 
 ### Use of External Media on Company Assets
 
-The use of removable and external storage devices such as USB flash drives and external backup drives on company-managed devices is not officially sanctioned. If there is a business need for the use of an external storage device, such as a flash drive or an external hard drive on company devices, please contact the Security Team to determine the most suitable encryption-enabled device. All external and removable storage devices must be encrypted and protected by a passcode.
+The use of external storage devices such as USB flash drives and backup drives on company-managed devices is prohibited due to risk of data exposure. Exception requests may be submitted [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=usb_exception) if necessary to meet business needs. If approved, Corporate Security will coordinate with requestors to ensure appropriate steps are taken to secure these devices.
 
 As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/) for further details.
 
