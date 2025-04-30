@@ -474,7 +474,7 @@ For all other campaign types, follows steps below. All steps are required.
 
 Be advised that some templates are being used for both `in-person` and `virtual events`. These templates have been marked as `Hybrid template`. For these templates, the naming convention is slightly different in that additional campaign information appears in the name. When naming the program, `EventType` is replaced with either `Virtual`, `In-Person`, or `Hybrid` (if an event will be both in-person and virtual).
 
-If this is to set up a program that involves a channel partner, you must also follow the directions on that [setup page](/handbook/marketing/marketing-operations/campaigns-and-programs/#joint-gitlab-and-partner-campaigns). You will still clone the program from the list below to get started.
+If this is to set up a program that involves a channel partner, you must also follow the directions on that [setup page](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns). You will still clone the program from the list below to get started.
 
 #### How to Clone the Marketo program
 
@@ -894,7 +894,7 @@ Interesting Moments for content syndication are global. This means that you only
 - Create the SFDC campaigns directly in Salesforce. Each asset requires a campaign.
 - Format: YYYY_Region_Vendor_AssetName (examples: 2024_AMER_Demand_Science_2023DevSecOpsReport:ProductivityEfficiency, 2024_EMEA_Integrate_AchieveDevSecOpswithGitLabCI/CD)
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
-- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+- Refer to instructions  [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
 
 ### Step 2: Clone this program
 
@@ -997,7 +997,7 @@ You must keep the same Asset number for existing assets, otherwise the existing 
 - Create the SFDC campaigns directly in Salesforce. Each asset requires a campaign.
 - Format: YYYY_Region_Vendor_AssetName (examples: 2024_AMER_Demand_Science_2023DevSecOpsReport:ProductivityEfficiency, 2024_EMEA_Integrate_AchieveDevSecOpswithGitLabCI/CD)
 - Associate this campaign to the appropriate [parent campaign](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=365937335).
-- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+- Refer to instructions  [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
 
 ### Step 3: Find the existing Marketo program for your Region/Vendor pair
 
@@ -1094,7 +1094,7 @@ The 7 webhook feedback automations we send to Integrate are:
 
 ### Step 4: Update the Salesforce campaign
 
-- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
 - Add the Marketo program link and SFDC campaign link to the epic.
 
 If utilizing Allocadia, please refer to the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#instructions-for-sfdc-campaign-creation-when-utilizing-allocadia).
@@ -1118,7 +1118,7 @@ If utilizing Allocadia, please refer to the instructions [above](/handbook/marke
 
 - Click on `Advanced Setup` to make sure statuses correspond to those listed in the [Direct Mail progression statuses](/handbook/marketing/marketing-operations/campaigns-and-programs/#direct-mail). Do not edit these, if you need them updated, please reach out to MktgOps.
 - Confirm the `type` is `Direct Mail`
-- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-campaign-fields).
+- Refer to instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#updating-sfdc-fields).
 
 ## Steps to Setup LinkedIn Lead Gen Form
 
