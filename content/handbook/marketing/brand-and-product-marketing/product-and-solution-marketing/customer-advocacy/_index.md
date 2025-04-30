@@ -19,24 +19,19 @@ title: "Customer Advocacy at GitLab"
 
 #### **How to work with us:**
 
-Questions
-
-- Reach us in the **#customer-advocacy-and-references** Slack channel.
-- For additional information and resources, review the [Customer Advocacy Overview deck](https://docs.google.com/presentation/d/1QyqHRQzhNE7WdvYqM6evCbX3zRGM5QGf2WJABx8I0gk/edit#slide=id.p) and the [Customer Stories Hub in Highspot](https://gitlab.highspot.com/items/676f4e2a20ff94bffb86fc4f?lfrm=shp.2).
-
-Requests
-
-- To create a general request for the Customer Advocacy team, [open an issue here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing).
+- **Questions** - Reach us in the **#customer-advocacy-and-references** Slack channel.
+- **Information & Resources** - Review the [Customer Advocacy Overview deck](https://docs.google.com/presentation/d/1QyqHRQzhNE7WdvYqM6evCbX3zRGM5QGf2WJABx8I0gk/edit#slide=id.p) and the [Customer Stories Hub in Highspot](https://gitlab.highspot.com/items/676f4e2a20ff94bffb86fc4f?lfrm=shp.2).
+- **Requests** - To create a general request for the Customer Advocacy team, [open an issue here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing).
 
 ## Programs we drive and support
 
 ### **Customer Stories**
 
-The Customer Advocacy team partners with Content, Brand, and Design to run a continual, evergreen pipeline of customer stories in various formats including case studies, blogs, and marquee videos. We spotlight customer achievements and the DevSecOps teams that driv their success. The stories we publish are aligned to strategic pillars that support sales needs and integrated initiatives.
+The Customer Advocacy team partners with Content, Brand, and Design to run a continual, evergreen pipeline of customer stories in various formats including case studies, blogs, and marquee videos. We spotlight customer achievements and the DevSecOps teams that drive their success. The stories we publish are aligned to strategic pillars that support sales needs and integrated initiatives.
 
-Our goal is to produce three customer stories per quarter and two marquee videos per year. A selection and prioritization process helps us tell the right customer stories in the right format. Selection criteria is based on GTM goals determined through cross-functional collaboration and strategic alignment, with additional prioritization based on account size, license type and number of users, and unique use cases.
+Our goal is to produce three customer stories per quarter and two marquee videos per year. A selection and prioritization process helps us tell the right stories in the right format. Selection criteria is based on GTM goals determined through cross-functional collaboration and strategic alignment, with additional prioritization based on account size, license type and number of users, and use cases.
 
-> **Have a customer with a compelling story?** Please complete the [Customer Success Story Idea Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSf3ygW-CCJ_I3nZSwvI0ZUxCJt2M3Rrd9B0LF1oTRPc9GujJA/viewform). The team will review submission details and follow-up on next steps.
+> **Have a customer with a compelling story?** Help us spotlight your customer by completing the [Customer Success Story Idea Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSf3ygW-CCJ_I3nZSwvI0ZUxCJt2M3Rrd9B0LF1oTRPc9GujJA/viewform).
 
 **Where to find customer stories:**
 
@@ -90,11 +85,9 @@ The Analyst Relations team aligns with the Customer Advocacy team on new survey 
 
 ### **Executive Advisory Board (EAB) Program**
 
-The EAB is an invitation-only cohort of 12-15 VP+ level executives from select GitLab enterprise customer accounts who are driving business and technology transformation with a visionary DevSecOps strategy. Throughout the annual program, the board meets both in person and virtually to engage with GitLab leaders, learn innovative best practices, and share insights to help shape the future of GitLab.
+The EAB is an invitation-only cohort of 12-15 VP+ level executives from select GitLab enterprise customer accounts who are driving business and technology transformation with a visionary DevSecOps strategy. Throughout the annual program, the board meets both in person and virtually to engage with GitLab leaders, learn innovative best practices, and share insights to help shape the future of GitLab. For more details on the EAB program, review the [Internal Brief](https://docs.google.com/document/d/15xSt5EPJEL988Y5j5qDWdtXnKrOI24pySdlwKp9affE/edit?tab=t.0).
 
-For more details on the EAB program, review the [Internal Brief](https://docs.google.com/document/d/15xSt5EPJEL988Y5j5qDWdtXnKrOI24pySdlwKp9affE/edit?tab=t.0).
-
-> Additionally, other teams at GitLab manage [advisory and executive customer programs](https://docs.google.com/presentation/d/1T0OVie9fjBcjlR_v20xa1X_AB_XzUUTzr0DUYuplcQA/edit?slide=id.g2746b382564_0_218#slide=id.g2746b382564_0_218), including:
+> Note - Other [advisory and executive customer programs](https://docs.google.com/presentation/d/1T0OVie9fjBcjlR_v20xa1X_AB_XzUUTzr0DUYuplcQA/edit?slide=id.g2746b382564_0_218#slide=id.g2746b382564_0_218) managed by other teams at GitLab include:
 >
 > - **Product Customer Advisory Board** - Select manager+ level champions from strategic accounts, focused on technical discussions (DRI: Michaela Seferian-Jenkins, Product)
 > - **Federal Customer Advisory Board** - Invitation-only cohort of executives from PubSec customer accounts (Interim DRI: Liz Burrows, PMM PubSec)
