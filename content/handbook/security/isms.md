@@ -56,7 +56,7 @@ This management system governs GitLab security operations. Interested parties in
 - Team Members
   - GitLab requires Team Members to operate in a secure manner as defined by this management system. Require GitLab to operate in a secure manner to maintain services and provide continued employment
 
-## ISMS Roles and Responsibilities
+## Management System Roles and Responsibilities
 
 | Role | Responsibility |
 | --- | --- |
