@@ -116,7 +116,7 @@ Panels handle:
 - Showing potential error states
 - Triggering contextual actions
 
-Each panel can be resized in accordance with [the grid](#the-grid).
+Each panel can be resized in accordance with [the grid](#the-grid) and are scrollable when the content exceeds the size of the panel.
 
 ### Visualizations
 
@@ -125,6 +125,8 @@ Generally, visualizations can be one of three types:
 - ECharts-based visualizations, using the [GitLab UI implementations](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/charts-chart--docs)
 - Tables, using [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--docs) (or the lite version)
 - Text or markdown-based content
+
+ECharts-based visualizations may contain axis, legends, and other clickable elements depending upon the ECharts implementation.
 
 Table visualizations may contain keyset pagination, sorting, and internal searching.
 
@@ -147,6 +149,9 @@ this should be done when visualizations and panels are being developed, so it's 
 
 Applying a filter will automatically update all applicable panels, as well as update the URL for users to easily share the dashboard state with others.
 
+There may be some panels which are "locked" to a particular filter value. For instance, a panel which can only show a visualization of data over the past 24 hours.
+These types of panels will visually indicate to the user that it is "locked" and explain what is restricted.
+
 ### Error handling
 
 In the event of an error, the UI should handle these and explain to the user how they can fix the error, or at the very least, why it has failed.
@@ -157,7 +162,8 @@ Page-level errors should use the [Pajama's alert component](https://design.gitla
 The errors should be located where the error occurred:
 
 - Entire dashboard - replace dashboard grid with the error message.
-- Global filters - show above the global filters.
+- Global filters - show above the global filters unless the filter selection causes a
+specific error for a panel, in which case the error will appear within the panel error state.
 
 For per-panel filters and panel-specific errors, we should use the panel error state. The panel error state will:
 
