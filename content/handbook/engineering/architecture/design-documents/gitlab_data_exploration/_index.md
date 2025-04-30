@@ -3,13 +3,13 @@
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
 title: "GitLab Data Exploration and Querying Architecture"
-status: ongoing
+status: "ongoing"
 creation-date: "2025-04-24"
 authors: [ "@drosse"]
-coaches: [ "@username" ]
+coaches: [ "@ahegyi" ]
 dris: [ "@lfarina8", "@nicholasklick" ]
 owning-stage: "~devops::analytics"
-participating-stages: []
+participating-stages: ["~group::optimize"]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
@@ -70,7 +70,7 @@ Document statuses you can use:
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 <!--
 Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
@@ -117,7 +117,9 @@ opportunities. The latter may be a more suitable framework in cases where the
 problem is not well-defined or design details not yet established.
 -->
 
-The ability for users to explore their GitLab data and derive meaningful business insights is increasingly important as organizations rely on data-driven decision making. However, several challenges currently prevent users from effectively exploring and understanding their GitLab data
+The ability for users to explore their GitLab data and derive meaningful business insights is increasingly important as organizations rely on data-driven decision making. However, several challenges currently prevent users from effectively exploring and understanding their GitLab data.
+
+This initiative serves both our external customers and internal GitLab team members. External users need data insights to optimize their DevSecOps practices and demonstrate the value of GitLab within their organizations. Simultaneously, GitLab's own product, engineering, and customer success teams rely on these same data exploration capabilities to understand product usage, improve features, and support customers effectively. The unified data exploration architecture described in this document will benefit both audiences, creating a consistent and valuable experience regardless of whether the user is a customer or a GitLab team member.
 
 ### Challenges
 
@@ -151,16 +153,16 @@ Beyond the query language differences, there are fundamental inconsistencies in 
 - Entity relationships are modeled differently
 - Data granularity differs (e.g., detailed records vs. aggregated data)
 
-These disparities make it difficult to establish meaningful connections between related data points that exist in different systems, limiting users' ability to gain a complete picture of their information.
+These disparities make it difficult to establish meaningful connections between related data points that exist in different systems; limiting users' ability to gain a complete picture of their information.
 
 #### User Experience Friction
 
 The current state creates significant friction in the data exploration process:
 
-- Enabling users to create dashboards that combine data from multiple sources requires complex integration work
+- Enabling users to create dashboards that combine data from multiple sources requires complex integration work.
 - Visualization options are inconsistent across data sources, and there's often a lack of transparency about how the data was queried and transformed, creating trust issues with the presented information. GitLab team members have to spend significant time explaining to customers how data is retrieved and displayed, trying to build trust in the tool.
-- Users must often switch between multiple tools or interfaces to access different data sources
-- Non-technical users face significant barriers to exploring data on their own
+- Users must often switch between multiple tools or interfaces to access different data sources.
+- Non-technical users face significant barriers to exploring data on their own.
 
 This friction discourages data exploration and limits the insights users can derive from their GitLab data.
 
@@ -201,7 +203,7 @@ The unified data exploration system would enable users to answer questions such 
 
 **For Product Managers:**
 
-- "As an internal GitLab PM, I want to track the MAU/WRU of my feature (event data that we are tracking for usage and behavior that wouldn't be customer facing)"
+- "As an GitLab PM, I want to track internal usage and engagement metrics for my feature"
 - "How are users navigating through my feature's workflow?"
 - "What is the adoption rate of new capabilities we've released?"
 - "How does feature usage correlate with other activities in the product?"
