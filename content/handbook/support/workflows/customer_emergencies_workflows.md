@@ -395,12 +395,9 @@ From 2025-05-01 PagerDuty Alerts for High Priority tickets received from custome
 
 We as a company want to treat High Priority tickets, especially from customers with a Success Tier, with urgency and action.
 
-1. When you start your shift, look in the [Success Advanced and Signature 24x7 Tickets](https://gitlab.zendesk.com/agent/filters/17365930959516) Zendesk queue for any `High` priority tickets.
-1. Take assignment of all High Priority tickets in this queue. This ensures that you are notified of customer responses during your shift, and will minimise delays responding to the customer.
-1. We should aim to focus on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority.Once it's a medium or lower priority, ensure you communicate this with the customer.
-1. Only downgrade the Priority of the ticket, once you have received confirmation from the customer.
-
-**Important note:** There is no need to Unassign tickets over the weekend, as the incoming `@ceoc` will take assignment upon commencing their shift.
+1. When you start your shift take over any emergencies or High priority tickets from the leaving CEOC that needs attention. 
+1. When you get paged on a High priority ticket work with the customer on Solving the pieces that are causing the ticket to be a high priority, by working towards reducing the ticket's priority. 
+1. There is no need to Unassign tickets over the weekend. Ticket that needs ongoing attention should be handed over to the incoming CEOC by using the PD alert and tickets in safe state should stay assigned to the CEOC leaving shift. 
 
 The Support Manager On-Call is always available to support you. To request support please trigger a PagerDuty alert:
 
