@@ -40,7 +40,7 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
 1. Introduction Email
    1. This email will be sent within 24hrs of both CSA and ASE resources being identified and as close as possible to Order Form being received from Customer.
    2. Utilize the appropriate welcome email template - 
-      1. [Signature | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe7212040d7ea6e1af7af0)
+      1. [Signature | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe720d040d7ec85356346f#2)
       2. [Advanced | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe720f040d7ee3c8b160a1?lfrm=srp.2)
       3. [Essentials | Success Tiers - Welcome Email](https://gitlab.highspot.com/items/67fe7212040d7ea6e1af7af0?lfrm=srp.6)
    3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
