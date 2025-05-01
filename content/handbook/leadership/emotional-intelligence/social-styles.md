@@ -1,6 +1,7 @@
 ---
 title: Clifton Strengths:Unlocking Team Potential at Gitlab
 ---
+
 At GitLab, we believe that understanding and leveraging each team member's unique strengths is fundamental to building [high-performing teams](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/). CliftonStrengths provides a framework that helps us move beyond traditional team-building approaches to create truly exceptional teams– by focusing on what we are already naturally good at. 
 
 By providing us with the tool to recognize and leverage the diversity of strengths within our teams, we are empowered to:
@@ -28,10 +29,10 @@ Understanding and leveraging strengths directly connects to our Collaboration va
 There are so many use cases for CliftonStrengths across GitLab:
 
 1. During team formation and onboarding
-2. For conflict resolution and improving collaboration
-3. In career development conversations
-4. When planning complex projects
-5. During team retrospectives and growth discussions
+1. For conflict resolution and improving collaboration
+1. In career development conversations
+1. When planning complex projects
+1. During team retrospectives and growth discussions
 
 ## Typical Clifton Process
 
@@ -53,3 +54,4 @@ There are so many use cases for CliftonStrengths across GitLab:
    * Goal for team members to digest information before session
 5. **Team Debrief**
    * Bring team together to attend a team session to understand and apply collective strengths
+
