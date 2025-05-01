@@ -707,7 +707,7 @@
 /content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/cryptographic-standard.md @joshlemos @jlongo_gitlab @juliedavila @mloveless @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @corey-oas @cynthiamiller
 /content/handbook/security/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @jdicken
 /content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
