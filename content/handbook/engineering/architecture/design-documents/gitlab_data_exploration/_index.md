@@ -256,77 +256,65 @@ compared with the pros and cons of alternatives.
 
 ### A unified data exploration UI
 
-TBC - ideally an high level wireframe of how we imagine a data explorer UI with main building blocks, to be used by UX to develop a proper spec maybe.
+TBC - ideally an high level wireframe of how we imagine a data explorer UI with main building blocks, to be used by UX to develop a proper spec maybe. We could think about this as a standardized GLQL query editor maybe.
 
 ### A Standardised And Simplified Query System
 
-(draft content, mostly used to brainstorm. will rephrase later on) 
+(draft content) 
 
 Starting from some sample questions, I want to try and see how we would express them in an extended-GLQL syntax.
 
 #### Multiple data sources
 
-
 Could we switch between data sources by pivoting on the existing `type` field?
-
 
 - Current open MRs
 ```
-  display: table
-  fields: title, author, reviewer, approver, state, updated
   query: project = "team-project" AND type = MergeRequest AND state = opened
+  fields: title, author, reviewer, approver, state, updated
 ```
 - Recent critical and high vulnerabilities introduced in the last x days
 ```
-  display: table
-  fields: status, severity, description
   query: project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
+  fields: status, severity, description
 ```
 
 - Recent pipeline failures or slow jobs
 ```
-  display: table
-  fields: id, name, status, duration, updatedAt
   query: project = "team-project" AND type = Pipeline AND (status = failed OR duration > 60) AND updated > -3d
+  fields: id, name, status, duration, updatedAt
 ```
 - AI Impact metrics
 ```
-  display: table
   fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
-  type =  project = "team-project" AND type = AiMetric
+  query =  project = "team-project" AND type = AiMetric
 ```
 
+While it should be easy enough to add support for types that already existins in the GraphQL API (provided it will require making some changes in Rust), how hard would it be to add support for non-graphql entities? Do we have examples of non-graphql API currently used? I could only think of PA and o11y - which are no longer with us. The upcoming Data Insights Platform will also have a GraphQL API. 
 
+It does seem clear though that we are moving the problem of handling multiple datasources somewhere else.
 
-#### Complex queries
+#### Filtering
 
-How about more complex queries? How would we express them in GLQL?
+Everything inside `query` is basically a filter.
 
-- Count of critical and high vulnerabilities introduced in the last x days
+#### Display
 
-```
-  display: table
-  fields: severity, count()
-  group_by: severity
-  query: project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
-```
-
-#### Data display
-
-Could we extend the `display` key to include existing visualisations?
+Not strictly needed for data querying per se, but could we extend the `display` key to include dashboards visualisations?
 
 ```
 display: chart
 chart_type: line
 ```
 
-But would the syntax need to support also custom visualisations, e.g. the AiImpactTable? Or could we have a generic
+Would the syntax need to support also custom visualisations, e.g. the AiImpactTable? Or could we have a generic custom display?
 
 ```
 display: custom
 display_id: 'ai-impact-table'
 ```
 
+This could enable easy exporting/sharing of GLQL queries across other GitLab pages.
 
 <!--
 ## Design and implementation details
@@ -367,9 +355,6 @@ each alternative solution/path.
 
 ## Next steps
 
-- Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
-  - a unified data exploration UI
-  - a standardised and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense, expanding on https://gitlab.com/gitlab-org/gitlab/-/issues/525642#note_2447362814 )
 - Experiment with extending GLQL to fits our needs/requirements
   - Create an issue and discuss it with Plans if it makes sense
   - Build a PoC
