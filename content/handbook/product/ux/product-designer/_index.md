@@ -214,22 +214,31 @@ We prioritize a balanced approach to design critiques that practices benevolent,
     1. Share how the critique influenced your design decisions in subsequent iterations
     1. Acknowledge team members whose critique led to meaningful improvements
 
-### Setting the Right Mindset
+### Setting the right mindset
 
-To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to read this mantra aloud before beginning, especially with new team members or when introducing the critique format:
+To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to reference the the code of conduct and verbalize the mantra before beginning.
 
-> **Mantra**
-> Please keep the following in mind throughout this critique session:
->
-> - We are not our designs
-> - We will not offend anyone in this room intentionally
-> - We will practice benevolent, radical candor, which is to care personally but challenge directly, when sending feedback
-> - We will be open to receiving benevolent, radical candor feedback and will be, if necessary, willing to let go of things that aren't working
-> - These sessions are about candid talk, spirited debate, fun, and passion for what we do as designers for a living
+#### Code of conduct
 
-Note: While reading this mantra verbatim before each session might initially feel awkward or repetitive, consistently establishing these shared expectations has proven valuable in creating the right environment for productive critique. The few moments it takes pays dividends in the quality of feedback and team dynamics.
+During our critique sessions, we commit to:
 
-By embracing true critique rather than simple review, we create an environment where excellence is expected, supported, and achieved through collaborative challenge.
+1. Focus on the design work, not the designer.
+1. Communicate with respect and avoid offensive language or behavior.
+1. Challenge directly while showing we care personally.
+1. Provide specific, actionable feedback and reasoning rather than vague comments.
+1. Practice genuine curiosity to understand design decisions before critiquing them.
+1. Remain open to different perspectives and approaches.
+1. Receive critique openly and be willing to let go of unsuccessful elements.
+1. Engage in candid conversation and spirited debate with passion for our craft.
+
+#### Mantra
+
+Critique the work, not the person.<br>
+Care personally, challenge directly.<br>
+Speak candidly, listen openly.<br>
+Embrace curiosity, let go of attachment.
+
+**Note:** Reading the mantra verbatim before each session might initially feel awkward or repetitive, however, consistently expressing these shared expectations creates the right environment for productive critique. The few moments it takes pays dividends in the quality of feedback and team dynamics.
 
 ### Partnering with Technical Writers
 
