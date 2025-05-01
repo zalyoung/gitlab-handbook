@@ -307,7 +307,7 @@ Any webcast that is hosted and held by GitLab. There are a few different groups 
 - [Campaign webcasts](/handbook/marketing/virtual-events/webcasts/#campaign-webcasts)
 - [Field Marketing webcasts](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#webcasts-1)
 - [Partner webcasts](/handbook/marketing/virtual-events/webcasts/#partner-webcasts)
-- [On24 webcasts](/handbook/marketing/marketing-operations/on24)
+- [Goldcast webcasts](/handbook/marketing/marketing-operations/goldcast)
 
 **Bizible:** This is tracked as an _online_ Bizible channel as well as an _offline_ channel. We own the registration process so whenever a person registers to a webcast, a TP will be created based on the Bizible snippet that lives on our landing pages, while another TP is created for campaign members with success/responded statuses.
 

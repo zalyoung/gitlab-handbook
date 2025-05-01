@@ -130,11 +130,11 @@ Visit our [partner portal page](https://partners.gitlab.com/prm/English/c/ptnrmk
 
 ##### Technical platform used to host
 
-Our team hosts the Channel Partner webinar using On24. Details on how this operationally set up can be found [here](/handbook/marketing/virtual-events/webcasts/#on24-setup).
+Our team hosts the Channel Partner webinar using Goldcast. Details on how this operationally set up can be found across the Goldcast handbook page [here](handbook/marketing/marketing-operations/goldcast/).
 
 - [Epic Code for To Partners webinars](/handbook/marketing/channel-marketing/channel-marketing-epics/)
 
-- [Marketo Program set up](/handbook/marketing/marketing-operations/on24/#connecting-on24-web-events-to-marketo-programs)
+- [Marketo Program set up](handbook/marketing/marketing-operations/goldcast/#users-have-the-option-of-starting-event-creation-within-either-platform)
 
 ## MDF Program Introduction
 
