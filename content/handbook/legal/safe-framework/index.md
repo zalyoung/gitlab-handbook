@@ -100,5 +100,5 @@ We reinforce SAFE by:
 1. Providing a safe space to report mistakes via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel - we [assume positive intent](/handbook/values/#assume-positive-intent) and believe in [blameless problem solving](/handbook/values/#blameless-problem-solving).
 1. Having SAFE Ambassadors from teams across the company to help answer questions.
 1. By emphasizing the SAFE framework during [onboarding](/handbook/people-group/general-onboarding/#onboarding-at-gitlab).
-1. By using the `:safe-tanuki:` emoji ![Safe Tanuki](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/raw/master/design/_progress/vic/SAFE-tanuki/png/SAFE-tanuki-128x128px.png) to remind team members about the SAFE framework.
+1. By using the `:safe-tanuki:` emoji ![Safe Tanuki](/images/legal/safe-framework/safe-tanuki-90x90px.png) to remind team members about the SAFE framework.
 1. By providing training to our team members on responsible transparency practices and compliance regulations. These trainings reinforce the concepts of Internal GitLab Transparency, i.e. information that should be shared only with our team members, versus External Public Transparency, i.e. information that can be shared with the world.
