@@ -386,7 +386,6 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Cognism](/handbook/marketing/marketing-operations/cognism/)
 - [Iterable](/handbook/marketing/marketing-operations/iterable/)
 - [Marketo](/handbook/marketing/marketing-operations/marketo)
-- [On24](/handbook/marketing/marketing-operations/on24)
 - [Groove](/handbook/marketing/marketing-operations/groove)
 - [Goldcast](/handbook/marketing/marketing-operations/goldcast/)
 - [PathFactory](/handbook/marketing/marketing-operations/pathfactory/)
