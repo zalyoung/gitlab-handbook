@@ -36,7 +36,7 @@ The **S** in "**S**AFE" serves as a reminder to make sure that team members are 
         - A pending purchase or sale of a significant asset or business; and
         - A pending significant legal or regulatory proceeding or settlement.
 
-The disclosure of sensitive or material nonpublic information may be harmful to team members or the company. If the content to be disclosed includes any of the above information, team members should seek the GitLab Legal's review via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel. If in doubt, please inquire with the Senior Director of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel before circulating this type of information externally.
+The disclosure of sensitive or material nonpublic information may be harmful to team members or the company. If the content to be disclosed includes any of the above information, team members should seek the GitLab Legal's review via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel. If in doubt, please inquire with the VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel before circulating this type of information externally.
 
 ##### **Accurate:**
 
@@ -69,7 +69,7 @@ When considering what information to disclose, team members should consider the 
 
 Team members should also take into account each piece of information being shared as well as the information and documentation as a whole. The information you are sharing should not be viewed in a silo. Team members should examine what type of effect all the information taken together will have and how the audience may or may not interpret the information.
 
-Any questions should be directed to Senior Director of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
+Any questions should be directed to VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
 
 ## **SAFE Flowchart**
 
@@ -80,18 +80,18 @@ Any questions should be directed to Senior Director of Legal, Corporate via the 
 **What should I do if I shared or I see GitLab information which has been shared that I think might be sensitive, inaccurate, financial, or might have an effect that is harmful to the company or helpful to investors?**
 
 1. Social Media:
-    - If you shared or see information which has been shared via a personal social media account that does not fit within the SAFE framework, please immediately message the company's Senior Director of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel and include a screenshot when posting your message.
-    - After taking the screenshot, please remove the post immediately if you shared the information. The Senior Director of Legal, Corporate and Vice President, Investor Relations will review it and advise on any further action necessary.
+    - If you shared or see information which has been shared via a personal social media account that does not fit within the SAFE framework, please immediately message the company's VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel and include a screenshot when posting your message.
+    - After taking the screenshot, please remove the post immediately if you shared the information. The VP of Legal, Corporate and Vice President, Investor Relations will review it and advise on any further action necessary.
 1. Issues and MRs:
-    - If you shared or see information which has been shared in an Issue or MR that does not fit within the SAFE framework, please immediately message the Company's Senior Director of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel and include a link to such Issue or MR when posting your message. Also mark the [MR or Issue "Confidential"](https://www.youtube.com/watch?v=RcaQaWzw2IQ).
-    - The Senior Director of Legal, Corporate and Vice President, Investor Relations will review it and advise on any further action necessary.
+    - If you shared or see information which has been shared in an Issue or MR that does not fit within the SAFE framework, please immediately message the Company's VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel and include a link to such Issue or MR when posting your message. Also mark the [MR or Issue "Confidential"](https://www.youtube.com/watch?v=RcaQaWzw2IQ).
+    - The VP of Legal, Corporate and Vice President, Investor Relations will review it and advise on any further action necessary.
     - Helpful Hint: You can use an [internal note](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) in public issues for exchanging confidential information internally.
 1. GitLab Unfiltered Videos:
-    - If you shared or see information which has been shared via GitLab Unfiltered that does not fit within the SAFE framework, please mark the video as private. Once the video is private, please immediately message the Senior Director of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
-    - The Senior Director of Legal, Corporate and Vice President, Investor Relations will review it and determine next steps, which may include contacting the Digital Production team to have it removed.
+    - If you shared or see information which has been shared via GitLab Unfiltered that does not fit within the SAFE framework, please mark the video as private. Once the video is private, please immediately message the VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
+    - The VP of Legal, Corporate and Vice President, Investor Relations will review it and determine next steps, which may include contacting the Digital Production team to have it removed.
 1. Other Mediums:
-    - If you shared or see information which has been shared via a another medium that does not fit within the SAFE framework please send a link to the original post immediately via Slack to the Senior Director of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
-    - The Senior Director of Legal, Corporate and Vice President, Investor Relations will review it and, if necessary, contact the appropriate [DRI](/handbook/people-group/directly-responsible-individuals/) to have the information revised to be compliant or if needed, removed.
+    - If you shared or see information which has been shared via a another medium that does not fit within the SAFE framework please send a link to the original post immediately via Slack to the VP of Legal, Corporate via the [#safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) slack channel.
+    - The VP of Legal, Corporate and Vice President, Investor Relations will review it and, if necessary, contact the appropriate [DRI](/handbook/people-group/directly-responsible-individuals/) to have the information revised to be compliant or if needed, removed.
 
 ### **How do we reinforce SAFE?**
 
