@@ -23,7 +23,7 @@ Let's create a component to use in our GitLab project.
 
 1. Leave all other values as their default, and click the **Create project** button and wait for GitLab to redirect you to the new project's main page.
 
-Now, we need to set up the infrastructure for the component.
+Now, we need to set up the configuration for the component.
 
 1. In the repository of your Example Component project, click the **+** button, then click the **New Directory** option.
 
@@ -31,7 +31,7 @@ Now, we need to set up the infrastructure for the component.
 
 1. Click the **Commit changes** button, and commit it to the main branch.
 
-1. Click on the **templates** folder. Inside the folder, click on the **+** button, then click the **New file** button.
+1. Ensure you are now in the new templates directory. Click on the **+** button, then click the **New file** button.
 
 1. Type in **sample-template.yml** as the file name.
 
