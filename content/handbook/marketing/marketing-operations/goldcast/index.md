@@ -25,6 +25,7 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 - [Registration Page and Forms](https://help.goldcast.io/en_US/registration-page-form)
 - [Email Customization](https://help.goldcast.io/en_US/emails)
 - [Event Settings](https://help.goldcast.io/en_US/event-settings)
+- [Event Types](https://help.goldcast.io/en_US/QA-event-setup/which-event-type-to-use)
 - [Event Setup](https://help.goldcast.io/en_US/event-setup)
 - [Captions and Subtitles](https://help.goldcast.io/en_US/event-settings/16696845638683-captions-and-translated-subtitles)
 - [Webinars Powered by Smart Technology](https://help.goldcast.io/en_US/webinars-powered-by-smart-event-technology)
@@ -35,7 +36,7 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 ## Random Things to Know
 
 - Note: As of launch registrations should not be taken via the Goldcast landing pages/forms and registrations should only occur via Marketo forms/landing pages until further notice. 
-- When selecting the event type, keep in mind that **any** event where speakers will appear live on camera **must** be set to the `Live` event type. If no speakers will appear live on camera, the event type can be set to `Pre-recorded`. When the event type is set to `Pre-recorded`, back stage staff can interact with the audience **only** via text
+- When selecting the event type, keep in mind that **any** event where speakers will appear live on camera **must** be set to the `Live` event type. If no speakers will appear live on camera, the event type can be set to `Pre-recorded`. When the event type is set to `Pre-recorded`, back stage staff can interact with the audience **only** via text. More information on event types can be found on the [Goldcast websight](https://help.goldcast.io/en_US/QA-event-setup/which-event-type-to-use)
 - Specifications for creative assets, including video, can be found [here](https://help.goldcast.io/en_US/design/4406894301979-goldcast-design-specifications). **WARNING: Upload processing time can take up to 4x the length of the recorded video** and it's recommended for events to be 2 minutes longer than the video asset for pre-recorded events
 - Test events are no longer test events if the registrant number reaches 10 people. More information on test events [here](https://help.goldcast.io/en_US/event-settings/what-is-a-test-event-how-to-create-one)
 - When an event is set to convert to an on demand capable event, the transition occurs around the 35 minute mark after the event ends
