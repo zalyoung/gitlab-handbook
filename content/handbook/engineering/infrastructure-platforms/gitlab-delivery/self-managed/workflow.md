@@ -416,7 +416,6 @@ flowchart TB
 
     IB[Issue Becomes Blocked]:::blocked --> |Move to| BL[workflow::blocked Lane]:::blocked
     BL --> |Document| BC[Blocker Cause]:::action
-    BL --> |Assign| BO[Blocker Owner]:::action
     BL --> |Set| ET[Expected Timeframe]:::action
     
     BL --> |Daily Review| DR[Daily Blocked Issue Review]:::normal
