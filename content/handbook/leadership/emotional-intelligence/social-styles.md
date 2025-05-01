@@ -27,6 +27,7 @@ Understanding and leveraging strengths directly connects to our Collaboration va
 
 ## When to use CliftonStrengths
 
+
 There are so many use cases for CliftonStrengths across GitLab:
 
 1. During team formation and onboarding
