@@ -42,6 +42,7 @@ There are so many use cases for CliftonStrengths across GitLab:
 *Please note timelines may vary depending on request. Find request form [here](https://docs.google.com/forms/d/187ApdZFnhWcJNloaukomxS-wtQ7upmLGzc_vkIF4GyE/viewform?edit_requested=true).*
 
 ## Clifton Strengths Process
+
 1. **Request Access**
    * Submit intake form
    * Member of Talent Management & Development Team will schedule a kickoff meeting
