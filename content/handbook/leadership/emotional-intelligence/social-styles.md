@@ -11,13 +11,11 @@ By providing us with the tool to recognize and leverage the diversity of strengt
 
 ## So what is CliftonStrengths?
 
-
 **TL;DR**: CliftonStrengths helps you understand what you're naturally good at, so you can focus your energy on developing those talents into true strengths. 
 
 [CliftonStrengths](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx) is an assessment tool that helps people identify their natural talents and strengths. Based on decades of research by Gallup, this tool measures your natural patterns of thinking, feeling, and behaving across 34 potential strength themes. Rather than focusing on fixing weaknesses, CliftonStrengths empowers you to discover and leverage what you naturally do ***best***. Watch [this video](https://www.youtube.com/watch?v=lsCaTapfhhk) to dive a bit deeper. 
 
 ## Why CliftonStrengths Is Valuable for Our Teams
-
 
 Understanding and leveraging strengths directly connects to our Collaboration value. When teams recognize and appreciate each member's unique contributions, we can create an environment where:
 
@@ -27,17 +25,15 @@ Understanding and leveraging strengths directly connects to our Collaboration va
 
 ## When to use CliftonStrengths
 
-
 There are so many use cases for CliftonStrengths across GitLab:
 
 1. During team formation and onboarding
 2. For conflict resolution and improving collaboration
 3. In career development conversations
 4. When planning complex projects
-4. During team retrospectives and growth discussions
+5. During team retrospectives and growth discussions
 
 ## Typical Clifton Process
-
 
 *Please note timelines may vary depending on request. Find request form [here](https://docs.google.com/forms/d/187ApdZFnhWcJNloaukomxS-wtQ7upmLGzc_vkIF4GyE/viewform?edit_requested=true).*
 
