@@ -27,6 +27,8 @@ Please let the Total Rewards team know if you would like to join the scheme via 
 
 Team members who join the plan prior to the 24th of the month will have the BIK and deductions reported in full for that month, team members who join after the 24th of the will see deductions and BIK reporting begin the following month.
 
+If you wish to add/remove dependents after you have joined the AXA plan, please reach out to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com` confirming your dependent details (Full Name, DOB, and address).
+
 Please note that it can take 7 - 10 working days to receive a reply and confirmation from AXA PPP.
 
 ### Coverage Details
@@ -94,7 +96,7 @@ Life Insurance provides peace of mind for you and your loved ones with a tax-fre
 
 Team Members are automatically enrolled in to the pension benefit of **4x basic annual salary** up to the Free Cover Limit. Team Members with a base salary of £375,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover. Please see the [Life Insurance Policy User Guide](https://drive.google.com/file/d/1D7QXKKvVtafQFbBFD4mPuKqbi1mqBsLh/view?usp=sharing)
 
-To designate a beneficiary for this benefit, please complete the [Expression of Wish Form](https://docs.google.com/document/d/1L5PFNeeZPmC5CArxrm7YX8W4BwKzdLFo/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) and send the completed form to the Total Rewards Team.
+To designate a beneficiary for this benefit, please complete the [Expression of Wish Form](https://docs.google.com/document/d/1L5PFNeeZPmC5CArxrm7YX8W4BwKzdLFo/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) and upload the form in Workday following [these steps](https://docs.google.com/document/d/1GWNaOwFJWKyoSA0ntQF5pCE9CJNaabFKO1UMZH25ifE/edit?tab=t.0).
 
 Unum Life Insurance policyholders have access to a range of support services including Cancer Assist — in-the-moment, personalised guidance from cancer experts Reframe. For more information see [Unum’s Life Wellbeing Checklist](https://drive.google.com/file/d/1TGOquhebJ8A37aBNkaiPch0r8-s7sMp_/view?usp=sharing)
 
