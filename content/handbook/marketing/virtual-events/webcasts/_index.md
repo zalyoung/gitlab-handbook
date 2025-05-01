@@ -192,11 +192,11 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * [Goldcast rollout session slides](https://docs.google.com/presentation/d/1Iyw8XjrkmFpiLvehjqMr4TUSJ4qmjHBFGs0HZ0bZcRI/edit#slide=id.g139e148a631_0_188)
-* [Dedicated Goldcast handbook page](/handbook/marketing/marketing-operations/Goldcast/)
+* [Dedicated Goldcast handbook page](/handbook/marketing/marketing-operations/goldcast/)
 * [Goldcast Support Portal](https://Goldcastsupport.force.com/Support/s/article/Goldcast-Contact-Support)
 * [Goldcast Knowledge Center](https://Goldcastsupport.force.com/Support/s/knowledge)
 
-### Types of Goldcast Webcasts {#glodcast-types}
+### Types of Goldcast Webcasts {#goldcast-types}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
