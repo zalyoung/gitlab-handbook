@@ -260,7 +260,7 @@ TBC - ideally an high level wireframe of how we imagine a data explorer UI with 
 
 ### A Standardised And Simplified Query System
 
-(draft content) 
+(draft content, mostly used to brainstorm. will rephrase later on) 
 
 Starting from some sample questions, I want to try and see how we would express them in an extended-GLQL syntax.
 
