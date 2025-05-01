@@ -135,7 +135,7 @@ Categories
 
 - `MktgOps - FYI`: Issue is not directly related to operations, no action items for MktgOps but need to be aware of the issue
 - `MktgOps - List Import`: Used for list imports of any kind - event or general/ad hoc (do not also use To Be Triaged scoped label)
-- `Marketo`, `Bizible`, `6sensee`, `Qualified`, `LinkedIn Sales Navigator`, `PathFactory`, `ZoomInfo`, `On24`, `Groove`: used to highlight one of our tech stack tools
+- `Marketo`, `Bizible`, `6sensee`, `Qualified`, `LinkedIn Sales Navigator`, `PathFactory`, `ZoomInfo`, `Goldcast`, `Groove`: used to highlight one of our tech stack tools
 - `MktgOps - bug`: A bug issue to be addressed or identified by MktgOps
 - `MktgOps - changelog`: Used to track issues or epics that would need to be logged in the marketing changelog to track major changes across marketing
 - `SMOps/Systems - Changelog`: Used to track changelog issues that will impact Sales Operations or Systems
@@ -386,7 +386,6 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Cognism](/handbook/marketing/marketing-operations/cognism/)
 - [Iterable](/handbook/marketing/marketing-operations/iterable/)
 - [Marketo](/handbook/marketing/marketing-operations/marketo)
-- [On24](/handbook/marketing/marketing-operations/on24)
 - [Groove](/handbook/marketing/marketing-operations/groove)
 - [Goldcast](/handbook/marketing/marketing-operations/goldcast/)
 - [PathFactory](/handbook/marketing/marketing-operations/pathfactory/)
@@ -460,7 +459,6 @@ Click to see dropdown list of available status page URLs.
 - [Allocadia](https://support.allocadia.com/hc/en-us/sections/115001724228-System-Maintenance-Alerts)
 - [Iterable](https://status.iterable.com/)
 - [Litmus](https://status.litmus.com/)
-- [On24](https://on24.my.site.com/Support/s/platform-status)
 - [OneTrust](https://status.onetrust.com/)
 - [Hightouch](https://status.hightouch.io/)
 - [Groove](https://status.groovehq.com/)
