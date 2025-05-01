@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Process Overview
 
-![Security Control Lifecycle](/images/security/security-assurance/security-compliance/control_lifecycle.png "Security Control Lifecycle")
+![Security Control Lifecycle](/images/security/security-assurance/security-compliance/control_lifecycle.png "Security Control Lifecycle"){: width="600px"}
 
 ## Purpose
 
@@ -32,7 +32,7 @@ This document applies to GitLab's security controls being assessed by the Securi
 
 #### Preparation
 
-As new [GCF security controls](/handbook/security/security-assurance/security-compliance/sec-controls/) are identified they first must be researched and contextualized to GitLab as a company and to the applicable GitLab systems. The Preparation phase of the control lifecycle covers this initial work required to get controls into a state of ready to be tested.
+As new [GCF security controls](/content/handbook/security/security-assurance/security-compliance/sec-controls.md) are identified they first must be contextualized to GitLab as a company and to the applicable GitLab systems. The Preparation phase of the control lifecycle covers this initial work required to get controls into a state of ready to be tested.
 
 Additionally, GCF controls that have been previously tested but have an upcoming requirement for renewed testing enter this Preparation phase as well to research and confirm that any changes to the control processes are captured in the updated testing activity.
 
@@ -83,7 +83,6 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- [Information Security Policies](/handbook/security/controlled-document-procedure)
 - [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
 
 <a href="../security-compliance/" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>
