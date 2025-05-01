@@ -45,6 +45,55 @@ Examples:
 
 > <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> We use workflow labels to efficiently communicate an issue's state. Using these labels enables collaboration across teams and communicates an issue's current state.
 
+The workflow labels are prefixed with `workflow::`, such as `workflow::ready for development`. The following diagram shows how a new issue moves to each workflow label, though states can be skipped when appropriate. The rest of this document describes each workflow step in detail.
+
+```mermaid
+stateDiagram-v2
+    [*] --> ValidationBacklog: New issue created
+    
+    ValidationBacklog: validation backlog
+    ProblemValidation: problem validation
+    ReadyForDesign: ready for design
+    Design: design
+    SolutionValidation: solution validation
+    
+    ValidationBacklog --> ProblemValidation
+    ProblemValidation --> ReadyForDesign: (Optional) Needs design
+    ReadyForDesign --> Design
+    ProblemValidation --> SolutionValidation
+    Design --> SolutionValidation
+
+    PlanningBreakdown: planning breakdown
+    Scheduling: scheduling
+    Refinement: refinement
+    ReadyForDev: ready for development
+    InDev: in dev
+    InReview: in review
+    Verification: verification
+    Complete: complete
+    Blocked: blocked
+    Security: awaiting security release
+    
+    SolutionValidation --> PlanningBreakdown: PM signals intent to prioritize
+    PlanningBreakdown --> Scheduling: (Optional) Awaiting scheduling
+    PlanningBreakdown --> Refinement: (Optional) Needs refinement
+    PlanningBreakdown --> ReadyForDev: Has type label & weight. Prioritization requires milestone, and Deliverable label.
+    Scheduling --> ReadyForDev: Milestone assigned
+    Refinement --> ReadyForDev
+    ReadyForDev --> InDev
+    InDev --> InReview: MRs ready for review
+    InReview --> Verification: MRs merged
+    Verification --> Complete: Verified in staging/prod
+    
+    InDev --> Blocked: Blocked by dependency/question
+    Blocked --> InDev: Block resolved
+    
+    InReview --> Security: Waiting for monthly security release
+    Security --> Verification: MRs merged and released in security update
+    
+    Complete --> [*]
+```
+
 ### Issue descriptions as the Single Source of Truth (SSOT)
 
 > <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> Issue descriptions shall always be maintained as the single source of truth.
