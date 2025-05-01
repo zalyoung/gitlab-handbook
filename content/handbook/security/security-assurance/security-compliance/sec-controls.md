@@ -7,7 +7,7 @@ Security controls are a way to state our company's position on a variety of secu
 
 ## GitLab Control Framework (GCF)
 
-We have tried to take a comprehensive approach to our immediate and future security compliance needs. Older and larger companies tend to treat each security compliance requirement individually which results in independent security compliance teams going out to internal teams with multiple overlapping requests. For example, at such a company you might have one database engineer that is asked to provide evidence of how a particular database is encrypted based on SOC2 requirements, then again for ISO requirements, then again for FedRAMP requirements. This approach can be visualized as follows:
+We have tried to take a comprehensive approach to our immediate and future security compliance needs. Older and larger companies tend to treat each security compliance requirement individually which results in independent security compliance teams going out to internal teams with multiple overlapping requests. For example, at such a company you might have one database engineer that is asked to provide evidence of how a particular database is encrypted based on SOC2 requirements, then again for ISO requirements, then again for PCI requirements. This approach can be visualized as follows:
 
 ```mermaid
 graph TD;
@@ -15,7 +15,7 @@ graph TD;
     SOC2_Requirement1-->Team2;
     SOC2_Requirement2-->Team1;
     SOC2_Requirement2-->Team2;
-    FedRAMP_Requirement1-->Team1;
+    PCI_Requirement1-->Team1;
     ISO_Requirement1-->Team2;
 ```
 
@@ -33,13 +33,15 @@ graph TD;
     GCF-->Team2;
 ```
 
-As our security compliance goals and requirements have evolved so have our requirements and constraints related to our security control framework. Our GCF is currently based on NIST SP 800-53.
+As our security compliance goals and requirements have evolved so have our requirements and constraints related to our security control framework. Our GCF is currently based on NIST SP 800-53 and is in the process of being iterated into a custom proprietary framework that aligns to GitLab's needs and security posture. This transformation is necessary due to the fact that not all NIST 800-53 controls map directly to the requirements and standards we maintain. 
+
+The custom framework will maintain mappings to all our compliance requirements (SOC2, ISO, PCI, etc.) while eliminating irrelevant controls and adding GitLab-specific controls where needed. This new framework is scheduled to be implemented starting in Q3 FY26, providing us with a more streamlined and relevant security control structure.
 
 ## Security Control Lifecycle
 
-The lifecycle of our security controls can be found at [this handbook page](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/). As part of the security control lifecycle, all GCF security controls are reviewed and tested at a minimum on an annual basis or as required by regulation.
+The lifecycle of our security controls can be found at [this handbook page](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/). As part of the security control lifecycle, GCF security controls are monitored or tested based on risk or as required by regulation.
 
-GCF security controls are assessed at the entity level or the system level depending upon the nature of the control.
+GCF security controls are assessed at the entity, shared process, or system level depending upon the nature of the control.
 
 GCF security controls assessed at system level are based upon the system's [critical system tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. This is broken out as follows:
 
