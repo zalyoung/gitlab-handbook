@@ -656,4 +656,4 @@ The process is very similar to rescheduling.
 
 ### Live Webcasts - Goldcast
 
-Go to [Goldcast](/handbook/marketing/marketing-operations/Goldcast) page for more information.
+Go to [Goldcast](/handbook/marketing/marketing-operations/goldcast) page for more information.
