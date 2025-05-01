@@ -2,8 +2,8 @@
 title: "Legal Employment at GitLab: A Strategic Partnership"
 ---
 
-![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
-{style="max-width: 50%;"}
+    ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
+    {style="max-width: 50%;"}
 
 Employment law governs the relationship between employers and employees. At GitLab, the Legal Employment team serves as a **strategic partner** across the organization, providing expert guidance and proactive legal solutions throughout the entire team member lifecycle. **What does this partnership entail?**
 
