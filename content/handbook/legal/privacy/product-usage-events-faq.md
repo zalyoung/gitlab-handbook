@@ -20,7 +20,7 @@ For more on what is and isn’t collected, see our [documentation](https://docs.
 
 ---
 
-### Q: We handle sensitive information and need to minimize compliance risks, can event-level data collection be opt-in instead of opt-out?
+### Q: We need to minimize compliance risks, can event data collection be opt-in?
 
 **A:** While data collection is set as opt-out, we want to ensure customers can manage their data sharing preferences before default sharing begins.  
 In GitLab 17.11, customers have the opportunity to disable data sharing proactively. Since version 18.0 is a major version, customers must first upgrade to 17.11 before moving to 18.0. 
