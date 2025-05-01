@@ -145,7 +145,7 @@ LIMIT 101;
 ```
 
 -   [Using traversal_ids on gitlab-org](https://explain.depesz.com/s/XppMc)
--   [Using traversal_ids on gitlab-com](https://explain.depesz.com/s/Vm33)
+-   [Using traversal_ids on gitlab-com](https://explain.depesz.com/s/vNAv)
 
 **Querying for a sub-group**
 
