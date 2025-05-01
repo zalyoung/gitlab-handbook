@@ -41,6 +41,7 @@ Global Campaign webcasts are managed, moderated, and executed by the Campaigns T
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=idea-webcast) in the campaigns project.
+
 * Campaign managers will consider the alignment to active and planned campaigns
 * If the suggeted topic is approved, the campaign manager will change the status label from `status:plan` to `status:wip`, and run with the webcast
 * The webcast owner will then begin creation of the epic and related issues, requesting work of relevant teams
@@ -50,13 +51,11 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 
 * Info to be added about Asana project management
 
-
 ### Creating a Technical Demo Asana project
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Info to be added about Asana project management
-
 
 ## Virtual Workshops {#field-workshops}
 
@@ -212,9 +211,6 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 ---
 <!-- NOTE: THE DOCUMENTATION BELOW IS FOR ZOOM ONLY!!! Goldcast & WEBEX IS BELOW IN THIS HANDBOOK PAGE -->
-
-
-
 ---
 <!-- NOTE: THE REST OF THE DOCUMENTATION IS FOR Goldcast ONLY!!! -->
 
@@ -657,8 +653,6 @@ The process is very similar to rescheduling.
    * Then click on the Preview/Edit option to edit the email text.
 1. In the Marketo program, deactivate all active smart campaigns and append [Canceled] to the program name.
 1. Go to Salesforce, append [Canceled] to the SFDC campaign name.
-
-
 
 ### Live Webcasts - Goldcast
 
