@@ -122,20 +122,6 @@ Partners who create a profile in the [GitLab Partner Portal](https://partners.gi
 
 For more information about Partner Flash/News On Demand and process to become a contributor, please see the [Ecosystem Operations Handbook Page anchor link](/handbook/sales/field-operations/channel-operations/#external-partner-support-and-communication).
 
-#### Webinars to Channel Partners
-
-Global Channel Marketing hosts various webinars for our partner community.  Our goal is to provide updates and general marketing program news, as well as highlight one to three larger marketing program topics for a deeper dive.  Invitations are sent via our Partner Flash and News on Demand platform.  We target the global list of marketing contacts (those who have chosen a "marketing" role in their profile) as well as those in GitLab Channel roles, including our sales and program operations teams.  Invites are sent 30 days in advance of the event with a follow up at two weeks out and one day prior.  Those who register will receive a reminder email the day before the event. Members of our global channel marketing team attend and speak during the webinar, along with special guests from other GitLab organizations, depending on the topics we are covering.  Thank You and Sorry We Missed You emails will be sent post-event and provide access to webinar recordings, assets and resources.
-
-Visit our [partner portal page](https://partners.gitlab.com/prm/English/c/ptnrmktgwebinars) for registration links for future webinars, access to past recordings, assets and resources.
-
-##### Technical platform used to host
-
-Our team hosts the Channel Partner webinar using On24. Details on how this operationally set up can be found [here](/handbook/marketing/virtual-events/webcasts/#on24-setup).
-
-- [Epic Code for To Partners webinars](/handbook/marketing/channel-marketing/channel-marketing-epics/)
-
-- [Marketo Program set up](/handbook/marketing/marketing-operations/on24/#connecting-on24-web-events-to-marketo-programs)
-
 ## MDF Program Introduction
 
 GitLab Marketing Ready partners have access to the proposal-based GitLab Marketing Development Funds (MDF) Program. These funds are intended to support our partners' demand generation efforts.
