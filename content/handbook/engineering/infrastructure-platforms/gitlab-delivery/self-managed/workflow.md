@@ -281,6 +281,7 @@ graph LR
 **Definition:** The total elapsed time from when work begins on an issue until it is delivered to production.
 
 **Components:**
+
 - **Code Time:** Time spent coding the solution
 - **Review Time:** Time spent in code review (MR open → MR merged)
 
