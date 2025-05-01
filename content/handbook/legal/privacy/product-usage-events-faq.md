@@ -20,7 +20,7 @@ For more on what is and isn’t collected, see our [documentation](https://docs.
 
 ---
 
-### Q: Since we handle sensitive information and need to minimize compliance risks, can event-level data collection be opt-in instead of opt-out?
+### Q: We handle sensitive information and need to minimize compliance risks, can event-level data collection be opt-in instead of opt-out?
 
 **A:** While data collection is set as opt-out, we want to ensure customers can manage their data sharing preferences before default sharing begins.  
 In GitLab 17.11, customers have the opportunity to disable data sharing proactively. Since version 18.0 is a major version, customers must first upgrade to 17.11 before moving to 18.0. 
@@ -29,7 +29,7 @@ For additional details, see the section on customer controls in our [blog post](
 
 ---
 
-### Q: Will the event-level data insights only be shared through a Customer Success Manager (CSM), or will they be available in the GitLab UI or another customer-facing portal?
+### Q: Will event-level insights be shared only via a CSM, or also in the GitLab UI or portal? 
 
 **A:** Once collection begins, Customer Success Managers (CSMs) will have access to this data and can use it to provide tailored insights.  
 We do plan to surface this data back to our customers in the future. We’ll share more details and timelines as they become available.
