@@ -21,10 +21,10 @@ Following [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) approach 
 
 ## Kanban Implementation
 
-We also use the [GitLab product development flow](https://handbook.gitlab.com/handbook/product-development/product-development-flow/#workflow-summary) and labels in principle. However, we usually skip below phases due to the nature of our work:
+We also use the [GitLab product development flow](/handbook/product-development/product-development-flow/#workflow-summary) and labels in principle. However, we usually skip below phases due to the nature of our work:
 
-* [Validation phase 3: Design](https://handbook.gitlab.com/handbook/product-development/product-development-flow/#validation-phase-3-design)
-* [Validation phase 4: Solution Validation](https://handbook.gitlab.com/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation)
+- [Validation phase 3: Design](/handbook/product-development/product-development-flow/#validation-phase-3-design)
+- [Validation phase 4: Solution Validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation)
 
 ### Workflow Diagram
 
@@ -137,19 +137,19 @@ On the last week's weekly sync meeting every month.
 | 3 | ~priority::3 | Middle of workflow | Address after higher priorities |
 | 4 | ~priority::4 | Bottom of workflow | Address when resources available |
 
-* "**Active columns**" refer to the workflow stages where work is currently being processed. These include:
-  * **Ready for Development**: Issues prioritized and ready to be worked on
-  * **In dev**: Issues currently being worked on by team members
-  * **Ready for review:** Work completed but waiting to be reviewed
-  * **In review**: Work completed but going through review and approval
-* "**Middle/Bottom of workflow**" refers to issues with ~priority::3 and ~priority::4 that are positioned in the central part of our board. These items:
-  * Have moderate urgency
-  * Are positioned below Priority 1 and 2 items in active columns
-  * Are typically scheduled after more urgent work
-  * May be in any workflow stage (refinement, development, review)
-  * Represent important work that should be completed, but can wait until higher priorities are addressed
+- "**Active columns**" refer to the workflow stages where work is currently being processed. These include:
+  - **Ready for Development**: Issues prioritized and ready to be worked on
+  - **In dev**: Issues currently being worked on by team members
+  - **Ready for review:** Work completed but waiting to be reviewed
+  - **In review**: Work completed but going through review and approval
+- "**Middle/Bottom of workflow**" refers to issues with ~priority::3 and ~priority::4 that are positioned in the central part of our board. These items:
+  - Have moderate urgency
+  - Are positioned below Priority 1 and 2 items in active columns
+  - Are typically scheduled after more urgent work
+  - May be in any workflow stage (refinement, development, review)
+  - Represent important work that should be completed, but can wait until higher priorities are addressed
 
-* The position in Kanban board needs to be managed and maintained manually due to the issue boards' limitation.
+- The position in Kanban board needs to be managed and maintained manually due to the issue boards' limitation.
 
 ### Work Prioritization Guidance
 
@@ -177,8 +177,9 @@ On the last week's weekly sync meeting every month.
 <td>Cannot benefit from further breakdown</td>
 <td>
 
-* [Create or update simple documentation](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/161)
-* [Fix a missing encoding problem in secret management](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/68)
+- [Create or update simple documentation](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/161)
+- [Fix a missing encoding problem in secret management](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/68)
+
 </td>
 </tr>
 <tr>
@@ -189,8 +190,9 @@ On the last week's weekly sync meeting every month.
 <td>Simple tasks with clear requirements</td>
 <td>
 
-* [Update to a new version of key dependency](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator/-/issues/1836)
-* [Create or update complex documentation](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/184)
+- [Update to a new version of key dependency](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator/-/issues/1836)
+- [Create or update complex documentation](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/184)
+
 </td>
 </tr>
 <tr>
@@ -201,8 +203,9 @@ On the last week's weekly sync meeting every month.
 <td>More complex tasks requiring coordination</td>
 <td>
 
-* [Add E2E test to a CI pipeline](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/156)
-* [Addressing security vulnerabilities in dependencies with our customization](https://gitlab.com/gitlab-org/cloud-native/charts/gitlab-ingress-nginx/-/issues/23)
+- [Add E2E test to a CI pipeline](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/156)
+- [Addressing security vulnerabilities in dependencies with our customization](https://gitlab.com/gitlab-org/cloud-native/charts/gitlab-ingress-nginx/-/issues/23)
+
 </td>
 </tr>
 <tr>
@@ -213,8 +216,9 @@ On the last week's weekly sync meeting every month.
 <td>Consider breaking down if technically feasible</td>
 <td>
 
-* [Migrate secret generator module to the new framework](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/130)
-* [Introduce a new application API and custom resource definition to Operator V2](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/109)
+- [Migrate secret generator module to the new framework](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/130)
+- [Introduce a new application API and custom resource definition to Operator V2](https://gitlab.com/gitlab-org/cloud-native/operator/-/issues/109)
+
 </td>
 </tr>
 <tr>
@@ -225,8 +229,9 @@ On the last week's weekly sync meeting every month.
 <td>Too large - must be broken down into multiple issues and grouped into an Epic</td>
 <td>
 
-* [Address DockerHub pull limits across projects](https://gitlab.com/groups/gitlab-org/distribution/-/epics/104)
-* [Self managed: Support Rollout of Container Registry for Self-Managed Instances](https://gitlab.com/groups/gitlab-org/-/epics/17005)
+- [Address DockerHub pull limits across projects](https://gitlab.com/groups/gitlab-org/distribution/-/epics/104)
+- [Self managed: Support Rollout of Container Registry for Self-Managed Instances](https://gitlab.com/groups/gitlab-org/-/epics/17005)
+
 </td>
 </tr>
 </table>
@@ -276,15 +281,15 @@ graph LR
 **Definition:** The total elapsed time from when work begins on an issue until it is delivered to production.
 
 **Components:**
-* **Code Time:** Time spent coding the solution
-* **Review Time:** Time spent in code review (MR open → MR merged)
+- **Code Time:** Time spent coding the solution
+- **Review Time:** Time spent in code review (MR open → MR merged)
 
 **Target:** Our target cycle time varies by work complexity (To be updated by FY27Q1):
 
-* Trivial changes (Weight 1): \< x 
-* Small changes (Weight 2): \< x 
-* Medium changes (Weight 3): \< x 
-* Large changes (Weight 5): \< x
+- Trivial changes (Weight 1): \< x 
+- Small changes (Weight 2): \< x 
+- Medium changes (Weight 3): \< x 
+- Large changes (Weight 5): \< x
 
 **Measurement:** (To be updated by FY27Q1)
 
@@ -294,15 +299,15 @@ graph LR
 
 **Components:**
 
-* **Planning Time:** Time from issue creation to development start
-* **Cycle Time:** (as defined above)
+- **Planning Time:** Time from issue creation to development start
+- **Cycle Time:** (as defined above)
 
 **Target:** Our target lead times are (To be updated by FY27Q1):
 
-* Priority 1 issues: \< x 
-* Priority 2 issues: \< x 
-* Priority 3 issues: \< x 
-* Priority 4 issues: \< x 
+- Priority 1 issues: \< x 
+- Priority 2 issues: \< x 
+- Priority 3 issues: \< x 
+- Priority 4 issues: \< x 
 
 **Measurement:** (To be updated by FY27Q1)
 
@@ -312,9 +317,9 @@ graph LR
 
 **Target :**
 
-* Optimal WIP ratio: 1-3
-* Warning threshold: \> 3.0 
-* Critical threshold: \> 4.0
+- Optimal WIP ratio: 1-3
+- Warning threshold: \> 3.0 
+- Critical threshold: \> 4.0
 
 **Measurement:** Count of issues in the ~"workflow::in dev", and ~"workflow::in review" stages divided by the number of active team members.
 
@@ -332,9 +337,9 @@ graph LR
 
 **Target:**
 
-* No Priority 1 issues older than x days
-* No Priority 2 issues older than x days
-* Average work item age decreasing over time
+- No Priority 1 issues older than x days
+- No Priority 2 issues older than x days
+- Average work item age decreasing over time
 
 **Measurement:** Current date minus issue creation date for all open issues.
 
@@ -348,31 +353,31 @@ graph LR
 
 ## Required labels
 
-Besides the [GitLab product development flow](https://handbook.gitlab.com/handbook/product-development/product-development-flow/#workflow-summary) labels, there are a number of additional **required** labels applied at any time to Epics, issues and merge requests (items):
+Besides the [GitLab product development flow](/handbook/product-development/product-development-flow/#workflow-summary) labels, there are a number of additional **required** labels applied at any time to Epics, issues and merge requests (items):
 
-* `group::Self Managed` - Items specific to, or authored by us.
+- `group::Self Managed` - Items specific to, or authored by us.
 
 There are also a number of additional **required** labels under certain scenarios:
 
-* `spike` - Issues which primarily involve research to understand options and the breakdown of future deliverables. [Spikes](https://handbook.gitlab.com/handbook/product/product-processes/#spikes) are often the first issue in a new Epic where the output defines additional issues and order of serial/parallel work.
+- `spike` - Issues which primarily involve research to understand options and the breakdown of future deliverables. [Spikes](/handbook/product/product-processes/#spikes) are often the first issue in a new Epic where the output defines additional issues and order of serial/parallel work.
 
-In addition to the labels outlined above, see also [workflow labels used during merge request review](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/merge_requests/#workflow) and [labels used during issue triage](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/triage/#label-glossary).
+In addition to the labels outlined above, see also [workflow labels used during merge request review](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/merge_requests/#workflow) and [labels used during issue triage](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/triage/#label-glossary).
 
 ## Milestone Integration
 
 Maintain alignment with GitLab milestone practices through:
 
-* Tag any strict timeline issue with appropriate milestone during creation and keep it till completion, e.g. breaking changes
-* Keep the milestone as `Next 1-3 releases` for all other issues when actively working on them
-* Keep all other issues with milestone `Backlog`
-* Tag all completed work with the milestone for recording
-* Maintain all standard required labels
+- Tag any strict timeline issue with appropriate milestone during creation and keep it till completion, e.g. breaking changes
+- Keep the milestone as `Next 1-3 releases` for all other issues when actively working on them
+- Keep all other issues with milestone `Backlog`
+- Tag all completed work with the milestone for recording
+- Maintain all standard required labels
 
 ## Blocked Issues Management Process
 
 ### Blocked Issue Tracking
 
-- **Workflow::Blocked Lane** - Issues that cannot progress due to dependencies, waiting for input, or other impediments are moved to a dedicated "workflow::blocked" lane
+- **~"Workflow::blocked" Lane** - Issues that cannot progress due to dependencies, waiting for input, or other impediments are moved to a dedicated "workflow::blocked" lane
 - **Blocker Documentation** - Each blocked issue must include a comment describing:
   - What is blocking the issue
   - Who/what team is responsible for unblocking
