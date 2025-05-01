@@ -152,15 +152,17 @@ Senior Engineering Manager, Infrastructure nice-to-have requirements extend thos
 - Hire and manage multiple teams that live our [values](/handbook/values/)
 - Maintain an environment where Team Members can thrive and the team produces [Results for Customers](/handbook/values/#results)
 
-### Director, Infrastructure (Reliability)
+### Director, Infrastructure
 
 The Director, Infrastructure (Reliability) manages the Engineering Reliability teams within the Infrastructure Department. These teams work on GitLab.com and also contribute to our core product. They are capable of managing multiple teams and guiding a portfolio of projects to successful outcomes. They are expert recruiters of Database Reliability Engineers, Site Reliability Engineers and Engineering Managers. They understand how to assess team capabilities and grow the existing talent on their teams. They possess a vision for successful reliability engineering and are advocates for supporting practices and technology. This role is a senior influencer who models the behaviors we want to see in our teams and contributes to great results.
 
-#### Director, Infrastructure (Reliability) Job Grade
+#### Director, Infrastructure Job Grade
 
 The Director, Infrastructure is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Director, Infrastructure (Reliability) Responsibilities
+#### Director, Infrastructure Responsibilities
+
+Director, Infrastructure responsibilities extend those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-responsibilities).
 
 - Lead hiring and management success across multiple Infrastructure Reliability Engineering teams
 - Measure and improve productivity of the team while supporting a great Team Member experience and belonging
@@ -176,6 +178,8 @@ The Director, Infrastructure is a [grade 10](/handbook/total-rewards/compensatio
 
 #### Director, Infrastructure (Reliability) Requirements
 
+Director, Infrastructure requirements extend those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-requirements).
+
 - Relevant experience managing multiple operational reliability and/or engineering teams
 - Excellent recruiter capable of attracting top talent
 - Experience with consumer-level scale systems and Software as a Service (SaaS) product delivery
@@ -186,10 +190,10 @@ The Director, Infrastructure is a [grade 10](/handbook/total-rewards/compensatio
 
 #### Nice-to-haves
 
+Director, Infrastructure nice-to-haves extend those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-nice-to-have-requirements).
+
 - Candidates with diverse experience and backgrounds
 - Prior remote work experience
-- Significant open source contributions
-- Experience with global teams
 
 ### Senior Director, Infrastructure
 
