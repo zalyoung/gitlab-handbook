@@ -11,6 +11,7 @@ By providing us with the tool to recognize and leverage the diversity of strengt
 
 ## So what is CliftonStrengths?
 
+
 **TL;DR**: CliftonStrengths helps you understand what you're naturally good at, so you can focus your energy on developing those talents into true strengths. 
 
 [CliftonStrengths](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx) is an assessment tool that helps people identify their natural talents and strengths. Based on decades of research by Gallup, this tool measures your natural patterns of thinking, feeling, and behaving across 34 potential strength themes. Rather than focusing on fixing weaknesses, CliftonStrengths empowers you to discover and leverage what you naturally do ***best***. Watch [this video](https://www.youtube.com/watch?v=lsCaTapfhhk) to dive a bit deeper. 
