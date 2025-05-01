@@ -256,6 +256,8 @@ compared with the pros and cons of alternatives.
 
 ### A unified data exploration UI
 
+TBC - ideally an high level wireframe of how we imagine a data explorer UI with main building blocks, to be used by UX to develop a proper spec maybe.
+
 ### A Standardised And Simplified Query System
 
 (draft content) 
