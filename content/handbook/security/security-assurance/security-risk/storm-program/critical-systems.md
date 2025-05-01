@@ -105,7 +105,7 @@ Critical System Tiers for existing systems are validated periodically. A system'
 
 ## Exceptions
 
-At this time, there are no exceptions to this process as all systems in the Tech Stack are assigned Critical System Tiers per the process above.
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](https://handbook.gitlab.com/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 
