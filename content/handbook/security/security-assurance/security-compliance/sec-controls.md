@@ -24,8 +24,8 @@ Given our [efficiency value](/handbook/values/#efficiency) here at GitLab we wan
 ```mermaid
 graph TD;
     SOC2_Requirement1-->Control1;
-    SOC2_Requirement2-->Control1;
-    PCI_Requirement1-->Control2;
+    PCI_Requirement1-->Control1;
+    SOC2_Requirement2-->Control2;
     ISO_Requirement1-->Control2;
     Control1-->GCF;
     Control2-->GCF;
@@ -43,7 +43,7 @@ The lifecycle of our security controls can be found at [this handbook page](/han
 
 GCF security controls are assessed at the entity, shared process, or system level depending upon the nature of the control.
 
-[Risk-based Control Testing](/content/handbook/security/security-assurance/security-compliance/risk-based-control-testing.md) assesses controlss at thesystem level are based upon the system's [critical system tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. 
+[Risk-based Control Testing](/content/handbook/security/security-assurance/security-compliance/risk-based-control-testing.md) is our methodology for determining the appropriate frequency and depth of control testing based on the criticality and risk profile of a system. This approach allows us to allocate testing resources more efficiently and expand testing beyond what's in-scope for external audits by focusing more on higher risk systems while maintaining appropriate coverage across all systems. Controls associated with systems are evaluated based upon the system's [critical system tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). 
 
 ## Control Ownership
 
