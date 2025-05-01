@@ -550,9 +550,9 @@ The `CRM Partner ID` can be retrieved by identifying the `Account ID (18)` of th
 
 First, use the general set up found in [campaigns and programs page](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up). The partner steps are nested in the typical Marketo program templates to clone. Once the campaign is cloned, follow the steps below in addition to the other setup steps found on the campaigns and programs page.
 
-### On24 Webcast Hosted by GitLab - Lead Capture via Form
+<!--### On24 Webcast Hosted by GitLab - Lead Capture via Form
 
-GitLab can drive webcasts with Alliance Partners using [On24](/handbook/marketing/virtual-events/webcasts/#on24-setup). To incorporate the steps required for partners, follow these additional steps.
+GitLab can drive webcasts with Alliance Partners using On24. To incorporate the steps required for partners, follow these additional steps.
 
 **Step 1: Setup in Marketo**
 
@@ -578,7 +578,7 @@ GitLab can drive webcasts with Alliance Partners using [On24](/handbook/marketin
 1. Update  `Budget Holder`
 1. Update  `Is an Alliance Partner Involved?`
 1. Update  `Alliance Partner Name`
-1. Click `Save`.
+1. Click `Save`.-->
 
 ### Webcast Hosted by Alliance Partner - Lead Capture via List Upload
 
