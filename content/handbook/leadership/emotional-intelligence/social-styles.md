@@ -18,6 +18,7 @@ By providing us with the tool to recognize and leverage the diversity of strengt
 
 ## Why CliftonStrengths Is Valuable for Our Teams
 
+
 Understanding and leveraging strengths directly connects to our Collaboration value. When teams recognize and appreciate each member's unique contributions, we can create an environment where:
 
 1. **Understanding strengths fosters innovation** - Teams with diverse strengths approach problems from multiple angles
