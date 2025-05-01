@@ -7,7 +7,6 @@ controlled_document: true
 
 ![Security Control Lifecycle](/images/security/security-assurance/security-compliance/control_lifecycle.png "Security Control Lifecycle"){: width="600px"}
 
-
 ## Purpose
 
 As new GitLab security controls are identified that need to be implemented by the Security Compliance Teams for compliance or regulatory reasons, these controls follow an established process in order to make that implementation successful.
@@ -33,7 +32,7 @@ This document applies to GitLab's security controls being assessed by the Securi
 
 #### Preparation
 
-As new [GCF security controls](/content/handbook/security/security-assurance/security-compliance/sec-controls.md) are identified they first must be contextualized to GitLab as a company and to the applicable GitLab systems. The Preparation phase of the control lifecycle covers this initial work required to get controls into a state of ready to be tested.
+As new [GCF security controls](/handbook/security/security-assurance/security-compliance/sec-controls.md) are identified they first must be contextualized to GitLab as a company and to the applicable GitLab systems. The Preparation phase of the control lifecycle covers this initial work required to get controls into a state of ready to be tested.
 
 Additionally, GCF controls that have been previously tested but have an upcoming requirement for renewed testing enter this Preparation phase as well to research and confirm that any changes to the control processes are captured in the updated testing activity.
 
@@ -60,9 +59,10 @@ The testing activity consists of 3 major components:
    - **Note:** These observations can only be recorded after being validated by the observation owner to ensure that observation is accurate and represents a material deficiency in the security control process
 
 After assessment and validation, the status field in the GRC tool should be updated as follows:
-* If a gap exists with no current control implementation, create a placeholder control and list the status as 'gap'
-   * Controls with a status of 'gap' should have a corresponding observation issue.
-* If a control was designed and operating effectively with no observations, create a control ID, control description, map it to the appropriate control domain and list the status as 'in existence'.
+
+- If a gap exists with no current control implementation, create a placeholder control and list the status as 'gap'
+  - Controls with a status of 'gap' should have a corresponding observation issue.
+- If a control was designed and operating effectively with no observations, create a control ID, control description, map it to the appropriate control domain and list the status as 'in existence'.
 
 #### Remediation
 
