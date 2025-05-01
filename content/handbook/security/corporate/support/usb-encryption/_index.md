@@ -2,7 +2,7 @@
 title: Corporate Security USB Device Encryption Guide
 ---
 
-# USB Mass Storage Device Encryption Guide
+How to encrypt your USB mass storage device in either macOS or Linux.
 
 ## MacOS Instructions
 
