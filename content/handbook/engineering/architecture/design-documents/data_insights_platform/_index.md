@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -44,7 +44,7 @@ The motivation behind building a centralized data platform manifests from our wo
 
 ### Goals
 
-- Consolidate the various event-collection mechanisms and simplify supporting infrastructure and/or systems - inline with our decisions in the following `ADRs` from the working group:
+- Consolidate the various event-collection mechanisms and simplify supporting infrastructure and/or systems - inline with our decisions in the following Architecture Design Records (ADRs) from the working group:
   - [Do not use proprietary components for collecting and processing event data](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/blob/master/decisions/001_collector.md?ref_type=heads).
   - [Replace internal usage of Snowplow with dogfooding of Data Insights Platform](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/blob/master/decisions/002_dogfood_data_insights_platform.md?ref_type=heads).
   - [Build a single events routing interface](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc/-/blob/master/decisions/003_single_event_instrumentation_interface.md?ref_type=heads).
@@ -71,7 +71,7 @@ Following is a brief description of each underlying component. Note, we have als
   - [CloudEvents](https://cloudevents.io/) _(next iteration)_
   - [Service Ping](https://docs.gitlab.com/development/internal_analytics/service_ping/) _(future iteration)_
 
-- __Siphon__: Custom, in-house CDC implementation to logically replicate data from Postgres into other systems such as ClickHouse.
+- __Siphon__: Custom, in-house Change Data Capture (CDC) implementation to logically replicate data from Postgres into other systems such as ClickHouse.
   - [Architecture Blueprint introducing Siphon](/handbook/engineering/architecture/design-documents/siphon/).
 
 - __NATS__: Embedded/Distributed system to buffer incoming data prior to processing/enriching.
