@@ -492,7 +492,7 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 
 ### Mid Market Roles
 
-1. **New Logo AE**: These AEs work on the highest potential accounts that are not currently customers of GitLab. Once the customer has signed its first contract, the customer is transitioned to a MM or ENT Key Account Named AE. However, if an account is won by this team and is deemed to be low potential it will be passed to a MM Territory AE. The rough guideline for these accounts is more than 500 employees total and more than 100 combined employees in engineering and IT. We don't refer to MM First Order accounts as "Named Accounts", because First Order accounts can either go to Named or Territory AEs.
+1. **New Logo AE**: These AEs work on the [Base Accounts](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#base-prospect-accounts) that are not currently customers of GitLab. Once the customer has signed its first contract, the customer is transitioned to the SMB, MM, or ENT segment depending on the size of the customers.
 1. **MM Key Accounts Named AE** (MMKAN): These AEs work on current customers that have been deemed to be high spending (high CARR) or have the potential to be high spending (high LAM). To be successful the MMKAN AE must expand their accounts more than the standard expansion rate for their named list of accounts. The named list for each MMKAN AE will grow through the fiscal year as the MMKAFO AE wins new high potential customers.
 1. **MM Territory AE**: These AEs work geographic regions of accounts that have not been vetted to be New Logo AE or MM Key Account named AE. The role sells to both prospects and current accounts.
 
@@ -672,7 +672,7 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 The New Logo Team is a specialized sales team within GitLab’s High Velocity Sales & New Logo organization focused on closing first-order deals in MM & ENT accounts.
 
 **When to Pass an Account Mid-Market or Enterprise**
-New Logo AEs will own an account until an account becomes a paid customer. Once this happens, the account will graduate into their respective segment (MM or ENT). 
+New Logo AEs will own an account until an account becomes a paid customer. Once this happens, the account will graduate into their respective segment (SMB, MM, or ENT). 
 
 ### Handover Process
 
