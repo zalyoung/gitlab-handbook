@@ -508,16 +508,23 @@ To make this happen we'll [use the following approach](https://gitlab.com/gitlab
 
 - [Iteration 2 epic](https://gitlab.com/groups/gitlab-org/-/epics/14794)
 - Implement custom statuses
-- Board integration
+- Expand support to Issues
+- Board integration (Issues only)
 - Filter by a single status on list views (if ready only work item list, else legacy list, no support for legacy epic list)
 - Status management (create, update, reorder, delete)
-- Migration from labels to statuses
-- Expand support to Issues and Epics
 
 Iteration 2 is the GA release. The following changes need to happen to change from internal dogfooding to GA:
 
 1. Change the feature flag of the internal dogfooding paths back to `work_item_status_feature_flag`.
 1. Enable the feature flag by default in the same MR.
+
+##### Nice to have
+
+- Migration from labels to statuses
+
+##### Stretch goal
+
+- Expand support to epics and enable status lists on epic boards (once new boards experience is available)
 
 #### Iteration 3
 
@@ -579,6 +586,7 @@ This section documents key architectural and implementation decisions made durin
    regardless of feature flag state and license.
 1. We'll [show the default open status as a preselected value on the work item create form](https://gitlab.com/gitlab-org/gitlab/-/issues/526531#note_2457132393).
 1. [We won't implement status on the legacy epic list](https://gitlab.slack.com/archives/C08DMJWCPEG/p1745338731609409?thread_ts=1745297729.087019&cid=C08DMJWCPEG).
+1. [Epic status and epic boards with status lists will now be treated as a stretch goal](https://gitlab.com/groups/gitlab-org/-/epics/14794#note_2480817667), likely revisited once the new board experience is available.
 
 ## Resources
 
