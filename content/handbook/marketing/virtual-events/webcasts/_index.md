@@ -1395,6 +1395,6 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 1. Submit a test lead using your GitLab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email. *Check and test the registration confirmation email. Do not forget to update the `Add to calendar` token and the email values for the Google calendar in the Registration Confirmation, Reminder 1 and Reminder 2.*
 
-### Live Webcasts - ON24
+### Live Webcasts - Goldcast
 
-Go to [ON24](/handbook/marketing/marketing-operations/on24) page for more information.
+Go to [Goldcast](/handbook/marketing/marketing-operations/goldcast) page for more information.
