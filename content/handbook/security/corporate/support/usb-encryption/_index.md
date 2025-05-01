@@ -1,3 +1,7 @@
+---
+title: Corporate Security USB Device Encryption Guide
+---
+
 # USB Mass Storage Device Encryption Guide
 
 ## MacOS Instructions
