@@ -258,7 +258,6 @@ compared with the pros and cons of alternatives.
 <!--
 ## Design and implementation details
 
-
 This section should contain enough information that the specifics of your
 change are understandable. This may include API specs (though not always
 required) or even code snippets. If there's any ambiguity about HOW your
@@ -294,6 +293,7 @@ each alternative solution/path.
 -->
 
 ## Next steps
+
 - Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
   - a unified data exploration UI
   - a standardised and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense, expanding on https://gitlab.com/gitlab-org/gitlab/-/issues/525642#note_2447362814 )
