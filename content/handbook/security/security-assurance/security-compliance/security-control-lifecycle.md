@@ -62,8 +62,7 @@ The testing activity consists of 3 major components:
 After assessment and validation, the status field in the GRC tool should be updated as follows:
 * If a gap exists with no current control implementation, create a placeholder control and list the status as 'gap'
    * Controls with a status of 'gap' should have a corresponding observation issue.
-* If a control was designed and operating effectively with no observations, list the status as 'in existence'
-
+* If a control was designed and operating effectively with no observations, create a control ID, control description, map it to the appropriate control domain and list the status as 'in existence'.
 
 #### Remediation
 
@@ -73,8 +72,7 @@ Remediation is the phase of the lifecycle where required changes are made to the
 
 Controls that are tested with no observations noted during that testing activity are determined to be in an operational state. This indicates that the design and operating effectiveness of this control are at or above the level required to meet the current needs of the security compliance program.
 
-Controls in an operating state will still need to be re-tested as determined by the risk rating of the control to ensure no substantive changes have occured which would impact the design or operating effectiveness of that control; controls move from the operating state back into the preparation state to prepare the control for the next iteration of testing.
-
+Controls in an operating state will still need to be re-tested as determined by the risk rating of the control to ensure no substantive changes have occured which would impact the design or operating effectiveness of that control.
 
 ## Exceptions
 
