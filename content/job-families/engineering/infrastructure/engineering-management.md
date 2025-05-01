@@ -213,9 +213,11 @@ The Senior Director, Infrastructure is a [grade 11](/handbook/total-rewards/comp
 
 #### Senior Director, Infrastructure Responsibilities
 
+Director, Infrastructure responsibilities extend those of [Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-responsibilities).
+
 - Establish and lead the direction for core SaaS and Infrastructure related cross-company initiatives such as Reliability Engineering practices, the architecture of platform services, or programs such as Incident Management
 - Lead the evolution of the individual Infrastructure compartment direction
-- Coordination with their leadership team on effective changes in team structure to meet new needs and accomodate overall growth
+- Coordination with their leadership team on effective changes in team structure to meet new needs and accommodate overall growth
 - Recruit and hire other effective leaders to take on key roles within Infrastructure
 - Own the delivery of results for some Infrastructure department-level Performance Indicators
 - Coordinate the creation, and lead the execution of Key Result efforts within their teams
@@ -223,6 +225,8 @@ The Senior Director, Infrastructure is a [grade 11](/handbook/total-rewards/comp
 - Own the responsibility and results delivery for all DRI assignments within the scope of their leadership team
 
 #### Senior Director, Infrastructure Requirements
+
+Director, Infrastructure requirements extend those of [Director, Engineering](/job-families/engineering/engineering-management/#senior-director-engineering-requirements).
 
 - Experience organizing, growing, and evolving an organization to meet the changing requirements of growth and/or customer need
 - Experience leading through multiple levels of management and in global organizations
