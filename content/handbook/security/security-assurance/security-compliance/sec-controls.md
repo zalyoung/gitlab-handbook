@@ -50,6 +50,39 @@ GCF security controls are assessed at the entity, shared process, or system leve
 Control Owner - Ensures that the design of the control and the control activities operate effectively and is responsible for remediation of any control activities that are required to bring that control into a state of audit-readiness.
 Process Owner - Supports the operation of the control and carries out the process designed by the control owner. The process owner is most likely to be interviewed by an auditor to determine whether or not the process is operating as intended.
 
+## Security System Intake
+
+To assess newly acquired/developed systems that enable security controls OR are/may be in scope for compliance programs for potential inclusion into our [GitLab Control Framework (GCF)](/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf) and compliance programs  (e.g., [Security Compliance Program](/handbook/security/security-assurance/#i-classfab-fa-gitlab-fa-fw-stylefont-size85em-aria-hiddentruei-core-competencies) and [SOX Program](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)).
+
+### 1. System identification
+
+Our goal is to identify systems that enable security controls (e.g., access management system) OR systems that are (or may be) subject to regulatory (e.g., SOX) or compliance requirements (SOC2, PCI) as early as possible. As we develop new features/systems and engage with third parties for services, we assess the use of the system and whether or not it meets the criteria described above. Existing systems can also be ingested into the Security Compliance Intake process. Examples of these could include systems whose functionality has expanded to support security controls or instances where our understanding of a security control has improved resulting in the identification of a previously uncredited supporting system.
+
+If the system meets the criteria, we open up a new [Security Compliance Intake Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/security-compliance-intake/-/issues/new?issue[title]=System%20Intake:%20%5BSystem%20Name%20FY2%23%20Q%23%5D&issuable_template=intakeform).
+
+### 2. Creating Security Compliance Intake Issue
+
+[Security Compliance Intake Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/security-compliance-intake/-/issues/new?issue[title]=System%20Intake:%20%5BSystem%20Name%20FY2%23%20Q%23%5D&issuable_template=intakeform) asks the author to include details related to the system including:
+
+- System overview
+- Implemented security controls or impacted regulatory or compliance program
+- Link to TPRM reviews or Production Readiness reviews
+- [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) (CST)
+- Key Contact Details
+- Deployment model and implementation status
+- Data classification
+- Regulatory scope (supported by Security Compliance and [Internal Audit](https://internal.gitlab.com/handbook/internal-audit/))
+The author of the issue completes as much of the issue as they can and assigns it to the Security Risk team for completion/triage (if the issue is not originally created by the Security Risk team).
+
+### 3. Security Compliance workflow
+
+Once the Security Compliance Intake issue is populated, Security Risk assigns the issue to the Security Compliance team to complete the following tasks to incorporate the system into our Security Compliance Program:
+
+- Determine impact (if any) to compliance control environment (for example, determining if applicable to the PCI environment and need for inspecting PCI AoC and Responsibility Matrix documentation)
+- Notify stakeholders and system owners of upcoming testing requirements
+- Incorporate testing requirements (driven by CST and regulatory/compliance requirements) and recommendations into the fiscal year audit schedule
+- Determine when [user access reviews](/handbook/security/security-assurance/security-compliance/access-reviews/) for the new system need to start and communicate to compliance teams
+
 ## References
 
 <a href="../security-compliance/" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>
