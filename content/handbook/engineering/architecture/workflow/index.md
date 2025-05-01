@@ -359,10 +359,10 @@ serve any meaningful purpose.
 
 To provide clarity and consistency across the architecture workflow, the following statuses are used to indicate the current state of each design document:
 
-- Proposed: The design has been drafted and is awaiting review or feedback. It has not yet been formally accepted.
-- Accepted: The design has been reviewed and approved. Work may begin based on this design.
-- In Progress (formerly ongoing): Work based on the design is actively being implemented.
-- Closed (formerly implemented): Work has been completed and the design has been fully implemented.
-- Rejected: The design was reviewed but not accepted. It will not be implemented in its current form.
+- `proposed`: The design has been drafted and is awaiting review or feedback. It has not yet been formally accepted.
+- `accepted`: The design has been reviewed and approved. Work may begin based on this design.
+- `ongoing`: Work based on the design is actively being implemented.
+- `implemented`: Work has been completed and the design has been fully implemented.
+- `rejected`: The design was reviewed but not accepted. It will not be implemented in its current form.
 
 These statuses help track the lifecycle of architectural designs and provide visibility into their current state.
