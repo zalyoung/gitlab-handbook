@@ -241,10 +241,9 @@ optional.
 - **Creating a dashboard framework or new visualizations components** - We will use existing framework visualization components rather than creating new ones
 - **Fixing inconsistencies between existing API's and datasources** - We won't directly resolve inconsistencies in existing APIs and data sources. Rather, we're creating an interface layer that abstracts these differences away from the use
 
-<!--
-
 ## Proposal
 
+<!--
 This is where we get down to the specifics of what the proposal actually is,
 but keep it simple!  This should have enough detail that reviewers can
 understand exactly what you're proposing, but should not include things like
@@ -254,6 +253,78 @@ real nitty-gritty.
 You might want to consider including the pros and cons of the proposed solution so that they can be
 compared with the pros and cons of alternatives.
 -->
+
+### A unified data exploration UI
+
+### A Standardised And Simplified Query System
+
+(draft content) 
+
+Starting from some sample questions, I want to try and see how we would express them in an extended-GLQL syntax.
+
+#### Multiple data sources
+
+
+Could we switch between data sources by pivoting on the existing `type` field?
+
+
+- Current open MRs
+```
+  display: table
+  fields: title, author, reviewer, approver, state, updated
+  query: project = "team-project" AND type = MergeRequest AND state = opened
+```
+- Recent critical and high vulnerabilities introduced in the last x days
+```
+  display: table
+  fields: status, severity, description
+  query: project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
+```
+
+- Recent pipeline failures or slow jobs
+```
+  display: table
+  fields: id, name, status, duration, updatedAt
+  query: project = "team-project" AND type = Pipeline AND (status = failed OR duration > 60) AND updated > -3d
+```
+- AI Impact metrics
+```
+  display: table
+  fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
+  type =  project = "team-project" AND type = AiMetric
+```
+
+
+
+#### Complex queries
+
+How about more complex queries? How would we express them in GLQL?
+
+- Count of critical and high vulnerabilities introduced in the last x days
+
+```
+  display: table
+  fields: severity, count()
+  group_by: severity
+  query: project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
+```
+
+#### Data display
+
+Could we extend the `display` key to include existing visualisations?
+
+```
+display: chart
+chart_type: line
+```
+
+But would the syntax need to support also custom visualisations, e.g. the AiImpactTable? Or could we have a generic
+
+```
+display: custom
+display_id: 'ai-impact-table'
+```
+
 
 <!--
 ## Design and implementation details
