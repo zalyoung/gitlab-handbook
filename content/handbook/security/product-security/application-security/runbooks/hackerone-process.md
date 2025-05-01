@@ -11,10 +11,13 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 
 ## Key Stakeholders and Responsibilities
 
-- HackerOne Triager
+- HackerOne Triage Team
 - GitLab AppSec Engineering
+- PSIRT Program Manager
 - Gitlab Product Manager of the feature affected by the finding
 - Gitlab Engineering (Development) Manager of the feature affected by the finding
+- SIRT (Security Operations)
+- Infrastructure Team
 
 ## HackerOne Workflow
 
