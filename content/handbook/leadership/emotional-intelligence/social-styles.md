@@ -54,4 +54,3 @@ There are so many use cases for CliftonStrengths across GitLab:
    * Goal for team members to digest information before session
 5. **Team Debrief**
    * Bring team together to attend a team session to understand and apply collective strengths
-
