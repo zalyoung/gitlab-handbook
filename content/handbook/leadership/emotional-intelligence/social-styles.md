@@ -5,32 +5,36 @@ At GitLab, we believe that understanding and leveraging each team member's uniqu
 
 By providing us with the tool to recognize and leverage the diversity of strengths within our teams, we are empowered to:
 
-* Identify talents across team members 
-* Foster an environment where vulnerability is welcomed
-* Build the trust necessary for high performance 
+1. Identify talents across team members 
+2. Foster an environment where vulnerability is welcomed
+3. Build the trust necessary for high performance 
 
 ## So what is CliftonStrengths?
+
 **TL;DR**: CliftonStrengths helps you understand what you're naturally good at, so you can focus your energy on developing those talents into true strengths. 
 
 [CliftonStrengths](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx) is an assessment tool that helps people identify their natural talents and strengths. Based on decades of research by Gallup, this tool measures your natural patterns of thinking, feeling, and behaving across 34 potential strength themes. Rather than focusing on fixing weaknesses, CliftonStrengths empowers you to discover and leverage what you naturally do ***best***. Watch [this video](https://www.youtube.com/watch?v=lsCaTapfhhk) to dive a bit deeper. 
 
 ## Why CliftonStrengths Is Valuable for Our Teams
+
 Understanding and leveraging strengths directly connects to our Collaboration value. When teams recognize and appreciate each member's unique contributions, we can create an environment where:
 
 1. **Understanding strengths fosters innovation** - Teams with diverse strengths approach problems from multiple angles
-2. **Communication improves** - Understanding how others process information leads to clearer interactions
-3. **Trust deepens** - Appreciating teams' strengths builds mutual respect and psychological safety
+2. **Communication improves**- Understanding how others process information leads to clearer interactions
+3. **Trust deepens- Appreciating teams**- strengths builds mutual respect and psychological safety
 
 ## When to use CliftonStrengths
+
 There are so many use cases for CliftonStrengths across GitLab:
 
-* During team formation and onboarding
-* For conflict resolution and improving collaboration
-* In career development conversations
-* When planning complex projects
-* During team retrospectives and growth discussions
+1. During team formation and onboarding
+2. For conflict resolution and improving collaboration
+3. In career development conversations
+4. When planning complex projects
+4. During team retrospectives and growth discussions
 
 ## Typical Clifton Process
+
 *Please note timelines may vary depending on request. Find request form [here](https://docs.google.com/forms/d/187ApdZFnhWcJNloaukomxS-wtQ7upmLGzc_vkIF4GyE/viewform?edit_requested=true).*
 
 ## Clifton Strengths Process
@@ -48,4 +52,3 @@ There are so many use cases for CliftonStrengths across GitLab:
    * Goal for team members to digest information before session
 5. **Team Debrief**
    * Bring team together to attend a team session to understand and apply collective strengths
-
