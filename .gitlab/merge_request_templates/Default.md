@@ -19,7 +19,7 @@ CHANGEME
   - The [when to get approval][when-to-get-approval] handbook section explains when [DRI][dri] approval is required
   - The [who can approve][who-can-approve] handbook section explains how to identify the DRI
   - If the MR does not require DRI approval, consider asking someone on your team, such as your manager.
-  - The approver should merge the MR. If they approved but didn't merge, you can merge.
+  - The approver may merge the MR. If they approve but don't merge, you can merge.
 - [ ] For transparency, share this MR with the audience that will be impacted.
   - [ ] Team: For changes that affect your direct team, share in your group Slack channel
   - [ ] Department: If the update affects your department, share the MR in your department Slack channel
