@@ -34,14 +34,14 @@ Vulnerability Explaination is enabled for all SAST vulnerabilities.
 
 Vulnerability Resolution is enabled for a specific set of CWEs documented at [Supported vulnerabilities for Vulnerability Resolution](https://docs.gitlab.com/user/application_security/vulnerabilities/#supported-vulnerabilities-for-vulnerability-resolution).
 
-The list of CWEs presents itself in two locations to the code
+The list of CWEs presents itself in two locations to the code:
 
 1. Database field on vulnerability records
    - `has_vulnerability_resolution` is used for Vulnerability Report (filtering/display) and Vulnerabilitiy Details (availability of "Resolve with AI"). This field is populated via a background migration
 1. [Hardcoded list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb?ref_type=heads#L25)
    - This list is used for pipeline findings, as the database field has not yet been populated.
 
-Both of these locations (including docs) need to be updated each time the CWE list is ammended. See this ([example issue](https://gitlab.com/gitlab-org/gitlab/-/issues/534307)) of prior work.
+Both of these locations (including docs) need to be updated each time the CWE list is amended. See this ([example issue](https://gitlab.com/gitlab-org/gitlab/-/issues/534307)) of prior work.
 
 ### Dashboard to see logs
 
