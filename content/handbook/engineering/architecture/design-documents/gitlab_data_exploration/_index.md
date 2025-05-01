@@ -296,7 +296,7 @@ each alternative solution/path.
 ## Next steps
 - Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
   - a unified data exploration UI
-  - a standardised and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense )
+  - a standardised and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense, expanding on https://gitlab.com/gitlab-org/gitlab/-/issues/525642#note_2447362814 )
 - Experiment with extending GLQL to fits our needs/requirements
   - Create an issue and discuss it with Plans if it makes sense
   - Build a PoC
