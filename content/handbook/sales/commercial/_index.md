@@ -682,7 +682,7 @@ Please refer to the [New Logo Team Playbook](/handbook/sales/commercial/high_vel
 
 ### Process to Move Accounts From First Order to Named/Territory
 
-Please refer to the [Go-To-Market ROE](/handbook/sales/go-to-market/rules-of-engagement/#salesforce-ownership--identifiers) for additional information about account graduation for the New Logo Team.
+Please refer to the [Go-To-Market Rules of Engagement](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#salesforce-ownership--identifiers) page for additional information about account graduation for the New Logo Team.
 
 ### When to Consider Involving a Named or Territory AE Before the Initial Deal is Done
 
