@@ -74,14 +74,36 @@ In the GitLab model, merge requests could be grouped together into a logical set
 
 However, there are a number of disadvantages:
 
-- Diffs have to be recomputed on the server every time the target branch changes. If there are many outstanding merge requests across many repositories, this could create a significant amount of load on the server.
-- Each change to a project requires creating a new branch for that project. Developers have to name and manage individual branches across many repositories.
+- Diffs have to be recomputed on the server every time the target branch
+  changes. If there are many outstanding merge requests across many
+  repositories, this could create a significant amount of load on the
+  server. Note that this problem already exists for monorepos.
+
+- Each change to a project requires creating a new branch for that
+  project. Developers have to name and manage individual branches across
+  many repositories.
 
 Patch sets have a number of advantages:
 
 - They are computed on the client side.
 - They force developers to have good commit hygiene, keeping logical changes together.
 - Merging and reverting individual patches might be more straightforward than reverting a large merge commit.
+
+The main disadvantages:
+
+- Using Patch Sets may reduce the quality of the code review
+  experience. For example, the ability to view code coverage, run
+  security scans, report quality metrics, view the entire file of a
+  file, etc. may not work.
+
+- It's not clear how CI jobs would be able to create reproducible builds.
+  CI jobs would have to check out some revision and then apply the Patch Set.
+  What revision should the job use?
+
+- Updating a Patch Set may be cumbersome and result in poor user
+  experience. If a reviewer requests changes, the user must recreate the
+  patch set, which is kind of equivalent to squashing and overriding the
+  branch history in a MR.
 
 #### How are Change Sets created?
 
