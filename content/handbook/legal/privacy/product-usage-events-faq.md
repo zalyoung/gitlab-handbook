@@ -6,7 +6,8 @@ This page answers frequently asked questions about customer product usage [event
 
 **Important Notes:**
 
-- In this FAQ, when we refer to event collection, we are talking about product usage events for all features, excluding those related to GitLab Duo. For more information, see our Customer Product Usage Information [page](https://handbook.gitlab.com/handbook/legal/privacy/customer-product-usage-information/).
+- The information in this FAQ only pertains to event collection for **GitLab Self-Managed and Dedicated.**
+- When we refer to event collection in this FAQ, we are talking about product usage events for all features, excluding those related to GitLab Duo. For more information, see our Customer Product Usage Information [page](https://handbook.gitlab.com/handbook/legal/privacy/customer-product-usage-information/).
 - This FAQ is intended to address additional questions that are not already covered in our [documentation](https://docs.gitlab.com/administration/settings/event_data). 
 For foundational details about event data collection, configuration steps, and privacy practices, please refer to the [documentation](https://docs.gitlab.com/administration/settings/event_data) and the related [blog post](https://about.gitlab.com/blog/2025/03/26/more-granular-product-usage-insights-for-gitlab-self-managed-and-dedicated/).
 
