@@ -63,3 +63,4 @@ In GitLab's case, since all systems involved in Snowplow collection and transfer
 Documentation will be available [here]https://docs.gitlab.com/administration/settings/event_data) once this is released.  
 *Note:* While these logs provide complete and accurate visibility into data transmission, they're designed specifically for inspection by security teams rather than feature usage analysis.  
 For insights into feature usage, we recommend waiting for our upcoming certified in-product adoption reports, which are purpose-built for feature usage analytics.
+
