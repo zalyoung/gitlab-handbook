@@ -241,9 +241,10 @@ optional.
 - **Creating a dashboard framework or new visualizations components** - We will use existing framework visualization components rather than creating new ones
 - **Fixing inconsistencies between existing API's and datasources** - We won't directly resolve inconsistencies in existing APIs and data sources. Rather, we're creating an interface layer that abstracts these differences away from the use
 
+<!--
+
 ## Proposal
 
-<!--
 This is where we get down to the specifics of what the proposal actually is,
 but keep it simple!  This should have enough detail that reviewers can
 understand exactly what you're proposing, but should not include things like
@@ -254,9 +255,10 @@ You might want to consider including the pros and cons of the proposed solution 
 compared with the pros and cons of alternatives.
 -->
 
+<!--
 ## Design and implementation details
 
-<!--
+
 This section should contain enough information that the specifics of your
 change are understandable. This may include API specs (though not always
 required) or even code snippets. If there's any ambiguity about HOW your
@@ -281,11 +283,23 @@ that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
 
+<!--
+
 ## Alternative Solutions
 
-<!--
 It might be a good idea to include a list of alternative solutions or paths considered, although it is not required. Include pros and cons for
 each alternative solution/path.
 
 "Do nothing" and its pros and cons could be included in the list too.
 -->
+
+## Next steps
+- Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
+  - a unified data exploration UI
+  - a standardised and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense )
+- Experiment with extending GLQL to fits our needs/requirements
+  - Create an issue and discuss it with Plans if it makes sense
+  - Build a PoC
+- Experiment with moving the GLQL rust compiler to the Rails backend
+  - Create an issue and discuss it with Plans if it makes sense
+  - Build a PoC
