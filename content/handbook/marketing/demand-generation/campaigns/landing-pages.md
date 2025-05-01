@@ -88,7 +88,7 @@ Curious how to estimate when a landing page due date should be set? We've tried 
 
 * Event landing pages (events yml) - [See Events Handbook Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) (for now)
 * Gated content landing pages - [See Gated Content Handbook Page](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
-* Webcast landing pages - [See Webcast Handbook Page](/handbook/marketing/virtual-events/webcasts/#step-3c-create-the-landing-page)
+* Webcast landing pages - [See Webcast Handbook Page](/handbook/marketing/virtual-events/webcasts/)
 
 ## Landing page naming convention
 
