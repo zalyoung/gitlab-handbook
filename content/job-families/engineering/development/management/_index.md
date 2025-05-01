@@ -25,7 +25,7 @@ Senior Engineering Manager, Development responsibilities extend those of [Senior
 
 #### Requirements
 
-Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
+Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-requirements) with [specific requirements for the Development role](/job-families/engineering/development/management/senior-manager/).
 
 ### Director, Development
 
