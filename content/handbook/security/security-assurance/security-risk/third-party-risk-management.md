@@ -41,17 +41,6 @@ TPRM engineers are assigned on-call duties on a weekly basis to manage vendor in
 
 The Security Risk team's core working hours are 8:00AM to 4:00PM CST. For urgent requisitions or TPRM concerns requiring immediate attention outside of these hours, please reach out to Ty Dilbeck via the phone number listed in Slack.
 
-## What Triggers a TPRM Assessment?
-
-Security Risk monitors various inputs to maintain compliance and ensure proper oversight. TPRM assessments are typically valid for 12 months [unless otherwise specified](LINK or adjust to footnote), and are triggered in the following scenarios:
-
-- **New Vendor Engagement:** New vendors or systems accessing [Orange or Red data](LINK) require a TPRM review prior to approval.
-- **Vendor Renewal:** Vendor renewals may require a TPRM assessment prior to approval if the most recent assessment has expired.
-- **Changes in Services:** New services and functionality from existing vendors may introduce risks not covered by previous assessments.
-- **Security Incidents:** An assessment may be triggered, along with a [Technical Security Validation](LINK), if a vendor suffers a security incident potentially impacting GitLab data. 
-- **System Integrations:** Integrations between new or existing systems, especially those processing higher-sensitivity data, may require an assessment. See **[System Integrations](LINK)** for details.
-- **Annual High-Risk Reviews:** Vendors in-scope for compliance testing (SOC2, SOX, etc.), [GitLab Sub-Processors](LINK), and vendors otherwise processing Red data are reviewed annual to meet compliance obligations.
-
 ## Frequently Asked Questions
 
 | Question | Answer |
@@ -59,10 +48,22 @@ Security Risk monitors various inputs to maintain compliance and ensure proper o
 | *What is the purpose of all this?* | Our procedures exist to support informed business decisions and mitigate exposure to the ever-evolving threat landscape. This is critical to maintain customer trust and prevent unauthorized data exposure. |
 | *What is my role?* | Your primary role as a requestor is to help us understand what is being purchased and what data is shared. This helps us complete an accurate assessment efficiently to support your needs. | 
 | *You reviewed them last year, why are we doing it again?* | Our assessments are valid for 12 months. After that, a new assessment is required before we can approve additional requisitions. A vendor's security environment and our compliance obligations are subject to change, so ongoing oversight is necessary to stay aligned with evolving risks. | 
-| *Can you just approve and assess after?* | No. Approving requisitions prior to review can expose us to unforeseen security risks and compliance issues. If a request **must** proceed to address a critical business or customer need, approval may be granted via our [Security Notice process](LINK). | 
+| *Can you just approve and assess after?* | No. Introducing new vendors and systems prior to review can expose us to unforeseen security risks and compliance issues. If a request **must** proceed to address a critical business or customer need, approval may be granted via our [Security Notice process](LINK). | 
 | *Can this be expedited?*  | Our team can prioritize reviews, within reason, if a requisition is critical and time-sensitive. The best way to expedite a review is to encourage the vendor to respond to our inquiries quickly. Urgent requests should be escalated to @Security-Risk in the #Procurement-Security channel. |
 | *How can I track review status?* | [something something Zip something something slack message i'm so tired] |
 | *What if they fail the review?* | A [Security Notice](LINK) will be opened to communicate deficiencies to relevant stakeholders, and Security Risk will collaborate with Business Owners to limit impact to critical workflows. New vendors that fail our TPRM review may be required to address any identified deficiencies before proceeding. For existing vendors, a remediation plan or offboarding plan may be required depending on the severity of the deficiency.  |
+|*What triggers a TPRM Assessment?* | Funny you should ask... |
+
+## What Triggers a TPRM Assessment?
+
+Security Risk monitors various inputs to maintain compliance and ensure proper oversight. TPRM assessments are typically valid for 12 months unless otherwise specified, and are triggered in the following scenarios:
+
+- **New Vendor Engagement:** New vendors or systems accessing [Orange or Red data](LINK) require a TPRM review prior to approval.
+- **Vendor Renewal:** Vendor renewals may require a TPRM assessment prior to approval if the most recent assessment has expired.
+- **Changes in Services:** New services and functionality from existing vendors may introduce risks not covered by previous assessments.
+- **Security Incidents:** An assessment may be triggered, along with a [Technical Security Validation](LINK), if a vendor suffers a security incident potentially impacting GitLab data. 
+- **System Integrations:** Integrations between new or existing systems, especially those processing higher-sensitivity data, may require an assessment. See **[System Integrations](LINK)** for details.
+- **Annual High-Risk Reviews:** Vendors in-scope for compliance testing (SOC2, SOX, etc.), [GitLab Sub-Processors](LINK), and vendors otherwise processing Red data are reviewed annual to meet compliance obligations.
 
 ## Security Considerations for Vendor Selection
 
