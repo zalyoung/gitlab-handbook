@@ -23,10 +23,12 @@ Given our [efficiency value](/handbook/values/#efficiency) here at GitLab we wan
 
 ```mermaid
 graph TD;
-    SOC2_Requirement1-->GCF;
-    SOC2_Requirement2-->GCF;
-    FedRAMP_Requirement1-->GCF;
-    ISO_Requirement1-->GCF;
+    SOC2_Requirement1-->Control1;
+    SOC2_Requirement2-->Control1;
+    PCI_Requirement1-->Control2;
+    ISO_Requirement1-->Control2;
+    Control1-->GCF;
+    Control2-->GCF;
     GCF-->Team1;
     GCF-->Team2;
 ```
