@@ -43,13 +43,7 @@ The lifecycle of our security controls can be found at [this handbook page](/han
 
 GCF security controls are assessed at the entity, shared process, or system level depending upon the nature of the control.
 
-GCF security controls assessed at system level are based upon the system's [critical system tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. This is broken out as follows:
-
-|Tier |     GCF Control Scope |     Hyperproof Link|
-|--|--|--|
-|Tier 0 Entity|Entity-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25200%2520Entity&sortGridBy=scopeName&view=grid)|
-|Tier 1 Mission Critical|All "In-Scope" System-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25201%2520Mission%2520Critical&sortGridBy=scopeName&view=grid)|
-|Tier 2 Business Critical|Subset of System-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25202%2520Business%2520Critical&sortGridBy=scopeName&view=grid)|
+[Risk-based Control Testing](/content/handbook/security/security-assurance/security-compliance/risk-based-control-testing.md) assesses controlss at thesystem level are based upon the system's [critical system tiering](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. 
 
 ## Control Ownership
 
@@ -60,10 +54,6 @@ Process Owner - Supports the operation of the control and carries out the proces
 ## Security Control Changes
 
 The GitLab Security Compliance team is responsible for ensuring the consistency of the documentation of the security controls listed below. While normally we welcome any GitLab team member to make edits to handbook pages, please be aware that even small changes to the wording of any of these controls impacts how they satisfy the requirements for the security frameworks they map to. Because of this, we ask any changes that need to be made to this page and the underlying guidance pages to start with a message in the [#sec-assurance](https://slack.com/app_redirect?channel=sec-assurance) slack channel. The compliance team will then engage with you and make any appropriate changes to these handbook pages.
-
-## GitLab IT General Controls (ITGCs)
-
-ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Compliance](https://internal.gitlab.com/handbook/finance/sox-internal-controls/) (internal only) for details.
 
 ## Security System Intake
 
