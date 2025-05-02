@@ -240,7 +240,6 @@ classDiagram
     namespace KnowledgeGraphModels {
     class KnowledgeGraphEnabledRepository
     class KnowledgeGraphReplica
-    class KnowledgeGraphTask
     }
 
     Node "1" --> "*" Task : has_many tasks
@@ -253,9 +252,8 @@ classDiagram
     Index "1" --> "*" Repository : has_many repositories
     Repository "1" --> "*" Task : has_many tasks
 
-    Node "1" --> "*" KnowledgeGraphTask : has_many graph tasks
     KnowledgeGraphEnabledRepository "1" --> "*" KnowledgeGraphReplica : has_many replicas
-    KnowledgeGraphReplica "1" --> "*" KnowledgeGraphTask : has_many tasks
+    KnowledgeGraphReplica "1" --> "*" Task : has_many tasks
     Node "1" --> "*" KnowledgeGraphReplica : has_many graph replicas
 ```
 
