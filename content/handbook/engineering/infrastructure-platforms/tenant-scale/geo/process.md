@@ -249,13 +249,13 @@ In phase 1, we decide whether or not an issue is a "go" or "no-go" for refinemen
 
 An issue is a "no-go", if,
 
-1. the feature is not aligned with our current roadmap (i.e. in the next 6 -12 months)
+1. the feature is not aligned with our current roadmap (i.e. in the next 6 - 12 months)
 1. the issue's context is outdated or irrelevant now
 1. it is a duplicate (mark it as a duplicate)
 1. it is already resolved, completely, or enough to not be worth prioritizing any more
 1. the solution is complex and the demand is low
 
-Those issues that are a "no-go" should be closed with the reason mentioned or de-priotized to priority 4, so that phase 2 engineers do not pick them up for refinement. Please tag the EM and PM when closing an issue if you're not 100% confident what to do with it.
+Those issues that are a "no-go" should be closed with the reason mentioned or de-prioritized to priority 4, so that phase 2 engineers do not pick them up for refinement. Please tag the EM and PM when closing an issue if you're not 100% confident what to do with it.
 
 The refinement script can be found [here](https://gitlab.com/gitlab-org/geo-team/bots/-/tree/main/cmd/refinement?ref_type=heads)
 
