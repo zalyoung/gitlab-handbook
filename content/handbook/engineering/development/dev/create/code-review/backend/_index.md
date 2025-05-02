@@ -190,7 +190,7 @@ ensure we are meeting these targets.
 
 Here are the Kibana dashboards that give a quick overview on how they perform:
 
-- [Create::Code Review Controller Actions](https://log.gprd.gitlab.net/app/visualize#/edit/f21d2820-8643-11eb-966b-2361593353f9?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))) (internal only)
+- [Create::Code Review: Controller Actions](https://log.gprd.gitlab.net/app/visualize#/edit/f21d2820-8643-11eb-966b-2361593353f9?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))) (internal only)
 - [Create::Code Review: API Endpoints](https://log.gprd.gitlab.net/app/visualize#/edit/89f9a6f0-8644-11eb-a990-d72c312ff8e9?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))) (internal only)
 - [Create::Code Review: Sidekiq Workers](https://log.gprd.gitlab.net/goto/b73a4a65e136eeedfa00b404a009e31f) (internal only)
 
