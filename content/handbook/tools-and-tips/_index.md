@@ -854,7 +854,7 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature if employed by our German entity
 
-During onboarding you may have been asked to set up your GitLab Gmail and your email signature using the [following example as a guideline](/handbook/tools-and-tips/#email-signature). If you are employed by our German entity, you will need to add some company related details to the end of your email signature as set out [here](/handbook/legal-and-corporate-affairs/legal-and-compliance/germany/germany-works-council/#email-signature-if-employed-by-our-german-entity) (*accessible internally to GitLab only*).
+During onboarding you may have been asked to set up your GitLab Gmail and your email signature using the [following example as a guideline](/handbook/tools-and-tips/#email-signature). If you are employed by our German entity, you will need to add some company related details to the end of your email signature as set out [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/germany/germany-works-council/#email-signature-if-employed-by-our-german-entity) (*accessible internally to GitLab only*).
 
 #### Add company details to certain company communications if employed by our German entity
 
