@@ -2,7 +2,6 @@
 title: "HackerOne Process"
 ---
 
-
 ## Purpose and Overview of GitLab's Bug Bounty Program
 
 ### High-level description of the process
@@ -162,7 +161,7 @@ the responsible engineering team:
   - Import the report into a GitLab issue using `/h1 import <report> [project] [options]` in Slack
     - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
   - On the imported GitLab issue:
-    - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels))
+    - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/#vulnerability-management-slas-and-labels))
     - Assign the appropriate [Due Date](/handbook/security/engaging-with-security/#due-date-on-security-issues)
     - Have a proper [`How to reproduce`](/handbook/security/engaging-with-security/#reproducibility-on-security-issues) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
     - If the report is a security-related documentation change, add the `~documentation` label
@@ -310,7 +309,7 @@ Some vulnerabilities will only work on certain Ruby versions. In order to reprod
    - `gitlab-development-kit/gitlab/.tool-versions`
 1. Run `asdf install ruby <required-version>` while inside the GDK directory.
 1. Run `gem install gitlab-development-kit` while inside the GDK directory.
-1. Go into the `./gitlab` directory inside the GDK direcory, and run `bundle install`.
+1. Go into the `./gitlab` directory inside the GDK directory, and run `bundle install`.
 1. Verify the Ruby version after running `gdk restart` and going to `https://127.0.0.1:3000/admin`
 
 ### Triaging deprecated features
@@ -324,13 +323,13 @@ DNS record takeovers typically require multiple teams in order to triage. The wo
 - Instead of pinging the team responsible for the given page (or service, in the case of MX or TXT records) we collaborate with SIRT and the SRE Oncall
 - We import the HackerOne report to the infrastructure repository with `/h1 import $REPORT infrastructure`
 - Engage SIRT with `/security` in Slack. This will allow SIRT to perform their investigatory duties related to this type of attack.
-- Engage `@sre-oncall` in Slack. This notifies the SRE (but does not intiate a PagerDuty ping) on-call of a situation requiring their attention. In the relevant SIRT issue, the responder should be added to the issue by the GitLab SIRT.
+- Engage `@sre-oncall` in Slack. This notifies the SRE (but does not initiate a PagerDuty ping) on-call of a situation requiring their attention. In the relevant SIRT issue, the responder should be added to the issue by the GitLab SIRT.
 Remediation of this vulnerability happens within the SIRT issue and typically involves deleting the dangling CNAME record. For issues involving MX record takeovers we typically work with our MX SaaS vendor, Mailgun to obtain control of the record. More information on MX record takeovers can be found [here](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/334).
 
 ### Awards
 
 - See [GitLab's H1 Policy](https://hackerone.com/gitlab), under `Rewards`, for portions of bounty rewards which are awarded at the time of triage
-  - It is OK to delay awarding at time of triage. Examples are when we aren't sure if a report is intended behaviour, or if it will be a documentation change. Remember to return and make a partial award if/when appropriate.
+  - It is OK to delay awarding at time of triage. Examples are when we aren't sure if a report is intended behavior, or if it will be a documentation change. Remember to return and make a partial award if/when appropriate.
   - It is OK to have awarded a partial bounty at time of triage and later learn we have overpaid due to an adjustment of validity or severity
 - If the report does not already have a council issue, use the `/h1 bounty <report>` Slack bot to post a note on the current [~"bug bounty council"](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council) issue
   - Add descriptions, similar issues, and other commentary as appropriate
@@ -379,7 +378,7 @@ We should not disclose, or request to disclose, a HackerOne issue while the GitL
 
 Comments made by GitLab Security Bot (`@gitlab-securitybot`) can be redacted by AppSec or SecAuto team members using the `/h1 redact <comment_url>` Slack command.
 
-To create a HackerOne Hactivity page which will help other researchers
+To create a HackerOne Hacktivity page which will help other researchers
 learn more about quality reporting we welcome disclosure of resolved
 reports which are unique and interesting.
 
