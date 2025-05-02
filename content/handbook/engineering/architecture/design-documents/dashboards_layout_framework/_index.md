@@ -2,7 +2,7 @@
 # This is the title of your design document. Keep it short, simple, and descriptive. A
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
-title: Dashboards framework
+title: Dashboard Layout Framework
 status: "ongoing"
 creation-date: "2025-04-08"
 authors: [ "@rob.hunt", "@jiaan" ]
@@ -79,13 +79,13 @@ augment our existing offering with clearer visuals and AI integration.
 
 ## Proposal
 
-With the above goals and motivation in mind, we want to outline a dashboards layout framework that provides the core
+With the above goals and motivation in mind, we want to outline a dashboard layout framework that provides the core
 functionality, UI, and UX needed to efficiently develop a dashboard within GitLab that adheres to our Pajamas guidelines.
 The structure outlined below describes what this will include, and how they will function.
 
 ## Design and implementation details
 
-![dashboards_layout_framework_outline](/images/engineering/architecture/design-documents/dashboards_layout_framework/dashboards_layout_framework_outline.png)
+![dashboard_layout_framework_outline](/images/engineering/architecture/design-documents/dashboard_layout_framework/dashboard_layout_framework_outline.png)
 
 ### The grid
 
@@ -144,9 +144,7 @@ ECharts-based visualizations may contain axis, legends, and other clickable elem
 Table visualizations may contain keyset pagination, sorting, and internal searching.
 
 Visualizations should not be contextually aware, their only job is to render the data provided in the format outlined by
-its configuration and component structure. However, for simpler migration, it may be prudent to begin by copying existing visualization components
-into the dashboard structure. Although this would contain the data source or API information to begin with, a separate data source
-could then be developed for a more integrated drop-in replacement.
+its configuration and component structure.
 
 ### Filters
 
@@ -201,3 +199,57 @@ The configuration doesn't need to have come from a JSON file, as long as the str
 - Vue component props
 
 The configuration should be validated against the schema before being used.
+
+## Migration strategies
+
+We need to consider how to migrate existing dashboard implementations. These dashboards are already solving a need
+for users, even if some may have been identified as areas we could improve or provide more value.
+
+We aim in the longer-term for all data-driven dashboards at GitLab to be fully integrated into the dashboard layout
+framework. However, this can be a gradual process based upon team capacity and user requirements.
+Even more so, as this will require the page to use Vue for rendering, and not every page at GitLab does.
+
+Any migration strategy should have the user requirements, seamless migration, and quality at its heart.
+
+### Immediate replacement
+
+In the event that a dashboard isn't meeting our users' needs, or is already scheduled for a revamp, it may be most
+prudent to go straight to replacing the existing dashboard with the dashboard layout framework.
+
+This would entail:
+
+- Building visualizations for the data being viewed
+- Building out the dashboard layout to best represent the data
+- Adding existing filters or creating new filter types
+
+Oftentimes, dashboards are also migrated to a new location within the navigation at the same time.
+
+The development and swapping over can be managed using feature flags.
+
+### Replacing the dashboard layout
+
+If the visualizations on an existing dashboard are already meeting the needs of users, then it may be expedient
+to upgrade the dashboard page itself to make use of the dashboard layout framework.
+
+This would mean keeping the existing visualizations, but integrating them into the wider framework structure.
+Therefore, replacing the existing dashboard page layout.
+
+This would entail:
+
+- Replacing the dashboard page layout with the dashboard layout framework
+- Replacing the existing dashboard blocks with [panels](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs)
+- Adding the existing visualizations to panels
+- Adding existing filters or creating new filters types that can interact with the existing visualizations
+
+### Replacing the panels
+
+If the layout of the dashboard page isn't a concern, then we can keep the existing layout as-is and replace
+the dashboard blocks themselves with [panels](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs).
+
+This could also include updating the visualizations at the same time, but it isn't entirely necessary.
+
+This would entail:
+
+- Replacing the existing dashboard blocks with [panels](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs)
+- Adding the existing visualizations to panels, or creating new visualizations
+- Integrating any existing filters with the panels
