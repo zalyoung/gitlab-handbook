@@ -265,6 +265,7 @@ GLQL already provides a robust foundation for our standardized query system:
 1. **User-friendly syntax** - GLQL was designed with simplicity and readability in mind
 2. **Extensible by design** - The GLQL architecture separates concerns between parsing, execution, transformation, and presentation and was built with extensibility in mind
 3. **Production-proven** - The current implementation is already in use for issue and work item queries
+4. **AI-Powered Exploration**: GLQL's structured syntax makes it an ideal foundation for integration with GitLab Duo. This will enable natural language queries where users can ask questions in plain English and have them automatically translated to GLQL, making data exploration accessible to a wider audience.
 
 #### Extending GLQL to support multiple data sources
 
@@ -372,10 +373,10 @@ The interface will include the following main building blocks:
 
 4. **Action Toolbar**
 
-   - Run/execute query button
+   - Run query button
    - Save query button
    - Share/export options
-   - Query history and version tracking
+   - Queries history
    - Dashboard integration options
 
 5. **Context Panel**
