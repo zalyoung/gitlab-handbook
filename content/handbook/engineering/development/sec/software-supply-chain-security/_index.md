@@ -51,7 +51,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ### Pipeline Security
 
-{{< team-by-manager-slug manager="scott-hampton" team="Engineer(.+)Software Supply Chain Security:Pipeline Security" >}}
+{{< team-by-manager-slug manager="fcatteau" team="Acting Engineer(.+)Software Supply Chain Security:Pipeline Security" >}}
 
 ## Stable Counterparts
 
