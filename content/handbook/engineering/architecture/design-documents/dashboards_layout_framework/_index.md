@@ -3,7 +3,7 @@
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
 title: Dashboards framework
-status: ongoing
+status: "ongoing"
 creation-date: "2025-04-08"
 authors: [ "@rob.hunt", "@jiaan" ]
 coaches: [ "@ahegyi" ]
@@ -29,14 +29,14 @@ For long pages, consider creating a table of contents.
 ## Summary
 
 Dashboards are at the heart of how our customers interact with their data.
-It is the means to which they are able to understand their data and use it to meet their business needs.
+It is the means by which they are able to understand their data and use it to meet their business needs.
 However, at GitLab, our dashboards have always been inherently feature-focused, without any unifying vision
 or clear guidance on _how_ to build a dashboard that meets the needs of our customers whilst also providing
 clear UX and behavioral guidelines to make sure our customers know how to use a dashboard at GitLab, irrespective
 of the data they're looking at.
 
 ~"group::platform insights" is working to design, develop, and implement this unified vision for all dashboards
-at GitLab. This vision began with the [Dashboards Working Group](../../../../company/working-groups/dashboards.md) and in March 2023 cumulated in a
+at GitLab. This vision began with the [Dashboards Working Group](../../../../company/working-groups/dashboards.md) and in March 2023 culminated in a
 new [Pajamas dashboards pattern](https://design.gitlab.com/patterns/dashboards/). This pattern laid the groundwork for what a dashboard
 is at a basic level.
 
@@ -57,14 +57,14 @@ and what features the dashboards framework will support. There must be clear gui
 ## Motivation
 
 As part of the [Data Unification and Insights effort](https://gitlab.com/gitlab-org/architecture/gitlab-data-analytics/design-doc), we are looking to unify and standardize our data offering
-at GitLab. A core part of this work, is aligning our UI/UX to how customers interact with their data and
+at GitLab. A core part of this work is aligning our UI/UX to how customers interact with their data and
 gain insights on what they can do to meet their business needs. Implementing and adopting a standardized
 dashboards framework will go a long way to meeting this need, whilst also giving us the foundation to
 augment our existing offering with clearer visuals and AI integration.
 
 ### Goals
 
-- Clear guidelines on what a dashboard is, what functionality it contains, and how to use the framework.
+- Clear guidelines on what consistutes a dashboard layout , what functionality it contains, and how to use the framework.
 - Adopt the dashboards framework across GitLab, especially where data is being used for analysis.
 - An agnostic dashboards framework, not tied to any one feature, giving engineers the tools needed to quickly and efficiently set up and use dashboards.
 - Link uses of the dashboards framework together in preparation for [dashboards navigation restructuring](https://gitlab.com/groups/gitlab-org/-/epics/16940).
@@ -75,6 +75,7 @@ augment our existing offering with clearer visuals and AI integration.
   These will be driven by feature teams, with support from ~"group::platform insights".
 - The dashboard layout framework does not include [data exploration](https://gitlab.com/gitlab-org/gitlab/-/issues/536187) outside defined panel visualizations.
 - The dashboard layout framework does not include [user-driven customization](https://gitlab.com/gitlab-org/gitlab/-/issues/536610) of dashboards, only the building blocks of the dashboards themselves.
+- The dashboard layout framework does not define where the [dashboard should be placed in the navigation](https://gitlab.com/gitlab-org/gitlab/-/issues/536612).
 
 ## Proposal
 
@@ -91,6 +92,9 @@ The structure outlined below describes what this will include, and how they will
 The grid is developed using [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
 grid structures, along with the changing and resizing of grid items, in a deterministic, and cross-browser friendly way.
 
+The framework configuration must not tied directly to Gridstack in case we need to move to alternatives in future.
+Any grid configuration options to be abstracted to make it easier to migrate if required.
+
 The grid itself will support 12 columns, with an unlimited number of rows. Each item (panel) within the grid, can be
 up to 12 columns in width. In other words, each row may contain between 1–12 panels. Each panel can span an unlimited
 number of rows, although realistically for UX and performance reasons, it would only be a few rows for any given panel.
@@ -99,13 +103,14 @@ that doesn't fit its contents.
 
 ### Panels
 
-Panels are the wrapping modular container that provides a contextual interface for users to interact with their data.
+[Panels](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs) are the wrapping modular container that provides a contextual interface for users to interact with their data.
 Each panel may contain:
 
 - A title
 - A tooltip for further tertiary information
 - A kebab menu of contextual actions
 - An indicator for any contextual errors/warnings/info
+- A loading state whilst the panel retrieves the visualization data
 - The visualization area
 
 Panels handle:
@@ -120,7 +125,10 @@ Each panel can be resized in accordance with [the grid](#the-grid) and are scrol
 
 ### Visualizations
 
-Generally, visualizations can be one of three types:
+Visualizations refer to any component that can render the data from the panel. This component must consume the data from the panel, along with
+any visualization options, and output this in an appropriate format for the data provided.
+
+Some common examples include:
 
 - ECharts-based visualizations, using the [GitLab UI implementations](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/charts-chart--docs)
 - Tables, using [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--docs) (or the lite version)
@@ -131,16 +139,18 @@ ECharts-based visualizations may contain axis, legends, and other clickable elem
 Table visualizations may contain keyset pagination, sorting, and internal searching.
 
 Visualizations should not be contextually aware, their only job is to render the data provided in the format outlined by
-it's configuration and component structure. However, for simpler migration, it may be prudent to begin by copying existing visualization components
+its configuration and component structure. However, for simpler migration, it may be prudent to begin by copying existing visualization components
 into the dashboard structure. Although this would contain the data source or API information to begin with, a separate [data source](#data-sources)
 could then be developed for a more integrated drop-in replacement.
 
 ### Filters
 
-There are two areas where filters can be applied. The first area is the global filter that is applied to every visualization within the dashboard.
-This will allow you to define the filters that should show on the dashboard either by using a pre-existing filter from the suite of filters that
-have already been developed or by making your own. Each filter will need to be connected to each data source, as each data source will need to
-process the filter I/O differently. In the event that a filter does not work with a data source, then the user needs to be notified through the UI.
+Although filtering as a concept are still under [heavy UX exploration](https://gitlab.com/gitlab-org/gitlab/-/issues/521751), we can be assured
+that there will be two areas where filters can be applied by the user.
+
+The first area is the global filter that is applied to every visualization within the dashboard. This will allow engineers to define the filters
+that should show on the dashboard. Each filter will need to be connected to each data source, as each data source will need to process the filter
+I/O differently. In the event that a filter does not work with a data source, then the user needs to be notified through the UI.
 How this notification looks is still being discussed.
 ⁠⁠
 The second type of filter is a per-panel filter applied to any one individual panel. ⁠At this moment, the dashboard layout framework
@@ -149,8 +159,9 @@ this should be done when visualizations and panels are being developed, so it's 
 
 Applying a filter will automatically update all applicable panels, as well as update the URL for users to easily share the dashboard state with others.
 
-There may be some panels which are "locked" to a particular filter value. For instance, a panel which can only show a visualization of data over the past 24 hours.
-These types of panels will visually indicate to the user that it is "locked" and explain what is restricted.
+For engineers developing panels, there is also scope to pre-apply filters to a panel, and then either allow these to be changed by the user or for them
+to be restricted to only those values. If a panel is "locked" to a particular filter value, for instance, a panel which can only show a visualization of
+data over the past 24 hours, the panel will visually indicate to the user that it is "locked" and explain what is restricted.
 
 ### Error handling
 
