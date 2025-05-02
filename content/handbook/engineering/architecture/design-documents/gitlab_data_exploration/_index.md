@@ -247,50 +247,8 @@ This proposal outlines a solution to the data exploration challenges identified 
 
 The solution consists of two main components:
 
-1. **A unified data exploration UI** - A standardized interface for constructing queries, viewing results, and creating visualizations
-2. **A standardized and simplified query system** - An extension of GitLab Query Language (GLQL) to work across all data sources
-
-### A unified data exploration UI
-
-The unified data exploration UI will provide a cohesive, intuitive interface for users to query, analyze, and visualize data from GitLab's diverse data sources. The UI will serve both technical users who may prefer writing GLQL queries directly and non-technical users who need a simplified visual interface to build reports and dashboards.
-
-The interface will include the following main building blocks:
-
-1. **Query Construction Area**
-
-   - Toggle between code-based GLQL editor and visual query building
-   - Syntax highlighting, autocompletion, and error detection for GLQL
-   - Visual query builder with intuitive components for non-technical users
-   - Schema browser showing available fields and data types
-   - Query templates and saved queries library
-   - AI-assisted building
-
-2. **Results Display**
-
-   - Tabular view for raw data exploration
-   - Visualization canvas for charts and graphs
-   - Preview of query results while building
-   - Pagination controls for large result sets
-
-3. **Visualization Controls**
-
-   - Visualization type selector (charts, tables, metrics, custom views)
-   - Configuration panel for the selected visualization
-
-4. **Action Toolbar**
-
-   - Run/execute query button
-   - Save query button
-   - Share/export options
-   - Query history and version tracking
-   - Dashboard integration options
-
-5. **Context Panel**
-
-   - Metadata about the current query (execution time, rows returned, performance metrics)
-   - Documentation and help resources
-
-This unified interface will integrate seamlessly with the standardized query system, leveraging GLQL's capabilities while presenting them in an accessible way to all users regardless of their technical expertise.
+1. **A standardized and simplified query system** - An extension of GitLab Query Language (GLQL) to work across all data sources
+2. **A unified data exploration UI** - A standardized interface for constructing queries, viewing results, and creating visualizations
 
 ### A Standardised And Simplified Query System
 
@@ -384,6 +342,49 @@ In addition, having the GLQL Rust compiler also allows the same parser to be use
 This is also inline with `~devops::plan` future plans: [https://gitlab.com/groups/gitlab-org/-/epics/15834](https://gitlab.com/groups/gitlab-org/-/epics/15834), thus opening up opportunities for collaboration.
 
 This standardized query system, built on an extended GLQL architecture and moved to the backend, will provide the foundation for a powerful, consistent data exploration experience across all GitLab data sources.
+
+### A unified data exploration UI
+
+The unified data exploration UI will provide a cohesive, intuitive interface for users to query, analyze, and visualize data from GitLab's diverse data sources. The UI will serve both technical users who may prefer writing GLQL queries directly and non-technical users who need a simplified visual interface to build reports and dashboards.
+
+The interface will include the following main building blocks:
+
+1. **Query Construction Area**
+
+   - Toggle between code-based GLQL editor and visual query building
+   - Syntax highlighting, autocompletion, and error detection for GLQL
+   - Visual query builder with intuitive components for non-technical users
+   - Schema browser showing available fields and data types
+   - Query templates and saved queries library
+   - AI-assisted building
+
+2. **Results Display**
+
+   - Tabular view for raw data exploration
+   - Visualization canvas for charts and graphs
+   - Preview of query results while building
+   - Pagination controls for large result sets
+
+3. **Visualization Controls**
+
+   - Visualization type selector (charts, tables, metrics, custom views)
+   - Configuration panel for the selected visualization
+
+4. **Action Toolbar**
+
+   - Run/execute query button
+   - Save query button
+   - Share/export options
+   - Query history and version tracking
+   - Dashboard integration options
+
+5. **Context Panel**
+
+   - Metadata about the current query (execution time, rows returned, performance metrics)
+   - Documentation and help resources
+
+This unified interface will integrate seamlessly with the standardized query system, leveraging GLQL's capabilities while presenting them in an accessible way to all users regardless of their technical expertise.
+
 <!--
 ## Design and implementation details
 
