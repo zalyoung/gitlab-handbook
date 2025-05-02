@@ -37,8 +37,8 @@
 /content/handbook/acquisitions/ @eliran.mesika
 
 ^[alliances]
-/content/handbook/alliances/ @akramer
-/content/job-families/alliances/ @akramer
+/content/handbook/alliances/ @bill_staples
+/content/job-families/alliances/ @bill_staples
 
 ^[business-technology]
 /content/handbook/business-technology/ @NabithaRao
@@ -75,9 +75,9 @@
 ^[Company-culture]
 /content/handbook/company/culture/ @streas
 /content/handbook/company/culture/all-remote/ @streas
-/content/handbook/company/culture/summit/ @akramer
+/content/handbook/company/culture/summit/ @bill_staples
 /content/handbook/company/culture/cross-culture-collaboration-guide.md @glucchesi @rallen3
-/content/handbook/company/culture/gitlab-101.md @akramer @streas
+/content/handbook/company/culture/gitlab-101.md @streas @bill_staples
 /content/handbook/company/culture/inclusion/ @rallen3
 /content/handbook/company/culture/inclusion/tmrg-gitlab-black/ @erran @madou
 /content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sarahwaldner @abuerer
@@ -316,18 +316,18 @@
 /content/handbook/legal/testing-agreement-v2.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[marketing]
-/content/handbook/marketing/ @akramer
+/content/handbook/marketing/ @bill_staples
 /content/handbook/marketing/account-based-marketing/ @megan_odowd @marcigee
 /content/handbook/marketing/blog/ @dsteer @Sgittlen
 /content/handbook/marketing/blog/release-posts/  @justinfarris @dsteer @Sgittlen
 /content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
 /content/handbook/marketing/channel-marketing/ @laurafagan
-/content/handbook/marketing/corporate-communications/ @akramer @cweaver1
+/content/handbook/marketing/corporate-communications/ @cweaver1 @bill_staples
 /content/handbook/marketing/corporate-communications/incident-communications-plan.md @robin @johncoghlan @award4
 /content/handbook/marketing/corporate-communications/resources-trainings.md @cweaver1 @award4
-/content/handbook/marketing/demand-generation/ @akramer
+/content/handbook/marketing/demand-generation/ @bill_staples
 /content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
-/content/handbook/marketing/developer-relations/ @esalvadorp @akramer
+/content/handbook/marketing/developer-relations/ @esalvadorp @bill_staples
 /content/handbook/marketing/developer-relations/cocreate/ @esalvadorp @nick_vh @stingrayza
 /content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @nick_vh @daniel-murphy @janasenap
 /content/handbook/marketing/developer-relations/community-programs/education-program/ @esalvadorp @nick_vh @daniel-murphy @janasenap
@@ -342,52 +342,52 @@
 /content/handbook/marketing/developer-relations/technical-marketing/ @johncoghlan @csaavedra1 @fjdiaz @iganbaruch
 /content/handbook/marketing/developer-relations/workflows-tools/ @dnsmichi @johncoghlan @sugaroverflow @waarias
 /content/handbook/marketing/digital-experience/ @fqureshi @laurenbarker
-/content/handbook/marketing/emergency-response.md @akramer @rkohnke @amy.waller
-/content/handbook/marketing/events/ @akramer
-/content/handbook/marketing/growth/ @akramer @gdoud
-/content/handbook/marketing/inbound-marketing/ @akramer
-/content/handbook/marketing/inbound-marketing/search-marketing/ @ncregan @hsmith-watson @akramer
-/content/handbook/marketing/inbound-marketing/search-marketing/analytics.md @akramer
-/content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @akramer @ncregan @hsmith-watson
-/content/handbook/marketing/inbound-marketing/search-marketing/testing.md @akramer
-/content/handbook/marketing/journeys.md @akramer @dsteer
+/content/handbook/marketing/emergency-response.md @rkohnke @amy.waller @bill_staples
+/content/handbook/marketing/events/ @bill_staples
+/content/handbook/marketing/growth/ @gdoud @bill_staples
+/content/handbook/marketing/inbound-marketing/ @bill_staples
+/content/handbook/marketing/inbound-marketing/search-marketing/ @ncregan @hsmith-watson @bill_staples
+/content/handbook/marketing/inbound-marketing/search-marketing/analytics.md @bill_staples
+/content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @ncregan @hsmith-watson @bill_staples
+/content/handbook/marketing/inbound-marketing/search-marketing/testing.md @bill_staples
+/content/handbook/marketing/journeys.md @dsteer @bill_staples
 /content/handbook/marketing/lifecycle-marketing/ @aklatzkin @bstallings
 /content/handbook/marketing/lifecycle-marketing/emails-nurture/ @aklatzkin @bstallings
 /content/handbook/marketing/localization/ @djsulliv
-/content/handbook/marketing/marketing-career-development/ @akramer
+/content/handbook/marketing/marketing-career-development/ @bill_staples
 /content/handbook/marketing/marketing-enablement.md  @justinfarris
 /content/handbook/marketing/marketing-operations/ @christinelee @amy.waller
-/content/handbook/marketing/marketing-strategy-and-platforms.md @akramer @christinelee
-/content/handbook/marketing/positioning-faq.md @akramer @dsteer
+/content/handbook/marketing/marketing-strategy-and-platforms.md @christinelee @bill_staples
+/content/handbook/marketing/positioning-faq.md @dsteer @bill_staples
 /content/handbook/marketing/project-management-guidelines/ @johncoghlan
-/content/handbook/marketing/readmes/ @akramer
+/content/handbook/marketing/readmes/ @bill_staples
 /content/handbook/marketing/readmes/michael-friedrich.md @dnsmichi
-/content/handbook/marketing/sales-development/ @akramer @jlarramendy
+/content/handbook/marketing/sales-development/ @jlarramendy @bill_staples
 /content/handbook/marketing/sales-plays-cicd/ @dsteer
 /content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @waarias @dsteer
-/content/handbook/marketing/strategy-performance/ @akramer @vhempel
+/content/handbook/marketing/strategy-performance/ @vhempel @bill_staples
 /content/handbook/marketing/strategy-performance/allocadia/ @rcallam @emathis
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
 /content/handbook/marketing/utm-strategy.md @ikryzeviciene @rkohnke @aoetama
-/content/job-families/marketing/ @akramer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/marketing/ @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @bill_staples
 # The MR Coach speciality is owned by Contributor Success
 /content/job-families/expert/merge-request-coach.md @esalvadorp @nick_vh @gitlab-org/developer-relations/contributor-success
 
 ^[Marketing-Brand-and-Product-Marketing]
-/content/handbook/marketing/brand-and-product-marketing/ @akramer @dsteer @rclayman
-/content/handbook/marketing/brand-and-product-marketing/brand/ @akramer @dsteer @rclayman
+/content/handbook/marketing/brand-and-product-marketing/ @dsteer @rclayman @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/brand/ @dsteer @rclayman @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/brand/brand-activation/ @luke @amittner
-/content/handbook/marketing/brand-and-product-marketing/content/ @akramer @dsteer
-/content/handbook/marketing/brand-and-product-marketing/content/content-marketing.md @akramer @dsteer
-/content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @akramer @dsteer
-/content/handbook/marketing/brand-and-product-marketing/design.md @akramer @dsteer @amittner @luke @monica_galletto @vicbell
+/content/handbook/marketing/brand-and-product-marketing/content/ @dsteer @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/content/content-marketing.md @dsteer @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/content/editorial-team.md @dsteer @bill_staples
+/content/handbook/marketing/brand-and-product-marketing/design.md @dsteer @amittner @luke @monica_galletto @vicbell @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/ @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/ @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/ @dsteer @jkempton
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/core-product-marketing/ @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ @nicolecsmith @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/ @dsteer
-/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md @akramer @dsteer
+/content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md @dsteer @bill_staples
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/mrnci.md @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/public-sector-gtm.md @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ @dsteer
@@ -400,7 +400,7 @@
 
 ^[Marketing-Integrated-Marketing]
 /content/handbook/marketing/field-marketing/ @laurafagan
-/content/handbook/marketing/integrated-marketing/ @akramer @laurafagan
+/content/handbook/marketing/integrated-marketing/ @laurafagan @bill_staples
 /content/handbook/marketing/integrated-marketing/corporate-events.md @kdemarest
 /content/handbook/marketing/integrated-marketing/digital-strategy/ @bstallings
 /content/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/ @award4
@@ -478,66 +478,66 @@
 
 ^[sales]
 /content/handbook/resellers/ @ecepulis
-/content/handbook/resellers/training.md @akramer @ecepulis
-/content/handbook/sales/ @akramer
-/content/handbook/sales/account-planning/ @lschoenfeld @akramer @monicaj
-/content/handbook/sales/build-value-with-customers.md @akramer
+/content/handbook/resellers/training.md @ecepulis @bill_staples
+/content/handbook/sales/ @bill_staples
+/content/handbook/sales/account-planning/ @lschoenfeld @monicaj @bill_staples
+/content/handbook/sales/build-value-with-customers.md @bill_staples
 /content/handbook/sales/club/ @kdemarest @kagarrett
-/content/handbook/sales/command-of-the-message/ @akramer @dsteer
-/content/handbook/sales/commercial/ @bcaller @MDines @akramer @steve_xu @carolynharding
-/content/handbook/sales/commissions/ @akramer
-/content/handbook/sales/faq-from-prospects.md @akramer
+/content/handbook/sales/command-of-the-message/ @dsteer @bill_staples
+/content/handbook/sales/commercial/ @bcaller @MDines @steve_xu @carolynharding @bill_staples
+/content/handbook/sales/commissions/ @bill_staples
+/content/handbook/sales/faq-from-prospects.md @bill_staples
 /content/handbook/sales/field-communications/ @monicaj @shannonthompson
 /content/handbook/sales/field-communications/gitlab-highspot/ @monicaj
 /content/handbook/sales/field-manager-development.md @ashahrazad1
-/content/handbook/sales/field-operations/ @akramer
+/content/handbook/sales/field-operations/ @bill_staples
 /content/handbook/sales/field-operations/channel-operations/ @leework
-/content/handbook/sales/field-operations/customer-success-operations/ @akramer
+/content/handbook/sales/field-operations/customer-success-operations/ @bill_staples
 /content/handbook/sales/field-operations/field-enablement/ @aileenlu @monicaj
-/content/handbook/sales/field-operations/gtm-resources/ @akramer
+/content/handbook/sales/field-operations/gtm-resources/ @bill_staples
 /content/handbook/sales/field-operations/order-processing.md @jrabbits
 /content/handbook/sales/field-operations/release-schedule.md @monicaj
-/content/handbook/sales/field-operations/sales-operations/ @akramer
+/content/handbook/sales/field-operations/sales-operations/ @bill_staples
 /content/handbook/sales/field-operations/sales-operations/deal-desk.md @jrabbits
-/content/handbook/sales/field-operations/sales-strategy/ @akramer
+/content/handbook/sales/field-operations/sales-strategy/ @bill_staples
 /content/handbook/sales/field-operations/sales-systems/ @sheelaviswanathan
-/content/handbook/sales/forecasting.md @akramer
-/content/handbook/sales/gainsight/ @akramer
-/content/handbook/sales/idea-to-production-demo/ @akramer
-/content/handbook/sales/insidesales.md @akramer
-/content/handbook/sales/it-agility-director-interview.md @akramer
-/content/handbook/sales/manager-operating-rhythm/ @ashahrazad1 @akramer
+/content/handbook/sales/forecasting.md @bill_staples
+/content/handbook/sales/gainsight/ @bill_staples
+/content/handbook/sales/idea-to-production-demo/ @bill_staples
+/content/handbook/sales/insidesales.md @bill_staples
+/content/handbook/sales/it-agility-director-interview.md @bill_staples
+/content/handbook/sales/manager-operating-rhythm/ @ashahrazad1 @bill_staples
 /content/handbook/sales/manager-operating-rhythm/enterprise-sales.md @monicaj @ashahrazad1
 /content/handbook/sales/meddppicc.md @ashahrazad1 @jblevins608
 /content/handbook/sales/negotiate-to-close.md @monicaj @ashahrazad1
 /content/handbook/sales/onboarding/ @jblevins608 @ashahrazad1
 /content/handbook/sales/playbook/ @monicaj @ashahrazad1
-/content/handbook/sales/prospecting.md @monicaj @akramer @ashahrazad1
-/content/handbook/sales/public-sector.md @akramer
+/content/handbook/sales/prospecting.md @monicaj @ashahrazad1 @bill_staples
+/content/handbook/sales/public-sector.md @bill_staples
 /content/handbook/sales/qbrs/ @ashahrazad1 @shannonthompson @monicaj
-/content/handbook/sales/qualification-questions.md @akramer
-/content/handbook/sales/readmes/ @akramer
+/content/handbook/sales/qualification-questions.md @bill_staples
+/content/handbook/sales/readmes/ @bill_staples
 /content/handbook/sales/revenue-programs.md @dsteer
 /content/handbook/sales/sales-google-groups/ @monicaj @shannonthompson
-/content/handbook/sales/sales-meetings.md @monicaj @akramer
-/content/handbook/sales/sales-operating-procedures/ @akramer
-/content/handbook/sales/sales-renewal-process.md @akramer
-/content/handbook/sales/sales-term-glossary/ @akramer
-/content/handbook/sales/selling-professional-services.md @akramer
-/content/handbook/sales/shadow-program.md @monicaj @akramer
+/content/handbook/sales/sales-meetings.md @monicaj @bill_staples
+/content/handbook/sales/sales-operating-procedures/ @bill_staples
+/content/handbook/sales/sales-renewal-process.md @bill_staples
+/content/handbook/sales/sales-term-glossary/ @bill_staples
+/content/handbook/sales/selling-professional-services.md @bill_staples
+/content/handbook/sales/shadow-program.md @monicaj @bill_staples
 /content/handbook/sales/sop.md @jrabbits
-/content/handbook/sales/tam.md @akramer
-/content/handbook/sales/territories/ @akramer @lschoenfeld
+/content/handbook/sales/tam.md @bill_staples
+/content/handbook/sales/territories/ @lschoenfeld @bill_staples
 /content/handbook/sales/territories/latam.md @disastor @ricardoamarilla
-/content/handbook/sales/territory-planning.md @akramer @monicaj
+/content/handbook/sales/territory-planning.md @monicaj @bill_staples
 /content/handbook/sales/training/ @ashahrazad1 @jblevins608
-/content/handbook/sales/training/customer-success-skills-exchange.md @akramer @pdaliparthi
+/content/handbook/sales/training/customer-success-skills-exchange.md @pdaliparthi @bill_staples
 /content/handbook/sales/training/field-certification/ @ashahrazad1 @pdaliparthi @monicaj
-/content/handbook/sales/training/field-functional-competencies.md @akramer @ashahrazad1
+/content/handbook/sales/training/field-functional-competencies.md @ashahrazad1 @bill_staples
 /content/handbook/sales/training/sales-enablement-sessions/ @ashahrazad1 @jblevins608
 /content/handbook/sales/training/sko/ @kdemarest @kagarrett
-/content/handbook/sales/understand-customer-gitlab-use.md @akramer
-/content/job-families/sales/ @akramer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/handbook/sales/understand-customer-gitlab-use.md @bill_staples
+/content/job-families/sales/ @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @bill_staples
 
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @juliedavila @cibericua @jdicken
@@ -701,7 +701,7 @@
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/people-group/acceptable-use-policy.md @rallen3 @akramer @emilyplotkin @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-group/acceptable-use-policy.md @rallen3 @emilyplotkin @gitlab-com/egroup @gitlab-com/content-sites @bill_staples
 /content/handbook/people-group/offboarding/offboarding_standards.md @rallen3  @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
