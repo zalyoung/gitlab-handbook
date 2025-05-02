@@ -7,26 +7,52 @@ description: "This Hands-On Guide demonstrates how to add CI/CD components to a 
 
 ## Objectives
 
-A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD features are provided as components. In this lab, you will learn how to add a CI/CD component to your GitLab project.
+A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD features are provided as components. In this lab, you will learn how to create and add a CI/CD component to your GitLab project.
 
-## Task A. Finding the SAST Component
+## Task A. Creating a Component
 
-GitLab stores CI/CD components inside of the CI/CD catalog. To view the catalog:
+Let's create a component to use in our GitLab project.
 
-1. In the left sidebar, select **Search or go to**.
+1. Navigate to your **My Test Group** by clicking it in the breadcrumb at the top of the page.
 
-1. In the resulting dialog, select **Explore**.
+1. From your **My Test Group** in GitLab, click the **New project** button.
 
-1. In the left sidebar, select **CI/CD Catalog**. This will show you a list of all of the CI/CD catalog items available in your GitLab instance. For this lab, you will be adding SAST to your project. Select the SAST component.
+1. Click the **Create blank project** tile.
 
-When you select a CI/CD component, you will see a `Readme`, which describes how to use the component, as well as configuration options for the component. For the SAST component, you will see that it can be included using the following code:
+1. Name your project `Example Component`.
+
+1. Leave all other values as their default, and click the **Create project** button and wait for GitLab to redirect you to the new project's main page.
+
+Now, we need to set up the configuration for the component.
+
+1. In the repository of your Example Component project, click the **+** button, then click the **New Directory** option.
+
+1. For the directory name, type in **templates**. Make sure that it is in lower case.
+
+1. Click the **Commit changes** button, and commit it to the main branch.
+
+1. Ensure you are now in the new templates directory. Click on the **+** button, then click the **New file** button.
+
+1. Type in **sample-template.yml** as the file name.
+
+1. In the body of the file, copy the following text to create your sample component:
 
 ```yaml
-include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@<VERSION>
+spec:
+  inputs:
+    stage:
+      default: test
+---
+component-job:
+  script: echo job 1
+  stage: $[[ inputs.stage ]]
 ```
 
-Let’s add this to our CI/CD file.
+Here, we are creating a component with an input called *stage*. The stage input has a default value of 'test', which we will override in our other project.
+
+1. Click **Commit changes**, and then click **Commit changes** in the pop-up screen.
+
+Now, we have a component that we can use in our project. You can also publish this component to the CI/CD catalogue with a Release for others to use, but we are instead just going to call it directly from our other project.
 
 ## Task B. Adding the SAST component
 
@@ -36,11 +62,11 @@ Let’s add this to our CI/CD file.
 
 1. Select **Edit > Edit in Pipeline Editor**.
 
-1. At the top of your file, below the image, add the SAST import at version main.
+1. At the top of your file, below the image, add in the custom component we created earlier. You will need to replace <group-patthway> with the the URL pathway to the project. For example, it might look something like "session-0378bc88/iuljg1dh".
 
 ```yaml
 include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+  - component: ilt.gitlabtraining.cloud/training-users/<group-pathway>/example-component/templates/sample-template.yml@main
 ```
 
 The top of the `.gitlab-ci.yml` file should look like this:
@@ -56,12 +82,21 @@ default:
   image: golang
 
 include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+  - component: ilt.gitlabtraining.cloud/<group-pathway>/example-component/templates/sample-template.yml@main
 ```
 
 1. Select **Commit changes**.
 
-1. After committing your changes, navigate to the pipeline created for your commit. You will now see a new job named *semgrep-sast*. This job is the security scan imported using the `include` keyword.
+1. After committing your changes, navigate to the pipeline created for your commit. You will now see a new job named *component-job*. This job is the custom job we have imported using the `include` keyword.
+
+1. Let's try overriding the stage to instead run in the deploy stage by adding the following to the `.gitlab-ci.yml` file:
+
+```yaml
+  inputs:
+    stage: deploy
+```
+
+1. Select **Commit changes**, and watch as your *component-job* now runs in the deploy stage.
 
 ## Lab Guide Complete
 
