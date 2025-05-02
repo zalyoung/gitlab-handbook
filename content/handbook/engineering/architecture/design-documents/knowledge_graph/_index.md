@@ -86,8 +86,7 @@ repository statistics or showing related files when browsing through repository.
 
 ## Design and implementation details
 
-Because there is already [Exact Code Search
-(Zoekt)](/handbook/engineering/architecture/design-documents/code_search_with_zoekt)
+Because there is already [Exact Code Search (Zoekt)](/handbook/engineering/architecture/design-documents/code_search_with_zoekt)
 which uses similar architecture as knowledge graph, it would be best to make the
 existing Zoekt infrastructure more generic so it will support both Zoekt
 searching and graph database searching. Then we can deploy graph database
@@ -218,13 +217,6 @@ service, but we should make sure that:
 - Queries for the same repository should be served by the same node
   (even if there are multiple replicas of the repository) because knowledge
   graph service will keep open DB connections for recently used DBs
-
-we will use similar strategy as [Zoekt searching](/handbook/engineering/architecture/design-documents/code_search_with_zoekt):
-
-- Graph nodes register themselves with GitLab by providing their address, name, and status
-- GitLab maintains a registry of nodes with their status, capacity, and assignments
-- GitLab manages the shard assignments internally, assigning namespaces to specific nodes
-- Nodes that don't check in for a configurable period can be automatically removed
 
 Because of similarities between knowledge graph and Zoekt searching, we will
 extend existing [Zoekt infrastructure](/handbook/engineering/architecture/design-documents/code_search_with_zoekt)
