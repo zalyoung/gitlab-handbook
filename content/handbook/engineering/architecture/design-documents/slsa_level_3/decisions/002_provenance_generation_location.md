@@ -4,8 +4,6 @@ title: "ADR 002: SLSA Provenance Generation Location"
 description: "Architecture Decision Record for where to generate SLSA provenance statements"
 ---
 
-# ADR 002: SLSA Provenance Generation Location
-
 ## Context
 
 SLSA (Supply chain Levels for Software Artifacts) is a security framework that helps ensure the integrity of software artifacts. As part of implementing SLSA Level 3 compliance, GitLab needs to generate provenance statements for artifacts produced by CI/CD pipelines. These statements contain metadata about how an artifact was built, including repository URL, commit SHA, build ID, runner ID, CI/CD variables, and artifact digests.
@@ -19,20 +17,24 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 ### 1. Runner Helper (Current Implementation)
 
 **Pros:**
+
 - Already implemented
 - Complete, except for collecting commands executed by the script
 - Easy setup, enabled by a single CI/CD variable
 
 **Cons:**
+
 - **BLOCKER:** Not in control plane as defined by SLSA, violating Level 3 requirements
 
 ### 2. Runner
 
 **Pros:**
+
 - Could capture commands being executed
 - Has access to build environment
 
 **Cons:**
+
 - **BLOCKER:** Not in control plane (tenant-controlled space)
 - Runners can't upload artifacts directly
 - Can't trust the runner identity (self-reported runner ID could be falsified)
@@ -40,6 +42,7 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 ### 3. GitLab Rails Backend
 
 **Pros:**
+
 - In control plane (as defined by SLSA)
 - Deployment and maintenance: ships with GitLab
 - Easy setup: can be enabled in GitLab UI
@@ -48,25 +51,30 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 - Already has access to necessary metadata (job payload, artifact digests)
 
 **Cons:**
+
 - Limited access to repository content (though not required for basic provenance)
 - No direct access to cosign tooling (would require integration)
 
 ### 4. GitLab Workhorse
 
 **Pros:**
+
 - Already generates artifacts metadata
 - Similar to provenance generation
 
 **Cons:**
+
 - **BLOCKER:** Cannot provide all necessary metadata, particularly cannot verify runner identity in a trusted way
 
 ### 5. CI/CD Component
 
 **Pros:**
+
 - Visibility: advertised in the CI/CD catalog
 - Maintenance: new releases can be published at any time
 
 **Cons:**
+
 - **BLOCKER:** Not in control plane (as defined by SLSA)
 - Air gap: CI/CD components don't ship with GitLab, requiring extra setup
 - Complex setup for users
@@ -74,10 +82,12 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 ### 6. New Service
 
 **Pros:**
+
 - Clear trust boundaries
 - Independent scaling
 
 **Cons:**
+
 - **BLOCKER:** No direct access to provenance metadata
 - New service to maintain
 - Additional infrastructure required
