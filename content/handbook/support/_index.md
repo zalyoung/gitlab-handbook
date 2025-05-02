@@ -336,6 +336,7 @@ variations, please refer to the [README file](https://gitlab.com/gitlab-com/supp
 | [#spt_apac](https://gitlab.enterprise.slack.com/archives/C07EJ2L3P7E) | Discuss topics specific to Global SEs in APAC |
 | [#spt_pairing](https://gitlab.slack.com/archives/C03UW0HPBGD) | Used when working together on tickets and issues |
 | [#spt_us-government](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
+| [#spt_onboarding](https://gitlab.slack.com/archives/C07UJ1N8S1F) | New here? Topics related to onboarding |
 
 ##### Private Channels
 
