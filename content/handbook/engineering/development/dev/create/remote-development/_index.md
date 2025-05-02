@@ -9,12 +9,6 @@ description: >-
 
 The group is part of [Create Stage](/handbook/engineering/development/dev/create/) in the [Dev Sub-department](/handbook/engineering/development/dev/). We focus on two [categories](https://about.gitlab.com/direction/create/#categories-in-create): `Workspace` and the `Web IDE`.
 
-### 👌 Group OKRs
-
-<span id="-team-okrs" data-message="alias anchor for old links"></span>
-
-If you're interested in the group's Objectives and Key Results (OKRs), you can find them on [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Aremote%20development&type%5B%5D=objective&first_page_size=20).
-
 ### 🤴 Group Principles
 
 <span id="-team-principles" data-message="alias anchor for old links"></span>
@@ -104,13 +98,13 @@ Please note that sync meeting schedules are flexible and can be moved to accommo
 
 The table below briefly outlines the objectives and key details of regular team meetings:
 
-| Meeting Title                       | What                                                                                                                                      |
-|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| High Level Planning                 | Set overall direction and validate higher-priority issues/epics to be worked on in the upcoming releases.                                 |
-| Iteration Planning Meeting (IPM)    | Review backlog and iteration status; estimate and prioritize work for next iterations.                                                    |
-| Remote Development Retro Call       | Review feedback from async retro, identify action items and next steps to improve efficiency.                                             |
-| Engineering Sync                    | Discuss engineering topics and brainstorming. Cancelled if no topics. Alternates APAC/AMER friendly times.                                |
-| Remote Development Pairing          | Pairing sessions for engineers. Cancelled if no topics.                                                                                   |
+| Meeting Title                       | What                                                                                                       |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------|
+| High Level Planning                 | Set overall direction and validate higher-priority issues/epics to be worked on in the upcoming releases.  |
+| Iteration Planning Meeting (IPM)    | Review scheduled issues; estimate work for next milestones.                                                |
+| Remote Development Retro Call       | Review feedback from async retro, identify action items and next steps to improve efficiency.              |
+| Engineering Sync                    | Discuss engineering topics and brainstorming. Cancelled if no topics. Alternates APAC/AMER friendly times. |
+| Remote Development Pairing          | Pairing sessions for engineers. Cancelled if no topics.                                                    |
 
 ## 📦 Group Processes
 
@@ -381,7 +375,6 @@ Workspaces:
 /milestone %"<target milestone>"
 /due date <one week into milestone's date, obtained from clicking on milestone link>
 /label ~due-date-followup ~refined
-/iteration [cadence:"Workspaces"] --current
 /epic &11041
 ```
 
@@ -392,7 +385,6 @@ Web IDE:
 /milestone %"<target milestone>"
 /due date <one week into milestone's date, obtained from clicking on milestone link>
 /label ~due-date-followup ~refined
-/iteration [cadence:"WebIDE"] --current
 /epic &14656
 ```
 
