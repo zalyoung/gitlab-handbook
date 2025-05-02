@@ -28,12 +28,12 @@ For long pages, consider creating a table of contents.
 
 ## Summary
 
-Dashboards are at the heart of how our customers interact with their data.
-It is the means by which they are able to understand their data and use it to meet their business needs.
+Dashboards are at the heart of how our customers interact with their data. It is the means by which they are able to understand their data
+and use it to meet their business needs.
+
 However, at GitLab, our dashboards have always been inherently feature-focused, without any unifying vision
-or clear guidance on _how_ to build a dashboard that meets the needs of our customers whilst also providing
-clear UX and behavioral guidelines to make sure our customers know how to use a dashboard at GitLab, irrespective
-of the data they're looking at.
+or clear guidance on _how_ to build a dashboard. We don't have clear guidance for meeting the needs of our
+customers, or clear UX and behavioral guidelines to make sure our customers know how to use any dashboard at GitLab.
 
 ~"group::platform insights" is working to design, develop, and implement this unified vision for all dashboards
 at GitLab. This vision began with the [Dashboards Working Group](../../../../company/working-groups/dashboards.md) and in March 2023 culminated in a
@@ -196,38 +196,3 @@ The configuration doesn't need to have come from a JSON file, as long as the str
 - Vue component props
 
 The configuration should be validated against the schema before being used.
-
-### Data sources
-
-Data sources are the component that ties the dashboard visualizations to our underlying data. The data sources are responsible for taking the request data:
-
-- Which filters have been applied
-- Any query parameters
-- Any configuration options
-
-And transforming these into values that the data source can understand. The data source response is then transformed into values that the dashboard layout
-framework can understand for it to be able to:
-
-- Render the visualization
-- Update any UI elements
-- Update any filter values
-
-To make this work, each data source is required to have a consistent API. ⁠For now, this is a `fetch` function which looks something like:
-
-```javascript
-export default async function fetch({
-  contextId, // The id of the namespace or project where the data should be retrieved from
-  contextFullPath, // The full path of the namespace or project where the data should be retrieved from
-  query, // The query being used to fetch the data
-  queryOverrides, // Optional overrides to the base query
-  visualizationType, // The type of visualization being rendered
-  visualizationOptions, // Additional options for customizing the visualization
-  filters, // The filters applied to the query
-  onRequestDelayed, // Callback function when request is delayed. It can trigger a loading spinner in the panel
-  setAlerts, // Callback function to set alerts
-  setVisualizationOverrides, // Callback function to set visualization options before render but after the data fetch, allowing us to include fetched data in the visualization options
-})
-```
-
-The panel will always send this information, the data source's `fetch` method can then decide which information it needs to use, and which it can ignore.
-Any other functions used by the data source are data source specific, and ignored by the wider dashboard layout framework.
