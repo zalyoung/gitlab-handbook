@@ -286,13 +286,10 @@ Could we switch between data sources by pivoting on the existing `type` field?
 ```
 - AI Impact metrics
 ```
-  fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
   query =  project = "team-project" AND type = AiMetric
+  fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
 ```
 
-While it should be easy enough to add support for types that already existins in the GraphQL API (provided it will require making some changes in Rust), how hard would it be to add support for non-graphql entities? Do we have examples of non-graphql API currently used? I could only think of PA and o11y - which are no longer with us. The upcoming Data Insights Platform will also have a GraphQL API. 
-
-It does seem clear though that we are moving the problem of handling multiple datasources somewhere else.
 
 #### Filtering
 
@@ -356,8 +353,8 @@ each alternative solution/path.
 ## Next steps
 
 - Experiment with extending GLQL to fits our needs/requirements
-  - Create an issue and discuss it with Plans if it makes sense
+  - Create an issue and discuss it with Plans
   - Build a PoC
 - Experiment with moving the GLQL rust compiler to the Rails backend
-  - Create an issue and discuss it with Plans if it makes sense
+  - Create an issue and discuss it with Plans ( related issue: https://gitlab.com/groups/gitlab-org/-/epics/15834)
   - Build a PoC
