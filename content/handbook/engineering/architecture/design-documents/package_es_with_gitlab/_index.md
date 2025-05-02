@@ -100,20 +100,26 @@ The motivation for this work is to establish Elasticsearch as the standard data 
 
 We propose to package Elasticsearch with GitLab distribution through the following key initiatives:
 
-1. **Installation Option for All Deployment Types**:
-   - Include Elasticsearch as an optional component in all GitLab installation methods
-   - Provide clear documentation for enabling and configuring Elasticsearch
-   - Ensure compatibility with existing external Elasticsearch installations
+1. **Sizing and configuration for all instance sizes**:
+   - Configuration
+   - Upgrades
+   - Resiliancy
+   - High availability
 
-2. **Reference Architecture Updates**:
+2. **Improved configuration automation**:
+   - Streamline Elasticsearch index configuration with sensible defaults
+   - Automate common setup tasks to reduce administrator burden
+   - Expand existing health checks and self-healing capabilities
+
+3. **Reference architecture updates**:
    - Update reference architecture guides to include Elasticsearch instance sizing
    - Provide specific hardware recommendations for different instance sizes
    - Document best practices for resource allocation
 
-3. **Improved Configuration Automation**:
-   - Streamline Elasticsearch index configuration with sensible defaults
-   - Automate common setup tasks to reduce administrator burden
-   - Expand existing health checks and self-healing capabilities
+4. **Installation option for all deployment types**:
+   - Include Elasticsearch as an optional component in all GitLab installation methods
+   - Provide clear documentation for enabling and configuring Elasticsearch
+   - Ensure compatibility with existing external Elasticsearch installations
 
 ### Implementation Approaches
 
@@ -140,9 +146,9 @@ Based on preliminary discussions, the full packaging approach appears to offer t
 For the initial implementation, we propose to include Elasticsearch core  version with GitLab's distribution packages, with the following considerations:
 
 1. **Packaging Method Considerations**:
-   - For Omnibus: Consider bundling Elasticsearch as a configurable component
-   - For Kubernetes: Evaluate leveraging the [cloud-on-k8s](https://github.com/elastic/cloud-on-k8s) project
-   - For Docker: Explore including Elasticsearch in the standard docker-compose setup
+   - For Omnibus: Bundle Elasticsearch as a configurable component
+   - For Kubernetes: Leveraging the [cloud-on-k8s](https://github.com/elastic/cloud-on-k8s) project
+   - For Docker: Include Elasticsearch in the standard docker-compose setup
 
 2. **Version Selection**:
    - Include Elasticsearch version 8.12+ to support hybrid search capabilities
@@ -161,7 +167,7 @@ For the initial implementation, we propose to include Elasticsearch core  versio
 For self-managed customers, the primary challenges are:
 
 - Infrastructure Requirements: Adding new components like Elasticsearch increases complexity
-- Migration Path: Ensuring smooth migration from interim solutions to long-term architecture
+- Architecture Requirements: Elasticsearch in production environment require different configuration and operational settings dependent upon instance size
 - Airgapped Support: Providing options for customers in airgapped environments
 
 ### Package Size and Performance Considerations
@@ -186,6 +192,9 @@ For self-managed customers, the primary challenges are:
 
 ## References
 
+- https://www.elastic.co/docs/deploy-manage/production-guidance/elasticsearch-in-production-environments
+- https://www.elastic.co/docs/deploy-manage/deploy/self-managed
+- https://www.elastic.co/docs/deploy-manage/deploy/cloud-on-k8s
 - [Issue #438178: Package a search engine with GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/438178)
 - [Issue #438330: Estimate timeline to deliver "Users can ask documentation questions on SM Chat"](https://gitlab.com/gitlab-org/gitlab/-/issues/438330)
 - [Issue #441110: Iteration plan: RAG](https://gitlab.com/gitlab-org/gitlab/-/issues/441110)
@@ -203,11 +212,11 @@ For self-managed customers, the primary challenges are:
 **Pros**:
 
 - Lower barrier to entry for customers
-- Simpler implementation with no additional components
-- No changes to packaging required
 
 **Cons**:
 
+- Requires additional components
+- Changes to packaging required
 - Limited hybrid search capabilities
 - Complex relevance ranking
 - Performance concerns with large datasets
