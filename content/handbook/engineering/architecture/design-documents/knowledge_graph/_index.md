@@ -63,24 +63,38 @@ repository statistics or showing related files when browsing through repository.
 
 ### Non-Goals
 
-- Implementation of repository parser. For more details on the parser, see the [Knowledge Graph First iteration](https://gitlab.com/groups/gitlab-org/-/epics/17514).
-  For purposes of this document, the expectation is that repository
-  parser will run as a worker in GitLab Rails. Ideally we use the same worker
-  used also for [Chat with your codebase](https://gitlab.com/groups/gitlab-org/-/epics/16910), the only
-  difference will be that the parser will be called with a different parameter
-  because more detailed parsing will be needed for knowledge graph than for
-  embeddings.
+- Implementation of repository parser. For more details on the parser, see the
+  [Knowledge Graph First iteration](https://gitlab.com/groups/gitlab-org/-/epics/17514).
+  For purposes of this document, the expectation is that the repository
+  parser will be a either a library or a standalone application which will be
+  called on graph nodes. It will accept repository files on input and produce
+  parsed data (graph nodes and edges) in a format accepted by graph DB service,
+  for example CSV or JSON files.
 
 ## Proposal
 
 - Store knowledge graphs for repositories in file-embedded Kuzu DBs (each
   repository will have its own graph DB)
 - Build a thin API service which runs on graph nodes and which takes care of
-  serving incoming query requests (and also takes care of DB management tasks)
+  serving incoming query requests (and also takes care of DB management tasks).
+- To avoid building graph nodes infrastructure from scratch, we will use Zoekt
+  nodes for indexing and querying also graph databases. We will extend the existing
+  [gitlab-zoekt](https://gitlab.com/gitlab-org/gitlab-zoekt-indexer) service
+  instead of creating a separate new service.
 - Create an abstraction layer on GitLab Rails side which can be used by other
   services to query graph databases using Cypher query
 
 ## Design and implementation details
+
+Because there is already [Exact Code Search
+(Zoekt)](/handbook/engineering/architecture/design-documents/code_search_with_zoekt)
+which uses similar architecture as knowledge graph, it would be best to make the
+existing Zoekt infrastructure more generic so it will support both Zoekt
+searching and graph database searching. Then we can deploy graph database
+together with Zoekt on the same nodes. The major benefit is that we can
+re-use existing Zoekt logic (nodes management on Rails side) and infrastructure
+(deployment of Zoekt nodes) and node logic itself (Zoekt Webservice and
+Indexer).
 
 ```mermaid
 flowchart TD
@@ -88,26 +102,28 @@ flowchart TD
     T1[Duo Chat Tool] -->|Cypher query for project X| K(Knowledge graph layer)
     T2[Other service] -->|Cypher query for project Y| K(Knowledge graph layer)
     end
-    K --> |Cypher query for project X| GA1(Graph API)
-    K --> |Cypher query for project Y| GA2(Graph API)
-    subgraph graph node 1
+    K --> |Cypher query for project X| GA1(zoekt-webservice)
+    K --> |Cypher query for project Y| GA2(zoekt-webservice)
+    subgraph zoekt node 1
     GA1 -->K1[Kuzu DB X]
     GA1 -->K2[Kuzu DB A]
     GA1 -->K3[Kuzu DB B]
     end
-    subgraph graph node 2
+    subgraph zoekt node 2
     GA2 -->K21[Kuzu DB Y]
     GA2 -->K22[Kuzu DB C]
     GA2 -->K23[Kuzu DB D]
     end
 ```
 
-### Graph Node
+### Graph node (Zoekt node)
 
 Each repository will be stored in a separate [Kuzu graph database](https://kuzudb.com/). Kuzu is a
 file-embedded graph DB, each graph is stored in a directory. Because Kuzu is an
 embeddable file DB, we will implement a simple API layer which accepts requests
 from GitLab Rails server, opens repository graph DB and executes a query.
+Because we plan to re-use existing gitlab-zoekt service, this graph DB API layer
+will be added to gitlab-zoekt API.
 
 Kuzu database will be used also on [client side](https://gitlab.com/groups/gitlab-org/-/epics/17516),
 so in future we can consider also re-using server-side database on client
@@ -121,6 +137,21 @@ concurrent requests. Based on these measurements, we should:
 - Store Kuzu databases on fast SSDs on the same node which will serve the graph
   DB requests (instead of using e.g. NFS mounted filesystem)
 - Keep pool of opened DB connections for recently used repositories
+
+#### Zoekt-only / graph-only nodes
+
+We should also add a setting to our "Zoekt node" models to mark them as "zoekt
+only", "kuzu only", or "zoekt and kuzu". A "kuzu only" node will not be
+allocated new zoekt indexes and vice versa. This will give our operators the
+most flexibility to roll out changes while keeping as much infrastructure shared
+as possible. It also keeps deployment simple for self-managed as they can choose
+to use a single "zoekt and kuzu". This will be particularly useful during our
+early rollout as we move more quickly with the knowledge graph rollout without
+fear of taking down our GA Zoekt service. Additionally it may help with long
+term scalability if the different processes require different resources (e.g.
+memory or CPU). Furthermore it could simplify our monitoring as separate
+services would be easier to correlate resource usage (or incidents) with changes
+in a specific service.
 
 #### Storage estimation
 
@@ -139,13 +170,13 @@ index 100 000 repositories.
 Apart from serving graph DB queries, the API layer on graph node will also allow
 graph DB management - creation, update, deletion of graph DBs.
 
-On repository creation/update, graph node will accept parsed repository
-information (nodes and relationships) in a generic format, ideally a format
-which Kuzu can use directly for importing (https://docs.kuzudb.com/import/).
-
-Because Kuzu doesn't support multiple read-write connections to the same DB, a
-new DB for the repository will be created in a separate directory and then when
-import is finished we just replace directories.
+On repository creation/update, a graph node (gitlab-zoekt service) will accept a
+task to parse the repository. Parsing will be done on the graph node. Because
+Kuzu doesn't support multiple read-write connections to the same DB, a new DB
+for the repository will be created in a separate directory and then when import
+is finished we just replace directories. Running the parser and DB management
+(replacing DB with a new one, deletion of DB) will be controlled by
+gitlab-zoekt service.
 
 #### Authentication and authorization
 
@@ -180,63 +211,113 @@ Scaling of graph nodes will depend on:
   to big databases or >5000 connections to small databases.
 
 There are multiple ways how to implement high availability for knowledge graph
-service, but given the following needs:
+service, but we should make sure that:
 
 - Kuzu DBs should be stored directly on the same node as knowledge graph service
   because of latency
-- Queries for the same repository should be ideally served by the same node
+- Queries for the same repository should be served by the same node
   (even if there are multiple replicas of the repository) because knowledge
   graph service will keep open DB connections for recently used DBs
 
-we will use similar strategy as [Zoekt searching](/handbook/engineering/architecture/design-documents/code_search_with_zoekt/#high-level-proposal):
+we will use similar strategy as [Zoekt searching](/handbook/engineering/architecture/design-documents/code_search_with_zoekt):
 
 - Graph nodes register themselves with GitLab by providing their address, name, and status
 - GitLab maintains a registry of nodes with their status, capacity, and assignments
 - GitLab manages the shard assignments internally, assigning namespaces to specific nodes
 - Nodes that don't check in for a configurable period can be automatically removed
 
-Because of similarities between knowledge graph and Zoekt searching, we can
-re-use a lot of Zoekt code also for knowledge graph.
+Because of similarities between knowledge graph and Zoekt searching, we will
+extend existing [Zoekt infrastructure](/handbook/engineering/architecture/design-documents/code_search_with_zoekt)
+to serve also graph databases:
+
+- on server side, Zoekt search models and services will be separate from graph
+  models and services. But because we want to re-use Zoekt infrastructure, Zoekt
+  Node model will be associated both with Zoekt models and also with knowledge
+  graph models. It might look like this:
+
+```mermaid
+classDiagram
+    namespace ZoektModels {
+    class Node
+    class Index
+    class Repository
+    class Task
+    class EnabledNamespace
+    class Replica
+    }
+    namespace KnowledgeGraphModels {
+    class KnowledgeGraphEnabledRepository
+    class KnowledgeGraphReplica
+    class KnowledgeGraphTask
+    }
+
+    Node "1" --> "*" Task : has_many tasks
+    Node "1" --> "*" Index : has_many indices
+
+    EnabledNamespace "1" --> "*" Replica : has_many replicas
+
+    Replica "1" --> "*" Index : has_many indices
+
+    Index "1" --> "*" Repository : has_many repositories
+    Repository "1" --> "*" Task : has_many tasks
+
+    Node "1" --> "*" KnowledgeGraphTask : has_many graph tasks
+    KnowledgeGraphEnabledRepository "1" --> "*" KnowledgeGraphReplica : has_many replicas
+    KnowledgeGraphReplica "1" --> "*" KnowledgeGraphTask : has_many tasks
+    Node "1" --> "*" KnowledgeGraphReplica : has_many graph replicas
+```
+
+Because for graph database, we don't need to keep repositories from same
+namespace on the same node, replication strategy will be simpler compared to
+Zoekt search. Models schema may change depending on needs, but the main point is
+to illustrate separation of Zoekt and konwledge graph models, while still
+re-using Zoekt Node model for both services.
 
 #### Creating or updating a repository
 
-Because indexing will not be done on graph nodes, but rather on Rails worker
-nodes, we will use a different replication mechanism than Zoekt. When a
-repository is parsed (either because it was changed or because its graph doesn't
-exist yet):
+Parsing will be done on Zoekt nodes. When a graph database for a project
+repository should be updated (either because it was changed or because its graph
+doesn't exist yet):
 
-- For each repository GitLab maintains: its primary graph node, a list of
-  replicas where the repository is synced, a list of replicas where the
-  repository should be synced and a list of of nodes from where the repository
-  should be removed
-- Parser parses the repository and sends parsed data to the primary graph node
-  (it gets primary node from Rails DB)
-- Each graph node periodically requests from GitLab following information:
-  - A list of DBs to synchronize (including information from which node the
-    repository DB should be synchronized)
-  - A list of DBs to delete
+- For each repository GitLab maintains: a primary node node for the repository
+  (e.g. first replica), a list of replicas where the repository is synced, a
+  list of replicas where the repository should be synced and a list of of nodes
+  from where the repository should be removed
+- Each graph node periodically checks GitLab Rails for a list of tasks which should be
+  executed on the node
+- The graph node fetches repository files and executes the parser on these files
+- The graph node stores parser's output data in the graph database
+- The graph node reports back to GtiLab Rails that the graph database was
+  updated
+- Rails updates replica's status in DB and schedules task for other replica
+  nodes to copy parsed data from the primary node
 
 ```mermaid
 sequenceDiagram
     box Rails
     participant A as Internal API
-    participant P as Parser
+    participant W as Worker
     participant DB as Rails DB
     end
     box Graph node1
     participant G as Graph API
+    participant P as Parser
     end
     box Graph node2
     participant G2 as Graph API
     end
-    P->>DB: find primary node for repoX
-    DB-->>P: node1
-    P->>G: POST (send parsed data for repoX)
+    W->>DB: find primary node for repoX
+    DB-->>W: node1
+    W->>DB: create task for node1 to index repoX
+    G->>A: GET (periodic check for DBs to parse)
+    A-->>G: return task to index repoX
+    G->>P: Parse repository (call parser library/CLI)
+    P-->>G: Graph data
     G->>G: create new DB repoX.new
     G->>G: if repoX already exists, close connections to the repo
     G->>G: replace repoX with repoX.new
-    G-->>P: OK
-    P->>DB: update status/metadata in DB
+    G-->>A: OK
+    A->>DB: update status/metadata in DB for replica and node
     G2->>A: GET (periodic check for DBs to sync)
     A-->>G2: return list of tuples (repo, source node): [repoX:node1]
     G2->>G: GET repoX
@@ -355,8 +436,10 @@ the repository.
 
 ### Communication protocol
 
-A protocol for communicating with graph nodes was not specified yet. We will use
-either REST or gRPC.
+Because we will re-use Zoekt infrstructure, we will also use same protocol used
+by Zoekt. Zoekt currently uses REST, but is going to switch to gRPC. gRPC
+communication should be available also between Zoekt nodes (which we will need
+for copying databases to replicas).
 
 ### Known limitations
 
@@ -384,28 +467,6 @@ All repositories in a top-level namespace would be stored in single graph databa
 A downside is that then we would still need to handle authorization in graph
 database, specifically on graph node level which would be much more complex
 (more details about this complexity are in "One graph database" section below).
-
-### Make it part of Zoekt Indexer / Webservice
-
-[Exact Code Search (Zoekt)](/handbook/engineering/architecture/design-documents/code_search_with_zoekt) uses similar
-approach - it uses self-registered nodes approach and file-based searching. A
-possible solution might be making Zoekt more generic, so it would support both
-Zoekt nodes and graph nodes. Then we could deploy graph DBs together with Zoekt
-on the same nodes. The major benefit would be that we could re-use
-existing Zoekt logic (nodes management on Rails side) and infrastructure
-(deployment of Zoekt nodes) and node logic itself (Zoekt Webservice and
-Indexer).
-
-We should also add a setting to our "Zoekt node" models to mark them as "zoekt only", "kuzu only", or "zoekt and kuzu". A "kuzu only" node will not be allocated new zoekt indexes and vice versa. This will give our operators the most flexibility to roll out changes while keeping as much infrastructure shared as possible. It also keeps deployment simple for self-managed as they can choose to use a single "zoekt and kuzu". This will be particularly useful during our early rollout as we move more quickly with the knowledge graph rollout without fear of taking down our GA Zoekt service. Additionally it may help with long term scalability if the different processes require different resources (e.g. memory or CPU). Furthermore it could simplify our monitoring as separate services would be easier to correlate resource usage (or incidents) with changes in a specific service.
-
-There are some open questions regarding this approach:
-
-* Is it a good fit to deploy both services together? Graph nodes will require as
-  much local disk space as possible - disk space will be major factor for
-  scaling this service on SaaS. Also graph nodes will need to reserve some
-  memory to keep open database connections for recently used repositories.
-* Is node management and workflow similar enough for both services to make
-  existing code generic?
 
 ### One graph database
 
