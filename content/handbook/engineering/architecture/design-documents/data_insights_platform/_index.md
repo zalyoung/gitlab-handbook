@@ -209,6 +209,8 @@ The following sections describe how we ensure the Platform and the data ingested
 
 for the `single-binary` running a 5-replica statefulset (2 vCPU, 2GB memory each) on a GKE cluster with each node of the type `c2d-standard-16` and were able to __ingest, enrich and persist Snowplow events within ClickHouse at about 6000 events per second on ingress and ~1600 events per second landed on ClickHouse__.
 
+- Drawing from our experience with running the current Snowplow infrastructure for GitLab, we intend our first iteration of the Platform to scale & handle upto 500 million events per day with upto 1 million events per minute at peak. From an infrastructure footprint standpoint, we intend for our current traffic volumes to be handled with reasonably lesser resources than we employ right now.
+
 - Siphon has also been confirmed to be __replicating logical replication events at ~5700 events per second with Postgres being our current bottleneck__. More details of Siphon's performance testing is available [in this issue](https://gitlab.com/groups/gitlab-org/analytics-section/-/epics/9#note_2428427743). We also tested failing over the underlying NATS cluster during these tests and the complete dataset recovered successfully as soon as NATS service was back functional.
 
 - A single _cluster_ is the top-level deployment unit of the Platform, as described in the architecture diagram above. If needed, we can deploy one or more clusters of the Platform to accommodate for scale and/or tenant-isolation per cluster. __For example__, when ingesting data from Self-managed or Dedicated GitLab instances, it can be routed to different Platform clusters to ensure one's traffic volumes does not interfere with the resources of another.
