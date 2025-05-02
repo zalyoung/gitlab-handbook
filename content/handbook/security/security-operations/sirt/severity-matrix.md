@@ -86,5 +86,5 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- [Security Incident Response Guide](https://handbook.gitlab.com/handbook/security/security-operations/sirt/sec-incident-response/)
-- [SIRT Escalation Guide](https://handbook.gitlab.com/handbook/security/security-operations/secops-oncall/)
+- [Security Incident Response Guide](/handbook/security/security-operations/sirt/sec-incident-response/)
+- [SIRT Escalation Guide](/handbook/security/security-operations/secops-oncall/)
