@@ -45,7 +45,7 @@ GitLab has two distinct security zones:
   - Encryption
   - Endpoint detection and response
 
-- Utilize trusted networks when available. If you are connecting from an untrusted network such as a public Wi-Fi, guest networks, or unsecured hotspots, you should use a [personal VPN](/handbook/tools-and-tips/personal-vpn/). GitLab has selected [NordLayer](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/nordlayer/) as the preferred provider.
+- GitLab implements a [Zero Trust architecture](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust.md) that complements physical security measures by requiring authentication and authorization for all resource access, regardless of device location.
 
 - Implement [Clear Desk/Clear Screen](https://internal.gitlab.com/handbook/it/it-security/system-configuration/#clean-deskclear-screen) requirements.
 
@@ -57,7 +57,7 @@ GitLab has two distinct security zones:
 
 - Printing documents containing sensitive information as defined by the [Data Classification Standard](/handbook/security/data-classification-standard/) is prohibited.
 
-- [Secure your data during travel](/handbook/finance/travel/#secure-your-data-during-travels) including utilizing a VPN, ensuring that you are in a secure place and no-one can hear you when you are talking about restricted data, and locking your device when it is not in use.
+- [Secure your data during travel](/handbook/finance/travel/#secure-your-data-during-travels) ensuring that you are in a secure place and no-one can hear you when you are talking about restricted data, and locking your device when it is not in use.
 
 - Do not bring company-owned devices to [embargoed countries](/handbook/sales/#export-control-classification-and-countries-we-do-not-do-business-in) without consulting the Legal Department.
 
