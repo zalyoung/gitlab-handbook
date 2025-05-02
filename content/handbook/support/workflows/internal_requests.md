@@ -110,7 +110,7 @@ See [internal wiki page](https://gitlab.com/gitlab-com/support/internal-requests
 
 Templates available for requesting an engineer with GitLab.com console access to take action:
 
-1. [Console Export Request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?description_template=GitLab.com%20Console%20Export%20Request) for creating a project export via the console.
+1. [Console Export Request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?description_template=GitLab.com%20Console%20Export%20Request) for creating a project export with the console.
 1. [Console Escalation](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?description_template=GitLab.com%20Console%20Escalation) for running commands in the rails console.
 
 Before submitting a console escalation request, ensure that you perform [Account Ownership Verification](/handbook/support/workflows/account_verification) workflow for the following types of customer request:
