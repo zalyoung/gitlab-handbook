@@ -7,11 +7,12 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 | Lab Name | Lab Link |
 |-----------|------------|
-| Configure SAST and Secret Detection| [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabsecurityessentialslab1) |
-| Addressing Vulnerabilities | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabsecurityessentialslab2) |
-| Dependency and IaC Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabsecurityessentialslab3) |
-| Enable and Configure Container Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/ilt-labs/education-services/ilt-labx/gitlabsecurityessentialslab4) |
-| DAST and API Scans | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabsecurityessentialslab5) |
+| Configure SAST and Secret Detection| [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson1) |
+| Addressing Vulnerabilities | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson2) |
+| Dependency and IaC Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson3) |
+| Enable and Configure Container Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson4) |
+| DAST and API Scans | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson5) |
+| Enable and Scan Using a Scan Execution Policy | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson6)|
 | Enable and Scan Using a Scan Execution Policy | [Lab Link](/handbook/customer-success/professional-services-engineering/ilt-labs/education-services/gitlabsecurityessentialslab6) |
 
 ## Quick links
