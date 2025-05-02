@@ -105,7 +105,7 @@ Critical System Tiers for existing systems are validated periodically. A system'
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](https://handbook.gitlab.com/handbook/security/controlled-document-procedure/#exceptions).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 
