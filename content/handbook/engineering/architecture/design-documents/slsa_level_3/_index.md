@@ -22,9 +22,9 @@ This document outlines the technical vision, principles, and key architectural d
 We propose a phased implementation of SLSA Level 3 compliance across GitLab CI/CD pipelines using modular and reusable components. Each phase addresses a critical step:
 
 1. In-Pipeline Provenance Generation and Verification using Sigstore (Phase 1): Generate and verify provenance attestation within the pipeline.
-1. In-Pipeline Data Collection (Phase 2): Collect granular build metadata for enriched provenance.
-1. Platform Indication of Provenance Data (Phase 3): Integrate GitLab platform-specific metadata into provenance.
-1. Out-of-Pipeline Signing (Phase 4): Enable external, KMS-based artifact signing for better security.
+1. Generate Provenance Statement in Control Plane (Phase 2): Shift provenance generation from Runner to GitLab control plane to enhance trust.
+1. Out-of-Pipeline Signing (Phase 3): Move signing operations to GitLab control plane for better security.
+1. KMS Integration for Out-of-Pipeline Signing (Phase 4): Enable external, KMS-based artifact signing for enhanced security and compliance.
 1. Hardening Pipeline Identity (Phase 5): Strengthen runner identity and build trust into the infrastructure.
 
 This phased approach ensures an MVP can be delivered early, with incremental security and compliance enhancements added over time.
@@ -74,6 +74,75 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ## Design Details
 
+### High Level Architecture
+
+```mermaid
+flowchart TD
+    %% Define styles for improved visual appearance
+    classDef phaseStyle fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10px,ry:10px
+    classDef componentStyle fill:#e1ebff,stroke:#4b6bdc,stroke-width:1px,rx:5px,ry:5px
+    classDef storageStyle fill:#ffe6cc,stroke:#d79b00,stroke-width:1px,rx:5px,ry:5px
+    classDef serviceStyle fill:#d5e8d4,stroke:#82b366,stroke-width:1px,rx:5px,ry:5px
+    classDef signatureStyle fill:#fff2cc,stroke:#d6b656,stroke-width:1px,rx:5px,ry:5px
+    classDef securityStyle fill:#f8cecc,stroke:#b85450,stroke-width:1px,rx:5px,ry:5px
+    subgraph Phase1["Phase 1: In-Pipeline Provenance Generation"]
+        CIConfig["GitLab CI Config<br>with SLSA Component"]
+        BuildJob["CI/CD Build Job"]
+        Artifacts["Build Artifacts"]
+        ProvenanceSigner["Provenance Signer Component"]
+        TempSignedAttestation["Temporary Signed<br>Attestation (Phase 1)"]
+    end
+    subgraph FutureWork["Future Work"]
+        VirtualRegistry["Virtual Registry<br>(Dependency Proxy)"]
+        Dependencies[(Package & Container<br>Dependencies)]
+    end
+    subgraph Phase2and3["Phase 2 and 3: Provenance genaration & Out-of-Pipeline Signing"]
+        RailsBackend["GitLab Rails Backend<br>(Control Plane)"]
+        DB[(GitLab Database)]
+        GlgoService["glgo Service<br>(Signing Service)"]
+        Rekor["Transparency Log<br>(Rekor)"]
+        PermanentAttestation["Permanent Signed<br>Attestation"]
+    end
+    subgraph Phase4["Phase 4"]
+        ExternalKMS["External KMS"]
+    end
+    subgraph Phase5["Phase 5: Hardened Pipeline Identity"]
+        HardenedRunner["Hardened Runner<br>with HW Identity"]
+        TPM["Trusted Platform<br>Module"]
+        RunnerAudit["Runner Audit Logs"]
+    end
+    %% Relationships between components with labeled edges
+    CIConfig -->|"Configuration"| BuildJob
+    BuildJob -->|"1 Generate"| Artifacts
+    BuildJob -->|"2 Request Dependencies"| VirtualRegistry
+    VirtualRegistry <-->|"3 Fetch/Track"| Dependencies
+    
+    %% Phase 1 flow for early implementation
+    VirtualRegistry -->|"4 Provide Dependency Data"| RailsBackend
+    Artifacts -->|"5 Artifact Storage"| ProvenanceSigner
+    ProvenanceSigner -->|"Store"| TempSignedAttestation
+    ProvenanceSigner -->|"6 Pass Artifact"| RailsBackend
+    HardenedRunner -->|"7 Provide Runner Identity"| RailsBackend
+    RailsBackend <-->|"8 Query Metadata"| DB
+    
+    RailsBackend -->|"9 Generate Provenance<br>Statement"| GlgoService
+    GlgoService -.->|"Future Integration"| ExternalKMS
+    GlgoService -->|"10 Return Signed<br>Attestation"| RailsBackend
+    GlgoService -->|"11 Publish Attestation<br>Digest"| Rekor
+    RailsBackend -->|"12 Store"| PermanentAttestation
+    
+    %% Phase 5 hardening
+    HardenedRunner <-->|"Hardware-backed<br>Identity"| TPM
+    HardenedRunner -->|"Audit Logging"| RunnerAudit
+    %% Apply styles
+    class Phase1,Phase2and3,Phase4,Phase5,FutureWork phaseStyle
+    class CIConfig,BuildJob componentStyle
+    class Artifacts,DB,Dependencies storageStyle
+    class VirtualRegistry,RailsBackend,GlgoService serviceStyle
+    class ProvenanceSigner,TempSignedAttestation,PermanentAttestation,Rekor,ExternalKMS signatureStyle
+    class HardenedRunner,TPM,RunnerAudit securityStyle
+```
+
 ### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
 
 1. Generate provenance attestations using Sigstore tools (cosign).
@@ -81,19 +150,26 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 1. Verify provenance attestations and generate Verification Summary Attestations (VSA).
 1. Build reusable GitLab CI components that can be easily included in pipelines.
 
-### Phase 2: In-Pipeline Data Collection
+### Phase 2: Generate Provenance Statement in Control Plane
 
-1. Integrate tools to collect granular build metadata (e.g., go mod graph for Go, Maven dependency trees for Java).
-1. Include information about environment variables, timestamps, and build inputs.
-1. Update provenance structure to include enriched metadata.
+1. Move provenance statement generation to GitLab's control plane
+2. Establish secure communication between runner environment and control plane
+3. Collect and validate build metadata from secure sources
+4. Generate provenance statements with enhanced integrity guarantees
 
-### Phase 3: Platform Indication of Provenance Data
+### Phase 3: Out-of-Pipeline Signing
 
-1. Enrich provenance with GitLab-specific metadata, such as:
-   1. Source repository URL
-   1. Pipeline ID and job ID
-   1. Commit hash and branch name
-1. Ensure metadata collection is seamless and integrated into the GitLab CI component.
+1. Move signing operations from the pipeline to GitLab control plane
+2. Enhance security by isolating signing operations from build environment
+3. Provide centralized management of signing processes
+4. Ensure clean separation between build and signing trust boundaries
+
+### Phase 4: KMS Integration for Out-of-Pipeline Signing
+
+1. Enable integration with external KMS (e.g., AWS KMS, Google KMS) or HSM solutions.
+1. Use long-term signing keys stored securely outside the pipeline.
+1. Provide an optional component to sign artifacts after the build completes.
+1. Support multiple key management solutions to accommodate various enterprise environments
 
 ### Phase 4: Out-of-Pipeline Signing
 
@@ -121,8 +197,7 @@ Note: the projects listed below are note dependent on each other and can be done
 #### Provenance Generation
 
 1. Phase 1: Develop and validate the provenance generation component using Sigstore.
-1. Phase 2: Extend the component to collect build-specific metadata for supported ecosystems.
-1. Phase 3: Add functionality to collect and embed GitLab platform metadata.
+1. Phase 2: Create control plane integration for secure provenance statement generation.
 
 #### KMS Integration
 
@@ -131,6 +206,12 @@ Note: the projects listed below are note dependent on each other and can be done
 #### Runner Identity Enhancements
 
 1. Phase 1: Design runner identity enhancements and explore hardware-based solutions.
+
+### Follow-up Work: Enhanced Data Collection
+
+1. Integrate tools to collect granular build metadata (e.g., go mod graph for Go, Maven dependency trees for Java).
+1. Use GitLab's Virtual Registry (formerly Dependency Proxy) to track resolved dependencies requested by CI/CD build jobs
+1. Update provenance structure to include enriched metadata.
 
 ### Deliverables
 
