@@ -226,7 +226,7 @@ For collaboration in other projects and subjects:
 
 | Subject                                                                              | Assigned Technical Writer |
 |:--------------------------------------------------------------------------------     |:--------------------------|
-| The documentation site                                                               | {{< member-by-name "Susan Tacker" >}} |
+| The documentation site                                                               | {{< member-by-name "Diana Logan" >}} |
 | The documentation site backend (code, automation)                                    | {{< member-by-name "Sarah German" >}} |
 | [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
 | [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
