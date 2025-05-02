@@ -396,6 +396,8 @@ existing Zoekt logic (nodes management on Rails side) and infrastructure
 (deployment of Zoekt nodes) and node logic itself (Zoekt Webservice and
 Indexer).
 
+We should also add a setting to our "Zoekt node" models to mark them as "zoekt only", "kuzu only", or "zoekt and kuzu". A "kuzu only" node will not be allocated new zoekt indexes and vice versa. This will give our operators the most flexibility to roll out changes while keeping as much infrastructure shared as possible. It also keeps deployment simple for self-managed as they can choose to use a single "zoekt and kuzu". This will be particularly useful during our early rollout as we move more quickly with the knowledge graph rollout without fear of taking down our GA Zoekt service. Additionally it may help with long term scalability if the different processes require different resources (e.g. memory or CPU). Furthermore it could simplify our monitoring as separate services would be easier to correlate resource usage (or incidents) with changes in a specific service.
+
 There are some open questions regarding this approach:
 
 * Is it a good fit to deploy both services together? Graph nodes will require as
