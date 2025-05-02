@@ -724,5 +724,6 @@
 /content/handbook/security/security-assurance/security-risk/third-party-risk-management.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-operations/sirt/sec-incident-response.md @joshlemos @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-operations/sirt/severity-matrix.md @joshlemos @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/personal_data_access_account_deletion.md @lyle @jcolyer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/account_deletion_access_request_workflows.md @lyle @BronwynBarnett @gitlab-com/egroup @gitlab-com/content-sites
