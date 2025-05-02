@@ -356,12 +356,12 @@ hugolint:
     - apk add jq curl
   script:
     - hugolint linkcheck --config .hugolint.yaml --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
-    - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
     - |
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
         hugolint codequality latest --project "42817607" --artifact 'linkcheck.json' >'latest.json'
         # additional JSON file to populate MR comment in post_comment_on_failure job
+        echo '[]' > new_broken_links.json
         jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
         hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
       fi
@@ -370,7 +370,6 @@ hugolint:
     expire_in: 1 month
     paths:
       - linkcheck.json
-      - missinglinks.txt
       - new_broken_links.json
     reports:
       codequality: linkcheck.json

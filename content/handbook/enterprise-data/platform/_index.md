@@ -150,6 +150,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Ecosystems BVA](https://www.ecosystems.us/) | Airflow | `ecosystems` | `ecosystems` | Sales | 24h / 48h | No | Tier 3 |
 | [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
 | Fivetran_Logs | Fivetran | `N/A` | `N/A` | Data | 24h / 48h | No | Tier 3 |
+| Flaky test Metrics | Snowflake tasks | `flaky_tests` | `flaky_tests` | Engineering | 24h / 48h | No | Tier 2 |
 | [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
 | [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) | pgp | `tap_postgres` | `gitlab_dotcom` | Product, Engineering | 12h / 55h | No | Tier 1 |
 | [GitLab Ops DB](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-ops-database) | pgp | `tap_postgres` | `gitlab_ops` | Engineering | 6h / x | No | Tier 1 |
@@ -1250,7 +1251,7 @@ The source model for the Daily Data Science Scores pump called [mart_crm_account
 
 #### Marketing Data Mart to Marketo
 
-The [Email Data Mart](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
+The [Email Data Mart](https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/email-data-mart/) is designed to automatically power updates to Marketo to enable creation of structured and targeted communications.
 
 #### Trusted Data Model to Gainsight
 
@@ -1278,7 +1279,7 @@ To reprocess a Qualtrics Mailing List request file:
 
 A Data Spigot is a concept/methodology to give external systems, access to Snowflake data in a controlled manner.  To give external systems access to Snowflake, the following controls are in place:
 
-* A dedicated service account.
+* A dedicated service account with a/an key-pair/OAuth authentication.
 * A dedicated view (or views) only exposing the minimum required data. No Personally Identifiable Information (PII) may be disclosed.
 * A dedicated role (or equivalent) with access to only the specified tables/views.
 * A dedicated XS warehouse to limit and monitor costs.

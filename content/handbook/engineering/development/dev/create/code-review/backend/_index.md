@@ -24,7 +24,7 @@ The following people are permanent members of the Create:Code Review Group:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Code Review" manager-role="Engineering Manager, Create:Code Review" >}}
+{{< engineering/stable-counterparts role="Code Review" manager-role="Engineering Manager, Create:Code Review" >}}
 
 ## Common Links
 
@@ -54,7 +54,7 @@ You can find our dashboards here:
 
 ## Team OKRs
 
-Objectives and Key Results (OKRs) help align our team towards what really matters. These happen quarterly, align up through the stage, and are based on [company OKRs](/handbook/company/okrs/) and the [engineering OKR process](/handbook/engineering/#engineering-okr-process). We check in on the status of our progress routinely throughout the quarter, at least on a monthly basis, to determine whether we are on track or need to pivot in order to accomplish or change these goals.
+Objectives and Key Results (OKRs) help align our team towards what really matters. These happen quarterly, align up through the stage. We check in on the status of our progress routinely throughout the quarter, at least on a monthly basis, to determine whether we are on track or need to pivot in order to accomplish or change these goals.
 
 [For a list of current and past OKRs for our team, use this link.](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Acode%20review&first_page_size=20)
 

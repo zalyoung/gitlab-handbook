@@ -58,7 +58,7 @@ Zack Hardie<br>
 <tr>
 <td><strong>Device Trust<br>Engineering</strong></td>
 <td>
-<a href="/handbook/security/corporate/systems/drivestrike">DriveStrike</a><br>
+<a href="https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/">DriveStrike</a><br>
 <a href="/handbook/security/corporate/systems/jamf">Jamf MDM</a><br>
 <a href="/handbook/security/corporate/services/phones">Mobile Devices</a><br>
 <a href="/handbook/security/corporate/systems/vpn">NordLayer VPN</a><br>

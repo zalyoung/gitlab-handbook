@@ -1,6 +1,6 @@
 ---
 title: "Editors and IDEs"
-no_list: true
+simple_list: true
 ---
 
 ## Overview
@@ -29,5 +29,3 @@ There are many, many good text editors.
 ## Sub-pages
 
 See the following sub-pages for details on editors and IDEs used with GitLab
-
-{{< subpages >}}

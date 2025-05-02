@@ -126,7 +126,7 @@ The following people are members of the Delivery:Deployments Team:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="[,&] Delivery" >}}
+{{< engineering/stable-counterparts role="[,&] Delivery" >}}
 
 ## Performance indicators
 

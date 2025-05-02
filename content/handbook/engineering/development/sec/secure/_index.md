@@ -64,7 +64,7 @@ Team Page: [Vulnerability Research](vulnerability-research/)
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Secure" other-manager-roles="Engineering Manager(.*)Application Security Testing:Static Analysis|Backend Engineering Manager(.*)Secure:Dynamic Analysis|Manager, Software Engineering(.*)Secure:Composition Analysis|Senior Engineering Manager(.*)Secure|Senior Engineering Manager(.*)Secure|Director of Engineering(.*)Sec|Engineering Manager(.*)Dynamic Analysis" >}}
+{{< engineering/stable-counterparts role="Secure" other-manager-roles="Engineering Manager(.*)Application Security Testing:Static Analysis|Backend Engineering Manager(.*)Secure:Dynamic Analysis|Manager, Software Engineering(.*)Secure:Composition Analysis|Senior Engineering Manager(.*)Secure|Senior Engineering Manager(.*)Secure|Director of Engineering(.*)Sec|Engineering Manager(.*)Dynamic Analysis" >}}
 
 ## Secure Team
 

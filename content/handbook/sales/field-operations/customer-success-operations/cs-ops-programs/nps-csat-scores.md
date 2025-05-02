@@ -29,7 +29,7 @@ All teams are working collaboratively to streamline the survey process, improve 
 
 * [All-Customer CSAT Survey (Customer Success)](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/)
 * Post-Scale Engagement CSAT Survey
-* Digital SMB [Case Closure Survey](/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey
+* HVS-FO [Case Closure Survey](/handbook/sales/commercial/high_velocity_sales_first_orders/#email-to-case) CSAT Survey
 * [USAT Survey (UX Research)](/handbook/product/ux/performance-indicators/usat/)
 
 ### **What are the differences between the All-Customer CSAT and USAT surveys?**

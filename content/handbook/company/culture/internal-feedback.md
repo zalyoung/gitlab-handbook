@@ -300,11 +300,11 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. More face-to-face meetings and ability to meet up with GitLab team-members close by.
     - Please expense travel to visit GitLab team-members as described in [Spending Company Money](/handbook/finance/spending-company-money/).
 1. Adjust the team call format to include more regular functional group updates.
-    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/company/group-conversations/) are separate events.
+    - The team call now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/company/group-conversations/) are separate events.
 1. Have more employee agreements instead of contractor agreements.
     - People Ops will be working to establish new entities/payrolls in more countries as we grow. Once this is completed we can transfer contractors to employees.
 1. Hire in departments that need more GitLab team-members.
-    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring#vacancy-creation-process), and add it to the [jobs page](https://about.gitlab.com/jobs/).
+    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring/#opening-a-job), and add it to the [jobs page](https://about.gitlab.com/jobs/).
 1. Refine onboarding to be less intense/intimidating.
     - Onboarding can be overwhelming and sometimes confusing. To alleviate confusion about what you are doing and why, we created an [Onboarding](/handbook/people-group/general-onboarding/) guide to explain each step. Update: This page has been moved to [Onboarding](/handbook/people-group/general-onboarding/).
 1. Move unlimited vacation to a set amount so GitLab team-members take their full vacation.
@@ -312,9 +312,9 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Less downtime on GitLab.com.
     - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](https://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
 1. Casual and social interaction.
-    - We have instituted [Coffee Breaks](/handbook/company/culture/all-remote/tips#coffee-chats) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout](/handbook/communication/#random-room).
+    - We have instituted Coffee Breaks to promote catching up with GitLab team-members.
 1. Revise Lever Notifications.
-    - Sometimes it can be hard to manage Lever notifications. Here are some [guidelines](/handbook/hiring#general-points-about-moving-applicants-through-the-process) to keep your inbox low.
+    - Sometimes it can be hard to manage Lever notifications. Here are some [guidelines](/handbook/hiring/#notifications) to keep your inbox low.
 
 #### What are you wondering about / What we are missing
 
@@ -337,7 +337,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Will GitLab include a 401(k) match for US employees?
     - At this time, GitLab does not have a 401(k) match for US employees.
 1. Improve gender diversity.
-    - Our Global Recruiters are working to ensure that the hiring process promotes [diversity](/handbook/hiring#equal-employment-opportunity). We have also started a Slack Channel `#diversity_inclusion`. Please feel free to contribute at any time!
+    - Our Global Recruiters are working to ensure that the hiring process promotes [diversity](/handbook/hiring/candidate-faq/#inclusive-interviewing). We have also started a Slack Channel `#diversity_inclusion`. Please feel free to contribute at any time!
 1. Manager and 1:1 training.
     - As we grow and develop our internal trainings, we will make sure to educate managers on what should be discussed in 1:1's to ensure that the team member's personal and professional development is the core theme of these conversations.
 1. All meetings recorded by default.

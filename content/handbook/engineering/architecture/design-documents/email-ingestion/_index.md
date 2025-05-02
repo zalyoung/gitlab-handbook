@@ -12,7 +12,7 @@ toc_hide: true
 
 <!-- vale gitlab.CurrentStatus = NO -->
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -78,7 +78,7 @@ Because we are using a fork of the `mail_room` gem
 ([`gitlab-mail_room`](https://gitlab.com/gitlab-org/ruby/gems/gitlab-mail_room)),
 which contains some GitLab specific features that won't be ported upstream, we have a noteable maintenance overhead.
 
-The [Service Desk Single-Engineer-Group (SEG)](../../../development/incubation/service-desk/)
+The Service Desk Single-Engineer-Group (SEG)
 started work on [customizable email addresses for Service Desk](https://gitlab.com/gitlab-org/gitlab/-/issues/329990) and
 [released the first iteration in beta in `16.4`](https://about.gitlab.com/releases/2023/09/22/gitlab-16-4-released/#custom-email-address-for-service-desk). As a
 [MVC we introduced a `Forwarding & SMTP` mode](https://gitlab.com/gitlab-org/gitlab/-/issues/329990#note_1201344150)

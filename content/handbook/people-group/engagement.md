@@ -29,6 +29,17 @@ There are different survey types that we run at different times throughout the y
 1. 14 On-Survey Demographic Questions
 1. 2 Open-Ended Questions
 
+<details><summary>FY26 Great Place to Work Survey Results</summary>
+
+GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 5th year in a row in the US in April 2025 and was recognized as a top employer where team members are proud to work.
+
+1. 87% average of all statements
+1. 92% of team members say GitLab is a Great Place to Work
+
+[Read more about the survey results](https://docs.google.com/presentation/d/1jZhf2Sx1cYQ2mdQL_0Ley2Bl27nIAf60WJTcIat9Wfk/edit?slide=id.g123a13deda8_0_405#slide=id.g123a13deda8_0_405).
+
+</details>
+
 <details><summary>FY25 Great Place to Work Survey Results</summary>
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 4th year in a row in the US in May 2024 and was recognized as a top employer where team members are proud to work.

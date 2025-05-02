@@ -15,7 +15,7 @@ The Provision group manages the [Provision category](/handbook/product/categorie
 
 ## Stable counterparts
 
-{{< stable-counterparts manager-role="Fullstack Engineering Manager(.*)Fulfillment:Provision" role="Fulfillment:Provision" >}}
+{{< engineering/stable-counterparts manager-role="Fullstack Engineering Manager(.*)Fulfillment:Provision" role="Fulfillment:Provision" >}}
 
 ## Project management process
 

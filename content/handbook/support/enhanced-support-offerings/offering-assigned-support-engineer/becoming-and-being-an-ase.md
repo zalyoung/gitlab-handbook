@@ -40,14 +40,31 @@ You might also find it helpful to review the
       1. where `[percent]` is 25 times the number of accounts you have - if you have 2 accounts, put 50
       1. where `[instance]` is either "global" or "us_gov", according to
          whether your ASE accounts work with Global or US Gov Support
-      1. where `[org_a ID]` is the organization ID, in Zendesk, for your first account (Handbook [topic](/handbook/support/readiness/operations/docs/zendesk/searching/#example-3)
-      for finding the correct ID), `[org_b ID]` is the same for your second
-      account, and so on
+      1. where `[org_a ID]` is the organization ID, in Zendesk, for your first account,
+         `[org_b ID]` is the same for your second
+         account, and so on
       1. where `[org_a percentage]` is the percentage of your ASE time that
          will be spent on org_a, `[org_b percentage]` is the same thing for your
          second account, and the sum of the org percentages is 100
 1. Change your job title in Zoom
 1. Update your signature in Zendesk to indicate that you are an ASE
+1. Submit an Access Request to get a user account created for yourself in
+   Salesforce. This account will be read-only, and will **not** add you to the
+   [Designated Insiders](/handbook/legal/publiccompanyresources/#designated-insiders)
+   list. It is needed in order to be able to display in some reports and
+   dashboards the ASEs for each account. Please follow these steps:
+   1. Create an issue using
+      [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issueable_template=Individual_Bulk_Access_Request)
+   1. Set the title to: `<your name>, Salesforce, Executive-NoViewAll`
+   1. Fill in `Step 1` appropriately
+   1. In `Step 2` enter:
+
+      ```markdown
+      * [ ] Salesforce: Executive-NoViewAll
+         * [ ] Justification: Support engineers serving as Assigned Support Engineers need SFDC access in order to enable the picklist functionality described in [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5626).
+      ```
+
+   1. Assign the issue to your manager
 
 ### On-call responsibilities
 

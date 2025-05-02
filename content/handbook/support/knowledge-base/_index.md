@@ -70,6 +70,7 @@ knowledge base content. This has the following benefits:
 1. Pick the appropriate template in the [`/kb-documentation/templates`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/kb-documentation/templates)
    directory:
    - [`break-fix.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/break-fix.md): Issues encountered by users with one or more specific resolution steps.
+   - [`deprecation-removal-breaking-change.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/deprecation-removal-breaking-change.md): Information about how to assess and mitigate the impact of deprecations, removals and breaking changes.
    - [`how-to.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/how-to.md): Steps to do a specific task. Does not need to be an issue.
    - [`question-answer.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/question-answer.md): Simple article answering a question.
 1. Duplicate the template, placing the new file in the appropriate directory:
@@ -95,11 +96,11 @@ knowledge base content. This has the following benefits:
 
 ### Publishing a KB article
 
-Publishing an article should be done by the person who merges a KB MR. After the KB article is merged:
+Publishing an article should be done by the person who merges a KB MR. After the KB article is merged: 
 
-1. Submit a request using the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/), selecting `Create a Zendesk article` for the field "What is this request concerning?".
-1. After successful submission, the Support Super Form will create an issue and post URLs to
-   the published KB article. The sync may take 5 to 10 minutes to complete.
+1. Create an issue with Customer Support Ops using the [New Article template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=New%20Article).
+1. Include a link to the merged article on the master branch.
+1. Ops will create the article.
 
 ### Getting Help
 

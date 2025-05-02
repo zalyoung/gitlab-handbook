@@ -3,7 +3,7 @@
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
 title: SaaS trial eligibility system
-status: ongoing
+status: implemented
 creation-date: "2025-01-24"
 authors: [ "@dstull" ]
 dris: [ "@p_cordero", "@courtmeddaugh", "@dstull", "@qzhaogitlab" ]
@@ -16,7 +16,7 @@ toc_hide: true
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 

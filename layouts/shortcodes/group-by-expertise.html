@@ -1,16 +1,20 @@
 {{- /*  Initialize. */}}
-{{- $expertise := "" }}
+{{- $filterValue := "" }}
 
 {{- /* Get params. */}}
 {{- with (.Get 0) }}
-  {{- $expertise = . }}
+  {{- $filterValue = . }}
 {{- else }}
   {{- errorf "The %q shortcode requires a single positional argument."}}
 {{- end }}
 
 {{- $members := slice }}
 {{- range site.Data.public.team }}
-  {{- if in .expertise $expertise }}
+  {{- /* Check if it matches in expertise field */}}
+  {{- if in .expertise $filterValue }}
+    {{- $members = append (slice .) $members }}
+  {{- /* Or check if a boolean field with the filter name exists and is true */}}
+  {{- else if index . $filterValue | eq true }}
     {{- $members = append (slice .) $members }}
   {{- end }}
 {{- end }}

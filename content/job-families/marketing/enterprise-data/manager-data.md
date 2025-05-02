@@ -23,7 +23,6 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 - Manage operational components of the [Data Platform](/handbook/enterprise-data/platform/infrastructure/) to ensure updated data are available per [established SLOs](/handbook/enterprise-data/platform)
 - Work with all divisions to continually grow the value of our Data Platform by [onobarding new data](/handbook/enterprise-data/platform) from our SaaS, Telemetry, Product, and Corporate systems
 - Understand the big picture and demonstrate how your team supports it through prioritization, planning, and solutioning
-- Participate in [Monthly Key Reviews](/handbook/company/key-review/) to represent Data and stay up-to-date of company developments
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
 - Continuously develop the [Data Team Handbook](/handbook/enterprise-data/) to ensure it represents the current state of our strategy, processes, and operations
 

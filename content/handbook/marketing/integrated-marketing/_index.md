@@ -51,7 +51,7 @@ We are innovative, strategic, and data-driven, delivering a cohesive high qualit
 
 ### Account Based Marketing (ABM)
 
-[Account Based Marketing](/handbook/marketing/account-based-marketing/abm-campaign-approach/)
+[Account Based Marketing](/handbook/marketing/account-based-marketing/)
 
 ### Campaigns
 

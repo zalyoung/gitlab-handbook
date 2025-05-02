@@ -90,7 +90,7 @@ When they are satisfied that they have a reasonable solution including an estima
 for discussion and feedback. Planning is transparent anyway, but this serves to notify the team that the new work items are ready
 for development.
 
-For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development-flow/feature-flag-lifecycle/#development).
+For issues that include a feature that uses a Feature Flag (FF), we follow the feature flag [lifecycle doc](/handbook/product-development/product-development-flow/feature-flag-lifecycle/#development).
 The original issue should remain open and blocked on the FF rollout issue until the rollout issue is closed, in case the rollout does not go as planned.
 
 #### Schedule
@@ -224,21 +224,38 @@ If an issue is assigned a weight of 10, then the issue is too big and will need 
 
 If any issue is weighted above a 3, we should ask ourselves if it can be further broken down. We should do this even if the issue was already broken out from an even larger issue.
 
-### Backlog Refinement Process 
+### Backlog Refinement Process
 
-Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](../../../../product-development-flow).
+Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](/handbook/product-development/product-development-flow/).
 
-Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined. 
+Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined.
 Each week 3 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
 
 1. Refinement issue is created and assigned to engineers. It contains instructions for what to do with each issue and is the source of truth for this part of the process. The rest of the steps below are an overview.
 2. Phase 1: Engineers will select 1-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
-   1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification 
-   2. If the issue is a go, move to `~"workflow::refinement` for Phase 2
+   1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification
+   2. If the issue is a go, move to `~"workflow::refinement` for Phase 2. See below how to decide if an issue is a "go" or "no-go".
 3. Phase 2: Engineers will add an implementation guide, the right labels and weights for the issue. Once that is ready, move it to `~"workflow::ready for development` for the PM/EM to schedule.
-   1. For bug issues, the bug first needs to be reproduced as a part of the refinement process. If the bug issue isn't reproducible, the issue can be closed off. Bug issues also need to be assigned a priority/severity in addition to the regular labels. 
-   2. For features/maintenance issues, a timebox of 1 hour or so is expected per issue and for bugs this could take 2-3 hours as we need to reproduce it before adding implementation details 
-   3. Please also label as `~"Seeking Community contributions"` if an implementation guide has been added and weights are 1-3.
+   1. For bug issues, the bug first needs to be reproduced as a part of the refinement process. If the bug issue isn't reproducible, the issue can be closed off. Bug issues also need to be assigned a priority/severity in addition to the regular labels.
+   1. For features/maintenance issues, a timebox of 1 hour or so is expected per issue and for bugs this could take 2-3 hours as we need to reproduce it before adding implementation details
+   1. Please also label as `~"Seeking Community contributions"` if an implementation guide has been added and weights are 1-3.
+   1. If this issue has a weight of 1-3 and could be easy enough for a community contributor, it should also be relatively easy to write up the implementation guide. Timebox to 30 mins - 1 hour.
+   1. If the issue is very complex, stop investigating as soon as you’ve realized that it’s going to take > 1 hour to reproduce/write the implementation guide.
+   1. If an issue takes too long or you think is not aligned with our current roadmap, be vocal about pushing back on it and discuss it on the refinement issue.
+
+#### Phase 1: How to decide if an issue is a "go" or "no-go"
+
+In phase 1, we decide whether or not an issue is a "go" or "no-go" for refinement in phase 2. An issue that is a "go" will always be moved to phase 2 for refinement.
+
+An issue is a "no-go", if,
+
+1. the feature is not aligned with our current roadmap (i.e. in the next 6 - 12 months)
+1. the issue's context is outdated or irrelevant now
+1. it is a duplicate (mark it as a duplicate)
+1. it is already resolved, completely, or enough to not be worth prioritizing any more
+1. the solution is complex and the demand is low
+
+Those issues that are a "no-go" should be closed with the reason mentioned or de-prioritized to priority 4, so that phase 2 engineers do not pick them up for refinement. Please tag the EM and PM when closing an issue if you're not 100% confident what to do with it.
 
 The refinement script can be found [here](https://gitlab.com/gitlab-org/geo-team/bots/-/tree/main/cmd/refinement?ref_type=heads)
 

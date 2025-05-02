@@ -14,7 +14,7 @@ Please visit the [Tools and Tips handbook](/handbook/tools-and-tips/#zoom) for Z
 
 ### Using Zoom for personal connection
 
-[COVID-19](/handbook/total-rewards/benefits/covid-19/) is impacting how team members connect and communicate with family.
+COVID-19 is impacting how team members connect and communicate with family.
 
 Due to school closures, parents are tasked with being responsible for their children while at home. [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second) is an important Diversity, Inclusion & Belonging operating principle. To that end, we are encouraging GitLab team members to allow their children to connect with other children around the world.
 

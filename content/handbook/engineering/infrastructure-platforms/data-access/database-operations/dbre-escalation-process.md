@@ -14,8 +14,8 @@ This page outlines the DBO team's incident escalation policy.
 ## Shortcuts
 
 * [DBO PagerDuty schedule](https://gitlab.pagerduty.com/schedules#P1JP4AL)
-* Slack x PD integration: **/pd trigger `@dbo-oncall`** 
-* Slack handles: `@dbre` or `@dbo-oncall`
+* Slack x PD integration: **/pd trigger `@dbo-oncall`**  (For urgent reach-outs, ALWAYS use PagerDuty)
+* Slack handles: `@dbre` or `@dbo-oncall` (Non-urgent)
 * Slack channels: #g_database_operations
 * `group::database operations`
 * [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident)
@@ -61,8 +61,8 @@ This page outlines the DBO team's incident escalation policy.
 
 When responding to an Incident, utilize the below procedure as guidelines to follow to assist both yourself and the members requesting your assistance
 
-1. Join the Incident Zoom - this can be found bookmarked in the `#incident-management` Slack Channel
-1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
+1. Join the Incident Zoom - this can be found bookmarked in the relevant incident Slack Channel
+1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#inc-<INCIDENT NUMBER>`
 1. Work with the EOC to determine if a known code path is problematic
 
 * Should the knowledge of this be in your domain, continue working with the EOC to troubleshoot the problem
@@ -72,7 +72,7 @@ When responding to an Incident, utilize the below procedure as guidelines to fol
 
 ### Shadowing An Incident Triage Session
 
-Feel free to participate in any incident triaging call if you would like to have a few rehearsals of how it usually works. Simply watch out for active incidents in [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) and join the Situation Room Zoom call (link can be found in the channel) for synchronous troubleshooting. There is a [nice blog post](https://about.gitlab.com/blog/2020/04/13/lm-sre-shadow/) about the shadowing experience.
+Feel free to participate in any incident triaging call if you would like to have a few rehearsals of how it usually works. Simply watch out for active incidents in [#incidents-dotcom](https://gitlab.slack.com/archives/C08FMPK1DDF) and join the Situation Room Zoom call (link can be found in the channel) for synchronous troubleshooting. There is a [nice blog post](https://about.gitlab.com/blog/2020/04/13/lm-sre-shadow/) about the shadowing experience.
 
 ### Replaying Previous Incidents
 
@@ -80,7 +80,7 @@ Situation Room recordings from previous incidents are available in this [Google 
 
 ### Shadowing A Whole Shift
 
-To get an idea of what's expected of an on-call DBO and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBO on-call to let them know you'll be shadowing. During the shift keep an eye on [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) for incidents.
+To get an idea of what's expected of an on-call DBO and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBO on-call to let them know you'll be shadowing. During the shift keep an eye on [#incidents-dotcom](https://gitlab.slack.com/archives/C08FMPK1DDF) for incidents.
 
 ### Tips & Tricks of Troubleshooting
 

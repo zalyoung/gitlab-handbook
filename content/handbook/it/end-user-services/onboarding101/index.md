@@ -6,75 +6,142 @@ title: "GitLab IT 101"
 
 Congratulations on joining GitLab! This page is dedicated to the IT onboarding experience, here at GitLab we use many applications and the latest hardware to enable you to complete your work to the best of your ability! While it may seen a little bit overwhelming at the start the Team member enablement team is here to make the process as easy as possible!
 
-## Getting Started
+## Laptop Setup: MacBook
 
-### Laptop Setup: MacBook
+> **IMPORTANT**: You will not have access to your work MacBook until your start date. On your start date,  please follow this guide.
 
-The first time your MacBook Pro starts up, Setup Assistant walks you through the simple steps needed to start using your new Mac.
+### Before You Begin
 
-#### Initial Setup
+You will receive an Okta activation email in your personal email. This is the first step to gaining access to GitLab's systems.
 
-![ALT](https://help.apple.com/assets/5F46CA8B094622AD463B4A64/5F46CA9D094622AD463B4A8A/en_US/cd2f81cf603fecfcc05525948f6f84fb.png)
+### Step 1: Activate Your Okta Account
 
-- Choose a country or region to set the language and time zone for your Mac. You can respond to all the prompts, or skip some and choose "Set up later" when you see that option.
+1. On a mobile device, check your personal email for an Okta activation email.
+2. Click the link in the email to set your password
+3. After setting your password, your browser will redirect to the Okta Dashboard
+4. You will receive a follow-up email from Okta with the subject **Security Method enrolled**
 
-- Connect to a Wi-Fi network: Choose the network and enter a password, if necessary. (If you're using Ethernet, you can also choose Other Network Options.) To change the network later, click the Wi-Fi status icon  in the menu bar or in Control Center, click Other Networks, then choose a Wi-Fi network and enter the password. You can also choose to turn Wi-Fi on or off here.
+### Step 2: MacBook Initial Setup
 
-Tip: After setup, if you don't see the Wi-Fi status icon in the menu bar, you can add it. Open System Preferences, then click Network. Click Wi-Fi in the list on the left, then select "Show Wi-Fi status in menu bar."
+1. Power on your GitLab laptop
+2. Complete the initial macOS setup:
+   - Choose your preferred language
+   - Select your country or region
+   - Choose accessibility options (or click **Not Now**)
+   - Select your WiFi network
+   - On the **Remote Management** screen, click **Enroll**
 
-- Transfer information: If you're setting up a new computer and you haven't previously set up a Mac, click "Don't transfer any information now."
+3. Log into GitLab Okta:
+   - Use the full GitLab email address (e.g., yourname@gitlab.com)
+   - Enter the password you created on your personal device
+   - Click **Sign in**
 
-#### Apple ID
+4. Set up your computer account:
+   - Create a password for your local Mac account
+   - Click **Continue**
 
-- Please create a new Apple ID for GitLab using your @gitLab.com email address to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It's the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
+5. Configure system settings:
+   - On the **Enable Location Services** screen, check **Enable Location Services on this Mac**
+   - Click **Continue**
+   - On the **Touch ID** screen, click **Continue**
+   - Enroll in Touch ID by placing your finger on the scanner (this is required)
+   - On the **Choose Your Look** screen, select **Light,** **Dark,** or **Auto**
+   - Click **Continue**
 
-#### Initial Setup Part 2
+### Step 3: System Configuration
 
-- **Screen Time:** Monitor and get reports on the use of your computer. For options and details, see Screen Time on Mac.
+1. On the **Welcome to your new Mac!** screen, wait while applications are automatically installed
+   - This should take a few minutes
+   - When finished, click **Done**
 
-- **Enable Siri and "Hey Siri"**: You can turn on Siri and "Hey Siri" (so you can speak your Siri requests) during setup. To enable "Hey Siri," speak several Siri commands when prompted. To learn how to turn on Siri and "Hey Siri" later and for information about using Siri on your Mac, see Siri on your Mac.
+2. System Restart:
+   - A pop-up will inform you that your machine needs to restart within the next minute
+   - Wait for the automatic restart or initiate it yourself
+   - After restart, log back in
 
-- **Store files in iCloud**: iCloud has the ability to store desktop and documents in iCloud. As our Cloud Storage option is Google Drive, please make sure this feature is disabled. Anything of importance for work should be stored in Google Drive, a GitLab Issue, or the Handbook based on the type and [data classification](/handbook/security/data-classification-standard/) of the information.
+3. Enable FileVault:
+   - Click **Enable Now** when prompted to enable FileVault (disk encryption)
 
-- **Choose an appearance**: Select Light, Dark, or Auto for your desktop appearance. If you want to change the choice you make during setup, open System Preferences, click General, then select an appearance option. You can also set other preferences here.
+### Step 4: Google Account Setup
 
-- **Set up Touch ID**: You can add a fingerprint to Touch ID during setup. To set up Touch ID later, or to add additional fingerprints, open System Preferences, then click Touch ID. To add a fingerprint, click the Add button and follow the onscreen instructions.
+1. Open Google Chrome
+2. In the **Sign in to Chrome** window, click **Sign in**
+3. Enter your GitLab email address
+4. If Okta Verify opens, click **Not now** or close it
+5. Sign in to Okta with your username and password
+6. Click **Agree** on the Google Workspace policy that appears
+7. On the **Verify it's you** screen, click **Continue**
+8. On the **Enhanced Ad Privacy in Chrome** notice, click **Got It**
+9. When you see **Your organization will manage this profile,** click **Continue**
+10. On the **Turn on Sync** window, click **Yes, I'm in**
 
-- You can also set options for how you want to use Touch ID on your MacBook Pro: to unlock your Mac, use Apple Pay (see Use Apple Pay on your Mac), purchase items on the App Store, Apple TV app, Apple Book Store, and websites, and auto-fill your password.
+### Step 5: Okta Account Verification
 
-Tip: If two or more users use the same MacBook Pro, each user can add a fingerprint to Touch ID to quickly unlock, authenticate, and log in to the MacBook Pro. You can add up to three fingerprints per user account, and a total of five fingerprints for all your MacBook Pro user accounts.
+1. In Chrome, go to https://gitlab.okta.com
+2. When Okta Verify appears:
+   - On the **Welcome to Okta Verify** window, click **Get Started**
+   - In Chrome, enter your Okta password and click **Verify**
+   - In the Okta Verify window, click **Enable** for **Enable Touch ID confirmation**
+   - Close the **Complete** tab in Chrome
 
-## MacBook Cheat Sheet
+3. Complete security verification:
+   - In Chrome, click **Verify it's you with a security method**
+   - Select **Password** and click **Verify**
+   - In Okta Verify, click **Yes, it's me** (or provide your fingerprint)
 
-If you are new to using a MacBook or switched from another OS such as windows check out these useful shortcuts and options!
+4. Set up additional security methods:
+   - On the **Set up Security methods** screen, click **Set up** for **Security Key or Biometric authenticator**
+   - Click **Set up** again to confirm
+   - On the **Create a passkey for gitlab.okta.com** pop-up, click **Continue**
 
-![mactips2.png](/images/it/end-user-services/onboarding101/mactips2.png)
+### Step 6: Access GitLab Email & GitLab.com Account
 
-![mactips1.png](/images/it/end-user-services/onboarding101/mactips1.png)
+1. Access your GitLab email by clicking **G Suite SSO Mail** in Okta
+2. Check your GitLab email for an email titled "**Welcome to GitLab Onboarding, `yourname`!**"
+3. Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
 
-### Official Apple Training
+### Congratulations
 
-Apple has official training sessions available every week! These training sessions are great if you are new to using a MacBook or want some tips and insider knowledge on using a MacBook! Please check it out [here](https://events.apple.com/content/events/pst/us/en/default.html?token=xww6uj7woR0X9A3Y9qIMRkNVdH60MurN7MAvJSY75sHQxWqaTEhMjEmalXqC7MMJuZhb5dzJ1P9mLUXaAAfCMipX6qVTaNqFY_njjpamZQfrSbMYEpe-edwBN1r5nI4t-GCxEY8&a=1&l=e).
+You have completed the initial setup process for your GitLab account and MacBook. If you encounter any issues, please contact the IT Help Desk.
 
 ## Laptop Setup: Linux
 
-Check out [this detailed page](/handbook/tools-and-tips/linux/) on setting up your Linux laptop. Also feel free to reach out in #Linux slack channel or #it_help for assistance!
+### Step 1: Activate Your Okta Account
 
-## Extra Setup
+1. On a mobile device, check your personal email for an Okta activation email.
+2. Click the link in the email to set your password
+3. After setting your password, your browser will redirect to the Okta Dashboard
+4. You will receive a follow-up email from Okta with the subject **Security Method enrolled**
 
-### Endpoint Management
+### Step 2: Okta Setup
 
-MacBook: You are required to install Jamf on your MacBook for security and compliance reasons. Please check [this guide](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/#enrolling-in-jamf) for assistance!
+1. On your Linux laptop, download Google Chrome
+2. Open Google Chrome, and navigate to https://gitlab.okta.com
+3. Complete security verification:
+   - Click "Verify it's you with a security method"
+   - Select "Password" and click "Verify"
+4. Set up additional security methods:
+   - On the "Set up Security methods" screen, click "Set up" for "Security Key or Biometric authenticator"
+   - Click "Set up" again to confirm
+   - On the "Create a passkey for gitlab.okta.com" pop-up, click "Continue"
 
-Linux: Currently we do not have an endpoint management tool for Linux. However we do have [a tool](/handbook/it/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) that we use to wipe and lock them if needed.
+### Step 3: Google Account Setup
 
-### Laptop Encryption
+1. Access your GitLab email by clicking **G Suite SSO Mail** in Okta
+2. In the **Sign in to Chrome** window, click **Sign in**
+3. Enter your GitLab email address
+4. Sign in to Okta with your username and password
+5. Click **Agree** on the Google Workspace policy that appears
+6. On the **Verify it's you** screen, click **Continue**
+7. On the **Enhanced Ad Privacy in Chrome** notice, click **Got It**
+8. When you see **Your organization will manage this profile,** click **Continue**
+9. On the **Turn on Sync** window, click **Yes, I'm in**
 
-It is essential to encrypt your laptops hard drive using Mac's FileVault or Linux's built in encryption. This will prevent unauthorised access of the contents in your hard drive. Please refer to our security pages to complete this.
+### Step 4: Access GitLab Email & GitLab.com Account
 
-- [MacBook Encryption](/handbook/security/corporate/systems/#laptop-or-desktop-system-configuration)
-- [Linux Encryption](/handbook/tools-and-tips/linux/#initial-installation)
+1. Check your GitLab email for an email titled "**Welcome to GitLab Onboarding, `yourname`!**"
+2. Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
 
 ## Need Help?
 
-If you need further assistance with setting up your MacBook please join our weekly onboarding call scheduled every Tuesday (Check your Calendar!) or reach out to us in slack in the #it_help channel.
+If you need further assistance with setting up your laptop please join our weekly onboarding call scheduled every Tuesday (Check your Calendar!) or reach out to us in Slack in the #it_help channel.

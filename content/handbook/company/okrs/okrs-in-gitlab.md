@@ -31,7 +31,7 @@ To add new objectives in GitLab, follow the steps below:
 
 ## Creating Key Results
 
-Each [Objective](#creating-objectives) will contain one or more sub-objectives or key results. Sub-objectives are only used to cascade OKR down a level in [organizational structure](/handbook/company/structure/#layers) while [Key Results are the measure](okrs-basics.md#what-are-okrs) which helps us understand if we've met our objective and can be cascaded down a level of organization structure to become an objective one level down. Key Results must be created as part of an Objective and cannot be created independent of an Objective since Key Results [should be linked](/handbook/company/okrs/#criteria-for-key-results:~:text=Linked%20%2D%20Be%20aligned%20to%20an%20Objective%20and%20be%20relevant%20to%20teams%20one%20level%20down%3B%20this%20alignment%20also%20allows%20KRs%20to%20easily%20roll%20down%20to%20become%20objectives%20one%20level%20down.) to an Objective.
+Each [Objective](#creating-objectives) will contain one or more sub-objectives or key results. Sub-objectives are only used to cascade OKR down a level in [organizational structure](/handbook/company/structure/#layers) while [Key Results are the measure](okrs-basics.md#what-are-okrs) which helps us understand if we've met our objective and can be cascaded down a level of organization structure to become an objective one level down. Key Results must be created as part of an Objective and cannot be created independent of an Objective since Key Results [should be linked](/handbook/company/okrs/okrs-basics/#criteria-for-key-results) to an Objective.
 
 Since [Key Results are the measure](okrs-basics.md#what-are-okrs) that helps us understand if we've met our Objective, Key Results are aligned to the same, single layer of the [organizational structure](/handbook/company/structure/#layers) as their parent Objective and not a Key Result for multiple layers of organizational structure. However, Key Results can be cascaded down from this single organizational structure layer by becoming Objectives in the next organizational level down - see [Cascading OKRs](#cascading-okrs-and-how-to-align-division-okrs-to-the-company-okrs).
 
@@ -138,8 +138,6 @@ A hypothetical example where division OKRs score directly to a company OKR:
       1. CRO OKR: Have 10% of managers enrolled in leadership program
       1. CMO OKR: Have 10% of managers enrolled in leadership program
       1. etc. (all divisions participating should be added)
-
-Note: Using this method, if you need to track the team objective or KRs separately, you can take a look at [Engineering's guidance on tracking department OKRs](/handbook/engineering/okrs/#tracking-department-okrs). If you need the team objective or KRs to score to another parent objective, duplicating the OKR is currently the only way to do so.
 
 ## Search and Filter OKRs
 

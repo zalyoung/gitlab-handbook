@@ -214,7 +214,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 - [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) - Daily questions and discussions focused on work internal to the Security Division. Can be used for reporting when unsure of where to go.
 - [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
 - `#security-team-standup` - Channel for daily standups.
-- `#incident-management` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
+- `#incidents` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
 - `#security-alert-manual` - New reports for the Security Division from various intake sources, including ZenDesk and new HackerOne reports.
 - `#hackerone-feed` - Feed of most activity from our HackerOne program.
 - Other `#security-alert-*` and `#abuse*` - Multiple channels for different notifications
@@ -266,7 +266,7 @@ The following best practices will help ensure tokens are handled appropriately a
 
 - To receive security release blog notifications delivered to your inbox, visit our [contact us](https://about.gitlab.com/company/contact/) page.
 - To receive release notifications via RSS, subscribe to our [security release RSS feed](https://about.gitlab.com/security-releases.xml) or our [RSS feed for all releases](https://about.gitlab.com/all-releases.xml).
-- For additional information regarding security releases, please visit the Delivery Team's [security releases](/handbook/engineering/infrastructure/library/security-releases-development/) page.
+- For additional information regarding security releases, please visit the Delivery Team's [security releases](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/security-releases-development) page.
 
 ### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> Resources
 

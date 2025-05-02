@@ -155,7 +155,7 @@ cross-department decisions that do not fit the working group's
 scope. As a first iteration, the working group members addressed how
 to reduce code complexity by focussing on technological challenges.
 
-The creation of the [scalability frameworks team](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks)
+The creation of the [scalability frameworks team](/handbook/engineering/infrastructure/team/scalability/)
 during this working group execution provided a perfect partner to give
 continuity to this effort.  Epic
 [gitlab-com/gl-infra&733](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/733)

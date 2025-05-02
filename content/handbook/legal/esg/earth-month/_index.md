@@ -37,7 +37,7 @@ Starting 2025-04-01, all team members will have optional access to the Mammoth C
 
 2. Join our Earth Month kick-off calls on 2025-04-01 at 9am PST or 5pm PST.
 
-3. Complete weekly challenges to earn prizes from sustainable brands like [Everist](https://helloeverist.com/?srsltid=AfmBOoqQiOYH6I74tTp8NkRTnlA5VRJ9ukr8vxPQy4KmgbRdAnOK0J4M), [Guests on Earth](https://www.guestsonearth.com/), [Fable](https://us.fable.com/pages/were-fable) and [Lomi](https://lomi.com/). See [Official Rules](hhttps://drive.google.com/file/d/1LPbKm6MrSDmOOCEBfK95t0dPlKKwFNtP/view) for details. Note that points redeemable for gift cards and carbon credits are capped at $25 USD per team member.
+3. Complete weekly challenges to earn prizes from sustainable brands like [Everist](https://helloeverist.com/?srsltid=AfmBOoqQiOYH6I74tTp8NkRTnlA5VRJ9ukr8vxPQy4KmgbRdAnOK0J4M), [Guests on Earth](https://www.guestsonearth.com/), [Fable](https://us.fable.com/pages/were-fable) and [Lomi](https://lomi.com/). See [Official Rules](https://drive.google.com/file/d/1UAdFuFs-kF7Z7oteOzySPvcYlDci89VS/view?usp=drive_link) for details. Note that points redeemable for gift cards and carbon credits are capped at $25 USD per team member.
 
 ### Volunteer with GiveLab
 

@@ -49,7 +49,7 @@ This report has been prepared with reference to the Global Reporting Initiative 
 
 GitLab’s Nominating and Corporate Governance Committee on the Board of Directors (“Board”) has reviewed the information in this report.
 
-For information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/ESG/).
+For information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/esg/).
 
 #### Our Approach to ESG
 
@@ -128,7 +128,7 @@ Managers at GitLab support our mission of enabling everyone to contribute to and
 
 During FY24, we also developed and launched additional tools to help participants deepen and continue their learning beyond initial certification. [Elevate Applied](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/) is an ongoing resource that enables Managers and Senior Managers to connect with each other and practice, apply, and integrate concepts taught in Elevate in their day-to-day work at GitLab.
 
-In addition, we developed and announced the FY25 launch of [Elevate+](/handbook/people-group/learning-and-development/elevate-programs/elevate+/), a six-month program designed to enable senior leaders (Directors and Senior Directors) to better understand and practice behaviors anchored in GitLab’s values and leadership competencies, develop new skills to support high-priority business needs, and help establish and strengthen cross-functional connections.
+In addition, we developed and announced the FY25 launch of [Elevate+](/handbook/people-group/learning-and-development/elevate-programs/elevateplus/), a six-month program designed to enable senior leaders (Directors and Senior Directors) to better understand and practice behaviors anchored in GitLab’s values and leadership competencies, develop new skills to support high-priority business needs, and help establish and strengthen cross-functional connections.
 
 ##### Talent Engagement
 
@@ -198,7 +198,7 @@ Our team members are critical to our success. We provide pathways for them to th
   - [Caregivers](/handbook/company/culture/inclusion/tmrg-caregivers/)
   - [Disabilities and Neurodivergence](/handbook/company/culture/inclusion/erg-gitlab-diversability/)
   - [Gente](/handbook/company/culture/inclusion/tmrg-gitlab-gente/)
-  - [Generational Understanding](/handbook/company/culture/inclusion/tmrg-gitlab-generational-understanding/)
+  - [Generational Understanding](/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding/)
   - [Global Voices](/handbook/company/culture/inclusion/tmrg-global-voices/)
   - [Pride](/handbook/company/culture/inclusion/tmrg-gitlab-pride/)
   - [GitLab Women](/handbook/company/culture/inclusion/tmrg-gitlab-women/)
@@ -219,7 +219,7 @@ From education to mentorship, sponsorship, and advocacy, GitLab educates its lea
 **Equipping Our People Leaders** – Our leadership training ensures that DIB is considered and threaded throughout the team member experience.
 
 - [Elevate – Manager training](/handbook/people-group/learning-and-development/elevate-programs/elevate/)
-- [Elevate+ – Director+ inclusive leadership training](/handbook/people-group/learning-and-development/elevate-programs/elevate+/)
+- [Elevate+ – Director+ inclusive leadership training](/handbook/people-group/learning-and-development/elevate-programs/elevateplus/)
 - [Elevate Applied – Continuous learning for Elevate graduates](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/)
 
 ##### Uplifting Our Communities
@@ -412,7 +412,7 @@ As part of our commitment to privacy, GitLab ensures that, where appropriate, pr
 
 #### Responsible Product Development
 
-GitLab’s [product mission](/handbook/product-development-flow/) is to consistently create products and experiences that users love and value. We believe this includes our responsibility to [design inclusive products](https://design.gitlab.com/accessibility/inclusive-design-principles/) that aim to provide access to content and functionality that enables consumption and contribution from everyone. Our [product principles](/handbook/product/product-principles/#our-product-principles) guide us in developing products consistent with the approach of other world-class product organizations.
+GitLab’s [product mission](/handbook/product-development/product-development-flow/) is to consistently create products and experiences that users love and value. We believe this includes our responsibility to [design inclusive products](https://design.gitlab.com/accessibility/inclusive-design-principles/) that aim to provide access to content and functionality that enables consumption and contribution from everyone. Our [product principles](/handbook/product/product-principles/#our-product-principles) guide us in developing products consistent with the approach of other world-class product organizations.
 
 We strive to set an example by empowering our wider GitLab community to build and work with the highest levels of security through our DevSecOps platform. This extends to how we are incorporating artificial intelligence (AI) and continuously evolving the platform to enable secure, responsible development.
 

@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 <!-- For long pages, consider creating a table of contents.  The `[_TOC_]`
 function is not supported on docs.gitlab.com.  -->

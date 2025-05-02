@@ -76,6 +76,9 @@ If you have any questions or require assistance with completing an access review
   - 2 or 3 year review cycle - system specific based on origin/criticality/risk impact
 - [SOX In-Scope Appplications](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
   - Quarterly Entitlement Reviews for all users
+- PCI In-scope Applications (included in "In-scope" section above)
+  - Entitlements (human and service account) reviewed at least every 6 months (bi-annually)
+  - Accounts reviewed for inactivity quarterly
 
 All components of a user access review must be completed within the time period under audit. For example, if a user access review is scheduled for Q2, all components of the review including any required actions for modification/removal and lookbacks must be completed by the end of the quarter. It would not be sufficient to have outstanding requests for modification/removal at the quarter end, regardless of the users being identified for modification/removal prior to quarter end.
 

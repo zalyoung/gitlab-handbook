@@ -1,9 +1,14 @@
 ---
 title: "Logging Blueprint for GitLab"
-toc_hide: true
+status: ongoing
+creation-date: "2024-07-22"
+authors: [ "@stejacks-gitlab" ]
+approvers: [ "@lmcandrew" ]
+owning-stage: "~team::Observablity"
+toc_hide: false
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document describes the current state of Logging for GitLab SaaS Platforms, the challenges that we face as we continue to scale and grow, and a recommendation on the next steps.
 

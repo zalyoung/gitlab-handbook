@@ -97,7 +97,7 @@ To notify JiHu of an upcoming security release, please simply post a comment in:
 
 GitLab Inc will follow the [documented vulnerability disclosure process](https://about.gitlab.com/security/disclosure/#vulnerability-disclosure) and will not provide detailed information about vulnerabilities directly to JiHu. No information will be shared prior to or during an in-progress security release.
 
-Only after a GitLab [security release](/handbook/engineering/infrastructure/library/security-releases-development/), GitLab Inc may provide JiHu with:
+Only after a GitLab [security release](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/security-releases-development), GitLab Inc may provide JiHu with:
 
 - A link to the public security release blog post
 - A link to the GitLab issue describing the vulnerability, which will remain confidential until 30 days after the release in which the vulnerability was patched
@@ -164,7 +164,7 @@ To facilitate collaboration and feedback, JiHu plans ahead of GitLab's milestone
 1. The Product DRI will facilitate awareness and encourage collaboration via the [JiHu Milestone Review Template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Monthly-JiHu-Milestone-Review.md)
 1. Individual product manager and their engineering counterparts will provide feedback to JiHu as needed
 
-##### Large Product Iniative Planning
+##### Large Product Initiative Planning
 
 In the interest of creating IP, JiHu will take on larger product initiatives that spans multiple milestones. This type of product initiatives take more coordination. JiHu and GitLab representatives regularly stay in sync regarding these product plans. The goal is to identify large initiatives early so that the appropriate DRIs can be looped in. One example of this type of product initiative is the [Visual Builder for the pipeline editor](https://gitlab.com/groups/gitlab-org/-/epics/4499).
 
@@ -172,13 +172,13 @@ In the interest of creating IP, JiHu will take on larger product initiatives tha
 
 GitLab Product Managers are not responsible for JiHu product decisions, but collaboration and feedback with JiHu Product Managers is encouraged and appreciated.
 
-- Just like [PMs aren't the arbiters of community contribution](/handbook/product/product-processes/#gitlab-pms-arent-the-arbiters-of-community-contributions), product managers are not the arbiter of what the JiHu team works on
+- Just like PMs aren't the arbiters of community contribution, product managers are not the arbiter of what the JiHu team works on
 - Product managers are not responsible for JiHu product decisions, such as tiering, pricing
 - When reviewing JiHu milestone planning:
-   1. Be aware of JiHu's plans in your product area.
-   1. Provide guidance in accordance with GitLab's product direction.
-   1. Help avoid surprises and help JiHu be successful. If feedback will take some time, please provide a heads-up.
-   1. It is not necessary to provide feedback if there's no feedback to give. JiHu contribution can be the same as other community contributions
+  1. Be aware of JiHu's plans in your product area.
+  1. Provide guidance in accordance with GitLab's product direction.
+  1. Help avoid surprises and help JiHu be successful. If feedback will take some time, please provide a heads-up.
+  1. It is not necessary to provide feedback if there's no feedback to give. JiHu contribution can be the same as other community contributions
 
 ### Differentiating Proprietary JiHu Features
 

@@ -16,6 +16,10 @@ If you think sharing graphs would benefit the customer, please read
 
 The credentials for accessing the Grafana instance associated with each GitLab Dedicated tenant are stored in the `GitLab Dedicated - Support` [1Password Vault](/handbook/security/#vaults).  As with [the OpenSearch instances](/handbook/support/workflows/dedicated_logs/), the passwords are referred to by customer number. Use the information in the internal note in the ticket and the subdomain in the `website` field in 1Password to find the credentials for the correct GitLab Dedicated tenant.
 
+### Preprod deployments
+
+Use the [GitLab Dedicated Preprod switchboard](./dedicated_switchboard.md#customers-with-dedicated-preprod-deployments) to find links to the Grafana dashboard for a specific customer.
+
 ## Finding Dashboards
 
 When logging in for the first time, dashboards are not immediately visible and you will be greeted by a Grafana welcome screen. To find the dashboards:

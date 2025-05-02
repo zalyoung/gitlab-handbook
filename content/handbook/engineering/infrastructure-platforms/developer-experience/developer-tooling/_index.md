@@ -37,13 +37,7 @@ flowchart LR
 
 ### Members
 
-| Team Members                             | Role                                      |
-| ---------------------------------------- | ----------------------------------------- |
-| [Mohga Gamea](https://gitlab.com/mgamea) | Engineering Manager                       |
-| {{< member-by-name "Doug Barrett" >}}    | Backend Engineer, Developer Tooling       |
-| {{< member-by-name "Nao Hashizume" >}}   | Backend Engineer, Developer Tooling       |
-| {{< member-by-name "Kev Kloss" >}}       | Frontend Engineer, Developer Tooling      |
-| {{< member-by-name "Peter Leitzen" >}}   | Staff Backend Engineer, Developer Tooling |
+{{< team-by-manager-slug "mgamea" >}}
 
 ### Stable counterpart
 
@@ -59,9 +53,9 @@ Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=c
 
 ## Communication
 
-| Description            | Link                                                                                                           |
-| ---------------------- |----------------------------------------------------------------------------------------------------------------|
-| **GitLab Team Handle** | [`@gl-dx/developer-tooling`](https://gitlab.com/gl-dx/developer-tooling)                                       |
-| **Slack Channel**      | [`#g_developer_tooling`](https://gitlab.enterprise.slack.com/archives/C07UW7F3FL2)                             |
-| **Team Boards**        | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/8974136?label_name[]=team%3A%3ADeveloper%20Tooling) |
-| **Issue Tracker**      | [`gitlab-org/dx/tooling/team`](https://gitlab.com/gitlab-org/quality/tooling/team/-/issues/)                   |
+| Description            | Link                                                                                                                                         |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **GitLab Team Handle** | [`@gl-dx/developer-tooling`](https://gitlab.com/gl-dx/developer-tooling)                                                                     |
+| **Slack Channel**      | [`#g_developer_tooling`](https://gitlab.enterprise.slack.com/archives/C07UW7F3FL2)                                                           |
+| **Team Issue Board**   | [Team Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/8974136?label_name%5B%5D=group%3A%3Adeveloper+tooling&iteration_id=Current) |
+| **Issue Tracker**      | [`gitlab-org/dx/tooling/team`](https://gitlab.com/gitlab-org/quality/tooling/team/-/issues/)                                                 |

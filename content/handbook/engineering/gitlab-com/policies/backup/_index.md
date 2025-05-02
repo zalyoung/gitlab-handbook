@@ -20,6 +20,12 @@ Customer data is stored in the following locations:
 1. The CustomersDot database, which manages subscriptions and purchases
 1. Git repositories
 
+## Not in Scope
+
+1. Customer Data stored in the Redis cache
+   1. Data queued for processing
+   1. Sessions and other cached data
+
 ## Roles & Responsibilities
 
 | Role                      | Responsibility                                                                 |

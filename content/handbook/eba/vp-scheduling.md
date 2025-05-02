@@ -5,16 +5,6 @@ description: "Discover how to schedule meetings with VPs at GitLab"
 
 When scheduling for VPs or Directors at GitLab, please check the scheduling preferences below.
 
-## Scheduling for Pattie Egan, VP of People Operations, Technology, and Analytics
-
-- Please schedule all meetings through the People Function's EBA, Julia Nishioki
-- Keep meetings to 25 or 50 minutes unless otherwise specified
-- Direct Report 1:1's occur weekly
-- Skip level 1:1's occur every other month
-- Calendar color coding: Confirmed meetings- Dark green, Manager meetings- light green, Important meetings NOT to be moved are in red, Personal meetings- Blue
-- Do not schedule over DNB: Focus Time blocks without consulting the EBA of the People Group.
-- Scheduling should ideally be kept between 9:00 am and 5:00 pm PT
-
 ## Scheduling for Rob Allen, VP, Talent Acquisition
 
 - Please schedule all meetings through the People Function's EBA, Julia Nishioki

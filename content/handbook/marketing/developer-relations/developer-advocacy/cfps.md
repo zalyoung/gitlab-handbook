@@ -33,7 +33,7 @@ To request that a Developer Advocate submits a CFP to your event, please:
 
 ### CFP Management
 
-For every CFP process we are participating in, a [CFP issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=CFP-Meta) is created with details about the event, requirements for CFP submissions and any other relevant information that might be useful to potential speakers. The issue template contains guide on the necessary steps needed to ensure we keep track of all the submissions for each CFP.
+For every CFP process we are participating in, a [CFP issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=cfp-meta) is created with details about the event, requirements for CFP submissions and any other relevant information that might be useful to potential speakers. The issue template contains guide on the necessary steps needed to ensure we keep track of all the submissions for each CFP.
 
 Once a submission has been submitted, the author should add it to the [CFP Library](https://docs.google.com/spreadsheets/d/1KX8uf-4Ov8ybztJibQlGr9HvgH9VobpA8Nv5ecny1N4/edit#gid=0). This will allow us to repurpose CFPs efficiently.
 

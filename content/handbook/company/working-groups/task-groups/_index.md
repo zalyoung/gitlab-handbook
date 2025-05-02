@@ -77,11 +77,11 @@ task forward.
    expectations for their deliverables within the Task Group. They should manage
    their time and capacity and quickly escalate if they feel unable to serve in
    or deliver in their role.
-1. It is highly recommended that anyone in the Task Group with [OKRs](/company/okrs/) aligns them to the effort.
+1. It is highly recommended that anyone in the Task Group with [OKRs](/handbook/company/okrs/) aligns them to the effort.
 
 ## Process
 
-1. Create an MR with an overview page in the [task-groups/](task-groups/)
+1. Create an MR with an overview page in the `task-groups/`
    directory. Ensure a brief description with an actionable objective is
    included. It is generally recommended that your manager approves the MR prior
    to merging.
@@ -98,6 +98,7 @@ task forward.
 
 ## Active Task Groups (alphabetic order)
 
+1. [Accessibility Audit Triage](https://internal.gitlab.com/handbook/company/internal-working-groups/internal-task-groups/accessibility-audit-triage)
 1. [BootstrapVue Removal](bootstrap-vue-removal/)
 
 ## Past Task Groups (alphabetic order)

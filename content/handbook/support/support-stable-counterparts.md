@@ -53,7 +53,7 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 ### Enable Support with periodic communication relevant to the group
 
 - A monthly communication cadence is recommended. Since your group might not have a lot of updates to share with Support every month, set a cadence that is appropriate for the situation.
-- [Section SSC] Ensure a regular cadence of communication with the group level SSCs to ensure alignment and balance of prioritization of issues.
+  - Support's Monthly Business Review can serve as natural check-in via the [SSC Feedback slides](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Support+MBR&first_page_size=20) you're supposed to update.
 - Share announcements through the [SWIR](/handbook/support/#support-week-in-review) and in relevant Support Slack channels.
   - Use the prefix `[SSC Update: Group_Name: GitLab(Major).(Minor).(Patch)]` for your updates in both SWIR and in relevant slack channels. Having consistency in this will help us measure the success and usefulness of this initiative.
 - Group related updates and announcements can be:
@@ -68,7 +68,8 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 - If you have not had any updates to share in a long time, consider sending out a quick "Nothing major you have to watch out for with this release, all is well!" or "Here is an awesome new unfiltered video on this topic" etc.
 - Catalyze training materials and sessions as needed.
 - [Optional] Consider doing quarterly office hours to chat about your group and share your experiences as an SSC with newer team members.
-- [Optional] Be the DRI or ensure to find a DRI on any [Support Readiness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=due_date&state=all&label_name%5B%5D=Support%20Readiness&first_page_size=100) from your product group to ensure major changes are widely communicated.
+- [Optional] Be the DRI or ensure to find a DRI on any [Support Preparedness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/?sort=due_date&state=all&label_name%5B%5D=Support%20Preparedness&first_page_size=100) from your product group to ensure major changes are widely communicated.
+- [Section SSC] Ensure a regular cadence of communication with the group level SSCs to ensure alignment and balance of prioritization of issues.
 
 ### Enable Product with periodic communication relevant to the group
 
@@ -176,6 +177,6 @@ Non-group specific counterparts typically also step in when the related group ha
 
 ## Product counterparts
 
-{{< section-counterparts >}}
+{{< engineering/section-counterparts >}}
 
-{{< stages-counterparts >}}
+{{< engineering/stages-counterparts >}}
