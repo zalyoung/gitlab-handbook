@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Process Overview
 
-![Security Control Lifecycle](/images/security/security-assurance/security-compliance/control_lifecycle.png "Security Control Lifecycle")
+![Security Control Lifecycle](/images/security/security-assurance/security-compliance/control_lifecycle.png "Security Control Lifecycle"){: width="600px"}
 
 ## Purpose
 
@@ -32,7 +32,7 @@ This document applies to GitLab's security controls being assessed by the Securi
 
 #### Preparation
 
-As new [GCF security controls](/handbook/security/security-assurance/security-compliance/sec-controls/) are identified they first must be researched and contextualized to GitLab as a company and to the applicable GitLab systems. The Preparation phase of the control lifecycle covers this initial work required to get controls into a state of ready to be tested.
+As new [GCF security controls](/handbook/security/security-assurance/security-compliance/sec-controls.md) are identified they first must be contextualized to GitLab as a company and to the applicable GitLab systems. The Preparation phase of the control lifecycle covers this initial work required to get controls into a state of ready to be tested.
 
 Additionally, GCF controls that have been previously tested but have an upcoming requirement for renewed testing enter this Preparation phase as well to research and confirm that any changes to the control processes are captured in the updated testing activity.
 
@@ -53,17 +53,16 @@ Additionally, GCF controls that have been previously tested but have an upcoming
 
 The testing activity consists of 3 major components:
 
-1. Filling out a control testing worksheet as described by the [GitLab control testing manual](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/gcf/-/blob/main/runbooks/assessment_testing_manual.md?ref_type=heads) (GitLab internal link)
+1. Assessing the Design and Operating Effectiveness of the control
 1. Validating observations (if any were noted during testing) with the observation owners
 1. Recording those observations (if any) according to the [Security Compliance Observation Management process](/handbook/security/security-assurance/observation-management-procedure/)
    - **Note:** These observations can only be recorded after being validated by the observation owner to ensure that observation is accurate and represents a material deficiency in the security control process
 
-After testing a decision is made about the controls:
+After assessment and validation, the status field in the GRC tool should be updated as follows:
 
-- Were any validated observations recorded as a part of testing?
-  - If `yes` this control enters the Remediation phase while those observations are in the process of being resolved
-  - If `no` this control enters the Operation phase since the control has been determined to be designed and operating effectively to meet security compliance program needs
-- Assign a control effectiveness rating to the control as described in the [GitLab control testing manual](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/gcf/-/blob/main/runbooks/assessment_testing_manual.md?ref_type=heads) (GitLab internal link)
+- If a gap exists with no current control implementation, create a placeholder control and list the status as 'gap'
+  - Controls with a status of 'gap' should have a corresponding observation issue.
+- If a control was designed and operating effectively with no observations, create a control ID, control description, map it to the appropriate control domain and list the status as 'in existence'.
 
 #### Remediation
 
@@ -73,9 +72,7 @@ Remediation is the phase of the lifecycle where required changes are made to the
 
 Controls that are tested with no observations noted during that testing activity are determined to be in an operational state. This indicates that the design and operating effectiveness of this control are at or above the level required to meet the current needs of the security compliance program.
 
-Controls in an operating state will still need to be re-tested annually or quarterly (as determined by the risk rating of the control) to ensure no substantive changes have occured which would impact the design or operating effectiveness of that control; controls move from the operating state back into the preparation state to prepare the control for the next iteration of testing.
-
-**For a listing of application/systems that are currently in-scope for Security Compliance Testing, reference [FY25 Security Compliance Audit Schedule](https://docs.google.com/spreadsheets/d/1_5UnQLgR_VhuqAun2UzDfj2v3-pJfAe72MLbNSdiL00/edit?pli=1#gid=0). Even though [transparency is one of our values](/handbook/values/#transparency), we are unable to share this document [publicly](/handbook/communication/confidentiality-levels/#not-public)**
+Controls in an operating state will still need to be re-tested as determined by the risk rating of the control to ensure no substantive changes have occured which would impact the design or operating effectiveness of that control.
 
 ## Exceptions
 
@@ -83,7 +80,6 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- [Information Security Policies](/handbook/security/controlled-document-procedure)
 - [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
 
 <a href="../security-compliance/" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>
