@@ -135,7 +135,6 @@ Due to being unable to edit the value of masked sections in webhooks, we have to
 1. Delete the webhook in question
 1. Re-create the webhook using the revelant information and the new token
 
-
 ## OAuth Integrations
 
 ### Integrating a new OAuth Application into Zendesk
@@ -152,3 +151,4 @@ After an access request is approved:
 5. Restore Okta login requirements for the integration user.
 
 You will likely get a message from the SIRTBot, point to the AR and explain the provisioning flow by linking here.
+
