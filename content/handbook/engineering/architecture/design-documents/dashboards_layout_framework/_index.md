@@ -89,17 +89,22 @@ The structure outlined below describes what this will include, and how they will
 
 ### The grid
 
-The grid is developed using [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
-grid structures, along with the changing and resizing of grid items, in a deterministic, and cross-browser friendly way.
-
-The framework configuration must not tied directly to Gridstack in case we need to move to alternatives in future.
-Any grid configuration options to be abstracted to make it easier to migrate if required.
+We must have a grid system that supports a flexible column and row grid. This grid must support items (panels) that
+can be resized and repositioned.
 
 The grid itself will support 12 columns, with an unlimited number of rows. Each item (panel) within the grid, can be
 up to 12 columns in width. In other words, each row may contain between 1–12 panels. Each panel can span an unlimited
 number of rows, although realistically for UX and performance reasons, it would only be a few rows for any given panel.
+
 We will not be setting any limits at this time, so it is possible for someone using the framework to create a panel
-that doesn't fit its contents.
+that doesn't fit its contents. If this occurs, the panel will provide scrollbars for users to be able to see the content
+that doesn't fit.
+
+Our preferred choice for this grid is to use [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
+grid structures, along with the changing and resizing of grid items, in a deterministic, and cross-browser friendly way.
+
+The framework configuration must not tie directly to Gridstack in case we need to move to alternatives in future.
+Any grid configuration options to be abstracted to make it easier to migrate if required.
 
 ### Panels
 
