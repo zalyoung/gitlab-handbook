@@ -121,7 +121,7 @@ In GitLab Dedicated, [feature flags](https://docs.gitlab.com/subscriptions/gitla
 - notify the customer that we [don't keep tickets open](https://about.gitlab.com/support/general-policies/#we-dont-keep-tickets-open-even-if-the-underlying-issue-isnt-resolved) even if the underlying issue isn't resolved.
 - check whether the customer has any questions about the next steps.
 
-Support team members with questions can check in the [`#spt_pod_dedicated`](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) Slack channel for additional guidance.
+Support team members with questions can check in the [`#support_gitlab-dedicated`](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V) Slack channel for additional guidance.
 
 ### Feature proposals
 

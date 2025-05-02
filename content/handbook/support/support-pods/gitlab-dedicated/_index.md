@@ -30,7 +30,7 @@ Enable others within the Support Team to answer GitLab Dedicated tickets.
 
 ## Collaboration channels
 
-- Slack channel - `#spt_pod_dedicated`
+- Slack channel - `#support_gitlab-dedicated`
   - Slack group - `@spt-pod_dedicated`
 - Epic - https://gitlab.com/groups/gitlab-com/support/-/epics/145
 
