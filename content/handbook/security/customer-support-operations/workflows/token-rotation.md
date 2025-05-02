@@ -134,3 +134,21 @@ Due to being unable to edit the value of masked sections in webhooks, we have to
 1. Locate the webhook in question and copy all relevant information from it (the URL, what it triggers on, etc.)
 1. Delete the webhook in question
 1. Re-create the webhook using the revelant information and the new token
+
+
+## OAuth Integrations
+
+### Integrating a new OAuth Application into Zendesk
+
+Adding an OAuth integration requires Owner access to Zendesk.
+
+After an access request is approved: 
+
+1. Remove the Okta login requirement for the integration user
+2. Log in as the integration user
+3. Perform the OAuth flow as directed by the application.
+   - Verify the scopes requested are documented and approved in the access request. If they are not, STOP.
+4. Log out as the integration user
+5. Restore Okta login requirements for the integration user.
+
+You will likely get a message from the SIRTBot, point to the AR and explain the provisioning flow by linking here.
