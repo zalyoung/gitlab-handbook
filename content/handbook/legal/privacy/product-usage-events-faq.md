@@ -7,7 +7,7 @@ This page answers frequently asked questions about customer product usage [event
 **Important Notes:**
 
 - The information in this FAQ only pertains to event collection for **GitLab Self-Managed and Dedicated.**
-- When we refer to event collection in this FAQ, we are talking about product usage events for all features, excluding those related to GitLab Duo. For more information, see our Customer Product Usage Information [page](https://handbook.gitlab.com/handbook/legal/privacy/customer-product-usage-information/).
+- When we refer to event collection in this FAQ, we are talking about product usage events for all features, excluding those related to GitLab Duo. For more information, see our Customer Product Usage Information [page](/handbook/legal/privacy/customer-product-usage-information/).
 - This FAQ is intended to address additional questions that are not already covered in our [documentation](https://docs.gitlab.com/administration/settings/event_data). 
 For foundational details about event data collection, configuration steps, and privacy practices, please refer to the [documentation](https://docs.gitlab.com/administration/settings/event_data) and the related [blog post](https://about.gitlab.com/blog/2025/03/26/more-granular-product-usage-insights-for-gitlab-self-managed-and-dedicated/).
 
@@ -28,7 +28,7 @@ In GitLab 17.11, customers have the opportunity to disable data sharing proactiv
 
 ---
 
-### Q: Will event-level insights be shared only through a Customer Success Manager (CSMs), or also in the GitLab UI or portal? 
+### Q:Will event-level insights be shared only via CSMs, or also in the GitLab UI or portal?
 
 **A:** Once event collection begins, CSMs will have access to this data and can use it to provide tailored insights.  We do plan to surface this data back to our customers in the future. We’ll share more details and timelines as they become available.
 
