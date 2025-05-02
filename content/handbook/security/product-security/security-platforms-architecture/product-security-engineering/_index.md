@@ -133,6 +133,7 @@ Below is a step-by-step process for team members to walk through when refining b
     1. Peer reviewed and meeting development standards with a passing CI
     1. Passed any non-CI Acceptance Testing
     1. Merged & deployed to all applicable environments
+1. Performance and error monitoring is setup and verified as working where relevant
 1. Relevant documentation / diagrams produced and or updated
 1. Any inter-organizational communication has been completed
 
