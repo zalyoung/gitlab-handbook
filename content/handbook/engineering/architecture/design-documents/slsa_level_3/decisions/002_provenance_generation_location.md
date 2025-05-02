@@ -97,9 +97,9 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 - Additional infrastructure required.
 - Significant integration effort.
 
--**Blockers:**
+**Blockers:**
 
-No direct access to provenance metadata.
+- No direct access to provenance metadata.
 
 ## Decision
 
