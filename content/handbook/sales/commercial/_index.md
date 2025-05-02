@@ -670,6 +670,7 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 #### New Logo Team
 
 The New Logo Team is a specialized sales team within GitLab’s High Velocity Sales & New Logo organization focused on closing first-order deals in MM & ENT accounts.
+After the first transaction is closed by the New Logo team, the New Logo AEs are responsible to kickstart the handover process. Below are the responsibilities of the New Logo team and the Mid-Market Key Account Named team.
 
 **When to Pass an Account Mid-Market or Enterprise**
 New Logo AEs will own an account until an account becomes a paid customer. Once this happens, the account will graduate into their respective segment (SMB, MM, or ENT). 
@@ -680,7 +681,32 @@ New Logo AEs will own an account until an account becomes a paid customer. Once 
 
 Please refer to the [New Logo Team Playbook](/handbook/sales/commercial/high_velocity_sales_first_orders/#new-logo-team-playbook) for additional information about the role and responsibilities.
 
-### Process to Move Accounts From First Order to Named/Territory
+1. Ensure the opportunity is marked as 'Closed-Won'.
+1. Ensure the customer has a working license.
+1. Log an activity (naming convention: [NL AE NAME] NL Account Summary for Handoff)  on the account level detailing the following:
+    - Why the account chose GitLab (use case)
+    - The expected NetARR to be sold in the next 12 months
+    - Estimated timeframe of the next purchase
+    - Why you believe b and c to be the case
+1. Work with the Named or Territory AE, the CSM (if known), and the customer to set up a handoff call
+    - New Logo AE should take the lead on scheduling this call
+        - **Note** : Should the NL Rep and Named or Territory AE agree ahead of time that an email introduction will suffice, then the team can bypass the handoff call.
+1. If the initial amount AND the potential of the next opportunity are less than a combined NetARR of $10,000, or the inheriting AE agrees,a handoff email can be used.
+1. Ensure all material like custom decks are editable by everyone.
+1. For Web Directs without prior engagement :There will be no handover as the FO AE has not had any engagement.
+
+**Named/Territory AE Responsibilities**
+
+1. Work with the New Logo AE, CSM, and customer to schedule a handoff call (or email).
+    - The goal should be to have two-way communication with the customer within one week of the initial close.
+    - If an email is used, the Named or Territory AE should respond at their earliest convenience to introduce themselves as the new primary point of contact
+1. Look at the account activities for the activity logged by the FO AE.
+1. Based on the above notes, open a growth opportunity if scheduled before the first renewal date
+1. Read through all notes tagged (ii), the custom pitch deck, and the command plan to gain an understanding of the account and its potential.
+1. Engage the CSM on strategic accounts and get them engaged asap
+1. For Web Directs: It is the responsibility of the Named/Territory AE to reach out to the new customer.
+
+### Process to Move Accounts From Base to Named/Territory
 
 Please refer to the [Go-To-Market Rules of Engagement](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#salesforce-ownership--identifiers) page for additional information about account graduation for the New Logo Team.
 
