@@ -140,7 +140,7 @@ Table visualizations may contain keyset pagination, sorting, and internal search
 
 Visualizations should not be contextually aware, their only job is to render the data provided in the format outlined by
 its configuration and component structure. However, for simpler migration, it may be prudent to begin by copying existing visualization components
-into the dashboard structure. Although this would contain the data source or API information to begin with, a separate [data source](#data-sources)
+into the dashboard structure. Although this would contain the data source or API information to begin with, a separate data source
 could then be developed for a more integrated drop-in replacement.
 
 ### Filters
