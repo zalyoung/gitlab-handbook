@@ -94,10 +94,10 @@ You will receive an Okta activation email in your personal email. This is the fi
    - Click **Set up** again to confirm
    - On the **Create a passkey for gitlab.okta.com** pop-up, click **Continue**
 
-### Step 6: Access GitLab Email & Account
+### Step 6: Access GitLab Email & GitLab.com Account
 
 1. Access your GitLab email by clicking **G Suite SSO Mail** in Okta
-2. Check your GitLab email for an onboarding email
+2. Check your GitLab email for an email titled "**Welcome to GitLab Onboarding, `yourname`!**"
 3. Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
 
 ### Congratulations
@@ -106,20 +106,21 @@ You have completed the initial setup process for your GitLab account and MacBook
 
 ## Laptop Setup: Linux
 
-### Step 1: Activate Your Okta Account and Access Gmail
+### Step 1: Activate Your Okta Account
 
-1. On your mobile device, check your personal email for an Okta activation email.
-2. Click the link in the email to set your password.
-3. After setting your password, your browser will redirect to the Okta Dashboard.
+1. On a mobile device, check your personal email for an Okta activation email.
+2. Click the link in the email to set your password
+3. After setting your password, your browser will redirect to the Okta Dashboard
+4. You will receive a follow-up email from Okta with the subject **Security Method enrolled**
 
 ### Step 2: Okta Setup
 
 1. On your Linux laptop, download Google Chrome
-1. Open Google Chrome, and navigate to https://gitlab.okta.com
-1. Complete security verification:
+2. Open Google Chrome, and navigate to https://gitlab.okta.com
+3. Complete security verification:
    - Click "Verify it's you with a security method"
    - Select "Password" and click "Verify"
-1. Set up additional security methods:
+4. Set up additional security methods:
    - On the "Set up Security methods" screen, click "Set up" for "Security Key or Biometric authenticator"
    - Click "Set up" again to confirm
    - On the "Create a passkey for gitlab.okta.com" pop-up, click "Continue"
@@ -127,19 +128,19 @@ You have completed the initial setup process for your GitLab account and MacBook
 ### Step 3: Google Account Setup
 
 1. Access your GitLab email by clicking **G Suite SSO Mail** in Okta
-1. In the **Sign in to Chrome** window, click **Sign in**
-1. Enter your GitLab email address
-1. Sign in to Okta with your username and password
-1. Click **Agree** on the Google Workspace policy that appears
-1. On the **Verify it's you** screen, click **Continue**
-1. On the **Enhanced Ad Privacy in Chrome** notice, click **Got It**
-1. When you see **Your organization will manage this profile,** click **Continue**
-1. On the **Turn on Sync** window, click **Yes, I'm in**
+2. In the **Sign in to Chrome** window, click **Sign in**
+3. Enter your GitLab email address
+4. Sign in to Okta with your username and password
+5. Click **Agree** on the Google Workspace policy that appears
+6. On the **Verify it's you** screen, click **Continue**
+7. On the **Enhanced Ad Privacy in Chrome** notice, click **Got It**
+8. When you see **Your organization will manage this profile,** click **Continue**
+9. On the **Turn on Sync** window, click **Yes, I'm in**
 
-### Step 4: Access GitLab.com Account
+### Step 4: Access GitLab Email & GitLab.com Account
 
-1. Check your GitLab email for an onboarding email
-1. Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
+1. Check your GitLab email for an email titled "**Welcome to GitLab Onboarding, `yourname`!**"
+2. Follow the instructions in the email to set up your GitLab.com account and access your Onboarding Issue
 
 ## Need Help?
 
