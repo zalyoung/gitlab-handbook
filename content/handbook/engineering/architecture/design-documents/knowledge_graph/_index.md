@@ -445,11 +445,10 @@ Graph nodes will use existing monitoring, tracing and logging mechanisms to make
 sure that we can monitor these nodes and have enough data to investigate
 potential issues.
 
+Similar metrics as for Zoekt indexer/service would be a good starting point.
 Most important metrics will be: disk usage, memory usage, number of open DB
 connections, number of requests, average bootstrap speed, parsing time,
 replication time.
-
-Similar metrics as for Zoekt indexer/service would be a good starting point.
 
 ## Alternative Solutions
 
