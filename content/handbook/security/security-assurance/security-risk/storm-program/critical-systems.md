@@ -103,6 +103,10 @@ Tiering systems utilized across GitLab enables team members to make decisions on
 
 Critical System Tiers for existing systems are validated periodically. A system's designated tier can be found in the [tech_stack.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) which is the Single Source of Truth for all systems used at GitLab.
 
+## Exceptions
+
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
+
 ## References
 
 - [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)
