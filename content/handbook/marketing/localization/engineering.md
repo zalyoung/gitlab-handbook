@@ -29,7 +29,7 @@ The Localization team uses the following scope labels to categorize documentatio
 | ----------    | -----------|
 | [Documentation engineering work to be triaged](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Atriage&first_page_size=100)| `~"l10n-docs-engineering::triage"`   |
 | [Documentation engineering work required for launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Alaunch-required&first_page_size=100)| `~"l10n-docs-engineering::launch-required"` |
-| [Documentation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=l10n-docs-engineering%3A%3Apost-launch)| `~"l10n-docs-engineering::post-launch"`  |
+| [Documentation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=relative_position&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Apost-launch&first_page_size=100)| `~"l10n-docs-engineering::post-launch"`  |
 
 #### Iteration Board #9140637 
 
