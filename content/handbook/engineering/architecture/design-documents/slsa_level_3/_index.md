@@ -58,6 +58,8 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 1. KMS: Key Management Service, an external system to securely manage cryptographic keys.
 1. HSM: Hardware Security Module, hardware-based systems for secure key storage and signing.
 1. VSA: Verification Summary Attestation, an attestation that an artifact has been verified to meet certain requirements.
+1. Rails Trusted Control Plane (RTCP): The GitLab Rails backend that provides a trusted environment for security-critical operations, separate from the build environment.
+1. Signing Service Trusted Control Plane (SSTCP): A dedicated service within the GitLab infrastructure responsible for secure artifact signing operations, isolated from the CI/CD execution environment.
 
 ## Assumptions
 
@@ -85,6 +87,7 @@ flowchart TD
     classDef serviceStyle fill:#d5e8d4,stroke:#82b366,stroke-width:1px,rx:5px,ry:5px
     classDef signatureStyle fill:#fff2cc,stroke:#d6b656,stroke-width:1px,rx:5px,ry:5px
     classDef securityStyle fill:#f8cecc,stroke:#b85450,stroke-width:1px,rx:5px,ry:5px
+    classDef controlPlaneStyle fill:#e1d5e7,stroke:#9673a6,stroke-width:1px,rx:5px,ry:5px
     subgraph Phase1["Phase 1: In-Pipeline Provenance Generation"]
         CIConfig["GitLab CI Config<br>with SLSA Component"]
         BuildJob["CI/CD Build Job"]
@@ -96,10 +99,14 @@ flowchart TD
         VirtualRegistry["Virtual Registry<br>(Dependency Proxy)"]
         Dependencies[(Package & Container<br>Dependencies)]
     end
-    subgraph Phase2and3["Phase 2 and 3: Provenance genaration & Out-of-Pipeline Signing"]
-        RailsBackend["GitLab Rails Backend<br>(Control Plane)"]
-        DB[(GitLab Database)]
-        GlgoService["glgo Service<br>(Signing Service)"]
+    subgraph Phase2and3["Phase 2 and 3: Provenance Generation & Out-of-Pipeline Signing"]
+        subgraph RTCP["Rails Trusted Control Plane (RTCP)"]
+            RailsBackend["GitLab Rails Backend"]
+            DB[(GitLab Database)]
+        end
+        subgraph SSTCP["Signing Service Trusted Control Plane (SSTCP)"]
+            GlgoService["glgo Service<br>(Signing Service)"]
+        end
         Rekor["Transparency Log<br>(Rekor)"]
         PermanentAttestation["Permanent Signed<br>Attestation"]
     end
@@ -118,15 +125,15 @@ flowchart TD
     VirtualRegistry <-->|"3 Fetch/Track"| Dependencies
     
     %% Phase 1 flow for early implementation
-    VirtualRegistry -->|"4 Provide Dependency Data"| RailsBackend
+    VirtualRegistry -->|"4 Provide Dependency Data"| RTCP
     Artifacts -->|"5 Artifact Storage"| ProvenanceSigner
     ProvenanceSigner -->|"Store"| TempSignedAttestation
-    ProvenanceSigner -->|"6 Pass Artifact"| RailsBackend
-    HardenedRunner -->|"7 Provide Runner Identity"| RailsBackend
+    ProvenanceSigner -->|"6 Pass Artifact"| RTCP
+    HardenedRunner -->|"7 Provide Runner Identity"| RTCP
     RailsBackend <-->|"8 Query Metadata"| DB
     
-    RailsBackend -->|"9 Generate Provenance<br>Statement"| GlgoService
-    GlgoService -.->|"Future Integration"| ExternalKMS
+    RailsBackend -->|"9 Generate Provenance<br>Statement"| SSTCP
+    SSTCP -.->|"Future Integration"| ExternalKMS
     GlgoService -->|"10 Return Signed<br>Attestation"| RailsBackend
     GlgoService -->|"11 Publish Attestation<br>Digest"| Rekor
     RailsBackend -->|"12 Store"| PermanentAttestation
@@ -138,9 +145,10 @@ flowchart TD
     class Phase1,Phase2and3,Phase4,Phase5,FutureWork phaseStyle
     class CIConfig,BuildJob componentStyle
     class Artifacts,DB,Dependencies storageStyle
-    class VirtualRegistry,RailsBackend,GlgoService serviceStyle
+    class VirtualRegistry,GlgoService serviceStyle
     class ProvenanceSigner,TempSignedAttestation,PermanentAttestation,Rekor,ExternalKMS signatureStyle
     class HardenedRunner,TPM,RunnerAudit securityStyle
+    class RTCP,SSTCP,RailsBackend controlPlaneStyle
 ```
 
 ### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
