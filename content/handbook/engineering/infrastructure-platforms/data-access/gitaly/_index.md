@@ -49,7 +49,7 @@ from them first -- Support has better availability and can help in most common
 cases.
 
 If you still need help, please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with,
-and `@gitaly-oncall` to notify the Gitaly team member who is on
+and `@tier2-oncall-gitaly` to notify the Gitaly team member who is on
 call.
 
 #### On Call Rotation
@@ -81,7 +81,7 @@ The rotation is staffed during working hours of team members (no weekends). This
 - Refer to the [Responder Quick Start Guide](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/incident-io-onboard/oncall.md?ref_type=heads#responder-quick-start-guide) for a streamlined onboarding process.
 **Note : All escalations to the Gitaly team will be made via incident.io**
 - 15 minutes response time to a incident.io page while
-  on-call. This does not apply to pings to the `@gitaly-oncall` Slack handle,
+  on-call. This does not apply to pings to the `@tier2-oncall-gitaly` Slack handle,
   which should be used to inform the Gitaly on-call of relevant happenings, but
   should not be used for emergencies.
   - The on-call is expected to be _available and reachable_ (but not necessarily actively working, as long as you can start the investigation within this SLO.)
