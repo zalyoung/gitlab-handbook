@@ -22,8 +22,8 @@ This document outlines the technical vision, principles, and key architectural d
 We propose a phased implementation of SLSA Level 3 compliance across GitLab CI/CD pipelines using modular and reusable components. Each phase addresses a critical step:
 
 1. In-Pipeline Provenance Generation and Verification using Sigstore (Phase 1): Generate and verify provenance attestation within the pipeline.
-1. Generate Provenance Statement in Control Plane (Phase 2): Shift provenance generation from Runner to GitLab control plane to enhance trust.
-1. Out-of-Pipeline Signing (Phase 3): Move signing operations to GitLab control plane for better security.
+1. Generate Provenance Statement in Control Plane (Phase 2): Shift provenance generation from Runner to GitLab Rails backend to enhance trust.
+1. Sign Provenance Statement in Control Plane (Phase 3): Move signing operations to dedicated service for better security.
 1. KMS Integration for Out-of-Pipeline Signing (Phase 4): Enable external, KMS-based artifact signing for enhanced security and compliance.
 1. Hardening Pipeline Identity (Phase 5): Strengthen runner identity and build trust into the infrastructure.
 
