@@ -72,8 +72,6 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 1. Runner Hardening: Explore options for strong runner identity using hardware-based solutions (e.g., TPM, secure enclaves).
 1. Focus Ecosystems: Prioritize containers, Go, and Maven ecosystems in early phases.
 
-## Decisions
-
 ## Design Details
 
 ### High Level Architecture
