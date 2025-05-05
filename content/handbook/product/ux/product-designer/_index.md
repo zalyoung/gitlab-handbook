@@ -185,38 +185,28 @@ Design critiques are dedicated sessions where Product Designers exchange rigorou
 
 We prioritize a balanced approach to design critiques that practices benevolent, [radical candor](https://www.radicalcandor.com/blog/what-is-radical-candor/) and cares personally, but challenges directly. Here's how to conduct an effective critique:
 
-1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work
-1. **Provide thorough context**: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged
+1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work.
+1. **Provide thorough context**: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged.
 1. **Structure the critique session**:
-    1. Begin by presenting work without excessive explanation (5 min)
-    1. Allow participants to ask clarifying questions (3 min)
-    1. Receive feedback using the "I like/I wish/What if" framework (15 min)
-      - **I like...** - Start by highlighting effective elements of the design
-        - _Example:_ "I like how the hierarchy clearly prioritizes the primary action, making the user flow intuitive."
-      - **I wish...** - Express constructive suggestions for improvement
-        - _Example:_ "I wish the error states were more distinctive to help users quickly identify problems."
-      - **What if...** - Propose alternative approaches or exploratory ideas
-        - _Example:_ "What if we used progressive disclosure to handle the complexity rather than showing all options at once?"
-      - Be specific and tie your comments to user needs, business goals, or design principles wherever possible.
-    1. Summarize key takeaways and next steps (2 min)
-1. **Participate effectively**: When giving critique to others:
-    1. Focus on the work, not the person ("This border element..." not "Your design")
-    1. Be specific and reference particular elements ("The hierarchy in this section...") not "It feels off"
-    1. Connect feedback to user needs or business goals
-    1. Frame concerns using the "I like/I wish/What if" framework mentioned above
+   1. Begin by presenting work without excessive explanation.
+   1. Allow participants to ask clarifying questions.
+   1. Summarize key takeaways and next steps.
+1. **Participate effectively**:
+   1. Be curious by asking questions like "have you…," "how does this…," and "why is this…" to help you understand the design decisions and solutions.
+   1. Provide specific and detailed comments that help encourage, challenge, and unblock the presenter.
+   1. Connect feedback to user needs and business goals instead of personal preference.
 1. **Receive critique productively**:
-    1. Listen openly before responding
-    1. Take detailed notes
-    1. Ask clarifying questions when needed
-    1. Thank participants for specific, challenging feedback
+   1. Listen openly before responding.
+   1. Take detailed notes and ask clarifying questions when needed.
+   1. Thank participants for specific, challenging feedback.
 1. **Document and follow up**:
-    1. Capture key critique points in the relevant issue or epic
-    1. Share how the critique influenced your design decisions in subsequent iterations
-    1. Acknowledge team members whose critique led to meaningful improvements
+   1. Capture key critique points in the relevant issue or epic.
+   1. Share how the critique influenced your design decisions in subsequent iterations.
+   1. Acknowledge team members whose critique led to meaningful improvements.
 
 ### Setting the right mindset
 
-To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to reference the the code of conduct and verbalize the mantra before beginning.
+To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to reference the code of conduct and verbalize the mantra before beginning.
 
 #### Code of conduct
 
