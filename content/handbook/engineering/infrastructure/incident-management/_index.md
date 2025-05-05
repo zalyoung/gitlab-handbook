@@ -126,7 +126,7 @@ When paged, the Incident Managers have the following responsibilities during a S
     2. In the case of a large scale outage where there is a serious disruption of service, the Incident Manager should check in with Infrastructure Leadership whether a senior member should be brought into the incident to coordinate and manage recovery efforts. This is to ensure that the person in charge of coordinating multiple parallel recovery efforts has a deeper understanding of what is required to bring services back online.
 1. Consider engaging the release-management team if a code change related issue is identified as a potential cause and we need to explore rollbacks or expedited deployment. This can be done by using their slack handle `release-managers`
 1. Responsible for posting regular status updates using the `/incident update` in the incident Slack channel. These updates should summarize the current customer impact of the incident and actions we are taking to mitigate the incident. This is the most important section of the incident timeline. It will be referenced to status page updates and should provide a summary of the incident and impact that can be understood by the wider community.
-1. Ensure that the incident issue has all of the [required labels](#required-labeling) applied. If not set them using `/incident field` command from the incident slack channel
+1. Ensure that the incident issue has all of the required fields applied. If not set them using `/incident field` command from the incident slack channel
 1. Ensure that the incident issue is appropriately restricted based on [data classification](#incident-data-classification), to mark the issue as confidential use `/incident field` and set the `Keep GitLab Issue Confidential` to `true`
 1. If present, ensure that the `Summary for CMOC notice / Exec summary` is filled , use the `/incident summary` to do so
 1. Ensure that necessary public communications are made accurately and in a timely fashion by the [Communications Manager](#communications-manager-on-call-cmoc-responsibilities). Be mindful that, due to the directive to [err on the side of declaring incidents early and often](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack), we should first confirm customer impact with the Engineer On Call prior to approving customer status updates.
@@ -577,7 +577,7 @@ If assistance is required follow the [Infrastructure Liaison Escalation process]
 
 ### Summary
 
-The entire incident lifecycle is managed through incident.io.  All `S1` and `S2` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#review-criteria).
+The entire incident lifecycle is managed through incident.io. All `S1` and `S2` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#the-criteria-which-triggers-a-review).
 
 Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and resolved when the degradation has ended and will not likely re-occur.
 
