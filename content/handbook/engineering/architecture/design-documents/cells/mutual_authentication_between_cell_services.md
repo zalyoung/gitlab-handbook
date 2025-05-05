@@ -34,7 +34,7 @@ This document focuses specifically on implementing mutual TLS (mTLS) authenticat
 
 - Implementation of a service mesh (e.g., Istio) for encrypting traffic via mTLS is out of scope for the following reasons:
   - We already leverage TLS inside a cell using [Internal TLS](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/internal_tls.html), so extending this existing blueprint to support external services is more consistent with our architecture.
-  - While service mesh provides a transparent way for application developers to implement mTLS with external services, this approach introduces security risks. If a vulnerability exists, attackers could exploit it to use the client as a proxy to send unauthorized requests to the mTLS server.
+  - While service mesh provides a transparent way for application developers to implement mTLS with external services, this approach introduces security risks. If a vulnerability exists, attackers could exploit it to use the client as a proxy to send unauthorized requests to the mTLS server. The fundamental issue is that service meshes authorize communications based solely on service identity rather than validating the legitimacy of individual requests within those services.
 - While mTLS is used to secure communications between CDNs/load balancers and their backends, as well as between internal services, this scope explicitly excludes:
   - Communication from external clients to GitLab services.
   - Communication between services inside a cell and those outside a cell.
@@ -111,6 +111,190 @@ The diagram below illustrates the complete request flow between a Pod in a Cell 
 [`source`](https://lucid.app/lucidchart/d2aff2f6-639b-44f2-a06b-6fbed225d254/edit?viewport_loc=-290%2C-378%2C5311%2C2450%2C0_0&invitationId=inv_21038e17-917c-40a7-a423-c563ee0db347)
 
 For detailed implementation examples and proof-of-concept documentation of this architecture, refer to: https://gitlab.com/gitlab-org/gitlab/-/issues/468640.
+
+### Authentication and Authorization with mTLS
+
+#### Authentication
+
+mTLS authentication in our Cell services architecture works through explicit certificate loading and connection setup rather than transparent proxying:
+
+- **Certificate Loading**: Each service explicitly loads its client certificate and private key from the filesystem. This is done in trusted code paths, as shown in the [mTLS POC client code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/client/main.go#L30).
+- **Connection Establishment**: The service explicitly adds the TLS credentials to outgoing requests, as demonstrated in the [request creation code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/client/main.go#L124).
+- **Certificate Validation**: The GCP Loadbalancer validates the client's certificate against the trusted CA, ensuring only services with valid certificates can connect.
+
+Example of loading and using TLS credentials in a Go client:
+
+```go
+tlsCredentials, err := loadTLSCredentials()
+if err != nil {
+    log.Fatalf("Failed to load TLS credentials: %v", err)
+}
+
+// Create a connection with the TLS credentials
+conn, err := grpc.Dial(serverAddr, grpc.WithTransportCredentials(tlsCredentials))
+
+...
+// loadTLSCredentials loads TLS credentials from file paths provided in environment variables
+func loadTLSCredentials() (credentials.TransportCredentials, error) {
+    // Get paths to TLS files from environment variables
+    serverCACertPath := os.Getenv("SERVER_CA_CERT")
+    if serverCACertPath == "" {
+        return nil, fmt.Errorf("SERVER_CA_CERT environment variable is not set")
+    }
+
+    clientCertPath := os.Getenv("MTLS_CERT_CHAIN")
+    if clientCertPath == "" {
+        return nil, fmt.Errorf("MTLS_CERT_CHAIN environment variable is not set")
+    }
+
+    clientKeyPath := os.Getenv("MTLS_KEY")
+    if clientKeyPath == "" {
+        return nil, fmt.Errorf("MTLS_KEY environment variable is not set")
+    }
+
+    // Load server CA certificate
+    serverCACertBytes, err := ioutil.ReadFile(serverCACertPath)
+    if err != nil {
+        return nil, fmt.Errorf("failed to read server CA certificate file: %v", err)
+    }
+
+    certPool := x509.NewCertPool()
+    if !certPool.AppendCertsFromPEM(serverCACertBytes) {
+        return nil, fmt.Errorf("failed to add server CA's certificate to pool")
+    }
+
+    // Load client certificate and key
+    clientCert, err := tls.LoadX509KeyPair(clientCertPath, clientKeyPath)
+    if err != nil {
+        return nil, fmt.Errorf("failed to load client certificate and key: %v", err)
+    }
+
+    // Create the credentials and return it
+    config := &tls.Config{
+        Certificates: []tls.Certificate{clientCert},
+        RootCAs:      certPool,
+    }
+
+    return credentials.NewTLS(config), nil
+}
+```
+
+Source: [mTLS POC client code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/client/main.go#L30)
+
+#### Authorization
+
+Authorization in our mTLS implementation occurs after successful authentication and relies on client identity information:
+
+- **Certificate-Based Identity**: After authenticating the client connection, the server extracts identity information from the client's certificate for authorization decisions.
+- **GCP LoadBalancer Headers**: We leverage [custom mTLS headers](https://cloud.google.com/load-balancing/docs/mtls#custom-mtls-headers) passed by GCP LoadBalancer to the backend service, which contain pre-extracted certificate information.
+- **Header Processing**: The server extracts these headers from incoming requests to determine the client's identity and permissions without needing to re-parse the certificate.
+- **Access Control Enforcement**: Based on the extracted identity (typically the Common Name), the server determines whether the client is authorized to access the requested resource.
+
+Example of extracting and using certificate information for authorization in a gRPC server:
+
+```go
+md, ok := metadata.FromIncomingContext(ctx)
+if !ok {
+    return nil, status.Error(codes.Internal, "failed to get metadata")
+}
+
+// Get the value of X-Client-Cert-Subject-Dn
+// Header keys in gRPC metadata are lowercase
+clientCertDNs := md.Get("x-client-cert-subject-dn")
+
+var cellName string
+if len(clientCertDNs) > 0 {
+    // Call the function to extract common name
+    commonName, err := extractCommonNameFromSubjectDN(clientCertDNs[0])
+```
+
+Function to extract the Common Name from the Subject DN:
+
+```go
+func extractCommonNameFromSubjectDN(base64SubjectDN string) (string, error) {
+    // Decode base64
+    derBytes, err := base64.StdEncoding.DecodeString(base64SubjectDN)
+    if err != nil {
+        return "", fmt.Errorf("failed to decode base64: %w", err)
+    }
+
+    // Parse the DER-encoded subject DN
+    var rdnSequence pkix.RDNSequence
+    _, err = asn1.Unmarshal(derBytes, &rdnSequence)
+    if err != nil {
+        return "", fmt.Errorf("failed to parse ASN.1 DER encoding: %w", err)
+    }
+
+    // Convert to a Name
+    var subject pkix.Name
+    subject.FillFromRDNSequence(&rdnSequence)
+
+    // Return the common name
+    return subject.CommonName, nil
+}
+```
+
+Source: [mTLS Server Code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/server/main.go#L31)
+
+#### Security Considerations
+
+- If an attacker gains Remote Code Execution (RCE) on a pod, they could access certificates and keys stored on the filesystem. This is an inherent limitation, as RCE generally compromises all security boundaries within the pod.
+- The design focuses on preventing unauthorized service-to-service communication in scenarios where an attacker has limited access to manipulate network requests but not full system access.
+- Certificate rotation and proper secret management help mitigate risks associated with potential certificate compromise.
+
+### DNS Resolution for mTLS Server Communication
+
+For mTLS to function correctly, clients must reach the server using the DNS name present in the server certificate's Subject Alternative Name (SAN) field. In our Cell architecture with Private Service Connect (PSC), this presents a unique challenge as each Cell may have a different IP address for the same service.
+
+#### Implementation Details
+
+To ensure consistent DNS resolution across all Cells while maintaining proper certificate validation, we will implement the following approach:
+
+````mermaid
+graph TD
+    A[Client in Cell] --> B[KubeDNS]
+    B --> C[CloudDNS Private Zone]
+    C --> D[Cell-specific PSC IP]
+    D --> E[Internal Load Balancer]
+    E --> F[Server Service]
+````
+
+1. **Private CloudDNS Zone per Cell**:
+   - Each Cell project will have its own CloudDNS Private Zone
+   - This zone will contain the same DNS name (e.g., `topology-service.gitlab.net`) for all Cells
+   - Each zone will resolve to the Cell-specific Private Service Connect IP
+
+2. **DNS Resolution Flow**:
+   - Client services use the standard DNS name in their requests
+   - KubeDNS forwards the request to CloudDNS Private Zone
+   - CloudDNS resolves the name to the Cell's specific PSC endpoint IP
+   - The request reaches the correct service through the PSC endpoint
+
+3. **Certificate Validation**:
+   - The server certificate's SAN includes the standard DNS name
+   - Clients validate the certificate against this name, ensuring proper mTLS authentication
+
+#### Advantages
+
+- **Consistent Naming**: All Cells use the same DNS name to access services, simplifying configuration
+- **Certificate Compatibility**: The DNS name matches the certificate's SAN, enabling proper mTLS validation
+- **Isolation**: Each Cell maintains its own DNS resolution to its specific PSC endpoint
+- **Proven Solution**: This approach is already implemented and tested in our Production environment for Vault services
+- **Infrastructure as Code**: All DNS configurations are managed through Terraform
+
+#### Implementation Reference
+
+This implementation leverages our existing infrastructure patterns:
+
+1. **Service Exposure**: The internal Load Balancer is exposed through PSC via serviceAttachment
+2. **Access Control**: Projects are dynamically configured to connect to the service
+3. **DNS Configuration**: Private CloudDNS zones are created in each consumer project
+
+This approach works seamlessly with KubeDNS as the DNS provider for the cluster without requiring additional permissions or switching to CloudDNS as the cluster's DNS provider. This solution is already implemented and running in our Production environment for Vault services, with the following reference configurations:
+
+- [Service Exposure via PSC serviceAttachment](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/ops/private-service-connect.tf#L9)
+- [Project Authorization for service access](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/ops/private-service-connect.tf#L22)
+- [DNS Zone Configuration in consumer projects](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/gitlab-analysis/private_service_connect.tf#L54)
 
 ## Supported clients & servers
 
