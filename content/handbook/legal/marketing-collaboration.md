@@ -40,18 +40,19 @@ Complete all of the questions in each of the following sections of the Legal Tem
 
 - **Participant Information**
 
-- **After the Promotional Game**:
-- **Question 2: Use of Personal Data:** You must articulate what you will do with personal data you collect through the promotional game so Legal can help you ensure that communication and/or consent is handled properly.
+- **After the Promotional Game**: Note the following:
+  
+  - **Question 2: Use of Personal Data:** You must articulate what you will do with personal data you collect through the promotional game so Legal can help you ensure that communication and/or consent is handled properly.
 
 - **Prizes**: A few notes regarding prizes:
 
-- **Prize Descriptions and Depictions.** Please provide as much information as possible regarding the prize(s) that will be awarded including, for example, the number of prizes, size(s) available, color(s), technical specifications, etc. The rules must clearly describe the prize(s) so that the prize is not subject to interpretation or create confusion.  The brand name of a prize can be used in the description. If an image of the actual prize will be used, it shouldn't be so prominent that it looks like the prize manufacturer is sponsoring the promotion.
+  - **Prize Descriptions and Depictions.** Please provide as much information as possible regarding the prize(s) that will be awarded including, for example, the number of prizes, size(s) available, color(s), technical specifications, etc. The rules must clearly describe the prize(s) so that the prize is not subject to interpretation or create confusion.  The brand name of a prize can be used in the description. If an image of the actual prize will be used, it shouldn't be so prominent that it looks like the prize manufacturer is sponsoring the promotion.
 
-- **Prize Values.** Local law often hinges on the value of the prizes, so it is necessary to know what prizes and how many prizes will be awarded prior to creating rules. Legal may request a change in prizes if the value amount is over a cer- **Pritain threshold and adds significant Legal requirements to the event. This will vary from country to country and sometimes from state to state.  As a rule, prize values should not exceed US$599.00, to avoid U.S. tax form requirements, and the total value of all prizes in a promotion should not exceed US$4,999.00, to avoid registration and bonding requirements in certain U.S. states.
+  - **Prize Values.** Local law often hinges on the value of the prizes, so it is necessary to know what prizes and how many prizes will be awarded prior to creating rules. Legal may request a change in prizes if the value amount is over a cer- **Pritain threshold and adds significant Legal requirements to the event. This will vary from country to country and sometimes from state to state.  As a rule, prize values should not exceed US$599.00, to avoid U.S. tax form requirements, and the total value of all prizes in a promotion should not exceed US$4,999.00, to avoid registration and bonding requirements in certain U.S. states.
 
-- **Awarding Prizes.** The method and criteria for winning a prize must be detailed, as this will affect what the rules will include. For example, in a game of chance/sweepstakes, winners are selected through a random drawing. In a contest/game of skill, winners are selected through criteria on which they are judged.
+  - **Awarding Prizes.** The method and criteria for winning a prize must be detailed, as this will affect what the rules will include. For example, in a game of chance/sweepstakes, winners are selected through a random drawing. In a contest/game of skill, winners are selected through criteria on which they are judged.
 
-- **Winner List.** You must make a winner list available (public URL or via email request), as this is a requirement in nearly every jurisdiction. We take privacy seriously, so we will post first initials and last names where allowed by law.
+  - **Winner List.** You must make a winner list available (public URL or via email request), as this is a requirement in nearly every jurisdiction. We take privacy seriously, so we will post first initials and last names where allowed by law.
 
 - **Declaration of Eligibility and Release:** This declaration, also known as an Affidavit, is a written statement signed by the winner, which is used to confirm the winner's identity and eligibility including the name, age and address, in order to win a prize as per the Official Rules. The Declaration also includes a publicity release which gives the Sponsor the right to use the winner's name and likeness for advertising or publicity purposes in perpetuity, where permitted by law (not allowed in Tennessee, USA).
 
