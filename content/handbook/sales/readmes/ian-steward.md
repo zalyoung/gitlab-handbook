@@ -1,5 +1,5 @@
 ---
-title: "Ian Steward - CRO"
+title: "Ian Steward's README- CRO"
 description: Learn more about working with Ian Steward, Chief Revenue Officer at GitLab.
 job: "CRO"
 ---
@@ -35,7 +35,7 @@ My goal is to create an environment where great ideas rise, people grow, and res
 
 ## My Superpowers
 
-1. **Action** – I’m maniacally focused on execution. Those who work closely with me will often hear me ask:
+* **Action** – I’m maniacally focused on execution. Those who work closely with me will often hear me ask:
 
    > “But did the field adopt it?” 
    > “Is it actually improving productivity?”
@@ -44,9 +44,9 @@ My goal is to create an environment where great ideas rise, people grow, and res
 
   I inherently believe that businesses overindex on strategy and underindex on execution – and the ability to execute creates a massive competitive advantage!
 
-1. **Boldness** – I think and dream big – and believe truly audacious goals can be accomplished. The ability to do something starts with the belief that it can be done.
+* **Boldness** – I think and dream big – and believe truly audacious goals can be accomplished. The ability to do something starts with the belief that it can be done.
 
-1. **Grit** – I’ve learned that I’m very resilient, and most people are more resilient than they may actually believe. If you can learn to find comfort in discomfort, you’ll continue to make progress even in the face of major challenges. 
+* **Grit** – I’ve learned that I’m very resilient, and most people are more resilient than they may actually believe. If you can learn to find comfort in discomfort, you’ll continue to make progress even in the face of major challenges. 
 
 ## My Weaknesses
 
