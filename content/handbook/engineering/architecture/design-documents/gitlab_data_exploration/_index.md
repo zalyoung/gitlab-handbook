@@ -138,9 +138,9 @@ Each of these sources has evolved independently, resulting in different query re
 
 Users currently need to employ different query approaches depending on the data source:
 
-- SQL dialects differ between PostgreSQL and ClickHouse
 - GraphQL has its own query structure
 - REST APIs use various parameter-based filtering mechanisms
+- PostgreSQL and ClickHouse databases can be queried by the end-user only via the GraphQL and REST APIs
 - Filters and operators vary across endpoints even within the same API type
 
 This inconsistency creates a steep learning curve for users who need to access data across multiple sources and requires specialized knowledge of each system's querying capabilities.
