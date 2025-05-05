@@ -276,9 +276,9 @@ Following GLQL's Extensibility [guidelines](https://handbook.gitlab.com/handbook
 - Create new Analyzers to validate object-specific query semantics
 - Extend or create new Presenters if unique display formats are required
 
-Our proposed approach includes:
+The proposed approach includes:
 
-1. **Type-based routing** - Extend the `type` field to include more data sources, and pivot on it to determine which data source to query:
+1. **Type-based data source and output routing** - Extend the `type` field to include more data sources, and pivot on it to determine which data source to query and output to produce:
 
 ```
 project = "team-project" AND type = MergeRequest AND state = opened
@@ -321,9 +321,9 @@ Extending GLQL in this way could also enable easy exporting and sharing of dashb
 
 #### Moving GLQL to the backend
 
-A critical architectural change we propose is moving GLQL execution from the frontend to the backend, creating a single API to query any GitLab data with a consistent query and filter language. 
+A critical architectural change is moving GLQL execution from the frontend to the backend, creating a single API to query any GitLab data with a consistent query and filter language. 
 
-The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be used to query data directly through Rails finders, databases, or other APIs. This would allow us to strip out GraphQL from the GLQL pipeline and retrieve the data directly from different datasources.
+The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be used to query data directly through Rails finders, databases, or other APIs. This would allow us to strip out GraphQL from the GLQL compiler pipeline and retrieve the data directly from different datasources.
 
 1. **Technical advantages**:
    - A single entry point for querying GitLab data, with centralized access control and consistent querying interface
@@ -335,14 +335,17 @@ The GLQL Rust compiler could compile GLQL queries directly to appropriate format
    - Ability to implement caching at the appropriate level
    - Ability to optimize queries at the backend level
 
-In addition, having the GLQL Rust compiler also allows the same parser to be used in both frontend and backend contexts:
+In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
 
 - Backend: Full query execution against data sources
 - Frontend: Syntax checking and immediate feedback without query execution
 
 This is also inline with `~devops::plan` future plans: [https://gitlab.com/groups/gitlab-org/-/epics/15834](https://gitlab.com/groups/gitlab-org/-/epics/15834), thus opening up opportunities for collaboration.
 
+Being able to share the Rust compiler between frontend and backend also allows us to  parallelise the work to add type-based data source routing and moving the GLQL pipeline to the backend.
+
 This standardized query system, built on an extended GLQL architecture and moved to the backend, will provide the foundation for a powerful, consistent data exploration experience across all GitLab data sources.
+
 
 ### A unified data exploration UI
 
@@ -352,8 +355,8 @@ The interface will include the following main building blocks:
 
 1. **Query Construction Area**
 
-   - Toggle between code-based GLQL editor and visual query building
-   - Syntax highlighting, autocompletion, and error detection for GLQL
+   - Toggle between text-based GLQL editor and visual query building
+   - Syntax highlighting, autocompletion, and error detection for GLQL query editor
    - Visual query builder with intuitive components for non-technical users
    - Schema browser showing available fields and data types
    - Query templates and saved queries library
@@ -363,8 +366,9 @@ The interface will include the following main building blocks:
 
    - Tabular view for raw data exploration
    - Visualization canvas for charts and graphs
-   - Preview of query results while building
+   - Preview of query results while building the query
    - Pagination controls for large result sets
+   - AI-assisted results interpretation
 
 3. **Visualization Controls**
 
@@ -385,6 +389,8 @@ The interface will include the following main building blocks:
    - Documentation and help resources
 
 This unified interface will integrate seamlessly with the standardized query system, leveraging GLQL's capabilities while presenting them in an accessible way to all users regardless of their technical expertise.
+
+Whilst the above are the main building block that we think are necessary to build  the data exploration interface, a proper UX research will be required to turn this into a proper design.
 
 <!--
 ## Design and implementation details
