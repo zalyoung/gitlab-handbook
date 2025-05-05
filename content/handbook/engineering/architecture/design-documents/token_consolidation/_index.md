@@ -6,7 +6,7 @@ title: Token Consolidation
 status: proposed
 creation-date: "2025-02-23"
 authors: [ "@ifarkas" ]
-coaches: [ "@username" ]
+coaches: [ "@grzesiek" ]
 dris: [ "@hsutor", "@adil.farrukh" ]
 owning-stage: "~devops::software_supply_chain_security"
 participating-stages: []
@@ -18,7 +18,7 @@ toc_hide: true
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -64,14 +64,16 @@ complexity, making it difficult to enforce uniform security standards across the
 organization.
 
 Maintaining a large number of token types significantly increases the long-term
-maintenance burden. When security updates or new features are required, each
-token type must be individually modified, tested, and maintained — resulting in
-ongoing maintenance challenges that slow down development and increase the risk
-of inconsistencies, security gaps, and potential vulnerabilities.
+maintenance burden.
+When security updates or new features are required, each token type must be
+individually modified, tested, and maintained — resulting in ongoing maintenance
+challenges that slow down development and increase the risk of inconsistencies,
+security gaps, and potential vulnerabilities.
 
 ### Goals
 
-- Establish unified token as the foundational building block for all token types
+- Establish unified token(s) as the foundational building block for all token
+  types
 - Standardize authentication and authorization model around tokens
 - Enhance security by enabling consistent features across all token types
 - Improve maintainability by eliminating redundant token implementations
@@ -83,12 +85,166 @@ of inconsistencies, security gaps, and potential vulnerabilities.
 
 ## Proposal
 
-To standardize and simplify token management, a unified token will be introduced
-as the foundation for all token types, supporting their respective features
-while ensuring security, flexibility, and compatibility with existing
-functionality.
+To move forward, we need to make decisions in 3 critical, interconnected areas:
 
-### Unified token
+- where token metadata is stored
+- how token metadata is encoded and structured
+- what interface provides access to token-related functionality
+
+Each decision will be documented as a separate ADR.
+
+It's important to acknowledge that a single unified token may not be practical
+across all systems:
+
+- STS might issue an JWT, while `gitlab-rails` might consolidate aroound the
+  existing, random string-based tokens.
+- Different token purposes may require different formats: an ID token might
+  require a different schema than an access token with fine-grained scopes.
+- Encoding fine-grained scopes in a JWT might push the token size above the
+  limits that are acceptable for request headers or parameters.
+
+### Storage
+
+Defines where token metadata is stored:
+
+#### Single consolidated table
+
+Pros:
+
+- unified schema simplifies token management
+- single source of truth for all tokens
+- standardized implementation of token-related features
+
+Cons:
+
+- potential database performance concerns with a very large table
+- complex migration for existing tokens
+
+#### Multiple tables
+
+Pros:
+
+- smaller, easier-to-manage tables
+- independent schema evolution for each token type
+- reduced impact of table-level operations
+- easier to implement features specific to a single token type
+
+Cons:
+
+- easier to implement features specific to a single token type as it's easier to
+  diverge from the consolidation goal
+- possibility of independent schema evolution for each token type
+- inconsistent implementations of token-related features
+- duplicate implementations of features
+- increased maintenance overhead
+- harder to enforce standards
+
+#### No storage (JWT-based)
+
+Pros:
+
+- eliminates database storage requirements
+- self-contained authentication and authorization mechanism
+- potential performance gains
+
+Cons:
+
+- incompatible with many existing features
+- limited revocation capabilities
+- long-lived tokens pose security risks
+- token size may exceed request header limits
+- no ability to track token usage
+
+### Token format
+
+Defines how token metadata is encoded and structured:
+
+#### Random string
+
+Example: PAT - 20-byte random string with metadata (like scopes) stored in the database.
+
+Pros:
+
+- small token size
+- opaque to users (no readable metadata)
+
+Cons:
+
+- database lookup required
+- no built-in mechanism for routing, or authorization (like fine-grained scopes)
+- size could still be significant. Routable tokens increases the size to a
+  maximum of 333 bytes (plus prefix)
+- relies on secrecy for security
+
+#### JWT (signed)
+
+Pros:
+
+- built-in support for claims and other metadata
+- digital signature ensure authenticity
+- self-contained authentication and authorization data
+
+Cons:
+
+- readable metadata might not be desirable in all use-cases
+- larger token size. It might not fit within the request header limits
+- revocation requires additional infrastructure
+
+#### Unsigned JWT
+
+Pros:
+
+- maintains all the flexibility of JWT
+- lower computational overhead
+- slightly smaller token size compared to signed JWT
+
+Cons:
+
+- token size could still be problematic for request header limits
+- susceptible to tampering
+- long-lived tokens could be a security concern
+- relies on secrecy for security
+
+### Code abstraction
+
+Defines an interface for accessing token-related functionality:
+
+#### Modular monolith
+
+Pros:
+
+- aligns with our current architectural approach
+- familiar to engineers
+- easier implementation in the short term
+- lower implementation overhead
+- fully integrated with `gitlab-rails`
+
+Cons:
+
+- more difficult to enforce strict service boundaries
+- potential for tight coupling
+
+#### Separate service with gRPC interface
+
+Pros:
+
+- accelerates evolution toward having token service as a separate service
+- service boundaries are enforced
+
+Cons:
+
+- overhead of creating a new service and integrating it into our infrastructure
+  and delivery pipelines
+- additional infrastructure requirements
+- latency caused by network overhead
+
+## Alternative Solutions
+
+- Do nothing
+  - Pros: requires no effort
+  - Cons: existing issues remain unresolved
+
+### Single, JWT-based unified token
 
 The unified token will be a JWT-based token, similar to low-privilege CI job
 token, with:
@@ -157,9 +313,3 @@ As user workflows transition to the unified token model, original tokens and
 legacy token flows can be deprecated and removed from the UI.
 This phased approach will minimize disruption while ensuring seamless transition
 to the new token framework.
-
-## Alternative Solutions
-
-- Do nothing
-  - Pros: requires no effort
-  - Cons: existing issues remain unresolved
