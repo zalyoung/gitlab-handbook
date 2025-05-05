@@ -196,6 +196,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Product Accessibility](/handbook/company/working-groups/product-accessibility/)
 1. [Secure Govern Database Decomposition](/handbook/company/working-groups/secure-govern-database-decomposition/)
 1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
+1. [User journey map](/handbook/company/working-groups/user-journey-map/)
 
 ## Past Working Groups (alphabetic order)
 
