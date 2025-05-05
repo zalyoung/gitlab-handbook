@@ -28,9 +28,9 @@ This working group aims to:
 
 - Define key terminology including: User journey, golden journey, journey map, and journey hierarchy/fidelity `=> 0%`
 - Develop guidelines for various levels of journey hierarchy (macro, mid, micro) `=> 0%`
-    - Develop processes for identifying connection points between team-level journeys `=> 0%`
-    - Create guidance for how different teams can contribute to shared journeys `=> 0%`
-    - Define how micro-level journeys connect to and support mid/macro-level journeys/golden journeys `=> 0%`
+  - Develop processes for identifying connection points between team-level journeys `=> 0%`
+  - Create guidance for how different teams can contribute to shared journeys `=> 0%`
+  - Define how micro-level journeys connect to and support mid/macro-level journeys/golden journeys `=> 0%`
 - Establish templates, methodologies, and best practices for journey documentation `=> 0%`
 - Create a centralized system for storing, accessing, and connecting journey maps `=> 0%`
 - Establish communication channels for journey insights and discoveries `=> 0%`
