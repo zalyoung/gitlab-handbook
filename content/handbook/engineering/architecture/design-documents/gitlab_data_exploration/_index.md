@@ -252,7 +252,7 @@ The solution consists of two main components:
 
 ### A Standardised And Simplified Query System
 
-At the core of our solution is a standardized query system that builds upon the existing GitLab Query Language (GLQL), extending it to work with all GitLab data sources. This approach provides several benefits:
+At the core of our solution is a standardized query system that builds upon the existing [GitLab Query Language (GLQL)](https://docs.gitlab.com/user/glql/), extending it to work with all GitLab data sources. This approach provides several benefits:
 
 - **Reduce cognitive load** - Users will learn one query system instead of multiple query languages and methods, improving productivity and adoption
 - **Enable cross-source queries** - Data from different sources can be combined in meaningful ways
