@@ -134,6 +134,8 @@ GitLab data resides across multiple data sources, each with different access pat
 
 Each of these sources has evolved independently, resulting in different query requirements, data models, and performance characteristics. This fragmentation forces users to understand each system separately to explore their data effectively.
 
+Furthermore, even data sources of the same class can exhibit significant variations; for example, different REST API endpoints may vary in their filtering capabilities, query methods, performance impacts, and response formats.
+
 #### Query Language Inconsistency
 
 Users currently need to employ different query approaches depending on the data source:
@@ -141,7 +143,7 @@ Users currently need to employ different query approaches depending on the data 
 - SQL dialects differ between PostgreSQL and ClickHouse
 - GraphQL has its own query structure
 - REST APIs use various parameter-based filtering mechanisms
-- Filters and operators vary across endpoints even within the same API type
+- Filters and operators vary across endpoints, even within the same API type
 
 This inconsistency creates a steep learning curve for users who need to access data across multiple sources and requires specialized knowledge of each system's querying capabilities.
 
@@ -159,10 +161,11 @@ These disparities make it difficult to establish meaningful connections between 
 
 The current state creates significant friction in the data exploration process:
 
-- Enabling users to create dashboards that combine data from multiple sources requires complex integration work.
-- Visualization options are inconsistent across data sources, and there's often a lack of transparency about how the data was queried and transformed, creating trust issues with the presented information. GitLab team members have to spend significant time explaining to customers how data is retrieved and displayed, trying to build trust in the tool.
+- 
 - Users must often switch between multiple tools or interfaces to access different data sources.
-- Non-technical users face significant barriers to exploring data on their own.
+- Non-technical users face significant barriers to exploring data on their own. 
+- There's often a lack of transparency about how the data was queried and transformed, creating trust issues with the presented information. GitLab team members have to spend significant time explaining to customers how data is retrieved and displayed, trying to build trust in the tool.
+
 
 This friction discourages data exploration and limits the insights users can derive from their GitLab data.
 
@@ -182,9 +185,8 @@ Despite these challenges, there are significant opportunities to simplify and en
 
 - A unified data exploration interface would simplify access to critical insights, improve feature adoption, and unlock data that is currently inaccessible to most users due to technical complexity
 - Standardizing query patterns could unlock new cross-source analytics capabilities
-- Consistent visualization options would help users interpret data more effectively
 - Enabling export, sharing, and embedding of query results would allow users to incorporate insights across other GitLab pages and workflows
-- Integration with GitLab Duo could further enhance data exploration through AI assistance
+- A standardised input and output would not only benefit users, but also other systems integrating with it or used to generate queries or interpret results, such as an AI assistant.
 
 A well-designed data exploration architecture would not only address the current pain points but also establish a foundation for more advanced analytics capabilities in the future.
 
@@ -224,7 +226,7 @@ List the specific goals / opportunities of the document.
 - **Simplify the process of querying data** for both technical and non-technical users
 - **Standardize the filtering interface** to work consistently regardless of underlying data source
 - **Enable exporting** of queries result across GitLab pages
-- **Support common visualization needs** by leveraging existing dashboard framework components
+- **Standardize query result** by leveraging existing dashboard framework components
 - **Ensure appropriate performance** for data exploration queries across different data sources
 - **Maintain proper security controls** and respect user permissions across all data sources
 - **Facilitate integration with GitLab Duo** to enhance data exploration capabilities
