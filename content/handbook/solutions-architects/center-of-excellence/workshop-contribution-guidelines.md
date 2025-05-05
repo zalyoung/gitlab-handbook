@@ -23,11 +23,11 @@ All team members are encouraged to contribute their pre-sales or post-sales work
    - Number prep work steps starting at 0. Otherwise, start at step 1.
    - Make code copyable when possible. For example:
    
-    &#96;&#96;&#96;plaintext 
+     &#96;&#96;&#96;plaintext 
 
         How to enable experimental and beta AI features for GitLab Duo?
 
-    &#96;&#96;&#96;
+     &#96;&#96;&#96;
 
      Requiring students to write out instructions often leads to problems.
    - Link to relevant documentation when possible. For example:
