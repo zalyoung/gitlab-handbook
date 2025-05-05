@@ -431,7 +431,7 @@ each alternative solution/path.
 
 ## Next steps
 
-- Experiment with extending GLQL to fits our needs/requirements
+- Experiment with extending GLQL to add more data sources and outputs formats
   - Create an issue and discuss it with Plans
   - Build a PoC
 - Experiment with moving the GLQL rust compiler to the Rails backend
