@@ -285,6 +285,8 @@ project = "team-project" AND type = Pipeline AND (status = failed OR duration > 
 project = "team-project" AND type = AiMetric
 ```
 
+Sample PoC: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 (leaving it here for reference - doesn't need to stick around though)
+
 2. **Source-specific fields and operators** - Extend the syntax to allow fields and operators specific to each data source:
 
 ```
