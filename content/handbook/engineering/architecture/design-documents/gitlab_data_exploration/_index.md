@@ -161,7 +161,7 @@ These disparities make it difficult to establish meaningful connections between 
 
 The current state creates significant friction in the data exploration process:
 
-- 
+- Not all data sources have a data exploration UI or a query language. 
 - Users must often switch between multiple tools or interfaces to access different data sources.
 - Non-technical users face significant barriers to exploring data on their own. 
 - There's often a lack of transparency about how the data was queried and transformed, creating trust issues with the presented information. GitLab team members have to spend significant time explaining to customers how data is retrieved and displayed, trying to build trust in the tool.
