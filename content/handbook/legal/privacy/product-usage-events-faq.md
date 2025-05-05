@@ -78,9 +78,9 @@ For insights into feature usage, we recommend waiting for our upcoming in-produc
 
 ---
 
-### Q: Do you collect events data from all Self-Managed instances, including those of Public Sector customers?
+### Q: Are there scenarios where events data collection is opt-in for Self-Managed instances rather than opt-out?
 
-**A:** No, we will not collect events data from instances where one of the following applies:
+**A:** Yes, we will not collect events data by default from instances where one of the following applies:
 - The instance is on an [offline license](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/);
 - The instance is air-gapped; or
-- The admin has [disabled Service Ping optional data](https://docs.gitlab.com/administration/settings/usage_statistics/#enable-or-disable-optional-data-in-service-ping) from the setting, which will result in GitLab carrying over that opt-out to events data.
+- The admin has already [disabled Service Ping optional data](https://docs.gitlab.com/administration/settings/usage_statistics/#enable-or-disable-optional-data-in-service-ping) from the settings, which will result in GitLab carrying over that opt-out to events data.
