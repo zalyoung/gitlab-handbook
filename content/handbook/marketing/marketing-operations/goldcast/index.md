@@ -26,11 +26,11 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 - [Email Customization](https://help.goldcast.io/en_US/emails)
 - [Event Settings](https://help.goldcast.io/en_US/event-settings)
 - [Event Setup](https://help.goldcast.io/en_US/event-setup)
-- [Captions and Subtitles](https://help.goldcast.io/en_US/event-settings/16696845638683-captions-and-translated-subtitles)
 - [Webinars Powered by Smart Technology](https://help.goldcast.io/en_US/webinars-powered-by-smart-event-technology)
 - [Webinars vs Events](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events)
 - [Running an Event](https://help.goldcast.io/en_US/running-an-event)
 - [Enchanced Stage Controls](https://help.goldcast.io/en_US/enhanced-stage-controls)
+- [Captions and Subtitles](https://help.goldcast.io/en_US/event-settings/16696845638683-captions-and-translated-subtitles)
 - [How to Create Booths](https://help.goldcast.io/rooms-booths/16633523675419-how-to-create-booths)
 - [Content Lab](https://help.goldcast.io/en_US/content-lab-home)
 
@@ -185,7 +185,7 @@ Marketo landing page tokens
 
 ### Differences with creating a New Webinar, New Event and New Series
 
-As mentioned in the Random Things to Know section, when creating a new event there are a few choices: `New Webinar`, `New Event` and `New Series`. Each of these offers slight variation on event attributes but are larger the same. 
+As mentioned in the Random Things to Know section, when creating a new event there are a few choices: `New Webinar`, `New Event` and `New Series`. Each of these offers slight variation on event attributes and features, with [Webinar and Event seeing the most important differences](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events).
 
 - For more simplistic webinars where the entire event is either broadcast type `pre-recorded` or entirely broadcast type `live`, `New Webinar` offers an easy set up option but with less flexibilty. If `pre-recorded` is selected, the Back Stage staff can only interact with the audience via the text-based interface. If `Live` is selected, the Staff or Speakers must manually manage all video shown on the stage
 - For more flexibility to manage pre-recorded video and live speakers within your event, select `New Event`. `New Event` lets users create a multi-session events that can be scheduled across multiple rooms, times and days. This option is best for events featuring `live Q&A` after a pre-recorded video
