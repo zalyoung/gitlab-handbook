@@ -42,7 +42,7 @@ GitLab's standard process for [product development](/handbook/product-developmen
 
 An issue can be opened using the script in the [R&D Tax Credit Automation](https://gitlab.com/gitlab-org/ci-cd/r-and-d-tax-credit-automation/) project, which will be populated with the features released during that tax year. This can then be used as a basis for drafting the report.
 
-In some jurisdictions, such as the UK, it's enough to detail 3-5 projects along with the contributions by team-members in that territory, then to list the rest. Other jurisdictions will require a different approach. The tax agent can advise as they will draft the final submission.
+In some jurisdictions it's enough to detail 3-5 projects along with the contributions by team-members in that territory, then to list the rest. Other jurisdictions will require a different approach. The tax agent can advise as they will draft the final submission.
 
 ### Precedents
 
