@@ -15,7 +15,13 @@ Administered by the Customer Success team via Gainsight to a larger audience, th
 |  | May 27, 2025 | June 3, 2025 | Jun 10, 2025 |
 |  | Nov 3, 2025 (tentative) | Nov 14, 2025 (tentative) | Dec 7, 2025 (tentative) |
 
-## **Questions**
+## **About**
+
+### Subject line
+
+Starting May 27, 2025, customers will receive an email with the subject line: **“We’re listening. What do you REALLY think?”**. The survey should take no more than 8 min to complete, and the feedback will be a direct input into new internal initiatives and product roadmap recommendations.
+
+### Questions
 
 1. How satisfied are you with GitLab?
 2. How satisfied are you with your teams’ adoption of GitLab?
@@ -31,6 +37,8 @@ Administered by the Customer Success team via Gainsight to a larger audience, th
    * Product Manager
    * Billing or Procurement
    * Executive Sponsor
+7. Contributions like yours directly shape the future of our product. Are you open to a brief chat with our team to learn more about your GitLab experience?
+   * Yes / No
 
 ## **Process**
 
