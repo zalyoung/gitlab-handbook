@@ -46,7 +46,6 @@ My goal is to create an environment where great ideas rise, people grow, and res
 
 1. **Boldness** – I think and dream big – and believe truly audacious goals can be accomplished. The ability to do something starts with the belief that it can be done.
 
-
 1. **Grit** – I’ve learned that I’m very resilient, and most people are more resilient than they may actually believe. If you can learn to find comfort in discomfort, you’ll continue to make progress even in the face of major challenges. 
 
 ## My Weaknesses
