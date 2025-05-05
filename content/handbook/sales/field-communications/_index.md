@@ -132,7 +132,7 @@ Once you've reviewed the playbook above and would like to request Field Communic
 
 ### Field Comms Quiet Periods
 
-Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field's immediate attention (system outage, critical update affecting customers and/or closing business).  The quiet periods for FY25 are as follows:
+Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field's immediate attention (system outage, critical update affecting customers and/or closing business).  The quiet periods for FY26 are as follows:
 
 - Q1-FY26: 2025-04-18 - 2025-04-30
 - Q2-FY26: 2025-07-18 - 2025-07-31
