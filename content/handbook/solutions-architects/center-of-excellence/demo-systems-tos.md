@@ -1,11 +1,9 @@
 ---
-title: "Demo Systems TOS"
+title: "Demo Systems Terms of Service"
 description: "Outlines acceptable usage of all demo system internal products"
 ---
 
-# Demo Systems Terms of Service
-
-## Welcome to Our Demo Ecosystem!
+## Welcome to Our Demo Ecosystem
 
 Our demo systems are valuable resources designed to help all internal team members throughout the sales cycle. See a full list of our supported systems [here](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/coe/demo-architecture/da-infra-navigation-project/-/blob/main/README.md). We want you to make the most of these tools and encourage you to reach out for support whenever needed.
 
@@ -25,7 +23,6 @@ Team members who don't adhere to these guidelines may temporarily lose access to
 - **Learning through experience**: Accidents happen! If you accidentally take down an instance or make an admin mistake while learning, that's completely fine when done in good faith.
 - **Not worrying about overuse**: The platforms are built to handle your needs. There's no need to worry about using too many minutes or resources - that's exactly what they're there for.
 - **Asking questions**: Our team is here to help. Reach out with any questions or for support when needed.
-
 
 ## Support Contact
 

@@ -2,13 +2,14 @@
 title: "Workshop Contribution Guidelines"
 description: "Guidance on how you can contribute your own content to be supported by Demo Architecture"
 ---
-# Workshop Contribution Guidelines
 
-## Team Contributions
+## Workshop Contribution Guidelines
+
+### Team Contributions
 
 All team members are encouraged to contribute their pre-sales or post-sales workshops to be supported by the COE team's infrastructure. By doing so, your workshop will be added to Learn Labs, making it easy for you and other sales teams across the organization to repeat your events seamlessly. Contributing your content allows others to leverage your work and hopefully contribute back as well. We accept a wide variety of content types.
 
-## Guidelines
+### Guidelines
 
 1. **Broad Applicability**: The content should not be specific to a single customer. It should be repeatable and relevant for any customer, regardless of region. Targeted vertical content is accepted and encouraged, but please keep in mind that others may use it for non-vertical customers as well. While it's acceptable to suggest multiple workshops focused on a specific topic like AI, please do your due diligence to ensure your content is not redundant with existing workshops. All existing workshop content will be viewable through the [Demo Architect Portal](https://cloud.gitlabdap.com/) and stored in the [Learn Labs sample projects](https://gitlab.com/gitlab-learn-labs/sample-projects)
 
@@ -41,8 +42,8 @@ All team members are encouraged to contribute their pre-sales or post-sales work
    - Prioritize accessibility for both slides and content. Ensure high contrast to avoid issues for people with color blindness.
    - Currently, we do not support top-level group owner demos. Assume students will be owners of a subgroup but will have zero access to the top-level group.
 
-## Expectations
+### Expectations
 
 Once your workshop content is contributed through the [Demo Architect Portal](https://cloud.gitlabdap.com/), the COE team will review it and work with you to get it polished and added to our infrastructure. We'll handle the technical setup so you can focus on delivering engaging workshops. 
 
-By contributing, you're helping build a valuable resource for the entire sales organization. We appreciate your collaboration in creating impactful, reusable workshop content. If you have any questions during the contribution process, don't hesitate to reach out to the[ COE Demo Architecture team](https://gitlab.enterprise.slack.com/archives/C05E9EG6M5W) for guidance.
+By contributing, you're helping build a valuable resource for the entire sales organization. We appreciate your collaboration in creating impactful, reusable workshop content. If you have any questions during the contribution process, don't hesitate to reach out to the [COE Demo Architecture team](https://gitlab.enterprise.slack.com/archives/C05E9EG6M5W) for guidance.
