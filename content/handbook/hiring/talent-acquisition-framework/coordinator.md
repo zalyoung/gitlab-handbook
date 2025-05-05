@@ -107,7 +107,7 @@ If the candidate submits the form, all the CES team members will receive an emai
 4. Schedule the interview based on the recruiter’s scheduling request.
 5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
 6. Please leave a tag—“Project Equispace”—in the candidate's GH profile for easy reference so we can adequately track and address accommodation needs as the candidate progresses through the hiring process.
-7. If CES receives a written request from a candidate for an accommoation not currently listed on our form, CES will notify TMR for advice and respond accordingly with how we can accommodate. CES will follow steps above to ensure interviewer is advised on how to proceed with the interview.
+7. If CES receives a written request from a candidate for an accommodation not currently listed on our form, CES will notify TMR for advice and respond accordingly with how we can accommodate. CES will follow steps above to ensure interviewer is advised on how to proceed with the interview.
 8. CES will save email communication with candidate in the event they are hired. If so, CES will upload communications into the hires Workday profile.
 9. Close the issue once the scheduling is completed.
 
