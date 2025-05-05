@@ -54,7 +54,7 @@ Here, we are creating a component with an input called *stage*. The stage input 
 
 Now we have a component file, but in order for the component to be accessible by other projects, we need to publish the component. Note that since the project is private, it will only be accessible by you.
 
-## Task B. Publishing the component
+## Task B. Publishing the Component
 
 1. On the lefthand toolbar, select **Settings > General**.
 
@@ -92,7 +92,7 @@ This code looks similar to our release component we made in a similar lab, but t
 
 1. Wait for the pipeline to complete.
 
-## Task B. Adding the Created Component to Our Project.
+## Task B. Adding the Created Component to our Project
 
 1. Navigate to your CI/CD Catalogue by clicking on the search bar, and then clicking the **Explore** option.
 
