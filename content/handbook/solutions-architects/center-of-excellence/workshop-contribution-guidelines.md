@@ -36,7 +36,7 @@ All team members are encouraged to contribute their pre-sales or post-sales work
 
 4. **Things to Avoid**:
    - Stay within the GitLab platform whenever possible - including the use of the Web IDE versus local IDEs. Requiring customers to download separate IDEs or other tools can lead to issues with firewalls, versioning, and security. 
-   - Avoid experimental or early development features, as they may have unexpected outages and frequent changes. If you must include one, clearly call it out in the instructions. 
+   - Avoid [experimental or early development features](https://docs.gitlab.com/development/documentation/experiment_beta/), as they may have unexpected outages and frequent changes. If you must include one, clearly call it out in the instructions. 
    - Be mindful of workshop length. If it approaches 3 hours, consider breaking up the content.
    - Prioritize accessibility for both slides and content. Ensure high contrast to avoid issues for people with color blindness.
    - Currently, we do not support top-level group owner demos. Assume students will be owners of a subgroup but will have zero access to the top-level group.
