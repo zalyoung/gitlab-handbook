@@ -71,14 +71,6 @@ CREATE TABLE merge_request_notifications (
     FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
 );
 
-CREATE TABLE epic_notifications (
-    notification_id BIGINT NOT NULL,
-    resource_id BIGINT NOT NULL REFERENCES epics(id) ON DELETE CASCADE,
-    namespace_id BIGINT NOT NULL REFERENCES namespaces(id) ON DELETE CASCADE,
-    user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-    FOREIGN KEY (notification_id, user_id) REFERENCES notifications(id, user_id) ON DELETE CASCADE
-);
-
 CREATE TABLE ssh_keys_notification_links (
     notification_id BIGINT NOT NULL,
     resource_id BIGINT NOT NULL REFERENCES keys(id) ON DELETE CASCADE,
@@ -97,6 +89,8 @@ CREATE TABLE commit_notifications (
 ```
 
 `Namespace_id` column should be that same as in the referenced `notifications` table, to be used as a sharding key. 
+`Issue_notifications` table will serve all work_items types, including epics and OKRs. We will use `work_item_type` field in `issues` table to differentiate between types. 
+
 
 ### 🔍 Entity Relationship Diagram
 
