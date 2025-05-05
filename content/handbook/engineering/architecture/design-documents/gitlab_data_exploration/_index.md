@@ -285,6 +285,8 @@ project = "team-project" AND type = Pipeline AND (status = failed OR duration > 
 project = "team-project" AND type = AiMetric
 ```
 
+Depending on the data source, we can configure the compiler to outputs different format e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in #moving-glql-to-the-backend).
+
 Sample PoC: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 (leaving it here for reference - doesn't need to stick around though)
 
 2. **Source-specific fields and operators** - Extend the syntax to allow fields and operators specific to each data source:
@@ -314,7 +316,7 @@ display: custom
 display_id: 'ai-impact-table'
 ```
 
-Extending GLQL in this way could also enable easy exporting and sharing of dashboards/visualizations across other GitLab pages, further enhancing the platform's data exploration capabilities.
+Adopting GLQL for dashboard data exploration could also enable easy exporting and sharing of dashboards/visualizations across other GitLab pages, further enhancing the platform's data exploration capabilities.
 
 To achieve the above, following GLQL's Extensibility [guidelines](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/glql/#extensibility), we need to implement the following components:
 
