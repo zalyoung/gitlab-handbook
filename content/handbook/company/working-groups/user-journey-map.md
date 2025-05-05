@@ -12,7 +12,7 @@ These maps will enable Product, UX, and Dev teams to understand the complete jou
 | Date Created | April 23, 2025   |
 | Target Date  | TBD |
 | Slack        | [#ujm-working-group](https://gitlab.slack.com/archives/C08PCJAM3F0) (internal only) |
-| Google Doc   | [Upstream Diversity Working Group Agenda](https://docs.google.com/document/d/1MiN_6N3nV8A5zioI9KDex9WuxBMRs9rtxO_MiJ-brpg/edit?) (internal only) |
+| Google Doc   | [User Journey Map Working Group Agenda](https://docs.google.com/document/d/1MiN_6N3nV8A5zioI9KDex9WuxBMRs9rtxO_MiJ-brpg/edit?) (internal only) |
 
 ## Business goals
 
