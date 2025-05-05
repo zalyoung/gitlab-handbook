@@ -141,6 +141,8 @@ On the day of Assembly:
 1. E-Group works collaboratively on a Q&A document to facilitate who will respond to each question.
 1. An assigned scribe tracks Q&A directly in the agenda document.
 
+Testing an edit.
+
 After the second Assembly event:
 
 1. The production partner shares the recording for both Assembly events with the People Comms & Engagement DRI.
