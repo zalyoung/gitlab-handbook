@@ -193,7 +193,7 @@ As mentioned in the Random Things to Know section, when creating a new event the
 
 ### Event Creation within Goldcast 
 
-When starting event creation in Goldcast, start by clicking the `+` icon in the top right of the platform. From the primary options, select the best fit for your event.
+When starting event creation in Goldcast, start by clicking the `+` icon in the top right of the platform. From the primary options, select the best fit for your event. If you would like Goldcast to auto-create a Marketo program, select the template `Gitlab Primary Template (auto-Marketo program creation)`. All localized templates are currently set up to auto-create a Marketo program.
 
 Fill in your `Title`, `Pick a Date`, `Start Time`, `End Time`, `Timezone`, and for webinars `Type` - Most of these auto-populate into the Marketo program tokens, where appropriate. GitLab as an org will likely stick with `Live` and `Pre-recorded` types. The `RTMP` type is a feature that allows embedding to or from external tools and there are currently no plans to use this feature. Please ping MktgOps if there is a request to try it
 
@@ -216,6 +216,8 @@ If the Marketo program cloning feature worked correctly, Goldcast will have crea
 When starting event creation in Marketo, make a duplicate of [YYYYMMDD_EventName_Webcast_Goldcast_template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME21842A1) and move it to the appropriate folder for the quarter and using the standard naming convention.
 
 Once the program is up, grab the program ID number. The program ID number can be found at the end of the program's URL and between the letters,  i.e. `classic/ME**00000**A1`. The program ID will be placed into your Goldcast event.
+
+With a Marketo program created before the Goldcast event, there is no need to have Goldcast create a new Marketo program. On event creation, select the Goldcast template titled `Gitlab Primary Template (w/o Marketo program creation)`. This template will **not** create a new Marketo program and this option does not exist for localized templates. 
 
 To place the Marketo program ID in Goldcast, go to and click into your event. Within the event, click in this order `Integrations` -> `Marketo` -> `Settings`. Place your Marketo program ID into the `Connected Program ID` field and click connect. The Goldcast event and Marketo program are now linked.
 
@@ -349,7 +351,7 @@ If the event has been rescheduled, change the Marketo program name to match the 
 
 ## Localized Event Templates
 
-Goldcast has been outfitted with localized event templates for 6 additional languages, bringing the number of templates available to 7 languages total:
+Goldcast has been outfitted with localized event templates for 7 additional languages, bringing the number of templates available to 8 languages total:
 
 - English
 - Spanish (Spain)
@@ -358,14 +360,15 @@ Goldcast has been outfitted with localized event templates for 6 additional lang
 - Portuguese
 - Italian
 - Japanese
+- Korean
+
+Note that each of these localized templates will auto-create a Marketo program.
 
 Each of these templates have the `Primary Language` set to the listed language, meaning email assets, UI and features are set to this language and **in order for some features to work correctly the speakers must be speaking in that language**. Event information must also be input by Staff to match the language for a completely localized experience. More information can be found [within Goldcast's documentation](https://help.goldcast.io/event-settings/16635257856923-hosting-an-event-in-different-primary-languages). 
 
 When adding Speakers to an event, the `Speaker Invite/Instructions` email will be set to the `Primary Language` initially but can be switched to a standard English template in the `Email Schedule` section of the event. If you would like to send a `Primary Language` email to one speaker and the standard English email to a different speaker, switch the `Speaker Invite/Instructions` email before adding one Speaker or the other. The system is not capable of sending two different language emails simultaneously. For the `1 hour reminder` email, only one of the two emails can be sent due to those reminders being sent simultaneosly. `Staff Emails` are only in English.
 
 All Japanese event templates have been updated with email templates that include the greeting `{{last name}}-sama`, whether the email is in Japanese or English
-
-A Korean template has been requested and is undergoing approvals
 
 To send a `Reschedule` or `Cancelation` email, follow similar protocal as explained in the above section. Select the templates titled `[Reschedule] Default GitLab Template - {{Primary Language}}` or `[Cancellation] Default GitLab Template - {{Primary Language}}` and depending on the email, fill in the subject line with one of these translations:
 
@@ -390,6 +393,9 @@ b. `Due to unforeseen circumstances the event has been canceled.`
 - Japanese
   a. "イベントのスケジュールが変更されました！"
   b. "予期せぬ事情により、イベントは中止となりました。"
+- Korean
+  a.
+  b.
 
 ## Working with a Series
 
