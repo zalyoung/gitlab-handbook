@@ -145,7 +145,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
     8. **Product**
     9. **Sales**
     10. **Security**
-1. **Production** (Maps to our [Trusted Data Development Process](/handbook/enterprise-data/data-development/#trusted-data-development)
+1. **Production** (Maps to our [Trusted Data Development Process](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development)
     1. **Customer Success**
         1. **General**
             1. Data Source Name
@@ -263,7 +263,7 @@ Pursuant to GitLab's Transparency value, all GitLab team members will have acces
 
 #### User Groups
 
-User Groups are the only prescribed method we use for setting permissions across the Tableau site. A User Group is a collection of users that can be based on a topic, project, or organization structure, that will need to have the same set of access and permissions for content. All users will be a member of the General Access user group and can be added to more User Groups as required. The assignment of users to groups will be documented and controlled from YAML files maintained in the Tableau Project in the Data Group.
+User Groups are the only prescribed method we use for setting permissions across the Tableau site. A User Group is a collection of users that can be based on a topic, project, or organization structure, that will need to have the same set of access and permissions for content. All users will be a member of the General Access user group and can be added to more User Groups as required.
 
 #### Limited Access User Groups
 
@@ -274,7 +274,7 @@ Limited access user groups will allow business teams to manage accessibility to 
 Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
 - \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
-- To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager.
+- To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit a request through [Lumos](/handbook/security/corporate/systems/lumos/ar/).
 
 - **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
 
@@ -349,26 +349,6 @@ Below is an example of User Groups and Permissions applied to a Data Team Sub-Pr
 | Data Team Project Leaders | Administrator Group  | Administer           |
 | Data Team                 | Access Control Group | Publish              |
 | All Team Members          | Access Control Group | View                 |
-
-<details markdown=1>
-
-<summary><b>Example Project Permissions YAML File</b></summary>
-
-```yml
-
-projects:
-  - project_name: Example Project
-    content_permissions: ManagedByOwner
-    project_path: Project Name/Project Name/
-    permission_set:
-      - group_name: group 1
-        permission_rule: view
-      - group_name: group 2
-        permission_rule: project_lead
-
-```
-
-</details>
 
 #### Capabilities
 
@@ -485,7 +465,7 @@ The Data Team will regularly review users' Tableau activity to determine if user
 
 In addition to the guidelines above, we typically reserve Creator licenses for team members whose role is primarily Analytics-based (i.e. analysts within functional teams, and/or team members whose core responsibilities include developing reports for their team).
 
-Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-management/#tableau).
+Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-governance/data-management/#tableau).
 
 **Tracking License Usage**
 
@@ -497,17 +477,46 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 
 ## Access
 
-### Tableau Cloud Access
+### Getting Started
 
-Users can request access by creating an issue in the access requests project using the [Tableau_Request issue template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Tableau_Request). Follow the instructions in the template to ensure it will be picked up by the Central Data Team for provisioning.
+Users can request access to Tableau through the Okta portal using the [Lumos application](/handbook/security/corporate/systems/lumos/ar/). Follow these steps to submit your request for Tableau:
 
-All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from the [BIOps Roles and Responsibilities](/handbook/enterprise-data/platform/tableau/#biops-roles-and-responsibilities) section for approval in your issue.
+- Log in to the Okta portal
+- Search for and select the "Lumos" application
+- Select "Tableau" from the available applications
+- Choose the specific role that matches your needs (see Role Types below)
+- Lumos will automatically initiate the approval workflow and handle provisioning upon approval
 
-Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
+The system will guide you through any additional information required to complete your request. You'll receive notifications about the status of your request through email.
+
+### Role Types
+
+When requesting access, select the appropriate role based on your needs:
+
+- Viewer: View and interact with dashboards and visualizations
+- Explorer: Create and modify workbooks from existing data sources
+- Creator: Build new data sources and develop advanced visualizations
+
+Click [here](/handbook/enterprise-data/platform/tableau/#capabilities) for further details on role capabilities.
+
+### Restricted Data Access
+
+Tableau access is structured in a tiered approach that separates data based on sensitivity levels and regulatory requirements.
+
+- General Content: All users receive access to general content by default upon approval
+- Restricted SAFE Content: Requires additional approval and justification
+- Other [special permission](/handbook/enterprise-data/platform/tableau/#limited-access-user-groups) access.
+
+Users may request restricted access through the Lumos App by selecting the following Lumos Apps and following the instructions there:
+
+- Tableau Restricted SAFE Access
+- Tableau Special Permissions 
 
 ### Tableau Desktop Access
 
 Creators with an active license to Tableau Cloud are encouraged to use Tableau Desktop for development. Locally developed Data Sources or Workbooks can later be published to Tableau Cloud. All Creators will be assigned access to Tableau Cloud and Desktop. Tableau Desktop keys are automatically assigned by Tableau Cloud when first connecting.
+
+Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
 
 One can download Tableau Desktop using the links below, or follow the link from the [Home Page](https://10az.online.tableau.com/#/site/gitlab/home) of Tableau Cloud.
 
@@ -615,7 +624,7 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 ### Data Source Access: **Tableau Desktop or Tableau Prep Builder**
 
-*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a Yubikey in Okta. Fingerprints will not work. Please see the [Tableau Cloud Access](/handbook/enterprise-data/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
+*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a Yubikey in Okta. Fingerprints will not work. Please see the [Tableau Cloud Access](/handbook/enterprise-data/platform/tableau/#tableau-desktop-access) section above for more details on how to order a Yubikey.
 
 <details markdown=1>
 
@@ -696,7 +705,7 @@ By following these steps, you’ll ensure that your Snowflake OAuth tokens are u
 
 Certified data sources ensure trusted, high-quality, and efficient data for the organization. Approved by a Tableau Admin through an [issue submission](https://gitlab.com/gitlab-data/tableau/-/issues/new?issuable_template=Certify%2Tableau%20Data%20Source), these sources receive a Certified badge and an appended " - Certified" name for visibility and searchability. The certification signals that the data source has been rigorously reviewed for accuracy and compliance, providing users confidence to build reliable reports.
 
-Certified data sources are designed to be the most commonly used single sources of truth, aligned with the [GitLab Data Development](/handbook/enterprise-data/data-development/) lifecycle. They are broad, reusable, and versatile, capable of addressing a wide range of analytical needs. A typical department may maintain 2–12 certified data sources, serving as the primary resources for high-quality and efficient development. Departments retain ownership of these sources, with Project Leaders actively overseeing their maintenance to ensure they remain reliable, foundational tools for the organization.  To avoid overly complex, multifunctional data sources, multiple Certified, fit-for-purpose data sources are invited.
+Certified data sources are designed to be the most commonly used single sources of truth, aligned with the [GitLab Data Development](/handbook/enterprise-data/how-we-work/data-development/) lifecycle. They are broad, reusable, and versatile, capable of addressing a wide range of analytical needs. A typical department may maintain 2–12 certified data sources, serving as the primary resources for high-quality and efficient development. Departments retain ownership of these sources, with Project Leaders actively overseeing their maintenance to ensure they remain reliable, foundational tools for the organization.  To avoid overly complex, multifunctional data sources, multiple Certified, fit-for-purpose data sources are invited.
 
 As the primary resource for analysts, certified data sources streamline onboarding, training, and updates while reducing duplication and promoting consistency. By focusing on quality and reliability, they simplify decision-making and solidify their role as essential components of the organization’s data ecosystem.
 
@@ -826,7 +835,7 @@ End User
 
 <summary><b>Tableau Certification</b></summary>
 
-Tableau offers several [certifications](https://www.tableau.com/learn/certification) for users to prove out their specialized skills in and knowledge of the tool. The following certifications are recommended for creators / analysts who want to showcase their expertise:
+Tableau offers several [certifications](https://www.tableau.com/learn/certification) for users to prove their specialized skills in and knowledge of the tool. The following certifications are recommended for creators / analysts who want to showcase their expertise:
 
 - [Certified Tableau Desktop Specialist](https://www.tableau.com/learn/certification/desktop-specialist): This exam is for those who have foundational skills and understanding of Tableau Desktop and at least three months of applying this understanding in the product. Please also view the [exam guide](https://www.tableau.com/learn/certification/tableau-desktop-specialist-exam-guide) for more details on how to prepare.
 - [Certified Tableau Data Analyst](https://www.tableau.com/learn/certification/certified-data-analyst): This exam is for analysts that can enable stakeholders to make business decisions by understanding the business problem, identifying data to explore for analysis, and delivering actionable insights. Please also view the [exam guide](https://www.tableau.com/learn/certification/tableau-certified-data-analyst-exam-guide) for more details on how to prepare.

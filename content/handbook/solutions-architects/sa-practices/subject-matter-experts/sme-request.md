@@ -67,8 +67,9 @@ In lieu of directly engaging Product management, SMEs should be requested or eng
 7. During a POV, and help is needed. Engage a SME in the `sme-` channel, to help first triage the situation. You, along with the SME, before engaging a PM should do the following:
    1. Gather the required detail information (customer configuration, steps to reproduce etc.)
    2. Search existing documentation (internal or external) or past issues for a solution
-   3. Ask other SMEs or Support using the [Super Support Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/) for help
+   3. Ask other SMEs or Support using the [Super Support Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) for help
    4. SMEs can also reach out to PMs for one off questions or gain more clarification.
+8. Request for [reference architecture cost estimates](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#cost-calculator-templates) or Creating a Dedicated pricing calculator for an opportunity. See [example](https://calculator.aws/#/estimate?id=a0cbf2cd318c0fc77d5e39c2165841418aef9ace)
 
 #### When to Engage a Product Manager
 

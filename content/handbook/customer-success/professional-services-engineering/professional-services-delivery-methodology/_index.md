@@ -3,113 +3,353 @@ title: "Professional Services Delivery Methodology"
 description: "Learn the processes and methodology that GitLab Professional Services uses to help ensure Customer Success."
 ---
 
+- [What is the Professional Services Delivery Methodology (PSDM)](#what-is-the-professional-services-delivery-methodology-psdm)
+- [Managing a Project in GitLab](#managing-a-project-in-gitlab)
+- [Project Velocity and Iteration Scheduling](#project-velocity-and-iteration-scheduling)
+- [Status Planning](#status-planning)
+- [Status and Burndown Reporting](#status-and-burndown-reporting)
+- [Mitigating Risk via RAID Board](#mitigating-risk-via-raid-board)
+- [Internal Retrospective Guidelines](#internal-retrospective-guidelines)
+- [Customer Retrospective Guidelines](#customer-retrospective-guidelines)
+- [Guidelines for Iteration based PSDM](#guidelines-for-iteration-based-psdm)
+
 ## What is the Professional Services Delivery Methodology (PSDM)
 
-The Professional Services Delivery Methodology (PSDM) is the guiding light for Program and Project Delivery within GitLab. The goal is to ensure the PS Delivery team operates within a predictable time slice against the Project scope while ensuring we’re focused on Customer Success. This is done through GitLab.com as the SSOT, label guidelines for managing and reporting against progress, risk, iterations needed against our processes and enablement material, and fundamental Agile best practices.
+The Professional Services Delivery Methodology (PSDM) is the guiding framework for Program and Project Delivery within GitLab. The goal is to ensure the PS Delivery team operates within a predictable timeframe against the Project scope while prioritizing Customer Success. This is achieved through:
 
-## Iteration 0
-
-[Iteration 0](./iteration-0/_index.md) includes the initial discovery and planning between the GitLab & Customer Project Team(s). This includes:
-
-- EM>PS Delivery Transition
-- Stakeholder Planning
-- Customer Kickoff
-- Discovery sessions with the Customer
-
-To prepare and deliver Iteration 0, the PM will work with the GitLab Project team to review the timeline against the agreed upon scope and dependencies. This ensures we are gathering the right information and understanding the potential risks. Allowing us to show up to Iteration 0 more aligned with our Customers and prepared to deliver against a more predictable schedule.
-
-Proper Iteration 0 preparedness allows us to address risk early and instills confidence with our Customers.
+- Using GitLab.com as the Single Source of Truth (SSOT)
+- Following label guidelines for managing and reporting progress
+- Identifying and mitigating risks
+- Actioning/tracking improvements internally
+- Implementing iterations based for Sprint/Iteration-based SOWs
+- Utilizing enablement materials
+- Applying fundamental Agile best practices
 
 ## Managing a Project in GitLab
 
-GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below.
+GitLab serves as both a project management and collaboration platform for all Professional Services engagements. We utilize the following features/terminology within GitLab for project management:
 
-Please reference the following tips for [GitLab best practices](./gitlab-best-practices/_index.md) when navigating GitLab.
+Please reference the [GitLab best practices](./gitlab-best-practices/_index.md) when navigating GitLab.
 
-How to initially configure GitLab as a Project Management tool can be found [here](./cp/_index.md).
+For initial configuration of GitLab as a Project Management tool, see [the configuration guide](./cp/_index.md).
 
-NOTE: any issues marked as "internal" are still visible to anyone who has "developer" access into the Gitlab Collaboration project. This includes anyone outside of Gitlab. It it recommended to use the Projects "Internal Epic" for confidential communications.
+> **NOTE:** Any issues marked as "internal" are still visible to anyone who has "developer" access into the GitLab Collaboration project. This includes people outside of GitLab. It is recommended to use the Project's "Internal Epic" for confidential communications.
 
-## Project Management Mapping in GitLab
+### Project Management Mapping in GitLab
 
 | PM Term    | GitLab Definition |
 | -------- | ------- |
-| Group  | This is the landing page for Customer the project. The single source of truth of Project Governance.    |
-| Projects | If an engagement has more than one Workstream (or SOW), we will track against more than one Project. CO activities will be tracked against the original project (SOW).   |
-| Boards    | Typically organized by labels or scoped labels to keep the team on track together. Sometimes the GitLab/Customer team works to track against multiple Boards over Projects.    |
-| Epics    | Generally from Workstreams or "Activities" from the SOW.    |
-| Issues    | These are the atomic units of work that roll into the Epic.    |
-| Iterations    | Time-boxed (generally) two-week events, that are reviewed during the Agile ceremonies.      |
-| Milestones    | How we can track against the Project Phase    |
-| Labels    | We use these in a variety of ways, but the most important ones are: </br> <ul><li>To manage progress during delivery using a left-to-right flow</li><li>To manage prioritization</li><li>To organize specific sub-categories of work to keep the team organized.</li><li>To manage risk and mitigation</li></ul> |
-| Weight | Size or level of effort of the issue. See [Good Estimation Techniques](./good-estimation-techniques/_index.md) for assigning weight    |
+| Group  | This is the landing page for the Customer project and serves as the single source of truth for Project Governance.    |
+| Projects | If an engagement has more than one Workstream (or SOW), we will track these using multiple Projects. Change Order activities will be tracked against the original project (SOW).   |
+| Boards    | Typically organized by labels or scoped labels to keep the team on track together. In some cases, the GitLab/Customer team may utilize multiple Boards across Projects.    |
+| Epics    | Generally derived from Workstreams or "Activities" outlined in the SOW.    |
+| Issues    | These are the atomic units of work that roll up into an Epic.    |
+| Iterations    | Time-boxed (generally two-week) events that are reviewed during Agile ceremonies.      |
+| Milestones    | Used to track progress against Project Phases    |
+| Labels    | Used in various ways, with the most important applications being: </br> <ul><li>Managing progress during delivery using a left-to-right workflow</li><li>Managing prioritization</li><li>Organizing specific sub-categories of work</li><li>Tracking and mitigating risks</li></ul> |
+| Weight | Indicates the size or level of effort of an issue. See [Good Estimation Techniques](./good-estimation-techniques/_index.md) for guidance on assigning weight    |
 
-Reference [here](./agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to GitLab.
+For additional clarity on mapping Agile terminology to GitLab, reference [this guide](./agile-to-gitlab-terminology/_index.md).
 
-## Label Guidelines
+### Label Guidelines
 
-Labels are the best way to generate reports around our Projects and sort according to the Project teams’ needs. The team is free to make labels as they see fit for Project reporting, but there are also current guidelines around label generation for internal use.
+Labels are the most effective way to generate reports around Projects and organize information according to the Project team's needs. While teams have flexibility to create labels that meet their specific project reporting requirements, there are established guidelines for label generation for internal use.
 
-Currently, our [CP (Customer Project) automation](./cp/_index.md) includes the following labels:
+Our [CP (Customer Project) automation](./cp/_index.md) includes the following default labels:
 
 - SOW-# or PO# - helps the GitLab team search for Projects within the Professional service Group
 - PM name - helps the GitLab team sort by PM name
 - PSD workflow (for issue board management)
 
-Labels used for *Internal retro & RAID tracking/reporting* can be found in “Reporting throughout the Iteration” below.
+Labels used for *Internal retrospectives & RAID tracking/reporting* can be found in the "Reporting throughout the Iteration" section below.
 
-## Iteration Scheduling
+## Project Velocity and Iteration Scheduling
 
-The [iteration schedule and cadence](./iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Communication Plan that lives within the GitLab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
+The [iteration schedule and cadence](./iteration-scheduling/_index.md) is first introduced in Iteration 0 and becomes part of the Engagement Charter within the GitLab Customer Project (Group). It is crucial that the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff. However, this should be initially introduced and collaboratively developed with the Customer during the Stakeholder Planning meeting.
 
-There are five components within an Iteration schedule:
+When working within an Iteration/Sprint schedule, there are five key components:
 
-1. Iteration Planning
-2. Iteration Review
-3. Daily Standup
-4. Backlog Refinement
-5. Retrospective
+1. **Iteration Planning** - Setting goals and selecting work items for the iteration
+2. **Daily Standup** - Brief synchronization meetings to share progress and identify blockers
+3. **Backlog Refinement** - Clarifying, estimating, and prioritizing upcoming work
+4. **Iteration Review** - Demonstrating completed work and collecting feedback
+5. **Retrospective** - Reflecting on the process and identifying improvements
 
-## Iteration Planning & Review
+When not working within Iterations, it's still important to clearly communicate the project velocity to ensure consistent resource alignment. For example: "We anticipate working 40 hours/week for 5 weeks to perform a successful upgrade and seamless migration of 1000 users and 2000 projects from GitLab SaaS to Self-Managed for FedRAMP compliance." This is validated during the Stakeholder Planning meeting and Customer Kickoff.
 
-The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, and iteration goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the iteration scope is defined and committed to by the development team.
+## Status Planning
 
-Please reference [Backlog Management](./backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips.
+For Agile SOWs, the Program Manager / Project Manager provides strategic direction for the project, including the vision, product roadmap, release goals, and iteration objectives. The Program Manager / Project Manager is responsible for managing the product backlog by inserting, re-prioritizing, refining, or removing items as needed. This can occur at any time until the iteration scope is defined and committed to by the development team.
 
-## Reporting within the Iteration Schedule and Project
+Please reference [Backlog Management](./backlog-management/_index.md) for guidance on estimation, backlog grooming, and preparation for Iteration Planning.
+
+If the scope of work is more strictly defined within the SOW, the PM is expected to assess the impact of any changes and work with the Customer to either reprioritize or initiate the Change Order process.
+
+## Status and Burndown Reporting 
 
 ### Who Updates What?
 
-While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the GitLab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board.
+While the PM is responsible for preparing ceremonies, reporting status, and managing Issues, the GitLab PSE (Professional Services Engineer), TA (Technical Architect), and Customer team members are all expected to contribute to and update their assigned issues (tasks) within the Project board. This highlights the importance of establishing effective Working Agreements during Iteration 0.
 
-Working asynchronously & remotely can be challenging. Ensuring the DRI within the issue is actively contributing to is crucial to the project’s velocity. It’s the best way the PM can protect the technical teams from distractions as well as make sure there is an effective status roll-up.
+Working asynchronously and remotely presents unique challenges. Ensuring that the Directly Responsible Individual (DRI) actively contributes to their assigned issues is vital to maintaining project velocity. This approach allows the PM to shield technical teams from distractions while enabling effective status roll-up.
 
-### RAID & Internal/Customer Retrospective
+Not every Project will follow a Sprint or Iteration cadence. However, status updates should be documented within GitLab and reported to the Customer on a weekly basis. It is recommended to use an Engagement Charter to direct stakeholders to weekly status updates, RAID logs, and other relevant project documentation.
 
-The RAID, Internal Retrospective, and Customer Retrospective not only assist with the progression of a Project, but these records act as a mechanism to feed back into our Business Development, Customer Success tracking, and Team celebrations. [Please reference here](./manage-risk/_index.md) for more guidelines on how to manage these reports once a Project begins.
+**Status Report Examples:**
 
-The Customer Retrospective guidelines can be [found here](./retrospectives/_index.md).
+- [Engagement Charter Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration/Ingram-Barge/SOW-3184/-/blob/main/engagement-charter.md?ref_type=heads)
+- [Status Update Example 1](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/Delta/-/epics/1)
+- [Status Update Example 2](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/smartsheet/SOW-2163/-/issues/2)
+- While the GitLab CP is the recommended platform for status reporting, if the Customer prefers a presentation format, please reference this [template](https://docs.google.com/presentation/d/1jSc5vAID3DMMwojyZnAnOT0aKY2UwDfH2Si-XxEHjLU/edit#slide=id.g2e5808acdbf_0_252).
 
-## Guidelines for PSDM
+### Project Burndown
 
-Applying the suggested PSDM with a full Iteration schedule is needed only when the Project exceeds 5 Iterations or when the engagement plans to exceed two months.
+While Kantata is the single source of truth for our Financial Management, we recommend PMs track the hourly and finanical burn seperately for additional auditing and progress against the progression of the Project. Templates can be found [here](https://drive.google.com/drive/folders/1SKUu-nVP8c1rt0VKv8-7U5Yfk_6CWBYe). It is required to track hourly/financial progress within the weekly status report
 
-Please review the [archetype definitions](./archetype-definition/_index.md) around what a “large” Customer looks like.
+## Mitigating Risk via RAID Board
 
-Please use the below as a guide, when planning for Iteration 0.
+The RAID (Risks, Actions, Issues, and Decisions) framework serves as our single source of truth for project risk identification, management, and resolution. It provides several key benefits:
+
+- Creates transparency for project stakeholders and leadership
+- Enables proactive monitoring of projects with Yellow/Red health status
+- Centralizes risk documentation and mitigation strategies
+
+### Setting Up RAID
+
+- The RAID board is automatically created when the PM initializes the CP template
+- Rename the template to "RAID - [Customer Name] - [SOW/PO#]"
+- While the PM is responsible for creating and managing the RAID, both internal team members and Customer representatives are encouraged to update it as challenges and mitigations evolve
+- View an [Example RAID Log](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/autozone/SOW-2464/-/boards/7689705?label_name[]=PS%20RAID%20Log)
+
+### Reporting on Risk via RAID
+
+When documenting a risk, follow these guidelines:
+
+1. **Apply appropriate labels:**
+   - "PS RAID Log" 
+   - "PS Risk" 
+   - "PSD Workflow::Not Started"
+
+2. **Define severity using priority labels:**
+   - "PS:: Priority High"
+   - "PS:: Priority Medium" 
+   - "PS:: Priority Low"
+
+3. **Quantify impact in terms of:**
+   - Timeline effects
+   - Scope changes
+   - Quality implications
+   - Budget consequences
+
+4. **Assign ownership:**
+   - Designate a person responsible for accepting, mitigating, or resolving the Risk
+
+5. **Detail mitigation plan:**
+   - Document specific actions to lessen or eliminate the Risk
+
+6. **Escalation process:**
+   - Use the "Escalated" label for risks requiring immediate attention that impact project progress
+   - Escalated items should be surfaced in the Professional Services Portfolio report
+
+## Internal Retrospective Guidelines
+
+The Internal Retrospective issue serves as an ongoing reflection mechanism throughout the project lifecycle, focusing on:
+
+- Capturing team accomplishments and celebrations
+- Documenting technical challenges and solutions
+- Identifying process improvements
+- Recording business development opportunities
+- Building institutional knowledge for future engagements
+
+Unlike the Customer Retrospective which occurs at project milestones and reviewed with the Customer, the Internal Retrospective serves as a way to capture improvements needed to improve our proceses and celebrate team wins
+
+### Setting Up the Internal Retrospective
+
+The Internal Retrospective is automatically created when the Customer EPIC is established:
+
+1. **Location:**
+   - The issue lives within the internal Customer EPIC
+   - It should be linked in the internal Project Slack channel for easy access
+
+2. **Template:**
+   - Use the [latest template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md?ref_type=heads) to ensure standardization
+   - The PM should ensure the template is properly populated with project information
+
+3. **Access:**
+   - This is an internal-only issue - no customer access should be granted
+   - All GitLab team members working on the project should have access
+
+### Contributing to the Internal Retrospective
+
+Team members should contribute to the Internal Retrospective throughout the project:
+
+### What to Document
+
+1. **Project Wins and Celebrations:**
+   - Technical achievements
+   - Customer praise and positive feedback
+   - Team collaboration successes
+   - Innovative solutions
+
+2. **Lessons Learned:**
+   - Technical challenges and how they were overcome
+   - Process gaps and workarounds
+   - Communication improvements
+   - Tools and techniques that proved effective
+
+3. **Opportunities for Improvement:**
+   - Areas where processes could be streamlined
+   - Documentation gaps
+   - Training needs identified
+   - Tool limitations
+
+4. **Assets Created:**
+   - Scripts and code snippets
+   - Documentation templates
+   - Configuration guidelines
+   - Customer-specific solutions with reuse potential
+   - Any Delivery Kit related updates
+
+### How to Contribute
+
+- **Ongoing Basis:** Team members should add comments to the issue as noteworthy events occur
+- **Weekly Check:** The PM should encourage updates during weekly team meetings
+- **Phase Transitions:** Special attention should be given to capturing learnings at the end of each project phase
+
+### Finalizing the Internal Retrospective
+
+At project completion, the PM should:
+
+1. **Conduct a Final Session:**
+   - Schedule a 30-60 minute Gitlab team retrospective call, inviting PS Practice team members
+   - Review contributions and synthesize key learnings
+   - Identify patterns and major takeaways
+
+2. **Categorize Learnings:**
+   - Apply appropriate labels to facilitate future searching:
+
+3. **Create Follow-up Issues:**
+   - Generate specific issues for action items
+   - Assign owners for implementation
+   - Set realistic timelines for completion
+
+An example Internal Retrospective can be found [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues/18060)]. The list of inflight and completed internal retros can be found in the "PS-Plan" Gitlab Project by searching within "Titles" and the text "Internal Retro".
+
+### Knowledge Sharing
+
+PS leadership regularly reviews retrospective data to:
+
+- Identify common challenges across projects
+- Recognize exceptional team performance
+- Inform training and enablement priorities
+- Update delivery kits and methodologies
+- Shape future service offerings
+
+### Best Practices
+
+- Keep entries objective and solution-focused
+- Include specific examples rather than generalizations
+- Maintain a balance of positive observations and improvement opportunities
+- Focus on systems and processes rather than individuals
+- Quantify impact where possible (time saved, problems avoided, etc.)
+- Suggest specific, actionable improvements
+
+## Customer Retrospective Guidelines
+
+The Customer Retrospective is a critical component of the Professional Services Delivery Methodology that provides structured feedback on the engagement alondside our Customers. It serves to:
+
+- Capture the customer's perspective on the engagement
+- Identify what went well and areas for improvement
+- Document successes and challenges for future reference
+- Strengthen the customer relationship through collaborative reflection
+- Generate insights that can inform future engagements
+- Encourage CSAT particpiation
+
+### Setting Up the Customer Retrospective
+
+The Customer Retrospective issue is automatically created when setting up the collaboration project:
+
+1. **Initial Setup:**
+   - Rename the template to "[Customer Name], [SOW/PO#]" when setting up the project CPR
+   - The issue serves as a living document that both GitLab and Customer teams can contribute to throughout the engagement
+
+2. **Ongoing Documentation:**
+   - Much like the internal retrospective, encourage Customers to document feedback throughout the engagement
+   - Regular updates help capture insights while they're fresh and relevant
+
+### Conducting the Customer Retrospective
+
+### Preparation
+
+1. **Schedule the session:**
+   - Plan a closure/retrospective meeting with the customer at the end of the PS engagement
+   - Share the retrospective issue in the meeting agenda for team members to pre-fill before the session
+
+2. **Encourage participation:**
+   - Ask team members to add their initials before their feedback under each main section
+   - If someone agrees with existing feedback, they should add their initials alongside the original contributor
+
+### During the Session
+
+The retrospective meeting should cover these key sections which are found in the issue template:
+
+1. Attendees and Date
+2. Summary of Services & Value Delivered
+3. Final Burn Down Report
+4. Retrospective Discussion
+   - What went well
+   - What could be improved
+   - Lessons Learned
+5. Feedback on PS processes or Methodology
+6. Voice of the Customer
+
+### Documenting and Following Up
+
+After the retrospective session:
+
+1. Finalize the document
+2. Apply appropriate labels
+3. Create action items
+4. Share insights within #ps-internal
+
+### Best Practices for Customer Retrospectives
+
+- Keep the tone collaborative and constructive
+- Focus on specific, actionable feedback
+- Balance discussion of challenges with celebration of accomplishments
+- Capture both technical and process-related insights
+- Ensure customer's voice is prominently featured
+- Document quotes and testimonials (with appropriate permissions)
+- Use the retrospective to strengthen the customer relationship
+
+### Additional Resources
+
+- [Retrospective Facilitation Issue/Guide](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops/-/blob/main/cpr_gitops/issue_templates/retrospective.md)
+- [Customer Survey Template](https://gitlab.gainsightcloud.com/v1/sites/survey/SurveyResponse?at=1I0025DXE6KKG8JCV1GWLAUNW5DYWBNMUL90)
+
+## Guidelines for Iteration based PSDM
+
+The full PSDM implementation with a complete Iteration schedule is required only when the Agile-specific SOW
+
+- Exceeds 5 Iterations, or
+- The engagement is planned to exceed two months
+
+Please review the [archetype definitions](./archetype-definition/_index.md) to understand what constitutes a "large" Customer engagement.
+
+Use the following guide when planning for Iteration 0:
 
 |    | Projects > 5 Iterations (~9 weeks, incl. iteration 0) | Projects < 5 Iterations |
 | -------- | ------- | ------- |
-| Managed in GitLab as SSOT | x | x |
-| Iteration 0 | x | x |
-| Internal Retrospective tracking | x | x |
-| RAID tracking | x | x |
-| Backlog Refinement | x | Only as needed |
-| Daily Standup | x (determined cadence with customer team) | Only if needed |
-| Communication Plan | x | x |
-| Iteration Planning | x | Only as needed |
-| Iteration Review (status report) | x | Weekly Status at the minimum |
-| In-project Retrospectives | x | Only if needed |
+| Managed in GitLab as SSOT | Required | Required |
+| Iteration 0 | Required | Required |
+| Internal Retrospective tracking | Required | Required |
+| RAID tracking | Required | Required |
+| Backlog Refinement | Required | Only as needed |
+| Daily Standup | Required (with customer-determined cadence) | Only if needed |
+| Communication Plan | Required | Required |
+| Iteration Planning | Required | Only as needed |
+| Iteration Review (status report) | Required | Weekly Status at minimum |
+| In-project Retrospectives | Required | Only if needed |
 
 <!--
 ##### What Kind of Engagements is PSDM Suited For?

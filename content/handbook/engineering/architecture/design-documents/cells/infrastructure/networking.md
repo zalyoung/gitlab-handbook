@@ -1,14 +1,15 @@
 ---
 title: "Cells Networking"
-status: proposed
+status: accepted
 creation-date: "2025-02-21"
 authors: [ "@sxuereb", "@tkhandelwal3" ]
 coach:
 owning-stage: "~devops::platforms"
+dris: ["@tkhandelwal3"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Pre-Reads
 

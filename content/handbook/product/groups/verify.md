@@ -24,7 +24,7 @@ Verify teams:
 - [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
 - [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
 - [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
-- [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
+- [Verify:Pipeline Security](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/)
 
 ### What do y'all do?
 
@@ -52,7 +52,7 @@ The noted DRI still owns decision-making and is still responsible for notifying/
 
 ### Workflow
 
-We work in a Kanban-style aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development-flow/).
+We work in a Kanban-style aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/product-development-flow/).
 
 ### Cross-Functional Partnership
 

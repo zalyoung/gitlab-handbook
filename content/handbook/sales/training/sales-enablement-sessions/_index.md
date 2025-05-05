@@ -9,9 +9,9 @@ The Field Enablement Spotlight is a weekly continuous education series for all G
 
 The Field Enablement Spotlight takes place each week on Thursday, with two session options to accommodate GitLab's global field sales & customer success audience.
 
-- **(Option 1) 11:00 AM (US Eastern Time)(UTC -5)** = (8 AM Pacific Time) = **(5 PM Central European Time)(UTC +1)**
+- **(Option 1) 11:00 AM (US Eastern Time)(UTC -4)** = (8 AM Pacific Time) = **(4 PM Central European Time)(UTC +1)**
 
-- **(Option 2) 12:00 PM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -8)
+- **(Option 2) 11:00 AM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -7)
 
 Attending the weekly Field Enablement Spotlight session is mandatory, with two options provided to accommodate our global audience. If team members are on paid time off or have a scheduling conflict with a customer, they may watch the session recording in a timely manner.
 
@@ -19,17 +19,24 @@ Attending the weekly Field Enablement Spotlight session is mandatory, with two o
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Spring 2025 Lineup**
+**Summer 2025 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Mar 11 | Duo Workflow - GitLab's Agentic AI Vision  | Product Marketing   |
-| Mar 20 | Co-Create Initiative   |  Customer Success   |
-| Mar 27 | Azure DevOps Competitive Enablement   |  Product Marketing  |
-| Apr 3 |  Visibility and Measurement Roadmap   |  Product Marketing  |
-| Apr 10 |  TBD   |    |
-| Apr 17 |  *No session during the last two weeks of the quarter*   |    |
-| Apr 24 |  *No session during the last two weeks of the quarter*   |    |
+| May 1 |   **No Session**      |     |
+| May 7 |   GitLab Duo Special       |     |
+| May 15 |  Business Value Platform Updates       |  RSO Team  |
+| May 22 |  Embedded Systems in the Automotive, Aerospace, and Electronics Verticals       |  Marketing  |
+| May 29 |  SFDC Product Data Integration       |  RSO Team   |
+| Jun 5 |   Customer & Ecosystems Quoting Update     |  Deal Desk & Ecosystems  |
+| Jun 12 |   Support Team Overview     | Customer Success  |
+| Jun 19 |   TBD     |    |
+| Jun 26 |   TBD      |    |
+| Jul 3 |   Hosted Runners for GitLab Dedicated      |  Product Marketing  |
+| Jul 10 |   Artifact Management Roadmap & the Competition     |  Product Marketing  |
+| Jul 17 |   GitLab Duo Special      |    |
+| Jul 24 |  *No session during the last two weeks of the quarter*   |    |
+| Jul 31 |  *No session during the last two weeks of the quarter*   |    |
 
 ## Past Sessions
 
@@ -38,6 +45,10 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-04-10 |  **[GitLab Duo with Amazon Q Enablement](https://drive.google.com/file/d/1x6T9YRvgQA2x8poE6M-RPopKYfiMECk5/view?usp=drive_link)**  |  Private  |
+| 2025-03-27 | **[FY26 Field Services Positioning Guidance](https://drive.google.com/file/d/1JNa5bKGL0ppGLl-Q4okFtBRfAqZ2kQ-9/view?usp=drive_link)**  |  Private   |
+| 2025-03-20 | **[The Customer Co-Create Initiative](https://drive.google.com/file/d/190xggRUoRndvzR4U9PJBxKUAKiF__f3T/view?usp=drive_link)**   |  Private   |
+| 2025-03-11 | **[The Future of Secure Agentic AI](https://drive.google.com/file/d/1_YdkKYgckNQqg4p8uN4xKDH42chtJlYE/view?usp=drive_link)**  | Private   |
 | 2025-03-06 |  **[Google Private Offer Updates](https://drive.google.com/file/d/1Z7GOZ8ZbjoF39nhvULzEc2osmXAyDiO4/view?usp=drive_link)**  |  Private   |
 | 2025-02-20 | **[GitLab Duo Self-Hosted Models + Security & Compliance Updates](https://drive.google.com/file/d/1s97Q-R23ZVX77inVQb1LBBk60HFkRtFZ/view?usp=drive_link)**   |  Private  |
 | 2025-02-13 |  **[Tools for Field Efficiency: HG Insights & Highspot](https://drive.google.com/file/d/12u6uNibsMuym5EcH2yvO6K2ENxGvNhBA/view?usp=drive_link)**   |  Private  |

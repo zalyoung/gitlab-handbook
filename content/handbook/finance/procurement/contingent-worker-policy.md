@@ -141,4 +141,6 @@ Any additional questions regarding GitLab’s background check policy for contra
 
 ## 10. QUESTIONS
 
-For any questions regarding Zip, purchasing and contracting process, please contact the Procurement team @procurement_team in the #procurement slack channel. For questions regarding this policy or the engagement of contingent workers, please submit a HelpLab ticket.
+For any questions regarding this policy, the Zip tool, or the purchasing and contracting process, please contact the Procurement team @procurement_team in the #procurement slack channel. 
+
+For additional information, see this [Information Guide](https://docs.google.com/document/d/1MYplRWEp9Fl1YfLr4fAS-SOYOwSf4z5BLmpJFRlmZCA/edit?usp=sharing) for an overview and frequently asked questions. 

@@ -136,4 +136,4 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Vulnerability management standard](product-security/vulnerability-management/)
 - [Application vulnerability management procedure](product-security/application-security/vulnerability-management/)
-- [Infrastructure vulnerability management procedure](product-security/vulnerability-management/Infrastructure-vulnerability-procedure/)
+- [Infrastructure vulnerability management procedure](/handbook/security/product-security/vulnerability-management/infrastructure-vulnerability-procedure/)

@@ -19,7 +19,7 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 
 **Product, Design & Quality**
 
-{{% stable-counterparts manager-role="Engineering Manager(.*)AI Framework" role="AI Framework" %}}
+{{% engineering/stable-counterparts manager-role="Engineering Manager(.*)AI Framework" role="AI Framework" %}}
 
 **Team members who are supporting this team on a short-term basis are located [here](https://comp-calculator.gitlab.net/org_chart) where "Work priorities" include "AI Framework."**
 
@@ -128,9 +128,9 @@ Issues are weighted using the Fibonacci sequence (0, 1, 2, 3, 5, 8, 13+):
 
 #### Weight Update Process
 
-Every issue assigned to the upcoming milestone needs to be weighed before applying the Deliverable label by Engineering Manager. Engineering Manager needs to check whether weight is assigned and, in case of the weight being equal or above 5, works on breaking issues down into smaller ones. 
+Every issue assigned to the upcoming milestone needs to be weighed before applying the Deliverable label by Engineering Manager. Engineering Manager needs to check whether weight is assigned and, in case of the weight being equal or above 5, works on breaking issues down into smaller ones.
 
-Engineering manager and Product Manager are responsible for asking to weight issues assigned for the upcoming milestone during weekly team meetings. They should ask engineers to read issue descriptions before the meeting so they are ready to weight them and ask questions if needed. They can split this process between more than one meeting. 
+Engineering manager and Product Manager are responsible for asking to weight issues assigned for the upcoming milestone during weekly team meetings. They should ask engineers to read issue descriptions before the meeting so they are ready to weight them and ask questions if needed. They can split this process between more than one meeting.
 
 ## 📝 AI Feature Evaluations Guidelines - Evaluate like I am 5
 

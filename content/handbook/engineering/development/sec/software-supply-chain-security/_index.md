@@ -32,7 +32,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 - [Vulnerability Pages](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/)
 - [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html)
 - [Security glossary](https://docs.gitlab.com/ee/user/application_security/terminology/)
-- [Software Supply Chain Security testing priorities](/direction/software_supply_chain_security/testing_priorities.html)
+- [Software Supply Chain Security testing priorities](http://about.gitlab.com/direction/software_supply_chain_security/testing_priorities.html)
 - [Pipeline Security](https://docs.gitlab.com/ee/ci/pipelines/pipeline_security.html)
 
 ## All Team Members
@@ -51,13 +51,13 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ### Pipeline Security
 
-{{< team-by-manager-slug manager="scott-hampton" team="Engineer(.+)Software Supply Chain Security:Pipeline Security" >}}
+{{< team-by-manager-slug manager="fabien-c" team="Engineer(.+)Software Supply Chain Security:Pipeline Security" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts role="Software Supply Chain Security" other-manager-roles="Engineering Manager(.*)Software Supply Chain Security:(.*)|Director of Engineering(.*)Software Supply Chain Security" %}}
+{{% engineering/stable-counterparts role="Software Supply Chain Security" other-manager-roles="Engineering Manager(.*)Software Supply Chain Security:(.*)|Director of Engineering(.*)Software Supply Chain Security" %}}
 
 ## Software Supply Chain Security staff meeting
 

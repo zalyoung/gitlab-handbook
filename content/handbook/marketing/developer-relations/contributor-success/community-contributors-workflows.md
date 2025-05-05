@@ -77,7 +77,7 @@ Renewal of this license:
 
 Contributors will need to create an request in this project to request their license: [Wider Community Contributor License Request](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/new?issuable_template=contributor_ee_license_request).
 
-### Processing Enterprise Edition (EE) License Requests 
+### Processing Enterprise Edition (EE) License Requests
 
 To be completed by a GitLab team member:
 
@@ -91,7 +91,7 @@ To be completed by a GitLab team member:
 - Select "GitLab L&R request for global customers" as the initial option
 - Choose "Wider community license" from the subsequent dropdown
 - Fill out the required fields provided in the request issue.
-  - Contact information: Use the requesting contributor's information 
+  - Contact information: Use the requesting contributor's information
 - Other required fields:
   - True-up: 0
   - Priority of request: Low
@@ -101,7 +101,7 @@ To be completed by a GitLab team member:
     - 1 year for renewals
   - Use Nick's email as approving manager if it is a 1 year renewal
 - In "What is the reason for the license being issued?" specify `Wider community contributor EE license request` and add a link to the license request issue.
-- Add a public comment to the request issue indicating the request has been submitted   
+- Add a public comment to the request issue indicating the request has been submitted
 - The support form, when submitted, gives the user a link to the pipeline that "creates" the request in Zendesk. Save the link to this pipeline in an internal comment in case there are any issues that need investigating later.
 
 The Support team will respond following [this workflow](/handbook/support/license-and-renewals/workflows/self-managed/creating-wider-community-license) within 24 hours.
@@ -111,7 +111,7 @@ The Support team will respond following [this workflow](/handbook/support/licens
 After license is provisioned:
 
 - Add a public comment on the issue with confirmation that the license request has been provisioned
-- Add a confidential comment with a screenshot of the "Private Note" included in the email sent to you by support 
+- Add a confidential comment with a screenshot of the "Private Note" included in the email sent to you by support
 - Close the issue
 
 ## DCO and CLA Guidance
@@ -173,9 +173,9 @@ row at the bottom with the same structure.
 
 Caution: If an organization reaches the threshold it will be auto-enrolled in the program for receiving the review-time SLO.
 
-## GitLab MVP Selection Process
+## GitLab Notable Contributor Selection Process
 
-See [GitLab MVP Selection Process](/handbook/marketing/developer-relations/contributor-success/mvp-process).
+See [GitLab Notable Contributor Selection Process](/handbook/marketing/developer-relations/contributor-success/notable-contributor-process).
 
 ## Contributor Thanks messages
 
@@ -325,7 +325,7 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 1. [Do it yourself](/handbook/values/#do-it-yourself)
 1. [Short toes](/handbook/values/#short-toes)
 1. [Collaboration is not consensus](/handbook/values/#collaboration-is-not-consensus)
-1. [Bias for action](/handbook/values/#bias-for-action)
+1. [Bias for action](/handbook/values/#operate-with-a-bias-for-action)
 1. [Disagree, commit, and disagree](/handbook/values/#disagree-and-commit)
 1. [Escalate to unblock](/handbook/values/#escalate-to-unblock)
 1. [Cleanup over sign-up](/handbook/values/#cleanup-over-sign-off)

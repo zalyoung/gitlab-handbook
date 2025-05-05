@@ -1,5 +1,6 @@
 ---
 title: "Supply Chain Risk Management Strategy"
+description: "This page outlines GitLab's comprehensive approach to supply chain risk management, providing a structured framework for identifying, assessing, and mitigating risks across the software development lifecycle while advancing toward higher SLSA compliance levels."
 ---
 
 ## Introduction
@@ -33,7 +34,7 @@ We focus our inventory and management efforts on artifacts and components within
 
 ### SLSA Supply Chain Model
 
-We align our supply chain tracking with the SLSA framework ([Specification 1.0](https://slsa.dev/spec/v1.0/)), which defines three key areas to secure:
+We align our supply chain tracking with the SLSA framework ([Specification 1.1](https://slsa.dev/spec/v1.1/)), which defines three key areas to secure:
 
 ![SLSA Supply Chain Model](/images/security/product-security/supply-chain-risk-management/supply-chain-model.svg)
 
@@ -41,13 +42,13 @@ This model illustrates the core steps we track:
 
 1. **Source**: Where code is authored, reviewed, and stored
 1. **Build**: Where source is transformed into packages/artifacts
-1. **Package**: Where built artifacts are stored and distributed
+1. **Distribution**: Where built artifacts are stored and distributed
 
 The model also depicts:
 
 - **Producer**: The entity responsible for creating the software
 - **Consumer**: The entity consuming the software (another supply chain, or end-user)
-- **Dependencies**: Internal and external components that feed into the build and package processes
+- **Dependencies**: Internal and external components that feed into the Build and Distribution processes
 
 For each artifact in our supply chain, we track its path through these three core steps, documenting controls and provenance at each stage.
 
@@ -55,7 +56,7 @@ For each artifact in our supply chain, we track its path through these three cor
 
 Our model identifies specific component types within each core step of the supply chain. These types serve as reference elements to be used when describing a particular subset of the supply chain. Note that not all components will be present in every supply chain - the categorization below provides a framework for comprehensive modeling.
 
-These types are linked to [SLSA threats](https://slsa.dev/spec/v1.0/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below. Risks can be linked to a subtype if more granularity is needed.
+These types are linked to [SLSA threats](https://slsa.dev/spec/v1.1/threats) in the PSRR to create comprehensive risks, see the "[Threats](#threats)" section below. Risks can be linked to a subtype if more granularity is needed.
 
 #### Source components
 
@@ -63,16 +64,16 @@ The Source core step includes everything that can edit and alter the source code
 
 | Component type | Sub type | Label |
 | -- | -- | -- |
-| **Development Dependencies** | (Wraps all sub-types below) | `~sscs-rm-component:src:dev-dependencies` |
-|  | Development environment setup tools and dependencies (ex: [asdf](https://asdf-vm.com/)/[mise](https://mise.jdx.dev/)) | `~sscs-rm-component:src:dev-setup-tools` |
-|  | IDEs (including extensions and plugins) | `~sscs-rm-component:src:IDEs` |
-|  | Docker images | `~sscs-rm-component:src:source-docker-images` |
-|  | Pre-commit hooks | `~sscs-rm-component:src:pre-commit-hooks` |
-|  | Local code formatters and linters | `~sscs-rm-component:src:linters` |
-| **GitLab Repositories** | (Wraps all sub-types below) | `~sscs-rm-component:src:gitlab-repo` |
-|  | Project configuration | `~sscs-rm-component:source-repo` |
-|  | [Code Owners](https://docs.gitlab.com/user/project/codeowners/) configuration | `~sscs-rm-component:src:repo` |
-|  | Repository access controls | `~sscs-rm-component:src:access-control` |
+| **Development Dependencies** | (Wraps all sub-types below) | [`~sscs-rm-component:src:dev-dependencies`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:dev-dependencies&first_page_size=100) |
+|  | Development environment setup tools and dependencies (ex: [asdf](https://asdf-vm.com/)/[mise](https://mise.jdx.dev/)) | [`~sscs-rm-component:src:dev-setup-tools`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:dev-setup-tools&first_page_size=100) |
+|  | IDEs (including extensions and plugins) | [`~sscs-rm-component:src:IDEs`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:IDEs&first_page_size=100) |
+|  | Docker images | [`~sscs-rm-component:src:docker-images`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:docker-images&first_page_size=100) |
+|  | Pre-commit hooks | [`~sscs-rm-component:src:pre-commit-hooks`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:pre-commit-hooks&first_page_size=100) |
+|  | Local code formatters and linters | [`~sscs-rm-component:src:linters`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:linters&first_page_size=100) |
+| **GitLab Repositories** | (Wraps all sub-types below) | [`~sscs-rm-component:src:repo`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:repo&first_page_size=100) |
+|  | Project configuration | [`~sscs-rm-component:src:repo-config`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:repo-config&first_page_size=100) |
+|  | [Code Owners](https://docs.gitlab.com/user/project/codeowners/) configuration | [`~sscs-rm-component:src:repo-code-owners`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:repo-code-owners&first_page_size=100) |
+|  | Repository access controls | [`~sscs-rm-component:src:repo-access-control`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:src:repo-access-control&first_page_size=100) |
 
 #### Build components
 
@@ -80,47 +81,47 @@ The Build core step includes everything that can transform the source code (comp
 
 | Component type | Sub type | Label |
 | -- | -- | -- |
-| **CI/CD** | (Wraps all sub-types below) | `~sscs-rm-component:build:dev-dependencies` |
-|  | GitLab Runners | `~sscs-rm-component:build:gitlab-runners` |
-|  | CI/CD templates | `~sscs-rm-component:build:ci-templates` |
-|  | CI/CD Components | `~sscs-rm-component:build:ci-components` |
-| **Build images** | (Wraps all sub-types below) | `~sscs-rm-component:build:build-images` |
-|  | Base Docker images | `~sscs-rm-component:build:base-docker-images` |
-|  | Intermediate images | `~sscs-rm-component:build:intermediate-images` |
-|  | Container build tools | `~sscs-rm-component:build:container-build-tools` |
-|  | Container registries | `~sscs-rm-component:build:container-registries` |
-| **Runtime Dependencies** | (Wraps all sub-types below) | `~sscs-rm-component:build:runtime-dependencies` |
-|  | Ruby Gems | `~sscs-rm-component:build:ruby-gems` |
-|  | NPM packages | `~sscs-rm-component:build:npm-packages` |
-|  | Go modules | `~sscs-rm-component:build:go-modules` |
-|  | Python packages | `~sscs-rm-component:build:python-packages` |
-|  | Other language-specific dependencies | `~sscs-rm-component:build:other-lang-dependencies` |
-| **Secrets** | (Wraps all sub-types below) | `~sscs-rm-component:build:secrets` |
-|  | Vault | `~sscs-rm-component:build:vault` |
-|  | CI/CD variables | `~sscs-rm-component:build:ci-variables` |
-|  | Key management systems | `~sscs-rm-component:build:key-management` |
-|  | Certificate authorities | `~sscs-rm-component:build:certificate-authorities` |
-|  | Signing infrastructure | `~sscs-rm-component:build:signing-infrastructure` |
+| **CI/CD** | (Wraps all sub-types below) | [`~sscs-rm-component:build:ci-cd`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:ci-cd&first_page_size=100) |
+|  | GitLab Runners | [`~sscs-rm-component:build:gitlab-runners`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:gitlab-runners&first_page_size=100) |
+|  | CI/CD templates | [`~sscs-rm-component:build:ci-templates`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:ci-templates&first_page_size=100) |
+|  | CI/CD Components | [`~sscs-rm-component:build:ci-components`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:ci-components&first_page_size=100) |
+| **Build images** | (Wraps all sub-types below) | [`~sscs-rm-component:build:build-images`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:build-images&first_page_size=100) |
+|  | Base Docker images | [`~sscs-rm-component:build:base-docker-images`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:base-docker-images&first_page_size=100) |
+|  | Intermediate images | [`~sscs-rm-component:build:intermediate-images`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:intermediate-images&first_page_size=100) |
+|  | Container build tools | [`~sscs-rm-component:build:container-build-tools`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:container-build-tools&first_page_size=100) |
+|  | Container registry | [`~sscs-rm-component:build:container-registry`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:container-registry&first_page_size=100) |
+| **Runtime Dependencies** | (Wraps all sub-types below) | [`~sscs-rm-component:build:runtime-dependencies`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:runtime-dependencies&first_page_size=100) |
+|  | Ruby Gems | [`~sscs-rm-component:build:ruby-gems`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:ruby-gems&first_page_size=100) |
+|  | NPM packages | [`~sscs-rm-component:build:npm-packages`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:npm-packages&first_page_size=100) |
+|  | Go modules | [`~sscs-rm-component:build:go-modules`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:go-modules&first_page_size=100) |
+|  | Python packages | [`~sscs-rm-component:build:python-packages`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:python-packages&first_page_size=100) |
+|  | Other language-specific dependencies | [`~sscs-rm-component:build:other-packages`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:other-packages&first_page_size=100) |
+| **Secrets** | (Wraps all sub-types below) | [`~sscs-rm-component:build:secrets`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:secrets&first_page_size=100) |
+|  | Vault | [`~sscs-rm-component:build:vault`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:vault&first_page_size=100) |
+|  | CI/CD variables | [`~sscs-rm-component:build:ci-variables`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:ci-variables&first_page_size=100) |
+|  | Key management systems | [`~sscs-rm-component:build:key-management`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:key-management&first_page_size=100) |
+|  | Certificate authorities | [`~sscs-rm-component:build:certificate-authorities`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:certificate-authorities&first_page_size=100) |
+|  | Signing infrastructure | [`~sscs-rm-component:build:signing-infra`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:build:signing-infra&first_page_size=100) |
 
-#### Package components
+#### Distribution components
 
 | Component type | Sub type | Label |
 | -- | -- | -- |
-| **Registries** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:registries` |
-|  | Package registries | `~sscs-rm-component:pkg:package-registries` |
-|  | Container registries | `~sscs-rm-component:pkg:container-registries` |
-| **Distribution Infrastructure** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:distribution-infrastructure` |
-|  | CDNs | `~sscs-rm-component:pkg:cdns` |
-|  | Mirror services | `~sscs-rm-component:pkg:mirror-services` |
-|  | Download servers | `~sscs-rm-component:pkg:download-servers` |
-| **Verification Systems** | (Wraps all sub-types below) | `~sscs-rm-component:pkg:verification-systems` |
-|  | Signature verification | `~sscs-rm-component:pkg:signature-verification` |
-|  | Checksumming services | `~sscs-rm-component:pkg:checksumming-services` |
-|  | Attestation systems | `~sscs-rm-component:pkg:attestation-systems` |
+| **Registries** | (Wraps all sub-types below) | [`~sscs-rm-component:dis:registries`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:registries&first_page_size=100) |
+|  | Package registry | [`~sscs-rm-component:dis:package-registry`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:package-registry&first_page_size=100) |
+|  | Container registry | [`~sscs-rm-component:dis:container-registry`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:container-registry&first_page_size=100) |
+| **Distribution Infrastructure** | (Wraps all sub-types below) | [`~sscs-rm-component:dis:distribution-infra`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:distribution-infra&first_page_size=100) |
+|  | CDNs | [`~sscs-rm-component:dis:cdns`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:cdns&first_page_size=100) |
+|  | Mirror services | [`~sscs-rm-component:dis:mirror-services`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:mirror-services&first_page_size=100) |
+|  | Download servers | [`~sscs-rm-component:dis:download-servers`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:download-servers&first_page_size=100) |
+| **Verification Systems** | (Wraps all sub-types below) | [`~sscs-rm-component:dis:verification-systems`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:verification-systems&first_page_size=100) |
+|  | Signature verification | [`~sscs-rm-component:dis:signature-verification`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:signature-verification&first_page_size=100) |
+|  | Checksumming services | [`~sscs-rm-component:dis:checksumming-services`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:checksumming-services&first_page_size=100) |
+|  | Attestation systems | [`~sscs-rm-component:dis:attestation-systems`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-component:dis:attestation-systems&first_page_size=100) |
 
-### SLSA 1.0 Alignment
+### SLSA 1.1 Alignment
 
-This framework is based on the Supply chain Levels for Software Artifacts (SLSA) specification 1.0. We deliberately adopt SLSA terminology and concepts to ensure consistency with industry standards and facilitate compliance efforts. Key SLSA elements incorporated into our model include:
+This framework is based on the Supply chain Levels for Software Artifacts (SLSA) specification 1.1. We deliberately adopt SLSA terminology and concepts to ensure consistency with industry standards and facilitate compliance efforts. Key SLSA elements incorporated into our model include:
 
 - Build provenance documentation
 - Source verification
@@ -130,29 +131,56 @@ This framework is based on the Supply chain Levels for Software Artifacts (SLSA)
 
 #### Threats
 
-SLSA [defines a set of threats](https://slsa.dev/spec/v1.0/threats) that are used in the PSRR to link elements of the model to risks:
+SLSA [defines a set of threats](https://slsa.dev/spec/v1.1/threats) that are used in the PSRR to link elements of the model to risks:
 
 ![SLSA Threats](/images/security/product-security/supply-chain-risk-management/supply-chain-threats.svg)
 
-| Threat area | Threat | Label |
-| -- | -- | -- |
-| Source | (A) Submit unauthorized change | `~sscs-rm-threat::a-submit-unauthorized-change` |
-|        | (B) Compromise source repo | `~sscs-rm-threat::b-compromise-source-repo` |
-|        | (C) Build from modified source | `~sscs-rm-threat::c-build-from-modified-source` |
-| Dependency | (D) Use compromised dependency | `~sscs-rm-threat::d-use-compromised-dependency` |
-| Build  | (E) Compromise build process | `~sscs-rm-threat::e-compromise-build-process` |
-|        | (F) Upload modified package | `~sscs-rm-threat::f-upload-modified-package` |
-|        | (G) Compromise package registry | `~sscs-rm-threat::g-compromise-pkg-registry` |
-|        | (H) Use compromised package | `~sscs-rm-threat::h-use-compromised-pkg` |
-
-### SBOM Integration
-
-Software Bills of Materials (SBOMs) play a crucial role in connecting different supply chains. For each artifact we produce:
-
-- We generate a comprehensive SBOM
-- The SBOM documents all dependencies and their sources
-- These SBOMs serve as the "connective tissue" between different supply chain segments
-- SBOMs provide traceability from any artifact back through its entire dependency tree
+| Threat area | Threat | Description | Label |
+| -- | -- | -- | -- |
+| Source | [(A) Producer](https://slsa.dev/spec/v1.1/threats#a-producer) | Software producer intentionally creates a malicious revision of the source | [`~sscs-rm-threat::a-malicious-source`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::a-malicious-source&first_page_size=100) |
+| | [(B) Modifying the source](https://slsa.dev/spec/v1.1/threats#b-modifying-the-source) -> [(B1) Submit change without review](https://slsa.dev/spec/v1.1/threats#b1-submit-change-without-review) | Directly submit without review | [`~sscs-rm-threat::b1-submit-without-review`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b1-submit-without-review&first_page_size=100) |
+| | | Single actor controls multiple accounts | [`~sscs-rm-threat::b1-actor-controls-multiple-accounts`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b1-actor-controls-multiple-accounts&first_page_size=100) |
+| | | Use a robot account to submit change | [`~sscs-rm-threat::b1-robot-account-submit`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b1-robot-account-submit&first_page_size=100) |
+| | | Abuse of rule exceptions | [`~sscs-rm-threat::b1-abuse-rule-exceptions`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b1-abuse-rule-exceptions&first_page_size=100) |
+| | | Highly-permissioned actor bypasses or disables controls | [`~sscs-rm-threat::b1-bypass-controls`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b1-bypass-controls&first_page_size=100) |
+| | [(B) Modifying the source](https://slsa.dev/spec/v1.1/threats#b-modifying-the-source) -> [(B2) Evade change management process](https://slsa.dev/spec/v1.1/threats#b2-evade-change-management-process) | Modify code after review | [`~sscs-rm-threat::b2-modify-after-review`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b2-modify-after-review&first_page_size=100) |
+| | | Submit a change that is unreviewable | [`~sscs-rm-threat::b2-unreviewable-change`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b2-unreviewable-change&first_page_size=100) |
+| | | Copy a reviewed change to another context | [`~sscs-rm-threat::b2-copy-to-another-context`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b2-copy-to-another-context&first_page_size=100) |
+| | | Commit graph attacks | [`~sscs-rm-threat::b2-commit-graph-attacks`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b2-commit-graph-attacks&first_page_size=100) |
+| | [(B) Modifying the source](https://slsa.dev/spec/v1.1/threats#b-modifying-the-source) -> [(B3) Render code review ineffective](https://slsa.dev/spec/v1.1/threats#b3-render-code-review-ineffective) | Collude with another trusted person | [`~sscs-rm-threat::b3-collusion`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b3-collusion&first_page_size=100) |
+| | | Trick reviewer into approving bad code | [`~sscs-rm-threat::b3-trick-reviewer`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b3-trick-reviewer&first_page_size=100) |
+| | | Reviewer blindly approves changes | [`~sscs-rm-threat::b3-blind-approval`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b3-blind-approval&first_page_size=100) |
+| | [(B) Modifying the source](https://slsa.dev/spec/v1.1/threats#b-modifying-the-source) -> [(B4) Render change metadata ineffective](https://slsa.dev/spec/v1.1/threats#b4-render-change-metadata-ineffective) | Forge change metadata | [`~sscs-rm-threat::b4-forge-metadata`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::b4-forge-metadata&first_page_size=100) |
+| | [(C) Source code management](https://slsa.dev/spec/v1.1/threats#c-source-code-management) | Platform admin abuses privileges | [`~sscs-rm-threat::c-admin-abuse`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::c-admin-abuse&first_page_size=100) |
+| | | Exploit vulnerability in SCM | [`~sscs-rm-threat::c-exploit-scm-vulnerability`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::c-exploit-scm-vulnerability&first_page_size=100) |
+| Build | [(D) External build parameters](https://slsa.dev/spec/v1.1/threats#d-external-build-parameters) | Build from unofficial fork of code | [`~sscs-rm-threat::d-unofficial-fork`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::d-unofficial-fork&first_page_size=100) |
+| | | Build from unofficial branch or tag | [`~sscs-rm-threat::d-unofficial-branch`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::d-unofficial-branch&first_page_size=100) |
+| | | Build from unofficial build steps | [`~sscs-rm-threat::d-unofficial-steps`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::d-unofficial-steps&first_page_size=100) |
+| | | Build from unofficial parameters | [`~sscs-rm-threat::d-unofficial-parameters`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::d-unofficial-parameters&first_page_size=100) |
+| | | Build from modified version of code modified after checkout | [`~sscs-rm-threat::d-modified-after-checkout`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::d-modified-after-checkout&first_page_size=100) |
+| | [(E) Build process](https://slsa.dev/spec/v1.1/threats#e-build-process) | Forge values of the provenance (other than output digest) | [`~sscs-rm-threat::e-forge-provenance-values`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::e-forge-provenance-values&first_page_size=100) |
+| | | Forge output digest of the provenance | [`~sscs-rm-threat::e-forge-output-digest`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::e-forge-output-digest&first_page_size=100) |
+| | | Compromise project owner | [`~sscs-rm-threat::e-compromise-owner`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::e-compromise-owner&first_page_size=100) |
+| | | Compromise other build | [`~sscs-rm-threat::e-compromise-other-build`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::e-compromise-other-build&first_page_size=100) |
+| | | Steal cryptographic secrets | [`~sscs-rm-threat::e-steal-secrets`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::e-steal-secrets&first_page_size=100) |
+| | | Poison the build cache | [`~sscs-rm-threat::e-poison-cache`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::e-poison-cache&first_page_size=100) |
+| | | Compromise build platform admin | [`~sscs-rm-threat::e-compromise-platform-admin`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::e-compromise-platform-admin&first_page_size=100) |
+| | [(F) Artifact publication](https://slsa.dev/spec/v1.1/threats#f-artifact-publication) | Build with untrusted CI/CD | [`~sscs-rm-threat::f-untrusted-cicd`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::f-untrusted-cicd&first_page_size=100) |
+| | | Upload package without provenance | [`~sscs-rm-threat::f-upload-without-provenance`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::f-upload-without-provenance&first_page_size=100) |
+| | | Tamper with artifact after CI/CD | [`~sscs-rm-threat::f-tamper-after-cicd`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::f-tamper-after-cicd&first_page_size=100) |
+| | | Tamper with provenance | [`~sscs-rm-threat::f-tamper-with-provenance`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::f-tamper-with-provenance&first_page_size=100) |
+| | [(G) Distribution channel](https://slsa.dev/spec/v1.1/threats#g-distribution-channel) | Build with untrusted CI/CD | [`~sscs-rm-threat::g-untrusted-cicd`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::g-untrusted-cicd&first_page_size=100) |
+| | | Issue VSA from untrusted intermediary | [`~sscs-rm-threat::g-untrusted-vsa`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::g-untrusted-vsa&first_page_size=100) |
+| | | Upload package without provenance or VSA | [`~sscs-rm-threat::g-upload-without-verification`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::g-upload-without-verification&first_page_size=100) |
+| | | Replace package and VSA with another | [`~sscs-rm-threat::g-replace-package-vsa`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::g-replace-package-vsa&first_page_size=100) |
+| | | Tamper with artifact after upload | [`~sscs-rm-threat::g-tamper-after-upload`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::g-tamper-after-upload&first_page_size=100) |
+| | | Tamper with provenance or VSA | [`~sscs-rm-threat::g-tamper-verification`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::g-tamper-verification&first_page_size=100) |
+| Usage | [(H) Package selection](https://slsa.dev/spec/v1.1/threats#h-package-selection) | Dependency confusion | [`~sscs-rm-threat::h-dependency-confusion`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::h-dependency-confusion&first_page_size=100) |
+| | | Typosquatting | [`~sscs-rm-threat::h-typosquatting`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::h-typosquatting&first_page_size=100) |
+| | [(I) Usage](https://slsa.dev/spec/v1.1/threats#i-usage) | Improper usage | [`~sscs-rm-threat::i-improper-usage`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::i-improper-usage&first_page_size=100) |
+| Dependency | [Build dependency](https://slsa.dev/spec/v1.1/threats#build-dependency) | Include a vulnerable dependency | [`~sscs-rm-threat::dep-vulnerable-dependency`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::dep-vulnerable-dependency&first_page_size=100) |
+| | | Use a compromised build tool | [`~sscs-rm-threat::dep-compromised-build-tool`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::dep-compromised-build-tool&first_page_size=100) |
+| | | Use a compromised runtime dependency during the build | [`~sscs-rm-threat::dep-compromised-runtime-dependency`](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=sscs-rm-threat::dep-compromised-runtime-dependency&first_page_size=100) |
 
 ## Integration with the Product Security Risk Register
 
@@ -161,7 +189,7 @@ The Supply Chain Risk Management Strategy serves as a critical foundation for th
 1. **Risk Mapping Requirements**
 
    - Every supply chain risk in the PSRR must reference specific components from this model
-   - By extension, risks identifies which part of the supply chain step is affected (Source, Build, or Package)
+   - By extension, risks identifies which part of the supply chain step is affected (Source, Build, or Distribution)
    - Risk documentation can include specific artifacts involved
    - The potential for risk propagation through the supply chain should be documented
 
@@ -231,18 +259,11 @@ The following metrics represent future/North Star indicators. These are not curr
 Success in our supply chain risk management strategy will be measured by:
 
 | Metric | Possible methodology | Dependencies |
-| -- | -- | -- | 
+| -- | -- | -- |
 | Completeness of risk assessment coverage across all components and artifacts | Track threat models done for each component. | [Inventory of GitLab public artifacts](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/73) |
 | Quantifiable reduction in supply chain security incidents and vulnerabilities | Create new labels to track down incidents and vulnerabilities related to our supply chain. | AppSec team |
 | Decreased mean time to detect and respond to supply chain threats | Risks in the PSRR should have remediation issues linked, but also detection issues. | PSRR |
-| Progressive achievement of higher SLSA levels with documented risk reduction | Track implemented [SLSA requirements](https://slsa.dev/spec/v1.0/requirements). | This [Epic](https://gitlab.com/groups/gitlab-org/-/epics/15857) for SLSA Level 3 support. |
+| Progressive achievement of higher SLSA levels with documented risk reduction | Track implemented [SLSA requirements](https://slsa.dev/spec/v1.1/requirements). | This [Epic](https://gitlab.com/groups/gitlab-org/-/epics/15857) for SLSA Level 3 support. |
 | Successful passing of external security audits with minimal findings | Map findings related to supply chain. Loop back with coverage above to make sure previously unknown risks are logged. | SecAssurance / AppSec |
 | Improved visibility and quantification of supply chain risks and dependencies | Track "dead-ends" in supply chains (missing information). | Each risk is labeled correctly in the PSRR & [Inventory of GitLab public artifacts](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/73) |
 | Reduced number of critical and high-risk components in the supply chain | Number of components with risk score above a shreshold. | PSRR |
-
-## References and Resources
-
-- [SLSA 1.0 Specifications and Requirements](https://slsa.dev/spec/v1.0/)
-- [NIST Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)
-- [SPDX SBOM Format](https://spdx.dev/)
-- [CycloneDX SBOM Format](https://cyclonedx.org/)

@@ -88,18 +88,18 @@ Some initial validation steps will occur automatically:
 
 If any of these are inaccurate, the ticket will be closed.
 
-If the user is not eligible for support, for example a free user requesting 2FA removal, use the [`General::Forms::Incorrect form used` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Forms/Incorrect%20form%20used.md) to have Support Operations take the appropriate action on the ticket.
+If a user submits a 2FA reset request ticket using the `2FA Assistance` category but does not use the `2FA removal` ticket subcategory, set the form subcategory to `2FA removal`. If the ticket is obviously about 2FA reset but the customer didn't use any of the 2FA ticket categories, use the [`General::Forms::Incorrect form used` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Forms/Incorrect%20form%20used.md) to have Support Operations take the appropriate action on the ticket. If the user is not eligible for support, the ticket will automatically close.
 
 ##### Step 1: Checking challenge answers
 
 > **Note**: In case the user sends back very minimal information and it's clear it's not sufficient or the answers are vague, reply asking for more information immediately after their response. You can provide some additional guidance, such as "please provide the exact date and time of the commit, not just an approximate one".
 
 1. To verify the challenge answers use the Zendesk GitLab User Lookup App or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
-1. Use the ZenDesk GitLab Super App's 2FA Helper to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
+1. Use the ZenDesk GitLab Super App's 2FA Helper to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-an-individual-trying-to-access-their-own-account) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
    - Challenge answers must be evaluated against a paid namespace if the user is a member of any paid namespace. If the user is not a member of a paid namespace, refer to [Conditions for 2FA Reset Consideration](#conditions-when-account-is-used-to-access-customers-portal) for further guidance.
 
-1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team via Slack `#support_gitlab-com`. They will perform the steps in 2a
-1. **If the verification failed**: Move to step 2b
+1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team via Slack `#support_gitlab-com`. They will perform the steps in 2a.
+1. **If the verification failed**: Move to step 2b.
 
 ##### Step 2a: User successfully proves account ownership
 
@@ -120,7 +120,18 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 
 #### Request for 2FA removal initiated by an Enterprise owner
 
-Requests initiated by an Enterprise owner should include a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin). If other challenges are sent, note that owners should answer the challenges in reference to their **own** account. Other answers are not acceptable.
+Requests initiated by an Enterprise owner should include a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin).
+
+Note that Zendesk performs the following checks when a ticket is submitted for 2FA removal initiated by an Enterprise owner:
+
+1. Has support entitlement?
+1. Requester email domain matches target email domain?
+1. Requester is owner of top-level paid namespace?
+1. Target is a member under the top-level paid namespace?
+
+If any of those fail, then the user is sent the regular 2FA challenges. Use [step 1b](#step-1b-checking-challenge-answers) below in this case.
+
+If other challenges are sent, note that owners should answer the challenges in reference to their **own** account. Other answers are not acceptable.
 
 ##### Step 0: Validation
 
@@ -132,11 +143,28 @@ Some initial validation steps will occur automatically:
 
 If any of these are inaccurate, the ticket will be closed.
 
-##### Step 1: Checking challenge answers
+##### Step 1a: Verifying Support PIN
 
-> **Note**: In case the user sends back very minimal information and it's clear it's not sufficient or the answers are vague, reply asking for more information immediately after their response. As an Enterprise owner, the ticket response generated by the form should also include a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin). If it does not, move to [step 2b](#step-2b-enterprise-owner-fails-to-prove-their-identity) below.
+> **Note**: In case the user sends back very minimal information and it's clear it's not sufficient or the answers are vague, reply asking for more information immediately after their response.
 
+1. **If the user was sent regular challenge answers**, use [step 1b](#step-1b-checking-challenge-answers) instead.
+1. Use the ZenDesk GitLab Super App's 2FA Helper ([as of May 1, 2025](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/1)) to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-an-enterprise-owner-operating-on-an-enterprise-user-account) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
 1. To verify the Support PIN use admin access and check at `https://gitlab.com/admin/users/USERNAME`.
+1. Since the user was sent the Support PIN response, the other required conditions are already matched:
+    - Requester is an Enterprise owner
+    - Target is an Enterprise user
+
+1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team via Slack `#support_gitlab-com`. They will perform the steps in 2a.
+1. **If the verification failed**: Move to step 2b.
+
+##### Step 1b: Checking challenge answers
+
+> **Note**: In case the user sends back very minimal information and it's clear it's not sufficient or the answers are vague, reply asking for more information immediately after their response.
+
+1. Skip this step if the user was sent the Support PIN autoresponse in Zendesk.
+1. To verify the challenge answers use the Zendesk GitLab User Lookup App or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
+1. Use the ZenDesk GitLab Super App's 2FA Helper to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
+   - Challenge answers must be evaluated against a paid namespace if the user is a member of any paid namespace. If the user is not a member of a paid namespace, refer to [Conditions for 2FA Reset Consideration](#conditions-when-account-is-used-to-access-customers-portal) for further guidance.
 
 1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team via Slack `#support_gitlab-com`. They will perform the steps in 2a
 1. **If the verification failed**: Move to step 2b
@@ -156,6 +184,7 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 
 1. If the user is unable to pass the risk factor:
    1. Send the additional challenges with the `Support::SaaS::GitLab.com::2FA::Additional 2FA Challenges` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/Additional%202FA%20Challenges.md?ref_type=heads).
+   1. You can ask the owner to generate a [Support PIN](https://docs.gitlab.com/user/profile/#generate-or-change-your-support-pin) and provide it to us in a response to the ticket, as an owner vouch. NOTE: If another user is CC'd on the ticket, once you’ve verified the Support PIN ask the user to generate a new PIN to revoke the previous one.
    1. You may also leverage [Backup methods for authenticating an owner](#backup-methods-for-authenticating-an-owner).
 1. If the user is still unable to pass the risk factor:
    1. Inform them that without verification we will not be able to remove 2FA, use the `Support::SaaS::Gitlab.com::2FA::2FA Removal Verification - GitLab.com - Failed - Final Response` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20GitLab.com%20-%20Failed%20-%20Final%20Response.md?ref_type=heads).
@@ -165,10 +194,15 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 
 If a group owner does not include the owner vouch, you may use another method to verify their identity. It must be an action that has been specifically instructed by Support and identifiably unique to the situation. Some examples include having the owner:
 
+- create a [private snippet](https://docs.gitlab.com/user/snippets/#create-snippets), containing the ticket number as a string.
 - create an issue in a project they have access to with a specific piece of text that you provide.
 - create a new project at a path that you provide.
 
 ## Large Customers
+
+{{< alert type="note" >}}
+Note: This process is [being deprecated on April 30, 2025](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/462). All customers using this process have been notified.
+{{< /alert >}}
 
 For customers who are large enough to have an account management project, a different workflow can be configured for them that will allow Support to more easily disable 2FA for any of their users that require it. Before this process can be used, a GitLab team member from either Customer Success or Sales must perform a few setup steps (described below). If a customer requests this workflow, please refer them to either of those individuals.
 

@@ -192,11 +192,9 @@ indicates it has been deployed to production.
 See [this](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#status-of-a-merged-mr-or-a-commit)
 guide for more information.
 
-### I found a regression in the QA issue, what do I do next?
+### I found a regression, what do I do next?
 
 If you've found a regression with a potentially high [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity), immediately follow the steps in [Deployment blockers](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to halt the deployment.
-
-If a regression is found in a new feature, and only that feature is affected, follow the directions in the QA issue created in the [release/tasks](https://gitlab.com/gitlab-org/release/tasks/) project for a regular regression.
 
 For high severity bugs found in the lead up to the [monthly release](/handbook/engineering/releases/) please also alert the Release Managers in [#releases](https://gitlab.slack.com/archives/C0XM5UU6B).
 

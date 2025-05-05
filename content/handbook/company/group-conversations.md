@@ -9,22 +9,9 @@ Group conversations are recurring events providing regular updates and an additi
 
 All Team Members are invited to participate in Group Conversations by adding questions and comments in the [Group Conversation issue](https://gitlab.com/gitlab-com/group-conversations/-/issues), which is linked in every announcement by the respective host.
 
-If you have suggestions for improving the Attendee or Meeting Leader experience please create a Merge Request (MR) to update this page — [everyone can contribute](/handbook/company/strategy/#why)!
+If you have suggestions for improving the Attendee or Meeting Leader experience please create a Merge Request (MR) to update this page — [everyone can contribute](/handbook/company/mission/#contribute-to-gitlab-company)!
 
 Due to low attendance of the sync meetings, Group Conversations moved to being fully [asynchronous](/handbook/company/culture/all-remote/asynchronous/) in FY24-Q4.
-
-## Group Conversation vs. Key Review
-
-It's common to wonder what the difference is between these two meetings. Generally, they cover the same or similar content, but for different audiences.
-
-|  | Key Review | Group Conversation |
-| --- | ---------- | ------------------ |
-| **Audience** | Management | General GitLab Team |
-| **Tone** | Formal | Informational |
-| **Discussion** | High-context | [Low-context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) |
-
-The [Key Review](/handbook/company/key-review/) is intended for senior leadership to ask questions. The Group Conversation is open to the entire GitLab team to ask questions. We have both to give the senior leaders enough time to ask questions since the Group Conversations often have general questions unrelated to slide deck. Both are also a good place for sharing news and explaining initiatives. The same deck is generally used for both events, except that the Group Conversation one will have any material non-public information (MNPI) removed. Here's a brief discussion of why we have both meetings, and how they can operate effectively:
-<figure class="video_container"><iframe src="https://www.youtube.com/embed/tLOMA3663XM"></iframe></figure>
 
 ## For Attendees
 
@@ -71,8 +58,6 @@ Please see `${INSERT_LINK}` for the Group Conversation Issue, which includes lin
 
 Use presentations to document everything people should know about your group. If the GC is for a group that didn't have a Key Review, and are preparing new slides, the slides should start with the top 3-5 highlights or top of mind updates that are relevant across functions, followed by additional information. These presentations are for attendees to review and generate questions from for the call, and attendees will often have [low context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) around your function or team.
 
-Functions with Key Reviews should not create a new deck for a Group Conversation but should use their [Key Review deck](/handbook/company/key-review/#group-conversations-and-key-review-metrics) for the Group Conversation. If the Key review deck has MNPI, then a copy without MNPI should be created.
-
 You can also record and upload a [YouTube video](/handbook/marketing/marketing-operations/youtube/) if there is additional context that would be beneficial to supplement the slides.
 
 There are three layers of content in a presentation:
@@ -88,7 +73,7 @@ Best practices for presentations:
 1. Slides with a lot of text that can be read on their own with lots of links are appreciated.
 1. If you want to present, please consider [posting a recording to YouTube](/handbook/marketing/marketing-operations/youtube/) at least 72 hours before the meeting. Link it to the Google Doc (including specifying whether the video is private or public), and mention it in the relevant slack channels.
 1. Once a quarter, add a slide covering items being actioned from the engagement survey.
-1. Use this [slide deck](https://docs.google.com/presentation/d/16FZd01-zCj_1jApDQI7TzQMFnW2EGwtQoRuX82dkOVs/edit?usp=sharing) as the template for your presentation. Presentations should allow editing (preferred) or commenting from everyone at GitLab so that [everyone can contribute](/handbook/company/strategy/#why).
+1. Use this [slide deck](https://docs.google.com/presentation/d/16FZd01-zCj_1jApDQI7TzQMFnW2EGwtQoRuX82dkOVs/edit?usp=sharing) as the template for your presentation. Presentations should allow editing (preferred) or commenting from everyone at GitLab so that [everyone can contribute](/handbook/company/mission/#contribute-to-gitlab-company).
 1. We encourage you to share metrics and key results during your Group Conversation. Please do not use cumulative metrics in your Group Conversations since those will usually show an upward trend and make it difficult to assess current performance. It is more appropriate to share cumulative metrics externally. See [#8 of the general presentation suggestions](/handbook/communication/#presentations) for more information about cumulative metrics.
 
 For more general presentation best practices, please see our communication handbook's [Presentation section](/handbook/communication/#presentations).
@@ -127,9 +112,8 @@ If your Group Conversation is optional and you need to move the date, please wor
 | [Support](/handbook/support/) | Johnny Scarborough | Yes | Quarterly | @lbot @lyle @vparsons| EBA to Engineering |
 | [Security](/handbook/security/) | Josh Lemos | Yes | Quarterly| | EBA to Security |
 | [Development](/handbook/engineering/development/) | Tim Zallmann | Yes | Quarterly | | EBA to Engineering |
-| [Infrastructure & Quality](/handbook/engineering/infrastructure-quality/) | Mek Stittri | Yes | Quarterly | | EBA to Engineering |
 | [Alliances](/handbook/alliances/) | Nima Badiey | No | Quarterly | | EBA to VP of Alliances |
-| [IT](/handbook/business-technology/it) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
+| [IT](/handbook/business-technology/) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
 | [Data](/handbook/enterprise-data/) | Amie Bright | Yes | Quarterly | | EBA to VP of Business Technology |
 
 ## Current Schedule
@@ -170,7 +154,6 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Thursday 2025-01-02 | Support | Johnny Scarborough | December 16 |
 | Monday 2025-01-06 | Security | Josh Lemos | December 18 |
 | Thursday 2025-01-30 | Data | Amie Bright | January 23 |
-| Monday 2025-02-03 | Infrastructure & Quality | Mek Stittri | January 23 |
 
 ## Examples of Past Group Conversations
 

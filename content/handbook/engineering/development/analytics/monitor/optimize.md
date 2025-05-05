@@ -127,7 +127,7 @@ flowchart TB
 
 #### Organizing the work
 
-We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
+We generally follow the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary):
 
 1. `workflow::problem validation` - needs clarity on the problem to solve
 1. `workflow::design` - needs a clear proposal (and mockups for any visual aspects)
@@ -147,7 +147,7 @@ Generally speaking, issues are in one of two states:
 
 Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/#features).
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ##### Measuring the value of the team deliverables
 
@@ -386,6 +386,19 @@ Considerations for data seeding scripts:
 - Ensure scripts are parameterized allowing specification of group or project ID where relevant
 - Ensure scripts can be run repeatedly without failure
 
+#### Feature Flags
+
+We [use feature flags as needed](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) to ensure we provide an enterprise-level user experience to our customers. We avoid unnecessary feature flags and ensure that when introducing one, its objective is clear and we ensure the rollout dependencies and timeline stay updated. We strive to minimize long-living feature flags whenever possible and communicate changes.
+
+The following roles and responsibilities are associated with feature flags we own:
+
+- [DRI](/handbook/people-group/directly-responsible-individuals/) assignment
+  - The author introducing a feature flag is the DRI of the feature flag rollout.
+- Auditing and cleanup
+  - The EM is DRI for auditing feature flags owned within the stage and will schedule cleanups in collaboration with the feature flag DRI.
+- Process improvements
+  - Everyone is encouraged to contribute toward process improvements.
+
 ## Meetings
 
 Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:
@@ -407,7 +420,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Plan.+Optimize" >}}
+{{< engineering/stable-counterparts role="Plan.+Optimize" >}}
 
 ## Links and resources {#links}
 

@@ -8,7 +8,7 @@ approvers: [  ]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work-in-progress and proposes architecture changes for the GitLab.com SaaS.
 The goal of this document is to define the processes followed for applying security patches to the major Linux fleets supporting GitLab.com.

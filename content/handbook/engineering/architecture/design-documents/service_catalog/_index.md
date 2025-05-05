@@ -10,7 +10,7 @@ participating-stages: ["~devops::platforms"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -134,7 +134,7 @@ more difficult in the future.
    service definitions from rule- and dashboard generation.
 
    **Expected impact:** Make it easier to do projects like
-   [User Journey SLIs](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2612)
+   [Covered Experience SLIs](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2612)
    and [Upgrading our grafonnet dependency](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2573)
    easier to pick up and parallelize.
 

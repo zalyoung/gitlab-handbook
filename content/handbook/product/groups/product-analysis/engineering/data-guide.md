@@ -13,7 +13,7 @@ Dive into our analytics by exploring the specific data sources that underpin our
 
 - [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) data is used for reporting on metrics like MR Rate & Performance KPIs
 - [Workday](Workday) is GitLab's current central HRIS and we use this data to determine which group a team member is a part of.
-- [Zendesk](/handbook/support/readiness/operations/docs/zendesk/) data is used to fuel Customer Support metrics.
+- Zendesk data is used to fuel Customer Support metrics.
 
 ## Data Models
 
@@ -108,10 +108,10 @@ In this section, we share commonly used data models that fuel many of our dashbo
 ## Additional Resources
 
 - [Data governance](/handbook/sales/field-operations/data-intelligence/data-governance/)
-- [Data quality](/handbook/enterprise-data/data-quality/)
+- [Data quality](/handbook/enterprise-data/data-governance/data-quality/)
 - [Data Team Handbook](/handbook/enterprise-data/)
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific Engineering Analytics Models, please reference the Commonly Used Data Models section for a starting point.
-- [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/#definitive-guides) managed by the Data team.
+- [Definitive guides to data subject areas](/handbook/enterprise-data/data-governance/data-catalog) managed by the Data team.
 - [Documentation on data pipelines](/handbook/enterprise-data/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.Contact
 - [Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/) - Date handling, handbook embedding, general tips and tricks
 - [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)

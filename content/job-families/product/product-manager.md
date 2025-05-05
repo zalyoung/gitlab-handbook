@@ -79,7 +79,7 @@ Producing a lovable product requires more than a deep understanding of the probl
 
 It is not sufficient to just know the problems. It is also insufficient to have a solution to the problem that our customers love. PMs also need to ensure that the solution is viable for GitLab.
 
-- PMs participate in and follow the [product development flow](/handbook/product-development-flow/) so that their development group can consistently release features [every month](https://about.gitlab.com/releases/).
+- PMs participate in and follow the [product development flow](/handbook/product-development/product-development-flow/) so that their development group can consistently release features [every month](https://about.gitlab.com/releases/).
 - PMs [determine the tiers of features](/handbook/company/pricing/)
 - PMs ensure that issues that impact GitLab are appropriately [prioritized](/handbook/product/product-processes/#prioritization)
 - PMs interface with marketing and sales to promote and enable the sale of the product.
@@ -327,7 +327,7 @@ The Senior Principal Product Manager is a [grade 10](/handbook/total-rewards/com
 Beyond the [base requirements](#base-pm-requirements), Senior Principal Product Manager requirements are:
 
 - Represent GitLab and its values in public communication around specific projects and community contributions.
-- In addition to being an individual contributor product manager of one (or more) of the groups, the Senior Principal PM should be designated as the [product collaborator](/handbook/engineering/incubation/#incubation-engineering-department) for one (or more) [SEG](/handbook/company/structure/#single-engineer-groups)s.
+- In addition to being an individual contributor product manager of one (or more) of the groups, the Senior Principal PM should be designated as the product collaborator for one (or more) [SEG](/handbook/company/structure/#single-engineer-groups)s.
 - Lead cross stage initiatives, for example: [Top Cross-Functional Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives)
 - Maintains and owns [cross-section directions](/handbook/product/product-processes/#navigating-cross-stage-or-cross-section-direction-pages).
 -Leads working groups to accomplish cross-section [BHAG](/handbook/company/mission/#big-hairy-audacious-goal-bhag)s and targets

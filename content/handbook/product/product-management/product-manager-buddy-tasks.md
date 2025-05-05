@@ -8,9 +8,9 @@ draft: true
 1. [ ] - Suggest handbook pages they may find useful
     - Pages from the onboarding buddy handbook page
     - Product Specific Pages
-        - [Validation Track](/handbook/product-development-flow/#validation-track)
+        - [Validation Track](/handbook/product-development/product-development-flow/#validation-track)
         - [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
-        - [Getting Access to Data as a PM](/handbook/enterprise-data/programs/data-for-product-managers/)
+        - [Getting Access to Data as a PM](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
         - [Managing your Product Direction](/handbook/product/product-processes/#managing-your-product-direction)
         - [How to work as a PM](/handbook/product/product-processes/#how-to-work-as-a-pm)
     - Pricing / tier related

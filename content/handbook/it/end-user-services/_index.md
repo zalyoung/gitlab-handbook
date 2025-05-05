@@ -52,7 +52,7 @@ Please visit the GitLab Onboarding and machine management [handbook page](/handb
 
 #### GitLab Laptop Offboarding
 
-Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](/handbook/it/end-user-services/gitlab-laptop-offboarding/)
+Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-offboarding/)
 
 #### Self-help and troubleshooting
 
@@ -64,7 +64,7 @@ New to GitLab and looking for some IT tips and tricks? This is the spot for you,
 
 #### Offboarding
 
-- Are you or a direct report leaving the company? Please reference the [Offboarding](/handbook/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
+- Are you or a direct report leaving the company? Please reference the [Offboarding](https://internal.gitlab.com/handbook/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> Automations
 
@@ -154,6 +154,8 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 
 - IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
 
+- IT Analyst APAC - Bryan Mathews, bmathews@gitlab.com, @bryannoel
+
 - IT Analyst EMEA - Bruno Ferreira, bferreira@gitlab.com, @bruno.n.ferreira
 
 - IT Analyst EMEA - Eoghan Dunne, edunne@gitlab.com, @edunne-gl
@@ -171,6 +173,8 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 - Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - AMER
 
 - Max Hirata - [appointment schedule](https://calendar.app.google/CMK6dKUN2otv1wsWA) - APAC
+
+- Bryan Mathews [appointment schedule](https://calendar.app.google/8Jg3QkeCUdmg4sqK8) - APAC
 
 - Bruno Ferreira - [appointment schedule](https://calendar.app.google/zKj8AH9c8VmAcYX48) - EMEA
 

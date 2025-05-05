@@ -17,7 +17,7 @@ We're also curating a growing list of remote communities, where remote leaders a
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Rodolphe (Remotive) discuss several remote work topics: favorite things about remote work, how to find/start/thrive in your first remote role, and the impact of the growing remote work community.*
 
-Working remotely is becoming more common globally, as supported by data in the [GitLab Remote Work Report](remote-work-report/). While all-remote and remote-first organizations still represent the minority, a variety of trends — from heightened rents in major cities to a greater emphasis on sustainability to a cultural desire to work and live where one is most fulfilled — have more people than ever [interested in this way of working](benefits/).
+Working remotely is becoming more common globally, as supported by data in the [GitLab Remote Work Report](remote-work-report/). While all-remote and remote-first organizations still represent the minority, a variety of trends — from heightened rents in major cities to a greater emphasis on sustainability to a cultural desire to work and live where one is most fulfilled — have more people than ever [interested in this way of working](remote-benefits/).
 
 Buffer's latest [State of Remote Work](https://buffer.com/state-of-remote-work/2020) shows that the overwhelming majority of those who work remotely would recommend it to others, while [new survey data from Owl Labs](https://resources.owllabs.com/blog/remote-work-statistics) collected from 23 countries and 6 continents found that over half of global companies now allow some form of remote work.
 
@@ -186,7 +186,7 @@ Each of these platforms support search via hashtag. Be aware that many results w
 1. `#telecommute`
 1. `#locationindependent`
 
-Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](/handbook/company/culture/all-remote/remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
+Working in an all-remote environment is unique. Be sure to read over the distinct [benefits](remote-benefits/) and [drawbacks](drawbacks/) when considering if such a setting is ideal for you.
 
 ---
 

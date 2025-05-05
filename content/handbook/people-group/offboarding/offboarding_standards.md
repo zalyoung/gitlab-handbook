@@ -26,9 +26,9 @@ These standards apply to all GitLab team-members, contractors, advisors, and con
 
 Once the termination process has been approved and completed in Workday either by the departing team member's [Direct Manager](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) (Voluntary) or by [Team Member Relations](https://docs.google.com/document/d/1nMokz03AiUQtb0XV5zpD9CjaQKcX5Lu8p5ASZy3cJVA/edit) (Involuntary), automations in place will detect the new offboarding and attempt to open the issue, if within a valid offboarding window for the specified day. In the instance of a Voluntary Termination, this process will follow the [resignation process](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) initiated by the team member directly in Workday.
 
-In alignment with the needs of both People Connect and IT Operations, offboardings will kick off at a specific time, based on a **team members' local timezone** in Slack. For offboardings scheduled for Monday-Thursday, this will be at 1600 hrs / 4:00pm local time, and on Fridays would be opened at 1200 hrs / 12:00pm local time.
+In alignment with the needs of both People Connect and IT Operations, scheduled offboardings will be opened between 4:00 - 5:00pm of the **team members' local timezone** in Slack Monday-Friday.
 
-**Note:** In instances where team members require deprovisioning initiated outside of these times, team members or their manager should reach out to People Connect via HelpLab to arrange an alternate time.
+**Note:** In instances where team members require deprovisioning initiated outside of these times, team members or their manager should reach out to IT Operations to arrange an alternate time.
 
 Should the effective date fall on a day which People Connect is unable to support e.g. a Family and Friends Day or Global Holiday, People Connect will reach out to the People Business Partner to discuss alternate offboarding options.
 
@@ -38,13 +38,11 @@ Per the People Connect Rotation, the offboarding will be assigned directly in th
 
 ### Creating the Offboarding Issue
 
-Offboarding issues are created [automatically](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) using the data that is populated by Workday.
-
-The assigned People Connect team member will be automatically added to the list of assignees once the offboarding issue is created.
+Offboarding issues are created [automatically](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) using the data that is populated by Workday. The assigned People Connect team member will be automatically added to the list of assignees once the offboarding issue is created.
 
 Many teams work to deprovision access including the IT Operations, this should be regarded as urgent and all tasks expected to be completed within 5 working days, with the exception of [laptop returns](/handbook/it/end-user-services/onboarding-access-requests/#returning-oldoffboarded-laptops), which can take 2-4 weeks.
 
-Note: If the team member is temporarily transitioning to a [contractor or consultant role](/handbook/it/end-user-services/onboarding-access-requests/temporary-service-providers/), please proceed with the full offboarding process and create a separate onboarding issue to grant only specific temporary access for what they would need to fulfill their contractual obligations.
+**Note:** If the team member is temporarily transitioning to a [contractor or consultant role](/handbook/finance/procurement/contingent-worker-policy/), please proceed with the full offboarding process and create a separate onboarding issue to grant only specific temporary access for what they would need to fulfill their contractual obligations.
 
 #### Creating the Offboarding Issue Manually
 
@@ -94,7 +92,7 @@ The People Connect Team member will need to complete:
 
 ### Offboarding Compliance
 
-The People Connect Team ensures all offboarding issues are opened within each week of the offboarding date and once all tasks have been completed by the relevant Team Member(s) and/or Departments, the People Connect Team will close the offboarding issue. On a quarterly basis the People Connect Team  will audit all open offboarding issues and ping the relevant Departments within the offboarding issue to call for tasks to be completed.
+The People Connect Team ensures all offboarding issues are opened within each week of the offboarding effective date (the last day worked).
 
 All offboarding tasks by all Departments need to be completed within 5 days of the offboarding date. For systems that are more critical and time sensitive, these will be completed within the first 24 hours (example 1Password, Slack) by the relevant Departments. Information about application & system deprovisioners can be found on the [Tech Stack Applications handbook page](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 
@@ -112,3 +110,4 @@ Exceptions to this policy must be approved by People Connect.
 - [Information Security Parent Policy](/handbook/security/)
 - [GitLab Offboarding](/handbook/people-group/offboarding/)
 - [GitLab Offboarding FAQ](/handbook/people-group/offboarding/faq/)
+- [Offboarding Automation Flow](/handbook/people-group/engineering/offboarding/)

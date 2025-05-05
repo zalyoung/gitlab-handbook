@@ -7,7 +7,7 @@ description: "Runway is GitLab's internal Platform as a Service, which aims to e
 
 Runway is GitLab's internal Platform as a Service implementation, which aims to enable teams to deploy and run their services quickly and safely. Having built-in capabilities for monitoring and scaling means that Development teams can focus on delivering and enhancing their features.
 
-Runway is maintained by the [Scalability:Practices](/handbook/engineering/infrastructure/team/scalability/practices/) team.
+Runway is maintained by the [Runway](/handbook/engineering/infrastructure/team/runway/) team.
 
 ## Initial Goals
 

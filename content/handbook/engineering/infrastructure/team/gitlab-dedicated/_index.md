@@ -66,8 +66,17 @@ To engage with the GitLab Dedicated teams:
 
 In the case of a [Sev-1 or Sev-2 Incident](/handbook/engineering/infrastructure/incident-management/#severities), please *Page* the GitLab Dedicated Engineer On Call. Further guidance on when to use this can be found [here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#what-is-an-emergency).
 
+#### Dedicated for Commercial
+
+1. From any Slack channel, use `/inc escalate`:
+   1. Under `On-Call Teams` select `dedicated EOC`
+   1. Provide information on the report in the `Notification Message`
+   1. *Urgency*, *Priority* and *Assign To* should not be set
+
+#### Dedicated for Government
+
 1. From any Slack channel, use `/pd trigger`:
-   1. Impacted Service: `Dedicated Platform Service` (for commercial customers) or `Dedicated US Public Sector Platform Service`
+   1. Impacted Service: `Dedicated US Public Sector Platform Service`
    1. Title: `GitLab Dedicated`
    1. Description: Provide information on the report, and how you can be contacted
    1. *Urgency*, *Priority* and *Assign To* should not be set
@@ -111,7 +120,7 @@ but there are some differences worth noting.
 A PCL is manually enforced once the following requirements are met:
 
 1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created.
-2. An MR updating the scheduled PCLs table is approved by the SaaS Platforms Engineering Director
+2. An MR updating the scheduled PCLs table is approved by the Infrastructure Platforms Engineering Director
 3. Customer changes using Switchboard are prevented for the duration of the PCL.
 
 The following dates are currently scheduled PCLs.
@@ -253,8 +262,8 @@ We use epics, issues, and issue/epic boards to organize our work, as they comple
 
 Please see:
 
-1. [SaaS Platforms Project Management](/handbook/engineering/infrastructure/platforms/project-management)
-1. [SaaS Platforms Epic](https://gitlab.com/groups/gitlab-com/-/epics/2115)
+1. [Infrastructure Platforms Project Management](/handbook/engineering/infrastructure/platforms/project-management)
+1. [Infrastructure Platforms Epic](https://gitlab.com/groups/gitlab-com/-/epics/2115)
 1. [Environment Automation Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479)
 1. [Switchboard Epic (scoped to current quarter)](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/405)
 1. [US Public Sector Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/876)
@@ -396,7 +405,7 @@ The status for all work relating to GitLab Dedicated is maintained in the descri
 
 #### Status Update Process
 
-Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
+Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in Platforms](/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-platforms):
 
 1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
     1. Format for weekly update: **Date of Update** (YYYY-MM-DD)
@@ -427,7 +436,7 @@ We provide reports on status of GitLab Dedicated to meet Top Cross-Functional In
 
 ### Backlog Refinement
 
-Prior to the start of a new quarter, the team will spend time refining the Epic backlog. This process will be led by the EM + PM, who will go through the Epics targeted for the upcoming quarter (according to the [roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#roadmap)) and ensure each Epic contains the following information (pulling in different stakeholders to help fill in the details as necessary):
+Prior to the start of a new quarter, the team will spend time refining the Epic backlog. This process will be led by the EM + PM, who will go through the Epics targeted for the upcoming quarter (according to the [roadmap](https://about.gitlab.com/direction/platforms/dedicated/#roadmap)) and ensure each Epic contains the following information (pulling in different stakeholders to help fill in the details as necessary):
 
 - MVC Scope
 - Business Case / Rationale
@@ -682,7 +691,7 @@ as a high priority task that is second only to active incidents:
       1. Work on the tamland
          [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
         to exclude or tweak the specific saturation signal.
-         - The [Observability team](/handbook/engineering/infrastructure/team/observability/)
+         - The [Observability team](/handbook/engineering/infrastructure-platforms/production-engineering/observability/)
         can offer advice on the finer details of the tamland configuration.
 1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
    The pipeline should run successfuly every day.

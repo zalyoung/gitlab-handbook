@@ -23,7 +23,7 @@ Scan execution policies allow you to run security scans against projects and gro
 
 1. In the **Conditions** section, set to **Triggers:** for **all branches** with **No exceptions**.
 
-1. Select **Configure with a merge request**.
+1. Select **Configure with a Merge Request**.
 
 1. Select **Merge**.
 
@@ -37,9 +37,9 @@ Scan execution policies allow you to run security scans against projects and gro
 
 1. Select **Commit changes**.
 
-1. Select **Create merge request**.
+1. Select **Create Merge Request**.
 
-1. Review the merge request pipeline. Note that there is now a secret detection scan job.
+1. Review the Merge Request pipeline. Note that there is now a secret detection scan job.
 
 ## Lab Guide Complete
 
@@ -47,4 +47,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you'd like to suggest changes to the *Hands-On Guide for GitLab Compliance*, please submit them via merge request.
+If you'd like to suggest changes to the *Hands-On Guide for GitLab Compliance*, please submit them via Merge Request.

@@ -17,7 +17,7 @@ The Critical System Tiering methodology is applicable to all systems utilized ac
 |Role|Responsibility|
 |----------|------------------------------|
 |[Security Risk Team](/handbook/security/security-assurance/security-risk/)|Owns the Critical System Tiering Methodology and designates Critical System Tiers for new systems through the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/).|
-|[IT Compliance](/handbook/business-technology/it-compliance/)|Supports defining of Critical System Tiers in conjunction with the Security Risk Team when new systems are added to the Tech Stack.|
+|[IT Compliance](/handbook/business-technology/enterprise-applications/it-compliance/)|Supports defining of Critical System Tiers in conjunction with the Security Risk Team when new systems are added to the Tech Stack.|
 |Business/Technical Owners of Systems|Provide complete and accurate data about the systems that they own so that an accurate tier is designated.|
 
 ## Critical System Tiering Procedure
@@ -102,6 +102,10 @@ Tiering systems utilized across GitLab enables team members to make decisions on
 ### Maintaining Critical System Tiers
 
 Critical System Tiers for existing systems are validated periodically. A system's designated tier can be found in the [tech_stack.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) which is the Single Source of Truth for all systems used at GitLab.
+
+## Exceptions
+
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

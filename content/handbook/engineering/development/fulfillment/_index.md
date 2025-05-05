@@ -271,7 +271,7 @@ It's possible for engineers to pick any of the remaining issues for the mileston
 
 ### Workflow
 
-We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) and use the workflow labels as defined there.
+We generally follow the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) and use the workflow labels as defined there.
 
 Generally speaking, issues are in one of two states:
 
@@ -280,7 +280,7 @@ Generally speaking, issues are in one of two states:
 
 Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/hill-charts).
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ### User Experience
 
@@ -294,7 +294,7 @@ We strive to provide excellent usability in all of our workflows, creating a bal
 - We use [[UX] issues](#ux-issue-management-and-weights) as the SSOT for designs. Implementation issues should link to the [UX] issue for the design details to maintain the SSOT.
 - We use labels to track our issues:
   - `UX`, `devops::fulfillment`, `section::fulfillment` and `group::`.
-  - `workflow::` labels to indicate where the issue is in the [product development flow](/handbook/product-development-flow/)
+  - `workflow::` labels to indicate where the issue is in the [product development flow](/handbook/product-development/product-development-flow/)
   - `UX Problem Validation` and `UX Solution Validation` for research efforts
   - `design weight::` for [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights)
 
@@ -806,7 +806,6 @@ This table lists recurring activities that are part of our Project Management Pr
 | [Milestone Planning](/handbook/engineering/development/fulfillment/#planning)                                                            | Monthly      | Async | Fulfillment Utilization,, Provision, and InfraDev Groups |
 | [Roadmap Planning](https://about.gitlab.com/direction/fulfillment/#roadmap)                                                                                      | Monthly      | Sync  | Fulfillment PMs, EMs, QEMs, UXMs                                |
 | [Monthly Product Kickoffs](/handbook/product/product-processes/#kickoff-meetings)                                                        | Monthly      | Sync  | Product Function                                                |
-| [Product Key Reviews](/handbook/company/key-review/)                                                                                             | Monthly      | Sync  | Fulfillment PMs, Product Leadership, E-Group                    |
 | [Retrospective Issue](https://gitlab.com/gl-retrospectives/fulfillment/-/issues/)                                                                                | Monthly      | Async | Fulfillment Section                                             |
 | [Retrospective Discussion](https://docs.google.com/document/d/1eL1QLtIGGxqYfaVQXIWhxAUvqTMw1OQLVQ68ZYib40g/edit)                                                 | Monthly      | Sync  | Fulfillment Section                                             |
 | [Direction Review](https://about.gitlab.com/direction/fulfillment/)                                                                                              | Quarterly    | Async | Fulfillment PMs, Product Leadership                             |
@@ -905,7 +904,7 @@ Google groups can be used for easily sending calendar invites to members of the 
 
 1. The [s_fulfillment](https://app.slack.com/client/T02592416/CMJ8JR0RH) slack channel can be used to ask all product, engineering, and Fulfillment processes related questions.
 1. When your question has been answered, please react with the ✅ (`:white_check_mark:`) Slack emoji to the original question so that team members know that it has been answered and they do not need to look at it any longer.
-1. For urgent support issues, please follow the [STAR escalation](/handbook/support/internal-support/support-ticket-attention-requests/#requesting-an-escalation) strategy.
+1. For urgent support issues, please follow the [STAR escalation](/handbook/support/internal-support/support-ticket-attention-requests/) strategy.
 1. For [internal support requests](/handbook/support/internal-support/#internal-requests) regarding licensing, subscriptions, trials, grace period extensions, or any requests involving a customer, please fill out the [internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
 1. For general licensing and subscription questions, check out the [#support_licensing-subscription](https://app.slack.com/client/T02592416/C018C623KBJ) Slack channel.
 

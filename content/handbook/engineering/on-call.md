@@ -79,6 +79,10 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 For more details, see the [team page](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#on-call-rotation)
 
+### DBO On-Call
+
+For more details, see the [DBO escalation process](/handbook/engineering/infrastructure-platforms/data-access/database-operations/dbre-escalation-process)
+
 ## Security Team On-Call Rotation
 
 ### Security Operations (SecOps)

@@ -69,13 +69,13 @@ features and experiments that measure the impact of changes to our messaging, UX
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Growth" manager-role="Director of Engineering for Secure, Govern, and Growth" other-manager-roles="Govern and Growth|Growth and Govern:Threat Insights|VP, Online Sales and Self Service" >}}
+{{< engineering/stable-counterparts role="Growth" manager-role="Director of Engineering for Secure, Govern, and Growth" other-manager-roles="Govern and Growth|Growth and Govern:Threat Insights|VP, Online Sales and Self Service" >}}
 
 ## How We Work
 
-Our team follows the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) utilizing all labels from `~workflow::start` to `~workflow::complete`.
+Our team follows the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) utilizing all labels from `~workflow::start` to `~workflow::complete`.
 
-We adhere to the **Completion Criteria** and **Who Transitions Out** outlined in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) to progress issues from one stage to the next.
+We adhere to the **Completion Criteria** and **Who Transitions Out** outlined in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) to progress issues from one stage to the next.
 
 ### Labels and Workflow Boards
 

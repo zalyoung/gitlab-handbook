@@ -13,7 +13,7 @@ description: "GitLab Data Team Workflow"
 - [Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/)
 - [Triage](/handbook/enterprise-data/how-we-work/triage/)
 - [Data Team Onboarding](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md)
-- [Data Team Programs](/handbook/enterprise-data/programs/#data-programs)
+- [Data Team Programs](/handbook/enterprise-data/organization/programs)
 
 ## Practical guide to contributing to the Data Team Projects
 
@@ -29,15 +29,17 @@ We're happy to help you achieve your goals with Data. As a central shared servic
 
 The Data Team strives to spend the majority of its time developing and operating the Enterprise Data Platform and related systems, keeping fresh data flowing through the system, regularly expanding the breadth of data available for analysis, and delivering high-impact strategic projects. We categorize our work using the framework outlined below.
 
-| Rank | Priority | Description| Target Allocation | Prioritization Method |
-| --- | --- | --- | --- | --- |
-| 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/enterprise-data/platform/#data-sources). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed |
-| 2  | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | 50-65% | Prioritized through the monthly [Data Leadership Forum](/handbook/enterprise-data/how-we-work/#data-leadership-forum) and committed to during our [quarterly planning process](/handbook/enterprise-data/how-we-work/planning/) |
-| 3  | Other | Other tactical work that is requested on an ad-hoc basis throughout the quarter | 15-25% | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/enterprise-data/how-we-work/#quarterly-and-iteration-planning). Other work that has a weight of 8 issue points or higher and is important or urgent may necessitate discussion at the Data Leadership Forum for key result prioritization and scheduling. |
+| Work Category | Description| Prioritization Method |
+| --- | --- | --- | --- |
+| Production Maintenance | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/enterprise-data/platform/#data-sources). | Based on severity and impact |
+| Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | Prioritized through the Data Steering Committee and committed to during our [quarterly planning process](/handbook/enterprise-data/how-we-work/planning/) |
+| Business Operations | Data work and business engagement that is requested on an ad-hoc basis throughout the quarter. Includes foundational work to mature the Enterprise Data Ecosystem. | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/enterprise-data/how-we-work/#quarterly-and-iteration-planning). |
 
-We use [scoped labels in GitLab](/handbook/enterprise-data/how-we-work/#issue-labeling) to track our issues across these priorities.
+The allocation of capacity across Production Maintenance, Data Team OKRs, and Business Operations will be determined by each pillar on a quarter-by-quarter basis in the planning file. The target allocation varies by data team pillar and needs of the business. The allocation will consider the amount of Production Maintenance support needed from the pillar, strategic initiatives that the pillar needs to support, and business operations projects that require support. Within each Work Category, issues are prioritized independently and can use the scoped Priority Label with priorities 1, 2, or 3 as options.
 
-In addition to the above priorities focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends 5 to 10% of our time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
+We use [scoped labels in GitLab](/handbook/enterprise-data/how-we-work/#issue-labeling) to track and prioritize our issues across these work categories.
+
+In addition to the above work categories focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
 
 ### Project Intake
 
@@ -76,7 +78,7 @@ Requests to expedite responses, triage issues, or MR reviews are rare. Given the
 
 ### Deciding What And How To Build
 
-Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/enterprise-data/data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development).
+Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/enterprise-data/how-we-work/data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/enterprise-data/how-we-work/data-development/#trusted-data-development).
 
 ### Design Spike
 
@@ -199,10 +201,13 @@ Think of each of these groups of labels as ways of bucketing the work done.
 
 All issues should get the following classes of labels assigned to them:
 
-- **Team:** The Data Team that will perform the work (i.e. Data Platform, Analytics Engineering, Data Science, BI, Data Governance)
-- **Champion:** The team who has requested the work (may be a functional partner team, or the Data Team itself)
-- **Workflow:** The status of the work
-- **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
+- **Team:** The Data Team responsible for performing the work. This could be one of the following: Data Platform, Analytics Engineering, Data Science, BI, or Data Governance.
+- **Champion:** The team requesting the work. This may be a functional partner team or the Data Team itself.  
+- **Workflow:** The current status of the work. All issues should start with the `workflow::1 - triage` label. The team performing the work is responsible for updating the workflow status as the work progresses.  
+- **Priority:** The priority level of the work, categorized as follows:  
+  - **P1**: Operational (highest urgency)  
+  - **P2**: OKR-related work (objective-driven)  
+  - **P3**: Other (lower priority or non-urgent tasks)  
 
 Effective in January 2025, we use a Bot on the Data Team project to check that the Team, Champion, Workflow, and Priority labels have been applied to issues after 14 days of being opened. The bot sends a reminder in the issue to add the missing labels. The first triage response for adding labels is the team member that opens the issue. The 2nd triage response for adding labels is the Data Analyst, Data Scientist, Analytics Engineer, and Data Engineer that are on triage. Issues that do not have Team, Champion, Workflow, and Priority labels applied after 30 days are automatically closed. If an issue is closed due to not having the required labels, team members have the option to reopen the closed issue and apply the labels to meet the issue refinement requirements.
 
@@ -213,7 +218,7 @@ Optional labels that are useful to communicate state or other priority:
   - Tool: (Tableau, dbt, Stitch, Airflow, etc.)
   - Pod: [Data team pod](/handbook/enterprise-data/organization/#data-team-organization) that is scheduling the work
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
-- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#prioritization).
+- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#work-categorization-and-prioritization).
 
 #### Epic Labeling
 

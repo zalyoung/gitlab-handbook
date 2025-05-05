@@ -328,7 +328,6 @@ Here are a few pages to check out:
 - [How Growth launches experiments](/handbook/product/groups/growth/#how-growth-launches-experiments)
 - [Growth Engineering Guide to running experiments](/handbook/engineering/development/growth/experimentation/)
 - [GitLab Experiment Guide](https://docs.gitlab.com/development/experiment_guide/)
-- [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
 
 <details markdown="1">
   <summary markdown="span">Click to view useful terms</summary>

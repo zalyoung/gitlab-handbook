@@ -131,7 +131,7 @@ Enterprise users have user accounts that are administered by an organization tha
 > Your account is an enterprise user account, [enterprise users cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains.
 > Updating your primary email address to an email with a non-verified domain will automatically disassociate you from your enterprise group.
 >
-> If you still wish to update your primary email, address please note it will require involvement of a top level group owners. Please let us know if you wish to proceed.
+> If you still wish to update your primary email address, please note it will require involvement of a top level group owner. Please let us know if you wish to proceed.
 
 1. If they answer that they wish to proceed, use the [Account Ownership Verification workflow](/handbook/support/workflows/account_verification) to verify ownership.
 
@@ -139,7 +139,7 @@ Enterprise users have user accounts that are administered by an organization tha
 
 1. If successful, contact Owner:
 
-- Create a new Zendesk ticket with the top level group owner's email address as the requester (found in admin) by following [this specific workflow to create ticket and user](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
+- Create a new Zendesk ticket with the top level group owner's email address as the requester (found in admin) by following [this specific workflow to create ticket and user](/handbook/support/workflows/sending_notices#how-to-send-notices)
 - Apply the macro `General::Outbound Contact Request` that ensure the new ticket routes properly and the end-user we wish to contact receives the correct notification.
 - Copy the snippet below and mark the ticket as `On-hold`:
 

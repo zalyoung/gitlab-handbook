@@ -410,9 +410,9 @@ graph LR
 * Automation conditions:
   * A new note that starts with `@gitlab-bot label ~"label-name"` or `@gitlab-bot unlabel ~"label-name"` where `label-name` matches:
     * `group::*`, `type::*`, `feature::*`, `bug::*`, `maintenance::*`, `category:*`
-    * `backend`, `database`, `documentation`, `frontend`, `handbook`, `UX`
+    * `backend`, `Contributor Success`, `database`, `documentation`, `frontend`, `handbook`, `UX`
     * `security` (`label` only for community members)
-    * `workflow::in dev`, `workflow::ready for review`, `workflow::blocked`
+    * `workflow::in dev`, `workflow::ready for review`, `workflow::in review`, `workflow::complete`, `workflow::blocked`
   * The note is posted by the author, an assignee, or a team member
 * **Note**: to add or remove multiple labels, list all labels after the command, for example: `@gitlab-bot label ~"group::project management" ~"type::bug"`
 * Automation actions:

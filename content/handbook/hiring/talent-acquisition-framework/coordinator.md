@@ -107,7 +107,9 @@ If the candidate submits the form, all the CES team members will receive an emai
 4. Schedule the interview based on the recruiter’s scheduling request.
 5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
 6. Please leave a tag—“Project Equispace”—in the candidate's GH profile for easy reference so we can adequately track and address accommodation needs as the candidate progresses through the hiring process.
-7. Close the issue once the scheduling is completed.
+7. If CES receives a written request from a candidate for an accommodation not currently listed on our form, CES will notify TMR for advice and respond accordingly with how we can accommodate. CES will follow steps above to ensure interviewer is advised on how to proceed with the interview.
+8. CES will save email communication with candidate in the event they are hired. If so, CES will upload communications into the hires Workday profile.
+9. Close the issue once the scheduling is completed.
 
 #### ModernLoop
 
@@ -317,7 +319,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/legal/employment-law/#background-check) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
@@ -380,8 +382,8 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
-| GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster|
+| GitLab BV, Netherlands | Marissa Farris, Jake Foster|
 | GitLab Canada Corp | Simon Mundy |
 | GitLab France S.A.S. | Jake Foster, Rob Allen |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
@@ -389,7 +391,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen. Backups: Jim Gladen & Simon Mundy |
 | GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors |
 | GitLab Israel LTD | Jim Gladen, Simon Mundy|
-| GitLab IT BV | Marissa Farris, Pattie Egan, Jake Foster, Jack Connors |
+| GitLab IT BV | Marissa Farris, Jake Foster, Jack Connors |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
@@ -404,7 +406,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/legal/employment-law/#background-check) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
@@ -862,6 +864,34 @@ Once this information has been received, please go onto GH and follow the steps 
 1. Then follow the normal offer creation process in GH and select your uploaded document as the offer template for this offer.
 1. Please remember to delete this template once you have completed the process and the offer has been signed by the signatory & the candidate
 
+## Creating an Israel offer
+
+When you receive a request to make an offer in Israel, please take the following steps. 
+
+1. In Greenhouse, click on Job setup, then hiring team, then add Sarah Rogers & Darren Burr to the job granting them the Job Admin: FPA and Legal permissions, then save.
+1. The start dates for Israel team members can be a Sunday, given that their work week is Sunday through Thursday. Please let the People Connect Team know that the start date would be a Sunday.
+1. Send a message to the Legal Team the in ces_legal_contracts slack channel requesting assistance with the offer. When making the request in the channel, please indicate the candidate’s name, include the link to the GH profile & request them to give the compensation breakdown as well as let you know what contract template to use.
+1. One of the Legal Team members will respond with the following information:
+   - The GreenHouse Offer Template that you should use
+   - The compensation breakdown & CES to add the ID number in Exhibit A
+   - The language that should be added to the template (including where on the contract the wording should be placed).
+
+Once this information has been received, please go into GH and follow the steps below:
+
+1. Click on the settings icon
+1. Select 'Offer Templates' on the left-hand side
+1. Search for the Template as advised by Legal
+1. Click on the three dots on the right-hand side of the template you will be using and select the 'download' option
+1. Open the document in Google Docs
+1. Make all the changes as advised by the Legal Team and save the document
+1. Go back to the offer templates page on GH
+1. Click on 'Upload New' on the right-hand side
+1. Upload the amended document using a title with the candidates initials (this is so you can identify the template when you go to generate the contract)
+1. Then follow the normal offer creation process in GH and select your uploaded document as the offer template for this offer.
+1. Please remember to delete this template once you have completed the process and the offer has been signed by the signatory & the candidate
+
+Once after the candidate has signed the offer, please send the "New Hire Welcome Email" where there is a laptop request form. GitLab can ship laptops to Israel and there is no need for the team member to self procure laptops anymore for Israel.
+
 ## CXC (NOTE: HIRING IS CURRENTLY PAUSED HERE: Please speak with Enablement before sending offer letters)
 
 GitLab is working in partnership with [CXC Global](https://www.cxcglobal.com/) to employ GitLab team-members located in **Poland**, **Ukraine**, **Romania**, **Russia**, **Serbia**, & **Slovenia**. The actual employment contracts will be sent and issued by CXC and are in accordance with local labor law. CXC also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and CXC.
@@ -983,7 +1013,7 @@ The process for creating and sending an agreement is as follows:
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, Sweden, Luxembourg and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 
@@ -1106,7 +1136,7 @@ If there are any questions, these should be directed to help@remote.com.
 
 There are a handful of countries, listed [here](/handbook/it/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
 
-1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Israel, Brazil, Costa Rica, Chile, Armenia, or Ukraine template.
+1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile, Armenia, or Ukraine template.
 1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
     - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
     - Request advanced funds to self-procure

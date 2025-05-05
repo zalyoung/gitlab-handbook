@@ -1,6 +1,6 @@
 ---
 title: "EPSS Support"
-status: ongoing
+status: implemented
 creation-date: "2024-06-19"
 authors: [ "@YashaRise" ]
 coach: [ "@theoretick" ]
@@ -71,7 +71,7 @@ as part of any review.
 For long pages, consider creating a table of contents.
 The `[_TOC_]` function is not supported on docs.gitlab.com.
 -->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 For important terms, see [glossary](#glossary).
 

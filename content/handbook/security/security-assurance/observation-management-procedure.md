@@ -61,8 +61,7 @@ Labels in this set are used to categorize issues for metrics and reporting and c
 | RiskRating:: Critical| Risk rating for security compliance observations - Critical|
 | RiskRating:: High| Risk rating for security compliance observations - High|
 | RiskRating:: Moderate| Risk rating for security compliance observations - Moderate|
-| RiskRating::Low | Risk rating for security compliance observations - Low|
-| RiskRating:: OFI| Risk rating to identify Opportunities for Improvement (OFI)|
+| RiskRating::Low | Risk rating for security compliance observations - Low| 
 | ObservationManager::*** | GitLab team member managing the observation through the [observation phases](/handbook/security/security-assurance/observation-management-procedure/#lifecycle-overview). |
 | Blocked:: Awaiting Remediation Owner Input    | This flags indicates the observation manager is waiting for response from the remediation owner.   |
 | Blocked:: Awaiting Observation Manager Input  | This flags the issue for the observation manager on the SecAssurance team                                                                                       |

@@ -28,7 +28,7 @@ For a high level overview (7 minutes), see the [Using Product Usage Reporting in
   <a href="/handbook/customer-success/product-usage-data/" class="btn btn-purple">Operational Data <br> Vision Page</a>
   <a href="https://metrics.gitlab.com/" class="btn btn-purple">Metrics Dictionary</a>
   <a href="/handbook/sales/field-operations/sales-systems/license-usage-app/" class="btn btn-purple">Salesforce License <br> Utilizaton App</a>
-  <a href="/handbook/business-technology/data-team/data-catalog/product-usage-data/" class="btn btn-purple">Data Team Handbook</a>
+  <a href="https://internal.gitlab.com/handbook/enterprise-data/data-governance/data-catalog/product-usage-data/" class="btn btn-purple">Data Team Handbook</a>
   <a href="/handbook/customer-success/product-usage-data/use-case-adoption/" class="btn btn-purple">Health Scoring - Calculations and Methodology</a>
   <a href="/handbook/customer-success/product-usage-data/using-gainsight-data-in-sfdc/" class="btn btn-purple">Using Gainsight Usage Reporting <br> in Salesforce</a>
   <a href="/handbook/customer-success/product-usage-data/use-case-adoption/#license-utilization-in-gainsight" class="btn btn-purple">License Utilization <br> in Gainsight</a>

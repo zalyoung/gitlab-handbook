@@ -214,7 +214,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 - [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) - Daily questions and discussions focused on work internal to the Security Division. Can be used for reporting when unsure of where to go.
 - [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
 - `#security-team-standup` - Channel for daily standups.
-- `#incident-management` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
+- `#incidents` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
 - `#security-alert-manual` - New reports for the Security Division from various intake sources, including ZenDesk and new HackerOne reports.
 - `#hackerone-feed` - Feed of most activity from our HackerOne program.
 - Other `#security-alert-*` and `#abuse*` - Multiple channels for different notifications
@@ -242,6 +242,22 @@ We believe it is important to share regular updates at various levels of the Sec
   - Each of the three updates per-team should be no more than 2-3 sentences and include at least one link to allow readers to gain additional context. Links should be to GitLab Issues or Epics wherever possible. If information is confidential and not able to be added to an Issue or Epic, a note should be added indicating this.
   - It is recommended that departmental leaders build their monthly update over the course of the month via a GitLab issue ([see an example](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/72)) in collaboration with their managers and senior ICs.
 
+#### Twice-Monthly Security Leadership Meetings
+
+Security Leadership meets twice a month over Zoom to discuss division-wide topics. Individual contributors from across the security organization are invited to present their work, ideas, or projects to this leadership forum.
+
+If you're interested in presenting:
+
+1. Discuss the topic with your manager first
+2. Your manager will help you:
+   - Add your topic to the agenda with supporting materials
+   - Request an appropriate time slot (5-25 minutes)
+   - Coordinate scheduling your presentation
+
+Note that these meetings are not on the general Security calendar. Your manager will ensure you receive the meeting invitation for your scheduled time.
+
+We encourage all team members to take advantage of this opportunity to share your work and insights with security leadership.
+
 #### Ransomware
 
 For an overview of the communication and response process for a suspected ransomware attack, please see our [Responding to Ransomware](/handbook/security/responding-to-ransomware/) page.
@@ -266,7 +282,7 @@ The following best practices will help ensure tokens are handled appropriately a
 
 - To receive security release blog notifications delivered to your inbox, visit our [contact us](https://about.gitlab.com/company/contact/) page.
 - To receive release notifications via RSS, subscribe to our [security release RSS feed](https://about.gitlab.com/security-releases.xml) or our [RSS feed for all releases](https://about.gitlab.com/all-releases.xml).
-- For additional information regarding security releases, please visit the Delivery Team's [security releases](/handbook/engineering/infrastructure/library/security-releases-development/) page.
+- For additional information regarding security releases, please visit the Delivery Team's [security releases](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/security-releases-development) page.
 
 ### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> Resources
 

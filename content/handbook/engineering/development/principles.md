@@ -283,7 +283,7 @@ In general, there is no need to change any behavior close to the self-managed re
 
 ### Dogfooding
 
-We [dogfood everything](/handbook/product/product-processes/#dogfood-everything). Based on our [product principles](/handbook/product/#product-principles), it is the Engineering division's responsibility to dogfood features or do the required discovery work to provide feedback to Product. It is Product's responsibility to prioritize improvements or rebuild functionality in GitLab.
+We [dogfood everything](/handbook/product/product-processes/dogfooding-for-r-d/). Based on our [product principles](/handbook/product/#product-principles), it is the Engineering division's responsibility to dogfood features or do the required discovery work to provide feedback to Product. It is Product's responsibility to prioritize improvements or rebuild functionality in GitLab.
 
 #### Dogfooding Antipatterns
 

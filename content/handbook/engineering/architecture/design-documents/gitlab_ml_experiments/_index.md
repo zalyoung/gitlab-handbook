@@ -7,7 +7,7 @@ coach: "@grzesiek"
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is an abbreviated proposal for Service-Integration to allow teams
 within GitLab to rapidly build new application features that leverage AI, ML,

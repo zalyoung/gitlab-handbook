@@ -56,13 +56,13 @@ flowchart LR
     click Git "/handbook/engineering/infrastructure-platforms/data-access/git/"
     DA --> Gitaly
     click Gitaly "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
-    
+
     PRODENG --> Ops
     click Ops "/handbook/engineering/infrastructure/team/ops/"
     PRODENG --> Foundations
-    click Foundations "/handbook/engineering/infrastructure/team/foundations/"
+    click Foundations "/handbook/engineering/infrastructure-platforms/production-engineering/foundations/"
     PRODENG --> Observability
-    click Observability "/handbook/engineering/infrastructure/team/observability/"
+    click Observability "/handbook/engineering/infrastructure-platforms/production-engineering/observability/"
     PRODENG --> Runway
     click Runway "/handbook/engineering/infrastructure/team/runway/"
     PRODENG --> CC[Cloud Connector]
@@ -90,7 +90,7 @@ flowchart LR
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
     SD --> B[Build]
-    click B "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
+    click B "/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/"
     SD --> Framework
     click Framework "/handbook/engineering/infrastructure-platforms/gitlab-delivery/framework/"
     SD --> R[Release]
@@ -310,7 +310,7 @@ All team members are encouraged to schedule time for personal development. The f
 |-------|-------|
 | SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
 | Delivery Group | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) |
-| Production Engineering Group| [Production Engineering](/handbook/engineering/infrastructure/team/production-engineering/) |
+| Production Engineering Group| [Production Engineering](/handbook/engineering/infrastructure-platforms/production-engineering/) |
 | Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
 | Tenant Scale | [Group Page](/handbook/engineering/infrastructure-platforms/tenant-scale/) |
 
@@ -327,7 +327,7 @@ All team members are encouraged to schedule time for personal development. The f
 
 - [#production](https://gitlab.slack.com/archives/production)
 - [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge)
-- [#incident-management](https://gitlab.slack.com/archives/incident-management)
+- [#incidents](https://gitlab.slack.com/archives/incidents)
 - [#announcements](https://gitlab.slack.com/archives/announcements)
 - [#feed_alerts-general](https://gitlab.slack.com/archives/feed_alerts-general)
 

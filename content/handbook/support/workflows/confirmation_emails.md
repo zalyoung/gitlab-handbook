@@ -12,7 +12,7 @@ This workflow covers cases when a user says they are not receiving their confirm
 ## **Stage 0:** Ticket Triage
 
 Before working the ticket ensure that it's correctly triaged with the `SaaS Account` form and `Did not receive confirmation email` problem type so that
-the [SaaS Account Ticket Helper](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app) application can activate.
+the [SaaS Account Ticket Helper](/handbook/security/customer-support-operations/docs/zendesk/apps#gitlab-super-app) application can activate.
 
 If the user has already correctly chosen the problem type, the automation will activate when an agent opens the ticket for the first time. If the SaaS Account Ticket Helper application fails to solve the issue for any reason, proceed to manually resolve it by going through the steps in the following sections.
 
@@ -51,7 +51,14 @@ The automation will send out an email to the customer letting them know whether 
 ### Typo Fix
 
 As of 2023-08-07, unconfirmed users are [deleted after a set number of days](https://docs.gitlab.com/user/gitlab_com/#email-confirmation) on GitLab.com.
-Users are recommended to wait for GitLab to automatically delete the account.
+
+#### Free Users
+
+Free users are required to wait for GitLab to automatically delete the account.
+
+#### Paid Users
+
+Paid users are recommended to wait for GitLab to automatically delete the account, however it is possible for Support to update the email address with manager approval if required.
 
 ### Manually remove a Suppression in Zendesk
 

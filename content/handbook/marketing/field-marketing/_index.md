@@ -283,43 +283,47 @@ The global Field Marketing team is working with the Marketing Operations team to
 
 ## Process for moving events from Plan to WIP
 
-The following is the process for when a Field Marketing issue moves from `mktg-status::plan` to `mktg-status::wip`.
+The following is the process for when a Field Marketing event moves from the draft/plan phase to becoming finalized and actively managed in Asana (WIP).
 
 ## SLAs
 
 Please plan your timelines accordingly based on the below SLAs. Keep in mind these SLAs must also include additional time for any Friends & Family Days or holidays.
 
-*FMMs - For the asset copy process, please allow for a total of 8 business days (which encompasses the SLAs below).*
-
-- **Contract Requests:** 3 business days
-- **Plan to WIP Requests** - 5 business days
+- **Contract Requests:** 3 business days for the FMC to enter into ZIP
+- **Plan to WIP** - 3 business days for the FMC to complete, once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks in the Asana project
 - **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas)
-
-## Items required by FMM to begin the Plan to WIP process
-
-- The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct plan and/or forecast cost(s) in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
-  - Please make sure the correct FMM and FMC are listed in the Allocadia panel for your event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well). For shared events, please make sure to ONLY have the lead FMM listed in the FMM field in the GitLab issue, as Asana will only pull over one person into the project and that person will be assigned all of the FMM tasks.
-- The FMM creates the GitLab issue using the `Create/Update Marketing Issue` button in Allocadia.
-- **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the [Asana](/handbook/marketing/marketing-operations/asana/) project.
 
 ## Moving from Plan to WIP
 
 *Please note that this is an interim process while the Regional Marketing team begins utilizing [Asana](/handbook/marketing/marketing-operations/asana/). Automations are still being implemented, so there will be many iterations to the below instructions as all global teams move to Asana.*
 
+### Step-by-Step
+
 - FMM pings the FMC in the main Field Marketing issue and requests the FMC create the Asana project
+  - **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the [Asana](/handbook/marketing/marketing-operations/asana/) project.
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
+  - FMC to make sure the correct FMM and FMC are listed in the Allocadia panel for the event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well).
 - FMC creates a new project in Asana by following the below steps:
-  - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
+  - FMC adds the `Asana-Sync-Project` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
     - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
     - The BT Bot will also comment in the GitLab issue that the Asana project has been created and will provide the project link.
 - When the Asana project is created, the project will also be automatically added to the [FY26 All Marketing SSoT Calendar](https://app.asana.com/0/1209020056902315/1209020173960870).
   - An integration with our [Google calendar](/handbook/marketing/field-marketing/#google-calendar-links) is coming soon, but for now, the FMC will still need to manually add the event to the appropriate Google calendar by completing that specific task provided in the Asana template for each event.
 - FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
 - FMC to fill in Event Details from the GitLab issue to the project Overview
-- FMC to add the Asana project link to the top of the GitLab issue, as well as adding the GitLab issue link to the Asana project in the Overview
+- FMC to add the GitLab issue link to the Asana project in the Overview
+- FMC reviews the list of tasks and adjusts any past due tasks accordingly. If new dates are not available yet, please remove both the due date and task owner until they are available to add back in. If this step is not taken, other team members will receive notifications about tasks being past due, which will lead to confusion. Please keep your projects as updated and current as possible!
 - FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to work through their tasks in Asana
-- FMM follows the tasks assigned to them in the project in Asana. Once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks, the FMC will be notified to move the project to WIP.
-- The FMC will then proceed with their tasks in Asana
+
+### Important Notes for FMMs
+
+- The FMM must fill in and `complete` the `FMC Checklist` and `Ecosystem Involvement` tasks before the FMC will be notified to move the project to WIP.
+- Please always hit the `complete` button for each task, once the task is finished. We have many dependencies built into our Asana template and if you do not `complete` a task, the next steps will not be triggered for other team members.
+- Please add any appropriate sub-region or country tags to your project. NOTE: The main region categories (AMER, APAC, EMEA, PubSec) will be automatically associated. Many tags are already created in Asana, please utilize these tags and do not edit any existing tags.
+  - If you need a new tag created, please request your tag in this [Tag Request Form](https://form.asana.com/?k=iROsm3N8LW4Wb8HY0PFxeQ&d=306855239930259).
+
+### Closing out Asana Projects
+
 - Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. **NOTE:** You must complete or delete all open tasks in a project or they will still show up in your assigned tasks (see how to bulk complete tasks [here](https://forum.asana.com/t/closing-tasks-for-a-project-set-for-a-completed-status/282266)). The FMM will then go to the top of the page and click `Set status` and select `Complete`. 
 
 ## Plan to WIP Recorded Training
@@ -920,8 +924,9 @@ The below epic is for tracking venues we would like to utilize for future events
 | AMER - North and Canada  | Julie Wyatt | `@Julie Wyatt` | |
 | AMER - West Coast and Southwest |  Lisa Rom | `@lrom`  | |
 | AMER - Public Sector | Kira Aubrey |  `@KiraAubrey` and `@micailagardiner` | |
-| [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` | |
-| Japan  | Shu Kawaguchi | `@skawaguchi1` | |
+| APJ - APAC/ANZ | Kate Baker | `@kbaker4` | |
+| APJ - APAC/SEATK and India | Catherine Chien | `@cchien1` | |
+| APJ - Japan  | Shu Kawaguchi | `@skawaguchi1` | |
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@ju` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Neha Pujari | `@npujari2` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA UK](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neha Pujari | `@npujari2` | [#field-marketing-uki](https://gitlab.slack.com/archives/C048KPPE1V1) |
@@ -1064,8 +1069,8 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER West Coast | Lisa Rom | Lisa Cartagena |
 | AMER Public Sector | Kira Aubrey and Micaila Gardiner | David LaTour |
 | AMER LATAM | Gabby Chorny | Rodrigo Rios |
-| APAC | Kate Baker | SJ Lim |
-| APAC - Japan | Shu Kawaguchi | Ryuichiro Shinoki |
+| APJ APAC | Kate Baker and Catherine Chien | SJ Lim |
+| APJ Japan | Shu Kawaguchi | Ryuichiro Shinoki |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
 | EMEA Northern Europe | Neha Pujari| Aaron Burgess |
 | EMEA UK/I | Neha Pujari | Adam Woolford |

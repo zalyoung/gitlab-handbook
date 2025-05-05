@@ -32,7 +32,7 @@ Collaborate closely with engineering peers throughout the product development li
 
 ### Community contributions
 
-Community-submitted MRs are assigned to the design DRI of the affected group. If the group has no designer, `@pedroms` will review them. The GitLab Roulette suggests the correct designers automatically and generated a Slack message in the `#ux-community-contributions` channel.
+Community-submitted MRs are assigned to the design DRI of the affected group. If the group has no designer, `@pedroms` or a member of UX Paper Cuts (`@annabeldunstone`, `@seggenberger`, `@jmiocene`, `@clavimoniere`) will review them. The GitLab Roulette suggests the correct designers automatically and generated a Slack message in the `#ux-community-contributions` channel.
 
 ### Single engineering group MRs
 
@@ -178,7 +178,7 @@ Some MRs require additional set up:
 
 **After review**:
 
-- Remove yourself as a reviewer and post a summary comment, indicating if any changes are required.
+- [Keep yourself as a reviewer](https://docs.gitlab.com/development/code_review/#dogfooding-the-reviewers-feature) and [submit the review with a summary comment](https://docs.gitlab.com/user/project/merge_requests/reviews/#submit-a-review), with the appropriate review status selected. For example, if changes are required, select `Request changes`.
 - Create follow-up issues for any outstanding UX concerns that deviate from the Minimal Valuable Change (MVC), labeling them as `Deferred UX` (details on [UX labels](/handbook/product/ux/#ux-labels)).
 
 **Follow-up with authors**:

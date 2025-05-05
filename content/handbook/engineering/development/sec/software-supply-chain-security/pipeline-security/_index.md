@@ -9,8 +9,8 @@ We provide security in the software supply chain process, ensuring the right lev
 
 Our team is responsible for delivering on the following categories:
 
-- [Build Artifacts](https://about.gitlab.com/direction/verify/)
 - [Secrets Management](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/)
+- [Artifact Security](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/artifact_security/)
 
 The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/#maturity).
 
@@ -21,13 +21,13 @@ Our mission is to give organizations features which enable secure pipeline opera
 ## Performance Indicators
 
 We measure the value we contribute by using a [Product Performance Indicator](https://internal.gitlab.com/handbook/company/performance-indicators/product/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
-<!-- Our current PI for the Pipeline Security group is the [GMAU (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifytesting---gmau---count-of-active-users-engaging-with-the-test-summary-mr-widget). This is a rolling count of unique users who have triggered a pipeline that uploads a test or coverage report. This is not currently instrumented and we are tracking progress of instrumentation in [gitlab&4528](https://gitlab.com/groups/gitlab-org/-/epics/4528). -->
+<!-- Our current PI for the Pipeline Security group is still to be determined. [View Sec Section performance indicators (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/sec-section/).-->
 
 ## Team Members
 
 The following people are permanent members of the Software Supply Chain Security:Pipeline Security group:
 
-{{< stable-counterparts role="Software Supply Chain Security:Pipeline Security" >}}
+{{< engineering/stable-counterparts role="Software Supply Chain Security:Pipeline Security" >}}
 
 ## Stable Counterparts
 
@@ -46,7 +46,7 @@ Like most GitLab backend teams we spend a lot of time working in Rails on the ma
 - [Issue Tracking Board](https://gitlab.com/groups/gitlab-org/-/boards/364216?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group::pipeline+security)
 - [Issue Backlog](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20security)
 - [Slack Channel](https://gitlab.slack.com/archives/g_pipeline-security)
-- [Roadmap](https://about.gitlab.com/direction/security/#govern)
+- [Group Direction Page](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/)
 - [GitLab Unfiltered YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq53VUOvTk3VdXN79PA0SXT)
 
 ## Our Repositories
@@ -121,7 +121,7 @@ If the weight of an issue cannot be determined within a day, create a separate [
 
 #### Design and Development collaboration
 
-When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
+When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-valuable-change-mvc), while still providing value and a usable experience.
 
 To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done) template to clearly state where the issue stands in the product development flow. An example of this in practice is https://gitlab.com/gitlab-org/gitlab/-/issues/33418/.
 
@@ -195,7 +195,7 @@ During each milestone, we create a [Release Post Checklist](https://gitlab.com/g
 
 ### Workflow
 
-Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/ux-department-workflow/) workflows.
+Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development/product-development-flow/), and [UX](/handbook/product/ux/product-designer/) workflows.
 
 #### Starting New Work
 
@@ -214,7 +214,7 @@ The goal with this process is to reduce WIP. Reducing WIP forces us to "Start le
 
 If there are no more `Deliverable` issues that a team member can "pull from the right", the team member can do one of the following:
 
-- Take on an issue with the `workflow::ready for development` and `Verify::P2` labels.
+- Take on an issue with the `workflow::ready for development` and `SSCS::P2` labels.
 - Refine issues with the `workflow::planning breakdown` and `needs weight` labels to help us prepare for upcoming milestones.
 - Take the opportunity to work on a technical debt or low-hanging fruit issue that you are interested in. These issues often are not a high enough priority to be planned as deliverables, so engineers are encouraged to proactively tackle these issues when they have capacity.
 
@@ -222,9 +222,9 @@ If there are no more `Deliverable` issues that a team member can "pull from the 
 
 We use a series of labels to indicate the highest priority issues in the milestone.
 
-- The highest priorities for a given milestone would be issues labeled as `Deliverable` and `Verify::P1` issues.
+- The highest priorities for a given milestone would be issues labeled as `Deliverable` and `SSCS::P1` issues.
 - If there are `Deliverable` issues with the `bug::vulnerability` label as well, those should take top priority over other deliverables.
-- We use the `Verify::P2` and `Verify::P3` labels to prioritize issues planned for future milestone deliverables.
+- We use the `SSCS::P2` and `SSCS::P3` labels to prioritize issues planned for future milestone deliverables.
 
 If a team member believes a specific issue should be considered a `Deliverable` or a higher priority, they are encouraged to ping the product and engineering managers on the issues where we can discuss and decide. Note that issues need to be refined with a weight for them to be considered for the `Deliverable` label.
 
@@ -321,7 +321,7 @@ The Pipeline Security group supports the product marketing categories described 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
 | `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/index.html) |
-| `Category:Secure Artifacts` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secure+Artifacts) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecure%20Artifacts) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secure_artifacts/) | Documentation - TBD |
+| `Category:Artifact Security` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secure+Artifacts) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecure%20Artifacts) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/artifact_security/) | Documentation - TBD |
 
 #### Feature Labels
 
@@ -346,13 +346,13 @@ We use [geekbot](https://geekbot.com/) integrated with Slack for our daily async
 
 #### Async Monthly Retrospectives
 
-We use a GitLab issue in [this project](https://gitlab.com/gl-retrospectives/verify-stage/pipeline-security/-/issues/) for our monthly retrospective. The issue is created automatically towards the end of the current milestone. The purpose of the monthly retrospective issue is to reflect on the milestone and talk about what went well, what didn't go so well, and what we can do better.
+We use a GitLab issue in [this project](https://gitlab.com/gl-retrospectives/sscs/pipeline-security/-/issues) for our monthly retrospective. The issue is created automatically towards the end of the current milestone. The purpose of the monthly retrospective issue is to reflect on the milestone and talk about what went well, what didn't go so well, and what we can do better.
 Instead of waiting until the end of the milestone to add items to the retrospective issue, we encourage team members to add comments throughout the month. We have a slack reminder on our #g_pipeline-security channel to remind us to add items to the issue each Friday.
 
 ## How to work with us
 
 ### On issues
 
-Issues worked on by the Pipeline Security group have a group label of ~"group::pipeline security". Issues that contribute to the verify stage of the DevOps toolchain have the ~"devops::verify" label.
+Issues worked on by the Pipeline Security group have a group label of ~"group::pipeline security". Issues that contribute to the SSCS stage of the DevOps toolchain have the ~"devops::software supply chain security" label.
 
 You can tag a team member with `@mention` in the issue if you have someone specific to address. If you need to call the attention of the entire group, you can tag `@gitlab-com/pipeline-security-group` which notifies the entire team.

@@ -8,7 +8,7 @@ Secure software development is critical to developing and maintaining a safe and
 
 ## Scope
 
-This standard applies to anyone developing code at GitLab in support of GitLab's production applications. For in depth view of development process, see [product development flow](/handbook/product-development-flow/).
+This standard applies to anyone developing code at GitLab in support of GitLab's production applications. For in depth view of development process, see [product development flow](/handbook/product-development/product-development-flow/).
 
 ## Roles and responsibilities
 

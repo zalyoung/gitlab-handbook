@@ -26,10 +26,11 @@ You will play a critical role in the success of Professional Services engagement
 - Responsible for the application design, development and support of GitLab-related Professional Services projects
 - Demonstrate progressive leadership in the full life cycle of the software development environment
 - Responsible for the detailed design of GitLab-related projects from inception through production support
+- Responsible for the hands-on implementation and delivery of Professional Services engagements
 - Ensure that the deliverable accurately meets the defined expectations of the customer, ensuring that proper testing is implemented and performance requirements are closely monitored by working with the customer
 - Coordinate and oversee functional implementation activities for internal and partner consultants, developers, and customer points of contact (POC) on large scale enterprise projects
 - Mentor PS and partner consultants providing guidance regarding 'Best Practices,' communication, and implementation strategies
-- Provide mentorship and collaterol in the form of documentation, delivery kits, and training materials
+- Provide mentorship and collateral in the form of documentation, delivery kits, and training materials
 - Liaise with and support of other functional groups within GitLab – including (but not limited to) training, development, support, product, engineering
 - Review and provide input to PS training materials and presentations
 - Develop case studies, presentations, design documentation, best-practice methodologies and internal process development
@@ -37,7 +38,7 @@ You will play a critical role in the success of Professional Services engagement
 - Responsible for leading technical discovery sessions with customers, partners and GitLab PSEs to understand their business goals, technical constraints and requirements
 - Work closely with the customer project team (specifically the Project Manager) to ensure accurate task-level articulation of the work required
 - Stay up to date on new features, and fixes within the monthly GitLab product releases and disseminate key information to the PSE team
-- Ability to provide technical expertise and consultative advice during the planning stages of a customer engagement
+- Provide deep technical guidance and advise, both internally and externally, for a broad spectrum of technologies associated with the Gitlab product and it's environments
 
 #### Requirements
 
@@ -49,6 +50,8 @@ You will play a critical role in the success of Professional Services engagement
   - CI/CD consulting services
 - Demonstrated progressive enterprise level software development experience
 - Demonstrated progressive DevOps Platform experience
+- Ability to learn and adapt to new technology stacks, industry trends and best practices expeditiously.
+- Experience in identifying, understanding and highlighting complexities and potential challenges during initial scoping engagements with prospects.
 - Excellent written and verbal communication skills with the ability to influence internal team members, customers and partners
 - Demonstrated problem solving and decision-making abilities with effective organizational and time management skills the ability to handle multiple projects and priorities effectively in a fast-paced environment with minimal supervision
 - Strong organizational, multi-tasking and presentation skills. Ability to create momentum and foster organizational change
@@ -136,7 +139,7 @@ Read more about grades at GitLab [here](/handbook/total-rewards/compensation/com
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a first interview with the Regional Delivery Manager
 Candidates may be invited to schedule an interview with Professional Services Architect peer or other Professional Services team Manager.
 Then, candidates will be required to deliver a demo of GitLab to a panel of Customer Success attendees using the Demo Guide.

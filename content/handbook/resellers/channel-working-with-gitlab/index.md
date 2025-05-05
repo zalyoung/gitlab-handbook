@@ -120,11 +120,19 @@ If any of the above requirements are not met—or you fail to promptly schedule 
 
 The Service Attached incentive is based on the volume of licensing opportunities with services attached to those licensing deals. The more licensing deals you attach services to the richer the program becomes.
 
-Service Attached Registration is submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to a software opportunity.
+The partner must submit service opportunities via a Service Attached Registration on the Partner Portal. Service Attached qualifications do not require license purchases through the services partner. Customers can obtain licenses directly from GitLab, through a services partner, or from other partners. 
 
-- Service must be connected to a GitLab software opportunity sold to an end customer directly, via reseller, or via cloud marketplace
+Select partners and/or PSPs with approved Service Attached Registrations qualify for quarterly back-end rebates. This is separate from the Partner Sourced Deal Registration for the license sale. In addition, approved and accepted Service Attached Registrations count towards partners' PSP qualifications.
+
+Service Attached Registrations are submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to a software license sale opportunity.
+
+- Service must be connected to a GitLab software opportunity sold to an end customer directly by GitLab, via reseller, or via a cloud marketplace
 - MSP software opportunities where licenses are sold to and owned by the partner do not qualify for Service Attached Registration
 - Each closed-won software opportunity can only have one approved Service Attached Registration (i.e., one software opportunity to one registration)
+
+### Qualification Categories 
+
+**Approved** - Qualifies for Rebate and PSP
 
 The following criteria must be met for a Service Attached Registration to be approved and for a partner to receive a rebate:
 
@@ -135,15 +143,30 @@ The following criteria must be met for a Service Attached Registration to be app
     - verify that the services meet both program guidelines and customer needs as outlined in the current program guidance (found in the Partner Portal) for incentive
     - confirm the dates of the project and include customer signatures
     - be signed and submitted within 6 months after opportunity closure
+      - Note: If the SOW is unable to be signed, it can be considered with an accompanying proof of execution, such as a PO, signed order form, or customer email confirmation of the service engagement
     - be dated (i.e., customer signature) within 6 months of submission
-  - Each SOW can only be applied to one Service Attached Registration (i.e., one SOW cannot be used for multiple registrations). However, exceptions may be considered on a case-by-case basis for multi-phase projects that drive an add-on or upsell opportunity
+  - Each SOW can only be applied to one Service Attached Registration (i.e., one SOW cannot be used for multiple registrations).  However, exceptions may be considered on a case-by-case basis for multi-phase projects that drive an add-on or upsell opportunity.
 - Scope of services
-  - _In Scope_: Implementation, Integration, Optimization, Migration, Managed/hosted services (with software sold to / owned by end customer), Security/Compliance, Adoption, Assessment, Transformation, Application Development, DevSecOps AI
+  - _In Scope_:  Implementation, Integration, Optimization, Migration, Managed/hosted services (with software sold to / owned by end customer), Security/Compliance, Adoption, Assessment, Transformation, Application Development, DevSecOps AI, Support and/or Success Services
   - _Out of Scope_: Education/Training, Subcontracted services, Free-of-charge services, Managed/hosted services (with software sold to / owned by the partner)
 
-Rebates are paid out no later than 45 days after the end of each quarter. To view the GitLab Service Attached Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
+Rebates for approved Service Attached Registrations are paid out no later than 45 days after the end of each quarter. To view the GitLab Service Attached Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
 
-Service Attached Registrations that do not qualify for approval for the rebate per the terms noted above will still be considered for [PSP Delivery Requirements](/handbook/resellers/channel-program-guide/#delivery-requirements).
+Service Attached Registrations that do not qualify for approval for the rebate per the terms noted above will still be considered for [PSP Delivery Requirements](/handbook/resellers/channel-program-guide/#delivery-requirements) per the Qualification Category - Accepted.
+
+#### Accepted - Qualifies for PSP
+
+- Paid service engagement with a SOW signed and submitted within 12 months of registration submission and closed-won Net ARR opportunity
+- Free of charge, partner-led services that show proof of execution, such as assessments
+- Closed-won managed/hosted service deal registrations (with software sold to / owned by the partner) 
+
+#### Unqualified - Does not qualify for Rebate or PSP 
+
+- Services that are not directly related to GitLab
+- Engagements without a related license opportunity in Salesforce
+- Services for GitLab CE customers without a pending upgrade opportunity
+- GitLab PS subcontracting engagements
+- Education/Training services
 
 ##### Quote to Order
 
@@ -340,22 +363,20 @@ Once a lead is recalled, it will be reassigned to GitLab Inc. for internal follo
 
 The GitLab Not-for-Resale (NFR) Program offers qualified GitLab Partners access to our solutions at no cost. The NFR Program provides Partners with an opportunity to develop greater expertise on the GitLab platform. We encourage all GitLab Partners to participate in the program and set up GitLab solutions. Consider using your environment to create integrations with GitLab Technology Solution Partners. This way your staff can fully understand the benefits and features of GitLab products and be better prepared to demonstrate products to customers.
 
-Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR Ultimate license for a 12-month period.
+Partners can receive Self-Managed and Software-as-a-Service (SaaS) NFR Ultimate licenses for a 12-month period.
 
-- Select Partners can request a license for up to 25 Ultimate users per license type. Additional licenses may be available with business justification.
-- Select and PSP Partners can request a license for 5 Duo Enterprise users.
-- Open Partners can request a maximum of 10 Ultimate NFR licenses per license type (i.e. a total of 20 NFR licenses - 10 Self-Managed and 10 SaaS).
+- Select Partners can request 25 Ultimate users per license type. Additional licenses may be available with business justification.
+- Open and Technology Alliance Partners can request 10 Ultimate NFR licenses per license type.
+- Select, PSP, and Technology Alliance Partners may also request a total of 5 Duo Enterprise users.
+- Any GitLab partner who holds the AWS [DevOps](https://aws.amazon.com/devops/partner-solutions/?blog-posts-cards.sort-by=item.additionalFields.createdDate&blog-posts-cards.sort-order=desc&partner-case-studies-cards.sort-by=item.additionalFields.sortDate&partner-case-studies-cards.sort-order=desc) competency and is an authorized GitLab Channel Partner Private Offer (CPPO) partner can request 25 GitLab Duo with Amazon Q licenses. It is also reccomended partners hold the AWS [Generative AI](https://aws.amazon.com/ai/generative-ai/partners/?aws-marketplace-cards.sort-by=item.additionalFields.sortOrder&aws-marketplace-cards.sort-order=asc&awsf.aws-marketplace-aws-marketplace-aim=*all&awsf.aws-marketplace-aim=aws-marketplace-aim%23gen-ai-software-competency-partner) and [Security](https://aws.amazon.com/security/partner-solutions/?blog-posts-cards.sort-by=item.additionalFields.createdDate&blog-posts-cards.sort-order=desc&partner-case-studies-cards.sort-by=item.additionalFields.sortDate&partner-case-studies-cards.sort-order=desc&events-master-partner-webinars.sort-by=item.additionalFields.startDateTime&events-master-partner-webinars.sort-order=asc&apn-tv-cards.sort-by=item.dateCreated&apn-tv-cards.sort-order=desc) competencies.
 
 ##### Requesting a GitLab NFR (Not-for-Resale) License
 
-Authorized GitLab Partners can request NFR licenses by filling out the NFR License Request Form which can be found on the [GitLab Partner Portal](https://partners.gitlab.com/English/) on the Services or Support tab. Submissions will route to Ecosystem Operations team for provisioning.  Please allow two (2) business days for processing. Once provisioned, the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS.
+Authorized GitLab Partners can request NFR licenses by filling out the NFR License Request Form which can be found on the [GitLab Partner Portal](https://partners.gitlab.com/prm/English/c/SupportOpen) on the Support tab > Request a Not For Resale (NFR) License. Submissions will route to Ecosystem Operations team for provisioning.  Please allow two (2) business days for processing. Once provisioned, the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS.
 
 ##### NFR Program Eligibility
 
-To be eligible for the NFR Program, Partners must:
-
-- Be Open or Select Partners in good standing. Open and Select Requirements can be found [here](/handbook/resellers/channel-program-guide/#gitlab-open-and-select-partner-requirements--benefits).
-- Have at least one employee that has successfully completed the Solution Architect certification or Professional Services Engineer certification training, lab, and exam (with a passing score).
+To be eligible for the NFR Program, Partners must be an Open or Select Partner in good standing or a Technology Alliance Partner with an executed partner agreement. Open and Select Requirements can be found [here](/handbook/resellers/channel-program-guide/#gitlab-open-and-select-partner-requirements--benefits).
 
 ##### NFR Program Terms and Conditions
 
@@ -379,21 +400,17 @@ NFR licenses expire after a 12-month subscription period, unless they are add-on
 
 ##### Add-ons to NFR Subscriptions
 
-If you would like to request any add-on to your NFR license (CI minutes, Storage, Duo Pro, etc), please submit the NFR Request Form or reach out to partnersupport@gitlab.com for assistance. If partners attempt to purchase NFR add-ons through their customer portal, their subscription will be downgraded to free. If you have been downgraded to free already, please contact [GitLab Support](https://about.gitlab.com/support/) for assistance.
+If you would like to request any add-on to your NFR license (CI minutes, Storage, etc), please submit the NFR Request Form or reach out to partnersupport@gitlab.com for assistance. If partners attempt to purchase NFR add-ons through their customer portal, their subscription will be downgraded to free. If you have been downgraded to free already, please contact [GitLab Support](https://about.gitlab.com/support/) for assistance.
 
 ##### NFR Support
 
-- [NFR Support](https://about.gitlab.com/support/) will be provided by the GitLab Support team. GitLab Solution Architects may also be available to help Partners build out training, testing, and lab environments.
+[NFR Support](https://about.gitlab.com/support/) will be provided by the GitLab Support team. GitLab Solution Architects may also be available to help Partners build out training, testing, and lab environments.
 
 #### Technical Support
 
-While not required, we expect customers will, for the most part, contact you if they need help. It is in both of our best interests that they do so, as the more touch points you have with them, the more likely you are to further develop business with them. We do not expect you to be as knowledgeable about our products as our own support staff, and do expect that you may need to escalate some issues to our support staff. For more information, visit the GitLab [Support](https://about.gitlab.com/support/) page.
-
 For pre-sales technical issues, please contact your local GitLab Sales Team.
 
-For technical and solution enablement see our Developing your
-[Channel Partners: Developing your GitLab Practice](/handbook/resellers/services/)
-as well as our [Channel Partner Technical Presales Enablement](/handbook/resellers/partner-enablement/)     page.
+For technical and solution enablement see [Channel Partners: Developing your GitLab Practice](/handbook/resellers/services/) as well as our [Channel Partner Technical Presales Enablement](/handbook/resellers/partner-enablement/) page.
 
 ### Working with GitLab - Distributors
 

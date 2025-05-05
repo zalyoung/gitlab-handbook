@@ -212,8 +212,7 @@ NOTE:
 - The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
   - To support Cells 2.0 (i.e: allow moving organizations from
   Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
-  Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
-  and it is estimated to take around 12 months.
+  This effort is tracked in the epic [Convert all integer IDs to bigint in the primary cell (#15591)](https://gitlab.com/groups/gitlab-org/-/epics/15591).
 
 More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
@@ -639,16 +638,16 @@ sequenceDiagram
 The cons of using Spanners are:
 
 1. Vendor lock-in, our data will be hosted in a proprietary data.
-    - How to prevent this: Topology Service will use generic SQL.
+    - How to prevent this: Use generic SQL.
 1. Not self-managed friendly, when we want to have Topology Service available for self-managed customers.
-    - How to prevent this: Spanner supports PostgreSQL dialect.
+    - How to prevent this: Support actual PostgreSQL as well. We will run this for local development by default for developers.
 1. Brand new data store we need to learn to operate/develop with.
 
 ### GoogleSQL vs PostgreSQL dialects
 
 Spanner supports two dialects one called [GoogleSQL](https://cloud.google.com/spanner/docs/reference/standard-sql/overview) and [PostgreSQL](https://cloud.google.com/spanner/docs/reference/postgresql/overview).
-The dialect [doesn't change the performance characteristics of Spanner](https://cloud.google.com/spanner/docs/postgresql-interface#choose), it's mostly how the Database schemas and queries are written.
-Choosing a dialect is a one-way door decision, to change the dialect we'll have to go through a data migration process.
+It is claimed that both dialects [offer the same core features, performance, and scalability](https://cloud.google.com/spanner/docs/choose-googlesql-or-postgres).
+However, they should be treated as two different databases because the dialect has to be decided upfront when creating the database, and there's no way to change the dialect beside going through a [complex migration process](https://cloud.google.com/spanner/docs/migration-overview).
 
 We will use the `GoogleSQL` dialect for the Topology Service, and [go-sql-spanner](https://github.com/googleapis/go-sql-spanner) to connect to it, because:
 
@@ -656,6 +655,13 @@ We will use the `GoogleSQL` dialect for the Topology Service, and [go-sql-spanne
 1. GoogleSQL [data types](https://cloud.google.com/spanner/docs/reference/standard-sql/data-types) are narrower and don't allow to make mistakes for example choosing int32 because it only supports int64.
 1. New features seem to be released on GoogleSQL first, for example, <https://cloud.google.com/spanner/docs/ml>. We don't need this feature specifically, but it shows that new features support GoogleSQL first.
 1. A more clear split in the code when we are using Google Spanner or native PostgreSQL, and won't hit edge cases.
+
+We will not use `PostgreSQL` dialect but actual PostgreSQL for local development because:
+
+1. [`PGAdapter`](https://cloud.google.com/spanner/docs/pgadapter) only works with the `PostgreSQL` dialect based Spanner database, so we cannot use it against a `GoogleSQL` dialect based Spanner database.
+1. [`PostgreSQL` dialect](https://cloud.google.com/spanner/docs/reference/postgresql/overview) differs significantly from actual `PostgreSQL`. It is not a strict subset, so code written for the dialect might not work as expected on real `PostgreSQL`.
+1. Although actual `PostgreSQL` may not scale as well as `Spanner`, it is suitable for local development and likely sufficient for self-managed environments.
+1. Running emulated Spanner locally requires Docker or compatible container engine, which is not strictly required for all developers using GDK at the moment. [Emulated Spanner only stores data in memory](https://cloud.google.com/spanner/docs/emulator), all state, including data, schema, and configs, is lost on restart, which is not convenient and can cause data inconsistency with cells' own data. Developers can use it for developing and debugging the implementation for `GoogleSQL` dialect Spanner, but this cannot be the default for most developers especially for those who are not working on Topology service directly. On CI we run tests against both the actual PostgreSQL database and emulated `GoogleSQL` Spanner.
 
 Citations:
 

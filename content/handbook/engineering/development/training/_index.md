@@ -23,7 +23,7 @@ The materials from an earlier Ruby on Rails performance workshop can be found on
 
 ### Database
 
-Here is the information of a PostgreSQL query optimization bot at GitLab - Joe: [Blueprint](/handbook/engineering/infrastructure/library/database/postgres/query-optimization-bot/blueprint/) and [Design](/handbook/engineering/infrastructure/library/database/postgres/query-optimization-bot/design/).
+Here is the information of a PostgreSQL query optimization bot at GitLab - Joe: [Blueprint](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/database/postgres/query-optimization-bot/blueprint) and [Design](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/database/postgres/query-optimization-bot/design).
 
 ### Frontend
 

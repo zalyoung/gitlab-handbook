@@ -11,7 +11,7 @@ toc_hide: true
 ---
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 

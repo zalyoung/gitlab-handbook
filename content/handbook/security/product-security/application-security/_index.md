@@ -87,7 +87,7 @@ When necessary a backlog review can be initiated, please see the [Vulnerability 
 
 ## GitLab Secure Tools coverage
 
-As part of our [dogfooding effort](/handbook/product/product-processes/#dogfood-everything),
+As part of our [dogfooding effort](/handbook/product/product-processes/dogfooding-for-r-d/),
 the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies](/handbook/security/product-security/application-security/inventory/#policies)).
 This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
 
@@ -115,4 +115,4 @@ The GitLab Application Security team plans work based around Milestones, see [th
 
 ## Application Security Automation and Monitoring
 
-Please see the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)
+Learn more about the automation initiatives that the Application Security team uses on the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)

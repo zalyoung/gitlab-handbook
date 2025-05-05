@@ -74,10 +74,10 @@ If at any point during the refinement process it is determined that something is
 
 ### Refinement, Design, and Build
 
-Like [Single Engineer groups](/handbook/engineering/development/incubation/), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
+Like [Single Engineer Groups](/handbook/company/structure/#single-engineer-groups), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
 
 - Our build boards are organized into workflow columns
-- We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development-flow/), but have the flexibility to skip the process where it's not needed
+- We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development/product-development-flow/), but have the flexibility to skip the process where it's not needed
 - All Product Security Engineering team members can contribute to validation, refinement, and solution design
 - All Product Security Engineering team members can contribute to the prioritization, but the Security Engineering Manager is DRI
 - New projects should follow the ["Creating a new project"](/handbook/engineering/gitlab-repositories/#creating-a-new-project) engineering guidance
@@ -92,9 +92,22 @@ It is expected that Product Security Engineering team members will do refinement
 - Setting aside a specific amount of time per week on the calendar to perform refinement
 - Refining issues in-between major context switches, for example after submitting a merge request for review but before picking up the next piece of work
 
+#### Refinement Labels
+
+| Label | Description |
+|-------|-------------|
+| `~ProdSecEng Candidate` | Candidate issues for the Product Security Engineering team https://handbook.gitlab.com/handbook/security/security-engineering/product-security-engineering/ |
+| `~workflow::validation backlog` | Issues in a backlog of potential validation opportunities. This label is part of the product development flow https://handbook.gitlab.com/handbook/product-development-flow/#workflow-summary |
+| `~workflow::solution validation` | Workflow label for validating that the proposed solution meets user needs  https://handbook.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation |
+| `~workflow::ready for development` | Issue has a clear technical proposal and a weight https://handbook.gitlab.com/handbook/product-development-flow/#description-4 |
+| `~workflow::in dev` | Issues that are actively being worked on by a developer |
+| `~workflow::in review` | Issues that are undergoing code review by the development team and/or undergoing design review by the UX team |
+| `~workflow::blocked` | Issues that are blocked until another issue has been completed |
+| `~workflow::complete` | Applied after all MRs have merged and the issue has been verified if necessary |
+
 #### Step-by-step refinement process
 
-Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development-flow/), so that the work can be picked up by anyone.
+Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development/product-development-flow/), so that the work can be picked up by anyone.
 
 1. Choose an issue to refine
     1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)

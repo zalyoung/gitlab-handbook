@@ -45,6 +45,7 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 <details><summary>2025</summary>
 
 - [Best Remote Places to Work, Builtin, 2025](https://builtin.com/awards/remote/2025/best-large-places-to-work)
+- [Great Place to Work Certified, 2025-2026](https://www.greatplacetowork.com/certified-company/7013799)
 
 </details>
 

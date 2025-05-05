@@ -1,32 +1,32 @@
 ---
-title: "Environment, Social,and Governance (ESG)"
-description: "Information and processes related to ESG"
+title: "Sustainability"
+description: "Information and processes related to Sustainability and ESG"
 ---
 
 ## Quick links
 
-* To learn more about ESG | Sustainability at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/esg/esg-training/)
-* Join the [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) Slack channel to follow along for updates, ask questions and provide feedback
+* To learn more about Sustainability at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/esg/esg-training/)
+* Join the [#sustainability-esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) Slack channel to follow along for updates, ask questions and provide feedback
 * Customer asking ESG-related questions? Follow the steps outlined in the [Requesting Support with Customer ESG Questions](#requesting-support-with-customer-esg-questions) section below
-* [ESG | Sustainability Programs](#esg--sustainability-programs)
-
-**ESG** stands for Environmental, Social and Governance and refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company.
+* [Sustainability Programs](#esg--sustainability-programs)
 
 **Corporate Sustainability** is a business approach that enhances long term stakeholder value by implementing a strategy that considers every dimension of how a business operates when making social, environmental and economic progress.
 
-At GitLab we use ESG and Sustainability interchangeably. Both terms are relevant to our work and both serve different purposes depending on the audience we interact with.
+**ESG** stands for Environmental, Social and Governance and refers to the three key factors when measuring the sustainability and ethical impact of an investment in a business or company.
+
+At GitLab we use Sustainability and ESG interchangeably. Both terms are relevant to our work and both serve different purposes depending on the audience we interact with.
 
 ## Team Overview & Vision
 
-The ESG | Sustainability [Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) creates and maintains GitLab's Corporate Sustainability strategy and programs by driving and integrating responsible business practices and ESG regulatory compliance.
+The Sustainability [Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) creates and maintains GitLab's Corporate Sustainability strategy and programs by driving and integrating responsible business practices and ESG regulatory compliance.
 
-The ESG | Sustainability team builds and maintains strong internal and external relationships to understand stakeholder expectations - including customer, investor and team members. This engagement allows us to remain customer centric and easy to do business with while meeting shareholder and team member expectations.
+The Sustainability team builds and maintains strong internal and external relationships to understand stakeholder expectations - including customer, investor and team members. This engagement allows us to remain customer centric and easy to do business with while meeting shareholder and team member expectations.
 
-The ESG | Sustainability Team has two primary functions and four corresponding programs:
+The Sustainability Team has two primary functions and four corresponding programs:
 
 ### Compliance, Reporting & Climate Action
 
-* [**Compliance & Reporting**](#compliance--reporting): Manages customer and prospect ESG-related questionnaires, requests for proposals, and sustainability contractual clauses. Leads annual ESG report and external assurance process. Monitors global ESG regulation and works cross-functionally to advance GitLab's culture of compliance with applicable ESG regulations. Responds to investor ESG rating agencies to maintain competitive ESG scoring among peers.
+* [**Compliance & Reporting**](#compliance--reporting): Manages customer and prospect ESG-related questionnaires, requests for proposals, and sustainability contractual clauses. Leads annual Sustainability report and external assurance process. Monitors global ESG regulation and works cross-functionally to advance GitLab's culture of compliance with applicable ESG regulations. Responds to investor ESG rating agencies to maintain competitive ESG scoring among peers.
 
 * [**Climate Action**](#climate-action): Identifies and executes strategic climate programs, including annual measurement of GitLab's greenhouse gas inventory, emissions reduction target-setting, partners with Procurement to run the sustainable supplier program, identifies emissions reduction opportunities across the business, and purchases high quality carbon credits. Manages team member & customer communications related to GitLab's commitment to environmental sustainability.
 
@@ -36,19 +36,19 @@ The ESG | Sustainability Team has two primary functions and four corresponding p
 
 * [**GitLab for Non-Profits**](#gitlab-for-non-profits): GitLab's in-kind donation program. Manages social impact communications with team members and customers, while developing strategic nonprofit partnerships to advance GitLab's ESG goals and help enhance our brand reputation by demonstrating our commitment to the nonprofit community.
 
-## ESG | Sustainability Strategy
+## Sustainability Strategy
 
-Deeply integrated into our business philosophy, GitLab's ESG strategy is driven by our [values](/handbook/values/) of Collaboration, Results for Customers, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT). GitLab's stakeholders, including customers, investors, team members, and community members play a key role in GitLab's ESG strategy.
+Deeply integrated into our business philosophy, GitLab's Sustainability strategy is driven by our [values](/handbook/values/) of Collaboration, Results for Customers, Efficiency, Diversity, Inclusion and Belonging, Iteration, and Transparency (CREDIT). GitLab's stakeholders, including customers, investors, team members, and community members play a key role in GitLab's Sustainability strategy.
 
 GitLab conducted its inaugural ESG materiality assessment in 2022. By conducting a materiality assessment with our stakeholders, we identified which ESG topics have the greatest impact on GitLab's business and where we have the potential to have the greatest impact on the environment, society, and our global communities - those material topics drive the programs, policies and initiatives under our strategy.
 
-This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
+This page will continue to be updated as we make progress towards developing plans and programs to advance our Sustainability goals.
 
-## ESG Advisory Committee
+## Sustainability Advisory Committee
 
 The purpose of the advisory committee is to create cross-functional alignment on ESG objectives and decision making, to go beyond simply compliance and into long-term operational implementation.
 
-**Members of the ESG Advisory Committee**
+**Members of the Sustainability Advisory Committee**
 
 * Robin Schulman (Egroup)
 * Rob Allen (Egroup)
@@ -76,15 +76,15 @@ Like all functions at GitLab, transparency is a core focus. Every year GitLab pu
 * [FY23 ESG Report](/handbook/legal/esg/fy23-esg-report/)
 * [FY24 ESG Report](/handbook/company/esg/)
 
-GitLab is subject to new ESG regulation in 2026, which will require public disclosure of a wide range of ESG topics, such as greenhouse gas emissions, climate risk, diversity, business ethics, and more. The ESG | Sustainability team is working cross-functionally to prepare GitLab for upcoming compliance with these regulations.
+GitLab is subject to new ESG regulation in 2026, which will require public disclosure of a wide range of ESG topics, such as greenhouse gas emissions, climate risk, diversity, business ethics, and more. The Sustainability team is working cross-functionally to prepare GitLab for upcoming compliance with these regulations.
 
-The ESG | Sustainability team also supports internal teams with customer ESG questionnaires and RFPs. Customers and prospective customers are increasingly asking about GitLab's ESG programs, including questions related to GitLab's climate commitments and greenhouse gas emissions. Many of our customers are also subject to ESG regulation and we expect customer ESG questions to continue to increase as they look to better align to new regulations.
+The Sustainability team also supports internal teams with customer ESG questionnaires and RFPs. Customers and prospective customers are increasingly asking about GitLab's Sustainability programs, including questions related to GitLab's climate commitments and greenhouse gas emissions. Many of our customers are also subject to ESG regulation and we expect customer ESG questions to continue to increase as they look to better align to new regulations.
 
 #### Requesting Support with Customer ESG Questions
 
 * If a customer or potential customer has questions related to GitLab's ESG practices **as part of an RFP**, please follow the [RFP process](/handbook/security/security-assurance/field-security/field-security-rfp/)
 * If a customer or potential customer requests information via an ESG questionnaire, please open an issue [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) and select the 'ESG Questionnaire' template
-* If there's an opportunity to connect the ESG | Sustainability team directly, please reach out in the [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) Slack channel
+* If there's an opportunity to connect the Sustainability team directly, please reach out in the [#sustainability-esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) Slack channel
 
 ### Climate Action
 
@@ -96,7 +96,7 @@ GitLab's Climate Action Program consists of four pillars:
 
 1. **Measure & Report:** Every year GitLab conducts an annual greenhouse gas (GHG) inventory in alignment with the GHG Protocol, the global best practice carbon accounting standard. We publish the results of the inventory in our annual ESG report and have the data assured by a third-party. In 2026, GitLab is subject to new regulations in the US and the EU that will make these disclosures mandatory.
 
-2. **Act:** GitLab is taking action to reduce our carbon emissions. As a fully remote software company, the vast majority of our emissions come from our suppliers. Engaging our suppliers to measure their carbon emissions and set their own reduction targets is a critical component of our reduction pathway, which is why we have set a public supplier engagement target. Please see the [Sustainable Procurement Program](#sustainable-procurement-program) for more information. The ESG | Sustainability team continues to explore other ways to reduce emissions and is doing further analysis on additional reduction targets.
+2. **Act:** As a fully remote software company, the vast majority of our emissions come from our suppliers. Please see the [Sustainable Procurement Program](#sustainable-procurement-program) for more information. The Sustainability team continues to explore other ways to reduce emissions and is doing further analysis on additional reduction pathways.
 
 3. **Engage:** This includes engaging GitLab team members in climate education and action. In 2024, we launched the [GitLab Team Member Sustainability Guide](/handbook/legal/esg/team-member-sustainability-guide/), providing actionable steps team members can take at home to minimize their environmental impact. More to come on this!
 
@@ -104,16 +104,16 @@ GitLab's Climate Action Program consists of four pillars:
 
 #### Sustainable Procurement Program
 
-In FY25, GitLab set a science-aligned supplier engagement target to hold ourselves accountable for reducing our Scope 3 emissions: **70% of our suppliers (by emissions) will have science-aligned climate targets by FY29.**
+GitLab tracks supplier emissions as part of our annual GHG inventory. We also track our suppliers’ year over year progress made to reduce emissions.
 
-To achieve our target, we will be expanding supplier engagement to include the following initiatives:
+Our sustainable procurement program includes the following initiatives:
 
-* Updating our Partner Code of Ethics and standard contract to include new climate-related expectations of suppliers, including measuring and reporting their GHG emissions and setting a science-aligned reduction target
-* Use strategic business reviews to understand key barriers suppliers face in taking action on climate change and determine a path forward
-* Provide resources and training to suppliers on how to measure their greenhouse gas emissions and set their own targets
+* Annual emissions survey to request data from suppliers in an effort to improve the accuracy of our footprint
+* Use strategic business reviews to understand key barriers suppliers face when measuring and reporting their emissions
+* Provide resources and training to suppliers on how to measure and reduce their greenhouse gas emissions
 * Provide resources and training to team members responsible for supplier selection on our new expectations of suppliers
 
-We look forward to sharing our progress on this new initiative.
+We look forward to sharing updates on this new initiative.
 
 ### GiveLab
 
@@ -121,11 +121,11 @@ At GitLab, all team members do work that supports the company, which supports th
 
 But, there are also other ways to give back and many team members choose to contribute beyond GitLab. In addition to contributing to GitLab, GitLab offers additional optional pathways for team members to give back while leveraging their unique skills and passions through programs such as GiveLab, GitLab's Team Member Volunteer Program.
 
-GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
+GitLab encourages team members to take part in volunteer initiatives such as supporting their local communities, participating in virtual volunteer activities, and organizing volunteer activities as part of team events. Corporate volunteerism has been proven to be an effective strategy for [boosting engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..), improving employee retention, and [strengthening relationships at work](https://blog.catchafire.org/5-corporate-volunteering-stats-you-should-know#:~:text=Studies%20show%20that%2080%25%20of,enhances%20the%20overall%20work%20culture). Volunteering with GiveLab supports team members in fostering connections, building trust among one another and embodying our CREDIT values while positively impacting our communities. 
 
 Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a [Registered Nonprofit Organization](/handbook/legal/philanthropy-policy/#who-we-support) that isn't on the current [GiveLab Nonprofit Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=0#gid=0), please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
 
-Team members can also request support from the ESG | Sustainability Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write "yes" for the question, "Would you like the ESG | Sustainability team's help organizing the volunteer activity?"
+Team members can also request support from the Sustainability Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write "yes" for the question, "Would you like the Sustainability team's help organizing the volunteer activity?"
 
 All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab's paid time off (PTO) policy if volunteering during work hours and use the "public service/volunteer" option in Workday.
 
@@ -157,7 +157,7 @@ GiveLab 30 days of Impact runs annually in Q4 and our goal is to encourage as ma
 Throughout the month, team members can volunteer as little as one hour of their time to make an impact. We understand that our team members are driven by many different factors, and we welcome that volunteer participation will look different for everyone. Through GiveLab 30 days of Impact we aim to offer many different ways for team members to get involved such as:
 
 * Through company-sponsored virtual events
-* Local in-person volunteer events organized by the GitLab ESG | Sustainability team, [GiveLab Champions](#givelab-champions), and team members
+* Local in-person volunteer events organized by the GitLab Sustainability team, [GiveLab Champions](#givelab-champions), and team members
 * Individual volunteer pursuits
 * Find and contribute to opportunities in the [GiveLab Volunteer Directory](#givelab-volunteer-directory)
 * Include a volunteer activity at an all-hands or team builder
@@ -205,7 +205,7 @@ We encourage all team members to contribute to our GiveLab Volunteer Directory. 
 
 The GiveLab Champions are team members who are passionate about giving back to their communities and want to encourage other team members to do the same.
 
-GiveLab Champions self-identify to participate in the voluntary Champions group, managed by the ESG | Sustainability team. The GiveLab Champions help activate the GiveLab signature program (launching Fall of 2024), but also work to organize and promote volunteer opportunities year-round.
+GiveLab Champions self-identify to participate in the voluntary Champions group, managed by the Sustainability team. The GiveLab Champions help activate the GiveLab signature program (launching Fall of 2024), but also work to organize and promote volunteer opportunities year-round.
 
 #### The importance of GiveLab Champions
 
@@ -222,11 +222,11 @@ GiveLab Champions help team members build trust through social connections, buil
 
 * Recommend local [Registered Nonprofit Organizations](/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab's eligibility criteria for volunteer activities
 * Help organize local volunteer events for team members to participate in
-* Provide recommendations to the ESG | Sustainability Team for virtual volunteer opportunities
+* Provide recommendations to the Sustainability Team for virtual volunteer opportunities
 * Encourage team members to volunteer
 * Help plan and execute the GiveLab signature program
 * Participate in quarterly Champion group meetings
-* Provide feedback to the ESG | Sustainability team on the GiveLab and ESG Programs
+* Provide feedback to the Sustainability team on the GiveLab and Sustainability Programs
 
 #### Time commitment
 
@@ -244,7 +244,7 @@ The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quar
 
 * Interested team members should complete the [GiveLab Champions survey](https://docs.google.com/forms/d/e/1FAIpQLSf1Nx999ruN-_Ja0T6nd-ClkNOMRXNEEj-P40R7rQ64iV7ABQ/viewform) expressing their interest
 * Team members must confirm that they have approval from their manager to participate
-* The ESG | Sustainability team evaluates interest at a minimum on a monthly cadence and will reach out to the interested individual for follow up questions
+* The Sustainability team evaluates interest at a minimum on a monthly cadence and will reach out to the interested individual for follow up questions
 
 #### GiveLab Champions
 
@@ -254,7 +254,6 @@ The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quar
 * Rendi Miller (Finance)
 * Emily Plotkin (Legal)
 * Kim Buncle (Legal)
-* Lauren Lopez (Legal)
 * Alisha Ward (Marketing)
 * Darwin Sanoy (Marketing)
 * Kristof Goossens (Marketing)
@@ -277,12 +276,6 @@ Nonprofits accepted into the program will be provided a free Ultimate license fo
 **Who qualifies for the program?**
 
 GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our [Values](/handbook/values/). A "Registered Nonprofit Organization" is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal or national government.
-
-GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab's social and environmental key topics that were defined in GitLab's [2022 materiality assessment](/handbook/legal/esg/). GitLab's current social and environmental key topics are:
-
-* Diversity, Inclusion, and Belonging
-* Talent Management & Engagement
-* Climate Action and Greenhouse Gas Emissions
 
 For the calendar year 2024, we will limit the in-kind program to 5,000 seats, which was approved by finance and the board in the [Philanthropy Policy](https://docs.google.com/document/d/1b40Z-5uVebZ05RQehn5qq86c2qP_0w8T40MrygP3VEU/edit). Each organization will be eligible for up to 20 seats. This will allow us to assist as many organizations as possible. This will be revisited throughout the year and adjusted as needed. Interested organizations who are new customers may request additional seats although the request may not be granted. To limit churn, current GitLab customers that apply to transition to the Nonprofit Program will not be granted a special request above the 20 seats.
 
@@ -329,13 +322,13 @@ While GitLab for Nonprofits Program benefits do not include product [support](ht
 
 * Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application
 * If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP)
-* If you have a question or concern about the customer churn, please raise this in [#esg](https://gitlab.enterprise.slack.com/archives/CPWSJBCDP) and an ESG | Sustainability team member will contact you
+* If you have a question or concern about the customer churn, please raise this in #gitlab-for-nonprofits slack channel and a Sustainability team member will contact you
 
 ### Philanthropic Requests
 
 Information on how GitLab Inc. supports Registered Nonprofit Organizations can be found in the [Philanthropy Policy](/handbook/legal/philanthropy-policy/).
 
-Please note that for all Philanthropic Requests, including requests for GitLab to join as a member to an association, program or organization, approval by the ESG | Sustainability team and CLO is required as defined by the Oversight Responsibility section of the Policy.
+Please note that for all Philanthropic Requests, including requests for GitLab to join as a member to an association, program or organization, approval by the Sustainability team and CLO is required as defined by the Oversight Responsibility section of the Policy.
 
 If you would like to submit a philanthropic request, please follow the instructions based on your request type.
 
@@ -343,11 +336,11 @@ If you would like to submit a philanthropic request, please follow the instructi
 
 There are two ways that team members can submit a request for monetary support:
 
-1. Request funding from the ESG | Sustainability team to support a Registered Nonprofit Organization OR (not currently accepting applications - see instructions below on submitting a non-profit for future consideration)
+1. Request funding from the Sustainability team to support a Registered Nonprofit Organization OR (not currently accepting applications - see instructions below on submitting a non-profit for future consideration)
 
 2. Request utilizing department or TMRG budget to support a Registered Nonprofit Organization
 
-If you are requesting funding from the ESG | Sustainability team to support a Registered Nonprofit Organization, please note that at this time, we are not accepting applications. If you would like to submit a Nonprofit Organization to be considered for support in the future, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support). You will be notified if there is a future opportunity.
+If you are requesting funding from the Sustainability team to support a Registered Nonprofit Organization, please note that at this time, we are not accepting applications. If you would like to submit a Nonprofit Organization to be considered for support in the future, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support). You will be notified if there is a future opportunity.
 
 If you have a department or TMRG budget that you would like to utilize to support a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support). Please tag your manager to approve the request if you are submitting on behalf of your department. If you are submitting a request on behalf of a TMRG or DIB, please add the DIB DRI as a reviewer. Please allow a minimum of 10 working days for review.
 
