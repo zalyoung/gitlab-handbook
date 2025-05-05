@@ -269,13 +269,6 @@ GLQL already provides a robust foundation for our standardized query system:
 
 #### Extending GLQL to support multiple data sources
 
-Following GLQL's Extensibility [guidelines](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/glql/#extensibility), we need to implement several components:
-
-- Implement new Code Generators tailored to each specific data source
-- Develop corresponding transformers to normalize the data returned by different APIs
-- Create new Analyzers to validate object-specific query semantics
-- Extend or create new Presenters if unique display formats are required
-
 The proposed approach includes:
 
 1. **Type-based data source and output routing** - Extend the `type` field to include more data sources, and pivot on it to determine which data source to query and output to produce:
@@ -318,6 +311,13 @@ display_id: 'ai-impact-table'
 ```
 
 Extending GLQL in this way could also enable easy exporting and sharing of dashboards/visualizations across other GitLab pages, further enhancing the platform's data exploration capabilities.
+
+To achieve the above, following GLQL's Extensibility [guidelines](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/glql/#extensibility), we need to implement the following components:
+
+- Implement new Code Generators tailored to each specific data source
+- Develop corresponding transformers to normalize the data returned by different APIs
+- Create new Analyzers to validate object-specific query semantics
+- Extend or create new Presenters if unique display formats are required
 
 #### Moving GLQL to the backend
 
