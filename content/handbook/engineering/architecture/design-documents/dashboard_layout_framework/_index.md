@@ -185,21 +185,6 @@ For per-panel filters and panel-specific errors, we should use the panel error s
 - Have a tooltip explaining the error in detail, and what the user can do, with a retry button where applicable.
 - Replace the panel content with a contextual error message.
 
-### Configuration structure
-
-The configuration used to build a dashboard, filter, panel, or visualization must follow the JSON validation schema outlined in either the [dashboard schema](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/validators/json_schemas/analytics_dashboard.json) or [visualization schema](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/validators/json_schemas/analytics_visualization.json).
-
-The configuration doesn't need to have come from a JSON file, as long as the structure properties are met. Some examples of where the configuration could be stored:
-
-- A YAML file
-- A JSON file
-- An API call
-- A database table
-- A JavaScript object
-- Vue component props
-
-The configuration should be validated against the schema before being used.
-
 ## Migration strategies
 
 We need to consider how to migrate existing dashboard implementations. These dashboards are already solving a need
