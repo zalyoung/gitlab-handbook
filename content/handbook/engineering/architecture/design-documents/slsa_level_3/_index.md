@@ -74,6 +74,81 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 ## Design Details
 
+### High Level Architecture
+
+```mermaid
+flowchart TD
+    %% Define styles for improved visual appearance
+    classDef phaseStyle fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10px,ry:10px
+    classDef componentStyle fill:#e1ebff,stroke:#4b6bdc,stroke-width:1px,rx:5px,ry:5px
+    classDef storageStyle fill:#ffe6cc,stroke:#d79b00,stroke-width:1px,rx:5px,ry:5px
+    classDef serviceStyle fill:#d5e8d4,stroke:#82b366,stroke-width:1px,rx:5px,ry:5px
+    classDef signatureStyle fill:#fff2cc,stroke:#d6b656,stroke-width:1px,rx:5px,ry:5px
+    classDef securityStyle fill:#f8cecc,stroke:#b85450,stroke-width:1px,rx:5px,ry:5px
+    classDef controlPlaneStyle fill:#e1d5e7,stroke:#9673a6,stroke-width:1px,rx:5px,ry:5px
+    subgraph Phase1["Phase 1: In-Pipeline Provenance Generation"]
+        CIConfig["GitLab CI Config<br>with SLSA Component"]
+        BuildJob["CI/CD Build Job"]
+        Artifacts["Build Artifacts"]
+        ProvenanceSigner["Provenance Signer Component"]
+        TempSignedAttestation["Temporary Signed<br>Attestation (Phase 1)"]
+    end
+    subgraph FutureWork["Future Work"]
+        VirtualRegistry["Virtual Registry<br>(Dependency Proxy)"]
+        Dependencies[(Package & Container<br>Dependencies)]
+    end
+    subgraph Phase2and3["Phase 2 and 3: Provenance Generation & Out-of-Pipeline Signing"]
+        subgraph RTCP["Rails Trusted Control Plane (RTCP)"]
+            RailsBackend["GitLab Rails Backend"]
+            DB[(GitLab Database)]
+        end
+        subgraph SSTCP["Signing Service Trusted Control Plane (SSTCP)"]
+            GlgoService["glgo Service<br>(Signing Service)"]
+        end
+        Rekor["Transparency Log<br>(Rekor)"]
+        PermanentAttestation["Permanent Signed<br>Attestation"]
+    end
+    subgraph Phase4["Phase 4"]
+        ExternalKMS["External KMS"]
+    end
+    subgraph Phase5["Phase 5: Hardened Pipeline Identity"]
+        HardenedRunner["Hardened Runner<br>with HW Identity"]
+        TPM["Trusted Platform<br>Module"]
+        RunnerAudit["Runner Audit Logs"]
+    end
+    %% Relationships between components with labeled edges
+    CIConfig -->|"Configuration"| BuildJob
+    BuildJob -->|"1 Generate"| Artifacts
+    BuildJob -->|"2 Request Dependencies"| VirtualRegistry
+    VirtualRegistry <-->|"3 Fetch/Track"| Dependencies
+    
+    %% Phase 1 flow for early implementation
+    VirtualRegistry -->|"4 Provide Dependency Data"| RTCP
+    Artifacts -->|"5 Artifact Storage"| ProvenanceSigner
+    ProvenanceSigner -->|"Store"| TempSignedAttestation
+    ProvenanceSigner -->|"6 Pass Artifact"| RTCP
+    HardenedRunner -->|"7 Provide Runner Identity"| RTCP
+    RailsBackend <-->|"8 Query Metadata"| DB
+    
+    RailsBackend -->|"9 Generate Provenance<br>Statement"| SSTCP
+    SSTCP -.->|"Future Integration"| ExternalKMS
+    GlgoService -->|"10 Return Signed<br>Attestation"| RailsBackend
+    GlgoService -->|"11 Publish Attestation<br>Digest"| Rekor
+    RailsBackend -->|"12 Store"| PermanentAttestation
+    
+    %% Phase 5 hardening
+    HardenedRunner <-->|"Hardware-backed<br>Identity"| TPM
+    HardenedRunner -->|"Audit Logging"| RunnerAudit
+    %% Apply styles
+    class Phase1,Phase2and3,Phase4,Phase5,FutureWork phaseStyle
+    class CIConfig,BuildJob componentStyle
+    class Artifacts,DB,Dependencies storageStyle
+    class VirtualRegistry,GlgoService serviceStyle
+    class ProvenanceSigner,TempSignedAttestation,PermanentAttestation,Rekor,ExternalKMS signatureStyle
+    class HardenedRunner,TPM,RunnerAudit securityStyle
+    class RTCP,SSTCP,RailsBackend controlPlaneStyle
+```
+
 ### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
 
 1. Generate provenance attestations using Sigstore tools (cosign).
