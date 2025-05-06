@@ -24,7 +24,7 @@ This working group aims to:
 1. Operationalize teams around user journeys
 1. Enable cross-functional collaboration across user journeys
 
-## Business outcomes and cxit criteria
+## Business outcomes and exit criteria
 
 - Define key terminology including: User journey, golden journey, journey map, and journey hierarchy/fidelity `=> 0%`
 - Develop guidelines for various levels of journey hierarchy (macro, mid, micro) `=> 0%`
