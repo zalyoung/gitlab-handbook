@@ -131,7 +131,7 @@ which is already used for GitLab dedicated tenants as well.
 
 [The instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) pulls the Cells configuration
 and deploys them using Helm (Kubernetes) which is one of the [GitLab installation methods](https://docs.gitlab.com/install/install_methods/).
-We also use Helm (Kubernetes) to install GitLab
+We also use Helm (Kubernetes) to install GitLab on the existing legacy Cell itself, on both Staging and Production.
 
 To reach shared resources, Cells will use [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect).
 
