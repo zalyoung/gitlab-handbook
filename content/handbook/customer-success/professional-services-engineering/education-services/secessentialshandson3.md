@@ -208,11 +208,9 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 1. You will also need to tell the Container Scanning tool about which image to scan. Add the following code beneath the `secret_detection` job:
 
 ```yaml
-
 container_scanning:
   variables:
     CS_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-
 ```
 
 1. Commit the changes with an appropriate commit message.
