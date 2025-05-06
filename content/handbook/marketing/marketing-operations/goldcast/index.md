@@ -376,26 +376,26 @@ a. `Your event has been rescheduled!`
 b. `Due to unforeseen circumstances the event has been canceled.`
 
 - Spanish
-  a. "Su evento se reprogramó."
-  b. "Debido a circunstancias imprevistas, el evento se canceló."
+  - a. "Su evento se reprogramó."
+  - b. "Debido a circunstancias imprevistas, el evento se canceló."
 - French
-  a. "Votre événement a été reprogrammé!"
-  b. "En raison de circonstances imprévues, l'événement a été annulé."
+  - a. "Votre événement a été reprogrammé!"
+  - b. "En raison de circonstances imprévues, l'événement a été annulé."
 - German
-  a. "Dein Event wurde verschoben."
-  b. "Aufgrund unvorhergesehener Umstände wurde das Event abgesagt."
+  - a. "Dein Event wurde verschoben."
+  - b. "Aufgrund unvorhergesehener Umstände wurde das Event abgesagt."
 - Portuguese
-  a. "Seu evento foi reagendado!"
-  b. "evido a imprevistos, o evento foi cancelado. "
+  - a. "Seu evento foi reagendado!"
+  - b. "evido a imprevistos, o evento foi cancelado. "
 - Italian
-  a. "Il tuo evento è stato riprogrammato."
-  b. "A causa di circostanze impreviste, l'evento è stato annullato."
+  - a. "Il tuo evento è stato riprogrammato."
+  - b. "A causa di circostanze impreviste, l'evento è stato annullato."
 - Japanese
-  a. "イベントのスケジュールが変更されました！"
-  b. "予期せぬ事情により、イベントは中止となりました。"
+  - a. "イベントのスケジュールが変更されました！"
+  - b. "予期せぬ事情により、イベントは中止となりました。"
 - Korean
-  a.
-  b.
+  - a. "이벤트 일정이 변경되었습니다!"
+  - b. "예기치 못한 상황으로 인해 이벤트가 취소되었습니다. 불편을 끼쳐드려 죄송합니다."
 
 ## Working with a Series
 
