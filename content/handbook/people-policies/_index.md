@@ -48,6 +48,21 @@ This policy applies to all current team members and candidates for open roles. I
 
 Please report any relationship with a significant other or family member to your People Business Partner, if you find yourself in a reporting relationship with the significant other or family member. Furthermore, if two team members who are in a reporting relationship become significant others or family members in the course of their employment, they should also report the relationship to the People Business Partner. Transfers, promotions, and future work assignments will be made in accordance with all applicable anti-discrimination laws and policies.
 
+## Individuals with Disabilities Policy
+
+GitLab (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability. The Company prohibits discrimination against team members and applicants with disabilities in all aspects of employment. Our company’s commitment to this policy includes making reasonable accommodations to otherwise qualified persons with disabilities to enable them to perform the essential functions of their jobs, unless doing so would pose an undue hardship on our business, would pose a direct threat of substantial harm to the team member or others or is otherwise not required by applicable law.
+
+**Team Members Requesting Accommodations**
+
+Please submit your request for an accommodation by submitting a ticket in HelpLab. Your answers will be viewed only by the Team Member Relations Team (TMR), and only the requested accommodation(s) will be shared with your Manager/PBP as needed.
+
+Team Members are under no obligation to provide GitLab with a diagnosis, but you may be asked questions related to how your condition impacts your ability to perform the essential functions of your job, in accordance with applicable law. The TMR will provide you with any necessary paperwork, and assist you with your request.
+
+- [U.S. Specific Policy](/handbook/people-policies/inc-usa/)
+
+**Applicants Requesting Accommodations**
+The Talent Aquisition team should contact the Team Member Relations team (TMR) if a candidate requests an accommodation during the interview process. The TMR team will reach out to the candidate directly if more information is needed. Applicants are under no obligation to provide GitLab with a diagnosis, but you may be asked questions related to how your condition impacts your ability to interview for the role, in accordance with applicable law.
+
 ## Workplace Conduct
 
 ### Confidentiality
@@ -140,7 +155,7 @@ The following are GitLab's procedures in the event a team member feels threatene
 1. If at any point, a team member feels like they or another team member may require immediate medical assistance, please contact the local authorities.
 1. Once the immediate threat is controlled, team members should report any safety concerns to People Connect.
 1. If you believe that a certain location, event or area presents greater risk or exposure to individuals, please notify People Connect. People Connect will strive to proactively communicate the concerns to other potentially affected team members.
-1. If at any point you believe you, personally, may commit an unsafe act, People Connect can assist in providing information about available [Employee Assistance](/handbook/total-rewards/benefits/general-and-entity-benefits/#employee-assistance-program) options.
+1. If at any point you believe you, personally, may commit an unsafe act, People Connect can assist in providing information about available [Modern Health](/handbook/total-rewards/benefits/modern-health/) options.
 
 ## Workers' Compensation
 
@@ -317,7 +332,7 @@ The handbook also has a wealth of information and recommendations for setting up
 
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
-- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/company/culture/all-remote/mental-health/)
+- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](//handbook/total-rewards/benefits/modern-health/)
 - [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
 - [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
@@ -377,7 +392,7 @@ To ensure the physical and mental health and safety of our team members in New Z
 
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
-- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/company/culture/all-remote/mental-health/)
+- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
 - [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
 - [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 
