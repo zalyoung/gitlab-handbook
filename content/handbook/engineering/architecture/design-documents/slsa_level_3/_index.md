@@ -85,7 +85,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 #### Phase 2: Generate Provenance Statement in Control Plane
 
-- Move provenance statement generation to GitLab's control plane
+- Move provenance statement generation to GitLab's control plane.
 - Every field of the provenance is generated or verified in the trusted control plane.
 - Generate provenance statements with enhanced integrity guarantees
 
