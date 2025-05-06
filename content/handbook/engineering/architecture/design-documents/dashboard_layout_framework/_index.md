@@ -138,9 +138,9 @@ any visualization options, and output this in an appropriate format for the data
 Some common examples include:
 
 - ECharts-based visualizations, using the [GitLab UI implementations](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/charts-chart--docs)
-    - Visualizations may contain axis, legends, and other clickable elements depending upon the ECharts implementation.
+  - Visualizations may contain axis, legends, and other clickable elements depending upon the ECharts implementation.
 - Tables, using [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--docs) (or the lite version)
-    - Visualizations may contain keyset pagination, sorting, and internal searching.
+  - Visualizations may contain keyset pagination, sorting, and internal searching.
 - Text or markdown-based content
 
 Visualizations should not be contextually aware, their only job is to render the data provided in the format outlined by
