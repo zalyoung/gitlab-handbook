@@ -31,9 +31,11 @@ For long pages, consider creating a table of contents.
 Dashboards are at the heart of how our customers interact with their data. It is the means by which they are able to understand their data
 and use it to meet their business needs.
 
-However, at GitLab, our dashboards have always been inherently feature-focused, without any unifying vision
-or clear guidance on _how_ to build a dashboard. We don't have clear guidance for meeting the needs of our
-customers, or clear UX and behavioral guidelines to make sure our customers know how to use any dashboard at GitLab.
+However, at GitLab, our dashboards have always been inherently feature-focused, without clear UX guidance or
+common UI framework instructing _how_ to build a dashboard. The result is that there is no single Dashboard
+experience for across GitLab. The impact of which is that that customers have an inconsistent user experience
+and have to learn how to use each dashboard and that and development teams cannot easily exchange or reuse
+between existing dashboards resulting in increased development time and maintenance cost.
 
 ~"group::platform insights" is working to design, develop, and implement this unified vision for all dashboards
 at GitLab. This vision began with the [Dashboards Working Group](../../../../company/working-groups/dashboards.md) and in March 2023 culminated in a
@@ -44,7 +46,7 @@ Since then, ~"group::platform insights" have developed an [initial dashboards fr
 This was built off the initial work for [Product Analytics](https://docs.gitlab.com/development/internal_analytics/product_analytics/).
 The framework has been adopted by ~"group::optimize" for the [Value Stream Dashboard](https://docs.gitlab.com/user/analytics/value_streams_dashboard/)
 and [AI Impact Analytics](https://docs.gitlab.com/user/analytics/ai_impact_analytics/),
-as well as currently being evaluated for our [Security Dashboards](https://docs.gitlab.com/user/application_security/security_dashboard/).
+as well as currently being developed for our [Security Dashboards](https://docs.gitlab.com/user/application_security/security_dashboard/).
 
 The next stage of this work is to solidify the foundations of the dashboards framework, align on the UI/UX,
 and what features the dashboards framework will support. There must be clear guidance on:
@@ -89,16 +91,16 @@ The structure outlined below describes what this will include, and how they will
 
 ### The grid
 
-We must have a grid system that supports a flexible column and row grid. This grid must support items (panels) that
-can be resized and repositioned.
+In line with our design definition of a [Grid](https://design.gitlab.com/patterns/dashboards/) we require a system
+uses rows and columns to snap panels into position. The system should allow panels to be resized and repositioned in a
+deterministic and cross-browser friendly way.
 
-The grid itself will support 12 columns, with an unlimited number of rows. Each item (panel) within the grid, can be
-up to 12 columns in width. In other words, each row may contain between 1–12 panels. Each panel can span an unlimited
-number of rows, although realistically for UX and performance reasons, it would only be a few rows for any given panel.
+The grid itself will support 12 columns, with an unlimited number of rows. Grid panels can be up to 12 columns wide,
+allowing 1-12 panels per row. The height of a panel can be between 1 row and unlimited, enabling it to span any number
+of rows as needed.
 
-We will not be setting any limits at this time, so it is possible for someone using the framework to create a panel
-that doesn't fit its contents. If this occurs, the panel will provide scrollbars for users to be able to see the content
-that doesn't fit.
+Each panel, within the grid, will have a minimum height of `125px`. This minimum height gives space for padding, the title, and basic content;
+whilst not needing a scrollbar to see all the panel contents.
 
 Our preferred choice for this grid is to use [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
 grid structures, along with the changing and resizing of grid items, in a deterministic, and cross-browser friendly way.
@@ -109,13 +111,13 @@ Any grid configuration options to be abstracted to make it easier to migrate if 
 ### Panels
 
 [Panels](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs) are the wrapping modular container that provides a contextual interface for users to interact with their data.
-Each panel may contain:
+Each panel contains:
 
 - A title
-- A tooltip for further tertiary information
-- A kebab menu of contextual actions
-- An indicator for any contextual errors/warnings/info
-- A loading state whilst the panel retrieves the visualization data
+- A tooltip for further tertiary information (optional)
+- A kebab menu of contextual actions (optional)
+- An indicator for any contextual errors/warnings/info (optional)
+- A loading state whilst the panel retrieves the visualization data (optional)
 - The visualization area
 
 Panels handle:
@@ -136,12 +138,10 @@ any visualization options, and output this in an appropriate format for the data
 Some common examples include:
 
 - ECharts-based visualizations, using the [GitLab UI implementations](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/charts-chart--docs)
+    - Visualizations may contain axis, legends, and other clickable elements depending upon the ECharts implementation.
 - Tables, using [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--docs) (or the lite version)
+    - Visualizations may contain keyset pagination, sorting, and internal searching.
 - Text or markdown-based content
-
-ECharts-based visualizations may contain axis, legends, and other clickable elements depending upon the ECharts implementation.
-
-Table visualizations may contain keyset pagination, sorting, and internal searching.
 
 Visualizations should not be contextually aware, their only job is to render the data provided in the format outlined by
 its configuration and component structure.
@@ -196,7 +196,7 @@ Even more so, as this will require the page to use Vue for rendering, and not ev
 
 Any migration strategy should have the user requirements, seamless migration, and quality at its heart.
 
-### Immediate replacement
+### Replacing everything
 
 In the event that a dashboard isn't meeting our users' needs, or is already scheduled for a revamp, it may be most
 prudent to go straight to replacing the existing dashboard with the dashboard layout framework.
@@ -204,7 +204,7 @@ prudent to go straight to replacing the existing dashboard with the dashboard la
 This would entail:
 
 - Building visualizations for the data being viewed
-- Building out the dashboard layout to best represent the data
+- Using the dashboard layout framework to design and build the dashboard
 - Adding existing filters or creating new filter types
 
 Oftentimes, dashboards are also migrated to a new location within the navigation at the same time.
