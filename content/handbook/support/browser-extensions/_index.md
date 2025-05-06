@@ -3,7 +3,7 @@ title: Browser Extensions
 description: Documentation for managing, developing, and publishing browser extensions for the GitLab Support team
 ---
 
-The GitLab Support team manages several browser extensions that help support engineers with their daily workflows. This page documents how these extensions are managed, developed, and published.
+The GitLab Support team manages several browser extensions that help Support Engineers with their daily workflows. This page documents how these extensions are managed, developed, and published.
 
 ## Current Extensions
 
