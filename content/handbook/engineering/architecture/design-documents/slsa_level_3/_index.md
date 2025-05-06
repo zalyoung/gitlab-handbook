@@ -58,8 +58,8 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 - KMS: Key Management Service, an external system to securely manage cryptographic keys.
 - HSM: Hardware Security Module, hardware-based systems for secure key storage and signing.
 - VSA: Verification Summary Attestation, an attestation that an artifact has been verified to meet certain requirements.
-- Rails Trusted Control Plane (RTCP): The GitLab Rails backend that provides a trusted environment for security-critical operations, separate from the build environment.
-- Signing Service Trusted Control Plane (SSTCP): A dedicated service within the GitLab infrastructure responsible for secure artifact signing operations, isolated from the CI/CD execution environment.
+- GitLab Rails backend: The GitLab Rails backend that provides a trusted environment for security-critical operations, separate from the build environment.
+- Signing Service: A dedicated service within the GitLab infrastructure responsible for secure artifact signing operations, isolated from the CI/CD execution environment.
 
 ## Assumptions
 
