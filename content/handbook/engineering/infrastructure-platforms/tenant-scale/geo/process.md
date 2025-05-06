@@ -261,20 +261,25 @@ The refinement script can be found [here](https://gitlab.com/gitlab-org/geo-team
 
 #### Engineering Customer/Support Rotation Process
 
-Every week, a Geo engineer is assigned to be the DRI for doing the technical assessment of customer support tickets + monitoring [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel for support issues.
-
-A different backend engineer is assigned to support rotation each week and we schedule shifts 2 to 6 months in advance. This is a discussion documented here in this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5118)
+Every two weeks, a Geo engineer is assigned to be the DRI for doing the technical assessment of customer support tickets + monitoring [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel for support issues.
 
 Process summary:
 
 - Every week, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new support shift is starting for technical assessment triage.
 - Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
-- The DRI currently assigned to the rotation should then dedicate their week to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGeo&first_page_size=100) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
+- The DRI currently assigned to the rotation should then dedicate their two weeks to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGeo&first_page_size=100) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
   - Be first on point to triage questions in our [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel. Now that we have a slack workflow -> this should be taught/triggered per more complex questions and quickly answer anything that's short and sweet.
-  - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow. One dev continuing to take ownership of an issue they started on is preferred over handing it over.
+  - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow.
 - If the DRI is unable to perform an upcoming triage rotation shift due to any reason (e.g. PTO, sick leave, other responsibilities taking precedence), they are expected to swap their rotation with another team member or notify the EM to facilitate. Once the swap is identified, the schedule should be updated with via a MR.
-- The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5120) for example for the 2024 rotation similiar to the bug triage process.
+- The DRI needs to update this [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5142) for the 2025 rotation.
 - The DRI should estimate the amount of time spent on support and track this via `Time Tracking` in each issue approximating to the hour how much they have spent on tickets and triaging. This is a new part of the process which is in a trial phase.
+
+At the end of the rotation, each engineer should provide handover notes inside the [issue](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/5142): 
+
+- Using our standardized Duo Chat prompt for handing over an RFH (WIP)
+- Proofread and correct Duo's output if needed.
+- Post it directly on the issue, with a ping to the new DRI, in a new root comment, not on a thread
+- If needed, the new DRI should ask clarifying questions on a reply to the comment or in Slack.  Setting up a meeting to go over more difficult context would work if timezones aligned. 
 
 ##### Schedules
 
