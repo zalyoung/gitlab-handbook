@@ -159,8 +159,7 @@ flowchart TD
 ### Phase 2: Generate Provenance Statement in Control Plane
 
 1. Move provenance statement generation to GitLab's control plane
-2. Establish secure communication between runner environment and control plane
-3. Collect and validate build metadata from secure sources
+3. Every field of the provenance is generated or verified in the trusted control plane.
 4. Generate provenance statements with enhanced integrity guarantees
 
 ### Phase 3: Out-of-Pipeline Signing
@@ -174,7 +173,6 @@ flowchart TD
 
 1. Enable integration with external KMS (e.g., AWS KMS, Google KMS) or HSM solutions.
 1. Use long-term signing keys stored securely outside the pipeline.
-1. Provide an optional component to sign artifacts after the build completes.
 1. Support multiple key management solutions to accommodate various enterprise environments
 
 ### Phase 4: Out-of-Pipeline Signing
@@ -187,7 +185,7 @@ flowchart TD
 
 1. Introduce strong runner identity using secure hardware (e.g., TPM, HSM, secure boot).
 1. Embed runner identity into the provenance metadata.
-1. Ensure that the runner environment can be verified and trusted.
+1. Ensure that the runner environment is verified and trusted.
 
 ## Implementation Plan
 
