@@ -134,7 +134,7 @@ When we notice patterns in our Definitions of Ready for specific projects, we sh
 1. The description contains Context, a Proposal, and if applicable, a Technical Implementation Plan
   1. Answer: "why?", "why now?" or "when?", and "who needs to be involved?"
 1. A set of checkboxes under an Acceptance Criteria that need to be be checked to consider the work complete
-1. A weight has been assigned
+1. A [weight](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#weights) has been assigned
 1. (Optional) A [priority](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#priorities) label has been assigned to indicate the relative importance of the issue within our backlog
 1. The `~workflow::ready for development` label has been added
 
