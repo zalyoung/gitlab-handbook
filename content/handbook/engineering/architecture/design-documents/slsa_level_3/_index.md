@@ -100,7 +100,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 - Enable integration with external KMS (AWS KMS, Google KMS) or HSM solutions.
 - Use long-term signing keys stored securely outside the pipeline.
-- Support multiple key management solutions to accommodate various enterprise environments
+- Support multiple key management solutions to accommodate various enterprise environments.
 
 #### Phase 4: Out-of-Pipeline Signing
 
