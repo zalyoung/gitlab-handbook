@@ -62,9 +62,9 @@ Now we have a component file, but in order for the component to be accessible by
 
 1. Expand **Visibility, project features, permissions**.
 
-1. Turn on the CI/CD Catalog project toggle.
+1. Turn on the CI/CD Catalog project toggle. Click **Save changes**.
 
-This will now make the project a CI/CD Catalog project. Any templates in the *templates* directory will now be available to any project, provided we make a release.
+This will now make the project a CI/CD Catalog project. Any templates in the *templates* directory will now be available to any project, provided we make a release. Next we will use a component to make a release on our new custom component.
 
 1. In the repository of your Example Component project, click the **+** button, then click the **New File** option.
 
@@ -73,17 +73,21 @@ This will now make the project a CI/CD Catalog project. Any templates in the *te
 1. In the `.gitlab-ci.yml` file, add the following code snippet.
 
 ```yaml
+workflow:
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: never
+    - when: always
 stages:
   - release
-
 release component:
   stage: release
   image: registry.gitlab.com/gitlab-org/release-cli:latest
   script:
     - echo "Releasing the latest version of our component."
-      release: 
-        tag_name: 'v0.$CI_PIPELINE_IID.0'
-        description: 'The latest component release.'
+  release: 
+    tag_name: 'v0.$CI_PIPELINE_IID.0'
+    description: 'The latest component release.'
 ```
 
 This code looks similar to our release component we made in a similar lab, but there is one key difference- component releases require a release format in semantic versioning (MAJOR.MINOR.PATCH). We use the PATCH version to differentiate between each commit.
@@ -140,8 +144,10 @@ include:
 1. Let's try overriding the stage to instead run in the deploy stage by adding the following to the `.gitlab-ci.yml` file:
 
 ```yaml
-  inputs:
-    stage: deploy
+  include:
+    - component: $CI_SERVER_FQDN/training-users/session-0a9ee9b9/iu6t0rjr/example-component/sample-template@v0.36.0
+      inputs:
+        stage: deploy
 ```
 
 1. Select **Commit changes**, and watch as your *component-job* now runs in the deploy stage.
