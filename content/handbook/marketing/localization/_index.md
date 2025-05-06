@@ -20,8 +20,8 @@ Our ability to support regional teams with localized product documentation, mark
 - [Lauren Barker](https://gitlab.com/laurenbarker), Staff Fullstack Engineer
 - [María José Salmerón Ibanez](https://gitlab.com/mjsibanez), Senior Localization Program Manager
 - [Noriko Akiyama](https://gitlab.com/nakiyama-ext), Localization Specialist, Japanese*
-- [Maud Leuenberger](https://gitlab.com/maudl-ext), Content Manager, French*
-- [Hendrik Breuer](https://gitlab.com/hbreuer-ext), Senior Content Manager, German*
+- [Maud Leuenberger](https://gitlab.com/maudl-ext), Content Manager, French
+- [Hendrik Breuer](https://gitlab.com/hbreuer-ext), Senior Content Manager, German
 - [Emi Kimura](https://gitlab.com/emikimura-ext), EN-JP Linguist*
 
 *temporary service provider
