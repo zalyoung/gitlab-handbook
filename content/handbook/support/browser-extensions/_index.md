@@ -16,17 +16,22 @@ The browser extensions currently maintained by the Support team and are availabl
 
 A more complete list of recommended extensions can be found [here](../engineering/_index.md#useful-browser-extensions).
 
+## Publishing extensions
+
+Once an extension has been developed, it can be published to a browser extension store for public distribution.
+
+- Chrome extensions are published managed through a shared "GitLab Inc" publisher account on the Chrome Web Store. If you would like to use this, you will need to [request access](#requesting-access). There is also a developer fee of $5 USD for each user.
+- Firefox extensions can be published and managed on a personal Mozilla account on [Firefox Add-Ons](https://addons.mozilla.org/en-GB/firefox/).
+
 ## Accessing the Chrome Web Store Developer Dashboard
 
-The Chrome Web Store (CWA) Developer Dashboard can be accessed [here](https://chrome.google.com/webstore/devconsole/5df5edac-ebab-45e2-9001-f6fb6fec07af).
+The Chrome Web Store (CWA) Developer Dashboard for the shared "GitLab Inc" publisher account can be accessed [here](https://chrome.google.com/webstore/devconsole/5df5edac-ebab-45e2-9001-f6fb6fec07af).
 
 ## Access Management
 
 ### Chrome Web Store Publisher Access
 
-Chrome extensions published by GitLab Support are managed through the "GitLab Inc" publisher account on the Chrome Web Store.
-
-This publisher account has been vetted by the Legal team and has been disclosed as a trader account as per [Chrome Web Store's trader disclosure requirements](https://developer.chrome.com/docs/webstore/program-policies/trader-disclosure).
+The shared "GitLab Inc" publisher account has been vetted by the Legal team and has been disclosed as a trader account as per [Chrome Web Store's trader disclosure requirements](https://developer.chrome.com/docs/webstore/program-policies/trader-disclosure). Therefore for simplicity, it is best to use this account to publish all Chrome extensions.
 
 We have a Google group `browser-extensions@gitlab.com` where all members of this group can publish Chrome extensions via our group publisher account.
 
