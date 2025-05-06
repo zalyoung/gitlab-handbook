@@ -368,7 +368,7 @@ Each of these templates have the `Primary Language` set to the listed language, 
 
 When adding Speakers to an event, the `Speaker Invite/Instructions` email will be set to the `Primary Language` initially but can be switched to a standard English template in the `Email Schedule` section of the event. If you would like to send a `Primary Language` email to one speaker and the standard English email to a different speaker, switch the `Speaker Invite/Instructions` email before adding one Speaker or the other. The system is not capable of sending two different language emails simultaneously. For the `1 hour reminder` email, only one of the two emails can be sent due to those reminders being sent simultaneosly. `Staff Emails` are only in English.
 
-All Japanese event templates have been updated with email templates that include the greeting `{{last name}}-sama`, whether the email is in Japanese or English
+All Japanese event templates have been updated with email templates that include the greeting `{{last name}}-sama`, whether the email is in Japanese or English.
 
 To send a `Reschedule` or `Cancelation` email, follow similar protocal as explained in the above section. Select the templates titled `[Reschedule] Default GitLab Template - {{Primary Language}}` or `[Cancellation] Default GitLab Template - {{Primary Language}}` and depending on the email, fill in the subject line with one of these translations:
 
