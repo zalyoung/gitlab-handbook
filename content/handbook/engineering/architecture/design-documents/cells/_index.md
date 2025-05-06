@@ -118,8 +118,7 @@ The GitLab.com cluster of Cells will use GitLab Dedicated tooling to create inst
 That's why Cells are referred to by Tenants in some projects.
 Once any Cell instance gets provisioned it could join the GitLab.com cluster and become a Cell.
 One requirement will be that the instance does not contain any prior data. One of the reasons
-is that Cells save data with custom primary key ranges that they pull from the Topology
-Service.
+is that Cells save data with custom primary key ranges that they pull from the [Topology Service](topology_service.md).
 
 ![cells-deployment](/images/cells/cells-deployment.png)
 
