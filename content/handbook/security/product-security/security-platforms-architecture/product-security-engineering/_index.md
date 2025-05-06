@@ -132,7 +132,7 @@ When we notice patterns in our Definitions of Ready for specific projects, we sh
 #### For simple tasks
 
 1. The description contains Context, a Proposal, and if applicable, a Technical Implementation Plan
-  1. Answer: "why?", "why now?" or "when?", and "who needs to be involved?"
+    1. Answer: "why?", "why now?" or "when?", and "who needs to be involved?"
 1. A set of checkboxes under an Acceptance Criteria that need to be be checked to consider the work complete
 1. A [weight](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#weights) has been assigned
 1. (Optional) A [priority](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#priorities) label has been assigned to indicate the relative importance of the issue within our backlog
@@ -145,7 +145,7 @@ As a rule of thumb, if you expect the weight to be >= 3, it is "more complex".
 1. Everything from "For simple tasks"
 1. Risks relating to the team, project timeline, implementation plan, stability, security, etc., have been discussed and, where needed, planned for
 1. If present, the Technical Implementation Plan includes:
-   1.  Include development steps, from design through to deployment. Consider whether any of these should be their own Issues or Work Items.
+    1.  Include development steps, from design through to deployment. Consider whether any of these should be their own Issues or Work Items.
     1. Include updating any relevant documentation
     1. Consider if the change introduces functionality requiring ongoing monitoring or alerting. If so, how will that be achieved?
 1. The Acceptance Criteria includes checkboxes for:
