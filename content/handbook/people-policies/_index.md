@@ -50,7 +50,7 @@ Please report any relationship with a significant other or family member to your
 
 ## Individuals with Disabilities Policy
 
-GitLab Inc. (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability. The Company prohibits discrimination against team members and applicants with disabilities in all aspects of employment. Our company’s commitment to this policy includes making reasonable accommodations to otherwise qualified persons with disabilities to enable them to perform the essential functions of their jobs, unless doing so would pose an undue hardship on our business, would pose a direct threat of substantial harm to the team member or others or is otherwise not required by applicable law.
+GitLab (“The Company”) complies with all applicable laws, which make it unlawful to discriminate in employment against a qualified individual with a disability. The Company prohibits discrimination against team members and applicants with disabilities in all aspects of employment. Our company’s commitment to this policy includes making reasonable accommodations to otherwise qualified persons with disabilities to enable them to perform the essential functions of their jobs, unless doing so would pose an undue hardship on our business, would pose a direct threat of substantial harm to the team member or others or is otherwise not required by applicable law.
 
 **Team Members Requesting Accommodations**
 
