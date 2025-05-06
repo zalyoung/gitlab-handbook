@@ -98,11 +98,11 @@ flowchart TD
         Dependencies[(Package & Container<br>Dependencies)]
     end
     subgraph Phase2and3["Phase 2 and 3: Provenance Generation & Out-of-Pipeline Signing"]
-        subgraph RTCP["Rails Trusted Control Plane (RTCP)"]
+        subgraph GitLabRailsBackend["GitLab Rails backend"]
             RailsBackend["GitLab Rails Backend"]
             DB[(GitLab Database)]
         end
-        subgraph SSTCP["Signing Service Trusted Control Plane (SSTCP)"]
+        subgraph SigningService["Signing Service"]
             GlgoService["glgo Service<br>(Signing Service)"]
         end
         Rekor["Transparency Log<br>(Rekor)"]
@@ -123,15 +123,15 @@ flowchart TD
     VirtualRegistry <-->|"3 Fetch/Track"| Dependencies
     
     %% Phase 1 flow for early implementation
-    VirtualRegistry -->|"4 Provide Dependency Data"| RTCP
+    VirtualRegistry -->|"4 Provide Dependency Data"| GitLabRailsBackend
     Artifacts -->|"5 Artifact Storage"| ProvenanceSigner
     ProvenanceSigner -->|"Store"| TempSignedAttestation
-    ProvenanceSigner -->|"6 Pass Artifact"| RTCP
-    HardenedRunner -->|"7 Provide Runner Identity"| RTCP
+    ProvenanceSigner -->|"6 Pass Artifact"| GitLabRailsBackend
+    HardenedRunner -->|"7 Provide Runner Identity"| GitLabRailsBackend
     RailsBackend <-->|"8 Query Metadata"| DB
     
-    RailsBackend -->|"9 Generate Provenance<br>Statement"| SSTCP
-    SSTCP -.->|"Future Integration"| ExternalKMS
+    RailsBackend -->|"9 Generate Provenance<br>Statement"| SigningService
+    SigningService -.->|"Future Integration"| ExternalKMS
     GlgoService -->|"10 Return Signed<br>Attestation"| RailsBackend
     GlgoService -->|"11 Publish Attestation<br>Digest"| Rekor
     RailsBackend -->|"12 Store"| PermanentAttestation
