@@ -93,22 +93,20 @@ The external service host requires these changes:
 - Deploy the service behind an [Internal Load Balancer](https://cloud.google.com/load-balancing/docs/l7-internal) to ensure the service is not publicly accessible
 - Configure [mTLS Client Authentication on the Load Balancer](https://cloud.google.com/load-balancing/docs/mtls#validation-steps)
   - Upload the Private Root CA Certificate to the [Trust Config to enforce authenticated access only](https://cloud.google.com/load-balancing/docs/mtls#architecture)
-- Configure Private Service Connect (PSC) with the Load Balancer as a backend
-- Grant access permissions to client projects for connecting to the PSC endpoint
+- Configure [Private Service Connect] with the Load Balancer as a backend
+- Grant access permissions to client projects for connecting to the [Private Service Connect] endpoint
 
 #### Client/Consumer Configuration
 
 The service consuming the external API requires these changes:
 
-- Connect to the PSC endpoint using the VPC where the client service is deployed
+- Connect to the [Private Service Connect] endpoint using the VPC where the client service is deployed
 - Mount the certificate/key pair in the client application
-- Update client code to establish mTLS connections through the PSC endpoint
+- Update client code to establish mTLS connections through the [Private Service Connect] endpoint
 
 The diagram below illustrates the complete request flow between a Pod in a Cell and an external service, including the supporting infrastructure:
 
 ![diagram showing how a Pod in Cell would be communication with outside Cell service](/images/engineering/architecture/design-documents/cells/diagrams/mtls-request-flow.png)
-
-[`source`](https://lucid.app/lucidchart/d2aff2f6-639b-44f2-a06b-6fbed225d254/edit?viewport_loc=-290%2C-378%2C5311%2C2450%2C0_0&invitationId=inv_21038e17-917c-40a7-a423-c563ee0db347)
 
 For detailed implementation examples and proof-of-concept documentation of this architecture, refer to: https://gitlab.com/gitlab-org/gitlab/-/issues/468640.
 
@@ -186,7 +184,7 @@ Source: [mTLS POC client code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls
 Authorization in our mTLS implementation occurs after successful authentication and relies on client identity information:
 
 - **Certificate-Based Identity**: After authenticating the client connection, the server extracts identity information from the client's certificate for authorization decisions.
-- **GCP LoadBalancer Headers**: We leverage [custom mTLS headers](https://cloud.google.com/load-balancing/docs/mtls#custom-mtls-headers) passed by GCP LoadBalancer to the backend service, which contain pre-extracted certificate information.
+- **GCP LoadBalancer Headers**: We leverage [custom mTLS headers](https://cloud.google.com/load-balancing/docs/https/custom-headers#mtls-variables) passed by GCP LoadBalancer to the backend service, which contain pre-extracted certificate information.
 - **Header Processing**: The server extracts these headers from incoming requests to determine the client's identity and permissions without needing to re-parse the certificate.
 - **Access Control Enforcement**: Based on the extracted identity (typically the Common Name), the server determines whether the client is authorized to access the requested resource.
 
@@ -244,31 +242,45 @@ Source: [mTLS Server Code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc
 
 ### DNS Resolution for mTLS Server Communication
 
-For mTLS to function correctly, clients must reach the server using the DNS name present in the server certificate's Subject Alternative Name (SAN) field. In our Cell architecture with Private Service Connect (PSC), this presents a unique challenge as each Cell may have a different IP address for the same service.
+For mTLS to function correctly, clients must reach the server using the DNS name present in the server certificate's Subject Alternative Name (SAN) field. In our Cell architecture with [Private Service Connect], this presents a unique challenge as each Cell may have a different IP address for the same service.
 
 #### Implementation Details
 
 To ensure consistent DNS resolution across all Cells while maintaining proper certificate validation, we will implement the following approach:
 
-````mermaid
-graph TD
-    A[Client in Cell] --> B[KubeDNS]
-    B --> C[CloudDNS Private Zone]
-    C --> D[Cell-specific PSC IP]
-    D --> E[Internal Load Balancer]
-    E --> F[Server Service]
-````
+```mermaid
+sequenceDiagram
+    participant Client as Client in Cell
+    participant KubeDNS as KubeDNS
+    participant CloudDNS as CloudDNS Private Zone
+    participant PSCIP as Cell-specific PSC IP
+    participant ILB as Internal Load Balancer
+    participant Service as Server Service
+
+    Note over PSCIP: PSC = Private Service Connect
+
+    Client->>KubeDNS: DNS lookup request
+    KubeDNS->>CloudDNS: Forward DNS query
+    CloudDNS->>KubeDNS: Return Cell-specific PSC IP
+    KubeDNS->>Client: Return PSC IP address
+    Client->>PSCIP: Connect to PSC IP
+    PSCIP->>ILB: Route to internal load balancer
+    ILB->>Service: Route to appropriate service instance
+    Service-->>ILB: Response
+    ILB-->>PSCIP: Response
+    PSCIP-->>Client: Response
+```
 
 1. **Private CloudDNS Zone per Cell**:
    - Each Cell project will have its own CloudDNS Private Zone
    - This zone will contain the same DNS name (e.g., `topology-service.gitlab.net`) for all Cells
-   - Each zone will resolve to the Cell-specific Private Service Connect IP
+   - Each zone will resolve to the Cell-specific Private Service Connect IP that is dynamically reserved from the Cell's VPC when the PSC endpoint is created
 
 2. **DNS Resolution Flow**:
    - Client services use the standard DNS name in their requests
    - KubeDNS forwards the request to CloudDNS Private Zone
-   - CloudDNS resolves the name to the Cell's specific PSC endpoint IP
-   - The request reaches the correct service through the PSC endpoint
+   - CloudDNS resolves the name to the Cell's specific [Private Service Connect] endpoint IP
+   - The request reaches the correct service through the [Private Service Connect] endpoint
 
 3. **Certificate Validation**:
    - The server certificate's SAN includes the standard DNS name
@@ -278,7 +290,7 @@ graph TD
 
 - **Consistent Naming**: All Cells use the same DNS name to access services, simplifying configuration
 - **Certificate Compatibility**: The DNS name matches the certificate's SAN, enabling proper mTLS validation
-- **Isolation**: Each Cell maintains its own DNS resolution to its specific PSC endpoint
+- **Isolation**: Each Cell maintains its own DNS resolution to its specific [Private Service Connect] endpoint
 - **Proven Solution**: This approach is already implemented and tested in our Production environment for Vault services
 - **Infrastructure as Code**: All DNS configurations are managed through Terraform
 
@@ -286,13 +298,13 @@ graph TD
 
 This implementation leverages our existing infrastructure patterns:
 
-1. **Service Exposure**: The internal Load Balancer is exposed through PSC via serviceAttachment
+1. **Service Exposure**: The internal Load Balancer is exposed through [Private Service Connect] via serviceAttachment
 2. **Access Control**: Projects are dynamically configured to connect to the service
 3. **DNS Configuration**: Private CloudDNS zones are created in each consumer project
 
 This approach works seamlessly with KubeDNS as the DNS provider for the cluster without requiring additional permissions or switching to CloudDNS as the cluster's DNS provider. This solution is already implemented and running in our Production environment for Vault services, with the following reference configurations:
 
-- [Service Exposure via PSC serviceAttachment](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/ops/private-service-connect.tf#L9)
+- [Service Exposure via Private Service Connect serviceAttachment](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/ops/private-service-connect.tf#L9)
 - [Project Authorization for service access](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/ops/private-service-connect.tf#L22)
 - [DNS Zone Configuration in consumer projects](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/gitlab-analysis/private_service_connect.tf#L54)
 
@@ -301,3 +313,5 @@ This approach works seamlessly with KubeDNS as the DNS provider for the cluster 
 | Client | Server |
 | ------ | ------ |
 |GitLab|Topology Service|
+
+[[Private Service Connect]]: https://cloud.google.com/vpc/docs/private-service-connect
