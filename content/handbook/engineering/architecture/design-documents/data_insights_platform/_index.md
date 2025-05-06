@@ -16,7 +16,7 @@ toc_hide: true
 
 Data Insights Platform is a unified abstraction to ingest, process, persist & query analytical data streams generated across GitLab enabling our ability to compute business insights across the product.
 
-![overview](/static/images/engineering/architecture/design-documents/data_insights_platform/overview.png)
+![overview](/images/engineering/architecture/design-documents/data_insights_platform/overview.png)
 
 The motivation behind building a centralized data platform manifests from our work within the [Product Usage Data Unification Working Group](https://internal.gitlab.com/handbook/product-usage-data-architecture/) wherein we established a need for [consolidating](https://gitlab.com/groups/gitlab-org/architecture/gitlab-data-analytics/-/epics/5) all our current multiple ways of collecting analytical & product usage data generated across GitLab into a single cohesive abstraction with a few key goals:
 
@@ -27,7 +27,7 @@ The motivation behind building a centralized data platform manifests from our wo
 
 - __Build within the product__
   - A core design tenet with the Platform is to build it within the product - with zero external dependencies and deep-integration with GitLab/GDK similar to existing services such as Gitaly.
-  - Ensure the availability of the Platform across all environments we run a GitLab instance in - `.com`, Dedicated and Self-managed. The design of the Platform should also allow deploying cluster-instances for [Cells](https://handbook.gitlab.com/handbook/engineering/infrastructure/cells/) as applicable.
+  - Ensure the availability of the Platform across all environments we run a GitLab instance in - `.com`, Dedicated and Self-managed. The design of the Platform should also allow deploying cluster-instances for [Cells](/handbook/engineering/infrastructure/cells/) as applicable.
 
 - __Streamlined user experience__
   - Abstract away undue complexity from a Platform user or developer. The Platform should perform its advertised features without the end-user having to reinvent the wheel every time they need to gather analytical data and/or be able to query/process it once collected.
@@ -164,7 +164,7 @@ _Looking forward, we should also be able to assimilate other currently used form
 
 ### Architecture
 
-![overview](/static/images/engineering/architecture/design-documents/data_insights_platform/overview.png)
+![overview](/images/engineering/architecture/design-documents/data_insights_platform/overview.png)
 
 As suggested in the diagram above, the Platform is essentially a composition of multiple components functioning together to resemble a scalable data pipeline capable of ingesting, processing and persisting data durably in one or more persistent datastores. From the diagram, data ingestion starts at the `ingesters` which pushes it into one or more `NATS streams` - subject to configured partitioning and/or data retention policies. In a following step, the `enricher framework` dequeues data as necessary, performs all configured enrichments and writes it back to one or more designated `NATS streams`. Following this, configured `exporters` pick up enriched data from `NATS` and ship it to one or more downstream datastores. This is where any necessary fan-out of data happens - moving all enriched data from a single source into systems where that data might be needed. All data querying can now happen from these datastores and/or systems.
 
