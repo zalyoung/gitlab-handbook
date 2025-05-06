@@ -99,12 +99,12 @@ For these issues, `severity::*` labels are set to meet specific SLOs.
 
 ## Labels
 
-The Platform teams uses the following set of labels:
+The Infrastructure Platform teams uses the following set of labels:
 
 | Description | Labels |
 |-------------|--------|
-| The group label | `group::Scalability` <br/>`group::Delivery` <br/>`group::GitLab Dedicated` <br/>`group::Production Engineering`|
-| The team label | `team::Scalability-Observability` <br/> `team::Scalability-Practices` <br/> `team::Delivery:Deployments` <br/> `team::Delivery-Releases` <br/> `team::Environment Automation` <br/> `team::Switchboard` <br/> `team::US PubSec` <br/> `team::Foundations` <br/> `team::Ops`|
+| The section label | `devops::data_access` <br/>`group::GitLab Dedicated` <br/>`group::Delivery`<br/> `devops::developer experience` <br/>`group::Production Engineering`<br/> `devops::tenant scale` <br/>  |
+| The team label | `group::durability` <br/> `group::gitaly` <br/> `group::git` <br/> `group::database frameworks` <br/> `group::database operations` <br/> `team::Observability` <br/> `team::runway` <br/> `team::Foundations` <br/> `team::Ops`  <br/> `team::Delivery-Deployments` <br/> `team::Delivery-Releases` <br/> `group::Self Managed` <br/> `group::build` <br/> `group::framework` <br/> `team::Environment Automation` <br/> `team::Switchboard` <br/> `team::US PubSec` <br/> `group::developer tooling` <br/> `group::development analytics` <br/> `group::feature readiness` <br/> `group::performance enablement` <br/> `group::test governance`|
 | Scoped `workflow-infra::*` labels | (see below) |
 | Optional Scoped `Service` labels | `Service::*` |
 
