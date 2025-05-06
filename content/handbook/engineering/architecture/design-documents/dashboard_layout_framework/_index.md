@@ -41,7 +41,7 @@ new [Pajamas dashboards pattern](https://design.gitlab.com/patterns/dashboards/)
 is at a basic level.
 
 Since then, ~"group::platform insights" have developed an [initial dashboards framework](https://docs.gitlab.com/development/fe_guide/analytics_dashboards/) for the analytics feature space.
-Built off the initial work for [Product Analytics](https://docs.gitlab.com/development/internal_analytics/product_analytics/).
+This was built off the initial work for [Product Analytics](https://docs.gitlab.com/development/internal_analytics/product_analytics/).
 The framework has been adopted by ~"group::optimize" for the [Value Stream Dashboard](https://docs.gitlab.com/user/analytics/value_streams_dashboard/)
 and [AI Impact Analytics](https://docs.gitlab.com/user/analytics/ai_impact_analytics/),
 as well as currently being evaluated for our [Security Dashboards](https://docs.gitlab.com/user/application_security/security_dashboard/).
