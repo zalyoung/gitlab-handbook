@@ -3,8 +3,6 @@ title: Browser Extensions
 description: Documentation for managing, developing, and publishing browser extensions for the GitLab Support team
 ---
 
-# Browser Extensions
-
 The GitLab Support team manages several browser extensions that help support engineers with their daily workflows. This page documents how these extensions are managed, developed, and published.
 
 ## Current Extensions
@@ -17,6 +15,10 @@ The browser extensions currently maintained by the Support team and are availabl
 | [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router) | Firefox | Automatically routes Zendesk downloads into separate folders by ticket number | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/zendesk-download-router/) |
 
 A more complete list of recommended extensions can be found [here](../engineering/_index.md#useful-browser-extensions).
+
+## Accessing the Chrome Web Store Developer Dashboard
+
+The Chrome Web Store (CWA) Developer Dashboard can be accessed [here](https://chrome.google.com/webstore/devconsole/5df5edac-ebab-45e2-9001-f6fb6fec07af).
 
 ## Access Management
 
@@ -33,3 +35,12 @@ We have a Google group `browser-extensions@gitlab.com` where all members of this
 To request access to the Chrome Web Store publisher account, contact Anton Smith (`@anton` in Slack).
 
 Do note that an [access request](../../it/end-user-services/onboarding-access-requests/access-requests/_index.md) is not required.
+
+#### Managing Access
+
+To add or remove users to the `browser-extensions@gitlab.com` group:
+
+1. Go to the [browser-extensions group members page](https://groups.google.com/a/gitlab.com/g/browser-extensions/members)
+2. Add or remove members as needed (requires `Manager` role in the group)
+3. Access the [Chrome Web Store developer dashboard settings](https://chrome.google.com/webstore/devconsole/5df5edac-ebab-45e2-9001-f6fb6fec07af/settings)
+4. Under "Group publisher memberships," click "Sync" to update permissions
