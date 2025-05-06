@@ -87,7 +87,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 - Move provenance statement generation to GitLab's control plane.
 - Every field of the provenance is generated or verified in the trusted control plane.
-- Generate provenance statements with enhanced integrity guarantees
+- Generate provenance statements with enhanced integrity guarantees.
 
 #### Phase 3: Out-of-Pipeline Signing
 
@@ -209,6 +209,7 @@ component:
       - ${BUNDLE_FILE}
     expire_in: 7d
 ```
+
 </details>
 
 <details>
@@ -359,6 +360,7 @@ component:
 
   allow_failure: true
 ```
+
 </details>
 
 <details>
@@ -426,6 +428,7 @@ verify_provenance:
     RESOURCE_URL: "${ARTIFACT_URL}"
     POLICY_URL: "https://gitlab.com/my-policy"
 ```
+
 </details>
 
 #### Pipeline Workflow Explanation
