@@ -28,7 +28,7 @@ For information on moving a Help Center category, please see [Zendesk documentat
 
 For information on reordering Help Center sections, please see [Zendesk documentation](https://support.zendesk.com/hc/en-us/articles/4408843983258).
 
-## Deleting a Help Center category
+## Deleting a Help Center section
 
 {{% alert title="Note" color="danger" %}}
 

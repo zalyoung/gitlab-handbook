@@ -24,8 +24,8 @@ You will make the change directly in Zendesk. See the [Help Center sections docu
 
 ## Reordering Help Center sections
 
-You will make the change directly in Zendesk. See the [Help Center sections documentaiton](../../docs/zendesk/help-center-sections#reordering-the-help-center-sections) for more information.
+You will make the change directly in Zendesk. See the [Help Center sections documentaiton](../../docs/zendesk/help-center-sections#reordering-help-center-sections) for more information.
 
 ## Deleting a Help Center section
 
-You will make the change directly in Zendesk. See the [Help Center sections documentaiton](../../docs/zendesk/help-center-sections#deleting-a-help-center-section-a-schedule) for more information.
+You will make the change directly in Zendesk. See the [Help Center sections documentaiton](../../docs/zendesk/help-center-sections#deleting-a-help-center-section) for more information.

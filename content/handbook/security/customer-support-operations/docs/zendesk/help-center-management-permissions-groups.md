@@ -8,7 +8,7 @@ canonical_path: "/handbook/security/customer-support-operations/docs/zendesk/hel
 
 This is an informational page for the Zendesk Help Center management permissions. It may not reflect the way we actually manage Zendesk Help Center management permissions.
 
-If you are looking for information about maintaining Help Center management permissions, please see [Help Center management permissions workflow](../../workflows/zendesk/help-center-management-permissions)
+If you are looking for information about maintaining Help Center management permissions, please see [Help Center management permissions workflow](../../workflows/zendesk/../../workflows/zendesk/)
 
 {{% /alert %}}
 
