@@ -1,6 +1,6 @@
 ---
 title: "User Journey Map Working Group"
-description: "This working group has been established to develop a strategic framework and supportive infrastructure for scalable, consistent development of user journey maps across the Gitlab platform."
+description: "This working group has been established to develop a strategic framework and supportive infrastructure for scalable, consistent development of user journey maps across the GitLab platform."
 ---
 
 These maps will enable Product, UX, and Dev teams to understand the complete journey of companies and GitLab users as they discover, evaluate, adopt, and integrate our DevSecOps platform. By identifying friction points, opportunities for education, and moments that matter most to users, we will create seamless pathways that increase first orders, accelerate successful onboarding, and strengthen long-term retention across our customer base.
