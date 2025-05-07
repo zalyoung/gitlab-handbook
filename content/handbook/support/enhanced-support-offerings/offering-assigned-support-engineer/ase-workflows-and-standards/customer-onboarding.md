@@ -25,8 +25,9 @@ before the next call and with what relative priorities.
 
 ### Auto-assign the customer's tickets
 
-When and if you have an agreement with the account that you will take all of
-their non-emergency tickets, you should configure automatic assignment in
+There might be times when the account contacts will make it your top
+priority to take all of their non-emergency tickets. During those times,
+configure automatic assignment of the account's tickets in
 Zendesk. Auto-assignment of customer tickets has two prerequisites:
 
 1. There must be a named ASE for the organization in Zendesk
@@ -54,8 +55,8 @@ As you work with the account each week to agree on the prioritization of your
 work for them, that might not always include taking all of their tickets. Each
 time that changes, just remember to:
 
-1. ask your manager to make the change in Zendek
-1. update the Zendesk [org note](#org-note-mentioning-the-ase-and-how-to-treat-the-ticket)
+1. Ask your manager to make the change in Zendesk
+1. Update the Zendesk [org note](#org-note-mentioning-the-ase-and-how-to-treat-the-ticket)
    for the account
 
 ### Org Note mentioning the ASE and how to treat the ticket
