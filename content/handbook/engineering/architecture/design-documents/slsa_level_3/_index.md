@@ -132,8 +132,6 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 <details>
 <summary>Provenance Signer Component</summary>
 
-**Provenance Signer Component**
-
 The provenance signer component will abstract away the complexity of provenance generation and signing. It will be implemented as a GitLab CI Component using a template YAML file.
 
 **Component Overview**
@@ -204,8 +202,6 @@ component:
 
 <details>
 <summary>Provenance Verifier Component</summary>
-
-**Provenance Verifier Component**
 
 The provenance verifier component verifies attestations and generates VSAs. It will be implemented as a GitLab CI Component using a template YAML file.
 
@@ -355,8 +351,6 @@ component:
 
 <details>
 <summary>Example: Adding the Components to a Pipeline</summary>
-
-**Example: Adding the Components to a Pipeline**
 
 Here’s how a project would integrate the reusable component into their .gitlab-ci.yml pipeline.
 
