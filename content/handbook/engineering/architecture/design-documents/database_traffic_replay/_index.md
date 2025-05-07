@@ -2,13 +2,13 @@
 # This is the title of your design document. Keep it short, simple, and descriptive. A
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
-title: Design doc title
+title: Database Traffic Replay
 status: proposed
-creation-date: "yyyy-mm-dd"
-authors: [ "@username" ]
-coaches: [ "@username" ]
-dris: [ "@product-manager", "@engineering-manager" ]
-owning-stage: "~devops::<stage>"
+creation-date: "2025-05-07"
+authors: [ "@mattkasa", "@stomlinson", "@zbraddock" ]
+coaches: [  ]
+dris: [ "@alexives", "@rmar1" ]
+owning-stage: "~devops::data access"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
