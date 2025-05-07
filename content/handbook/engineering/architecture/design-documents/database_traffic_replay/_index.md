@@ -117,12 +117,9 @@ opportunities. The latter may be a more suitable framework in cases where the
 problem is not well-defined or design details not yet established.
 -->
 
-
 This tool will allow us to collect and measure our database capacity.
 This will effectively settle questions about the capacity of both our current setup,
 as well as the effectiveness of other mitigations such as changes to anything in our production database infrastructure.
-
-
 
 ### Goals
 
@@ -336,7 +333,6 @@ flowchart TD
     class PipelineStageA,PipelineStageB,PipelineStageC,MachineCreation,ReplayPerformed,MachinesDeleted pipelineStep
 ```
 
-
 ## Alternative Solutions
 
 <!--
@@ -351,4 +347,3 @@ each alternative solution/path.
 
 2. We could use a tool already built, such as https://github.com/gocardless/pgreplay-go.
    - pgreplay-go and similar tools capture data from the postgres log file, but that won't work at our scale - the volume of query text would exceed the capacity of a disk very quickly.
-
