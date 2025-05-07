@@ -91,12 +91,12 @@ The structure outlined below describes what this will include, and how they will
 
 ### The grid
 
-In line with our design definition of a [Grid](https://design.gitlab.com/patterns/dashboards/) we require a system
+In line with our design definition of a [Grid](https://design.gitlab.com/patterns/dashboards/), we require a system
 uses rows and columns to snap panels into position. The system should allow panels to be resized and repositioned in a
 deterministic and cross-browser friendly way.
 
 The grid itself will support 12 columns, with an unlimited number of rows. Grid panels can be up to 12 columns wide,
-allowing 1-12 panels per row. The height of a panel can be between 1 row and unlimited, enabling it to span any number
+allowing 1–12 panels per row. The height of a panel can be between 1 row and unlimited, enabling it to span any number
 of rows as needed.
 
 Each panel, within the grid, will have a minimum height of `125px`. This minimum height gives space for padding, the title, and basic content;
@@ -132,8 +132,8 @@ Each panel can be resized in accordance with [the grid](#the-grid) and are scrol
 
 ### Visualizations
 
-Visualizations refer to any component that can render the data from the panel. This component must consume the data from the panel, along with
-any visualization options, and output this in an appropriate format for the data provided.
+Visualizations refer to any component that renders a graphical representation of the data. The dashboard layout framework is agnostic
+to the content of the visualization, and how the visualization retrieves and processes the data.
 
 Some common examples include:
 
@@ -141,26 +141,23 @@ Some common examples include:
   - Visualizations may contain axis, legends, and other clickable elements depending upon the ECharts implementation.
 - Tables, using [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--docs) (or the lite version)
   - Visualizations may contain keyset pagination, sorting, and internal searching.
-- Text or markdown-based content
-
-Visualizations should not be contextually aware, their only job is to render the data provided in the format outlined by
-its configuration and component structure.
+- Text or markdown-based content.
 
 ### Filters
 
-Although filtering as a concept are still under [heavy UX exploration](https://gitlab.com/gitlab-org/gitlab/-/issues/521751), we can be assured
-that there will be two areas where filters can be applied by the user.
+Although filtering as a concept is still under [heavy UX exploration](https://gitlab.com/gitlab-org/gitlab/-/issues/521751), we can be assured
+that there will be two slots where filters can be added to the dashboard layout, and used by the user.
 
-The first area is the global filter that is applied to every visualization within the dashboard. This will allow engineers to define the filters
-that should show on the dashboard. Each filter will need to be connected to each data source, as each data source will need to process the filter
-I/O differently. In the event that a filter does not work with a data source, then the user needs to be notified through the UI.
-How this notification looks is still being discussed.
+The first slot is the global filter that is applied to every visualization within the dashboard. This will allow engineers to define the filters
+that should show on the dashboard. It is up to the engineer to make sure that filters are applied appropriately to their visualizations.
+In the event that a filter does not work with a visualization, then the user needs to be notified through the UI. How this notification looks
+is still being discussed.
 ⁠⁠
 The second type of filter is a per-panel filter applied to any one individual panel. ⁠At this moment, the dashboard layout framework
-only supports global filters. Per-panel filters will also need to be connected to each data source, but since these are a more curated option,
-this should be done when visualizations and panels are being developed, so it's less of a concern.
+only supports global filters. Per-panel filters will also need to be connected to the visualization by the engineer.
 
-Applying a filter will automatically update all applicable panels, as well as update the URL for users to easily share the dashboard state with others.
+Applying a filter will automatically send all applied filters to every applicable panel and visualization. For instances where filters need
+to be synced to the URL, engineers can make use of the [`UrlSync` component](https://gitlab.com/gitlab-org/gitlab/blob/master/app/assets/javascripts/vue_shared/components/url_sync.vue).
 
 For engineers developing panels, there is also scope to pre-apply filters to a panel, and then either allow these to be changed by the user or for them
 to be restricted to only those values. If a panel is "locked" to a particular filter value, for instance, a panel which can only show a visualization of
