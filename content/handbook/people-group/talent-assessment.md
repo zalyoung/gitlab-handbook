@@ -351,23 +351,27 @@ After the calibration sessions the performance and growth potential outcomes can
 - Identifying [L&D opportunities](/handbook/people-group/learning-and-development)
 - Succession Planning
 
-## Q4 Formal Talent Assessment
+## FY26-Q4 Formal Talent Assessment
 
 ### Timeline
 
-Below is the high level timeline for the formal assessment beginning in Q4 FY25 (January). Different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) if you have any questions.
+Detailed dates for FY26 are pending and process is subject to modification. In general the timeframe runs from January through March with ACR (compensation statement) release in April and compensation changes and promos effective beginning of May.
 
-- **2025-01-27:** Kick off Optional Self-Evaluation cycle for all Team Members
-- **2025-02-07:** Due date for all Self-Evaluations
-- **2025-02-10:** Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
-- **2025-02-28:** 5:00pm PST Workday Calibration will be locked
-- **2025-03-03**: Kick off the Manager Evaluation cycle in Workday
-- **2025-03-10:** Annual Compensation Review Kicks off for Managers
-- **2025-03-17:** Due date for all Manager evaluations. Talent Assessment in Workday is locked.
-- **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
-- **2025-04-17 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
-- **TBD:** Talent Assessments pending in Workday will be auto advanced to team members*
-- **2025-05-01:** Annual Compensation Review effective date
+Note that different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) if you have any questions.
+
+Below are the current activities for the formal assessment beginning in Q4 (January)
+
+- Kick off Optional Self-Evaluation cycle for all Team Members
+- Due date for all Self-Evaluations
+- Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
+- 5:00pm PST Workday Calibration will be locked
+- Kick off the Manager Evaluation cycle in Workday
+- Annual Compensation Review Kicks off for Managers
+- Due date for all Manager evaluations. Talent Assessment in Workday is locked.
+- Total Rewards and final E-Group review and approval
+- Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
+- Talent Assessments pending in Workday will be auto advanced to team members*
+- Annual Compensation Review effective date
 
 *Team members who are on Leave of Absence (LOA) on TBD are excluded from the auto advancement of their talent assessment until they return to work.
 
