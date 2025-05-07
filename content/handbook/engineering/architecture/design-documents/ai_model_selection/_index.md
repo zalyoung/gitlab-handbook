@@ -38,13 +38,13 @@ For Self-Managed installations, administrators can configure self-hosted models 
 
 We can deliver this work in iterations so that we deliver value to the customer incrementally
 
-**Iteration 1: Managed Model Configuration**: In this phase we enable managed model configuration for `.com`, `self-managed` and `dedicated`. Supported models will be stored in the AI Gateway. These models will then be retrieved by gitlab.com, Self-managed instances and dedicated instances.
-
-**Iteration 2: Namespace Level Configuration**: In this phase customers will be able to select a recommended model at a namespace level, where the models available will be a subset of the ones allowed at an instance level (group-subgroup). This will allow `.com` customers to decide which models they want their organization to use. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
+**Iteration 1: Namespace Level Configuration**: In this phase customers will be able to select a recommended model at a namespace level, where the models available will be a subset of the ones allowed at an instance level (group-subgroup). This will allow `.com` customers to decide which models they want their organization to use. Related [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/514948).
 
 **Future Iterations :**
 
-Future iterations will cover the ability to let the user decide the model to be used for a specific feature in both the IDE and the GitLab UI. Users would be able to select from a subset selected at the namespace level.
+**Future Iteration: Organizational-Level Configuration**: In this phase we enable managed model configuration for `.com`, `self-managed` and `dedicated` at the Organizational level. Supported models will be stored in the AI Gateway. These models will then be retrieved by gitlab.com, Self-managed instances and dedicated instances. _This is currently not planned as Organizations are not GA_
+
+Other future iterations will cover the ability to let the user decide the model to be used for a specific feature in both the IDE and the GitLab UI. Users would be able to select from a subset selected at the namespace level. Tracking of these features can eb found in [this Epic](https://gitlab.com/groups/gitlab-org/-/epics/17720)
 
 We will build out the capabilities for model switching in Duo Code Review, Vulnerability analysis and other features. In addition to this we also want to allow self hosted customers to bring their own models.
 
