@@ -34,7 +34,6 @@ This working group aims to:
 - Establish templates, methodologies, and best practices for journey documentation `=> 0%`
 - Create a centralized system for storing, accessing, and connecting journey maps `=> 0%`
 - Establish communication channels for journey insights and discoveries `=> 0%`
-- Create evaluation criteria for journey improvements based on business impact `=> 0%`
 - Create a structure for translating journey insights into strategic opportunities based on business impact and user value `=> 0%`
 
 ## Roles and Responsibilities
