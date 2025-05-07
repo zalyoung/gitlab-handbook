@@ -42,7 +42,6 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 - Achieving SLSA Level 4 compliance, which requires isolated and verifiable builds (future consideration).
 - Supporting all possible programming ecosystems or artifact types in Phase 1–5 (focus on key ecosystems first).
 - Replacing GitLab’s existing artifact storage and distribution mechanisms.
-- Building a fully integrated GitLab-native provenance signing mechanism (external tools like Sigstore will be used).
 
 ## Terminology/Glossary
 
