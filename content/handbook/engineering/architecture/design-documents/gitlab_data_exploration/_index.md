@@ -1,7 +1,4 @@
 ---
-# This is the title of your design document. Keep it short, simple, and descriptive. A
-# good title can help communicate what the design document is and should be considered
-# as part of any review.
 title: "GitLab Data Exploration and Querying Architecture"
 status: "ongoing"
 creation-date: "2025-04-24"
@@ -14,82 +11,7 @@ participating-stages: ["~group::optimize", "~devops::plan"]
 toc_hide: true
 ---
 
-<!--
-Before you start:
-
-- Copy this file to a sub-directory and call it `_index.md` for it to appear in
-  the design documents list.
-- Remove comment blocks for sections you've filled in.
-  When your document ready for review, all of these comment blocks should be
-  removed.
-
-To get started with a document you can use this template to inform you about
-what you may want to document in it at the beginning. This content will change
-/ evolve as you move forward with the proposal.  You are not constrained by the
-content in this template. If you have a good idea about what should be in your
-document, you can ignore the template, but if you don't know yet what should
-be in it, this template might be handy.
-
-- **Fill out this file as best you can.** At minimum, you should fill in the
-  "Summary", and "Motivation" sections.  These can be brief and may be a copy
-  of issue or epic descriptions if the initiative is already on Product's
-  roadmap.
-- **Create a MR for this document.** Assign it to an Architecture Evolution
-  Coach (i.e. a Principal+ engineer).
-- **Merge early and iterate.** Avoid getting hung up on specific details and
-  instead aim to get the goals of the document clarified and merged quickly.
-  The best way to do this is to just start with the high-level sections and fill
-  out details incrementally in subsequent MRs.
-
-Just because a document is merged does not mean it is complete or approved.
-Any document is a working document and subject to change at any time.
-
-When editing documents, aim for tightly-scoped, single-topic MRs to keep
-discussions focused. If you disagree with what is already in a document, open a
-new MR with suggested changes.
-
-If there are new details that belong in the document, edit the document. Once
-a feature has become "implemented", major changes should get new blueprints.
-
-The canonical place for the latest set of instructions (and the likely source
-of this file) is
-[content/handbook/engineering/architecture/design-documents/_template.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md).
-
-Document statuses you can use:
-
-- "proposed"
-- "accepted"
-- "ongoing"
-- "implemented"
-- "postponed"
-- "rejected"
-
--->
-
-<!-- Design Documents often contain forward-looking statements -->
-<!-- vale gitlab.FutureTense = NO -->
-
-<!-- This renders the design document header on the detail page, so don't remove it-->
-{{< engineering/design-document-header >}}
-
-<!--
-Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
-
-For long pages, consider creating a table of contents.
--->
-
 ## Summary
-
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire documents like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
-
-A good summary is probably at least a paragraph in length.
--->
 
 This design document addresses the challenge of data exploration and querying across GitLab's diverse data landscape. Users currently face significant obstacles when trying to access and derive insights from GitLab data, as information is spread across multiple sources including PostgreSQL, ClickHouse, GraphQL, and REST APIs.
 
@@ -100,22 +22,6 @@ GitLab currently lacks a unified querying interface and visualization tool that 
 The goal is to simplify how users interact with GitLab data, enabling them to discover meaningful insights about their GitLab usage and business performance without needing to understand the underlying differences between data sources. By addressing this challenge, we aim to unlock valuable data that is currently difficult or impossible for most users to access due to technical complexity.
 
 ## Motivation
-
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
-
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
 
 The ability for users to explore their GitLab data and derive meaningful business insights is increasingly important as organizations rely on data-driven decision making. However, several challenges currently prevent users from effectively exploring and understanding their GitLab data.
 
@@ -153,7 +59,7 @@ Beyond the query language differences, there are fundamental inconsistencies in 
 
 - Field naming conventions vary across systems
 - Entity relationships are modeled differently
-- Data granularity differs (e.g., detailed records vs. aggregated data)
+- Data granularity differs (for instance detailed records vs. aggregated data)
 
 These disparities make it difficult to establish meaningful connections between related data points that exist in different systems; limiting users' ability to gain a complete picture of their information.
 
@@ -161,11 +67,10 @@ These disparities make it difficult to establish meaningful connections between 
 
 The current state creates significant friction in the data exploration process:
 
-- Not all data sources have a data exploration UI or a query language. 
+- Not all data sources have a data exploration UI or a query language.
 - Users must often switch between multiple tools or interfaces to access different data sources.
-- Non-technical users face significant barriers to exploring data on their own. 
+- Non-technical users face significant barriers to exploring data on their own.
 - There's often a lack of transparency about how the data was queried and transformed, creating trust issues with the presented information. GitLab team members have to spend significant time explaining to customers how data is retrieved and displayed, trying to build trust in the tool.
-
 
 This friction discourages data exploration and limits the insights users can derive from their GitLab data.
 
@@ -175,7 +80,7 @@ Different data sources have varying performance characteristics:
 
 - Some queries may be resource-intensive and could impact system performance
 - Query optimization strategies differ across data sources
-- Performance can vary dramatically for similar queries against different data sources 
+- Performance can vary dramatically for similar queries against different data sources
 
 These challenges make it difficult to provide a consistently responsive exploration experience across all data types.
 
@@ -186,7 +91,7 @@ Despite these challenges, there are significant opportunities to simplify and en
 - A unified data exploration interface would simplify access to critical insights, improve feature adoption, and unlock data that is currently inaccessible to most users due to technical complexity
 - Standardizing query patterns could unlock new cross-source analytics capabilities
 - Enabling export, sharing, and embedding of query results would allow users to incorporate insights across other GitLab pages and workflows
-- A standardised input and output would not only benefit users, but also other systems integrating with it or used to generate queries or interpret results, such as an AI assistant.
+- A standardized input and output would not only benefit users, but also other systems integrating with it or used to generate queries or interpret results, such as an AI assistant.
 
 A well-designed data exploration architecture would not only address the current pain points but also establish a foundation for more advanced analytics capabilities in the future.
 
@@ -196,7 +101,7 @@ The unified data exploration system would enable users to answer questions such 
 
 **For Engineering Teams:**
 
-- "As an engineering team, every day during standup, we want to look at one dashboard that tells us how we are doing in relation to our devsecops flow. We will need to see:
+- "As an engineering team, every day during standup, we want to look at one dashboard that tells us how we are doing in relation to our DevSecOps flow. We will need to see:
   - Table with current open MRs
   - Count of critical and high vulnerabilities introduced in the last x days
   - Issues assigned to our current milestone (or label/status, whatever pivot the team would want to look at their current work)
@@ -214,14 +119,6 @@ These examples illustrate how users need to combine data from multiple sources (
 
 ### Goals
 
-<!--
-List the specific goals / opportunities of the document.
-
-- What is it trying to achieve?
-- How will we know that this has succeeded?
-- What are other less tangible opportunities here?
--->
-
 - **Create a unified data exploration experience** across GitLab's diverse data sources
 - **Simplify the process of querying data** for both technical and non-technical users
 - **Standardize the filtering interface** to work consistently regardless of underlying data source
@@ -232,13 +129,6 @@ List the specific goals / opportunities of the document.
 - **Facilitate integration with GitLab Duo** to enhance data exploration capabilities
 
 ### Non-Goals
-
-<!--
-Listing non-goals helps to focus discussion and make progress. This section is
-optional.
-
-- What is out of scope for this document?
--->
 
 - **Creating a dashboard framework or new visualizations components** - We will use existing framework visualization components rather than creating new ones
 - **Fixing inconsistencies between existing API's and datasources** - We won't directly resolve inconsistencies in existing APIs and data sources. Rather, we're creating an interface layer that abstracts these differences away from the use
@@ -437,8 +327,11 @@ each alternative solution/path.
 
 ## Next steps
 
-- Experiment with extending GLQL to add more data sources and outputs formats
-  - Create an issue and discuss it with Plans
+- Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
+  - a unified data exploration UI
+  - a standardized and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense, expanding on https://gitlab.com/gitlab-org/gitlab/-/issues/525642#note_2447362814 )
+- Experiment with extending GLQL to fits our needs/requirements
+  - Create an issue and discuss it with Plans if it makes sense
   - Build a PoC
 - Experiment with moving the GLQL rust compiler to the Rails backend
   - Create an issue and discuss it with Plans ( related issue: https://gitlab.com/groups/gitlab-org/-/epics/15834)
