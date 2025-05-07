@@ -4,6 +4,14 @@ description: Operations workflow page for agent articles
 canonical_path: "/handbook/security/customer-support-operations/workflows/zendesk/articles"
 ---
 
+{{% alert title="Note" color="danger" %}}
+
+As of 2025-06-01, the GitLab Support team manages all articles via Zendesk itself.
+
+The information below has been kept intact for historical purposes.
+
+{{% /alert %}}
+
 {{% alert title="Note" color="primary" %}}
 
 Article changes are classified as ad-hoc. Once changes are made to the repo, they sync to Zendesk.
