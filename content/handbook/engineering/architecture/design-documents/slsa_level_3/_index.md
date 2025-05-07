@@ -132,11 +132,11 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 <details>
 <summary>Provenance Signer Component</summary>
 
-##### Provenance Signer Component
+**Provenance Signer Component**
 
 The provenance signer component will abstract away the complexity of provenance generation and signing. It will be implemented as a GitLab CI Component using a template YAML file.
 
-###### Component Overview
+**Component Overview**
 
 - Input Variables:
   - TARGET_ARTIFACT: Path to the artifact or build output.
@@ -145,7 +145,7 @@ The provenance signer component will abstract away the complexity of provenance 
 - Output:
   - Signed provenance file uploaded as a pipeline artifact.
 
-###### Example reusable Component YAML
+**Example reusable Component YAML**
 
 ```yaml
 # .gitlab/components/provenance-signer.yml
@@ -205,11 +205,11 @@ component:
 <details>
 <summary>Provenance Verifier Component</summary>
 
-##### Provenance Verifier Component
+**Provenance Verifier Component**
 
 The provenance verifier component verifies attestations and generates VSAs. It will be implemented as a GitLab CI Component using a template YAML file.
 
-###### Component Overview
+**Component Overview**
 
 - Input Variables:
   - BUNDLE_FILE: Path to the bundle file that contains the provenance.
@@ -219,7 +219,7 @@ The provenance verifier component verifies attestations and generates VSAs. It w
 - Output:
   - Verification summary attestation uploaded as a pipeline artifact.
 
-###### Example reusable Component YAML
+**Example reusable Component YAML**
 
 ```yaml
 # .gitlab/components/provenance-verifier.yml
@@ -356,7 +356,7 @@ component:
 <details>
 <summary>Example: Adding the Components to a Pipeline</summary>
 
-#### Example: Adding the Components to a Pipeline
+**Example: Adding the Components to a Pipeline**
 
 Here’s how a project would integrate the reusable component into their .gitlab-ci.yml pipeline.
 
