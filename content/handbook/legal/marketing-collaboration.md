@@ -36,7 +36,7 @@ Complete all of the questions in each of the following sections of the Legal Tem
 
   - **Question 8, Use of Personal Data.** Clearly indicate what you will do with personal data you collect through the promotional game so Legal can help you ensure that communication and/or consent is handled properly.
 
-  - **Question 9, Survey Questions.** Questions intended for use for in a survey or quiz as part of a promotional game must be submitted for review, so that Legal can understand more about the promotional game, what rules may apply, and what language to include in the rules. We may have input for wording.
+  - **Question 9, Survey Questions.** Questions intended for use in a survey or quiz as part of a promotional game must be submitted for review, so that Legal can understand more about the promotional game, what rules may apply, and what language to include in the rules. We may have input for wording.
 
 - **Participant Information**
 
