@@ -111,11 +111,11 @@ For more information regarding confidentiality levels and compliancy, please vis
 
 ## How Field Marketing utilizes Claude 
 
-[Claude](/handbook/tools-and-tips/ai/claude/) is the GitLab-approved AI tool utilized across the company. Below are just a few ways Field Marketing integrates Claude in our day-to-day business processes. 
+[Claude](/handbook/tools-and-tips/ai/claude/) is the GitLab-approved AI tool utilized across the company. Below are just a few ways in which Field Marketing integrates Claude into our day-to-day business processes. 
 
 - Venue searches ([example here](https://claude.ai/share/c7263ab2-1b2d-4645-a44c-d8bf006a4e17))
 - Lead list cleaning ([Asana project here](https://app.asana.com/1/306855239930259/project/1209517412144204/overview/1209517533381809))
-- Utilizing Claude to evaluate [Tableau](/handbook/enterprise-data/platform/tableau/) reporting for better visibility into ROI and to provide new ideas for strategically implementing company initiatives into our regional event tactics 
+- Using Claude to evaluate [Tableau](/handbook/enterprise-data/platform/tableau/) reporting for better visibility into ROI and to provide new ideas for strategically implementing company initiatives into our regional event tactics 
   - Claude can also be utilized to create a Markdown file of Tableau's data ([see example here](https://claude.ai/share/9f71d4b8-2f9b-496e-8de0-80915021304d)) to then be transferred to Google sheets for easier filtering and analysing 
 - Content creation for event asset copy, as well as general spelling and grammar checks 
 
