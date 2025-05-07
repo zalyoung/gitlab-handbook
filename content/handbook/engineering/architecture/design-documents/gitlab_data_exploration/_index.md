@@ -175,7 +175,7 @@ project = "team-project" AND type = Pipeline AND (status = failed OR duration > 
 project = "team-project" AND type = AiMetric
 ```
 
-Depending on the data source, we can configure the compiler to outputs different format e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in #moving-glql-to-the-backend).
+Depending on the data source, we can configure the compiler to outputs different format e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
 
 Sample PoC: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 (leaving it here for reference - doesn't need to stick around though)
 
@@ -238,7 +238,7 @@ In addition, having the GLQL Rust compiler also allows the same parser to be sha
 
 This is also inline with `~devops::plan` future plans: [https://gitlab.com/groups/gitlab-org/-/epics/15834](https://gitlab.com/groups/gitlab-org/-/epics/15834), thus opening up opportunities for collaboration.
 
-Being able to share the Rust compiler between frontend and backend also allows us to  parallelise the work to add type-based data source routing and moving the GLQL pipeline to the backend.
+Being able to share the Rust compiler between frontend and backend also allows us to parallelize the work to add type-based data source routing and moving the GLQL pipeline to the backend.
 
 This standardized query system, built on an extended GLQL architecture and moved to the backend, will provide the foundation for a powerful, consistent data exploration experience across all GitLab data sources.
 
@@ -268,7 +268,7 @@ The interface will include the following main building blocks:
 
 3. **Visualization Controls**
 
-   - Visualization type selector (charts, tables, metrics, custom views)
+   - Visualization type selector (charts, tables, metrics, markdown, custom views)
    - Configuration panel for the selected visualization
 
 4. **Action Toolbar**
@@ -286,7 +286,7 @@ The interface will include the following main building blocks:
 
 This unified interface will integrate seamlessly with the standardized query system, leveraging GLQL's capabilities while presenting them in an accessible way to all users regardless of their technical expertise.
 
-Whilst the above are the main building block that we think are necessary to build  the data exploration interface, a proper UX research will be required to turn this into a proper design.
+Whilst the above are the main building block that we think are necessary to build the data exploration interface, proper UX research will be required to turn this into a proper design.
 
 <!--
 ## Design and implementation details
@@ -334,5 +334,5 @@ each alternative solution/path.
   - Create an issue and discuss it with Plans if it makes sense
   - Build a PoC
 - Experiment with moving the GLQL rust compiler to the Rails backend
-  - Create an issue and discuss it with Plans ( related issue: https://gitlab.com/groups/gitlab-org/-/epics/15834)
+  - Create an issue and discuss it with Plan (related issue: https://gitlab.com/groups/gitlab-org/-/epics/15834)
   - Build a PoC
