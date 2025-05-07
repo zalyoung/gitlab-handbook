@@ -91,7 +91,25 @@ The council, comprised of Security and Privacy (Legal) leadership, shall meet on
 
 GitLab has implemented a formal [Security Operational Risk Management ("StORM") program](/handbook/security/security-assurance/security-risk/storm-program/) to identify, rank, track, and treat cybersecurity, IT, and privacy operational risks in support of GitLab's organization-wide objectives. The process for selecting in scope information security controls is executed by the Security Compliance team, leveraging technical functionality from the third party GRC application, and overseen by the Security Risk team. Implementation status is captured in GitLab's GRC application as well as in the Statement of Applicability.
 
-The GitLab Security team executes quarterly cascading [Objectives and Key Results (OKRs)](/handbook/company/okrs) to define our security objectives and a plan for achieving those objectives while ensuring alignment throughout the organization.
+On an annual basis, the CEO will establish company objectives for the year that cascade down to all divisions, including Security and AI teams. These objectives ensure that security and AI management priorities remain aligned with GitLab's overall strategic direction, providing a framework for defining specific actions to support the intended outcomes of both the ISMS and AIMS.
+
+### External and Internal Issues
+
+GitLab has identified the following external and internal issues that are relevant to its purpose and that could affect its ability to achieve the intended outcomes of the Information Security Management System (ISMS) and Artificial Intelligence Management System (AIMS).
+
+#### External Issues
+- Regulatory and legal changes affecting data protection and AI governance
+- Evolving cybersecurity threat landscape
+- Third-party vendor dependencies and supply chain risks
+- Customer security and privacy expectations
+- Technology evolution 
+- Industry standards and certification requirements
+- Economic conditions impacting resource availability
+
+#### Internal Issues
+- Resource allocation and budgetary constraints
+- Staff competencies and talent retention
+- Strategic business objectives and priorities
 
 ### Support
 
