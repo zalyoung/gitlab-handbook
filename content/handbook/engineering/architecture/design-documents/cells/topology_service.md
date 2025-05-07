@@ -139,10 +139,10 @@ flowchart TD
   A -->|6 bits| C[Reserved]
   A -->|57 bits| D[Sequence]
   D --> E{Legacy Cell?}
-  E --> |Yes|F[min = 1, max = 10^12 - 1]
-  E --> |"No (new cells)"| G{cellsprod?}
-  G --> |Yes| H[min = currentMaxId + 1, max >= min + 10^11]
-  G --> |"No (cellsdev, gdk)"| I[min = currentMaxId + 1, max >= min + 10^9]
+  E --> |Yes| F[min = 1, max = 10^12 - 1]
+  E --> |"No (new cells)"| G[min = currentMaxId + 1, max >= min + 10^11]
+  G -.- N["min 100 billion IDs validation can be skipped for short-lived cells"]
+  style N fill:none
 ```
 
 - **Sign**: Always 0 for positive numbers.
@@ -153,7 +153,7 @@ flowchart TD
    reserving only one bit would have been sufficient but
    more bits are reserved to have the sequence bits at minimum.
 - **Sequence**:
-  - Legacy cell gets the first trillion IDs and each new cellsprod instance will get 100 billion IDs each.
+  - Legacy cell gets the first trillion IDs and each new instance will get 100 billion IDs each. See the [Sequence Saturation](#sequence-saturation) section for how we arrived at this number.
   - Excluding the legacy cell, this will support 1,441,141 cells (using 57 bits) in production.
 
 Example `config.toml` of Topology Service:
@@ -164,19 +164,25 @@ env = "production"
 [[cells]]
 id = 1
 address = "legacy.gitlab.com"
-sequence_range = [1, 999999999999] # 1 trillion
+[[cells.sequence_ranges]]
+minval = 1
+maxval = 999999999999 # 1 trillion
 
 [[cells]]
 id = 2
 address = "cell-2-example.gitlab.com"
 session_prefix = "cell-2"
-sequence_range = [1000000000000, 1099999999999] # 100 billion
+[[cells.sequence_ranges]]
+minval = 1000000000000
+maxval = 1099999999999 # 100 billion
 
 [[cells]]
 id = 3
 address = "cells-3-test.gitlab.com"
 session_prefix = "cell-3"
-sequence_range = [1100000000000, 1199999999999] # 100 billion
+[[cells.sequence_ranges]]
+minval = 1100000000000
+maxval = 1199999999999 # 100 billion
 ```
 
 ```toml
@@ -186,13 +192,17 @@ env = "staging"
 id = 2
 address = "cell-2.gitlab-cells.dev"
 session_prefix = "cell-2"
-sequence_range = [10000000000, 10999999999] # 1 billion
+minval = 1000000000000
+maxval = 1099999999999 # 100 billion
 
 [[cells]]
 id = 3
 address = "cell-3.gitlab-cells.dev"
 session_prefix = "cell-3"
-sequence_range = [11000000000, 11999999999] # 1 billion
+[[cells.sequence_ranges]]
+minval = 1100000000000
+maxval = 1101000000000
+skip_range_validation = true # For short lived cells, min 100 billion IDs validation can be skipped
 ```
 
 ##### Sequence Saturation
@@ -202,9 +212,55 @@ At the time of writing the largest ID in the legacy cell was ~11 billion (PK of 
 - With trillion IDs, this should allow the legacy cell to grow ~91 times.
 - Given the aim of cells architecture is to keep new instance's database growth in control, 100 billions IDs should give them enough space as well.
 
-But since this is a critical part of the working of Gitlab.com, we have introduced saturation monitoring for each sequence in [merge_requests/8630](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/8630).
+###### Bumping sequence range for saturating sequences
 
-And [Issues#517296](https://gitlab.com/gitlab-org/gitlab/-/issues/517296) takes care of providing additional sequence ranges to the cell, if there is a need for it.
+This is a critical part for working of Gitlab.com, so we have introduced saturation monitoring for each sequence in [merge_requests/8630](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/8630).
+
+On finding saturating sequences, the range can be bumped by following the below process.
+
+1. Update TS config.toml to add an extra range to `cells.sequence_ranges` array.
+2. Run `gitlab:db:increase_sequences_range` rake in the particular cell, by passing saturating sequences names as the param.
+
+Example:
+
+1. Let's say `security_findings_id_seq` and `web_hook_logs_id_seq` of `cell-2` have reached the hard SLO (of 90%) on [pg_id_sequences](https://gitlab.com/gitlab-com/runbooks/-/blob/d1491099e52037cd23cc5d871b5c11dacce08888/libsonnet/saturation-monitoring/pg_id_sequences.libsonnet) monitoring.
+2. We have to update its `sequence_ranges` in the config.toml, with an extra range.
+
+   ```toml
+    env = "production"
+
+    [[cells]]
+    id = 1
+    address = "legacy.gitlab.com"
+    [[cells.sequence_ranges]]
+    minval = 1
+    maxval = 999999999999 # 1 trillion
+
+    [[cells]]
+    id = 2
+    address = "cell-2-example.gitlab.com"
+    session_prefix = "cell-2"
+    [[cells.sequence_ranges]]
+    minval = 1000000000000
+    maxval = 1099999999999 # 100 billion
+    [[cells.sequence_ranges]]
+    minval = 1200000000000
+    maxval = 1299999999999 # 100 billion
+
+    [[cells]]
+    id = 3
+    address = "cells-3-test.gitlab.com"
+    session_prefix = "cell-3"
+    [[cells.sequence_ranges]]
+    minval = 1100000000000
+    maxval = 1199999999999 # 100 billion
+   ```
+
+3. Open a CR to run `gitlab:db:increase_sequence_range['security_findings_id_seq', 'web_hook_logs_id_seq']` on the cell-2 instance.
+
+The above manual process is adopted as a boring solution, since this should occur very rare.
+And [Issue#540801](https://gitlab.com/gitlab-org/gitlab/-/issues/540801) will automate this process,
+by having a cron running within the cell, which will auto increment the sequence ranges when needed.
 
 NOTE:
 
