@@ -93,26 +93,6 @@ GitLab has implemented a formal [Security Operational Risk Management ("StORM") 
 
 On an annual basis, the CEO will establish company objectives for the year that cascade down to all divisions, including Security and AI teams. These objectives ensure that security and AI management priorities remain aligned with GitLab's overall strategic direction, providing a framework for defining specific actions to support the intended outcomes of both the ISMS and AIMS.
 
-### External and Internal Issues
-
-GitLab has identified the following external and internal issues that are relevant to its purpose and that could impact its ability to achieve the intended outcomes of the Information Security Management System (ISMS) and Artificial Intelligence Management System (AIMS).
-
-#### External Issues
-
-- Regulatory and legal changes affecting data protection and AI governance
-- Evolving cybersecurity threat landscape
-- Third-party vendor dependencies and supply chain risks
-- Customer security and privacy expectations
-- Technology evolution 
-- Industry standards and certification requirements
-- Economic conditions impacting resource availability
-
-#### Internal Issues
-
-- Resource allocation and budgetary constraints
-- Staff competencies and talent retention
-- Strategic business objectives and priorities
-
 ### Support
 
 GitLab has implemented a formal security awareness training program that includes: new hire security awareness training, global annual security awareness training and quarterly targeted phishing exercises. These trainings are administered through a third party portal and include a quiz to test understanding of the security topics presented.
