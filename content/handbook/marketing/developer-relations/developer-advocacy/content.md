@@ -5,24 +5,19 @@ description: "Learn about the Developer Advocacy team's content library, and con
 
 The Developer Advocacy team creates content that can be used for campaigns, field enablement, product launch support, use case adoption, customer demos, and general learning and onboarding. All contents and activities the team participates in are tracked in issues following [team workflows](/handbook/marketing/developer-relations/developer-advocacy/workflow/).
 
+## Request content
+
+**Note**: If you need an updated or newly created content asset, please follow the [content request workflow](/handbook/marketing/developer-relations/content-request/#how-to-work-with-the-developer-advocate-team).
+
 ## Content Library
 
 You can search for relevant content on this handbook page, and contact the team in the linked content epics or in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel.
 
 The following sections provide an overview of all content assets, and links to find them.
 
-### Request content
-
-**Note**: If you need an updated or newly created content asset, please follow the [content request workflow](/handbook/marketing/developer-relations/content-request/#how-to-work-with-the-developer-advocate-team).
-
 ### Highspot
 
 The team's content is distributed in the content platforms below, and in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd).
-
-### Product Adoption Initiatives
-
-- [FY25 GitLab Duo adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) (internal).
-- [FY25 CI/CD adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/466) (internal)
 
 ### Blog posts
 
@@ -112,7 +107,9 @@ While the [product tours](#product-tours) provide guided walkthroughs with navig
 
 Please search for the "[product name] tour - navigation guide" (ex: Advanced SAST tour - navigation guide) in Google Drive to find the step by step instructions to navigate through these tours.
 
-### YouTube playlists
+### Videos 
+
+#### YouTube playlists
 
 GitLab YouTube channel:
 
@@ -172,7 +169,16 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 ## Content Creation
 
-### Guideline and tips for creating GitLab tours with Navattic
+### Videos
+
+When creating product demos for video, please consider taking the following steps in VS Code: 
+- Common resolution is 1920×1080 (16:9 aspect ratio), for social consider square
+- Zoom (`cmd` + `+`) once or twice more than you think you need to
+- Simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode,`cmd`+`k`+`z`
+
+### Product Tours
+
+#### Guideline and tips for creating GitLab tours with Navattic
 
 1. Keep the product tours concise, ideally consisting of 8 to 12 steps, each highly focused on delivering clear value. In contrast, demos in documentation may adopt a more instructional "how-to" approach with longer steps.
 1. Consider adding links to relevant blog posts or documentation within tooltips or modals to provide users with further context or resources.
@@ -180,7 +186,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 1. Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
 1. Open your browser at 1680x1050 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
 
-### Publishing Product Tours
+#### Publishing Product Tours
 
 Product tours are published in the following locations:
 
@@ -190,7 +196,7 @@ Product tours are published in the following locations:
 
 Additionally, select tours may be featured on the website.
 
-## Contribute to product tours
+#### Contribute to product tours
 
 The Developer Advocacy team creates product tours to showcase key workflows and highlight new features, such as **Advanced SAST**, **GitLab Duo**, **Duo with Amazon Q**, [and more](#product-tours). The team is committed to building, reviewing, and publishing product tours to ensure a consistent and high-quality experience for our users and potential customers. You can also contribute by proposing additional tours and provide the content, script, and environment. Here is how you can collaborate with the Developer Advocacy team to create new product tours:
 
@@ -273,3 +279,7 @@ Content epic: <URL>
 
 Thanks a lot @HelpfulCoworker for editing this long read :handshake: :purple_heart:
 ```
+## Product Adoption Initiatives
+
+- [FY25 GitLab Duo adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) (internal).
+- [FY25 CI/CD adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/466) (internal)
