@@ -45,23 +45,24 @@ See the [Sentry guide](https://docs.sentry.io/concepts/search/) and [this presen
 If you have the `username` of the user, find the error message for the user in Sentry's `gitlabcom` project:
 
 - Go to [gitlabcom Sentry project](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3)
-- Use `user:"username:example"` (replace `example` with the actual username from GitLab)
-- Open sentry issue → Click on `EVENTS`. The list of events are automatically filtered with your search term
-- Click on any to see details of the error message
+- Use `user.username:example` (replace `example` with the actual username from GitLab)
+- Open sentry issue → Click on `All Events`.
+- Filter for the specific user again using `user.username:example`
+- Click on any event to see details of the error message
 
 ### Searching with the user's ID in `gitlabcom-clientside` Sentry project
 
 If you have the `ID` of the user, find the error message for the user in Sentry's `gitlabcom-clientside` project:
 
 - Go to [gitlabcom-clientside Sentry project](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=4)
-- Use `user:"id:userID"` (replace `userID` with the actual ID from GitLab)
-- Open sentry issue → Click on `EVENTS`. The list of events are automatically filtered with your search term
-- Click on any to see details of the error message
+- Use `user.id:userID` (replace `userID` with the actual ID from GitLab)
+- Open sentry issue → Click on `All Events`.
+- Filter for the specific user again using `user.id:userID`
+- Click on any event to see details of the error message
 
 ### Searching `customersgitlabcom` Sentry project
 
-If the purchase was also attempted from [CustomersDot portal](https://customers.gitlab.com/customers/sign_in), use
-the [workflow](/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases#getting-error-message-from-sentry)
+Use the [workflow](/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases#getting-error-message-from-sentry)
 to find the error message in [Customers Portal Sentry project](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=8).
 
 ### Searching by Correlation ID
