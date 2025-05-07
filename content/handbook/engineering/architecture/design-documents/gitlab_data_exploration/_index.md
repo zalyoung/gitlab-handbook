@@ -176,8 +176,7 @@ project = "team-project" AND type = AiMetric
 ```
 
 Depending on the data source, we can configure the compiler to outputs different format e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
-
-Sample PoC: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 (leaving it here for reference - doesn't need to stick around though)
+   - Proof of concept: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 
 
 2. **Source-specific fields and operators** - Extend the syntax to allow fields and operators specific to each data source:
 
@@ -221,6 +220,9 @@ A critical architectural change is moving GLQL execution from the frontend to th
 
 The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be used to query data directly through Rails finders, databases, or other APIs. This would allow us to strip out GraphQL from the GLQL compiler pipeline and retrieve the data directly from different datasources.
 
+Proof of contept demonstrating how the Rust QLQL compiler can be hooked up to Rails and the query parsing moved to the backend: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
+
+
 1. **Technical advantages**:
    - A single entry point for querying GitLab data, with centralized access control and consistent querying interfac
    - Opportunity for opening it up GLQL to satellite services such as IDE extensions
@@ -231,6 +233,7 @@ The GLQL Rust compiler could compile GLQL queries directly to appropriate format
    - Queries can be executed closer to the data, reducing network and GraphQL overhead
    - Ability to implement caching at the appropriate level
    - Ability to optimize queries at the backend level
+
 
 In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
 
