@@ -145,7 +145,7 @@ A personnel file generally includes:
 
 - *hiring documentation and employment and performance records* (offer letter, right to work and identification documents, records relating to performance, promotion and transfer, compensation, performance appraisals, awards or citations for excellent performance, warnings and any formal discipline,notes on attendance, and any contract or written agreement between you and GitLab);
 - *logs* (including Growth & Development logs, Learning & Development logs, and signed acknowledgments);
-- necessary *medical or health and safety records**, details of *leaves** and any *payroll, pension or tax records* (payslips, deductions, social security contributions, garnishments/attachments)
+- necessary *medical or health and safety records**, details of *leaves** and any *payroll, pension or tax records** (payslips, deductions, social security contributions, garnishments/attachments)
     (*where required, these records are maintained separately from other personnel records); and,
 - *separation of employment documents* (including resignation letters, termination, separation or severance agreements, correspondence and reference statements).
 
