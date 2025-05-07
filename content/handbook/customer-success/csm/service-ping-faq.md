@@ -54,9 +54,23 @@ Yes, you are able to extract this information manually and review prior to sendi
 1. A JSON formatted output of the data that is sent from GitLab instances to gitlab.com when allowed will be displayed in a pop-up.
 Copy and paste this information into a text file, encrypt and send to GitLab or upload over SSH/HTTPS to the customer collaboration for your organization that's securely hosted on gitlab.com
 
-## 4. Can customers visualize the data?
+### 4. Can customers visualize the data?
 
-At this time, you can access the data through [a REST API connection](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data). We are starting to explore the possibilities to enable customer visualization and/or analysis.
+Yes. GitLab provides multiple ways to access and visualize Service Ping data:
+
+- **Manual access via REST API**:  
+  You can export the Service Ping data manually through [GitLab’s REST API](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data). This enables direct inspection of the raw payload.
+
+- **GitLab Service Ping Dashboard**:  
+  GitLab Customer Success has developed a dedicated [Service Ping Dashboard](https://gitlab.com/gitlab-com/cs-tools/gitlab-cs-tools/service-ping-dashboard) that allows you to track and visualize historical Service Ping metrics via a GitLab Pages site. The dashboard:
+  - Fetches Service Ping data via the API.
+  - Stores historical data over time.
+  - Generates interactive graphs.
+  - Updates weekly via GitLab CI/CD.
+  - Categorizes metrics and includes search/autocomplete for easy exploration.
+  - Automatically displays metric descriptions, trends and metadata.
+  
+  This tool helps customers gain deeper insights into adoption trends, monitor key DevOps metrics over time, and prepare visual reports for stakeholders.
 
 ## 5. How do we ensure that you don't change what's in the payload?
 
