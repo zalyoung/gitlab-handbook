@@ -48,3 +48,4 @@ This working group aims to:
 | Member                | Jessica Kane              | Senior Manager of UX Research.                                |
 | Member                | Ben Leduc-Mills           | Staff UX Researcher                                           |
 | Member                | John Hope                 | Senior Manager of Engineering, Core Development               |
+| Member                | Diana Logan               | Senior Manager of Technical Writing                           |
