@@ -52,9 +52,66 @@ Here, we are creating a component with an input called *stage*. The stage input 
 
 1. Click **Commit changes**, and then click **Commit changes** in the pop-up screen.
 
-Now, we have a component that we can use in our project. You can also publish this component to the CI/CD catalogue with a Release for others to use, but we are instead just going to call it directly from our other project.
+Now we have a component file, but in order for the component to be accessible by other projects, we need to publish the component. Note that since the project is private, it will only be accessible by you.
 
-## Task B. Adding the SAST component
+## Task B. Publishing the Component
+
+1. On the lefthand toolbar, select **Settings > General**.
+
+1. All components require a project description. Write in your project description section, "This component is an example component, and is meant for demonstration purposes only."
+
+1. Expand **Visibility, project features, permissions**.
+
+1. Turn on the CI/CD Catalog project toggle. Click **Save changes**.
+
+This will now make the project a CI/CD Catalog project. Any templates in the *templates* directory will now be available to any project, provided we make a release. Next we will use a component to make a release on our new custom component.
+
+1. In the repository of your Example Component project, click the **+** button, then click the **New File** option.
+
+1. Title the file `.gitlab-ci.yml`.
+
+1. In the `.gitlab-ci.yml` file, add the following code snippet.
+
+```yaml
+workflow:
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: never
+    - when: always
+stages:
+  - release
+release component:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  script:
+    - echo "Releasing the latest version of our component."
+  release: 
+    tag_name: 'v0.$CI_PIPELINE_IID.0'
+    description: 'The latest component release.'
+```
+
+This code looks similar to our release component we made in a similar lab, but there is one key difference- component releases require a release format in semantic versioning (MAJOR.MINOR.PATCH). We use the PATCH version to differentiate between each commit.
+
+1. Click **Commit changes**, and then click **Commit changes** in the pop-up screen.
+
+1. Wait for the pipeline to complete.
+
+## Task B. Adding the Created Component to our Project
+
+1. Navigate to your CI/CD Catalogue by clicking on the search bar, and then clicking the **Explore** option.
+
+1. Click on the **CI/CD Catalog** option on the left.
+
+1. Click on the **Example component** component. This component will be only visible to you.
+
+1. Copy the `include` statmement in the component. It should look similar to this:
+
+```yaml
+
+include:
+  - component: $CI_SERVER_FQDN/training-users/session-0a9ee9b9/iuhrhhmd/example-component/sample-template@v0.4.0
+
+```
 
 1. Navigate to your CI/CD project by clicking on the Tanuki logo in the top left corner of the page, then click on your project name.
 
@@ -62,12 +119,7 @@ Now, we have a component that we can use in our project. You can also publish th
 
 1. Select **Edit > Edit in Pipeline Editor**.
 
-1. At the top of your file, below the image, add in the custom component we created earlier. You will need to replace <group-patthway> with the the URL pathway to the project. For example, it might look something like "session-0378bc88/iuljg1dh".
-
-```yaml
-include:
-  - component: ilt.gitlabtraining.cloud/training-users/<group-pathway>/example-component/templates/sample-template.yml@main
-```
+1. At the top of your file, below the image, add in the custom component we created earlier. 
 
 The top of the `.gitlab-ci.yml` file should look like this:
 
@@ -82,7 +134,7 @@ default:
   image: golang
 
 include:
-  - component: ilt.gitlabtraining.cloud/<group-pathway>/example-component/templates/sample-template.yml@main
+  - component: $CI_SERVER_FQDN/training-users/session-0a9ee9b9/iuhrhhmd/example-component/sample-template@v0.4.0
 ```
 
 1. Select **Commit changes**.
@@ -92,8 +144,10 @@ include:
 1. Let's try overriding the stage to instead run in the deploy stage by adding the following to the `.gitlab-ci.yml` file:
 
 ```yaml
-  inputs:
-    stage: deploy
+  include:
+    - component: $CI_SERVER_FQDN/training-users/session-0a9ee9b9/iu6t0rjr/example-component/sample-template@v0.36.0
+      inputs:
+        stage: deploy
 ```
 
 1. Select **Commit changes**, and watch as your *component-job* now runs in the deploy stage.
