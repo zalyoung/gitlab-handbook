@@ -153,7 +153,7 @@ Beyond the query language differences, there are fundamental inconsistencies in 
 
 - Field naming conventions vary across systems
 - Entity relationships are modeled differently
-- Data granularity differs (e.g., detailed records vs. aggregated data)
+- Data granularity differs (for instance detailed records vs. aggregated data)
 
 These disparities make it difficult to establish meaningful connections between related data points that exist in different systems; limiting users' ability to gain a complete picture of their information.
 
@@ -161,11 +161,10 @@ These disparities make it difficult to establish meaningful connections between 
 
 The current state creates significant friction in the data exploration process:
 
-- Not all data sources have a data exploration UI or a query language. 
+- Not all data sources have a data exploration UI or a query language.
 - Users must often switch between multiple tools or interfaces to access different data sources.
-- Non-technical users face significant barriers to exploring data on their own. 
+- Non-technical users face significant barriers to exploring data on their own.
 - There's often a lack of transparency about how the data was queried and transformed, creating trust issues with the presented information. GitLab team members have to spend significant time explaining to customers how data is retrieved and displayed, trying to build trust in the tool.
-
 
 This friction discourages data exploration and limits the insights users can derive from their GitLab data.
 
@@ -175,7 +174,7 @@ Different data sources have varying performance characteristics:
 
 - Some queries may be resource-intensive and could impact system performance
 - Query optimization strategies differ across data sources
-- Performance can vary dramatically for similar queries against different data sources 
+- Performance can vary dramatically for similar queries against different data sources
 
 These challenges make it difficult to provide a consistently responsive exploration experience across all data types.
 
@@ -186,7 +185,7 @@ Despite these challenges, there are significant opportunities to simplify and en
 - A unified data exploration interface would simplify access to critical insights, improve feature adoption, and unlock data that is currently inaccessible to most users due to technical complexity
 - Standardizing query patterns could unlock new cross-source analytics capabilities
 - Enabling export, sharing, and embedding of query results would allow users to incorporate insights across other GitLab pages and workflows
-- A standardised input and output would not only benefit users, but also other systems integrating with it or used to generate queries or interpret results, such as an AI assistant.
+- A standardized input and output would not only benefit users, but also other systems integrating with it or used to generate queries or interpret results, such as an AI assistant.
 
 A well-designed data exploration architecture would not only address the current pain points but also establish a foundation for more advanced analytics capabilities in the future.
 
@@ -196,7 +195,7 @@ The unified data exploration system would enable users to answer questions such 
 
 **For Engineering Teams:**
 
-- "As an engineering team, every day during standup, we want to look at one dashboard that tells us how we are doing in relation to our devsecops flow. We will need to see:
+- "As an engineering team, every day during standup, we want to look at one dashboard that tells us how we are doing in relation to our DevSecOps flow. We will need to see:
   - Table with current open MRs
   - Count of critical and high vulnerabilities introduced in the last x days
   - Issues assigned to our current milestone (or label/status, whatever pivot the team would want to look at their current work)
@@ -298,7 +297,7 @@ each alternative solution/path.
 
 - Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
   - a unified data exploration UI
-  - a standardised and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense, expanding on https://gitlab.com/gitlab-org/gitlab/-/issues/525642#note_2447362814 )
+  - a standardized and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense, expanding on https://gitlab.com/gitlab-org/gitlab/-/issues/525642#note_2447362814 )
 - Experiment with extending GLQL to fits our needs/requirements
   - Create an issue and discuss it with Plans if it makes sense
   - Build a PoC
