@@ -158,7 +158,7 @@ Incoming work of all kind (both projects and ad-hoc interrupts) passes by EM and
 fit with the product's strategy roadmap etc. Some will get scheduled, some goes to the backlog. If the effort is not deemed necessary or not believed
 to align with the roadmap, we will close the issue with commentary as to why it is not being pursued for future reference.
 
-We aim to scope milestones such that we have a task list that is ambitious, but not overwhelming. We deliberatly leave some capacity for incoming incidents.
+We aim to scope milestones such that we have a task list that is ambitious, but not overwhelming. We deliberately leave some capacity for incoming incidents.
 We want to avoid the feeling of a never ending mountain of work to promote a healthy work / life balance.
 It is also important to stress that milestones are recommendations only and we work on a best effort basis.
 
@@ -221,7 +221,7 @@ discussions. The secondary owner can also act as the primary owner when the
 DRI is OOO, depending on their bandwidth.
 
 Supporting contributors are highly recommended but optional. There can also be
-multiple seconary owners for a project.
+multiple secondary owners for a project.
 
 Not everyone needs to be a DRI, but everyone should be a supporting contributor
 on at least one project.
