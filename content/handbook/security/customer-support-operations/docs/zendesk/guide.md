@@ -100,10 +100,7 @@ Always be cautious of changes. Many of these can have significant downstream imp
     - [ ] Powered by Zendesk logo
     - [ ] Turn on anonymous user tracking
 - Article verification
-  - `All articles`
-    - Rule name: `All articles`
-    - Fequency: `30 day interval`
-    - Apply filters: `Filters`
+  - None
 - Language settings
   - This will vary from instance to instance depending on dynamic content and localization use
 - Search settings
