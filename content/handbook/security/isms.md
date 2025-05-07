@@ -95,7 +95,7 @@ On an annual basis, the CEO will establish company objectives for the year that 
 
 ### External and Internal Issues
 
-GitLab has identified the following external and internal issues that are relevant to its purpose and that could affect its ability to achieve the intended outcomes of the Information Security Management System (ISMS) and Artificial Intelligence Management System (AIMS).
+GitLab has identified the following external and internal issues that are relevant to its purpose and that could impact its ability to achieve the intended outcomes of the Information Security Management System (ISMS) and Artificial Intelligence Management System (AIMS).
 
 #### External Issues
 - Regulatory and legal changes affecting data protection and AI governance
