@@ -115,15 +115,43 @@ Below is a step-by-step process for team members to walk through when refining b
     1. If possible, timebox refinement to at most 1 hour per issue
 1. Get an understanding of what the issue is trying to accomplish
     1. You may need to ask questions of the person who created the issue or the relevant teams
-    1. Ensure there is a clear definition of done for this particular set of work
     1. Consider breaking the issue down into separate pieces or, if needed, making an epic
 1. Add additional details to the appropriate sections such that someone can easily understand the goals and requirements
 1. Investigate what an ideal solution might look like and add potential solution information to that issue
     1. Consider timeboxing this effort
     1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
-1. Add a [weight](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#weights) based on how much effort this will take to accomplish
-1. Consider adding a [priority](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#priorities) label to indicate the relative importance of the issue within our backlog
-1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
+1. Update the issue until it meets the Definition of Ready below
+
+### Definition of Ready
+
+Some projects will use Issue Templates to guide how we describe work to be done. 
+In the absence of more specific guidance, an Issue or Work Item can be considered ready for development using the criteria below.
+
+When we notice patterns in our Definitions of Ready for specific projects, we should create an Issue Template to codify that.
+
+#### For simple tasks
+
+1. The description contains Context, a Proposal, and if applicable, a Technical Implementation Plan
+    1. Answer: "why?", "why now?" or "when?", and "who needs to be involved?"
+1. A set of checkboxes under an Acceptance Criteria that need to be be checked to consider the work complete
+1. A [weight](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#weights) has been assigned
+1. (Optional) A [priority](/handbook/security/product-security/security-platforms-architecture/product-security-engineering/#priorities) label has been assigned to indicate the relative importance of the issue within our backlog
+1. The `~workflow::ready for development` label has been added
+
+#### For more complex tasks
+
+As a rule of thumb, if you expect the weight to be >= 3, it is "more complex".
+
+1. Everything from "For simple tasks"
+1. Risks relating to the team, project timeline, implementation plan, stability, security, etc., have been discussed and, where needed, planned for
+1. If present, the Technical Implementation Plan includes:
+    1. Include development steps, from design through to deployment. Consider whether any of these should be their own Issues or Work Items.
+    1. Include updating any relevant documentation
+    1. Consider if the change introduces functionality requiring ongoing monitoring or alerting. If so, how will that be achieved?
+1. The Acceptance Criteria includes checkboxes for:
+    1. Deploying the change to appropriate environments (if needed)
+    1. Include notifying relevant stakeholders
+1. The description has been peer reviewed by a manager or teammate
 
 ### Weights
 
