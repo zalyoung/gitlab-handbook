@@ -118,6 +118,12 @@ For more information regarding confidentiality levels and compliancy, please vis
 - Using Claude to evaluate [Tableau](/handbook/enterprise-data/platform/tableau/) reporting for better visibility into ROI and to provide new ideas for strategically implementing company initiatives into our regional event tactics 
   - Claude can also be utilized to create a Markdown file of Tableau's data ([see example here](https://claude.ai/share/9f71d4b8-2f9b-496e-8de0-80915021304d)) to then be transferred to Google sheets for easier filtering and analysing 
 - Content creation for event asset copy, as well as general spelling and grammar checks 
+- Use Claude to pull specific information for executive roundtables to provide a structured summary based on company information and attendees (see below examples)
+  - Company Overview
+  - Persona Role
+  - Opinion on roundtable topic sourced from relevant articles on the web
+  - How GitLab aligns with companies' DevOps and AI strategies
+  - Give discussion points on data residency, AI regulations, and implementation
 
 ## Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
