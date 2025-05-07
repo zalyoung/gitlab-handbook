@@ -139,6 +139,16 @@ Please ensure you have the [ModernLoop Chrome Extension](https://modernloop.zend
 - Review all details and then press 'Confirm and send' 
 - If you only wish to send the invites to the interviewers before sending the candidate invite, select 'Send internal only'.  This will send the interviewer invites and move the candidate into the Pending section of My tasks.  When you wish to send the candidate invite you can go into the candidate profile and click 'finish and Send'. 
 
+## How to schedule internal interviews
+
+- When receiving a scheduling task in ModernLoop from a recruiter for an internal candidate, confirm that the 'internal candidate' tag has been applied to the task.
+- If it is missing, add the "internal candidate" tag to the ModernLoop task yourself for tracking purposes.
+- Unlike with external candidates, recruiters do not request availability from internal candidates via email. Instead, they create a scheduling task for CES to arrange interviews directly, without waiting for candidate-submitted availability.
+- The recruiters will inform the candidate that CES will be making use of their GitLab calendar to schedule the interview.
+- CES should proceed directly to scheduling the calls without waiting for candidate availability submission. 
+- Access the Google Calendar to view both the interviewer's and internal team member's calendars in tandem. 
+- Once a suitable time slot has been identified, schedule the interview and send the internal candidate confirmation in ModernLoop.
+
 ## How to add or replace an interviewer for a scheduled interview
 
 - If you wish to replace or add an extra interviewer to a scheduled interview, in 'My tasks' go to scheduled, click on the scheduled interview.  
