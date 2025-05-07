@@ -84,7 +84,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 - Move provenance statement generation to GitLab Rails backend.
 - Every field of the provenance is generated or verified in the trusted control plane.
-- Generate provenance statements with enhanced integrity guarantees.
+- Generate provenance statements that are unforgeable.
 
 #### Phase 3: Out-of-Pipeline Signing
 
