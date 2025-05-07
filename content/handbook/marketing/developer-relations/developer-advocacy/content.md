@@ -172,6 +172,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 ### Videos
 
 When creating product demos for video, please consider taking the following steps in VS Code: 
+
 - Common resolution is 1920×1080 (16:9 aspect ratio), for social consider square
 - Zoom (`cmd` + `+`) once or twice more than you think you need to
 - Simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode,`cmd`+`k`+`z`
@@ -302,6 +303,7 @@ Content epic: <URL>
 
 Thanks a lot @HelpfulCoworker for editing this long read :handshake: :purple_heart:
 ```
+
 ## Product Adoption Initiatives
 
 - [FY25 GitLab Duo adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) (internal).
