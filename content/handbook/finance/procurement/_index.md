@@ -183,7 +183,8 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 #### 3.B. IT Review: 2 days if purchasing new software or for contractors
 
-- Requester should have vendor complete the [IT New Software Questionnaire](https://docs.google.com/spreadsheets/d/1SgyzxDDiTbig0VtZ5RPgX92U_VlQu1mq/edit?usp=sharing&ouid=115328509315203543998&rtpof=true&sd=true) and submit with the purchase request so IT can complete their review
+- Requester should have vendor complete the [IT New Software Questionnaire](https://docs.google.com/spreadsheets/d/1SgyzxDDiTbig0VtZ5RPgX92U_VlQu1mq/edit?usp=sharing&ouid=115328509315203543998&rtpof=true&sd=true) and submit with the purchase request so IT can complete their review.
+- IT may be engaged in a requisition later in the approval chain in the event that a professional services provider does not meet GitLab's TPRM requirements. Approval should not be granted until IT has confirmed the provider is in a country eligible for laptop shipment.
 
 #### 4.A. Legal Review: 3 to 21 days
 
@@ -204,7 +205,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 **Types of Agreements**
 
 - **Software (SaaS & On-Prem):** Requires the most rigorous review to ensure the rights and obligations placed upon GitLab are, (i) reasonable given the Software being provided, and (ii) align with GitLab contracting and industry standards.
-- **Professional Services / Training:** Requires detailed review to ensure intellectual property ownership aligns with our intentions, as well as, reasonable obligations being placed upon GitLab.
+- **Professional Services / Training:** Requires detailed review to ensure intellectual property ownership aligns with our intentions, as well as, reasonable obligations being placed upon GitLab. Note that professional services sub-processors may not sign any agreements with GitLab customers until the vendor's relationship with GitLab is formalized via an executed contract and fully approved Zip requisition.
 - **Marketing / Events:** Generally, requires the least amount of time to review as the obligations are standardized given the event in question and program provided. Details regarding events may include negotiations with regards to Force Majeure, cancellation (including penalty), and ensuring the terms of the Agreement align with those of the requesting GitLab Team Members.
 - **Data Processing Agreement (DPA)/Standard Contractual Clauses (SCCs):** Required when personal data is shared with, accesssed, or collectd by the supplier on behalf of GitLab. DPA/SCCs are generally affixed to an agreement but may be required as a separate agreement upon the determination of Privacy.
 
