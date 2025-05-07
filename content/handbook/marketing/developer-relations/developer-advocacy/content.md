@@ -170,36 +170,36 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 ## Content Creation
 
-### Guidelines for creating public-facing product tours with Navattic  
+### Guidelines for creating public-facing product tours with Navattic
 
-1. **Keep it concise** – Product tours should ideally have **5 to 12 steps**, each focused on delivering clear value. Unlike tutorials, which tend to be instructional, product tours should be quick and engaging.  
-2. **Provide context** – Add links to blog posts and documentation in pop-up dialogs to provide additional resources without cluttering the main content.   
-3. **Apply GitLab branding** – In the theme settings, select **"GitLab Branding [Navattic Team]"** to ensure a consistent design.  
-4. **Use the appropriate capture type** – Navattic supports two types of screen captures:  
-   - **Web captures** (preferred) create an in-product experience.  
-   - **Screenshots** should be used for non-web-based applications (e.g., IDEs).  
-5. **Set the correct resolution** – When capturing in Chrome, set your browser to **1680x1050 (Full HD)**. You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to adjust the resolution.  
-6. **Include a call to action** – The final step should feature a **CTA**, typically a **Free Trial** link.  
-7. **Use Beacons to highlight elements** – Apply the **Highlight** appearance setting to emphasize key elements.  
-8. **Enable keyboard navigation** – This features in the tour settings allows users to navigate the tour using arrow keys for a smoother experience.  
-9. **Use Presenter Mode** – This feature hides pop-ups when necessary, ensuring a cleaner visual presentation.  
-10. **Set pop-ups appropriately**:  
+1. **Keep it concise** – Product tours should ideally have **5 to 12 steps**, each focused on delivering clear value. Unlike tutorials, which tend to be instructional, product tours should be quick and engaging.
+2. **Provide context** – Add links to blog posts and documentation in pop-up dialogs to provide additional resources without cluttering the main content.
+3. **Apply GitLab branding** – In the theme settings, select **"GitLab Branding [Navattic Team]"** to ensure a consistent design.
+4. **Use the appropriate capture type** – Navattic supports two types of screen captures:
+   - **Web captures** (preferred) create an in-product experience.
+   - **Screenshots** should be used for non-web-based applications (e.g., IDEs).
+5. **Set the correct resolution** – When capturing in Chrome, set your browser to **1680x1050 (Full HD)**. You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to adjust the resolution.
+6. **Include a call to action** – The final step should feature a **CTA**, typically a **Free Trial** link.
+7. **Use Beacons to highlight elements** – Apply the **Highlight** appearance setting to emphasize key elements.
+8. **Enable keyboard navigation** – This features in the tour settings allows users to navigate the tour using arrow keys for a smoother experience.
+9. **Use Presenter Mode** – This feature hides pop-ups when necessary, ensuring a cleaner visual presentation.
+10. **Set pop-ups appropriately**:
     - Use **Modals** with a **heavy backdrop** for the first and last steps.  
-    - Use **Tooltips** for intermediate steps, enabling the **Backdrop setting** when appropriate. 
-11. In the Dialogs, please try using action-specific labels like "Commit," "Install," or "Submit" instead of "Next" to make users feel like they are actively engaging with the product.     
+    - Use **Tooltips** for intermediate steps, enabling the **Backdrop setting** when appropriate.
+11. In the Dialogs, please try using action-specific labels like "Commit," "Install," or "Submit" instead of "Next" to make users feel like they are actively engaging with the product.
 12. **Refer to available examples** – Review [existing product tours](#product-tours) to understand the preferred format.
 13. Before releasing any public facing product tour, request a review from the DA team.
 
-### Requesting Access to Navattic 
+### Requesting Access to Navattic
 
 If your team has special requirements for tours and you want to develop tours with Navattic yourself, we can help.
 
-- We can offer a **3-month trial license** to team members who request access and provide a **valid business justification** for using Navattic.  
-- If a user actively utilizes the tool, we may **extend their access** or consider purchase additional licenses as needed.  
-- If a user is not actively using the tool, their license may be **reassigned** to another team member.  
-- To request access, open an [issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=other-activities) 
+- We can offer a **3-month trial license** to team members who request access and provide a **valid business justification** for using Navattic.
+- If a user actively utilizes the tool, we may **extend their access** or consider purchase additional licenses as needed.
+- If a user is not actively using the tool, their license may be **reassigned** to another team member.
+- To request access, open an [issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=other-activities)
 
-For questions or assistance, reach out to us in our team channel: [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B).  
+For questions or assistance, reach out to us in our team channel: [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B).
 
 ### Publishing Product Tours
 
