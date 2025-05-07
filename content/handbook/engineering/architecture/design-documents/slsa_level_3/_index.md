@@ -21,18 +21,16 @@ This document outlines the technical vision, principles, and key architectural d
 
 We propose a phased implementation of SLSA Level 3 compliance across GitLab CI/CD pipelines using modular and reusable components. Each phase addresses a critical step:
 
-- In-Pipeline Provenance Generation and Verification using Sigstore (Phase 1): Generate and verify provenance attestation within the pipeline.
-- Generate Provenance Statement in Control Plane (Phase 2): Shift provenance generation from Runner to GitLab Rails backend to enhance trust.
-- Sign Provenance Statement in Control Plane (Phase 3): Move signing operations to dedicated service for better security.
-- KMS Integration for Out-of-Pipeline Signing (Phase 4): Enable external, KMS-based artifact signing for enhanced security and compliance.
-- Hardening Pipeline Identity (Phase 5): Strengthen runner identity and build trust into the infrastructure.
+1. In-Pipeline Provenance Generation and Verification using Sigstore: Generate and verify provenance attestation within the pipeline.
+1. Generate Provenance Statement in Control Plane: Shift provenance generation from Runner to GitLab Rails backend to enhance trust.
+1. Sign Provenance Statement in Control Plane: Move signing operations to dedicated service for better security.
+1. KMS Integration for out-of-Pipeline Signing: Enable external, KMS-based artifact signing for enhanced security and compliance.
+1. Hardening Pipeline Identity: Strengthen runner identity and build trust into the infrastructure.
 
 This phased approach ensures an MVP can be delivered early, with incremental security and compliance enhancements added over time.
 
 ## Goals
 
-- Provide modular and reusable GitLab CI components for generating and verifying SLSA provenance attestations.
-- Collect detailed build metadata for supported ecosystems (containers, Go, Maven).
 - Embed GitLab-specific platform data (pipeline variables, commit IDs) into provenance for traceability.
 - Support out-of-pipeline signing via secure KMS or HSM, isolating signing keys from build environments.
 - Strengthen runner identity to provide trustworthy attestation of build provenance.
@@ -59,18 +57,17 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 - HSM: Hardware Security Module, hardware-based systems for secure key storage and signing.
 - VSA: Verification Summary Attestation, an attestation that an artifact has been verified to meet certain requirements.
 - GitLab Rails backend: The GitLab Rails backend that provides a trusted environment for security-critical operations, separate from the build environment.
-- Signing Service: A dedicated service within the GitLab infrastructure responsible for secure artifact signing operations, isolated from the CI/CD execution environment.
+- Signing Service: A dedicated service within the GitLab infrastructure responsible for SLSA statement signing operations, isolated from the CI/CD execution environment.
 
 ## Assumptions
 
-- Provenance Generation: Use Sigstore tools (cosign) to generate provenance attestations.
-- Reusable Components: Build modular GitLab CI components for easy adoption across projects.
-- Data Collection: Use both build-specific tools (go, maven) and GitLab platform metadata for provenance enrichment.
+- Provenance Generation: Use Sigstore Cosign (CLI, client, or port) to generate provenance attestations.
+- OIDC-based keyless signing: Use Signstore Fulcio for OIDC-base keyless signing.
+- Transparency log: Use Sigstore Rekor transparency log.
 - Signing Methods:
   - In-pipeline signing via OIDC-based short-lived credentials for fast MVP.
   - Out-of-pipeline signing via KMS for long-term secure artifact signing.
 - Runner Hardening: Explore options for strong runner identity using hardware-based solutions (TPM, secure enclaves).
-- Focus Ecosystems: Prioritize containers, Go, and Maven ecosystems in early phases.
 
 ## Design Details
 
@@ -85,28 +82,22 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 #### Phase 2: Generate Provenance Statement in Control Plane
 
-- Move provenance statement generation to GitLab's control plane.
+- Move provenance statement generation to GitLab Rails backend.
 - Every field of the provenance is generated or verified in the trusted control plane.
 - Generate provenance statements with enhanced integrity guarantees.
 
 #### Phase 3: Out-of-Pipeline Signing
 
-- Move signing operations from the pipeline to GitLab control plane.
+- Move signing operations from CI/CD pipelines to a signing service running on the backend.
 - Enhance security by isolating signing operations from build environment.
 - Provide centralized management of signing processes.
 - Ensure clean separation between build and signing trust boundaries.
 
-#### Phase 4: KMS Integration for Out-of-Pipeline Signing
+#### Phase 4: KMS Integration for out-of-pipeline Signing
 
 - Enable integration with external KMS (AWS KMS, Google KMS) or HSM solutions.
 - Use long-term signing keys stored securely outside the pipeline.
 - Support multiple key management solutions to accommodate various enterprise environments.
-
-#### Phase 4: Out-of-Pipeline Signing
-
-- Enable integration with external KMS (AWS KMS, Google KMS) or HSM solutions.
-- Use long-term signing keys stored securely outside the pipeline.
-- Provide an optional component to sign artifacts after the build completes.
 
 #### Phase 5: Hardening Pipeline Identity
 
