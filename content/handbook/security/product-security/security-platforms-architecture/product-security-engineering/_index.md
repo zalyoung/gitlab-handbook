@@ -145,7 +145,7 @@ As a rule of thumb, if you expect the weight to be >= 3, it is "more complex".
 1. Everything from "For simple tasks"
 1. Risks relating to the team, project timeline, implementation plan, stability, security, etc., have been discussed and, where needed, planned for
 1. If present, the Technical Implementation Plan includes:
-    1.  Include development steps, from design through to deployment. Consider whether any of these should be their own Issues or Work Items.
+    1. Include development steps, from design through to deployment. Consider whether any of these should be their own Issues or Work Items.
     1. Include updating any relevant documentation
     1. Consider if the change introduces functionality requiring ongoing monitoring or alerting. If so, how will that be achieved?
 1. The Acceptance Criteria includes checkboxes for:
