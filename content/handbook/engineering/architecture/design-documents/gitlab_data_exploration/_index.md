@@ -165,49 +165,49 @@ The proposed approach includes:
 
 1. **Type-based data source and output routing** - Extend the `type` field to include more data sources, and pivot on it to determine which data source to query and output to produce:
 
-```
-project = "team-project" AND type = MergeRequest AND state = opened
+   ```plaintext
+   project = "team-project" AND type = MergeRequest AND state = opened
 
-project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
+   project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
 
-project = "team-project" AND type = Pipeline AND (status = failed OR duration > 60) AND updated > -3d
+   project = "team-project" AND type = Pipeline AND (status = failed OR duration > 60) AND updated > -3d
 
-project = "team-project" AND type = AiMetric
-```
+   project = "team-project" AND type = AiMetric
+   ```
 
-Depending on the data source, we can configure the compiler to outputs different format e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
-   - Proof of concept: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 
+   Depending on the data source, we can configure the compiler to outputs different format e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
+      - Proof of concept: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 
 
 2. **Source-specific fields and operators** - Extend the syntax to allow fields and operators specific to each data source:
 
-```
-query: project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
-fields: status, severity, description
+   ```plaintext
+   query: project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
+   fields: status, severity, description
 
-query: project = "team-project" AND type = Pipeline AND (status = failed OR duration > 60) AND updated > -3d
-fields: id, name, status, duration, updatedAt
+   query: project = "team-project" AND type = Pipeline AND (status = failed OR duration > 60) AND updated > -3d
+   fields: id, name, status, duration, updatedAt
 
-query: project = "team-project" AND type = AiMetric
-fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
-```
+   query: project = "team-project" AND type = AiMetric
+   fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
+   ```
 
 3. **Enhanced display options** - Expand the `display` attribute to support visualization types that might be more appropriate for new datasources:
 
-```
-# Line chart display
-display: chart
-chart_type: line
-x_axis: created_at
-y_axis: count
+   ```plaintext
+   # Line chart display
+   display: chart
+   chart_type: line
+   x_axis: created_at
+   y_axis: count
 
-# Custom visualization component
-display: custom
-display_id: 'ai-impact-table'
-```
+   # Custom visualization component
+   display: custom
+   display_id: 'ai-impact-table'
+   ```
 
 Adopting GLQL for dashboard data exploration could also enable easy exporting and sharing of dashboards/visualizations across other GitLab pages, further enhancing the platform's data exploration capabilities.
 
-To achieve the above, following GLQL's Extensibility [guidelines](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/glql/#extensibility), we need to implement the following components:
+To achieve the above, following GLQL's Extensibility [guidelines](../glql/#extensibility), we need to implement the following components:
 
 - Implement new Code Generators tailored to each specific data source
 - Develop corresponding transformers to normalize the data returned by different APIs
@@ -245,7 +245,6 @@ This is also inline with `~devops::plan` future plans: [https://gitlab.com/group
 Being able to share the Rust compiler between frontend and backend also allows us to parallelize the work to add type-based data source routing and moving the GLQL pipeline to the backend.
 
 This standardized query system, built on an extended GLQL architecture and moved to the backend, will provide the foundation for a powerful, consistent data exploration experience across all GitLab data sources.
-
 
 ### A unified data exploration UI
 
