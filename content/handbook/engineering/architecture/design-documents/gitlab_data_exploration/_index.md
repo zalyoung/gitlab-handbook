@@ -222,7 +222,8 @@ A critical architectural change is moving GLQL execution from the frontend to th
 The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be used to query data directly through Rails finders, databases, or other APIs. This would allow us to strip out GraphQL from the GLQL compiler pipeline and retrieve the data directly from different datasources.
 
 1. **Technical advantages**:
-   - A single entry point for querying GitLab data, with centralized access control and consistent querying interface
+   - A single entry point for querying GitLab data, with centralized access control and consistent querying interfac
+   - Opportunity for opening it up GLQL to satellite services such as IDE extensions
    - Direct integration with Rails and databases
    - Simplified frontend implementation
 
