@@ -247,7 +247,7 @@ This standardized query system, built on an extended GLQL architecture and moved
 
 The unified data exploration UI will provide a cohesive, intuitive interface for users to query, analyze, and visualize data from GitLab's diverse data sources. The UI will serve both technical users who may prefer writing GLQL queries directly and non-technical users who need a simplified visual interface to build reports and dashboards.
 
-The interface will include the following main building blocks:
+The interface should include the following main building blocks:
 
 1. **Query Construction Area**
 
