@@ -64,7 +64,6 @@ We may make strategic exceptions to our program requirements.
 A GitLab Sales team member must make this request on behalf of an open source project.
 To request an exception, write an email to `opensource@gitlab.com` with details about which requirement do you want to bypass and why.
 
-
 #### What are the terms of the GitLab for Open Source Program?
 
 Upon acceptance to the GitLab for Open Source Program, all program members are subject to the [GitLab for Open Source Program Agreement](/handbook/legal/opensource-agreement/).
