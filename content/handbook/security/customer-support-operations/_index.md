@@ -62,8 +62,12 @@ graph LR;
   B-->|Yes| D
   A{Is this related to a support roadmap item?}
   B{Is the effort for this small or quickly done?}
-  C[Rejected]
-  D[Approved]
+  C[Escalate to unblock]
+  D[Approved for scheduling]
+  C-->E[Close, won't do]
+  C-->F[Needs prioritization, backlog]
+  C-->G[Needs discussion, close in favor of STM. Create new issue in the future.]
+
 ```
 
 If approved, it will then move to the `Design` stage (with all approvpriate labels put in place), where a gameplan will be made.
@@ -81,7 +85,7 @@ graph LR;
   A{Is it technically possible to do?}
   B{Is it feasible to do?}
   C{Does the level of effort far supercede what we are able to do with our current/future workload?}
-  D[Rejected]
+  D[Needs prioritization, backlog]
   E[Approved]
 ```
 
