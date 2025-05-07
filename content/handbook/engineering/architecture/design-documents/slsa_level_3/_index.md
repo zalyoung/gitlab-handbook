@@ -40,7 +40,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 ## Non-Goals
 
 - Achieving SLSA Level 4 compliance, which requires isolated and verifiable builds (future consideration).
-- Supporting all possible programming ecosystems or artifact types in Phase 1–5 (focus on key ecosystems first).
+- Collecting dependencies of all possible programming ecosystems (focus on key ecosystems first).
 - Replacing GitLab’s existing artifact storage and distribution mechanisms.
 
 ## Terminology/Glossary
