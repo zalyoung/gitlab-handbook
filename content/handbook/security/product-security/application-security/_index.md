@@ -1,9 +1,9 @@
 ---
 title: "Application Security"
-description: Last Updated May 7, 2025
+description: Application Security home page
 ---
 <!-- markdownlint-disable MD052 -->
-
+<!-- Last updated: May 7, 2025
 ## Application Security Mission
 
 The Product Application Security team works with GitLab engineers and product teams to anticipate and prevent the introduction of vulnerabilities during design and development, ensuring delivery of high quality software GitLab customers can trust. We also identify, assess, and respond to security vulnerabilities discovered in GitLab products and services that are reported through Coordinated Vulnerability Disclosure practices.
