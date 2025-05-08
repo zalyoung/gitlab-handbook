@@ -22,11 +22,11 @@ We organize our work into five pillars that emphasize Developer UX in the contex
 
 *SDX: Design* threat modeling, feature design guidance and consultation, and design reviews.
 
-*SDX: Code* static analysis, software component analysis and supply chain security, use of approved tools and methodologies in development, deprecation of unsafe functions, etc.
+**SDX: Code** static analysis, software component analysis and supply chain security, use of approved tools and methodologies in development, deprecation of unsafe functions, etc.
 
-*SDX: Verify* dynamic analysis testing, penetration testing, remediation of critical vulnerabilities, and final security review prior to release.
+**SDX: Verify** dynamic analysis testing, penetration testing, remediation of critical vulnerabilities, and final security review prior to release.
 
-*SDX: Maintain* establishment of an incident response plan, managing coordinated vulnerability disclosure, bug bounty programs, and critical product security incident response management release and post-release operations.
+**SDX: Maintain** establishment of an incident response plan, managing coordinated vulnerability disclosure, bug bounty programs, and critical product security incident response management release and post-release operations.
 
 The Application Security sub-department includes two teams, the *Secure Design & Development Team* and the *Product Security Incident Response Team (PSIRT)*. 
 
