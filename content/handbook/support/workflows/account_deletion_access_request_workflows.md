@@ -325,7 +325,7 @@ Proceed with processing the request by doing the following:
 
       <p>Greetings,</p>
 
-      <p>Thank you for stepping through the process with us and verifying your account ownership. We have now started the process to fulfill your GitLab.com account deletion request. Please note that it takes up to 30 days for the request to be processed as it's handled by different teams.</p>
+      <p>Thank you for stepping through the process with us and verifying your account ownership. We have now started the process to fulfill your TYPE_OF_REQUEST account deletion request. Please note that it takes up to 30 days for the request to be processed as it's handled by different teams.</p>
 
       <p>We will let you know once the deletion process is complete.</p>
 
