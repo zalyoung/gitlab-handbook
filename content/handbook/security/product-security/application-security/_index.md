@@ -104,11 +104,9 @@ Team members that are taking PTO for 5 days or more must both discuss time off w
 
 AppSec team members should add any important information related to the work they are covering for the person on PTO and AppSec manager(s) should add any important announcement to see upon their return.
 
-
 ## Roles & Responsibilities
 
 Please see the [Application Security Job Family page](/job-families/security/application-security).
-
 ## Helpful Quicklinks
 
 - [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/product-security/appsec)
