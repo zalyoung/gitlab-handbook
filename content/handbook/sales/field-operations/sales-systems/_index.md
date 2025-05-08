@@ -298,7 +298,7 @@ Business Process Owner pertaining to the team should provide signoff. The signof
 
 Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below
 
-| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
+| Main Approver               |Backup Approver                                                | Backup Approver                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
 | Sheela Viswanathan - Senior Manager, Sales Systems, Korben Carreno - Manager, CRM Systems  | Kiran Chinthapalli - Director, CRM Systems | Nabitha Rao - VP, IT  |
 
