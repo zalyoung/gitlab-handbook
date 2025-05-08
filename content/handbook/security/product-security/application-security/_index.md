@@ -21,7 +21,7 @@ We organize our work into five pillars that emphasize Developer UX in the contex
 
 **SDX: Learn** security training, governance, policy, documentation, and standards.
 
-*SDX: Design* threat modeling, feature design guidance and consultation, and design reviews.
+**SDX: Design** threat modeling, feature design guidance and consultation, and design reviews.
 
 **SDX: Code** static analysis, software component analysis and supply chain security, use of approved tools and methodologies in development, deprecation of unsafe functions, etc.
 
