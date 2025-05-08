@@ -28,7 +28,7 @@ We organize our work into five pillars that emphasize Developer UX in the contex
 
 **SDX: Maintain** establishment of an incident response plan, managing coordinated vulnerability disclosure, bug bounty programs, and critical product security incident response management release and post-release operations.
 
-The Application Security sub-department includes two teams, the *Secure Design & Development Team* and the *Product Security Incident Response Team (PSIRT)*. 
+The Application Security sub-department includes two teams, the *Secure Design & Development Team* and the *Product Security Incident Response Team (PSIRT)*.
 
 
 The Application Security team partners with several other teams across the Security Division to deliver end-to-end security solutions that work for GitLab engineers.
