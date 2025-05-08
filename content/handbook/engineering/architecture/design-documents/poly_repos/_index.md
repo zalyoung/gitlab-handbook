@@ -44,9 +44,9 @@ should be able to work across projects. Users should be able to:
 ## Definition of terms
 
 - **Change Set** - A group of proposed code changes that span multiple projects.
-
-- **Target Product** - A group of projects that represents the target product for a Change Set. For example, the Android source code
-  is one example of a product consisting of hundreds of individual Git repositories.
+- **Target Product** - A group of projects that represents the target product for a Change Set.
+  For example, the Android source code is one example of a product consisting of hundreds of
+  individual Git repositories.
 
 ### Goals
 
@@ -78,7 +78,6 @@ However, there are a number of disadvantages:
   changes. If there are many outstanding merge requests across many
   repositories, this could create a significant amount of load on the
   server. Note that this problem already exists for monorepos.
-
 - Each change to a project requires creating a new branch for that
   project. Developers have to name and manage individual branches across
   many repositories.
@@ -93,18 +92,15 @@ The main disadvantages:
 
 - Using Patch Sets may reduce the quality of the code review
   experience. For example, the ability to view code coverage, run
-  security scans, report quality metrics, view the entire file of a
+  security scans, report quality metrics, view the entire content of a
   file, etc. may not work.
-
 - It's not clear how CI jobs would be able to create reproducible builds.
   CI jobs would have to check out some revision and then apply the Patch Set.
   What revision should the job use?
-
 - Updating a Patch Set may be cumbersome and result in poor user
   experience. If a reviewer requests changes, the user must recreate the
   patch set, which is kind of equivalent to squashing and overriding the
   branch history in a MR.
-
 - There's not a great way to apply patch sets locally. According [to this discussion](https://groups.google.com/g/repo-discuss/c/43juvD1qGIQ)
   there is no `repo apply` command that allows someone to apply all patches across projects.
 
@@ -232,7 +228,7 @@ Here are some limitations of the Android manifest approach:
 1. No Transitive Dependencies: If Repository A depends on Repository B, which depends on Repository C, the manifest doesn't automatically resolve this chain--all three would need to be explicitly included.
 1. Groups: The manifest does have a concept of "groups" which allows categorizing repositories, but this is for organizational purposes and doesn't represent dependency relationships.
 
-One customer uses their own custom lockfile to handle this. For example, a lockfile could specifically map dependencies with a `depends_on` entry:
+One customer generates lockfile to handle this with the command `repo manifest -r -o lockfile.xml`. A pseudo-structure of a lockfile could be:
 
 ```yaml
 repositories:
@@ -318,4 +314,3 @@ workflows. Here is a rough outline on how it might proceed:
 
 1. Support CI steps or native integration for checking out multiple
    repositories (e.g. via Android manifest file?).
-
