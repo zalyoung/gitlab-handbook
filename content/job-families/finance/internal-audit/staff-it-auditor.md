@@ -1,15 +1,15 @@
 ---
-title: Staff Internal Audit & SOX Compliance Analyst
+title: Staff IT Auditor
 description: responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational, finance, and internal controls with a specialty in IT risk and security
 ---
 
 The position is additionally responsible for identifying and assisting in documenting existing internal controls, new internal controls, and establishing an internal monitoring function to audit the company's compliance with such internal controls. The position will have a key role in assessing and providing recommendations to the company's compliance with the requirements of the Sarbanes-Oxley Act of 2002 (SOX), and treatment of IT and security risks.
 
-The Staff Internal Audit & SOX Compliance Analyst reports to the Senior Internal Audit Manager, IT and Security.
+The Staff IT Auditor reports to the Senior Internal Audit Manager, IT and Security.
 
 ### Job Grade
 
-The Staff Internal Audit & SOX Compliance Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff IT Auditor is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
@@ -39,16 +39,6 @@ CA/CPA/CIA/ certification preferred
 CISA/CISSP/IT Audit certification preferred
 - Ability to use GitLab
 
-### Performance Indicators
-
-- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-
-### Career Ladder
-
-The next step in the Senior SOX Compliance Anaylst job family is to move to the [Manager, Internal Audit and SOX](/job-families/finance/internal-audit/#manager-internal-audit) job family.
 
 ### Hiring Process
 
