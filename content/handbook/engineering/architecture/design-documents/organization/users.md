@@ -5,6 +5,36 @@ group: Organizations
 toc_hide: true
 ---
 
+Since its inception, GitLab has followed a single-server, global-user architecture. With GitLab.com scaling concerns and diverging product feature sets between platforms, this model is no longer sufficient. These limitations have prompted an evolution to a new era of multi-cell, multi-tenant architecture. We are now faced with bridging the gap between our current and intended architecture while maintaining a predictable customer experience.
+
+Previously the architecture assumed a single GitLab instance, with a single Users table in a single database and all traffic was routed to this one instance. While Users could be segmented through private groups and projects, Users were always considered part of a global User pool.
+
+Our destination will have multiple GitLab instances, each with a User table, having traffic routed between them as needed. A User could be managed entirely by an Organization with the ability to prevent the User from accessing other Organizations or even deleting the User account completely. Legacy Users will remain undisturbed and will have the option of moving to the new architecture.
+
+## User belongs to Organization
+
+Now that a User will belong to a single Organization, the `users` table will have a `NOT NULL` `organization_id` column. This `organization_id` column will also shard the `users` table such that the User and their associated data such as `user_statistics` is also scoped to the Organization.
+
+While a User will belong to a single Organization, there is the expectation that the User will be able to move between Organizations eventually. The details are being worked through as part of Cells.
+
+## Dog fooding
+
+We will make accommodations for a User to exist within multiple Organizations on the same Cell for dog fooding purposes. The User will still only belong to a single Organization through `users.organization_id` but they will have multiple `organization_users` entries. This makes it easy for the GitLab Team to create new Isolated Organizations. However, this comes with some important caveats.
+
+The GitLab Team currently reside within the Default Org on the Legacy Cell. Therefore new dog food Organizations can only exist on the Legacy Cell.
+
+## Bot Users
+
+Now that Users belong to an Organization, Bot Users will be created per Organization.
+
+This creates an issue with conflicting usernames as some Bot Users are referenced in documentation and by users with the bot's username.
+
+We will begin to move the public representation of a User to a new table called `organization_user_details` with the `Organizations::UserDetails` model.
+
+We will continue to assume today's behavior of `username` on the `users` table until we find greater clarity on our clusterwide implementation of Users through our Cells roadmap.
+
+## Organization Membership
+
 Users can become an Organization member in the following way:
 
 - Organization Owners create an account on behalf of a user, and then share it with the user.
