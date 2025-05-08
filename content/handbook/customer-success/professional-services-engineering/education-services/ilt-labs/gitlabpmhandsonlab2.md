@@ -55,7 +55,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. There are additional options that you can configure or leave at their default setting.
 
-    - **Asignees**: Individuals that are responsible for the completion of your epic.
+    - **Assignees**: Individuals that are responsible for the completion of your epic.
 
     - **Label**: Apply labels to your epic, which are metadata tags that can be used to sort and filter your epics.
 
