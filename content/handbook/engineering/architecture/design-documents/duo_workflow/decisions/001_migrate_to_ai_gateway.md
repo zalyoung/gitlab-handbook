@@ -60,7 +60,9 @@ flowchart LR
     Clients["Direct External Clients"] -->|gRPC| G
 ```
 
-> Note: We will need to update [the docs](https://docs.gitlab.com/install/install_ai_gateway/#set-up-docker-with-nginx-and-ssl) for AI Gateway to show customers how to manage certs for self-hosted deployments of AI Gateway.
+**Note**: We will need to update [the docs](https://docs.gitlab.com/install/install_ai_gateway/#set-up-docker-with-nginx-and-ssl) for AI Gateway to show customers how to manage certs for self-hosted deployments of AI Gateway.
+
+Here is example nginx configuration:
 
 ```nginx
 upstream aigw_grpc_backend  { server gitlab-ai-gateway:5052; }
