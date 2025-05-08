@@ -12,8 +12,8 @@ The purpose of this procedure is to ensure that there is consistency in developi
 
 There are two types of documentation at GitLab:
 
-1. Controlled Documents: Formal policies, standards and procedures.
-1. Uncontrolled Documents: Informal runbooks, certain handbook pages, guidelines, blog posts, templates, etc.
+1. Controlled Documents: Documents that Security Compliance leverages for the "test of design" for GitLab's Security controls to support GitLab's external audits and assessments.
+1. Uncontrolled Documents: Documents that are not leveraged for the "test of design" for GitLab's Security controls.
 
 Everyone at GitLab is welcomed and encouraged to submit an MR to create or suggest changes to controlled documents at any time.
 
