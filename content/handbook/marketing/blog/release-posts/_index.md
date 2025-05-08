@@ -950,7 +950,7 @@ For the subscription tier where the feature is available, use `available_in` wit
 
 ##### Offering (GitLab.com or self-managed)
 
-Features can be made available on GitLab.com (SaaS), Self-managed GitLab, and GitLab Dedicated using the following fields:
+Features can be made available on GitLab.com, GitLab Self-Managed, and GitLab Dedicated using the following fields:
 
 | Field | Description | Default |
 |----|----|---|
