@@ -4,6 +4,7 @@ description: Application Security home page
 ---
 <!-- markdownlint-disable MD052 -->
 Last updated: May 8, 2025
+
 ## Application Security Mission
 
 The Product Application Security team works with GitLab engineers and product teams to anticipate and prevent the introduction of vulnerabilities during design and development, ensuring delivery of high quality software GitLab customers can trust. We also identify, assess, and respond to security vulnerabilities discovered in GitLab products and services that are reported through Coordinated Vulnerability Disclosure practices.
@@ -47,6 +48,7 @@ These strategic security programs have multiple stakeholders across the Security
 *Security Response:* Application Security's accountability for Product Security Response is partially shared by both SD&D and PSIRT.
 SD&D currently helps with security release rotations. During FY26 this will transition to the PSIRT.
 PSIRT triages and technically assesses critical and exploitable vulnerabilities, determines company and customer risk, and coordinates external communications regarding these issues.  PSIRT has several partners across the company including:
+
 - SecOps is DRI for Incident Command and Threat Detection (IOCs, TTPs)
 - SPA (Research) is a key partner for exploitability POC development
 - PR/Comms
@@ -107,6 +109,7 @@ AppSec team members should add any important information related to the work the
 ## Roles & Responsibilities
 
 Please see the [Application Security Job Family page](/job-families/security/application-security).
+
 ## Helpful Quicklinks
 
 - [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/product-security/appsec)
@@ -138,6 +141,7 @@ Please see the [Application Security Reviews page](/handbook/security/product-se
 ## RCAs for Critical Vulnerabilities
 
 Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook/security/root-cause-analysis)
+
 ## Application Security Engineer Runbooks
 
 Please see the [Application Security Engineer Runbooks page index](runbooks)
@@ -154,6 +158,7 @@ The following recordings are available internally only:
 When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](/handbook/security/product-security/application-security/vulnerability-management/) for more details.
 
 ## GitLab Secure Tools coverage
+
 As part of our [dogfooding effort](/handbook/product/product-processes/dogfooding-for-r-d/),
 the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies](/handbook/security/product-security/application-security/inventory/#policies)).
 This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
@@ -177,6 +182,7 @@ Learn how to identify or remediate security issues using real examples with GitL
 Learn how GitLab is implementing [Reproducible Builds](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.
 
 ## Milestone Planning
+
 The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process](/handbook/security/product-security/application-security/milestone-planning/)
 
 ## Application Security Automation and Monitoring
