@@ -326,6 +326,10 @@ each alternative solution/path.
 "Do nothing" and its pros and cons could be included in the list too.
 -->
 
+## Open questions
+
+- TBC
+
 ## Next steps
 
 - Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
