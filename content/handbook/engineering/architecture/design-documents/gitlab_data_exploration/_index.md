@@ -220,10 +220,10 @@ A critical architectural change is moving GLQL execution from the frontend to th
 
 The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be used to query data directly through Rails finders, databases, or other APIs. This would allow us to strip out GraphQL from the GLQL compiler pipeline and retrieve the data directly from different datasources.
 
-Proof of contept demonstrating how the Rust QLQL compiler can be hooked up to Rails and the query parsing moved to the backend: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
+Proof of contept demonstrating how the Rust GLQL compiler can be hooked up to Rails and the query parsing moved to the backend: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
 
 1. **Technical advantages**:
-   - A single entry point for querying GitLab data, with centralized access control and consistent querying interfac
+   - A single entry point for querying GitLab data, with centralized access control and consistent querying interface
    - Opportunity for opening it up GLQL to satellite services such as IDE extensions
    - Direct integration with Rails and databases
    - Simplified frontend implementation
@@ -236,13 +236,13 @@ Proof of contept demonstrating how the Rust QLQL compiler can be hooked up to Ra
 In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
 
 - Backend: Full query execution against data sources
-- Frontend: Syntax checking and immediate feedback without query execution
+- Frontend: Syntax validation and immediate feedback without query execution
 
 This is also inline with `~devops::plan` future plans: [https://gitlab.com/groups/gitlab-org/-/epics/15834](https://gitlab.com/groups/gitlab-org/-/epics/15834), thus opening up opportunities for collaboration.
 
 Being able to share the Rust compiler between frontend and backend also allows us to parallelize the work to add type-based data source routing and moving the GLQL pipeline to the backend.
 
-This standardized query system, built on an extended GLQL architecture and moved to the backend, will provide the foundation for a powerful, consistent data exploration experience across all GitLab data sources.
+This standardized query system when built with an extended GLQL architecture and shift to the backend, will provide the foundation for a powerful and consistent data exploration experience across all GitLab data sources.
 
 ### A unified data exploration UI
 
