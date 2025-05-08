@@ -178,6 +178,7 @@ When creating product demos for video, please consider taking the following step
 - For social clips, consider square (1:1) for multi-platform compatibility or vertical (9:16).
 - Zoom (`cmd` + `+`) once or twice more than you think you need to
 - Simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode,`cmd`+`k`+`z`
+- Additional guidance can be found in the internal handbook: [dev environments](https://internal.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/dev-environments)
 
 ### Product Tours
 
