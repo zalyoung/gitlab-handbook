@@ -62,7 +62,7 @@ Here's the process to follow to create a new Data issue:
 
 ### Data Leadership Forum
 
-The monthly Data Leadership Forum includes representation from partner teams across GitLab (Marketing, Sales, Customer Success, Finance, IT, Support, Product, Engineering, People, Security, Legal) and is used to oversee and drive the strategic direction of GitLab data management and analytics initiatives, including project prioritization. The forum ensures that data is leveraged effectively to support business goals, improve decision-making processes, and drive innovation. It acts as a governing body to establish policies, standards, and best practices for data governance, data quality, data privacy, and data security.
+The Data Leadership Forum includes representation from partner teams across GitLab (Marketing, Sales, Customer Success, Finance, IT, Support, Product, Engineering, People, Security, Legal) and is used to oversee and drive the strategic direction of GitLab data management and analytics initiatives, including project prioritization. The forum ensures that data is leveraged effectively to support business goals, improve decision-making processes, and drive innovation. It acts as a governing body to establish policies, standards, and best practices for data governance, data quality, data privacy, and data security.
 
 In order for OKRs / projects to be prioritized through the Data Leadership Forum, an opportunity canvas is required. An opportunity canvas is a specific [issue template](https://gitlab.com/gitlab-data/analytics/-/issues) that contains detailed information about the work that is being requested, the expected business impact from that work, a rough estimate of the level of effort to accomplish the work, and known risks/dependencies. The opportunity canvas also includes a business value score based on our [Value Calculator](/handbook/enterprise-data/how-we-work/#data-team-value-calculator), which is one factor in prioritizing and ranking our backlog of work.
 
@@ -143,6 +143,43 @@ Process:
     - Add a comment outlining what work has been completed, and what work is remaining to complete the KR.
     - Update the % complete field on the KR.
     - Update the Health Status field to indicate whether the KR is `On Track`, `Needs Attention`, or `At Risk`.
+
+### DataPulse
+DataPulse is a monthly rhythm for team members to provide status updates on Key Results and Business Operations initiatives.  The goal is for everyone to stay informed about project statuses, identify new opportunities, and maintain alignment across our various workstreams.
+
+Our process will have three key components:
+#### 1. Async written updates about the status of the Key Result and Business Operations
+
+Monthly updates, captured in the Key Result or Business Operations issues and epics (this part we are already doing and will not change):
+  - Status of project work
+  - Challenges and proposed solutions
+
+#### 2. Asynchronous Video Updates (Due 1 week before Monthly Q&A)
+
+**For Key Result and Business Operations DRIs**
+Each DRI (and team) will record a brief, maximum 5-minute, video update covering:
+  - Intro/context about the business problem that we addressing in the Key Result or Business Operations
+  - Status update
+  - Challenges and proposed solutions
+  - Business stakeholder feedback and engagement
+  - New opportunities identified
+
+Within your KR and Business Operations teams, please develop a plan for these monthly updates. As the DRI, you're accountable for aligning on this approach with your project team. 
+
+**Recording Guidelines:**
+  - These videos don't need to be perfect - aim for a conversational tone.
+  - Consider using time in an existing meeting with the KR team to create this recording. No slides / materials are required.
+  - Include mentions of team members who are part of your work.
+  - Upload your video to our Data Team YouTube playlist one week before our scheduled Q&A session. Include the month and year in the title of the recording and add a link to the video in the Key Result or Business Operations epic/issue.
+  - This is your chance to share your work with team members who you don’t collaborate with on a regular basis - take advantage of it!
+
+#### 3. Monthly Q&A Session (6am PST / 2pm PST options)
+
+We'll meet for a focused Q&A session to discuss the updates shared in the videos. This allows us to:
+  - Dive deeper into specific areas of interest
+  - Address questions that arise from the video updates
+  - Collaborate on resolving challenges
+  - Align on next steps
 
 ##### Introducing a new data source
 <!-- Amie to check with Dennis on this -->
