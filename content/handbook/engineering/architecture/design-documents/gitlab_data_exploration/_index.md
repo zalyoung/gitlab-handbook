@@ -222,7 +222,6 @@ The GLQL Rust compiler could compile GLQL queries directly to appropriate format
 
 Proof of contept demonstrating how the Rust QLQL compiler can be hooked up to Rails and the query parsing moved to the backend: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
 
-
 1. **Technical advantages**:
    - A single entry point for querying GitLab data, with centralized access control and consistent querying interfac
    - Opportunity for opening it up GLQL to satellite services such as IDE extensions
@@ -233,7 +232,6 @@ Proof of contept demonstrating how the Rust QLQL compiler can be hooked up to Ra
    - Queries can be executed closer to the data, reducing network and GraphQL overhead
    - Ability to implement caching at the appropriate level
    - Ability to optimize queries at the backend level
-
 
 In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
 
