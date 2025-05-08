@@ -105,6 +105,9 @@ The main disadvantages:
   patch set, which is kind of equivalent to squashing and overriding the
   branch history in a MR.
 
+- There's not a great way to apply patch sets locally. According [to this discussion](https://groups.google.com/g/repo-discuss/c/43juvD1qGIQ)
+  there is no `repo apply` command that allows someone to apply all patches across projects.
+
 #### How are Change Sets created?
 
 There should be a number of ways a Change Set can be created:
@@ -112,6 +115,32 @@ There should be a number of ways a Change Set can be created:
 1. From the UI
 1. Using the API
 1. Git push options
+
+A change set could be created right before pushing the changes or even
+during the development time. It is a bucket where to add/remove MRs.
+
+If a change set ID is allocated before pushing the changes we could use
+push options to pass the changeset ID:
+
+```bash
+glab cset new --product=10 #=> CSET ID: 1234
+
+cd ../proj-1
+git push -o cset=1234 origin HEAD
+cd ../proj-2
+git push -o cset=1234 origin HEAD
+...
+```
+
+This could be done automatically with `glab`:
+
+```bash
+# push changes to multiple repos using product ID=10 and allocate a CSET ID if doesn't exist
+glab push --polyrepo --product=10 #=> CSET created: https://gitlab.com/-/csets/1234
+
+# or
+glab push --polyrepo-manifest=../manifest.xml
+```
 
 #### [Identify projects that make up a "product"](https://gitlab.com/groups/gitlab-org/-/epics/17278)
 
