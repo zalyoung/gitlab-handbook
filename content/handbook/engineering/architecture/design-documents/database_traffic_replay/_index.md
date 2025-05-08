@@ -3,7 +3,7 @@ title: Database Traffic Replay
 status: proposed
 creation-date: "2025-05-07"
 authors: [ "@mattkasa", "@stomlinson", "@zbraddock" ]
-coaches: []
+coaches: [ "@tkuah" ]
 dris: [ "@alexives", "@rmar1" ]
 owning-stage: "~devops::data access"
 participating-stages: []
