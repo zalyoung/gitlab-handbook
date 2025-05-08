@@ -20,7 +20,8 @@ With our build process complete, we can now start making changes to our code. Mo
 Workflow rules allow you to control when a pipeline runs. These rules give you control over the execution flow of your entire CI/CD pipeline. For example, consider our current `.gitlab-ci.yml` file:
 
 ```yml
-image: golang
+default:
+  image: golang
 
 stages:
   - build

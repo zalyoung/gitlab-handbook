@@ -86,7 +86,7 @@ release component:
   script:
     - echo "Releasing the latest version of our component."
   release: 
-    tag_name: 'v0.$CI_PIPELINE_IID.0'
+    tag_name: '1.$CI_PIPELINE_IID.0'
     description: 'The latest component release.'
 ```
 
