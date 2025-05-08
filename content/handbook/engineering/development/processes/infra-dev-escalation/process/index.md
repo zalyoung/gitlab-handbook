@@ -355,8 +355,8 @@ See the [On-call spreadsheet](#on-call-spreadsheet).
 When responding to an Infrastructure Incident, utilize the below procedure as guidelines to follow to assist both yourself and the members requesting your assistance
 
 1. Respond to the slack page with the `:eyes:` reaction - this signals to the bot that you are looking into the problem
-1. Join the Incident Zoom - this can be found bookmarked in the `#incident-management` Slack Channel
-1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
+1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#inc-<NUMBER>`
+1. Join the Incident Zoom - this can be found bookmarked in the relevant incident Slack Channel
 1. Work with the EOC to determine if a known code path is problematic
 
 - Should the knowledge of this be in your domain, continue working with the Engineer to troubleshoot the problem
@@ -378,7 +378,7 @@ You can read about the process workflow [here](/handbook/engineering/workflow/#b
 
 ### Shadowing An Incident Triage Session
 
-Feel free to participate in any incident triaging call if you would like to have a few rehearsals of how it usually works. Simply watch out for active incidents in [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) and join the Situation Room Zoom call (link can be found in the channel) for synchronous troubleshooting. There is a [nice blog post](https://about.gitlab.com/blog/2020/04/13/lm-sre-shadow/) about the shadowing experience.
+Feel free to participate in any incident triaging call if you would like to have a few rehearsals of how it usually works. Simply watch out for active incidents in [#incidents-dotcom](https://gitlab.slack.com/archives/C08FMPK1DDF) and join the Situation Room Zoom call (link can be found in the channel) for synchronous troubleshooting. There is a [nice blog post](https://about.gitlab.com/blog/2020/04/13/lm-sre-shadow/) about the shadowing experience.
 
 ### Replaying Previous Incidents
 

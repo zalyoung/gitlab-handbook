@@ -61,6 +61,7 @@ Test job runs Database migrations against PostgreSQL dump created from the lates
 | From latest minor release to current package built from branch/MR | Minor-1 → pre-package | `update-minor` | [16.10.1 → 16.11-pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783632#L350) |
 | From current patch version to current package built from branch/MR | Patch-1 → pre-package | `update-patch` | [17.7.6 → 17.7.7-pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/9274895196) |
 | From current package built from branch/MR package to next stable GitLab release | pre-package → N+1 | `update-from-patch-to-stable` | [17.7.7-pre → 17.8.4](https://gitlab.com/gitlab-org/gitlab/-/jobs/9274895197) |
+| From current internal patch version to current package built from branch/MR | Internal Patch-1 → pre-package | `update-patch-from-internal-to-internal` | [17.7.7-internal0-0 → 17.7.7-pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/9832220256) |
 
 GitLab QA has a [`Test::Omnibus::UpdateFromPrevious`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md?plain=0#testomnibusupdatefromprevious-full-image-address-current_version-majorminorpatch-from_edition)
 scenario that verifies update from the previous (major|minor|patch) version to the current GitLab version ([scenario code](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/scenario/test/omnibus/update_from_previous.rb)).

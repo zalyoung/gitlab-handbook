@@ -51,13 +51,13 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ### Pipeline Security
 
-{{< team-by-manager-slug manager="scott-hampton" team="Engineer(.+)Software Supply Chain Security:Pipeline Security" >}}
+{{< team-by-manager-slug manager="fabien-c" team="Engineer(.+)Software Supply Chain Security:Pipeline Security" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts role="Software Supply Chain Security" other-manager-roles="Engineering Manager(.*)Software Supply Chain Security:(.*)|Director of Engineering(.*)Software Supply Chain Security" %}}
+{{% engineering/stable-counterparts role="Software Supply Chain Security" other-manager-roles="Engineering Manager(.*)Software Supply Chain Security:(.*)|Director of Engineering(.*)Software Supply Chain Security" %}}
 
 ## Software Supply Chain Security staff meeting
 

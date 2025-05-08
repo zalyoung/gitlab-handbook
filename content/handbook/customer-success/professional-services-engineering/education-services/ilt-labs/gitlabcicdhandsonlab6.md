@@ -32,7 +32,7 @@ func main() {
 }
 ```
 
-This application will listen on port 8080 for any requests to the "/" (root) endpoint. When it receives a request, it will print out the message *Hi there*.
+This application will listen on port 80 for any requests to the "/" (root) endpoint. When it receives a request, it will print out the message *Hi there*.
 
 To accommodate our new application type, we will modify our CI/CD process by removing the tests to run the application binary. These tests will no longer work, as they will cause the application to pause and wait for connections. Instead, we will deploy this application to a test server to be able to test our application. To start, your CI/CD file should look like this:
 

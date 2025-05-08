@@ -125,6 +125,13 @@
 /handbook/engineering/development/incubation/server-runtime/ https://docs.gitlab.com/user/duo_workflow/ 301
 /handbook/engineering/development/incubation/service-desk/ https://docs.gitlab.com/user/project/service_desk/ 301
 
+# Technical Writing handbook pages - remove 2025-08-05
+/handbook/product/ux/technical-writing/documentation/ /handbook/product/ux/technical-writing/#documentation 301
+/handbook/product/ux/technical-writing/fundamentals/ https://university.gitlab.com/courses/gitlab-technical-writing-fundamentals 301
+/handbook/product/ux/technical-writing/fundamentals/examples/ https://docs.gitlab.com/development/documentation/topic_types/ 301
+/handbook/product/ux/technical-writing/setup/ https://docs.gitlab.com/development/documentation/authoring_environment/ 301
+/handbook/product/ux/technical-writing/workflow/ https://docs.gitlab.com/development/documentation/workflow/ 301
+
 # Infra library moved - remove 2025-10-10
 /handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
 /handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat

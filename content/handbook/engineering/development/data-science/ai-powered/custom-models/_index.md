@@ -29,7 +29,7 @@ Engineering Manager: [@sean_carroll](https://gitlab.com/sean_carroll)
 
 Product Manager: [@susie.bee](https://gitlab.com/susie.bee)
 
-{{% stable-counterparts manager-role="Engineering Manager(.*)Custom Models" role="Custom Models" %}}
+{{% engineering/stable-counterparts manager-role="Engineering Manager(.*)Custom Models" role="Custom Models" %}}
 
 ### How to reach us
 

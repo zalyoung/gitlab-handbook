@@ -84,7 +84,7 @@ What we acheived:
 
 A prioritized list of work will be tracked here after an engineering DRI has been identified.
 
-{{< product-priorities/software-supply-chain-security-wg >}}
+{{< product/product-priorities software-supply-chain-security-wg >}}
 
 This list is a WIP and we are still working to add a list of prioritized Epics to deliver on the rest of the exit criteria for the group.
 

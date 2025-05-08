@@ -3,9 +3,12 @@ title: "Performance Enablement"
 description: "Performance Enablement group within Developer Experience sub-department"
 ---
 
+
+![DevPerfOps Logo](/images/engineering/infrastructure-platforms/developer-experience/performance-enablement/devperfops-diagram.svg)
+
 ## Mission
 
-Enable developers to proactively build performance into the system and provide insight into feature performance health
+Enable developers to proactively build performance into the system and provide insight into feature performance health pre and post deployment. 
 
 ## Vision
 
@@ -14,7 +17,7 @@ In order to transform GitLab's performance testing from reactive to proactive wh
 - Optimize feedback loops
   - Faster times between test setup, execution, and result analysis
   - Enable engineers to detect and prevent performance issues as early as possible
-  - Enable engineers to be in the know of current Feature Performance Health pre and post-deployments 
+  - Enable engineers to be in the know of current Feature Performance Health pre and post-deployments
 - Reduce cognitive load
   - Improve documentation for better clarity and accessibility of performance testing best practices and available tooling
   - Simplify complexity in tools and dashboards used for performance awareness
@@ -87,7 +90,7 @@ The team does have a set of regular synchronous calls:
 
 ### Project Management
 
-The majority of our [project management process is described at the Platforms level](/handbook/engineering/infrastructure/platforms/project-management/) and is shared between all Infrastructure Platform teams. 
+The majority of our [project management process is described at the Platforms level](/handbook/engineering/infrastructure/platforms/project-management/) and is shared between all Infrastructure Platform teams.
 
 Project management links
 

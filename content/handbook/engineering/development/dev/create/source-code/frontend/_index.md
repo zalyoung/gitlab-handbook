@@ -40,7 +40,7 @@ The following people are permanent members of the Create:Source Code FE Team:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="(Product Manager|Backend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
+{{< engineering/stable-counterparts role="(Product Manager|Backend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
 ## Core Responsibilities
 

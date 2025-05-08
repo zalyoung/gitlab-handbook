@@ -19,11 +19,6 @@ One difference between Staff and Senior positions is the leadership aspect that 
 
 Another difference is the gap between Staff and Principal - a Staff engineer is the foremost engineer within their group, and a Principal engineer is the equivalent within their stage. This means that more complex responsibilities may be coming to you across the stage or from other sub-departments, and you may need to adapt to this change. Remember, a Staff engineer is not completely different from a Senior or Principal - you may accomplish Senior requests quicker and Principal requests slower, but still be asked to do them.
 
-### New job requirements
-
-- [Creating your own OKRs](/handbook/engineering/development/dev/create/engineering-managers/okrs/#okr-authors) each quarter outside of small issues or Deliverables
-- [Become an Incident Manager on-call](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/#who-are-the-incident-managers)
-
 ### Tactical initiatives for a Staff engineer
 
 - Becoming a maintainer of more projects, specialties, or technologies

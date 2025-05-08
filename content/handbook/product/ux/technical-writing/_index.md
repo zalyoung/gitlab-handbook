@@ -12,11 +12,11 @@ Anyone can contribute to the documentation. Follow our [GitLab documentation gui
 
 ## About Us
 
-[The Technical Writing team](/handbook/company/team/?department=technical-writing) includes:
+For more information on the team size and team members, see [Meet Our Team](/handbook/company/team/?departmentOrDivision=Technical+Writing), filtered by Technical Writing. The roles in our team include:
 
-- A group of [Technical Writers](/job-families/product/technical-writer/).
-- Three [Technical Writing Managers](/job-families/product/technical-writing-manager/).
-- Two [Fullstack Engineers, Technical Writing](/job-families/product/ux-fullstack-engineer/).
+- [Technical Writers](/job-families/product/technical-writer/) at Intermediate, Senior, and Staff levels.
+- [Technical Writing Managers](/job-families/product/technical-writing-manager/).
+- [Fullstack Engineers, Technical Writing](/job-families/product/ux-fullstack-engineer/).
 - A [Technical Writing Director](/job-families/product/technical-writing-manager/#director-technical-writing).
 
 ## Contact Us
@@ -153,7 +153,7 @@ review any proposed changes to documentation, suggest changes to UI microcopy,
 and generally partner with subject matter experts (SMEs) in
 all situations where documentation is required.
 
-{{% tech-writing %}}
+{{% product/tech-writing %}}
 
 <!--
   To update the table above:
@@ -226,7 +226,7 @@ For collaboration in other projects and subjects:
 
 | Subject                                                                              | Assigned Technical Writer |
 |:--------------------------------------------------------------------------------     |:--------------------------|
-| The documentation site                                                               | {{< member-by-name "Susan Tacker" >}} |
+| The documentation site                                                               | {{< member-by-name "Diana Logan" >}} |
 | The documentation site backend (code, automation)                                    | {{< member-by-name "Sarah German" >}} |
 | [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
 | [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
@@ -248,8 +248,8 @@ The Technical Writing team gets assistance with the `docs-gitlab-com` project fr
 
 | Subject          | Person |
 |:-----------------|:-------|
-| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie), [David O'Regan](https://gitlab.com/oregand) |
-| Frontend reviews | [Paul Gascou-Vaillancourt](https://gitlab.com/pgascouvaillancourt), [Lukas 'Eipi' Eipert](https://gitlab.com/leipert), [David O'Regan](https://gitlab.com/oregand) |
+| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie) |
+| Frontend reviews | [Paul Gascou-Vaillancourt](https://gitlab.com/pgascouvaillancourt) |
 | Support          | [Mike Lockhart](https://gitlab.com/mlockhart) |
 
 <!-- vale handbook.Spelling = YES -->
@@ -381,13 +381,13 @@ that need to be regularly completed:
 
 - **Release Post Structural Check:** The Technical Writing Lead [reviews the content](/handbook/marketing/blog/release-posts/#tw-lead) for the release post published at the end of each milestone. See the [Release Post Scheduling](/handbook/marketing/blog/release-posts/managers/) Handbook page for each milestone's assigned writer.
 - **Monthly doc version:** At the end of each milestone, a Technical Writer [creates the monthly version for the docs site](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com/-/blob/main/doc/releases.md). The Technical Writer assigned to this task is the writer who completed the release post structural check for the previous milestone.
-- **Docs project maintenance tasks:** **ON HOLD from February 2025 as we complete our migration to Hugo**. Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
-these tasks at this time.**
+- **Docs project maintenance tasks:** Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
 
 <!-- vale handbook.Spelling = NO -->
 
 Schedule for Docs project maintenance tasks:
 
+- May, 2025: {{< member-by-name "Marcel Amirault" >}}
 - March, 2025: {{< member-by-name "Brendan Lynch" >}}
 - February, 2025: {{< member-by-name "Emily Sahlani" >}}
 - January, 2025: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}

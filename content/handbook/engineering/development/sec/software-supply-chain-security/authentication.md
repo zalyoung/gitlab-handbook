@@ -290,7 +290,7 @@ Auth group members who are part of the [Authentication group](https://gitlab.com
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="SSCS:Authentication" >}}
+{{< engineering/stable-counterparts role="SSCS:Authentication" >}}
 
 ### Dashboards
 

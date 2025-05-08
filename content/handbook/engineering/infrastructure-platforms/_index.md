@@ -327,7 +327,7 @@ All team members are encouraged to schedule time for personal development. The f
 
 - [#production](https://gitlab.slack.com/archives/production)
 - [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge)
-- [#incident-management](https://gitlab.slack.com/archives/incident-management)
+- [#incidents](https://gitlab.slack.com/archives/incidents)
 - [#announcements](https://gitlab.slack.com/archives/announcements)
 - [#feed_alerts-general](https://gitlab.slack.com/archives/feed_alerts-general)
 

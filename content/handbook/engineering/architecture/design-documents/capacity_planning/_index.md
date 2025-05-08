@@ -8,7 +8,7 @@ approvers: [ "@swiskow", "@lmcandrew", "@o-lluch" ]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 

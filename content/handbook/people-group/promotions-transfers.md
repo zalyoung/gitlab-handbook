@@ -800,7 +800,7 @@ The [People Connect Specialist](/job-families/people-group/people-connect) in th
 
 The People Connect Leads will pull a monthly report to check that any qualifying team members did get their Organization Change Checklist is opened.
 
-The [Organization Change Checklist](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) will then be created by the People Connect Team member assigned by using the [automated Slack command](/handbook/people-group/engineering/employment-issues/#career-mobility-issues) on the effective date or within 3 days after the effective date to allow for the managers to start preparing for the team member's transition.
+The [Organization Change Checklist](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) will then be created by the People Connect Team member assigned by using the [automated Slack command](/handbook/people-group/engineering/employment-issues/#organization-change-issues) on the effective date or within 3 days after the effective date to allow for the managers to start preparing for the team member's transition.
 
 Important things to ensure:
 
@@ -817,6 +817,10 @@ Actions by both the current and new managers are required to set the team member
 - Reminding the team member to update their title on the team page, on their GitLab profile, in Zoom, in Slack and on professional networks like LinkedIn. If relevant, remind them to order new business cards as well.
 - If we are in the middle of Annual Compensation Review, it is encouraged that the current manager and new manager arrange a successful handover of the feedback, whether sync or async.
 - All migration tasks by the applicable team members need to be completed within 2 weeks of the migration start date.
+
+## Career Mobility Retrospective
+
+The team member going through this transition and assigned to their Career Mobility issue have a set of tasks to complete. An important one is to create a retrospective thread within their Career Mobility issue, so that they and their respective previous and current managers can discuss any questions, comments, and proposals. Retrospectives are used in many ways at GitLab, such as which are used after GitLab product [releases](/handbook/engineering/releases/) and describing the Product [retrospective workflow](/handbook/engineering/management/group-retrospectives/). For the Career Mobility issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Please feel free to ping your assigned People Connect Team member in your issue if you have any questions.
 
 ## Promotions and Transfers of Employees in Commissionable Roles
 

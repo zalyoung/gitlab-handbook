@@ -22,7 +22,7 @@ The following teams make up the Package stage:
 
 ### Stable Counterparts
 
-{{< stable-counterparts manager="crystalpoole" role="[,&] Package" >}}
+{{< engineering/stable-counterparts manager="crystalpoole" role="[,&] Package" >}}
 
 ### Package Format DRIs
 
@@ -168,7 +168,7 @@ The team monitors the Slack channel [#g_container-registry_alerts](https://gitla
      - Auto-resolution
      - Logs showing resolution
    - If not safe to ignore:
-     - Review #production and #incident-management channels
+     - Review #production and #incidents-dotcom channels
      - Consider reporting an incident
      - Share details in #g_container-registry
    - Add a comment thread to document your review

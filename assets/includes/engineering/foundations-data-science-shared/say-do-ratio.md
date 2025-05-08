@@ -23,3 +23,7 @@ We use a standardize workflow that heavily depends on the `~Deliverable` label t
   * If a Deliverable was not completed in the given milestone and will not be worked on in the next milestone, the EM applies the ~missed:X label and removes the milestone. This will negatively impact Say/Do ratio
 * Calculation after milestone X ends:
    * `Say/Do = #closed issues with labels ~deliverable and milestone X / (closed issues with labels ~deliverable and milestone X + issues with ~missed:X label)
+
+### Dashboard
+
+Say/Do ratio can be tracked per team and milestone via the [Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/SayDoMetrics/SayDoMetricDashboard?:iid=1)

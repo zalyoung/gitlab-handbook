@@ -25,23 +25,11 @@ Product team members that are Director+ and report directly to the [Chief Produc
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
 
-## Product Key Review Leader Rotation
-
-The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
-
-| Date | Host | Planning Issue |
-| ---- | ---- | -------------- |
-| 2023-11-15 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12863 |
-| 2024-02-21 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/13121 |
-| 2024-06-17 | Justin Farris | -- |
-| 2024-XX-XX | Mike Flouton | -- |
-| 2024-XX-XX | Hillary Benson | -- |
-
 ## Product Group Conversation Leader Rotation
 
 The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leaders/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
 
-For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/#additional-consideration-for-functional-presentations)
+For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/)
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
@@ -75,7 +63,7 @@ expectations the leader should have in working with PMs, but is not intended
 to be hard and fast rules that take the place of having a strong working relationship
 and prioritizing things effectively together.
 
-**Note** - This is intended as a supplement to the [product director](job-families/product/product-management-leadership/) or [group manager of product](/job-families/product/product-management-leadership/#group-manager-product-gmp)
+**Note** - This is intended as a supplement to the [product director](/job-families/product/product-management-leadership/) or [group manager of product](/job-families/product/product-management-leadership/#group-manager-product-gmp)
 job descriptions with specific focus on the interaction between PMs and their managers.
 General job responsibilities can be found at that link.
 
@@ -119,5 +107,5 @@ recommended as a great approach that works particularly well with PMs.
 - Prioritize hiring, being sure to include PMs (and EMs/team members) who will work
 with the new person in the process.
 - Provide structure and motivation for needed organizational changes (being more
-[data-driven](/handbook/product/#data-driven-work),
+[data-driven](/handbook/product/product-principles/#data-driven-work),
 telling stories, providing time for expansive thinking).

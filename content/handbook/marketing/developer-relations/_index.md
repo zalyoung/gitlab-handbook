@@ -57,7 +57,7 @@ Teams within Developer Relations are reachable in these Slack channels:
 
 - [**Developer Relations emergency contacts**](https://docs.google.com/document/d/16oq7sl6dpI2QbADwY41KjKEjaEj7dJ9LI5owm8lO_iU/edit?usp=sharing)
 - [**Incident management roles**](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities)
-- **Relevant Slack channels for incident/infrastructure:** [`#incident-management`](https://gitlab.slack.com/messages/incident-management), [`#infrastructure-lounge`](https://gitlab.slack.com/messages/incident-management)
+- **Relevant Slack channels for incident/infrastructure:** [`#incidents`](https://gitlab.slack.com/messages/incidents), [`#infrastructure-lounge`](https://gitlab.slack.com/messages/incident-management)
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How we work
 
@@ -186,7 +186,7 @@ To update our [list of current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-
 
 The Developer Relations team monitors several [Key Performance Indicators and related Performance Indicators](/handbook/marketing/developer-relations/performance-indicators/).
 
-{{< kpi-list "developer_relations_department" >}}
+{{< kpi "developer_relations_department" >}}
 
 ## <i class="fas fa-vector-square fa-fw color-orange font-awesome"></i> Team Logos
 

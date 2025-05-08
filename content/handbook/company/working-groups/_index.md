@@ -271,7 +271,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Product Analytics](/handbook/company/working-groups/product-analytics/)
 1. [Product Career Development Framework](/handbook/company/working-groups/product-career-development-framework/)
 1. [Product Development Flow](/handbook/company/working-groups/product-development-flow/)
-1. [Product Engagement Actions (FY21)](FY21-product-engagement-actions.md)
+1. [Product Engagement Actions (FY21)](fy21-product-engagement-actions.md)
 1. [Project Matterhorn: Premium Price Tier Increase. Limited access](/handbook/communication/confidentiality-levels/#limited-access)
 1. [Purchasing Reliability](/handbook/company/working-groups/purchasing-reliability/)
 1. [Python Stewardship](/handbook/company/working-groups/python-stewardship/)
@@ -299,9 +299,3 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)
 1. [Vue.js 3 Upgrade](/handbook/company/working-groups/vuejs-3-migration/)
 1. [Webpack (Frontend build tooling)](/handbook/company/working-groups/webpack/)
-
-## What were Top Cross-Functional Initiatives?
-
-Top Cross-Functional Initiatives were [Working Groups](/handbook/company/working-groups) that were key to GitLab's success in the fiscal year and beyond. While there were other important business initiatives and priorities that existed within functions or required engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring.
-
-We retired this concept in FY24-Q3, because we had layered these initiatives under [Yearlies](/handbook/company/yearlies/) as sub-objectives. This list was duplicative and confusing to team members who were trying to manage these and other priorities. Top Cross-Functional Initiatives were moved to this page. The Top Cross-Functional Initiative concept was deprecated.

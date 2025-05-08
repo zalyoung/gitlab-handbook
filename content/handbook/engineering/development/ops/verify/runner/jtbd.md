@@ -23,4 +23,4 @@ Utilize JTBD and job statements to:
 
 ## JTBD
 
-{{% jtbd "Runner" %}}
+{{% product/jtbd "Runner" %}}

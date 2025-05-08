@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 Amazon Q, GitLab Dedicated, and Duo are partnering to execute a superior developer experience with a bundled offering.
 

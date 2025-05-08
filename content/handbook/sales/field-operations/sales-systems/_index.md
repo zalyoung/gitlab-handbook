@@ -12,16 +12,21 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-- **Leslie Mendonca - Director, CRM Systems** GitLab handle: [lmendonca2](https://gitlab.com/lmendonca2) Slack handle: Leslie Mendonca
-- **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan] (https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
-- **Kiran B - Senior IT Enterprise Applications Engineer** GitLab handle: [kiranbsalesforce] (https://gitlab.com/kiranbsalesforce) Slack handle: @Kiran
+- **Kiran Chinthapalli - Director, CRM Systems**
+- **Sheela Viswanathan - Senior Manager, Business Systems Administrator** GitLab handle: [sheelaviswanathan](https://gitlab.com/sheelaviswanathan) Slack handle: @sheela viswanathan
 - **Obbu Sekhar - Senior IT Enterprise Applications Engineer** GitLab handle: [sekharobbu](https://gitlab.com/sekharobbu) Slack handle: @osekhar
 - **Tai Schuller - Staff IT Enterprise Applications Engineer** GitLab handle: [tschuller](https://gitlab.com/tschuller) Slack handle: @Tai Schuller
 - **Analissa "Ana" Moreno - IT Enterprise Applications Administrator** GitLab handle: [ana-moreno](https://gitlab.com/ana-moreno) Slack handle: Ana Moreno
+- **Andie Wheeler - IT Enterprise Applications Administrator** GitLab handle:[alwheel](https://gitlab.com/alwheel) Slack handle: @Andie Wheeler
 - **Brett Latham - Senior Business Systems Administrator** GitLab handle: [Dlatham](https://gitlab.com/Dlatham) Slack handle: @Brett Latham
 - **Mohamed Hussain - Business Systems Administrator** GitLab handle: [Moh.hussain](https://gitlab.com/Moh.hussain) Slack handle: @Mohamed Hussain
 - **Neha Sharma - IT Enterprise Applications Administrator** GitLab handle: [nksharma2](https://gitlab.com/nksharma2) Slack handle: @Neha Sharma
 - **Pooja Chowdary Nayidi - IT Enterprise Applications Administrator** GitLab handle: [pnayidi](https://gitlab.com/pnayidi) Slack handle: @Pooja Chowdary Nayidi
+- **Korben Carreno - Manager, CRM Systems** GitLab handle: [kcarreno](https://gitlab.com/kcarreno) Slack handle: @Korben
+- **Christian Böhme - IT Enterprise Applications Engineer** GitLab handle: [chrisboehme](https://gitlab.com/chrisboehme) Slack handle: @Christian Böhme
+- **Deepak Kumar - IT Enterprise Applications Engineer** GitLab handle: [dkumarGitlab](https://gitlab.com/dkumarGitlab) Slack handle: @Deepak Kumar
+- **Devansh Devansh - IT Enterprise Applications Engineer** GitLab handle: [DDevansh](https://gitlab.com/DDevansh) Slack handle: @Devansh
+- **Harshit Bhandari - IT Enterprise Applications Engineer** GitLab handle: [hbhandari3](https://gitlab.com/hbhandari3) Slack handle: @Harshit
 
 ## Salesforce.com Change Management Processes and SDLC (Software Development Life Cycle)
 
@@ -293,9 +298,9 @@ Business Process Owner pertaining to the team should provide signoff. The signof
 
 Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below
 
-| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
+| Main Approver               |Backup Approver                                                | Backup Approver                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
+| Sheela Viswanathan - Senior Manager, Sales Systems, Korben Carreno - Manager, CRM Systems  | Kiran Chinthapalli - Director, CRM Systems | Nabitha Rao - VP, IT  |
 
 #### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
 

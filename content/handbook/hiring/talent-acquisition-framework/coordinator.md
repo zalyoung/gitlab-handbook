@@ -107,7 +107,9 @@ If the candidate submits the form, all the CES team members will receive an emai
 4. Schedule the interview based on the recruiter’s scheduling request.
 5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
 6. Please leave a tag—“Project Equispace”—in the candidate's GH profile for easy reference so we can adequately track and address accommodation needs as the candidate progresses through the hiring process.
-7. Close the issue once the scheduling is completed.
+7. If CES receives a written request from a candidate for an accommodation not currently listed on our form, CES will notify TMR for advice and respond accordingly with how we can accommodate. CES will follow steps above to ensure interviewer is advised on how to proceed with the interview.
+8. CES will save email communication with candidate in the event they are hired. If so, CES will upload communications into the hires Workday profile.
+9. Close the issue once the scheduling is completed.
 
 #### ModernLoop
 
@@ -136,6 +138,16 @@ Please ensure you have the [ModernLoop Chrome Extension](https://modernloop.zend
 - For the interviewer invite, select the correct template from the dropdown list 
 - Review all details and then press 'Confirm and send' 
 - If you only wish to send the invites to the interviewers before sending the candidate invite, select 'Send internal only'.  This will send the interviewer invites and move the candidate into the Pending section of My tasks.  When you wish to send the candidate invite you can go into the candidate profile and click 'finish and Send'. 
+
+## How to schedule internal interviews
+
+- When receiving a scheduling task in ModernLoop from a recruiter for an internal candidate, confirm that the 'internal candidate' tag has been applied to the task.
+- If it is missing, add the "internal candidate" tag to the ModernLoop task yourself for tracking purposes.
+- Unlike with external candidates, recruiters do not request availability from internal candidates via email. Instead, they create a scheduling task for CES to arrange interviews directly, without waiting for candidate-submitted availability.
+- The recruiters will inform the candidate that CES will be making use of their GitLab calendar to schedule the interview.
+- CES should proceed directly to scheduling the calls without waiting for candidate availability submission. 
+- Access the Google Calendar to view both the interviewer's and internal team member's calendars in tandem. 
+- Once a suitable time slot has been identified, schedule the interview and send the internal candidate confirmation in ModernLoop.
 
 ## How to add or replace an interviewer for a scheduled interview
 
@@ -317,7 +329,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/legal/employment-law/#background-check) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
@@ -404,7 +416,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/legal/employment-law/#background-check) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?

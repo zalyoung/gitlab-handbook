@@ -10,7 +10,7 @@ participating-stages: [ "~devops::plan" ]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 GitLab AutoFlow allows users to encode workflows of interactions between DevSecOps domain objects and external systems.
 
