@@ -60,6 +60,35 @@ flowchart LR
     Clients["Direct External Clients"] -->|gRPC| G
 ```
 
+> Note: We will need to update [the docs](https://docs.gitlab.com/install/install_ai_gateway/#set-up-docker-with-nginx-and-ssl) for AI Gateway to show customers how to manage certs for self-hosted deployments of AI Gateway.
+
+```nginx
+upstream aigw_grpc_backend  { server gitlab-ai-gateway:5052; }
+
+server {
+    listen 50052 ssl http2; # gRPC over TLS
+    server_name _;
+
+    ssl_certificate      /etc/nginx/ssl/server.crt;
+    ssl_certificate_key  /etc/nginx/ssl/server.key;
+    ssl_verify_client    off;
+    ssl_protocols        TLSv1.2 TLSv1.3;
+    ssl_ciphers          HIGH:!aNULL:!MD5;
+    ssl_prefer_server_ciphers on;
+    ssl_session_cache    shared:SSL:10m;
+    ssl_session_timeout  10m;
+
+    location / {
+        grpc_pass grpcs://aigw_grpc_backend;
+        grpc_read_timeout    300s;
+        grpc_connect_timeout 75s;
+        grpc_set_header X-Real-IP        $remote_addr;
+        grpc_set_header X-Forwarded-For  $proxy_add_x_forwarded_for;
+        grpc_set_header X-Forwarded-Host $host;
+    }
+}
+```
+
 ## Consequences
 
 - **Pros**  
