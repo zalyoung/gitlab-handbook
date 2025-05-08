@@ -145,43 +145,49 @@ Process:
     - Update the Health Status field to indicate whether the KR is `On Track`, `Needs Attention`, or `At Risk`.
 
 ### DataPulse
+
 DataPulse is a monthly rhythm for team members to provide status updates on Key Results and Business Operations initiatives.  The goal is for everyone to stay informed about project statuses, identify new opportunities, and maintain alignment across our various workstreams.
 
 Our process will have three key components:
+
 #### 1. Async written updates about the status of the Key Result and Business Operations
 
 Monthly updates, captured in the Key Result or Business Operations issues and epics (this part we are already doing and will not change):
-  - Status of project work
-  - Challenges and proposed solutions
+ 
+- Status of project work
+- Challenges and proposed solutions
 
 #### 2. Asynchronous Video Updates (Due 1 week before Monthly Q&A)
 
 **For Key Result and Business Operations DRIs**
 Each DRI (and team) will record a brief, maximum 5-minute, video update covering:
-  - Intro/context about the business problem that we addressing in the Key Result or Business Operations
-  - Status update
-  - Challenges and proposed solutions
-  - Business stakeholder feedback and engagement
-  - New opportunities identified
+ 
+- Intro/context about the business problem that we addressing in the Key Result or Business Operations
+- Status update
+- Challenges and proposed solutions
+- Business stakeholder feedback and engagement
+- New opportunities identified
 
 Within your KR and Business Operations teams, please develop a plan for these monthly updates. As the DRI, you're accountable for aligning on this approach with your project team. 
 
 **Recording Guidelines:**
-  - These videos don't need to be perfect - aim for a conversational tone.
-  - Consider using time in an existing meeting with the KR team to create this recording. No slides / materials are required.
-  - Include mentions of team members who are part of your work.
-  - Upload your video to our Data Team YouTube playlist one week before our scheduled Q&A session. Include the month and year in the title of the recording and add a link to the video in the Key Result or Business Operations epic/issue.
-  - This is your chance to share your work with team members who you don’t collaborate with on a regular basis - take advantage of it!
+  
+- These videos don't need to be perfect - aim for a conversational tone.
+- Consider using time in an existing meeting with the KR team to create this recording. No slides / materials are required.
+- Include mentions of team members who are part of your work.
+- Upload your video to our Data Team YouTube playlist one week before our scheduled Q&A session. Include the month and year in the title of the recording and add a link to the video in the Key Result or Business Operations epic/issue.
+- This is your chance to share your work with team members who you don’t collaborate with on a regular basis - take advantage of it!
 
 #### 3. Monthly Q&A Session (6am PST / 2pm PST options)
 
 We'll meet for a focused Q&A session to discuss the updates shared in the videos. This allows us to:
-  - Dive deeper into specific areas of interest
-  - Address questions that arise from the video updates
-  - Collaborate on resolving challenges
-  - Align on next steps
+  
+- Dive deeper into specific areas of interest
+- Address questions that arise from the video updates
+- Collaborate on resolving challenges
+- Align on next steps
 
-##### Introducing a new data source
+#### Introducing a new data source
 <!-- Amie to check with Dennis on this -->
 Introducing a new data source requires a _heavy lift_ of understanding that new data source, mapping field names to logic, documenting those, and understanding what issues are being delivered.
 Usually introducing a new data source is coupled with replicating an existing dashboard from the other data source.
