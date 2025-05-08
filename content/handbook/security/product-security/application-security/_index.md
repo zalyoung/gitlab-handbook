@@ -34,7 +34,7 @@ The Application Security team partners with several other teams across the Secur
 
 ## Shared Accountabilities
 
-These strategic security programs have multiple stakeholders across the Security Division. 
+These strategic security programs have multiple stakeholders across the Security Division.
 
 *Supply Chain Security:* Application Security’s accountability is shared by both SD&D and PSIRT. Additional Product Security teams involved in Supply Chain Security include SPA, Vulnerability Management, and InfraSec.
 
