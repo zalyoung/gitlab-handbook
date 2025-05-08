@@ -94,7 +94,7 @@ The external service host requires these changes:
 - Configure [mTLS Client Authentication on the Load Balancer](https://cloud.google.com/load-balancing/docs/mtls#validation-steps)
   - Upload the Private Root CA Certificate to the [Trust Config to enforce authenticated access only](https://cloud.google.com/load-balancing/docs/mtls#architecture)
 - Configure [Private Service Connect] with the Load Balancer as a backend
-- Grant access permissions to client projects for connecting to the [Private Service Connect] endpoint
+- Set up the permissions for the Cell's GCP project to connect to the [Private Service Connect] endpoint of the Server.
 
 #### Client/Consumer Configuration
 
@@ -233,6 +233,23 @@ func extractCommonNameFromSubjectDN(base64SubjectDN string) (string, error) {
 ```
 
 Source: [mTLS Server Code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/server/main.go#L31)
+
+#### Advantages of mTLS over Alternative Authentication Methods
+
+We chose mTLS as our primary mechanism for both authentication and authorization in our Cell services architecture for several key reasons:
+
+1. **Infrastructure-Managed Identity**: mTLS allows us to leverage infrastructure-provided identity rather than application-managed tokens. This shifts the responsibility of identity management from application code to our infrastructure components, which are more specialized for this purpose.
+
+1. **Simplified Secret Management**: Unlike token-based approaches (such as JWT tokens) that often require storing tokens as environment variables or in configuration files, mTLS certificates can be automatically provisioned, rotated, and managed by our existing PKI infrastructure. This provides several benefits:
+   - No hardcoded secrets in application code or environment variables
+   - Reduced risk of token leakage through logs or configuration dumps
+   - Standard certificate lifecycle management rather than custom token management
+
+1. **Multi-Service Compatibility**: The mTLS approach scales effectively across multiple services without requiring service-specific implementation details. Each service follows the same pattern for authentication and authorization, providing a consistent security model across our entire Cell architecture.
+
+1. **Automated Certificate Rotation**: Certificates can be rotated automatically without service interruption, which is often more complex with token-based approaches. Our existing certificate management infrastructure handles rotation seamlessly, reducing operational overhead.
+
+1. **Dual-Purpose Security**: mTLS provides both encryption and authentication in a single mechanism, simplifying our security architecture compared to approaches that separate these concerns.
 
 #### Security Considerations
 
