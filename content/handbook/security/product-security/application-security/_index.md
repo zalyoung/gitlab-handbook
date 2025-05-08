@@ -127,18 +127,17 @@ The list above is not exhaustive and is subject to be modified as our processes 
 
 - For Embedded KPIs which you filter by section, stage, or group, please [see this page](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4).
 
-#### Stable Counterparts
+### Stable Counterparts
 
 Please see the [Application Security Stable Counterparts page](/handbook/security/product-security/application-security/stable-counterparts/).
 
-#### Application Security Reviews
+### Application Security Reviews
 
 Please see the [Application Security Reviews page](/handbook/security/product-security/application-security/appsec-reviews/).
 
-#### RCAs for Critical Vulnerabilities
+### RCAs for Critical Vulnerabilities
 
 Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook/security/root-cause-analysis)
-
 ### Application Security Engineer Runbooks
 
 Please see the [Application Security Engineer Runbooks page index](runbooks)
