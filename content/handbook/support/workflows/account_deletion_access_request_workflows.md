@@ -179,24 +179,22 @@ Evaluate the answers to the challenge questions that the user has provided using
 
 ###### Account already deleted
 
-It is possible that the user may have deleted their GitLab.com account after raising the request. In such cases it will not be possible to perform further account verification, proceed with the appropriate step below according to the request type: 
+It is possible that the user may have deleted their GitLab.com account after raising the request. In such cases it will not be possible to perform further account verification, proceed with the appropriate step below according to the request type:
 
 - For **FULL account deletion requests** you should proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue) and mark the GitLab.com removal actions as complete.
 - For **GitLab.com account only deletion requests** respond with the snippet below and close the issue:
-    <details>
+
+  <details>
       <summary markdown="span">Request Closed - GitLab.com account already deleted</summary>
       <p>Greetings,</p>
-
-      <p>We are unable to complete your GitLab.com account deletion request as the account has been deleted since your request was submitted.</p>
-
-      <p>This request will now be closed.</p>
-
+      <p>We are unable to complete your GitLab.com account deletion request as the account has been deleted since your request was submitted.
+      This request will now be closed.</p>
       <p>Regards,</p>
 
-      `/label ~"deletion request::denied"`
+  `/label ~"deletion request::denied"`
 
-      `/close`
-    </details>
+  `/close`
+  </details>
 
 ###### Verification Failed
 
@@ -226,13 +224,13 @@ If the user fails the challenge questions, but they are the sole owner of groups
 
 ###### Verification Failed - Inactive Account
 
-If the user fails the challenge questions AND does not meet the criteria for Sole Owner Exception, we can consider approval for an exception due to inactivity by working through the following: 
+If the user fails the challenge questions AND does not meet the criteria for Sole Owner Exception, we can consider approval for an exception due to inactivity by working through the following:
 
 1. Validate that the user is on a free plan.
 1. Check that the user has not logged in for at least 90 days.
 1. Check that the repository/repositories are essentially empty (there is nothing in the user account)
 
-The purpose is to ensure that a user account does not contain any data that has been made publicly available for use by others and that deletion of the account and the groups/projects under that account will not have a negative effect. 
+The purpose is to ensure that a user account does not contain any data that has been made publicly available for use by others and that deletion of the account and the groups/projects under that account will not have a negative effect.
 
 1. Apply one of the following labels to the Issue:
 
