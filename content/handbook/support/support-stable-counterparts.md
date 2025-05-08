@@ -162,7 +162,7 @@ Non-group specific counterparts typically also step in when the related group ha
 |:----------------:|:--------------:|:-------------------:|:-------------------:|:-------------------:|
 | Finance          | Accounts               | TBD                                          | TBD                                    | N/A |
 | Finance          | Budget                 | {{< member-by-name "Chase Wright" >}}        | TBD                                    | 1x Qtr on budget + once per month |
-| Legal            | Legal                  | {{< member-by-name "Robin Schulman" >}}      | {{< member-by-name "Jason Colyer" >}}  | N/A |
+| Legal            | Legal                  | {{< member-by-name "Robin Schulman" >}}      | {{< member-by-name "Lee Matos" >}} {{< member-by-name "Val Parsons" >}}| N/A |
 | PeopleOps        | After-hire care        | {{< member-by-name "Jessica Mitchell" >}}    | TBD                                    | N/A |
 | PeopleOps        | Talent Acquisition     | {{< member-by-name "Cyndi Walsh" >}}         | TBD                                    | N/A |
 | Performance      | Performance            | {{< member-by-name "Stan Hu" >}}             | {{< member-by-name "Lee Matos" >}}     | N/A |
