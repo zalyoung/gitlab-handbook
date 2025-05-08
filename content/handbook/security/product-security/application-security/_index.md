@@ -18,7 +18,7 @@ We provide operational application of DevSecOps practices, data insights and sec
 
 We organize our work into five pillars that emphasize Developer UX in the context of traditional DevSecOps programs. We call this the Secure Developer eXperience, or SDX.
 
-*SDX: Learn* security training, governance, policy, documentation, and standards.
+**SDX: Learn** security training, governance, policy, documentation, and standards.
 
 *SDX: Design* threat modeling, feature design guidance and consultation, and design reviews.
 
