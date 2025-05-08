@@ -222,7 +222,7 @@ You can tag the Data Team in GitLab using:
   * [Data CI Jobs](/handbook/enterprise-data/platform/ci-jobs/)
   * [Data Infrastructure](/handbook/enterprise-data/platform/infrastructure/)
   * [Data Onboarding](/handbook/enterprise-data/organization/programs)
-  * [Internship Experience](/handbook/enterprise-data/organizaton/internship-experience/)
+  * [Internship Experience](/handbook/enterprise-data/organization/internship-experience/)
   * [Data for Product Managers](/handbook/enterprise-data/organization/programs/data-for-product-managers/)
   * [Data Quality](/handbook/enterprise-data/data-governance/data-quality/)
   * [dbt Guide](/handbook/enterprise-data/platform/dbt-guide/)
