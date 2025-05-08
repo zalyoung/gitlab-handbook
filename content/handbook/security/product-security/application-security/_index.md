@@ -89,6 +89,7 @@ Support Company and Division Priorities:
 In the near future, we will expand upon these priorities and publish a high-level team-wide roadmap.
 
 ## FY26 Metrics
+
 Application Security is rebuilding our operational business health metrics in FY26. These metrics are in addition to Key Risk Indicators, project-level metrics, or sub-team specific metrics. For many of these, metrics instrumentation and reporting mechanisms are still forthcoming. As the team matures, these metrics will evolve and be shared on this page.
 
 # Useful resources for AppSec engineers
