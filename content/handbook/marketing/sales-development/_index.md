@@ -584,6 +584,9 @@ If you are scheduling time with an AE/SAE to speak to the prospect based on a qu
 1. **You have obtained a commitment/willigness from a prospect to discuss further.**
 If you have a meaningful two-way communication with a prospect, but have not had the required qualification criteria to move to the Sales team, you can create an opportunity under your name so that you better track your warm conversations. These opportunities may also be used for better collaboration with your team, as they can be reviewed and brain-stormed upon during team meetings.
 
+1. **If the lead is from a new account confirm their number of employees and HQ location for routing purposes**
+When you create an opportunity with a new account please confirm the number of employees and headquarters location of the account with the prospect. You can do this through email or in your call notes if you speak to them over the phone. The reason for this is to make sure the newly created contact and account are routed to the correct teams after you convert the lead. Please cross reference the employee count and hq location with one of our data tools (ZI, Cognism, Sales Nav) to make sure what the prospect said was accurate. If the employee count is around 200-300 people be extra dilligent as the new SMB to MM employee cut off is 250 employees. We do not want the Sales teams to have to debate whose opportunity it is. 
+
 **Who owns the opportunity at this point?**
 
 1. **You have scheduled time with AE/SAE to speak with the prospect.**
