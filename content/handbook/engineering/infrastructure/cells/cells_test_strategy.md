@@ -89,7 +89,7 @@ The [Pre-QA Cell](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1293) is
 
 ## Performance Testing
 
-Our performance testing approach is a [multi-layered approach](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/performance) that is focused on Shifting Left and Right performance. Shift Left moves performance testing earlier in the process, Shift Right makes data from live environments (production) more Observable so that it can Shift Left.
+Our performance testing approach is a [multi-layered approach](/handbook/engineering/testing/performance) that is focused on Shifting Left and Right performance. Shift Left moves performance testing earlier in the process, Shift Right makes data from live environments (production) more Observable so that it can Shift Left.
 
 ## Tracking Issues
 
