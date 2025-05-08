@@ -52,7 +52,7 @@ Once validated, it will then be implemented into production. Once that is done, 
 
 The issue will be created in the `Triage` stage. From here, Customer Support Operations will determine if the request has enough information to move onto next stages (if not, we will ask for more information).
 
-Customer Support Operations will thhen determine if the request is valid in our current workload. This is done using the following flowchart:
+Customer Support Operations will then determine if the request is valid in our current workload. This is done using the following flowchart:
 
 ```mermaid
 graph LR;
@@ -93,7 +93,7 @@ If approved, it will then move to the `Planning` stage. Here, Customer Support O
 
 Once the milestone period arrives, the issue will move to the `Development` stage. Here, work will be done to get the changes into a state where they can be validated.
 
-Once they are ready to be validated, the issue moves to the stage `Validation`. Here, the requester wil l validate the changes done will meet their requirements for the request. If they do not, the stage moves back to `Development`.
+Once they are ready to be validated, the issue moves to the stage `Validation`. Here, the requester will validate the changes done will meet their requirements for the request. If they do not, the stage moves back to `Development`.
 
 If validated by the requester, Customer Support Operations will then finalize the changes into the various systems (be it via MRs, settings changes, etc.).
 
