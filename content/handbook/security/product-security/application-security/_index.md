@@ -40,11 +40,11 @@ These strategic security programs have multiple stakeholders across the Security
 
 *Dogfooding:* Application Security's accountability is to use GitLab security products in our work and be participants in providing actionable Customer Zero feedback to the SPA team, who is the Dogfooding DRI for Product Security.
 
-*Vulnerability Management / Tech Debt:* The Application Security Team’s accountability is shared by both SD&D and PSIRT. The Vulnerability Management team is DRI for Vuln Mgmt tooling development and implementation
+*Vulnerability Management / Tech Debt:* The Application Security Team's accountability is shared by both SD&D and PSIRT. The Vulnerability Management team is DRI for Vuln Mgmt tooling development and implementation
 
-*Secure by design:* The Secure Design and Development Team’s accountability is feature focused, assessing threats through Threat Modeling (SDX: Design) and feature design reviews. The SPA team is DRI for Threat Modeling strategy company-wide, while AppSec is a participant stakeholder in this strategy.
+*Secure by design:* The Secure Design and Development Team's accountability is feature focused, assessing threats through Threat Modeling (SDX: Design) and feature design reviews. The SPA team is DRI for Threat Modeling strategy company-wide, while AppSec is a participant stakeholder in this strategy.
 
-*Security Response:* Application Security’s accountability for Product Security Response is partially shared by both SD&D and PSIRT.
+*Security Response:* Application Security's accountability for Product Security Response is partially shared by both SD&D and PSIRT.
 SD&D currently helps with security release rotations. During FY26 this will transition to the PSIRT.
 PSIRT triages and technically assesses critical and exploitable vulnerabilities, determines company and customer risk, and coordinates external communications regarding these issues.  PSIRT has several partners across the company including:
 - SecOps is DRI for Incident Command and Threat Detection (IOCs, TTPs)
@@ -138,56 +138,54 @@ Please see the [Application Security Reviews page](/handbook/security/product-se
 ### RCAs for Critical Vulnerabilities
 
 Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook/security/root-cause-analysis)
-### Application Security Engineer Runbooks
+## Application Security Engineer Runbooks
 
 Please see the [Application Security Engineer Runbooks page index](runbooks)
 
-### Meeting Recordings
+## Meeting Recordings
 
 The following recordings are available internally only:
 
 - [AppSec Sync](https://drive.google.com/drive/folders/1sxnBhPNDofWg5JmKqrhEl5y4_aWldTbt)
 - [AppSec Leadership Weekly](https://drive.google.com/drive/folders/1jyNYP2AOqoOPqr4qGMuh7PGha_j-7brb)
 
-### Backlog reviews
+## Backlog reviews
 
 When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](/handbook/security/product-security/application-security/vulnerability-management/) for more details.
 
-### GitLab Secure Tools coverage
-
+## GitLab Secure Tools coverage
 As part of our [dogfooding effort](/handbook/product/product-processes/dogfooding-for-r-d/),
 the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies](/handbook/security/product-security/application-security/inventory/#policies)).
 This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
 
 Projects without the expected configurations can be found in the [inventory violations list](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/issues) (internal link).
 
-### GitLab Inventory
+## GitLab Inventory
 
 Learn more about the [GitLab AppSec Inventory](/handbook/product/ux/navigation/inventory/).
 
-### Responding to customer scan review requests
+## Responding to customer scan review requests
 
 Please see the [Responding to customers security scanners review requests page](/handbook/security/product-security/application-security/responding-customers-scan-review-requests/)
 
-### Reproducible Vulnerabilities
+## Reproducible Vulnerabilities
 
 Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities](/handbook/security/product-security/application-security/reproducible-vulnerabilities/).
 
-### Reproducible Builds
+## Reproducible Builds
 
 Learn how GitLab is implementing [Reproducible Builds](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.
 
-### Milestone Planning
-
+## Milestone Planning
 The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process](/handbook/security/product-security/application-security/milestone-planning/)
 
-### Application Security Automation and Monitoring
+## Application Security Automation and Monitoring
 
 Learn more about the automation initiatives that the Application Security team uses on the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)
 
 # Review and Updates
 
-This charter will be reviewed quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and relevant business and operational changes. Updates may occur more frequently as business operations evolve. 
+This charter will be reviewed quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and relevant business and operational changes. Updates may occur more frequently as business operations evolve.
 
 Next scheduled review: June 30, 2025
  
