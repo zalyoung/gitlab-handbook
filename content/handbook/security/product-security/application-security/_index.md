@@ -94,9 +94,9 @@ In the near future, we will expand upon these priorities and publish a high-leve
 
 Application Security is rebuilding our operational business health metrics in FY26. These metrics are in addition to Key Risk Indicators, project-level metrics, or sub-team specific metrics. For many of these, metrics instrumentation and reporting mechanisms are still forthcoming. As the team matures, these metrics will evolve and be shared on this page.
 
-# Useful resources for AppSec engineers
+## Useful resources for AppSec engineers
 
-## PTO
+### PTO
 
 Team members that are taking PTO for 5 days or more must both discuss time off with their manager prior to scheduling to ensure visibilty and adequate team operational coverage [**and** create a PTO coverage issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=pto_coverage) to organise their coverage during their time off. The PTO coverage issue should :
 
@@ -106,11 +106,11 @@ Team members that are taking PTO for 5 days or more must both discuss time off w
 
 AppSec team members should add any important information related to the work they are covering for the person on PTO and AppSec manager(s) should add any important announcement to see upon their return.
 
-## Roles & Responsibilities
+### Roles & Responsibilities
 
 Please see the [Application Security Job Family page](/job-families/security/application-security).
 
-## Helpful Quicklinks
+### Helpful Quicklinks
 
 - [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/product-security/appsec)
 - [The `appsec-lab` group on Staging. This has an Ultimate license.](https://staging.gitlab.com/appsec-lab)
@@ -126,7 +126,7 @@ Please see the [Application Security Job Family page](/job-families/security/app
 
 The list above is not exhaustive and is subject to be modified as our processes keep evolving.
 
-## Application Security KPIs & Other Metrics in Sisense
+### Application Security KPIs & Other Metrics in Sisense
 
 - For Embedded KPIs which you filter by section, stage, or group, please [see this page](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4).
 
