@@ -103,10 +103,12 @@ Field Security: Leveraging AI questionnaire automation to streamline the questio
 Governance: Using AI-developed security awareness content
 
 Automation:
+
 - Duo was heavily used to help with GitLab Assistant testing
 - AI powered workflows for Assurance are getting developed leveraging the Anthropic API
 
 ### Review and Updates
+
 This charter will be reviewed and updated quarterly to ensure alignment with:
 
 - GitLab's overall security strategy
