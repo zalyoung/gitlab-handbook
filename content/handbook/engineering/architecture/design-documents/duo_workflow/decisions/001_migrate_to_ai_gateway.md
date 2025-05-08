@@ -41,8 +41,9 @@ flowchart LR
   end
 
   Cloudflare["Cloudflare"] -->|HTTP| H
+  Cloudflare["Cloudflare"] -->|gRPC| G
   Clients["External Clients"] -->|HTTP| Cloudflare["Cloudflare"]
-  Clients["External Clients"] -->|gRPC| G
+  Clients["External Clients"] -->|gRPC| Cloudflare["Cloudflare"]
 ```
 
 For Self-managed customers using self-hosted models:
