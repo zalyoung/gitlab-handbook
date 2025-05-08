@@ -20,21 +20,27 @@ Security Compliance maintains GitLab's position as the most trusted DevSecOps pl
 1. [Security certifications and attestations](../security-compliance/certifications/)
    - Gap Analysis Program: feasibility analysis for certification expansion
    - External Audit coordination and execution
+
 1. [Continuous Monitoring of GitLab's Security Controls](/handbook/security/security-assurance/security-compliance/sec-controls/) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
-   - [Policy-as-code](./policy-as-code.md)
-   - [Automated evidence collection and control testing](./automated-control-testing.md)
-   - [User Access Reviews](./access-reviews.md)
-   - [Risk-based control testing](./risk-based-control-testing.md)
-   - [PCI Internal Control Review](./pci-internal-control-review.md)
-   - [FedRAMP Continuous Monitoring](./fedramp-compliance.md)
+
+- [Policy-as-code](policy-as-code.md)
+- [Automated evidence collection and control testing](automated-control-testing.md)
+- [User Access Reviews](access-reviews.md)
+- [Risk-based control testing](risk-based-control-testing.md)
+- [PCI Internal Control Review](pci-internal-control-review.md)
+- [FedRAMP Continuous Monitoring](fedramp-compliance.md)
+
 1. [Observation and Remediation Management](../observation-management-procedure.md)
-   - Identify control weaknesses and gaps (observations)
-   - Provide remediation recommendations and guidance
-   - Track remediation to completion
+
+- Identify control weaknesses and gaps (observations)
+- Provide remediation recommendations and guidance
+- Track remediation to completion
+
 1. Industry and Regulatory Monitoring and Insights
    - Monitoring drafts and changes to relevant laws, executive orders, directives, regulations, policies, standards, and guidelines.
    - Collaborating on responses to relevant RFIs, RFQs, RFPs, and requests for public comment.
    - Monitoring changes to government contractual language that could impact public sector security and compliance posture.
+
 1. Dogfooding
     - We use the GitLab product to perform our core competencies
     - We recommend GitLab feature solutions to remediate observations and reduce risk
@@ -46,7 +52,7 @@ We use agile program management and project management best practices to organiz
 
 ### Core Processes
 
-The single source of truth for all of in-progress work is the Security Compliance [team top-level epic](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics/289), which has detailed status updates, along with the [team epic board](https://gitlab.com/groups/gitlab-com/-/epic_boards/1063538?label_name[]=seccomp-roadmap) which we use to visualize workflow status and compare to our [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing). All work that is directly associated with our roadmap should take place via these and issues should be opened in the [Security Compliance Team Issue Tracker project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). This is important for two reasons: It allows us to work efficiently by centralizing and organizing our work in a single place using a robust labeling scheme and it allows us to report on various operational metrics (performance indicators).
+The single source of truth for all of in-progress work is the Security Compliance [team top-level epic](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics/289), which has detailed status updates, along with the [team epic board](https://gitlab.com/groups/gitlab-com/-/epic_boards/1063538?label_name[]=seccomp-roadmap) which we use to visualize workflow status and compare to our [roadmap](https://docs.google.com/presentation/d/1TEJzAkdoi_U-ubg7qhj1ZUpi2_VQYNF5DTOT5Mj1Mqo/edit?usp=sharing). All work that is directly associated with our roadmap should take place in these and issues should be opened in the [Security Compliance Team Issue Tracker project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). This is important for two reasons: It allows us to work efficiently by centralizing and organizing our work in a single place using a robust labeling scheme and it allows us to report on various operational metrics (performance indicators).
 
 Much of our work related to the [FedRAMP Authorization Program](/handbook/security/security-assurance/security-compliance/fedramp-compliance/) is unfortunately not visible to the rest of GitLab due to regulatory mandates outside of our control. In order to bring as much transparency and visibility into our work, and to continue to track basic metrics, it is critical that we continue to use our epic board and issue tracker as much as possible, even if used to track high-level tasks with links to detailed issues within the authorization boundary.
 
@@ -84,7 +90,7 @@ Each epic has a single DRI who is ultimately responsible for delivering the proj
 
 The DRI needs to:
 
-1. Work with others to move issues through the boards (e.g. from triage to in progress to complete)
+1. Work with others to move issues through the boards, for example, moving from triage to in progress to complete
 1. Ensure epic and any nested child epics and issues are using the appropriate labels
 1. Ensure the epic meets criteria outlined in epic structure (next section)
 1. Provide status updates on the epic each week including accomplishments, what's next, overall health status, and any blockers
