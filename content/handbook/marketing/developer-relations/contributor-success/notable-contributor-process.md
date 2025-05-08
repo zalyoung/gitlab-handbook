@@ -50,7 +50,6 @@ is used for the entire major release cycle (for example 18.0 through 18.11). Com
 
    - Begin drafting the merge request by updating the new Notable Contributor name and user handle. Remove the placeholder text for the write-up blurb. Commit the changes on a new branch. When creating the merge request on GitLab make sure your branch is targeting the current release branch `release-x-y` and not targeting `master`.
    - Follow the steps to collaborate the [Notable Contributor write-up blurb](#notable-contributor-write-up-blurb).
-   - Add release version, Notable Contributor name, user handle, release post date and release post URL.
    - Assign another Contributor Success team member to review/merge and double check the merge request is targeting the correct release branch.
    - Ping the [release post manager](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml) into the MR for awareness.
    - Merge by the Tuesday of release week.
