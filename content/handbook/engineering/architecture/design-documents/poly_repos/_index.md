@@ -142,7 +142,9 @@ glab push --polyrepo --product=10 #=> CSET created: https://gitlab.com/-/csets/1
 glab push --polyrepo-manifest=../manifest.xml
 ```
 
-#### [Identify projects that make up a "product"](https://gitlab.com/groups/gitlab-org/-/epics/17278)
+#### Identify projects that make up a "product"
+
+[Epic](https://gitlab.com/groups/gitlab-org/-/epics/17278)
 
 An organization (loosely defined as instance or group) can have multiple “products”. There could be multiple poly-repos in a given organization.
 
@@ -154,6 +156,9 @@ necessarily belonging to the same group.
 - a product has many projects/repos
 - a product has many changesets
 - a changeset has many MRs (implicitly project + ref)
+
+Organizations aren't generally available yet, but a top-level group might
+be considered a temporary container until organizations are available.
 
 Usually a Change Set will involve a subset of the projects involved in a
 target project. Customers currently use a number of approaches to
@@ -229,7 +234,7 @@ Here are some limitations of the Android manifest approach:
 
 One customer uses their own custom lockfile to handle this. For example, a lockfile could specifically map dependencies with a `depends_on` entry:
 
-```
+```yaml
 repositories:
   framework/base:
     remote: aosp
@@ -272,5 +277,45 @@ repositories:
     description: "Qualcomm display HAL"
 ```
 
-#### Can there be multiple products tied to a product?
+### Possible iteration steps
+
+As a thought experiment, let's suppose that we start on fully supporting poly-repos
+workflows. Here is a rough outline on how it might proceed:
+
+#### v0.1: Introduce a Change Set object
+
+1. Can create a Change Set and link MRs.
+1. Change Set will aggregate merge request status from multiple merge requests.
+1. Links to MR diffs.
+1. API support for retrieving MRs
+
+#### v0.2: Change Set Merge V1
+
+1. Best effort merging, no guarantees of atomicity.
+2. Aggregate reverts across projects.
+3. Simplistic permissions: Merge only available to user who can initiate merge for all projects?
+
+#### v0.3: Code Review with Change Sets V1
+
+1. Change Set diffs aggregated in single view.
+1. Possible to see diffs from one specific project.
+1. Diffs paginated and streamed in a sensible way.
+
+### v0.4: Change Set Merge V2
+
+1. GitLab will block merges from other merge requests while Change Set merge is happening.
+1. Merge commits will be tracked for each merge.
+1. Change Set revert: A revert will now be a set of reverts that can be merged together.
+
+### v0.5: Change Set pipelines V1
+
+1. Associate a Change Set with a target project.
+1. By default, any push to the Change Set will create a pipeline with downstream
+   pipelines for each touched project.
+1. Affected Change Set projects/files published in a CI variable.
+
+### v0.6: CI runner integration with Change Sets
+
+1. Support CI steps or native integration for checking out multiple
+   repositories (e.g. via Android manifest file?).
 
