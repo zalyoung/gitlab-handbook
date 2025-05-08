@@ -47,6 +47,8 @@ should be able to work across projects. Users should be able to:
 - **Target Product** - A group of projects that represents the target product for a Change Set.
   For example, the Android source code is one example of a product consisting of hundreds of
   individual Git repositories.
+- **Manifest file** - typically an XML configuration file that declares your app's package name,
+  components, dependencies between them and their current revision.
 
 ### Goals
 
