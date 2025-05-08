@@ -1,81 +1,83 @@
 ---
-title: "GitLab Fundamentals - Hands-On Lab: Repository Management and Branching"
-description: "This Hands-On Guide walks you through managing code repositories in GitLab."
+title: "GitLab Fundamentals - Hands-On Lab: Project Management with Issues and Boards"
+description: "This Hands-On Guide walks you through the process of working with issues in GitLab."
 ---
 
 > Estimated time to complete: 30 minutes
 
 ## Objectives
 
-In this lab, we will explore how we can create repositories to organize code, as well as configure the repositories to meet various use cases. 
+The goal of this lab is to get an overview of the different plan features available in GitLab, including epics and issue boards.
 
-## Task A. Creating a repository
+## Task A. Defining an epic
 
-To start, let's create a new repository for the QA team. Select the `QA` group in your **My Test Group**. From here:
+An epic is created at a group level and defines larger sets of work on a project. To create an epic:
 
-1. Select **New project**.
+1. Navigate to your **QA** group.
 
-1. Select **Create blank project**.
+1. In the left sidebar, select **Plan > Epics**. 
 
-1. In the **Project name**, enter `Cool App QA`. 
+1. Select **New epic**.
 
-1. Ensure that **Initialize repository with a README** is checked on. This will create a README file in the project as a starting point.
+1. For the title, enter `My first epic`.
 
-1. Select **Create project**.
+1. Enter any description you like and select **Create epic**.
 
-After creating the project, you will be navigated to the repository of the project. You will see a single file titled `README.md`, which contains a basic readme template. Throughout the course, we will explore different ways to work with this repository. To start, let's look at how we can configure this project.
+1. Select `My first epic`. 
 
-## Task B. Configuring your project
+In this view, you will see details on your epic. Similar to issues, epics can contain child items and linked items, as well as activity related to the epic. In the right sidebar, there is metadata for the epic, including labs, health status, parent, and time tracking.
 
-In the left sidebar, you will see a few new options available when you are in your project.
+## Task C. Defining a milestone
 
-1. In the left sidebar, select **Settings**. From the resulting dropdown, select **General**.
+A milestone represents a set of work being completed over a fixed time period. A milestone can contain both epics and issues. To create a milestone:
 
-1. Review the different settings available in general. Here you can toggle your project visibility, features enabled, as well as advanced options like moving and deleting projects.
+1. Navigate to your `QA` group.
 
-1. In the left sidebar, under **Settings**, select **Repository**. This section contains configurations for your project code repository. 
+1. In the left sidebar, select **Plan > Milestones**. 
 
-In most settings, you will want to toggle a few settings for your repository. First, you will want to ensure your project has a consistent default branch. This branch will be the branch that merge requests are made against in your project. For this main branch, you will want to ensure it is protected and not able to be pushed directly to. Let's look at how to configure these options.
+1. Select **New milestone**.
 
-1. In **Repository Settings**, select **Branch defaults** to expand this section.
+1. In the title, enter `My first milestone`. 
 
-    > Here, you will see that `main` is your default branch.
+1. Enter any **Start Date** and **Due Date** you would like.
 
-1. Next, select **Branch rules**.
+1. Input any **Description**, then select **Create milestone**.
 
-1. Beside the `main` rules, select **View details**. 
+Next, we need to assign issues to the milestone.
 
-1. Explore the settings available here. You will see that by default, `Allow force push` is disabled for the main branch. You will also see that users with a `Maintainer` role can push and merge to `main`. Ideally, we want to prevent anyone from pushing into `main` directly.
+1. In the left sidebar, select **Plan > Issues**.
 
-1. To prevent pushes to main, select **Edit** in the **Allowed to push and merge** section.
+1. Select `First issue`. 
 
-1. Check the **No one** checkbox. Select **Save changes**.
+1. In the right sidebar, select **Edit** next to **Milestone**.
 
-With this setting changed, now no one can directly push to `main`. Let's test this out to see the result.
+1. Select `My first milestone` from the resulting dropdown.
 
-## Task C. Testing pushes to main
+1. Select `My first milestone` in the right sidebar to be redirected back to the milestone.
 
-1. In the left sidebar, select **Code > Repository**.
+You will now see all issues related to the milestone, along with burndown and burnup charts for the milestone dates provided.
 
-1. At the top of the repository section, select **+ > New file**.
+## Task D. Issue boards
 
-1. In the **Filename**, enter `test.txt`.
+To help with viewing issues and epics in a singular place, you can utilize issue and epic boards. To start:
 
-1. Enter any text into the file contents.
+1. Navigate to the `QA` group.
 
-1. Select **Commit changes**. 
+1. In the left sidebar, select **Plan > Issue boards**.
 
-1. In the **New branch** section, notice that there is a note stating "You don't have permission to commit to `main`". This is a direct result of our branch rules. To accommodate the change, this window has automatically created a new branch for us to use.
+    > In this view, you will see all your issues associated with their statuses.
 
-1. In **New branch**, change the name to `test-commit`.
+1. We are going to create a new list to store our issues that are associated with us. Click the **New List** button on the right.
 
-1. Uncheck **Create a merge request for this change**.
+1. Select **Assignee**, then select your username. 
 
-1. Select **Commit changes**.
+1. Select **Add to board**.
 
-After committing the changes, you will now see the file available. This created a new branch in your project. To return to your main branch, select the dropdown that currently says **test-commit**. From this dropdown, select **main** to see your main branch again.
+1. You should see your issue you created before in the 'Open' list. Click and drag the issue from the 'Open' list to the list with your username.
 
-Now that we have a change in a branch, we can explore the concept of merge requests to merge the changes into main in the next lab.
+1. Click on the issue. You should see that you have been automatically assigned to the issue.
+
+It is possible to further customize issue boards to display different sets of information depending on your requirements. For more details on issue boards, check out the [documentation](https://docs.gitlab.com/ee/user/project/issue_board.html).
 
 ## Lab Guide Complete
 
