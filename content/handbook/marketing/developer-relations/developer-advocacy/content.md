@@ -173,7 +173,9 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 When creating product demos for video, please consider taking the following steps in VS Code: 
 
-- Common resolution is 1920×1080 (16:9 aspect ratio), for social consider square
+- Common resolution is 1920×1080 (16:9 aspect ratio) or 2880×1750 for screen recordings. 
+- If you're connected to a 4K monitor, capture from your laptop.
+- For social clips, consider square (1:1) for multi-platform compatibility or vertical (9:16).
 - Zoom (`cmd` + `+`) once or twice more than you think you need to
 - Simplify view by hiding unnecessary icons that are nested in top and bottom bars or using Zen mode,`cmd`+`k`+`z`
 
