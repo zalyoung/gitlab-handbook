@@ -123,19 +123,19 @@ Please see the [Application Security Job Family page](/job-families/security/app
 
 The list above is not exhaustive and is subject to be modified as our processes keep evolving.
 
-### Application Security KPIs & Other Metrics in Sisense
+## Application Security KPIs & Other Metrics in Sisense
 
 - For Embedded KPIs which you filter by section, stage, or group, please [see this page](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4).
 
-### Stable Counterparts
+## Stable Counterparts
 
 Please see the [Application Security Stable Counterparts page](/handbook/security/product-security/application-security/stable-counterparts/).
 
-### Application Security Reviews
+## Application Security Reviews
 
 Please see the [Application Security Reviews page](/handbook/security/product-security/application-security/appsec-reviews/).
 
-### RCAs for Critical Vulnerabilities
+## RCAs for Critical Vulnerabilities
 
 Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook/security/root-cause-analysis)
 ## Application Security Engineer Runbooks
@@ -187,5 +187,4 @@ Learn more about the automation initiatives that the Application Security team u
 
 This charter will be reviewed quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and relevant business and operational changes. Updates may occur more frequently as business operations evolve.
 
-Next scheduled review: June 30, 2025
- 
+*Next scheduled review: June 30, 2025*
