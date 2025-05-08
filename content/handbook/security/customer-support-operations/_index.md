@@ -70,7 +70,7 @@ graph LR;
 
 ```
 
-If approved, it will then move to the `Design` stage (with all approvpriate labels put in place), where a gameplan will be made.
+If approved, it will then move to the `Design` stage (with all appropriate labels put in place), where a gameplan will be made.
 
 Once a gameplan is made and added to the issue, Customer Support Operations will determine if we can move forward with the request using the following flowchart:
 
