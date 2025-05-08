@@ -36,25 +36,21 @@ The Application Security team partners with several other teams across the Secur
 
 These strategic security programs have multiple stakeholders across the Security Division.
 
-*Supply Chain Security:* Application Security’s accountability is shared by both SD&D and PSIRT. Additional Product Security teams involved in Supply Chain Security include SPA, Vulnerability Management, and InfraSec.
+*Supply Chain Security:* Application Security's accountability is shared by both SD&D and PSIRT. Additional Product Security teams involved in Supply Chain Security include SPA, Vulnerability Management, and InfraSec.
 
-
-*Dogfooding:* Application Security’s accountability is to use GitLab security products in our work and be participants in providing actionable Customer Zero feedback to the SPA team, who is the Dogfooding DRI for Product Security. 
-
+*Dogfooding:* Application Security's accountability is to use GitLab security products in our work and be participants in providing actionable Customer Zero feedback to the SPA team, who is the Dogfooding DRI for Product Security.
 
 *Vulnerability Management / Tech Debt:* The Application Security Team’s accountability is shared by both SD&D and PSIRT. The Vulnerability Management team is DRI for Vuln Mgmt tooling development and implementation
 
-
 *Secure by design:* The Secure Design and Development Team’s accountability is feature focused, assessing threats through Threat Modeling (SDX: Design) and feature design reviews. The SPA team is DRI for Threat Modeling strategy company-wide, while AppSec is a participant stakeholder in this strategy.
 
-
-*Security Response:* Application Security’s accountability for Product Security Response is partially shared by both SD&D and PSIRT. 
-SD&D currently helps with security release rotations. During FY26 this will transition to the PSIRT.  
+*Security Response:* Application Security’s accountability for Product Security Response is partially shared by both SD&D and PSIRT.
+SD&D currently helps with security release rotations. During FY26 this will transition to the PSIRT.
 PSIRT triages and technically assesses critical and exploitable vulnerabilities, determines company and customer risk, and coordinates external communications regarding these issues.  PSIRT has several partners across the company including:
 - SecOps is DRI for Incident Command and Threat Detection (IOCs, TTPs)
 - SPA (Research) is a key partner for exploitability POC development
 - PR/Comms
-- Legal 
+- Legal
 - Delivery
 
 ## Out of Scope
@@ -62,7 +58,7 @@ PSIRT triages and technically assesses critical and exploitable vulnerabilities,
 SBOM production
 Container Scanning
 Customer Escalations regarding security scanner findings
-Compliance 
+Compliance
 
 ## Contacting us
 
@@ -75,13 +71,16 @@ Team members can reach the AppSec team by:
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
 ## FY26 Primary Focus Areas
+
 In FY26, our key focus areas are:
 
-Organizational Upleveling
+Organizational Upleveling:
+
 - Establish PSIRT
 - Expand Security Design & Development Services at scale
 
-Support Company and Division Priorities
+Support Company and Division Priorities:
+
 - Authorization & Authentication
 - AI Security & Safety
 - Supply Chain security
