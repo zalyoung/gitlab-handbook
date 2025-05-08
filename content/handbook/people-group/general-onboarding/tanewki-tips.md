@@ -3,7 +3,7 @@ title: TaNewKi Tips
 description: New Hires Guide to Starting at GitLab
 ---
 
-## Welcome to the Team!
+## Welcome to the Team
 
 We're thrilled that you will be joining GitLab! This guide will walk new hires through what to expect before and during your first few weeks with us.
 
@@ -25,9 +25,9 @@ The People Connect team will be your primary guide throughout onboarding and you
 - **US new hires**: Complete your I9 via LawLogix (email arrives one week before start date)
 - **Belgium/Japan new hires**: Look for an email from People Connect regarding payroll documents
 - **Team Members in certain countries**: Watch for communications from our external partners:
-    - France, Germany, Singapore, UK: Papaya
-    - Netherlands: HR Savvy
-    - South Korea: Global Upside/Safeguard
+  - France, Germany, Singapore, UK: Papaya
+  - Netherlands: HR Savvy
+  - South Korea: Global Upside/Safeguard
 - **PEO locations**: The PEO will contact you for necessary documentation
 
 #### Pre-Start Communications
@@ -35,7 +35,6 @@ The People Connect team will be your primary guide throughout onboarding and you
 - Join our TaNEWki call to meet other new team members (invite sent 1-2 weeks before start).
 - You will receive an email from Okta (our SAAS/security application portal) with an invite to register. Please ignore this email until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
 - Your GitLab email address will be created using your first name initial and full last name @gitlab.com. If you have a preferred first name or preferred last name, please send the People Connect team an email to people-connect@gitlab.com to let us know your preferred name. **Please note that some security restrictions may apply.**
-
 
 ### First day
 
@@ -59,7 +58,7 @@ The People Connect team will be your primary guide throughout onboarding and you
 
 #### Communication Tools
 
-- We're a fully remote company embracing [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/#introduction)
+- We're a fully remote company embracing [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/)
 - [Slack](/handbook/tools-and-tips/slack/) is our primary communication tool—use it to connect with other team members and interest groups
 - We use Google Workspace ([Gmail](https://workspace.google.com/intl/en/products/gmail/), [Drive](https://workspace.google.com/intl/en/products/drive/), Docs/Sheets) rather than standard office software
 - Team members can reach out to the respective teams via [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/) when needing support and assistance with a specific query
@@ -75,7 +74,6 @@ The People Connect team will be your primary guide throughout onboarding and you
 - If your laptop hasn't arrived near your start date, email `it-help@gitlab.com` (cc: `people-connect@gitlab.com`)
 - New to Mac? Check our [handbook page](/handbook/tools-and-tips/mac/) for helpful tips or explore [YouTube tutorials](https://www.youtube.com/watch?v=Ag3NWYr5CD8)
 - GitLab uses Navan for [expense](/handbook/finance/expenses/) reimbursements (access available within 2 days of hire). If you do not have access to Navan, please reach out to the Expenses team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=f984801147cc069067429ee0026d4372)
-
 
 ### New Hire FAQ: Everything You Need to Know
 
