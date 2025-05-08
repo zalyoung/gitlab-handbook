@@ -30,7 +30,6 @@ We organize our work into five pillars that emphasize Developer UX in the contex
 
 The Application Security sub-department includes two teams, the *Secure Design & Development Team* and the *Product Security Incident Response Team (PSIRT)*.
 
-
 The Application Security team partners with several other teams across the Security Division to deliver end-to-end security solutions that work for GitLab engineers.
 
 ## Shared Accountabilities
