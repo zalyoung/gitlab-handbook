@@ -282,7 +282,7 @@ The interface should include the following main building blocks:
 
 5. **Context Panel**
 
-   - Metadata about the current query (execution time, rows returned, performance metrics)
+   - Metadata about the current query (for instance execution time, rows returned, or some performance metrics)
    - Documentation and help resources
 
 This unified interface will integrate seamlessly with the standardized query system, leveraging GLQL's capabilities while presenting them in an accessible way to all users regardless of their technical expertise.
