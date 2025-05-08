@@ -181,8 +181,8 @@ Evaluate the answers to the challenge questions that the user has provided using
 
 It is possible that the user may have deleted their GitLab.com account after raising the request. In such cases it will not be possible to perform further account verification, proceed with the appropriate step below according to the request type: 
 
-  - For **FULL account deletion requests** you should proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue) and mark the GitLab.com removal actions as complete.
-  - For **GitLab.com account only deletion requests** respond with the snippet below:
+- For **FULL account deletion requests** you should proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue) and mark the GitLab.com removal actions as complete.
+- For **GitLab.com account only deletion requests** respond with the snippet below and close the issue:
     <details>
       <summary markdown="span">Request Closed - GitLab.com account already deleted</summary>
       <p>Greetings,</p>
