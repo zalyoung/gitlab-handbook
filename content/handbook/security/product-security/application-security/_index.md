@@ -10,7 +10,7 @@ The Product Application Security team works with GitLab engineers and product te
 
 ## Value Proposition
 
-We provide operational application of DevSecOps practices, data insights and security consultation so that GitLab engineers can easily deliver high quality secure products and services to customers while maintaining feature capabilities and velocity to market. 
+We provide operational application of DevSecOps practices, data insights and security consultation so that GitLab engineers can easily deliver high quality secure products and services to customers while maintaining feature capabilities and velocity to market.
 
 ## Scope & Responsibilities
 
