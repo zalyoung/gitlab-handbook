@@ -333,7 +333,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 ### Important Notes for FMMs
 
-- The FMM must fill in and `complete` the `FMC Checklist` and `Ecosystem Involvement` tasks before the FMC will be notified to move the project to WIP.
+- The FMM must fill in and `complete` the `FMC Checklist` task before the FMC will be notified to move the project to WIP.
 - Please always hit the `complete` button for each task, once the task is finished. We have many dependencies built into our Asana template and if you do not `complete` a task, the next steps will not be triggered for other team members.
 - Please add any appropriate sub-region or country tags to your project. NOTE: The main region categories (AMER, APAC, EMEA, PubSec) will be automatically associated. Many tags are already created in Asana, please utilize these tags and do not edit any existing tags.
   - If you need a new tag created, please request your tag in this [Tag Request Form](https://form.asana.com/?k=iROsm3N8LW4Wb8HY0PFxeQ&d=306855239930259).
