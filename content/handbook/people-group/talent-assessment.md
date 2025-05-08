@@ -351,7 +351,7 @@ After the calibration sessions the performance and growth potential outcomes can
 - Identifying [L&D opportunities](/handbook/people-group/learning-and-development)
 - Succession Planning
 
-## FY26-Q4 Formal Talent Assessment
+## Q4 Formal Talent Assessment
 
 ### Timeline
 
