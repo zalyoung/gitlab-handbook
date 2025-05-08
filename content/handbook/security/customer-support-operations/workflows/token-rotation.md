@@ -150,4 +150,3 @@ After an access request is approved:
 4. Log out as the integration user
 5. Restore Okta login requirements for the integration user.
 
-You will likely get a message from the SIRTBot, point to the AR and explain the provisioning flow by linking here.
