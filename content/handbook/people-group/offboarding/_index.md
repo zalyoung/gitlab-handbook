@@ -13,7 +13,7 @@ If you have any questions around the offboarding process, please be sure to revi
 
 ### Offboarding Support
 
-For system access questions and [laptop wipes](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-offboarding/) related to offboarding, send an email to `itops@gitlab.com`.
+For system access questions and [laptop wipes](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-offboarding/) related to offboarding, send an email to `gitlab-laptop-recovery@gitlab.com`.
 
 For payroll questions or outstanding expense claims, please reach out to either `uspayroll@gitlab.com` or `nonuspayroll@gitlab.com`.
 
@@ -311,7 +311,7 @@ As part of offboarding, any GitLab property valued above 1,000 USD needs to be r
 
 For laptops, please check and refer to the [Laptop Buyback Policy](/handbook/security/corporate/services/laptops/buyback/) which states that team members *may*, at GitLab's discretion, have the option to keep or buy back their existing laptops either when it gets refreshed for a new one, or when the team member is offboarding.  However, the option to purchase or keep a laptop at no cost may be voided where the team member is involved in cases of investigation, misconduct, termination for cause of any violation of [GitLab's Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), or other legal or security related inquiries.
 
-To return your laptop to GitLab, please contact `itops@gitlab.com` immediately upon offboarding.
+To return your laptop to GitLab, please contact `gitlab-laptop-recovery@gitlab.com` immediately upon offboarding.
 
 ### Navan Expense
 
