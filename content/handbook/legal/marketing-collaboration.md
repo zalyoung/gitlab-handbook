@@ -39,7 +39,7 @@ Complete all of the questions in each of the following sections of the Legal Tem
 - **Participant Information**: See instructions in the template.
 
 - **After the Promotional Game**: Note the following:
-  
+
   - **Question 2: Use of Personal Data:** You must articulate what you will do with personal data you collect through the promotional game so Legal can help you ensure that communication and/or consent is handled properly.
 
 - **Prizes**: A few notes regarding prizes:
@@ -64,7 +64,7 @@ Abbreviated Rules, with a link to the full Official Rules, must be present where
 
 **Note:** Remember to move your page from the `Current` to the `Past` lists once your promotional game is complete.
 
-Official Rules for internal GitLab team member only sweepstakes, contests and giveaways, should be placed on the [Legal - Internal Sweepstakes, Contests and Giveaways](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-internal-sweepstakes-contests-giveaways/) page of the internal handbook. Instructions for uploading Official Rules for internal promotions can be found there. 
+Official Rules for internal GitLab team member only sweepstakes, contests and giveaways, should be placed on the [Legal - Internal Sweepstakes, Contests and Giveaways](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-internal-sweepstakes-contests-giveaways/) page of the internal handbook. Instructions for uploading Official Rules for internal promotions can be found there.
 
 ## Publicity Waiver and Release
 
