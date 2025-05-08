@@ -141,7 +141,6 @@ Each panel contains:
 
 Panels handle:
 
-- The retrieval of visualization data
 - Selecting the right visualization to be rendered
 - Maintaining the current state
 - Showing potential error states
