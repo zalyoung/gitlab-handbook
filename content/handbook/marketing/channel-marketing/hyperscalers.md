@@ -4,7 +4,7 @@ title: Hyperscaler Campaign
 
 ## Hypercaler Campaign
 
-### Naming Convention Requirements
+## Naming Convention Requirements
 
 When working with hyperscaler partners like AWS and Google Cloud, it's important to follow specific naming conventions and configuration procedures. This guide explains each component of this process in detail.
 
@@ -17,9 +17,20 @@ Examples:
 - 20250409_GCP_GoogleCloudNext_Booth
 - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
 
+If there are Hyperscaler Funds involved, ensure you include the type of Funds are applied to the Campaign after the Hyperscaler Name. 
+
+- MDF: Market Development Funds for 50% coverage
+- CR: Credits for 100% coverage
+
+Examples:
+
+- 20250307_AWS_MDF_Campaign_CampaignType_Region
+- 20250307_GCP_CR_Campaign_CampaignType_Region
+
 Reference the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates) page for naming conventions for specific campaign types.
 
-### Salesforce Configuration Requirements
+
+## Salesforce Configuration Requirements
 
 When setting up these campaigns in Salesforce, you need to take two critical actions:
 
@@ -70,22 +81,23 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
    4. Request an invoice from AR team provide the PO and MDF Approval Email via issue
    5. Submit claim with proof of performance (receipt) to the Hyperscaler portal
 
-2. Partner Marketing Manager (Gabby): Administers fund allocation
+2. Fund Requesters: Initiates funding requests
 
-   1. Set up the Allocadia activity and GitLab issue assigned to the requester
+   1. Fill out the spreadsheet with campaign details
+   2. Provides Target MQL and Target Pipeline Goals
 
-3. Campaign Owners/Operations (Fund Requester can also be a Campaign Owner)
+3. Partner Marketing Manager (Gabby): Administers fund allocation
+
+   1. Set up the Allocadia activity
+   2. Create the GitLab Hyperscaler Funds issue assigned to the requester
+
+4. Campaign Owners/Operations (Fund Requester can also be a Campaign Owner)
 
    1. Create their own Asana project to manage their campaign
    2. Manages execution and setup for Marketo and Salesforce
    3. Open Zip request
-   4. Send Partner Marketing Manager receipts for Proof of Performance
-   5. Provide the link to the Tableau campaign report to issue
+   4. Send Program Owner receipts for Proof of Performance
 
-4. Fund Requesters: Initiates funding requests
-
-   1. Fill out the spreadsheet with campaign details
-   2. Provides Target MQL and Target Pipeline Goals
 
 ### Application Process
 
