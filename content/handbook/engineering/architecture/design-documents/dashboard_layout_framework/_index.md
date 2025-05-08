@@ -26,6 +26,25 @@ Don't add a h1 headline. It'll be added automatically from the title front matte
 For long pages, consider creating a table of contents.
 -->
 
+## Table of Contents
+
+- [Summary](#summary)
+- [Motivation](#motivation)
+  - [Goals](#goals)
+  - [Non-Goals](#non-goals)
+- [Proposal](#proposal)
+- [Design and implementation details](#design-and-implementation-details)
+  - [The grid](#the-grid)
+  - [Panels](#panels)
+  - [Visualizations](#visualizations)
+  - [Filters](#filters)
+  - [Error handling](#error-handling)
+- [Getting started](#getting-started)
+- [Migration strategies](#migration-strategies)
+  - [Replacing everything](#replacing-everything)
+  - [Replacing the dashboard layout](#replacing-the-dashboard-layout)
+  - [Replacing the panels](#replacing-the-panels)
+
 ## Summary
 
 Dashboards are at the heart of how our customers interact with their data. It is the means by which they are able to understand their data
@@ -37,18 +56,18 @@ experience for across GitLab. The impact of which is that that customers have an
 and have to learn how to use each dashboard and that and development teams cannot easily exchange or reuse
 between existing dashboards resulting in increased development time and maintenance cost.
 
-~"group::platform insights" is working to design, develop, and implement this unified vision for all dashboards
-at GitLab. This vision began with the [Dashboards Working Group](../../../../company/working-groups/dashboards.md) and in March 2023 culminated in a
+~"group::platform insights" is leading the design, development, and implementation of the unified dashboard vision at GitLab.
+This vision began with the [Dashboards Working Group](../../../../company/working-groups/dashboards.md) and in March 2023 culminated in a
 new [Pajamas dashboards pattern](https://design.gitlab.com/patterns/dashboards/). This pattern laid the groundwork for what a dashboard
 is at a basic level.
 
-Since then, ~"group::platform insights" have developed an [initial dashboards framework](https://docs.gitlab.com/development/fe_guide/analytics_dashboards/) for the analytics feature space.
+Since then, ~"group::platform insights" has developed an [initial dashboards framework](https://docs.gitlab.com/development/fe_guide/analytics_dashboards/) for the analytics feature space.
 This was built off the initial work for [Product Analytics](https://docs.gitlab.com/development/internal_analytics/product_analytics/).
 The framework has been adopted by ~"group::optimize" for the [Value Stream Dashboard](https://docs.gitlab.com/user/analytics/value_streams_dashboard/)
 and [AI Impact Analytics](https://docs.gitlab.com/user/analytics/ai_impact_analytics/),
 as well as currently being developed for our [Security Dashboards](https://docs.gitlab.com/user/application_security/security_dashboard/).
 
-The next stage of this work is to solidify the foundations of the dashboards framework, align on the UI/UX,
+The next stage of [this work](https://gitlab.com/groups/gitlab-org/-/epics/13801) is to solidify the foundations of the dashboards framework, align on the UI/UX,
 and what features the dashboards framework will support. There must be clear guidance on:
 
 - What a dashboard is and isn't, along with what functionality a dashboard should provide.
@@ -181,6 +200,10 @@ For per-panel filters and panel-specific errors, we should use the panel error s
 - Highlight the panel has an error through color and iconography.
 - Have a tooltip explaining the error in detail, and what the user can do, with a retry button where applicable.
 - Replace the panel content with a contextual error message.
+
+## Getting started
+
+_TODO: Add links to documentation, PoC MR, describe initial set up_
 
 ## Migration strategies
 
