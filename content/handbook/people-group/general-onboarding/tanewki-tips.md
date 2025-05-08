@@ -15,12 +15,12 @@ The People Connect team will be your primary guide throughout onboarding and you
 
 ### Before Your First Day
 
-1. Equipment Setup
+#### Equipment Setup
 
 - Watch for your Welcome Email from the Candidate Experience Specialist team with instructions for ordering your [laptop](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops) and [equipment](/handbook/finance/expenses/#equipment)
 - Once your laptop arrives, feel free to explore it (Mac users: skip creating an Apple ID—you'll create one with your GitLab email on day one).
 
-1. Documentation
+#### Documentation
 
 - **US new hires**: Complete your I9 via LawLogix (email arrives one week before start date)
 - **Belgium/Japan new hires**: Look for an email from People Connect regarding payroll documents
@@ -30,7 +30,7 @@ The People Connect team will be your primary guide throughout onboarding and you
     - South Korea: Global Upside/Safeguard
 - **PEO locations**: The PEO will contact you for necessary documentation
 
-1. Pre-Start Communications
+#### Pre-Start Communications
 
 - Join our TaNEWki call to meet other new team members (invite sent 1-2 weeks before start).
 - You will receive an email from Okta (our SAAS/security application portal) with an invite to register. Please ignore this email until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
@@ -39,7 +39,7 @@ The People Connect team will be your primary guide throughout onboarding and you
 
 ### First day
 
-1. Getting Started
+#### Getting Started
 
 - Begin your workday whenever feels comfortable—we embrace [non-linear workdays](/handbook/company/culture/all-remote/non-linear-workday/#find-what-works-for-you). Our welcome email is sent at around 6am local time.
 - Check your personal email for onboarding instructions:
@@ -50,27 +50,27 @@ The People Connect team will be your primary guide throughout onboarding and you
     1. You will then be able to access your personalized [GitLab onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md).
     1. You will also receive an invite from 1Password (for secure password management), please be sure to activate your account and store any passwords in your personal vault.
 
-1. Navigating Onboarding
+#### Navigating Onboarding
 
 - The onboarding process is [self-paced](/handbook/values/#self-service-and-self-learning), but items marked with 🔴 should be completed on the assigned day. For the other tasks, the breakdown of days are there as a guideline, please do not work beyond your working hours to feel you need to complete the tasks.
 - Take your time—you have two full weeks dedicated to onboarding. You also have the support of your manager, onboarding buddy and the whole of GitLab to help you along your journey.
 - Reach out to the People Connect team or IT Ops via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) whenever you need assistance via HelpLab or Slack.
 - There is a lot of Handbook content in the onboarding issue, that can at times require quite a bit of reading. Consider enabling one of the helpful text to speech tools in the Helpful Tools section above and remember to take breaks. Also feel free to bookmark certain Handbook pages for a later time to refer back to (except those marked with a big red dot - 🔴 which require immediate action).
 
-1. Communication Tools
+#### Communication Tools
 
 - We're a fully remote company embracing [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/#introduction)
 - [Slack](/handbook/tools-and-tips/slack/) is our primary communication tool—use it to connect with other team members and interest groups
 - We use Google Workspace ([Gmail](https://workspace.google.com/intl/en/products/gmail/), [Drive](https://workspace.google.com/intl/en/products/drive/), Docs/Sheets) rather than standard office software
 - Team members can reach out to the respective teams via [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/) when needing support and assistance with a specific query
 
-1. Week Two and Beyond
+#### Week Two and Beyond
 
 - Expect to gradually shift focus to role-based training
 - Your role training may appear in your main onboarding issue, a separate training issue, or in LevelUp
 - Your manager and onboarding buddy will guide you through role expectations
 
-1. Equipment and Expenses
+#### Equipment and Expenses
 
 - If your laptop hasn't arrived near your start date, email `it-help@gitlab.com` (cc: `people-connect@gitlab.com`)
 - New to Mac? Check our [handbook page](/handbook/tools-and-tips/mac/) for helpful tips or explore [YouTube tutorials](https://www.youtube.com/watch?v=Ag3NWYr5CD8)
