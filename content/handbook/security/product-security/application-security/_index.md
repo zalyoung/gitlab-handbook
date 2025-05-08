@@ -98,7 +98,7 @@ Application Security is rebuilding our operational business health metrics in FY
 
 ### PTO
 
-Team members that are taking PTO for 5 days or more must both discuss time off with their manager prior to scheduling to ensure visibilty and adequate team operational coverage [**and** create a PTO coverage issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=pto_coverage) to organise their coverage during their time off. The PTO coverage issue should :
+Team members that are taking PTO for 5 days or more must both discuss time off with their manager prior to scheduling to ensure visibility and adequate team operational coverage [**and** create a PTO coverage issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=pto_coverage) to organize their coverage during their time off. The PTO coverage issue should :
 
 - List any potential requests that could come to the team while on PTO
 - The team member taking PTO should organise their work accordingly and ensure the PTO coverage issue contains the context required to handle the work
