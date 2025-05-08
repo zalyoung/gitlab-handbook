@@ -147,7 +147,7 @@ The solution consists of two main components:
 At the core of our solution is a standardized query system that builds upon the existing [GitLab Query Language (GLQL)](https://docs.gitlab.com/user/glql/), extending it to work with all GitLab data sources. This approach provides several benefits:
 
 - **Reduce cognitive load** - Users will learn one query system instead of multiple query languages and methods, improving productivity and adoption
-- **Enable cross-source queries** - Data from different sources can be combined in meaningful ways
+- **Enable queries from multiple sources** - Data from different sources can be easily queried in a consistent and meaningful way
 - **Provide consistent results** - Uniform filtering and output formats across data sources
 
 #### Why GLQL is the ideal foundation
