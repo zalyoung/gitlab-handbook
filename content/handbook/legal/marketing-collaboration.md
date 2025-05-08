@@ -34,11 +34,9 @@ Complete all of the questions in each of the following sections of the Legal Tem
 
   - **Question 6, Promotional Game Description.** It is important for Legal to know what communication to entrants will look like so we can ensure that it complies with local law. The game description should be clear regarding what steps the consumer needs to take and what they need to do in order to participate.
 
-  - **Question 8, Use of Personal Data.** Clearly indicate what you will do with personal data you collect through the promotional game so Legal can help you ensure that communication and/or consent is handled properly.
-
   - **Question 9, Survey Questions.** Questions intended for use in a survey or quiz as part of a promotional game must be submitted for review, so that Legal can understand more about the promotional game, what rules may apply, and what language to include in the rules. We may have input for wording.
 
-- **Participant Information**
+- **Participant Information**: See instructions in the template.
 
 - **After the Promotional Game**: Note the following:
   
