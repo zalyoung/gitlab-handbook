@@ -3,29 +3,13 @@ title: "GitLab Fundamentals - Hands-On Lab: Repository Management and Branching"
 description: "This Hands-On Guide walks you through managing code repositories in GitLab."
 ---
 
-> Estimated time to complete: 30 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 
 In this lab, we will explore how we can create repositories to organize code, as well as configure the repositories to meet various use cases. 
 
-## Task A. Creating a repository
-
-To start, let's create a new repository for the QA team. Select the `QA` group in your **My Test Group**. From here:
-
-1. Select **New project**.
-
-1. Select **Create blank project**.
-
-1. In the **Project name**, enter `Cool App QA`. 
-
-1. Ensure that **Initialize repository with a README** is checked on. This will create a README file in the project as a starting point.
-
-1. Select **Create project**.
-
-After creating the project, you will be navigated to the repository of the project. You will see a single file titled `README.md`, which contains a basic readme template. Throughout the course, we will explore different ways to work with this repository. To start, let's look at how we can configure this project.
-
-## Task B. Configuring your project
+## Task A. Configuring your project
 
 In the left sidebar, you will see a few new options available when you are in your project.
 
@@ -53,7 +37,7 @@ In most settings, you will want to toggle a few settings for your repository. Fi
 
 With this setting changed, now no one can directly push to `main`. Let's test this out to see the result.
 
-## Task C. Testing pushes to main
+## Task B. Testing pushes to main
 
 1. In the left sidebar, select **Code > Repository**.
 
