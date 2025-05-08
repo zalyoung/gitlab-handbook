@@ -91,6 +91,7 @@ CREATE TABLE commit_notifications (
 `Namespace_id` column should be that same as in the referenced `notifications` table, to be used as a sharding key. 
 `Issue_notifications` table will serve all work_items types, including epics and OKRs. We will use `work_item_type` field in `issues` table to differentiate between types. 
 
+Example queries with plans are listed in [this snippet](https://gitlab.com/-/snippets/4840572).
 
 ### 🔍 Entity Relationship Diagram
 
@@ -178,7 +179,7 @@ class IssueNotification < ApplicationRecord
 end
 ```
 
-Repeat similarly for `NoteNotification`, `MergeRequestNotification`, and `EpicNotification` etc.
+Repeat similarly for `NoteNotification`, `MergeRequestNotification`, and `NoteNotification` etc.
 
 ---
 
