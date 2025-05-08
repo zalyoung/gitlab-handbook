@@ -20,21 +20,21 @@ We require that all communication between Cell services is secure and both parti
 
 ## Goals
 
-- Ensure all communication between Cell services is secure with verified identities on both sides.
-- Leverage existing Internal TLS infrastructure for consistent implementation.
+- Ensure that all communication between Cell services is encrypted, uniquely identified, authenticated, and authorized on both sides.
+- Leverage the existing PKI Interface that is used for Internal TLS.
 - Provide a clear implementation path for both server and client services.
 - Enable secure service-to-service authentication without introducing unnecessary complexity.
-- Support authorization based on mTLS certificates where appropriate.
+- Support Authorization based on mTLS certificates where appropriate.
 
 ### Scope
 
-This document focuses specifically on implementing mutual TLS (mTLS) authentication between Cell and it's services.
+This document focuses specifically on implementing mutual TLS (mTLS) for Authentication and Authorization between Cell and its services.
 
 ### Out of Scope
 
 - Implementation of a service mesh (e.g., Istio) for encrypting traffic via mTLS is out of scope for the following reasons:
   - We already leverage TLS inside a cell using [Internal TLS](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/internal_tls.html), so extending this existing blueprint to support external services is more consistent with our architecture.
-  - While service mesh provides a transparent way for application developers to implement mTLS with external services, this approach introduces security risks. If a vulnerability exists, attackers could exploit it to use the client as a proxy to send unauthorized requests to the mTLS server. The fundamental issue is that service meshes authorize communications based solely on service identity rather than validating the legitimacy of individual requests within those services.
+  - While service mesh provides a transparent way for application developers to implement mTLS with external services, this approach introduces significant security risks when used as your sole authorization mechanism without additional application-level controls (such as JWTs). If a vulnerability exists, attackers could exploit it to use the client as a proxy to send unauthorized requests to the mTLS server. The fundamental issue is that service meshes authorize communications based solely on service identity rather than validating the legitimacy of individual requests within those services, making it inadequate as a complete authorization solution in the absence of request-level validation mechanisms.
 - While TLS is used to secure communications between CDNs/load balancers and their backends, as well as between internal services, this scope explicitly excludes:
   - Communication from external clients to GitLab services.
   - Communication between services inside a cell and those outside a cell that are not managed cells services
