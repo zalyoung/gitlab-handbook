@@ -1,15 +1,15 @@
 ---
-title: Staff IT Auditor
+title: IT Staff Auditor
 description: responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational, finance, and internal controls with a specialty in IT risk and security
 ---
 
 The position is additionally responsible for identifying and assisting in documenting existing internal controls, new internal controls, and establishing an internal monitoring function to audit the company's compliance with such internal controls. The position will have a key role in assessing and providing recommendations to the company's compliance with the requirements of the Sarbanes-Oxley Act of 2002 (SOX), and treatment of IT and security risks.
 
-The Staff IT Auditor reports to the Senior Internal Audit Manager, IT and Security.
+The IT Staff Auditor reports to the Senior Internal Audit Manager, IT and Security.
 
 ### Job Grade
 
-The Staff IT Auditor is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The IT Staff Auditor is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
 
