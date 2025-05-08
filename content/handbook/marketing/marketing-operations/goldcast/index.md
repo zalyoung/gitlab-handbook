@@ -428,6 +428,13 @@ All generated content uses what is called a "brand kit", which directs all gener
 
 All generated content made within Content Lab can be exported for use outside of the platform 
 
+## Requesting new creative assets
+
+Goldcast supplies guidelines for creative assets on two different pages:
+
+- [Image and Video Specifications for Goldcast Events](https://help.goldcast.io/design/4406894301979-goldcast-design-specifications)
+- [Event Look & Feel: Branding your event](https://help.goldcast.io/design/16695909382427-event-look-feel-branding-your-event-#list-of-specs-and-assets-30)
+
 ## Link to the original implementation training with Goldcast
 
 All GitLab team members can find all 4 implementation training videos performed by Goldcast staff in [this folder](https://drive.google.com/drive/folders/0AHjp9Psp-iDuUk9PVA) 
