@@ -158,7 +158,7 @@ The project manager clarifies scope, identifies dependent work, appoints DRIs fo
 
 The DRI maintains a Wiki page or design document for the project containing a project timeline, project status, links to work items, key participants, a [dogfooding proposal](#dogfooding), and a decision register. This is encouraged for all important projects, especially Tier 1 and Tier 2 Roadmap commitments. It acts as a Single Source of Truth (SSoT) that greatly improves cross-functional collaboration and ensures decisions made are captured. Previous examples are:
 
-- [Configurable Statuses](/handbook/engineering/architecture/design-documents/work_items_custom_status.md)
+- [Configurable Statuses](/handbook/engineering/architecture/design-documents/work_items_custom_status/)
 - [Custom Fields](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Custom-Fields/Dashboard)
 - [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
 - [Epic Work Item Type](https://gitlab.com/gitlab-org/plan-stage/work-items-ga-epics/-/wikis/home)
