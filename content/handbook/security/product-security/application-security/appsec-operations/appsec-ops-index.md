@@ -5,7 +5,7 @@ description: Application Security Team Operations home page
 <!-- markdownlint-disable MD052 -->
 Last updated: May 8, 2025
 
-#### The [**Application Security Subdepartment**](handbook/security/product-security/application-security) is made up of two teams, the [**Secure Development and Design Team**](/handbook/security/product-security/application-security/appsec-operations/SDD-services) and the [**Product Security Incident Response Team (PSIRT)**](~/content/handbook/security/product-security/application-security/appsec-operations/PSIRT-services). These two teams work together to anticipate and prevent the introduction of vulnerabilities during design and development, as well as identify, assess, and respond to security vulnerabilities discovered in GitLab products and services.
+The [**Application Security Subdepartment**](/handbook/security/product-security/application-security) is made up of two teams, the [**Secure Development and Design Team**](/handbook/security/product-security/application-security/appsec-operations/SDD-services) and the [**Product Security Incident Response Team (PSIRT)**](/handbook/security/product-security/application-security/appsec-operations/PSIRT-services). These two teams work together to anticipate and prevent the introduction of vulnerabilities during design and development, as well as identify, assess, and respond to security vulnerabilities discovered in GitLab products and services.
 
 ## Helpful Quicklinks for GitLab Engineers
 
