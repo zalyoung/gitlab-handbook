@@ -117,7 +117,7 @@
 /content/handbook/engineering/development/analytics/monitor/optimize.md @dennis @blabuschagne
 /content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/custom-models @m_gill @timzallmann @sean_carroll
+/content/handbook/engineering/development/data-science/ai-powered/custom-models @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/duo-workflow @bastirehm @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/model-validation @m_gill
@@ -248,7 +248,7 @@
 /content/handbook/engineering/readmes/rebecca-spainhower.md @rspainhower
 /content/handbook/engineering/readmes/ronnie-alfaro.md @ralfaro
 /content/handbook/engineering/readmes/savas-vedova.md @svedova
-/content/handbook/engineering/readmes/sean-carroll.md @sean_carroll
+/content/handbook/engineering/readmes/sean-carroll.md @m_gill
 /content/handbook/engineering/readmes/thong-kuah.md @tkuah
 
 ^[enterprise-data]
