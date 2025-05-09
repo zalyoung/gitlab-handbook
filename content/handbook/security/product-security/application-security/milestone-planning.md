@@ -85,6 +85,7 @@ DRIs are responsible for providing weekly updates at the end of the week on thei
  * :green_circle: On Track / :yellow_circle: Needs Attention / :red_circle: At Risk
  * \[Brief explanation of status\]
 ```
+These reports provide critical visibility into progress, plans, and potential issues, allowing leadership to make informed decisions and offer timely support when needed.
 
 Updating the issue milestone is required:
 
