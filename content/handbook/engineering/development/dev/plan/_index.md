@@ -158,6 +158,7 @@ The project manager clarifies scope, identifies dependent work, appoints DRIs fo
 
 The DRI maintains a Wiki page or design document for the project containing a project timeline, project status, links to work items, key participants, a [dogfooding proposal](#dogfooding), and a decision register. This is encouraged for all important projects, especially Tier 1 and Tier 2 Roadmap commitments. It acts as a Single Source of Truth (SSoT) that greatly improves cross-functional collaboration and ensures decisions made are captured. Previous examples are:
 
+- [Configurable Statuses](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/work_items_custom_status/)
 - [Custom Fields](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Custom-Fields/Dashboard)
 - [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
 - [Epic Work Item Type](https://gitlab.com/gitlab-org/plan-stage/work-items-ga-epics/-/wikis/home)
@@ -172,7 +173,7 @@ Testing that occurs during ongoing development. This is limited to GitLab's subg
 
 ##### End-of-line testing
 
-End-of-line (EOL) testing is the final step before release to customers. The finished product is delivered to all GitLab team-members, usually by enabling it for the `gitlab-com` and `gitlab-org` groups. This is accompanied by collection of internal feedback, typically using a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager. 
+End-of-line (EOL) testing is the final step before release to customers. The finished product is delivered to all GitLab team-members, usually by enabling it for the `gitlab-com` and `gitlab-org` groups. This is accompanied by collection of internal feedback, typically using a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager.
 
 No new scope will be accepted at this time without significant justification and without restarting the testing period. Only defects and fit & finish issues identified during testing will be addressed.
 
