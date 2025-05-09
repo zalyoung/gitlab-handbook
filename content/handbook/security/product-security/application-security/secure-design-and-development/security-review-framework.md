@@ -25,7 +25,7 @@ How the security review framework fits into the Security Review Process is visua
 
 ## 1: Security Team Routing
 
-The first step is to determine which security team(s) should be engaged for the security review of a feature ([\~"type::feature"](../../../../product/groups/product-analysis/engineering/metrics.md#work-type-classification:~:text=type%3A%3Abug%22.-,~%22type%3A%3Afeature%22,-%3A%20Effort%20to%20deliver)). This routing happens before the detailed risk assessment to ensure teams only answer questions relevant to their domain.
+The first step is to determine which security team(s) should be engaged for the security review of the feature. This routing happens before the detailed risk assessment to ensure teams only answer questions relevant to their domain.
 
 ### Initial Triage Questions
 
