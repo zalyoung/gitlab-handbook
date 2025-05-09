@@ -49,17 +49,19 @@ Please direct the customer to [the troubleshooting page](https://docs.gitlab.com
 
 To find the error specifically related to a customer on sentry, try the following:
 
-1. Get customer ID from [CustomersDot](https://customers.gitlab.com/customers/sign_in):
+1. Get customer ID from CustomersDot:
    - Log into <https://customers.gitlab.com/admin>
    - Go to `Customers` search page by clicking on `Customers` on the left panel
    - Search for customer using one of the following: email, domain, or First/Last name (in case customer registered with a different email)
    - Click on one of the info, pencil, or person icon in the result
    - Take the customer ID from the URL <https://customers.gitlab.com/admin/customer/customerID/pagepath>
 1. Finding the error message for the customer in Sentry:
-   - Go to <https://sentry.gitlab.net/gitlab/customersgitlabcom/issues/>
-   - Use `user:customerID` (replace `customerID` with the actual customerID from CustomersDot)
-   - Open sentry issue → Click on `EVENTS`
-   - Use customer email to search for the relevant event
+   - Go to <https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=8>
+   - Use `user.id:customerID` (replace `customerID` with the actual customerID from CustomersDot)
+   - Open sentry issue → Click on `All Events`
+   - Filter for the specific user again using `user.id:customerID`
+   - Click on any event to see details of the error message
+   - You can also repeat this search using the customer's email with `user.email:customerFullEmail`
 
 ### Getting error messages from CustomersDot Kibana logs
 
