@@ -67,7 +67,7 @@ The Talent Aquisition team should contact the Team Member Relations team (TMR) i
 
 ### Confidentiality
 
-As stated in the **Confidentiality and Corporate Assets and Corporate Opportunities** section of the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), team members are, on occasion, entrusted with confidential GitLab information and with the confidential information of GitLab suppliers, customers, or other business partners. This information may include:
+As stated in the **Confidentiality and Corporate Assets and Corporate Opportunities** section of the [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf), team members are, on occasion, entrusted with confidential GitLab information and with the confidential information of GitLab suppliers, customers, or other business partners. This information may include:
 
 1. technical or scientific information about current and future services or research;
 1. business or marketing plans or projections;
