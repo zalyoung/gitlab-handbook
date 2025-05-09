@@ -325,10 +325,10 @@ This approach works seamlessly with KubeDNS as the DNS provider for the cluster 
 - [Project Authorization for service access](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/ops/private-service-connect.tf#L22)
 - [DNS Zone Configuration in consumer projects](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/addc5fbd9627fa2fc4a097be36e6563bfe310f44/environments/gitlab-analysis/private_service_connect.tf#L54)
 
+  [Private Service Connect]: https://cloud.google.com/vpc/docs/private-service-connect/
+
 ## Supported clients & servers
 
 | Client | Server |
 | ------ | ------ |
 |GitLab|Topology Service|
-
-[Private Service Connect]: https://cloud.google.com/vpc/docs/private-service-connect
