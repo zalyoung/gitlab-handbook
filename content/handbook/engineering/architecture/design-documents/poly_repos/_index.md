@@ -22,6 +22,14 @@ for short.
 
 ## Summary
 
+The "poly repos" architecture introduces "Change Sets" to GitLab, enabling organizations with multi-repository
+codebases (like Android Open Source Project) to manage cross-repository changes as a single unit.
+This delivers critical workflow improvements by allowing teams to review, test, and merge related changes across multiple repositories simultaneously, with the ability to revert these changes together if needed,
+all while maintaining reproducible CI builds.
+
+This capability directly addresses the complex integration challenges faced by enterprises working with
+distributed codebases, reducing development friction and improving software delivery reliability.
+
 ## Motivation
 
 Many customers have source code repositories that depend on other repositories. Android developers,
@@ -275,25 +283,25 @@ repositories:
     description: "Qualcomm display HAL"
 ```
 
-### Possible iteration steps
+## Iteration plan
 
 As a thought experiment, let's suppose that we start on fully supporting poly-repos
 workflows. Here is a rough outline on how it might proceed:
 
-#### v0.1: Introduce a Change Set object
+### v0.1: Introduce a Change Set object
 
 1. Can create a Change Set and link MRs.
 1. Change Set will aggregate merge request status from multiple merge requests.
 1. Links to MR diffs.
 1. API support for retrieving MRs
 
-#### v0.2: Change Set Merge V1
+### v0.2: Change Set Merge V1
 
 1. Best effort merging, no guarantees of atomicity.
 2. Aggregate reverts across projects.
 3. Simplistic permissions: Merge only available to user who can initiate merge for all projects?
 
-#### v0.3: Code Review with Change Sets V1
+### v0.3: Code Review with Change Sets V1
 
 1. Change Set diffs aggregated in single view.
 1. Possible to see diffs from one specific project.
