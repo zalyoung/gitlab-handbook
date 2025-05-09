@@ -573,6 +573,7 @@
 ^[support]
 /content/handbook/support/ @gitlab-com/support
 /content/handbook/support/support-idk.md @irisb @jgianoutsos @klang
+/content/handbook/support/browser-extensions/_index.md @anton
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [support-required-approvals]
