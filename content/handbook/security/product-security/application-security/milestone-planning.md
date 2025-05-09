@@ -65,7 +65,7 @@ Any issue being worked on by an Application Security team member must include:
 
 ### Updating issues health
 
-DRIs are responsible for providing weekly updates, at the end of the week, on the topics they are working following the following format:
+DRIs are responsible for providing weekly updates at the end of the week on their assigned topics using the following format.
 
 ```md
  **What's happened since last update:**
