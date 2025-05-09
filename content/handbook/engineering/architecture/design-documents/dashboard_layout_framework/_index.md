@@ -52,7 +52,7 @@ and use it to meet their business needs.
 
 However, at GitLab, our dashboards have always been inherently feature-focused, without clear UX guidance or
 common UI framework instructing _how_ to build a dashboard. The result is that there is no single Dashboard
-experience for across GitLab. The impact of which is that that customers have an inconsistent user experience
+experience for across GitLab. The impact of which is that customers have an inconsistent user experience
 and have to learn how to use each dashboard and that and development teams cannot easily exchange or reuse
 between existing dashboards resulting in increased development time and maintenance cost.
 
@@ -85,7 +85,7 @@ augment our existing offering with clearer visuals and AI integration.
 
 ### Goals
 
-- Clear guidelines on what consistutes a dashboard layout , what functionality it contains, and how to use the framework.
+- Clear guidelines on what constitutes a dashboard layout , what functionality it contains, and how to use the framework.
 - Adopt the dashboards framework across GitLab, especially where data is being used for analysis.
 - An agnostic dashboards framework, not tied to any one feature, giving engineers the tools needed to quickly and efficiently set up and use dashboards.
 - Link uses of the dashboards framework together in preparation for [dashboards navigation restructuring](https://gitlab.com/groups/gitlab-org/-/epics/16940).
