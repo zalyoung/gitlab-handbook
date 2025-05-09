@@ -105,12 +105,6 @@ Communicate broadly when you will be away so other people can manage time effici
 1. Please see the [On-Call](/handbook/engineering/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
 1. If you are a people manager, please complete the following:
     - Workday: set up a [delegate](https://docs.google.com/document/d/1BDME_47-mif1ZihO5Id-wejbjAU_-PLIr1dJ46z1F_c/edit) in Workday to be able to approve transactions on your behalf while you are away
-    - Navan Expense: delegate expense approval to your back-up team member by following these steps:
-        - Navan Expense
-        - Settings
-        - Your Account
-        - Vacation Delegate - enter their email address and Payroll will grant the backup team member the necessary access
-        - ***Note** - remove the vacation delegate after your PTO*
 
 ### Communicating Time Off for Emergency Situations
 
