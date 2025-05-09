@@ -6,7 +6,7 @@ The Infrastructure Department, responsible for managing GitLab SaaS environment,
 
 ## Workflow
 
-An integral part of any irregular situation occurring on GitLab SaaS is the [incident management process](incident-management/_index.md).
+An integral part of any irregular situation occurring on GitLab SaaS is the [incident management process](../incident-management/).
 This process is used for platform degradation and outage events, but it is also the process for emergency changes such as addressing critical vulnerabilities.
 
 After an incident is declared, the person on call will follow the incident management process, which can require additional sets of actions when dealing with an emergency change.

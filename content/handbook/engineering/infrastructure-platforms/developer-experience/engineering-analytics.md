@@ -111,7 +111,7 @@ We assign the stable counterpart by Engineering Division's sub-departments. This
 |----------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Engineering    | Engineering Analytics Team                                          | [Eng PI Page](/handbook/engineering/performance-indicators)                             |
 | Development    | [Lily](https://gitlab.com/lmai1), [Dani](https://gitlab.com/ddeng1) | [Dev PI Page](/handbook/engineering/development/performance-indicators)                 |
-| Infrastructure | [Clément](https://gitlab.com/clem.lr)                               | [Infra PI Page](/handbook/engineering/infrastructure/performance-indicators)            |
+| Infrastructure | [Clément](https://gitlab.com/clem.lr)                               | [Infra PI Page](/handbook/engineering/infrastructure-platforms/performance-indicators)            |
 | Quality        | [Raul](https://gitlab.com/raulrendon)                               | Quality PI Page                                                                         |
 | Security       | [Dani](https://gitlab.com/ddeng1)                                   | [Security PI Page](/handbook/security/performance-indicators)                           |
 | Support        | [Lily](https://gitlab.com/lmai1)                                    | [Support PI Page](/handbook/support/performance-indicators)                             |

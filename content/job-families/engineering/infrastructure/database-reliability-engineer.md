@@ -148,14 +148,14 @@ Influence and Maturity:
 
 Database Reliability Engineers have the following job-family performance indicators:
 
-- [GitLab.com Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-availability)
-- [GitLab.com Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance)
-- [Apdex and Error SLO per Service](/handbook/engineering/infrastructure/performance-indicators/#apdex-and-error-slo-per-service)
-- [Mean Time to Detection](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-detection-mttd)
-- [Mean Time to Resolution](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-resolution-mttr)
-- [Mean Time Between Failure](/handbook/engineering/infrastructure/performance-indicators/#mean-time-between-failures-mtbf)
-- [Mean Time to Production](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
-- [Disaster Recovery Time to Recovery](/handbook/engineering/infrastructure/performance-indicators/#disaster-recovery-dr-time-to-recover)
+- [GitLab.com Availability](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlab-com-availability)
+- [GitLab.com Performance](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlab-com-performance)
+- [Apdex and Error SLO per Service](/handbook/engineering/infrastructure-platforms/performance-indicators/#apdex-and-error-slo-per-service)
+- [Mean Time to Detection](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-detection-mttd)
+- [Mean Time to Resolution](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-resolution-mttr)
+- [Mean Time Between Failure](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-between-failures-mtbf)
+- [Mean Time to Production](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-production-mttp)
+- [Disaster Recovery Time to Recovery](/handbook/engineering/infrastructure-platforms/performance-indicators/#disaster-recovery-dr-time-to-recover)
 
 ## Hiring Process
 

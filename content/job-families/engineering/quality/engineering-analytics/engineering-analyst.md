@@ -158,8 +158,8 @@ The Staff Engineering Analyst role extends the [Senior Engineering Analyst](#sen
 - Handbook MR Rate
 - Open Engineering Analytics Issue Age
 - Infrastructure Specialty:
-  - [Infrastructure Cost per GitLab.com Monthly Active Users](/handbook/engineering/infrastructure/performance-indicators/#infrastructure-cost-per-gitlab-com-monthly-active-users)
-  - [Infrastructure cost vs plan](/handbook/engineering/infrastructure/performance-indicators/#infrastructure-cost-vs-plan)
+  - [Infrastructure Cost per GitLab.com Monthly Active Users](/handbook/engineering/infrastructure-platforms/performance-indicators/#infrastructure-cost-per-gitlab-com-monthly-active-users)
+  - [Infrastructure cost vs plan](/handbook/engineering/infrastructure-platforms/performance-indicators/#infrastructure-cost-vs-plan)
 
 ## Hiring Process
 

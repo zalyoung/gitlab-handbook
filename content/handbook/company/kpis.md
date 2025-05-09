@@ -155,7 +155,7 @@ The logic is the same, but the filter changes.
 A KPI or metric consists of multiple things:
 
 1. Definition: What is the data source? How is it calculated? What fields are included? What caveats are considered? Why is it chosen?
-    - Note: Please see [Infrastructure Hosting Cost per MAU](/handbook/engineering/infrastructure/performance-indicators/#infrastructure-hosting-cost-per-gitlab-com-monthly-active-users) as an example.
+    - Note: Please see [Infrastructure Hosting Cost per MAU](/handbook/engineering/infrastructure-platforms/performance-indicators/#infrastructure-hosting-cost-per-gitlab-com-monthly-active-users) as an example.
 1. Target: What we strive to be above, e.g. ARR has a target
 1. Cap: What we strive to be below, e.g. Turnover has a cap
 1. [Job family](/handbook/hiring/job-families/): link to job families with this as a performance indicator

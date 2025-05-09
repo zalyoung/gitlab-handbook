@@ -385,10 +385,10 @@ address issues from the community.
 
 Engineering Productivity Engineers have the following job-family performance indicators.
 
-- [Average CE/EE pipeline duration per month](/handbook/engineering/infrastructure/performance-indicators/#average-ce-ee-pipeline-duration-per-month)
-- [Successful vs failed CE/EE review app deployments per month](/handbook/engineering/infrastructure/performance-indicators/#successful-vs-failed-ce-ee-review-app-deployments-per-month)
-- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/infrastructure/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
-- [New issue first triage SLO](/handbook/engineering/infrastructure/performance-indicators/#new-issue-first-triage-slo)
+- [Average CE/EE pipeline duration per month](/handbook/engineering/infrastructure-platforms/performance-indicators/#average-ce-ee-pipeline-duration-per-month)
+- [Successful vs failed CE/EE review app deployments per month](/handbook/engineering/infrastructure-platforms/performance-indicators/#successful-vs-failed-ce-ee-review-app-deployments-per-month)
+- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/infrastructure-platforms/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
+- [New issue first triage SLO](/handbook/engineering/infrastructure-platforms/performance-indicators/#new-issue-first-triage-slo)
 
 ### Application Performance
 

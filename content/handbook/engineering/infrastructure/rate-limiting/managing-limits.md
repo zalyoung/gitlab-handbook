@@ -98,7 +98,7 @@ In cases of incident remediation, see [Rate Limiting Runbooks](https://gitlab.co
 1. Document the limits on docs.gitlab.com
    - Make sure the limit is documented, and if it's configurable, what the default is.
    - Note: This may not always be possible for Cloudflare limits.
-1. Follow the [Change Management](/handbook/engineering/infrastructure/change-management/) process
+1. Follow the [Change Management](/handbook/engineering/infrastructure-platforms/change-management/) process
    - Any change to rate limits is considered a `Criticality 2` change, as they have the potential to disrupt traffic flow.
    - This requires approval from `@gitlab-org/saas-platforms/inframanagers`
 

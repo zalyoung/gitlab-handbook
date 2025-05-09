@@ -267,7 +267,7 @@ Each member of the Digital Experience team should be listed as a participant in 
 
 ## Production Change Lock (PCL)
 
-Similar to [the engineering department](/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl), we sometimes temporarily halt production changes to [the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) when team availability is reduced, or we expect atypical user behavior (such as during high-visibility public events).
+Similar to [the engineering department](/handbook/engineering/infrastructure-platforms/change-management/#production-change-lock-pcl), we sometimes temporarily halt production changes to [the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) when team availability is reduced, or we expect atypical user behavior (such as during high-visibility public events).
 
 Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called Production Change Lock (PCL). We are listing the events here so that teams are aware of the PCL periods.
 

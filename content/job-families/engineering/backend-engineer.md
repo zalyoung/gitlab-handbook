@@ -431,10 +431,10 @@ address issues from the community.
 
 Engineering Productivity Engineers have the following job-family performance indicators.
 
-- [GitLab project master pipeline success rate](/handbook/engineering/infrastructure/performance-indicators/#gitlab-project-master-pipeline-success-rate)
-- [Average merge request pipeline duration for GitLab](/handbook/engineering/infrastructure/performance-indicators/#average-merge-request-pipeline-duration-for-gitlab)
-- [Average cost per merge request pipeline for GitLab](/handbook/engineering/infrastructure/performance-indicators/#average-cost-per-merge-request-pipeline-for-gitlab)
-- [Review App deployment success rate for GitLab](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate-for-gitlab)
+- [GitLab project master pipeline success rate](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlab-project-master-pipeline-success-rate)
+- [Average merge request pipeline duration for GitLab](/handbook/engineering/infrastructure-platforms/performance-indicators/#average-merge-request-pipeline-duration-for-gitlab)
+- [Average cost per merge request pipeline for GitLab](/handbook/engineering/infrastructure-platforms/performance-indicators/#average-cost-per-merge-request-pipeline-for-gitlab)
+- [Review App deployment success rate for GitLab](/handbook/engineering/infrastructure-platforms/performance-indicators/#review-app-deployment-success-rate-for-gitlab)
 
 #### Hiring Process
 

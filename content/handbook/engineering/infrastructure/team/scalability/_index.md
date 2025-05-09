@@ -51,8 +51,8 @@ We've moved the direction to the direction section [here](https://about.gitlab.c
 
 ## Indicators
 
-The Infrastructure Department is concerned with the [availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability)
-and [performance](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance) of GitLab's SaaS platforms.
+The Infrastructure Department is concerned with the [availability](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlabcom-availability)
+and [performance](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlab-com-performance) of GitLab's SaaS platforms.
 
 GitLab.com's service level availability is visible on the [SLA Dashboard](https://dashboards.gitlab.com/d/general-slas/general-slas?orgId=1),
 and we use the [General GitLab Dashboard](https://dashboards.gitlab.net/d/general-public-splashscreen/general-gitlab-dashboards)

@@ -438,7 +438,7 @@ Please declare a **security incident** if:
 
 ### I want to make a change to a setting in the GitLab.com Admin interface
 
-The Infrastructure team is the admin of GitLab.com, and any changes to product tuneables go through the [change request workflow](/handbook/engineering/infrastructure/change-management/#change-request-workflows).
+The Infrastructure team is the admin of GitLab.com, and any changes to product tuneables go through the [change request workflow](/handbook/engineering/infrastructure-platforms/change-management/#change-request-workflows).
 
 ### Trials and Prospect Support
 

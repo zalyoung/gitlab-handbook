@@ -39,7 +39,7 @@ Integral parts of this vision:
   - Improve usage of [Review apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html) for GitLab development and testing.
 - **Engineering support**:
   - [`#master-broken`](/handbook/engineering/workflow/#broken-master) pipeline monitoring.
-  - KPI corrective actions such as [Review Apps stabilization](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate).
+  - KPI corrective actions such as [Review Apps stabilization](/handbook/engineering/infrastructure-platforms/performance-indicators/#review-app-deployment-success-rate).
   - [Merge Request Coach](/job-families/expert/merge-request-coach/) for ~"Community contribution" merge requests.
 - **Engineering workflow**: Develop automated processes for improving label classification hygiene in support of product and Engineering workflows.
   - [Automated issues and merge requests triage](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
@@ -112,16 +112,16 @@ graph LR
 
 ### KPIs
 
-[Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators/) are our single source of truth
+[Infrastructure Performance Indicators](/handbook/engineering/infrastructure-platforms/performance-indicators/) are our single source of truth
 
-- [Master Pipeline Stability](/handbook/engineering/infrastructure/performance-indicators/#master-pipeline-stability)
-- [Merge request pipeline duration](/handbook/engineering/infrastructure/performance-indicators/#merge-request-pipeline-duration)
+- [Master Pipeline Stability](/handbook/engineering/infrastructure-platforms/performance-indicators/#master-pipeline-stability)
+- [Merge request pipeline duration](/handbook/engineering/infrastructure-platforms/performance-indicators/#merge-request-pipeline-duration)
 
 ### PIs
 
-- [Review App deployment success rate](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate)
-- [Time to First Failure P80](/handbook/engineering/infrastructure/performance-indicators/#time-to-first-failure-p80)
-- [Time to First Failure](/handbook/engineering/infrastructure/performance-indicators/#time-to-first-failure)
+- [Review App deployment success rate](/handbook/engineering/infrastructure-platforms/performance-indicators/#review-app-deployment-success-rate)
+- [Time to First Failure P80](/handbook/engineering/infrastructure-platforms/performance-indicators/#time-to-first-failure-p80)
+- [Time to First Failure](/handbook/engineering/infrastructure-platforms/performance-indicators/#time-to-first-failure)
 
 ### SPACE
 
@@ -129,9 +129,9 @@ graph LR
 
 ### Shared
 
-- [Quality Handbook MR Rate](/handbook/engineering/infrastructure/performance-indicators/#quality-handbook-mr-rate)
-- [Quality Department Promotion Rate](/handbook/engineering/infrastructure/performance-indicators/#quality-department-promotion-rate)
-- [Quality Department Discretionary Bonus Rate](/handbook/engineering/infrastructure/performance-indicators/#quality-department-discretionary-bonus-rate)
+- [Quality Handbook MR Rate](/handbook/engineering/infrastructure-platforms/performance-indicators/#quality-handbook-mr-rate)
+- [Quality Department Promotion Rate](/handbook/engineering/infrastructure-platforms/performance-indicators/#quality-department-promotion-rate)
+- [Quality Department Discretionary Bonus Rate](/handbook/engineering/infrastructure-platforms/performance-indicators/#quality-department-discretionary-bonus-rate)
 
 ### Dashboards
 
@@ -185,7 +185,7 @@ GitLab contributors. The team will follow these guidelines in the spirit of [Git
 
 ##### Critical pipeline changes
 
-Pipeline changes that have the potential to have an impact on the GitLab.com infrastructure should follow the [Change Management](/handbook/engineering/infrastructure/change-management) process.
+Pipeline changes that have the potential to have an impact on the GitLab.com infrastructure should follow the [Change Management](/handbook/engineering/infrastructure-platforms/change-management) process.
 
 ##### Non-critical pipeline changes
 

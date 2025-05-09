@@ -3,7 +3,7 @@ title: "Engineering Error Budgets"
 description: "The error budget provides a clear, objective metric that determines how unreliable the service is allowed to be within a single quarter."
 ---
 
-As part of [our strategy](https://about.gitlab.com/direction/#3-year-strategy) to [reinforce GitLab SaaS](https://about.gitlab.com/direction/core_platform/dotcom/) as an enterprise grade platform ready for business critical workloads, GitLab.com has specific [Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) and [Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-performance) targets.
+As part of [our strategy](https://about.gitlab.com/direction/#3-year-strategy) to [reinforce GitLab SaaS](https://about.gitlab.com/direction/core_platform/dotcom/) as an enterprise grade platform ready for business critical workloads, GitLab.com has specific [Availability](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlabcom-availability) and [Performance](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlabcom-performance) targets.
 
 These targets give our users indication of the platform reliability.
 
@@ -117,7 +117,7 @@ The stakeholders in the Error Budget process are:
 
 ## Budget allocation
 
-Error budget is calculated based on the [availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) targets.
+Error budget is calculated based on the [availability](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlabcom-availability) targets.
 
 With the current target of `99.95%` availability, allowed unavailability window is `20 minutes per 28 day period`.
 
@@ -293,7 +293,7 @@ Improvement` and the `group::` label so they can be tracked in reports.
 | Role | K/PI | Target | Current Tracking Status |
 | --- | --- | --- | --- |
 | Product Management | [Maintaining the Spend of the Error Budget](https://10az.online.tableau.com/#/site/gitlab/views/Draft-ErrorBudgetDashboard/ErrorBudgetOverviewDashboard) | 20 minutes over 28 days (equivalent to 99.95% availability) | Complete - In Sisense |
-| Infrastructure | [Setting the Error Budget Minutes and Availability Target](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) | 99.95% (20 minutes over 28 days Error Budget) | Complete - In Grafana |
+| Infrastructure | [Setting the Error Budget Minutes and Availability Target](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlabcom-availability) | 99.95% (20 minutes over 28 days Error Budget) | Complete - In Grafana |
 
 - For groups with [engineering allocations](/handbook/product/product-processes/#prioritization-framework), the responsibility to maintain the spend of error budget is with the development team instead of the product management team.
 
@@ -327,7 +327,7 @@ The changes below aim to increase the maturity of the Error Budgets.
 
 Product Development teams are encouraged to:
 
-- Continue working on [Rapid Action](/handbook/engineering/development/#rapid-action), [Infradev](/handbook/engineering/workflow/#availability-and-performance-refinement), [Corrective Actions](/handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership), [Security](/handbook/security/product-security/vulnerability-management/#vulnerability-management-overview), and [Engineering Allocation](/handbook/product/product-processes/#prioritization-framework) issues per our [Prioritization guidelines](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
+- Continue working on [Rapid Action](/handbook/engineering/development/#rapid-action), [Infradev](/handbook/engineering/workflow/#availability-and-performance-refinement), [Corrective Actions](/handbook/engineering/infrastructure-platforms/incident-review/#incident-review-issue-creation-and-ownership), [Security](/handbook/security/product-security/vulnerability-management/#vulnerability-management-overview), and [Engineering Allocation](/handbook/product/product-processes/#prioritization-framework) issues per our [Prioritization guidelines](/handbook/engineering/development/principles/#prioritizing-technical-decisions)
 - Propose SLOs for their endpoints
 - [Opt-in to using the new apdex calculation methods that use the custom target durations](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1451)
 - Provide further feedback for future improvements to Error Budgets

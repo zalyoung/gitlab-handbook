@@ -8,7 +8,7 @@ description: "The Delivery Team enables GitLab Engineering to deliver features i
 [Delivery team](../_index.md) uses Mean Time To Production (MTTP) as an indicator of our speed capabilities
 to deploy application changes into production.
 
-- [Performance Indicator](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
+- [Performance Indicator](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-production-mttp)
 - **Target: 12 hours.**
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/MTTP" >}}

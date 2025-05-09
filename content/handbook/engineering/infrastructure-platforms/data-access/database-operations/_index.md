@@ -56,10 +56,10 @@ We use quarterly [Objectives and Key Results](/handbook/company/okrs/) to plan a
 
 ## Performance indicators
 
-We measure the value we contribute by using [performance indicator metrics](/handbook/engineering/infrastructure/performance-indicators/#key-performance-indicators).
+We measure the value we contribute by using [performance indicator metrics](/handbook/engineering/infrastructure-platforms/performance-indicators/#key-performance-indicators).
 
-In addition to the Infrastructure Department's KPIs for [availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability)
-and [performance](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance) of GitLab.com, the Database Operations team tracks the following:
+In addition to the Infrastructure Department's KPIs for [availability](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlabcom-availability)
+and [performance](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlab-com-performance) of GitLab.com, the Database Operations team tracks the following:
 
 - Backup and Recovery SLOs
 - General database availability(Uptime)

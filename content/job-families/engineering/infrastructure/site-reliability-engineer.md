@@ -192,7 +192,7 @@ Are Site Reliability Engineers who meet the following criteria:
 ##### Collaboration and Communication
 
 1. Leads initiatives and problem definition and scoping, design, and planning through epics and blueprints.
-1. Deep domain knowledge and radiation that knowledge through recorded demos, technical presentations, discussions, and [Incident Reviews](/handbook/engineering/infrastructure/incident-review/).
+1. Deep domain knowledge and radiation that knowledge through recorded demos, technical presentations, discussions, and [Incident Reviews](/handbook/engineering/infrastructure-platforms/incident-review/).
 1. Perform and run blameless RCAs on incidents and outages aggressively looking for answers that will prevent the incident from ever happening again.
 1. For stable counterpart assignments, maintain awareness and actively influence stage group plans and priorities through participation in stage group meetings and async discussions. Act as a champion for reliability.
 
@@ -354,14 +354,14 @@ Individual Contributors in SRE roles can also move to roles in the [Engineering 
 
 Site Reliability Engineers have the following job-family performance indicators:
 
-- [GitLab.com Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-availability)
-- [GitLab.com Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance)
-- [Apdex and Error SLO per Service](/handbook/engineering/infrastructure/performance-indicators/#apdex-and-error-slo-per-service)
-- [Mean Time to Detection](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-detection-mttd)
-- [Mean Time to Resolution](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-resolution-mttr)
-- [Mean Time Between Failure](/handbook/engineering/infrastructure/performance-indicators/#mean-time-between-failures-mtbf)
-- [Mean Time to Production](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
-- [Disaster Recovery Time to Recovery](/handbook/engineering/infrastructure/performance-indicators/#disaster-recovery-dr-time-to-recover)
+- [GitLab.com Availability](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlab-com-availability)
+- [GitLab.com Performance](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlab-com-performance)
+- [Apdex and Error SLO per Service](/handbook/engineering/infrastructure-platforms/performance-indicators/#apdex-and-error-slo-per-service)
+- [Mean Time to Detection](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-detection-mttd)
+- [Mean Time to Resolution](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-resolution-mttr)
+- [Mean Time Between Failure](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-between-failures-mtbf)
+- [Mean Time to Production](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-production-mttp)
+- [Disaster Recovery Time to Recovery](/handbook/engineering/infrastructure-platforms/performance-indicators/#disaster-recovery-dr-time-to-recover)
 
 ## Hiring Process
 

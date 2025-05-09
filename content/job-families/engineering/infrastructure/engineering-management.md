@@ -43,7 +43,7 @@ The Manager, Infrastructure is a [grade 8](/handbook/total-rewards/compensation/
 
 ### Performance Indicators
 
-The Manager, Infrastructure contributes to the success of [Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators).
+The Manager, Infrastructure contributes to the success of [Infrastructure Performance Indicators](/handbook/engineering/infrastructure-platforms/performance-indicators).
 
 ## Specialties
 
@@ -57,7 +57,7 @@ The Manager is responsible for ensuring, and evolving the team mandate described
 In addition to the same requirements, responsibilities, and performance indicators defined above for the Manager, Infrastructure, Delivery specialty requires:
 
 - Guiding self-managed release and GitLab.com continuous deployment processes
-- Owning the [Mean Time to Production](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
+- Owning the [Mean Time to Production](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-production-mttp)
 
 ### Manager, Infrastructure (Production Engineering)
 
@@ -277,7 +277,7 @@ The VP of Infrastructure is a [grade 12](/handbook/total-rewards/compensation/co
 
 #### VP of Infrastructure Performance Indicators
 
-The VP Infrastructure, is responsible for ensuring [Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators).
+The VP Infrastructure, is responsible for ensuring [Infrastructure Performance Indicators](/handbook/engineering/infrastructure-platforms/performance-indicators).
 
 ## Career Ladder
 

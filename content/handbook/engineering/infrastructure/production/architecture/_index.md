@@ -86,7 +86,7 @@ Prometheus is configured using the [kube-prometheus-stack helm chart](https://gi
 
 [Source](https://docs.google.com/drawings/d/1ELrompqluRa00-Q_L9Ruq6W5KHFmgh1Wn1cdwEpOhaw/edit?usp=sharing), GitLab internal use only
 
-Alerting for the cluster uses generated [rules](https://gitlab.com/gitlab-com/runbooks/-/tree/master/rules) that feed up to our [overall SLA](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-availability) for the platform.
+Alerting for the cluster uses generated [rules](https://gitlab.com/gitlab-com/runbooks/-/tree/master/rules) that feed up to our [overall SLA](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlab-com-availability) for the platform.
 
 Logging is configured using [tanka](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/tanka-deployments/-/tree/master/environments/fluentd-elasticsearch) where the logs for every pod is forwarded to a unique Elasticsearch index. fluentd is deployed in the namespace `logging`.
 

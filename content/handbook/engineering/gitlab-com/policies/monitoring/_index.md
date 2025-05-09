@@ -70,7 +70,7 @@ Finally, the availability metric for GitLab.com is calculated as a weighted aver
 1. `pages` (0)
 1. `sidekiq` (0)
 
-The availability score can be seen on the [SLA dashboard](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now), and the Service Availability target is set as an [Infrastructure key performance indicator](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability).
+The availability score can be seen on the [SLA dashboard](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now), and the Service Availability target is set as an [Infrastructure key performance indicator](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlabcom-availability).
 
 ### Log management
 

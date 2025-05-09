@@ -109,7 +109,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
     1. If the EOC believes the alert is incorrect, comment on the thread in `#production`. If the alert is flappy, create an issue and post a link in the thread. This issue might end up being a part of RCA or end up requiring a change in the alert rule.
 1. _Be inquisitive_. _Be vigilant_. If you notice that something doesn't seem right, investigate further.
 1. The EOC should not consider immediate work on an incident completed until the top description section in the Incident Issue (above the "Incident Review" section) is filled out with useful information to describe all the key aspects of the Incident.
-1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC or whoever is the assigned incident lead should start on performing an [incident review](/handbook/engineering/infrastructure/incident-review/), in some cases this may be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
+1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC or whoever is the assigned incident lead should start on performing an [incident review](/handbook/engineering/infrastructure-platforms/incident-review/), in some cases this may be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
 
 ### Incident Manager (IM)
 
@@ -132,9 +132,9 @@ To create an action, use the command `/incident action <thing-to-do>` and comple
 1. Ensuring that the root cause is stated clearly and plainly in the incident description by updating the `causes` section in the `/incident summary`, or can be alternatively shared as an internal status update using the `:pushpin:` emoji or confidential follow-up if the root cause cannot be made public.
 1. If necessary, help the EOC to engage development using the [InfraDev escalation process](/handbook/engineering/development/processes/infra-dev-escalation/process/).
 1. If applicable, coordinate the incident response with [business contingency activities](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/).
-1. If the incident is Sev 1/2, A [post-incident review](/handbook/engineering/infrastructure/incident-review/) is required to be done by the IM Post-mortem tasks are notified in the incident Slack channel once the incident is marked as resolved. The DRI role for this can be delegated.
+1. If the incident is Sev 1/2, A [post-incident review](/handbook/engineering/infrastructure-platforms/incident-review/) is required to be done by the IM Post-mortem tasks are notified in the incident Slack channel once the incident is marked as resolved. The DRI role for this can be delegated.
 1. Following the first significant Severity 1 or 2 incident for a new Incident Manager, schedule a feedback coffee chat with the Engineer On Call, Communications Manager On Call, and (optionally) any other key participants to receive actionable feedback on your engagement as Incident Manager.
-1. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure/incident-review/#process-for-asynchronous-reviews) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
+1. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure-platforms/incident-review/#process-for-asynchronous-reviews) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
 
 The Incident Manager is the DRI for all of the items listed above, but it is expected that the IM will do it with the support of the EOC or others who are involved with the incident. If an incident runs beyond a scheduled shift, the Incident Manager is responsible for handing over to the incoming IM.
 
@@ -389,7 +389,7 @@ Use the `@sre-oncall` handle to check who the current EOC is
 The current EOC can be contacted via the `@sre-oncall` handle in Slack, but please only use this handle in the following scenarios.
 
 1. You need assistance in halting the deployment pipeline. note: this can also be accomplished by [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and labeling it with `~blocks deployments`.
-1. You are conducting a production change via our [Change Management](/handbook/engineering/infrastructure/change-management/) process and as a required step need to seek the approval of the EOC.
+1. You are conducting a production change via our [Change Management](/handbook/engineering/infrastructure-platforms/change-management/) process and as a required step need to seek the approval of the EOC.
 1. For all other concerns please see the [Getting Assistance](/handbook/engineering/infrastructure/getting-assistance/) section.
 
 The EOC will respond as soon as they can to the usage of the `@sre-oncall` handle in Slack, but depending on circumstances, may not be immediately available. If it is an emergency and you need an immediate response, please see the [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) section.
@@ -528,7 +528,7 @@ Definitions and rules for transitioning state and status are as follows.
 | Active | The incident is in progress and has not yet been mitigated.  **Note:** Incidents should not be left in an `Active` state once the impact has been mitigated |
 | Identified | The cause of the incident is believed to have been identified and **a step to mitigate has been planned and agreed upon**. |
 | Monitoring | The step has been executed and metrics are being watched to ensure that we're operating at a baseline. If there is a clear understanding of the specific mitigation leading to resolution and high confidence in the fact that the impact will not recur it is preferable to skip this state. |
-| Resolved | The impact of the incident has been mitigated and status is again Operational. Once resolved the incident can be [marked for review](/handbook/engineering/infrastructure/incident-review/#incident-review-process) and [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions) can be defined.|
+| Resolved | The impact of the incident has been mitigated and status is again Operational. Once resolved the incident can be [marked for review](/handbook/engineering/infrastructure-platforms/incident-review/#incident-review-process) and [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions) can be defined.|
 
 Status can be set independent of state. The only time these must align is when an issues is
 
@@ -575,7 +575,7 @@ If assistance is required follow the [Infrastructure Liaison Escalation process]
 
 ### Summary
 
-In order to effectively track specific metrics and have a single pane of glass for incidents and their reviews, specific labels are used. The below [workflow diagram](#workflow-diagram) describes the path an incident takes from `open` to `closed`. All `S1` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#review-criteria).
+In order to effectively track specific metrics and have a single pane of glass for incidents and their reviews, specific labels are used. The below [workflow diagram](#workflow-diagram) describes the path an incident takes from `open` to `closed`. All `S1` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure-platforms/incident-review/#review-criteria).
 
 Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and closed when the `~Incident::Resolved` label is applied.
 A resolved incident means the degradation has ended and will not likely re-occur.

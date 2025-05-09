@@ -14,7 +14,7 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 | **Delivery Handbook** | [Team training](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/training/) |
 | **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/metrics/) |
 | Deployment and Release process | [Deployments and Releases](/handbook/engineering/deployments-and-releases/) |
-| Release Tools Project | [Release tools](/handbook/engineering/infrastructure/release-tools) |
+| Release Tools Project | [Release tools](/handbook/engineering/infrastructure-platforms/release-tools) |
 | Release Manager Runbooks | [release/docs/runbooks](https://gitlab.com/gitlab-org/release/docs/-/blob/master/runbooks/README.md) |
 
 ## Mission
@@ -131,7 +131,7 @@ The following members of other functional teams are our stable counterparts:
 ## Performance indicators
 
 Delivery Group contributes to [Engineering function performance indicators](/handbook/engineering/performance-indicators/) through [Infrastructure department performance indicators].
-The group's main performance indicator is [**M**ean **T**ime **T**o **P**roduction](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp) (MTTP), which serves to show how quickly a change introduced through a Merge Request
+The group's main performance indicator is [**M**ean **T**ime **T**o **P**roduction](/handbook/engineering/infrastructure-platforms/performance-indicators/#mean-time-to-production-mttp) (MTTP), which serves to show how quickly a change introduced through a Merge Request
 is reaching production environment (GitLab.com).
 At the moment of writing, the target for this PI is defined in this [key result](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/107) epic.
 

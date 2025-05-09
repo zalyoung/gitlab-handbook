@@ -127,7 +127,7 @@ The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number 
 
 ## Projects
 
-Classification of the Infrastructure Platforms department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure/projects).
+Classification of the Infrastructure Platforms department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure-platforms/projects).
 
 The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues) is the backlog and a catch-all project for the infrastructure teams and tracks the work our teams are doing–unrelated to an ongoing change or incident.
 
@@ -135,7 +135,7 @@ In addition to tracking the backlog, Infrastructure Platforms department project
 
 ## Supporting Product Features
 
-We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support/) provides details on how we collaborate to ship new features to Production.
+We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure-platforms/feature-support/) provides details on how we collaborate to ship new features to Production.
 
 ## How we work
 
@@ -354,5 +354,5 @@ All team members are encouraged to schedule time for personal development. The f
 - [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
 - [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy)
-- [Infrastructure Platforms careers and internships](/handbook/engineering/infrastructure/career/)
+- [Infrastructure Platforms careers and internships](/handbook/engineering/infrastructure-platforms/career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)

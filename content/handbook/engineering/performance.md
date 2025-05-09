@@ -38,7 +38,7 @@ Infrastructure performance is scoped to the performance of GitLab SaaS Infrastru
 
 Performance Indicators:
 
-- [GitLab.com known application scaling bottlenecks](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-known-application-scaling-bottlenecks)
+- [GitLab.com known application scaling bottlenecks](/handbook/engineering/infrastructure-platforms/performance-indicators/#gitlabcom-known-application-scaling-bottlenecks)
 
 ## Other Related Pages
 

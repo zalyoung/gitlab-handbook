@@ -146,7 +146,7 @@ Before using feature flags, make sure to read the information on this page and t
 1. [Controlling feature flags](https://docs.gitlab.com/ee/development/feature_flags/controls.html): Learn the process for deploying
   a new feature, enabling it on GitLab.com, communicating the change,
   logging, and cleaning up.
-1. [Feature flags and the change management process](/handbook/engineering/infrastructure/change-management/#feature-flags-and-the-change-management-process): Learn whether your flag requires use of the change management process or not.
+1. [Feature flags and the change management process](/handbook/engineering/infrastructure-platforms/change-management/#feature-flags-and-the-change-management-process): Learn whether your flag requires use of the change management process or not.
 1. [Checking on the status of your teams feature flags](#dashboard--metrics): See if your team has too many, or stale feature flags. See how your feature flags have been toggled over time.
 1. [Conducting an experiment with feature flags](https://docs.gitlab.com/ee/development/experiment_guide/): Learn how the Growth department uses experiment feature flags.
 

@@ -6,7 +6,7 @@ title: "Infrastructure Department Frequently Asked Questions"
 
 #### Q: How often is GitLab.com backed up?
 
-A: [See our summary of our backup strategy](../production#backups)
+A: [See our summary of our backup strategy](../infrastructure-platforms/production-engineering#backups)
 
 #### Q: Are GitLab.com backups encrypted?
 
@@ -44,7 +44,7 @@ For Support team members looking for further guidance, please refer to [Support'
 
 #### Q: Can customers be put on the allowlist for the API?
 
-A: Yes, with sufficient evidence that it's necessary, customers can request to be allowlisted. To request to be added to the allowlist, see our section on [how we handle incoming requests](../production#incoming-requests-of-the-infrastructure-team) in the handbook.
+A: Yes, with sufficient evidence that it's necessary, customers can request to be allowlisted. To request to be added to the allowlist, see our section on [how we handle incoming requests](../infrastructure-platforms/production-engineering#incoming-requests-of-the-infrastructure-team) in the handbook.
 
 ### GitLab.com Logging
 
