@@ -82,23 +82,23 @@ flowchart TD
     classDef signatureStyle fill:#fff2cc,stroke:#d6b656,stroke-width:1px,rx:5px,ry:5px
     classDef securityStyle fill:#f8cecc,stroke:#b85450,stroke-width:1px,rx:5px,ry:5px
     classDef controlPlaneStyle fill:#e1d5e7,stroke:#9673a6,stroke-width:1px,rx:5px,ry:5px
-    subgraph Phase1["Phase 1: In-Pipeline Provenance Generation"]
+    subgraph BuildEnvironment["Build Environment"]
         CIConfig["GitLab CI Config<br>with SLSA Component"]
         BuildJob["CI/CD Build Job"]
         Artifacts["Build Artifacts"]
         ProvenanceSigner["Provenance Signer Component"]
         TempSignedAttestation["Temporary Signed<br>Attestation (Phase 1)"]
     end
-    subgraph FutureWork["Future Work"]
+    subgraph FutureWork["Dependency tracking"]
         VirtualRegistry["Virtual Registry<br>(Dependency Proxy)"]
         Dependencies[(Package & Container<br>Dependencies)]
     end
-    subgraph Phase2and3["Phase 2 and 3: Provenance Generation & Out-of-Pipeline Signing"]
-        subgraph GitLabRailsBackend["GitLab Rails backend"]
+    subgraph ControlPlane["ControlePlane"]
+        subgraph GenerateProvenanceInControlPlane["Phase 2: Generate Provenance in Control Plane"]
             RailsBackend["GitLab Rails Backend"]
             DB[(GitLab Database)]
         end
-        subgraph SigningService["Signing Service"]
+        subgraph SignProvenanceInControlPlane["Phase 3: Sign Provenance in Control Plane"]
             GlgoService["glgo Service<br>(Signing Service)"]
         end
         Rekor["Transparency Log<br>(Rekor)"]
