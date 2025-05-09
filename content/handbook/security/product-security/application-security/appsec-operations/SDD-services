@@ -22,6 +22,7 @@ Our responsibility includes four of the five Secure Developer Experience (SDX) p
 - [**Application Security Reviews**](/handbook/security/product-security/application-security/appsec-reviews/)
 - [**Application Security Stable Counterparts**](/handbook/security/product-security/application-security/stable-counterparts/)
 - [**Threat modeling**](~/content/handbook/security/product-security/application-security/threat-modeling/_index.md)
+- **Backlog reviews:** When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](/handbook/security/product-security/application-security/vulnerability-management/) for more details.
 - [**GitLab AppSec Inventory**](/handbook/product/ux/navigation/inventory/)
 - [**Responding to customers security scanners review requests**](/handbook/security/product-security/application-security/responding-customers-scan-review-requests/)
 - [**Root Cause Analysis for Critical Vulnerabilities**](/handbook/security/root-cause-analysis)
@@ -31,10 +32,6 @@ Learn how to identify or remediate security issues using real examples with GitL
 Learn how GitLab is implementing [Reproducible Builds](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.
 
 Learn more about the automation initiatives that the Application Security team uses on the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)
-
-### Backlog reviews
-
-When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](/handbook/security/product-security/application-security/vulnerability-management/) for more details.
 
 ### GitLab Secure Tools coverage
 
@@ -50,7 +47,7 @@ Projects without the expected configurations can be found in the [inventory viol
 - Ask in `#sec-appsec` or mentioning `@appsec-team` on Slack
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
-## Review and Updates
+## Content Review and Updates
 
 This page will be reviewed quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and relevant business and operational changes. Updates may occur more frequently as business operations evolve.
 

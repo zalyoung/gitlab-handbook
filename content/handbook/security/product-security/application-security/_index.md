@@ -179,7 +179,7 @@ The GitLab Application Security team plans work based around Milestones, see [th
 
 Learn more about the automation initiatives that the Application Security team uses on the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)
 
-## Review and Updates
+## Content Review and Updates
 
 This charter will be reviewed quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and relevant business and operational changes. Updates may occur more frequently as business operations evolve.
 

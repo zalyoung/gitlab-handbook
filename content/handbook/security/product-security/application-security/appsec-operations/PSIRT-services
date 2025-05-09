@@ -13,17 +13,11 @@ The PSIRT's responsibility includes the fifth and final Secure Developer Experie
 
 ## Helpful Quicklinks
 
-### RCAs for Critical Vulnerabilities
+[**Root Cause Analysis for Critical Vulnerabilities**](/handbook/security/root-cause-analysis)
 
-Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook/security/root-cause-analysis)
+Learn how to identify or remediate security issues using real examples with GitLab's [**Reproducible Vulnerabilities**](/handbook/security/product-security/application-security/reproducible-vulnerabilities/).
 
-### Reproducible Vulnerabilities
-
-Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities](/handbook/security/product-security/application-security/reproducible-vulnerabilities/).
-
-### Reproducible Builds
-
-Learn how GitLab is implementing [Reproducible Builds](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.
+Learn how GitLab is implementing [**Reproducible Builds**](/handbook/security/product-security/application-security/reproducible-builds/) for our build processes.
 
 ## How to Contact the Product Security Incident Response Team
 
@@ -31,7 +25,7 @@ Learn how GitLab is implementing [Reproducible Builds](/handbook/security/produc
 - Ask in `#sec-appsec` and mention `@psirt-team` on Slack
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
-## Review and Updates
+## Content Review and Updates
 
 This page will be reviewed quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and relevant business and operational changes. Updates may occur more frequently as business operations evolve.
 
