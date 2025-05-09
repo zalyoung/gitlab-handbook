@@ -83,6 +83,7 @@ flowchart TD
     classDef securityStyle fill:#f8cecc,stroke:#b85450,stroke-width:1px,rx:5px,ry:5px
     classDef controlPlaneStyle fill:#e1d5e7,stroke:#9673a6,stroke-width:1px,rx:5px,ry:5px
     subgraph BuildEnvironment["Build Environment"]
+        Runner["Runner"]
         CIConfig["GitLab CI Config<br>with SLSA Component"]
         BuildJob["CI/CD Build Job"]
         Artifacts["Build Artifacts"]
@@ -107,42 +108,38 @@ flowchart TD
     subgraph Phase4["Phase 4"]
         ExternalKMS["External KMS"]
     end
-    subgraph Phase5["Phase 5: Hardened Pipeline Identity"]
-        HardenedRunner["Hardened Runner<br>with HW Identity"]
-        TPM["Trusted Platform<br>Module"]
-        RunnerAudit["Runner Audit Logs"]
-    end
+    
     %% Relationships between components with labeled edges
+    Runner -->|"0 Request job payload<br>with proof of identity"| RailsBackend
+    RailsBackend -->|"0.1 Return job payload"| Runner
+    Runner -->|"Executes"| BuildJob
     CIConfig -->|"Configuration"| BuildJob
     BuildJob -->|"1 Generate"| Artifacts
     BuildJob -->|"2 Request Dependencies"| VirtualRegistry
     VirtualRegistry <-->|"3 Fetch/Track"| Dependencies
     
     %% Phase 1 flow for early implementation
-    VirtualRegistry -->|"4 Provide Dependency Data"| GitLabRailsBackend
+    VirtualRegistry -->|"4 Provide Dependency Data"| RailsBackend
     Artifacts -->|"5 Artifact Storage"| ProvenanceSigner
     ProvenanceSigner -->|"Store"| TempSignedAttestation
-    ProvenanceSigner -->|"6 Pass Artifact"| GitLabRailsBackend
-    HardenedRunner -->|"7 Provide Runner Identity"| GitLabRailsBackend
+    ProvenanceSigner -->|"6 Pass Artifact"| RailsBackend
+    Runner -->|"7 Provide Runner Identity"| RailsBackend
     RailsBackend <-->|"8 Query Metadata"| DB
     
-    RailsBackend -->|"9 Generate Provenance<br>Statement"| SigningService
-    SigningService -.->|"Future Integration"| ExternalKMS
+    RailsBackend -->|"9 Generate Provenance<br>Statement"| GlgoService
+    GlgoService -.->|"Future Integration"| ExternalKMS
     GlgoService -->|"10 Return Signed<br>Attestation"| RailsBackend
     GlgoService -->|"11 Publish Attestation<br>Digest"| Rekor
     RailsBackend -->|"12 Store"| PermanentAttestation
     
-    %% Phase 5 hardening
-    HardenedRunner <-->|"Hardware-backed<br>Identity"| TPM
-    HardenedRunner -->|"Audit Logging"| RunnerAudit
     %% Apply styles
-    class Phase1,Phase2and3,Phase4,Phase5,FutureWork phaseStyle
-    class CIConfig,BuildJob componentStyle
+    class FutureWork phaseStyle
+    class Phase4 phaseStyle
+    class CIConfig,BuildJob,Runner componentStyle
     class Artifacts,DB,Dependencies storageStyle
     class VirtualRegistry,GlgoService serviceStyle
     class ProvenanceSigner,TempSignedAttestation,PermanentAttestation,Rekor,ExternalKMS signatureStyle
-    class HardenedRunner,TPM,RunnerAudit securityStyle
-    class RTCP,SSTCP,RailsBackend controlPlaneStyle
+    class RailsBackend controlPlaneStyle
 ```
 
 #### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
