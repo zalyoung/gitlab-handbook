@@ -658,6 +658,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 - [On-Call](/handbook/engineering/on-call/)
 - [License & Renewals](/handbook/support/license-and-renewals/)
 - [Advanced Topics](/handbook/support/advanced-topics/)
+- [Browser extensions](/handbook/support/browser-extensions)
 
 ### Documentation
 
