@@ -429,7 +429,6 @@ Once we confirm that the blueprint record is created as expected, we can change 
 
 A tier 3 pipeline for `gitlab-org/gitlab` has around 750 jobs which use a bit less than `10MB` of disk space to store their configuration. Downloading the blueprint file for each job is not desirable, especially when most of the reads happen while the pipeline is still running, so this could be cached into Redis for each job by the start pipeline service:
 
-
 ```ruby
 def warm_blueprint_cache
   # Set the TTL to the average pipeline duration
@@ -466,7 +465,6 @@ Epic: [Reduce the rate of builds metadata table growth](https://gitlab.com/group
 One possible drawback of the blueprint model is that a change to any of the jobs would create a new blueprint. We currently don't have a metric to estimate how often that happens, but we assume that it might be more frequent with dynamically generated pipelines.
 
 We have considered introducing a blueprint at the job level, but that would still require a significant amount of space, mainly for the unique indexes on the signature, jobs will need a new FK and index to this blueprint and it would change the top-down hierarchy of pipeline tree that is used for partition re-balancing. In this proposal it is still possible to update the `partition_id` on the pipeline record and the database would cascade the same value to all the connected resources since they do not depend on other resources.
-
 
 ```mermaid
 classDiagram
