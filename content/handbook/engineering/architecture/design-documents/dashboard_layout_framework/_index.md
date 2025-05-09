@@ -86,6 +86,7 @@ augment our existing offering with clearer visuals and AI integration.
 ### Goals
 
 - Clear guidelines on what constitutes a dashboard layout , what functionality it contains, and how to use the framework.
+- Outline a clear migration path for existing dashboards.
 - Adopt the dashboards framework across GitLab, especially where data is being used for analysis.
 - An agnostic dashboards framework, not tied to any one feature, giving engineers the tools needed to quickly and efficiently set up and use dashboards.
 - Link uses of the dashboards framework together in preparation for [dashboards navigation restructuring](https://gitlab.com/groups/gitlab-org/-/epics/16940).
@@ -121,6 +122,10 @@ of rows as needed.
 Each panel, within the grid, will have a minimum height of `125px`. This minimum height gives space for padding, the title, and basic content;
 whilst not needing a scrollbar to see all the panel contents.
 
+At the [medium breakpoint](https://design.gitlab.com/product-foundations/layout#breakpoints), the grid must collapse down to a singular
+column. This will move every panel to a fully vertical layout. Dropping down to a singular column will give the content of each panel the
+space it needs to render without looking cramped on the page of smaller viewports.
+
 Our preferred choice for this grid is to use [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
 grid structures, along with the changing and resizing of grid items, in a deterministic, and cross-browser friendly way.
 
@@ -137,14 +142,7 @@ Each panel contains:
 - A kebab menu of contextual actions (optional)
 - An indicator for any contextual errors/warnings/info (optional)
 - A loading state whilst the panel retrieves the visualization data (optional)
-- The visualization area
-
-Panels handle:
-
-- Selecting the right visualization to be rendered
-- Maintaining the current state
-- Showing potential error states
-- Triggering contextual actions
+- The content area
 
 Each panel can be resized in accordance with [the grid](#the-grid) and are scrollable when the content exceeds the size of the panel.
 
@@ -167,7 +165,7 @@ Although filtering as a concept is still under [heavy UX exploration](https://gi
 that there will be two slots where filters can be added to the dashboard layout, and used by the user.
 
 The first slot is the global filter that is applied to every visualization within the dashboard. This will allow engineers to define the filters
-that should show on the dashboard. It is up to the engineer to make sure that filters are applied appropriately to their visualizations.
+that will apply to all the panels on the dashboard. It is up to the engineer to make sure that filters are applied appropriately to their visualizations.
 In the event that a filter does not work with a visualization, then the user needs to be notified through the UI. How this notification looks
 is still being discussed.
 ⁠⁠
@@ -202,58 +200,8 @@ For per-panel filters and panel-specific errors, we should use the panel error s
 
 ## Getting started
 
-_TODO: Add links to documentation, PoC MR, describe initial set up_
+_TODO: Add links to documentation, PoC MR, describe initial set up: https://gitlab.com/gitlab-org/gitlab/-/issues/541406_
 
 ## Migration strategies
 
-We need to consider how to migrate existing dashboard implementations. These dashboards are already solving a need
-for users, even if some may have been identified as areas we could improve or provide more value.
-
-We aim in the longer-term for all data-driven dashboards at GitLab to be fully integrated into the dashboard layout
-framework. However, this can be a gradual process based upon team capacity and user requirements.
-Even more so, as this will require the page to use Vue for rendering, and not every page at GitLab does.
-
-Any migration strategy should have the user requirements, seamless migration, and quality at its heart.
-
-### Replacing everything
-
-In the event that a dashboard isn't meeting our users' needs, or is already scheduled for a revamp, it may be most
-prudent to go straight to replacing the existing dashboard with the dashboard layout framework.
-
-This would entail:
-
-- Building visualizations for the data being viewed
-- Using the dashboard layout framework to design and build the dashboard
-- Adding existing filters or creating new filter types
-
-Oftentimes, dashboards are also migrated to a new location within the navigation at the same time.
-
-The development and swapping over can be managed using feature flags.
-
-### Replacing the dashboard layout
-
-If the visualizations on an existing dashboard are already meeting the needs of users, then it may be expedient
-to upgrade the dashboard page itself to make use of the dashboard layout framework.
-
-This would mean keeping the existing visualizations, but integrating them into the wider framework structure.
-Therefore, replacing the existing dashboard page layout.
-
-This would entail:
-
-- Replacing the dashboard page layout with the dashboard layout framework
-- Replacing the existing dashboard blocks with [panels](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs)
-- Adding the existing visualizations to panels
-- Adding existing filters or creating new filters types that can interact with the existing visualizations
-
-### Replacing the panels
-
-If the layout of the dashboard page isn't a concern, then we can keep the existing layout as-is and replace
-the dashboard blocks themselves with [panels](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs).
-
-This could also include updating the visualizations at the same time, but it isn't entirely necessary.
-
-This would entail:
-
-- Replacing the existing dashboard blocks with [panels](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/dashboards-dashboards-panel--docs)
-- Adding the existing visualizations to panels, or creating new visualizations
-- Integrating any existing filters with the panels
+_TODO: Add migration strategies: https://gitlab.com/gitlab-org/gitlab/-/issues/541406_
