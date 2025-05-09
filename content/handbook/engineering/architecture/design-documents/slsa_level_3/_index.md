@@ -145,8 +145,6 @@ flowchart TD
     class RTCP,SSTCP,RailsBackend controlPlaneStyle
 ```
 
-### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
-
 #### Phase 1: In-Pipeline Provenance Generation and Verification using Sigstore
 
 - Generate provenance attestations using Sigstore tools (cosign).
