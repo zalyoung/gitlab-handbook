@@ -315,12 +315,34 @@ workflows. Here is a rough outline on how it might proceed:
 
 ### v0.5: Change Set pipelines V1
 
-1. Associate a Change Set with a target project.
-1. By default, any push to the Change Set will create a pipeline with downstream
-   pipelines for each touched project.
+1. Associate a Change Set with a target build project.
+1. By default, any push to the Change Set will create a pipeline in the target build project.
 1. Affected Change Set projects/files published in a CI variable.
 
 ### v0.6: CI runner integration with Change Sets
 
 1. Support CI steps or native integration for checking out multiple
    repositories (e.g. via Android manifest file?).
+
+## Known unknowns
+
+This is a list of design aspects that have not yet been refined:
+
+- Is the "product" purely a collection of repositories or does it require additional metadata?
+  What permissions are required to create a product?
+- Define limits. How many MRs can be associated to a single Change Set? How many products can a group or
+  organization host?
+- What is the lifecycle of a Change Set?
+- Should the system have a way to handle dependency relationships or is it left to the user?
+- How will merge conflicts across multiple repositories be detected, reported and resolved?
+- Can true atomicity be achieved for merges across repositories, or what level of consistency guarantee
+  can be provided?
+- Can the Change Set contain MRs with different merge strategies? How can inconsistencies be checked and reported?
+- How can a ChangeSet be used with auto-merge strategies (e.g. Merge When Checks Pass)?
+  Do we need a mechanism that intercepts and manages the state of each MR to then issue the merge together?
+- What permissions are required to perform the merge across multiple projects?
+  Should customers use service accounts? Note that post-merge CI pipelines will run with that identity.
+- How can GitLab provide the merged result pipelines experience in a "poly repo" environment?
+- What changes to Glab CLI would be necessary to provide a smooth UX?
+- What happens if a partial revert is needed, or if a revert fails in one repository but succeeds in others?
+- Should issues be linked to change sets like they are with merge requests?
