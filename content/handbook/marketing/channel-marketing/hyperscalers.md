@@ -29,7 +29,6 @@ Examples:
 
 Reference the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates) page for naming conventions for specific campaign types.
 
-
 ## Salesforce Configuration Requirements
 
 When setting up these campaigns in Salesforce, you need to take two critical actions:
@@ -97,7 +96,6 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
    2. Manages execution and setup for Marketo and Salesforce
    3. Open Zip request
    4. Send Program Owner receipts for Proof of Performance
-
 
 ### Application Process
 
