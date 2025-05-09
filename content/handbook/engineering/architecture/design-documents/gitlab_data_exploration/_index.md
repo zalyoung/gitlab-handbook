@@ -328,7 +328,12 @@ each alternative solution/path.
 
 ## Open questions
 
-- TBC
+- Is GLQL powerful enough to be able to express the kind of queries we need? If not, can it be extended to fit our needs? For instance, mathematical functions (e.g. count(), avg(), sum() ) or aggregating functions( group_by) would probably be needed
+- GLQL results are currently limited to 100 items / 1 page. What's needed to fully support pagination?
+- Do we actually need to support more than graphql query as an output format? What other existing data sources are not surfaced through graphql? There might be need for supporting REST API at some point, but probably not from the start? If an entity is exposed through graphql, maybe there is not much of an advantage to hitting the db, through Rails finders for PG or the Clickhouse client, since we would be losing all strict schema handling that graphql provides
+- Is a query text editor enough or do we want a visual builder as well? How to balance between a query text editor for power users and a UI editor for other users?
+- Can we support querying data for multiple projects and/or for multiple groups within the same query (e.g. shows all pipeline failures for group A and group B in the last 3 days ). Currently it only supports a single group or a single project
+- How will the system handle multiple queries in parallel when loaded from a dashboard?
 
 ## Next steps
 
