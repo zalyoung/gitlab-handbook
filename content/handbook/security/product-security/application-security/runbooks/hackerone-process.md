@@ -12,7 +12,7 @@ GitLab's HackerOne process manages vulnerability reports through a structured wo
 
 - HackerOne Triage Team
 - GitLab AppSec Engineering
-- PSIRT Program Manager
+- PSIRT Security Program Manager
 - Gitlab Product Manager of the feature affected by the finding
 - Gitlab Engineering (Development) Manager of the feature affected by the finding
 - SIRT (Security Operations)
