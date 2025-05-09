@@ -489,6 +489,3 @@ Number of users for each license: 50
 License duration: 1 year
 ```
 
-## Troubleshooting and Special Cases: Frequently Asked Questions
-
- TBD
