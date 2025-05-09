@@ -522,14 +522,15 @@ Iteration 2 is the GA release. The following changes need to happen to change fr
 
 - Migration from labels to statuses
 
-##### Stretch goal
+#### Iteration 3 (fast follow)
 
+- [Iteration 3 epic](https://gitlab.com/groups/gitlab-org/-/epics/17798)
 - Expand support to epics: epic detail view, epic list view, legacy epic board view. If the new board experience becomes available,
 skip implementing the legacy epic board view and focus on the new experience instead.
 
-#### Iteration 3
+#### Iteration 4
 
-- [Iteration 3 epic](https://gitlab.com/groups/gitlab-org/-/epics/14795)
+- [Iteration 4 epic](https://gitlab.com/groups/gitlab-org/-/epics/14795)
 - Customizable status for all work item types
 - Lifecycle management (create, update, assign work item types, delete)
 - Status available on dashboards (more complex because they can be fed by different root namespaces)
@@ -586,8 +587,9 @@ This section documents key architectural and implementation decisions made durin
    regardless of feature flag state and license.
 1. We'll [show the default open status as a preselected value on the work item create form](https://gitlab.com/gitlab-org/gitlab/-/issues/526531#note_2457132393).
 1. We'll be implementing work item [status badge and filters in legacy issues list](https://gitlab.com/gitlab-org/gitlab/-/work_items/508015#note_2461199237).
-1. [Expanding support to epics](https://gitlab.com/groups/gitlab-org/-/epics/14794#note_2480817667), including the epic detail view, epic list view, and legacy epic board view,
-is a stretch goal. If the new board experience is available by the time of implementation, we'll skip the legacy board view and focus on the new experience instead.
+1. [Expanding support to epics](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13402#note_2491127675), including the epic detail view, epic list view,
+and legacy epic board view will be included in Iteration 3 (Fast follow). If the new board experience is available by the time of implementation, we'll skip the legacy board
+view and focus on the new experience instead.
 
 ## Resources
 
