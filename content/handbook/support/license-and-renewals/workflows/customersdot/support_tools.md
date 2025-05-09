@@ -24,7 +24,12 @@ There are different tabs for namespace control:
 
 Allows setting additional compute minutes to a customer namespace to the value specified in the `New minutes total` field.
 
-> **WARNING:** Additional compute minutes added this way will last **indefinitely** until used. If the request is to provide "extra compute minutes" during the trial period only, use the [Manage GitLab Plan and Trials option](#manage-gitlabcom-plan-and-trials) which will change the *usage quota* to match a paid plan quota for the duration of the trial. **## To-be-update**
+---
+**##### Need to open an issue to support the edit monthly quotas during trial funcationality**
+
+> **WARNING:** Additional compute minutes added this way will last **indefinitely** until used. If the request is to provide "extra compute minutes" during the trial period only, use the [Manage GitLab Plan and Trials option](#manage-gitlabcom-plan-and-trials) which will change the *usage quota* to match a paid plan quota for the duration of the trial. 
+
+---
 
 The form has three required fields:
 
@@ -101,35 +106,39 @@ Key features of this page include:
 Use the **Add filter** button at the top right of the page to select specific field to search.
 
 ### Trial Changes (SaaS)
-####### To be Edited
-Updates GitLab Subscription or customer trial. You can use it for the following cases:
 
-1. Downgrade to Free
+Updates namespace trial. You can use it for the following cases:
+
+1. Cancel trials
 1. Trials
     1. Change Plan
     1. Renew/extend Date
-1. "Extend" an existing active or expired subscription for .com.
-    - Note: To "extend" a subscription, a trial is triggered on the namespace. An old trial order is used if it exists. Otherwise, a new trial is created.
 
-Please note that in order to extend or renew a trial, the customer **MUST** have an active trial because a CustomersDot account needs to exist.  If the prospect has not yet initiated a trial themselves, please have them do so via the [customers portal](https://customers.gitlab.com/trials/new?gl_com=true).
+Please note that in order to extend or renew a trial, the customer **MUST** have an active trial because a CustomersDot account needs to exist.  If the prospect has not yet initiated a trial themselves, please have them do so via the group billing page (https://gitlab.com/groups/[NAMESPACE-PATH]/-/billings).
 
-These two  fields are mandatory:
+#### Cancel Add-on Trial
 
-- **Namespace**: The customer's namespace as it appears in the URL.  For example, if the customer namespace is located at <https://gitlab.com/gitlab-com> then the namespace would be `gitlab-com`. Please confirm through your own observation and through communication with Sales, the CSM, or the customer that the namespace is the one with the subscription or trial to be updated.
-- **Plan**: The subscription plan that you would like applied for the customer's group.  If the `free` option is selected, the customer's namespace will immediately be downgraded and the trial or subscription ended.
+This tool is applicable when a namespace already have a Premium or Ultimate plan and they trial Duo Enterprise or Duo Pro on the namespace. The tool will remove Add-on Trial (Duo Enterprise or Duo Pro) from a namespace without affecting the Premium or Ultimate plan.
 
-These two fields are optional:
+- **Namespace ID/Path**: The customer namespace path as it appears in the URL or its ID.
+- **Add-on name**: Select the relevant Add-on name from the dropdown list.
+- **Zendesk ticket link**: The link to relevant Zendesk ticket where the request is made.
 
+#### Update or Cancel a Trial
+
+Search for the specific trial or the namespace. 
+
+##### Update 
+
+Select the **Edit** icon ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/pencil.svg)
 - **End Date**: The updated date the plan will end.
-- **Sales Manager Approval**: The GitLab.com username (without a preceding @) of the sales manager who approved a trial extension. This approval should be via chatter on the SFDC opportunity.
+- **Plan**: The trial plan that you would like applied for the customer's group.  If the `x Clear` option is selected, the customer's namespace will immediately be downgraded and the trial ends.
+- **Zendesk ticket link**: The link to relevant Zendesk ticket where the request is made.
 
-Required to "extend" a subscription:
+##### Cancel
 
-- **Subscription name**: The name of the existing (active or expired) subscription tied to the namespace.
-
-> Note: When a new trial is created, it has the default trial values (30-day, ultimate, 400 compute quota), so you need to re-run "Update GitLab Plan" again with the requested values.
-
----
+Select **Cancel trial** icon ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/cancel.svg)
+- **Zendesk ticket link**: The link to relevant Zendesk ticket where the request is made.
 
 ### Trials for SM
 
