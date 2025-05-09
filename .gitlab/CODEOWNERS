@@ -202,11 +202,11 @@
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/team/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/ @marin @denisra @plu8
-/content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @rymai
+/content/handbook/engineering/infrastructure-platforms/performance-indicators.md @marin @sabrinafarmer @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
-/content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/service-maturity-model.md @rnienaber @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/team/ @marin
 /content/handbook/engineering/infrastructure/team/dei.md @andrewn
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/ @marin @amyphillips
