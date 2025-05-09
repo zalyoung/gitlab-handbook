@@ -60,7 +60,6 @@ The Audit Principal, IT and Security is a [grade 9]({{% ref "compensation-calcul
 * Ability to balance quality of work with speed of execution
 * Ability to use GitLab
 
-
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.

@@ -23,7 +23,6 @@ The Staff Internal Auditor is a [grade 8](/handbook/total-rewards/compensation/c
 - Act as a subject matter expert, working with the business partners in accounting and other functions (e.g., legal, corporate development, stock administration) to identify financial risks associated with new or contemplated transactions and resolve complex accounting issues
 - Participate in team planning including setting team goals and priorities, monitoring progress and removing roadblocks
 
-
 ### Requirements
 
 - Minimum seven (7) years experience in conducting internal audits, including SOX and operational audits
@@ -40,7 +39,6 @@ The Staff Internal Auditor is a [grade 8](/handbook/total-rewards/compensation/c
 - Must be able to work in US and International time zones, when required
 - Ability to balance quality of work with speed of execution
 - Ability to use GitLab
-
 
 ### Hiring Process
 

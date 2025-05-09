@@ -7,7 +7,6 @@ Additionally, they assist in the preparation and implementation of a risk-based 
 
 The Manager Internal Audit reports to the Director of Internal Audit.
 
-
 ### Job Grade
 
 The Internal Audit and SOX Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
@@ -23,7 +22,6 @@ The Internal Audit and SOX Manager is a [grade 8](/handbook/total-rewards/compen
 - Responds to inquiries from the CFO, Controller, and company-wide managers regarding financial results, special reporting requests and the like
 - Act as a subject matter expert, working with the business partners in accounting and other functions (e.g., legal, corporate development, stock administration) to identify financial risks associated with new or contemplated transactions and resolve complex accounting issues
 - Participate in team planning including setting team goals and priorities, monitoring progress and removing roadblocks
-
 
 ### Requirements
 
