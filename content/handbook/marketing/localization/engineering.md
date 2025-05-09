@@ -114,6 +114,8 @@ When working on i18n features:
 
 This workflow ensures we can develop and validate i18n features in an environment with real translations before integrating them with the primary codebase.
 
+Add addiitonal notes here
+
 #### Live Preview Environment
 
 The `live-preview branch` provides a stable environment to review internationalized documentation before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and mirrors the translation workflow.
