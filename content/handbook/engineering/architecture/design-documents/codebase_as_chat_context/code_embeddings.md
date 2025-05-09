@@ -1,6 +1,6 @@
 ---
 title: "Code Embeddings"
-status: proposed
+status: ongoing
 creation-date: "2025-04-02"
 authors: [ "@maddievn", "@dgruzd" ]
 coach: [ "@DylanGriffith" ]
