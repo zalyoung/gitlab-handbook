@@ -43,6 +43,12 @@ The following members of other functional teams are our stable counterparts:
 
 {{% engineering/stable-counterparts manager="glopezfernandez" role="Tenant Scale|Principal Engineer, Data Stores|Senior Distinguished Engineer, Ops and Core Platform" %}}
 
+### Organization Rollout Counterparts
+
+The following people are supporting our rollout of Organizations.
+
+{{< group-by-slugs atevans>}}
+
 ## Projects
 
 We are working on different large projects where each project has a [Directly Responsible Individual (DRI)](/handbook/people-group/directly-responsible-individuals/).
