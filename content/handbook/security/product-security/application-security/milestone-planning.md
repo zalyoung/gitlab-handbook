@@ -67,7 +67,7 @@ Any issue being worked on by an Application Security team member must include:
 
 DRIs are responsible for providing weekly updates, at the end of the week, on the topics they are working following the following format:
 
-```
+```md
  **What's happened since last update:**
 
  * \[Bullet points of progress\]
