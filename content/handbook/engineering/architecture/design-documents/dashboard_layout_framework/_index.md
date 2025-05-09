@@ -39,11 +39,8 @@ For long pages, consider creating a table of contents.
   - [Visualizations](#visualizations)
   - [Filters](#filters)
   - [Error handling](#error-handling)
-- [Getting started](#getting-started)
-- [Migration strategies](#migration-strategies)
-  - [Replacing everything](#replacing-everything)
-  - [Replacing the dashboard layout](#replacing-the-dashboard-layout)
-  - [Replacing the panels](#replacing-the-panels)
+- [Getting started (TODO)](#getting-started)
+- [Migration strategies (TODO)](#migration-strategies)
 
 ## Summary
 
