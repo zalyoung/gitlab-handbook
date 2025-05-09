@@ -186,11 +186,11 @@ Design critiques are dedicated sessions where Product Designers exchange rigorou
 We prioritize a balanced approach to design critiques that practices benevolent, [radical candor](https://www.radicalcandor.com/blog/what-is-radical-candor/) and cares personally, but challenges directly. Here's how to conduct an effective critique:
 
 1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work.
-1. **Provide thorough context**: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged.
 1. **Structure the critique session**:
-   1. Begin by presenting work without excessive explanation.
-   1. Allow participants to ask clarifying questions.
-   1. Summarize key takeaways and next steps.
+   1. Provide thorough context: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged. (5 minutes)
+   1. Begin by presenting work without excessive explanation. (10 minutes)
+   1. Allow participants to ask clarifying questions and provide critique. (bulk of the sessions time)
+   1. Summarize key takeaways and next steps. (5-10 minutes)
 1. **Participate effectively**:
    1. Be curious by asking questions like "have you…," "how does this…," and "why is this…" to help you understand the design decisions and solutions.
    1. Provide specific and detailed comments that help encourage, challenge, and unblock the presenter.
