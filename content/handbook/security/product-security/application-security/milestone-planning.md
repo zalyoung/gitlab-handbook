@@ -88,7 +88,7 @@ DRIs are responsible for providing weekly updates, at the end of the week, on th
 
 Updating the issue milestone is required:
 
-- At the middle of the milestone
+- On a weekly basis, at the end of the week.
 - Whenever the DRI knows he won't be able to finish it for the end of the milestone
 
 ### Workflow Labels
