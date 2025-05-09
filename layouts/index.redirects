@@ -83,6 +83,21 @@
 /handbook/engineering/quality/ /handbook/engineering/infrastructure-platforms/developer-experience/ 301
 /handbook/engineering/infrastructure/test-platform/gitlab-data-seeder/ https://gitlab-org.gitlab.io/quality/data-seeder 301
 
+# Infrastructure realignment - remove 2025-08-01
+/handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
+/handbook/engineering/infrastructure/career/ /handbook/engineering/infrastructure-platforms/career/ 301
+/handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
+/handbook/engineering/infrastructure/emergency-change-processes/ /handbook/engineering/infrastructure-platforms/emergency-change-processes/ 301
+/handbook/engineering/infrastructure/faq/ /handbook/engineering/infrastructure-platforms/faq/ 301
+/handbook/engineering/infrastructure/feature-support/ /handbook/engineering/infrastructure-platforms/feature-support/ 301
+/handbook/engineering/infrastructure/incident-review/ /handbook/engineering/infrastructure-platforms/incident-review/ 301
+/handbook/engineering/infrastructure/network-security/ /handbook/engineering/infrastructure-platforms/network-security/ 301
+/handbook/engineering/infrastructure/performance-indicators/ /handbook/engineering/infrastructure-platforms/performance-indicators/ 301
+/handbook/engineering/infrastructure/product-management/ /handbook/engineering/infrastructure-platforms/product-management/ 301
+/handbook/engineering/infrastructure/projects/ /handbook/engineering/infrastructure-platforms/projects/ 301
+/handbook/engineering/infrastructure/release-tools/ /handbook/engineering/infrastructure-platforms/release-tools/ 301
+/handbook/engineering/infrastructure/service-maturity-model/ /handbook/engineering/infrastructure-platforms/service-maturity-model/ 301
+
 # Update Earth Month file - remove 2025-06-25
 /handbook/legal/esg/earth-month/index.html/ /handbook/legal/esg/earth-month/ 301
 
