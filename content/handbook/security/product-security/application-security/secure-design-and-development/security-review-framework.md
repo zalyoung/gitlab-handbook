@@ -1,8 +1,13 @@
-# GitLab Security Review Framework
+---
+title: "Security Review Framework"
+description: "GitLab Security Review Framework helps to prioritize features for security review and decides which teams needs to be engaged in the security review along with the type of review that needs to be conducted."
+---
+
+# Security Review Framework
 
 This security review framework for GitLab establishes a systematic approach to evaluating and reviewing features based on appropriate security team engagement and risk assessment. The framework aims to balance security requirements with development velocity by directing security resources where they can have the most impact. The process begins with team routing to identify whether Secure Design and Development or Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) automatically engaged for High or Critical risk scores.
 
-How the security review framework fits into the Security Review Process is visualized in the [overview flowchart](#overall-process-flow).
+How the security review framework fits into the Security Review Process is visualized in the [Overall Process flow](#overall-process-flow) section.
 
 ## Framework purpose
 
@@ -20,7 +25,7 @@ How the security review framework fits into the Security Review Process is visua
 
 ## 1: Security Team Routing
 
-The first step is to determine which security team(s) should be engaged for the security review of a feature ([\~"type::feature"](https://handbook.gitlab.com/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification:~:text=type%3A%3Abug%22.-,~%22type%3A%3Afeature%22,-%3A%20Effort%20to%20deliver)). This routing happens before the detailed risk assessment to ensure teams only answer questions relevant to their domain.
+The first step is to determine which security team(s) should be engaged for the security review of a feature ([\~"type::feature"](../../../../product/groups/product-analysis/engineering/metrics.md#work-type-classification:~:text=type%3A%3Abug%22.-,~%22type%3A%3Afeature%22,-%3A%20Effort%20to%20deliver)). This routing happens before the detailed risk assessment to ensure teams only answer questions relevant to their domain.
 
 ### Initial Triage Questions
 
