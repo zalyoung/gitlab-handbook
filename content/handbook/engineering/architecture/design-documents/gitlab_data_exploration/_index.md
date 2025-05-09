@@ -139,25 +139,24 @@ This proposal outlines a solution to the data exploration challenges identified 
 
 The solution consists of two main components:
 
-1. **A standardized and simplified query system** - An extension of GitLab Query Language (GLQL) to work across all data sources
+1. **A standardized and simplified query system** - An extension of GitLab Query Language (GLQL) to work across multiple data sources and with enhanced quering capabilities
 2. **A unified data exploration UI** - A standardized interface for constructing queries, viewing results, and creating visualizations
 
 ### A Standardised And Simplified Query System
 
-At the core of our solution is a standardized query system that builds upon the existing [GitLab Query Language (GLQL)](https://docs.gitlab.com/user/glql/), extending it to work with all GitLab data sources. This approach provides several benefits:
-
-- **Reduce cognitive load** - Users will learn one query system instead of multiple query languages and methods, improving productivity and adoption
-- **Enable queries from multiple sources** - Data from different sources can be easily queried in a consistent and meaningful way
-- **Provide consistent results** - Uniform filtering and output formats across data sources
+At the core of our solution is a standardized query system that builds upon the existing [GitLab Query Language (GLQL)](https://docs.gitlab.com/user/glql/).
 
 #### Why GLQL is the ideal foundation
 
-GLQL already provides a robust foundation for our standardized query system:
+GLQL provides a robust foundation for our standardized query system:
 
-1. **User-friendly syntax** - GLQL was designed with simplicity and readability in mind
-2. **Extensible by design** - The GLQL architecture separates concerns between parsing, execution, transformation, and presentation and was built with extensibility in mind
-3. **Production-proven** - The current implementation is already in use for merge requests and work item queries
-4. **AI-Powered Exploration**: GLQL's structured syntax makes it an ideal foundation for integration with GitLab Duo. This will enable natural language queries where users can ask questions in plain English and have them automatically translated to GLQL, making data exploration accessible to a wider audience.
+1. **Reduced cognitive load** - Users will learn one query system instead of multiple query languages or methods, improving productivity and making it easier to adopt
+2. **Enable queries from multiple sources** - Data from different sources can be easily queried in a consistent and meaningful way
+3. **Provide consistent results** - Uniform filtering and output formats across data sources
+4. **User-friendly syntax** - GLQL was designed with simplicity and readability in mind
+5. **Extensible by design** - The GLQL [architecture](../glql/#extensibility) separates concerns between parsing, execution, transformation, and presentation and was built with extensibility in mind
+6. **Production-proven** - The current implementation is already in use for merge requests and work item queries
+7. **AI-Powered Exploration**: GLQL's structured syntax makes it an ideal foundation for integration with GitLab Duo. This will enable natural language queries where users can ask questions in plain English and have them automatically translated to GLQL, making data exploration accessible to a wider audience.
 
 #### Extending GLQL to support multiple data sources
 
@@ -175,7 +174,7 @@ The proposed approach includes:
    project = "team-project" AND type = AiMetric
    ```
 
-   Depending on the data source, we can configure the compiler to outputs different format e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
+   Depending on the data source, we can configure the compiler to outputs different formats e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
       - Proof of concept: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 
 
 2. **Source-specific fields and operators** - Extend the syntax to allow fields and operators specific to each data source:
@@ -205,37 +204,39 @@ The proposed approach includes:
    display_id: 'ai-impact-table'
    ```
 
+4. **Improved querying capabilities** - Increase the query language power by including features like mathematical functions (for instance `count()`, `sum()`, etc) or aggregating functions (for instance `group_by`). 
+
+   ```plaintext
+   query: project = "team-project" AND type = Pipeline and status = failed AND updated > -3d
+   fields: count()
+   group_by: status
+   ```
+   This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954
+
+5. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, limited to 100 items, we need to expand that to fully support pagination 
+
 Adopting GLQL for dashboard data exploration could also enable easy exporting and sharing of dashboards/visualizations across other GitLab pages, further enhancing the platform's data exploration capabilities.
-
-To achieve the above, following GLQL's Extensibility [guidelines](../glql/#extensibility), we need to implement the following components:
-
-- Implement new Code Generators tailored to each specific data source
-- Develop corresponding transformers to normalize the data returned by different APIs
-- Create new Analyzers to validate object-specific query semantics
-- Extend or create new Presenters if unique display formats are required
 
 #### Moving GLQL to the backend
 
 A critical architectural change is moving GLQL execution from the frontend to the backend, creating a single API to query any GitLab data with a consistent query and filter language. 
 
-The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be used to query data directly through Rails finders, databases, or other APIs. This would allow us to strip out GraphQL from the GLQL compiler pipeline and retrieve the data directly from different datasources.
+The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be then used to query data directly from the backend. This could result in either executing a GraphQL query from Rails or just fetching the data from internal or external API in whatever format they support.
 
 Proof of contept demonstrating how the Rust GLQL compiler can be hooked up to Rails and the query parsing moved to the backend: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
 
-1. **Technical advantages**:
-   - A single entry point for querying GitLab data, with centralized access control and consistent querying interface
-   - Opportunity for opening it up GLQL to satellite services such as IDE extensions
-   - Direct integration with Rails and databases
-   - Simplified frontend implementation
+Moving GLQL to the backend would provide the following advantages:
 
-2. **Performance improvements**:
-   - Queries can be executed closer to the data, reducing network and GraphQL overhead
-   - Ability to implement caching at the appropriate level
-   - Ability to optimize queries at the backend level
+   - A single entry point for querying GitLab data, with centralized access control and consistent querying interface
+   - Opportunity for opening up GLQL to satellite services such as IDE extensions
+   - A simplified frontend implementation, with the backend as single source of truth
+   - Queries can be executed closer to the data
+   - Opportunity for optimisations at the backend level
+
 
 In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
 
-- Backend: Full query execution against data sources
+- Backend: Query parsing and full query execution against data sources
 - Frontend: Syntax validation and immediate feedback without query execution
 
 This is also inline with `~devops::plan` future plans: [https://gitlab.com/groups/gitlab-org/-/epics/15834](https://gitlab.com/groups/gitlab-org/-/epics/15834), thus opening up opportunities for collaboration.
@@ -329,21 +330,7 @@ each alternative solution/path.
 
 ## Open questions
 
-- Is GLQL powerful enough to be able to express the kind of queries we need? If not, can it be extended to fit our needs? For instance, mathematical functions (e.g. count(), avg(), sum() ) or aggregating functions( group_by) would probably be needed
-- GLQL results are currently limited to 100 items / 1 page. What's needed to fully support pagination?
-- Do we actually need to support more than graphql query as an output format? What other existing data sources are not surfaced through graphql? There might be need for supporting REST API at some point, but probably not from the start? If an entity is exposed through graphql, maybe there is not much of an advantage to hitting the db, through Rails finders for PG or the Clickhouse client, since we would be losing all strict schema handling that graphql provides
-- Is a query text editor enough or do we want a visual builder as well? How to balance between a query text editor for power users and a UI editor for other users?
+- Which output formats do we need to support for a first iteration? What other existing data sources are not surfaced through GraphQL? There might be need for supporting REST API at some point, but probably not from the start? Also, ff an entity is exposed through GraphQL, maybe there is not much of an advantage to hitting the db directly, through Rails finders or the Clickhouse client, since we would be losing all strict schema handling that GraphQL provides?
+- Should we provide only a query text editor, or do we want a visual builder as well? How to balance between a query text editor for power users and a UI editor for other users?
 - Can we support querying data for multiple projects and/or for multiple groups within the same query (e.g. shows all pipeline failures for group A and group B in the last 3 days ). Currently it only supports a single group or a single project
-- How will the system handle multiple queries in parallel when loaded from a dashboard?
-
-## Next steps
-
-- Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
-  - a unified data exploration UI
-  - a standardized and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense, expanding on https://gitlab.com/gitlab-org/gitlab/-/issues/525642#note_2447362814 )
-- Experiment with extending GLQL to fits our needs/requirements
-  - Create an issue and discuss it with Plans if it makes sense
-  - Build a PoC
-- Experiment with moving the GLQL rust compiler to the Rails backend
-  - Create an issue and discuss it with Plan (related issue: https://gitlab.com/groups/gitlab-org/-/epics/15834)
-  - Build a PoC
+- How will the system handle multiple queries in parallel when loaded from a dashboard? 
