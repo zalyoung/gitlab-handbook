@@ -211,6 +211,7 @@ The proposed approach includes:
    fields: count()
    group_by: status
    ```
+
    This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954
 
 5. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, limited to 100 items, we need to expand that to fully support pagination 
@@ -227,12 +228,11 @@ Proof of contept demonstrating how the Rust GLQL compiler can be hooked up to Ra
 
 Moving GLQL to the backend would provide the following advantages:
 
-   - A single entry point for querying GitLab data, with centralized access control and consistent querying interface
-   - Opportunity for opening up GLQL to satellite services such as IDE extensions
-   - A simplified frontend implementation, with the backend as single source of truth
-   - Queries can be executed closer to the data
-   - Opportunity for optimisations at the backend level
-
+- A single entry point for querying GitLab data, with centralized access control and consistent querying interface
+- Opportunity for opening up GLQL to satellite services such as IDE extensions
+- A simplified frontend implementation, with the backend as single source of truth
+- Queries can be executed closer to the data
+- Opportunity for optimisations at the backend level
 
 In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
 
