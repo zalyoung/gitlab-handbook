@@ -150,9 +150,46 @@ graph TD;
   I--> J["Issues"];
 ```
 
+### Executing on the Roadmap
+
+Every Roadmap commitment has a Directly Responsible Individual (DRI) for its delivery, which is typically a [Tech Lead](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role) who leads project management activities such as clarifying scope, coordinating dependencies, and communicating progress. If no engineer in the group has the capacity to assume a Tech Lead role, the Engineering Manager (EM) may step in. The EM is ultimately accountable for overall roadmap execution and cross-team coordination in either case.
+
+The project manager clarifies scope, identifies dependent work, appoints DRIs for work streams, and ensures risks and blockers are prioritized.
+
+The DRI maintains a Wiki page or design document for the project containing a project timeline, project status, links to work items, key participants, a [dogfooding proposal](#dogfooding), and a decision register. This is encouraged for all important projects, especially Tier 1 and Tier 2 Roadmap commitments. It acts as a Single Source of Truth (SSoT) that greatly improves cross-functional collaboration and ensures decisions made are captured. Previous examples are:
+
+- [Configurable Statuses](/handbook/engineering/architecture/design-documents/work_items_custom_status/)
+- [Custom Fields](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Custom-Fields/Dashboard)
+- [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
+- [Epic Work Item Type](https://gitlab.com/gitlab-org/plan-stage/work-items-ga-epics/-/wikis/home)
+
+#### Internal Testing
+
+Plan Engineering regularly tests new functionality internally before releasing to customers. As part of a drive to improve quality in the work we deliver to customers, this process is divided into two parts.
+
+##### Alpha Testing
+
+Testing that occurs during ongoing development. This is limited to GitLab's subgroups or projects other than `gitlab-org`, `gitlab-com`, or `gitlab-org/gitlab`. The Plan Stage has two groups that are available for testing on: [gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage/) and [gitlab-org/plan-stage](https://gitlab.com/gitlab-org/plan-stage).
+
+##### End-of-line testing
+
+End-of-line (EOL) testing is the final step before release to customers. The finished product is delivered to all GitLab team-members, usually by enabling it for the `gitlab-com` and `gitlab-org` groups. This is accompanied by collection of internal feedback, typically using a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager.
+
+No new scope will be accepted at this time without significant justification and without restarting the testing period. Only defects and fit & finish issues identified during testing will be addressed.
+
+This practice ensures that, while there may be more than one item in end-of-line testing at the same time, the system under test resembles as closely as possible the one intended to be given to customers.
+
+#### Dogfooding
+
+Dogfooding helps to build confidence in feature readiness and identify shortcomings before they reach the customer. In most cases, if an improvement cannot be adopted for a useful workflow internally it should not be expected to land with customers either. Identifying a dogfooding opportunity ahead of time can help to reach consensus on what the minimum valuable change should include.
+
+Dogfooding opportunities should be meaningful rather than hypothetical. A new workflow is adopted, an existing workflow complemented or improved, or made redundant.
+
+Project leads should strive to implement dogfooding during the final testing phase and should expect to observe some adoption.
+
 ### Talking With Customers
 
-In a perfect world, we would have cross-functional representation in every conversation we have with customers.
+We aim to have cross-functional representation in every conversation we have with customers.
 
 #### Customer Conversations calendar
 
