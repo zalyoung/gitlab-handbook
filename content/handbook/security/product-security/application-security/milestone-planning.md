@@ -65,11 +65,26 @@ Any issue being worked on by an Application Security team member must include:
 
 ### Updating issues health
 
-DRIs are responsible for updating [the health of issues](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) they are working on:
+DRIs are responsible for providing weekly updates, at the end of the week, on the topics they are working following the following format:
 
-- `On track`: well, pretty easy to understand.
-- `Needs attention`: not yet at risk of missing the milestone, but requires attention. DRI should reach out to AppSec Managers to evaluate what can be adjusted to put it back `On track`.
-- `At risk`: will likely not be completed by the end of the milestone, and we will schedule it for the next milestone too.
+```
+ **What's happened since last update:**
+
+ * \[Bullet points of progress\]
+
+ **What's next:**
+
+ * \[Bullet points of upcoming work\]
+
+ **Blockers:**
+
+ * \[Any blockers or dependencies\]
+
+ **Overall Status/Confidence:**
+
+ * :green_circle: On Track / :yellow_circle: Needs Attention / :red_circle: At Risk
+ * \[Brief explanation of status\]
+```
 
 Updating the issue milestone is required:
 
