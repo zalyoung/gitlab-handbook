@@ -84,6 +84,7 @@ This blueprint does not cover the following:
 - [ADR-005: Non-hierarchical key structure for secrets in OpenBao](decisions/005_secrets_key_structure/)
 - [ADR-007: Use OpenBao as the secrets management service](decisions/007_openbao/)
 - [ADR-008: Redesigning secrets manager without a Rails database table](decisions/008_no_database.md)
+- [ADR-009: Deployment strategy for GitLab.com, Dedicated, and Self-managed instances](decisions/009_deployment_strategy.md)
 
 ### Superseded
 
