@@ -109,7 +109,7 @@ For more information regarding confidentiality levels and compliancy, please vis
 
 [This feedback epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4736)/spreadsheet is only open to GitLab team members. FMMs and managers to keep details in this spreadsheet regarding both positive and negative experiences with various event vendors for team reference.
 
-## How Field Marketing utilizes Claude 
+## How Regional Marketing utilizes Claude 
 
 [Claude](/handbook/tools-and-tips/ai/claude/) is the GitLab-approved AI tool utilized across the company. Below are just a few ways in which Field Marketing integrates Claude into our day-to-day business processes. 
 
