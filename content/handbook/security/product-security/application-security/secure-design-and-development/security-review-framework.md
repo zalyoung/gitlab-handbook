@@ -2,10 +2,10 @@
 
 This security review framework for GitLab establishes a systematic approach to evaluating and reviewing features based on appropriate security team engagement and risk assessment. The framework aims to balance security requirements with development velocity by directing security resources where they can have the most impact. The process begins with team routing to identify whether Secure Design and Development or Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) automatically engaged for High or Critical risk scores.
 
-How the security review framework fits into the Security Review Process is visualized in the [overview flowchart](##overall-process-flow).
-
+How the security review framework fits into the Security Review Process is visualized in the [overview flowchart](#overall-process-flow).
 
 ## Framework purpose
+
 1. Identity which GitLab features needs a security review.
 1. Which type of security review is needed.
 1. Which team needs to be engaged for the security review.
@@ -26,7 +26,7 @@ The first step is to determine which security team(s) should be engaged for the 
 
 When a product team initiates a feature, they complete an initial triage to determine team routing:
 
-#### Secure Design and Development Triggers:
+#### Secure Design and Development Triggers
 
 * Does this feature handle customer repositories, credentials, PII? (Y/N)
 * Does this feature add or modify authentication, authorization or cryptographic mechanisms? (Y/N)
@@ -34,7 +34,7 @@ When a product team initiates a feature, they complete an initial triage to dete
 * Does this feature add a [new service component](https://docs.gitlab.com/development/adding_service_component/) ? (Y/N)
 * Is this a Tier 1 feature? (Y/N)
 
-#### Infrastructure Security Triggers:
+#### Infrastructure Security Triggers
 
 * Does this feature require new cloud infrastructure components? (Y/N)
 * Does this feature modify containerization or orchestration configurations? (Y/N)
@@ -46,7 +46,7 @@ When a product team initiates a feature, they complete an initial triage to dete
 
 Based on the responses to these triage questions, the system routes the review to the appropriate team(s):
 
-```
+```text
 IF ANY Secure Design and Development Trigger is YES
     THEN engage Secure Design and Development Team
 IF ANY Infrastructure Security Trigger is YES
@@ -109,14 +109,14 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 * 3: New feature implementation
 * 2: Enhancements to an existing feature
 
-##### Past Security Issues (0/5) (To be filled by AppSec. Product team won’t be asked to fill this)**
+##### Past Security Issues (0/5) (To be filled by AppSec. Product team won’t be asked to fill this)
 
 * 5: The change is related to a feature that had S1 incidents in the past
 * 4: The change is related to a feature that had \>1 S2
 * 3: The change is related to a feature that had 1 S2
 * 0: No S1/S2 history
 
-##### Launch Tier Impact (0-3):
+##### Launch Tier Impact (0-3)
 
 * 3: Tier 0
 * 2: Tier 1
@@ -154,7 +154,7 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 * 2: Partially automated infrastructure changes
 * 1: Fully automated infrastructure-as-code implementation
 
-##### Launch Tier Impact (0-3):
+##### Launch Tier Impact (0-3)
 
 * 3: Tier 0
 * 2: Tier 1
@@ -165,7 +165,7 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 
 Each engaged team calculates their risk score using their domain-specific dimensions:
 
-```
+```text
 Secure Design and Development Risk Score = Data Processing Impact + Feature Exposure + Architecture Impact + Implementation Complexity + Past Security Issues + Launch Tier Impact
 Infrastructure Security Risk Score = Infrastructure Scope + Environment Criticality + Configuration Complexity + Automation Level + Launch Tier Impact
 ```
@@ -174,14 +174,14 @@ Infrastructure Security Risk Score = Infrastructure Scope + Environment Critical
 
 Each team categorizes risk based on their domain-specific score:
 
-#### Secure Design and Development:
+#### Secure Design and Development
 
 * Critical Risk (Score ≥ 18): Full comprehensive review \+ SPA automatically engaged
 * High Risk (Score 14-17): Complete review with targeted testing \+ SPA automatically engaged
 * Medium Risk (Score 10-13): Focused review of specific components by primary team only
 * Low Risk (Score \< 10): Self-service review
 
-#### Infrastructure Security:
+#### Infrastructure Security
 
 * Critical Risk (Score ≥ 15): Full comprehensive review \+ SPA automatically engaged
 * High Risk (Score 12-14): Complete review with targeted testing \+ SPA automatically engaged
@@ -192,7 +192,7 @@ Each team categorizes risk based on their domain-specific score:
 
 ### Secure Design and Development Review Process
 
-#### Critical Risk Review (with SPA):
+#### Critical Risk Review (with SPA)
 
 * Joint architectural and security review
 * Comprehensive threat modeling session
@@ -203,19 +203,19 @@ Each team categorizes risk based on their domain-specific score:
 * Post-implementation validation
 * Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
 
-#### High Risk Review (with SPA):
+#### High Risk Review (with SPA)
 
 * Joint architectural review
 * Focused threat modeling
 * Targeted code review
 * Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
 
-#### Medium Risk Review:
+#### Medium Risk Review
 
 * Security checklist completion
 * Timeline: 3-5 business days
 
-#### Low Risk Review:
+#### Low Risk Review
 
 * Self-assessment against security guidelines
 * Automated security scanning
@@ -223,7 +223,7 @@ Each team categorizes risk based on their domain-specific score:
 
 ### Infrastructure Security Review Process
 
-#### Critical Risk Review (with SPA):
+#### Critical Risk Review (with SPA)
 
 * Joint architectural and infrastructure review
 * Comprehensive infrastructure security review
@@ -235,7 +235,7 @@ Each team categorizes risk based on their domain-specific score:
 * Post-implementation validation
 * Timeline: 2-3 weeks
 
-#### High Risk Review (with SPA):
+#### High Risk Review (with SPA)
 
 * Joint architectural review
 * Focused infrastructure review
@@ -244,13 +244,13 @@ Each team categorizes risk based on their domain-specific score:
 * Security architect and infrastructure security engineer collaboration
 * Timeline: 1-2 weeks
 
-#### Medium Risk Review:
+#### Medium Risk Review
 
 * Infrastructure security checklist completion
 * Configuration validation of key components
 * Timeline: 3-5 business days
 
-#### Low Risk Review:
+#### Low Risk Review
 
 * Self-assessment against infrastructure security guidelines
 * Automated configuration checking
@@ -302,4 +302,3 @@ flowchart TD
     J --> |Low Risk| L[Self Service]
     F --> |No triggers| L
 ```
-
