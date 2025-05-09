@@ -254,6 +254,7 @@ The interface should include the following main building blocks:
 
    - Toggle between text-based GLQL editor and visual query building
    - Syntax highlighting, autocompletion, and error detection for GLQL query editor
+   - Easily accessible filters
    - Visual query builder with intuitive components for non-technical users
    - Schema browser showing available fields and data types
    - Query templates and saved queries library
