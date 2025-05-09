@@ -130,14 +130,14 @@ Search for the specific trial or the namespace.
 
 ##### Update 
 
-Select the **Edit** icon ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/pencil.svg)
+Select the **Edit** ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/-/raw/main/sprite_icons/pencil.svg)
 - **End Date**: The updated date the plan will end.
 - **Plan**: The trial plan that you would like applied for the customer's group.  If the `x Clear` option is selected, the customer's namespace will immediately be downgraded and the trial ends.
 - **Zendesk ticket link**: The link to relevant Zendesk ticket where the request is made.
 
 ##### Cancel
 
-Select **Cancel trial** icon ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/blob/main/sprite_icons/cancel.svg)
+Select **Cancel trial** ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/-/raw/main/sprite_icons/cancel.svg)
 - **Zendesk ticket link**: The link to relevant Zendesk ticket where the request is made.
 
 ### Trials for SM
