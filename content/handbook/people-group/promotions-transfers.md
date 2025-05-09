@@ -50,17 +50,21 @@ For Engineering, please see [Engineering Mobility Principles](/handbook/engineer
 - Additionally, the aligned People Business Partner should be consulted for alignment and visibility.
 
 ## Promotion Philosophy
+Our promotion philosophy goes beyond traditional "climbing the ladder" thinking. We recognize that growth happens in multiple dimensions—both vertically (moving up levels) and laterally (expanding skills and impact)—creating a career "lattice" that offers diverse paths to development and success.
 
 Our promotion philosophy comprises core pillars surrounding the approach and process alignment to our values.
 
 ### Pillars
 
-- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level](/handbook/company/structure/#job-frameworks) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
-- Career growth should be a partnership between team member and manager. As a manager, it is important to create space to regularly discuss your team members' development and career aspirations, and identify opportunities to support them in their advancement and growth.
-- When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity.
-- All in-line promotions at GitLab require a [promotion document](#promotion-document). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
-- We encourage team members to live our [efficiency value](/handbook/values/#efficiency), be a [manager of one](/handbook/values/#managers-of-one), and take ownership of their promotion document in partnership with their manager.
-- We calibrate planned promotions on a twice per year basis to ensure an equitable review, and through this process track metrics that help us understand if our promotions are occurring at a healthy and fair rate.
+- Performance First: Promotions reflect your current performance, not just potential. For an in-line promotion, you should already be consistently operating at the level described in the next [job framework](/handbook/company/structure/#job-frameworks) before being promoted. While you'd typically become eligible for promotion to the next level in your job family after twelve months in your current role, remember that broadening your skills laterally is equally valuable to your growth journey.
+- Growth Partnership: Your career development is a collaborative effort between you and your manager. We encourage regular conversations about your aspirations—whether that means moving up the ladder or expanding across the lattice. Your manager is there to help identify opportunities that align with your goals, whether that's deepening expertise in your current area or branching out to develop complementary skills and experiences.
+- Holistic Evaluation: When considering promotions, we look at both your readiness and the business opportunity. We value team members who take on broader responsibilities and expand their impact horizontally, not just those looking to climb vertically.
+- Transparent Process: All in-line promotions at GitLab require a [promotion document](#promotion-document). This [transparency](/handbook/values/#transparency) ensures everyone understands the basis for advancement, whether it's vertical progression or recognition of significant lateral growth and expanded capabilities.
+- Self-Ownership: We encourage you to live our [efficiency value](/handbook/values/#efficiency) value by being a [manager of one](/handbook/values/#managers-of-one) and taking ownership of your promotion document, working in partnership with your manager. This applies whether you're seeking vertical advancement or recognition for broadening your skills and impact.
+- Equitable Calibration: We calibrate planned promotions twice yearly to ensure fair and consistent review. Through this process, we track metrics to understand if our promotions—both vertical and lateral—are occurring at a healthy and equitable rate across the organization.
+
+By embracing both the ladder (vertical growth) and lattice (lateral expansion) in our promotion philosophy, we create space for diverse career paths that recognize the many ways you can grow and contribute at GitLab.
+
 
 ### Values Alignment
 
