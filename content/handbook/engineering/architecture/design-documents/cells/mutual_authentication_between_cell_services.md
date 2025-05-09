@@ -331,4 +331,4 @@ This approach works seamlessly with KubeDNS as the DNS provider for the cluster 
 | ------ | ------ |
 |GitLab|Topology Service|
 
-[[Private Service Connect]]: https://cloud.google.com/vpc/docs/private-service-connect
+[Private Service Connect]: https://cloud.google.com/vpc/docs/private-service-connect
