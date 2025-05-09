@@ -75,3 +75,13 @@ Since all systems involved in Snowplow collection and transfer are GitLab-contro
 *Note:* While these logs provide thorough visibility into data transmission, they're designed specifically for inspection by security teams rather than feature usage analysis.  
 
 For insights into feature usage, we recommend waiting for our upcoming in-product adoption reports, which are purpose-built for feature usage analytics.
+
+---
+
+### Q: Are there situations where event data is opt-out for Self-Managed by default?
+
+**A:** Yes, we will not collect events data by default from instances where one of the following applies:
+
+- The instance is on an [offline license](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/);
+- The instance is air-gapped; or
+- The instance has already been approved by either its Sales representative or Customer Support for disablement of [Operational Service Ping Data](https://about.gitlab.com/pricing/faq-improved-billing-and-subscription-management/#operational-data). 

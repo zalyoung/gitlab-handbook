@@ -15,7 +15,7 @@ As initially laid out in the Account Health Scoring [epic](https://gitlab.com/gr
 
 ### Success criteria
 
-- >95% of customers have a health score (alighed to [FY24 Yearlies](/handbook/company/yearlies/#fy24-yearlies))
+- >95% of customers have a health score (alighed to FY24 Yearlies)
 - Customer health scoring framework has been backtested and validated as effective and beneficial
 - Customer Health is used by CSMs, Sales, Product, and the broader org for assessing a customer's level of adoption of GitLab the product and their engagement with GitLab the company as a company-level reporting metric
 

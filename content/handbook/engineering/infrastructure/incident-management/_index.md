@@ -30,9 +30,9 @@ resolution. To that end, incident management provides:
 
 When an [incident starts](#reporting-an-incident), the incident automation sends a message
 in the correponding [incident announcement channel](#incident-announcement-channels)
-containing a link to a per-incident Slack channel for text based communication, the
-incident issue for permanent records, and the Situation Room Zoom link for incident team members to join for synchronous verbal
-and screen-sharing communication.
+containing a link to a per-incident Slack channel for text based communication.
+Within the incident channel, a per-incident Zoom link will be created.
+Additionally, a GitLab issue will be opened in the [Production tracker](https://gitlab.com/gitlab-com/gl-infra/production)
 
 ### Scheduled Maintenance
 
@@ -51,7 +51,10 @@ vacate the Situation Room Zoom in favour of the active incident.
 
 ## Ownership
 
-By default, the EOC is the owner of the incident.  The incident owner can delegate ownership to another engineer or escalate ownership to the IM at any time.  There is only ever **one** owner of an incident and only the owner of the incident can declare an incident resolved. At anytime the incident owner can engage the next role in the hierarchy for support. The incident issue should be assigned to the current owner.
+The Incident Lead role must be deliberately set for every incident. If you need help determining the owner of an incident, the EOC can help.
+The Incident Lead can delegate ownership to another engineer or escalate ownership to the IM at any time. 
+There is only ever **one** owner of an incident and only the owner of the incident can declare an incident resolved.
+At anytime the Incident Lead can engage the next role in the hierarchy for support. The Incident Lead role should always be assigned to the current owner.
 
 ## Roles and Responsibilities
 
@@ -89,6 +92,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
 1. The SSOT for who is the current EOC is the [GitLab Production](https://gitlab.pagerduty.com/service-directory/PATDFCE) service definition in PagerDuty.
     1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#eoc-general` Slack channel.  If you are unable to find coverage reach out to the [EOC coordinator](#engineer-on-call-coordinator) for assistance.
 1. Alerts that are routed to PagerDuty require acknowledgment within 15 minutes, otherwise they will be escalated to the oncall Incident Manager.
+    1. Alerts that page PagerDuty will automatically create a triage incident in [`#incidents-dotcom-triage`](https://gitlab.slack.com/archives/alerts). If it is determined to be a true incident, the triage incident should be accepted. 
     1. Alert-manager alerts in [`#alerts`](https://gitlab.slack.com/archives/alerts) and [`#feed_alerts-general`](https://gitlab.slack.com/archives/feed_alerts-general) are an important source of information about the health of the environment and should be monitored during working hours.
     1. If the PagerDuty alert noise is too high, your task as an EOC is clearing out that noise by either fixing the system or changing the alert.
     1. If you are changing the alert, it is your responsibility to explain the reasons behind it and inform the next EOC that the change occurred.
@@ -101,14 +105,14 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
     1. The [GitLab Organizational Chart](https://comp-calculator.gitlab.net/org_chart) and the [GitLab Team Page](/handbook/company/team/), which lists areas of expertise for team members, are important tools for finding the right people.
 1. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#report-an-incident-via-slack), join the Zoom room for the incident. The Zoom link is in the bookmarks of the relevant incident channel.
     1. GitLab works in an asynchronous manner, but incidents require a synchronous response. Our collective goal is high availability of 99.95% and beyond, which means that the timescales over which communication needs to occur during an incident is measured in seconds and minutes, not hours.
-1. It is important that the "Summary" section of incident issues is updated **early and often** during an incident. This supports our async ability to independently discover the context of an incident and helps all stakeholders (including users) understand the general idea of what is going on.
+1. It is important that updates are posted regularly during an incident. This supports our async ability to independently discover the context of an incident and helps all stakeholders (including users) understand the general idea of what is going on. Use `/inc update` in the Slack channel to easily post an update.
 1. Keep in mind that a GitLab.com incident is not an "infrastructure problem". It is a company-wide issue, and as EOC, you are leading the response on behalf of the company.
     1. If you need information or assistance, engage with Engineering teams. If you do not get the response you require within a reasonable period, escalate through the Incident Manager.
-    1. As EOC, require that those who may be able to assist to join the Zoom call and ask them to post their findings in the incident issue or active incident Google doc. Debugging information in Slack will be lost and this should be strongly discouraged.
-1. By acknowledging an incident in PagerDuty, the EOC is implying that they are working on it. To further reinforce this acknowledgement, post a note in Slack that you are joining the `The Situation Room Permanent Zoom` as soon as possible.
+    1. As EOC, require that those who may be able to assist to join the Zoom call and ensure that they post their findings in Slack and pin (📌) the message to the incident timeline.
+1. By acknowledging an incident in PagerDuty, the EOC is implying that they are working on it. To further reinforce this acknowledgement, post a note in Slack that you are joining the incident Zoom as soon as possible.
     1. If the EOC believes the alert is incorrect, comment on the thread in `#production`. If the alert is flappy, create an issue and post a link in the thread. This issue might end up being a part of RCA or end up requiring a change in the alert rule.
 1. _Be inquisitive_. _Be vigilant_. If you notice that something doesn't seem right, investigate further.
-1. The EOC should not consider immediate work on an incident completed until the top description section in the Incident Issue (above the "Incident Review" section) is filled out with useful information to describe all the key aspects of the Incident.
+1. The EOC should not consider immediate work on an incident completed until the Incident Summary is filled out with useful information to describe all the key aspects of the Incident.
 1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC or whoever is the assigned incident lead should start on performing an [incident review](/handbook/engineering/infrastructure/incident-review/), in some cases this may be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
 
 ### Incident Manager (IM)
@@ -122,7 +126,7 @@ When paged, the Incident Managers have the following responsibilities during a S
     2. In the case of a large scale outage where there is a serious disruption of service, the Incident Manager should check in with Infrastructure Leadership whether a senior member should be brought into the incident to coordinate and manage recovery efforts. This is to ensure that the person in charge of coordinating multiple parallel recovery efforts has a deeper understanding of what is required to bring services back online.
 1. Consider engaging the release-management team if a code change related issue is identified as a potential cause and we need to explore rollbacks or expedited deployment. This can be done by using their slack handle `release-managers`
 1. Responsible for posting regular status updates using the `/incident update` in the incident Slack channel. These updates should summarize the current customer impact of the incident and actions we are taking to mitigate the incident. This is the most important section of the incident timeline. It will be referenced to status page updates and should provide a summary of the incident and impact that can be understood by the wider community.
-1. Ensure that the incident issue has all of the [required labels](#required-labeling) applied. If not set them using `/incident field` command from the incident slack channel
+1. Ensure that the incident issue has all of the required fields applied. If not set them using `/incident field` command from the incident slack channel
 1. Ensure that the incident issue is appropriately restricted based on [data classification](#incident-data-classification), to mark the issue as confidential use `/incident field` and set the `Keep GitLab Issue Confidential` to `true`
 1. If present, ensure that the `Summary for CMOC notice / Exec summary` is filled , use the `/incident summary` to do so
 1. Ensure that necessary public communications are made accurately and in a timely fashion by the [Communications Manager](#communications-manager-on-call-cmoc-responsibilities). Be mindful that, due to the directive to [err on the side of declaring incidents early and often](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack), we should first confirm customer impact with the Engineer On Call prior to approving customer status updates.
@@ -169,6 +173,7 @@ The EOC Coordinator will work closely with the Ops Team on core on-call and inci
 
 Tier 2 on-calls are established to provide subject matter expertise when required. Additional teams may be added when appropriate.
 To initiate onboarding of a new tier 2 team, follow the guidelines in [Tier 2 Oncall Onboarding for teams](/handbook/engineering/infrastructure/incident-management/tier2-oncall-onboarding)
+To page a Tier 2 team, use `/inc escalate` in Slack and choose the team you'd like to contact.
 
 ### Communications Manager on Call (CMOC) Responsibilities
 
@@ -257,7 +262,7 @@ If any of the following are true, it would be best to engage an Incident Manager
 1. Any unauthorized access to a GitLab.com production system
 1. Two or more S3 or higher incidents to help delegate to other SREs.
 
-**Please note** that when an incident is upgraded in severity (for example from S3 to S1), PagerDuty does not automatically page the Incident Manager or Communications Manager and [they must be paged manually](#how-to-engage-the-eoc-im-or-cmoc).
+**Please note** that when an incident is upgraded in severity (for example from S3 to S1), incident.io automatically pages the EOC, IMOC, and CMOC via PagerDuty.
 
 ### What happens when there are simultaneous incidents?
 
@@ -267,8 +272,6 @@ When there are multiple incidents and you decide that additional incident manage
 
 1. Post a slack message in #im-general as well as the appropriate [incident announcement channel](#incident-announcement-channels) asking for additional Incident Manager help.
 1. If your ask is not addressed via slack, escalate to  [Infrastructure Leadership](https://gitlab.pagerduty.com/service-directory/PJKOEIS) in PagerDuty.
-
-If a second incident zoom is desired, choose which incident will move to the new zoom and create a new meeting in zoom.  Be sure to edit the channel topic of the incident slack channel to indicate the correct zoom link.
 
 ### Weekend Escalations
 
@@ -334,7 +337,7 @@ After learning of the history and current state of the incident the Engineering 
 1. The Engineering Communications Lead and the Incident Manager need to prioritize async updates that will allow for the correct information to flow between conversations. Consider using the incident slack channel for this but agree before the customer call starts.
 1. Both the Engineering Communications Lead and CSM should remain in the Zoom with the customers for the full time required for the incident. To avoid loss of context, neither should "jump" back and forth from the internal incident Zoom and the customer interaction Zoom.
 
-In some scenarios it may be necessary for most all participants of an incident (including the EOC, other developers, etc.) to work directly with a customer. In this case, the customer interaction Zoom shall be used, NOT the main GitLab Incident Zoom. This will allow for the conversation (as well as text chat) while still supporting the ability for primary responders to quickly resume internal communications in the main Incident Zoom. Since the main incident Zoom may be used for multiple incidents it will also prevent the risk of confidential data leakage and prevent the inefficiency of having to frequently announce that there are customers in the main incident zoom each time the call membership changes.
+In some scenarios it may be necessary for most all participants of an incident (including the EOC, other developers, etc.) to work directly with a customer. In this case, the customer interaction Zoom shall be used, NOT the Incident Zoom. This will allow for the conversation (as well as text chat) while still supporting the ability for primary responders to quickly resume internal communications in the Incident Zoom.
 
 ## Corrective Actions
 
@@ -343,7 +346,7 @@ Only issues arising out of an incident should receive the label `~"corrective ac
 They are designed to prevent the same kind of incident or improve the time to mitigation and as such are part of the Incidence Management cycle.
 Corrective Actions must be related to the incident issue to help with downstream analysis.
 
-Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
+Corrective Actions issues in the [Production Engineering project](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
 
 Issues that have the `~"corrective action"` label will automatically have the `~"infradev"` label applied.
 This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
@@ -378,7 +381,7 @@ For more details see the [infradev process](/handbook/product/product-processes/
 engineers on call. The project README contains links to checklists for each
 of the above roles.
 
-**In the event of a GitLab.com outage**, a mirror of the runbooks repository is available on at https://ops.gitlab.net/gitlab-com/runbooks.
+**In the event of a GitLab.com outage**, a mirror of the runbooks repository is available on the Ops instance at https://ops.gitlab.net/gitlab-com/runbooks.
 
 ### Who is the Current EOC?
 
@@ -388,7 +391,7 @@ Use the `@sre-oncall` handle to check who the current EOC is
 
 The current EOC can be contacted via the `@sre-oncall` handle in Slack, but please only use this handle in the following scenarios.
 
-1. You need assistance in halting the deployment pipeline. note: this can also be accomplished by [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and labeling it with `~blocks deployments`.
+1. You need assistance in halting the deployment pipeline. note: this can also be accomplished by [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and setting the custom field "Blocks Deployments" to "Yes".
 1. You are conducting a production change via our [Change Management](/handbook/engineering/infrastructure/change-management/) process and as a required step need to seek the approval of the EOC.
 1. For all other concerns please see the [Getting Assistance](/handbook/engineering/infrastructure/getting-assistance/) section.
 
@@ -468,7 +471,7 @@ A Partial Service Disruption is when only part of the GitLab.com services or inf
 
 ### High Severity Bugs
 
-In the case of high severity bugs, we prefer that an incident issue is still created via [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). This will give us an incident issue on which to track the events and response.
+In the case of high severity bugs, we prefer that an incident is still created via [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). This will give us an incident issue on which to track the events and response.
 
 In the case of a high severity bug that is in an ongoing, or upcoming deployment please follow the steps to [Block a Deployment](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers).
 
@@ -489,7 +492,6 @@ This flow is determined by:
 Furthermore, avoiding information overload is necessary to keep every stakeholder's focus.
 
 To that end, we will have:
-
 
 1. a dedicated Zoom call for all incidents. A link to the Zoom call can be found in the incident Slack channel posted in the coresponding [incident announcement channel](#incident-announcement-channels) channel.
 1. a Google Doc as needed for multiple user input based on the [shared template](https://docs.google.com/document/d/1NMZllwnK70-WLUn_9IiiyMWeXs-JKPEiq-lordxJAig/edit#)
@@ -507,7 +509,7 @@ We have three dedicated incident slack channels where incidents are announced
 
 ### Status
 
-We manage incident [communication](#communication) using status.io, which updates [status.gitlab.com](https://status.gitlab.com). Incidents in status.io have **state** and **status** and are updated by the incident owner.
+We manage incident [communication](#communication) using status.io, which updates [status.gitlab.com](https://status.gitlab.com). Incidents in status.io have **state** and **status** and are updated by the CMOC.
 
 To create an incident on status.io, you can use `/woodhouse incident post-statuspage` on Slack.
 
@@ -564,7 +566,7 @@ Incident Managers and Engineers On-Call can use the following table as a guide f
 
 There are four data classification levels defined in GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/#data-classification-levels).
 
-- RED data should never be included in incident issues, even if the issue is confidential.
+- RED data should never be included in incidents, even if the issue is confidential.
 - ORANGE and YELLOW data can be included and the Incident Manager managing the incident should ensure the incident issue is marked as confidential or is in an internal note.
 
 The Incident Manager should exercise caution and their best judgement, in general we prefer to use internal notes instead of marking an entire issue confidential if possible.
@@ -575,145 +577,37 @@ If assistance is required follow the [Infrastructure Liaison Escalation process]
 
 ### Summary
 
-In order to effectively track specific metrics and have a single pane of glass for incidents and their reviews, specific labels are used. The below [workflow diagram](#workflow-diagram) describes the path an incident takes from `open` to `closed`. All `S1` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#review-criteria).
+The entire incident lifecycle is managed through incident.io. All `S1` and `S2` incidents require a review, other incidents can also be reviewed as [described here](/handbook/engineering/infrastructure/incident-review/#the-criteria-which-triggers-a-review).
 
-Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and closed when the `~Incident::Resolved` label is applied.
-A resolved incident means the degradation has ended and will not likely re-occur.
+Incidents are [reported](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) and resolved when the degradation has ended and will not likely re-occur.
 
-If there is additional follow-up work that requires more time after an incident is resolved and closed (like a detailed root cause analysis or a corrective action) a new issue may need to be created and linked to the incident issue.
-It is important to add as much information as possible as soon as an incident is resolved while the information is fresh, this includes a high level summary and a timeline where applicable.
+### Incident Lead
 
-### Assignees
+The Incident Lead is responsible for ensuring that the incident progresses and is kept updated. This role is deliberately assigned after the start of an incident.
+The Lead should be chosen based on the type of incident, for example:
 
-The EOC and the Incident Manager On Call, at the time of the incident, are the default assignees for an incident issue. They are the assignees for the entire workflow of the incident issue.
+- Low Complexity Incidents: The team member most familiar with the affected system should lead (often the reporter)
+- High Complexity Incidents: IMOC (for Sev1/2) or EOC (for Sev3/4) should typically lead due to coordination requirements, but product engineers and engineering managers are also capable of fulfilling this role.
+- Delivery-Related Incidents: Release managers are often well-positioned to lead
+- Security Incidents: Security team members should typically lead
 
 ### Timeline
 
-Incidents use the [Timeline Events](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events.html) feature, the timeline can be viewed by selecting the "Timeline" tab on the incident.
-By default, all label events are added to the Timeline, this includes `~"Incident::Mitigated"` and `~"Incident::Resolved"`.
-At a minimum, the timeline should include when start and end times of user impact.
-You may also want to highlight notes in the discussion, this is done by selecting the clock icon on the note which will automatically add it to the timeline.
-For adding timeline items quickly, use the [quick action](https://docs.gitlab.com/ee/user/project/quick_actions.html), for example:
-
-```text
-/timeline DB load spiked resulting in performance issues | 2022-09-07 09:30
-/timeline DB load spike mitigated by blocking malicious traffic | 2022-09-07 10:00
-```
+The incident Timeline is available on the incident in the incident.io web interface by changing "Highlights" to "All Activity" in the Activity section towards the bottom of the page.
+Items can be added to the timeline via the :pushpin: (📌) emoji reaction to a Slack post within the incident channel.
 
 ### Labeling
 
-The following labels are used to track the incident lifecycle from active incident to completed incident review. [Label Source](https://gitlab.com/gitlab-com/gl-infra/production/-/labels?utf8=%E2%9C%93&subscribed=&search=Incident%3A%3A)
+We no longer use only GitLab labels to describe the status of an incident. The source of truth for any incident is incident.io.
+However, we do have incident.io set some labels based on the state of the incident. 
 
 #### Workflow Labeling
 
-In order to help with attribution, we also label each incident with a scoped label for the Infrastructure Service (Service::) and Group (group::) scoped labels among others.
-
 | **Label** | **Workflow State** |
 | ----- | -------------- |
-| `~Incident::Active` | Indicates that the incident labeled is active and ongoing. Initial severity is assigned when it is opened. |
-| `~Incident::Mitigated` | Indicates that the incident has been mitigated. A mitigated issue means that the impact is significantly reduced and immediate post-incident activity is ongoing (monitoring, messaging, etc.). The mitigated state should not be used for silenced alerts, or alerts that may reoccur. In both cases you should mark the incident as resolved and close it.|
-| `~Incident::Resolved` | Indicates that SRE engagement with the incident has ended and the condition that triggered the alert has been resolved. Incident severity is re-assessed and determined if the initial severity is still correct and if it is not, it is changed to the correct severity. Once an incident has the `~Incident::Resolved` label, it will be automatically closed when all required info has been added to the description. |
-
-#### Root Cause Labeling
-
-Labeling incidents with a Root Cause is done for the categorization of incidents when deploy pipelines are blocked.
-For this reason, a label with the prefix `~RootCause` is required whenever an incident has the `~"release-blocker"` label.
-The person assigned to the incident is responsible for adding the appropriate Root Cause label.
-Ensure to add the Root Cause labels to an incident issue after it is closed.
-
-The current Root Cause labels are listed below. In order to support trend awareness these labels are meant to be high-level, not too numerous, and as consistent as possible over time.
-
-| Root Cause | Description |
-| ---------- | ----------- |
-| `~RootCause::Config-Change` | configuration change, other than a feature flag being toggled |
-| `~RootCause::Database-Failover` | database failover event |
-| `~RootCause::DB-Migration` | resulting from a database migration or a post-deploy migration |
-| `~RootCause::ExternalAgentMaliciousBehavior` | ostensibly malicious behavior by an external agent |
-| `~RootCause::External-Dependency` | resulting from the failure of a dependency external to GitLab, including various service providers. Use of other causes (such as `~RootCause::SPoF` or `~RootCause::Saturation`) should be strongly considered for most incidents. |
-| `~RootCause::FalseAlarm` | an incident was created by a page that isn't actionable and should result into adjusting the alert or [deleting it](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/monitoring/deleting-alerts.md) |
-| `~RootCause::Feature-Flag` | a feature flag toggled in some way (off or on or a new percentage or target was chosen for the feature flag) |
-| `~RootCause::Flaky-Test` | an incident, usually a deployment pipeline failure found to have been caused by a flaky QA test |
-| `~RootCause::GCP-Networking` | GCP networking event |
-| `~RootCause::Indeterminate` | when an incident has been investigated, but the root cause continues to be unknown and an agreement has been formed to not pursue any further investigation. |
-| `~RootCause::Known-Software-Issue` | known/existing technical debt in the product that has yet to be addressed |
-| `~RootCause::Malicious-Traffic` | deliberate malicious activity targeted at GitLab or customers of GitLab (e.g. DDoS) |
-| `~RootCause::Naive-Traffic` | elevated external traffic exhibiting anti-pattern behavior for interface usage |
-| `~RootCause::Release-Compatibility` | forward- or backwards-compatibility issues between subsequent releases of the software running concurrently, and sharing state, in a single environment (e.g. Canary and Main stage releases). They can be caused by incompatible database DDL changes, canary browser clients accessing non-canary APIs, or by incompatibilities between Redis values read by different versions of the application. |
-| `~RootCause::Saturation` | failure resulting from a service or component which failed to scale in response to increasing demand (whether or not it was expected) |
-| `~RootCause::Security` | an incident where the [SIRT team](/handbook/security/#sirt---security-incident-response-team-former-security-operations) was engaged, generally via a request originating from the SIRT team or in a situation where Reliability has paged SIRT to assist in the mitigation of an incident not caused by `~RootCause::Malicious-Traffic` |
-| `~RootCause::Software-Change` | feature or other code change |
-| `~RootCause::SPoF` | the failure of a service or component which is an architectural SPoF (Single Point of Failure) |
-
-#### Customer Communications Labeling
-
-We want to be able to report on a scope of incidents which have met a level of impact which necessitated customer communications. An underlying assumption is that any material impact will always be communicated in some form. Incidents are to be labeled indicating communications even if the impact is later determined to be lesser, or when the communication is done by mistake.
-
-Note: This does not include Contact Requests where the communication is due to identifying a cause.
-
-The CMOC is responsible for ensuring this label is set for all incidents involving use of the Status Page or where other direct notification to a set of customers is completed (such as via Zendesk).
-
-| Customer Communications | Description |
-| ----------------------- | ----------- |
-| `~Incident-Comms::Status-Page` | Incident communication included use of the public [GitLab Status Page](https://status.gitlab.com/) |
-| `~Incident-Comms::Private` | Incident communication was limited to fewer customers or otherwise was only directly communicated to impacted customers (not via the GitLab Status Page) |
-| `~Contact Request` | Applied to issues where it is requested that Support contact a user or customer |
-| `~Contact Request::Awaiting Contact` |  Support has yet to contact the user(s) in question in this issue. |
-| `~Contact Request::Contacted` | Support has contacted the user(s) in question and is awaiting confirmation from Production. |
-| `~CMOC Required` | Marks issues that require a CMOC involvement. |
-
-#### Service Labeling
-
-- In the incident description, we allow multiple service labels for impact. The service label on the incident issue itself should be for the root cause, not the impact.
-- All Infrastructure changes and configuration that is maintained by the Infrastructure department (not application code) should use one of the specific labels for the component (eg: Consul, Prometheus, Grafana, etc.), or the `~Service::Infrastructure` label
-- We may not know what service caused the impact until after the incident. In that case, it is best to use the `Service::Unknown` label until more information is available.
-It is not always very clear which service label to apply, especially when causes span service boundaries that we define in Infrastructure.
-When unsure, it's best to choose a label that corresponds to the primary cause of the incident, even if other services are involved.
-
-The following services should primarily be used for application code changes or feature flag changes, not changes to configuration or code maintained by the Infrastructure department:
-
-- `~Service::API`
-- `~Service::Web`
-- `~Service::Git`
-- `~Service::Registry`
-- `~Service::Pages`
-- `~Service::Gitaly`
-- `~Service::GitLab Rails`
-
-Service labeling examples:
-
-| Example | Outcome |
-| ------- | ------- |
-| An incident is declared but we don't know yet what caused the impact. | Use `~Service::Unknown` |
-| A bug was deployed to Production that primarily impacted API traffic. | Use `~Service::API` |
-| A bug in frontend code caused problems for most browser sessions. | Use `~Service::Web` |
-| A featureflag was toggled that caused a problem that mostly affected Git traffic. | Use `~Service::Git` |
-| A bad configuration value in one of our Kubernetes manifests caused a service disruption on the Registry service. | Use `~Service::Infrastructure` |
-| A mis-configuration of Cloudflare caused some requests to be cached improperly. | Use `~Service::Cloudflare` |
-| Monitoring stopped working due to a Kubernetes configuration update on Prometheus | Use `~Service::Prometheus` |
-| A site-wide outage caused by a configuration change to Patroni. | Use `~Service::Patroni` |
-| A degradation in service due to missing index on a table. | Use `~Service::GitLab Rails` |
-
-#### "Needed" and "NotNeeded" Scoped Labels
-
-The following labels are added and removed automatically by [triage-ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops/):
-
-| Needs Label | Description |
-| ----------- | ----------- |
-| `~{RootCause,Service}::Needed` | Will be added automatically if the corresponding label has not been set. If this label persists the DRI of the incident will be mentioned on a note to correctly label the incident |
-| `~CorrectiveActions::Needed` | Will be added automatically if there are no issues with a `~corrective action` or `~infradev` label related on the incident. |
-| `~IncidentReview::Needed` | Will be added automatically if there is not a related incident review issue, create one by using the link in the issue description. |
-| `~ExecSummary::Needed` | For issues where an exec summary is required, this label will be added until the exec summary is filled out in the description.` |
-| `~{RootCause,Service,CorrectiveActions,IncidentReview,ExecSummary}::NotNeeded` | In rare cases, the corresponding label won't be needed, this label can be used to disable the periodic notes to remind the DRI to update the label |
-
-#### Required Labeling
-
-These labels are always required on incident issues.
-
-| **Label** | **Purpose** |
-| ----- | ------- |
-| `~Service::*` | Scoped label for service attribution. Used in metrics and error budgeting. |
-| `~Severity::*` (automatically applied) | Scoped label for severity assignment. Details on severity selection can be found in the [availability severities](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) section. |
-| `~RootCause::*` | Scoped label indicating root cause of the incident, this label is only required for incidents with the `~"release-blocker"` label. Ensure to add this label after the incident issue is closed|
+| `~Incident::Active` | Indicates that the incident labeled is active and ongoing. Initial severity is assigned when it is opened. This will be set when the incident is set to `Active -> Investigating` or `Active -> Fixing` |
+| `~Incident::Mitigated` | Indicates that the incident has been mitigated. This label is applied if the incident status is set to `Active -> Monitoring` |
+| `~Incident::Resolved` | Indicates that SRE engagement with the incident has ended and the condition that triggered the alert has been resolved. This will be applied when the incident is in the "Post-incident" or "Closed" stages of the incident lifecycle. |
 
 #### Other Incident Labels
 
@@ -722,58 +616,30 @@ These labels are added to incident issues as a mechanism to add metadata for the
 | **Label** | **Purpose** |
 | ----- | ------- |
 | `~incident` (automatically applied) | Label used for metrics tracking and immediate identification of incident issues. |
-| `~self-managed` | Indicates that an incident is **exclusively** an incident for self-managed GitLab. [Example self-managed incident issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/2651) |
-| `~incident-type::automated traffic` | The incident occurred due to activity from security scanners, crawlers, or other automated traffic |
-| `~backstage` | Indicates that the incident is internally facing, rather than having a direct impact on customers. Examples include issues with monitoring, backups, failing tests, self-managed release or general deploy pipeline problems. |
-| `~group::*` | Any development group(s) related to this incident |
-| `~review-requested` | Indicates that the incident would benefit from undergoing additional review. All S1 incidents are required to have a review. Additionally, anyone including the EOC can request an incident review on any severity issue. Although the review will help to derive [corrective actions](#corrective-actions), it is expected that corrective actions are filled whether or not a review is requested. If an incident does not have any corrective actions, this is probably a good reason to request a review for additional discussion. |
-| `~Incident-Comms::*` | Scoped label indicating the level of communications. |
-| `~blocks deployments` | Indicates that if the incident is active, it will be a blocker for deployments. This is automatically applied to `~severity::1` and `~severity::2` incidents. The EOC or Release Manager can remove this label if it is safe to deploy while the incident is active. A comment must accompany the removal stating the safety or reasoning that enables deployments to continue. This label may also be applied to lower severity incidents if needed. |
-| `~blocks feature-flags` | Indicates that while the incident is active, it will be a blocker for changes to feature flags. This is automatically applied to `~severity::1` and `~severity::2` incidents. The EOC or Release Manager can remove this label if there is no risk in making feature flag changes while the incident is active. A comment must accompany the removal stating the safety or reasoning that enables feature flag changes to continue. This label may also be applied to lower severity incidents if needed. |
-| `~Delivery impact::*` | Indicates [the level of impact this incident is having on GitLab deployment and releases](/handbook/engineering/releases/#delivery-impact-labels) |
+| `~blocks deployments` | Indicates that if the incident is active, it will be a blocker for deployments. This label is set when the custom field "Blocks Deployments" in incident.io is set to yes. It is automatically applied to `~severity::1` and `~severity::2` incidents. |
+| `~blocks feature-flags` | Indicates that while the incident is active, it will be a blocker for changes to feature flags. This label is set when the custom field "Blocks Deployments" in incident.io is set to yes. It is automatically applied to `~severity::1` and `~severity::2` incidents. |
 
-#### Duplicates
+### Duplicates
 
-When an incident is created that is a duplicate of an existing incident it is up to the EOC to mark it as a duplicate.
-In the case where we mark an incident as a duplicate, we should issue the following slash command and remove **all** labels on the incident issue:
+When an incident is created that is a duplicate of an existing incident it is up to the EOC to merge it with the appropriate primary incident.
+Incidents can only be merged into open incidents, so if necessary you may need to briefly reopen the incident to merge.
 
-```text
-/duplicate <incident issue>
-```
+### Follow-up Issues
 
-### Related Issues
-
-There are [related issue links](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/5343440ac4ef41fa5a27053a6938480d229bee3e/.gitlab/issue_templates/incident.md#create-related-issues) on the incident template that should be used to create related issues from an incident.
-
-- Corrective action: Creates a new corrective action in the reliability tracker.
-- Investigation followup: Investigation follow-ups for any root cause investigation, analysis or tracking an alert silence that will be done after the incident is resolved
-- Confidential / Support contact: For transparency, we prefer to keep incident issues public. If there is confidential information associated with an issue use this template to create a new issue using the confidential template. Use this template to create requests to the support team engage customers (aka Contact Request).
-- QA investigation: To engage the QA team for a failing test, or missing coverage for an issue that was found in any environment.
-- Infradev: For engaging development for any incident related improvement.
+GitLab issues are created automatically when a "Follow-up" is created in incident.io. Any GitLab issue can be added as a Follow-up item by pasting the link into the incident Slack channel.
 
 ### Workflow Diagram
 
-``` mermaid
+```mermaid
   graph TD
-    A(Incident is declared) --> |initial severity assigned - EOC and IM are assigned| B(Incident::Active)
-    A -.-> |all labels removed if duplicate| F(closed)
-    B --> |"Temporary mitigation is in place (see workflow labeling above)"| C(Incident::Mitigated)
-    B --> D
-    C --> D(Incident::Resolved)
-    D --> |severity is re-assessed| D
+    A(Incident is declared) --> |initial severity assigned| B(Active->Investigating)
+    A -.-> |If duplicate| Z(Merged)
+    B --> |"Fix identified"| C(Active->Fixing)
+    C --> |"Fix deployed"| D(Active->Monitoring)
+    D --> |"Incident resolved"| E(Resolved)
+    E --> |"S1 or S2"| F(Post-Incident Review)
+    E --> |"S3 or S4"| G(Incident Closed)
 ```
-
-- As soon as an incident transitions to `Incident::Resolved`, automation will close the incident when all necessary information is added to the incident description.
-- All `Severity::1` incidents will automatically be labeled with `review-requested`
-
-### Alert Silences
-
-If an [alert silence](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/monitoring/alerts_manual.md#silencing) is created for an active incident, the incident should be resolved with the `~"alertmanager-silence"` label and the appropriate root cause label if it is known.
-There should also be a linked ~infradev issue for the long term solution or an investigation issue created using the [related issue links](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/5343440ac4ef41fa5a27053a6938480d229bee3e/.gitlab/issue_templates/incident.md#create-related-issues) on the incident template.
-
-### Incident Board
-
-The board which tracks all GitLab.com incidents from active to reviewed is located [here](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?&label_name%5B%5D=incident).
 
 ## Near Misses
 
