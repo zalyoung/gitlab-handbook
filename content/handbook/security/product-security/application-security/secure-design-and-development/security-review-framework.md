@@ -166,8 +166,8 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 Each engaged team calculates their risk score using their domain-specific dimensions:
 
 ```
-Secure Design and Development Risk Score = Data Processing Impact + Feature Exposure + Architecture Impact + Implementation Complexity + Past Security Issues
-Infrastructure Security Risk Score = Infrastructure Scope + Environment Criticality + Configuration Complexity + Automation Level
+Secure Design and Development Risk Score = Data Processing Impact + Feature Exposure + Architecture Impact + Implementation Complexity + Past Security Issues + Launch Tier Impact
+Infrastructure Security Risk Score = Infrastructure Scope + Environment Criticality + Configuration Complexity + Automation Level + Launch Tier Impact
 ```
 
 ### Risk Categorization and SPA Engagement
