@@ -194,4 +194,3 @@ Learn more about the automation initiatives that the Application Security team u
 This charter will be reviewed quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and relevant business and operational changes. Updates may occur more frequently as business operations evolve.
 
 *Next scheduled review: June 30, 2025*
-

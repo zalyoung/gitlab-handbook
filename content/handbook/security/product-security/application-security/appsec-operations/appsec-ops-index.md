@@ -31,9 +31,9 @@ Projects without the expected configurations can be found in the [inventory viol
 
 ## Useful resources for AppSec engineers
 
-### [Application Security Engineer Runbooks](runbooks)
+[**Application Security Engineer Runbooks**](runbooks)
 
-### [Application Security Engineer Job Familes](/job-families/security/application-security)
+[**Application Security Engineer Job Families**](/job-families/security/application-security)
 
 ### PTO
 
