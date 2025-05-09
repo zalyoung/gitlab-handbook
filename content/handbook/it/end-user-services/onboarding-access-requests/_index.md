@@ -9,7 +9,7 @@ This page displays different pieces of information surrounding GitLab laptop pro
 
 ## Scope
 
-At GitLab, we use centralized laptop management for company issued devices. If you are in possession of a company issued laptop, the details below apply to you. However, not all endpoint management technologies GitLab deploys will be required for Apple, Linux, and Windows laptops. Some technologies may be specific to the hardware platform or operating system.
+At GitLab, we use centralized laptop management for company issued devices. If you are in possession of a company issued laptop, the details below apply to you. Note: Some technologies are specific to the hardware platform or operating system.
 
 ## Roles & Responsibilities
 
@@ -23,9 +23,9 @@ At GitLab, we use centralized laptop management for company issued devices. If y
 
 Team members that live in these countries can be serviced via the IT Laptop Ordering Process:
 
-USA, Canada, Mexico, all of the EU, Thailand, China, Japan, Philippines, Singapore, Australia, New Zealand, India, Israel and the UK.
+USA, Canada, all of the EU, the UK, Japan, Philippines, Singapore, Australia, New Zealand, India, Israel, Mexico, Thailand, and South Korea.
 
-We are adding supported countries to this list as we discover our ability to order in them.
+We are adding supported countries as we expand our vendor relationships globally.
 
 We currently cannot procure laptops for Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `laptops@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
 If the team member requires financial assistance to purchase the hardware, the Company can advance the funds to help facilitate the purchase (see Exception Processes below).
@@ -70,7 +70,6 @@ Many team members can use their company issued laptop until it breaks. If your p
 **Please note**
 
 Laptops paid for or reimbursed by the company are property of GitLab. They must be enrolled using the proper Endpoint Management System for accurate [asset tracking](/handbook/finance/accounting/#fixed-asset-register-and-asset-tracking).
-Since these items are company property, you do not need to buy insurance for them unless it is company policy to do so.
 
 ### Laptop Repair
 
@@ -117,7 +116,9 @@ If a requested laptop is outside the standardized specifications listed [here](#
 
 **Cost will not be covered by GitLab without proper approval**
 
-IT approval is required for self procurement of laptops. Self procurement is only available if you are in a region where we are not able to have a laptop delivered. If the team member desires financial assistance to purchase the hardware, GitLab can advance the funds to help facilitate the purchase. See the handbook page for [Temporary Advances](/handbook/finance/expenses/#team-member-expense-temporary-advances). For current team members, please obtain two quotes from local retailers (online or physical) and include them in the refresh/replacement issue.
+IT approval is required for self procurement of laptops. Self procurement is only available if you are in a region where we are not able to have a laptop delivered. Additional warranties or insurance should not be purchased for the device. 
+
+If the team member desires financial assistance to purchase the hardware, GitLab can advance the funds to help facilitate the purchase. See the handbook page for [Temporary Advances](/handbook/finance/expenses/#team-member-expense-temporary-advances). For current team members, please obtain two quotes from local retailers (online or physical) and include them in the refresh/replacement issue.
 
 IT must verify the laptop specs and cost before approval is given. The created issue will be verified by the AP team to release funds.
 
@@ -143,13 +144,13 @@ The operating system choices have obviously affected the hardware selection proc
 
 Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system.
 
-NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased Apple products only. Apple does **not** have an employee discount program for GitLab at this time.
+NOTE: GitLab's logistics team uses a corporate discount for our corporate purchased Apple products only. Apple does **not** have an employee discount program for GitLab at this time.
 
 #### Apple Hardware
 
-Laptop configuration, including memory and storage are based on current regional inventory levels. Chip will be M3 at minimum. 
+Laptop configuration, including memory and storage are based on current regional inventory levels.  Chip will be M3 at minimum. 
 
-* MacBook Pro 14-inch - 16-32GB memory / 512GB-1TB storage  **Standard model**
+* MacBook Pro 14-inch - 16-24GB memory / 512GB-1TB storage  **Standard model**
 * MacBook Pro 16-inch - 36-64GB memory / 1TB storage **Performance model**
 * MacBook Pro 14-inch - 36-64GB memory / 1TB storage **Performance model**
 
@@ -245,7 +246,6 @@ Some of these reasons include:
 
 Defense in depth, in part, means you make a best effort to be secure at each layer. To read through more instructions, please refer to [security best practices](/handbook/security/corporate/services/laptops/security/) when configuring your new laptop.
 
-**All team members must provide proof of whole disk encryption within the new laptop order issue.**
 
 Certain circumstances (world region and availability of hardware) might require the self installation of Linux on a Dell that was shipped with OEM Windows.
 Please make sure you follow any needed requirements when self installing and open an issue with GitLab IT if needed for verification.
