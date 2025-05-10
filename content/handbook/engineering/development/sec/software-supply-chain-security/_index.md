@@ -51,7 +51,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ### Pipeline Security
 
-{{% member-and-role-by-gitlab "ahuntsman" "cipherboy-gitlab" "dbiryukov" "fcatteau" "iamricecake" "jmallissery" "mgandres" "srajadas" %}}
+{{% member-and-role-by-gitlab "fcatteau" "ahuntsman" "cipherboy-gitlab" "dbiryukov"  "iamricecake" "jmallissery" "mgandres" "srajadas" %}}
 
 ## Stable Counterparts
 
