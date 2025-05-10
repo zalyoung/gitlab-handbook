@@ -51,7 +51,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ### Pipeline Security
 
-{{< team-by-manager-slug manager="fabien-c" team="Engineer(.+)Software Supply Chain Security:Pipeline Security" >}}
+{{% member-and-role-by-gitlab "ahuntsman" "cipherboy-gitlab" "dbiryukov" "fcatteau" "iamricecake" "jmallissery" "mgandres" "srajadas" %}}
 
 ## Stable Counterparts
 
