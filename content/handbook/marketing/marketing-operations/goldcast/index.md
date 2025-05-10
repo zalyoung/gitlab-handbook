@@ -26,11 +26,11 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 - [Email Customization](https://help.goldcast.io/en_US/emails)
 - [Event Settings](https://help.goldcast.io/en_US/event-settings)
 - [Event Setup](https://help.goldcast.io/en_US/event-setup)
-- [Captions and Subtitles](https://help.goldcast.io/en_US/event-settings/16696845638683-captions-and-translated-subtitles)
 - [Webinars Powered by Smart Technology](https://help.goldcast.io/en_US/webinars-powered-by-smart-event-technology)
 - [Webinars vs Events](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events)
 - [Running an Event](https://help.goldcast.io/en_US/running-an-event)
 - [Enchanced Stage Controls](https://help.goldcast.io/en_US/enhanced-stage-controls)
+- [Captions and Subtitles](https://help.goldcast.io/en_US/event-settings/16696845638683-captions-and-translated-subtitles)
 - [How to Create Booths](https://help.goldcast.io/rooms-booths/16633523675419-how-to-create-booths)
 - [Content Lab](https://help.goldcast.io/en_US/content-lab-home)
 
@@ -54,7 +54,7 @@ For questions about Goldcast, reach out to mktgops via our Slack channel or thro
 - Any 4K broadcasts require the GitLab team contact Goldcast support as these are deemed "special" events 
 - [Lite Mode](https://help.goldcast.io/en_US/for-attendees/9152654198427-goldcast-attendee-faqs), as shown on Q4 of the FAQ, may improve performance of attendees experiencing video or audio problems. By default, guests are asked to perform a connection test before joining an event 
 - To request text-based Live Chat Support during an event and from the Studio dashboard, [click the "?" icon in the top right corner](https://help.goldcast.io/en_US/about-goldcast/16577714397851-how-do-i-contact-goldcast-support-). Support can share an `event check`up to 48 hours prior to the event, if requested, which includes a review of settings
-- Uploading our own subtitle files [requires reaching out to Support](https://goldcast.zendesk.com/hc/en-us/articles/26677786827291-Upload-Custom-VTT-Caption-Files-to-Pre-recorded-Sessions) with the event name/ID and pre-recorded session name. Pre-loaded subtitles are only available for pre-recorded events. The file emailed to Support must be in VTT format and the Support team requests up to 48 hours to implement
+- Uploading our own subtitle/caption files [requires reaching out to Support](https://goldcast.zendesk.com/hc/en-us/articles/26677786827291-Upload-Custom-VTT-Caption-Files-to-Pre-recorded-Sessions) with the event name/ID and pre-recorded session name. Pre-loaded subtitles are only available for pre-recorded events. The file emailed to Support must be in VTT format and the Support team requests up to 48 hours to implement. Within any event using customized VTT files, **only languages included within the submitted files will be supported** and live captions will be disabled. e.g., if a VTT file includes English, Korean and German, those will be the only available subtitles/captions and Japanese will not be selectable. 
 
 ## Fields syncing between Marketo and Goldcast
 
@@ -185,7 +185,7 @@ Marketo landing page tokens
 
 ### Differences with creating a New Webinar, New Event and New Series
 
-As mentioned in the Random Things to Know section, when creating a new event there are a few choices: `New Webinar`, `New Event` and `New Series`. Each of these offers slight variation on event attributes but are larger the same. 
+As mentioned in the Random Things to Know section, when creating a new event there are a few choices: `New Webinar`, `New Event` and `New Series`. Each of these offers slight variation on event attributes and features, with [Webinar and Event seeing the most important differences](https://help.goldcast.io/en_US/QA-event-setup/webinars-vs-events).
 
 - For more simplistic webinars where the entire event is either broadcast type `pre-recorded` or entirely broadcast type `live`, `New Webinar` offers an easy set up option but with less flexibilty. If `pre-recorded` is selected, the Back Stage staff can only interact with the audience via the text-based interface. If `Live` is selected, the Staff or Speakers must manually manage all video shown on the stage
 - For more flexibility to manage pre-recorded video and live speakers within your event, select `New Event`. `New Event` lets users create a multi-session events that can be scheduled across multiple rooms, times and days. This option is best for events featuring `live Q&A` after a pre-recorded video
@@ -193,7 +193,7 @@ As mentioned in the Random Things to Know section, when creating a new event the
 
 ### Event Creation within Goldcast 
 
-When starting event creation in Goldcast, start by clicking the `+` icon in the top right of the platform. From the primary options, select the best fit for your event.
+When starting event creation in Goldcast, start by clicking the `+` icon in the top right of the platform. From the primary options, select the best fit for your event. If you would like Goldcast to auto-create a Marketo program, select the template `Gitlab Primary Template (auto-Marketo program creation)`. All localized templates are currently set up to auto-create a Marketo program.
 
 Fill in your `Title`, `Pick a Date`, `Start Time`, `End Time`, `Timezone`, and for webinars `Type` - Most of these auto-populate into the Marketo program tokens, where appropriate. GitLab as an org will likely stick with `Live` and `Pre-recorded` types. The `RTMP` type is a feature that allows embedding to or from external tools and there are currently no plans to use this feature. Please ping MktgOps if there is a request to try it
 
@@ -216,6 +216,8 @@ If the Marketo program cloning feature worked correctly, Goldcast will have crea
 When starting event creation in Marketo, make a duplicate of [YYYYMMDD_EventName_Webcast_Goldcast_template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME21842A1) and move it to the appropriate folder for the quarter and using the standard naming convention.
 
 Once the program is up, grab the program ID number. The program ID number can be found at the end of the program's URL and between the letters,  i.e. `classic/ME**00000**A1`. The program ID will be placed into your Goldcast event.
+
+With a Marketo program created before the Goldcast event, there is no need to have Goldcast create a new Marketo program. On event creation, select the Goldcast template titled `Gitlab Primary Template (w/o Marketo program creation)`. This template will **not** create a new Marketo program and this option does not exist for localized templates. 
 
 To place the Marketo program ID in Goldcast, go to and click into your event. Within the event, click in this order `Integrations` -> `Marketo` -> `Settings`. Place your Marketo program ID into the `Connected Program ID` field and click connect. The Goldcast event and Marketo program are now linked.
 
@@ -349,7 +351,7 @@ If the event has been rescheduled, change the Marketo program name to match the 
 
 ## Localized Event Templates
 
-Goldcast has been outfitted with localized event templates for 6 additional languages, bringing the number of templates available to 7 languages total:
+Goldcast has been outfitted with localized event templates for 7 additional languages, bringing the number of templates available to 8 languages total:
 
 - English
 - Spanish (Spain)
@@ -358,6 +360,9 @@ Goldcast has been outfitted with localized event templates for 6 additional lang
 - Portuguese
 - Italian
 - Japanese
+- Korean
+
+Note that each of these localized templates will auto-create a Marketo program.
 
 Each of these templates have the `Primary Language` set to the listed language, meaning email assets, UI and features are set to this language and **in order for some features to work correctly the speakers must be speaking in that language**. Event information must also be input by Staff to match the language for a completely localized experience. More information can be found [within Goldcast's documentation](https://help.goldcast.io/event-settings/16635257856923-hosting-an-event-in-different-primary-languages). 
 
@@ -365,31 +370,32 @@ When adding Speakers to an event, the `Speaker Invite/Instructions` email will b
 
 All Japanese event templates have been updated with email templates that include the greeting `{{last name}}-sama`, whether the email is in Japanese or English
 
-A Korean template has been requested and is undergoing approvals
-
 To send a `Reschedule` or `Cancelation` email, follow similar protocal as explained in the above section. Select the templates titled `[Reschedule] Default GitLab Template - {{Primary Language}}` or `[Cancellation] Default GitLab Template - {{Primary Language}}` and depending on the email, fill in the subject line with one of these translations:
 
 a. `Your event has been rescheduled!`
 b. `Due to unforeseen circumstances the event has been canceled.`
 
 - Spanish
-  a. "Su evento se reprogramó."
-  b. "Debido a circunstancias imprevistas, el evento se canceló."
+  - a. "Su evento se reprogramó."
+  - b. "Debido a circunstancias imprevistas, el evento se canceló."
 - French
-  a. "Votre événement a été reprogrammé!"
-  b. "En raison de circonstances imprévues, l'événement a été annulé."
+  - a. "Votre événement a été reprogrammé!"
+  - b. "En raison de circonstances imprévues, l'événement a été annulé."
 - German
-  a. "Dein Event wurde verschoben."
-  b. "Aufgrund unvorhergesehener Umstände wurde das Event abgesagt."
+  - a. "Dein Event wurde verschoben."
+  - b. "Aufgrund unvorhergesehener Umstände wurde das Event abgesagt."
 - Portuguese
-  a. "Seu evento foi reagendado!"
-  b. "evido a imprevistos, o evento foi cancelado. "
+  - a. "Seu evento foi reagendado!"
+  - b. "evido a imprevistos, o evento foi cancelado. "
 - Italian
-  a. "Il tuo evento è stato riprogrammato."
-  b. "A causa di circostanze impreviste, l'evento è stato annullato."
+  - a. "Il tuo evento è stato riprogrammato."
+  - b. "A causa di circostanze impreviste, l'evento è stato annullato."
 - Japanese
-  a. "イベントのスケジュールが変更されました！"
-  b. "予期せぬ事情により、イベントは中止となりました。"
+  - a. "イベントのスケジュールが変更されました！"
+  - b. "予期せぬ事情により、イベントは中止となりました。"
+- Korean
+  - a. "이벤트 일정이 변경되었습니다!"
+  - b. "예기치 못한 상황으로 인해 이벤트가 취소되었습니다. 불편을 끼쳐드려 죄송합니다."
 
 ## Working with a Series
 
@@ -421,6 +427,13 @@ All generated content uses what is called a "brand kit", which directs all gener
 - Intro/Outro Video: Videos used on generated video clips. To be added at a later time 
 
 All generated content made within Content Lab can be exported for use outside of the platform 
+
+## Requesting new creative assets
+
+Goldcast supplies guidelines for creative assets on two different pages:
+
+- [Image and Video Specifications for Goldcast Events](https://help.goldcast.io/design/4406894301979-goldcast-design-specifications)
+- [Event Look & Feel: Branding your event](https://help.goldcast.io/design/16695909382427-event-look-feel-branding-your-event-#list-of-specs-and-assets-30)
 
 ## Link to the original implementation training with Goldcast
 

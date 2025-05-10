@@ -508,20 +508,29 @@ To make this happen we'll [use the following approach](https://gitlab.com/gitlab
 
 - [Iteration 2 epic](https://gitlab.com/groups/gitlab-org/-/epics/14794)
 - Implement custom statuses
-- Board integration
+- Expand support to Issues
+- Board integration (Issues only)
 - Filter by a single status on list views (if ready only work item list, else legacy list, no support for legacy epic list)
 - Status management (create, update, reorder, delete)
-- Migration from labels to statuses
-- Expand support to Issues and Epics
 
 Iteration 2 is the GA release. The following changes need to happen to change from internal dogfooding to GA:
 
 1. Change the feature flag of the internal dogfooding paths back to `work_item_status_feature_flag`.
 1. Enable the feature flag by default in the same MR.
 
-#### Iteration 3
+##### Nice to have
 
-- [Iteration 3 epic](https://gitlab.com/groups/gitlab-org/-/epics/14795)
+- Migration from labels to statuses
+
+#### Iteration 3 (fast follow)
+
+- [Iteration 3 epic](https://gitlab.com/groups/gitlab-org/-/epics/17798)
+- Expand support to epics: epic detail view, epic list view, legacy epic board view. If the new board experience becomes available,
+skip implementing the legacy epic board view and focus on the new experience instead.
+
+#### Iteration 4
+
+- [Iteration 4 epic](https://gitlab.com/groups/gitlab-org/-/epics/14795)
 - Customizable status for all work item types
 - Lifecycle management (create, update, assign work item types, delete)
 - Status available on dashboards (more complex because they can be fed by different root namespaces)
@@ -570,7 +579,6 @@ This section documents key architectural and implementation decisions made durin
 1. We'll [backfill only open work items](https://gitlab.com/gitlab-org/gitlab/-/issues/498395#note_2388702770)
    with a default open status.
 1. We'll always add status data regardless of license to eliminate the need for additional data migrations during tier changes.
-1. We will be implementing work item [status badge and filters in legacy issues list and epic work item list](https://gitlab.com/gitlab-org/gitlab/-/work_items/508015#note_2461199237). We will not be supporting legacy epics list.
 1. Once a namespace uses custom statuses, [there's no way back to system-defined statuses](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/187267#note_2451249170).
 1. When the default open/closed/duplicate status of a lifecycle is changed, [it only affects new transitions and new item creations](https://gitlab.com/gitlab-org/gitlab/-/issues/498394#note_2450687886).
 1. [We decided on limits](https://gitlab.com/groups/gitlab-org/-/epics/17321#note_2451571648): max. `70` statuses and
@@ -578,7 +586,10 @@ This section documents key architectural and implementation decisions made durin
 1. We'll [set default open/closed statuses for all items of supported work item types](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/187686#note_2456571060)
    regardless of feature flag state and license.
 1. We'll [show the default open status as a preselected value on the work item create form](https://gitlab.com/gitlab-org/gitlab/-/issues/526531#note_2457132393).
-1. [We won't implement status on the legacy epic list](https://gitlab.slack.com/archives/C08DMJWCPEG/p1745338731609409?thread_ts=1745297729.087019&cid=C08DMJWCPEG).
+1. We'll be implementing work item [status badge and filters in legacy issues list](https://gitlab.com/gitlab-org/gitlab/-/work_items/508015#note_2461199237).
+1. [Expanding support to epics](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13402#note_2491127675), including the epic detail view, epic list view,
+and legacy epic board view will be included in Iteration 3 (Fast follow). If the new board experience is available by the time of implementation, we'll skip the legacy board
+view and focus on the new experience instead.
 
 ## Resources
 

@@ -172,6 +172,64 @@ Deteermining who to include in a design review can be challenging. Here are some
 
 If unsure who to include, consult your Product Design Manager for guidance.
 
+### Design critiques
+
+Design critiques are dedicated sessions where Product Designers exchange rigorous, constructive feedback to elevate work quality; challenging assumptions and examining the underlying rationales for design decisions beyond standard [design reviews](#design-reviews). Benefits include:
+
+- Pushing designs to excellence through specific, actionable feedback that increases overall quality and value for customers
+- Building a culture where constructive challenge is valued and expected
+- Accelerating professional growth and design craft through deeper discussions
+- Addressing issues and inconsistency earlier in the design process
+- Alignment with the design system, other product areas, and UX paradigms
+- Ensuring user-centered thinking remains at the forefront
+
+We prioritize a balanced approach to design critiques that practices benevolent, [radical candor](https://www.radicalcandor.com/blog/what-is-radical-candor/) and cares personally, but challenges directly. Here's how to conduct an effective critique:
+
+1. **Prepare the work**: Select designs that would benefit from rigorous feedback, whether early concepts or refined work.
+1. **Structure the critique session**:
+   1. Provide thorough context: Share the customer problem, constraints, design decisions made, and areas where you specifically need critique. Be clear which aspects you want challenged. (5 minutes)
+   1. Begin by presenting work without excessive explanation. (10 minutes)
+   1. Allow participants to ask clarifying questions and provide critique. (bulk of the sessions time)
+   1. Summarize key takeaways and next steps. (5-10 minutes)
+1. **Participate effectively**:
+   1. Be curious by asking questions like "have you…," "how does this…," and "why is this…" to help you understand the design decisions and solutions.
+   1. Provide specific and detailed comments that help encourage, challenge, and unblock the presenter.
+   1. Connect feedback to user needs and business goals instead of personal preference.
+1. **Receive critique productively**:
+   1. Listen openly before responding.
+   1. Take detailed notes and ask clarifying questions when needed.
+   1. Thank participants for specific, challenging feedback.
+1. **Document and follow up**:
+   1. Capture key critique points in the relevant issue or epic.
+   1. Share how the critique influenced your design decisions in subsequent iterations.
+   1. Acknowledge team members whose critique led to meaningful improvements.
+
+### Setting the right mindset
+
+To ensure critique sessions maintain both psychological safety and honest feedback, facilitators are strongly encouraged to reference the code of conduct and verbalize the mantra before beginning.
+
+#### Code of conduct
+
+During our critique sessions, we commit to:
+
+1. Focus on the design work, not the designer.
+1. Communicate with respect and avoid offensive language or behavior.
+1. Challenge directly while showing we care personally.
+1. Provide specific, actionable feedback and reasoning rather than vague comments.
+1. Practice genuine curiosity to understand design decisions before critiquing them.
+1. Remain open to different perspectives and approaches.
+1. Receive critique openly and be willing to let go of unsuccessful elements.
+1. Engage in candid conversation and spirited debate with passion for our craft.
+
+#### Mantra
+
+Critique the work, not the person.<br>
+Care personally, challenge directly.<br>
+Speak candidly, listen openly.<br>
+Embrace curiosity, let go of attachment.
+
+**Note:** Reading the mantra verbatim before each session might initially feel awkward or repetitive, however, consistently expressing these shared expectations creates the right environment for productive critique. The few moments it takes pays dividends in the quality of feedback and team dynamics.
+
 ### Partnering with Technical Writers
 
 When adding or changing to UI text, it's essential to collaborate with your group's Technical Writer. This collaboration should begin during the Product [Design phase](/handbook/product-development/product-development-flow/#validation-phase-3-design).

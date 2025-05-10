@@ -153,12 +153,12 @@
 /content/handbook/engineering/development/ops/verify/ci-platform/ @cheryl.li @drew
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @jeromezng
-/content/handbook/engineering/development/sec/software-supply-chain-security/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
+/content/handbook/engineering/development/sec/software-supply-chain-security/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @fcatteau
 /content/handbook/engineering/development/sec/software-supply-chain-security/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/software-supply-chain-security/authentication.md @adil.farrukh
 /content/handbook/engineering/development/sec/software-supply-chain-security/authorization.md @jayswain
 /content/handbook/engineering/development/sec/software-supply-chain-security/compliance.md @nrosandich
-/content/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ @shampton
+/content/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ @fcatteau
 /content/handbook/engineering/development/sec/software-supply-chain-security/security-policies/ @alan
 /content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/dynamic-analysis/ @tkopel @mikeeddington
@@ -269,7 +269,7 @@
 /content/handbook/finance/procurement/ @RendiMiller @brobins
 /content/handbook/finance/spending-company-money.md @brobins
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
-/content/handbook/finance/internal-audit/ @bjoshi2 @atoomer
+/content/handbook/finance/internal-audit/ @atoomer @brobins
 /content/handbook/finance/tax/ @jgladen
 /content/job-families/finance/ @brobins @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
@@ -573,6 +573,7 @@
 ^[support]
 /content/handbook/support/ @gitlab-com/support
 /content/handbook/support/support-idk.md @irisb @jgianoutsos @klang
+/content/handbook/support/browser-extensions/_index.md @anton
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [support-required-approvals]

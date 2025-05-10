@@ -31,11 +31,11 @@ In Elevate, participants will:
 
 ## How is the program structured?
 
-Elevate is organized into 6 learning modules, including 2 practice labs. Practice Labs are primarily an interactive session in which you'll practice the concepts taught in the previous module, however, every module will include elements of interactivity. Each module is 60 minutes long, and they take place at 2 week intervals. View the infographic below for more details on what's covered in each module.
+Elevate is organized into 6 learning modules, including 2 practice labs. Practice Labs are primarily an interactive session in which you'll practice the concepts taught in the previous module, however, every module will include elements of interactivity. Each module is 60 minutes long, and they take place at 2 week intervals. View the infographic below for more details on what's covered in each module. The session dates will be updated for the next cohort beginning in May soon.
 
 ![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviews.png)
 
-All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
+All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place. If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
 
 We ask that team members make an effort to attend the live sessions, and engage in them fully, with cameras on. This enhances the experience for other team members and fosters an environment which promotes more active engagement and discussion with the concepts being discussed.
 
