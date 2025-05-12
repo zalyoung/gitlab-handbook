@@ -154,7 +154,7 @@ To run this job:
 
 You can safely re-run this task as many times as you'd like as it will append to the issue.
 
-## Handling "Bad" Reviews (CES 1,2,3 or 4)
+## Handling "Bad" Reviews - Customer Effort Scores 1,2,3 or 4
 
 For feedback issues labeled "satisfaction::bad", click through to the ticket, and review it to determine the following:
 
