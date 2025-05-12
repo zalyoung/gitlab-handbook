@@ -85,7 +85,7 @@ Currently, the following methods create feedback issues for review:
 Within 7 days, for each of your Support Engineers who receive feedback:
 
 1. You should have performed the triage work described in the handling
-["Good"](#handling-good-reviews) and ["Bad"](#handling-bad-reviews) sections
+["Good"](#handling-good-reviews---customer-effort-scores-56-or-7) and ["Bad"](#handling-bad-reviews---customer-effort-scores-123-or-4) sections
 for each feedback issue assigned to you.
 1. You should have initiated any customer or GitLab group contact.
 1. You should have closed all feedback issues assigned to you that have
