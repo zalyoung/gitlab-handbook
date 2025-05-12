@@ -157,6 +157,7 @@ glab push --polyrepo-manifest=../manifest.xml
    MRs were merged. Much like merge requests cannot be deleted.
 
 Known unknowns:
+
 - Should a merge request belonging to a change set be allowed to be closed?
   Should it instead be removed from the change set?
 - Should modifying the change set (by adding or removing a merge requests) trigger a CI pipeline?
