@@ -59,12 +59,12 @@ Review [Customer Support Operations System Criticality Sheet](https://drive.goog
 
 1. Start by posting in `#support-operations` (during [Global Support Hours](https://about.gitlab.com/support/#hours-of-operation))
 1. Wait for a response. Continue down this list if you get no response for:
-   - 24 hours for issues with Administrative systems. 
-   - 8 hours for issues Business Operational systems.
-   - 30 minutes for issues with Business Critical Systems.
-   - 10 mintes for issues with Mission Critical Systems.
-2. [Create a new incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service.
-3. Be available to work with the on-call to develop a plan to resolve the problem.
+   * 24 hours for issues with Administrative systems. 
+   * 8 hours for issues Business Operational systems.
+   * 30 minutes for issues with Business Critical Systems.
+   * 10 mintes for issues with Mission Critical Systems.
+1. [Create a new incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service.
+1. Be available to work with the on-call to develop a plan to resolve the problem.
 
 More about [how Customer Support Operations handles incidents](/handbook/security/customer-support-operations/workflows/incidents/).
 
