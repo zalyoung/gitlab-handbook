@@ -153,7 +153,7 @@
 /content/handbook/engineering/development/ops/verify/ci-platform/ @cheryl.li @drew
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @jeromezng
-/content/handbook/engineering/development/sec/software-supply-chain-security/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @fcatteau
+/content/handbook/engineering/development/sec/software-supply-chain-security/ @adil.farrukh @jayswain @nrosandich @fcatteau @mmishaev
 /content/handbook/engineering/development/sec/software-supply-chain-security/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/software-supply-chain-security/authentication.md @adil.farrukh
 /content/handbook/engineering/development/sec/software-supply-chain-security/authorization.md @jayswain
