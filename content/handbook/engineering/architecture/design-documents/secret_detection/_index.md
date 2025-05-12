@@ -1,7 +1,7 @@
 ---
 title: Secret Detection as a platform-wide experience
 status: ongoing
-creation-date: "2024-12-10"
+creation-date: "2022-11-25"
 authors: [ "@theoretick", "@vbhat161", "@ahmed.hemdan" ]
 coach: [ "@theoretick" ]
 approvers: [ "@abellucci", "@amarpatel" ]
