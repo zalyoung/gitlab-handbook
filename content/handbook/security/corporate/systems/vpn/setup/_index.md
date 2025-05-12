@@ -4,7 +4,15 @@ title: NordLayer VPN Setup Guide
 
 ## Access Request
 
-Please open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and add `/label ~"corpsec-metric::ar"`. For majority of team members, please request access to the Okta group `app.nordlayer.publicwifi`. If you are a system administrator that requires access to GitLab dedicated IP address, please [review](#nordlayer-for-system-administration).
+Please request access to NordLayer through the Okta portal using [Lumos](/handbook/security/corporate/systems/lumos/ar/). Follow these steps to submit your request for NordLayer:
+
+- Log in to the [Okta portal](https://gitlab.okta.com)
+- Search for and select the "Lumos" application
+- Select "NordLayer" from the available applications
+- Choose the specific permission that matches your needs, either "Public WiFi" or ["Dedicated Gateway"](#nordlayer-for-system-administration)
+- Lumos will automatically initiate the approval workflow and handle provisioning upon approval
+
+The system will guide you through any additional information required to complete your request. You'll receive notifications about the status of your request through email.
 
 ## NordLayer Installation
 
@@ -70,7 +78,7 @@ We recommend you set NordLayer to auto-connect when using untrusted WiFi (networ
 
 ## NordLayer for System Administration
 
-NordLayer is also used for system administration purposes, providing secure access to internal systems and resources via dedicated IP addresses that are limited to certain GitLab Team Members. If you require acecss to these dedicated IP addresses, please open an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and add `/label ~"corpsec-metric::ar"` and requesting access to the group `app.nordlayer.dedicategateway`.  
+NordLayer is also used for system administration purposes, providing secure access to internal systems and resources via dedicated IP addresses that are limited to certain GitLab Team Members. If you require acecss to these dedicated IP addresses, please request the access via [Lumos](/handbook/security/corporate/systems/lumos/ar/) and select `Permission:Dedicated Gateway`.
 
 Here are some key points about using NordLayer for system administration:
 
