@@ -123,6 +123,8 @@ At the [medium breakpoint](https://design.gitlab.com/product-foundations/layout#
 column. This will move every panel to a fully vertical layout. Dropping down to a singular column will give the content of each panel the
 space it needs to render without looking cramped on the page of smaller viewports.
 
+When a grid has no panels it should render an empty state.
+
 Our preferred choice for this grid is to use [Gridstack](https://gridstackjs.com/), an open-source MIT licensed library which supports
 grid structures, along with the changing and resizing of grid items, in a deterministic, and cross-browser friendly way.
 
