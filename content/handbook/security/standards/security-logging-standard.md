@@ -1,5 +1,7 @@
 ---
 title: GitLab Security Logging Standards
+aliases:
+- /handbook/security/security-logging-standard
 ---
 
 ## Purpose and Scope

@@ -1,5 +1,7 @@
 ---
 title: GitLab Password Standards
+aliases:
+- /handbook/security/password-standard
 controlled_document: true
 ---
 

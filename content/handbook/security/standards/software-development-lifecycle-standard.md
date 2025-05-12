@@ -1,5 +1,7 @@
 ---
 title: "Software Development Lifecycle Standard"
+aliases:
+- /handbook/security/software-development-lifecycle-standard
 ---
 
 ## Purpose

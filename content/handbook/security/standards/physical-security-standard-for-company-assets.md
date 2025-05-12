@@ -1,5 +1,7 @@
 ---
 title: "Physical Security Standard for Company Assets"
+aliases:
+- /handbook/security/physical-security-standard-for-company-assets
 controlled_document: true
 ---
 

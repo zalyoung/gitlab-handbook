@@ -1,5 +1,7 @@
 ---
 title: "Records Retention & Disposal"
+aliases:
+- /handbook/security/records-retention-deletion
 controlled_document: true
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "GitLab Data Classification Standard"
+aliases:
+- /handbook/security/data-classification-standard
 controlled_document: true
 ---
 
