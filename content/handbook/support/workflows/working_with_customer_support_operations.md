@@ -47,7 +47,7 @@ More about the [Bug Report issue flow](/handbook/security/customer-support-opera
 
 The focus for feature requests is on aligning them with our existing [Support Roadmap](https://roadmap-e17445.gitlab.io/). For larger requests, you may need to work with the leadership team to escalate issues to re-plan any conflicts and protect strategic items. For smaller requests, they can often be added in as we go, as long as they don't get in the way of delivering current roadmap items.
 
-Feature requests should get created directly in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues) using the [Feature Requests Template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)
+Feature requests should get created directly in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues) using the [Feature Requests Template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)
 
 More about the [Feature Requests issue flow](/handbook/security/customer-support-operations/#feature-requests).
 
