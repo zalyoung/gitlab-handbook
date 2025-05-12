@@ -152,6 +152,8 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 
 - Senior IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
 
+- Senior IT Analyst Americas - Madison Spry, mspry@gitlab.com, @mspry_gl
+
 - IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
 
 - IT Analyst APAC - Bryan Mathews, bmathews@gitlab.com, @bryannoel
@@ -173,6 +175,8 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 - Alex Kruseic - [appointment schedule](https://calendar.app.google/xsTHAQWxHmT3tpr86) - AMER
 
 - Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - AMER
+
+- Madison Spry - [appointment schedule](https://calendar.app.google/jZFyqNk5S6dFXq1r9) - AMER
 
 - Max Hirata - [appointment schedule](https://calendar.app.google/CMK6dKUN2otv1wsWA) - APAC
 
