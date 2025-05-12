@@ -88,7 +88,7 @@ or [Community Code of Conduct](https://about.gitlab.com/community/contribute/cod
 
 The information below covers the reporting period from July 1, 2024 to December 31, 2024.
 
-As of December 2024, GitLab.com has approximately XX monthly average active recipients of the service in the European Union.
+As of December 2024, GitLab.com has approximately 1,800,000 monthly average active recipients of the service in the European Union.
 
 For non-logged-in users, our tracking relies on standard web analytics technologies. This methodology has inherent limitations, as users who access GitLab from multiple devices or browsers, or who have certain privacy settings enabled, may be counted more than once in our calculations. Conversely, multiple users sharing the same device might be undercounted. This means our reported number represents our best estimate of unique recipients based on available data. This approach is consistent with the DSA's guidance that providers should not perform specific tracking of individuals online to avoid double counting.
 
