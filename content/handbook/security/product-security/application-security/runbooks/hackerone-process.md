@@ -488,4 +488,3 @@ Number of users for each license: 50
 
 License duration: 1 year
 ```
-
