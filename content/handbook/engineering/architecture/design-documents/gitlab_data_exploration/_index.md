@@ -6,7 +6,7 @@ authors: [ "@drosse"]
 coaches: [ "@ahegyi" ]
 dris: [ "@lfarina8", "@nicholasklick" ]
 owning-stage: "~devops::analytics"
-participating-stages: ["~group::optimize"]
+participating-stages: ["~group::optimize", "~devops::plan"]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
@@ -133,19 +133,163 @@ These examples illustrate how users need to combine data from multiple sources (
 - **Creating a dashboard framework or new visualizations components** - We will use existing framework visualization components rather than creating new ones
 - **Fixing inconsistencies between existing API's and datasources** - We won't directly resolve inconsistencies in existing APIs and data sources. Rather, we're creating an interface layer that abstracts these differences away from the use
 
-<!--
-
 ## Proposal
 
-This is where we get down to the specifics of what the proposal actually is,
-but keep it simple!  This should have enough detail that reviewers can
-understand exactly what you're proposing, but should not include things like
-API designs or implementation. The "Design Details" section below is for the
-real nitty-gritty.
+This proposal outlines a solution to the data exploration challenges identified earlier. We aim to create a unified, intuitive interface that allows users to query and visualize data from multiple sources within GitLab, regardless of where the data resides or how it's structured.
 
-You might want to consider including the pros and cons of the proposed solution so that they can be
-compared with the pros and cons of alternatives.
--->
+The solution consists of two main components:
+
+1. **A standardized and simplified query system** - An extension of GitLab Query Language (GLQL) to work across multiple data sources and with enhanced querying capabilities
+2. **A unified data exploration UI** - A standardized interface for constructing queries, viewing results, and creating visualizations
+
+### A Standardized And Simplified Query System
+
+At the core of our solution is a standardized query system that builds upon the existing [GitLab Query Language (GLQL)](https://docs.gitlab.com/user/glql/).
+
+#### Why GLQL is the ideal foundation
+
+GLQL provides a robust foundation for our standardized query system:
+
+1. **Reduced cognitive load** - Users will learn one query system instead of multiple query languages or methods, improving productivity and making it easier to adopt
+2. **Enable queries from multiple sources** - Data from different sources can be easily queried in a consistent and meaningful way
+3. **Provide consistent results** - Uniform filtering and output formats across data sources
+4. **User-friendly syntax** - GLQL was designed with simplicity and readability in mind
+5. **Extensible by design** - The GLQL [architecture](../glql/#extensibility) separates concerns between parsing, execution, transformation, and presentation and was built with extensibility in mind
+6. **Production-proven** - The current implementation is already in use for merge requests and work item queries
+7. **AI-Powered Exploration**: GLQL's structured syntax makes it an ideal foundation for integration with GitLab Duo. This will enable natural language queries where users can ask questions in plain English and have them automatically translated to GLQL, making data exploration accessible to a wider audience.
+
+#### Extending GLQL to support multiple data sources
+
+The proposed approach includes:
+
+1. **Type-based data source and output routing** - Extend the `type` field to include more data sources, and pivot on it to determine which data source to query and output to produce:
+
+   ```plaintext
+   project = "team-project" AND type = MergeRequest AND state = opened
+
+   project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
+
+   project = "team-project" AND type = Pipeline AND (status = failed OR duration > 60) AND updated > -3d
+
+   project = "team-project" AND type = AiMetric
+   ```
+
+   Depending on the data source, we can configure the compiler to outputs different formats. For example: GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
+      - Proof of concept: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147
+
+2. **Source-specific fields and operators** - Extend the syntax to allow fields and operators specific to each data source:
+
+   ```plaintext
+   query: project = "team-project" AND type = Vulnerability AND severity in ("critical", "high") AND created > -7d
+   fields: status, severity, description
+
+   query: project = "team-project" AND type = Pipeline AND (status = failed OR duration > 60) AND updated > -3d
+   fields: id, name, status, duration, updatedAt
+
+   query: project = "team-project" AND type = AiMetric
+   fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
+   ```
+
+3. **Enhanced display options** - Expand the `display` attribute to support visualization types that might be more appropriate for new datasources:
+
+   ```plaintext
+   # Line chart display
+   display: chart
+   chart_type: line
+   x_axis: created_at
+   y_axis: count
+
+   # Custom visualization component
+   display: custom
+   display_id: 'ai-impact-table'
+   ```
+
+4. **Improved querying capabilities** - Increase the query language power by including features like mathematical functions (for instance `count()`, `sum()`, etc) or aggregating functions (for instance `group_by`):
+
+   ```plaintext
+   query: project = "team-project" AND type = Pipeline and status = failed AND updated > -3d
+   fields: count()
+   group_by: status
+   ```
+
+   This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954
+
+5. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, limited to 100 items, we need to expand that to fully support pagination:
+
+Adopting GLQL for dashboard data exploration could also enable easy exporting and sharing of dashboards/visualizations across other GitLab pages, further enhancing the platform's data exploration capabilities.
+
+#### Moving GLQL to the backend
+
+A critical architectural change is moving GLQL execution from the frontend to the backend, creating a single API to query any GitLab data with a consistent query and filter language.
+
+The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be then used to query data directly from the backend. This could result in either executing a GraphQL query from Rails or just fetching the data from internal or external API in whatever format they support.
+
+Proof of concept demonstrating how the Rust GLQL compiler can be hooked up to Rails and the query parsing moved to the backend: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
+
+Moving GLQL to the backend would provide the following advantages:
+
+- A single entry point for querying GitLab data, with centralized access control and consistent querying interface
+- Opportunity for opening up GLQL to satellite services such as IDE extensions
+- A simplified frontend implementation, with the backend as single source of truth
+- Queries can be executed closer to the data
+- Opportunity for optimisations at the backend level
+
+In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
+
+- Backend: Query parsing and full query execution against data sources
+- Frontend: Syntax validation and immediate feedback without query execution
+
+This is also inline with `~devops::plan` future plans: [https://gitlab.com/groups/gitlab-org/-/epics/15834](https://gitlab.com/groups/gitlab-org/-/epics/15834), thus opening up opportunities for collaboration.
+
+Being able to share the Rust compiler between frontend and backend also allows us to parallelize the work to add type-based data source routing and moving the GLQL pipeline to the backend.
+
+This standardized query system when built with an extended GLQL architecture and shift to the backend, will provide the foundation for a powerful and consistent data exploration experience across all GitLab data sources.
+
+### A unified data exploration UI
+
+The unified data exploration UI will provide a cohesive, intuitive interface for users to query, analyze, and visualize data from GitLab's diverse data sources. The UI will serve both technical users who may prefer writing GLQL queries directly and non-technical users who need a simplified visual interface to build reports and dashboards.
+
+The interface should include the following main building blocks:
+
+1. **Query Construction Area**
+
+   - Toggle between text-based GLQL editor and visual query building
+   - Syntax highlighting, autocompletion, and error detection for GLQL query editor
+   - Easily accessible filters
+   - Visual query builder with intuitive components for non-technical users
+   - Schema browser showing available fields and data types
+   - Query templates and saved queries library
+   - AI-assisted building
+
+2. **Results Display**
+
+   - Tabular view for raw data exploration
+   - Visualization canvas for charts and graphs
+   - Preview of query results while building the query
+   - Pagination controls for large result sets
+   - AI-assisted results interpretation
+
+3. **Visualization Controls**
+
+   - Visualization type selector (charts, tables, metrics, markdown, custom views)
+   - Configuration panel for the selected visualization
+
+4. **Action Toolbar**
+
+   - Run query button
+   - Save query button
+   - Share/export options
+   - Queries history
+   - Dashboard integration options
+
+5. **Context Panel**
+
+   - Metadata about the current query (for instance execution time, rows returned, or some performance metrics)
+   - Documentation and help resources
+
+This unified interface will integrate seamlessly with the standardized query system, leveraging GLQL's capabilities while presenting them in an accessible way to all users regardless of their technical expertise.
+
+Whilst the above are the main building block that we think are necessary to build the data exploration interface, proper UX research will be required to turn this into a proper design.
 
 <!--
 ## Design and implementation details
@@ -184,14 +328,9 @@ each alternative solution/path.
 "Do nothing" and its pros and cons could be included in the list too.
 -->
 
-## Next steps
+## Open questions
 
-- Iterate on this blueprint and define an high-level solution proposal. This should include our vision for
-  - a unified data exploration UI
-  - a standardized and simplified query system, supporting filtering and multiple datasources ( mentioning why an extension of GLQL makes sense, expanding on https://gitlab.com/gitlab-org/gitlab/-/issues/525642#note_2447362814 )
-- Experiment with extending GLQL to fits our needs/requirements
-  - Create an issue and discuss it with Plans if it makes sense
-  - Build a PoC
-- Experiment with moving the GLQL rust compiler to the Rails backend
-  - Create an issue and discuss it with Plans if it makes sense
-  - Build a PoC
+- Which output formats do we need to support for a first iteration? What other existing data sources are not surfaced through GraphQL? There might be need for supporting REST API at some point, but probably not from the start? Also, if an entity is exposed through GraphQL, maybe there is not much of an advantage to hitting the DB directly, through Rails finders or the ClickHouse client, since we would be losing all strict schema handling that GraphQL provides?
+- Should we provide only a query text editor, or do we want a visual builder as well? How to balance between a query text editor for power users and a UI editor for other users?
+- Can we support querying data for multiple projects and/or for multiple groups within the same query. For example: shows all pipeline failures for group A and group B in the last 3 days. Currently it only supports a single group or a single project
+- How will the system handle multiple queries in parallel when loaded from a dashboard?
