@@ -89,8 +89,8 @@ These are the specific teams that staff the incident response roles or provide a
 | **Communications Manager On Call (CMOC)** | Staffs the Communications Manager role | All environments | Generally a member of the support team at GitLab. |
 | **Infrastructure Leadership** | Provides escalation support for high severity incidents | All environments | A Staff+ or EM in the Infrastructure, Platform department. |
 | **Infrastructure Liaison** | Communicates with executive team for S1 incidents | All environments | A [grade 10+](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) member of Infrastructure. |
-| **IM Coordinator** | Coordinates IMOC coverage and onboarding | N/A | A single person dedicated to this function in the Infrastructure department |
-| **EOC Coordinator** | Maintains EOC quality of life and confidence | N/A | A single person dedicated to this function in the Infrastructure department |
+| **IM Coordinator** | Coordinates IMOC coverage and onboarding | GitLab.com | A single person dedicated to this function in the Infrastructure department |
+| **EOC Coordinator** | Maintains EOC quality of life and confidence | GitLab.com | A single person dedicated to this function in the Infrastructure department |
 
 ## Role-Team Mapping
 
@@ -119,7 +119,7 @@ The Incident Lead is responsible for ensuring that the incident progresses and i
 
 ### Incident Responder Responsibilities
 
-The Engineer On Call typically serves as the Incident Responder and is responsible for the mitigation of impact and resolution to the incident that was declared. The Incident Responder should reach out to the IMOC for support if help is needed or others are needed to aid in the incident investigation.
+An Incident Responder is anyone who contributes to the technical investigation and resolution of an incident. While the EOC team typically serves as primary responders, any GitLab team member with relevant expertise may be called upon to assist. Incident Responders should:
 
 1. **As an Incident Responder, your highest priority for the duration of your shift is the stability of GitLab.com.**
 2. When there is uncertainty of the cause of a degradation or outage, the **first action of the Incident Responder** is to evaluate whether any changes can be reverted. It is always appropriate to toggle (to previous state) any recently changed application feature flags without asking for permission and without hesitation. The next step is to review Change Requests and validate the eligibility criteria for application rollbacks.
@@ -160,6 +160,30 @@ During an incident, the Communications Manager will:
 4. Given GitLab's directive to [err on the side of declaring incidents early and often](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack), it is important for the Communications Manager not to make public communications without first confirming with the Incident Responder and IMOC that the incident has significant external customer impact. Rushing to communicate incidents before understanding impact can lead to a public perception of reliability impacts that may not be accurate, because we regularly declare an incident at Severity 1 or 2 initially and then downgrade it one or even two levels once the scope of customer impact is more clearly understood.
 
 ## Detailed Team Responsibilities
+
+### Engineer On Call (EOC) Responsibilities
+
+The Engineer On Call typically serves as the primary Incident Responder and is responsible for the mitigation of impact and resolution to the incident that was declared. The EOC should reach out to the IMOC for support if help is needed or others are needed to aid in the incident investigation.
+
+1. **As an EOC, your highest priority for the duration of your shift is the stability of GitLab.com.**
+2. When there is uncertainty of the cause of a degradation or outage, the **first action of the EOC** is to evaluate whether any changes can be reverted. It is always appropriate to toggle (to previous state) any recently changed application feature flags without asking for permission and without hesitation. The next step is to review Change Requests and validate the eligibility criteria for application rollbacks.
+3. The SSOT for who is the current EOC is the [GitLab Production](https://gitlab.pagerduty.com/service-directory/PATDFCE) service definition in PagerDuty.
+    1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#eoc-general` Slack channel.  If you are unable to find coverage reach out to the [EOC coordinator](#engineer-on-call-coordinator) for assistance.
+4. Alerts that are routed to PagerDuty require acknowledgment within 15 minutes, otherwise they will be escalated to the oncall Incident Manager.
+    1. Alerts that page PagerDuty will automatically create a triage incident in [`#incidents-dotcom-triage`](https://gitlab.slack.com/archives/alerts).
+       1. If it is determined to be a true incident, the triage incident should be accepted by joining the channel and choosing "Accept it".
+       2. The triage incident will automatically declined if no action is taken and the generating alert clears.
+5. If sources outside of our alerting are reporting a problem, and you have not received any alerts, it is still your responsibility to investigate. [Declare a low severity incident](#reporting-an-incident) and investigate from there.
+    1. Low severity ([S3/S4](/handbook/engineering/infrastructure/production/#severity)) incidents (and issues) are cheap, and will allow others a means to communicate their experience if they are also experiencing the issue.
+    2. **"No alerts" is not the same as "no problem"**
+6. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as EOC you should [page the IMOC](#how-to-engage-the-eoc-im-or-cmoc) to find a team member with the appropriate expertise. Requesting assistance does not mean relinquishing your responsibility.
+7. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#report-an-incident-via-slack), join the Zoom room for the incident. The Zoom link is in the bookmarks of the relevant incident channel.
+    1. GitLab works in an asynchronous manner, but incidents require a synchronous response. Our collective goal is high availability of 99.95% and beyond, which means that the timescales over which communication needs to occur during an incident is measured in seconds and minutes, not hours.
+8. Keep in mind that a GitLab.com incident is not an "infrastructure problem". It is a company-wide issue, and as EOC, you are leading the response on behalf of the company.
+    1. If you need information or assistance, engage with Engineering teams. If you do not get the response you require within a reasonable period, escalate through the IMOC.
+    2. As EOC, require that those who may be able to assist to join the Zoom call and ensure that they post their findings in Slack and pin (📌) the message to the incident timeline.
+9. By acknowledging an incident in PagerDuty, you are implying that you are working on it. To further reinforce this acknowledgement, post a note in Slack that you are joining the incident Zoom as soon as possible.
+10. _Be inquisitive_. _Be vigilant_. If you notice that something doesn't seem right, investigate further.
 
 ### Incident Manager On Call (IMOC) Responsibilities
 
