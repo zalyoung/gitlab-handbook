@@ -109,7 +109,7 @@ The next step in the Localization Content Manager job family is not yet defined 
 - Localization quality; average language quality scores
 - Where necessary, ensure that localization decisions align to performance related outcomes for particular content types
 
-# Senior Technical Program Manager, Localization
+## Senior Technical Program Manager, Localization
 
 The Technical Program Manager, Globalization and Localization reports to the Senior Manager, Globalization Technology.
 
