@@ -149,4 +149,3 @@ After an access request is approved:
    - Verify the scopes requested are documented and approved in the access request. If they are not, STOP.
 4. Log out as the integration user
 5. Restore Okta login requirements for the integration user.
-
