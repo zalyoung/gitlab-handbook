@@ -23,7 +23,7 @@ If what you want to get done is:
 * Not on the roadmap, but seems easy! *Create an issue!*
 * Maybe easy, but maybe hard? I definitely know what I want though. *Create an issue!*
 * reporting a bug. *Create an issue!*
-* ... well, actually, I don't totally know yet. *Create an RFC issue in `support-team-meta`*
+* ... well, actually, I don't totally know yet. *Create an RFC issue in `support-team-meta`* (or work otherwise within the [Change Management in GitLab Support](/handbook/support/managers/change-management/) framework)
 
 If you're creating an issue, the Customer Support Operations team expects that:
 
@@ -75,3 +75,8 @@ More about [how Customer Support Operations handles incidents](/handbook/securit
 1. **Have strong opinions on outcomes** - avoid strong opinions on technical implementation.
 1. **Don't be quiet** - as a DRI, if a technical implmentation isn't looking like it's going to meet the criteria, speak up whether it's in the Validation stage or not. It's better to ship the right thing a bit late than the wrong thing quickly.
 
+## Deployments and Delivery
+
+Unless otherwise communicated, changes ship on the 1st of the month. This is to align any changes to metrics with month boundaries.
+
+Once you've signed off on work, make sure you're following the steps in [Change Management in Support - Rolling out a Change](/handbook/support/managers/change-management/#rolling-out-a-change) to make sure everyone on the team is aware.
