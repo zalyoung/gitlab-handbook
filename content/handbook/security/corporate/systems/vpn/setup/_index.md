@@ -4,7 +4,15 @@ title: NordLayer VPN Setup Guide
 
 ## Access Request
 
-Please open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and add `/label ~"corpsec-metric::ar"`. For majority of team members, please request access to the Okta group `app.nordlayer.publicwifi`. If you are a system administrator that requires access to GitLab dedicated IP address, please [review](#nordlayer-for-system-administration).
+Please request access to NordVPN through the Okta portal using the [Lumos application](/handbook/security/corporate/systems/lumos/ar/). Follow these steps to submit your request for NordVPN:
+
+- Log in to the [Okta portal](https://gitlab.okta.com)
+- Search for and select the "Lumos" application
+- Select "NordVPN" from the available applications
+- Choose the specific permission that matches your needs
+- Lumos will automatically initiate the approval workflow and handle provisioning upon approval
+
+The system will guide you through any additional information required to complete your request. You'll receive notifications about the status of your request through email.
 
 ## NordLayer Installation
 
