@@ -139,10 +139,10 @@ This proposal outlines a solution to the data exploration challenges identified 
 
 The solution consists of two main components:
 
-1. **A standardized and simplified query system** - An extension of GitLab Query Language (GLQL) to work across multiple data sources and with enhanced quering capabilities
+1. **A standardized and simplified query system** - An extension of GitLab Query Language (GLQL) to work across multiple data sources and with enhanced querying capabilities
 2. **A unified data exploration UI** - A standardized interface for constructing queries, viewing results, and creating visualizations
 
-### A Standardised And Simplified Query System
+### A Standardized And Simplified Query System
 
 At the core of our solution is a standardized query system that builds upon the existing [GitLab Query Language (GLQL)](https://docs.gitlab.com/user/glql/).
 
@@ -174,8 +174,8 @@ The proposed approach includes:
    project = "team-project" AND type = AiMetric
    ```
 
-   Depending on the data source, we can configure the compiler to outputs different formats e.g. GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
-      - Proof of concept: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147 
+   Depending on the data source, we can configure the compiler to outputs different formats. For example: GraphQL query or a JSON object representing a REST API request or some parameters for Rails finders (see more about this in [Moving GLQL to the backend](#moving-glql-to-the-backend)).
+      - Proof of concept: https://gitlab.com/gitlab-org/gitlab-query-language/glql-rust/-/merge_requests/147
 
 2. **Source-specific fields and operators** - Extend the syntax to allow fields and operators specific to each data source:
 
@@ -204,7 +204,7 @@ The proposed approach includes:
    display_id: 'ai-impact-table'
    ```
 
-4. **Improved querying capabilities** - Increase the query language power by including features like mathematical functions (for instance `count()`, `sum()`, etc) or aggregating functions (for instance `group_by`). 
+4. **Improved querying capabilities** - Increase the query language power by including features like mathematical functions (for instance `count()`, `sum()`, etc) or aggregating functions (for instance `group_by`):
 
    ```plaintext
    query: project = "team-project" AND type = Pipeline and status = failed AND updated > -3d
@@ -214,17 +214,17 @@ The proposed approach includes:
 
    This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954
 
-5. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, limited to 100 items, we need to expand that to fully support pagination 
+5. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, limited to 100 items, we need to expand that to fully support pagination:
 
 Adopting GLQL for dashboard data exploration could also enable easy exporting and sharing of dashboards/visualizations across other GitLab pages, further enhancing the platform's data exploration capabilities.
 
 #### Moving GLQL to the backend
 
-A critical architectural change is moving GLQL execution from the frontend to the backend, creating a single API to query any GitLab data with a consistent query and filter language. 
+A critical architectural change is moving GLQL execution from the frontend to the backend, creating a single API to query any GitLab data with a consistent query and filter language.
 
 The GLQL Rust compiler could compile GLQL queries directly to appropriate formats that can be then used to query data directly from the backend. This could result in either executing a GraphQL query from Rails or just fetching the data from internal or external API in whatever format they support.
 
-Proof of contept demonstrating how the Rust GLQL compiler can be hooked up to Rails and the query parsing moved to the backend: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
+Proof of concept demonstrating how the Rust GLQL compiler can be hooked up to Rails and the query parsing moved to the backend: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190552
 
 Moving GLQL to the backend would provide the following advantages:
 
@@ -330,7 +330,7 @@ each alternative solution/path.
 
 ## Open questions
 
-- Which output formats do we need to support for a first iteration? What other existing data sources are not surfaced through GraphQL? There might be need for supporting REST API at some point, but probably not from the start? Also, ff an entity is exposed through GraphQL, maybe there is not much of an advantage to hitting the db directly, through Rails finders or the Clickhouse client, since we would be losing all strict schema handling that GraphQL provides?
+- Which output formats do we need to support for a first iteration? What other existing data sources are not surfaced through GraphQL? There might be need for supporting REST API at some point, but probably not from the start? Also, if an entity is exposed through GraphQL, maybe there is not much of an advantage to hitting the DB directly, through Rails finders or the ClickHouse client, since we would be losing all strict schema handling that GraphQL provides?
 - Should we provide only a query text editor, or do we want a visual builder as well? How to balance between a query text editor for power users and a UI editor for other users?
-- Can we support querying data for multiple projects and/or for multiple groups within the same query (e.g. shows all pipeline failures for group A and group B in the last 3 days ). Currently it only supports a single group or a single project
-- How will the system handle multiple queries in parallel when loaded from a dashboard? 
+- Can we support querying data for multiple projects and/or for multiple groups within the same query. For example: shows all pipeline failures for group A and group B in the last 3 days. Currently it only supports a single group or a single project
+- How will the system handle multiple queries in parallel when loaded from a dashboard?
