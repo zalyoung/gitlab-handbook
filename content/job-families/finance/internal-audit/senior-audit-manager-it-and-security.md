@@ -63,20 +63,6 @@ Identifies control issues and findings timely, and ensures findings are based on
 - Ability to balance quality of work with speed of execution
 - Ability to use GitLab
 
-### Performance Indicators
-
-- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
-- Completing tasks and audits timely and efficiently
-- Utilizing Best Practices related to audit findings and recommendations.
-
-### Career Ladder
-
-The next step in the Senior Manager, Internal Audit job family is to move to the [Director, Internal Audit](/job-families/finance/internal-audit/#director-internal-audit) job family.
-
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
