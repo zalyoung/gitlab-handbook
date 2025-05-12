@@ -52,7 +52,7 @@ The integration between Vault and GitLab works via a JWT-based authentication fl
 
 > **Note:** For GitLab internal users, refer to the [SRE internal runbook](https://internal-handbook.gitlab.io/handbook/engineering/infrastructure/team/reliability/vault.html) for detailed setup instructions.
 
-### Step 2: Create [Terraform](https://www.terraform.io/) Configuration
+### Step 2: Create the Terraform Configuration
 
 HashiCorp Vault is configured via Terraform. Create the necessary configuration files based on examples or templates that might be available from GitLab's [security automation team](https://gitlab.com/gitlab-com/gl-security/security-automation).
 
@@ -60,7 +60,7 @@ HashiCorp Vault is configured via Terraform. Create the necessary configuration 
 
 The "gitlab-infra-mgmt-bot" (or equivalent in your case) needs to be an owner of your project group BEFORE merging the Terraform configuration. This bot automates [the CI variables](https://docs.gitlab.com/ee/ci/variables/) listed in the HashiCorp documentation.
 
-### Step 4: [Merge the Terraform Configuration](https://docs.gitlab.com/ee/user/project/merge_requests/)
+### Step 4: Merge the Terraform Configuration
 
 Submit and merge the Terraform configuration into your repository.
 
@@ -124,7 +124,6 @@ gitlab_url = config['gitlab']['url']
 headers = {"Private-Token": gitlab_token}
 ```
 
-You can find more [Python examples here](https://gitlab.com/gitlab-com/it/security/it-security-automation/-/blob/main/examples/vault_secrets.py).
 
 ## Verification
 
@@ -159,7 +158,7 @@ If you encounter issues with Vault integration:
 
 ## Future Considerations
 
-- 1Password API integration for better local secret storage
+- We're not limited to Vault for ESS. Consider utilizing 1Password's API integration. You can find an excellent example [here](https://gitlab.com/gitlab-com/it/security/it-security-automation/-/blob/main/onepassword.py?ref_type=heads).
 - Google Cloud Secrets Manager integration
 - OAuth 2.0 API service with Proof of Possession (POP) for Okta-specific applications
 
