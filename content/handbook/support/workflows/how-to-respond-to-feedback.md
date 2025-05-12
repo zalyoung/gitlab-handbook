@@ -31,7 +31,7 @@ An optional second question asks:
 
 If the customer opts out of completing this section the resulting feedback issue witll contain 'Undefined'
 
-Examples of forms are located [here](https://handbook.gitlab.com/handbook/security/customer-support-operations/docs/zendesk/ces/#ces-survey-form)
+Examples of forms are located [here](/handbook/security/customer-support-operations/docs/zendesk/ces/#ces-survey-form)
 
 ## Subscribing to Customer Feedback Issues
 
