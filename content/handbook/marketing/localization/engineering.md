@@ -103,18 +103,58 @@ Each project within these environments maintains the following branch structure:
 
 [See example MR](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab/-/merge_requests/11) for updating the `main-translation` branch with content from the Omnibus Production fork.
 
-### Development Environments
+### I18n Development Environments
 
-When working on i18n features:
+#### Main Development Branch
 
-1. Always use the **main-development** branch to create your feature branch
-2. Follow the standard merge request review process for any changes
-3. Test thoroughly using the actual translations available in the branch
-4. Once approved, changes can be submitted upstream to the original repositories
+The `main-development` branch is our dedicated environment for i18n feature development. It builds localized routes and enables review apps using translations from production forks' `main-translation` branches.
+This [merge request](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27) documents the changes to enable i18n feature development. 
 
-This workflow ensures we can develop and validate i18n features in an environment with real translations before integrating them with the primary codebase.
+##### Working with this environment:
 
-Add addiitonal notes here
+1. Always create feature branches from `main-development`
+2. Target merge requests to `main-development`
+3. Test with translations from all projects' `main-translation` branches
+4. After approval, open a separate MR to contribute upstream
+
+It is helpful to set up a dedicated directory on your machine for this environment, since it also requires external projects from our production fork, specically the  `main-translation` branch. 
+
+```
+cd htdocs
+mkdir main-devevelopment
+git clone git@gitlab.com:gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs.git
+cd gitlab-docs
+mise trust
+make setup
+USE_SSH=true make clone-docs-projects
+```
+
+Your resulting directory structure should look like this:
+
+```
+.main-development
+├── charts-gitlab/ (main-translation)
+├── gitlab/ (main-translation)
+├── gitlab-docs/ (main-development)
+├── gitlab-runner/ (main-translation)
+├── gitlab-operator/ (main-translation)
+└── omnibus-gitlab/ (main-translation)
+```
+
+Refer to documentation here for setting up your workstation further: https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main/doc/setup.md?ref_type=heads#set-up-your-workstation 
+
+##### Updating `main-development`
+
+* Use the "Update Fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-translation)  
+* If conflicts occur, update locally:
+
+```
+cd /htdocs/localization/main-development/gitlab-docs ## cd into your gitlab-docs directory using the main-development branch
+git fetch
+git checkout main-development
+git merge origin/main
+git push origin main-development 
+```
 
 #### Live Preview Environment
 
