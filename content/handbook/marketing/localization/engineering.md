@@ -110,7 +110,7 @@ Each project within these environments maintains the following branch structure:
 The `main-development` branch is our dedicated environment for i18n feature development. It builds localized routes and enables review apps using translations from production forks' `main-translation` branches.
 This [merge request](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27) documents the changes to enable i18n feature development. 
 
-##### Working with this environment:
+##### Working with this environment
 
 1. Always create feature branches from `main-development`
 2. Target merge requests to `main-development`
@@ -119,7 +119,7 @@ This [merge request](https://gitlab.com/gitlab-com/localization/tech-docs-forked
 
 It is helpful to set up a dedicated directory on your machine for this environment, since it also requires external projects from our production fork, specically the  `main-translation` branch. 
 
-```
+```plain
 cd htdocs
 mkdir main-devevelopment
 git clone git@gitlab.com:gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs.git
@@ -131,7 +131,7 @@ USE_SSH=true make clone-docs-projects
 
 Your resulting directory structure should look like this:
 
-```
+```plain
 .main-development
 ├── charts-gitlab/ (main-translation)
 ├── gitlab/ (main-translation)
@@ -148,7 +148,7 @@ Refer to documentation here for setting up your workstation further: https://git
 * Use the "Update Fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-translation)  
 * If conflicts occur, update locally:
 
-```
+```plain
 cd /htdocs/localization/main-development/gitlab-docs ## cd into your gitlab-docs directory using the main-development branch
 git fetch
 git checkout main-development
