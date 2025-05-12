@@ -1,5 +1,5 @@
 ---
-title: The Internal Audit and SOX Manager
+title: The Internal Audit Manager
 description: Responsible for preparing and implementing a risk-based SOX audit plan to assess, report on, and make suggestions for improving the company's key operational and finance activities and internal controls.
 ---
 
