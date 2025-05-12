@@ -116,8 +116,8 @@ For detailed implementation examples and proof-of-concept documentation of this 
 
 mTLS authentication in our Cell services architecture works through explicit certificate loading and connection setup rather than transparent proxying:
 
-- **Certificate Loading**: Each service explicitly loads its client certificate and private key from the filesystem. This is done in trusted code paths, as shown in the [mTLS POC client code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/client/main.go#L30).
-- **Connection Establishment**: The service explicitly adds the TLS credentials to outgoing requests, as demonstrated in the [request creation code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/client/main.go#L124).
+- **Certificate Loading**: Each service must explicitly load its client certificate and private key from the filesystem. This is done in trusted code paths, as shown in the [mTLS POC client code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/client/main.go#L30).
+- **Connection Establishment**: The service must explicitly add the TLS credentials to outgoing requests, as demonstrated in the [request creation code](https://gitlab.com/gitlab-com/gl-infra/cells/mtls_poc/-/blob/e1b90bb4a241c63389bb366f0dacd7c9e1dac10c/client/main.go#L124).
 - **Certificate Validation**: The GCP Loadbalancer validates the client's certificate against the trusted CA, ensuring only services with valid certificates can connect.
 
 Example of loading and using TLS credentials in a Go client:
