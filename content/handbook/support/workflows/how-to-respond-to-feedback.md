@@ -101,7 +101,7 @@ issue within 7 days of its creation.
 
 Our [Feedback and Complaints handbook page](/handbook/support/workflows/feedbacks_and_complaints) provides general guidance on assessing and responding to feedback.
 
-## Handling "Good" Reviews (CES 5,6 or 7)
+## Handling "Good" Reviews - Customer Effort Scores 5,6 or 7
 
 For each feedback issue labeled "satisfaction::good":
 
