@@ -148,7 +148,21 @@ glab push --polyrepo --product=10 #=> CSET created: https://gitlab.com/-/csets/1
 glab push --polyrepo-manifest=../manifest.xml
 ```
 
-#### Identify projects that make up a "product"
+#### Constraints of change sets
+
+1. A merge request that belongs to a change set can only be merged together with other MRs
+   in the change set.
+1. A merge request can only be present in at most 1 change set at a given point in time.
+1. A changeset can not be deleted because it represents point in time information of when certain
+   MRs were merged. Much like merge requests cannot be deleted.
+
+Known unknowns:
+- Should a merge request belonging to a change set be allowed to be closed?
+  Should it instead be removed from the change set?
+- Should modifying the change set (by adding or removing a merge requests) trigger a CI pipeline?
+  Technically it would cause the overall diff of the change set to change, invalidating the build.
+
+### Identify projects that make up a "product"
 
 [Epic](https://gitlab.com/groups/gitlab-org/-/epics/17278)
 
@@ -176,7 +190,7 @@ identify a product. For example:
 
 For the purpose of this discussion focusing on poly repos, we will ignore monorepos.
 
-##### Git submodules
+#### Git submodules
 
 Git submodules allow you to include other Git repositories within your
 repository as subdirectories, while keeping commits separate. Key
@@ -202,7 +216,7 @@ Challenges:
 1. Difficult to work with when frequently changing multiple repositories.
 1. Commands can be verbose and error-prone.
 
-##### Android manifest file
+#### Android manifest file
 
 The Android manifest approach uses an XML file (typically `default.xml`)
 to describe the repository structure, managed by Google's "repo" tool.
@@ -228,7 +242,7 @@ Challenges:
 1. Additional dependency on the repo tool.
 1. Less universally supported in Git hosting platforms and tools.
 
-##### Shortcomings
+#### Shortcomings
 
 Here are some limitations of the Android manifest approach:
 
