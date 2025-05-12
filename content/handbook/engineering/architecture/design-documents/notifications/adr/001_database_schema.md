@@ -101,7 +101,6 @@ erDiagram
   notifications ||--|| issue_notifications : links
   notifications ||--|| note_notifications : links
   notifications ||--|| merge_request_notifications : links
-  notifications ||--|| epic_notifications : links etc
 ```
 
 ### ⚖️ Validation Strategy
@@ -115,13 +114,12 @@ class Notification < ApplicationRecord
   has_one :issue_notification
   has_one :note_notification
   has_one :merge_request_notification
-  has_one :epic_notification_link 
   <etc>
 
   has_one :issue, through: :issue_notification
   has_one :note, through: :note_notification
   has_one :merge_request, through: :merge_request_notification
-  has_one :epic, through: :epic_notification
+  has_one :epic, through: :issue_notification
   <etc>
 
   validate :only_one_resource_linked
@@ -130,8 +128,7 @@ class Notification < ApplicationRecord
     links = [
       issue_notification,
       note_notification,
-      merge_request_notification,
-      epic_notification
+      merge_request_notification
     ].compact
 
     errors.add(:base, "Only one resource can be linked to a notification") if links.size > 1
@@ -151,13 +148,13 @@ class NotificationCreator
 
       case resource
       when Issue
-        IssueNotification.create!(notification: notification, issue: resource)
+        IssueNotification.create!(notification: notification, resource: resource)
       when Note
-        NoteNotification.create!(notification: notification, note: resource)
+        NoteNotification.create!(notification: notification, resource: resource)
       when MergeRequest
-        MergeRequestNotification.create!(notification: notification, merge_request: resource)
+        MergeRequestNotification.create!(notification: notification, resource: resource)
       when Epic
-        EpicNotification.create!(notification: notification, epic: resource)
+        IssueNotification.create!(notification: notification, resource: resource) # it's because we would use work-item approach, where every epic has a row in issues table
       else
         raise ArgumentError, "Unsupported resource type"
       end
@@ -175,7 +172,7 @@ Each link table has a corresponding model, e.g.:
 ```ruby
 class IssueNotification < ApplicationRecord
   belongs_to :notification
-  belongs_to :issue
+  belongs_to :resource
 end
 ```
 
@@ -188,34 +185,34 @@ Repeat similarly for `NoteNotification`, `MergeRequestNotification`, and `NoteNo
 #### Get all user notifications with resource type
 
 ```sql
-SELECT n.id, 'Issue' AS resource_type, i.title, n.read, n.created_at
+SELECT n.id, n.resource_type, i.title, n.read, n.created_at
 FROM notifications n
 JOIN issue_notifications l ON l.notification_id = n.id
-JOIN issues i ON i.id = l.issue_id
+JOIN issues i ON i.id = l.resource_id
 WHERE n.user_id = :user_id
 
 UNION ALL
 
-SELECT n.id, 'Note', no.content, n.read, n.created_at
+SELECT n.id, n.resource_type, no.content, n.read, n.created_at
 FROM notifications n
 JOIN note_notifications l ON l.notification_id = n.id
-JOIN notes no ON no.id = l.note_id
+JOIN notes no ON no.id = l.resource_id
 WHERE n.user_id = :user_id
 
 UNION ALL
 
-SELECT n.id, 'MergeRequest', mr.title, n.read, n.created_at
+SELECT n.id, n.resource_type, mr.title, n.read, n.created_at
 FROM notifications n
 JOIN merge_request_notifications l ON l.notification_id = n.id
-JOIN merge_requests mr ON mr.id = l.merge_request_id
+JOIN merge_requests mr ON mr.id = l.resource_id
 WHERE n.user_id = :user_id
 
 UNION ALL
 
-SELECT n.id, 'Epic', e.title, n.read, n.created_at
+SELECT n.id, n.resource_type, e.title, n.read, n.created_at
 FROM notifications n
-JOIN epic_notifications l ON l.notification_id = n.id
-JOIN epics e ON e.id = l.epic_id
+JOIN issue_notifications l ON l.notification_id = n.id
+JOIN epics e ON e.issue_id = l.resource_id
 WHERE n.user_id = :user_id
 
 ORDER BY created_at DESC;
