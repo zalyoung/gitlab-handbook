@@ -46,7 +46,7 @@ As a general rule, we want to protect our branches in such a way that we [requir
 
 ![Example 1 of Protected Branch Settings configured to Require an MR](https://about.gitlab.com/images/protected_branch_settings_example.jpg "Example of Protected Branch Settings")
 
-See [Note on usage of Code Owners](/handbook/security/gitlab_projects_baseline_requirements/#note-on-usage-of-code-owners)
+See [Note on usage of Code Owners](/handbook/security/standards/gitlab_projects_baseline_requirements/#note-on-usage-of-code-owners)
 
 ## MR Approval Rule Configurations
 
@@ -60,7 +60,7 @@ MRs should be reviewed following GitLab's [Code Review Guidelines](/handbook/eng
 
 ![Example 2 of MR Approval Rules configured WITH Code Owners](https://about.gitlab.com/images/MR_approvals_with_code_owners.png "Example 2 of MR Approval Rules configured WITH Code Owners")
 
-See [Note on usage of Code Owners](/handbook/security/gitlab_projects_baseline_requirements/#note-on-usage-of-code-owners)
+See [Note on usage of Code Owners](/handbook/security/standards/gitlab_projects_baseline_requirements/#note-on-usage-of-code-owners)
 
 ## Note on usage of Code Owners
 
@@ -74,7 +74,7 @@ Please review thoroughly and ask questions in the `#sec-assurance` slack channel
 
 ## Ongoing Monitoring
 
-Please note that projects that meet the criteria for requiring these baseline configurations may be selected at any point for testing of configurations by the [GitLab Security Compliance team](security-assurance/security-compliance/) as part of our continuous control monitoring program to make sure we're adhering to the guidance outlined on this page. Please see the [GCF Security Control Lifecycle](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/) page for an overview of the program.
+Please note that projects that meet the criteria for requiring these baseline configurations may be selected at any point for testing of configurations by the [GitLab Security Compliance team](/handbook/security/security-assurance/security-compliance/) as part of our continuous control monitoring program to make sure we're adhering to the guidance outlined on this page. Please see the [GCF Security Control Lifecycle](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/) page for an overview of the program.
 
 The Security Compliance team has also implemented live monitoring using [detections/alerts in the Devo SIEM tool](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/devo/-/tree/main/detections/secassurance?ref_type=heads) and Slack for all MR Approval and Protected Branch settings outlined above. If MRs were merged without proper approval/SOD in place as a result of the changed settings an [observation](/handbook/security/security-assurance/observation-management-procedure/) issue will be opened to identify the root cause and perform remediation. Remediation will include steps such as gaining an understanding of why they were changed, revert the settings back to being in compliance, and reviewing any MRs that were merged without proper approval or segregation of duties (SOD) in place to ensure no malicious changes were included obtaining retroactive approvals if needed. Security Compliance will also loop in the individual(s) who made the change as well as the management of the team that owns/works on the project in order to help identify the root cause of the changes and to work towards implementing workflow changes so that the settings do not need to be changed in order for teams to complete development work.
 

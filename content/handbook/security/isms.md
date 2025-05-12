@@ -105,7 +105,7 @@ GitLab publishes [Job Families](/handbook/hiring/job-families/) to define roles 
 
 The [GitLab team handbook](/) is the central repository for how we run the company. Everything at GitLab is handbook first, to include development of company policies, standards and procedures. Key controlled documents that support the management system include:
 
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
+- [Data Classification Standard](/handbook/security/standards/data-classification-standard/)
 - [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/)
 - [Security Policies](/handbook/security/security-and-technology-policies/security-and-technology-policies-management/)
 - [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
