@@ -159,6 +159,7 @@ flowchart TD
     style T fill:#f8cecc,stroke:#b85450,stroke-width:2px
 
 ```
+
 ### Issue Refinement Checklist
 
 For issues that need refinement, the Engineer/EM should add a comment using this template and complete all checklist items.
