@@ -298,9 +298,13 @@ Business Process Owner pertaining to the team should provide signoff. The signof
 
 Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below
 
-| Main Approver               |Backup Approver                                                | Backup Approver                                                |
-|-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Sheela Viswanathan - Senior Manager, Sales Systems, Korben Carreno - Manager, CRM Systems  | Kiran Chinthapalli - Director, CRM Systems | Nabitha Rao - VP, IT  |
+| Main Approver                                         | Backup Approver                                                       |
+|-------------------------------------------------------|-----------------------------------------------------------------------|
+| Sheela Viswanathan - Senior Manager, Sales Systems    | Nabitha Rao - VP, IT                                                  |
+| Korben Carreno - Manager, CRM Systems                 | Raul Pavon - Director Enterprise architecture and Applications        |
+| Kiran Chinthapalli - Director, CRM Systems            | Nishanth Sekhar - Director, Enterprise Applications (Lead to Cash)    |
+|                                                       | Monali Bhide - Manager, IT Enterprise Applications Engineering        |
+|                                                       | Pratik Gupta - Manager, IT Enterprise Applications Engineering        |
 
 #### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
 
