@@ -268,11 +268,10 @@ Occasionally, customers will require a product leader to act as a stable counter
 
 ## CSE's role in Escalations
 
-- Lead customer facing calls focused on discovery, de-escalation, technical guidance. Determine the customer's exit/success criteria to consider the escalation resolved.
-- Coordinate cross-functionally to determine path forward, potential workarounds and best practice recommendations.
-- Provide summaries in account escalation Slack channel on a cadence appropriate to the [defined escalation severity level](/handbook/customer-success/csm/escalations/#definitions-of-severity-levels).
-- Share updates to the customer through email.
-- Document in new GitLab issue for tracking/pattern matching for future reference. Example: https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/140
+- Review technical ask and determine if discovery call is necessary. If needed, lead discovery call.
+- Work with the account team to determine exit criteria.
+- If exit criteria is possible to complete with a CSE engagement, work the escalation like you would a case.
+- If exit criteria is not possible to complete with a CSE engagement, help account team determine next best steps. For example, recommend a PM to get involved or Professional/Investment Services.
 
 ## Related Links
 
