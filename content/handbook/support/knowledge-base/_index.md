@@ -184,25 +184,4 @@ Knowing where to perform a given task is _often_ what you expect, but there are 
 | Knowledge Admin | Create section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
 | Knowledge Admin | Update section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
 | Knowledge Admin | Delete section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
-| Permission Set | Task | Process |
-|----------------|------|---------|
-| Support Engineers | Create (draft) articles | In Guide directly |
-| Support Engineers | Modify (update) articles | In Guide directly |
-| Support Engineers | Link Knowledge article in a Ticket | In Zendesk |
-| Knowledge Champions | Review/Approve articles | In Guide directly |
-| Knowledge Champions | Publish articles | In Guide directly |
-| Knowledge Champions | Create (draft) articles | In Guide directly |
-| Knowledge Champions | Modify (update) articles | In Guide directly |
-| Knowledge Champions | Link Knowledge articles in Zendesk ticket | In Zendesk |
-| Knowledge Champions | Add / Remove Guide Permissions | Modify entry in `support-team.yaml` - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/154 |
-| Knowledge Champions | Archive articles | In Guide directly |
-| Knowledge Admin | Restore articles | TBD process to restore from archive - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/155 |
-| Knowledge Admin | Delete articles | Have Knowledge champion archive, TBD process to delete - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/156 |
-| Knowledge Admin | History of articles | Available to everyone in Guide directly (Changelog) |
-| Knowledge Admin | Creating permission sets | Raise an issue with Customer Support Ops describing the permissions set. |
-| Knowledge Admin | Create (draft) articles | In Guide directly |
-| Knowledge Admin | Modify (update) articles | In Guide directly |
-| Knowledge Admin | Link Knowledge articles | In Zendesk |
-| Knowledge Admin | Create section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
-| Knowledge Admin | Update section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
-| Knowledge Admin | Delete section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
+
