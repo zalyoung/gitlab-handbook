@@ -190,15 +190,15 @@ To identify the issue:
 
 - Click `Overview` found at the top of the Slack incident channel
 
-  ![alt text](image.png)
+  ![Incident channel overview](/images/support/incident-channel-overview.png)
 
 - Open the related `incident.io` incident page
 
-  ![alt text](image-1.png)
+  ![Incident IO Link](/images/support/incident-io-link.png)
 
 - The GitLab issue can be found on the right of the page
 
-  ![alt text](image-2.png)
+  ![Incident IO Page](/images/support/incident-io-gitlab.link.png)
 
 #### Create Incident
 
