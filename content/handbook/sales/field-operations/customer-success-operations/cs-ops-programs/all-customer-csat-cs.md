@@ -10,10 +10,7 @@ Administered by the Customer Success team via Gainsight to a larger audience, th
 
 | CSAT Survey | Send Schedule | Follow-up Date | Close Schedule |
 | :---- | :---- | :---- | :---- |
-| All-Customer CSAT Survey 1   |  May 24, 2024 | May 30, 2024 | Jun 21, 2024 |
-|  | Nov 12, 2024 | Nov 15, 2024/ Nov 22, 2024 | Dec 11, 2024 |
-|  | May 27, 2025 | June 3, 2025 | Jun 10, 2025 |
-|  | Nov 3, 2025 (tentative) | Nov 14, 2025 (tentative) | Dec 7, 2025 (tentative) |
+| All-Customer CSAT Survey   |  May 27, 2025 | June 3, 2025 | Jun 20, 2025 |
 
 ## **About**
 
