@@ -395,8 +395,10 @@ We marked both widgets and fields as experiment in `17.9`, so we can rename them
 
 #### Backfill status data for existing work items
 
+##### Backfill System Defined Status
+
 Each work item of a work item type that supports status should have a status assigned.
-We'll backfill the `work_items_current_statuses` table before adding status support for a work item type.
+We'll backfill the `system_defined_status_id` on `work_item_current_statuses` table, before adding status support for a work item type.
 
 To conserve database storage we'll only backfill status data for `open` work items.
 
@@ -405,7 +407,8 @@ of a given work item type regardless of license.
 We will also perform automatic status transitions for all items, including those that are open, closed, or marked as duplicates.
 
 For example a newly created work item will receive the default open status,
-and when closed, it will transition to the default closed status.
+and when closed, it will transition to the default closed status. Or when a closed work item without a status
+would be reopened it would transition to default open status.
 
 See the [discussion on this topic on this issue](https://gitlab.com/gitlab-org/gitlab/-/work_items/517342).
 
@@ -415,6 +418,21 @@ This approach ensures:
 1. Work items maintain correct status assignments when a namespace changes tiers.
 
 This significantly reduces complexity by eliminating the need for additional data migrations during namespace tier changes.
+
+##### Backfill Custom Statuses(backup option)
+
+Alternatively, as a backup, we've discussed the option of backfilling custom statuses records, with system defined values.
+In this case we'd need to backfill not only `work_item_current_statuses`, but also for each root level Group we'd need to populate data in:
+
+- `work_item_custom_statuses` - 5 records per root Group
+- `work_item_custom_lifecycles` - 1 record per root Group
+- `work_item_custom_lifecycle_statuses` - 5 records per each `work_item_custom_lifecycles` record
+- `work_item_type_custom_lifecycles` - 2 records(Issue and Task) initially, per each `work_item_custom_lifecycles` record.
+
+This results in more database storage used from the start.
+
+The benefit being that we would not require an on-demand status migration from system defined statuses to
+custom statuses, see Option 1 in [Status migration and migration wizard](#status-migration-and-migration-wizard) section.
 
 #### Status migration and migration wizard
 
