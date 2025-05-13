@@ -112,7 +112,21 @@ The Self Managed Kanban board would use the following columns, aligned with GitL
    - Discuss impediments and prioritization
    - Ensure alignment with product goals
 
-2. **Engineers Huddle** (On demand)
+2. **Team Demo** (Weekly)
+   - Sharing with Build group
+   - Regular demonstrations of completed work
+   - Sharing knowledge about new features or  improvements
+   - Gathering feedback from team members and stakeholders
+   - Increasing visibility of the team's accomplishments
+
+3. **Maintainer Discussion** (Weekly)
+   - Sharing with Build group
+   - Regular review of merge requests and code quality
+   - Discussion of technical decisions and architecture
+   - Coordination between maintainers on critical components
+   - Ensuring consistency in code standards and practices
+
+4. **Engineers Huddle** (On demand)
    - Development-focused discussion
    - Implementation strategies and technical decisions
 
