@@ -33,7 +33,7 @@ The People Connect team will be your primary guide throughout onboarding and you
 #### Pre-Start Communications
 
 - Join our TaNEWki call to meet other new team members (invite sent 1-2 weeks before start).
-- You will receive an email from Okta (our SAAS/security application portal) with an invite to register. Please ignore this email until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
+- You will receive an email from Okta (our SSO/security application portal) with an invite to register. Please do not take action on this email until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
 - Your GitLab email address will be created using your first name initial and full last name @gitlab.com. If you have a preferred first name or preferred last name, please send the People Connect team an email to people-connect@gitlab.com to let us know your preferred name. **Please note that some security restrictions may apply.**
 
 ### First day
