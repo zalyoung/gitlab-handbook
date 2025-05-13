@@ -74,10 +74,10 @@ This approach offers several benefits:
    to the initiative, reducing time spent searching for decisions across various places.
 2. **Increased Visibility**: By creating design documents, we raise awareness of the work done in the
    Plan stage, such as the [work items framework](../../../architecture/design-documents/work_items/),
-   customizable Work Item Types, custom fields, [custom status](../../../architecture/design-documents/work_items_custom_status/),
+   customizable Work Item Types, [custom fields](../../../architecture/design-documents/work_items_custom_fields/), [custom status](../../../architecture/design-documents/work_items_custom_status/),
    [GLQL](../../../architecture/design-documents/glql/), frontend-driven views, and many more.
 3. **Discoverability**: Design documents are easily accessible
-   [through our public handbook](../../../architecture/design-documents/), 
+   [through our public handbook](../../../architecture/design-documents/),
    aligning with engineering best practices.
 4. **Collaborative Decision-Making**: [Changes and discussions occur through merge requests](../../../architecture/workflow/#why-are-design-documents-tracked-in-merge-requests),
    ensuring visibility to all involved team members.
@@ -95,7 +95,7 @@ This is the recommended workflow for all initiatives:
 
 1. Create a Slack channel with the convention #f_[feature name].
 2. Develop a design document using the Architecture evolution workflow.
-   Get started using [this template](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md?plain=1). 
+   Get started using [this template](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md?plain=1).
    You don't need to fill out all sections. This is a living document and it's expected that it evolves over time.
 3. An epic hierarchy is created with sub-epics mapping to iterations, each achievable within a milestone.
 4. Iterations are broken into multiple issues that can be accomplished independently, and PMs schedule those as normal.
