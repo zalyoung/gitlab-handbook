@@ -63,7 +63,7 @@ Review [Customer Support Operations System Criticality Sheet](https://drive.goog
    * 8 hours for issues Business Operational systems.
    * 30 minutes for issues with Business Critical Systems.
    * 10 mintes for issues with Mission Critical Systems.
-1. [Create a new incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service.
+1. [Create a new incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service. (See: [Support Operations On-Call Workflow](/handbook/security/customer-support-operations/workflows/support_operations-on-call))
 1. Be available to work with the on-call to develop a plan to resolve the problem.
 
 More about [how Customer Support Operations handles incidents](/handbook/security/customer-support-operations/workflows/incidents/).
