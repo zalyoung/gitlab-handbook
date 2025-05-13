@@ -103,7 +103,7 @@ A: Yes! All new team members receive $1,500 USD (or local equivalent) via a [vir
 
 **Q: When will my first paycheck be?**
 
-A: Check the payroll cut-off dates in our internal [handbook](https://internal.gitlab.com/handbook/finance/payroll/#payroll-cut-off) to determine your first pay date. If you're hired after the cut-off date, the prorated amount will be included in the following month's paycheck. **Please note that this handbook page will only be able to be accessed once you have started at GitLab**. If you have any questions prior to your start date on the payroll cut off in respect to your start date, please reach out to us via `people-connect@gitlab.com`.
+A: After your date of hire you can check the payroll cut-off dates in our internal handbook to determine your first pay date. **Please note the internal handbook can only be accessed once you have started at GitLab**. If you're hired after the cut-off date, the prorated amount will be included in the following month's paycheck.  If you have any questions prior to your start date on the payroll cut off in respect to your start date, please reach out to us via `people-connect@gitlab.com`.
 
 **Q: How should I handle pre-planned vacations?**
 
