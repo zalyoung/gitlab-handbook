@@ -182,6 +182,24 @@ A better response would be to assume that an action was requested, relay your in
 
 > **CMOC:** IM, acknowledged, I will draft an update for status.io and ping you in Slack for input.
 
+#### Identify Related GitLab Issue
+
+You may need to identify the related incident issue if it is to be shared via `status.io`.
+
+To identify the issue:
+
+- Click `Overview` found at the top of the Slack incident channel
+
+  ![alt text](image.png)
+
+- Open the related `incident.io` incident page
+
+  ![alt text](image-1.png)
+
+- The GitLab issue can be found on the right of the page
+
+  ![alt text](image-2.png)
+
 #### Create Incident
 
 You can create an incident directly through the `status.io` website **OR** through Slack (provided by Woodhouse). It is recommended to use the `status.io` website directly as it permits further customization of the incident beyond what the Slack form allows. It is also easier to confirm that the incident was created properly when using the `status.io` website.
@@ -243,14 +261,6 @@ This workflow, once used, will ask you to fill out a form with details of the in
 1. Click `Submit`
 
 This will sumbit to both `#developer-relations` and `#customer-success` channels.
-
-#### Label Incident Issue
-
-1. Add the `~Incident-Comms::Status-Page` scoped label to the incident issue.
-
-It is important that we are able to differentiate incidents which included outbound status page and related notifications from those incidents which were deemed less impactful to our customers. This can be useful both in filtering for active incidents which include outbound notification as well as for after-incident reporting.
-
-Whenever a GitLab service incident includes the use of the status page, this should be identified on the incident issue in GitLab. See this, and other uses of this scoped label in the [Incident Management section of the handbook](/handbook/engineering/infrastructure/incident-management/#labeling).
 
 #### Resolve the PagerDuty Page
 
