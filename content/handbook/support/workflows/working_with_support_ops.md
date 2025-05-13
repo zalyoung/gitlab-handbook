@@ -13,6 +13,15 @@ This page exists primarily as a quick-reference, linking to sources of truth and
 
 ## Workflows
 
+### Ticket where customer is asking for support portal changes
+
+Occasionally, a customer might mis-file a ticket and send a request for support portal changes using a Support form. In these cases, please change the form to `Support Ops` in Zendesk and Customer Support Operations will handle it from there. Please do not send a public reply (as that removes our SLA clock from the ticket).
+
+### Asking general questions
+
+For general questions and assistance, reach out via the [support_operations Slack channel](https://gitlab.slack.com/archives/C018ZGZAMPD). From there, a member of the Customer Support Operations team will respond and work with you to help address the question. 
+
+
 ### Basic Issue Flows
 
 The flow, can be summed up, simply as: "Create an issue!"
