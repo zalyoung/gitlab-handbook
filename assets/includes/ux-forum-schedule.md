@@ -25,5 +25,4 @@
 | 2026-02-04 | Emily Sybrant        | Nick Brandt            | Veethika Mishra        |                        |
 | 2026-02-18 | Rayana Verissimo     | Graham Bachelder       | Trevor Storey          | Annabel Gray           |
 
-
 Tip for Product Design Managers: Create the schedule in a temporary spreadsheet, and then copy/paste the rows into an online [markdown generator](https://www.google.com/search?q=copy-table-in-excel-and-paste-as-a-markdown-table).
