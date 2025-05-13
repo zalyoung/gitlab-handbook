@@ -3,13 +3,13 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-05-14 | Jacki Bauer          | Alyssa Trinh           | Tina Lise Ng           | Sascha Eggenberger     |
+| 2025-05-20 | Jacki Bauer          | Alyssa Trinh           | Sascha Eggenberger     |                        |
 | 2025-05-28 | APAC                 | Michael Le             | Alex Fracazo           | Bonnie Tsang           |
 | 2025-06-11 | Create PDM           | Dan Mizzi-Harris       | Tim Noah               | Sunjung Park           |
 | 2025-06-25 | Marcel van Remmerden | Ilonah Pelaez          | Lina Fowler            |                        |
 | 2025-07-09 | Justin Mandell       | Nick Brandt            | Veethika Mishra        | Jesse Young            |
 | 2025-07-23 | Marcel van Remmerden | Graham Bachelder       | Trevor Storey          | Annabel Gray           |
-| 2025-08-06 | Jacki Bauer          | Nicolle Merrill        | Julia Miocene          |                        |
+| 2025-08-06 | Jacki Bauer          | Nicolle Merrill        | Julia Miocene          | Tina Lise Ng                       |
 | 2025-08-20 | Taurie Davis         | Chad Lavimoniere       | Amelia Bauerly         |                        |
 | 2025-09-03 | Paul Wright          | Taylor Vanderhelm      | Sunjung Park           |                        |
 | 2025-09-17 | Emily Sybrant        | Mark Unthank           | Jesse Hoek             |                        |
