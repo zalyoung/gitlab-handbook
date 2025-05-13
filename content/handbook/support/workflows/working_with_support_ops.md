@@ -88,4 +88,3 @@ More about [how Customer Support Operations handles incidents](/handbook/securit
 Unless otherwise communicated, changes ship on the 1st of the month. This is to align any changes to metrics with month boundaries.
 
 Once you've signed off on work, make sure you're following the steps in [Change Management in Support - Rolling out a Change](/handbook/support/managers/change-management/#rolling-out-a-change) to make sure everyone on the team is aware.
-
