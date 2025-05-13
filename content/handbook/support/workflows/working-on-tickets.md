@@ -137,21 +137,17 @@ customers, see [the ASE workflow](../enhanced-support-offerings/offering-assigne
 
 ### How many new tickets should I pick up each week?
 
-Each week, every Support Engineer should aim at least to meet, and preferably to
-exceed, [the appropriate baseline](/handbook/support/support-engineer-responsibilities/#ticket-baseline)
+Each week, every Support Engineer should aim at least to meet, and preferably to exceed, [the appropriate baseline](/handbook/support/support-engineer-responsibilities/#ticket-baseline)
 from the following list for the number of first responses:
 
 | Ticket type   | FRT goal   |
 | ------------- | ---------- |
-| Self-managed  | 6 tickets  |
-| SaaS          | 7 tickets  |
-| SaaS Accounts | 8 tickets  |
-| L&R           | 24 tickets |
+| Self-managed  | 5 tickets  |
+| SaaS          | 5 tickets  |
+| SaaS Accounts | 20 tickets  |
+| L&R           | 15 tickets |
 
-The aim is to ensure equitable ticket distribution among team members. These
-numbers are based on ticket volume, number of SEs, and average PTO (15%). We
-continuously monitor ticket volume and number of SEs to make sure the above
-guidelines are accurate.
+The goal is to ensure fair distribution of tickets across the team. Intermediate and senior engineers excluding those in core L&R and Associate SE roles are expected to develop as well-rounded contributors by consistently working on a balanced mix of SM, SaaS, and Dedicated tickets. These expectations are informed by overall ticket volume, team size, and an average PTO rate of 15%. We continuously monitor ticket volume and staffing levels to ensure these guidelines remain accurate and appropriate.
 
 #### What if I can't meet baseline?
 
