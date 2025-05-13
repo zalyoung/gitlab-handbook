@@ -320,7 +320,7 @@ workflows. Here is a rough outline on how it might proceed:
 
 1. Change Set diffs aggregated in single view.
 1. Possible to see diffs from one specific project.
-1. Diffs paginated and streamed in a sensible way.
+1. Support of [rapid diffs](../rapid_diffs/_index.md).
 
 ### v0.4: Change Set Merge V2
 
