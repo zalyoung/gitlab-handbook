@@ -132,7 +132,7 @@ USE_SSH=true make clone-docs-projects
 Your resulting directory structure should look like this:
 
 ```plain
-.main-development
+main-development
 ├── charts-gitlab/ (main-translation)
 ├── gitlab/ (main-translation)
 ├── gitlab-docs/ (main-development)
@@ -145,7 +145,7 @@ Refer to documentation here for setting up your workstation further: https://git
 
 ##### Updating `main-development`
 
-* Use the "Update Fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-translation)  
+* Use the "Update Fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-development)  
 * If conflicts occur, update locally:
 
 ```plain
