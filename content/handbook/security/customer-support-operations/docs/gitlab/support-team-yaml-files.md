@@ -192,10 +192,11 @@ Each of those attributes have further child attributes within them:
 - `id`, which is the support team member's Zendesk user ID
 - `groups`, which is the groups the support team member's Zendesk user is in
 - `role`, which is the role the support team member's Zendesk user has
-- `show_in_signature`, which is a has containing an attribute of:
+- `show_in_signature`, which is a hash containing an attribute of:
   - `gitlab_handle`, which tells the agent sync to add a line to your signature including your GitLab.com handle
 - `alias`, which is what display name to use in Zendesk. If left blank, your full name will be used as the default
 - `salutations`, which is an array of salutations to use in a support team member's Zendesk user's signature
+- `article_publisher`, which determines if you will have Zendesk article publisher rights or not
 
 #### Additional info about the US Government round robin
 
