@@ -21,7 +21,6 @@ Occasionally, a customer might mis-file a ticket and send a request for support 
 
 For general questions and assistance, reach out via the [support_operations Slack channel](https://gitlab.slack.com/archives/C018ZGZAMPD). From there, a member of the Customer Support Operations team will respond and work with you to help address the question. 
 
-
 ### Basic Issue Flows
 
 The flow, can be summed up, simply as: "Create an issue!"
