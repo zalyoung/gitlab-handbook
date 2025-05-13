@@ -28,7 +28,7 @@ The team manages general documentation-related and team-specific Slack channels:
 - `#docs`: Questions and general discussion about GitLab documentation, and requests by GitLab team members for doc and UI text reviews.
 - `#docs-processes`: Discussion about documentation processes.
 - `#docs-tooling`: Discussion about documentation tooling and the `docs-gitlab-com` project.
-- `#docs-site-changes`: Automated messages from the [`docs-gitlab-com`](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project.
+- `#docs-site-changes-hugo`: Automated messages from the [`docs-gitlab-com`](https://gitlab.com/gitlab-org/technical-writing/docs-gitlab-com) project.
 - `#tw-team`: Technical Writing team chat.
 - `#tw-social`: Technical Writing team social chat.
 
