@@ -184,7 +184,7 @@ A better response would be to assume that an action was requested, relay your in
 
 #### Identify Related GitLab Issue
 
-You may need to identify the related incident issue if it is to be shared via `status.io`.
+You may need to identify the related incident issue if it is to be shared with `status.io`.
 
 To identify the issue:
 
