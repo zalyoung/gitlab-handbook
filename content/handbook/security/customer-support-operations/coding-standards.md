@@ -96,7 +96,69 @@ Always aim for high test coverage! When in doubt, test your code thoroughly!
     - `IID` is the issue's IID
     - Example:
       - For branch `jcolyer` is creating for the work of issue `https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/1963`, your branch name should be `jcolyer-support-ops-project-1963`
-  - The exception to this is branches for the [GitLab Support Readiness Gem](https://gitlab.com/gitlab-support-readiness/gitlab_support_readiness_gem), which should always use the format `vXX.YY.ZZ`, where `XX.YY.ZZ` is the version of the gem you are working on.
+  - The exception to this is branches for the ruby gems, which should always use the format `vXX.YY.ZZ`, where `XX.YY.ZZ` is the new semantic verions you are working on.
+
+## Use semantic versioning
+
+Whenever you need to use version numbers, you should strive to use semantic versioning, which is in the format of `MAJOR.MINOR.PATCH`. When increasing the version number, you should use the following to determine which number to increase:
+
+- Increase the `MAJOR` if you do a sizable refactor 
+- Increase the `MINOR` if you add or remove functionality
+- Increase the `PATCH` if you are making small changes (wording changes, bug fixes, etc.)
+
+Remember, when increasing a value:
+
+- If increasing `MAJOR`, the new values of `MINOR` and `PATCH` are 0
+- If increasing `MINOR`, the new value `PATCH` are 0 (and `MAJOR` remaining unchanged)
+- If increasing `PATCH`, the values of `MAJOR` and `MINOR` remain unchanged
+
+To help you, here are some examples:
+
+| Starting Version | `MAJOR` update | `MINOR` update | `PATCH` update |
+|------------------|----------------|----------------|----------------|
+| `1.0.0`          | `2.0.0`        | `1.1.0`        | `1.0.1`        |
+| `1.9.127`        | `2.0.0`        | `1.10.0`       | `1.9.128`      |
+| `2.99.0`         | `3.0.0`        | `2.100.0`      | `2.99.1`       |
+| `9.99.9`         | `10.0.0`       | `9.100.0`      | `9.99.10`      |
+
+### Using semantic versioning when only two numeric values are allowed
+
+If you are working with something only allowed two numeric values (such as `1.01` or `9.8`), you would instead combine the definitions of `MINOR` and `PATCH` for the second value. This results in the needed format of `xx.yy` and allows you to maintain a close semblances to semantic versioning.
+
+Thus, when increasing the version number, you should use the following to determine which number to increase:
+
+- Increase the `xx` if you do a sizable refactor 
+- Increase the `yy` if you add or remove functionality, or if you are making small changes (wording changes, bug fixes, etc.)
+
+To help you, here are some examples:
+
+| Starting Version | `MAJOR` update | `MINOR`/`PATCH` update |
+|------------------|----------------|------------------------|
+| `1.0`            | `2.0`          | `1.1`                  |
+| `1.9`            | `2.0`          | `1.10`                 |
+| `2.99`           | `3.0`          | `2.100`                |
+| `9.99`           | `10.0`         | `9.100`                |
+
+
+## Gem CHANGELOGs
+
+When working on ruby gems, you should maintain a `CHANGELOG.md` file. This should details the changes you are using. This will be used in the gem's documentation. While it can vary from gem to gem, a good format for an entry to use is:
+
+```markdown
+# vXX.YY.ZZ - YEAR-MONTH
+
+- Detail of change
+- Detail of change
+- Detail of change
+```
+
+Where:
+
+- `XX` is the `MAJOR` version of the semantic versioning
+- `YY` is the `MINOR` version of the semantic versioning
+- `ZZ` is the `PATCH` version of the semantic versioning
+- `YEAR` is the 4 digit year (e.g. `2025`)
+- `MONTH` is the 2 digit month (e.g. `08`)
 
 ## Error Handling
 
