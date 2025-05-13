@@ -198,7 +198,7 @@ To identify the issue:
 
 - The GitLab issue can be found on the right of the page
 
-  ![Incident IO Page](/images/support/incident-io-gitlab.link.png)
+  ![Incident IO Page](/images/support/incident-io-gitlab-link.png)
 
 #### Create Incident
 
