@@ -54,7 +54,7 @@ The People Connect team will be your primary guide throughout onboarding and you
 - The onboarding process is [self-paced](/handbook/values/#self-service-and-self-learning), but items marked with 🔴 should be completed on the assigned day. For the other tasks, the breakdown of days are there as a guideline, please do not work beyond your working hours to feel you need to complete the tasks.
 - Take your time—you have two full weeks dedicated to onboarding. You also have the support of your manager, onboarding buddy and the whole of GitLab to help you along your journey.
 - Reach out to the People Connect team or IT Ops via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=57e1ad3997804e50a326158de053af3d) whenever you need assistance via HelpLab or Slack.
-- There is a lot of Handbook content in the onboarding issue, that can at times require quite a bit of reading. Consider enabling one of the helpful text to speech tools in the Helpful Tools section above and remember to take breaks. Also feel free to bookmark certain Handbook pages for a later time to refer back to (except those marked with a big red dot - 🔴 which require immediate action).
+- There is plenty of helpful content in the onboarding issue and, applicable Handbook pages to read. Consider enabling one of the helpful text to speech tools in the Helpful Tools section above and remember to take breaks. Also feel free to bookmark certain Handbook pages for a later time to refer back to (except those marked with a big red dot - 🔴 which require immediate action).
 
 #### Communication Tools
 
