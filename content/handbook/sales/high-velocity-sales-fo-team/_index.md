@@ -45,9 +45,19 @@ We are a showcase of GitLab's culture. Interacting with us is flexible, asynchro
 
 ## Success Metrics
 
-- First Orders
-   - Web First Orders
+- First Orders: inclusive of web First Orders
 - SMB nARR
+
+## Team and Working With Us
+
+In the table below, you can find the HVS team leads who report into Allie Marconi and their associated scopes.
+
+|  **Name** | **GitLab Handle** | **Team Name** | **Team Scope** |
+| :--------------- | :----------------- | ----------------- |----------------- |
+| Kazem Kutob | @kkutob | Global SMB & New Logo Sales Team | The Global SMB team owns customer and prospects relationships globally of companies sized 0-250 employees. The New Logo team owns "base prospects" with a goal of delivering First Orders. |
+| Alex Martin | @alex_martin | Product GTM | Partners to co-author and deliver a product roadmap for customer outcomes.  We will orient the backlog and measure feature success based on customer value, first order count & bookings growth.  We will partner with product to ensure product features and releases are launched at high quality with a distribution plan delivering customer value. |
+| Max Fliesher | @mfleisher | Data & Operations | Supports the broader HVS team given an emphasis on high velocity, data drives our strategy. Owns the end to end operational model to enable coverage with a ~1,500 customer : SMB Advocate Ratio. Owns Renewals Teams and NLT ops especially where there’s crossover with SMB. Responsible for the launch, enablement and  performance evaluation of cases. |
+| Mitchell Hanks | @mhanks | Monetization & Startups | Responsible for the activating of our Free & Trial customers by targeting CE/EE and trial conversion in the "Base Account" population. Additionally responsible for the Startup Program, which enables seed and early state startup companies to get started and grow with GitLab. |
 
 ## Resources & Communications
 
