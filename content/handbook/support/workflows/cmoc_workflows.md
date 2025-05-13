@@ -260,7 +260,7 @@ This workflow, once used, will ask you to fill out a form with details of the in
    - **Status Page**: Click on the incident to expland the full status page url. eg: `https://status.gitlab.com/pages/incident/xxxxxxxx/xxxxxxxx`
 1. Click `Submit`
 
-This will sumbit to both `#developer-relations` and `#customer-success` channels.
+This will submit to both `#developer-relations` and `#customer-success` channels.
 
 #### Resolve the PagerDuty Page
 
