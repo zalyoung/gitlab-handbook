@@ -40,6 +40,14 @@ Starting May 27, 2025, customers will receive an email with the subject line: **
 7. Contributions like yours directly shape the future of our product. Are you open to a brief chat with our team to learn more about your GitLab experience?
    * Yes / No
 
+### Recipients
+
+In order to target leaders and decision-makers on accounts, the following customer personas will receive an invitation to a survey:
+* GitLab admin contacts
+* Sold-To Billing Contact (if no GitLab Admin exists)
+* GitLab.com Owner role
+* Executive Sponsor
+
 ## **Process**
 
 1. **Email:** An email containing the CSAT survey is sent to an identified contact within the customer's organization.
