@@ -165,17 +165,10 @@ Cloud Connector Rate Limiting
 <td>
 
 - Configured by Terraform (see [runbook links](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloud_connector/README.md#cloudflare)).
-- Limits per application-specific HTTP header fields.
-- Throttles both end-user clients such as IDEs as well as GitLab Rails instances (GL.com, SM and Dedicated.)
+- Throttles requests from both end-user clients such as IDEs as well as GitLab Rails instances (GL.com, SM and Dedicated.)
+- Limits are counted against any GitLab user's anonymous global user ID, regardless of where the request originates from.
 - Primarily used to throttle consumption of non-horizontally scalable resources such as AI vendor limits.
 - Can be configured for each Cloud Connector backend individually.
-- Backends can segment requests using custom selectors and map them to buckets. Each bucket:
-  - Might represent a certain user or customer cohort.
-  - Can define a per-user and per-instance rate limit.
-  - For example, we segment AI requests into `Small`, `Medium` and `Large` customers based on the number of Duo seats
-      they purchased from us. The more seats they have, the more requests they get.
-  - It is possible and allowed to define a single catch-all bucket that matches all requests,
-      in which case each request observes the same static rate limit.
 
 </td>
 </tr>
