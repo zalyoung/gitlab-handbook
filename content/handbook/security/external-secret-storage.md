@@ -3,7 +3,7 @@ title: Setting up external secret storage with Vault
 description: Process outline on how to setup external secrets storage as a secure alternative to environment variables.
 ---
 
-# Using HashiCorp Vault for Secret Management in GitLab CI/CD
+## Using HashiCorp Vault for Secret Management in GitLab CI/CD
 
 ## Overview
 
@@ -103,6 +103,7 @@ deploy:
 ```
 
 Note the following:
+
 - All secret paths must end with `@ci` for CI purposes
 - Set `file: false` for simple variables
 - Set `file: true` for secrets that should be converted to a file
@@ -124,12 +125,11 @@ gitlab_url = config['gitlab']['url']
 headers = {"Private-Token": gitlab_token}
 ```
 
-
 ## Verification
 
 You can verify that your secrets are being properly resolved by checking the CI output job. You should see log entries like:
 
-```
+```shell
 Resolving secrets
 Resolving secret "JAMF_USER"...
 Using "vault" secret resolver...
