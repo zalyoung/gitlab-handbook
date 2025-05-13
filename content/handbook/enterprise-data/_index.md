@@ -15,7 +15,7 @@ description: "The GitLab Enterprise Data Team is responsible for empowering ever
 3. **Develop** and secure our data into a uniform, trusted asset through data protection & privacy, iterating on processes, people, and platforms.
 4. **Enable** every team member to contribute to initiatives responsibly and with trust, building a powerful data-driven culture.
 
-* Read our [Direction](https://internal.gitlab.com/handbook/enterprise-data/direction/) page to learn _what_ we are doing to improve data at GitLab.
+* Read our [Direction](https://internal.gitlab.com/handbook/enterprise-data/direction/) page to learn what we are doing to improve data at GitLab.
 * Our [Principles](/handbook/enterprise-data/organization/principles/) inform how we accomplish our mission.
 
 **Would you like to contribute? [Recommend an improvement](https://gitlab.com/gitlab-data/analytics/-/issues), [visit Slack #data](https://gitlab.slack.com/messages/data/), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!**
