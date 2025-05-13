@@ -69,11 +69,10 @@ The People Connect team will be your primary guide throughout onboarding and you
 - Your role training may appear in your main onboarding issue, a separate training issue, or in LevelUp
 - Your manager and onboarding buddy will guide you through role expectations
 
-#### Equipment and Expenses
+#### Equipment
 
 - If your laptop hasn't arrived near your start date, email `it-help@gitlab.com` (cc: `people-connect@gitlab.com`)
 - New to Mac? Check our [handbook page](/handbook/tools-and-tips/mac/) for helpful tips or explore [YouTube tutorials](https://www.youtube.com/watch?v=Ag3NWYr5CD8)
-- GitLab uses Navan for [expense](/handbook/finance/expenses/) reimbursements (access available within 2 days of hire). If you do not have access to Navan, please reach out to the Expenses team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=f984801147cc069067429ee0026d4372)
 
 ### New Hire FAQ: Everything You Need to Know
 
