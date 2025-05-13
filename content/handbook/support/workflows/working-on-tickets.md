@@ -147,7 +147,7 @@ from the following list for the number of first responses:
 | SaaS Accounts | 20 tickets  |
 | L&R           | 15 tickets |
 
-The goal is to ensure fair distribution of tickets across the team. Intermediate and senior engineers excluding those in core L&R and Associate SE roles are expected to develop as well-rounded contributors by consistently working on a balanced mix of SM, SaaS, and Dedicated tickets. These expectations are informed by overall ticket volume, team size, and an average PTO rate of 15%. We continuously monitor ticket volume and staffing levels to ensure these guidelines remain accurate and appropriate.
+The goal is to ensure fair distribution of tickets across the team. Intermediate and senior engineers excluding those in core L&R and Associate SE roles are expected to develop as well-rounded contributors by consistently working on a balanced mix of SM, SaaS, and Dedicated tickets. These expectations are informed by overall ticket volume, team size, and an average PTO rate of 15%. We continuously monitor ticket volume and staffing levels to ensure these guidelines remain accurate and appropriate. For further details please review the [Support Engineer Performance Indicators FY26 issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6635#note_2498022715).
 
 #### What if I can't meet baseline?
 
