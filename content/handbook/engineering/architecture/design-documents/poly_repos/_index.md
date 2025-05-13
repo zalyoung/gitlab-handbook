@@ -14,7 +14,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work in progress and outlines a plan to support
 workflows that involve multiple repositories. We call this poly repos
