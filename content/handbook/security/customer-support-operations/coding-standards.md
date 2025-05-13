@@ -139,7 +139,6 @@ To help you, here are some examples:
 | `2.99`           | `3.0`          | `2.100`                |
 | `9.99`           | `10.0`         | `9.100`                |
 
-
 ## Gem CHANGELOGs
 
 When working on ruby gems, you should maintain a `CHANGELOG.md` file. This should details the changes you are using. This will be used in the gem's documentation. While it can vary from gem to gem, a good format for an entry to use is:
