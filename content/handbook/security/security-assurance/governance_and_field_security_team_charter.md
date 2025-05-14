@@ -81,6 +81,7 @@ Please refer to the following roles and responsibilities for Security Enablement
 - Champion an engineering mindset for Assurance processes and programs
 - Automate compliance controls and compliance control monitoring processes
 - Reduce the amount of time consumed by manual tasks.
+- Drive AI adoption and integration into team workflows
 
 ## Program scope
 
