@@ -70,7 +70,6 @@ Understanding this distinction helps clarify who does what during incidents and 
 
 Clear delineation of responsibilities is important during an incident. Quick resolution requires focus and a clear hierarchy for delegation of tasks. Preventing overlaps and ensuring a proper order of operations is vital to mitigation.
 
-To make your role clear, edit your Zoom name to start with your role when you join the Zoom meeting. For example: "IL - John Doe" for Incident Lead.
 
 | **Role** | **Description** | **When Needed** |
 | ---- | ----------- | ---- |
