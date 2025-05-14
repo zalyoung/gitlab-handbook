@@ -15,7 +15,7 @@ Ensuring cybersecurity incidents never go undetected by building and maintaining
 Build and Mature A Best In Class Detection Engineering Program
 
 - Constantly tracking and pursuing KPI goals, including: Detection coverage, detection precision and sensitivity and time to detection
-- Building and maintaining automations with Threat Intelligence and the Red Team to programmatically evaluate detection capabilities and identify weaknesses
+- Building and maintaining automations with Threat Intelligence and the Red Team to programmatically evaluate detection capabilities and improve our threat resilience
 
 Reducing Time to Detection
 
