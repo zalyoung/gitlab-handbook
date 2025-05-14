@@ -17,7 +17,7 @@ We proactively identify, assess, and mitigate compliance risks that could impact
 
 ## Contact the Compliance Team
 
-  - Please create a case in [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) for the team to review
+- Please create a case in [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#how-do-i-use-helplab) for the team to review
 
 {{% details summary="Meet the People Compliance team" %}}
 
