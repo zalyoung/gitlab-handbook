@@ -102,9 +102,7 @@ Generally, tests will run inside of the test stage of a CI/CD process.
 
 1. Create a job in the test stage that runs the tests we created for ArrayUtils.
 
-    *Coding Challenge:*
-
-    What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax.
+{{% details summary="What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax, or click here for the solution."%}}
 
     *Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
 
@@ -113,6 +111,8 @@ Generally, tests will run inside of the test stage of a CI/CD process.
       stage: test
       script: go test array/ArrayUtils
     ```
+
+{{% /details %}}
 
 1. After adding these changes, select **Commit changes**.
 
@@ -132,6 +132,7 @@ test go:
   script: go test array/ArrayUtils
   allow_failure: true
 ```
+
 {{% /details %}}
 
 1. To test this out, try adding a new test that will always fail. If you are unsure on how to write the test, edit your `ArrayUtils_test.go` file and copy the code below.
