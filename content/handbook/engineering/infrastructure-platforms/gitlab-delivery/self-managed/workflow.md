@@ -144,7 +144,7 @@ On the last week's weekly sync meeting every month.
 
 ## Priority definition
 
-Self Managed team uses [infrastructure-wide priority labels](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+Self Managed team uses [infrastructure-wide priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
 to determine the position in the Kandban columns.
 
 | Priority | Label | Position in Kanban | Action Required |
