@@ -170,7 +170,7 @@ test go:
 
     In this example, the final test looks for a value that does not exist in the array, but expects it to find the value. This test will always fail as we are expecting the wrong result.
 
-1. Commit this code to main and observe the resulting pipeline.
+1. Select **Commit changes** and, commit the changes to a new branch called `failable-tests-branch`. Commit the code without a Merge Reuqest.
 
 1. Monitor the progress of your test job.
 
