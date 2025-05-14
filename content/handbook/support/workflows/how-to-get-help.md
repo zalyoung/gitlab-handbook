@@ -253,7 +253,6 @@ stateDiagram-v2
     SupportTriage --> Closed: Resolution found
 
     state Closed {
-        SendReminders:
         SendReminders --> Resolved: Add Doc-Reminder label Add Resolution-Type label
     }
 
