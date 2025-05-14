@@ -67,9 +67,9 @@ Note: This is a permanent action.
 
 - [Zendesk Global Articles](https://gitlab.com/gitlab-support-readiness/zendesk-global/articles)
 - [Zendesk US Government Articles](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/articles)
-- [Support Knowledge Base](../support/knowledge-base)
+- [Support Knowledge Base](/../../support/knowledge-base)
 
-## Deprecated Information below:
+## Deprecated Information below
 
 {{% alert title="Note" color="primary" %}}
 
