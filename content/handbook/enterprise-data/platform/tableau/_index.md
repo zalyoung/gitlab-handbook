@@ -161,7 +161,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 Please see the [project-permission-structure](/handbook/enterprise-data/platform/tableau/#project-permission-structure) section for details on the permissions for the BIOps roles.
 
-1. **Tableau Admins / Maintainer Responsibilities:** These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Cloud Site Administration responsibilities although several Top Level Project Leaders are also [Tableau Cloud Site Admins](/handbook/enterprise-data/platform/tableau/#tableau-online-admins).
+1. **Tableau Admins / Maintainer Responsibilities:** These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Cloud Site Administration responsibilities although several Top Level Project Leaders are also Tableau Cloud Site Admins.
 2. **Project Leader / Code Owner Responsibilities:** Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners. A full list of Project Leads can be found [here](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views).
 
 </details>
@@ -245,7 +245,7 @@ Archival Exclusions:
 1. Content stored in Personal Folders will not be archived, as it is only viewable by the owner and does not clutter the environment.
 
 Archival Contact:
-For questions or requests regarding archived content, please reach out to the BI team. Click [here](.../handbook/enterprise-data/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
+For questions or requests regarding archived content, please reach out to the BI team. Click [here](/handbook/enterprise-data/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
 
 ### Permissions
 
@@ -263,7 +263,7 @@ Limited access user groups will allow business teams to manage accessibility to 
 
 Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
-- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
+- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
 - To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit a request through [Lumos](/handbook/security/corporate/systems/lumos/ar/).
 
 - **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
@@ -726,9 +726,10 @@ All certified data sources must meet the following criteria:
 The Data Team provides shared Tableau resources to support reporting, dashboard development, and data visibility across the organization. These resources are maintained to help teams build with consistency, understand platform usage, and access historical content when needed.
 
 You can find these resources in the [Production → Data Team → General](https://10az.online.tableau.com/#/site/gitlab/projects/367731) folder. This location includes information such as:
--	Platform Usage Dashboards – Insights into how Tableau is being used across teams
--	Archived Dashboards and Data Sources – Retired or historical content for reference
--	Templates and Examples – Standardized templates to help jump-start new dashboard builds
+   
+   - Platform Usage Dashboards – Insights into how Tableau is being used across teams
+   - Archived Dashboards and Data Sources – Retired or historical content for reference
+   - Templates and Examples – Standardized templates to help jump-start new dashboard builds
 
 Use this folder as your go-to spot for foundational Tableau materials supported by the Data Team.
 
