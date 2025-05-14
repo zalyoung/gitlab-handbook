@@ -126,12 +126,6 @@ Here's some things that other SSCs are doing that might serve as additional insp
 
 If your group doesn't have an SSC assigned and you'd like to request one, please create an issue in [the support-stable-counterpart project](https://gitlab.com/gitlab-com/support/support-stable-counterpart/-/issues/new?issuable_template=Request%20new%20SSC%20for%20Group) and share in [#support_team-chat](https://gitlab.slack.com/archives/CCBJYEWAW) and [#spt_stable-counterparts](https://gitlab.slack.com/archives/C01SEKQ1SMS).
 
-## Feedback on the current initiative
-
-During Q3-FY23 the SSC create and document process to ensure alignment of Support and Product issue prioritization and track results OKR focused on reaching out to Product and Engineering Managers, and their SSC/s to gather feedback. A common theme highlighted an interest from Product Managers having inputs from Support that may be able to provide insights for product planning and prioritization meetings with Product Managers.
-
-SSCs that are regularly engaging with their product group are informing Support with knowledge they have picked up and the Product and Engineering Managers have built a steady relationship in these particular groups. There are still a few groups who are yet to build these foundational relationships, however, the feedback issues created an opportunity to encourage these discussions to start and a path forward for these groups to be carved out.
-
 ## Current SSC Vacancies
 
 The [tables below](#product-counterparts) lists all groups and stages that currently do not have an SSC assigned. You can view a list of groups where a Product and/or Engineering Manager has reached out to support requesting an SSC in the [support-stable-counterpart project](https://gitlab.com/gitlab-com/support/support-stable-counterpart/-/issues).
