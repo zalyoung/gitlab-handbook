@@ -97,6 +97,8 @@ If someone starts working on an issue but it has the same workflow label for a
 week, the assignee has to leave a comment explaining the status of the issue.
 We should write at least one comment every week that the issue is not moving.
 
+When creating an issue requiring both backend and frontend work, separate issues should be created. They should be linked to each other, both explicitly in the issue description, and via the Linked Items section of the UI. This will help clarify the separate statuses of the frontend and backend work, but also avoid the issue being misinterpreted as "full-stack" and to be completed by a single engineer.
+
 ### Issue Boards
 
 The work for the Import and Integrate group can be tracked on the following issue boards:
