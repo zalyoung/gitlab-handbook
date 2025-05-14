@@ -41,6 +41,25 @@ TPRM engineers are assigned on-call duties on a weekly basis to manage vendor in
 
 The Security Risk team's core working hours are 8:00AM to 4:00PM CST. For urgent requisitions or TPRM concerns requiring immediate attention outside of these hours, please reach out to Ty Dilbeck via the phone number listed in Slack.
 
+## TPRM for Business Owners
+
+Our TPRM procedures have many ins-and-outs, but what do you need to know as a Business Owner?
+
+### TPRM: Why it matters
+
+GitLab has an obligation to understand whether the vendors and services supporting our product are equipped to safeguard our data and that of our customers. Lack of proper data security mechanisms introduces security gaps that could result in data exposure, compliance violations, and reputational damage. This could be from any source, even Chrome extensions have [come under fire by threat actors](https://www.cyberhaven.com/engineering-blog/cyberhavens-preliminary-analysis-of-the-recent-malicious-chrome-extension), and proactive identification of these risks can help prevent exposure to GitLab.
+
+### Quick Start Guide
+
+#### Do I need a TPRM assessment?
+
+Our assessments are driven by the vendor's data classification. Our obligations for Green or Yellow data, such as public runbooks, are much lower than that of Orange or Red data, such as customer contact information (Orange) or customer project data (Red). A TPRM assessment is generally not required for vendors processing Green or Yellow data, as XXXXX. Vendors processing or otherwise interacting with Orange or Red data must be assessed prior to entering the relationship, and annually upon renewal. This allows us to identify risks on the front-end, while maintaining ongoing visibility into risks that may be introduced on a year-to-year basis. As the security threat landscape matures, our procedures must mature as well. 
+
+#### What does an assessment entail?
+
+Our team maintains two questionnaires that are leveraged depending on the nature of the services being provided. The **Reduced-Scope Questionnaire** is reserved for vendors with limited access to Orange data, such as internal professional services providers or individual-use software. This questionnaire is more high-level and focuses more broadly on endpoint controls, development processes, and HR procedures. Our **Full-Scope Questionnaire** is used for higher-risk vendors, such as those providing SaaS systems used across GitLab, or professional services sub-processors performing work directly in customer environments.
+
+
 ## Security Considerations for Vendor Selection
 
 Security is a top priority in GitLab's vendor selection process, and GitLab is committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and health of their Bitsight security ratings. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security to safeguard GitLab's data and uphold the trust of our stakeholders. Below are some examples of how Security Risk evaluates vendors of different types and some recommendations for vetting vendors when making purchasing decisions.
