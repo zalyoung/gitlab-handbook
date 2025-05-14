@@ -157,7 +157,10 @@ Use the following repositories and resources for identifying similar issues or r
 1. If the Zendesk ticket is escalated then add the label `Support::escalated`.
 1. Add a 'Customer Impact' statement if necessary, advocating for the customer.
 1. Ensure to follow any instructions on the template itself, such as who to assign the issue to (if not automatically assigned).
-1. Ensure that a link to the corresponding issue is added to the Zendesk ticket as an internal note and also to the ticket field named `GitLab Issues`.
+1. After creating the issue:
+   - Add its link to the Zendesk ticket as an internal note and to the ticket field named `GitLab Issues`.
+   - Use Duo Chat on the issue to identify any additional details/context you should share additionally. You can use a prompt like this:
+     > This issue is a request for help from the customer support team to Engineering. Identify any context that has not been shared, but that would be useful for Engineering to help provide a solution for this issue.
 
 #### Tips on getting timely responses
 
