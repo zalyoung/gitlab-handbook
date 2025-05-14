@@ -263,7 +263,7 @@ Limited access user groups will allow business teams to manage accessibility to 
 
 Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
-- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
+- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
 - To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit a request through [Lumos](/handbook/security/corporate/systems/lumos/ar/).
 
 - **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
@@ -727,9 +727,9 @@ The Data Team provides shared Tableau resources to support reporting, dashboard 
 
 You can find these resources in the [Production → Data Team → General](https://10az.online.tableau.com/#/site/gitlab/projects/367731) folder. This location includes information such as:
    
-   - Platform Usage Dashboards – Insights into how Tableau is being used across teams
-   - Archived Dashboards and Data Sources – Retired or historical content for reference
-   - Templates and Examples – Standardized templates to help jump-start new dashboard builds
+- Platform Usage Dashboards – Insights into how Tableau is being used across teams
+- Archived Dashboards and Data Sources – Retired or historical content for reference
+- Templates and Examples – Standardized templates to help jump-start new dashboard builds
 
 Use this folder as your go-to spot for foundational Tableau materials supported by the Data Team.
 
