@@ -24,19 +24,11 @@ Most roles that require higher performance machines are approved for a 14" or 16
 
 > **New Team Members:** If your job title includes the word `Engineer` and your team is not approved for a performance model, it may be an oversight or typo. Please ask in [#it_help](https://gitlab.enterprise.slack.com/archives/CK4EQH50E) before submitting an order form to confirm whether you can order the performance model. If you have not started at GitLab yet, please send this question via email to your Candidate Experience Specialist.
 
-### Standard MacBook Model
+Chipset specifications not listed as they will vary based on current inventory levels.
 
-- MacBook Pro 14"
-- M3 Processor (8c CPU, 10c GPU, 16c Neural)
-- 16GB Memory
-- 512GB Storage
-
-### Performance MacBook Model
-
-- MacBook Pro 14" or 16" *(based on regional inventory)*
-- M3 Max Processor (14c CPU, 30c GPU, 16c Neural)
-- 36GB Memory
-- 512GB or 1TB Storage (based on inventory, not user choice)
+* MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
+* MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
+* MacBook Pro 14-inch - 36GB Unified memory / 1TB storage **Performance model**
 
 > We have inventory of laptops ready to ship to team members in countries with a large number of team members. This ensures that you can get your laptop promptly and not need to wait several weeks or months for custom order machines.
 >
