@@ -174,7 +174,7 @@ Knowing where to perform a given task is _often_ what you expect, but there are 
 | Knowledge Champions | Link Knowledge articles in Zendesk ticket | In Zendesk |
 | Knowledge Champions | Add / Remove Guide Permissions | Modify entry in `support-team.yaml` See: [support-team-yaml docs](/handbook/security/customer-support-operations/docs/gitlab/support-team-yaml-files) |
 | Knowledge Champions | Archive articles | In Guide directly |
-| Knowledge Admin | Restore articles | TBD process to restore from archive - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/155 |
+| Knowledge Admin | Restore articles | Via a [Feature Request Issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=Feature) |
 | Knowledge Admin | Delete articles | Have Knowledge champion archive, TBD process to delete - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/156 |
 | Knowledge Admin | History of articles | Available to everyone in Guide directly (Changelog) |
 | Knowledge Admin | Creating permission sets | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations | 
