@@ -37,17 +37,17 @@ _What is our vision for this team? What does it look like at the top of the moun
 
 _How will we achieve our vision? What is our route up the mountain?_
 
-See [details plans](https://docs.google.com/document/d/1MzL3l_vPHLX17IVW1sX64k-7qZ_u2ztwfmdP5vBhyXg/edit?tab=t.0#bookmark=id.ep12ubbj44uz).
+See [detailed plans](https://docs.google.com/document/d/1MzL3l_vPHLX17IVW1sX64k-7qZ_u2ztwfmdP5vBhyXg/edit?tab=t.0#bookmark=id.ep12ubbj44uz).
 
-1. **Joint Roadmap Development**: develop prioritized list of problems/features to feed joint roadmap.
-2. **Joint Roadmap Accountability**: establish processes and metrics against which teams are held to within the joint roadmap
+1. **Joint Roadmap Development**: develop prioritized list of problems/features to feed a joint roadmap.
+2. **Joint Roadmap Accountability**: establish processes and metrics against which teams are held to within the joint roadmap.
 3. **Create Structure for Product Launches from GTM perspective**: create two-way transparency into what our team is doing with product. Establish a GTM framework for approaches launches that serves as a rules of engagement / playbook of sorts.
 4. **Support in-flight Product Efforts driving Company Strategy Measures**: act as a cohesive voice representing sales interests to product teams. Partner with product teams to deliver functionality that will improve the customer experience resulting in: FOs, nARR, and informed field teams that are aware of the impact.
 
 ## Working With Us
 
 - Get in touch with in slack `#hvs`
-- Read our [primary epic](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/122) where we house of efforts
+- Read our [primary epic](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/122) where we house our efforts
 - See where we are tracking our in [quarter efforts](https://docs.google.com/spreadsheets/d/1V4OIpKLbm9PHKkW4jamIBu9FljbVUh_cwfahWHzwQv0/edit?usp=sharing)
 
 ## FAQ
