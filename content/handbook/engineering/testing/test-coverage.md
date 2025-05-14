@@ -19,8 +19,6 @@ where test states such as failures can be filtered on.
 Nightly pipelines are visible at the
 [`gitlab-org/gitlab` nightly schedule pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) page (internal only).
 The offline environment / airgapped test job names are `ce:airgapped` and `ee:airgapped`.
-This is one of the [pipelines monitored by the Test Platform team](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/) as part of the
-[Test Platform Department pipeline triage on-call rotation](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule).
 
 #### Other reference guides
 
@@ -76,9 +74,6 @@ Additionally, a [`Test::Omnibus::UpdateToNext`](https://gitlab.com/gitlab-org/gi
    - [Backport](/handbook/engineering/releases/backports/) merge requests to test upgrades from stable releases to pre-release packages built within the MR.
 1. `Test::Omnibus::UpdateToNext` scenario is run with:
    - [Backport](/handbook/engineering/releases/backports/) merge requests to test upgrades from pre-release packages built within the MR to stable releases.
-
-These pipelines are [monitored by the Developer Experience team](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/) as part of the
-[pipeline triage on-call rotation](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule).
 
 #### Performance environments nightly upgrades
 

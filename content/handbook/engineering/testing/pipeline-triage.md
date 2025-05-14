@@ -12,7 +12,7 @@ This guide is an extension of the [Broken `master`](/handbook/engineering/workfl
 The Pipeline triage [DRI](/handbook/people-group/directly-responsible-individuals/) is responsible for analyzing and debugging test pipeline failures. Please refer to the [DRI weekly rotation schedule](https://gitlab.com/gitlab-org/developer-experience/pipeline-triage#dri-weekly-rotation-schedule) to know who the current DRIs are.
 
 NOTE:
-For information regarding debugging test pipeline failures, check out [Debugging Failing E2E Tests and Test Pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
+For information regarding debugging test pipeline failures, check out [Debugging Failing E2E Tests and Test Pipelines](https://docs.gitlab.com/development/testing_guide/end_to_end/debugging_end_to_end_test_failures/)
 
 ## General guidelines
 
@@ -138,7 +138,7 @@ After triaging failed tests, possible follow up actions are:
 
 ### Report the failure
 
-Your priority is to make sure we have an issue for each failure, and to communicate the status of its investigation and resolution. When there are multiple failures to report, consider their impact when deciding which to report first. See the [pipeline triage responsibilities](/handbook/engineering/infrastructure-platforms/developer-experience/oncall-rotation/#responsibility) for further guidance.
+Your priority is to make sure we have an issue for each failure, and to communicate the status of its investigation and resolution. When there are multiple failures to report, consider their impact when deciding which to report first. See the [pipeline triage responsibilities](/handbook/engineering/testing/oncall-rotation/#responsibility) for further guidance.
 
 If there are multiple failures we recommend that you identify whether each one is new or old (and therefore already has an issue open for it). For each new failure, open an issue that includes only the required information. Once you have opened an issue for each new failure you can investigate each more thoroughly and act on them appropriately, as described in later sections.
 
@@ -181,7 +181,7 @@ Please use this step if there are no issues created to capture the failure. If t
 
 ### Review the failure logs
 
-The aim of this step is to understand the failure. The results of the investigation will also let you know what to do about the failure. Update the failure issue with any findings from your review. For more information about the failure logs, check out [Debugging Failing Tests and Test Pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/#test-failure-logs)
+The aim of this step is to understand the failure. The results of the investigation will also let you know what to do about the failure. Update the failure issue with any findings from your review. For more information about the failure logs, check out [Debugging Failing Tests and Test Pipelines](https://docs.gitlab.com/development/testing_guide/end_to_end/debugging_end_to_end_test_failures/#test-failure-logs)
 
 ### Investigate the root cause
 
@@ -483,7 +483,7 @@ Before dequarantining a test:
   in the nightly pipeline's quarantine job for that test.
 - If the test failure was originally discovered in [staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines), [canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) or [production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines) pipeline, please make sure that the test passes in the CI pipeline against that environment.
   You can trigger a CI pipeline against a live environment by clicking "Run Pipeline" button on the [staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines), [canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) or [production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines) pipelines page
-  and setting the `RELEASE` variable to the release that has your changes. See [Running GitLab-QA pipeline against a specific GitLab release](/handbook/engineering/infrastructure-platforms/developer-experience/tips-and-tricks/#running-gitlab-qa-pipeline-against-a-specific-gitlab-release)
+  and setting the `RELEASE` variable to the release that has your changes. See [Running GitLab-QA pipeline against a specific GitLab release](https://docs.gitlab.com/development/testing_guide/end_to_end/tips_and_tricks/#running-gitlab-qa-pipeline-against-a-specific-gitlab-release)
   for instruction on finding your release version created and tagged by the Omnibus pipeline.
 
 To dequarantine a test:

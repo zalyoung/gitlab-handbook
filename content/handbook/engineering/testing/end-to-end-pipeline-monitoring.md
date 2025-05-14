@@ -26,7 +26,7 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 | GitLab `master` Nightly                  | [Pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) \| [Definition](https://gitlab.com/gitlab-org/gitlab/-/blob/77a5b0b3f8f910d4fe89a3fed46c4da53b1e587e/.gitlab/ci/qa.gitlab-ci.yml#L137-149)                                                                                                                                                                                      | Full       | [Daily at 4:00am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)                                                                                                                                                                               | [`#e2e-run-master`](https://gitlab.slack.com/archives/CNV2N29DM)                                                                            | [Master Nightly](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html)                      |
 
 NOTE:
-For information on how to investigate failing end-to-end tests and pipelines, check out [Debugging Failing Tests and Test Pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
+For information on how to investigate failing end-to-end tests and pipelines, check out [Debugging Failing Tests and Test Pipelines](https://docs.gitlab.com/development/testing_guide/end_to_end/debugging_end_to_end_test_failures/)
 
 ## Visual Pipeline Environment Map
 
