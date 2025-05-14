@@ -57,4 +57,4 @@ Note: This is a permanent action.
 
 ## Important links
 
-- [Support Knowledge Base](/../../support/knowledge-base)
+- [Support Knowledge Base](/content/handbook/support/knowledge-base/_index.md)
