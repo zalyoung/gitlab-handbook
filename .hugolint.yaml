@@ -8,6 +8,7 @@ exclude:
   - pattern: '^/handbook/ceo/office-of-the-ceo/performance-indicators/?#'
   - pattern: '^/handbook/engineering/development/performance-indicators/?#'
   - pattern: '^/handbook/engineering/infrastructure/performance-indicators/?#'
+  - pattern: '^/handbook/engineering/infrastructure-platforms/performance-indicators/?#'
   - pattern: '^/handbook/engineering/performance-indicators/_index/?#'
   - pattern: '^/handbook/engineering/performance-indicators/?#'
   - pattern: '^/handbook/finance/finance-team-performance-indicators/?#'
