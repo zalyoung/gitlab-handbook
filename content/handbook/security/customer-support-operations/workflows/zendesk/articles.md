@@ -55,6 +55,3 @@ Once the request is received, Knowledge admin can follow the process as mentione
 to manually delete an article.
 Note: This is a permanent action.
 
-## Important links
-
-- [Support Knowledge Base](/content/handbook/support/knowledge-base/_index.md)
