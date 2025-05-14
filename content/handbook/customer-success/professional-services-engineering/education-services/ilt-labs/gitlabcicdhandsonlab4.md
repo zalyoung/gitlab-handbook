@@ -96,7 +96,7 @@ This code looks similar to our release component we made in a similar lab, but t
 
 1. Wait for the pipeline to complete.
 
-## Task B. Adding the Created Component to our Project
+## Task C. Adding the Created Component to our Project
 
 1. Navigate to your CI/CD Catalogue by clicking on the search bar, and then clicking the **Explore** option.
 
@@ -143,12 +143,12 @@ include:
 
 1. Let's try overriding the stage to instead run in the deploy stage by adding the following to the `.gitlab-ci.yml` file:
 
-```yaml
-  include:
-    - component: $CI_SERVER_FQDN/training-users/session-0a9ee9b9/iu6t0rjr/example-component/sample-template@v0.36.0
-      inputs:
-        stage: deploy
-```
+    ```yaml
+      include:
+        - component: $CI_SERVER_FQDN/training-users/session-0a9ee9b9/iu6t0rjr/example-component/sample-template@v0.36.0
+          inputs:
+            stage: deploy
+    ```
 
 1. Select **Commit changes**, and watch as your *component-job* now runs in the deploy stage.
 
