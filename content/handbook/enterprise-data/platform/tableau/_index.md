@@ -102,13 +102,12 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 - `Development`: content in this folder intentionally includes no governance, in order to enable users to quickly prototype. As such it should be considered to be sandbox content.
 - `Production`: The Tableau Production folder environment is a designated area where validated, high-quality content is published and accessible to end users for business-critical reporting. Content in this folder has been reviewed and approved by Project Leaders.
-- `Resources`: content in this folder includes workbook templates and certified data sources that can be used in workbook development
 
 <details markdown=1>
 
 <summary><b>Project and Sub-Project Folder Descriptions</b></summary>
 
-- **Top Level Project Folders:** **The top level project provides what the purpose of the workbook is.** There are three top level projects; Production, Development, and Resources. This is the highest folder level that the Tableau user lands on. These folders guide the user either down a Production path to view certified content, development path to view sandbox content, or a resources path to access workbook templates and certified data sources to be used in workbook development.
+- **Top Level Project Folders:** **The top level project provides what the purpose of the workbook is.** There are two top level projects; Production, Development. This is the highest folder level that the Tableau user lands on. These folders guide the user either down a Production path to view certified content or development path to view sandbox content.
   - **2nd Level Sub-Project Folders:** **The 2nd level project provides who the primary owner of the workbook is.** This level of the architecture contains sub-projects for each department and cross-functional business motion such as the Go To Market Motion. Each department and cross-functional business motion will have their own sub-project. This gives us flexibility to create different types of security at the sub-project level based on specific departmental and business motion needs.
     - **3rd Level Sub-Project Folders:**  **The 3rd level project provides security around who can see the workbook.** Our SAFE Data Program is applied on this level of the architecture. This allows us flexibility to apply more security controls, by department, in the future to include enhanced SAFE Data program controls, row and column level security, and security around confidential information. Applying the security at this level will allow for customized, and scalable security programs by department and business motion.
 
@@ -118,15 +117,6 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 <summary><b>Project Architecture</b></summary>
 
-1. **Resources**
-    1. **General**
-        1. **Admin Insights**
-            1. Admin Insights Starter
-        2. **Templates**
-            1. Workbook Template
-        3. Data Source Name
-    1. **SAFE**
-        1. Data Source Name
 1. **Development** (Sandbox Environment)
     1. **Customer Success**
         1. **General**
@@ -171,7 +161,7 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 Please see the [project-permission-structure](/handbook/enterprise-data/platform/tableau/#project-permission-structure) section for details on the permissions for the BIOps roles.
 
-1. **Tableau Admins / Maintainer Responsibilities:** These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Cloud Site Administration responsibilities although several Top Level Project Leaders are also [Tableau Cloud Site Admins](/handbook/enterprise-data/platform/tableau/#tableau-online-admins).
+1. **Tableau Admins / Maintainer Responsibilities:** These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Cloud Site Administration responsibilities although several Top Level Project Leaders are also Tableau Cloud Site Admins.
 2. **Project Leader / Code Owner Responsibilities:** Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners. A full list of Project Leads can be found [here](https://10az.online.tableau.com/#/site/gitlab/workbooks/2730535/views).
 
 </details>
@@ -255,7 +245,7 @@ Archival Exclusions:
 1. Content stored in Personal Folders will not be archived, as it is only viewable by the owner and does not clutter the environment.
 
 Archival Contact:
-For questions or requests regarding archived content, please reach out to the BI team. Click [here](.../handbook/enterprise-data/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
+For questions or requests regarding archived content, please reach out to the BI team. Click [here](/handbook/enterprise-data/platform/tableau/tableau-admin-guide/#stale-and-unsued-content-management) for  administrative archival documentation.
 
 ### Permissions
 
@@ -273,7 +263,7 @@ Limited access user groups will allow business teams to manage accessibility to 
 
 Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
-- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
+- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
 - To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit a request through [Lumos](/handbook/security/corporate/systems/lumos/ar/).
 
 - **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
@@ -339,7 +329,6 @@ The standard permission rules for top level Projects are noted below:
 |-------------|------------------|---------------------|---------------------------------|
 | Development | All Team Members | All Team Members    | Project and Sub Project Leaders |
 | Production  | All Team Members | Project Leaders     | Project Leaders                 |
-| Resources   | All Team Members | Project Leaders     | Project Leaders                 |
 
 Below is an example of User Groups and Permissions applied to a Data Team Sub-Project where only Data Team Members can publish in the project, but All Team Members can view the content in the Sub-Project. At the Sub-Project Level, for the User Group Name, `Limited Access Team Members` can replace the `All Team Members` User Group Name for limited access.
 
@@ -731,6 +720,18 @@ All certified data sources must meet the following criteria:
        - Dates: Convert dates to ISO:`yyyy/mm/dd` or change datetime to date when time precision isn’t required.
        - Numbers: Format as currency or decimal where needed.
        - Percentages: Apply proper '%' formatting at desired decimal level.
+
+## Data Team Tableau Resources
+
+The Data Team provides shared Tableau resources to support reporting, dashboard development, and data visibility across the organization. These resources are maintained to help teams build with consistency, understand platform usage, and access historical content when needed.
+
+You can find these resources in the [Production → Data Team → General](https://10az.online.tableau.com/#/site/gitlab/projects/367731) folder. This location includes information such as:
+   
+- Platform Usage Dashboards – Insights into how Tableau is being used across teams
+- Archived Dashboards and Data Sources – Retired or historical content for reference
+- Templates and Examples – Standardized templates to help jump-start new dashboard builds
+
+Use this folder as your go-to spot for foundational Tableau materials supported by the Data Team.
 
 ## Education
 
