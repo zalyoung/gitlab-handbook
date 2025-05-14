@@ -144,6 +144,11 @@ We have Geekbot automated checkins on Mondays and Fridays in the [#g_foundations
 
 We have a quarterly async retro that aligns with the company fiscal quarters and OKRs. In addition to reflecting on our quarter in general, we take a set of actions to try the next quarter and revisit how successful they were in the next retro.
 
+#### FY26Q1 Actions
+
+- Define a KTLO/Backlog grooming process and try it out (see https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26338 for more details).
+- Documenting things is part of our definition of done (issues are not closed if there are relevant docs/runbooks/etc to be updated).
+
 ### Picking up work
 
 We have three buckets of work:
