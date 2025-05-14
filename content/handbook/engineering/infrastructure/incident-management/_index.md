@@ -175,7 +175,7 @@ The Engineer On Call typically serves as the primary Incident Responder and is r
 5. If sources outside of our alerting are reporting a problem, and you have not received any alerts, it is still your responsibility to investigate. [Declare a low severity incident](#reporting-an-incident) and investigate from there.
     1. Low severity ([S3/S4](/handbook/engineering/infrastructure/production/#severity)) incidents (and issues) are cheap, and will allow others a means to communicate their experience if they are also experiencing the issue.
     2. **"No alerts" is not the same as "no problem"**
-6. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as EOC you should [page the IMOC](#how-to-engage-the-eoc-im-or-cmoc) to find a team member with the appropriate expertise. Requesting assistance does not mean relinquishing your responsibility.
+6. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as EOC you should [page the IMOC](#how-to-engage-response-teams) to find a team member with the appropriate expertise. Requesting assistance does not mean relinquishing your responsibility.
 7. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#report-an-incident-via-slack), join the Zoom room for the incident. The Zoom link is in the bookmarks of the relevant incident channel.
     1. GitLab works in an asynchronous manner, but incidents require a synchronous response. Our collective goal is high availability of 99.95% and beyond, which means that the timescales over which communication needs to occur during an incident is measured in seconds and minutes, not hours.
 8. Keep in mind that a GitLab.com incident is not an "infrastructure problem". It is a company-wide issue, and as EOC, you are leading the response on behalf of the company.
@@ -201,7 +201,7 @@ When paged, the IMOC has the following responsibilities during a Sev1 or Sev2 in
 
 The IMOC is the DRI for all of the items listed above, but it is expected that they will do it with the support of the Incident Lead, Incident Responder, or others who are involved with the incident. If an incident runs beyond a scheduled shift, the IMOC is responsible for handing over to the incoming IMOC member.
 
-The IMOC won't be engaged on these tasks unless they are paged, which is why the default is to page them for all Sev1 and Sev2 incidents. In other situations, [page the IMOC](#how-to-engage-the-eoc-im-or-cmoc) to engage them.
+The IMOC won't be engaged on these tasks unless they are paged, which is why the default is to page them for all Sev1 and Sev2 incidents. In other situations, [page the IMOC](#how-to-engage-response-teams) to engage them.
 
 ### Infrastructure Leadership Responsibilities
 
