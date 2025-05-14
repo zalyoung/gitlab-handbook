@@ -54,4 +54,3 @@ Once the request is received, Knowledge admin can follow the process as mentione
 [this link](https://support.zendesk.com/hc/en-us/articles/4408832480154-Permanently-deleting-a-knowledge-base-article) 
 to manually delete an article.
 Note: This is a permanent action.
-
