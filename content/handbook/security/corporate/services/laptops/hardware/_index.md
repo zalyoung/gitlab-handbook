@@ -26,9 +26,9 @@ Most roles that require higher performance machines are approved for a 14" or 16
 
 Chipset specifications not listed as they will vary based on current inventory levels.
 
-* MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
-* MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
-* MacBook Pro 14-inch - 36GB Unified memory / 1TB storage **Performance model**
+- MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
+- MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
+- MacBook Pro 14-inch - 36GB Unified memory / 1TB storage **Performance model**
 
 > We have inventory of laptops ready to ship to team members in countries with a large number of team members. This ensures that you can get your laptop promptly and not need to wait several weeks or months for custom order machines.
 >
