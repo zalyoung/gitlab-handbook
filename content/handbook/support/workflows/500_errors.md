@@ -11,7 +11,7 @@ This guide provides resources for the diagnosing of **5XX** errors on GitLab.com
 
 ### Reports of Slowness
 
-If reports of slowness are received on GitLab.com, first take a look at the [GitLab Grafana Monitor](https://dashboards.gitlab.net/d/mnbqU9Smz/fleet-overview?orgId=1), especially:
+If reports of slowness are received on GitLab.com, first take a look at the [GitLab Grafana Monitor](https://dashboards.gitlab.net/d/000000214/gitaly-fleet-overview?orgId), especially:
 
 - Worker CPU -> Git CPU Percent
 
