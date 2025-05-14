@@ -243,6 +243,39 @@ The Senior Manager, Professional Services Practice Management is a [grade 9](/ha
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
+### Customer Success Practice Development
+
+#### Customer Success Practie Development Responsibilities
+
+- Establishing repeatable, scalable engagement models for paid success services.
+- Defining service delivery methodologies that align with business outcomes.
+- Creating and maintaining a library of best practices, frameworks, and tools for global delivery teams.
+- Partnering with the customer-facing teams to refine and improve the adoption strategies and value realization methodologies.
+- Standardizing performance metrics and quality benchmarks to measure service effectiveness and impact.
+- Practice Development & Standardization: Define and evolve best practices for delivering paid success services, ensuring consistency and excellence across engagements.
+- Content & Enablement: Develop methodologies, playbooks, toolkits, and training programs to support global delivery teams in executing success engagements.
+- Operational Excellence: Establish scalable processes and frameworks that improve the predictability and effectiveness of our paid Success Tiers.
+- Service Design & Evolution: Collaborate with product, sales, and customer success teams to design and refine service offerings that align with customer value expectations and desired outcomes.
+- Metrics & Reporting: Define and implement key performance indicators (KPIs) to measure the impact and effectiveness of paid success engagements.
+- Customer Experience & Adoption: Partner with stakeholders across Customer Success, Sales, and Product to refine onboarding, adoption, and value realization strategies.
+- Cross-functional collaboration: Work closely with business unit leaders to influence product roadmaps, success strategies, and customer engagement models.
+- Industry Benchmarking: Leverage insights from the software and professional services industries to refine GitLab’s approach to customer success delivery.
+- Stakeholder Engagement: Engage with internal stakeholders such as finance, sales operations, and customer success leadership to drive alignment in service execution.
+- Thought Leadership: Act as a subject matter expert, providing guidance on best practices in customer success, service delivery, and practice management.
+- Coaching & Development: Mentor and develop team members, ensuring continuous improvement in skills and capabilities within the practice.
+
+#### Customer Success Practice Development Requiremenrs
+- Proven experience in customer success, professional services, or practice development within the software or technology sector.
+- Service & Methodology Development: Strong background in designing and scaling structured success programs, engagement models, and playbooks.
+- Leadership & Influence: Ability to drive alignment and adoption of best practices across globally distributed teams.
+- Customer-Centric Mindset: Deep understanding of customer needs, business value drivers, and success measurement methodologies.
+- Operational & Analytical Acumen: Experience in defining and tracking KPIs to measure Success Tiers performance and effectiveness.
+- Communication & Change Management: Strong ability to communicate, train, and drive change across internal teams and stakeholders.
+- Business Acumen: Experience in working with go-to-market strategies, financial modeling, and revenue impact analysis for service offerings.
+- Strategic Thinking: Ability to develop long-term plans for evolving Success Tiers and adapting to market needs.
+- Collaboration & Influence: Experience working cross-functionally with sales, product, finance, and operations teams to drive service adoption and execution.
+
+
 #### Performance Indicators
 
 - [Bookings attached rate per agreed plan](/handbook/sales/#pcv)
