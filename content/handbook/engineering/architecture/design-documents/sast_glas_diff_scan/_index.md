@@ -42,7 +42,8 @@ Full security scans can be time-consuming, especially for large codebases. By fo
 
 There will be **no change** to the `Security Widget` or `Pipeline Security Tab` for **full GLAS scans**. Diff-based scanning is **not a breaking change**, as it can be enabled via the `SAST_PARTIAL_SCAN` CI/CD variable.
 
-#### In a GLAS diff-based scan:
+#### In a GLAS diff-based scan
+
 - Enabled by setting CI/CD variables `SAST_PARTIAL_SCAN: differential`
 The GLAS scanner analyzes only the modified files and the files that depend on them (based on the configured [neighborhood depth](#understanding-neighborhood-depth))
 - The resulting SAST report includes a `sast_partial_scan` field that is set to `differential` and findings limited to the scanned files
@@ -118,6 +119,7 @@ classDiagram
 As part of the MVC implementation, fixed vulnerabilities will **not** be shown in the Security Widget when diff-based scanning is enabled. This limitation will be clearly communicated to users.
 
 *Rationale:*
+
 - Diff-based scans cannot reliably detect all fixed vulnerabilities. 
 - See background and reasoning [here](#fixed-vulnerabilities-in-diff-scanning)
 
@@ -128,26 +130,34 @@ As part of the MVC implementation, fixed vulnerabilities will **not** be shown i
 For the MVC, we will maintain existing security approval functionality but provide clear documentation about potential false negatives when using diff-based scanning with approval rules.
 
 *Rationale:*
+
 - Maintains current workflows without disruption
 - Avoids introducing complex feature interactions in the MVC phase
 - See background and reasoning [here](https://gitlab.com/gitlab-org/gitlab/-/issues/536864#note_2485990368)
 
 #### 3. Full Scan Option
 
-**Decision: Allow users to trigger full scans via CI/CD variables**
+**Decision: Allow users to override diff-based scanning and run a full scan via the `SAST_PARTIAL_SCAN` CI variable**
 
-Users can manually trigger a full scan by re-running the pipeline with modified CI/CD variables.
+By default, GLAS runs full scans. However, users who have enabled diff-based scanning can trigger a full scan for a specific pipeline by setting the `SAST_PARTIAL_SCAN` variable to false.
+
+*Alternative approach:*
+
+- Add a button in the Security Widget to trigger a full scan
 
 *Rationale:*
+
 - Provides flexibility without requiring UI changes for the MVC
 - See background and reasoning [here](https://gitlab.com/gitlab-org/gitlab/-/issues/536864#note_2485990368)
 
 ## Design and Implementation Details
 
 ### Database Schema Changes(WIP)
+
 Introduce a new table to track whether a scan is a GLAS diff-based scan. This is kept separate from security_scans to avoid adding unused fields for other scan types.
 
 1. Create a new table `security_scan_partial_glas_metadata` associated with the `security_scan` table
+
    ```ruby
     create_table :security_scan_partial_glas_metadata do |t|
         t.references :security_scan, null: false, foreign_key: true, index: { unique: true }
@@ -157,6 +167,7 @@ Introduce a new table to track whether a scan is a GLAS diff-based scan. This is
    ```
 
 2. Add a `ScanPartialGlasMetadata` model that belongs to [`Security::Scan`](https://gitlab.com/gitlab-org/gitlab/-/blob/d9105304152646f2b784b39d9ffe87a315eb787e/ee/app/models/security/scan.rb)
+
    ```ruby
    class ScanPartialGlasMetadata < ApplicationRecord
      belongs_to :security_scan, class_name: 'Security::Scan'
@@ -168,13 +179,16 @@ Introduce a new table to track whether a scan is a GLAS diff-based scan. This is
    ```
 
 ### Backend Changes(WIP)
+
 - Identify code to parse the SAST report and if it's a GLAS diff_scan, create a `security_scan_glas_diff_metadata` entry that the frontend code can retrieve to determine if the scan is a diff-based scan.
 - For the security widget data, it should also return an empty array for fixed vulnerabilities to ensure that it is hidden.
 
 ### Frontend Changes(WIP)
+
 Identify code to update the `Security Widget` and `Pipeline Security Tab` to present a diff-based scan notice and other UI elements determined by design team.
 
 ## GLAS concepts
+
 ### What does "diff" mean in GLAS diff-based scanning?
 
 In GitLab Advanced SAST, the diff isn't a line-by-line comparison like git diff. Instead, it refers to which files were added or modified in the merge request (MR). These are what I refer to as diff files below. Deleted files are excluded from scanning as they no longer exist, so they’re not relevant to the scan.
@@ -191,7 +205,7 @@ We don’t scan files imported by the diff files — only the ones that depend o
 
 #### Example
 
-```
+```txt
 fileA:
   imports: fileB
 fileB:
@@ -206,12 +220,13 @@ fileE:
 ```
 
 With neighborhood depth = `2` and diff file = `fileD`:
+
 - Scanned files: `fileD`, `fileC`, `fileB`
 - Unscanned files: `fileA`, `fileE`
 
 ### Taint signature (definition)
 
-A **taint signature** represents how potentially untrusted data flows through the program, from a **_source_** (like user input) to a **_sink_** (like a dangerous operation such as an SQL query).
+A **taint signature** represents how potentially untrusted data flows through the program, from a **source** (like user input) to a **sink** (like a dangerous operation such as an SQL query).
 
 In diff-based scanning, we only scan modified files and their dependents because only they can gain or change taint paths. Files that are imported by a modified file don’t change behavior as a result of the import.
 
@@ -219,7 +234,7 @@ In diff-based scanning, we only scan modified files and their dependents because
 
 Let’s use the same example again to visualize how the security widget would work with GLAS diff-based scanning, now with vulnerability states:
 
-```
+```txt
 fileA:
   imports: fileB
   vuln: vulnA (new)
@@ -259,7 +274,7 @@ Reason being that it is complex for diff-based scanning to determine if vulnB wa
 
 Cross-file vulnerabilities occur when a vulnerability spans across multiple files — for example, the *source* of untrusted data might be in one file, while the *sink* (where the data is used unsafely) is in another.
 
-```
+```txt
 fileA:
   imports: fileB
   sink: vulnX
@@ -280,7 +295,7 @@ In this case, **vulnX is detected**, because the full taint flow from source to 
 
 But if `fileD` is the diff file:
 
-```
+```txt
 fileA:
   imports: fileB
   sink: vulnX
