@@ -419,7 +419,7 @@ This approach ensures:
 
 This significantly reduces complexity by eliminating the need for additional data migrations during namespace tier changes.
 
-##### Backfill Custom Statuses(backup option)
+##### Backfill Custom Statuses (backup option)
 
 Alternatively, as a backup, we've discussed the option of backfilling custom statuses records, with system defined values.
 In this case we'd need to backfill not only `work_item_current_statuses`, but also for each root level Group we'd need to populate data in:
@@ -608,6 +608,7 @@ This section documents key architectural and implementation decisions made durin
 1. [Expanding support to epics](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13402#note_2491127675), including the epic detail view, epic list view,
 and legacy epic board view will be included in Iteration 3 (Fast follow). If the new board experience is available by the time of implementation, we'll skip the legacy board
 view and focus on the new experience instead.
+1. [Backfill Custom Statuses](#backfill-custom-statuses-backup-option) is added as a backup option if later on we determine that migration from system-defined statuses to custom statuses poses more challenges than initially foreseen
 
 ## Resources
 
