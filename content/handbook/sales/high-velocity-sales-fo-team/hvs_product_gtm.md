@@ -1,5 +1,5 @@
 ---
-title: "High Velocity Sales & FO's at GitLab"
+title: "High Velocity Sales & FO's Product GTM at GitLab"
 description: "The HVS-FO Product GTM is the glue between product and field teams. We are a cohesive voice representing sales interests to product teams. We partner with product teams to deliver functionality that will improve the customer experience resulting in: FOs, nARR, and informed field teams that are aware of the impact."
 ---
 
