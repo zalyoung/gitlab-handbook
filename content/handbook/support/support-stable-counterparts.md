@@ -132,10 +132,6 @@ During Q3-FY23 the SSC create and document process to ensure alignment of Suppor
 
 SSCs that are regularly engaging with their product group are informing Support with knowledge they have picked up and the Product and Engineering Managers have built a steady relationship in these particular groups. There are still a few groups who are yet to build these foundational relationships, however, the feedback issues created an opportunity to encourage these discussions to start and a path forward for these groups to be carved out.
 
-## Support Customer Impact Dashboard
-
-Based on feedback from SSCs regarding how to better inform product groups of the impact that issues have on customers, I have begun work on a Support-centric dashboard that will enable Support to identify trending issues and produce data to assist in prioritization. For more details, refer to [Customer Support Linked Issues Dashboard](https://gitlab.com/gitlab-data/analytics/-/issues/14593).
-
 ## Current SSC Vacancies
 
 The [tables below](#product-counterparts) lists all groups and stages that currently do not have an SSC assigned. You can view a list of groups where a Product and/or Engineering Manager has reached out to support requesting an SSC in the [support-stable-counterpart project](https://gitlab.com/gitlab-com/support/support-stable-counterpart/-/issues).
