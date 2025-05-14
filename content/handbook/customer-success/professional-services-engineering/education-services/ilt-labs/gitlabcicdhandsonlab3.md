@@ -104,13 +104,13 @@ Generally, tests will run inside of the test stage of a CI/CD process.
 
 {{% details summary="What is the the syntax for a job in the test stage that runs the tests we created for ArrayUtils? Write the syntax, or click here for the solution."%}}
 
-    *Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
+*Answer:* One example approach is shown in the following code snippet. If you have not done so yet, copy the code into your `.gitlab-ci.yml` file.
 
-    ```yaml
-    test go:
-      stage: test
-      script: go test array/ArrayUtils
-    ```
+```yaml
+test go:
+  stage: test
+  script: go test array/ArrayUtils
+```
 
 {{% /details %}}
 
