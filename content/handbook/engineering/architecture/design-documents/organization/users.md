@@ -19,19 +19,15 @@ While a User will belong to a single Organization, there is the expectation that
 
 ## Dog fooding
 
-We will make accommodations for a User to exist within multiple Organizations on the same Cell for dog fooding purposes. The User will still only belong to a single Organization through `users.organization_id` but they will have multiple `organization_users` entries. This makes it easy for the GitLab Team to create new Isolated Organizations. However, this comes with some important caveats.
+We will make accommodations for a User to exist within multiple Organizations on the same Cell for dog fooding purposes. The User will still only belong to a single Organization through `users.organization_id` but they will have multiple `organization_users` entries. This makes it easy for the GitLab Team to create new Isolated Organizations. However, this comes with the caveat that these types of dog food Organizations can only exist on the same cell as the Default Organization which is the Legacy Cell.
 
-The GitLab Team currently reside within the Default Org on the Legacy Cell. Therefore new dog food Organizations can only exist on the Legacy Cell.
+Dog fooding will have the assurance that an Organization context is provided with every request.
 
-## Bot Users
+## Global Bot Users
 
-Now that Users belong to an Organization, Bot Users will be created per Organization.
+Now that Users belong to an Organization, Global Bot Users such as `@support-bot` and `@GitLabDuo` will be created per Organization. Duplicating bots across Organizations will create an issue with conflicting usernames.
 
-This creates an issue with conflicting usernames as some Bot Users are referenced in documentation and by users with the bot's username.
-
-We will begin to move the public representation of a User to a new table called `organization_user_details` with the `Organizations::UserDetails` model.
-
-We will continue to assume today's behavior of `username` on the `users` table until we find greater clarity on our clusterwide implementation of Users through our Cells roadmap.
+To solve this problem we will introduce the concept of a per organization Bot identity and add an `organization_user_details` table. Specifically we will add a `username` column which will be unique per Organization. This `organization_user_details.username` will effectively become a kind of username alias to `users.username`.
 
 ## Organization Membership
 
