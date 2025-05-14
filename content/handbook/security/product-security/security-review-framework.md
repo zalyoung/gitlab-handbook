@@ -36,8 +36,7 @@ When a product team initiates a feature, they complete an initial triage to dete
 * Does this feature handle customer repositories, credentials, PII? (Y/N)
 * Does this feature add or modify authentication, authorization or cryptographic mechanisms? (Y/N)
 * Does this feature interact with third-party services? (Y/N)
-* Does this feature add a [new service component](https://docs.gitlab.com/development/adding_service_component/) ? (Y/N)
-* Is this a Tier 1 feature? (Y/N)
+* Does this feature add a [new service component](https://docs.gitlab.com/development/adding_service_component/){:target="_blank"} ? (Y/N)
 
 #### Infrastructure Security Triggers
 
@@ -121,12 +120,16 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 * 3: The change is related to a feature that had 1 S2
 * 0: No S1/S2 history
 
+Note: A combination of `~"group::[group-name]"`, `~"severity::1/2/3"` and `~"bug::vulnerability"` labels can be used to search in project's issue tracker to identify this.
+
 ##### Launch Tier Impact (0-3)
 
 * 3: Tier 0
 * 2: Tier 1
 * 1: Tier 2
 * 0: Tier 3
+
+Note: Launch tier is different from GitLab tiers (Free/Premium/Ultimate). Launch tier indicates what kind of events/announcements will be accompanied with the feature launch. Definitions can be found in [Google Sheet](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20){:target="_blank"}
 
 #### Infrastructure Security Risk Dimensions
 
@@ -165,6 +168,8 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 * 2: Tier 1
 * 1: Tier 2
 * 0: Tier 3
+
+Note: Launch tier is different from GitLab tiers (Free/Premium/Ultimate). Launch tier indicates what kind of events/announcements will be accompanied with the feature launch. Definitions can be found in [Google Sheet](https://docs.google.com/spreadsheets/d/1Pis-VRUYTlitNjoKmDKNQMIf-4bWBo5XjPyWOYo0R54/edit?gid=838006198#gid=838006198&range=B20){:target="_blank"}
 
 ### Risk Score Calculation
 
