@@ -285,7 +285,7 @@ The Security Review request issue in the ProdSec ingestion queue will contain th
 
 ### Security Review Phase 3: Conduct Security Review
 
-Based on the risk score the ProdSec conducts Critical,High or Medium level Security review.
+Based on the risk score the ProdSec conducts Critical, High or Medium level Security review.
 
 ## Overall Process flow
 
