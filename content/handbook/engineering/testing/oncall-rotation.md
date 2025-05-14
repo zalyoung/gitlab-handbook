@@ -12,9 +12,9 @@ Developer Experience sub-department's on-call does not include work outside GitL
 
 In the current iteration, we have a timezone based rotation and triage activities happen during each team member's working hours.
 
-Please refer to the [Debugging Failing tests](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
-guidelines for an exhaustive [list of scheduled pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/)
-and for [specific instructions on how to do an appropriate level of investigation and determine next steps for the failing test](/handbook/engineering/infrastructure-platforms/developer-experience/pipeline-triage/).
+Please refer to the [Debugging Failing tests](https://docs.gitlab.com/development/testing_guide/end_to_end/debugging_end_to_end_test_failures/)
+guidelines for an exhaustive [list of scheduled pipelines](/handbook/engineering/testing/end-to-end-pipeline-monitoring/)
+and for [specific instructions on how to do an appropriate level of investigation and determine next steps for the failing test](/handbook/engineering/testing/pipeline-triage/).
 
 ### Responsibility
 
@@ -27,7 +27,7 @@ and for [specific instructions on how to do an appropriate level of investigatio
 - [Preprod](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipelines) pipelines have equal priority with `Production` and `Staging` pipelines during release candidate testing from the Monday through Thursday of the release week.
 - If there is a time constraint, the DRI should report and analyze the failures in [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines), [Canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines) and [Production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines) pipelines just enough to determine if it is an application or an infrastructure problem, and [escalate as appropriate](/handbook/engineering/development/processes/infra-dev-escalation/process/). All the reported failures in those pipelines should be treated as ~priority::1/~severity::1 until it's determined that they're not. That means they should be investigated ASAP, ideally within 2 hours of the report. If the DRI will not be able to do so, they should delegate any investigation they're unable to complete to the DRI from the following week. If neither DRI is available or will be able to complete the investigations, solicit help in the `#s_developer_experience` slack channel.
 - Consider [blocking the release by creating an incident](/handbook/engineering/deployments-and-releases/deployments/#i-found-a-regression-what-do-i-do-next) if new ~severity::1 regressions are found in smoke specs.
-- It is important that all other failure investigations are completed in a timely manner, ideally within 24 hours of the report. If the DRI is unable to investigate all the reported failures on [all the pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/) on time, they should solicit help in the `#s_developer_experience` slack channel.
+- It is important that all other failure investigations are completed in a timely manner, ideally within 24 hours of the report. If the DRI is unable to investigate all the reported failures on [all the pipelines](/handbook/engineering/testing/end-to-end-pipeline-monitoring/) on time, they should solicit help in the `#s_developer_experience` slack channel.
 - Cross-cutting issues such as https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/530 are triaged by the on call DRI to determine the next action. Other team-members should notify the DRI if they come across such an issue. The DRI can inform the rest of the department via the `#s_developer_experience` channel, if necessary.
 - Everyone in the Developer Experience sub-department should support the on-call DRI and be available to jump on a zoom call or offer help if needed.
   - If a change needs to be made to CI/CD variables in [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/-/settings/ci_cd) and the DRI does not have access, they can ask for help in the `#dx_maintainers` and `#development` Slack channels. Any Quality maintainer should have sufficient access to be able to assist.
@@ -43,7 +43,7 @@ Or use `chatops` in Slack with command `/chatops run quality dri schedule`
 
 ### Responsibilities of the DRI for scheduled pipelines
 
-- The DRI does the [triage](/handbook/engineering/infrastructure-platforms/developer-experience/pipeline-triage/) and they let the counterpart SET know of the failure.
+- The DRI does the [triage](/handbook/engineering/testing/pipeline-triage/). They should solicit help in the `#s_developer_experience` slack channel if they need further assistance.
 - The DRI makes the call whether to fix or quarantine the test.
 - The DRI reviews any [automated quarantine MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=QA&search=%5BQUARANTINE%5D) and [automated dequarantine MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=QA&search=%5BDEQUARANTINE%5D) and decides whether to merge or close.
 - The fix/quarantine MR should be reviewed by the counterpart SET. If the counterpart SET is not available immediately or if there is no counterpart SET, then any other SET can review the MR. In any case, the counterpart SET is always CC-ed in all communications.

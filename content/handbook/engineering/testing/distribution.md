@@ -38,7 +38,7 @@ to run GitLab QA locally for development.
     - If Allure report is available: Click on report link -> Product defects -> Select failed spec -> click Failure issues. [Demo](https://youtu.be/_0dM6KLdCpw?t=234)
     - Some specs might have multiple QA failure issues with different stack trace. In such case, compare failed stack trace from the job with the ones listed in the issues.
 1. If an issue with the same error is not found
-    - Continue to debug the QA failure [following the guide](/handbook/engineering/infrastructure-platforms/developer-experience/pipeline-triage/#investigate-the-root-cause)
+    - Continue to debug the QA failure [following the guide](/handbook/engineering/testing/pipeline-triage/#investigate-the-root-cause)
     - Reach out to the Developer Experience stage - [on-call DRI](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) or [Distribution SET](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/#team-members)
 
 ### Bug Prioritization
