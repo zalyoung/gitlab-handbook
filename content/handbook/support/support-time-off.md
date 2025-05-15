@@ -44,7 +44,8 @@ team calendar.
    1. [Support OOO - AMER](https://calendar.google.com/calendar/embed?src=c_9166d2302886c4ae23f34099eeb4015e2d520e1dd4029711becd8370be996513%40group.calendar.google.com)
    1. [Support OOO - APAC](https://calendar.google.com/calendar/embed?src=c_408bhp8a8j579lqr99j552u21s%40group.calendar.google.com)
    1. [Support OOO - EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_ev56c9rgjd9l1sn291i368jn78@group.calendar.google.com)
-1. To subscribe to these calendars please use the following ID's
+   1. You can subscribe by clicking the `Add to Google Calendar` button at the bottm left of the regional calendar.
+1. You can also subscribe to these calendars directly by using the following ID's
    - Support OOO - AMER - c_9166d2302886c4ae23f34099eeb4015e2d520e1dd4029711becd8370be996513@group.calendar.google.com
    - Support OOO - APAC - c_408bhp8a8j579lqr99j552u21s@group.calendar.google.com
    - Support OOO - EMEA - c_ev56c9rgjd9l1sn291i368jn78@group.calendar.google.com
