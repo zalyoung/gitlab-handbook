@@ -130,6 +130,13 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
 | [Global SDR Ops Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
 
+### Dashboard/Report Templates
+
+The list of dashboards below are templates that can be cloned and customized for each team. 
+
+| [BDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002JjZl2AK/view) | Dashboard template that covers all main functions of managing a BDR team. |
+| [Base BDR Team Dashboard Template](hhttps://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002MHPF2A4/view) | Dashboard template that covers all main functions of managing a Base BDR team. |
+
 ## The pages we frequently use
 
 | Resource | Description |
