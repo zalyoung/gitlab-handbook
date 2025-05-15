@@ -96,6 +96,16 @@ Reference Architecture consultations will not include the following:
 1. No involvement in direct customer calls or communications.
 1. All requested data stated in the template must be proactively supplied.
 
+### Environment Build Requests
+
+**The Framework team will not fulfill bespoke environment build requests due to capacity constraints.** Also, building large sandbox environments with GET should be generally discouraged due to cost implications unless strictly required. However, here are some options to self-serve in building these types of environments:
+
+* Self-service using GET documentation
+  * Teams can follow the comprehensive [GET documentation](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation) to build their own environments. This is the primary recommended approach for teams that need custom environments.
+  * Using the automated [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) offering is recommended for setting up a cloud account for testing and development purposes.
+* Run GitLab locally: For simpler needs, running GDK or Docker locally is recommended instead of building large environments to reduce costs and complexity.
+* Use shared environments from Infra: Utilizing existing shared environments provided by the Infrastructure team.
+
 ## Triage DRI
 
 The Triage DRI is a team role that acts as an initial point of contact for ad hoc team requests, triaging pipelines and redirecting inquiries to appropriate team members. The role enables timely responses while spreading knowledge across the team.
@@ -155,7 +165,7 @@ Every sub-epic must
 1. Epic DRIs will be pinged on Tuesdays to leave a status update for the week in the epic.
 1. These updates are collected into the team's top-level epic which feeds into the [Grand Review](/handbook/engineering/infrastructure/platforms/#grand-review).
 
-We follow Platforms Project Management practices as outlined [here](/handbook/engineering/infrastructure/platforms/project-management/).
+We follow Platforms Project Management practices as [outlined](/handbook/engineering/infrastructure/platforms/project-management/).
 
 ### Labels
 
