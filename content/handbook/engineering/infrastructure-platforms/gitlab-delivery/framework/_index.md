@@ -103,7 +103,7 @@ Reference Architecture consultations will not include the following:
 * Self-service using GET documentation
   * Teams can follow the comprehensive [GET documentation](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation) to build their own environments. This is the primary recommended approach for teams that need custom environments.
   * Using the automated [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) offering is recommended for setting up a cloud account for testing and development purposes.
-* Run Docker locally: For simpler needs, running Docker locally is recommended instead of building large environments.
+* Run GitLab locally: For simpler needs, running GDK or Docker locally is recommended instead of building large environments to reduce costs and complexity.
 * Use shared environments from Infra: Utilizing existing shared environments provided by the Infrastructure team.
 
 ## Triage DRI
