@@ -29,6 +29,7 @@ If a project or namespace isn't listed in one of those CSVs, we don’t pull dat
 Right now, the following namespaces are included in the metrics:
 
 | Namespace name | Namespace path |
+|-----------------|-----------------|
 | GitLab.org | gitlab-org |
 | GitLab.com | gitlab-com |
 | GitLab Chef Cookbooks | gitlab-cookbooks |
