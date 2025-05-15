@@ -10,6 +10,8 @@ dris: ["daveyleach", "@tkhandelwal3"]
 toc_hide: true
 ---
 
+{{< engineering/design-document-header >}}
+
 ## Pre-Reads
 
 - [Internal TLS](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/internal_tls.html)
@@ -276,7 +278,7 @@ These TTL values strike a balance between security requirements (limiting exposu
 To ensure continuous operation without interruption, certificates are proactively rotated before expiration:
 
 - **Intermediate CA certificates**: Rotated 90 days before expiry, aligned with the [Internal TLS blueprint](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/architecture/blueprints/internal_tls.html).
-- **End-entity certificates**: Rotated 60 days before expiry
+- **End-entity certificates**: Rotated 60 days before expiry.
 
 The rotation of intermediate and end-entity certificates is automated through the [Instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor), which handles the provisioning and rotation of these certificates as implemented in:
 
