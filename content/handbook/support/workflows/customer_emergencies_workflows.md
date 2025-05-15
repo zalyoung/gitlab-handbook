@@ -10,6 +10,20 @@ Support Engineers in the Customer Emergencies rotation coordinate operational em
 
 The Customer Emergencies rotation is one of the rotations that make up [GitLab Support On-call](/handbook/support/on-call/).
 
+## Key Responsibilities for Customer Emergency On-Call
+
+When serving as the Customer Emergency On-Call (CEOC) engineer, follow these key principles to ensure clear ownership and accountability:
+
+1. **Take Assignment**: Immediately assign yourself to any emergency ticket you acknowledge and begin working on. This establishes you as the Directly Responsible Individual (DRI) and ensures clear ownership throughout the emergency response process.
+
+2. **Document Everything**: Keep thorough notes in both Slack threads and the ticket to maintain transparency, reproducibility, and enable asynchronous collaboration.
+
+3. **Communicate Status**: Keep stakeholders informed of progress and any handoffs required at the end of your shift.
+
+4. **Follow Through**: Remain the DRI until the emergency is resolved or properly handed off to the next CEOC.
+
+These principles help maintain efficiency while ensuring every emergency has clear ownership and accountability. Being the DRI means you are the single person accountable for driving the emergency to resolution. While you may collaborate with others or need to hand off the ticket during shift changes, there should never be ambiguity about who is currently responsible for an emergency ticket.
+
 ## Expectations for Support Engineers in the Customer Emergencies Rotation
 
 ### Before On-Call
@@ -44,20 +58,6 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
   - If you plan to take time off, please ensure that you complete any extra steps so that your pending tickets are in good hands 🫶
 - If you had to leave something for later while on-call — do it now
 - Ramp up as quickly as you reasonably can to normal AQC
-
-## Key Responsibilities for Customer Emergency On-Call
-
-When serving as the Customer Emergency On-Call (CEOC) engineer, follow these key principles to ensure clear ownership and accountability:
-
-1. **Take Assignment**: Immediately assign yourself to any emergency ticket you acknowledge and begin working on. This establishes you as the Directly Responsible Individual (DRI) and ensures clear ownership throughout the emergency response process.
-
-2. **Document Everything**: Keep thorough notes in both Slack threads and the ticket to maintain transparency, reproducibility, and enable asynchronous collaboration.
-
-3. **Communicate Status**: Keep stakeholders informed of progress and any handoffs required at the end of your shift.
-
-4. **Follow Through**: Remain the DRI until the emergency is resolved or properly handed off to the next CEOC.
-
-These principles help maintain efficiency while ensuring every emergency has clear ownership and accountability. Being the DRI means you are the single person accountable for driving the emergency to resolution. While you may collaborate with others or need to hand off the ticket during shift changes, there should never be ambiguity about who is currently responsible for an emergency ticket.
 
 ### How to be added to the Customer Emergencies PagerDuty rotation
 
