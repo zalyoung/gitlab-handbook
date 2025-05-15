@@ -77,7 +77,7 @@ In September 2021, the Company's board of directors and its stockholders approve
    - PTY Ltd (Australia/New Zealand)
    - Ireland Ltd (Ireland) - as of 2023-06-01
    - BV (Finland)  - as of 2023-06-01
-   - GitLab France S.A.S (France)  - as of 2025-06-01
+   - France S.A.S. (France)  - as of 2025-06-01
 
 ### Changing Contribution Amounts
 
