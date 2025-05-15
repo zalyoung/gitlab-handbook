@@ -100,11 +100,11 @@ Reference Architecture consultations will not include the following:
 
 **The Framework team will not fulfill bespoke environment build requests due to capacity constraints.** Also, building large sandbox environments with GET should be generally discouraged due to cost implications unless strictly required. However, here are some options to self-serve in building these types of environments:
 
-1. Self-service using GET documentation
-  1. Teams can follow the comprehensive [GET documentation](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation) to build their own environments. This is the primary recommended approach for teams that need custom environments.
-  1. Using the automated [Sandbox Cloud](https://handbook.gitlab.com/handbook/company/infrastructure-standards/realms/sandbox/) offering is recommended for setting up a cloud account for testing and development purposes.
-1. Run Docker locally: For simpler needs, running Docker locally is recommended instead of building large environments.
-1. Use shared environments from Infra: Utilizing existing shared environments provided by the Infrastructure team.
+* Self-service using GET documentation
+  * Teams can follow the comprehensive [GET documentation](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation) to build their own environments. This is the primary recommended approach for teams that need custom environments.
+  * Using the automated [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) offering is recommended for setting up a cloud account for testing and development purposes.
+* Run Docker locally: For simpler needs, running Docker locally is recommended instead of building large environments.
+* Use shared environments from Infra: Utilizing existing shared environments provided by the Infrastructure team.
 
 ## Triage DRI
 
@@ -165,7 +165,7 @@ Every sub-epic must
 1. Epic DRIs will be pinged on Tuesdays to leave a status update for the week in the epic.
 1. These updates are collected into the team's top-level epic which feeds into the [Grand Review](/handbook/engineering/infrastructure/platforms/#grand-review).
 
-We follow Platforms Project Management practices as outlined [here](/handbook/engineering/infrastructure/platforms/project-management/).
+We follow Platforms Project Management practices as [outlined](/handbook/engineering/infrastructure/platforms/project-management/).
 
 ### Labels
 
