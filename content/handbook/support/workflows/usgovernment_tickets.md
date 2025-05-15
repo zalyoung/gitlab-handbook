@@ -158,6 +158,7 @@ The following will describe how to create the personal view to list cases in Glo
 
 1. Don't panic.
 1. **Application or infrastructure**? In any GitLab Dedicated ticket, an important thing to try to determine is whether it's a GitLab application problem or an infrastructure issue. Use the [logs](/handbook/support/workflows/dedicated_logs/) and [observability metrics](/handbook/support/workflows/dedicated_instance_health) to guide you.
+1. Logs and Metrics are "in-boundary" and require VPN access. If you have questions or problems, ask in `#g_dedicated-us-pubsec`. Instructions for set up are [here](https://gitlab.com/gitlab-com/gl-infra/us-public-sector/documentation/-/blob/main/runbooks/remote-access-vpn.md?ref_type=heads)
 
 #### Getting Help
 
