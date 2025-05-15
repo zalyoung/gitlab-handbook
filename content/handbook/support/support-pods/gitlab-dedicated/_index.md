@@ -30,7 +30,7 @@ Enable others within the Support Team to answer GitLab Dedicated tickets.
 
 ## Collaboration channels
 
-- Slack channel - `#spt_pod_dedicated`
+- Slack channel - `#support_gitlab-dedicated`
   - Slack group - `@spt-pod_dedicated`
 - Epic - https://gitlab.com/groups/gitlab-com/support/-/epics/145
 
@@ -53,8 +53,8 @@ Check the GitLab Support Google Calendar for the events and add yourself to the 
 - [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated/)
   - This handbook is located in the [Support Workflows](/handbook/support/workflows/) and is a great starting point for more information when working GitLab Dedicated tickets
 - See the training module for [GitLab Dedicated](https://gitlab.com/gitlab-com/support/support-training/-/blob/master/.gitlab/issue_templates/GitLab%20Dedicated.md) in the [Support Training](https://gitlab.com/gitlab-com/support/support-training) project.
-- Read about [working with logs](/handbook/support/workflows/dedicated/#working-with-logs) when handling tickets for GitLab Dedicated.
-- Review the [features _not_ in GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#features-that-are-not-available) as these are almost as important as [the features in GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#available-features)
+- Read about [working with logs](/handbook/support/workflows/dedicated_logs/) when handling tickets for GitLab Dedicated.
+- Review the [features _not_ in GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#unavailable-features) as these are almost as important as [the features in GitLab Dedicated](https://docs.gitlab.com/subscriptions/gitlab_dedicated/#available-features)
 
 ## ℹ️  Stay Informed
 
@@ -66,7 +66,6 @@ The [Support Week in Review](https://gitlab.com/gitlab-com/support/readiness/sup
   - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
   - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
   - [#f_gitlab_dedicated](https://gitlab.slack.com/archives/C01S0QNSYJ2)
-  - [#dedicated_customer_problem_solving](https://gitlab.slack.com/archives/C05FFHWU6AH)
-- [Category Direction - GitLab Dedicated](https://about.gitlab.com/direction/saas-platforms/dedicated/#q4)
+- [Category Direction - GitLab Dedicated](https://about.gitlab.com/direction/platforms/dedicated/#roadmap)
 
 Together, these are high volume sources of information. Being a [manager of one](/handbook/values/#managers-of-one) means you'll need to decide which ones to consume and how frequently.
