@@ -7,3 +7,6 @@ description: "xyz"
 
 ## Talent Management and Development - Mission, Vision, and Purpose
 
+## Talent Management - Key Objectives and Principles
+
+## Talent Development - Key Objectives and Principles
