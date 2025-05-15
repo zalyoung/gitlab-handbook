@@ -128,7 +128,7 @@ NOTE: The below diagram only reflects the HTTP traffic flow. SSH traffic flow ne
 rectangle "GitLab" {
   rectangle "Nginx/HAProxy" as ReverseProxy
   rectangle "Rails"
-  rectangle "Kubernetes\nAgent\nServer\n(KAS)" as KAS
+  rectangle "GitLab\nAgent\nServer\n(KAS)" as KAS
 }
 
 actor "User"
