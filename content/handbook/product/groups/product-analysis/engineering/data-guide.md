@@ -45,6 +45,7 @@ Right now, the following namespaces are included in the metrics:
 ## Data Models
 
 In this section, we share commonly used data models that fuel many of our dashboards.
+
 ### workspace_engineering.engineering_merge_requests
 
 - **Description**: This table is filtered down to all merge requests that directly affect our product.
