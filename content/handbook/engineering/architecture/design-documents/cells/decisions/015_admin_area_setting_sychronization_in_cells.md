@@ -94,7 +94,7 @@ flowchart TB
 
 The implementation will add a new `ansible` command to `ringctl`:
 
-```
+```bash
 ringctl ansible <playbook.yml> --ring=<ring_name> [options]
 ```
 
