@@ -12,12 +12,38 @@ The Customer Emergencies rotation is one of the rotations that make up [GitLab S
 
 ## Expectations for Support Engineers in the Customer Emergencies Rotation
 
-When on-call, please ensure to:
+### Before On-Call
 
-1. Be available as soon as your shift starts.
-1. Organize your physical surroundings to allow for customer calls at any time during your shift.
-1. Plan for an additional 15-30 minutes after your shift ends to allow for cross-region handovers
-1. Start your day by checking for emergencies currently in progress from the previous shift. You will be expected to be the DRI for any emergency tickets (or find a replacement DRI) which have not yet been de-escalated/resolved. This ensures that all team members can leave as soon as possible after their shift ends.
+- 🎫 Maintain your regular workload during the week prior.
+- 📅 Toward the end of the week (Thursday-Friday), look through your queue:
+  - Identify the tickets that will need to be [handed over](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6371) (i.e. High priority tickets, high touch tickets, STAR’ed or escalated customers)
+    - Leave the summary you would want to receive
+    - Work with your network/peers/Support Pod to find an Assignee for each of those tickets
+- During the week before you are on-call, discuss tickets that need to be handed over with your manager. Assign these tickets to them to ensure they have a DRI and chat through Next Steps as needed. (It's expected that your Manager will help with finding an Assignee to work on the ticket.)
+  - 🔎 Identify tickets you can reasonably keep during on-call week
+    - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22)
+NOTE: 💡Solving emergency tickets will count towards your AQC
+
+### During On-Call
+
+- Be available as soon as your shift starts.
+- Organize your physical surroundings to allow for customer calls at any time during your shift.
+- Plan for an additional 15-30 minutes after your shift ends to allow for cross-region handovers.
+- Start your day by checking for emergencies currently in progress from the previous shift. You will be expected to be the DRI for any emergency tickets (or find a replacement DRI) which have not yet been de-escalated/resolved. This ensures that all team members can leave as soon as possible after their shift ends.
+- Emergencies are unpredictable, so remember that your main objective this week is to deliver results for customers who contact CEOC
+- 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](/handbook/support/internal-support/support-ticket-attention-requests.md), or raise attention to a Support Leader who can help
+- Help with the Global queue as you can
+  - Take easy win tickets (i.e. 2FA, Low priority, free user tickets) as you are able
+  - Leave internal notes with next steps on tickets if you cannot take assignment
+  - Pair and participate in Support Pod sessions as you are able
+- 🧠 Remember: your goal this week is to take care of customers who page CEOC
+
+### Week After On-Call
+
+- Take time off as needed based on how things went that weekend or the previous week
+  - If you plan to take time off, please ensure that you complete any extra steps so that your pending tickets are in good hands 🫶
+- If you had to leave something for later while on-call — do it now
+- Ramp up as quickly as you reasonably can to normal AQC
 
 ## Key Responsibilities for Customer Emergency On-Call
 
@@ -59,34 +85,7 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 
 ##### Balancing ticket load while on-call
 
-###### Before On-Call
 
-- 🎫 Maintain your regular workload during the week prior.
-- 📅 Toward the end of the week (Thursday-Friday), look through your queue:
-  - Identify the tickets that will need to be [handed over](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6371) (i.e. High priority tickets, high touch tickets, STAR’ed or escalated customers)
-    - Leave the summary you would want to receive
-    - Work with your network/peers/Support Pod to find an Assignee for each of those tickets
-- During the week before you are on-call, discuss tickets that need to be handed over with your manager. Assign these tickets to them to ensure they have a DRI and chat through Next Steps as needed. (It's expected that your Manager will help with finding an Assignee to work on the ticket.)
-  - 🔎 Identify tickets you can reasonably keep during on-call week
-    - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22)
-NOTE: 💡Solving emergency tickets will count towards your AQC
-
-###### During On-Call
-
-- Emergencies are unpredictable, so remember that your main objective this week is to deliver results for customers who contact CEOC
-- 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](/handbook/support/internal-support/support-ticket-attention-requests.md), or raise attention to a Support Leader who can help
-- Help with the Global queue as you can
-  - Take easy win tickets (i.e. 2FA, Low priority, free user tickets) as you are able
-  - Leave internal notes with next steps on tickets if you cannot take assignment
-  - Pair and participate in Support Pod sessions as you are able
-- 🧠 Remember: your goal this week is to take care of customers who page CEOC
-
-###### Week After On-Call
-
-- Take time off as needed based on how things went that weekend or the previous week
-  - If you plan to take time off, please ensure that you complete any extra steps so that your pending tickets are in good hands 🫶
-- If you had to leave something for later while on-call — do it now
-- Ramp up as quickly as you reasonably can to normal AQC
 
 ### Communicate
 
