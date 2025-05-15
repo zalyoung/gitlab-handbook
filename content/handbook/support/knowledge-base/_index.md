@@ -20,7 +20,7 @@ into an article that can be used multiple times independently from the ticket as
 ## How KB differs from the docs
 
 The knowledge base and our product documentation are both key elements of GitLab's digital support
-experience that serve different needs:
+experience that serve different needs: 
 
 {{< cardpane >}}
 {{% card header="**Docs**" %}}
