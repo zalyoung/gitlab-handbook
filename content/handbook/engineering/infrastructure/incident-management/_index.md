@@ -52,7 +52,7 @@ vacate the Situation Room Zoom in favour of the active incident.
 ## Ownership
 
 The Incident Lead role must be deliberately set for every incident. If you need help determining the owner of an incident, the EOC can help.
-The Incident Lead can delegate ownership to another engineer or escalate ownership to the IM at any time. 
+The Incident Lead can delegate ownership to another engineer or escalate ownership to the IM at any time.
 There is only ever **one** owner of an incident and only the owner of the incident can declare an incident resolved.
 At anytime the Incident Lead can engage the next role in the hierarchy for support. The Incident Lead role should always be assigned to the current owner.
 
@@ -92,7 +92,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
 1. The SSOT for who is the current EOC is the [GitLab Production](https://gitlab.pagerduty.com/service-directory/PATDFCE) service definition in PagerDuty.
     1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#eoc-general` Slack channel.  If you are unable to find coverage reach out to the [EOC coordinator](#engineer-on-call-coordinator) for assistance.
 1. Alerts that are routed to PagerDuty require acknowledgment within 15 minutes, otherwise they will be escalated to the oncall Incident Manager.
-    1. Alerts that page PagerDuty will automatically create a triage incident in [`#incidents-dotcom-triage`](https://gitlab.slack.com/archives/alerts). If it is determined to be a true incident, the triage incident should be accepted. 
+    1. Alerts that page PagerDuty will automatically create a triage incident in [`#incidents-dotcom-triage`](https://gitlab.slack.com/archives/alerts). If it is determined to be a true incident, the triage incident should be accepted.
     1. Alert-manager alerts in [`#alerts`](https://gitlab.slack.com/archives/alerts) and [`#feed_alerts-general`](https://gitlab.slack.com/archives/feed_alerts-general) are an important source of information about the health of the environment and should be monitored during working hours.
     1. If the PagerDuty alert noise is too high, your task as an EOC is clearing out that noise by either fixing the system or changing the alert.
     1. If you are changing the alert, it is your responsibility to explain the reasons behind it and inform the next EOC that the change occurred.
@@ -346,10 +346,10 @@ Only issues arising out of an incident should receive the label `~"corrective ac
 They are designed to prevent the same kind of incident or improve the time to mitigation and as such are part of the Incidence Management cycle.
 Corrective Actions must be related to the incident issue to help with downstream analysis.
 
-Corrective Actions issues in the [Production Engineering project](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
+Corrective Actions issues in the [Production Engineering project](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/product-development/issue-triage/#severity-slos)
 
 Issues that have the `~"corrective action"` label will automatically have the `~"infradev"` label applied.
-This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+This is done so teams these issues are follow the same process we have for development to resolve them in [specific time-frames](/handbook/product-development/issue-triage/#severity-slos).
 For more details see the [infradev process](/handbook/product/product-processes/#infradev).
 
 ### Best practices and examples, when creating a Corrective Action issue
@@ -357,7 +357,7 @@ For more details see the [infradev process](/handbook/product/product-processes/
 - Use [SMART](https://en.wikipedia.org/wiki/SMART_criteria) criteria: Specific, Measurable, Achievable, Relevant and Time-bounded.
 - Link to the incident they arose from.
 - Assign a Severity label designating the highest severity of related incidents.
-- Assign a priority label indicating the [urgency](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) of the work. By default, this should match the incident Severity
+- Assign a priority label indicating the [urgency](/handbook/product-development/issue-triage/#priority) of the work. By default, this should match the incident Severity
 - Assign the label for the associated affected service if applicable.
 - Provide enough context so that any engineer in the Corrective Action issue's project could pick up the issue and know how to move forward with it.
 - Avoid creating Corrective Actions that:
@@ -599,7 +599,7 @@ Items can be added to the timeline via the :pushpin: (📌) emoji reaction to a 
 ### Labeling
 
 We no longer use only GitLab labels to describe the status of an incident. The source of truth for any incident is incident.io.
-However, we do have incident.io set some labels based on the state of the incident. 
+However, we do have incident.io set some labels based on the state of the incident.
 
 #### Workflow Labeling
 
