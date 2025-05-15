@@ -103,14 +103,14 @@ Each project within these environments maintains the following branch structure:
 
 [See example MR](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab/-/merge_requests/11) for updating the `main-translation` branch with content from the Omnibus Production fork.
 
-### I18n Development Environments
+### i18n Development Environments
 
 #### Main Development Branch
 
 The `main-development` branch is our dedicated environment for i18n feature development. It builds localized routes and enables review apps using translations from production forks' `main-translation` branches.
 This [merge request](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27) documents the changes to enable i18n feature development. 
 
-##### Working with this environment
+##### Working with the i18n environment
 
 1. Always create feature branches from `main-development`
 2. Target merge requests to `main-development`
@@ -145,7 +145,7 @@ Refer to documentation here for setting up your workstation further: https://git
 
 ##### Updating `main-development`
 
-* Use the "Update Fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-development)  
+* Use the "Update fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-development)  
 * If conflicts occur, update locally:
 
 ```plain
