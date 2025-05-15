@@ -330,7 +330,8 @@ each alternative solution/path.
 
 ## Open questions
 
-- Which output formats do we need to support for a first iteration? What other existing data sources are not surfaced through GraphQL? There might be need for supporting REST API at some point, but probably not from the start? Also, if an entity is exposed through GraphQL, maybe there is not much of an advantage to hitting the DB directly, through Rails finders or the ClickHouse client, since we would be losing all strict schema handling that GraphQL provides?
+- Which output formats do we need to support for a first iteration? What other existing data sources are not surfaced through GraphQL? There might be need for supporting REST API at some point, but probably not from the start? Also, if an entity is exposed through GraphQL, maybe there is not much of an advantage to hitting the DB directly, through Rails finders or the ClickHouse client, since we would be losing all strict schema handling, context and authorisation that GraphQL provides?
+- How can we support data that we can feed into charts, e.g. timeseries? Could it be a type of `field` or based on the `disaply` attribute?
 - Should we provide only a query text editor, or do we want a visual builder as well? How to balance between a query text editor for power users and a UI editor for other users?
 - Can we support querying data for multiple projects and/or for multiple groups within the same query. For example: shows all pipeline failures for group A and group B in the last 3 days. Currently it only supports a single group or a single project
 - How will the system handle multiple queries in parallel when loaded from a dashboard?
