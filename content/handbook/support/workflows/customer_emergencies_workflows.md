@@ -10,7 +10,36 @@ Support Engineers in the Customer Emergencies rotation coordinate operational em
 
 The Customer Emergencies rotation is one of the rotations that make up [GitLab Support On-call](/handbook/support/on-call/).
 
-## Key Responsibilities for Customer Emergency On-Call
+## Things to Know
+
+Before getting started, consider reviewing the following sections or to get straight into the workflow start at [Handling Emergencies](#handling-emergencies) section.
+
+### How to be added to the Customer Emergencies PagerDuty rotation
+
+To be added to the Customer Emergency On Call Rotation, you should have first completed the [Customer Emergency On-Call training module](https://gitlab.com/gitlab-com/support/support-training/-/issues/new) and then after agreement with your manager, you should raise a new [Pager Duty Issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues) with the Support-Ops team requesting that you are added to the appropriate Pager Duty rotation.
+
+### Emergencies
+
+Emergencies can be raised by GitLab customers by submitting reports on the [Emergency Support form](https://about.gitlab.com/support/#how-to-engage-emergency-support):
+- [Self-managed Emergencies](#self-managed-emergencies)
+- [SaaS (GitLab.com) Emergencies](#saas-emergencies)
+- [Advanced or Signature Success Tier Emergencies](#supporting-247-coverage-for-customers-on-the-advanced-or-signature-success-tier----phase-1)
+- [License Emergencies](#license-emergencies)
+- [GitLab Dedicated Emergencies](#gitlab-dedicated-emergencies)
+
+### PagerDuty
+
+We use PagerDuty to keep track of emergencies raised by GitLab customers. For any [customer emergency](#emergencies), you will receive a notification in the `#support_self-managed`.
+
+### PagerDuty Status
+
+- **Triggered** - "A customer has requested the attention of the on-call engineer"
+- **Acknowledged** - "I have seen the page and am reviewing the ticket"
+- **Resolved** - "I've engaged with the customer by sending a reply to the emergency ticket"
+
+**NB:** "Resolved" in PagerDuty does not mean the underlying issue has been resolved.
+
+### Key Responsibilities for Customer Emergency On-Call
 
 When serving as the Customer Emergency On-Call (CEOC) engineer, you respond to and coordinate the resolution of emergencies raised by Self-managed and GitLab.com customers. Follow these key principles to ensure clear ownership and accountability:
 
@@ -24,9 +53,9 @@ When serving as the Customer Emergency On-Call (CEOC) engineer, you respond to a
 
 These principles help maintain efficiency while ensuring every emergency has clear ownership and accountability. Being the DRI means you are the single person accountable for driving the emergency to resolution. While you may collaborate with others or need to hand off the ticket during shift changes, there should never be ambiguity about who is currently responsible for an emergency ticket.
 
-## Expectations for Support Engineers in the Customer Emergencies Rotation
+### Expectations for Support Engineers in the Customer Emergencies Rotation
 
-### Before On-Call
+#### Before On-Call
 
 - 🎫 Maintain your regular workload during the week prior.
 - 📅 Toward the end of the week (Thursday-Friday), look through your queue:
@@ -38,7 +67,7 @@ These principles help maintain efficiency while ensuring every emergency has cle
     - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22)
 NOTE: 💡Solving emergency tickets will count towards your AQC
 
-### During On-Call
+#### During On-Call
 
 - Be available as soon as your shift starts.
 - Organize your physical surroundings to allow for customer calls at any time during your shift.
@@ -52,16 +81,12 @@ NOTE: 💡Solving emergency tickets will count towards your AQC
   - Pair and participate in Support Pod sessions as you are able
 - 🧠 Remember: your goal this week is to take care of customers who page CEOC
 
-### Week After On-Call
+#### Week After On-Call
 
 - Take time off as needed based on how things went that weekend or the previous week
   - If you plan to take time off, please ensure that you complete any extra steps so that your pending tickets are in good hands 🫶
 - If you had to leave something for later while on-call — do it now
 - Ramp up as quickly as you reasonably can to normal AQC
-
-### How to be added to the Customer Emergencies PagerDuty rotation
-
-To be added to the Customer Emergency On Call Rotation, you should have first completed the [Customer Emergency On-Call training module](https://gitlab.com/gitlab-com/support/support-training/-/issues/new) and then after agreement with your manager, you should raise a new [Pager Duty Issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues) with the Support-Ops team requesting that you are added to the appropriate Pager Duty rotation.
 
 #### Considerations in AMER
 
@@ -82,22 +107,6 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 - AMER 1 DRI: 12:00pm - 14:30pm EDT
 - AMER 2 DRI: 14:30pm - 17:30pm EDT
 - AMER 3 DRI: 17:30pm - 20:00 EDT
-
-##### Balancing ticket load while on-call
-
-
-
-### Communicate
-
-When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM)—`cc @user` is good enough—if the customer has one (see [this workflow for how to identify CSMs](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm)). This creates visibility around the situation and opens the door to let the team join in.
-
-Good notes in Slack help others follow along, and help you with your follow-ups after the call.
-
-Try to communicate complete ideas rather than snippets of thought. Something like "that's not good" as a response to something happening within the call isn't as helpful as "gitaly timings are really high".
-
-Take and share screenshots of useful info the customer is showing you. Make sure you're not sharing anything sensitive. Let the customer know you're taking screenshots: "Could you pause there? I want to screenshot this part to share with my team".
-
-**Note:** You may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
 
 ### Determine if the situation qualifies as an emergency
 
@@ -171,7 +180,9 @@ The important details to include in the message are:
 
 If at any point you would like advice or help finding additional support, [contact the on-call Support Manager](/handbook/support/on-call/#engaging-the-on-call-manager). The on-call manager is there to support you. They can locate additional Support Engineers if needed. This can make it easier to handle a complex emergency by having more than one person on the call, so you can share responsibilities (e.g., one person takes notes in Slack while the other communicates verbally on the call). Managers are on-call during weekends, so you can page for help at any time.
 
-### Respond to PagerDuty alerts
+## Handling Emergencies
+
+### Self-managed Emergencies
 
 1. When an emergency is triggered, you will receive an alert from PD. This could be a text, phone call, email, Slack message, or a combination of those (depending on your PagerDuty notification preferences).
 1. Acknowledge the alert in PagerDuty or Slack. This means that you received the emergency page, and are starting the response process.
@@ -197,13 +208,43 @@ If at any point you would like advice or help finding additional support, [conta
 
 **NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 
-#### PagerDuty Status
+### Communicate
 
-- **Triggered** - "A customer has requested the attention of the on-call engineer"
-- **Acknowledged** - "I have seen the page and am reviewing the ticket"
-- **Resolved** - "I've engaged with the customer by sending a reply to the emergency ticket"
+When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM)—`cc @user` is good enough—if the customer has one (see [this workflow for how to identify CSMs](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm)). This creates visibility around the situation and opens the door to let the team join in.
 
-**NB:** "Resolved" in PagerDuty does not mean the underlying issue has been resolved.
+Good notes in Slack help others follow along, and help you with your follow-ups after the call.
+
+Try to communicate complete ideas rather than snippets of thought. Something like "that's not good" as a response to something happening within the call isn't as helpful as "gitaly timings are really high".
+
+Take and share screenshots of useful info the customer is showing you. Make sure you're not sharing anything sensitive. Let the customer know you're taking screenshots: "Could you pause there? I want to screenshot this part to share with my team".
+
+**Note:** You may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
+
+### Respond to PagerDuty alerts
+
+1. When an emergency is triggered, you will receive an alert from PD. This could be a text, phone call, email, Slack message, or a combination of those (depending on your PagerDuty notification preferences).
+1. Acknowledge the alert in PagerDuty or Slack. This means that you received the emergency page, and are starting the response process.
+1. **OPTIONAL:** Create a new Issue using the [Emergency Runbook Issue Template](https://gitlab.com/gitlab-com/support/emergency-runbook/-/issues/new), to guide you through the emergency response process for Customer Emergency tickets.
+1. Open the Zendesk ticket. Assign yourself as the ticket owner to establish yourself as the Directly Responsible Individual (DRI), which prevents confusion about emergency response, ensures consistent customer communication, and creates accountability for follow-through until resolution or proper handoff.
+    1. Most PagerDuty notification formats provide a direct link to the ticket.
+    1. Alternatively, use Zendesk search with the term `priority: urgent` to find the ticket.
+1. Verify that the requester has an active subscription at Premium level or
+   above, and is therefore entitled to emergency support. If they are not,
+   lower the priority of the ticket and inform the customer kindly that their
+   subscription does not include emergency support.
+1. Work with the on-call Support Manager to [determine if the situation qualifies as an emergency](#determine-if-the-situation-qualifies-as-an-emergency)
+   1. Create a Public Comment in the ticket acknowledging receipt of the emergency request and communicating according to the qualification determination. Please note that the responding Support Engineer needs to add a Public Comment to ensure that the ticket SLA is "reset".
+   1. Offer a Zoom call to the customer if appropriate to the reported situation. A SaaS emergency related to a public incident published on the status page, for example, would not warrant a call.
+   - Example of self-managed emergency ticket which was resolved without a call: <https://gitlab.zendesk.com/agent/tickets/148028>
+1. Only Resolve the PagerDuty alert *after* you have contacted the customer. This means that you are actively handling the emergency now and will see it through.
+1. Use the PagerDuty message in `#support_self-managed` or `#support_gitlab-com` to start a Slack thread. This ensures that everyone coming into the ensuing discussion can easily identify the corresponding emergency ticket.
+1. After 15 minutes, if the customer has not responded to our initial contact with them, send a follow up message covering the following points:
+    - The bridge created to work on the emergency.
+    - If the customer is not able to join immediately, we can make other arrangements.
+    - After another 15 minutes without response the bridge will be closed and the ticket will be assigned a `HIGH` priority.
+    - Feel free to open a new emergency request if the need arises.
+
+**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 
 ### Handling multiple simultaneous emergencies
 
