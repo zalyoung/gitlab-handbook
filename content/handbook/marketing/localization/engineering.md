@@ -117,6 +117,8 @@ This workflow ensures we can develop and validate i18n features in an environmen
 
 The review app enables our team to review internationalized documentation and features before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and utilizes the i18n features built for Hugo.
 
+While the latest `main-development` branch contents are visible, it won't automatically update when there are changes to the `main-translation` forks. Run a new pipeline to pull those in.
+
 First visit https://gitlab-docs-hugo-19c275.gitlab.io/ to oauth yourself to the server, then visit https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ to see the latest `main-development` branch contents.
 
 | Repository | Live Preview URL |
