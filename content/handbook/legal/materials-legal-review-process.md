@@ -3,36 +3,61 @@ title: "Materials Legal Review Process"
 description: "Follow this process to obtain legal review of materials for internal and external use"
 ---
 
+## Process fundamentals
+
+What follows is a brief overview of key requirements. Review the complete process for full details and instructions.
+
+- Legal review is [mandatory](#mandatory-review) for, amongst other things, materials related to new product offerings, SKU changes, statements by E-Group members, financial data, and M&A activities.
+- All materials, whether or not review is mandatory, must comply with the SAFE Framework and Third-party IP Guidelines.
+- Materials containing MNPI or other internally-confidential information require special handling in restricted-access issues and documents.
+- Use the [self-serve compliance resources](#self-service-materials-compliance-resources) to streamline the review process, and review common examples of legal feedback to improve your materials before submission.  
+
 ## Self-serve materials compliance resources
 
 When creating materials:
 
-- for [external](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Checklist](/handbook/legal/external-materials-compliance-checklist).
+- for [external](./#external-vs-internal-use) use, refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Tips](/handbook/legal/external-materials-compliance-checklist).
 - for [internal](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
+
+The External Materials Compliance Tips page provides examples of common legal review feedback to help creators address compliance issues before submission. 
 
 ## When to use this process
 
-For materials listed in the Mandatory Review section, a review by the Legal & Corporate Affairs Team is **always required**.
+For materials listed under Mandatory Review, a review is **always required**.
 
-For all other materials, a review is **not required** provided the materials comply with:
+For everything else a review is **not required** provided the materials comply with:
 
 1. the [SAFE Framework](/handbook/legal/safe-framework/); and
-1. the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/).
+1. for external materials, the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/).
 
-The DRI is responsible for ensuring materials are compliant. If you're unsure whether certain materials need to be reviewed, or have a question about compliance with the SAFE Framework, the IP Guidelines, or the Checklist, reach out in the [#safe](https://app.slack.com/client/T02592416/C01UZQ63WFQ) Slack channel.
+The DRI is responsible for ensuring materials are compliant. If you're unsure whether certain materials need to be reviewed, or have a question about compliance with the SAFE Framework, the IP Guidelines, or the Checklist, reach out in the [#safe](https://app.slack.com/client/T02592416/C01UZQ63WFQ) Slack channel for SAFE-related questions and in the [#legal](https://app.slack.com/client/E03N1RJJX7C/C78E74A6L) Slack channel for IP-related questions.
 
 ### Mandatory review
 
 Review is **always** required for:
 
+- External materials related to the experiment, beta, or general availablity announcement or release of significant new product offerings or signifcant changes to existing product offerings, including:
+  - Any product or services launched through the New Product Introduction Process
+  - New SKU
+  E.g.: Materials announcing the general availabilty of a new SKU
+  E.g.: Materials announcing the forthcoming private beta of what will become a new SKU
+
+  - Changes to an existing SKU (e.g., price, removal or addition of a named offering)
+  E.g.: Materials announcing new pricing for an existing SKU
+
+  - Deprecation of an existing SKU
+  E.g.: Materials announcing the phasing out of an existing SKU
+
+  - Repackaging of features or product sets 
+  E.g.: Materials announcing features from an existing product are now available at no additional cost at a lower tier.
+
 - Internal and external materials requiring review as determined by the [SAFE Framework Flowchart](/handbook/legal/safe-framework/#safe-flowchart);
-- External materials which quote, or are written in the name of, the CEO; CFO; CLO; CRO; CTO; VP, Investor Relations; or a member of the [Board of Directors](https://about.gitlab.com/company/team/board-of-directors/);
+- External materials which quote, or are written in the name of, any member of the [GitLab Executive Group](https://about.gitlab.com/company/team/e-group/); VP, Investor Relations; or a member of the [GitLab Board of Directors](https://about.gitlab.com/company/team/board-of-directors/);
 - Quarterly and year-end earnings reports, and materials which include financial data that has not been publicly disclosed, or a variation previously disclosed financial data;
 - Materials relating to:
-  - Mergers and acquisitions, including spin outs, investments, or acqui-hires;
-  - Executive or other material organizational or management changes; or
-  - The announcement or release of new products material to GitLab.
-- Social media posts that include earnings reports, financial data not yet publicly disclosed, a variation of previously disclosed financial data, or items relating to mergers and acquisitions (including spin outs, investments, or acqui-hires), and disclosing material nonpublic informations (e.g., material management changes, material product releases etc.).
+  - Mergers and acquisitions, including spin outs, investments, or acqui-hires; or
+  - Executive or other material organizational or management changes
+- Social media posts that cover or reference subjects that would normally require review (e.g. earnings reports, mergers and acquisitions, etc.) financial data, or a variation of previously disclosed financial data, or those disclosing information related to anything in this list or any other material nonpublic informations.
 
 ### Excluded from review
 
@@ -41,16 +66,27 @@ This process should never be used for:
 - NDAs, contracts, or other commercial agreements which should instead be routed through the [Commercial Legal Team](/handbook/legal/commercial/#how-to-work-with-gitlab-legal-commercial).
 - [AMAs](/handbook/communication/ask-me-anything/), and [Group Conversations](/handbook/company/group-conversations/) streamed or published [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered. However, these recordings should not be streamed or published if they contain material non-public information, confidential information, or are required to be kept SAFE;
 - External or internal handbook updates;
-- GitLab issues or merge requests; nor
+- GitLab issues or merge requests (remember that MRs are usually public, so drafting and review for sensitive items should be handled outside of MRs until finalized); nor
 - Internal or external communications prepared in relation to a contentious issue that undermines a critical attribute of our company's brand and challenges its reputation or impacts, or has the potential to impact, the safety or well-being of our team-members which should instead follow the [GitLab Incident Communications Plan](/handbook/marketing/corporate-communications/incident-communications-plan/).
 
 The Legal & Corporate Affairs Team will not review materials sent in Slack because [Slack should not be used for obtaining approval](/handbook/communication/#slack); follow this Materials Legal Review Process instead.
+
+## MNPI and internally-confidential information
+
+Follow this process for review of materials containing [material non-public information](https://handbook.gitlab.com/handbook/legal/safe-framework/#sensitive) (MNPI) or information with restricted internal access. 
+1. For standalone materials not related to an ongoing intiative:
+a. Create an issue following [Track 1](#track-1-single-material-legal-review-process) or [Track 2](#track-2-multiple-materials-legal-review-process) below.
+b. Create a Google Doc shared only with the relevant team members who need to know the MNPI or restricted information, and link it from the issue.
+c. Ensure all comments and discussions take place in the Google Doc and not the issue.
+2. For materials related to an ongoing MNPI or internally-confidential initiative:
+a. Create an issue within the internally-confidential GitLab Project for the initiative if one exists. If no such GitLab Project for the initiative exists, follow the process above for standalone materials.
+b. Complete the Track 1 issue comment template in that issue to request review. 
 
 ### External vs Internal use
 
 **External use** means materials made available to any company or individual who is not a GitLab team member, including media, marketing audiences, prospects, customers, partners, vendors, community members, and conference attendees. Materials published with [public visibility](/handbook/marketing/marketing-operations/youtube/#visibility) on the GitLab Unfiltered YouTube channel or on any GitLab social media channel are external.
 
-**Internal use** means materials made available solely to GitLab team members.
+**Internal use** means materials made available solely to GitLab team members that is, anyone who has a gitlab.com email address.
 
 Sometimes, legal review entails two separate reviews:
 
