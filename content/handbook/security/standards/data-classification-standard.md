@@ -2,6 +2,7 @@
 title: "GitLab Data Classification Standard"
 aliases:
 - /handbook/security/data-classification-standard
+note: Do not remove alias due to extensive external use where it cannot be updated.
 controlled_document: true
 ---
 

@@ -2,6 +2,7 @@
 title: "Records Retention & Disposal"
 aliases:
 - /handbook/security/records-retention-deletion
+note: Do not remove alias due to extensive external use where it cannot be updated.
 controlled_document: true
 ---
 

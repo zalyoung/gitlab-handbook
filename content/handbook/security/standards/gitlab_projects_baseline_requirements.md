@@ -3,6 +3,7 @@ title: "GitLab Projects Baseline Requirements"
 description: "The hb page outlines baseline configurations that should be setup for GitLab projects which impact the GitLab codebase."
 aliases:
 - /handbook/security/gitlab_projects_baseline_requirements
+note: Do not remove alias due to extensive external use where it cannot be updated.
 ---
 
 ## Purpose

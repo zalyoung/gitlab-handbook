@@ -2,6 +2,7 @@
 title: GitLab Password Standards
 aliases:
 - /handbook/security/password-standard
+note: Do not remove alias due to extensive external use where it cannot be updated.
 controlled_document: true
 ---
 

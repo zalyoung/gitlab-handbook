@@ -2,6 +2,7 @@
 title: "Physical Security Standard for Company Assets"
 aliases:
 - /handbook/security/physical-security-standard-for-company-assets
+note: Do not remove alias due to extensive external use where it cannot be updated.
 controlled_document: true
 ---
 
