@@ -104,7 +104,7 @@ There are several types of documentation we use to capture the topics. Noted the
 - [**Internal handbook**](https://internal.gitlab.com/) - Items which explain the same category as the public handbook, with the difference that the internal handbook contains [internal information](/handbook/communication/confidentiality-levels/#internal)
 - **Readme.md** file - Specific information related to the code where the README.md file resides, which explains **how** to use that code. If more explanation is needed, a good practice is to either use and/or link to a Handbook article.
 - [**Runbooks**](https://gitlab.com/gitlab-data/runbooks) - Context which explains **how** to solve the issue in production or **how** to sort out other problems. The vital thing is to understand that runbook is a guideline of problem-solving approach
-- [**WIKI**](https://gitlab.com/gitlab-data/analytics/-/wikis/GitLab-Data-Team-Wiki) - Items that require regular updates, similar to epics but they span for longer periods of time, e.g. Data Team engagement in the quote-to-cash projects.
+- [**WIKI**](https://gitlab.com/gitlab-data/analytics/-/wikis/GitLab-Data-Team-Wiki) - Items that require regular updates, similar to epics but they span for longer periods of time, e.g. overall Data Team engagement in the quote-to-cash projects.
 
 Matrix with the explanation when to use which documentation type:
 
