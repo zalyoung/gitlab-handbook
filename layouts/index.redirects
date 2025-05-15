@@ -42,30 +42,6 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
-# Delivery Group move in Infra platforms - remove 2025-04-20
-/handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/ 301
-/handbook/engineering/infrastructure/team/delivery/* /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/:splat 301
-
-# Remove Infra TPM - remove 2025-04-29
-/handbook/engineering/infrastructure/technical-program-management/ /handbook/engineering/infrastructure/ 301
-
-# Webinar redirects - remove 2025-05-01
-/handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
-/handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
-
-# Red Team redirects - remove 2025-05-05
-/handbook/security/security-operations/red-team/red-team-roe/ /handbook/security/security-operations/red-team/how-we-operate/rules-of-engagement/ 301
-
-# Old red team handbook - remove 2025-05-11
-/handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
-
-# Source Code team pages move - remove 2025-05-11
-/handbook/engineering/development/dev/create/source-code-be/ /handbook/engineering/development/dev/create/source-code/backend/ 301
-/handbook/engineering/development/dev/create/create-source-code-fe/ /handbook/engineering/development/dev/create/source-code/frontend/ 301
-
-# Old red team handbook - remove 2025-05-11
-/handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
-
 # about.gitlab.com handbook guide redirects - remove 2025-05-25
 /handbook/product/markdown-guide/ https://about.gitlab.com/community/markdown-guide-middleman/ 301
 
@@ -131,6 +107,9 @@
 /handbook/product/ux/technical-writing/fundamentals/examples/ https://docs.gitlab.com/development/documentation/topic_types/ 301
 /handbook/product/ux/technical-writing/setup/ https://docs.gitlab.com/development/documentation/authoring_environment/ 301
 /handbook/product/ux/technical-writing/workflow/ https://docs.gitlab.com/development/documentation/workflow/ 301
+
+# Issue triage moved - remove 2025-09-15
+/handbook/engineering/infrastructure/engineering-productivity/issue-triage/ /handbook/product-development/issue-triage/
 
 # Infra library moved - remove 2025-10-10
 /handbook/engineering/infrastructure/library/ https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
