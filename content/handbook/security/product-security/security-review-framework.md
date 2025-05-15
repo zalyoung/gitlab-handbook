@@ -212,6 +212,7 @@ Each team categorizes risk based on their domain-specific score:
 * Multiple security engineers involved
 * Post-implementation validation
 * Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
+Teams involved: SPA, Data Security and SD&D
 
 #### High Risk Review (with SPA)
 
@@ -219,6 +220,7 @@ Each team categorizes risk based on their domain-specific score:
 * Focused threat modeling
 * Targeted code review
 * Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
+Teams involved: SPA, Data Security and SD&D
 
 #### Medium Risk Review
 
@@ -244,6 +246,7 @@ Each team categorizes risk based on their domain-specific score:
 * Multiple security engineers involved
 * Post-implementation validation
 * Timeline: 2-3 weeks
+Teams involved: SPA, Data Security and InfraSec
 
 #### High Risk Review (with SPA)
 
@@ -253,6 +256,7 @@ Each team categorizes risk based on their domain-specific score:
 * Security group analysis
 * Security architect and infrastructure security engineer collaboration
 * Timeline: 1-2 weeks
+Teams involved: SPA, Data Security and InfraSec
 
 #### Medium Risk Review
 
