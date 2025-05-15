@@ -11,28 +11,40 @@ We will ensure that the current organization id is defined on every entry point.
 
 Including rails controllers, Grape API, GraphQL, ActionCable.
 
-For web requests the current organization will be determined in the following order of precedence:
+For web requests the current organization will be determined in the following order of precedence with details listed in sub-sections below:
 
 1. Path params. E.g. /groups/abc-group, /-/organizations/my-organization
-  - The current Organization will be the parent Organization for that resource.
 1. Header field
-  - Organization context included in `X-GitLab-Organization-ID` header
-  - Frontend JavaScript automatically includes the context in AJAX/API calls
-  - Maintains consistent context during interactive sessions
 1. Session variable storing current organization id.
-  - User's last accessed organization stored in session
-  - Used for generic pages without explicit resource context
-  - Defaults to User's [home organization when no context is available
-  - More [discussion below](#session-variable).
 1. The default organization (ID = 1).
-  - For unauthenticated requests not handled by the above mappings.
-  - Use of the Default Organization will break Cells compatibility.
+
+### Path Params
+
+The current Organization will be the parent Organization for the resource requested.
+
+For example `/groups/abc-group`, `/-/organizations/my-organization`
+
+### Header Field
+
+- Organization context included in `X-GitLab-Organization-ID` header
+- Frontend JavaScript automatically includes the context in AJAX/API calls
+- Maintains consistent context during interactive sessions
 
 ### Session Variable
+
+- User's last accessed organization stored in session
+- Used for generic pages without explicit resource context
+- Defaults to User's [home organization when no context is available
 
 The session variable will assist to disambiguate on pages such as `/explore` and will reduce the roadmap to dog fooding.
 We don't consider session variable usage a long term solution because it will break browser tab usage, and HTTP GET requests won't be idempotent breaking bookmarks and sharing of links.
 Features that depend on the session variable will be considered incomplete until they are scoped appropriately.
+
+### The Default Organization
+
+This is a fallback for unauthenticated requests not handled by the higher precedent mappings.
+
+Use of the Default Organization will break Cells compatibility because the Default Organization is only available on one Cell.
 
 ## Background Jobs
 
