@@ -12,7 +12,7 @@ The Customer Emergencies rotation is one of the rotations that make up [GitLab S
 
 ## Key Responsibilities for Customer Emergency On-Call
 
-When serving as the Customer Emergency On-Call (CEOC) engineer, follow these key principles to ensure clear ownership and accountability:
+When serving as the Customer Emergency On-Call (CEOC) engineer, you respond to and coordinate the resolution of emergencies raised by Self-managed and GitLab.com customers. Follow these key principles to ensure clear ownership and accountability:
 
 1. **Take Assignment**: Immediately assign yourself to any emergency ticket you acknowledge and begin working on. This establishes you as the Directly Responsible Individual (DRI) and ensures clear ownership throughout the emergency response process.
 
