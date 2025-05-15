@@ -102,7 +102,7 @@ classDiagram
     class security_scan_partial_glas_metadata {
         id: bigint
         security_scan_id: bigint
-        scan_type: smallint
+        scan_mode: smallint
         created_at: timestamp
         updated_at: timestamp
     }
@@ -161,7 +161,7 @@ Introduce a new table to track whether a scan is a GLAS diff-based scan. This is
    ```ruby
     create_table :security_scan_partial_glas_metadata do |t|
         t.references :security_scan, null: false, foreign_key: true, index: { unique: true }
-        t.smallint :scan_type, null: false, default: 1
+        t.smallint :scan_mode, null: false, default: 1
         t.timestamps
     end
    ```
@@ -172,7 +172,7 @@ Introduce a new table to track whether a scan is a GLAS diff-based scan. This is
    class ScanPartialGlasMetadata < ApplicationRecord
      belongs_to :security_scan, class_name: 'Security::Scan'
 
-     enum scan_type: {
+     enum scan_mode: {
        differential: 1,
      }
    end
