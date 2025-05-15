@@ -113,7 +113,8 @@ When working on i18n features:
 4. Once approved, changes can be submitted upstream to the original repositories
 
 This workflow ensures we can develop and validate i18n features in an environment with real translations before integrating them with the primary codebase.
-##### Review App
+
+#### Review App
 
 The review app enables our team to review internationalized documentation and features before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and utilizes the i18n features built for Hugo.
 
