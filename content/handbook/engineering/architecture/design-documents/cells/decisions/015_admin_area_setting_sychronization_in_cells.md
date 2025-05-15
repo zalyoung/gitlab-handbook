@@ -167,7 +167,7 @@ func runPlaybooksConcurrently(ctx context.Context, cells []cell.Cell,
 
 Settings will use a hierarchical structure:
 
-```
+```bash
 settings/
   all_cells.yml         # Base settings for all cells
   rings/
