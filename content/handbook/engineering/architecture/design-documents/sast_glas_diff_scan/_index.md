@@ -3,7 +3,7 @@ title: "SAST GitLab Advanced SAST Diff-based Scanning"
 status: proposed
 creation-date: "2025-05-13"
 authors: [ "@smtan"]
-coach: [ ]
+coach: [ "@bwill" ]
 approvers: [ "@beckalippert", "@svedova", "@connorgilbert" ]
 owning-stage: "~devops::application security testing"
 participating-stages: [ "~devops::security risk management" ]
