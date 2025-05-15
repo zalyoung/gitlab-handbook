@@ -116,18 +116,20 @@ This workflow ensures we can develop and validate i18n features in an environmen
 
 #### Live Preview Environment
 
-The `live-preview branch` provides a stable environment to review internationalized documentation before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and mirrors the translation workflow.
+The `live-preview branch` provides a stable environment to 
 
-Use this environment to review translations in context, verify integration, and identify formatting issues before they reach production
+##### Review App
 
-##### Accessible Live Preview URLs
+The review app enables our team to review internationalized documentation and features before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and utilizes the i18n features built for Hugo.
+
+First visit https://gitlab-docs-hugo-19c275.gitlab.io/ to oauth yourself to the server, then visit https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ to see the latest `main-development` branch contents.
 
 | Repository | Live Preview URL |
 | ----- | ----- |
-| GitLab | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/ci/yaml/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/ci/yaml/) |
-| Operator | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/operator/backup\_and\_restore/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/operator/backup_and_restore/) |
-| Omnibus | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/omnibus/build/build\_docker\_image/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/omnibus/build/build_docker_image/) |
-| Runner | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/runner/register/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/runner/register/) |
-| Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/charts/installation/) |
+| GitLab | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/ci/yaml/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/ci/yaml/) |
+| Operator | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/operator/backup\_and\_restore/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/operator/backup_and_restore/) |
+| Omnibus | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/omnibus/build/build\_docker\_image/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/omnibus/build/build_docker_image/) |
+| Runner | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/runner/register/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/runner/register/) |
+| Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/) |
 
-This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17).
+This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27).
