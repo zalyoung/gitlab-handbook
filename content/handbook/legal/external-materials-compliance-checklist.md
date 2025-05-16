@@ -8,6 +8,7 @@ When developing materials for external use, follow the [SAFE Framework](/handboo
  The tips on this page serve as a quick-reference guide, and should not be used as a substitute for reviewing and following the SAFE Framework and the IP Guidelines in full.
 
 **Examples of common legal review feedback**
+
 - [See document](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/preview?tab=t.0)
 
 **Compliance checklist**
