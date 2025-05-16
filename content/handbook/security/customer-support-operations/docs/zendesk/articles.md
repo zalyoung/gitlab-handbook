@@ -6,10 +6,9 @@ canonical_path: "/handbook/security/customer-support-operations/docs/zendesk/art
 
 {{% alert title="Note" color="primary" %}}
 
-This is an informational page for the Zendesk Guide articles.
+This is an informational page for the Zendesk articles. It may not reflect the way we actually manage Zendesk articles.
 
-If you are looking for information about how Customer Support Operations are maintaining articles (creating, editing, 
-etc.), please see [Articles workflow](../../workflows/zendesk/articles)
+If you are looking for information about how we are maintaining articles (creating, editing, etc.), please see [Articles workflow](../../workflows/zendesk/articles)
 
 {{% /alert %}}
 
@@ -35,5 +34,11 @@ For information on adding, editing or deleting section, please see [Zendesk docu
 
 ## Deleting an article
 
+{{% alert title="Note" color="danger" %}}
+
+This is a permanent action
+
+{{% /alert %}}
+
 For information on deleting an article, please see [Zendesk documentation](https://support.zendesk.com/hc/en-us/articles/4408832480154-Permanently-deleting-a-knowledge-base-article#comment_4668199360922).
-Note: This is a permanent action.
+
