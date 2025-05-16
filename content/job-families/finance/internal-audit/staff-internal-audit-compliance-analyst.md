@@ -1,5 +1,5 @@
 ---
-title: Staff Internal Audit & SOX Compliance Analyst
+title: Staff Internal Audit & Compliance Analyst
 description: responsible for preparing and implementing a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational, finance, and internal controls with a specialty in IT risk and security
 ---
 
@@ -16,7 +16,7 @@ The Staff Internal Audit & SOX Compliance Analyst is a [grade 8](/handbook/total
 - Lead end to end walkthroughs to identify risks, control gaps, and improvement opportunities
 - Contributes to the overall direction of the department through expertise in audit and compliance activities, and partnership with leadership in decision making
 - Design, execute and complete testing of the design and operating effectiveness of SOX business process and IT controls, including entity and process level controls, IT general and application controls and SOC report reviews
-- Improve SOX documentation and work papers (i.e. work with process owners to refine risk control matrix, improve process flows, refine / develop test procedures, propose control language and associated risks etc.)
+- Improve SOX documentation and work papers (for example; work with process owners to refine risk control matrix, improve process flows, refine / develop test procedures, propose control language and associated risks etc.)
 - Assist and make recommendations in evaluation of new processes, policies and systems to determine relevance to and impact on the SOX program, including assessing design of controls based on identified risks
 - Evaluate audit findings and coordinate remediation of deficiencies
 - Manage and/or contribute to special projects both on-going and recurring (e.g., scaling controls, segregation of duties, implementation - support/advisory), as needed, in an effective and efficient manner
@@ -38,17 +38,6 @@ Ability to work in a fast-paced environment with changing processes and procedur
 CA/CPA/CIA/ certification preferred
 CISA/CISSP/IT Audit certification preferred
 - Ability to use GitLab
-
-### Performance Indicators
-
-- [Percentage of Desktop procedures documented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of controls tested](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of recommendations implemented](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-- [Percentage of audits completed](https://internal.gitlab.com/handbook/internal-audit/#internal-audit-performance-measures)
-
-### Career Ladder
-
-The next step in the Senior SOX Compliance Anaylst job family is to move to the [Manager, Internal Audit and SOX](/job-families/finance/internal-audit/#manager-internal-audit) job family.
 
 ### Hiring Process
 

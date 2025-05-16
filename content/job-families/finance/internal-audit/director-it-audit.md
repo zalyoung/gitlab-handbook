@@ -38,7 +38,7 @@ The Director, IT Audit is a [grade 10](/handbook/total-rewards/compensation/comp
 - Excellent communication skills – written and oral
 - Project management experience including overseeing multiple projects simultaneously
 - Problem solving and client service skills
-- Strong understanding and appreciation of information technology (e.g., application development, cloud, network infrastructure, vulnerability management, cybersecurity, database and server security, access control, etc.)
+- Strong understanding and appreciation of information technology (for example; application development, cloud, network infrastructure, vulnerability management, cybersecurity, database and server security, access control, etc.)
 - Experience in influencing, persuading, and making pitches to senior leadership
 - Leadership qualities, including experience managing a team
 - Ability to work in US time zones mainly Pacific and Eastern time zones

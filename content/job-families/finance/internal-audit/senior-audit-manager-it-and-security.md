@@ -39,7 +39,7 @@ Identifies control issues and findings timely, and ensures findings are based on
 
 ### Requirements
 
-- Bachelor's degree in related field required (e.g., Computer Science, Management Information Systems, Accounting)
+- Bachelor's degree in related field required (for example; Computer Science, Management Information Systems, Accounting)
 - CISA, CISSP, CISM, or other relevant certification is required.
 - 9+ years of internal and/or external IT audit experience required.
 - Mix of operational and IT audit experience desired.
