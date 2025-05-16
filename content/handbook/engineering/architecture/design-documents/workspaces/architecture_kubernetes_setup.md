@@ -358,10 +358,6 @@ Starting : Workspace config is being\napplied to kubernetes
 Starting -right-> Running : status=Running
 Starting -down-> Failed : status=Failed\n(container crashing)
 
-RestartRequested : Workspace is requested to re-start by user
-RestartRequested -right-> Starting : status=Starting
-RestartRequested -right-> Error : Could not restart\nworkspace
-
 Running : Workspace is running
 Running -down-> Stopping : status=Stopping
 Running -down-> Failed : status=Failed\n(container crashing)
@@ -376,7 +372,6 @@ Stopped : Workspace is Stopped\nby user request
 Stopped -left-> Failed : status=Failed\n(could not\nunmount volume\nterminate workspace)
 Stopped -right-> Error : Could not\nstart/terminate\nworkspace
 Stopped -down-> Terminating : status=Terminating
-Stopped -up-> RestartRequested : status=RestartRequested
 
 Terminating : Workspace is terminating
 Terminating -down-> Terminated : status=Terminated
