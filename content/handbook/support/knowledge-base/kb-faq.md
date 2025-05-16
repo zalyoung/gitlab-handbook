@@ -34,21 +34,21 @@ Best Practices:
 
 [Knowledge slides](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit#slide=id.g2d8fe3d02d9_0_27)
 
-### Questions & Answers
+## Questions & Answers
 
-#### Who do I contact if I need help with knowledge?
+### Who do I contact if I need help with knowledge?
 
 Use the Slack Channel [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk)
 
-#### Where can I find more information about knowledge management and KCS?
+### Where can I find more information about knowledge management and KCS?
 
-There are many slides (with a table of contents) available [here](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g12b319f6181_0_0#slide=id.g12b319f6181_0_0)
+There are many slides (with a table of contents) available [in Google drive](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g12b319f6181_0_0#slide=id.g12b319f6181_0_0)
 
-#### Is there Training for knowledge creation, modifying and Publishing?
+### Is there Training for knowledge creation, modifying and Publishing?
 
-Yes! A list of available training resources is available [here](./knowledge-base-training)
+Yes! A list of available training resources is available on the Knowledge Base training page](./knowledge-base-training)
 
-#### How do I become a Knowledge Champion/Technical Reviewer?
+### How do I become a Knowledge Champion/Technical Reviewer?
 
 Review the [Technical Reviewers responsibilities](_index.md#technical-reviewers-knowledge-champions) before committing to the role.
 
@@ -56,19 +56,19 @@ Please talk with your manager, and let them know you wish to become a knowledge 
 
 Contact {{< member-by-name "Kirsty Allen" >}} to get added to the Technical Reviewer list. 
 
-#### How do I know if I am a Support Engineer or Knowledge Champion in ZenDesk?
+### How do I know if I am a Support Engineer or Knowledge Champion in ZenDesk?
 
 View the permission HERE (LINK NEEDED TO SECTION).
 
-#### Who can Approve & Publish my article?
+### Who can Approve & Publish my article?
 
 [Technical Reviewers](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0) will approve and publish articles.
 
-#### Can I use the "Request Article" feature in the Knowledge section?
+### Can I use the "Request Article" feature in the Knowledge section?
 
 Not at this time. Currently the button is enabled, and the information can be filled out, a ticket is created but it will be AUTO CLOSED and an email sent to the requestor.  
 Please use the [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk) channel for help creating an article.
 
-#### What labels can I add?
+### What labels can I add?
 
 There are pre-populated labels to choose from, or create your own relevant to the article. Please avoid creating new labels without consulting with {{< member-by-name "Kirsty Allen" >}}.
