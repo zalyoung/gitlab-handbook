@@ -87,6 +87,7 @@ Our goal is to be able to integrate Monte Carlo with GitLab so that whenever we 
 
 There is detailed information including a video section in the official Monte Carlo documentation on [how to respond to an alert](https://docs.getmontecarlo.com/docs/explore-monte-carlo-incidents).
 
+
 ### Incident status
 
 Each MonteCarlo incident has always a status. See the folowwing list when to use which status:
@@ -99,6 +100,17 @@ Each MonteCarlo incident has always a status. See the folowwing list when to use
 | No action needed    | Incident was flagged by MonteCarlo **correctly**, but its not a breaking change                                                               | None                                                                                   |
 | False positive      | Incident was flagged by MonteCarlo **wrongly**                                                                                                | None                                                                                   |
 | No Status           | Default status by MonteCarlo                                                                                                                  | Start investigating and update status                                                  |
+
+
+### Updating the training data
+
+Important to notice: The status of an anomaly (any of the incident statuses above) will not be directly fed into the model in a feedback loop.  
+
+The only two ways of influencing the underlying model are described in [Training data section of the Monte Carlo documentation](https://docs.getmontecarlo.com/docs/tuning-thresholds#training-data) and are:  
+
+- Mark as normal: anomalies are automatically excluded from the set of data that trains models. This isn't a status of the incident per-se, this is a specific functionality you can access by hovering over the alert graph in Monte Carlo
+- Select training data: by interacting with the chart of a monitor, users can exclude periods of data from training models. They can also use exclusion windows to define periods of time that should be ignored for an entire warehouse, database, schema, or table. These can be one-off or set for recurring holidays.
+
 
 ## Note on DWH Permissions
 
