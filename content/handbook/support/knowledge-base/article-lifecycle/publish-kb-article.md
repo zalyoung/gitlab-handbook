@@ -1,5 +1,5 @@
 ---
-title: Publishing a Knowledge Base article
+title: Publishing a Knowledge article
 description: Steps to publish a KB article
 ---
 

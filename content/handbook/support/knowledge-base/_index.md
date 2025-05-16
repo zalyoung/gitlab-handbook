@@ -94,9 +94,10 @@ Integrating with Zendesk offers the following benefits:
 - Streamline “KCS”, adopting knowledge into the workflow 
 
 Knowledge base articles can be found at:
+
 - [Global support knowledge base](https://support.gitlab.com/hc/en-us/sections/15215649512604-Knowledge-Base)
 - [US Government support knowledge base](https://federal-support.gitlab.com/hc/en-us/sections/29015014994068-Knowledge-Base)
-  **Please Note: **US Government articles as of May 2, 2025 are no longer updated to be consistent with the Global Support Site. No new articles will be available on the US Government page until a later date. Date TBD. 
+  **Please Note:** US Government articles as of May 2, 2025 are no longer updated to be consistent with the Global Support Site. No new articles will be available on the US Government page until a later date. Date TBD. 
 
 ### Roles and Permissions
 

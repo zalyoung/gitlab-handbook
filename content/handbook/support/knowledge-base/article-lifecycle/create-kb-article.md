@@ -1,5 +1,5 @@
 ---
-title: Creating a Knowledge Base article
+title: Creating a Knowledge article
 description: Lifecycle of a KB article
 ---
 
@@ -9,4 +9,4 @@ Knowledge Base articles can be created within Zendesk.
 2. Choose the appropriate template 
 3. Change the TITLE of the article  
 4. Enter the details into the template   (Use ZenDuo to assist if needed)
-5. Save the Article 
+5. Save the Article

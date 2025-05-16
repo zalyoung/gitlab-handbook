@@ -31,78 +31,48 @@ Best Practices:
 
 **Style Guide here:**[ https://handbook.gitlab.com/handbook/support/knowledge-base/kb-style-guide/](https://handbook.gitlab.com/handbook/support/knowledge-base/kb-style-guide/)
 
-**Knowledge slides here: **[https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit#slide=id.g2d8fe3d02d9_0_27](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit#slide=id.g2d8fe3d02d9_0_27)
+[Knowledge slides](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit#slide=id.g2d8fe3d02d9_0_27)
 
 
-### Questions & Answers:
+### Questions & Answers
 
+#### Who do I contact if I need help with knowledge?
 
-<table>
-  <tr>
-   <td><strong>Who do I contact if I need help with knowledge?</strong>
-   </td>
-   <td>Use the Slack Channel <a href="https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk">#spt_Knowledge-base</a>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Where can I find more information about knowledge management and KCS?</strong>
-   </td>
-   <td>There are many slides (with a table of contents) available <a href="https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g12b319f6181_0_0#slide=id.g12b319f6181_0_0">HERE</a> 
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Is there Training for knowledge creation, modifying and Publishing?</strong>
-   </td>
-   <td>Yes! See training section HERE(LINK TO SECTION)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>How do I get access to be a Knowledge Champion/Technical Reviewer?</strong>
-   </td>
-   <td>Please talk with your manager, and let them know you wish to become a knowledge champion.  Then contact to get added to the Technical Reviewer list. Read more about Technical Reviewers responsibilities here.(LINK TO SECTION)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>How do I know if I am a Support Engineer or Knowledge Champion in ZenDesk? </strong>
-   </td>
-   <td>View the permission HERE (LINK NEEDED TO SECTION). 
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Who can Approve & Publish  my article?</strong>
-   </td>
-   <td>Please review the Technical reviewer list filtered by Region. \
-For a List of Technical Reviewers (by Geo) Click  <strong><a href="https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0">HERE</a></strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Can I use the “Request Article” feature in the Knowledge section?</strong>
-   </td>
-   <td>Unfortunately, no. Not at this time. Currently the button is enabled, and the information can be filled out, a ticket is created but it will be AUTO CLOSED and an email sent to the requestor.  \
-Please use the SLACK CHANNEL for help <a href="https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk">#spt_Knowledge-base </a>
-<p>
-Link to SECTION \
+Use the Slack Channel [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk)
 
+#### Where can I find more information about knowledge management and KCS?
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+There are many slides (with a table of contents) available [here](https://docs.google.com/presentation/d/1flmNz8K6SF5JLMFSFSV00v3lt1Z53UtuH3FgHtNQJEc/edit?slide=id.g12b319f6181_0_0#slide=id.g12b319f6181_0_0)
 
+#### Is there Training for knowledge creation, modifying and Publishing?
 
-<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+Yes! A list of available training resources is available [here](./knowledge-base-training)
 
-   </td>
-  </tr>
-  <tr>
-   <td><strong>What labels can I add?</strong>
-   </td>
-   <td>There versions pre-populated to choose from, or create your own relevant to the article.  The Labels help with search ranking. Versions would be good here!
-   </td>
-  </tr>
-</table>
+#### How do I become a Knowledge Champion/Technical Reviewer?
 
+Please talk with your manager, and let them know you wish to become a knowledge champion. Then contact {{< member-by-name "Kirsty Allen" >}} to get added to the Technical Reviewer list. Read more about Technical Reviewers responsibilities [here](_index.md#technical-reviewers-knowledge-champions).
 
- \
+#### How do I know if I am a Support Engineer or Knowledge Champion in ZenDesk?
 
+View the permission HERE (LINK NEEDED TO SECTION).
 
+#### Who can Approve & Publish my article?
+
+Please review the Technical reviewer list filtered by Region.  
+For a List of Technical Reviewers (by Geo) Click [**HERE**](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
+
+#### Can I use the "Request Article" feature in the Knowledge section?
+
+Unfortunately, no. Not at this time. Currently the button is enabled, and the information can be filled out, a ticket is created but it will be AUTO CLOSED and an email sent to the requestor.  
+Please use the SLACK CHANNEL for help [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mzk4OTQ3NC1lZDZjYjViODEzYzgxMjg0ZmZjY2Q5Mzc2ZTc1ZDQxZDkyZWRiYTA4ZmI0MmQyZWMyMjI3ZTMzMjgxYzdjYjVk)
+
+Link to SECTION
+
+![alt_text](images/image1.png)
+
+#### What labels can I add?
+
+There versions pre-populated to choose from, or create your own relevant to the article. The Labels help with search ranking. Versions would be good here!
 
 ---
 
