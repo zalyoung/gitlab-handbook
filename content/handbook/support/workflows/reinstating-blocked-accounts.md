@@ -137,7 +137,7 @@ If account is unblocked, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::
 
 If the final decision from Trust and Safety is that the user's account is not to be reinstated, apply the [`Support::SaaS::Gitlab.com::Blocked Accounts::RemainBlocked`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/RemainBlocked.md) macro. This will provide a standard statement to the user and the ticket **will be closed**.
 
-Applying the macro will provide the user no opportunity of reply via the existing ticket, care should be taken before applying the macro to ensure that this is the intended action.
+Applying the macro will provide the user no opportunity of reply through the existing ticket, care should be taken before applying the macro to ensure that this is the intended action.
 
 ## Banned accounts
 
