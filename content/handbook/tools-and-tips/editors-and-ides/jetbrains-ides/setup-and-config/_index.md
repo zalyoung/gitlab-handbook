@@ -113,9 +113,9 @@ This can be set up at the OS level so it works for all type of files. For exampl
 
 Toolbox Enterprise has been renamed to [IDE Provisioner in the IDE Services suite](https://www.jetbrains.com/ide-services/ide-provisioner/):
 
-> **_Propagate global IDE settings_**
+> *Propagate global IDE settings*
 >
-> _With IDE Provisioner, you can define and propagate global IDE settings to all instances of the IDEs running in your organization. Set custom VM options, limit maximum heap size, define default code styles, and manage other properties on a per-profile, per-team, or company-wide basis._
+> *With IDE Provisioner, you can define and propagate global IDE settings to all instances of the IDEs running in your organization. Set custom VM options, limit maximum heap size, define default code styles, and manage other properties on a per-profile, per-team, or company-wide basis.*
 
 ### UPDATE 2024-04
 
