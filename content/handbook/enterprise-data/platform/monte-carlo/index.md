@@ -102,7 +102,7 @@ Each MonteCarlo incident has always a status. See the folowwing list when to use
 | No Status           | Default status by MonteCarlo                                                                                                                  | Start investigating and update status                                                  |
 
 
-### Updating the training data
+### Providing feedback to the anomaly detection model
 
 Important to notice: The status of an anomaly (any of the incident statuses above) will not be directly fed into the model in a feedback loop.  
 
