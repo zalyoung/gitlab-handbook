@@ -195,7 +195,7 @@ Program type is included on the smart campaign meant to clear `dietary restricti
 
 #### Partner - MDF
 
-This is for an activity that our partner is executing utilizing MDF Funds. We track membership, but the partner, not GitLab follows up with these leads. See more details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
+This is for an activity that our Channel Partner is executing utilizing MDF Funds. We track membership, but the partner, not GitLab follows up with these leads. See more details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#mdf-campaigns).
 
 **Bizible:** This is tracked as an _offline_ channel. Touchpoints for offline channels are created through our AMM (formerly known as Bizible) campaign sync rules that can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1xR2Q7YKskfNaxclnfGOkK8Vi739zdKypQ6GgF9MLG58/edit#gid=92970564).
 
@@ -502,16 +502,16 @@ Joint GitLab/Partner campaigns when GitLab Field Marketing team fully funds and 
 
 Hyperscaler Campaigns are strategic marketing initiatives conducted in partnership with our Hyperscaler allies. These marketing activities including Executive Roundtables, Vendor-Arranged Meetings, Conferences, Owned events and more.
 
-For campaign setup, utilize the Marketo templates available in [Hybrid](/handbook/marketing/campaigns-and-programs/#hybrid-marketo-templates) and [Other Tactic](/handbook/marketing/campaigns-and-programs/#other-tactic-marketo-templates) section below.
+For campaign setup, utilize the Marketo templates available in [Hybrid](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates) and [Other Tactic](/handbook/marketing/marketing-operations/campaigns-and-programs/#other-tactic-marketo-templates) section below.
 
 Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
 
 - When you manage a Hyperscaler Campaign without Funds:
-   - Add the Hyperscaler Partner name after the date: `YYYYMMDD_AWS_ExecutiveRoundtable_Topic_Region_EventType`. 
+  - Add the Hyperscaler Partner name after the date: `YYYYMMDD_AWS_ExecutiveRoundtable_Topic_Region_EventType`. 
 - When you manage a Hyperscaler Campaign with MDF from the Hyperscaler Partner:
-   - Add the Hyperscaler Partner name after the date, and "MDF": `YYYYMMDD_AWS _MDF_ExecutiveRoundtable_Topic_Region_EventType`. 
+  - Add the Hyperscaler Partner name after the date, and "MDF": `YYYYMMDD_AWS _MDF_ExecutiveRoundtable_Topic_Region_EventType`. 
 - When you manage a Hyperscaler Campaign with Credits from the Hyperscaler Partner:
-   - Add the Hyperscaler Partner name after the date and "CR" for Credits: `YYYYMMDD_GCP _CR_ExecutiveRoundtable_Topic_Region_EventType`. 
+  - Add the Hyperscaler Partner name after the date and "CR" for Credits: `YYYYMMDD_GCP _CR_ExecutiveRoundtable_Topic_Region_EventType`. 
 
 Special Instructions for Content Syndication Teams: Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name
 
@@ -519,7 +519,6 @@ Please add a Hyperscaler Campaign, funded by Hyperscaler, to the Hyperscaler Fun
 
 **Important Lead Ownership Note:** All leads generated through Hyperscaler campaigns remain under GitLab's excl
 usive ownership. These contacts enter our standard nurturing process, accumulating lead score according to engagement metrics. Upon reaching MQL status, they're automatically assigned to the appropriate BDR/SDR team for personalized follow-up.
-
 
 ##### Hybrid Marketo Templates
 
