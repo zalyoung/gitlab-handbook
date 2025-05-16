@@ -1,6 +1,9 @@
 ---
 title: "GitLab Token Management Standard"
 description: "This is the GitLab Token Management Standard. It defines approved GitLab token usage, and distribution for the purposes of providing authentication and authorization within various systems and subsystems used by GitLab."
+aliases:
+- /handbook/security/token-management-standard
+note: Do not remove alias due to extensive external use where it cannot be updated.
 ---
 
 ## Purpose
@@ -94,7 +97,7 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
     - Impersonation Tokens – 24 hours
     - Runner Tokens – 1 year
     - Runner Registration Keys – 72 hours
-1. The "random" part of a token (excluding prefixes and other additions) will be generated using a [FIPS-certified and cryptographically-approved algorithm](/handbook/security/cryptographic-standard/).
+1. The "random" part of a token (excluding prefixes and other additions) will be generated using a [FIPS-certified and cryptographically-approved algorithm](/handbook/security/standards/cryptographic-standard/).
 
 ### Token Storage
 

@@ -255,11 +255,11 @@
 /content/handbook/enterprise-data/ @amiebright
 
 ^[entity]
-/content/handbook/entity/ @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
+/content/handbook/entity/ @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @kiacobucci
 
 [Entity required approvals]
-/content/handbook/entity/iberia-srl-spain.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
-/content/handbook/entity/israel-ltd.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/entity/iberia-srl-spain.md @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup @kiacobucci
+/content/handbook/entity/israel-ltd.md @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup @kiacobucci
 
 ^[finance]
 /content/handbook/finance/ @brobins
@@ -320,13 +320,13 @@
 /content/handbook/marketing/account-based-marketing/ @megan_odowd @marcigee
 /content/handbook/marketing/blog/ @dsteer @Sgittlen
 /content/handbook/marketing/blog/release-posts/  @justinfarris @dsteer @Sgittlen
-/content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
+/content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @meilynda @ttran5 @kparisi
 /content/handbook/marketing/channel-marketing/ @laurafagan
 /content/handbook/marketing/corporate-communications/ @cweaver1 @bill_staples
 /content/handbook/marketing/corporate-communications/incident-communications-plan.md @robin @johncoghlan @award4
 /content/handbook/marketing/corporate-communications/resources-trainings.md @cweaver1 @award4
 /content/handbook/marketing/demand-generation/ @bill_staples
-/content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
+/content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @meilynda @ttran5 @kparisi
 /content/handbook/marketing/developer-relations/ @esalvadorp @bill_staples
 /content/handbook/marketing/developer-relations/cocreate/ @esalvadorp @nick_vh @stingrayza
 /content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @nick_vh @daniel-murphy @janasenap
@@ -411,22 +411,22 @@
 /content/handbook/company/structure.md @rallen3  @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell
 /content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @jconnors3
 /content/handbook/leadership/underperformance.md @rallen3 @cbednarz @glucchesi
-/content/handbook/people-group/ @rallen3 @cbednarz @mpatel8 @cgudgenov
-/content/handbook/people-group/celebrations.md @rallen3 @mpatel8 @ameeks
+/content/handbook/people-group/ @rallen3 @cbednarz @cgudgenov @kiacobucci
+/content/handbook/people-group/celebrations.md @rallen3 @ameeks @kiacobucci
 /content/handbook/people-group/competencies.md @rallen3 @glucchesi @cbednarz
-/content/handbook/people-group/contracts-probation-periods.md @mpatel8 @ameeks @shensiek @alex_venter @Mowry
+/content/handbook/people-group/contracts-probation-periods.md @ameeks @shensiek @alex_venter @Mowry @kiacobucci
 /content/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
 /content/handbook/people-group/employment-branding/people-communications.md @drogozinski @rallen3
 /content/handbook/people-group/engagement.md @drogozinski @rallen3
 /content/handbook/people-group/employment-solutions.md @hdevlin @rallen3
 /content/handbook/people-group/engineering/ @anechan
-/content/handbook/people-group/general-onboarding/ @mpatel8 @ameeks @Mowry @alex_venter @ashleyjones
-/content/handbook/people-group/offboarding/ @rallen3 @ameeks @mpatel8
+/content/handbook/people-group/general-onboarding/ @ameeks @Mowry @alex_venter @ashleyjones @kiacobucci
+/content/handbook/people-group/offboarding/ @rallen3 @ameeks @kiacobucci
 /content/handbook/people-group/organizational-change-management.md @rallen3
 /content/handbook/people-group/paid-time-off.md @dgoodgame @teranay @JacquelineG
 /content/handbook/people-group/people-business-partners/_index.md @cbednarz @anjali_kaufmann
 /content/handbook/people-group/people-compliance/ @cgudgenov
-/content/handbook/people-group/promotions-transfers.md @rallen3 @mpatel8
+/content/handbook/people-group/promotions-transfers.md @rallen3 @kiacobucci
 /content/handbook/people-group/pronouns.md @klang @ahanselka @lmcnally1
 /content/handbook/people-group/talent-assessment.md @rallen3 @glucchesi @cbednarz
 /content/handbook/people-group/team-member-relations.md @atisdale @lyndemeiers @dgoodgame @AndreaWalsh @rallen3
@@ -443,7 +443,7 @@
 [People Group required approvals]
 /content/handbook/labor-and-employment-notices/ @rallen3 @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
 /content/handbook/people-group/anti-harassment.md @anjali_kaufmann @rallen3 @emilyplotkin @gitlab-com/content-sites @gitlab-com/egroup
-/content/handbook/people-group/relocation.md @rallen3 @mpatel8 @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/people-group/relocation.md @rallen3 @gitlab-com/content-sites @gitlab-com/egroup @kiacobucci
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Policies required approvals]
@@ -564,7 +564,7 @@
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [Security Operations]
-/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
@@ -703,16 +703,16 @@
 /content/handbook/it/end-user-services/onboarding-access-requests/_index.md @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/acceptable-use-policy.md @rallen3 @emilyplotkin @gitlab-com/egroup @gitlab-com/content-sites @bill_staples
-/content/handbook/people-group/offboarding/offboarding_standards.md @rallen3  @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/people-group/offboarding/offboarding_standards.md @rallen3 @gitlab-com/egroup @gitlab-com/content-sites @kiacobucci
 /content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @rallen3 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/cryptographic-standard.md @joshlemos @jlongo_gitlab @juliedavila @mloveless @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/cryptographic-standard.md @joshlemos @jlongo_gitlab @juliedavila @mloveless @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @corey-oas @cynthiamiller
-/content/handbook/security/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @jdicken
+/content/handbook/security/standards/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites @jdicken
 /content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/standards/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-and-technology-policies/audit-logging-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/governance/sec-training.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites

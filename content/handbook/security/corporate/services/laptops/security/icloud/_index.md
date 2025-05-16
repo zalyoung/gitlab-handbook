@@ -10,7 +10,7 @@ To help protect company data and improve collaboration, any yellow, orange, or r
 
 iCloud has the ability to store desktop and documents in iCloud. GitLab uses Google Drive for document and file storage, so please make sure this feature is disabled. This can be unchecked during installation or reconfigured later using the instructions below.
 
-- [Company Policy - Data Classification Standard](/handbook/security/data-classification-standard/)
+- [Company Policy - Data Classification Standard](/handbook/security/standards/data-classification-standard/)
 
 ## Configuration Steps
 

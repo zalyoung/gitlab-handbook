@@ -480,7 +480,7 @@
   - PII
   use_instead:
   - Personal Data
-  reason: PII is not the term used in most privacy laws and by definition PII is more narrow that what is legislated under global privacy laws. Personal Data is described in [in the Privacy Handbook](https://handbook.gitlab.com/handbook/legal/privacy/#privacy-terms) and [the GitLab Data Classification Levels](https://handbook.gitlab.com/handbook/security/data-classification-standard.html).
+  reason: PII is not the term used in most privacy laws and by definition PII is more narrow that what is legislated under global privacy laws. Personal Data is described in [in the Privacy Handbook](https://handbook.gitlab.com/handbook/legal/privacy/#privacy-terms) and [the GitLab Data Classification Levels](https://handbook.gitlab.com/handbook/security/standards/data-classification-standard.html).
   exclude_from_exports: false
 
 - avoid:

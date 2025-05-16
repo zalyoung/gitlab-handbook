@@ -81,7 +81,7 @@ See below for high level recommendations to leverage when evaluating professiona
 
 ### TPRM Assessment Requirements
 
-The following table defines the procedures followed by TPRM engineers for vendors accessing or being transmitted different [classifications of GitLab data](/handbook/security/data-classification-standard/). The below procedures are initiated during the [Procurement](/handbook/finance/procurement/#--what-is-the-procurement-process-at-gitlab) process and are followed in all instances where applicable vendors have not been reviewed within the approval windows defined below. **Misalignment with [TPRM's Minimum Security Standards](#third-party-minimum-security-standards) may result in denial of a vendor requisition or issuance of a Security Notice.** If a Security Notice was documented at the time of the previous assessment, inquiry will be performed prior to requisition approval to determine the current status of the identified deficiencies. Depending on the nature of the deficiency, a new TPRM assessment may be required. Any updates will be documented within the Security Notice Issue.
+The following table defines the procedures followed by TPRM engineers for vendors accessing or being transmitted different [classifications of GitLab data](/handbook/security/standards/data-classification-standard/). The below procedures are initiated during the [Procurement](/handbook/finance/procurement/#--what-is-the-procurement-process-at-gitlab) process and are followed in all instances where applicable vendors have not been reviewed within the approval windows defined below. **Misalignment with [TPRM's Minimum Security Standards](#third-party-minimum-security-standards) may result in denial of a vendor requisition or issuance of a Security Notice.** If a Security Notice was documented at the time of the previous assessment, inquiry will be performed prior to requisition approval to determine the current status of the identified deficiencies. Depending on the nature of the deficiency, a new TPRM assessment may be required. Any updates will be documented within the Security Notice Issue.
 
 | Data<br>Classification | Request | Supplemental<br>Questionnaire | Okta SSO? | New BIA /<br>Tech Stack Entry? | Bitsight<br>Review? | Evidence of PenTest<br>and BCP Testing |
 | ------ | ------ |------ |------ |------ |------ | ------ |
@@ -95,7 +95,7 @@ The following table defines the procedures followed by TPRM engineers for vendor
 
 ## Procedures
 
-Where GitLab controls, owns, or is otherwise responsible for data, the diagram below depicts TPRM procedures based on the [Data Classification](/handbook/security/data-classification-standard/) of data shared with the third party.
+Where GitLab controls, owns, or is otherwise responsible for data, the diagram below depicts TPRM procedures based on the [Data Classification](/handbook/security/standards/data-classification-standard/) of data shared with the third party.
 
 {{% details summary="(Expand to view chart)" %}}
 
@@ -177,7 +177,7 @@ graph TB
 
 TPRM procedures are guided by the vendor's Inherent and Residual Risk levels, which are determined based on the services provided and the nature of data shared. An understanding of these risks is crucial in making an informed business decision for leveraging a vendor.
 
-**Inherent Risk** is the vendor's baseline risk level before accounting for mitigating controls required by GitLab's Third Party Risk Management Program. GitLab uses the [sensitivity of the data exchanged with the vendor](/handbook/security/data-classification-standard/#data-classification-levels) to establish the baseline risk level, which dictates our [TPRM assessment requirements](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements)
+**Inherent Risk** is the vendor's baseline risk level before accounting for mitigating controls required by GitLab's Third Party Risk Management Program. GitLab uses the [sensitivity of the data exchanged with the vendor](/handbook/security/standards/data-classification-standard/#data-classification-levels) to establish the baseline risk level, which dictates our [TPRM assessment requirements](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements)
 
 |Inherent Risk Level|Data Classification|
 |:---------:|:--------------:|
@@ -214,7 +214,7 @@ Deficiencies commonly identified during our TPRM procedures are listed below:
 
 1. Lack of third-party Security attestation such as an ISO 27001, SOC2 Type 2
 1. Lack of background checks for employees and contractors
-1. Inability to integrate with [Okta](/handbook/it/okta/#what-is-okta)* (in alignment with [GitLab's Password Standard](/handbook/security/password-standard/#application-authentication-requirements))
+1. Inability to integrate with [Okta](/handbook/it/okta/#what-is-okta)* (in alignment with [GitLab's Password Standard](/handbook/security/standards/password-standard/#application-authentication-requirements))
    - If the Okta integration is not in place or not possible, native multi-factor authentication (MFA) capabilities can be a mitigating control.
 1. Systems lacking evidence of a recent penetration test
 1. Unresolved deficiencies documented within the penetration test with no apparent remediation plan or expected remediation date
@@ -485,7 +485,7 @@ In specific instances, requirements for the performance or contents of TPRM revi
 ## References
 
 - [GCF Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
+- [Data Classification Standard](/handbook/security/standards/data-classification-standard/)
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
 - [App Integrations (Team Member Enablement)](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/)
 - [Observation Management Procedure](/handbook/security/security-assurance/observation-management-procedure/)

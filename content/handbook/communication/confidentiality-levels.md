@@ -11,7 +11,7 @@ At GitLab, we are [public by default](/handbook/values/#public-by-default), but 
 
 We make things public by default because [transparency is one of our values](/handbook/values/#transparency).
 Some things can't be made public and are either [internal](#internal) to the company or have [limited access](#limited-access) even within the company.
-If something isn't listed in the sections below please refer to Security's [Data Classification Standard](/handbook/security/data-classification-standard/) and Legal's [SAFE Framework](/handbook/legal/safe-framework/) in the Handbook for additional guidance.
+If something isn't listed in the sections below please refer to Security's [Data Classification Standard](/handbook/security/standards/data-classification-standard/) and Legal's [SAFE Framework](/handbook/legal/safe-framework/) in the Handbook for additional guidance.
 
 ### Internal
 
