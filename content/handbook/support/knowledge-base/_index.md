@@ -168,7 +168,7 @@ Technical Reviewers are expected to:
 
 Questions can be asked in the dedicated [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) Slack channel.
 
-For any issues with permissions, please use the knowledge dedicated Slack channel:  [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) - and  tag  or open an [Issue](https://gitlab.com/gitlab-com/support/support-team-meta) and tag Kirsty Allen.
+For any issues with permissions, please use the knowledge dedicated Slack channel:  [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) - and  tag  or open an [Issue](https://gitlab.com/gitlab-com/support/support-team-meta) and tag {{< member-by-name "Kirsty Allen" >}}.
 
 ### Using AI to generate content
 

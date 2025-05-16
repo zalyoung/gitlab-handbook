@@ -54,7 +54,7 @@ Review the [Technical Reviewers responsibilities](_index.md#technical-reviewers-
 
 Please talk with your manager, and let them know you wish to become a knowledge champion.
 
-Contact Kirsty Allen to get added to the Technical Reviewer list. 
+Contact {{< member-by-name "Kirsty Allen" >}} to get added to the Technical Reviewer list. 
 
 ### How do I know if I am a Support Engineer or Knowledge Champion in ZenDesk?
 
@@ -71,4 +71,4 @@ Please use the [#spt_Knowledge-base](https://join.slack.com/share/enQtODg0OTU5Mz
 
 ### What labels can I add?
 
-There are pre-populated labels to choose from, or create your own relevant to the article. Please avoid creating new labels without consulting with Kirsty Allen.
+There are pre-populated labels to choose from, or create your own relevant to the article. Please avoid creating new labels without consulting with {{< member-by-name "Kirsty Allen" >}}.
