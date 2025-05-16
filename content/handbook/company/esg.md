@@ -1,5 +1,5 @@
 ---
-title: GitLab Environmental, Social, and Governance
+title: GitLab Environmental, Social, and Governance (ESG)
 description: "An overview of corporate sustainability at GitLab."
 ---
 
