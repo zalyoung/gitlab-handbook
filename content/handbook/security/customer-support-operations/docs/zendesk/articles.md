@@ -41,4 +41,3 @@ This is a permanent action
 {{% /alert %}}
 
 For information on deleting an article, please see [Zendesk documentation](https://support.zendesk.com/hc/en-us/articles/4408832480154-Permanently-deleting-a-knowledge-base-article#comment_4668199360922).
-
