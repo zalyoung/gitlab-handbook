@@ -82,7 +82,7 @@ cycle of source code:
 
 - Do not roll your own crypto (also one of our [Security Architecture Principles](#security-architecture-principles)
 )
-- Reference our [GitLab Cryptography Standard](/handbook/security/cryptographic-standard/)
+- Reference our [GitLab Cryptography Standard](/handbook/security/standards/cryptographic-standard/)
 
 <!-- Add FIPS and FedRamp requirements here when available -->
 
@@ -162,7 +162,7 @@ Make attacks less attractive.
 #### Examples
 
 - A system/service that only needs to read git commits should not be able to access user data
-- GitLab team members don't have access to billing data, nor anything else [classified red data](/handbook/security/data-classification-standard/)
+- GitLab team members don't have access to billing data, nor anything else [classified red data](/handbook/security/standards/data-classification-standard/)
 
 #### Links
 
