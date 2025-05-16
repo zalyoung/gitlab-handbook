@@ -31,7 +31,7 @@ Both department-level and company-wide mentorship programs have their own unique
 
 ### Benefits for the mentee
 
-1. Be encouraged to prioritize, and be held accountable for, your [career development](/handbook/people-group/learning-and-development/career-development/)
+1. Be encouraged to prioritize, and be held accountable for, your [career development](/handbook/people-group/talent-management-and-development/programs/career-development/)
 1. Learn new skills related to your current role, your future career goals, or an area that you're passionate about
 1. Set and reach clearly outlined [goals](/handbook/company/okrs).
 
