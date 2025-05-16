@@ -6,12 +6,14 @@ security review along with the type of review that needs to be conducted."
 
 ## Security Review Framework
 
-This security review framework for GitLab establishes a systematic approach to evaluating and reviewing features based on appropriate security team 
-engagement and risk assessment. The framework aims to balance security requirements with development velocity by directing security resources where 
-they can have the most impact. The process begins with team routing to identify whether Secure Design and Development or Infrastructure Security 
-should lead the review, with Security Platforms and Architecture (SPA) automatically engaged for High or Critical risk scores.
+This security review framework for Product Security teams at GitLab aims to establish a systematic approach to evaluating and reviewing features based on 
+appropriate security team engagement and risk assessment. The framework aims to balance security requirements with development velocity by directing 
+security resources where they can have the most impact. The process begins with team routing to identify whether Secure Design and Development and/or 
+Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teamss automatically engaged 
+for High or Critical risk scores.
 
-How the security review framework fits into the Security Review Process is visualized in the [Overall Process flow](#overall-process-flow) section.
+How the security review framework fits into the Security Review Process for Product Security is visualized in the 
+[Overall Process flow](#overall-process-flow) section.
 
 ### Framework purpose
 
