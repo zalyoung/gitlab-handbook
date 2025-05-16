@@ -48,15 +48,14 @@ Dashboards are at the heart of how our customers interact with their data. It is
 and use it to meet their business needs.
 
 However, at GitLab, our dashboards have always been inherently feature-focused, without clear UX guidance or
-common UI framework instructing _how_ to build a dashboard. The result is that there is no single Dashboard
-experience for across GitLab. The impact of which is that customers have an inconsistent user experience
-and have to learn how to use each dashboard and that and development teams cannot easily exchange or reuse
-between existing dashboards resulting in increased development time and maintenance cost.
+common UI framework instructing _how_ to build a dashboard. The result is an inconsistent user experience across GitLab for customers.
+Additionally for development teams, there is no way to easily exchange or reuse
+existing dashboards resulting in increased development time and maintenance cost.
 
 ~"group::platform insights" is leading the design, development, and implementation of the unified dashboard vision at GitLab.
 This vision began with the [Dashboards Working Group](../../../../company/working-groups/dashboards.md) and in March 2023 culminated in a
-new [Pajamas dashboards pattern](https://design.gitlab.com/patterns/dashboards/). This pattern laid the groundwork for what a dashboard
-is at a basic level.
+new [Pajamas dashboards pattern](https://design.gitlab.com/patterns/dashboards/) that laid the groundwork for what a dashboard
+is.
 
 Since then, ~"group::platform insights" has developed an [initial dashboards framework](https://docs.gitlab.com/development/fe_guide/analytics_dashboards/) for the analytics feature space.
 This was built off the initial work for [Product Analytics](https://docs.gitlab.com/development/internal_analytics/product_analytics/).
@@ -108,9 +107,8 @@ The structure outlined below describes what this will include, and how they will
 
 ### The grid
 
-In line with our design definition of a [Grid](https://design.gitlab.com/patterns/dashboards/), we require a system
-uses rows and columns to snap panels into position. The system should allow panels to be resized and repositioned in a
-deterministic and cross-browser friendly way.
+In line with our design definition of a [Grid](https://design.gitlab.com/patterns/dashboards/), we require a cross-browser system
+of rows and columns to snap panels into position. Panels must be able to be resized and repositioned in a deterministic and user friendly way.
 
 The grid itself will support 12 columns, with an unlimited number of rows. Grid panels can be up to 12 columns wide,
 allowing 1–12 panels per row. The height of a panel can be between 1 row and unlimited, enabling it to span any number
@@ -180,7 +178,7 @@ data over the past 24 hours, the panel will visually indicate to the user that i
 
 ### Error handling
 
-In the event of an error, the UI should handle these and explain to the user how they can fix the error, or at the very least, why it has failed.
+In the event of an error, the UI should display a useful error message and include corrective steps where available.
 When possible, errors should provide a retry button, or another next-step for users.
 
 Page-level errors should use the [Pajama's alert component](https://design.gitlab.com/components/alert).
