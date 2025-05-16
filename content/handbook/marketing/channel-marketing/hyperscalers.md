@@ -143,53 +143,53 @@ The Channel Marketing Manager will be responsible for opening the Allocadia acti
 
 1. Create subcategory and line item
 
-  - Different accounting approaches apply based on the hyperscaler. AWS campaigns show both the positive contribution and the matching negative amount, while GCP campaigns show the full reimbursable amount. 
+    1. Different accounting approaches apply based on the hyperscaler. AWS campaigns show both the positive contribution and the matching negative amount, while GCP campaigns show the full reimbursable amount. 
 
 2. Details panel
 
-  - Planning:
+    1. Planning:
 
-    - New FO or Growth
-    - Target MQL (syncs to SFDC Planned MQL)
-    - Target Pipeline (syncs to SFDC Planned Pipeline)
-    - Sales Dev Onsite Support
-    - Sales Dev Invite Support
-    - Subcategory (FM)
-    - GTM Motion
-    - Start Date
-    - End Date
-    - Triple Play
-    - Embedded Systems
-    - Is Hyperscaler Involved? = True
-    - Hyperscaler
-    - Will there be Hyperscaler funding?
-    - Hyperscaler Funding Amount
-    - SA Support
-    - Segment
-    - Geo
-    - Country
+       1. New FO or Growth
+       2. Target MQL (syncs to SFDC Planned MQL)
+       3. Target Pipeline (syncs to SFDC Planned Pipeline)
+       4. Sales Dev Onsite Support
+       5. Sales Dev Invite Support
+       6. Subcategory (FM)
+       7. GTM Motion
+       8. Start Date
+       9. End Date
+       10. Triple Play
+       11. Embedded Systems
+       12. Is Hyperscaler Involved? = True
+       13. Hyperscaler
+       14. Will there be Hyperscaler funding?
+       15. Hyperscaler Funding Amount
+       16. SA Support
+       17. Segment
+       18. Geo
+       19. Country
 
-  - Wishlist/Cancelled
+    2. Wishlist/Cancelled
 
-    - Cancelled
+       1.  Cancelled
 
-  - Campaign Details
+    3.  Campaign Details
 
-    - Existing Salesforce Campaign
-    - Campaign Link
-    - Campaign Owner 
-    - Campaign Type
-    - Budget Holder = Hyperscaler 
+       1. Existing Salesforce Campaign
+       2. Campaign Link
+       3. Campaign Owner 
+       4. Campaign Type
+       5. Budget Holder = Hyperscaler 
 
-  - GitLab Issue Details
+    4. GitLab Issue Details
 
-    - Operational Program Owner = Francine
-    - Partner User Handle = @fanthony2
-    - Requester User Handle 
-    - GitLab Issue Template = Hyperscaler
-    - Official Event/Campaign Name 
-    - GitLab Marketing Issue Link (Auto-populated)
-    - GitLab Issue URL Reference (Manual entry)
+       1. Operational Program Owner = Francine
+       2. Partner User Handle = @fanthony2
+       3. Requester User Handle 
+       4. GitLab Issue Template = Hyperscaler
+       5. Official Event/Campaign Name 
+       6. GitLab Marketing Issue Link (Auto-populated)
+       7.  GitLab Issue URL Reference (Manual entry)
 
 3. Action: Create GitLab Hyperscaler Funded Issue in the Field Marketing GitLab Project
 
@@ -199,16 +199,16 @@ The GitLab Hyperscaler Funded Campaign issue will be used as an intermediate ste
 
 1. Channel Marketing Manager will be responsible for entering the details include region and activity quarter labels to GitLab Hyperscaler Funds issue.
 2. Program Manager will request for invoice from AR using the finance issue, including PO and payment terms. MDF - [Example](https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/6464)  
-3. Once the GitLab Hyperscaler Funds issue details are complete, Channel Marketing Manager adds the `Asana-Sync-Project` to the GitLab Hyperscaler Funds issue and ping the FMM and FMC to start the [Plan to WIP process](https://handbook.gitlab.com/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip)
+3. Once the GitLab Hyperscaler Funds issue details are complete, Channel Marketing Manager adds the `Asana-Sync-Project` to the GitLab Hyperscaler Funds issue and ping the FMM and FMC to start the [Plan to WIP process](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip)
 4. Channel Markting Manager will add the Asana project link to the Resources section above
 
 #### Asana Project
  
-To accommodate the Field Marketing process in Asana, we have integrated the steps for Hyperscaler Funded Campaigns into the [Plan to WIP](https://handbook.gitlab.com/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip).
+To accommodate the Field Marketing process in Asana, we have integrated the steps for Hyperscaler Funded Campaigns into the [Plan to WIP](/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip).
 
 ##### Pre-Event
 
-1. Create Marketo/ SFDC campaign with add the Hyperscaler Name and Hyperscaler Fund Type after the date in the Campaign Name - reference a handbook for [naming convention](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup). _Examples: 20250307_AWS_MDF_ActivityType_ActivityName_Region;
+1. Create Marketo/ SFDC campaign with add the Hyperscaler Name and Hyperscaler Fund Type after the date in the Campaign Name - reference a handbook for [naming convention](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup). _Examples: 20250307_AWS_MDF_ActivityType_ActivityName_Region;
 20250307_GCP_CR_ActivityType_ActivityName_Region
 
    1. Create Marketo program under the [Hyperscaler Funded Campaign folder](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/MF27058A1)
