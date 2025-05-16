@@ -618,13 +618,9 @@ These actions will be applied to open issues:
 - Open issues and merge requests will be moved to the next milestone, and
   labeled with `~"missed:x.y"`.
 - `~"missed-deliverable"` will also be added whenever `~"Deliverable"`
-    is presented.
+  is presented.
 
 Milestones are closed when the Delivery team no longer needs to create a backport release for a specific milestone.
-
-## Kickoff Public Stream Instructions
-
-The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/company/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 

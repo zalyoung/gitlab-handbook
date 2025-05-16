@@ -108,7 +108,7 @@ The image GitLab projects to the public is reflected in the appearance of our te
 
 ### Job Abandonment
 
-When a team member is absent from work for **three consecutive workdays**, there is no entry on the availability calendar for time off, and fails to contact their supervisor, they may be [terminated](/handbook/people-group/offboarding/#involuntary-terminations) for job abandonment unless otherwise required by law. If a manager is unable to reach a team member via email or Slack within a 24 hour period they should contact their [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group). The People Business partner will access the team member's information to obtain additional contact methods and numbers. The manager and People Business Partner will create an action plan to make all attempts to contact the team member. 
+When a team member is absent from work for **three consecutive workdays**, there is no entry on the availability calendar for time off, and fails to contact their supervisor, they may be [terminated](/handbook/people-group/offboarding/#involuntary-terminations) for job abandonment unless otherwise required by law. If a manager is unable to reach a team member via email or Slack within a 24 hour period they should contact their [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group). The People Business partner will access the team member's information to obtain additional contact methods and numbers. The manager and People Business Partner will create an action plan to make all attempts to contact the team member.
 
 Throughout this process, managers and People Business Partners must maintain detailed records of: dates and times of all contact attempts, methods used for each attempt, any responses or information received, consultation with other GitLab teams (if applicable), and jurisdiction-specific considerations.
 
@@ -341,7 +341,7 @@ The handbook also has a wealth of information and recommendations for setting up
 
 - [How to Create an Ergonomic Workspace](/handbook/company/culture/all-remote/tips/#create-an-ergonomic-workspace)
 - [Focus your Workspace](/handbook/company/culture/all-remote/getting-started/#focus-your-workspace)
-- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](//handbook/total-rewards/benefits/modern-health/)
+- [Combating Burnout, Isolation, and Anxiety in a Remote Workplace](/handbook/total-rewards/benefits/modern-health/)
 - [Considerations for a Productive Home Office](/handbook/company/culture/all-remote/workspace/#introduction)
 - [Equipment Examples](/handbook/finance/procurement/office-equipment-supplies/)
 

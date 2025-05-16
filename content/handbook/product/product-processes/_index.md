@@ -971,7 +971,6 @@ on these artifacts via these (non-exhaustive) opportunities:
 - [Meet with customers directly.](#customer-meetings)
 - Participate in the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board).
 - Talk with GitLab team-members using GitLab.
-- Talk with GitLab team-members in [group conversations](/handbook/company/group-conversations/).
 - Talk with other PMs and [Product leadership](/handbook/product/product-leaders/product-leadership/) to align your stage's product direction with the rest of GitLab.
 
 Here is some guidance for new PMs to ensure your stage direction, category strategies and plan
@@ -1135,17 +1134,17 @@ is the [GitLab Product Customer Advisory Board](/handbook/product/product-proces
 
 You may be asked by the CAB to present your stage or a specific product offering at these meetings.  Here are some guidelines for presenting:
 
-1. Product Focused Highlights: All presentation materials should be focused on products we plan to launch or evaluating products we have available to customers. 
+1. Product Focused Highlights: All presentation materials should be focused on products we plan to launch or evaluating products we have available to customers.
 
-1. Emphasize Dialogue over Monologue: Structure your presentation to encourage meaningful two-ways discussions. 
+1. Emphasize Dialogue over Monologue: Structure your presentation to encourage meaningful two-ways discussions.
 
-1. Prepare Targeted Questions: Develop 2-3 specific, through provoking questions to engage members in conversation. These questions should be focused on presentation, strategic decisions GitLab is currently grappling in your stage that you would like to gather customer feedback on, or a question related directly to customer workflows. 
+1. Prepare Targeted Questions: Develop 2-3 specific, through provoking questions to engage members in conversation. These questions should be focused on presentation, strategic decisions GitLab is currently grappling in your stage that you would like to gather customer feedback on, or a question related directly to customer workflows.
 
-1. Connect to Previous Feedback: Reference previous feedback you have received from advisory meetings in the past. This will help illustrate to CAB members the value of their time and that GitLab takes their recommendations into consideration. 
+1. Connect to Previous Feedback: Reference previous feedback you have received from advisory meetings in the past. This will help illustrate to CAB members the value of their time and that GitLab takes their recommendations into consideration.
 
-1. Prompt Follow Through: Document key insights and actions items during your session. 
+1. Prompt Follow Through: Document key insights and actions items during your session.
 
-1. Be Prepared: Be sure to prepare for the meeting ahead of time independently. 
+1. Be Prepared: Be sure to prepare for the meeting ahead of time independently.
 
 Please review [GitLab Product Customer Advisory Board Page](/handbook/product/product-processes/customer-advisory-board/) for more details.
 
