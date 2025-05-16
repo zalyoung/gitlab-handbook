@@ -228,7 +228,7 @@ approach to help streamline the creation, management, and deployment of document
 Some Technical Writers are members of the [DocOps group](https://gitlab.com/gitlab-org/technical-writing/tw-docops), which is responsible for:
 
 - Maintaining content quality through testing and linting in CI and on your local machine.
-- Assisting [Docs Engineers](https://handbook.gitlab.com/job-families/product/ux-fullstack-engineer/) with operations tasks when asked, or when those engineers are not online. For example,
+- Assisting [Docs Engineers](/job-families/product/ux-fullstack-engineer/) with operations tasks when asked, or when those engineers are not online. For example,
 helping with Pages configuration, deployments, scheduled pipelines, and review apps.
 - Updating dependencies for linting tools, and rolling those updates out in upstream documentation projects.
 The DocOps group is not responsible for the documentation website's code, infrastructure, or build scripts. 
