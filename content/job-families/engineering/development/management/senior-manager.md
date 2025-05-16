@@ -4,56 +4,57 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-Engineering Managers at GitLab see their team as their product.
-While they are technically credible and know the details of what engineers work on,
-their time is spent safeguarding their team's health, hiring a world-class team,
-and putting them in the best position to succeed. They own the delivery of product commitments and are always looking to improve productivity.
-They must also coordinate across departments to accomplish collaborative goals.
-Engineering Leadership at GitLab is cross-discipline.
-A [Senior Engineering Manager](/job-families/engineering/development/management/senior-manager)
-manages [Engineering Managers](/job-families/engineering/development/management/engineering-manager/)
-with fullstack teams (frontend, backend, and fullstack engineers), and/or Engineering Individual Contributors (frontend, backend, and fullstack engineers)
+At GitLab, [Senior Engineering Manager](/job-families/engineering/development/management/senior-manager) are strategic leaders who drive exceptional 
+results by fostering high-performing teams, ensuring delivery of customer value, and 
+effectively translating company objectives into actionable execution plans. 
+While technically credible, they excel through empowering others, coaching for growth, 
+and creating environments where engineering excellence thrives. 
+They own product delivery commitments and continually drive productivity improvements while coordinating cross-departmental goals.
+
+As experienced people managers, Senior Engineering Managers are expected to have greater self-sufficiency, 
+strategic foresight, and bias for action by proactively identifying future challenges and opportunities 
+for themselves. A senior manager’s impact can extend beyond their immediate teams to influence the 
+broader engineering organization and company direction. They are expected to lead complex 
+cross-departmental initiatives, effectively drive execution during critical situations, and 
+transform challenges into opportunities for organizational improvement.
 
 ## Responsibilities
 
-- Build a globally-distributed, sustainable, and [high-performing](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/) team through hiring, retention, and strategic organizational design
-- Plan and execute long term strategies that move your team and the product stage(s) toward business objectives. This includes decision-making, alignment, staffing, prioritization, leading through change, and working through ambiguity.
-- Understand [Engineering KPIs](/handbook/engineering/performance-indicators/#key-performance-indicators) and seek to improve them
-- Lead and drive significant results for multiple teams that have a direct impact on the broader mission they contribute to. Examples include, but are not limited to:
-  - Managing multiple [engineering teams](/handbook/engineering/#engineering-departments-sub-departments--teams) with engineering manager direct reports, covering a significant product/program scope.
-  - Managing [engineering teams](/handbook/engineering/#engineering-departments-sub-departments--teams) with a complex product/program scope.
-  - Leading business critical cross-functional initiatives in addition to managing a team.
-- Develop and execute process enhancements while strategically influencing leadership decisions across multiple organizational levels.
-- Grow and develop engineering leadership (ICs or people managers) through mentorship, coaching, and learning and development opportunities
-- Enable [quad planning team](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) [collaboration](/handbook/values/#collaboration) within [product groups](/handbook/company/structure/#product-groups)
-- Enable [Product](https://internal.gitlab.com/handbook/company/performance-indicators/product/), [Quality](/handbook/engineering/infrastructure/performance-indicators/), and [UX](/handbook/product/ux/performance-indicators/) performance via solid [stable-counterpart](/handbook/leadership/#stable-counterparts) partnership
-- Contribute to the sense of psychological safety of multiple teams.
-- Give regular and clear feedback around the [individual's performance](/handbook/leadership/1-1/suggested-agenda-format/)
-- Draft quarterly [OKRs](/handbook/company/okrs/) and [Engineering KPIs](/handbook/engineering/performance-indicators/#key-performance-indicators)
-- Improve product quality, security, and performance
-- Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com and GitLab Dedicated are met, by working with reliability engineers and development team members
-- Identify and resolve problems proactively, even in ambiguous situations or where negotiations are necessary, through advanced thinking, partnership and foresight
+- Build a globally-distributed, [high-performing](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/) team through strategic hiring, retention, and organizational design
+- Create staffing plans that ensure teams have the right skills and capacity to meet current and future demands
+- Plan and execute long-term strategies that align teams with business objectives and data-driven decisions
+- Drive accountability for results empowering their teams to success, while maintaining the appropriate oversight
+- Establish and track meaningful productivity metrics to continually improve team performance
+- Implement effective processes to track progress, remove obstacles, and course-correct when necessary
+- Hold regular 1:1s with direct reports, stable counterparts and skip-levels, where applicable
+- Mentor and coach their teams of [Engineering Managers](/job-families/engineering/development/management/engineering-manager/) and/or Individual Contributors by growing their leadership capabilities
+- Broker consensus among diverse stakeholders even in ambiguous situations
+- Foster an inclusive environment where team members thrive and deliver results for customers in alignment with [our company values](/handbook/values/)
+- Provide decisive leadership during escalations, coordinating cross-functionally to deliver timely resolutions, balancing technical requirements with business priorities, and managing  transparent communication with executives and stakeholders
+- Effectively evaluate engineering tradeoffs given a strong technical foundation or through their teams
+- Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help diagnose/troubleshoot incidents by working with reliability engineers and development team members
 
 ## Requirements
 
-- Exquisite brokering skills: regularly achieve consensus amongst stakeholders
-- [Collaborate](/handbook/values/#collaboration) effectively with others
-- Excellent written and verbal communication skills
-- Share [our values](/handbook/values/), and work in accordance with those values
-- Build teams that excel through our values. Recognize when to course-correct or restructure a team to improve performance or alignment with our mission.
-- Demonstrated successful partnership with stable counterparts
-- Exemplify [diversity, inclusion, and belonging](/handbook/values/#diversity-inclusion) in leadership
+- Professional experience as an engineer
+- 3-5 years of management experience with demonstrated success developing direct reports in Engineering
+- Ability to influence quality and strategy across an organization
+- Exceptional written and verbal communication targeted to the appropriate audience
+- Strong track record building and leading high-performing engineering teams
+- Demonstrated successful partnership with cross-functional counterparts
+- Proven ability to drive strategic vision while managing day-to-day execution
+- Experience with systems at scale and understanding of technical challenges
+- Experience establishing and measuring team productivity metrics
+- Understanding of modern software development practices and tools
 
 ## Nice-to-haves
 
-- Experience in a peak performance organization
-- Enterprise software company experience
+- Experience in a high-growth, high-performance technology organization
+- Domain knowledge relevant to the product stage you're applying for
+- Experience with customer escalations, incident management and response process
 - Computer science education or equivalent experience
-- Passionate about open source and developer tools
 - Experience contributing to open source software
-- Experience working with modern frontend frameworks (for example React, Vue.js)
-- Working knowledge of Ruby on Rails and/or Golang
-- Domain knowledge relevant to the product stage in which you are looking to join (for example someone with CI/CD experience applying for the Verify and Release team)
+- Knowledge of GitLab's technology stack is a plus (Ruby on Rails, Golang, PostgreSQL, REST/GraphQL)
 
 ## Job Grade
 
