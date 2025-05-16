@@ -34,6 +34,7 @@ This initiative serves both our external customers and internal GitLab team memb
 GitLab data resides across multiple data sources, each with different access patterns:
 
 - **PostgreSQL databases** store transactional application data
+- **Elasticsearch/OpenSearch databases** contain denormalized data for efficient searching
 - **ClickHouse databases** contain analytical and time-series data
 - **GraphQL endpoints** provide structured API access to application data
 - **REST APIs** offer additional interfaces to various data sets
@@ -207,9 +208,9 @@ The proposed approach includes:
 4. **Improved querying capabilities** - Increase the query language power by including features like mathematical functions (for instance `count()`, `sum()`, etc) or aggregating functions (for instance `group_by`):
 
    ```plaintext
-   query: project = "team-project" AND type = Pipeline and status = failed AND updated > -3d
-   fields: count()
-   group_by: status
+   query: project = "team-project" AND type = Issue AND updated > -3d
+   fields: count() AS "Total Issues", sum(weight) AS "Total Weight"
+   group_by: state
    ```
 
    This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954
