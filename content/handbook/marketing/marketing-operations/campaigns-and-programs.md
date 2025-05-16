@@ -486,6 +486,41 @@ If this is to set up a program that involves a channel partner, you must also fo
 - In the `Description` field, paste your epic URL
 - Click `Create`
 
+#### Partner Campaign Setup
+
+There are currently several types of partner campaigns including Channel MDF campaigns, Joint GitLab/Partner, campaigns, Hyperscaler Campaigns, and Hyperscaler Funded Campaigns.
+
+##### Channel MDF Campaign
+
+Channel MDF is when GitLab covers 50% of a partner initiated campaign managed by the Channel Marketing team. All leads generated belong to the Channel Partner and are under Partner Queue ownership. Channel MDF has its dedicated Marketo template, go to [this page](/handbook/marketing/channel-marketing/mdf-operations-process/) for campaign setup instructions.
+
+#### Joint GitLab/Partner Campaign
+
+Joint GitLab/Partner campaigns when GitLab Field Marketing team fully funds and manages the marketing campaign. Leads that are partner sourced will be routed to the channel partner however, if the BDRs/SDRs are actively working the lead then it remains in get lab ownership. If a partner receives a lead but doesn't formally accept it within 30 days (by updating their share status), our system automatically recalls that lead, marks it as "Recycled," and brings it back into GitLab's nurture program. Follow the campaign setup instruction for each campaign type below. For more information about Joint/Partner campaign go [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) - ensure these steps are completed.
+
+##### Hyperscaler Campaigns
+
+Hyperscaler Campaigns are strategic marketing initiatives conducted in partnership with our Hyperscaler allies. These marketing activities including Executive Roundtables, Vendor-Arranged Meetings, Conferences, Owned events and more.
+
+For campaign setup, utilize the Marketo templates available in [Hybrid](/handbook/marketing/campaigns-and-programs/#hybrid-marketo-templates) and [Other Tactic](/handbook/marketing/campaigns-and-programs/#other-tactic-marketo-templates) section below.
+
+Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
+
+- When you manage a Hyperscaler Campaign without Funds:
+   - Add the Hyperscaler Partner name after the date: `YYYYMMDD_AWS_ExecutiveRoundtable_Topic_Region_EventType`. 
+- When you manage a Hyperscaler Campaign with MDF from the Hyperscaler Partner:
+   - Add the Hyperscaler Partner name after the date, and "MDF": `YYYYMMDD_AWS _MDF_ExecutiveRoundtable_Topic_Region_EventType`. 
+- When you manage a Hyperscaler Campaign with Credits from the Hyperscaler Partner:
+   - Add the Hyperscaler Partner name after the date and "CR" for Credits: `YYYYMMDD_GCP _CR_ExecutiveRoundtable_Topic_Region_EventType`. 
+
+Special Instructions for Content Syndication Teams: Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name
+
+Please add a Hyperscaler Campaign, funded by Hyperscaler, to the Hyperscaler Funded Campaign folder in Marketo.
+
+**Important Lead Ownership Note:** All leads generated through Hyperscaler campaigns remain under GitLab's excl
+usive ownership. These contacts enter our standard nurturing process, accumulating lead score according to engagement metrics. Upon reaching MQL status, they're automatically assigned to the appropriate BDR/SDR team for personalized follow-up.
+
+
 ##### Hybrid Marketo Templates
 
 - Executive Roundtables - `Hybrid template`: [YYYYMMDD_ExecutiveRoundtable_Topic_Region_EventType_template](https://app-ab13.marketo.com/#ME6028A1)
@@ -502,8 +537,6 @@ If this is to set up a program that involves a channel partner, you must also fo
   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
   - GitLab Platform Engineering Workshop [YYYYMMDD_Workshop_PlatformEngineering_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME22364A1)
 
-Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
-
 ##### Other Tactic Marketo Templates
 
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
@@ -518,24 +551,10 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
 - Surveys - For templates and setup instructions for surveys, skip to specific setup details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc).
 - Owned Event - `Hybrid`: [YYYYMMDD_OwnedEvent_EventType_Template](https://app-ab13.marketo.com/#ME4722A1)
 
-Note, if you are managing a hyperscaler campaign, add the hyperscaler partner name after the date. Example using Conference: `YYYYMMDD_HyperscalerPartner_Conference_EventType`. For more info, [see](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup)
-
 ##### Webcasts Marketo Templates
 
 - Zoom GitLab Hosted Webcast: [YYYYMMDD_WebcastTopic_Region](https://app-ab13.marketo.com/#ME5512A1)
 - Sponsored Webcast: [YYYYMMDD_ExternalWebcastVendorName_Topic_Region](https://app-ab13.marketo.com/#PG5523A1)
-
-#### Partner Campaign Setup
-
-- Partner MDF Funded campaigns go [this page](/handbook/marketing/channel-marketing/mdf-operations-process/).
-- Joint GitLab/Partner campaigns, follow the directions for each campaign type above/below. There are additional steps [here](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns) you'll need to complete as well.
-- Hyperscaler campaigns - use the Marketo templates [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#hybrid-marketo-templates), and insert the name of the hyperscaler partner after the date. Example using Executive Roundtable: `YYYYMMDD_HyperscalerPartner_ExecutiveRoundtable_Topic_Region_EventType`
-  - Additional Examples:
-    - 20251202_AWS_AWSreinvent_Booth
-    - 0250409_GCP_GoogleCloudNext_Booth
-    - 20241114_AWS_devops.com_ModernizingFinServe_emea_amer
-    - Special Instructions for Content Syndication Teams: 
-      - Update the Asset Name in the Marketo token of the Content Syndication Folder to include the Hyperscaler Name.
 
 ### Step 2: Sync to Salesforce
 
@@ -553,7 +572,7 @@ Note, if you are managing a hyperscaler campaign, add the hyperscaler partner na
     - `{{my.email header image url}}` - This is optional. You will need this if you had custom images created.
     - `{{my.ondemandurl}}` - This will be entered AFTER the event date. It is the link to the recorded webcast. You will need to come back after the event and update this token.
 - Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#the-new-utm_campaign-structure).
-- **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
+- **Partner Campaigns** will need to also to update the `{{my.partner name}}` for LIM
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
 - If your program qualifies for Action Streams (currently only available for Security), please update the {{my.Action Stream}} token with the relevant type [here](/handbook/marketing/lifecycle-marketing/email-processes-requests/#action-streams). [Video instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing) - note the instructions are different for Conferences and our outlined in the Conference instructions below.
 
