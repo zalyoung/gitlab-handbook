@@ -21,8 +21,8 @@ To help us both address the large backlog and then set up a healthy backlog movi
 
 This new policy enables us to openly communicate our commitments for what we will work on to improve our product for the community and our customers, addressing:
 
-- Customers commonly point out to their account teams that they submitted a feature request and that issue has been open for some time, and sometimes for multiple years, without any engagement from GitLab.
-- It is very hard for the community to identify how they can best contribute as there are a lot of open issues tagged for accepting community contributions, including very complicated visionary features.
-- Understanding the capacity of the team to deliver on the rolling 4 quarter customer roadmap.
+1. Customers commonly point out to their account teams that they submitted a feature request and that issue has been open for some time, and sometimes for multiple years, without any engagement from GitLab.
+1. It is very hard for the community to identify how they can best contribute as there are a lot of open issues tagged for accepting community contributions, including very complicated visionary features.
+1. Understanding the capacity of the team to deliver on the rolling 4 quarter customer roadmap.
 
 Finally, this will also help us be deeply focused on both product quality and our FY26 Plan. Executing on our FY26 plan is fundamental to GitLab’s continual growth and the impact we can have in helping organizations achieve their business goals by shipping secure software faster.
