@@ -23,7 +23,7 @@ For general questions and assistance, reach out via the [support_operations Slac
 
 ### Basic Issue Flows
 
-The flow, can be summed up, simply as: "Create an issue!"
+The flow can be summed up simply as: "Create an issue!"
 
 If what you want to get done is:
 
@@ -70,7 +70,7 @@ Review [Customer Support Operations System Criticality Sheet](https://drive.goog
    * 24 hours for issues with Administrative systems. 
    * 8 hours for issues Business Operational systems.
    * 30 minutes for issues with Business Critical Systems.
-   * 10 mintes for issues with Mission Critical Systems.
+   * 10 minutes for issues with Mission Critical Systems.
 1. [Create a new incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service. (See: [Support Operations On-Call Workflow](/handbook/security/customer-support-operations/workflows/support_operations-on-call))
 1. Be available to work with the on-call to develop a plan to resolve the problem.
 
@@ -81,7 +81,7 @@ More about [how Customer Support Operations handles incidents](/handbook/securit
 1. **Start early** - if you are the DRI for a key strategic item on the Support Roadmap, start working with Ops early. Create a tracking issue so a plan can be formed and blockers discovered early.
 1. **Don't "save up" work** - if items are important to the business, they should be tracked. If they're not tracked, they won't get prioritized. 
 1. **Have strong opinions on outcomes** - avoid strong opinions on technical implementation.
-1. **Don't be quiet** - as a DRI, if a technical implmentation isn't looking like it's going to meet the criteria, speak up whether it's in the Validation stage or not. It's better to ship the right thing a bit late than the wrong thing quickly.
+1. **Don't be quiet** - as a DRI, if a technical implementation isn't looking like it's going to meet the criteria, speak up whether it's in the Validation stage or not. It's better to ship the right thing a bit late than the wrong thing quickly.
 
 ## Deployments and Delivery
 
