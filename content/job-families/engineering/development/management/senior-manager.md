@@ -4,18 +4,18 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-At GitLab, [Senior Engineering Manager](/job-families/engineering/development/management/senior-manager) are strategic leaders who drive exceptional 
-results by fostering high-performing teams, ensuring delivery of customer value, and 
-effectively translating company objectives into actionable execution plans. 
-While technically credible, they excel through empowering others, coaching for growth, 
-and creating environments where engineering excellence thrives. 
+At GitLab, [Senior Engineering Manager](/job-families/engineering/development/management/senior-manager) are strategic leaders who drive exceptional
+results by fostering high-performing teams, ensuring delivery of customer value, and
+effectively translating company objectives into actionable execution plans.
+While technically credible, they excel through empowering others, coaching for growth,
+and creating environments where engineering excellence thrives.
 They own product delivery commitments and continually drive productivity improvements while coordinating cross-departmental goals.
 
-As experienced people managers, Senior Engineering Managers are expected to have greater self-sufficiency, 
-strategic foresight, and bias for action by proactively identifying future challenges and opportunities 
-for themselves. A senior manager’s impact can extend beyond their immediate teams to influence the 
-broader engineering organization and company direction. They are expected to lead complex 
-cross-departmental initiatives, effectively drive execution during critical situations, and 
+As experienced people managers, Senior Engineering Managers are expected to have greater self-sufficiency,
+strategic foresight, and bias for action by proactively identifying future challenges and opportunities
+for themselves. A senior manager’s impact can extend beyond their immediate teams to influence the
+broader engineering organization and company direction. They are expected to lead complex
+cross-departmental initiatives, effectively drive execution during critical situations, and
 transform challenges into opportunities for organizational improvement.
 
 ## Responsibilities
