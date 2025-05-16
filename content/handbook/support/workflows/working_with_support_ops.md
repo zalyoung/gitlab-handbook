@@ -27,11 +27,11 @@ The flow can be summed up simply as: "Create an issue!"
 
 If what you want to get done is:
 
-* On the roadmap? *Create an issue!*
-* Not on the roadmap, but seems easy! *Create an issue!*
-* Maybe easy, but maybe hard? I definitely know what I want though. *Create an issue!*
-* reporting a bug. *Create an issue!*
-* ... well, actually, I don't totally know yet. *Create an RFC issue in `support-team-meta`* (or work otherwise within the [Change Management in GitLab Support](/handbook/support/managers/change-management/) framework)
+* On the roadmap? *[Create an issue](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)!*
+* Not on the roadmap, but seems easy! *[Create an issue!](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)*
+* Maybe easy, but maybe hard? I definitely know what I want though. *[Create an issue!](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)*
+* reporting a bug. *[Create an issue!](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)*
+* ... well, actually, I don't totally know yet. *[Create an RFC issue in `support-team-meta`](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?description_template=Request%20for%20Comments)* (or work otherwise within the [Change Management in GitLab Support](/handbook/support/managers/change-management/) framework)
 
 If you're creating an issue, the Customer Support Operations team expects that:
 
