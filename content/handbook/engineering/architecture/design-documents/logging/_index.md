@@ -14,9 +14,9 @@ This document describes the current state of Logging for GitLab SaaS Platforms, 
 
 ## Scalability Themes
 
-- [Observability across the Production Fleet is accessible for all](https://about.gitlab.com/direction/saas-platforms/production-engineering/#observability-across-the-production-fleet-is-accessible-for-all)
-- [Paved roads are the default for all team members](https://about.gitlab.com/direction/saas-platforms/production-engineering/#paved-roads-are-the-default-for-all-team-members)
-- [Solutions at GitLab follow the Well Architected Services Framework](https://about.gitlab.com/direction/saas-platforms/production-engineering/#solutions-at-gitlab-follow-the-well-architected-services-framework)
+- [Observability across the Production Fleet is accessible for all](https://about.gitlab.com/direction/production_engineering/#observability-across-the-production-fleet-is-accessible-for-all)
+- [Paved roads are the default for all team members](https://about.gitlab.com/direction/production_engineering/#paved-roads-are-the-default-for-all-team-members)
+- [Solutions at GitLab follow the Well Architected Services Framework](https://about.gitlab.com/direction/production_engineering/#solutions-at-gitlab-follow-the-well-architected-services-framework)
 
 ## Overview
 
