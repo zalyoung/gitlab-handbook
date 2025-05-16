@@ -39,7 +39,12 @@ When setting up these campaigns in Salesforce, you need to take two critical act
    1. Amazon Web Services
    2. Google Cloud (Partner)
 
-This configuration ensures proper attribution and tracking of partnership activities.
+3. Select the Fund Type under `Will there be Hyperscaler Funding?` 
+
+   1. MDF
+   2. Credits
+
+This configuration ensures proper attribution and tracking of partnership activities. Note that, Hyperscaler MDF is only in referrance to AWS MDF, as that is currently the MDF that's available for GitLab.
 
 ### Campaign Types Covered by These Guidelines
 
@@ -59,14 +64,14 @@ This ensures consistency across all platforms and makes reporting and attributio
 
 Following these guidelines carefully ensures proper tracking, reporting, and compliance with partnership agreements, while also making campaigns easier to find and manage across systems.
 
-## Hyperscaler Funds
+## Hyperscaler Funded Campaign
 
-Hyperscaler funds represent a strategic partnership mechanism through which cloud hyperscalers like Amazon Web Services (AWS) and Google Cloud Platform (GCP) provide financial support to partners like GitLab for joint marketing initiatives.
+Hyperscaler funded campaign represent a strategic partnership mechanism through which cloud hyperscalers like Amazon Web Services (AWS) and Google Cloud Platform (GCP) provide financial support to partners like GitLab for joint marketing initiatives.
 
 These funding programs operate under different models that reflect each hyperscaler's partnership approach:
 
-- AWS MDF Program: Follows a matching investment model. This means for every dollar AWS contributes, GitLab must match with its own dollar.
-- Google Credits Program: Unlike AWS, Google offers 100% reimbursement for approved marketing activities. This model allows GitLab to execute campaigns and receive full reimbursement upon providing proof that the activities were completed successfully.
+- **AWS MDF Program**: Follows a matching investment model. This means for every dollar AWS contributes, GitLab must match with its own dollar.
+- **Google Credits Program**: Unlike AWS, Google offers 100% reimbursement for approved marketing activities. This model allows GitLab to execute campaigns and receive full reimbursement upon providing proof that the activities were completed successfully.
 
 From GitLab's perspective, these funds enable more expansive marketing campaigns than possible while strengthening strategic partnerships with major cloud providers. The partnership creates a "better together" narrative that helps customers understand the enhanced value proposition of GitLab running on these cloud platforms.
 
@@ -127,20 +132,6 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 
     1. Channel Marketing Manager will open the Allocadia activity and Hyperscaler MDF GitLab
     2. Campaign Owner will be responsible for creating the Marketo campaign and sync to Salesforce using the Allocadia Subcategory ID (found in the Hyperscaler MDF GitLab issue)
-    3. Link to the appropriate GitLab issues for tracking
-
-### Field Marketing MDF Scenario
-
-AWS MDF coverages is a 50/50 split arrangement, this means GitLab pays half and AWS coverages for the other half. When activities are co-funded using Field Marketing budgets, we will maintain a streamlined approach that avoids duplication while ensuring accurate tracking across both funding sources. 
-
-The means we'll manage one campaign, two budget entries (amount in FM and amount provided by AWS in Hyperscaler), one GitLab issue, and one FM Asana project.
-
-- Field Marketing will submit one entry in their Allocadia folder for 50% of the total activity for GitLab's matching portion in the Regional Marketing folder
-
-  - When submitting the Zip request, you must enter 50% of the total coverage.
-
-- Partner Marketing will submit both the positive entry for AWS contribution and the negative entry for GitLab's matching portion in the Hyperscaler MDF folder.
-- Both entries will reference the same campaign and use identical naming conventions
 
 ### Understanding Data Flow: From Lead to Opportunity
 
