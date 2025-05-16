@@ -11,7 +11,7 @@ description: "The goal of Intra-Department Learning is to create, conduct, and h
 
 The goal of Intra-Department Learning is to create, conduct, and host cross-department learning sessions to drive collaboration and understanding of marketing functional team priorities.
 
-Marketing Functional Conversations are modeled after [Group conversations](/handbook/company/group-conversations/). While Group Conversations offer high-level insights, Marketing Functional Conversations are meant to drill deeper into the various functions within the Marketing Department. The goal of Marketing Functional Conversations is to create increased awareness and mutual understanding of the functions within Marketing. Awareness and understanding is an essential building block for effective collaboration.
+Marketing Functional Conversations are modeled after Group conversations. While Group Conversations offer high-level insights, Marketing Functional Conversations are meant to drill deeper into the various functions within the Marketing Department. The goal of Marketing Functional Conversations is to create increased awareness and mutual understanding of the functions within Marketing. Awareness and understanding is an essential building block for effective collaboration.
 
 Intra-Department Learning is a Key Result (KR) of a CMO OKR in Q3&4FY24-Q1FY24 to `Align as one unified Marketing team, ensuring team member growth, communication, and collaboration (actioning pulse engagement survey feedback)`. The [Collaboration workstream](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3289) team is actioning the Marketing Functional Conversations. The DRI for marketing enablement is TBD after the OKR work is completed.
 
