@@ -80,16 +80,17 @@ Follow this process for review of materials containing [material non-public info
 
 1. For standalone materials not related to an ongoing intiative:
 
- a. Create an issue following [Track 1](#track-1-single-material-legal-review-process) or [Track 2](#track-2-multiple-materials-legal-review-process) below.
+   a. Create an issue following [Track 1](#track-1-single-material-legal-review-process) or [Track 2](#track-2-multiple-materials-legal-review-process) below.
 
- b. Create a Google Doc shared only with the relevant team members who need to know the MNPI or restricted information, and link it from the issue.
+   b. Create a Google Doc shared only with the relevant team members who need to know the MNPI or restricted information, and link it from the issue.
  
- c. Ensure all comments and discussions take place in the Google Doc and not the issue
+   c. Ensure all comments and discussions take place in the Google Doc and not the issue
 
 2. For materials related to an ongoing MNPI or internally-confidential initiative:
 
-a. Create an issue within the internally-confidential GitLab Project for the initiative if one exists. If no such GitLab Project for the initiative exists, follow the process above for standalone materials.
-b. Complete the Track 1 issue comment template in that issue to request review. 
+   a. Create an issue within the internally-confidential GitLab Project for the initiative if one exists. If no such GitLab Project for the initiative exists, follow the process above for standalone materials.
+   
+   b. Complete the Track 1 issue comment template in that issue to request review. 
 
 ### External vs Internal use
 
