@@ -1,6 +1,6 @@
 ---
 title: Knowledge Base
-description: 
+description: GitLab Support's Knowledge Base
 ---
 
 The knowledge base (KB) is a repository of solutions to commonly-encountered problems, created and maintained by Support Engineers (SE).
@@ -27,23 +27,23 @@ Benefits:
   - Focus on documenting the errors and issue as described by the customer for improved findability from other users.
   - Include clear steps and context when documenting solutions. When in doubt, ask, [would Josh Darnit be able to do it?](https://www.youtube.com/watch?v=cDA3_5982h8)
 
-- **Always be iterating.** The Knowledge Base is as much for us as for our customers. We review and update knowledge as we use and reuse it. 
+- **Always be iterating.** The Knowledge Base is as much for us as for our customers. We review and update knowledge as we use and reuse it.
   - Reuse is Review: We improve the quality of our knowledge by always iterating.
 
 ## How Knowledge Articles differ from GitLab docs
 
-The Knowledge Base and our product documentation are both key elements of GitLab’s digital support experience that serve different needs:
+The Knowledge Base and our product documentation are both key elements of GitLab's digital support experience that serve different needs
 
 ### Docs
 
-Docs answer: “How does this work?"
+Docs answer: "How does this work?"
 
 - Teaches about product features and how to use them.
 - Provides an overview of the current version of our products.
 
 ### Knowledge Articles
 
-Knowledge Articles answer: “How do I fix this?”
+Knowledge Articles answer: "How do I fix this?"
 
 - Solves problems encountered while using our products.
 - Includes solutions to problems in past versions of our products.
@@ -54,12 +54,12 @@ Knowledge articles help users to do tasks, get answers to questions and fix issu
 
 Creating a clear, well-written knowledge article empowers customers to solve issues on their own and helps Support Engineers quickly access accurate, consistent information. Knowledge articles build trust and ensure reliable, repeatable support experiences.
 
-We use ***types*** of knowledge to efficiently provide the information for our end users. This includes: 
+We use *types* of knowledge to efficiently provide the information for our end users. This includes:
 
-- “How-To” 
-- “Break/Fix”
-- “FAQ” (Question and answer)
-- “Troubleshooting"
+- How-To
+- Break/Fix
+- FAQ (Question and answer)
+- Troubleshooting
 
 ## When to create a knowledge article
 
@@ -76,7 +76,7 @@ Some questions to consider:
 
 ### What Training is Available for Knowledge Articles in ZenDesk?
 
-A list of available training can be found in [Knowledge Base Training Resources](./knowledge-base-training).
+A list of available training can be found in [Knowledge Base Training Resources](../knowledge-base/knowledge-base-training).
 
 ## Implementation
 
@@ -84,20 +84,20 @@ We use ZenDesk to create, modify, and  publish knowledge base articles.
 
 Knowledge base articles are dynamically suggested to a user while submitting a ticket.
 
-Integrating with Zendesk offers the following benefits: 
+Integrating with Zendesk offers the following benefits:
 
 - Centralized Knowledge Base
-- Scalable and Customizable 
+- Scalable and Customizable
 - Seamless Integration with Tickets
 - Improved Support Engineer Productivity
 - Streamlined Analytics and Reporting
-- Streamline “KCS”, adopting knowledge into the workflow 
+- Streamline "Knowledge Centered Service" (KCS), adopting knowledge into the workflow
 
 Knowledge base articles can be found at:
 
 - [Global support knowledge base](https://support.gitlab.com/hc/en-us/sections/15215649512604-Knowledge-Base)
 - [US Government support knowledge base](https://federal-support.gitlab.com/hc/en-us/sections/29015014994068-Knowledge-Base)
-  **Please Note:** US Government articles as of May 2, 2025 are no longer updated to be consistent with the Global Support Site. No new articles will be available on the US Government page until a later date. Date TBD. 
+  **Please Note:** US Government articles as of May 2, 2025 are no longer updated to be consistent with the Global Support Site. No new articles will be available on the US Government page until a later date. Date TBD.
 
 ### Roles and Permissions
 
@@ -141,12 +141,14 @@ Permissions in ZenDesk indicate what a user can do around knowledge.
 
 ### Contributors (Knowledge Workers)
 
-Everyone can contribute to knowledge! The most important thing is to capture the knowledge you’ve created while solving a problem.
+Everyone can contribute to knowledge! The most important thing is to capture the knowledge you've created while solving a problem.
 The review process will ensure the content is technically accurate and clear.
 
 ### Technical Reviewers (Knowledge Champions)
 
-There will be Support Engineers and Support Managers trained as technical reviewers for knowledge articles.   Technical Reviewers are available across the Globe. A List of Technical Reviewers is available [here](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0). 
+There will be Support Engineers and Support Managers trained as technical reviewers for knowledge articles across the globe.
+
+[Available Technical Reviewers (by Geo)](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
 
 Technical Reviewers should be Subject Matter Experts (SMEs) in certain areas (Such as Runner, Authentication, Migrations, etc.). The Technical Reviewers are tasked with **reviewing knowledge articles** based on their knowledge of features.
 Technical Reviewers perform the following actions.
@@ -155,14 +157,12 @@ Technical Reviewers perform the following actions.
 
 Technical Reviewers are expected to:
 
-- Prioritize and Normalize checking the “**Manage Articles list**” as part of their daily workflow and routine. 
+- Prioritize and Normalize checking the **Manage Articles list** as part of their daily workflow and routine.
 - Collaborate with Knowledge article contributors on the technical accuracy of the content, prioritizing having updates published as soon as possible.
 - Technically review knowledge articles and determines if the article can be Published for customers (or should remain internal).
 - Understands the material and requirements for the article being published.
 - Identify trends and opportunities from reporting.
 - Provides feedback for knowledge articles.
-
-[Availabe Technical Reviewers (by Geo)](https://docs.google.com/spreadsheets/d/14CIIVup-tS5HdLyl0wInf-2m50AptauyhG-ZW5uhs-I/edit?gid=0#gid=0)
 
 ### Getting Help
 
