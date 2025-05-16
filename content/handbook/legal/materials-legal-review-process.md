@@ -76,7 +76,8 @@ The Legal & Corporate Affairs Team will not review materials sent in Slack becau
 
 ## MNPI and internally-confidential information
 
-Follow this process for review of materials containing [material non-public information](/handbook.gitlab.com/handbook/legal/safe-framework/#sensitive) (MNPI) or information with restricted internal access. 
+Follow this process for review of materials containing [material non-public information](/handbook/legal/safe-framework/#sensitive) (MNPI) or information with restricted internal access.
+
 1. For standalone materials not related to an ongoing intiative:
 
  a. Create an issue following [Track 1](#track-1-single-material-legal-review-process) or [Track 2](#track-2-multiple-materials-legal-review-process) below.
