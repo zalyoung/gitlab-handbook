@@ -114,8 +114,7 @@ The grid itself will support 12 columns, with an unlimited number of rows. Grid 
 allowing 1–12 panels per row. The height of a panel can be between 1 row and unlimited, enabling it to span any number
 of rows as needed.
 
-Each panel, within the grid, will have a minimum height of `125px`. This minimum height gives space for padding, the title, and basic content;
-whilst not needing a scrollbar to see all the panel contents.
+Each panel, within the grid, will have a minimum height of `125px`. This minimum height gives space for padding, the title, and basic content.
 
 At the [medium breakpoint](https://design.gitlab.com/product-foundations/layout#breakpoints), the grid must collapse down to a singular
 column. This will move every panel to a fully vertical layout. Dropping down to a singular column will give the content of each panel the
