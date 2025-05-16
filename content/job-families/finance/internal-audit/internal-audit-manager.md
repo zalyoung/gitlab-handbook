@@ -5,7 +5,7 @@ description: Own the planning, execution, and reporting of internal audits (e.g.
 
 Additionally, they assist in the preparation and implementation of a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational and finance activities and internal controls. 
 
-The Manager Internal Audit reports to the Director, Internal Audit.
+The Internal Audit Manager reports to the Director, Internal Audit.
 
 ### Job Grade
 
