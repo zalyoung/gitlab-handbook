@@ -173,4 +173,4 @@ For any issues with permissions, please use the knowledge dedicated Slack channe
 ### Using AI to generate content
 
 - **ZenDuo** can assist with generating a *first pass* of an article. **Always** review generated data by Duo for technical accuracy. You are still the subject matter expert (SME) of the article and original customer issue.
-- Only use ZenDuo or Duo chat when providing customer data. Other LLM services, such as Claude, are not approved for [Red data](../../security/data-classification-standard.md#red).
+- Only use ZenDuo or Duo chat when providing customer data. Other LLM services, such as Claude, are not approved for [Red data](../../security/standards/data-classification-standard.md#red).
