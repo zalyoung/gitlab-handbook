@@ -40,7 +40,7 @@ When a product team initiates a feature, they complete an initial triage to dete
 
 #### Secure Design and Development Triggers
 
-* Does this feature handle [`RED` and/or `ORANGE`](/content/handbook/security/standards/data-classification-standard.md#redtext-danger-red) data? (Y/N)
+* Does this feature handle [`RED` and/or `ORANGE`](/handbook/security/standards/data-classification-standard.md#red) data? (Y/N)
 * Does this feature add or modify authentication, authorization or cryptographic mechanisms? (Y/N)
 * Does this feature interact with third-party services? (Y/N)
 * Does this feature add a [new service component](https://docs.gitlab.com/development/adding_service_component/)? (Y/N)
@@ -98,7 +98,7 @@ After identifying which team(s) need to be engaged, each engaged team conducts t
 
 ##### Data Processing Impact (1-4)
 
-* 4: Direct access/modification to [`RED` and/or `ORANGE`](/content/handbook/security/standards/data-classification-standard.md#redtext-danger-red) data. See 
+* 4: Direct access/modification to [`RED` and/or `ORANGE`](/handbook/security/standards/data-classification-standard.md#red) data. See 
 [Data Classification Index](https://internal.gitlab.com/handbook/security/standards/data_classification/#data-classification-index) for more information
 * 3: Processes untrusted data, even if it is coming from a trusted component
 * 2: Access to metadata about projects/pipelines
