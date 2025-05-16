@@ -29,7 +29,7 @@ An optional second question asks:
 
 - What would make working on a ticket with GitLab Customer Support easier?
 
-If the customer opts out of completing this section the resulting feedback issue witll contain 'Undefined'
+If the customer opts out of completing this section the resulting feedback issue will contain 'User did not leave a comment'
 
 Examples of forms are located [here](/handbook/security/customer-support-operations/docs/zendesk/ces/#ces-survey-form)
 
