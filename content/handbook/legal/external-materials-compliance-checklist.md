@@ -8,7 +8,7 @@ When developing materials for external use, follow the [SAFE Framework](/handboo
  The tips on this page serve as a quick-reference guide, and should not be used as a substitute for reviewing and following the SAFE Framework and the IP Guidelines in full.
 
 **Examples of common legal review feedback**
-- See document
+- [See document](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/preview?tab=t.0)
 
 **Compliance checklist**
 Before sharing materials for review, or publishing or using materials you've created, confirm the materials comply with the items in this checklist:
@@ -21,7 +21,7 @@ Before sharing materials for review, or publishing or using materials you've cre
 - Materials do not contain any unqualified superlatives or overpromotion (e.g. replace `the best` with `among the best`).
 - There are no defamatory statements made about other companies, products, services, or people.
 - Case studies included are accurate, not misleading, and necessary approvals for publication from the customer or partner featured are in place and documented.
-- If indicated by the [Required Disclaimers guidance](/handbook/product/product-processes/product-safe-guidance/#required-disclaimers/), the [appropriate roadmap disclaimer](https://docs.google.com/presentation/d/1hbf9AnFj_E5Y_Yg_WWoy_R0WJXZZLV0zWpMUHqnIs3c/edit#slide=id.ge2b39964d2_0_144) is included.
+- If indicated by the [Required Disclaimers guidance](/handbook/product/product-processes/product-safe-guidance/#required-disclaimers), the [appropriate roadmap disclaimer](https://docs.google.com/presentation/d/1hbf9AnFj_E5Y_Yg_WWoy_R0WJXZZLV0zWpMUHqnIs3c/edit#slide=id.ge2b39964d2_0_144) is included.
 - All audio and visual content (including images, video, sounds, and music) is obtained from a permissively-licensed source, or is subject to a license permitting the proposed use.
 - All content is appropriate for a professional setting and neither offensive nor misleading.
 - Where [necessary](/handbook/legal/publicity-waiver-release), signed Publicity Waiver and Release agreements are in place with named individuals, and individuals appearing in audio or visual content.
