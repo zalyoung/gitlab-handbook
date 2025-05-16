@@ -68,12 +68,15 @@ Following these guidelines carefully ensures proper tracking, reporting, and com
 
 Hyperscaler funded campaign represent a strategic partnership mechanism through which cloud hyperscalers like Amazon Web Services (AWS) and Google Cloud Platform (GCP) provide financial support to partners like GitLab for joint marketing initiatives.
 
+Presently, the Hyperscaler funds are **only available to the Field Marketing team**. We will be working in iteration to support additional marketing teams.
+
 These funding programs operate under different models that reflect each hyperscaler's partnership approach:
 
 - **AWS MDF Program**: Follows a matching investment model. This means for every dollar AWS contributes, GitLab must match with its own dollar.
 - **Google Credits Program**: Unlike AWS, Google offers 100% reimbursement for approved marketing activities. This model allows GitLab to execute campaigns and receive full reimbursement upon providing proof that the activities were completed successfully.
 
 From GitLab's perspective, these funds enable more expansive marketing campaigns than possible while strengthening strategic partnerships with major cloud providers. The partnership creates a "better together" narrative that helps customers understand the enhanced value proposition of GitLab running on these cloud platforms.
+
 
 ### Key Roles in the Hyperscaler MDF Ecosystem
 
@@ -130,8 +133,90 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 2. Hyperscaler Partner Approval: Upon preliminary approval, Francine will review and seek approval for the activity and confirm funding amount from the Hyperscaler Partner.
 3. System Configuration: Once approved by the Hyperscaler Partner,
 
-    1. Channel Marketing Manager will open the Allocadia activity and Hyperscaler MDF GitLab
-    2. Campaign Owner will be responsible for creating the Marketo campaign and sync to Salesforce using the Allocadia Subcategory ID (found in the Hyperscaler MDF GitLab issue)
+    1. Channel Marketing Manager will open the Allocadia activity and Hyperscaler Funded GitLab issue
+    2. Campaign Owner will be responsible for creating the Marketo campaign and sync to Salesforce using the Allocadia Subcategory ID (found in the Hyperscaler Funded GitLab issue)
+
+### Set up
+
+#### Allocadia
+
+The Channel Marketing Manager will be responsible for opening the Allocadia activity under the [Regional Marketing > AMER > Hyperscaler](https://eu1.allocadia.com/budgets/122286/items?view=default) plan.
+
+1. Create subcategory and line item
+  - Different accounting approaches apply based on the hyperscaler. AWS campaigns show both the positive contribution and the matching negative amount, while GCP campaigns show the full reimbursable amount. 
+2. Details panel
+  - Planning:
+    - New FO or Growth
+    - Target MQL (syncs to SFDC Planned MQL)
+    - Target Pipeline (syncs to SFDC Planned Pipeline)
+    - Sales Dev Onsite Support
+    - Sales Dev Invite Support
+    - Subcategory (FM)
+    - GTM Motion
+    - Start Date
+    - End Date
+    - Triple Play
+    - Embedded Systems
+    - Is Hyperscaler Involved? = True
+    - Hyperscaler
+    - Will there be Hyperscaler funding?
+    - Hyperscaler Funding Amount
+    - SA Support
+    - Segment
+    - Geo
+    - Country
+  - Wishlist/Cancelled
+    - Cancelled
+  - Campaign Details
+    - Existing Salesforce Campaign
+    - Campaign Link
+    - Campaign Owner 
+    - Campaign Type
+    - Budget Holder = Hyperscaler 
+  - GitLab Issue Details
+    - Operational Program Owner = Francine
+    - Partner User Handle = @fanthony2
+    - Requester User Handle 
+    - GitLab Issue Template = Hyperscaler
+    - Official Event/Campaign Name 
+    - GitLab Marketing Issue Link (Auto-populated)
+    - GitLab Issue URL Reference (Manual entry)
+3. Action: Create GitLab Hyperscaler Funded Issue in the Field Marketing GitLab Project
+
+#### GitLab Issue 
+
+The GitLab Hyperscaler Funded Campaign issue will be used as an intermediate step prior to syncing to Asana. 
+
+1. Channel Marketing Manager will be responsible for entering the details include region and activity quarter labels to GitLab Hyperscaler Funds issue.
+2. Program Manager will request for invoice from AR using the finance issue, including PO and payment terms. MDF - [Example](https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/6464)  
+3. Once the GitLab Hyperscaler Funds issue details are complete, Channel Marketing Manager adds the `Asana-Sync-Project` to the GitLab Hyperscaler Funds issue and ping the FMM and FMC to start the [Plan to WIP process](https://handbook.gitlab.com/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip)
+4. Channel Markting Manager will add the Asana project link to the Resources section above
+
+#### Asana Project
+ 
+To accommodate the Field Marketing process in Asana, we have integrated the steps for Hyperscaler Funded Campaigns into the [Plan to WIP](https://handbook.gitlab.com/handbook/marketing/field-marketing/#process-for-moving-events-from-plan-to-wip).
+
+The following will be tasks must be completed for the Hyperscaler Funded Campaigns:
+
+##### Pre-Event
+
+1. Create Marketo/ SFDC campaign with add the Hyperscaler Name and Hyperscaler Fund Type after the date in the Campaign Name - reference a handbook for [naming convention](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-campaign-setup). _Examples: 20250307_AWS_MDF_ActivityType_ActivityName_Region;
+20250307_GCP_CR_ActivityType_ActivityName_Region_
+   1. Create Marketo program under the [Hyperscaler Funded Campaign folder](https://experience.adobe.com/#/@gitlab/so:194-VVC-221/marketo-engage/classic/MF27058A1)
+   2. Sync the Marketo program to Salesforce using the Hyperscaler Funded Campaign Allocadia Subcategory ID
+   3. Update the links to Marketo and Salesforce in the Asana Project Overview
+2. Opens the Zip request
+   1. Acquire Contract/Invoice for the Marketing Activity 
+   2. Select the appropriate purchase type: “What are you looking to purchase?” (Ensure not to select MDF)
+   3. Enter the amount of the total contract cost
+   4. In the Allocadia ID, specify the Line Item ID (positive value) of the Hyperscaler Fund Allocadia activity in the Zip request
+   5. Add Francine as a follower to the Zip request
+   6. Update the link to Zip request in the Asana Project Overview 
+
+##### Post-Event
+
+1. Attach Proof of Payment (POP) to the Asana Project and tag Francine
+   1. Third-party receipts showing actual costs are required for cash reimbursement. It should clearly show a date, after the fund requests approval and the paid amount.
 
 ### Understanding Data Flow: From Lead to Opportunity
 
