@@ -401,8 +401,6 @@ permission_templates:
 
 </details>
 
----
-
 ###  Tableau License Management
 
 Our organization manages Tableau licenses through an automated system using an Okta - Lumos integration. This approach ensures everyone who needs Tableau has access to it by redirecting unused licenses from inactive accounts to team members who will benefit from the platform's insights and capabilities.
