@@ -68,4 +68,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 - [Security Awareness Training Program](/handbook/security/security-assurance/governance/sec-awareness-training/)
 - [Phishing Program](/handbook/security/security-assurance/governance/phishing/)
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
+- [Data Classification Standard](/handbook/security/standards/data-classification-standard/)
