@@ -5,7 +5,7 @@ description: responsible for planning, execution, and reporting of internal audi
 
 Additionally, they assist in the preparation and implementation of a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational and finance activities and internal controls.
 
-The Staff Internal Auditor reports to the Director of Internal Audit.
+The Staff Internal Auditor reports to the Director, Internal Audit.
 
 ### Job Grade
 
