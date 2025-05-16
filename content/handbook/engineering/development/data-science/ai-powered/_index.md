@@ -41,9 +41,9 @@ The UX team will review and triage issues to determine the appropriate level of 
 When creating a new issue, add the `UX Triage` label if there is a change that impacts the user experience, or if for any other reason you would like it to be reviewed by the UX team.
 The UX team reviews this list each week. If UX involvement is recommended, we will add the following labels to indicate the priority:
 
-   - `UX Priority::1`: UX involvement is highly recommended due to design complexity and high impact to users and/or the business.
-   - `UX Priority::2`: UX involvement is recommended due to moderate complexity and impact to users and/or the business.
-   - `UX Priority::3`: UX involvement is recommended, time permitting. This is for issues where a designers input will improve the experience or the clarity of the solution, but the risk of a negative impact to users and the business is low.
+- `UX Priority::1`: UX involvement is highly recommended due to design complexity and high impact to users and/or the business.
+- `UX Priority::2`: UX involvement is recommended due to moderate complexity and impact to users and/or the business.
+- `UX Priority::3`: UX involvement is recommended, time permitting. This is for issues where a designers input will improve the experience or the clarity of the solution, but the risk of a negative impact to users and the business is low.
 
 These labels do not block engineering from proceeding to work on the issue if they decide that delivery speed is more crucial to the business than UX quality.
 
