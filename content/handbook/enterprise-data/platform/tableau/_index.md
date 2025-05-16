@@ -226,7 +226,7 @@ Limited access user groups will allow business teams to manage accessibility to 
 
 Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
-- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) list to be added to this group.
+- \***General SAFE Access:** This group allows viewing of and development with data that contains material non-public information that should be kept [SAFE](/handbook/enterprise-data/platform/safe-data/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#designated-insiders) list to be added to this group.
 - To gain [access to SAFE data](/handbook/enterprise-data/platform/safe-data/) and be part of the SAFE Access group please submit a request through [Lumos](/handbook/security/corporate/systems/lumos/ar/).
 
 - **ASM AMER Commercial Restricted Access:** This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation. Please work with Keith Gliksman @keith.gliksman for access approval.
@@ -408,6 +408,7 @@ permission_templates:
 Our organization manages Tableau licenses through an automated system using an Okta - Lumos integration. This approach ensures everyone who needs Tableau has access to it by redirecting unused licenses from inactive accounts to team members who will benefit from the platform's insights and capabilities.
 
 #### License Activity Policy
+
 To maintain a Tableau license, users must actively use the platform within a 90 day period.
 Our automated Lumos system monitors login activity and manages licenses based on usage:
 
