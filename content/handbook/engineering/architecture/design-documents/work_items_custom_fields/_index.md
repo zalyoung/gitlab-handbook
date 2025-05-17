@@ -22,7 +22,7 @@ toc_hide: true
 This document outlines our approach to implementing a [flexible custom fields system](https://gitlab.com/groups/gitlab-org/-/epics/235) for work items in GitLab.
 We're extending standard work item fields/widgets by introducing customizable fields that allow teams to capture specialized information unique to their workflows.
 
-The solution introduces four field types - single-select, multi-select, number, and text - that can be configured at the group level and applied to various work item types. Premium and Ultimate users can create, manage, and use these custom fields across their groups, subgroups, and projects.
+The solution introduces user created custom fields that can be configured at the root group level and applied to various work item types. Premium and Ultimate users can create, manage, and use these custom fields across their groups, subgroups, and projects.
 
 This initiative enables users to standardize how they record and report information, creating consistency across projects and supporting more powerful filtering and reporting capabilities.
 
@@ -36,34 +36,23 @@ This initiative enables users to standardize how they record and report informat
 
 ### Existing concepts and terms
 
-1. **Work Item Type:** A classification that determines a work item's available features and behaviors
- through its associated widgets.
-2. **Widget:** A functional component that provides specific capabilities to a work item type
- (for example "assignees" and "labels").
+1. **Work Item Type:** A classification that determines a work item's available features and behaviors through its associated widgets.
+2. **Widget:** A functional component that provides specific capabilities to a work item type (for example "assignees" and "labels").
 3. **Namespace:** In GitLab, a namespace is a unique name for a user or group that hosts projects.
 
 ### New concepts and terms
 
-1. **Custom Field:** A user-defined field that can be added to work items to capture specialized information
- beyond standard fields.
-2. **Field Type:** The data type for a custom field, which determines its behavior and constraints (single-select,
- multi-select, number, text).
+1. **Custom Field:** A user-defined field that can be added to work items to capture specialized information beyond standard fields.
+2. **Field Type:** The data type for a custom field, which determines its behavior and constraints (single-select, multi-select, number, text).
 3. **Select Option:** A predefined value that can be selected in single-select or multi-select fields.
-4. **Custom Fields Widget:** The component that displays custom fields and allows users to modify the values
- of a work item on the sidebar of the work item detail view.
+4. **Custom Fields Widget:** The component that displays custom fields and allows users to modify the values of a work item on the sidebar of the work item detail view.
 5. **Field Value:** The data stored in a custom field for a specific work item.
 
 ## Motivation
 
-GitLab's standard fields provide a solid foundation for work item management, but many teams require additional
-specialized fields to track information unique to their workflows. This has been a long-requested feature documented
-in epic [#235](https://gitlab.com/groups/gitlab-org/-/epics/235) and issues like [#8988](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/8988)
-dating back several years. The ability to enhance work items with custom fields enables organizations to tailor GitLab
-to their specific planning needs and creates consistency across projects.
+GitLab's standard fields provide a solid foundation for work item management, but many teams require additional specialized fields to track information unique to their workflows. This has been a long-requested feature documented in epic [#235](https://gitlab.com/groups/gitlab-org/-/epics/235) and issues like [#8988](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/8988) dating back several years. The ability to enhance work items with custom fields enables organizations to tailor GitLab to their specific planning needs and creates consistency across projects.
 
-Before this implementation, users had to rely on less structured approaches like using labels or storing information in
-the description, which limited filtering, reporting, and standardization capabilities. Custom fields solve these issues
-by providing structured data storage with different field types that can be consistently applied across work items.
+Before this implementation, users had to rely on less structured approaches like using labels or storing information in the description, which limited filtering, reporting, and standardization capabilities. Custom fields solve these issues by providing structured data storage with different field types that can be consistently applied across work items.
 
 ### Goals
 
@@ -72,7 +61,7 @@ by providing structured data storage with different field types that can be cons
 3. Allow for consistent data collection and reporting across groups, subgroups, and projects
 4. Improve filtering capabilities based on custom field values
 5. Support standardization of workflows across teams
-6. Leverage the work item architecture to extend custom field functionality to all supported work item types
+6. Use the work item architecture to extend custom field functionality to all supported work item types
 7. Allow field configuration at the group level with inheritance to subgroups and projects
 
 ### Non-Goals
@@ -88,7 +77,7 @@ We propose developing a comprehensive custom fields system for work items in Git
 2. Four field types are supported initially: single-select, multi-select, number, and text.
 3. Fields are configured at the top-level group and are inherited by all subgroups and projects.
 4. Fields can be assigned to specific work item types (issues, epics, etc.).
-5. Field values are stored separately from the work items themselves.
+5. Field values live in the issues table.
 6. Fields can be archived rather than deleted to preserve historical data.
 7. The system uses the work item framework and widget concepts and the GraphQL API.
 
@@ -108,31 +97,27 @@ Each field has a specific type that defines its behavior and constraints:
 - **Number:** Users can enter a numeric value
 - **Text:** Users can enter free-form text (limited to 1024 characters)
 
-Custom fields can be active or archived. Archived fields preserve historical data but are no longer available
-for new work items or edits.
+Custom fields can be active or archived. Archived fields preserve historical data but are no longer availablefor new work items or edits.
 
 There's a limit of `50` active custom fields per top-level group.
 
 #### Select Options
 
-For single-select and multi-select fields, select options define the available choices.
-Options have a name and position which determines their display order.
+For single-select and multi-select fields, select options define the available choices. Options have a name and position which determines their display order.
 
 A single-select or multi-select field can have at most `50` select options.
 
 #### Field Values
 
-Field values store the actual data for each custom field on a work item.
-Different value types are used depending on the field type:
+Field values store the actual data for each custom field on a work item. Different value types are used depending on the field type:
 
-- **TextFieldValue:** Stores string values for text fields
-- **NumberFieldValue:** Stores numeric values for number fields
-- **SelectFieldValue:** Stores the selected option(s) for single-select and multi-select fields
+- ``TextFieldValue:`` Stores string values for text fields
+- ``NumberFieldValue:`` Stores numeric values for number fields
+- ``SelectFieldValue:`` Stores the selected option(s) for single-select and multi-select fields
 
 #### Field Association with Work Item Types
 
-Custom fields are associated with specific work item types through a many-to-many relationship.
-This allows for different work item types to have different sets of fields.
+Custom fields are associated with specific work item types through a many-to-many relationship. This allows for different work item types to have different sets of fields.
 
 A work item type can have at most `10` custom fields assigned to it.
 
@@ -203,8 +188,7 @@ Authorization to manage custom fields is handled by existing work item permissio
 
 #### Filtering by Custom Fields
 
-User can filter work items by custom field values on group and project list pages.
-This is implemented using the existing search and filter capabilities, with extensions for custom field types:
+User can filter work items by custom field values on group and project list pages. This is implemented using the existing search and filter capabilities, with extensions for custom field types:
 
 - Text fields: Search for work items with specific text content
 - Number fields: Filter by numeric value
@@ -213,8 +197,7 @@ This is implemented using the existing search and filter capabilities, with exte
 
 #### Archiving Custom Fields
 
-Rather than deleting custom fields, we support archiving them to preserve historical data.
-When a field is archived:
+Rather than deleting custom fields, we support archiving them to preserve historical data. When a field is archived:
 
 1. It is marked with an `archived_at` timestamp
 2. It no longer appears in the field selection UI
@@ -225,11 +208,9 @@ Fields can be unarchived to make them available again.
 
 ### Feature Flags and Licensed Feature
 
-We used the feature flag `custom_fields_feature` throughout the development of this feature.
-The feature flag was removed in GitLab 18.0 when the feature became generally available.
+We used the feature flag `custom_fields_feature` throughout the development of this feature. The feature flag was removed in GitLab 18.0 when the feature became generally available.
 
-Since the feature is only available in Premium and Ultimate tier, we consider it a licensed feature.
-The feature name is `custom_fields`.
+Since the feature is only available in Premium and Ultimate tier, we consider it a licensed feature. The feature name is `custom_fields`.
 
 ### Implementation and release plan
 
@@ -286,8 +267,7 @@ We've identified these phases for this initiative:
 
 ## Team
 
-Please mention the current team in all MRs related to this document to keep everyone updated.
-We don't expect everyone to approve changes.
+Please mention the current team in all MRs related to this document to keep everyone updated. We don't expect everyone to approve changes.
 
 ```text
 @gweaver @donaldcook @nickleonard @fernanda.toledo @psimyn @engwan @stefanosxan
