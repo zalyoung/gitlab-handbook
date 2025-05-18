@@ -66,6 +66,6 @@ The [Support Week in Review](https://gitlab.com/gitlab-com/support/readiness/sup
   - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
   - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
   - [#f_gitlab_dedicated](https://gitlab.slack.com/archives/C01S0QNSYJ2)
-- [Category Direction - GitLab Dedicated](https://about.gitlab.com/direction/platforms/dedicated/#roadmap)
+- [Category Direction - GitLab Dedicated](https://about.gitlab.com/direction/gitlab_dedicated/#roadmap)
 
 Together, these are high volume sources of information. Being a [manager of one](/handbook/values/#managers-of-one) means you'll need to decide which ones to consume and how frequently.
