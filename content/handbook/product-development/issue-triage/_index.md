@@ -56,14 +56,14 @@ The priority label is used to indicate the importance and guide the scheduling o
 
 - Feature - Product Manager (PM)
 - Maintenance - Engineering Manager (EM)
-- Bug - Quality Engineering Manager (QEM)
+- Bug - Engineering Manager (EM)
 
 | Priority | Importance | Intention | DRI |
 | -------- | ---------- | --------- | --- |
-| `~"priority::1"` | Urgent | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30 days.                 | PM, EM, or QEM of that product group, based on work type |
-| `~"priority::2"` | High   | We will address this soon and will provide capacity from our team for it in the next few releases. This will likely get resolved in 60-90 days. | PM, EM, or QEM of that product group, based on work type |
-| `~"priority::3"` | Medium | We want to address this but may have other higher priority items. This will likely get resolved in 90-120 days.                               | PM, EM, or QEM of that product group, based on work type |
-| `~"priority::4"` | Low    | We don't have visibility when this will be addressed. No timeline designated.                                          | PM, EM, or QEM of that product group, based on work type |
+| `~"priority::1"` | Urgent | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30 days.                 | PM or EM of that product group, based on work type |
+| `~"priority::2"` | High   | We will address this soon and will provide capacity from our team for it in the next few releases. This will likely get resolved in 60-90 days. | PM or EM of that product group, based on work type |
+| `~"priority::3"` | Medium | We want to address this but may have other higher priority items. This will likely get resolved in 90-120 days.                               | PM or EM of that product group, based on work type |
+| `~"priority::4"` | Low    | We don't have visibility when this will be addressed. No timeline designated.                                          | PM or EM of that product group, based on work type |
 
 ## Severity
 
