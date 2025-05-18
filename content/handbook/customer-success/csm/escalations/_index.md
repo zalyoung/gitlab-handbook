@@ -13,7 +13,7 @@ Escalations can take at least two different forms:
 1. Account Escalation.  This occurs when the customer expresses or a GitLab team member identifies that a customer is facing a challenging situation that may or may not relate to a specific support ticket. Anyone in GitLab can [open an account escalation](#opening-the-escalation) and [circulate it to the leadership of the appropriate group to find a DRI](#escalation-dri).
 1. Support Ticket Attention Requests (STAR).  This occurs when an open support ticket is deemed moving too slowly.
 
-The purpose of this handbook entry is to describe the process for account escalations.  Please see the [Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests/) for details on how to request a support ticket escalation. For a detailed walkthrough of the process, please login to GitLab Unfiltered and view this [video](https://youtu.be/-nDaRndgy4Y).
+The purpose of this handbook entry is to describe the process for __account escalations__.  Please see the [Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests/) for details on how to request a support ticket escalation. For a detailed walkthrough of the process, please login to GitLab Unfiltered and view this [video](https://youtu.be/-nDaRndgy4Y).
 
 ## Objective
 
@@ -41,7 +41,7 @@ The DRI for the escalation is determined by evaluating these options in order:
 
 1. If the escalation is related to an ongoing Professional Services project, the Professional Services Project Manager will be the DRI of the escalation.
 1. If the escalation is NOT related to an ongoing Professional Services project and there is a CSM assigned to the account, the CSM will be the DRI.
-1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE assigned through the [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be lead technical collaborator on the escalation. The AE will be the DRI (managing the account), as defined by the [CSE DCI Matrix](/handbook/customer-success/csm/segment/cse/#cse-operating-rhythm).
+1. If the customer does not have an assigned CSM but is assigned to TAM Scale (Customer Success Engineering), then the CSE Manager assigned through the [CSE Help case](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process) will be DRI, with CSEs providing technical support as needed. 
 
 ```mermaid
 flowchart TD;
@@ -69,6 +69,7 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
     - Note: To ensure the DRI does not slow the resolution of issues, the DRI doesn't need to be in all meetings (for example, technical troubleshooting with the customer and support/development)
   - Driving and coordinating the escalation process internally and with the customer, including associated communications and executive-level meetings
   - Opening the CS Help - Escalation Support case in Salesforce
+   <!-- (need to differentiate this for CSE vs CSM) -->
   - Managing all assigned escalation tasks in Gainsight
   - Acting as an escalation point for customer-related issues (for example, delayed response, open actions, non-compliance installation or product use, etc.)
   - Developing the business case justification and escalation to Product for escalations related to enhancement requests
