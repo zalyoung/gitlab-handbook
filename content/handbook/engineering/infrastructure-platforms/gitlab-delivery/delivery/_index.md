@@ -84,7 +84,7 @@ These principles are intended to help everyone work independently in a way that 
 
 ## Strategy
 
-We've moved this subsection to the [Delivery direction pages](https://about.gitlab.com/direction/saas-platforms/delivery/) so that it's in the same place as the rest of our product direction.
+We've moved this subsection to the [Delivery direction pages](https://about.gitlab.com/direction/gitlab_delivery/) so that it's in the same place as the rest of our product direction.
 
 ## Top-level Responsibilities
 
