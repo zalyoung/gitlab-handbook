@@ -16,12 +16,12 @@ This policy is established to help us address a large and growing backlog, and s
    1. Two types of future plans:
       1. _Foundational_ features are new capabilities or improvements to existing capabilities (ex: SCM, CI, AST, Duo, etc.) that are within our key investments in FY26.
       1. _Visionary_ features are completely new capabilities that expand GitLab’s TAM (ex: Observability, Service Desk, etc.).
-   1. Note that only foundational features can be tagged for community contributions. Visionary features cannot be tagged for community contributions without approval from both of the functional leaders for this part of our platform.
+   1. Note that only Foundational features can be tagged for community contributions. Visionary features cannot be tagged for community contributions without approval from both the Product and Engineering functional leaders of the respective part of our platform.
 1. **Technical Debt**: As we innovate our platform, we will have situations where a strategic decision will be made to incur technical debt in order to preserve a higher feature velocity to meet market and customer demand. This accrual of technical debt presents risks due to the long-term implications for the usability, security, reliability, scalability, accessibility, and/or availability of our product and platform. Therefore technical debt may be accrued but must be triaged, assigned a priority, and have a plan to remediate within the assigned SLA. If it is to be deferred by more than 6 months, it must be put into the product and engineering roadmap. Technical debt issues you wish to be closed must not affect the "*abilities" and have a justification included on why it cannot be remediated within the next 12 months (meaning, there is an action plan on the Engineering roadmap).
 
 This Backlog triage policy enables us to openly communicate our commitments for what we will work on to improve our product for the community and our customers, addressing:
 
-1. Direct customer feedback requesting more predictable and timely decisions on fature requests
+1. Direct customer feedback requesting more predictable and timely decisions on feature requests
 1. Community contributor feedback requesting clarity on how they can best contribute, and what areas of the product their contributions would be most impactful.
 1. Customer and community feedback on improving visibility, transparency, and accuracy of our rolling 4 quarter customer roadmap.
 
