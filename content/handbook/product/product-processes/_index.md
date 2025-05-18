@@ -470,7 +470,7 @@ Downtime of GitLab.com has a material impact on our customers. From a 2014 repor
 
 #### Infradev
 
-The [infradev process](/handbook/engineering/workflow/#infradev) is used to triage issues requiring priority attention in support of SaaS availability and reliability. As part of the broader effort to responsibly manage tech debt across the company, PMs should partner with their EMs to identify and [incorporate](/handbook/engineering/workflow/#product-management) infradev labeled issues of [all severities](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity). Note, issues labeled with a severity must be mitigated and resolved within [specific time frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) to meet the SLO. As EMs are the DRIs for prioritizing infradev work, PMs should familiarize themselves with the [infradev process](/handbook/engineering/workflow/#infradev) and [Board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev).
+The [infradev process](/handbook/engineering/workflow/#infradev) is used to triage issues requiring priority attention in support of SaaS availability and reliability. As part of the broader effort to responsibly manage tech debt across the company, PMs should partner with their EMs to identify and [incorporate](/handbook/engineering/workflow/#product-management) infradev labeled issues of [all severities](/handbook/product-development/issue-triage/#severity). Note, issues labeled with a severity must be mitigated and resolved within [specific time frames](/handbook/product-development/issue-triage/#availability) to meet the SLO. As EMs are the DRIs for prioritizing infradev work, PMs should familiarize themselves with the [infradev process](/handbook/engineering/workflow/#infradev) and [Board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev).
 
 Other resources PMs can consult to identify and prioritize Infradev issues include:
 
@@ -1135,17 +1135,17 @@ is the [GitLab Product Customer Advisory Board](/handbook/product/product-proces
 
 You may be asked by the CAB to present your stage or a specific product offering at these meetings.  Here are some guidelines for presenting:
 
-1. Product Focused Highlights: All presentation materials should be focused on products we plan to launch or evaluating products we have available to customers. 
+1. Product Focused Highlights: All presentation materials should be focused on products we plan to launch or evaluating products we have available to customers.
 
-1. Emphasize Dialogue over Monologue: Structure your presentation to encourage meaningful two-ways discussions. 
+1. Emphasize Dialogue over Monologue: Structure your presentation to encourage meaningful two-ways discussions.
 
-1. Prepare Targeted Questions: Develop 2-3 specific, through provoking questions to engage members in conversation. These questions should be focused on presentation, strategic decisions GitLab is currently grappling in your stage that you would like to gather customer feedback on, or a question related directly to customer workflows. 
+1. Prepare Targeted Questions: Develop 2-3 specific, through provoking questions to engage members in conversation. These questions should be focused on presentation, strategic decisions GitLab is currently grappling in your stage that you would like to gather customer feedback on, or a question related directly to customer workflows.
 
-1. Connect to Previous Feedback: Reference previous feedback you have received from advisory meetings in the past. This will help illustrate to CAB members the value of their time and that GitLab takes their recommendations into consideration. 
+1. Connect to Previous Feedback: Reference previous feedback you have received from advisory meetings in the past. This will help illustrate to CAB members the value of their time and that GitLab takes their recommendations into consideration.
 
-1. Prompt Follow Through: Document key insights and actions items during your session. 
+1. Prompt Follow Through: Document key insights and actions items during your session.
 
-1. Be Prepared: Be sure to prepare for the meeting ahead of time independently. 
+1. Be Prepared: Be sure to prepare for the meeting ahead of time independently.
 
 Please review [GitLab Product Customer Advisory Board Page](/handbook/product/product-processes/customer-advisory-board/) for more details.
 
