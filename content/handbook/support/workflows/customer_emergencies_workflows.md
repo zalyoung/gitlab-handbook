@@ -403,7 +403,7 @@ A customer may be blocked because of a license expiring or neglecting to apply a
     - If it has a date, you will not need to provide a `Subscription Name` in the next step. Proceed to step 3.
     - If it is empty or null **and the namespace is on a Free plan**, guide the customer to navigate to the Settings -> Billing page and click on `Start a Free Ultimate trial`.
 1. In the ticket, apply the `Trial Subscription - Exclusions Sign Off` macro and send the generated message to the customer. Do not proceed further until the customer has provided a **written** response confirming they understand the trial subscription exclusions.
-1. Access the [CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#where-the-tool-is-located) use the [`Trial changes (SaaS)`](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#update) option to resolve the situation.
+1. Access the [CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#where-the-tools-is-located) use the [`Trial changes (SaaS)`](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#update) option to resolve the situation.
     - Search for the namespace ID.
     - Select the pencil icon to edit the trial.
     - Select the Plan the customer had initially purchased, or use `Ultimate` if you do not have this information.
@@ -423,7 +423,7 @@ Some legacy-type subscriptions are called "multi-year" but are actually multiple
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account).
 1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/subscriptions/gitlab_com/#change-the-linked-namespace).
 
-If the customer's CustomersDot account is not linked to their GitLab.com account (`uid` and `Gitlab user` in the CustomersDot account is empty) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#force-associate) as a workaround.
+If the customer's CustomersDot account is not linked to their GitLab.com account (`uid` and `Gitlab user` in the CustomersDot account is empty) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/support_tools#force-associate) as a workaround.
 
 If neither of the above resolves the issue for the customer, [contact the on-call Support Manager](#optional-contact-the-on-call-support-manager) requesting further guidance.
 
@@ -502,7 +502,7 @@ If there is a known incident, it's acceptable to link to the public status page 
 A customer may be blocked because they have run out of compute minutes.
 
 1. Advise them to purchase additional compute minutes or set up individual runners.
-1. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-additional-minutes-quota-for-a-namespace)
+1. At your discretion, as a courtesy, [set an additional 1000 compute minutes on their namespace through ChatOps](/handbook/support/workflows/chatops#setting-minutes-quota-for-a-namespace)
 
 #### Customer has exceeded their storage quota
 
@@ -522,7 +522,7 @@ Success in such a situation is two-fold:
 If this occurs:
 
 1. Don't panic! Slack and PD alerts may come quickly and frequently. Consider silencing both temporarily and focus on ZD.
-1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows#how-are-incidents-declared) and that the incident is actively being worked.
+1. Verify that an [incident has been declared](/handbook/support/workflows/cmoc_workflows#how-incidents-are-declared) and that the incident is actively being worked.
 1. If there is no update on the status page yet, advocate for urgency with the [CMOC](/handbook/engineering/infrastructure/incident-management/#communications-manager-on-call-cmoc-responsibilities) so that you can point to it in responses.
 1. Choose a unique tag that will help you identify tickets, using the incident number would be typical. For example: `incident-12345`
 1. Create a bulk response that points to the incident on the status page, `@gitlabstatus` on Twitter and the production issue. If any of these aren't available yet, you can send a response without to keep customers informed. You can include them in a future update.
