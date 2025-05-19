@@ -21,11 +21,9 @@ graph LR
 
 ## Why is flaky tests management important?
 
-Flaky tests undermine test results leading to engineers disregarding test failures as flaky. 
-
-Manual retries to try to get flaky tests to pass, and the effort needed to investigate flaky tests an dfailures is a signicant time waste. 
-
-Mananging flaky tests by quickly fixing the cause or removing the test from the test suite allows test time and costs to be used where they add value. 
+- Flaky tests undermine test results, leading to engineers disregarding test failures as flaky.
+- Manual retries to try to get flaky tests to pass, and the effort needed to investigate flaky tests as failures are a significant waste of time.
+- Managing flaky tests by quickly fixing the cause or removing the test from the test suite allows test time and costs to be used where they add value. 
 
 ## Flaky tests management process
 
