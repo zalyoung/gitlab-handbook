@@ -20,7 +20,7 @@ Unfortunately, GitLab's current code is not built to facilitate this need, so we
 
 ## Motivation
 
-One of the primary examples provided by users seeking tracking of vulnerabilities across multiple branches is needing to run multiple versions or deployments of a project concurrently. 
+One of the primary examples provided by users seeking tracking of vulnerabilities across multiple branches is that our users frequently deploy or provide multiple versions of a system or product at a time.
 
 Under this model, an application which an organisation may continue to provide bug and security fixes for older versions is unable to easily manage vulnerabilities in multiple supported versions of code using GitLab's integrations. This can lead to users either being forced to use GitLab in unintended ways to facilitate their security scans, or opt to use other scanning tools to avoid this inconvenience.
 
@@ -30,66 +30,84 @@ Under this model, an application which an organisation may continue to provide b
 - Provide this functionality in a simple, consistent and cohesive way
 - Ensure this functionality is well designed and does not pose a risk to GitLab's stability now or in the long term
 
-## Proposal(s)
+## Proposal
 
-### Vulnerability -> Commit binding
+### Tracking
 
-An idea that has been broached on numerous occasions is to increase the bonding between tracked vulnerabilities and the repository itself to both reduce the amount of data ingested and tracked while increasing the flexibility of the implementation.
+In order to facilitate tracking of vulnerabilities across multiple branches, the core of what we are attempting to track can be disolved into a single sentence:
 
-Essentially, while the proposed implementation uses the word "branches", some users have mentioned the desire to track vulnerabilities present as specific tags. To get the best of both worlds and potentially more, the ideal would be to track the actual commit SHA values that a vulnerability is present in. With this it becomes possible for us to search, filter and compare vulnerability information across the history of the respository. This would allow comparisons and tracking of branches, tags, or even commits themselves theoretically. 
+"What significant detail has occurred regarding this vulnerability at this point in the codebases's history?"
 
-Benefits: 
+GitLab's vulnerability management system currently works by taking in a list of "Security Findings" which represent the full list of vulnerabilities identified by the scanner in the codebase at that current commit in the repository's history. When we ingest the findings, we reconcile this list of findings against the list of currently known vulnerabilities in the database in order to identify changes in the scan results for that scanner on that repository.
+Fundamentally the list of things we are identifying when we do this can boiled down to the list of "states" that we track for vulnerabilities. This list is:
 
-- Comparing any commit to any commit is super simple. Since Tags and Branches are simply identifiers for a sequence of commits, this means we can compare vulnerabilty states very easily.
-- Because most commmits are probably present in multiple branches at once, tracking by commit allows us to track that relationship more efficiently.
+- Detected
+- Confirmed
+- Dismissed
+- Resolved
 
-Risks:
+These states are fundamentally representative of entry and exit points of vulnerability within a codebase. We currently use the `Vulnerabilities::StateTransition` model to track changes between these states for a respective vulnerability. Our current architecture is built with the assumption that a `Vulnerability` exists only on the default branch of a repostory, and so we create a `StateTransition` only when the state of a vulnerability changes on the default branch.
 
+The vast majority of feature branches do not make any changes to state of a vulnerability within a codebase. This means that we can avoid the most significant risk of database bloat by utilising the branching nature of the git repository to track only the points where these changes occur in a repository's history. We can simply do this by relating the `Vulnerability::StateTransition` to the `Ci::Pipeline` that was the source of the security report that was ingested.
 
-#### Growth Estimation
+Having the pipeline that was the source of the change in the vulnerability means we can trace a vulnerability's presence in the codebase by retrieving the commit sha associtate with the CI pipeline and querying Gitaly using  [ListBranchNamesContainingCommitRequest](https://gitlab-org.gitlab.io/gitaly/#gitaly.ListBranchNamesContainingCommitRequest). This operation will tell us which branches contain the commit sha queried for, allowing us to identify all branches a respective vulnerability exists in.
 
-The GitLab project reports 622566 commits in March of 2025. 3153 of which in the last hour. And 50481 branches.
-Lets assume a data structure of vulnerability has_many vulnerability_commits, we can track every commit that contains a respective vulnerability. However, as you might guess, this in itself would be a vastly multiplicative proposition. If we propose a worst case that the project contains 10000 vulnerabilities since it existed, then we would create 6_225_660_000 vulnerability_commit records to track this. This is entirely infeasible without improvements.
+![Before](Multi%20Branch%20Vulnerabilities%20Behaviour.png)
 
-However, we know that a vulnerability present in a codebase is not functionally different from commit to commit. So what we're actually more interested in, is when a vulnerability started being in a codebase, and when it ceased to be.
-Using `git rev-list --ancestry-path 7b4a07a..ecf5891` one can trace back the commit ancestry from one commit sha to another. If we store this commit range in our vulnerability_commit records, then we technically only need a record for every branch. Using our prior example of 10_000 vulnerabilities to the 50_481 branches, we end up with 504_810_000 records. This is still immense, but 1/12 of the amount of records needed compared to tracking per commit.
+*A repository is created and committed to repeatedly. When a vulnerability is resolved in a feature branch we identify this by an appropriate Vulnerability::StateTransition. A vulnerability found in a new branch is defined with a new Vulnerability::StateTransition*
 
-##### Mitigation - Protected Branches Only
+![After](./Multi%20Branch%20Vulnerabilities%20Behaviour%20After%20Merge.png)
 
-Proposed by Alana Bellucci originally as a potential mitigation to our scaling concerns. The idea is to only track vulnerabilities for protected branches to avoid over-ingestion and uncontrollable data growth. Ideally we would want to be able to track more information, but we need to architect with scalable limits in mind. The GitLab project currently only has 12 protected branches. Using the proposed `vulnerability_commits` model with `ancestry_path` tracking, this means we would would track 120_000 `vulnerability_commit` records for the GitLab project, which is well within the realm of feasible, though would mean many user cases would go unserved.
+*The feature branch in which the vulnerability was resolved is merged into the main branch. Because it's commit now exists in the main branch, our data does not need to change to still correctly reflect the new state.*
 
-##### Mitigation - Branch Assumption
+All this should be achievable by simple adding a `pipeline_id` column to the `vulnerability_state_transitions` table.
 
-Not all changes in a codebase are going to add or remove vulnerabilities. Frequently, they do neither. So we can likely significantly mitigate the amount of commits we need to track by only tracking vulnerability_commit records for branches that result in one of these two events. It is hard to statistically quantify the impact of this, but if we pessimistically assume 75% of branches affect vulnerability counts in some way, this would reduce the predicted vulnerability_commit records from 504_810_000 to 378_607_500
+### Querying
 
-##### Mitigation - Branch Merging
+This information effectively serves as the source of truth regarding the presence and state of a vulnerability in a respective branch. However, in order to present this information to our users and allow them to query and filter it, we need to materialize the information into a state that can be effectively indexed and filtered. Due to a history of performance issues, the current Vulnerability Report works by virtue of a highly denormalized table called `vulnerability_reads` which contains all the information related to vulnerabilities in a single row, allowing for effective indexing and filtering.
 
-Branches merged into another branch will have their commits merged into that branch. This means that any vulnerabilities in that branch will begin to present in pipelines executed on the branch it was merged to. As a result, outside of historical/audit purposes, it is likely not necessary to continue tracking vulnerability presence on branches merged to the default branch. We can perhaps consider retaining this information for a shorter duration or otherwise culling it fully in the interest of preserving stability and feasibility of the feature. If we only track vulnerabilities for the default branch + branches that are not currently merged to it, the amount of distinct vulnerability paths we would potentially need to track drops down to 134 per vulnerability if we assume every vulnerability exists in every branch (as a worst case.) This brings us to a merge 134_000 vulnerability_commit messages for gitlab using the 10_000 example.
+To minimalise the amount of processing we will need to do on demand, we need to store vulnerability reports for different branches in a similar way, effectively "caching" the output for users to filter and query. This is achievable using the existing Vulnerability::Reads paradigm, however we have to acknowledge that we will need substantial storage of denormalised records to make this possible. Each additional branch we wish to track for a project would require us to duplicate their entire body of vulnerabilities, plus or minus the differences specific to the branch.
 
-##### Combining Mitigations
+This should be possible to facilitate by making the following changes to our database structure:
 
-If we consider the Branch Merging mitigation to be a sufficient case where we may only be interested in vulnerabilities on unmerged branches, we are currently tracking 134_000 vulnerability_commits. If we then add the Branch Assumption mitigation in which we do not track records for branches where no change to the vulnerability counts occurs, we can use the same pessimistic assumption and drop this by a further 25% to only 101 branches we'd need track, and thus 101_000 vulnerability_commit records to track.
+- Partitioning of the Vulnerability Reads table.
+  - Tables over a certain size begin to face a wide variety of performance problems. The current size of vulnerability_reads is already over the threshold which starts facing these problems, so to ensure stable performance going forward we would need to partition.
+  - Additionally, per the restrictions at GitLab regarding the adding of columns and indices to tables over a certain size, vulnerability_reads contravenes both these conditions currently. So partitioning is not optional in that regard. Though we may have to seek approval to add the additional column.
+- Addition of a `ref` column to the Vulnerability Reads table.
+  - *By default a `ref` will simply be a branch name, but if users want to track vulnerabilities by `tag`, we can allow them to designate tracked tags which can be included in the `ref` column as well.
+- Additional of a `partition_number` to the vulnerability_reads table.
+  - This would allow us to use a sliding list partition strategy for vulnerability_reads, and can dynamically add new partitions as GitLab scales and users adopt our vulnerability management features to a greater extent.
+  - A partition number should be allocated by project/namespace/organisation to minimise data fragmentation. A new partition number should be used when the last partition exceeds 75GB, as this will allow already allocated projects space to grow without exceeding 100GB.
+  - Should it be necessary, it should be possible to do partition rebalancing if a particular allocation becomes too heavy.
+- Add some kind of table that allows users to designate their desired tracked refs for the project.
+  - We can make this include protected branches by default.
 
-### Potential Risks / Problems
+### Scalability, Storage and Performance
 
-#### Scalability & Retention
+Tracking vulnerabilities across multiple branches will require N * more everything to facilitate. Materializing vulnerabilities for the vulnerability report so that they can be effectively index and filtered will require as much space again on the vulnerability_reads table as it took to track the default branch's vulnerabilities. (Plus a bit more for the new ref column and associated changes to indices that will be necessary)
+
+Ingestion of vulnerabilities to update the reports will continue to be an interative update process associated with the ingestion of security reports from pipelines, so the processing necessary should be nominal in that regard.
+
+However, it is likely that we would not want to keep a materialization of the report at the ready for every branch on every project at all times due to cost reasons. To mitigate this, we can limit the amount of refs that are actively tracked, and then expand this based on our comfort with performance, scalability and cost.
+
+As a mitigation to avoid holding redundant vulnerability report data forever when a user may need it only temporarily, we can probably use the vulnerability history to generate a ref's report on demand, with some UI/UX elements to ask the user to wait while we process and generate the necessary materialised rows. This may mitigate the need to hold too much data when it may only be needed for a short duration.
+
+We could potentially consider implementing usage based pricing for users which want to keep up to track vulnerabilities for a substantial amount of refs at a single time. This may help mitigate storage costs associated with the large amount of data materialisation, and could serve to encourage users to be more considerate about the importance of what refs they would like to track.
+
+Because vulnerability_reads are essentially just a materialzed view of information from our source of truth tables, there's no danger in destructing and rebuilding it (as long as we don't disrupt users). As such, should usage grow to such an extent that we need dedicated storage for this denormalized information, this table could be very easily decomposed to a dedicated database.
+
+### Retention
 
 A very important subject in GitLab currently is the correct application of retention policies to data to avoid eternal storage of unused information. We are already in the process of implementing a [retention policy for vulnerability](https://gitlab.com/groups/gitlab-org/-/epics/12229) information based on the age of the vulnerability.
 
-Beginning to track vulnerability information across multiple branches will increase the amount of vulnerability information we ingest and hold. Some questions we need to consider is how will this affect our desired retention policies?
+Because of this new approach to handle vulnerability retention, there should not be any impact on our currently intended 12 month retention policy. Detecting a vulnerability's presence on any branch will refresh the vulnerabilities presence in the codebase and refresh it's retention lifetime.
 
-Theoretically, it should be okay to continue to apply our existing retention policy of 12 months to vulnerability data tracked across all branches, but the danger here is that this could significantly expand the amount of data we store in the database at a given time. As this can have a variety of knock-on performance impacts, it's something for us to design around and test carefully.
+### How to handle history for branch changes
 
-### Ingestion and Processes
+If a branch is deleted, the commits associated with the branch will no longer have a ref tracking them and may be pruned. The associated state transition information may now be redundant, so we should consider pruning it as well.
 
-The vulnerability management system has been written in such a way that most services and processes operate under the expectation that a vulnerability is a singular entity (despite the 1 to many relationship with vulnerability_occurrences). As a result, we may encounter a significant amount of potential issues in application logic depending on how we approach the implementation.
+If a branch is merged and the project is squashing commits with a merge commit, then we may need to consider the merge commit as the new detection/resolution point for the vulnerability and drop the state transition records that were generated for the separate branch. Alternatively those existing VST's could have the pipeline_id updated to match the merge commit.
 
-## Other Considerations
+### SBOM dependency tracking for package advisories
 
-### ElasticSearch
-
-Search and filter mechanisms for vulnerabilities in GitLab are already struggling to work in GitLab at the scale of very large users, and has required significant optimisation to make possible.
-
-Without modification, it is unlikely that we will be able to use our existing Postgres implementations to facilitate search and filtering once we begin tracking vulnerabilities across multiple. 
-
-However, we are in progress implementing ElasticSearch to enable more powerful search and filtering functionalities at our very large data scale. This implementation will likely be very useful to facilitate search and comparison across branches as we begin to track data for non-default branches. 
+In order to track vulnerabilities from package advisories on multiple branches, it becomes necessary to track the dependencies present on all branches as well. Currently there is no architectural consideration for this behaviour in Gitlab, but we may be able to minimally support this by tracking entry/exit points for dependencies in a similar way to how were proposing to use Vulnerability State Transitions to track the same for vulnerabilities. If we know what commits contain a dependency, we can determine what branches have that dependency and then apply the package advisory all applicable branches.
