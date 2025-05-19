@@ -83,7 +83,6 @@ Now that you have dependencies added to your project, you want to ensure that th
       - component: ilt.gitlabtraining.cloud/components/dependency-scanning/main@main
     ```
 
-
 1. Select **Commit changes**, and keep the **Commit to the current main branch** selected. Select **Commit changes**.
 
 To view the progress of your new pipeline:

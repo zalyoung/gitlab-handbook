@@ -25,7 +25,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
     - test
     ```
 
-1. Name your new job and assign it to the **build** stage by pasting this at the end of `.gitlab-ci.yml`:
+1. Name your new job and assign it to the **build** stage by pasting the code below at the end of `.gitlab-ci.yml`:
 
     ```yml
     build-and-push-docker-image:
@@ -144,7 +144,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
         - docker push $IMAGE
     ```
 
-1. Commit the changes to the `main` branch with an appropriate commit message (`Adding a docker file definition`).
+1. Commit the changes to the `main` branch with an appropriate commit message (`Adding a Docker file definition`).
 
 1. Navigate to **Build > Pipelines** to watch the progress of the new pipeline. Click on the pipeline to view the CI output for the build job.
 
@@ -161,6 +161,14 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
     ```
 
     > This can be added anywhere in the list of templates.
+
+1. We will need to make sure the Container Scanner is aware of the container that we want to scan, so to do so, we need to override the `container_scanning` job. Copy the code below to override the `CS_IMAGE` variable for the `container_scanning` job:
+
+```yml
+container_scanning:
+  variables:
+    CS_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+```
 
 1. Commit the changes with an appropriate commit message.
 
