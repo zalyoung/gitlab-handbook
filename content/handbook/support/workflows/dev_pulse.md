@@ -29,7 +29,7 @@ flowchart TD
 
 	D1[Customer asks about the status <br/>in the Support ticket]
 	E1[Support Engineer replies <br/> to the customer]
-    E4[Support Engineer sets the incident back on on-Hold]
+   E4[Support Engineer sets the incident back on on-Hold]
     
 	D2[Dev issue is completed<br/>and all related incidents updated<br/>Slack message will be send every 3rd Wed of the month]
 	F3[A support reply on the problem ticket <br/>marking it as solved will be copied to all linked incidents]
@@ -38,7 +38,7 @@ flowchart TD
 	A --> B --> C
 	C --> D1 --> E1
 	E1 --> E4
-    E4 -->D2
+   E4 -->D2
 	C --> D2
 	D2 --> E3
 	E3 --> F3
@@ -66,14 +66,16 @@ Apply the macro `General::Waiting on RFH`
 ### What views are available for Dev Pulse
 
 #### Bug or feature request tickets
+
 Tickets waiting on bug/feature request resolution      
 
 #### Links to bugs or feature requests
+
 Parent problem tickets
 
 #### RFH tickets
-Tickets waiting on a request for help
 
+Tickets waiting on a request for help
 
 ## Viewing and reporting on this
 
@@ -112,7 +114,6 @@ As this requires a very specific set of steps, please request this be done by
 the Support Readiness team by posting in the
 [#support_operations](https://gitlab.enterprise.slack.com/archives/C018ZGZAMPD)
 Slack channel.
-
 
 ### How to re-initiate the process on a ticket
 
