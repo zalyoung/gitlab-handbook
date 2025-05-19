@@ -326,7 +326,7 @@ Based on the risk score the ProdSec conducts Critical, High or Medium level Secu
 ```mermaid
 flowchart TD
 
-    A[Product team requests a feature review] -->B[Product team adds a `SecurityReview:Requested` on a feature issue/epic]
+    A[Product team requests a feature review] -->B[Product team adds a `SecurityReview:Requested` on a feature issue/epic/mr]
     B --> C[ProdSec automation adds Initial Triage Questions in the feature issue and adds label `initial-triage:pending-answers`]
     C --> D[Product team fills the Initial Triage questions and removes pending label]
     D --> F{Team Routing logic}
