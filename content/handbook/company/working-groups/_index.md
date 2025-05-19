@@ -162,7 +162,7 @@ If something isn't on our [Not Public list](/handbook/communication/confidential
 1. Preparation
     1. Determine an appropriate project name using [limited access naming conventions](/handbook/communication/confidentiality-levels/#limited-access).
     1. Create an overview page and add the link to [Active Working Groups](#active-working-groups-alphabetic-order). You can share limited information, but capture key team members, including the facilitator, executive stakeholder, and functional lead.
-    1. If working in the handbook, evaluate whether the page should be confidential or be housed in a new project with limited access. Consider working in the [staging handbook](/handbook/about/handbook-usage/#the-staging-handbook). We use this when information may need to be iterated on or MR branches may need to be created in staging before it is made public. Outside of E-Group, temporary access may be granted on a project-specific basis.
+    1. If working in the handbook, evaluate whether the page should be confidential or be housed in a new project with limited access. Consider working in the [internal handbook](https://internal.gitlab.com/). We use this when information may need to be iterated on or MR branches may need to be created in staging before it is made public. Outside of E-Group, temporary access may be granted on a project-specific basis.
     1. Maintain a list of working group members and other folks who are participating in or informed of the project. This list should be available to all participating team members. Folks should not be added to this list until it is confirmed that they understand what can be communicated.
     1. Ensure that each working group team member understands what can be communicated externally and internally.
     1. Have private Slack channels that include folks who are directly working on the project.
@@ -172,7 +172,7 @@ If something isn't on our [Not Public list](/handbook/communication/confidential
 1. Proactively share information if the project is no longer limited access
     1. Notify widely of progress or exit outcomes when information can be shared more broadly.
     1. Evaluate which artifacts and communication material can be made internally available or public.
-        1. If you were working in the [staging handbook](/handbook/about/handbook-usage/#the-staging-handbook), follow instructions to make a merge request against the public repo.
+        1. If you were working in the [internal handbook](https://internal.gitlab.com/), follow instructions to make a merge request against the public repo.
         1. Transition members to public Slack channels and archive private channels.
         1. Deprecate private agendas. Link this to a new agenda document.
         1. Consider making GitLab Groups and Projects public or avialable to a broader audience.
@@ -189,11 +189,11 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Customer Use Case Adoption](/handbook/company/working-groups/customer-use-case-adoption/)
 1. [Feature Testing](/handbook/company/working-groups/feature-testing/)
 1. [FedRAMP Execution](/handbook/company/working-groups/fedramp-execution/)
+1. [Frontend Technical Interview (internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/frontend-technical-interview/)
 1. [GCP Partnership](/handbook/company/working-groups/gcp-partnership/)
-1. [Keep around references](/handbook/company/working-groups/keep-around-refs/)
 1. [HPT in Product Division](/handbook/company/working-groups/hpt-product-division/)
+1. [Keep around references](/handbook/company/working-groups/keep-around-refs/)
 1. [Product Accessibility](/handbook/company/working-groups/product-accessibility/)
-1. [Python Stewardship](/handbook/company/working-groups/python-stewardship/)
 1. [Secure Govern Database Decomposition](/handbook/company/working-groups/secure-govern-database-decomposition/)
 1. [Upgrade Improvements](/handbook/company/working-groups/upgrade-improvements/)
 
@@ -271,9 +271,10 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Product Analytics](/handbook/company/working-groups/product-analytics/)
 1. [Product Career Development Framework](/handbook/company/working-groups/product-career-development-framework/)
 1. [Product Development Flow](/handbook/company/working-groups/product-development-flow/)
-1. [Product Engagement Actions (FY21)](FY21-product-engagement-actions.md)
+1. [Product Engagement Actions (FY21)](fy21-product-engagement-actions.md)
 1. [Project Matterhorn: Premium Price Tier Increase. Limited access](/handbook/communication/confidentiality-levels/#limited-access)
 1. [Purchasing Reliability](/handbook/company/working-groups/purchasing-reliability/)
+1. [Python Stewardship](/handbook/company/working-groups/python-stewardship/)
 1. [Rate Limit Architecture](/handbook/company/working-groups/rate-limit-architecture/)
 1. [Real-Time](/handbook/company/working-groups/real-time/)
 1. [Revenue Globalization](/handbook/company/working-groups/globalization/)
@@ -298,9 +299,3 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)
 1. [Vue.js 3 Upgrade](/handbook/company/working-groups/vuejs-3-migration/)
 1. [Webpack (Frontend build tooling)](/handbook/company/working-groups/webpack/)
-
-## What were Top Cross-Functional Initiatives?
-
-Top Cross-Functional Initiatives were [Working Groups](/handbook/company/working-groups) that were key to GitLab's success in the fiscal year and beyond. While there were other important business initiatives and priorities that existed within functions or required engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring.
-
-We retired this concept in FY24-Q3, because we had layered these initiatives under [Yearlies](/handbook/company/yearlies/) as sub-objectives. This list was duplicative and confusing to team members who were trying to manage these and other priorities. Top Cross-Functional Initiatives were moved to this page. The Top Cross-Functional Initiative concept was deprecated.

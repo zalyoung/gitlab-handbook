@@ -13,6 +13,12 @@ The O'Reilly Learning library, contains thousands of books, videos and live lear
 
 The Customer Success and Development departments each have a number of licenses available for team-members. If you would like access to O'Reilly, please check Okta for the O'Reilly App.
 
+#### Solutions Architecture
+
+- If the O'Reilly App isn't listed on Okta, please open an Access Request using instructions on this [handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+- If you are unable to log in from the Okta O'Reilly App, ask your manager to ensure you are part of the sales-sa google group
+- If you are still unable to log in from the Okta O'Reilly App, please contact [#it_help](https://gitlab.slack.com/archives/CK4EQH50E) with the AR number you created using the link above.
+
 #### Customer Success
 
 - If the O'Reilly App isn't listed on Okta, please open an Access Request using instructions on this [handbook page](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
@@ -122,8 +128,6 @@ Once you've submitted the form, you should receive a welcome email from partner-
 
 Some learning paths are meant to give you knowledge and experience to pass a certification. To get the voucher code for passing a Google Cloud Certification please reach out to the #learninganddevelopment slack channel.
 
-## LinkedIn Learning
+## Hone Learning
 
-From January 2021 - January 2024, GitLab had a 1000 license agreement with LinkedIn Learning. Due to the licenses being under-utilized, we decided to end this agreement so that we can explore other more cost-effective and impactful solutions for off the shelf content and self-paced trainings. However, for those team members who would like to continue to use a LinkedIn Learning license to access their training content, they can purchase one using the [Growth and Development Fund.](/handbook/people-group/learning-and-development/growth-and-development/).
-
-Also, there are a number of LinkedIn Learning courses that are free for anyone to access, even if they do not have a paid license. You can review the full list of courses in the [Unlocked LinkedIn Learning course list.](https://docs.google.com/spreadsheets/d/1vafTEKxtm0TSF3maK1xdLPIA7OkYVPsQZH9CtC8tVmw/edit#gid=0)
+From January 2025, GitLab has partnered with the Hone employee development platform to provide licenses for all of GitLab's manager population. You can read more about the system and how to access, (including access or ICs) in the Hone handbook page.

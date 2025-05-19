@@ -11,7 +11,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 
 ## Team Members
 
-{{% stable-counterparts role="Foundations:Personal Productivity" %}}
+{{% engineering/stable-counterparts role="Foundations:Personal Productivity" %}}
 
 ## What do we work on?
 
@@ -27,7 +27,7 @@ For more urgent items or if you are unsure who to ask, ping `@gitlab-org/foundat
 
 ## How do we work?
 
-In general, we use the standard GitLab [Product Development Flow](/handbook/product-development-flow/). Here are some specific workflows we use:
+In general, we use the standard GitLab [Product Development Flow](/handbook/product-development/product-development-flow/). Here are some specific workflows we use:
 
 {{% include "includes/engineering/foundations/weighting_scale.md" %}}
 

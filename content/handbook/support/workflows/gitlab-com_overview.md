@@ -32,9 +32,9 @@ With GitLab.com, GitLab (the company) is the administrator of the instance. This
 
 ### Users Are Not Admins
 
-Users including customers [never have an admin role](https://docs.gitlab.com/ee/administration/index.html#administrator-documentation).
+Users including customers [never have an admin role](https://docs.gitlab.com/administration/#administrator-documentation).
 
-This means that none of our administrator specific documentation will apply to end-users, and [instance level settings](https://docs.gitlab.com/ee/user/gitlab_com/) are managed by our infrastructure team.
+This means that none of our administrator specific documentation will apply to end-users, and [instance level settings](https://docs.gitlab.com/user/gitlab_com/) are managed by our infrastructure team.
 
 ### Accounts Belong to Users
 
@@ -53,11 +53,14 @@ Enterprise user accounts belong to the company that purchased a GitLab subscript
 To share private information or take any action, [proof of account ownership is required](/handbook/support/workflows/account_verification/) as usual.
 
 Enterprise users belong to a group based on the `enterprise_group_id` user attribute.
-See the [enterprise users documentation page](https://docs.gitlab.com/ee/user/enterprise_user/) for details on how this happens in GitLab.
+See the [enterprise users documentation page](https://docs.gitlab.com/user/enterprise_user/) for details on how this happens in GitLab.
 
-For the purposes of support, a user may still be considered an enterprise user when **all** of the following conditions are met:
+For **the purposes of support**, a user may still be considered an enterprise user when **both** of the following conditions are met:
 
-1. The user's primary email has a domain that is owned by the company of the paid group, *and*
+1. The user's primary email has a domain that is **owned** by the company of the paid group, this means **one** of the following is true:
+    - The WHOIS information on the domain matches the organization name
+    - The email domain matches the subscription holder in CDOT
+    - The email domain matches that of an Owner in the top-level namespace    
 1. The user account meets **one** of the following conditions:
     - was created 2021-02-01 or later.
     - has a SAML or SCIM identity tied to the organization's group.

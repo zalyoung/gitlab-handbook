@@ -41,7 +41,7 @@ The [product roadmap](https://gitlab.com/gitlab-com/Product/-/issues/12911) outl
 
 ### FY24
 
-The Verify Pipeline teams focused on the following Engineering-led initiatives, in addition to our deliverables for the [FY24 Yearlies](/handbook/company/yearlies/#fy24-yearlies):
+The Verify Pipeline teams focused on the following Engineering-led initiatives, in addition to our deliverables for the FY24 Yearlies:
 
 1. [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md)
 1. Pipeline speed improvements - including analysis of pipeline performance
@@ -96,7 +96,7 @@ The Verify stage is made up of 5 groups:
 
 ### Stable Counterparts
 
-{{< stable-counterparts role="Verify" other-manager-roles="Engineering Manager(.+)(Pipeline Authoring|Pipeline Execution|Runners)|Senior Manager(.+)Verify" >}}
+{{< engineering/stable-counterparts role="Verify" other-manager-roles="Engineering Manager(.+)(Pipeline Authoring|Pipeline Execution|Runners)|Senior Manager(.+)Verify" >}}
 
 ## How we work
 

@@ -65,7 +65,13 @@ In order to receive RPO and RTO targets, customers must specify a primary and se
 
 If a customer uses the [Bring your own domain feature](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#bring-your-own-domain), the customer must update its Domain Name System ("DNS") configuration to fully restore the Dedicated service ("DNS Update"). The time required to trigger and complete a DNS Update will not count towards the calculation of RTO under the Plan.
 
-For customers who have only specified a primary region or in cases where a secondary region is not supported by GitLab Dedicated, GitLab will still make a good faith effort to recover pursuant to the Plan, but the RTO and RPO goals of the Plan will not be considered.
+The RTO and RPO outlined in the Plan do not apply in the following circumstances:
+
+1. If only a primary region was specified by a customer
+2. If a secondary region is not supported by GitLab Dedicated
+3. If the secondary region selected by a customer only provides for [limited support](https://docs.gitlab.com/subscriptions/gitlab_dedicated/data_residency_and_high_availability/#secondary-regions-with-limited-support)
+
+In all three circumstances above, GitLab will still make a good faith effort to recover pursuant to the Plan, but the stated RTO and RPO objectives will not apply.
 
 GitLab regularly tests the Plan and will take all commercially reasonable efforts to ensure its success within the below RTO/RPO goals.
 

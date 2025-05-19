@@ -46,7 +46,7 @@ Welcome to Learning and Development for the Finance Department at GitLab! The re
 
 ### FP&A
 
-- [FP&A](/job-families/finance/finance-planning-and-analysis)
+- [FP&A](/job-families/finance/finance/finance-planning-and-analysis/)
 - [Data and Analytics](/job-families/finance/data-and-insights-executive)
 - [VP Finance](/job-families/finance/vp-finance)
 

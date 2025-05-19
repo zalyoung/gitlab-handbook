@@ -13,7 +13,7 @@ GitLab's Talent Development Program includes the following initiatives:
 - [360 Feedback](/handbook/people-group/360-feedback/)
 - [Organisational Structure and gaps](/handbook/company/structure/)
 - [Performance Assessments and Succession Planning](/handbook/people-group/talent-assessment)
-- [Career Development Conversations]({{< ref "1-1#career-development-discussion-at-the-1-1" >}})
+- [Career Development Conversations](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1)
 - [Performance Improvement Plans (PIP)](/handbook/leadership/underperformance/#options-for-remediation)
 - [Performance Enablement Review](/handbook/people-group/learning-and-development/career-development#performance-enablement-review)
 - [Individual Growth Plan](https://docs.google.com/document/d/1ZjdIuK5mNpljiHnFMK4dvqfTOzV9iSJj66OtoYbniFM/edit)
@@ -39,7 +39,7 @@ click Bid1 "/handbook/company/structure/"
 click Did1 "[360-feedback](/handbook/people-group/360-feedback/)"
 click Eid1 "/handbook/people-group/talent-assessment"
 click Fid1 "/handbook/hiring/"
-click Gid1 "{{< ref "1-1#career-development-discussion-at-the-1-1" >}}"
+click Gid1 "[1-1](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1)"
 click Hid1 "/handbook/people-group/learning-and-development/career-development#internal-resources"
 
 classDef classA fill:#dcf3f5, stroke:#20757d

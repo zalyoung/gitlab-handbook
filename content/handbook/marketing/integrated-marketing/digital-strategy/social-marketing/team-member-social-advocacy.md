@@ -7,15 +7,15 @@ twitter_site: gitlab
 twitter_creator: gitlab
 ---
 
-[Login to Bambu via Okta SSO](https://gitlab.getbambu.com/login)
+Login to EveryoneSocial via Okta SSO (link tbd)
 
 ## Team Member Social Media Advocacy and Enablement
 
-[According to Sprout Social](https://sproutsocial.com/insights/what-is-employee-advocacy/), team member advocacy is the promotion of an organization by its staff members. People trust recommendations and content from people they know. They trust these people a lot more than they trust marketing messages from companies on organic brand social channels or paid social media advertising. We know this when a team member can post the same content the brand channel publishes, but because the message was more personal, more human, the team member gains significant engagement over the brand channel.
+Team member advocacy is the promotion of an organization by its staff members. People trust recommendations and content from people they know. They trust these people a lot more than they trust marketing messages from companies on organic brand social channels or paid social media advertising. We know this when a team member can post the same content the brand channel publishes, but because the message was more personal, more human, the team member gains significant engagement over the brand channel.
 
 ### Social Advocacy Strategy
 
-To enable all GitLab team members to confidently and comfortably share GitLab related stories on their personal social media channels in a way that is risk adverse yet provides measureable performance.
+To enable all GitLab team members to confidently and comfortably share GitLab related stories on their personal social media channels in a way that is risk averse yet provides measureable performance.
 
 #### Goals of social media advocacy
 
@@ -33,22 +33,17 @@ To enable all GitLab team members to confidently and comfortably share GitLab re
 - Career growth: sharing industry content on social media can help make team members be looked at as thought leaders in their spaces - this boosts your personal brand
 - Save time - by checking Bambu on a regular cadence and scheduling content on your channels for a week or two, you'll be enabled to share a lot of GitLab stories without the need to spend a lot of time sourcing, writing, and manually posting on your own social channels
 
-### Bambu, our social advocacy tool
+### EveryoneSocial, our social advocacy tool
 
-Bambu by Sprout Social is an employee advocacy platform for you to share content across LinkedIn, Twitter or Facebook. Bambu enables you to quickly and easily share content on LinkedIn, Twitter and Facebook to amplify our brand reach and help establish your personal brand on social media. The goal of this tool is to centralize content that is valuable to our audience.
-
-<figure class="video_container"><iframe src="https://www.youtube.com/embed/5AWFUYd3myw"></iframe>"></iframe></figure>
+EveryoneSocial is an employee advocacy platform for you to share content across LinkedIn, Twitter/X, Instagram or Facebook. EveryoneSocial enables you to quickly and easily share content onsocial media platforms to amplify our brand reach and help establish your personal brand on social media. The goal of this tool is to centralize content that is valuable to our audience.
 
 <details><summary>How do I get started?</summary>
 
 <p>
-First, you'll need to confirm that you have been assigned the Bambu application in Okta in order to use it. If you are not assigned Bambu in Okta and you are interested, please reach out to the team in the #social-advocacy Slack channel.
+First, you'll need to confirm that you have been assigned the EveryoneSocial application in Okta in order to use it. If you are not assigned EveryoneSocial in Okta and you are interested, please reach out to the team in the `#social_media_action` Slack channel.
 </p>
 <p>
-You'll need to log into Okta and locate the Bambu by Sprout Social logo tile. Click on the Okta tile. IF you haven't made an account yet, you'll be prompted to do so. You'll always have access to Bambu via logging in with Okta.
-</p>
-<p>
-Once you've logged in for the first time, save a bookmark in your browser for <a href="https://gitlab.getbambu.com/login">https://gitlab.getbambu.com/login</a>
+You'll need to log into Okta and locate the EveryoneSocial logo tile. Click on the Okta tile. IF you haven't made an account yet, you'll be prompted to do so. You'll always have access to EveryoneSocial via logging in with Okta.
 </p>
 <p>
 Click the login with SSO option at the bottom of the page to log in whenever you want.
@@ -59,18 +54,17 @@ Click the login with SSO option at the bottom of the page to log in whenever you
 <details><summary>What am I supposed to do inside Bambu?</summary>
 
 <p>
-When you log into Bambu, you will see a collection of stories curated specifically for you.
+When you log into EveryoneSocial, you will see a collection of stories curated specifically for you.
 </p>
 <p>
-This is a centralized hub for you to learn, build your reputation online, and help spread the word about GitLab by sharing these stories with your networks on Facebook, LinkedIn, and Twitter. We made it easy to share, too.
+This is a centralized hub for you to learn, build your reputation online, and help spread the word about GitLab by sharing these stories with your networks on social media. We made it easy to share, too.
 </p>
 <p>
-When you click the share icon on any story, you'll see that we've added a suggested status update. Of course, you're welcome to adjust or completely rewrite it to match your own voice (the only exception to this will be when you're sharing content that needs to be worded a certain way for compliance reasons, in which case, we'll say so in the notes). However, sharing to Twitter requires customizing a minimum of 20 characters in the copy suggestions we provide. This is because Twitter would otherwise see a lot of tweets with the exact same text and each of these posts would be marked as spam and receive no impressions, engagements, or clicks. This is a feature of Bambu. When you go to schedule a tweet, you'll see a note requiring you to update the copy.
-</p>
+When you click the share icon on any story, you'll see that we've added a suggested status update. Of course, you're welcome to adjust or completely rewrite it to match your own voice (the only exception to this will be when you're sharing content that needs to be worded a certain way for compliance reasons, in which case, we'll say so in the notes).
 
 </details>
 
-<details><summary>How often am I supposed to login to Bambu?</summary>
+<details><summary>How often am I supposed to login to EveryoneSocial?</summary>
 
 <p>
 As often as you like, but try to make a habit of logging in at least once a week, as we are constantly adding new and useful information.
@@ -83,7 +77,7 @@ There are other ways to stay in touch with the latest stories to share:
 </p>
 
 <p>
-<a href="https://slack.com/blog/productivity/make-it-a-habit-periodic-reminders-for-slack">Create a recurring Slack reminder</a> to check Bambu once a week or every other week
+<a href="https://slack.com/blog/productivity/make-it-a-habit-periodic-reminders-for-slack">Create a recurring Slack reminder</a> to check EveryoneSocial  once a week or every other week.
 </p>
 
 <p>
@@ -92,46 +86,24 @@ If you run your workday via your calendar, consider adding a 25 min block once a
 
 </details>
 
-<details><summary>Can I automate Bambu?</summary>
+<details><summary>Can I automate EveryoneSocial?</summary>
 
 <p>
-It's possible to spend less than 25 minutes every time you log into Bambu to schedule content on your social media channels for a week or two. <a href="https://bambu.zendesk.com/hc/en-us/articles/360004450291-Sharing-a-Story">We highly recommend taking advantage of the "Send Later" button feature</a> when you want to share a story.
+TBD
 </p>
 
 </details>
 
-#### Team Member Roles in Bambu, the advocacy program
+#### Team Member Roles in EveryoneSocial  the advocacy program
 
 <details><summary>Admins</summary>
 
 <p>
-The GitLab Social Team are the administrators of the social advocacy program. Admins have all access to our tool, Bambu, as needed to operate the program. Admins may act as curators from time to time as well.
+The GitLab Social Team are the administrators of the social advocacy program. Admins have all access to our tool, BEveryoneSocial , as needed to operate the program. Admins may act as curators from time to time as well.
 </p>
 <p>
- If you have questions or would like to learn more, consider sending a message in the #social-advocacy Slack channel.
+ If you have questions or would like to learn more, consider sending a message in the `#social_media_action` Slack channel.
 </p>
-
-<table>
-  <tr>
-   <td>Name
-   </td>
-   <td>Role
-   </td>
-  </tr>
-  <tr>
-   <td>Alisha Ward
-   </td>
-   <td>Senior Social Marketing Manager
-   </td>
-  </tr>
-  <tr>
-   <td>Wil Spillane
-   </td>
-   <td>Technology Owner and Admin
-   </td>
-  </tr>
-</table>
-
 </details>
 
 <details><summary>Curators (or Contributors)</summary>
@@ -157,7 +129,7 @@ Join the #social-advocacy-curators Slack channel to stay in touch with the curat
 All team members can access the Stories feed, share to their social networks and leverage the Suggestions feature to submit links to a Manager or Admin for complete Story curation.
 </p>
 <p>
-Access to Bambu is provided via an Okta tile - please log in to Okta and find the Bambu logo tile to Log on.
+Access to EveryoneSocial is provided via an Okta tile - please log in to Okta and find the EveryoneSocial logo tile to Log on.
 </p>
 <p>
 Join the #social-advocacy Slack channel to stay in touch with the program and the latest news.
@@ -165,9 +137,10 @@ Join the #social-advocacy Slack channel to stay in touch with the program and th
 
 </details>
 
-### Suggesting content for team members to share on Bambu
+### Suggesting content for team members to share on EveryoneSocial
 
-While we have a team of content curators working to add relevant and fresh content for the whole team to share on a regular basis, you may come across content that you'd like us to consider adding to Bambu, mainly content from 3rd party sources: your own blogs or a partner website link. Here's how to suggest content to an admin to add to Bambu.
+**TO BE UPDATED**
+While we have a team of content curators working to add relevant and fresh content for the whole team to share on a regular basis, you may come across content that you'd like us to consider adding to EveryoneSocial, mainly content from 3rd party sources: your own blogs or a partner website link. Here's how to suggest content to an admin to add to EveryoneSocial.
 
 - Click the +Suggest Story button in the upper right hand corner
 - Paste the story URL and click Suggest Story
@@ -175,23 +148,21 @@ While we have a team of content curators working to add relevant and fresh conte
 
 Please note that most of what is appropriate to share that comes from GitLab will be curated already.
 
-### Become a Bambu Power User with Scheduling Content
+### Become an EveryoneSocial Power User with Scheduling Content
 
-Elevate the way they use Bambu, and in turn produce more content shares, engagement and overall content impact. You can become a power user in less than 15 minutes a day!
+Elevate the way they use EveryoneSocial, and in turn produce more content shares, engagement and overall content impact. You can become a power user in less than 15 minutes a day!
 
 #### Schedule a post at least every other day
 
-We certainly don't want you to share just for the sake of sharing, but with Bambu, you'll have relevant content curated for you almost daily. By sharing more often, it signals to your social audience that you are a go-to source of information and expertise.
+We certainly don't want you to share just for the sake of sharing, but with EveryoneSocial, you'll have relevant content curated for you almost daily. By sharing more often, it signals to your social audience that you are a go-to source of information and expertise.
 
-Schedule content in advance using the content scheduler function in Bambu. Consider scheduling posts during your timezones regular business hours --- at the start of the work day (7am - 10am) around lunch time (11am - 1pm) and just after the end of the day (5pm - 7 pm). What works for your followers may also be different - it's important to check out post performance and to try out different times to see which would work best. Sorry, Bambu doesn't provide "best time of day" for scheduling posts.
+Schedule content in advance using the content scheduler function in EveryoneSocial. Consider scheduling posts during your timezones regular business hours --- at the start of the work day (7am - 10am) around lunch time (11am - 1pm) and just after the end of the day (5pm - 7 pm). What works for your followers may also be different - it's important to check out post performance and to try out different times to see which would work best.
 
 Scheduling stories on your social media channels is the best way to automate some of the manual work behind promoting content on social media. While it still requires you to check out Bambu and to edit the copy suggestions, you can "set it and forget it" and bulk a week or two worth of social posts in one short period of time. This is how the scheduling feature looks in Bambu.
 
-<img src="/images/handbook/marketing/integrated-marketing/social-marketing/bambu-scheduling-screenshot.png" alt="Sreenshot of Bambu scheduling feature">
-
 #### Customize the post copy with your point of view
 
-Bambu let's us include suggested post copy for you, but to truly stand out and resonate with your audience, customize the suggested post copy to reflect your perspective on the content you're sharing. Make sure to incorporate best practices like hashtags, tagging handles and others outlined in our social advocacy handbook. And remember, it's required to change 20 characters of the copy for Tweets, so have some fun with it.
+EveryoneSocial let's us include suggested post copy for you, but to truly stand out and resonate with your audience, customize the suggested post copy to reflect your perspective on the content you're sharing. Make sure to incorporate best practices like hashtags, tagging handles and others outlined in our social advocacy handbook. And remember, it's required to change 20 characters of the copy for Tweets, so have some fun with it.
 
 Pro tip: If you're stuck on what to say, think "how would I explain this content to someone if I was talking to them in person?" and use your answer as the basis for your copy. People react well to posts that sound like a human.
 
@@ -203,31 +174,20 @@ Pro tip: Aim to reply to comments within 1-2 days to keep the conversation timel
 
 ### Integrations
 
-- We are actively working to include link attribution for Salesforce and Marketo, to better identify how shared content on social channels enabled the sales process.
+- We are actively working to integrate into Salesforce and Slack.
 
-#### Slack and Bambu
+#### Slack and EveryoneSocial (TBC)
 
-The Slack integration will allow us to broadcast a Bambu story link to Slack, giving our team the headsup on big news items that we'd like to share. This will allow GitLab to continue operating like GitLab. You can also check out the latest stories on Bambu inside of any Slack channel by using `/bambu` for a private message showing you our top stories.
-
-<img src="/images/handbook/marketing/integrated-marketing/social-marketing/bambu-slack-stories-screenshot.png" alt="Sreenshot of Bambu stories in Slack">
+The Slack integration (WIP) will allow us to broadcast an EveryoneSocial story link to Slack, giving our team the headsup on big news items that we'd like to share. 
+You can also check out the latest stories on EveryOne Social inside of any Slack channel by using `TBD` for a private message showing you our top stories.
 
 #### Okta
 
-Onboarding: Access to Bambu is provisioned via Okta. Team members are automatically assigned Bambu by Sprout Social during the Okta onboarding process and are informed of the tool after the first week in the onboarding issue.
+Onboarding: Access to EveryoneSocial is provisioned via Okta. Team members are automatically assigned EveryoneSocial during the Okta onboarding process and are informed of the tool after the first week in the onboarding issue.
 
-Offboarding: When a team member loses access to Okta, they will also lose access to Bambu. This provides an automatic way to revoke access to former team members. However, the account will still appear in Bambu itself. The team will need to delete the Bambu for inactive team members.
-
-- Review the offboarding issue for team member name
-- Remove team member's account from Bambu by deleting it entirely
-- Check off the `Access Deprovisioned` box.
-
-### Contests
-
-We'll run contests for team members from time to time to enable more sharing across particular topics or campaigns. You'll find out about these contests in the #whats-happening-at-gitlab Slack channel in the coming months.
+Offboarding: When a team member loses access to Okta, they will also lose access to EveryoneSocial. This provides an automatic way to revoke access to former team members.
 
 ### Reporting and Metrics
-
-[Bambu provides a report center to outline all of the possibilities here](https://bambu.zendesk.com/hc/en-us/articles/360020038351-Bambu-Report-Guide).
 
 Conversion Rate - the percentage of team members invited to the program that are actually participating
 
@@ -241,37 +201,25 @@ Engagement - measuring the number of actions taken on content shared through Bam
 
 Ad value or equivalency - similar to how we measure this for the brand, this is measured in a dollar value for advertising determined by the sum of a reporting period's equivalent CPM + CPC costs
 
-### Bambu FAQs
+### EveryoneSocial FAQs
 
-#### Why did we choose Bambu over [some other platform]?
+#### Will EveryoneSocial replace the use of issues for social media enablement for team members?
 
-There are dozens of employee social media advocacy tools, many of which operate similarly. We chose Bambu due to the deep ties with our existing social media management software, Sprout Social, and the potential to streamline the "brand-to-team-member" content process. It's also pretty easy to use.
-
-#### Feeback on Bambu
-
-I was not able to provide feedback on the tool selection process, the rollout of this program, or the topics and strategy. What gives?
-
-This project has operated inside of the social team for a long time and has had to overcome many challenges from across the company in order to launch. We're thrilled that you'd want to provide feedback, however, we've developed the program with the right team members attached and providing feedback. For your ideas, please consider opening an issue for a future iteration where the team can consider your ideas to be included at a later time.
-
-#### Will Bambu replace the use of issues for social media enablement for team members?
-
-Yes, that was a part of the original goal. Using GitLab issues for social enablement is an extremely manual process that has not been efficent. Bambu will allow a centralized and easy to use administration to the entire company while also helping us to understand performance metrics.
+Yes, that was a part of the original goal. Using GitLab issues for social enablement is an extremely manual process that has not been efficent. EveryoneSocial will allow a centralized and easy to use administration to the entire company while also helping us to understand performance metrics.
 
 #### What personally identifiable data is available for GitLab?
 
 GitLab is not given any personal information about your social media profiles, actions, comments, DM, or any other element. When you connect your social media channels to Bambu it provides a way for you to schedule and publish content on your social channels automatically using all of the APIs available on these social channels. It also provides a top level, no context review of performance metrics on *posts you published on your personal social media channels through Bambu only.
 
-The data that GitLab receives shows your posts published through Bambu:
+The data that GitLab receives shows your posts published through EveryoneSocial:
 
-- Reach - or how many people saw the posts you published through Bambu
-- Engagements - or how many actions people took on the posts you published through Bambu; comments, likes, shares, etc.
-- Clicks - or how many times people clicked on the link you published in your post through Bambu
+- Reach - or how many people saw the posts you published through EveryoneSocial
+- Engagements - or how many actions people took on the posts you published through EveryoneSocial; comments, likes, shares, etc.
+- Clicks - or how many times people clicked on the link you published in your post through EveryoneSocial
 
 *GitLab cannot see who liked your posts, what their comments were on your posts, who shared your posts, or any information relating to posts that are not published through Bambu (so all of your personal activity is still personal).*
 
-Here is a look at the data that is personally identified with individual team members. Note again that we cannot see the context behind the data and this is only for content that is scheduled and published through Bambu.
-
-<img src="/images/handbook/marketing/integrated-marketing/social-marketing/Bambu-Data-1.png" alt="Sreenshot of Bambu data">
+Here is a look at the data that is personally identified with individual team members. Note again that we cannot see the context behind the data and this is only for content that is scheduled and published through EveryoneSocial.
 
 #### Why are preview images, titles, and text not included within shared posts?
 
@@ -287,21 +235,21 @@ Yes, there is a suggestion feature built into the tool. You'll see a `Suggest St
 
 Please keep in mind that providing a suggestion is only the first piece of the work necessary for the content to appear for the entire team to share on Bambu. We'd still need to vet the content for standards, legal review, write copy for the posts, and release it to be available in the platform. Adding suggestions adds more work for the social team and our team of curators, so make it worth it!
 
-#### Is Bambu connected to Salesforce or Marketo?
+#### Is EveryoneSocial connected to Salesforce?
 
-While Bambu offers the possibility to connect with both Salesforce and Marketo for appropriate attribution, these features have not yet been activated. Issues for connecting [Salesforce](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/1635) and [Marketo](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/4739) are opened and need to be completed. If you believe these connections are important for your use of Bambu, please reach out to me and the other stakeholders in the appropriate issue linked above.
+We are actively integrating with Salesforce. This integration allows you the convenience of staying in Salesforce and still being able to view and share content to your social channels.
 
-#### Where does the content in Bambu come from?
+#### Where does the content in EveryoneSocial  come from?
 
-The content in Bambu comes from a group of GitLab team members we call curators, they help us to source and promote content that is important in their line of work. Folks from the security team will provide security related content, our all remote team will provide content about remote work, and so on. If there is a focus that is not being represented and it would provide content that the team actually wants to promote, please reach out in #social-advocacy-curators Slack channel with your idea. Please note that in the first few months of this program launch, we are not prioritizing more topics and more curators, so while the idea might be great, we'll need to add any additional thoughts to a future iteration. [Learn more about our curator program](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/).
+The content in EveryoneSocial  comes from a group of GitLab team members we call curators, they help us to source and promote content that is important in their line of work. Folks from the security team will provide security related content, our all remote team will provide content about remote work, and so on. If there is a focus that is not being represented and it would provide content that the team actually wants to promote, please reach out in #social-advocacy-curators Slack channel with your idea. Please note that in the first few months of this program launch, we are not prioritizing more topics and more curators, so while the idea might be great, we'll need to add any additional thoughts to a future iteration. [Learn more about our curator program](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/).
 
-#### I don't see anything about [your topic of choice] in Bambu, why is that?
+#### I don't see anything about [your topic of choice] in EveryoneSocial , why is that?
 
-This could be a for a number of reasons. If the topic is already covered in Bambu, the DRI may not have gotten to review this content yet or may have deemed other pieces more important to include. If the topic is not already covered in Bambu, this would be why it's not on the platform. At this point, we could discuss it further if you reach out in #social-advocacy-curators Slack channel with your idea. Please note that in the first few months of this program launch, we are not prioritizing more topics and more curators, so while the idea might be great, we'll need to add any additional thoughts to a future iteration. [Learn more about our curator program](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/).
+This could be a for a number of reasons. If the topic is already covered in EveryoneSocial, the DRI may not have gotten to review this content yet or may have deemed other pieces more important to include. If the topic is not already covered in Bambu, this would be why it's not on the platform. At this point, we could discuss it further if you reach out in #social-advocacy-curators Slack channel with your idea. Please note that in the first few months of this program launch, we are not prioritizing more topics and more curators, so while the idea might be great, we'll need to add any additional thoughts to a future iteration. [Learn more about our curator program](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-advocacy-curators/).
 
-#### What's in the next iteration of Bambu and social advocacy?
+#### What's in the next iteration of EveryoneSocial and social advocacy?
 
-Sales: We're interested in getting our sales team and their sales-adjacent partners access to content that will help them drive better results as well as plug into the tools they use, like Marketo and Salesforce, for proper attribution data.
+Sales: We're interested in getting our sales team and their sales-adjacent partners access to content that will help them drive better results as well as plug into the tools they use, like Salesforce.
 
 Talent Brand: We'd like to work with the talent aquisition and talent brand teams to curate more employer brand content that could lend in securing better talent in our pipeline.
 
@@ -338,7 +286,7 @@ Make sure your copy follows the AIDA Model, a copywriting formula to drive inter
 
 ### Ideal post length
 
-- Twitter: 70 to 100 characters
+- X/Twitter: 70 to 100 characters
 - LinkedIn: around 100 characters
 - Facebook: around 100 characters
 
@@ -430,5 +378,5 @@ While you should display the fact that you work at GitLab in your bio if you int
     Where can I learn more about social media for our company?
   </summary>
 
-<i>You can <a href="https://handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/">check out our social media handbook here</a>.</i>
+<i>You can check out our social media handbook [here](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/).</i>
 </details>

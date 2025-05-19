@@ -17,7 +17,7 @@ The Product Design Manager is a [grade 8](/handbook/total-rewards/compensation/c
 - **Cross-product collaboration:** Proactively identify large, strategic UX opportunities that span both inside your areas and across the product. Work with other product design managers, staff, and principal product designers to drive cross-product initiatives through awareness and prioritization.
 - **Design quality:** Be a frequent and active participant in milestones by reviewing UX deliverables (such as research and designs) that your team creates, and provide feedback to ensure high-quality output.
 - **Research:** Identify strategic user research initiatives that span multiple stage groups (and possibly the entire product), and work with other product design/research managers to organize research efforts. Help product designers identify when research is needed for their stage group.
-- **UX evangelism:** Communicate the value of UX to cross-functional GitLab team members and work with them to leverage the [product development flow](/handbook/product-development-flow/). Work closely with PMs to provide visibility and awareness into UX initiaties (including OKRs) and advocate for their prioritization.
+- **UX evangelism:** Communicate the value of UX to cross-functional GitLab team members and work with them to leverage the [product development flow](/handbook/product-development/product-development-flow/). Work closely with PMs to provide visibility and awareness into UX initiaties (including OKRs) and advocate for their prioritization.
 - **Usability:** Help the product teams of areas you support to prioritize UX initiatives including [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux), triage and resolution of UX bugs, and overall usability improvements to the product. Lead [UX Scorecard](/handbook/product/ux/ux-scorecards) initiatives in order to consistently measure the experience of your product areas and show improvements over time.
 - **UX process**: Set up and manage collaborative processes within your team to ensure product designers, technical writers, and researchers are actively working together. Make sure they have exposure to the work that is happening within the broader team. Collaborate with your peers to make improvements to how we work across the design organization.
 - **Hiring:** Help source talent, interview, and conduct portfolio reviews of product design candidates to hire a world-class team. Review and provide feedback on interview scorecards to maintain a high-quality interview process.
@@ -64,12 +64,12 @@ The UX Paper Cuts team is responsible for identifying and fixing small but impac
 
 Candidates can expect the hiring process to follow the below order, although it can change depending on calendar availability. Please keep in mind that candidates can be declined at any stage of the process.
 
-- [Screening call](/handbook/hiring/#screening-call) with a recruiter.
+- [Screening call](/handbook/hiring/candidate-faq/#screening-call) with a recruiter.
 - **Interview with product designer** In this interview, the interviewer will want to understand the experience you have as a manager, what type of teams you have led, and your management style. The interviewer will also look to understand how you define strategy, how you work with researchers, how you handle conflict, and how you dealt with difficult situations in the past. Be prepared to talk about your work, your experience with Design Systems, and your technical ability.
 - **Interview with product design manager** In this interview, we want you to share specific examples from your work that provide insight into a problem you solved as part of a project you led. We'll look to understand the size and structure of your team, the goals of the project, how you/the team approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, how you collaborated with the wider team, and the overall outcome. Broadly, we want to hear how you identified what needed to be done and then guided your team to the end result. A formal case study is not required but you're welcome to share anything you feel will help better answer the question(s) or tell your story.
-- **Interview with senior manager of product design** In this interview, the interviewer will want to understand the experience you have as a manager, what types of teams you have led, and your management style. The interviewer will also want to understand how you define strategy, how you work with researchers, how you handle conflict, and how you've dealt with difficult situations in the past. Be prepared to talk about your work, experience with Design Systems, and your technical ability.
+- **Interview with hiring manager** In this interview, the interviewer will want to understand the experience you have as a manager, what types of teams you have led, and your management style. The interviewer will also want to understand how you define strategy, how you work with researchers, how you handle conflict, and how you've dealt with difficult situations in the past. Be prepared to talk about your work, experience with Design Systems, and your technical ability.
 - **Interview with a group product manager** In this interview, the interviewer will want to understand how your career experiences will set you up for success at GitLab. They will also look to understand how you work with cross-functional partners, the domains you've worked in previously, and the types of teams you've led.
-- **Interview with director of product design** In this interview, the interviewer will want to understand the experience you have as a manager, your experience working remotely, and how these two elements of your career intersect. They will also look to understand your technical skills and the types of products you've worked on previously.
+- **Interview with senior manager or director of product design** In this interview, the interviewer will want to understand the experience you have as a manager, your experience working remotely, and how these two elements of your career intersect. They will also look to understand your technical skills and the types of products you've worked on previously.
 
 If you are interviewing for the UX Paper Cuts specialty, the hiring process is the same but does not include an interview with a group product manager.
 
@@ -88,7 +88,7 @@ The Senior Manager of Product Design is a [grade 9](/handbook/total-rewards/comp
 - **Design quality:** Use your product knowledge across all stages to have a positive impact in design reviews, UX Forum, and group conversations. Mentor product design managers to be an active participant in monthly milestones to ensure high-quality output.
 - **Research:** Improve research quality and [frequency](/handbook/product/ux/performance-indicators/#average-research-projects-per-product-designer) by helping designers and design managers identify strategic user research initiatives.
 - **UX evangelism:** Ensure UX is prioritized by working with product leadership to identify opportunities for validation and better cross-functional collaboration.
-- **UX process:** Improve processes across the organization to ensure that product design is an active participant throughout the entire [product development flow](/handbook/product-development-flow/). Identify efficiency improvements and scale them across the organization.
+- **UX process:** Improve processes across the organization to ensure that product design is an active participant throughout the entire [product development flow](/handbook/product-development/product-development-flow/). Identify efficiency improvements and scale them across the organization.
 - **Hiring:** Help identify growth opportunities needed to support business goals. Hire and retain a world-class team of product designers and product design managers.
 - **Vision and direction**: Actively influence and guide the experience strategy and vision of the areas you're assigned.
 - **Career development:** Provide coaching for those on your team to grow management/coaching skills and develop career paths using methods such as weekly [1:1s](/handbook/leadership/1-1), individual growth plans, and routine career development check-ins.
@@ -111,11 +111,12 @@ The Senior Manager of Product Design is a [grade 9](/handbook/total-rewards/comp
 
 ### Interview Process
 
-- [Screening call](/handbook/hiring/#screening-call) with a recruiter.
-- Interview with a product design manager. In this interview, the interviewer will focus on understanding your experience with driving design strategy, managing managers, and influencing the wider organization in which you worked. Examples of large, complex projects that had a significant impact on product experience will be helpful. Broadly, we want to hear how you identified what needed to be done and then guided your team to the end result.
-- Interview with a senior manager of product design. In this interview, the interviewer will spend a lot of time trying to understand the experience you have as a manager, what types of teams you have led and your management style. The interviewer will also want to understand how you define strategy, how you work with researchers, how you've handled conflict, and how you've dealt with difficult situations in the past. Be prepared to talk about your work, experience with design systems, and technical ability, too.
-- Interview with a director of product management. In this interview, the interviewer will seek to learn how you and your design teams have interacted and collaborated with product management team members. Be prepared to talk through examples about situations you have led or how you've assisted your team of designers.
-- Interview with the director of product design. In this interview, the interviewer will follow up on some areas covered in previous interviews to dive deeper and learn more about you as a manager, your stakeholder management experience, and your comfort in working on and guiding a team on a highly technical product.
+- [Screening call](/handbook/hiring/candidate-faq/#screening-call) with a recruiter.
+- **Interview with product designer** In this interview, the interviewer will want to understand the experience you have as a manager, what type of teams you have led, and your management style. The interviewer will also look to understand how you define strategy, how you work with researchers, how you handle conflict, and how you dealt with difficult situations in the past. Be prepared to talk about your work, your experience with Design Systems, and your technical ability.
+- **Interview with a product design manager** In this interview, the interviewer will focus on understanding your experience with driving design strategy, managing managers, and influencing the wider organization in which you worked. Examples of large, complex projects that had a significant impact on product experience will be helpful. Broadly, we want to hear how you identified what needed to be done and then guided your team to the end result.
+- **Interview with hiring manager** In this interview, the interviewer will spend a lot of time trying to understand the experience you have as a manager, what types of teams you have led and your management style. The interviewer will also want to understand how you define strategy, how you work with researchers, how you've handled conflict, and how you've dealt with difficult situations in the past. Be prepared to talk about your work, experience with design systems, and technical ability, too.
+- **Interview with a director of product management** In this interview, the interviewer will seek to learn how you and your design teams have interacted and collaborated with product management team members. Be prepared to talk through examples about situations you have led or how you've assisted your team of designers.
+- **Interview with senior manager or director of product design** In this interview, the interviewer will follow up on some areas covered in previous interviews to dive deeper and learn more about you as a manager, your stakeholder management experience, and your comfort in working on and guiding a team on a highly technical product.
 
 ## Director of Product Design
 
@@ -154,11 +155,11 @@ The Director of Product Design is a [grade 10](/handbook/total-rewards/compensat
 
 ### Interview Process
 
-- [Screening call](/handbook/hiring/#screening-call) with a recruiter.
-- Interview with a senior manager of product design or director of product design. In this interview, the interviewer will spend a lot of time trying to understand the experience you have as a manager, as well as what type of teams you have led and your management style. The interviewer will also be looking to understand how you define strategy, how you work with researchers, how you've handled conflict, and how you dealt with difficult situations in the past. Be prepared to talk about your work, experience with design systems, and technical ability, too.
-- Interview with a director of product management. In this interview, the interviewer will seek to learn how you and your design teams have interacted and collaborated with product management team members. Be prepared to talk through examples about situations you have led or how you've assisted your team of designers.
-- Interview with the VP of UX.
-- Interview with the Chief Product Officer.
+- [Screening call](/handbook/hiring/candidate-faq/#screening-call) with a recruiter.
+- **Interview with a senior manager of product design or director of product design** In this interview, the interviewer will spend a lot of time trying to understand the experience you have as a manager, as well as what type of teams you have led and your management style. The interviewer will also be looking to understand how you define strategy, how you work with researchers, how you've handled conflict, and how you dealt with difficult situations in the past. Be prepared to talk about your work, experience with design systems, and technical ability, too.
+- **Interview with a director of product management** In this interview, the interviewer will seek to learn how you and your design teams have interacted and collaborated with product management team members. Be prepared to talk through examples about situations you have led or how you've assisted your team of designers.
+- **Interview with the VP of UX**
+- **Interview with the Chief Product Officer**
 
 ## Senior Director of Product Design
 
@@ -195,11 +196,11 @@ The Senior Director of Product Design is a [grade 11](/handbook/total-rewards/co
 
 ### Interview Process
 
-- [Screening call](/handbook/hiring/#screening-call) with a recruiter.
-- Interview with a Senior Manager of Product Design or Director of Product Design. In this interview, the interviewer will spend a lot of time trying to understand the experience you have as a manager, as well as what type of teams you have led and your management style. The interviewer will also be looking to understand how you define strategy, how you work with researchers, how you've handled conflict, and how you dealt with difficult situations in the past. Be prepared to talk about your work, experience with design systems, and technical ability, too.
-- Interview with a Senior Director or VP of Product Management. In this interview, the interviewer will seek to learn how you and your design teams have interacted and collaborated with product management team members. Be prepared to talk through examples about situations you have led or how you've assisted your team.
-- Interview with the VP of UX.
-- Interview with the Chief Product Officer.
+- [Screening call](/handbook/hiring/candidate-faq/#screening-call) with a recruiter.
+- **Interview with a Senior Manager of Product Design or Director of Product Design** In this interview, the interviewer will spend a lot of time trying to understand the experience you have as a manager, as well as what type of teams you have led and your management style. The interviewer will also be looking to understand how you define strategy, how you work with researchers, how you've handled conflict, and how you dealt with difficult situations in the past. Be prepared to talk about your work, experience with design systems, and technical ability, too.
+- **Interview with a Senior Director or VP of Product Management** In this interview, the interviewer will seek to learn how you and your design teams have interacted and collaborated with product management team members. Be prepared to talk through examples about situations you have led or how you've assisted your team.
+- **Interview with the VP of UX**
+- **Interview with the Chief Product Officer**
 
 ## Performance Indicators
 

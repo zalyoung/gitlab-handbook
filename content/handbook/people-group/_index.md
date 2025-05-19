@@ -58,7 +58,7 @@ In the event a team member is in an unsafe situation due to a natural disaster, 
 
 ### How to Report Violations
 
-As stated in the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), we have a section related to reporting violations. GitLab has engaged Navex to provide EthicsPoint, a comprehensive and confidential reporting tool, an anonymous ethics hotline for all team members. The purpose of the service is to insure that any team member wishing to submit a report anonymously about conduct addressed in the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) can do so without the fear of retaliation.
+As stated in the [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf), we have a section related to reporting violations. GitLab has engaged Navex to provide EthicsPoint, a comprehensive and confidential reporting tool, an anonymous ethics hotline for all team members. The purpose of the service is to insure that any team member wishing to submit a report anonymously about conduct addressed in the [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf) can do so without the fear of retaliation.
 
 In addition to EthicsPoint, GitLab has engaged Lighthouse Services to provide an anonymous reporting hotline for all team members to submit reports regarding team member relations. Reports may cover but are not limited to the following topics: wrongful discharge or disciplinary action, [sexual harassment](/handbook/people-group/anti-harassment/#sexual-harassment), discrimination, conduct violations, alcohol and substance abuse, threats, improper conduct, violation of company policy.
 
@@ -89,7 +89,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=274b6e52ff3c12903691fe34fc4fd9ee) | TBA | n/a |  |
 | [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | HelpLab | @people-connect-team | n/a |  |
 | [Team Member Relations](https://gitlab.com/gitlab-com/people-group/team-member-relations) | @atisdale-ext | teammemberrelations@gitlab.com | n/a | n/a |  |
-| [Absence Management Team]({{< ref "leave-of-absence" >}}) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
+| [Absence Management Team](/handbook/people-policies/leave-of-absence/) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
 | [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | @gl-people-engineering | No email group, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | #peopleops-eng | n/a | https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/3941171 |
 | [Diversity, Inclusion and Belonging](https://gitlab.com/gitlab-com/diversity-and-inclusion) | No alias yet, @mention the |  |  |  |  |
 | [Diversity, Inclusion and Belonging Partner](/job-families/people-group/diversity-inclusion-partner/) | diversityinclusion@ gitlab.com | n/a | n/a |  | [Diversity, Inclusion and Belonging issue tracker](https://gitlab.com/gitlab-com/diversity-and-inclusion/-/issues) |
@@ -155,7 +155,7 @@ Please note that the source of truth for role responsibilites is the job family 
 | -------------- | ----------------- |
 | [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/) | 2 weeks prior to start date |
 | [Offboarding](/handbook/people-group/offboarding/offboarding_standards/) | Immediate action for involuntary & 24 hours for voluntary |
-| [Career Mobility](/handbook/people-group/promotions-transfers/#career-mobility-issue) | Within 24 hours |
+| [Organizational Changes](/handbook/people-group/promotions-transfers/#organization-change-checklist) | Within 3 days of effective date of change |
 | [Letters of Employment](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
 | [Employment Verification](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/#letter-of-employment) | Within 24 hours |
 | [Anniversary Emails](/handbook/people-group/celebrations/#anniversary-gifts) | First day of the following month |
@@ -181,7 +181,7 @@ Please review the [frequently requested section](/handbook/people-group/frequent
 
 ## Addresses
 
-- For the mailing addresses, see our [visiting](/handbook/company/visiting/) page.
+- For the mailing addresses, see our [visiting](https://about.gitlab.com/company/visiting/) page.
 - For the NL office, we use [addpost](https://www.addpost.nl) to scan our mail and send it to a physical address upon request.
 
 ## Reporting potential inaccurate LinkedIn Profiles
@@ -282,7 +282,7 @@ We encourage everyone to have an ongoing conversation about career growth with t
 
 ### Other People Group Links
 
-- [People Policy Directory]({{< ref "people-policies" >}})
+- [People Policy Directory](/handbook/people-policies/)
 - [Underperformance](/handbook/leadership/underperformance/)
 - [Visas](/handbook/people-group/visas/)
 - [Leadership handbook](/handbook/leadership/)

@@ -3,7 +3,7 @@ title: "GitLab Privacy"
 description: "This page helps GitLab Team Members understand the privacy practices at GitLab and to facilitate a culture that respects and prioritizes the privacy of our Team Members and users"
 ---
 
-The Privacy Team is part of the Legal and Corporate Affairs Team. We provide support and guidance to uphold consistent business processes around the proteciton of personal data as it relates to GitLab customers, users, Team Members, and other natural persons. We collaborate cross-functionally and serve as advocates to ensure that the data privacy practices of GitLab meet the needs of our cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
+The Privacy Team is part of the Legal and Corporate Affairs Team. We provide support and guidance to uphold consistent business processes around the protection of personal data as it relates to GitLab customers, users, Team Members, and other natural persons. We collaborate cross-functionally and serve as advocates to ensure that the data privacy practices of GitLab meet the needs of our cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
 
 ## Quick Links
 
@@ -12,6 +12,7 @@ The Privacy Team is part of the Legal and Corporate Affairs Team. We provide sup
 - [Vendor Privacy Review Process](/handbook/legal/privacy/#privacy-review-process)
 - [Internal Product Feature/Release Privacy Review](/handbook/legal/privacy/#internal-privacy-review)
 - [Guidelines for Law Enforcement Requests](/handbook/legal/privacy/law-enforcement-guidelines/)
+- [Customer Product Usage Information](/handbook/legal/privacy/customer-product-usage-information/) and [Usage Events FAQs](/handbook/legal/privacy/product-usage-events-faq/)
 
 ## Privacy Statement Links
 
@@ -23,7 +24,7 @@ The Privacy Team is part of the Legal and Corporate Affairs Team. We provide sup
 
 Slack channel - #legal is the best place for questions relating to our team that do not require legal advice, deliverables, or any discussion of confidential information.
 
-For issues that require action from the Privacy Team, apply the label `Privacy::Intake`. This will update the [Privacy_Legal Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/5278056) and allow the team to triage the issue appropriately. We also use the following labels:
+For issues that require action from the Privacy Team, apply the label `Privacy::Intake`. This will update the [Privacy Legal Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/5278056) and allow the team to triage the issue appropriately. We also use the following labels:
 
 - `Privacy::In Process` - when the Privacy Team is actively working on the issue
 - `Privacy::Pending Requestor` - when the Privacy Team has a requirement or task that must be met by the business owner before the issue progresses
@@ -41,17 +42,17 @@ Tell people what you are doing with personal data and why you are doing it so th
 {{% details summary="Privacy Term Definitions" %}}
 ***Anonymization*** The process of permanently and irreversibly altering personal data in a way that it is no longer capable of being related back to a specific individual.
 
-***Consent*** A freely given, specific, informed and unambiguous indication of an individual's wishes. Consent is captured by an unticked checkbox or other unequivocal statement which signifies agreement to the processing of personal data before or at the time of collection.
+***Consent*** A freely given, specific, informed and unambiguous indication of an individual's wishes. Consent is captured by an un-ticked checkbox or other unequivocal statement which signifies agreement to the processing of personal data before or at the time of collection.
 
-***Data Classification*** A method of determining types of data associated by risk. See [GitLab Security Data Classification Standards](/handbook/security/data-classification-standard/) for more information.
+***Data Classification*** A method of determining types of data associated by risk. See [GitLab Security Data Classification Standards](/handbook/security/standards/data-classification-standard/) for more information.
 
 ***Data Controller*** A natural or legal person, agency, or other entity which alone, or jointly with others, determines the purpose and means of processing personal data. For example, GitLab is a Data Controller is in the areas of marketing and sales where the personal data of prospects and leads is managed solely at our discretion. GitLab also serves as a Data Controller for all personal data collected from Team Members for employment purposes and any administration of benefits.
 
-***Data Processor*** A natural or legal person, agency, or other entity which processes personal data on behalf of a Data Controller. GitLab acts as a Data Processor when we manage personal data native to a Customer's instance or namespace.  GitLab acts as a Processor in these situations because the Customer is the ultimate owner of the data it submits to the service offerings, and our contracts servce as Customer's instructions to GitLab regarding the processing of their data.
+***Data Processor*** A natural or legal person, agency, or other entity which processes personal data on behalf of a Data Controller. GitLab acts as a Data Processor when we manage personal data native to a Customer's instance or namespace.  GitLab acts as a Processor in these situations because the Customer is the ultimate owner of the data it submits to the service offerings, and our contracts service as Customer's instructions to GitLab regarding the processing of their data.
 
 ***Data Subject*** An identified or identifiable natural person.
 <!-- vale handbook.Repetition = NO -->
-***Data Subject Rights*** Rights granted to individuals in relation to personal data or information processed about them.  Because Data Subjct Rights are instrumental to the privacy and protection of data subjects, many of these rights are codified under global privacy legilsation, such as the GDPR, CCPA, and LGDP. If a business processes personal data pursuant to certain bases such as consent or legitimate interest, then a data subject may assert one of its fundamnetal rights and a business is obligated to respond under law.  The rights granted vary slightly by country, region, province or state. GitLab treats all users and Team Members the same and will respond to a data subject request from any individual user or team member even if they live in a country, region, or state/province without specific data protection laws. Expand the following section for more information about the data subject rights available.
+***Data Subject Rights*** Rights granted to individuals in relation to personal data or information processed about them.  Because Data Subjct Rights are instrumental to the privacy and protection of data subjects, many of these rights are codified under global privacy legislation, such as the GDPR, CCPA, and LGDP. If a business processes personal data pursuant to certain bases such as consent or legitimate interest, then a data subject may assert one of its fundamental rights and a business is obligated to respond under law.  The rights granted vary slightly by country, region, province or state. GitLab treats all users and Team Members the same and will respond to a data subject request from any individual user or team member even if they live in a country, region, or state/province without specific data protection laws. Expand the following section for more information about the data subject rights available.
 
 {{% details summary="Data Subject Rights" %}}
 **Right of Access** A request seeking access to the specific pieces of personal data that have been collected and used by a Data Controller.
@@ -66,7 +67,7 @@ Tell people what you are doing with personal data and why you are doing it so th
 
 **Right to Object** A request to opt-out of all data processing or specific processing of personal data based on consent or legitimate interest. Generally this is a request to opt-out of processing for targeted advertising, which includes the sale or sharing of personal data for profiling or cross-context behavioral advertising.
 
-**Right Not to be Subject to Fully Automated Decisions** This is a request that the data subject not be subjected to a decison based solely on automated processing, including profiling, which would have a significant legal impact. An example might be an algorithm that excludes someone of a certain race from obtaining a credit card.
+**Right Not to be Subject to Fully Automated Decisions** This is a request that the data subject not be subjected to a decision based solely on automated processing, including profiling, which would have a significant legal impact. An example might be an algorithm that excludes someone of a certain race from obtaining a credit card.
 {{% /details %}}
 
 ***DPIA*** A Data Protection Impact Assessment is a method to review and document identified privacy compliance risks, as well as evalute higher risks to the rights and freedoms of individuals, including any that pose potential for significant harm. Learn more about GitLab's process for completing DPIAs [here](/handbook/legal/privacy/dpia/).
@@ -92,7 +93,7 @@ Tell people what you are doing with personal data and why you are doing it so th
 
 ## Privacy Review Process
 
-Every vendor that handles personal data is required to go through a Privacy Review prior to being onboarded, which includes completion and approval of the privacy due diligence questionnaires detailed in the [Procurement process](/handbook/finance/procurement/#privacy-review-4-14-days). Certain vendors who are classified as handling red or orange data under our [Data Classification Standards](/handbook/security/data-classification-standard/) are reviewed annually. Additionally, when new product features are designed, there are times when a formal privacy review is required.
+Every vendor that handles personal data is required to go through a Privacy Review prior to being onboarded, which includes completion and approval of the privacy due diligence questionnaires detailed in the [Procurement process](/handbook/finance/procurement/#privacy-review-4-14-days). Certain vendors who are classified as handling red or orange data under our [Data Classification Standards](/handbook/security/standards/data-classification-standard/) are reviewed annually. Additionally, when new product features are designed, there are times when a formal privacy review is required.
 
 This section outlines the process for these reviews.
 
@@ -109,7 +110,7 @@ graph TD
    E2 --> G[Is there an existing Issue?]
    G --> H1[Yes]
    G --> H2[No]
-   H1 --> I[Add `Privacy::Intake`<br> label to the Issue]
+   H1 --> I[Add Privacy::Intake<br> label to the Issue]
    H2 --> J[Create New Issue]
    F --> K[Privacy Review SLA<br> is 2 weeks]
    I --> K
@@ -152,7 +153,7 @@ graph TD
 ## Internal Privacy Review
 
 {{% details summary="Internal Product Feature/Release Privacy Review Process" %}}
-Anytime a new feature or a change to an existing feature is planned, Product Managers and Engineering Managers should evaluate if the planned development presents a legal risk where personal data is involved. If Personal Data is impliciated, utilize the [Legal Risk Checklist and Workflow](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/legal-risk-checklist/#product-and-feature-development---legal-risk-checklist) (*internal only*)
+Anytime a new feature or a change to an existing feature is planned, Product Managers and Engineering Managers should evaluate if the planned development presents a legal risk where personal data is involved. If Personal Data is implicated, utilize the [Legal Risk Checklist and Workflow](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/legal-risk-checklist/#product-and-feature-development---legal-risk-checklist) (*internal only*)
 {{% /details %}}
 
 ## Privacy Training

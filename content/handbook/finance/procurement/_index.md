@@ -143,6 +143,10 @@ Depending on a few factors of your purchase, there are different ways to engage 
    1. $25K - $100K: Business led quick-bid, 2 vendor bids required
    1. Under $25K: no bid required
 
+### Hiring a Contingent Worker?
+
+If you're hiring a contingent worker, please read GitLab's [Contingent Worker Policy](/handbook/finance/procurement/contingent-worker-policy/), which provides comprehensive guidelines on engaging with different types of contingent workers. The policy outlines three main categories: Staff Augmentation Workers (agency-provided temporary resources), Consultancy Services (third-party professional services), and Independent Contractors (used by exception only). You'll find detailed information about each worker type's characteristics, duration limits, country hiring guidelines, contractor extension processes, and background screening requirements. This policy is designed to help team members understand when and how to properly engage contingent workers while mitigating classification risks.
+
 ### Review Steps, Timeline, and Considerations
 
 Requests can take 5 days to 3+ weeks for processing depending on a number of factors that will impact the time for review of a Purchase Request including, but not limited to:
@@ -231,7 +235,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 #### 4.E. PeopleOps Review: 1-4 Days
 
 - PeopleOps serve as reviewers on all professional services requisitions to determine if a background screening is necessary.
-- Per GitLab's [People Policies](/handbook/people-policies/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
+- Per GitLab's [People Policies](/handbook/people-group/contracts-probation-periods/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
 - A background screening can be requested by opening an issue in the [Lifecycle Management](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues) project by using the `background_check_request` template.
 - Approval will occur once proof of a completed or an initiated background screening has been shared or once the contractor has submitted their background screening for processing.
 - The Sr. Background Check Specialist will only follow up if a result of concern returns on the background screening.

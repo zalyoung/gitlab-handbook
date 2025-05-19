@@ -21,7 +21,7 @@ The first `GitLab Donation Drive` in 2020 started as an internal challenge to Gi
 
 Having identified a talent gap in both the technology and the university system which speaks predominantly to Underrepresented Groups, the [Upstream Diversity Working Group](/handbook/total-rewards/incentives/) was established.
 
-Geared toward knowledge sharing, the [recently piloted program](/handbook/engineering/volunteer-coaches-for-urgs/) sees GitLab team members extending their technical skills and time to those in Underrepresented Groups (URGs) with a view to creating `future career opportunities` for them within the technology sector.  The program mobilises GitLab team members to serve as `coaches` in partnership with [Latinitas](https://latinitasmagazine.org/); [FreeCodeCamp](https://www.freecodecamp.org/) and [re:Learn](https://relearn.ng/).
+Geared toward knowledge sharing, the 2022 piloted program saw GitLab team members extending their technical skills and time to those in Underrepresented Groups (URGs) with a view to creating `future career opportunities` for them within the technology sector.  The program mobilised GitLab team members to serve as `coaches` in partnership with [Latinitas](https://latinitasmagazine.org/); [FreeCodeCamp](https://www.freecodecamp.org/) and [re:Learn](https://relearn.ng/).
 
 ### Trusted Interns
 
@@ -31,7 +31,7 @@ This was a springboard for around 650 South African Youth from within the Truste
 
 ### Rails Girls
 
-On multiple occasions, GitLab has supported [Rails Girls](https://railsgirls.com/kumasi_2020.html) an organisation geared toward providing tools and creating a sense of community for women in the technology space - enabling them to grow their knowledge base and build out their ideas.  The most recent event supported was the `Rails Girls Kumasi` [Ruby on Rails Workshop](https://railsgirls.com/kumasi_2020.html) - be sure to check out this [GitLab Unfiltered](https://www.youtube.com/watch?v=E5pe2jrOZpc) video to see our very own Abubakar Siddiq Ango, Developer Evangalism Program Manager in action!
+On multiple occasions, GitLab has supported [Rails Girls](https://railsgirls.com/kumasi_2020.html) an organisation geared toward providing tools and creating a sense of community for women in the technology space - enabling them to grow their knowledge base and build out their ideas.  The most recent event supported was the `Rails Girls Kumasi` [Ruby on Rails Workshop](https://railsgirls.com/kumasi_2020.html) - be sure to check out this [GitLab Unfiltered](https://www.youtube.com/watch?v=E5pe2jrOZpc) video to see GitLab alumni Abubakar Siddiq Ango in action!
 
 ### Recent Team Member Participation
 

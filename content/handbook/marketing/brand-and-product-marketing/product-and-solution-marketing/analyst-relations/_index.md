@@ -161,7 +161,7 @@ Examples of how we engage with analysts include:
 
 Most analyst companies charge for access to their reports.
 
-- If GitLab purchases reprint rights to a report, then that link will be available here, on the [Analyst Research web page](/analysts/), and on the relevant product page. Reprint rights are the rights to share the link to the report - these generally last six months to one year.
+- If GitLab purchases reprint rights to a report, then that link will be available here, on the [Analyst Research web page](https://about.gitlab.com/analysts/), and on the relevant product page. Reprint rights are the rights to share the link to the report - these generally last six months to one year.
 
 ## Analyst reports that can help you deepen your knowledge
 

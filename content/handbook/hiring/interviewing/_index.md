@@ -61,6 +61,6 @@ You can also use this function to update the following:
 
 ## Greenhouse
 
-Greenhouse is our Applicant Tracking System. To activate your greenhouse profile, simply log into Greenhouse through [Okta](https://gitlab.okta.com). This will launch the application and activate your profile. If you do not have a Greenhouse tile in your Okta account, please reach out to IT and submit and AR to have this added.
+Greenhouse is our Applicant Tracking System. To activate your greenhouse profile, simply log into Greenhouse through [Okta](https://gitlab.okta.com). This will launch the application and activate your profile. If you do not have a Greenhouse tile in your Okta account, please reach out to IT and submit an AR to have this added.
 
 Once CES schedules you for an interview, you will have access to the candidates interview kit and be able to submit your scorecard/feedback after the interview concludes. Interviewers can find a scorecard link on their Greenhouse dashboard for any upcoming or past interviews.

@@ -41,19 +41,6 @@ The FY25 Direction for Support Readiness should support and substantiate the ove
 
 *Our direction is re-evaluated annually, following the completion of the [Support Direction](/handbook/support/#fy25-direction)*
 
-## Meet the team
-
-| Name                                                  | Role                                  | Specialization                             |
-|-------------------------------------------------------|---------------------------------------|---------------------------|
-| [Lyle Kozloff](https://gitlab.com/lyle)               | Director of Support, Global Readiness and Acting Support Operations Manager | Leadership |
-| [Jason Colyer](https://gitlab.com/jcolyer)            | Fullstack Engineer                   | Operations |
-| [Nabeel Bilgrami](https://gitlab.com/nabeel.bilgrami) | Support Readiness Specialist         | Operations |
-| [Alyssa Villa](https://gitlab.com/avilla4)            | Support Readiness Specialist         | Operations |
-| [Dylan Tragjasi](https://gitlab.com/dtragjasi)        | Support Readiness Specialist         | Operations |
-| [Sarah Cole](https://gitlab.com/Secole)               | Support Readiness Specialist         | Operations |
-| [Rene Verschoor](https://gitlab.com/rverschoor)       | Support Readiness Specialist         | Operations |
-| [Melissa Magoma](https://gitlab.com/Melissa_Magoma)   | Support Readiness Specialist         | Service Delivery |
-
 ## Hiring Plan
 
 Currently, Support Operations is using a ratios for our hiring plan. The ratios
@@ -65,4 +52,3 @@ used are:
 ## Support Readiness Links
 
 - [Readiness Subgroup](https://gitlab.com/gitlab-com/support/readiness)
-- [Operations Team](operations/)

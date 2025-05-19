@@ -23,19 +23,19 @@ You can consider using the [kibana workflow](/handbook/support/workflows/kibana/
 
 Requester must be a Group Owner of a pre-existing paid namespace.
 
-- Must [verify](/handbook/support/workflows/account_verification/) that this is who is making the request and should be in alignment with support for [Enterprise Users]({{< ref "gitlab-com_overview.md#enterprise-users" >}})
+- Must [verify](/handbook/support/workflows/account_verification/) that this is who is making the request and should be in alignment with support for [Enterprise Users](/handbook/support/workflows/gitlab-com_overview#enterprise-users)
 
 > NOTE: A user cannot upgrade to a paid subscription to gain access to logging requests.
 
 #### Free Users
 
-Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
+Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
 
 ### What we can provide
 
 We can provide the following information:
 
-- Information found in the [Audit Events Features](https://docs.gitlab.com/ee/administration/audit_event_reports.html)
+- Information found in the [Audit Events Features](https://docs.gitlab.com/administration/audit_event_reports/)
 - Information about who has accessed the account/projects that the customers owns.  This can include:
   - number of users
   - number of times accessed
@@ -49,7 +49,7 @@ We can provide the following information:
 We cannot provide the following information:
 
 - Information about accounts or projects that the requester does not own.
-- Any information considered [Personal Data](/handbook/support/workflows/personal_data_access_account_deletion/) that is not specifically about the individual requester. Also consider [the data covered under GDPR](/handbook/legal/privacy/privacy-laws#what-is-covered-by-the-gdpr).
+- Any information considered [Personal Data](/handbook/support/workflows/personal_data_access_account_deletion/) that is not specifically about the individual requester. 
 - Any information that would disclose GitLab confidential information or processes.
 
 ### Sending logs and other Personal Data

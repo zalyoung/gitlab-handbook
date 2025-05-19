@@ -36,15 +36,15 @@ All GitLab Team members and contractors/TSPs are required to participate in GitL
 
 ### General Security Awareness Training (GSAT)
 
-The GitLab [security awareness training program](/handbook/security/security-assurance/governance/sec-awareness-training/) provides ongoing training to GitLab team members that enhances knowledge and identification of cybersecurity threats, vulnerabilities, and attacks as well as satisfying external regulatory requirements. GitLab's handbook-first General Security Awareness Training is provided annually via [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third-party provider, and requires participation and completion by all GitLab Team Members and contractors/TSPs.
+The GitLab [security awareness training program](/handbook/security/security-assurance/governance/sec-awareness-training/) provides ongoing training to GitLab team members that enhances knowledge and identification of cybersecurity threats, vulnerabilities, and attacks as well as satisfying external regulatory requirements. GitLab's handbook-first General Security Awareness Training is provided annually via Right Hand Cybersecurity, GitLab's third-party provider, and requires participation and completion by all GitLab Team Members and contractors/TSPs.
 
 Exceptions during the active campaign will be made for GitLab team members on extended leave.
 
 ### Phishing Training
 
-The GitLab [Phishing Training Program](/handbook/security/security-assurance/governance/phishing/) is designed to educate and evaluate GitLab's ability to detect and prevent phishing attempts.  Ongoing [phishing simulations and trainings](/handbook/security/security-assurance/governance/security-training/) are conducted once per quarter via [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third-party provider, and requires participation and completion by all assigned GitLab Team Members and contractors/TSPs.
+The GitLab [Phishing Training Program](/handbook/security/security-assurance/governance/phishing/) is designed to educate and evaluate GitLab's ability to detect and prevent phishing attempts.  Ongoing [phishing simulations and trainings](/handbook/security/security-assurance/governance/security-training/) are conducted once per quarter via Right Hand Cybersecurity, GitLab's third-party provider, and requires participation and completion by all assigned GitLab Team Members and contractors/TSPs.
 
-Remember: If you see something, say something, and always report suspicious emails via [PhishArm]({{< ref "handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}).
+Remember: If you see something, say something, and always report suspicious emails via [PhishArm](/handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack).
 
 ### Data Classification Training
 
@@ -66,8 +66,6 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Awareness Training Program](/handbook/security/security-assurance/governance/sec-awareness-training/)
 - [Phishing Program](/handbook/security/security-assurance/governance/phishing/)
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
-- [Secure Coding](/handbook/security/secure-coding-training/)
+- [Data Classification Standard](/handbook/security/standards/data-classification-standard/)

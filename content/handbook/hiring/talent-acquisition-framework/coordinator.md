@@ -103,17 +103,94 @@ If the candidate submits the form, all the CES team members will receive an emai
 
 1. Forward the form to CES desk (ces@gitlab.com).
 2. Label the ticket as “accommodation request” and assign to the respective CES. Type in “accesschecktodo” in the comments section of the issue so the next steps are listed.
-3. The CES assigned to the requisition will process the request by reviewing the response and determining the accommodation need. Candidates can submit three types of accommodation requests: Closed captioning for video interviews, Additional time for technical interviews, and Multi-Day interviews.
+3. The CES assigned to the requisition will process the request by reviewing the response and determining the accommodation need. Candidates can submit three types of accommodation requests: Closed captioning for video interviews and Multi-Day interviews.
 4. Schedule the interview based on the recruiter’s scheduling request.
-5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning or "adtime" for an additional interview time. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
+5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
 6. Please leave a tag—“Project Equispace”—in the candidate's GH profile for easy reference so we can adequately track and address accommodation needs as the candidate progresses through the hiring process.
-7. Close the issue once the scheduling is completed.
+7. If CES receives a written request from a candidate for an accommodation not currently listed on our form, CES will notify TMR for advice and respond accordingly with how we can accommodate. CES will follow steps above to ensure interviewer is advised on how to proceed with the interview.
+8. CES will save email communication with candidate in the event they are hired. If so, CES will upload communications into the hires Workday profile.
+9. Close the issue once the scheduling is completed.
 
 #### ModernLoop
 
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book
+interviews. Prelude is integrated with Greenhouse via API. DRI: Candidate
+Experience Team
+
+## Logging in to ModernLoop
+
+To log in select the ModernLoop tile in Okta and use SSO.
+
 Please ensure you have the [ModernLoop Chrome Extension](https://modernloop.zendesk.com/hc/en-us/articles/18013814809236-ModernLoop-Chrome-Extension) installed on your Chrome Browser.
 
-#### If a Candidate Withdraws from the Hiring Process
+## How to schedule interviews via ModernLoop
+
+- Go to 'My Tasks' using the task bar on the left 
+- In the 'Action required' bucket, click on the candiadte who has the label 'ready to Schedule'
+- A side window will open, scroll down and click the 'Schedule now' button.  The page will open to the candidate's availability.  On the right press 'Next: Setup Interviews' button.
+- Check the information for the required interview to schedule (time, interviewer, scorecard etc), then click 'Next: Find Schedules'
+- ModernLoop will create a list of interview options.  To see an interviewers calendar you can click on the interviewer or the 'view' option on the top right of the card. 
+- To select a schedule option click on 'use schedule'on the top right corner of the option card. 
+- The location will be automatically selected as Zoom and a zoom room selected. 
+- The calenders are 'Candidate Interview Calendar' for candidate events and 'Interview calendar' for Internal events. 
+- Select the Email to canditate template from dropdown list. 
+- If the interview requires a brief, you can include this by selecting 'Add attachment'
+- For the interviewer invite, select the correct template from the dropdown list 
+- Review all details and then press 'Confirm and send' 
+- If you only wish to send the invites to the interviewers before sending the candidate invite, select 'Send internal only'.  This will send the interviewer invites and move the candidate into the Pending section of My tasks.  When you wish to send the candidate invite you can go into the candidate profile and click 'finish and Send'. 
+
+## How to schedule internal interviews
+
+- When receiving a scheduling task in ModernLoop from a recruiter for an internal candidate, confirm that the 'internal candidate' tag has been applied to the task.
+- If it is missing, add the "internal candidate" tag to the ModernLoop task yourself for tracking purposes.
+- Unlike with external candidates, recruiters do not request availability from internal candidates via email. Instead, they create a scheduling task for CES to arrange interviews directly, without waiting for candidate-submitted availability.
+- The recruiters will inform the candidate that CES will be making use of their GitLab calendar to schedule the interview.
+- CES should proceed directly to scheduling the calls without waiting for candidate availability submission. 
+- Access the Google Calendar to view both the interviewer's and internal team member's calendars in tandem. 
+- Once a suitable time slot has been identified, schedule the interview and send the internal candidate confirmation in ModernLoop.
+
+## How to add or replace an interviewer for a scheduled interview
+
+- If you wish to replace or add an extra interviewer to a scheduled interview, in 'My tasks' go to scheduled, click on the scheduled interview.  
+- When the side page opens with the interview details, click on the 3 dots on the interview tile and select 'Edit Interview'.  
+- To add an interviewer select 'add interviewer' and type in the name of the new interviewer. 
+- To remove an interviewer select the three dots next to their name and select remove interviewer. 
+
+## How to set up Interviewer Modules (Interviewer pools & training plans)
+
+A module is modern loop is an interviewer pool, which also allows for trainees to move through shadows/reverse shadows.  
+
+To set up a module take the following steps: 
+
+- Go to Modules on the task bar on the left 
+- Click on 'New Module'
+- Give the Module a name, select the training plan (typically 2 shadow and one reverse shadow), and select role-by-role, then create 
+- Click on add interviewers and then type in the names of the Trained interviewers for the module.  Then select fully trained and the interviewers will be added to the module. 
+- To add the trainees click on 'Add interviewers' in the top right corner.  Type in the names of the trainee interviewers and then select 'Trainee'
+
+To delete a Module, click into the Module, then go to settings and delete module. 
+
+To assign a module to an interview plan: 
+
+- Go to jobs and select the job which you want to use the interviewer module for. 
+- Select the stage tab and select the interview stage required.  
+- The interview plan will pull up the interviews inthis stage from Greenhouse.  Click on 'Add Interviewer' and then in the box type the name of the module you want to use.  
+
+## How to schedule a technical interview
+
+- If the technical interview requires a interviewer module, check in the job interview plan that the correct interviewer module is selected.  
+- Continue to schedule the interview using the same steps as for a 1:1 interview. 
+- For the candidate email select the template 'Technical Interview - Candidate confirmation' and add in the technical instructions using the correct text expander snippet. 
+- For interviews which have an MR, select the 'Technical Interview with MR' for internal invites for interviewers. 
+- If there is a shadow interviewer from a Module, ModernLoop will automatically add in a paragraph to let the interviewers know who is the lead and who is the shadow. 
+- Select finish and send. 
+
+## How to update Organization wide settings
+
+NOTE: Only Admins can change organizational settings.
+Organizational settings can be found in the menu on the left hand side of the homepage.
+
+### If a Candidate Withdraws from the Hiring Process
 
 If a candidate emails the CES Service Desk stating they would like to withdraw from the interview process, the CES should respond to the candidate's email (not the Service Desk ticket) and cc the recruiter (if the recruiter isn't already on the email). The CES response should not say anything definite as there may be a chance for the recruiter to reel the candidate back in. A basic response is below:
 
@@ -161,21 +238,6 @@ For additional information on reviewing Background screenings see [this page](/h
 ### Reference Check Forms
 
 Prior to giving an offer, Recruiters are required to request references and other offer-related information by sending a form in the Reference Check stage. There are a few versions of this form available on every job based on the country where the candidate is located. When CES receives a form in the Service Desk, there are 3-4 fields to look at: NYC status, PIAA (Employee Invention Assignment Agreement), Outside Work disclosure, and TMRG requests.
-
-**Japan Background Checks**
-
-Background Checks for hires in Japan will need to be conducted *before* the offer is sent.
-
-Global Reference Check Forms will have a question for hires asking if they are located in Japan. If the candidate selects  "Yes", you will need to perform the following steps:
-
-1. CES service desk receives a ticket indicating that the candidate has submitted Reference Check Process Information-Global. CES will note that the candidate has selected "Yes" for the Japan location question. CES will label that ticket with the "Japan BGC" label.
-1. CES will [initiate the background](coordinator/#initiating-a-background-screening-through-greenhouse) check in the candidates GH profile.
-
-CES will then need to track the request to know when the Background check clears and we can move forward with sending the offer. Please follow the following steps:
-
-1. Set reminders to follow up to see if Background check has cleared and/or reach out to the Background Check specialist at GitLab to confirm.  You can set reminders in the candidates GH profile and/or due dates on your ticket in GitLab.
-1. Once confirmation of background check clearance is received, the offer can then be sent and the Reference Check form ticket can be closed. Normal [offer process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#employment-agreements-for-gitlab-team-members-in-japan) will continue from there.
-1. **Note**: If recruiter has already sent in the contract request ticket for the candidate, please add the "On Hold" label so that you do not send the offer until you have clearance of the background check
 
 **NYC Location**
 
@@ -258,16 +320,16 @@ These calls don't require you to submit a scorecard in Greenhouse. If a candidat
 
 ### Send contract
 
-[See Candidate Experience Specialist Contract Processes section of the handbook](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/)
+[See Candidate Experience Specialist Contract Processes section of the handbook](/handbook/hiring/talent-acquisition-framework/coordinator/#ces-contract-processes)
 
 The [Candidate Experience Specialists](/job-families/people-group/candidate-experience) will prepare the contract. While the Candidate Experience Specialist will prioritize a contract above other tasks, the expected turn around on the task is 1 business day. If the contract is time-sensitive, please provide context for the rush. If the Candidate Experience Specialist cannot meet the 1 business day they will inform the recruiter and CES manager via Greenhouse and will provide context.
 
-Recruiters should make themselves familiar with the basic knowledge of the contract processes that can be found on the [CES Contract Processes](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/) page and the [Contracts, Probation Periods & PIAA](/handbook/people-group/contracts-probation-periods/) page, as well as the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
+Recruiters should make themselves familiar with the basic knowledge of the contract processes that can be found on the [CES Contract Processes](/handbook/hiring/talent-acquisition-framework/coordinator/#ces-contract-processes) page and the [Contracts, Probation Periods & PIAA](/handbook/people-group/contracts-probation-periods/) page, as well as the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
 
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening]({{< ref "people-policies#background-checks" >}}) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
@@ -275,10 +337,10 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 - Has the signatory been determined by the Candidate Experience Specialist and updated?
 - Has the Entity been selected based on the New Hire's location? If the job title has Federal or PubSec included, please check with the Recruiter if they set up the contract as Inc rather than Federal LLC to confirm.
 
-1. [Generate the contract within Greenhouse](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/) using a template based on the details found in the offer package.
+1. [Generate the contract within Greenhouse](/handbook/hiring/talent-acquisition-framework/coordinator/#ces-contract-processes) using a template based on the details found in the offer package.
 1. Contact the recruiter or new team member to gather any missing pieces of information (note: the address can be found on the background screening information page).
 1. If the contract was created outside of Greenhouse, ensure that the contract has been reviewed and approved by a member of the Legal team.
-1. [Stage the contract in DocuSign from within Greenhouse](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/), which emails the contract to the signing parties, with the recruiter, talent acquisition manager, and the hiring manager cc'd. It will be sent to the designated signatory as previously determined in Offer Details.
+1. [Stage the contract in DocuSign from within Greenhouse](/handbook/hiring/talent-acquisition-framework/coordinator/#ces-contract-processes), which emails the contract to the signing parties, with the recruiter, talent acquisition manager, and the hiring manager cc'd. It will be sent to the designated signatory as previously determined in Offer Details.
 1. **Before marking the candidate as hired** the Candidate Experience Specialist will reject the candidate from any other active roles including roles for which they are a prospect (without sending a rejection email). *NOTE: If this step is skipped, the profile will not be exported to Workday when the candidate is marked as hired.*
 1. **Before marking the candidate as hired** on all candidates, the CES will make sure that the profiles were merged (for internal candidates, this will be indicated if the candidate shows their original `Hired` inactive role). [View candidate merge instructions in the Candidate Hygiene section](/handbook/hiring#interview-stages).  *NOTE: If this step is skipped, it will create problems with privacy and increases the possibility of a new hire seeing their own Greenhouse profile.*
 1. **Before marking the candidate as hired** the CES will ping the recruiter and give them 24 hours to contact/reject all other active candidates. Once this is complete, the CES can proceed with hiring in GH (if candidates are still present in req, select the "keep open" option when setting candidate to hired. This will trigger a new opening to ensure candidates are still present in req)
@@ -289,7 +351,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 
    - Instructions on the [Notebook Ordering Process](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
 
-1. Should the start date change after the welcome email is sent please see the required steps [here](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-update-a-start-date-after-the-contract-is-signed).
+1. Should the start date change after the welcome email is sent please see the required steps [here](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-update-a-start-date-after-the-contract-is-signed).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
 
 The last part of the Candidate Experience Specialist's responsibilities with a candidate is to hire them into the system and pass them on to People Connect. The hire-in process includes more complexities, so CES created the following guidelines to clarify start date exceptions and confidentiality around new hires.
@@ -308,7 +370,7 @@ The People Connect team has an SLA period of 10 working days to onboard an entit
 
 Prominent reasons for urgent hires are Critical Skill Gap / New business opportunities, Equity vesting grant options and Unexpected departures or backfills. CES can access this email under the "Email the team" option in the candidates' Greenhouse profile.
 
-CES Contract Processes
+### CES Contract Processes
 
 Assuming that the [hiring process](/handbook/hiring) went smoothly, now it is time to prepare the applicable contracts. Once the verbal offer is made, an issue will be created via the "email team" option in Greenhouse. The CES will send the contract to the applicant, using DocuSign in Greenhouse. On rare occasion, the CES may have to create the contract outside of Greenhouse using Google Docs; if this is the case, the CES needs to have a manager review the contract for accuracy before sending it out for signature.
 
@@ -330,8 +392,8 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
-| GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster|
+| GitLab BV, Netherlands | Marissa Farris, Jake Foster|
 | GitLab Canada Corp | Simon Mundy |
 | GitLab France S.A.S. | Jake Foster, Rob Allen |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
@@ -339,7 +401,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen. Backups: Jim Gladen & Simon Mundy |
 | GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors |
 | GitLab Israel LTD | Jim Gladen, Simon Mundy|
-| GitLab IT BV | Marissa Farris, Pattie Egan, Jake Foster, Jack Connors |
+| GitLab IT BV | Marissa Farris, Jake Foster, Jack Connors |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
@@ -354,7 +416,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. Check all aspects of the offer:
 
 - Do we have the new team members' legal name in their profile?
-  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening]({{< ref "people-policies#background-checks" >}}) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
 - Is the new team members' address listed on the details page?
 - What contract type and entity are required based upon location and offer details?
 - Is all necessary information (start date, salary, location, etc.) up to date?
@@ -362,10 +424,10 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 - Has the signatory been determined by the Candidate Experience Specialist and updated?
 - Has the Entity been selected based on the New Hire's location? If the job title has Federal or PubSec included, please check with the Recruiter if they set up the contract as Inc rather than Federal LLC to confirm.
 
-1. [Generate the contract within Greenhouse]({{< ref "ces-contract-processes" >}}) using a template based on the details found in the offer package.
+1. Generate the contract within Greenhouse using a template based on the details found in the offer package.
 1. Contact the recruiter or new team member to gather any missing pieces of information (note: the address can be found on the background screening information page).
 1. If the contract was created outside of Greenhouse, ensure that the contract has been reviewed and approved by a member of the Legal team.
-1. [Stage the contract in DocuSign from within Greenhouse]({{< ref "ces-contract-processes" >}}), which emails the contract to the signing parties, with the recruiter, talent acquisition manager, and the hiring manager cc'd. It will be sent to the designated signatory as previously determined in Offer Details.
+1. [Stage the contract in DocuSign from within Greenhouse](/handbook/hiring/talent-acquisition-framework/coordinator/#ces-contract-processes), which emails the contract to the signing parties, with the recruiter, talent acquisition manager, and the hiring manager cc'd. It will be sent to the designated signatory as previously determined in Offer Details.
 1. **Before marking the candidate as hired** the Candidate Experience Specialist will reject the candidate from any other active roles including roles for which they are a prospect (without sending a rejection email). *NOTE: If this step is skipped, the profile will not be exported to Workday when the candidate is marked as hired.*
 1. **Before marking the candidate as hired** on all candidates, the CES will make sure that the profiles were merged (for internal candidates, this will be indicated if the candidate shows their original `Hired` inactive role). [View candidate merge instructions in the Candidate Hygiene section](/handbook/hiring#interview-stages).  *NOTE: If this step is skipped, it will create problems with privacy and increases the possibility of a new hire seeing their own Greenhouse profile.*
 1. **Before marking the candidate as hired** the CES will ping the recruiter and give them 24 hours to contact/reject all other active candidates. Once this is complete, the CES can proceed with hiring in GH (if candidates are still present in req, select the "keep open" option when setting candidate to hired. This will trigger a new opening to ensure candidates are still present in req)
@@ -376,7 +438,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 
    - Instructions on the [Notebook Ordering Process](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
 
-1. Should the start date change after the welcome email is sent please see the required steps [here]({{< ref "ces-contract-processes#how-to-update-a-start-date-after-the-contract-is-signed" >}}).
+1. Should the start date change after the welcome email is sent please see the required steps [here](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-update-a-start-date-after-the-contract-is-signed).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
 
 The last part of the Candidate Experience Specialist's responsibilities with a candidate is to hire them into the system and pass them on to People Connect. The hire-in process includes more complexities, so CES created the following guidelines to clarify start date exceptions and confidentiality around new hires.
@@ -537,7 +599,7 @@ The hiring manager or PBP should provide confirmation of the new start date via 
 
 ### How to Update a Start Date After a French or Spain contract has been signed
 
-   Please follow the normal start date change [process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-update-a-start-date-after-the-contract-is-signed), thereafter, please follow the following steps:
+   Please follow the normal start date change [process](/handbook/hiring/talent-acquisition-framework/coordinator/#how-to-update-a-start-date-after-the-contract-is-signed), thereafter, please follow the following steps:
 
    1. Make a copy of this Start Date Amendment [letter](https://docs.google.com/document/d/1qpxTi6nPrT4KXDi87tDAWm49D9NZNvTS/edit)
    1. Edit all the highlighted details and save the document on your desktop
@@ -680,7 +742,7 @@ When a team member applies for and receives a new position through Greenhouse, a
 Effective dates for a job change letter should be the first (1st) of the month or the sixteenth (16th). For Sales or Sales Development team members, they can only be the first of the month. These effective dates do not need to be on a business day and should be adhered to payroll purposes.
 Please note that JCLs cannot be used if a team member is moving from the Federal, LLC. entity into any other entity **or** any entity that is not Federal, LLC into the Federal, LLC. entity. In those cases, a new contract **must** be issued as there are tax implications to this entity.
 
-If the team member is making a lateral move where there is no change in compensation, then the start date can be any Monday.
+If the team member is making a lateral move where there is no change in compensation, then the start date can be any day of the month.
 
 When generating a job change letter for a PEO, the steps remains the same as outlined below. However, select the JCL template that does not include RSUs, and send the RSU details via DocuSign email.
 
@@ -767,13 +829,19 @@ The People Operation Specialist are in charge of [contract renewals](/handbook/p
 
 *GitLab IT BV contracts should only be used for contractors. All Netherlands **employees** should be issued the GitLab BV contract.*
 
-## Process for GitLab Team Members in Australia, New Zealand, or Ireland
+## Process for GitLab Team Members in Australia or New Zealand
 
-GitLab has an entity in this location. All team members in this location are employees. Please note that Northern Ireland is under the United Kingdom, so if you see an address that includes UK you should hold and verify on google maps where the candidate is located and whether a different contract and background check are needed.
-
+GitLab has an entity in this location. All team members in this location are employees. 
 Always ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 
-## Process for GitLab Team Members in Singapore, South Korea, or France
+## Process for GitLab Team Members in Ireland, the UK or Singapore
+
+GitLab has an entity in this location. The UK, Ireland and Singapore payroll are now processed through Papaya. There is an updated “Offer Through DocuSign” email templates to group these countries together.
+Papaya will follow up with the team members in these locations regarding their payroll.
+
+Please note that Northern Ireland is under the United Kingdom, so if you see an address that includes UK you should hold and verify on google maps where the candidate is located and whether a different contract and background check are needed.
+
+## Process for GitLab Team Members in South Korea, or France
 
 GitLab has entities in Singapore, South Korea, and France. All team members in this location are employees, but payroll will be processed through Global Upside. Please be sure to select the correct docusign email template so they will be CC'ed as the final step of the offer process.
 
@@ -805,6 +873,34 @@ Once this information has been received, please go onto GH and follow the steps 
 1. Upload the amended document
 1. Then follow the normal offer creation process in GH and select your uploaded document as the offer template for this offer.
 1. Please remember to delete this template once you have completed the process and the offer has been signed by the signatory & the candidate
+
+## Creating an Israel offer
+
+When you receive a request to make an offer in Israel, please take the following steps. 
+
+1. In Greenhouse, click on Job setup, then hiring team, then add Sarah Rogers & Darren Burr to the job granting them the Job Admin: FPA and Legal permissions, then save.
+1. The start dates for Israel team members can be a Sunday, given that their work week is Sunday through Thursday. Please let the People Connect Team know that the start date would be a Sunday.
+1. Send a message to the Legal Team the in ces_legal_contracts slack channel requesting assistance with the offer. When making the request in the channel, please indicate the candidate’s name, include the link to the GH profile & request them to give the compensation breakdown as well as let you know what contract template to use.
+1. One of the Legal Team members will respond with the following information:
+   - The GreenHouse Offer Template that you should use
+   - The compensation breakdown & CES to add the ID number in Exhibit A
+   - The language that should be added to the template (including where on the contract the wording should be placed).
+
+Once this information has been received, please go into GH and follow the steps below:
+
+1. Click on the settings icon
+1. Select 'Offer Templates' on the left-hand side
+1. Search for the Template as advised by Legal
+1. Click on the three dots on the right-hand side of the template you will be using and select the 'download' option
+1. Open the document in Google Docs
+1. Make all the changes as advised by the Legal Team and save the document
+1. Go back to the offer templates page on GH
+1. Click on 'Upload New' on the right-hand side
+1. Upload the amended document using a title with the candidates initials (this is so you can identify the template when you go to generate the contract)
+1. Then follow the normal offer creation process in GH and select your uploaded document as the offer template for this offer.
+1. Please remember to delete this template once you have completed the process and the offer has been signed by the signatory & the candidate
+
+Once after the candidate has signed the offer, please send the "New Hire Welcome Email" where there is a laptop request form. GitLab can ship laptops to Israel and there is no need for the team member to self procure laptops anymore for Israel.
 
 ## CXC (NOTE: HIRING IS CURRENTLY PAUSED HERE: Please speak with Enablement before sending offer letters)
 
@@ -927,7 +1023,7 @@ The process for creating and sending an agreement is as follows:
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, Denmark, Switzerland, Italy, Sweden, Luxembourg and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 
@@ -974,7 +1070,7 @@ Kindly note the following when filling in this section:
     - For Mexico: When adding a team member to the Remote platform you should select 30 days as a Christmas bonus, not 15.
 1. Type of employee: Full time
 1. Annual Gross salary: as stated in the offer details in GH
-1. Annual leave: Is usually the statutory minimum. You can also utilize the [General & Entity Specific Benefits page]({{< ref "remote-com" >}})
+1. Annual leave: Is usually the statutory minimum. You can also utilize the [General & Entity Specific Benefits page](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
    - Mexico you can input 20 days
 1. Is this employee approved for outside employment: No
 1. Signing bonus: as stated in the offer details in GH
@@ -999,7 +1095,7 @@ Kindly note the following when filling in this section:
 | Switzerland | None |
 | Sweden | None |
 
-1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here]({{< ref "remote-com#brazil" >}}).
+1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/#brazil).
 If there are any questions, these should be directed to help@remote.com.
 1. Click on the benefits acknowledgement and continue
 1. You be will be on the 'billing cycle' page.
@@ -1050,7 +1146,7 @@ If there are any questions, these should be directed to help@remote.com.
 
 There are a handful of countries, listed [here](/handbook/it/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
 
-1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile template.
+1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Brazil, Costa Rica, Chile, Armenia, or Ukraine template.
 1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
     - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
     - Request advanced funds to self-procure
@@ -1081,10 +1177,10 @@ Once the Labor Contract has been signed by both CIIC and the new hire the indivi
 
 ## Employment Agreements for GitLab team members in Germany
 
-From 1 January 2025, the wet-ink signature requirement in Germany has been removed, so that offers can be issued with e-signature via DosuSign (steps set out below).
+From 1 January 2025, the wet-ink signature requirement in Germany has been removed, so that offers can be issued with e-signature via DosuSign (steps set out below). Germany payroll are now all processed through Papaya.
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
-1. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
+1. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/coordinator/#entity-contract-signatories)
 1. Send the offer through Greenhouse and DocuSign. Use the "send through Docusign" template and add the RSU information into the body of the email.
 1. Initiate the background check. Please use the Germany Package from the drop down in Sterling.
 

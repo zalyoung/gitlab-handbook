@@ -53,7 +53,7 @@ Examples of this are:
 
 ### The four archetypes
 
-Staff Engineers and Engineering Managers shared their perspective on [what does Staff level mean at GitLab](https://about.gitlab.com/blog/2020/02/18/staff-level-engineering-at-gitlab/) in an [Unfiltered](/handbook/marketing/blog/unfiltered/) blogpost.
+Staff Engineers and Engineering Managers shared their perspective on [what does Staff level mean at GitLab](https://about.gitlab.com/blog/2020/02/18/staff-level-engineering-at-gitlab/) in an Unfiltered blog post.
 Much of what each engineer said overlapped, but each had a unique perspective based on their team and their particular experience within GitLab as an entity.
 
 There are [four common archetypes of Staff-plus roles in the industry](https://staffeng.com/guides/staff-archetypes/) that could explain this variability their perspective:

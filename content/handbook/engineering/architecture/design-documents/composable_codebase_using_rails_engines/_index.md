@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 NOTE:
 This architecture design document has been superseded by [GitLab Modular Monolith](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/).

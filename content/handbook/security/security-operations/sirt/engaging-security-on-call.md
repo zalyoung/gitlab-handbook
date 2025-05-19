@@ -5,7 +5,7 @@ description: How to Engage the Security Engineer On-Call
 
 ## Overview
 
-The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. This handbook provides guidance to help identify the scope and severity of a potential security incident, followed by instructions on how to engage the Security Engineer On-Call (SEOC) if needed.
+The [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. This handbook provides guidance to help identify the scope and severity of a potential security incident, followed by instructions on how to engage the Security Engineer On-Call (SEOC) if needed.
 
 Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide](/handbook/security/security-operations/secops-oncall/).
 
@@ -20,15 +20,15 @@ Note: Additional information on Recovery Time Objective (RTO) and Recovery Point
 The following items are out of scope for SIRT and should be escalated to the respective teams mentioned below:
 
 - **Vulnerability reports and HackerOne**: please escalate to [Application Security](/handbook/security/engaging-with-security/#vulnerability-reports-and-hackerone)
-- **Abuse reports and DMCA notices**: please escalate to [Trust & Safety]({{< ref "trustandsafety" >}})
-- **General Customer Inquiries**: please escalate to [Field Security]({{< ref "../../security-assurance/field-security" >}})
+- **Abuse reports and DMCA notices**: please escalate to [Trust & Safety](/handbook/security/security-operations/trustandsafety/)
+- **General Customer Inquiries**: please escalate to [Field Security](/handbook/security/security-assurance/field-security/)
 - **Self-Managed Instances**: please escalate to [TBD]
 
 ## Low Severity Issues
 
 For general Q&A, GitLab Security is available in the `#security` channel in GitLab Slack.
 
-For low severity, non-urgent issues, [SIRT]({{< ref "sirt" >}}) can be reached by mentioning `@sirt-members` in Slack or by opening an issue with `/security` in Slack.
+For low severity, non-urgent issues, [SIRT](/handbook/security/security-operations/sirt/) can be reached by mentioning `@sirt-members` in Slack or by requesting the incident form link, using the `/security` slash command in Slack. (Note: this command does not work inside Slack threads)
 
 Please be advised the SLA for Slack mentions is **6 hours** on business days.
 
@@ -48,7 +48,13 @@ The Slack command triggers SIRT's Escalation Workflow. You will be sent a link t
 
 For more information on how the form is processed and labels are assigned, consult SIRT's [incident classification](/handbook/security/security-operations/sirt/severity-matrix/) methodology.
 
-The workflow uses your answers to create a new issue and track the reported incident. Please provide as many details as possible when answering the open questions to aid the SEOC in their investigation of the incident. If you do not receive a link to the incident issue, please contact a SIRT engineer.
+The workflow uses your answers to create a new issue and track the reported incident. Please provide as many details as possible when answering the open questions to aid the SEOC in their investigation of the incident. If you do not receive a link to the incident issue, please contact a SIRT engineer (see next paragraph).
+
+For small requests like an indication if something is a security issue, questions on ongoing incidents or SIRT FYIs, team members can use:
+
+- @sirt-oncall
+
+This taggs the current on call engineer. 
 
 If the security incident prevents you from accessing Slack:
 

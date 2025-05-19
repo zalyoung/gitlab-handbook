@@ -1,198 +1,90 @@
 ---
-title: Working with Support Ops
+title: Working with Customer Support Operations
 category: References
-description: "Workflow for working with Support Operations"
+subcategory: General
+description: Documenting the various types of Customer Support Operations related tickets and the escalation process to notify Support Operations.
 ---
 
-## Working with Support Ops
+## Overview
 
-General speaking, working with Support Operations can be broken down into 8
-categories:
+Customer Support Operations sits under Security, alongside teams like Corporate Identity and IT End User Support. As a corporate provider, Customer Support Operations is specifically tasked with providing support *for Customer Support*.  
 
-- [Customer asking for support portal changes](#customer-asking-for-support-portal-changes)
-- [Asking general questions](#asking-general-questions)
-- [Request changes to your Calendly](#request-changes-to-your-calendly)
-- [Propose a change](#propose-a-change)
-- [Get something fixed](#get-something-fixed)
-- [Make changes to Zendesk Global or Zendesk US Government macros](#make-changes-to-zendesk-global-or-zendesk-us-government-macros)
-- [Support Team page requests](#support-team-page-requests)
-- [Everything else](#everything-else)
+This page exists primarily as a quick-reference, linking to sources of truth and making sure Customer Support has the information needed to get things done!
 
-For a general overview, please see the [flowchart](#flowchart).
+## Workflows
 
-### Customer asking for support portal changes
+### Ticket where customer is asking for support portal changes
 
-Occasionally, a customer might mis-file a ticket and send a request for support
-portal changes using a Support form. In these cases, please change the form to
-Support Ops in Zendesk and we will handle it from there. Please do not reply
-(as that removes our SLA clock from the ticket).
-
-Please never modify a user's access permissions or make any edits to the
-organization itself. We have specific processes and policies we must follow for
-such changes to occur.
+Occasionally, a customer might mis-file a ticket and send a request for support portal changes using a Support form. In these cases, please change the form to `Support Ops` in Zendesk and Customer Support Operations will handle it from there. Please do not send a public reply (as that removes our SLA clock from the ticket).
 
 ### Asking general questions
 
-For general questions and assistance, reach out via the
-[support_operations Slack channel](https://gitlab.slack.com/archives/C018ZGZAMPD).
-From there, a member of the Support Operations team will respond and work with
-you to help address the question. Should the discussion need more than a simple
-answer, Support Operations will direct you to create an issue in the correct
-issue tracker.
+For general questions and assistance, reach out via the [support_operations Slack channel](https://gitlab.slack.com/archives/C018ZGZAMPD). From there, a member of the Customer Support Operations team will respond and work with you to help address the question. 
 
-### Request changes to your Calendly
+### Basic Issue Flows
 
-**Note**: Support Operations does not have the ability to change your personal Calendly
-settings, only those used in team events.
+The flow can be summed up simply as: "Create an issue!"
 
-When you need modifications made to your Calendly (such as being added to an
-event, having the schedule used in an event changed, etc.), you will want to
-create an issue in the
-[calendly issue tracker](https://gitlab.com/gitlab-com/support/support-ops/other-software/calendly/-/issues/new).
+If what you want to get done is:
 
-From there, your manager will review the request and approve it. Once approved,
-they will ping Support Operations.
+* On the roadmap? *Create an issue!*
+* Not on the roadmap, but seems easy! *Create an issue!*
+* Maybe easy, but maybe hard? I definitely know what I want though. *Create an issue!*
+* reporting a bug. *Create an issue!*
+* ... well, actually, I don't totally know yet. *Create an RFC issue in `support-team-meta`* (or work otherwise within the [Change Management in GitLab Support](/handbook/support/managers/change-management/) framework)
 
-Support Operations will then review the request and work the issue. Once
-completed, Support Operations will then confirm the issue is completed and
-close out the issue.
+If you're creating an issue, the Customer Support Operations team expects that:
 
-### Propose a change
+* **You're empowered to make decisions**. That is, you're a DRI at the appropriate level to steward your change or you've been delegated that responsibility by an appropriate DRI.
+* **You're responsive.** You're prioritizing working on the thing you want so that it can be shipped on time, and to spec.
+* **You'll be ready to validate and sign off.** When Support Operations deploys something to staging, you need to be ready to test (or delegate / organize testing) and sign off on acceptability before it can go live in production.
 
-To propose or request a change, create an issue in the
-[support-team-meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new)
-so it can be discussed amongst the team. If the proposal impacts teams other
-than Support, include those teams in the discussion.
+More about [Working with Customer Support Operations](/handbook/security/customer-support-operations/#working-with-us).
 
-When creating the issue, be sure to set a reasonable due date. Choose a date
-on which the discussions will end and a decision will be
-reached between the approving manager(s) and the requester. If you need the
-assistance of Support Operations in the discussion, you can ping the Support
-Operations team using `@gitlab-com/support/support-ops`.
+More about [stages that Customer Support Operations uses to represent progress](/handbook/security/customer-support-operations/workflows/gitlab/working-issues/).
 
-Once a decision has been made, the approving manager will then ping the Support
-Operations team in a comment on the issue using
-`@gitlab-com/support/support-ops`. A Support Operations team member will then
-review the issue and ask for any clarification as needed.
+#### Bugs
 
-After Support Operations has confirmed the request and received any requested
-clarification, they will then create an issue in the appropriate tracker.
+Bugs should get created directly in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues) using the [Bug Report Template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Bug)
 
-Support Operations will then work from the new issue to perform testing and
-other related tasks. At this stage, ensure you are available to help with the
-testing and review the results. Support Operations will ask the original
-requester to review everything before moving on to the next step.
+Bugs are generally of a high priority to fix, and will get scheduled in the current iteration. Depending on workload, severity, fix complexity and [system criticality](https://drive.google.com/drive/u/0/search?q=Customer%20Support%20Operations%20System%20Criticality%20type:sheets) may get scheduled in the future.
 
-**Note**: Do not create the issues in the Support Operations issue tracker(s).
-They require a support-team-meta issue for discussion and approval from a
-manager to be actioned on. Without this having occurred, Support Operations is
-likely to close out the issue and request the normal procedure be followed.
+More about the [Bug Report issue flow](/handbook/security/customer-support-operations/#bug-reports).
 
-### Get something fixed
+#### Feature Requests
 
-This is category is for anything in our current setups that needs to be fixed
-(ie it is broken). These issues should not be for improvements or changes, but
-simply to get something that is currently broken fixed as soon as possible. For
-these, you would file an issue in the
-[support-ops-project issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new).
-As these types of requests are highly important and solely to fix something
-broken, they do not require a discussion issue or manager approval.
+The focus for feature requests is on aligning them with our existing [Support Roadmap](https://roadmap-e17445.gitlab.io/). For larger requests, you may need to work with the leadership team to escalate issues to re-plan any conflicts and protect strategic items. For smaller requests, they can often be added in as we go, as long as they don't get in the way of delivering current roadmap items.
 
-Once the issue is created, Support Operations will work the issue. They may
-create new issues or move the original request as needed. As these tend to be
-timely in nature, make sure you are available to work with Support Operations.
+Feature requests should get created directly in the [Customer Support Operations Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues) using the [Feature Requests Template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?issuable_template=Feature)
 
-### Make changes to Zendesk Global or Zendesk US Government macros
+More about the [Feature Requests issue flow](/handbook/security/customer-support-operations/#feature-requests).
 
-Macros are [deployed immediately](/handbook/support/readiness/operations/docs/change_management/#zendesk-macros-change-management). For information on macros, please see [Zendesk Global Macros](/handbook/support/readiness/operations/docs/zendesk/macros/).
+## Incidents
 
-If you want to edit the wording of a macro, make an MR to the repo (Zendesk Global or Zendesk US Government).
-If you want to make non-wording changes (renaming it, add/removing options, etc.), use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) 'Edit a Zendesk macro' option.
-If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) 'Create a Zendesk macro' option.
-To discuss a macro (but not actually action on anything), use a support-team-meta issue.
+Things do break! Customer Support Operations is there to help.
 
-### Support Team page requests
+Review [Customer Support Operations System Criticality Sheet](https://drive.google.com/drive/u/0/search?q=Customer%20Support%20Operations%20System%20Criticality%20type:sheets)
 
-For changes to the support team page, you would file an issue in the
-[support-team-meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new).
+1. Start by posting in `#support-operations` (during [Global Support Hours](https://about.gitlab.com/support/#hours-of-operation))
+1. Wait for a response. Continue down this list if you get no response for:
+   * 24 hours for issues with Administrative systems. 
+   * 8 hours for issues Business Operational systems.
+   * 30 minutes for issues with Business Critical Systems.
+   * 10 minutes for issues with Mission Critical Systems.
+1. [Create a new incident](https://gitlab.pagerduty.com/incidents/create) with "Customer Support Operations" as the Impacted Service. (See: [Support Operations On-Call Workflow](/handbook/security/customer-support-operations/workflows/support_operations-on-call))
+1. Be available to work with the on-call to develop a plan to resolve the problem.
 
-Once the issue is created, Support Operations will work the issue. They may
-create new issues or move the original request as needed.
+More about [how Customer Support Operations handles incidents](/handbook/security/customer-support-operations/workflows/incidents/).
 
-### Everything else
+## General tips
 
-This is a catchall category for anything that didn't fit the previous ones. For
-these types of requests, you would file an issue under the
-[support-ops-project issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new).
-From there, Support Operations will work the issue. They may create new issues
-or move the original request as needed.
+1. **Start early** - if you are the DRI for a key strategic item on the Support Roadmap, start working with Ops early. Create a tracking issue so a plan can be formed and blockers discovered early.
+1. **Don't "save up" work** - if items are important to the business, they should be tracked. If they're not tracked, they won't get prioritized. 
+1. **Have strong opinions on outcomes** - avoid strong opinions on technical implementation.
+1. **Don't be quiet** - as a DRI, if a technical implementation isn't looking like it's going to meet the criteria, speak up whether it's in the Validation stage or not. It's better to ship the right thing a bit late than the wrong thing quickly.
 
-### Flowchart
+## Deployments and Delivery
 
-```mermaid
-graph TD;
-  Start -- "Ask a general question" --> Slack;
-  Start -- "Request changes to my Calendly" --> Calendly;
-  Start -- "Propose a change" --> SupportTeamMeta;
-  Start -- "Get something fixed/Other" --> SupportOpsProject;
-  Start -- "Make changes to macros in ZD Global" --> ZendeskMacros;
-  Start -- "Make changes to macros in ZD US Government" --> ZendeskUsGovernment;
-  Start -- "Support Team page request" --> SupportTeam;
-  Slack --> SlackResponds;
-  Calendly --> CalendlyFillOutIssue;
-  CalendlyFillOutIssue --> CalendlyPingManager;
-  CalendlyPingManager --> CalendlyManagerFillOutIssue;
-  CalendlyManagerFillOutIssue --> CalendlyManagerPingSupportOps;
-  CalendlyManagerPingSupportOps --> CalendlySupportOpsWorksIssue;
-  CalendlySupportOpsWorksIssue --> CalendlySupportOpsDone;
-  SupportTeamMeta --> SupportTeamMetaDueDate;
-  SupportTeamMetaDueDate --> SupportTeamMetaManagerApprove;
-  SupportTeamMetaManagerApprove --> SupportTeamMetaManagerPingSupportOps;
-  SupportTeamMetaManagerPingSupportOps --> SupportTeamMetaOpsReview;
-  SupportTeamMetaOpsReview --> SupportTeamMetaOpsQuestions;
-  SupportTeamMetaOpsQuestions -- "Yes" --> SupportTeamMetaOpsAsk;
-  SupportTeamMetaOpsAsk --> SupportTeamMetaOpsRequesterClarifies;
-  SupportTeamMetaOpsRequesterClarifies --> SupportTeamMetaOpsQuestions;
-  SupportTeamMetaOpsQuestions -- "No" --> SupportTeamMetaOpsCreatesIssue;
-  SupportTeamMetaOpsCreatesIssue --> OpsWorksIssue;
-  SupportOpsProject --> OpsWorksIssue;
-  ZendeskMacros --> OpsWorksIssue;
-  ZendeskUsGovernment --> OpsWorksIssue;
-  SupportTeam --> OpsWorksIssue;
-  Start{"What do you wish to do?"};
-  Slack["Ask in the support_operations slack channel"];
-  SlackResponds["Support Ops responds in Slack and assists"];
-  Calendly["Create an issue in the support-ops/other-software/calendly project"];
-  CalendlyFillOutIssue["Fill out the issue based on the templae"];
-  CalendlyPingManager["Ping your manager in the issue for next steps"];
-  CalendlyManagerFillOutIssue["Manager does their part of the issue"];
-  CalendlyManagerPingSupportOps["Manager pings Support Ops"];
-  CalendlySupportOpsWorksIssue["Support Ops works the issue"];
-  CalendlySupportOpsDone["Support Ops confirms issue is completed and closes it"];
-  SupportTeamMeta["Create a discussion issue in support-team-meta"];
-  SupportTeamMetaDueDate["Set a due date for the end of discussion"];
-  SupportTeamMetaManagerApprove["Have a manager review the issue and approve moving forward"];
-  SupportTeamMetaManagerPingSupportOps["Manager pings Support Ops"];
-  SupportTeamMetaOpsReview["Support Ops reviews issue"];
-  SupportTeamMetaOpsQuestions{"Any clarifying questions needed?"};
-  SupportTeamMetaOpsAsk["Support Ops asks requester to clarify"];
-  SupportTeamMetaOpsRequesterClarifies["Requester clarifies"];
-  SupportTeamMetaOpsCreatesIssue["Support Ops creates issue in correct tracker"];
-  SupportOpsProject["Create an issue in the support-ops-project"];
-  OpsWorksIssue["Support Ops works issue from there, making new ones as needed"];
-  ZendeskMacros["Create an issue in the macros project"];
-  ZendeskUsGovernment["Create an issue in the zendesk-us-government project"];
-  SupportTeam["Create an issue in the support-team project"];
-```
+Unless otherwise communicated, changes ship on the 1st of the month. This is to align any changes to metrics with month boundaries.
 
-### Helpful links
-
-- [Support Ops team page](/handbook/support/readiness)
-- [Support Ops documentation](/handbook/support/readiness/operations/docs)
-- [support_operations Slack channel](https://gitlab.slack.com/archives/C018ZGZAMPD)
-- [calendly issue tracker](https://gitlab.com/gitlab-com/support/support-ops/other-software/calendly/-/issues/new)
-- [support-team-meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new)
-- [macros issue tracker](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/issues/new)
-- [zendesk-us-government issue tracker](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/-/issues/new)
-- [zendesk-us-government macros issue template](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/-/issues/new?issuable_template=Macros)
-- [support-ops-project issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
+Once you've signed off on work, make sure you're following the steps in [Change Management in Support - Rolling out a Change](/handbook/support/managers/change-management/#rolling-out-a-change) to make sure everyone on the team is aware.

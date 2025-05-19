@@ -2,7 +2,7 @@
 title: ElevatePrep
 ---
 
-ElevatePrep is a _signature_ program within GitLab's broader Elevate leadership experience aim to enhance leadership performance and capability across the organization. ElevatePrep focuses on skills and capabilities that strengthen self-awareness, goal setting, feedback, and influencing others. This experiece is designed for GitLab individual contributors (ICs) who would like to _one day_ step into a people management role. ElevatePrep lays the foundation for strong
+ElevatePrep is a _signature_ program within GitLab's broader Elevate leadership experience aim to enhance leadership performance and capability across the organization. ElevatePrep focuses on skills and capabilities that strengthen self-awareness, goal setting, feedback, and influencing others. This experience is designed for GitLab individual contributors (ICs) who would like to _one day_ step into a people management role or lead multifaceted, cross-functional projects more effectively. ElevatePrep lays the foundation for strong professional skills that support a variety of goals.
 
 ### Important Note About Career Development
 
@@ -30,9 +30,9 @@ ElevatePrep consists of 4 core learning modules, each focusing on essential prof
 
 Each module is 60 minutes long and delivered live through our learning portal (in partnership with Hone). The program brings together cohorts of approximately 25 participants to ensure meaningful interaction and discussion.
 
-![visual displaying the content in each elevate module](/images/handbook/people-group/elevateprepoverview.png)
+![visual displaying the content in each elevate module](/images/people-group/elevateprep2v2.png)
 
-All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
+All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place. If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
 
 ## Program Requirements
 

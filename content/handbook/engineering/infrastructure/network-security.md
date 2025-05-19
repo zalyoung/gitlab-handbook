@@ -172,6 +172,5 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security/)
 - [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
-- [Encryption Policy](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption-in-transit)
+- [Encryption Policy](/handbook/security/product-security/vulnerability-management/encryption-policy/)

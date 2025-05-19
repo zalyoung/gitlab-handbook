@@ -13,7 +13,7 @@ twitter_creator: "@gitlab"
 
 Remote work burnout can manifest itself in many ways, including stress, isolation, or anxiety. Leaders need to promote a healthy, non-judgemental [culture](/handbook/company/culture/#culture-at-gitlab) where individuals are encouraged to prevent or work through burnout rather than hiding or internalizing struggles.
 
-In this [CEO handbook learning session]({{< ref "learning-initiatives#ceo-handbook-learning-sessions" >}}), Sid and other leaders at GitLab discuss the importance recognizing the signs of remote work burnout, taking time off, and addressing imposter syndrome.
+In this CEO handbook learning session, Sid and other leaders at GitLab discuss the importance recognizing the signs of remote work burnout, taking time off, and addressing imposter syndrome.
 
 {{< youtube "od_KdZqc69k" >}}
 
@@ -36,7 +36,7 @@ Burnout rarely happens all at once. Rather, it typically takes one by surprise, 
 
 While working one additional hour to move a given project forward is likely not debilitating when viewed in a vacuum, it can trigger a revised baseline where you must *continue* to overwork in order to maintain the new status quo.
 
-This becomes toxic when managers fail to recognize that a given sprint should not reset the baseline of what is achievable on an ongoing, sustained basis. It becomes disastrous when team members do not feel safe bringing this up to their managers in a [1:1 setting]({{< ref "1-1" >}}).
+This becomes toxic when managers fail to recognize that a given sprint should not reset the baseline of what is achievable on an ongoing, sustained basis. It becomes disastrous when team members do not feel safe bringing this up to their managers in a [1:1 setting](/handbook/leadership/1-1/).
 
 Particularly in a company where [results](/handbook/values/#results) are valued above all, managers should be careful to not assume that results garnered in a given period of overwork are the new norm. This places team members in an unfair scenario where they feel pressured to perpetually overwork in order to meet expectations. More broadly, as other team members witness this, they will be less likely to go above and beyond in special cases for fear of trapping themselves in a similar cycle of overworking just to meet ever-increasing (and unsustainable) expectations.
 
@@ -66,7 +66,7 @@ As part of his session at REMOTE by GitLab, John shares how organizations can in
 
 {{< youtube "bQMoF7oSh2o" >}}
 
-GitLab's L&D team also hosted a [live speaker series]({{< ref "learning-initiatives#learning-speaker-series-overview" >}}) with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
+GitLab's L&D team also hosted a live speaker series with John to discuss how intentional time off can help manage burnout and enable team members to create high quality work. Check out the recording:
 
 {{< youtube "BDvpoouM-us" >}}
 
@@ -95,7 +95,7 @@ Examples of how you might define your rest ethic:
 
 To learn more about building a rest ethic, refer to this course by John Fitch and TimeOff entitled [Design your Rest Ethic](https://timeoff.thinkific.com/courses/time-off-design-your-rest-ethic).
 
-GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiatives#learning-speaker-series-overview" >}}) during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
+GitLab hosted John Fitch for 2 Live Speaker Series during the month of May 2021. In the following discussions, John shared great strategies for manager enablement of rest ethic, the importance of rest, and the impact that intentional rest has on results. Check out both recorded sessions below!
 
 **Session 1**
 
@@ -107,7 +107,7 @@ GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiativ
 
 ## What are the benefits of remote work for mental health?
 
-There are [many mental health benefits](/handbook/company/culture/all-remote/remote-benefits/#benefits-for-all-remote-employees) to remote work, but some that top the list are:
+There are [many mental health benefits](remote-benefits/#benefits-for-all-remote-employees) to remote work, but some that top the list are:
 
 1. Increased [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
 1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
@@ -183,7 +183,7 @@ You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 To combat this and de-stigmatize such issues, leadership should work to [build and sustain a non-judgemental culture](building-culture/). This starts by celebrating a [diverse team](/handbook/values/#diversity-inclusion), and creating an [inclusive work environment](/handbook/company/culture/inclusion/).
 
-At GitLab, we encourage team members to include overall feedback on how their life is going during [routine 1:1 meetings]({{< ref "1-1" >}}). Managers are responsible for creating a safe atmosphere, where team members can openly discuss issues related to mental health, and work with the team member to a resolution.
+At GitLab, we encourage team members to include overall feedback on how their life is going during [routine 1:1 meetings](/handbook/leadership/1-1/). Managers are responsible for creating a safe atmosphere, where team members can openly discuss issues related to mental health, and work with the team member to a resolution.
 
 GitLab also offers a Slack channel — `#mental_health_aware` — dedicated to surfacing and discussing topics related to mental health.
 
@@ -191,7 +191,7 @@ GitLab also offers a Slack channel — `#mental_health_aware` — dedicated to s
 
 Creating a non-judgmental culture requires leaders to cultivate [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/) within their teams. This means ensuring that team members feel safe to take healthy risks, openly admit when they make mistakes, and challenge one another in a productive, positive way.
 
-Not only can this affect each individual team member's performance and well-being, it also has an impact on the overall environment of inclusion and belonging on your team. This is particularly important in a remote or hybrid environment, especially for a global team with varying experiences. Understanding your team members' perspectives requires a high level of [empathy](/handbook/company/culture/all-remote/being-a-great-remote-manager/#empathy), communication, and intentionality.
+Not only can this affect each individual team member's performance and well-being, it also has an impact on the overall environment of inclusion and belonging on your team. This is particularly important in a remote or hybrid environment, especially for a global team with varying experiences. Understanding your team members' perspectives requires a high level of [empathy](being-a-great-remote-manager/#empathy), communication, and intentionality.
 
 Learn more about [how to build a psychologically safe environment](/handbook/leadership/emotional-intelligence/psychological-safety/#strategies-for-cultivating-a-culture-of-psychological-safety).
 
@@ -240,7 +240,7 @@ Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-thi
 1. Remove Slack from your smartphone or at the very least, turn off notifications for it
 1. Keep each other accountable. When you notice someone in a different time zone should be asleep, tell them
 1. Use your Slack status to share a message with the team that you are unavailable
-1. Schedule [random coffee breaks](/handbook/communication/#random-room)
+1. Schedule random coffee breaks
 1. You can use [informal communication](informal-communication/) mechanisms such as virtual trivia sessions, talent shows, scavenger hunts, and global pizza parties/meals to help bond as a team and prevent work-related burnout.
 
 ### The power of being proactive
@@ -277,11 +277,11 @@ If you're invited to a sync meeting that you can [contribute to asynchronously](
 
 > "I'm intentionally limiting my sync sessions in 2021 to [prioritize well-being and family](/handbook/values/#family-and-friends-first-work-second). Thanks for understanding."
 
-This is also something you can discuss live with your manager or team during regular 1:1 or team meetings. Sharing openly about these boundaries builds empathy, trust, and reinforces a [non-judgmental culture](mental-health/#creating-a-non-judgemental-culture).
+This is also something you can discuss live with your manager or team during regular 1:1 or team meetings. Sharing openly about these boundaries builds empathy, trust, and reinforces a [non-judgmental culture](mental-health/#create-a-non-judgemental-culture).
 
 ### Set realistic expectations
 
-Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs](/handbook/company/kpis/) (key performance indicators) are unattainable without compromising company [values](/handbook/company/culture/all-remote/remote-values/), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
+Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs](/handbook/company/kpis/) (key performance indicators) are unattainable without compromising company [values](remote-values/), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
 
 It is foolish to expect a team member to maintain excellent mental health when their workload requires a sustained amount of sacrifice. There is a fine line between collaborating with a team member on an ambitious goal and assigning a task that will be perceived as impossible.
 

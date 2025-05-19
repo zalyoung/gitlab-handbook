@@ -12,7 +12,7 @@ Welcome to the Corporate FP&A team page!
 
 ### Accounting Partnership
 
-- The FP&A team and Accounting collaborate to set deadlines as part of our monthly and quarterly close process. This enables a timely close and delivery of key information to  EVPs/department heads around variance, forecast, and/or guidance. For the monthly FP&A close timeline, refer [here]({{< ref "_index.md#monthly-fpa-close-timeline" >}})
+- The FP&A team and Accounting collaborate to set deadlines as part of our monthly and quarterly close process. This enables a timely close and delivery of key information to  EVPs/department heads around variance, forecast, and/or guidance. For the monthly FP&A close timeline, refer [here](/handbook/finance/financial-planning-and-analysis/#monthly-fpa-close-timeline)
 - We collaborate in GitLab issues to align on the close timeline each quarter. An example of this is the Q1-FY23 Close Timeline found [here](https://gitlab.com/gitlab-com/Finance-Division/accounting-team/accounting-project/-/issues/371).
 - Every two weeks on Thursday, Accounting & FP&A have a sync to connect on close dates. Further, this is a meeting to discuss open items, questions, and process improvements.
 - During close, Accounting leads daily close meetings where the status of close and any open items are provided. Summaries are shared at Slack channel [#month-end-close-and-gl-team](https://gitlab.slack.com/archives/C02JHRNENE7).
@@ -73,8 +73,8 @@ We collaborate with tax to review actual tax expenses, forecast tax provision fo
 
 ### Key Processes
 
-- [Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance)]({{< ref "_index.md#quarterly--monthly-cycle-incl-close-variance-forecast-guidance" >}})
-- [Plan]({{< ref "_index.md#plan" >}})
-- [Long Range Outlook]({{< ref "_index.md#long-range-outlook-lro" >}})
-- [Headcount]({{< ref "_index.md#headcount-and-the-talent-acquisition-single-source-of-truth" >}})
-- [Adaptive Insights]({{< ref "_index.md#adaptive-planning" >}}›)
+- [Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance)](/handbook/finance/financial-planning-and-analysis/#quarterly--monthly-cycle-incl-close-variance-forecast-guidance)
+- [Plan](/handbook/finance/financial-planning-and-analysis/#annual-operating-plan-aop)
+- [Long Range Outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
+- [Headcount](/handbook/finance/financial-planning-and-analysis/#single-source-of-truth-ssot-headcount-forecast-and-hiring-plan)
+- [Adaptive Insights](/handbook/finance/financial-planning-and-analysis/#adaptive-planning)

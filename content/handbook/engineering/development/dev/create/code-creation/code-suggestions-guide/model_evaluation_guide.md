@@ -39,15 +39,15 @@ We can evaluate latency in the following ways:
 
 ### Evaluating by ELI5
 
-[ELI5 (Eval like I'm 5)](https://gitlab.com/gitlab-org/ai-powered/eli5) provides a structured way to evaluate AI models using [LangSmith](https://docs.smith.langchain.com/).
+[ELI5 (Eval like I'm 5)](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/tree/main/doc/eli5) provides a structured way to evaluate AI models using [LangSmith](https://docs.smith.langchain.com/).
 The ELI5 repository includes evaluation scripts, while the sample datasets and the result from the evaluations are stored in the [LangSmith platform](https://smith.langchain.com/).
 
 #### Running and analyzing evaluations on ELI5
 
 For guidance on:
 
-- Running evaluations, see the [ELI5 documentation](https://gitlab.com/gitlab-org/ai-powered/eli5/-/blob/main/doc/running_evaluation_locally/codesuggestions_evaluation.md).
-- Evaluating correctness and latency, see the [Analyzing results documentation](https://gitlab.com/gitlab-org/ai-powered/eli5/-/blob/main/doc/running_evaluation_locally/codesuggestions_evaluation.md#analyzing-results).
+- Running evaluations, see the [ELI5 documentation](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/doc/eli5/running_evaluation_locally/codesuggestions_evaluation.md).
+- Evaluating correctness and latency, see the [Analyzing results documentation](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/doc/eli5/running_evaluation_locally/codesuggestions_evaluation.md#analyzing-results).
 
 **Running evaluations on a GCP instance**
 
@@ -65,3 +65,9 @@ data-driven decisions regarding which models should power GitLab's AI features.
 
 See the [Latency evaluations issue](https://gitlab.com/gitlab-org/quality/ai-model-latency-tester/-/issues/57)
 for further guidance and updates.
+
+### Evaluating by Load Tester
+
+The [AI Model/Provider Load Tester](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test) is designed to simulate production-like traffic, ensuring that the model provider can handle real-world workloads. During the model evaluation process, we should create and run the load test for the model.
+
+For instructions on adding and running test scripts, please follow [these steps](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test#add-load-test-for-new-models).

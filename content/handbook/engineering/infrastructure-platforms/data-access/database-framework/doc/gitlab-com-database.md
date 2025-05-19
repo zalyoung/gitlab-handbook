@@ -108,7 +108,7 @@ Various Product and Engineering processes are available to advocate database imp
 1. Leverage the [Planning as a team](https://gitlab.com/gitlab-com/Product/-/issues/2185)
 According to [this finding](https://gitlab.com/gitlab-org/gitlab/-/issues/326555#note_563868873), more than 50% of known query performance issues were identified long time ago. Leverage the `planning as a team` to prioritize these issues with Product. The process is being implemented by [Introducing Error Budgets to Stage Groups](https://internal.gitlab.com/handbook/company/performance-indicators/product/#other-pi-pages).
 1. Follow the intructions in [Prioritize technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) when collaborating with Product in release planning, which also mirrored in the [Product handbook page](/handbook/product/product-processes/#prioritization).
-1. Consider [Engineering Allocation](/handbook/engineering/#engineering-allocation) for tech-debt issues, which is also mirrored in the [Product handbook](/handbook/product/product-processes/#engineering-allocation).
+1. Consider [Engineering Allocation](/handbook/product/product-processes/#prioritization-framework) for tech-debt issues, which is also mirrored in the [Product handbook](/handbook/product/product-processes/#prioritization-framework).
 1. Keep the [Architecture](/handbook/engineering/architecture/) process in mind when running into large scale fundamental design challenges.
 
 #### Best practices

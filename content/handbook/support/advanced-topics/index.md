@@ -24,9 +24,9 @@ Try to pick what the team needs most, thinking back to recent tickets you were n
 - [GitLab API](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20API)
 - [LDAP](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=LDAP)
 - [High Availability](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=Scaled%20And%20High%20Availability)
-- [Git LFS Docs](https://docs.gitlab.com/ee/topics/git/lfs/index.html)
-- [Migrate from SVN to Git Docs](https://docs.gitlab.com/ee/user/project/import/index.html#import-from-subversion)
-- [GitLab Pages Docs](https://docs.gitlab.com/ee/administration/pages/index.html)
+- [Git LFS Docs](https://docs.gitlab.com/topics/git/lfs/)
+- [Migrate from SVN to Git Docs](https://docs.gitlab.com/user/project/import/#import-from-subversion)
+- [GitLab Pages Docs](https://docs.gitlab.com/administration/pages/)
 
 ### Deep Dives
 
@@ -39,7 +39,7 @@ A **Deep Dive** is a session is to share knowledge about a particular topic, wit
 Some examples of deep dives would be:
 
 - GitLab Geo on Omnibus (building off the [Geo module](https://gitlab.com/gitlab-com/support/support-training/blob/main/.gitlab/issue_templates/Geo.md))
-- ElasticSearch with GitLab (building off [GitLab's ElasticSearch documentation](https://docs.gitlab.com/ee/integration/advanced_search/elasticsearch.html))
+- ElasticSearch with GitLab (building off [GitLab's ElasticSearch documentation](https://docs.gitlab.com/integration/advanced_search/elasticsearch/))
 - Configure CI for an advanced use case (e.g., Configuring docker-in-docker, using it to build an image, and then optimizing the Docker image build time by utilizing Docker layer caching) (building off the [CI module](https://gitlab.com/gitlab-com/support/support-training/blob/main/.gitlab/issue_templates/CI.md))
 
 #### Goals

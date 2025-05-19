@@ -120,7 +120,7 @@ Effective Q2 of FY 2021, we have established a one time bonus payment process fo
 
 - For an interim role to be considered, the need for coverage would need to be longer than a 30 day time period.
 - The interim role has to be at a higher level than the current role of the team member.
-  - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) and leader of the group.
+  - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) and leader of the group.
   - Effective 2023-02-01, interim bonuses in Go-to-Market roles (CRO Organization, Sales Development) will be available to people managers temporarily occupying a lateral or higher management position **in addition to their permanent full time role.**
 - In case the interim role is within another job family, team members will also be eligible for the interim compensation on a lateral level.
 
@@ -203,13 +203,11 @@ When the interim/acting period ends, the following process should be followed to
 
 ## Exchange Rates
 
-{{< exchange-rates >}}
+{{< people-group/exchange-rates >}}
 
 ### Paid in your local currency
 
-The compensation calculator is updated using the November 1 point in time exchange rates according to Google Finance rates. We are using the point in time exchange rate due to significant lag when utilizing an average exchange rate.
-
-The updates to the handbook, compensation calculator, and Workday for the November 1 rates will be made between December and January with an effective date of February 1.
+The compensation calculator is updated using the February 1 point in time exchange rates according to what is shared by Finance. We are using the point in time exchange rate due to significant lag when utilizing an average exchange rate.
 
 Adjustments to existing team members' compensation who are paid in local currency are made **only during** the applicable [compensation review cycle](/handbook/total-rewards/compensation/compensation-review-cycle/).  We only adjust compensation during the review cycle since being paid in local currency means that your local purchasing power does not change.
 
@@ -219,7 +217,11 @@ All [one-time bonuses](/handbook/total-rewards/incentives/) including Discretion
 
 ### Not paid in your local currency
 
-Team members contracted through CXC or IT BV may have the option to choose to be paid in USD or EUR when there is volatility in their local currency. This change can only be made once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. This change will be made according to the conversion from local currency to USD or EUR at the time of the update. All future salary adjustments will be made based on the new salary regardless of fluctuations to local currency in order to provide a stable experience to team members who opt into this.
+Team members contracted through CXC or IT BV may have the option to be paid in USD or EUR when there is volatility in their local currency. This change can be made only once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. 
+
+The conversion from local currency to USD or EUR will be calculated at the time of the update. All future salary adjustments will be based on the new currency amount, regardless of fluctuations in the local currency. This provides stable compensation for team members who opt into this arrangement.
+
+If a team member is currently paid in a non-local currency, they may request to move back to their local currency. Once a team member has requested to move back to their local currency, this decision will be final.
 
 Please reach out to People Connect in order to understand if you are eligible to update your currency to USD or EUR and to initiate this process.
 
@@ -245,22 +247,7 @@ These roles are still [benchmarked using market data](/handbook/total-rewards/co
 | Zone 2 | 0.70 - 0.85 | 0.85 |
 | Zone 1 | 0.86 - 1.00+ | 1.00 |
 
-## Variable Pay Frequency
-
-The Variable Pay Frequency is a field held in Workday and applicable to roles that receive a commission or bonus. Variable Pay Frequency is assigned according to the following chart:
-
-| Department/Role Description | Variable Pay Frequency Type |
-| --------------------------- | --------------------------- |
-| VP (non-sales), Executives | [Company Executive Bonus Program](#company-director-and-above-bonus-plan) |
-| VP (Channel, Field Operations, Customer Success) | Sales Executive Bonus Program |
-| VP (Commercial Sales, Enterprise Sales) | Monthly Bonus |
-| Director (non-sales) | [Company Director Bonus Program](#company-director-and-above-bonus-plan) |
-| Director (Field Operations) | Sales Director Bonus Program |
-| Director (Channel, Customer Success, Enterprise Sales) | Monthly Bonus |
-| Director (Consulting Delivery) | Quarterly Bonus |
-| Channel, Commercial Sales, Customer Success, Enterprise Sales, Sales Development (IC) | Monthly Bonus |
-| Sales Development (Manager) | Quarterly Bonus |
-| Consulting Delivery, Education Delivery, Practice Management | Quarterly Commissions |
+Exchange rates for commissions payments are as defined per the terms of the Sales Incentive Compensation Plan. Please reach out to the Sales Commissions team for further information.
 
 ## Director Compensation
 
@@ -274,7 +261,7 @@ Executive Compensation (VP and above) is derived outside of the GitLab Compensat
 
 1. The Total Rewards team collects survey data to review against current compensation to ensure alignment in cash (base/variable) and equity refresh values.
     - Survey Data from the GitLab peer group: GitLab will analyze the peer group data from Radford against peer group data from Compensia.
-1. The Total Rewards team will advise on a market increase or performance factor as determined in the [performance enablement review](/handbook/people-group/learning-and-development/career-development/#performance-enablement-review), whichever is appropriate.
+1. The Total Rewards team will advise on an increase.
 1. The recommendation will be reviewed by the e-group leader for VPs and above. The final approval for VP compensation is the Compensation Group. Total Rewards will work with finance to ensure alignment to budget.
 1. E-Group compensation is reviewed in partnership with Compensia based on the peer group data provided. The CEO will recommend increaes and refresh grants for his direct reports to the Compensation Leadership Development Committee for approval.
 1. The Total Rewards team will then notify the CEO or direct manager of the increase who will then communicate it to the individual.
@@ -322,21 +309,9 @@ The Compensation Leadership Development Committee approves all bonus payouts for
 
 1. The Finance team will generate a calculation of the total bonus payout for the Fiscal Year within 30 days of the last day of the fiscal year including: Employee #, Name, Reporting to, Division, Department, Title, Hire Date, Total Eligible, Total Payout.
 1. The Total Rewards Team will audit the calculation and eligibility list.
-1. Once approved by the Total Rewards and Finance team, a meeting will scheduled with the CEO, CPO, and CFO for approval of the bonus payout. The CEO and CFO will review and approve all bonus payouts (aligned with the [authorization matrix](/handbook/finance/authorization-matrix/#authorization-matrix)) and discuss exceptions with the CPO.
+1. The final payout amounts will be approved by the VP, Total Rewards and VP, Finance.
 1. The Total Rewards Team will collaborate with the Finance team to include the total spend for the bonus plan, attainment, and executive specific payout for the Compensation Leadership Development Committee meeting. Approval of the bonus plan would be captured in the Committee meeting minutes.
-1. Once approved by the Compensation Leadership Development Committee, the Total Rewards team will notify Finance that the bonuses are ready for processing via payroll. The file approved internally will be shared with payroll by the Finance team.
-
-## Compensation Data Analysis and Modeling Sheet
-
-This is an internal process for the Total Rewards team which details how to refresh the Compensation Data Analysis and Modeling sheet which is used for processes such as calculating [percent outside of compensation band](/handbook/people-group/people-success-performance-indicators/#percent-over-compensation-band).
-
-To update:
-
-1. Navigate to the sheet "Comp Data Analysis and Modeling - Workday Report".
-1. Download the "Comp Data Analysis & Modeling" report from Workday as a CSV.
-1. Duplicate the "Template" tab in the sheet and rename it based on the date the Workday report was pulled using format: yyyy-mm-dd.
-1. Copy and paste the Workday report starting from cell A2.
-1. Delete any test accounts, denoted "Test" in their name, by deleting the entire row.
+1. Once approved by the Compensation Leadership Development Committee, the Total Rewards team will notify Payroll that the bonuses are ready for processing.
 
 ## Learning GitLab's Compensation Framework
 

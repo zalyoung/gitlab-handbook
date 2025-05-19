@@ -3,7 +3,7 @@ title: "Personal VPN"
 description: "Basic questions answered, tips, and recommendations for using a personal VPN."
 ---
 
-GitLab does not use a [corporate VPN](/handbook/security/#why-we-dont-have-a-corporate-vpn). We have selected [NordLayer](/handbook/security/corporate/systems/vpn/_index.md) as our personal VPN solution.
+GitLab does not use a [corporate VPN](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn). We have selected [NordLayer](/handbook/security/corporate/systems/vpn/_index.md) as our personal VPN solution.
 
 ## What is a personal VPN?
 

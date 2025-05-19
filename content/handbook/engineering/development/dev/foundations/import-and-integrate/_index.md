@@ -9,7 +9,8 @@ The Import and Integrate group is a part of the [Foundations Stage](/handbook/pr
 The group supports the product
 
 - by migrating between GitLab instances and from other providers
-- with 3rd party integrations, REST APIs and GraphQL foundational code, and Webhooks.
+- with 3rd party integrations and webhooks
+- by supporting foundational REST API GraphQL code.
 
 This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
 
@@ -20,17 +21,21 @@ issue in the relevant project (typically [GitLab](https://gitlab.com/gitlab-org/
 `~"group::import and integrate"` label, along with any other [appropriate labels](#issue-labels). Then,
 feel free to ping the relevant Product Manager and/or Engineering Manager.
 
-For more urgent items, feel free to use the Slack Channel (internal): [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/g_manage_import_and_integrate).
+For more urgent items, feel free to use the Slack Channel (internal): [#g_import_and_integrate](https://gitlab.slack.com/archives/g_import_and_integrate).
+
+Note that while we own the foundations of GitLab's APIs, the behaviour of most individual API endpoints is owned by
+other teams. Please check the [feature categorizatiob page](/handbook/product/categories/features/) to ensure your
+query is being directed to the correct group.
 
 ## Team Members
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Manage:Import and Integrate" >}}
+{{< engineering/stable-counterparts role="Foundations:Import and Integrate" >}}
 
 ## Metrics
 
-Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/product/groups/product-analysis/engineering/dashboards/dev/manage/import-and-integrate/).
+Our Engineering Metrics Dashboards can be found [here](/handbook/product/groups/product-analysis/engineering/dashboards/#dashboards).
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
   {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
@@ -106,7 +111,7 @@ All issues should have:
 
 - All of our section, stage and group labels:
   - `~"section::core platform"`
-  - `~"devops::manage"`
+  - `~"devops::foundations"`
   - `~"group::import and integrate"`
 - One or more of the category labels:
   - `~"Category:API"`
@@ -126,7 +131,7 @@ For issues related to our APIs, also apply either `~"api"` for REST or `~"GraphQ
 
 Once you have completed an issue and closed it make sure to add `~"workflow::complete"`.
 
-Team members might find it helpful to use a comment template to help apply labels correctly. See [an example here](https://gitlab.com/gitlab-org/manage/import-and-integrate/discussions/-/issues/76#note_1718035490).
+Team members might find it helpful to use a comment template to help apply labels correctly. See [an example here](https://gitlab.com/gitlab-org/foundations/import-and-integrate/discussions/-/issues/76#note_1718035490).
 
 ### Capacity Planning
 
@@ -159,6 +164,8 @@ The weights we use are:
 
 Anything larger than 5 should be broken down if possible.
 
+Weights should account for both development and review time.
+
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
 [patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
@@ -181,7 +188,7 @@ This process happens in three steps.
 #### Step 1: Identifying Issues for Refinement
 
 The engineering manager will identify issues that need to be
-refined. On average we will try to refine 3-6 issues per
+refined. On average we will try to refine up to 6 backend and up to 3 frontend issues per
 week. If there are issues that are good candidates for the backlog refinement
 process, please let the engineering manager know in the issue.
 
@@ -202,7 +209,7 @@ to look:
 Once identified, the engineering manager will apply the `ready for next refinement` label, which will indicate the issues are ready for
 refinement.
 
-The engineering manager will use the [Refinement Bot](https://gitlab.com/gitlab-org/manage/import-and-integrate/refinement-bot)
+The engineering manager will use the [Refinement Bot](https://gitlab.com/gitlab-org/foundations/import-and-integrate/refinement-bot)
 to generate an issue with all the issues that have been identified for
 refinement.
 
@@ -223,7 +230,6 @@ Some considerations:
 - During this process, the issue description and [labels](#issue-labels) should be updated as
 more information is gathered.
 - Does the issue need a feature flag?
-- Consider adding an "Availability and Testing" section as defined in the [Quad Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/).
 - For efficiency, engineers can also skip the refinement of some issues
 depending on the feedback that we already have.
 - Where the fix is clear and easy, we can assign the issue to
@@ -258,7 +264,7 @@ If you cannot find the answer to your question in the resources listed above, pl
 
 ### Milestone Doctors
 
-In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 70% to allow taking over additional responsibilities as "Milestone Doctors".
+In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 60% to allow taking over additional responsibilities as "Milestone Doctors".
 
 #### Responsibilities
 
@@ -267,6 +273,7 @@ In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been op
 - Assist the Support team on customer calls
 - Maintain team runbook documentation on how Milestone Doctors have successfully diagnosed problems
 - Respond to questions in our team Slack channel #g_manage_import_and_integrate
+- Update our [FAQ](https://gitlab.com/gitlab-org/foundations/import-and-integrate/team/-/blob/main/importers/faq.md?ref_type=heads) with any learnings from the shift
 
 #### Rotation schedule
 
@@ -368,7 +375,7 @@ all stable counterparts who have worked with that team during the milestone.
 Participation by our team members is highly encouraged for every milestone.
 
 These are confidential during the initial discussion, then made public in time
-for each month's [GitLab retrospective](/handbook/engineering/workflow/#retrospective). For more information, see [group retrospectives](/handbook/engineering/management/group-retrospectives/).
+for each month's [GitLab retrospective](/handbook/engineering/management/group-retrospectives/). For more information, see [group retrospectives](/handbook/engineering/management/group-retrospectives/).
 
 #### Per Project
 
@@ -549,6 +556,15 @@ Learn more about error budgets with these resources:
 - [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request.html)
 - [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
 - [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization/): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
+
+## Usage data dashboards
+
+You can view data for feature usage in Tableau.
+
+- [Centralized Product Usage Metrics Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting?:iid=1) can be used to observe any chosen metric. To see data for e.g. Microsoft Teams integration, on the left in `Select Metric Level` choose `PI`, in the `Select Metrics to view` first uncheck `All` and then search for `microsoft` and check metrics for Microsoft Teams integration you're interested in, see [example](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/8c7d8afd-ffc7-4198-b11a-6099df2b8611/3170c5bb-4509-4b3d-8362-470e49286d42). You can choose timeframe and `Dimention Paremeter`, e.g deployment type. Another example is data for [GitHub importer](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/57ab6fbb-7d64-4ab9-ac36-dfcfbd891c69/1e04a888-66de-44c8-b722-1c31e214b8db) or [webhooks usage by deployment](https://10az.online.tableau.com/t/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/ef4c4285-1a54-4769-86d7-60331b44a10a/0fa98245-8e1c-4db1-82f3-2591e310aa3d)
+- [Integrations Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ManageIntegrationsUsage/ServicePingResults?:iid=1) shows all usage of integrations. You can filter in or out (keep only or exclude) any specific integration on the right hand side.
+- [Importer Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2214374/views). This is still work in progress.
+- [User Contribution Mapping Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/3238494/views) shows data on placeholder users created during imports.
 
 ## Links and resources {#links}
 

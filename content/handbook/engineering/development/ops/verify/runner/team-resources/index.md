@@ -67,7 +67,7 @@ a Z/OS VM is available to GitLab team members.
 
 #### Logging in
 
-1. In [1Password](/handbook/security/#1password-guide),
+1. In [1Password](/handbook/security/corporate/systems/1password/),
    under the `Verify` vault, download the `zOS login - gitlabkey02.pem` file.
 1. From the `zOS login` entry in the same vault, take note of the `user` and `address` fields.
 1. SSH into the Z/OS VM:

@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 As an all-remote company that defaults to [asynchronous communication](management/#asynchronous), GitLab relies heavily on textual communication. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and vocalized communiques are the norm. Embracing text communication and learning to use it effectively requires a mental shift. Mastering this should be seen as a long-term project, though there are tips to breaking down barriers and experiencing benefits.
 
-Be sure to read GitLab's [guidelines to effective and responsible communication](/handbook/communication/#effective--responsible-communciation-guidelines) to understand the foundational elements on which this all-remote guide is built.
+Be sure to read GitLab's [guidelines to effective and responsible communication](/handbook/communication/#effective--responsible-communication-guidelines) to understand the foundational elements on which this all-remote guide is built.
 
 ## Tips for better writing
 
@@ -31,7 +31,7 @@ Writing is a skill which can be learned. *Great* writing involves mastering prov
 
 *The topics covered on this page were discussed in a GitLab Live Learning session, which was recorded and uploaded to [GitLab Unfiltered](https://youtu.be/QTPeyRW766Q), and is embedded above.*
 
-In an all-remote organization with team members spread across an array of time zones, communicating through text is ideal. Not only is it inclusive and considerate, but a bias towards communicating through text creates a company that [documents everything](/handbook/product/ux/technical-writing/documentation/).
+In an all-remote organization with team members spread across an array of time zones, communicating through text is ideal. Not only is it inclusive and considerate, but a bias towards communicating through text creates a company that [documents everything](/handbook/product/ux/technical-writing/#documentation).
 
 Documentation is an essential competitive advantage. Companies which rely on vocalizing end up repeating themselves over and over in meetings, creating an inefficient environment with tremendous opportunity for knowledge leaks. While communicating and documenting through text may feel like a burden in the moment, it prevents a toxic cycle of meetings and touch points which serve only to "bring people up to speed."
 
@@ -111,13 +111,13 @@ If, during a text conversation, you feel that someone is not communicating in th
 
 At the speed of business, it's possible for even the most well-mannered of colleagues to say something regrettable when their heart was typing faster than their brain could regulate. In the event that you think you could have written something better, contrition is advised.
 
-[Say sorry](/handbook/values/#say-sorry) is an operating principle at GitLab. It's simple, yet powerful. Saying sorry via Slack or email, or a quick Zoom call if two parties are online at the same time, enables trust to be rebuilt. When using asynchronous collaboration tools such as [GitLab Issues and Merge Requests](/handbook/company/culture/all-remote/gitlab-for-remote/), feel welcome to reply atop your message if you feel that you may have written something offensive. This will send another email notification to those tagged, whereas an edit to your original message will not.
+[Say sorry](/handbook/values/#say-sorry) is an operating principle at GitLab. It's simple, yet powerful. Saying sorry via Slack or email, or a quick Zoom call if two parties are online at the same time, enables trust to be rebuilt. When using asynchronous collaboration tools such as [GitLab Issues and Merge Requests](gitlab-for-remote/), feel welcome to reply atop your message if you feel that you may have written something offensive. This will send another email notification to those tagged, whereas an edit to your original message will not.
 
 ### Using GitLab for work-related communication
 
 GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
+You can learn more at GitLab's [remote team solutions page](gitlab-for-remote/).
 
 ### Communicating dates and time
 
@@ -152,7 +152,7 @@ When communicating, it's your responsibility to own how something impacted someo
 
 ## GitLab Knowledge Assessment: Communicating effectively and responsibly through text
 
-Complete all knowledge assessments in the [Remote Work Foundation certification](/handbook/company/culture/all-remote/remote-certification/) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification](remote-certification/) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

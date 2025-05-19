@@ -31,7 +31,8 @@ GitLab strictly prohibits any form of retaliatory action against any Team Member
 - supporting another Team Member's internal or administrative complaint of unlawful discrimination (by, for example, testifying or providing an affidavit in support of a coworker who has filed a discrimination complaint);
 - participating in an investigation or audit conducted by any regulatory, administrative or law enforcement body;
 - requesting an accommodation under relevant statutes;
-- requesting or taking any statutory/required leave; or
+- requesting or taking any statutory/required leave;
+- reporting an actual or suspected wrongdoing under any of GitLab's whistleblower policies; or
 - making a disclosure protected by relevant local laws.
 
 All forms of unlawful retaliation or penalization are prohibited. A non-exhaustive list of examples includes:
@@ -96,7 +97,7 @@ This Policy is not intended to restrict communications or actions protected or r
 
 This Policy is in addition to, and does not replace or supersede the anti-retaliation provisions set out in any policies that include anti-retaliation provisions including, without limitation:
 
-- [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
+- [Code of Business Conduct and Ethics](https://s204.q4cdn.com/984476563/files/doc_downloads/govdoc/GitLab-Code-of-Business-Conduct-Ethics-2024-06-25.pdf)
 - [Anti-Fraud Policy](/handbook/legal/anti-fraud-policy/)
 - [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk)
 - [Leave of Absence Policies](/handbook/people-policies/leave-of-absence/)

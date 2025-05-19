@@ -1,5 +1,6 @@
 ---
 title: Experimentation Design & Analysis
+description: Overview of PDI's approach to experimentation
 ---
 
 ## Overview
@@ -18,7 +19,7 @@ and we will [iterate](/handbook/values/#iteration) over time.
 
 This experiment framework is derived from the previous version of our Experiment Framework, which utilized the `gitlab_dotcom_experiment_subjects` table to host the unique identifiers. The `snowplow_gitlab_events_experiment_contexts_all` replaces this table as a landing place for all unique identifiers. This framework was created to improve efficiency and maintain our commitment to user privacy by using [pseudonymized data](/handbook/product/product-processes/analytics-instrumentation-guide/service-usage-data-commitment/#data-pseudonymization) to avoid tracking user-identifiable data.
 
-The current experiment framework that is being utilized by GitLab is called the `gitlab-experiment-gem` or GLEX for short. Here at GitLab we run experiments as A/B/n tests and review the data the experiment generates. From that data, we determine the best performing code path and promote it as the new default code path, or revert back to the original code path. You can read our [Experiment Guide documentation](https://docs.gitlab.com/ee/development/experiment_guide/) if you're curious about how we use this [gem](https://www.solutelabs.com/blog/how-to-create-a-gem-in-ruby-on-rails) internally at GitLab. This experiment framework relies heavily on front-end events or events that are created by our data collector, Snowplow.
+The current experiment framework that is being utilized by GitLab is called the `gitlab-experiment-gem` or GLEX for short. Here at GitLab we run experiments as A/B/n tests and review the data the experiment generates. From that data, we determine the best performing code path and promote it as the new default code path, or revert back to the original code path. You can read our [Experiment Guide documentation](https://docs.gitlab.com/development/experiment_guide/) if you're curious about how we use this [gem](https://www.solutelabs.com/blog/how-to-create-a-gem-in-ruby-on-rails) internally at GitLab. This experiment framework relies heavily on front-end events or events that are created by our data collector, Snowplow.
 
 When we discuss the behavior of this gem, we'll use terms like experiment, context, control, candidate, and variant. It's worth defining these terms so they're more understood. These are the universal terms used across the company.
 
@@ -326,8 +327,7 @@ Here are a few pages to check out:
 
 - [How Growth launches experiments](/handbook/product/groups/growth/#how-growth-launches-experiments)
 - [Growth Engineering Guide to running experiments](/handbook/engineering/development/growth/experimentation/)
-- [GitLab Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/)
-- [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
+- [GitLab Experiment Guide](https://docs.gitlab.com/development/experiment_guide/)
 
 <details markdown="1">
   <summary markdown="span">Click to view useful terms</summary>

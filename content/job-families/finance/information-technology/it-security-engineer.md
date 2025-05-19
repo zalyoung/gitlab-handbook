@@ -41,7 +41,7 @@ As a member of the IT Security Operations team at GitLab, you will be working to
 
 ### IT Security Engineer (Intermediate)
 
-The IT Security Engineer (Intermediate) reports to the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+The IT Security Engineer (Intermediate) reports to the [Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/).
 
 #### The IT Security Engineer (Intermediate) Job Grade
 
@@ -57,7 +57,7 @@ The IT Security Engineer (Intermediate) is a [grade 6](/handbook/total-rewards/c
 
 ### Senior Security Engineer
 
-The Senior Security Engineer reports to the Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+The Senior Security Engineer reports to the Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/).
 
 #### Senior Security Job Grade
 
@@ -75,11 +75,11 @@ The Senior Security Engineer role extends the IT Security Engineer (Intermediate
 
 #### Career Ladder
 
-A Senior Security Engineer may decide to pursue the may decide to pursue the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/), should they wish to, or progress to Staff.
+A Senior Security Engineer may decide to pursue the may decide to pursue the [Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/), should they wish to, or progress to Staff.
 
 ### Staff Security Engineer
 
-The Senior Security Engineer reports to the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+The Senior Security Engineer reports to the [Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/).
 
 #### Staff Security Job Grade
 
@@ -99,7 +99,7 @@ The Senior Security Engineer role extends the Senior Security Engineer role.
 
 #### Career Ladder
 
-A Staff Security Engineer may decide to pursue the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+A Staff Security Engineer may decide to pursue the [Manager, IT Security Operations](/job-families/finance/information-technology/manager-it-security-operations/).
 .
 
 ## Performance Indicators

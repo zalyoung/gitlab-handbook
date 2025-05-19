@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 [GraphQL](https://graphql.org/) is a data query and manipulation language for
 APIs, and a runtime for fulfilling queries with existing data.

@@ -5,7 +5,7 @@ description: "GitLab Dedicated Support - Hosted Runners"
 ---
 ## Hosted runners
 
-[Hosted Runners for GitLab Dedicated](https://docs.gitlab.com/ee/administration/dedicated/hosted_runners.html) is a product first offered to GitLab Dedicated customers
+[Hosted Runners for GitLab Dedicated](https://docs.gitlab.com/administration/dedicated/hosted_runners/) is a product first offered to GitLab Dedicated customers
 for beta testing in Q4 FY25, with a general availability target of Q2 FY26.
 
 ## Who is using Hosted Runners?

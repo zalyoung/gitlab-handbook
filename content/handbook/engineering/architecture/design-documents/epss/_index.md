@@ -1,6 +1,6 @@
 ---
 title: "EPSS Support"
-status: ongoing
+status: implemented
 creation-date: "2024-06-19"
 authors: [ "@YashaRise" ]
 coach: [ "@theoretick" ]
@@ -71,7 +71,7 @@ as part of any review.
 For long pages, consider creating a table of contents.
 The `[_TOC_]` function is not supported on docs.gitlab.com.
 -->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 For important terms, see [glossary](#glossary).
 
@@ -203,7 +203,7 @@ compared with the pros and cons of alternatives.
 
 - [001: Export all EPSS entries](decisions/001_export_all_epss.md)
 - [002: Use a new bucket for EPSS data](decisions/002_use_new_bucket.md)
-- [003: Use an API over a ZIP File](decisions/003_use_epss_api.md)
+- [003: Switch from API to CSV file](decisions/003_switch_from_api_to_csv_file.md)
 
 ### Important notes
 

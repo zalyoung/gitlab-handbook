@@ -24,11 +24,16 @@ _Include any links to documentations, other issues, or MRs that you think may be
 ## Proposal
 
 _Proposed/suggested solution or any guidance related to it. For investigations or spikes, this may describe an expected outcome or expected output._
+
+## Definition of Done / Acceptance Criteria
+
+_List the specific conditions that must be met for this issue to be considered complete._
 ```
 
 ## Issue Refinement
 
 The goal of issue refinement is to have engineers review issues to ensure they are ready for development and provide lightweight estimates.
+Use the [template checklist](/handbook/engineering/development/dev/create/code-creation/milestone_planning/#refinement-template) in the next section as a guideline.
 
 1. Initial Labeling:
     - When a new issue is created or identified as a potential priority, it should be labeled with "workflow::refinement"
@@ -43,16 +48,56 @@ The goal of issue refinement is to have engineers review issues to ensure they a
     - Use the issue comments for discussion and clarification. You may loop in other team members or domain experts from outside the team to provide further context and/or give feedback on a proposed solution.
     - Individual team members are encouraged to schedule regular, asynchronous backlog refinement sessions on their calendars
     - Use the [Code Creation Refinement Board](https://gitlab.com/groups/gitlab-org/-/boards/8994789) to make issues needing refinement easy to find
+    - Make sure to timebox your refinement efforts. Remember that the goal of refinement is not to provide a detailed solution, but to provide clarity on the problem and to provide a starting point on the solution. See [Where to Draw the Line Between Refinement and Implementation](#where-to-draw-the-line-between-refinement-and-implementation).
 4. Refinement Tasks:
     - Team members should focus on the following when refining an issue:
-        - Clarify the issue description and requirements
+        - Validate the problem is clear and aligned with roadmap priorities
+        - Ensure issue labels are accurate
+        - Clarify the issue title, description and requirements (including the `Context`, `Proposal`, and `Acceptance Criteria` sections)
         - Break down the issue into smaller, manageable tasks if needed
         - Identify and document any dependencies or blockers
         - Estimate the effort required and assign a corresponding weight to the issue. Refer to [issues estimation](#issues-estimation) section for guidance.
 5. Refinement Completion:
     - Once a team member believes the issue has been sufficiently refined, they should:
+        - Post the completed refinement checklist as a comment on the issue
         - Ensure that the issue has the appropriate weight
         - Add the "workflow::ready for development" label and remove the "workflow::refinement" label
+
+### Refinement Template
+
+While refining an issue, copy the below template into a comment and work through each todo item. Once you've completed refinement, post the comment to document your refinement work:
+
+```markdown
+## Refinement Checklist
+
+- [ ] Validated the problem is clear and aligns with team priorities, engaged in any discussions with the PM or other stakeholders as needed 
+- [ ] Updated title for clarity (if needed)
+- [ ] Updated labels for proper categorization (if needed)
+- [ ] Added or improved the "Context" section with necessary background information
+- [ ] Added or improved the "Proposal" section with potential implementation approach or suggested ideas to further investigate
+- [ ] Added or improved the "Acceptance Criteria" or "Definition of Done" section
+- [ ] Identified dependencies or blockers (if any)
+- [ ] Considered if the issue should be broken down into smaller tasks
+  - [ ] Created child issues if needed (link them here)
+- [ ] Assigned a weight using [issue estimation](/handbook/engineering/development/dev/create/code-creation/milestone_planning/#issues-estimation)
+
+/weight X
+/label ~"workflow::ready for development"
+```
+
+### Where to Draw the Line Between Refinement and Implementation
+
+During refinement, focus on providing enough context and direction for someone else to implement the issue efficiently. While some investigation is often necessary during refinement, consider these guidelines:
+
+- **Refinement**: Identifying the problem, proposing a general approach, providing helpful context, estimating effort, and setting success criteria.
+- **Implementation**: Writing specific code, determining exact file locations, making detailed technical decisions, and executing the solution.
+
+If your refinement work leads you to start implementing the solution, consider either:
+
+1. Assigning yourself to the issue and transitioning to implementation
+2. Documenting your findings without implementing, so someone else can benefit from your research
+
+Remember that the goal of refinement is to make issues clear enough that any team member could pick them up and know what to do, without prescribing every implementation detail.
 
 ## Milestone Planning
 
@@ -77,7 +122,7 @@ Once we have a sufficient pool of refined issues, we can proceed with milestone 
     - If the PM identifies an issue that must go in the next milestone but is not yet labelled as "workflow::ready for development", they must flag that as early as possible and loop in a team member to refine the issue.
 5. Issue Labels
     - The Product manager adds the correct `code-creation-priority` labels to indiciate the importance of each issue
-    - The Engineering Manager adds the ["Deliverable" label](/handbook/product-development-flow/#required-labels) to items we commit to focusing on in this milestone
+    - The Engineering Manager adds the ["Deliverable" label](/handbook/product-development/product-development-flow/#required-labels) to items we commit to focusing on in this milestone
     - Mark issues that exceed predicted capacity as "Stretch"
 
 ## Role of Team Members
@@ -131,7 +176,7 @@ The priority order for work is:
 ### What to Work on First: Deliverables
 
 - **Priority**: Deliverables are considered the highest priority and should be completed before the end of the milestone, aligning with our iteration cycle and monthly release schedule.
-- **Self-Assignment**: Engineers can pick any issue marked with the ["Deliverable" label](/handbook/product-development-flow/#required-labels) and assign it to themselves, making these issues the top priority for the milestone. Issues for the current milestone can be found on the [Code Creation workflow board](https://gitlab.com/groups/gitlab-org/-/boards/5998095).
+- **Self-Assignment**: Engineers can pick any issue marked with the ["Deliverable" label](/handbook/product-development/product-development-flow/#required-labels) and assign it to themselves, making these issues the top priority for the milestone. Issues for the current milestone can be found on the [Code Creation workflow board](https://gitlab.com/groups/gitlab-org/-/boards/5998095).
 - **Importance**: It's crucial for engineers to make a concerted effort to complete these deliverables within the cycle, and to promptly communicate any obstacles to their engineering manager.
 - **Communication and Flexibility**: Unexpected challenges can arise, potentially impacting the completion of a deliverable. Early communication of these challenges allows for possible solutions, such as scope reduction or reassignment. If a deliverable cannot be completed within the cycle, it is moved to the next cycle for completion. This scenario is an opportunity for both the engineer and the engineering manager to reflect and learn from the experience.
 
@@ -143,7 +188,7 @@ The priority order for work is:
 
 ## Workflow and Label Management
 
-- **Label Updates**: It's crucial for engineers to update the ["workflow" labels](/handbook/product-development-flow/#build-track) accurately as issues progress from "ready for development" to "in dev" to "in review."
+- **Label Updates**: It's crucial for engineers to update the ["workflow" labels](/handbook/product-development/product-development-flow/#build-track) accurately as issues progress from "ready for development" to "in dev" to "in review."
 - **Responsibility**: Engineers are responsible for keeping the workflow labels up to date on all issues they are working on during the milestone.
 
 This milestone planning process is designed to maximize our team's effectiveness by ensuring that everyone is aligned on priorities and responsibilities. It fosters a collaborative environment where every team member contributes to the planning process, leading to a more organized and productive development cycle.

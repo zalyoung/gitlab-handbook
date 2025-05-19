@@ -1,12 +1,12 @@
 ---
-title: "The Infrastructure SaaS Platforms Project Management"
+title: "The Infrastructure Platforms Project Management"
 ---
 
-## Project Management in SaaS Platforms
+## Project Management in Platforms
 
 We use GitLab epics and issues to communicate the progress and status of our work.
-The [SaaS Platforms epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) is indexing the top level epic for each team, and links to active OKR's for a given quarter.
-All teams in SaaS Platforms follow these guidelines so that it is easy for team-members to contribute to different projects if needed.
+The [Platforms epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) is indexing the top level epic for each team, and links to active OKR's for a given quarter.
+All teams in Infrastructure Platforms follow these guidelines so that it is easy for team-members to contribute to different projects if needed.
 
 ### Projects are reviewed weekly in the Grand Review
 
@@ -99,12 +99,12 @@ For these issues, `severity::*` labels are set to meet specific SLOs.
 
 ## Labels
 
-The SaaS Platform teams uses the following set of labels:
+The Infrastructure Platform teams uses the following set of labels:
 
 | Description | Labels |
 |-------------|--------|
-| The group label | `group::Scalability` <br/>`group::Delivery` <br/>`group::GitLab Dedicated` <br/>`group::Production Engineering`|
-| The team label | `team::Scalability-Observability` <br/> `team::Scalability-Practices` <br/> `team::Delivery:Deployments` <br/> `team::Delivery-Releases` <br/> `team::Environment Automation` <br/> `team::Switchboard` <br/> `team::US PubSec` <br/> `team::Foundations` <br/> `team::Ops`|
+| The section label | `devops::data_access` <br/>`group::GitLab Dedicated` <br/>`devops::gitlab-delivery`<br/> `devops::developer experience` <br/>`group::Production Engineering`<br/> `devops::tenant scale` <br/>  |
+| The team label | `group::durability` <br/> `group::gitaly` <br/> `group::git` <br/> `group::database frameworks` <br/> `group::database operations` <br/> `team::Observability` <br/> `team::runway` <br/> `team::Foundations` <br/> `team::Ops`  <br/> `group::Self Managed` <br/> `group::build` <br/> `group::framework` <br/> `group::delivery-deploy` <br/> `group::delivery-release` <br/> `team::Environment Automation` <br/> `team::Switchboard` <br/> `team::US PubSec` <br/> `group::developer tooling` <br/> `group::development analytics` <br/> `group::feature readiness` <br/> `group::performance enablement` <br/> `group::test governance` <br/> `group::cells infrastructure` <br/> `group::organizations` <br/> `group::geo`|
 | Scoped `workflow-infra::*` labels | (see below) |
 | Optional Scoped `Service` labels | `Service::*` |
 
@@ -132,20 +132,6 @@ There are three other workflow labels of importance:
 | ![Cancelled](/images/engineering/infrastructure/platforms/project-management/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
 | ![Stalled](/images/engineering/infrastructure/platforms/project-management/label-stalled.png) | Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help. |
 | ![Blocked](/images/engineering/infrastructure/platforms/project-management/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
-
-### Priority labels
-
-The SaaS Platform section has only one priority label: `SaaS Platforms::P1`.
-
-Only issues of the utmost importance are given this label.
-
-When an issue is given this label, a message should be pasted in the section's Slack channel so that an owner can be found as quickly as possible.
-
-These issues should be picked up soon as possible after completing ongoing tasks unless directly communicated otherwise.
-
-It is a scoped label as we previously had 4 levels of priority.
-We found that in practise we primarily used P4, and used P1 to indicate the issues of greatest importance.
-This was discussed on a [Scalability issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/863), but we have seen similar usage in other teams.
 
 ### Labels in gitlab-org group
 

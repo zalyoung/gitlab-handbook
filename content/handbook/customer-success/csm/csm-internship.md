@@ -9,7 +9,7 @@ Internships are a great way for a GitLab team member to learn about being a Cust
 
 ## How to find a mentor in the CSM team
 
-The first step you will need to take in order to start an internship in Customer Success is to find a mentor from the [CSM team](/company/team/?department=csm). Feel free to reach out to any CSMs, particularly ones who are in a similar timezone to you to discuss an internship, or to reach out to a CSM Manager for guidance.
+The first step you will need to take in order to start an internship in Customer Success is to find a mentor from the [CSM team](/handbook/company/team/?department=csm). Feel free to reach out to any CSMs, particularly ones who are in a similar timezone to you to discuss an internship, or to reach out to a CSM Manager for guidance.
 
 If you're not sure who to reach out to, you can also post in the [#customer-success](https://gitlab.enterprise.slack.com/archives/C5D346V08) Slack channel and express your interest in an internship and that you are looking for a mentor.
 
@@ -151,7 +151,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. Present the deck to your mentor, with them acting as the customer
    1. After you finish roleplaying, self-reflect and get feedback from your mentor
    1. If available, shadow your mentor or another CSM as they prepare for and give a kick-off call, including follow ups
-   1. Discuss with your mentor the additional work involved beyond the kick-off calls, such as creating a collaboration project, updating Gainsight fields and CTAs, and best practices for the transition process (both from [pre-sales to CSM](/handbook/customer-success/pre-sales-post-sales-transition/) and [CSM-to-CSM](/customer-success/csm/account-handoff/))
+   1. Discuss with your mentor the additional work involved beyond the kick-off calls, such as creating a collaboration project, updating Gainsight fields and CTAs, and best practices for the transition process (both from [pre-sales to CSM](/handbook/customer-success/pre-sales-post-sales-transition/) and [CSM-to-CSM](/handbook/customer-success/csm/account-handoff/))
 
 #### Week 8
 

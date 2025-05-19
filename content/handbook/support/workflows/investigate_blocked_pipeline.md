@@ -7,7 +7,7 @@ subcategory: Security
 
 ## Overview
 
-GitLab.com uses an [external pipeline validation service](https://docs.gitlab.com/ee/administration/external_pipeline_validation.html) to verify
+GitLab.com uses an [external pipeline validation service](https://docs.gitlab.com/administration/external_pipeline_validation/) to verify
 pipelines as legitimate activity. **This includes pipelines run on specific runners**. If a customer is reporting that their pipelines are not running we can review
 the logs on our end to see what activity was logged in the validation service.
 

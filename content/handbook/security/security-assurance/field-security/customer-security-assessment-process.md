@@ -40,7 +40,7 @@ Please use the `Customer Call Request` or `General Request` buttons above and fo
 
 ### For RFP completion
 
-Please follow the directions above for submission, and for more information about our RFP process please view our [RFP page here]({{< ref "Field-Security-RFP" >}}).
+Please follow the directions above for submission, and for more information about our RFP process please view our [RFP page here](/handbook/security/security-assurance/field-security/field-security-rfp).
 
 ### For Contract Reviews
 

@@ -60,7 +60,7 @@ Starting on 2023-07-27, Australian team members will be able to review their pla
 
 #### Leavers
 
-For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member's health insurance reamins in place, with the full cost of cover being their responsiblity. BUPA's customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they're enrolled on.
+For Team Members leaving GitLab, their last day on the GitLab BUPA group will be their termination date, however team member’s health insurance remains in place, with the full cost of cover being their responsibility. BUPA’s customer care team will reach out to the team member to discuss their options for remaining on cover and to check if they would like to make any changes to the level of cover they’re enrolled on.
 
 The Total Rewards team will inform BUPA of leaves on a monthly basis. 
 
@@ -542,10 +542,10 @@ Partner Leave
 ### Applying for Parental Leave in New Zealand
 
 - To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-  - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+  - Please familiarize yourself with [GitLab's Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 - To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/applications).
   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
-- If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
+- If you are [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
 
 ### Other Types of Leave
 

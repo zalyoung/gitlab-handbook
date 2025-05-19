@@ -9,7 +9,7 @@ This document does not cover servers that are not integral to the public facing 
 
 ## Purpose
 
-This page is our [document](/handbook/security/controlled-document-procedure/#creation) that captures an overview of the production architecture for GitLab.com.
+This page is our [document](/handbook/security/controlled-document-procedure/#purpose) that captures an overview of the production architecture for GitLab.com.
 
 ## Scope
 
@@ -28,7 +28,7 @@ The compute and network layout that runs GitLab.com
 
 - [Application Architecture documentation](https://docs.gitlab.com/ee/development/architecture.html)
 - [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
-- [GitLab.com Rate Limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
+- [GitLab.com Rate Limits](https://docs.gitlab.com/user/gitlab_com/#rate-limits-on-gitlabcom)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
 - [GitLab performance monitoring documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html)
 - [Performance of the Application](/handbook/engineering/performance/)
@@ -42,9 +42,11 @@ The compute and network layout that runs GitLab.com
 
 #### GitLab.com Production Architecture {#gitlab-com-architecture}
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vShfNY5bxtjAsYq-YBDAJAnyjBuxN0i62NoDvbmhvDVOrCas20_Q4XA8Qxm1D2v0mmemP9y-rDsRQFe/pub?w=669&h=551" alt="">
+<img
+  src="https://docs.google.com/drawings/d/e/2PACX-1vT_5uGw5WDdR3zwjmT3ejgSVvY_HbyOthj5vCdDiOh5zSXmVMZm0-4NtBbETNYQNADcrS5_8FSLiWQI/pub?w=669&amp;h=551"
+  alt="GitLab.com Production Architecture diagram">
 
-[Source](https://docs.google.com/drawings/d/1NmafL3ULQnjuY3_JFMWDwXpjdd0I1hyMXkZ0bwUYNhI/edit), GitLab internal use only
+[Source](https://docs.google.com/drawings/d/1xM32ToSpKvySEHmkTzd4Fc4IAmdZu9lixdK98Fr0LTk/edit), GitLab internal use only.
 
 Most of GitLab.com is deployed on Kubernetes using  [GitLab cloud native helm chart](https://docs.gitlab.com/charts/). There are a few exceptions for this
 which are mainly the datastore services like `PostgresSQL`, `Gitaly`, `Redis`, `Elasticsearch`.
@@ -123,26 +125,6 @@ Our GKE nodes are configured from the start with this mirror already in place pr
 GitLab.com uses several Redis shards for various use cases such as caching, rate-limiting, Sidekiq queueing. More info on various Redis shards, their
 configuration, and usage can be found in the [chef-repo](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/tree/master/roles) and [GitLab](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/redis). The relationship between Redis instances and GitLab deployments can be tracked via this [Thanos link](https://thanos-query.ops.gitlab.net/graph?g0.expr=avg%20by%20(type%2C%20storage)%20(gitlab_redis_client_requests_total%7Benv%3D%22gprd%22%7D)&g0.tab=1&g0.stacked=0&g0.range_input=1h&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D).
 
-**Redis Infrastructure Strategy**
-
-GitLab.com's Redis, as seen from above, is mostly Redis Sentinel deployed on VMs. There are plans to deploy Redis in Cluster mode (for horizontal scalability) in [epic-823](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/823) and/or migrate from VM to Kubernetes (reduce engineering toil) in [epic-618](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/618). The table below summarises the current and expected states of various Redis types:
-
-| Type | Current Setup | Expected Future Setup | Driver of State Change |
-| ------------ | --- | ------- | ------- |
-| Cache | Redis Cluster on VM | Redis Cluster on K8s | Reduce toil |
-| ChatCache | Redis Cluster on VM | Redis Cluster on K8s | Reduce toil  |
-| DbLoadBalancing | Redis Sentinel on VM | Redis Cluster on K8s | Reduce toil  |
-| FeatureFlag | Redis Cluster on VM | Redis Cluster on K8s | Reduce toil  |
-| PubSub | Redis Sentinel on K8s | - | - |
-| Queues | Redis Sentinel on VM | Redis Sentinel on K8s |  Reduce toil |
-| QueuesMeta | Redis Cluster on VM | Redis Cluster on K8s |  Reduce toil |
-| RateLimiting | Redis Cluster on VM | Redis Cluster on K8s | Reduce toil  |
-| Registry Cache | Redis Sentinel on k8s | - | - |
-| Repository Cache | Redis Sentinel on VM | Redis Cluster on K8s | CPU saturation |
-| Sessions | Redis Sentinel on VM | Redis Sentinel on K8s | Reduce toil |
-| SharedState | Redis Sentinel on VM | Redis Cluster on VM | CPU Saturation |
-| TraceChunks | Redis Sentinel on VM | Redis Sentinel on K8s | Reduce toil |
-
 When needed we also sometimes deal with CPU saturation by making application changes. Some of the techniques for this are discussed in [this video](https://youtu.be/qgK8TPTZllU).
 
 #### Network Architecture
@@ -197,4 +179,4 @@ Exceptions to this architecture policy and design will be tracked in the [compli
 
 ## References
 
-- Parent Policy: [Information Security Policy](/handbook/security/)
+- [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)

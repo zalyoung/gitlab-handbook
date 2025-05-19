@@ -22,7 +22,7 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 * Use subject lines to justify sending the email and connecting to a problem that the reader might have
 * Ask yourself "why would I open this email"? - include the **value proposition**
 * Keep it short and sweet - only include that is absolutely necessary
-* Try 28 to 39 characters - studies suggest this is a "sweet spot" but that is always debatable and testable
+* Try to keep it under 65 characters
 * Front-load - put important information **first**
 * Be specific - emphasize what the reader "gets" out of reading this email
 * Test when you can!

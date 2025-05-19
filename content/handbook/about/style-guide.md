@@ -6,7 +6,7 @@ GitLab's general communications practices are detailed at [GitLab Communication]
 See the [list of resources below](#related-resources) for links to other guides.
 
 Handbook style guidance is covered primarily by [the handbook markdown guide](https://handbook.gitlab.com/docs/markdown-guide/),
-and [the editing handbook page](../editing-handbook/_index.md#naming-pages-and-folder-structure).
+and [the editing handbook page](editing-handbook/_index.md#naming-pages-and-folder-structure).
 
 In the absence of handbook-specific guidance, follow:
 

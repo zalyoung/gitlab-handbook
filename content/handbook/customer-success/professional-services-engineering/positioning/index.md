@@ -59,9 +59,9 @@ They have a team that manages the current tooling at the highest level, and are 
 
 To get to [first value](/handbook/customer-success/customer-success-vision/#time-to-value-kpis) as soon as possible, you should consider:
 
-- [Implementation](/services/implementation/) (infrastructure deployment and GitLab configuration)
-- [Migration](/services/migration/) (SCM Data and user migration)
-- [Education](/services/education/) (Basics, CI/CD and Admin)
+- [Implementation](https://about.gitlab.com/services/implementation/) (infrastructure deployment and GitLab configuration)
+- [Migration](https://about.gitlab.com/services/migration/) (SCM Data and user migration)
+- [Education](https://about.gitlab.com/services/education/) (Basics, CI/CD and Admin)
 
 ### SMB to Mid-Market moving to gitlab.com
 
@@ -71,31 +71,31 @@ They will likely have a small team responsible for transformation that will be m
 
 To get your customer the most [value](/handbook/customer-success/customer-success-vision/#time-to-value-kpis) as soon as possible, you should consider:
 
-- [Migration](/services/migration/) (SCM and/or CI/CD based on entry point)
-- [Integration](/services/implementation/integration/) (LDAP/SSO, Jira, Jenkins)
-- [Education](/services/education/) (Basics and/or CI/CD)
+- [Migration](https://about.gitlab.com/services/migration/) (SCM and/or CI/CD based on entry point)
+- [Integration](https://about.gitlab.com/services/implementation/integration/) (LDAP/SSO, Jira, Jenkins)
+- [Education](https://about.gitlab.com/services/education/) (Basics and/or CI/CD)
 
 ### SMB or Mid-Market without migration needs
 
 Some customers have a team of git ninjas who can manage migration and setup quickly, but the rest of the engineers might not be as skilled. Its always a good idea to suggest education services because the customer end users will be more likely to push for later stage adoption. This type of grassroots motivation will go a long way when investigating conversion opportunities.
 
-For these customers consider our [Education Services](/services/education/)
+For these customers consider our [Education Services](https://about.gitlab.com/services/education/)
 
 ## Sales Collateral
 
 ### Internal Testimonials
 
-The PS team has been building maturity and repeatability to its services over the later part of 2019 and early part of 2020. We have captured some recent wins with internal testimonials in [[this highspot page](https://gitlab.highspot.com/items/65047cc5d2ccf775a19de0f6)
+The PS team has been building maturity and repeatability to its services over the later part of 2019 and early part of 2020. We have captured some recent wins with internal testimonials in [this highspot page](https://gitlab.highspot.com/items/65047cc5d2ccf775a19de0f6)
 
 ### Pitch Deck
 
-To discuss our services offerings with prospects, it is often helpful to have a few slides to describe the role of the professional services team.  If you need slides for our SKU services feel free to pull from the below deck. If you are thinking this is a larger engagement, please contact [your Engagement Manager](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit?tab=t.0#heading=h.1er41qhhpoj5)
+To discuss our services offerings with prospects, it is often helpful to have a few slides to describe the role of the professional services team.  If you need slides for our SKU services feel free to pull from the below deck. If you are thinking this is a larger engagement, please contact [your Engagement Manager](https://docs.google.com/document/d/1bdVOf3jL6aJF79qRMFLQsmMxIgQh5ZQ-WiLuNgsWB08/edit?tab=t.0#heading=h.qzgxpwqxme5)
 
 [Professional Services Proposal Deck](https://docs.google.com/presentation/d/1M-7aA7f9S6dULvzuKuTJs4j3A4V1z2DtMsoN0T0SMZg/edit#slide=id.g277ce56021a_0_2036)
 
 ### Data Sheets
 
-Professional Services Data Sheets are available as subpages to the marketing site. You can find them through the [Professional Services portal](/services/).
+Professional Services Data Sheets are available as subpages to the marketing site. You can find them linked on the [catalog page](https://about.gitlab.com/professional-services/catalog/).
 
 ### Other Collateral
 

@@ -39,7 +39,7 @@ We can be reached via our own [#mktg-analytics](https://gitlab.slack.com/archive
   </div>
 </div>
 
-See the following page for information specifically pertaining to [Marketing Analytics Data Engineering](marketing-data-engineering).
+See the following page for information specifically pertaining to [Marketing Analytics - Analytics Engineering](marketing-analytics-engineering).
 
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>Our Work
 
@@ -102,7 +102,7 @@ Backlog
 - `MktgSandP::0 - To Be Triaged`: Issue initially created, used in templates, the starting point for any label that involves Marketing Analytics ; no real discussion on the issue; generally unassigned.
 - `MktgSandP::1 - Planning`: Issues assigned to a Marketing Analytics team member and are currently being scoped/considered but are not being actively worked on yet.
 - `MktgSandP::2 - On Deck`: Issues that have been scoped/considered and will be added to an upcoming iteration/milestone.
-- `MktgSandP::5 - On Hold/Blocked`: Issue that is not within existing scope of Marketing Analyticscurrent focus, or another department as deprioritized. May be a precursor to being closed out. OR Issue that was being worked on by Marketing Analytics and at least one other team wherein Marketing Analytics is waiti-related task/issue, or external (non-GitLab) blocker.
+- `MktgSandP::5 - On Hold/Blocked`: Issue that is not within existing scope of Marketing Analytics current focus, or another department as deprioritized. May be a precursor to being closed out. OR Issue that was being worked on by Marketing Analytics and at least one other team wherein Marketing Analytics is waiti-related task/issue, or external (non-GitLab) blocker.
 
 </details>
 
@@ -168,6 +168,7 @@ To give each functional marketing team has a single point of contact for marketi
 
 - [Marketing Metrics](/handbook/marketing/strategy-performance/marketing-metrics)
 - [Dashboards Page](dashboards)
+- [Marketing Analytics Data Overview and General Information](/handbook/marketing/strategy-performance/marketing-analytics-data)
 
 ## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications
 
@@ -199,4 +200,4 @@ We use Adobe Marketo Measure (Bizible) for marketing attribution and tracking ti
 
 ## Web Traffic Analysis
 
-Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/enterprise-data/data-catalog/web-traffic-analysis/) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)
+Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/metrics/#web-traffic-analysis) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)

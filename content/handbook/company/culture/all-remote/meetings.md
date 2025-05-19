@@ -41,12 +41,12 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people](/handbook/communication/#meeting-introduction-guidelines) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker's video stream.
 1. **Provide verbal cues.** If you're going through an agenda document, then add context: "bullet 3c, Sam, you added that point, can you verbalize it for us?" Similarly use slide numbers when going through a presentation to ensure that all attendees are tracking on the content.
 1. **Adhere to the agenda order to ensure inclusiveness.** People may add agenda topics to the agenda asynchronously and synchronously during the meeting. In guiding discussions, ensure that agenda topics discussed are equitable and fair - don't let a single person or subset of the group monopolize the agenda at the expense of others.
-1. **Document in real-time.** Since not all team members will be able to attend a meeting live, documentation is a vital part of avoiding team dysfunction. Follow [Live Doc meeting best practices](/handbook/company/culture/all-remote/live-doc-meetings/) to increase cohesion, discipline, and transparency.
+1. **Document in real-time.** Since not all team members will be able to attend a meeting live, documentation is a vital part of avoiding team dysfunction. Follow [Live Doc meeting best practices](live-doc-meetings/) to increase cohesion, discipline, and transparency.
 1. **End on time.**
 
 ### What to do after the meeting
 
-1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature]({{< ref "1-1" >}}) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
+1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature](/handbook/leadership/1-1/) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
 1. **Consider important decisions.**  When the meeting takes place outside of some participants' time zones, consider confirming decisions and actions for 24-48 hours. This will allow participants to contribute asynchronously.
 1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda with in 12 hours after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
 1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn't work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results for Customers. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
@@ -57,7 +57,7 @@ A remote meeting, also known as a virtual meeting, happens when people use video
 
 ## 10 ways to do all-remote meetings right
 
-"How do you do meetings right?" is a common question asked of all-remote companies like GitLab. The following guide assumes you've already questioned whether the meeting should happen in the first place; if you haven't, start with GitLab's [guide to asynchronous workflows and communication](asynchronous/#question-every-meeting).
+"How do you do meetings right?" is a common question asked of all-remote companies like GitLab. The following guide assumes you've already questioned whether the meeting should happen in the first place; if you haven't, start with GitLab's [guide to asynchronous workflows and communication](asynchronous/#when-to-use-asynchronous-instead-of-synchronous-communication).
 
 Much of the same advice for running a good in-person meeting applies to remote meetings, with a few notable distinctions.
 
@@ -69,7 +69,7 @@ Much of the same advice for running a good in-person meeting applies to remote m
 
 ### 1. Make meeting attendance optional
 
-When you work in a global all-remote company, the usual assumptions about availability are opposite the norm. We have a growing team working in over 65 countries, with many time zones covered, which makes synchronous meetings impractical, burdensome, and inefficient. Anyone who has worked in a corporate environment has likely seen the sarcastic "I Survived Another Meeting That Should Have Been An Email" award. As an all-remote company, we [do not look to a meeting by default](asynchronous/#question-every-meeting); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
+When you work in a global all-remote company, the usual assumptions about availability are opposite the norm. We have a growing team working in over 65 countries, with many time zones covered, which makes synchronous meetings impractical, burdensome, and inefficient. Anyone who has worked in a corporate environment has likely seen the sarcastic "I Survived Another Meeting That Should Have Been An Email" award. As an all-remote company, we [do not look to a meeting by default](asynchronous/#when-to-use-asynchronous-instead-of-synchronous-communication); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
 
 In many companies, synchronous meetings are used as a mechanism to create consensus. As you'll read in the [Leadership](/handbook/leadership) portion of GitLab's handbook, we are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end one person decides the matter after they have listened to all the feedback.
 
@@ -77,7 +77,7 @@ This works because of our values, which leads GitLab to hire individuals who enj
 
 #### Record meetings to encourage async participation
 
-You should aim to record all meetings. This allows team members to catch up on what transpired and adds context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook]({{< ref "tools-and-tips#recording-in-zoom" >}}).
+You should aim to record all meetings. This allows team members to catch up on what transpired and adds context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 
 #### Managing meeting attendance for team members
 
@@ -121,7 +121,7 @@ Meeting agendas should be include:
 1. Have adequate time for any required review.
 1. Have adequate time to contribute asynchronously within the agenda.
 
-We've created a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) that you can copy and use in your organization. There is additional guidance and a separate template for [1:1 meetings]({{< ref "1-1#the-1-1-agenda" >}}). [Coffee chats](informal-communication/#coffee-chats) do not require agenda as their function is informal communication.
+We've created a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) that you can copy and use in your organization. There is additional guidance and a separate template for [1:1 meetings](/handbook/leadership/1-1/#the-1-1-agenda). [Coffee chats](informal-communication/#coffee-chats) do not require agenda as their function is informal communication.
 
 While it is problematic to have no agenda, it is also problematic to have more than one agenda. Meeting and meeting notes require a single source of truth. If you are in a meeting with more than one agenda, stop the meeting as soon as this is known. Clarify the agenda to use with other attendees and immediately deprecate the additional agenda. Add a link to the agenda being used from the deprecated agenda, so anyone who discovers it is aware of the source of truth agenda.
 
@@ -262,7 +262,7 @@ All-remote virtual offsites are cost-effective and enable team members to pivot 
 
 ### How do I run a remote board meeting?
 
-In April 2019, GitLab transitioned our board meetings to all-remote. This means that none of the attendees are colocated. By doing so, we've made it as easy as possible for the right people to attend our board meetings, including board members, observers, executives, and anyone doing a [deep dive](/handbook/board-meetings#deep-dives), which can include directors, managers, and, in some cases, individual contributors.
+In April 2019, GitLab transitioned our board meetings to all-remote. This means that none of the attendees are colocated. By doing so, we've made it as easy as possible for the right people to attend our board meetings, including board members, observers, executives, and anyone doing a deep dive, which can include directors, managers, and, in some cases, individual contributors.
 
 Learn more on [how to run an all-remote board meeting](https://about.gitlab.com/blog/2020/04/15/remote-board-meeting/).
 

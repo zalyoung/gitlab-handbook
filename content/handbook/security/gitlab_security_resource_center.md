@@ -17,7 +17,7 @@ Our Customer Assurance Package contains documents such as our SOC2 report, ISO 2
 
 ### GitLab's Trust Center
 
-Our [Trust Center](https://about.gitlab.com/security/) outlines the various compliance and assurance credentials that GitLab maintains. This page also contains links to important security, legal & privacy, and availability resources, such as an [overview of our security practices]({{< ref "_index.md#security-practices" >}}), our [Environmental, Social, and Governance strategy](/handbook/legal/esg/), and our [production architecture](/handbook/engineering/infrastructure/production/architecture/).
+Our [Trust Center](https://about.gitlab.com/security/) outlines the various compliance and assurance credentials that GitLab maintains. This page also contains links to important security, legal & privacy, and availability resources, such as an [overview of our security practices](/handbook/security/), our [Environmental, Social, and Governance strategy](/handbook/legal/esg/), and our [production architecture](/handbook/engineering/infrastructure/production/architecture/).
 
 ## Frequently asked questions
 
@@ -44,25 +44,25 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Access management
 
 - [Access Management Policy](/handbook/security/security-and-technology-policies/access-management-policy/)
-- [Access Review Procedure]({{< ref "security-assurance/security-compliance/access-reviews" >}})
+- [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews)
 - [Access Request process](/handbook/it/end-user-services/onboarding-access-requests/access-requests/)
 
 ### Business continuity
 
 - [Business Continuity Plan](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/)
 - [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)
-- [Information System Contingency Plan]({{< ref "Information-System-Contingency-Plan-ISCP" >}})
+- [Information System Contingency Plan](/handbook/security/information-system-contingency-plan-iscp)
 
 ### Cryptography
 
-- [GitLab cryptography standard](/handbook/security/cryptographic-standard/)
+- [GitLab cryptography standard](/handbook/security/standards/cryptographic-standard/)
 - [Encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy/)
 
 ### Data classification
 
-- [Data classification standard](/handbook/security/data-classification-standard/)
+- [Data classification standard](/handbook/security/standards/data-classification-standard/)
 - [Record retention policy](/handbook/legal/record-retention-policy/)
-- [Records retention and disposal standard](/handbook/security/records-retention-deletion/)
+- [Records retention and disposal standard](/handbook/security/standards/records-retention-deletion/)
 
 ### Disaster recovery
 
@@ -79,7 +79,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 ### GitLab.com hardening techniques
 
-- [GitLab projects baseline requirements](/handbook/security/gitlab_projects_baseline_requirements/)
+- [GitLab projects baseline requirements](/handbook/security/standards/gitlab_projects_baseline_requirements/)
 - [GitLab security requirements for deployment and development](/handbook/security/planning/security-development-deployment-requirements/)
 - [How to harden your self-managed GitLab instance](https://about.gitlab.com/blog/2023/05/23/how-to-harden-your-self-managed-gitlab-instance/)
 - [The ultimate guide to securing your code on GitLab.com](https://about.gitlab.com/blog/2023/05/31/securing-your-code-on-gitlab/)
@@ -136,4 +136,4 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Vulnerability management standard](product-security/vulnerability-management/)
 - [Application vulnerability management procedure](product-security/application-security/vulnerability-management/)
-- [Infrastructure vulnerability management procedure](product-security/vulnerability-management/Infrastructure-vulnerability-procedure/)
+- [Infrastructure vulnerability management procedure](/handbook/security/product-security/vulnerability-management/infrastructure-vulnerability-procedure/)

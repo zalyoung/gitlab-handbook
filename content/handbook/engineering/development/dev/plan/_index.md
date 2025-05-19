@@ -16,7 +16,7 @@ working on GitLab's functionality around issues, boards, milestones, to-do list,
 
 In GitLab issues, questions should start by @ mentioning the Product Manager for the [corresponding Plan stage group](/handbook/product/categories/#plan-stage). GitLab team-members can also use [#s_plan](https://gitlab.slack.com/messages/C72HPNV97).
 
-For UX questions, @ mention the Product Designers on the Plan stage; [Nick Leonard](https://gitlab.com/nickleonard) for Plan:Project Management, [Nick Brandt](https://gitlab.com/nickbrandt) for Plan:Product Planning, and [Libor Vanc](https://gitlab.com/lvanc) for Plan:Optimize. Plan:Knowledge should follow the [process for groups without a designer](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/#what-if-your-team-doesnt-have-a-designer).
+For UX questions, @ mention the Product Designers on the Plan stage; [Nick Leonard](https://gitlab.com/nickleonard) for Plan:Project Management, [Nick Brandt](https://gitlab.com/nickbrandt) for Plan:Product Planning, and [Libor Vanc](https://gitlab.com/lvanc) for Plan:Optimize. Plan:Knowledge should follow the [process for groups without a designer](/handbook/product/product-processes/).
 
 ### How we work
 
@@ -28,7 +28,7 @@ For UX questions, @ mention the Product Designers on the Plan stage; [Nick Leona
 
 ### Workflow
 
-We work in a continuous Kanban manner while still aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development-flow/).
+We work in a continuous Kanban manner while still aligning with Milestones and [GitLab's Product Development Flow](/handbook/product-development/product-development-flow/).
 
 #### Capacity Planning
 
@@ -64,21 +64,45 @@ Everyone is encouraged to move issues to different workflows if they feel they b
 
 If an issue is `> 3 weight`, it should be promoted to an epic (quick action) and split it up into multiple issues. It's helpful to add a task list with each task representing a vertical feature slice (MVC) on the newly promoted Epic. This enables us to practice "Just In Time Planning" by creating new issues from the task list as there is space downstream for implementation. When creating new vertical feature slices from an epic, please remember to add the appropriate labels - `devops::plan`, `group::*`, `Category:*` or `feature label`, and the appropriate `workflow stage label` - and attach all of the stories that represent the larger epic. This will help capture the larger effort on the roadmap and make it easier to schedule.
 
-#### Themes
+#### Design Documents
 
-A small number of high priority features will be chosen as 'themes' for a period of time. Themes provide an opportunity for the whole team to rally around a deliverable, even if they don't contribute directly to it. These items are given especially close attention by all those involved with a view to delivering small iterations and keeping work unblocked. There should never be more than two themes in progress at a time per team.
+For all tier T1 and T2 roadmap items, and initiatives spanning multiple milestones, we recommend creating
+[a design document](../../../architecture/design-documents/) using the
+[Architecture design workflow](../../../architecture/workflow/).
+This approach offers several benefits:
 
-- A Slack channel is created with the convention #f_[feature name].
-- An epic hierarchy is created with sub-epics mapping to iterations, each achievable within a milestone.
-- Iterations are broken into multiple issues that can be accomplished independently, and PMs schedule those as normal.
-- Other actions may be established, such as regular 'office hours' calls.
+1. **Single Source of Truth (SSOT)**: A design document serves as the central place for all important information related
+   to the initiative, reducing time spent searching for decisions across various places.
+2. **Increased Visibility**: By creating design documents, we raise awareness of the work done in the
+   Plan stage, such as the [work items framework](../../../architecture/design-documents/work_items/),
+   customizable Work Item Types, custom fields, [custom status](../../../architecture/design-documents/work_items_custom_status/),
+   [GLQL](../../../architecture/design-documents/glql/), frontend-driven views, and many more.
+3. **Discoverability**: Design documents are easily accessible
+   [through our public handbook](../../../architecture/design-documents/), 
+   aligning with engineering best practices.
+4. **Collaborative Decision-Making**: [Changes and discussions occur through merge requests](../../../architecture/workflow/#why-are-design-documents-tracked-in-merge-requests),
+   ensuring visibility to all involved team members.
+5. **Comprehensive Entry Point**: The design document functions as a primary entry point for the initiative, containing:
+   - An executive summary
+   - Links to related epics, issues, and wiki pages
+   - Links to Status updates
+   - Implementation details
+   - A decision log or embedded decisions within the document
+   - Links to relevant boards or dashboards
 
-Team-members work together to continuously refine the iterations as complexity is revealed.
+This comprehensive approach allows easy onboarding for team members and provides stakeholders with all necessary information in one place.
 
-Examples of successful themes:
+This is the recommended workflow for all initiatives:
 
-1. **Requirements Management** ([#f_requirements-management](https://app.slack.com/client/T02592416/CUEQBQ7K8), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2703))
-1. **Jira Importer** ([#f_jira-importer](https://app.slack.com/client/T02592416/CUS6GB2JH), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2738))
+1. Create a Slack channel with the convention #f_[feature name].
+2. Develop a design document using the Architecture evolution workflow.
+   Get started using [this template](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md?plain=1). 
+   You don't need to fill out all sections. This is a living document and it's expected that it evolves over time.
+3. An epic hierarchy is created with sub-epics mapping to iterations, each achievable within a milestone.
+4. Iterations are broken into multiple issues that can be accomplished independently, and PMs schedule those as normal.
+5. Other actions may be established, such as regular 'office hours' calls.
+
+Team members should collaborate to continuously refine the iterations and update the design document as complexity is revealed. This approach ensures that all stakeholders have a clear, up-to-date understanding of the initiatives's progress and implementation details.
 
 ### Roadmap
 
@@ -126,9 +150,46 @@ graph TD;
   I--> J["Issues"];
 ```
 
+### Executing on the Roadmap
+
+Every Roadmap commitment has a Directly Responsible Individual (DRI) for its delivery, which is typically a [Tech Lead](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role) who leads project management activities such as clarifying scope, coordinating dependencies, and communicating progress. If no engineer in the group has the capacity to assume a Tech Lead role, the Engineering Manager (EM) may step in. The EM is ultimately accountable for overall roadmap execution and cross-team coordination in either case.
+
+The project manager clarifies scope, identifies dependent work, appoints DRIs for work streams, and ensures risks and blockers are prioritized.
+
+The DRI maintains a Wiki page or design document for the project containing a project timeline, project status, links to work items, key participants, a [dogfooding proposal](#dogfooding), and a decision register. This is encouraged for all important projects, especially Tier 1 and Tier 2 Roadmap commitments. It acts as a Single Source of Truth (SSoT) that greatly improves cross-functional collaboration and ensures decisions made are captured. Previous examples are:
+
+- [Configurable Statuses](/handbook/engineering/architecture/design-documents/work_items_custom_status/)
+- [Custom Fields](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Custom-Fields/Dashboard)
+- [Issue Work Item Type](https://gitlab.com/gitlab-org/plan-stage/project-management-group/team-project/-/wikis/projects/Issues%20to%20work%20items/issues-to-work-items)
+- [Epic Work Item Type](https://gitlab.com/gitlab-org/plan-stage/work-items-ga-epics/-/wikis/home)
+
+#### Internal Testing
+
+Plan Engineering regularly tests new functionality internally before releasing to customers. As part of a drive to improve quality in the work we deliver to customers, this process is divided into two parts.
+
+##### Alpha Testing
+
+Testing that occurs during ongoing development. This is limited to GitLab's subgroups or projects other than `gitlab-org`, `gitlab-com`, or `gitlab-org/gitlab`. The Plan Stage has two groups that are available for testing on: [gl-demo-ultimate-plan-stage](https://gitlab.com/gl-demo-ultimate-plan-stage/) and [gitlab-org/plan-stage](https://gitlab.com/gitlab-org/plan-stage).
+
+##### End-of-line testing
+
+End-of-line (EOL) testing is the final step before release to customers. The finished product is delivered to all GitLab team-members, usually by enabling it for the `gitlab-com` and `gitlab-org` groups. This is accompanied by collection of internal feedback, typically using a feedback issue. The minimum duration of this period of testing is determined by the Engineering Manager.
+
+No new scope will be accepted at this time without significant justification and without restarting the testing period. Only defects and fit & finish issues identified during testing will be addressed.
+
+This practice ensures that, while there may be more than one item in end-of-line testing at the same time, the system under test resembles as closely as possible the one intended to be given to customers.
+
+#### Dogfooding
+
+Dogfooding helps to build confidence in feature readiness and identify shortcomings before they reach the customer. In most cases, if an improvement cannot be adopted for a useful workflow internally it should not be expected to land with customers either. Identifying a dogfooding opportunity ahead of time can help to reach consensus on what the minimum valuable change should include.
+
+Dogfooding opportunities should be meaningful rather than hypothetical. A new workflow is adopted, an existing workflow complemented or improved, or made redundant.
+
+Project leads should strive to implement dogfooding during the final testing phase and should expect to observe some adoption.
+
 ### Talking With Customers
 
-In a perfect world, we would have cross-functional representation in every conversation we have with customers.
+We aim to have cross-functional representation in every conversation we have with customers.
 
 #### Customer Conversations calendar
 
@@ -205,7 +266,7 @@ GitLab currently offers some freedom in how to structure OKR hierarchies. We tak
 - EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
 - Group KRs and Stage Objectives should ladder into a higher Objective, which can exist anywhere in the organization. In the development of OKRs a stage-level Objective laddered directly into a CEO KR.
 - They should be created or added as **child objectives and key results** of their parent so that progress roll-ups are visible.
-- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development-flow/), and not in OKRs.
+- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development/product-development-flow/), and not in OKRs.
 
 Doing this ensures the hierarchy will be as simple, consistent and shallow as possible. This improves navigability and visibility, as we currently don't have good hierarchy visualization for OKRs.
 
@@ -281,13 +342,14 @@ process itself.
 To improve the retrospective data-driven experience, we are [dogfooding](/handbook/engineering/development/principles/#dogfooding) VSA to simplify the [data collection for the retrospective](https://gitlab.com/gitlab-org/plan/-/issues/753). This been done by automatically adding a link to the VSA of the current milestone filtered by group/stage to the retrospective.
 With Value stream analytics (VSA) our team is getting visibility to the [lifecycle metrics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#lifecycle-metrics) of each milestone through the breakdown of the [end-to-end workflow into stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#value-stream-stages). This allows us to identify bottlenecks and take action to [optimize actual flow of work](https://about.gitlab.com/blog/2023/06/26/three-steps-to-optimize-software-value-streams/).
 
-For example, for the review phase, we are using VSA to count the [time between "workflow::in review" and "MR merged"](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2023-03-01&created_before=2023-04-29&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=779&stage_id=17092&sort=duration&direction=desc&page=1). With this data, we can identify:
+For example, for the review phase, we are using VSA to count the [time between “Merge request reviewer first assigned" to “Merge request last approved at”.](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2025-01-01&created_before=2025-02-26&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=631&stage_id=4581&milestone_title=17.9&sort=duration&direction=desc&page=1). With this data, we can identify:
 
 - MRs that were bottlenecked due to limited reviewers/maintainers capacity.
-- Types of work that move slower than other types.
+- Slow review start times & Idle time post-approval.
+- MRs with multiple feedback loops.
 - Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
 
-Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan/-/issues/759).
+Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan-stage/product/-/issues/27).
 
 #### Concluding the Retrospective
 
@@ -458,40 +520,43 @@ See further details at https://handbook.gitlab.com/handbook/product/ux/product-d
 
 #### Background
 
-There are many company, team, process (and other) updates that are important to communicate to team members so that they are not missed. Besides that, there is other information important for day-to-day work. In Plan we use async Weekly updates, called Plan Weekly digest, to communicate these to our team members.
+In Plan we use async Weekly updates, called Plan Weekly digests, to communicate progress on important work this week to our team members.
 
-The Engineering Managers in the Plan stage alternate each week as the DRIs. There are 4 groups in the Plan stage, and one SEM, so every EM is the DRI roughly once / 5 weeks.
+The Engineering Managers in the Plan stage alternate each week as the DRIs. There are 3 groups in the Plan stage, and one SEM, so every EM is the DRI roughly once / 4 weeks.
 
-The responsibility of the DRI is simply to collect information and to ensure the issue is ready to be publicized in time for the coming week. All team-members are welcome to participate in suggesting content using discussions or adding it directly by editing the description.
+The responsibility of the DRI is simply to ensure the issue is ready to be publicized in time for the coming week by reminding everyone to contribute. All team-members are welcome to participate in suggesting content using discussions or adding it directly by editing the description.
 
 #### Process
 
 1. A new confidential issue is created every **Monday, 8 UTC**. (automatically)
-1. The issue is assigned to all Plan Engineering Managers.
-1. The EM **responsible** for the content of the issue can be found in the schedule below but all other EMs can contribute to the issue as well.
-1. On **Saturday, 8 UTC** all team members are alerted on the issue via a comment (automatically).
+1. The issue is assigned to a Plan Engineering Manager according to the schedule below. Their role is to remind others to contribute.
+1. On **Saturday, 8 UTC** all team members are reminded to read the updates on the issue via a comment (automatically).
 1. On Friday, 8 UTC (next week) the issue is closed.
 
 #### DRIs
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-12-30 | Vladimir Shushlin |
-| 2025-01-06 | Kushal Pandya |
-| 2025-01-13 | Donald Cook |
-| 2025-01-20 | John Hope |
-| 2025-01-27 | Vladimir Shushlin |
-| 2025-02-03 | Kushal Pandya |
-| 2025-02-10 | Donald Cook |
-| 2025-02-17 | John Hope |
-| 2025-02-24 | Vladimir Shushlin |
-| 2025-03-03 | Kushal Pandya |
-| 2025-03-10 | Donald Cook |
-| 2025-03-17 | John Hope |
-| 2025-03-24 | Vladimir Shushlin |
-| 2025-03-31 | Kushal Pandya |
-| 2025-04-07 | Donald Cook |
 | 2025-04-14 | John Hope |
+| 2025-04-21 | John Hope |
+| 2025-04-28 | Vladimir Shushlin |
+| 2025-05-05 | Donald Cook |
+| 2025-05-12 | John Hope |
+| 2025-05-19 | Vladimir Shushlin |
+| 2025-05-26 | Donald Cook |
+| 2025-06-02 | John Hope |
+| 2025-06-09 | Vladimir Shushlin |
+| 2025-06-16 | Donald Cook |
+| 2025-06-23 | John Hope |
+| 2025-06-30 | Vladimir Shushlin |
+| 2025-07-07 | Donald Cook |
+| 2025-07-14 | John Hope |
+| 2025-07-21 | Vladimir Shushlin |
+| 2025-07-28 | Donald Cook |
+| 2025-08-04 | John Hope |
+| 2025-08-11 | Vladimir Shushlin |
+| 2025-08-18 | Donald Cook |
+| 2025-08-25 | John Hope |
 
 #### Links
 
@@ -607,7 +672,7 @@ The DRI for organizing Team Day may pursue a budget for expenses under existing 
 
 ### Team Process
 
-Each group within the Plan stage follows GitLab's [product development flow](/handbook/product-development-flow/) and [process](/handbook/product/product-processes/). This allows for consistency across the stage, enables us to align with other stages and stable-counterparts, and enables us to clearly understand our throughput and velocity. We're currently focused on strictly following the process stated in the handbook, as opposed to creating our own local optimizations.
+Each group within the Plan stage follows GitLab's [product development flow](/handbook/product-development/product-development-flow/) and [process](/handbook/product/product-processes/). This allows for consistency across the stage, enables us to align with other stages and stable-counterparts, and enables us to clearly understand our throughput and velocity. We're currently focused on strictly following the process stated in the handbook, as opposed to creating our own local optimizations.
 
 In some cases we need to dogfood a new Plan feature that may adjust our adherence to the GitLab's process. If that happens we assign a DRI responsible for setting the objective, reporting on the outcomes and facilitating feedback to ensure we prioritize improvements to our own product. This ensures we're not making a change for the sake of making changes, and gives us clarity into our own evaluation of a change to the product.
 In some cases we need to dogfood a new Plan feature that may adjust our adherence to the GitLab's process. If that happens we assign a DRI responsible for setting the objective, reporting on the outcomes and facilitating feedback to ensure we prioritize improvements to our own product. This ensures we're not making a change for the sake of making changes, and gives us clarity into our own evaluation of a change to the product.
@@ -623,7 +688,11 @@ Like all groups at GitLab, a working group is an arrangement of people from diff
 Stage Working Groups are focused on initiatives that require collaboration between multiple groups within the stage. The structure of stage working groups is similar to [company-wide working groups](/handbook/company/working-groups/), with DRI and well-defined roles. The initiatives are driven by a stage-level product direction rather than an [Executive Sponsor](/handbook/company/working-groups/#executive-sponsor),
 and can be formed of just Functional Leads and members who participate in fulfilling the exit criteria.
 
-#### Active Stage Working Groups (alphabetic order)
+#### Active Stage Working Groups
+
+1. [Work Items API Performance](/handbook/engineering/development/dev/plan/working-groups/work-items-api-performance/)
+
+#### Archived Stage Working Groups
 
 1. [Epic Work Items Migration](/handbook/engineering/development/dev/plan/working-groups/epic-work-items-migration/)
 

@@ -52,8 +52,8 @@ Please also see the table below as a guideline on what `Transaction issue type` 
 | Transaction issue type | Sub-type | Scenario |
 | ---- | ----- | ----- |
 | Billing & Payment (refunds, cancellations, payment questions) |  | Requests for refunds or cancellations + questions about payment and billing |
-| EDU/OSS/Startups | EDU account inquiries | Requests/inquiries for the Education team. Follow [workflow](/handbook/support/workflows/special-programs) |
-| EDU/OSS/Startups | OSS account inquiries | Requests/inquiries for the OSS team. Follow [workflow](/handbook/support/workflows/special-programs) |
+| EDU/OSS/Startups | EDU account inquiries | Requests/inquiries for the Education team. Follow [workflow](/handbook/support/license-and-renewals/workflows/special-programs/) |
+| EDU/OSS/Startups | OSS account inquiries | Requests/inquiries for the OSS team. Follow [workflow](/handbook/support/license-and-renewals/workflows/special-programs/) |
 | Sales-assistance required | Alternate payment method (Wire Transfer) | Customer wants to pay via wire transfer |
 | Sales-assistance required | Order form / PO | Customer wants to pay via Order form or purchase order |
 | Sales-assistance required | Reseller | Request is from a reseller or reseller customer |

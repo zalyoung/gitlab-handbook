@@ -26,7 +26,7 @@ Instead of maintaining separate materials they should link back to the most rele
 For example, we should have one SSoT for how to articulate the value of GitLab.
 
 1. [Job family requirements](/handbook/hiring/job-families#format)
-1. [Interview scoring]({{< ref "hiring-manager#step-12hm-complete-feedback-in-greenhousenext-steps" >}})
+1. [Interview scoring](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-6hm-hiring-team-to-complete-feedback-in-greenhouse)
 1. [Promotion criteria](/handbook/people-group/promotions-transfers/)
 1. [9 box assessments](https://www.predictivesuccess.com/blog/9-box/)
 1. [Performance/Potential criteria](/handbook/people-group/talent-assessment#the-performancegrowth-potential-matrix)
@@ -95,7 +95,7 @@ In addition to the knowledge assessments for each value, you can take this [Know
 ### Remote Work Competencies
 
 1. [Manager of One](/handbook/leadership/#managers-of-one)
-1. [Effective Communication](/handbook/communication/#effective-communication-competency) : includes Working async: [Why](/handbook/company/culture/all-remote/asynchronous/) and [How](/handbook/communication/), Well written artifacts, [Single Source of Truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot) and [Producing video](/handbook/marketing/marketing-operations/youtube/)
+1. [Effective Communication](/handbook/communication/#effective-communication-competency) : includes Working async: [Why](/handbook/company/culture/all-remote/asynchronous/) and [How](/handbook/communication/), Well written artifacts, [Single Source of Truth](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) and [Producing video](/handbook/marketing/marketing-operations/youtube/)
 1. [Handbook first](/handbook/about/handbook-usage/#handbook-first-competency)
 1. [Using GitLab](/handbook/people-group/using-gitlab-at-gitlab/#using-gitlab-competency)
 
@@ -111,10 +111,10 @@ Test your knowledge and self-reflect on the Remote Work Competencies by completi
 
 In addition to our values, remote work, and functional competencies, we have identified manager competencies that serve as the foundation to a whole person approach to management. Our leadership and management development programs incorporate the competencies as the bedrock for creating impactful training for our people.
 
-1. [Emotional Intelligence]({{< ref "emotional-intelligence" >}})
+1. [Emotional Intelligence](/handbook/leadership/emotional-intelligence/)
 1. [Modeling a Culture of Feedback](/handbook/people-group/guidance-on-feedback/#modeling-a-culture-of-feedback-manager-competency)
 1. [Coaching](/handbook/leadership/coaching/)
-1. [Conflict Resolution]({{< ref "managing-conflict" >}})
+1. [Conflict Resolution](/handbook/leadership/managing-conflict/)
 1. [Building High Performing Teams](/handbook/leadership/#building-high-performing-teams)
 
 ![Manager Competencies Graphic](/images/competencies-graphic.png)

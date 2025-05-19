@@ -12,9 +12,9 @@ Here are the individuals who work as part of one of the Analytics Section groups
 
 <div class="container">
     <div class="row">
-        <div class="col">{{% section-group-table "Analytics Instrumentation" %}}</div>
-        <div class="col">{{% section-group-table "Product Analytics" %}}</div>
-        <div class="col">{{% section-group-table "Observability" %}}</div>
+        <div class="col">{{% product/section-group-table "Analytics Instrumentation" %}}</div>
+        <div class="col">{{% product/section-group-table "Product Analytics" %}}</div>
+        <div class="col">{{% product/section-group-table "Observability" %}}</div>
     </div>
 </div>
 
@@ -27,7 +27,7 @@ The section is covered by groups from teams across two primary departments, Engi
     - [Analytics Instrumentation](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/)
     - Product Analytics
   - [UX](/handbook/product/ux/#team-structure)
-  - [Quality](/handbook/engineering/quality/#quality-engineering-structure)
+  - [Developer Experience](/handbook/engineering/infrastructure-platforms/developer-experience/)
 - Product
   - TBD
 

@@ -82,7 +82,7 @@ The Senior IT Site Reliability Engineer has all the same responsibilities as the
 
 ## Career Ladder
 
-The next step in the IT Site Reliability Engineer job family is to move to the [IT Manager](/job-families/finance/manager-it/) job family.
+The next step in the IT Site Reliability Engineer job family is to move to the [IT Manager](/job-families/finance/information-technology/manager-it/) job family.
 
 ## Hiring Process
 

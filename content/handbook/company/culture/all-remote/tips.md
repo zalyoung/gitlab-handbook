@@ -32,7 +32,7 @@ Remote work is also what led to the development of our publicly viewable [handbo
 
 Each department and team's quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs), are also clearly documented in our handbook for visibility across the company. We check in on these goals monthly, so there's as much transparency as possible around what each team is accomplishing.
 
-Our approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members](learning-and-development/), because everything they need to know is in one place.
+Our approach to [documentation](/handbook/product/ux/technical-writing/#documentation) also helps with [onboarding new team members](learning-and-development/), because everything they need to know is in one place.
 
 We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) and we host a [GitLab 101](/handbook/company/culture/gitlab-101) for new hires to ask questions.
 
@@ -70,7 +70,7 @@ Take a look at [how our compensation calculator works](/handbook/total-rewards/c
 
 #### Country hiring guidelines
 
-Hiring globally as an all-remote company has many [advantages](/handbook/company/culture/all-remote/remote-benefits/), including bringing diversity to our team. But it also poses unique [challenges](hiring/) because many countries differ in their rules, laws, and regulations.
+Hiring globally as an all-remote company has many [advantages](remote-benefits/), including bringing diversity to our team. But it also poses unique [challenges](hiring/) because many countries differ in their rules, laws, and regulations.
 
 Find out more about how we handle this in our [country hiring guidelines](/handbook/people-group/employment-solutions#country-hiring-guidelines) in the handbook.
 
@@ -120,7 +120,7 @@ Here are some best practices that may help your all-remote team be successful.
 
 ### Communication
 
-- Encourage people to [write down all information](meetings/#document-everything-live-yes-everything).
+- Encourage people to [write down all information](meetings/#5-document-everything-live-yes-everything).
 - Allow everyone in the company to [view and edit every document](/handbook/values/#transparency).
 - Consider every document a draft, don't wait to share until it's done.
 - Use screenshots in an issue tracker instead of a whiteboard, ensuring that everyone at any time can follow the thought process.

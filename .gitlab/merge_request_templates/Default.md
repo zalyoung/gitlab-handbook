@@ -15,15 +15,16 @@ CHANGEME
 - [ ] Provided a concise title for this [Merge Request (MR)][mr]
 - [ ] Added a description to this MR explaining the reasons for the proposed change, per [**say why, not just what**][say-why-not-just-what]
   - Copy/paste the Slack conversation to document it for later, or upload screenshots. Verify that no confidential data is added, and the content is [SAFE][SAFE]
-- [ ] Assign reviewers for this MR to the correct [Directly Responsible Individual/s (DRI)][dri]
-    - If the DRI for the page/s being updated isn’t immediately clear, then assign it to one of the people listed in the `Maintained by` section on the page being edited
-    - If your manager does not have merge rights, please ask someone to merge it **AFTER** it has been approved by your manager in [#mr-buddies][mr-buddies-slack]
-    - The [when to get approval][when-to-get-approval] handbook section explains the workflow in more detail
+- [ ] Assign reviewers for this MR to the correct
+  - The [when to get approval][when-to-get-approval] handbook section explains when [DRI][dri] approval is required
+  - The [who can approve][who-can-approve] handbook section explains how to identify the DRI
+  - If the MR does not require DRI approval, consider asking someone on your team, such as your manager.
+  - The approver may merge the MR. If they approve but don't merge, you can merge.
 - [ ] For transparency, share this MR with the audience that will be impacted.
-   - [ ] Team: For changes that affect your direct team, share in your group Slack channel
-   - [ ] Department: If the update affects your department, share the MR in your department Slack channel
-   - [ ] Division: If the update affects your division, share the MR in your division Slack channel
-   - [ ] Company: If the update affects all (or the majority of) GitLab team members, post an update in [#whats-happening-at-gitlab][whats-happening-at-gitlab-slack] linking to this MR
+  - [ ] Team: For changes that affect your direct team, share in your group Slack channel
+  - [ ] Department: If the update affects your department, share the MR in your department Slack channel
+  - [ ] Division: If the update affects your division, share the MR in your division Slack channel
+  - [ ] Company: If the update affects all (or the majority of) GitLab team members, post an update in [#whats-happening-at-gitlab][whats-happening-at-gitlab-slack] linking to this MR
       - For high-priority company-wide announcements work with the [internal communications][internal-communications] team to post the update in [#company-fyi][company-fyi-slack] and align on a plan to circulate in additional channels like the ["While You Were Iterating" Newsletter][engagement-channels]
 
 ## Commits
@@ -55,8 +56,8 @@ CHANGEME
 [dri]: https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/
 [SAFE]: https://handbook.gitlab.com/handbook/legal/safe-framework/
 [when-to-get-approval]: https://handbook.gitlab.com/handbook/about/handbook-usage/#when-to-get-approval
+[who-can-approve]: https://handbook.gitlab.com/handbook/about/handbook-usage/#who-can-approve
 [internal-communications]: https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/
-[mr-buddies-slack]: https://gitlab.slack.com/archives/CLM8K5LF4
 [company-fyi-slack]: https://gitlab.slack.com/archives/C010XFJFTHN
 [whats-happening-at-gitlab-slack]: https://gitlab.slack.com/archives/C0259241C
 [engagement-channels]: https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/#people-communications--engagement-channels

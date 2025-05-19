@@ -10,7 +10,7 @@ twitter_creator: "@gitlab"
 ![GitLab all-remote transport](/images/all-remote/gitlab-transport.jpg)
 {style="max-width: 50%;"}
 
-Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages](/handbook/company/culture/all-remote/remote-benefits/) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](https://www.fastcompany.com/3051518/the-science-of-when-you-need-in-person-communication), even if they're optional for team members.
+Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages](remote-benefits/) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](https://www.fastcompany.com/3051518/the-science-of-when-you-need-in-person-communication), even if they're optional for team members.
 
 ## Bridging the gap during the pandemic
 
@@ -26,11 +26,11 @@ Between these larger gatherings, informal communication is another important ele
 
 ### Attendance is optional
 
-GitLab has a meeting policy we like to call "[No agenda, no attenda](/handbook/communication/#external-communication)." Every work-related meeting has purpose, which is outlined a live doc agenda affixed to the calendar invite: here's a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) you can copy and use in your organization. As an all-remote company, we [do not look to a meeting by default](asynchronous/#question-every-meeting); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
+GitLab has a meeting policy we like to call "[No agenda, no attenda](/handbook/communication/#external-communication)." Every work-related meeting has purpose, which is outlined a live doc agenda affixed to the calendar invite: here's a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) you can copy and use in your organization. As an all-remote company, we [do not look to a meeting by default](asynchronous/#when-to-use-asynchronous-instead-of-synchronous-communication); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
 
 ### Meetings are recorded
 
-Remote meetings can be recorded, especially when key individuals aren't able to join live. This allows team members to catch up on what transpired, adding context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook]({{< ref "tools-and-tips#recording-in-zoom" >}}).
+Remote meetings can be recorded, especially when key individuals aren't able to join live. This allows team members to catch up on what transpired, adding context to notes that were taken during the meeting. Learn more about recording in Zoom in the [Tips and Tricks section of GitLab's Handbook](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 
 ### Inclusive
 
@@ -135,7 +135,7 @@ This creates an easy path for gathering in a central location to bond. Common re
 
 Being a 100% remote company creates unique opportunities for these gatherings. A team may consider rotating who picks the venue or locale to meet at, creating a diverse calendar of events. Those who are comfortable doing so may even consider inviting local team members to their home or neighborhood.
 
-GitLab recognizes that not everyone can or will prefer to work from their home. In turn, fees associated with co-working spaces are [reimbursable](/handbook/finance/expenses#coworking-or-external-office--space). Through location channels, team members who live close to one another can easily arrange dedicated co-working days and shared events, covering everything from dining together to supporting a local charity as a unit.
+GitLab recognizes that not everyone can or will prefer to work from their home. In turn, fees associated with co-working spaces are [reimbursable](/handbook/finance/expenses/#co-working-space). Through location channels, team members who live close to one another can easily arrange dedicated co-working days and shared events, covering everything from dining together to supporting a local charity as a unit.
 
 ## Subsidized travel to visit team members
 

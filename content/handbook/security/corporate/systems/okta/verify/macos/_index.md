@@ -43,7 +43,7 @@ title: Okta Verify Device Trust macOS Setup Guide
 
 ### After enrolling
 
-You will continue to be able to use a [YubiKey](/handbook/it/guides/yubikey/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
+You will continue to be able to use a [YubiKey](/handbook/security/corporate/systems/yubikey/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
 
 A macOS device missing the certificate (even when enrolled with Okta Verify), will quickly show:
 ![No Certificate](/images/it/okta/no-certificate.png)

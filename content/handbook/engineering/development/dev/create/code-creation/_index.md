@@ -11,10 +11,27 @@ We envision a world where our innovations in AI-driven code creation not only en
 
 Develop cutting-edge AI-powered tools that enhance the efficiency and creativity of software engineers. We are committed to providing intelligent code suggestions that not only streamline coding tasks but also elevate the quality of software products. We aim to empower developers worldwide, making complex coding more accessible, and accelerating the creation of exceptional software.
 
+## Team Ownership
+
+Features/capabilities Code Creation owns today:
+
+- Code suggestions: completion + generation
+- Code-related slash commands: `/explain`, `/refactor`, `/tests`, `/fix` 
+- Repository X-Ray
+- Code suggestions context (e.g. open tabs) - partnered with [Create:Editor Extensions Group](/handbook/engineering/development/dev/create/editor-extensions/)
+
+Code Creation is also responsible for evaluations for each of these features which includes:
+
+- Creating datasets in LangSmith and registering them in the [Datasets repository](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/datasets/-/blob/main/doc/guidelines/register_dataset.md#registration-process)
+- Creating evaluators in [Eli5](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/tree/main/eli5?ref_type=heads)
+- Running evaluations 
+
 ## About Code Suggestions
 
 One of the main features we work on in the Create:Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
 
+- [Code Suggestions Engineering Overview](/handbook/engineering/development/dev/create/code-creation/engineering_overview/) - Handbook technical overview of Code Suggestions
+- [Code Suggestions Guide](/handbook/engineering/development/dev/create/code-creation/code-suggestions-guide/) - Handbook development guide for engineers
 - [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start/) - GitLab Documentation
 - [Difference between Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
 - [Code Suggestion Documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) - GitLab Documentation
@@ -79,9 +96,8 @@ The following members of other functional teams are our stable counterparts:
 | Category          | Counterpart                                                                          |
 |-------------------|--------------------------------------------------------------------------------------|
 | Product Manager   | {{< member-by-name "Jordan Janes" >}}                                                |
-| Technical Writing | {{< member-by-name "Leala Smith" >}}                                                |
-| UX                | {{< member-by-name "Andy Volpe" >}} (Create Stage)                                   |
-| SET               | {{< member-by-name "Jay McCure" >}} (Create Stage)                                   |
+| Technical Writing | {{< member-by-name "Jon Glassman" >}}                                                |
+| UX                | TBD                                                                                  |
 | Support           | [TBD](/handbook/support/support-stable-counterparts/)                                |
 | AppSec            | [TBD](/handbook/security/product-security/application-security/stable-counterparts/) |
 
@@ -92,14 +108,17 @@ Here are other groups within GitLab that we work closely with:
 ### Create Stage
 
 - [Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/)
+  - Collaborate on Code suggestions context (e.g. open tabs)
 
 ### AI Powered Stage
 
 - [AI Powered Stage](/handbook/engineering/development/data-science/ai-powered)
 - [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)
+  - Collaborate on datasets for evaluations
 - [AI Model Validation](/handbook/engineering/development/data-science/ai-powered/model-validation/)
 - [Custom Models](/handbook/engineering/development/data-science/ai-powered/custom-models/)
 - [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/)
+  - Collaborate on code related slash commands: `/explain`, `/refactor`, `/tests`, `/fix`
 
 ### ModelOps Stage
 
@@ -113,11 +132,17 @@ To help get started as a developer with the Create:Code Creation team, we have c
 
 ## Group Processes
 
-### Meetings
+### Milestone Meetings
 
-**Sync: Code Creation** - a meeting held once a week on Tuesday at 15:00 UTC to align on group priorities. If there are no points on the meeting agenda one hour before the meeting starts, that meeting is considered as canceled.
+Our team operates on monthly milestones with one key meeting per milestone cycle. This meeting combines both the retrospective for the previous milestone and the kickoff for the upcoming milestone. To accommodate our globally distributed team, this meeting is held twice each milestone at different times - once in an APAC-friendly time zone and once in an EMEA/AMER-friendly time zone. This approach ensures all team members have the opportunity to participate live in the meeting that best fits their schedule.
 
-All of our meetings and videos are uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to switch to use the [Unfiltered YouTube account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
+The Combined Retrospective/Kickoff Meeting serves two purposes: reviewing the outcomes from our async retrospectives of the completed milestone, and aligning on objectives, discussing requirements, and assigning responsibilities for the upcoming milestone.
+
+All of our meetings are recorded and uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to switch to use the [Unfiltered YouTube account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
+
+### Milestone Planning
+
+See the [Code Creation Milestone Planning](/handbook/engineering/development/dev/create/code-creation/milestone_planning/) for more information on the milestone planning process.
 
 ### Weekly Status Updates
 
@@ -170,5 +195,6 @@ Be sure to tag the engineering manager, product manager, and any team members yo
 1. [General Metric Reporting](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting?:iid=1) - can find code suggestions rate limiting, X-Ray usage, etc (Tableau)
 1. [Log Visualization Dashboard](https://log.gprd.gitlab.net/app/dashboards#/view/6c947f80-7c07-11ed-9f43-e3784d7fe3ca?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-6h,to:now))) - another view of latency, response codes, number of requests, etc (Kibana)
 1. [Code suggestions latency](https://log.gprd.gitlab.net/app/r/s/mMaY3): Breakdown of server-side latency for code suggestions (Kibana)
+1. [X-Ray Dependency Parsing Errors Dashboard](https://log.gprd.gitlab.net/app/dashboards#/view/a828978b-8f41-489a-9e3b-aa71937e25b9?_g=h@e98e959): Breakdown of parsing errors triggered by X-Ray dependency scanning (Kibana)
 1. [Metrics Dashboard](https://dashboards.gitlab.net/d/stage-groups-code_creation/stage-groups3a-code-creation3a-group-dashboard?orgId=1) (Grafana)
 1. [Error Budget](https://dashboards.gitlab.net/d/stage-groups-detail-code_creation/stage-groups-code-creation-group-error-budget-detail?orgId=1) (Grafana)

@@ -126,6 +126,9 @@ variables:
 .scheduled-update: &scheduled-update
   if: '$CI_PIPELINE_SOURCE == "schedule" && $RUN_TYPE == "count-update"'
 
+.skip-bot-authored: &skip-bot-authored
+  if: '$GITLAB_USER_LOGIN =~ /^(project|group)_/'
+  when: never
 ###################################
 #
 # JOB TEMPLATES
@@ -146,8 +149,10 @@ variables:
   needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
   stage: notify
   rules:
+    # Skip if MR is authored by a project or group access token
+  - <<: *skip-bot-authored
+    # Otherwise run the job as usual
   - <<: *merge-request-or-tag
-
 
 ###################################
 #
@@ -196,7 +201,9 @@ build:
     - echo -e "\e[0Ksection_start:`date +%s`:group7\r\e[0KGroup 7"
     - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
     - echo -e "\e[0Ksection_end:`date +%s`:group7\r\e[0K"
-    - echo "Base URL ${CI_PAGES_URL}/$PAGES_PREFIX/"
+    - echo "CI_PAGES_URL ${CI_PAGES_URL}"
+    - echo "PAGES_PREFIX ${PAGES_PREFIX}"
+    - echo "Base URL build ${CI_PAGES_URL}/$PAGES_PREFIX/"
     - echo "Verify base URL ${HUGO_BASEURL}"
   artifacts:
     paths:
@@ -228,7 +235,8 @@ pages:
     paths:
       - public
   script:
-    - echo "Base URL ${CI_PAGES_URL}/$PAGES_PREFIX/"
+    - echo "CI_PAGES_URL ${CI_PAGES_URL}"
+    - echo "PAGES_PREFIX ${PAGES_PREFIX}"
     - echo "Pages accessible through ${HUGO_BASEURL}"
   rules:
     - <<: *default-branch
@@ -237,12 +245,12 @@ pages:
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
-        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}/"
+        HUGO_BASEURL: "${CI_PAGES_URL}/"
     - <<: *merge-request-only
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
-        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}/"
+        HUGO_BASEURL: "${CI_PAGES_URL}/"
       when: manual
       allow_failure: true
 
@@ -324,6 +332,8 @@ check_path_change:
   script:
     - scripts/check-path-change.sh
   rules:
+      # Skip if MR is authored by a project or group access token
+    - <<: *skip-bot-authored
     - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
       when: never
     - if: $CI_MERGE_REQUEST_SOURCE_PROJECT_ID != $CI_PROJECT_ID
@@ -343,15 +353,15 @@ hugolint:
   image:
     name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:v${HUGOLINT_VERSION}
   before_script:
-    - apk add jq
+    - apk add jq curl
   script:
     - hugolint linkcheck --config .hugolint.yaml --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
-    - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
     - |
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
-        hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
+        hugolint codequality latest --project "42817607" --artifact 'linkcheck.json' >'latest.json'
         # additional JSON file to populate MR comment in post_comment_on_failure job
+        echo '[]' > new_broken_links.json
         jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
         hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
       fi
@@ -360,7 +370,6 @@ hugolint:
     expire_in: 1 month
     paths:
       - linkcheck.json
-      - missinglinks.txt
       - new_broken_links.json
     reports:
       codequality: linkcheck.json

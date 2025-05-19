@@ -6,7 +6,7 @@ canonical_path: "/job-families/engineering/incubation/engineer/"
 
 Incubation Engineers are experienced Software Engineers with deep knowledge in a specific domain that are able to work independently to deliver a solution to market.  The goal of an Incubation Engineer is to reach a [Viable](https://about.gitlab.com/direction/#maturity) level of maturity of their respective area within the GitLab project.
 
-Incubation Engineers work within the [Incubation Engineering Department](/handbook/engineering/incubation/).
+Incubation Engineers work within the [Incubation Engineering Department](/handbook/engineering/).
 
 ### Responsibilities
 
@@ -79,8 +79,8 @@ The Staff Incubation Engineer is a [grade 8](/handbook/total-rewards/compensatio
 
 Incubation Engineers have the following Performance Indicators
 
-- [SEG Category Maturity](/handbook/engineering/incubation/performance-indicators/#seg-category-maturity)
-- [Community Engagement](/handbook/engineering/incubation/performance-indicators/#community-engagement)
+- SEG Category Maturity
+- Community Engagement
 
 ## Career Ladder
 

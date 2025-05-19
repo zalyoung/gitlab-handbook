@@ -43,7 +43,7 @@ When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the 
 - [ ]  Service Desk
 - [ ]  FortiAuthenticator, or FortiToken 2FA
 - [ ]  GitLab-managed runners (hosted runners)
-- [ ]  GitLab AI capabilities ([More Info](https://about.gitlab.com/direction/saas-platforms/dedicated/#supporting-ai-features-on-gitlab-dedicated))
+- [ ]  GitLab AI capabilities ([More Info](https://about.gitlab.com/direction/gitlab_dedicated/#supporting-ai-features-on-gitlab-dedicated))
 - [ ]  Features that must be configured outside of the GitLab user interface, including those behind [feature flags](https://docs.gitlab.com/ee/user/feature_flags.html) which are disabled-by-default
 - [ ]  Mattermost
 - [ ]  Server-side Git hooks (Due to security concerns and potential service SLA impact. Consider using [push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html) or [webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) as alternatives.)
@@ -105,6 +105,15 @@ Provide a brief summary of the current status and outstanding or upcoming tasks 
 Share that a handover has happened in the incident's Slack channel, and cross-post to other relevant channels like #sec-appsec. A message template like the following may be appropriate:
 
 > 🤝 AppSec Handover 🤝  I have handed over to `@username` for any AppSec needs, as I am close to the end of my working day. [Include details on how we will continue to deliver on any tasks that AppSec is DRI for].
+
+### After the incident
+
+Apply the correct labels and milestones in the SIRT issue so that we can track the work done in our metrics.
+
+```text
+/label ~"AppSecWorkType::SIRTandSecurityComms" ~AppSecWeight::<> ~"Application Security Team" ~"AppSecWorkflow::complete" 
+/milestone %<>
+```
 
 ### Family and Friends Day Coverage
 

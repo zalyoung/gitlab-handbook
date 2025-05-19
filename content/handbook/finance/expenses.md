@@ -406,7 +406,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Member Significant Life Events and Team Member Gifts
 
 - Cash or cash equivalents, such as gift cards, are not allowed; Qualified gifts are capped at $125 per transaction.
-- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a gift.
+- Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as well wishes ahead of surgery, or the loss of a loved one. Baby gifts are not reimbursable as GitLab already sends them a [gift](/handbook/people-group/celebrations/#new-parent-swag).
 - Any People Manager can send a gift or flowers to any Team Member at GitLab to let them know they are thinking about them. Examples include:
   - A new Team Member recently purchased a new home and shared their news with others. A People Manager sends a "Home Sweet Home" doormat as a congratulatory gift.
   - While working a People Manager noticed a Team Member's children in the background of a Zoom call and surprised the kids with a new game.
@@ -428,7 +428,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Monthly service charges for the internet are reimbursable, but GitLab will not reimburse for any initial setup, equipment, change fees, or monthly insurance charges.
 - Please expense internet costs monthly, reflecting current charges only (even if you pay by a different cadence).
 - For Team Members in the Netherlands:
-  - If you have not already completed the form as part of onboarding with our Netherlands payroll provider, fill in and sign the Regeling Internet Thuis form and send it to the HRSavvy team at payroll@savvy-group.eu. Please do not expense your Internet costs via Navan - these will be rejected.
+  - If you have not already completed the form as part of onboarding with our Netherlands payroll provider, fill in and sign the [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq) form and send it to the HRSavvy team at payroll@savvy-group.eu. Please do not expense your Internet costs via Navan - these will be rejected.
   - If your address changes or the amount changes, please send a new form to the HRSavvy team, along with the invoice/letter for processing.
 - This is a taxable expense for GitLab Ltd. United Kingdom Team Members assuming that the internet connection is used partially for personal use as well as business use.
 - Policy is set at $80, anything over that amount will still be considered for approval as we know there are exceptions, and will be checked and approved on an individual basis depending on the user's circumstances, i.e. location etc.
@@ -579,7 +579,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 ### VPN Subscription
 
-- Please read [Why We Don't Have A Corporate VPN](/handbook/security/product-security/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN](/handbook/tools-and-tips/personal-vpn/) page regarding usage at GitLab.
+- Please read [Why We Don't Have A Corporate VPN](/handbook/security/product-security/security-platforms-architecture/security-architecture/zero-trust/#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN](/handbook/tools-and-tips/personal-vpn/) page regarding usage at GitLab.
 - Policy is set at $150 per year.
 - Yearly subscription can be submitted in one claim.
 - Monthly subscriptions to be submitted monthly.

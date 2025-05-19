@@ -62,4 +62,4 @@ Content for award applications can often be found in the GitLab handbook, includ
 
 ## Return to the main Talent Brand page
 
-Return to the main [talent brand handbook]({{< ref "employment-branding" >}}).
+Return to the main [talent brand handbook](/handbook/people-group/employment-branding/).

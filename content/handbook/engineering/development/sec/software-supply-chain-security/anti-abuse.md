@@ -52,7 +52,7 @@ You are encouraged to work as closely as needed with our [stable counterparts](/
 
 Other teams that we might collaborate with include but are not limited to:
 
-- [Govern:Authentication and Authorization](/handbook/engineering/development/sec/software-supply-chain-security/authentication-and-authorization/)
+- [Govern:Authentication and Authorization](/handbook/engineering/development/sec/software-supply-chain-security/authentication/)
 - [Growth:Acquisition and Activation](/handbook/engineering/development/growth/)
 - [Fulfillment:Fulfillment Platform](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 

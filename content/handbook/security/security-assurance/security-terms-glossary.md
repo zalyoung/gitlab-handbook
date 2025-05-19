@@ -5,7 +5,7 @@ description: "A glossary of common Security Terms that may be encountered in Sec
 
 ## Overview
 
-The [Security Assurance team]({{< ref "security-assurance" >}}) performs various types of security questionnaires, assessments and audits. If you have any questions, please feel free to contact us:
+The [Security Assurance team](/handbook/security/security-assurance/) performs various types of security questionnaires, assessments and audits. If you have any questions, please feel free to contact us:
 
 - Join our slack channel: #sec-assurance
 - Email: <security-assurance@gitlab.com>
@@ -24,8 +24,8 @@ A comprehensive examination of a Security program, Security Relevant System or S
 
 ### Internal Security Audit
 
-A Security Audit conducted by personnel under the employment of the organization conducting the Audit. For example the [Internal Audit Team](https://internal.gitlab.com/handbook/internal-audit/) and [Security Compliance Team]({{< ref "security-compliance" >}}) at GitLab conduct Internal Audits of GitLab's Security Program.
+A Security Audit conducted by personnel under the employment of the organization conducting the Audit. For example the [Internal Audit Team](https://internal.gitlab.com/handbook/internal-audit/) and [Security Compliance Team](/handbook/security/security-assurance/security-compliance/) at GitLab conduct Internal Audits of GitLab's Security Program.
 
 ### External Security Audit
 
-A Security Audit conducted by a contracted and independent 3rd party. For example GitLab routinely undergoes [SOC2]({{< ref "security-compliance/certifications" >}}) audits and [Penetration Testing](https://about.gitlab.com/security/#external-testing) from independent 3rd party auditors.
+A Security Audit conducted by a contracted and independent 3rd party. For example GitLab routinely undergoes [SOC2](/handbook/security/security-assurance/security-compliance/certifications) audits and [Penetration Testing](https://about.gitlab.com/security/#external-testing) from independent 3rd party auditors.

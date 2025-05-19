@@ -38,9 +38,17 @@ The Compliance group's mission is to provide visibility into an organizations co
 Because this group works on components of the application that have a [far-reaching impact](/handbook/engineering/expansion-development/#reducing-the-impact-of-far-reaching-work), we take these extra steps in order to reduce our risk of a production incident:
 
 1. To build more institutional knowledge across the team we try to assign our merge requests to another Compliance team member for first review.
-1. Compliance merge requests use feature flags where it makes sense to minimise impact. We follow the [Feature Flag Lifecycle](/handbook/product-development-flow/feature-flag-lifecycle/) as closely as possible
-1. If a feature flag is used then a feature flag [rollout plan](/handbook/engineering/development/processes/rollout-plans/) will be created. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
 1. Compliance related merge requests require a review by a [Compliance Engineer](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/compliance/engineering/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
+
+#### Feature Flags
+
+1. Compliance merge requests use feature flags where it makes sense to reduce risk. We follow the [Feature Flag Lifecycle](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) as closely as possible. For extended or multi–merge request development, all work should remain behind a dedicated feature flag. This approach allows incremental changes to be merged safely, keeping incomplete functionality off for production users.
+
+1. If a feature flag is used, a [feature flag rollout plan](/handbook/engineering/development/processes/rollout-plans/) issue should be created and added to the appropriate epic. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
+
+1. Once the feature is ready for testing, the directly responsible individual (DRI) should enable the feature flag on the staging environment and announce availability to relevant stakeholders (PM, EM, designer, wider team) via Slack and commenting in the rollout issue. This ensures prompt feedback, thorough validation, and keeps everyone in the loop.
+
+1. After validating the feature in staging, enable the feature flag in production in accordance with your rollout plan. If any issues arise, disabling the feature flag provides a quick rollback mechanism without the need to revert code. This controlled approach aligns with GitLab’s best practices for delivering new features safely and efficiently.
 
 ### Working on ad hoc work and questions
 
@@ -108,8 +116,8 @@ When you pick something to work on, please:
 
 ### Testing
 
-We aim to uphold [GitLab's principle of fostering an environment where Quality is everyone's responsibility](/handbook/engineering/quality/#our-principles).
-Testing is an essential part of our [product development workflow](/handbook/product-development-flow/) and
+We aim to uphold [GitLab's principle of fostering an environment where Quality is everyone's responsibility](/handbook/engineering/development/principles/#quality).
+Testing is an essential part of our [product development workflow](/handbook/product-development/product-development-flow/) and
 [code review process](https://docs.gitlab.com/ee/development/code_review.html#quality).
 
 Information regarding test coverage can be found via these issues/epics:
@@ -125,7 +133,7 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 ### Pre-planning
 
 - By the 4th, Product should have created a planning issue for their group in the [Compliance project](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/general/-/issues) for the coming release using the [template](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/general/-/blob/main/.gitlab/issue_templates/planning_issue.md).
-- The Complaince [quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) will add a tentative plan for the release, outlining the highest priority issues within each of their respective areas.
+- The Compliance quad will add a tentative plan for the release, outlining the highest priority issues within each of their respective areas.
 - We prioritize using the [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/). The Product Manager will prioritize `type::feature` issues, the Engineering Manager will prioritize `type::maintenance` issues, and the Quality Manager will prioritize `type::bug` issues.
 - Pre-planning is completed asynchronously by Product, Engineering, Quality and Design on the issue, this is to identify any unknowns or questions that need to be answered and resolved prior to final planning.
 - Issues can be either in Refinement phase (`workflow::planning breakdown` and `workflow::solution validation`) or Implementation phase (`workflow::scheduling` and `workflow::ready for development`).
@@ -180,7 +188,7 @@ Intention of this is to:
 
 ### Development Flow
 
-We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
+We generally follow the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary):
 
 1. `workflow::problem validation` - needs clarity on the problem to solve
 1. `workflow::design` - needs a clear proposal (and mockups for any visual aspects)
@@ -198,7 +206,7 @@ Generally speaking, issues are in one of two states:
 - Discovery/refinement (1-4): we're still answering questions that prevent us from starting development,
 - Implementation (6-9): an issue is waiting for an engineer to work on it, or is actively being built.
 
-While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
+While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
 ### Discovery/Refinement
 
@@ -399,7 +407,7 @@ The Compliance EM also contributes to issues in the [Software Supply Chain Secur
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Software Supply Chain Security.+Compliance" >}}
+{{< engineering/stable-counterparts role="Software Supply Chain Security.+Compliance" >}}
 
 ## Dashboards
 

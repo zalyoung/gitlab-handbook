@@ -23,7 +23,7 @@ I have a detailed biography and CV available in different text lengths and langu
 I follow [GitLab's values](/handbook/values/) and specifically embrace these:
 
 - **I always [assume positive intent](/handbook/values/#assume-positive-intent).** and encourage others to do the same.
-- **I love [transparency](/handbook/values/#transparency), and keeping everyone SAFE.** I work in public by default, with a [low level of shame](/handbook/values/#low-level-of-shame). You can expect me to document my work, share updates, and engage in important discussions to help achieve company goals.
+- **I love [transparency](/handbook/values/#transparency), and keeping everyone SAFE.** I work in public by default, with a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding). You can expect me to document my work, share updates, and engage in important discussions to help achieve company goals.
 - **We are [managers of one](/handbook/leadership/#managers-of-one).** I will go with a bias for action and not ask for permission to propose an idea, MR, action. If you want me to prioritize a request, please ask me directly by tagging me in an issue. You do not need to ask my manager to ask me.
 - **[Say why, not just what](/handbook/values/#say-why-not-just-what).** Understanding the _why_ helps me validate decisions, and make better proposals. Merge Requests without a description explaining the why can lead to questions in Slack, or otherwise back-and-forth communication. Time that could be used more efficiently.
 - **[Handbook first](/handbook/about/handbook-usage/#why-handbook-first).** Everything needs to be documented in the handbook so that everyone can learn async. If something is wrong or not documented in the handbook, it is a bug, and we need to create an issue or a merge request to fix it.
@@ -116,10 +116,11 @@ I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and 
 1. [Work setup](https://gitlab.com/dnsmichi/dotfiles)
 1. [GitLab profile](https://gitlab.com/dnsmichi)
 1. [Social profiles](https://dnsmichi.at/about/)
-1. Blog: [4 years all-remote at GitLab](https://dnsmichi.at/2024/03/02/michi-limited-edition-4-years-all-remote-at-gitlab/)
-1. Blog: [3 years all-remote at GitLab](https://dnsmichi.at/2023/03/02/three-years-all-remote-at-gitlab-know-the-unknown-unknowns-growth-life-work/)
-1. Blog: [2 years all-remote at GitLab](https://dnsmichi.at/2022/03/02/2-years-all-remote-and-2022-vision/)
-1. Blog: [1 year all-remote at GitLab](https://dnsmichi.at/2021/03/02/my-1st-year-all-remote-at-gitlab/)
+1. Blog: [My 5th Year at GitLab: Developer Advocate Journey, AI Adventures, and Finding Balance](https://dnsmichi.at/2025/03/02/my-5th-year-at-gitlab-developer-advocate-journey-ai-adventures-and-finding-balance/)
+1. Blog: [Michi, Limited Edition - 4 years all-remote at GitLab](https://dnsmichi.at/2024/03/02/michi-limited-edition-4-years-all-remote-at-gitlab/)
+1. Blog: [Three years all-remote at GitLab: Know the unknown unknowns (growth, life, and work)](https://dnsmichi.at/2023/03/02/three-years-all-remote-at-gitlab-know-the-unknown-unknowns-growth-life-work/)
+1. Blog: [2 years all-remote and my 2022 vision](https://dnsmichi.at/2022/03/02/2-years-all-remote-and-2022-vision/)
+1. Blog: [My 1st year all-remote at GitLab](https://dnsmichi.at/2021/03/02/my-1st-year-all-remote-at-gitlab/)
 
 ## Thanks for reading
 

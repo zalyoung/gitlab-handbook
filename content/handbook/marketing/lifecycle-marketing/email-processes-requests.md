@@ -303,7 +303,7 @@ All Campaign Managers and reviewers should adhere to the following protocol for 
 
  Marketo is the primary system for all marketing emails and the regularly scheduled security updates. Iterable or Marketo should be used for emails to gitlab.com users as these users are not in our marketing systems (unless they have signed up for content).
 
-To send an operational email, fill out an issue and follow protocol found [here](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#customer-comms-email).
+To send an operational email, fill out an issue and follow protocol found [here](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#customer-or-user-comms-email-including-breaking-changes).
 
 ## Sales nominated flows in Marketo
 
@@ -557,3 +557,12 @@ The workback timeline is to be created by the Lifecycle Marketer to organize the
 
 /label ~"dg-campaigns" ~"mktg-demandgen" ~"mktg-status::wip"
 ```
+
+## Action Streams
+
+Currently available Action Streams. Please use the values below to populate the Marketo `{{my.Action Stream}}` token. These must be exactly as written:
+
+* Security
+* Compliance
+
+Instructions for routing to Action Streams is available on the [Campaigns & Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page. [Video Instructions](https://drive.google.com/file/d/1hBuYcScoJGVo8VUhKbiwToSE1g4Kr8Tl/view?usp=sharing).

@@ -103,14 +103,14 @@ deploy app:
     - ssh root@$ip 'ls /'
 ```
 
-When you commit these changes, you will see an error in your deploy job. To view this error, navigate to the **Build** > **Pipelines** page and view the failed pipeline and job.
+When you commit these changes, you will see an error in your deploy job. To view this error, navigate to the **Build** > **Pipelines** page and view the failed pipeline and job. The output should look similar to the one below:
 
 ```bash
 $ eval $(ssh-agent -s)
 Agent pid 3211
-$ chmod 400 "$SSH_PRIVATE_KEY"
-$ ssh-add "$SSH_PRIVATE_KEY"
-Error loading key "/builds/scottcosentinogitlab/cicd_lab_rewrite.tmp/SSH_PRIVATE_KEY": error in libcrypto
+$ chmod 400 "$SSH_INVALID_KEY"
+$ ssh-add "$SSH_INVALID_KEY"
+Error loading key "/builds/training-users/session-eff7bd34/iuztj7px/cicd-demo.tmp/SSH_INVALID_KEY": error in libcrypto
 ```
 
 Let’s try to figure out what happened!
@@ -127,7 +127,7 @@ In these cases, often the variable/input of the command is the main source of th
 
 Often, common errors will be present in our documentation with solutions to the problems. To find this error:
 
-1. Try searching a part of it in the [documentation](https://docs.gitlab.com/): *error in libcrypto*. The first result you get is an article titled: **Using SSH keys with GitLab CI/CD**.
+1. Try searching for the error in the [documentation](https://docs.gitlab.com/). The first result you get is an article titled: **Using SSH keys with GitLab CI/CD**.
 
 1. If you scroll to the Troubleshooting section of this page, you will see a section on the exact error we are facing.
 
@@ -151,10 +151,36 @@ To test if this fixes the error:
 
 1. Leave all values as default and select **New pipeline** again. You will now see the job complete successfully!
 
+## Task C. Clean Up Deploy Job
+
+Now that the job has been fixed, it is important to clean up the job so that the steps of the job are more clear. For example, we can move parts of the jobs from the `script` section to the `before_script` section.
+
+1. Let's move the steps from the `'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'` to `chmod 700 ~/.ssh` into a `before_script` section. That way, it is clear which parts of the job are for setup, and which are the actual tasks being performed.
+
+The deploy job should now look like this:
+
+```yaml
+deploy app:
+  stage: deploy
+  image: ubuntu:latest
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+    - eval $(ssh-agent -s)
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - ssh-add "$SSH_PRIVATE_KEY"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+  script:
+    - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
+    - ssh root@$ip 'ls /'
+```
+
+1. Run the pipeline to make sure the changes did not break anything in the pipeline.
+
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcicdhandson).
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.

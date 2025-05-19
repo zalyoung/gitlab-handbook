@@ -11,15 +11,15 @@ At GitLab, one of our favorite books is, "[High Output Management](/handbook/lea
 
 {{< youtube "CHs8NxRSGPw" >}}
 
-Sid and the Learning and Development team discuss High Output Management during a [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions). In the video, we explore how the book shaped GitLab management processes and policies.
+Sid and the Learning and Development team discuss High Output Management during a CEO Handbook Learning Session. In the video, we explore how the book shaped GitLab management processes and policies.
 
 Topics covered include:
 
 1. Why the book is one of Sid's favorites.
 1. Why dual reporting structures lead to matrix organizations and how GitLab maintains a [no-matrix organization](/handbook/leadership/no-matrix-organization/).
-1. Why [1-1 meetings]({{< ref "1-1" >}}) are fundamental to management.
+1. Why [1-1 meetings](/handbook/leadership/1-1/) are fundamental to management.
 1. Enabling the direct report to show initiative in their [career and performance](/handbook/people-group/learning-and-development/career-development/).
-1. The importance of [emotional intelligence]({{< ref "emotional-intelligence" >}}) in management based on task-relevant maturity.
+1. The importance of [emotional intelligence](/handbook/leadership/emotional-intelligence/) in management based on task-relevant maturity.
 1. Why training the team should be the manager's job.
 
 > If there is one management book you should read, it is High Output Management. A lot of GitLab policies are directly from the book. Managers can learn that the most challenging aspect of management, is managing their time to make decisions and achieve results. This book will teach you how.
@@ -46,11 +46,3 @@ When you set goals and KPIs with direct reports, make sure they align with your 
 ### Performance Management
 
 In the book, the author describes applying [async](/handbook/values/#bias-towards-asynchronous-communication) practices to begin performance discussions. Managers use a regularly scheduled [1-1 meeting](/handbook/leadership/1-1/) to discuss performance with a direct report. They prepare a document before the meeting with all of the key points, areas of strength, areas of development, and a plan for the future. This gives the direct report time to digest before the performance discussion. The [synchronous meeting](/handbook/communication/#video-calls) time can be used by the direct report to ask clarifying questions on the feedback. Managers are able to focus their attention on key points rather than covering all the points in one meeting.
-
-### Training is the Boss's Job
-
-Every page in our handbook is a [source of learning and development material](/handbook/people-group/learning-and-development/#handbook-first-training-content/). If managers accept that training, along with motivation, are the key ways to improve the performance of direct reports, the way you teach must be closely tied to what you practice. Training should be considered a continuing process rather than a one-time event. Managers fill the role of teacher to their teams. Team members also have valuable skills they can share with their teams and the broader organization.
-
-As a people leader, consider holding training events and/or record videos that teach your team members important concepts related to functional skill-building. At GitLab, we have [Focus Friday's](/handbook/communication/) that can be used to [take time out to learn](/handbook/people-group/learning-and-development/learning-initiatives/#take-time-out-to-learn-campaign/).  Enable team members to drive training of the team on complex functions through [enablement sessions](/handbook/leadership/building-trust/#host-a-lunch--learn). Also, consider using [LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning) to focus your team on curated content. During the next team meeting, have team members share feedback on the topics covered.
-
-Managers can lead training sessions throughout the year, and according to the book, it is considered one of the highest-leverage activities a manager can do.

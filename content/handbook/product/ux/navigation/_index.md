@@ -5,7 +5,7 @@ description: "The group::personal productivity team owns the navigation structur
 
 The [`group::personal productivity` team](/handbook/product/categories/#personal-productivity-group) owns the navigation structures of the GitLab product. Please review this information if you plan to propose changes to GitLab navigation.
 
-> Note: a [Code Owners approval rule](https://docs.gitlab.com/ee/user/project/codeowners/) is in place to prevent unapproved changes to the navigation. If you have not followed this process, your Merge Request will be blocked.
+> Note: a [Code Owners approval rule](https://docs.gitlab.com/user/project/codeowners/) is in place to prevent unapproved changes to the navigation. If you have not followed this process, your Merge Request will be blocked.
 
 ## What is navigation?
 
@@ -30,7 +30,7 @@ To help maintain this balance, we ask for everyone to use this process when prop
 * Removing a navigation item
 * Changing the sort order of navigation items
 * Changing navigation functionality or features
-* Launching an [Experiment](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment) or [Beta](https://docs.gitlab.com/ee/policy/development_stages_support.html) feature
+* Launching an [Experiment](https://docs.gitlab.com/policy/development_stages_support/#experiment) or [Beta](https://docs.gitlab.com/policy/development_stages_support/) feature
 * Changing the viewership of a navigation item (e.g. moving from disabled by default to enabled by default)
 
 ## When to change the navigation
@@ -76,7 +76,7 @@ After there is insight into a problem with the navigation, the Product team DRI 
 1. The [Product Manager for Personal Productivity](/handbook/product/categories/#personal-productivity-group) is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for navigation changes. Reach out to them to determine whether your proposal needs [full validation](#full-validation-path) or [limited validation](#limited-validation-path).
 1. You can initiate the review for this process by using the [Navigation Proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Navigation%20Proposals) issue template.
 1. Designers on Personal Productivity will assist the DRI by reviewing the proposal and providing input. The typical turnaround time from the Personal Productivity team will be 1 milestone. After providing feedback, it is the responsibility of the DRI to move the proposal forward and seek additional feedback as needed.
-1. When you have approval and are ready to start implementation, then follow the [GitLab Docs on adding items to the navigation](https://docs.gitlab.com/ee/development/navigation_sidebar.html#adding-page-specific-vue-content).
+1. When you have approval and are ready to start implementation, then follow the [GitLab Docs on adding items to the navigation](https://docs.gitlab.com/development/navigation_sidebar/#adding-page-specific-vue-content).
 
 ### Full validation path
 

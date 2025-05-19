@@ -331,7 +331,7 @@ We care about what you achieve: the code you shipped, the needle you moved, the 
 
 ##### Dogfooding
 
-We [use our own product](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) in the way our users do to surface improvements that will lead to better [customer results](#customer-results). GitLab is a DevSecOps Platform that can be used by people throughout the business. This is how we use it within GitLab. For example, we use our OKR functionality company-wide to inform product enhancements and for team members to have a great understanding of the customer experience. We also dogfood in the following ways:
+We [use our own product](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) in the way our users do to surface improvements that will lead to better [customer results](#results). GitLab is a DevSecOps Platform that can be used by people throughout the business. This is how we use it within GitLab. For example, we use our OKR functionality company-wide to inform product enhancements and for team members to have a great understanding of the customer experience. We also dogfood in the following ways:
 
 1. Our development organization uses GitLab.com to manage the DevOps lifecycle of GitLab itself.
 1. All team members use GitLab to collaborate on this handbook.
@@ -586,7 +586,7 @@ Diversity, inclusion and belonging are fundamental to the success of GitLab. We 
 
 Take initiative to operate [asynchronously](/handbook/company/culture/all-remote/asynchronous/) whenever possible. This shows care and consideration for those who may not be in the same time zone, are traveling outside of their usual time zone, or are [structuring their day](/handbook/company/culture/all-remote/people/#creating-a-more-efficient-day) around pressing commitments at home or in their community.
 
-This is demonstrated by communicating recordings of [meetings](/handbook/company/culture/all-remote/meetings/), using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. Encourage others to default to [documentation](/handbook/product/ux/technical-writing/documentation/) rather than pressuring others to be online outside of their working hours.
+This is demonstrated by communicating recordings of [meetings](/handbook/company/culture/all-remote/meetings/), using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. Encourage others to default to [documentation](/handbook/product/ux/technical-writing/#documentation) rather than pressuring others to be online outside of their working hours.
 
 ##### Embracing uncomfortable ideas and conversations
 
@@ -627,7 +627,7 @@ We want cultural diversity instead of cultural conformity. Said differently: ["c
 
 ##### Religion and politics at work
 
-We generally avoid discussing politics or religion in public forums because it is easy to alienate people that have a minority opinion. This doesn't mean we never discuss these topics. Because we value diversity, inclusion and belonging, and want all team members to feel welcome and contribute equally, we encourage free discussion of operational decisions that can move us toward being a more inclusive company. GitLab also publicly supports pro [diversity, inclusion & belonging](#diversity-inclusion) activities and events.
+We generally avoid discussing politics or religion in public forums because it is easy to alienate people that have a minority opinion. This doesn't mean we never discuss these topics. Because we value diversity, inclusion and belonging, and want all team members to feel welcome and contribute equally, we encourage free discussion of operational decisions that can move us toward being a more inclusive company.
 
 There is sometimes a grey area where advocating for diversity and political activities may intersect. Team members should use discretion in grey area communications, because a culture of belonging requires us to be respectful of the broad spectrum of views within our work environment. What does this mean in practice? Please feel empowered to share information that highlights diversity, inclusion and belonging issues and how GitLab and GitLab team members can get involved. In line with our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), avoid posting articles that reference specific political figures or parties.
 
@@ -642,7 +642,7 @@ Celebrate and encourage quirky gifts, habits, behavior, and points of view. Open
 
 ##### Building a safe community
 
-Do **not** make jokes or unfriendly remarks about [characteristics of the people who make up GitLab and how they identify](/handbook/company/culture/inclusion/#gitlabs-definition-of-diversity--inclusion).
+Do **not** make jokes or unfriendly remarks about [characteristics of the people who make up GitLab and how they identify](/handbook/company/culture/inclusion/#gitlabs-definition-of-diversity-inclusion--belonging).
 Everyone has the right to feel safe when working for GitLab and/or as a part of the GitLab community.
 We do not tolerate abuse, [harassment](/handbook/people-group/anti-harassment/), exclusion, discrimination, or retaliation by/of any community members, including our team members.
 You can always **refuse** to deal with people who treat you badly and get out of situations that make you feel uncomfortable.
@@ -812,7 +812,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">EVP/CXO</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Champions the value of Diversity, Inclusion and Belonging into the company's strategy. They champion and sponsor internal and external D&amp;I initiatives. They speak to the importance of this value in company-wide meetings. They hold their leaders and other e group members accountable for upholding this value. They continuously seek ways to increase trust, psychological safety and inclusion across the broader company.</td>
     <td class="tg-0lax"  style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc>
-<li>Support current cross-functional <a href="/handbook/company/yearlies/#fy24-yearlies">Yearlies</a> initiative focused on continuing to build a diverse team of top talent that we retain and grow</li>
+<li>Support current cross-functional initiative focused on continuing to build a diverse team of top talent that we retain and grow</li>
 <li>Advocate and Integrate DIB into your organizational KPIs/OKRs, e.g.OKR: continue to build and grow a diverse workforce/organization</li>
 <li>Partner with the <a href="/handbook/company/culture/inclusion/">DIB Team</a> & <a href="/handbook/company/culture/inclusion/leadership-dib-council/">Leadership DIB Council</a> to establish an action plan for your departments & division</li>
 <li>Serve as a <a href="/handbook/company/culture/inclusion/erg-guide/">TMRG</a> executive sponsor</li>
@@ -985,19 +985,17 @@ Changing something without shipping it is a revision, not iteration. Only when t
 
 In order to embrace iteration, we should have the attitude that we are trying to achieve as much as possible in a small amount of time; it's where we land at the end state of an iteration that counts. The benefit of iteration is to get fast feedback from users. Focus on sharing context at the **end of the first iteration** rather than a **hypothetical future state** that requires multiple iterations. By embracing iteration we can increase creativity in incremental components.
 
-{{< youtube id="nXfKtnVUhvQ" >}}
-
 ##### Make small merge requests
 
 When you are submitting a merge request for a code change, or a process change in
 the handbook, keep it as small as possible. If you are adding a new page to the
 handbook, create the new page with a small amount of initial content, get it merged
 quickly via [Handbook Usage guidelines](/handbook/about/handbook-usage/), and then add additional sections iteratively with subsequent merge requests.
-Similarly, when adding features to GitLab, consider ways to [reduce the scope](/handbook/product/product-processes/#crafting-an-mvc) of the feature before creating the merge request to ensure your merge request is as small as possible.
+Similarly, when adding features to GitLab, consider ways to [reduce the scope](/handbook/product/product-processes/#writing-about-features) of the feature before creating the merge request to ensure your merge request is as small as possible.
 
 ##### Always iterate deliberately
 
-Rapid iteration can get in the way of [results](#results) if it's not thought out; for example, when adjusting our marketing messaging (where consistency is key), product categories (where we've set development plans), [organizational structure](/handbook/company/structure/#organizational-structure) or [product scope alignment](/handbook/people-group/promotions-transfers/#realignment-of-resources-impacting-multiple-team-members) (where real human stresses and team stability are involved), sales methodologies (where we've trained our teams) and this values page (where
+Rapid iteration can get in the way of [results](#results) if it's not thought out; for example, when adjusting our marketing messaging (where consistency is key), product categories (where we've set development plans), [organizational structure](/handbook/company/structure/#organizational-structure) or [product scope alignment](/handbook/people-group/promotions-transfers/#department-transfers) (where real human stresses and team stability are involved), sales methodologies (where we've trained our teams) and this values page (where
 we use the values to guide all GitLab team members). In those instances, we add additional review to the approval
 process; not to prohibit, but to be more deliberate in our iteration. The change process is documented in the [GitLab Handbook Usage](/handbook/about/handbook-usage/) page and takes place via merge request approvals.
 
@@ -1149,7 +1147,7 @@ If you use generalized terms such as "industry standard" or "best practices," be
 
 Similarly, merely stating a single value isn't a great explanation for why we are making a particular decision. Many things could be considered "iteration" or "efficiency" that don't match our definition of those values. Try to link to an operating principle of the value or provide more context, instead of just saying a single value's name.
 
-Saying why and not just what enables discussion around topics that may impact more than one value; for instance, when weighing the [efficiency of boring solutions](#boring-solutions) with the focus on [customer results](#customer-results). When decisions align with all of our values, they are easy to discuss and decide. When there are multiple values involved, using our [values hierarchy](#hierarchy) and [directly](#directness) discussing the tradeoffs is easier with more context.
+Saying why and not just what enables discussion around topics that may impact more than one value; for instance, when weighing the [efficiency of boring solutions](#boring-solutions) with the focus on [customer results](#results). When decisions align with all of our values, they are easy to discuss and decide. When there are multiple values involved, using our [values hierarchy](#hierarchy) and [directly](#directness) discussing the tradeoffs is easier with more context.
 
 Articulating why also helps people understand how something changed when you [articulate that you changed your mind](#articulate-when-you-change-your-mind).
 
@@ -1293,7 +1291,7 @@ This method [has shown itself to be effective](https://gitlab.com/groups/gitlab-
 
 Companies are encouraged to copy and implement GitLab's values. They are Creative Commons and can be copied verbatim.
 
-We make our values public for the same [reasons](/handbook/company/culture/all-remote/hiring/#make-your-strategy-public) we make our [OKRs](/handbook/company/okrs/) (Objectives and Key Results) and [strategy](/handbook/company/strategy/) public. There is great power and efficiency in teams who share company values. Concealing values until *after* someone is hired into an organization is not a wise strategy.
+We make our values public for the same [reasons](/handbook/company/culture/all-remote/hiring/#advertise-accurately-and-transparently) we make our [OKRs](/handbook/company/okrs/) (Objectives and Key Results) and [strategy](/handbook/company/strategy/) public. There is great power and efficiency in teams who share company values. Concealing values until *after* someone is hired into an organization is not a wise strategy.
 
 Not everyone will see our values and feel aligned with them, and that's OK. By making values public, it shows respect for the time of job seekers who conduct due diligence on prospective employers. When people who *are* aligned with GitLab's values apply for an [open vacancy](https://about.gitlab.com/jobs/), this allows our hiring teams to more efficiently move candidates through the [interview process](/handbook/hiring/interviewing/).
 
@@ -1405,11 +1403,11 @@ Below are some attributes of political and non-political work environments. GitL
 | People have territorial behaviors and are quick to perceive suggestions as attacks | People have [short toes](#short-toes) |
 | People have unhealthy alliances with backroom conversations | People have good intent and actively collaborate with folks |
 | Information is intentionally withheld | Information is shared early (often WIP) and at the same time with all interested parties  |
-| People try to undermine each other's credibility by arguing with the weakest part of their argument | People take a ["steel man" position](/values/#assume-positive-intent) and argue against the strongest version of your opponent's position |
+| People try to undermine each other's credibility by arguing with the weakest part of their argument | People take a ["steel man" position](#assume-positive-intent) and argue against the strongest version of your opponent's position |
 | Folks do not provide direct feedback. Instead, they withhold their thoughts or speak behind each other's backs | Feedback is given directly. This includes feedback about a manager's team |
 | Communicating your own suggestions through a report instead of directly | Feedback is given directly from the person who has it |
 | Evaluating proposals or work by who said or did it instead of by what is in it | Proposals and work is evaluated without regard to who worked on them |
-| Lack of transparency in escalations. Team members go to a manager without first attempting to align with peers on an issue or letting peers know |  Team members speak directly to each other about feedback and requests in order to resolve their own conflicts. When they escalate, [they do it in an effective way](/leadership/#effective-escalations) |
+| Lack of transparency in escalations. Team members go to a manager without first attempting to align with peers on an issue or letting peers know |  Team members speak directly to each other about feedback and requests in order to resolve their own conflicts. When they escalate, [they do it in an effective way](/handbook/leadership/#effective-escalations) |
 
 {{< youtube id="vEk9z5vumB8" >}}
 

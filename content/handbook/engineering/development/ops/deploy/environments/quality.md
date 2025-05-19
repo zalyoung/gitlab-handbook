@@ -52,7 +52,6 @@ The results of test runs can be found also in the `#e2e-run-staging` Slack chann
 #### Which resources tests use and where can they be found?
 
 Environments End-to-end tests use the `gitlab-qa-resources` project in GCP to spin up GKE clusters.
-The project belongs and it is maintained by the Quality Engineering department.
 
 #### What's the GitLab Agent for Kubernetes client version in use?
 
@@ -60,7 +59,7 @@ The version in use can be found on the [Runtime Environment Variables file](http
 
 ### Troubleshooting
 
-Please reach out to [your counterpart SET](/handbook/engineering/quality/#individual-contributors) or in the `#quality` channel.
+Please reach out in the `#s_developer_experience` channel.
 
 ### Helpful Documentation
 

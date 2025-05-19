@@ -12,7 +12,7 @@ The Platform Insights group is part of the GitLab [Monitor stage](/handbook/engi
 
 ### Stable counterparts
 
-{{< stable-counterparts manager-role="Engineering Manager(.*)Monitor:Platform Insights" role="Product(.*)Platform Insights|Principal(.*)Monitor|Security(.*)Monitor" >}}
+{{< engineering/stable-counterparts manager-role="Engineering Manager(.*)Monitor:Platform Insights" role="Product(.*)Platform Insights|Principal(.*)Monitor|Security(.*)Monitor" >}}
 
 ## Technical Architecture
 
@@ -42,7 +42,7 @@ Learn more: [Clickhouse Datastore Working Group](/handbook/company/working-group
 
 ## How we work?
 
-We base our workflow on the company's [Product Development Flow](/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
+We base our workflow on the company's [Product Development Flow](/handbook/product-development/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
 
 ### Async Standups
 
