@@ -16,7 +16,7 @@
 | 2025-10-15 | Marcel van Remmerden | Austin Regnery         | Emily Bauman           | Jesse Young            |
 | 2025-10-29 | Chris Micek          | Nick Leonard           | Divya Alagarsamy       | Torian Parker          |
 | 2025-11-12 | Justin Mandell       | Camellia Yang          | Libor Vanc             | Jason Hung             |
-| 2025-11-26 | Marcel van Remmerden | Alyssa Trinh           | Sascha Eggenberger     | Andrew Cummins         |
+| 2025-11-26 | Gina Doyle           | Alyssa Trinh           | Sascha Eggenberger     | Andrew Cummins         |
 | 2025-12-10 | Jacki Bauer          | Michael Fangman        | Andrew Bacon           | Gina Doyle             |
 | 2025-12-24 | APAC                 | Michael Le             | Alex Fracazo           | Bonnie Tsang           |
 | 2026-01-07 | Taurie Davis         | Dan Mizzi-Harris       | Tim Noah               | Sam Reiss              |
