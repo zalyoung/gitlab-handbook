@@ -107,10 +107,10 @@ The only two ways of influencing Monte Carlo's anomaly detection model are descr
 1. Mark as normal: anomalies are automatically excluded from the set of data that trains models. This isn't a status of the incident per-se, this is a specific functionality you can access by hovering over the alert graph in Monte Carlo
 2. Select training data: by interacting with the chart of a monitor, users can exclude periods of data from training models. They can also use exclusion windows to define periods of time that should be ignored for an entire warehouse, database, schema, or table. These can be one-off or set for recurring holidays.
 
-When you mark an alert as "normal" in Monte Carlo, the anomalous data point that triggered the alert will be re-introduced into the training set for the anomaly detection model. This causes the threshold to widen, meaning similar anomalies will not trigger alerts in the future. Tuning thresholds - Monte Carlo
+When you mark an alert as "normal" in Monte Carlo, the anomalous data point that triggered the alert will be re-introduced into the training set for the anomaly detection model. This causes the threshold to widen, meaning similar anomalies will not trigger alerts in the future.
 The key consequences of this action include:
 
-- Threshold Adjustment: The system's detection thresholds will automatically widen to accommodate the pattern you've identified as normal, reducing alert noise for similar events. Tuning thresholds - Monte Carlo
+- Threshold Adjustment: The system's detection thresholds will automatically widen to accommodate the pattern you've identified as normal, reducing alert noise for similar events.
 - Model Retraining: The anomaly detection model is retrained with this data point now included as part of the "normal" pattern, which affects future anomaly detection.
 - Reduced Alert Noise: You'll receive fewer alerts for similar patterns that were previously flagged as anomalies but are actually expected behavior.
 
@@ -118,7 +118,7 @@ The key consequences of this action include:
 
 You should mark alerts as normal when:
 
-- Expected Business Changes: The detection was a valid anomaly from a statistical standpoint, but was the expected result of something like a pipeline change or planned maintenance. Marking Alerts as Incidents - Monte Carlo For example, an intentional deletion of data that triggers a volume anomaly alert.
+- Expected Business Changes: The detection was a valid anomaly from a statistical standpoint, but was the expected result of something like a pipeline change or planned maintenance. For example, an intentional deletion of data that triggers a volume anomaly alert.
 - Non-Issues: You don't want to be alerted about similar anomalies in the future because they represent normal business patterns rather than actual data issues.
 - Recurring Patterns: For patterns that appear unusual to the system but are actually regular business cycles (like monthly processing jobs that cause volume spikes).
 
