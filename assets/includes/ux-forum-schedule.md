@@ -3,7 +3,6 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-05-14 | Jacki Bauer          | Alyssa Trinh           | Tina Lise Ng           | Sascha Eggenberger     |
 | 2025-05-28 | APAC                 | Michael Le             | Alex Fracazo           | Bonnie Tsang           |
 | 2025-06-11 | Gina Doyle           | Dan Mizzi-Harris       | Tim Noah               | Sunjung Park           |
 | 2025-06-25 | Marcel van Remmerden | Ilonah Pelaez          | Lina Fowler            |                        |
