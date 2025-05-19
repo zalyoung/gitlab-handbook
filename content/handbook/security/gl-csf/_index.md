@@ -19,7 +19,7 @@ first. In order to facilitate this process, the framework supports the engineeri
 the life cycle of the feature, to facilitate the creation of the required documentation and other
 artifacts.
 
-The framework relies heavily on the [data classification](/handbook/security/data-classification-standard/) of the feature in
+The framework relies heavily on the [data classification](/handbook/security/standards/data-classification-standard/) of the feature in
 scope. It is not necessary for features managing Green data, and more activities are required as the
 level increases, up to Red data.
 
@@ -38,7 +38,7 @@ and more precisely for changes in:
 
 1. The [GitLab Architecture](https://docs.gitlab.com/ee/development/architecture.html)
 1. The [GitLab.com    infrastructure](/handbook/engineering/infrastructure/production/architecture/)
-1. The [classification](/handbook/security/data-classification-standard/) of
+1. The [classification](/handbook/security/standards/data-classification-standard/) of
    the data being managed (stored, transferred, or updated)
 
 ## Getting Started
@@ -85,7 +85,7 @@ A value among: `Green`, `Yellow`, `Orange`, or `Red`.
 
 ##### Resources
 
-1. The [Data Classification Standard](/handbook/security/data-classification-standard/) handbook page
+1. The [Data Classification Standard](/handbook/security/standards/data-classification-standard/) handbook page
 
 #### Architecture
 

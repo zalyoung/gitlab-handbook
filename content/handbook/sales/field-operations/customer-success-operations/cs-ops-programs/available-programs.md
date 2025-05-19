@@ -24,7 +24,7 @@ The programs below are currently active. For more details on segmentation breakd
 | Security Adoption | Day 30 | CSE / Digital SMB |
 | CD Adoption | Day 50 | CSE / Digital SMB |
 | Agile Adoption | Day 60 | CSE / Digital SMB |
-| [Customer CSAT Survey](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/) | Quarterly | All |
+| [Customer CSAT Survey](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/) | Biannually | All |
 | [Customer Newsletter](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/customer-newsletter/) | Monthly on the 4th Friday | All |
 
 To enroll contacts into Enablement campaigns Gainsight users can enroll contacts through a multi-picklist Enablement Enrollment on the contact in Gainsight - see [issue](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/694) for instructions.
