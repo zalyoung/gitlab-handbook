@@ -27,7 +27,7 @@ Allows setting additional compute minutes to a customer namespace to the value s
 ---
 **##### Need to open an issue to support the edit monthly quotas during trial funcationality**
 
-> **WARNING:** Additional compute minutes added this way will last **indefinitely** until used. If the request is to provide "extra compute minutes" during the trial period only, use the [Manage GitLab Plan and Trials option](#manage-gitlabcom-plan-and-trials) which will change the *usage quota* to match a paid plan quota for the duration of the trial. 
+> **WARNING:** Additional compute minutes added this way will last **indefinitely** until used. If the request is to provide "extra compute minutes" during the trial period only, use the [Manage GitLab Plan and Trials option]() which will change the *usage quota* to match a paid plan quota for the duration of the trial. 
 
 ---
 
@@ -131,6 +131,7 @@ Search for the specific trial or the namespace.
 ##### Update 
 
 Select the **Edit** ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/-/raw/main/sprite_icons/pencil.svg)
+
 - **End Date**: The updated date the plan will end.
 - **Plan**: The trial plan that you would like applied for the customer's group.  If the `x Clear` option is selected, the customer's namespace will immediately be downgraded and the trial ends.
 - **Zendesk ticket link**: The link to relevant Zendesk ticket where the request is made.
@@ -138,6 +139,7 @@ Select the **Edit** ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/-/raw/main
 ##### Cancel
 
 Select **Cancel trial** ![icon](https://gitlab.com/gitlab-org/gitlab-svgs/-/raw/main/sprite_icons/cancel.svg)
+
 - **Zendesk ticket link**: The link to relevant Zendesk ticket where the request is made.
 
 ### Trials for SM
@@ -147,7 +149,7 @@ The use of this feature should be limited for any emergency license requests whe
 
 - **Email**: The email where the license will be sent. We recommend sending the license to the ticket requester's email, unless specified otherwise.
 - **Users count**: Total number of users in the license.
-   - For Self-Managed licences, GitLab will refuse to install a license key with less than the current number of billable users. Therefore, **User Count** for a trial license should *at least* be the same number as the current number of billable users plus any true-ups owed (if any).  For example, if 25 current billable users, and 5 true-ups owed, set **User Count** to at least 30.
+  - For Self-Managed licences, GitLab will refuse to install a license key with less than the current number of billable users. Therefore, **User Count** for a trial license should *at least* be the same number as the current number of billable users plus any true-ups owed (if any).  For example, if 25 current billable users, and 5 true-ups owed, set **User Count** to at least 30.
 - **Plan code**: The plan for the license.
 - **Starts at**: The license start date.
 - **Expires at**: The license expiry date.

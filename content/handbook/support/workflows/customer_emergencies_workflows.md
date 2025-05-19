@@ -403,16 +403,13 @@ A customer may be blocked because of a license expiring or neglecting to apply a
     - If it has a date, you will not need to provide a `Subscription Name` in the next step. Proceed to step 3.
     - If it is empty or null **and the namespace is on a Free plan**, guide the customer to navigate to the Settings -> Billing page and click on `Start a Free Ultimate trial`.
 1. In the ticket, apply the `Trial Subscription - Exclusions Sign Off` macro and send the generated message to the customer. Do not proceed further until the customer has provided a **written** response confirming they understand the trial subscription exclusions.
-1. In the `Mechanizer` app on the ticket use the [`Manage GitLab Plan and Trials`](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#manage-gitlabcom-plan-and-trials) option to resolve the situation.
-    - Enter the namespace path.
+1. Access the [CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#where-the-tool-is-located) use the [`Trial changes (SaaS)`](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#update) option to resolve the situation.
+    - Search for the namespace ID.
+    - Select the pencil icon to edit the trial.
     - Select the Plan the customer had initially purchased, or use `Ultimate` if you do not have this information.
     - Set the end date to 10 days later.
-    - Leave the `Approving sales manager's GitLab username` field empty.
-    - Leave the `Subscription name` empty.
-    - Click `Submit request`.
-1. Wait for the pipeline to complete and check the output of Mechanizer in the [Internal Requests issue tracker](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) where Mechanizer will have automatically assigned you to a new issue.
-    - If it is successful, proceed to the next step.
-    - If there are any failures, please see [Problems extending trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#problems-extending-trials) for some troubleshooting steps.
+    - Add the relevant Zendesk ticket link to `Zendesk ticket link` field
+    - Click `Save`.
 1. When the customer confirms, close the emergency ticket.
 1. Alert [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) by linking to the ticket for follow-up.
 
@@ -426,7 +423,7 @@ Some legacy-type subscriptions are called "multi-year" but are actually multiple
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/subscriptions/customers_portal/#change-the-linked-account).
 1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/subscriptions/gitlab_com/#change-the-linked-namespace).
 
-If the customer's CustomersDot account is not linked to their GitLab.com account (`uid` and `Gitlab user` in the CustomersDot account is empty) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
+If the customer's CustomersDot account is not linked to their GitLab.com account (`uid` and `Gitlab user` in the CustomersDot account is empty) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/support_tools/#force-associate) as a workaround.
 
 If neither of the above resolves the issue for the customer, [contact the on-call Support Manager](#optional-contact-the-on-call-support-manager) requesting further guidance.
 
