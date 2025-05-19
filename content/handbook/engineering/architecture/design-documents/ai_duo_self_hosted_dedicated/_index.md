@@ -2,9 +2,9 @@
 title: "Single Tenant AI Gateway for Dedicated"
 status: proposed
 creation-date: "2025-05-26"
-authors: [ "@eduardobonet" ]
+authors: [ "@mhamda" ]
 coach: ""
-approvers: [ "@susie.bee", "@sean_carroll" ]
+approvers: [ "@susie.bee", "@eduardobonet" ]
 owning-stage: "~devops::ai-powered"
 participating-stages: ["~group::dedicated"]
 toc_hide: true
