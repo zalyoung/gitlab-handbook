@@ -94,7 +94,7 @@ All GitLab-owned computing resources must be [returned](/handbook/people-group/o
 
 ### Bring-Your-Own-Device (BYOD)
 
-As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](/handbook/security/data-classification-standard/), is still prohibited and possible only via a GitLab managed device.
+As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](/handbook/security/standards/data-classification-standard/), is still prohibited and possible only via a GitLab managed device.
 
 The exceptions are as follows:
 
