@@ -7,6 +7,3 @@ Welcome to the Testing Guide. Pages in this section provides information about t
 ### Types of Testing 
 
 The GitLab application is testing through a combination of automated tests, following the [test pyramid levels](https://docs.gitlab.com/development/testing_guide/testing_levels/) 
-
-
-
