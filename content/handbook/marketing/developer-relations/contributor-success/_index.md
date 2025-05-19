@@ -61,8 +61,7 @@ Any engineering work required to reach these goals is within limits. For example
 #### Open Community MR Age (OCMA)
 
 1. Minimize reliance on human factors that contribute to a large standard deviation
-1. Identify & drive tooling improvements to decrease OCMA, and collaborate with the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/)
-through shared tooling for [automated triaging](/handbook/engineering/infrastructure/engineering-productivity/#automated-triage-policies)
+1. Identify & drive tooling improvements to decrease OCMA
 
 #### Co-Create
 
