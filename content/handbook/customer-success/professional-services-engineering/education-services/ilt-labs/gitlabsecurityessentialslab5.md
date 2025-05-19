@@ -42,7 +42,7 @@ dast:
       alias: juiceshop
 ```
 
-1. We can provide many different variables to our DAST scanner. We will add the following values to the scanner:
+1. We can provide many different variables to our DAST scanner. We will add the following values to the DAST scanner:
 
     ```yml
     variables:
@@ -124,7 +124,7 @@ API scanners allow you to scan your application API endpoints for potential vuln
 
 1. Select **Use template** next to the **Security Essentials Labs** template.
 
-1. For **Project name**, input `Security Labs`. 
+1. For **Project name**, input `API Scanner Demo`. 
 
 1. Select **Create project**. 
 
@@ -135,7 +135,8 @@ API scanners allow you to scan your application API endpoints for potential vuln
 1. To add API scanning to our container, define the `dast` job and add the API security template.
 
   ```yml
-  image: docker:26
+  default:
+    image: docker:26
 
   include:
       - template: API-Security.gitlab-ci.yml
@@ -146,7 +147,6 @@ API scanners allow you to scan your application API endpoints for potential vuln
 
   variables:
     TARGET_IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
-
   ```
 
 1. Create a build job, which creates a Docker container to scan.
@@ -159,8 +159,7 @@ API scanners allow you to scan your application API endpoints for potential vuln
       script:
           - docker build -t $TARGET_IMAGE .
           - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-          - docker push $TARGET_IMAGE
-          
+          - docker push $TARGET_IMAGE   
   ```
 
 1. Add the job definition for the API scanner.
