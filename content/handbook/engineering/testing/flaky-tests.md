@@ -4,9 +4,7 @@ title: "Flaky tests"
 
 ## Introduction
 
-A flaky test is an unreliable test that occasionally fails but passes eventually if you retry it enough times.
-
-Flaky tests can be a result of brittle tests, unstable test infrastructure, or an unstable application. We should try to identify the cause and remove the instability to improve quality and built trust in test results. 
+A flaky test is an unreliable test that occasionally fails but passes eventually if you retry it enough times. Flaky tests can be a result of brittle tests, unstable test infrastructure, or an unstable application. We should try to identify the cause and remove the instability to improve quality and build trust in test results. 
 
 ### Manual flow to detect flaky tests
 
