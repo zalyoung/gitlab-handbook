@@ -132,6 +132,10 @@ We keep our shared environment up-to-date with the latest versions to help showc
 
 For demo and sandbox use cases requiring an older version, you can deploy a GitLab instance in a container in the Container Sandbox or using Omnibus in the Compute Sandbox. We do not offer any data migration or parity configuration support.
 
+### GitLab Duo features
+
+GitLab Duo is enabled for the demo cloud environments. You may assign a seat to yourself & other users in the Admin settings.
+
 ## Tutorials
 
 - [Configuring GitLab with group-level Kubernetes cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/)

@@ -1,12 +1,66 @@
 ---
 title: "Application Security"
-description: "The application security team's mission is to support the business and ensure that all GitLab products securely manage customer data."
+description: Application Security home page
 ---
 <!-- markdownlint-disable MD052 -->
+Last updated: May 8, 2025
 
 ## Application Security Mission
 
-As part of the Product Security department, the application security team's mission is to support the business and ensure that all GitLab products securely manage customer data. We do this by working closely with both engineering and product teams.
+The Product Application Security team works with GitLab engineers and product teams to anticipate and prevent the introduction of vulnerabilities during design and development, ensuring delivery of high quality software GitLab customers can trust. We also identify, assess, and respond to security vulnerabilities discovered in GitLab products and services that are reported through Coordinated Vulnerability Disclosure practices.
+
+## Value Proposition
+
+We provide operational application of DevSecOps practices, data insights and security consultation so that GitLab engineers can easily deliver high quality secure products and services to customers while maintaining feature capabilities and velocity to market.
+
+## Scope & Responsibilities
+
+### Primary Areas of Ownership
+
+We organize our work into five pillars that emphasize Developer UX in the context of traditional DevSecOps programs. We call this the Secure Developer eXperience, or SDX.
+
+**SDX: Learn** security training, governance, policy, documentation, and standards.
+
+**SDX: Design** threat modeling, feature design guidance and consultation, and design reviews.
+
+**SDX: Code** static analysis, software component analysis and supply chain security, use of approved tools and methodologies in development, deprecation of unsafe functions, etc.
+
+**SDX: Verify** dynamic analysis testing, penetration testing, remediation of critical vulnerabilities, and final security review prior to release.
+
+**SDX: Maintain** establishment of an incident response plan, managing coordinated vulnerability disclosure, bug bounty programs, and critical product security incident response management release and post-release operations.
+
+The Application Security sub-department includes two teams, the *Secure Design & Development Team* and the *Product Security Incident Response Team (PSIRT)*.
+
+The Application Security team partners with several other teams across the Security Division to deliver end-to-end security solutions that work for GitLab engineers.
+
+## Shared Accountabilities
+
+These strategic security programs have multiple stakeholders across the Security Division.
+
+*Supply Chain Security:* Application Security's accountability is shared by both SD&D and PSIRT. Additional Product Security teams involved in Supply Chain Security include SPA, Vulnerability Management, and InfraSec.
+
+*Dogfooding:* Application Security's accountability is to use GitLab security products in our work and be participants in providing actionable Customer Zero feedback to the SPA team, who is the Dogfooding DRI for Product Security.
+
+*Vulnerability Management / Tech Debt:* The Application Security Team's accountability is shared by both SD&D and PSIRT. The Vulnerability Management team is DRI for Vuln Mgmt tooling development and implementation
+
+*Secure by design:* The Secure Design and Development Team's accountability is feature focused, assessing threats through Threat Modeling (SDX: Design) and feature design reviews. The SPA team is DRI for Threat Modeling strategy company-wide, while AppSec is a participant stakeholder in this strategy.
+
+*Security Response:* Application Security's accountability for Product Security Response is partially shared by both SD&D and PSIRT.
+SD&D currently helps with security release rotations. During FY26 this will transition to the PSIRT.
+PSIRT triages and technically assesses critical and exploitable vulnerabilities, determines company and customer risk, and coordinates external communications regarding these issues.  PSIRT has several partners across the company including:
+
+- SecOps is DRI for Incident Command and Threat Detection (IOCs, TTPs)
+- SPA (Research) is a key partner for exploitability POC development
+- PR/Comms
+- Legal
+- Delivery
+
+## Out of Scope
+
+SBOM production
+Container Scanning
+Customer Escalations regarding security scanner findings
+Compliance
 
 ## Contacting us
 
@@ -18,25 +72,45 @@ Team members can reach the AppSec team by:
 - Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
-## PTO
+## FY26 Primary Focus Areas
 
-Team members that are taking PTO for 5 days or more [must create a PTO coverage issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=pto_coverage) to organise their coverage during their time off. The PTO coverage issue should :
+In FY26, our key focus areas are:
+
+Organizational Upleveling:
+
+- Establish PSIRT
+- Expand Security Design & Development Services at scale
+
+Support Company and Division Priorities:
+
+- Authorization & Authentication
+- AI Security & Safety
+- Supply Chain security
+- Customer Zero
+
+In the near future, we will expand upon these priorities and publish a high-level team-wide roadmap.
+
+## FY26 Metrics
+
+Application Security is rebuilding our operational business health metrics in FY26. These metrics are in addition to Key Risk Indicators, project-level metrics, or sub-team specific metrics. For many of these, metrics instrumentation and reporting mechanisms are still forthcoming. As the team matures, these metrics will evolve and be shared on this page.
+
+## Useful resources for AppSec engineers
+
+### PTO
+
+Team members that are taking PTO for 5 days or more must both discuss time off with their manager prior to scheduling to ensure visibility and adequate team operational coverage [**and** create a PTO coverage issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=pto_coverage) to organize their coverage during their time off. The PTO coverage issue should :
 
 - List any potential requests that could come to the team while on PTO
-- The team member taking PTO shoud organise their work accordingly and ensure the PTO coverage issue contains the context required to handle the work
+- The team member taking PTO should organize their work accordingly and ensure the PTO coverage issue contains the context required to handle the work
 - Assign primary and secondary responsible team members
 
 AppSec team members should add any important information related to the work they are covering for the person on PTO and AppSec manager(s) should add any important announcement to see upon their return.
 
-## Application Security Roadmap
-
-Please see the [Product Security Program Strategy document](https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit).
-
-## Roles & Responsibilities
+### Roles & Responsibilities
 
 Please see the [Application Security Job Family page](/job-families/security/application-security).
 
-## Useful resources for AppSec engineers
+### Helpful Quicklinks
 
 - [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/product-security/appsec)
 - [The `appsec-lab` group on Staging. This has an Ultimate license.](https://staging.gitlab.com/appsec-lab)
@@ -52,21 +126,19 @@ Please see the [Application Security Job Family page](/job-families/security/app
 
 The list above is not exhaustive and is subject to be modified as our processes keep evolving.
 
-## Application Security KPIs & Other Metrics in Sisense
+### Application Security KPIs & Other Metrics in Sisense
 
 - For Embedded KPIs which you filter by section, stage, or group, please [see this page](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4).
 
-## General Role Functions
-
-### Stable Counterparts
+## Stable Counterparts
 
 Please see the [Application Security Stable Counterparts page](/handbook/security/product-security/application-security/stable-counterparts/).
 
-### Application Security Reviews
+## Application Security Reviews
 
 Please see the [Application Security Reviews page](/handbook/security/product-security/application-security/appsec-reviews/).
 
-### RCAs for Critical Vulnerabilities
+## RCAs for Critical Vulnerabilities
 
 Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook/security/root-cause-analysis)
 
@@ -116,3 +188,9 @@ The GitLab Application Security team plans work based around Milestones, see [th
 ## Application Security Automation and Monitoring
 
 Learn more about the automation initiatives that the Application Security team uses on the [Application Security Automation and Monitoring page](/handbook/security/product-security/application-security/application-security-automation-monitoring/)
+
+## Review and Updates
+
+This charter will be reviewed quarterly to ensure alignment with company and divisional priorities, the GitLab Security product roadmap, and relevant business and operational changes. Updates may occur more frequently as business operations evolve.
+
+*Next scheduled review: June 30, 2025*

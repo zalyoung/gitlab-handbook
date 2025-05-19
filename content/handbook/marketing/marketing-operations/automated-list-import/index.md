@@ -221,7 +221,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Argentina                                    | Prince Edward Island                 | Registered              |
 | Armenia                                      | Quebec                               | Attended                |
 | Aruba                                        | Saskatchewan                         | Attended On-Demand      |
-| Australia                                    | Yukon Territories                    | No Action               |
+| Australia                                    | Yukon                                | No Action               |
 | Austria                                      | Armed Forces Americas                | Downloaded              |
 | Azerbaijan                                   | Armed Forces Europe                  | Shipped                 |
 | Bahamas                                      | Alaska                               | Delivered               |

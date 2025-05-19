@@ -8,7 +8,7 @@ approvers: [  ]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work-in-progress and proposes architecture changes for the GitLab.com SaaS.
 The goal of these changes are to maintain GitLab.com service continuity in the case a regional or zonal outage.

@@ -133,7 +133,8 @@ Your Finance Business Partner will provide budget guidance and approval for all 
 |    Engineering    |    Jessica Smith `@JessSmith`    |
 |    Product & UX    |    Jessica Smith `@JessSmith`    |
 |    Security    |    Petra Foget `@pfoget`    |
-|    G&A (CFO, People, Legal)    |    Nyasha Tarinda `@ntarinda`    |
+|    G&A (CFO)    |   Petra Foget `@pfoget`    |
+|    G&A (People, Legal)    |   Cameron Smith `@cam.smith`    |
 
 #### Team-specific budget considerations
 

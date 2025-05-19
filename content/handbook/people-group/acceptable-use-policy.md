@@ -33,7 +33,7 @@ We are currently using Jamf as our endpoint management solution for macOS laptop
 
 ### Security and Proprietary Information
 
-All GitLab data is categorized and must be handled in accordance with the [Data Classification Standard](/handbook/security/data-classification-standard/). All computing assets that connect to any part of the GitLab network, or 3rd party services that are used by GitLab, must comply with the applicable standards.
+All GitLab data is categorized and must be handled in accordance with the [Data Classification Standard](/handbook/security/standards/data-classification-standard/). All computing assets that connect to any part of the GitLab network, or 3rd party services that are used by GitLab, must comply with the applicable standards.
 
 ### Open source libraries
 
@@ -75,7 +75,7 @@ Prohibited system and network activities include, but are not limited to, the fo
 - Attempting to uninstall security controls without prior approval from a Security manager
 - Circumventing user authentication or security of any computer host, network, or account used by GitLab.
 - Tunneling between network segments or security zones (e.g., `gprd`, `gstg`, `ops`, `ci`, `ngrok`), except when troubleshooting issues for the benefit of GitLab.
-- Given the potential sensitivity of the data contained in screenshot images, the use of tools that capture and share screenshots to hosted sites online is prohibited without the explicit approval of the Security and Legal Departments.  Screenshots should be stored locally or within Google drive folders associated with your GitLab.com account. Access to these drives and files should be managed in accordance with our [Access Management policy](/handbook/security/security-and-technology-policies/access-management-policy/), and handled according to our [Data Classification Standard](/handbook/security/data-classification-standard/). Tools such as [Lightshot](https://app.prntscr.com/en/index.html), where upload functionality cannot be disabled and could result in inadvertent uploads, should not be used.
+- Given the potential sensitivity of the data contained in screenshot images, the use of tools that capture and share screenshots to hosted sites online is prohibited without the explicit approval of the Security and Legal Departments.  Screenshots should be stored locally or within Google drive folders associated with your GitLab.com account. Access to these drives and files should be managed in accordance with our [Access Management policy](/handbook/security/security-and-technology-policies/access-management-policy/), and handled according to our [Data Classification Standard](/handbook/security/standards/data-classification-standard/). Tools such as [Lightshot](https://app.prntscr.com/en/index.html), where upload functionality cannot be disabled and could result in inadvertent uploads, should not be used.
 - The use of high risk remote administration tools, such as TeamViewer and AnyDesk, which are [commonly used by attackers](https://attack.mitre.org/techniques/T1219/) to gain and remotely control systems.
 - Tools that emulate another operating system or create compatibility layers such as [WINE](https://www.winehq.org/)
 - The use of torrent or other P2P software on GitLab computing assets.
@@ -120,7 +120,7 @@ For [video calls](/handbook/communication/#video-calls), and as a back-up to Sla
 
 The use of removable and external storage devices such as USB flash drives and external backup drives on company-managed devices is not allowed and is blocked by default. An exception request may be opened [here](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new?issuable_template=usb_exception) if there is a business need for the use of an external storage device. Corporate Security will coordinate with requestors to determine the most suitable encryption-enabled device and configure encryption and password protection.
 
-As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/) for further details.
+As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard](/handbook/security/standards/data-classification-standard/) for further details.
 
 ### Use of file sharing services other than GitLab's Google Drive
 
@@ -153,7 +153,7 @@ To consult with the Security Team create an issue in the [Security Compliance tr
 Exceptions to this policy must be approved by Security, Legal and PeopleOps Departments.
 
 - [Onboarding Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md)
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
+- [Data Classification Standard](/handbook/security/standards/data-classification-standard/)
 - [Asset return procedure](/handbook/people-group/offboarding/#returning-property-to-gitlab)
 - [Lost or stolen asset procedure](/handbook/security#reporting-an-incident)
 

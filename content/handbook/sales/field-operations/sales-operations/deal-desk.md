@@ -773,7 +773,7 @@ B. MSP Quote Creation Steps:
   - **Invoice Owner Contact** = Billing Account Contact record (this person will receive the invoice) of the MSP partner
   - **Discount** = Programmatic partner discounts for the MSP must be added to the quote. There is a [Partner Discount Cheat Sheet](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing) for use by internal GitLab Team Members for ease of quoting.
 
-Refer to the [MSP step-by-step quoting guide](https://gitlab.highspot.com/items/641241c62d511fd525a390e1) for further information.
+Refer to the [MSP step-by-step quoting guide](https://gitlab.highspot.com/items/67c87823e796e70b0f97a0c6?lfrm=srp.0) for further information.
 
 More details on MSP Deal Registration can be found in the [Partner Ops handbook](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-msp-opportunities).
 

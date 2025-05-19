@@ -19,7 +19,7 @@ The Utilization group manages the [Utilization category](/handbook/product/categ
 
 ## Stable counterparts
 
-{{< stable-counterparts role="Fulfillment:Utilization|Security(.*)Fulfillment|Director(.*)Fulfillment" manager-role="Fullstack Engineering Manager, Fulfillment:Utilization" >}}
+{{< engineering/stable-counterparts role="Fulfillment:Utilization|Security(.*)Fulfillment|Director(.*)Fulfillment" manager-role="Fullstack Engineering Manager, Fulfillment:Utilization" >}}
 
 ## How we work
 

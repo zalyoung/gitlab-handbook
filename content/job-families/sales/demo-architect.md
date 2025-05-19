@@ -103,7 +103,7 @@ Candidates can expect the hiring process to follow the order below. Please keep 
 
 ### Individual Contributor Hiring Process
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters.
 - Next, candidates will be invited to schedule a first interview with the SA team Manager or Director.
 - Candidates may be invited to schedule an interview with a Demo Architect peer or other SA team Manager or Director.
 - Then, candidates will be required to deliver a demo of GitLab to a panel of Customer Success attendees using the [Demo Guide](https://gitlab-com.gitlab.io/customer-success/solutions-architecture/sa-candidate-experience/panel_instructions/).

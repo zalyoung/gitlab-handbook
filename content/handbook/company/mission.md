@@ -77,7 +77,7 @@ Our mission is the way we realize [our purpose](/handbook/company/purpose/). By 
 
 Access to a broader set of more valuable opportunities ultimately **increases people's lifetime earnings**.
 
-[Our purpose](/handbook/company/purpose/) is on the same 30 year cadence as our mission. [Our purpose](/handbook/company/purpose/) informs our mission, which directly or indirectly informs the rest of the items in [our cadence](/handbook/company/cadence/). As a result, progress for the items on our [cadence page](/handbook/company/cadence/) like [Yearlies](/handbook/company/yearlies/) creates progress for both our mission and [our purpose](/handbook/company/purpose/).
+[Our purpose](/handbook/company/purpose/) is on the same 30 year cadence as our mission. [Our purpose](/handbook/company/purpose/) informs our mission, which directly or indirectly informs the rest of the items in [our cadence](/handbook/company/cadence/). As a result, progress for the items on our [cadence page](/handbook/company/cadence/) creates progress for both our mission and [our purpose](/handbook/company/purpose/).
 
 ### Vision
 

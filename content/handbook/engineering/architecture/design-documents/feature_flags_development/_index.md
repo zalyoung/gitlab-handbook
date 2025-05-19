@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 Usage of feature flags become crucial for the development of GitLab. The
 feature flags are a convenient way to ship changes early, and safely rollout

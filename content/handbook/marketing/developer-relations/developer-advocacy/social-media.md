@@ -407,23 +407,23 @@ KPIs:
 
 Use the [social card validator](/handbook/marketing/developer-relations/developer-advocacy/social-media/#social-card-validators) to verify the social preview of the release blog post. There might be a situation where the preview does not render correctly, or otherwise needs more attention from readers. As a boring solution, resize your browser and [take a screenshot](/handbook/tools-and-tips/mac/#taking-screenshots-and-videos) from the header, including the sub title listing the features, and attach the image to the social shares. Examples for 15.1: [Twitter](https://twitter.com/dnsmichi/status/1539646159500853248), [LinkeDIn](https://www.linkedin.com/posts/dnsmichi_it-is-the-22nd-of-the-month-gitlab-activity-6945411563717574656-ZZdr?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
-#### Release Evangelism MVP
+#### Release Evangelism Notable Contributor
 
-The monthly release post awards the [MVP](/handbook/marketing/blog/release-posts/#mvp) to a community contributor. A personal shoutout from a Developer Advocate helps with community engagement, and helps increasing visibility so that everyone wants to contribute.
+The monthly release post awards the [Notable Contributor](/handbook/marketing/blog/release-posts/#notable-contributor) to a community contributor. A personal shoutout from a Developer Advocate helps with community engagement, and helps increasing visibility so that everyone wants to contribute.
 
 Workflow:
 
 - Open the release blog post
-- [Create a screenshot](/handbook/tools-and-tips/mac/#taking-screenshots-and-videos) from the MVP section
+- [Create a screenshot](/handbook/tools-and-tips/mac/#taking-screenshots-and-videos) from the Notable Contributor section
 - Prepare the social share in 280 characters
   - Use a personalized message based on the feature contributions
-  - Tag the MVP using their social tags listed on their GitLab profile (Twitter, LinkedIn)
+  - Tag the Notable Contributor using their social tags listed on their GitLab profile (Twitter, LinkedIn)
   - Add the `#EveryoneCanContribute` hashtag
-  - Add the release blog post with the `/#mvp` anchor in the URL
+  - Add the release blog post with the `/#notable-contributor` anchor in the URL
   - Example from [14.9, LinkedIn](https://www.linkedin.com/posts/dnsmichi_terraform-everyonecancontribute-activity-6912476005810999296-ig8Q): `Shoutout to Timo Furrer for becoming the GitLab 14.9 MVP 🎉 Your work on the #Terraform provider, automating all things GitLab, is invaluable. Thanks for all your contributions! 💜 🦊 #EveryoneCanContribute https://about.gitlab.com/releases/2022/03/22/gitlab-14-9-released/#mvp`
-- Post the MVP share on Twitter and LinkedIn
+- Post the Notable Contributor share on Twitter and LinkedIn
   - Add the URLs to the release evangelism issue
-- Ask the CEO in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
+- Ask the CEO in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the Notable Contributor shares
   - Suggested actions: Reshare/like, add a comment thanking for the contributions.
   - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text.
   - Check the shares for comments, and engagement metrics
@@ -432,16 +432,16 @@ Workflow:
 
 High performing share examples for GitLab 14:
 
-- 14.9: MVP on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_terraform-everyonecancontribute-activity-6912476005810999296-ig8Q) (3,000+ views, 60+ reactions)
-- 14.8: MVP on [Twitter](https://twitter.com/dnsmichi/status/1496140144067465227) (8,000 impressions, 150 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-devops-activity-6901905241671835648-X4Vk) (2,500 views, 32 reactions)
-- 14.7: MVP on [Twitter](https://twitter.com/dnsmichi/status/1484898545849315333) (18,000 impressions, 600 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-community-devops-activity-6890664006277754880-OCJ5) (7,500 views, 150 reactions)
+- 14.9: Notable Contributor on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_terraform-everyonecancontribute-activity-6912476005810999296-ig8Q) (3,000+ views, 60+ reactions)
+- 14.8: Notable Contributor on [Twitter](https://twitter.com/dnsmichi/status/1496140144067465227) (8,000 impressions, 150 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-devops-activity-6901905241671835648-X4Vk) (2,500 views, 32 reactions)
+- 14.7: Notable Contributor on [Twitter](https://twitter.com/dnsmichi/status/1484898545849315333) (18,000 impressions, 600 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-community-devops-activity-6890664006277754880-OCJ5) (7,500 views, 150 reactions)
 - 14.6: Render markdown titles of issues on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_yesssss-gitlab-146-allows-to-render-markdown-activity-6879493371191156736-RHCu) (3,000 views, 62 reactions)
-- 14.6: MVP on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-activity-6879464875018465280-skt5) (1,500 views, 30 reactions)
+- 14.6: Notable Contributor on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-activity-6879464875018465280-skt5) (1,500 views, 30 reactions)
 - 14.5: IaC Security scanning on [LinkedIn](https://www.linkedin.com/posts/dnsmichi_security-infrastructureascode-kics-activity-6870082879037173761-kyaQ) (2,300 views, 28 reactions)
 - 14.5: Conditional includes with exists in CI/CD on [Twitter](https://twitter.com/dnsmichi/status/1464279272214958095) (12,000 impressions, 600 engagements)
 - 14.3: Conditional includes in CI/CD on [Twitter](https://twitter.com/dnsmichi/status/1440690461673340933) (21,000 impressions, 1,800 engagements)
 - 14.2: Stageless CI/CD Pipelines on [Twitter](https://twitter.com/dnsmichi/status/1429475480030351364) (55,000 impressions, 1,900 engagements) and [LinkedIn](https://www.linkedin.com/posts/dnsmichi_async-cicd-pipelines-with-needs-as-job-activity-6835241415748939776-I6kI) (9,000 views, 127 reactions)
-- 14.2: Open MR in Gitpod MVP on [Twitter](https://twitter.com/dnsmichi/status/1429469773058936841) (43,000 impressions, 300 engagements) [RT-quoted tweet](https://twitter.com/ludmann/status/1429735681513951235)
+- 14.2: Open MR in Gitpod Notable Contributor on [Twitter](https://twitter.com/dnsmichi/status/1429469773058936841) (43,000 impressions, 300 engagements) [RT-quoted tweet](https://twitter.com/ludmann/status/1429735681513951235)
 - 14.2: Live Markdown Preview on [Twitter](https://twitter.com/dnsmichi/status/1429463680182276100) (7,000 impressions, 300 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_wohooooooo-live-markdown-preview-while-typing-activity-6835229767072014336-sDCg) (5,000 views, 62 reactions)
 - 14.2: Parametrize CI/CD include statements on [Twitter](https://twitter.com/dnsmichi/status/1429473222098100233) (8,000 impressions, 400 engagements) [LinkedIn](https://www.linkedin.com/posts/dnsmichi_you-can-parametrize-cicd-include-statements-activity-6835239058843688960-Xc6v) (800 views, 13 reactions)
 - 14.2 Creating branches directly in @gitlab from a @Jira issue?!  Yes please on [Twitter](https://twitter.com/olearycrew/status/1429899257700618249) (15,000 impressions, 900 engagements)

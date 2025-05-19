@@ -11,7 +11,7 @@ Below are the current SKUs broken out by services category. For a detailed list 
 
 ### Implementation and Integration Services Standard SKUs
 
-{{% sku-tables categories="Implementation,Integration" maturities="Viable,Lovable,Minimal" %}}
+{{% customer-success/sku-tables categories="Implementation,Integration" maturities="Viable,Lovable,Minimal" %}}
 
 ### Education Services Standard SKUs
 
@@ -27,7 +27,7 @@ Here are answers to anticipated frequently-asked questions.
 
 2. **What is the process for making an exception?** If you have a quote in flight we will honor the number of students you may have already requested an exception for from us. For all new quotes you should create an order that includes the per-seat SKU quantities and request a discount as needed using the standard discount approval process.
 
-{{% sku-tables categories="Education" maturities="Viable,Lovable,Minimal" stages=true %}} -->
+{{% customer-success/sku-tables categories="Education" maturities="Viable,Lovable,Minimal" stages=true %}} -->
 
 #### Planned SKUs
 

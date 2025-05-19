@@ -77,7 +77,7 @@ cross-functional initiative that is led by the [Contributor Success team](/handb
 - Organize community contributors into [community teams](#team-members) and ensure their success.
 - Track [contribution](https://about.gitlab.com/community/contribute/) delivery of the Community Contributors and Cohorts.
 - Nominate impactful community contributors and contributions for recognition.
-- Select and recognize a [GitLab MVP](/handbook/marketing/developer-relations/contributor-success/mvp-process) for each release post
+- Select and recognize a [GitLab Notable Contributor](/handbook/marketing/developer-relations/contributor-success/notable-contributor-process) for each release post
 - Collaborate closely with our [Marketing counterparts](/handbook/marketing/developer-relations/) and [Core team](https://about.gitlab.com/community/core-team/).
 - Improve community recognition system, awards and engineering assistance in collaboration with the [Developer Relations team](/handbook/marketing/developer-relations/).
 - Participate in GitLab's overall open source outreach events and processes.

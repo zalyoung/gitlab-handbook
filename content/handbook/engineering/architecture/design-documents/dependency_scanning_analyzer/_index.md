@@ -12,7 +12,7 @@ toc_hide: true
 ---
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 <!--
 Don't add a h1 headline. It'll be added automatically from the title front matter attribute.

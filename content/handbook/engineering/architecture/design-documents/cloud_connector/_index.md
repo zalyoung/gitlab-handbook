@@ -10,7 +10,7 @@ participating-stages: ["~devops::fulfillment", "~devops::ai-powered"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 

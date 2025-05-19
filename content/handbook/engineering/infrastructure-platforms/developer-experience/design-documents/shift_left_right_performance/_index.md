@@ -70,7 +70,7 @@ Document statuses you can use:
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 <!--
 Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
@@ -94,7 +94,7 @@ By adopting a broader range of performance engineering practices, we can take a 
 
 ### Goals
 
-* More complete documentation on Performance Engineering practices in [the handbook page](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/performance/)
+* More complete documentation on Performance Engineering practices in [the handbook page](/handbook/engineering/testing/performance/)
 * Develop a plan for adopting these practices across all Engineering teams.
 * Create a culture of performance awareness throughout the entire software development lifecycle.
 * Improve early detection and resolution of performance issues.

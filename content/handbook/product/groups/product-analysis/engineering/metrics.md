@@ -113,6 +113,18 @@ For these departments, the MR rate is calculated as the **number of MRs authored
   * Focuses on Team-Specific Contributions:
     * This approach highlights the contributions of team members within the department, providing a clearer picture of their productivity.
 
+### Review Rates
+
+[Tableau Link](https://10az.online.tableau.com/#/site/gitlab/views/AverageReviewTime/ReviewStatsbyUser)
+
+#### What It Means
+
+Review rates measures the number of code reviews a team member completes within a specific timeframe. While merge request rate tracks how many changes are integrated into the codebase and it is an important productivity measurement, review rate is another important productivity metric and it keeps the records of reviews a team member provides. Data team maintains a table of review activities on merge requests. A review is counted as long as the code review was conducted no matter whether the team member remained in the `Reviewers` list or not.
+
+#### Why It Matters
+
+Code review often takes significant amount of time and it's a critical step of moving merge requests to completion. Counting review rates recognizes the contribution of reviwers and encourages team members to provide thorough code reviews which in turn ensures our product quality.
+
 ### Mean Time to Merge (MTTM)
 
 [Tableau Link](https://10az.online.tableau.com/#/site/gitlab/workbooks/2372920/views)

@@ -111,7 +111,7 @@ All Support Engineering Managers have at least 1 [OKR](/handbook/company/okrs/) 
 
 1. [KPIs](/handbook/support/performance-indicators/)
 1. Team Growth (Hiring and Development)
-1. [OKRs](/handbook/engineering/#engineering-okr-process)
+1. [OKRs](/handbook/company/okrs/)
 
 Having a project that is time bound to a quarter is completely acceptable as an OKR, and adjusting an OKR during the quarter (especially in light of other priorities) is also acceptable.
 

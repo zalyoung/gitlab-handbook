@@ -11,7 +11,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work in progress and represents the current state of the Organization design.
 

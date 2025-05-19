@@ -45,7 +45,7 @@ The following people are permanent members of the Create:Source Code BE Team:
 
 The following people of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
+{{< engineering/stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
 ## Common Links
 
@@ -93,8 +93,9 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 
 #### Issue refinement
 
-1. Once we have validated the problem, product, UX, and engineering will collaborate to propose a solution and decide on what's technically feasible. The proposed solution will be shared with users to validate it solves the problem.
+1. Once we have validated the problem, product, UX, and engineering will collaborate to propose a solution and decide on what's technically feasible. The proposed solution may be shared with users to validate it solves the problem.
     1. Issues that require design work are marked with `UX` and `workflow::ready for design`.
+    1. Issues in the design process are marked with `workflow::design`.
     1. Once designs are ready and the proposed solution is viable then the label `workflow::planning breakdown` will be applied.
 1. Once we have confirmed the proposed solution is viable, we will move to break it down as much as possible. When issues are ready for this stage, PM will mark issues with `workflow::refinement` label to signal next step.
 1. EM will create a refinement issue ([example](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/issues/249)) and distribute tasks labeled `workflow::refinement` among engineers.
@@ -148,12 +149,12 @@ flowchart TD
     style Start fill:#f9f,stroke:#333,stroke-width:2px
     style End fill:#f9f,stroke:#333,stroke-width:2px
     style NeedBreakdown fill:#ffd,stroke:#333
-    
+
     classDef pmStyle fill:#e6f3ff,stroke:#333
     classDef emStyle fill:#fff0e6,stroke:#333
     classDef engStyle fill:#e6ffe6,stroke:#333
     classDef sharedStyle fill:#f0f0f0,stroke:#333
-    
+
     class RefinementLabel pmStyle
     class CreateRefIssue,DistributeTasks emStyle
     class RefineIssue,NeedBreakdown,CreateNewIssues,FullyRefined,ReadyLabel engStyle
@@ -181,7 +182,7 @@ If you cannot finish any of these steps, ping EM/PM.
 - [ ] Issue is small and doesn't need to be broken down
 
 ## Final steps
-- [ ] This issue has a weight 
+- [ ] This issue has a weight
 - [ ] There are no blockers
 - [ ] Issue has ~"workflow::ready for development" label
 ```
@@ -231,7 +232,7 @@ Add a comment to the issue under refinement using the provided template.
 
 **2. Dependencies**
 
-- [ ] Requires ~backend 
+- [ ] Requires ~backend
 - [ ] Requires ~frontend
 - [ ] Requires ~database
 - [ ] Requires ~documentation
@@ -265,11 +266,11 @@ Add a comment to the issue under refinement using the provided template.
 
 
 @engineer_username please review this implementation plan.
-<!-- 
-Pick a peer engineer following this criteria: 
-1. is a subject matter expert. 
-2. might have some familiarity with the topic. or 
-3. ask on slack who'd be available to review this plan before the due date of the issue 
+<!--
+Pick a peer engineer following this criteria:
+1. is a subject matter expert.
+2. might have some familiarity with the topic. or
+3. ask on slack who'd be available to review this plan before the due date of the issue
 -->
 ```
 

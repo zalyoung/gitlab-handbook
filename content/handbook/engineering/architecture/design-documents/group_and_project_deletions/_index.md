@@ -97,7 +97,7 @@ Projects in user namespaces are deleted permanently without any recovery period.
    - Items remain in this state for a configurable period (7 days initially, 30 days in Iteration 2)
    - Clear UI indicators show deletion status and remaining time until permanent deletion
    - Email notifications sent at key milestones (initial deletion, 7 days before permanent deletion)
-   - Items pending deletion do not count towards usage quotas
+   - Items pending deletion still count towards usage quotas
 
 3. **Recovery Mechanism**
    - Self-service recovery option available to users who have appropriate permissions

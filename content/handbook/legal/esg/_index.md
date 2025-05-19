@@ -66,6 +66,7 @@ The purpose of the advisory committee is to create cross-functional alignment on
 * Rendi Miller (Procurement)
 * James Shen (Finance)
 * Marin Jankovski (Infrastructure)
+* Taylor McCaslin (Product)
 
 ## ESG | Sustainability Programs
 

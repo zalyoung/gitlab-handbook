@@ -18,7 +18,7 @@ toc_hide: true
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
@@ -228,7 +228,7 @@ For performance reasons, any non-aggregate queries must follow [Keyset-based pag
 
 Aggregate queries are any queries that look to review a small sub-set of data points over a period of time, rather than listing individual rows within the database. In other words, the difference between showing a visualization of merged MRs over time, rather than listing merged MRs in a table.
 
-Aggregate queries must be limited by a restricting factor like a timestamp, but due to their nature can't be paginated. These queries must also be tagged or labelled to note that these are aggregations. 
+Aggregate queries must be limited by a restricting factor like a timestamp, but due to their nature can't be paginated. These queries must also be tagged or labelled to note that these are aggregations.
 
 ClickHouse doesn't leverage "traditional" [primary keys](https://clickhouse.com/docs/en/guides/creating-tables#a-brief-intro-to-primary-keys) which means we need to rely on the sorting option to define the next group of items in the query when generating the pagination link. For example, if a user sorts by descending the last updated timestamp, the generated pagination link would filter the next query to be from the previous queries oldest last updated timestamp. In the event that a query doesn't define a sorting option, we must set a default for each endpoint.
 
@@ -311,19 +311,19 @@ service GroupContributionsService {
 message GetGroupContributionsRequest {
   // Full path of the group (e.g., "gitlab-org")
   string full_path = 1;
-  
+
   // Start date for contributions in ISO8601 format (YYYY-MM-DD)
   string start_date = 2;
-  
+
   // End date for contributions in ISO8601 format (YYYY-MM-DD)
   string end_date = 3;
-  
+
   // Pagination: next page continuation token from previous response
   optional string next_token = 4;
-  
+
   // Pagination: previous page continuation token from previous response
   optional string previous_token = 5;
-  
+
   // Pagination: number of results to return
   optional int32 page_size = 6;
 }
@@ -332,7 +332,7 @@ message GetGroupContributionsRequest {
 message GetGroupContributionsResponse {
   // Group info
   Group group = 1;
-  
+
   // Pagination information
   PageInfo page_info = 2;
 }
@@ -341,7 +341,7 @@ message GetGroupContributionsResponse {
 message Group {
   // Group ID
   string id = 1;
-  
+
   // Contributions within the specified date range
   ContributionConnection contributions = 2;
 }
@@ -350,7 +350,7 @@ message Group {
 message ContributionConnection {
   // List of contribution nodes
   repeated ContributionNode nodes = 1;
-  
+
   // Pagination information
   PageInfo page_info = 2;
 }
@@ -359,28 +359,28 @@ message ContributionConnection {
 message ContributionNode {
   // Number of repository pushes
   int32 repo_pushed = 1;
-  
+
   // Number of merge requests created
   int32 merge_requests_created = 2;
-  
+
   // Number of merge requests merged
   int32 merge_requests_merged = 3;
-  
+
   // Number of merge requests closed
   int32 merge_requests_closed = 4;
-  
+
   // Number of merge requests approved
   int32 merge_requests_approved = 5;
-  
+
   // Number of issues created
   int32 issues_created = 6;
-  
+
   // Number of issues closed
   int32 issues_closed = 7;
-  
+
   // Total number of events
   int32 total_events = 8;
-  
+
   // User information
   User user = 9;
 }
@@ -389,10 +389,10 @@ message ContributionNode {
 message User {
   // User ID
   string id = 1;
-  
+
   // User's name
   string name = 2;
-  
+
   // URL to user's profile
   string web_url = 3;
 }
@@ -402,7 +402,7 @@ message PageInfo {
   // Token that can be used to fetch the next page
   // When empty or missing, there are no more pages after this one
   optional string next_token = 1;
-  
+
   // Token that can be used to fetch the previous page
   // When empty or missing, there are no pages before this one
   optional string previous_token = 2;
@@ -448,9 +448,9 @@ module Services
 
       @stub.get_group_contributions(request)
     end
-    
+
     private
-    
+
     def bearer_token_credentials(token)
       proc_metadata_generator = proc { { 'authorization' => "Bearer #{token}" } }
       GRPC::Core::CallCredentials.new(proc_metadata_generator)
@@ -465,11 +465,11 @@ class ContributionsController < ApplicationController
       ENV['CONTRIBUTIONS_GRPC_HOST'],
       ENV['CONTRIBUTIONS_API_TOKEN']
     )
-    
+
     # Determine which token to use based on navigation direction
     next_token = params[:next_token]
     previous_token = params[:previous_token]
-    
+
     @response = client.get_group_contributions(
       params[:group_path],
       params[:start_date],
@@ -478,7 +478,7 @@ class ContributionsController < ApplicationController
       previous_token,
       params[:page_size] || 50
     )
-    
+
     # Transform gRPC response to a format suitable for your views
     @contributions = @response.group.contributions.nodes.map do |node|
       {
@@ -499,12 +499,12 @@ class ContributionsController < ApplicationController
         }
       }
     end
-    
+
     @pagination = {
       next_token: @response.page_info.next_token,
       previous_token: @response.page_info.previous_token
     }
-    
+
     respond_to do |format|
       format.html
       format.json { render json: { contributions: @contributions, pagination: @pagination } }
@@ -523,7 +523,7 @@ import (
   "context"
   "log"
   "net"
-  
+
   pb "gitlab.com/api/group/contributions/v1"
   "google.golang.org/grpc"
 )
@@ -537,7 +537,7 @@ func (s *groupContributionsServer) GetGroupContributions(ctx context.Context, re
   // 1. Parse dates
   // 2. Fetch data from database
   // 3. Format the response
-  
+
   // Mock implementation for example
   return &pb.GetGroupContributionsResponse{
     Group: &pb.Group{
@@ -579,10 +579,10 @@ func main() {
   if err != nil {
     log.Fatalf("failed to listen: %v", err)
   }
-  
+
   grpcServer := grpc.NewServer()
   pb.RegisterGroupContributionsServiceServer(grpcServer, &groupContributionsServer{})
-  
+
   log.Println("Starting gRPC server on port 50051...")
   if err := grpcServer.Serve(lis); err != nil {
     log.Fatalf("failed to serve: %v", err)
@@ -596,7 +596,7 @@ import (
   "context"
   "log"
   "time"
-  
+
   pb "gitlab.com/api/group/contributions/v1"
   "google.golang.org/grpc"
   "google.golang.org/grpc/credentials/insecure"
@@ -608,12 +608,12 @@ func main() {
     log.Fatalf("did not connect: %v", err)
   }
   defer conn.Close()
-  
+
   client := pb.NewGroupContributionsServiceClient(conn)
-  
+
   ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
   defer cancel()
-  
+
   // Example of a first page request
   resp, err := client.GetGroupContributions(ctx, &pb.GetGroupContributionsRequest{
     FullPath:      "gitlab-org",
@@ -621,26 +621,26 @@ func main() {
     EndDate:       "2025-02-13",
     NextToken:     "", // Empty for initial request
     PreviousToken: "", // Empty for initial request
-    PageSize:      50 
+    PageSize:      50
   })
-  
+
   if err != nil {
     log.Fatalf("could not get group contributions: %v", err)
   }
-  
+
   // Process the response, e.g.:
   log.Printf("Group ID: %s", resp.Group.Id)
   log.Printf("Number of contributors: %d", len(resp.Group.Contributions.Nodes))
-  
+
   // Access pagination info
   log.Printf("Next page token: %s", resp.PageInfo.NextToken)
   log.Printf("Previous page token: %s", resp.PageInfo.PreviousToken)
   log.Printf("Has next page: %v", resp.PageInfo.NextToken != "")
   log.Printf("Has previous page: %v", resp.PageInfo.PreviousToken != "")
-  
+
   // Store tokens for navigation
   nextPageToken := resp.PageInfo.NextToken
-  
+
   // Example of requesting the next page (if available)
   if nextPageToken != "" {
     nextPageResp, err := client.GetGroupContributions(ctx, &pb.GetGroupContributionsRequest{
@@ -649,17 +649,17 @@ func main() {
       EndDate:       "2025-02-13",
       NextToken:     nextPageToken, // Use next token from previous response
       PreviousToken: "", // Not needed when navigating forward
-      PageSize:      50 
+      PageSize:      50
     })
-    
+
     if err != nil {
       log.Fatalf("could not get next page: %v", err)
     }
-    
+
     // Process next page...
     log.Printf("Next page - contributors: %d", len(nextPageResp.Group.Contributions.Nodes))
   }
-  
+
   // Access individual contributions
   for i, node := range resp.Group.Contributions.Nodes {
     log.Printf("Contributor #%d: %s", i+1, node.User.Name)
@@ -754,7 +754,7 @@ In conjunction with the [automation of the schema](#automated-schema-generation)
 
 We must create a guide on how to create MV's for a given resource, and how to use these within the DIP to improve query times and performance.
 
-### Considerations for .com/dedicated/cells/self-managed 
+### Considerations for .com/dedicated/cells/self-managed
 
 This API's queries will not span multiple cells. Each query must be scoped to an instance (admin users of self-managed intances only), organization, namespace, group or project.
 

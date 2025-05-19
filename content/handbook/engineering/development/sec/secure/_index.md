@@ -64,7 +64,7 @@ Team Page: [Vulnerability Research](vulnerability-research/)
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Secure" other-manager-roles="Engineering Manager(.*)Application Security Testing:Static Analysis|Backend Engineering Manager(.*)Secure:Dynamic Analysis|Manager, Software Engineering(.*)Secure:Composition Analysis|Senior Engineering Manager(.*)Secure|Senior Engineering Manager(.*)Secure|Director of Engineering(.*)Sec|Engineering Manager(.*)Dynamic Analysis" >}}
+{{< engineering/stable-counterparts role="Secure" other-manager-roles="Engineering Manager(.*)Application Security Testing:Static Analysis|Backend Engineering Manager(.*)Secure:Dynamic Analysis|Manager, Software Engineering(.*)Secure:Composition Analysis|Senior Engineering Manager(.*)Secure|Senior Engineering Manager(.*)Secure|Director of Engineering(.*)Sec|Engineering Manager(.*)Dynamic Analysis" >}}
 
 ## Secure Team
 
@@ -254,7 +254,7 @@ Brainstorming Sessions Doc (Internal): https://docs.google.com/document/d/179JL5
 
 #### Resources
 
-* [How to triage a QA test pipeline failure](/handbook/engineering/infrastructure-platforms/developer-experience/debugging-end-to-end-test-failures/)
+* [How to triage a QA test pipeline failure](https://docs.gitlab.com/development/testing_guide/end_to_end/debugging_end_to_end_test_failures/)
 * [Beginner's guide to writing end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
 * [GitLab QA README](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
 * [GitLab QA Scenarios](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md)

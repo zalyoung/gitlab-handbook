@@ -11,7 +11,7 @@ At GitLab, we are [public by default](/handbook/values/#public-by-default), but 
 
 We make things public by default because [transparency is one of our values](/handbook/values/#transparency).
 Some things can't be made public and are either [internal](#internal) to the company or have [limited access](#limited-access) even within the company.
-If something isn't listed in the sections below please refer to Security's [Data Classification Standard](/handbook/security/data-classification-standard/) and Legal's [SAFE Framework](/handbook/legal/safe-framework/) in the Handbook for additional guidance.
+If something isn't listed in the sections below please refer to Security's [Data Classification Standard](/handbook/security/standards/data-classification-standard/) and Legal's [SAFE Framework](/handbook/legal/safe-framework/) in the Handbook for additional guidance.
 
 ### Internal
 
@@ -42,7 +42,7 @@ The following items are internal:
 1. When there is a product offering being developed that is expected to generate very high demand that cannot be quickly met, it should be kept internal in order to give the team the time to create the right solution.
 1. Changes to GitLab.com free tier limits such as storage, data transfer, user limits or compute minutes are not public, as they are similar to Pricing and Packaging as discussed below in limited access.
 1. Specific details about our hiring processes such as our scoring rubrics & criteria are not public as we want to ensure candidates provide an accurate overview of their experience and do not falsify their responses to meet our criteria. [High-level interview plans are public and documented in each job family](/handbook/hiring/job-families/#job-family-template-1).
-1. GitLab's [strategy](/handbook/company/strategy), [Yearlies](/handbook/company/yearlies/), and [OKRs](/handbook/company/okrs/) are internal-only. GitLab goal setting is intentionally ambitious. External folks, without context, could make misinterpretations about the company's financial health and strategic plans, so sharing this information may have [unintended and undesirable effects](/handbook/legal/safe-framework/#effect).
+1. GitLab's [strategy](/handbook/company/strategy) is internal-only. GitLab goal setting is intentionally ambitious. External folks, without context, could make misinterpretations about the company's financial health and strategic plans, so sharing this information may have [unintended and undesirable effects](/handbook/legal/safe-framework/#effect).
 1. Discussion, designs, and code that are subject to the [Discovery phase](/handbook/legal/patent-program/#discussion-of-inventions-and-improvements-to-inventions) of a patent application. Prior to filing the application all product and protype development should take place outside of public repositories.
 
 ### Limited access

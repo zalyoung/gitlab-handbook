@@ -220,6 +220,10 @@ Tips & Tricks:
 - Depending on the state of the escalation, also think about setting up an internal cadence meeting and include all necessary team members.
   - CSM, AE, SA, CSM & Sales leadership, and potentially other involved stakeholders.
 
+#### Multiple escalations for one customer
+
+In rare instances, there may be multiple reasons for a customer to be escalated at one time. In order to keep the reasons for escalation and the steps to resolve them focused, there should be an escalation for each situation. Each escalation should be declared and separate Slack channels opened with the relevant stakeholders involved. The reason for the escalation should be included the channel name to reduce confusion (e.g. if one customer is escalated for both a DAST issue and a performance issue, there should be two channels, one called esc_customername_dast and one called esc_customername_perf). Each escalation should follow the defined escalation process separately, but the account team and leadership should stay aligned on where the overall account health is throughout and if there should be any action that relates to both escalations. Including additional leadership such as the e-group may be warranted if there is significant risk to the overall sentiment of the account.
+
 ### Closing the Escalation
 
 - To close an escalation, a clear alignment between GitLab stakeholders and the customer (including documentation in an issue or email) is required. Both parties need to agree the situation is resolved.
@@ -264,11 +268,10 @@ Occasionally, customers will require a product leader to act as a stable counter
 
 ## CSE's role in Escalations
 
-- Lead customer facing calls focused on discovery, de-escalation, technical guidance. Determine the customer's exit/success criteria to consider the escalation resolved.
-- Coordinate cross-functionally to determine path forward, potential workarounds and best practice recommendations.
-- Provide summaries in account escalation Slack channel on a cadence appropriate to the [defined escalation severity level](/handbook/customer-success/csm/escalations/#definitions-of-severity-levels).
-- Share updates to the customer through email.
-- Document in new GitLab issue for tracking/pattern matching for future reference. Example: https://gitlab.com/gitlab-com/customer-success/customer-success-engineering/scale-cse/-/issues/140
+- Review technical ask and determine if discovery call is necessary. If needed, lead discovery call.
+- Work with the account team to determine exit criteria.
+- If exit criteria is possible to complete with a CSE engagement, work the escalation like you would a case.
+- If exit criteria is not possible to complete with a CSE engagement, help account team determine next best steps. For example, recommend a PM to get involved or Professional/Investment Services.
 
 ## Related Links
 

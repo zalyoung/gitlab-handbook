@@ -55,7 +55,7 @@ These are important projects that we maintain besides our involvement in the mai
 
 The following people are permanent members of the Analytics Instrumentation Group:
 
-{{< stable-counterparts role="Analytics.+Analytics.Instrumentation" >}}
+{{< engineering/stable-counterparts role="Analytics.+Analytics.Instrumentation" >}}
 
 ## Project management process
 

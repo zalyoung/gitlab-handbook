@@ -148,6 +148,15 @@ Follow these steps to set it up:
 1. Tick the box for `Enable Global Shortcut` to `Mute/Unmute My Audio`
 1. You can map it to any keyboard shortcut such as `F1` (Cmd 1)
 
+### Enable screen share setting
+
+Enable the ability to share your screen for your Zoom app on your MacBook.
+
+1. Open Zoom and start a meeting using "New meeting".
+1. Share > select any screen > Share
+1. A prompt should appear asking you to enable this in your Mac settings. If not, go to your Mac System Settings > Privacy & Security > Screen & System Audio Recording > enable zoom and follow the prompt.
+1. Restart Zoom.
+
 ### Recording Zoom meetings in HD
 
 1. Navigate to your [Zoom profile settings](https://gitlab.zoom.us/profile/setting).
@@ -420,8 +429,8 @@ available. Processing takes about 15 minutes, so the video files appear before t
 #### Meeting Summary with AI Companion
 
 1. Start a meeting with the Zoom desktop client.
-1. Click `AI Companion` in the meeting control toolbar.
-1. Click `Start summary`.
+1. Click `AI Companion` in the meeting control toolbar to activate its automatic "Meeting Summary" feature
+1. Make sure that `Meeting summary` option is selected.
 1. Participants will see a notification that AI Companion is active and analyzing the discussion.
 1. Once the meeting ends, the summary will be emailed to the meeting host and meeting invitees in our organization.
 

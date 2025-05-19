@@ -1,5 +1,6 @@
 ---
 title: Tenant Scale Group
+description: Information about the Tenant Scale Group
 ---
 
 ## Vision

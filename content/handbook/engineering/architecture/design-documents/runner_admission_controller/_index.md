@@ -10,7 +10,7 @@ participating-stages: []
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 The GitLab `admission controller` (inspired by the [Kubernetes admission controller concept](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/)) is a proposed technical solution to intercept jobs before they're persisted or added to the build queue for execution.
 

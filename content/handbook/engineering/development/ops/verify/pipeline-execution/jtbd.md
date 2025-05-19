@@ -18,4 +18,4 @@ Utilize JTBD and job statements to:
 
 ## JTBD
 
-{{% jtbd "Pipeline Execution" %}}
+{{% product/jtbd "Pipeline Execution" %}}

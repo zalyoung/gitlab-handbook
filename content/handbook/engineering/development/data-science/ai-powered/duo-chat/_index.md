@@ -11,7 +11,7 @@ description: "We are dedicated to enhancing DevSecOps productivity by building a
 
 **Product, Design & Quality**
 
-{{% stable-counterparts manager-role="Engineering Manager(.*)Duo Chat" role="Duo Chat" %}}
+{{% engineering/stable-counterparts manager-role="Engineering Manager(.*)Duo Chat" role="Duo Chat" %}}
 
 ## Vision
 
