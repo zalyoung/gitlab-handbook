@@ -82,7 +82,7 @@ For this section of the course, we will use a template with prepopulated code to
             excluded_paths: venv/
     ```
 
-1. Click the **Commit changes** button, and add an appropriate commit message (ex. `Add SAST template to .gitlab-ci.yml`).
+1. Click the **Commit changes** button, and add an appropriate commit message (e.g `Add SAST template to .gitlab-ci.yml`).
 
 1. Select the **Commit to a new branch** option, and change the branch name to `add-security`. Ensure that **Create a new merge request for this change** is checked, then click the **Commit changes** button.
 

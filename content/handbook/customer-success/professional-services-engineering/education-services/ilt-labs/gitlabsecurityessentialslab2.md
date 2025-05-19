@@ -63,7 +63,7 @@ At this point, we've created two issues to address as security issues in our app
 
 1. In the left sidebar, select the **Source Control** icon.
 
-1. Type an appropriate commit message (ex. 'Removed API key), and click **Create a new branch and commit**.
+1. Type an appropriate commit message (e.g. 'Removed API key), and click **Create a new branch and commit**.
 
 1. Press **Enter** to take the default branch name.
 
