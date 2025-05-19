@@ -1,13 +1,13 @@
 ---
-title: "Governance and Field Security Team Charter"
-description: "Governance and Field Security Team Charter"
+title: "Security Enablement Team Charter"
+description: "Security Enablement Team Charter"
 ---
 
 ## Team Charter
 
 ### Mission
 
-The mission of the Governance and Field Security team is to: (i) drive the development of GitLab's internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
+The mission of the Security Enablement team is to: (i) drive the development of GitLab's internal security strategy and posture through automation, security awareness, policy management, and regulatory and compliance oversight, and (ii) drive company ARR through effective and efficient customer assurance activities and external security evangelism; and support the sales organization through field security focused training and strategy alignment.
 
 ### Roles and responsibilities
 
