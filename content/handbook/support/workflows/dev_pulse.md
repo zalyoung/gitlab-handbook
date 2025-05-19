@@ -50,7 +50,7 @@ flowchart TD
    `Waiting on issue or merge request`. Make sure to remove any extra parameters
    from the URL (anything after the IID of the issue or MR)
 
-2. Take the following steps depending if you have an issue or MR:
+1. Take the following steps depending if you have an issue or MR:
 
 - Bug Issue or related MR
 Apply the macro `General::Waiting on bug resolution`
@@ -61,7 +61,7 @@ Apply the macro `General::Waiting on feature request resolution`
 - [Request for Help (RFH) issue](../workflows/how-to-get-help.md)
 Apply the macro `General::Waiting on RFH`
 
-3. The macro will set your ticket status to `On-hold`, just submit the update to start the process.
+1. The macro will set your ticket status to `On-hold`, just submit the update to start the process.
 
 ### What views are available for Dev Pulse
 
