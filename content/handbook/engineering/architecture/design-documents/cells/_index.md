@@ -134,7 +134,7 @@ which is already used for GitLab dedicated tenants as well.
 The deployment workflow follows these steps:
 
 1. [The instrumentor](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor) retrieves the Cell configuration, which in `Dedciated Tooling` known as `TENANT_MODEL`.
-2. Instrumentor parses the `TENANT_MODEL` and pass the requried configuration to [GET (GitLab Environment Toolkit)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/).
+2. Instrumentor parses the `TENANT_MODEL` and pass the required configuration to [GET (GitLab Environment Toolkit)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/).
 3. GET deploys the infrastructure and uses [`Helm Installation`](https://docs.gitlab.com/install/install_methods/#helm-chart) to install GitLab in the provisioned Kubernetes Cluster.
 
 This approach aligns with how we deploy GitLab on the existing legacy Cell infrastructure in both Staging and Production environments through [Kubernetes workloads](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com).
