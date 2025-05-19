@@ -23,25 +23,22 @@ Implementation details about Dev Pulse can be found in the [documentation](/hand
 
 ```mermaid
 flowchart TD
-	A[Ticket requires a bug or feature request]
-	B[Macro is run -> Ticket type changes to incident<br/>and linked to new/existing problem ticket]
-	C[Ticket is placed On-Hold<br/>while dev issue is worked on]
-
-	D1[Customer asks about the status <br/>in the Support ticket]
-	E1[Support Engineer replies <br/> to the customer]
-   E4[Support Engineer sets the incident back on on-Hold]
-    
-	D2[Dev issue is completed<br/>and all related incidents updated<br/>Slack message will be send every 3rd Wed of the month]
-	F3[A support reply on the problem ticket <br/>marking it as solved will be copied to all linked incidents]
-	E3[Ticket is placed in NRT stage and Open status. <br/>When the issue/merge is completed]
-
-	A --> B --> C
-	C --> D1 --> E1
-	E1 --> E4
-   E4 -->D2
-	C --> D2
-	D2 --> E3
-	E3 --> F3
+A[Ticket requires a bug or feature request]
+B[Macro is run -> Ticket type changes to incident<br/>and linked to new/existing problem ticket]
+C[Ticket is placed On-Hold<br/>while dev issue is worked on]
+D1[Customer asks about the status <br/>in the Support ticket]
+E1[Support Engineer replies <br/> to the customer]
+E4[Support Engineer sets the incident back on on-Hold]
+D2[Dev issue is completed<br/>and all related incidents updated<br/>Slack message will be send every 3rd Wed of the month]
+F3[A support reply on the problem ticket <br/>marking it as solved will be copied to all linked incidents]
+E3[Ticket is placed in NRT stage and Open status. <br/>When the issue/merge is completed]
+A --> B --> C
+C --> D1 --> E1
+E1 --> E4
+E4 -->D2
+C --> D2
+D2 --> E3
+E3 --> F3
 ```
 
 ## Using it
