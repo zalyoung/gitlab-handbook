@@ -86,6 +86,6 @@ Our hypothesis is that if the Product Security Team can successfully use GitLab'
 
 ## Frequently Asked Questions
 
-### If we'd like to involve the Product Security Team during every phase of feature development, should we open one issue for the feature or one issue per request type?
+**Q: If we'd like to involve the Product Security Team during every phase of feature development, should we open one issue for the feature or one issue per request type?**
 
-We'd want and need one issue per [request type](#request-types). You're welcome to link them, but the reason is we expect that plans will change throughout the product development lifecycle. We need to ensure we're operating on current information. Additionally, the level of detail should increase as time goes on (i.e., setup instructions will be known for internal testing, but rarely before).
+**A:** We'd want and need one issue per [request type](#request-types). You're welcome to link them, but the reason is we expect that plans will change throughout the product development lifecycle. We need to ensure we're operating on current information. Additionally, the level of detail should increase as time goes on (i.e., setup instructions will be known for internal testing, but rarely before).
