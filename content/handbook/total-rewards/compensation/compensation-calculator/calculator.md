@@ -1,8 +1,8 @@
 ---
-title: Compensation Calculator
+title: Historical Compensation Calculator
 manual_cookiebot: true
 ---
 
-The compensation calculator is available to all our team members through [this url](https://comp-calculator.gitlab.net/).
+The Compensation Calculator has been retired as of 2025-05-30. GitLab has transitioned to a [market-based compensation approach](/handbook/total-rewards/compensation/compensation-structure/).
 
-For a full list of open positions, please see [our jobs page](https://about.gitlab.com/jobs/).
+Team members can now view their compensation ranges directly in Workday.

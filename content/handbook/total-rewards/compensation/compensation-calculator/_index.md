@@ -1,7 +1,15 @@
 ---
-title: The Compensation Calculator
-description: "On this page, we explain the different factors that make up our Compensation Calculator and its alignment to GitLab's values and Compensation Principles."
+title: Historical Compensation Calculator
+description: "This page explains the historical Compensation Calculator that has been retired as of 2025-05-30."
 ---
+
+## Historical Note
+
+The Compensation Calculator was retired on 2025-05-30 as GitLab transitioned to a [market-based compensation approach](/handbook/total-rewards/compensation/compensation-structure/). This page is maintained for historical reference purposes.
+
+For information about GitLab's current compensation approach, please visit our [Compensation Structure](/handbook/total-rewards/compensation/compensation-structure/) page.
+
+# Retired: GitLab's Historical Compensation Calculator
 
 ## Introduction
 

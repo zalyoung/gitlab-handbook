@@ -16,7 +16,7 @@ Compensation decisions are based on:
 
 1. Individual factors such as talent assessments outlining performance and growth potential in the role.
 1. Internal assessment of our roles and compensation within teams and departments
-1. Assessing external market changes in the [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/) inputs
+1. Assessing external market changes in compensation ranges
 1. Other factors includes company performance and available budget, local pay practices and regulations, and eligibility as outlined below
 
 ### Process overview
@@ -62,7 +62,7 @@ Eligibility for review does not guarantee an increase will be awarded. Awards ar
 
 Our annual cash compensation review budget for FY26 is funded at 3.5% of overall payroll. This budget is in line with the FY25 cycle.
 
-#### Merit 
+#### Merit
 
 Merit budget will be allocated for all planning managers, which will consist of budget for performance increases as well as market adjustments, if applicable. Each division leader is responsible for making sure their group stays within budget.
 
@@ -82,7 +82,7 @@ We recommend these general timelines for completion based on your level to enabl
 - E-Group Directs (e.g. Senior Directors, VPs that report directly into E-Group leaders): 2025-03-14 to 2025-03-18 EOD PT
 - E-group review/approval: 2025-03-20 to 2025-03-26 EOD PT
 
-Additional due dates and touchpoints in the process after the manager review portion closes: 
+Additional due dates and touchpoints in the process after the manager review portion closes:
 
 *2025-03-26:* E-Group submits ACR pay recommendations for their respective departments
 
@@ -141,7 +141,7 @@ When determining an increase, managers should holistically review the following 
 Additional justification is required in the following situations:
 
 - Increases above guidelines (excluding market adjustments) should have a few sentences on why to assist higher level planners.
-- If a manager would like to allocate an increase to a team member who is paid over the maximum of their range or whose 
+- If a manager would like to allocate an increase to a team member who is paid over the maximum of their range or whose
 increase will bring them above the maximum of the range, they will need to include a few sentences of justification on why.
 
 Team members who aren’t receiving an increase or their increase is being delayed due to not performing at their current level should have that clearly communicated.
@@ -179,7 +179,7 @@ The following equity refresh grant *guidelines* are recommended for those receiv
 
 ### Pay Equity Review
 
-The Compensation team will conduct a pay equity review once at the conclusion of the Annual Compensation Review cycle to review any statistically relevant bias for underrepresented groups. This is done utilizing the pay equity platform, [Syndio](https://synd.io/). 
+The Compensation team will conduct a pay equity review once at the conclusion of the Annual Compensation Review cycle to review any statistically relevant bias for underrepresented groups. This is done utilizing the pay equity platform, [Syndio](https://synd.io/).
 
 Results of the pay equity review will be reviewed by the E-group leader before being actioned.
 

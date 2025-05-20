@@ -5,12 +5,8 @@ description: Find answers to your questions about GitLab's compensation framewor
 
 ## Related Compensation Pages
 
-- [Compensation Calculator Formula](/handbook/total-rewards/compensation/compensation-calculator/)
+- [Compensation Structure](/handbook/total-rewards/compensation/compensation-structure/)
 - [Compensation Review Cycle](/handbook/total-rewards/compensation/compensation-review-cycle/)
-
-## Use the Compensation Calculator
-
-Team members can access the [calculator](https://comp-calculator.gitlab.net/users/sign_in) at any time with their GitLab credentials. Applicants will be given credentials and will be able access the calculator themselves as well, during the application process.
 
 ## Introduction
 
@@ -25,9 +21,9 @@ If you have any feedback or questions relating to compensation, please reach out
 1. We're an open organization, and we want to be as transparent as possible about our compensation principles. Our compensation model is open to data driven iterations.
 1. We are [paying local rates](#paying-local-rates) based on [cost of labor market](https://www.erieri.com/blog/post/cost-of-labor-vs-cost-of-living). There is *no* cost of living input in our compensation philosophy.
 1. Compensation aims to be at a [competitive rate](#competitive-rate) for your job family, your location, your level, your experience, and your contract type.
-1. We use a [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/) to ensure transparent and consistent compensation.
+1. We use a [market-based compensation approach](/handbook/total-rewards/compensation/compensation-structure/) to ensure transparent and consistent compensation.
 1. We do not disclose individual compensation since compensation is [not public](/handbook/communication/confidentiality-levels/#not-public).
-1. We adjust our calculator based on survey data, feedback from applicants and team members, and candidate data. Please email `total-rewards@ gitlab` if you want to contribute.
+1. We adjust our compensation ranges based on survey data, feedback from applicants and team members, and candidate data. Please email `total-rewards@ gitlab` if you want to contribute.
 1. We offer [restricted stock units (RSUs)](/handbook/total-rewards/stock-options/) for most positions.
 1. We base compensation on current position and performance at GitLab – not on what we paid you last month – and, generally, we don't reduce compensation.
 1. Increases within the market pay bands will be based on performance.
@@ -38,11 +34,11 @@ If you have any feedback or questions relating to compensation, please reach out
 1. We want to follow the processes on this page for everyone, please email `total-rewards@ gitlab` when we don't. If you have a specific question around your compensation or one of your direct reports' please schedule a call with `total-rewards@ gitlab` to review.
 1. We will update this page and the processes throughout the year.
 1. We'll review your pay as soon as your job-family or level factor changes.
-1. If we change our [SF benchmark](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark) for a job family without changing the requirements, we review the compensation both for existing team members and new hires. If the SF benchmark is changed together with the requirements this review might happen at the time of the change or in our yearly cycle.
+1. If we change our market benchmarks for a job family without changing the requirements, we review the compensation both for existing team members and new hires. If the benchmark is changed together with the requirements this review might happen at the time of the change or in our yearly cycle.
 1. We offer [bonuses and incentives](/handbook/total-rewards/incentives/), but we don't offer ping pong tables or free lunches. We think it is more important to offer people flexibility and freedom. See the [Top 10 reasons to work for GitLab on our culture page](/handbook/company/culture/#advantages/).
 1. We hire across the globe, but we're not location agnostic. Your timezone, the location factor in your region, and the vicinity to users, customers, and partners can all be factors. For example, we may favor one applicant over another because they live in a region with a lower location factor or because we need someone in that timezone.
 1. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission.
-1. Compensation decisions around level and experience levels and for functions not in the calculator are taken by the [Compensation Group](#compensation-group).
+1. Compensation decisions around level and experience levels and for functions not in the compensation framework are taken by the [Compensation Group](#compensation-group).
 
 ## Competitive Rate
 
@@ -50,15 +46,14 @@ If you have any feedback or questions relating to compensation, please reach out
 Our requirements for all [job-families](/handbook/hiring/job-families/) are at **or above** the average in the market.
 Therefore, we can expect to be at or above the 50th percentile of the survey data gathered from providers like Comptryx and Radford.
 Please do not use the term market rate since this can mean either competitive rate or survey data.
-Also see our [SF benchmark](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark).
 
 When discussing a competitive rate for a single person at GitLab, please refer to this as their lottery factor. For example, if this person won the lottery and left the company what impact would that have. Other common industry terms are walk away factor or bus factor, but those both hold a negative connotation.
 
 ### Placement in the Compensation Range
 
-As part of offering a competitive rate within our [transparent Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator/#the-compensation-calculator), team members are able to see where they fall within the compensation range for their role in their location. Typically in the technology sector, the majority of team members are likely to sit between the minimum and slightly above the median of the overall compensation range. It is not common to see a team member at the top of the range as this would leave little to no room for salary growth.
+As part of offering a competitive rate within our [transparent compensation approach](/handbook/total-rewards/compensation/compensation-structure/), team members are able to see where they fall within the compensation range for their role in their location. Typically in the technology sector, the majority of team members are likely to sit between the minimum and slightly above the median of the overall compensation range. It is not common to see a team member at the top of the range as this would leave little to no room for salary growth.
 
-It is important to note that where someone falls within the compensation range is *not* an indicator of performance, nor is it a sign of promotional readiness. For more information on how performance is linked to compensation please review the following [handbook section](/handbook/total-rewards/compensation/compensation-review-cycle/). This is *different* from the Compa Groups GitLab used to have when the bands were more narrow. Additionally, where a team member sits in the range may change as GitLab's compensation philosophy around competitive rates iterates to allow more room for salary growth.
+It is important to note that where someone falls within the compensation range is *not* an indicator of performance, nor is it a sign of promotional readiness. For more information on how performance is linked to compensation please review the following [handbook section](/handbook/total-rewards/compensation/compensation-review-cycle/). Additionally, where a team member sits in the range may change as GitLab's compensation philosophy around competitive rates iterates to allow more room for salary growth.
 
 ### Sharing Compensation
 
@@ -217,7 +212,7 @@ All [one-time bonuses](/handbook/total-rewards/incentives/) including Discretion
 
 ### Not paid in your local currency
 
-Team members contracted through CXC or IT BV may have the option to be paid in USD or EUR when there is volatility in their local currency. This change can be made only once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. 
+Team members contracted through CXC or IT BV may have the option to be paid in USD or EUR when there is volatility in their local currency. This change can be made only once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries.
 
 The conversion from local currency to USD or EUR will be calculated at the time of the update. All future salary adjustments will be based on the new currency amount, regardless of fluctuations in the local currency. This provides stable compensation for team members who opt into this arrangement.
 
