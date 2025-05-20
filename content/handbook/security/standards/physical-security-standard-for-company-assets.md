@@ -1,5 +1,8 @@
 ---
 title: "Physical Security Standard for Company Assets"
+aliases:
+- /handbook/security/physical-security-standard-for-company-assets
+note: Do not remove alias due to extensive external use where it cannot be updated.
 controlled_document: true
 ---
 
@@ -55,7 +58,7 @@ GitLab has two distinct security zones:
 
 - Sensitive data should not be stored on removable storage devices, such as USB drives or external hard drives. External storage devices on company assets [is not sanctioned](/handbook/people-group/acceptable-use-policy/#use-of-external-media-on-company-assets).
 
-- Printing documents containing sensitive information as defined by the [Data Classification Standard](/handbook/security/data-classification-standard/) is prohibited.
+- Printing documents containing sensitive information as defined by the [Data Classification Standard](/handbook/security/standards/data-classification-standard/) is prohibited.
 
 - [Secure your data during travel](/handbook/finance/travel/#secure-your-data-during-travels) ensuring that you are in a secure place and no-one can hear you when you are talking about restricted data, and locking your device when it is not in use.
 

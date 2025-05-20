@@ -10,11 +10,11 @@ Working directly with customers has the average Support Engineer working with so
 
 #### Data Classification Standard
 
-The [Data Classification Standard](/handbook/security/data-classification-standard/) is the most important framework for day-to-day operations in Support. Knowing which data is allowed in which system is vital as you collaborate with colleagues.
+The [Data Classification Standard](/handbook/security/standards/data-classification-standard/) is the most important framework for day-to-day operations in Support. Knowing which data is allowed in which system is vital as you collaborate with colleagues.
 
 Both Data _and_ Systems have data classifications. When _data_ has a classification standard, it represents the impact of disclosing that data. When a system has a data classification standard associated with it, it represents what classification of data is allowed in that system.
 
-Systems within the Tech Stack are authorized to process the level of data associated to them per the [Data Classification Standard](/handbook/security/data-classification-standard/). Storing or processing sensitive data in an unauthorized system poses a risk to our customer's security and privacy and could have legal and/or regulatory consequence. Examples may include a breach of contract or failure to meet our GDPR or SOX obligations.
+Systems within the Tech Stack are authorized to process the level of data associated to them per the [Data Classification Standard](/handbook/security/standards/data-classification-standard/). Storing or processing sensitive data in an unauthorized system poses a risk to our customer's security and privacy and could have legal and/or regulatory consequence. Examples may include a breach of contract or failure to meet our GDPR or SOX obligations.
 
 References:
 

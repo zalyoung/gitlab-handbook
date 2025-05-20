@@ -1,5 +1,8 @@
 ---
 title: "Software Development Lifecycle Standard"
+aliases:
+- /handbook/security/software-development-lifecycle-standard
+note: Do not remove alias due to extensive external use where it cannot be updated.
 ---
 
 ## Purpose

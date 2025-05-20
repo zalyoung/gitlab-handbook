@@ -1,5 +1,8 @@
 ---
 title: "GitLab Data Classification Standard"
+aliases:
+- /handbook/security/data-classification-standard
+note: Do not remove alias due to extensive external use where it cannot be updated.
 controlled_document: true
 ---
 
@@ -53,7 +56,7 @@ Restricted and must remain confidential. This is GitLab's most sensitive data an
 
 Examples include:
 
-- Customer's Data (see definition above in the [Data Classification Definitions section](/handbook/security/data-classification-standard/#data-classification-definitions))
+- Customer Data (see definition above in the [Data Classification Definitions section](/handbook/security/standards/data-classification-standard/#data-classification-definitions))
 
 Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams.  Any Vendors that process Red Data must first undergo a factual and legal analysis that justifies their processing in accordance with our Customer agreements, as well as global privacy and data security laws. For any questions or concerns related to the transmission of Red data between systems, please reach out to @Security-Risk within the #Sec-Assurance channel.
 
