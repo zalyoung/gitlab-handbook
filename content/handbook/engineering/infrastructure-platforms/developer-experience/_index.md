@@ -81,7 +81,5 @@ When estimating work, we use Fibonacci Series for weights and limit the highest 
 | 3 - Medium  | Well understood changes with a few dependencies. Few surprises can be expected, such as new tests that require new factories or page objects/components                                    |
 | 5 - Large   | A task that will require some investigation and research, in addition to the above weights, such as tests that need framework level changes which can impact other parts of the test suite |
 | 8 - X-large | A very large task that will require much investigation and research. Pushing initiative level                                                                                              |
-| 13 or more  | Please break the work down further, we do not use weights higher than 8.
+| 13 or more  | Please break the work down further, we do not use weights higher than 8. |
 
-
- 
