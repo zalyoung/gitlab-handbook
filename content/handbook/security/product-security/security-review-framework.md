@@ -221,7 +221,6 @@ Each team categorizes risk based on their domain-specific score:
 DRI: SD&D Team
 Support: SPA, Data Security. Escalated reviews from SD&D Team for additional consultation or review.
 
-
 #### Critical Risk Review
 
 * Joint architectural and security review
