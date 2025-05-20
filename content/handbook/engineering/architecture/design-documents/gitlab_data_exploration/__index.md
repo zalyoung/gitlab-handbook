@@ -205,7 +205,7 @@ The proposed approach includes:
    display_id: 'ai-impact-table'
    ```
 
-4. **Improved querying capabilities** - Increase the query language power by including features like mathematical functions (for instance `count()`, `sum()`, etc) or aggregating functions (for instance `group_by`):
+4. **Improved querying capabilities** - Increase the query language power by including features like mathematical expressions (for instance `count()`, `sum()`, etc) or aggregate functions (for instance `group_by`):
 
    ```plaintext
    query: project = "team-project" AND type = Issue AND updated > -3d
