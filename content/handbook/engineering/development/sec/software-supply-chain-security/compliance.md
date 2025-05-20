@@ -319,6 +319,8 @@ The issue verification should be done by someone else other than the MR author. 
 
 The verification process is also about sharing knowledge of development between the rest of the group. In an all remote organisation it is easy to become siloed developing features even in the same team, and this attempts to help bridge this.
 
+
+- Before moving the issue to verification, the MR author must verify the changes on production themselves to make sure the feature is working as expected.
 - All MRs should have verification steps in the description. In the case where multiple MRs are created for an issue, the engineer who is assigned to the issue should add complete verification steps in the issue description or as a reply to the triage bot's comment.
 - When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email.
   - For ~`~type::bug`, `~type::feature`, or big changes the engineer should verify again once the change is available on .com/production and leave a comment summarizing the testing that was completed. Also provide a link to a project or page, if applicable.
