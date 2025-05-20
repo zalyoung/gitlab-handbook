@@ -181,7 +181,7 @@ Knowing where to perform a given task is _often_ what you expect, but there are 
 | Knowledge Admin | Create (draft) articles | In Guide directly |
 | Knowledge Admin | Modify (update) articles | In Guide directly |
 | Knowledge Admin | Link Knowledge articles | In Zendesk |
-| Knowledge Admin | Create section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
-| Knowledge Admin | Update section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
-| Knowledge Admin | Delete section | TBD Process - https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/157 |
+| Knowledge Admin | Create section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
+| Knowledge Admin | Update section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
+| Knowledge Admin | Delete section | [Propose a change](/handbook/support/workflows/working_with_support_ops/#propose-a-change) directly to Customer Support Operations |
 
