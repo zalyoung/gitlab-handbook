@@ -50,6 +50,7 @@ For Engineering, please see [Engineering Mobility Principles](/handbook/engineer
 - Additionally, the aligned People Business Partner should be consulted for alignment and visibility.
 
 ## Promotion Philosophy
+
 Our promotion philosophy goes beyond traditional "climbing the ladder" thinking. We recognize that growth happens in multiple dimensions—both vertically (moving up levels) and laterally (expanding skills and impact)—creating a career "lattice" that offers diverse paths to development and success.
 
 Our promotion philosophy comprises core pillars surrounding the approach and process alignment to our values.
