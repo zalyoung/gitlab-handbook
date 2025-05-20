@@ -233,7 +233,7 @@ Moving GLQL to the backend would provide the following advantages:
 - Opportunity for opening up GLQL to satellite services, such as IDE extensions, third party services and APIs. For example it could enable using GLQL in a CLI tool like `glab`, or rendering the output of a GLQL query in an email notification.
 - A simplified frontend implementation, with the backend as single source of truth
 - Queries can be executed closer to the data
-- Opportunity for optimisations at the backend level
+- Opportunity for optimisations at the backend level, such as increased concurrency of queries execution
 - Promotes GLQL from just a compiler to being a full platform, where you can ask a query and get the appropriate data back. Previously this responsibility lied with the consumer, but now GLQL would own it.
 
 In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
