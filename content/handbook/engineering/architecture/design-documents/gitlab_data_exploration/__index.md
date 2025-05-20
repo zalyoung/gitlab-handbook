@@ -205,6 +205,8 @@ The proposed approach includes:
    display_id: 'ai-impact-table'
    ```
 
+   Some early explorations have been done in https://gitlab.com/gitlab-org/gitlab/-/issues/482782.
+
 4. **Improved querying capabilities** - Increase the query language power by including features like mathematical expressions (for instance `count()`, `sum()`, etc) or aggregate functions (for instance `group_by`):
 
    ```plaintext
