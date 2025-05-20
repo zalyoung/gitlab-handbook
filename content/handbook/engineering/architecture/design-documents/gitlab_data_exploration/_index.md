@@ -34,6 +34,7 @@ This initiative serves both our external customers and internal GitLab team memb
 GitLab data resides across multiple data sources, each with different access patterns:
 
 - **PostgreSQL databases** store transactional application data
+- **Elasticsearch/OpenSearch databases** contain denormalized data for efficient searching
 - **ClickHouse databases** contain analytical and time-series data
 - **GraphQL endpoints** provide structured API access to application data
 - **REST APIs** offer additional interfaces to various data sets
@@ -190,7 +191,7 @@ The proposed approach includes:
    fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
    ```
 
-3. **Enhanced display options** - Expand the `display` attribute to support visualization types that might be more appropriate for new datasources:
+3. **Enhanced display options** - Expand the `display` attribute to support visualization types that might be more appropriate for new datasources, such as charts:
 
    ```plaintext
    # Line chart display
@@ -204,15 +205,19 @@ The proposed approach includes:
    display_id: 'ai-impact-table'
    ```
 
-4. **Improved querying capabilities** - Increase the query language power by including features like mathematical functions (for instance `count()`, `sum()`, etc) or aggregating functions (for instance `group_by`):
+   Some early explorations have been done in https://gitlab.com/gitlab-org/gitlab/-/issues/482782.
+
+4. **Improved querying capabilities** - Increase the query language power by including features like mathematical expressions (for instance `count()`, `sum()`, etc) or aggregate functions (for instance `group_by`):
 
    ```plaintext
-   query: project = "team-project" AND type = Pipeline and status = failed AND updated > -3d
-   fields: count()
-   group_by: status
+   query: project = "team-project" AND type = Issue AND updated > -3d
+   fields: count() AS "Total Issues", sum(weight) AS "Total Weight"
+   group_by: state
    ```
 
-   This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954
+   This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954.
+
+   To support analytics query, we would also need to add support for dimensions and metrics, as well as field functions like `timeslice(interval)` to be able to support charts visualisations.
 
 5. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, limited to 100 items, we need to expand that to fully support pagination:
 
@@ -229,10 +234,11 @@ Proof of concept demonstrating how the Rust GLQL compiler can be hooked up to Ra
 Moving GLQL to the backend would provide the following advantages:
 
 - A single entry point for querying GitLab data, with centralized access control and consistent querying interface
-- Opportunity for opening up GLQL to satellite services such as IDE extensions
+- Opportunity for opening up GLQL to satellite services, such as IDE extensions, third party services and APIs. For example it could enable using GLQL in a CLI tool like `glab`, or rendering the output of a GLQL query in an email notification.
 - A simplified frontend implementation, with the backend as single source of truth
 - Queries can be executed closer to the data
-- Opportunity for optimisations at the backend level
+- Opportunity for optimisations at the backend level, such as increased concurrency of queries execution
+- Promotes GLQL from just a compiler to being a full platform, where you can ask a query and get the appropriate data back. Previously this responsibility lied with the consumer, but now GLQL would own it.
 
 In addition, having the GLQL Rust compiler also allows the same parser to be shared by both frontend and backend contexts:
 
@@ -327,10 +333,3 @@ each alternative solution/path.
 
 "Do nothing" and its pros and cons could be included in the list too.
 -->
-
-## Open questions
-
-- Which output formats do we need to support for a first iteration? What other existing data sources are not surfaced through GraphQL? There might be need for supporting REST API at some point, but probably not from the start? Also, if an entity is exposed through GraphQL, maybe there is not much of an advantage to hitting the DB directly, through Rails finders or the ClickHouse client, since we would be losing all strict schema handling that GraphQL provides?
-- Should we provide only a query text editor, or do we want a visual builder as well? How to balance between a query text editor for power users and a UI editor for other users?
-- Can we support querying data for multiple projects and/or for multiple groups within the same query. For example: shows all pipeline failures for group A and group B in the last 3 days. Currently it only supports a single group or a single project
-- How will the system handle multiple queries in parallel when loaded from a dashboard?
