@@ -52,7 +52,6 @@ Epics must always have the following sections:
 - A Problem Statement
 - Directly responsible individuals (DRI) responsible for the project completion
 - Defined exit criteria
-- Issue admin section to provide the issue priority, labels and epic for quick actions
 - Development Log, containing the previous Status Updates and any other relevant information to log
 - Status Update, with the latest status update of the Epic
 - Start date and estimated due date
