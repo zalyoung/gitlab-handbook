@@ -59,7 +59,7 @@ Take your time to work on your answers, as the take-home assessment is a very im
 - address all the areas that you're being asked to consider
 - double-check if your scripts run correctly
 - proofread to make sure you did not make any errors (including grammar and punctuation)
-- write the answers in your own words if you use external sources
+- write the answers in your own words if you use external sources. When using AI tools (like ChatGPT, Claude, etc.), specify which one you used and include your exact prompt
 - cite your external sources
 - submit your answers in the desired format via the link provided in the take-home assessment email.
 
