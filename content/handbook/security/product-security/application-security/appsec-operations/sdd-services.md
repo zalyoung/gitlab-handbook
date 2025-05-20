@@ -5,7 +5,9 @@ description: Secure Design & Development Team Services Overview
 <!-- markdownlint-disable MD052 -->
 Last updated: May 8, 2025
 
-### The Secure Design & Development Team works with GitLab engineers and product teams to *anticipate and prevent* the introduction of vulnerabilities during design and development. 
+### Secure Design & Development Team Mission
+
+The Secure Design & Development (SDD) Team works with GitLab engineers and product teams to *anticipate and prevent* the introduction of vulnerabilities during design and development.
 
 Our responsibility includes four of the five Secure Developer Experience (SDX) pillars. SDX is a developer UX centered approach to traditional DevSecOps practices. 
 
@@ -21,7 +23,7 @@ Our responsibility includes four of the five Secure Developer Experience (SDX) p
 
 - [**Application Security Reviews**](/handbook/security/product-security/application-security/appsec-reviews/)
 - [**Application Security Stable Counterparts**](/handbook/security/product-security/application-security/stable-counterparts/)
-- [**Threat modeling**](~/content/handbook/security/product-security/application-security/threat-modeling/_index.md)
+- [**Threat modeling**](/handbook/security/product-security/application-security/threat-modeling/_index.md)
 - **Backlog reviews:** When necessary a backlog review can be initiated, please see the [Vulnerability Management Page](/handbook/security/product-security/application-security/vulnerability-management/) for more details.
 - [**GitLab AppSec Inventory**](/handbook/product/ux/navigation/inventory/)
 - [**Responding to customers security scanners review requests**](/handbook/security/product-security/application-security/responding-customers-scan-review-requests/)

@@ -5,7 +5,9 @@ description: Product Security Incident Response Team (PSIRT) Services Overview
 <!-- markdownlint-disable MD052 -->
 Last updated: May 8, 2025
 
-### The Product Security Incident Response Team (PSIRT) analyzes and validates reports of vulnerabilities in GitLab products and services, and works with GitLab engineers and product teams to remediate and mitigate security vulnerabilities to protect customers. The PSIRT also manages GitLab's [Coordinated Vulnerability Disclosure program](https://about.gitlab.com/security/disclosure/).
+### Product Security Incident Response Team (PSIRT) Mission
+
+The Product Security Incident Response Team (PSIRT) analyzes and validates reports of vulnerabilities in GitLab products and services, and works with GitLab engineers and product teams to remediate and mitigate security vulnerabilities to protect customers. The PSIRT also manages GitLab's [Coordinated Vulnerability Disclosure program](https://about.gitlab.com/security/disclosure/)
 
 The PSIRT's responsibility includes the fifth and final Secure Developer Experience (SDX) pillar. SDX is a developer UX centered approach to traditional DevSecOps practices. 
 

@@ -27,7 +27,7 @@ We organize our work into five pillars that emphasize Developer UX in the contex
 
 - **SDX: Maintain**: establishment of an incident response plan, managing [Coordinated Vulnerability Disclosure](https://about.gitlab.com/security/disclosure/), [bug bounty program administration](https://hackerone.com/gitlab?type=team), and critical product security incident response [release](https://about.gitlab.com/releases/categories/releases/) and post-release operations.
 
-The Application Security sub-department includes two teams, the [*Secure Design & Development Team*](/handbook/security/product-security/application-security/appsec-operations/SDD-services) and the [*Product Security Incident Response Team (PSIRT)*](/handbook/security/product-security/application-security/appsec-operations/PSIRT-services).
+The Application Security sub-department includes two teams, the [*Secure Design & Development Team*](/handbook/security/product-security/application-security/appsec-operations/sdd-services) and the [*Product Security Incident Response Team (PSIRT)*](/handbook/security/product-security/application-security/appsec-operations/psirt-services).
 
 ### Shared Accountabilities & Collaborations
 
@@ -35,37 +35,37 @@ The Application Security team partners with several other teams across the Secur
 
 #### Supply Chain Security
 
-Application Security's accountability is shared by both [SD&D](/handbook/security/product-security/application-security/appsec-operations/SDD-services) and [PSIRT](/handbook/security/product-security/application-security/appsec-operations/PSIRT-services). Additional Product Security teams involved in Supply Chain Security include [Security Platforms & Architecture](/handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/), [Vulnerability Management](/handbook.gitlab.com/handbook/security/product-security/vulnerability-management/), and [Infrastructure Security](/handbook.gitlab.com/handbook/security/product-security/infrastructure-security/).
+Application Security's accountability is shared by both [SD&D](/handbook/security/product-security/application-security/appsec-operations/sdd-services) and [PSIRT](/handbook/security/product-security/application-security/appsec-operations/psirt-services). Additional Product Security teams involved in Supply Chain Security include [Security Platforms & Architecture](/handbook/security/product-security/security-platforms-architecture/), [Vulnerability Management](/handbook/security/product-security/vulnerability-management/), and [Infrastructure Security](/handbook/security/product-security/infrastructure-security/).
 
 #### Dogfooding
 
-Application Security's accountability is to use GitLab security products in our work and be participants in providing actionable Customer Zero feedback through the [Security Platforms & Architecture team](/handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/), who is the Dogfooding DRI for Product Security.
+Application Security's accountability is to use GitLab security products in our work and be participants in providing actionable Customer Zero feedback through the [Security Platforms & Architecture team](/handbook/security/product-security/security-platforms-architecture/), who is the Dogfooding DRI for Product Security.
 
 #### Vulnerability Management
 
-The Application Security Team's accountability is shared by both [SD&D](/handbook/security/product-security/application-security/appsec-operations/SDD-services) and [PSIRT](/handbook/security/product-security/application-security/appsec-operations/PSIRT-services). The [Vulnerability Management](/handbook.gitlab.com/handbook/security/product-security/vulnerability-management/) is DRI for Vuln Mgmt tooling development and implementation
+The Application Security Team's accountability is shared by both [SD&D](/handbook/security/product-security/application-security/appsec-operations/sdd-services) and [PSIRT](/handbook/security/product-security/application-security/appsec-operations/psirt-services). The [Vulnerability Management](/handbook/security/product-security/vulnerability-management/) is DRI for Vuln Mgmt tooling development and implementation
 
 #### Secure by design
 
-The Secure Design and Development Team's accountability is feature focused, assessing threats through [Threat Modeling](/handbook/security/product-security/application-security/threat-modeling/_index.md) and [feature design reviews](/handbook/security/product-security/application-security/appsec-reviews.md). (SDX: Design). The [Security Platforms & Architecture team](/handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/) is DRI for Threat Modeling strategy company-wide, while AppSec is a critical stakeholder in this strategy.
+The Secure Design and Development Team's accountability is feature focused, assessing threats through [Threat Modeling](/handbook/security/product-security/application-security/threat-modeling/_index.md) and [feature design reviews](/handbook/security/product-security/application-security/appsec-reviews.md). (SDX: Design). The [Security Platforms & Architecture team](/handbook/security/product-security/security-platforms-architecture/) is DRI for Threat Modeling strategy company-wide, while AppSec is a critical stakeholder in this strategy.
 
 #### Security Response
 
-The [Product Security Incident Response Team's](/handbook/security/product-security/application-security/appsec-operations/PSIRT-services) accountability is to triage and technically assesses critical and exploitable vulnerabilities, determine company and customer risk, and coordinate external communications regarding these issues.  PSIRT has several partners across the company including:
+The [Product Security Incident Response Team's](/handbook/security/product-security/application-security/appsec-operations/psirt-services) accountability is to triage and technically assesses critical and exploitable vulnerabilities, determine company and customer risk, and coordinate external communications regarding these issues.  PSIRT has several partners across the company including:
 
-- [Security Operations](/handbook.gitlab.com/handbook/security/security-operations/) is DRI for Incident Command and Threat Detection (IOCs, TTPs)
-- [Security Research](/handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/security-research/) is a key partner on exploitability and POC development
-- [PR and Communications](/handbook.gitlab.com/handbook/security/external-security-communications-procedure/)
-- [Legal](/handbook.gitlab.com/handbook/legal/)
-- [Delivery](/handbook.gitlab.com/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/)
-- [Customer Suport](/handbook.gitlab.com/handbook/security/customer-support-operations/)
+- [Security Operations](/handbook/security/security-operations/) is DRI for Incident Command and Threat Detection (IOCs, TTPs)
+- [Security Research](/handbook/security/product-security/security-platforms-architecture/security-research/) is a key partner on exploitability and POC development
+- [PR and Communications](/handbook/security/external-security-communications-procedure/)
+- [Legal](/handbook/legal/)
+- [Delivery](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/)
+- [Customer Suport](/handbook/security/customer-support-operations/)
 
 ## Out of Scope
 
-- [SBOM production](/handbook.gitlab.com/handbook/security/security-assurance/security-compliance/sbom-plan/)
+- [SBOM production](/handbook/security/security-assurance/security-compliance/sbom-plan/)
 - Container Scanning
 - [Customer Escalations regarding security scanner findings](/handbook/security/product-security/application-security/responding-customers-scan-review-requests/)
-- [Security Compliance](/handbook.gitlab.com/handbook/security/security-assurance/)
+- [Security Compliance](/handbook/security/security-assurance/)
 
 ## Contacting us
 
@@ -83,15 +83,15 @@ In FY26, our key focus areas are:
 
 **Organizational Upleveling:**
 
-- Establish [Product Security Incident Response Team (PSIRT)](/handbook/security/product-security/application-security/appsec-operations/PSIRT-services)
-- Expand [Security Design & Development](/handbook/security/product-security/application-security/appsec-operations/SDD-services) team services at scale
+- Establish [Product Security Incident Response Team (PSIRT)](/handbook/security/product-security/application-security/appsec-operations/psirt-services)
+- Expand [Security Design & Development](/handbook/security/product-security/application-security/appsec-operations/sdd-services) team services at scale
 
-**Support [Company](/handbook.gitlab.com/handbook/company/strategy/) and [Division](/handbook.gitlab.com/handbook/security/) Priorities:**
+**Support [Company](/handbook/company/strategy/) and [Division](/handbook/security/) Priorities:**
 
 - Authorization & Authentication
 - AI Security & Safety
 - Supply Chain security
-- [Security Interlock](/handbook.gitlab.com/handbook/security/product-security/security-platforms-architecture/security-interlock/)
+- [Security Interlock](/handbook/security/product-security/security-platforms-architecture/security-interlock/)
 
 ## FY26 Metrics
 
