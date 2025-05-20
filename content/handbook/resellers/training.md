@@ -39,8 +39,6 @@ This comprehensive training covers:
 - Security and compliance features and frameworks
 - GitLab deployment, integration, and migration strategies
 - Sales methodologies and value proposition articulation
-
-
 ## For Channel Partners
 
 To sign up for any of the courses listed on this page, please visit the GitLab University Partner Center via the [Partner Portal.]( https://partners.gitlab.com/English/Partner/home.aspx)_for more information regarding recommended and required training opportunities. 
