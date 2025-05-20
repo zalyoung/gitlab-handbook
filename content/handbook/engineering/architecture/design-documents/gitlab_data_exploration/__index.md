@@ -191,7 +191,7 @@ The proposed approach includes:
    fields: codeSuggestionsShownCount, codeSuggestionsAcceptedCount, duoUsedCount
    ```
 
-3. **Enhanced display options** - Expand the `display` attribute to support visualization types that might be more appropriate for new datasources:
+3. **Enhanced display options** - Expand the `display` attribute to support visualization types that might be more appropriate for new datasources, such as charts:
 
    ```plaintext
    # Line chart display
@@ -213,7 +213,9 @@ The proposed approach includes:
    group_by: state
    ```
 
-   This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954
+   This is already tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/511954.
+
+   To support analytics query, we would also need to add support for dimensions and metrics, as well as field functions like `timeslice(interval)` to be able to support charts visualisations.
 
 5. **Support large dataset** - As the current implementation of GLQL only supports returning a single page of data, limited to 100 items, we need to expand that to fully support pagination:
 
@@ -329,11 +331,3 @@ each alternative solution/path.
 
 "Do nothing" and its pros and cons could be included in the list too.
 -->
-
-## Open questions
-
-- Which output formats do we need to support for a first iteration? What other existing data sources are not surfaced through GraphQL? There might be need for supporting REST API at some point, but probably not from the start? Also, if an entity is exposed through GraphQL, maybe there is not much of an advantage to hitting the DB directly, through Rails finders or the ClickHouse client, since we would be losing all strict schema handling, context and authorisation that GraphQL provides?
-- How can we support data that we can feed into charts, e.g. timeseries? Could it be a type of `field` or based on the `disaply` attribute?
-- Should we provide only a query text editor, or do we want a visual builder as well? How to balance between a query text editor for power users and a UI editor for other users?
-- Can we support querying data for multiple projects and/or for multiple groups within the same query. For example: shows all pipeline failures for group A and group B in the last 3 days. Currently it only supports a single group or a single project
-- How will the system handle multiple queries in parallel when loaded from a dashboard?
