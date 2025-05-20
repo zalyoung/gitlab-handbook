@@ -152,7 +152,21 @@ By default, GLAS runs full scans. However, users who have enabled diff-based sca
 
 ## Design and Implementation Details
 
-### Database Schema Changes(WIP)
+### GLAS Analyzer changes
+
+1. Update [GLAS](https://gitlab.com/gitlab-org/security-products/analyzers/gitlab-advanced-sast) analyzer to trigger a diff-based scan when the following CI variables are configured:
+    - `SAST_PARTIAL_SCAN=differential`
+    - `AST_ENABLE_MR_PIPELINES=true`
+
+1. GLAS analyzer only analyzes the modified files and neighborhood files based on the default [neighborhood depth](#understanding-neighborhood-depth)
+
+1. For a diff-based scan, the `GLAS` analyzer will set the `sast_partial_scan` field to `differential`.
+
+### Report schema changes
+
+1. Update the [security report schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/941f497a3824d4393eb8a7efced497f738895ab4/src/sast-report-format.json) to accept a new `sast_partial_scan` enum field which for now only supports 1 scanning mode `differential` but could be extended to include `incremental` for [incremental scanning support](https://gitlab.com/groups/gitlab-org/-/epics/15545) in the future.
+
+### Database Schema Changes
 
 Introduce a new table to track whether a scan is a GLAS diff-based scan. This is kept separate from security_scans to avoid adding unused fields for other scan types.
 
@@ -178,10 +192,17 @@ Introduce a new table to track whether a scan is a GLAS diff-based scan. This is
    end
    ```
 
-### Backend Changes(WIP)
+### Persist the diff-based scan
 
-- Identify code to parse the SAST report and if it's a GLAS diff_scan, create a `security_scan_glas_diff_metadata` entry that the frontend code can retrieve to determine if the scan is a diff-based scan.
-- For the security widget data, it should also return an empty array for fixed vulnerabilities to ensure that it is hidden.
+1. Add partial scan fields to [security report schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas)
+
+1. Add partial scan data to the [security report parser](https://gitlab.com/gitlab-org/gitlab/-/blob/fb765f79de756ebe966cbec40b1d196f299d1776/lib/gitlab/ci/parsers/security/common.rb)
+
+1. Create the partial scan metadata in [StoreScanService](https://gitlab.com/gitlab-org/gitlab/-/blob/fb765f79de756ebe966cbec40b1d196f299d1776/ee/app/services/security/store_scan_service.rb#L10)
+
+### Prepare data for frontend(WIP)
+
+- Check if the GLAS report is a diff-based scan and ensure that fixed vulns are not passed to the frontend.
 
 ### Frontend Changes(WIP)
 
