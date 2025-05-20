@@ -273,4 +273,3 @@ The current list of projects are identified in the [`gitlab-data/analytics`](htt
 |-----------------|------|
 | GitLab.com      | [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv) |
 | ops.gitlab.net  | [`projects_part_of_product_ops.csv`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product_ops.csv) |
-
