@@ -27,6 +27,7 @@ Contributor Success welcomes new ideas/themes for the hackathon. Please reach ou
 ### Experiments and results
 
 #### April 2025 Hackathon
+
 Bug bash bonus prize:
 - 250 credit bonus to the contributor who merged the most `type::bug` merge requests
 - Credits were in addition to other hackathon prizes
@@ -34,4 +35,5 @@ Bug bash bonus prize:
 - Bonus was not advertized on contributors.gitlab.com.
 
 Results:
+
 - No material change in the number of participants or bugs resolved. 
