@@ -9,7 +9,7 @@ security review along with the type of review that needs to be conducted."
 This security review framework for Product Security teams at GitLab aims to establish a systematic approach to evaluating and reviewing features based on 
 appropriate security team engagement and risk assessment. The framework aims to balance security requirements with development velocity by directing 
 security resources where they can have the most impact. The process begins with team routing to identify whether Secure Design and Development and/or 
-Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teamss automatically engaged 
+Infrastructure Security should lead the review, with Security Platforms and Architecture (SPA) and Data Security teams automatically engaged 
 for High or Critical risk scores.
 
 How the security review framework fits into the Security Review Process for Product Security is visualized in the 
@@ -27,7 +27,7 @@ How the security review framework fits into the Security Review Process for Prod
 | ----- | ----- | ----- |
 | Secure Design and Development | Code vulnerabilities, threat modeling, developer education, authentication, authorization, input validation | Sensitive data handling, auth changes, new technologies, third-party integrations, customer-facing features |
 | Infrastructure Security | Infrastructure configurations, network security, deployment, cloud security, container orchestration, infrastructure-as-code | New infrastructure, deployment changes, network modifications, cloud provider configuration, container security |
-| SPA | System design, data flows, architectural patterns, trust boundaries, component interactions | Automatically engaged for High or Critical risk scores from either team |
+| SPA | System design, data flows, architectural patterns, trust boundaries, component interactions | Escalated reviews from InfraSec and SD&D Team in case of: <br> - Major architectural changes that systematically impact how we develop, build, deploy or run our product (e.g., Dedicated, Cells, Runway)<br>- Significant modifications to Authentication/Authorization at application or infrastructure level<br>- Changes to build/distribution practices that substantially impact the software supply chain<br>- Architectural changes for features that are fundamental to annual business goals |
 
 ## 1: Security Team Routing
 
@@ -202,15 +202,15 @@ Each team categorizes risk based on their domain-specific score:
 
 #### Secure Design and Development
 
-* Critical Risk (Score ≥ 18): Full comprehensive review + SPA automatically engaged
-* High Risk (Score 14-17): Complete review with targeted testing + SPA automatically engaged
+* Critical Risk (Score ≥ 18): Full comprehensive review + SPA review if required
+* High Risk (Score 14-17): Complete review with targeted testing + SPA review if required.
 * Medium Risk (Score 10-13): Focused review of specific components by primary team only
 * Low Risk (Score < 10): Self-service review
 
 #### Infrastructure Security
 
-* Critical Risk (Score ≥ 15): Full comprehensive review + SPA automatically engaged
-* High Risk (Score 12-14): Complete review with targeted testing + SPA automatically engaged
+* Critical Risk (Score ≥ 15): Full comprehensive review + SPA review if required.
+* High Risk (Score 12-14): Complete review with targeted testing + SPA review if required.
 * Medium Risk (Score 8-11): Focused review of specific components by primary team only
 * Low Risk (Score < 8): Self-service review
 
@@ -218,7 +218,11 @@ Each team categorizes risk based on their domain-specific score:
 
 ### Secure Design and Development Review Process
 
-#### Critical Risk Review (with SPA)
+DRI: SD&D Team
+Support: SPA, Data Security. Escalated reviews from SD&D Team for additional consultation or review.
+
+
+#### Critical Risk Review
 
 * Joint architectural and security review
 * Comprehensive threat modeling session
@@ -230,7 +234,7 @@ Each team categorizes risk based on their domain-specific score:
 * Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
 Teams involved: SPA, Data Security and SD&D
 
-#### High Risk Review (with SPA)
+#### High Risk Review
 
 * Joint architectural review
 * Focused threat modeling
@@ -251,7 +255,10 @@ Teams involved: SPA, Data Security and SD&D
 
 ### Infrastructure Security Review Process
 
-#### Critical Risk Review (with SPA)
+DRI: InfraSec Team
+Support: SPA, Data Security. Escalated reviews from SD&D Team for additional consultation or review.
+
+#### Critical Risk Review
 
 * Joint architectural and infrastructure review
 * Comprehensive infrastructure security review
@@ -264,7 +271,7 @@ Teams involved: SPA, Data Security and SD&D
 * Timeline: 2-3 weeks
 Teams involved: SPA, Data Security and InfraSec
 
-#### High Risk Review (with SPA)
+#### High Risk Review
 
 * Joint architectural review
 * Focused infrastructure review
