@@ -29,6 +29,7 @@ Contributor Success welcomes new ideas/themes for the hackathon. Please reach ou
 #### April 2025 Hackathon
 
 Bug bash bonus prize:
+
 - 250 credit bonus to the contributor who merged the most `type::bug` merge requests
 - Credits were in addition to other hackathon prizes
 - Bonus was advertized on all external hackathon announcements.
