@@ -240,7 +240,8 @@ Each issue should have labels and field values to satisfy the triage bot policie
 | CS-Team | `CS-Team::Tech-Touch` | Tech-Touch (Digital Experience) team |
 | CS-Team | `CS-Team:: Onboarding` | Onboarding team |
 | LT Sponsorship | CSLT::[Name] | CS leadership team member sponsoring objective or initiative |
-| XLT DRI | CSXLT::[Name] | CS manager responible for objective or initiative  |
+| XLT DRI | CSXLT::[Name] | CS manager serving as DRI ble for objective or initiative  |
+| XLT DRI | `CSXLT::N/A` | This CSXLT label is for use when a director level team member is serving as the DRI for an objective or intiative, rather than a member of the extended leadership team (ie, manager)|
 
 ## OKR Schedule
 
