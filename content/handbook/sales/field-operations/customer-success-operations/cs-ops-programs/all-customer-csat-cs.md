@@ -10,12 +10,15 @@ Administered by the Customer Success team via Gainsight to a larger audience, th
 
 | CSAT Survey | Send Schedule | Follow-up Date | Close Schedule |
 | :---- | :---- | :---- | :---- |
-| All-Customer CSAT Survey 1   |  May 24, 2024 | May 30, 2024 | Jun 21, 2024 |
-|  | Nov 12, 2024 | Nov 15, 2024/ Nov 22, 2024 | Dec 11, 2024 |
-|  | May 27, 2025 | June 3, 2025 | Jun 10, 2025 |
-|  | Nov 3, 2025 (tentative) | Nov 14, 2025 (tentative) | Dec 7, 2025 (tentative) |
+| All-Customer CSAT Survey   |  May 27, 2025 | June 3, 2025 | Jun 20, 2025 |
 
-## **Questions**
+## **About**
+
+### Subject line
+
+Starting May 27, 2025, customers will receive an email with the subject line: **“We’re listening. What do you REALLY think?”**. The survey should take no more than 8 min to complete, and the feedback will be a direct input into new internal initiatives and product roadmap recommendations.
+
+### Questions
 
 1. How satisfied are you with GitLab?
 2. How satisfied are you with your teams’ adoption of GitLab?
@@ -31,6 +34,17 @@ Administered by the Customer Success team via Gainsight to a larger audience, th
    * Product Manager
    * Billing or Procurement
    * Executive Sponsor
+7. Contributions like yours directly shape the future of our product. Are you open to a brief chat with our team to learn more about your GitLab experience?
+   * Yes / No
+
+### Recipients
+
+In order to target leaders and decision-makers on accounts, the following customer personas will receive an invitation to a survey:
+
+* GitLab admin contacts
+* Sold-To Billing Contact (if no GitLab Admin exists)
+* GitLab.com Owner role
+* Executive Sponsor
 
 ## **Process**
 

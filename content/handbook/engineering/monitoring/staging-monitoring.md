@@ -12,7 +12,7 @@ description: "How Staging is monitored and how traffic is generated"
 
 The goal of Staging Monitoring is to have SLO alerts that can be used to halt an ongoing deployment. This would allow failing fast and catching bad deployments before they reach Production. To enable this we need to ensure that the environment has enough base-load traffic and the signal of an SLO failure is strong.
 
-Staging environment doesn't have as much user activity as Production since it doesn't have the same amount of real users. The environment is mostly used by test automation like [GitLab QA pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/) and engineers who may test their code manually. These activities don't generate enough traffic so a custom load [emulation tool](#load-emulation) was designed to create artificial traffic to compensate for the lack of signal from real users.
+Staging environment doesn't have as much user activity as Production since it doesn't have the same amount of real users. The environment is mostly used by test automation like [GitLab QA pipelines](/handbook/engineering/testing/end-to-end-pipeline-monitoring/) and engineers who may test their code manually. These activities don't generate enough traffic so a custom load [emulation tool](#load-emulation) was designed to create artificial traffic to compensate for the lack of signal from real users.
 
 ## Load emulation
 
@@ -31,7 +31,7 @@ Known limitations:
 
 CMBR generates traffic for Staging using [scheduled pipelines](https://staging.gitlab.com/gitlab-com/gl-infra/cmbr-staging-load-generator/-/pipeline_schedules) for `gstg` and `cny-gstg`. The tool uses a dedicated user with auditor role to generate load and bypass rate limits (`Credentials for Staging Crawler` stored in 1Password `Engineering` vault).
 
-Throughput is controlled by environment variables and tuned differently for each service. It's worth noting that if load needs to be increased, Staging environment's performance should be considered and verified that it doesn't affect existing [GitLab QA pipelines](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/). Otherwise, it may bring intermittent errors in the test runs and affect the deployment.
+Throughput is controlled by environment variables and tuned differently for each service. It's worth noting that if load needs to be increased, Staging environment's performance should be considered and verified that it doesn't affect existing [GitLab QA pipelines](/handbook/engineering/testing/end-to-end-pipeline-monitoring/). Otherwise, it may bring intermittent errors in the test runs and affect the deployment.
 
 ## Staging Service Monitoring
 

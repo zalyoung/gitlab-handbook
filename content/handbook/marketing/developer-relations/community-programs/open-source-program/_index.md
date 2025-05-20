@@ -10,7 +10,7 @@ GitLab's open source program is part of the [Developer Relations team](/handbook
 
 ## How to reach us
 
-* DRI: [Alex Karsten](https://gitlab.com/akarsten1), [Jana Sena](https://gitlab.com/janasenap)
+* DRI: [Nick Veenhof](https://gitlab.com/nick_vh)
 * Slack channel: `#community-programs`
 * Email: `opensource@gitlab.com`
 
@@ -57,13 +57,12 @@ Projects that are affiliated must work with a Sales representative to see if the
 In some cases, we allow program members to host a small number of private projects if those projects contain sensitive data.
 Members should send an email to `opensource@gitlab.com` in order to discuss this exemption.
 Program members must obtain written permission from the GitLab Open Source Program team in order to use their licenses outside of program requirements.
+By default we allow a namespace to have a single private project besides the public ones, for security needs.
 
 **Strategic Qualification Exceptions**
 We may make strategic exceptions to our program requirements.
 A GitLab Sales team member must make this request on behalf of an open source project.
-To request an execption, [create an issue in the GitLab for Open Source Program project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-for-open-source/-/issues/new?issuable_template=program-qualification-exception-request) using the `program-qualification-exception-request` template.
-Account Executives and their managers must approve the exception request.
-Customer Success Managers (CSMs) associated with the account should also be notified of the exception request.
+To request an exception, write an email to `opensource@gitlab.com` with details about which requirement do you want to bypass and why.
 
 #### What are the terms of the GitLab for Open Source Program?
 
@@ -71,30 +70,15 @@ Upon acceptance to the GitLab for Open Source Program, all program members are s
 
 #### How does someone apply for the GitLab for Open Source Program?
 
-Applicants should submit the form on the [GitLab for Open Source Program page](https://about.gitlab.com/solutions/open-source/join/).
-
-As part of the application process, applicants must provide screenshots of their GitLab projects to confirm eligibility.
-They should submit screenshots of:
-
-* The project's license overview
-* The project's license contents
-* The project's public visibility settings
-
-For more specific instructions on obtaining and submitting required screenshots, [see GitLab Docs](https://docs.gitlab.com/ee/subscriptions/community_programs.html#gitlab-for-open-source).
+Applicants should submit the form on the [GitLab Customers Portal](https://customers.gitlab.com/subscriptions/community_program/coupons/new).
+The page is only available for signed-in users. Each customer can freely sign in (or sign up) on the Customers Portal through their existing GitLab account.
+Depending on where an open source project is hosted (on GitLab.com or a Self-managed instance), the form requests different information from an applicant.
+After submission and passing checks, the applicant receives an email with further instructions.
 
 #### How are GitLab for Open Source Program applications processed?
 
 The GitLab for Open Source team processes applications according to the [Community Programs application workflow](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview).
 For additional information on program-specific workflows, see the [Open Source Program Workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/oss-program-workflows/) page.
-
-GitLab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements.
-In most cases, applicants receive a decision on their application within three to five business days of submission.
-During periods of high submission volume, processing an application requires up to ten business days.
-Note that applications will not be processed during U.S. holidays; responses may be delayed during those periods.
-When verified, applicants receive a verification email containing specific instructions for activating their subscriptions.
-
-Some users may need to input a VAT number when completing their program applications.
-GitLab for Open Source Program members can simply input `N/A` into the VAT field during registration.
 
 #### Must members of the GitLab for Open Source Program renew their memberships?
 
@@ -109,7 +93,7 @@ We recommend that applicants begin the renewal process at least one month in adv
 #### How does someone renew their membership in the GitLab for Open Soure Program?
 
 Subscriptions granted under the GitLab for Open Source Program do not auto-renew.
-To request a renewal, program members should complete the [program application](https://about.gitlab.com/solutions/open-source/join/).
+To request a renewal, program members should complete the [program application](https://customers.gitlab.com/subscriptions/community_program/coupons/new).
 The team will use this form to determine whether the entity applying for renewal still meets the program's eligibility criteria.
 Whether applying to the program for the first time or renewing a pre-existing membership, applicants complete the same form.
 

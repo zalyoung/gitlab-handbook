@@ -43,6 +43,12 @@ The following members of other functional teams are our stable counterparts:
 
 {{% engineering/stable-counterparts manager="glopezfernandez" role="Tenant Scale|Principal Engineer, Data Stores|Senior Distinguished Engineer, Ops and Core Platform" %}}
 
+### Organization Rollout Counterparts
+
+The following people are supporting our rollout of Organizations.
+
+{{< group-by-slugs atevans>}}
+
 ## Projects
 
 We are working on different large projects where each project has a [Directly Responsible Individual (DRI)](/handbook/people-group/directly-responsible-individuals/).
@@ -53,7 +59,7 @@ limited to that area and they also work in other areas as needed.
 
 | Project | DRI | Team |
 | ------ | ------ | ------ |
-| [Organization backend essentials](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Rutger |
+| [Organization backend essentials](https://gitlab.com/groups/gitlab-org/-/epics/14111) | Rutger | Chen |
 | [Organization isolation: sharding](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Shubham | Leonardo da Rosa, Krasimir Angelov |
 | [Migrating project/group list pages to Vue](https://gitlab.com/gitlab-org/gitlab/-/issues/460856) | Peter | |
 | [Group archiving](https://gitlab.com/groups/gitlab-org/-/epics/15019)| Shubham | Peter |

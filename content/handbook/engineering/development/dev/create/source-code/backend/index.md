@@ -93,8 +93,9 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 
 #### Issue refinement
 
-1. Once we have validated the problem, product, UX, and engineering will collaborate to propose a solution and decide on what's technically feasible. The proposed solution will be shared with users to validate it solves the problem.
+1. Once we have validated the problem, product, UX, and engineering will collaborate to propose a solution and decide on what's technically feasible. The proposed solution may be shared with users to validate it solves the problem.
     1. Issues that require design work are marked with `UX` and `workflow::ready for design`.
+    1. Issues in the design process are marked with `workflow::design`.
     1. Once designs are ready and the proposed solution is viable then the label `workflow::planning breakdown` will be applied.
 1. Once we have confirmed the proposed solution is viable, we will move to break it down as much as possible. When issues are ready for this stage, PM will mark issues with `workflow::refinement` label to signal next step.
 1. EM will create a refinement issue ([example](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/issues/249)) and distribute tasks labeled `workflow::refinement` among engineers.

@@ -29,7 +29,7 @@ The Localization team uses the following scope labels to categorize documentatio
 | ----------    | -----------|
 | [Documentation engineering work to be triaged](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Atriage&first_page_size=100)| `~"l10n-docs-engineering::triage"`   |
 | [Documentation engineering work required for launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=created_date&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Alaunch-required&first_page_size=100)| `~"l10n-docs-engineering::launch-required"` |
-| [Documentation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues?label_name=l10n-docs-engineering%3A%3Apost-launch)| `~"l10n-docs-engineering::post-launch"`  |
+| [Documentation engineering work post launch](https://gitlab.com/gitlab-com/localization/docs-site-localization/-/issues/?sort=relative_position&state=opened&label_name%5B%5D=L10n-docs-engineering%3A%3Apost-launch&first_page_size=100)| `~"l10n-docs-engineering::post-launch"`  |
 
 #### Iteration Board #9140637 
 
@@ -103,31 +103,73 @@ Each project within these environments maintains the following branch structure:
 
 [See example MR](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/prod/omnibus-gitlab/-/merge_requests/11) for updating the `main-translation` branch with content from the Omnibus Production fork.
 
-### Development Environments
+### i18n Development Environments
 
-When working on i18n features:
+#### Main Development Branch
 
-1. Always use the **main-development** branch to create your feature branch
-2. Follow the standard merge request review process for any changes
-3. Test thoroughly using the actual translations available in the branch
-4. Once approved, changes can be submitted upstream to the original repositories
+The `main-development` branch is our dedicated environment for i18n feature development. It builds localized routes and enables review apps using translations from production forks' `main-translation` branches.
+This [merge request](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27) documents the changes to enable i18n feature development. 
 
-This workflow ensures we can develop and validate i18n features in an environment with real translations before integrating them with the primary codebase.
+##### Working with the i18n environment
 
-#### Live Preview Environment
+1. Always create feature branches from `main-development`
+2. Target merge requests to `main-development`
+3. Test with translations from all projects' `main-translation` branches
+4. After approval, open a separate MR to contribute upstream
 
-The `live-preview branch` provides a stable environment to review internationalized documentation before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and mirrors the translation workflow.
+It is helpful to set up a dedicated directory on your machine for this environment, since it also requires external projects from our production fork, specically the  `main-translation` branch. 
 
-Use this environment to review translations in context, verify integration, and identify formatting issues before they reach production
+```plain
+cd htdocs
+mkdir main-devevelopment
+git clone git@gitlab.com:gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs.git
+cd gitlab-docs
+mise trust
+make setup
+USE_SSH=true make clone-docs-projects
+```
 
-##### Accessible Live Preview URLs
+Your resulting directory structure should look like this:
+
+```plain
+main-development
+├── charts-gitlab/ (main-translation)
+├── gitlab/ (main-translation)
+├── gitlab-docs/ (main-development)
+├── gitlab-runner/ (main-translation)
+├── gitlab-operator/ (main-translation)
+└── omnibus-gitlab/ (main-translation)
+```
+
+Refer to documentation here for setting up your workstation further: https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main/doc/setup.md?ref_type=heads#set-up-your-workstation 
+
+##### Updating `main-development`
+
+* Use the "Update fork" button at [our forked repository](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/tree/main-development)  
+* If conflicts occur, update locally:
+
+```plain
+cd /htdocs/localization/main-development/gitlab-docs ## cd into your gitlab-docs directory using the main-development branch
+git fetch
+git checkout main-development
+git merge origin/main
+git push origin main-development 
+```
+
+#### Review App
+
+The review app enables our team to review internationalized documentation and features before production deployment. It consolidates translated content from all five repositories (GitLab, Operator, Omnibus, Runner, Charts), maintains production-identical build pipelines, and utilizes the i18n features built for Hugo.
+
+While the latest `main-development` branch contents are visible, it won't automatically update when there are changes to the `main-translation` forks. Run a new pipeline to pull those in.
+
+First visit https://gitlab-docs-hugo-19c275.gitlab.io/ to oauth yourself to the server, then visit https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ to see the latest `main-development` branch contents.
 
 | Repository | Live Preview URL |
 | ----- | ----- |
-| GitLab | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/ci/yaml/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/ci/yaml/) |
-| Operator | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/operator/backup\_and\_restore/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/operator/backup_and_restore/) |
-| Omnibus | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/omnibus/build/build\_docker\_image/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/omnibus/build/build_docker_image/) |
-| Runner | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/runner/register/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/runner/register/) |
-| Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-17/ja-jp/charts/installation/) |
+| GitLab | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/ci/yaml/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/ci/yaml/) |
+| Operator | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/operator/backup\_and\_restore/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/operator/backup_and_restore/) |
+| Omnibus | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/omnibus/build/build\_docker\_image/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/omnibus/build/build_docker_image/) |
+| Runner | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/runner/register/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/runner/register/) |
+| Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/) |
 
-This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/17).
+This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27).

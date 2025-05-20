@@ -242,6 +242,7 @@ Each policy type follows its specific workflow for enforcement:
    1. System marks all frameworks in the new CSP Group as `is_csp_framework = true`.
    1. All mirrored frameworks linked to the old CSP Group are deleted across the instance.
    1. All mirrored frameworks linked to the old CSP Group are removed from projects.
+   1. All security policies linked to the old CSP Group are unlinked.
    1. New frameworks from the new CSP Group are mirrored to all top-level groups.
    1. System generates an audit event tracking the CSP Group change.
 1. UI indicators update to reflect the new CSP Group.
@@ -280,6 +281,10 @@ Each policy type follows its specific workflow for enforcement:
    1. Any projects that had the deleted framework assigned have that framework unassigned.
    1. Job deletes all mirrored frameworks associated with the original.
    1. System generates audit events for each deletion.
+
+#### Tracking progress of propagation
+
+When a compliance framework in the CSP Group is modified, it may take some time for the changes to fully propagate to all mirrored frameworks, especially in instances with many top-level groups. To enhance the user experience, we can track propagation progress by calculating the total number of frameworks to be mirrored in advance and updating the status as each one is completed.
 
 ### Security Policy Change Management
 

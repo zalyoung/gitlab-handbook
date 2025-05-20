@@ -104,10 +104,10 @@ For more details, see the [DBO escalation process](/handbook/engineering/infrast
 
 ## Developer Experience Stage On-Call Rotation
 
-- Developer Experience's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/infrastructure-platforms/developer-experience/oncall-rotation/) page.
+- Developer Experience's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](/handbook/engineering/testing/oncall-rotation/) page.
 - The rotation is on a weekly basis across 3 timezones (APAC, EMEA, AMER) and triage activities happen during each team member's working hours.
 - This on-call rotation is to ensure accurate and stable test pipeline results that directly affects our continuous release process.
-- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/infrastructure-platforms/developer-experience/end-to-end-pipeline-monitoring/) page.
+- The list of pipelines which are monitored are defined on our [pipeline](/handbook/engineering/testing/end-to-end-pipeline-monitoring/) page.
 - The schedule and roster is defined on our [schedule](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) page.
 
 ## PagerDuty

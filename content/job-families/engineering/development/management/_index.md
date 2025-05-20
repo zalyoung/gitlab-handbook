@@ -25,11 +25,12 @@ Senior Engineering Manager, Development responsibilities extend those of [Senior
 
 #### Requirements
 
-Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
+Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/job-families/engineering/engineering-management/#senior-manager-engineering-requirements) with [specific requirements for the Development role](/job-families/engineering/development/management/senior-manager/).
 
 ### Director, Development
 
-The Director of Development role extends the [Senior Engineering Manager](#senior-engineering-manager-development) role.
+- The Director of Development role extends the [Senior Engineering Manager](#senior-engineering-manager-development) role.
+- The Director of Engineering role reports to the [Senior Director, Development](#senior-director-development).
 
 #### Job Grade
 
@@ -42,18 +43,6 @@ Director, Development responsibilities extend those of [Director, Engineering](/
 #### Requirements
 
 Director, Development requirements match those of [Director, Engineering](/job-families/engineering/engineering-management/#director-engineering-requirements).
-
-#### Nice-to-have Requirements
-
-- Be a user of GitLab, or familiar with our company
-- Prior Developer Platform or Tool industry experience
-- Prior product company experience
-- Prior high-growth startup experience
-- Experience working on systems at massive (i.e. consumer) scale
-- Deep open source experience
-- Experience working with global teams
-- We value diversity, inclusion and belonging in leadership
-- Be inquisitive: Ask great questions
 
 ### Distinguished Engineer
 
@@ -75,23 +64,10 @@ The Distinguished Engineer role extends the [Principal Engineer](/job-families/e
 
 ### Senior Director, Development
 
-The Senior Director, Development role extends the [Director, Development](#director-development) role.  This role is defined by the functional area(s) the person manages.
+- The Senior Director, Development reports to the [VP of Development](#vp-of-development).
+- The Senior Director, Development role extends the [Director, Development](#director-development) role. This role is defined by the functional area(s) the person manages.
 
-#### Job Grade
-
-The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Responsibilities
-
-- Organizational credibility: Past experience in managing an entire functional area of Engineering
-- Prioritization of hiring efforts to focus on areas of most need and quickly recruit top engineering talent
-- Motivate and communicate across multiple levels of their department
-- Have successful peer partnerships with other department leaders in Engineering, and cross-functionally (Product Management, sales, marketing, alliances, etc)
-- Provide a consistent/successful interface between Engineering Development and Product Management
-- Development, measurement, and management of key metrics for functional area's performance
-- Drive high throughput
-- Standardize the development process where needed, allow local differences where advantages
-- Help shift the organization toward CD over time
+See [Senior Director, Development](senior-director.md)
 
 ### Engineering Fellow
 
@@ -117,45 +93,9 @@ The Engineering Fellow is a [grade 12](/handbook/total-rewards/compensation/comp
 
 ### VP of Development
 
-#### Job Grade
+The VP of Development role extends the [Senior Director, Development](#senior-director-development) role. It expands the role to cover full functional and product capabilities at GitLab.
 
-The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).  This role extends the [Senior Director, Development](#senior-director-development) role.  It expands the role to cover full functional and product capabilities at GitLab.
-
-#### Responsibilities
-
-- Drive recruiting of a world class team at all levels
-- Help their (senior) directors, senior managers, managers, and engineers grow their skills and experience
-- Measure and improve the happiness of Engineering
-- Make sure the handbook is used and maintained in a transparent way
-- *Implement* technical and process improvements that are causal to most critical needs
-- *Participate and support* a sense of psychological safety of the department
-- *Drive* quarterly OKRs around company goals
-- *Define* the agile project management process
-- *Be accountable for* product quality, security, and performance
-- Work across departments within engineering
-- Work closely with Senior leaders of Product Management to provide a consistent/successful interface between Engineering Development and Product Management
-- Support constantly changing priorities between product features, availability, performance, security and reliability
-- Support process for incident management including quality control of RCAs
-
-#### Performance Indicators
-
-- [Response to Community SLO](/handbook/engineering/development/performance-indicators/#response-to-community-slo)
-- [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
-- [Team/Group MR Rate](/handbook/engineering/development/performance-indicators/#mr-rate)
-- [Handbook Update Frequency](/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
-
-#### Hiring Process
-
-Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
-
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
-- Next, candidates will be invited to schedule a 60 minute first interview with a Director of Engineering
-- Next, candidates will be invited to schedule a 45 minute second peer interview with an Engineering Manager
-- Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team
-- Next, candidates will be invited to schedule a 45 minute fourth interview with a member of the Product team
-- Next, candidates will be invited to schedule a 45 minute fifth interview with our VP of Engineering
-- Finally, candidates may be asked to schedule a 50 minute final interview with our CEO
-- Successful candidates will subsequently be made an offer via email
+See [VP of Development](vp.md).
 
 ### Executive VP of Engineering
 
@@ -187,7 +127,7 @@ The Chief Technology Officer is a [grade 12](/handbook/total-rewards/compensatio
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 60 minute first interview with a Director of Engineering
 - Next, candidates will be invited to schedule a 45 minute second peer interview with an Engineering Manager
 - Next, candidates will be invited to schedule a 45 minute third interview with another member of the Engineering team

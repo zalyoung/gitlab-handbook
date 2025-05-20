@@ -242,6 +242,22 @@ We believe it is important to share regular updates at various levels of the Sec
   - Each of the three updates per-team should be no more than 2-3 sentences and include at least one link to allow readers to gain additional context. Links should be to GitLab Issues or Epics wherever possible. If information is confidential and not able to be added to an Issue or Epic, a note should be added indicating this.
   - It is recommended that departmental leaders build their monthly update over the course of the month via a GitLab issue ([see an example](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta/-/issues/72)) in collaboration with their managers and senior ICs.
 
+#### Twice-Monthly Security Leadership Meetings
+
+Security Leadership meets twice a month over Zoom to discuss division-wide topics. Individual contributors from across the security organization are invited to present their work, ideas, or projects to this leadership forum.
+
+If you're interested in presenting:
+
+1. Discuss the topic with your manager first
+2. Your manager will help you:
+   - Add your topic to the agenda with supporting materials
+   - Request an appropriate time slot (5-25 minutes)
+   - Coordinate scheduling your presentation
+
+Note that these meetings are not on the general Security calendar. Your manager will ensure you receive the meeting invitation for your scheduled time.
+
+We encourage all team members to take advantage of this opportunity to share your work and insights with security leadership.
+
 #### Ransomware
 
 For an overview of the communication and response process for a suspected ransomware attack, please see our [Responding to Ransomware](/handbook/security/responding-to-ransomware/) page.
@@ -252,7 +268,7 @@ For an overview of the communication and response process for a suspected ransom
 
 #### Tokens
 
-The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard](/handbook/security/token-management-standard/).
+The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard](/handbook/security/standards/token-management-standard/).
 
 1. When creating a [Personal Access Token](https://docs.gitlab.com/user/profile/personal_access_tokens/), be sure to choose the appropriate [scopes](https://docs.gitlab.com/user/profile/personal_access_tokens/#personal-access-token-scopes) that only have the permissions that are absolutely necessary.
 1. Oftentimes a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) might be sufficient instead of a Personal Access Token. Project Access Tokens have a much more limited scope and should be preferred over Personal Access Tokens whenever possible.

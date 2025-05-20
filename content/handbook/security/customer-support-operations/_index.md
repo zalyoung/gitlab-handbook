@@ -52,7 +52,7 @@ Once validated, it will then be implemented into production. Once that is done, 
 
 The issue will be created in the `Triage` stage. From here, Customer Support Operations will determine if the request has enough information to move onto next stages (if not, we will ask for more information).
 
-Customer Support Operations will thhen determine if the request is valid in our current workload. This is done using the following flowchart:
+Customer Support Operations will then determine if the request is valid in our current workload. This is done using the following flowchart:
 
 ```mermaid
 graph LR;
@@ -62,11 +62,15 @@ graph LR;
   B-->|Yes| D
   A{Is this related to a support roadmap item?}
   B{Is the effort for this small or quickly done?}
-  C[Rejected]
-  D[Approved]
+  C[Escalate to unblock]
+  D[Approved for scheduling]
+  C-->E[Close, won't do]
+  C-->F[Needs prioritization, backlog]
+  C-->G[Needs discussion, close in favor of STM. Create new issue in the future.]
+
 ```
 
-If approved, it will then move to the `Design` stage (with all approvpriate labels put in place), where a gameplan will be made.
+If approved, it will then move to the `Design` stage (with all appropriate labels put in place), where a gameplan will be made.
 
 Once a gameplan is made and added to the issue, Customer Support Operations will determine if we can move forward with the request using the following flowchart:
 
@@ -81,7 +85,7 @@ graph LR;
   A{Is it technically possible to do?}
   B{Is it feasible to do?}
   C{Does the level of effort far supercede what we are able to do with our current/future workload?}
-  D[Rejected]
+  D[Needs prioritization, backlog]
   E[Approved]
 ```
 
@@ -89,7 +93,7 @@ If approved, it will then move to the `Planning` stage. Here, Customer Support O
 
 Once the milestone period arrives, the issue will move to the `Development` stage. Here, work will be done to get the changes into a state where they can be validated.
 
-Once they are ready to be validated, the issue moves to the stage `Validation`. Here, the requester wil l validate the changes done will meet their requirements for the request. If they do not, the stage moves back to `Development`.
+Once they are ready to be validated, the issue moves to the stage `Validation`. Here, the requester will validate the changes done will meet their requirements for the request. If they do not, the stage moves back to `Development`.
 
 If validated by the requester, Customer Support Operations will then finalize the changes into the various systems (be it via MRs, settings changes, etc.).
 

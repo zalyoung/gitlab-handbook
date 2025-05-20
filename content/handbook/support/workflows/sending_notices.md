@@ -22,7 +22,7 @@ This workflow describes how to fulfill different types of contact requests and t
 
 ## Avoid sending RED data
 
-In all outbound contact requests explicitly avoid sending RED data. (see: [Data Classifaction Standard](/handbook/security/data-classification-standard/)). This avoids:
+In all outbound contact requests explicitly avoid sending RED data. (see: [Data Classifaction Standard](/handbook/security/standards/data-classification-standard/)). This avoids:
 
 - data transposition errors (accidentally sending another customers data to a customer)
 - customer-internal data leaks (person `x` who received the email was not authorized to know about project `y`)

@@ -11,6 +11,13 @@ A GitLab contributor room is available on [Discord](https://discord.gg/gitlab) f
 
 ## Issues
 
+### Contributor links
+
+To make it clear and easy for everyone to contribute, a [triage-ops processor](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/issue_summary.rb)
+adds contributor links to issues to enable customers/community members to label, close and assign themselves.
+
+GitLab team members can suppress these links by adding the `suppress-contributor-links` label.
+
 ### Labeling issues for community contributors
 
 See guidance on [seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions) and the [criteria for `quick win` issues](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#criteria-for-quick-win-issues).

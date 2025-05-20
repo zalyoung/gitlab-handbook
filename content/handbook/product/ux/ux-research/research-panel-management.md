@@ -143,7 +143,7 @@ There are three individual sheets in the tracker spreadsheet.
 
 ### Managing personally identifiable information (PII)
 
-When managing panels, you are responsible for protecting Personally Identifiable Information (PII). Typically, this is done by Research Operations, but when teams are self-creating their own panels, they are responsible for managing the participants and their associated PII. Review best practices for data that is [classified as ORANGE](/handbook/security/data-classification-standard/#orange), and familiarize yourself with this [overview of PII](https://dataprivacymanager.net/what-is-personally-identifiable-information-pii/).
+When managing panels, you are responsible for protecting Personally Identifiable Information (PII). Typically, this is done by Research Operations, but when teams are self-creating their own panels, they are responsible for managing the participants and their associated PII. Review best practices for data that is [classified as ORANGE](/handbook/security/standards/data-classification-standard/#orange), and familiarize yourself with this [overview of PII](https://dataprivacymanager.net/what-is-personally-identifiable-information-pii/).
 
 Always follow these best practices for handling PII within panels:
 
@@ -159,7 +159,7 @@ Always follow these best practices for handling PII within panels:
 Do not collect data just to have it available for a non-specific purpose. For example, do not collect "time in a role" if role tenure is not relevant to the research effort.
 
 - If someone is working from a public workspace, screens should not show panel information.
-- Report any compromised data (see [GitLab's data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
+- Report any compromised data (see [GitLab's data classification](/handbook/security/standards/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
 - Remember to follow [GitLab's privacy policy](https://about.gitlab.com/privacy/).
 - Participants may request
   - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels and other communications.

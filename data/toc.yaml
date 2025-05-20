@@ -54,8 +54,6 @@
         url: /handbook/company/pricing
     - name: Office of the CEO
       url: office-of-the-ceo
-    - name: Key Reviews
-      url: key-review
     - name: Group Conversations
       url: group-conversations
     - name: E-Group Weekly
@@ -180,6 +178,8 @@
   icon: fa-solid fa-shield-halved
   url: /handbook/security
   links:
+  - name: Security Standards
+    url: /handbook/security/standards
   - name: Product Security
     url: /handbook/security/product-security/
   - name: Security Operations

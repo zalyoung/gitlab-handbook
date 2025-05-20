@@ -22,7 +22,7 @@ Processes fully independent of business inputs (such as repository maintenance) 
 
 Please see the public [product direction for Gitaly](https://about.gitlab.com/direction/gitaly/).
 
-The [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/gitaly/roadmap/) driving the roadmap can be found in the internal handbook.
+The [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/gitaly/roadmap/) driving the roadmap can be found in the internal handbook.
 
 The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/epic_boards/1058926?label_name[]=Roadmap&label_name[]=group%3A%3Agitaly). See [Roadmap planning](#roadmap-planning) below as to how this is managed.
 
@@ -49,7 +49,7 @@ from them first -- Support has better availability and can help in most common
 cases.
 
 If you still need help, please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with,
-and `@gitaly-oncall` to notify the Gitaly team member who is on
+and `@tier2-oncall-gitaly` to notify the Gitaly team member who is on
 call.
 
 #### On Call Rotation
@@ -81,7 +81,7 @@ The rotation is staffed during working hours of team members (no weekends). This
 - Refer to the [Responder Quick Start Guide](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/incident-io-onboard/oncall.md?ref_type=heads#responder-quick-start-guide) for a streamlined onboarding process.
 **Note : All escalations to the Gitaly team will be made via incident.io**
 - 15 minutes response time to a incident.io page while
-  on-call. This does not apply to pings to the `@gitaly-oncall` Slack handle,
+  on-call. This does not apply to pings to the `@tier2-oncall-gitaly` Slack handle,
   which should be used to inform the Gitaly on-call of relevant happenings, but
   should not be used for emergencies.
   - The on-call is expected to be _available and reachable_ (but not necessarily actively working, as long as you can start the investigation within this SLO.)
@@ -158,7 +158,7 @@ Incoming work of all kind (both projects and ad-hoc interrupts) passes by EM and
 fit with the product's strategy roadmap etc. Some will get scheduled, some goes to the backlog. If the effort is not deemed necessary or not believed
 to align with the roadmap, we will close the issue with commentary as to why it is not being pursued for future reference.
 
-We aim to scope milestones such that we have a task list that is ambitious, but not overwhelming. We deliberatly leave some capacity for incoming incidents.
+We aim to scope milestones such that we have a task list that is ambitious, but not overwhelming. We deliberately leave some capacity for incoming incidents.
 We want to avoid the feeling of a never ending mountain of work to promote a healthy work / life balance.
 It is also important to stress that milestones are recommendations only and we work on a best effort basis.
 
@@ -221,7 +221,7 @@ discussions. The secondary owner can also act as the primary owner when the
 DRI is OOO, depending on their bandwidth.
 
 Supporting contributors are highly recommended but optional. There can also be
-multiple seconary owners for a project.
+multiple secondary owners for a project.
 
 Not everyone needs to be a DRI, but everyone should be a supporting contributor
 on at least one project.
@@ -281,7 +281,7 @@ The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/
 - Once accepted, we add the `Roadmap` label.
 - Ongoing roadmap items get `roadmap::now`,  while `roadmap::next` and `roadmap::later` show what's been triaged and pushed into the future for now.
 - At each quarterly planning:
-  - we review roadmap items (using arguments from the [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/gitaly/roadmap/), current business priorities etc)
+  - we review roadmap items (using arguments from the [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/gitaly/roadmap/), current business priorities etc)
   - and then take on OKRs that push those goals forward.
 
 ### Quarterly Planning
@@ -320,7 +320,7 @@ and/or PM polling these dashboards:
 [Infradev Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfradevDashboard?:iid=1)
 [Past due Infradev issues](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfrastructureEmbeddedDashboard?:iid=1)
 
-1. EM+PM: Poll the dashboards at least weekly. Triage and schedule these issues so that SLOs can be met. If needed, move the issue to the Gitaly tracker, or file a proxy issue there so that it shows up on work boards, and mark it as blocking. Drag issues to the top of the workflowready for development column.
+1. EM+PM: Poll the dashboards at least weekly. Triage and schedule these issues so that SLOs can be met. If needed, move the issue to the Gitaly tracker, or file a proxy issue there so that it shows up on work boards, and mark it as blocking. Drag issues to the top of the `workflow::ready for development` column.
 
 1. EM+PM: If the issue is blocked or depends on ongoing work, add a Milestone that fits the SLO and the pending work (so that we don't forget it). Ensure that blocking work gets scheduled before.
 

@@ -162,7 +162,7 @@ For more details on the engineering career ladders, please review the [engineeri
 
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters
+- Candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters
 - Next, candidates will be invited to schedule a 90 minute technical interview with one of our Backend Engineers
 - Next, candidates will be invited to schedule a 60 minute interview with one of our Backend Engineering Managers
 - Next, candidates will be invited to schedule a 60 minute interview with our Director of Engineering
@@ -438,7 +438,7 @@ Engineering Productivity Engineers have the following job-family performance ind
 
 #### Hiring Process
 
-1. 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Technical Recruiters.
+1. 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Technical Recruiters.
 1. 60 minute behavioral interview with the Engineering Manager, Engineering Productivity.
 1. 50 minute behavioral interview with two Quality team members with at least 1 Backend Engineer, Engineering Productivity
 1. 90 minute Ruby-based technical interview.

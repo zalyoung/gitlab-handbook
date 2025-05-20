@@ -189,6 +189,7 @@ Each policy contains rules for the resource set. These rules are contained withi
 
 | Missing Field | Example |
 | ------------- | ---- |
+| GitLab Department | `Customer Success` |
 | Issue Assignee | @csmname  |
 | CS-Priority Label | ~"CS-Priority::Top-5"  |
 | CS-Team Label | ~"CS-Team::CSM"   |

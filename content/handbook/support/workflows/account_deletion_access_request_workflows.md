@@ -168,7 +168,6 @@ For all other blocked or banned reasons, proceed to [step 2](#step-2-evaluate) f
 ###### **Step 2:** Evaluate
 
 Evaluate the answers to the challenge questions that the user has provided using the [Account Verification](/handbook/support/workflows/account_verification/#step-2-checking-challenge-answers) workflow with a data classification of `RED` along with the [Risk Factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) for data and privacy requests to confirm if the verification passes or fails.
-</details>
 
 - If the verification passes, proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue).
 
@@ -177,6 +176,25 @@ Evaluate the answers to the challenge questions that the user has provided using
 - If the verification fails and the user **is not** the sole owner of the groups and projects in their account, proceed to [Verification Failed](#verification-failed).
 
 - If the verification fails and the user **is** the sole owner of the groups and projects on their account, proceed to [Verification Failed (Sole Owner Exception)](#verification-failed---sole-owner-exception).
+
+###### Account already deleted
+
+It is possible that the user may have deleted their GitLab.com account after raising the request. In such cases it will not be possible to perform further account verification, proceed with the appropriate step below according to the request type:
+
+- For **FULL account deletion requests** you should proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue) and mark the GitLab.com removal actions as complete.
+- For **GitLab.com account only deletion requests** respond with the snippet below and close the issue:
+
+  <details>
+      <summary markdown="span">Request Closed - GitLab.com account already deleted</summary>
+      <p>Greetings,</p>
+      <p>We are unable to complete your GitLab.com account deletion request as the account has been deleted since your request was submitted.
+      This request will now be closed.</p>
+      <p>Regards,</p>
+
+  `/label ~"deletion request::denied"`
+
+  `/close`
+  </details>
 
 ###### Verification Failed
 
@@ -206,13 +224,13 @@ If the user fails the challenge questions, but they are the sole owner of groups
 
 ###### Verification Failed - Inactive Account
 
-If the user fails the challenge questions AND does not meet the criteria for Sole Owner Exception, we can consider approval for an exception due to inactivity by working through the following: 
+If the user fails the challenge questions AND does not meet the criteria for Sole Owner Exception, we can consider approval for an exception due to inactivity by working through the following:
 
 1. Validate that the user is on a free plan.
 1. Check that the user has not logged in for at least 90 days.
 1. Check that the repository/repositories are essentially empty (there is nothing in the user account)
 
-The purpose is to ensure that a user account does not contain any data that has been made publicly available for use by others and that deletion of the account and the groups/projects under that account will not have a negative effect. 
+The purpose is to ensure that a user account does not contain any data that has been made publicly available for use by others and that deletion of the account and the groups/projects under that account will not have a negative effect.
 
 1. Apply one of the following labels to the Issue:
 
@@ -284,17 +302,35 @@ Proceed with processing the request by doing the following:
 
 1. Let the customer know they have been verified and that you are initiating the deletion process by leaving a comment on the issue with the following snippet. Take care to replace `TYPE_OF_REQUEST` with the appropriate type of request.
 
-<details>
-  <summary markdown="span">Verification Succeeded - Deletion Process Started</summary>
+   For **FULL account deletion requests**, if the GitLab.com account has already been deleted, the response below should be used.
 
-  <p>Greetings,</p>
+    <details>
+      <summary markdown="span">Verification Succeeded - Deletion Process Started (account deleted)</summary>
 
-  <p>Thank you for stepping through the process with us and verifying your account ownership. We have now started the process to fulfill your TYPE_OF_REQUEST request. Please note that it takes up to 30 days for the request to be processed as it's handled by different teams.</p>
+      <p>Greetings,</p>
 
-  <p>I will let you know once the deletion process is complete.</p>
+      <p>Thank you for stepping through the process with us and verifying your account ownership. We have now started the process to fulfill your full account deletion request. Please note that it takes up to 30 days for the request to be processed as it's handled by different teams.</p>
 
-  <p>Regards,</p>
-</details>
+      <p>As you have already deleted your GitLab.com account please do not create a new account using the email address associated with this request as this could result in the incomplete removal of your data.</p>
+
+      <p>We will let you know once the deletion process is complete.</p>
+
+      <p>Regards,</p>
+    </details>
+
+    Otherwise use the response below:
+
+    <details>
+      <summary markdown="span">Verification Succeeded - Deletion Process Started</summary>
+
+      <p>Greetings,</p>
+
+      <p>Thank you for stepping through the process with us and verifying your account ownership. We have now started the process to fulfill your TYPE_OF_REQUEST account deletion request. Please note that it takes up to 30 days for the request to be processed as it's handled by different teams.</p>
+
+      <p>We will let you know once the deletion process is complete.</p>
+
+      <p>Regards,</p>
+    </details>
 
 1. Create a new **confidential** issue in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new) using one of the following templates, depending on the request type, and populate the issue title with the email address of the original request:
 
