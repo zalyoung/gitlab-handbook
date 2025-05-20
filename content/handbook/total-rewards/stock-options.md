@@ -69,14 +69,14 @@ In September 2021, the Company's board of directors and its stockholders approve
 1. Must be actively employed at the beginning of the Offering Period to enroll
 1. Must be actively employed on the last date of the Purchase Period to be able to purchase
 1. Eligible ESPP GitLab Entities
-   - GitLab Canada Corp. (Canada)
+   - GITLAB CANADA CORP. (Canada)
    - GitLab GmbH (Germany)
-   - GitLab BV (Netherlands/Belgium/Finland)
+   - GitLab B.V. (Netherlands/Belgium/Finland)
    - GitLab Inc. (US)
-   - GitLab Federal LLC (US)
-   - GitLab LTD (United Kingdom)
-   - GitLab PTY (Australia/New Zealand)
-   - GitLab Ireland LTD (Ireland)
+   - GitLab Federal, LLC (US)
+   - GitLab UK Limited (United Kingdom)
+   - GITLAB PTY LTD (Australia/New Zealand)
+   - GITLAB IRELAND LIMITED (Ireland)
    - Gitlab France S.A.S. (France)  - as of 2025-06-01
 
 ### Changing Contribution Amounts
