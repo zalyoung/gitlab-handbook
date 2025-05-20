@@ -74,7 +74,7 @@ Use the [Admin Area docs](https://docs.gitlab.com/administration/admin_area/#git
 |:----:| ----- |
 |Self-managed| [Gitaly](https://docs.gitlab.com/administration/gitaly/) configuration is managed through the **gitlab.rb** file. A customer can configure stand-alone [Gitaly](https://docs.gitlab.com/administration/gitaly/configure_gitaly/) or leverage [Gitaly Cluster](https://docs.gitlab.com/administration/gitaly/praefect/) to fulfill its git requirements. Be sure you know which of these types of Gitaly configuration a self-managed customer is using before you begin troubleshooting.|
 |DotCom| Gitaly is managed by the infrastructure team of GitLab, so customers do not have access to it.|
-|Dedicated| [Raise issue with Dedicated team](/handbook/support/workflows/dedicated/#filing-issues) |
+|Dedicated| Gitaly is managed by the Environment Automation SREs. [Open an RFH](/handbook/support/workflows/dedicated/#filing-issues) if needed. |
 
 ### Subscription
 
