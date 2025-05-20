@@ -255,4 +255,4 @@ Here you will add your code. You should also do this in a way that creates a MR.
 
 ## Step 6  - Anything else
 
-Here you will do whatever else might be needed for the project. This could include setting up webhooks, mirroring the code to a different project, etc.
+Here you will do whatever else might be needed for the project. This could include setting up webhooks, [mirroring the code to a different project](./mirroring), etc.
