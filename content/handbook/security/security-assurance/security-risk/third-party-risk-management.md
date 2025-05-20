@@ -415,8 +415,7 @@ As an output of our TPRM assessments, the Security Risk team partners with [Info
 The Security Risk team facilitates multiple functions to maintain accuracy of Tech Stack data, including [Critical System Tiers](/handbook/security/security-assurance/security-risk/storm-program/critical-systems). This data is leveraged to ensure critical applications are appropriately supported. Functions consist of:
 
 - Merge Requests upon system procurement to update the [Tech Stack](/handbook/business-technology/tech-stack-applications/#what-data-lives-in-the-tech-stack).
-- Initial [Business Impact Analyses (BIA)](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis) to help determine the systems critical to serving GitLab's Customers.
-- Recurring procedures to validate the accuracy of existing Tech Stack data, including an annual Business Impact Analysis for Tier 1 Systems.
+- [Business Impact Analyses (BIA)](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis) to help determine the systems critical to serving GitLab's Customers.
 - Design and maintenance of a Post-Implementation Checklist to help ensure Business Owners implement security best practices during and after new system onboarding
 
  More information on how Critical System Tiering is leveraged in support of GitLab can be found within the [StORM Handbook page](/handbook/security/security-assurance/security-risk/storm-program/).
