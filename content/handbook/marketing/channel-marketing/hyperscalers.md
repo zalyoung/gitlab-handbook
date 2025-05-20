@@ -171,13 +171,13 @@ The Channel Marketing Manager will be responsible for opening the Allocadia acti
 
     2. Wishlist/Cancelled
 
-       1.  Cancelled
+       1. Cancelled
 
-    3.  Campaign Details
+    3. Campaign Details
 
        1. Existing Salesforce Campaign
        2. Campaign Link
-       3. Campaign Owner 
+       3. Campaign Owner
        4. Campaign Type
        5. Budget Holder = Hyperscaler 
 
@@ -189,7 +189,7 @@ The Channel Marketing Manager will be responsible for opening the Allocadia acti
        4. GitLab Issue Template = Hyperscaler
        5. Official Event/Campaign Name 
        6. GitLab Marketing Issue Link (Auto-populated)
-       7.  GitLab Issue URL Reference (Manual entry)
+       7. GitLab Issue URL Reference (Manual entry)
 
 3. Action: Create GitLab Hyperscaler Funded Issue in the Field Marketing GitLab Project
 
