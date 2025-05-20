@@ -154,7 +154,7 @@ at [infra-roadmap.gitlab.com](https://infra-roadmap.gitlab.com/).
 
 **NOTE**:
 The Infrastructure Roadmap is not publicly available as some of the projects and
-initiatives may not be considered [unSAFE](/handbook/legal/safe-framework/).
+initiatives may be considered [unSAFE](/handbook/legal/safe-framework/).
 
 The site presents the roadmap in a visual manner, showing:
 
