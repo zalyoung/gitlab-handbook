@@ -85,7 +85,8 @@ The following table defines the procedures followed by TPRM engineers for vendor
 
 | Data<br>Classification | Request | Supplemental<br>Questionnaire | Okta SSO? | New BIA /<br>Tech Stack Entry? | Bitsight<br>Review? | Evidence of PenTest<br>and BCP Testing |
 | ------ | ------ |------ |------ |------ |------ | ------ |
-|Red     |3rd Party Attestation |     Yes|          If applicable|     Yes|    If Applicable | Yes |
+|Red SaaS System     |3rd Party Attestation |     Yes|          If applicable|     Yes|    If Applicable | Yes |
+|Red Professional Services     |3rd Party Attestation |     Yes|          If applicable|     No|    No | No|
 |Orange SaaS Systems or Locally Hosted/Installed Systems with Data Exchange| 3rd Party Attestation|     Yes|          Yes|     Yes|     Yes | Yes |
 | Orange Individual Use Software* | 3rd Party Attestation or [Self-Attestation](#standard-information-gathering-sig-questionnaire-for-vendor-self-attestation) | No | No | No | Yes | No|
 |Orange Professional Services | 3rd Party Attestation or [Prof Svcs SIG](https://docs.google.com/spreadsheets/d/1xiReZd5heUl5YVFCqPxEfXJIYlqtz_LS/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)|          N/A|     N/A| N/A|   N/A | N/A|
