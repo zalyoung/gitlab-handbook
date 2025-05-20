@@ -22,6 +22,10 @@ We report on GitLab Dedicated (Commercial) and GitLab Dedicated for Government. 
 
 To ensure reproducibility, follow these steps when assembling metrics for the MBR.
 
+### Counting Tenants
+
+When counting tenants, keep in mind the distinction between production, pre-production and internal tenants. When counting what percentage of tenants have an Assigned Support Engineer, we focus only on Production tenants and note that specifically in the MBR slide.
+
 ### 📅 Cutoff Period
 
 Each MBR is taking a look at how things went during the last month. To make sure we count things once and only once, you'll want to make a special note of what dates you're looking at when you are preparing the MBR. The end of the week before the MBR is a [good cutoff point](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6738#note_2394065104).
