@@ -154,7 +154,7 @@ Note: **If you don't have access to Tableau,** reach out to your direct manager 
 
 #### Notes: {#metrics_notes}
 
-1. These metrics include all MRs affecting the product. The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). Please refer to this [section](/handbook/product/groups/product-analysis/engineering/metrics/#updating-the-list-of-projects) for instructions on how to update this list.
+1. These metrics include all MRs affecting the product. The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads).
 1. We will iterate on this process over time by expanding our metric set and refining them to ensure alignment with team contributions and evolving role expectations. Any changes will be clearly communicated to all team members.
 
 ### Baseline targets for each job grade
