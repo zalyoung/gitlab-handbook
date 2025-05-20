@@ -14,7 +14,7 @@ toc_hide: true
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 <!--
 Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
@@ -45,24 +45,6 @@ The consequence is a divided user experience where feature availability depends 
 ### Industry Context
 
 Industry competitors like GitHub provide more integrated search experiences out-of-the-box, creating a competitive gap. GitHub Enterprise Server includes Elasticsearch as an integrated component of their product, demonstrating that this approach is viable and has precedent in the industry. This integration allows GitHub to provide consistent search experiences across all deployment types, while GitLab currently requires separate installation and configuration of Elasticsearch. As vector embeddings become standard for AI-powered features, having a robust vector database is increasingly becoming table stakes in the developer platform market.
-
-### Evaluations and Evidence
-
-Multiple teams across GitLab have invested significant resources evaluating potential solutions, but none has achieved majority adoption:
-
-- [Package a search engine with GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/438178) - Original initiative to include Elasticsearch
-- [Iteration plan for RAG](https://gitlab.com/gitlab-org/gitlab/-/issues/441110) - Comprehensive evaluation of data store options for Retrieval Augmented Generation
-- [Documentation questions for Chat](https://gitlab.com/gitlab-org/gitlab/-/issues/451215) - Implementation using Vertex AI Search as a workaround
-- [Spike on privacy-oriented embeddings](https://gitlab.com/gitlab-org/gitlab/-/issues/458770) - Investigation of embedding storage options for sensitive data
-- [PgVector evaluation](https://gitlab.com/gitlab-org/gitlab/-/issues/438330#note_1780393655) - Assessment of PostgreSQL with PgVector extension
-
-These explorations consistently highlight Elasticsearch as a preferred solution due to its:
-
-- Hybrid search capabilities (combining keyword and vector search)
-- Mature feature set for relevance ranking and filtering
-- Existing integration with GitLab's Advanced search
-- Scalable architecture for large deployments
-- Ability to handle embeddings for AI use cases
 
 ### Opportunities
 
@@ -189,6 +171,24 @@ For self-managed customers, the primary challenges are:
   - Recommendations for minimum and recommended system specifications will need to be updated
 
 - **Precedent**: Other large components like PostgreSQL (average build time 42.54s) and Ruby (average build time 87.54s) have been successfully integrated into the omnibus package
+
+### Evaluations and Evidence
+
+Multiple teams across GitLab have invested significant resources evaluating potential solutions, but none has achieved majority adoption:
+
+- [Package a search engine with GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/438178) - Original initiative to include Elasticsearch
+- [Iteration plan for RAG](https://gitlab.com/gitlab-org/gitlab/-/issues/441110) - Comprehensive evaluation of data store options for Retrieval Augmented Generation
+- [Documentation questions for Chat](https://gitlab.com/gitlab-org/gitlab/-/issues/451215) - Implementation using Vertex AI Search as a workaround
+- [Spike on privacy-oriented embeddings](https://gitlab.com/gitlab-org/gitlab/-/issues/458770) - Investigation of embedding storage options for sensitive data
+- [PgVector evaluation](https://gitlab.com/gitlab-org/gitlab/-/issues/438330#note_1780393655) - Assessment of PostgreSQL with PgVector extension
+
+These explorations consistently highlight Elasticsearch as a preferred solution due to its:
+
+- Hybrid search capabilities (combining keyword and vector search)
+- Mature feature set for relevance ranking and filtering
+- Existing integration with GitLab's Advanced search
+- Scalable architecture for large deployments
+- Ability to handle embeddings for AI use cases
 
 ## References
 
