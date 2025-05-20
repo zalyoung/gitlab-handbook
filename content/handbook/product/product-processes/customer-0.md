@@ -4,15 +4,15 @@ title: Customer 0
 
 ### What is Customer 0?
 
-Customer 0 is our model of collaboration throughout the development and launch of new features to **validate their usability and value before broad release**. It includes requirements delivery, validation of intended functionality and mockups, and alpha/beta testing. 
+Customer 0 is our model of collaboration throughout the development and launch of new features to **validate their usability and value before broad release**. It includes requirements delivery, validation of intended functionality and mockups, and alpha/beta testing.
 
 Every feature we are building that targets an audience that can be represented by a group of GitLab team members and that matches their needs, must be shipped to a level of quality that we would want to use ourselves.
 
 For that to have the highest possible business impact, we need to ensure that the way we work is either the same as how our customers use our product, or that we need to help our customers benefit from the way we work. The solutions we build for ourselves should also be incorporated into our product, and ideally not require extra work from the customer.
 
-Due to the fact that we already have workarounds in place for our teams to circumvent shortcomings in our product, teams also will have to critically evaluate whether “Customer 0” requests might be consequences of us using existing workarounds, or us not following DevSecOps best practices.
+Due to the fact that we already have workarounds in place for our teams to circumvent shortcomings in our product, teams also will have to critically evaluate whether "Customer 0" requests might be consequences of us using existing workarounds, or us not following DevSecOps best practices.
 
-#### What it means to be a “Customer 0”
+#### What it means to be a "Customer 0"
 
 **Obligations**
 
