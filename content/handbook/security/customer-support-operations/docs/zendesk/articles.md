@@ -8,7 +8,7 @@ canonical_path: "/handbook/security/customer-support-operations/docs/zendesk/art
 
 This is an informational page for the Zendesk articles. It may not reflect the way we actually manage Zendesk articles.
 
-If you are looking for information about how we are maintaining articles (creating, editing, etc.), please see [Articles workflow](../../workflows/zendesk/articles)
+If you are looking for information about maintaining articles (creating, editing, etc.), please see [Articles workflow](../../workflows/zendesk/articles)
 
 {{% /alert %}}
 
