@@ -18,7 +18,7 @@ You will receive an Okta activation email in your personal email. This is the fi
 
 1. On a mobile device, check your personal email for an Okta activation email.
 2. Click the link in the email to set your password
-3. After setting your password, your browser will redirect to the Okta Dashboard. **IMPORTANT: Do not open Google Workspace, Gmail, Slack, or any other applications before finishing the laptop setup process in Step 2. Opening these applications too early will lock you out of your laptop.**
+3. After setting your password, your browser will redirect to the Okta Dashboard. **IMPORTANT: Do not open Gmail (G Suite SSO Mail) or any Google application before finishing the laptop setup process in Step 2. Opening these applications too early will lock you out of your laptop.**
 4. You will receive a follow-up email from Okta with the subject **Security Method enrolled**.
 
 ### Step 2: MacBook Initial Setup
