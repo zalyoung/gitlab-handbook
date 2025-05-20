@@ -95,7 +95,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 - [Product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours) (Interactive demos)
   - A great collection of self-guided, hands-on, interactive exercises for (potential) customers, powered by [Navattic](https://www.navattic.com/). They can also serve as substitutes or safe fallbacks for live demos.
 - [Start a Free Trial](https://gitlab.com/-/trials/new) (Web Page)
-  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. 
+  - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option.
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
   - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab. Check out the README for further info.
 - [GitLab Learn Labs - Tanuki Racing](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) (GitLab Project)
