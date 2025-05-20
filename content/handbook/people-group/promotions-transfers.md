@@ -84,7 +84,7 @@ Most promotions are processed through our twice per year Promotion Calibrations,
 
 At GitLab, we promote on a twice per year basis. There are three core stages to the promotion process: Planning, Calibration, and Processing.
 
-The Sales Development organization reviews In-Cycle Promotions on a monthly basis, due to the specific [promotion criteria](/handbook/marketing/sales-development/#sales-development-fy24-career-path) for each level within the job family structure. Planning, calibration and processing steps are aligned to the details below.
+The Sales Development organization reviews In-Cycle Promotions on a monthly basis, due to the specific [promotion criteria](/handbook/marketing/sales-development/#sales-dev-career-path) for each level within the job family structure. Planning, calibration and processing steps are aligned to the details below.
 
 | Stage | Purpose |
 | ---------- | ----- |
