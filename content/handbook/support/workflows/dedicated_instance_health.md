@@ -32,6 +32,8 @@ When logging in for the first time, dashboards are not immediately visible and y
 
 The `General / Triage` dashboard is most useful for an emergency as it has the pods all laid out in a single view. By default it has 6 hours of data. It is helpful for finding blips & dips. Use this data to correlate to other dashboards.
 
+If there is a point of interest on a given graph in the dashboard, you can `click + drag` to zoom in on the graph.
+
 Remember that Grafana is used for visualizing issues and spotting problems. It won't tell us directly what is wrong. You must correlate to [the logs](/handbook/support/workflows/dedicated_logs/) to find the exact problem.
 
 As an example, the Triage dashboard may show that `webservice` errors are increasing. Use this to correlate an approximate time and [filter](/handbook/support/workflows/dedicated_logs/#fields-and-filters) out the other logs by the `kubernetes.labels.app` to find the error for just `webservice`.
