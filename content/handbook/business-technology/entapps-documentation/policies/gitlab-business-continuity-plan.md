@@ -88,11 +88,12 @@ Disruption of service from Salesforce.com, Zuora, NetSuite, Google Workspace
 
 - No failover plan currently.
 
-**P4: Non critical system**
-Disruption of service from TripActions or internal chat tool (Slack).
+**P4: Non critical system or systems with documented workarounds**
+Disruption of service from Navan, Slack or ServiceNow.
 
-- When TripActions is down, team members can use their own travel booking tool and expense it to GitLab with reason for exception
+- When Navan is down, team members can use their own travel booking tool and expense it to GitLab with reason for exception
 - When Slack is down, team members can use Zoom Chat as [outlined here](/handbook/communication/#slack-is-down).
+- When ServiceNow/HelpLab is down, team members can go to #enterprise-apps and request for non-confidential items. For confidential items, Enterprise Apps will post the steps in the channel description.
 
 ### Communication Plan and Role Assignments
 
@@ -105,6 +106,10 @@ More details on this will be covered in the `BC plan - roles & responsibilities 
 ### Backup check
 
 [Make sure that backups are performed daily](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they're backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
+
+For SaaS applications, this is covered with the annual review of SOC2 certification since Backup and Recovery testing should be covered.
+
+For SaaS applications where backup is done by GitLab, we will perform a restore against a non-development lower environment to validate that the backups are intact and it will be purged immediately after the exercise is complete.
 
 ### Distribute and Verify the Plan / Approval from Senior management
 
