@@ -75,7 +75,7 @@ This proposal is to make all tokens to encode routable information about object
 to which the token is attached. This document does focus specifically first on tokens
 that are required to be made routable in the Phase 4: [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), [CI/CD Job Token](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html) and [Runner Authentication Token](https://docs.gitlab.com/ee/security/tokens/#runner-authentication-tokens):
 
-Currently tokens are generated with the following pattern: `<prefix><random-string>`. The Routable Token would change this to `<prefix><base64-payload>.<base64-payload-length><crc32>`.
+Currently tokens are generated with the following pattern: `<prefix><random-string>`. The Routable Token would change this to `<prefix><base64-payload>.<token-version>.<base64-payload-length><crc32>`.
 
 ### Specification
 

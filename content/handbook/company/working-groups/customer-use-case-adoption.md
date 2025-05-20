@@ -16,7 +16,7 @@ This working group is charged with driving the necessary cross-functional alignm
 
 ### FY25 Scope: CI and Security & Compliance
 
-[FY 25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/) have specific goals around both CI and Security & Compliance adoption, and this working group is re-aligning to support and service both use cases.
+FY 25 Yearlies have specific goals around both CI and Security & Compliance adoption, and this working group is re-aligning to support and service both use cases.
 
 ### FY24 Refocusing of Working Group on CI Adoption
 
@@ -39,7 +39,7 @@ Note that these goals are aspirational so we set a high bar (and potentially ach
 
 ### FY25
 
-Included in our [FY 25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/) is a goal to `Accelerate visibility into usage and drive value by driving CI, Compliance and Security adoption`.  Supporting this Yearly are two (2) objectives:
+Included in our FY 25 Yearlies is a goal to `Accelerate visibility into usage and drive value by driving CI, Compliance and Security adoption`.  Supporting this Yearly are two (2) objectives:
 
 - [ ] 80 of top 100 (child account) largest customers utilizing CI
 - [ ] 65% of Ultimate ARR utilizing Security & Compliance

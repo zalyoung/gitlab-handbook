@@ -16,15 +16,19 @@ informing the rest of Support about the account's new status.
 
 [Introduce yourself as the customer's ASE](introductory-meeting.html).
 
-Consider whether ongoing cadence calls would help the customer relationship
-and/or help achieve their goals. There is no defined process for this so
-manage these as needed during the ASE contract.
+Agree with the customer on either a weekly or every-other-week schedule for a
+cadence call. The goals of the call should include completing a review of the
+work done since the previous call, and agreeing on what work you'll do for them
+before the next call and with what relative priorities.
 
 ## Internal Communication
 
 ### Auto-assign the customer's tickets
 
-Auto-assignment of customer tickets requires that two things be true:
+There might be times when the account contacts will make it your top
+priority to take all of their non-emergency tickets. During those times,
+configure automatic assignment of the account's tickets in
+Zendesk. Auto-assignment of customer tickets has two prerequisites:
 
 1. There must be a named ASE for the organization in Zendesk
 1. There must be an ASE-related `Product Charge` in the subscription in
@@ -46,6 +50,14 @@ For both of these, please contact your manager and request that:
    is checked for the account 
    product charge listed. If it does not, they should contact Sales Ops
    for assistance.
+
+As you work with the account each week to agree on the prioritization of your
+work for them, that might not always include taking all of their tickets. Each
+time that changes, just remember to:
+
+1. Ask your manager to make the change in Zendesk
+1. Update the Zendesk [org note](#org-note-mentioning-the-ase-and-how-to-treat-the-ticket)
+   for the account
 
 ### Org Note mentioning the ASE and how to treat the ticket
 

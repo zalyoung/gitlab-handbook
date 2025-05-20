@@ -80,7 +80,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles, more
 
 |     Country    |  Agreement Type(s) |  Hiring Partner  | Entity to Invoice (for AP only) | Pay Frequency | Paid By | Currency paid in | Workday Profile (Y/N) | Scalable PEO (Y/N) | Open for hiring (Y/N) |
 |:--------------:|:------------------:|:----------------:|:-------------------------------:|:-------------:|:-------:|:----------------:|:---------------------:|:------------------:|:---------------------:|
-|    Austria *   | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
+|    Austria *   | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       14      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
 |     Chile *    | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        CLP       |           Y           |          Y         |           Y           |
 |  Costa Rica *  | Employed via a PEO | Global Expansion |       GitLab Services Inc       |       12      |   PEO   |        USD       |           Y           |          Y         |           Y           |
 |     India *    | Employed via a PEO |   Global Upside  |           GitLab IT BV          |       12      |   PEO   |        INR       |           Y           |          Y         |           Y           |

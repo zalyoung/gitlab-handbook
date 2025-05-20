@@ -10,7 +10,7 @@ Once a year, in December, we review all unused items to determine if they need t
 
 ### Articles
 
-If you see deactivated items older than 6 months, you are good to delete them. Remember you need to delete them from the repo and from Zendesk itself.
+If you see archived items older than 6 months, you are good to delete them (this should be done directly in Zendesk).
 
 ### Automations
 

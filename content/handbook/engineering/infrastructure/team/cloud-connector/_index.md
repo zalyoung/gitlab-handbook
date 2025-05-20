@@ -31,7 +31,7 @@ The following people are permanent members of the Cloud Connector group:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Senior Product Manager.*Cloud Connector|Core Platform.*Cloud Connector" manager-role="Backend Engineering Manager, Cloud Connector" >}}
+{{< engineering/stable-counterparts role="Senior Product Manager.*Cloud Connector|Core Platform.*Cloud Connector" manager-role="Backend Engineering Manager, Cloud Connector" >}}
 
 ## Meetings
 

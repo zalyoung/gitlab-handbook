@@ -69,7 +69,7 @@ The following people are members of the [Developer Tooling group](developer-tool
 
 {{< team-by-manager-slug "mgamea" >}}
 
-The following people are members of the [Feature Readiness group](feature-readiness-team):
+The following people are members of the [Feature Readiness group](feature-readiness):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
@@ -79,4 +79,4 @@ The following people are members of the [Performance Enablement group](performan
 
 The following people are members of the [Test Governance group](test-governance):
 
-{{< team-by-manager-slug "kkolpakova" >}}
+{{< team-by-manager-slug "amyphillips" >}}

@@ -10,7 +10,7 @@ participating-stages: ["~group::security policies"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 This document is a work in progress and represents the proposal for new Security policies architecture to allow for optimized policy updates and propagation.
 

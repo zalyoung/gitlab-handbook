@@ -55,14 +55,14 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 ### Cryptography
 
-- [GitLab cryptography standard](/handbook/security/cryptographic-standard/)
+- [GitLab cryptography standard](/handbook/security/standards/cryptographic-standard/)
 - [Encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy/)
 
 ### Data classification
 
-- [Data classification standard](/handbook/security/data-classification-standard/)
+- [Data classification standard](/handbook/security/standards/data-classification-standard/)
 - [Record retention policy](/handbook/legal/record-retention-policy/)
-- [Records retention and disposal standard](/handbook/security/records-retention-deletion/)
+- [Records retention and disposal standard](/handbook/security/standards/records-retention-deletion/)
 
 ### Disaster recovery
 
@@ -79,7 +79,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 ### GitLab.com hardening techniques
 
-- [GitLab projects baseline requirements](/handbook/security/gitlab_projects_baseline_requirements/)
+- [GitLab projects baseline requirements](/handbook/security/standards/gitlab_projects_baseline_requirements/)
 - [GitLab security requirements for deployment and development](/handbook/security/planning/security-development-deployment-requirements/)
 - [How to harden your self-managed GitLab instance](https://about.gitlab.com/blog/2023/05/23/how-to-harden-your-self-managed-gitlab-instance/)
 - [The ultimate guide to securing your code on GitLab.com](https://about.gitlab.com/blog/2023/05/31/securing-your-code-on-gitlab/)
@@ -136,4 +136,4 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 - [Vulnerability management standard](product-security/vulnerability-management/)
 - [Application vulnerability management procedure](product-security/application-security/vulnerability-management/)
-- [Infrastructure vulnerability management procedure](product-security/vulnerability-management/Infrastructure-vulnerability-procedure/)
+- [Infrastructure vulnerability management procedure](/handbook/security/product-security/vulnerability-management/infrastructure-vulnerability-procedure/)

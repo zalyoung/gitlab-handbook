@@ -82,6 +82,6 @@ Exceptions to this policy will be managed in accordance with the [Information Se
 
 ## References
 
-- [Records Retention & Disposal](/handbook/security/records-retention-deletion/)
+- [Records Retention & Disposal](/handbook/security/standards/records-retention-deletion/)
 - [Disaster Recovery runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/disaster-recovery)
 - [GameDays](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/gameday.md)

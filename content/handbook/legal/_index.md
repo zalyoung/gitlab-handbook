@@ -30,15 +30,15 @@ The [Corporate Development](/handbook/acquisitions/) group conducts diligent and
 
 ### Employment
 
-The [Employment](/handbook/legal/employment-law/) group provides thoughtful, pragmatic recommendations to address complicated employment situations within the legal confines of the many jurisdictions in which GitLab team members reside.
+The Legal [Employment](/handbook/legal/employment-law/) team serves as a strategic partner across the organization, providing expert guidance and proactive legal solutions throughout the entire team member lifecycle.
 
 ### Environment, Social, and Governance (ESG)
 
 The [ESG](/handbook/legal/esg/) group works cross-functionally to integrate ESG considerations, ESG regulatory compliance, and responsible business practices as part of GitLab’s overarching mission to make our customers successful.
 
-### Privacy and Intellectual Property
+### Privacy, Product, and Intellectual Property
 
-The [Privacy](/handbook/legal/privacy/) and [Intellectual Property](/handbook/legal/product/) group enables fast-paced product development within applicable regulatory confines; privacy solutions so customers can confidently co-create in those products; and robust protection of Company IP.
+The [Privacy](/handbook/legal/privacy/) and [Product and Intellectual Property](/handbook/legal/product/) group enables fast-paced product development within applicable regulatory confines; privacy solutions so customers can confidently co-create in those products; and robust protection of Company IP.
 
 ### Risk Management and Dispute Resolution
 

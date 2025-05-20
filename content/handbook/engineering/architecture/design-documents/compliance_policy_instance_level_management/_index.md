@@ -11,7 +11,7 @@ toc_hide: true
 no_list: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Introduction
 
@@ -64,35 +64,35 @@ We propose designating a top-level group as the central authority for compliance
 ```mermaid
 erDiagram
     Instance ||--o| namespaces : "designates as CSP_Group"
-    
+
     namespaces ||--o{ projects : "has_many"
     namespaces ||--o{ compliance_management_frameworks : "has_many"
     namespaces ||--o{ compliance_requirements : "has_many"
-    
+
     projects ||--o| security_orchestration_policy_configurations : "links with"
     namespaces ||--o| security_orchestration_policy_configurations : "links with"
     security_orchestration_policy_configurations ||--|| projects : "stores policies in"
     security_orchestration_policy_configurations ||--o{ security_policies : "contains"
-    
+
     security_policies ||--|{ compliance_framework_security_policies : "scoped to"
     compliance_framework_security_policies }|--|| compliance_management_frameworks : "scopes"
-    
+
     compliance_management_frameworks ||--o{ compliance_requirements : "has_many"
     compliance_requirements ||--o{ compliance_requirements_controls : "has_many"
-    
+
     compliance_management_frameworks ||--o{ compliance_management_frameworks : "is original for"
-    
+
     compliance_management_frameworks ||--o{ project_compliance_framework_settings : "has_many"
     project_compliance_framework_settings ||--o{ projects : "many_to_many"
-    
+
     projects ||--o{ project_control_compliance_statuses : "has_many"
     compliance_requirements_controls ||--o{ project_control_compliance_statuses : "has_many"
-    
+
     projects ||--o{ project_compliance_violations : "has_many"
     compliance_requirements_controls ||--o{ project_compliance_violations : "has_and_belongs_to_many"
-    
+
     project_control_compliance_statuses ||--o{ audit_events : "generates"
-    
+
     compliance_requirements ||--o{ security_policy_requirements : "associates with"
     security_policy_requirements |o--o| security_policies : "associates with"
 ```
@@ -113,7 +113,7 @@ ADD COLUMN csp_namespace_id BIGINT REFERENCES namespaces(id);
 **compliance_management_frameworks**
 
 ```sql
-ALTER TABLE compliance_management_frameworks 
+ALTER TABLE compliance_management_frameworks
 ADD COLUMN is_csp_framework BOOLEAN NOT NULL DEFAULT FALSE,
 ADD COLUMN is_mirror BOOLEAN NOT NULL DEFAULT FALSE,
 ADD COLUMN original_framework_id BIGINT REFERENCES compliance_management_frameworks(id),
@@ -242,6 +242,7 @@ Each policy type follows its specific workflow for enforcement:
    1. System marks all frameworks in the new CSP Group as `is_csp_framework = true`.
    1. All mirrored frameworks linked to the old CSP Group are deleted across the instance.
    1. All mirrored frameworks linked to the old CSP Group are removed from projects.
+   1. All security policies linked to the old CSP Group are unlinked.
    1. New frameworks from the new CSP Group are mirrored to all top-level groups.
    1. System generates an audit event tracking the CSP Group change.
 1. UI indicators update to reflect the new CSP Group.
@@ -280,6 +281,10 @@ Each policy type follows its specific workflow for enforcement:
    1. Any projects that had the deleted framework assigned have that framework unassigned.
    1. Job deletes all mirrored frameworks associated with the original.
    1. System generates audit events for each deletion.
+
+#### Tracking progress of propagation
+
+When a compliance framework in the CSP Group is modified, it may take some time for the changes to fully propagate to all mirrored frameworks, especially in instances with many top-level groups. To enhance the user experience, we can track propagation progress by calculating the total number of frameworks to be mirrored in advance and updating the status as each one is completed.
 
 ### Security Policy Change Management
 

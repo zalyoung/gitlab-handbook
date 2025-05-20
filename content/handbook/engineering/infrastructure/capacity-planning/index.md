@@ -67,7 +67,7 @@ The process starts by reading the historical short-term saturation metric data f
 
 ## Data classification
 
-Per the [Data Classification Standard](/handbook/security/data-classification-standard/#orange), Tamland's output data is considered ORANGE data and must remain confidential. This includes forecast plots and information about SLO violations.
+Per the [Data Classification Standard](/handbook/security/standards/data-classification-standard/#orange), Tamland's output data is considered ORANGE data and must remain confidential. This includes forecast plots and information about SLO violations.
 
 Therefore, the recommended practice when including Tamland data is:
 

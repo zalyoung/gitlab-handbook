@@ -130,6 +130,15 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
 | [Global SDR Ops Dashboard](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | This dashboard shows all of the important activities and opportunities related to the global SDR teams. |
 
+### Dashboard/Report Templates
+
+The list of dashboards below are templates that can be cloned and customized for each team. 
+
+| Name/Link                                                            | Description                                            |
+|-----------------------------------------------------------------------| ------ |
+| [BDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002JjZl2AK/view) | Dashboard template that covers all main functions of managing a BDR team. |
+| [Base BDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002MHPF/view) | Dashboard template that covers all main functions of managing the Base BDR team. |
+
 ## The pages we frequently use
 
 | Resource | Description |
@@ -583,6 +592,9 @@ If you are scheduling time with an AE/SAE to speak to the prospect based on a qu
 
 1. **You have obtained a commitment/willigness from a prospect to discuss further.**
 If you have a meaningful two-way communication with a prospect, but have not had the required qualification criteria to move to the Sales team, you can create an opportunity under your name so that you better track your warm conversations. These opportunities may also be used for better collaboration with your team, as they can be reviewed and brain-stormed upon during team meetings.
+
+1. **If the lead is from a new account confirm their number of employees and HQ location for routing purposes**
+When you create an opportunity with a new account please confirm the number of employees and headquarters location of the account with the prospect. You can do this through email or in your call notes if you speak to them over the phone. The reason for this is to make sure the newly created contact and account are routed to the correct teams after you convert the lead. Please cross reference the employee count and hq location with one of our data tools (ZI, Cognism, Sales Nav) to make sure what the prospect said was accurate. If the employee count is around 200-300 people be extra dilligent as the new SMB to MM employee cut off is 250 employees. We do not want the Sales teams to have to debate whose opportunity it is. 
 
 **Who owns the opportunity at this point?**
 
@@ -1217,6 +1229,33 @@ For FY26Q1 we will pilot auto-enrolling UG leads to a dedicated Groove Flow whic
 
 ### Sales Dev Manager Resources
 
+#### Sales Dev Operations Team Regional Availability
+
+The Global Sales Dev Operations team has the office hours below, so that regional team members can know how to address internally. Please tag the DRI below in the `#sales_dev_global` slack channel to maintain our [shared reality](/teamops/shared-reality/) and other [GitLab TeamOps tenets.](https://about.gitlab.com/teamops/). 
+
+Please do feel free to reach out to anyone in the ops team based on their availability (Out Of Office etc), and your local time (ie. if you're in EMEA after hours and need someone ASAP, Ed in AMER can assist.)
+
+| Region / Timezone                     | Ops Team Member                                                                                                                                                                  |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AMER              | Ed Bao  |
+| EMEA / APJ              | Panos Rodopoulos (Ed Bao is complementary DRI for APJ)  |
+
+#### Sales Dev Operations Reccuring Team Visits
+
+The Sales Dev Ops team aims to visit each team's meeting once per month to be of assistance with anything operations related as required. Please find a [link to an issue that we use for planning and feedback here.](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1275)
+
+#### Sales Dev Operations Working Sessions
+
+The Sales Dev Ops team also holds recurring weekly working sessions, with up to four participants per session. These sessions are aligned to the month's theme outlined above, and are designed to collaborate on key operational topics and initiatives. 
+ 
+#### Sales Dev Research Desk
+
+Our Sales Dev Ops team can help you with researching our suite of databases (Sales Nav, ZoomInfo, Cognism, 6Sense) to help you manage your actively worked account list. We typically focus on accounts that are not currently available to our database, but can help with other ideas that you may have. Please log an issue to our board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) using the template `BDR_Research_Request` 
+
+#### Sales Dev Housekeeping Issue
+
+The team has an issue where we consolidate our monthly to-dos (titled `Monthly Housekeeping`). In this issue there's also a section for any feedback that we gathered that month, so we can plan any next steps. If you'd like to add feedback directly please navigate to our [team's board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691), find this month's issue and log any feedback you have there. 
+
 #### Manager Tool Certification
 
 We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit) and a list of questions that we expect our Managers to be able to answer [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/302#note_2356378893).
@@ -1739,6 +1778,8 @@ Announcement Channels
 | Expert    | - Timeframe: Months 4+ - Parameters: SDR is on full quota, leads are set at 100% in Traction, Qualified is on |
 | | - SDR is now able to create their own Groove Flows pending approval.               |
 
+- Managers can update MQL round robin pools in traction. PLease watch these videos on [managing your teams and mql round robin in traction](https://www.youtube.com/watch?v=45uJCxoiP1s) and [updating a reps availibility in traction](https://www.youtube.com/watch?v=TvuKYotFI-Q) 
+
 #### Sales Development Credit Matrix
 
 | Products Considered | Who | Order Type | Segment | Opportunities |
@@ -1876,8 +1917,8 @@ After a  formal warning is issued if the team member falls short of targets agai
 | Task                               | Details                                                                                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. Uphold Daily Activity Metrics   | - Adhere to the two hour MQL SLA                                                                                                                               |
-|                                    | - Complete a minimum of 50 omni-channel activities (calls, LinkedIn messages)                                                                                          |
-|                                    | - Maintain an average of 1.5 discovery meetings weekly                                                                                       |
+|                                    | - Complete a minimum of 50 omni-channel activities per day (calls should total 200 per week, made during `Golden Call` hours and LinkedIn/email messages to be personalised)                                                                                          |
+|                                    | - Maintain an minimum of 2 discovery meetings weekly                                                                                       |
 |                                    | - Work lead records within Salesforce by leveraging relevant Flows tags in Groove.                                                                                            |
 |                                    | - Use Business Intelligence platforms like ZoomInfo or LinkedIn to verify the validity of inbound lead datapoints. Take appropriate actions to clean up and assure accuracy and consistency of SFDC/Groove data.                              |
 |                                    | - Maintain SFDC data integrity by following the outbound workflow in researching and prospecting accounts.                                                                             |

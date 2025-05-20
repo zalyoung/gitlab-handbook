@@ -371,7 +371,7 @@ Create a Data Source filter using the `USERNAME()` function and the `tableau_use
 
 ### Geo-Based Row-Level Security
 
-Implementing RLS based on GEO data in Tableau ensures that users access only the data pertinent to their assigned GEO. This is facilitated through the [ent_sfdc_geo](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.ent_sfdc_geo) table which integrates SFDC user roles with Tableau.
+Implementing RLS based on GEO data in Tableau ensures that users access only the data pertinent to their assigned GEO. This is facilitated through the [ent_sfdc_geo_pubsec_segment](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.ent_sfdc_geo_pubsec_segment) table which integrates SFDC user roles with Tableau.
 
 This Geo based entitlement table is designed to manage user access to specific GEOs by combining information from SFDC user roles and Tableau's SAFE access groups. The table's logic determines access based on the following criteria:
 
@@ -379,7 +379,7 @@ This Geo based entitlement table is designed to manage user access to specific G
 
 - **SAFE and SFDC Role Users**: Users who are part of both the Tableau SAFE access group and specific Salesforce roles gain global access. (e.g. Executive)
 
-- **Non-Pubsec Roles**: Certain roles are granted global access excluding the 'PUBSEC' GEO (e.g. Executive - Global Minus Pubsec)
+- **Non-Pubsec Roles**: Certain roles are granted global access excluding the 'AMER-PUBSEC' GEO (e.g. Executive - Global Minus Pubsec)
 
 - **Non-SFDC SAFE Users**: Tableau SAFE users without corresponding Salesforce roles are granted access based on their Tableau entitlements.
 

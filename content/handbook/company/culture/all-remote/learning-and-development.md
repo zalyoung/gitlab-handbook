@@ -237,16 +237,6 @@ Learning and development occurs more naturally when team members are well-inform
 
 This allows team members to educate themselves on what matters to each functional group, enabling new learnings to map to something tangible in their day-to-day work.
 
-Learn more about [GitLab's OKRs](/handbook/company/okrs).
-
-{{< youtube "FXpBol1TwiI" >}}
-
-*In the [video](https://youtu.be/FXpBol1TwiI) above, published on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), members of GitLab's marketing team discuss a plan to operationalize marketing metrics for use in KPI and OKR presentations.*
-
-For each GitLab executive, we hold a monthly call to discuss Key Performance Indicators (KPI) and Objectives and Key Results (OKR). This goes well beyond the usual scope of learning and development by providing on-the-job education on metrics that impact various parts of the company. Said another way, learning and development has greater impact when it's mapped to something tangible.
-
-Learn more about [GitLab's Key Reviews](/handbook/company/key-review/).
-
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons

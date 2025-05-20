@@ -17,7 +17,7 @@ The Platform group manages the [Platform category](/handbook/product/categories/
 
 ## Stable counterparts
 
-{{< stable-counterparts manager="Manager, Fulfillment:Fulfillment Platform" role="(?i)Fulfillment Platform|(?i)Fulfillment section" >}}
+{{< engineering/stable-counterparts manager="Manager, Fulfillment:Fulfillment Platform" role="(?i)Fulfillment Platform|(?i)Fulfillment section" >}}
 
 ## Performance indicators
 

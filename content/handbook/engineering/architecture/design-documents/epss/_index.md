@@ -71,7 +71,7 @@ as part of any review.
 For long pages, consider creating a table of contents.
 The `[_TOC_]` function is not supported on docs.gitlab.com.
 -->
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 For important terms, see [glossary](#glossary).
 

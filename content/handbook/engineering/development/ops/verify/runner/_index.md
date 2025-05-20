@@ -38,7 +38,7 @@ The following people are permanent members of the Verify:Runner group:
 
 ## Stable Counterparts
 
-{{< stable-counterparts role="Verify:Runner" manager-role="Engineering Manager(.*)Verify:Runner" >}}
+{{< engineering/stable-counterparts role="Verify:Runner" manager-role="Engineering Manager(.*)Verify:Runner" >}}
 
 For a more comprehensive list of counterparts, look at the [runner product categtory](/handbook/product/categories/#runner-group)
 

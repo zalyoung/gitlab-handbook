@@ -202,7 +202,7 @@ graph TD;
 
 The following are our current set of capabilities:
 
-{{% pricing-themes "Premium" "Ultimate" %}}
+{{% product/pricing-themes "Premium" "Ultimate" %}}
 
 #### What happens when themes don't match our Buyer Based Tiering Decisions?
 

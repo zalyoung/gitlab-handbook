@@ -68,7 +68,7 @@ Generally, surprises - whether in the form of sudden, major deals or sudden, maj
 
 **The Sales Stages Criteria** defines activities and exit criteria for each stage and serves as a roadmap for moving a deal from discovery to closed won (or qualified out quickly).
 
-- [View GitLab's Sales Stages, criteria, and resources in this Google spreadsheet](https://gitlab.highspot.com/items/623e24381f87632cd3327e93?lfrm=ssrp.0)
+- [View GitLab's Sales Stages, criteria, and resources on this Highspot page](https://gitlab.highspot.com/items/66452849ee42a82fe81b6372)
 
 **How to use it:** As you move a deal through the pipeline, the Sales Stage criteria defines activities and exit criteria for each stage and serves as a roadmap to getting a deal from discovery to closed won (or qualified out quickly). Use it to help you validate your opportunity and forecast it correctly. This guidance gives definitions for each stage, tells you who might be involved on your team, what activities are typically done in each stage, and what is required before you can move it further in the pipeline.
 

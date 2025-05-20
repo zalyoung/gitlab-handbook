@@ -4,6 +4,10 @@ description: "At GitLab, being a CEO Shadow is not a job title, but a temporary 
 ---
 <!-- vale handbook.InclusionLanguage = NO -->
 
+{{% alert title="Note" color="secondary" %}}
+The CEO shadow program is on hold until further notice.
+{{% /alert %}}
+
 ## Overview
 
 At GitLab, being a CEO Shadow is not a job title, but a temporary assignment to shadow the CEO.
@@ -131,12 +135,7 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-11-25 | 2024-11-29 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-02 | 2024-12-06 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-09 | 2024-12-13 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-16 | 2024-12-20 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-23 | 2024-12-27 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
-| 2024-12-30 | 2025-01-03 | NO CEO SHADOW | NO CEO SHADOW | CEO PTO |
+| 20YY-MM-DD | 20YY-MM-DD | Team member name | Team member name |  |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 

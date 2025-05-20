@@ -1177,9 +1177,6 @@ Use private channels instead of group direct messages. Group direct messages are
 
 Consider whether the conversation can take place in a public channel. If not, please use a private channel instead. This channel may have a short-term purpose. It is acceptable to leave the channel and/or archive it if you are no longer an active participant or the channel is no longer in use.
 
-#### Why we track % of messages that are not DMs
-
-For all the same reasons that we want to [avoid direct messages](/handbook/communication/#avoid-direct-messages), [use public channels](/handbook/communication/#use-public-channels), and be [handbook-first](/handbook/company/culture/all-remote/handbook-first/), we track the % of messages that are not DMs.
 As we grow headcount, we exponentially increase the lines of communication- 3 people have 3 communication lines, 4 have 6, and 41 have 820.
 As a result, there is a natural tendency for people to prefer private channels of communication.
 The intentions are good, as people are looking to reduce noise for others, but this can lead to the same problems as described elsewhere on this page, notably:
@@ -1190,20 +1187,6 @@ The intentions are good, as people are looking to reduce noise for others, but t
 
 Slack is our primary source of chat communication and is where many personal interactions happen.
 We want to continue to encourage folks to build personal relationships with one another which will often happen over DMs.
-
-We know that DMs will always exist.
-We don't want to eliminate them.
-We set a target of Slack messages that are not DMs being at least 25% of messages.
-At the time that we set this target, it was <20% of communications.
-
-Everything at GitLab is a work in progress, so if we see a culture shift where Slack is *not* where work is occurring, thus inflating the amount of communication that is personal that is occurring, we can always change this KPI, but the steady growth of Slack messages paralleling the number of team members does not seem to suggest that is the case.
-
-The previous KPI (% of messages sent in public channels) was about public channels but since some necessary parts of the business occur in private channels (discussions around comp, hiring, talent acquisition- and we do A LOT of hiring), this version of the KPI makes more sense.
-Earlier in our history, 50% of all communication *was* in public channels.
-
-**Note:** Some of these charts require data from a sheetload file that needs to be manually updated. To self-serve data for a chart with missing data, please visit Slack's [workspace administration page](https://slack.com/intl/en-gb/help/articles/218407447-View-your-Slack-analytics-dashboard#pro-and-business+-1). It provides guidance on how to access Slack's analytics dashboard for a particular workspace. If this data is required in the charts below, you can ping the #data channel for a refresh. If this becomes a common request, we may choose for the manual step to become regularly scheduled.
-
-{{< tableau height="700px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/GitLabSlack/ofMessagesnotDMsRolling3Months" />}}
 
 ### Use public channels
 

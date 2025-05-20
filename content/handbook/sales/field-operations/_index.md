@@ -31,7 +31,7 @@ The term *"sales"* refers to the Sales Team and *"field"* includes the Customer 
 
 ### RSOE Growth & Development
 
-- For guidance and resources on [RSOE Career Growth & Development](/handbook/sales/field-operations/RSOE-G&D)
+- For guidance and resources on [RSOE Career Growth & Development](/handbook/sales/field-operations/rsoe-gd)
 
 ### Field Operations Calendar
 

@@ -246,4 +246,4 @@ We opted for the current approach because it leverages our existing infrastructu
   - [MR](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/merge_requests/174)
   - [Issue](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/98)
 - [Shift Left and Right Performance Testing](../shift_left_right_performance/)
-- [End-to-End Pipeline Monitoring](../../end-to-end-pipeline-monitoring/#test-metrics)
+- [End-to-End Pipeline Monitoring](/handbook/engineering/testing/end-to-end-pipeline-monitoring/#test-metrics)

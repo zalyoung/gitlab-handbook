@@ -12,7 +12,7 @@ The Platform Insights group is part of the GitLab [Monitor stage](/handbook/engi
 
 ### Stable counterparts
 
-{{< stable-counterparts manager-role="Engineering Manager(.*)Monitor:Platform Insights" role="Product(.*)Platform Insights|Principal(.*)Monitor|Security(.*)Monitor" >}}
+{{< engineering/stable-counterparts manager-role="Engineering Manager(.*)Monitor:Platform Insights" role="Product(.*)Platform Insights|Principal(.*)Monitor|Security(.*)Monitor" >}}
 
 ## Technical Architecture
 
