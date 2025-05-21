@@ -83,4 +83,4 @@ The customer may ask for a description of the CI process or other complex proces
 
 ### Links to Completed RFPs
 
-For Gitlab Team members, please see [list here](https://internal.gitlab.com/handbook/solutions-architecture/rfp.md).
+For Gitlab Team members, please see [list here](https://internal.gitlab.com/handbook/solutions-architecture/rfp/).
