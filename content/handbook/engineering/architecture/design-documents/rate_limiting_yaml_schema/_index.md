@@ -53,7 +53,7 @@ This work directly supports the ["Next Rate Limiting Architecture" blueprint](..
 
 - Implementation of the code that consumes this schema
 - Migration of existing rate limit configurations to use this schema
-- Building a user interface for managing configurations defined in this schema (phase 3)
+- Building a user interface for managing configurations defined in this schema ([phase 3](../rate_limiting_simplification/_index.md#phase-3-implement-a-rate-limit-interface))
 - Defining specific rate limit values (the schema defines the structure, not the actual limit values)
 - Creating a centralized rate limiting service (phase 3)
 
