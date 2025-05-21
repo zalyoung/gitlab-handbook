@@ -118,6 +118,7 @@ When closing a ticket:
 - Provide a **closure summary** outlining steps taken to resolve the ticket.
 - Apply appropriate closure codes when solving tickets.
 - Link tickets to knowledge articles or documentation that helped with resolution.
+- Link tickets to RFH issues, bug issues or feature requests by adding the associated issue URL to the `GitLab Issues` text field.
 - Create or update knowledge articles based on ticket resolutions when appropriate.
 - Add an email signature to final emails encouraging customers to complete satisfaction surveys, such as: "Your feedback is important to us. Please take a moment to complete the satisfaction survey you'll receive after this ticket is closed."
 
