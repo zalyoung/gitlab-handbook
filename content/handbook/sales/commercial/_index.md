@@ -703,7 +703,7 @@ A Digital Sales Room is a secure, personalized webpage where AEs can share curat
 
 1. [Digital Rooms - Highspot Overview Training](https://gitlab.highspot.com/items/67081265d1af62a495629685)
 1. [Digital Rooms 101](https://gitlab.highspot.com/items/67606cf22323c30180af051f)
-1. 
+1. [Engage Buyers with Digial Rooms](https://gitlab.highspot.com/items/66b5225141e9fc65e1ce60d7?lfrm=srp.0#/training/learner)
 
 **Named/Territory AE Responsibilities**
 
