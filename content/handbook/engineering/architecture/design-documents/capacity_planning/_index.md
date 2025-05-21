@@ -47,7 +47,7 @@ At present, the Scalability::Observability group reviews those issues and engage
 
 <img src="/images/engineering/architecture/design-documents/capacity_planning/image-20230911144743188.png" alt="image-20230911144743188" style="zoom:67%;" />
 
-For GitLab.com capacity planning, we operate Tamland from a scheduled CI pipeline with access to the central Thanos, which provides saturation and utilization metrics for GitLab.com.
+For GitLab.com capacity planning, we operate Tamland from a scheduled CI pipeline with access to the central Mimir, which provides saturation and utilization metrics for GitLab.com.
 The CI pipeline produces the desired report, exposes it on GitLab Pages and also creates capacity planning issues.
 Scalability::Observability runs a capacity planning triage rotation which entails reviewing and prioritizing any open issues and their respective saturation concerns.
 
@@ -182,10 +182,10 @@ An alternative design, we don't consider an option at this point, is to set up T
 
 ![dedicated-capacity-planning-as-a-service](/images/engineering/architecture/design-documents/capacity_planning/dedicated-capacity-planning-as-a-service.png)
 
-In this design, a central Prometheus/Thanos instance is needed to provide the metrics data for Tamland.
-Dedicated tenants use remote-write to push their Prometheus data to the central Thanos instance.
+In this design, a central Prometheus/Mimir instance is needed to provide the metrics data for Tamland.
+Dedicated tenants use remote-write to push their Prometheus data to the central Mimir instance.
 
-Tamland is set up to run on a regular basis and consume metrics data from the single Thanos instance.
+Tamland is set up to run on a regular basis and consume metrics data from the single Mimir instance.
 It stores its results and cache in S3, similar to the other design.
 
 In order to execute forecasts regularly, we need to provide an execution environment to run Tamland in.
@@ -193,7 +193,7 @@ With an increasing number of tenants, we'd need to scale up resources for this c
 
 This design **has not been chosen** because of both technical and organisational concerns:
 
-1. Our central Thanos instance currently doesn't have metrics data for Dedicated tenants as of the start of FY24Q3.
+1. Our central Mimir instance currently doesn't have metrics data for Dedicated tenants as of the start of FY24Q3.
 1. Extra work required to set up scalable execution environment.
-1. Thanos is considered a bottleneck as it provides data for all tenants and this poses a risk of overloading it when we execute the forecasting for a high number of tenants.
+1. Mimir is considered a bottleneck as it provides data for all tenants and this poses a risk of overloading it when we execute the forecasting for a high number of tenants.
 1. We strive to build out Tamland into a tool of more general use. We expect a better outcome in terms of design, documentation and process efficiency by building it as a tool for other teams to use and not offering it as a service. In the long run, we might be able to integrate Tamland (as a tool) inside self-managed environments or publish Tamland as an open source forecasting tool. This would not be feasible if we were hosting it as a service.
