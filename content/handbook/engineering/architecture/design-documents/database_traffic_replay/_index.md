@@ -184,6 +184,7 @@ flowchart TD
     class PauseA,PauseB pauseStep
     class PipelineStageA,PipelineStageB,PipelineStageC,MachineCreation,ReplayPerformed,MachinesDeleted pipelineStep
 ```
+
 ### Security and Retention
 
 Note that the recorded traffic capture would contain RED data.
@@ -193,7 +194,9 @@ The traffic-capture bucket will inherit most of its permissions from gitlab-prod
 
 We are using GCP's native PubSub, so message encryption is handled by default, and service accounts are used for authentication.
 A service account representing Gitlabs rails nodes will recieve the role roles/pubsub.publisher on the traffic capture pub/sub topic to allow it to add messages to the pubsub queue.
-The traffic-capture service account will recieve the roles 
+
+The traffic-capture service account will recieve the roles
+
 - roles/pubsub.subscriber on the traffic-capture pubsub subscription and the traffic-capture pubsub topic
 - roles/pubsub.viewer on the traffic-capture pubsub topic
 - roles/dataflow.worker for the entire project. Unfortunately this necessary role [can only be assigned on an entire project](https://cloud.google.com/dataflow/docs/concepts/access-control#:~:text=Dataflow%20Worker-,(roles/dataflow.worker),-Provides%20the%20permissions). Luckily, traffic-capture is the only functionality which uses Dataflow in gitlab-production. 
