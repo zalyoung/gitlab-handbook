@@ -44,7 +44,7 @@ Employ the following workflows for:
   with the goal of targeting 100% FRT SLA achievement during your coverage hours, with a stretch goal of greater than 70% of tickets replied to within half of the FRT SLA clock.
 - The customer contact region should only be considered at the end of the assignee's day, at which point the assignee decides, based on customer input, if the ticket should be handed over or retained.
 
- ## Assigning Tickets:
+## Assigning Tickets
 
 - Assign tickets to yourself using the "Take It" button and update status to `Open` or `Pending`.
 - Please note that the SLA clock continues to run until you've sent a public response to the user.
@@ -101,6 +101,7 @@ By following these steps, you ensure a structured approach to ticket handling th
 - Sync calls are not the exception but are used for clarification, guidance, and building rapport.
 
 ## Elevating Tickets
+
 Elevate tickets (seeking assistance from a Peer/Senior/Pod/Development – Request for help) based on agreed criteria:
 
 - Time constraints
