@@ -691,8 +691,10 @@ Please refer to the [New Logo Team Playbook](/handbook/sales/commercial/high_vel
 1. Work with the Named or Territory AE, the CSM (if known), and the customer to set up a handoff call
     - New Logo AE should take the lead on scheduling this call
         - **Note** : Should the NL Rep and Named or Territory AE agree ahead of time that an email introduction will suffice, then the team can bypass the handoff call.
-1. If the initial amount AND the potential of the next opportunity are less than a combined NetARR of $10,000, or the inheriting AE agrees,a handoff email can be used.
-1. Ensure all material like custom decks are editable by everyone.
+1. If the initial amount AND the potential of the next opportunity are less than a combined NetARR of $10,000, or the inheriting AE agrees, a handoff email can be used.
+1. Ensure all material like custom decks are added into a dedicated customer sub-folder in the [Customers & Prospects](https://drive.google.com/drive/u/0/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?resourcekey=0-MBirIe2vWyQXYi8cJEkH2Q) drive.
+    - Create a sub-folder in one of the folders labeled A-Z based on the first letter of the customer account name. (Example: Acme Inc. would go in the folder labeled "A")
+    - Add all customer facing or internal documents related to that customer into the folder. This way the entire Account Team will be able to view all related content.
 1. For Web Directs without prior engagement :There will be no handover as the FO AE has not had any engagement.
 
 **Named/Territory AE Responsibilities**
