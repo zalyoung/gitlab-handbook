@@ -165,8 +165,6 @@ Ends: **End of release week (milestone Thursday)**
 - Weekly reminders go out
 - Responses are sent to a google sheet that the facilitator has access to
 
----
-
 #### Phase 2: Synthesis
 
 **When:**
@@ -177,8 +175,6 @@ Ends: **Following Tuesday**
 - Facilitator reviews and groups entries into themes
 - Duplicates removed
 - Poll generated to vote for the top two or three topics to discuss
-
----
 
 #### Phase 3: Discussion & Action
 
@@ -191,8 +187,6 @@ Starts: **1 week post-release (Tuesday–Friday)**
 - Team selects 2–3 action items to carry forward
 - Owners are assigned and new issues are created to track follow-up
 
----
-
 #### Example Timeline (Milestone 18.3 Ends 2025-07-17)
 
 | Phase             | Dates                    |
@@ -200,8 +194,6 @@ Starts: **1 week post-release (Tuesday–Friday)**
 | Collection        | June 30 – July 17        |
 | Synthesis         | July 18 – July 22        |
 | Discussion/Action | July 22 – July 25        |
-
----
 
 #### Reminders
 
