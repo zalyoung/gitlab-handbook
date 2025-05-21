@@ -83,3 +83,9 @@ This advance notice helps us allocate capacity to provide you with the most thor
 ## Remember
 
 Our hypothesis is that if the Product Security Team can successfully use GitLab's security features, then our customers can too. Customer Zero Validation is how we test that hypothesis and deliver complete, valuable security capabilities from day one.
+
+## Frequently Asked Questions
+
+**Q: If we'd like to involve the Product Security Team during every phase of feature development, should we open one issue for the feature or one issue per request type?**
+
+**A:** We'd want and need one issue per [request type](#request-types). You're welcome to link them, but the reason is we expect that plans will change throughout the product development lifecycle. We need to ensure we're operating on current information. Additionally, the level of detail should increase as time goes on (i.e., setup instructions will be known for internal testing, but rarely before).
