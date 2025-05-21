@@ -173,3 +173,15 @@ First visit https://gitlab-docs-hugo-19c275.gitlab.io/ to oauth yourself to the 
 | Charts | [https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/](https://gitlab-docs-hugo-19c275.gitlab.io/review-mr-27/ja-jp/charts/installation/) |
 
 This implementation follows the architecture detailed in [tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/merge_requests/27).
+
+##### How to build a quick review-app
+
+Building a review app means pointing the Hugo application to the correct branch which contains those changes. 
+Here's a simple step by step process on how you can achieve this:
+1. Go into [main-development products.yaml](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main-development/data/products.yaml)
+2. Find the repository and edit the `default_branch` field to match the Translation MR’s branch
+3. Save the edits to a new branch and create a new MR titled “Review of <Translation MR Name>”
+4. Wait for build
+5. Can update MR’s description to specify it’s for review and not to be merged
+6. Can list out all the pages that need review
+7. Click View in App
