@@ -30,7 +30,7 @@ When counting tenants, keep in mind the distinction between production, pre-prod
 
 Each MBR is taking a look at how things went during the last month. To make sure we count things once and only once, you'll want to make a special note of what dates you're looking at when you are preparing the MBR. The end of the week before the MBR is a [good cutoff point](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6738#note_2394065104).
 
-Record the start and end dates used when you prep.
+Record the start and end dates used in the table at the bottom of this page.
 
 ### 🎫 Counting Tickets
 
