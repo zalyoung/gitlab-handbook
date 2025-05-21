@@ -354,5 +354,4 @@ All team members are encouraged to schedule time for personal development. The f
 - [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
 - [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](https://about.gitlab.com/security/#data-breach-notification-policy)
-- [Infrastructure Platforms careers and internships](/handbook/engineering/infrastructure/career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
