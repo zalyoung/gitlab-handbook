@@ -40,4 +40,3 @@ A playboook should use the [playbook template](https://gitlab.com/gitlab-com/run
 
 - [Playbook Template](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/template-alert-playbook.md)
 - [MR template for new playbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/.gitlab/merge_request_templates/alert-playbook-template.md)
-
