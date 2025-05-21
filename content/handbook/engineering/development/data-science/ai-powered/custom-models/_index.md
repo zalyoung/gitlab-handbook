@@ -19,11 +19,19 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 
 ### Team Members
 
-**Engineering Manager & Engineers**
+**Engineering**
 
-Engineering Manager: [@sean_carroll](https://gitlab.com/sean_carroll)
-
-{{< team-by-manager-slug "sean-carroll" >}}
+| Name               |  Handle          | team.yml   | Email prefix |
+|--------------------|------------------|------------|--------------|
+| Sean Carroll       | @sean_carroll    | [sean-carroll.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/s/sean-carroll.yml)    | scarroll |
+| Igor Drozdov       | @igor.drozdov    | [igor.drozdov](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/i/id-backend.yml)      | idrozdov |
+| Patrick Cyiza      | @jpcyiza         | [jpcyiza.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/j/jpcyiza.yml)                 | jpcyiza |
+| Mohamed Hamda      | @mhamda         | [mhamda.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/m/mhamda.yml)                 | mhamda |
+| Julie Huang        | @julie_huang     | [julie_huang.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/j/julie_huang.yml)     | julhuang |
+| Bruno Cardoso  | @bcardoso-  | [bcardoso-.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/b/bcardoso-.yml)       | bcardoso |
+| Eduardo Bonet      | @eduardobonet    | [eduardobonet.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/e/eduardobonet.yml) | ebonet |
+| Manoj M J | @manojmj | [manojmj.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/m/manojmj.yml) | mmj |
+| Ekaterina Nikonova | @enikon | [enikon.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/team_members/person/e/enikon.yml) | enikonova |
 
 **Product, Design & Quality**
 
@@ -48,6 +56,14 @@ Issues owned by the Custom Models group should have these labels, as appropriate
 - `~"Category:Self-Hosted models"`
 
 In addition, issues should contain the relevant `~type:` and subtype labels.
+
+## Scoping Work using Epics and Tech Leads
+
+Epics should be used as the primary definition of scope for any work item larger a single issue in size. This could be a new feature, a complex refactoring or bug. The issues in the epic constitute the entire scope of the work item, and when they are all closed the work is completed and the epic is closed. It may take multiple milestones to complete all work in the Epic.
+
+The technical ownership of individual work items as defined by an Epic, is delegated to a "Tech Lead", an engineer. The engineer is assigned to the Epic and ensures the scope is correct. The Tech Lead works with the EM, the PM and other engineers.
+
+Any engineer on the team can work on the issues contained in the Epic, as self-assigned using the Kanban process, including the Tech Lead themselves.
 
 ## Team Milestone Planning Process
 
@@ -92,12 +108,27 @@ The EM maintains a [Google Sheet](https://docs.google.com/spreadsheets/d/18LhwZp
 
 The EM selects issues from the [Planning Board](#planning-board) based on:
 
-- previous milestone slippage
+- Previous milestone slippage
 - PM preference
-- weight
-- priority
+- Weight
+- Priority
 
-The EM then applies the `~Deliverable` label to each issue in the Release and assigns then to an engineer. The issues are tracked throughout the release with the Build Board.
+#### The `~Deliverable` Label
+
+Application of the `~Deliverable` label indicates the Engineering team has committed to Product to make best efforts to complete the issue in that Milestone. The `~Deliverable` label drives the `Say/Do Ratio` used in monthly Engineering management reporting.
+
+- It is preferred to not add `~Deliverable` issues after the start of the milestone.
+  - If additional work is brought into the milestone after it has started, it will not be marked `~Deliverable`.
+- Issues should not have the `~Deliverable` label removed once added to the milestone.
+- Issues marked `~Deliverable` that do not make the milestone will be marked `~missed-deliverable` by a bot (or manually).
+- Only the EM should apply the `~Deliverable` label.
+  - Engineers can ping the EM on the Planning Issue, for any issues that should be `~Deliverable`.
+
+#### Kanban Self-Assignment (with Context Awareness)
+
+Engineers self-assign issues from the Build Board, ideally one at a time, to maintain focus. If issues are linked or contextually related, engineers may assign multiple. To prevent knowledge silos and ensure team-wide context, engineers are encouraged to briefly share context in team sync, async updates, especially for complex or cross-cutting projects.
+
+The goal is for the team to collectively drive all Build Board issues to completion, with visibility and context-sharing baked into our workflow. All issues are tracked throughout the release using the Build Board and its associated workflow status.
 
 ### Say / Do Ratio
 
