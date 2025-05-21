@@ -104,6 +104,8 @@ The current pipeline should look like this:
       - sleep 4m
   ```
 
+1. Select **Commit changes** to update your `.gitlab-ci.yml` file.
+
 Adding this job will ensure that you have enough time to create two merge requests.
 
 To start, create your two merge requests. For the first merge request:
@@ -200,7 +202,7 @@ Now, let’s create two merge requests that conflict:
 1. Select the `index.js` file. At the top of the file, add a comment to describe the function. An example comment is below.
 
     ```js
-    // This method will create a binary search finding the value in lin log(n) time
+    // This method will create a binary search finding the value in list in log(n) time
     module.exports.binarySearch = function binarySearch(arr, val) { 
         let start = 0; 
         let end = arr.length - 1; 
@@ -253,7 +255,7 @@ Now, let’s create two merge requests that conflict:
 
 1. Commit this code to the branch and create a new merge request from it.
 
-1. Return to your `conflict` merge request and merge it into the repository.
+1. Return to your `conflict` merge request. Select the arrow next to the merge button then select merge immediately and merge it into the repository.
 
 1. After it merges, navigate to your `conflict-2` merge request. You will now see that the merge is blocked, stating *Merge conflicts must be resolved*.
 
