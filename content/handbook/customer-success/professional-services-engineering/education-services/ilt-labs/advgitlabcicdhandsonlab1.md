@@ -249,7 +249,7 @@ To make these changes, we will push a `config.toml` file to the runner.
         - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
       script:
         - ssh root@$ip 'gitlab-runner unregister --all-runners'
-        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token glrt-71BkHhUV__N_4DDN-Xxz'
+        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token your-token-here'
         - scp config.toml root@$ip:/etc/gitlab-runner/config.toml
         - ssh root@$ip 'gitlab-runner restart'
         - ssh root@$ip 'cat /etc/gitlab-runner/config.toml'
