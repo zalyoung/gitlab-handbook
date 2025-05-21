@@ -45,6 +45,15 @@ While BootstrapVue was suitable in the past, we are now considering migrating aw
 
 These are the known challenges, but there may be additional issues that have yet to be identified.
 
+### Migration strategy
+
+1. Remove Bootstrap Vue components from GitLab components in https://gitlab.com/groups/gitlab-org/-/epics/16231.
+   - Move logic from the Bootstrap Vue components directly into the GitLab components. Consider removing Bootstrap Vue props, slots, and events that we are not using.
+   - Move Bootstrap Vue specs over to GitLab component directory to help verify that logic is working as expected.
+   - Use integration MRs to help verify components are working as expected.
+   - Once merged, use integration MR to upgrade `@gitlab/ui` and update any required specs.
+1. Remove unused Bootstrap Vue components from [`src/vendor`](https://gitlab.com/gitlab-org/gitlab-ui/-/tree/main/src/vendor) directory in https://gitlab.com/groups/gitlab-org/-/epics/15154.
+
 ## Exit Criteria
 
 1. Unused files from `/src/vendor/bootstrapvue` are removed: [Epic &13075](https://gitlab.com/groups/gitlab-org/-/epics/13075).
