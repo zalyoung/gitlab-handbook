@@ -175,7 +175,7 @@ To make these changes, we will push a `config.toml` file to the runner.
 
 1. Copy the `config.toml` from your job output into the toml file you created in your repository.
 
-    Your `config.toml` will look something like this (the `your-token` value will be your runner token instead):
+    Your `config.toml` will look something like this (make sure to replace the `your-token` value with your runner token instead):
 
     ```toml
     concurrent = 1
@@ -249,7 +249,7 @@ To make these changes, we will push a `config.toml` file to the runner.
         - ssh-keyscan -t rsa,ed25519 $ip >> ~/.ssh/known_hosts
       script:
         - ssh root@$ip 'gitlab-runner unregister --all-runners'
-        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token glrt-71BkHhUV__N_4DDN-Xxz'
+        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token your-runner-token'
         - scp config.toml root@$ip:/etc/gitlab-runner/config.toml
         - ssh root@$ip 'gitlab-runner restart'
         - ssh root@$ip 'cat /etc/gitlab-runner/config.toml'
