@@ -12,8 +12,6 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 
 ### Mentorship Opportunities
 
-- [PlatoHQ Mentorship](/handbook/engineering/plato/)
-- [GitLab Company-Wide Mentorship Program](/handbook/people-group/learning-and-development/mentor/company-program/)
 - [Ad-hoc GitLab Mentorship](/handbook/people-group/learning-and-development/mentor/)
 
 ## Quality Engineering Manager Focus
@@ -42,8 +40,6 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 
 ### Mentorship Opportunities
 
-- [PlatoHQ Mentorship](/handbook/engineering/plato/)
-- [GitLab Company-Wide Mentorship Program](/handbook/people-group/learning-and-development/mentor/company-program/)
 - [Ad-hoc GitLab Mentorship](/handbook/people-group/learning-and-development/mentor/)
 
 ### Misc
