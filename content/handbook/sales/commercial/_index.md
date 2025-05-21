@@ -697,6 +697,14 @@ Please refer to the [New Logo Team Playbook](/handbook/sales/commercial/high_vel
     - Add all customer facing or internal documents related to that customer into the folder. This way the entire Account Team will be able to view all related content.
 1. For Web Directs without prior engagement :There will be no handover as the FO AE has not had any engagement.
 
+**Digital Sales Room**
+
+A Digital Sales Room is a secure, personalized webpage where AEs can share curated content, collaborate with prospects, and track buyer engagement throughout the sales process. It centralizes all sales materials, presentations, and communications in one branded space, eliminating scattered emails and creating a seamless buyer experience.
+
+1. [Digital Rooms - Highspot Overview Training](https://gitlab.highspot.com/items/67081265d1af62a495629685)
+1. [Digital Rooms 101](https://gitlab.highspot.com/items/67606cf22323c30180af051f)
+1. 
+
 **Named/Territory AE Responsibilities**
 
 1. Work with the New Logo AE, CSM, and customer to schedule a handoff call (or email).
