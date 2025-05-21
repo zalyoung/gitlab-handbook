@@ -89,3 +89,13 @@ There's also a table with:
 | GDCMOC Pages | | |
 
 In each cell, we have `X (percentage increase month-over-month, last month's value of X`.
+
+## 📜 Historical MBR Dates
+
+Record the **Start Date** and **End Date** that you use when preparing for the MBR. The dates should be `inclusive`.
+
+| MBR | SSC | Start Date | End Date |
+| ------ | ------ | ------ | ------ |
+| April 2025 | Brie Carranza |  N/A      | `2025-04-27` |
+| May 2025 | Brie Carranza | `2025-04-28` | `2025-05-16` |
+| June 2025 |TBD |   |  |
