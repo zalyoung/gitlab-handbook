@@ -175,7 +175,7 @@ To make these changes, we will push a `config.toml` file to the runner.
 
 1. Copy the `config.toml` from your job output into the toml file you created in your repository.
 
-    Your `config.toml` will look something like this (the `your-token` value will be your runner token instead):
+    Your `config.toml` will look something like this (make sure to set the `token = ` field to your runner token):
 
     ```toml
     concurrent = 1
