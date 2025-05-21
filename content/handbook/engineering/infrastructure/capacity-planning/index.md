@@ -26,7 +26,7 @@ GitLab's Capacity Planning strategy is based on the following technologies:
 ```mermaid
 graph TD
     A[Saturation Monitoring Configuration] -->|pushed| B[Prometheus]
-    B --> C[Thanos]
+    B --> C[Mimir]
     B --> |alerts for imminent saturation|D[Pager Duty]
     C --> |historical saturation data|E[Tamland]
     E --> |generates|F[Tamland Report]
@@ -35,7 +35,7 @@ graph TD
 
 1. **[Saturation Monitoring Jsonnet Configuration](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog/saturation)** - for saturation monitoring definition, recording rule generation, short term alerting configuration generation.
 1. **Prometheus** - capturing and processing utilization and saturation metrics over the short-term.
-1. **[Thanos](https://thanos.gitlab.net/)** - long-term storage of utilization and saturation metrics.
+1. **[Mimir](https://dashboards.gitlab.net/explore)** - long-term storage of utilization and saturation metrics.
 1. **[Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland)** - the forecasting tool.
 1. **GitLab CI** - running the daily forecasting process.
 1. **[Facebook Prophet](https://facebook.github.io/prophet/)** - forecasting.
@@ -63,7 +63,7 @@ Tamland will attempt to predict a range of outcomes. For saturation, we focus on
 
 The forecast process, Tamland, runs as a GitLab CI job, e.g. in the [`gitlab-com` project](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com) for GitLab.com.
 This job will run on a schedule defined [in the scheduled pipeline](https://ops.gitlab.net/gitlab-com/gl-infra/tamland/-/pipeline_schedules) (set to execute daily).
-The process starts by reading the historical short-term saturation metric data from Thanos, using an hourly resolution across the last 1+ years worth of data.
+The process starts by reading the historical short-term saturation metric data from Mimir, using an hourly resolution across the last 1+ years worth of data.
 
 ## Data classification
 
