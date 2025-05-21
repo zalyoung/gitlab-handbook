@@ -11,7 +11,7 @@ The Infrastructure Security team ensures that GitLab's cloud infrastructure meet
 
 ## Value Proposition
 
-Through implementation of DevSecOps principles we empower teams across GitLab to operate Infrastructure at scale with effective security telemetry, risk visibility, consultation support, and implementation support to uphold the trust that is placed upon GitLab with our customer's sensitive information while accelerating velocity.   
+Through implementation of DevSecOps principles we empower teams across GitLab to operate Infrastructure at scale with effective security Observability , risk visibility, consultation support, and implementation support to uphold the trust that is placed upon GitLab with our customer's sensitive information while accelerating velocity.   
 
 ## Scope and Responsibilities
 
@@ -19,7 +19,7 @@ Through implementation of DevSecOps principles we empower teams across GitLab to
 
 - **Cloud Security Reviews and Consultation**: Review new infrastructure and features to ensure that our Security Policies & Standards are met, consult with engineers to solve challenges securely, build secure defaults and examples.   
 
-- **Infrastructure Security Telemetry**: Deployment and management of tools to improve security visibility capabilities and detection of security events within our infrastructure (e.g. Wiz, Wiz Runtime Sensor).
+- **Infrastructure Security Observability**: Deployment and management of tools to improve security visibility capabilities and detection of security events within our infrastructure (e.g. Wiz, Wiz Runtime Sensor).
 
 - **Misconfiguration Detection and Remediation**: Leveraging our observability tooling we monitor GitLab's cloud environments for misconfigurations, triage them for severity, collaborate with system owners to design and implement remedial activities, and build secure defaults to prevent recurrence.  
 
@@ -61,7 +61,7 @@ In the event of an emergency, GitLab Team Members should page the Security Incid
 ## FY26 Strategic Initiatives
 
 * Supporting the GitLab Dedicated for Government (FedRAMP) Environment
-* Expanding our Security Telemetry coverage
+* Expanding our Security Observability  coverage
 * Contributing towards a Cloud Security Framework for GitLab
 
 
