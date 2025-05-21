@@ -206,7 +206,8 @@ For guidance on using comment templates, please refer to our [Comment Templates 
 
 Occasionally, the team will be asked to dedicate time to exploring or "spiking" a technical solution to a problem or opporunity area deemed a priority by Growth PM. Technical spikes are fundamentally different than our typical work items as the result is more commonly a recommendation on a technical direction or solution (in the form of additional epics and/or issues) rather than code, yet they still require dedicated developer focus and should be accounted for in our development workflows. As such, we've determined the following guidelines and responsibilities for individual Growth Engineers to follow when addressing a techincal spike in our workflow:
 
-Note: As of Q2 FY25, technical spikes will follow the same workflow process as code-based issues - they will enter `~workflow::refinement`, then be scheduled and prioritized for pick up in `~workflow::ready for development`. Active technical spike work will be represented in `~workflow::in dev`. Once outputs are completed, the technical spike issue will be closed and moved to `~workflow::complete`.
+Note: Technical spikes will follow the same workflow process UX design issues where the issue is the single source of truth for implementation and eventually converts
+into either an epic or development implementation issue.
 
 **Inputs**
 
@@ -230,8 +231,8 @@ As the technical spike work comes to a completion, complete the following steps 
 - Provide a summary comment with detailed learnings of your investigation and recommended path(s) for the solution in the spike issue. Include an outline of the recommended next step issues and/or epics to be created for the next phase of work.
 - Tag in the responsible PM, EM, and Growth Engineering team (`@gitlab-org/growth/engineering` team) for review.
 - Confirm with the responsible PM that the spike requirements have been met within the alotted duration time.
-- Move the technical spike issue to `~workflow::complete`.
-- Close the technical spike issue.
+- If not determined to not be technically feasible, close the issue with that conclusion.
+- If the spike was successful, detail the implementation steps if they are known, and place this back into `~workflow::solution validation` for where PM will guide implementation and we can break down the work furthur if needed once it re-enters later `workflow` stages.
 
 ### UX
 
