@@ -178,6 +178,7 @@ This implementation follows the architecture detailed in [tech-docs-forked-proje
 
 Building a review app means pointing the Hugo application to the correct branch which contains those changes. 
 Here's a simple step by step process on how you can achieve this:
+
 1. Go into [main-development products.yaml](https://gitlab.com/gitlab-com/localization/tech-docs-forked-projects/test/gitlab-docs/-/blob/main-development/data/products.yaml)
 2. Find the repository and edit the `default_branch` field to match the Translation MR’s branch
 3. Save the edits to a new branch and create a new MR titled “Review of <Translation MR Name>”
