@@ -201,13 +201,6 @@
   exclude_from_exports: false
 
 - avoid:
-  - Deadline
-  use_instead:
-  - Due date
-  reason: Deadline [may have violent origins](https://en.wikipedia.org/wiki/Time_limit#Origin_of_the_term) and we use `due date` in our user interface for issues.
-  exclude_from_exports: false
-
-- avoid:
   - locked and loaded
   use_instead:
   - prepared, ready, available
