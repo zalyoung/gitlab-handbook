@@ -62,7 +62,7 @@ At GitLab, our incident management framework distinguishes between two important
 
 1. **Incident Response Roles**: These are the functional positions needed during incident response, defined by specific responsibilities and actions, regardless of who fills them. Currently, we have three defined roles: Incident Lead, Incident Responder, and Communications Manager.
 
-2. **Response Teams**: These are the specific teams and rotations responsible for staffing these roles. Different response teams may cover different environments (e.g., GitLab.com vs. Dedicated) or specialized functions.
+2. **Response Teams**: These are the specific teams and rotations responsible for staffing these roles. Different response teams may cover different environments (for example, GitLab.com vs. Dedicated) or specialized functions.
 
 Understanding this distinction helps clarify who does what during incidents and ensures proper coordination across our incident management processes.
 
@@ -112,7 +112,7 @@ The Incident Lead is responsible for ensuring that the incident progresses and i
 3. Ensure that the incident issue is appropriately restricted based on [data classification](#incident-data-classification), to mark the issue as confidential use `/incident field` and set the `Keep GitLab Issue Confidential` to `true`
 4. The Incident Lead should not consider immediate work on an incident completed until the Incident Summary is filled out with useful information to describe all the key aspects of the Incident.
 5. Ensuring that the Timeline section of the incident in the `post-incident` tab is accurate and complete with the start and end of the customer impact.
-6. Ensuring that the root cause is stated clearly and plainly in the incident description by updating the `causes` section in the `/incident summary`, or can be alternatively shared as an internal status update using the `:pushpin:` emoji or confidential follow-up if the root cause cannot be made public.
+6. Ensuring that the root cause is stated clearly and plainly in the incident description by updating the `causes` section in the `/incident summary`, or can be alternatively shared as an internal status update using the `:pushpin:` (📌) emoji or confidential follow-up if the root cause cannot be made public.
 7. After the incident is resolved, the Incident Lead should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity.
 8. For all Severity 1 and Severity 2 incidents, [initiate an async incident review](/handbook/engineering/infrastructure/incident-review/#process-for-asynchronous-reviews) and inform the Engineering Manager of the team owning the root cause that they may need to initiate [the Feature Change Lock process](/handbook/engineering/#feature-change-locks).
 
