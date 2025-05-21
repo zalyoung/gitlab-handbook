@@ -3,7 +3,7 @@ title: YAML Schema for Rate Limiting Configuration
 status: proposed
 creation-date: "2025-05-16"
 authors: [ "@pguinoiseau", "@sarahwalker" ]
-coaches: [ "@andrewn" ]
+coaches: [ "@andrewn", "@grzesiek" ]
 dris: [ "@pguinoiseau", "@sabrams" ]
 owning-stage: "~devops::platforms"
 participating-stages: []
