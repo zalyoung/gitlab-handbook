@@ -18,11 +18,11 @@ These maps will enable Product, UX, and Dev teams to understand the complete jou
 
 This working group aims to:
 
-1. Establish how journey mapping contributes to GitLab's business value, growth, monetization, and the company plan
-1. Establish a strategic framework for user journey mapping across GitLab
-1. Build an organizational infrastructure for journey mapping
-1. Operationalize teams around user journeys
-1. Enable cross-functional collaboration across user journeys
+- Establish how journey mapping contributes to GitLab's business value, growth, monetization, and the company plan
+- Establish a strategic framework for user journey mapping across GitLab
+- Build an organizational infrastructure for journey mapping
+- Operationalize teams around user journeys
+- Enable cross-functional collaboration across user journeys
 
 ## Business outcomes and exit criteria
 
