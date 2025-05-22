@@ -1072,7 +1072,9 @@ Follow the instructions in [Step 6 above](/handbook/marketing/marketing-operatio
 
 ## Integrate DAP Closed Loop Feedback
 
-Feedback on leads received via the Integrate service is an automated process done via Marketo webhooks, with 7 in total. The smart campaign triggers, smartlist filters and "holding" smart campaign used for the automation are found [on this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG16388A1). There are two smart campaigns used and for two reasons: The `Activation` trigger acts as a holding cell that allows for newly received leads to go through multiple GitLab processes before firing a webhook, e.g. being contacted by SDRs, receiving scoring, being marked as a non-deliverable email. The flow also separates normal leads from `test` leads. The second trigger, `Webhook calls`, calls a webhook after the 5 day hold ends. Marketo webhooks require the use of trigger campaigns, so this should not be set to a scheduled campaign.
+Feedback on leads received via the Integrate service is an automated process done via Marketo webhooks, with 7 in total. The smart campaign triggers, smartlist filters and "holding" smart campaigns used for the automation are found [on this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG16388A1). There are three smart campaigns used and for two reasons: The `Activation` trigger acts as a 4 day holding cell that allows for newly received leads to go through multiple GitLab processes before calling a webhook, e.g. being contacted by SDRs, receiving scoring, being marked as a non-deliverable email. The flow also separates normal leads from `test` leads and adds normal leads to the static `Hold` list, which is used for an automated bi-weekly lead quality report sent to Integrate's platform. The second smart campaign, `Scheduled Integrate Webhook Calls`, is scheduled to run bi-weekly on Mondays. The flow checks the static `Hold` list for Integrate received leads, triggering the webhook calling smart campaign. The third trigger, `Webhook calls`, calls the appropriate webhook. Total time for a new lead to run through this process is `4 days after entering Marketo` plus whenever the lead has entered into the `bi-weekly` cadence - so usually 2 weeks but maybe a tad bit longer in some cases.
+
+When calling webhooks, Marketo will timestamp the first webhook call in the `Integrate Webhook - First` field and if there is ever a second run-through of the webhooks the time stamp will go in the `Integrate Webhook - Second` field. All leads ran through the webhooks will be added to the static lists found in the `Static Checks` folder.
 
 The 7 webhook feedback automations we send to Integrate are:
 
@@ -1085,7 +1087,7 @@ The 7 webhook feedback automations we send to Integrate are:
 
 - **Bad Data**: This should be generally thought of as being similar to a "spam" lead
 - **Bad Phone**: Fired when a SDR marks the lead's listed phone number as not usable or wrong. Inegrate can return these leads to us with the phone number corrected, while other return webhooks will cannot be returned
-- **Bounce**: The email address was deemed unreachable by Marketo. Either our emails have bounced or are being blocked. We cannot accept or use the lead
+- **Bounce**: The email address was deemed unreachable by Marketo. Either our emails have bounced or are being blocked. We cannot accept or use the lead because Marketo cannot determine if the email address is real
 - **Competitor**: The lead is part of a competing company and we are not interested in receiving further leads from this competitor. Use this as an error notification, meaning our lead sourcing filters that needs to be addressed
 - **Test**: When Integrate needs to send us test leads, this webhook will be triggered by those incoming leads. Please make sure the teams sending us leads via the service are aware of the needed filters to trigger the automated feedback via webook
 
