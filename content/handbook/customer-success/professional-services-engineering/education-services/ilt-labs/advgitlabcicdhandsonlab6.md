@@ -38,6 +38,7 @@ For this task, we will be creating a web application to run in our review enviro
       #    - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
       #  <<: [*artifactdef, *cachedef]
     ```
+    
     > A tip when commenting multiple lines is to select them all and press **ctrl + /** on Windows or **cmd + /** on Macs to toggle between commented / uncommented. 
 
 1. Select **Commit changes**.

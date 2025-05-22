@@ -50,6 +50,7 @@ To start, let's create a new project in the lab environment:
 We will manage the association of the runner and deployment of runner configuration through GitLab. This strategy allows you to have source control on your runner configuration, which is ideal for tracking changes.
 
 Let's take a look at how this is structured:
+
 1. First, let's add our token securely to our project as a project-level variable. Navigate to **Settings > CI/CD** and expand the **Variables** section. Select **Add variable**. In the pane on the right, type GITLAB_RUNNER_TOKEN into the **Key** field, and paste your runner token into the **Value** field.
 
 1. Navigate to your project repository.
