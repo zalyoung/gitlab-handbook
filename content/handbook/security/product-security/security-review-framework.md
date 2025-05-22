@@ -197,7 +197,7 @@ Secure Design and Development Risk Score = Data Processing Impact + Feature Expo
 Infrastructure Security Risk Score = Infrastructure Scope + Environment Criticality + Configuration Complexity + Automation Level + Launch Tier Impact
 ```
 
-### Risk Categorization and SPA Engagement
+### Risk Categorization
 
 Each team categorizes risk based on their domain-specific score:
 
@@ -220,7 +220,7 @@ Each team categorizes risk based on their domain-specific score:
 ### Secure Design and Development Review Process
 
 DRI: SD&D Team
-Support: SPA, Data Security. Escalated reviews from SD&D Team for additional consultation or review.
+Optional Review: SPA and/or Data Security, if the feature has changes that fall under their [focus areas](#team-responsibilities). This review is optional since these teams have resource constraints.
 
 #### Critical Risk Review
 
@@ -232,7 +232,6 @@ Support: SPA, Data Security. Escalated reviews from SD&D Team for additional con
 * Multiple security engineers involved
 * Post-implementation validation
 * Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
-Teams involved: SPA, Data Security and SD&D
 
 #### High Risk Review
 
@@ -240,7 +239,6 @@ Teams involved: SPA, Data Security and SD&D
 * Focused threat modeling
 * Targeted code review
 * Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
-Teams involved: SPA, Data Security and SD&D
 
 #### Medium Risk Review
 
@@ -251,12 +249,11 @@ Teams involved: SPA, Data Security and SD&D
 
 * Self-assessment against security guidelines
 * Automated security scanning
-* Timeline: 1-2 business days
 
 ### Infrastructure Security Review Process
 
 DRI: InfraSec Team
-Support: SPA, Data Security. Escalated reviews from SD&D Team for additional consultation or review.
+Optional Review: SPA and/or Data Security, if the feature has changes that fall under their [focus areas](#team-responsibilities). This review is optional since these teams have resource constraints.
 
 #### Critical Risk Review
 
@@ -268,8 +265,7 @@ Support: SPA, Data Security. Escalated reviews from SD&D Team for additional con
 * Infrastructure-as-code security analysis
 * Multiple security engineers involved
 * Post-implementation validation
-* Timeline: 2-3 weeks
-Teams involved: SPA, Data Security and InfraSec
+* Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
 
 #### High Risk Review
 
@@ -278,8 +274,7 @@ Teams involved: SPA, Data Security and InfraSec
 * Key configuration validation
 * Security group analysis
 * Security architect and infrastructure security engineer collaboration
-* Timeline: 1-2 weeks
-Teams involved: SPA, Data Security and InfraSec
+* Timeline: TBD (could span across multiple milestones since there could be gap between design and implementation of feature)
 
 #### Medium Risk Review
 
@@ -291,7 +286,6 @@ Teams involved: SPA, Data Security and InfraSec
 
 * Self-assessment against infrastructure security guidelines
 * Automated configuration checking
-* Timeline: 1-2 business days
 
 ## 4. Implementation
 
