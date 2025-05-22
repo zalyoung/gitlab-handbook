@@ -68,7 +68,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Limiting the impact of far-reaching work](/handbook/engineering/development/#reducing-the-impact-of-far-reaching-work)
+[Limiting the impact of far-reaching work](/handbook/engineering/core-development/#reducing-the-impact-of-far-reaching-work)
 
 ## Overview of Risk Mapping
 
@@ -137,7 +137,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Feature change locks](/handbook/engineering/#feature-change-locks)
+[Feature change locks](/handbook/engineering/#development-items)
 
 ## Added past due infradev as a KPI
 
@@ -157,7 +157,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Engineering metric dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/#engineering-metrics-dashboards)
+[Engineering metric dashboards](/handbook/product/groups/product-analysis/engineering/dashboards)
 
 ## Feedback on the training
 
