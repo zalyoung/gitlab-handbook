@@ -22,7 +22,7 @@ toc_hide: true
 This document outlines our approach to implementing a [flexible custom fields system](https://gitlab.com/groups/gitlab-org/-/epics/235) for work items in GitLab.
 We're extending standard work item fields/widgets by introducing customizable fields that allow teams to capture specialized information unique to their workflows.
 
-The solution introduces user created custom fields that can be configured at the root group level and applied to various work item types. Premium and Ultimate users can create, manage, and use these custom fields across their groups, subgroups, and projects.
+The solution introduces user created custom fields that can be configured at the **root** group level and applied to various work item types. Premium and Ultimate users can create, manage, and use these custom fields across their groups, subgroups, and projects.
 
 This initiative enables users to standardize how they record and report information, creating consistency across projects and supporting more powerful filtering and reporting capabilities.
 
@@ -79,7 +79,9 @@ We propose developing a comprehensive custom fields system for work items in Git
 4. Fields can be assigned to specific work item types (issues, epics, etc.).
 5. Field values live in the issues table.
 6. Fields can be archived rather than deleted to preserve historical data.
-7. The system uses the work item framework and widget concepts and the GraphQL API.
+7. The system uses the work item framework and widget concepts with the GraphQL API.
+
+Note: This is an initial proposal, we plan to provide more configuration options and field types in the future.
 
 ## Design and implementation details
 
@@ -111,9 +113,9 @@ A single-select or multi-select field can have at most `50` select options.
 
 Field values store the actual data for each custom field on a work item. Different value types are used depending on the field type:
 
-- ``TextFieldValue:`` Stores string values for text fields
-- ``NumberFieldValue:`` Stores numeric values for number fields
-- ``SelectFieldValue:`` Stores the selected option(s) for single-select and multi-select fields
+- `TextFieldValue:` Stores string values for text fields
+- `NumberFieldValue:` Stores numeric values for number fields
+- `SelectFieldValue:` Stores the selected option(s) for single-select and multi-select fields
 
 #### Field Association with Work Item Types
 
@@ -182,18 +184,82 @@ query groupCustomFields($fullPath: ID!, $active: Boolean!) {
 }
 ```
 
+Variables example:
+
+```graphql
+{
+  "fullPath": "gitlab-org",
+  "active": true
+}
+```
+
+Here is an example of the GraphQL query to fetch custom fields for a work item:
+
+```graphql
+query namespaceWorkItem($fullPath: ID!, $iid: String!) {
+  workspace: namespace(fullPath: $fullPath) {
+    id
+    workItem(iid: $iid) {
+    id
+    widgets {
+      type
+      ... on WorkItemWidgetCustomFields {
+        type
+        customFieldValues {
+        customField {
+          id
+          name
+          fieldType
+        }
+        ... on WorkItemNumberFieldValue {
+          value
+        }
+        ... on WorkItemTextFieldValue {
+          value
+        }
+        ... on WorkItemSelectFieldValue {
+          selectedOptions {
+            id
+            value
+          }
+        }
+        }
+      }
+    }
+    }
+  }
+}
+```
+
+Variables example:
+
+```graphql
+{
+  "fullPath": "gitlab-org",
+  "iid": "235"
+}
+```
+
 #### Permissions
 
-Authorization to manage custom fields is handled by existing work item permissions like `read_work_item` or `update_work_item` for user roles.
+- To create, edit, archive and unarchive a custom field, you must have at least the Maintainer role for the group.
+- To set custom field values for a work item, you must have at least the Planner role for the work item’s project or group. If you have the Guest role, you can set custom fields only when creating a work item.
 
 #### Filtering by Custom Fields
 
-User can filter work items by custom field values on group and project list pages. This is implemented using the existing search and filter capabilities, with extensions for custom field types:
+User can filter work items by custom field values on group and project list pages. This is implemented in some using the existing search and filter capabilities, with extensions for custom field types:
 
 - Text fields: Search for work items with specific text content
 - Number fields: Filter by numeric value
 - Single-select fields: Filter by selected option
 - Multi-select fields: Filter by one selected option (currently)
+
+Filtering currently available on the following pages:
+
+- Group/Issues list ([Example](https://gitlab.com/groups/gitlab-org/-/issues))
+- Group/Issues boards ([Example](https://gitlab.com/groups/gitlab-org/-/boards))
+- Project/Issues list ([Example](https://gitlab.com/gitlab-org/gitlab/-/issues))
+- Project/Issues boards ([Example](https://gitlab.com/gitlab-org/gitlab/-/boards))
 
 #### Archiving Custom Fields
 
@@ -220,12 +286,13 @@ We've identified these phases for this initiative:
 
 - Implement the database schema for custom fields
 - Create the GraphQL API for managing custom fields
+- Add work item type associations to control which work item types show which fields
 - Build the UI for creating and managing custom fields at the group level
 - Implement the custom fields widget for work item detail pages
+- Implement the custom fields widget for work item create pages
 - Support for all four field types (text, number, single-select, multi-select)
-- Basic filtering capabilities for issues and epics
+- Basic filtering capabilities for issues lists and boards
 - Implement archiving and unarchiving of custom fields
-- Add work item type associations to control which work item types show which fields
 - System notes for custom field changes
 - Removal of the feature flag, making the feature generally available
 
