@@ -233,7 +233,9 @@ When paged, the Infrastructure Liaison will:
 
 1. Make an overall evaluation of the incident and further validation of Severity.
 2. Assist with further support from other teams, including those outside of Engineering (as appropriate)
-3. Post a notice to e-group slack channel. This notice does not have to be expedited, but should occur once there is a solid understanding of user impact as well as the overall situation and current response activities. The e-group notice should be in this format
+3. Post a notice to e-group slack channel. This notice does not have to be expedited, but should occur once there is a solid understanding of user impact as well as the overall situation and current response activities. The e-group notice should be in the format below.
+4. After posting the notice, continue to engage with the incident as needed and also post updates to a thread of the e-group notification when there are material/significant updates.
+
 ```markdown
 :s1: **Incident on GitLab.com**
 **— Summary —**
@@ -243,10 +245,9 @@ When paged, the Infrastructure Liaison will:
 **— Current Response —**
 (bullet list of actions)
 **— Production Issue —**
- Main incident: (link to the incident)
- Slack Channel: (link to incident slack channel)
+Main incident: (link to the incident)
+Slack Channel: (link to incident slack channel)
 ```
-4. After posting the notice, continue to engage with the incident as needed and also post updates to a thread of the e-group notification when there are material/significant updates.
 
 ## Team Coordinators
 
