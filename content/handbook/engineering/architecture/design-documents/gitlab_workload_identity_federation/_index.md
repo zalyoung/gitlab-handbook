@@ -13,7 +13,7 @@ toc_hide: true
 
 ## Summary
 
-Today, the main way in which machine-type identities interact with GitLab is vy
+Today, the main way in which machine-type identities interact with GitLab is by
 using Personal Access Tokens. Because of Personal Access Token being relatively
 long-lived tokens, there is a significant risk associated with PATs leaking or
 being stolen by malicious actors.
