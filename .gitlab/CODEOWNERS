@@ -161,8 +161,8 @@
 /content/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ @fcatteau
 /content/handbook/engineering/development/sec/software-supply-chain-security/security-policies/ @alan
 /content/handbook/engineering/development/sec/secure/ @twoodham
-/content/handbook/engineering/development/sec/secure/dynamic-analysis/ @tkopel @mikeeddington
-/content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @tkopel
+/content/handbook/engineering/development/sec/secure/dynamic-analysis/ @mikeeddington @twoodham
+/content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @twoodham
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson @dabeles
 /content/handbook/engineering/development/sec/secure/static-analysis/ @thiagocsf @adamcohen @jleasure @julianthome
 /content/handbook/engineering/development/sec/security-risk-management/ @dagron1 @rvider
