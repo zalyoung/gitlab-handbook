@@ -545,6 +545,7 @@ The full list of groups was last audited and updated on 2021-07-22.
 | eng-infra       | eng-infra                |                                   | eng-infra-shared-infra              | |
 | eng-infra       | eng-infra                |                                   | eng-infra-shared-services            | |
 | eng-infra       | eng-infra                |                                   | eng-infra-analytics                  | |
+| eng-infra       | eng-infra                |                                   | eng-infra-tenant-scale                  | |
 | eng-infra       | eng-infra                | eng-infra-reliability             | eng-infra-reliability-shared-infra [^2]  | |
 | eng-infra       | eng-infra                | eng-infra-delivery                | eng-infra-automation [^2]            | |
 | eng-infra       | eng-infra                | eng-infra-scalability             | eng-infra-scalability                | |
