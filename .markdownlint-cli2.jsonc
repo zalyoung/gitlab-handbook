@@ -16,6 +16,7 @@
   "config": {
     "default": true,
     "code-block-style": { "style": "fenced" },
+    "descriptive-link-text": false,
     "header-style": { "style": "atx" },
     "hr-style": { "style": "---" },
     "line-length": {
