@@ -7,7 +7,7 @@ This section is provided to help guide you through Knowledge article best practi
 
 Think about who the intended audience is, for the information. What is the purpose of the information? Can it be easily accessible to a customer? How often is it updated?
 
-As a Best practice**:** Knowledge articles are more concise, easy to read, targeted for quick answers, solutions to common questions. Create knowledge articles that can help customers solve issues / problems. Create knowledge articles that are FAQs. Common questions that can be addressed/answered. Create knowledge articles that are frequently updated Create knowledge articles that can be easily accessed by customers (Searchable)
+As a Best practice: Knowledge articles are more concise, easy to read, targeted for quick answers, solutions to common questions. Create knowledge articles that can help customers solve issues / problems. Create knowledge articles that are FAQs. Common questions that can be addressed/answered. Create knowledge articles that are frequently updated Create knowledge articles that can be easily accessed by customers (Searchable)
 
 Best Practices:
 
@@ -17,6 +17,7 @@ Best Practices:
 - Write for Localization (Keep it simple, Write Clearly, and in terms customers can understand/use)
 - Maintain Versions (use a label where appropriate)
 - Link to other Resources
+    
     **Note**: If customer facing, make sure they can access any links that are within the article. If they cannot, do not add it.
 - Categorize articles appropriately. This helps with search!
 - Keep articles updated (review). If you find an article that could use more information, updates… do it! We all can contribute to knowledge!
@@ -58,7 +59,7 @@ Contact {{< member-by-name "Kirsty Allen" >}} to get added to the Technical Revi
 
 ### How do I know if I am a Support Engineer or Knowledge Champion in ZenDesk?
 
-View the permission HERE (LINK NEEDED TO SECTION).
+View the permission in the [Roles and Permissions section](../knowledge-base/#roles-and-permissions).
 
 ### Who can Approve & Publish my article?
 

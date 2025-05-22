@@ -20,13 +20,6 @@ Pay special attention to things like:
 - [Unordered and ordered lists](https://docs.gitlab.com/development/documentation/styleguide/#choose-between-an-ordered-or-unordered-list), and when to use each type
 - [Acronyms](https://docs.gitlab.com/development/documentation/styleguide/#acronyms)
 
-### File naming
-
-File name should be as similar to the title of the article as possible. Follow the conventions in the [structure guide](https://docs.gitlab.com/development/documentation/site_architecture/folder_structure/#work-with-directories-and-files). Specifically:
-
-- Do not use special characters, spaces, or capital letters in file names, directory names, branch names, or anything that generates a path. This will break things when submitting the article to the Support Super Form for Zendesk.
-- When creating or renaming a file or directory and it has more than one word in its name, use underscores (_) instead of spaces or dashes.
-
 ### Title
 
 The H1 header becomes the document title in Zendesk. For example:
