@@ -132,6 +132,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 `x` indicates undefined or not run
 
 {{% all-data-warehouse-sources %}}
+<!-- Add or edit data sources in https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data -->
 
 #### Source contacts
 
