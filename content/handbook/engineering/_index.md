@@ -113,6 +113,88 @@ Key Steps:
 
 This process ensures a balanced approach between feature development and technical improvements, promoting long-term sustainability and efficiency of the engineering organization.
 
+### Interlock Process for Quarterly R&D Roadmaps
+
+The above sections expand on prioritization, engineering responsibility, and technical roadmaps - but we want to ensure an aligned upon roadmap across all stakeholders.
+
+This section outlines the process for aligning Product Management, User Experience and Engineering teams on roadmap planning and execution. The process creates a balanced approach between product-driven and engineering-driven initiatives while ensuring clear communication channels with various stakeholders. 
+ 
+#### Resource Allocation Framework
+
+We're establishing a balanced approach between product-led and engineering-driven initiatives that prioritizes customer needs, quality standards, and long-term product sustainability. This balance serves as the foundation for ongoing dialogue between Product Management, User Experience, and Engineering teams, with the flexibility to adjust ratios as needed for each team's specific context.
+
+- P1/P2/P3: Product-Driven Initiatives
+  - Prioritization Levels
+    - P1: 100% Eng Commitment
+    - P2: 80% Eng Commitment
+    - P3: Best Effort
+  - Some of the P1/P2/P3 projects will be added to the GTM Roadmap (see below). In this process, they will be labeled T1/T2. It’s possible that the numeric priority will change, as a P1 that’s a commitment to a specific customer might be a T2 for Marketing.
+  - Externally communicated to stakeholders
+- E1/E2/E3: Engineering-Driven Initiatives
+  - Prioritization Levels:
+    - E1: 100% Eng Commitment
+    - E2: 80% Eng Commitment
+    - E3: Best Effort
+  - Internal visibility only
+  - Not externally communicated
+
+Creating a clean alignment ("interlock") between Product, UX and Engineering requires a structured planning methodology that integrates user requirements with focused quality improvements and essential technical efforts. This framework establishes a dual-track system where product-driven initiatives (P1/P2/P3) operate with explicit resource allocation parameters—P1 receiving engineering capacity to deliver with 100% certainty and full visibility in release communications, P2 allocated engineering resources to deliver with 80% certainty, both with defined acceptance criteria. P3 efforts are implemented through iterative development cycles when capacity permits. This systematic approach ensures proper resource allocation while creating a traceable relationship between committed functionality and execution.
+
+Parallel to these requirement-driven developments, the framework implements a technical sustainability track (E1/E2/E3) with equivalent resource allocation metrics but isolated from external dependencies and release communications. This architecture enables critical refactoring, dependency upgrades, test automation improvements, and infrastructure optimization to proceed with appropriate prioritization without external scheduling constraints.
+
+The configurable ratio between P-track and E-track allocations provides implementation flexibility across different system components and architectural layers, allowing teams to adapt the framework based on technical debt accumulation, system stability metrics, and component lifecycle phases—ultimately producing systems that satisfy functional requirements while maintaining architectural integrity.
+
+#### Roadmap Structure for R&D Execution
+
+- Content: All P1/P2/P3 and E1/E2/E3 initiatives
+- Cadence: Quarterly updates, 4-quarter rolling window
+- Audience: PM and Engineering leadership
+- Purpose: Readiness, Feasibility, and Execution Planning
+- Format: One deck per [section](../handbook/product/categories/#hierarchy) ([internal-only template](https://docs.google.com/presentation/d/1UTjvJVl544gj9cYrmKeW8KI8dtXBZ6jzxywOuIxRHrI/edit#slide=id.g31e0626c3d4_0_248)), one roadmap overview for customer and engineering driven initiatives per stage, Individual alignment slides for each initiative
+
+#### R&D Alignment
+
+1. After a joint session between Product Management, Engineering, and UX Design of the product group to generate initial ideas and potential initiatives, any team member can create a joint alignment slide following the roadmap structure. **How granular should you be?** There is a minimum threshold of 1 full-time team member per quarter. Smaller initiatives are aggregated as milestones into thematic features. The following content is required:
+  - Initiative overview
+  - Proposed Business value
+  - Proposed solution
+  - Resource requirements
+  - Initial timeline estimates
+1. Apply preliminary prioritization: Perform an initial assessment of business value, technical feasibility, resource requirements, and strategic alignment - in order to understand prioritization. 
+1. In order to finalize alignment, these proposals will be provided to UX stage owners, Product GTM and Engineering Directors to revise priority, business value, technical feasibility, resource requirements, and strategic alignment. For all proposals, validate the definition of good (clear success and landing criteria), timeline, and resource allocation, identify dependencies, and assess risks. You should ensure that proposals include:
+   - The team(s), including PM, Product Design, EM, and Engineering leader, who will be responsible for a quality delivery
+   - The specific epic / link to the scope of work under review to ensure a shared understanding of the topic
+   - What the status of our commitment is [example](https://docs.google.com/presentation/d/1UTjvJVl544gj9cYrmKeW8KI8dtXBZ6jzxywOuIxRHrI/edit#slide=id.g338442d3ae9_0_122) 
+   - What milestone we are committing to within the proposed quarter
+   - What dependencies we will have once committed (e.g. other teams, other projects, etc) in order to align in advance
+   - What distributions will be available with the proposal
+   - What potential drivers this could generate for the company based on your knowledge of the customer (e.g. design partners, marquee customers, revenue)
+   - A brief written description of the effort required (including confidence, unknowns, or concerns)
+1. This will finalize alignment. Final commitment will occur with VP/PLT signoff to ensure that features are mapped to team capacity, tier assignments (P1/P2/P3 or E1/E2/E3) are finalized and commitment on timelines is in place.
+1. This allows us to move forward with upstream communication, with some P1/P2 initiatives becoming integrated into the GTM/Customer Roadmap as T1/T2:
+  - **Tier 1** topics are meant to be 100% committed to within the defined quarter with GA and validation through the Early Access Program. It also requires customer references.
+   - **Tier 2** topics are meant to be committed to with 80% confidence of delivery within the defined quarter delivering features that don't have to be GA but must be available broadly with customer references as a "better" vs a requirement. These efforts are noteworthy enough for a blog post or media interviews 
+   - **Tier 3** topics are included in monthly release notes but do not warrant GTM engagement. The confidence of their delivery within a specific quarter is lower than Tier 1 or 2, as they can slip to ensure Tier 1 or 2 deliverables do not miss their committed dates.
+This quarterly R&D roadmap represents a contract, not between Product and Engineering, but between GitLab and our customer. Engineering is responsible for the delivery of a product that meets the need of the customer with the highest quality for the company. 
+
+#### Why this matters
+- Establish a unified, aligned-upon, and transparent R&D Roadmap across technical roadmaps, engineering initiatives or projects, cross-functional prioritization, and company planning. 
+- Have a hierarchy to prioritization, confidence that these are the correct priorities, and an understanding of how flexible we can be with changing these priorities
+- Allow space to review and assess the effort required to ship something of truly high quality, that will support the scalability required of where we are going in the future, and to have a clear understanding of customer expectation
+- Prompt teams to think through all angles and whether they have the information needed to move forward
+- Surface awareness of critical work that must be prioritized before the proposed work
+- Provide transparency and time to prepare for other stakeholders in the company downstream from delivery, the field, and our customers
+- Understand in advance what our upcoming goals will be, reducing churn, borrows, escalations, etc
+
+#### Things to be aware of
+- Milestone dates, which may not correspond to your quarterly commitment date (cases where milestone dates run past the quarter-end)
+- Dedicated distributions remain behind by 1 stable release 
+- Hard dependencies and their timelines
+- We may not get all the information needed from Product about topics we are asked to commit to. This does not mean we need to commit without having information, but rather doing this diligence ourselves to help support these goals. (e.g. Commit to different scope, or Propose alternative)
+- Engineering commitments must be aligned upon up the chain of Engineering. Directors should be assisting their teams with this process with an understanding of the topic in question. Engineers should be assisting their management with an understanding of capacity, feasibility, alternative solutions or proposals to solve the customer problem, and helping their teams deliver against these commitments. 
+
+
+
 ### Community Contributions
 
 We have a 3-year goal of [reaching 1,000 monthly contributors](/handbook/company/strategy/#2-build-on-our-open-core-strength) as a way to mature new stages, add customer-desired features that aren't on our roadmap, and even translate our product into multiple languages.
