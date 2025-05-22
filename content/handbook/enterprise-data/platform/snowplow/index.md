@@ -331,11 +331,11 @@ The following environment variables are optional:
 * `LOG_LEVEL`: Sets the logging verbosity (defaults to `DEBUG` if not provided). Allowed values: `[DEBUG|INFO|WARNING|ERROR|CRITICAL]`
 * `DATABASE_PREFIX`: Optional prefix for database objects or connections. If value is not provided, then PROD code is generated (`RAW`, `PREP`, `PROD`). Otherwise, enter prefix for the database name i.e. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`.
 
-![pipeline_editor.png](../handbook/static/images/enterprise-data/snowplow/pipeline_editor.png)
+![pipeline_editor.png](/images/enterprise-data/snowplow/pipeline_editor.png)
 
 The scripts are generated as an artefact and once when it is finished, press download button to get it.
 
-![download_pipeline.png](../handbook/static/images/enterprise-data/snowplow/download_pipeline.png)
+![download_pipeline.png](/images/enterprise-data/snowplow/download_pipeline.png)
 
 ##### Output structure
 
