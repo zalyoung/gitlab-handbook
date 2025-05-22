@@ -18,7 +18,9 @@ In the **Support** section you will have the following tools to select from:
 
 ### Namespace Controls (SaaS)
 
-There are different tabs for namespace control:
+There are different tabs for namespace control. 
+
+> **Important**: Please double check and take note of the Additional computes minutes and Storage **BEFORE** and **AFTER** making the change.
 
 #### Set extra CI minutes
 
