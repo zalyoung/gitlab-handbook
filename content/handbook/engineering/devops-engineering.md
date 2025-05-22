@@ -102,10 +102,10 @@ Development team members should also constantly suggest and investigate how to i
 
 ## Organizational Responsibilities
 
-The core development team is comprised of:
+The DevOps department is comprised of:
 
-- [Dev](/handbook/engineering/development/dev/)
-- [Ops](/handbook/engineering/development/ops/)
+- [Dev](/handbook/engineering/devops/dev/)
+- [Ops](/handbook/engineering/devops/ops/)
 
 ## People Processes
 
@@ -160,7 +160,7 @@ In line with our [guidance on feedback](/handbook/people-group/guidance-on-feedb
 
 ### Talent Assessment Process
 
-Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](/handbook/people-group/talent-assessment/).
+Talent Assessment Process guidelines specific for the DevOps Department is documented in [this handbook page](/handbook/people-group/talent-assessment/).
 
 ### How we hire contractors
 
