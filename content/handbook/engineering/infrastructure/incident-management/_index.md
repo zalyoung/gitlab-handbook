@@ -24,7 +24,7 @@ Incidents are _always_ given immediate attention.
 The goal of incident management is to organize chaos into swift incident
 resolution. To that end, incident management provides:
 
-1. well-defined [roles and responsibilities](#roles-and-responsibilities) and [workflow](#incident-workflow) for members of the incident team,
+1. well-defined [roles and responsibilities](#incident-response-roles) and [workflow](#incident-workflow) for members of the incident team,
 1. control points to manage the flow information and the resolution path,
 1. an incident review where lessons and techniques are extracted and shared
 
@@ -135,7 +135,7 @@ An Incident Responder is anyone who contributes to the technical investigation a
 1. If sources outside of our alerting are reporting a problem, and you have not received any alerts, it is still your responsibility to investigate. [Declare a low severity incident](#reporting-an-incident) and investigate from there.
     1. Low severity ([S3/S4](/handbook/engineering/infrastructure/production/#severity)) incidents (and issues) are cheap, and will allow others a means to communicate their experience if they are also experiencing the issue.
     2. **"No alerts" is not the same as "no problem"**
-6. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as Incident Responder you should [page the IMOC](#how-to-engage-the-eoc-im-or-cmoc) to find a team member with the appropriate expertise. Requesting assistance does not mean relinquishing your responsibility.
+6. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as Incident Responder you should [page the IMOC](#how-to-engage-response-teams) to find a team member with the appropriate expertise. Requesting assistance does not mean relinquishing your responsibility.
 7. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#report-an-incident-via-slack), join the Zoom room for the incident. The Zoom link is in the bookmarks of the relevant incident channel.
     1. GitLab works in an asynchronous manner, but incidents require a synchronous response. Our collective goal is high availability of 99.95% and beyond, which means that the timescales over which communication needs to occur during an incident is measured in seconds and minutes, not hours.
 8. Keep in mind that a GitLab.com incident is not an "infrastructure problem". It is a company-wide issue, and as Incident Responder, you are leading the response on behalf of the company.
@@ -367,7 +367,7 @@ Due to the overhead involved and the risk of detracting from impact mitigation e
 Implementing a direct customer interaction call for an incident is to be initiated by the current Incident Manager by taking these steps:
 
 1. Identify a second Incident Manager who will be dedicated to the customer call. If not already available in the incident, announce the need in #im-general with a message like `/here A second incident manager is required for a customer interaction call for XXX`.
-1. Page the [Infrastructure Leadership pagerduty rotation](#infrastructure-leader) for additional assistance and awareness.
+1. Page the [Infrastructure Leadership pagerduty rotation](#infrastructure-leadership-responsibilities) for additional assistance and awareness.
 1. Identify a Customer Success Manager who will act as the primary CSM and also be dedicated to the customer call. If this role is not clear, also refer to Infrastructure Leadership for assistance.
 1. Request that both of these additional roles join the main incident to come up to speed on the incident history and current status. If necessary to preserve focus on mitigation, this information sharing may be done in another Zoom meeting (which could then also be used for the customer conversation)
 
@@ -613,7 +613,7 @@ There are four data classification levels defined in GitLab's [Data Classificati
 
 The Incident Manager should exercise caution and their best judgement, in general we prefer to use internal notes instead of marking an entire issue confidential if possible.
 A couple lines of non-descript log data may not represent a data security concern, but a larger set of log, query, or other data must have more restrictive access.
-If assistance is required follow the [Infrastructure Liaison Escalation process](#infrastructure-liaison).
+If assistance is required follow the [Infrastructure Liaison Escalation process](#infrastructure-liaison-responsibilities).
 
 ## Incident Workflow
 
