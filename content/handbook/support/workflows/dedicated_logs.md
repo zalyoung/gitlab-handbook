@@ -163,7 +163,9 @@ To find all logs where the HTTP response status code is in the [4xx client error
 - **End of the range**: `499`
 
 ###### Disabling and re-enabling filters
+
 An investigation may lead to a complex collection of filters at play, it can be useful to temporarily disable a filter to change the view of logs.
+
 
 ### Examples
 
