@@ -32,4 +32,4 @@ It is accomplishing this by introducing Cells at the infrastructure layer and Or
 
 ## Projects
 
-1. [Cells Project](cells/_index.md)
+1. [Cells and Organizations project](cells_and_organizations/_index.md)

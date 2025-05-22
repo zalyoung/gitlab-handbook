@@ -137,4 +137,4 @@
 /handbook/engineering/infrastructure/library/* https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/:splat
 
 # Cells project moved - remove 2025-12-22
-/handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells/ 301
+/handbook/engineering/infrastructure/cells/ /handbook/engineering/infrastructure-platforms/tenant-scale/cells_and_organizations/ 301
