@@ -137,7 +137,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 </figure>
 <!-- blank line -->
 
-[Feature change locks](/handbook/engineering/#feature-change-locks)
+[Feature change locks](/handbook/engineering/#development-items)
 
 ## Added past due infradev as a KPI
 
