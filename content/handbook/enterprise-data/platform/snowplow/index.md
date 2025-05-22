@@ -302,10 +302,10 @@ Our snowplow tracking configuration and particular implementations respect the [
 
 We only keep Duo free form feedback for 60 days in snowflake. This is managed by the [duo_data_redaction DAG](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/duo_data_redaction.py), which runs daily, removing contents of the `extendedFeedback` attribute in the `contexts` column for all feedback response Snowplow events in `RAW` and `PREP`. This timeline allows for our full-refresh process to complete, updating all downstream data, within 90 days for compliance.
 
-
 ### Snowplow improvement: SQL scripting for issue fixing
 
 To generate a script the issue, do the following things:
+
 1. Open an issue in the project [snowplow-fix-scripting](https://gitlab.com/gitlab-data/snowplow-fix-scripting)
 2. Open an MR in the same project
 3. Adjust `config.yml` file to adjust your logic.
@@ -321,15 +321,15 @@ The ✏️generate_sql job is a manually triggered job in the GitLab `CI/CD` pip
 
 To run this job successfully, the following environment variables must be set:
 
-- `DATE_FROM`: Start date for the data range to process in the format `YYYY-MM-DD`
-- `DATE_TO`: End date for the data range to process in the format `YYYY-MM-DD`
+* `DATE_FROM`: Start date for the data range to process in the format `YYYY-MM-DD`
+* `DATE_TO`: End date for the data range to process in the format `YYYY-MM-DD`
 
 * Optional Environment Variables
 
 The following environment variables are optional:
 
-- `LOG_LEVEL`: Sets the logging verbosity (defaults to `DEBUG` if not provided). Allowed values: `[DEBUG|INFO|WARNING|ERROR|CRITICAL]`
-- `DATABASE_PREFIX`: Optional prefix for database objects or connections. If value is not provided, then PROD code is generated (`RAW`, `PREP`, `PROD`). Otherwise, enter prefix for the database name i.e. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`.
+* `LOG_LEVEL`: Sets the logging verbosity (defaults to `DEBUG` if not provided). Allowed values: `[DEBUG|INFO|WARNING|ERROR|CRITICAL]`
+* `DATABASE_PREFIX`: Optional prefix for database objects or connections. If value is not provided, then PROD code is generated (`RAW`, `PREP`, `PROD`). Otherwise, enter prefix for the database name i.e. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`.
 
 ![pipeline_editor.png](../handbook/static/images/enterprise-data/snowplow/pipeline_editor.png)
 
