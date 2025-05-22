@@ -126,7 +126,7 @@
 /handbook/engineering/development/incubation/service-desk/ https://docs.gitlab.com/user/project/service_desk/ 301
 
 # Old Infrastructure Department moved - remove 2025-07-30
-/handbook/engineering/infrastructure/alert-playbook-management /handbook/engineering/infrastructure-platforms/alert-playbook-management 301
+/handbook/engineering/infrastructure/alert-playbook-management/ /handbook/engineering/infrastructure-platforms/alert-playbook-management/ 301
 /handbook/engineering/infrastructure/change-management/ /handbook/engineering/infrastructure-platforms/change-management/ 301
 
 # Technical Writing handbook pages - remove 2025-08-05
