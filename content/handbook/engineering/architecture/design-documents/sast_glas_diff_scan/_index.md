@@ -200,13 +200,33 @@ Introduce a new table to track whether a scan is a GLAS diff-based scan. This is
 
 1. Create the partial scan metadata in [StoreScanService](https://gitlab.com/gitlab-org/gitlab/-/blob/fb765f79de756ebe966cbec40b1d196f299d1776/ee/app/services/security/store_scan_service.rb#L10)
 
-### Prepare data for frontend(WIP)
+### Prepare data for frontend
 
-- Check if the GLAS report is a diff-based scan and ensure that fixed vulns are not passed to the frontend.
+#### MR Security Widget
 
-### Frontend Changes(WIP)
+1. Create a new graphql query that returns `enabled_reports`(which refers to the enabled scanners) as well as the partial scan mode.
 
-Identify code to update the `Security Widget` and `Pipeline Security Tab` to present a diff-based scan notice and other UI elements determined by design team.
+- See this [comment](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13575#note_2515558324) for how the query might look like
+- See this [comment](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/13575#note_2520407244) on how `enabled_reports` is currently passed down from the backend to the frontend
+
+#### Pipeline Security Tab
+
+1. Update the [pipelineSecuritySummary graphql query](https://gitlab.com/gitlab-org/gitlab/-/blob/690e8f868bfb04d82d2be8f968dae4472ca1636e/ee/app/assets/javascripts/security_dashboard/graphql/queries/pipeline_security_report_summary.query.graphql) to include the partial scan mode data.
+
+### Frontend Changes
+
+#### MR Security Widget
+
+1. Update [WidgetSecurityReports](https://gitlab.com/gitlab-org/gitlab/-/blob/7cd9395aae0b89c6a0b916c1f8fc2d1f389824a7/ee/app/assets/javascripts/vue_merge_request_widget/widgets/security_reports/mr_widget_security_reports.vue) to call the new graphql query and replace the existing `enabled_reports` data. Also include the new partial scan mode data. 
+
+1. Reference [design issue](https://gitlab.com/gitlab-org/gitlab/-/issues/536041) and implement new UI.
+
+#### Pipeline Security Tab
+
+1. Update the [SecurityReportsSummary](https://gitlab.com/gitlab-org/gitlab/-/blob/57b71b4b0c4b683841a0562cb0b554edd10f0eb9/ee/app/assets/javascripts/security_dashboard/components/pipeline/security_reports_summary.vue)
+to retrieve the updated graphql query containing partial scan mode data.
+
+1. Reference [design issue](https://gitlab.com/gitlab-org/gitlab/-/issues/536041) and implement new UI.
 
 ## GLAS concepts
 
