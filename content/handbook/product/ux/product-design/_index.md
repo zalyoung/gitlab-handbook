@@ -58,6 +58,7 @@ New GitLab Product Designers should refer to the [Product Designer Workflow hand
 ## Product Design Management Workflow
 
 - [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager)
+- [Product Design Manager Pairs](/handbook/product/ux/how-we-work/product-design-manager-pairs/)
 
 ## Learning and Development
 
