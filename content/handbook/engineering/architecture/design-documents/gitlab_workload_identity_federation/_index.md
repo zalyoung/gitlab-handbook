@@ -38,8 +38,8 @@ those principals.
 ## Goals
 
 Add support for GitLab being able to recognize external identities, and to map
-those external indentities onto GitLab principals, by using OIDC identity
-tokens comming from external identity providers.
+those external identities onto GitLab principals, by using OIDC identity
+tokens coming from external identity providers.
 
 ## Requirements
 
