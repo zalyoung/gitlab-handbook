@@ -2,6 +2,9 @@
 title: Setting up external secret storage with Vault
 description: Process outline on how to setup external secrets storage as a secure alternative to environment variables.
 ---
+## Overview
+
+This guide explains how to use HashiCorp Vault as an external secrets manager for your GitLab CI/CD pipelines. Properly managing secrets such as API keys and passwords is critical for maintaining security in your projects.
 
 ## Why Use External Secrets?
 
@@ -20,12 +23,6 @@ Secret exposure from CI job logs can result in security incidents and may qualif
 5. Use file-based secrets for more complex authentication configurations like service account JSON files
 
 ## Using HashiCorp Vault for Secret Management in GitLab CI/CD
-
-## Overview
-
-This guide explains how to use HashiCorp Vault as an external secrets manager for your GitLab CI/CD pipelines. Properly managing secrets such as API keys and passwords is critical for maintaining security in your projects.
-
-## HashiCorp Vault Integration
 
 HashiCorp Vault is one of three [supported](https://docs.gitlab.com/ee/ci/secrets/#supported-secret-providers) external secrets solutions for GitLab:
 
@@ -118,7 +115,44 @@ Note the following:
 
 ### Step 9: Use Secrets in Your Scripts
 
-For Python scripts, you can access the secrets as environment variables:
+Secrets can be used as environment variables: 
+
+For ruby scripts use this:
+
+```ruby
+# check if running in CI and get variables as required
+if ENV['GITLAB_CI']
+  gitlab_token = ENV['GITLAB_TOKEN']
+  
+  # Read just the gitlab url from config.template
+  File.readlines(directory + '/config.template').each do |line|
+    if line.strip.match(/^url=(.+)$/) && url_section
+      gitlab_url = $1
+      break
+    end
+    url_section = true if line.strip == '[gitlab]'
+  end
+else
+  # Read from config.ini
+  gitlab_token = nil
+  gitlab_url = nil
+  url_section = false
+  
+  File.readlines(directory + '/config.ini').each do |line|
+    if line.strip.match(/^token=(.+)$/) && url_section
+      gitlab_token = $1
+    elsif line.strip.match(/^url=(.+)$/) && url_section
+      gitlab_url = $1
+    end
+    url_section = true if line.strip == '[gitlab]'
+  end
+end
+
+headers = { "Private-Token" => gitlab_token }
+```
+
+
+For Python scripts use this: 
 
 ```python
 # check if running in CI and get variables as required
