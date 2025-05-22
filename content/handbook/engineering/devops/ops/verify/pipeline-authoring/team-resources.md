@@ -11,7 +11,7 @@ The goal of this page is to document resources and recommendations for developme
 
 We use a lightweight architecture planning process for new features and significant refactors.
 
-For more details see [the architecture section](/handbook/engineering/development/ops/verify/pipeline-authoring/frontend-architecture/).
+For more details see [the architecture section](/handbook/engineering/devops/ops/verify/pipeline-authoring/frontend-architecture/).
 
 ### CI `camelCase` Capitalization
 

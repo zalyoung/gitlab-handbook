@@ -9,7 +9,7 @@ We use user stories at GitLab to guide our solutions as we create design deliver
 
 ## Runner Fleet user stories mapping
 
-All of our user stories map back to our [Runner JTBDs](/handbook/engineering/development/ops/verify/runner/jtbd/).
+All of our user stories map back to our [Runner JTBDs](/handbook/engineering/devops/ops/verify/runner/jtbd/).
 
 ### Sub-Job: managing the execution of CI jobs
 

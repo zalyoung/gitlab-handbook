@@ -135,7 +135,7 @@ Twice a milestone, on Tuesday we hold a milestone check up meeting, where we eit
 ### Team issue tracker
 
 - We use [team issues tracker](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/general/-/issues) for internal discussions such as: milestone planning issues, events planning, etc...
-- We also use a [special project](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/info/-/issues) for [Ops Section Async Updates](engineering/development/ops/#async-updates-no-status-in-meetings).
+- We also use a [special project](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/info/-/issues) for [Ops Section Async Updates](engineering/devops/ops/#async-updates-no-status-in-meetings).
 - These issues are [public by default](/handbook/values/#public-by-default), but can be confidential.
 
 ### Issue refinement
@@ -443,7 +443,7 @@ Within the Environments group we use the following processes and best practices 
 
 ### End to End Testing
 
-The Environments group uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) for End-to-End testing. We have [guidelines](/handbook/engineering/development/ops/deploy/environments/quality) for how our team is leveraging these tests.
+The Environments group uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) for End-to-End testing. We have [guidelines](/handbook/engineering/devops/ops/deploy/environments/quality) for how our team is leveraging these tests.
 
 ### gitlab-agent QA bot
 
@@ -522,7 +522,7 @@ More specifically, the following points are important:
 
 ### Monthly Showcases DRI
 
-We participate in the [OPS showcase initiative](/handbook/engineering/development/ops/#ops-engineering-showcase), to facilitate the selection of topics, the creation of the issues and content we have a Showcase DRI which will:
+We participate in the [OPS showcase initiative](/handbook/engineering/devops/ops/#ops-engineering-showcase), to facilitate the selection of topics, the creation of the issues and content we have a Showcase DRI which will:
 
 - Ensure every month at least a showcase issue is created and linked in the right issues/epic
 - Facilitate the selection of the topic of each showcase, paying attention to give space to everyone in the team
@@ -546,7 +546,7 @@ Follow the guidance in our [request for help documentation](https://gitlab.com/g
 ### How to contribute to Auto DevOps
 
 Read our [specific GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/tree/main/doc/howto/kubernetes)
-instructions as well as our [handbook entry](/handbook/engineering/development/ops/deploy/environments/autodevops/)
+instructions as well as our [handbook entry](/handbook/engineering/devops/ops/deploy/environments/autodevops/)
 on what existing testing does and how to develop features for Auto DevOps.
 
 ### Useful links for contributing to Auto DevOps

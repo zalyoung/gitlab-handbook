@@ -49,7 +49,7 @@ This list may seem long, but for smaller changes, they should be able to be addr
 
 #### Base Assumptions For All Architectures
 
-- We'll follow our other guidelines, both at the department level and those outlined in the [team resources page](/handbook/engineering/development/ops/verify/pipeline-authoring/team-resources/).
+- We'll follow our other guidelines, both at the department level and those outlined in the [team resources page](/handbook/engineering/devops/ops/verify/pipeline-authoring/team-resources/).
 - We will use Apollo and GraphQL for our data fetching and state handling needs.
 - Using data structures that are identical to current data structures whenever possible is a good plan. While we do process a fair amount of data on the frontend, adding exceptions within that processing to deal with slight variations on that data is best avoided.
 - We will use the `reportFailure` error pattern as used in, for instance, `app/assets/javascripts/pipelines/components/graph/graph_component_wrapper.vue` or `app/assets/javascripts/pipelines/components/dag/dag.vue` to handle our errors.

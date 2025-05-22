@@ -11,16 +11,16 @@ The Ops Sub-department is composed of development teams working on Verify, Packa
 
 The following teams comprise the Ops sub-department:
 
-- Verify stage - [handbook](/handbook/engineering/development/ops/verify/)
-  - Pipeline Execution - [handbook](/handbook/engineering/development/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
-  - Pipeline Authoring - [handbook](/handbook/engineering/development/ops/verify/pipeline-authoring/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
-  - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), [jtbd](/handbook/engineering/development/ops/verify/runner/jtbd/)
-  - CI Platform - [handbook](/handbook/engineering/development/ops/verify/ci-platform/)
-- Package stage - [handbook](/handbook/engineering/development/ops/package/), [jtbd](/handbook/engineering/development/ops/package/jtbd/)
-  - Container Registry - [handbook](/handbook/engineering/development/ops/package/)
-  - Package Registry - [handbook](/handbook/engineering/development/ops/package/)
+- Verify stage - [handbook](/handbook/engineering/devops/ops/verify/)
+  - Pipeline Execution - [handbook](/handbook/engineering/devops/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/devops/ops/verify/pipeline-execution/jtbd/)
+  - Pipeline Authoring - [handbook](/handbook/engineering/devops/ops/verify/pipeline-authoring/), [jtbd](/handbook/engineering/devops/ops/verify/pipeline-authoring/jtbd/)
+  - Runner - [handbook](/handbook/engineering/devops/ops/verify/runner/), [jtbd](/handbook/engineering/devops/ops/verify/runner/jtbd/)
+  - CI Platform - [handbook](/handbook/engineering/devops/ops/verify/ci-platform/)
+- Package stage - [handbook](/handbook/engineering/devops/ops/package/), [jtbd](/handbook/engineering/devops/ops/package/jtbd/)
+  - Container Registry - [handbook](/handbook/engineering/devops/ops/package/)
+  - Package Registry - [handbook](/handbook/engineering/devops/ops/package/)
 - Deploy stage
-  - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
+  - Environments - [handbook](/handbook/engineering/devops/ops/deploy/environments/), jtbd
 
 ## Product Direction
 
@@ -113,7 +113,7 @@ With the IT landscape rapidly changing with explorations in emerging technologie
 
 Planning processes followed by teams in the Sub-department:
 
-- [General Ops Sub-department Planning Process](/handbook/engineering/development/ops/general-planning/)
+- [General Ops Sub-department Planning Process](/handbook/engineering/devops/ops/general-planning/)
 
 ### Forced Priority planning/scheduling
 
@@ -207,7 +207,7 @@ We plan to trial this optional process in Ops during Q1FY25. Progress and establ
 
 ## Ops Hiring process
 
-We have limited capacity in the recruiting team so hiring managers are experimenting with the [Ops Hiring process](/handbook/engineering/development/ops/hiring-process/).  We also hold a weekly hiring manager sync meeting (see Meetings section).
+We have limited capacity in the recruiting team so hiring managers are experimenting with the [Ops Hiring process](/handbook/engineering/devops/ops/hiring-process/).  We also hold a weekly hiring manager sync meeting (see Meetings section).
 
 ## Objectives & Key Results (OKRs)
 
@@ -220,7 +220,7 @@ We have limited capacity in the recruiting team so hiring managers are experimen
 
 ### Tracking and completing OKRs
 
-- Tracking [quarterly OKRs for Ops Engineering](/handbook/engineering/development/ops/quarterly-okrs/) groups.
+- Tracking [quarterly OKRs for Ops Engineering](/handbook/engineering/devops/ops/quarterly-okrs/) groups.
 - DRIs are expected to score OKRs on a regular basis, at least monthly, if possible.
 - At the end of the quarter, DRIs can add a retrospective as a comment to reflect on the progress of their KR, in the following format:
 
@@ -243,30 +243,30 @@ Key projects will be listed in the table below:
 
 | Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                         | [Tech Leads](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role)                  |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------| --------------------------- |
-| CI Data Partitioning                          | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-data-partitioning/)                                   | Caroline Simpson            | Marius Bobin                |
-| CI Primary Key Conversion                     | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-pk-conversion/)                                       | Drew Stachon / Caroline Simpson | Tianwen Chen            |
-| Container Registry v2 Self-Managed            | [Project plan](/handbook/engineering/development/ops/project-plans/container-registry-v2/)                                                            | Crystal Poole               | Hayley Swimelar             |
-| CI Secrets Management                         | [Project plan](/handbook/engineering/development/ops/project-plans/secrets-manager/)                                                                  | Scott Hampton               | Albert Salim                |
-| Cluster Web Terminal                          | [Project plan](/handbook/engineering/development/ops/project-plans/cluster-web-terminal/)                                                             | Nicolò Maria Mezzopera      |                             |
-| Kubernetes Dashboard                          | [Project plan](/handbook/engineering/development/ops/project-plans/k8s-dashboard/)                                                                    | Nicolò Maria Mezzopera      |                             |
-| Autoscaling for GitLab Runner                 | [Project Plan](/handbook/engineering/development/ops/verify/runner/project-plans/#autoscaling-provider-for-gitLab-runner-to-replace-docker-machine)   | Nicole Williams             |                             |
-| Dedicated SaaS Runners For GitLab Dedicated   | [Project Plan](/handbook/engineering/development/ops/verify/runner/project-plans/#dedicated-saas-runners-for-gitlab-dedicated)                        | Nicole Williams             |                             |
-| CI Steps                                      | [Project plan](/handbook/engineering/development/ops/verify/project-plans/ci-steps/)                                                                  | Kamil Trzciński / Cheryl Li | Joe Burnett              |
+| CI Data Partitioning                          | [Project plan](/handbook/engineering/devops/ops/verify/pipeline-execution/project-plans/ci-data-partitioning/)                                   | Caroline Simpson            | Marius Bobin                |
+| CI Primary Key Conversion                     | [Project plan](/handbook/engineering/devops/ops/verify/pipeline-execution/project-plans/ci-pk-conversion/)                                       | Drew Stachon / Caroline Simpson | Tianwen Chen            |
+| Container Registry v2 Self-Managed            | [Project plan](/handbook/engineering/devops/ops/project-plans/container-registry-v2/)                                                            | Crystal Poole               | Hayley Swimelar             |
+| CI Secrets Management                         | [Project plan](/handbook/engineering/devops/ops/project-plans/secrets-manager/)                                                                  | Scott Hampton               | Albert Salim                |
+| Cluster Web Terminal                          | [Project plan](/handbook/engineering/devops/ops/project-plans/cluster-web-terminal/)                                                             | Nicolò Maria Mezzopera      |                             |
+| Kubernetes Dashboard                          | [Project plan](/handbook/engineering/devops/ops/project-plans/k8s-dashboard/)                                                                    | Nicolò Maria Mezzopera      |                             |
+| Autoscaling for GitLab Runner                 | [Project Plan](/handbook/engineering/devops/ops/verify/runner/project-plans/#autoscaling-provider-for-gitLab-runner-to-replace-docker-machine)   | Nicole Williams             |                             |
+| Dedicated SaaS Runners For GitLab Dedicated   | [Project Plan](/handbook/engineering/devops/ops/verify/runner/project-plans/#dedicated-saas-runners-for-gitlab-dedicated)                        | Nicole Williams             |                             |
+| CI Steps                                      | [Project plan](/handbook/engineering/devops/ops/verify/project-plans/ci-steps/)                                                                  | Kamil Trzciński / Cheryl Li | Joe Burnett              |
 
 ### Completed Projects
 
 | Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                       | Tech Leads                | Completed |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------| --------------------------| ------- |
-| CI/CD Catalog                                 | [Project plan](/handbook/engineering/development/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                  | Laura Montemayor and Avielle Wolfe | FY25-Q1 |
-| Merge Train Improvements (Fast-Foward Support)| [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/merge-trains/) | Caroline Simpson | Allison Browne, Hordur Yngvason | FY24-Q4 |
-| O11y Distributed Tracing | [Project plan](/handbook/engineering/development/ops/monitor/observability/#weekly-project-plan) | Nicholas Klick | | FY24-Q4 |
-| GCP Secrets Integration | [Project plan](/handbook/engineering/development/ops/project-plans/gcp-secrets-integration/) | Scott Hampton | Albert Salim | FY24-Q4 |
+| CI/CD Catalog                                 | [Project plan](/handbook/engineering/devops/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                  | Laura Montemayor and Avielle Wolfe | FY25-Q1 |
+| Merge Train Improvements (Fast-Foward Support)| [Project plan](/handbook/engineering/devops/ops/verify/pipeline-execution/project-plans/merge-trains/) | Caroline Simpson | Allison Browne, Hordur Yngvason | FY24-Q4 |
+| O11y Distributed Tracing | [Project plan](/handbook/engineering/devops/ops/monitor/observability/#weekly-project-plan) | Nicholas Klick | | FY24-Q4 |
+| GCP Secrets Integration | [Project plan](/handbook/engineering/devops/ops/project-plans/gcp-secrets-integration/) | Scott Hampton | Albert Salim | FY24-Q4 |
 
 ### Key Project Planning
 
 Projects which are listed as key projects should create these project planning artifacts:
 
-#### Project Plan in the handbook under `/engineering/development/ops/project-plans/<project_name>/index.html.md.erb`
+#### Project Plan in the handbook under `/engineering/devops/ops/project-plans/<project_name>/index.html.md.erb`
 
 Since the project plan is stored in the handbook it is easy to track changes in the project plan and see how it evolves over time.
 

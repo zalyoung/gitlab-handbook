@@ -49,7 +49,7 @@ The Verify Pipeline teams focused on the following Engineering-led initiatives, 
 1. Security vulnerabilities and infradev issues related to SaaS availability
 1. S1/S2 bug burndown of Categories that do not have planned feature development for FY24.
     1. Note that this also includes the `Continuous Integration` category, which has the biggest backlog of bugs in Verify.  While it may be considered to be "Maintenance" (no new feature development planned), this work remains critical in ensuring we keep GitLab CI performant and reliable.
-    1. [Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/) owns the `Continuous Integration` category. The team is also the DRI for CI Data Partitioning and Pipeline speed improvement efforts.
+    1. [Pipeline Execution](/handbook/engineering/devops/ops/verify/pipeline-execution/) owns the `Continuous Integration` category. The team is also the DRI for CI Data Partitioning and Pipeline speed improvement efforts.
 
 ### FY23
 
@@ -66,13 +66,13 @@ We take ownership of the things we build, with a focus on stability and availabi
 
 The Verify stage is made up of 5 groups:
 
-1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
+1. [Verify:Pipeline Authoring](/handbook/engineering/devops/ops/verify/pipeline-authoring/)
 
-1. [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
+1. [Verify:Pipeline Execution](/handbook/engineering/devops/ops/verify/pipeline-execution/)
 
-1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
+1. [Verify:Runner](/handbook/engineering/devops/ops/verify/runner/)
 
-1. [Verify:CI Platform](/handbook/engineering/development/ops/verify/ci-platform/)
+1. [Verify:CI Platform](/handbook/engineering/devops/ops/verify/ci-platform/)
 
 ### Verify:Pipeline Authoring
 
@@ -104,9 +104,9 @@ The Verify stage is made up of 5 groups:
 
 A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework, or lens, for viewing products and solutions in terms of the jobs customers are trying to achieve.
 
-* [Verify:Pipeline Execution JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
-* [Verify:Pipeline Authoring JTBD](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
-* [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/)
+* [Verify:Pipeline Execution JTBD](/handbook/engineering/devops/ops/verify/pipeline-execution/jtbd/)
+* [Verify:Pipeline Authoring JTBD](/handbook/engineering/devops/ops/verify/pipeline-authoring/jtbd/)
+* [Verify:Runner JTBD](/handbook/engineering/devops/ops/verify/runner/jtbd/)
 
 ### Developer Onboarding in Verify
 
@@ -192,7 +192,7 @@ Some of the noted benefits include reduced time spent in sync meetings, allowing
 
 ### Current (2022 onward)
 
-As of June 2022, async issue updates are created weekly at the stage level and for each of the groups within the stage, following the [Ops section process of async updates](/handbook/engineering/development/ops/#weekly-async-updates-no-status-in-meetings).  Contributions will be added by Principal+ Engineers, Engineering Managers, and the Senior Engineering Manager of the Verify stage.
+As of June 2022, async issue updates are created weekly at the stage level and for each of the groups within the stage, following the [Ops section process of async updates](/handbook/engineering/devops/ops/#weekly-async-updates-no-status-in-meetings).  Contributions will be added by Principal+ Engineers, Engineering Managers, and the Senior Engineering Manager of the Verify stage.
 
 ### 2020-2021
 

@@ -220,7 +220,7 @@ To avoid rework we reach out to other teams early when working on the following 
 
 | Team | Domain overlap |
 | ---  | ---    |
-| [Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/) | GitLab Pages [.gitlab-ci.yml syntax](https://docs.gitlab.com/ee/ci/yaml/) |
+| [Pipeline Authoring](/handbook/engineering/devops/ops/verify/pipeline-authoring/) | GitLab Pages [.gitlab-ci.yml syntax](https://docs.gitlab.com/ee/ci/yaml/) |
 
 ## Dashboards
 

@@ -87,4 +87,4 @@ The CI Scaling group supports the feature categories described below:
 
 ## Developer Onboarding
 
-Refer to the [Developer Onboarding in Verify](/handbook/engineering/development/ops/verify/#developer-onboarding-in-verify) section.
+Refer to the [Developer Onboarding in Verify](/handbook/engineering/devops/ops/verify/#developer-onboarding-in-verify) section.

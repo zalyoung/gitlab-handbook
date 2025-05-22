@@ -294,7 +294,7 @@ For those new to the team, these links may be helpful in learning more about the
 
 ### Cross-functional prioritisation
 
-The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-execution/#merged-merge-request-types) which shows the % of MRs that are [bugs](https://gitlab.com/groups/gitlab-org/-/boards/4439443?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Abug) vs [maintenance](https://gitlab.com/groups/gitlab-org/-/boards/4439961?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Amaintenance) vs [features](https://gitlab.com/groups/gitlab-org/-/boards/4440070?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Afeature) to ensure the team's efforts are properly aligned to the prioritisation.
+The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/devops/ops/verify/pipeline-execution/#merged-merge-request-types) which shows the % of MRs that are [bugs](https://gitlab.com/groups/gitlab-org/-/boards/4439443?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Abug) vs [maintenance](https://gitlab.com/groups/gitlab-org/-/boards/4439961?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Amaintenance) vs [features](https://gitlab.com/groups/gitlab-org/-/boards/4440070?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Afeature) to ensure the team's efforts are properly aligned to the prioritisation.
 
 ## How We Work
 
@@ -675,7 +675,7 @@ Note: A good practice when only wanting to inform rather than requesting a direc
 
 #### UX Scorecards
 
-A top priority for us is usability, and one way to effectively evaluate our [JTBDs](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/) is with periodic [UX Scorecards](/handbook/product/ux/ux-scorecards/). For technical tasks that require infrastructure support, such as a functional cluster or provisioned environment with a `.gitlab-ci.yml` file, the Product Designer and the Product Manager can work with the Engineering Manager and Quality stable counterparts to craft a project based on the scenarios to test for the JTBDs. Some guidelines for working together in this case:
+A top priority for us is usability, and one way to effectively evaluate our [JTBDs](/handbook/engineering/devops/ops/verify/pipeline-execution/jtbd/) is with periodic [UX Scorecards](/handbook/product/ux/ux-scorecards/). For technical tasks that require infrastructure support, such as a functional cluster or provisioned environment with a `.gitlab-ci.yml` file, the Product Designer and the Product Manager can work with the Engineering Manager and Quality stable counterparts to craft a project based on the scenarios to test for the JTBDs. Some guidelines for working together in this case:
 
 - Be sure to schedule *at least* a full milestone in advance, so there is enough lead time for the stable counterparts
 - Create an overall epic and add issues for task tracking for infrastructure creation
@@ -699,7 +699,7 @@ Suppose working one milestone ahead to design the big solution is not possible. 
 
 - Ideally, Product Management and Product Designers aim to work 3 months in advance of Engineering proposals to ensure the problem definition and solution has been adequately validated prior to building. See [Validation track](/handbook/product-development/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
 - the Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement, we can move it to the [Solution Validation phase](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation).
-- If it is taking more than a week to understand and investigate the technical feasibility for the design solution, update the workflow label to `~workflow::blocked` and change the assignee to engineering DRIs until the technical discussion is resolved. If the discussion is expected to go on longer, reducing the chances of the design solution being delivered in the intended milestone, consider creating [a spike issue](/handbook/engineering/development/ops/verify/pipeline-execution/#spikes) for the discussion that blocks the current issue.
+- If it is taking more than a week to understand and investigate the technical feasibility for the design solution, update the workflow label to `~workflow::blocked` and change the assignee to engineering DRIs until the technical discussion is resolved. If the discussion is expected to go on longer, reducing the chances of the design solution being delivered in the intended milestone, consider creating [a spike issue](/handbook/engineering/devops/ops/verify/pipeline-execution/#spikes) for the discussion that blocks the current issue.
 - Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development/product-development-flow/#build-track) to avoid unplanned changes.
 
 ### Collaborating with the Wider Community on Community Merge Requests
@@ -725,7 +725,7 @@ lists some ways we work to deliver tests in a painless and efficient way.
 
 #### Plan ahead
 
-We aim to define needed tests early with [Quad-planning](/handbook/engineering/development/ops/verify/pipeline-authoring/#quad-planning).
+We aim to define needed tests early with [Quad-planning](/handbook/engineering/devops/ops/verify/pipeline-authoring/#quad-planning).
 All the testing should be defined before the implementation starts and all parties should agree on:
 
 - What type of test coverage is needed.
@@ -738,7 +738,7 @@ All the testing should be defined before the implementation starts and all parti
 
 When writing a new feature, we might need to write new E2E specs. In Pipeline Execution, we prefer
 to add E2E tests in separate MRs, the same way we prefer frontend and backend MRs to be separate.
-During [Quad-planning](/handbook/engineering/development/ops/verify/pipeline-authoring/#quad-planning), it is essential
+During [Quad-planning](/handbook/engineering/devops/ops/verify/pipeline-authoring/#quad-planning), it is essential
 to determine whether that separate MR is required for the feature to ship or not. Given that we use feature flags for all
 new features, it is quite easy to work in separate MRs and turn on the flag when the team feels the feature has enough coverage
 for production use. A typical full stack feature can therefore involve multiple backend MRs, then frontend MRs, and finally
@@ -790,7 +790,7 @@ When creating a follow-up issue for required tests:
 
 ### Bugs
 
-As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-deferred-ux). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/infrastructure/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/).
+As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-deferred-ux). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/infrastructure/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/devops/ops/verify/pipeline-execution/jtbd/).
 
 ### Features
 
@@ -853,7 +853,7 @@ Note that multiple factors can exist at once. In that case use your judgment to 
 
 ### Risk Mapping
 
-To better understand the risk environment and each risk's causes and consequences, the Pipeline Execution team uses the [Risk Map](/handbook/engineering/development/ops/verify/pipeline-execution/risk-map/) as our risk management tool to prioritise mitigation strategies and increase Quality.
+To better understand the risk environment and each risk's causes and consequences, the Pipeline Execution team uses the [Risk Map](/handbook/engineering/devops/ops/verify/pipeline-execution/risk-map/) as our risk management tool to prioritise mitigation strategies and increase Quality.
 
 ### Retrospectives
 
@@ -865,4 +865,4 @@ To better understand the risk environment and each risk's causes and consequence
 
 ## Developer Onboarding
 
-Refer to the [Developer Onboarding in Verify](/handbook/engineering/development/ops/verify/#developer-onboarding-in-verify) section.
+Refer to the [Developer Onboarding in Verify](/handbook/engineering/devops/ops/verify/#developer-onboarding-in-verify) section.

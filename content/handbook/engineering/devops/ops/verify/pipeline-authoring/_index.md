@@ -24,7 +24,7 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 
 ### Team Resources
 
-- [Team Resources](/handbook/engineering/development/ops/verify/pipeline-authoring/team-resources/)
+- [Team Resources](/handbook/engineering/devops/ops/verify/pipeline-authoring/team-resources/)
 - [Workflow board: `~group::pipeline authoring`](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started)
 
 ### Videos
@@ -174,7 +174,7 @@ The table below briefly outlines the objectives and key details of regular team 
 
 ### Cross-functional prioritisation
 
-UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation.
+UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/devops/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation.
 
 ### Design Collaboration
 
@@ -320,4 +320,4 @@ Instructions on how to integrate with the `Verify:Pipeline Authoring` calendar c
 
 ## Developer Onboarding
 
-Refer to the [Developer Onboarding in Verify](/handbook/engineering/development/ops/verify/#developer-onboarding-in-verify) section.
+Refer to the [Developer Onboarding in Verify](/handbook/engineering/devops/ops/verify/#developer-onboarding-in-verify) section.
