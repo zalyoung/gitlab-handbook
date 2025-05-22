@@ -311,7 +311,7 @@ To generate a script the issue, do the following things:
 3. Adjust `config.yml` file to adjust your logic.
 4. Run the pipeline  📚scripting -> ✏️generate_sql in MR
 
-    ![generate_sql_pipeline.png](../../../../../static/images/enterprise-data/snowplow/generate_sql_pipeline.png)
+    ![generate_sql_pipeline.png](/images/enterprise-data/snowplow/generate_sql_pipeline.png)
 
 #### Pipeline ✏️generate_sql
 
