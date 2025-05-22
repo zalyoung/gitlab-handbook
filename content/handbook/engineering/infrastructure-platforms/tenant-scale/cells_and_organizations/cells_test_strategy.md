@@ -77,11 +77,11 @@ Organizations provides the capability for a company to have the ability to bette
 
 ### Router
 
-The [HTTP Router definition](../../architecture/design-documents/cells/topology_service.md) and the [SSH Router definition](../../architecture/design-documents/cells/ssh_routing_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. The [Multiple Cells](#multiple-cells) testing will also cover the RouterHowever there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. Router level tests will also be covered in the [Multiple Cells tests](#multiple-cells).
+The [HTTP Router definition](/handbook/engineering/architecture/design-documents/cells/topology_service.md) and the [SSH Router definition](/handbook/engineering/architecture/design-documents/cells/ssh_routing_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since it will be run through the Router. The [Multiple Cells](#multiple-cells) testing will also cover the RouterHowever there will need to be additional tests written to verify Router functionality (i.e. that a request gets routed to the correct cell). How much of that testing needs to be done at the Unit/Integration/E2E level will be determined. Router level tests will also be covered in the [Multiple Cells tests](#multiple-cells).
 
 ### Topology Service
 
-The [Topology Service Blueprint definition](../../architecture/design-documents/cells/topology_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined.
+The [Topology Service Blueprint definition](/handbook/engineering/architecture/design-documents/cells/topology_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined.
 
 ### Pre-QA Cell
 
