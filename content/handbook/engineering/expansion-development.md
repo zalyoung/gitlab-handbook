@@ -329,7 +329,7 @@ The shared services and components below are extracted from the GitLab [product 
 
 ## Learning Resources
 
-For a list of resources and information on our GitLab Learn channel for Development, consult [this page](/handbook/engineering/development/training/).
+For a list of resources and information on our GitLab Learn channel for Development, consult [this page](/handbook/engineering/training/).
 
 ## Continuous Delivery, Infrastructure and Quality Collaboration
 
