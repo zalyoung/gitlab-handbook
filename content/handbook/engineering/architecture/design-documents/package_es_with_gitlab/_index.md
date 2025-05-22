@@ -32,6 +32,8 @@ This initiative will benefit existing and new customers by removing adoption bar
 
 ## Motivation
 
+The motivation for this work is to establish Elasticsearch as the standard data store for search, filtering, and vector operations across GitLab. By improving the percentage of instances using Elasticsearch, we give feature teams the best opportunity to reach the most self-managed customers with performant, feature-rich experiences.
+
 ### Problem Statement
 
 GitLab features increasingly require scalable data storage solutions that go beyond PostgreSQL's capabilities, particularly for search and filtering, AI, and data-intensive operations. Despite numerous evaluations of potential solutions, we've reached a fragmented state where:
@@ -48,32 +50,20 @@ Industry competitors like GitHub provide more integrated search experiences out-
 
 ### Opportunities
 
-1. **Unified Feature Development**: Teams can build on a common foundation rather than maintaining compatibility with multiple data stores
-2. **Improved User Experience**: More consistent feature availability across all deployment types
+1. **Improved User Experience**: More consistent feature availability across all deployment types
+2. **Unified Feature Development**: Teams can build on a common foundation rather than maintaining compatibility with multiple data stores
 3. **Reduced Database Load**: Offloading search and filtering operations from PostgreSQL
 4. **Enhanced AI Capabilities**: Native support for vector embeddings enables next-generation AI features
 5. **Competitive Parity**: Closing the gap with competitors who offer integrated search experiences
-6. **Simplified Infrastructure**: Standardized components reduce maintenance complexity
-
-### Benefits to Users
-
-- **Self-Managed Customers**: Simplified setup with integrated Elasticsearch
-- **GitLab Administrators**: Reduced operational complexity with packaged solution
-- **End Users**: Access to more powerful search and AI features
-- **Development Teams**: Increased productivity with better search capabilities
-- **Feature Teams**: Broader audience for features powered by Advanced search
-
-The motivation for this work is to establish Elasticsearch as the standard data store for search, filtering, and vector operations across GitLab. By improving the percentage of instances using Elasticsearch, we give feature teams the best opportunity to reach the most self-managed customers with performant, feature-rich experiences.
+6. **Simplified Infrastructure**: Standardized components reduce operational and maintenance complexity
 
 ### Goals
 
 - Increase adoption of Elasticsearch on self managed instances
-- Improve search experience for users across all GitLab
 
 ### Non-Goals
 
 - Convert instances using OpenSearch to switch to Elasticsearch
-- Force Elasticsearch on instances that don't need it
 - Remove support for existing external Elasticsearch configurations
 - Replace other vector database solutions for specialized use cases
 - Address all scaling challenges in PostgreSQL
@@ -82,59 +72,32 @@ The motivation for this work is to establish Elasticsearch as the standard data 
 
 We propose to package Elasticsearch with GitLab distribution through the following key initiatives:
 
-1. **Sizing and configuration for all instance sizes**:
-   - Configuration for GitLab, including but not limited to number of nodes and [shard sizing](https://www.elastic.co/docs/deploy-manage/production-guidance/optimize-performance/size-shards)
-   - Performance optimizations for Elasticsearch
-   - [Resiliancy and high availability](https://www.elastic.co/docs/deploy-manage/production-guidance/availability-and-resilience)
-   - Upgrades
+1. **Elasticsearch sizing and configuration**:
+   - Configuration and performance optimizations
+   - Resiliancy and high availability
+   - Support for upgrades
+   - Update reference architecture and documentation to include Elasticsearch instance sizing
+   - Include Elasticsearch as an optional component in all GitLab installation methods
 
 2. **Improved configuration automation**:
-   - Streamline Elasticsearch index configuration for GitLab with sensible defaults
-   - Automate common setup tasks to reduce administrator burden
+   - Automate Elasticsearch index configuration for GitLab with sensible defaults
+   - [Automate maintenance tasks](https://gitlab.com/groups/gitlab-org/-/epics/15888) for existing indexes
    - Expand existing health checks and self-healing capabilities to include connectivity checks
-
-3. **Reference architecture updates**:
-   - Update reference architecture guides to include Elasticsearch instance sizing
-   - Provide specific hardware recommendations for different instance sizes
-   - Document best practices for resource allocation
-
-4. **Installation option for all deployment types**:
-   - Include Elasticsearch as an optional component in all GitLab installation methods
-   - Provide clear documentation for enabling and configuring Elasticsearch
-   - Ensure compatibility with existing external Elasticsearch installations
-
-### Implementation Approaches
-
-Several potential implementation approaches to consider:
-
-1. **Full Packaging**: Include Elasticsearch directly in omnibus and K8S deliverable packages
-   - Elasticsearch core is [open source under the AGPL license](https://www.elastic.co/about/open-source)
-   - Would provide most seamless experience for users
-
-2. **Installation Script**: Include scripts in GitLab's distribution that facilitate downloading and installing Elasticsearch
-   - Would reduce package size
-   - Might be more complex for users
-
-3. **Prompt-based Installation**: Prompt users to install Elasticsearch when they try to use features that require it
-   - Requires lowest implementation effort
-   - Less proactive, may lead to feature discovery issues
-
-Based on preliminary discussions, the full packaging approach appears to offer the best balance of user experience and implementation feasibility, but further evaluation is needed before making a final decision.
 
 ## Design and Implementation Details
 
 ### Technical Approach
 
-For the initial implementation, we propose to include Elasticsearch core  version with GitLab's distribution packages, with the following considerations:
+For the initial implementation, we propose to include Elasticsearch core version with GitLab's distribution packages, with the following considerations:
 
 1. **Packaging Method Considerations**:
    - For Omnibus: Bundle Elasticsearch as a configurable component
    - For Kubernetes: Leveraging the [cloud-on-k8s](https://github.com/elastic/cloud-on-k8s) project
    - For Docker: Include Elasticsearch in the standard docker-compose setup
+   - For GET: Include Elasticsearch as a configurable component
 
 2. **Version Selection**:
    - Include Elasticsearch version 8.12+ to support hybrid search capabilities
-   - Elasticsearch core is open source under the AGPL license
    - The latest versions have non-trivial cost savings and performance improvements for embeddings storage
    - **Implementation Note**: Elasticsearch Docker Hub images bundle both core and enterprise code, with the latter activated by default for a 30-day trial. As part of this work, we'll need to modify CI configurations to explicitly use only the core functionality.
 
@@ -142,15 +105,7 @@ For the initial implementation, we propose to include Elasticsearch core  versio
    - Default to a minimal configuration suitable for small instances
    - Provide configuration templates for different instance sizes
    - Implement automatic scaling parameters based on instance characteristics
-   - Isolate resources to prevent ES from impacting GitLab performance
-
-### Self-Managed Considerations
-
-For self-managed customers, the primary challenges are:
-
-- Infrastructure Requirements: Adding new components like Elasticsearch increases complexity
-- Architecture Requirements: Elasticsearch in production environment require different configuration and operational settings dependent upon instance size
-- Airgapped Support: Providing options for customers in airgapped environments
+   - In single server implementations, configure resources to prevent Elasticsearch from impacting GitLab performance
 
 ### Package Size and Performance Considerations
 
