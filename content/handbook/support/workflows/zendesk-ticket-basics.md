@@ -90,7 +90,12 @@ selected for the ticket, you might need to fill out some ticket fields manually.
 As a high percentage of our tickets are solved or closed automatically through
 our workflows, it is important to begin your work on a ticket by setting
 appropriate values in all of the required (*) fields and relevant non-required
-fields.
+fields. Some examples:
+
+- GitLab Issues
+- Runner Version
+- GitLab Install Type
+- Type of Reference Architecture
 
 ## Adding CCs to a ticket
 
