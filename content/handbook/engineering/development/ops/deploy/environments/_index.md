@@ -555,7 +555,7 @@ on what existing testing does and how to develop features for Auto DevOps.
 - [Useful Commands](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/useful_commands.md)
 - [How to work with slow connections](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/tips_and_troubleshooting.md#qa)
 - [Enabling premium features for development purposes](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses)
-- [Thanos query for complete Auto DevOps pipelines](https://thanos-query.ops.gitlab.net/graph?g0.range_input=2d&g0.max_source_resolution=0s&g0.expr=sum(increase(auto_devops_pipelines_completed_total%7Benv%3D%22gprd%22%7D%5B6h%5D))%20by%20(status)&g0.tab=0)
+- [Grafana query for complete Auto DevOps pipelines](https://dashboards.gitlab.net/goto/Jn7bY_aHg?orgId=1)
 
 ### Shared Cloud Infrastructure
 

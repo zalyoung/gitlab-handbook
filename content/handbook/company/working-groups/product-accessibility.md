@@ -30,7 +30,6 @@ This Working Group has the following goals:
 1. Compile a comprehensive list of known accessibility violations.
 1. Develop and implement a plan for addressing accessibility violations, including evaluation plan/process and tooling.
 1. Identify and bridge the gaps in accessibility frontend guide.
-1. Validate existing issues regarding accessibility.
 1. Plan for internal training.
 
 #### Exit Criteria Progress
@@ -42,7 +41,6 @@ This Working Group has the following goals:
 | [Compile a comprehensive list of known accessibility violations](https://gitlab.com/groups/gitlab-org/-/epics/16378)          | 19-10-2024 | 03-01-2025     | 100%     | `@tauriedavis`  |
 | [Develop and implement a plan for addressing accessibility violations, including evaluation plan/process and tooling](https://gitlab.com/gitlab-org/gitlab/-/issues/497785) | 04-10-2024 |                | 0%       | `@you?`         |
 | [Identify and bridge the gaps in accessibility frontend guide.](https://gitlab.com/gitlab-org/gitlab/-/issues/419777)         | 12-10-2023 | 27-02-2025     | 100%     | `@psjakubowska` |
-| Validate existing issues regarding accessibility.                                                                             | 08-10-2024 |                | 0%       | `@deepika.guliani`         |
 | [Plan for internal training](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/68) | 29-02-2024 |                | 100%     | `@jeldergl`     |
 
 ### Roles and Responsibilities

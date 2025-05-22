@@ -238,12 +238,26 @@ The New Logo Team is a specialized sales team within GitLab's High Velocity Sale
 - **Team Members**: 4 New Logo AEs, 4 BDRs, and 1 ASM
 - **Launch Date**: May 1, 2025
 
+**Team Mission**
+
+- We are the painters of GitLab's unified DevSecOps vision, guiding prospects on transformative journeys to accelerate business results and  the value they deliver to their customers.
+- We are the architects of GitLab's future growth, planting the seeds today that will flourish for decades to come. Every new logo we secure today becomes tomorrow's expansion opportunity and advocacy story.
+
 **Team Vision**
 
-- Build a legendary sales team known for delivering exceptional First Orders (FOs) while innovating and having fun
-- Provide unparalleled professional growth for New Logo AEs
-- Showcase GitLab's culture - flexible, asynchronous, and transparent
-- Exceed customer expectations across both digital and AE-supported buying journeys
+- Gold Standard. We will build a New Logo flywheel that other teams and companies will study and attempt to replicate
+- Talent Engine. We will have a legendary sales team that will be known for unmatched sales skill, a team that delivers insane amount of Logos, all while having fun and innovating.
+- Value Accelerators. We are trusted partners who create transformative outcomes for our customers.
+- Culture Champions. We are a showcase of GitLab’s culture. Interacting with us is flexible, asynchronous enabled, and transparent.
+
+**Team Values**
+
+- Relentless Prospecting. We are Pipeline Builders; no silver spoons. Prospecting happens every day, picking up the phone happens every day; no exceptions.
+- Work Hard, Work smart. We leverage tools to get better. We are AI-powered. We make data-driven decisions.
+- Hone our Craft. We are continuous learners - every day, we get 1% better. Be curious.
+- Technical Command. We build deep understanding of our platform, speak DevSecOps fluently and bring value to technical buyers; we don't sell.
+- Builder Mentality. Motion Architects, not quota chasers. We're building the playbook others will follow.
+- Better Together. We overshare, your breakthrough belongs to the team. Isolation is the enemy of innovation. One team, one pipeline, one mission, one collective team intelligence.
 
 ### New Logo Sales Process
 

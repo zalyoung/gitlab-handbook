@@ -150,6 +150,60 @@ When you pick something to work on, please:
 1. Share it in [#s_plan](https://gitlab.slack.com/archives/s_plan) - if not even more widely (like in #development
    or #backend).
 
+### Retrospectives
+
+GitLab milestones end on the **3rd Thursday of each month**, and we run async retrospectives tied to that schedule. The retrospectives consist of three phases:
+
+#### Phase 1: Collection
+
+**When:**
+Starts: **3 Mondays before milestone ends**
+Ends: **End of release week (milestone Thursday)**
+
+**What happens:**
+
+- Team submits retro topics via the Slack shortcut ([`⚡Project Management Retro Ideas`](https://slack.com/shortcuts/Ft08T8L66DSA/9b29cd637b654c4904e33e9199b88149))
+- Weekly reminders go out
+- Responses are sent to a google sheet that the facilitator has access to
+
+#### Phase 2: Synthesis
+
+**When:**
+Starts: **Friday of release week**
+Ends: **Following Tuesday**
+
+**What happens:**
+
+- Facilitator reviews and groups entries into themes
+- Duplicates removed
+- Poll generated to vote for the top two or three topics to discuss
+
+#### Phase 3: Discussion & Action
+
+**When:**
+Starts: **1 week post-release (Tuesday–Friday)**
+
+**What happens:**
+
+- Facilitator adds topics to generated retrospective issue
+- Team reviews points async and comments on the items
+- Team selects 2–3 action items to carry forward
+- Owners are assigned and new issues are created to track follow-up
+
+#### Example Timeline (Milestone 18.3 Ends 2025-07-17)
+
+| Phase             | Dates                    |
+|------------------|--------------------------|
+| Collection        | June 30 – July 17        |
+| Synthesis         | July 18 – July 22        |
+| Discussion/Action | July 22 – July 25        |
+
+#### Reminders
+
+- Use the Slack shortcut to submit retro ideas anytime during the collection window.
+- Weekly reminder messages will be posted to encourage participation.
+- Keep it short — even one sentence helps.
+
 ### Dashboards
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}

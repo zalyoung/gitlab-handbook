@@ -69,6 +69,9 @@ Initial launch is planned for the engineering teams in late March 2025, with det
 - **I have a question about how something works in LevelUp, who should I ask?**
 - Please let us know in the [LevelUp feedback issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/830).
 
+- **I have started a course, but my progress bar shows 0% completion. Is my progress lost?**
+- Some courses only report completion, not the ongoing progress. The LevelUp progress bar will reflect it once you finish the course.
+
 ## Platform Guide
 
 Read on below to learn about the functionality in LevelUp, including terminology, and guides to specific features.

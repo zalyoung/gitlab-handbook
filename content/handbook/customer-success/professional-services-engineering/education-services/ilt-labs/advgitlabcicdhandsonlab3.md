@@ -82,13 +82,13 @@ In this example, let’s look at how we can cancel the pipeline in the case wher
 
 1. Select **Commit changes**.
 
-Let's see how the pipeline handles the failed job.
+  Let's see how the pipeline handles the failed job.
 
 1. In the left sidebar, select **Build > Pipelines**.
 
 1. Select your most recent pipeline and observe the jobs. Note that when the `test fail` job fails, other jobs cancel, showing a grey slash icon.
 
-Now that we have verified the auto cancel works, let's remove the failing job.
+  Now that we have verified the auto cancel works, let's remove the failing job.
 
 1. Navigate to your repository.
 
@@ -144,13 +144,9 @@ Now that we have verified the auto cancel works, let's remove the failing job.
 
 In this task, we will add a test report to our test jobs.
 
-1. Navigate to your repository.
+1. Ensure you are still in the Pipeline Editor (if not, navigate to **Build > Pipeline Editor**).
 
-1. Select `.gitlab-ci.yml`.
-
-1. Select **Edit > Edit in pipeline editor**.
-
-1. We are going to adjust our `jest` commands for the `test binarysearch` and `test linearsearch` jobs to add a `testResultsProcessor` to the command.  We can do this by adding the `--ci --testResultsProcessor=jest-junit` flags to the command. The `--ci` option is provided will make Jest assume it is running in a CI environment. For this to work we also have to install `jest-junit`. Below is an example of the jobs after the changes have been made:
+1. We are going to adjust our `jest` commands for the `test binarysearch` and `test linearsearch` jobs to add a `testResultsProcessor` to the command.  We can do this by adding the `--ci --testResultsProcessor=jest-junit` flags to the command. The `--ci` flag will make Jest assume it is running in a CI environment. For this to work we also have to install `jest-junit` by adding it to our `install deps`. Below is an example of the jobs after the changes have been made:
 
     ```yml
     install deps:
@@ -190,7 +186,7 @@ In this task, we will add a test report to our test jobs.
       junit: junit.xml
 ```
 
-The tests will now look like this:
+  The tests will now look like this:
 
 ```yml
 test binarysearch:
