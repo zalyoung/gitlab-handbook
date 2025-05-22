@@ -21,11 +21,11 @@ To start, let's create a new project in the lab environment:
 
 ## Task B. Adding the runner to the project
 
-1. Navigate to your project.
+1. Ensure that you are now looking at your newly created project's page.
 
 1. In the left sidebar, select **Settings > CI/CD**.
 
-1. Select **Expand** next to Runners.
+1. Click the arrow next to **Runners** to expand the Runners section.
 
 1. Select **New project runner**.
 
@@ -36,16 +36,22 @@ To start, let's create a new project in the lab environment:
 1. In the section titled **Step 1**, review the command, which will look something like this:
 
     ```shell
-    gitlab-runner register  --url https://ilt.gitlabtraining.cloud  --token glrt-RrzYz4Kok-1X63pSqVJf
+    gitlab-runner register  
+        --url https://ilt.gitlabtraining.cloud  
+        --token glrt-bzoxCnA6aDlvCnQ6Mwp1OmFtdCQKGl9glOywWMYcfTG74GwQ.1c1rc1xe9
     ```
 
 1. Take note of the value following `--token`. You will need this token later for the registration of your runner.
+
+1. Finally, select **View Runners**. You may see a warning message asking if you are sure you want to leave the page without saving. This is fine to do as long as you have made a note of your token.
 
 ## Task C. Deploying a runner
 
 We will manage the association of the runner and deployment of runner configuration through GitLab. This strategy allows you to have source control on your runner configuration, which is ideal for tracking changes.
 
 Let's take a look at how this is structured:
+
+1. First, let's add our token securely to our project as a project-level variable. Navigate to **Settings > CI/CD** and expand the **Variables** section. Select **Add variable**. In the pane on the right, type GITLAB_RUNNER_TOKEN into the **Key** field, and paste your runner token into the **Value** field.
 
 1. Navigate to your project repository.
 
@@ -60,7 +66,7 @@ Let's take a look at how this is structured:
         - deploy
     ```
 
-1. Our first task is to setup our job to install the required dependencies for an SSH connection. Copy and paste the code below.
+1. Our first task is to set up our job to install the required dependencies for an SSH connection. Copy and paste the code below.
 
     ```yml
     deploy config:
@@ -78,12 +84,12 @@ Let's take a look at how this is structured:
 
     > This job starts by installing and starting an ssh agent on the runner. When you redeemed your invitation code, an instance was created for you to deploy to and the SSH private key is stored in a variable named `SSH_PRIVATE_KEY`. This key is added to the SSH agent to use for connections.
 
-1. As a script for the job, we are going to SSH into our server and register the gitlab runner on it. Make sure to replace `your-token-here` with your runner registration token.
+1. As a script for the job, we are going to SSH into our server and register the gitlab runner on it. Notice that we are using the GITLAB_RUNNER_TOKEN variable we created earlier.
 
     ```yml
         script:
         - ssh root@$ip 'gitlab-runner unregister --all-runners'
-        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token your-token-here'
+        - ssh root@$ip 'gitlab-runner register --non-interactive --url https://ilt.gitlabtraining.cloud --executor "docker" --docker-image alpine:latest  --token '"GITLAB_RUNNER_TOKEN"
     ```
 
    > The first command we run will unregister any current runners on your remote server. This prevents duplicate registrations of runners.
@@ -92,7 +98,7 @@ Let's take a look at how this is structured:
    >
    > In this configuration, the executor is set to docker. For the `docker-image`, you are setting the default Docker image to use for your pipelines. You can use any Docker image you like, for this example, we will use `alpine:latest` as the default image.
 
-1. Select **Commit changes**.
+1. Select **Commit changes**, add a commit message (e.g. "Added runner creation job") and select **Commit changes**.
 
 1. Select **Build > Pipelines**.
 
@@ -100,11 +106,11 @@ Let's take a look at how this is structured:
 
 1. Verify that the pipeline completes successfully.
 
-To verify that the runner is registered:
+  To verify that the runner is registered:
 
 1. In the left sidebar, select **Settings > CI/CD**.
 
-1. Select **Expand** next to **Runners**. You should see a green circle next to your runner.
+1. Click the arrow next to **Runners** to expand the Runners section. You should see a green circle next to your runner.
 
 ## Task D. View your runner configuration
 
@@ -135,7 +141,7 @@ When this runner is created, it will have a `config.toml` file that defines the 
       url = "https://ilt.gitlabtraining.cloud"
       id = 1852
       token = "your-token-here"
-      token_obtained_at = 2024-07-08T12:59:30Z
+      token_obtained_at = 2025-05-08T12:59:30Z
       token_expires_at = 0001-01-01T00:00:00Z
       executor = "docker"
       [runners.custom_build_dir]
@@ -173,9 +179,9 @@ To make these changes, we will push a `config.toml` file to the runner.
 
 1. In the filename, type `config.toml`.  
 
-1. Copy the `config.toml` from your job output into the toml file you created in your repository.
+1. Copy the `config.toml` from your job output into the toml file you created in your repository (make sure to replace the `your-token` value with your runner token instead).
 
-    Your `config.toml` will look something like this (make sure to replace the `your-token` value with your runner token instead):
+    Your `config.toml` will look something like this:
 
     ```toml
     concurrent = 1
@@ -189,7 +195,7 @@ To make these changes, we will push a `config.toml` file to the runner.
       url = "https://gitlab.com"
       id = 40174213
       token = "your-token"
-      token_obtained_at = 2024-07-24T12:10:22Z
+      token_obtained_at = 2025-05-24T12:10:22Z
       token_expires_at = 0001-01-01T00:00:00Z
       executor = "docker"
       [runners.custom_build_dir]
@@ -263,11 +269,11 @@ This script copies your configuration to the runner machine. When the runner is 
 
 To test the runner, let’s create a basic Docker in Docker configuration to use for a project.
 
-1. Navigate to your `Runners` project.
+1. Navigate to your `CICD Runner` project.
 
 1. Start by disabling instance level runners to ensure the jobs run on your project runner. To do this, navigate to **Settings > CI/CD**.
 
-1. Select **Expand** next to the **Runners** option.
+1. Click the arrow next to **Runners** to expand the Runners section.
 
 1. Toggle Enable instance runners for this project **off**.
 
@@ -327,7 +333,7 @@ For future labs, it is best to use the instance runners to ensure consistency in
 
 1. Select **Settings > CI/CD**.
 
-1. Select **Expand** beside the **Runners** section.
+1. Click the arrow next to **Runners** to expand the Runners section.
 
 1. Toggle **Enable instance runners for this project** to **on**.
 

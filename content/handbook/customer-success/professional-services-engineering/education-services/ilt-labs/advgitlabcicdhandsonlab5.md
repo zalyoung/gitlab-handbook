@@ -19,7 +19,9 @@ In this lab we will analyze more complex merge processes, looking specifically a
 
 1. To enable a merge train in your project, in the left sidebar, select **Settings > Merge requests**.
 
-1. Under Merge options, click the options **Enable merged results pipeline**, **Pipelines must succeed**, and **Enable merge trains**.
+1. Under Merge options, click the options **Enable merged results pipeline** and **Enable merge trains**.
+
+1. Scrolling down the page slightly to the **Merge Checks** section, click the option **Pipelines must succeed**
 
 1. At the bottom of the section, select **Save changes**.
 
@@ -42,16 +44,18 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
 
 1. Add in the following rules to ensure jobs run on merge request pipelines:
 
-```yml
-workflow:
-  auto_cancel:
-    on_job_failure: all
-  rules:
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-```
+  ```yml
+  workflow:
+    auto_cancel:
+      on_job_failure: all
+    rules:
+      - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+      - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  ```
 
-The current pipeline should look like this:
+1. Commit these changes. 
+
+  The current pipeline should look like this:
 
   ```yml
   stages:
@@ -106,9 +110,9 @@ The current pipeline should look like this:
 
 1. Select **Commit changes** to update your `.gitlab-ci.yml` file.
 
-Adding this job will ensure that you have enough time to create two merge requests.
+  Adding this job will ensure that you have enough time to create two merge requests.
 
-To start, create your two merge requests. For the first merge request:
+  To start, create your two merge requests. For the first merge request:
 
 1. Select **Code > Branches**.
 
@@ -124,7 +128,7 @@ To start, create your two merge requests. For the first merge request:
 
 1. Leave all options as default and select **Create merge request**.
 
-For the second merge request:
+  For the second merge request:
 
 1. Select **Code > Branches**.
 
@@ -140,7 +144,7 @@ For the second merge request:
 
 1. Leave all options as default and select **Create merge request**.
 
-Now that both merge requests have been created:
+  Now that both merge requests have been created:
 
 1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
 
@@ -189,7 +193,7 @@ When multiple users work on a project at the same time, merge conflicts are ofte
       <<: [*artifactdef, *cachedef]
     ```
 
-Now, let’s create two merge requests that conflict:
+  Now, let’s create two merge requests that conflict:
 
 1. Select **Code > Branches**.
 
@@ -261,7 +265,7 @@ Now, let’s create two merge requests that conflict:
 
 1. Select the option **Resolve conflicts**. You will have the option to select either using the code in the current merge request, or using the code in main.
 
-1. Select your preferred option, then select **Commit** to source branch.
+1. Select your preferred option, then select **Commit to source branch**.
 
 After doing this, you will now be able to merge your merge request.
 
