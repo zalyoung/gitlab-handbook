@@ -91,6 +91,7 @@ Status updates are automatically rolled up in the relevant epics
 
 - [Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/12383#hourglass-work-in-progress) epic
 - [Organizations buildout](https://gitlab.com/groups/gitlab-org/-/epics/9265#hourglass-work-in-progress) epic.
+- [Org Mover](https://gitlab.com/groups/gitlab-org/-/epics/12857#hourglass-work-in-progress) epic.
 
 ## Additional Information
 
