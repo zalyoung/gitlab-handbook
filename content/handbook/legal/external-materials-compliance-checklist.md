@@ -9,9 +9,10 @@ When developing materials for external use, follow the [SAFE Framework](/handboo
 
 **Examples of common legal review feedback**
 
-- [See document](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/preview?tab=t.0)
+- Refer to the [examples of common legal review feedback Google Doc](https://docs.google.com/document/d/1LwubBXXsacErxmrE4F_x3AOk2b6V4ZJU_tCLUgTZ1kc/preview?tab=t.0).
 
 **Compliance checklist**
+
 Before sharing materials for review, or publishing or using materials you've created, confirm the materials comply with the items in this checklist:
 
 - All facts and statements included in the materials are true and correct, and not misleading or deceptive in any way.
