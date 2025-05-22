@@ -3,12 +3,6 @@ title: Setting up external secret storage with Vault
 description: Process outline on how to setup external secrets storage as a secure alternative to environment variables.
 ---
 
-## Using HashiCorp Vault for Secret Management in GitLab CI/CD
-
-## Overview
-
-This guide explains how to use HashiCorp Vault as an external secrets manager for your GitLab CI/CD pipelines. Properly managing secrets such as API keys and passwords is critical for maintaining security in your projects.
-
 ## Why Use External Secrets?
 
 Secrets are credentials like API keys and passwords that should be kept unknown or unseen by others. While GitLab CI has a built-in variable area with [masking capability](https://docs.gitlab.com/ee/ci/variables/#mask-a-cicd-variable), this feature has limitations:
@@ -16,6 +10,20 @@ Secrets are credentials like API keys and passwords that should be kept unknown 
 > **Warning:** Masking a CI/CD variable is not a guaranteed way to prevent malicious users from accessing variable values. The masking feature is "best-effort" and there to help when a variable is accidentally revealed. To make variables more secure, consider using external secrets.
 
 Secret exposure from CI job logs can result in security incidents and may qualify for bug bounty payouts. When you print a masked variable using a script, the masking may not work as expected or may be circumvented depending on how it is called. External Secret Storage (ESS) fixes that by taking the storage of the sensitive variable out of the loop.
+
+## Best Practices for Secret Management
+
+1. Never store secrets directly in your code
+2. Use the appropriate subfolder structure in Vault for different environments
+3. Limit access to secrets through group-based permissions
+4. Regularly rotate credentials stored in Vault
+5. Use file-based secrets for more complex authentication configurations like service account JSON files
+
+## Using HashiCorp Vault for Secret Management in GitLab CI/CD
+
+## Overview
+
+This guide explains how to use HashiCorp Vault as an external secrets manager for your GitLab CI/CD pipelines. Properly managing secrets such as API keys and passwords is critical for maintaining security in your projects.
 
 ## HashiCorp Vault Integration
 
@@ -138,14 +146,6 @@ Using "vault" secret resolver...
 ```
 
 When printing sensitive values, they should appear as `[MASKED]` in the logs.
-
-## Best Practices
-
-1. Never store secrets directly in your code
-2. Use the appropriate subfolder structure in Vault for different environments
-3. Limit access to secrets through group-based permissions
-4. Regularly rotate credentials stored in Vault
-5. Use file-based secrets for more complex authentication configurations like service account JSON files
 
 ## Troubleshooting
 
