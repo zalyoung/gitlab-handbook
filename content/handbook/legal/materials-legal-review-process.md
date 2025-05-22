@@ -36,10 +36,10 @@ The DRI is responsible for ensuring materials are compliant. If you're unsure wh
 
 Review is **always** required for:
 
-- External materials related to the experiment, beta, or general availablity announcement or release of significant new product offerings or signifcant changes to existing product offerings, including:
+- External materials related to the experiment, beta, or general availability announcement or release of significant new product offerings or significant changes to existing product offerings, including:
   - Any product or services launched through the [New Product Introduction Process](/handbook/product/product-processes/product-launch/)
   - New SKU
-    - E.g.: Materials announcing the general availabilty of a new SKU
+    - E.g.: Materials announcing the general availability of a new SKU
     - E.g.: Materials announcing the forthcoming private beta of what will become a new SKU
 
   - Changes to an existing SKU (e.g., price, removal or addition of a named offering)
@@ -78,7 +78,7 @@ The Legal & Corporate Affairs Team will not review materials sent in Slack becau
 
 Follow this process for review of materials containing [material non-public information](/handbook/legal/safe-framework/#sensitive) (MNPI) or information with restricted internal access.
 
-1. For standalone materials not related to an ongoing intiative:
+1. For standalone materials not related to an ongoing initiative:
 
    a. Create an issue following [Track 1](#track-1-single-material-legal-review-process) or [Track 2](#track-2-multiple-materials-legal-review-process) below.
 
@@ -96,7 +96,7 @@ Follow this process for review of materials containing [material non-public info
 
 **External use** means materials made available to any company or individual who is not a GitLab team member, including media, marketing audiences, prospects, customers, partners, vendors, community members, and conference attendees. Materials published with [public visibility](/handbook/marketing/marketing-operations/youtube/#visibility) on the GitLab Unfiltered YouTube channel or on any GitLab social media channel are external.
 
-**Internal use** means materials made available solely to GitLab team members that is, anyone who has a gitlab.com email address.
+**Internal use** means materials made available solely to GitLab team members, that is, anyone who has a gitlab.com email address.
 
 Sometimes, legal review entails two separate reviews:
 
