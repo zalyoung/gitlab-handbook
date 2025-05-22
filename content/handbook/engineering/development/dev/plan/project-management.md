@@ -161,6 +161,7 @@ Starts: **3 Mondays before milestone ends**
 Ends: **End of release week (milestone Thursday)**
 
 **What happens:**
+
 - Team submits retro topics via the Slack shortcut ([`⚡Project Management Retro Ideas`](https://slack.com/shortcuts/Ft08T8L66DSA/9b29cd637b654c4904e33e9199b88149))
 - Weekly reminders go out
 - Responses are sent to a google sheet that the facilitator has access to
@@ -172,6 +173,7 @@ Starts: **Friday of release week**
 Ends: **Following Tuesday**
 
 **What happens:**
+
 - Facilitator reviews and groups entries into themes
 - Duplicates removed
 - Poll generated to vote for the top two or three topics to discuss
@@ -182,6 +184,7 @@ Ends: **Following Tuesday**
 Starts: **1 week post-release (Tuesday–Friday)**
 
 **What happens:**
+
 - Facilitator adds topics to generated retrospective issue
 - Team reviews points async and comments on the items
 - Team selects 2–3 action items to carry forward
