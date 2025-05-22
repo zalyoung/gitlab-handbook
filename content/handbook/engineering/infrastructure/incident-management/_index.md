@@ -70,7 +70,6 @@ Understanding this distinction helps clarify who does what during incidents and 
 
 Clear delineation of responsibilities is important during an incident. Quick resolution requires focus and a clear hierarchy for delegation of tasks. Preventing overlaps and ensuring a proper order of operations is vital to mitigation.
 
-
 | **Role** | **Description** | **When Needed** |
 | ---- | ----------- | ---- |
 | **Incident Lead** | The owner of the incident who is responsible for the coordination of the incident response and will drive the incident to resolution. The Incident Lead should always be assigned the role in incident.io. | All incidents require an Incident Lead, which must be set purposefully per-incident. More information on choosing an Incident Lead can be found in the [workflow section](#incident-lead) |
@@ -132,7 +131,7 @@ An Incident Responder is anyone who contributes to the technical investigation a
     1. If the PagerDuty alert noise is too high, your task as an EOC is clearing out that noise by either fixing the system or changing the alert.
     1. If you are changing the alert, it is your responsibility to explain the reasons behind it and inform the next EOC that the change occurred.
     1. Each event (may be multiple related pages) should result in an issue in the `production` tracker. See [production queue usage](/handbook/engineering/infrastructure/production/#implementation) for more details.
-1. If sources outside of our alerting are reporting a problem, and you have not received any alerts, it is still your responsibility to investigate. [Declare a low severity incident](#reporting-an-incident) and investigate from there.
+5. If sources outside of our alerting are reporting a problem, and you have not received any alerts, it is still your responsibility to investigate. [Declare a low severity incident](#reporting-an-incident) and investigate from there.
     1. Low severity ([S3/S4](/handbook/engineering/infrastructure/production/#severity)) incidents (and issues) are cheap, and will allow others a means to communicate their experience if they are also experiencing the issue.
     2. **"No alerts" is not the same as "no problem"**
 6. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as Incident Responder you should [page the IMOC](#how-to-engage-response-teams) to find a team member with the appropriate expertise. Requesting assistance does not mean relinquishing your responsibility.
@@ -235,7 +234,6 @@ When paged, the Infrastructure Liaison will:
 1. Make an overall evaluation of the incident and further validation of Severity.
 2. Assist with further support from other teams, including those outside of Engineering (as appropriate)
 3. Post a notice to e-group slack channel. This notice does not have to be expedited, but should occur once there is a solid understanding of user impact as well as the overall situation and current response activities. The e-group notice should be in this format
-
 ```markdown
 :s1: **Incident on GitLab.com**
 **— Summary —**
@@ -248,7 +246,6 @@ When paged, the Infrastructure Liaison will:
  Main incident: (link to the incident)
  Slack Channel: (link to incident slack channel)
 ```
-
 4. After posting the notice, continue to engage with the incident as needed and also post updates to a thread of the e-group notification when there are material/significant updates.
 
 ## Team Coordinators
