@@ -11,7 +11,7 @@ to deploy application changes into production.
 - [Performance Indicator](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp)
 - **Target: 12 hours.**
 
-{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/t/gitlab/views/InfrastructureKPIs/MeanTimetoProductionKPI" >}}
+{{< tableau height="900px" toolbar="hidden" src="https://10az.online.tableau.com/t/gitlab/views/InfrastructureKPIs/MeanTimetoProductionKPI" >}}
 {{< /tableau >}}
 
 MTTP measures the elapsed time (in hours) from merging a change in gitlab-org/gitlab project master
