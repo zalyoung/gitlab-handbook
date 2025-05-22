@@ -232,7 +232,7 @@ As the technical spike work comes to a completion, complete the following steps 
 - Tag in the responsible PM, EM, and Growth Engineering team (`@gitlab-org/growth/engineering` team) for review.
 - Confirm with the responsible PM that the spike requirements have been met within the alotted duration time.
 - If not determined to not be technically feasible, close the issue with that conclusion.
-- If the spike was successful, detail the implementation steps if they are known, and place this back into `~workflow::solution validation` for where PM will guide implementation and we can break down the work furthur if needed once it re-enters later `workflow` stages.
+- Otherwise, detail the implementation steps if they are known and place this back into `~workflow::solution validation` for where PM will guide implementation and we can break down the work further if needed once it re-enters later `workflow` stages.
 
 ### UX
 
