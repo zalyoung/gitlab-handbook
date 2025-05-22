@@ -5,7 +5,8 @@ description: Information about the Tenant Scale Group
 
 ## Vision
 
-The Tenant Scale group is working towards a horizontally scalable, fault-tolerant architecture for gitlab.com. It is accomplishing this by introducing Cells at the infrastructure layer and Organizations at the application layer, along with Geo for end-to-end resiliency.
+The Tenant Scale group is working towards a horizontally scalable, fault-tolerant architecture for gitlab.com.
+It is accomplishing this by introducing Cells at the infrastructure layer and Organizations at the application layer, along with Geo for end-to-end resiliency.
 
 ## Team Members
 
@@ -28,3 +29,7 @@ The Tenant Scale group is working towards a horizontally scalable, fault-toleran
 ## Resources
 
 - Slack (internal only): [#s_tenant_scale](https://gitlab.enterprise.slack.com/archives/C07TWC3QX47)
+
+## Projects
+
+1. [Cells Project](cells/_index.md)
