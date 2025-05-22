@@ -305,6 +305,12 @@ We only keep Duo free form feedback for 60 days in snowflake. This is managed by
 
 ### Snowplow improvement: SQL scripting for issue fixing
 
+To generate s script the issue, do the following things:
+1. Open an issue in the project [snowplow-fix-scripting](https://gitlab.com/gitlab-data/snowplow-fix-scripting)
+2. Open an MR in the same project
+3. Adjust `config.yml` file to adjust your logic.
+4. Run the pipeline ✏️generate_sql in MR
+
 #### Pipeline ✏️generate_sql
 
 The ✏️generate_sql job is a manually triggered job in the GitLab `CI/CD` pipeline that generates SQL scripts based on provided parameters. It runs in the 📚scripting stage of the pipeline.
