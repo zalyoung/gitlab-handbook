@@ -134,8 +134,11 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 
 The list of dashboards below are templates that can be cloned and customized for each team. 
 
+| Name/Link                                                            | Description                                            |
+|-----------------------------------------------------------------------| ------ |
 | [BDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002JjZl2AK/view) | Dashboard template that covers all main functions of managing a BDR team. |
-| [Base BDR Team Dashboard Template](hhttps://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002MHPF2A4/view) | Dashboard template that covers all main functions of managing the Base BDR team. |
+| [Base BDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002MHPF/view) | Dashboard template that covers all main functions of managing the Base BDR team. |
+| [SDR Team Dashboard Template](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL00000255h32AA/view?queryScope=userFolders) | Dashboard template that covers all main functions of managing the inbound SDR team. |
 
 ## The pages we frequently use
 

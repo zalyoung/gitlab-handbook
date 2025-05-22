@@ -1,22 +1,10 @@
 ---
-title: "Flaky tests management and processes"
+title: "Flaky tests"
 ---
 
 ## Introduction
 
-A flaky test is an unreliable test that occasionally fails but passes eventually if you retry it enough times.
-In a test suite, flaky tests are inevitable, so our goal should be to limit their negative impact as soon as possible.
-
-Out of all the factors that affects master pipeline stability, flaky tests contribute to at least 30% of master pipeline failures each month.
-
-## Current state and assumptions
-
-| Current state | Assumptions |
-| ------------- | ----------- |
-| `master` success rate [was at 89% for March 2024](/handbook/engineering/infrastructure/performance-indicators/#master-pipeline-stability) | We don't know exactly what would be the success rate without any flaky tests, but we assume we could attain 99% |
-| [5200+ `~"failure::flaky-test"` issues](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/FlakyTests?:iid=1) out of a total of [260,040 tests as of 2024-03-01](https://gitlab-org.gitlab.io/rspec_profiling_stats/#overall_time) | It means [we identified 1.99% of tests as being flaky](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#automatic-retries-and-flaky-tests-detection). [GitHub identified that 25% of their tests were flaky at some point](https://github.blog/engineering/reducing-flaky-builds-by-18x/#how-far-weve-come), our reality is probably in between. |
-| [Coverage is currently at 98.42%](https://gitlab-org.gitlab.io/gitlab/coverage-ruby/#_AllFiles) | Even if we'd removed the 5200 flaky tests, we don't expect the coverage to go down meaningfully. |
-| ["Average Retry Count"](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/FlakyTests?:iid=1) per pipeline is currently at 0.015, it means given [RSpec jobs' current average duration of 23 minutes](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTEP-JobsDurations/EP-JobsDurations?:iid=2), this results in an additional `0.015 * 23 = 0.345` minutes on average per pipeline, not including the idle time between the job failing and the time it is retried. [Explanation provided by Albert](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/874#note_575599680). | Given we have approximately [91k pipelines per month](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts), that means flaky tests are wasting 31,395 CI minutes per month. Given our private runners cost us $0.0845 / minute, this means flaky tests are wasting at minimum $2,653 per month of CI minutes. This doesn't take in account the engineers' time wasted. |
+A flaky test is an unreliable test that occasionally fails but passes eventually if you retry it enough times. Flaky tests can be a result of brittle tests, unstable test infrastructure, or an unstable application. We should try to identify the cause and remove the instability to improve quality and build trust in test results. 
 
 ### Manual flow to detect flaky tests
 
@@ -33,13 +21,9 @@ graph LR
 
 ## Why is flaky tests management important?
 
-Flaky tests negatively impact several teams and areas:
-
-| Impacted department/team | Impacted area | Impact description | Impact quantification |
-| --------------- | ------------- | ------------------ | --------------------- |
-| Development department | MR & deployment cycle time | Wasted time (by forcing people to look at the failures and retry them manually if needed) | A lot of wasted time for all our engineers |
-| Infrastructure department | CI compute resources | Wasted money | At least $2,653 worth of wasted CI compute time per month |
-| Delivery team & Quality department | Deployment cycle time | Distraction from actual CI failures & regressions, leading to slower detection of those | TBD |
+- Flaky tests undermine test results, leading to engineers disregarding test failures as flaky.
+- Manual retries to try to get flaky tests to pass, and the effort needed to investigate flaky tests as failures are a significant waste of time.
+- Managing flaky tests by quickly fixing the cause or removing the test from the test suite allows test time and costs to be used where they add value. 
 
 ## Flaky tests management process
 

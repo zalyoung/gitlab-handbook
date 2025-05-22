@@ -33,7 +33,7 @@ While achieving and maintaining certifications for our SaaS platforms remains a 
 With finite resources, we've adopted a risk-based framework to optimize our efforts. This approach enables us to:
 
 - Maintain our certification requirements
-- Ensure proper safeguards for our [crown jewels](https://internal.gitlab.com/handbook/security/security_operations/threat_intelligence/crown-jewels/) as well as [customer (RED) data](/handbook/security/data-classification-standard/#red)
+- Ensure proper safeguards for our [crown jewels](https://internal.gitlab.com/handbook/security/security_operations/threat_intelligence/crown-jewels/) as well as [customer (RED) data](/handbook/security/standards/data-classification-standard/#red)
 - Allocate resources based on actual risk exposure
 - Adapt quickly to emerging threats and changes in our environment
 

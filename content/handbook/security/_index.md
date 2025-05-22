@@ -268,7 +268,7 @@ For an overview of the communication and response process for a suspected ransom
 
 #### Tokens
 
-The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard](/handbook/security/token-management-standard/).
+The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard](/handbook/security/standards/token-management-standard/).
 
 1. When creating a [Personal Access Token](https://docs.gitlab.com/user/profile/personal_access_tokens/), be sure to choose the appropriate [scopes](https://docs.gitlab.com/user/profile/personal_access_tokens/#personal-access-token-scopes) that only have the permissions that are absolutely necessary.
 1. Oftentimes a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) might be sufficient instead of a Personal Access Token. Project Access Tokens have a much more limited scope and should be preferred over Personal Access Tokens whenever possible.

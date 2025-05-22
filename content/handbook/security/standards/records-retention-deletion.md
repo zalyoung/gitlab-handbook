@@ -1,5 +1,8 @@
 ---
 title: "Records Retention & Disposal"
+aliases:
+- /handbook/security/records-retention-deletion
+note: Do not remove alias due to extensive external use where it cannot be updated.
 controlled_document: true
 ---
 
@@ -80,5 +83,5 @@ Exceptions to these requirements will be tracked as per the [Information Securit
 ## References
 
 - [Controlled Document Procedure](/handbook/security/controlled-document-procedure/)
-- [Data Classification Standard](/handbook/security/data-classification-standard/)
+- [Data Classification Standard](/handbook/security/standards/data-classification-standard/)
 - [Google Cloud Platform data deletion](https://cloud.google.com/security/deletion)

@@ -178,6 +178,8 @@
   icon: fa-solid fa-shield-halved
   url: /handbook/security
   links:
+  - name: Security Standards
+    url: /handbook/security/standards
   - name: Product Security
     url: /handbook/security/product-security/
   - name: Security Operations

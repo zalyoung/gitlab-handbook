@@ -343,7 +343,7 @@ When creating a new project, all settings should be left to the default options,
          /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"
          ```
 
-When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements) for more details.
+When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](/handbook/security/standards/gitlab_projects_baseline_requirements) for more details.
 
 ## Performance Indicators
 

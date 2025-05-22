@@ -96,7 +96,7 @@ knowledge base content. This has the following benefits:
 
 ### Publishing a KB article
 
-Publishing an article should be done by the person who merges a KB MR. After the KB article is merged: 
+Publishing an article should be done by the person who merges a KB MR. After the KB article is merged:
 
 1. Create an issue with Customer Support Ops using the [New Article template](https://gitlab.com/gitlab-com/gl-security/corp/cust-support-ops/issue-tracker/-/issues/new?description_template=New%20Article).
 1. Include a link to the merged article on the master branch.
@@ -108,10 +108,10 @@ Questions can be asked in the dedicated [#spt_knowledge-base](https://gitlab.ent
 
 ### Using AI to generate content
 
-- You **must use Duo** for any customer related ([Red](../../security/data-classification-standard.md#red)) data. Claude is only approved for [Orange data](../../security/data-classification-standard.md#orange) at this time.
+- You **must use Duo** for any customer related ([Red](/handbook/security/standards/data-classification-standard.md#red)) data. Claude is only approved for [Orange data](/handbook/security/standards/data-classification-standard.md#orange) at this time.
 - Duo can help quickly generate a first pass of an article. **Always** review generated data by Duo for technical accuracy. You are still the SME of the article and original customer issue.
 - You must be directly on the page of the article template, i.e. [break-fix.md](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/break-fix.md). If the request is made in another location, Duo may make up random sections in the article.
-- Duo will not immediatly provide the output in plain text even if asked in the original prompt. Requesting "raw markdown" may work, but there is [an issue](https://gitlab.com/gitlab-org/gitlab/-/issues/482485) when code blocks are included.
+- Duo will not immediately provide the output in plain text even if asked in the original prompt. Requesting "raw markdown" might work.
 - Examples:
   - [GitLab Unfiltered](https://www.youtube.com/watch?v=4z6Xnh3B-wU) video(requires authentication) demonstration creating an article by copying ticket data.
   - [GitLab issue](https://gitlab.com/gitlab-com/support/support-pages/-/issues/7) demonstrating text prompts and output.
