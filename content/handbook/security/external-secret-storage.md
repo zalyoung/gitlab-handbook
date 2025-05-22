@@ -151,7 +151,6 @@ end
 headers = { "Private-Token" => gitlab_token }
 ```
 
-
 For Python scripts use this: 
 
 ```python
