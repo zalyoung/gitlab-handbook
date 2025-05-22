@@ -108,6 +108,9 @@ Gitaly related fields:
 
 - `grpc.request.glProjectPath:` The actual GitLab path project path.
 - `grpc.request.repoPath:`  Project hash id path.
+- `grpc.request.repoStorage:` Which Gitaly storage houses the repo
+- `grpc.method:`
+- `grpc.request.fullMethod:` `  
 
 SAML related fields:
 
