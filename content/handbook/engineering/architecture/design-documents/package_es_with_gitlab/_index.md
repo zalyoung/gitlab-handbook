@@ -204,3 +204,5 @@ These explorations consistently highlight Elasticsearch as a preferred solution 
 - [Merge Request #142787: RAG architecture blueprint](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/142787)
 - [Issue #1048: Elasticsearch integration](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/1048)
 - [Issue #3857: Ship elasticsearch with omnibus packages by default](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/3857)
+- [Epic #14293: Use Advanced Search for Filtered Searches of Issues and Merge Requests](https://gitlab.com/groups/gitlab-org/-/epics/14293)
+- [Epic #13510: Vulnerability Management utilizing ElasticSearch](https://gitlab.com/groups/gitlab-org/-/epics/13510)
