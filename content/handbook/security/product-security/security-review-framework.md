@@ -41,7 +41,7 @@ When a product team initiates a feature, they complete an initial triage to dete
 
 #### Secure Design and Development Triggers
 
-* Does this feature handle [`RED` and/or `ORANGE`](/handbook/security/standards/data-classification-standard.md#red) data? (Y/N)
+* Does this feature handle customer repositories, credentials, PII data? (Y/N)
 * Does this feature add or modify any core mechanisms related to authentication, authorization or cryptography? (Y/N)
 * Does this feature interact with third-party services? (Y/N)
 * Does this feature add a [new service component](https://docs.gitlab.com/development/adding_service_component/)? (Y/N)
