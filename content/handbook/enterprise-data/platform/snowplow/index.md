@@ -305,4 +305,47 @@ We only keep Duo free form feedback for 60 days in snowflake. This is managed by
 
 ### Snowplow improvement: SQL scripting for issue fixing
 
--- TODO: RBACOVIC
+#### Pipeline ✏️generate_sql
+
+The ✏️generate_sql job is a manually triggered job in the GitLab `CI/CD` pipeline that generates SQL scripts based on provided parameters. It runs in the 📚scripting stage of the pipeline.
+
+* Required Environment Variables
+
+To run this job successfully, the following environment variables must be set:
+
+- `DATE_FROM`: Start date for the data range to process in the format `YYYY-MM-DD`
+- `DATE_TO`: End date for the data range to process in the format `YYYY-MM-DD`
+
+* Optional Environment Variables
+
+The following environment variables are optional:
+
+- `LOG_LEVEL`: Sets the logging verbosity (defaults to `DEBUG` if not provided). Allowed values: `[DEBUG|INFO|WARNING|ERROR|CRITICAL]`
+- `DATABASE_PREFIX`: Optional prefix for database objects or connections. If value is not provided, then PROD code is generated (`RAW`, `PREP`, `PROD`). Otherwise, enter prefix for the database name i.e. `22822-SNOWPLOW-IMPROVEMENT-SQL-SCRIPTING-FOR-ISSUE-FIXING`.
+
+![pipeline_editor.png](../handbook/static/images/enterprise-data/snowplow/pipeline_editor.png)
+
+The scripts are generated as an artefact and once when it is finished, press download button to get it.
+
+![download_pipeline.png](../handbook/static/images/enterprise-data/snowplow/download_pipeline.png)
+
+##### Output structure
+
+```bash
+scripts/
+├──RAW
+├────1_backup.sql # create backup
+├────2_update.sql # fix script to update
+├────3_check.sql  # check script
+├────4_drop.sql   # drop backup script
+├──PREP
+├────1_backup.sql # create backup
+├────2_update.sql # fix script to update
+├────3_check.sql  # check script
+├────4_drop.sql   # drop backup script
+├──PROD
+├────1_backup.sql # create backup
+├────2_update.sql # fix script to update
+├────3_check.sql  # check script
+├────4_drop.sql   # drop backup script
+```
