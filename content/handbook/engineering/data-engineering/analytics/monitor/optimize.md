@@ -406,7 +406,7 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 | Frequency | Meeting                              | DRI         | Possible topics                                                                                        |
 |-----------|--------------------------------------|-------------|--------------------------------------------------------------------------------------------------------|
 | Weekly    | Group-level meeting                  | Engineering Managers | Ensure current release is on track by walking the board, unblock specific issues                       |
-| Monthly   | Planning meetings                    | Product Managers         | See [Planning](/handbook/engineering/development/dev/plan/) section |
+| Monthly   | Planning meetings                    | Product Managers         | See [Planning](/handbook/engineering/devops/dev/plan/) section |
 
 For one-off, topic specific meetings, please always consider recording these calls and sharing them (or taking notes in a [publicly available document](https://docs.google.com/document/d/1kE8udlwjAiMjZW4p1yARUPNmBgHYReK4Ks5xOJW6Tdw/edit)).
 

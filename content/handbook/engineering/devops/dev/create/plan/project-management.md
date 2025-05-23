@@ -5,10 +5,10 @@ title: Plan:Project Management Team
 ## Plan:Project Management Team
 
 The Plan:Project Management team works on
-GitLab's [Project Management category](/handbook/product/categories/#project-management-group) in the [Plan stage](/handbook/engineering/development/dev/plan/).
+GitLab's [Project Management category](/handbook/product/categories/#project-management-group) in the [Plan stage](/handbook/engineering/devops/dev/plan/).
 
 For more details about the vision for this area of the product, see the
-[Plan stage](/handbook/engineering/development/dev/plan/) page.
+[Plan stage](/handbook/engineering/devops/dev/plan/) page.
 
 ### Team members
 

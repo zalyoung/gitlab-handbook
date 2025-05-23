@@ -117,7 +117,7 @@
 /handbook/engineering/development/incubation/mobile-devops/ https://docs.gitlab.com/ci/mobile_devops/ 301
 /handbook/engineering/development/incubation/mobile-devops/* https://docs.gitlab.com/ci/mobile_devops/ 301
 /handbook/engineering/development/incubation/monitor-apm/ https://docs.gitlab.com/operations/ 301
-/handbook/engineering/development/incubation/okr/ /handbook/engineering/development/dev/plan/product-planning/ 301
+/handbook/engineering/development/incubation/okr/ /handbook/engineering/devops/dev/plan/product-planning/ 301
 /handbook/engineering/development/incubation/no-code/ https://docs.gitlab.com/user/duo_workflow/ 301
 /handbook/engineering/development/incubation/real-time-collaboration/ /handbook/engineering/infrastructure/team/cloud-connector/ 301
 /handbook/engineering/development/incubation/secrets-rotation/ https://docs.gitlab.com/user/application_security/secret_detection/automatic_response/ 301

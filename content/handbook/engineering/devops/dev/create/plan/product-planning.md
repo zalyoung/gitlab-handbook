@@ -5,10 +5,10 @@ title: Plan:Product Planning Engineering Team
 ## Plan:Product Planning team
 
 The Plan:Product Planning team works on both the backend and frontend parts of
-GitLab's [Product Planning](/handbook/product/categories/#product-planning-group) category in the [Plan stage](/handbook/engineering/development/dev/plan/).
+GitLab's [Product Planning](/handbook/product/categories/#product-planning-group) category in the [Plan stage](/handbook/engineering/devops/dev/plan/).
 
 For more details about the vision for this area of the product, see the
-[Plan stage](/handbook/engineering/development/dev/plan/) page.
+[Plan stage](/handbook/engineering/devops/dev/plan/) page.
 
 ### Team members
 
@@ -51,7 +51,7 @@ All the previous quarter OKRs are available [here](https://gitlab.com/gitlab-com
 
 ## Work
 
-See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Plan:Project Management backend team page](/handbook/engineering/development/dev/plan/project-management/).
+See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Plan:Project Management backend team page](/handbook/engineering/devops/dev/plan/project-management/).
 
 ### Milestone Planning
 

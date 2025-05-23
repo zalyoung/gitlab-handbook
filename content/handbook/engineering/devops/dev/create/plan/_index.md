@@ -4,10 +4,10 @@ title: "Plan Stage"
 
 Plan teams:
 
-- [Plan:Project Management Team](/handbook/engineering/development/dev/plan/project-management/)
-- [Plan:Product Planning Team](/handbook/engineering/development/dev/plan/product-planning/)
+- [Plan:Project Management Team](/handbook/engineering/devops/dev/plan/project-management/)
+- [Plan:Product Planning Team](/handbook/engineering/devops/dev/plan/product-planning/)
 - [Plan:Optimize Team](/handbook/engineering/development/analytics/monitor/optimize/)
-- [Plan:Knowledge Team](/handbook/engineering/development/dev/plan/knowledge/)
+- [Plan:Knowledge Team](/handbook/engineering/devops/dev/plan/knowledge/)
 
 The responsibilities of this collective team are described by the [Plan stage](/handbook/product/categories/#plan-stage). Among other things, this means
 working on GitLab's functionality around issues, boards, milestones, to-do list, issue lists and filtering, roadmaps, time tracking, requirements management, notifications, value stream analytics (VSA), wiki, and pages.
@@ -56,7 +56,7 @@ Groups within Plan use the same numerical scale when estimating upcoming work.
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
 
-![plan-workflow-example.png](/images/engineering/development/dev/plan/plan-workflow-example.png)
+![plan-workflow-example.png](/images/engineering/devops/dev/plan/plan-workflow-example.png)
 
 Everyone is encouraged to move issues to different workflows if they feel they belong somewhere else. In order to keep issues constantly refined, when moving an issue to a different workflow stage, please review any open discussions within the issue and update the description with any decisions that have been made. This ensures that descriptions are [laid out clearly](/handbook/values/#say-why-not-just-what), keeping with our value of Transparency.
 
@@ -690,11 +690,11 @@ and can be formed of just Functional Leads and members who participate in fulfil
 
 #### Active Stage Working Groups
 
-1. [Work Items API Performance](/handbook/engineering/development/dev/plan/working-groups/work-items-api-performance/)
+1. [Work Items API Performance](/handbook/engineering/devops/dev/plan/working-groups/work-items-api-performance/)
 
 #### Archived Stage Working Groups
 
-1. [Epic Work Items Migration](/handbook/engineering/development/dev/plan/working-groups/epic-work-items-migration/)
+1. [Epic Work Items Migration](/handbook/engineering/devops/dev/plan/working-groups/epic-work-items-migration/)
 
 ### Product Outreach
 

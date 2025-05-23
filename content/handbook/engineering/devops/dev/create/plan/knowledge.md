@@ -120,7 +120,7 @@ The purpose of this meeting is to:
 - Reprioritize
 - Ask for help
 
-DRIs should keep issues up to date with [workflow labels](/handbook/engineering/development/dev/plan/knowledge/#use-of-labels) and [health status](/handbook/engineering/development/dev/plan/#keeping-health-status-accurate) on an ongoing basis rather than waiting for this meeting.
+DRIs should keep issues up to date with [workflow labels](/handbook/engineering/devops/dev/plan/knowledge/#use-of-labels) and [health status](/handbook/engineering/devops/dev/plan/#keeping-health-status-accurate) on an ongoing basis rather than waiting for this meeting.
 
 #### Planning Meeting (monthly)
 
