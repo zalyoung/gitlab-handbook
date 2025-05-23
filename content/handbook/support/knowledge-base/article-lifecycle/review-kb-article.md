@@ -18,4 +18,4 @@ Technical Reviewers can find content needing review by going to the [Manage Arti
 1. If article was assigned to you, hover over your icon in the article to review any notes from the author.
 1. Review the article for technical accuracy and make changes. Work with the author if you are unsure of content. You can share a [link to your revisions](https://support.zendesk.com/hc/en-us/articles/4408829321498-Viewing-article-revisions-and-restoring-a-previous-version#topic_whs_hmr_t1b) in the history.
 1. Review and apply appropriate Section, Labels and Content tags under "Placement".
-1. Approve the article and [publish](./publish-kb-article/) through magic unknown to the person writing this article. 
+1. Approve the article and [publish](./publish-kb-article/) through magic unknown to the person writing this article.
