@@ -12,7 +12,7 @@ The CustomersDot Admin Support Tools implementation is tracked in this [epic](ht
 
 ## Where the tool is located 
 
-The CustomersDot Admin Support Tools can be found by log in into https://customers.gitlab.com/admin. Then scroll down to the **Support** section in the left panel.
+The CustomersDot Admin Support Tools can be found by logging into https://customers.gitlab.com/admin. Then scroll down to the **Support** section in the left panel.
 
 In the **Support** section you will have the following tools to select from:
 
