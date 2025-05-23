@@ -113,7 +113,6 @@ Enterprise Solutions Architects typically support sales teams made up of Sales D
 
 1. **Salesforce**
 [To-do] Add info on views and reports to use during the sales cycle. Also, guidance on SA being listed on opportunities and accounts (there is not any info in our current handbook)
-1. **Gainsight** Primarily for account planning in partnership with SAE and CSM. The easiest way to access Gainsight is via Salesforce. See the [Account Planning in Gainsight](/handbook/sales/gainsight/account-planning/) page for details.
 1. **Slack** Create a public internal team slack channel for your cross-functional team. This will allow you to collaborate easily without sending DM's.
 1. **Google Drive** There is a shared [GitLab Sales](https://drive.google.com/drive/folders/0BzQII5CcGHkKSFFJWkx3R1lUdGM?usp=sharing) folder. Running customer notes and other documents related to a specific customer should be stored in the [Customers and Prospects Subfolder](https://drive.google.com/drive/folders/0B-ytP5bMib9Ta25aSi13Q25GY1U?usp=sharing) under the appropriate letter and customer name subfolder.
 1. <b>[GitLab Account Management Project](https://gitlab.com/gitlab-com/account-management)</b> may be used for a POV and/or CSM collaboration with a customer post-sale.
@@ -121,7 +120,7 @@ Enterprise Solutions Architects typically support sales teams made up of Sales D
 
 ### Account Planning
 
-Account planning helps the SAE and the SA elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. It is a critical step in strategically supporting the customer at the account level, and facilitates more efficient opportunity planning. See the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning) page for details.
+Account planning helps the SAE and the SA elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. It is a critical step in strategically supporting the customer at the account level, and facilitates more efficient opportunity planning. 
 
 ### Quarterly Exchange
 
