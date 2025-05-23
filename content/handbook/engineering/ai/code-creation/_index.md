@@ -112,18 +112,18 @@ Here are other groups within GitLab that we work closely with:
 
 ### AI Powered Stage
 
-- [AI Powered Stage](/handbook/engineering/development/data-science/ai-powered)
-- [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)
+- [AI Powered Stage](/handbook/engineering/ai/data-science/ai-powered)
+- [AI Framework](/handbook/engineering/ai/data-science/ai-powered/ai-framework/)
   - Collaborate on datasets for evaluations
-- [AI Model Validation](/handbook/engineering/development/data-science/ai-powered/model-validation/)
-- [Custom Models](/handbook/engineering/development/data-science/ai-powered/custom-models/)
-- [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/)
+- [AI Model Validation](/handbook/engineering/ai/data-science/ai-powered/model-validation/)
+- [Custom Models](/handbook/engineering/ai/data-science/ai-powered/custom-models/)
+- [Duo Chat](/handbook/engineering/ai/data-science/ai-powered/duo-chat/)
   - Collaborate on code related slash commands: `/explain`, `/refactor`, `/tests`, `/fix`
 
 ### ModelOps Stage
 
-- [ModelOps Stage](/handbook/engineering/development/data-science/modelops/)
-- [MLOps](/handbook/engineering/development/data-science/modelops/mlops/)
+- [ModelOps Stage](/handbook/engineering/ai/data-science/modelops/)
+- [MLOps](/handbook/engineering/ai/data-science/modelops/mlops/)
 
 ## Engineering Onboarding
 
