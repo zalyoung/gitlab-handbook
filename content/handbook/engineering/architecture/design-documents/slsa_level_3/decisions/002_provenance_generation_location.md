@@ -126,7 +126,6 @@ If needed, provenance generation can be handled by background jobs to further mi
 - Provenance generation is integrated with existing GitLab infrastructure.
 - User experience is simplified through GitLab UI configuration.
 - No additional services or infrastructure required.
-- Trusted provenance with verified runner identity.
 
 ### Negative
 
