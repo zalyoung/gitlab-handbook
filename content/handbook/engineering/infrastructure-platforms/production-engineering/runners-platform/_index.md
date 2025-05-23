@@ -28,6 +28,7 @@ The Runners Platform team focuses on:
 ## Collaboration Model
 
 We work in close partnership with the Verify:Runners team, where:
+
 - **Runners Platform team** provides the management interfaces and infrastructure foundation
 - **Verify:Runners team** focuses on product offerings and determines how to best utilize the platform capabilities
 - Both teams collaborate to ensure features are stable, reliable, and production-ready
