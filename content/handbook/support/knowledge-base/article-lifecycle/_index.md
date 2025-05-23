@@ -11,7 +11,6 @@ These articles cover the lifecycle of creating, reviewing, and publishing an art
 - Article Awaiting Review  (Article will be reviewed by the KCS Team to make sure formatting and details are accurate. An Editorial review. Once the article is reviewed, itis moved into Awaiting REview and a Knowledge Champion/Technical Reviewer will be assigned, or take the article and PUBLISH)
 - Article is PUBLISHED
 
-
 **Knowledge Article MODIFY or UPDATE Process**
 - Article needs to be in EDIT status. (To do this, go to the manage article list, open the published article. The article will then be editable.)
 - Make your edits . The Article will be back in the "In Progress" status
