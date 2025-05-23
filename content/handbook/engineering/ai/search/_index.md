@@ -76,7 +76,7 @@ Whenever possible, we prefer to communicate asynchronously using issues, merge r
 
 ## Work
 
-We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/development/dev/foundations/search/#stable-counterparts) section above.
+We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/ai/search/#stable-counterparts) section above.
 
 Below are a few guidelines the team follows in the day-to-day work.
 
@@ -118,7 +118,7 @@ We review the bugfix merge requests every week. To facilitate this process, we h
 The team has been actively working on enabling Elasticsearch powered Advanced Search on GitLab.com. [Based on our analysis](https://gitlab.com/groups/gitlab-org/-/epics/1736), we set our first target to roll this feature out for all the paid groups on GitLab.com. You can find more details about the timeline and progress in the links below.
 
 - [Plan of Advanced. Search Rollout on GitLab.com](https://gitlab.com/groups/gitlab-com/-/epics/649)
-- [Steps and Enhancements of Advanced Search Rollout on GitLab.com](/handbook/engineering/development/dev/foundations/search/es-rollout-timeline/)
+- [Steps and Enhancements of Advanced Search Rollout on GitLab.com](/handbook/engineering/ai/search/es-rollout-timeline/)
 
 ### Severity Labels for Search Issues (`~advanced search`, `~global search`)
 
@@ -187,7 +187,7 @@ When onboarding domain experts from other groups to help cover production incide
 
 ### JTBD
 
-We utilize the [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD) framework to better understand our customers' and users' needs. You can view the current list of our JTBD [here](/handbook/engineering/development/dev/foundations/search/jtbd/#jobs-to-be-done).
+We utilize the [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD) framework to better understand our customers' and users' needs. You can view the current list of our JTBD [here](/handbook/engineering/ai/search/jtbd/#jobs-to-be-done).
 
 ### Performance Testing
 
