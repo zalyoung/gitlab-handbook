@@ -19,7 +19,7 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 **Pros:**
 
 - Already implemented.
-- Could captures files read and written by the build job.
+- Can track files read and written by the build job (not implemented).
 - Easy setup, enabled by a single CI/CD variable.
 
 **Blockers:**
@@ -30,7 +30,7 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 
 **Pros:**
 
-- Could captures files read and written by the build job.
+- Can track files read and written by the build job.
 
 **Cons:**
 
@@ -54,7 +54,7 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 
 **Cons:**
 
-- Can't track files read and commands executed by the build.
+- Cannot track files read and written by the build job.
 
 ### 4. GitLab Workhorse
 
