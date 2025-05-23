@@ -23,6 +23,17 @@ We will start all CAA requests (with the exception of Contract Reviews) by **sha
 
 **Please do not assign the issue. Field Security will assign the issue to the appropriate team member. Thank you!**
 
+### Accessing the Trust Center
+
+To access GitLab's Trust Center:
+
+- Navigate to trust.gitlab.com
+- Click "Get Access" in the top right corner
+- Enter your email address, and click "Continue"
+- **Do not click "Log into GitLab's workspace.** That is for the admin portal.
+
+The process is exactly the same for customers. If customers do not want to sign the click-wrap NDA, and they already have a fully-executed NDA in SFDC or an active GitLab subscription, we can bypass the click-wrap NDA on our end. Please note, **this should be a last resort**, as it will further delay their access to the trust center. The fastest way to drive customers towards success is to encourage them to leverage the self-service nature of the trust center to its fullest extent. If you have any questions, please reach out in the #sec-fieldsecurity Slack channel.
+
 ### For Questionnaires
 
 The process will be handled in SafeBase. Customers/prospects who have access to the [Trust Center](https://trust.gitlab.com) can directly upload questionnaires by clicking the *Submit a Questionnaire* link at the top of the Trust Center.
