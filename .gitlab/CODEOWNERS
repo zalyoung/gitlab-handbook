@@ -117,7 +117,9 @@
 /content/handbook/engineering/data-engineering/analytics/monitor/platform-insights.md @dennis @nicholasklick
 /content/handbook/engineering/data-engineering/analytics/monitor/optimize.md @dennis @blabuschagne
 /content/handbook/engineering/ai/data-science/ @timzallmann 
-/content/handbook/engineering/devops/dev/ai/search/ @changzhengliu
+/content/handbook/engineering/ai/search/ @changzhengliu
+/content/handbook/engineering/ai/code-creation/ @mnohr @jordanjanes
+/content/handbook/engineering/ai/editor-extensions/ @dashaadu @kisha.mavryck
 /content/handbook/engineering/ai/data-science/ai-powered/ai-framework @timzallmann
 /content/handbook/engineering/ai/data-science/ai-powered/custom-models @timzallmann
 /content/handbook/engineering/ai/data-science/ai-powered/duo-chat @juan-silva @timzallmann
@@ -125,15 +127,9 @@
 /content/handbook/engineering/ai/data-science/ai-powered/model-validation @timzallmann
 /content/handbook/engineering/ai/data-science/modelops/ @timzallmann
 /content/handbook/engineering/development/database.md @alexives
-/content/handbook/engineering/devops/dev/ @timzallmann
+/content/handbook/engineering/devops/dev/ @m_gill
 /content/handbook/engineering/devops/dev/create/ @dsatcher
-/content/handbook/engineering/devops/dev/create/code-creation/ @mnohr @jordanjanes
-/content/handbook/engineering/devops/dev/create/editor-extensions/ @dashaadu @kisha.mavryck
 /content/handbook/engineering/devops/dev/create/remote-development/ @adebayo_a
-/content/handbook/engineering/devops/dev/foundations/ @m_gill @samdbeckham @wortschi
-/content/handbook/engineering/devops/dev/foundations/design-system @samdbeckham
-/content/handbook/engineering/devops/dev/foundations/import-and-integrate/ @wortschi
-/content/handbook/engineering/devops/dev/foundations/personal-productivity @samdbeckham
 /content/handbook/engineering/devops/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
 /content/handbook/engineering/devops/dev/plan/knowledge.md @vshushlin
 /content/handbook/engineering/devops/dev/plan/product-planning.md @kushalpandya
