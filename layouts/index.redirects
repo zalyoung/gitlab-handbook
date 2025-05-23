@@ -106,14 +106,14 @@
 # Non-existent Incubation department - remove 2025-07-29
 /handbook/engineering/development/incubation/ /handbook/engineering/development/ 301
 /handbook/engineering/development/incubation/5-min-production/ https://docs.gitlab.com/cloud_seed/ 301
-/handbook/engineering/development/incubation/ai-assist/ /handbook/engineering/development/data-science/ai-powered/ 301
+/handbook/engineering/development/incubation/ai-assist/ /handbook/engineering/ai/data-science/ai-powered/ 301
 /handbook/engineering/development/incubation/airflow/ https://docs.gitlab.com/ci/yaml/needs/ 301
 /handbook/engineering/development/incubation/apm/ https://docs.gitlab.com/operations/ 301
 /handbook/engineering/development/incubation/cloud-seed/ https://docs.gitlab.com/cloud_seed/ 301
 /handbook/engineering/development/incubation/dependency-firewall/ https://docs.gitlab.com/user/packages/dependency_proxy/ 301
 /handbook/engineering/development/incubation/istio/ https://docs.gitlab.com/charts/installation/tools/ 301
-/handbook/engineering/development/incubation/mlops/ /handbook/engineering/development/data-science/modelops/ 301
-/handbook/engineering/development/incubation/mlops/* /handbook/engineering/development/data-science/modelops/ 301
+/handbook/engineering/development/incubation/mlops/ /handbook/engineering/ai/data-science/modelops/ 301
+/handbook/engineering/development/incubation/mlops/* /handbook/engineering/ai/data-science/modelops/ 301
 /handbook/engineering/development/incubation/mobile-devops/ https://docs.gitlab.com/ci/mobile_devops/ 301
 /handbook/engineering/development/incubation/mobile-devops/* https://docs.gitlab.com/ci/mobile_devops/ 301
 /handbook/engineering/development/incubation/monitor-apm/ https://docs.gitlab.com/operations/ 301
