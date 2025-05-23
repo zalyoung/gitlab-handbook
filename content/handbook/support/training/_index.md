@@ -111,6 +111,7 @@ The GitLab Support pathway covers all platforms that we offer. In completing the
 | ------ | ------ | ------ |
 | [Working on Tickets](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Working%20On%20Tickets) | 2 Weeks | Help customers by pairing with Support Engineers and replying to tickets |
 | [GitLab-com SaaS Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20SaaS%20Basics) | 2 Weeks | Understand the basics to answer GitLab.com (SaaS) product related tickets |
+| [Introduction to GitLab Architecture](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?description_template=Introduction%20to%20GitLab%20Architecture&issue%5Btitle%5D=YOUR%20NAME%20-%20Introduction%20to%20GitLab%20Architecture) | 1 Week | Understand GitLab architecture |
 | [GitLab Installation & Administration Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=GitLab%20Installation%20and%20Administration%20Basics) | 1 Week | Understand the different ways in which GitLab can be installed and managed |
 | [Self-Managed Support Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Self-Managed%20Basics) | 2 Weeks | Understand the basics to answer Self Managed product related tickets |
 | [GitLab Dedicated Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Dedicated) | 1 Week | Understand the basics to answer GitLab Dedicated related tickets |
