@@ -62,14 +62,6 @@ dast:
 
     > To highlight some variables, `DAST_TARGET_URL` and `DAST_AUTH_URL` provide a target for scanning and authentication. We provide credentials for authentication with `DAST_AUTH_USERNAME` and `DAST_AUTH_PASSWORD`. The `DAST_AUTH_USERNAME_FIELD` and related field variables tell DAST where to input login data. Our remaining settings are scan settings to help reduce the scan time for this demonstration.
 
-1. To provide the results of the DAST scanner to your security report, you can pass it as a job artifact:
-
-    ```yml
-    artifacts:
-        paths: [gl-dast-report.json]
-        when: always
-    ```
-
 1. After entering all of these values, your yaml file should look like this:
 
     ```yml
@@ -96,10 +88,6 @@ dast:
           DAST_AUTH_REPORT: "false"
           DAST_REQUEST_COOKIES: "welcomebanner_status:dismiss,cookieconsent_status:dismiss"
           DAST_CRAWL_GRAPH: "false"
-      artifacts:
-        paths: [gl-dast-report.json]
-        when: always
-
     ```
 
 1. Commit these changes and let the DAST scan run. You can monitor the job progress from **Build > Pipelines**.

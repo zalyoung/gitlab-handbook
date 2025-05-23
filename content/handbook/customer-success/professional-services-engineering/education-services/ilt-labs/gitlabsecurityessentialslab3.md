@@ -83,7 +83,7 @@ Now that you have dependencies added to your project, you want to ensure that th
       - component: ilt.gitlabtraining.cloud/components/dependency-scanning/main@main
     ```
 
-1. Select **Commit changes**, and keep the **Commit to the current main branch** selected. Select **Commit changes**.
+1. Write an appropriate commit message (ex. "Added Dependcy scanning to pipeline"), ensure that youa are committing to the main branch, and select **Commit changes**.
 
 To view the progress of your new pipeline:
 
@@ -138,7 +138,7 @@ To add infrastructure as code scanning to your project:
 
 1. Navigate to **Secure > Vulnerability Reports**.
 
-1. Review the results of your IaC scan. These results will be labeled as the SAST tool. Some examples include **Missing User Instructions** and **S3 bucket allows public policy**.
+1. Review the results of your IaC scan. We can filter by selecting the **Scanner** dropdown in th **Search or filter vulnerabilities...** bar and selecting **kics**. These results will be labeled as the SAST tool. Some examples include **Missing User Instructions** and **S3 bucket allows public policy**.
 
 ## Lab Guide Complete
 

@@ -206,6 +206,8 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
 1. Looking at the **Report Type** column in the **Development vulnerabilities** table, you'll see a variety of vulnerability detections for each tool we enabled.
 
+1. We want to see only the vulnerabilities found by the Advanced SAST scanner. We can filter by selecting the **Scanner** dropdown in th **Search or filter vulnerabilities...** bar and selecting **GitLab Advanced SAST** .
+
 1. Select one of the **Improper neutralization of special elements used in an SQL command ('SQL Injection')** vulnerability. You will see two tabs here, **Details** and **Code flow**. The **Details** tab shows general details about the vulnerability. The **Code flow** tab is a special feature provided by the advanced SAST scanner. This shows how your vulnerability is reached in your code.
 
 1. Review these different results. In the next lab, we will discuss how to triage and resolve these vulnerabilities. 
