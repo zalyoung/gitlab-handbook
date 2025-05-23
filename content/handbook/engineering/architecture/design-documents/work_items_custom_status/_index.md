@@ -441,7 +441,6 @@ We need to migrate statuses of work items in the following cases:
 1. A namespace transitions from system-defined statuses to custom statuses
 1. A user applies a different lifecycle to a work item type
 1. [A user creates statuses from labels or scoped labels](https://gitlab.com/gitlab-org/gitlab/-/issues/463083)
-1. A status will be deleted and its assigned work items need to be migrated to a new status
 
 We'll persist a mapping from one status to another in the database and run a job in the background
 that updates the status association.
@@ -609,6 +608,7 @@ This section documents key architectural and implementation decisions made durin
 and legacy epic board view will be included in Iteration 3 (Fast follow). If the new board experience is available by the time of implementation, we'll skip the legacy board
 view and focus on the new experience instead.
 1. [Backfill Custom Statuses](#backfill-custom-statuses-backup-option) is added as a backup option if later on we determine that migration from system-defined statuses to custom statuses poses more challenges than initially foreseen
+1. We do not allow deleting statuses if there are any work items in that status. Items must be moved to another status first.
 
 ## Resources
 
