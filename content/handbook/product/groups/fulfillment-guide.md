@@ -665,9 +665,9 @@ To access these functions, you need to be part of the following Google group:
 
 1. Submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=role_support-CDot-full-access-request-template)
 2. Select template `role_support-CDot-full-access-request-template` (above link auto-applies the template)
-2. Obtain approval from Support team managers
-3. Obtain approval from Fulfillment team managers (`@jameslopez` / `@rhardarson` / `@dzubova`)
-4. For access to Production, please add yourself to `okta-cdot-stg-support-admins` Google group, and `okta-cdot-prod-support-admins` for access to Staging
+3. Obtain approval from Support team managers
+4. Obtain approval from Fulfillment team managers (`@jameslopez` / `@rhardarson` / `@dzubova`)
+5. For access to Production, please add yourself to `okta-cdot-stg-support-admins` Google group, and `okta-cdot-prod-support-admins` for access to Staging
 
 **Note**: With the Support role, admins will get access to edit and extend SaaS trials, create self-managed emergency licenses and perform various controls on SaaS paid namespaces as listed in the section below.
 Customer and License write access is not required to use the Support admin functionalities. The admins will get read-only access to other resources, by default.
