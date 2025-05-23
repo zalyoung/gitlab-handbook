@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through the process of using depende
 
 > Estimated time to complete: 15 minutes
 
-## Task A. Add dDpendencies and IaC
+## Task A. Add Dependencies and IaC
 
 Our initial project has been built and we want to start on the deployment process. There are two areas we want to configure for our project. The first area is dependencies for our application. The second area is infrastructure for our application deployment. Let's set these up in our project. To add dependencies to your Python project, complete the following steps.
 

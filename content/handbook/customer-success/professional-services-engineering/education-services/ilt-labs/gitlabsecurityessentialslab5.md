@@ -114,7 +114,7 @@ dast:
 
 API scanners allow you to scan your application API endpoints for potential vulnerabilities. To demonstrate this process, we will use an application template which contains an API configuration.
 
-1. Navigate to your ILT group.
+1. Navigate to your ILT group, which will be named **My Test Group - XXXX**, where the X's will be replaced with your username.
 
 1. Select **New project**.
 
@@ -130,9 +130,9 @@ API scanners allow you to scan your application API endpoints for potential vuln
 
 1. Take some time here to review the `postman_collection.json` file. This file contains the definitions required to run API scanning against the application in this project. After reviewing the file and structure, you can proceed with enabling API scanning.
 
-1. Open your `.gitlab-ci.yml` file. 
+1. Create a `.gitlab-ci.yml` file by clicking on the **+ > New file** and naming the file `.gitlab-ci.yml`.
 
-1. To add API scanning to our container, define the `dast` job and add the API security template.
+1. To add API scanning to our container, define the `dast` stage and add the API security template.
 
   ```yml
   default:

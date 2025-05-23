@@ -133,7 +133,7 @@ With security scans in place, it would be ideal to be able to block merge reques
     print("Application authentication was successful")
     ```
 
-1. Select the branch icon, then select `Commit and push to 'test_branch'`. 
+1. Select the source control icon, then select `Commit and push to test_policy'`. 
 
 1. Return to your MR.
 
@@ -148,7 +148,7 @@ With security scans in place, it would be ideal to be able to block merge reques
     print("Application authentication was successful")
     ``` 
 
-1. Select the branch icon, then select `Commit and push to 'test_branch'`. 
+1. Select the source control icon, then select `Commit and push to 'test_policy`. 
 
 1. Return to your MR. 
 

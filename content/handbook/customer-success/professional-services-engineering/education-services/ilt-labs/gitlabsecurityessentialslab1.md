@@ -123,13 +123,12 @@ To provide more thorough scanning and vulnerability detection, we will opt to en
     include:
     - component: ilt.gitlabtraining.cloud/components/sast/sast@main
       inputs:
-        excluded_paths: venv
+        excluded_paths: venv/
         run_advanced_sast: true
     ```
 
-1. Click the **Commit changes** button, and add an appropriate commit message (ex. `Add Advanced SAST functionality`).
 
-1. Set the branch name to `sast-update`. Ensure that **Start a new merge request with this change** is checked, then click the **Commit changes** button.
+1. Set the branch name to `sast-update`. Ensure that **Start a new merge request with this change** is checked, and add dd an appropriate commit message (ex. `Add Advanced SAST functionality`). Click the **Commit changes** button.
 
 1. In the MR page after this, provide an appropriate title (such as `Enabled Advanced SAST in our pipeline`), and click **Create Merge Request**.
 
@@ -157,7 +156,7 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
     include:
     - component: ilt.gitlabtraining.cloud/components/sast/sast@main
       inputs:
-        excluded_paths: venv
+        excluded_paths: venv/
         run_advanced_sast: true
     - component: ilt.gitlabtraining.cloud/components/secret-detection/secret-detection@main
     ```
@@ -191,7 +190,7 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
     secret_detection:
       variables:
-        SECRET_DETECTION_EXCLUDED_PATHS: tests
+        SECRET_DETECTION_EXCLUDED_PATHS: tests/
     ```
 
 1. Set the branch to `main` and select **Commit changes**.
@@ -206,9 +205,9 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
 1. Navigate to **Secure > Vulnerability Report**.
 
-1. Looking at the **Tool** column in the **Development vulnerabilities** table, you'll see a variety of vulnerability detections for each tool we enabled.
+1. Looking at the **Report Type** column in the **Development vulnerabilities** table, you'll see a variety of vulnerability detections for each tool we enabled.
 
-1. Select the **Improper neutralization of special elements used in an SQL command ('SQL Injection')** vulnerability. You will see two tabs here, **Details** and **Code flow**. The **Details** tab shows general details about the vulnerability. The **Code flow** tab is a special feature provided by the advanced SAST scanner. This shows how your vulnerability is reached in your code.
+1. Select one of the **Improper neutralization of special elements used in an SQL command ('SQL Injection')** vulnerability. You will see two tabs here, **Details** and **Code flow**. The **Details** tab shows general details about the vulnerability. The **Code flow** tab is a special feature provided by the advanced SAST scanner. This shows how your vulnerability is reached in your code.
 
 1. Review these different results. In the next lab, we will discuss how to triage and resolve these vulnerabilities. 
 
