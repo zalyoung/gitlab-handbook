@@ -147,7 +147,7 @@ activities, you can spend the remaining time working on Stretch issues, which
 can be found on the same issue boards.
 
 These lower priority issues are _not_ expected to be done by the end of the
-iteration cycle, but are to be Deliverables in the _next_ cycle, so any progress
+iteration cycle, but are to be deliverables in the _next_ cycle, so any progress
 made on them ahead of time is a bonus.
 
 Stretch issues are usually not directly assigned to people, except in cases
@@ -190,7 +190,7 @@ ensure we are meeting these targets.
 
 Here are the Kibana dashboards that give a quick overview on how they perform:
 
-- [Create::Code Review Controller Actions](https://log.gprd.gitlab.net/app/visualize#/edit/f21d2820-8643-11eb-966b-2361593353f9?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))) (internal only)
+- [Create::Code Review: Controller Actions](https://log.gprd.gitlab.net/app/visualize#/edit/f21d2820-8643-11eb-966b-2361593353f9?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))) (internal only)
 - [Create::Code Review: API Endpoints](https://log.gprd.gitlab.net/app/visualize#/edit/89f9a6f0-8644-11eb-a990-d72c312ff8e9?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))) (internal only)
 - [Create::Code Review: Sidekiq Workers](https://log.gprd.gitlab.net/goto/b73a4a65e136eeedfa00b404a009e31f) (internal only)
 
@@ -207,8 +207,8 @@ We also have a dashboard specifically for monitoring AI features: [Create: Code 
 
 #### Issue identification process
 
-1. Every week we check the kibana and grafana dashboards as per the calendar invite
-2. If we identfiy an endpoint or worker that meets our severity criteria we create an issue (if not created already) and label it based on our severity and priority criteria
+1. Every week we check the Kibana and Grafana dashboards as per the calendar invite
+2. If we identify an endpoint or worker that meets our severity criteria we create an issue (if not created already) and label it based on our severity and priority criteria
    - If an issue is already created, check whether the severity/priority needs to be updated
 3. This issue should contain as much information on why it is the severity/priority as logs are often held for only 7 days
 4. Using a [specific performance issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/2621072) we can keep track of our current issues and they will be prioritized accordingly during planning
