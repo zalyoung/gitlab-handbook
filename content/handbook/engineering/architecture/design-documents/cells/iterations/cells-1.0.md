@@ -444,10 +444,10 @@ Details:
 
 Exit Criteria:
 
-- Admin user can create a new organization on Pre-QA cell.
+- Admin user can create a new organization on a cell.
 - New users can register to a organization via invite flow.
-- Users belonging to new organization can log into the Pre-QA cell.
-- Organization owners can create groups and projects
+- Users belonging to new organization can log into the cell.
+- Organization owners can create groups and projects.
 
 Before/After:
 
