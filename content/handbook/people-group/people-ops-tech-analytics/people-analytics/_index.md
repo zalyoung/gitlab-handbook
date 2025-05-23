@@ -12,6 +12,7 @@ People Analytics uses data-driven insights to improve talent decisions and workf
 **Our Mission:** Provide data insights to inform People decisions across GitLab by collecting and analyzing organizational, people, and talent data to improve business outcomes.
 
 **Key Objectives:**
+
 - **Reporting Solutions** - Automated People metrics dashboards for stakeholders (People Business Partners, Talent Acquisition, Leadership)
 - **Data Solutions** - Scalable data models built with the Data Team to support reporting and analytics
 - **Analytical Solutions** - Statistical analysis (clustering, regression, survival analysis) to drive business insights
@@ -19,6 +20,7 @@ People Analytics uses data-driven insights to improve talent decisions and workf
 ## Tools & Resources
 
 **Primary Tools:**
+
 - **Tableau** - Data visualization, dashboards, and ad-hoc analysis
 - **RStudio/R** - Statistical modeling and data cleaning. Learn more in our  [Rstudio handbook page](/handbook/enterprise-data/platform/rstudio/)
 - **Snowflake** - Data warehouse and SQL exploration
@@ -46,6 +48,7 @@ We maintain strict data governance through collaboration with People and Legal t
 Submit requests and ideas using issue templates in the [People Analytics project](https://gitlab.com/gitlab-com/people-group/people-analytics/general/).
 
 **External Resources:**
+
 - [Wharton People Analytics](https://wpa.wharton.upenn.edu/) - Annual conference and research
 - [AIHR People Analytics](https://www.aihr.com/blog/people-analytics-resource-library/) - HR and analytics resources
 - [HR Predictive Analytics](https://www.koganpage.com/hr-learning-development/predictive-hr-analytics-9781398615656) - Textbook with practical examples
