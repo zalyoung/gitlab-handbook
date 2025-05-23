@@ -56,7 +56,7 @@ Read more about the topic area from the links below:
   - [Architecture Diagram](https://gitlab.com/gitlab-org/spamcheck#architecture-diagram)
 - [Tanuki-Stan](https://gitlab.com/gitlab-org/ml-ops/tanuki-stan)
 - [UnReview](/handbook/engineering/ai/data-science/ai-powered/model-validation/projects/unreview/)
-  - [Architecture Diagram](/handbook/engineering/ai/data-science/appliedml/projects/unreview/#architecture)
+  - [Architecture Diagram](/handbook/engineering/ai/data-science/ai-powered/model-validation/projects/unreview/#architecture)
 
 ### Related ML Slack channels
 

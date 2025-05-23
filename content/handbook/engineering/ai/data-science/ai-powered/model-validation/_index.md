@@ -19,13 +19,12 @@ Model validation is the primary maintainer of our [Central Evaluation Framework]
 
 ## 🚀 Team members
 
-The team is composed of [ML engineers](/job-families/engineering/ai/data-science/machine-learning/) focused on ML science and MLOps backend, and they are permanent members of the AI Model Validation Group.
+The team is composed of [ML engineers](/job-families/engineering/development/data-science/machine-learning/) focused on ML science and MLOps backend, and they are permanent members of the AI Model Validation Group.
 
 | Who | Role |
 | --- | --- |
 | [Hongtao Yang](/handbook/company/team/#hongtaoyang) | ML Engineer |
 | [Andras Herczeg](/handbook/company/team/#andrasherczeg) | Senior ML Engineer |
-| [Stephan Rayner](/handbook/company/team/#srayner) | Senior ML Engineer |
 | [Tan Le](/handbook/company/team/#tle_gitlab) | Senior ML Engineer |
 | [Susie Bitters](/handbook/company/team/#susie.bee) | Senior Product Manager |
 
