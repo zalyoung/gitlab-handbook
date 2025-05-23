@@ -109,13 +109,13 @@ This is the only option that satisfies the critical SLSA Level 3 requirement tha
 
 The Rails backend has access to all necessary metadata to generate complete provenance statements, including:
 
-2. build ID (from job record)
-3. runner ID (verified by the backend)
 1. build ID (from job record)
-1. runner ID (verified by the backend)
-1. repository URL and commit SHA (from job payload)
-4. CI/CD variables (from job payload)
-5. artifact digests (stored in `ci` database accessible from backend)
+2. runner ID (verified by the backend)
+3. build ID (from job record)
+4. runner ID (verified by the backend)
+5. repository URL and commit SHA (from job payload)
+6. CI/CD variables (from job payload)
+7. artifact digests (stored in `ci` database accessible from backend)
 
 The performance impact of generating provenance statements is expected to be minimal compared to other operations performed by the Rails backend when jobs complete.
 If needed, provenance generation can be handled by background jobs to further minimize performance impact.
