@@ -139,11 +139,13 @@ App information:
   - Support Ops
 - This application was developed in-house and can be found [GitLab Views App project](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps/views-app).
 
-### Mechanizer
+### Mechanizer (Deprecated)
+
+Use  [CustomersDot Support Admin Tools](/handbook/support/license-and-renewals/workflows/customersdot/support_tools) instead.
 
 <sup>*Introduced via [support-team-meta#4208](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4208)*</sup>
 
-This app incorporates [Mechanizer](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer) into Zendesk.
+This app incorporates Mechanizer into Zendesk.
 
 App information:
 
