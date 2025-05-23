@@ -117,7 +117,7 @@ Please note that in order to extend or renew a trial, the customer **MUST** have
 
 #### Cancel Add-on Trial
 
-This tool is applicable when a namespace already have a Premium or Ultimate plan and they trial Duo Enterprise or Duo Pro on the namespace. The tool will remove Add-on Trial (Duo Enterprise or Duo Pro) from a namespace without affecting the Premium or Ultimate plan.
+This tool is applicable when a namespace already has a Premium or Ultimate plan and they trial Duo Enterprise or Duo Pro on the namespace. The tool will remove the Add-on Trial (Duo Enterprise or Duo Pro) from a namespace without affecting the Premium or Ultimate plan.
 
 - **Namespace ID/Path**: The customer namespace path as it appears in the URL or its ID.
 - **Add-on name**: Select the relevant Add-on name from the dropdown list.
