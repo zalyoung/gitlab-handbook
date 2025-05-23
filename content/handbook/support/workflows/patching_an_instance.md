@@ -73,7 +73,10 @@ gitlab-ctl restart
 
 ## Patching a Kubernetes install
 
-Patching a Kubernetes install involves doing the following steps:
+Patching a Kubernetes install involves the following steps.
+
+Before starting, ensure the `patchutils` package is installed on the host machine that will build the Docker image. This is
+required for the `filterdiff` command used in the `Dockerfile` to filter out test files (`spec`) from the patch.
 
 1. Identify the image we want to patch.
 
@@ -102,7 +105,7 @@ Patching a Kubernetes install involves doing the following steps:
     USER git
 
     RUN curl -o /tmp/$MR_IID.patch https://gitlab.com/gitlab-org/gitlab/-/merge_requests/$MR_IID.patch
-    RUN bash -c "cd /srv/gitlab; patch -p1 < /tmp/$MR_IID.patch || true"
+    RUN bash -c "cd /srv/gitlab; filterdiff -x '*/spec/*' /tmp/$MR_IID.patch > /tmp/filtered.patch; patch -p1 < /tmp/filtered.patch"
     ```
 
     Replace `registry.gitlab.com/gitlab-org/build/cng/gitlab-webservice-ee:v15.5.1` with the image you identified in step 1.
@@ -127,6 +130,7 @@ To revert the patch, you can edit the deployment to use the original image.
 
 **Note**:
 
+- The `filterdiff` command requires the `patchutils` package to filter out test files (`spec`) from the patch.
 - This process only applies to the Rails application ([the GitLab repository](https://gitlab.com/gitlab-org/gitlab)).
 You will need to patch a different image depending on the GitLab component, you want to patch.
 - This is different with [Patching the Rails code in the `toolbox` pod](https://docs.gitlab.com/charts/troubleshooting/kubernetes_cheat_sheet.html#patching-the-rails-code-in-the-toolbox-pod). Patching rails code directly in the `toolbox`
