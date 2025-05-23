@@ -34,7 +34,7 @@ Before we start creating a CI/CD process, we need some code to run our CI/CD pro
 
 1. Select **Commit changes**.
 
-1. In the **Branch name**, enter `initial-code`. Leave **Create a merge request for this change** checked. Select **Commit changes**.
+1. Click the radio button **Commit to a new branch**. This will give you an option to be able to create a new branch and merge request. In the **Branch name**, enter `initial-code`. Leave **Create a merge request for this change** checked. Select **Commit changes**.
 
 1. Leave all the merge request options at their defaults and select **Create merge request**.
 

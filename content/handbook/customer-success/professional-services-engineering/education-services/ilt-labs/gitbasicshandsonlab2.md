@@ -3,7 +3,7 @@ title: "GitLab Fundamentals - Hands-On Lab: Project Management with Issues and B
 description: "This Hands-On Guide walks you through the process of working with issues in GitLab."
 ---
 
-> Estimated time to complete: 30 minutes
+> Estimated time to complete: 15 minutes
 
 ## Objectives
 

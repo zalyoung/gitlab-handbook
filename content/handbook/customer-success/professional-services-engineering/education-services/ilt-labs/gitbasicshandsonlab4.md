@@ -63,7 +63,7 @@ In the center of the screen, you will see a message stating **Merge blocked**. I
 
 1. Select **Merge**.
 
-1. Once the merge completes, in the left sidebar, select **Code > Repositories**. 
+1. Once the merge completes, in the left sidebar, select **Code > Repository**. 
 
 You will now see your new file in the **main** branch of your code repository.
 

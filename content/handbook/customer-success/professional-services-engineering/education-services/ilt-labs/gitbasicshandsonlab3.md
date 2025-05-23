@@ -13,6 +13,8 @@ In this lab, we will explore how we can create repositories to organize code, as
 
 In the left sidebar, you will see a few new options available when you are in your project.
 
+1. Navigate to your **Cool App QA** project.
+
 1. In the left sidebar, select **Settings**. From the resulting dropdown, select **General**.
 
 1. Review the different settings available in general. Here you can toggle your project visibility, features enabled, as well as advanced options like moving and deleting projects.

@@ -23,7 +23,7 @@ When you select a CI/CD component, you will see a `Readme`, which describes how 
 
 ```yaml
 include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@<VERSION>
+  - component: ilt.gitlabtraining.cloud/components/sast/sast@1.0.0
 ```
 
 Let’s add this to our CI/CD file.
@@ -104,21 +104,17 @@ In this task, you'll add a file with known vulnerabilities and see if SAST detec
     print("Application authentication was successful")
     ```
 
-1. Add an appropriate **Commit message**.
+1. Add an appropriate **Commit message** and click the **Commit changes** button. Merge the code on the `initial-code` branch.
 
-1. Set the **Target Branch** to `main`.
-
-1. Click the **Commit changes** button.
-
-1. In the left-hand navigation pane, click **Build> Pipelines**.
+1. In the left-hand navigation pane, click **Build > Pipelines**.
 
 1. At the top of the row of the table of pipelines, click on the **running** (if it is still running) or **passed** (if the pipeline has been completed) status labels.
 
     > The SAST scan may take a few moments, so feel free to grab a cup of coffee while you wait.
 
-1. When the pipeline finishes, in the left navigation pane, click on **Secure > Vulnerability report**.
+1. Once the SAST scan has completed, in the left-hand pane, refresh the page, and click on the new tab in the pipeline details page called **Security**.
 
-1. Click any of the vulnerabilities and read about a potential security problem detected by SAST scanning in `run.py`.
+1. Click on the vulnerability listed and read about a potential security problem detected by SAST scanning in `run.py`.
 
 1. Feel free to edit the code to fix the issue raised (such as removing the `subprocess.run` command), and commit the changes. Does the vulnerability report still note the issue as present?
 
