@@ -428,7 +428,12 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Framework to sync clusterwide tables to all cells.
+- Following clusterwide tables are synced: `application_settings`, `plans`, `plan_limits`, `licenses`
+- All clusterwide tables that needs to be synced to all cells are identified, and marked as such in `db/docs`
+- Production fixtures are seeded including an admin user with an initial organization.
+- `ActiveRecord::Encryption` is the new default encryption framework (and supported by `TokenAuthenticatable`).
+- Personal access tokens and Runner tokens are migrated to use `ActiveRecord::Encryption`
 
 Before/After:
 
@@ -441,7 +446,10 @@ Details:
 
 Exit Criteria:
 
-- TBD
+- Admin user can create a new organization on Pre-QA cell.
+- New users can register to a organization via invite flow.
+- Users belonging to new organization can log into the Pre-QA cell.
+- Organization owners can create groups and projects
 
 Before/After:
 
