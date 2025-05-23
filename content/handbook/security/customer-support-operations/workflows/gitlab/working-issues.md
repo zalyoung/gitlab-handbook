@@ -24,7 +24,7 @@ Every week, on your last work day (for example, Friday) review your assigned iss
 
 - post a brief update
 - update the health status of the issue.
-- update the stage, if appropriate. For example, if the issue is Blocked: make sure that's the current stage.
+- update the stage, if appropriate. For example, if the issue is "Blocked" make sure that's the current stage.
 
 For convenience, there is a [Customer Support Ops Team group comment template](https://gitlab.com/groups/gitlab-com/gl-security/corp/cust-support-ops/-/comment_templates) called "Issue Status Update" that has all of the components.
 
