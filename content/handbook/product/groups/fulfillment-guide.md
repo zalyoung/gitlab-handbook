@@ -649,7 +649,6 @@ This document describes the Support Admin features that have been migrated from 
 **Current Status**: Migration is nearly complete, with the final function ([extend soon-to-expire SaaS subscriptions](https://gitlab.com/groups/gitlab-org/-/epics/17745)) being implemented in production.
 
 - For detailed information on the phased migration approach, see [Epic #14169](https://gitlab.com/groups/gitlab-org/-/epics/14169)
-- For future improvements or bug fixes, please create issues in [Epic #17745](https://gitlab.com/groups/gitlab-org/-/epics/17745)
 
 ### Access Requirements
 
@@ -657,17 +656,21 @@ The Support Admin features are currently limited to select members of the L&R su
 
 #### Required Permissions
 
-To access these functions, you need the following Okta group memberships:
+To access these functions, you need to be part of the following Google group:
 
 - **Production environment**: `okta-cdot-prod-support-admins`
 - **Staging environment**: `okta-cdot-stg-support-admins`
 
 #### How to Request Access
 
-1. Submit an Access Request (AR)
-2. Obtain approval from support team managers
+1. Submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?description_template=role_support-CDot-full-access-request-template)
+2. Select template `role_support-CDot-full-access-request-template` (above link auto-applies the template)
+2. Obtain approval from Support team managers
+3. Obtain approval from Fulfillment team managers (`@jameslopez` / `@rhardarson` / `@dzubova`)
+4. For access to Production, please add yourself to `okta-cdot-stg-support-admins` Google group, and `okta-cdot-prod-support-admins` for access to Staging
 
-**Note**: You do NOT need `license read/write permissions` on CustomersDot to use these new functions.
+**Note**: With the Support role, admins will get access to edit and extend SaaS trials, create self-managed emergency licenses and perform various controls on SaaS paid namespaces as listed in the section below.
+Customer and License write access is not required to use the Support admin functionalities. The admins will get read-only access to other resources, by default.
 
 ### Feature Navigation
 
@@ -793,6 +796,14 @@ This section provides various namespace management features:
 **Current Limitation**: If the namespace has been associated with a trial, you'll be redirected to extend the trial to provision a temporary extension
 
 **Future Development**: Support for extending subscriptions for namespaces without previous trials is being implemented in [Issue #12874](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/12874)
+
+### Future improvements / Bug fixes
+
+For future improvements or bug fixes, please create issues in [CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/new), and tag the appropriate team:
+
+1. Trial, license & namespace tooling > Provision
+2. Consumables & max seat tooling > Utilization
+3. Billing account/contact & QSR tooling > Subscription management
 
 ## Action plan for Fulfillment-impacting bugs
 
