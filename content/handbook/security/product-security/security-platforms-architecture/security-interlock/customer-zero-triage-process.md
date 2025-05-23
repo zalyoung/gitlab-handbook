@@ -21,5 +21,3 @@ Triagers may choose to either subscribe to the `C0Workflow::Backlog` label or pe
 1. Apply the label `C0Workflow::On Deck` to indicate this has been triaged and assigned. 
 
 You're Done!
-
-
