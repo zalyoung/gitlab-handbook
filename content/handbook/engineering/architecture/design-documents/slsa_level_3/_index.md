@@ -84,17 +84,14 @@ flowchart TD
     classDef controlPlaneStyle fill:#e1d5e7,stroke:#9673a6,stroke-width:1px,rx:5px,ry:5px
     subgraph BuildEnvironment["Build Environment"]
         Runner["Runner"]
-        CIConfig["GitLab CI Config<br>with SLSA Component"]
         BuildJob["CI/CD Build Job"]
         Artifacts["Build Artifacts"]
-        ProvenanceSigner["Provenance Signer Component"]
-        TempSignedAttestation["Temporary Signed<br>Attestation (Phase 1)"]
     end
     subgraph FutureWork["Dependency tracking"]
         VirtualRegistry["Virtual Registry<br>(Dependency Proxy)"]
         Dependencies[(Package & Container<br>Dependencies)]
     end
-    subgraph ControlPlane["ControlePlane"]
+    subgraph ControlPlane["Controle Plane"]
         subgraph GenerateProvenanceInControlPlane["Phase 2: Generate Provenance in Control Plane"]
             RailsBackend["GitLab Rails Backend"]
             DB[(GitLab Database)]
@@ -105,7 +102,7 @@ flowchart TD
         Rekor["Transparency Log<br>(Rekor)"]
         PermanentAttestation["Permanent Signed<br>Attestation"]
     end
-    subgraph Phase4["Phase 4"]
+    subgraph Phase4["Phase 4: Get private key from KMS"]
         ExternalKMS["External KMS"]
     end
     
@@ -114,7 +111,7 @@ flowchart TD
     RailsBackend -->|"0.1 Return job payload"| Runner
     Runner -->|"Executes"| BuildJob
     CIConfig -->|"Configuration"| BuildJob
-    BuildJob -->|"1 Generate"| Artifacts
+    BuildJob -->|"1 Upload"| Artifacts
     BuildJob -->|"2 Request Dependencies"| VirtualRegistry
     VirtualRegistry <-->|"3 Fetch/Track"| Dependencies
     
@@ -123,14 +120,13 @@ flowchart TD
     Artifacts -->|"5 Artifact Storage"| ProvenanceSigner
     ProvenanceSigner -->|"Store"| TempSignedAttestation
     ProvenanceSigner -->|"6 Pass Artifact"| RailsBackend
-    Runner -->|"7 Provide Runner Identity"| RailsBackend
-    RailsBackend <-->|"8 Query Metadata"| DB
+    RailsBackend <-->|"8 Query job parameters"| DB
     
-    RailsBackend -->|"9 Generate Provenance<br>Statement"| GlgoService
+    RailsBackend -->|"9 Send Provenance<br>Statement"| GlgoService
     GlgoService -.->|"Future Integration"| ExternalKMS
     GlgoService -->|"10 Return Signed<br>Attestation"| RailsBackend
     GlgoService -->|"11 Publish Attestation<br>Digest"| Rekor
-    RailsBackend -->|"12 Store"| PermanentAttestation
+    RailsBackend -->|"12 Upload"| PermanentAttestation
     
     %% Apply styles
     class FutureWork phaseStyle
