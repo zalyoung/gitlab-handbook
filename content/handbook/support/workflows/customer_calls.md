@@ -76,7 +76,7 @@ Various pieces of the Handbook can be used to justify a range of behaviors:
 
 At GitLab Support we use two operating principles to help us interpret the sometimes conflicting guidance:
 
-1. **[Customer Results](/handbook/values/#customer-results)**: *Our focus is to improve the results that customers achieve*
+1. **[Customer Results](/handbook/values/#results)**: *Our focus is to improve the results that customers achieve*
 1. **[Freedom and Responsibility over Rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity)**: *we give people the responsibility to make a decision and hold them accountable for that*
 
 Our customer-facing [Statement of Support section on video calls](https://about.gitlab.com/support/#phone-and-video-call-support) supports this:

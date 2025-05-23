@@ -18,4 +18,4 @@ Utilize JTBD and job statements to:
 
 ## Jobs To Be Done
 
-{{% jtbd "Global Search" %}}
+{{% product/jtbd "Global Search" %}}

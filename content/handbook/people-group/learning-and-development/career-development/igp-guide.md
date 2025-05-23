@@ -1,116 +1,134 @@
 ---
-title: Individual Growth Plan (IGP) Guide
-description: "Step by Step resource for team members filling out the GitLab Individual Growth Plan (IGP) "
+title: Your Individual Growth Plan (IGP) Journey
+description: "Your step-by-step resource for creating a meaningful Individual Growth Plan that drives your career forward"
 ---
+## Your Role as the Driver of Your Career
 
-This guide is for team members who are looking for guidance on how to complete their IGP. The guide will go through each section of the IGP including resources, inspiration, and suggestions for how to best use the IGP in Workday to plan and take action towards your career goals.
+**You are the Directly Responsible Individual (DRI) of your career journey.** This means you have the power to make decisions that best serve your growth. This guide offers direction, not rigid rules. At its heart, your Individual Growth Plan is a personal tool to reflect, set goals, and take meaningful action.
 
-## Your Role with the IGP
+After completing your IGP, the real magic happens when you commit to continuous learning:
 
-As the Directly Responsible Individual (DRI) of your career, it's your responsibility to make decisions that best serve your growth. Consider this course as guidance, not prescription. At its core, the Individual Growth Plan (or IGP) is a tool to reflect, set, and action on goals.
+- 📅 Block dedicated calendar time for your development
+- 🌱 Use this time for courses, certifications, stretch assignments, reading, or mentorship
+- 🔄 Share your learning journey with your team, especially if you're a manager
+- 🚀 Remember, when you prioritize your growth, you inspire others to do the same
 
-Once your IGP is complete, it's important to think about how you'll practice continuous learning.
-The best way to do this is to block calendar time for learning. This blocked time might start with your work on the IGP and evolve to taking a course, earning a certification, working on a stretch assignment, reading a book, or engaging in a mentor relationship. Socialize the time you're spending learning to your team - especially if you're a manager. We all play a role in modeling continuous learning at GitLab and encouraging others to prioritize their growth.
+## Section 1: What Inspires You?
 
-## Section 1: Discover your Inspiration
+Self-reflection provides the compass for your career decisions. In this section, you'll explore these 5 key questions:
 
-Reflection helps guide our career decisions. Section 1 of the IGP is focused on reflection, asking these 5 questions:
+1. What parts of your role light you up and keep you engaged?
+1. What work gives you that feeling of excitement and belonging?
+1. Which areas of your work leave you feeling drained?
+1. How do you learn best and most naturally?
+1. Looking ahead 2-3 years, what role do you envision for yourself and why?
 
-1. What parts of your role are most engaging?
-1. What work brings the greatest sense of excitement and belonging?
-1. Which areas of work feel draining?
-1. How do you like to learn?
-1. In 2-3 years, what role would you like to be in and why?
+**Be flexible with yourself here.** You might choose to dive deep using tools like:
 
-Be flexible with yourself in this section. Some choose to make this an elaborate reflection and lean on resources like the [Myers Briggs assessment](https://www.16personalities.com/free-personality-test), [Strengths Finder assessment](https://www.gallup.com/cliftonstrengths/en/home.aspx), or [learning style definition](https://edugage.com/what-is-my-learning-style/). Others treat it like a quick check-in.
+- [Myers Briggs assessment](https://www.16personalities.com/free-personality-test)
+- [Strengths Finder assessment](https://www.gallup.com/cliftonstrengths/en/home.aspx)
+- [Learning style exploration](https://edugage.com/what-is-my-learning-style/)
 
-**Get Inspired: Listen to a group of GitLab team members share what gives them energy, and what drains them, at work. Do you notice any of the same trends in your own reflection?**
+Or you might prefer a simpler check-in approach. Both are perfectly valid!
 
-**What energizes you?**
+**Need inspiration? Listen to fellow GitLab team members share what energizes and drains them at work:**
+
+**What brings you energy?**
 
 {{< youtube "vkFVwW-sovA" >}}
 
-**What drains your energy?**
+**What depletes your energy?**
 
 {{< youtube "ST2IA-4iX-E" >}}
 
-**Tip: Having trouble answering these questions? Try using a journal to record your energy throughout the day for 1 week, then look back at what drained or energized you.**
+**Stuck on these questions?** Try this: Keep a simple energy journal for one week. Note when you feel energized or drained throughout your workday, then look for patterns to guide your reflection.
 
-## Section 2: Narrow your Focus
+## Section 2: Finding Your Focus
 
-Knowing your growth direction helps you set goals and find the right resources. This is the goal of Section 2 of the IGP - to clarify your role trajectory by focusing on the following 3 questions:
+Understanding your desired growth direction helps you set meaningful goals and find the right resources. In this section, you'll clarify your role trajectory by answering these 3 questions:
 
-1. Do you want to stay on your current team or try something new?
-1. Would you like to manage a team or department?
-1. Would you like to stay as an individual contributor and develop a specific area of expertise?
+1. Do you want to continue growing on your current team or explore something new?
+1. Are you interested in managing a team or department someday?
+1. Would you prefer developing specialized expertise as an individual contributor?
 
-Think big in this section. Do you want to become a manager? Are you growing as an IC leader? Maybe you're ready for a career transition to a new team. Remember that at GitLab, career growth is non-linear - we grow in all directions.
+**Dream big here!** Consider various paths:
+
+- Maybe you're curious about management
+- Perhaps you're excited to deepen your expertise as an IC leader
+- You might be ready for a career transition to a new team
+
+Remember, at GitLab, career growth isn't limited to climbing a ladder. We grow in all directions!
 
 ![infographic showing examples of non-linear careers at GitLab](/images/people-group/learning-and-development/career-development/non-linear.png)
 
-## Section 3: Set your Intention
+## Section 3: Setting Your Intention
 
-Done exploring for now? It's time to populate section 3 of the IGP. Setting your eyes on the future, section 3 prompts you to think about your medium-term goals. Think about what you want your next career step to be (from section 2) and how you will know you are successful by answering the following 2 questions:
+Now that you've explored possibilities, it's time to get specific in Section 3. Looking toward your future, you'll articulate your medium-term goals by answering:
 
-1. What accomplishments would you like to achieve to help you reach your career objectives?
-1. How will you know that you have been successful?
+1. What specific accomplishments would help you reach your career objectives?
+1. How will you recognize when you've been successful?
 
-A few examples of how to answer those questions are below:
+Here are some examples to spark your thinking:
 
-| Example | Accomplishments | Measuring Success |
+| Your Scenario | Your Accomplishments | Measuring Your Success |
 | ----- | ------------ | ------------ |
-| Lateral Career Move | I want to learn more about product management and what types of skills are needed to pursue product management as a career. | I will know I have been successful if I can clearly articulate whether I am interested in a career in product management in 6 months. |
-| Aspiring Manager | I would like to become a people manager as part of my journey to leading a functional area. | I will know I have been successful if I am managing a team of 3 team members. |
-| IC Growth | I would like to become a technical expert in data integrations. | I will know I have been successful if I am able to lead a data integration project for a key customer account. |
+| Exploring a Lateral Move | "I want to learn more about product management and develop the skills needed in that field." | "In 6 months, I'll be able to clearly articulate whether product management is a good fit for my career path." |
+| Aspiring to Management | "I aim to develop the skills needed to become an effective people manager as part of my journey toward leading a functional area." | "I'll know I've succeeded when I'm confidently managing a team of 3 team members." |
+| Growing as an IC | "I want to become a recognized technical expert in data integrations." | "Success means leading a data integration project for a key customer account." |
 
-## Set Development Goals
+## Creating Your Development Goals
 
-Now that you set your intention, it's time to set specific development goals to help you reach your career objectives. Team members should focus on setting 1-3 development goals per review period to help them reach their overall career goals.
+With your intentions set, it's time to create specific development goals that will help you reach your career objectives. Focus on 1-3 meaningful development goals per review period.
 
-When setting your development goals, try to make your goals specific.  Think about and include details such as:
+Make your goals concrete by considering:
 
-1. What resources or support will you need?
-1. How will this support your career goals?
-1. What actionable steps will you take to reach your goal?
-1. How will you engage your network?
-1. What challenges do you anticipate?
+1. What specific resources or support will help you succeed?
+1. How does each goal connect to your broader career aspirations?
+1. What actionable steps will you take to achieve each goal?
+1. How will you engage your network for support and feedback?
+1. What challenges might you face, and how will you address them?
 
-Think creatively about your development goals, focusing on the [70-20-10 rule for development](/handbook/people-group/learning-and-development/career-development/#70-20-10-rule-for-development).
+Think creatively about your development using the [70-20-10 rule for development](/handbook/people-group/learning-and-development/career-development/#70-20-10-rule-for-development):
+
+- 70% from challenging experiences and assignments
+- 20% from relationships, networks, and feedback
+- 10% from formal training and education
 
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 75.93%; padding-top: 0; height: 0;"><iframe frameborder="0" width="300" height="250" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fd2aa9021efd0018b7c8eb" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
-If you need ideas or help finding development opportunities, [access this repository](/handbook/people-group/learning-and-development/career-development/#directory) of resources, programs, and learning platforms. Explore the directory of handbook links to guide you. Bookmark learning programs that are most relevant to the direction you'd like to grow.
+**Looking for development opportunities?** Explore our [resource repository](/handbook/people-group/learning-and-development/career-development/#directory) of programs and learning platforms. Bookmark resources that align with your growth direction.
 
-**Tip: If you can't find resources internally, refer to the Growth and Development Benefit to cover university programs, coding classes, external certifications, coaching programs, and more.**
+**Pro Tip:** If you can't find what you need internally, remember the Growth and Development Benefit can cover university programs, coding classes, external certifications, coaching, and more!
 
-## Track, Reflect, and Iterate
+## Bringing Your Plan to Life: Track, Reflect, and Adapt
 
-The IGP is a dynamic tool to help support your growth and development. Workday will send a reminder for you to review and re-launch your IGP 6 months after your manager provides input. You can also set calendar reminders where appropriate so you don't forget to revisit your IGP. [Update your development goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) directly in Workday as you make progress against each one. Below are suggestions regarding how and when you might reference, reflect, and iterate on your goals and IGP:
+Your IGP is a living document designed to evolve with you. Workday will remind you to review and refresh your IGP every 6 months after your manager provides input. Consider setting your own calendar reminders to stay on track.
 
-1. Select a format to track your progress. Consider [these examples](/handbook/people-group/learning-and-development/career-development/#tracking-your-progress).
-1. Have at least one quarterly [career conversation](/handbook/people-group/learning-and-development/career-development/#having-career-conversations) with your manager during a 1:1.
-1. Review your IGP before completing the [Engagement Survey](/handbook/people-group/engagement#cultureamp-engagement-survey-overview) to incorporate in your feedback on career growth.
-1. Review before engaging in the [360 feedback program](/handbook/people-group/360-feedback/). Ask for feedback on your specific development areas.
-1. Include your lessons learned and growth opportunities in your [Talent Assessments](/handbook/people-group/talent-assessment).
+Remember to [update your development goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) directly in Workday as you make progress. Here are ways to keep your IGP alive throughout the year:
 
-Below is a sample timeline that you may want to follow when it comes to tracking, reflecting and iterating on your IGP, aligning with each half of the fiscal year.
+1. Choose a format that works for you to track your progress. Check out [these examples](/handbook/people-group/learning-and-development/career-development/#tracking-your-progress).
+1. Schedule at least one quarterly [career conversation](/handbook/people-group/learning-and-development/career-development/#having-career-conversations) with your manager during a 1:1.
+1. Review your IGP before completing the [Engagement Survey](/handbook/people-group/engagement#cultureamp-engagement-survey-overview) to provide informed feedback on your career growth.
+1. Before participating in the [360 feedback program](/handbook/people-group/360-feedback/), review your IGP and ask for specific feedback on your development areas.
+1. Include your growth journey and lessons learned in your [Talent Assessments](/handbook/people-group/talent-assessment).
 
-| Months | Activity | Resource |
+Here's a sample timeline to help you maintain momentum throughout the year:
+
+| When | Your Action | Helpful Resource |
 | ----- | ------------ | ------------ |
-| February | IGP Review/Iteration | [Workday User Guide - How to: Launch an Individual Growth Plan](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.4zqq3z25qo1i) |
-| March - July | Update your development goals as you make progress | [Workday User Guide - How to: Update Your Development Goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) |
-| August | IGP Review/Iteration | [Workday User Guide - How to: Launch an Individual Growth Plan](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.4zqq3z25qo1i) |
-| September - January | Update your development goals as you make progress | [Workday User Guide - How to: Update Your Development Goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) |
+| February | Review and refresh your IGP | [Workday Guide: Launching an Individual Growth Plan](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.4zqq3z25qo1i) |
+| March - July | Update your goals as you make progress | [Workday Guide: Updating Your Development Goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) |
+| August | Mid-year IGP review and refresh | [Workday Guide: Launching an Individual Growth Plan](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.4zqq3z25qo1i) |
+| September - January | Continue updating goals with your progress | [Workday Guide: Updating Your Development Goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) |
 
-## Additional Resources
+## Resources to Support Your Journey
 
-1. LinkedIn Learning Course: Building a Career Plan (course no longer available)
-1. Watch this interview with a GitLab team member who's used the IGP to plan a career transition at GitLab:
+1. Watch this interview with a GitLab team member who used their IGP to successfully navigate a career transition:
 
 {{< youtube "0ih0lMoKxN0" >}}
 
-1. Listen to team members speak about non-linear careers at GitLab:
+1. Listen to team members share their experiences with non-linear careers at GitLab:
 
 {{< youtube "ttQv6tCaDD0" >}}
 
-1. An [Engineering specific IGP Template](https://docs.google.com/spreadsheets/d/1hYkaQrPYhnp8V_8woCrig4cqIiL0G7eEzlwBS-7wGPk/edit). This templates combines multiple resources such as the [Engineering Career Framework](/handbook/engineering/careers/matrix/), [Career Conversation Meeting Template](https://docs.google.com/document/d/1ugfwvhOcX6xPuxsn_oqZi7HV8364nQ5VnGO42IDlZkU/edit), and [Job Framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0)
+1. If you're in Engineering, check out this [Engineering-specific IGP Template](https://docs.google.com/spreadsheets/d/1hYkaQrPYhnp8V_8woCrig4cqIiL0G7eEzlwBS-7wGPk/edit) that combines the [Engineering Career Framework](/handbook/engineering/careers/matrix/), [Career Conversation Meeting Template](https://docs.google.com/document/d/1ugfwvhOcX6xPuxsn_oqZi7HV8364nQ5VnGO42IDlZkU/edit), and [Job Framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0)

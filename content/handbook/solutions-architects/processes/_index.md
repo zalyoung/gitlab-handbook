@@ -97,7 +97,7 @@ At the end of the quarter each Inititative and OKR should be successfully closed
 
 ### Working Agreements
 
-Enterprise Solutions Architects typically support sales teams made up of Sales Development Representatives, Strategic Account Leaders and Customer Success Managers. Commercial Sales Solutions Architects support Mid-Market Account Executives and SMB Customer Advocates in a pooled model. When joining a sales team, establishing working agreements is critical to providing optimal service to the customers as well as the GitLab team. A sample template of working agreements is found below to help facilitate conversation and establish these agreements:
+Enterprise Solutions Architects typically support sales teams made up of Sales Development Representatives, Strategic Account Leaders and Customer Success Managers. High Velocity Sales Solutions Architects support Mid-Market Account Executives and SMB Customer Advocates in a pooled model. When joining a sales team, establishing working agreements is critical to providing optimal service to the customers as well as the GitLab team. A sample template of working agreements is found below to help facilitate conversation and establish these agreements:
 
 1. **Customer response time for emails and meeting followups** I will always do my best to provide same-day responses to customer inquiries and follow ups unless otherwise noted. I like to provide customers top-notch service, but interruptions can affect that target. I will use my out of office when traveling so customers can expect delayed responses during those times. Feel free to contact me if it's approaching the end of the day and you didn't see me address a customer request. Slack is the easiest way to find me most of the time.
 1. **Delivery Excellence** If the nature of my response requires a top-notch service needing me to contextualise my response in better and higher quality to our customers, I will collaborate with my GitLab sales team and set reasonable timelines for completions. Examples could be customized and tailored summaries of technical guidance as per our documentation (not just a url), suggested reference solutions architectures, and/or integrations with third-party technologies to GitLab.
@@ -279,9 +279,9 @@ Default alignment is maintained in the [EMEA AE-SA Alignment page](https://gitla
 
 When workload exceeds the SA's capacity or when there is a request from other departments, please reach out via `#emea-customer-success` Slack channel for assistance.
 
-### Commercial Engagement Model
+### High Velocity Engagement Model
 
-SA engagement for customer interactions, RFP's, audits and more ([how to engage a Commercial SA](/handbook/solutions-architects/processes/commercial/)) can be requested by an SMB or Mid-Market Account Executive or other GitLab team-member using the SA Request button on the Salesforce Opportunity. Find more information about engagement considerations, triage process and expectations in dedicated [Commercial Solutions Architecture Engagement Model](/handbook/solutions-architects/processes/commercial/#commercial-solutions-architecture-engagement-model) handbook page.
+SA engagement for customer interactions, RFP's, audits and more ([how to engage a High Velocity SA](/handbook/solutions-architects/processes/commercial/)) can be requested by a Mid-Market Account Executive or other GitLab team-member using the SA Request button on the Salesforce Opportunity. Find more information about engagement considerations, triage process and expectations in dedicated [High Velocity Solutions Architecture Engagement Model](/handbook/solutions-architects/processes/commercial/#high-velocity-solutions-architecture-engagement-model) handbook page.
 
 ### APAC Account Engagement Model
 

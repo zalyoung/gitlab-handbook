@@ -222,7 +222,7 @@ The Responsibilities, Requirements, and Additional Sklls for Public Sector Profe
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a first interview with the Regional Delivery Manager
 Candidates may be invited to schedule an interview with Professional Services Engineer peer or other Professional Service team Manager.
 Then, candidates will be required to deliver a demo of GitLab to a panel of Customer Success attendees using the Demo Guide.

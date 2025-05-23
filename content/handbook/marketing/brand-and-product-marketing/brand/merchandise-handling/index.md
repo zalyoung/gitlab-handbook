@@ -128,12 +128,13 @@ Your Finance Business Partner will provide budget guidance and approval for all 
 |    Brand & Product Marketing, Sales Development, Developer Relations & Strategy    |    Riley OHara `@rohara2`    |
 |    Direct Sales    |    Kaitlyn Sarmento `@KSarmento`    |
 |    Alliances & Channel    |    Kaitlyn Sarmento `@KSarmento`    |
-|    CS, Pro Serv, and SA    |    Olivia Alexander `@oalexander`    |
+|    CS, Pro Serv, and SA    |    Robert Callam `@rcallam`    |
 |    RS&A    |    Robert Callam `@rcallam`    |
 |    Engineering    |    Jessica Smith `@JessSmith`    |
 |    Product & UX    |    Jessica Smith `@JessSmith`    |
 |    Security    |    Petra Foget `@pfoget`    |
-|    G&A (CFO, People, Legal)    |    Nyasha Tarinda `@ntarinda`    |
+|    G&A (CFO)    |   Petra Foget `@pfoget`    |
+|    G&A (People, Legal)    |   Cameron Smith `@cam.smith`    |
 
 #### Team-specific budget considerations
 

@@ -35,7 +35,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/)
 - [Privacy Statement](https://about.gitlab.com/privacy/)
 - [Record Retention Policy](/handbook/legal/record-retention-policy/)
-- [Record Retention and Disposal Standards](/handbook/security/records-retention-deletion/)
+- [Record Retention and Disposal Standards](/handbook/security/standards/records-retention-deletion/)
 - [Related Party Transactions](/handbook/legal/gitlab-related-party-transactions-policy/)
 - [SAFE Framework](/handbook/legal/safe-framework/)
 - [Social Media Policy](/handbook/marketing/team-member-social-media-policy/)
@@ -52,7 +52,7 @@ Certain policies are now available [here](/handbook/people-policies/#translation
 - [Conflicts of Interest Disclosure Form](https://docs.google.com/forms/d/e/1FAIpQLSegpCkaD8L6mnCuT4cMnC1ohfE9mqEnoenx7h5YmT-OJqSyAA/viewform?usp=sf_link)
 - [Gifts & Entertainment Inquiry Form](https://docs.google.com/forms/d/e/1FAIpQLSfVOYD-YFXd-DZAOkzCukFLQWWT9tOSKOKd5ESI4kLP2zx3pA/viewform?usp=sf_link)
 - [AI Ethics Principles for Product Development](/handbook/legal/ethics-compliance-program/ai-ethics-principles/)
-- [Data Classification Standards](/handbook/security/data-classification-standard/)
+- [Data Classification Standards](/handbook/security/standards/data-classification-standard/)
 - [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#heading=h.b3pm8ljoip1y)
 - [External Materials Compliance Checklist](/handbook/legal/external-materials-compliance-checklist/)
 - [Insider Trading Policy FAQs](https://docs.google.com/document/d/1vKFiYuieDQtKmrak-aAB2dTT3B3Q-aU4DtbcRm27X4U/edit)
@@ -85,7 +85,7 @@ Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/medi
 
 ### Reporting Workplace Harassment (Non-Anonymous Only)
 
-Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab's [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab's Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab's Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab's [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab's Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab's Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 ### Reporting Concerns about Team Member Relations (Anonymously OR Non-Anonymously)
 
@@ -98,7 +98,7 @@ Reports can be made using the platform or through the following avenues, which a
 - E-mail: <reports@lighthouse-services.com> (must include company name with report)
 - Fax: (215) 689-3885 (must include company name with report)
 
-Team members may, in the alternative, report concerns about team member relations, including violations of GitLab's Anti-Harassment Policy, to GitLab's [Chief Legal Officer](mailto:rschulman@gitlab.com), [Chief People Officer](mailto:wbarnes@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+Team members may, in the alternative, report concerns about team member relations, including violations of GitLab's Anti-Harassment Policy, to GitLab's [Chief Legal Officer](mailto:rschulman@gitlab.com), [Chief People Officer](mailto:wbarnes@gitlab.com), the [Team Member Relations Team](/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 ### Manager Roles and Responsibilities
 

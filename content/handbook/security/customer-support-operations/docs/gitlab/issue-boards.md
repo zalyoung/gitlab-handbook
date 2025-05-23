@@ -12,12 +12,6 @@ Located [here](https://gitlab.com/groups/gitlab-com/gl-security/corp/cust-suppor
 
 This shows all non-closed issues in groupings of the stage they are in.
 
-## Upcoming
-
-Located [here](https://gitlab.com/groups/gitlab-com/gl-security/corp/cust-support-ops/-/boards/9235627?milestone_title=Upcoming)
-
-This shows non-closed issues that are using upcoming milestones in groupings of the stage they are in.
-
 ## Customer
 
 Located [here](https://gitlab.com/groups/gitlab-com/gl-security/corp/cust-support-ops/-/boards/9235628)

@@ -28,7 +28,7 @@ The following people are permanent members of the Growth:Activation team:
 
 We work directly with the following team members in the Growth:Activation group:
 
-{{< stable-counterparts role="Growth(.*)|Growth:Activation" manager-role="Engineering Manager(.*)Growth and Govern:Threat Insights" other-manager-roles="Director(.*)Growth(.*)|Engineering Manager(.*)Govern, and Growth|Sales|Activation" >}}
+{{< engineering/stable-counterparts role="Growth(.*)|Growth:Activation" manager-role="Engineering Manager(.*)Growth and Govern:Threat Insights" other-manager-roles="Director(.*)Growth(.*)|Engineering Manager(.*)Govern, and Growth|Sales|Activation" >}}
 
 ## How We Work
 
@@ -64,7 +64,7 @@ Prioritization is a collaboration between Product, UX, and Engineering.
 
 ### Workflow
 
-We use the [Product Development workflow](/handbook/product-development-flow/) when working on issues and
+We use the [Product Development workflow](/handbook/product-development/product-development-flow/) when working on issues and
 merge requests across multiple projects.
 
 We use the Activation development [workflow board](https://gitlab.com/groups/gitlab-org/-/boards/3558733?label_name%5B%5D=group%3A%3Aactivation) for work in the build phase of the product development flow.

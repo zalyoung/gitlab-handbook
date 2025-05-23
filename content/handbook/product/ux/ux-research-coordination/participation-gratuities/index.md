@@ -40,7 +40,7 @@ Such as:
 
 - Surveys, card sorts, and tree tests will often have a Promotion Game attached e.g. Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards. However, this is not always the case and should always be confirmed on your recruitment issue. On occasion our longer surveys are incentivezed per complete. This must be approved by the Senior UX Research Operations Coordinator or UX Research Manager. 
 
-If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards), please review the following information in the [handbook](/handbook/legal/ux-research-pilot/) and consult with legal where required. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional games or contests.
+If you are planning to recruit users through a promotional game or contest (e.g., Opportunity to win 1 of 3 $30 (or equivalent currency) Tremendous Gift cards), please review the following information in the [handbook](/handbook/legal/process-for-ux-research-prize-draws/) and consult with legal where required. For information on contacting legal, please refer to [how to reach us](/handbook/legal/#how-to-reach-us) in the Legal Team handbook page. Engaging legal for approval and creating an incentive request must be completed before conducting research involving promotional games or contests.
 
 ## Fulfillment
 

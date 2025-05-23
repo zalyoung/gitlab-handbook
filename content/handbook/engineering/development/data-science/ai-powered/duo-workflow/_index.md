@@ -15,7 +15,7 @@ The Duo Workflow group is focused on developing GitLab Duo Workflow, an AI syste
 
 **Product, Design & Quality**
 
-{{% stable-counterparts role="(Product Manager|Technical Writer|Software Engineer in Test|Security Engineer).*(Duo Workflow)" %}}
+{{% engineering/stable-counterparts role="(Product Manager|Technical Writer|Software Engineer in Test|Security Engineer).*(Duo Workflow)" %}}
 
 ### ☎️ How to reach us
 

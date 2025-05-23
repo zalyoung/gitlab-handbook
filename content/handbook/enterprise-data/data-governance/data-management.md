@@ -11,7 +11,7 @@ Data Management covers practices and policies around managing, securing, and gov
 
 ### Data Security Practices
 
-The Enterprise Data Platform captures, processes, and stores [data collected from many systems](/handbook/enterprise-data/platform/). Not all of this data is of the same importance and we use the [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) framework and [Data Classification Standard](/handbook/security/data-classification-standard/) to help us determine what data is most important and how to best secure it.
+The Enterprise Data Platform captures, processes, and stores [data collected from many systems](/handbook/enterprise-data/platform/). Not all of this data is of the same importance and we use the [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) framework and [Data Classification Standard](/handbook/security/standards/data-classification-standard/) to help us determine what data is most important and how to best secure it.
 
 ## Roles & Responsibilities
 
@@ -44,14 +44,14 @@ In the Data Platform at GitLab we have multiple categories. Its good to highligh
 | ------------- | ----------- | --------------- | ------------- | --------------- |
 | Data Classification | The type and level of data. | Red, Orange, Yellow, Green. | Red data is not allowed to be stored in the Data Platform. Follow the [general data security controls](/handbook/enterprise-data/data-governance/data-management/#general-data-security-controls). | No particular controls in place. |
 | MNPI | This is material non public information. | MNPI or not MNPI. | Follow the [SAFE Data guide](/handbook/enterprise-data/platform/safe-data/). | Access is granted by Permifrost. GitLab Team Members will become a designated insider. |
-| Sensitive data | Data that is considered to be kept sensitive and not be shared with all GitLab Team members by default. | Sensitive or not Sensitive. | Sensitive data is [masked](/handbook/enterprise-data/platform/dbt-guide/#sensitive-data) via DBT | Access is granted by Permifrost. | 
-| Personal data | Sometimes also referenced as PII. Any data that describes or is reasonably capable of being associated with or linked to an identifiable natural person. Full description on the [security handbook page](/handbook/security/data-classification-standard/#data-classification-definitions). | Personal data or not personal data | Work with our Legal Privacy team to obtain approval for processing personal data | Depends on legal guidance. [Masking](/handbook/enterprise-data/platform/dbt-guide/#sensitive-data) could be used (static or dynamic) if needed. |
+| Sensitive data | Data that is considered to be kept sensitive and not be shared with all GitLab Team members by default. | Sensitive or not Sensitive. | Sensitive data is [masked](/handbook/enterprise-data/platform/dbt-guide/#sensitive-data) via DBT | Access is granted by Permifrost. |
+| Personal data | Sometimes also referenced as PII. Any data that describes or is reasonably capable of being associated with or linked to an identifiable natural person. Full description on the [security handbook page](/handbook/security/standards/data-classification-standard/#data-classification-definitions). | Personal data or not personal data | Work with our Legal Privacy team to obtain approval for processing personal data | Depends on legal guidance. [Masking](/handbook/enterprise-data/platform/dbt-guide/#sensitive-data) could be used (static or dynamic) if needed. |
 | Sensitive Personal data | Data related to race/ethnicity, health or medical details, biometric or genetic data, religion, political affiliation or philosophy, sexual orientation, criminal offenses, citizenship/immigraion, or trade unions. | Sensitive personal data or not sensitive personal data | Privacy legislation prohibits the processing of these types of data elements, except in limited circumstances. Work with our Legal Privacy team to obtain approval for processing personal data and include People Operations, if sensitive Personal Data is related to GitLab Team Members |  Depends on legal guidance.  [Masking](/handbook/enterprise-data/platform/dbt-guide/#sensitive-data) could be used (static or dynamic) if needed.  |
 
 ### General Data Security Controls
 
 * For the purpose of defining Data Controls, the Enterprise Data Platform is a [Tier 1 system](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/).
-* `IMPORTANT`: [Customer Private RED data](/handbook/security/data-classification-standard/#red) is prohibited from permanent storage in the Enterprise Data Platform.
+* `IMPORTANT`: [Customer Private RED data](/handbook/security/standards/data-classification-standard/#red) is prohibited from permanent storage in the Enterprise Data Platform.
 
 | Control | RED | ORANGE | YELLOW |
 | :-- | :-- | :-- | :-- |

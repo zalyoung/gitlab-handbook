@@ -10,7 +10,7 @@ participating-stages: ["~devops::ai-powered", "~devops::create"]
 toc_hide: true
 ---
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Goals
 
@@ -237,7 +237,7 @@ understand large, interconnected datasets.
 ### Data access policy
 
 The retrieval process must comply with the
-[GitLab Data Classification Standard](../../../../security/data-classification-standard/).
+[GitLab Data Classification Standard](/handbook/security/standards/data-classification-standard/).
 If the user doesn't have access to the data, GitLab will not fetch the data for
 building a prompt.
 

@@ -85,7 +85,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/events/), as well as Project_ID, Namespace_ID/Group_ID, and the country and region of the user's location.
 
-*Opting-Out*: For GitLab.com, Snowplow Metrics pertain to individual pseudonymized user events and can only be opted-out on an individual basis using DNT signals.  However, please note that DNT signals depend on how the event is triggered and thus may not be recognized in all situations. For Self-Managed and Dedicated, Snowplow Metrics can be disabled through an in-app admin setting.
+*Opting-Out*: For GitLab.com, Snowplow Metrics pertain to individual pseudonymized user events and can only be opted-out on an individual basis using DNT signals.  However, please note that DNT signals depend on how the event is triggered and thus may not be recognized in all situations. For Self-Managed and Dedicated, Snowplow Metrics can be disabled through an in-app admin setting. In addition, please see our [FAQ](/handbook/legal/privacy/product-usage-events-faq/) for more information on scenarios where Snowplow Metrics are disabled on Self-Managed instances by default.
 
 ### License Sync
 

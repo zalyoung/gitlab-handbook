@@ -14,11 +14,11 @@ toc_hide: true
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
 
-{{< design-document-header >}}
+{{< engineering/design-document-header >}}
 
 ## Summary
 
-This blueprint proposes a solution for fine-tuning Duo Self-hosted models using Parameter-Efficient Fine-Tuning (PEFT). 
+This blueprint proposes a solution for fine-tuning Duo Self-hosted models using Parameter-Efficient Fine-Tuning (PEFT).
 
 ## Goal
 
@@ -113,7 +113,7 @@ flowchart LR
 
 #### Launching Fine-tuning in the UI
 
-As a first step for adapter training, the user would select a project or a collection of projects to use for fine-tuning in the UI. Once selected, the user will configure and launch the fine-tuning pipeline. 
+As a first step for adapter training, the user would select a project or a collection of projects to use for fine-tuning in the UI. Once selected, the user will configure and launch the fine-tuning pipeline.
 The configuration page will allow the user to:
 
 - Confirm the projects and select the file types for which the adapter will be trained
@@ -147,9 +147,9 @@ The fine-tuned service will be written using well-known HuggingFace libraries an
 
 #### Fine-tuned Model Evaluation
 
-Once the adapter is trained, the next step in the pipeline would evaluate it in terms of the overall performance and responses. 
+Once the adapter is trained, the next step in the pipeline would evaluate it in terms of the overall performance and responses.
 
-The evaluation step would use a small random sample from validation dataset to test the fine-tuned model and present the results to the customer. 
+The evaluation step would use a small random sample from validation dataset to test the fine-tuned model and present the results to the customer.
 
 Under the hood, the evaluation step will deploy a newly fine-tuned model using HuggingFace libraries and run the model on the prompts from the validation datasets. The model's outputs will then be evaluated against the ground truth responses using [Cosine Embedding Distance](https://python.langchain.com/v0.1/docs/guides/productionization/evaluation/string/embedding_distance/).
 
@@ -163,7 +163,7 @@ flowchart LR
  adapter2["Adapter 2"]
  adapter3["Adapter 3"]
  end
-    
+
  subgraph ui["UI"]
  project1["Project 1"]
  project2["Project 2"]
@@ -272,14 +272,14 @@ As a conclusion, it seems to be optimal to train the model for 30-40 minutes.
 
 ### Early Experimentation (PoC) results
 
-A PoC has been developed for Code Suggestions (code generation and completion) feature. The adapter was trained for [ai-gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) for Codestral-22B. The fine-tuned model has shown positive results on both manual and automated evaluations. 
+A PoC has been developed for Code Suggestions (code generation and completion) feature. The adapter was trained for [ai-gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) for Codestral-22B. The fine-tuned model has shown positive results on both manual and automated evaluations.
 
 For **manual** evaluations, the model has been deployed and tested with GitLab Duo Self-Hosted in the WebIDE. The fine-tuned model proposed code suggestions that are more aligned with the overall code structure than the base Codestral-22B model:
 
 [Results for manual evaluations in WebIDE](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2284037077)
 and [code completion results](https://gitlab.com/gitlab-org/gitlab/-/issues/505598#note_2285961471)
 
-In addition to the manual evaluations, the fine-tuned model was evaluated on several datasets where it also showed positive results (i.e. code suggestions were more aligned with existing code). 
+In addition to the manual evaluations, the fine-tuned model was evaluated on several datasets where it also showed positive results (i.e. code suggestions were more aligned with existing code).
 
 [Results for Code Completion using ELI5](https://gitlab.com/gitlab-org/gitlab/-/issues/508867#note_2290318225)
 
@@ -290,7 +290,7 @@ In the columns, the two numbers are: embedding similarity, exact match. Higher n
 | Model | code-suggestions-input-testcases-v1 | code_suggestions_aig_random_fim | code_suggestions_aig_signatures |
 | ------ | ------ | ------ | ------ |
 | Codestral-22B | 0.89, 0.03 | 0.84, 0.0 | 0.80, 0.0 |
-| LoRA+Codestral-22B | **0.91**, **0.17** | **0.87**, 0.0 | **0.85**, **0.05** | 
+| LoRA+Codestral-22B | **0.91**, **0.17** | **0.87**, 0.0 | **0.85**, **0.05** |
 
 Other models to be assessed: [Mistral Small 3](https://gitlab.com/gitlab-org/gitlab/-/issues/520221).
 

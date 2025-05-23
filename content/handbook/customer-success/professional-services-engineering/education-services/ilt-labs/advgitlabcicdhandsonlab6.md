@@ -21,23 +21,25 @@ For this task, we will be creating a web application to run in our review enviro
 
 1. Select **Edit > Edit in pipeline editor**.
 
-1. When we add express code into our `index.js` file, our tests will no longer be able to run against `index.js`, since running this will create a webserver that waits for connections. For now, we will comment our tests out. To do this, place a `.` character in front of each test job as shown below:
+1. When we add express code into our `index.js` file, our tests will no longer be able to run against `index.js`, since running this will create a webserver that waits for connections. For now, we will comment our tests out. To do this, place a `#` character in front of each line of the jobs as shown below:
 
     ```yml
-      .test binarysearch:
-        before_script:
-          - npm install -g jest
-        script:
-          - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
-        <<: [*artifactdef, *cachedef]
+      #test binarysearch:
+      #  before_script:
+      #    - npm install -g jest
+      #  script:
+      #    - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+      #  <<: [*artifactdef, *cachedef]
 
-    .test linearsearch:
-      before_script:
-        - npm install -g jest
-      script:
-        - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
-      <<: [*artifactdef, *cachedef]
+      #test linearsearch:
+      #  before_script:
+      #    - npm install -g jest
+      #  script:
+      #    - jest --ci --testResultsProcessor=jest-junit linearsearch.test.js
+      #  <<: [*artifactdef, *cachedef]
     ```
+    
+    > A tip when commenting multiple lines is to select them all and press **ctrl + /** on Windows or **cmd + /** on Macs to toggle between commented / uncommented. 
 
 1. Select **Commit changes**.
 
@@ -62,6 +64,8 @@ For this task, we will be creating a web application to run in our review enviro
       console.log(`Example app listening on port ${port}`)
     })
     ```
+
+1. Commit your changes.
 
 After these changes, the `index.js` file should look like this:
 
@@ -135,7 +139,7 @@ After these changes, the `index.js` file should look like this:
         - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     ```
 
-  > If for any reason GitLab does not display this script when clicking **Enable Review Apps**, just copy the reference script above to use.
+    > If for any reason GitLab does not display this script when clicking **Enable Review Apps**, just copy the reference script above to use.
 
 1. Navigate back to your code repository.
 

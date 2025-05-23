@@ -55,7 +55,7 @@ These are important projects that we maintain besides our involvement in the mai
 
 The following people are permanent members of the Analytics Instrumentation Group:
 
-{{< stable-counterparts role="Analytics.+Analytics.Instrumentation" >}}
+{{< engineering/stable-counterparts role="Analytics.+Analytics.Instrumentation" >}}
 
 ## Project management process
 
@@ -98,7 +98,7 @@ We're currently trialing a mixed retrospective format, we're team members pair o
 
 ### Workflow
 
-Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
+Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development/product-development-flow/#workflow-summary):
 
 #### Validation stage
 

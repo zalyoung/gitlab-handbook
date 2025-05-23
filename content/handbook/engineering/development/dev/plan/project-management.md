@@ -16,7 +16,7 @@ For more details about the vision for this area of the product, see the
 
 ### Stable counterparts
 
-{{% stable-counterparts manager-role="Engineering Manager(.*)Plan:Project Management" role="(.*)Plan:Project Management$|Product Manager(.*)Plan Stage|Security(.*)Plan|Engineering(.*)Plan$|Principal(.*)Plan$|Group(.*)Plan" %}}
+{{% engineering/stable-counterparts manager-role="Engineering Manager(.*)Plan:Project Management" role="(.*)Plan:Project Management$|Product Manager(.*)Plan Stage|Security(.*)Plan|Engineering(.*)Plan$|Principal(.*)Plan$|Group(.*)Plan" %}}
 
 ### Hiring chart
 
@@ -62,7 +62,7 @@ When estimating the effort involved in upcoming work, we use the same approach a
 
 #### Refining and organizing feature work
 
-To help drive alignment with our stable counterparts, provide visibility into progress, and breakdown our vision into a series of [MVCs](/handbook/product/product-principles/#the-minimal-valuable-changegegege-mvc), we collaborate with Product and UX during [`~workflow::planning breakdown`](/handbook/product-development-flow/#description-4) to refine and organize `~type::feature` deliverables into the following structure:
+To help drive alignment with our stable counterparts, provide visibility into progress, and breakdown our vision into a series of [MVCs](/handbook/product/product-principles/#the-minimal-valuable-changegegege-mvc), we collaborate with Product and UX during [`~workflow::planning breakdown`](/handbook/product-development/product-development-flow/#description-4) to refine and organize `~type::feature` deliverables into the following structure:
 
 - Feature (Epic) - Contains all of the necessary vertical feature slices to default the corresponding feature flag to "on". The feature epic will also serve as the location to generate a corresponding Release Post item MR. The feature epic should be scoped to the [minimal amount of functionality that still provides customer value](/handbook/product/product-principles/#the-minimal-valuable-change-mvc). Additional scope planned for future enhancements should be stored in follow-on epics.
   - Spike (Issue) - If we are unable to accurately estimate the effort necessary to implement the feature, we first conduct a [spike](#spikes)
@@ -102,7 +102,7 @@ functionally complete, merged and verified but frontend, or other, work is ongoi
 
 ### Picking something to work on
 
-The [Plan:Project Management Build board](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend) shows prioritized work with [workflow columns](/handbook/product-development-flow/) relevant to implementation. There is an
+The [Plan:Project Management Build board](https://gitlab.com/groups/gitlab-org/-/boards/1285239?label_name[]=backend) shows prioritized work with [workflow columns](/handbook/product-development/product-development-flow/) relevant to implementation. There is an
 additional column to show in-progress community contributions. Filtering it by
 ~backend shows issues for backend engineers to work on.
 
@@ -149,6 +149,60 @@ When you pick something to work on, please:
 1. Follow the standard workflow and assign it to yourself.
 1. Share it in [#s_plan](https://gitlab.slack.com/archives/s_plan) - if not even more widely (like in #development
    or #backend).
+
+### Retrospectives
+
+GitLab milestones end on the **3rd Thursday of each month**, and we run async retrospectives tied to that schedule. The retrospectives consist of three phases:
+
+#### Phase 1: Collection
+
+**When:**
+Starts: **3 Mondays before milestone ends**
+Ends: **End of release week (milestone Thursday)**
+
+**What happens:**
+
+- Team submits retro topics via the Slack shortcut ([`⚡Project Management Retro Ideas`](https://slack.com/shortcuts/Ft08T8L66DSA/9b29cd637b654c4904e33e9199b88149))
+- Weekly reminders go out
+- Responses are sent to a google sheet that the facilitator has access to
+
+#### Phase 2: Synthesis
+
+**When:**
+Starts: **Friday of release week**
+Ends: **Following Tuesday**
+
+**What happens:**
+
+- Facilitator reviews and groups entries into themes
+- Duplicates removed
+- Poll generated to vote for the top two or three topics to discuss
+
+#### Phase 3: Discussion & Action
+
+**When:**
+Starts: **1 week post-release (Tuesday–Friday)**
+
+**What happens:**
+
+- Facilitator adds topics to generated retrospective issue
+- Team reviews points async and comments on the items
+- Team selects 2–3 action items to carry forward
+- Owners are assigned and new issues are created to track follow-up
+
+#### Example Timeline (Milestone 18.3 Ends 2025-07-17)
+
+| Phase             | Dates                    |
+|------------------|--------------------------|
+| Collection        | June 30 – July 17        |
+| Synthesis         | July 18 – July 22        |
+| Discussion/Action | July 22 – July 25        |
+
+#### Reminders
+
+- Use the Slack shortcut to submit retro ideas anytime during the collection window.
+- Weekly reminder messages will be posted to encourage participation.
+- Keep it short — even one sentence helps.
 
 ### Dashboards
 

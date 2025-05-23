@@ -466,6 +466,7 @@ Key points to remember:
 - Source models should perform all field naming to force field names to conform to standard field naming conventions
 - Source fields that use reserved words must be renamed in source models
 - Source models for particularly large data should always end with an ORDER BY statement on a logical field (usually a relevant timestamp). This essentially defines the cluster key for the warehouse and will help to take advantage of [Snowflake's micro-partitioning](https://docs.snowflake.net/manuals/user-guide/tables-clustering-micropartitions.html).
+- Exception: occasionally a data source is only useful when two sources are combined. If this is the case then we can join them in the source model; this is done for several Clari source models, i.e `clari_fields_source`
 
 For a visual of how the source models relate to the raw tables and how they can act as a clean layer for all downstream modeling, see the following chart:
 

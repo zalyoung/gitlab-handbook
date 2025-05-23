@@ -54,7 +54,7 @@ The `Coaching for Accountability` cohort in FY25 will include 10 participants wh
 If you are not accepted into the FY25 cohort, consider these options for future coaching opportunities:
 
 1. Remain on the waitlist and be notified of future Elevate Applied coaching offerings
-1. Use your [Growth and Development fund](/handbook/people-group/learning-and-development/growth-and-development/#professional-coaching) to meet with a professional coach
+1. Use your [Growth and Development fund](/handbook/people-group/learning-and-development/growth-and-development/#coaching) to meet with a professional coach
 
 ### Timeline
 

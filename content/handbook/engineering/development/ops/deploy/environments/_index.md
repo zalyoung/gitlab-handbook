@@ -27,7 +27,7 @@ overall vision.
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Deploy:Environments" manager="nicolo-maria-mezzopera" >}}
+{{< engineering/stable-counterparts role="Deploy:Environments" manager="nicolo-maria-mezzopera" >}}
 
 ## Common Links
 
@@ -402,17 +402,17 @@ following milestone planning. For example, for Deferred UX issues opened in the 
 milestone, engineers should evaluate and ensure appropriate prioritization of
 the issue during the planning of the 16.4 milestone. This does not mean that the
 issue must be resolved during the 16.4 milestone, but that the issue is placed
-into the appropriate step of our [product development flow](/handbook/product-development-flow), or closed if appropriate.
+into the appropriate step of our [product development flow](/handbook/product-development/product-development-flow/), or closed if appropriate.
 
 This helps to ensure that Deferred UX issues are resolved in a timely manner,
 keeping with the overall goals of the group and adherence to broader
-[engineering workflows](/handbook/engineering/workflow#deferred-ux).
+[engineering workflows](/handbook/engineering/workflow/#deferred-ux).
 
 ### Epic Ownership
 
 The Environments group uses epics to describe features or capabilities that will increase the maturity of the Environments categories over time.
 
-Each epic should be owned by an engineer who is responsible for all technical aspects of that epic. The engineering DRI will work closely with the Product Manager and Product Designer to understand the requirements and create issues that encapsulate the technical work required during the [design](/handbook/product-development-flow/#validation-phase-3-design)/[solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) phases and [build](/handbook/product-development-flow/#build-track) track of the [Product Development Flow](/handbook/product-development-flow/). Each issue needs to be weighted and contain enough information in the description area for any other engineer on the team to be able to pick up that work.
+Each epic should be owned by an engineer who is responsible for all technical aspects of that epic. The engineering DRI will work closely with the Product Manager and Product Designer to understand the requirements and create issues that encapsulate the technical work required during the [design](/handbook/product-development/product-development-flow/#validation-phase-3-design)/[solution validation](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation) phases and [build](/handbook/product-development/product-development-flow/#build-track) track of the [Product Development Flow](/handbook/product-development/product-development-flow/). Each issue needs to be weighted and contain enough information in the description area for any other engineer on the team to be able to pick up that work.
 
 **For the duration of building the epic**, the engineer does not need to be the only person implementing the issues. They should keep watch of the work that is done on the issues so that they can verify that the work is progressing correctly. If there are problems with the work, or lengthy delays,
 they need to make sure the Product Manager and Engineering Manager are aware.
@@ -555,7 +555,7 @@ on what existing testing does and how to develop features for Auto DevOps.
 - [Useful Commands](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/useful_commands.md)
 - [How to work with slow connections](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/kubernetes/tips_and_troubleshooting.md#qa)
 - [Enabling premium features for development purposes](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses)
-- [Thanos query for complete Auto DevOps pipelines](https://thanos-query.ops.gitlab.net/graph?g0.range_input=2d&g0.max_source_resolution=0s&g0.expr=sum(increase(auto_devops_pipelines_completed_total%7Benv%3D%22gprd%22%7D%5B6h%5D))%20by%20(status)&g0.tab=0)
+- [Grafana query for complete Auto DevOps pipelines](https://dashboards.gitlab.net/goto/Jn7bY_aHg?orgId=1)
 
 ### Shared Cloud Infrastructure
 

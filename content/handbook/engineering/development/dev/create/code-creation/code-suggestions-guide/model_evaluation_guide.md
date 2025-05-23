@@ -65,3 +65,9 @@ data-driven decisions regarding which models should power GitLab's AI features.
 
 See the [Latency evaluations issue](https://gitlab.com/gitlab-org/quality/ai-model-latency-tester/-/issues/57)
 for further guidance and updates.
+
+### Evaluating by Load Tester
+
+The [AI Model/Provider Load Tester](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test) is designed to simulate production-like traffic, ensuring that the model provider can handle real-world workloads. During the model evaluation process, we should create and run the load test for the model.
+
+For instructions on adding and running test scripts, please follow [these steps](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/load-test#add-load-test-for-new-models).

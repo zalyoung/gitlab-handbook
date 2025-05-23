@@ -7,7 +7,7 @@ description: Learn more about the Localization team's vision and processes.
 
 Localization team collaborates with the Marketing, Sales, Product and Engineering [divisions](/handbook/company/structure/#organizational-structure), as well as external partners (vendors) and the wider community of translators, to enable GitLab's global  reach and user experience across key pillars: Marketing (about.gitlab.com), Editorial (blogs), Product, Documentation, and Enablement (support, customer success, etc.).
 
-THe key initiatives around strategic localization of content and materials include increasing our non-English blog publishing cadence and performance, enabling localization of docs.gitlab.com, launching our comprehensive terminology management system, deploying cutting-edge Generative AI and machine translation solutions, and expanding into customer-facing programs including Support content localization and training & certification materials. 
+The key initiatives around strategic localization of content and materials include increasing our non-English blog publishing cadence and performance, enabling localization of docs.gitlab.com, launching our comprehensive terminology management system, deploying cutting-edge Generative AI and machine translation solutions, and expanding into customer-facing programs including Support content localization and training & certification materials. 
 
 Our ability to support regional teams with localized product documentation, marketing content, and customer success materials directly impacts GitLab's ability to grow in international markets. 
 

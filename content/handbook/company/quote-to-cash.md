@@ -87,8 +87,6 @@ Note: In SFDC, a [SFDC BillingAccount](https://help.salesforce.com/s/articleView
 
 Note: The Order object in CustomersDot is not the same as the Order object in Zuora, they have different definitions. Orders in CustomerDot are more like subscriptions in Zuora than they are Orders in Zuora. More architecture and definition work needs to be done on the Order object in CustomersDot.
 
-More information about the User and Contact objects shown in the table above, and how they interact together, can be found in [this workflow documentation](../flows/user_contact_flows.md).
-
 ### CustomerDot Object Model
 
 The following is a focused view of the database ERD for the newly proposed data architecture.

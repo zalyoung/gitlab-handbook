@@ -470,13 +470,13 @@ At any point, if an issue becomes blocked, it would be in the `workflow::blocked
 
 `workflow::ready for development` means that an issue has been sufficiently [refined and weighted by Engineering](#how-engineering-refines-issues). Issues in this state that are labeled `cicd::active` are ones that should be worked on in a milestone. When a developer starts working on an issue they should [set the milestone](#setting-the-milestone) to that of the one where the issue will most likely be completed, rather than the one where it is started.
 
-`workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](/handbook/engineering/infrastructure/library/security-releases-development/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
+`workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/security-releases-development). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
 
 `workflow::feature-flagged` is applied to an issue that is being enabled through a separate feature flag rollout issue. Once the feature is validated the status is moved to `workflow::complete` and the issue is closed.
 
 `Closed` means that all code changes associated with the issue are fully enabled on gitlab.com. If it is being rolled out behind a feature flag, it means the feature flag is enabled for all users on gitlab.com.
 
-More detail on the workflow is available on the [Product-Development Flow](/handbook/product-development-flow/) page.
+More detail on the workflow is available on the [Product-Development Flow](/handbook/product-development/product-development-flow/) page.
 
 ### "What do I work on next?"
 
@@ -644,7 +644,7 @@ The Pipeline Execution group supports the product marketing categories described
 
 ### Developing with Feature Flags
 
-When building features that may have high impact the team uses established [GitLab guidelines](/handbook/product-development-flow/feature-flag-lifecycle/) for feature flags.
+When building features that may have high impact the team uses established [GitLab guidelines](/handbook/product-development/product-development-flow/feature-flag-lifecycle/) for feature flags.
 
 We also ensure we are collaborating with our teammates in customer support and customer success by [alerting them](https://docs.gitlab.com/ee/development/feature_flags/controls.html#communicate-the-change) to the rollout issue before a feature is enabled.
 
@@ -697,10 +697,10 @@ Suppose working one milestone ahead to design the big solution is not possible. 
 
 #### Avoiding crunch times between UX, Product and Engineering
 
-- Ideally, Product Management and Product Designers aim to work 3 months in advance of Engineering proposals to ensure the problem definition and solution has been adequately validated prior to building. See [Validation track](/handbook/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
-- the Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement, we can move it to the [Solution Validation phase](/handbook/product-development-flow/#validation-phase-4-solution-validation).
+- Ideally, Product Management and Product Designers aim to work 3 months in advance of Engineering proposals to ensure the problem definition and solution has been adequately validated prior to building. See [Validation track](/handbook/product-development/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
+- the Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement, we can move it to the [Solution Validation phase](/handbook/product-development/product-development-flow/#validation-phase-4-solution-validation).
 - If it is taking more than a week to understand and investigate the technical feasibility for the design solution, update the workflow label to `~workflow::blocked` and change the assignee to engineering DRIs until the technical discussion is resolved. If the discussion is expected to go on longer, reducing the chances of the design solution being delivered in the intended milestone, consider creating [a spike issue](/handbook/engineering/development/ops/verify/pipeline-execution/#spikes) for the discussion that blocks the current issue.
-- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development-flow/#build-track) to avoid unplanned changes.
+- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development/product-development-flow/#build-track) to avoid unplanned changes.
 
 ### Collaborating with the Wider Community on Community Merge Requests
 
@@ -708,7 +708,7 @@ For more details on how to contribute to GitLab generally, please see our [docum
 
 #### Aligning on feature development
 
-The Engineering DRI works with the Product Designer throughout the `workflow:in dev` phase to uncover possible problems with the solution early enough that exhibit unexpected behaviour to what was originally agreed upon. If there are changes to be added that weren't agreed upon in the initial issue - a followup issue should be made and the Engineering DRI should work with the Product Manager to schedule that issue in a following milestone. This allows us to focus on [cleanup over signoff](/handbook/values/#cleanup-over-sign-off), iterate quickly on issues with [a low level of shame](/handbook/values/#low-level-of-shame), and still make sure we accomplish what we've agreed upon. We should be careful not to hold off on completing these followup issues so that we don't build up a significant amount of Deferred UX issues.
+The Engineering DRI works with the Product Designer throughout the `workflow:in dev` phase to uncover possible problems with the solution early enough that exhibit unexpected behaviour to what was originally agreed upon. If there are changes to be added that weren't agreed upon in the initial issue - a followup issue should be made and the Engineering DRI should work with the Product Manager to schedule that issue in a following milestone. This allows us to focus on [cleanup over signoff](/handbook/values/#cleanup-over-sign-off), iterate quickly on issues with [a low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding), and still make sure we accomplish what we've agreed upon. We should be careful not to hold off on completing these followup issues so that we don't build up a significant amount of Deferred UX issues.
 
 If we find that solutions are consistently not matching the agreed upon design, we will hold a retrospective with the DRI, designer, and product manager to discuss where the gaps in communication are so that we can improve. It may be necessary to begin requiring a UX approval for merge requests on certain issues to help the Engineering DRI meet the requirements.
 

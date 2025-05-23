@@ -20,7 +20,7 @@ The information collected below should be helpful for when you contribute to the
 
 Make your edits and commits on a new branch named according to the Documentation
 guidelines, which state that branch names must start with `docs-` (or
-[one of the other options listed in the branch name scheme](https://docs.gitlab.com/development/documentation/#branch-naming)).
+[one of the other options listed in the branch name scheme](https://docs.gitlab.com/development/documentation/workflow/#branch-naming)).
 
 - Commit the changes. Make sure the commit message follows our [commit message guidelines](https://docs.gitlab.com/development/contributing/merge_request_workflow/#commit-messages-guidelines).
     If you don't follow the guidelines, the [Danger Bot](https://docs.gitlab.com/development/dangerbot/) job may fail when it checks if the commits are aligned with our guidelines. If it fails, read the job trace and fix the issue with a new commit, or an [interactive rebase](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History). (Ask for help if you're not sure how to do a rebase!)

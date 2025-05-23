@@ -149,7 +149,7 @@ In order to ensure business continuity, and deliver on commitments; the Engineer
 
 A PTO Coverage issue is required for [job grades 8 and up](/handbook/total-rewards/compensation/compensation-calculator/#job-grades). For job grades 7 and below a PTO Coverage issue is recommended as there is value in going through the process of creating the PTO Coverage issue even if there are minimal items to include (for all levels) in that it forces you to think about what you have on your plate and what impact your PTO will have on those items. So whether the result is that the work waits or there is someone designated as a replacement DRI, it makes the decision explicit and documented.
 
-Once planning for a milestone has been completed (see [**Monday, 5 days before the milestone begins**](/handbook/engineering/workflow/#product-development-timeline:~:text=Monday%2C%205%20days%20before%20the%20milestone%20begins%3A)) PTO for periods longer than 5 consecutive days, inclusive of adjacent public holidays (excluding weekend days), cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
+Once planning for a milestone has been completed (see [**Monday, 5 days before the milestone begins**](/handbook/engineering/workflow/#product-development-timeline)) PTO for periods longer than 5 consecutive days, inclusive of adjacent public holidays (excluding weekend days), cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
 
 - urgent scenarios
 - a team/individual hits targets earlier in the milestone ([we measure impact, not activity](/handbook/values/#measure-impact-not-activity))
@@ -315,7 +315,7 @@ but manual verification provides a higher level of confidence that features beha
 
 We manually verify issues when they are in the `workflow::verification` state.
 Generally, after you have manually verified something, you can close the associated issue.
-See the [Product Development Flow](/handbook/product-development-flow/) to learn more about this issue state.
+See the [Product Development Flow](/handbook/product-development/product-development-flow/) to learn more about this issue state.
 
 We manually verify in the staging environment whenever possible.
 In certain cases we may need to manually verify in the production environment.

@@ -702,7 +702,8 @@ Email your valid Statement of Work and Deal ID to partnersupport@gitlab.com. The
     - **`Pending`**: Additional information or documentation is needed. Ecosystem Operations will leave the registration in `Pending` status and work with the partner to obtain required documentation.
     - **`Pending Opportunity Closure`**: The partner's SOW (i) has been submitted and (ii) meets [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work), but the related software opportunity is not yet closed-won
     - **`Approved`**: (i) The SOW has been submitted and approved, (ii) the opportunity has been closed-won, and (iii) all other [program requirements](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) have been met
-    - **`Denied`**: The registration and/or SOW do not qualify for Service Attached program as defined by the [GitLab Partner Program](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work)
+    - **`Accepted`**: Qualifies for PSP, but not for rebate. Paid service engagement with a SOW signed and submitted within 12 months of registration submission and closed-won Net ARR opportunity.
+    - **`Unqualified`**: The registration and/or SOW do not qualify for Service Attached program as defined by the [GitLab Partner Program](/handbook/resellers/channel-working-with-gitlab/#how-service-attached-registrations-work) 
     - **`Closed`**: If the opportunity has moved to Closed-Lost or if the partner or ESM communicates the partner did not win the services business
 
 2. Ecosystem Operations adds the `Service Attach Approval Date` when the registration is moved to `Approved`. `Service Reg Approval Date` will be set when both requirements below are fulfilled:
@@ -947,15 +948,25 @@ The GitLab Ecosystem Operations team is responsible for compiling the reports ou
   - Number of accreditations
   - Pipeline generated
 
-## Ecosystem Forecast Salesforce Dashboards
+## Ecosystem Forecast and MBO Salesforce Dashboards
 
-The following partner forecast dashboards have been published for FY25. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
+The following Ecosystem forecast dashboards have been published for FY26. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
 
-- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001JF612AG/view?queryScope=userFolders)
-- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KUHV2A4/view)
-- [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001Jwir2AC/view?queryScope=userFolders)
-- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KZlp2AG/view)
-- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001KNG12AO/view?queryScope=userFolders)
+**Ecosystem Operating Dashboards:**
+
+- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DNLp2AO/view?queryScope=userFolders)
+- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002DzXZ2A0/view?queryScope=userFolders)
+- [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002EQ9Z2AW/view)
+- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002EQBB2A4/view)
+- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000002Esyf2AC/view?queryScope=userFolders)
+
+**Ecosystem MBO Dashboards:**
+
+- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000020rBF2AY/view?queryScope=userFolders)
+- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026oVd2AI/view?queryScope=userFolders)
+- [APJ](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026iy52AA/view?queryScope=userFolders)
+- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026rA92AI/view?queryScope=userFolders)
+- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL0000026mdV2AQ/view?queryScope=userFolders)
 
 ## Alliances and OEMs
 

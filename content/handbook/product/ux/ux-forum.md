@@ -6,7 +6,7 @@ description: >-
 
 ## About UX Forum
 
-{{% ux-forum %}}
+{{% product/ux-forum %}}
 
 ### Purpose
 
@@ -60,7 +60,7 @@ Successful forums share these aspects:
     Avoid creating dedicated slides or assets, but use your best judgment to determine what's most effective: a prototype, a series of mockups, a process diagram, a journey map, a few slides, or something else.
     The UX Forum is to share and discuss your work informally, not fancy storytelling.
 - **Just enough sophistication**:
-    Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame) and share your work with as little sophistication as possible.
+    Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame-when-dogfooding) and share your work with as little sophistication as possible.
     While some topics gain from a more sophisticated story, this sophistication raises the perception of quality, puts unnecessary pressure on other speakers, and might make it harder for others to engage.
 - **Relatable**:
     Structure your story with the audience in mind, to elicit feedback from them, and highlight potential overlaps.

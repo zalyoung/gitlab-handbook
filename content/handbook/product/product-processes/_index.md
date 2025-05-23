@@ -13,7 +13,7 @@ As a Product Organization, we work to create a flexible yet concise product deve
 
 ### Product Development Flow
 
-Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
+Introducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track [product development flow](/handbook/product-development/product-development-flow/) spanning product, engineering, UX, and quality. We [use GitLab to power product development flow](/handbook/product/product-processes/planning-with-gitlab). When changes are released, we follow the [release post process](/handbook/marketing/blog/release-posts/#pm-contributors) to communicate externally about new capabilities.
 
 This process should be both up front and on an on-going basis when building features.
 
@@ -29,7 +29,7 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 ### Relevant links
 
 - [Engineering release definitions](/handbook/engineering/releases/)
-- [Feature flag lifecycle](/handbook/product-development-flow/feature-flag-lifecycle/)
+- [Feature flag lifecycle](/handbook/product-development/product-development-flow/feature-flag-lifecycle/)
 - [Product Launch process](/handbook/product/product-processes/product-launch)
 
 ## Communication
@@ -488,7 +488,7 @@ To track hard adoption blockers, use the ~"GitLab.com Enterprise Readiness" labe
 
 #### SaaS Features
 
-There are a few special considerations when it comes to delivering features for SaaS. In order to achieve [parity between SaaS and Self-managed installations](/handbook/product/product-principles/#parity-between-saas-and-self-managed-deployments) PMs should prioritize efforts to eliminate existing feature gaps that exist [across the two installations](https://about.gitlab.com/features/). Additionally, new features should ship for SaaS and self-managed at the same time. Features should be implemented at the group level first, before being implemented at the instance level, so that they will work across [both self-managed and SaaS](https://about.gitlab.com/direction/foundations/#gitlabcom). Finally, in order for new features to be adequately monitored, they should include [appropriate logging and observability](https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md#monitoring-and-alerts), which makes troubleshooting much easier.
+There are a few special considerations when it comes to delivering features for SaaS. In order to achieve [parity between SaaS and Self-managed installations](/handbook/product/product-principles/#design-for-self-managed-for-feature-parity-between-deployments) PMs should prioritize efforts to eliminate existing feature gaps that exist [across the two installations](https://about.gitlab.com/features/). Additionally, new features should ship for SaaS and self-managed at the same time. Features should be implemented at the group level first, before being implemented at the instance level, so that they will work across [both self-managed and SaaS](https://about.gitlab.com/direction/foundations/#gitlabcom). Finally, in order for new features to be adequately monitored, they should include [appropriate logging and observability](https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md#monitoring-and-alerts), which makes troubleshooting much easier.
 
 ### Working with Your Group
 
@@ -496,7 +496,7 @@ As a product manager, you will be assigned as the [stable counterpart](/handbook
 unique, and extremely beneficial guidelines when interacting with our groups. These include:
 
 1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
-1. Product Managers provide the what and when for feature work. Engineering (UX, Backend, Frontend, Quality) provide the how. This process is documented as part of our monthly [product](/handbook/product-development-flow/), [engineering](/handbook/engineering/workflow/#product-development-timeline) and [UX](/handbook/product/ux/product-designer/) cadence. We [define stable counterparts for each of these functions](/handbook/product/categories/) within a group.
+1. Product Managers provide the what and when for feature work. Engineering (UX, Backend, Frontend, Quality) provide the how. This process is documented as part of our monthly [product](/handbook/product-development/product-development-flow/), [engineering](/handbook/engineering/workflow/#product-development-timeline) and [UX](/handbook/product/ux/product-designer/) cadence. We [define stable counterparts for each of these functions](/handbook/product/categories/) within a group.
 
 As an all-remote company, our crispness when it comes to responsibilities throughout the Product Delivery process was born out of necessity, but it pays untold dividends. Some of the benefits include:
 
@@ -1131,18 +1131,23 @@ both of you can arrive prepared.
 #### Customer Advisory Board meetings
 
 One specific, recurring opportunity to get direct feedback from highly engaged customers
-is the [GitLab DevOps Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board).
-You may be asked by the CAB to present your stage at these meetings. Here are
-some guidelines when doing so:
+is the [GitLab Product Customer Advisory Board](/handbook/product/product-processes/customer-advisory-board/). Product Customer Advisory Board meetings take place on the last month of the quarter. These meetings are an opportunity to connect with customers and gather actionable insights.
 
-- Since it will be sent out in advance of your presentation, take the opportunity to update your stage strategy video
-- Start the presentation with an overview of your stage strategy
-- Emphasize the importance of feedback and dialog in our [prioritization process](#prioritization)
-- Highlight recently completed plan items that were driven by customer feedback
-- Come prepared with five questions to facilitate a discussion about industry trends,
-plan tradeoffs, pain points and existing features
-- Don't simply look for places to improve, seek to clarify your understanding of what customers
-currently value and love
+You may be asked by the CAB to present your stage or a specific product offering at these meetings.  Here are some guidelines for presenting:
+
+1. Product Focused Highlights: All presentation materials should be focused on products we plan to launch or evaluating products we have available to customers. 
+
+1. Emphasize Dialogue over Monologue: Structure your presentation to encourage meaningful two-ways discussions. 
+
+1. Prepare Targeted Questions: Develop 2-3 specific, through provoking questions to engage members in conversation. These questions should be focused on presentation, strategic decisions GitLab is currently grappling in your stage that you would like to gather customer feedback on, or a question related directly to customer workflows. 
+
+1. Connect to Previous Feedback: Reference previous feedback you have received from advisory meetings in the past. This will help illustrate to CAB members the value of their time and that GitLab takes their recommendations into consideration. 
+
+1. Prompt Follow Through: Document key insights and actions items during your session. 
+
+1. Be Prepared: Be sure to prepare for the meeting ahead of time independently. 
+
+Please review [GitLab Product Customer Advisory Board Page](/handbook/product/product-processes/customer-advisory-board/) for more details.
 
 #### Working with (customer) feature proposals
 
@@ -1395,7 +1400,7 @@ As a Product Manager you may need to make a decision on whether GitLab should en
 First, consider whether our users share a similar need and if it's part of GitLab's scope. If so, strongly consider [building as a feature in GitLab](/handbook/values/#dogfooding):
 
 - [Evaluate open source options](#evaluating-open-source-software) to utilize.
-- If time to market is an issue, a [global optimization issue](/handbook/values/#global-optimization) may also be opened to assist with prioritization.
+- If time to market is an issue, a [global optimization issue](/handbook/values/#efficiency-for-the-right-group) may also be opened to assist with prioritization.
 - For a potential acquisition, follow the [acquisition process](/handbook/acquisitions/acquisition-process/).
 
 If the need is specific to GitLab, and will not be built into the product, consider a few guidelines:

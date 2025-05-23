@@ -144,6 +144,11 @@ We have Geekbot automated checkins on Mondays and Fridays in the [#g_foundations
 
 We have a quarterly async retro that aligns with the company fiscal quarters and OKRs. In addition to reflecting on our quarter in general, we take a set of actions to try the next quarter and revisit how successful they were in the next retro.
 
+#### FY26Q1 Actions
+
+- Define a KTLO/Backlog grooming process and try it out (see https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26338 for more details).
+- Documenting things is part of our definition of done (issues are not closed if there are relevant docs/runbooks/etc to be updated).
+
 ### Picking up work
 
 We have three buckets of work:
@@ -200,7 +205,7 @@ The team member on rotation is responsible for:
   - Minor updates should have their changelogs be reviewed before merging.
   - Major updates should be looked at closely to understand breaking changes before considering merging.
 - Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
-- Responding to any Access Requests that need Foundations provisioning.
+- Responding to any [Access Requests that need Foundations provisioning](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26626#open-access-requests).
 
 ### Project Management
 
@@ -264,7 +269,7 @@ Most issues for our team are tracked primarily in the [Production Engineering](h
 - A Foundations label that aligns with the bucket of work it fits best in: `Foundations::KTLO`, `Foundations::Requests`, `Foundations::Project Work`, ...
 
   > [!important]
-  > Access Requests issues must have the `Foundations::Requests` label.
+  > Access Requests issues use the `Foundations::Todo`, `Foundations::Doing` and `Foundations::Done` labels.
 
 - If there is a service label that is applicable, also apply that.
 
