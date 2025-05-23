@@ -11,7 +11,7 @@ In the last lab, you introduced the SAST and Secret Detection scanners into your
 
 1. Navigate to your Security Labs project. 
 
-1. In the left sidebar, select **Secure > Vulnerability Report**. To start your triage process, it is recommended to sort your vulnerabilities by severity, focusing on vulnerabilities that have not yet been triaged. 
+1. In the left sidebar, select **Secure > Vulnerability Report**. To start your triage process, it is recommended to sort your vulnerabilities by severity, focusing on vulnerabilities that have not yet been triaged. This is the default setting.
 
 1. In the security report, select **Severity** to change the sort order. Ensure that the arrow is pointing down so that severity is sorted from highest to lowest. 
 

@@ -127,7 +127,6 @@ To provide more thorough scanning and vulnerability detection, we will opt to en
         run_advanced_sast: true
     ```
 
-
 1. Set the branch name to `sast-update`. Ensure that **Start a new merge request with this change** is checked, and add dd an appropriate commit message (ex. `Add Advanced SAST functionality`). Click the **Commit changes** button.
 
 1. In the MR page after this, provide an appropriate title (such as `Enabled Advanced SAST in our pipeline`), and click **Create Merge Request**.

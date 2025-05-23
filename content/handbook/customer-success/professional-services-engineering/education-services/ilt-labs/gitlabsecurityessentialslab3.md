@@ -54,7 +54,7 @@ For Infrastructure as Code, you will start by deploying an S3 bucket to your env
 
 1. Select **Commit changes**, and keep the **Commit to the current main branch** selected. Select **Commit changes**.
 
-This project will also use Docker for deployments. To enable this, we will create a Dockerfile.
+This project will also use Docker for deployments. To enable this, we will use the pre-existing Dockerfile.
 
 1. Navigate to your project.
 
@@ -93,7 +93,7 @@ To view the progress of your new pipeline:
 
 1. In the left sidebar, select **Secure > Vulnerability report**. 
 
-1. In the **Vulnerability report**, filter for the Dependency Scanning tool by clicking on the search bar, clicking **Tool** and then clicking **Depdency Scanning**. 
+1. In the **Vulnerability report**, filter for the Dependency Scanning tool by clicking on the search bar, clicking **Report Type** and then clicking **Dependency Scanning**. 
 
 1. Click on each vulnerability to review the findings. In the results, you will see various vulnerabilities in our version of the requests library. Let's fix these issues in our `requirements.txt` file.
 

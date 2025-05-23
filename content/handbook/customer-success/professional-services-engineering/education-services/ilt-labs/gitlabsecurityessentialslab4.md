@@ -144,7 +144,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
         - docker push $IMAGE
     ```
 
-1. Commit the changes to the `main` branch with an appropriate commit message (`Adding a Docker file definition`).
+1. Commit the changes to the `main` branch with an appropriate commit message (`Adding a Docker build job`).
 
 1. Navigate to **Build > Pipelines** to watch the progress of the new pipeline. Click on the pipeline to view the CI output for the build job.
 
@@ -180,7 +180,7 @@ container_scanning:
 
 1. Navigate to **Secure > Vulnerability Report**.
 
-1. In the **Tool** dropdown, click **Container Scanning**.
+1. Select the **Report Type** filter, and select **Container Scanning** from the options.
 
 1. The vulnerabilities listed are vulnerabilities detected inside of the Docker container you created. Click on any individual vulnerability to view more details.
 
