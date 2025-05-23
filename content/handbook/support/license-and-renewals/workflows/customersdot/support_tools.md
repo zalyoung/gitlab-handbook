@@ -10,7 +10,7 @@ This workflow details how to use the CustomersDot Admin Support Tools for L&R re
 
 The CustomersDot Admin Support Tools implementation is tracked in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/6828).
 
-## Where the tools is located 
+## Where the tool is located 
 
 The CustomersDot Admin Support Tools can be found by log in into https://customers.gitlab.com/admin. Then scroll down to the **Support** section in the left panel.
 
