@@ -89,8 +89,8 @@ When evaluating work to meet our stakeholders' needs, we prioritize in the follo
 
 1. Feature work (including documenting new features, and providing guidance on UI text)
 1. OKR-related work
-1. Backlog issues (including docs technical debt and implementing content topic design)
-1. All other tasks (including creating suggestion- or warning-level [Vale rules](https://docs.gitlab.com/development/documentation/testing/vale/#result-types))
+1. Docs improvements and backlog issues (including stage lead work, docs technical debt and implementing content topic design)
+1. All other tasks (including DocOps tasks)
 
 ### Processes
 
@@ -126,7 +126,7 @@ The Technical Writing team develops and maintains toolkits to test GitLab's docu
 - Link validity: Lychee
 - File permissions and naming: `lint-doc.sh`
 
-Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer.
+Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a Technical Writer in the [DocOps group](#docops-group).
 
 #### Translation and internationalization
 
@@ -220,6 +220,22 @@ Over time, and with fewer groups assigned per stage lead, an aspirational goal i
 For [documentation improvements](https://docs.gitlab.com/development/documentation/workflow/#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
 
+### DocOps group
+
+[DocOps](https://www.writethedocs.org/guide/doc-ops/) is like DevOps, but for documentation. It's an
+approach to help streamline the creation, management, and deployment of documentation.
+
+Some Technical Writers are members of the [DocOps group](https://gitlab.com/gitlab-org/technical-writing/tw-docops), which is responsible for:
+
+- Maintaining content quality through testing and linting in CI and on your local machine.
+- Assisting [Docs Engineers](/job-families/product/ux-fullstack-engineer/) with operations tasks when asked, or when those engineers are not online. For example,
+helping with Pages configuration, deployments, scheduled pipelines, and review apps.
+- Updating dependencies for linting tools, and rolling those updates out in upstream documentation projects.
+The DocOps group is not responsible for the documentation website's code, infrastructure, or build scripts. 
+DocOps tasks are [prioritized](#prioritization) below feature work and OKR-related work.
+
+Participation in the DocOps group is based on team requirements. To express interest in joining, speak to your manager.
+
 ### Assignments to other projects and subjects
 
 For collaboration in other projects and subjects:
@@ -231,7 +247,7 @@ For collaboration in other projects and subjects:
 | [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
 | [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
 | [Left nav](https://docs.gitlab.com/development/documentation/site_architecture/global_nav/) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
-| [Testing/Vale/markdownlint](#testing)                                                | {{< member-by-name "Fiona Neill" >}} |
+| [Testing](#testing) (DocOps/Vale/markdownlint)                                       | {{< member-by-name "Fiona Neill" >}} |
 | [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs
