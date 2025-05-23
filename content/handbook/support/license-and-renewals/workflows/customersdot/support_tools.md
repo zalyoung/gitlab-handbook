@@ -80,7 +80,7 @@ Associates a group with a subscription. All fields are required.
 
 #### Reset max seats
 
-Modifies the highest number of seats used on the namespace during the current subscription term.
+Modifies the highest number of seats used on the namespace during the current subscription term.  This should typically only be used during the [reset max seats for QSR workflow](/handbook/support/license-and-renewals/workflows/quarterly_subscription_reconciliations/#resolving-max-seats-overages)
 
 ##### Note
 
