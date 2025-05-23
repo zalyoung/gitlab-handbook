@@ -13,17 +13,14 @@ The AI-powered:Custom Models team focuses on GitLab's suite of Custom Model feat
 
 The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#custom-models).
 
-### Team OKRs
-
-If you're interested in the team's Objectives and Key Results (OKRs), you can find them on [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Acustom%20models&first_page_size=20).
-
 ### Team Members
 
 **Engineering Manager & Engineers**
 
-Engineering Manager: [@sean_carroll](https://gitlab.com/sean_carroll)
+Engineering Manager: [@m_gill](https://gitlab.com/m_gill)
+Acting Manager: [@eduardobonet](https://gitlab.com/eduardobonet)
 
-{{< team-by-manager-slug "sean-carroll" >}}
+{{< team-by-manager-slug manager="m_gill" team="AI-Powered:Custom Models" >}}
 
 **Product, Design & Quality**
 
@@ -229,7 +226,7 @@ If you are pinged by name in either Slack or GitLab, please acknowledge the ping
 
 Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Workday" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
 
-It is recognised there can always be last-minute, unplanned PTO needs. Please take any time you need, but enter it into PTO Deel and communicate with the EM as soon as you can.
+It is recognised there can always be last-minute, unplanned PTO needs. Please take any time you need, but enter it into Workday and communicate with the EM as soon as you can.
 
 ## Ad-hoc sync calls
 
