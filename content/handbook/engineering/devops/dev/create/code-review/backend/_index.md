@@ -72,7 +72,7 @@ To contact the Code Review BE team in GitLab, you can use the `@code-review-be` 
 
 ### Meeting Schedule
 
-[Team members](/handbook/engineering/devops/dev/create/code-review/backend/#team-members) meet monthly and are encouraged to join in order to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
+[Team members](/handbook/engineering/devops/dev/create/code-review/backend/#group-members) meet monthly and are encouraged to join in order to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
 
 #### Follow-up issues
 

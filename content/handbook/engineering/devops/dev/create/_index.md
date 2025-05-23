@@ -13,9 +13,7 @@ description: >-
 | Team | Engineering Managers |
 | ---- | -------------------- |
 | [Create Stage](/handbook/engineering/devops/dev/create/) | [Darva Satcher](/handbook/company/team/#dsatcher) (Director, Engineering) |
-| [Create:Code Creation](/handbook/engineering/devops/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
 | [Create:Code Review](/handbook/engineering/devops/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
-| [Create:Editor Extensions](/handbook/engineering/devops/dev/create/editor-extensions/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
 | [Create:Remote Development](/handbook/engineering/devops/dev/create/remote-development/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
 | [Create:Source Code](/handbook/engineering/devops/dev/create/source-code/) | [André Luís](/handbook/company/team/#andr3) (Frontend) (Backend - Acting)|
 
