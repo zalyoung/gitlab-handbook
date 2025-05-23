@@ -190,7 +190,30 @@ To summarize, there are a few important ideas to keep in mind when considering r
 
 ## Task E. Artifacts, and sharing data between Stages
 
-When we explored the way jobs run, you saw that each job runs on its own runner. In some cases, you will want to share data between jobs to avoid duplication of work. To do this, you can use an artifact. An artifact saves a result from a job and stores it in GitLab for use by other jobs. For example, consider the following job definitions:
+When we explored the way jobs run, you saw that each job runs on its own runner. In some cases, you will want to share data between jobs to avoid duplication of work. To do this, you can use an artifact. An artifact saves a result from a job and stores it in GitLab for use by other jobs.
+
+Without artifacts, we need to build our application twice. 
+
+1. Create a new stage called `run` and a job called `run go`.
+
+```yaml
+  run go:
+  stage: run
+  script:
+    - go build
+```
+
+1. The `go build` command creates a new binary that will be named `array`. We can execute the binary by using the command `.array`.
+
+```yaml
+run go:
+  stage: run
+  script:
+    - go build
+    - ./array
+```
+
+So far, your `.gitlab-ci.yml` file should look like this:
 
 ```yaml
 default:
