@@ -48,7 +48,7 @@ We strive to be as transparent as possible, but these sections are only availabl
 
 ### Team Playbooks
 
-- [Recruiter Playbook]()
+- [Recruiter Playbook](https://docs.google.com/document/d/17T9HUZTFPVz2-UqISHUQIM1jWbtvLPHaWSdN1_yZyPc/edit?tab=t.0#heading=h.q80b354hqvvz)
 - Hiring Manager Playbook (coming soon)
 - Interviewer Playbook (coming soon)
 
