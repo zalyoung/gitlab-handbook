@@ -72,7 +72,7 @@ Valuing [results](/handbook/values/#results) enables a healthier all-remote atmo
 
 Colocation can make this more difficult to get right. As people congregate in a shared space, humans naturally form opinions on those who they are in contact with more often. It becomes more difficult to separate actual business results with vanity metrics (e.g. being seen in the office late, or appearing in every meeting regardless of need).
 
-All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/culture/all-remote) their [surroundings](people/#travelers), [family](people/#caretakers), [community](people/#community-advocates), [hobbies](people/#hobbyists), etc.
+All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/company/culture/all-remote/) their [surroundings](people/#travelers), [family](people/#caretakers), [community](people/#community-advocates), [hobbies](people/#hobbyists), etc.
 
 ## Efficiency
 
