@@ -58,7 +58,7 @@ Remove the restrictions for using compute minutes for groups who are part of a s
 Sets [additional storage](https://docs.gitlab.com/user/usage_quotas/#excess-storage-usage) for a namespace to the value specified in the `New extra storage (MiB)` field
 
 - **Namespace ID/Path**: The customer namespace path as it appears in the URL or its ID.
-- **New extra storage (MiB)**: Additional storage to add in MB
+- **New extra storage (MiB)**: The new value of storage to set, in MiB
 - **Zendesk ticket link**: The link to relevant Zendesk ticket where the request is made.
 
 > Note: As storage is entered as MB, consider that GB is presented in the UI for large numbers. For example: `10000 MB = 9.76 GB`. For '10 GB of storage', you should instead use `10240`, as `10240 MB = 10 GB`
