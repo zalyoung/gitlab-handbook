@@ -1,55 +1,166 @@
 ---
-title: Expansion Development Department
+title: Core Development Department
 ---
 
 ## Vision
 
-Scale and develop our diverse, global team to drive results that support our product and customer growth, while maintaining [our values](/handbook/values/) and [unique way of working](/handbook/company/culture/all-remote/guide/).
+ **Our goal is not merely to launch features, but to ensure they land successfully and provide real value to our customers.** We strive to develop a best-in-class product that exceeds expectations across all user groups by meeting high-quality standards while ensuring reliability and maintaining an ease of operation and scalability to meet diverse customer needs. All team members should remain mindful of our target customers and the multiple platforms we support in everything we do.
+
+Ensure our product excels in all aspects especially for our primary customer [organization archetypes](/handbook/product/personas/organization-archetype/) of large enterprises. This includes scalability, adaptability, and seamless upgrade paths. When designing and implementing features, always keep in mind compatibility for all our deployment options: self-managed, dedicated and Software as a Service (SaaS).
+
+Develop our technical, diverse and global team to drive results that support our product and customer growth, while maintaining [our values](/handbook/values/) and [unique way of working](/handbook/company/culture/all-remote/guide/).
 
 ## Mission
 
-GitLab's unique way of working asynchronously, handbook first, using the product we develop, and with clear focus on our values enables very high productivity. In delivering on growth, we maintain our values and ways of working while developing team members and increasing the diversity of our team. We focus on constantly improving usability and reliability of our product to reach maximum customer satisfaction. Community contributions and customer interactions rely on efficient and effective communication. We are a data-driven, customer experience first, open core organization delivering one secure, reliable, world leading DevOps platform.
+GitLab's unique way of working asynchronously, handbook first method, utilization of the product we develop and clear focus on our values enables very high productivity. We focus on constantly improving quality, usability and reliability of our product to reach maximum customer satisfaction. Community contributions and customer interactions rely on efficient and effective communication. We are a data-driven, customer experience first, open core organization delivering one secure, reliable, world leading DevSecOps platform. Join us in setting new standards, driving innovation, pushing the boundaries of DevSecOps, and consistently delivering exceptional results for our customers.
 
-### Efficiency
+### Be Strategic
 
-GitLab's Development group ships thousands of product merge requests per month. Continuing to scale our development process to an ever larger number of contributors requires efficiency, collaboration, and iteration. In FY24, we want to keep our MR Rate stable as we continue to onboard new team members, increasing our overall output and demonstrating the scalability of our approach to development. We will focus on training our new hires on iteration and process improvements, saving team members time. We will also review the best metrics to focus on and are considering moving back to an overall MR Rate measure (from an authorship one). Doing so will help us measure the efficiency of our responsiveness to our peers for the company and the community.
+To better fulfill our goals and vision, we will shift from a reactive approach to a strategic one. A key initiative to accomplish that will be the development of comprehensive [technical roadmaps](/handbook/engineering/#technical-roadmaps) across all groups to use our [40% time budget](/handbook/engineering/#engineering-initiatives) efficiently. This approach allows us to concentrate on enhancing our product by aligning technical and architectural improvements across teams, ensuring they are in harmony with our overarching business objectives. We will establish department-wide initiatives and targets, but it is crucial that each group identifies and prioritizes the most critical areas for improvement in their respective area (e.g., reducing technical debt, resolving bugs or optimizing performance). It is also essential that we coordinate between groups to address cross-cutting concerns.
+
+### Fostering High-Performing Teams for Efficient Execution
+
+In today's competitive landscape, GitLab's success hinges on our ability to build and maintain high-performing teams capable of efficient and rapid execution.
+
+#### Key Focus Areas
+
+1. **Team Optimization**
+   - Enhance communication and leadership within groups
+   - Implement efficient processes
+   - Develop situational awareness across teams
+   - Promote continuous upskilling towards group needs and/or the wider engineering division
+
+2. **Streamlined Delivery**
+   - Identify and fix internal and external bottlenecks
+   - Focus on the swift delivery of results meeting acceptance criteria and general quality bar
+   - Look out for improvements in efficiency by enhancing the product and using all its capabilities
+
+3. **Quad Execution**
+   - Clarify responsibilities within quads
+   - Encourage accountability amongst team members and counterparts
+   - Empower quads to execute independently with a clear vision
+
+4. **Innovation and Creativity**
+   - Encourage research and ingenuity by defining clear paths for delivering promising ideas
+   - Tap into the underutilized creative potential within teams
+
+We aim to create an environment where high-performing teams can thrive, innovate and execute efficiently, ultimately driving GitLab's competitive edge in the market.
+
+### Connect the Dots! In the Product and Between Teams
+
+One of our product's greatest strengths and selling points is its unified platform approach. While we currently offer multiple functionalities within a single product, we should strive to further enhance this advantage by creating stronger connections between these different areas.
+
+To fully leverage this strength, we need to:
+
+1. Integrate features more seamlessly across the platform
+2. Develop cross-functional capabilities that highlight the benefits of our unified approach
+3. Ensure a consistent user experience throughout the product
+4. Align and reuse foundational implementations across the whole platform
+
+Additionally, it's crucial to improve collaboration at the team level especially to support this part of our mission.
+
+We should:
+
+1. Increase awareness of ongoing projects and initiatives across teams
+2. Share knowledge about new technologies and innovations and how they are applied today
+3. Promote understanding of functionalities in different product areas
+4. Foster greater collaboration between teams throughout the entire engineering organization
+
+### Product with a Customer Focus
+
+We will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-breadth-and-stability).
+
+### AI Everywhere: Empowering Teams with Artificial Intelligence
+
+The use of AI is not to replace current features or areas but instead to enhance all areas respectively in an impactful way. We are committed to enabling all teams across our product ecosystem to leverage AI features effectively and confidently. Given the unprecedented pace of AI evolution, it's crucial that every team understands its potential applications for their respective domains (where each team has also the largest amount of knowledge) and current capabilities.
+
+Three AI platform streams will be available this year:
+
+1. Feature Integration into Duo Chat
+2. Model Functionality for Duo Enterprise Features
+3. Extensions to Duo Workflow
+
+Our goal is also to maximize the usage of our own AI features, particularly in supporting and accelerating common team challenges such as:
+
+- Technical debt reduction
+- Dependency updates
+- Code review optimization
+- Pipeline issue resolution
+- etc.
 
 ### Usability
 
-User experience is a continued focus area for FY24.  Millions of customers use GitLab so UX improvements can have a huge collective impact across all of these individuals.
+Millions of customers use GitLab, so UX improvements can have a huge collective impact across all of these individuals. We support this effort both in the product development as well as in our architecture. This includes continued conversion of [Pajamas components](/handbook/engineering/ux/pajamas-design-system/) in order to continue to improve the performance experienced by users.
 
 Development team members should also constantly suggest and investigate how to improve the overall user experience of the product. These can range from enhancing performance (actual and perceived), suggesting new technologies, solving user experience issues efficiently, etc.
 
-### Product with a customer focus
+### Efficiency
 
-Lastly, we will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. While we continue adding features to the product we must also work to identify technical debt and bring it to the prioritization discussion. We expect that Engineering managers are already addressing technical debt that is group specific with their Product Manager.
-
-This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-breadth-and-stability).
+GitLab's Development group ships thousands of product merge requests per month. Continuing to scale our development process to an ever larger number of contributors requires efficiency, collaboration and iteration. We focus on training our new hires on iteration and process improvements, saving team members time. We will also review the best metrics to focus on. Doing so will help us measure the efficiency of our responsiveness to our peers for the company and the community.
 
 ### Diversity
 
 We will follow our parent department [Engineering](/handbook/engineering/#diversity) lead.
 
-## Organizational responsibilities
+## Organizational Structure
 
-The Expansion department includes the following sub-departments and groups:
+```plantuml
+@startwbs
+* Core Development
+** Create
+*** Code Creation
+*** Code Review
+*** Remote Development
+*** Editor Extensions
+*** Source Code
+** Foundations & Data Science
+*** Data Science
+**** AI Framework
+**** Duo Chat
+**** Duo Workflow
+*** Foundations
+**** Import and Integrate
+**** Personal Productivity
+**** Design System
+**** Global Search
+** Ops
+*** Deploy
+*** Observability
+*** Package
+*** Verify:Runner
+*** Verify:Pipelines
+**** Pipeline Authoring
+**** Pipeline Execution
+**** Pipeline Security
+** Plan
+*** Product Planning
+*** Project Management
+*** Knowledge
+** Analyze
+*** Product Analytics
+*** Analytics Instrumentation
+*** Optimize
+@endwbs
+```
 
-- [Secure](/handbook/engineering/development/sec/secure/)
-- [Software Supply Chain Security](/handbook/engineering/development/sec/software-supply-chain-security/)
-- [Fulfillment](/handbook/engineering/development/fulfillment/)
-- [Growth](/handbook/engineering/development/growth/)
+## Organizational Responsibilities
+
+The core development team is comprised of:
+
+- [Dev](/handbook/engineering/development/dev/)
+- [Ops](/handbook/engineering/development/ops/)
 
 ## Team Members
 
 The following people are permanent members of the Development Department:
 
-{{< team-by-departments departments="Expansion,Fulfillment,Growth,Sec" manager="VP of Incubation Engineering" >}}
+{{< team-by-departments departments="Verify,Package,Release,Dev,Enablement,Ops,Fellow" manager="Senior Director, Core Development" >}}
 
-## Stable Counterparts
+<!-- ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-<!-- <%= stable_counterparts(role_regexp: /[,&] Development/, direct_manager_role: 'VP of Incubation Engineering') %> -->
+<%= stable_counterparts(role_regexp: /[,&] Development/, direct_manager_role: 'VP of Development') %> -->
 
 ## Development-Specific People Processes
 
@@ -67,14 +178,7 @@ Development adheres to the company-wide quarterly timeline outlined [here](/hand
 
 **The Development Department has an additional formal step built in to our promotion process beyond what the company is currently adhering to through our peer review process**. Ahead of the commencement of the [Calibration](/handbook/people-group/promotions-transfers/#calibration) stage of our process, all promotion documents should be peer reviewed by a Senior Manager or Director. The due date to complete the peer review is _before_ the scheduled Calibration session.
 
-FY'23 Calibration sessions:
-
-1. FY24-Q1: January 13, 2022
-2. FY24-Q2: April 7, 2022
-3. FY24-Q3: June 30, 2022
-4. FY24-Q4: October 5, 2022
-
-Calibration session attendees are the following team members: Senior Managers, Directors, Sr. Directors, VP, and Development's aligned People Business Partner. Leaders are welcome to conduct Calibration sessions prior to the scheduled sessions above with their sub-departments as well (though this is not a requirement).
+Calibration session attendees are the following team members: Senior Managers, Directors, Sr. Directors, VP, and Development's aligned People Business Partner. This is to ensure consistency across the organization. Leaders are welcome to conduct Calibration sessions prior to the scheduled sessions above with their sub-departments as well (though this is not a requirement).
 
 In addition to the [company-wide calibration preparation](/handbook/people-group/promotions-transfers/#calibration), for the Development department we also ask that leaders come prepared to discuss:
 
@@ -111,11 +215,11 @@ In line with our [guidance on feedback](/handbook/people-group/guidance-on-feedb
 
 ### Talent Assessment Process
 
-Talent Assessment Process guidelines specific for the Expansion Development Department is documented in [this handbook page](/handbook/engineering/development/processes/talent-assessment/).
+Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](/handbook/people-group/talent-assessment/).
 
 ### How we hire contractors
 
-In [this handbook page](/handbook/engineering/development/processes/hiring-contractors/) we document the process that the development departments follow, including planning budget, candidate sourcing, interview process, contracting and onboarding.
+In [this handbook page](processes/hiring-contractors.html) we document the process that the development department follows, including planning budget, candidate sourcing, interview process, contracting and onboarding.
 
 ## How We Work
 
@@ -167,10 +271,6 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 Development's headcount planning follows the Engineering [headcount planning](/handbook/engineering/#headcount-planning) and [long term profitability targets](/handbook/engineering/#long-term-profitability-targets). Development headcount is a percentage of overall engineering headcount. For FY20, the headcount size is 271 or ~58% of overall engineering headcount.
 
 We follow normal span of control both for our managers and directors of [4 to 10](/handbook/company/structure/#management-group). Our sub-departments and teams match as closely as we can to the [Product Hierarchy](/handbook/product/categories/#hierarchy) to best map 1:1 to [Product Managers](/handbook/product/).
-
-### Development Staff Meeting
-
-While we try to work as much as possible async, the Development department leadership does meet synchronously on a cadence of weekly. This meeting coordinates initiatives, communicates relevant information, discusses more difficult decisions, and provides feedback on how we are progressing as an organization. As part of this meeting, we discuss our culture of reliability monthly. This was part of the agenda spawned from an initiative we took up in August of 2021. We want to make sure we keep the organization healthy when thinking about reliability in every part of our work.
 
 ### Daily Duties for Engineering Directors
 
@@ -300,24 +400,25 @@ The shared services and components below are extracted from the GitLab [product 
 | Alertmanager |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Certmanager |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | Consul |  |  |  |  |  |
-| Container Registry |  | Centralized with Specific Team | @dcroft | Package |  |
+| Container Registry |  | Centralized with Specific Team | | Package |  |
 | Email - Inbound |  |  |  |  |  |
 | Email - Outbound |  |  |  |  |  |
+| Elasticsearch | | Centralized with Specific Team | @changzhengliu | Global Search | |
 | GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
-| GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/devops/dev/plan/knowledge/) |  |
+| GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | GitLab Shell |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) | [Reference](/handbook/product/categories/#source-code-group-1) |
 | HAproxy |  | Centralized with Specific Team |  | [Infrastructure](/handbook/engineering/infrastructure-platforms/production-engineering/foundations/) |  |
 | Jaeger |  | Centralized with Specific Team | @dawsmith | Infrastructure:Observability | Observability team made the [initial implementation/deployment](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/210). |
 | LFS |  | Centralized with Specific Team | @andr3 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code/backend/) |  |
-| Logrotate |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
-| Mattermost |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
+| Logrotate |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
+| Mattermost |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) | Distribution team is responsible for packaging and upgrading versions. Functional issues can be directed to the vendor. |
 | MinIO |  | Decentralized |  |  | Some issues can be broken down into group-specific issues. Some issues may need more work identifying user or developer impact in order to find a DRI. |
-| NGINX |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
+| NGINX |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
 | Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/) |  |
-| Patroni | General except Geo secondary clusters | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
+| Patroni | General except Geo secondary clusters | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
 |  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/) |  |
-| PgBouncer |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
+| PgBouncer |  | Centralized with Specific Team | @plu8  | [Distribution](/handbook/engineering/infrastructure-platforms/gitlab-delivery/distribution/) |  |
 | PostgreSQL | PostgreSQL Framework and Tooling | Centralized with Specific Team | @alexives | [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) | Specific to the development portion of PostgreSQL, such as the fundamental architecture, testing utilities, and other productivity tooling |
 |  | GitLab Product Features | Decentralized |  |  | Examples like feature specific schema changes and/or performance tuning, etc. |
 | Prometheus |  | Decentralized |  |  | Each group maintains their own metrics.  |
@@ -391,8 +492,8 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 
 ### Development Escalation Process
 
-- [General information](/handbook/engineering/development/processes/infra-dev-escalation/)
-- [Process outline](/handbook/engineering/development/processes/infra-dev-escalation/process/)
+- [General information](processes/Infra-Dev-Escalation/)
+- [Process outline](processes/Infra-Dev-Escalation/process.html)
 
 ### Reducing the impact of far-reaching work
 
@@ -446,16 +547,17 @@ This section provides an overview of all teams invested in implementing and main
 
 These are the stakeholders:
 
-| Team                                                                                                                                                           | Stake |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development)                                                                         | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))  |
-| [Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/)                                                   | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [JetBrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
-| [Enablement:Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/) (`@mkaeppler`, `@nmilojevic1`) | AI-Assissted for Self-Managed |
-| [AI Framework](/handbook/engineering/ai/data-science/ai-powered/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |
-| [Duo Chat](/handbook/engineering/ai/data-science/ai-powered/duo-chat/)                                                           | GitLab Chat for VSCode and WebIDE|
-| [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/)                                                    | Code Suggestions |
-| [AI Model Validation Group](/handbook/engineering/ai/data-science/ai-powered/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
-| [Infrastructure](/handbook/engineering/infrastructure/)                                                                                | Code Suggestions AI Gateway scalability |
+| Team                                                                                                                              | Responsible For                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Remote Development](/handbook/engineering/development/dev/create/remote-development)                                             | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| [Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/)                                              | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [JetBrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
+| [Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/) (`@mkaeppler`, `@nmilojevic1`) | Supports access to Duo for Self-Managed: Cloud Connector, Unit Primitives                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)                                           | Abstraction Layer / AI Gateway for LLM integration to the application (GitLab Chat, Code Suggestions and other AI capabilities)                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/) (formerly Model Validation)               | Custom feature evaluators, evaluation support, automated evaluation tooling                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Global Search](/handbook/engineering/development/dev/foundations/search/)                                                        | Abstraction Layer / Vector Storage / Semantic search                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/)                                                   | GitLab Chat for VSCode and WebIDE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [Code Creation](/handbook/engineering/development/dev/create/code-creation/)                                                      | Code Suggestions (Code completion, Code generation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| [Infrastructure Platforms - Runway](/handbook/engineering/infrastructure/team/runway/)                                                                           | AI Gateway Scalability / Runway infrastructure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 ## ClickHouse Datastore usage
 
@@ -480,6 +582,16 @@ If development is the DRI or actively participating in a [Customer Account Escal
 Remind GitLab team members in Slack to update the status of items they are the DRI for before recurring meetings.
 * Post a link to the meeting notes and recording in a Slack channel for the customer escalation, so those who did not attend know that the notes and recording are available for review.
 * When there is an action item for someone in a meeting (whether they are present or not), tag them in an issue or MR (or in Slack) so they will see it.
+
+## Books
+
+Note: books in this section [can be expensed](/handbook/finance/spending-company-money/).
+
+Interested in reading this as part of a group? We occasionally self-organize [book](/handbook/leadership/book-clubs/)
+clubs around these books and those listed on our [Leadership page](/handbook/leadership/#books).
+
+1. [The Principles of Product Development Flow](https://www.amazon.com/Principles-Product-Development-Flow-Generation/dp/1935401009/)
+1. [Software Engineering at Google](https://gitlab.com/gitlab-com/book-clubs/-/issues/10)
 
 ## FY24 Team Building "Fun" Budget
 
@@ -517,5 +629,5 @@ The team building budget may be used for a variety of activities, including but 
 
 * [Development department board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/1008667?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Development%20Department)
 * [Current OKR's](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/1008667?scope=all&utf8=✓&state=opened&label_name[]=Development%20Department&label_name[]=OKR)
-* Slack channel #expansion-development
+* Slack channel [#development](https://gitlab.slack.com/messages/C02PF508L)
 * [Manager Notes](/handbook/engineering/development/managers/)

@@ -97,7 +97,7 @@ The PM and EM are responsible for aligning on the goals.
 The planning issues are [created automatically](https://gitlab.com/gitlab-org/editor-extensions/meta/-/tree/main#issue-creation-process) every month.
 
 We use the [Editor Extensions Priority Board](https://gitlab.com/groups/gitlab-org/-/boards/7088820?label_name[]=group%3A%3Aeditor%20extensions)
-to track the relative [priority of issues](/handbook/product/product-processes/#boards). Issues at the top of a column have the highest priority.
+to track the relative [priority of issues](/handbook/product/product-processes). Issues at the top of a column have the highest priority.
 
 Separately, the technical writer for this group also triages open issues for potential documentation and UI text changes,
 and follows the Technical Writing [triage process](https://docs.gitlab.com/development/documentation/workflow/#documentation-feedback-and-improvements). After review, each issue receives the `~tw::triaged` label.

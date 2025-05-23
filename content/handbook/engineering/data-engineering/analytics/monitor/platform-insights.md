@@ -4,7 +4,7 @@ title: "Monitor:Platform Insights Group"
 
 ## Who we are?
 
-The Platform Insights group is part of the GitLab [Monitor stage](/handbook/engineering/development/analytics/monitor/) and builds [GitLab Observability](https://about.gitlab.com/direction/monitor/platform-insights/) and [Product Analytics](https://about.gitlab.com/direction/monitor/platform-insights/) products.
+The Platform Insights group is part of the GitLab [Monitor stage](/handbook/engineering/data-engineering/analytics/monitor/) and builds [GitLab Observability](https://about.gitlab.com/direction/monitor/platform-insights/) and [Product Analytics](https://about.gitlab.com/direction/monitor/platform-insights/) products.
 
 ### Team members
 
