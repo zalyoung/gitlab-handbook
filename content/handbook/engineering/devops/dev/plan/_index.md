@@ -6,7 +6,6 @@ Plan teams:
 
 - [Plan:Project Management Team](/handbook/engineering/devops/dev/plan/project-management/)
 - [Plan:Product Planning Team](/handbook/engineering/devops/dev/plan/product-planning/)
-- [Plan:Optimize Team](/handbook/engineering/development/analytics/monitor/optimize/)
 - [Plan:Knowledge Team](/handbook/engineering/devops/dev/plan/knowledge/)
 
 The responsibilities of this collective team are described by the [Plan stage](/handbook/product/categories/#plan-stage). Among other things, this means
