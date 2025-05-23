@@ -97,9 +97,59 @@ Deploy team focus is configuration, deployment, and operation of GitLab as a who
 
 ## Goals
 
-[Increase # of active installations](https://10az.online.tableau.com/#/site/gitlab/workbooks/2298821/views)
+**Important:** Reach out to the Build team **early** if your change requires:
+- New or updated gems with native extensions
+- New or updated external software dependencies
+- If you need to do `install`, `update`, `make`, `mkdir`, `mv`, `cp`, `chown`,
+`chmod`, or do compilation in any part of GitLab stack
 
-[Reduce average days behind latest version](https://10az.online.tableau.com/#/site/gitlab/views/VersionUpgradeMetrics/InstallationsonLatestVersionsofGitLab?:iid=1)
+If a change is reported late in the release cycle or not reported at all, your feature/change might not be shipped within the release.
+
+### For New Team Members
+
+- Complete your [team onboarding issue](https://gitlab.com/gitlab-org/distribution/team-tasks) using the `Team-onboarding` template
+- Review our [workflow documentation](workflow.html)
+- Set up access to build infrastructure as outlined in your onboarding issue
+
+### For Customers and Community
+
+- **Installation Issues:** [Community Forum](https://forum.gitlab.com)
+- **Bug Reports:** [GitLab Issues](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues) with `group::build` label
+- **Installation Documentation:** [Install](https://about.gitlab.com/install/), [Update](https://about.gitlab.com/update/), and [Upgrade](https://about.gitlab.com/upgrade/) pages
+- **Contributing:** See our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) and contribution guidelines
+
+## Communication Channels
+
+- **Urgent Issues:** Slack `#g_distribution` channel
+- **Feature Requests:** [Deliverables Request](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/new?issuable_template=Architectural-Deliverables-Request) issue
+- **General Questions:** Ping `@gitlab-org/build` in relevant issues
+- **Merge Request Reviews:** Use our [merge request workflow](merge_requests.html#workflow) for Build team projects
+
+### For Support Requests
+
+For complex issues that may require expertise from multiple teams or when it's unclear which team should handle a customer request, use GitLab's unified Request for Help (RFH) process. This process ensures we have a single source of truth and enables better cross-functional collaboration, as many requests actually require expertise from multiple areas of the product.
+
+To open an RFH, refer to the procedures in our [how to get help](/handbook/support/workflows/how-to-get-help.md) handbook page. This process allows us to track time involved and ensure that the right parties are involved at the correct time.
+
+## Responsibilities
+
+### Internal Customer Support
+
+- **Build Tooling & Infrastructure:** Develop and maintain tools that enable efficient component building
+- **Integration Services:** Ensure development team components integrate seamlessly into GitLab packages
+- **Security Partnership:** Collaborate with Security teams to identify and mitigate vulnerabilities
+- **Dependency Management:** Maintain up-to-date, secure dependencies across all components
+- **Documentation & Self-Service:** Create guides enabling development teams to work independently
+
+### External Customer Delivery
+
+- **Multi-Platform Packages:** Build and maintain packages for all major Linux distributions and architectures
+- **Container Images:** Develop and maintain official GitLab container images
+- **Cloud Marketplace:** Manage listings and integrations with major cloud providers
+- **Installation Experience:** Maintain install, update, and upgrade documentation and processes
+- **Quality Assurance:** Ensure all installation methods are thoroughly tested before release
+- **License Management:** Ensure compliance across all bundled dependencies
+- **Partner Certifications:** Submit to partners for validations and certifications
 
 ## Team members
 
@@ -345,7 +395,7 @@ The following important areas of the GitLab Handbook impact how we work and are 
 - [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
 - [Principles of our company strategy](/handbook/company/strategy/#principles)
 - [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
-- [Test Platform in Distribution group](/handbook/engineering/testing/distribution/)
+- [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)
 
 ## Work/life harmony
 
