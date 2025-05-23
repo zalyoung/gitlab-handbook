@@ -89,7 +89,7 @@ From GitLab's perspective, these funds enable more expansive marketing campaigns
 
 2. Fund Requesters: Initiates funding requests
 
-   1. Fill out the spreadsheet with campaign details
+   1. Fill out the [appropriate spreadsheet](/handbook/marketing/channel-marketing/hyperscalers/#application-process) with campaign details
    2. Provides Target MQL and Target Pipeline Goals
 
 3. Partner Marketing Manager (Gabby): Administers fund allocation
