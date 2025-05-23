@@ -8,16 +8,16 @@ description: >-
 
 ## Hello
 
-[We're the Create Stage](/handbook/engineering/development/dev/create/engineering-managers/) and we are a group of teams within the Dev Sub Department. We're comprised of five areas [within the GitLab product](/handbook/product/categories/#create-stage).
+[We're the Create Stage](/handbook/engineering/devops/dev/create/engineering-managers/) and we are a group of teams within the Dev Sub Department. We're comprised of five areas [within the GitLab product](/handbook/product/categories/#create-stage).
 
 | Team | Engineering Managers |
 | ---- | -------------------- |
-| [Create Stage](/handbook/engineering/development/dev/create/) | [Darva Satcher](/handbook/company/team/#dsatcher) (Director, Engineering) |
-| [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
-| [Create:Code Review](/handbook/engineering/development/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
-| [Create:Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
-| [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
-| [Create:Source Code](/handbook/engineering/development/dev/create/source-code/) | [André Luís](/handbook/company/team/#andr3) (Frontend) (Backend - Acting)|
+| [Create Stage](/handbook/engineering/devops/dev/create/) | [Darva Satcher](/handbook/company/team/#dsatcher) (Director, Engineering) |
+| [Create:Code Creation](/handbook/engineering/devops/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
+| [Create:Code Review](/handbook/engineering/devops/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
+| [Create:Editor Extensions](/handbook/engineering/devops/dev/create/editor-extensions/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
+| [Create:Remote Development](/handbook/engineering/devops/dev/create/remote-development/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
+| [Create:Source Code](/handbook/engineering/devops/dev/create/source-code/) | [André Luís](/handbook/company/team/#andr3) (Frontend) (Backend - Acting)|
 
 ## Mission
 
@@ -60,26 +60,26 @@ If there is an area you are interested in learning more about, please reach out 
 
 **Engineering Managers**
 
-- [Recommended Books](/handbook/engineering/development/dev/create/engineering-managers/books/)
-- [Training Materials](/handbook/engineering/development/dev/create/engineering-managers/training/)
+- [Recommended Books](/handbook/engineering/devops/dev/create/engineering-managers/books/)
+- [Training Materials](/handbook/engineering/devops/dev/create/engineering-managers/training/)
 
 **Individual Contributors**
 
-- [Professional Development](/handbook/engineering/development/dev/create/engineers/professional-development/)
-- [Recommended Books](/handbook/engineering/development/dev/create/engineers/books/)
-- [Training Materials](/handbook/engineering/development/dev/create/engineers/training/)
+- [Professional Development](/handbook/engineering/devops/dev/create/engineers/professional-development/)
+- [Recommended Books](/handbook/engineering/devops/dev/create/engineers/books/)
+- [Training Materials](/handbook/engineering/devops/dev/create/engineers/training/)
 - [Transitioning from an Individual Contributor to a Manager](/handbook/engineering/development/dev/training/ic-to-manager)
-- [Skip-level Meetings](/handbook/engineering/development/dev/create/engineers/skip-level/)
-- [Iteration](/handbook/engineering/development/dev/create/engineers/iteration/)
+- [Skip-level Meetings](/handbook/engineering/devops/dev/create/engineers/skip-level/)
+- [Iteration](/handbook/engineering/devops/dev/create/engineers/iteration/)
 
 ## How we work
 
 Each team work in the manner that best meets the needs of their product and their team.
 
-- [Create Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/)
-- [Remote Development Team](/handbook/engineering/development/dev/create/remote-development/)
-- [Code Review Team](/handbook/engineering/development/dev/create/code-review/#work)
-- Source Code Team [Backend](/handbook/engineering/development/dev/create/source-code/backend/#workflow), [Frontend](/handbook/engineering/development/dev/create/code-review/frontend/#work)
+- [Create Engineering Managers](/handbook/engineering/devops/dev/create/engineering-managers/)
+- [Remote Development Team](/handbook/engineering/devops/dev/create/remote-development/)
+- [Code Review Team](/handbook/engineering/devops/dev/create/code-review/#work)
+- Source Code Team [Backend](/handbook/engineering/devops/dev/create/source-code/backend/#workflow), [Frontend](/handbook/engineering/devops/dev/create/code-review/frontend/#work)
 
 ## Templates
 
@@ -98,14 +98,14 @@ Every quarter we participate in a cross team bonding activity, Create Team Day.
 
 Engineering Managers live our [values](/handbook/values/) every day.
 
-[Read More about how Engineering Managers live GitLab Values](/handbook/engineering/development/dev/create/engineering-managers/live/)
+[Read More about how Engineering Managers live GitLab Values](/handbook/engineering/devops/dev/create/engineering-managers/live/)
 
 ## How we measure Results
 
-- [OKRs](/handbook/engineering/development/dev/create/engineering-managers/okrs/)
+- [OKRs](/handbook/engineering/devops/dev/create/engineering-managers/okrs/)
 - Dashboards
 - Issue Boards
-- [Monitoring](/handbook/engineering/development/dev/create/engineering-managers/monitoring/)
+- [Monitoring](/handbook/engineering/devops/dev/create/engineering-managers/monitoring/)
 
 ## How we measure Iteration
 
@@ -128,7 +128,7 @@ During talent assessments, Engineering Managers take a holistic approach to eval
 - Merge Request Impact
 - Multiple Others
 
-This comprehensive approach allows for a well-rounded evaluation of an engineer's contributions and growth. For more details, refer to our [Talent Assessments](/handbook/engineering/development/dev/create/talent-assessments/) page.
+This comprehensive approach allows for a well-rounded evaluation of an engineer's contributions and growth. For more details, refer to our [Talent Assessments](/handbook/engineering/devops/dev/create/talent-assessments/) page.
 
 We believe it's important to communicate expectations clearly and transparently so we can all know what is expected and what to expect. This section looks to add clarity to this topic and promote higher awareness among the entire Create stage.
 

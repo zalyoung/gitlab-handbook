@@ -62,7 +62,7 @@ The following members of other functional teams are our stable counterparts:
 
 ### Work
 
-See the [work section](/handbook/engineering/development/dev/create/code-review/#work) of the main Code Review page.
+See the [work section](/handbook/engineering/devops/dev/create/code-review/#work) of the main Code Review page.
 
 ### Capacity planning
 

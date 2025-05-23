@@ -60,7 +60,7 @@ Objectives and Key Results (OKRs) help align our team towards what really matter
 
 ## How We Work
 
-See the [work section](/handbook/engineering/development/dev/create/code-review/#work) of the main Code Review page.
+See the [work section](/handbook/engineering/devops/dev/create/code-review/#work) of the main Code Review page.
 
 ### Working with our team
 
@@ -72,7 +72,7 @@ To contact the Code Review BE team in GitLab, you can use the `@code-review-be` 
 
 ### Meeting Schedule
 
-[Team members](/handbook/engineering/development/dev/create/code-review/backend/#team-members) meet monthly and are encouraged to join in order to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
+[Team members](/handbook/engineering/devops/dev/create/code-review/backend/#team-members) meet monthly and are encouraged to join in order to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
 
 #### Follow-up issues
 
@@ -96,7 +96,7 @@ for the current iteration cycle, which
 lists all of the Deliverable and Stretch issues scheduled for this cycle.
 
 The lists are compiled by the Product Manager and Engineering Managers following the
-[milestone planning process](/handbook/engineering/development/dev/create/code-review/backend/manager),
+[milestone planning process](/handbook/engineering/devops/dev/create/code-review/backend/manager),
 with input from the team and other stakeholders.
 The iteration cycle start on the Monday before the 3rd Thursday of the month,
 and is identified by the GitLab version set to be released.
@@ -248,5 +248,5 @@ Open an issue using the [Code Review onboarding template for Backend Engineers](
 
 ## Other Related Pages
 
-- [Create:Code Review BE Engineer Resources](/handbook/engineering/development/dev/create/code-review/backend/engineers), e.g. team building and career development
-- [Create:Code Review BE Engineering Manager Responsibilities](/handbook/engineering/development/dev/create/code-review/backend/manager), e.g. milestone planning, talent assessment, and project management
+- [Create:Code Review BE Engineer Resources](/handbook/engineering/devops/dev/create/code-review/backend/engineers), e.g. team building and career development
+- [Create:Code Review BE Engineering Manager Responsibilities](/handbook/engineering/devops/dev/create/code-review/backend/manager), e.g. milestone planning, talent assessment, and project management

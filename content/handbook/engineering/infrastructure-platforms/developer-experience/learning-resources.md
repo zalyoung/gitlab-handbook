@@ -31,7 +31,7 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 #### Additional reading
 
 - GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining one of the upcoming book clubs or starting your own.
-- The Create Stage has [recommended books for Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/books/).
+- The Create Stage has [recommended books for Engineering Managers](/handbook/engineering/devops/dev/create/engineering-managers/books/).
 
 ### Podcasts
 

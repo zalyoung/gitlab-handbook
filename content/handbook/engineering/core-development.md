@@ -1,5 +1,5 @@
 ---
-title: DevOps Engineering
+title: Core Development Department
 ---
 
 ## Vision
@@ -16,7 +16,7 @@ GitLab's unique way of working asynchronously, handbook first method, utilizatio
 
 ### Be Strategic
 
-To better fulfill our goals and vision, we are following [R&D interlock process](/handbook/product-development/r-and-d-interlock).
+To better fulfill our goals and vision, we will shift from a reactive approach to a strategic one. A key initiative to accomplish that will be the development of comprehensive [technical roadmaps](/handbook/engineering/#technical-roadmaps) across all groups to use our [40% time budget](/handbook/engineering/#engineering-initiatives) efficiently. This approach allows us to concentrate on enhancing our product by aligning technical and architectural improvements across teams, ensuring they are in harmony with our overarching business objectives. We will establish department-wide initiatives and targets, but it is crucial that each group identifies and prioritizes the most critical areas for improvement in their respective area (e.g., reducing technical debt, resolving bugs or optimizing performance). It is also essential that we coordinate between groups to address cross-cutting concerns.
 
 ### Fostering High-Performing Teams for Efficient Execution
 
@@ -70,23 +70,62 @@ We should:
 
 We will continue our strong partnership with Product to make GitLab the best, most complete DevSecOps platform on the planet. This coordination and prioritization requires a lot of work and effort to provide the right data and make the right decisions. We will focus on a variety of factors, but top of mind will be our parent department's direction to be [customer focused](/handbook/engineering/#expand-customer-focus-through-depth-breadth-and-stability).
 
+### AI Everywhere: Empowering Teams with Artificial Intelligence
+
+The use of AI is not to replace current features or areas but instead to enhance all areas respectively in an impactful way. We are committed to enabling all teams across our product ecosystem to leverage AI features effectively and confidently. Given the unprecedented pace of AI evolution, it's crucial that every team understands its potential applications for their respective domains (where each team has also the largest amount of knowledge) and current capabilities.
+
+Three AI platform streams will be available this year:
+
+1. Feature Integration into Duo Chat
+2. Model Functionality for Duo Enterprise Features
+3. Extensions to Duo Workflow
+
+Our goal is also to maximize the usage of our own AI features, particularly in supporting and accelerating common team challenges such as:
+
+- Technical debt reduction
+- Dependency updates
+- Code review optimization
+- Pipeline issue resolution
+- etc.
+
 ### Usability
 
 Millions of customers use GitLab, so UX improvements can have a huge collective impact across all of these individuals. We support this effort both in the product development as well as in our architecture. This includes continued conversion of [Pajamas components](/handbook/engineering/ux/pajamas-design-system/) in order to continue to improve the performance experienced by users.
 
 Development team members should also constantly suggest and investigate how to improve the overall user experience of the product. These can range from enhancing performance (actual and perceived), suggesting new technologies, solving user experience issues efficiently, etc.
 
+### Efficiency
+
+GitLab's Development group ships thousands of product merge requests per month. Continuing to scale our development process to an ever larger number of contributors requires efficiency, collaboration and iteration. We focus on training our new hires on iteration and process improvements, saving team members time. We will also review the best metrics to focus on. Doing so will help us measure the efficiency of our responsiveness to our peers for the company and the community.
+
+### Diversity
+
+We will follow our parent department [Engineering](/handbook/engineering/#diversity) lead.
+
 ## Organizational Structure
 
 ```plantuml
 @startwbs
-* DevOps Engineering
+* Core Development
 ** Create
+*** Code Creation
 *** Code Review
 *** Remote Development
+*** Editor Extensions
 *** Source Code
+** Foundations & Data Science
+*** Data Science
+**** AI Framework
+**** Duo Chat
+**** Duo Workflow
+*** Foundations
+**** Import and Integrate
+**** Personal Productivity
+**** Design System
+**** Global Search
 ** Ops
 *** Deploy
+*** Observability
 *** Package
 *** Verify:Runner
 *** Verify:Pipelines
@@ -97,21 +136,37 @@ Development team members should also constantly suggest and investigate how to i
 *** Product Planning
 *** Project Management
 *** Knowledge
+** Analyze
+*** Product Analytics
+*** Analytics Instrumentation
+*** Optimize
 @endwbs
 ```
 
 ## Organizational Responsibilities
 
-The DevOps department is comprised of:
+The core development team is comprised of:
 
-- [Dev](/handbook/engineering/devops/dev/)
-- [Ops](/handbook/engineering/devops/ops/)
+- [Dev](/handbook/engineering/development/dev/)
+- [Ops](/handbook/engineering/development/ops/)
 
-## People Processes
+## Team Members
+
+The following people are permanent members of the Development Department:
+
+{{< team-by-departments departments="Verify,Package,Release,Dev,Enablement,Ops,Fellow" manager="Senior Director, Core Development" >}}
+
+<!-- ## Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+<%= stable_counterparts(role_regexp: /[,&] Development/, direct_manager_role: 'VP of Development') %> -->
+
+## Development-Specific People Processes
 
 ### Promotion Process
 
-Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), DevOps utilizes a process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/). The goal of this promotion projection and review is to:
+Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), Development utilizes a quarterly process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/). The goal of this quarterly promotion projection and review is to:
 
 - Promote the right people at the right time
 - Maintain a high bar for promotions
@@ -119,13 +174,13 @@ Aligned with the [company-wide promotion cadence](/handbook/people-group/promoti
 - Ensure alignment with overall company [promotion rate](/handbook/people-group/people-success-performance-indicators/#promotion-rate)
 - Add another layer of review to reduce bias in the promotion process
 
-DevOps adheres to the company-wide quarterly timeline outlined [here](/handbook/people-group/promotions-transfers/#promotions-process--timeline) as our SSOT.
+Development adheres to the company-wide quarterly timeline outlined [here](/handbook/people-group/promotions-transfers/#promotions-process--timeline) as our SSOT.
 
-**The DevOps Department has an additional formal step built in to our promotion process beyond what the company is currently adhering to through our peer review process**. Ahead of the commencement of the [Calibration](/handbook/people-group/promotions-transfers/#calibration) stage of our process, all promotion documents should be peer reviewed by a Senior Manager or Director. The due date to complete the peer review is _before_ the scheduled Calibration session.
+**The Development Department has an additional formal step built in to our promotion process beyond what the company is currently adhering to through our peer review process**. Ahead of the commencement of the [Calibration](/handbook/people-group/promotions-transfers/#calibration) stage of our process, all promotion documents should be peer reviewed by a Senior Manager or Director. The due date to complete the peer review is _before_ the scheduled Calibration session.
 
 Calibration session attendees are the following team members: Senior Managers, Directors, Sr. Directors, VP, and Development's aligned People Business Partner. This is to ensure consistency across the organization. Leaders are welcome to conduct Calibration sessions prior to the scheduled sessions above with their sub-departments as well (though this is not a requirement).
 
-In addition to the [company-wide calibration preparation](/handbook/people-group/promotions-transfers/#calibration), for the DevOps department we also ask that leaders come prepared to discuss:
+In addition to the [company-wide calibration preparation](/handbook/people-group/promotions-transfers/#calibration), for the Development department we also ask that leaders come prepared to discuss:
 
 1. Status of maintainership
 2. Most recent talent assessment
@@ -154,13 +209,13 @@ The calibration agenda will consist of the following for each candidate:
 
 **Please aim to be concise and crisp in the calibration agenda summary for each candidate**. Leaders are able to reference promotion documents for details, while the calibration agenda summary is meant to be a snapshot of key points to help facilitate discussion and provide an overview for the group.
 
-To allow time for review and the addition of questions/feedback, summaries should be included in the agenda no less than one week prior to the DevOps Leadership scheduled calibration date.
+To allow time for review and the addition of questions/feedback, summaries should be included in the agenda no less than one week prior to the Development Leadership scheduled calibration date.
 
 In line with our [guidance on feedback](/handbook/people-group/guidance-on-feedback), feedback should be regular and ongoing. Calibration sessions are meant to discuss team member promotion readiness and calibrate promotions across the department, but they should not replace the regular and ongoing feedback provided throughout the year. Any relevant feedback should be given promptly and not wait until talent assessments or promotion calibration. This will ensure that both the team member and their manager have an opportunity to address feedback in a timely manner.
 
 ### Talent Assessment Process
 
-Talent Assessment Process guidelines specific for the DevOps Department is documented in [this handbook page](/handbook/people-group/talent-assessment/).
+Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](/handbook/people-group/talent-assessment/).
 
 ### How we hire contractors
 
@@ -211,19 +266,28 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 2. For business selected vendors that provide base images (RHEL's UBI8 for example), we need to wait for their patches, or need to log Deviation Request (DR) as viable resolutions. The [VulnMapper](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper/-/tree/main), an automation developed by the Threat Management team, can create vendor dependency DRs to a large extent, but there are still cases that DR needs to be reported manually.
 3. The assigned development group can redirect issues if the initial assignment was inaccurate, following the processes for [shared responsibility issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) and/or [Shared responsibility functionality](/handbook/product/categories/#shared-responsibility-functionality).
 
-### DevOps Headcount planning
+### Development Headcount planning
 
-DevOps's headcount planning follows the Engineering [headcount planning](/handbook/engineering/#headcount-planning) and [long term profitability targets](/handbook/engineering/#long-term-profitability-targets). Development headcount is a percentage of overall engineering headcount.
+Development's headcount planning follows the Engineering [headcount planning](/handbook/engineering/#headcount-planning) and [long term profitability targets](/handbook/engineering/#long-term-profitability-targets). Development headcount is a percentage of overall engineering headcount. For FY20, the headcount size is 271 or ~58% of overall engineering headcount.
 
 We follow normal span of control both for our managers and directors of [4 to 10](/handbook/company/structure/#management-group). Our sub-departments and teams match as closely as we can to the [Product Hierarchy](/handbook/product/categories/#hierarchy) to best map 1:1 to [Product Managers](/handbook/product/).
 
 ### Daily Duties for Engineering Directors
 
+This section applies to those who report to the VP of Development
+
 The following is a non exhaustive list of daily duties for engineering directors, while some items are only applicable at certain time, though.
 
 1. Review engineering metrics
-    1. DevOps Performance Indicators
-    1. Stage Performance Indicators
+    1. Development Department Performance Indicators
+    1. Sub-department Performance Indicators
+    1. Dev
+    1. Enablement
+    1. Fulfillment
+    1. Growth
+    1. Ops
+    1. Secure
+    1. Software Supply Chain Security
 1. Review hiring dashboards
 1. Personal todo list
 1. Personal GitLab board(s) if any
@@ -244,8 +308,59 @@ The following is a non exhaustive list of daily duties for engineering directors
     1. Sync discussions for infradev Issues are part of the [GitLab SaaS Weekly Meeting](/handbook/engineering/infrastructure/#gitlab-saas-infrastructure)
     1. [Agenda document](https://docs.google.com/document/d/1fLQQBKt0mShmTk_mJ-BmBM6OFjal63-AH7yKSbMg6_s/edit#)
     1. [Infradev board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev)
+1. Follow active [Engineering Global Prioritization(s)](#global-prioritization) that the director sponsors
+    1. Standup/status update document
+    1. Issue board
 1. Holiday Emergency Contact Rotations
 1. [Review and approve security approvals](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/12296) for the GitLab project when required and informing the security engineering team when a security risk is accepted rather than being resolved prior to approval.
+
+### Developing and Tracking OKRs
+
+In general, OKRs flow top-down and align to the company and upper level organization goals.
+
+#### Managers and Directors
+
+For managers and directors, please refer to a good [walk-through example of OKR format](/handbook/company/okrs/#example-developments-approach-to-okrs) for developing team OKRs. Consider stubbing out OKRs early in the last month of the current quarter, and get the OKRs in shape (e.g. fleshing out details and making them [SMART](https://en.wikipedia.org/wiki/SMART_criteria)) no later than the end of the current quarter.
+
+It is recommended to assess progress **weekly**.
+
+1. Append the percentage score to the subject of Objective epics and Key Result issues.
+1. Set the [Health status](/handbook/company/okrs/#maintaining-the-status-of-okrs) of epics and issues.
+1. In the case where weekly assessment is impractical, an assessment shall be made by the end of each month.
+
+#### Staff Engineers, Distinguished Engineers, and Fellows
+
+Below are tips for developing individual's OKRs:
+
+1. Align OKRs to team goals. However, it's unnecessary to derive from all organizational OKRs. Simply decide what makes sense to your personal situation.
+1. Follow the same timeline of managers and directors, i.e. stubbing out early and bring OKRs in shape by the end of the current quarter.
+1. Refer to the same [walk-through example of OKR format](/handbook/company/okrs/#example-developments-approach-to-okrs).
+1. Make [SMART](https://en.wikipedia.org/wiki/SMART_criteria) OKRs - Specific, Measurable, Achievable, Relevant, Time-bound.
+1. Follow the same progress assessment instructions above.
+
+#### Examples
+
+1. [Engineering](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/7253)
+1. [Development](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/7148)
+
+## Engineering Allocations and Tracking
+
+[Engineering Allocation](/handbook/product/product-processes/#prioritization-framework) require us to track goals with more diligence and thought.  We need confidence that we're making correct decisions and executing well to these initiatives. As such, you will see us reviewing these more closely than other initiatives.  We will meet on a cadence to review these initiatives and request additional reporting to support the process.  Possible requests for additional data:
+
+1. [Demos](/handbook/engineering/demos/)
+1. [GitLab Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/)
+1. [GitLab Architecture Workflow](/handbook/engineering/architecture/workflow/)
+1. <span class="colour" style="color: rgb(0, 0, 0);">Dogfooding of features we think may be useful</span>
+
+We will hold Engineering Allocation Checkpoints on a cadence.  The recommended cadence is weekly.
+
+### Roadmaps for Engineering Allocations
+
+We track Engineering Allocation [roadmaps](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=end_date_asc&label_name%5B%5D=Engineering+Allocation).  To use this effectively, roadmaps must have correct dates for their epic and weights assigned to issues.  If a team does not normally use weights, then assign each issue a weight of 1 (all issues are equal).
+
+#### Team allocation measurement
+
+Each team needs to demonstrate how their allocation is being used.  This is done to verify we are not over/under investing for a given initiative.  This can be done via assignment (people assigned to work) and/or issues assigned.  We will track [issues and MRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11340) and see as a percentage how that compares to the overall teams work.
 
 ### Ownership of Shared Services and Components
 
@@ -264,7 +379,7 @@ There are a few available models to choose from so that the flexibility is maxim
 1. Centralized with Virtual Team
     1. A single group owns the backlog of a specific shared service including new feature requests, bug fixes, and technical debt. There may or may not be a counterpart Product Manager.
     1. The single group is a virtual team, meaning it consists of engineers from various engineering teams, for example maintainers or subject matter experts. Typically there isn't an engineering manager for this virtual team. The DRI is an appointed person in the group who may not necessarily be an engineering manager.
-    1. This single group is expected to collaborate closely and regularly in refining and planning backlog.
+    1. This single group is expected to collaborate closely and regularly in grooming and planning backlog.
     1. This model may fit a subject domain that's in maintenance mode.
 1. Collectives
     1. Collectives consist of individuals from existing teams who voluntarily rally around a shared interest or responsibility, but unlike Working Groups may exist in perpetuity. The shared interest could be a specific technology or system. Collective members feel a collective responsibility to weakly own, improve upon or otherwise steer the subject they govern.
@@ -315,7 +430,24 @@ The shared services and components below are extracted from the GitLab [product 
 
 ## Learning Resources
 
-For a list of resources and information on our GitLab Learn channel for DevOps, consult [this page](/handbook/engineering/development/training/).
+For a list of resources and information on our GitLab Learn channel for Development, consult [this page](/handbook/engineering/training/).
+
+## Continuous Delivery, Infrastructure and Quality Collaboration
+
+In late June 2019, we moved from a monthly release cadence to a more continuous
+delivery model. This has led to us changing from issues being
+concentrated during the deployment to a more constant flow. With the adoption
+of continuous delivery, there is an organizational mismatch in cadence between
+changes that are regularly introduced in the environment and the monthly
+development cadence.
+
+To reduce this, infrastructure and quality will engage development via
+[SaaS Infrastructure Weekly](https://docs.google.com/document/u/1/d/1fLQQBKt0mShmTk_mJ-BmBM6OFjal63-AH7yKSbMg6_s/edit) and [Performance refinement](/handbook/engineering/workflow/#performance-refinement) which
+represent critical issues to be addressed in development from infrastructure
+and quality.
+
+Refinement will happen on a weekly basis and involve a member of infrastructure,
+quality, product management, and development.
 
 ### Global Prioritization
 
@@ -341,7 +473,7 @@ Teams roll up by the org chart hierarchy -
 
 ### Working with Support
 
-When DevOps collaborates with Support it provides invaluable insight into how customers are using the product and the challenges they run into. A few tips to make the process efficient:
+When Development collaborates with Support it provides invaluable insight into how customers are using the product and the challenges they run into. A few tips to make the process efficient:
 
 - Get [access to Zendesk](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) so you view the question and communication from customers.
 - Always write answers in a way that they can be "cut-and-pasted" and sent to a customer.
@@ -358,7 +490,7 @@ These [frequently asked questions](/handbook/engineering/infrastructure/incident
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/) process
 - [Incident Manager On Call onboarding](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/)
 
-### DevOps Escalation Process
+### Development Escalation Process
 
 - [General information](processes/Infra-Dev-Escalation/)
 - [Process outline](processes/Infra-Dev-Escalation/process.html)
@@ -407,7 +539,29 @@ Some areas have already been identified that meet the definition above, and may 
 | [Specific fulfillment product areas](/handbook/engineering/development/fulfillment/#revenue-impacting-changes) | potentially impact revenue |                                                                                                                       |
 | Runtime language updates | impacts to multiple services | [Ruby Upgrade Guidelines](https://docs.gitlab.com/ee/development/ruby_upgrade.html#ruby-upgrade-guidelines)           |
 | Application framework updates | impacts to multiple services | [Rails Upgrade Guidelines](https://docs.gitlab.com/ee/development/rails_update.html)                                  |
-| Navigation | impact to entire application | [Proposing a change that impacts navigation](/handbook/product/ux/navigation)                  |                                     |
+| Navigation | impact to entire application | [Proposing a change that impacts navigation](/handbook/product/ux/navigation)                  |
+
+## AI-powered stakeholders
+
+This section provides an overview of all teams invested in implementing and maintaining AI features. Our Duo initiative is a cross-category effort.
+
+These are the stakeholders:
+
+| Team                                                                                                                              | Responsible For                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Remote Development](/handbook/engineering/devops/dev/create/remote-development)                                             | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| [Editor Extensions](/handbook/engineering/devops/dev/create/editor-extensions/)                                              | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [JetBrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
+| [Cloud Connector](/handbook/engineering/infrastructure/team/cloud-connector/) (`@mkaeppler`, `@nmilojevic1`) | Supports access to Duo for Self-Managed: Cloud Connector, Unit Primitives                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)                                           | Abstraction Layer / AI Gateway for LLM integration to the application (GitLab Chat, Code Suggestions and other AI capabilities)                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/) (formerly Model Validation)               | Custom feature evaluators, evaluation support, automated evaluation tooling                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Global Search](/handbook/engineering/development/dev/foundations/search/)                                                        | Abstraction Layer / Vector Storage / Semantic search                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/)                                                   | GitLab Chat for VSCode and WebIDE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [Code Creation](/handbook/engineering/devops/dev/create/code-creation/)                                                      | Code Suggestions (Code completion, Code generation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| [Infrastructure Platforms - Runway](/handbook/engineering/infrastructure/team/runway/)                                                                           | AI Gateway Scalability / Runway infrastructure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+## ClickHouse Datastore usage
+
+[ClickHouse usage by Monitor:Platform Insights group](/handbook/engineering/development/analytics/monitor/platform-insights/#clickhouse-datastore)
 
 ## Customer Account Escalation coordination
 
@@ -429,3 +583,51 @@ Remind GitLab team members in Slack to update the status of items they are the D
 * Post a link to the meeting notes and recording in a Slack channel for the customer escalation, so those who did not attend know that the notes and recording are available for review.
 * When there is an action item for someone in a meeting (whether they are present or not), tag them in an issue or MR (or in Slack) so they will see it.
 
+## Books
+
+Note: books in this section [can be expensed](/handbook/finance/spending-company-money/).
+
+Interested in reading this as part of a group? We occasionally self-organize [book](/handbook/leadership/book-clubs/)
+clubs around these books and those listed on our [Leadership page](/handbook/leadership/#books).
+
+1. [The Principles of Product Development Flow](https://www.amazon.com/Principles-Product-Development-Flow-Generation/dp/1935401009/)
+1. [Software Engineering at Google](https://gitlab.com/gitlab-com/book-clubs/-/issues/10)
+
+## FY24 Team Building "Fun" Budget
+
+### Overview of the budget
+
+As part of the [FY24 team building budget](/handbook/finance/expenses/#team-building-budget) available to each division, Engineering is allowing team members and teams to self-organize and propose team building events to use the budget.
+Development teams may apply to use the budget for team building events.
+
+The budget limit per team member in FY24 is $500 and a team member must be part of an approved application to submit expenses related to a team building event.
+
+### Examples of how it may be used
+
+The team building budget may be used for a variety of activities, including but not limited to:
+
+- [In-person meetups](/handbook/leadership/in-person/) with teammates and other department team members. Note that the budget is limited and may not cover the full cost of travel and lodging.
+- Expensing a meal for a virtual team event.
+- Credits for team members to buy GitLab swag.
+- Coordinating a social event with team members who are already attending a conference.
+
+### What it is not intended for
+- Conference registration and travel. These should be applied for separately using the Growth and Development benefit application process.
+
+### Application Process
+
+- Create an issue in your team's issue tracker or [the Team Member Socials issue tracker](https://gitlab.com/gitlab-com/gitlab-team-member-socials/-/issues) containing the following details:
+    - Event/Usage description
+    - Event date
+    - Quarter when expenses will bu submitted. This can be different from the quarter in which the event will take place.
+    - Number of team members attending
+    - Total amount requested in USD.
+- Ask your stage or sub-department leader to add the issue details to the FY24 Fun Budget Application Google Spreadsheet and ping the VP Development for approval.
+- Once approval is granted or denied, the stage/sub-department leader will update the spreadsheet with the status and inform the team members who applied.
+
+## Common Links
+
+* [Development department board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/1008667?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Development%20Department)
+* [Current OKR's](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/1008667?scope=all&utf8=✓&state=opened&label_name[]=Development%20Department&label_name[]=OKR)
+* Slack channel [#development](https://gitlab.slack.com/messages/C02PF508L)
+* [Manager Notes](/handbook/engineering/development/managers/)

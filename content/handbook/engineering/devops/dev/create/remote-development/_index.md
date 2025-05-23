@@ -7,7 +7,7 @@ description: >-
 
 ## Overview
 
-The group is part of [Create Stage](/handbook/engineering/development/dev/create/) in the [Dev Sub-department](/handbook/engineering/development/dev/). We focus on two [categories](https://about.gitlab.com/direction/create/#categories-in-create): `Workspace` and the `Web IDE`.
+The group is part of [Create Stage](/handbook/engineering/devops/dev/create/) in the [Dev Sub-department](/handbook/engineering/development/dev/). We focus on two [categories](https://about.gitlab.com/direction/create/#categories-in-create): `Workspace` and the `Web IDE`.
 
 ### 🤴 Group Principles
 
@@ -407,7 +407,7 @@ The merge request is the atomic unit of deliverable work in most cases, so it mu
 and calculations by being owned by one and only one issue.
 
 In order to enforce this via triage-ops automations
-(/handbook/engineering/development/dev/create/remote-development/#automations-for-remote-development-workflow),
+(/handbook/engineering/devops/dev/create/remote-development/#automations-for-remote-development-workflow),
 the first line of the issue should have the format: `MR: <...>`:
 
 1. For new issues, the first description line should be: `MR: Pending`

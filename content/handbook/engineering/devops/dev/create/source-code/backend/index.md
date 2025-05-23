@@ -5,7 +5,7 @@ description: The Create:Source Code BE team is responsible for all backend aspec
 
 The Create:Source Code BE team focuses on GitLab's Source Code Management (SCM) tools and is responsible for all backend aspects of the [Source Code group's](/handbook/product/categories/#source-code-group) product categories in the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages). For information on our product direction, visit the [Category Direction - Source Code Management](https://about.gitlab.com/direction/create/source_code_management/) page.
 
-We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/source-code/frontend/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#code-creation) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
+We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/devops/dev/create/source-code/frontend/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#code-creation) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
 
 ## About our team handbook page
 
@@ -101,7 +101,7 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 1. EM will create a refinement issue ([example](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/issues/249)) and distribute tasks labeled `workflow::refinement` among engineers.
 1. Engineers or EM will follow the checklist for assigned issues, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
 1. If the planned implementation of the issue can be further broken down, the engineer/EM will work with the PM to reduce scope and create new issues until this is the case (either PM or engineer/EM can create new work items).
-1. Once an issue is fully refined, engineers or EM will add an appropriate [weight](/handbook/engineering/development/dev/create/source-code/backend/#weight-categories) and label it as `workflow::ready for development`. These issues can then be added to the milestone.
+1. Once an issue is fully refined, engineers or EM will add an appropriate [weight](/handbook/engineering/devops/dev/create/source-code/backend/#weight-categories) and label it as `workflow::ready for development`. These issues can then be added to the milestone.
 1. When other teams depend on Source Code Backend issues planned for the current milestone, those issues will be labeled as `SCM::AwaitingBackend`
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
@@ -375,7 +375,7 @@ Each month a planning issue is created by one of the EMs, using [automated tools
 
 ##### Planning board
 
-The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/2822491?milestone_title=14.1&label_name%5B%5D=group%3A%3Asource%20code) is created for each release by the PM, and is a curated list of issues by category. The EM requests engineers to assist in refining issues and allocate weights via the [refinement](/handbook/engineering/development/dev/create/source-code/backend/#issue-refinement) process.
+The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/2822491?milestone_title=14.1&label_name%5B%5D=group%3A%3Asource%20code) is created for each release by the PM, and is a curated list of issues by category. The EM requests engineers to assist in refining issues and allocate weights via the [refinement](/handbook/engineering/devops/dev/create/source-code/backend/#issue-refinement) process.
 
 ##### Capacity planning spreadsheet
 
@@ -412,7 +412,7 @@ At this point the issues are *Candidate* issues, and the milestone does not conf
 
 We use a system of weights to assist in forecasting the capacity each issue will require to be completed.
 
-These are either assigned by the EM or by engineers ad-hoc or following the [refinement](/handbook/engineering/development/dev/create/source-code/backend/#issue-refinement) process.
+These are either assigned by the EM or by engineers ad-hoc or following the [refinement](/handbook/engineering/devops/dev/create/source-code/backend/#issue-refinement) process.
 
 ##### Weight categories
 

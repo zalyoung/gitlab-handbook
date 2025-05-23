@@ -3,11 +3,11 @@ title: "Create:Code Review Backend Engineering Resources"
 description: Resources for the backend team members of the Create:Code Review group
 ---
 
-This page contains engineering resources for the Create:Code Review Backend team. For day-to-day work of the team, please review the [Create:Code Review BE handbook page](/handbook/engineering/development/dev/create/code-review/backend/).
+This page contains engineering resources for the Create:Code Review Backend team. For day-to-day work of the team, please review the [Create:Code Review BE handbook page](/handbook/engineering/devops/dev/create/code-review/backend/).
 
 ## Team building
 
-Every two weeks a question/activity will be posted in the code-review-backend slack channel to enable the team to have a more relaxed interaction with each other. Currently, in the team, it is impossible to get everyone on a synchronous call and while the team days work well, they are at the create stage level. This team-building exercise is aimed more specifically at the [Code Review Backend Team](/handbook/engineering/development/dev/create/code-review/backend/#team-members).
+Every two weeks a question/activity will be posted in the code-review-backend slack channel to enable the team to have a more relaxed interaction with each other. Currently, in the team, it is impossible to get everyone on a synchronous call and while the team days work well, they are at the create stage level. This team-building exercise is aimed more specifically at the [Code Review Backend Team](/handbook/engineering/devops/dev/create/code-review/backend/#team-members).
 
 Some examples would be:
 
@@ -42,6 +42,6 @@ This is a list of commonly requested training and some additional resources:
 
 ### Additional resources
 
-- [Create Stage Professional Development](/handbook/engineering/development/dev/create/#professional-development)
+- [Create Stage Professional Development](/handbook/engineering/devops/dev/create/#professional-development)
 - [Level Up](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/dashboard)
 - [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/)

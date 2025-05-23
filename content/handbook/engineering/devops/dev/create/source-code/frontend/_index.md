@@ -107,7 +107,7 @@ To prevent the creation of knowledge silos and also receiving input from people 
 1. EM will create a refinement issue ([example](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/issues/249)) and distribute tasks labeled `workflow::refinement` among engineers.
 1. Engineers or EM will follow the checklist for assigned issues, work with PM, UX, and other engineering counterparts where necessary to address questions and concerns.
 1. If the planned implementation of the issue can be further broken down, the engineer/EM will work with the PM to reduce scope and create new issues until this is the case (either PM or engineer/EM can create new work items).
-1. Once an issue is fully refined, engineers or EM will add an appropriate [weight](/handbook/engineering/development/dev/create/source-code/backend/#weight-categories) and label it as `workflow::ready for development`. These issues can then be added to the milestone.
+1. Once an issue is fully refined, engineers or EM will add an appropriate [weight](/handbook/engineering/devops/dev/create/source-code/backend/#weight-categories) and label it as `workflow::ready for development`. These issues can then be added to the milestone.
 
 #### Diagram
 

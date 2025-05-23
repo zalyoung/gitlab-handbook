@@ -15,8 +15,8 @@ The following people are permanent members of the Create:Code Review Group:
 
 ### Sub-department specific pages
 
-- [Backend](/handbook/engineering/development/dev/create/code-review/backend/)
-- [Frontend](/handbook/engineering/development/dev/create/code-review/frontend/)
+- [Backend](/handbook/engineering/devops/dev/create/code-review/backend/)
+- [Frontend](/handbook/engineering/devops/dev/create/code-review/frontend/)
 
 ### Product categories
 
@@ -192,4 +192,4 @@ All feedback from the retrospective should ultimately end up in the issue for re
 
 Even though the topic of Merge Request falls under Code Review, the code powering the Merge Request Report Widgets (see [Working Group](/handbook/company/working-groups/merge-request-report-widgets/)) is written and maintained by a larger group.
 
-Please refer to the [List of DRIs](/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list/) for communication and troubleshooting purposes relating to these Widgets.
+Please refer to the [List of DRIs](/handbook/engineering/devops/dev/create/code-review/report-widgets-dri-list/) for communication and troubleshooting purposes relating to these Widgets.
