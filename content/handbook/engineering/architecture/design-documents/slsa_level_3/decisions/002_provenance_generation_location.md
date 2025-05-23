@@ -46,7 +46,7 @@ This ADR documents the decision on where to generate SLSA provenance statements 
 **Pros:**
 
 - In control plane.
-- Esasy deployment, maintenance, and monitoring.
+- Easy deployment, maintenance, and monitoring.
 - Easy setup: provenance generation could be enabled in GitLab UI
 - Compliance: provenance an be enforced regardless of what's defined in CI/CD configuration.
 - Security: Rails backend can check the runner's identity.
@@ -111,6 +111,8 @@ The Rails backend has access to all necessary metadata to generate complete prov
 
 2. build ID (from job record)
 3. runner ID (verified by the backend)
+1. build ID (from job record)
+1. runner ID (verified by the backend)
 1. repository URL and commit SHA (from job payload)
 4. CI/CD variables (from job payload)
 5. artifact digests (stored in `ci` database accessible from backend)
@@ -133,7 +135,7 @@ If needed, provenance generation can be handled by background jobs to further mi
 Tracking these files would make it possible to generate the `resolvedDependencies` field.
 However, SLSA L3 requirements state that completeness of that field is best effort.
 - Cannot track files written by the build job.
-Tracking these fiels would make it possible to generate the `byProducts` field.
+Tracking these fields would make it possible to generate the `byProducts` field.
 However, this field isn't required.
 
 ### Future Considerations
