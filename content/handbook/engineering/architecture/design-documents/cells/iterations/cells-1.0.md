@@ -448,6 +448,7 @@ Exit Criteria:
 - New users can register to a organization via invite flow.
 - Users belonging to new organization can log into the cell.
 - Organization owners can create groups and projects.
+- Supported features are validated to work on cells.
 
 Before/After:
 
